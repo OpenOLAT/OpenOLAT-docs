@@ -24,6 +24,7 @@ Owners of the course always find the menu item. Other authors only see it if the
 ## Export test learning resource {: #export_learning_resource}
 
 Test learning resources contain entire sets of questions and can be integrated into test course elements as question packs, including configuration (total number of points, etc.).
+
 A test learning resource can also be exported in the administration of the learning resource under:<br>`Test > Administration > Export content`
 
 Here too, owners always find the menu item, other authors only if exporting is allowed in the tab "Share".
@@ -135,7 +136,7 @@ In the dialog "Export" you choose the format in the step "Type". Word and QTI 2.
 
 ### Test Statistics
 
-One way to evaluate the test results is in statistical form. To do this, use the **"Test Statistics" button** in the "Participants" tab. The button is available to coaches and owners when they select a "Test" course element in run mode.
+Whoever wants to know how a test turned out sees the key figures of the whole test and of each individual question in the test statistics. To do this, use the **"Test Statistics" button** in the "Participants" tab of the "Test" course element. The button is available to coaches and owners. You find the evaluation of all tests of the course under `Course > Administration > Test statistics`, see [Test statistics](Statistics_Test.md).
 
 ![Test Statistics button above the list of participants marked](assets/test_export_statistics1_v1_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element · 2026.10.01" }
 
@@ -152,6 +153,7 @@ Whoever wants to evaluate, print or archive the results of a test receives a zip
 ![Export results button above the list of participants marked](assets/test_export_results1_v1_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element · 2026.10.01" }
 
 If you have decided to create a zip file, you can specify a name for the zip file and choose one of the options offered for its contents.
+
 Two variants of a zip file can be created:
 
 * The **standard export** contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
@@ -220,6 +222,7 @@ For each question, the column "Score" contains the score of the question. For au
 **Mentioned on this page**<br>
 [Access configuration >](Access_configuration.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[Test statistics >](Statistics_Test.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test.md)
 

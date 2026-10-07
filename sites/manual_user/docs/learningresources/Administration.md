@@ -170,7 +170,7 @@ Here you can create a new course-specific database that can store certain course
 
 ## Course statistics {: #course_statistics}
 
-This course function shows you statistics on access to your OpenOlat course. All owners of this course have access to the statistics.
+This course function shows you statistics on access to your OpenOlat course. All owners of this course have access to the statistics. Coaches and other members only see the menu item if they have been granted the right "Statistics".
 
 [See the details >](Statistics_Course.md)<br>
 [To the top of the page ^](#course_administration)
@@ -178,7 +178,7 @@ This course function shows you statistics on access to your OpenOlat course. All
 
 ## Test statistics {: #test_statistics}
 
-The test statistics allow general course-related, anonymized statistical assessment of the OpenOlat tests in a course. All tests contained in the course are displayed. The menu item appears as soon as the course contains a test with results that can be evaluated.
+The test statistics allow general course-related, anonymized statistical assessment of the OpenOlat tests in a course. All tests contained in the course are displayed. The menu item appears as soon as the course contains a "Test" course element.
 
 [See the details >](Statistics_Test.md)<br>
 [To the top of the page ^](#course_administration)
@@ -186,7 +186,7 @@ The test statistics allow general course-related, anonymized statistical assessm
 
 ## Survey statistics {: #survey_statistics}
 
-The survey statistics allow you to carry out a general course-related, anonymized statistical assessment of your surveys. The menu item appears as soon as the course contains a survey with results that can be evaluated.
+The survey statistics allow you to carry out a general course-related, anonymized statistical assessment of your surveys. The menu item appears as soon as the course contains a "Survey" course element.
 
 [See the details >](Statistics_Survey.md)<br>
 [To the top of the page ^](#course_administration)

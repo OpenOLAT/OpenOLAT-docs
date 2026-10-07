@@ -10,7 +10,7 @@ The Course Planner also has the roles Product owner (assigned at the product), E
 
 Organisation roles include organisation-wide authorisations (as defined for the OpenOlat instance). The organisation roles are assigned in the user management.
 
-![All 15 organisation roles from author to system administrator as a selection list, in the Roles tab of the user management](assets/roles_rights_system_roles_v2_de.png){ class="shadow lightbox" }
+![All 15 organisation roles from author to system administrator as a selection list, in the Roles tab of the user management](assets/roles_rights_system_roles_v2_de.png){ class="shadow lightbox" title="Roles tab of the user management" }
 
 * **Author**: Authors have access to Authoring in the top navigation. This allows them to create courses and all other learning resources. In the search mask authors find all courses and learning resources such as tests, films and portfolio templates which are accessible to them. This role is often assigned to teachers or e-learning managers.
 * **Learning resource manager**: Learning resource managers automatically have owner rights (= full access) for all courses and learning resources belonging to the own organisation (see [Administrative access](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" the access is read-only. The courses and learning resources can be found in Authoring and can be copied as well as exported.
@@ -119,7 +119,7 @@ Group participants have the same rights as the role course participant.
 
 Under `Course > Administration > Members management > Rights` further *rights packages* can be assigned to course coaches, course participants, group participants or group coaches (specific to each group).
 
-![Nine rights packages from Group management to Course database as checkboxes per course role and group, Rights tab in the members management of the course](assets/memebers_managent.png){ class="shadow lightbox" }
+![Nine rights packages from Group management to Course database as checkboxes per course role and group, Rights tab in the members management of the course](assets/memebers_managent.png){ class="shadow lightbox" title="Rights tab of the members management" }
 
 ![1](assets/1_green_24.png){ class=" aside-left-lg" }
 **Group management**<br>

@@ -10,7 +10,7 @@ Im Course Planner gelten zusätzlich die Rollen Produktbesitzer:in (vergeben bei
 
 Zu Organisationsrollen gehören organisationsweit (wie innerhalb der OpenOlat-Instanz definiert) gültige Berechtigungen. Die Organisationsrollen werden in der Benutzerverwaltung vergeben.
 
-![Alle 15 Organisationsrollen von Autor:in bis Systemadministrator:in als Auswahlliste, im Tab Rollen der Benutzerverwaltung](assets/roles_rights_system_roles_v2_de.png){ class="shadow lightbox" }
+![Alle 15 Organisationsrollen von Autor:in bis Systemadministrator:in als Auswahlliste, im Tab Rollen der Benutzerverwaltung](assets/roles_rights_system_roles_v2_de.png){ class="shadow lightbox" title="Tab Rollen der Benutzerverwaltung" }
 
 * **Autor:in**: Autor:innen haben Zugriff auf den Autorenbereich in der obersten Navigation. Damit sind sie berechtigt, Kurse und alle weiteren Lernressourcen zu erstellen. In der Suchmaske finden Autor:innen alle Kurse und Lernressourcen wie Tests, Filme und Portfoliovorlagen, welche für sie zugänglich sind. Diese Rolle wird häufig an Lehrende oder E-Learning-Verantwortliche vergeben.
 * **Lernressourcenverwalter:in**: Lernressourcenverwalter:innen haben automatisch Besitzerrechte (= Vollzugriff) für alle Kurse und Lernressourcen, die der eigenen Organisation (siehe [Administrative Freigabe](../learningresources/Access_configuration.de.md#administrative-freigabe)) angehören. Im Status "Beendet" und "Gelöscht" ist der Zugriff lesend. Über den Autorenbereich sind die Kurse und Lernressourcen auffindbar und können kopiert sowie exportiert werden.
@@ -119,7 +119,7 @@ Gruppenteilnehmer:innen haben die gleichen Rechte wie die Rolle Kursteilnehmer:i
 
 Unter `Kurs > Administration > Mitgliederverwaltung > Rechte` können weitergehende *Rechtepakete* an Kursbetreuer:innen, Kursteilnehmer:innen, Gruppenteilnehmer:innen oder Gruppenbetreuer:innen (spezifisch je Gruppe) vergeben werden.
 
-![Neun Rechtepakete von Gruppen-Verwaltung bis Kurs Datenbank als Checkboxen je Kursrolle und Gruppe, Tab Rechte in der Mitgliederverwaltung des Kurses](assets/roles_membermanagement_rights_v1_de.png){ class="shadow lightbox" }
+![Neun Rechtepakete von Gruppen-Verwaltung bis Kurs Datenbank als Checkboxen je Kursrolle und Gruppe, Tab Rechte in der Mitgliederverwaltung des Kurses](assets/roles_membermanagement_rights_v1_de.png){ class="shadow lightbox" title="Tab Rechte der Mitgliederverwaltung" }
 
 ![1](assets/1_green_24.png){ class=" aside-left-lg" }
 **Gruppen-Verwaltung**<br>
@@ -177,7 +177,7 @@ Ist noch kein Glossar angelegt (Glossar-Icon in der Werkzeugleiste noch nicht si
 **Statistiken**<br>
 Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. Die verfügbaren Optionen entsprechen denen der Kursbesitzer:innen.
 
-[Mehr zu Kurs-Statistiken >](../learningresources/Statistics_Course.de.md)
+[Mehr zu Kursstatistiken >](../learningresources/Statistics_Course.de.md)
 
 
 ![8](assets/8_green_24.png){ class=" aside-left-lg" }
@@ -269,7 +269,7 @@ In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations)
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
 [Glossar >](../learningresources/Glossary.de.md)<br>
-[Kurs Statistiken >](../learningresources/Statistics_Course.de.md)<br>
+[Kursstatistiken >](../learningresources/Statistics_Course.de.md)<br>
 [Prüfungsverwaltung: Übersicht >](../learningresources/Assessment_Management.de.md)<br>
 [Coaching - Personen >](../area_modules/Coaching_People.de.md)<br>
 [Kontosuche >](../../manual_admin/usermanagement/Search_Users.de.md)

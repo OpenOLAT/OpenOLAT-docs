@@ -218,7 +218,7 @@ plugins:
           Convert to learning path course : In Lernpfad-Kurs konvertieren
           Copy (a course) : Kopieren (eines Kurses)
           Copy with wizard : Kopieren mit Wizard
-          Core functions : Core Konfiguration
+          Core functions : Core-Konfiguration
           Course : Kurs
           Course design : Kursdesign
           Courses : Kurse
@@ -246,7 +246,7 @@ plugins:
           Course Problems and Error Messages : Probleme und Fehlermeldungen im Kurs
           Course Reminders : Erinnerung
           Course Settings : Kurseinstellungen
-          Course statistics : Kurs Statistiken
+          Course statistics : Kursstatistiken
           Courses and Catalog : Kurse und Katalog
           COVID certificate: COVID Zertifikat
           CP Editor : CP Editor
@@ -633,7 +633,7 @@ plugins:
           Test editor QTI 2.1 : Testeditor
           Test question types : Test Fragetypen
           Test settings : Test Einstellungen
-          Test statistics : Test Statistiken
+          Test statistics : Teststatistiken
           The assessment form : Das Bewertungsformular
           The Idea of Open-Source Software : Der Open-Source-Gedanke
           The portfolio editor : Der Portfolio Editor

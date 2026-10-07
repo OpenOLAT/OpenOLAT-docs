@@ -151,15 +151,15 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zu Lernressourcen und
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-sliders:{ .lg .middle } __System und Core Konfiguration__
+-   :fontawesome-solid-sliders:{ .lg .middle } __System und Core-Konfiguration__
 
     ---
 
-    Die Systemeinstellungen entscheiden, wie sich die gesamte Installation verhält und wie sie auftritt. Hier legen Sie die Grundlagen, die Core Konfiguration und das Customizing Ihres OpenOlat fest.
+    Die Systemeinstellungen entscheiden, wie sich die gesamte Installation verhält und wie sie auftritt. Hier legen Sie die Grundlagen, die Core-Konfiguration und das Customizing Ihres OpenOlat fest.
 
     [:octicons-arrow-right-24: System](administration/System.de.md)
 
-    [:octicons-arrow-right-24: Core Konfiguration](administration/Core_functions.de.md)
+    [:octicons-arrow-right-24: Core-Konfiguration](administration/Core_functions.de.md)
 
     [:octicons-arrow-right-24: Startseite](administration/Landing_pages.de.md)
 

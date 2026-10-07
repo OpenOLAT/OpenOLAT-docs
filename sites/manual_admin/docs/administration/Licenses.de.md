@@ -2,11 +2,11 @@
 
 Lizenzen sind in OpenOlat optional. Administrator:innen konfigurieren sie in der
 System-Administration unter:<br>
-`Administration > Core Konfiguration > Lizenzen`
+`Administration > Core-Konfiguration > Lizenzen`
 
 ## Lizenzen in Bereichen aktivieren {: #licences_activation}
 
-![Lizenzen in der Core Konfiguration: unter Lizenzen aktivieren in stehen die Bereiche Ordner, Fragenpool und Lernressourcen als Checkboxen, alle drei angewählt](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
+![Lizenzen in der Core-Konfiguration: unter Lizenzen aktivieren in stehen die Bereiche Ordner, Fragenpool und Lernressourcen als Checkboxen, alle drei angewählt](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
 
 Die Verwendung von Lizenzen ist für folgende Bereiche in OpenOlat möglich:
 
@@ -44,7 +44,7 @@ Dialog, in dem der Lizenzname, ein zugehöriger Lizenztext sowie eine CSS-Klasse
 eingetragen werden können. So erstellte Lizenztypen können nachträglich nur
 bearbeitet, aber nicht gelöscht werden.
 
-![Pflichtfeld Name, mehrzeiliges Feld Lizenztext und Feld CSS Klasse mit den Buttons Abbrechen und Speichern im Dialog Lizenz erstellen](assets/LizenzMgmt_eigeneLizenz_DE.png){ class="shadow lightbox" }
+![Pflichtfeld Name, mehrzeiliges Feld Lizenztext und Feld CSS Klasse mit den Buttons Abbrechen und Speichern im Dialog Lizenz erstellen](assets/LizenzMgmt_eigeneLizenz_DE.png){ class="shadow lightbox" title="Dialog Lizenz erstellen" }
 
 Alle verfügbaren Lizenzen werden in der Übersicht dargestellt. Mit den Pfeilen
 in den Spalten "Hoch" und "Runter" kann die Anzeige-Reihenfolge der Lizenzen
@@ -57,7 +57,7 @@ der Übersicht nur sichtbar, wenn die Lizenzen generell für den jeweiligen
 Bereich aktiviert sind. Es ist hier möglich, für die einzelnen Bereiche nur
 bestimmte Lizenztypen zu aktivieren.
 
-![Button Lizenz erstellen hervorgehoben über der Übersicht der Lizenztypen mit den Aktivierungs-Checkboxen je Bereich Ordner, Fragenpool und Lernressourcen](assets/LizenzMgmt_Lizenztypen_DE.png){ class="shadow lightbox" }
+![Button Lizenz erstellen hervorgehoben über der Übersicht der Lizenztypen mit den Aktivierungs-Checkboxen je Bereich Ordner, Fragenpool und Lernressourcen](assets/LizenzMgmt_Lizenztypen_DE.png){ class="shadow lightbox" title="Übersicht der Lizenztypen" }
 
 Lizenztypen, die als Open Educational Resource gelten, tragen ein
 OER-Kennzeichen. Bei den Standardlizenztypen sind das die sieben

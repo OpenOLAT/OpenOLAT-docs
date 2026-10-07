@@ -1,7 +1,7 @@
 # Startseite {: #landing_pages}
 
 Administrator:innen legen hier feingranular fest, welche Benutzer:innen welche Startseite angezeigt bekommen, wenn sie sich in OpenOlat einloggen. Sie finden die Einstellung in der System-Administration unter:<br>
-`Administration > Core Konfiguration > Startseite`
+`Administration > Core-Konfiguration > Startseite`
 
 Sie grenzen die Benutzer:innen entweder anhand der Rolle und / oder eines Benutzer:innen-Attributes ein, und weisen ihnen dann mittels Startseite und Auswahl die entsprechende Startseite zu. Es können so viele Regeln wie benötigt erstellt werden, bitte beachten Sie jedoch, dass immer die zuerst zutreffende Regel angewandt wird. Die Regeln sind voneinander unabhängig und müssen nicht alle zutreffen, lediglich die Reihenfolge ist relevant.
 
@@ -9,7 +9,7 @@ Sie grenzen die Benutzer:innen entweder anhand der Rolle und / oder eines Benutz
 
     Die benutzerspezifische Startseite, die Benutzer:innen im persönlichen Menü unter [`Einstellungen > System > Spezielle Systemeinstellungen`](../../manual_user/personal_menu/Settings.de.md#special) für sich persönlich festlegen, überschreibt die systemweite Startseite.
 
-![Drei Regeln nach Position, je mit Rolle, Benutzer:innen-Attribut, Wert, Startseite und Auswahl, dazu Hoch, Runter, Hinzufügen und Löschen; Seite Startseite in der Core Konfiguration](assets/admin_landingPage_DE.png){ class="shadow lightbox" }
+![Drei Regeln nach Position, je mit Rolle, Benutzer:innen-Attribut, Wert, Startseite und Auswahl, dazu Hoch, Runter, Hinzufügen und Löschen; Seite Startseite in der Core-Konfiguration](assets/admin_landingPage_DE.png){ class="shadow lightbox" title="Seite Startseite in der Core-Konfiguration" }
 
 Die **Position** legt fest, in welcher Reihenfolge die Regeln abgefragt werden: die Regel, die zuerst zutrifft, bestimmt die Seite für die betreffenden Benutzer:innen. Die Position ändern Sie über die Spalten **Hoch** / **Runter**. Weitere Regeln fügen Sie über die Spalte **Hinzufügen** hinzu, über **Löschen** entfernen Sie eine Regel. Mit **Speichern** übernehmen Sie die Regeln.
 
@@ -28,7 +28,7 @@ Für einen Kurs sieht das folgendermassen aus:
 
 Wenn Sie also einen Link aus der Adresszeile des Browsers verwenden, müssen Sie die URL immer nach dem entsprechenden Schema kürzen:
 
-![Von der Browser-URL bleibt nur der Teil nach /auth/ übrig, hier MyCoursesSite/0 rot markiert; Adresszeile des Browsers](assets/landingPage_URL.png){ class="shadow lightbox" }
+![Von der Browser-URL bleibt nur der Teil nach /auth/ übrig, hier MyCoursesSite/0 rot markiert; Adresszeile des Browsers](assets/landingPage_URL.png){ class="shadow lightbox" title="Adresszeile des Browsers" }
 
 !!! info "Wichtig"
 
@@ -41,7 +41,7 @@ Wenn Sie also einen Link aus der Adresszeile des Browsers verwenden, müssen Sie
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)
 
 **Weiterführend**<br>
-[Core Konfiguration: Übersicht >](../administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../administration/Core_functions.de.md)<br>
 [Customizing: Übersicht >](../administration/Customizing.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)
 

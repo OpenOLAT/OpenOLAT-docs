@@ -4,7 +4,7 @@ Alle registrierten OpenOlat-Benutzer:innen verfügen über ein persönliches Men
 
 Sie öffnen das Menü rechts oben in der Menüleiste mit einem Klick auf Ihr Profilbild oder auf den kleinen Pfeil daneben. Solange Sie kein Profilbild hinterlegt haben, zeigt OpenOlat dort Ihre Initialen. Das Menü legt sich als Bereich über den rechten Rand des Fensters. Mit dem Schliessen-Symbol links oben im Bereich blenden Sie es wieder aus.
 
-![Profilbild rechts oben in der Menüleiste, mit Kreis und Pfeil markiert, öffnet das persönliche Menü; links davon die Hauptnavigation mit Kurse, Gruppen, Katalog und Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox"}
+![Profilbild rechts oben in der Menüleiste, mit Kreis und Pfeil markiert, öffnet das persönliche Menü; links davon die Hauptnavigation mit Kurse, Gruppen, Katalog und Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox" title="Menüleiste oben rechts" }
 
 
 ## Steckbrief
@@ -65,13 +65,13 @@ Eine ausführliche Beschreibung aller Werkzeuge finden Sie auf der Seite [Persö
 
 ## Verfügbare Werkzeuge {: #available_tools}
 
-Welche Werkzeuge Ihnen überhaupt angeboten werden, entscheidet die Administration. Sie gibt in der System-Administration unter `Administration > Core Konfiguration > Persönliche Werkzeuge` frei, welche Werkzeuge zur Verfügung stehen, und legt in der Voreinstellung fest, welche davon standardmässig in der Menüleiste erscheinen. Ihr persönliches Menü kann deshalb mehr oder weniger Einträge enthalten, als auf dieser Seite aufgeführt sind.
+Welche Werkzeuge Ihnen überhaupt angeboten werden, entscheidet die Administration. Sie gibt in der System-Administration unter `Administration > Core-Konfiguration > Persönliche Werkzeuge` frei, welche Werkzeuge zur Verfügung stehen, und legt in der Voreinstellung fest, welche davon standardmässig in der Menüleiste erscheinen. Ihr persönliches Menü kann deshalb mehr oder weniger Einträge enthalten, als auf dieser Seite aufgeführt sind.
 
 Konten mit der Rolle Einladung sehen im persönlichen Menü nur Hilfe, Abonnements und Passwort, solange ihnen keine weitere Rolle zugewiesen ist.
 
 Die Bereiche der Hauptnavigation, zum Beispiel Kurse, Gruppen oder Katalog, gehören nicht zum persönlichen Menü. Ob Sie einen Bereich sehen, entscheidet die Administration: Das Modul muss aktiv sein, der Bereich freigeschaltet und Ihre Rolle zugelassen. Sie selbst können ihn nicht einschalten. Fehlt ein Bereich, prüfen Sie zuerst das Menü **Mehr** am rechten Rand der Hauptnavigation. Was über einen Bereich entscheidet, beschreibt die Seite [Bereiche und Module](../area_modules/index.de.md#conditions).
 
-[Core Konfiguration: Persönliche Werkzeuge (Administrationshandbuch) >](../../manual_admin/administration/Core_functions.de.md#personal_tools)
+[Core-Konfiguration: Persönliche Werkzeuge (Administrationshandbuch) >](../../manual_admin/administration/Core_functions.de.md#personal_tools)
 
 
 ## Werkzeuge in die Menüleiste verschieben [:octicons-tag-16:{ title="ab Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #move_tools}
@@ -83,7 +83,7 @@ Die Einstellung dazu nehmen Sie vor unter<br>
 
 Markieren Sie dort die Kontrollkästchen der Werkzeuge, die in der Menüleiste erscheinen sollen, und speichern Sie.
 
-![Kontrollkästchen Kalender markiert, die Liste enthält auch Profil, Zertifikate und Drucken, im Tab System der Einstellungen](assets/pers_menu_move_item_v2_de.png){ class="shadow lightbox"}
+![Kontrollkästchen Kalender markiert, die Liste enthält auch Profil, Zertifikate und Drucken, im Tab System der Einstellungen](assets/pers_menu_move_item_v2_de.png){ class="shadow lightbox" title="Tab System der Einstellungen" }
 
 Zur Auswahl stehen nicht nur die persönlichen Werkzeuge, sondern auch Einträge der übrigen Abschnitte, zum Beispiel **Zertifikate**, **Einstellungen** oder **Drucken**.
 
@@ -97,7 +97,7 @@ Zur Auswahl stehen nicht nur die persönlichen Werkzeuge, sondern auch Einträge
 
 Im Beispiel ist der **Kalender** in die Menüleiste verschoben. Nach dem nächsten Login liegt sein Symbol links neben dem Chat-Status, und im persönlichen Menü fehlt der Eintrag.
 
-![Kalendersymbol in der Menüleiste neben dem Chat-Status, mit Kreis markiert; im geöffneten persönlichen Menü fehlt der Eintrag Kalender](assets/pers_menu_moved_tool_v2_de.png){ class="shadow lightbox"}
+![Kalendersymbol in der Menüleiste neben dem Chat-Status, mit Kreis markiert; im geöffneten persönlichen Menü fehlt der Eintrag Kalender](assets/pers_menu_moved_tool_v2_de.png){ class="shadow lightbox" title="Menüleiste und persönliches Menü" }
 
 !!! tip "Tipp"
 
@@ -110,13 +110,13 @@ Im Beispiel ist der **Kalender** in die Menüleiste verschoben. Nach dem nächst
 
 Zwei Werkzeuge stehen nicht im persönlichen Menü, sondern grundsätzlich in der Menüleiste: der [Chat](../basic_concepts/Chat.de.md) (Instant Messaging) mit Ihrem Status und dem Zähler der ungelesenen Nachrichten sowie die [Suche](../basic_concepts/Full_Text_Search.de.md). Sie lassen sich nicht verschieben.
 
-![Chat-Status, Zähler der ungelesenen Nachrichten und Suchsymbol rechts in der Menüleiste, mit Kreis markiert](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox"}
+![Chat-Status, Zähler der ungelesenen Nachrichten und Suchsymbol rechts in der Menüleiste, mit Kreis markiert](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox" title="Menüleiste rechts" }
 
 
 ## Weiterführende Informationen {: #further_information}
 
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
-[Core Konfiguration: Übersicht (Administrationshandbuch) >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht (Administrationshandbuch) >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Chat >](../basic_concepts/Chat.de.md)<br>
 [Volltextsuche >](../basic_concepts/Full_Text_Search.de.md)

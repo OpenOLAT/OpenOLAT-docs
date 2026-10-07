@@ -1,6 +1,6 @@
 # Test Einstellungen - Administration {: #test_settings}
 
-Im Bereich `Test > Administration` finden Sie, ähnlich wie bei anderen Lernressourcen, weitere Menüs. Hier konfigurieren Sie den Test näher. Besonders wichtig sind dabei die Menüs "Einstellungen" und "Testeditor". Den Bereich sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen.
+Im Bereich `Test > Administration` finden Sie, ähnlich wie bei anderen Lernressourcen, weitere Menüs. Hier konfigurieren Sie den Test näher. Besonders wichtig sind dabei die Menüs "Einstellungen" und "Testeditor". Den Bereich sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen. Bei einem eigenständigen Test sehen ihn auch Betreuer:innen, darin die Einträge "Bewertungswerkzeug" und "Test Statistik".
 
 ![Menü Administration mit elf Einträgen von "Einstellungen" bis "Löschen", darunter "Testeditor", davon "Angebotsarten" ausgegraut](assets/test_administration_menu_v2_de.png){ class="shadow lightbox" title="Menü Administration einer veröffentlichten Test-Lernressource · 2026.09.28" }
 
@@ -14,17 +14,19 @@ Der Eintrag **"Testeditor"** öffnet den Testeditor. Dort legen Sie die Fragen u
     Übersicht zum Testeditor.<br>
     [Testeditor](Test_editor_QTI_2.1.de.md)
 
-Das **"Bewertungswerkzeug"** des Tests erscheint nur, wenn der Test kursunabhängig verwendet werden soll: `Test > Administration > Einstellungen > Tab "Freigabe"`, Verwendungszweck "Eigenständige".
+Das **"Bewertungswerkzeug"** des Tests erscheint nur, wenn der Test kursunabhängig verwendet werden soll: `Test > Administration > Einstellungen > Tab "Freigabe"`, Verwendungszweck "Eigenständig".
 
 Im Menü **"Korrektur-Workflow"** können für den Test Korrektor:innen hinzugefügt werden (siehe unten). 
 
-Das Menü **"Test Statistiken"** erscheint nur bei unabhängigen Tests, ansonsten werden die Test Statistiken im jeweiligen Kursmenü angezeigt.
+Das Menü **"Test Statistik"** erscheint nur bei eigenständigen Tests. Läuft der Test in einem Kurs, finden Sie die Statistik im Menü Administration des Kurses: `Kurs > Administration > Teststatistiken`.
 
 Das Menü **"Angebotsarten"** ist nur aktiv, wenn der Test buchbar konfiguriert wurde.
 
 Mit Hilfe eines Wizards können basierend auf dem Online-Test unter **"Handschriftliche Prüfungen generieren"** Prüfungen für den Druck erzeugt werden (siehe unten). Der Eintrag erscheint nur, wenn der PDF Generator eingeschaltet ist. Sie finden ihn in der System-Administration unter: `Administration > Externe Werkzeuge > PDF Generator`.
 
 Über die Menüs "Kopieren", "Inhalt exportieren" und "Als Worddatei exportieren" können die Tests kopiert bzw. gespeichert werden. 
+
+**"Über diesen Test"** öffnet ein Fenster mit den technischen Angaben zum Test wie ID, Typ und externer Link.
 
 **"Löschen"** löscht die Lernressource Test. Sie finden sie anschliessend im Autorenbereich im Tab "Gelöscht".
 
@@ -192,7 +194,7 @@ Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" un
 ---
 
 
-## Handschriftliche Prüfungen generieren {: #create_paper_pencil}
+## Handschriftliche Prüfungen generieren [:octicons-tag-16:{ title="ab Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648) {: #create_paper_pencil}
 
 Wenn Sie offline eine Prüfung durchführen wollen, können Sie in diesem Wizard ein Deckblatt und verschiedene Versionen von Ihrer Testressource mit zufällig gewählten Antworten generieren lassen.
 

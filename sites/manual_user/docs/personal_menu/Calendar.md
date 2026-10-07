@@ -10,13 +10,13 @@ The calendar function is available in various places:
 
 * In the [course](../area_modules/Courses.md): <br>Access to course dates and access to all calendars of integrated groups. Course calendars can be integrated into a course element as well as into the toolbar.<br>
 
-![The course calendar is reachable in two ways: as the highlighted calendar icon in the course toolbar and as the Calendar entry in the course menu, here in the course Excel-Grundlagen](assets/pers_menu_calendar_course_v1_de.png){ class="shadow lightbox" }
+![The course calendar is reachable in two ways: as the highlighted calendar icon in the course toolbar and as the Calendar entry in the course menu, here in the course Excel-Grundlagen](assets/pers_menu_calendar_course_v1_de.png){ class="shadow lightbox" title="Toolbar and course menu of a course" }
 
 <br>:octicons-device-camera-video-24: **Video Introduction (German)**: [Course calendar](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank"}
 
 * In the [personal menu](../personal_menu/index.md) [(Personal tools)](../personal_menu/Personal_Tools.md):<br> In addition to your personal appointments, all appointments from the various courses and groups of which you are a member can be combined in your personal calendar. This gives you an overview. External calendars can also be imported according to individual requirements.
 
-![The calendars are nested: the personal calendar encloses the course calendar, which in turn encloses two group calendars. The appointments of the inner calendars are combined outwards](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" }
+![The calendars are nested: the personal calendar encloses the course calendar, which in turn encloses two group calendars. The appointments of the inner calendars are combined outwards](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" title="Nesting of the calendars" }
 
 
 !!! info "Important"
@@ -34,7 +34,7 @@ The calendar function is available in various places:
 
 To add a new appointment, click in the corresponding calendar field. A pop-up opens for the event details.
 
-![The nine entries of an appointment from top to bottom: Calendar, Subject, All day with Beginning and End, Recurrence, Location, Color, Description, Visibility and Links, below them the Save and Cancel buttons in the Event details dialogue](assets/pers_menu_calendar_details_v1_de.png){ class="shadow lightbox" }
+![The nine entries of an appointment from top to bottom, from Calendar to Links, below them the Save and Cancel buttons](assets/pers_menu_calendar_details_v1_de.png){ class="shadow lightbox" title="Event details dialog" }
 
 1. If you are a group member, first select the calendar in which you would like to create an appointment (personal calendar or group calendar) in the calendar pull-down menu at the top.
 
@@ -79,7 +79,7 @@ An appointment can also be moved using drag & drop.
 
 In the event details, the desired frequency of recurring appointments can be selected under "Recurrence". As soon as a recurrence is selected, the input field appears with which the end of the series is defined (mandatory field).
 
-![Highlighted are the Recurrence selection field with the value Monday - Friday and next to it the mandatory field ends on with the end date of the series, in the Event details dialogue](assets/pers_menu_calendar_recurrence_v1_de.png){ class="shadow lightbox" }
+![Highlighted are the Recurrence selection field with the value Monday - Friday and next to it the mandatory field ends on with the end date of the series, in the Event details dialogue](assets/pers_menu_calendar_recurrence_v1_de.png){ class="shadow lightbox" title="Event details dialog, Recurrence field" }
 
 Serial appointments can also be edited. To do this, click on one of the appointments in the calendar. When saving the adjustment, you can select whether the change applies to all appointments in the series or only to the selected appointment. If all appointments are to be changed, those appointments that have not previously been customized will be changed.
 
@@ -92,7 +92,7 @@ Serial appointments can also be edited. To do this, click on one of the appointm
 
 Specify here who can see the calendar entry.
 
-![Highlighted is the Visibility selection field with the value Private, directly below the Description field in the Event details dialogue](assets/pers_menu_calendar_visibility_v1_de.png){ class="shadow lightbox" }
+![Highlighted is the Visibility selection field with the value Private, directly below the Description field in the Event details dialogue](assets/pers_menu_calendar_visibility_v1_de.png){ class="shadow lightbox" title="Event details dialog, Visibility field" }
 
 Depending on the type of calendar (Personal calendar, group calendar, course calendar) the three visibility levels "Private", "Only time information visible" and "Public" have different effects:
 
@@ -128,11 +128,11 @@ The personal calendar displays:
 
 The "Settings" button (small button with the cogwheel icon) opens the calendar list.
 
-![Highlighted is the cogwheel icon in the calendar header, between the print icon and the feed icon: it opens the calendar list](assets/pers_menu_calendar_list_open_v1_de.png){ class="shadow lightbox" }
+![Highlighted is the cogwheel icon in the calendar header, between the print icon and the feed icon: it opens the calendar list](assets/pers_menu_calendar_list_open_v1_de.png){ class="shadow lightbox" title="Calendar header" }
 
 In the calendar list you will find all calendars that can be displayed in the current calendar (group, course, external and personal).
 
-![The Type column distinguishes the calendars by icon into personal calendar, imported external calendar, course calendar and group calendar, next to it the columns Color, Name, Identifier and Show in the calendar list](assets/pers_menu_calendar_list_v1_de.png){ class="shadow lightbox" }
+![Column Type with an icon for personal, external, course and group calendars, next to it Color, Name, Identifier and Show](assets/pers_menu_calendar_list_v1_de.png){ class="shadow lightbox" title="Calendar list" }
 
 The "Type" column shows with an icon which kind of calendar it is: personal calendar, group calendar, course calendar or imported external calendar.
 
@@ -159,7 +159,7 @@ If you want to add another independent calendar to the calendar list, use the bu
 Calendar files (.ics) can be added using the "Import file" button.<br>
 Clicking the small arrow next to it reveals the "Import from URL" entry.
 
-![Highlighted is the Import file button at the top right of the calendar list, next to it the opened arrow menu with the Import from URL entry](assets/pers_menu_calendar_list_add_v1_de.png){ class="shadow lightbox" }
+![Highlighted is the Import file button at the top right of the calendar list, next to it the opened arrow menu with the Import from URL entry](assets/pers_menu_calendar_list_add_v1_de.png){ class="shadow lightbox" title="Calendar list, Import file button" }
 
 
 !!! info "Please note:"
@@ -211,13 +211,19 @@ Other calendars (such as those from the PerformX system) can also be integrated 
 ---
 
 
-## Further information
+## Further information {: #further_information}
 
-[Course calendar](../learningresources/Using_Additional_Course_Features.md#course-calendar)<br>
-[Group calendar](../groups/Using_Group_Tools.md)<br>
-[Activate group calendar](../groups/Group_Administration.md#tools)<br>
-[Course element Calendar](../learningresources/Course_Element_Calendar.md)<br>
-[Activation of the calendar by administrators](../../manual_admin/administration/Core_functions.md#calendar_administration)<br>
+**Mentioned on this page**<br>
+[Using Group Tools >](../groups/Using_Group_Tools.md)<br>
+[Finding courses >](../area_modules/Courses.md)<br>
+[Personal menu >](../personal_menu/index.md)<br>
+[Personal tools >](../personal_menu/Personal_Tools.md)
+
+**Further reading**<br>
+[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
+[Group Administration >](../groups/Group_Administration.md)<br>
+[Course Element "Calendar" >](../learningresources/Course_Element_Calendar.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)
 
 
 [To the top of the page ^](#calendar)

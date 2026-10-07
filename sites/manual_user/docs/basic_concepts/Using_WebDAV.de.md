@@ -29,7 +29,7 @@ Um einen Ordner auf OpenOlat über WebDAV zu erreichen, benötigen Sie:
   * Ihren OpenOlat-Benutzernamen, alternativ die hinterlegte E-Mail-Adresse
   * Ihr OpenOlat-/WebDAV-Passwort
 
-Falls Sie mit Shibboleth oder einem Cloud Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV-Passwort in den Einstellungen im persönlichen Menü einrichten. Wählen Sie hierzu den Link "Einstellungen" und klicken Sie anschliessend im Tab "WebDAV" auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV-Zugang.
+Falls Sie mit Shibboleth oder einem Cloud-Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV-Passwort in den Einstellungen im persönlichen Menü einrichten. Wählen Sie hierzu den Link "Einstellungen" und klicken Sie anschliessend im Tab "WebDAV" auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV-Zugang.
 
 ## Problembehandlung
 

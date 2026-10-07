@@ -9,7 +9,7 @@ The settings allow you to adapt OpenOlat according to your needs.
 
 ## Tab System {: #tab_system}
 
-![Four numbered sections of the tab System, from the general system settings to the reset of the configurations, in the personal settings](assets/pers_menu_settings_tab_system_v1_de.png){ class="shadow lightbox" }
+![Four numbered sections of the tab System, from the general system settings to the reset of the configurations, in the personal settings](assets/pers_menu_settings_tab_system_v1_de.png){ class="shadow lightbox" title="System tab of the personal settings" }
 
 
 ### ![1](assets/1_green_24.png) General system settings {: #general}
@@ -78,7 +78,7 @@ If you have selected the setting "Yes, automatically", the field "Landing page" 
 You find page-specific links in the social sharing bar at the bottom left under "Copy link". It is even easier to click the landing page icon on the desired page. Any OpenOlat page you have access to can be selected as your personal landing page this way.
 
 **Landing page icon in the footer:**
-![Landing page icon in the footer marked with an arrow, below it the tooltip Set current page as personal start page in profile](assets/pers_menu_settings_tab_system_pers_startpage_v1_de.png){ class="shadow lightbox" }
+![Landing page icon in the footer marked with an arrow, below it the tooltip Set current page as personal start page in profile](assets/pers_menu_settings_tab_system_pers_startpage_v1_de.png){ class="shadow lightbox" title="Section Specific system settings" }
 
 
 ### ![3](assets/3_green_24.png) User tools {: #personal_tools}
@@ -87,7 +87,7 @@ Here you select which personal tools appear directly at the top in the main navi
 Tools that are displayed as an icon in the main navigation are no longer listed in the personal menu.
 
 **Example: "System settings" and "Badges" have been moved from the personal menu to the main navigation**
-![Check boxes System settings and Badges marked in the section User tools, their icons appear in the main navigation and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" }
+![Check boxes System settings and Badges marked in the section User tools, their icons appear in the main navigation and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" title="Section User tools in the System tab" }
 
 !!! tip "Tip"
 
@@ -115,7 +115,7 @@ In the tab "WebDAV" you find the [WebDAV link to your OpenOlat instance](../basi
 
 Under "Access data" you see your WebDAV username. With "Set password" you define a separate WebDAV password.
 
-![WebDAV address of the instance and below it the access data with WebDAV username, WebDAV password not set and button Set password, tab WebDAV of the personal settings](assets/pers_menu_settings_tab_webdav_v1_de.png){ class="shadow lightbox" }
+![WebDAV address of the instance and below it the access data with WebDAV username, WebDAV password not set and button Set password, tab WebDAV of the personal settings](assets/pers_menu_settings_tab_webdav_v1_de.png){ class="shadow lightbox" title="WebDAV tab of the personal settings" }
 
 [To the top of the page ^](#personal_configuration_settings)
 
@@ -126,7 +126,7 @@ Under "Access data" you see your WebDAV username. With "Set password" you define
 
 In the tab "Instant Messaging" you define the settings for the [chat function](../../manual_admin/administration/Instant_Messaging.md) and your communication status after login. With the option "Receive messages from all users" you specify whether all users may send you messages. Under "Default status after login" you choose between "Available", "Please do not disturb" and "Not available".
 
-![Option Receive messages from all users and the three statuses Available, Please do not disturb and Not available, tab Instant Messaging of the personal settings](assets/pers_menu_settings_tab_instant-messaging_v1_de.png){ class="shadow lightbox" }
+![Option Receive messages from all users and the three statuses Available, Please do not disturb and Not available, tab Instant Messaging of the personal settings](assets/pers_menu_settings_tab_instant-messaging_v1_de.png){ class="shadow lightbox" title="Instant Messaging tab of the personal settings" }
 
 
 [To the top of the page ^](#personal_configuration_settings)
@@ -140,7 +140,7 @@ Here you can read the terms of use, which you confirmed the first time you logge
 
 Furthermore you can request the deletion of your complete OpenOlat account here. The request is sent as an email to an address configured by the system administration; the deletion itself is carried out by the user management. More about this: [Data protection](../../manual_admin/usermanagement/Data_protection.md#request_account_deletion)
 
-![Text of the terms of use with the date of consent, button Ask to delete your account and three confirmed check boxes, tab Terms of use of the personal settings](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" }
+![Text of the terms of use with the date of consent, button Ask to delete your account and three confirmed check boxes, tab Terms of use of the personal settings](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" title="Terms of use tab of the personal settings" }
 
 [To the top of the page ^](#personal_configuration_settings)
 
@@ -164,7 +164,7 @@ How the export is triggered and who is allowed to do so is described on the page
 
 The GUI (Graphical User Interface) settings are stored in variables. Experts can use this tab to reset specific variable values.
 
-![Table of the stored GUI variables with the columns Assigned class and Key and one button Reset per row, tab GUI preferences of the personal settings](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" }
+![Table of the stored GUI variables with the columns Assigned class and Key and one button Reset per row, tab GUI preferences of the personal settings](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" title="GUI preferences tab of the personal settings" }
 
 [To the top of the page ^](#personal_configuration_settings)
 

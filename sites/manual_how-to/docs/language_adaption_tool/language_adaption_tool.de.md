@@ -196,7 +196,7 @@ Die Liste gilt immer für die Sprache, die im Feld "Sprache" gewählt ist. Rufen
 
 Wollen Sie nur innerhalb Ihrer eigenen Anpassungen suchen, wählen Sie im Abschnitt "Suche" bei "suchen in" die Option "Anpassungen".
 
-Einen Export der Übersetzungsliste gibt es nicht, weder als Tabelle noch als Datei. Wollen Sie die Liste festhalten, drucken Sie die angezeigte Übersetzungsliste aus dem Browser, zum Beispiel als PDF. Nach einem Klick auf "Anpassen" gehen Sie mit "Weiter" und "Zurück" durch die gefilterten Einträge, ohne etwas zu ändern. Der Button "Sprachpakete exportieren" in der System-Administration unter `Administration > Core Konfiguration > Sprache und Region` exportiert ganze Systemsprachen als Sprachpaket für eine andere OpenOlat-Instanz. Ihre Anpassungen sind darin nicht enthalten. Mehr dazu finden Sie unter [Sprache und Region](../../manual_admin/administration/Core_functions.de.md).
+Einen Export der Übersetzungsliste gibt es nicht, weder als Tabelle noch als Datei. Wollen Sie die Liste festhalten, drucken Sie die angezeigte Übersetzungsliste aus dem Browser, zum Beispiel als PDF. Nach einem Klick auf "Anpassen" gehen Sie mit "Weiter" und "Zurück" durch die gefilterten Einträge, ohne etwas zu ändern. Der Button "Sprachpakete exportieren" in der System-Administration unter `Administration > Core-Konfiguration > Sprache und Region` exportiert ganze Systemsprachen als Sprachpaket für eine andere OpenOlat-Instanz. Ihre Anpassungen sind darin nicht enthalten. Mehr dazu finden Sie unter [Sprache und Region](../../manual_admin/administration/Core_functions.de.md).
 
 !!! tip "Tipp"
 
@@ -264,7 +264,7 @@ Prüfen Sie Ihre Anpassungen deshalb nach einem grösseren Update. Die vollstän
 ## Weiterführende Informationen {: #further_information}
 
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
-[Core Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Customizing: Übersicht >](../../manual_admin/administration/Customizing.de.md)
 
 [Zum Seitenanfang ^](#how_to_use)

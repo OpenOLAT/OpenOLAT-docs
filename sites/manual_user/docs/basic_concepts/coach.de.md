@@ -109,7 +109,7 @@ Folgende Werkzeuge stehen den Kursbetreuer:innen standardmässig zur Verfügung.
 |Werkzeug| Funktionen  |
 |---|---  |
 |Bewertungswerkzeug| analog zum Kursbesitzer:in  |
-|Test Statistiken| analog zu Kursbesitzer:innen, kann jedoch Resultate von Besitzer:innen/Betreuer:innen nicht anzeigen  |
+|Teststatistiken| analog zu Kursbesitzer:innen, kann jedoch Resultate von Besitzer:innen/Betreuer:innen nicht anzeigen  |
 |Fragebogen Statistiken| analog zum Kursbesitzer:in |
 |Absenzen| Eintragen von Absenzen  |
 | Unterlagen Betreuer:in| Ablage von Dokumenten  |

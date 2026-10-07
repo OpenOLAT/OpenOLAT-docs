@@ -17,7 +17,7 @@ Medien können...
 * ... gefiltert werden (z.B. "Meine Medien")
 * ... nach Verwendungsort gesucht werden
 
-![Mein Media Center in der Kachelansicht mit Filtern nach Typ, Fachbereich, Verwendung und Freigabe, dem Button Mediendatei hinzufügen und der Speicheranzeige unten links](assets/media_center_concept_v1_de.png){ class=" shadow lightbox" }
+![Mein Media Center in der Kachelansicht mit Filtern nach Typ, Fachbereich, Verwendung und Freigabe, dem Button Mediendatei hinzufügen und der Speicheranzeige unten links](assets/media_center_concept_v1_de.png){ class=" shadow lightbox" title="Seite Mein Media Center" }
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -27,9 +27,9 @@ Medien können...
 
 Das Media Center ist zunächst ein individueller, persönlicher Bereich und deshalb auch im **persönlichen Menü** zu finden.
 
-![Markiertes Profilbild oben rechts in der Hauptnavigation öffnet das persönliche Menü](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" }
+![Markiertes Profilbild oben rechts in der Hauptnavigation öffnet das persönliche Menü](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Hauptnavigation oben rechts" }
 
-![Markierter Eintrag Media Center unter Persönliche Werkzeuge im geöffneten persönlichen Menü](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" }
+![Markierter Eintrag Media Center unter Persönliche Werkzeuge im geöffneten persönlichen Menü](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" title="Persönliches Menü, Persönliche Werkzeuge" }
 
 Auch wenn es sich um persönliche Medien handelt, können diese mit anderen Personen geteilt und in verschiedenen OpenOlat Kontexten verwendet werden.<br>
 [Mehr über das Teilen (Freigabe) >](#share)
@@ -69,7 +69,7 @@ Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** ab
 
 ## Medien dem Media Center hinzufügen [:octicons-tag-16:{ title="ab Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
-![Markiertes Aufklappmenü neben Mediendatei hinzufügen mit Datei, Video per URL, Video- und Audioaufzeichnung, draw.io Diagramm, Text und Zitat, in Mein Media Center](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" }
+![Markiertes Aufklappmenü neben Mediendatei hinzufügen mit Datei, Video per URL, Video- und Audioaufzeichnung, draw.io Diagramm, Text und Zitat, in Mein Media Center](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Aufklappmenü Mediendatei hinzufügen in Mein Media Center" }
 
 Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
@@ -92,7 +92,7 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center". Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten.
 
-![Aufklappmenü neben Mediendatei hinzufügen mit Dokument, draw.io Diagramm, Text, Video per URL, Video- und Audioaufzeichnung und Zitat, im Dialog Medium auswählen des Kursbausteins Seite](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" }
+![Aufklappmenü neben Mediendatei hinzufügen mit Dokument, draw.io Diagramm, Text, Video per URL, Video- und Audioaufzeichnung und Zitat, im Dialog Medium auswählen des Kursbausteins Seite](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Medium auswählen im Kursbaustein Seite" }
 
 
 ### Inhaltselemente sammeln und mit dem Media Center verknüpfen {: #assign_media}
@@ -108,7 +108,7 @@ Zu den Elementen gehören:
 
 Um z.B. ein Posting hinzuzufügen, öffnen Sie Ihren Forumsbeitrag und klicken auf das Puzzleteil.
 
-![Markiertes Puzzleteil-Symbol oben rechts an einem Forumsbeitrag, mit dem der Beitrag ins Media Center übernommen wird](assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" }
+![Markiertes Puzzleteil-Symbol oben rechts an einem Forumsbeitrag, mit dem der Beitrag ins Media Center übernommen wird](assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" title="Forumsbeitrag mit Puzzleteil-Symbol" }
 
 Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles speichern können. Anschliessend ist der Beitrag in Ihrem Media Center verlinkt verfügbar.
 
@@ -126,7 +126,7 @@ Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles
 Wenn Sie eine Mediendatei im Media Center hinzufügen, können Sie sie für andere Personen (Mitbenutzer:innen) freigeben.
 
 Die Ansicht, die Benutzer:innen dabei sehen:<br>
-![Markierter Bereich Share im Dialog Mediendatei hinzufügen mit dem Button Freigabe hinzufügen und den Freigabezielen Benutzer:in, Gruppe, Kurs und Organisation](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" }
+![Markierter Bereich Share im Dialog Mediendatei hinzufügen mit dem Button Freigabe hinzufügen und den Freigabezielen Benutzer:in, Gruppe, Kurs und Organisation](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" title="Dialog Mediendatei hinzufügen" }
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -139,7 +139,7 @@ Wählen Sie oben rechts über der Liste die Tabellenansicht, falls Sie gerade di
 
 Selektieren Sie in der Tabellenansicht am Beginn einer Zeile mindestens einen Listeneintrag, erscheint über der Liste der Button "Löschen", mit dem sich mehrere Elemente auf einmal löschen lassen.
 
-![Angehakter Eintrag Muster.pdf und Button Löschen über der Liste, beide markiert, in der Tabellenansicht von Mein Media Center](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
+![Angehakter Eintrag Muster.pdf und Button Löschen über der Liste, beide markiert, in der Tabellenansicht von Mein Media Center](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" title="Tabellenansicht von Mein Media Center" }
 
 Einzelne Dateien können Sie auch im 3-Punkte-Menü löschen, wenn Sie ein einzelnes Medium angeklickt haben und die Informationen und Beschreibungen angezeigt werden. (Gleiches Menü wie zum Herunterladen.)
 
@@ -171,12 +171,12 @@ Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenver
 
 Der Speicherplatz im Media Center ist begrenzt. Wie viel Speicher Ihnen genau zur Verfügung steht und wie viel Sie schon verbraucht haben, sehen Sie links unten. So wissen Sie vor dem Hochladen, wie viel Platz Ihnen für neue Medien bleibt. Die Anzeige erscheint nur im Segment "Mein Media Center", in der Medienverwaltung fehlt sie, siehe [Media Center verwalten](#media_center_administration).
 
-![Markierte Speicheranzeige 0 B von 30.0 MB belegt unten links, im Segment Mein Media Center neben dem Segment Medienverwaltung](assets/media_center_quota_v2_de.png){ class="shadow lightbox" }
+![Markierte Speicheranzeige 0 B von 30.0 MB belegt unten links, im Segment Mein Media Center neben dem Segment Medienverwaltung](assets/media_center_quota_v2_de.png){ class="shadow lightbox" title="Segment Mein Media Center, unten links" }
 
 In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Als Poweruser zählen neben den Autor:innen auch Lernressourcenverwalter:innen und Administrator:innen.
 
 Den Standardwert legen Systemadministrator:innen in der System-Administration fest, unter:<br>
-`Administration > Core Konfiguration > Dateien und Ordner`, Tab "Quotas"
+`Administration > Core-Konfiguration > Dateien und Ordner`, Tab "Quotas"
 
 Derselbe Wert gilt auch für die persönlichen Dateien. Einen eigenen Standardwert nur für das Media Center gibt es nicht, siehe [Dateien und Ordner](../../manual_admin/administration/Files_and_Folders.de.md#files_and_folders_quotas).
 
@@ -196,11 +196,11 @@ Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwa
 
 Und wie können die Medien, die sich im Media Center befinden, weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden.
 
-![Markierter Eintrag Aus meinem Medien Center wählen im Menü Inhalt hinzufügen des Kursbausteins Seite, neben Bild, Video, Zitat und Dokument](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
+![Markierter Eintrag Aus meinem Medien Center wählen im Menü Inhalt hinzufügen des Kursbausteins Seite, neben Bild, Video, Zitat und Dokument](assets/media_center_page_v1_de.png){ class=" shadow lightbox" title="Menü Inhalt hinzufügen im Kursbaustein Seite" }
 
 Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen oder filtern Sie nach ...
 
-![Filterleiste des Media Centers mit den Tabs Alle bis Suchmaske und den Filtern Typ, Fachbereich Pfade, Verwendet in, In Verwendung, Geteilt mit, Quelle und Plattform](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" }
+![Filterleiste des Media Centers mit den Tabs Alle bis Suchmaske und den Filtern Typ, Fachbereich Pfade, Verwendet in, In Verwendung, Geteilt mit, Quelle und Plattform](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" title="Filterleiste im Media Center" }
 
 !!! note "Hinweis"
 

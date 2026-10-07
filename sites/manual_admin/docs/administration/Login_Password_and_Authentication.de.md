@@ -100,7 +100,7 @@ Die Schaltfläche öffnet den Dialog "Passwort Syntax Validierung". Dort prüfen
 
 Sie können hier festlegen wie oft Benutzer:innen ihr Passwort ändern müssen. Die Lebensdauer des Passwortes kann pro Rolle festgelegt werden. Ob ein früheres Passwort wiederverwendet werden kann, legt das Feld "Verwendung von vorherigen Passwörtern verhindern" im Tab "Passwort-Syntax" fest, auch wenn der Hinweis über dem Formular die Wiederverwendung hier nennt.
 
-Die Richtlinie betrifft das OpenOlat-Passwort. Konten, die sich zusätzlich über LDAP, Shibboleth oder ein Cloud Login anmelden, sind davon ausgenommen.
+Die Richtlinie betrifft das OpenOlat-Passwort. Konten, die sich zusätzlich über LDAP, Shibboleth oder ein Cloud-Login anmelden, sind davon ausgenommen.
 
 ![Feld Neues Passwort erzwingen nach markiert, mit eigener Frist in Tagen je Rolle von Autor:innen bis Systemadministrator:innen](assets/login_password_and_authentication_pw_change_policies_v3_de.png){ class="shadow lightbox" title="Tab Richtlinie zur Passwortänderung in der Administration · 2026.10.02" }
 

@@ -1,9 +1,9 @@
 # Dateien und Ordner {: #files_and_folders}
 
-![Ausgewählter Eintrag Dateien und Ordner im Menü Core Konfiguration der System-Administration, zwischen E-Mail und WebDAV](assets/core_config_files_and_folders_v1_de.png){ class="aside-right lightbox" }
+![Ausgewählter Eintrag Dateien und Ordner im Menü Core-Konfiguration der System-Administration, zwischen E-Mail und WebDAV](assets/core_config_files_and_folders_v2_de.png){ class="aside-right lightbox" }
 
 Die allgemeinen Einstellungen zu Dateien und Ordnern finden Sie in der System-Administration unter:<br>
-`Administration > Core Konfiguration > Dateien und Ordner`
+`Administration > Core-Konfiguration > Dateien und Ordner`
 
 Der Bereich enthält folgende Tabs:
 
@@ -18,7 +18,7 @@ Der Bereich enthält folgende Tabs:
 
 ---
 
-## Tab Überblick {: #files_and_folders_overview}
+## Tab Überblick [:octicons-tag-16:{ title="ab Release 14.2 (OO-4375)" }](https://track.frentix.com/issue/OO-4375) {: #files_and_folders_overview}
 
 Im Tab Überblick erhalten Administrator:innen einen schnellen Gesamtüberblick über die Anzahl und die Grösse von OpenOlat Dateien, Versionen, gelöschten Dateien und Miniaturansichten.
 
@@ -87,7 +87,7 @@ Für das Media Center gibt es keinen eigenen systemweiten Standardwert. "::DEFAU
 
 Individuelle Quotas übersteuern den Standardwert und gelten beispielsweise nur für einen ganz bestimmten Kursordner oder für die persönlichen Dateien einer ganz bestimmten Person. Sie legen eine individuelle Quota mit dem Button "Quota hinzufügen" an und tragen im Feld "Pfad" den Pfad des Ordners ein.
 
-![Feld Pfad mit dem Media-Center-Pfad einer Person markiert, darunter Quota (KB), Upload Limite (KB) und die Liste Default Quotas, im Dialog Quota hinzufügen des Tabs Quotas](assets/core_config_files_and_folders_quota_add_v1_de.png){ class="shadow lightbox" }
+![Feld Pfad mit dem Media-Center-Pfad einer Person markiert, darunter Quota (KB), Upload Limite (KB) und die Liste Default Quotas](assets/core_config_files_and_folders_quota_add_v1_de.png){ class="shadow lightbox" title="Dialog Quota hinzufügen im Tab Quotas" }
 
 Spezifische Quotas | Anwendungsbereich
 ---------|----------
@@ -123,13 +123,13 @@ Die Suchmaske kombiniert Zeit-, Mengen- und Statusfilter:
 * "Datei neuer als" und "Datei älter als" für das Erstellungsdatum
 * "Bearbeitet neuer als" und "Bearbeitet älter als" für die letzte Änderung
 * "Gesperrt neuer als" und "Gesperrt älter als" für den Zeitpunkt der Sperrung
-* "Min. Anzahl Versionen", "Downloads Anzahl min" und "Min. Grösse (MB)" als Untergrenzen
+* "Min. Anzahl Versionen", "Mindestanzahl Downloads" und "Min. Grösse (MB)" als Untergrenzen
 * "Max. Anzahl Ergebnisse" für die Länge der Trefferliste
 * "Gelöscht", "Version" und "Gesperrt" zur Einschränkung auf einen Zustand oder auf beide
 
 Mit dem Button "Suche" wird die Trefferliste erstellt, mit "Reset" werden die Filter geleert.
 
-![Suchmaske mit Filtern nach Datum, Versionen und Mindestgrösse, darunter die Trefferliste mit Name, Grösse und Kontext, im Tab Grosse Dateien unter Dateien und Ordner](assets/core_config_files_and_folders_tab_large_files_screen_v1_de.png){ class="shadow lightbox" }
+![Suchmaske mit Filtern nach Datum, Versionen, Mindestanzahl Downloads und Mindestgrösse, darunter die Trefferliste mit Name, Grösse und Kontext](assets/core_config_files_and_folders_tab_large_files_screen_v2_de.png){ class="shadow lightbox" title="Tab Grosse Dateien unter Dateien und Ordner · 2026.10.07" }
 
 Die Trefferliste zeigt Name, Grösse und Kontext jeder Datei. In der letzten Spalte schickt die Aktion "E-Mail absenden" eine vorformulierte Nachricht an die Person, welche die Datei abgelegt hat. Die Nachricht bittet darum, die Datei zu prüfen und bei Bedarf zu entfernen.
 
@@ -144,7 +144,7 @@ Das Wiederherstellen von Dateien im Papierkorb ist den Personen überlassen, die
 
 Die Verweildauer der gelöschten Dateien im Papierkorb bis zur endgültigen Löschung wird unter dem Tab "Konfiguration" bestimmt.
 
-![Feld Nach x Tagen aus dem Papierkorb löschen mit dem Wert 180, im Abschnitt Papierkorb des Tabs Konfiguration](assets/core_config_files_and_folders_tab_configuration_trash_v1_de.png){ class="shadow lightbox" }
+![Feld Nach x Tagen aus dem Papierkorb löschen mit dem Wert 180](assets/core_config_files_and_folders_tab_configuration_trash_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration unter Dateien und Ordner" }
 
 [zum Seitenanfang ^](#files_and_folders)
 

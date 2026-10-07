@@ -24,7 +24,7 @@ With the course element "Video task" OpenOlat video learning resources can be re
 
 ### Exercise: Matching terms
 
-![Info box in the exercise mode Matching terms: terms must be assigned to the matching video sections](assets/video_task_modus_uebung_begriffe_zuordnen_v1_de.png){ class="shadow lightbox" }
+![Info box in the exercise mode Matching terms: terms must be assigned to the matching video sections](assets/video_task_modus_uebung_begriffe_zuordnen_v1_de.png){ class="shadow lightbox" title="Mode Practice: Assign terms in the Configuration tab" }
 
 In this mode, the segments (video sections) in the video are marked.
 
@@ -40,7 +40,7 @@ In this mode, the segments (video sections) in the video are marked.
 
 ### Exercise: Recognizing situations
 
-![Info box in the exercise mode Recognizing situations: identify situations in which the matching term occurs](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
+![Info box in the exercise mode Recognizing situations: identify situations in which the matching term occurs](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" title="Mode Practice: Identify situations in the Configuration tab" }
 
 In this mode, the segments (video sections) in the video are **not marked**.
 
@@ -56,7 +56,7 @@ In this mode, the segments (video sections) in the video are **not marked**.
 
 ### Test: Recognizing situations
 
-![Info box in the test mode Recognizing situations: identify situations in which the matching term occurs, assessable](assets/video_task_modus_test_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
+![Info box in the test mode Recognizing situations: identify situations in which the matching term occurs, assessable](assets/video_task_modus_test_situationen_erkennen_v1_de.png){ class="shadow lightbox" title="Mode Test: Identify situations in the Configuration tab" }
 
 In this mode, the segments (video sections) in the video are **not marked**.<br> Unlike the exercise, the test is **assessable**.
 
@@ -170,11 +170,11 @@ In **exercises**, participants receive immediate feedback while solving the task
 
 In addition, a summary is displayed at the end of the exercise and the solution can be viewed.
 
-![Result after an exercise attempt with the number of correctly matched video sections per answer attempt, buttons for another attempt, showing the solution and ending the task](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" }
+![Result after an exercise attempt with the number of correctly matched video sections per answer attempt, buttons for another attempt, showing the solution and ending the task](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" title="Result of a practice attempt" }
 
 During a **test**, on the other hand, the participants do not receive any feedback. At the end, only the number of attempts to solve the problem is displayed. (If further attempts are allowed, the task definition and the button for starting the video task will also appear again.)
 
-![After a test attempt only the number of solution attempts is visible, no feedback, further attempts show the task definition again with a start button, final view of the video task in test mode](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" }
+![After a test attempt only the number of solution attempts is visible, no feedback, further attempts show the task definition again with a start button](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" title="Final view of the video task in test mode" }
 
 ### Results for coaches in exercises
 
@@ -183,9 +183,16 @@ If in exercises coaches open a course element with a video task in the course me
 * In the tab **"Participants"** the processing status of the coached course participants is displayed in a list.
 * In the **"Preview"** tab, the video is displayed as seen by participants.
 
-Coaches can reset the number of attempts for each participant individually and/or reset the data of a video task.
+In the menu with three dots in the row of a participant, coaches find these entries, depending on the status of the assessment and on the course settings:
 
-![Row menu with the options Reset number of attempts and Reset data for a participant, tab Participants of the coach view](assets/video_task_betreueransicht_v1_de.png){ class="shadow lightbox" }
+* **Show details / assess** opens the assessment of the person.
+* **Finalize assessment** or **Reopen assessment** changes the status of the assessment.
+* **Release** or **Withdraw release** defines whether the person sees their result.
+* **Reset number of attempts** resets the attempts of the person.
+
+You delete the data of all participants with the entry "Delete all data", see below.
+
+![Menu with three dots in the row of a participant opened with the entries Show details / assess, Finalize assessment, Release and Reset number of attempts](assets/course_element_video_task_row_menu_v1_en.png){ class="shadow lightbox" title="Participants tab of the coach view · 2026.10.07" }
 
 
 ### "Play all attempts" button
@@ -194,27 +201,29 @@ As the experiments are to remain anonymous during exercises, coaches cannot see 
 
 To do this, click the button "Play all attempts".
 
-![Button Play all attempts marked, tab Participants of the coach view of a video task](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" }
+![Button Play all attempts marked](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" title="Participants tab of the coach view of a video task" }
 
 In the timeline of the video, all successful answers are shown as green lines, the wrong answers as red lines. Coaches can thus draw conclusions about widespread knowledge gaps among the participants. However, the results presented in this way may also indicate that the task should perhaps be adapted.
 
-![Timeline with green lines for correct and red lines for wrong answers of all participants, Play all attempts view of a video task](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" }
+![Timeline with green lines for correct and red lines for wrong answers of all participants](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" title="Play all attempts view of a video task" }
 
 
-### "Reset all data" button
+### "Delete all data"
 
-![Button Reset all data marked, tab Participants of the coach view of a video task](assets/video_task_modus_uebung_alledatenzuruecksetzen_v1_de.png){ class="shadow lightbox" }
+You find the entry "Delete all data" in the menu with three dots next to the buttons of the "Participants" tab.
 
-After clicking on the button, a confirmation prompt appears describing what is being reset: progress, number of attempts, test runs, points and success status, assessment release and reminders. Before resetting, an archive file with the previous data is created and downloaded; it is also available in the participants' record of achievement.
+![Menu with three dots next to the Play all attempts button opened, entry Delete all data marked](assets/course_element_video_task_delete_all_menu_v1_en.png){ class="shadow lightbox" title="Participants tab of the coach view of a video task · 2026.10.07" }
 
-![Reset data dialog with the list of affected data and a confirmation checkbox before the final reset](assets/video_task_modus_uebung_alledatenzuruecksetzen2_v1_de.png){ class="shadow lightbox" }
+After clicking on the entry, the dialog "Delete data of video task" appears. It names the number of persons whose results are permanently deleted. You confirm the checkbox "I understand that the data will be definitely deleted." and click "Delete all data". Before deleting, OpenOlat creates an archive file with the previous data.
+
+![Dialog Delete data of video task with the number of affected users, the confirmation checkbox and the Delete all data button](assets/course_element_video_task_delete_all_dialog_v1_en.png){ class="shadow lightbox" title="Confirmation prompt before deleting all data of a video task · 2026.10.07" }
 
 
 ### Results for test coaches
 
 If the mode "Test" was selected for the video task, the **Tabs "Participants" and "Preview"** as well as the **Tabs "Overview" and "Reminders"** appear. In the "Reminders" tab, coaches can set up automatic e-mails to course members that are sent as soon as the configured rules apply, for example one day before a test that has not yet been completed.
 
-![Tabs Overview and Reminders marked, coach view of a video task in test mode with the Reminders tab open](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
+![Tabs Overview and Reminders marked, Reminders tab open](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" title="Coach view of a video task in test mode" }
 
 All results can be viewed by the owners and coaches of this course in detail for each participant in the **tab "Participants"**.
 

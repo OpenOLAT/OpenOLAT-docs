@@ -1,16 +1,20 @@
 # Test statistics {: #test_statistics}
 
 
-The test statistics allow you to perform general course-related, anonymous statistical assessments of your tests. All tests included in the course are displayed.
+The test statistics allow you to perform a course-related, anonymous statistical assessment of the OpenOlat tests of a course. All tests included in the course are displayed.
 
-![Test Statistics menu item marked in the open Administration menu of a course](assets/statistics_test_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
+You open the test statistics in the course administration under:<br>`Course > Administration > Test statistics`
+
+You can also open the evaluation of a single test with the "Test Statistics" button in the "Participants" tab of the "Test" course element, see [Export tests](Test_export.md#export_results). For a test learning resource with the usage "Standalone", the menu item in its administration is called "Test statistics", see [Test settings - Administration](Test_settings.md).
+
+![Test statistics menu item marked in the open Administration menu of a course](assets/statistics_test_v2_en.png){ class="shadow lightbox" title="Administration menu of a course · 2026.10.07" }
 
 
 Both the key figures for a test and further analyses of the completion time, average points per question and the percentage of correct answers per question are displayed. Furthermore, key figures such as the number of participants who have completed the question, the average number of points and processing time etc. are displayed and visualized for each question. Using key values for test assessment and item analysis, you can assess a test in terms of difficulty and suitability, for example.
 
 A download of the raw data and a print version are also available here.
 
-Access to the test statistics is not only available to the course owners but also to all coaches of the course.
+Access to the test statistics is not only available to the course owners but also to all coaches of the course. Other members see the menu item if they have been granted the right "Statistics", see [Assignment of additional rights](Members_management.md#additional_rights).
 
 ## Key figures on score adjustments [:octicons-tag-16:{ title="from Release 21.1 (OO-9599)" }](https://track.frentix.com/issue/OO-9599) {: #adjustment_figures}
 
@@ -28,10 +32,14 @@ A high number of adjustments indicates that the question or its solution should 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Export tests >](Test_export.md)<br>
+[Test settings - Administration >](Test_settings.md)<br>
+[Members management >](Members_management.md)<br>
 [Assessing tests >](Assessing_tests.md)
 
-**Further**<br>
-[Export tests >](Test_export.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)
+**Further reading**<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Course statistics >](Statistics_Course.md)<br>
+[Survey statistics >](Statistics_Survey.md)
 
 [To the top of the page ^](#test_statistics)

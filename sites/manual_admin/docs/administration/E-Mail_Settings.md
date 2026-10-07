@@ -6,7 +6,7 @@ The email settings are located in the system administration under: `Administrati
 
 In the section "User email address" you define which limitations apply to the email address of the users. Below each of the two options, a link states the number of accounts without an email address or without a unique one. The link opens the list of these accounts in the user management. If the email address or its uniqueness is optional, several OpenOlat features are not available, for example self registration, Vitero and WebDAV.
 
-![Mandatory and Unique switched off, one link each counts the affected accounts: section User email address](assets/email_EN.png){ class="shadow lightbox" }
+![Mandatory and Unique switched off, one link each counts the affected accounts: section User email address](assets/email_EN.png){ class="shadow lightbox" title="Section User email address" }
 
 ### Mandatory
 
@@ -120,7 +120,7 @@ In the context, switch on the column "include" for "emailSignature". Only then i
 
 The recommended setting:
 
-![Only include switched on, Mandatory, Admin only and User readonly off: row emailSignature in the dialogue edit Context](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" }
+![Only include switched on, Mandatory, Admin only and User readonly off: row emailSignature in the dialogue edit Context](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" title="Dialog Edit Context" }
 
 ## Further information {: #further_information}
 

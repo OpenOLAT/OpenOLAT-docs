@@ -24,7 +24,7 @@ Mit dem Kursbaustein "Videoaufgabe" können OpenOlat Video-Lernressourcen für i
 
 ### Übung: Begriffe zuordnen
 
-![Hinweisbox im Übungsmodus Begriffe zuordnen: Begriffe müssen den passenden Videoabschnitten zugeordnet werden](assets/video_task_modus_uebung_begriffe_zuordnen_v1_de.png){ class="shadow lightbox" }
+![Hinweisbox im Übungsmodus Begriffe zuordnen: Begriffe müssen den passenden Videoabschnitten zugeordnet werden](assets/video_task_modus_uebung_begriffe_zuordnen_v1_de.png){ class="shadow lightbox" title="Modus Übung: Begriffe zuordnen im Tab Konfiguration" }
 
 In diesem Modus sind die Segmente (Videoabschnitte) im Video markiert.
 
@@ -40,7 +40,7 @@ In diesem Modus sind die Segmente (Videoabschnitte) im Video markiert.
 
 ### Übung: Situationen erkennen
 
-![Hinweisbox im Übungsmodus Situationen erkennen: Situationen identifizieren, in denen der passende Begriff vorkommt](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
+![Hinweisbox im Übungsmodus Situationen erkennen: Situationen identifizieren, in denen der passende Begriff vorkommt](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" title="Modus Übung: Situationen erkennen im Tab Konfiguration" }
 
 In diesem Modus sind die Segmente (Videoabschnitte) im Video **nicht markiert**.
 
@@ -56,7 +56,7 @@ In diesem Modus sind die Segmente (Videoabschnitte) im Video **nicht markiert**.
 
 ### Test: Situationen erkennen
 
-![Hinweisbox im Testmodus Situationen erkennen: Situationen identifizieren, in denen der passende Begriff vorkommt, bewertbar](assets/video_task_modus_test_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
+![Hinweisbox im Testmodus Situationen erkennen: Situationen identifizieren, in denen der passende Begriff vorkommt, bewertbar](assets/video_task_modus_test_situationen_erkennen_v1_de.png){ class="shadow lightbox" title="Modus Test: Situationen erkennen im Tab Konfiguration" }
 
 In diesem Modus sind die Segmente (Videoabschnitte) im Video **nicht markiert**.<br> Im Unterschied zur Übung ist der Test **bewertbar**. 
 
@@ -171,11 +171,11 @@ Bei **Übungen** erhalten Teilnehmer:innen während der Lösung der Aufgabe unmi
 
 Ausserdem wird am Ende der Übung eine Zusammenfassung angezeigt und die Lösung kann angesehen werden.
 
-![Ergebnis nach einem Übungsversuch mit Anzahl korrekt zugeordneter Videoabschnitte je Antwortversuch, Buttons für weiteren Versuch, Lösung anzeigen und Aufgabe beenden](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" }
+![Ergebnis nach einem Übungsversuch mit Anzahl korrekt zugeordneter Videoabschnitte je Antwortversuch, Buttons für weiteren Versuch, Lösung anzeigen und Aufgabe beenden](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" title="Resultat eines Übungsversuchs" }
 
 Während eines **Tests** erhalten die Teilnehmer:innen dagegen keinerlei Feedback. Am Ende wird lediglich die Anzahl der Lösungsversuche angezeigt. (Falls weitere Versuche erlaubt sind, erscheint auch nochmals die Aufgabenstellung und der Button zum Starten der Videoaufgabe.)
 
-![Nach einem Testversuch nur die Anzahl Lösungsversuche sichtbar, kein Feedback, bei weiteren Versuchen erneut die Aufgabenstellung mit Startbutton, Abschlussansicht der Videoaufgabe im Testmodus](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" }
+![Nach einem Testversuch nur die Anzahl Lösungsversuche sichtbar, kein Feedback, bei weiteren Versuchen erneut die Aufgabenstellung mit Startbutton](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" title="Abschlussansicht der Videoaufgabe im Testmodus" }
 
 ### Ergebnisse für Betreuer:innen in Übungen
 
@@ -184,9 +184,16 @@ Wenn in Übungen Betreuer:innen im Kursmenü einen Kursbaustein mit der Videoauf
 * Im Tab **"Teilnehmer:innen"** wird in einer Liste der Bearbeitungsstand der betreuten Kursteilnehmer:innen angezeigt.
 * Im Tab **"Vorschau"** wird das Video angezeigt, wie es Teilnehmer:innen sehen.
 
-Betreuer:innen können bei jedem/jeder Teilnehmer:in einzeln die Anzahl der Versuche zurücksetzen und/oder die Daten einer Videoaufgabe zurücksetzen.
+Im Menü mit drei Punkten in der Zeile einer teilnehmenden Person stehen Betreuer:innen je nach Status der Bewertung und je nach Kurseinstellungen diese Einträge zur Verfügung:
 
-![Zeilenmenü mit den Optionen Anzahl Versuche zurücksetzen und Daten von Videoaufgabe zurücksetzen für eine teilnehmende Person, Tab Teilnehmer:innen der Betreuer:innen-Ansicht](assets/video_task_betreueransicht_v1_de.png){ class="shadow lightbox" }
+* **Details anzeigen / bewerten** öffnet die Bewertung der Person.
+* **Bewertung abschliessen** bzw. **Bewertung wieder eröffnen** ändert den Status der Bewertung.
+* **Freigeben** bzw. **Freigabe zurückziehen** legt fest, ob die Person ihr Resultat sieht.
+* **Anzahl Versuche zurücksetzen** setzt die Versuche der Person zurück.
+
+Die Daten aller Teilnehmer:innen löschen Sie mit dem Eintrag "Alle Daten löschen", siehe unten.
+
+![Menü mit drei Punkten in der Zeile einer teilnehmenden Person geöffnet mit den Einträgen Details anzeigen / bewerten, Bewertung abschliessen, Freigeben und Anzahl Versuche zurücksetzen](assets/course_element_video_task_row_menu_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen der Betreuer:innen-Ansicht · 2026.10.07" }
 
 
 ### Button "Alle Versuche abspielen"
@@ -195,27 +202,29 @@ Da bei Übungen die Versuche der anonym bleiben sollen, können Betreuer:innen k
 
 Klicken Sie dazu den Button "Alle Versuche abspielen".
 
-![Button Alle Versuche abspielen markiert, Tab Teilnehmer:innen der Betreuer:innen-Ansicht einer Videoaufgabe](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" }
+![Button Alle Versuche abspielen markiert](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen der Betreuer:innen-Ansicht einer Videoaufgabe" }
 
 In der Timeline des Videos werden alle erfolgreiche Antworten als grüne Striche dargestellt, die falschen Antworten als rote Striche. Betreuer:innen können so z.B. Rückschlüsse auf weit verbreitete Wissenslücken unter den Teilnehmer:innen ziehen. Die so dargestellten Ergebnisse können aber evtl. auch anzeigen, dass die Aufgabenstellung vielleicht angepasst werden sollte.
 
-![Timeline mit grünen Strichen für korrekte und roten Strichen für falsche Antworten aller Teilnehmenden, Ansicht Alle Versuche abspielen einer Videoaufgabe](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" }
+![Timeline mit grünen Strichen für korrekte und roten Strichen für falsche Antworten aller Teilnehmenden](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" title="Ansicht Alle Versuche abspielen einer Videoaufgabe" }
 
 
-### Button "Alle Daten zurücksetzen"
+### "Alle Daten löschen"
 
-![Button Alle Daten zurücksetzen markiert, Tab Teilnehmer:innen der Betreuer:innen-Ansicht einer Videoaufgabe](assets/video_task_modus_uebung_alledatenzuruecksetzen_v1_de.png){ class="shadow lightbox" }
+Den Eintrag "Alle Daten löschen" finden Sie im Menü mit drei Punkten neben den Buttons des Tabs "Teilnehmer:innen".
 
-Nach Klick auf den Button erscheint eine Sicherheitsabfrage, die beschreibt, was zurückgesetzt wird: Fortschritt, Anzahl Versuche, Testdurchläufe, Punkte und Erfolgsstatus, Freigabe der Bewertung sowie Erinnerungen. Vor dem Zurücksetzen wird eine Archivdatei mit den bisherigen Daten erstellt und heruntergeladen; sie steht zusätzlich im Leistungsnachweis der Teilnehmenden zur Verfügung.
+![Menü mit drei Punkten neben dem Button Alle Versuche abspielen geöffnet, Eintrag Alle Daten löschen markiert](assets/course_element_video_task_delete_all_menu_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen der Betreuer:innen-Ansicht einer Videoaufgabe · 2026.10.07" }
 
-![Dialog Daten zurücksetzen mit Liste der betroffenen Daten und Bestätigungscheckbox vor dem endgültigen Zurücksetzen](assets/video_task_modus_uebung_alledatenzuruecksetzen2_v1_de.png){ class="shadow lightbox" }
+Nach Klick auf den Eintrag erscheint der Dialog "Daten von Videoaufgabe löschen". Er nennt die Anzahl Personen, deren Resultate endgültig gelöscht werden. Sie bestätigen das Kontrollkästchen "Ich verstehe, dass die Daten endgültig gelöscht werden." und klicken auf "Alle Daten löschen". Vor dem Löschen erstellt OpenOlat eine Archivdatei mit den bisherigen Daten.
+
+![Dialog Daten von Videoaufgabe löschen mit der Anzahl betroffener Personen, dem Kontrollkästchen zur Bestätigung und dem Button Alle Daten löschen](assets/course_element_video_task_delete_all_dialog_v1_de.png){ class="shadow lightbox" title="Sicherheitsabfrage vor dem Löschen aller Daten einer Videoaufgabe · 2026.10.07" }
 
 
 ### Ergebnisse für Betreuer:innen in Tests
 
 Wurde für die Videoaufgabe der Modus "Test" gewählt, erscheinen ausser den **Tabs "Teilnehmer:innen" und "Vorschau"** noch die beiden **Tabs "Übersicht" und "Erinnerungen"**. Im Tab "Erinnerungen" können Betreuer:innen automatische E-Mails an Kursmitglieder einrichten, die versendet werden, sobald hinterlegte Regeln zutreffen, zum Beispiel einen Tag vor einem noch nicht absolvierten Test.
 
-![Tabs Übersicht und Erinnerungen markiert, Betreuer:innen-Ansicht einer Videoaufgabe im Testmodus mit geöffnetem Tab Erinnerungen](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
+![Tabs Übersicht und Erinnerungen markiert, Tab Erinnerungen geöffnet](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" title="Betreuer:innen-Ansicht einer Videoaufgabe im Testmodus" }
 
 Alle Resultate können von den Besitzer:innen und Betreuer:innen dieses Kurses im **Tab "Teilnehmer:innen"** detailliert für jeden/jede Teilnehmer:in eingesehen werden.
 

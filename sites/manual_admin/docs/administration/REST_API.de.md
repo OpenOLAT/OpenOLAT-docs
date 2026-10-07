@@ -1,11 +1,11 @@
 # REST API {: #REST-API}
 
-Das Ziel des REST API ist es, einen einfachen Austausch von URLs zu ermöglichen. Es ist beispielsweise möglich, Benutzer und Lerngruppen zu verwalten, Kurse zu importieren, oder Kataloge zusammenzustellen. Es kann auch zur Integration in andere Systeme benutzt werden, so wie Schülerverwaltung, externe Kursverwaltung und/oder externe Lerngruppen-Verwaltung. Es unterstützt ebenfalls den Prozess vom Hinzufügen von mehreren System-spezifischen Objekten und Erstellen von verschiedensten strukturellen Eigenschaften.
+Das Ziel des REST API ist es, einen einfachen Austausch von URLs zu ermöglichen. Es ist beispielsweise möglich, Benutzer:innen und Lerngruppen zu verwalten, Kurse zu importieren, oder Kataloge zusammenzustellen. Es kann auch zur Integration in andere Systeme benutzt werden, so wie Schülerverwaltung, externe Kursverwaltung und/oder externe Lerngruppen-Verwaltung. Es unterstützt ebenfalls den Prozess vom Hinzufügen von mehreren System-spezifischen Objekten und Erstellen von verschiedensten strukturellen Eigenschaften.
 
 Das REST API kann in der System-Administration aktiviert oder deaktiviert werden, unter:<br>
-`Administration > Core Konfiguration > REST API`
+`Administration > Core-Konfiguration > REST API`
 
-![Seite REST API in der Core Konfiguration mit REST API Zugang, Erzeugen von API Key durch Benutzer:in, API Zugriff und den Checkboxen für Managed Objekte](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox" }
+![Seite REST API in der Core-Konfiguration mit REST API Zugang, Erzeugen von API Key durch Benutzer:in, API Zugriff und den Checkboxen für Managed Objekte](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox" title="Seite REST API in der Core-Konfiguration" }
 
 [Zum Seitenanfang ^](#REST-API)
 
@@ -53,9 +53,9 @@ In Kombination mit der Erzeugung der Schlüssel ausschliesslich durch die Benutz
 
 ### Benutzung {: #usage}
 
-Das OpenOlat REST API wurde im Sinne von externen Verwaltungsapplikationen entwickelt. Es beinhaltet nicht alle Funktionen, die in der Benutzeroberfläche vorhanden sind und viele Anfragen sind limitiert auf administrative Benutzer so wie Admin, Benutzer- oder Gruppenverwalter und Autoren.
+Das OpenOlat REST API wurde im Sinne von externen Verwaltungsapplikationen entwickelt. Es beinhaltet nicht alle Funktionen, die in der Benutzeroberfläche vorhanden sind und viele Anfragen sind limitiert auf administrative Benutzer:innen so wie Admin, Benutzerverwalter:innen, Gruppenverwalter:innen und Autor:innen.
 
-Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das Erstellen und Organisieren von Benutzern, Kursen, Gruppen, Organisationen, Produkten (curriculum) oder Kalenderereignissen (Events).
+Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das Erstellen und Organisieren von Benutzer:innen, Kursen, Gruppen, Organisationen, Produkten (curriculum) oder Kalenderereignissen (Events).
 
 Anwesenheitskontrollen (Roll Call) liest das REST API, durchführen kann es sie nicht: Anwesend oder abwesend lässt sich für eine Person darüber nicht setzen. Änderbar sind das Benachrichtigungsdatum an die Aufsicht, der Kommentar und der Grund.
 
@@ -71,7 +71,7 @@ Obwohl rein theoretisch möglich, ist es nicht im Sinne des Konzepts, das API f�
 Die Sicherheit basiert auf einem Mechanismus mit zwei Stufen, so wie es in OpenOlat entsprechend implementiert wurde.
 
   1. Die erste Stufe ist ein Servletfilter, der alle Anfragen des REST API sammelt. Dieser Filter entscheidet, ob die URI offen für jeden (`/api`, `/ping`, `/auth`…) ist, oder ob es  eine Authentifizierung benötigt. Die Authentifizierung selbst ist zu einem Web Service delegiert.
-  2. Die zweite Stufe greift bei jedem Aufruf des REST API. Jede Methode überprüft, ob der Benutzer (wenn dieser authentifiziert sein muss) genügend Rechte hat, um auf der entsprechenden Ressource agieren zu können.
+  2. Die zweite Stufe greift bei jedem Aufruf des REST API. Jede Methode überprüft, ob die Benutzer:in (wenn diese authentifiziert sein muss) genügend Rechte hat, um auf der entsprechenden Ressource agieren zu können.
 
 Um eine gültige Authentifizierung über mehrere Anfragen aufrecht zu erhalten,
 schlägt der Filter folgende zwei Methoden vor:
@@ -84,21 +84,21 @@ schlägt der Filter folgende zwei Methoden vor:
 Wenn das REST API benutzt wird um spezifische Funktionen im OpenOlat Web-
 Benutzeroberfläche zu implementieren, wie z.B. die Verwendung der
 Kursdatenbank, kann das OpenOlat Websession-Cookie wiederverwendet werden
-(Methode 1). Der Benutzer ist schon authentifiziert im Browser.
+(Methode 1). Die Benutzer:in ist schon authentifiziert im Browser.
 
 Wenn das REST API von einer externen (Server basierten) Applikation genutzt
 wird, dann ist es empfehlenswert die „Basic Authentication“ zu benutzen und
 Session Cookies im HTTP client der externen Applikation zu aktivieren.
 
 Wenn die zwei genannten Methoden nicht möglich sind, dann benutzen Sie die
-Methode 2 mit dem `X-OLAT-TOKEN`. Beachten Sie, dass ein Benutzer nur ein `X-OLAT-TOKEN` zu einem beliebigen Zeitpunkt haben kann. Wenn Ihre externe Applikation mehrere Anfragen gleichzeitig stellt, dann sollte „basic authentication“ benutzt werden.
+Methode 2 mit dem `X-OLAT-TOKEN`. Beachten Sie, dass eine Benutzer:in nur ein `X-OLAT-TOKEN` zu einem beliebigen Zeitpunkt haben kann. Wenn Ihre externe Applikation mehrere Anfragen gleichzeitig stellt, dann sollte „basic authentication“ benutzt werden.
 
 Wenn Sie ein externes Portal und einen eigenen single-sign-on Prozess
 implementieren möchten, dann kann Methode 2 benutzt werden um ein X-OLAT-TOKEN
-für jeden Benutzer als Serveranfrage zu generieren. Das Token kann dann jedem
-Link im Portal hinzugefügt werden, um den Benutzer basierend auf dem Token zu
+für jede Benutzer:in als Serveranfrage zu generieren. Das Token kann dann jedem
+Link im Portal hinzugefügt werden, um die Benutzer:in basierend auf dem Token zu
 authentifizieren (`?X-OLAT-TOKEN=xyz`). Wenn auf den Link geklickt wird,
-identifiziert OpenOlat den Benutzer basierend auf dem Token und erstellt eine
+identifiziert OpenOlat die Benutzer:in basierend auf dem Token und erstellt eine
 gültige Sitzung. Sicherheitstechnisch gibt es bessere Optionen um das
 selbe Resultat zu erhalten. Wir empfehlen oAuth als Alternative, was ebenfalls
 von OpenOlat unterstützt wird.
@@ -129,7 +129,7 @@ wiederbenutzt.
 
 ### Beispiel
 
-Hier ist ein kleines Beispiel wie Sie einen Benutzer erstellen und diesen einer
+Hier ist ein kleines Beispiel wie Sie eine Benutzer:in erstellen und diese einer
 Lerngruppe hinzufügen:
 
     PUT https://your.openolat.domain/olat/restapi/users
@@ -385,6 +385,17 @@ verwaltet werden.
 
 	* Vollständige externe Verwaltung (all)
 	    * Verhältnis löschen (delete)
+
+[Zum Seitenanfang ^](#REST-API)
+
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Jersey](<https://jersey.dev.java.net/>)<br>
+[Jackson](<http://jackson.codehaus.org/>)
 
 [Zum Seitenanfang ^](#REST-API)
 

@@ -151,11 +151,11 @@ The full checklist after the update, with further items on learning resources an
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-sliders:{ .lg .middle } __System and core functions__
+-   :fontawesome-solid-sliders:{ .lg .middle } __System and Core functions__
 
     ---
 
-    The system settings decide how the whole instance behaves and how it presents itself. This is where you set the basics, the core functions and the customisation of your OpenOlat.
+    The system settings decide how the whole instance behaves and how it presents itself. This is where you set the basics, the Core functions and the customisation of your OpenOlat.
 
     [:octicons-arrow-right-24: System](administration/System.md)
 

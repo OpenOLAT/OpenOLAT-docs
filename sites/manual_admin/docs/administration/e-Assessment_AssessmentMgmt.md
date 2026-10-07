@@ -1,11 +1,16 @@
 # e-Assessment Administration: Assessment management {: #assessment_mgmt}
 
+Whoever looks after exams for the whole instance switches on assessment mode and assessment inspection here, keeps an eye on all assessment modes and provides the templates for the Safe Exam Browser. Administrators and system administrators find the assessment management in the system administration under:<br>
+`Administration > e-Assessment > Assessment management`
+
 
 ## Assessment Management Configuration Tab [:octicons-tag-16:{ title="from Release 18.2.2 (OO-7637)" }](https://track.frentix.com/issue/OO-7637)  {: #tab_config}
 
 Assessment management includes configuring the **assessment mode** and setting up **assessment inspection**. Both can be enabled or disabled separately here.
 
-![Assessment Management Configuration tab with the switches Enable assessment mode and Enable assessment inspection](assets/e-assessment_mgmt_tab_config_v1_en.png){ class="shadow lightbox" title="Assessment management in the system administration" }
+The other tabs depend on these two switches: The tab "Assessment modes" only appears when assessment mode is switched on. The tabs "Safe Exam Browser configuration" and "Safe Exam Browser versions" appear as soon as assessment mode or assessment inspection is switched on.
+
+![Switches Enable assessment mode and Enable assessment inspection, both switched on](assets/e-assessment_mgmt_tab_config_v1_en.png){ class="shadow lightbox" title="Assessment management configuration tab in the system administration" }
 
 [To the top of the page ^](#assessment_mgmt)
 
@@ -15,7 +20,9 @@ Assessment management includes configuring the **assessment mode** and setting u
 
 As an administrator, you can view an overview of all assessment modes created in your OpenOlat instance.
 
-![Assessment modes tab with search fields and the overview table of all created assessment modes](assets/e-assessment_mgmt_tab_modes_v1_en.png){ class="shadow lightbox" title="Assessment management in the system administration" }
+The search filters by "ID", "Name", "Start date" and "End date". For each assessment mode, the table shows the columns "Status", "Course", "Title", "Start", "End", "Prep time", "Follow-up" and "For".
+
+![Search fields ID, Name, Start date and End date, below them the table of all created assessment modes](assets/e-assessment_mgmt_tab_modes_v1_en.png){ class="shadow lightbox" title="Assessment modes tab in the system administration" }
 
 [To the top of the page ^](#assessment_mgmt)
 
@@ -37,7 +44,7 @@ If **no template** has been created yet, the message is displayed: *"No Safe Exa
 
 #### Adding / editing a template
 
-Use the **"Create template"** button to create a new SEB configuration template. Open existing templates with **"Edit template"** in the three-dot menu. The form contains all existing settings of the Safe Exam Browser as well as the required field:
+Use the **"Create template"** button to create a new SEB configuration template. Open existing templates with **"Edit"** in the three-dot menu, the dialog is then titled "Edit template". The form contains all existing settings of the Safe Exam Browser as well as the required field:
 
 #### Name {: #name }
 
@@ -52,7 +59,7 @@ Defines whether the template is selectable for authors: **Active** or **Inactive
 We distinguish two types of templates:
 
 - **Form**: The configuration is maintained via the individual fields of the form in OpenOlat (as described under **"Create template"**).
-- **SEB-File**: A complete, unencrypted `.seb configuration file` is imported and covers the full range of Safe Exam Browser functionality.
+- **SEB-File**: A complete, unencrypted `.seb` configuration file is imported and covers the full range of Safe Exam Browser functionality.
 
 For the import, use the **"Import SEB-File"** action. OpenOlat reads the configuration from the file, displays it read-only, and calculates the config key automatically. The file must not be encrypted or password-protected.
 
@@ -66,7 +73,11 @@ The imported `.seb` file.
 
 An optional text shown to authors when using the template in the assessment mode.
 
-![Import SEB-File dialog with the fields Name, Status, SEB source file and Information for authors, and the assessment mode-specific configuration below](assets/e-assessment_mgmt_seb_import_v1_en.png){ class="shadow lightbox" title="Dialog Import SEB-File" }
+#### Assessment mode-specific configuration {: #mode_specific_configuration }
+
+The fields "Downloadable configuration file", "Information for participants", "Allow the exit of SEB" and "Password for quitting" act as default values. They can be overridden in each use of the template.
+
+![Fields Name, Status, SEB source file and Information for authors, the SEB source file highlighted, below it the assessment mode-specific configuration](assets/e-assessment_mgmt_seb_import_v1_en.png){ class="shadow lightbox" title="Dialog Import SEB-File" }
 
 #### Setting the default template
 
@@ -76,9 +87,8 @@ Exactly one template must be marked as the default. Use the **"Set as default"**
 
 Deactivated templates are no longer available for selection when configuring an assessment mode.
 
-!!! note "Deleting templates"
-    A template can only be deleted if it is no longer in use:
-    **Column *Uses* = 0**. Otherwise the template can be *deactivated*.
+!!! info "Deleting templates"
+    A template can only be deleted if the column "#Uses" shows the value 0 and the template is not set as default. Instead, you can *deactivate* a template that is in use and is not the default.
 
 [To the top of the page ^](#assessment_mgmt)
 
@@ -91,7 +101,7 @@ Deactivated templates are no longer available for selection when configuring an 
 
 Via this tab, you can require a minimal version of the Safe Exam Browser instance-wide. This is helpful if versions below a certain SEB version should not be permitted.
 
-![Safe Exam Browser Versions tab with the disabled Enforce minimal SEB version switch](assets/e-assessment_mgmt_tab_version_v1_en.png){ class="shadow lightbox" title="Assessment management in the system administration" }
+![Switch Enforce minimal SEB version switched off](assets/e-assessment_mgmt_tab_version_v1_en.png){ class="shadow lightbox" title="Safe Exam Browser versions tab in the system administration" }
 
 Activate **"Enforce minimal SEB version"**. Then set the required version separately per operating system:
 
@@ -107,7 +117,7 @@ Required minimum version for participants who start the Safe Exam Browser on Mac
 
 Required minimum version for participants who start the Safe Exam Browser on iOS.
 
-![Safe Exam Browser Versions tab with the enabled switch and the fields Minimal version Windows, Mac and iOS](assets/e-assessment_mgmt_tab_version_on_v1_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser versions" }
+![Switch switched on, below it the fields Minimal version Windows, Mac and iOS, each with a version number](assets/e-assessment_mgmt_tab_version_on_v1_en.png){ class="shadow lightbox" title="Safe Exam Browser versions tab, minimal version enforced" }
 
 If a participant starts an exam with an older version, the exam is not released; a prompt appears to update the Safe Exam Browser.
 
@@ -117,9 +127,9 @@ If a participant starts an exam with an older version, the exam is not released;
 
 ## Further information {: #further_information}
 
-[Assessment administration by course owners and instructors >](../../manual_user/learningresources/Assessment_Management.md)<br>
-[Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
-[Assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)<br>
+[Assessment management: Overview >](../../manual_user/learningresources/Assessment_Management.md)<br>
+[Assessment management: Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
+[Assessment management: Assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)<br>
 [As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
 [Module Events and Absences >](Modules_Events_and_Absences.md)
 

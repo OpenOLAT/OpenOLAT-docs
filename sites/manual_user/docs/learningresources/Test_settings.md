@@ -1,6 +1,6 @@
 # Test settings - Administration {: #test_settings}
 
-In the `Test > Administration` area you will find further menus, similar to other learning resources. Here you can configure the test in more detail. The "Settings" and "Test editor" menus are particularly important. Owners of the learning resource, learning resource managers and administrators see this area.
+In the `Test > Administration` area you will find further menus, similar to other learning resources. Here you can configure the test in more detail. The "Settings" and "Test editor" menus are particularly important. Owners of the learning resource, learning resource managers and administrators see this area. For a standalone test, coaches also see it, with the entries "Assessment tool" and "Test statistics".
 
 ![Administration menu with eleven entries from "Settings" to "Delete", including "Test editor", with "Offer types" greyed out](assets/test_administration_menu_v2_en.png){ class="shadow lightbox" title="Administration menu of a published test learning resource · 2026.09.28" }
 
@@ -14,17 +14,19 @@ The **"Test editor"** entry opens the test editor. There you create the question
     Overview of the test editor.<br>
     [Test editor](Test_editor_QTI_2.1.md)
 
-The **"Assessment tool"** of the test only appears if the test is to be used independently of the course: `Test > Administration > Settings > Tab "Share"`, purpose "Independent".
+The **"Assessment tool"** of the test only appears if the test is to be used independently of the course: `Test > Administration > Settings > Tab "Share"`, usage "Standalone".
 
 Correctors can be added for the test in the **"Correction workflow"** menu (see below). 
 
-The **"Test statistics"** menu only appears for independent tests, otherwise the test statistics are displayed in the respective course menu.
+The **"Test statistics"** menu only appears for standalone tests. If the test runs in a course, you find the statistics in the Administration menu of the course: `Course > Administration > Test statistics`.
 
 The **"Offer types"** menu is only active if the test has been configured as bookable.
 
 Under **"Export handwritten exams"** a wizard generates exams for printing based on the online test (see below). The entry only appears if the PDF generator is switched on. You find it in the system administration under: `Administration > External tools > PDF generator`.
 
 The tests can be copied or saved using the "Copy", "Export content" and "Export to Word" menus.
+
+**"About this test"** opens a window with the technical details of the test such as ID, type and external link.
 
 **"Delete"** deletes the test learning resource. It can then be found in the author area in the "Deleted" tab. 
 
@@ -190,7 +192,7 @@ The generated Excel file contains the worksheets "Correctors", "Assignments" and
 
 ---
 
-## Export handwritten exams {: #create_paper_pencil}
+## Export handwritten exams [:octicons-tag-16:{ title="from Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648) {: #create_paper_pencil}
 
 If you want to run a test offline, you can use this wizard to generate a cover sheet and different versions of your test resource with randomly selected answers.
 

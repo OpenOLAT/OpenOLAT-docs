@@ -1,9 +1,15 @@
-# Core Konfiguration: Übersicht {: #core_config}
+# Core-Konfiguration: Übersicht {: #core_config}
 
-![Grundeinstellungen des ganzen Systems in vierzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core Konfiguration der System-Administration](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Grundeinstellungen des ganzen Systems in vierzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core-Konfiguration der System-Administration](assets/admin_core_config_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
 
-Administrator:innen haben in der System-Administration Zugriff auf das nebenstehende Menü:<br>
-`Administration > Core Konfiguration`
+Administrator:innen und Systemadministrator:innen haben in der System-Administration Zugriff auf das nebenstehende Menü:<br>
+`Administration > Core-Konfiguration`
+
+## Steckbrief
+
+Name | Core-Konfiguration
+---------|----------
+Verfügbar seit | Release 8.0 (2012)
 
 ## Sprache und Region
 
@@ -27,14 +33,14 @@ Administrator:innen können für verschiedene Rollen oder Benutzer:innen mit bes
 
 
 
-## Persönliche Werkzeuge {: #personal_tools}
+## Persönliche Werkzeuge [:octicons-tag-16:{ title="ab Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #personal_tools}
 
 Hier können Administrator:innen einstellen, welche OpenOlat
 [Werkzeuge](../../manual_user/personal_menu/index.de.md) den
 Benutzer:innen standardmässig zur Verfügung gestellt werden, z.B. Kalender, persönliche Ordner, E-Portfolio, Chat usw. sowie welche Werkzeuge als Symbol in der Menüleiste
 aktiviert sind (Voreinstellung).
 
-![Liste Werkzeug zur Verfügung auf der Seite Persönliche Werkzeuge: hier gibt die Administration frei, welche Werkzeuge die Benutzer:innen überhaupt wählen können](assets/Usertools 01 DE.png){ class="shadow lightbox thumbnail-xl" } ![Liste Voreinstellung auf der Seite Persönliche Werkzeuge: nur Hilfe und Drucken sind vorausgewählt und liegen damit in der Menüleiste, die übrigen aktivieren die Benutzer:innen selbst](assets/Usertools 02 DE.png){ class="shadow lightbox thumbnail-xl" } 
+![Alle achtzehn Werkzeuge der Liste Werkzeug zur Verfügung gesetzt: hier gibt die Administration frei, welche Werkzeuge die Benutzer:innen überhaupt wählen können](assets/Usertools 01 DE.png){ class="shadow lightbox thumbnail-xl" title="Liste Werkzeug zur Verfügung auf der Seite Persönliche Werkzeuge" } ![Nur Hilfe und Drucken sind vorausgewählt und liegen damit in der Menüleiste, die übrigen aktivieren die Benutzer:innen selbst](assets/Usertools 02 DE.png){ class="shadow lightbox thumbnail-xl" title="Liste Voreinstellung auf der Seite Persönliche Werkzeuge" }
 
 [Zum Seitenanfang ^](#core_config)
 
@@ -42,18 +48,24 @@ aktiviert sind (Voreinstellung).
 
 ## REST API
 
-Neben der Aktivierung der REST API (Representational State Transfer) werden hier auch die extern verwalteten Objekte bestimmt. 
+Neben der Aktivierung der REST API (Representational State Transfer) werden hier auch die extern verwalteten Objekte bestimmt.
 
 [Zu den Details >](../administration/REST_API.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
 
-## Kalender {: #calendar_administration}
+## Kalender [:octicons-tag-16:{ title="ab Release 10.1 (OO-732)" }](https://track.frentix.com/issue/OO-732) {: #calendar_administration}
 
-An dieser Stelle können die Systemadministrator:innen die OpenOlat-Kalender ein- oder ausschalten.
+Nutzt eine Organisation den Kalender nicht oder nur an einzelnen Orten, schalten Administrator:innen ihn hier für das ganze System oder für einzelne Orte aus. Die Seite "Kalenderkonfiguration" führt fünf Checkboxen:
 
-![Seite Kalender in der Core Konfiguration: fünf Schalter geben den Kalender getrennt frei, für das System, den persönlichen Kalender, das Gruppenwerkzeug, das Kurswerkzeug und den Kursbaustein](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" }
+* "Kalender einschalten" gibt den Kalender für das ganze System frei. Erst wenn diese Checkbox gesetzt ist, lassen sich die vier übrigen ändern.
+* "Persönlichen Kalender einschalten" für den Kalender im persönlichen Menü
+* "Gruppenwerkzeug einschalten" für den Kalender als Werkzeug einer Gruppe
+* "Kurswerkzeug einschalten" für den Kalender als Werkzeug eines Kurses
+* "Kursbaustein einschalten" für den Kursbaustein "Kalender"
+
+![Alle fünf Checkboxen von Kalender einschalten bis Kursbaustein einschalten gesetzt](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" title="Seite Kalenderkonfiguration in der Core-Konfiguration" }
 
 [Zum Seitenanfang ^](#core_config)
 
@@ -68,11 +80,11 @@ Als Administrator:in finden Sie hier Konfigurationsmöglichkeiten für den E-Mai
 
 
 
-## Dateien und Ordner
+## Dateien und Ordner [:octicons-tag-16:{ title="ab Release 14.2 (OO-4375)" }](https://track.frentix.com/issue/OO-4375)
 
 Hier finden Sie Optionen zu allgemeinen Einstellungen/Konfigurationen betreffend Dateien und Ordnern.
 
-![Seite Dateien und Ordner in der Core Konfiguration mit den fünf Tabs Überblick, Konfiguration, Quotas, Grosse Dateien und Papierkorb](assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" }
+![Fünf Tabs Überblick, Konfiguration, Quotas, Grosse Dateien und Papierkorb, der Tab Überblick ist gewählt](assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" title="Seite Dateien und Ordner in der Core-Konfiguration" }
 
 
 [Zu den Details >](../administration/Files_and_Folders.de.md)<br>
@@ -116,15 +128,15 @@ Hier finden Sie Angaben über die Indexierung der Volltextsuche.
 ## Benachrichtigungen {: #notifications}
 
 Wer ein Forum, einen Ordner oder ein anderes Element abonniert hat, erhält die Neuigkeiten per E-Mail: OpenOlat verschickt je Person eine einzige E-Mail, die die Neuigkeiten aus allen ihren Abonnements auflistet. Hier sehen Sie, wann OpenOlat diese Benachrichtigungen verschickt, und können einen Versand sofort auslösen. Sie finden die Seite in der System-Administration unter:<br>
-`Administration > Core Konfiguration > Benachrichtigungen`
+`Administration > Core-Konfiguration > Benachrichtigungen`
 
-![Status eingeschaltet, Regel 0 10 */2 * * ? für den Versand alle zwei Stunden und Button Benachrichtigungen auslösen, Seite E-Mail-Benachrichtigungen auslösen in der Core Konfiguration](assets/admin_core_config_notifications_v1_de.png){ class="shadow lightbox" }
+![Status eingeschaltet, Regel 0 10 */2 * * ? für den Versand alle zwei Stunden und Button Benachrichtigungen auslösen, alle drei markiert](assets/admin_core_config_notifications_v1_de.png){ class="shadow lightbox" title="Seite E-Mail-Benachrichtigungen auslösen in der Core-Konfiguration" }
 
 Den Versand steuern drei Dinge:
 
 * **Zeitplan des Versands**: Die Seite zeigt an, ob die Benachrichtigungen eingeschaltet sind und nach welcher Regel in Cron-Syntax der Versand läuft. Im Standard läuft er alle zwei Stunden, jeweils zehn Minuten nach der vollen Stunde (00.10, 02.10, 04.10 Uhr usw.). In der Oberfläche lassen sich weder die Regel noch das Ein- und Ausschalten ändern. Die Regel ist Teil der Serverkonfiguration und gilt nach einer Änderung erst ab dem nächsten Neustart von OpenOlat. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
 * **Sofortiger Versand**: Der Button "Benachrichtigungen auslösen" startet den Versand sofort, ohne den nächsten Termin abzuwarten. Auch dabei erhalten nur Benutzer:innen eine E-Mail, deren Intervall abgelaufen ist und für die es Neuigkeiten gibt.
-* **Intervall pro Person**: Wie oft eine Person höchstens eine E-Mail erhält, legt sie in ihren [Einstellungen](../../manual_user/personal_menu/Settings.de.md#notification_interval) unter "E-Mail-Benachrichtigung" selbst fest, von "alle zwei Stunden" bis "monatlich". Mit "ausgeschaltet" erhält sie keine Benachrichtigungen per E-Mail mehr. Wählt sie nichts, gilt "täglich". Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen ändern das Intervall einer Person auch in der Benutzerverwaltung im Tab "Systemeinstellungen", siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md).
+* **Intervall pro Person**: Wie oft eine Person höchstens eine E-Mail erhält, legt sie in ihren [Einstellungen](../../manual_user/personal_menu/Settings.de.md#notification_interval) unter "E-Mail-Benachrichtigung" selbst fest, von "alle zwei Stunden" bis "monatlich". Mit "ausgeschaltet" erhält sie keine Benachrichtigungen per E-Mail mehr. Wählt sie nichts, gilt "täglich". Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen ändern das Intervall einer Person auch in der Benutzerverwaltung unter `Benutzerverwaltung > "Benutzername" > Tab "Systemeinstellungen"`, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md).
 
 Der Zeitplan bestimmt nur, wann OpenOlat prüft, nicht wer eine E-Mail erhält. Bei jedem Lauf erhält eine Person nur dann eine E-Mail, wenn ihr Intervall seit der letzten E-Mail abgelaufen ist und es in einem ihrer Abonnements etwas Neues gibt. Gibt es nichts Neues, verschickt OpenOlat keine E-Mail. Abonnements, die eine Person ausgesetzt hat, bleiben unberücksichtigt.
 
@@ -138,7 +150,7 @@ Die beiden Einstellungen ergänzen sich, sie überschreiben sich nicht. Wer "aus
 
 ## GUI-Einstellungen
 
-Hier können gespeicherte GUI-Einstellungen (Graphical User Interface) zurückgesetzt werden. 
+Hier können gespeicherte GUI-Einstellungen (Graphical User Interface) zurückgesetzt werden.
 
 [Zum Seitenanfang ^](#core_config)
 

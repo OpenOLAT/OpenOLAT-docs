@@ -2,7 +2,7 @@
 
 Here you will learn how to assess and correct tests with the assessment tool of OpenOlat.
 
-Go to the assessment tool and, in the left-hand overview that reflects the course structure, select the test you want to assess. Here you find two tabs: "Overview" and "Participants".
+Open the assessment tool via `Course > Administration > Assessment tool` and, in the left-hand overview that reflects the course structure, select the test you want to assess. Here you find two tabs: "Overview" and "Participants".
 
 In the "Overview" tab you get an overview of the assessment of this course element, e.g. how many persons have already passed this course element. The "Participants" tab lists the participants, and the actual assessment of participants can be started there.
 
@@ -10,14 +10,14 @@ In the "Overview" tab you get an overview of the assessment of this course eleme
 
 **General action options**
 
-![Buttons Test Statistics, Export results, Retract tests and Reset all data above the list of participants with points, passed and status](assets/Bewertungswerkzeug_Teilnehmer_172.png){ class="shadow lightbox" title="Tab Participants in the assessment tool of a test" }
+![Buttons Test Statistics, Export results, Pull tests and Correction tool, Delete all data in the menu with three dots, below them the list of participants](assets/assessing_tests_participants_buttons_v1_en.png){ class="shadow lightbox" title="Participants tab in the assessment tool of a test · 2026.10.07" }
 
 Course coaches and course owners have the possibility, via the corresponding buttons, to:
 
 * view the test statistics,
 * export the results of all displayed learners as a zip file,
-* retract tests that are currently in progress,
-* reset the results (data) of all previous tests,
+* pull tests that are currently in progress,
+* delete all data of the test,
 * set the assessment for all or several selected participants to the status "completed", finalizing the assessment,
 * set the assessments of the tests to visible or invisible for all or several selected participants at once (release),
 * extend the time for processing the test,
@@ -37,8 +37,8 @@ Opens the detailed statistics for each question of a test. All responses from th
 ### Export results
 Here you can export the complete test results as a zip file and archive them. The title of the zip file shows the name of the test, the corresponding course and the date of the download. The results download includes a participant overview as an HTML page, folders with the participants' results, as well as other files. If the test receipt is activated, it is exported as well. The columns of the Excel file are described on the page [Export tests](Test_export.md#export_results).
 
-### Retract tests
-If tests have been started but not yet submitted, they can be retracted and viewed. Tests can also be retracted once after the end of the test run.
+### Pull tests
+If tests have been started but not yet submitted, they can be pulled and viewed. Tests can also be pulled once after the end of the test run.
 
 ### Correction tool {: #correction_tool}
 In the correction tool you correct a test question by question or person by person. You award points for questions that OpenOlat does not evaluate itself, adjust the score of automatically corrected questions and leave comments.
@@ -50,12 +50,16 @@ The "Correction tool" button appears if the "Correction" setting of the course e
 If assessments are already closed, OpenOlat asks first in the dialog "Reopen closed assessments". With "Reopen assessment" you set the closed assessments back to the status "To review" and can correct them again. With "See correction read only" you open the correction tool without reopening the assessments. The answers of these persons are then read-only, and the "Adjust score" button is missing.
 
 ### Validate test receipt
-If this option is selected, a test receipt is created after the test is completed, which can be downloaded as an XML file. It is used to verify the test. The created XML file can additionally be sent to the participant by mail if the option "Send test receipt by mail" is activated.
+If a participant presents their test receipt, you check with "Validate test receipt" whether the receipt is valid and belongs to a result stored in OpenOlat. To do this, upload the XML file of the test receipt in the field "XML file". OpenOlat shows the result of the check directly in the dialog.
 
-### Reset all data
-This resets the data of the current test. This means that all data of all participants, including results, is irrevocably deleted. It is also possible to reset only individual tests of certain persons. This is done directly in the settings of the respective person.
+The button only appears if the option "Generate a test receipt" is switched on in the configuration of the course element. OpenOlat then creates a test receipt after the test is completed, which the participant can download as an XML file. If the option "Send the test receipt per mail" is also activated, the participant also receives the file by email.
 
-### Extend
+### Delete all data
+With "Delete all data" you irrevocably delete the data of all participants for this test, including results. You find the entry in the menu with three dots next to the buttons. In the dialog "Delete data of test", you confirm the checkbox "I understand that this deletes the corresponding data." and click "Delete all data". If participants have already started the test, OpenOlat creates an archive file with the relevant data when deleting, which is then downloaded.
+
+Among others, course owners and persons with the right [Assessment tool](Members_management.md#additional_rights) see the entry, but not course coaches without this right. In contrast, you reset the data of individual persons for the respective person, see section "Resetting or invalidating tests".
+
+### Extend [:octicons-tag-16:{ title="from Release 12.3 (OO-2967)" }](https://track.frentix.com/issue/OO-2967)
 Here the preset test time can be extended.
 
 ### Customize rating scale [:octicons-tag-16:{ title="from Release 16.2 (OO-6008)" }](https://track.frentix.com/issue/OO-6008)
@@ -261,11 +265,11 @@ In contrast to invalidating, **"Reset data of test"** completely deletes all att
 
 ## Assessment in the course run [:octicons-tag-16:{ title="from Release 15.5 (OO-5211)" }](https://track.frentix.com/issue/OO-5211)
 
-In addition to the assessment in the assessment tool, individual tests can also be assessed in the course run with the editor closed. The assessment options in the tabs "Overview" and "Participants" are mostly identical. However, the course run also has the tabs "Communication", "Preview" and "Reminders".
+In addition to the assessment in the assessment tool, individual tests can also be assessed in the course run with the editor closed. The assessment options in the tabs "Overview" and "Participants" are mostly identical. However, the course run also has the tabs "Preview", "Communication" and "Reminders".
 
-The preview shows the participants' perspective, and the "Reminders" tab lets you send a reminder email for certain conditions of the test processing, e.g. at a certain score, a certain number of attempts, or upon passing/failing (see [Reminders](Course_Reminders.md)). The "Communication" tab is intended for communication during an ongoing test, e.g. as part of online exams.
+The preview shows the participants' perspective. The "Communication" tab is intended for communication during an ongoing test, e.g. as part of online exams. The "Reminders" tab lets you send a reminder email for certain conditions of the test processing, e.g. at a certain score, a certain number of attempts, or upon passing/failing (see [Reminders](Course_Reminders.md)).
 
-![Additional tabs Communication, Preview and Reminders next to Overview and Participants, and the Correction tool button above the list of participants](assets/Test_Kursrun_172.png){ class="shadow lightbox" title="Test course element in the course run" }
+![Tabs Preview, Communication and Reminders next to Overview and Participants marked, together with the Correction tool button and Delete all data in the menu with three dots](assets/assessing_tests_course_run_v1_en.png){ class="shadow lightbox" title="Test course element in the course run · 2026.10.07" }
 
 ---
 
@@ -276,6 +280,7 @@ The preview shows the participants' perspective, and the "Reminders" tab lets yo
 [Export tests >](Test_export.md)<br>
 [Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Tests at course level >](Tests_at_course_level.md)<br>
+[Members management >](Members_management.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Course Reminders >](Course_Reminders.md)
 

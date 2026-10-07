@@ -41,9 +41,9 @@ In order to get access to a folder in OpenOlat via WebDAV you need:
   * Your OpenOlat username,
   * Your OpenOlat/WebDAV password.
 
-!!! info "Note to Shibboleth and Cloud Login"
+!!! info "Note to Shibboleth and Cloud login"
 
-    If you access OpenOlat via Shibboleth or another Cloud Login you can set your WebDAV password on your homepage, section "Settings." Just select the link "Settings" before clicking on the button "Set password" in the tab "WebDAV." If you already have an OpenOlat password you can use this one to access WebDAV.
+    If you access OpenOlat via Shibboleth or another Cloud login you can set your WebDAV password on your homepage, section "Settings." Just select the link "Settings" before clicking on the button "Set password" in the tab "WebDAV." If you already have an OpenOlat password you can use this one to access WebDAV.
 
 
 ## WebDAV Connection Setup
@@ -113,7 +113,7 @@ your computer containing the following sub-directories:
 
     * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life cycle. These are the courses which appear in the menu Courses in the tab "Finished".
 
-    ![Marked option Group courses by semester terms, here switched off, page WebDAV access under Core functions of the system administration](assets/webdav_group_courses_by_semester_terms_v1_en.png){ class="shadow lightbox" }
+    ![Marked option Group courses by semester terms, here switched off, page WebDAV access under Core functions of the system administration](assets/webdav_group_courses_by_semester_terms_v1_en.png){ class="shadow lightbox" title="Page WebDAV access in the Core functions" }
 
   *  **groupfolders**: all groups you are enrolled in and have access to corresponding folders.
   *  **home**: both of your personal folders (along with the sub-folders "private" and "public").

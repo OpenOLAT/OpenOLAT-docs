@@ -10,19 +10,19 @@ Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 * Im [Kurs](../area_modules/Courses.de.md): <br>Zugriff auf Kurstermine, sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kurskalender können sowohl in einem Kursbaustein als auch in der Toolbar eingebunden sein.<br>
 
-![Der Kurskalender ist zweifach erreichbar: als markiertes Kalender-Symbol in der Toolbar des Kurses und als Eintrag Kalender im Kursmenü, hier im Kurs Excel-Grundlagen](assets/pers_menu_calendar_course_v1_de.png){ class="shadow lightbox" }
+![Der Kurskalender ist zweifach erreichbar: als markiertes Kalender-Symbol in der Toolbar des Kurses und als Eintrag Kalender im Kursmenü, hier im Kurs Excel-Grundlagen](assets/pers_menu_calendar_course_v1_de.png){ class="shadow lightbox" title="Toolbar und Kursmenü eines Kurses" }
 
 <br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank"}
 
 * Im [persönlichen Menü](../personal_menu/index.de.md) [(Persönliche Werkzeuge)](../personal_menu/Personal_Tools.de.md): <br>Im persönlichen Kalender können zusätzlich zu den persönlichen Terminen alle Termine aus Ihren verschiedenen Kursen und Gruppen, in denen Sie Mitglied sind, zusammengeführt werden. Sie erhalten so eine Übersicht. Auch externe Kalender können nach individuellem Bedarf importiert werden.
 
-![Die Kalender sind ineinander geschachtelt: Der persönliche Kalender umschliesst den Kurskalender, dieser wiederum zwei Gruppenkalender. Die Termine der inneren Kalender laufen nach aussen zusammen](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" }
+![Die Kalender sind ineinander geschachtelt: Der persönliche Kalender umschliesst den Kurskalender, dieser wiederum zwei Gruppenkalender. Die Termine der inneren Kalender laufen nach aussen zusammen](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" title="Verschachtelung der Kalender" }
 
 
 !!! info "Wichtig"
 
     Wenn Sie in der Liste Ihrer persönlichen Werkzeuge keinen Kalender finden, haben Administrator:innen ihn in der System-Administration ausgeschaltet:<br>
-    `Administration > Core Konfiguration > Kalender`
+    `Administration > Core-Konfiguration > Kalender`
 
 
 [Zum Seitenanfang ^](#calendar)
@@ -34,7 +34,7 @@ Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 Um einen neuen Termin hinzuzufügen, klicken Sie in das entsprechende Kalenderfeld. Es öffnet sich ein Popup für die Termindetails.
 
-![Die neun Angaben eines Termins von oben nach unten: Kalender, Titel, Ganztags mit Beginn und Ende, Wiederholung, Ort, Farbe, Beschreibung, Sichtbarkeit und Links, darunter die Schaltflächen Speichern und Abbrechen im Dialog Termindetails](assets/pers_menu_calendar_details_v1_de.png){ class="shadow lightbox" }
+![Die neun Angaben eines Termins von oben nach unten, von Kalender bis Links, darunter die Schaltflächen Speichern und Abbrechen](assets/pers_menu_calendar_details_v1_de.png){ class="shadow lightbox" title="Dialog Termindetails" }
 
 1. Wenn Sie Gruppenmitglied sind, treffen Sie erst oben im Kalender Pulldown-Menu die Auswahl, in welchem Kalender Sie einen Termin erstellen möchten (persönlicher Kalender oder Gruppenkalender).
 
@@ -79,7 +79,7 @@ Ein Termin kann auch mit Drag&Drop verschoben werden.
 
 In den Termindetails kann unter "Wiederholung" die gewünschte Frequenz von Serienterminen ausgewählt werden. Sobald eine Wiederholung gewünscht wird, erscheint das Eingabefeld, mit dem das Ende der Serie definiert wird (Pflichtfeld).
 
-![Markiert sind das Auswahlfeld Wiederholung mit dem Wert Montag bis Freitag und daneben das Pflichtfeld endet am mit dem Enddatum der Serie, im Dialog Termindetails](assets/pers_menu_calendar_recurrence_v1_de.png){ class="shadow lightbox" }
+![Markiert sind das Auswahlfeld Wiederholung mit dem Wert Montag bis Freitag und daneben das Pflichtfeld endet am mit dem Enddatum der Serie, im Dialog Termindetails](assets/pers_menu_calendar_recurrence_v1_de.png){ class="shadow lightbox" title="Dialog Termindetails, Feld Wiederholung" }
 
 Auch Serientermine können bearbeitet werden. Klicken Sie dazu im Kalender auf einen der Termine. Beim Speichern der Anpassung kann ausgewählt werden, ob die Änderung für alle Termine der Serie oder nur für den aufgerufenen Termin gilt. Wenn alle Termine geändert werden sollen, werden diese Termine geändert, welche zuvor nicht individuell angepasst wurden.
 
@@ -92,7 +92,7 @@ Auch Serientermine können bearbeitet werden. Klicken Sie dazu im Kalender auf e
 
 Legen Sie hier fest, wer den Kalendereintrag sehen darf.
 
-![Markiert ist das Auswahlfeld Sichtbarkeit mit dem Wert Privat, direkt unter dem Feld Beschreibung im Dialog Termindetails](assets/pers_menu_calendar_visibility_v1_de.png){ class="shadow lightbox" }
+![Markiert ist das Auswahlfeld Sichtbarkeit mit dem Wert Privat, direkt unter dem Feld Beschreibung im Dialog Termindetails](assets/pers_menu_calendar_visibility_v1_de.png){ class="shadow lightbox" title="Dialog Termindetails, Feld Sichtbarkeit" }
 
 Je nach Kalenderart (Persönlicher Kalender, Gruppenkalender, Kurskalender) unterscheiden sich die Auswirkungen der drei Sichtbarkeitsstufen "Privat", "Nur Zeitangabe sichtbar" und "Öffentlich":
 
@@ -128,11 +128,11 @@ Im persönlichen Kalender werden angezeigt:
 
 Über die Schaltfläche "Einstellungen" (kleiner Button mit dem Zahnrad-Icon) öffnet sich die Kalenderliste.
 
-![Markiert ist das Zahnrad-Symbol in der Kopfzeile des Kalenders, zwischen dem Drucksymbol und dem Feedsymbol: Es öffnet die Kalenderliste](assets/pers_menu_calendar_list_open_v1_de.png){ class="shadow lightbox" }
+![Markiert ist das Zahnrad-Symbol in der Kopfzeile des Kalenders, zwischen dem Drucksymbol und dem Feedsymbol: Es öffnet die Kalenderliste](assets/pers_menu_calendar_list_open_v1_de.png){ class="shadow lightbox" title="Kopfzeile des Kalenders" }
 
 In der Kalenderliste finden Sie alle Kalender, die im aktuellen Kalender angezeigt werden können (Gruppe, Kurs, extern und persönlich).
 
-![Die Spalte Typ unterscheidet die Kalender per Symbol in persönlichen Kalender, importierten externen Kalender, Kurskalender und Gruppenkalender, daneben stehen die Spalten Farbe, Name, Kennzeichen und Anzeigen in der Kalenderliste](assets/pers_menu_calendar_list_v1_de.png){ class="shadow lightbox" }
+![Spalte Typ mit Symbol für persönlichen, externen, Kurs- und Gruppenkalender, daneben Farbe, Name, Kennzeichen und Anzeigen](assets/pers_menu_calendar_list_v1_de.png){ class="shadow lightbox" title="Kalenderliste" }
 
 Die Spalte "Typ" zeigt mit einem Symbol, um welche Art Kalender es sich handelt: persönlicher Kalender, Gruppenkalender, Kurskalender oder importierter externer Kalender.
 
@@ -159,7 +159,7 @@ Soll ein weiterer eigenständiger Kalender zur Kalenderliste hinzugefügt werden
 Mit dem Button "Datei importieren" können Kalenderdateien (.ics) eingefügt werden.<br>
 Mit Klick auf den kleinen Pfeil daneben erscheint der Eintrag "Kalender via URL importieren".
 
-![Markiert ist die Schaltfläche Datei importieren oben rechts in der Kalenderliste, daneben das geöffnete Pfeilmenü mit dem Eintrag Kalender via URL importieren](assets/pers_menu_calendar_list_add_v1_de.png){ class="shadow lightbox" }
+![Markiert ist die Schaltfläche Datei importieren oben rechts in der Kalenderliste, daneben das geöffnete Pfeilmenü mit dem Eintrag Kalender via URL importieren](assets/pers_menu_calendar_list_add_v1_de.png){ class="shadow lightbox" title="Kalenderliste, Schaltfläche Datei importieren" }
 
 
 !!! info "Beachten Sie:"
@@ -211,13 +211,19 @@ Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Fee
 ---
 
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
-[Kurskalender](../learningresources/Using_Additional_Course_Features.de.md#kurskalender)<br>
-[Gruppenkalender](../groups/Using_Group_Tools.de.md)<br>
-[Gruppenkalender aktivieren](../groups/Group_Administration.de.md#tools)<br>
-[Kursbaustein Kalender](../learningresources/Course_Element_Calendar.de.md)<br>
-[Aktivierung des Kalenders durch Administrator:innen](../../manual_admin/administration/Core_functions.de.md#calendar_administration)<br>
+**Auf dieser Seite erwähnt**<br>
+[Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
+[Kurse finden >](../area_modules/Courses.de.md)<br>
+[Persönliches Menü >](../personal_menu/index.de.md)<br>
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)
+
+**Weiterführend**<br>
+[Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
+[Gruppenadministration >](../groups/Group_Administration.de.md)<br>
+[Kursbaustein "Kalender" >](../learningresources/Course_Element_Calendar.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)
 
 
 [Zum Seitenanfang ^](#calendar)

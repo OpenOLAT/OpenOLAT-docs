@@ -9,7 +9,7 @@ You narrow down the users either by role and / or by a user attribute, and then 
 
     The user-specific landing page that users set for themselves in the personal menu under [`Settings > System > Specific system settings`](../../manual_user/personal_menu/Settings.md#special) overrides the system-wide landing page.
 
-![Three rules by position, each with role, user attribute, value, landing page and selection, plus Up, Down, Add and Delete; page Landing pages in the Core functions](assets/admin_landingPage_EN.png){ class="shadow lightbox" }
+![Three rules by position, each with role, user attribute, value, landing page and selection, plus Up, Down, Add and Delete; page Landing pages in the Core functions](assets/admin_landingPage_EN.png){ class="shadow lightbox" title="Page Landing pages in the Core functions" }
 
 The **Position** defines the order in which the rules are checked: the first rule that matches determines the page for the users concerned. You change the position via the columns **Up** / **Down**. You add further rules via the column **Add** and remove a rule via **Delete**. Click **Save** to apply the rules.
 
@@ -28,7 +28,7 @@ For a course this looks as follows:
 
 So if you use a link from the browser address bar, you always have to shorten the URL according to this pattern:
 
-![Only the part after /auth/ remains of the browser URL, here MyCoursesSite/0 marked in red; browser address bar](assets/landingPage_URL.png){ class="shadow lightbox" }
+![Only the part after /auth/ remains of the browser URL, here MyCoursesSite/0 marked in red; browser address bar](assets/landingPage_URL.png){ class="shadow lightbox" title="Browser address bar" }
 
 !!! info "Important"
 

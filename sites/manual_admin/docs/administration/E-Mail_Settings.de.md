@@ -1,12 +1,12 @@
 # E-Mail Einstellungen {: #email_settings}
 
-Die E-Mail Einstellungen liegen in der System-Administration unter: `Administration > Core Konfiguration > E-Mail`. Die Seite hat zwei Segmente: "Einstellungen" mit den Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach, und "E-Mail Vorlage" mit dem Aussehen der versendeten E-Mails.
+Die E-Mail Einstellungen liegen in der System-Administration unter: `Administration > Core-Konfiguration > E-Mail`. Die Seite hat zwei Segmente: "Einstellungen" mit den Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach, und "E-Mail Vorlage" mit dem Aussehen der versendeten E-Mails.
 
 ## E-Mail Adresse [:octicons-tag-16:{ title="ab Release 12.2 (OO-2981)" }](https://track.frentix.com/issue/OO-2981) {: #email_address}
 
 Im Abschnitt "E-Mail Adresse" definieren Sie, welche Einschränkungen für die E-Mail-Adresse der Benutzer:innen gelten. Unter jeder der beiden Optionen nennt ein Link die Anzahl der Konten ohne E-Mail-Adresse bzw. ohne eindeutige E-Mail-Adresse. Der Link öffnet die Liste dieser Konten in der Benutzerverwaltung. Sind die E-Mail-Adresse oder ihre Eindeutigkeit optional, stehen einige Funktionen von OpenOlat nicht zur Verfügung, zum Beispiel die Selbstregistrierung, Vitero und WebDAV.
 
-![Obligatorisch und Eindeutig ausgeschaltet, je ein Link zählt die betroffenen Konten: Abschnitt E-Mail Adresse](assets/Email_DE.png){ class="shadow lightbox" }
+![Obligatorisch und Eindeutig ausgeschaltet, je ein Link zählt die betroffenen Konten: Abschnitt E-Mail Adresse](assets/Email_DE.png){ class="shadow lightbox" title="Abschnitt E-Mail Adresse" }
 
 ### Obligatorisch
 
@@ -28,7 +28,7 @@ Wenn diese Option nicht aktiviert ist, bedeutet dies, dass mehrere Konten diesel
 
     In beiden Fällen können entweder keine oder keine eindeutigen E-Mails verschickt werden. Deshalb ist es zwingend empfohlen, das interne OpenOlat Postfach zu aktivieren! Ansonsten können unerwartete Fehler auftreten!
 
-## E-Mail Postfach und Versand {: #e-mail-inbox-and-outbox}
+## E-Mail-Postfach und Versand {: #e-mail-inbox-and-outbox}
 
 OpenOlat verfügt über ein internes Postfach, das alle in OpenOlat gesendeten und empfangenen E-Mails im persönlichen Postfach jeder Person auflistet: [Persönliche Werkzeuge: E-Mail](../../manual_user/personal_menu/E-Mail.de.md). Das OpenOlat Postfach ist eine optionale Komponente.
 
@@ -120,7 +120,7 @@ Im Kontext schalten Sie für "emailSignature" die Spalte "Verwenden" ein. Erst d
 
 Die empfohlene Einstellung:
 
-![Nur Verwenden eingeschaltet, Zwingend, Admin only und User readonly aus: Zeile emailSignature im Dialog Context bearbeiten](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" }
+![Nur Verwenden eingeschaltet, Zwingend, Admin only und User readonly aus: Zeile emailSignature im Dialog Context bearbeiten](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" title="Dialog Context bearbeiten" }
 
 ## Weiterführende Informationen {: #further_information}
 

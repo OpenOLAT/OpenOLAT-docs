@@ -1,9 +1,15 @@
 # Core functions: Overview {: #core_config}
 
-![Basic settings of the whole system in fourteen areas, from language and region to licenses, in the expanded Core functions menu of the system administration](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Basic settings of the whole system in fourteen areas, from language and region to licenses, in the expanded Core functions menu of the system administration](assets/admin_core_config_overview_v3_en.png){ class="shadow lightbox aside-left-lg" }
 
-Administrators have access to the adjacent menu in the system administration:<br>
+Administrators and system administrators have access to the adjacent menu in the system administration:<br>
 `Administration > Core functions`
+
+## Profile
+
+Name | Core functions
+---------|----------
+Available since | Release 8.0 (2012)
 
 ## Language and region
 
@@ -13,7 +19,7 @@ Settings relating to a gender-specific language can also be selected here by the
 
 In the section **Formats** the **number format** is defined. It determines which thousands separator and decimal separator OpenOlat uses to display numbers and prices system-wide. [:octicons-tag-16:{ title="from Release 20.0 (OO-8470)" }](https://track.frentix.com/issue/OO-8470)
 
-[To the tp of the page ^](#core_config)
+[To the top of the page ^](#core_config)
 
 
 ## Starting page [:octicons-tag-16:{ title="from Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986)
@@ -25,11 +31,11 @@ Administrators can preset a start page for different roles or users with certain
 [To the top of the page ^](#core_config)
 
 
-## User tools {: #personal_tools}
+## User tools [:octicons-tag-16:{ title="from Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #personal_tools}
 
 Here administrators can set which OpenOlat [tools](../../manual_user/personal_menu/index.md) are made available to users by default, e.g. calendar, personal folders, e-portfolio, chat, etc. as well as which tools are enabled as an icon in the menu bar (Preset).
 
-![Available tools list on the Personal tools page: here the administration releases which tools the users can choose from at all](assets/Usertools 01 EN.png){ class="shadow lightbox thumbnail-xl" } ![Preset list on the Personal tools page: only calendar, help and print are preselected and therefore sit in the menu bar, the others the users activate themselves](assets/Usertools 02 EN.png){ class="shadow lightbox thumbnail-xl" }
+![All eighteen tools of the Available tools list selected: here the administration releases which tools the users can choose from at all](assets/Usertools 01 EN.png){ class="shadow lightbox thumbnail-xl" title="Available tools list on the User tools page" } ![Only calendar, help and print are preselected and therefore sit in the menu bar, the others the users activate themselves](assets/Usertools 02 EN.png){ class="shadow lightbox thumbnail-xl" title="Preset list on the User tools page" }
 
 [To the top of the page ^](#core_config)
 
@@ -44,11 +50,17 @@ Besides activating the REST API (Representational State Transfer), the externall
 
 
 
-## Calendar {: #calendar_administration}
+## Calendar [:octicons-tag-16:{ title="from Release 10.1 (OO-732)" }](https://track.frentix.com/issue/OO-732) {: #calendar_administration}
 
-At this point the system administrators can enable or disable the OpenOlat calendars.
+If an organisation does not use the calendar, or only in some places, administrators switch it off here for the whole system or for individual places. The page "Calendar configuration" has five checkboxes:
 
-![Calendar page in the core functions: five switches release the calendar separately, for the system, the personal calendar, the group tool, the course tool and the course element](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" }
+* "Enable calendar" releases the calendar for the whole system. Only when this checkbox is set can the other four be changed.
+* "Enable personal calendar" for the calendar in the personal menu
+* "Enable group tool" for the calendar as a tool of a group
+* "Enable course tool" for the calendar as a tool of a course
+* "Enable course element" for the course element "Calendar"
+
+![All five checkboxes from Enable calendar to Enable course element set](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" title="Calendar configuration page in the Core functions" }
 
 [To the top of the page ^](#core_config)
 
@@ -62,11 +74,11 @@ As an administrator, you will find configuration options for sending email and f
 
 
 
-## Files and folders
+## Files and folders [:octicons-tag-16:{ title="from Release 14.2 (OO-4375)" }](https://track.frentix.com/issue/OO-4375)
 
 Here you will find options for general settings/configurations relating to files and folders.
 
-![Files and folders page in the core functions with the five tabs Overview, Configuration, Quotas, Large files and Trash](assets/core_config_files_and_folders_tab_overview_v1_en.png){ class="shadow lightbox" }
+![Five tabs Overview, Configuration, Quotas, Large files and Trash, the Overview tab is selected](assets/core_config_files_and_folders_tab_overview_v1_en.png){ class="shadow lightbox" title="Files and folders page in the Core functions" }
 
 [See the details >](../administration/Files_and_Folders.md)<br>
 [To the top of the page ^](#core_config)
@@ -106,13 +118,13 @@ Here you will find information on indexing the full text search.
 Anyone who has subscribed to a forum, a folder or another element receives the news by e-mail: OpenOlat sends each person one single e-mail that lists the news from all their subscriptions. Here you see when OpenOlat sends these notifications, and you can trigger a sending immediately. You find the page in the system administration under:<br>
 `Administration > Core functions > Notifications`
 
-![Status switched on, rule 0 10 */2 * * ? for sending every two hours and button Trigger notifications, page Trigger e-mail notifications in the Core functions](assets/admin_core_config_notifications_v1_en.png){ class="shadow lightbox" }
+![Status switched on, rule 0 10 */2 * * ? for sending every two hours and button Trigger notifications, all three marked](assets/admin_core_config_notifications_v1_en.png){ class="shadow lightbox" title="Trigger e-mail notifications page in the Core functions" }
 
 Three things control the sending:
 
 * **Schedule of the sending**: The page shows whether the notifications are switched on and by which rule in cron syntax the sending runs. By default it runs every two hours, ten minutes past the full hour (00:10, 02:10, 04:10 and so on). Neither the rule nor switching on and off can be changed in the user interface. The rule is part of the server configuration and applies after a change only from the next restart of OpenOlat. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
 * **Immediate sending**: The button "Trigger notifications" starts the sending immediately, without waiting for the next scheduled time. Here too, only users whose interval has expired and for whom there is news receive an e-mail.
-* **Interval per person**: How often a person receives an e-mail at most, they set themselves in their [Settings](../../manual_user/personal_menu/Settings.md#notification_interval) under "E-mail notification", from "Every two hours" to "Monthly". With "Never" they no longer receive notifications by e-mail. If they choose nothing, "Daily" applies. Administrators, user managers and role managers also change the interval of a person in the user management in the tab "System settings", see [Manage user settings](../usermanagement/Configure_User.md).
+* **Interval per person**: How often a person receives an e-mail at most, they set themselves in their [Settings](../../manual_user/personal_menu/Settings.md#notification_interval) under "E-mail notification", from "Every two hours" to "Monthly". With "Never" they no longer receive notifications by e-mail. If they choose nothing, "Daily" applies. Administrators, user managers and role managers also change the interval of a person in the user management under `User management > "Username" > Tab "System settings"`, see [Manage user settings](../usermanagement/Configure_User.md).
 
 The schedule only determines when OpenOlat checks, not who receives an e-mail. At each run, a person only receives an e-mail if their interval has expired since the last e-mail and there is something new in one of their subscriptions. If there is nothing new, OpenOlat sends no e-mail. Subscriptions that a person has paused are not taken into account.
 

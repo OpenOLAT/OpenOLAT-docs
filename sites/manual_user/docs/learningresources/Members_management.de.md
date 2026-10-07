@@ -2,7 +2,7 @@
 
 In der Mitgliederverwaltung sehen Kursbesitzer:innen alle Benutzer:innen und Gruppen eines Kurses und können diese umfassend organisieren z.B. bestimmte kursbezogene Rechte vergeben, Teilnehmende kontaktieren und Kurs-Gruppen organisieren. Das Rechtemanagement und die Verwaltung der Einwilligungen zu kursbezogenen Nutzungsbedingungen bzw. Datenschutzerklärung erfolgt ebenfalls hier.  
 
-![Mitgliederverwaltung eines Kurses mit den Bereichen Mitglieder, Gruppen, Course Planner, Buchungsaufträge, Einladungen, Rechte und Einwilligungen](assets/members_management_open_v1_de.png){ class="shadow lightbox" }
+![Mitgliederverwaltung eines Kurses mit den Bereichen Mitglieder, Gruppen, Course Planner, Buchungsaufträge, Einladungen, Rechte und Einwilligungen](assets/members_management_open_v1_de.png){ class="shadow lightbox" title="Mitgliederverwaltung eines Kurses" }
 
 
 
@@ -12,7 +12,7 @@ Wenn Sie die Mitgliederverwaltung öffnen, befinden Sie sich im Bereich „Mitgl
 
 Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail senden. Ausserdem können Sie die Mitgliederdaten als Excel-Tabelle exportieren.
 
-![Bereich Mitglieder mit Vorfiltern nach Rolle und Herkunft sowie Tabelle mit Rolle, Institution und letztem Besuch](assets/Mitglieder20.png){ class="shadow lightbox" }
+![Bereich Mitglieder mit Vorfiltern nach Rolle und Herkunft sowie Tabelle mit Rolle, Institution und letztem Besuch](assets/Mitglieder20.png){ class="shadow lightbox" title="Bereich Mitglieder der Mitgliederverwaltung" }
 
 Über das Suchfeld kann nach Mitgliedern eines Kurses gesucht werden, was bei vielen Teilnehmenden hilfreich ist.
 
@@ -60,7 +60,7 @@ Im Excel-Export der Mitgliederliste werden in der Spalte «Herkunft» alle zugeh
 
 Wenn Sie eine Person aus der Liste auswählen, erhalten Sie weitere Informationen zu dieser Person z.B. sehen Sie die Anzahl der Kursaufrufe und können der Person weitere Rollen zuordnen.
 
-![Dialog Mitglied bearbeiten mit Kontoinformationen, Kursrollen-Checkboxen und Tabelle der Gruppenmitgliedschaften](assets/Benutzerinfos_20.png){ class="shadow lightbox" }
+![Dialog Mitglied bearbeiten mit Kontoinformationen, Kursrollen-Checkboxen und Tabelle der Gruppenmitgliedschaften](assets/Benutzerinfos_20.png){ class="shadow lightbox" title="Dialog Mitglied bearbeiten" }
 
 Es gibt drei spezifische Kurs-Rollen:  
 
@@ -76,7 +76,7 @@ In [Lernpfad Kursen](../learningresources/Learning_path_course.de.md) sehen nur 
 
 Ein Kursmitglied kann in einem Kurs mehrere Rollen gleichzeitig besitzen. In diesem Fall erscheint in der Toolbar des Kurses bei der betreffenden Person die Option, die Rolle zu wechseln und den Kurs aus der Perspektive der jeweiligen Kursrolle zu betrachten.
 
-![Rollenwechsel-Menü in der Toolbar mit den verfügbaren Rollen Besitzer:in, Betreuer:in und Kursplaner:in](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" }
+![Rollenwechsel-Menü in der Toolbar mit den verfügbaren Rollen Besitzer:in, Betreuer:in und Kursplaner:in](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" title="Rollenwechsel-Menü in der Toolbar" }
 
 Besitzt der User noch darüberhinausgehende [System-Rollen](../basic_concepts/Roles_Rights.de.md), wie Lernressourcenverwalter:in oder Administrator:in, werden diese ebenfalls als Auswahlelement für die entsprechende Perspektive angezeigt.
 
@@ -100,7 +100,7 @@ Die Massensuche bietet sich an, wenn der Anmeldename, die vom User verwendete E-
 
 Alternativ kann die Option "Externe Mitglieder einladen" verwendet werden. Auf diesem Weg können auch Personen ohne OpenOlat Account für eine Dauer von maximal 180 Tagen der Lernressource hinzugefügt werden.
 
-![Button Mitglied hinzufügen mit Zusatzoption Externe Mitglieder einladen in der Mitgliederverwaltung](assets/Mitglieder_hinzufuegen_20.jpg){ class="shadow lightbox" }
+![Button Mitglied hinzufügen mit Zusatzoption Externe Mitglieder einladen in der Mitgliederverwaltung](assets/Mitglieder_hinzufuegen_20.jpg){ class="shadow lightbox" title="Button Mitglied hinzufügen in der Mitgliederverwaltung" }
 
 !!! tip "Tipp"
 
@@ -140,7 +140,7 @@ Wie Gruppen generell erstellt und konfiguriert werden, und wie man Gruppenmitgli
 
 Sofern ein Kurs mit dem [Course Planner](../area_modules/Course_Planner.de.md) verbunden ist erscheinen die entsprechenden Informationen ebenfalls in der Mitgliederverwaltung. 
 
-![Bereich Course Planner in der Mitgliederverwaltung mit Elementen und deren Anzahl Besitzer:innen, Betreuer:innen und Teilnehmer:innen](assets/Course_Planner_Mitgliederverwaltung.png){ class="shadow lightbox" }
+![Bereich Course Planner in der Mitgliederverwaltung mit Elementen und deren Anzahl Besitzer:innen, Betreuer:innen und Teilnehmer:innen](assets/Course_Planner_Mitgliederverwaltung.png){ class="shadow lightbox" title="Bereich Course Planner der Mitgliederverwaltung" }
 
 [Zum Seitenanfang ^](#members_management)
 
@@ -153,7 +153,7 @@ Sofern für einen Kurs [Angebote](../learningresources/Access_configuration.de.m
 
 Ein hier angezeigter Buchungsauftrag bedeutet, dass der Kurs eigenständig und buchbar ist und somit ein Angebot (zum Beispiel über einen Zugangscode) enthält.
 
-![Bereich Buchungsaufträge mit Status-Reitern und Tabelle der Buchungen inklusive Angebotstyp und Preis](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" }
+![Bereich Buchungsaufträge mit Status-Reitern und Tabelle der Buchungen inklusive Angebotstyp und Preis](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" title="Bereich Buchungsaufträge der Mitgliederverwaltung" }
 
 [Zum Seitenanfang ^](#members_management)
 
@@ -234,8 +234,8 @@ des Kurses zu bearbeiten, was natürlich nur Sinn macht, wem dem Kurs auch ein [
 
 Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration". 
 
-Mitglieder mit diesem Recht erhalten Zugriff auf alle für diesen Kurs zur Verfügung stehenden Statistikbereiche, also Kurs-Statistiken, Fragebogen
-Statistiken und Test Statistiken. Die Daten können angezeigt und heruntergeladen werden.  
+Mitglieder mit diesem Recht erhalten Zugriff auf alle für diesen Kurs zur Verfügung stehenden Statistikbereiche, also Kursstatistiken, Fragebogen
+Statistiken und Teststatistiken. Die Daten können angezeigt und heruntergeladen werden.  
 
 **Prüfungsmodus**
 
@@ -256,7 +256,7 @@ Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und e
 
 ##  Bereich "Einwilligungen"  {: #section_consent}
 
-Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird ein User in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen entfernt.
+Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer:innen hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird ein User in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen entfernt.
 
 [Zum Seitenanfang ^](#members_management)
 

@@ -25,6 +25,7 @@ Besitzer:innen des Kurses finden den Menüpunkt immer. Andere Autor:innen sehen 
 ## Test-Lernressource exportieren {: #export_learning_resource}
 
 Test-Lernressourcen enthalten ganze Fragenbündel und können als Fragenpäckchen inklusive Konfiguration (Gesamtpunktzahl usw.) in Test-Kursbausteine eingebunden werden.
+
 Auch eine Test-Lernressource kann exportiert werden in der Administration der Lernressource unter:<br>`Test > Administration > Inhalt exportieren`
 
 Auch hier finden Besitzer:innen den Menüpunkt immer, andere Autor:innen nur, wenn das Exportieren im Tab "Freigabe" erlaubt ist.
@@ -134,16 +135,16 @@ Im Dialog "Export" wählen Sie im Schritt "Typ" das Format. Word und QTI 2.1 ste
 
 ## Testergebnisse exportieren {: #export_results}
 
-### Test Statistiken
+### Teststatistiken
 
-Eine Möglichkeit zur Auswertung der Testergebnisse, ist die in Statistiken aufbereitete Form. Verwenden Sie dazu den **Button "Test Statistiken"** innerhalb des Tab "Teilnehmer:innen". Der Button steht Betreuer:innen und Besitzer:innen zur Verfügung, wenn sie einen Kursbaustein "Test" im Run-Mode anwählen.
+Wer wissen will, wie ein Test ausgefallen ist, sieht in den Teststatistiken die Kennzahlen des ganzen Tests und jeder einzelnen Frage. Verwenden Sie dazu den **Button "Teststatistiken"** im Tab "Teilnehmer:innen" des Kursbausteins "Test". Der Button steht Betreuer:innen und Besitzer:innen zur Verfügung. Die Auswertung aller Tests des Kurses finden Sie unter `Kurs > Administration > Teststatistiken`, siehe [Teststatistiken](Statistics_Test.de.md).
 
-![Button Test Statistiken über der Liste der Teilnehmenden markiert](assets/test_export_statistics1_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test" }
+![Button Teststatistiken über der Liste der Teilnehmenden markiert](assets/test_export_statistics1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.10.07" }
 
 * Sie können die verschiedenen Statistiken zu den Testergebnissen ausdrucken (evtl. auch in eine PDF-Datei "drucken") oder die Rohdaten als Excel-Datei herunterladen.
 * Wenn Sie die Sektionen eines Tests aufklappen, können Sie detaillierte Statistiken zu jeder einzelnen Frage abrufen. 
 
-![Buttons Drucken und Rohdaten herunterladen, links die aufklappbare Sektion, rechts die Kennzahlen des Tests und das Diagramm Punkteverteilung](assets/test_export_statistics2_v1_de.png){ class="shadow lightbox" title="Test Statistiken im Kursbaustein Test" }
+![Buttons Drucken und Rohdaten herunterladen, links die aufklappbaren Teile des Tests, rechts die Kennzahlen des Tests und das Diagramm Punkteverteilung](assets/test_export_statistics2_v2_de.png){ class="shadow lightbox" title="Teststatistiken im Kursbaustein Test · 2026.10.07" }
 
 
 ### Testresultate der Teilnehmenden [:octicons-tag-16:{ title="ab Release 16.2 (OO-5974)" }](https://track.frentix.com/issue/OO-5974)
@@ -153,6 +154,7 @@ Wer die Resultate eines Tests auswerten, ausdrucken oder archivieren will, erhä
 ![Button Resultate exportieren über der Liste der Teilnehmenden markiert](assets/test_export_results1_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test" }
 
 Haben Sie sich für das Erstellen der zip-Datei entschieden, können Sie einen Namen für die zip-Datei angeben und eine der angebotenen Varianten für ihren Inhalt wählen.
+
 Es können 2 Varianten der zip-Datei erstellt werden:
 
 * Der **Standardexport** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
@@ -204,7 +206,7 @@ Wer die Resultate auswertet, sieht in der Excel-Datei mit den Rohdaten, welcher 
 * **Punkte (Anpassungen minus)**: die Summe aller Anpassungen, die Punkte abziehen, als negativer Wert, zum Beispiel "-0.5".
 * **Punkte (Manuell)**: die Summe der Punkte, die bei Fragen von Hand vergeben wurden.
 
-Je Frage steht in der Spalte "Pkt" die Punktzahl der Frage. Bei automatisch korrigierten Fragen folgt die Spalte "Anpassung" mit dem Betrag, um den die Punkte angepasst wurden. Wie eine Anpassung entsteht, steht auf der Seite [Tests bewerten](../learningresources/Assessing_tests.de.md#adjust_score). Dieselbe Excel-Datei erhalten Sie in den Test Statistiken über "Rohdaten herunterladen".
+Je Frage steht in der Spalte "Pkt" die Punktzahl der Frage. Bei automatisch korrigierten Fragen folgt die Spalte "Anpassung" mit dem Betrag, um den die Punkte angepasst wurden. Wie eine Anpassung entsteht, steht auf der Seite [Tests bewerten](../learningresources/Assessing_tests.de.md#adjust_score). Dieselbe Excel-Datei erhalten Sie in den Teststatistiken über "Rohdaten herunterladen".
 
 
 !!! note "Hinweis"
@@ -221,6 +223,7 @@ Je Frage steht in der Spalte "Pkt" die Punktzahl der Frage. Bei automatisch korr
 **Auf dieser Seite erwähnt**<br>
 [Zugangskonfiguration / Freigabe >](Access_configuration.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Teststatistiken >](Statistics_Test.de.md)<br>
 [Tests bewerten >](../learningresources/Assessing_tests.de.md)<br>
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)
 

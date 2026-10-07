@@ -116,7 +116,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Teilnehmende | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Teststatistiken](../learningresources/Statistics_Test.de.md) und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Teststatistiken](../learningresources/Statistics_Test.de.md) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -149,7 +149,7 @@ Wählen Sie dafür `Kurs > Administration > Archivierung & Reports`, siehe [Arch
 
 Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttest anonymisiert durch eine Laufnummer) welche Fragen beantwortet hat, welche Antworten sie gegeben hat und beim Selbsttest wie viele Punkte erreicht wurden.
 
-Über `Kurs > Administration > Teststatistiken` ([Test Statistiken](../learningresources/Statistics_Test.de.md)) können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.
+Über `Kurs > Administration > Teststatistiken` ([Teststatistiken](../learningresources/Statistics_Test.de.md)) können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -165,7 +165,7 @@ Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttes
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
-[Test Statistiken >](../learningresources/Statistics_Test.de.md)<br>
+[Teststatistiken >](../learningresources/Statistics_Test.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)

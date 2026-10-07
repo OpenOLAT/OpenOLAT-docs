@@ -4,13 +4,13 @@
 
 Das WebDAV Modul kann für das gesamte OpenOlat System ein- oder ausgeschaltet
 werden. Sie finden die Einstellungen in der System-Administration unter:<br>
-`Administration > Core Konfiguration > WebDAV`
+`Administration > Core-Konfiguration > WebDAV`
 
 Die folgenden Konfigurationen können vorgenommen werden:
 
 #### WebDAV Zugang {: #webdav_access}
 
-Schalten Sie den WebDAV Zugang systemweit ein oder aus. Wenn das Modul eingeschaltet ist, können alle OpenOlat Benutzer das System über WebDAV nutzen (empfohlen).
+Schalten Sie den WebDAV Zugang systemweit ein oder aus. Wenn das Modul eingeschaltet ist, können alle OpenOlat Benutzer:innen das System über WebDAV nutzen (empfohlen).
 
 #### WebDAV Links anzeigen {: #webdav_links}
 

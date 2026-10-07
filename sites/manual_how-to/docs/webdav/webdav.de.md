@@ -41,9 +41,9 @@ fähigen Ordnern
   * Ihren OpenOlat-Benutzernamen, alternativ die hinterlegte E-Mail Adresse
   * Ihr OpenOlat-/WebDAV-Passwort.
 
-!!! info "Hinweis zu Shibboleth und Cloud Login"
+!!! info "Hinweis zu Shibboleth und Cloud-Login"
 
-    Falls Sie mit Shibboleth oder einem Cloud Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV- Passwort in den Einstellungen im persönlichen Menu einrichten. 
+    Falls Sie mit Shibboleth oder einem Cloud-Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV- Passwort in den Einstellungen im persönlichen Menu einrichten. 
     Wählen Sie hierzu den Link "Einstellungen" und klicken Sie anschliessend im Tab "WebDAV" auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV Zugang. 
 
 
@@ -115,7 +115,7 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 
     * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurs-Lebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
 
-    ![Markierte Option Kurse nach Semesterdaten gruppieren, hier ausgeschaltet, Seite WebDAV Zugang unter Core Konfiguration der System-Administration](assets/webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png){ class="shadow lightbox" }
+    ![Markierte Option Kurse nach Semesterdaten gruppieren, hier ausgeschaltet, Seite WebDAV Zugang unter Core-Konfiguration der System-Administration](assets/webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png){ class="shadow lightbox" title="Seite WebDAV Zugang in der Core-Konfiguration" }
 
   *  **groupfolders**: Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
   *  **home**: Ihre beiden persönlichen Ordner (mit den Unterordnern "private" und "public").

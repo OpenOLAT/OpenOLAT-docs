@@ -170,7 +170,7 @@ Hier können Sie eine neue kursspezifische Datenbank anlegen, die bestimmte kurs
 
 ## Kursstatistiken {: #course_statistics}
 
-Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren OpenOlat-Kurs an. Zugang zu den Statistiken haben alle Besitzer:innen dieses Kurses.
+Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren OpenOlat-Kurs an. Zugang zu den Statistiken haben alle Besitzer:innen dieses Kurses. Betreuer:innen und weitere Mitglieder sehen den Menüpunkt nur, wenn ihnen das Recht "Statistiken" erteilt wurde.
 
 [Zu den Details >](Statistics_Course.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -178,7 +178,7 @@ Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren OpenOlat-
 
 ## Teststatistiken {: #test_statistics}
 
-Die Teststatistiken erlauben generelle kursbezogene, anonymisierte statistische Auswertung der OpenOlat-Tests eines Kurses. Angezeigt werden alle im Kurs enthaltenen Tests. Der Menüpunkt erscheint, sobald der Kurs einen Test mit auswertbaren Resultaten enthält.
+Die Teststatistiken erlauben generelle kursbezogene, anonymisierte statistische Auswertung der OpenOlat-Tests eines Kurses. Angezeigt werden alle im Kurs enthaltenen Tests. Der Menüpunkt erscheint, sobald der Kurs einen Kursbaustein "Test" enthält.
 
 [Zu den Details >](Statistics_Test.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -186,7 +186,7 @@ Die Teststatistiken erlauben generelle kursbezogene, anonymisierte statistische 
 
 ## Fragebogen Statistiken {: #survey_statistics}
 
-Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen. Der Menüpunkt erscheint, sobald der Kurs einen Fragebogen mit auswertbaren Resultaten enthält.
+Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen. Der Menüpunkt erscheint, sobald der Kurs einen Kursbaustein "Umfrage" enthält.
 
 [Zu den Details >](Statistics_Survey.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)

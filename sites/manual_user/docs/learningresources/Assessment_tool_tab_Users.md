@@ -4,7 +4,7 @@ You have two general options for carrying out an assessment in the assessment to
 
 In the left column of the assessment tool you see the course structure with all assessable course elements. Here you can navigate directly to one of the course elements to make your assessment. For each course element, a tab with "Overview" and a tab with "Participants" is displayed.
 
-![Filters and tabs above the list of participants of a test with attempts, points, passed and status](assets/Bewertungswerkzeug_Teilnehmer_172.png){ class="shadow lightbox" title="Tab Participants of the Test course element in the assessment tool" }
+![On the left the course structure, on the right the tabs Overview and Participants of a test, below them buttons, filters and the list of participants with attempts, score, passed and status](assets/assessing_tests_participants_buttons_v1_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element in the assessment tool · 2026.10.07" }
 
 The exact procedure is described in the chapters [Assessing learners](../learningresources/Assessment_of_learners.md) and [Assessment of course elements](../learningresources/Assessment_of_course_modules.md).
 

@@ -17,7 +17,7 @@ Media can be...
 * ... filtered (e.g. "My media")
 * ... searched by place of use
 
-![My Media Center in card view with filters by type, subject area, usage and sharing, the button Add media file and the storage indicator at the bottom left](assets/media_center_concept_v1_de.png){ class=" shadow lightbox" }
+![My Media Center in card view with filters by type, subject area, usage and sharing, the button Add media file and the storage indicator at the bottom left](assets/media_center_concept_v1_de.png){ class=" shadow lightbox" title="My Media Center page" }
 
 [To the top of the page ^](#media_center_concept)
 
@@ -27,9 +27,9 @@ Media can be...
 
 The Media Center is initially an individual, personal area and can therefore also be found in the **personal menu**.
 
-![Highlighted profile picture at the top right of the main navigation opens the personal menu](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" }
+![Highlighted profile picture at the top right of the main navigation opens the personal menu](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Main navigation at the top right" }
 
-![Highlighted entry Media Center under Personal tools in the opened personal menu](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" }
+![Highlighted entry Media Center under Personal tools in the opened personal menu](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" title="Personal menu, Personal tools" }
 
 Even if they are personal media, they can be shared with other people and used in various OpenOlat contexts.<br>
 [More about sharing >](#share)
@@ -69,7 +69,7 @@ Different **file formats** and **content elements** can be stored and managed in
 
 ## Add media to the Media Center [:octicons-tag-16:{ title="from Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
-![Highlighted drop-down menu next to Add media file with File, Video via URL, video and audio recording, draw.io diagram, Text and Citation, in My Media Center](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" }
+![Highlighted drop-down menu next to Add media file with File, Video via URL, video and audio recording, draw.io diagram, Text and Citation, in My Media Center](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Add media file menu in My Media Center" }
 
 There are various ways to store media in the Media Center:
 
@@ -92,7 +92,7 @@ There are various ways to store media in the Media Center:
 
 Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [Content Editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear. Click on the button and you will be taken to the Media Center with all the corresponding options.
 
-![Drop-down menu next to Add media file with Document, draw.io diagram, Text, Video via URL, video and audio recording and Citation, in the dialog Select medium of the course element Page](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" }
+![Drop-down menu next to Add media file with Document, draw.io diagram, Text, Video via URL, video and audio recording and Citation, in the dialog Select medium of the course element Page](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Select medium in the course element Page" }
 
 
 ### Collect content elements and assign them to the Media Center {: #assign_media}
@@ -108,7 +108,7 @@ The elements include:
 
 For example, to add a post, open your forum post and click on the puzzle piece.
 
-![Highlighted puzzle piece icon at the top right of a forum post, which transfers the post to the Media Center](assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" }
+![Highlighted puzzle piece icon at the top right of a forum post, which transfers the post to the Media Center](assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" title="Forum post with puzzle piece icon" }
 
 A page will then appear where you can enter the metadata as usual and save everything. The post is then available as a link in your Media Center.
 
@@ -126,7 +126,7 @@ A page will then appear where you can enter the metadata as usual and save every
 When you add a media file to the Media Center, you can share it with other people (co-users).
 
 The view that users see:<br>
-![Highlighted area Share in the dialog Add media file with the button Add share and the share targets User, Group, Course and Organisation](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" }
+![Highlighted area Share in the dialog Add media file with the button Add share and the share targets User, Group, Course and Organisation](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" title="Dialog Add media file" }
 
 [To the top of the page ^](#media_center_concept)
 
@@ -139,7 +139,7 @@ Select the table view at the top right above the list if you are currently viewi
 
 If you select at least one list entry at the beginning of a line in the table view, the "Delete" button appears above the list, which can be used to delete several elements at once.
 
-![Ticked entry Muster.pdf and button Delete above the list, both highlighted, in the table view of My Media Center](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
+![Ticked entry Muster.pdf and button Delete above the list, both highlighted, in the table view of My Media Center](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" title="Table view of My Media Center" }
 
 You can also delete individual files in the 3-dot menu if you have clicked on an individual medium and the information and descriptions are displayed. (Same menu as for downloading.)
 
@@ -171,7 +171,7 @@ Administrators and learning resource managers find the retained media items with
 
 The storage space in the Media Center is limited. You can see exactly how much storage space you have available and how much you have already used at the bottom left. This lets you know before uploading how much space remains for new media. The indicator only appears in the segment "My Media Center", it is missing in the media management, see [Manage Media Center](#media_center_administration).
 
-![Highlighted storage indicator 0 B of 30.0 MB used at the bottom left, in the segment My Media Center next to the segment Media management](assets/media_center_quota_v2_en.png){ class="shadow lightbox" }
+![Highlighted storage indicator 0 B of 30.0 MB used at the bottom left, in the segment My Media Center next to the segment Media management](assets/media_center_quota_v2_en.png){ class="shadow lightbox" title="Segment My Media Center, bottom left" }
 
 Authors usually require more storage space, so quota settings are configured separately for these power users. Besides authors, learning resource managers and administrators also count as power users.
 
@@ -196,11 +196,11 @@ If a single person needs more space, administrators, roles managers or user mana
 
 And how can the media in the Media Center be reused? The files, documents and collections can be used, for example, in the Content Editor in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
 
-![Highlighted entry Select from my Media Center in the menu Add content of the course element Page, next to Image, Video, Citation and Document](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
+![Highlighted entry Select from my Media Center in the menu Add content of the course element Page, next to Image, Video, Citation and Document](assets/media_center_page_v1_de.png){ class=" shadow lightbox" title="Menu Add content in the course element Page" }
 
 The **filter functions** help you to find the media you are looking for quickly. Search or filter for ...
 
-![Filter bar of the Media Center with the tabs All to Search and the filters Type, Subject area paths, Used in, In use, Shared with, Source and Platform](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" }
+![Filter bar of the Media Center with the tabs All to Search and the filters Type, Subject area paths, Used in, In use, Shared with, Source and Platform](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" title="Filter bar in the Media Center" }
 
 !!! note "Note"
 

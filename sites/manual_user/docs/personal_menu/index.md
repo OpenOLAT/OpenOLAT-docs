@@ -4,7 +4,7 @@ All registered OpenOlat users have a personal menu. It brings together your own 
 
 You open the menu at the top right of the menu bar by clicking on your profile picture or on the small arrow next to it. As long as you have not stored a profile picture, OpenOlat shows your initials there. The menu appears as an area over the right edge of the window. With the close symbol at the top left of the area you hide it again.
 
-![Profile picture at the top right of the menu bar, marked with a circle and an arrow, opens the personal menu; to the left the main navigation with Courses, Groups, Catalog and Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox"}
+![Profile picture at the top right of the menu bar, marked with a circle and an arrow, opens the personal menu; to the left the main navigation with Courses, Groups, Catalog and Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox" title="Menu bar at the top right" }
 
 
 ## Profile
@@ -83,7 +83,7 @@ You make this setting under<br>
 
 Select the checkboxes of the tools that should appear in the menu bar, and save.
 
-![Checkbox Calendar selected, the list also contains Profile, Certificates and Print, in the System tab of the settings](assets/pers_menu_move_item_v2_en.png){ class="shadow lightbox"}
+![Checkbox Calendar selected, the list also contains Profile, Certificates and Print, in the System tab of the settings](assets/pers_menu_move_item_v2_en.png){ class="shadow lightbox" title="System tab of the settings" }
 
 Not only the personal tools are available for selection, but also entries from the other sections, for example **Certificates**, **Settings** or **Print**.
 
@@ -97,7 +97,7 @@ Not only the personal tools are available for selection, but also entries from t
 
 In the example the **Calendar** has been moved to the menu bar. After the next login its icon sits to the left of the chat status, and the entry is missing from the personal menu.
 
-![Calendar icon in the menu bar, marked with a circle; in the opened personal menu the entry Calendar is missing](assets/pers_menu_moved_tool_v2_en.png){ class="shadow lightbox"}
+![Calendar icon in the menu bar, marked with a circle; in the opened personal menu the entry Calendar is missing](assets/pers_menu_moved_tool_v2_en.png){ class="shadow lightbox" title="Menu bar and personal menu" }
 
 !!! tip "Tip"
 
@@ -110,7 +110,7 @@ In the example the **Calendar** has been moved to the menu bar. After the next l
 
 Two tools are not part of the personal menu but are always in the menu bar: the [Chat](../basic_concepts/Chat.md) (instant messaging) with your status and the counter of unread messages, and the [Search](../basic_concepts/Full_Text_Search.md). They cannot be moved.
 
-![Chat status, counter of unread messages and search icon on the right of the menu bar, marked with a circle](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox"}
+![Chat status, counter of unread messages and search icon on the right of the menu bar, marked with a circle](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox" title="Menu bar on the right" }
 
 
 ## Further information {: #further_information}

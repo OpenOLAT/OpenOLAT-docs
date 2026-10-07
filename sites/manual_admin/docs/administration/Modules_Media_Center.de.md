@@ -4,10 +4,10 @@
 Administrator:innen konfigurieren das Media Center in der System-Administration unter:<br>
 `Administration > Module > Media Center`
 
-![Alle Einstellungen des Moduls Media Center auf einer Seite, geöffnet über den markierten Eintrag Media Center im Menü Module der System-Administration](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" }
+![Alle Einstellungen des Moduls Media Center auf einer Seite, geöffnet über den markierten Eintrag Media Center im Menü Module der System-Administration](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" title="Menü Module der System-Administration" }
 
 Die Quota (Speicherplatz) des Media Centers legt dieses Modul nicht selbst fest. Die Quota stellen Sie in der System-Administration ein, unter:<br>
-`Administration > Core Konfiguration > Dateien und Ordner > Tab "Quotas"`
+`Administration > Core-Konfiguration > Dateien und Ordner > Tab "Quotas"`
 
 Siehe auch [Dateien und Ordner](Files_and_Folders.de.md#files_and_folders_quotas).<br>
 [Zum Seitenanfang ^](#module_media_center)
@@ -17,7 +17,7 @@ Siehe auch [Dateien und Ordner](Files_and_Folders.de.md#files_and_folders_quotas
 
 ## Lizenzen {: #licences}
 
-Wer sicherstellen will, dass jedes neue Medium im Media Center eine Lizenzangabe trägt, macht die Lizenz hier zum Pflichtfeld. Dazu aktivieren Sie die Checkbox "Lizenzprüfung bei neuen Medien erzwingen". Sie wirkt, wenn in der System-Administration unter `Administration > Core Konfiguration > Lizenzen` bei "Lizenzen aktivieren in" das Media Center ausgewählt ist.
+Wer sicherstellen will, dass jedes neue Medium im Media Center eine Lizenzangabe trägt, macht die Lizenz hier zum Pflichtfeld. Dazu aktivieren Sie die Checkbox "Lizenzprüfung bei neuen Medien erzwingen". Sie wirkt, wenn in der System-Administration unter `Administration > Core-Konfiguration > Lizenzen` bei "Lizenzen aktivieren in" das Media Center ausgewählt ist.
 
 [Mehr zur Verwendung von Lizenzen >](Licenses.de.md)<br>
 [Zum Seitenanfang ^](#module_media_center)

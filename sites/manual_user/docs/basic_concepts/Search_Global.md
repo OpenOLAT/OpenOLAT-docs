@@ -6,7 +6,7 @@ If you enter a search term here and confirm it by pressing the Enter key or clic
 
 This means that the **entire OpenOlat** is searched, including the content of documents. It is a [full-text search](Search_General.md#full_text_search).
 
-![Expanded search field of the global search with the button Search next to the magnifying glass icon in the top right-hand corner of the main navigation](assets/search_global_v1_de.png){ class="shadow lightbox" }
+![Expanded search field of the global search with the button Search next to the magnifying glass icon in the top right-hand corner of the main navigation](assets/search_global_v1_de.png){ class="shadow lightbox" title="Main navigation at the top right" }
 
 
 ## Search results [:octicons-tag-16:{ title="from Release 20.1 (OO-8767)" }](https://track.frentix.com/issue/OO-8767) {: #search_results}

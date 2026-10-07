@@ -1,10 +1,10 @@
 # Roles and Rights: Guest access {: #guest_access}
 
-![Login page with the three tabs for login with an account, Cloud Login and Guest access; people without an account enter OpenOlat via the Guest access tab](assets/guestlogin_en_wm.png){ class="shadow lightbox aside-right-lg" }
+![Login page with the marked Guest access button below the login with an account and the identity providers; people without an account enter OpenOlat via this button](assets/guest_access_login_page_v1_en.png){ class="shadow lightbox aside-right-lg" }
 
 Besides registered users, people without an OpenOlat account can also access the system as guests. Guests are anonymous, unregistered users who cannot be managed in the [user management](../../manual_admin/usermanagement/index.md).
 
-For guests to gain access, the system administrators of the OpenOlat instance must activate the guest login. It is also possible to configure which OpenOlat areas guests can access and which not. Only the system administrators can make these basic settings.
+For guests to gain access, the system administrators of the OpenOlat instance must activate the guest login. It is also possible to configure which OpenOlat areas guests can access and which not. Only the system administrators can make these basic settings. If the guest login is activated, the login page shows the button "Guest access" below the other login options. Guests enter OpenOlat via this button.
 
 Generally, various learning resources, e.g. wikis, blogs, tests, videos or glossaries, can be released for guests.
 
@@ -14,9 +14,9 @@ Generally, various learning resources, e.g. wikis, blogs, tests, videos or gloss
 
     Guest access can only be activated for conventional courses, not for learning path courses.
 
-In a conventional course, course owners can set up the access configuration so that guests can also access the course: `Course > Administration > Settings > Share`. Set "Access for participants" to "Bookable and open offers". Then add an offer of the type "Guest" in the "Offer" section via "Add offer".
+In a conventional course, course owners can set up the access configuration so that guests can also access the course: `Course > Administration > Settings > Share`. Set "Access for participants" to "Bookable and open offers". Then add an offer of the type "Guest" in the "Offer" section via "Add offer". If the course has no offer yet, the offer types are also available as separate buttons below "No offer created yet", including "Guest".
 
-![Offer type Guest selected in the Add offer menu, above it the option Bookable and open offers and an existing offer for guests, Share tab of the course settings](assets/Gastzugang_en.png){ class="shadow lightbox" }
+![Add offer menu opened in the Offer section, offer type Guest marked, below it the same offer types as buttons](assets/guest_access_add_offer_v1_en.png){ class="shadow lightbox" title="Share tab of the course settings · 2026.10.07" }
 
 Guests can see or partially edit the following course elements:
 
@@ -34,9 +34,9 @@ Guests can see or partially edit the following course elements:
 
     Guest access does not create a membership in the course. All guests use the same anonymous guest account. The member management of the course and the user management therefore do not list any guests, and individual guests cannot be told apart. If you want to record the participants by name, invite them as external members.
 
-If you want to give a guest direct access to a course, send them the external link to the course.
+If you want to give a guest direct access to a course, send them the link from the line "External link - Guest". You find it in the window "About this course": `Course > Administration > About this course`. The line appears as soon as the course has an offer of the type "Guest".
 
-![External link of a course with the suffix guest=true, highlighted in the External link section of the course info page](assets/Gast-link_20.jpg){ class="shadow lightbox" }
+![Row External link - Guest marked in the About this course window, the link contains guest=true](assets/guest_access_guest_link_v1_en.png){ class="shadow lightbox" title="About this course window · 2026.10.07" }
 
 !!! tip "Tip: Alternative to guest access"
 

@@ -2,7 +2,7 @@
 
 In the members management, course owners see all users and groups of a course and can organize them comprehensively, e.g. assign certain course-related rights, contact participants, and organize course groups. Rights management and the administration of consents to course-related terms of use or the privacy policy also take place here.
 
-![Members management of a course with the areas Members, Groups, Course Planner, Booking Orders, Invitations, Rights, and Consents](assets/members_management_open_v1_de.png){ class="shadow lightbox" }
+![Members management of a course with the areas Members, Groups, Course Planner, Booking Orders, Invitations, Rights, and Consents](assets/members_management_open_v1_de.png){ class="shadow lightbox" title="Members management of a course" }
 
 
 ## Members {: #section_members}
@@ -11,7 +11,7 @@ When you open the members management, you find yourself in the "Members" area. T
 
 You can edit the role assignments of the persons, remove them from the course, or send them an email. You can also export the member data as an Excel spreadsheet.
 
-![Members area with preset filters by role and origin, and a table with role, institution, and last visit](assets/Mitglieder20.png){ class="shadow lightbox" }
+![Members area with preset filters by role and origin, and a table with role, institution, and last visit](assets/Mitglieder20.png){ class="shadow lightbox" title="Members area of the members management" }
 
 The search field can be used to search for members of a course, which is helpful when there are many participants.
 
@@ -59,7 +59,7 @@ In the Excel export of the member list, the "Origin" column lists all associated
 
 When you select a person from the list, you receive further information about that person, e.g. you see the number of course views and can assign additional roles to the person.
 
-![Edit member dialog with account information, course role checkboxes, and a table of group memberships](assets/Benutzerinfos_20.png){ class="shadow lightbox" }
+![Edit member dialog with account information, course role checkboxes, and a table of group memberships](assets/Benutzerinfos_20.png){ class="shadow lightbox" title="Edit member dialog" }
 
 There are three specific course roles:
 
@@ -75,7 +75,7 @@ In [learning path courses](../learningresources/Learning_path_course.md), only t
 
 A course member can hold multiple roles in a course at the same time. In this case, the option to switch roles and view the course from the perspective of the respective course role appears in the course toolbar for the person concerned.
 
-![Role switch menu in the toolbar with the available roles Owner, Coach, and Course planner](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" }
+![Role switch menu in the toolbar with the available roles Owner, Coach, and Course planner](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" title="Role switch menu in the toolbar" }
 
 If the user has additional [system roles](../basic_concepts/Roles_Rights.md), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
 
@@ -99,7 +99,7 @@ The bulk search is useful if the login name, the email address used by the perso
 
 Alternatively, the "Invite external members" option can be used. This way, people without an OpenOlat account can also be added to the learning resource for a maximum of 180 days.
 
-![Add member button with the additional option Invite external members in the members management](assets/Mitglieder_hinzufuegen_20.jpg){ class="shadow lightbox" }
+![Add member button with the additional option Invite external members in the members management](assets/Mitglieder_hinzufuegen_20.jpg){ class="shadow lightbox" title="Add member button in the members management" }
 
 !!! tip "Tip"
 
@@ -139,7 +139,7 @@ How groups are generally created and configured, and how group members are manag
 
 If a course is linked to the [Course Planner](../area_modules/Course_Planner.md), the relevant information also appears in the members management.
 
-![Course Planner area in the members management with elements and their number of owners, coaches, and participants](assets/Course_Planner_Mitgliederverwaltung.png){ class="shadow lightbox" }
+![Course Planner area in the members management with elements and their number of owners, coaches, and participants](assets/Course_Planner_Mitgliederverwaltung.png){ class="shadow lightbox" title="Course Planner area of the members management" }
 
 [To the top of the page ^](#members_management)
 
@@ -152,7 +152,7 @@ If [offers](../learningresources/Access_configuration.md) have been set up for a
 
 A booking order displayed here means that the course is self-contained and bookable, and therefore contains an offer, for example via an access code.
 
-![Booking Orders area with status tabs and a table of the bookings including offer type and price](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" }
+![Booking Orders area with status tabs and a table of the bookings including offer type and price](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" title="Booking Orders area of the members management" }
 
 [To the top of the page ^](#members_management)
 

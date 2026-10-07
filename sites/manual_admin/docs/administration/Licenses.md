@@ -6,7 +6,7 @@ administration under:<br>
 
 ## Activate licenses in areas {: #licences_activation}
 
-![Licenses in the core functions: under Activate licenses in, the areas Folder, Question pool and Learning resources are listed as checkboxes, all three selected](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
+![Licenses in the Core functions: under Activate licenses in, the areas Folder, Question pool and Learning resources are listed as checkboxes, all three selected](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
 
 Licenses can be used in the following OpenOlat areas:
 
@@ -41,7 +41,7 @@ sufficient. "Create license" opens a dialog in which the license name, a
 corresponding license text and a CSS class can be entered. License types
 created in this way can only be edited afterwards, not deleted.
 
-![Mandatory field Name, multi-line field License text and field CSS class with the buttons Cancel and Save in the dialog Create license](assets/LizenzMgmt_eigeneLizenz_EN.png){ class="shadow lightbox" }
+![Mandatory field Name, multi-line field License text and field CSS class with the buttons Cancel and Save in the dialog Create license](assets/LizenzMgmt_eigeneLizenz_EN.png){ class="shadow lightbox" title="Dialog Create license" }
 
 All available licenses are listed in the overview. Use the arrows in the
 columns "Up" and "Down" to change the display order of the licenses. The link
@@ -53,7 +53,7 @@ are only visible in the overview if the licenses are generally activated for
 the respective section. Here it is possible to activate only specific license
 types for the individual sections.
 
-![Button Create license highlighted above the overview of license types with the activation checkboxes per section Folder, Question pool and Learning resources](assets/LizenzMgmt_Lizenztypen_EN.png){ class="shadow lightbox" }
+![Button Create license highlighted above the overview of license types with the activation checkboxes per section Folder, Question pool and Learning resources](assets/LizenzMgmt_Lizenztypen_EN.png){ class="shadow lightbox" title="Overview of license types" }
 
 License types that qualify as Open Educational Resource carry an OER flag.
 Among the default license types, these are the seven Creative Commons licenses

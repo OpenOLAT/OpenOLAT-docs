@@ -3,7 +3,7 @@
 Administrators configure the Media Center in the System Administration under:<br>
 `Administration > Modules > Media Center`
 
-![All settings of the Media Center module on one page, opened via the highlighted entry Media Center in the Modules menu of the System Administration](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" }
+![All settings of the Media Center module on one page, opened via the highlighted entry Media Center in the Modules menu of the System Administration](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" title="Modules menu of the System Administration" }
 
 This module does not define the quota (storage space) of the Media Center itself. You set the quota in the System Administration under:<br>
 `Administration > Core functions > Files and folders > Tab "Quotas"`

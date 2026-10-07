@@ -2,7 +2,7 @@
 
 Hier erfahren Sie, wie Sie Tests mit dem Bewertungswerkzeug von OpenOlat bewerten und korrigieren.
 
-Gehen Sie in das Bewertungswerkzeug und wählen Sie in der linken Übersicht, die die Kursstruktur widerspiegelt, den Test aus, den Sie bewerten möchten. Hier finden Sie zwei Tabs: "Übersicht" und "Teilnehmer:innen".
+Öffnen Sie das Bewertungswerkzeug über `Kurs > Administration > Bewertungswerkzeug` und wählen Sie in der linken Übersicht, die die Kursstruktur widerspiegelt, den Test aus, den Sie bewerten möchten. Hier finden Sie zwei Tabs: "Übersicht" und "Teilnehmer:innen".
 
 Im Tab "Übersicht" erhalten Sie eine Übersicht zur Bewertung dieses Kursbausteins, z.B. wie viele Personen diesen Kursbaustein schon bestanden haben. Im Tab "Teilnehmer:innen" werden die Teilnehmenden angezeigt und die eigentliche Bewertung von Teilnehmenden kann gestartet werden.
 
@@ -10,14 +10,14 @@ Im Tab "Übersicht" erhalten Sie eine Übersicht zur Bewertung dieses Kursbauste
 
 **Generelle Aktionsmöglichkeiten**
 
-![Buttons Test Statistiken, Resultate exportieren, Tests einziehen und Alle Daten zurücksetzen über der Liste der Teilnehmenden mit Punkten, Bestanden und Status](assets/Bewertungswerkzeug_Teilnehmer_172.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Bewertungswerkzeug eines Tests" }
+![Buttons Teststatistiken, Resultate exportieren, Tests einziehen und Korrekturwerkzeug, im Menü mit drei Punkten Alle Daten löschen, darunter die Liste der Teilnehmenden](assets/assessing_tests_participants_buttons_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Bewertungswerkzeug eines Tests · 2026.10.07" }
 
 Kursbetreuer:innen und Kursbesitzer:innen haben über die entsprechenden Buttons die Möglichkeit:
 
-* sich die Test Statistiken anzuschauen,
+* sich die Teststatistiken anzuschauen,
 * die Resultate aller angezeigten Lernenden als zip-Datei zu exportieren,
 * Tests einzuziehen, die sich aktuell in Bearbeitung befinden,
-* die Ergebnisse (Daten) aller bisherigen Tests zurückzusetzen,
+* alle Daten des Tests zu löschen,
 * die Bewertung für alle oder mehrere ausgewählte Teilnehmende auf den Status "abgeschlossen" zu setzen und damit die Bewertung final zu beenden,
 * die Bewertungen der Tests für alle oder mehrere ausgewählte Teilnehmende auf einen Schlag sichtbar bzw. unsichtbar zu setzen (freigeben),
 * die Zeit für die Bearbeitung des Tests zu verlängern,
@@ -31,8 +31,8 @@ Kursbetreuer:innen und Kursbesitzer:innen haben über die entsprechenden Buttons
 
 Die Buttons und Optionen im Detail:
 
-### Test Statistiken
-Aufrufen der detaillierten Statistik zu jeder Frage eines Tests. Sämtliche Antworten der Lernenden werden dabei berücksichtigt. Mehr dazu auf der Seite [Test Statistiken](Statistics_Test.de.md).
+### Teststatistiken
+Aufrufen der detaillierten Statistik zu jeder Frage eines Tests. Sämtliche Antworten der Lernenden werden dabei berücksichtigt. Mehr dazu auf der Seite [Teststatistiken](Statistics_Test.de.md).
 
 ### Resultate exportieren
 Hier können die kompletten Testresultate als zip-Datei exportiert und somit archiviert werden. Der Titel der zip-Datei zeigt den Namen des Tests, den zugehörigen Kurs sowie das Datum des Downloads an. Der Ergebnisdownload beinhaltet eine Teilnehmendenübersicht als HTML-Seite, Ordner mit den Ergebnissen der Teilnehmenden sowie weitere Dateien. Wenn die Testquittung aktiviert wurde, wird auch diese exportiert. Welche Spalten die Excel-Datei enthält, steht auf der Seite [Tests exportieren](Test_export.de.md#export_results).
@@ -50,12 +50,16 @@ Der Button "Korrekturwerkzeug" erscheint, wenn die Einstellung "Korrektur" des K
 Sind Bewertungen bereits abgeschlossen, fragt OpenOlat vor dem Öffnen im Dialog "Abgeschlossene Bewertungen wieder öffnen" nach. Mit "Bewertung wiederöffnen" setzen Sie die abgeschlossenen Bewertungen zurück auf den Status "Korrigieren" und können erneut korrigieren. Mit "Korrektur nur sehen" öffnen Sie das Korrekturwerkzeug, ohne die Bewertungen wieder zu öffnen. Die Antworten dieser Personen sind dann schreibgeschützt, der Button "Punkte anpassen" fehlt.
 
 ### Testquittung validieren
-Wenn diese Option angewählt wird, wird nach Beenden des Tests eine Testquittung erstellt, welche als XML-File heruntergeladen werden kann. Es dient der Verifizierung des Tests. Das erstellte XML-File kann zusätzlich per Mail an die teilnehmende Person verschickt werden, wenn die Option "Testquittung per Mail schicken" aktiviert wird.
+Legt eine teilnehmende Person ihre Testquittung vor, prüfen Sie mit "Testquittung validieren", ob die Quittung gültig ist und zu einem in OpenOlat gespeicherten Resultat gehört. Laden Sie dazu die XML-Datei der Testquittung im Feld "XML Datei" hoch. OpenOlat zeigt das Ergebnis der Prüfung direkt im Dialog an.
 
-### Alle Daten zurücksetzen
-Hiermit werden die Daten des aktuellen Tests zurückgesetzt. Das bedeutet, alle Daten aller Teilnehmenden inklusive Resultate werden unwiderruflich gelöscht. Es ist aber auch möglich, nur einzelne Tests von bestimmten Personen zurückzusetzen. Dies erfolgt direkt in den Einstellungen der jeweiligen Person.
+Der Button erscheint nur, wenn in der Konfiguration des Kursbausteins die Option "Testquittung erstellen" eingeschaltet ist. OpenOlat erstellt dann nach dem Beenden des Tests eine Testquittung, welche die teilnehmende Person als XML-Datei herunterladen kann. Ist zusätzlich die Option "Testquittung per Mail schicken" aktiviert, erhält sie die Datei auch per E-Mail.
 
-### Verlängern
+### Alle Daten löschen
+Mit "Alle Daten löschen" löschen Sie die Daten aller Teilnehmenden zu diesem Test unwiderruflich, inklusive Resultate. Den Eintrag finden Sie im Menü mit drei Punkten neben den Buttons. Im Dialog "Daten von Test löschen" bestätigen Sie das Kontrollkästchen "Ich verstehe, dass die Daten endgültig gelöscht werden." und klicken auf "Alle Daten löschen". Haben bereits Teilnehmende den Test gestartet, erstellt OpenOlat beim Löschen eine Archivdatei mit den relevanten Daten, die anschliessend heruntergeladen wird.
+
+Den Eintrag sehen unter anderem Kursbesitzer:innen und Personen mit dem Recht [Bewertungs-Werkzeug](Members_management.de.md#additional_rights), nicht aber Kursbetreuer:innen ohne dieses Recht. Die Daten einzelner Personen setzen Sie dagegen bei der jeweiligen Person zurück, siehe Abschnitt "Tests zurücksetzen oder annullieren".
+
+### Verlängern [:octicons-tag-16:{ title="ab Release 12.3 (OO-2967)" }](https://track.frentix.com/issue/OO-2967)
 Hier kann die voreingestellte Testzeit verlängert werden.
 
 ### Bewertungsskala anpassen [:octicons-tag-16:{ title="ab Release 16.2 (OO-6008)" }](https://track.frentix.com/issue/OO-6008)
@@ -148,11 +152,11 @@ Bei Fragen, die von Hand korrigiert werden, gibt es keine Anpassung. Dort tragen
 
 Die Anpassung erscheint überall dort, wo Punkte stehen:
 
-![Eine Anpassung an einer Frage erscheint im Korrekturwerkzeug, in der Liste der Testversuche, in den Test Statistiken und im Export der Testresultate](assets/assessing_tests_adjustment_effect_v1_de.svg){ class="shadow lightbox" title="Wo eine Punkteanpassung sichtbar wird" }
+![Eine Anpassung an einer Frage erscheint im Korrekturwerkzeug, in der Liste der Testversuche, in den Teststatistiken und im Export der Testresultate](assets/assessing_tests_adjustment_effect_v1_de.svg){ class="shadow lightbox" title="Wo eine Punkteanpassung sichtbar wird" }
 
 * **Korrekturwerkzeug**: in der Spalte "#Angepasst" und in der Registerkarte "Angepasst".
 * **Testversuche einer Person**: in der Spalte "Punkte (Auto)", siehe [c) Manuelle Bewertung ausgehend von einer einzelnen Person](#test_runs).
-* **Test Statistiken**: in den Kennzahlen "Anzahl der Anpassungen" und "Durchschnittliche Anpassung" der Frage, siehe [Test Statistiken](Statistics_Test.de.md#adjustment_figures).
+* **Teststatistiken**: in den Kennzahlen "Anzahl der Anpassungen" und "Durchschnittliche Anpassung" der Frage, siehe [Teststatistiken](Statistics_Test.de.md#adjustment_figures).
 * **Export der Testresultate**: in eigenen Spalten der Excel-Datei, siehe [Tests exportieren](Test_export.de.md#score_columns).
 
 Die Teilnehmenden sehen in ihren Resultaten nur den Endwert der Frage, nicht die Anpassung.
@@ -261,21 +265,22 @@ Im Gegensatz zum Annullieren führt **"Testdaten zurücksetzen"** dazu, dass all
 
 ## Bewertung im Kursrun [:octicons-tag-16:{ title="ab Release 15.5 (OO-5211)" }](https://track.frentix.com/issue/OO-5211)
 
-Neben der Bewertung im Bewertungswerkzeug können auch einzelne Tests im Kursrun bei geschlossenem Editor bewertet werden. Die Bewertungsmöglichkeiten in den Tabs "Übersicht" und "Teilnehmer:innen" sind überwiegend identisch. Allerdings gibt es im Kursrun noch die Tabs "Kommunikation", "Vorschau" und "Erinnerungen".
+Neben der Bewertung im Bewertungswerkzeug können auch einzelne Tests im Kursrun bei geschlossenem Editor bewertet werden. Die Bewertungsmöglichkeiten in den Tabs "Übersicht" und "Teilnehmer:innen" sind überwiegend identisch. Allerdings gibt es im Kursrun noch die Tabs "Vorschau", "Kommunikation" und "Erinnerungen".
 
-Die Vorschau zeigt die Perspektive der Teilnehmenden an und im Tab "Erinnerungen" besteht die Möglichkeit, eine Erinnerungsmail für bestimmte Bedingungen der Test-Bearbeitung, z.B. bei einer bestimmten Punktzahl, bestimmter Anzahl der Versuche oder beim Bestehen/Nichtbestehen, zu verschicken (siehe [Erinnerung](Course_Reminders.de.md)). Der Tab "Kommunikation" ist für die Kommunikation während eines laufenden Tests z.B. im Rahmen von Online-Klausuren gedacht.
+Die Vorschau zeigt die Perspektive der Teilnehmenden an. Der Tab "Kommunikation" ist für die Kommunikation während eines laufenden Tests z.B. im Rahmen von Online-Klausuren gedacht. Im Tab "Erinnerungen" besteht die Möglichkeit, eine Erinnerungsmail für bestimmte Bedingungen der Test-Bearbeitung, z.B. bei einer bestimmten Punktzahl, bestimmter Anzahl der Versuche oder beim Bestehen/Nichtbestehen, zu verschicken (siehe [Erinnerung](Course_Reminders.de.md)).
 
-![Zusätzliche Tabs Kommunikation, Vorschau und Erinnerungen neben Übersicht und Teilnehmer sowie der Button Korrekturwerkzeug über der Liste der Teilnehmenden](assets/Test_Kursrun_172.png){ class="shadow lightbox" title="Test-Kursbaustein im Kursrun" }
+![Tabs Vorschau, Kommunikation und Erinnerungen neben Übersicht und Teilnehmer:innen markiert, dazu der Button Korrekturwerkzeug und im Menü mit drei Punkten Alle Daten löschen](assets/assessing_tests_course_run_v1_de.png){ class="shadow lightbox" title="Test-Kursbaustein im Kursrun · 2026.10.07" }
 
 ---
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Test Statistiken >](Statistics_Test.de.md)<br>
+[Teststatistiken >](Statistics_Test.de.md)<br>
 [Tests exportieren >](Test_export.de.md)<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
+[Mitgliederverwaltung >](Members_management.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)
 

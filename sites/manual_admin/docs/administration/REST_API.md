@@ -5,7 +5,7 @@ The goal of the REST API is to provide an easy way to exchange URLs. It is e.g. 
 The REST API can be activated or deactivated in the system administration, under:<br>
 `Administration > Core functions > REST API`
 
-![REST API page in Core functions with REST API access, generation of API key by user, API access and the checkboxes for managed objects](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox" }
+![REST API page in Core functions with REST API access, generation of API key by user, API access and the checkboxes for managed objects](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox" title="Page REST API in the Core functions" }
 
 [To the top of the page ^](#REST-API)
 
@@ -330,6 +330,17 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	* Fully externally managed (all)
 	    * delete
 
+
+[To the top of the page ^](#REST-API)
+
+---
+
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Jersey](<https://jersey.dev.java.net/>)<br>
+[Jackson](<http://jackson.codehaus.org/>)
 
 [To the top of the page ^](#REST-API)
 

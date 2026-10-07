@@ -109,7 +109,7 @@ The following tools are available to course coaches as standard.
 | Tool | Function  |
 | --- | --- |
 | Assessment tool| analog to the course owner |
-| Test Statistics| analog to the course owner, but cannot display results of owners/coaches |
+| Test statistics| analog to the course owner, but cannot display results of owners/coaches |
 | Survey Statistics| analog to the course owner |
 | Absences| Enter absences  |
 | Documents coach| Document storage  |

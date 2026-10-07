@@ -47,7 +47,7 @@ hide:
 1. [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)
 1. [Kurserinnerungen](../learningresources/Course_Reminders.de.md)
 1. [Gruppen betreuen](../groups/index.de.md)
-1. [Kurs Statistiken](../learningresources/Statistics_Course.de.md)
+1. [Kursstatistiken](../learningresources/Statistics_Course.de.md)
 
 </section>
 

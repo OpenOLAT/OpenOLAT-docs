@@ -4,7 +4,7 @@ Sie haben zwei generelle Möglichkeiten die Bewertung im Bewertungswerkzeug vorz
 
 In der linken Spalte im Bewertungswerkzeug sehen Sie die Kursstruktur mit allen bewertbaren Kursbausteinen. Hier können Sie direkt zu einem der Kursbausteine navigieren um Ihre Bewertung vorzunehmen. Für jeden Kursbaustein wird ein Tab mit der "Übersicht" und ein Tab mit den "Teilnehmer:innen" angezeigt. 
 
-![Filter und Registerkarten über der Liste der Teilnehmenden eines Tests mit Versuchen, Punkten, Bestanden und Status](assets/Bewertungswerkzeug_Teilnehmer_172.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test im Bewertungswerkzeug" }
+![Links die Kursstruktur, rechts die Tabs Übersicht und Teilnehmer:innen eines Tests, darunter Buttons, Filter und die Liste der Teilnehmenden mit Versuchen, Punkten, Bestanden und Status](assets/assessing_tests_participants_buttons_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test im Bewertungswerkzeug · 2026.10.07" }
 
 Die genaue Vorgehensweise wird in den Kapiteln [Lernende bewerten](../learningresources/Assessment_of_learners.de.md) und [Bewertung von Kursbausteinen](../learningresources/Assessment_of_course_modules.de.md) beschrieben.
 

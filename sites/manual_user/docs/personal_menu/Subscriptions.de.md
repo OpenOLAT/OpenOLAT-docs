@@ -134,7 +134,7 @@ Wir empfehlen folgende Suchbegriffe: _RSS reader_, _RSS newsreader_, _feedreader
 **Weiterführend**<br>
 [Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
 [Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
-[Core Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Wikipedia-Artikel zu RSS >](http://en.wikipedia.org/wiki/Rss_feed)
 

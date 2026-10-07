@@ -6,7 +6,7 @@ Wenn Sie hier einen Suchbegriff eingeben und mit der Eingabetaste oder Klick auf
 
 Das heisst, dass **im ganzen OpenOlat** gesucht wird und auch innerhalb der Dokumente. Es ist eine [Volltextsuche](Search_General.de.md#full_text_search).
 
-![Aufgeklapptes Suchfeld der globalen Suche mit Button Suchen neben dem Lupen-Symbol oben rechts in der Hauptnavigation](assets/search_global_v1_de.png){ class="shadow lightbox" }
+![Aufgeklapptes Suchfeld der globalen Suche mit Button Suchen neben dem Lupen-Symbol oben rechts in der Hauptnavigation](assets/search_global_v1_de.png){ class="shadow lightbox" title="Hauptnavigation oben rechts" }
 
 
 ## Suchergebnisse [:octicons-tag-16:{ title="ab Release 20.1 (OO-8767)" }](https://track.frentix.com/issue/OO-8767) {: #search_results}
@@ -21,13 +21,13 @@ Personendaten wie Profile, Visitenkarten oder persönliche Ordner werden nicht i
 
 ## Aktivierung {: #activation}
 
-Die globale Suche ist nur dann sichtbar und nutzbar, wenn der Suchdienst für Ihre OpenOlat Instanz eingeschaltet ist. Diese Einstellung nehmen Administrator:innen in der Server-Konfiguration vor (Eigenschaft `search.service`). Die Einstellungen zur Indexierung finden sich in der System-Administration unter `Administration > Core Konfiguration > Volltextsuche`, siehe [Core Konfiguration: Übersicht](../../manual_admin/administration/Core_functions.de.md). Ist die Suche bei Ihnen nicht sichtbar, wenden Sie sich an den oder die Administrator:in Ihrer OpenOlat Instanz.
+Die globale Suche ist nur dann sichtbar und nutzbar, wenn der Suchdienst für Ihre OpenOlat Instanz eingeschaltet ist. Diese Einstellung nehmen Administrator:innen in der Server-Konfiguration vor (Eigenschaft `search.service`). Die Einstellungen zur Indexierung finden sich in der System-Administration unter `Administration > Core-Konfiguration > Volltextsuche`, siehe [Core-Konfiguration: Übersicht](../../manual_admin/administration/Core_functions.de.md). Ist die Suche bei Ihnen nicht sichtbar, wenden Sie sich an den oder die Administrator:in Ihrer OpenOlat Instanz.
 
 
 ## Weiterführende Informationen {: #further_information}
 
 [Allgemeines zur Suche >](Search_General.de.md)<br>
-[Core Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Lokale Suche >](Search_Local.de.md)<br>
 [Personensuche >](Search_Person.de.md)<br>
 [Suche in einem Kurs >](Search_in_Course.de.md)<br>

@@ -1,6 +1,6 @@
 # Files and Folders {: #files_and_folders}
 
-![Selected entry Files and folders in the Core functions menu of the system administration, between E-mail and WebDAV](assets/core_config_files_and_folders_v1_en.png){ class="aside-right lightbox" }
+![Selected entry Files and folders in the Core functions menu of the system administration, between E-mail and WebDAV](assets/core_config_files_and_folders_v2_en.png){ class="aside-right lightbox" }
 
 You will find the general settings for files and folders in the system administration under:<br>
 `Administration > Core functions > Files and folders`
@@ -18,7 +18,7 @@ The area contains the following tabs:
 
 ---
 
-## Tab Overview {: #files_and_folders_overview}
+## Tab Overview [:octicons-tag-16:{ title="from Release 14.2 (OO-4375)" }](https://track.frentix.com/issue/OO-4375) {: #files_and_folders_overview}
 
 In the Overview tab, administrators get a quick overall view of the number and size of OpenOlat files, versions, deleted files and thumbnails.
 
@@ -87,7 +87,7 @@ There is no separate system-wide default value for the Media Center. "::DEFAULT:
 
 Individual quotas override the default value and apply, for example, only to a very specific course folder or to the personal files of a very specific person. You create an individual quota with the "Add quota" button and enter the path of the folder in the "Path" field.
 
-![Field Path with the Media Center path of a person highlighted, below it Quota (KB), Upload limit (KB) and the list Default quotas, in the Add quota dialog of the Quotas tab](assets/core_config_files_and_folders_quota_add_v1_en.png){ class="shadow lightbox" }
+![Field Path with the Media Center path of a person highlighted, below it Quota (KB), Upload limit (KB) and the list Default quotas](assets/core_config_files_and_folders_quota_add_v1_en.png){ class="shadow lightbox" title="Dialog Add quota in the Quotas tab" }
 
 Specific Quotas | Scope
 ---------|----------
@@ -124,13 +124,13 @@ The search mask combines time, quantity and status filters:
 * "File newer than" and "File older than" for the creation date
 * "Edited newer than" and "Edited older than" for the last change
 * "Locked newer than" and "Locked older than" for the time of locking
-* "Revision count min", "Download count min" and "Size min (MB)" as lower limits
+* "Revision count min", "Minimum number of downloads" and "Size min (MB)" as lower limits
 * "Results max" for the length of the result list
 * "Trashed", "Revision" and "Locked" to restrict to one state or to both
 
 The "Search" button creates the result list, "Reset" clears the filters.
 
-![Search mask with filters by date, revisions and minimum size, below it the result list with name, size and context, in the Large files tab under Files and folders](assets/core_config_files_and_folders_tab_large_files_screen_v1_en.png){ class="shadow lightbox" }
+![Search mask with filters by date, revisions, minimum number of downloads and minimum size, below it the result list with name, size and context](assets/core_config_files_and_folders_tab_large_files_screen_v2_en.png){ class="shadow lightbox" title="Large files tab under Files and folders · 2026.10.07" }
 
 The result list shows the name, size and context of each file. In the last column, the action "Send mail" sends a pre-formulated message to the person who stored the file. The message asks to check the file and to remove it if it is no longer needed.
 
@@ -145,7 +145,7 @@ Restoring files in the trash is left to the people who moved ("deleted") the fil
 
 The length of time the deleted files remain in the trash until final deletion is determined under the "Configuration" tab.
 
-![Field Delete from trash after x days with the value 180, in the Trash section of the Configuration tab](assets/core_config_files_and_folders_tab_configuration_trash_v1_en.png){ class="shadow lightbox" }
+![Field Delete from trash after x days with the value 180](assets/core_config_files_and_folders_tab_configuration_trash_v1_en.png){ class="shadow lightbox" title="Configuration tab under Files and folders" }
 
 [To the top of the page ^](#files_and_folders)
 

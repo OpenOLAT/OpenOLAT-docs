@@ -35,7 +35,7 @@
 <rect x="500" y="258" width="420" height="239" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2.5"/>
 <text x="518" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">WO</text>
 <rect x="518" y="304" width="345" height="24" rx="4" fill="#EDEDED"/>
-<text x="524" y="321" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Administration &gt; Core Konfiguration &gt;</text>
+<text x="524" y="321" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Administration &gt; Core-Konfiguration &gt;</text>
 <rect x="518" y="332" width="309" height="24" rx="4" fill="#EDEDED"/>
 <text x="524" y="349" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Dateien und Ordner &gt; Tab "Quotas"</text>
 <rect x="518" y="360" width="201" height="24" rx="4" fill="#EDEDED"/>

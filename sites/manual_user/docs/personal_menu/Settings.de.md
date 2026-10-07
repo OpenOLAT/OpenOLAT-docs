@@ -9,7 +9,7 @@ Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen anpass
 
 ## Tab System {: #tab_system}
 
-![Vier nummerierte Abschnitte des Tabs System, von den allgemeinen Systemeinstellungen bis zum Zurücksetzen der Einstellungen, in den persönlichen Einstellungen](assets/pers_menu_settings_tab_system_v1_de.png){ class="shadow lightbox" }
+![Vier nummerierte Abschnitte des Tabs System, von den allgemeinen Systemeinstellungen bis zum Zurücksetzen der Einstellungen, in den persönlichen Einstellungen](assets/pers_menu_settings_tab_system_v1_de.png){ class="shadow lightbox" title="Tab System der persönlichen Einstellungen" }
 
 
 ### ![1](assets/1_green_24.png) Allgemeine Systemeinstellungen {: #general}
@@ -34,7 +34,7 @@ Unter "E-Mail-Benachrichtigung" legen Sie fest, wie oft Sie höchstens eine E-Ma
 
 Die gewählte Häufigkeit ist eine Obergrenze: OpenOlat schickt Ihnen nur dann eine E-Mail, wenn es in Ihren Abonnements etwas Neues gibt. Mit "ausgeschaltet" erhalten Sie keine Benachrichtigungen per E-Mail mehr. Das gilt unabhängig vom Zeitplan der Instanz. Die Neuigkeiten gehen dabei nicht verloren: Ihre Abonnements bleiben bestehen, und Sie sehen die Neuigkeiten jederzeit selbst unter `Persönliches Menü > Abonnements > Tab "Neuigkeiten"` oder über das Glockensymbol im jeweiligen Kursbaustein. Mehr dazu: [Abonnements](Subscriptions.de.md#view_notifications)
 
-Die E-Mail kommt nicht im selben Moment, in dem Ihr Intervall abläuft, sondern beim nächsten Lauf des systemweiten Versands. Diesen Zeitplan legt die Administration fest, im Standard läuft der Versand alle zwei Stunden. Ist bei einem Lauf Ihr Intervall abgelaufen und gibt es Neuigkeiten, erhalten Sie die E-Mail. Mehr dazu: [Core Konfiguration: Benachrichtigungen](../../manual_admin/administration/Core_functions.de.md#notifications)
+Die E-Mail kommt nicht im selben Moment, in dem Ihr Intervall abläuft, sondern beim nächsten Lauf des systemweiten Versands. Diesen Zeitplan legt die Administration fest, im Standard läuft der Versand alle zwei Stunden. Ist bei einem Lauf Ihr Intervall abgelaufen und gibt es Neuigkeiten, erhalten Sie die E-Mail. Mehr dazu: [Core-Konfiguration: Benachrichtigungen](../../manual_admin/administration/Core_functions.de.md#notifications)
 
 ![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl die Administration den Versand eingerichtet hat](assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt?" }
 
@@ -78,7 +78,7 @@ Wenn Sie die Einstellung "Ja, automatisch" gewählt haben, wird das Feld "Starts
 Seitenspezifische Links finden Sie in der Social-Sharing-Leiste links unten unter "Link kopieren". Noch einfacher ist es, auf der gewünschten Startseite das Startseiten-Icon anzuklicken. Jede OpenOlat-Seite, auf die Sie Zugriff haben, kann so als persönliche Startseite gewählt werden.
 
 **Startseiten-Icon in der Fusszeile:**
-![Startseiten-Icon in der Fusszeile mit Pfeil markiert, darunter der Tooltip Aktuelle Seite im Profil als persönliche Startseite festlegen](assets/pers_menu_settings_tab_system_pers_startpage_v1_de.png){ class="shadow lightbox" }
+![Startseiten-Icon in der Fusszeile mit Pfeil markiert, darunter der Tooltip Aktuelle Seite im Profil als persönliche Startseite festlegen](assets/pers_menu_settings_tab_system_pers_startpage_v1_de.png){ class="shadow lightbox" title="Abschnitt Spezielle Systemeinstellungen" }
 
 
 ### ![3](assets/3_green_24.png) Persönliche Werkzeuge {: #personal_tools}
@@ -87,7 +87,7 @@ Hier wählen Sie aus, welche persönlichen Werkzeuge direkt oben in der Hauptnav
 Werkzeuge, die als Symbol in der Hauptnavigation angezeigt werden, sind nicht mehr im persönlichen Menü aufgeführt.
 
 **Beispiel: "Einstellungen" und "Badges" sind aus dem persönlichen Menü in die Hauptnavigation verschoben**
-![Kontrollkästchen Einstellungen und Badges im Abschnitt Persönliche Werkzeuge markiert, ihre Symbole erscheinen in der Hauptnavigation und fehlen im geöffneten persönlichen Menü](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" }
+![Kontrollkästchen Einstellungen und Badges im Abschnitt Persönliche Werkzeuge markiert, ihre Symbole erscheinen in der Hauptnavigation und fehlen im geöffneten persönlichen Menü](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" title="Abschnitt Persönliche Werkzeuge im Tab System" }
 
 !!! tip "Tipp"
 
@@ -115,7 +115,7 @@ Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-Instanz](../basic_
 
 Unter "Zugangsdaten" sehen Sie Ihren WebDAV-Anmeldenamen. Mit "Passwort einrichten" legen Sie ein eigenes WebDAV-Passwort fest.
 
-![WebDAV-Adresse der Instanz und darunter die Zugangsdaten mit WebDAV-Anmeldename, nicht eingerichtetem WebDAV-Passwort und Button Passwort einrichten, Tab WebDAV der persönlichen Einstellungen](assets/pers_menu_settings_tab_webdav_v1_de.png){ class="shadow lightbox" }
+![WebDAV-Adresse der Instanz und darunter die Zugangsdaten mit WebDAV-Anmeldename, nicht eingerichtetem WebDAV-Passwort und Button Passwort einrichten, Tab WebDAV der persönlichen Einstellungen](assets/pers_menu_settings_tab_webdav_v1_de.png){ class="shadow lightbox" title="Tab WebDAV der persönlichen Einstellungen" }
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -126,7 +126,7 @@ Unter "Zugangsdaten" sehen Sie Ihren WebDAV-Anmeldenamen. Mit "Passwort einricht
 
 Im Tab "Instant-Messaging" legen Sie die Einstellungen für die [Chat-Funktion](../../manual_admin/administration/Instant_Messaging.de.md) und Ihren Kommunikations-Status nach dem Login fest. Mit der Option "Kurznachrichten von allen Benutzer:innen empfangen" legen Sie fest, ob alle Benutzer:innen Ihnen Kurznachrichten senden dürfen. Unter "Nach dem Einloggen ist mein Status" wählen Sie zwischen "Verfügbar", "Bitte nicht stören" und "Nicht verfügbar".
 
-![Option Kurznachrichten von allen Benutzer:innen empfangen und die drei Status Verfügbar, Bitte nicht stören und Nicht verfügbar, Tab Instant-Messaging der persönlichen Einstellungen](assets/pers_menu_settings_tab_instant-messaging_v1_de.png){ class="shadow lightbox" }
+![Option Kurznachrichten von allen Benutzer:innen empfangen und die drei Status Verfügbar, Bitte nicht stören und Nicht verfügbar, Tab Instant-Messaging der persönlichen Einstellungen](assets/pers_menu_settings_tab_instant-messaging_v1_de.png){ class="shadow lightbox" title="Tab Instant-Messaging der persönlichen Einstellungen" }
 
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
@@ -140,7 +140,7 @@ Hier können Sie die Nutzungsbedingungen nachlesen, welche Sie beim ersten Login
 
 Ferner kann hier auch die Löschung des kompletten OpenOlat-Kontos beantragt werden. Der Antrag geht als E-Mail an eine von der System-Administration hinterlegte Adresse; die Löschung selbst führt die Benutzerverwaltung aus. Mehr dazu: [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#request_account_deletion)
 
-![Text der Nutzungsbedingungen mit Datum der Zustimmung, Button Konto löschen beantragen und drei bestätigte Kontrollkästchen, Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" }
+![Text der Nutzungsbedingungen mit Datum der Zustimmung, Button Konto löschen beantragen und drei bestätigte Kontrollkästchen, Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der persönlichen Einstellungen" }{ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -164,7 +164,7 @@ Wie der Export ausgelöst wird und wer das darf, beschreibt die Seite [Datenschu
 
 Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeichert. Expert:innen können hier gezielt einzelne Variablenwerte zurücksetzen.
 
-![Tabelle der gespeicherten GUI-Variablen mit den Spalten Zugeordnete Klasse und Key und je einem Button Zurücksetzen, Tab GUI-Einstellungen der persönlichen Einstellungen](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" }
+![Tabelle der gespeicherten GUI-Variablen mit den Spalten Zugeordnete Klasse und Key und je einem Button Zurücksetzen, Tab GUI-Einstellungen der persönlichen Einstellungen](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" title="Tab GUI-Einstellungen der persönlichen Einstellungen" }
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -175,7 +175,7 @@ Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeic
 
 **Auf dieser Seite erwähnt**<br>
 [Persönliche Werkzeuge: Abonnements >](Subscriptions.de.md)<br>
-[Core Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [E-Mail Einstellungen >](../../manual_admin/administration/E-Mail_Settings.de.md)<br>
 [Persönliche Werkzeuge: E-Mail >](E-Mail.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>

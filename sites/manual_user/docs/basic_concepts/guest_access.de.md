@@ -1,10 +1,10 @@
 # Rollen und Rechte: Gastzugang {: #guest_access}
 
-![Login-Seite mit den drei Tabs Mit Konto anmelden, Cloud Login und Gastzugang; über den Tab Gastzugang betreten Personen ohne Konto OpenOlat](assets/guestlogin_de_wm.png){ class="shadow lightbox aside-right-lg" }
+![Login-Seite mit dem markierten Button Gastzugang unter der Anmeldung mit Konto und den Identitätsanbietern; über diesen Button betreten Personen ohne Konto OpenOlat](assets/guest_access_login_page_v1_de.png){ class="shadow lightbox aside-right-lg" }
 
 Neben registrierten Benutzer:innen können auch Personen ohne OpenOlat-Konto als Gäste Zugang zum System erhalten. Gäste sind anonyme, nicht registrierte Benutzer:innen, die in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) nicht verwaltet werden können.
 
-Damit Gäste Zugang erhalten, muss der Gastlogin von den Systemadministrator:innen der OpenOlat-Instanz aktiviert werden. Auch kann konfiguriert werden, auf welche OpenOlat-Bereiche Gäste Zugriff haben und auf welche nicht. Diese Basis-Einstellungen sind nur durch die Systemadministrator:innen möglich.
+Damit Gäste Zugang erhalten, muss der Gastlogin von den Systemadministrator:innen der OpenOlat-Instanz aktiviert werden. Auch kann konfiguriert werden, auf welche OpenOlat-Bereiche Gäste Zugriff haben und auf welche nicht. Diese Basis-Einstellungen sind nur durch die Systemadministrator:innen möglich. Ist der Gastlogin aktiviert, zeigt die Login-Seite unter den übrigen Anmeldemöglichkeiten den Button "Gastzugang". Über diesen Button betreten Gäste OpenOlat.
 
 Grundsätzlich können diverse Lernressourcen, z.B. Wikis, Blogs, Tests, Videos oder Glossare, für Gäste freigeschaltet werden.
 
@@ -14,9 +14,9 @@ Grundsätzlich können diverse Lernressourcen, z.B. Wikis, Blogs, Tests, Videos 
 
     Der Gastzugang ist nur bei herkömmlichen Kursen, nicht bei Lernpfadkursen aktivierbar.
 
-In einem herkömmlichen Kurs können Kursbesitzer:innen die Zugangskonfiguration so einrichten, dass auch Gäste Zugriff auf den Kurs erhalten: `Kurs > Administration > Einstellungen > Freigabe`. Setzen Sie dort "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote". Fügen Sie anschliessend im Abschnitt "Angebot" über "Angebot hinzufügen" ein Angebot der Art "Gastzugang" hinzu.
+In einem herkömmlichen Kurs können Kursbesitzer:innen die Zugangskonfiguration so einrichten, dass auch Gäste Zugriff auf den Kurs erhalten: `Kurs > Administration > Einstellungen > Freigabe`. Setzen Sie dort "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote". Fügen Sie anschliessend im Abschnitt "Angebot" über "Angebot hinzufügen" ein Angebot der Art "Gastzugang" hinzu. Hat der Kurs noch kein Angebot, stehen die Angebotsarten unter "Noch kein Angebot erstellt" zusätzlich als eigene Buttons bereit, darunter "Gastzugang".
 
-![Angebotsart Gastzugang im Menü Angebot hinzufügen ausgewählt, darüber die Option Buchbare und offene Angebote und ein bestehendes Angebot für Gäste, Tab Freigabe der Kurseinstellungen](assets/Gastzugang_de.png){ class="shadow lightbox" }
+![Menü Angebot hinzufügen im Abschnitt Angebot geöffnet, die Angebotsart Gastzugang markiert, darunter dieselben Angebotsarten als Buttons](assets/guest_access_add_offer_v1_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen · 2026.10.07" }
 
 Folgende Kursbausteine kann ein Gast sehen bzw. teilweise bearbeiten:
 
@@ -34,9 +34,9 @@ Folgende Kursbausteine kann ein Gast sehen bzw. teilweise bearbeiten:
 
     Der Gastzugang erzeugt keine Mitgliedschaft im Kurs. Alle Gäste benutzen dasselbe anonyme Gastkonto. Die Mitgliederverwaltung des Kurses und die Benutzerverwaltung führen darum keine Gäste auf, und einzelne Gäste lassen sich nicht voneinander unterscheiden. Sollen die Teilnehmenden namentlich erfasst werden, laden Sie sie als externe Mitglieder ein.
 
-Wenn Sie einem Gast direkten Zugriff auf einen Kurs geben möchten, schicken Sie ihm den externen Link zum Kurs.
+Wenn Sie einem Gast direkten Zugriff auf einen Kurs geben möchten, schicken Sie ihm den Link aus der Zeile "Externer Link - Gast". Sie finden ihn im Fenster "Über diesen Kurs": `Kurs > Administration > Über diesen Kurs`. Die Zeile erscheint, sobald der Kurs ein Angebot der Art "Gastzugang" hat.
 
-![Externer Link eines Kurses mit dem Zusatz guest=true, hervorgehoben im Abschnitt Externer Link der Kurs-Infoseite](assets/Gast-link_20.jpg){ class="shadow lightbox" }
+![Zeile Externer Link - Gast im Fenster Über diesen Kurs markiert, der Link enthält guest=true](assets/guest_access_guest_link_v1_de.png){ class="shadow lightbox" title="Fenster Über diesen Kurs · 2026.10.07" }
 
 !!! tip "Tipp: Alternative zum Gastzugang"
 
