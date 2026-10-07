@@ -98,7 +98,7 @@ Jede Variante legt eigenständige Online-Termine an, bei wiederkehrenden Termine
 
     Bei täglich oder wöchentlich wiederkehrenden Online-Terminen legen Sie zusätzlich **Start wiederkehrendes Datum** und **Ende wiederkehrendes Datum** fest. Im nächsten Schritt listet der Assistent alle Termine dieser Zeitspanne auf. Dort lassen sich einzelne Termine löschen oder über **Online-Termin hinzufügen** ergänzen.
 
-In der Konfiguration eines Online-Termins öffnet der Link **Raumbuchungen anzeigen** beim Anlegen und beim Bearbeiten eine Übersicht über alle gebuchten Microsoft Teams Online-Termine der Instanz. Das erleichtert es, zeitliche Engpässe bzw. eine starke Auslastung des Systems frühzeitig zu erkennen und gegebenenfalls einen anderen Termin zu wählen.
+In der Konfiguration eines Online-Termins öffnet der Link **Raumbuchungen anzeigen** beim Anlegen und beim Bearbeiten einen Kalender mit allen Microsoft Teams Online-Terminen der Instanz, die ein Datum haben. Permanente Reservierungen ohne Datum erscheinen darin nicht. Trotz der Beschriftung zeigt der Kalender keine Raumbuchungen aus dem Modul "Räume", sondern nur Online-Termine. Bei täglich oder wöchentlich wiederkehrenden Online-Terminen steht der Button **Raumbuchungen anzeigen** in Schritt 2 des Assistenten über der Liste der Termine. Das erleichtert es, zeitliche Engpässe bzw. eine starke Auslastung des Systems frühzeitig zu erkennen und gegebenenfalls einen anderen Termin zu wählen.
 
 Im Tab **Online-Termine** öffnen Sie einen bestimmten Online-Termin.
 
@@ -120,7 +120,9 @@ Beim Anlegen oder Bearbeiten eines Online-Termins legen Sie fest, ob und wie er 
 
 Die beiden Felder "Aufnahme starten" und "Aufnahme automatisch veröffentlichen für" erscheinen erst, wenn die Terminaufzeichnung eingeschaltet ist.
 
-![Terminaufzeichnung auf Ein, darunter Aufnahme starten und vier Rollen zum Veröffentlichen, die Karte Nicht erlaubt fest gewählt](assets/course_element_microsoft_teams_recording_settings_v1_de.png){ class="shadow lightbox" title="Dialog Online-Termin hinzufügen im Tab Terminverwaltung · 2026.10.05" }
+Das Bild zeigt nur den unteren Teil des Formulars. Die übrigen Felder, zum Beispiel den Link **Raumbuchungen anzeigen**, beschreibt der Abschnitt [Online-Termin hinzufügen: Die Einstellungen im Detail](#add_meeting).
+
+![Terminaufzeichnung auf Ein, darunter Aufnahme starten und vier Rollen zum Veröffentlichen, die Karte Nicht erlaubt fest gewählt](assets/course_element_microsoft_teams_recording_settings_v1_de.png){ class="shadow lightbox" title="Unterer Teil des Dialogs Online-Termin hinzufügen · 2026.10.05" }
 
 ### Aufzeichnungen nach dem Online-Termin {: #recordings_list}
 

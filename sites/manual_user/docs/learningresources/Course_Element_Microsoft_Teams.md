@@ -41,7 +41,7 @@ There are three roles in an online meeting with MS Teams:
 
     The first person to start an online meeting automatically receives the **Organizer** role, regardless of the **Presenters** setting in OpenOlat. This role cannot be changed or reassigned afterwards, neither in OpenOlat nor in Microsoft Teams.
 
-    In **permanent reservations** with rotating coaches, only the person who started the online meeting first has permanent access to advanced features such as breakout rooms. If a different person is to act as organizer, a new online meeting must be created.
+    In **permanent meeting rooms** with rotating coaches, only the person who started the online meeting first has permanent access to advanced features such as breakout rooms. If a different person is to act as organizer, a new online meeting must be created.
 
 ## Create online meetings with closed course editor [:octicons-tag-16:{ title="from Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124) {: #closed_editor_configuration}
 
@@ -99,7 +99,7 @@ Each variant creates separate online meetings, for recurring meetings one per da
 
     For daily or weekly recurring online meetings, you also define **Start recurring date** and **End recurring date**. In the next step, the wizard lists all dates of this period. There you can delete individual dates or add dates via **Add online-meeting**.
 
-In the configuration of an online meeting, the link **Show room bookings** opens an overview of all booked Microsoft Teams online meetings of the instance, both when creating and when editing. This makes it easier to identify time bottlenecks or heavy system load at an early stage and, if necessary, to select another date.
+In the configuration of an online meeting, the link **Show room bookings** opens a calendar with all Microsoft Teams online meetings of the instance that have a date, both when creating and when editing. Permanent meeting rooms without a date do not appear in it. Despite its label, the calendar does not show room bookings from the "Rooms" module, only online meetings. For daily or weekly recurring online meetings, the button **Show room bookings** is in step 2 of the wizard, above the list of dates. This makes it easier to identify time bottlenecks or heavy system load at an early stage and, if necessary, to select another date.
 
 In the tab **Online-meetings**, you open a specific online meeting.
 
@@ -121,7 +121,9 @@ When you create or edit an online meeting, you define whether and how it is reco
 
 The two fields "Recording start" and "Automatically publish recording for" only appear when meeting recording is switched on.
 
-![Meeting recording on, below it Recording start and four roles for publishing, the card Not allowed fixed](assets/course_element_microsoft_teams_recording_settings_v1_en.png){ class="shadow lightbox" title="Dialog Add online-meeting in the tab Meeting management · 2026.10.05" }
+The image only shows the lower part of the form. The other fields, for example the link **Show room bookings**, are described in the section [Add online meeting: The settings in detail](#add_meeting).
+
+![Meeting recording on, below it Recording start and four roles for publishing, the card Not allowed fixed](assets/course_element_microsoft_teams_recording_settings_v1_en.png){ class="shadow lightbox" title="Lower part of the dialog Add online-meeting · 2026.10.05" }
 
 ### Recordings after the online meeting {: #recordings_list}
 
@@ -172,7 +174,7 @@ Breakout rooms can only be created and managed by the **Organizer** of an online
 If you want to keep track of the online meetings of the course, you find them in the course calendar. OpenOlat automatically enters every online meeting with a date that is created in the course element there. The calendar entry contains a link that leads directly to the online meeting. Participants can subscribe to the course calendar.
 
 !!! info "Important"
-    Only appointments with a defined start and end date appear in the course calendar. Permanent reservations without a date are not displayed in the calendar.
+    Only appointments with a defined start and end date appear in the course calendar. Permanent meeting rooms without a date are not displayed in the calendar.
 
   :octicons-device-camera-video-24: **Video Introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
