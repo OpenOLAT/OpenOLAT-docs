@@ -38,7 +38,7 @@ Mit **Filter speichern** können häufig verwendete Filterkombinationen als eige
 
 ### Sammelaktion «Typ ändern» [:octicons-tag-16:{ title="ab Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
-Durch Aktivieren der Checkbox in der ersten Spalte markieren Sie mehrere Durchführungen. Oberhalb der Tabelle erscheint dann die Aktion **«Typ ändern»**. Im Dialog wählen Sie den neuen Elementtyp und bestätigen mit **«Typ ändern»**. Zur Wahl stehen nur Typen, die zu den markierten Elementen passen.
+Durch Aktivieren der Checkbox in der ersten Spalte markieren Sie mehrere Durchführungen. Oberhalb der Tabelle erscheint dann die Aktion **«Typ ändern»**, neben den Sammelaktionen **«To-dos erstellen»**, **«Export»** und **«Löschen»**. Im Dialog wählen Sie den neuen Elementtyp und bestätigen mit **«Typ ändern»**. Zur Wahl stehen nur Typen, die zu den markierten Elementen passen.
 
 Dieselbe Aktion steht in der Suche des Course Planners und im Tab «Struktur» einer Durchführung zur Verfügung.
 
@@ -169,6 +169,8 @@ Die Liste zeigt alle zu dieser Durchführung gehörenden Kurse mit den Spalten "
 
 Sollen für diese Durchführung (abweichend von der ursprünglichen Struktur) weitere Kurse hinzugefügt werden, verwenden Sie den Button "**Kurs hinzufügen**" rechts oben.
 
+Ist es der erste Kurs der Durchführung, ordnet OpenOlat die bestehenden Termine der Durchführung diesem Kurs zu und meldet "Der Kurs wurde erfolgreich hinzugefügt und die bestehenden Termine dem Kurs zugeordnet." Im Kurs schaltet OpenOlat dabei die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist.
+
 Die Option zum **Entfernen** eines **einzelnen Kurses** aus dieser Durchführung finden Sie unter den 3 Punkten am Ende einer Zeile.<br>
 Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen der ersten Spalte. Dann erscheinen über der Liste die Buttons "Status ändern" und "Entfernen".
 
@@ -214,7 +216,9 @@ Kurstemplates werden erstellt, indem im Kurs unter `Kurs > Administration > Eins
 - Ein Klick auf das **+** am Anfang einer Zeile zeigt die **Details** dieses Termins.
 - Es besteht auch die Möglichkeit, Termine zu **importieren**. Klicken Sie dazu auf den kleinen Pfeil neben dem Button "Termin hinzufügen".
 
-![Die Umschalter Alle Ebenen und Diese Ebene über den Terminen einer Durchführung, rechts der Button Termin hinzufügen mit dem Pfeil für den Import](assets/course_planner_implementations_tab_events_v2_de.png){ class="shadow lightbox" title="Tab Termine · 2026.09.30" }
+Wird ein Termin einem Kurs zugeordnet, schaltet OpenOlat im Kurs die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist. Kursbesitzer:innen finden den Termin danach im Kurs im Menü "Termine und Absenzen" der Kurs-Administration, Betreuer:innen im Werkzeug "Termine" der Kurs-Werkzeugleiste. Wann OpenOlat die Funktion nicht selbst einschaltet, beschreibt [Kurseinstellungen - Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled). [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+
+![Die Umschalter Alle Ebenen und Diese Ebene über der Terminliste, rechts der Button Termin hinzufügen mit dem Pfeil für den Import](assets/course_planner_implementations_tab_events_v2_de.png){ class="shadow lightbox" title="Tab Termine · 2026.09.30" }
 
 
 [zum Seitenanfang ^](#implementations)
@@ -655,6 +659,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.de.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
+[Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Modul Organisationen (Administration) >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Modul Gruppen (Administration) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>

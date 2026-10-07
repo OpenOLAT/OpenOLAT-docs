@@ -2,7 +2,7 @@
 
 Kurse verfügen, im Gegensatz zu anderen Lernressourcen, im Menü "Einstellungen" noch über den Tab "Durchführung".
 
-![Alle Einstellungen des Tabs untereinander, von Durchführungszeitraum bis Lernfortschritt.](assets/course_settings_execution1_v3_de.png){ class="shadow lightbox" title="Tab Durchführung im Menü Einstellungen eines Kurses" }
+![Alle Einstellungen des Tabs untereinander, vom Durchführungszeitraum bis zum Lernfortschritt](assets/course_settings_execution1_v3_de.png){ class="shadow lightbox" title="Tab Durchführung im Menü Einstellungen eines Kurses" }
 
 
 ## Einstellungen zur Durchführung {: #config_execution}
@@ -61,7 +61,15 @@ Diesen Abschnitt bearbeiten **Kursbesitzende**. Betreuende erreichen ihn nicht; 
 
 Dieser Toggle steht zur Verfügung, wenn das Modul "Termine und Absenzen" [systemweit aktiviert](../../manual_admin/administration/Modules_Events_and_Absences.de.md) ist. Ohne aktiviertes Modul fehlt der ganze Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs" im Tab "Durchführung".
 
-Wird hier für den aktuellen Kurs die Termin- und Absenzenverwaltung eingeschaltet, erscheinen die übrigen Einstellungen dieses Abschnitts. Die Felder "Vorlaufzeit", "Nachlaufzeit", "Erlaubte IP-Adressen" und "Safe Exam Browser Key" kommen erst dazu, wenn "Termin kann als Prüfung markiert werden" eingeschaltet ist.
+Den Schalter müssen Sie nicht in jedem Fall selbst setzen. Sobald dem Kurs ein Termin zugeordnet wird, schaltet OpenOlat die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist. Das geschieht, wenn
+
+- ein Termin mit dem Assistenten "Termin hinzufügen" für diesen Kurs erstellt wird, zum Beispiel im Course Planner,
+- ein Termin dieses Kurses bearbeitet und gespeichert wird,
+- ein Element im Course Planner diesen Kurs als ersten Kurs erhält und seine bestehenden Termine dabei dem Kurs zugeordnet werden.
+
+Eingeschaltet wird nur der Schalter selbst; die übrigen Einstellungen dieses Abschnitts behalten ihre Vorgabewerte. Ausgeschaltet wird die Termin- und Absenzenverwaltung nur von Hand, auch dann, wenn alle Termine des Kurses gelöscht sind. Verwaltet ein externes System die Konfiguration der Termine und Absenzen dieses Kurses, ist der Schalter ausgegraut und OpenOlat ändert ihn nicht. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+
+Ist die Termin- und Absenzenverwaltung für den aktuellen Kurs eingeschaltet, erscheinen die übrigen Einstellungen dieses Abschnitts. Die Felder "Vorlaufzeit", "Nachlaufzeit" und "Erlaubte IP-Adressen" kommen erst dazu, wenn "Termin kann als Prüfung markiert werden" eingeschaltet ist. Das Feld "Safe Exam Browser Key" erscheint zusätzlich nur bei der Safe-Exam-Browser-Art "Mit manuellen Keys" (siehe [Safe Exam Browser Key](#seb_key)).
 
 Darüber hinaus erscheint anschliessend das Menü "Termine und Absenzen" in der Kurs-Administration. Als **Kursbesitzer:in** können Sie dort nach Fertigstellung der Konfiguration (zur Laufzeit) Termine und Absenzen erfassen.<br>
 

@@ -1,5 +1,10 @@
 # Absenzenverwaltung {: #absence_management}
 
+## Steckbrief
+
+Name | Absenzenverwaltung
+---------|----------
+Verfügbar seit | Release 14.1 (OO-4214)
 
 ## Was ermöglicht die Absenzenverwaltung?  {: #purpose}
 
@@ -19,7 +24,7 @@ Links zu Erklärungen der übrigen Punkte finden Sie unter den [weiterführenden
 
 Berechtigte finden die kursübergreifende Absenzenverwaltung in der **Hauptnavigation**:
 
-![Eintrag Absenzenverwaltung in der Hauptnavigation markiert, darunter die Tab-Leiste der Absenzenverwaltung von Cockpit bis Report](assets/absence_mgmt_menu_v1_de.png){ class="shadow lightbox" }
+![Eintrag Absenzenverwaltung in der Hauptnavigation markiert, darunter die Tabs von Cockpit bis Report](assets/absence_mgmt_menu_v1_de.png){ class="shadow lightbox" title="Hauptnavigation mit geöffneter Absenzenverwaltung" }
 
 !!! note "Hinweis"
 
@@ -50,9 +55,9 @@ Wie bei allen Modulen erfolgt die generelle Aktivierung durch Administrator:inne
 `Administration > Module > Termine / Absenzen`<br>
 Mehr dazu finden Sie unter [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md).
 
-Die Aktivierung und Konfiguration der Termin- und Absenzenverwaltung für einen bestimmten Kurs erfolgt anschliessend in der Kurs-Administration:<br>
+In einem bestimmten Kurs schaltet OpenOlat die Termin- und Absenzenverwaltung selbst ein, sobald dem Kurs ein Termin zugeordnet wird, zum Beispiel im Course Planner. Von Hand ein- und ausschalten und für den Kurs konfigurieren können Kursbesitzer:innen sie in der Kurs-Administration:<br>
 `Kurs > Administration > Einstellungen > Tab "Durchführung" > Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs"`<br>
-Mehr dazu finden Sie unter [Kurseinstellungen - Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management).
+Mehr dazu, auch zu den Fällen, in denen OpenOlat die Funktion nicht selbst einschaltet, finden Sie unter [Kurseinstellungen - Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled). [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -70,7 +75,7 @@ Nach dem Aufruf der Absenzenverwaltung werden Ihnen die Hauptfunktionen als Tabs
 - [Personensuche](#user_search)
 - [Report](#report)
 
-![Tab-Leiste mit den sieben Hauptfunktionen markiert, unterhalb der Hauptnavigation in der Absenzenverwaltung](assets/absence_mgmt_tabs_overview_v1_de.png){ class="shadow lightbox" }
+![Tab-Leiste mit den sieben Hauptfunktionen von Cockpit bis Report markiert](assets/absence_mgmt_tabs_overview_v1_de.png){ class="shadow lightbox" title="Tab-Leiste der Absenzenverwaltung" }
 
 
 [Zum Seitenanfang ^](#absence_management)
@@ -83,7 +88,7 @@ Nach dem Aufruf der Absenzenverwaltung werden Ihnen die Hauptfunktionen als Tabs
 
 Im Cockpit werden in zwei untereinanderliegenden Abschnitten die **Absenzen** und die **Meldungen** eines Tages angezeigt. Standardmässig wird der aktuelle Tag angezeigt, es kann jedoch rechts oben ein beliebiger anderer Tag gewählt werden.
 
-![Tagesübersicht mit zwei Absenzen im Abschnitt Absenzen und leerem Abschnitt Meldungen, Datumswahl rechts oben, Tab Cockpit der Absenzenverwaltung](assets/absence_mgmt_cockpit1_v1_de.png){ class="shadow lightbox" }
+![Tagesübersicht mit zwei Absenzen im Abschnitt Absenzen, leerem Abschnitt Meldungen und Datumswahl rechts oben](assets/absence_mgmt_cockpit1_v1_de.png){ class="shadow lightbox" title="Tab Cockpit der Absenzenverwaltung" }
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -94,7 +99,7 @@ Im Cockpit werden in zwei untereinanderliegenden Abschnitten die **Absenzen** un
 
 Der Tab Termine listet die Termine kursübergreifend auf. Mit den Zeitraum-Schaltflächen, den Schnellfiltern und den Filtern grenzen Sie die Liste ein.
 
-![Terminliste mit Zeitraum-Schaltflächen, Schnellfiltern und Filtern nach Curriculum, Durchführung, Dozenten und Absenzen, Tab Termine der Absenzenverwaltung](assets/absence_mgmt_events1_v1_de.png){ class="shadow lightbox" }
+![Terminliste mit Zeitraum-Schaltflächen, Schnellfiltern und Filtern über der Tabelle](assets/absence_mgmt_events1_v1_de.png){ class="shadow lightbox" title="Tab Termine der Absenzenverwaltung" }
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -103,9 +108,9 @@ Der Tab Termine listet die Termine kursübergreifend auf. Mit den Zeitraum-Schal
 
 ## Tab Absenzen {: #tab_absences}
 
-![Suchmaske mit Suchfeld und Datumsbereich über der Absenzenliste mit den Spalten Kurs, Termin, Abwesend und Entschuldigt, Tab Absenzen der Absenzenverwaltung](assets/absence_mgmt_absences1_v1_de.png){ class="shadow lightbox" }
+![Suchfeld und Datumsbereich über der Absenzenliste mit den Spalten Kurs, Termin, Abwesend und Entschuldigt](assets/absence_mgmt_absences1_v1_de.png){ class="shadow lightbox" title="Tab Absenzen der Absenzenverwaltung" }
 
-Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen.
+Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen. Den Zeitraum grenzen Sie mit dem Datumsbereich ein. Unter **Anzeige** wählen Sie, ob die Liste alle Absenzen zeigt (**Alle**) oder nur die unentschuldigten (**Unentschuldigt**).
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -116,9 +121,9 @@ Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und T
 
 Der Tab Meldungen listet die Abmeldungen und Dispense auf. Mit den Schaltflächen **Neue Absenzmeldung erfassen**, **Neue Dispens erfassen** und **Abmeldung** erfassen Sie eine Meldung für eine Person.
 
-![Liste Abmeldungen und Dispense mit Filtern nach Art der Meldung, Grund und Datum sowie drei Schaltflächen zum Erfassen neuer Meldungen, Tab Meldungen der Absenzenverwaltung](assets/absence_mgmt_notices1_v1_de.png){ class="shadow lightbox" }
+![Abmeldungen und Dispense mit Filtern nach Art der Meldung, Grund und Datum sowie drei Schaltflächen für neue Meldungen](assets/absence_mgmt_notices1_v1_de.png){ class="shadow lightbox" title="Tab Meldungen der Absenzenverwaltung" }
 
-Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen.
+Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen. Die Filter **Art der Meldung**, **Grund** und **Datum** grenzen die Liste weiter ein, unter **Anzeige** wählen Sie zwischen **Alle** und **Unentschuldigt**.
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -127,11 +132,11 @@ Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und T
 
 ## Tab Rekurse {: #appeals}
 
-![Rekursliste mit Filter nach Status Pendent, Abgelehnt und Angenommen, ein Rekurs mit Status Angenommen, Tab Rekurse der Absenzenverwaltung](assets/absence_mgmt_appeals1_v1_de.png){ class="shadow lightbox" }
+![Rekursliste mit dem Statusfilter Pendent, Abgelehnt und Angenommen und einem angenommenen Rekurs](assets/absence_mgmt_appeals1_v1_de.png){ class="shadow lightbox" title="Tab Rekurse der Absenzenverwaltung" }
 
 Ein Rekurs muss innerhalb der vorgegebenen **Rekursfrist** erfolgen. Die Rekursfrist legen Administrator:innen systemweit fest.
 
-Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen und Terminen suchen.
+Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen und Terminen suchen. Der Filter **Status** zeigt die Rekurse nach ihrem Stand: pendent, abgelehnt oder angenommen.
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -142,7 +147,7 @@ Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen und Terminen such
 
 Die Personensuche findet Teilnehmer:innen. Über die Links neben dem Titel wechseln Sie zur Suche nach Dozenten, nach Kurs oder nach Produkt.
 
-![Suche nach Teilnehmer:innen mit Umschaltung auf Suche nach Dozenten, Kurs und Curriculum, drei Treffer mit Anmeldename, Nachname, Vorname und E-Mail, Tab Personensuche der Absenzenverwaltung](assets/absence_mgmt_user_search1_v1_de.png){ class="shadow lightbox" }
+![Suche nach Teilnehmer:innen mit Links zu den weiteren Suchen, darunter die Trefferliste](assets/absence_mgmt_user_search1_v1_de.png){ class="shadow lightbox" title="Tab Personensuche der Absenzenverwaltung" }
 
 
 [Zum Seitenanfang ^](#absence_management)
@@ -152,11 +157,11 @@ Die Personensuche findet Teilnehmer:innen. Über die Links neben dem Titel wechs
 
 ## Tab Report {: #report}
 
-Der Report fasst die Anwesenheiten je Person zusammen: als **Aggregierte Liste** über alle Kurse oder als **Detaillierte Liste** je Kurs. Mit **Export** laden Sie das Ergebnis herunter.
+Der Report fasst die Anwesenheiten je Person zusammen: als **Aggregierte Liste** über alle Kurse oder als **Detaillierte Liste** je Kurs. Der Tab öffnet zuerst ein Suchformular; die Listen erscheinen nach der Suche. Mit **Export** laden Sie das Ergebnis herunter.
 
-![Aggregierte Liste mit Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert und Prozent Anwesend je Person, Schaltfläche Export, Tab Report der Absenzenverwaltung](assets/absence_mgmt_report1_v1_de.png){ class="shadow lightbox" }
+![Je Person über alle Kurse die Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert und % Anwesend, dazu Export](assets/absence_mgmt_report1_v1_de.png){ class="shadow lightbox" title="Aggregierte Liste im Tab Report" }
 
-![Detaillierte Liste mit denselben Kennzahlen je Person und Kurs, Tab Report der Absenzenverwaltung](assets/absence_mgmt_report2_v1_de.png){ class="shadow lightbox" }
+![Dieselben Kennzahlen je Person und Kurs, ergänzt um die Spalten Kurs und Kurs Kennzeichen](assets/absence_mgmt_report2_v1_de.png){ class="shadow lightbox" title="Detaillierte Liste im Tab Report" }
 
 
 [Zum Seitenanfang ^](#absence_management)
