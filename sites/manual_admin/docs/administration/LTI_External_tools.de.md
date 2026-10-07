@@ -6,7 +6,7 @@ Wird OpenOlat im Sinn der LTI-Terminologie als "Platform" eingesetzt, stellt Ope
 
 Administrator:innen aktivieren die Einbindung externer Tools in der System-Administration unter `Administration > Externe Werkzeuge > LTI`, Tab "Konfiguration". Anschliessend richten sie im Tab "Externe Tools" die Kommunikation und die sichere Verbindung zu jedem Tool ein.
 
-![Tab Externe Tools mit dem Button Neues Tool hinzufügen und noch ohne eingetragene Tools, auf der Seite LTI im Menü Externe Werkzeuge der System-Administration](assets/LTI_admin_tools_v2_de.png){ class="shadow lightbox" }
+![Button Neues Tool hinzufügen, noch ohne eingetragene Tools](assets/LTI_admin_tools_v2_de.png){ class="shadow lightbox" title="Tab Externe Tools der Seite LTI in der System-Administration" }
 
 **Beispiele für externe Tools:**
 
@@ -48,27 +48,29 @@ Unter "Neues Tool hinzufügen" erfassen Sie die folgenden Parameter des externen
 
 Die letzten vier Werte generiert OpenOlat. Der Dialog zeigt sie nur an. Übertragen Sie sie zusammen mit der Client-ID in die Konfiguration des externen Tools.
 
-![Eingabefelder für das externe Tool oben, darunter die von OpenOlat vorgegebenen Werte Client-ID, Plattform-ID und drei URLs, im Dialog Neues Tool hinzufügen](assets/LTI_admin_tool_config_v2_de.png){ class="shadow lightbox" }
+![Eingabefelder für das externe Tool oben, darunter die von OpenOlat vorgegebenen Werte Client-ID, Plattform-ID und drei URLs](assets/LTI_admin_tool_config_v2_de.png){ class="shadow lightbox" title="Dialog Neues Tool hinzufügen" }
 
-### Globales oder lokales Deployment {: #deployment_scope}
+### Globales oder lokales Deployment [:octicons-tag-16:{ title="ab Release 18.1 (OO-7343)" }](https://track.frentix.com/issue/OO-7343) {: #deployment_scope}
 
 Über die Option "Mit Shared Deployment" legen Sie fest, wie das externe Tool eingebunden wird:
 
 * **Aktiviert (globales Deployment):** OpenOlat erzeugt eine gemeinsame Deployment ID. Dasselbe Tool kann damit in mehreren Kursen wiederverwendet werden, ohne es pro Kurs neu konfigurieren zu müssen.
-* **Deaktiviert (lokales Deployment):** Für jeden Kurs wird ein eigenes Deployment angelegt. Das Tool ist dann nur im jeweiligen Kurs verfügbar.
+* **Deaktiviert (lokales Deployment):** Für jeden Kursbaustein "LTI-Seite" wird ein eigenes Deployment angelegt. Das Tool ist dann nur dort verfügbar.
 
 Die Option "Mit Shared Deployment" legen Sie beim Anlegen des Tools fest. Nachträglich können Sie sie nicht mehr ändern.
+
+Wird ein Kursbaustein "LTI-Seite" mit lokalem Deployment kopiert, teilen sich Original und Kopie danach ein gemeinsames Deployment. Das gilt auch, wenn der ganze Kurs kopiert oder der Kursbaustein in einen anderen Kurs importiert wird. Beide senden dann dieselbe Deployment ID an das Tool. Ist das Tool ein anderes OpenOlat, nimmt es dieselbe Deployment ID für mehrere Kurse an: [Gilt eine Deployment-ID für mehrere Kurse?](LTI_Integrations.de.md#deployments) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)<br>
 [LTI-Zugang zu einem Kurs konfigurieren >](../../manual_user/learningresources/LTI_Share_courses.de.md)<br>
-[LTI - Deep Linking >](../administration/LTI_Deeplinking.de.md)
+[LTI - Deep Linking >](../administration/LTI_Deeplinking.de.md)<br>
+[LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)
 
 **Weiterführend**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
-[LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)<br>
 [LTI - Externe Plattformen >](../administration/LTI_External_platforms.de.md)<br>
 [LTI - Rollen-Mapping >](../administration/LTI_Role_Mapping.de.md)<br>
 [LTI-Zugang zu einer Gruppe konfigurieren >](../../manual_user/groups/LTI_Share_groups.de.md)
