@@ -281,7 +281,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Teilnehmende | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den Test Statistiken und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den Test Statistiken und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den Teststatistiken und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den Teststatistiken und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -376,13 +376,13 @@ Der Dialog "Verlauf der Test-Ressourcen" zeigt je Test-Lernressource:
 ![Spalten Zugewiesen am, Zugewiesen von und Durchläufe in diesem Kurs markiert, eine Zeile je Zuweisung einer Test-Lernressource](assets/course_element_test_replace_resource3_v2_de.png){ class="shadow lightbox" title="Dialog Verlauf der Test-Ressourcen · 2026.10.01" }
 
 
-**C)** Wird die Test-Lernressource ausgewechselt, wird auch eine neue Teststatistik mit der neuen Test-Lernressource angelegt. Als Betreuer:in wählen Sie wie gewohnt den Test-Kursbaustein und den Tab "Teilnehmer:innen". Hier wird der Button "Test Statistiken" angezeigt. 
+**C)** Wird die Test-Lernressource ausgewechselt, wird auch eine neue Teststatistik mit der neuen Test-Lernressource angelegt. Als Betreuer:in wählen Sie wie gewohnt den Test-Kursbaustein und den Tab "Teilnehmer:innen". Hier wird der Button "Teststatistiken" angezeigt. 
 
-![Button "Test Statistiken" über der Liste der Teilnehmenden markiert](assets/course_element_test_replace_statistic1_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test" }
+![Kursbaustein Test im Kursmenü, Tab Teilnehmer:innen und Button "Teststatistiken" über der Liste der Teilnehmenden markiert](assets/course_element_test_replace_statistic1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.10.07" }
 
-Haben Teilnehmende in diesem Kurs mehr als eine der verwendeten Test-Lernressourcen bearbeitet, erscheint in den Test Statistiken rechts oben eine Auswahl, mit der Sie zwischen den Statistiken der verschiedenen Testversionen (verwendeten Test-Lernressourcen) wechseln.
+Haben Teilnehmende in diesem Kurs mehr als eine der verwendeten Test-Lernressourcen bearbeitet, erscheint in den Teststatistiken rechts oben eine Auswahl, mit der Sie zwischen den Statistiken der verschiedenen Testversionen (verwendeten Test-Lernressourcen) wechseln.
 
-![Auswahl der Testversion nach Austausch der Test-Lernressource](assets/course_element_test_replace_statistic2_v1_de.png){ class="shadow lightbox" title="Test Statistiken im Kursbaustein Test" }
+![Geöffnete Auswahl der Testversion rechts oben in den Teststatistiken, mit der aktuellen und der früher verwendeten Test-Lernressource](assets/course_element_test_replace_statistic2_v2_de.png){ class="shadow lightbox" title="Teststatistiken im Kursbaustein Test · 2026.10.07" }
 
 
 !!! note "Hinweis"
@@ -416,11 +416,11 @@ Enthält der Test Freitextfragen und wurde die Option **"Erweitert – mit PDF"*
 
 Die Option "Alle PDF-Dateien in einem Ordner" bietet die Kursarchivierung nicht an. Im Archiv liegt jede PDF-Datei im Ordner der Teilnehmer:in, benannt nach Person, Kursbaustein und Test. Gesammelt in einem Ordner erhalten Sie die PDF-Dateien über den Button "Resultate exportieren" im Tab "Teilnehmer:innen" des Kursbausteins. Wie die Dateien dort heissen und abgelegt werden, steht auf der Seite [Tests exportieren](Test_export.de.md#pdf_files). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
-Die Rohdaten von Tests können Sie zudem über die Test Statistiken herunterladen: `Kurs > Administration > Test Statistiken`. Dort finden Sie auch die grafische Auswertung.
+Die Rohdaten von Tests können Sie zudem über die Teststatistiken herunterladen: `Kurs > Administration > Teststatistiken`. Dort finden Sie auch die grafische Auswertung.
 
-!!! note "Test Statistiken"
+!!! note "Teststatistiken"
     Rohdaten und grafische Auswertung von Testergebnissen.<br>
-    [Test Statistiken](../learningresources/Statistics_Test.de.md)
+    [Teststatistiken](../learningresources/Statistics_Test.de.md)
 
 [Zum Seitenanfang ^](#course_element_test)
 
@@ -506,7 +506,7 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
 [Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
 [Tests exportieren >](Test_export.de.md)<br>
-[Test Statistiken >](Statistics_Test.de.md)
+[Teststatistiken >](Statistics_Test.de.md)
 
 **Weiterführend**<br>
 [Test Fragen konfigurieren >](Configure_test_questions.de.md)<br>
