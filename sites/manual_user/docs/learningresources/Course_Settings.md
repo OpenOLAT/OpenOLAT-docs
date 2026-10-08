@@ -28,18 +28,15 @@ Available since | Release 13.0 (OO-3706)
 
 ![Tab "Metadata" active, first in the tab bar](assets/course_settings_tab_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab in the course settings · 2026.10.02" }
 
-Metadata contains keywords that describe the course. The metadata can be used to make your course easier to find, for example. They are optional and do not have to be filled in.
+Metadata name the course and classify it. The metadata can be used to make your course easier to find, for example. Only the title is mandatory.
 
 Metadata of a course are
 
+* Title
+* Reference (An external identifier that is displayed in the course overview. E.g. the name from the course catalog or a printed course catalog.)
 * Type of the learning resource (in this case: course)
-* ID of the course
-* Creator of the course
-* Author/name of the teachers of the course
-* Subject areas (from the taxonomy)
 * Implementation format (blended learning, self-study, ...)
-* Main language
-* Estimated time required for processing
+* Subjects (from the taxonomy)
 * License
 
 [For more details >](../learningresources/Course_Settings_Metadata.md)<br>
@@ -53,18 +50,14 @@ Metadata of a course are
 
 Here you define information about the course or learning resource. This includes:
 
-* Title
-* Identifier (An external identifier that is displayed in the course overview. E.g. the name from the course catalog or a printed course catalog).
+* Cover image and teaser movie
 * Teaser (text line/term)
-* Course description
-* Description of the learning objectives
-* Prerequisites
-* Requirements for a certificate
-* Cover picture
-* Teaser movie
+* Description
+* Facts: Authors / taught by, Main language and Expenditure of work
+* Display settings: which sections the info page shows
+* Additional information: Objectives, Requirements and Certification
 
-This information is also visible to interested parties without course access under (course) info. 
-The learning resource appears under the title defined here in the alphabetical course list and is relevant for inquiries via the search mask.
+This information is also visible to interested parties without course access on the info page.
 
 [More about the **Set up of the info page** >](../learningresources/Course_Settings_Info.md)<br>
 [More about the **content of the info page** >](../learningresources/Info_page.md)<br>
@@ -120,7 +113,7 @@ Only enter your courses in the catalog once they have been completed and should 
 
 
 
-## Tab Disclaimer {: #disclaimer}
+## Tab Terms of use {: #disclaimer}
 
 ![Tab "Disclaimer" active, fifth in the tab bar](assets/course_settings_tab_disclaimer_v1_en.png){ class="shadow lightbox" title="Disclaimer tab in the course settings · 2026.10.02" }
 
@@ -192,8 +185,8 @@ In the Assessment tab, you can make settings for
 
 
 [For more details >](../learningresources/Course_Settings_Assessment.md)<br>
-[For more details on **certificates** >](../learningresources/Course_Settings_Assessment.md#certificate)<br>
-[For more details on **recertification** >](../learningresources/Course_Settings_Assessment.md#recertification)<br>
+[For more details on **certificates** >](../learningresources/Course_Settings_Assessment_Certificate.md#certificate)<br>
+[For more details on **recertification** >](../learningresources/Course_Settings_Assessment_Certificate.md#recertification)<br>
 [To the top of the page ^](#course_settings)
 
 ## Tab Options {: #options}

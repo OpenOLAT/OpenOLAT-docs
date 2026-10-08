@@ -25,7 +25,7 @@ The list opens with the "Relevant" tab. The "Pending memberships" tab shows the 
 
 Administrators and course planners, as well as product owners in their own products, can create, edit and delete implementations. Principals only see the implementations read-only. The complete overview is shown in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
 
-Depending on your rights, the menu of the 3 dots at the end of a row offers actions such as **Copy element**, **Members management**, **Export** and **Delete**. How the export works is described in [Course Planner: Import / Export](Course_Planner_Import_Export.md#export_entry_points).
+Depending on your rights, the menu of the 3 dots at the end of a row offers actions such as "Copy element", "Members management", "Export" and "Delete". How the export works is described in [Course Planner: Import / Export](Course_Planner_Import_Export.md#export_entry_points).
 
 ![The list of implementations with the opened Occupancy status filter: Number not specified, Minimum number not reached or reached, Free seats available, Fully booked, Overbooked](assets/course_planner_implementations_list_v2_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner · 2026.09.30" }
 
@@ -37,7 +37,7 @@ With **Save filter**, frequently used filter combinations can be saved and reuse
 
 ### Bulk action "Change type" [:octicons-tag-16:{ title="from Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
-By activating the checkbox in the first column you select several implementations. The action **"Change type"** then appears above the table, next to the bulk actions **"Create to-dos"**, **"Export"** and **"Delete"**. In the dialog you choose the new element type and confirm with **"Change type"**. Only types that fit the selected elements are offered.
+By activating the checkbox in the first column you select several implementations. The action "Change type" then appears above the table, next to the bulk actions "Create to-dos", "Export" and "Delete". In the dialog you choose the new element type and confirm with "Change type". Only types that fit the selected elements are offered.
 
 The same action is available in the search of the Course Planner and in the "Structure" tab of an implementation.
 
@@ -73,11 +73,11 @@ Once you have selected and opened an implementation in the list, the tabs shown 
 
 When you open an implementation, the "Overview" tab shows you at a glance how things stand with the members, events, course content, to-dos and catalog offers of this implementation. From every widget you go directly to the corresponding tab.
 
-The **Events** widget only appears if the module **Events and absences** is active system-wide, switched on in the system administration under `Administration > Modules > Events / Absences`. The **Catalog** widget only appears at the top level of an implementation, not for its subordinate elements, and only if the catalog is switched on.
+The "Events" widget only appears if the module "Events and absences" is active system-wide, switched on in the system administration under `Administration > Modules > Events / Absences`. The "Catalog" widget only appears at the top level of an implementation, not for its subordinate elements, and only if the catalog is switched on.
 
 How an overview page is structured and how you arrange the tiles is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
-The **Content** and **Catalog** widgets offer the **Details** button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, which takes you directly to the Content tab or the Catalog tab.
+The "Content" and "Catalog" widgets offer the "Details" button [:octicons-tag-16:{ title="from Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, which takes you directly to the Content tab or the Catalog tab.
 
 ![The Events widget with the week bar, today's event and the Show all button, next to it the widgets Members, Content with the Details button and To-do](assets/course_planner_implementations_tab_overview_v3_en.png){ class="shadow lightbox" title="Overview tab of an implementation · 2026.09.30" }
 
@@ -85,13 +85,13 @@ The **Content** and **Catalog** widgets offer the **Details** button [:octicons-
 
 The widget **Events** shows the events of the current week from the selected day onwards, from today when it opens, limited to this implementation and its subordinate elements. It only appears if the module **Events and absences** is active system-wide.
 
-The week bar runs from Monday to Sunday, a dot below the day figure marks the days with events. A click on a day sets the starting point of the list, a click on a row opens the event. If no event is left until Sunday, the note **"No events until the end of the week"** appears with the buttons **"Previous event"** and **"Next event"**. You find the complete description of the widget under [Course Planner: Dashboard](Course_Planner_Dashboard.md#widget_events).
+The week bar runs from Monday to Sunday, a dot below the day figure marks the days with events. A click on a day sets the starting point of the list, a click on a row opens the event. If no event is left until Sunday, the note "No events until the end of the week" appears with the buttons "Previous event" and "Next event". You find the complete description of the widget under [Course Planner: Dashboard](Course_Planner_Dashboard.md#widget_events).
 
 Use the button **"Show all"** to go directly to the tab **Events** of this implementation.
 
 #### Member widget [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
 
-The **Members** widget shows the **"Participants"** key figure of this implementation, broken down into **"Active"** and **"Pending"**. If no course staff has been added yet, the widget shows the note "No course staff yet." Use the **"Details"** button to go directly to the Members tab of this implementation. [:octicons-tag-16:{ title="from Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
+The "Members" widget shows the "Participants" key figure of this implementation, broken down into "Active" and "Pending". If no course staff has been added yet, the widget shows the note "No course staff yet." Use the "Details" button to go directly to the Members tab of this implementation. [:octicons-tag-16:{ title="from Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
 
 ![The Participants key figure with Active and Pending as well as the note No course staff yet](assets/course_planner_implementations_widget_members_v1_en.png){ class="shadow lightbox" title="Members widget in the Overview tab of an implementation" }
 
@@ -107,7 +107,7 @@ If a maximum or minimum number of participants is defined, an additional note te
 
 #### To-do widget [:octicons-tag-16:{ title="from Release 21.0 (OO-9422)" }](https://track.frentix.com/issue/OO-9422){:target="_blank"} {: #widget_todos}
 
-The **To-do** widget shows you which tasks are pending in this implementation. The key figures **My to-dos**, **Open** and **Overdue** each lead to the matching view of the to-dos. Use the **"Show all"** button to go to the ["To-dos" tab](Course_Planner_Todos.md#element_tab_todos) of this implementation.
+The "To-do" widget shows you which tasks are pending in this implementation. The key figures "My to-dos", "Open" and "Overdue" each lead to the matching view of the to-dos. Use the "Show all" button to go to the ["To-dos" tab](Course_Planner_Todos.md#element_tab_todos) of this implementation.
 
 [To the top of the page ^](#implementations)
 
@@ -131,7 +131,7 @@ The table in the "Structure" tab offers the following functions:
 - **Absences**: In the next column you will find the absences, provided that **Absences** is switched on for the element, directly in the options of the settings or via the element type.
 - **Data collection preview**: If the module "Quality management" and the "Data collections previews" are switched on in the system administration, you can jump to the assigned data collection preview for each element. You find both under: `Administration > Modules > Quality management`.
 - **Learning progress**: This column shows the average progress of all participants. All learning path courses for this element are taken into account. Conventional courses do not provide any data on learning progress.
-- **3 dots**: At the end of the row you will find the actions on an element: **Open in a new Tab**, **Edit**, **Move element**, an entry for creating a sub-element, labelled with the element type (for example **Create new sub-element "Modul"**), **Copy element**, **Members management** and **Delete**.
+- **3 dots**: At the end of the row you will find the actions on an element: "Open in a new Tab", "Edit", "Move element", an entry for creating a sub-element, labelled with the element type (for example «Create new sub-element "Modul"»), "Copy element", "Members management" and "Delete".
 
 ![The menu of the three dots with all actions on an element, from opening in a new tab to deleting](assets/course_planner_implementations_tab_structure2_v2_en.png){ class="shadow lightbox" title="Menu of the 3 dots in the Structure tab" }
 
@@ -232,7 +232,7 @@ In the member list, a note icon in the **"Participant comment"** column shows wh
 
 The member list also shows you under which number the accounting keeps a person. The **"Customer number"** column is hidden by default; you show it via "Displayed columns". The column only shows values if the [customer number](../../manual_admin/administration/Modules_Organisations.md#customer_number) is switched on in the Organisations module. If a customer number is recorded for a person, the details of their membership also show the number. [:octicons-tag-16:{ title="from Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736){:target="_blank"}
 
-To see what a person entered when booking, open the details of their membership in the member list. If the person booked an offer with [booking order forms](#booking_order_forms), the detail view shows the section **Booking order forms** below the booking orders. The table lists title, reference, step name, booking order, status and submission date for each form. **View form** opens the answers, **Edit form** lets you correct them as long as the form has the status "Open" or "Completed".
+To see what a person entered when booking, open the details of their membership in the member list. If the person booked an offer with [booking order forms](#booking_order_forms), the detail view shows the section "Booking order forms" below the booking orders. The table lists title, reference, step name, booking order, status and submission date for each form. "View form" opens the answers, "Edit form" lets you correct them as long as the form has the status "Open" or "Completed".
 
 ![The section Booking order forms below the booking orders, with two completed forms including step name, booking order and submission date](assets/course_planner_implementations_member_details_forms_v1_en.png){ class="shadow lightbox" title="Detail view of a membership in the Members tab · 2026.09.28" }
 
@@ -254,9 +254,9 @@ To add participants to an implementation as members, use:<br>
 
 ![The Add participants button at the top right of the member list, which starts the wizard for adding members](assets/course_planner_implementations_add_member_v2_en.png){ class="shadow lightbox" title="Members tab of an implementation · 2026.10.02" }
 
-The wizard leads through the steps **User search**, **Booking order**, **Membership**, **Overview** and **Notification**. The **Booking order** step only exists if the implementation has offers.
+The wizard leads through the steps "User search", "Booking order", "Membership", "Overview" and "Notification". The "Booking order" step only exists if the implementation has offers.
 
-In the **Booking order** step, you choose the offer through which the participants are added. If this offer uses forms, a separate step follows for each form, labelled with its step name. These steps are located between the steps **Booking order** and **Membership** and appear as soon as you leave the **Booking order** step with **Next**. You fill in the forms once, and OpenOlat saves the answers for each selected person with their own booking order. The option **Without booking order** only appears if the implementation is set to [Allowed without booking order](#tab_catalog_settings) in the Catalog tab. With this option, no booking order is created, and no steps for forms follow.
+In the "Booking order" step, you choose the offer through which the participants are added. If this offer uses forms, a separate step follows for each form, labelled with its step name. These steps are located between the steps "Booking order" and "Membership" and appear as soon as you leave the "Booking order" step with "Next". You fill in the forms once, and OpenOlat saves the answers for each selected person with their own booking order. The option "Without booking order" only appears if the implementation is set to [Allowed without booking order](#tab_catalog_settings) in the Catalog tab. With this option, no booking order is created, and no steps for forms follow.
 
 ![Two steps for forms between the Booking order and Membership steps](assets/course_planner_implementations_add_member_forms_v1_en.png){ class="shadow lightbox" title="Step of a form in the Add participants wizard · 2026.10.02" }
 
@@ -313,7 +313,7 @@ To draw the attention of potential participants to an offer in the catalog, you 
 
 In the **Settings** section below the overview, you define whether every participation in this implementation must be booked through an offer and how high up the implementation appears in the catalog.
 
-- **Booking**: The setting determines whether adding a participant in the Course Planner requires a booking through an offer. With **Allowed without booking order** (default), the wizard in the Members tab also offers adding participants without an offer. With **Requires booking order**, this option is missing and every addition goes through an offer. The setting applies to the whole implementation, not to a single offer.
+- **Booking**: The setting determines whether adding a participant in the Course Planner requires a booking through an offer. With "Allowed without booking order" (default), the wizard in the Members tab also offers adding participants without an offer. With "Requires booking order", this option is missing and every addition goes through an offer. The setting applies to the whole implementation, not to a single offer.
 - **Catalog priority when sorting**: Priority determines how high up an offer appears in the catalog. Use the **Edit** button next to the value to change it. The row only appears if "Sorting by priority" is switched on in the system administration: `Administration > Modules > Catalog > Tab "Settings"`. [More about sorting by priority >](catalog2.0_sort_offers.md#sorting_microsites_define_priority)
 
 ![The Booking selection with Allowed without booking order and Requires booking order, below it the Catalog priority when sorting with the Edit button](assets/course_planner_implementations_tab_catalog_settings_v1_en.png){ class="shadow lightbox" title="Settings section in the Catalog tab · 2026.09.28" }
@@ -331,7 +331,7 @@ A form is used in two stages. First you add it to the implementation, then you s
 You will find the section **Booking order forms** below the offers:<br>
 `Course Planner > Implementations > "your implementation" > Tab Catalog > Offers > Button "Add form"`
 
-You can choose form learning resources with the usage "Embedding" that you can access in the authoring area. The dialog opens with your **Favourites**; you find all other forms under **My entries** or **Search form**. The chosen form is then available to all offers of the implementation, but no offer uses it yet.
+You can choose form learning resources with the usage "Embedding" that you can access in the authoring area. The dialog opens with your "Favourites"; you find all other forms under "My entries" or "Search form". The chosen form is then available to all offers of the implementation, but no offer uses it yet.
 
 ![The forms with step name, position per offer and the counters per status, plus Export data and Add form](assets/course_planner_implementations_tab_catalog_forms_v1_en.png){ class="shadow lightbox" title="Booking order forms section in the Catalog tab · 2026.09.28" }
 
@@ -340,9 +340,9 @@ The table lists for each form:
 - **Title** and **Reference** of the form learning resource.
 - **Step name**: the label under which the form appears as a step when booking. When the form is added, OpenOlat takes over the title of the form. A click on the step name opens **Edit step name**; the field must not be left empty.
 - **Offer**: one column for each offer of the implementation, labelled with the internal label of the offer or, if none is set, with its offer type. If the offer uses the form, the column shows its position.
-- **#Open**, **#Completed**, **#Cancelled**: the number of forms per status. "Open" is a form that belongs to a booking order but has not been filled in yet. "Completed" is a filled-in form. A form becomes "Cancelled" when its booking order is cancelled.
+- **#Open, #Completed, #Cancelled**: the number of forms per status. "Open" is a form that belongs to a booking order but has not been filled in yet. "Completed" is a filled-in form. A form becomes "Cancelled" when its booking order is cancelled.
 
-The views **Used** and **Not used** narrow the list down to forms that at least one offer uses or that no offer uses. Under the 3 dots at the end of the row, **Open form** opens the form learning resource and **Remove form** takes the form out of the implementation.
+The views "Used" and "Not used" narrow the list down to forms that at least one offer uses or that no offer uses. Under the 3 dots at the end of the row, "Open form" opens the form learning resource and "Remove form" takes the form out of the implementation.
 
 ##### Use a form in an offer {: #booking_order_forms_offer}
 
@@ -350,7 +350,7 @@ For a form to be required at booking, switch it on in the offer. To do this, ope
 
 - **Use**: The toggle adds the form to this offer. It is switched off at first.
 - **Position**: Use the arrows to set the order of the forms used and thus the order of the steps when booking.
-- **Title**, **Reference** and **Step name** are for orientation. You change the step name in the table of the implementation.
+- **Title, Reference and Step name** are for orientation. You change the step name in the table of the implementation.
 
 OpenOlat applies the changes when you save the offer.
 
@@ -392,7 +392,7 @@ If offers with booking options have been added to the catalog, the booking order
 
 The tabs "All", "Open", "Done", "Paid", "Cancelled" and "Error" as well as the filters "Status", "Offer type" and "Offer" narrow down the list. If the offer type Invoice is available, the tabs "Adjusted amount" and "Address proposal" are added. **Export booking orders** gives you the booking orders of the implementation as an Excel file. It contains the same columns as the [Booking orders report](Reports_BookingOrders.md), so with the customer number switched on also the three customer number columns.
 
-The menu at the end of a row offers different actions depending on the status of the order. For an open order with a price these are **Set as "Paid"** and **Change price**, for a paid one **Set as "Open"**. If there is a billing address or an address proposal, you change the address of an open order with **Change billing address**. **Write off booking order** is available for every open order, **Change cancellation fee** for a cancelled order with a cancellation fee.
+The menu at the end of a row offers different actions depending on the status of the order. For an open order with a price these are «Set as "Paid"» and "Change price", for a paid one «Set as "Open"». If there is a billing address or an address proposal, you change the address of an open order with "Change billing address". "Write off booking order" is available for every open order, "Change cancellation fee" for a cancelled order with a cancellation fee.
 
 ![The Export booking orders button, tabs and filters by Status, Offer type and Offer, plus a note icon for the participant's comment](assets/course_planner_implementations_tab_catalog2_v2_en.png){ class="shadow lightbox" title="Booking orders subsection of the Catalog tab · 2026.09.30" }
 
@@ -417,19 +417,25 @@ Everything that describes and controls an implementation is set in the sub-tabs 
 
 The metadata entered here is used to simplify search processes, for example.
 
-Mandatory fields are **Title**, **Reference** and **Type**. For an implementation, the **Implementation format** is added. If taxonomies are configured for the Course Planner, you assign subjects via **Browse**; with the catalog switched on, the field of an implementation is called **Subjects / Catalog**. Administrators also see the **ID** of the element, in the form and in the header of the settings.
+Mandatory fields are "Title", "Reference" and "Type". For an implementation, the "Implementation format" is added. If taxonomies are configured for the Course Planner, you assign subjects via "Browse"; with the catalog switched on, the field of an implementation is called "Subjects / Catalog". Administrators also see the "ID" of the element, in the form and in the header of the settings.
 
 ![The mandatory fields Title, Reference and Type as well as the fields Implementation format and Subjects / Catalog](assets/course_planner_implementations_tab_settings_metadata_v2_en.png){ class="shadow lightbox" title="Metadata sub-tab of the settings of an implementation · 2026.09.30" }
 
 
-#### Infos in the settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"}
+#### Infos in the settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"} {: #tab_settings_infos}
 
-The information entered in the "Infos" tab is used for the display in the catalog, for example. For an implementation, the tab contains the following details, for a subordinate element only the cover image:
+With the details in the "Infos" tab you determine how the implementation appears in the catalog and on its info page. The tab is structured in the same way as the ["Info" tab of a course](../learningresources/Course_Settings_Info.md), where the individual fields are described. For an implementation, the tab contains the following details, for a subordinate element only the cover image:
 
-- **Cover image (jpg, png, gif)**, the **With teaser movie** toggle, **Teaser** and **Description**.
-- Section **Facts**: **Authors / taught by**, **Main language** and **Expenditure of work**.
-- Section **Display settings**: Under **Display on info page** you choose whether the info page shows **Events**, **Meet your teachers**, **Certificate** and **Credit points**; if the element type allows sub-elements, **Outline** is also available, **Credit points** only with credit points active. If **Meet your teachers** is selected, you define under **Members displayed as teacher** who appears as teacher: **Teachers in events**, **Coaches** or **Course owners**.
-- Collapsible section **Details**: **Objectives**, **Requirements** and **Certification**.
+- "Cover image (jpg, png, gif)", the "With teaser movie" toggle, "Teaser" and "Description".
+- Section **Facts**: "Authors / taught by", "Main language" and "Expenditure of work".
+- Section **Display settings**: Under "Display on info page" you choose whether the info page shows "Outline", "Events", "Meet your teachers", "Certificate" and "Credit points". If "Meet your teachers" is selected, you define under "Members displayed as teacher" who appears as teacher: "Teachers in events", "Coaches" or "Course owners". At least one role is then mandatory, the number in brackets states how many persons the implementation has in this role.
+- Collapsible section **Additional information**: "Objectives", "Requirements" and "Certification".
+
+In the display settings, the implementation differs from the course in three points:
+
+- **Outline**: The option shows the structure of the implementation with its elements on the info page. It is available if the element type allows sub-elements. A course does not have this option.
+- **Credit points**: The option is available as soon as administrators have switched on the [credit points](../../manual_admin/administration/e-Assessment_Credit_Points.md); "Events" and "Certificate" are always available. If "Credit points" is selected, the mandatory field "Credit points" appears below it: there you enter the number and choose the credit point system.
+- **Default settings**: A new implementation starts with the [default settings from the Module Course Planner](../../manual_admin/administration/Modules_Course_Planner.md#default_settings). If you select "Meet your teachers" again, the roles defined there are preselected.
 
 ![The details for the info page: cover image, teaser and description, the facts Main language and Expenditure of work, the display settings and the details Objectives, Requirements and Certification](assets/course_planner_implementations_tab_settings_infos_v2_en.png){ class="shadow lightbox" title="Infos sub-tab of the settings · 2026.09.30" }
 
@@ -559,13 +565,13 @@ You will find the **"Copy element"** action in the list of implementations at th
 
 ![The Copy element action in the menu of the 3 dots at the end of a row, which starts the copy wizard](assets/course_planner_implementations_copy1_v2_en.png){ class="shadow lightbox" title="List of implementations · 2026.09.30" }
 
-In the first step of the small wizard, you can select whether course content, events, members, to-dos and room bookings should also be copied. Under **Title** and **Reference**, the wizard suggests the details of the original element with the addition "(Copy)".
+In the first step of the small wizard, you can select whether course content, events, members, to-dos and room bookings should also be copied. Under **Title** and **Reference**, the wizard suggests the details of the original element with the addition "(Copy)". The copy adopts the [display settings](#tab_settings_infos) from the original element, not from the default values of the administration.
 
-- **Content**: **Copy** reuses an existing template and copies the events; if no template is available, the course is copied. **Reuse** shares the course with other implementations or reuses the template. **Don't copy** adopts no course content.
-- **Standalone events**: Events without a course are adopted with **Copy**, not with **Don't copy**.
+- **Content**: "Copy" reuses an existing template and copies the events; if no template is available, the course is copied. "Reuse" shares the course with other implementations or reuses the template. "Don't copy" adopts no course content.
+- **Standalone events**: Events without a course are adopted with "Copy", not with "Don't copy".
 - **To-dos** and **Room scheduling**: see [Adopt to-dos when copying](#copy_todos) and [Adopt room bookings when copying](#copy_rooms).
-- **Coaches**: **Standard** copies the memberships and the assignments to events, **Membership only** only the memberships, **Don't copy** none.
-- **Master coaches / Course owners / Element owners**: **Including membership** copies the memberships, **Don't copy** none.
+- **Coaches**: "Standard" copies the memberships and the assignments to events, "Membership only" only the memberships, "Don't copy" none.
+- **Master coaches / Course owners / Element owners**: "Including membership" copies the memberships, "Don't copy" none.
 
 ![Title and reference of the copy as well as the options for course content, standalone events, to-dos, room scheduling and memberships](assets/course_planner_implementations_copy2_v3_en.png){ class="shadow lightbox" title="General settings step of the Copy element wizard" }
 
@@ -591,7 +597,7 @@ Whoever copies an implementation takes its to-dos over into the copy and does no
 * **To-dos only:** Copy to-dos without assignments.
 * **Don't copy:** To-dos are not copied.
 
-With **Standard**, the copy also takes over the entries under "Assigned" and "Delegated". The persons entered receive a single e-mail per copy, not one per to-do: with several to-dos the e-mail "New to-dos" with one line and one link per to-do, with exactly one to-do the e-mail "New to-do". With more than 20 to-dos, the e-mail shows the first 20 and below them the line "… and N more". OpenOlat sends the e-mails only once the copy is completed; if the copy is aborted, no e-mail is sent. If you do not want to trigger any e-mails when copying, choose **To-dos only** or **Don't copy**; with **To-dos only** the to-dos are created without entries under "Assigned" and "Delegated", and you assign them manually afterwards. A to-do deselected in the "Overview elements" step is not copied and does not appear in any e-mail. [:octicons-tag-16:{ title="from Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
+With "Standard", the copy also takes over the entries under "Assigned" and "Delegated". The persons entered receive a single e-mail per copy, not one per to-do: with several to-dos the e-mail "New to-dos" with one line and one link per to-do, with exactly one to-do the e-mail "New to-do". With more than 20 to-dos, the e-mail shows the first 20 and below them the line "… and N more". OpenOlat sends the e-mails only once the copy is completed; if the copy is aborted, no e-mail is sent. If you do not want to trigger any e-mails when copying, choose "To-dos only" or "Don't copy"; with "To-dos only" the to-dos are created without entries under "Assigned" and "Delegated", and you assign them manually afterwards. A to-do deselected in the "Overview elements" step is not copied and does not appear in any e-mail. [:octicons-tag-16:{ title="from Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
 
 Exceptions, for example for the person who copies and is entered themselves, are described in the section [When OpenOlat sends e-mails about to-dos](../basic_concepts/To_Dos_Basics.md#notifications).
 
@@ -615,7 +621,7 @@ The selection is only active if events are copied at all, that is if the "Copy" 
 
 The copy takes over the room of the original booking. The period of the booking follows the copied event: if you shift the events with **"Shift all dates"**, the bookings move along with them. When copying, OpenOlat does not check whether the room is still free in the new period. Conflicts such as a double booking only appear afterwards as a warning in [Room Scheduling](Course_Planner_Rooms.md#room_scheduling).
 
-In the **"Overview elements"** step, the **"#Rooms"** column additionally appears if the module is active and the "Copy" option is selected; expand an element and the "Events" table there also lists the **"Rooms"** column with the booked rooms. With "Don't copy", both columns are missing.
+In the "Overview elements" step, the "#Rooms" column additionally appears if the module is active and the "Copy" option is selected; expand an element and the "Events" table there also lists the "Rooms" column with the booked rooms. With "Don't copy", both columns are missing.
 
 The **"Copy element"** action is available to administrators, course planners and product owners. You will find the complete overview in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
 
@@ -656,6 +662,8 @@ If you have already opened an implementation, you will also find the option to d
 [Catalog 2.0 - Sorting/order >](catalog2.0_sort_offers.md)<br>
 [Forms - Overview >](../learningresources/Form.md)<br>
 [Reports: Booking orders >](Reports_BookingOrders.md)<br>
+[Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
+[e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Certification programs >](Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>

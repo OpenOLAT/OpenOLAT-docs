@@ -185,8 +185,8 @@ Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 
 
 [Zu den Details >](../learningresources/Course_Settings_Assessment.de.md)<br>
-[Zu den Details der **Zertifikate** >](../learningresources/Course_Settings_Assessment.de.md#certificate)<br>
-[Zu den Details der **Rezertifizierung** >](../learningresources/Course_Settings_Assessment.de.md#recertification)<br>
+[Zu den Details der **Zertifikate** >](../learningresources/Course_Settings_Assessment_Certificate.de.md#certificate)<br>
+[Zu den Details der **Rezertifizierung** >](../learningresources/Course_Settings_Assessment_Certificate.de.md#recertification)<br>
 [Zum Seitenanfang ^](#course_settings)
 
 

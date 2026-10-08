@@ -48,9 +48,9 @@ The table shows what the info page consists of, from top to bottom. The column "
 | Description | yes | Tab "Info" | no |
 | Outline | no | implementation only | no |
 | Meet your teachers | yes | course only: Tab "Info", "Display on info page" | no |
-| Objectives | yes | course only: Tab "Info", section "Details" | no |
-| Requirements | yes | course only: Tab "Info", section "Details" | no |
-| Certification | yes | course only: Tab "Info", section "Details" | no |
+| Objectives | yes | course only: Tab "Info", section "Additional information" | no |
+| Requirements | yes | course only: Tab "Info", section "Additional information" | no |
+| Certification | yes | course only: Tab "Info", section "Additional information" | no |
 | Categories | no | Tab "Catalog" | Catalog V1 |
 | **Bottom** | | | |
 | License | yes | Tab "Metadata" | Licenses |

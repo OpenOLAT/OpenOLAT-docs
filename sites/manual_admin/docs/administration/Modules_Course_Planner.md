@@ -6,14 +6,18 @@
 The Course Planner module is optionally available in OpenOlat instead of the Curriculum module and must be activated in Administration.
 
 !!! tip "frentix hosting customers"
-    For activation, please contact [contact@frentix.com](mailto:contact@frentix.com). <br> After activation, the display of the personal curriculum ("Courses") in the "Courses" area can also be enabled.
+    For activation, please contact [contact@frentix.com](mailto:contact@frentix.com). <br> After activation, the products can also be displayed in the "Courses" area, see [Products in "Courses"](#product_in_my_courses).
 
 
-### Tab Course Planner {: #tab_course_planner}
+[To the top of the page ^](#module_course_planner)
 
-![Switch to turn on Course Planner, Product in "My courses" and the selection of the entries in the User overview, in the Course Planner tab of the system administration](assets/modules_course_planner_config_v1_en.png){ class="shadow lightbox" title="Course Planner tab in the system administration" }
+---
 
-Two switches in this tab determine where products and implementations appear: Product in "My courses" and the User overview. Five entry points open the same list:
+## Tab Settings {: #tab_course_planner}
+
+In the "Settings" tab, administrators switch on the Course Planner and define the presets with which new courses and implementations start. You find it in the system administration under: `Administration > Modules > Course Planner`. Next to "Settings", the tabs "Course planner" and "Element types" appear as soon as the module is switched on.
+
+Five entry points open the same list of products and implementations:
 
 * `Courses > Educational products` for participants
 * `Coaching > Educational products` for coaches and course owners
@@ -21,51 +25,84 @@ Two switches in this tab determine where products and implementations appear: Pr
 * the same path `Coaching > People > "Person" > Educational products` as a line manager or an education manager
 * `User management > "Person" > Educational products` for user managers, roles managers, administrators and principals
 
-The switch Product in "My courses" turns the entry point under `Courses > Educational products` on or off. The User overview determines what line managers and education managers see under `Coaching > People > "Person"`.
+The option [Products in "Courses"](#product_in_my_courses) turns the first entry point, `Courses > Educational products`, on or off.
 
 ![Five entry points lead to the same list of implementations, a click on the title opens their structure.](assets/modules_course_planner_entry_points_v1_en.svg){ class="shadow lightbox" title="Entry points to the list of implementations" }
 
-#### Turn on Course Planner {: #enable_course_planner }
+### Module settings {: #module_settings}
 
-This checkbox activates the entire module.
+#### Module "Course Planner" {: #enable_course_planner }
 
-#### Product in "My courses" {: #product_in_my_courses }
+This switch turns the entire module on or off. If it is switched off, OpenOlat hides the other settings of this tab and the tabs "Course planner" and "Element types".
 
-All participants will find the site "Courses" in the main navigation. Products can also be displayed to participants in this site.
+#### Products in "Courses" {: #product_in_my_courses }
 
-#### User overview {: #user_overview }
+All participants find the "Courses" area in the main navigation. If the option «Products in "Courses"» is selected under "Enable option", this area also shows the participants their products.
 
-As an administrator you determine here which options the roles Course planner, Education manager and Line manager are shown. In other words, what a person working with the Course Planner is allowed to see of the participants. Individual entries can be released separately for each area, for example course progress and status, events and absences, evidence of achievement, badges, bookings or access to the quality management report.
+### Configuration {: #configuration_section}
 
 #### Linked taxonomies {: #linked_taxonomies }
 
 From the taxonomies created in the "Taxonomy" module, you can select those that should also be available in the Course Planner.
 
-**Note:**<br>
-The taxonomies selected here should be the same as those used in the catalog. Only then can these taxonomies be searched for in the catalog.
+!!! tip "Tip"
 
-#### Standard purpose for new courses {: #default_purpose_new_courses }
+    The taxonomies selected here should be the same as those used in the catalog. Only then can these taxonomies be searched for in the catalog.
+
+### Default settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"} {: #default_settings}
+
+If you create many courses and implementations, you define here once what they start with, instead of adjusting each one individually. The default values apply to courses and implementations that are newly created after the change.
+
+#### Usage for new courses {: #default_purpose_new_courses }
 
 Courses can be intended for stand-alone use or for integration into a product. As an administrator, you specify here which use is preset by default.
 
 * **Standalone**: An independent course has a member administration. Access can be gained using the "Private" offer type by registering as a member (e.g. by course owners), by assigning an access code or by publication in the catalog.
 * **Use in Course Planner**: If the course is integrated into a product, memberships are assigned and managed by the Course Planner. The course then does not require a second, independent membership administration.
 
-![The setting "Standard purpose for new courses" with the cards Standalone and Use in Course Planner, in the Course Planner menu item of the system administration](assets/modules_course_planner_usage_v1_en.png){ class="shadow lightbox" title="Course Planner tab in the system administration" }
+![Choice between the cards Standalone and Use in Course Planner, with Use in Course Planner selected](assets/modules_course_planner_usage_v1_en.png){ class="shadow lightbox" title="Course Planner tab in the system administration" }
 
 !!! tip "Tip"
 
-    If Course Planner is used extensively, it is advisable to set the default purpose for new courses in the system administration under `Administration > Modules > Course Planner` to "Use in Course Planner".
+    If Course Planner is used extensively, it is advisable to set the usage for new courses in the system administration under `Administration > Modules > Course Planner` to "Use in Course Planner".
+
+#### Display on info page {: #default_display_on_info_page}
+
+Here you define which sections the info page of a new implementation shows: "Outline", "Events", "Meet your teachers" and "Certificate". By default, all four options are selected. There is no default value for "Credit points", the option is selected for each implementation individually.
+
+"Meet your teachers" counts as selected for new implementations as long as at least one role is selected under "Members displayed as teacher". If new implementations are to start without this section, select no role there.
+
+#### Members displayed as teacher {: #default_taught_by}
+
+Here you define which roles a new implementation shows in the "Meet your teachers" section: "Teachers in events", "Coaches" or "Course owners". The same roles are preselected when someone selects "Meet your teachers" again in an existing implementation. By default, "Teachers in events" and "Coaches" are selected.
+
+!!! info "Default values for the info page only affect new implementations"
+
+    The two default values for the info page apply to implementations and elements that are created after the change. Existing implementations keep their own setting, and a copy adopts the setting of the original. Courses do not adopt these values, you define their default values for the info page in the [Module Course](Modules_Course.md#default_settings).
+
+How the display settings of an individual implementation are changed is described in [Course Planner: Implementations](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_infos).
 
 [To the top of the page ^](#module_course_planner)
 
 ---
 
-## Tab "Element types" {: #tab_element_types}
+## Tab Course planner {: #tab_course_planner_role}
+
+The "Course planner" tab contains the rights of the organisation role course planner. At the top, the tab shows the "Organisation role" with the fixed value "Course planner", below it the list of rights. It appears as soon as the module is switched on.
+
+#### Rights {: #user_overview }
+
+Individual entries can be released separately for each area, for example course progress and status, events and absences, evidence of achievement, badges, bookings or access to the quality management report.
+
+[To the top of the page ^](#module_course_planner)
+
+---
+
+## Tab Element types {: #tab_element_types}
 
 ### Element type overview [:octicons-tag-16:{ title="from Release 21.0 (OO-8924)" }](https://track.frentix.com/issue/OO-8924){:target="_blank"} {: #element_types_overview}
 
-Element types define which elements a product can contain and give these elements a meaning. A hierarchical structure can be mapped when creating the element types. An example of a hierarchical product is `Training program > Semester > Module > Course`.
+Element types define which elements a product can contain and give these elements a meaning. A hierarchical structure can be mapped when creating the element types. An example of a hierarchical product: a training program contains semesters, a semester contains modules, a module contains courses.
 
 The overview table shows all element types that have been created. An element type is edited via the :fontawesome-regular-pen-to-square: symbol. The type can be copied or deleted via the 3-dot link.
 
@@ -93,7 +130,7 @@ The overview table shows all element types that have been created. An element ty
 
 ### Create and edit element types {: #create_element_types}
 
-Two buttons create new element types: **"Create type for implementation"** and **"Create type for element"**. The button you choose determines the use of the type and cannot be changed in the dialog. An existing type is opened via the :fontawesome-regular-pen-to-square: symbol.
+Two buttons create new element types: "Create type for implementation" and "Create type for element". The button you choose determines the use of the type and cannot be changed in the dialog. An existing type is opened via the :fontawesome-regular-pen-to-square: symbol.
 
 ![The dialog "Create type for implementation" with title, reference, description, the features and the configuration of subelements and content, in the system administration](assets/modules_course_planner_element_type_create_v1_en.png){ class="shadow lightbox" title="Dialog Create type for implementation" }
 
@@ -118,7 +155,7 @@ Explanatory text for the element type.
 !!! note "CSS class"
 	Use the "CSS class" field to define your own layout for elements of this type. If you are interested in your own layouts, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com).
 
-In the **Configuration** section you define the structure:
+In the "Configuration" section you define the structure:
 
 ### Configuration {: #configuration }
 
@@ -162,7 +199,7 @@ Automation rules can be defined for each element type. These rules serve as a te
 
 **Configuring automation rules**
 
-Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch to the **"Automation"** tab. Use **"Add automation rule"** to add new rules.
+Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch to the "Automation" tab. Use "Add automation rule" to add new rules.
 
 ![Automation section in the dialog of an element type: switch, filters and rule table with context, target status and condition, in the Element types tab of the system administration](assets/modules_course_planner_element_type_automation_v1_en.png){ class="shadow lightbox" title="Automation tab of an element type" }
 
@@ -191,6 +228,7 @@ How the wizard checks the file step by step and what it creates or changes is de
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Module Course >](Modules_Course.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
 [Course Planner: Import/Export - Reference >](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.md)
