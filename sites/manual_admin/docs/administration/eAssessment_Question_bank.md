@@ -5,7 +5,7 @@ Administrators configure the question bank for the whole platform in the system 
 
 Question bank managers can also make some of the settings in the [administration of the question bank managers](../../manual_user/area_modules/Question_Bank_Administration.md).
 
-![Basic settings of the question bank and rights of the pool managers, tab Question bank in the system administration](assets/Question bank administration EN.png){ class="shadow lightbox" }
+![Basic settings of the question bank and rights of the pool managers](assets/Question bank administration EN.png){ class="shadow lightbox" title="Tab Question bank in the system administration" }
 
 ## Tab Question bank
 
@@ -17,8 +17,8 @@ The switch "Subjects" cannot be switched off while the review process is switche
 
 For more information on the [review process](../../manual_user/area_modules/Question_Bank_Review_Process.md), please refer to the corresponding chapter.
 
-  * Taxonomy: The taxonomy "Question bank" is assigned to each question bank. Changes can be made in the "Subjects" tab. More information about the taxonomy can be found [here](Modules_Taxonomy.md).
-  * Selectable subjects: When "All subjects" is selected, any subject can be selected for a question, regardless of its own competencies. However, if "Subjects with the competence "Teach" or "Manage"" is selected, in the question bank the questions can only be assigned to those subjects in which one has a certain competence oneself. These competences are added either in the system administration under `Administration > Modules > Taxonomy` or in the user management.
+  * Taxonomy: The taxonomy "Question pool" is assigned to each question bank. Changes can be made in the "Subjects" tab. More information about the taxonomy can be found [here](Modules_Taxonomy.md).
+  * Selectable subjects: When "All subjects" is selected, any subject can be selected for a question, regardless of its own competencies. However, if "Subjects with competence "teach" or "manage"" is selected, in the question bank the questions can only be assigned to those subjects in which one has a certain competence oneself. These competences are added either in the system administration under `Administration > Modules > Taxonomy` or in the user management.
   * Create subject when importing: Questions can be added to the question bank via Excel import. For each question, the subject can be imported as metadata. If this option is activated, it means that new subjects will be created by the import, if they do not already exist. If it is just a typo, a new subject will also be created.
   * Levels: Switches on the levels that are created in the "Levels" tab and selected in the metadata of a question.
   * Delete questions when author deleted: When an account is deleted, the person is removed as author from all questions. If this option is switched on and the person is the only author of a question, the question is deleted as well. If the option is switched off, such questions remain in the question bank without an author. Administrators find them in the Question bank site under `Question bank > Questions > Without author` and can assign new authors to them.
@@ -37,7 +37,7 @@ Here you can create an info page. This info page is displayed when you open the 
 
 ## Tab Review process
 
-![Review process settings such as decision method and visibility of final questions, tab Review process in the system administration](assets/Review process - administration EN.png){ class="shadow lightbox" }
+![Review process settings such as decision method and visibility of final questions](assets/Review process - administration EN.png){ class="shadow lightbox" title="Tab Review process in the system administration" }
 
   * Decision method: For the time being, only the assessment method Lower limit can be selected. The decision method "Lower limit" changes the status of a question to "Final", if the minimum number of ratings is reached and if all ratings are equal or higher than the lower limit. If a rating is lower than the lower limit, the question status this immediately changed to "Revision", even if the minimum number of ratings is not reached yet.
   * Number of ratings per question: This number of people must give a positive rating per question, i.e. above the lower limit, for the questions to change to Final status.

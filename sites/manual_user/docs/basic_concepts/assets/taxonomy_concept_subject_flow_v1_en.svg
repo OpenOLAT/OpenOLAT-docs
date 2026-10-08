@@ -1,0 +1,69 @@
+<svg viewBox="0 0 940 420" xmlns="http://www.w3.org/2000/svg" font-family="'Roboto', Arial, sans-serif">
+  <title>Administrators create taxonomy levels, authors select them on the object as a subject</title>
+  <defs>
+    <marker id="arSea" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#126365"/></marker>
+  </defs>
+  <rect x="0" y="0" width="940" height="420" fill="#FFFFFF"/>
+  <text x="470" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#342C24">Create taxonomy level, select subject</text>
+
+  <!-- Links: Administration -->
+  <rect x="20" y="56" width="400" height="290" rx="8" fill="#FFFFFF" stroke="#342C24" stroke-width="1.5"/>
+  <rect x="20" y="56" width="400" height="36" rx="8" fill="#342C24"/>
+  <rect x="20" y="78" width="400" height="14" fill="#342C24"/>
+  <text x="220" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Administrators, in the system administration</text>
+
+  <g font-size="14" fill="#2D2926">
+    <circle cx="50" cy="124" r="13" fill="#342C24"/>
+    <text x="50" y="129" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
+    <text x="74" y="129" font-weight="bold">Create taxonomy «Disciplines»</text>
+    <rect x="74" y="140" width="272" height="22" rx="3" fill="#EDEDED"/>
+    <text x="82" y="155" font-family="Menlo, Consolas, monospace" font-size="12" fill="#36464E">Administration &gt; Modules &gt; Taxonomy</text>
+
+    <circle cx="50" cy="196" r="13" fill="#342C24"/>
+    <text x="50" y="201" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">2</text>
+    <text x="74" y="201" font-weight="bold">Create taxonomy level «English»</text>
+    <rect x="74" y="212" width="214" height="24" rx="5" fill="#FFFFFF" stroke="#8A8580"/>
+    <text x="181" y="229" text-anchor="middle" font-size="12" fill="#2D2926">Create new taxonomy level</text>
+
+    <circle cx="50" cy="270" r="13" fill="#342C24"/>
+    <text x="50" y="275" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">3</text>
+    <text x="74" y="275" font-weight="bold">Select taxonomy in the area</text>
+    <rect x="74" y="286" width="336" height="22" rx="3" fill="#EDEDED"/>
+    <text x="82" y="301" font-family="Menlo, Consolas, monospace" font-size="12" fill="#36464E">Administration &gt; Modules &gt; Learning resource</text>
+  </g>
+
+  <!-- Pfeil -->
+  <line x1="422" y1="200" x2="518" y2="200" stroke="#126365" stroke-width="1.8" marker-end="url(#arSea)"/>
+  <text x="470" y="188" text-anchor="middle" font-size="12" fill="#2D2926">for selection</text>
+
+  <!-- Rechts: am Objekt -->
+  <rect x="520" y="56" width="400" height="290" rx="8" fill="#E6F0F0" stroke="#126365" stroke-width="1.5"/>
+  <rect x="520" y="56" width="400" height="36" rx="8" fill="#126365"/>
+  <rect x="520" y="78" width="400" height="14" fill="#126365"/>
+  <text x="720" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Authors, on the course</text>
+
+  <g font-size="14" fill="#2D2926">
+    <circle cx="550" cy="124" r="13" fill="#126365"/>
+    <text x="550" y="129" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">4</text>
+    <text x="574" y="129" font-weight="bold">In the field «Subjects / Catalog»</text>
+    <text x="574" y="147" font-weight="bold">select the level «English»</text>
+    <rect x="574" y="160" width="300" height="30" rx="4" fill="#FFFFFF" stroke="#126365"/>
+    <rect x="582" y="166" width="78" height="18" rx="9" fill="#FFFFFF" stroke="#126365"/>
+    <text x="621" y="179" text-anchor="middle" font-size="12" fill="#126365">English</text>
+    <text x="574" y="222" font-size="13">«English» is now a subject of the course.</text>
+  </g>
+  <text x="550" y="254" font-size="13" font-weight="bold" fill="#126365">This is the name of the field on the object</text>
+  <g font-size="13" fill="#2D2926">
+    <text x="550" y="276">Course</text>
+    <text x="680" y="276">«Subjects / Catalog»</text>
+    <text x="680" y="292" font-size="11" fill="#36464E">without catalog «Subjects»</text>
+    <text x="550" y="314">Question</text>
+    <text x="680" y="314">«Subject»</text>
+    <text x="550" y="334">Media item</text>
+    <text x="680" y="334">«Subjects»</text>
+  </g>
+
+  <!-- Fragenpool -->
+  <rect x="20" y="364" width="900" height="44" rx="8" fill="#EDEDED"/>
+  <text x="470" y="391" text-anchor="middle" font-size="14" fill="#36464E">Question bank: The taxonomy «Question pool» already exists. Steps 1 and 3 are not needed.</text>
+</svg>

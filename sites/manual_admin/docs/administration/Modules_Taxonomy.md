@@ -13,11 +13,13 @@ You find the module in the system administration under:<br>
     * [ePortfolio](eAssessment_ePortfolio.md)
     * [Catalog](Modules_Catalog_2.0.md)
 
-![Overview page of the taxonomies with activation status per area, menu item Taxonomy in the Modules menu of the system administration](assets/modules_taxonomy_entry_v1_en.png){ class="shadow lightbox" }
+    How the areas choose their taxonomy and how they differ is explained on the page [Taxonomy](../../manual_user/basic_concepts/Taxonomy_Concept.md) in the user manual.
+
+![Overview page of the taxonomies with activation status per area, menu item Taxonomy in the Modules menu of the system administration](assets/modules_taxonomy_entry_v1_en.png){ class="shadow lightbox" title="Taxonomy page in the Modules menu" }
 
 Directly on the overview page a new taxonomy structure can be created.
 
-Several taxonomy structures can be created and activated for different purposes. The overview shows per taxonomy for which areas it is activated: Learning resources / Catalog, Question bank, Document pool, ePortfolio, Course Planner and Media Center. [:octicons-tag-16:{ title="Available from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+Several taxonomy structures can be created and activated for different purposes. The overview shows per taxonomy for which areas it is activated: Learning resources / Catalog, Question bank, Document pool, ePortfolio, Course Planner and Media Center. [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
 Thus on one hand taxonomy structures can for example be built in the form of
 subject, sphere of activity or competence structures. On the other hand
@@ -25,7 +27,7 @@ competences can be added to users which allows them access to the taxonomy.
 
 **Example** of an elaborated taxonomy structure, according to subjects for the document pool:
 
-![Example taxonomy structure HFM with the subjects MINT, Sport and Sprachen (languages), Taxonomy tab](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
+![Example taxonomy structure HFM with the subjects MINT, Sport and Sprachen (languages), Taxonomy tab](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" title="Taxonomy tab of the taxonomy HFM" }
 
 ## Metadata {: #metadata}
 
@@ -33,7 +35,7 @@ When creating the metadata reference, title and if desired a description can
 be inserted. These data can be edited in the tab "Metadata" afterward.
 Additionally an ID is created automatically and if an external management
 system has created the taxonomy, an external ID is created as well.
-![Metadata tab of a taxonomy with the fields ID, External ID, Reference, Title and Description](assets/modules_taxonomy_metadata_v1_en.png){ class="shadow lightbox" }
+![Metadata tab of a taxonomy with the fields ID, External ID, Reference, Title and Description](assets/modules_taxonomy_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab of a taxonomy" }
 
 ## Level types {: #level_types}
 
@@ -79,7 +81,7 @@ If desired a short description of the level type can be added.
 
 Out of the already existing level types a sub type can be chosen. Like this it becomes possible to create a hierarchical structure. It will get visible when creating the taxonomy level.
 
-![Level types tab with the list of level types and button "Add new level type"](assets/taxonomy-leveltypes.jpg){ class="shadow lightbox" }
+![Level types tab with the list of level types and button "Add new level type"](assets/taxonomy-leveltypes.jpg){ class="shadow lightbox" title="Level types tab of a taxonomy" }
 
 ## Create taxonomy {: #taxonomy}
 
@@ -119,11 +121,11 @@ The title depends on the language and is used in different places: Catalog 2.0, 
 
 If desired a short description of the taxonomy level can be added. Displayed in the catalog below the level.
 
-![Dialog "Create new taxonomy level" with the fields Path, Reference, Type, Order, Title and Description and the section Images with Teaser image and Background image](assets/modules_taxonomy_level_create_v1_en.png){ class="shadow lightbox" }
+![Dialog "Create new taxonomy level" with the fields Path, Reference, Type, Order, Title and Description and the section Images with Teaser image and Background image](assets/modules_taxonomy_level_create_v1_en.png){ class="shadow lightbox" title="Dialog Create new taxonomy level" }
 
 In the overview a hierarchical structure is now visible.
 
-![Expanded list of the taxonomy ABC in the tab "Levels" with the columns Level, Reference, External ID and Sublevels](assets/modules_taxonomy_levels_overview_v1_en.png){ class="shadow lightbox" }
+![Expanded list of the taxonomy ABC in the tab "Levels" with the columns Level, Reference, External ID and Sublevels](assets/modules_taxonomy_levels_overview_v1_en.png){ class="shadow lightbox" title="Levels tab of a taxonomy" }
 
 !!! tip "Competences"
     In the detail view competences can be added afterwards. Like this users get "access rights" for the single taxonomy levels.
@@ -131,39 +133,36 @@ In the overview a hierarchical structure is now visible.
 4 different competences are distinguished. Following they are outlined
 shortly:
 
-  * **Teach**: A user with teach competence is qualified in this competence. Mostly this means he has a certain expert knowledge which he can hand over. Therefore learners will never have teach competences as the teach competence cannot be gained in OpenOlat. The teach competence is either added to a user manually or by an external management system. This competence manages the access to the [document pool](Modules_Document_pool.md) as well as to the question bank.
-  * **Manage**: User can have a managing function for a certain area of the taxonomy. Therefore the must not have teach competence at the same time. This competence is mainly used in the question bank.
-  * **Have**: This competence is not yet used in OpenOlat. In the future this competence can be gained by a learner through learning activities in OpenOlat (e.g. test). This competence has an expiry date.
-  * **Target**: A learner has a target he wants to reach. It is the target to gain this competence.
-
-!!! note "Note on Target"
-    This competence is not yet used in OpenOlat.
+  * **Teach**: A user with the Teach competence is qualified in this competence. Mostly this means they have certain expert knowledge that they can pass on. The Teach competence is added to the user either manually or by an external management system. This competence controls the access both in the [document pool](Modules_Document_pool.md) and in the question bank.
+  * **Manage**: Users can have a managing function for certain areas of the taxonomy. They do not necessarily need the Teach competence as well. This competence is mainly used in the question bank.
+  * **Have**: As soon as a person assigns a competence to an entry in their [ePortfolio](../../manual_user/area_modules/Portfolio_General_Information.md) via "Add competences", OpenOlat automatically enters the Have competence for them. You assign the Have competence manually in the "Competences" tab of the taxonomy level.
+  * **Target**: The person aims for this competence. They see the Target competence in the user tools under "Competences".
 
 
 ### Export taxonomy  {: #export}
 
 The taxonomy is downloaded as a .zip archive by clicking on the menu item (see image). This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md))
-![Opened three-dot menu with the entries Export taxonomy levels and Import taxonomy levels, on the right above the list of taxonomy levels](assets/Taxonomie_exportieren.png){ class="shadow lightbox" }
+![Opened three-dot menu with the entries Export taxonomy levels and Import taxonomy levels, on the right above the list of taxonomy levels](assets/Taxonomie_exportieren.png){ class="shadow lightbox" title="Three-dot menu in the Levels tab" }
 
 
 ### Import taxonomy [:octicons-tag-16:{ title="from Release 15.4 (OO-5177)" }](https://track.frentix.com/issue/OO-5177){:target="_blank"} {: #import}
 
 **Insert data**
 
-![Step "Insert data" of the import wizard with the column names of the taxonomy structure (A) and the upload of the background/teaser images (B)](assets/taxonomy-import-overview.png){ class="shadow lightbox" }
+![Step "Insert data" of the import wizard with the column names of the taxonomy structure (A) and the upload of the background/teaser images (B)](assets/taxonomy-import-overview.png){ class="shadow lightbox" title="Import taxonomy levels, step Insert data" }
 
 Here we have the choice between different options:
 We can import only the structure (**A**), add images to an existing structure (**B**) or import a structure including images (**A+B**).
 
 **Review changes**
 
-![Step "Review changes" with a warning icon per row when the taxonomy level already exists and can be updated](assets/taxonomy-import-step2.jpg){ class="shadow lightbox" }
+![Step "Review changes" with a warning icon per row when the taxonomy level already exists and can be updated](assets/taxonomy-import-step2.jpg){ class="shadow lightbox" title="Import taxonomy levels, step Review changes" }
 
 After the import, the taxonomy and the added images are reviewed again in the second step. An icon indicates whether the taxonomy level already exists and should be completed and overwritten with the files and uploaded information.
 
 **Select update mode**
 
-![Step "Select update mode" with checkbox "Update taxonomies" and the number of affected taxonomy levels](assets/taxonomy-import-step3.jpg){ class="shadow lightbox" }
+![Step "Select update mode" with checkbox "Update taxonomies" and the number of affected taxonomy levels](assets/taxonomy-import-step3.jpg){ class="shadow lightbox" title="Import taxonomy levels, step Select update mode" }
 
 Here you can decide whether you want to overwrite the existing taxonomy levels or just add new taxonomy levels. If you want to add media, you _must_ overwrite the changes here.
 
@@ -178,7 +177,7 @@ If you have activated different languages in OpenOlat and use the [Catalog 2.0](
 
 ### Import/add background/teaser image only {: #import_add_media}
 
-![Folder structure of the unpacked taxonomy export with the subfolders "background" and "teaser" per taxonomy level](assets/taxonomy-media-folder-structure.jpg){ class="shadow lightbox" }
+![Folder structure of the unpacked taxonomy export with the subfolders "background" and "teaser" per taxonomy level](assets/taxonomy-media-folder-structure.jpg){ class="shadow lightbox" title="Unpacked export archive of a taxonomy" }
 
 1. If you want to add background images to an existing taxonomy, you should first export the taxonomy.
 2. Unzip the archive and place the images in the "media" folder.
@@ -192,7 +191,7 @@ The AI works out what an image or a text is about and assigns the result to a ta
 
 The assignment takes effect when you upload an image in the [Media Center](../../manual_user/basic_concepts/Media_Center_Items.md#metadata_ai) and when you [import Markdown files into the Content Editor](../../manual_user/basic_concepts/Content_Editor.md#markdown). The result appears in the field "Subjects" of the metadata and can be changed there. A taxonomy level that hangs on a media item or on a learning resource is called a subject there.
 
-OpenOlat only searches the taxonomies that are selected for the Media Center. You set these in the system administration under `Administration > Modules > Media Center` in the field "Linked taxonomies", see [Module Media Center: Taxonomy](Modules_Media_Center.md#taxonomy). The overview under `Administration > Modules > Taxonomy` shows per taxonomy for which areas it is activated.
+OpenOlat searches the taxonomies that are selected for the Media Center. You set these in the system administration under `Administration > Modules > Media Center` in the field "Linked taxonomies", see [Module Media Center: Taxonomy](Modules_Media_Center.md#taxonomy). If no taxonomy is selected there, OpenOlat searches the taxonomies that are selected under `Administration > Modules > Learning resource`. The overview under `Administration > Modules > Taxonomy` shows per taxonomy for which areas it is activated; in this case it shows "disabled" for the Media Center.
 
 ### Requirements {: #ai_matching_requirements}
 
@@ -229,7 +228,7 @@ Which subject a media item receives depends on the trigger:
 
 The AI therefore supplies what the media item is about, and the taxonomy matching looks for the matching subject. Without the AI feature "Image Description Generator" this entry stays empty, and the taxonomy matching has nothing to compare. The assigned subject is a suggestion and can be changed in the metadata at any time.
 
-If the field "Subjects" stays empty although the AI has generated title, description and tags, first check whether a taxonomy is selected for the Media Center.
+If the field "Subjects" stays empty although the AI has generated title, description and tags, first check whether a taxonomy is selected for the Media Center, or, if none is selected there, under `Administration > Modules > Learning resource`.
 
 [To the top of the page ^](#module_taxonomy)
 
@@ -248,6 +247,8 @@ All deleted elements of the tab "Levels" end up here.
 [Question bank >](../../manual_user/area_modules/Question_Bank.md)<br>
 [ePortfolio >](eAssessment_ePortfolio.md)<br>
 [Catalog >](Modules_Catalog_2.0.md)<br>
+[Taxonomy >](../../manual_user/basic_concepts/Taxonomy_Concept.md)<br>
+[Portfolio - General Information >](../../manual_user/area_modules/Portfolio_General_Information.md)<br>
 [Catalog 2.0 >](../../manual_user/area_modules/catalog2.0.md)<br>
 [Media Center: information and settings for individual media >](../../manual_user/basic_concepts/Media_Center_Items.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>

@@ -257,6 +257,7 @@ Hier werden alle gelöschten Elemente aus dem Tab "Ebenen" abgelegt.
 [ePortfolio >](eAssessment_ePortfolio.de.md)<br>
 [Katalog >](Modules_Catalog_2.0.de.md)<br>
 [Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
+[Allgemeines zum Portfolio >](../../manual_user/area_modules/Portfolio_General_Information.de.md)<br>
 [Katalog 2.0 >](../../manual_user/area_modules/catalog2.0.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>

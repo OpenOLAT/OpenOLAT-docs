@@ -55,6 +55,7 @@ nav:
       - Media Center:
         - Concept: "basic_concepts/Media_Center_Concept.md"
         - Media items: "basic_concepts/Media_Center_Items.md"
+      - Taxonomy: "basic_concepts/Taxonomy_Concept.md"
       - Virtual classrooms: "basic_concepts/Virtual_classrooms.md"
     - Technology:
       - basic_concepts/Technology.md 

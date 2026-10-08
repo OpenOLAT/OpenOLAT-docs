@@ -16,7 +16,7 @@
     <circle cx="50" cy="124" r="13" fill="#342C24"/>
     <text x="50" y="129" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">1</text>
     <text x="74" y="129" font-weight="bold">Taxonomie «Fächer» anlegen</text>
-    <rect x="74" y="140" width="250" height="22" rx="3" fill="#EDEDED"/>
+    <rect x="74" y="140" width="272" height="22" rx="3" fill="#EDEDED"/>
     <text x="82" y="155" font-family="Menlo, Consolas, monospace" font-size="12" fill="#36464E">Administration &gt; Module &gt; Taxonomie</text>
 
     <circle cx="50" cy="196" r="13" fill="#342C24"/>

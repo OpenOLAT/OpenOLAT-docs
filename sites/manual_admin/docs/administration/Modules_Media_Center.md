@@ -25,16 +25,16 @@ If every new medium in the Media Center must carry licence information, make the
 
 ## Taxonomy {: #taxonomy}
 
-All contents of the media center can be assigned to a taxonomy (meta data). Since OpenOlat can manage multiple taxonomies at the same time, administrators define under "Linked taxonomies" which taxonomies are used in the media center.
+To sort and filter media in the Media Center by subject, you assign them subjects from a taxonomy. In the metadata of a media item, the field for this is called "Subjects". Since OpenOlat can manage multiple taxonomies at the same time, administrators define under "Linked taxonomies" which taxonomies are used in the Media Center. If no taxonomy is selected there, the Media Center uses the taxonomies that are selected in the system administration under `Administration > Modules > Learning resource`.
 
-You can find further information in the chapter [Taxonomy](../administration/Modules_Taxonomy.md).
+Further information can be found on the page [Module Taxonomy](Modules_Taxonomy.md). How the areas choose their taxonomy is explained on the page [Taxonomy](../../manual_user/basic_concepts/Taxonomy_Concept.md) in the user manual.
 
 [To the top of the page ^](#module_media_center)
 
 ---
 
 
-## Shares [:octicons-tag-16:{ title="ab Release 18.1 (OO-7274)" }](https://track.frentix.com/issue/OO-7274) {: #shares}
+## Shares [:octicons-tag-16:{ title="from Release 18.1 (OO-7274)" }](https://track.frentix.com/issue/OO-7274) {: #shares}
 
 If contents are deposited in the media center, they can be shared for others to use. Administrators define in the section "Shares" which sharing options are available to authors and other roles.
 
@@ -58,6 +58,7 @@ For "With user", "With group" and "With course" you choose "All" or "Specific ro
 [Files and Folders >](Files_and_Folders.md)<br>
 [Licenses >](Licenses.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
+[Taxonomy >](../../manual_user/basic_concepts/Taxonomy_Concept.md)<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
 [Personal tools: Media Center >](../../manual_user/personal_menu/Media_Center.md)<br>
 [Manage user settings >](../usermanagement/Configure_User.md)

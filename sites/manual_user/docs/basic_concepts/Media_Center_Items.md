@@ -12,14 +12,14 @@ Information and settings can be entered for each individual media item stored in
 
 The **Overview** tab shows the details Type, Creator, Date and Size. You can also view the activity log and create a new version or replace the image.
 
-![Overview tab of an image with Type, Creator, Date and Size, the buttons Create new version and Replace image and the collapsed activity log](assets/media_center_items_tab_overview_v1_de.png){ class="shadow lightbox" }
+![Overview tab of an image with Type, Creator, Date and Size, the buttons Create new version and Replace image and the collapsed activity log](assets/media_center_items_tab_overview_v1_de.png){ class="shadow lightbox" title="Overview tab of a media item" }
 
 
 ### Activity log {: #media_center_activitylog}
 
 The activity log can be used to track when the media element was edited and by whom.
 
-![Highlighted, expanded activity log with the period tabs Last 7 days to All and one entry Uploaded with date, version and author](assets/media_center_items_tab_overview_activity_v1_de.png){ class="shadow lightbox" }
+![Highlighted, expanded activity log with the period tabs Last 7 days to All and one entry Uploaded with date, version and author](assets/media_center_items_tab_overview_activity_v1_de.png){ class="shadow lightbox" title="Activity log in the Overview tab" }
 
 
 ### "Create new version" and "Replace image" [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6986)" }](https://track.frentix.com/issue/OO-6986){:target="_blank"} {: #media_center_versioning}
@@ -29,7 +29,7 @@ An interesting feature is the option to **version** media elements. This allows 
 In contrast, **Replace image** replaces the image in the current version. All other metadata and settings (e.g. shares) remain unchanged.
 
 
-![Highlighted buttons Create new version and Replace image at the top right of the Overview tab of an image](assets/media_center_items_tab_overview_new_version_v1_de.png){ class="shadow lightbox" }
+![Highlighted buttons Create new version and Replace image at the top right of the Overview tab of an image](assets/media_center_items_tab_overview_new_version_v1_de.png){ class="shadow lightbox" title="Overview tab of an image" }
 
 
 
@@ -37,7 +37,7 @@ In contrast, **Replace image** replaces the image in the current version. All ot
 
 You can download individual media files from the Media Center using the 3-dot menu at the top right. If you are the owner, you can also delete your media element.
 
-![Highlighted, opened 3-dot menu with Download and Delete at the top right above the tabs of a media element](assets/media_center_items_tab_overview_download_v1_de.png){ class="shadow lightbox" }
+![Highlighted, opened 3-dot menu with Download and Delete at the top right above the tabs of a media element](assets/media_center_items_tab_overview_download_v1_de.png){ class="shadow lightbox" title="3-dot menu of a media item" }
 
 
 [To the top of the page ^](#media_center_items)
@@ -51,7 +51,7 @@ The following information can be added to a media element:
 
 * a title that differs from the file name
 * tags for keyword indexing and a better overview
-* a classification according to topics and subject areas (taxonomy)
+* an assignment to subjects (taxonomy)
 * a description
 * an "alt text" for draw.io files or images/graphics. This is particularly relevant for screen readers.
 * a license specification, such as "CC BY-NC-SA"
@@ -59,16 +59,16 @@ The following information can be added to a media element:
 
 The information and options available for metadata vary depending on the type of media. All information can be changed later.
 
-![Metadata form of an image with the fields Title, File name, Tags, Topics/Subject areas, Description, Alt text, License and Source](assets/media_center_items_tab_metadata_v1_de.png){ class="shadow lightbox" }
+![Metadata form of an image with the fields Title, File name, Tags, Subjects, Description, Alt text, License and Source](assets/media_center_items_tab_metadata_v1_de.png){ class="shadow lightbox" title="Metadata tab of an image" }
 
 
 ### Generate metadata with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"} {: #metadata_ai}
 
-If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI feature "Image Description Generator", the button **"Generate metadata with AI"** is available when uploading images and in the metadata dialog. Clicking it fills title, description, alt text and tags with AI-generated suggestions. If the AI detects what the image is about, it also assigns a subject area (taxonomy) to the media item. If the [automatic assignment by AI](../../manual_admin/administration/Modules_Taxonomy.md#ai_matching) is set up, it finds the subject area that matches in content even without an identical wording. Without this setup, the assignment only takes effect for a subject area with an identical wording. Both require that at least one taxonomy is selected for the Media Center; otherwise the field "Subjects" stays empty. A notice in the form indicates that the metadata has been generated with AI. Review the suggestions before saving and adjust them if necessary. AI image analysis is not available for SVG images.
+If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI feature "Image Description Generator", the button **"Generate metadata with AI"** is available when uploading images and in the metadata dialog. Clicking it fills title, description, alt text and tags with AI-generated suggestions. If the AI detects what the image is about, it also assigns a subject (taxonomy) to the media item. If the [automatic assignment by AI](../../manual_admin/administration/Modules_Taxonomy.md#ai_matching) is set up, it finds the subject that matches in content even without an identical wording. Without this setup, the assignment only takes effect for a subject with an identical wording. If the field "Subjects" stays empty after "Generate metadata with AI", the Media Center has no taxonomy to choose from. The AI only selects the subject from the taxonomies that the Media Center uses. These are the taxonomies selected in the configuration of the Media Center under "Linked taxonomies". If none is selected there, the Media Center uses the taxonomies of the learning resources. A notice in the form indicates that the metadata has been generated with AI. Review the suggestions before saving and adjust them if necessary. AI image analysis is not available for SVG images.
 
 Fields that are already filled in are retained during generation; the title is only replaced if it is empty or corresponds to a file name.
 
-![Subject area Astronomy set by the AI, together with the notice about the AI generation, dialog Add media file](assets/media_center_items_ai_v2_en.png){ class="shadow lightbox" }
+![Subject Astronomy set by the AI, together with the notice about the AI generation, dialog Add media file](assets/media_center_items_ai_v2_en.png){ class="shadow lightbox" title="Dialog Add media file" }
 
 Metadata of imported images is also generated by AI in the background during [Markdown import into the Content Editor](Content_Editor.md#markdown) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
 
@@ -82,7 +82,7 @@ Metadata of imported images is also generated by AI in the background during [Ma
 In the "Uses" tab, you can see where the media element is used.<br>
 By clicking on the usage information, you can jump directly to that place in this course.
 
-![Table in the Uses tab with one entry: usage Page, resource Obstbau, user, version Latest, status Valid](assets/media_center_items_tab_uses_v1_de.png){ class="shadow lightbox" }
+![Table in the Uses tab with one entry: usage Page, resource Obstbau, user, version Latest, status Valid](assets/media_center_items_tab_uses_v1_de.png){ class="shadow lightbox" title="Uses tab of a media item" }
 
 [To the top of the page ^](#media_center_items)
 
@@ -94,7 +94,7 @@ By clicking on the usage information, you can jump directly to that place in thi
 Here you can specify who is allowed to use a media element. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups, or courses. By sharing files, they can also be used collaboratively if editing is allowed.
 
 
-![Highlighted button Add share with the targets User, Group, Course and Organisation and highlighted share row with the switch Share editable in the Shares tab](assets/media_center_items_tab_share_v1_de.png){ class="shadow lightbox" }
+![Highlighted button Add share with the targets User, Group, Course and Organisation and highlighted share row with the switch Share editable in the Shares tab](assets/media_center_items_tab_share_v1_de.png){ class="shadow lightbox" title="Shares tab of a media item" }
 
 
 [To the top of the page ^](#media_center_items)
