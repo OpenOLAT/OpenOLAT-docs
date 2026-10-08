@@ -72,7 +72,7 @@ In den folgenden Fällen bleibt der Schalter unverändert:
 - Termine werden über "Termine importieren" oder über den [Import-Assistenten des Course Planners](../area_modules/Course_Planner_Import_Export.de.md#import_wizard) angelegt,
 - ein Termin wird im Tab "Termine" einer Durchführung bearbeitet und gespeichert oder kopiert.
 
-Schalten Sie die Termin- und Absenzenverwaltung in diesen Fällen von Hand ein. Termine, die Sie im Tab "Termine" einer Durchführung importieren, erhalten keinen Kurs, auch wenn die Durchführung einen Kurs hat: In den Terminlisten des Course Planners bleibt die Spalte "Kurs" leer. Soll ein Termin zum Kurs gehören, erstellen Sie ihn mit "Termin hinzufügen".
+Schalten Sie die Termin- und Absenzenverwaltung in diesen Fällen von Hand ein.
 
 Eingeschaltet wird nur der Schalter selbst; die übrigen Einstellungen dieses Abschnitts behalten ihre Vorgabewerte. Ausgeschaltet wird die Termin- und Absenzenverwaltung nur von Hand, auch dann, wenn alle Termine des Kurses gelöscht sind. Verwaltet ein externes System die Konfiguration der Termine und Absenzen dieses Kurses, ist der Schalter ausgegraut und OpenOlat ändert ihn nicht. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 

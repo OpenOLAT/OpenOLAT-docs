@@ -70,7 +70,7 @@ In the following cases, the switch stays unchanged:
 - events are created via "Import events" or via the [import wizard of the Course Planner](../area_modules/Course_Planner_Import_Export.md#import_wizard),
 - an event is edited and saved or copied in the "Events" tab of an implementation.
 
-In these cases, switch on the Event & absence management manually. Events that you import in the "Events" tab of an implementation receive no course, even if the implementation has a course: the "Course" column stays empty in the event lists of the Course Planner. If an event is to belong to the course, create it with "Add event".
+In these cases, switch on the Event & absence management manually.
 
 Only the switch itself is switched on; the other settings of this section keep their default values. The Event & absence management is switched off only manually, even if all events of the course have been deleted. If an external system manages the configuration of the events and absences of this course, the switch is greyed out and OpenOlat does not change it. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
