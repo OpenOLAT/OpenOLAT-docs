@@ -28,18 +28,15 @@ Verfügbar seit | Release 13.0 (OO-3706)
 
 ![Tab "Metadaten" aktiv, an erster Stelle der Tab-Leiste](assets/course_settings_tab_metadata_v2_de.png){ class="shadow lightbox" title="Tab Metadaten in den Kurseinstellungen · 2026.10.02" }
 
-Metadaten enthalten Schlagwörter, die den Kurs beschreiben. Anhand der Metadaten kann Ihr Kurs z.B. besser gefunden werden. Sie sind optional und müssen nicht zwingend ausgefüllt werden.
+Metadaten benennen den Kurs und ordnen ihn ein. Anhand der Metadaten kann Ihr Kurs z.B. besser gefunden werden. Pflicht ist nur der Titel.
 
 Metadaten eines Kurses sind
 
+* Titel
+* Kennzeichen (Eine externe Kennung, die in der Kursübersicht angezeigt wird. Z.B. die Bezeichnung aus dem Vorlesungsverzeichnis oder einem gedruckten Kurskatalog.)
 * Typ der Lernressource (in diesem Fall: Kurs)
-* ID-Nummer des Kurses
-* Ersteller des Kurses
-* Autor:innen / Namen der Lehrenden des Kurses
-* Fachbereiche (aus der Taxonomy)
-* Durchführungsformat (Blendend Learning, Selbststudium, ...)
-* Hauptsprache
-* geschätzter Zeitaufwand zur Bearbeitung
+* Durchführungsformat (Blended Learning, Selbststudium, ...)
+* Fachbereiche (aus der Taxonomie)
 * Lizenz
 
 [Zu den Details >](../learningresources/Course_Settings_Metadata.de.md)<br>
@@ -53,18 +50,14 @@ Metadaten eines Kurses sind
 
 Hier definieren Sie Informationen über den Kurs bzw. die Lernressource. Dazu zählen: 
 
-* Titel
-* Kennzeichen (Eine externe Kennung, die in der Kursübersicht angezeigt wird. Z.B. die Bezeichnung aus dem Vorlesungsverzeichnis oder einem gedruckten Kurskatalog.) 
+* Titelbild und Teaser-Film
 * Teaser (Textzeile/Begriff)
-* Kursbeschreibung
-* Beschreibung der Lernziele
-* Voraussetzungen
-* Anforderungen für eine Bescheinigung
-* Titelbild
-* Teaser-Film
+* Beschreibung
+* Fakten: Autor:innen / Durchführung mit, Hauptsprache und Zeitaufwand
+* Anzeigeeinstellungen: welche Abschnitte die Infoseite zeigt
+* Erweiterte Informationen: Lernziele, Voraussetzungen und Bescheinigung
 
-Diese Infos sind für Interessierte auch ohne Kurszugang unter (Kurs-)Info sichtbar. 
-Unter dem hier definierten Titel erscheint die Lernressource in der alphabetischen Kursliste und ist für Anfragen über die Suchmaske relevant.
+Diese Infos sind für Interessierte auch ohne Kurszugang auf der Infoseite sichtbar.
 
 [Mehr über das **Einrichten der Infoseite** >](../learningresources/Course_Settings_Info.de.md)<br>
 [Mehr über die **Inhalte der Infoseite** >](../learningresources/Info_page.de.md)<br>

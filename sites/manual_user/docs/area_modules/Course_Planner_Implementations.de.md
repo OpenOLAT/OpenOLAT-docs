@@ -26,7 +26,7 @@ Die Liste öffnet mit dem Tab "Relevant". Der Tab "Ausstehende Mitgliedschaften"
 
 Durchführungen anlegen, bearbeiten und löschen können Administrator:innen und Kursplaner:innen sowie Produktbesitzer:innen in ihren eigenen Produkten. Principals sehen die Durchführungen nur lesend. Die vollständige Übersicht zeigt die [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
 
-Je nach Ihren Rechten bietet das Menü der 3 Punkte am Ende einer Zeile Aktionen wie **Element kopieren**, **Mitgliederverwaltung**, **Export** und **Löschen**. Wie der Export funktioniert, beschreibt [Course Planner: Import / Export](Course_Planner_Import_Export.de.md#export_entry_points).
+Je nach Ihren Rechten bietet das Menü der 3 Punkte am Ende einer Zeile Aktionen wie "Element kopieren", "Mitgliederverwaltung", "Export" und "Löschen". Wie der Export funktioniert, beschreibt [Course Planner: Import / Export](Course_Planner_Import_Export.de.md#export_entry_points).
 
 ![Die Liste der Durchführungen mit dem geöffneten Filter Belegungsstatus: Anzahl nicht festgelegt, Mindestanzahl nicht erreicht oder erreicht, Freie Plätze verfügbar, Ausgebucht, Überbucht](assets/course_planner_implementations_list_v2_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner · 2026.09.30" }
 
@@ -38,7 +38,7 @@ Mit **Filter speichern** können häufig verwendete Filterkombinationen als eige
 
 ### Sammelaktion «Typ ändern» [:octicons-tag-16:{ title="ab Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
-Durch Aktivieren der Checkbox in der ersten Spalte markieren Sie mehrere Durchführungen. Oberhalb der Tabelle erscheint dann die Aktion **«Typ ändern»**, neben den Sammelaktionen **«To-dos erstellen»**, **«Export»** und **«Löschen»**. Im Dialog wählen Sie den neuen Elementtyp und bestätigen mit **«Typ ändern»**. Zur Wahl stehen nur Typen, die zu den markierten Elementen passen.
+Durch Aktivieren der Checkbox in der ersten Spalte markieren Sie mehrere Durchführungen. Oberhalb der Tabelle erscheint dann die Aktion "Typ ändern", neben den Sammelaktionen "To-dos erstellen", "Export" und "Löschen". Im Dialog wählen Sie den neuen Elementtyp und bestätigen mit "Typ ändern". Zur Wahl stehen nur Typen, die zu den markierten Elementen passen.
 
 Dieselbe Aktion steht in der Suche des Course Planners und im Tab «Struktur» einer Durchführung zur Verfügung.
 
@@ -80,11 +80,11 @@ Haben Sie in der Liste eine Durchführung gewählt und geöffnet, lassen sich in
 
 Wer eine Durchführung öffnet, sieht im Tab "Übersicht" auf einen Blick, wie es um Mitglieder, Termine, Kursinhalte, To-dos und Angebote im Katalog dieser Durchführung steht. Von jedem Widget gelangen Sie direkt in den zugehörigen Tab.
 
-Das Widget **Termine** erscheint nur, wenn das Modul **Termine und Absenzen** systemweit aktiv ist, eingeschaltet in der System-Administration unter `Administration > Module > Termine / Absenzen`. Das Widget **Katalog** erscheint nur auf der obersten Ebene einer Durchführung, nicht bei ihren untergeordneten Elementen, und nur bei eingeschaltetem Katalog.
+Das Widget "Termine" erscheint nur, wenn das Modul "Termine und Absenzen" systemweit aktiv ist, eingeschaltet in der System-Administration unter `Administration > Module > Termine / Absenzen`. Das Widget "Katalog" erscheint nur auf der obersten Ebene einer Durchführung, nicht bei ihren untergeordneten Elementen, und nur bei eingeschaltetem Katalog.
 
 Wie eine Übersichtsseite aufgebaut ist und wie Sie die Kacheln anordnen, ist einmal zentral beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
 
-Die Widgets **Kursinhalt** und **Katalog** bieten den Button **Details** [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, über den Sie direkt zum Tab Kursinhalt bzw. zum Tab Katalog gelangen.
+Die Widgets "Kursinhalt" und "Katalog" bieten den Button "Details" [:octicons-tag-16:{ title="ab Release 20.3 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"}, über den Sie direkt zum Tab Kursinhalt bzw. zum Tab Katalog gelangen.
 
 ![Das Widget Termine mit Wochenleiste, dem Termin des heutigen Tages und dem Button Alle anzeigen, daneben die Widgets Mitglieder, Kursinhalt mit dem Button Details und To-do](assets/course_planner_implementations_tab_overview_v3_de.png){ class="shadow lightbox" title="Tab Übersicht einer Durchführung · 2026.09.30" }
 
@@ -92,13 +92,13 @@ Die Widgets **Kursinhalt** und **Katalog** bieten den Button **Details** [:octic
 
 Das Widget **Termine** zeigt die Termine der laufenden Woche ab dem gewählten Tag, beim Öffnen ab heute, eingeschränkt auf diese Durchführung und ihre untergeordneten Elemente. Es erscheint nur, wenn das Modul **Termine und Absenzen** systemweit aktiv ist.
 
-Die Wochenleiste läuft von Montag bis Sonntag, ein Punkt unter der Tagesziffer markiert die Tage mit Terminen. Ein Klick auf einen Tag setzt den Startpunkt der Liste, ein Klick auf eine Zeile öffnet den Termin. Steht bis Sonntag kein Termin mehr an, erscheint der Hinweis **"Keine Termine bis Ende der Woche"** mit den Buttons **"Vorheriger Termin"** und **"Nächster Termin"**. Die vollständige Beschreibung des Widgets finden Sie unter [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
+Die Wochenleiste läuft von Montag bis Sonntag, ein Punkt unter der Tagesziffer markiert die Tage mit Terminen. Ein Klick auf einen Tag setzt den Startpunkt der Liste, ein Klick auf eine Zeile öffnet den Termin. Steht bis Sonntag kein Termin mehr an, erscheint der Hinweis "Keine Termine bis Ende der Woche" mit den Buttons "Vorheriger Termin" und "Nächster Termin". Die vollständige Beschreibung des Widgets finden Sie unter [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
 
 Über den Button **"Alle anzeigen"** gelangen Sie direkt zum Tab **Termine** dieser Durchführung.
 
 #### Mitglieder-Widget [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9243)" }](https://track.frentix.com/issue/OO-9243){:target="_blank"} {: #widget_members}
 
-Das Widget **Mitglieder** zeigt die Kennzahl **"Teilnehmer:innen"** dieser Durchführung, aufgeschlüsselt nach **"Aktiv"** und **"Ausstehend"**. Sind noch keine Kursverantwortlichen erfasst, zeigt das Widget den Hinweis "Noch keine Kursverantwortlichen." Über den Button **"Details"** gelangen Sie direkt zum Tab Mitglieder dieser Durchführung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
+Das Widget "Mitglieder" zeigt die Kennzahl "Teilnehmer:innen" dieser Durchführung, aufgeschlüsselt nach "Aktiv" und "Ausstehend". Sind noch keine Kursverantwortlichen erfasst, zeigt das Widget den Hinweis "Noch keine Kursverantwortlichen." Über den Button "Details" gelangen Sie direkt zum Tab Mitglieder dieser Durchführung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9405)" }](https://track.frentix.com/issue/OO-9405){:target="_blank"}
 
 ![Die Kennzahl Teilnehmer:innen mit Aktiv und Ausstehend sowie der Hinweis Noch keine Kursverantwortlichen](assets/course_planner_implementations_widget_members_v1_de.png){ class="shadow lightbox" title="Mitglieder-Widget im Tab Übersicht einer Durchführung" }
 
@@ -114,7 +114,7 @@ Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzli
 
 #### To-do-Widget [:octicons-tag-16:{ title="ab Release 21.0 (OO-9422)" }](https://track.frentix.com/issue/OO-9422){:target="_blank"} {: #widget_todos}
 
-Das Widget **To-do** zeigt Ihnen, welche Aufgaben in dieser Durchführung anstehen. Die Kennzahlen **Meine To-dos**, **Offen** und **Überfällig** führen je zur passenden Ansicht der To-dos. Über den Button **"Alle anzeigen"** gelangen Sie zum [Tab «To-dos»](Course_Planner_Todos.de.md#element_tab_todos) dieser Durchführung.
+Das Widget "To-do" zeigt Ihnen, welche Aufgaben in dieser Durchführung anstehen. Die Kennzahlen "Meine To-dos", "Offen" und "Überfällig" führen je zur passenden Ansicht der To-dos. Über den Button "Alle anzeigen" gelangen Sie zum [Tab «To-dos»](Course_Planner_Todos.de.md#element_tab_todos) dieser Durchführung.
 
 [zum Seitenanfang ^](#implementations)
 
@@ -138,7 +138,7 @@ Die Tabelle im Tab "Struktur" bietet folgende Funktionen:
 - **Absenzen**: In der folgenden Spalte finden Sie die Absenzen, vorausgesetzt, **Absenzmanagement** ist für das Element eingeschaltet, direkt in den Optionen der Einstellungen oder über den Elementtyp.
 - **Datenerhebungsvorschau**: Sind in der System-Administration das Modul "Qualitätsmanagement" und die "Datenerhebungsvorschau" eingeschaltet, können Sie bei jedem Element zur zugeordneten Datenerhebungsvorschau springen. Beides finden Sie unter: `Administration > Module > Qualitätsmanagement`.
 - **Lernfortschritt**: In dieser Spalte wird der durchschnittliche Fortschritt aller Teilnehmer:innen angezeigt. Berücksichtigt werden dabei alle Lernpfadkurse dieses Elements. Herkömmliche Kurse liefern keine Daten zum Lernfortschritt.
-- **3 Punkte**: Am Zeilenende finden Sie die Aktionen zu einem Element: **In neuem Tab öffnen**, **Bearbeiten**, **Element verschieben**, ein Eintrag zum Erstellen eines Unterelements, beschriftet mit dem Elementtyp (zum Beispiel **Neues Unterelement "Modul" erstellen**), **Element kopieren**, **Mitgliederverwaltung** und **Löschen**.
+- **3 Punkte**: Am Zeilenende finden Sie die Aktionen zu einem Element: "In neuem Tab öffnen", "Bearbeiten", "Element verschieben", ein Eintrag zum Erstellen eines Unterelements, beschriftet mit dem Elementtyp (zum Beispiel «Neues Unterelement "Modul" erstellen»), "Element kopieren", "Mitgliederverwaltung" und "Löschen".
 
 ![Das Menü der drei Punkte mit allen Aktionen zu einem Element, vom Öffnen in neuem Tab bis zum Löschen](assets/course_planner_implementations_tab_structure2_v2_de.png){ class="shadow lightbox" title="Menü der drei Punkte im Tab Struktur" }
 
@@ -242,7 +242,7 @@ In der Mitgliederliste zeigt ein Notiz-Symbol in der Spalte **"Teilnehmer:inkomm
 
 In der Mitgliederliste sehen Sie auch, unter welcher Nummer die Buchhaltung eine Person führt. Die Spalte **"Debitorennummer"** ist standardmässig ausgeblendet, Sie blenden sie über "Spalten auswählen" ein. Werte zeigt die Spalte nur, wenn die [Debitorennummer](../../manual_admin/administration/Modules_Organisations.de.md#customer_number) im Modul Organisationen eingeschaltet ist. Ist für eine Person eine Debitorennummer erfasst, zeigen auch die Details ihrer Mitgliedschaft die Nummer. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736){:target="_blank"}
 
-Wer wissen will, was eine Person beim Buchen angegeben hat, öffnet die Details ihrer Mitgliedschaft in der Mitgliederliste. Hat die Person ein Angebot mit [Formularen für Buchungsaufträge](#booking_order_forms) gebucht, zeigt die Detailansicht unterhalb der Buchungsaufträge den Abschnitt **Formulare für Buchungsaufträge**. Die Tabelle führt je Formular Titel, Kennzeichen, Schrittname, Buchungsauftrag, Status und Abgabedatum. Mit **Formular ansehen** öffnen Sie die Antworten, mit **Formular bearbeiten** korrigieren Sie sie, solange das Formular den Status "Offen" oder "Abgeschlossen" hat.
+Wer wissen will, was eine Person beim Buchen angegeben hat, öffnet die Details ihrer Mitgliedschaft in der Mitgliederliste. Hat die Person ein Angebot mit [Formularen für Buchungsaufträge](#booking_order_forms) gebucht, zeigt die Detailansicht unterhalb der Buchungsaufträge den Abschnitt "Formulare für Buchungsaufträge". Die Tabelle führt je Formular Titel, Kennzeichen, Schrittname, Buchungsauftrag, Status und Abgabedatum. Mit "Formular ansehen" öffnen Sie die Antworten, mit "Formular bearbeiten" korrigieren Sie sie, solange das Formular den Status "Offen" oder "Abgeschlossen" hat.
 
 ![Der Abschnitt Formulare für Buchungsaufträge unterhalb der Buchungsaufträge, mit zwei abgeschlossenen Formularen samt Schrittname, Buchungsauftrag und Abgabedatum](assets/course_planner_implementations_member_details_forms_v1_de.png){ class="shadow lightbox" title="Detailansicht einer Mitgliedschaft im Tab Mitglieder · 2026.09.28" }
 
@@ -264,9 +264,9 @@ Um Teilnehmer:innen zu einer Durchführung als Mitglieder hinzuzufügen, verwend
 
 ![Der Button Teilnehmer:innen hinzufügen rechts über der Mitgliederliste, mit dem der Assistent zur Aufnahme startet](assets/course_planner_implementations_add_member_v2_de.png){ class="shadow lightbox" title="Tab Mitglieder einer Durchführung · 2026.10.02" }
 
-Der Assistent führt durch die Schritte **Benutzersuche**, **Buchungsauftrag**, **Mitgliedschaft**, **Übersicht** und **Benachrichtigung**. Den Schritt **Buchungsauftrag** gibt es nur, wenn die Durchführung Angebote hat.
+Der Assistent führt durch die Schritte "Benutzersuche", "Buchungsauftrag", "Mitgliedschaft", "Übersicht" und "Benachrichtigung". Den Schritt "Buchungsauftrag" gibt es nur, wenn die Durchführung Angebote hat.
 
-Im Schritt **Buchungsauftrag** wählen Sie das Angebot, über das die Teilnehmer:innen aufgenommen werden. Verwendet dieses Angebot Formulare, folgt für jedes Formular ein eigener Schritt, beschriftet mit seinem Schrittnamen. Diese Schritte liegen zwischen den Schritten **Buchungsauftrag** und **Mitgliedschaft** und erscheinen, sobald Sie den Schritt **Buchungsauftrag** mit **Weiter** verlassen. Sie füllen die Formulare einmal aus, OpenOlat speichert die Antworten für jede ausgewählte Person an deren eigenem Buchungsauftrag. Die Option **Ohne Buchungsauftrag** erscheint nur, wenn die Durchführung im Tab Katalog auf [Ohne Buchungsauftrag zulässig](#tab_catalog_settings) steht. Mit dieser Option entsteht kein Buchungsauftrag, und es folgen keine Schritte für Formulare.
+Im Schritt "Buchungsauftrag" wählen Sie das Angebot, über das die Teilnehmer:innen aufgenommen werden. Verwendet dieses Angebot Formulare, folgt für jedes Formular ein eigener Schritt, beschriftet mit seinem Schrittnamen. Diese Schritte liegen zwischen den Schritten "Buchungsauftrag" und "Mitgliedschaft" und erscheinen, sobald Sie den Schritt "Buchungsauftrag" mit "Weiter" verlassen. Sie füllen die Formulare einmal aus, OpenOlat speichert die Antworten für jede ausgewählte Person an deren eigenem Buchungsauftrag. Die Option "Ohne Buchungsauftrag" erscheint nur, wenn die Durchführung im Tab Katalog auf [Ohne Buchungsauftrag zulässig](#tab_catalog_settings) steht. Mit dieser Option entsteht kein Buchungsauftrag, und es folgen keine Schritte für Formulare.
 
 ![Zwei Schritte für Formulare zwischen den Schritten Buchungsauftrag und Mitgliedschaft](assets/course_planner_implementations_add_member_forms_v1_de.png){ class="shadow lightbox" title="Schritt eines Formulars im Assistenten Teilnehmer:innen hinzufügen · 2026.10.02" }
 
@@ -324,7 +324,7 @@ Um potenzielle Teilnehmer:innen auf ein Angebot im Katalog aufmerksam zu machen,
 
 Im Abschnitt **Einstellungen** unter der Übersicht legen Sie fest, ob jede Teilnahme an dieser Durchführung über ein Angebot gebucht sein muss und wie weit vorne die Durchführung im Katalog erscheint.
 
-- **Buchung**: Die Einstellung legt fest, ob beim Hinzufügen von Teilnehmer:innen im Course Planner zwingend eine Buchung über ein Angebot nötig ist. Mit **Ohne Buchungsauftrag zulässig** (Standard) bietet der Assistent im Tab Mitglieder auch die Aufnahme ohne Angebot an. Mit **Buchungsauftrag erforderlich** fehlt diese Möglichkeit, jede Aufnahme läuft über ein Angebot. Die Einstellung gilt für die ganze Durchführung, nicht für ein einzelnes Angebot.
+- **Buchung**: Die Einstellung legt fest, ob beim Hinzufügen von Teilnehmer:innen im Course Planner zwingend eine Buchung über ein Angebot nötig ist. Mit "Ohne Buchungsauftrag zulässig" (Standard) bietet der Assistent im Tab Mitglieder auch die Aufnahme ohne Angebot an. Mit "Buchungsauftrag erforderlich" fehlt diese Möglichkeit, jede Aufnahme läuft über ein Angebot. Die Einstellung gilt für die ganze Durchführung, nicht für ein einzelnes Angebot.
 - **Katalog-Priorität bei Sortierung**: Die Priorität bestimmt, wie weit vorne ein Angebot im Katalog erscheint. Über den Button **Bearbeiten** neben dem Wert passen Sie sie an. Die Zeile erscheint nur, wenn die "Sortierung nach Priorität" in der System-Administration eingeschaltet ist: `Administration > Module > Katalog > Tab "Einstellungen"`. [Mehr zur Sortierung nach Priorität >](catalog2.0_sort_offers.de.md#sorting_microsites_define_priority)
 
 ![Die Auswahl Buchung mit Ohne Buchungsauftrag zulässig und Buchungsauftrag erforderlich, darunter die Katalog-Priorität bei Sortierung mit dem Button Bearbeiten](assets/course_planner_implementations_tab_catalog_settings_v1_de.png){ class="shadow lightbox" title="Abschnitt Einstellungen im Tab Katalog · 2026.09.28" }
@@ -342,7 +342,7 @@ Ein Formular kommt in zwei Stufen zum Einsatz. Zuerst fügen Sie es der Durchfü
 Den Abschnitt **Formulare für Buchungsaufträge** finden Sie unterhalb der Angebote:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Angebote > Button "Formular hinzufügen"`
 
-Zur Auswahl stehen Formular-Lernressourcen mit dem Verwendungszweck "Einbindung", auf die Sie im Autorenbereich zugreifen können. Der Dialog öffnet mit Ihren **Favoriten**; alle anderen Formulare finden Sie unter **Meine Einträge** oder **Suche**. Das gewählte Formular steht danach allen Angeboten der Durchführung zur Verfügung, verwendet wird es noch in keinem.
+Zur Auswahl stehen Formular-Lernressourcen mit dem Verwendungszweck "Einbindung", auf die Sie im Autorenbereich zugreifen können. Der Dialog öffnet mit Ihren "Favoriten"; alle anderen Formulare finden Sie unter "Meine Einträge" oder "Suche". Das gewählte Formular steht danach allen Angeboten der Durchführung zur Verfügung, verwendet wird es noch in keinem.
 
 ![Die Formulare mit Schrittname, Position je Angebot und den Zählern je Status, dazu Daten exportieren und Formular hinzufügen](assets/course_planner_implementations_tab_catalog_forms_v1_de.png){ class="shadow lightbox" title="Abschnitt Formulare für Buchungsaufträge im Tab Katalog · 2026.09.28" }
 
@@ -351,9 +351,9 @@ Die Tabelle führt je Formular:
 - **Titel** und **Kennzeichen** der Formular-Lernressource.
 - **Schrittname**: die Beschriftung, unter der das Formular beim Buchen als Schritt erscheint. Beim Hinzufügen übernimmt OpenOlat den Titel des Formulars. Ein Klick auf den Schrittnamen öffnet **Schrittname bearbeiten**; das Feld darf nicht leer bleiben.
 - **Angebot**: je Angebot der Durchführung eine Spalte, beschriftet mit der internen Bezeichnung des Angebots oder, wenn keine gesetzt ist, mit der Angebotsart. Verwendet das Angebot das Formular, steht dort seine Position.
-- **#Offen**, **#Abgeschlossen**, **#Storniert**: die Anzahl der Formulare je Status. "Offen" ist ein Formular, das zu einem Buchungsauftrag gehört, aber noch nicht ausgefüllt ist. "Abgeschlossen" ist ein ausgefülltes Formular. "Storniert" wird ein Formular, wenn sein Buchungsauftrag storniert wird.
+- **#Offen, #Abgeschlossen, #Storniert**: die Anzahl der Formulare je Status. "Offen" ist ein Formular, das zu einem Buchungsauftrag gehört, aber noch nicht ausgefüllt ist. "Abgeschlossen" ist ein ausgefülltes Formular. "Storniert" wird ein Formular, wenn sein Buchungsauftrag storniert wird.
 
-Die Ansichten **Verwendet** und **Nicht verwendet** grenzen die Liste auf Formulare ein, die mindestens ein Angebot verwendet oder keines. Unter den 3 Punkten am Zeilenende öffnet **Formular öffnen** die Formular-Lernressource, **Formular entfernen** nimmt das Formular aus der Durchführung.
+Die Ansichten "Verwendet" und "Nicht verwendet" grenzen die Liste auf Formulare ein, die mindestens ein Angebot verwendet oder keines. Unter den 3 Punkten am Zeilenende öffnet "Formular öffnen" die Formular-Lernressource, "Formular entfernen" nimmt das Formular aus der Durchführung.
 
 ##### Formular im Angebot verwenden {: #booking_order_forms_offer}
 
@@ -361,7 +361,7 @@ Damit ein Formular beim Buchen verlangt wird, schalten Sie es im Angebot ein. Ö
 
 - **Verwenden**: Der Schalter nimmt das Formular in dieses Angebot auf. Er steht zunächst auf aus.
 - **Position**: Mit den Pfeilen bestimmen Sie die Reihenfolge der verwendeten Formulare und damit die Reihenfolge der Schritte beim Buchen.
-- **Titel**, **Kennzeichen** und **Schrittname** dienen der Orientierung. Den Schrittnamen ändern Sie in der Tabelle der Durchführung.
+- **Titel, Kennzeichen und Schrittname** dienen der Orientierung. Den Schrittnamen ändern Sie in der Tabelle der Durchführung.
 
 OpenOlat übernimmt die Änderungen, wenn Sie das Angebot speichern.
 
@@ -403,7 +403,7 @@ Wurden im Katalog Angebote mit Buchungsmöglichkeit ergänzt, sind die Buchungsa
 
 Die Tabs "Alle", "Offen", "Erledigt", "Bezahlt", "Storniert" und "Fehler" sowie die Filter "Status", "Angebotstyp" und "Angebot" grenzen die Liste ein. Ist die Angebotsart Rechnung verfügbar, kommen die Tabs "Angepasster Preis" und "Adressvorschlag" dazu. Mit **Buchungsaufträge herunterladen** erhalten Sie die Buchungsaufträge der Durchführung als Excel-Datei. Sie enthält dieselben Spalten wie der [Report Buchungsaufträge](Reports_BookingOrders.de.md), bei eingeschalteter Debitorennummer also auch die drei Spalten zur Debitorennummer.
 
-Das Menü am Ende einer Zeile bietet je nach Status des Auftrags andere Aktionen. Bei einem offenen Auftrag mit Preis sind das **Auf "Bezahlt" setzen** und **Preis ändern**, bei einem bezahlten **Auf "Offen" setzen**. Liegt eine Rechnungsadresse oder ein Adressvorschlag vor, ändern Sie bei einem offenen Auftrag mit **Rechnungsadresse ändern** die Adresse. **Buchungsauftrag ausbuchen** steht bei jedem offenen Auftrag zur Verfügung, **Stornogebühr ändern** bei einem stornierten Auftrag mit Stornogebühr.
+Das Menü am Ende einer Zeile bietet je nach Status des Auftrags andere Aktionen. Bei einem offenen Auftrag mit Preis sind das «Auf "Bezahlt" setzen» und "Preis ändern", bei einem bezahlten «Auf "Offen" setzen». Liegt eine Rechnungsadresse oder ein Adressvorschlag vor, ändern Sie bei einem offenen Auftrag mit "Rechnungsadresse ändern" die Adresse. "Buchungsauftrag ausbuchen" steht bei jedem offenen Auftrag zur Verfügung, "Stornogebühr ändern" bei einem stornierten Auftrag mit Stornogebühr.
 
 ![Der Button Buchungsaufträge herunterladen, Tabs und Filter nach Status, Angebotstyp und Angebot, dazu ein Notiz-Symbol für den Kommentar der Teilnehmer:in](assets/course_planner_implementations_tab_catalog2_v2_de.png){ class="shadow lightbox" title="Teilbereich Buchungsaufträge im Tab Katalog · 2026.09.30" }
 
@@ -428,19 +428,25 @@ Alles, was eine Durchführung beschreibt und steuert, legen Sie in den Unter-Tab
 
 Die hier eingegebenen Metadaten werden verwendet um z.B. Suchprozesse zu vereinfachen.
 
-Pflichtfelder sind **Titel**, **Kennzeichen** und **Typ**. Bei einer Durchführung kommt das **Durchführungsformat** dazu. Sind für den Course Planner Taxonomien hinterlegt, ordnen Sie über **Durchsuchen** Fachbereiche zu; bei eingeschaltetem Katalog heisst das Feld einer Durchführung **Fachbereiche / Katalog**. Administrator:innen sehen zusätzlich die **ID** des Elements, im Formular und im Kopfbereich der Einstellungen.
+Pflichtfelder sind "Titel", "Kennzeichen" und "Typ". Bei einer Durchführung kommt das "Durchführungsformat" dazu. Sind für den Course Planner Taxonomien hinterlegt, ordnen Sie über "Durchsuchen" Fachbereiche zu; bei eingeschaltetem Katalog heisst das Feld einer Durchführung "Fachbereiche / Katalog". Administrator:innen sehen zusätzlich die "ID" des Elements, im Formular und im Kopfbereich der Einstellungen.
 
 ![Die Pflichtfelder Titel, Kennzeichen und Typ sowie die Felder Durchführungsformat und Fachbereiche / Katalog](assets/course_planner_implementations_tab_settings_metadata_v2_de.png){ class="shadow lightbox" title="Unter-Tab Metadaten der Einstellungen einer Durchführung · 2026.09.30" }
 
 
-#### Infos in den Einstellungen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"}
+#### Infos in den Einstellungen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"} {: #tab_settings_infos}
 
-Die im Tab "Infos" gemachten Angaben werden z.B. für die Anzeige im Katalog verwendet. Bei einer Durchführung umfasst der Tab folgende Angaben, bei einem untergeordneten Element nur das Titelbild:
+Mit den Angaben im Tab "Infos" bestimmen Sie, wie sich die Durchführung im Katalog und auf ihrer Infoseite zeigt. Der Tab ist gleich aufgebaut wie der [Tab "Info" eines Kurses](../learningresources/Course_Settings_Info.de.md), dort sind die einzelnen Felder beschrieben. Bei einer Durchführung umfasst der Tab folgende Angaben, bei einem untergeordneten Element nur das Titelbild:
 
-- **Titelbild (jpg,png,gif)**, der Schalter **Mit Teaser-Film**, **Teaser** und **Beschreibung**.
-- Abschnitt **Fakten**: **Autor:innen / Durchführung mit**, **Hauptsprache** und **Zeitaufwand**.
-- Abschnitt **Anzeigeeinstellungen**: Unter **Auf Infoseite anzeigen** wählen Sie, ob die Infoseite **Termine**, **Lernen Sie Ihre Dozent:innen kennen**, **Zertifikat** und **Kreditpunkte** zeigt; lässt der Elementtyp Unterelemente zu, steht zusätzlich **Gliederung** zur Wahl, **Kreditpunkte** nur bei aktiven Kreditpunkten. Ist **Lernen Sie Ihre Dozent:innen kennen** gewählt, legen Sie unter **Als Dozenten angezeigte Mitglieder** fest, wer als Dozent:in erscheint: **Dozierende der Termine**, **Betreuer:innen** oder **Kursbesitzer:innen**.
-- Aufklappbarer Abschnitt **Details**: **Lernziele**, **Voraussetzungen** und **Bescheinigung**.
+- "Titelbild (jpg,png,gif)", der Schalter "Mit Teaser-Film", "Teaser" und "Beschreibung".
+- Abschnitt **Fakten**: "Autor:innen / Durchführung mit", "Hauptsprache" und "Zeitaufwand".
+- Abschnitt **Anzeigeeinstellungen**: Unter "Auf Infoseite anzeigen" wählen Sie, ob die Infoseite "Gliederung", "Termine", "Lernen Sie Ihre Dozent:innen kennen", "Zertifikat" und "Kreditpunkte" zeigt. Ist "Lernen Sie Ihre Dozent:innen kennen" gewählt, legen Sie unter "Als Dozenten angezeigte Mitglieder" fest, wer als Dozent:in erscheint: "Dozierende der Termine", "Betreuer:innen" oder "Kursbesitzer:innen". Mindestens eine Rolle ist dann Pflicht, die Zahl in Klammern nennt, wie viele Personen die Durchführung in dieser Rolle hat.
+- Aufklappbarer Abschnitt **Erweiterte Informationen**: "Lernziele", "Voraussetzungen" und "Bescheinigung".
+
+In den Anzeigeeinstellungen unterscheidet sich die Durchführung in drei Punkten vom Kurs:
+
+- **Gliederung**: Die Option zeigt auf der Infoseite den Aufbau der Durchführung mit ihren Elementen. Sie steht zur Wahl, wenn der Elementtyp Unterelemente zulässt. Ein Kurs hat diese Option nicht.
+- **Kreditpunkte**: Die Option steht zur Wahl, sobald Administrator:innen die [Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) eingeschaltet haben; "Termine" und "Zertifikat" stehen immer zur Wahl. Ist "Kreditpunkte" gewählt, erscheint darunter das Pflichtfeld "Kreditpunkte": Dort geben Sie die Anzahl ein und wählen das Kreditpunktesystem.
+- **Standardeinstellungen**: Eine neue Durchführung startet mit den [Standardeinstellungen aus dem Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md#default_settings). Wählen Sie "Lernen Sie Ihre Dozent:innen kennen" neu aus, sind die dort festgelegten Rollen vorgewählt.
 
 ![Die Angaben für die Infoseite: Titelbild, Teaser und Beschreibung, die Fakten Hauptsprache und Zeitaufwand, die Anzeigeeinstellungen und die Details Lernziele, Voraussetzungen und Bescheinigung](assets/course_planner_implementations_tab_settings_infos_v2_de.png){ class="shadow lightbox" title="Unter-Tab Infos der Einstellungen · 2026.09.30" }
 
@@ -572,13 +578,13 @@ Die Aktion **"Element kopieren"** finden Sie in der Liste der Durchführungen am
 
 ![Die Aktion Element kopieren im Menü der drei Punkte am Ende einer Zeile, mit der der Kopier-Assistent startet](assets/course_planner_implementations_copy1_v2_de.png){ class="shadow lightbox" title="Liste der Durchführungen · 2026.09.30" }
 
-Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder, To-dos und Raumbuchungen kopiert werden sollen. Unter **Titel** und **Kennzeichen** schlägt der Wizard die Angaben der Vorlage mit dem Zusatz "(Kopie)" vor.
+Im ersten Schritt des kleinen Wizards kann gewählt werden, ob auch Kursinhalte, Termine, Mitglieder, To-dos und Raumbuchungen kopiert werden sollen. Unter **Titel** und **Kennzeichen** schlägt der Wizard die Angaben der Vorlage mit dem Zusatz "(Kopie)" vor. Die [Anzeigeeinstellungen](#tab_settings_infos) übernimmt die Kopie von der Vorlage, nicht aus den Standardwerten der Administration.
 
-- **Kursinhalt**: **Kopieren** verwendet ein vorhandenes Template wieder und kopiert die Termine; ist kein Template vorhanden, wird der Kurs kopiert. **Wiederverwenden** teilt den Kurs mit anderen Durchführungen oder verwendet das Template wieder. **Nicht kopieren** übernimmt keine Kursinhalte.
-- **Eigenständige Termine**: Termine ohne Kurs werden mit **Kopieren** übernommen, mit **Nicht kopieren** nicht.
+- **Kursinhalt**: "Kopieren" verwendet ein vorhandenes Template wieder und kopiert die Termine; ist kein Template vorhanden, wird der Kurs kopiert. "Wiederverwenden" teilt den Kurs mit anderen Durchführungen oder verwendet das Template wieder. "Nicht kopieren" übernimmt keine Kursinhalte.
+- **Eigenständige Termine**: Termine ohne Kurs werden mit "Kopieren" übernommen, mit "Nicht kopieren" nicht.
 - **To-dos** und **Raumplanung**: siehe [To-dos beim Kopieren übernehmen](#copy_todos) und [Raumbuchungen beim Kopieren übernehmen](#copy_rooms).
-- **Betreuer:innen**: **Standard** kopiert die Mitgliedschaften und die Zuordnungen zu Terminen, **Nur Mitgliedschaft** nur die Mitgliedschaften, **Nicht kopieren** keine.
-- **Klassenlehrer:innen / Kursbesitzer:innen / Elementbesitzer:innen**: **Inklusive Mitgliedschaft** kopiert die Mitgliedschaften, **Nicht kopieren** keine.
+- **Betreuer:innen**: "Standard" kopiert die Mitgliedschaften und die Zuordnungen zu Terminen, "Nur Mitgliedschaft" nur die Mitgliedschaften, "Nicht kopieren" keine.
+- **Klassenlehrer:innen / Kursbesitzer:innen / Elementbesitzer:innen**: "Inklusive Mitgliedschaft" kopiert die Mitgliedschaften, "Nicht kopieren" keine.
 
 ![Titel und Kennzeichen der Kopie, Optionen für Kursinhalt, eigenständige Termine, To-dos, Raumplanung und Mitgliedschaften](assets/course_planner_implementations_copy2_v3_de.png){ class="shadow lightbox" title="Schritt Allgemeine Einstellungen des Assistenten Element kopieren" }
 
@@ -604,7 +610,7 @@ Wer eine Durchführung kopiert, übernimmt ihre To-dos in die Kopie und muss sie
 * **Nur To-dos:** To-dos ohne Zuweisungen kopieren.
 * **Nicht kopieren:** To-dos werden nicht kopiert.
 
-Mit **Standard** übernimmt die Kopie auch die Einträge unter «Zugewiesen» und «Delegiert». Die eingetragenen Personen erhalten je Kopie eine einzige E-Mail, nicht eine je To-do: bei mehreren To-dos die E-Mail «Neue To-dos» mit einer Zeile und einem Link je To-do, bei genau einem To-do die E-Mail «Neues To-do». Bei mehr als 20 To-dos zeigt die E-Mail die ersten 20 und darunter die Zeile «… und N weitere». OpenOlat verschickt die E-Mails erst, wenn die Kopie abgeschlossen ist; bricht die Kopie ab, geht keine E-Mail los. Wer beim Kopieren keine E-Mails auslösen will, wählt **Nur To-dos** oder **Nicht kopieren**; mit **Nur To-dos** entstehen die To-dos ohne Einträge unter «Zugewiesen» und «Delegiert», und Sie weisen sie danach von Hand zu. Ein im Schritt «Übersicht Elemente» abgewähltes To-do wird nicht kopiert und erscheint in keiner E-Mail. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
+Mit "Standard" übernimmt die Kopie auch die Einträge unter "Zugewiesen" und "Delegiert". Die eingetragenen Personen erhalten je Kopie eine einzige E-Mail, nicht eine je To-do: bei mehreren To-dos die E-Mail "Neue To-dos" mit einer Zeile und einem Link je To-do, bei genau einem To-do die E-Mail "Neues To-do". Bei mehr als 20 To-dos zeigt die E-Mail die ersten 20 und darunter die Zeile "… und N weitere". OpenOlat verschickt die E-Mails erst, wenn die Kopie abgeschlossen ist; bricht die Kopie ab, geht keine E-Mail los. Wer beim Kopieren keine E-Mails auslösen will, wählt "Nur To-dos" oder "Nicht kopieren"; mit "Nur To-dos" entstehen die To-dos ohne Einträge unter "Zugewiesen" und "Delegiert", und Sie weisen sie danach von Hand zu. Ein im Schritt "Übersicht Elemente" abgewähltes To-do wird nicht kopiert und erscheint in keiner E-Mail. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
 
 Ausnahmen, etwa für die Person, die kopiert und selbst eingetragen ist, beschreibt der Abschnitt [Wann OpenOlat E-Mails zu To-dos verschickt](../basic_concepts/To_Dos_Basics.de.md#notifications).
 
@@ -628,7 +634,7 @@ Die Auswahl ist nur aktiv, wenn überhaupt Termine kopiert werden, also wenn bei
 
 Die Kopie übernimmt den Raum der ursprünglichen Buchung. Der Zeitraum der Buchung folgt dem kopierten Termin: Verschieben Sie mit **«Alle Daten schieben»** die Termine, verschieben sich die Buchungen mit. OpenOlat prüft beim Kopieren nicht, ob der Raum im neuen Zeitraum noch frei ist. Konflikte wie eine Doppelbuchung erscheinen erst danach als Warnung in der [Raumplanung](Course_Planner_Rooms.de.md#room_scheduling).
 
-Im Schritt **«Übersicht Elemente»** erscheint bei aktivem Modul und gewählter Option «Kopieren» zusätzlich die Spalte **"#Räume"**; klappen Sie ein Element auf, führt die Tabelle «Termine» dort auch die Spalte **"Räume"** mit den gebuchten Räumen. Mit «Nicht kopieren» fehlen beide Spalten.
+Im Schritt "Übersicht Elemente" erscheint bei aktivem Modul und gewählter Option "Kopieren" zusätzlich die Spalte "#Räume"; klappen Sie ein Element auf, führt die Tabelle "Termine" dort auch die Spalte "Räume" mit den gebuchten Räumen. Mit "Nicht kopieren" fehlen beide Spalten.
 
 Die Aktion **«Element kopieren»** steht Administrator:innen, Kursplaner:innen und Produktbesitzer:innen zur Verfügung. Die vollständige Übersicht finden Sie in der [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
 
@@ -672,6 +678,8 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Katalog 2.0 - Sortierung/Reihenfolge >](catalog2.0_sort_offers.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>
 [Reports: Buchungsaufträge >](Reports_BookingOrders.de.md)<br>
+[Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
+[e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>

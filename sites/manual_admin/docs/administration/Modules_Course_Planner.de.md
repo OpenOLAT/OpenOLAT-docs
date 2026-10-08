@@ -6,14 +6,18 @@
 Das Modul Course Planner ist optional an Stelle des Moduls Curriculum in OpenOlat verfügbar und muss in der Administration aktiviert werden.
 
 !!! tip "Hosting-Kunden von frentix"
-	 Wenden Sie sich für die Aktivierung bitte an [contact@frentix.com](mailto:contact@frentix.com). <br> Nach der Aktivierung kann zusätzlich die Anzeige des persönlichen Curriculums («Lehrgänge») im Bereich «Kurse» aktiviert werden.
+	 Wenden Sie sich für die Aktivierung bitte an [contact@frentix.com](mailto:contact@frentix.com). <br> Nach der Aktivierung können die Produkte zusätzlich im Bereich «Kurse» angezeigt werden, siehe [Produkte in "Kurse"](#product_in_my_courses).
 
 
-### Tab Course Planner {: #tab_course_planner}
+[Zum Seitenanfang ^](#module_course_planner)
 
-![Schalter zum Einschalten des Course Planners, Produkt in "Meine Kurse" und die Auswahl der Angaben in der Benutzer:innen-Übersicht, im Tab Course Planner der System-Administration](assets/modules_course_planner_config_v1_de.png){ class="shadow lightbox" title="Tab Course Planner in der System-Administration" }
+---
 
-Zwei Schalter in diesem Tab bestimmen, wo Produkte und Durchführungen erscheinen: «Produkt in "Meine Kurse"» und die «Benutzer:innen-Übersicht». Fünf Einstiege öffnen dieselbe Liste:
+## Tab Einstellungen {: #tab_course_planner}
+
+Im Tab "Einstellungen" schalten Administrator:innen den Course Planner ein und legen fest, mit welchen Voreinstellungen neue Kurse und Durchführungen starten. Sie finden ihn in der System-Administration unter: `Administration > Module > Course Planner`. Neben "Einstellungen" erscheinen die Tabs "Kursplaner:in" und "Elementtypen", sobald das Modul eingeschaltet ist.
+
+Fünf Einstiege öffnen dieselbe Liste der Produkte und Durchführungen:
 
 * `Kurse > Bildungsprodukte` für Teilnehmer:innen
 * `Coaching > Bildungsprodukte` für Betreuer:innen und Kursbesitzer:innen
@@ -21,41 +25,74 @@ Zwei Schalter in diesem Tab bestimmen, wo Produkte und Durchführungen erscheine
 * derselbe Weg `Coaching > Personen > "Person" > Bildungsprodukte` als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r
 * `Benutzerverwaltung > "Person" > Bildungsprodukte` für Benutzerverwalter:innen, Rollenverwalter:innen, Administrator:innen und Principals
 
-Der Schalter «Produkt in "Meine Kurse"» schaltet den Einstieg unter `Kurse > Bildungsprodukte` ein oder aus. Die «Benutzer:innen-Übersicht» bestimmt, was Linienvorgesetzte und Ausbildungsverantwortliche unter `Coaching > Personen > "Person"` sehen.
+Den ersten Einstieg, `Kurse > Bildungsprodukte`, schaltet die Option [Produkte in "Kurse"](#product_in_my_courses) ein oder aus.
 
 ![Fünf Einstiege führen auf dieselbe Liste der Durchführungen, ein Klick auf den Titel öffnet ihre Struktur.](assets/modules_course_planner_entry_points_v1_de.svg){ class="shadow lightbox" title="Einstiege in die Liste der Durchführungen" }
 
-#### Course Planner einschalten {: #enable_course_planner }
+### Moduleinstellungen {: #module_settings}
 
-Mit dieser Checkbox wird das gesamte Modul aktiviert.
+#### Modul "Course Planner" {: #enable_course_planner }
 
-#### Produkt in "Meine Kurse" {: #product_in_my_courses }
+Dieser Schalter schaltet das gesamte Modul ein oder aus. Ist er ausgeschaltet, blendet OpenOlat die übrigen Einstellungen dieses Tabs und die Tabs "Kursplaner:in" und "Elementtypen" aus.
 
-Alle Teilnehmer:innen finden in der Hauptnavigation den Bereich "Kurse". In diesem Bereich können den Teilnehmer:innen ebenfalls Produkte angezeigt werden.
+#### Produkte in "Kurse" {: #product_in_my_courses }
 
-#### Benutzer:innen-Übersicht {: #user_overview }
+Alle Teilnehmer:innen finden in der Hauptnavigation den Bereich "Kurse". Ist die Option «Produkte in "Kurse"» unter "Option aktivieren" gewählt, zeigt dieser Bereich den Teilnehmer:innen auch ihre Produkte.
 
-Hier bestimmen Sie als Administrator:in, welche Optionen die Rollen Kursplaner:in, Ausbildungsverantwortliche:r und Linienvorgesetzte:r angezeigt bekommen. Also was eine mit dem Course Planner arbeitende Person von den Teilnehmenden sehen darf. Zu jedem Bereich lassen sich einzelne Angaben separat freigeben, etwa Kursfortschritt und Status, Termine und Absenzen, Leistungsnachweise, Badges, Buchungen oder der Zugriff auf den Qualitätsmanagementreport.
+### Konfiguration {: #configuration_section}
 
 #### Verknüpfte Taxonomien {: #linked_taxonomies }
 
 Von den im Modul "Taxonomie" erstellten Taxonomien können hier diejenigen ausgewählt werden, die auch im Course Planner verfügbar sein sollen.
 
-**Hinweis:**<br>
-Die hier gewählten Taxonomien sollten die gleichen sein, wie die im Katalog verwendeten. Nur dann kann im Katalog auch nach diesen Taxonomien gesucht werden.
+!!! tip "Tipp"
 
-#### Standardmässiger Verwendungszweck für neue Kurse {: #default_purpose_new_courses }
+    Die hier gewählten Taxonomien sollten die gleichen sein, wie die im Katalog verwendeten. Nur dann kann im Katalog auch nach diesen Taxonomien gesucht werden.
+
+### Standardeinstellungen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"} {: #default_settings}
+
+Wer viele Kurse und Durchführungen anlegt, legt hier einmal fest, womit sie starten, statt jede einzeln nachzuziehen. Die Standardwerte gelten für Kurse und Durchführungen, die nach der Änderung neu angelegt werden.
+
+#### Verwendungszweck für neue Kurse {: #default_purpose_new_courses }
 
 Kurse können für eigenständige Verwendung oder zur Einbindung in ein Produkt vorgesehen werden. Als Administrator:in legen Sie hier fest, welche Verwendung standardmässig voreingestellt ist.
 
 * **Eigenständig**: Ein eigenständiger Kurs besitzt eine Mitgliederverwaltung. Der Zugang kann mit der Angebotsart "Privat" durch Eintragung als Mitglied (z.B. durch Kursbesitzer:innen), durch Vergabe eines Zugangscodes oder über eine Veröffentlichung im Katalog erfolgen.
 * **Verwendung im Course Planner**: Wird der Kurs in ein Produkt eingebunden, werden die Mitgliedschaften durch den Course Planner vergeben und verwaltet. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
 
-![Die Einstellung «Standardmässiger Verwendungszweck für neue Kurse» mit den Karten Eigenständig und Verwendung im Course Planner, im Menüpunkt Course Planner der System-Administration](assets/modules_course_planner_usage_v1_de.png){ class="shadow lightbox" title="Tab Course Planner in der System-Administration" }
+![Auswahl zwischen den Karten Eigenständig und Verwendung im Course Planner, mit Verwendung im Course Planner gewählt](assets/modules_course_planner_usage_v1_de.png){ class="shadow lightbox" title="Tab Course Planner in der System-Administration" }
 
 !!! tip "Tipp"
 
-    Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Standard-Verwendungszweck für neue Kurse in der System-Administration unter `Administration > Module > Course Planner` auf "Verwendung im Course Planner" einzustellen.
+    Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Verwendungszweck für neue Kurse in der System-Administration unter `Administration > Module > Course Planner` auf "Verwendung im Course Planner" einzustellen.
+
+#### Auf Infoseite anzeigen {: #default_display_on_info_page}
+
+Hier legen Sie fest, welche Abschnitte die Infoseite einer neuen Durchführung zeigt: "Gliederung", "Termine", "Lernen Sie Ihre Dozent:innen kennen" und "Zertifikat". Ab Werk sind alle vier Optionen gewählt. Für "Kreditpunkte" gibt es keinen Standardwert, die Option wird an jeder Durchführung einzeln gewählt.
+
+"Lernen Sie Ihre Dozent:innen kennen" gilt für neue Durchführungen als gewählt, solange unter "Als Dozenten angezeigte Mitglieder" mindestens eine Rolle gewählt ist. Sollen neue Durchführungen ohne diesen Abschnitt starten, wählen Sie dort keine Rolle.
+
+#### Als Dozenten angezeigte Mitglieder {: #default_taught_by}
+
+Hier legen Sie fest, welche Rollen eine neue Durchführung im Abschnitt "Lernen Sie Ihre Dozent:innen kennen" zeigt: "Dozierende der Termine", "Betreuer:innen" oder "Kursbesitzer:innen". Dieselben Rollen sind vorgewählt, wenn jemand an einer bestehenden Durchführung "Lernen Sie Ihre Dozent:innen kennen" neu auswählt. Ab Werk sind "Dozierende der Termine" und "Betreuer:innen" gewählt.
+
+!!! info "Standardwerte für die Infoseite wirken nur auf neue Durchführungen"
+
+    Die beiden Standardwerte für die Infoseite gelten für Durchführungen und Elemente, die nach der Änderung angelegt werden. Bestehende Durchführungen behalten ihre eigene Einstellung, und eine Kopie übernimmt die Einstellung der Vorlage. Kurse übernehmen diese Werte nicht, ihre Standardwerte für die Infoseite legen Sie im [Modul Kurs](Modules_Course.de.md#default_settings) fest.
+
+Wie die Anzeigeeinstellungen einer einzelnen Durchführung geändert werden, beschreibt [Course Planner: Durchführungen](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_infos).
+
+[Zum Seitenanfang ^](#module_course_planner)
+
+---
+
+## Tab Kursplaner:in {: #tab_course_planner_role}
+
+Im Tab "Kursplaner:in" stehen die Rechte der Organisationsrolle Kursplaner:in. Der Tab zeigt oben die "Organisationsrolle" mit dem festen Wert "Kursplaner:in", darunter die Liste der Rechte. Er erscheint, sobald das Modul eingeschaltet ist.
+
+#### Rechte {: #user_overview }
+
+Zu jedem Bereich lassen sich einzelne Angaben separat freigeben, etwa Kursfortschritt und Status, Termine und Absenzen, Leistungsnachweise, Badges, Buchungen oder der Zugriff auf den Qualitätsmanagementreport.
 
 [Zum Seitenanfang ^](#module_course_planner)
 
@@ -64,7 +101,7 @@ Kurse können für eigenständige Verwendung oder zur Einbindung in ein Produkt 
 
 ### Übersicht der Elementtypen [:octicons-tag-16:{ title="ab Release 21.0 (OO-8924)" }](https://track.frentix.com/issue/OO-8924){:target="_blank"} {: #element_types_overview}
 
-Elementtypen definieren, welche Elemente ein Produkt enthalten kann und geben diesen Elementen eine Bedeutung. Beim Anlegen der Elementtypen kann eine hierarchische Struktur abgebildet werden. **Ein Beispiel** für ein hierarchisches Produkt: **von** *Lehrgang* **zu** *Semester* **zu** *Modul* **zu** *Kurs*.
+Elementtypen definieren, welche Elemente ein Produkt enthalten kann und geben diesen Elementen eine Bedeutung. Beim Anlegen der Elementtypen kann eine hierarchische Struktur abgebildet werden. Ein Beispiel für ein hierarchisches Produkt: Ein Lehrgang enthält Semester, ein Semester enthält Module, ein Modul enthält Kurse.
 
 Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird über das :fontawesome-regular-pen-to-square:-Symbol bearbeitet. Über den 3-Punkte-Link kann der Typ kopiert oder gelöscht werden.
 
@@ -92,7 +129,7 @@ Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird �
 
 ### Elementtyp erstellen und bearbeiten {: #create_element_types}
 
-Zwei Buttons legen neue Elementtypen an: **«Typ für Durchführung erstellen»** und **«Typ für Element erstellen»**. Die Wahl des Buttons bestimmt die Verwendung des Typs und lässt sich im Dialog nicht mehr ändern. Einen bestehenden Typ öffnen Sie über das :fontawesome-regular-pen-to-square:-Symbol.
+Zwei Buttons legen neue Elementtypen an: «Typ für Durchführung erstellen» und «Typ für Element erstellen». Die Wahl des Buttons bestimmt die Verwendung des Typs und lässt sich im Dialog nicht mehr ändern. Einen bestehenden Typ öffnen Sie über das :fontawesome-regular-pen-to-square:-Symbol.
 
 ![Der Dialog «Typ für Durchführung erstellen» mit Titel, Kennzeichen, Beschreibung, den Features und der Konfiguration von Unterelementen und Inhalt, in der System-Administration](assets/modules_course_planner_element_type_create_v1_de.png){ class="shadow lightbox" title="Dialog Typ für Durchführung erstellen" }
 
@@ -117,7 +154,7 @@ Erklärender Text zum Elementtyp.
 !!! note "CSS class"
 	Über das Feld "CSS class" hinterlegen Sie ein eigenes Layout für Elemente dieses Typs. Bei Interesse an eigenen Layouts wenden Sie sich an frentix: [contact@frentix.com](mailto:contact@frentix.com).
 
-Im Abschnitt **Konfiguration** legen Sie die Struktur fest:
+Im Abschnitt «Konfiguration» legen Sie die Struktur fest:
 
 ### Konfiguration {: #configuration }
 
@@ -161,7 +198,7 @@ Für jeden Elementtyp lassen sich Automatisierungsregeln hinterlegen. Diese Rege
 
 **Automatisierungsregeln konfigurieren**
 
-Öffnen Sie den gewünschten Elementtyp über das :fontawesome-regular-pen-to-square:-Symbol und wechseln Sie zum Tab **«Automatisierung»**. Über **«Automatisierungsregel hinzufügen»** fügen Sie neue Regeln hinzu.
+Öffnen Sie den gewünschten Elementtyp über das :fontawesome-regular-pen-to-square:-Symbol und wechseln Sie zum Tab «Automatisierung». Über «Automatisierungsregel hinzufügen» fügen Sie neue Regeln hinzu.
 
 ![Abschnitt Automatisierung im Dialog eines Elementtyps: Schalter, Filter und Regeltabelle mit Kontext, Zielstatus und Bedingung, im Tab Elementtypen der System-Administration](assets/modules_course_planner_element_type_automation_v1_de.png){ class="shadow lightbox" title="Tab Automatisierung eines Elementtyps" }
 
@@ -190,6 +227,7 @@ Wie der Assistent die Datei Schritt für Schritt prüft und was er anlegt oder �
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Modul Kurs >](Modules_Course.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
 [Course Planner: Import/Export - Referenz >](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.de.md)

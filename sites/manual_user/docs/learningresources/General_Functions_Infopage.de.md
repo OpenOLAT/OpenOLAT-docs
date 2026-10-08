@@ -48,9 +48,9 @@ Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte
 | Beschreibung | ja | Tab "Info" | nein |
 | Gliederung | nein | nur Durchführung | nein |
 | Lernen Sie Ihre Dozent:innen kennen | ja | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | nein |
-| Lernziele | ja | nur Kurs: Tab "Info", Abschnitt "Details" | nein |
-| Voraussetzungen | ja | nur Kurs: Tab "Info", Abschnitt "Details" | nein |
-| Bescheinigung | ja | nur Kurs: Tab "Info", Abschnitt "Details" | nein |
+| Lernziele | ja | nur Kurs: Tab "Info", Abschnitt "Erweiterte Informationen" | nein |
+| Voraussetzungen | ja | nur Kurs: Tab "Info", Abschnitt "Erweiterte Informationen" | nein |
+| Bescheinigung | ja | nur Kurs: Tab "Info", Abschnitt "Erweiterte Informationen" | nein |
 | Kategorien | nein | Tab "Katalog" | Katalog V1 |
 | **Unten** | | | |
 | Lizenz | ja | Tab "Metadaten" | Lizenzen |
