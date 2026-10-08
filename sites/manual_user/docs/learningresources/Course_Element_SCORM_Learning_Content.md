@@ -14,7 +14,7 @@ SCORM stands for "Sharable Content Object Reference Model" and is a standardized
 
 ## Coach view {: #coach_view}
 
-![Tabs Overview, Participants, Preview and Badges with the coach role, the overview shows the passed statistics of the participants, course view of the SCORM 1.2 course element](assets/course_element_scorm_coach_v1_de.png){ class="shadow lightbox" }
+![Role Coach selected, tabs Overview, Participants and Preview, the overview shows Passed, Not passed and the distribution of the score](assets/course_element_scorm_coach_v2_en.png){ class="shadow lightbox" title="Course view of the SCORM 1.2 course element · 2026.10.08" }
 
 [To the top of the page ^](#course_element_scorm)
 
@@ -22,9 +22,9 @@ SCORM stands for "Sharable Content Object Reference Model" and is a standardized
 
 ## Owner view {: #owner_view}
 
-As an owner, you also have the option to set up reminders, unlike coaches in Run Mode.
+If you open the course element in the course as an owner, you also have the tab "Reminders", unlike coaches, and can set up reminders there.
 
-![Additional tab Reminders next to Overview, Participants, Preview and Badges in the course view of the SCORM 1.2 course element with the owner role](assets/course_element_scorm_owner_v1_de.png){ class="shadow lightbox" }
+![Role Owner selected, additional tab Reminders next to Overview, Participants and Preview](assets/course_element_scorm_owner_v2_en.png){ class="shadow lightbox" title="Course view of the SCORM 1.2 course element · 2026.10.08" }
 
 [To the top of the page ^](#course_element_scorm)
 
@@ -37,19 +37,19 @@ As a course owner, you can create and edit the "SCORM 1.2" course element just l
 
 ### Tab "Learning content" {: #editor_tab_learning_content}
 
-In the "Learning content" tab, you select the SCORM package and determine how it appears to participants and whether its results count towards the assessment. The tab is divided into the areas "SCORM", "Settings" and "Configuration grading".
+In the "Learning content" tab, you select the SCORM package and determine how it appears to participants and whether its results count towards the assessment. The tab is divided into the areas "SCORM", "Settings" and "Grading configuration".
 
-![Package selection with button Replace, below it the areas Settings and Configuration grading with all fields, tab Learning content in the course editor](assets/course_element_scorm_tab_learning_content_v2_en.png){ class="shadow lightbox" }
+![Field SCORM with the selected package and button Replace, below it the areas Settings and Grading configuration with all fields](assets/course_element_scorm_tab_learning_content_v3_en.png){ class="shadow lightbox" title="Tab Learning content in the course editor · 2026.10.08" }
 
 #### SCORM {: #scorm }
 
-Select or import SCORM content. Click "Select or import" to upload a new SCORM package, or select an existing SCORM package from your list. SCORM packages can be imported not only in the course editor but also under "Authoring". If you haven't yet selected a ZIP file as SCORM learning content, the message _No SCORM 1.2 selected_ will appear next to the field **SCORM**.
+Select or import SCORM content. Click "Select or import" to upload a new SCORM package, or select an existing SCORM package from your entries. SCORM packages can be imported not only in the course editor but also under "Authoring". If you haven't yet selected a ZIP file as SCORM learning content, the message _No SCORM 1.2 selected_ will appear next to the field "SCORM".
 
 !!! note "Import"
     Description of importing learning resources in Authoring.<br>
     [Actions in Authoring > Import](../area_modules/authoring_new_course.md#import-learning-resources)
 
-If you have already added a SCORM learning object, its name will appear as a link. Click the link to view a preview. To change the assignment of a SCORM learning object later, click "Replace" in the "Learning content" tab and then select a different SCORM package.
+If you have already added SCORM learning content, its name will appear as a link. Click the link to view a preview. To change the assigned SCORM learning content later, click "Replace" in the "Learning content" tab and then select a different SCORM package.
 
 #### Display module {: #display_module }
 
@@ -59,7 +59,7 @@ You have 4 options to choose from:
 In addition to the SCORM module, the main navigation is displayed at the top.
 
 **Show only module:**<br>
-If this variant is selected, the main navigation will be hidden when the course module opens. Instead, the SCORM module will be displayed in the entire browser window.
+If this variant is selected, the main navigation will be hidden when the course element opens. Instead, the SCORM module will be displayed in the entire browser window.
 
 **Show module in full screen mode:**<br>
 \- The module takes up the entire space<br>
@@ -84,7 +84,7 @@ If a SCORM learning content consists of multiple SCOs, this option makes OpenOla
 
 #### Skip launch page {: #skip_launch_page }
 
-With this option, the SCORM content launches immediately when the course module containing the SCORM content is selected from the course menu. If you do not enable this option, a launch page will be displayed instead.
+With this option, the SCORM content launches immediately when the course element containing the SCORM content is selected from the course menu. If you do not enable this option, a launch page will be displayed instead.
 
 #### Close module automatically on finish {: #close_module_on_finish }
 
@@ -103,23 +103,23 @@ If a score is transferred to OpenOlat, a maximum score can be specified here. Th
 
 #### Score needed to pass {: #score_needed_to_pass }
 
-When a score is submitted to OpenOlat, you can use an integer value here to specify the minimum number of points required for the course module to be considered passed.
+When a score is submitted to OpenOlat, you can use an integer value here to specify the minimum number of points required for the course element to be considered passed.
 
-#### Prevent subsequent attempts from decreasing score {: #prevent_decreasing_score }
+#### Prevent the score from decreasing on subsequent attempts {: #prevent_decreasing_score }
 
-If the course module is accessed multiple times, points earned in a previous attempt are not reset if fewer points are earned on a subsequent attempt. Therefore, a subsequent attempt cannot result in a lower score than the one already achieved. The field only appears if the option "Transfer score value" or "Transfer passed value" is selected under "Transfer score from SCORM".
+If the course element is accessed multiple times, points earned in a previous attempt are not reset if fewer points are earned on a subsequent attempt. Therefore, a subsequent attempt cannot result in a lower score than the one already achieved. The field only appears if the option "Transfer score value" is selected under "Transfer score from SCORM".
+
+#### Include in course assessment {: #include_in_course_assessment }
+
+This toggle button determines whether passing the course element and any points earned there will be included in the overall course grade.
 
 #### Count attempts only if score is transferred {: #count_attempts_if_score_transferred }
 
 Attempts are only counted for users if points are also transferred from the SCORM package to OpenOlat. Depending on when the SCORM learning content provides the points (e.g., regularly or only at the end of the session), the option takes effect either when users have completed a section of the SCORM learning content or only when the SCORM learning content is closed.
 
-#### Max number of attempts {: #max_attempts }
+#### Maximum number of attempts {: #max_attempts }
 
-You can use a drop-down menu to specify how many attempts are allowed for this SCORM course module (unlimited or a number between 1 and 20).
-
-#### Include in course assessment {: #include_in_course_assessment }
-
-This toggle button determines whether passing the course module and any points earned there will be included in the overall course grade.
+You can use a drop-down menu to specify how many attempts are allowed for this SCORM course element (unlimited or a number between 1 and 20).
 
 [To the top of the page ^](#course_element_scorm)
 
@@ -130,7 +130,7 @@ This toggle button determines whether passing the course module and any points e
 
 In the "Display content" tab, you determine how OpenOlat presents the SCORM content in the course. In the display mode "Standard", the fields "Embed Javascript library", "Embed glossary terms" and "Adapt layout" cannot be selected; they only take effect in the mode "Optimized for OpenOlat".
 
-![Display mode Standard selected, Javascript, glossary and layout therefore not selectable, height and character sets set to automatic, tab Display content in the course editor](assets/course_element_scorm_tab_display_content_v2_en.png){ class="shadow lightbox" }
+![Display mode Standard selected, Javascript, glossary and layout therefore not selectable, display height and content character set set to automatic](assets/course_element_scorm_tab_display_content_v3_en.png){ class="shadow lightbox" title="Tab Display content in the course editor · 2026.10.08" }
 
 #### Display mode {: #display_mode }
 
@@ -167,16 +167,16 @@ Allows you to encode JavaScript code using a predefined character set (by defaul
 
 !!! note "Note"
 
-    SCORM learning content is typically displayed on the home page. If a SCORM learning module includes assignments and tests, the home page displays the score achieved and the number of remaining attempts to successfully complete the learning module.
+    SCORM learning content is usually displayed with a launch page. If the SCORM learning content includes assignments and tests, this launch page shows the score achieved and the remaining attempts to complete the learning content successfully.
 
 [To the top of the page ^](#course_element_scorm)
 
 ---
 
 
-### Tab "HighScore" {: #editor_tab_highscore}
+### Tab "HighScore" [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #editor_tab_highscore}
 
-In the "HighScore" tab, you activate and configure a highscore overview for this course element. The overview compares the results of the participants and ranks the individual result in comparison. The tab is only active if the option "Transfer score value" or "Transfer passed value" is selected under "Transfer score from SCORM" in the "Learning content" tab.
+In the "HighScore" tab, you activate and configure the highscore for this course element. The highscore compares the results of the participants and ranks the individual result in comparison. The tab is only active if the option "Transfer score value" or "Transfer passed value" is selected under "Transfer score from SCORM" in the "Learning content" tab. With "Transfer passed value", OpenOlat does not take over any points from the SCORM package, so participants do not see a highscore in this case.
 
 !!! note "Highscore"
     Description of the highscore settings.<br>
@@ -188,11 +188,11 @@ In the "HighScore" tab, you activate and configure a highscore overview for this
 
 ### Tab "Reminders" [:octicons-tag-16:{ title="from Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447) {: #editor_tab_reminders}
 
-Course owners can create reminders within the course editor or in run mode (when accessing the course module outside of the editor).
+Course owners create reminders in the course editor or directly in the course: if they open the course element outside of the editor, the tab "Reminders" is available there as well.
 
-In addition to creating reminders, you can also use either method to view a preview and all sent reminders.
+In addition to creating reminders, you can also use either method to view a preview and all sent reminders. Created reminders appear in a list. A click on the plus sign at the start of a row shows the rules of the reminder. In the expanded row, "Show e-mail message" shows the e-mail that is sent. With "Send reminders now" you trigger the dispatch by hand, without waiting for the next regular dispatch.
 
-![Tab Reminders in the course editor without a reminder, highlighted the button Add reminder and the menu with Show preview and Show sent reminders](assets/course_element_scorm_tab_reminders_v1_de.png){ class="shadow lightbox" }
+![Add reminder button and menu with preview and sent reminders, below it one reminder with its rules](assets/course_element_scorm_tab_reminders_v3_en.png){ class="shadow lightbox" title="Tab Reminders in the course editor · 2026.10.08" }
 
 [To the top of the page ^](#course_element_scorm)
 

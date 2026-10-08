@@ -14,7 +14,7 @@ SCORM steht für "Sharable Content Object Reference Model" und ist ein standardi
 
 ## Ansicht als Betreuer:in {: #coach_view}
 
-![Tabs Übersicht, Teilnehmer:innen, Vorschau und Badges mit der Rolle Betreuer:in, die Übersicht zeigt die Bestanden-Statistik der Teilnehmer:innen, Kursansicht des Kursbausteins SCORM 1.2](assets/course_element_scorm_coach_v1_de.png){ class="shadow lightbox" }
+![Rolle Betreuer:in gewählt, Tabs Übersicht, Teilnehmer:innen und Vorschau, die Übersicht zeigt Bestanden, Nicht bestanden und die Verteilung der Punkte](assets/course_element_scorm_coach_v2_de.png){ class="shadow lightbox" title="Kursansicht des Kursbausteins SCORM 1.2 · 2026.10.08" }
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -22,9 +22,9 @@ SCORM steht für "Sharable Content Object Reference Model" und ist ein standardi
 
 ## Ansicht als Besitzer:in {: #owner_view}
 
-Als Besitzer:in haben Sie im Vergleich zu Betreuer:innen im Run-Mode zusätzlich die Möglichkeit Erinnerungen einzurichten.
+Rufen Sie den Kursbaustein im Kurs als Besitzer:in auf, haben Sie im Vergleich zu Betreuer:innen zusätzlich den Tab "Erinnerungen" und können dort Erinnerungen einrichten.
 
-![Zusätzlicher Tab Erinnerungen neben Übersicht, Teilnehmer:innen, Vorschau und Badges in der Kursansicht des Kursbausteins SCORM 1.2 mit der Rolle Besitzer:in](assets/course_element_scorm_owner_v1_de.png){ class="shadow lightbox" }
+![Rolle Besitzer:in gewählt, zusätzlicher Tab Erinnerungen neben Übersicht, Teilnehmer:innen und Vorschau](assets/course_element_scorm_owner_v2_de.png){ class="shadow lightbox" title="Kursansicht des Kursbausteins SCORM 1.2 · 2026.10.08" }
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -38,11 +38,11 @@ Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM 1.2" wi
 
 Im Tab "Lerninhalt" wählen Sie das SCORM-Paket aus und bestimmen, wie es sich den Teilnehmenden zeigt und ob seine Resultate in die Bewertung einfliessen. Der Tab gliedert sich in die Bereiche "SCORM", "Einstellungen" und "Konfiguration Bewertung".
 
-![Paketauswahl mit Button Ersetzen, darunter die Bereiche Einstellungen und Konfiguration Bewertung mit allen Feldern, Tab Lerninhalt im Kurseditor](assets/course_element_scorm_tab_learning_content_v2_de.png){ class="shadow lightbox" }
+![Feld SCORM mit dem gewählten Paket und Button Ersetzen, darunter die Bereiche Einstellungen und Konfiguration Bewertung mit allen Feldern](assets/course_element_scorm_tab_learning_content_v3_de.png){ class="shadow lightbox" title="Tab Lerninhalt im Kurseditor · 2026.10.08" }
 
 #### SCORM {: #scorm }
 
-Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Auswählen oder importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im "Autorenbereich" importiert werden. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Feld **SCORM** die Meldung _Kein SCORM 1.2 ausgewählt_.
+Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Auswählen oder importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im "Autorenbereich" importiert werden. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Feld "SCORM" die Meldung _Kein SCORM 1.2 ausgewählt_.
 
 !!! note "Importieren"
     Beschreibung des Imports von Lernressourcen im Autorenbereich.<br>
@@ -106,7 +106,11 @@ Wird ein Score (eine Punktzahl) an OpenOlat übertragen, kann hier mit einem gan
 
 #### Reduzieren von Punkten bei erneutem Versuch verhindern {: #prevent_decreasing_score }
 
-Wird der Kursbaustein mehrfach aufgerufen, werden einmal dort erreichte Punkte nicht zurückgesetzt, wenn bei einem neuen Versuch weniger Punkte erreicht werden. Ein erneuter Versuch kann also ein bereits bestehendes Resultat nicht verschlechtern. Das Feld erscheint nur, wenn unter "Resultat aus SCORM übertragen" die Option "Score übertragen" oder "Passed übertragen" gewählt ist.
+Wird der Kursbaustein mehrfach aufgerufen, werden einmal dort erreichte Punkte nicht zurückgesetzt, wenn bei einem neuen Versuch weniger Punkte erreicht werden. Ein erneuter Versuch kann also ein bereits bestehendes Resultat nicht verschlechtern. Das Feld erscheint nur, wenn unter "Resultat aus SCORM übertragen" die Option "Score übertragen" gewählt ist.
+
+#### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment }
+
+Mit diesem Toggle-Button wird bestimmt, ob das Bestehen des Kursbausteins und die eventuell hier erreichten Punkte in die Gesamtbewertung des Kurses einfliessen.
 
 #### Lösungsversuche nur zählen, wenn Punkte übertragen werden {: #count_attempts_if_score_transferred }
 
@@ -115,10 +119,6 @@ Die Lösungsversuche werden für Benutzer:innen nur dann gezählt, wenn auch Pun
 #### Maximale Anzahl Lösungsversuche {: #max_attempts }
 
 Sie können in einem Drop-Down-Menü angeben, wie viele Lösungsversuche für diesen SCORM-Kursbaustein zugelassen sind (unbegrenzt oder Werte zwischen 1 und 20).
-
-#### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment }
-
-Mit diesem Toggle-Button wird bestimmt, ob das Bestehen des Kursbausteins und die eventuell hier erreichten Punkte in die Gesamtbewertung des Kurses einfliessen.
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -129,7 +129,7 @@ Mit diesem Toggle-Button wird bestimmt, ob das Bestehen des Kursbausteins und di
 
 Im Tab "Anzeige Inhalt" bestimmen Sie, wie OpenOlat den SCORM-Inhalt im Kurs darstellt. Im Anzeigemodus "Standard" sind die Felder "JavaScript hinzufügen", "Glossarbegriffe einbinden" und "Layout anpassen" nicht wählbar, sie greifen erst im Modus "Optimiert für OpenOlat".
 
-![Anzeigemodus Standard gewählt, JavaScript, Glossar und Layout dadurch nicht wählbar, Höhe und Zeichensätze auf Automatisch, Tab Anzeige Inhalt im Kurseditor](assets/course_element_scorm_tab_display_content_v2_de.png){ class="shadow lightbox" }
+![Anzeigemodus Standard gewählt, JavaScript, Glossar und Layout dadurch nicht wählbar, Höhe und Zeichensatz Inhalt auf Automatisch](assets/course_element_scorm_tab_display_content_v3_de.png){ class="shadow lightbox" title="Tab Anzeige Inhalt im Kurseditor · 2026.10.08" }
 
 #### Anzeigemodus {: #display_mode }
 
@@ -172,13 +172,13 @@ Erlaubt die Kodierung des Javascript-Codes anhand eines vordefinierten Zeichensa
 
 ---
 
-### Tab "HighScore" {: #editor_tab_highscore}
+### Tab "HighScore" [:octicons-tag-16:{ title="ab Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #editor_tab_highscore}
 
-Im Tab "HighScore" aktivieren und konfigurieren Sie eine Highscore-Übersicht für diesen Kursbaustein. Die Übersicht vergleicht die Ergebnisse der Teilnehmenden und ordnet das individuelle Ergebnis im Vergleich ein. Der Tab ist nur aktiv, wenn im Tab "Lerninhalt" unter "Resultat aus SCORM übertragen" die Option "Score übertragen" oder "Passed übertragen" gewählt ist.
+Im Tab "HighScore" aktivieren und konfigurieren Sie die Rangliste für diesen Kursbaustein. Die Rangliste vergleicht die Ergebnisse der Teilnehmenden und ordnet das individuelle Ergebnis im Vergleich ein. Der Tab ist nur aktiv, wenn im Tab "Lerninhalt" unter "Resultat aus SCORM übertragen" die Option "Score übertragen" oder "Passed übertragen" gewählt ist. Mit "Passed übertragen" übernimmt OpenOlat keine Punkte aus dem SCORM-Paket, deshalb sehen die Teilnehmenden in diesem Fall keine Rangliste.
 
-!!! note "Highscore"
-    Beschreibung der Highscore-Einstellungen.<br>
-    [Kursbausteine > Highscore](Course_Elements.de.md#highscore)
+!!! note "Rangliste"
+    Beschreibung der Einstellungen zur Rangliste.<br>
+    [Kursbausteine > Rangliste](Course_Elements.de.md#highscore)
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -186,11 +186,11 @@ Im Tab "HighScore" aktivieren und konfigurieren Sie eine Highscore-Übersicht f�
 
 ### Tab "Erinnerungen" [:octicons-tag-16:{ title="ab Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447) {: #editor_tab_reminders}
 
-Die Erstellung von Erinnerungen kann durch Kursbesitzer:innen innerhalb des Kurseditors vorgenommen werden oder auch im Run-Mode (bei Aufruf des Kursbausteins ausserhalb des Editors).
+Kursbesitzer:innen erstellen Erinnerungen im Kurseditor oder direkt im Kurs: Rufen sie den Kursbaustein ausserhalb des Editors auf, steht dort ebenfalls der Tab "Erinnerungen" zur Verfügung.
 
-Sie können ausser dem Erstellen von Erinnerungen sich über beide Zugangswege auch eine Vorschau und alle versendete Erinnerungen anzeigen lassen.
+Sie können ausser dem Erstellen von Erinnerungen sich über beide Zugangswege auch eine Vorschau und alle versendeten Erinnerungen anzeigen lassen. Erfasste Erinnerungen erscheinen in einer Liste. Ein Klick auf das Plus-Zeichen am Anfang einer Zeile zeigt die Bedingungen der Erinnerung. In der aufgeklappten Zeile zeigt "E-Mail-Benachrichtigung anzeigen" die E-Mail, die versendet wird. Mit "Erinnerung jetzt senden" lösen Sie den Versand von Hand aus, ohne auf den nächsten regulären Versand zu warten.
 
-![Tab Erinnerungen im Kurseditor ohne erfasste Erinnerung, markiert der Button Erinnerung hinzufügen und das Menü mit Vorschau anzeigen und Versendete Erinnerungen zeigen](assets/course_element_scorm_tab_reminders_v1_de.png){ class="shadow lightbox" }
+![Button Erinnerung hinzufügen und Menü mit Vorschau und versendeten Erinnerungen, darunter eine Erinnerung mit ihren Bedingungen](assets/course_element_scorm_tab_reminders_v3_de.png){ class="shadow lightbox" title="Tab Erinnerungen im Kurseditor · 2026.10.08" }
 
 
 [Zum Seitenanfang ^](#course_element_scorm)
