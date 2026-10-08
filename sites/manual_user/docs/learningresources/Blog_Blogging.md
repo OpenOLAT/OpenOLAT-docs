@@ -13,7 +13,7 @@ If a published course contains a blog, coaches and course participants can work 
     * [Assess posts](#blog_blogging_assess_posts)
     * [Moderate a blog](#blog_blogging_moderate)
     * [Subscribe to posts](#blog_blogging_abo)
-    * [Store contributions in the Media Center](#blog_blogging_media_center)
+    * [Store posts in the Media Center](#blog_blogging_media_center)
 
 
 
@@ -21,17 +21,17 @@ If a published course contains a blog, coaches and course participants can work 
 
 To access a blog, simply click on the corresponding course element in the course menu on the left. Then select the post that interests you.
 
-To switch between detailed and compact list view, use the buttons at the top right above the list.
+To switch between "List view" and "Table view", use the buttons on the right above the list.
 
-You can also use the toggle button above to show and hide a timeline and tags.
+With the "Timeline & Tags" toggle you additionally show and hide a timeline and the tags of the entries to the right of the list.
 
-Filters are available above the list to limit the displayed posts (e.g. "All entries", "My entries", "Drafts").
+Filters are available above the list to limit the displayed posts: "All", "My entries" and "Drafts".
 
 !!! info "Important"
 
-    If you only have read access to the blog (e.g. as a coach without write permission or as a course participant who is not allowed to create their own posts), only the filter "All entries" is available to you [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9220)" }](https://track.frentix.com/issue/OO-9220){:target="_blank"}.
+    If you only have read access to the blog (e.g. as a coach without write permission or as a course participant who is not allowed to create their own posts), only the filter "All" is available to you [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9220)" }](https://track.frentix.com/issue/OO-9220){:target="_blank"}.
 
-![Blog list view with toggles for the timeline/tags and for the list display](assets/blog_blogging_list_v2_de.png){ class="shadow lightbox" }
+![Filters All, My entries and Drafts, List view and Table view buttons and the Timeline & Tags toggle highlighted](assets/blog_blogging_list_v3_en.png){ class="shadow lightbox" title="Blog in the course view · 2026.10.08" }
 
 !!! note "Note"
 
@@ -48,25 +48,39 @@ Filters are available above the list to limit the displayed posts (e.g. "All ent
     In order for you as a course participant or coach not only to comment and rate, but also to write your own contributions, it must first be permitted by the course owner. (See also [Blog Configuration](../learningresources/Blog_Configuration.md))<br>
     Please also note that **external** blogs inserted via a link cannot be edited.
 
-Add your own entry by using the "Add entry" button.<br>
+Add your own entry by using the "Add entry" button. To reopen and edit, select the option under the 3 dots or click on the title in the list view. In the course view, you will find an "Edit" link for each of your contributions.
 
+When adding or editing an entry, you fill in the following fields.
 
-**Title:** Enter a title that describes the blog entry. This field is mandatory.
+#### Title {: #entry_title}
 
-**Content:** The content is the actual blog entry. This field should therefore be filled in. Formatting and images are permitted. To use them, switch from "Multi-line" to "Formatted" at the top right of the field. You write the content in the same HTML editor as in the course element "HTML page", but here without the "Table" menu. How to arrange several images side by side is described in the section [Several images side by side](Course_Element_HTML_Page.md#images_side_by_side).
+Enter a title that describes the blog entry. This field is mandatory.
 
-![Three images side by side in a row, arranged with the class Left, in a published blog entry](assets/blog_entry_images_side_by_side_v1_en.png){ class="shadow lightbox" }
+#### Tags {: #entry_tags}
 
-**Summary:** The summary is optional and is used as a preview of an article or entry. It can therefore also be a short introduction.
+Optionally, assign tags to the entry. You select an existing tag or create a new one. With the "Timeline & Tags" toggle, the tags appear next to the list of entries.
 
-**Date and time of publication:** The date and time of publication are used to make the entry visible to other participants or to hide it. If the time of publication is in the past, the entry will be visible. However, if it is in the future, it is a planned publication of the entry.
+#### Content {: #entry_content}
 
-You can make the entry accessible to others by clicking on "Publish" (from the date specified). If you want to continue working on your entry at a later date, click on "Save draft". "Cancel" discards your changes and closes the form window. Drafts are highlighted in yellow in the list of entries. Planned publications are highlighted in green. All other entries are public and visible to others.
+The content is the actual blog entry. This field should therefore be filled in. Formatting and images are permitted. To use them, switch from "Multi-line" to "Formatted" at the top right of the field. You write the content in the same HTML editor as in the course element "HTML page", but here without the "Table" menu. How to arrange several images side by side is described in the section [Several images side by side](Course_Element_HTML_Page.md#images_side_by_side).
+
+![Three images side by side in a row below the text of a blog entry](assets/blog_entry_images_side_by_side_v1_en.png){ class="shadow lightbox" title="Published blog entry" }
+
+#### Summary {: #entry_summary}
+
+The summary is optional and is used as a preview of an article or entry. It can therefore also be a short introduction.
+
+#### Audio or video file {: #entry_media_file}
+
+Optionally, attach a file in the formats MP3, MP4, M4V, M4A or AAC to the entry. For a video, OpenOlat prefills "Width" and "Height" with the values from the file when uploading.
+
+#### Time and date of publication {: #entry_publication_date}
+
+The date and time of publication are used to make the entry visible to other participants or to hide it. If the time of publication is in the past, the entry will be visible. However, if it is in the future, it is a planned publication of the entry.
+
+You can make the entry accessible to others by clicking on "Publish" (from the date specified). If you want to continue working on your entry at a later date, click on "Save draft". "Cancel" discards your changes and closes the form window. In the list of entries, a colored label shows the status: "Draft" in yellow, "Planned" in blue for a publication in the future and "Published" in green. Published entries are visible to others.
 
 You can either publish the new entry directly, select the date of publication or save the entry as a draft.
-
-To reopen and edit, select the option under the 3 dots or click on the title in the list view. In the course run, you will find an "Edit" link for each of your contributions.
-
 [To the top of the page ^](#blog_blogging)
 
 
@@ -74,7 +88,7 @@ To reopen and edit, select the option under the 3 dots or click on the title in 
 
 A "Delete" button appears for each blog post if you are authorized to do so (because you are the author or moderator/course owner).
 
-In the compact table view, a mass action is available for deleting multiple posts. To do this, select the checkboxes in the first column. Various filters and the search function support the search for specific posts.
+In the table view, a mass action is available for deleting multiple posts. To do this, select the checkboxes in the first column. Various filters and the search function support the search for specific posts.
 
 [To the top of the page ^](#blog_blogging)
 
@@ -85,11 +99,11 @@ Course members can comment on blog posts with a text. Files can also be attached
 
 To write a comment or read existing comments, click in the comment line. A small text editor opens. Click the "Comment" button to send the comment.
 
-![Comment field below a blog post with the Comment button](assets/blog_blogging_comment_v2_de.png){ class="shadow lightbox" }
+![Open text editor with a comment and the Comment, Cancel and Attach file buttons highlighted](assets/blog_blogging_comment_v3_en.png){ class="shadow lightbox" title="Comments below a blog post · 2026.10.08" }
 
-You can also attach a file to your comment. To do this, you can upload a new file or select a file from your File Hub.
+With "Attach file" you attach a file to your comment. In the "Add files" dialog, upload a file from your computer under "Local" or select a file from the "File Hub" or from the "Media Center".
 
-![Add files dialog with local upload and selection from the File Hub for a comment](assets/blog_blogging_comment_file_v1_de.png){ class="shadow lightbox" }
+![Upload under Local, selection from the File Hub and from the Media Center](assets/blog_blogging_comment_file_v2_en.png){ class="shadow lightbox" title="Add files dialog · 2026.10.08" }
 
 [To the top of the page ^](#blog_blogging)
 
@@ -99,7 +113,7 @@ You can also attach a file to your comment. To do this, you can upload a new fil
 Course members can award 1-5 stars for the assessment of contributions. <br>
 In the normal state, you will see the ratings of other readers. As soon as you move your mouse over the stars, you can add your own rating. 
 
-![Star rating of a blog post with average value and number of ratings](assets/blog_blogging_assess_v1_de.png){ class="shadow lightbox" }
+![Assessment of others with four of five stars, average 4.0 / 5 and number of assessments highlighted](assets/blog_blogging_assess_v2_en.png){ class="shadow lightbox" title="Blog post in the course view · 2026.10.08" }
 
 [To the top of the page ^](#blog_blogging)
 
@@ -121,10 +135,10 @@ The role of moderator can be taken on by course owners in any case. However, the
 
 Subscribe to the blog's RSS feed to make sure you don't miss any new entries. You can find instructions here: [Set up subscriptions (video introduction)](https://www.youtube.com/embed/h9gOqt7TR7Q) (German)
 
-If you would like to be notified as soon as a new post is added, subscribe to the blog as a whole.
+If you would like to be notified as soon as a new post is added, subscribe to the blog as a whole. To do this, use the bell icon "Subscribe" on the right above the list of entries.
 If you only want to be notified when a comment is posted on a blog entry, you can also choose this type of subscription.
 
-If you would like to pass on the link to the blog, you will find the link on the left above the list of posts in the "RSS feed" icon.
+If you would like to pass on the link to the blog, you will find the link on the left above the list of posts under "RSS".
 
 If you would like to pass on the direct link to an individual post, you can copy the URL from your browser window. The direct link will be displayed there.
 
@@ -133,7 +147,7 @@ If you would like to pass on the direct link to an individual post, you can copy
 
 ## Store posts in the Media Center {: #blog_blogging_media_center}
 
-As a coach or owner, you can also store your blog posts in the Media Center. A corresponding button is displayed on the posts for which you have this right.
+As the author of a post, you can also store your blog posts in the Media Center. The "Add to media center" button appears on your own posts for this purpose.
 
 [To the top of the page ^](#blog_blogging)
 
@@ -141,12 +155,12 @@ As a coach or owner, you can also store your blog posts in the Media Center. A c
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Configure a blog](../learningresources/Blog_Configuration.md)<br>
+[Blog Configuration >](../learningresources/Blog_Configuration.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)
 
 **Further reading**<br>
-[Create a blog (as course owner/author)](../learningresources/Blog_Create.md)<br>
-[Step by step instruction: How do I create a blog?](../../manual_how-to/blog/blog.md)
+[Create a blog >](../learningresources/Blog_Create.md)<br>
+[How do I create a blog? >](../../manual_how-to/blog/blog.md)
 
 **youtube**<br>
 [Set up subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>) (German)

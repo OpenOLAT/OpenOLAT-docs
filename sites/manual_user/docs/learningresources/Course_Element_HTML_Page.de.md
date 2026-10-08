@@ -30,7 +30,9 @@ Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninh
 
     Eine HTML-Seite kann vor allem mit Bildern, Texten, Tabellen und Videos gestaltet werden. Fortgeschrittene Autor:innen können aber auch HTML-Elemente wie Accordion einfügen.
 
-    ![HTML-Seite mit Bild und Fliesstext, dargestellt in der Kursansicht](../learningresources/assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
+    Das Beispiel zeigt drei Fotos, die mit der Klasse "Linksbündig" nebeneinander stehen. Wie Sie so eine Bildreihe anlegen, beschreibt der Abschnitt [Mehrere Bilder nebeneinander](#images_side_by_side).
+
+    ![Frage über drei Kaffeefotos, die nebeneinander in einer Reihe stehen](../learningresources/assets/course_element_html_page_run_view_v2_de.png){ class="shadow lightbox" title="Kursbaustein HTML-Seite in der Kursansicht · 2026.10.08" }
 
 === "Bearbeitung im Editor"
 
@@ -38,13 +40,13 @@ Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninh
 
     (Hinweis: Im Kursbaustein "Seite" wird dagegen der Content Editor verwendet, in dem die Inhalte als Blöcke zusammengestellt werden. => Verbesserte Darstellung auf Mobiles)
 
-    ![Text und Bild im Tiny-Editor bearbeitet, im Bearbeitungsdialog des Kursbausteins HTML-Seite](../learningresources/assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
+    ![Frage und drei Fotos in einer Reihe im Bearbeitungsfeld, darüber Menüleiste und Werkzeugleiste](../learningresources/assets/course_element_html_page_editor_view2_v2_de.png){ class="shadow lightbox" title="HTML-Editor im Kursbaustein HTML-Seite · 2026.10.08" }
 
 === "HTML-Quellcode"
 
     Für Autor:innen mit HTML-Kenntnissen besteht auch die Möglichkeit, direkt den erzeugten HTML-Quellcode einzusehen und zu bearbeiten.
 
-    ![HTML-Quelltext einer Seite mit Absätzen und eingebettetem Bild, im Quelltext-Dialog des Editors](../learningresources/assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
+    ![Drei img-Elemente mit der Klasse b_float_left, je 250 Pixel breit](../learningresources/assets/course_element_html_page_sourcecode_view_v2_de.png){ class="shadow lightbox" title="Dialog Quelltext im HTML-Editor · 2026.10.08" }
 
 
 
@@ -57,15 +59,15 @@ Hier nehmen Sie die zentrale Konfiguration dieses Kursbausteins vor, indem Sie e
   * Mit "Import" eine extern erstellte HTML-Datei oder eine ZIP-Datei von Ihrem Rechner hochladen
   * Eine extern erstellte HTML-Datei in den Ablageordner hochladen und dort mit "Auswählen" wählen
 
-![Menü des Buttons Auswählen mit Erstellen und Import, verknüpfte HTML-Datei, Button Seite bearbeiten und Sicherheitseinstellungen im Tab Seiteninhalt](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
+![Buttons Vorschau und Auswählen mit dem Menü Erstellen und Import sowie Button Seite bearbeiten hervorgehoben, darunter die Sicherheitseinstellungen](assets/course_element_html_page_tab_pagecontent_v2_de.png){ class="shadow lightbox" title="Tab Seiteninhalt im Kurseditor · 2026.10.08" }
 
 
-Für die **weitere Bearbeitung** von HTML-Seiten können Sie den OpenOlat Editor nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Eine automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Seite bearbeiten" und Sie gelangen in den OpenOlat HTML Editor.
+Für die **weitere Bearbeitung** von HTML-Seiten können Sie den OpenOlat Editor nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Eine automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Seite bearbeiten" und Sie gelangen in den OpenOlat HTML Editor. Mit "Vorschau" zeigt OpenOlat die verknüpfte Seite in einer Vorschau an.
 
 
 Unter "**Sicherheitseinstellungen**" können Sie festlegen, ob Verweise in Ihren HTML-Seiten nur auf Dateien des gleichen Ordners und auf darin enthaltene Unterordner möglich sind, oder ob alle Dateien des Ablageordners referenziert werden können. Dies ist beispielsweise notwendig, wenn Ihre HTML-Seite Grafiken, CSS-Dateien oder Skripte enthält, die sich in anderen Ordnern befinden.
 
-Ferner können Sie definieren, **ob Betreuer:innen die hinterlegte HTML-Datei bearbeiten dürfen**. Betreuer:innen benötigen dafür keine Kursbesitzerrechte oder Zugang zum Kurseditor.
+Ferner legen Sie mit "Betreuer:innen erlauben Seite zu editieren" fest, ob Betreuer:innen die hinterlegte HTML-Datei bearbeiten dürfen. Betreuer:innen benötigen dafür keine Kursbesitzerrechte oder Zugang zum Kurseditor. Unabhängig von dieser Einstellung dürfen Kursbesitzer:innen, Administrator:innen und Lernressourcenverwalter:innen die Seite bearbeiten, ebenso Personen mit dem [Kursrecht "Kurseditor"](../learningresources/Members_management.de.md#additional_rights). Wer die Seite bearbeiten darf, sieht in der Kursansicht rechts über der Seite den Button "Seite bearbeiten".
 
 ### Inhalt auswechseln {: #change_content}
 
@@ -79,13 +81,13 @@ Laden Sie mit "Import" eine ZIP-Datei hoch, entpackt OpenOlat sie und zeigt Ihne
 
 ## Tab Anzeige Inhalt {: #layout}
 
-Im Tab "**Anzeige Inhalt**" definieren Sie die Einstellungen für die Anzeige des Seiteninhalts. Hier legen Sie fest ob die Seite unverändert, oder optimiert für OpenOlat angezeigt werden soll. Der Anzeigemodus "Optimiert für OpenOlat" gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden, oder ein in den Kurs eingebundenes [Glossar](../learningresources/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
+Im Tab "Anzeige Inhalt" legen Sie fest, wie OpenOlat die Seite im Kurs anzeigt: unverändert oder optimiert für OpenOlat. Der Anzeigemodus "Optimiert für OpenOlat" gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden, oder ein in den Kurs eingebundenes [Glossar](../learningresources/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
 
-![Anzeigemodus, JavaScript, Glossarbegriffe und Zeichensatz im Tab Anzeige Inhalt](assets/course_element_html_page_tab_displaycontent_v1_de.png){ class="shadow lightbox" }
+![Einstellungen für Anzeigemodus, JavaScript mit Keine oder jQuery, Glossarbegriffe, Höhe, Layout und Zeichensatz](assets/course_element_html_page_tab_displaycontent_v2_de.png){ class="shadow lightbox" title="Tab Anzeige Inhalt im Kurseditor · 2026.10.08" }
 
 Folgende Einstellungen können für den Kursbaustein "HTML-Seite" vorgenommen werden.
 
- **Anzeigemodus:**
+#### Anzeigemodus {: #display_mode}
 
 Wählen Sie den Modus "Standard" um die Ressource unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt, was vor allem bei extern erstellten HTML-Seiten passieren kann. 
 
@@ -93,39 +95,39 @@ Wählen Sie den Modus "Optimiert für OpenOlat", wenn Sie das Kurslayout in der 
 
 Bei SCORM Modulen ist der Modus "Standard" empfohlen.
 
- **JavaScript hinzufügen:**
+#### JavaScript hinzufügen {: #javascript_library}
 
-Um die Funktionen des Anzeigemodus "Optimiert für OpenOlat" nutzen zu können muss die JavaScript Bibliothek "jQuery" aktiviert sein. Die Option "Prototype" sollte nur gewählt werden, wenn Ihre Inhalte diese Bibliothek voraussetzen. Wählen Sie keine Bibliothek, wenn es zu Anzeigeproblemen mit Ihren Inhalten kommt.
+Um die Funktionen des Anzeigemodus "Optimiert für OpenOlat" nutzen zu können muss die JavaScript Bibliothek "jQuery" aktiviert sein. Wählen Sie "Keine", wenn es zu Anzeigeproblemen mit Ihren Inhalten kommt.
 
- **Glossarbegriffe einbinden:**
+#### Glossarbegriffe einbinden {: #glossary_terms}
 
 Wählen Sie diese Option um die Möglichkeit der Hervorhebung von Glossarbegriffen für Ihre HTML-Seiten zu aktivieren, sofern Sie ein Glossar in Ihrem Kurs eingebunden haben. Diese Option setzt die Verwendung der JavaScript Bibliothek "jQuery" voraus.
 
- **Höhe Anzeigefläche:**
+#### Höhe Anzeigefläche {: #display_height}
 
 Mittels des Drop-Down-Menus können Sie die Höhe der Inhaltsanzeige bestimmen. Sie haben die Möglichkeit, diese via "Automatisch" auf die jeweilige Fensterhöhe oder auf einen bestimmten Wert zu setzen.
 
- **Layout anpassen:**
+#### Layout anpassen {: #adapt_layout}
 
 Wählen Sie die Option "OpenOlat Stylesheets" um das OpenOlat und Kurslayout in Ihre Seite zu übernehmen (Schriftart, Farben, Grösse usw.). Wenn Sie diese Anpassung nicht wünschen, wählen Sie die Option "Keine".
 
- **Zeichensatz Inhalt:**
+#### Zeichensatz Inhalt {: #content_character_set}
 
-OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Wenn die Option "Automatisch" nicht zu der gewünschten Anzeige führt, kann die Kodierung des Inhalts anhand eines vordefinierten Zeichensatzes konfiguriert werden. (Ist keine Kodierung vorhanden, wird per Default der Zeichensatz ISO-8899-1 verwendet).
+OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Wenn die Option "Automatisch" nicht zu der gewünschten Anzeige führt, kann die Kodierung des Inhalts anhand eines vordefinierten Zeichensatzes konfiguriert werden. (Ist keine Kodierung vorhanden, wird per Default der Zeichensatz ISO-8859-1 verwendet).
 
- **Zeichensatz JavaScript:**
+#### Zeichensatz Javascript {: #javascript_character_set}
 
 Erlaubt die Kodierung des JavaScript Codes anhand eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz für Inhalt und JavaScript verwendet).
 
 !!! tip "Tipp"
 
-    In der Regel sind im Tab "Layout" keine Änderungen notwendig. Die Standardeinstellungen passen für 90% der Kurse.
+    In der Regel sind im Tab "Anzeige Inhalt" keine Änderungen notwendig. Die Standardeinstellungen passen für 90% der Kurse.
 
 ## Der HTML-Editor {: #html_editor}
 
-An allen Stellen in OpenOlat, an denen HTML-Seiten erzeugt und bearbeitet werden, ist der **HTML-Editor Tiny MCE** eingebunden.
+An allen Stellen in OpenOlat, an denen HTML-Seiten erzeugt und bearbeitet werden, ist der HTML-Editor TinyMCE eingebunden.
 
-![Tiny-Editor mit Menüs Einfügen und Format hervorgehoben, beim Bearbeiten einer HTML-Seite](assets/course_element_html_page_editor_v1_de.png){ class="shadow lightbox" }
+![Menüleiste von Datei bis Tabelle und zweizeilige Werkzeugleiste des HTML-Editors hervorgehoben](assets/course_element_html_page_editor_v2_de.png){ class="shadow lightbox" title="HTML-Editor im Kursbaustein HTML-Seite · 2026.10.08" }
 
 Dieser extern entwickelte Editor ist ebenfalls Open Source. Weitere Informationen finden Sie auf der Website: [https://www.tiny.cloud](https://www.tiny.cloud)
 
@@ -161,7 +163,7 @@ Dazu gehören z.B.
 
 ### Video
 
-![Video-Symbol in der Werkzeugleiste des HTML-Editors markiert](assets/course_element_html_page_editor_menu_v1_de.png){ class="shadow lightbox" }
+![Symbol zum Einfügen eines Videos am Anfang der zweiten Werkzeugzeile hervorgehoben](assets/course_element_html_page_editor_menu_v2_de.png){ class="shadow lightbox" title="Werkzeugleiste des HTML-Editors · 2026.10.08" }
 
 Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer zurück, was einige Vorteile hat.
 
@@ -204,39 +206,43 @@ Siehe ["Audio aufnehmen"](../learningresources/Audio_Recording.de.md).
 
 ### Bilder
 
-Es können die üblichen Formate verwendet werden (png, jpg, ...). Zur Darstellungsgrösse und Ausrichtung können ebenfalls Angaben gemacht werden.
+Mit Bildern zeigen Sie, was sich in Worten schwer beschreiben lässt, etwa ein Foto oder eine Grafik. Sie wählen Bilddateien im Format JPG, GIF oder PNG und legen im Dialog "Bild einfügen/bearbeiten" auch Grösse und Ausrichtung fest. Unter "Alternative Beschreibung" hinterlegen Sie einen Text für Personen, die das Bild nicht sehen. Der "Bildtitel" erscheint, wenn jemand mit der Maus auf das Bild zeigt. Mit "Beschriftung anzeigen" erhält das Bild eine Beschriftung, die Sie im Editor unter dem Bild eintragen. Im Tab "Erweitert" stellen Sie Abstände und Rahmen des Bildes ein.
 
 ### Mehrere Bilder nebeneinander {: #images_side_by_side}
 
-Möchten Sie zwei oder drei Bilder in einer Reihe zeigen, etwa Fotos zum Vergleich, weisen Sie jedem Bild die Klasse "Linksbündig" zu. So stehen die Bilder nebeneinander, ohne dass Sie eine Tabelle brauchen. Dieser Weg funktioniert überall, wo der HTML-Editor Bilder anbietet, auch in einem Blogeintrag.
+Möchten Sie zwei oder drei Bilder in einer Reihe zeigen, etwa Fotos zum Vergleich, weisen Sie jedem Bild die Klasse "Linksbündig" zu. So stehen die Bilder nebeneinander, ohne dass Sie eine Tabelle brauchen. Dieser Weg funktioniert im Kursbaustein "HTML-Seite" ebenso wie in einem Blogeintrag. Wie das Ergebnis aussieht, zeigt das [Beispiel](#example) oben: drei Fotos in der Kursansicht, im Editor und im HTML-Quellcode.
 
 1. Setzen Sie den Cursor an die Stelle, an der die Bildreihe beginnen soll.
-2. Klicken Sie in der Werkzeugleiste auf das Bildsymbol oder wählen Sie im Menü "Einfügen" den Eintrag "Bild...".
-3. Wählen Sie im Tab "Allgemein" unter "Quelle" die Bilddatei aus.
-4. Prüfen Sie, dass unter "Klasse" der Eintrag "Linksbündig" gewählt ist. Bei einem neuen Bild ist er voreingestellt.
-5. Tragen Sie unter "Breite" einen Wert ein, der klein genug ist, damit alle Bilder zusammen in die Zeile passen.
-6. Klicken Sie auf "Speichern".
-7. Setzen Sie den Cursor direkt hinter das eingefügte Bild und wiederholen Sie die Schritte 2 bis 6 für jedes weitere Bild.
+2. Klicken Sie in der Werkzeugleiste auf das Bildsymbol oder wählen Sie im Menü "Einfügen" den Eintrag "Bild...". Der Dialog "Bild einfügen/bearbeiten" öffnet sich im Tab "Allgemein".
+3. Klicken Sie rechts neben dem Feld "Quelle" auf das Symbol zum Durchsuchen. Der Dialog "Verlinkung auswählen" öffnet sich.
+4. Wählen Sie unter "Bestehende Datei auswählen" eine Bilddatei und klicken Sie auf "Auswählen". Ein neues Bild laden Sie mit "Datei hochladen" und "Hochladen" von Ihrem Rechner hoch.
+5. Prüfen Sie, dass unter "Klasse" der Eintrag "Linksbündig" gewählt ist. Bei einem neuen Bild ist er voreingestellt.
+6. Tragen Sie unter "Breite" einen Wert in Pixeln ein, der klein genug ist, damit alle Bilder zusammen in die Zeile passen, zum Beispiel 250 bei drei Bildern. Die Höhe passt sich automatisch an.
+7. Klicken Sie auf "Speichern".
+8. Setzen Sie den Cursor direkt hinter das eingefügte Bild und wiederholen Sie die Schritte 2 bis 7 für jedes weitere Bild.
 
-![Klassenliste mit Linksbündig, Zentriert und Rechtsbündig geöffnet, im Tab Allgemein des Dialogs zum Einfügen eines Bildes](assets/html_editor_image_dialog_class_v1_de.png){ class="shadow lightbox" }
+Statt Pixeln können Sie unter "Breite" auch einen Prozentwert eingeben, etwa 30%. Leeren Sie in diesem Fall das Feld "Höhe", damit das Bild seine Proportionen behält.
 
-Reicht die Breite der Zeile nicht für alle Bilder, rückt das nächste Bild in die folgende Zeile. Verkleinern Sie dann die Breite der Bilder.
+![Klassenliste mit acht Einträgen geöffnet, Linksbündig gewählt, Breite 30%](assets/html_editor_image_dialog_class_v1_de.png){ class="shadow lightbox" title="Tab Allgemein im Dialog Bild einfügen/bearbeiten" }
 
-Pro Bild wählen Sie genau eine Klasse. Die wichtigsten Klassen bewirken Folgendes:
+Reicht die Breite der Zeile nicht für alle Bilder, rückt das nächste Bild in die folgende Zeile. Verkleinern Sie dann die Breite der Bilder. Das Eingabefeld des Editors kann schmaler sein als die Seite in der Ansicht, etwa im Formular eines Blogeintrags. Ob die Bilder in einer Zeile stehen, prüfen Sie deshalb in der Kursansicht oder im veröffentlichten Blogeintrag.
+
+Pro Bild wählen Sie genau eine Klasse. Die Klassen bewirken Folgendes:
 
 * **Linksbündig:** Das Bild steht links. Text und weitere Bilder mit derselben Klasse folgen rechts daneben.
+* **Linksbündig mit Bildunterschrift:** Das Bild steht links, ohne Abstand zum Inhalt daneben. Auch mit "Beschriftung anzeigen" stehen mehrere Bilder mit dieser Klasse in der Kursansicht nebeneinander, jedes mit seiner Beschriftung darunter.
 * **Rechtsbündig:** Das Bild steht rechts, der Text fliesst links daneben.
 * **Zentriert:** Das Bild steht allein und mittig in seiner Zeile.
 * **Linksbündig und allein**, **Rechtsbündig und allein:** Das Bild steht allein in seiner Zeile, links oder rechts. Hier endet das Umfliessen der vorangehenden Bilder.
 * **Kreis**, **Rahmen:** Diese Klassen geben dem Bild eine runde Form oder einen Rahmen, verändern aber seine Position nicht.
 
-Die Klassen stammen aus den OpenOlat Stylesheets, die im Kursbaustein "HTML-Seite" standardmässig eingebunden sind. Wählen Sie im Tab ["Anzeige Inhalt"](#layout) den Anzeigemodus "Standard" oder unter "Layout anpassen" die Option "Keine", haben die Klassen in der Kursansicht keine Wirkung.
+Die Klassen stammen aus den OpenOlat Stylesheets, die im Kursbaustein "HTML-Seite" standardmässig eingebunden sind. Wählen Sie im Tab ["Anzeige Inhalt"](#layout) den Anzeigemodus "Standard" oder unter "Layout anpassen" die Option "Keine", bindet OpenOlat diese Stylesheets in der Kursansicht nicht ein. Die Klassen wirken dann nur im HTML-Editor, nicht in der Kursansicht.
 
 Im Kursbaustein "HTML-Seite" gibt es einen zweiten Weg über das Menü "Tabelle": Wählen Sie dort den Eintrag "Tabelle" und im Raster eine Zeile mit drei Spalten. Fügen Sie anschliessend in jede Zelle ein Bild ein. Der Editor im Blog bietet das Menü "Tabelle" nicht an, dort führt nur der Weg über die Klasse zum Ziel.
 
 ### Mathematische Formeln
 
-In OpenOlat verwenden wir **Mathjax** zur Darstellung von Formeln.
+In OpenOlat verwenden wir MathJax zur Darstellung von Formeln.
 
 ### Emoticons
 
@@ -248,7 +254,7 @@ Es können Links ins Internet und innerhalb OpenOlat (bestimmte Kursbausteine, a
 Die Links können auf Bilder, Videos oder auch die Tools in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) zeigen.<br>
 Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster angezeigt werden soll.
 
-![Vier Linkarten wählbar: Dateiverlinkung, Kursknotenverlinkung, Kurswerkzeugverlinkung, Bibliothek](assets/course_element_html_page_editor_links_v1_de.png){ class="shadow lightbox" }
+![Vier Linkarten als Tabs hervorgehoben: Dateiverlinkung, Kursknotenverlinkung, Kurswerkzeugverlinkung und Bibliothek](assets/course_element_html_page_editor_links_v2_de.png){ class="shadow lightbox" title="Dialog Verlinkung auswählen im HTML-Editor · 2026.10.08" }
 
 ### PDF-Dokumente
 
@@ -287,15 +293,11 @@ Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster ange
 | Integration draw.io Diagramme        | :material-check: | :material-cancel:     |
 
 
-
-!!! info "Wichtig"
-
-    Der Kursbaustein HTML-Seite kann von Kurs-Besitzer:innen oder optional auch von Betreuenden bearbeitet werden.
-
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Ablageordner >](../learningresources/Storage_folder.de.md)<br>
+[Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
 [tiny.cloud](https://www.tiny.cloud)<br>
 [Videos im Kursbaustein "HTML-Seite" >](../basic_concepts/Video_in_HTML_Pages.de.md)<br>
