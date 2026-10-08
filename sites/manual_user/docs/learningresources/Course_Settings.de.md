@@ -30,6 +30,8 @@ Verfügbar seit | Release 13.0 (OO-3706)
 
 Metadaten benennen den Kurs und ordnen ihn ein. Anhand der Metadaten kann Ihr Kurs z.B. besser gefunden werden. Pflicht ist nur der Titel.
 
+Nach dem Erstellen, Kopieren oder Importieren einer Lernressource öffnet OpenOlat die Einstellungen auf diesem Tab. So prüfen Sie Titel und Kennzeichen gleich zu Beginn [:octicons-tag-16:{ title="ab Release 21.1 (OO-9775)" }](https://track.frentix.com/issue/OO-9775){:target="_blank"}.
+
 Metadaten eines Kurses sind
 
 * Titel

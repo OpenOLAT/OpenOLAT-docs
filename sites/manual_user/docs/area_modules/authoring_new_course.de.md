@@ -4,7 +4,7 @@
 
 Im Autorenbereich können die folgenden Lernressourcen erstellt werden:
 
-![Geöffnetes Menü Erstellen mit den Lernressourcen Kurs, Test, CP-Lerninhalt, Wiki, Podcast, Blog, Ressourcenordner, Formular, Portfolio 2.0 Vorlage und Glossar. Autorenbereich, Tab Suchmaske.](assets/autorenbereich_erstellen_v1_de.png){ class="shadow lightbox" }
+![Geöffnetes Menü Erstellen mit Kurs, Test, CP-Lerninhalt, Wiki, Podcast, Blog, Ressourcenordner, Formular, Portfolio 2.0 Vorlage und Glossar](assets/autorenbereich_erstellen_v1_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich" }
 
 Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 
@@ -48,23 +48,23 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 
 ## Lernressourcen importieren
 
-![Button Datei importieren mit dem Auswahlmenü Per URL einbinden, darunter die beiden Dialoge Datei importieren und Per URL einbinden. Autorenbereich.](assets/Datei_importieren_gesamt.jpg){ class="shadow lightbox" }
+![Button Datei importieren öffnet den Dialog zum Hochladen einer Datei, das Auswahlmenü daneben mit Per URL einbinden den Dialog für eine URL](assets/Datei_importieren_gesamt.jpg){ class="shadow lightbox" title="Import im Autorenbereich" }
 
 ### Datei importieren
 Lernressourcen, die ausserhalb von OpenOlat erstellt oder aus einem anderen OpenOlat-System exportiert wurden, können in OpenOlat importiert werden: vorausgesetzt, sie liegen in einem kompatiblen Format vor. Dabei lassen sich alle genannten Arten von Lernressourcen, Videos, bestimmte standardisierte Formate sowie beliebige Dateien importieren.
 
 Wenn Sie beispielsweise einen Kurs aus einer anderen OpenOlat-Instanz importieren, werden Sie gefragt, ob auch die im Kurs verwendeten Lernressourcen (z. B. ein Wiki oder ein Test) mitimportiert werden sollen. Nach dem Import müssen Sie den Kurs veröffentlichen, damit er für Sie und andere OpenOlat-Benutzer:innen sichtbar ist.
 
-Am Ende des Imports gelangen Sie zum Menü „Einstellungen“, in dem Sie weitere Konfigurationen vornehmen können: etwa die Lizenz des Kurses festlegen.
+Am Ende des Imports öffnet OpenOlat die Einstellungen der Lernressource auf dem [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md). Dort prüfen Sie Titel und Kennzeichen und nehmen weitere Konfigurationen vor, etwa die Lizenz.
 
 ### Per URL einbinden [:octicons-tag-16:{ title="ab Release 13.2 (OO-3859)" }](https://track.frentix.com/issue/OO-3859)
 Externe Medien lassen sich auch per URL einbinden, ohne die Datei nach OpenOlat hochzuladen. Öffnen Sie dazu im Autorenbereich das Auswahlmenü neben der Schaltfläche **Datei importieren** und wählen Sie **Per URL einbinden**.
 
-![Menü "Per URL einbinden"](assets/authoring_embed_via_url_v2_de.png){ class="shadow lightbox" }
+![Eintrag Per URL einbinden im Auswahlmenü neben dem Button Datei importieren](assets/authoring_embed_via_url_v2_de.png){ class="shadow lightbox" title="Auswahlmenü im Autorenbereich" }
 
 OpenOlat erkennt anhand der URL automatisch den passenden Ressourcentyp und legt eine entsprechende Lernressource an, in der das Medium verlinkt ist. Bei Videos entsteht so eine [Lernressource Video](../learningresources/Learning_resource_Video.de.md); sämtliche Funktionen des OpenOlat Video-Editors stehen anschliessend zur Verfügung.
 
-![Dialog "Per URL einbinden"](assets/authoring_embed_via_url_dialogue_v1_de.png){ class="shadow lightbox" }
+![URL eines YouTube-Videos eingetragen, Typ Video erkannt und Titel der Lernressource aus der Quelle vorausgefüllt](assets/authoring_embed_via_url_dialogue_v1_de.png){ class="shadow lightbox" title="Dialog Per URL einbinden" }
 
 Unterstützt werden folgende Ressourcen:
 
@@ -80,7 +80,7 @@ Der Dialog enthält folgende Felder:
 | **URL** | Link zur externen Ressource. Nach der Eingabe ermittelt OpenOlat automatisch den Typ und, sofern verfügbar, den Titel des Mediums. |
 | **Typ** | Der erkannte Ressourcentyp. Passen mehrere Typen zur URL, wählen Sie hier den gewünschten aus. |
 | **Titel der Lernressource** | Pflichtfeld. Name der neuen Lernressource. Bei Videos wird der Titel aus der Quelle vorausgefüllt und kann angepasst werden. |
-| **Kennzeichen** | Optionale externe Kennung, die in der Kursübersicht angezeigt wird. |
+| **Kennzeichen** | Optionale externe Kennung, die in der Kursübersicht angezeigt wird, siehe [Kennzeichen](../learningresources/Course_Settings_Metadata.de.md#externalref). |
 | **Administrative Freigabe** | Pflichtfeld. Organisation, der die Lernressource administrativ zugeordnet wird. |
 
 Mit **Einbinden** wird die Lernressource erstellt.
@@ -110,6 +110,7 @@ Mit **Einbinden** wird die Lernressource erstellt.
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Glossar >](../learningresources/Glossary.de.md)<br>
+[Kurseinstellungen - Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
 [Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)
 
 **youtube**<br>

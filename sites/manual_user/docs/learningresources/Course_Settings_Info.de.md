@@ -13,23 +13,31 @@ Je nach Lernressource steht nur ein Teil der Tabs zur Verfügung.
 
 Der Tab "Info" ist in vier Teile gegliedert, in dieser Reihenfolge: "Informationen" mit Titelbild, Teaser-Film, Teaser und Beschreibung, danach die Abschnitte "Fakten", "Anzeigeeinstellungen" und "Erweiterte Informationen". Die Anzeigeeinstellungen und die erweiterten Informationen gibt es nur bei Kursen. Bei anderen Lernressourcen, etwa einem Test oder einem Wiki, zeigt der Tab nur "Informationen" und "Fakten".
 
+!!! info "Wichtig"
+
+    Gehört der Kurs zu genau einer Durchführung vom Typ Einzelkurs im Course Planner, zeigt der Kurs unter "Infoseite" die Infos dieser Durchführung. Die Angaben aus dem Tab "Info" des Kurses erscheinen dann dort nicht. Pflegen Sie die Angaben in den Einstellungen der Durchführung, siehe [Course Planner: Durchführungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings_infos).
+
+Wird die Lernressource von einem externen System verwaltet, pflegt dieses System die Angaben, und einzelne Felder sind gesperrt. Je nach Umfang der Verwaltung fehlen auch die Felder für Titelbild und Teaser-Film, und der Button "Speichern" erscheint nicht. Änderungen laufen dann über die Stelle, die das verwaltende System betreut.
+
+Liegt die Lernressource im Papierkorb, zeigt der Tab alle Angaben nur zum Lesen und ohne Button "Speichern". Nach dem [Wiederherstellen](../learningresources/Course_Delete.de.md) lassen sie sich wieder bearbeiten.
+
 ### Informationen {: #information}
 
 Titelbild, Teaser und Beschreibung sind das Erste, was Interessierte auf der Infoseite lesen und sehen.
 
 #### Titelbild (jpg,png,gif) {: #cover_image}
 
-Das Titelbild wird im Katalog und auf der Infoseite angezeigt. Erlaubt sind die Formate jpg, png und gif. Achten Sie auf die technischen Vorgaben und die Upload-Grenze, die unter dem Feld stehen. Sobald ein Bild gesetzt ist, verschwindet die Fläche "Datei hierher ziehen und loslassen oder" mit dem Button "Datei auswählen". Das Feld zeigt dann das Bild mit dem Button "Löschen".
+Das Titelbild wird im Katalog und auf der Infoseite angezeigt. Erlaubt sind die Formate jpg, png und gif bis 5 MB. Die besten Resultate erzielen Sie mit 570 × 380 Pixel bei 72 dpi, so steht es auch unter dem Feld. Sobald ein Bild gesetzt ist, verschwindet die Fläche "Datei hierher ziehen und loslassen oder" mit dem Button "Datei auswählen". Das Feld zeigt dann das Bild mit dem Button "Löschen".
 
 Sie sollten unbedingt ein Titelbild oder einen Teaser-Film einstellen. Dadurch gewinnt die Beschreibung deutlich an Attraktivität. Achten Sie bei Bildern darauf, keine Texte oder nur kurze Schlagworte darzustellen und eine zum Kurs bzw. zur Lernressource passende Visualisierung zu verwenden.
 
 #### Mit Teaser-Film {: #with_teaser_movie}
 
-Ein kleines Video im mp4-Format rundet die Beschreibung ab. Der Schalter "Mit Teaser-Film" blendet das Feld "Teaser-Film (mp4)" ein. Ist noch kein Film hinterlegt, steht der Schalter auf "Aus". Wie beim Titelbild verschwindet die Fläche zum Hochladen, sobald ein Film hinterlegt ist.
+Ein kleines Video im mp4-Format rundet die Beschreibung ab. Der Schalter "Mit Teaser-Film" blendet das Feld "Teaser-Film (mp4)" ein. Der Film darf höchstens 100 MB gross sein, das optimale Seitenverhältnis ist 3:2. Ist noch kein Film hinterlegt, steht der Schalter auf "Aus". Wie beim Titelbild verschwindet die Fläche zum Hochladen, sobald ein Film hinterlegt ist.
 
 #### Teaser {: #teaser}
 
-Text, der auf der Infoseite unterhalb des Titels erscheint und auch in der Darstellung im Menü "Kurse" direkt angezeigt werden kann.
+Text, der auf der Infoseite unterhalb des Titels erscheint und auch in der Darstellung im Menü "Kurse" direkt angezeigt werden kann. Der Teaser hat höchstens 150 Zeichen.
 
 #### Beschreibung {: #description}
 
@@ -90,11 +98,11 @@ Was die Teilnehmer:innen nach dem Kurs wissen oder können.
 
 #### Voraussetzungen {: #requirements}
 
-Was Interessierte mitbringen sollten, etwa Vorkenntnisse oder Material.
+Was Interessierte mitbringen sollten, etwa Vorkenntnisse oder Material. Das Feld fasst höchstens 2000 Zeichen.
 
 #### Bescheinigung {: #credits}
 
-Hier können Sie erläutern ob bzw. welche Bescheinigung die Teilnehmer:innen nach der Bearbeitung des Kurses bzw. der Lernressource erhalten und welche Anforderungen damit verknüpft sind.
+Hier können Sie erläutern ob bzw. welche Bescheinigung die Teilnehmer:innen nach der Bearbeitung des Kurses bzw. der Lernressource erhalten und welche Anforderungen damit verknüpft sind. Das Feld fasst höchstens 2000 Zeichen.
 
 ---
 
@@ -103,9 +111,10 @@ Hier können Sie erläutern ob bzw. welche Bescheinigung die Teilnehmer:innen na
 **Auf dieser Seite erwähnt**<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
 [Kurseinstellungen - Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Löschen (eines Kurses/einer Lernressource) >](../learningresources/Course_Delete.de.md)<br>
 [Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
-[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)
 
