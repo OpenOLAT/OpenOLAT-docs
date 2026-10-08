@@ -15,7 +15,9 @@ Sie finden das Modul in der System-Administration unter:<br>
     * [ePortfolio](eAssessment_ePortfolio.de.md)
     * [Katalog](Modules_Catalog_2.0.de.md)
 
-![Übersichtsseite der Taxonomien mit Aktivierungsstatus je Bereich, Menüpunkt Taxonomie im Menü Module der System-Administration](assets/modules_taxonomy_entry_v1_de.png){ class="shadow lightbox" }
+    Wie die Bereiche ihre Taxonomie wählen und worin sie sich unterscheiden, erklärt die Seite [Taxonomie](../../manual_user/basic_concepts/Taxonomy_Concept.de.md) im Benutzerhandbuch.
+
+![Übersichtsseite der Taxonomien mit Aktivierungsstatus je Bereich, Menüpunkt Taxonomie im Menü Module der System-Administration](assets/modules_taxonomy_entry_v1_de.png){ class="shadow lightbox" title="Seite Taxonomie im Menü Module" }
 
 Direkt auf der Übersichtsseite kann eine neue Taxonomiestruktur erstellt werden.
 
@@ -31,7 +33,7 @@ Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
 
 **Beispiel** einer ausgearbeiteten Taxonomiestruktur, nach Fächern für den Dokumentenpool:
 
-![Beispielhafte Taxonomiestruktur HFM mit den Fächern MINT, Sport und Sprachen, Tab Taxonomie](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
+![Beispielhafte Taxonomiestruktur HFM mit den Fächern MINT, Sport und Sprachen, Tab Taxonomie](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" title="Tab Taxonomie der Taxonomie HFM" }
 
 
 ## Metadaten {: #metadata}
@@ -41,7 +43,7 @@ die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
 "Metadaten" bearbeitet werden. Hier wird zudem automatisch eine ID erstellt
 und sofern ein externes Verwaltungssystem die Ebenen angelegt hat, wird die
 Externe ID erstellt.
-![Tab Metadaten einer Taxonomie mit den Feldern ID, Externe ID, Kennzeichen, Titel und Beschreibung](assets/modules_taxonomy_metadata_v1_de.png){ class="shadow lightbox" }
+![Tab Metadaten einer Taxonomie mit den Feldern ID, Externe ID, Kennzeichen, Titel und Beschreibung](assets/modules_taxonomy_metadata_v1_de.png){ class="shadow lightbox" title="Tab Metadaten einer Taxonomie" }
 
 ## Ebenentypen {: #level_types}
 
@@ -88,7 +90,7 @@ Eine kurze Beschreibung des Ebenentyps (optional).
 
 Aus den bereits bestehenden Ebenentypen kann nun ein Untertyp ausgewählt werden. So ist es möglich, eine hierarchische Struktur zu schaffen. Diese wird dann beim Erstellen der Taxonomieebenen sichtbar.
 
-![Tab Ebenentypen mit der Liste der Ebenentypen und Button "Neuer Ebenentyp erstellen"](assets/taxonomy-leveltypes.de.jpg){ class="shadow lightbox" }
+![Tab Ebenentypen mit der Liste der Ebenentypen und Button "Neuer Ebenentyp erstellen"](assets/taxonomy-leveltypes.de.jpg){ class="shadow lightbox" title="Tab Ebenentypen einer Taxonomie" }
 
 ## Taxonomie erstellen {: #taxonomy}
 
@@ -129,11 +131,11 @@ Der Titel ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: K
 
 Beschreibung der Taxonomieebene. Wird im Katalog unter der Ebene angezeigt.
 
-![Dialog "Neue Taxonomieebene erstellen" mit den Feldern Pfad, Kennzeichen, Typ, Sortierung, Titel und Beschreibung sowie dem Abschnitt Bilder mit Teaser Bild und Hintergrund Bild](assets/modules_taxonomy_level_create_v1_de.png){ class="shadow lightbox" }
+![Dialog "Neue Taxonomieebene erstellen" mit den Feldern Pfad, Kennzeichen, Typ, Sortierung, Titel und Beschreibung sowie dem Abschnitt Bilder mit Teaser Bild und Hintergrund Bild](assets/modules_taxonomy_level_create_v1_de.png){ class="shadow lightbox" title="Dialog Neue Taxonomieebene erstellen" }
 
 In der Übersicht ist nun die hierarchische Struktur sichtbar.
 
-![Ausgeklappte Liste der Taxonomie ABC im Tab "Ebenen" mit den Spalten Ebene, Kennzeichen, Externe ID und Unterebenen](assets/modules_taxonomy_levels_overview_v1_de.png){ class="shadow lightbox" }
+![Ausgeklappte Liste der Taxonomie ABC im Tab "Ebenen" mit den Spalten Ebene, Kennzeichen, Externe ID und Unterebenen](assets/modules_taxonomy_levels_overview_v1_de.png){ class="shadow lightbox" title="Tab Ebenen einer Taxonomie" }
 
 !!! tip "Kompetenzen"
     In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So erhalten Benutzer:innen die "Zugriffsrechte" für die einzelnen Taxonomieebenen. 
@@ -141,38 +143,35 @@ In der Übersicht ist nun die hierarchische Struktur sichtbar.
 Es werden 4 verschiedene Kompetenzen unterschieden. Diese werden im Folgenden
 kurz umrissen:
 
-* **Dozieren**: Eine Benutzer:in mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, sie hat ein gewisses Fachwissen, das sie weitergeben kann. Die Dozierkompetenz wird der Benutzer:in entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
-* **Verwalten**: Benutzer:innen können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
-* **Haben**: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.
-* **Ziel**: Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
-
-!!! note "Hinweis zu Ziel"
-    Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. 
+* **Unterrichten** ("Dozieren"): Eine Benutzer:in mit der Kompetenz Unterrichten ist in dieser Kompetenz befähigt. Meist bedeutet dies, sie hat ein gewisses Fachwissen, das sie weitergeben kann. Die Kompetenz Unterrichten wird der Benutzer:in entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
+* **Verwalten**: Benutzer:innen können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen sie nicht zwingend auch die Kompetenz Unterrichten haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
+* **Haben**: Sobald eine Person in ihrem [ePortfolio](../../manual_user/area_modules/Portfolio_General_Information.de.md) einem Eintrag über "Kompetenzen hinzufügen" eine Kompetenz zuordnet, trägt OpenOlat ihr die Kompetenz Haben automatisch ein. Von Hand weisen Sie die Kompetenz Haben im Tab "Kompetenzen" der Taxonomieebene zu.
+* **Ziel**: Die Person strebt diese Kompetenz an. Sie sieht die Kompetenz Ziel in den persönlichen Werkzeugen unter "Kompetenzen".
 
 
 ### Taxonomie exportieren {: #export}
 
 
 Die Taxonomie wird mit Klick auf den Menüpunkt (siehe Bild) als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md))
-![Geöffnetes Drei-Punkte-Menü mit den Einträgen Taxonomieebenen exportieren und Taxonomieebenen importieren, rechts über der Liste der Taxonomieebenen](assets/Taxonomie_exportieren.png){ class="shadow lightbox" }
+![Geöffnetes Drei-Punkte-Menü mit den Einträgen Taxonomieebenen exportieren und Taxonomieebenen importieren, rechts über der Liste der Taxonomieebenen](assets/Taxonomie_exportieren.png){ class="shadow lightbox" title="Drei-Punkte-Menü im Tab Ebenen" }
 
 ### Taxonomie importieren [:octicons-tag-16:{ title="ab Release 15.4 (OO-5177)" }](https://track.frentix.com/issue/OO-5177){:target="_blank"} {: #import}
 
 **Daten Einfügen**
 
-![Schritt "Daten einfügen" des Import-Wizards mit den Spaltennamen der Taxonomiestruktur (A) und dem Upload der Hintergrund-/Teaserbilder (B)](assets/taxonomy-import-overview.de.jpg){ class="shadow lightbox" }
+![Schritt "Daten einfügen" des Import-Wizards mit den Spaltennamen der Taxonomiestruktur (A) und dem Upload der Hintergrund-/Teaserbilder (B)](assets/taxonomy-import-overview.de.jpg){ class="shadow lightbox" title="Taxonomieebenen importieren, Schritt Daten einfügen" }
 
 Sie können die verschiedenen Teile der Taxonomie importieren. Möglich ist, nur die Struktur zu importieren (**A**), Bilder zu einer vorhandenen Struktur hinzuzufügen (**B**) oder eine neue Struktur inkl. Bilder zu importieren (**A+B**).
 
 **Änderungen überprüfen**
 
-![Schritt "Änderungen überprüfen" mit Warnsymbol je Zeile, wenn die Taxonomieebene bereits vorhanden ist und aktualisiert werden kann](assets/taxonomy-import-step2.de.jpg){ class="shadow lightbox" }
+![Schritt "Änderungen überprüfen" mit Warnsymbol je Zeile, wenn die Taxonomieebene bereits vorhanden ist und aktualisiert werden kann](assets/taxonomy-import-step2.de.jpg){ class="shadow lightbox" title="Taxonomieebenen importieren, Schritt Änderungen überprüfen" }
 
 Nach dem Import werden im zweiten Schritt die Taxonomie und die hinzugefügten Bilder nochmals überprüft. Ein Icon zeigt an, ob die Taxonomieebene bereits vorhanden ist und mit den Dateien und hochgeladen Informationen ergänzt und überschrieben werden soll.
 
 **Updatemodus auswählen**
 
-![Schritt "Updatemodus auswählen" mit Checkbox "Taxonomien aktualisieren" und Anzahl betroffener Taxonomieebenen](assets/taxonomy-import-step3.de.jpg){ class="shadow lightbox" }
+![Schritt "Updatemodus auswählen" mit Checkbox "Taxonomien aktualisieren" und Anzahl betroffener Taxonomieebenen](assets/taxonomy-import-step3.de.jpg){ class="shadow lightbox" title="Taxonomieebenen importieren, Schritt Updatemodus auswählen" }
 
 Hier entscheiden Sie, ob Sie die existierenden Taxonomieebenen überschreiben lassen oder nur neue Taxonomieebenen hinzufügen wollen. Falls Sie Medien hinzufügen möchten, müssen Sie die Änderungen hier überschreiben lassen.
 
@@ -187,7 +186,7 @@ Hier entscheiden Sie, ob Sie die existierenden Taxonomieebenen überschreiben la
 
 ### Nur Hintergrund-/Teaserbild importieren/hinzufügen {: #import_add_media}
 
-![Ordnerstruktur des entpackten Taxonomie-Exports mit Unterordnern "background" und "teaser" je Taxonomieebene](assets/taxonomy-media-folder-structure.jpg){ class="shadow lightbox" }
+![Ordnerstruktur des entpackten Taxonomie-Exports mit Unterordnern "background" und "teaser" je Taxonomieebene](assets/taxonomy-media-folder-structure.jpg){ class="shadow lightbox" title="Entpacktes Export-Archiv einer Taxonomie" }
 
 1. Wenn Sie Hintergrundbilder zu einer existierenden Taxonomie hinzufügen möchten, exportieren Sie diese im ersten Schritt.
 2. Entzippen Sie das Archiv und legen Sie die betreffenden Bilder im Ordner "media" ab.
@@ -202,7 +201,7 @@ Die KI liest aus einem Bild oder einem Text heraus, worum es inhaltlich geht, un
 
 Die Zuordnung wirkt beim Hochladen eines Bildes im [Media Center](../../manual_user/basic_concepts/Media_Center_Items.de.md#metadata_ai) und beim [Import von Markdown-Dateien in den Content Editor](../../manual_user/basic_concepts/Content_Editor.de.md#markdown). Das Ergebnis steht im Feld "Themen/Fachbereiche" der Metadaten und lässt sich dort ändern. Eine Taxonomieebene, die an einem Medium oder an einer Lernressource hängt, heisst dort Fachbereich.
 
-OpenOlat durchsucht nur die Taxonomien, die für das Media Center ausgewählt sind. Welche das sind, legen Sie in der System-Administration unter `Administration > Module > Media Center` im Feld "Verknüpfte Taxonomien" fest, siehe [Modul Media Center: Taxonomie](Modules_Media_Center.de.md#taxonomy). Die Übersicht unter `Administration > Module > Taxonomie` zeigt je Taxonomie, für welche Bereiche sie aktiviert ist.
+OpenOlat durchsucht die Taxonomien, die für das Media Center ausgewählt sind. Welche das sind, legen Sie in der System-Administration unter `Administration > Module > Media Center` im Feld "Verknüpfte Taxonomien" fest, siehe [Modul Media Center: Taxonomie](Modules_Media_Center.de.md#taxonomy). Ist dort keine Taxonomie ausgewählt, durchsucht OpenOlat die Taxonomien, die unter `Administration > Module > Lernressource` ausgewählt sind. Die Übersicht unter `Administration > Module > Taxonomie` zeigt je Taxonomie, für welche Bereiche sie aktiviert ist; beim Media Center steht in diesem Fall "nicht aktiviert".
 
 ### Voraussetzungen {: #ai_matching_requirements}
 
@@ -238,7 +237,7 @@ Welchen Fachbereich ein Medium erhält, hängt vom Auslöser ab:
 
 Die KI liefert also, worum es im Medium geht, und die Taxonomie-Zuordnung sucht dazu den passenden Fachbereich. Ohne die KI Funktion "Bildbeschreibungs-Generator" bleibt diese Angabe leer, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Der zugeordnete Fachbereich ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
 
-Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung und Tags erzeugt hat, prüfen Sie zuerst, ob für das Media Center eine Taxonomie ausgewählt ist.
+Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung und Tags erzeugt hat, prüfen Sie zuerst, ob für das Media Center eine Taxonomie ausgewählt ist, oder, wenn dort keine ausgewählt ist, unter `Administration > Module > Lernressource`.
 
 [Zum Seitenanfang ^](#module_taxonomy)
 
@@ -257,6 +256,7 @@ Hier werden alle gelöschten Elemente aus dem Tab "Ebenen" abgelegt.
 [Fragenpool >](../../manual_user/area_modules/Question_Bank.de.md)<br>
 [ePortfolio >](eAssessment_ePortfolio.de.md)<br>
 [Katalog >](Modules_Catalog_2.0.de.md)<br>
+[Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
 [Katalog 2.0 >](../../manual_user/area_modules/catalog2.0.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>

@@ -4,7 +4,7 @@
 
     Der Dokumentenpool ist eine Dokumentenbibliothek, die sich aus einer Taxonomie
     aufbaut. Die Freigabe erfolgt über Kompetenzen. So bilden Sie zum Beispiel die
-    Ablage von Lehrmaterialien über die Dozier-Kompetenz ab.
+    Ablage von Lehrmaterialien über die Kompetenz Unterrichten (Dozier-Kompetenz) ab.
 
     Der Dokumentenpool kann für alle OpenOlat-Benutzer:innen freigeschaltet werden, also
     auch für Lernende.
@@ -20,7 +20,7 @@ Administrator:innen konfigurieren den Dokumentenpool in der System-Administratio
 
 Der Dokumentenpool erscheint als eigener [Bereich](../../manual_user/area_modules/index.de.md) in der Hauptnavigation.
 
-![Bereich Dokumentenpool in der Hauptnavigation mit der Taxonomie links und den Dokumenten der ausgewählten Ebene rechts, hier die Ordner Grammatik und Texte](assets/Dokumentenpool_beispiel_DE.png){ class="shadow lightbox" }
+![Bereich Dokumentenpool in der Hauptnavigation mit der Taxonomie links und den Dokumenten der ausgewählten Ebene rechts, hier die Ordner Grammatik und Texte](assets/Dokumentenpool_beispiel_DE.png){ class="shadow lightbox" title="Bereich Dokumentenpool in der Hauptnavigation" }
 
 ## Tab Dokumentenpool [:octicons-tag-16:{ title="ab Release 12.2 (OO-3055)" }](https://track.frentix.com/issue/OO-3055) {: #tab_document_pool}
 
@@ -37,7 +37,7 @@ Dokumentenpool als oberster Eintrag der Navigation links angezeigt. Dort können
 Administrator:innen Dokumente hochladen und allen zur Verfügung stellen,
 unabhängig von ihren Zugriffsrechten im Dokumentenpool.
 
-![Tab Dokumentenpool in der System-Administration mit Checkbox Dokumentenpool einschalten, Feldern WebDAV Mountpunkt und Taxonomie sowie Checkbox Vorlagen aktivieren](assets/Dokumentenpool_DE.png){ class="shadow lightbox" }
+![Checkbox Dokumentenpool einschalten, Felder WebDAV Mountpunkt und Taxonomie sowie Checkbox Vorlagen aktivieren](assets/Dokumentenpool_DE.png){ class="shadow lightbox" title="Tab Dokumentenpool in der System-Administration" }
 
 ## Tab Zugangsberechtigungen {: #tab_permissions}
 
@@ -48,7 +48,7 @@ in der System-Administration unter `Administration > Module > Taxonomie` im Tab 
   * **In Dokumentenpool verwenden:** Mit dieser Option wird definiert, ob dieser Kompetenztyp im Dokumentenpool auftaucht.
   * **Dokumente einschalten:** Nur wenn diese Option aktiviert ist, können auf dieser Ebene Dokumente hochgeladen werden. Ansonsten wird diese Ebene als Struktur ohne Ordnerinhalte abgebildet.
   * **Verwalter:innen-Kompetenz:** Verwaltung zulassen oder nicht
-  * **Dozier-Kompetenz:** In der Dozier-Kompetenz können die Zugriffsrechte auf die einzelnen Ebenen im Dokumentenpool definiert werden. Als erstes wird ausgewählt, ob die Personen mit der Dozier-Kompetenz lesenden Zugriff auf diese Ebene erhalten. Wenn ja, können diese Benutzer:innen die Inhalte auf dieser Ebene lesen. Ausserdem kann mit einer Zahl definiert werden, auf wie viele übergeordnete Taxonomieebenen der lesende Zugriff zusätzlich gestattet werden soll.<br>
+  * **Kompetenz Unterrichten (Dozier-Kompetenz):** In der Kompetenz Unterrichten können die Zugriffsrechte auf die einzelnen Ebenen im Dokumentenpool definiert werden. Als erstes wird ausgewählt, ob die Personen mit der Kompetenz Unterrichten lesenden Zugriff auf diese Ebene erhalten. Wenn ja, können diese Benutzer:innen die Inhalte auf dieser Ebene lesen. Ausserdem kann mit einer Zahl definiert werden, auf wie viele übergeordnete Taxonomieebenen der lesende Zugriff zusätzlich gestattet werden soll.<br>
     Wenn zusätzlich noch "Schreibender Zugriff gestatten" aktiviert wird, können diese Benutzer:innen auch Dokumente hochladen.
   * **Haben-Kompetenz:** lesenden Zugriff gestatten oder nicht
   * **Ziel-Kompetenz:** lesenden Zugriff gestatten oder nicht
@@ -70,7 +70,7 @@ Zum Schluss kann eine Infoseite gestaltet werden. Diese erscheint auf der
 obersten Ebene des Dokumentenpools. Es empfiehlt sich, hier beispielsweise
 eine Anleitung zum Gebrauch des Dokumentenpools zu hinterlegen.
 
-![Infoseite auf der obersten Ebene des Bereichs Dokumentenpool mit dem Willkommenstext](assets/Dokumentenpool_Infoseite.png){ class="shadow lightbox" }
+![Infoseite auf der obersten Ebene des Bereichs Dokumentenpool mit dem Willkommenstext](assets/Dokumentenpool_Infoseite.png){ class="shadow lightbox" title="Infoseite des Bereichs Dokumentenpool" }
 
 ## Weiterführende Informationen {: #further_information}
 

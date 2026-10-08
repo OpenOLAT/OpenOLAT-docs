@@ -288,7 +288,7 @@ Hier finden Sie eine Übersicht über die Termine und Absenzen der Benutzer:in.
 
 ### Kompetenzen
 
-Hier können der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind kategorisiert nach "Verwalten", "Dozieren", "Haben" und "Ziel".
+Hier können der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind kategorisiert nach "Verwalten", "Unterrichten" ("Dozieren"), "Haben" und "Ziel".
 
 [zum Seitenanfang ^](#user_configuration)
 

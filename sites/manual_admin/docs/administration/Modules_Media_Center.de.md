@@ -27,9 +27,9 @@ Wer sicherstellen will, dass jedes neue Medium im Media Center eine Lizenzangabe
 
 ## Taxonomie {: #taxonomy}
 
-Alle Inhalte des Media Centers können einer Taxonomie zugeordnet werden (Metadaten). Da OpenOlat mehrere Taxonomien nebeneinander verwalten kann, legen Administrator:innen unter "Verknüpfte Taxonomien" fest, welche Taxonomien im Media Center verwendet werden.
+Damit sich Medien im Media Center nach Fächern ordnen und filtern lassen, ordnen Sie ihnen Fachbereiche aus einer Taxonomie zu. Das Feld dafür heisst in den Metadaten eines Mediums "Themen/Fachbereiche". Da OpenOlat mehrere Taxonomien nebeneinander verwalten kann, legen Administrator:innen unter "Verknüpfte Taxonomien" fest, welche Taxonomien im Media Center verwendet werden. Ist dort keine Taxonomie ausgewählt, verwendet das Media Center die Taxonomien, die in der System-Administration unter `Administration > Module > Lernressource` ausgewählt sind.
 
-Weitere Informationen finden Sie im Kapitel [Taxonomie](Modules_Taxonomy.de.md).
+Weitere Informationen finden Sie auf der Seite [Modul Taxonomie](Modules_Taxonomy.de.md). Wie die Bereiche ihre Taxonomie wählen, erklärt die Seite [Taxonomie](../../manual_user/basic_concepts/Taxonomy_Concept.de.md) im Benutzerhandbuch.
 
 [Zum Seitenanfang ^](#module_media_center)
 
@@ -61,6 +61,7 @@ Für "Mit Benutzer:in", "Mit Gruppe" und "Mit Kurs" wählen Sie jeweils "Alle" o
 [Dateien und Ordner >](Files_and_Folders.de.md)<br>
 [Lizenzen >](Licenses.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
+[Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
 [Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../../manual_user/personal_menu/Media_Center.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)

@@ -5,7 +5,7 @@ Administrator:innen konfigurieren den Fragenpool für die ganze Plattform in der
 
 Einige der Einstellungen können auch Poolverwalter:innen in der [Administration der Poolverwalter:innen](../../manual_user/area_modules/Question_Bank_Administration.de.md) vornehmen.
 
-![Grundeinstellungen des Fragenpools und Rechte der Poolverwalter:innen, Tab Fragenpool in der System-Administration](assets/Fragenpool_admin.png){ class="shadow lightbox" }
+![Grundeinstellungen des Fragenpools und Rechte der Poolverwalter:innen](assets/Fragenpool_admin.png){ class="shadow lightbox" title="Tab Fragenpool in der System-Administration" }
 
 ## Tab Fragenpool
 
@@ -18,7 +18,7 @@ Der Schalter "Fachbereiche" lässt sich nicht ausschalten, solange der Beurteilu
 Weitere Informationen zum [Beurteilungsprozess](../../manual_user/area_modules/Question_Bank_Review_Process.de.md) finden Sie im entsprechenden Kapitel.
 
   * Taxonomie: Jedem Fragenpool ist die Taxonomie "Question pool" zugeordnet. Änderungen können im Tab "Fachbereiche" vorgenommen werden. Weitere Informationen zur Taxonomie finden Sie [hier](Modules_Taxonomy.de.md).
-  * Auswählbare Fachbereiche: Wenn "Alle Fachbereiche" ausgewählt ist, kann bei einer Frage jeder Fachbereich ausgewählt werden, unabhängig von den eigenen Kompetenzen. Wenn jedoch "Fachbereiche mit der Kompetenz "Dozieren" oder "Verwalten"" ausgewählt ist, können im Fragenpool die Fragen nur denjenigen Fachbereichen zugeordnete werden, bei denen man selbst über eine gewissen Kompetenz verfügt. Diese Kompetenzen werden entweder in der System-Administration unter `Administration > Module > Taxonomie` oder in der Benutzerverwaltung hinzugefügt.
+  * Auswählbare Fachbereiche: Wenn "Alle Fachbereiche" ausgewählt ist, kann bei einer Frage jeder Fachbereich ausgewählt werden, unabhängig von den eigenen Kompetenzen. Wenn jedoch "Fachbereiche mit der Kompetenz "Unterrichten" ("Dozieren") oder "Verwalten"" ausgewählt ist, können im Fragenpool die Fragen nur denjenigen Fachbereichen zugeordnete werden, bei denen man selbst über eine gewissen Kompetenz verfügt. Diese Kompetenzen werden entweder in der System-Administration unter `Administration > Module > Taxonomie` oder in der Benutzerverwaltung hinzugefügt.
   * Fachbereich beim Import erzeugen: Fragen können via Excel-Import im Fragenpool hinzugefügt werden. Bei jeder Frage kann als Metadaten der Fachbereich importiert werden. Wenn diese Option aktiviert ist, bedeutet dies, dass durch den Import neue Fachbereiche angelegt werden, sofern diese noch nicht bestehen. Wenn es sich nur um einen Tippfehler handelt, wird auch ein neuer Fachbereich erstellt.
   * Stufen: Schaltet die Stufen ein, die im Tab "Stufen" erstellt und in den Metadaten einer Frage ausgewählt werden.
   * Fragen löschen, wenn Autor:in gelöscht: Beim Löschen eines Kontos wird die Person als Autor:in von allen Fragen ausgetragen. Ist diese Option eingeschaltet und ist die Person die einzige Autor:in einer Frage, wird die Frage ebenfalls gelöscht. Ist die Option ausgeschaltet, bleiben solche Fragen ohne Autor:in im Fragenpool. Administrator:innen finden sie im Bereich Fragenpool unter `Fragenpool > Fragen > Ohne Autor:in` und können ihnen neue Autor:innen zuordnen.
@@ -37,12 +37,12 @@ Hier können Sie eine Infoseite erstellen. Diese Infoseite wird angezeigt, wenn 
 
 ## Tab Beurteilungsprozess
 
-![Einstellungen des Beurteilungsprozesses wie Beurteilungsmethode und Sichtbarkeit finaler Fragen, Tab Beurteilungsprozess in der System-Administration](assets/admin_fp_beurteilungsprozess.png){ class="shadow lightbox" }
+![Einstellungen des Beurteilungsprozesses wie Beurteilungsmethode und Sichtbarkeit finaler Fragen](assets/admin_fp_beurteilungsprozess.png){ class="shadow lightbox" title="Tab Beurteilungsprozess in der System-Administration" }
 
   * Beurteilungsmethode: Vorerst kann nur die Beurteilungsmethode Untergrenze ausgewählt werden. Bei der Beurteilungsmethode "Untergrenze" wird eine Frage auf den Status "Final" gesetzt, wenn die minimale Anzahl der Bewertungen erreicht ist und alle Bewertungen höher oder gleich hoch sind wie die Untergrenze. Wenn eine Bewertung unterhalb der Untergrenze liegt, dann wird der Status der Frage sofort auf "Revision" gesetzt, auch wenn die minimale Anzahl Bewertungen noch nicht erreicht ist.
   * Anzahl Beurteilungen pro Frage: Diese Anzahl an Personen muss pro Frage eine positive Beurteilung, also oberhalb der Untergrenze, abgeben, damit die Frage in den Status Final wechselt.
   * Untergrenze für positive Beurteilung: Die hier definierte Anzahl Sterne muss von den Beurteiler:innen mindestens vergeben werden, damit die Frage in den Status Final wechseln kann. Wird eine Bewertung unterhalb der Untergrenze vergeben, wird die Frage direkt in den Status Revision gesetzt. 
-  * Sichtbarkeit von finalen Fragen: Hier kann definiert werden, wer im Fragenpool den Eintrag "Final" und somit die Fragen im Status Final sieht. Dies können entweder nur die Personen mit der Kompetenz "Verwalten" des entsprechenden Fachbereichs sein. Oder aber alle Personen, welche entweder die Kompetenz "Dozieren" oder "Verwalten" des entsprechenden Fachbereichs besitzen.
+  * Sichtbarkeit von finalen Fragen: Hier kann definiert werden, wer im Fragenpool den Eintrag "Final" und somit die Fragen im Status Final sieht. Dies können entweder nur die Personen mit der Kompetenz "Verwalten" des entsprechenden Fachbereichs sein. Oder aber alle Personen, welche entweder die Kompetenz "Unterrichten" ("Dozieren") oder "Verwalten" des entsprechenden Fachbereichs besitzen.
 
 ## Tab Fachbereiche
 

@@ -342,7 +342,7 @@ verwaltet werden.
 	    * Typ (type)
 	    * Alle Kompetenzen (competences)
 	        * Kompetenz "Verwalten" (manageCompetence)
-	        * Kompetenz "Dozieren" (teachCompetence)
+	        * Kompetenz "Unterrichten" ("Dozieren", teachCompetence)
 	        * Kompetenz "Haben" (haveCompetence)
 	        * Kompetenz "Ziel" (targetCompetence)
 	    * Ebene verschieben (move)
