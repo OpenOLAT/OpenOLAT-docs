@@ -3,7 +3,7 @@
 You can make the configurations that affect the course as a whole under:<br>
 `Course > Administration > Settings`
 
-The "Settings" menu is available to owners of the course, learning resource managers and administrators, and also to persons who have been granted the "Course editor" right in the [Member management](../learningresources/Members_management.md).
+The "Settings" menu is available to owners of the course, learning resource managers and administrators, and also to persons who have been granted the "Course editor" right in the [Members management](../learningresources/Members_management.md).
 
 ![Course settings opened via the Settings entry in the Administration menu, with one tab per settings area](assets/course_settings_menu_v3_en.png){ class="shadow lightbox" title="Administration menu in the course · 2026.10.02" }
 
@@ -29,6 +29,8 @@ Available since | Release 13.0 (OO-3706)
 ![Tab "Metadata" active, first in the tab bar](assets/course_settings_tab_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab in the course settings · 2026.10.02" }
 
 Metadata name the course and classify it. The metadata can be used to make your course easier to find, for example. Only the title is mandatory.
+
+After creating, copying or importing a learning resource, OpenOlat opens the settings on this tab. This way you check the title and reference right at the start [:octicons-tag-16:{ title="from Release 21.1 (OO-9775)" }](https://track.frentix.com/issue/OO-9775){:target="_blank"}.
 
 Metadata of a course are
 
@@ -124,7 +126,7 @@ Here
 
 can be activated and stored. If a person starts the course, they must first accept the conditions, otherwise access to the course is not possible. For each text you switch on, you enter a title, the conditions and the label of the checkbox that is ticked to accept. A second checkbox is possible.
 
-In the [Member management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions.
+In the [Members management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions.
 
 ![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels](assets/disclaimer_course_v1_en.png){ class="shadow lightbox" title="Form Course related terms of use" }
 

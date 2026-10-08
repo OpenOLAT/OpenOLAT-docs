@@ -4,7 +4,7 @@
 
 The following learning resources can be created in Authoring:
 
-![Open Create menu with the learning resources course, test, CP learning content, wiki, podcast, blog, resource folder, form, portfolio 2.0 template and glossary. Authoring, tab Search form.](assets/autorenbereich_erstellen_v1_de.png){ class="shadow lightbox" }
+![Open Create menu with course, test, CP learning content, wiki, podcast, blog, resource folder, form, portfolio 2.0 template and glossary](assets/autorenbereich_erstellen_v1_de.png){ class="shadow lightbox" title="Create menu in Authoring" }
 
 The specific creation process is described on the following pages:
 
@@ -48,23 +48,23 @@ The specific creation process is described on the following pages:
 
 ## Import learning resources
 
-![Import file button with the selection menu Embed via URL, below it the two dialogs Import file and Embed via URL. Authoring.](assets/Datei_importieren_gesamt.jpg){ class="shadow lightbox" }
+![The Import file button opens the dialog for uploading a file, the selection menu next to it with Embed via URL opens the dialog for a URL](assets/Datei_importieren_gesamt.jpg){ class="shadow lightbox" title="Import in Authoring" }
 
 ### Import file
 Learning resources created outside OpenOlat or exported from another OpenOlat system can be imported into OpenOlat, provided they are in a compatible format. All of the mentioned types of learning resources, videos, certain standardized formats and any files can be imported.
 
 If you import a course from another OpenOlat instance, for example, you will be asked whether the learning resources used in the course (e.g. a wiki or a test) should also be imported. After the import, you must publish the course so that it is visible to you and other OpenOlat users.
 
-At the end of the import, you reach the "Settings" menu, where you can make further configurations, for example define the licence of the course.
+At the end of the import, OpenOlat opens the settings of the learning resource on the ["Metadata" tab](../learningresources/Course_Settings_Metadata.md). There you check the title and reference and make further configurations, for example the license.
 
 ### Embed via URL [:octicons-tag-16:{ title="from Release 13.2 (OO-3859)" }](https://track.frentix.com/issue/OO-3859)
 External media can also be embedded via URL without uploading the file to OpenOlat. To do so, open the selection menu next to the **Import file** button in Authoring and select **Embed via URL**.
 
-![Menu "Embed via URL"](assets/authoring_embed_via_url_v2_en.png){ class="shadow lightbox" }
+![Entry Embed via URL in the selection menu next to the Import file button](assets/authoring_embed_via_url_v2_en.png){ class="shadow lightbox" title="Selection menu in Authoring" }
 
 Based on the URL, OpenOlat automatically detects the appropriate resource type and creates a corresponding learning resource in which the medium is linked. For videos, this creates a [Learning resource video](../learningresources/Learning_resource_Video.md); all functions of the OpenOlat video editor are then available.
 
-![Dialog "Embed via URL"](assets/authoring_embed_via_url_dialogue_v1_en.png){ class="shadow lightbox" }
+![URL of a YouTube video entered, type Video detected and title of learning resource prefilled from the source](assets/authoring_embed_via_url_dialogue_v1_en.png){ class="shadow lightbox" title="Dialog Embed via URL" }
 
 The following resources are supported:
 
@@ -80,7 +80,7 @@ The dialog contains the following fields:
 | **URL** | Link to the external resource. After entering it, OpenOlat automatically determines the type and, if available, the title of the medium. |
 | **Type** | The detected resource type. If several types match the URL, select the desired one here. |
 | **Title of learning resource** | Mandatory field. Name of the new learning resource. For videos, the title is prefilled from the source and can be adjusted. |
-| **Reference** | Optional external identifier, displayed on the course overview page. |
+| **Reference** | Optional external identifier, displayed on the course overview page, see [Reference](../learningresources/Course_Settings_Metadata.md#externalref). |
 | **Administrative access** | Mandatory field. Organisation to which the learning resource is administratively assigned. |
 
 Click **Embed** to create the learning resource.
@@ -110,6 +110,7 @@ Click **Embed** to create the learning resource.
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Glossary >](../learningresources/Glossary.md)<br>
+[Course Settings - Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)
 
 **youtube**<br>
