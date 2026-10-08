@@ -50,8 +50,8 @@ Ein Export auf Ebene der Durchführung enthält immer alle zugehörigen Angaben 
 ##### Navigation unter Produkt
 ![Aktion Export im Menü der drei Punkte am Zeilenende eines Produkts](assets/course_planner_export_product_v1_de.png){ class="shadow lightbox" title="Produktliste des Course Planners" }
 
-**Bulk Vorgang**
-![Zwei markierte Produkte und der Button Export über der Liste](assets/course_planner_export_product_bulk_v1_de.png){ class="shadow lightbox" title="Produktliste mit zwei ausgewählten Produkten" }
+##### Bulk-Aktion unter Produkt
+![Zwei markierte Produkte und der Button Export über der Liste](assets/course_planner_export_product_bulk_v1_de.png){ class="shadow lightbox thumbnail-xl" title="Produktliste mit zwei ausgewählten Produkten" }
 
 ##### Navigation unter Durchführung
 ![Zwei markierte Durchführungen mit dem Button Export über der Liste, dazu die Aktion Export im Zeilenmenü](assets/course_planner_export_implementation_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen im Course Planner" }

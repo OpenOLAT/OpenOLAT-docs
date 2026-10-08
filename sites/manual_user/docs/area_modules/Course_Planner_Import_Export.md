@@ -50,8 +50,8 @@ An export at implementation level always contains all related data including mem
 ##### Navigation under Product
 ![Export action in the menu of the three dots at the end of a product row](assets/course_planner_export_product_v1_en.png){ class="shadow lightbox" title="Product list of the Course Planner" }
 
-**Bulk action**
-![Two selected products and the Export button above the list](assets/course_planner_export_product_bulk_v1_en.png){ class="shadow lightbox" title="Product list with two selected products" }
+##### Bulk action under Product
+![Two selected products and the Export button above the list](assets/course_planner_export_product_bulk_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Product list with two selected products" }
 
 ##### Navigation under Implementation
 ![Two selected implementations with the Export button above the list, plus the Export action in the row menu](assets/course_planner_export_implementation_v1_en.png){ class="shadow lightbox" title="List of implementations in the Course Planner" }
