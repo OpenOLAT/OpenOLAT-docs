@@ -11,15 +11,18 @@ Available since | Release 8.0 (2011)
 
 ---
 
-## Representation, layout {: #layout}
+<a id="representation-layout"></a>
+## Layout {: #layout}
 
-![Layout page in the Customizing menu: system layout as a selection list, logo upload with target URL and alternative text, footer line with target URL and text](assets/admin_customizing_layout_v1_en.png){ class="shadow lightbox" }
+![System layout selection list, logo upload up to 1 MB with target URL and alternative text, footer line with target URL and text](assets/admin_customizing_layout_v1_en.png){ class="shadow lightbox" title="Layout page in the Customizing menu" }
 
 ### Section Layout
 
-The system layout, a company logo and properties relating to the footer can be stored here.
+Here you define how the whole instance looks: you choose one of the installed themes in the "System layout" list. The choice applies to all people of the instance, not only to your own view.
 
-The background image of the login page is part of the layout theme and cannot be configured in the system administration. It is customized through an individual theme. For hosted instances, please contact your provider.
+You cannot create a new theme in the system administration. The "System layout" list only shows the themes that are installed on the server of your instance. The background image of the login page is also part of the theme. For a new or individual theme, contact the provider of your hosted instance. frentix customers contact frentix support for this: [support@frentix.com](mailto:support@frentix.com). If you run OpenOlat yourself, place the theme as a folder in the directory for custom themes on the server.
+
+If a theme that is already loaded has been changed on the server, browsers often still show the old version from their cache. With the "Force reload of all static resources" button, all browsers load the files of the theme again. [:octicons-tag-16:{ title="from Release 12.3 (OO-3235)" }](https://track.frentix.com/issue/OO-3235)
 
 ### Company or Institution Logo Section [:octicons-tag-16:{ title="from Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
 

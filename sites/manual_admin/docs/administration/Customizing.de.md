@@ -11,15 +11,18 @@ Verfügbar seit | Release 8.0 (2011)
 
 ---
 
-## Darstellung, Layout {: #layout}
+<a id="representation-layout"></a>
+## Darstellung {: #layout}
 
-![Seite Darstellung im Menü Customizing: Systemlayout als Auswahlliste, Logo-Upload mit Ziel-URL und Alternativ-Text, Fusszeile mit Ziel-URL und Text](assets/admin_customizing_layout_v1_de.png){ class="shadow lightbox" }
+![Auswahlliste Systemlayout, Logo-Upload bis 1 MB mit Ziel-URL und Alternativ-Text, Fusszeile mit Ziel-URL und Text](assets/admin_customizing_layout_v1_de.png){ class="shadow lightbox" title="Seite Darstellung im Menü Customizing" }
 
 ### Abschnitt Layout
 
-Dieser Abschnitt dient dazu, die verfügbaren Layout-Themes auszuprobieren.
+Hier legen Sie fest, wie die ganze Instanz aussieht: Sie wählen in der Liste "Systemlayout" eines der installierten Themes. Die Auswahl gilt für alle Personen der Instanz, nicht nur für Ihre eigene Ansicht.
 
-Das Hintergrundbild der Anmeldeseite ist Bestandteil des Layout-Themes und lässt sich nicht in der System-Administration konfigurieren. Es wird über ein individuelles Theme angepasst. Wenden Sie sich bei gehosteten Instanzen dazu an den Betreiber.
+Ein neues Theme lässt sich nicht in der System-Administration erstellen. Die Liste "Systemlayout" zeigt nur die Themes, die auf dem Server Ihrer Instanz installiert sind. Zum Theme gehört auch das Hintergrundbild der Anmeldeseite. Für ein neues oder individuelles Theme wenden Sie sich bei gehosteten Instanzen an den Betreiber. frentix-Kund:innen wenden sich dafür an den frentix Support: [support@frentix.com](mailto:support@frentix.com). Betreiben Sie OpenOlat selbst, legen Sie das Theme als Ordner im Verzeichnis für eigene Themes auf dem Server ab.
+
+Wurde ein bereits geladenes Theme auf dem Server geändert, zeigen Browser oft noch die alte Fassung aus ihrem Zwischenspeicher. Mit dem Button "Neuladen aller statischen Ressourcen erzwingen" laden alle Browser die Dateien des Themes neu. [:octicons-tag-16:{ title="ab Release 12.3 (OO-3235)" }](https://track.frentix.com/issue/OO-3235)
 
 ### Abschnitt Firmen- oder Institutionslogo [:octicons-tag-16:{ title="ab Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
 
