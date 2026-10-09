@@ -15,7 +15,7 @@ After that, further settings are available there, and the "Events" icon appears 
 
 As a course owner, you create events here and manage the absences. You find largely the same options in the Administration menu under "Events and Absences".
 
-![The menu entry "Events and Absences" opens the event and absence management for course owners](assets/events_and_absences_adminmenu_v1_en.png){ class="shadow lightbox" title="Menu Administration of a course" }
+![The menu entry "Events and Absences" opens the event and absence management for course owners](assets/events_and_absences_adminmenu_v2_en.png){ class="shadow lightbox" title="Menu Administration of a course · 2026.10.09" }
 
 As a coach, you open the events only via the "Events" icon in the toolbar; the Administration menu has no entry "Events and Absences". You do not create new events. You see the existing events and, if switched on in the course, record the absences. With "Show only mine" you see only the events where you are entered as teacher.
 
@@ -89,7 +89,7 @@ The remaining details only appear if they are maintained for the event:
 
 At the very bottom a table shows who the event is for: one row per course, group or element of the Course Planner, with the number of participants and whether they are included or excluded. How to leave participants out is described under [Exclude participants](#exclude_participants).
 
-![Expanded event with date, time, compulsory presence, room card, description and at the bottom the table of who the event is for](assets/events_and_absences_timeline_v1_en.png){ class="shadow lightbox" title="Timeline of the event list" }
+![Expanded event with date, time, location, compulsory presence, room card, description, preparation and at the bottom the table of who the event is for](assets/events_and_absences_timeline_v2_en.png){ class="shadow lightbox" title="Timeline of the event list · 2026.10.09" }
 
 Rooms are assigned in the Course Planner. A standalone course therefore shows no room cards: [Book rooms for an event >](../area_modules/Course_Planner_Events.md#room_booking)
 
@@ -177,11 +177,11 @@ You enter many events at once faster with an Excel file than one by one in the d
 
 If an event takes place as an exam, you mark it via "Mark as exam" in the 3-dot menu. OpenOlat creates an assessment mode for this, which takes the date, time and participants from the event. In the following dialog, you select the course elements of the exam and, if required, switch on the [Safe Exam Browser](../../manual_how-to/SEB/SEB.md): [Assessment mode from an event](../learningresources/Assessment_mode.md#exam_from_event)
 
-![Entry "Mark as exam" in the 3-dot menu at the end of the event row](assets/events_and_absences_tab_events_mark_as_exam_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
+![Entry "Mark as exam" in the 3-dot menu at the end of the event row](assets/events_and_absences_tab_events_mark_as_exam_v2_en.png){ class="shadow lightbox" title="Tab Events in the course administration · 2026.10.09" }
 
 After saving, the column "Exam" shows a symbol, and the 3-dot menu offers "Edit exam" and "Delete exam". The exam also appears in the assessment management of the course under `Course > Administration > Assessment management`.
 
-![Symbol in the column Exam and the entries Edit exam and Delete exam in the 3-dot menu](assets/events_and_absences_tab_events_exam_marked_v2_en.png){ class="shadow lightbox" title="Tab Events in the course administration · 2026.10.02" }
+![Symbol in the column Exam and the entries Edit exam and Delete exam in the 3-dot menu](assets/events_and_absences_tab_events_exam_marked_v3_en.png){ class="shadow lightbox" title="Tab Events in the course administration · 2026.10.09" }
 
 Coaches have the same entry in the toolbar. The page on the toolbar describes who else can use it and why it can be missing: [If "Mark as exam" is missing](../learningresources/Toolbar_Events.md#mark_as_exam_missing)
 

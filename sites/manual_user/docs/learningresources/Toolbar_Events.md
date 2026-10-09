@@ -8,7 +8,7 @@ Participants, coaches and owners of the course see the icon. What you can do aft
 
 ## Call as participant {: #call_as_participant}
 
-![Icon "Events" in the toolbar of a course](assets/toolbar_events_participant1_v1_en.png){ class="shadow lightbox" title="Course toolbar in the participants' view" }
+![Participants open their events via the icon Events in the course toolbar](assets/toolbar_events_participant1_v2_en.png){ class="shadow lightbox" title="Course toolbar in the participants' view · 2026.10.09" }
 
 As a participant, you see your own events here with the details that apply to you. You do not record absences here.
 
@@ -42,7 +42,7 @@ If one of your events is over and its absences have not been recorded yet, a not
 
 An event is divided into units, for example a morning from 8:00 to 12:00 in 4 units of one hour each. You record the absences per unit: in the columns "U. 1", "U. 2" and so on, tick every unit in which a person was absent. With "Authorized" you mark an authorized absence and give a reason. In the column "Comment" you note a remark on the whole event for each person.
 
-![Absences recorded per unit, with reason and comment for an authorized absence](assets/toolbar_events_coach_record_absences2_v1_en.png){ class="shadow lightbox" title="Form for recording absences" }
+![Absences ticked per unit, an authorized absence with reason and remark and the comment fields for each participant](assets/toolbar_events_coach_record_absences2_v2_en.png){ class="shadow lightbox" title="Form for recording absences · 2026.10.09" }
 
 If you want to continue the recording later, click "Quick save absences" at the bottom.
 
@@ -60,7 +60,7 @@ Once all absences of an event are recorded, you close the event as follows:
 
 The dialog only shows the field "Effective units" if the system administration has switched on the option ["Allow holding partial events"](../../manual_admin/administration/Modules_Events_and_Absences.md#partially_done). There you then choose how many units actually took place.
 
-![Effective end and comment when closing an event](assets/toolbar_events_coach_close_event_v1_en.png){ class="shadow lightbox" title="Dialog Close events" }
+![When closing an event, you choose the effective units, check the effective end and enter a comment if required](assets/toolbar_events_coach_close_event_v2_en.png){ class="shadow lightbox" title="Dialog Close events · 2026.10.09" }
 
 
 
@@ -143,7 +143,7 @@ See [Recording and managing absences in a course by course owners >](../learning
 
 Here you work with the events themselves: you create events and record absences. Whether the course has events at all and how absences count, you set in the [course settings](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management) instead.
 
-![Icon "Events" in the toolbar of a course](assets/toolbar_events_owner1_v1_en.png){ class="shadow lightbox" title="Course toolbar in the course owners' view" }
+![The icon Events in the course toolbar opens the event management, the role shows Owner](assets/toolbar_events_owner1_v2_en.png){ class="shadow lightbox" title="Course toolbar in the course owners' view · 2026.10.09" }
 
 
 [To the top of the page ^](#toolbar_events)

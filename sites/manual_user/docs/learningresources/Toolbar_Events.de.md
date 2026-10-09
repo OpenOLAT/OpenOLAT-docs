@@ -8,7 +8,7 @@ Teilnehmer:innen, Betreuer:innen und Besitzer:innen des Kurses sehen das Icon. W
 
 ## Aufruf als Teilnehmer:in {: #call_as_participant}
 
-![Icon "Termine" in der Toolbar eines Kurses](assets/toolbar_events_participant1_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Teilnehmer:innen" }
+![Teilnehmende öffnen ihre Termine über das Icon Termine in der Kurs-Toolbar](assets/toolbar_events_participant1_v2_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Teilnehmer:innen · 2026.10.09" }
 
 Als Teilnehmer:in sehen Sie hier Ihre eigenen Termine mit den Angaben, die für Sie gelten. Absenzen erfassen Sie hier nicht.
 
@@ -42,7 +42,7 @@ Ist einer Ihrer Termine vorbei und sind seine Absenzen noch nicht erfasst, steht
 
 Ein Termin ist in Einheiten unterteilt, zum Beispiel ein Vormittag von 8.00 bis 12.00 Uhr in 4 Einheiten zu je einer Stunde. Die Absenzen erfassen Sie pro Einheit: In den Spalten "E. 1", "E. 2" und so weiter setzen Sie ein Häkchen bei jeder Einheit, in der eine Person gefehlt hat. Mit "Entschuldigt" markieren Sie eine entschuldigte Absenz und begründen sie. In der Spalte "Kommentar" halten Sie pro Person eine Bemerkung zum ganzen Termin fest.
 
-![Absenzen pro Einheit mit Kommentarfeldern je Teilnehmer:in](assets/toolbar_events_coach_record_absences2_v1_de.png){ class="shadow lightbox" title="Formular zum Erfassen der Absenzen" }
+![Absenzen pro Einheit mit Häkchen, eine entschuldigte Absenz mit Grund und Bemerkung und die Kommentarfelder je Teilnehmer:in](assets/toolbar_events_coach_record_absences2_v2_de.png){ class="shadow lightbox" title="Formular zum Erfassen der Absenzen · 2026.10.09" }
 
 Möchten Sie die Erfassung später fortsetzen, klicken Sie unten auf "Absenzen zwischenspeichern".
 
@@ -60,7 +60,7 @@ Sind alle Absenzen eines Termins erfasst, schliessen Sie den Termin so ab:
 
 Das Feld "Effektive Einheiten" zeigt der Dialog nur, wenn die System-Administration die Option ["Termine partiell durchgeführt zulassen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#partially_done) eingeschaltet hat. Dort wählen Sie dann, wie viele Einheiten tatsächlich stattgefunden haben.
 
-![Effektive Einheiten, effektives Ende und Bemerkung beim Abschliessen eines Termins](assets/toolbar_events_coach_close_event_v1_de.png){ class="shadow lightbox" title="Dialog Termine abschliessen" }
+![Beim Abschliessen eines Termins wählen Sie die effektiven Einheiten, prüfen das effektive Ende und geben bei Bedarf eine Bemerkung ein](assets/toolbar_events_coach_close_event_v2_de.png){ class="shadow lightbox" title="Dialog Termine abschliessen · 2026.10.09" }
 
 
 
@@ -143,7 +143,7 @@ Siehe [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:in
 
 Hier arbeiten Sie mit den Terminen selbst: Sie legen Termine an und erfassen Absenzen. Ob der Kurs überhaupt Termine hat und wie Absenzen zählen, legen Sie dagegen in den [Kurseinstellungen](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management) fest.
 
-![Icon "Termine" in der Toolbar eines Kurses](assets/toolbar_events_owner1_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Kursbesitzer:innen" }
+![Das Icon Termine in der Kurs-Toolbar öffnet die Terminverwaltung, die Rolle zeigt Besitzer:in](assets/toolbar_events_owner1_v2_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Kursbesitzer:innen · 2026.10.09" }
 
 
 [Zum Seitenanfang ^](#toolbar_events)

@@ -15,7 +15,7 @@ Danach stehen dort weitere Einstellungen bereit, und in der Kurs-Toolbar erschei
 
 Als Kursbesitzer:in legen Sie hier Termine an und verwalten die Absenzen. Dieselben Möglichkeiten finden Sie weitgehend auch im Menü Administration unter "Termine und Absenzen".
 
-![Menüeintrag "Termine und Absenzen" öffnet die Termin- und Absenzenverwaltung für Kursbesitzer:innen](assets/events_and_absences_adminmenu_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
+![Menüeintrag "Termine und Absenzen" öffnet die Termin- und Absenzenverwaltung für Kursbesitzer:innen](assets/events_and_absences_adminmenu_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.10.09" }
 
 Als Betreuer:in öffnen Sie die Termine nur über das Icon "Termine" in der Toolbar; im Menü Administration fehlt der Eintrag "Termine und Absenzen". Neue Termine legen Sie nicht an. Sie sehen die vorhandenen Termine und erfassen, sofern im Kurs eingeschaltet, die Absenzen. Mit "Zeigt nur meine" sehen Sie nur die Termine, bei denen Sie als Dozent:in eingetragen sind.
 
@@ -89,7 +89,7 @@ Die übrigen Angaben erscheinen nur, wenn sie am Termin gepflegt sind:
 
 Zuunterst zeigt eine Tabelle, für wen der Termin gilt: eine Zeile pro Kurs, Gruppe oder Element des Course Planner, mit der Anzahl Teilnehmender und ob sie eingeschlossen oder ausgeschlossen sind. Wie Sie Teilnehmende ausnehmen, steht unter [Teilnehmer:innen ausschliessen](#exclude_participants).
 
-![Aufgeklappter Termin mit Datum, Zeit, Präsenz, Raumkarte, Beschreibung und zuunterst der Tabelle, für wen der Termin gilt](assets/events_and_absences_timeline_v1_de.png){ class="shadow lightbox" title="Zeitansicht der Terminliste" }
+![Aufgeklappter Termin mit Datum, Zeit, Ort, Präsenz, Raumkarte, Beschreibung, Vorbereitung und zuunterst der Tabelle, für wen der Termin gilt](assets/events_and_absences_timeline_v2_de.png){ class="shadow lightbox" title="Zeitansicht der Terminliste · 2026.10.09" }
 
 Räume werden im Course Planner zugewiesen. Ein eigenständiger Kurs zeigt deshalb keine Raumkarten: [Räume für einen Termin belegen >](../area_modules/Course_Planner_Events.de.md#room_booking)
 
@@ -177,11 +177,11 @@ Viele Termine auf einmal erfassen Sie schneller mit einer Excel-Datei als einzel
 
 Findet ein Termin als Prüfung statt, markieren Sie ihn über "Als Prüfung markieren" im 3-Punkte-Menü. OpenOlat legt dafür einen Prüfungsmodus an, der Datum, Zeit und Teilnehmende aus dem Termin übernimmt. Im folgenden Dialog wählen Sie die Kursbausteine der Prüfung und schalten bei Bedarf den [Safe Exam Browser](../../manual_how-to/SEB/SEB.de.md) ein: [Prüfungsmodus aus einem Termin](../learningresources/Assessment_mode.de.md#exam_from_event)
 
-![Eintrag "Als Prüfung markieren" im 3-Punkte-Menü am Ende der Terminzeile](assets/events_and_absences_tab_events_mark_as_exam_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
+![Eintrag "Als Prüfung markieren" im 3-Punkte-Menü am Ende der Terminzeile](assets/events_and_absences_tab_events_mark_as_exam_v2_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 
 Nach dem Speichern zeigt die Spalte "Prüfung" ein Symbol, und das 3-Punkte-Menü bietet "Prüfung editieren" und "Prüfung löschen". Die Prüfung erscheint zudem in der Prüfungsverwaltung des Kurses unter `Kurs > Administration > Prüfungsverwaltung`.
 
-![Symbol in der Spalte Prüfung und die Einträge Prüfung editieren und Prüfung löschen im 3-Punkte-Menü](assets/events_and_absences_tab_events_exam_marked_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.02" }
+![Symbol in der Spalte Prüfung und die Einträge Prüfung editieren und Prüfung löschen im 3-Punkte-Menü](assets/events_and_absences_tab_events_exam_marked_v2_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 
 Denselben Eintrag haben Betreuer:innen in der Toolbar. Wer ihn ausserdem nutzen kann und warum er fehlen kann, beschreibt die Seite zur Toolbar: [Wenn "Als Prüfung markieren" fehlt](../learningresources/Toolbar_Events.de.md#mark_as_exam_missing)
 
