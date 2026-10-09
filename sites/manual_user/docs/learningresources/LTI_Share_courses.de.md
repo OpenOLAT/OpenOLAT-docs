@@ -1,10 +1,26 @@
 # Kurseinstellungen - Tab Freigabe:<br> LTI Zugang zu einem Kurs konfigurieren {: #LTI_share_course}
 
-OpenOlat ermöglicht es anderen LMS, via LTI auf einzelne OpenOlat-Kurse zuzugreifen. Ihre OpenOlat-Kurse können so auch von Personen besucht werden, die auf einem anderen LMS arbeiten.
+## Was können Sie mit der LTI-Freigabe tun? {: #lti_share_meaning}
 
-**Beispiel:**<br>
-Ein OpenOlat-Kurs wird von Moodle aus via LTI 1.3 gestartet. Dabei werden die Personen beim Aufruf in OpenOlat als LTI-Konten angelegt und erhalten Zugriff auf den OpenOlat-Kurs (in der Rolle Teilnehmer:in oder Betreuer:in).<br>
+Mit der LTI-Freigabe bieten Sie einen OpenOlat-Kurs in einem anderen Lernmanagementsystem an, zum Beispiel in Moodle. Die Personen dort bleiben in ihrem gewohnten System. Sie klicken auf einen Link und landen direkt in Ihrem OpenOlat-Kurs, ohne ein OpenOlat-Konto zu beantragen und ohne sich separat anzumelden.
+
+Das ist nützlich, wenn eine Partnerorganisation mit einem anderen System arbeitet und Ihren Kurs nutzen soll. Sie pflegen den Kurs einmal in OpenOlat und geben ihn für eine oder mehrere Plattformen frei.
+
 Eine ausführliche Anleitung finden Sie [hier](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md).
+
+**Was die LTI-Freigabe bewirkt:**
+
+* Der Kurs bleibt in OpenOlat. Die Personen bearbeiten Inhalte und Tests in OpenOlat, das sich dafür in einem neuen Fenster öffnet.
+* Beim ersten Aufruf legt OpenOlat für jede Person ein LTI-Konto an. Die Person wird Mitglied der LTI-Gruppe des Kurses, als Teilnehmer:in oder als Betreuer:in.
+* OpenOlat meldet das Kursergebnis an das andere System zurück, wenn dort eine Bewertungsspalte dafür vorgesehen ist.
+* Die LTI-Freigabe gilt nur für diesen einen Kurs und nur für die Plattform, die Sie auswählen. In der Oberfläche heisst sie «Deployment». Alle anderen Kurse bleiben für die Plattform gesperrt.
+* Löschen Sie die LTI-Freigabe, kann die Plattform nicht mehr auf den Kurs zugreifen.
+
+Die Plattform muss vorher in der Administration als externe Plattform eingerichtet sein. Ob Sie die LTI-Freigabe selbst hinzufügen oder über den Button «Neues Deployment anfragen» beim Support beantragen, hängt von Ihrer Rolle ab. Mehr dazu unter [Voraussetzungen](#conditions).
+
+[Zum Seitenanfang ^](#LTI_share_course)
+
+---
 
 
 ## Voraussetzungen {: #conditions}
@@ -91,6 +107,13 @@ Welche der beiden Rollen sie bekommen, entscheidet die LTI-Rolle, die Moodle bei
 | Learner oder jede andere Rolle | wird zu | Gruppenteilnehmer:in |
 
 Kursbesitzer:in wird über LTI niemand.
+
+
+### Wo sehen Sie die Personen aus der anderen Plattform? {: #roles_members_management}
+
+Sobald Sie die LTI-Freigabe hinzugefügt haben, legt OpenOlat im Kurs die Gruppe «LTI: Name der Plattform» an. Sie finden sie in der Mitgliederverwaltung unter den Gruppen. Die Gruppe ist zunächst leer. Eine Person erscheint darin erst, wenn sie den Kurs zum ersten Mal aus der anderen Plattform startet. In der Mitgliederliste steht sie dann als Gruppenbetreuer:in oder Gruppenteilnehmer:in.
+
+Kopieren Sie den Kurs, wird die LTI-Gruppe nicht mitkopiert. Für die Kopie richten Sie eine eigene LTI-Freigabe ein.
 
 [Zum Seitenanfang ^](#LTI_share_course)
 

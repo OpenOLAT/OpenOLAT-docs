@@ -1,10 +1,26 @@
 # Course Settings - Tab Share:<br> Configure LTI access to a course {: #LTI_share_course}
 
-OpenOlat allows other LMS to access individual OpenOlat courses via LTI. This means that your OpenOlat courses can also be visited by people who work on another LMS.
+## What can you do with LTI sharing? {: #lti_share_meaning}
 
-**Example:**<br>
-An OpenOlat course is launched from Moodle via LTI 1.3. When the course is opened, the persons are created in OpenOlat as LTI accounts and get access to the OpenOlat course (in the role of participant or coach).<br>
+With LTI sharing, you can offer an OpenOlat course in another learning management system, such as Moodle. Users there remain in their familiar system. They click on a link and are taken directly to your OpenOlat course without having to create an OpenOlat account or log in separately.
+
+This is useful when a partner organization uses a different system and needs to access your course. You maintain the course once in OpenOlat and publish it to one or more platforms.
+
 You can find detailed instructions [here](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md).
+
+**What LTI integration does:**
+
+* The course remains in OpenOlat. Users work on content and tests in OpenOlat, which opens in a new window for this purpose.
+* The first time a user accesses the course, OpenOlat creates an LTI account for them. The user becomes a member of the course’s LTI group, either as a participant or as an instructor.
+* OpenOlat reports the course results back to the other system if a grading column is designated for this purpose there.
+* The LTI authorization applies only to this specific course and only to the platform you select. In the interface, it is called “Deployment.” All other courses remain blocked for that platform.
+* If you delete the LTI authorization, the platform will no longer be able to access the course.
+
+The platform must first be set up as an external platform in the administration section. Whether you add the LTI authorization yourself or request it from Support using the “Request New Deployment” button depends on your role. For more information, see [Prerequisites](#conditions).
+
+[To the top of the page ^](#LTI_share_course)
+
+---
 
 
 ## Requirements {: #conditions}
@@ -91,6 +107,12 @@ Which of the two roles they get is decided by the LTI role that Moodle sends wit
 | Learner or any other role | becomes | group participant |
 
 Nobody becomes course owner via LTI.
+
+### Where do you see the people from the other platform? {: #roles_members_management}
+
+Once you have added the LTI integration, OpenOlat creates the group “LTI: Name of the Platform” in the course. You can find it in the Member Management section under “Groups.” The group is initially empty. A person will only appear in it when they access the course for the first time from the other platform. In the member list, they will then be listed as a group moderator or group participant.
+
+If you copy the course, the LTI group is not copied along with it. You’ll need to set up a separate LTI integration for the copy.
 
 [To the top of the page ^](#LTI_share_course)
 
