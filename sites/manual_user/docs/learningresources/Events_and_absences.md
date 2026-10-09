@@ -138,7 +138,7 @@ Learners have access via the calendar or the "Events" icon in the toolbar.
 
 **Subjects**: Here you can assign the event to one or more terms of a stored taxonomy. This makes the event easier to find.
 
-**Teacher**: A course coach must be selected for each event. Only the selected course coaches can carry out the attendance check. (Only a person who also has the role "Coach" can be added as a teacher.) If a course owner also wants to take on this function, this person must additionally register as a course coach in the course.
+**Teacher**: Select the course coaches who hold the event. For a new event, all course coaches are preselected. Only the selected course coaches can carry out the attendance check. (Only a person who also has the role "Coach" can be added as a teacher.) If a course owner also wants to take on this function, this person must additionally register as a course coach in the course.
 
 **Description**: Here you can optionally add a description for the event.
 
@@ -210,8 +210,6 @@ You close events via the ["Events" icon in the toolbar](../learningresources/Too
 ### Reopen events [:octicons-tag-16:{ title="from Release 13.0 (OO-3716)" }](https://track.frentix.com/issue/OO-3716){:target="_blank"} {: #reopen_events}
 
 As a course owner, you reopen a closed event: choose "Reopen event" in the 3-dot menu of its row.
-
-![The option "Reopen event" in the 3-dot menu of a done event](assets/events_and_absences_reopen_event1_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
 
 Alternatively, you open the absence recording with the book icon ("Edit absence") and click "Reopen event" there.
 
@@ -294,7 +292,7 @@ If changes are not immediately visible, please log out and log in again.
 
 The threshold for mandatory attendance set for the course in general can be adjusted individually. To do this, select the person in question in the "Participants" tab and click on the edit icon.
 
-![In the "Edit participant's rate" dialog, the personal rate and the first admission of a person are adjusted; the course's rate is displayed](assets/events_and_absences_tab_participants_personal_rate_v1_en.png){ class="shadow lightbox" title="Dialog Edit participant's rate" }
+![In the "Edit participant's rate" dialog, the personal rate and the first admission of a person are adjusted; the course's rate is displayed](assets/events_and_absences_tab_participants_personal_rate_v2_en.png){ class="shadow lightbox" title="Dialog Edit participant's rate · 2026.10.09" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 

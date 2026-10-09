@@ -110,7 +110,7 @@ Einen Termin legen Sie mit dem Button "Termin hinzufügen" rechts über der List
 
 Im Dialog "Termin hinzufügen" erfassen Sie die Angaben zum Termin.
 
-![Dialog mit den Pflichtfeldern Titel, Datum, Zeit und Einheit, dem eingeschalteten Online Meeting mit Sitzungs-Link und dem Schalter Präsenz](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen" }
+![Dialog mit den Pflichtfeldern Titel, Datum, Zeit und Einheit, dem eingeschalteten Online Meeting mit Sitzungs-Link und dem Schalter Präsenz](assets/events_and_absences_tab_events_create2_v4_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen · 2026.10.09" }
 
  **Titel**: Vergeben Sie einen sinnvollen Namen.
 
@@ -138,7 +138,7 @@ Lernende haben Zugriff über den Kalender oder das Icon "Termine" in der Toolbar
 
 **Fachbereiche**: Hier können Sie den Termin einem oder mehreren Begriffen einer hinterlegten Taxonomie zuordnen. Dadurch kann der Termin dann schneller gefunden werden.
 
-**Dozenten**: Für jeden Termin muss ein:e Kursbetreuer:in ausgewählt werden. Nur die ausgewählten Kursbetreuer:innen können die Anwesenheitskontrolle durchführen. (Als Dozent:in kann nur eine Person hinzugefügt werden, die auch die Rolle "Betreuer:in" besitzt.) Möchte ein:e Kursbesitzer:in ebenfalls diese Funktion übernehmen, muss sich diese Person zusätzlich als Kursbetreuer:in in den Kurs eintragen.
+**Dozenten**: Wählen Sie die Kursbetreuer:innen, die den Termin durchführen. Bei einem neuen Termin sind alle Kursbetreuer:innen vorgewählt. Nur die ausgewählten Kursbetreuer:innen können die Anwesenheitskontrolle durchführen. (Als Dozent:in kann nur eine Person hinzugefügt werden, die auch die Rolle "Betreuer:in" besitzt.) Möchte ein:e Kursbesitzer:in ebenfalls diese Funktion übernehmen, muss sich diese Person zusätzlich als Kursbetreuer:in in den Kurs eintragen.
 
 **Beschreibung**: Hier können Sie optional eine Beschreibung für den Termin hinzufügen.
 
@@ -156,7 +156,7 @@ Lernende haben Zugriff über den Kalender oder das Icon "Termine" in der Toolbar
 Setzen Sie in der ersten Spalte ein Häkchen bei einem oder mehreren Terminen. Über der Liste erscheinen dann die Buttons "Kopieren" und "Löschen".<br>
 Einen einzelnen Termin kopieren oder löschen Sie auch über das 3-Punkte-Menü am Ende seiner Zeile.
 
-![Mit Häkchen bei einem Termin erscheinen über der Liste die Buttons "Kopieren" und "Löschen"; dieselben Optionen stehen im 3-Punkte-Menü am Ende der Zeile](assets/events_and_absences_tab_events_copy_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
+![Mit Häkchen bei einem Termin erscheinen über der Liste die Buttons "Kopieren" und "Löschen"; dieselben Optionen stehen im 3-Punkte-Menü am Ende der Zeile](assets/events_and_absences_tab_events_copy_v2_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -167,7 +167,7 @@ Einen einzelnen Termin kopieren oder löschen Sie auch über das 3-Punkte-Menü 
 
 Viele Termine auf einmal erfassen Sie schneller mit einer Excel-Datei als einzeln im Dialog. Klicken Sie dazu im Tab "Termine" auf den kleinen Pfeil neben dem Button "Termin hinzufügen" und wählen Sie "Termine importieren". Der Assistent "Termine aus Excel importieren" bietet die "Vorlage Excelimport" zum Herunterladen. Kopieren Sie die ausgefüllten Zeilen aus der Excel-Datei in das Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)".
 
-![Der kleine Pfeil neben dem Button "Termin hinzufügen" öffnet die Option "Termine importieren"](assets/events_and_absences_tab_events_import_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
+![Der kleine Pfeil neben dem Button "Termin hinzufügen" öffnet die Option "Termine importieren"](assets/events_and_absences_tab_events_import_v2_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -211,11 +211,9 @@ Termine schliessen Sie über das [Icon "Termine" in der Toolbar](../learningreso
 
 Als Kursbesitzer:in öffnen Sie einen abgeschlossenen Termin wieder: Wählen Sie im 3-Punkte-Menü seiner Zeile "Termin wiederöffnen".
 
-![Die Option "Termin wiederöffnen" im 3-Punkte-Menü eines erledigten Termins](assets/events_and_absences_reopen_event1_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
-
 Alternativ öffnen Sie mit dem Buch-Symbol ("Absenz editieren") die Absenzenerfassung und klicken dort auf "Termin wiederöffnen".
 
-![Das Buch-Symbol "Absenz editieren" öffnet die Absenzenerfassung; der Button "Termin wiederöffnen" öffnet den abgeschlossenen Termin erneut](assets/Termin_wiederoeffnen_20.jpg){ class="shadow lightbox" title="Absenzenerfassung eines Termins" }
+![Das Buch-Symbol "Absenz editieren" öffnet die Absenzenerfassung; der Button "Termin wiederöffnen" öffnet den abgeschlossenen Termin erneut](assets/events_and_absences_reopen_event2_v1_de.png){ class="shadow lightbox" title="Absenzenerfassung eines Termins · 2026.10.09" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -225,9 +223,9 @@ Alternativ öffnen Sie mit dem Buch-Symbol ("Absenz editieren") die Absenzenerfa
 
 Setzen Sie in der ersten Spalte ein Häkchen bei einem oder mehreren Terminen. Über der Liste erscheint dann der Button "Dozent:innen verwalten". Im gleichnamigen Dialog weisen Sie Dozent:innen mit einem Häkchen einzelnen Terminen zu, oder mit "Zu allen Terminen zuweisen" und "Von allen Terminen entfernen" allen gewählten Terminen auf einmal.
 
-![Mit Häkchen bei einem Termin erscheint über der Terminliste der Button "Dozent:innen verwalten" neben den Buttons "Kopieren" und "Löschen"](assets/events_and_absences_tab_events_teachers1_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
+![Mit Häkchen bei Terminen erscheint über der Terminliste der Button "Dozent:innen verwalten" neben den Buttons "Kopieren" und "Löschen"](assets/events_and_absences_tab_events_teachers1_v2_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 
-![Im Dialog "Dozent:innen verwalten" werden Dozent:innen per Checkbox einzelnen Terminen oder über die Buttons allen Terminen zugewiesen oder entzogen](assets/events_and_absences_tab_events_teachers2_v1_de.png){ class="shadow lightbox" title="Dialog Dozent:innen verwalten" }
+![Im Dialog "Dozent:innen verwalten" werden Dozent:innen per Häkchen einzelnen Terminen oder über die Buttons allen Terminen zugewiesen oder entzogen](assets/events_and_absences_tab_events_teachers2_v2_de.png){ class="shadow lightbox" title="Dialog Dozent:innen verwalten · 2026.10.09" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -294,7 +292,7 @@ Wenn Änderungen nicht sofort sichtbar sind, loggen Sie sich bitte aus und wiede
 
 Der für den Kurs generell eingestellte Schwellwert für die Anwesenheitspflicht kann individuell angepasst werden. Wählen Sie dazu im Tab "Teilnehmer:innen" die betreffende Person und klicken Sie auf das Icon zum Bearbeiten.
 
-![Im Dialog "Teilnehmer:innen-Schwellwert bearbeiten" werden der persönliche Schwellwert und die Erstzulassung einer Person angepasst; der Kursschwellwert wird angezeigt](assets/events_and_absences_tab_participants_personal_rate_v1_de.png){ class="shadow lightbox" title="Dialog Teilnehmer:innen-Schwellwert bearbeiten" }
+![Im Dialog "Teilnehmer:innen-Schwellwert bearbeiten" werden der persönliche Schwellwert und die Erstzulassung einer Person angepasst; der Kursschwellwert wird angezeigt](assets/events_and_absences_tab_participants_personal_rate_v2_de.png){ class="shadow lightbox" title="Dialog Teilnehmer:innen-Schwellwert bearbeiten · 2026.10.09" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -305,7 +303,7 @@ Der für den Kurs generell eingestellte Schwellwert für die Anwesenheitspflicht
 
 Halten Teilnehmende eine erfasste Absenz für falsch, reichen sie einen Rekurs ein. Im Tab "Rekurse" sehen Sie als Kursbesitzer:in diese Rekurse. Bei vielen Rekursen zeigen Sie mit dem Filter rechts über der Liste nur die pendenten, angenommenen oder abgelehnten an.
 
-![Der Tab "Rekurse" listet eingereichte Rekurse und bietet einen Filter nach Pendent, Angenommen und Abgelehnt](assets/events_and_absences_tab_appeals1_v1_de.png){ class="shadow lightbox" title="Tab Rekurse in der Kurs-Administration" }
+![Der Tab "Rekurse" listet eingereichte Rekurse und bietet einen Filter nach Pendent, Angenommen und Abgelehnt](assets/events_and_absences_tab_appeals1_v2_de.png){ class="shadow lightbox" title="Tab Rekurse in der Kurs-Administration · 2026.10.09" }
 
 In der Regel bearbeiten Absenzenverwalter:innen die Rekurse, und zwar für alle Kurse gemeinsam in der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
 
