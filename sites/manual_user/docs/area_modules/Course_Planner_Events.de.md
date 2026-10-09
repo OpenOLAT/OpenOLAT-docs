@@ -126,7 +126,7 @@ In der Detailansicht eines Termins erscheint der gebuchte Raum unter dem Label "
 
 Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung "Der Raum "..." ist in diesem Zeitraum doppelt gebucht!" unterhalb der Raumkarte; die Karte erhält dazu einen gelben Rand. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} Die Warnungen zu fehlenden Plätzen und zu inaktiven Räumen sehen Sie in der [Raumplanung](Course_Planner_Rooms.de.md#warnings).
 
-![Drei gebuchte Räume als Raumkarten mit Gebäude und Adresse, einer mit der Warnung zur Doppelbuchung](assets/course_planner_events_room_booking_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Termins" }
+![Zwei gebuchte Räume als Raumkarten mit Gebäude und Adresse, einer mit der Warnung zur Doppelbuchung](assets/course_planner_events_room_booking_v2_de.png){ class="shadow lightbox" title="Detailansicht eines Termins · 2026.10.09" }
 
 !!! note "Admin. Rechte erforderlich"
     Räume und Gebäude werden in der System-Administration unter `Administration > Module > Räume` verwaltet; dafür sind administrative Rechte erforderlich. Fehlen Ihnen diese Rechte, wenden Sie sich an eine Person mit administrativer Rolle, wenn Sie neue Räume benötigen oder Angaben zu einem Raum anpassen lassen möchten.

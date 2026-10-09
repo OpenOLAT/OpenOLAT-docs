@@ -250,7 +250,7 @@ If a group of participants is not to take part in an event, you leave them out o
 
 In the "Participants" tab you get an overview of all participants of the course or the selected groups. (Excluding owners and coaches, unless they are additionally registered in the role participant.) The list can be printed via the "Print" button.
 
-![The participant list shows per person first admission, units, attended, not excused, authorized, dispensed, the coloured bar and the presence rate](assets/events_and_absences_tab_participants_v1_en.png){ class="shadow lightbox" title="Tab Participants in the course administration" }
+![The participant list shows per person first admission, units, attended, not excused, authorized, dispensed, the coloured bar and the presence rate](assets/events_and_absences_tab_participants_v2_en.png){ class="shadow lightbox" title="Tab Participants in the course administration · 2026.10.09" }
 
 **First admission**<br>
 The first admission defines when the participant started the course.
@@ -276,6 +276,9 @@ The bar in the column "Progress" shows attendance graphically. Green symbolizes 
 
 :o_icon_o_midwarn:<br>
 The attention column with this icon shows whether the defined attendance rate has been reached. The red icon :o_icon_o_icon_error: means that the rate is below the required limit. The warning icon :o_icon_o_icon_warning: appears when the rate is less than five percentage points above the limit.
+
+**Presence**<br>
+The attendance rate of the person in percent. The column appears together with the attention column when the attendance rate is calculated for the course.
 
 :fontawesome-solid-circle-info:<br>
 The info column displays information that deviates from the default settings. This is, for example, a personal rate or a later course start. These two options can be defined in the settings (pencil). The personal rate defines the attendance rate to be achieved for the person in question.

@@ -122,7 +122,7 @@ In the detail view of an event, the booked room appears under the label "Room" a
 
 If a room is double-booked during the period of the event, the warning "The room "..." is double-booked during this period!" appears below the room card, and the card gets a yellow border. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} You see the warnings about missing seats and inactive rooms in the [room scheduling](Course_Planner_Rooms.md#warnings).
 
-![Three booked rooms as room cards with building and address, one with the double booking warning](assets/course_planner_events_room_booking_v1_en.png){ class="shadow lightbox" title="Detail view of an event" }
+![Two booked rooms as room cards with building and address, one with the double booking warning](assets/course_planner_events_room_booking_v2_en.png){ class="shadow lightbox" title="Detail view of an event · 2026.10.09" }
 
 !!! note "Admin. rights required"
     Rooms and buildings are managed in the system administration under `Administration > Modules > Rooms`; this requires administrative rights. If you do not have these rights, contact a person with an administrative role if you need new rooms or want to have the details of a room adjusted.

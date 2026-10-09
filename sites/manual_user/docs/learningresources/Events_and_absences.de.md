@@ -19,11 +19,11 @@ Als Kursbesitzer:in legen Sie hier Termine an und verwalten die Absenzen. Diesel
 
 Als Betreuer:in öffnen Sie die Termine nur über das Icon "Termine" in der Toolbar; im Menü Administration fehlt der Eintrag "Termine und Absenzen". Neue Termine legen Sie nicht an. Sie sehen die vorhandenen Termine und erfassen, sofern im Kurs eingeschaltet, die Absenzen. Mit "Zeigt nur meine" sehen Sie nur die Termine, bei denen Sie als Dozent:in eingetragen sind.
 
-![Betreuer:innen erreichen die Termine nur über das Toolbar-Icon "Termine"; das Menü Administration enthält für sie keinen Eintrag "Termine und Absenzen"](assets/events_and_absences_toolbar_for_coach_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Betreuer:innen" }
+![Betreuer:innen erreichen die Termine nur über das Toolbar-Icon "Termine"; das Menü Administration enthält für sie keinen Eintrag "Termine und Absenzen"](assets/events_and_absences_toolbar_for_coach_v2_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Betreuer:innen · 2026.10.09" }
 
 Teilnehmende öffnen über das Icon "Termine" in der Toolbar ihre Termine im Kurs, vor Ort wie online, etwa in einem Blended-Learning-Kurs.
 
-![Teilnehmende öffnen über das Toolbar-Icon "Termine" die Terminliste des Kurses mit Datum, Zeit, Einheiten, Status, Ort und Dozenten](assets/TN_Termine_Absenzen.jpg){ class="shadow lightbox" title="Terminliste in der Sicht der Teilnehmenden" }
+![Teilnehmende öffnen über das Toolbar-Icon "Termine" die Terminliste des Kurses mit Datum, Zeit, Titel, Status, Ort und Dozenten](assets/events_and_absences_participant_v1_de.png){ class="shadow lightbox" title="Terminliste in der Sicht der Teilnehmenden · 2026.10.09" }
 
 Ihre eigenen Fehlzeiten finden Teilnehmende in den persönlichen Werkzeugen im [Menü "Absenzen"](../personal_menu/Absences.de.md).
 
@@ -35,7 +35,7 @@ Die folgenden Abschnitte beschreiben die Ansicht der Kursbesitzer:innen.
 
 ## Tab Termine [:octicons-tag-16:{ title="ab Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636) {: #tab_events}
 
-![Die Terminverwaltung für Kursbesitzer:innen mit den Tabs Termine, Teilnehmer:innen und Rekurse, dem Button "Termin hinzufügen" und der aufgeklappten Detailansicht eines Termins](assets/Termine_Kursbesitzende_20.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
+![Die Terminverwaltung für Kursbesitzer:innen mit den Tabs Termine, Teilnehmer:innen und Rekurse und der aufgeklappten Detailansicht eines Termins](assets/events_and_absences_owner_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 
 ### Termine anzeigen {: #display_events}
 
@@ -52,7 +52,7 @@ Im 3-Punkte-Menü am Ende jeder Zeile finden Sie die Aktionen zu einem Termin:
 
 Wird der Kurs im Course Planner verwendet, fehlen Bearbeiten, Kopieren, die Umstellung auf ein Online Meeting oder einen vor Ort Termin und Löschen, weil die Termine im Course Planner verwaltet werden. Stammen die Termine aus einem externen Verwaltungssystem, können Bearbeiten und Löschen ebenfalls fehlen. Welche Einträge Betreuer:innen im selben Menü sehen, beschreibt die Seite zur Toolbar: [Menü am Zeilenende](../learningresources/Toolbar_Events.de.md#lists_and_export)
 
-![Das 3-Punkte-Menü eines Termins bietet unter anderem Bearbeiten, Kopieren, Ändere in Online Meeting, Als Prüfung markieren, Absenzen- und Präsenzliste, Export und Termin wiederöffnen](assets/Termine_Asenzen.jpg){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
+![Das 3-Punkte-Menü eines geplanten Termins bietet Bearbeiten, Kopieren, Ändere in Online Meeting, Als Prüfung markieren, Absenzen- und Präsenzliste, Log, Export und Löschen](assets/events_and_absences_event_menu_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 
 Über die Spaltenauswahl (Zahnrad) blenden Sie weitere Spalten ein. Ist das Modul "Räume" aktiviert, steht dort zusätzlich die Spalte "Räume" mit den gebuchten Räumen des Termins. Sie ist standardmässig ausgeblendet.
 
@@ -102,7 +102,7 @@ Räume werden im Course Planner zugewiesen. Ein eigenständiger Kurs zeigt desha
 
 Einen Termin legen Sie mit dem Button "Termin hinzufügen" rechts über der Liste im Tab "Termine" an.
 
-![Button "Termin hinzufügen" rechts oben über der Terminliste](assets/events_and_absences_tab_events_create1_v1_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration" }
+![Button "Termin hinzufügen" rechts oben über der Terminliste](assets/events_and_absences_tab_events_create1_v2_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 
 !!! info "Wichtig"
 
@@ -238,7 +238,7 @@ Setzen Sie in der ersten Spalte ein Häkchen bei einem oder mehreren Terminen. �
 
 Soll eine Gruppe von Teilnehmenden nicht an einem Termin teilnehmen, nehmen Sie sie von diesem Termin aus. Öffnen Sie dazu die Detailansicht des Termins (Klick auf das + am Anfang der Zeile). In der Tabelle zuunterst steht eine Zeile pro Kurs, Gruppe oder Element. Öffnen Sie das 3-Punkte-Menü am Ende der Zeile und wählen Sie "Teilnehmer ausschliessen". Die Spalte "Status" zeigt danach "Ausgeschlossen"; mit "Teilnehmer wieder einschliessen" im selben Menü nehmen Sie die Teilnehmenden wieder auf.
 
-![Das 3-Punkte-Menü am unteren Rand der Termin-Detailansicht enthält die Option "Teilnehmer ausschliessen"](assets/events_and_absences_tab_events_exclude_participants_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Termins" }
+![Das 3-Punkte-Menü am unteren Rand der Termin-Detailansicht enthält die Option "Teilnehmer ausschliessen"](assets/events_and_absences_tab_events_exclude_participants_v2_de.png){ class="shadow lightbox" title="Detailansicht eines Termins · 2026.10.09" }
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -250,7 +250,7 @@ Soll eine Gruppe von Teilnehmenden nicht an einem Termin teilnehmen, nehmen Sie 
 
 Im Tab "Teilnehmer:innen" erhalten Sie eine Übersicht über alle Teilnehmer:innen des Kurses oder der ausgewählten Gruppen. (Ohne Besitzer:innen und Betreuer:innen, sofern diese nicht zusätzlich in der Rolle Teilnehmer:in eingetragen sind.) Über den Button "Drucken" kann die Liste gedruckt werden.
 
-![Die Teilnehmerliste zeigt je Person Erstzulassung, Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert und den farbigen Fortschrittsbalken](assets/Termine_Tab_TN_20.png){ class="shadow lightbox" title="Tab Teilnehmer:innen in der Kurs-Administration" }
+![Die Teilnehmerliste zeigt je Person Erstzulassung, Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert, den farbigen Fortschrittsbalken und die Anwesenheit in Prozent](assets/events_and_absences_tab_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen in der Kurs-Administration · 2026.10.09" }
 
 **Erstzulassung**<br>
 Mit der Erstzulassung wird definiert, wann der Teilnehmende mit dem Kurs begonnen hat.
@@ -276,6 +276,9 @@ Im Fortschritt wird die Anwesenheit grafisch dargestellt. Grün symbolisiert die
 
 :o_icon_o_midwarn:<br>
 In der Achtungsspalte mit diesem Symbol wird angezeigt, ob die definierte Anwesenheitsquote erreicht worden ist. Das rote Symbol :o_icon_o_icon_error: bedeutet, dass die Quote unter dem erforderlichen Limit liegt. Das Warnsymbol :o_icon_o_icon_warning: erscheint, wenn die Quote weniger als fünf Prozentpunkte über dem Limit liegt.
+
+**Anwesenheit**<br>
+Die Anwesenheitsquote der Person in Prozent. Die Spalte erscheint zusammen mit der Achtungsspalte, wenn für den Kurs die Anwesenheitsquote berechnet wird.
 
 :fontawesome-solid-circle-info:<br>
 In der Infospalte werden Informationen angezeigt, welche von der Standardeinstellung abweichen. Dies ist beispielsweise ein persönlicher Schwellwert oder ein späterer Kursstart. Diese beiden Optionen können in den Einstellungen (Stift) definiert werden. Der persönliche Schwellwert definiert die zu erreichende Anwesenheitsquote für die betreffende Person.
