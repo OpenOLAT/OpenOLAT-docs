@@ -153,7 +153,7 @@ Coaches may be permitted to...
 * Assign levels/grading,
 * And release the assessment to the participants. 
 
-The option for the manual success status only appears if at least one criterion is checked under "With success status" in the [Assessment settings section](#section_assessment_settings). It can only be selected once "release assessment" is also checked.
+The option for the manual success status only appears if at least one criterion is checked and saved under "With success status" in the [Assessment settings section](#section_assessment_settings). It can only be selected once "release assessment" is also checked.
 
 [To the top of the page ^](#tab_assessment)
 

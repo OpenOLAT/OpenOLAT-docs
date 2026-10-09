@@ -13,7 +13,7 @@ Die Optionen dazu finden Sie in den Abschnitten
 [Zertifikat](#section_certificate)<br>
 [Badges](#section_badges)
 
-![Tab Bewertung mit sechs hervorgehobenen Abschnittstiteln von Einstellungen Bewertung bis Badges, mit Punkten, Erfolgsstatus und eingeschaltetem Leistungsnachweis](assets/course_settings_assessment_v5_de.png){ class="shadow lightbox" title="Tab Bewertung in den Kurseinstellungen · 2026.10.08" }
+![Tab Bewertung mit sechs hervorgehobenen Abschnittstiteln von Einstellungen Bewertung bis Badges, mit Punkten, Erfolgsstatus und eingeschaltetem Leistungsnachweis](assets/course_settings_assessment_v6_de.png){ class="shadow lightbox" title="Tab Bewertung in den Kurseinstellungen · 2026.10.09" }
 
 [Zum Seitenanfang ^](#tab_assessment)
 
@@ -107,7 +107,7 @@ Ist "Mit Einstufung/Noten" aktiv, bestimmt die Bewertungsskala auch den Erfolgss
 
 Die Note wird nicht automatisch vergeben: Die "Zuweisung" steht fest auf "Manuell". Kursbesitzer:innen und berechtigte Betreuer:innen weisen die berechnete Note im [Bewertungswerkzeug](Assessment_tool_overview.de.md) zu. Damit auch Betreuende ohne Besitzrecht zuweisen können, setzen Kursbesitzer:innen im [Abschnitt Berechtigungen](#section_assessment_rights) die Option "Einstufung/Noten zuweisen".
 
-!["Mit Einstufung/Noten" eingeschaltet mit Bewertungsskala und Erfolgskriterium, "Mit Erfolgsstatus" gesperrt mit Hinweis auf das Erfolgskriterium](assets/course_settings_assessment_grades_v2_de.png){ class="shadow lightbox" title="Einstufung/Noten im Abschnitt Einstellungen Bewertung · 2026.10.08" }
+!["Mit Einstufung/Noten" eingeschaltet mit Bewertungsskala und Erfolgskriterium, "Mit Erfolgsstatus" gesperrt mit Hinweis auf das Erfolgskriterium](assets/course_settings_assessment_grades_v3_de.png){ class="shadow lightbox" title="Einstufung/Noten im Abschnitt Einstellungen Bewertung · 2026.10.09" }
 
 [Zum Abschnitt Einstellungen Bewertung ^](#section_assessment_settings)<br>
 [Zum Seitenanfang ^](#tab_assessment)
@@ -154,7 +154,7 @@ Betreuenden kann gestattet werden ...
 * Einstufung/Noten zuzuweisen,
 * und die Bewertung für die Teilnehmer:innen freizugeben. 
 
-Die Option für den manuellen Erfolgsstatus erscheint nur, wenn im [Abschnitt Einstellungen Bewertung](#section_assessment_settings) unter "Mit Erfolgsstatus" mindestens ein Kriterium angehakt ist. Wählbar ist sie erst, wenn auch "Bewertung freigeben" angehakt ist.
+Die Option für den manuellen Erfolgsstatus erscheint nur, wenn im [Abschnitt Einstellungen Bewertung](#section_assessment_settings) unter "Mit Erfolgsstatus" mindestens ein Kriterium angehakt und gespeichert ist. Wählbar ist sie erst, wenn auch "Bewertung freigeben" angehakt ist.
 
 [Zum Seitenanfang ^](#tab_assessment)
 
@@ -163,7 +163,7 @@ Die Option für den manuellen Erfolgsstatus erscheint nur, wenn im [Abschnitt Ei
 
 ## Abschnitt Leistungsnachweis {: #section_evidence_of_achievements}
 
-![Eingeschalteter Schalter Leistungsnachweis den Teilnehmer:innen anzeigen](assets/course_settings_assessment_evidence_of_achievements_v2_de.png){ class="shadow lightbox" title="Abschnitt Leistungsnachweis · 2026.10.08" }
+![Eingeschalteter Schalter Leistungsnachweis den Teilnehmer:innen anzeigen](assets/course_settings_assessment_evidence_of_achievements_v3_de.png){ class="shadow lightbox" title="Abschnitt Leistungsnachweis · 2026.10.09" }
 
 ![Eintrag Leistungsnachweis an erster Stelle im Menü Mein Kurs, darunter To-dos, Meine Badges, Notizen und Bookmark](assets/course_settings_assessment_evidence_of_achievements_my_cours_v1_de.png){ class="aside-right lightbox" }
 
@@ -180,7 +180,7 @@ Wenn Sie die Funktion ausschalten, sehen Ihre Teilnehmenden keine Leistungsnachw
 
 ## Abschnitt Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558) {: #section_credit_points}
 
-![Eingeschalteter Schalter Kreditpunkte ausstellen mit Kreditpunktesystem, vergebenen Kreditpunkten und überschriebener Gültigkeitsdauer](assets/course_settings_assessment_credit_points_v2_de.png){ class="shadow lightbox" title="Abschnitt Kreditpunkte · 2026.10.08" }
+![Eingeschalteter Schalter Kreditpunkte ausstellen mit Kreditpunktesystem, vergebenen Kreditpunkten und überschriebener Gültigkeitsdauer](assets/course_settings_assessment_credit_points_v3_de.png){ class="shadow lightbox" title="Abschnitt Kreditpunkte · 2026.10.09" }
 
 Ist "Kreditpunkte ausstellen" eingeschaltet, werden den Teilnehmer:innen nach Bestehen des Kurses automatisch Kreditpunkte gutgeschrieben. Dazu können verschiedene (von Administrator:innen definierte) Kreditpunktesysteme gewählt werden.
 
