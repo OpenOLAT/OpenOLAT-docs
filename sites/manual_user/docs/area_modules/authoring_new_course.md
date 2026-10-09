@@ -8,6 +8,8 @@ In Authoring, the "Create" button opens a menu with the learning resources you c
 
 Some entries only appear in the menu if the system administration has switched on the corresponding function: form, wiki and portfolio 2.0 template via the respective module, Word, Excel and PowerPoint via a [document editor](../../manual_admin/administration/External_Tools_-_Administration.md#dokumenteneditoren).
 
+The "Create" and "Import file" buttons are shown to authors, learning resource managers and administrators.
+
 The specific creation process is described on the following pages:
 
 * Creating courses <br>
@@ -37,7 +39,7 @@ The specific creation process is described on the following pages:
 * Creating wikis <br>
 [User manual article](../learningresources/Wiki.md) | [Detailed instructions](../../manual_how-to/wikis/wikis.md)
 
-* Create a prepared or pre-structured portfolio template<br>
+* Creating portfolio 2.0 templates<br>
 [User manual article](../learningresources/Portfolio_template_Creation.md)
 
 * Creating glossaries<br>
@@ -61,14 +63,14 @@ The specific creation process is described on the following pages:
 ### Import file
 Learning resources created outside OpenOlat or exported from another OpenOlat system can be imported into OpenOlat, provided they are in a compatible format. You can import learning resources exported from OpenOlat, videos in MP4 format, the standard formats IMS Content Packaging, IMS QTI 2.1 assessment and SCORM 1.2, as well as any files.
 
-In the "Import file" dialog, you upload the file in the "File" field and select under "Administrative access" the organisation to which the learning resource is assigned.
+In the "Import file" dialog, you upload the file in the "File" field and select under "Administrative access" the organisation to which the learning resource is assigned. After the upload, the dialog shows the detected type and the field "Title of learning resource" with the title from the file, which you can adjust.
 
-If you import a course from another OpenOlat instance, for example, you will be asked whether the learning resources used in the course (e.g. a wiki or a test) should also be imported. After the import, you must publish the course so that it is visible to you and other OpenOlat users.
+If the imported learning resource uses other learning resources, for example a course with a wiki or a test, the dialog also shows "Referenced resources". The option "import and link" is preselected: OpenOlat also imports the learning resources used and links them. After importing a course, publish it in the course editor so that its content is visible to you and other OpenOlat users.
 
 At the end of the import, OpenOlat opens the settings of the learning resource on the ["Metadata" tab](../learningresources/Course_Settings_Metadata.md). There you check the title and reference and make further configurations, for example the license.
 
 ### Embed via URL [:octicons-tag-16:{ title="from Release 13.2 (OO-3859)" }](https://track.frentix.com/issue/OO-3859)
-External media can also be embedded via URL without uploading the file to OpenOlat. To do so, open the selection menu next to the **Import file** button in Authoring and select **Embed via URL**.
+External media can also be embedded via URL without uploading the file to OpenOlat. To do so, open the selection menu next to the "Import file" button in Authoring and select "Embed via URL".
 
 ![Entry Embed via URL in the selection menu next to the Import file button](assets/authoring_embed_via_url_v2_en.png){ class="shadow lightbox" title="Selection menu in Authoring" }
 
@@ -81,7 +83,9 @@ The following resources are supported:
 * Videos: MP4, m3u8, YouTube, Vimeo, Panopto
 * Blog or Podcast
 
-Media from additional platforms can be enabled by the system administration if required.
+Media from additional platforms can be enabled by the system administration as media servers if required, under:<br>
+`Administration > Login > Security > Tab "Media server"`<br>
+More about this under [Security](../../manual_admin/administration/Login_Security.md#tab_mediaserver).
 
 The dialog contains the following fields:
 
@@ -93,7 +97,7 @@ The dialog contains the following fields:
 | **Reference** | Optional external identifier, displayed on the course overview page, see [Reference](../learningresources/Course_Settings_Metadata.md#externalref). |
 | **Administrative access** | Mandatory field. Organisation to which the learning resource is administratively assigned. |
 
-Click **Embed** to create the learning resource.
+Click "Embed" to create the learning resource.
 
 [To the top of the page ^](#authoring_new_course)
 
@@ -107,23 +111,28 @@ Click **Embed** to create the learning resource.
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Creating Tests >](../learningresources/Test.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[CP Editor >](../learningresources/CP_Editor.md)<br>
+[Forms - Overview >](../learningresources/Form.md)<br>
+[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
+[Resource folder >](../learningresources/Resource_Folder.md)<br>
+[How can I use the same files in several courses? >](../../manual_how-to/multiple_use/multiple_use.md)<br>
+[Blog: Overview >](../learningresources/Blog.md)<br>
+[How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
+[Podcast: Overview >](../learningresources/Podcast.md)<br>
+[How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
+[Create CP learning content >](../learningresources/CP_Editor.md)<br>
 [How do I create a content package? >](../../manual_how-to/content_package/content_package.md)<br>
 [Creating Wikis >](../learningresources/Wiki.md)<br>
 [How do I create a wiki? >](../../manual_how-to/wikis/wikis.md)<br>
-[Podcast: Overview >](../learningresources/Podcast.md)<br>
-[How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
-[Blog: Overview >](../learningresources/Blog.md)<br>
-[How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
-[Resource folder >](../learningresources/Resource_Folder.md)<br>
-[How can I use the same files in several courses? >](../../manual_how-to/multiple_use/multiple_use.md)<br>
-[Forms - Overview >](../learningresources/Form.md)<br>
-[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Glossary >](../learningresources/Glossary.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
 [Course Settings - Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
-[Learning resource: Video >](../learningresources/Learning_resource_Video.md)
+[Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
+[Security >](../../manual_admin/administration/Login_Security.md)
+
+**Further reading**<br>
+[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Course Settings >](../learningresources/Course_Settings.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)<br>

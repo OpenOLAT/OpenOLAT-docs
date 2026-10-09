@@ -54,7 +54,7 @@ OpenOlat bringt diese Lizenzen mit:
 
 Was hinter den Creative-Commons-Lizenzen steht, erklärt [creativecommons.org](https://creativecommons.org/licenses/?lang=de){:target="_blank"}.
 
-Sobald eine Lizenz gewählt ist, erscheint das Feld "Lizenzgeber" für die Person oder Organisation, welche die Lizenz vergibt. Mit "Freitext" erscheint zusätzlich das Feld "Lizenztext" für eine eigene Lizenzbeschreibung. Enthält die Lernressource Elemente mit eigener Lizenz, listet OpenOlat diese unter "Details Element-Lizenzen" auf. Wählen Sie dann für die Lernressource eine Lizenz, die mindestens so restriktiv ist wie die Lizenzen der Elemente.
+Sobald eine andere Lizenz als "Keine Lizenz" gewählt ist, erscheint das Feld "Lizenzgeber" für die Person oder Organisation, welche die Lizenz vergibt. Mit "Freitext" erscheint zusätzlich das Feld "Lizenztext" für eine eigene Lizenzbeschreibung. Enthält die Lernressource Elemente mit eigener Lizenz, listet OpenOlat diese unter "Details Element-Lizenzen" auf. Wählen Sie dann für die Lernressource eine Lizenz, die mindestens so restriktiv ist wie die Lizenzen der Elemente.
 
 In der Liste des Autorenbereichs zeigt die Spalte "Lizenz" die Lizenz jeder Lernressource. Die Spalte ist ausgeblendet, bis Sie sie über "Spalten auswählen" einblenden. Ein Klick auf den Namen der Lizenz öffnet ein Fenster mit der Lizenz, dem Lizenzgeber und dem Lizenztext, bei Creative-Commons-Lizenzen als Link.
 

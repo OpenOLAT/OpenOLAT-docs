@@ -8,6 +8,8 @@ Im Autorenbereich öffnet der Button "Erstellen" ein Menü mit den Lernressource
 
 Einige Einträge zeigt das Menü nur, wenn die System-Administration die zugehörige Funktion eingeschaltet hat: Formular, Wiki und Portfolio 2.0 Vorlage über das jeweilige Modul, Word, Excel und PowerPoint über einen [Dokumenteneditor](../../manual_admin/administration/External_Tools_-_Administration.de.md#dokumenteneditoren).
 
+Die Buttons "Erstellen" und "Datei importieren" sehen Autor:innen, Lernressourcenverwalter:innen und Administrator:innen.
+
 Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 
 * Kurs erstellen <br>
@@ -37,7 +39,7 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 * Wiki erstellen <br>
 [Handbuchartikel](../learningresources/Wiki.de.md) | [Ausführliche Anleitung](../../manual_how-to/wikis/wikis.de.md)
 
-* Vorbereitete bzw. vorstrukturierte Portfolio Vorlage erstellen<br>
+* Portfolio 2.0 Vorlage erstellen<br>
 [Handbuchartikel](../learningresources/Portfolio_template_Creation.de.md)
 
 * Glossar erstellen<br>
@@ -61,14 +63,14 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 ### Datei importieren
 Lernressourcen, die ausserhalb von OpenOlat erstellt oder aus einem anderen OpenOlat-System exportiert wurden, können in OpenOlat importiert werden: vorausgesetzt, sie liegen in einem kompatiblen Format vor. Importieren lassen sich aus OpenOlat exportierte Lernressourcen, Videos im Format MP4, die Standardformate IMS Content Packaging, IMS QTI 2.1 Test und SCORM 1.2 sowie beliebige Dateien.
 
-Im Dialog "Datei importieren" laden Sie die Datei im Feld "Datei" hoch und wählen unter "Administrative Freigabe" die Organisation, der die Lernressource zugeordnet wird.
+Im Dialog "Datei importieren" laden Sie die Datei im Feld "Datei" hoch und wählen unter "Administrative Freigabe" die Organisation, der die Lernressource zugeordnet wird. Nach dem Hochladen zeigt der Dialog den erkannten Typ und das Feld "Titel der Lernressource" mit dem Titel aus der Datei, den Sie anpassen können.
 
-Wenn Sie beispielsweise einen Kurs aus einer anderen OpenOlat-Instanz importieren, werden Sie gefragt, ob auch die im Kurs verwendeten Lernressourcen (z. B. ein Wiki oder ein Test) mitimportiert werden sollen. Nach dem Import müssen Sie den Kurs veröffentlichen, damit er für Sie und andere OpenOlat-Benutzer:innen sichtbar ist.
+Verwendet die importierte Lernressource weitere Lernressourcen, zum Beispiel ein Kurs mit einem Wiki oder einem Test, zeigt der Dialog zusätzlich "Referenzierte Ressourcen". Die Option "importieren und verknüpfen" ist vorausgewählt: OpenOlat importiert die verwendeten Lernressourcen mit und verknüpft sie. Nach dem Import eines Kurses publizieren Sie ihn im Kurseditor, damit seine Inhalte für Sie und andere OpenOlat-Benutzer:innen sichtbar sind.
 
 Am Ende des Imports öffnet OpenOlat die Einstellungen der Lernressource auf dem [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md). Dort prüfen Sie Titel und Kennzeichen und nehmen weitere Konfigurationen vor, etwa die Lizenz.
 
 ### Per URL einbinden [:octicons-tag-16:{ title="ab Release 13.2 (OO-3859)" }](https://track.frentix.com/issue/OO-3859)
-Externe Medien lassen sich auch per URL einbinden, ohne die Datei nach OpenOlat hochzuladen. Öffnen Sie dazu im Autorenbereich das Auswahlmenü neben der Schaltfläche **Datei importieren** und wählen Sie **Per URL einbinden**.
+Externe Medien lassen sich auch per URL einbinden, ohne die Datei nach OpenOlat hochzuladen. Öffnen Sie dazu im Autorenbereich das Auswahlmenü neben dem Button "Datei importieren" und wählen Sie "Per URL einbinden".
 
 ![Eintrag Per URL einbinden im Auswahlmenü neben dem Button Datei importieren](assets/authoring_embed_via_url_v2_de.png){ class="shadow lightbox" title="Auswahlmenü im Autorenbereich" }
 
@@ -81,7 +83,9 @@ Unterstützt werden folgende Ressourcen:
 * Videos: MP4, m3u8, YouTube, Vimeo, Panopto
 * Blog oder Podcast
 
-Medien von weiteren Plattformen können bei Bedarf durch die System-Administration freigeschaltet werden.
+Medien von weiteren Plattformen gibt die System-Administration bei Bedarf als Medien-Server frei, unter:<br>
+`Administration > Login > Sicherheit > Tab "Medien-Server"`<br>
+Mehr dazu unter [Sicherheit](../../manual_admin/administration/Login_Security.de.md#tab_mediaserver).
 
 Der Dialog enthält folgende Felder:
 
@@ -93,7 +97,7 @@ Der Dialog enthält folgende Felder:
 | **Kennzeichen** | Optionale externe Kennung, die in der Kursübersicht angezeigt wird, siehe [Kennzeichen](../learningresources/Course_Settings_Metadata.de.md#externalref). |
 | **Administrative Freigabe** | Pflichtfeld. Organisation, der die Lernressource administrativ zugeordnet wird. |
 
-Mit **Einbinden** wird die Lernressource erstellt.
+Mit "Einbinden" erstellen Sie die Lernressource.
 
 [Zum Seitenanfang ^](#authoring_new_course)
 
@@ -107,23 +111,28 @@ Mit **Einbinden** wird die Lernressource erstellt.
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Tests erstellen >](../learningresources/Test.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
+[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
+[Ressourcenordner >](../learningresources/Resource_Folder.de.md)<br>
+[Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../manual_how-to/multiple_use/multiple_use.de.md)<br>
+[Blog: Übersicht >](../learningresources/Blog.de.md)<br>
+[Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
+[Podcast: Übersicht >](../learningresources/Podcast.de.md)<br>
+[Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
 [CP-Lerninhalt erstellen >](../learningresources/CP_Editor.de.md)<br>
 [Wie erstelle ich ein Content Package? >](../../manual_how-to/content_package/content_package.de.md)<br>
 [Wiki erstellen >](../learningresources/Wiki.de.md)<br>
 [Wie erstelle ich ein Wiki? >](../../manual_how-to/wikis/wikis.de.md)<br>
-[Podcast: Übersicht >](../learningresources/Podcast.de.md)<br>
-[Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
-[Blog: Übersicht >](../learningresources/Blog.de.md)<br>
-[Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
-[Ressourcenordner >](../learningresources/Resource_Folder.de.md)<br>
-[Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../manual_how-to/multiple_use/multiple_use.de.md)<br>
-[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
-[Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Glossar >](../learningresources/Glossary.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
 [Kurseinstellungen - Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
-[Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)
+[Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
+
+**Weiterführend**<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)<br>

@@ -19,7 +19,7 @@ The learning resource appears under its title in lists, in the catalog and in th
 
 #### Reference {: #externalref}
 
-The reference is an identifier that you assign yourself, for example the name from the course catalog or a printed course catalog. The ID, in contrast, is assigned automatically by OpenOlat. The reference appears in the course overview, and the list in Authoring shows it as a separate column that you can sort by. The import into the Course Planner recognizes courses and templates by their reference, see [Course Planner: Import / Export](../area_modules/Course_Planner_Import_Export.md#identifier_matching).
+The reference is an identifier that you assign yourself, for example the designation from the university course directory or from a printed course catalog. The ID, in contrast, is assigned automatically by OpenOlat. The reference appears in the course overview, and the list in Authoring shows it as a separate column that you can sort by. The import into the Course Planner recognizes courses and templates by their reference, see [Course Planner: Import / Export](../area_modules/Course_Planner_Import_Export.md#identifier_matching).
 
 If the learning resource is managed by an external system, the reference is shown as text and cannot be changed.
 
@@ -54,7 +54,7 @@ OpenOlat comes with these licenses:
 
 What lies behind the Creative Commons licenses is explained at [creativecommons.org](https://creativecommons.org/licenses/){:target="_blank"}.
 
-As soon as a license is selected, the field "Licensor" appears for the person or organisation that grants the license. With "Free text", the field "License text" also appears for your own license description. If the learning resource contains items with their own license, OpenOlat lists them under "Items license details". Then select a license for the learning resource that is at least as restrictive as the licenses of the items.
+As soon as a license other than "No license" is selected, the field "Licensor" appears for the person or organisation that grants the license. With "Free text", the field "License text" also appears for your own license description. If the learning resource contains items with their own license, OpenOlat lists them under "Items license details". Then select a license for the learning resource that is at least as restrictive as the licenses of the items.
 
 In the list in Authoring, the "License" column shows the license of each learning resource. The column is hidden until you show it via "Displayed columns". A click on the name of the license opens a window with the license, the licensor and the license text, shown as a link for Creative Commons licenses.
 
