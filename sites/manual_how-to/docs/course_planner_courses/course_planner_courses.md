@@ -40,7 +40,7 @@ Of course, you can also create OpenOlat courses without Course Planner. However,
 
 If you have the **role of Course planner**, you will find the Course Planner as a site in the **main navigation**.
 
-![Entry Course Planner in the opened More menu, below it the start page of the Course Planner with four buttons](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" title="Main navigation and start page of the Course Planner" }
+![The Course Planner site in the main navigation opens the start page with the buttons Products, Implementations, Events, To-dos, Reports, Certification programs and Room management](assets/course_planner_menu_v2_en.png){ class="shadow lightbox" title="Main navigation and start page of the Course Planner · 2026.10.09" }
 
 !!! info "Requirement"
 
@@ -61,8 +61,6 @@ Example:<br>
 
 Open the Course Planner and select the "Products" button. There you can select an existing product from the list or create a new one. This product will then be offered multiple times in different implementations.
 
-![Marked entry Course Planner in the More menu and marked button for the products on the start page](assets/course_planner_products1_v1_de.png){ class="shadow lightbox" title="Start page of the Course Planner" }
-
 You can find out more about this in the user manual under:<br>
 [Products >](../../manual_user/area_modules/Course_Planner_Products.md#create_product)
 
@@ -78,11 +76,11 @@ You can find out more about this in the user manual under:<br>
 
 ## Step 2: Determine product owners {: #define_product_owners}
 
-In the newly created product, you will find various tabs where you can now configure the product. First, select the **"Owners" tab**. There you add product owners with the "Add member" button.
+In the newly created product, you will find various tabs where you can now configure the product. First, select the **"Owners" tab**. There you add product owners with the "Add product owner" button.
 
 As the creator of the product, you already have editing rights. If you do not want to do the planning and administration of the product yourself and alone, you should designate a responsible person as the product owner here.
 
-![Marked Owners tab of a product and the opened Add member menu](assets/course_planner_curriculum_owner_v1_de.png){ class="shadow lightbox" title="Owners tab of a product" }
+![In the Owners tab of a product, you add further responsible persons with the Add product owner button, the list shows the current owners](assets/course_planner_curriculum_owner_v2_en.png){ class="shadow lightbox" title="Owners tab of a product · 2026.10.09" }
 
 **Why can I only enter owners here? Why not participants as well?**
 
@@ -105,17 +103,17 @@ Owners have the right to edit the product (the "original version," the "copy tem
 
 Now select the **"Implementations" tab** and create a new implementation.
 
-![Marked Implementations tab of a product and the Create button for a new implementation](assets/course_planner_curriculum_implementations1_v1_de.png){ class="shadow lightbox" title="Implementations tab of a product" }
+![In the Implementations tab of a product, you add a new implementation with the Create button, below it are the implementations already planned](assets/course_planner_curriculum_implementations1_v2_en.png){ class="shadow lightbox" title="Implementations tab of a product · 2026.10.09" }
 
 Under the "Create" button, you will find a selection of [element types](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types) that have been defined in the system administration.
 
-![Opened Create menu with one entry per element type, such as class, programme or semester](assets/course_planner_curriculum_implementations2_v1_de.png){ class="shadow lightbox" title="Implementations tab of a product" }
+![The opened Create menu offers one entry per element type, such as Create new "Lehrgang", plus Create new element](assets/course_planner_curriculum_implementations2_v2_en.png){ class="shadow lightbox" title="Implementations tab of a product · 2026.10.09" }
 
 All planned implementations of this product can then be found in the list under this tab. You can select any implementation and customize it according to your requirements.
 
 Instead of creating new implementations using the button above the list, you can also create a copy of an implementation that has already been planned and modified. The action "Copy element" can be found in the menu of the three dots at the end of a line.
 
-![Menu at the end of an implementation's row with the marked entry Copy element](assets/course_planner_curriculum_implementations3_v1_de.png){ class="shadow lightbox" title="List of implementations of a product" }
+![The menu of the three dots at the end of an implementation's row contains the entry Copy element, which lets you reuse a planned implementation as a template](assets/course_planner_curriculum_implementations3_v2_en.png){ class="shadow lightbox" title="List of implementations of a product · 2026.10.09" }
 
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
@@ -133,7 +131,7 @@ Once a new implementation has been created and set up (the process/program for t
 You define the execution period, that is when an implementation takes place, when configuring the implementation:<br>
 `Course Planner > Implementations > "Title of the implementation" > Tab "Settings" > Sub-tab "Execution"`
 
-![Marked Execution sub-tab in the settings and the Execution period field with start and end date](assets/course_planner_courses_implementation_settings_v1_de.png){ class="shadow lightbox" title="Settings tab of an implementation" }
+![In the Settings tab, sub-tab Execution, you choose Anytime, Begin and end date or One-day for the execution period and enter the dates in the Dates field](assets/course_planner_courses_implementation_settings_v2_en.png){ class="shadow lightbox" title="Settings tab of an implementation · 2026.10.09" }
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
 
@@ -162,7 +160,7 @@ Use the "Add event" button to the right above the table to add further events.
 
 If several implementations have been created and set up, there will be events for each implementation. To get an overview, select the "Events" tab in the **product**. There you can also edit the individual events and create new ones with the "Add event" button.
 
-![Marked Events tab of a product and the Add event button above the still empty list of events](assets/course_planner_curriculum_events1_v1_de.png){ class="shadow lightbox" title="Events tab of a product" }
+![The Events tab of a product lists the events of all implementations, you add more with the Add event button](assets/course_planner_curriculum_events1_v2_en.png){ class="shadow lightbox" title="Events tab of a product · 2026.10.09" }
 
 The event can refer to the entire implementation of a product or only to part of the implementation of the product. In the first step of the dialog, select the desired element from the structure tree displayed.
 
@@ -362,8 +360,6 @@ You can therefore find the member management in the **"Implementations" tab** of
 ### Creating report files
 
 Select the "Reports" button in the Course Planner overview.
-
-![Marked Reports button on the start page of the Course Planner](assets/course_planner_courses_reports1_v1_de.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
 There you can choose from various templates that you can use to create Excel files with the current data on the booking orders received.
 

@@ -1,6 +1,6 @@
 # Course Planner: Products [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #products}
 
-![The Products button, highlighted below the five areas of the Course Planner overview, opened via the Course Planner entry in the More menu](assets/course_planner_products_v3_de.png){ class="shadow lightbox" title="Start page of the Course Planner" }
+![On the start page of the Course Planner, the Products button in the Products section leads to the list of all products](assets/course_planner_products_v5_en.png){ class="shadow lightbox" title="Start page of the Course Planner · 2026.10.09" }
 
 
 ## What do we mean by a product in OpenOlat? {: #definition}

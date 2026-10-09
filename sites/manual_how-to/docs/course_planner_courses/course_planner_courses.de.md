@@ -43,7 +43,7 @@ Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit de
 
 Wenn Sie die **Rolle Kursplaner:in** besitzen, finden Sie den Course Planner als Bereich in der **Hauptnavigation**.
 
-![Eintrag Course Planner im geöffneten Menü Mehr, darunter die Startseite des Course Planners mit vier Buttons](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" title="Hauptnavigation und Startseite des Course Planners" }
+![Der Bereich Course Planner in der Hauptnavigation öffnet die Startseite mit den Buttons Produkte, Durchführungen, Termine, To-dos, Reports, Zertifikatsprogramme und Raumverwaltung](assets/course_planner_menu_v2_de.png){ class="shadow lightbox" title="Hauptnavigation und Startseite des Course Planners · 2026.10.09" }
 
 !!! info "Voraussetzung"
 
@@ -64,8 +64,6 @@ Beispiel:<br>
 
 Öffnen Sie den Course Planner und wählen Sie dort den Button "Produkte". Sie können dort ein bereits vorhandenes Produkt aus der Liste auswählen oder eines neu erstellen. Dieses soll dann mehrfach in verschiedenen Durchführungen angeboten werden.
 
-![Markierter Eintrag Course Planner im Menü Mehr und markierter Button zu den Produkten auf der Startseite](assets/course_planner_products1_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
-
 Mehr dazu finden Sie im Benutzerhandbuch unter:<br>
 [Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md#create_product)
 
@@ -81,11 +79,11 @@ Mehr dazu finden Sie im Benutzerhandbuch unter:<br>
 
 ## Schritt 2: Produktbesitzer:innen bestimmen {: #define_product_owners}
 
-Im neu erstellten Produkt finden Sie verschiedene Tabs, unter denen Sie nun das Produkt konfigurieren können. Wählen Sie zunächst den **Tab "Besitzer:innen"**. Dort fügen Sie mit dem Button "Mitglied hinzufügen" Produktbesitzer:innen hinzu.
+Im neu erstellten Produkt finden Sie verschiedene Tabs, unter denen Sie nun das Produkt konfigurieren können. Wählen Sie zunächst den **Tab "Besitzer:innen"**. Dort fügen Sie mit dem Button "Produktbesitzer:in hinzufügen" Produktbesitzer:innen hinzu.
 
 Als Ersteller:in des Produkts haben Sie bereits die Bearbeitungsrechte. Wenn Sie die Planung und Administration des Produkts nicht selbst und alleine machen wollen, sollten Sie hier eine verantwortliche Person als Produktbesitzer:in bestimmen.
 
-![Markierter Tab Besitzer:innen eines Produkts und das geöffnete Menü Mitglied hinzufügen](assets/course_planner_curriculum_owner_v1_de.png){ class="shadow lightbox" title="Tab Besitzer:innen eines Produkts" }
+![Im Tab Besitzer:innen eines Produkts tragen Sie mit dem Button Produktbesitzer:in hinzufügen weitere verantwortliche Personen ein, die Liste zeigt die bisherigen Besitzer:innen](assets/course_planner_curriculum_owner_v2_de.png){ class="shadow lightbox" title="Tab Besitzer:innen eines Produkts · 2026.10.09" }
 
 **Warum kann ich hier nur Besitzer:innen eintragen? Warum nicht auch Teilnehmer:innen?**
 
@@ -108,17 +106,17 @@ Besitzer:innen haben das Recht, das Produkt (die "Originalversion", die "Kopierv
 
 Wählen Sie nun den **Tab "Durchführungen"** und erstellen Sie eine neue Durchführung.
 
-![Markierter Tab Durchführungen eines Produkts und der Button Erstellen für eine neue Durchführung](assets/course_planner_curriculum_implementations1_v1_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Produkts" }
+![Im Tab Durchführungen eines Produkts legen Sie mit dem Button Erstellen eine neue Durchführung an, darunter stehen die bereits geplanten Durchführungen](assets/course_planner_curriculum_implementations1_v2_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Produkts · 2026.10.09" }
 
 Unter dem Button "Erstellen" finden Sie eine Auswahl an [Elementtypen](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types), die in der System-Administration festgelegt wurden.
 
-![Geöffnetes Menü Erstellen mit einem Eintrag je Elementtyp, etwa Klasse, Lehrgang oder Semester](assets/course_planner_curriculum_implementations2_v1_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Produkts" }
+![Das geöffnete Menü Erstellen bietet einen Eintrag je Elementtyp an, etwa Neues "Lehrgang" erstellen, und dazu Neues Element erstellen](assets/course_planner_curriculum_implementations2_v2_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Produkts · 2026.10.09" }
 
 Alle geplanten Durchführungen dieses Produkts finden Sie anschliessend in der Liste unter diesem Tab. Sie können jede Durchführung wählen und sie entsprechend Ihren Wünschen anpassen.
 
 Statt neue Durchführungen mit dem Button über der Liste zu erstellen, können Sie auch von einer bereits geplanten und modifizierten Durchführung eine Kopie erzeugen. Die Aktion "Element kopieren" finden Sie im Menü der 3 Punkte am Ende einer Zeile.
 
-![Menü am Zeilenende einer Durchführung mit dem markierten Eintrag Element kopieren](assets/course_planner_curriculum_implementations3_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen eines Produkts" }
+![Das Menü der drei Punkte am Zeilenende einer Durchführung enthält den Eintrag Element kopieren, mit dem Sie eine geplante Durchführung als Vorlage weiterverwenden](assets/course_planner_curriculum_implementations3_v2_de.png){ class="shadow lightbox" title="Liste der Durchführungen eines Produkts · 2026.10.09" }
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -136,7 +134,7 @@ Wenn eine neue Durchführung erstellt und eingerichtet worden ist (der Ablauf / 
 Den Durchführungszeitraum, also wann eine Durchführung stattfindet, legen Sie bei der Konfiguration der Durchführung fest:<br>
 `Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Unter-Tab "Durchführung"`
 
-![Markierter Unter-Tab Durchführung in den Einstellungen und das Feld Durchführungszeitraum mit Beginn- und Enddatum](assets/course_planner_courses_implementation_settings_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung" }
+![Im Tab Einstellungen, Unter-Tab Durchführung, wählen Sie beim Durchführungszeitraum Jederzeit, Beginn- und Enddatum oder Eintägig und tragen im Feld Zeitraum die Daten ein](assets/course_planner_courses_implementation_settings_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung · 2026.10.09" }
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 
@@ -165,7 +163,7 @@ Mit dem Button "Termin hinzufügen" rechts über der Tabelle fügen Sie weitere 
 
 Wenn mehrere Durchführungen erstellt und eingerichtet worden sind, existieren zu jeder Durchführung Termine. Um eine Gesamtübersicht zu erhalten, wählen Sie im **Produkt** den Tab "Termine". Auch dort können die einzelnen Termine bearbeitet und mit dem Button "Termin hinzufügen" neue Termine angelegt werden.
 
-![Markierter Tab Termine eines Produkts und der Button Termin hinzufügen über der noch leeren Terminliste](assets/course_planner_curriculum_events1_v1_de.png){ class="shadow lightbox" title="Tab Termine eines Produkts" }
+![Der Tab Termine eines Produkts listet die Termine aller Durchführungen, mit dem Button Termin hinzufügen legen Sie weitere an](assets/course_planner_curriculum_events1_v2_de.png){ class="shadow lightbox" title="Tab Termine eines Produkts · 2026.10.09" }
 
 Der Termin kann sich auf die gesamte Durchführung eines Produkts beziehen oder nur auf einen Teil der Durchführung des Produkts. Wählen Sie im ersten Schritt des Dialogs das gewünschte Element aus dem angezeigten Strukturbaum.
 
@@ -365,8 +363,6 @@ Die Mitgliederverwaltung finden Sie deshalb im **Tab "Durchführungen"** des Pro
 ### Report-Dateien erstellen
 
 Wählen Sie in der Übersicht des Course Planners den Button "Reports".
-
-![Markierter Button Reports auf der Startseite des Course Planners](assets/course_planner_courses_reports1_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
 Sie können dort aus verschiedenen Vorlagen auswählen, anhand derer Sie Excel-Dateien mit den aktuellen Daten zu den eingegangenen Buchungsaufträgen erstellen können.
 
