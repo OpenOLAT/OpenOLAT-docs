@@ -13,6 +13,8 @@ You define the **Title** (mandatory field, maximum 100 characters) and the **Ref
 
 Depending on the learning resource, only some of the tabs are available.
 
+![The four options under Display on info page and below them the roles with their number of people who appear as teachers](assets/course_settings_info_form_v1_en.png){ class="shadow lightbox" title="Info tab of the course settings · 2026.10.09" }
+
 The "Info" tab is divided into four parts, in this order: "Information" with cover image, teaser movie, teaser and description, followed by the sections "Facts", "Display settings" and "Additional information". The display settings and the additional information only exist for courses. For other learning resources, such as a test or a wiki, the tab only shows "Information" and "Facts".
 
 !!! info "Important"

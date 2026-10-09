@@ -17,6 +17,8 @@ Das Modul Course Planner ist optional an Stelle des Moduls Curriculum in OpenOla
 
 Im Tab "Einstellungen" schalten Administrator:innen den Course Planner ein und legen fest, mit welchen Voreinstellungen neue Kurse und Durchführungen starten. Sie finden ihn in der System-Administration unter: `Administration > Module > Course Planner`. Neben "Einstellungen" erscheinen die Tabs "Kursplaner:in" und "Elementtypen", sobald das Modul eingeschaltet ist.
 
+![Standardeinstellungen mit dem Verwendungszweck für neue Kurse, den Optionen für die Infoseite und den Rollen für Lernen Sie Ihre Dozent:innen kennen](assets/modules_course_planner_settings_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Course Planner · 2026.10.09" }
+
 Fünf Einstiege öffnen dieselbe Liste der Produkte und Durchführungen:
 
 * `Kurse > Bildungsprodukte` für Teilnehmer:innen
@@ -60,8 +62,6 @@ Kurse können für eigenständige Verwendung oder zur Einbindung in ein Produkt 
 * **Eigenständig**: Ein eigenständiger Kurs besitzt eine Mitgliederverwaltung. Der Zugang kann mit der Angebotsart "Privat" durch Eintragung als Mitglied (z.B. durch Kursbesitzer:innen), durch Vergabe eines Zugangscodes oder über eine Veröffentlichung im Katalog erfolgen.
 * **Verwendung im Course Planner**: Wird der Kurs in ein Produkt eingebunden, werden die Mitgliedschaften durch den Course Planner vergeben und verwaltet. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
 
-![Auswahl zwischen den Karten Eigenständig und Verwendung im Course Planner, mit Verwendung im Course Planner gewählt](assets/modules_course_planner_usage_v1_de.png){ class="shadow lightbox" title="Tab Course Planner in der System-Administration" }
-
 !!! tip "Tipp"
 
     Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Verwendungszweck für neue Kurse in der System-Administration unter `Administration > Module > Course Planner` auf "Verwendung im Course Planner" einzustellen.
@@ -90,9 +90,16 @@ Wie die Anzeigeeinstellungen einer einzelnen Durchführung geändert werden, bes
 
 Im Tab "Kursplaner:in" stehen die Rechte der Organisationsrolle Kursplaner:in. Der Tab zeigt oben die "Organisationsrolle" mit dem festen Wert "Kursplaner:in", darunter die Liste der Rechte. Er erscheint, sobald das Modul eingeschaltet ist.
 
+![Organisationsrolle Kursplaner:in und die Liste der Rechte, eingerückt die Unterrechte je Bereich](assets/modules_course_planner_planner_rights_v1_de.png){ class="shadow lightbox" title="Tab Kursplaner:in im Modul Course Planner · 2026.10.09" }
+
 #### Rechte {: #user_overview }
 
-Zu jedem Bereich lassen sich einzelne Angaben separat freigeben, etwa Kursfortschritt und Status, Termine und Absenzen, Leistungsnachweise, Badges, Buchungen oder der Zugriff auf den Qualitätsmanagementreport.
+Die Liste führt die Bereiche, eingerückt darunter ihre einzelnen Angaben. Zwei Rechte bestimmen, welche Spalten der [Report Buchungsaufträge](../../manual_user/area_modules/Reports_BookingOrders.de.md) im Course Planner enthält:
+
+- **Kursfortschritt und Status anzeigen**: die Spalten von "Punkte" bis "Letzter Besuch", darunter "Erfolgsstatus", "Fortschritt" und "Zertifikat".
+- **Termine und Absenzen anzeigen**: die Spalten "Einheiten", "Anwesend", "Unentschuldigt", "Entschuldigt" und "Dispensiert".
+
+Ist eines der beiden Rechte nicht gewählt, fehlen seine Spalten in allen Reports der Kategorie Buchungsaufträge.
 
 [Zum Seitenanfang ^](#module_course_planner)
 
@@ -119,7 +126,7 @@ Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird �
 | #Eltern | Anzahl übergeordneter Elementtypen, die diesen Typ als Kindelement zulassen |
 | #Kinder | Anzahl der Elementtypen, die als Kindelemente dieses Typs definiert sind |
 
-![Übersichtstabelle der Elementtypen mit den Buttons zum Erstellen neuer Typen, im Tab Elementtypen der System-Administration](assets/modules_course_planner_element_types_v1_de.png){ class="shadow lightbox" title="Tab Elementtypen in der System-Administration" }
+![Übersichtstabelle der Elementtypen mit Verwendung, Unterelementen, Inhalt und Anzahl Verwendungen, darüber die Buttons zum Erstellen neuer Typen](assets/modules_course_planner_element_types_v2_de.png){ class="shadow lightbox" title="Tab Elementtypen im Modul Course Planner · 2026.10.09" }
 
 
 [Zum Seitenanfang ^](#module_course_planner)

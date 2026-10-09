@@ -5,6 +5,8 @@ Im Modul Kurs legen Sie als Administrator:in fest, welche Kursoptionen systemwei
 
 ## Tab Einstellungen {: #settings}
 
+![Optionen unter Auf Infoseite anzeigen und Rollen unter Als Dozenten angezeigte Mitglieder, mit denen neue Kurse starten](assets/modules_course_settings_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Kurs · 2026.10.09" }
+
 ### Moduleinstellungen {: #module_settings}
 
 #### Kursoption aktivieren {: #enable_course_option}

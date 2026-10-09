@@ -448,7 +448,7 @@ In den Anzeigeeinstellungen unterscheidet sich die Durchführung in drei Punkten
 - **Kreditpunkte**: Die Option steht zur Wahl, sobald Administrator:innen die [Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) eingeschaltet haben; "Termine" und "Zertifikat" stehen immer zur Wahl. Ist "Kreditpunkte" gewählt, erscheint darunter das Pflichtfeld "Kreditpunkte": Dort geben Sie die Anzahl ein und wählen das Kreditpunktesystem.
 - **Standardeinstellungen**: Eine neue Durchführung startet mit den [Standardeinstellungen aus dem Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md#default_settings). Wählen Sie "Lernen Sie Ihre Dozent:innen kennen" neu aus, sind die dort festgelegten Rollen vorgewählt.
 
-![Die Angaben für die Infoseite: Titelbild, Teaser und Beschreibung, die Fakten Hauptsprache und Zeitaufwand, die Anzeigeeinstellungen und die Details Lernziele, Voraussetzungen und Bescheinigung](assets/course_planner_implementations_tab_settings_infos_v2_de.png){ class="shadow lightbox" title="Unter-Tab Infos der Einstellungen · 2026.09.30" }
+![Fünf Optionen von Gliederung bis Kreditpunkte, die Rollen mit ihrer Personenzahl und das Feld Kreditpunkte mit Anzahl und Kreditpunktesystem](assets/course_planner_implementations_tab_settings_infos_v3_de.png){ class="shadow lightbox" title="Unter-Tab Infos der Einstellungen einer Durchführung · 2026.10.09" }
 
 #### Durchführung in den Einstellungen
 

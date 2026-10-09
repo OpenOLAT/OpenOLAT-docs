@@ -11,6 +11,8 @@ Den **Titel** (Pflichtfeld, höchstens 100 Zeichen) und das **Kennzeichen**, z.B
 
 Je nach Lernressource steht nur ein Teil der Tabs zur Verfügung.
 
+![Die vier Optionen unter Auf Infoseite anzeigen und darunter die Rollen mit ihrer Personenzahl, die als Dozent:innen erscheinen](assets/course_settings_info_form_v1_de.png){ class="shadow lightbox" title="Tab Info der Kurseinstellungen · 2026.10.09" }
+
 Der Tab "Info" ist in vier Teile gegliedert, in dieser Reihenfolge: "Informationen" mit Titelbild, Teaser-Film, Teaser und Beschreibung, danach die Abschnitte "Fakten", "Anzeigeeinstellungen" und "Erweiterte Informationen". Die Anzeigeeinstellungen und die erweiterten Informationen gibt es nur bei Kursen. Bei anderen Lernressourcen, etwa einem Test oder einem Wiki, zeigt der Tab nur "Informationen" und "Fakten".
 
 !!! info "Wichtig"

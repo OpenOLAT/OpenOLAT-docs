@@ -17,6 +17,8 @@ The Course Planner module is optionally available in OpenOlat instead of the Cur
 
 In the "Settings" tab, administrators switch on the Course Planner and define the presets with which new courses and implementations start. You find it in the system administration under: `Administration > Modules > Course Planner`. Next to "Settings", the tabs "Course planner" and "Element types" appear as soon as the module is switched on.
 
+![Default settings with the usage for new courses, the options for the info page and the roles for Meet your teachers](assets/modules_course_planner_settings_v1_en.png){ class="shadow lightbox" title="Settings tab in the Course Planner module · 2026.10.09" }
+
 Five entry points open the same list of products and implementations:
 
 * `Courses > Educational products` for participants
@@ -60,8 +62,6 @@ Courses can be intended for stand-alone use or for integration into a product. A
 * **Standalone**: An independent course has a member administration. Access can be gained using the "Private" offer type by registering as a member (e.g. by course owners), by assigning an access code or by publication in the catalog.
 * **Use in Course Planner**: If the course is integrated into a product, memberships are assigned and managed by the Course Planner. The course then does not require a second, independent membership administration.
 
-![Choice between the cards Standalone and Use in Course Planner, with Use in Course Planner selected](assets/modules_course_planner_usage_v1_en.png){ class="shadow lightbox" title="Course Planner tab in the system administration" }
-
 !!! tip "Tip"
 
     If Course Planner is used extensively, it is advisable to set the usage for new courses in the system administration under `Administration > Modules > Course Planner` to "Use in Course Planner".
@@ -90,9 +90,16 @@ How the display settings of an individual implementation are changed is describe
 
 The "Course planner" tab contains the rights of the organisation role course planner. At the top, the tab shows the "Organisation role" with the fixed value "Course planner", below it the list of rights. It appears as soon as the module is switched on.
 
+![Organisation role Course planner and the list of rights, with the sub-rights of each area indented](assets/modules_course_planner_planner_rights_v1_en.png){ class="shadow lightbox" title="Course planner tab in the Course Planner module · 2026.10.09" }
+
 #### Rights {: #user_overview }
 
-Individual entries can be released separately for each area, for example course progress and status, events and absences, evidence of achievement, badges, bookings or access to the quality management report.
+The list shows the areas, with their individual entries indented below. Two rights determine which columns the [Booking orders report](../../manual_user/area_modules/Reports_BookingOrders.md) in the Course Planner contains:
+
+- **View course progress and status**: the columns from "Score" to "Last visit", including "Success status", "Progress" and "Certificate".
+- **View events and absence**: the columns "Units", "Attended", "Not excused", "Authorized" and "Dispensed".
+
+If one of these two rights is not selected, its columns are missing in all reports of the category Booking orders.
 
 [To the top of the page ^](#module_course_planner)
 
@@ -120,7 +127,7 @@ The overview table shows all element types that have been created. An element ty
 | #Parents | Number of superordinate element types that allow this type as a child element |
 | #Children | Number of element types defined as child elements of this type |
 
-![Overview table of the element types with the buttons for creating new types, in the Element types tab of the system administration](assets/modules_course_planner_element_types_v1_en.png){ class="shadow lightbox" title="Element types tab in the system administration" }
+![Overview table of the element types with usage, subelements, content and number of uses, above it the buttons for creating new types](assets/modules_course_planner_element_types_v2_en.png){ class="shadow lightbox" title="Element types tab in the Course Planner module · 2026.10.09" }
 
 
 [To the top of the page ^](#module_course_planner)

@@ -5,6 +5,8 @@ In the Module Course, you as an administrator define which course options are av
 
 ## Tab Settings {: #settings}
 
+![Options under Display on info page and roles under Members displayed as teacher that new courses start with](assets/modules_course_settings_v2_en.png){ class="shadow lightbox" title="Settings tab in the Module Course · 2026.10.09" }
+
 ### Module settings {: #module_settings}
 
 #### Enable course option {: #enable_course_option}

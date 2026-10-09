@@ -437,7 +437,7 @@ In the display settings, the implementation differs from the course in three poi
 - **Credit points**: The option is available as soon as administrators have switched on the [credit points](../../manual_admin/administration/e-Assessment_Credit_Points.md); "Events" and "Certificate" are always available. If "Credit points" is selected, the mandatory field "Credit points" appears below it: there you enter the number and choose the credit point system.
 - **Default settings**: A new implementation starts with the [default settings from the Module Course Planner](../../manual_admin/administration/Modules_Course_Planner.md#default_settings). If you select "Meet your teachers" again, the roles defined there are preselected.
 
-![The details for the info page: cover image, teaser and description, the facts Main language and Expenditure of work, the display settings and the details Objectives, Requirements and Certification](assets/course_planner_implementations_tab_settings_infos_v2_en.png){ class="shadow lightbox" title="Infos sub-tab of the settings · 2026.09.30" }
+![Five options from Outline to Credit points, the roles with their number of people and the Credit points field with amount and credit point system](assets/course_planner_implementations_tab_settings_infos_v3_en.png){ class="shadow lightbox" title="Infos sub-tab of the settings of an implementation · 2026.10.09" }
 
 
 #### Execution in the settings
