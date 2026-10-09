@@ -326,7 +326,9 @@ If you are looking for a course in the "Add course" dialog that is not in the li
 
 1. **Usage:** The dialog only shows courses with the usage "Use in Course Planner" (see [step 6](#embedding)). Courses with the usage "Standalone" or "Template" never appear here. You add a template with the "Add course template" button (see step 10).
 2. **Organisation:** In addition to your own courses, the dialog shows courses whose administrative access contains the organisation of the product or one of its sub-organisations. Added to these are courses that you manage through a role in the course's organisation, for example as learning resource manager. The access only works downwards: if a course is only shared with a parent organisation of the product, it does not appear. In that case, add the organisation of the product in the course under `Course > Administration > Settings > Tab "Share" > Administrative access`. The field accepts several organisations.
-3. **Tab:** The dialog opens on the "My courses" tab, and this tab only shows courses you own. You find courses of other owners in the "Search form" tab. The "Favourites" tab shows the courses you have marked as favourites.
+3. **Tab:** The dialog opens on the "My courses" tab, and this tab only shows courses you own. You find courses of other owners in the "Search form" tab. This tab opens without results: enter a search term, or click "Search" directly. The "Favourites" tab shows the courses you have marked as favourites.
+
+![The dialog opens on the My courses tab with your own courses, you find courses of other owners in the Search form tab](assets/course_planner_courses_add_course_dialog_v1_en.png){ class="shadow lightbox" title="Add course dialog of an implementation · 2026.10.09" }
 
 !!! tip "Course not in the list?"
 

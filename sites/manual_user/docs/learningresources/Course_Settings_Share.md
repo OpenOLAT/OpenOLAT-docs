@@ -33,7 +33,7 @@ The Share tab does not look the same for every course. What matters is the usage
 
 For a course in the Course Planner, only the administrative access therefore remains in the Share section. Membership, booking and leaving are handled in the implementation in the Course Planner. The share overview is shorter too: it counts only the owners, because the course itself manages no coaches and no participants.
 
-![With Use in Course Planner only the administrative access remains, and the share overview counts the owners alone](assets/course_settings_share_cpl_v2_en.png){ class="shadow lightbox" title="Share tab of a course in the Course Planner" }
+![With Use in Course Planner only the administrative access remains in the Share section, and the share overview counts only the owners as members](assets/course_settings_share_cpl_v3_en.png){ class="shadow lightbox" title="Share tab of a course in the Course Planner · 2026.10.09" }
 
 !!! info "Important"
 
@@ -63,14 +63,14 @@ These courses are also managed by the Course Planner and do not require separate
 
 Clicking "Change" opens the "Change usage" dialog. It shows the current usage at the top and below it the usages you can switch to. The current usage is therefore not in the selection.
 
-![Switch to Standalone or Template, the current usage is missing from the selection](assets/course_settings_share_usage2_v2_en.png){ class="shadow lightbox" title="Change usage dialog" }
-
 Except for "Standalone", member management does not take place in the course. OpenOlat therefore blocks a switch as soon as the course does not meet a precondition. A blocked usage appears in the dialog but cannot be selected. The dialog names the reasons above the selection, under the sentence "Due to the following preconditions, certain options are not available:":
 
 - **No members except owners:** The course has coaches or participants. Blocks the switch to "Use in Course Planner" and to "Template".
 - **No groups that are also referenced by other courses:** A group of the course is also embedded in another course. Blocks the switch to "Use in Course Planner" and to "Template".
 - **"Access for participants" must be set to "Private":** In the Share section, "Bookable and open offers" is selected. Blocks the switch to "Use in Course Planner" and to "Template".
 - **Not used by the Course Planner:** The course or the template is assigned to an implementation. Blocks every switch except the one from "Standalone" to "Use in Course Planner".
+
+![Above the selection the dialog states why a switch is blocked, here because the course has coaches and participants; both usages therefore cannot be selected](assets/course_settings_share_usage2_v3_en.png){ class="shadow lightbox" title="Change usage dialog for a course with members · 2026.10.09" }
 
 If a course already has members, a copy is the simplest way into the Course Planner: it is created without coaches and participants and can be switched. The steps are described here:<br>
 [If the usage cannot be changed >](../../manual_how-to/course_planner_courses/course_planner_courses.md#embedding_locked)
@@ -86,7 +86,7 @@ If a course already has members, a copy is the simplest way into the Course Plan
 
 ## Section Share {: #section_share}
 
-![Access Private, direct link, three leaving options with At any time selected, and the rights for authors, in the Share section](assets/course_settings_share_share_v3_en.png){ class="shadow lightbox" title="Share section in the Share tab" }
+![All settings of a standalone course at a glance: access Private, direct link, leaving with the option Never, administrative access and the rights for authors](assets/course_settings_share_share_v4_en.png){ class="shadow lightbox" title="Share section in the Share tab · 2026.10.09" }
 
 **Access for participants**<br>
 If you select **"Private"**, participants will be added by the course owner or persons who have member management rights. This is done under `Course > Administration > Member management`. It is therefore like a personal invitation to the course by the course owner.
@@ -110,7 +110,7 @@ If the Organizational Units module is not activated, you will only find a single
 You can see how many people have administrative access in the [share overview >](#section_share_overview).
 
 **Authors can**<br>
-Allow here what other authors may do with your course: **"embed in groups"**, **"copy"** and **"export content"**. For learning resources other than courses, the first option is called "embed".
+Allow here what other authors may do with your course: "embed in groups", "copy" and "export content". For learning resources other than courses, the first option is called "embed".
 
 **External OER catalogs and search engines**<br>
 OAI-PMH allows metadata from learning resources to be shared with Internet portals or catalogs outside OpenOlat, enabling search engines to find content more easily. (OER = Open Educational Resources)
@@ -126,9 +126,9 @@ Admin Manual: [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.md
 
 ---
 
-## Section offers [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
+## Section offer [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
 
-![The Add offer button is inactive because access is set to private](assets/course_settings_share_offer_v1_de.png){ class="shadow lightbox" title="Offer section in the Share tab" }
+![As long as access for participants is set to Private, the Add offer button is inactive, and the section states the reason](assets/course_settings_share_offer_v2_en.png){ class="shadow lightbox" title="Offer section in the Share tab · 2026.10.09" }
 
 In order for a course to be listed in the catalog, an offer must be created. Multiple offers can also be created if the same course is to be offered under different conditions (e.g., free of charge for a specific target group, subject to a fee for others).
 

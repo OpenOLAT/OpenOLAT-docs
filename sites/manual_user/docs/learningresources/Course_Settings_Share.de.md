@@ -33,7 +33,7 @@ Der Tab Freigabe sieht nicht bei jedem Kurs gleich aus. Ausschlaggebend ist der 
 
 Bei einem Kurs im Course Planner bleibt im Abschnitt Freigabe deshalb nur die Administrative Freigabe stehen. Mitgliedschaft, Buchung und Austritt regeln Sie dort in der Durchführung des Course Planner. Auch die Freigabeübersicht fällt kürzer aus: Sie zählt nur die Besitzer:innen, weil der Kurs selbst keine Betreuer:innen und Teilnehmer:innen verwaltet.
 
-![Bei Verwendung im Course Planner bleibt von der Freigabe nur die Administrative Freigabe, und die Freigabeübersicht zählt allein die Besitzer:innen](assets/course_settings_share_cpl_v1_de.png){ class="shadow lightbox" title="Tab Freigabe eines Kurses im Course Planner" }
+![Bei Verwendung im Course Planner bleibt im Abschnitt Freigabe nur die Administrative Freigabe, und die Freigabeübersicht zählt bei den Mitgliedern allein die Besitzer:innen](assets/course_settings_share_cpl_v3_de.png){ class="shadow lightbox" title="Tab Freigabe eines Kurses im Course Planner · 2026.10.09" }
 
 !!! info "Wichtig"
 
@@ -63,14 +63,14 @@ Auch diese Kurse sind durch den Course Planner verwaltet und ohne eigenständige
 
 Durch Klick auf "Ändern" öffnet sich der Dialog "Verwendungszweck ändern". Er zeigt oben den aktuellen Verwendungszweck und darunter die Verwendungszwecke, zu denen Sie wechseln können. Der aktuelle Verwendungszweck steht deshalb nicht in der Auswahl.
 
-![Wechsel auf Eigenständig oder Template, der aktuelle Verwendungszweck fehlt in der Auswahl](assets/course_settings_share_usage2_v2_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern" }
-
 Ausser bei "Eigenständig" erfolgt die Mitgliederverwaltung nicht im Kurs. Deshalb sperrt OpenOlat einen Wechsel, sobald der Kurs eine Voraussetzung nicht erfüllt. Ein gesperrter Verwendungszweck steht im Dialog, ist aber nicht anwählbar. Die Gründe nennt der Dialog über der Auswahl unter dem Satz "Aufgrund der folgenden Voraussetzungen sind bestimmte Optionen nicht verfügbar:":
 
 - **Keine Mitglieder mit Ausnahme der Besitzer:innen:** Der Kurs hat Betreuer:innen oder Teilnehmer:innen. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
 - **Keine Gruppen, die auch in anderen Kursen eingebunden sind:** Eine Gruppe des Kurses ist zugleich in einem anderen Kurs eingebunden. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
 - **"Zugang für Teilnehmer:innen" muss auf "Privat" gesetzt sein:** Im Abschnitt Freigabe ist "Buchbare und offene Angebote" gewählt. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
 - **Keine Verwendung durch Course Planner:** Der Kurs oder das Template ist einer Durchführung zugeordnet. Sperrt jeden Wechsel ausser dem von "Eigenständig" zu "Verwendung im Course Planner".
+
+![Über der Auswahl nennt der Dialog, warum ein Wechsel gesperrt ist, hier wegen Betreuer:innen und Teilnehmer:innen im Kurs; beide Verwendungszwecke sind deshalb nicht anwählbar](assets/course_settings_share_usage2_v3_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern bei einem Kurs mit Mitgliedern · 2026.10.09" }
 
 Hat ein Kurs bereits Mitglieder, ist eine Kopie der einfachste Weg in den Course Planner: Sie entsteht ohne Betreuer:innen und Teilnehmer:innen und lässt sich umstellen. Die Schritte finden Sie hier:<br>
 [Wenn sich der Verwendungszweck nicht ändern lässt >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md#embedding_locked)
@@ -87,7 +87,7 @@ Hat ein Kurs bereits Mitglieder, ist eine Kopie der einfachste Weg in den Course
 
 ## Abschnitt Freigabe {: #section_share}
 
-![Zugang Privat, Direktlink, drei Austrittsoptionen mit Nie gewählt, dazu Rechte für Autor:innen](assets/course_settings_share_share_v2_de.png){ class="shadow lightbox" title="Abschnitt Freigabe im Tab Freigabe" }
+![Alle Einstellungen eines eigenständigen Kurses auf einen Blick: Zugang Privat, Direktlink, Austritt mit der Option Nie, Administrative Freigabe und die Rechte für Autor:innen](assets/course_settings_share_share_v4_de.png){ class="shadow lightbox" title="Abschnitt Freigabe im Tab Freigabe · 2026.10.09" }
 
 **Zugang für Teilnehmer:innen**<br>
 Bei der Wahl **"Privat"** werden die Teilnehmenden durch die Kursbesitzer:in bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, hinzugefügt. Dies geschieht unter `Kurs > Administration > Mitgliederverwaltung`. Es ist also wie eine persönliche Einladung in den Kurs durch Kursbesitzer:innen.<br>
@@ -111,7 +111,7 @@ Ist das Modul Organisationseinheiten nicht aktiviert, finden Sie hier nur eine e
 Wieviele Personen administrativ zugreifen können, sehen Sie in der [Freigabeübersicht >](#section_share_overview)
 
 **Autor:innen können**<br>
-Erlauben Sie hier, was andere Autor:innen mit Ihrem Kurs tun dürfen: **"in Gruppen einbinden"**, **"kopieren"** und **"Inhalt exportieren"**. Bei anderen Lernressourcen als Kursen heisst die erste Option "einbinden".
+Erlauben Sie hier, was andere Autor:innen mit Ihrem Kurs tun dürfen: "in Gruppen einbinden", "kopieren" und "Inhalt exportieren". Bei anderen Lernressourcen als Kursen heisst die erste Option "einbinden".
 
 **Externe OER-Kataloge und Suchmaschinen**<br>
 Mit OAI-PMH lassen sich Metadaten von Lernressourcen für Internet-Portale oder Kataloge ausserhalb OpenOlat freigeben, damit Suchmaschinen einen Inhalt besser finden können. (OER = Open Educational Resources)
@@ -127,9 +127,9 @@ Admin-Handbuch: [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.
 
 ---
 
-## Abschnitt Angebote [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
+## Abschnitt Angebot [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
 
-![Der Button Angebot hinzufügen ist inaktiv, weil der Zugang auf privat steht](assets/course_settings_share_offer_v1_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe" }
+![Solange der Zugang für Teilnehmer:innen auf Privat steht, ist der Button Angebot hinzufügen inaktiv, und der Abschnitt nennt den Grund](assets/course_settings_share_offer_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe · 2026.10.09" }
 
 Damit ein Kurs im Katalog aufgeführt wird, muss ein Angebot erstellt werden. Es können auch mehrere Angebote erstellt werden, wenn der gleiche Kurs zu verschiedenen Bedingungen angeboten werden soll (z.B. kostenlos für eine bestimmte Zielgruppe, kostenpflichtig für andere).
 

@@ -329,7 +329,9 @@ Suchen Sie im Dialog "Kurs hinzufügen" einen Kurs, der nicht in der Liste steht
 
 1. **Verwendungszweck:** Der Dialog zeigt nur Kurse mit dem Verwendungszweck "Verwendung im Course Planner" (siehe [Schritt 6](#embedding)). Kurse mit dem Verwendungszweck "Eigenständig" oder "Template" erscheinen hier nie. Ein Template fügen Sie mit dem Button "Kurstemplate hinzufügen" hinzu (siehe Schritt 10).
 2. **Organisation:** Neben Ihren eigenen Kursen zeigt der Dialog Kurse, deren Administrative Freigabe die Organisation des Produkts oder eine ihrer Unterorganisationen enthält. Dazu kommen Kurse, die Sie über eine Rolle in der Organisation des Kurses verwalten, etwa als Lernressourcenverwalter:in. Die Freigabe wirkt nur nach unten: Ist ein Kurs nur für eine übergeordnete Organisation des Produkts freigegeben, erscheint er nicht. Ergänzen Sie dann im Kurs die Organisation des Produkts unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Administrative Freigabe`. Das Feld nimmt mehrere Organisationen auf.
-3. **Tab:** Der Dialog öffnet auf dem Tab "Meine Kurse", und dieser zeigt nur Kurse, deren Besitzer:in Sie sind. Kurse anderer Besitzer:innen finden Sie im Tab "Suche". Der Tab "Favoriten" zeigt die Kurse, die Sie als Favorit markiert haben.
+3. **Tab:** Der Dialog öffnet auf dem Tab "Meine Kurse", und dieser zeigt nur Kurse, deren Besitzer:in Sie sind. Kurse anderer Besitzer:innen finden Sie im Tab "Suche". Dieser Tab öffnet ohne Treffer: Geben Sie einen Suchbegriff ein, oder klicken Sie direkt auf "Suchen". Der Tab "Favoriten" zeigt die Kurse, die Sie als Favorit markiert haben.
+
+![Der Dialog öffnet auf dem Tab Meine Kurse mit Ihren eigenen Kursen, Kurse anderer Besitzer:innen finden Sie im Tab Suche](assets/course_planner_courses_add_course_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Kurs hinzufügen einer Durchführung · 2026.10.09" }
 
 !!! tip "Kurs nicht in der Liste?"
 

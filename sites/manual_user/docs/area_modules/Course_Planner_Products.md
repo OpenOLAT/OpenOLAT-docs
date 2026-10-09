@@ -24,9 +24,9 @@ Products are used in **Course Planner** to plan an educational program with seve
 The implementations of a product can be offered in the [catalog](../../manual_user/area_modules/catalog2.0_angebote.md).
 
 If participants are not only assigned to a single course as members, but to the [Implementation](../../manual_user/area_modules/Course_Planner_Implementations.md) of a product, the membership is visible to the participants when they select the "Courses" option in the main menu.<br>
-Courses that are assigned to a product appear there in the "Educational products" section.
+Courses that are assigned to a product appear there in the "Educational products" section. Implementations that you have marked as favourites also appear there as separate buttons next to "My courses".
 
-![Next to My courses and In preparation, the button for the educational products, where participants find the courses of their booked implementations](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" title="Courses area" }
+![Under the Educational products button participants find the courses of their implementations, implementations marked as favourites appear as separate buttons next to it](assets/course_planner_products_education_programs_v2_en.png){ class="shadow lightbox" title="Courses area · 2026.10.09" }
 
 [To the top of the page ^](#products)
 
@@ -50,11 +50,9 @@ After activation, system administrators can activate and set up the module at:<b
 
 To create a product, open the Course Planner and then the "Products" subsection.
 
-![The way to the products: the Course Planner entry in the More menu opens the overview, where the Products button leads to the subsection](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" title="Start page of the Course Planner" }
+![With the Create product button at the top right above the list you add a product, the table shows reference, organisation and the number of implementations by status per product](assets/course_planner_products2_v3_en.png){ class="shadow lightbox" title="Products page in the Course Planner · 2026.10.09" }
 
-![Create product button at the top right above the list, the table shows reference, organisation and the number of implementations by status per product](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" title="Products page in the Course Planner" }
-
-![Title and Reference as mandatory fields, plus Organisation, the Absences selection and the editor for the description](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" title="Create product dialog" }
+![Title, Reference and Organisation as mandatory fields, plus the Absences selection and the editor for the description](assets/course_planner_products3_v3_en.png){ class="shadow lightbox" title="Create product dialog · 2026.10.09" }
 
 #### Title {: #create_product_title}
 
@@ -66,7 +64,7 @@ The reference is also a mandatory field. (It is used as an identifier to differe
 
 #### Organisation {: #create_product_organisation}
 
-When you create a new product, you can also restrict it to use within a specific organizational unit if you have activated the "Organizations" module. The organisation of the product also decides which courses the "Add course" dialog of an implementation offers: courses shared with this organisation or one of its sub-organisations (see [Setting in the courses of the product](#course_settings)).
+If the "Organisations" module is activated, the organisation is a mandatory field: it restricts the new product to use within a specific organisational unit. The organisation of the product also decides which courses the "Add course" dialog of an implementation offers: courses shared with this organisation or one of its sub-organisations (see [Setting in the courses of the product](#course_settings)).
 
 #### Absences {: #create_product_absence_management}
 

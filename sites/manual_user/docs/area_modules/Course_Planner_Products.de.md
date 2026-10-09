@@ -24,9 +24,9 @@ Produkte werden im **Course Planner** für die Planung eines Bildungsgangs mit m
 Die Durchführungen eines Produkts können im [Katalog](../../manual_user/area_modules/catalog2.0_angebote.de.md) angeboten werden.
 
 Werden Teilnehmer:innen nicht nur einem einzelnen Kurs als Mitglieder zugeordnet, sondern der [Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md) eines Produkts, ist die Mitgliedschaft für die Teilnehmer:innen ersichtlich, wenn sie im Hauptmenü die Option "Kurse" wählen.<br>
-Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungsprodukte".
+Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungsprodukte". Durchführungen, die Sie als Favorit markiert haben, stehen dort zusätzlich als eigene Buttons neben "Meine Kurse".
 
-![Neben Meine Kurse und In Vorbereitung steht der Button für die Bildungsprodukte, unter dem Teilnehmende die Kurse ihrer gebuchten Durchführungen finden](assets/course_planner_products_education_programs_v1_de.png){ class="shadow lightbox" title="Bereich Kurse" }
+![Unter dem Button Bildungsprodukte finden Teilnehmende die Kurse ihrer Durchführungen, als Favorit markierte Durchführungen stehen als eigene Buttons daneben](assets/course_planner_products_education_programs_v2_de.png){ class="shadow lightbox" title="Bereich Kurse · 2026.10.09" }
 
 
 [zum Seitenanfang ^](#products)
@@ -53,11 +53,9 @@ Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivie
 
 Zum Erstellen eines Produkts öffnen Sie den Course Planner und dort den Unterbereich "Produkte".
 
-![Weg zu den Produkten: der Eintrag Course Planner im Menü Mehr öffnet die Übersicht, dort führt der Button Produkte in den Unterbereich](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
+![Mit dem Button Produkt erstellen rechts über der Liste legen Sie ein Produkt an, die Tabelle zeigt je Produkt Kennzeichen, Organisation und die Anzahl Durchführungen nach Status](assets/course_planner_products2_v3_de.png){ class="shadow lightbox" title="Seite Produkte im Course Planner · 2026.10.09" }
 
-![Button Produkt erstellen rechts über der Liste, die Tabelle zeigt je Produkt Kennzeichen, Organisation und die Anzahl Durchführungen nach Status](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" title="Seite Produkte im Course Planner" }
-
-![Titel und Kennzeichen als Pflichtfelder, dazu Organisation, die Auswahl Absenzmanagement und der Editor für die Beschreibung](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" title="Dialog Produkt erstellen" }
+![Titel, Kennzeichen und Organisation als Pflichtfelder, dazu die Auswahl Absenzmanagement und der Editor für die Beschreibung](assets/course_planner_products3_v3_de.png){ class="shadow lightbox" title="Dialog Produkt erstellen · 2026.10.09" }
 
 #### Titel {: #create_product_title}
 
@@ -69,7 +67,7 @@ Das Kennzeichen ist ebenfalls ein Pflichtfeld. (Es wird als Identifier zur Unter
 
 #### Organisation {: #create_product_organisation}
 
-Wenn Sie ein neues Produkt erstellen, können Sie es auch auf die Verwendung innerhalb einer bestimmten Organisationseinheit beschränken, falls bei Ihnen das Modul "Organisationen" aktiviert ist. Die Organisation des Produkts entscheidet auch, welche Kurse der Dialog "Kurs hinzufügen" einer Durchführung anbietet: Kurse, die für diese Organisation oder eine ihrer Unterorganisationen freigegeben sind (siehe [Einstellung in den Kursen des Produkts](#course_settings)).
+Ist bei Ihnen das Modul "Organisationen" aktiviert, ist die Organisation ein Pflichtfeld: Sie beschränken das neue Produkt damit auf die Verwendung innerhalb einer bestimmten Organisationseinheit. Die Organisation des Produkts entscheidet auch, welche Kurse der Dialog "Kurs hinzufügen" einer Durchführung anbietet: Kurse, die für diese Organisation oder eine ihrer Unterorganisationen freigegeben sind (siehe [Einstellung in den Kursen des Produkts](#course_settings)).
 
 #### Absenzmanagement {: #create_product_absence_management}
 
