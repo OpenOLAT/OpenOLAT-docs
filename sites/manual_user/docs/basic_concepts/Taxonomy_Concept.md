@@ -142,7 +142,7 @@ With subjects, you narrow long lists down to one discipline: in the catalog, in 
 
 ![In the Media Center, the filter Subject paths is set to Languages / English, the list only shows the media item with the subject English](assets/taxonomy_concept_media_center_filter_v1_en.png){ class="shadow lightbox" title="User tools, Media Center · 2026.10.09" }
 
-### Catalog {: #filters_catalog}
+### Catalog [:octicons-tag-16:{ title="from Release 17.2.0 (OO-6326)" }](https://track.frentix.com/issue/OO-6326){:target="_blank"} {: #filters_catalog}
 
 In the catalog, people narrow the offers down to a subject with filters. Which filters the catalog shows is defined by administrators in the system administration under `Administration > Modules > Catalog` in the tab "Filters". For taxonomies, there are two filter types:
 
@@ -185,8 +185,8 @@ Which subjects a person sees in the question bank is determined by their Teach a
 
 Competences come about in three ways:
 
-- Administrators assign them in the system administration on a taxonomy level, in the tabs "Competences" and "Management".
-- User managers, roles managers and administrators assign them to a person in the user management in the tab "Competences".
+- Administrators assign them in the system administration on a taxonomy level, the Manage competence in the tab "Management", the others in the tab "Competences": `Administration > Modules > Taxonomy > "Taxonomy title" > "Taxonomy level"`.
+- User managers, roles managers and administrators assign them to a person in the user management: `User management > "Person" > Tab "Competences"`.
 - The Have competence comes about in the ePortfolio as soon as a person assigns a competence to one of their entries.
 
 Each person sees their own competences in the user tools under [Competences](../personal_menu/Competences.md).

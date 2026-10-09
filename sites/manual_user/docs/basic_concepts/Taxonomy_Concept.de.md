@@ -142,7 +142,7 @@ Mit Fachbereichen grenzen Sie lange Listen auf ein Fach ein: im Katalog, im Medi
 
 ![Im Media Center ist der Filter Fachbereich Pfade auf Sprachen / Englisch gesetzt, die Liste zeigt nur noch das Medium mit dem Fachbereich Englisch](assets/taxonomy_concept_media_center_filter_v1_de.png){ class="shadow lightbox" title="Persönliche Werkzeuge, Media Center · 2026.10.09" }
 
-### Katalog {: #filters_catalog}
+### Katalog [:octicons-tag-16:{ title="ab Release 17.2.0 (OO-6326)" }](https://track.frentix.com/issue/OO-6326){:target="_blank"} {: #filters_catalog}
 
 Im Katalog grenzen Personen die Angebote mit Filtern auf einen Fachbereich ein. Welche Filter der Katalog zeigt, legen Administrator:innen in der System-Administration unter `Administration > Module > Katalog` im Tab "Filter" fest. Für Taxonomien gibt es zwei Filtertypen:
 
@@ -185,8 +185,8 @@ Welche Fachbereiche eine Person im Fragenpool sieht, bestimmen ihre Kompetenzen 
 
 Kompetenzen entstehen auf drei Wegen:
 
-- Administrator:innen weisen sie in der System-Administration an einer Taxonomieebene zu, in den Tabs "Kompetenzen" und "Verwaltung".
-- Benutzerverwalter:innen, Rollenverwalter:innen und Administrator:innen weisen sie in der Benutzerverwaltung im Tab "Kompetenzen" einer Person zu.
+- Administrator:innen weisen sie in der System-Administration an einer Taxonomieebene zu, die Kompetenz Verwalten im Tab "Verwaltung", die übrigen im Tab "Kompetenzen": `Administration > Module > Taxonomie > "Taxonomietitel" > "Taxonomieebene"`.
+- Benutzerverwalter:innen, Rollenverwalter:innen und Administrator:innen weisen sie in der Benutzerverwaltung einer Person zu: `Benutzerverwaltung > "Person" > Tab "Kompetenzen"`.
 - Die Kompetenz Haben entsteht im ePortfolio, sobald eine Person einem ihrer Einträge eine Kompetenz zuordnet.
 
 Jede Person sieht ihre eigenen Kompetenzen in den persönlichen Werkzeugen unter [Kompetenzen](../personal_menu/Competences.de.md).
