@@ -138,26 +138,32 @@ Wenn Sie in der System-Administration die Meldung "Die Taxonomie wird noch in ei
 
 ## Filter {: #filters}
 
-Mit Fachbereichen grenzen Sie lange Listen auf ein Fach ein: im Katalog, in den Listen der Termine und in der Analyse des Qualitätsmanagements.
+Mit Fachbereichen grenzen Sie lange Listen auf ein Fach ein: im Katalog, im Media Center, in den Listen der Termine und in der Analyse des Qualitätsmanagements. Im Media Center heisst der Filter "Fachbereich Pfade" und bietet die Taxonomieebenen der Taxonomien an, die für das Media Center gelten.
+
+![Im Media Center ist der Filter Fachbereich Pfade auf Sprachen / Englisch gesetzt, die Liste zeigt nur noch das Medium mit dem Fachbereich Englisch](assets/taxonomy_concept_media_center_filter_v1_de.png){ class="shadow lightbox" title="Persönliche Werkzeuge, Media Center · 2026.10.09" }
 
 ### Katalog {: #filters_catalog}
 
-Im Katalog grenzen Personen die Angebote mit Filtern auf einen Fachbereich ein. Welche Filter der Katalog zeigt, legen Administrator:innen in der System-Administration unter `Administration > Module > Katalog` im Tab "Filter" fest. Die Filter bieten nur Taxonomieebenen an, denen mindestens ein Angebot zugeordnet ist. Für Taxonomien gibt es zwei Filtertypen:
+Im Katalog grenzen Personen die Angebote mit Filtern auf einen Fachbereich ein. Welche Filter der Katalog zeigt, legen Administrator:innen in der System-Administration unter `Administration > Module > Katalog` im Tab "Filter" fest. Für Taxonomien gibt es zwei Filtertypen:
 
-- **Taxonomieebene**: Der Filter trägt den Titel einer gewählten Taxonomieebene und bietet ihre Unterebenen zur Auswahl an.
-- **Fachbereiche**: Der Filter erscheint auf jeder Microsite als "Taxonomieunterebenen" und bietet die Unterebenen der geöffneten Taxonomieebene an. Mit der Option "Lernressourcen der Taxonomieunterebenen anzeigen" im Feld "Default" legen Administrator:innen fest, ob die Microsite die Angebote der Unterebenen von Anfang an zeigt.
+- **Taxonomieebene**: Der Filter trägt den Titel einer gewählten Taxonomieebene und bietet alle ihre Unterebenen zur Auswahl an, auch Unterebenen ohne Angebot.
+- **Fachbereiche**: Der Filter erscheint auf einer Microsite als "Taxonomieunterebenen", sobald eine Unterebene der geöffneten Taxonomieebene ein Angebot hat. Er bietet die geöffnete Taxonomieebene an und die Unterebenen, denen mindestens ein Angebot zugeordnet ist. Mit der Option "Lernressourcen der Taxonomieunterebenen anzeigen" im Feld "Default" legen Administrator:innen fest, ob die Microsite die Angebote der Unterebenen von Anfang an zeigt.
 
-![Microsite OpenOlat Akademie mit dem Filter Taxonomieunterebenen, daneben die Filter Durchführungsformat und Angebotsart](../area_modules/assets/catalog20_design_microsite_v1_de.png){ class="shadow lightbox" title="Microsite einer Taxonomieebene im Katalog" }
+![Auf der Microsite Sprachen ist der Filter Taxonomieunterebenen geöffnet und bietet Sprachen, Deutsch und Englisch an, daneben steht der Filter Sprachen vom Typ Taxonomieebene](assets/taxonomy_concept_filter_catalog_v1_de.png){ class="shadow lightbox" title="Microsite der Taxonomieebene Sprachen im Katalog · 2026.10.09" }
 
 ### Termine [:octicons-tag-16:{ title="ab Release 20.1.2 (OO-8436)" }](https://track.frentix.com/issue/OO-8436){:target="_blank"} {: #events}
 
 Wer Termine Fachbereichen zuordnet, wählt aus den Taxonomien des Bereichs, zu dem der Termin gehört. Beim Termin eines Kurses sind es die Taxonomien von Lernressourcen / Katalog, beim Termin einer Durchführung die Taxonomien des Course Planners. Gehört ein Termin zu beidem, stehen beide zur Wahl.
 
-Wenn Sie in den Listen der Termine die Spalte "Fachbereiche" und den Filter "Fachbereich Pfade" nicht sehen, ist für den Course Planner keine Taxonomie verknüpft. Das gilt auch für Termine von Kursen. Der Filter bietet die Taxonomieebenen dieser Taxonomien an.
+In den Listen der Termine sind die Spalte "Fachbereiche" und der Filter "Fachbereich Pfade" zunächst ausgeblendet. Die Spalte blenden Sie über "Spalten auswählen" ein, den Filter über "Mehr...". Der Filter bietet die Taxonomieebenen der Taxonomien des Course Planners an. Wenn Sie beide auch dort nicht finden, ist für den Course Planner keine Taxonomie verknüpft. Das gilt auch für Termine von Kursen.
+
+![In der Terminliste einer Durchführung ist die Spalte Fachbereiche eingeblendet und der Filter Fachbereich Pfade mit dem Fachbereich Englisch geöffnet](assets/taxonomy_concept_events_v1_de.png){ class="shadow lightbox" title="Course Planner, Tab Termine einer Durchführung · 2026.10.09" }
 
 ### Qualitätsmanagement {: #quality_management}
 
 Wer die Ergebnisse von Datenerhebungen für ein einzelnes Fach auswerten will, grenzt die Analyse des Qualitätsmanagements auf dessen Fachbereich ein. Dafür gibt es dort den Filter "Fachbereich". Er wertet die Fachbereiche aus, die eine Datenerhebung von ihrem Kurs oder ihrem Element im Course Planner übernommen hat, siehe [Qualitätsmanagement: Analyse](../area_modules/Quality_Management_Analysis.de.md).
+
+![In der Analyse eines Formulars ist im Filter Fachbereich Englisch gewählt, die Kennzahlen zeigen nur noch die Datenerhebungen dieses Fachbereichs](assets/taxonomy_concept_quality_analysis_v1_de.png){ class="shadow lightbox" title="Qualitätsmanagement, Analyse eines Formulars · 2026.10.09" }
 
 [Zum Seitenanfang ^](#taxonomy_concept)
 
@@ -169,11 +175,13 @@ Wer wissen will, wer ein Fach unterrichtet, verwaltet oder beherrscht, findet da
 | Kompetenztyp | Bedeutung | Wo OpenOlat ihn auswertet |
 |---|---|---|
 | Ziel | Die Person strebt die Kompetenz an. | bei der Person unter "Kompetenzen" |
-| Haben | Sobald eine Person in ihrem [ePortfolio](../area_modules/Portfolio_General_Information.de.md) einem Eintrag über "Kompetenzen hinzufügen" eine Kompetenz zuordnet, trägt OpenOlat ihr diese Kompetenz automatisch ein. | im ePortfolio bei den Einträgen, bei der Person unter "Kompetenzen" |
+| Haben | Sobald eine Person in ihrem [ePortfolio](../area_modules/Portfolio_General_Information.de.md) einem Eintrag im Feld "Kompetenzen" eine Kompetenz zuordnet, trägt OpenOlat ihr diese Kompetenz automatisch ein. | im ePortfolio bei den Einträgen, bei der Person unter "Kompetenzen" |
 | Unterrichten ("Dozieren") | Die Person unterrichtet das Fach und gibt ihr Wissen weiter. | Fragenpool: Zugang zu den Fachbereichen |
 | Verwalten | Die Person verwaltet diesen Teil der Taxonomie. | Fragenpool: Zugang zu den Fachbereichen und zu finalen Fragen; Katalog: Bearbeiten der Taxonomieebene in der Katalog-Verwaltung |
 
-Welche Fachbereiche eine Person im Fragenpool sieht, bestimmen ihre Kompetenzen Unterrichten und Verwalten. Ob sie Fragen nur diesen Fachbereichen zuordnen kann, regelt die Einstellung "Auswählbare Fachbereiche". Wer finale Fragen sieht, regelt die Einstellung "Sichtbarkeit von finalen Fragen". Beide Einstellungen beschreibt die Seite [e-Assessment Administration: Fragenpool](../../manual_admin/administration/eAssessment_Question_bank.de.md).
+Welche Fachbereiche eine Person im Fragenpool sieht, bestimmen ihre Kompetenzen Unterrichten und Verwalten. Ob sie Fragen nur diesen Fachbereichen zuordnen kann, regelt die Einstellung "Auswählbare Fachbereiche". Wer finale Fragen sieht, regelt die Einstellung "Sichtbarkeit von finalen Fragen". Beide Einstellungen beschreibt die Seite [e-Assessment Administration: Fragenpool](../../manual_admin/administration/eAssessment_Question_bank.de.md). Ist der Beurteilungsprozess eingeschaltet, erscheinen diese Fachbereiche zusätzlich im Menü des Fragenpools unter "Mein Fragenpool", "Beurteilung" und "Final".
+
+![Eine Person mit der Kompetenz Unterrichten auf dem Fachbereich Englisch sieht ihn im Menü des Fragenpools, die Liste zeigt die Fragen dieses Fachbereichs](assets/taxonomy_concept_question_bank_v1_de.png){ class="shadow lightbox" title="Fragenpool, Mein Fragenpool · 2026.10.09" }
 
 Kompetenzen entstehen auf drei Wegen:
 
@@ -183,13 +191,19 @@ Kompetenzen entstehen auf drei Wegen:
 
 Jede Person sieht ihre eigenen Kompetenzen in den persönlichen Werkzeugen unter [Kompetenzen](../personal_menu/Competences.de.md).
 
+![Unter Meine Kompetenzen zeigt die Spalte Typ für jede Kompetenz, ob die Person sie anstrebt, hat, unterrichtet oder verwaltet](assets/taxonomy_concept_competences_v1_de.png){ class="shadow lightbox" title="Persönliche Werkzeuge, Kompetenzen · 2026.10.09" }
+
 ### Kompetenzen im ePortfolio [:octicons-tag-16:{ title="ab Release 15.5.0 (OO-5178)" }](https://track.frentix.com/issue/OO-5178){:target="_blank"} {: #eportfolio}
 
-Wer im ePortfolio festhalten will, zu welchen Kompetenzen ein Eintrag gehört, ordnet ihm Kompetenzen zu. Zur Auswahl stehen aus den verknüpften Taxonomien die Taxonomieebenen, deren Ebenentyp die Einstellung "Kompetenzen" trägt, sowie Ebenen ohne Ebenentyp. Die Verknüpfung wirkt erst, wenn Administrator:innen in der System-Administration unter `Administration > e-Assessment > ePortfolio` den Schalter "Taxonomieverknüpfung einschalten" aktivieren und mindestens eine Taxonomie auswählen. Wenn Kompetenzen aus Portfolioeinträgen verschwinden, haben Administrator:innen an ihrem Ebenentyp die Einstellung "Kompetenzen" ausgeschaltet. OpenOlat entfernt dann alle Ebenen dieses Typs aus den Einträgen.
+Wer im ePortfolio festhalten will, zu welchen Kompetenzen ein Eintrag gehört, ordnet ihm Kompetenzen zu: im Kopf des Eintrags neben "Kompetenzen" über "Hinzufügen" oder "Bearbeiten", oder unter "Metadaten bearbeiten" im Feld "Kompetenzen". Die Auswahlliste zeigt zu jeder Taxonomieebene ihre Taxonomie und ihren Pfad. Zur Auswahl stehen aus den verknüpften Taxonomien die Taxonomieebenen, deren Ebenentyp die Einstellung "Kompetenzen" trägt, sowie Ebenen ohne Ebenentyp. Die Verknüpfung wirkt erst, wenn Administrator:innen in der System-Administration unter `Administration > e-Assessment > ePortfolio` den Schalter "Taxonomieverknüpfung einschalten" aktivieren und mindestens eine Taxonomie auswählen. Wenn Kompetenzen aus Portfolioeinträgen verschwinden, haben Administrator:innen an ihrem Ebenentyp die Einstellung "Kompetenzen" ausgeschaltet. OpenOlat entfernt dann alle Ebenen dieses Typs aus den Einträgen.
+
+![Im Dialog Metadaten bearbeiten eines Portfolioeintrags ist im Feld Kompetenzen Englisch gewählt, die Auswahlliste zeigt die Taxonomieebene unter der Taxonomie Fächer mit dem Pfad SPRACHEN / ENGLISCH](assets/taxonomy_concept_eportfolio_v1_de.png){ class="shadow lightbox" title="ePortfolio, Metadaten eines Eintrags · 2026.10.09" }
 
 ### Fachbereiche in den Leistungsnachweisen [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788){:target="_blank"} {: #evidence_of_achievements}
 
-Damit sich Leistungsnachweise aus dem Course Planner nach Fächern geordnet finden lassen, gruppiert OpenOlat die Elemente in der Liste der [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md) nach ihren Fachbereichen. Dafür zählen nur Fachbereiche, deren Ebenentyp die Einstellung "Leistungsnachweise" trägt.
+Damit sich Leistungsnachweise aus dem Course Planner nach Fächern geordnet finden lassen, gruppiert OpenOlat in der Liste der [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md) die Elemente eines Produkts nach ihren Fachbereichen. Die Gruppierung sehen Sie, wenn Sie oben die Kachel des Produkts wählen. Die Ansichten "Alle Leistungsnachweise" und "Einzelkurse" zeigen die Leistungsnachweise ohne Gruppierung. Für die Gruppierung zählen nur Fachbereiche, deren Ebenentyp die Einstellung "Leistungsnachweise" trägt.
+
+![In den Leistungsnachweisen ist die Kachel des Produkts Sprachkurse 2026 gewählt, die Durchführung Englisch Intensivwoche Herbst 2026 steht unter ihrem Fachbereich Englisch](assets/taxonomy_concept_evidence_v1_de.png){ class="shadow lightbox" title="Persönliche Werkzeuge, Leistungsnachweise · 2026.10.09" }
 
 [Zum Seitenanfang ^](#taxonomy_concept)
 
