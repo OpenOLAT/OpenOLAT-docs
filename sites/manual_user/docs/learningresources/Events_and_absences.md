@@ -25,7 +25,7 @@ Participants open their events in the course via the "Events" icon in the toolba
 
 ![Participants open the course's event list via the toolbar icon "Events", with date, time, title, status, location and teachers](assets/events_and_absences_participant_v1_en.png){ class="shadow lightbox" title="Event list in the participants' view" }
 
-Participants find their own absences in the personal tools in the [Absences menu](../personal_menu/Absences.md).
+Participants find their own absences in the user tools in the [Absences menu](../personal_menu/Absences.md).
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -316,7 +316,7 @@ As a rule, absence managers process the appeals, for all courses together in the
 
 **Mentioned on this page**<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
-[Personal tools: Absences >](../personal_menu/Absences.md)<br>
+[User tools: Absences >](../personal_menu/Absences.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
