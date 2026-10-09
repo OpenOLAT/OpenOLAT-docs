@@ -44,6 +44,30 @@ A learning resource "Form" is also inserted into this course element. In contras
 
 ---
 
+
+## What can a survey be used for? {: #survey_purpose}
+
+Typical uses of the survey include
+
+* Evaluation
+* Course evaluations
+* Feedback from course participants to improve the course
+* Surveys for sales analysis and marketing
+
+!!! note "Alternatives to the ‘Survey’ course element"
+
+    The following explains how to use the “Survey” course block for these purposes. Depending on your needs, you can also use other course blocks in a similar way. For example
+    
+    * Course element "Form": Feedback is assigned by name here.
+    * Course element "Checklist": When participants are asked to check predefined answers.
+    * Course element “Participant Folder”: Feedback forms and other files can be stored here. Participants cannot see each other’s feedback.
+    * Course element “Forum”: As the coach, create various topics on which participants can comment. Here, the responses are visible to other course members and can be commented on by others.
+
+[To the top of the page ^](#survey)
+
+---
+
+
 ## Step 1: Insert the course element "Survey" into the course {: #step1}
 
 We assume that you have already created a course. There you can insert another course element at the end of the course. If it is to be an anonymous survey, use the course element "Survey". (In the following we assume this course element.) Alternatively, you can use the course element "Form", in which the answers can be assigned to the respective participants.

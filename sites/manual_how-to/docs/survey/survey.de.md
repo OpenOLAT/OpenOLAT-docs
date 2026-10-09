@@ -44,6 +44,29 @@ Auch in diesen Kursbaustein wird eine Lernressource "Formular" eingefügt. Im Un
 
 ---
 
+
+## Wofür kann eine Umfrage verwendet werden? {: #survey_purpose}
+
+Typische Verwendungen der Umfrage sind
+
+* Evaluation
+* Kursauswertungen
+* Feedbacks der Kursteilnehmer:innen zur Verbesserung des Kurses
+* Umfragen für Verkaufsauswertung und Marketing
+
+!!! note "Alternativen zum Kursbaustein "Umfrage"
+
+    Nachstehend wird erklärt, wie ein Kursbaustein "Umfrage" für diese Zwecke verwendet wird. Je nach Ihren Bedürfnissen, können Sie auf ähnliche Weise aber auch andere Kursbausteine verwenden. Zum Beispiel
+    
+    * Kursbaustein Formular: Dort werden die Rückmeldung namentlich zugeordnet.
+    * Kursbaustein Checkliste: Wenn die Teilnehmer:innen vordefinierte Antworten ankreuzen sollen.
+    * Kursbaustein Teilnehmer:innenordner: In ihm können Feedbackbögen und weitere Dateien abgelegt werden. Die Teilnehmer:innen können dabei ihre Feedbacks nicht gegenseitig sehen.
+    * Kursbaustein Forum: Legen Sie als Betreuer:in verschiedene Themen an, zu denen die Teilnehmer:innen Stellung nehmen können. Die Antworten sind hier für alle sichtbar und können gegenseitig kommentiert werden.
+
+[Zum Seitenanfang ^](#survey)
+
+---
+
 ## Schritt 1: Kursbaustein "Umfrage" in den Kurs einfügen {: #step1}
 
 Wir gehen davon aus, dass Sie bereits einen Kurs erstellt haben. Dort können Sie am Ende des Kurses einen weiteren Kursbaustein einfügen. Wenn es eine anonyme Umfrage werden soll, verwenden Sie den Kursbaustein "Umfrage". (Im Folgenden gehen wir von diesem Kursbaustein aus.) Alternativ können Sie den Kursbaustein "Formular" verwenden, in dem die Antworten den jeweiligen Teilnehmenden zugeordnet werden können.
