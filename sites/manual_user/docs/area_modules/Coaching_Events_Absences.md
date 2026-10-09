@@ -1,49 +1,43 @@
 # Coaching - Events and Absences {: #events}
 
-![Marked button Events / Absences under Assignments leads to the cross-course event and absence management, on the Coaching entry page.](assets/coaching_events_absences1_v1_en.png){ class="shadow lightbox" }
+![Marked button Events / Absences under Assignments leads to the cross-course event and absence management](assets/coaching_events_absences1_v1_en.png){ class="shadow lightbox" title="Coaching entry page" }
 
 !!! info "Prerequisites"
 
-    This tool appears in Coaching if administrators have activated the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md) and if [event and absence management is switched on](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management) in at least one course.
+    This tool appears in Coaching if administrators have activated the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md) and if ["Event & absence management" is switched on](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management) in at least one course.
 
-A quick overview of the upcoming events of the current week is already available on the Coaching overview in the **Events** widget. This tool provides the complete management with Cockpit, Absences, Notices, Appeals and User search.
+You already see the upcoming events of the current week on the Coaching entry page in the "Events" widget. The "Events / Absences" button opens the complete management with the tabs "Cockpit", "Events", "Absences", "Notices", "Appeals" and "User search".
 
 Here you see the events and absences across all courses you are responsible for. If you are looking for the events of a single person, for example as a line manager, you find them in the detail view of the person in the tab [Events & Absences](Coaching_People.md#tab_lectures). Separate prerequisites apply there.
 
 
 ## As coach - As master coach [:octicons-tag-16:{ title="from Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
-![Marked focus buttons As coach and As master coach above the tab bar, in the Events tool of Coaching.](assets/coaching_events_absences_events_coach-master_v1_en.png){ class="shadow lightbox" }
+![Marked buttons As coach and As master coach above the tab bar](assets/coaching_events_absences_events_coach-master_v1_en.png){ class="shadow lightbox" title="Events tool of Coaching" }
 
-At the top level, you can focus the view of your events and absences on your role as coach or, if applicable, as master coach.
+If you are a teacher of events and at the same time master coach of an implementation, you choose above the tab bar for which role you see the events and absences:
 
-In the [Course Planner](../../manual_user/area_modules/Course_Planner.md), it is possible to assign the role master coach to a person.
-(Prerequisite: Administrators have activated the Course Planner module.)
-This may be a different person for each implementation. In this case, the events and absences of your classes are displayed in the Coaching Tool.
+* **As coach** shows the events where you are entered as teacher.
+* **As master coach** shows the events and absences of your classes, that is, of the implementations where you are master coach.
+
+If you have only one of the two roles, the buttons are missing and you see the events of this role directly. Who is master coach is set in the [Course Planner](../../manual_user/area_modules/Course_Planner.md) for each implementation separately. This requires the Course Planner module to be switched on.
 
 [To the top of the page ^](#events)
 
 ---
 
 
-## Tab Cockpit {: #tab_cockpit}
+## Tab Cockpit [:octicons-tag-16:{ title="from Release 14.1 (OO-4215)" }](https://track.frentix.com/issue/OO-4215) {: #tab_cockpit}
 
-In the tab Cockpit you find a daily overview with the sections
+In the "Cockpit" tab you see the "Daily overview" with the sections "Events", "Absences" and "Notices" for today. What they contain depends on whether you have chosen "As coach" or "As master coach" above. Use the arrows and the date field on the right to switch to another day.
 
-* Events
-* Absences
-* Notices
+![Daily overview with date selection, one event with counters and book icon, below it the recorded absences and the section Notices with the display All or Unauthorized](assets/coaching_events_absences_tab_events_cockpit_v1_en.png){ class="shadow lightbox" title="Tab Cockpit in the Events tool of Coaching" }
 
-(Depending on the focus you have previously set as coach or as master coach.)<br>
-Instead of the current day, you can also select another day.
+A click on the book icon in the row of an event lets you record the absences.
 
-![Daily overview with date selection, one event with counters and book icon, below it the recorded absences and the section Notices with the display All or Unauthorized, in the tab Cockpit.](assets/coaching_events_absences_tab_events_cockpit_v1_en.png){ class="shadow lightbox" }
+In the 3-dot menu at the end of the row, you export the event as an Excel file with "Export" and download the "Absence list" and the "Attendance list" as PDF.
 
-Absences can be recorded by clicking on the **book icon** in the row of an event.
-
-By clicking on the **icon with the 3 dots** in the row of an event, individual events can be exported as an Excel file, and an absence list and an attendance list can be downloaded in PDF format.
-
-Via the course title in the overview, you reach the events of that course, where you can close the absence recording for a day.
+A click on the course title opens the events of this course. There you close the absence recording for a day.
 
 [To the top of the page ^](#events)
 
@@ -52,21 +46,17 @@ Via the course title in the overview, you reach the events of that course, where
 
 ## Tab Events {: #tab_events}
 
-Several filter functions are available to help you keep track of many events.
+In the "Events" tab you see all events you are responsible for. Use the buttons for the period, the tabs and the filters to narrow down the list.
 
-![Period buttons Today and upcoming, Last 3 months and Custom, filter tabs, filters Product, Execution, Teachers and Absences as well as the event list with status, in the tab Events.](assets/coaching_events_absences_tab_events_events_v1_en.png){ class="shadow lightbox" }
+![Period buttons Today and upcoming, Last 3 months and Custom, filter tabs, filters Product, Execution, Teachers and Absences as well as the event list with status](assets/coaching_events_absences_tab_events_events_v1_en.png){ class="shadow lightbox" title="Tab Events in the Events tool of Coaching" }
 
-At the top right above the list, you can select the desired columns using the gear icon. Customise the list view to suit your needs.
+With the gear icon at the top right above the list, you choose which columns the list shows. In the row of an event you find:
 
-**Examples:**
+* **Book icon**: opens the recording of the absences, provided that absence recording is switched on for the events of this course.
+* **Asterisk symbol**: The column shows whether attendance is compulsory for the event.
+* **3-dot menu**: Among other things, you download the event as an Excel file with "Export" as well as the "Absence list" and the "Attendance list" as PDF here.
 
-* Absences can be recorded by clicking on the **book icon** in the row of an event, provided that absence recording has been activated for the events of that course.
-
-* The column with the **asterisk symbol** shows you whether attendance has been planned as mandatory or not.
-
-* By clicking on the **icon with the 3 dots** in the row of an event, individual events can be exported as an Excel file, and an absence list and an attendance list can be downloaded in PDF format.
-
-By clicking on the plus symbol at the beginning of the row, you can expand the details of this event.
+A click on the + at the beginning of the row expands the detail view of the event.
 
 [To the top of the page ^](#events)
 
@@ -75,19 +65,19 @@ By clicking on the plus symbol at the beginning of the row, you can expand the d
 
 ## Tab Absences {: #tab_absences}
 
-Absences can be recorded in the tabs **Cockpit** or **Events** by clicking on the **book icon** in the row of an event.
+You record absences in the tabs "Cockpit" or "Events" by clicking on the book icon in the row of an event.
 
-In the tab Absences, you then get an overview of the recorded absences.
+In the "Absences" tab you then see the recorded absences. Use the fields above the list to narrow them down:
 
-* In the search field, you can search for users, teachers, course titles and events.
-* Limit the period for which absences are to be searched.
-* In a preselection, you can display all absences or only the unauthorized absences.
+* **Search**: for users, teachers, course titles and events.
+* **Date**: the period the absences fall in.
+* **Display**: "All" or only "Unauthorized".
 
-![Search field, date range and display All or Unauthorized above the list of recorded absences with date, course, event, location, absent and authorized, in the tab Absences.](assets/coaching_events_absences_tab_absences1_v1_en.png){ class="shadow lightbox" }
+![Search field, date range and display All or Unauthorized above the list of recorded absences with date, course, event, location, absent and authorized](assets/coaching_events_absences_tab_absences1_v1_en.png){ class="shadow lightbox" title="Tab Absences in the Events tool of Coaching" }
 
-To excuse an absence, select the person concerned. As soon as at least one person is selected, the button for entering an excuse appears above the list.
+To excuse an absence, tick the absence in the first column. The "Authorize absence" button then appears above the list.
 
-![Button Authorize absence above the list as soon as a person is selected, in the tab Absences.](assets/coaching_events_absences_authorize_v1_en.png){ class="shadow lightbox" }
+![Button Authorize absence above the list as soon as a person is selected](assets/coaching_events_absences_authorize_v1_en.png){ class="shadow lightbox" title="Tab Absences in the Events tool of Coaching" }
 
 [To the top of the page ^](#events)
 
@@ -96,21 +86,18 @@ To excuse an absence, select the person concerned. As soon as at least one perso
 
 ## Tab Notices {: #tab_notices}
 
-All notices relating to absence and dispensation are collected in this tab and can be filtered according to your needs.
+In the "Notices" tab, all notices on absences and dispensations are listed under "Notices of absence / dispensations".
 
-![Filters Type of notice, Authorized and Not authorized, Reason and Date, the buttons Record new absence, Record new dispensation and Record new notice of absence and one notice, in the tab Notices.](assets/coaching_events_absences_tab_notices_v1_en.png){ class="shadow lightbox" }
+![Filters Type of notice, Authorized and Not authorized, Reason and Date, the buttons Record new absence, Record new dispensation and Record new notice of absence and one notice](assets/coaching_events_absences_tab_notices_v1_en.png){ class="shadow lightbox" title="Tab Notices in the Events tool of Coaching" }
 
-In the **search field**, you can search for users, teachers, course titles and events.
+Use the fields above the list to narrow down the notices:
 
-Filter by **type of notice** ("Without notification", "Notice of absence", "Dispensation") or<br> by **authorized** and/or **not authorized**.
+* **Search**: for users, teachers, course titles and events.
+* **Type of notice**: "Without notification", "Notice of absence" or "Dispensation", plus a tick at "Authorized", "Not authorized" or both.
+* **Reason**: the reasons of absence predefined by administrators, for example illness.
+* **Date**: the period the notices fall in.
 
-The filter option **"Reason"** offers you the terms predefined by administrators.
-
-You also find buttons here for
-
-* Record new absence
-* Record new dispensation
-* Record new notice of absence
+You record a new notice with the buttons "Record new absence", "Record new dispensation" and "Record new notice of absence".
 
 
 [To the top of the page ^](#events)
@@ -120,13 +107,15 @@ You also find buttons here for
 
 ## Tab Appeals {: #tab_appeals}
 
-In this tab you get an overview for the management of all appeals. The tab appears if you have the permission to organise appeals. As a rule, absence managers process the appeals in the cross-course [Absence management](../area_modules/Absence_Management.md).<br>
+In this tab you see the appeals submitted for your events. The tab only exists if administrators have [enabled appeals](../../manual_admin/administration/Modules_Events_and_Absences.md#appeal_enabled) and your role may see appeals: as coach with the option ["Teachers can see appeals"](../../manual_admin/administration/Modules_Events_and_Absences.md#teacher_see_appeal), as master coach with ["Master coaches can see appeals"](../../manual_admin/administration/Modules_Events_and_Absences.md#mastercoach_see_appeal). As a rule, absence managers process the appeals in the cross-course [Absence management](../area_modules/Absence_Management.md).
 
-In the **search field**, you can search for users, coaches and events.
+Use the fields above the list to narrow down the appeals:
 
-Filter the list, for example, by the **status** "Pending", "Rejected" or "Approved". (You can select one status, two of them or all.)
+* **Search**: for users, coaches and events.
+* **Status**: "Pending", "Rejected" or "Approved", one or several together.
+* **Date**: the period the appeals fall in.
 
-![Search field, status filter Pending, Rejected, Approved and date range above the appeal list with one pending appeal, in the tab Appeals.](assets/coaching_events_absences_tab_appeals_v1_en.png){ class="shadow lightbox" }
+![Search field, status filter Pending, Rejected, Approved and date range above the appeal list with one pending appeal](assets/coaching_events_absences_tab_appeals_v1_en.png){ class="shadow lightbox" title="Tab Appeals in the Events tool of Coaching" }
 
 [To the top of the page ^](#events)
 
@@ -135,11 +124,16 @@ Filter the list, for example, by the **status** "Pending", "Rejected" or "Approv
 
 ## Tab User search {: #tab_user_search}
 
-For the user search, use the search field and the option to switch the preselection (Search by participants, Search by courses, Search by products).
+In this tab you find the participants of your events. It starts with "Search by participants": enter a name or click the magnifier to see all participants. A click on a person opens their overview with "Daily overview", "Events and Absences", "Notices / Dispensation" and "Appeals".
 
-When you click on one of the courses or a product found, you reach the list of the people assigned there.
+You can also reach the people via a course or a product. For this, two links stand next to the large title. A click on a link switches the search; the large title then shows which search applies:
 
-![Marked tab User search, the switches Search by participants, Search by courses and Search by products and the search field with three participants found, in the tab User search.](assets/coaching_events_absences_tab_user_search_v1_en.png){ class="shadow lightbox" }
+* **Search by courses** lists your courses. A click on a course shows its participants.
+* **Search by products** lists the elements of your products, for example implementations. A click on an element shows its participants.
+
+With the link "Search by participants" you return to the person search. In the role "As master coach", "Search by teachers" is also available.
+
+![The large title shows the selected Search by participants, next to it two links switch to the search by courses or by products](assets/coaching_events_absences_tab_user_search_v2_en.png){ class="shadow lightbox" title="Tab User search in the Events tool of Coaching · 2026.10.08" }
 
 [To the top of the page ^](#events)
 
@@ -150,20 +144,20 @@ When you click on one of the courses or a product found, you reach the list of t
 **Mentioned on this page**<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
-[Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
+[Coaching - People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)
 
 **Further reading**<br>
-[Events and absences in the course >](../learningresources/Events_and_absences.md)<br>
-[Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
-[Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
-[Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
-[Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
-[Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
-[Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
-[Roles >](../../manual_user/basic_concepts/Roles.md)<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Events and absences (course administration) >](../learningresources/Events_and_absences.md)<br>
+[Coaching - User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
+[Coaching - Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
+[Coaching - Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
+[Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
+[Coaching - Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
+[Coaching - Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
+[Coaching - Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
 
 [To the top of the page ^](#events)

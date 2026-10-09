@@ -1,20 +1,20 @@
 # Toolbar: Termine {: #toolbar_events}
 
 
-Das Icon "Termine" wird automatisch angezeigt, wenn im Kurs die Termine und Absenzen aktiviert sind.<br>
-`Kurs > Administration > Einstellungen > Durchführung`
+Das Icon "Termine" erscheint in der Kurs-Toolbar, sobald im Kurs die "Termin- und Absenzenverwaltung" eingeschaltet ist:<br>
+`Kurs > Administration > Einstellungen > Tab Durchführung`
 
-Es steht dann Teilnehmer:innen, Betreuer:innen und Besitzer:innen des Kurses zur Verfügung. Doch je nach Rolle und den damit verbundenen Rechten, werden andere Optionen angezeigt. 
+Teilnehmer:innen, Betreuer:innen und Besitzer:innen des Kurses sehen das Icon. Was Sie nach dem Klick tun können, hängt von Ihrer Rolle ab.
 
 ## Aufruf als Teilnehmer:in {: #call_as_participant}
 
 ![Icon "Termine" in der Toolbar eines Kurses](assets/toolbar_events_participant1_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Teilnehmer:innen" }
 
-Teilnehmer:innen werden die Termine lediglich als Information angezeigt. Sie sehen nur ihre eigenen Termine und nur die für sie relevanten Angaben. Absenzen können sie hier nicht erfassen.
+Als Teilnehmer:in sehen Sie hier Ihre eigenen Termine mit den Angaben, die für Sie gelten. Absenzen erfassen Sie hier nicht.
 
-Die Liste lässt sich über die Tabs "Alle", "Relevant", "Heute", "Bevorstehend" und "Vergangene" eingrenzen. Mit den beiden Symbolen rechts über der Liste wechseln Sie zwischen Zeitansicht und Tabellenansicht.
+Die Liste lässt sich über die Tabs "Alle", "Relevant", "Heute", "Bevorstehend" und "Vergangene" eingrenzen. "Relevant" ist voreingestellt und zeigt die Termine ab heute. Mit den beiden Symbolen rechts über der Liste wechseln Sie zwischen Zeitansicht und Tabellenansicht.
 
-![Terminliste mit Tabs, Filtern und Statuslabels](assets/toolbar_events_participant2_v1_de.png){ class="shadow lightbox" title="Terminliste in der Sicht der Teilnehmer:innen" }
+![Mit den Tabs grenzen Teilnehmende die Terminliste ein, mit den zwei Symbolen wechseln sie zwischen Zeitansicht und Tabellenansicht](assets/toolbar_events_participant2_v2_de.png){ class="shadow lightbox" title="Terminliste in der Sicht der Teilnehmer:innen · 2026.10.08" }
 
 [Zum Seitenanfang ^](#toolbar_events)
 
@@ -22,11 +22,13 @@ Die Liste lässt sich über die Tabs "Alle", "Relevant", "Heute", "Bevorstehend"
 
 ## Aufruf als Betreuer:in {: #call_as_coach}
 
-Wird das Icon "Termine" in der Toolbar durch Betreuer:innen aufgerufen, können Termine und Absenzen **erfasst und verwaltet** werden. 
+Als Betreuer:in öffnen Sie über das Icon "Termine" in der Kurs-Toolbar die Termine des Kurses. Dort erfassen Sie Absenzen und schliessen Termine ab. Neue Termine legen Sie hier nicht an. Unter "Rolle" sehen Sie, dass Sie den Kurs als Betreuer:in geöffnet haben.
 
-![Icon "Termine" und Rollenwechsel in der Toolbar](assets/toolbar_events_coach1_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Betreuer:innen" }
+![Das Icon Termine in der Kurs-Toolbar öffnet die Terminliste, die Rolle zeigt Betreuer:in](assets/toolbar_events_coach1_v2_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Betreuer:innen · 2026.10.08" }
 
 In der Betreuer:innen-Rolle fehlt Ihnen im Unterschied zu Besitzer:innen der Tab "Teilnehmer:innen". Den Tab "Rekurse" sehen Sie nur, wenn in der System-Administration die [Rekursmöglichkeit gewährt](../../manual_admin/administration/Modules_Events_and_Absences.de.md#appeal_enabled) und die Option ["Dozenten dürfen Rekurse einsehen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#teacher_see_appeal) eingeschaltet ist. Bleibt nur der Tab "Termine", zeigt OpenOlat die Terminliste ohne Tab-Leiste an.
+
+Über der Liste wählen Sie, welche Termine Sie sehen: "Alle Betreuer:innen" zeigt alle Termine des Kurses, "Zeigt nur meine" nur die Termine, bei denen Sie als Dozent:in eingetragen sind. Was beim ersten Öffnen gilt, legt die System-Administration mit der Einstellung [Anzeige in Kursen](../../manual_admin/administration/Modules_Events_and_Absences.de.md#display_in_courses) fest. Danach merkt sich OpenOlat Ihre Wahl.
 
 ![Umschalter Alle Betreuer:innen und Zeigt nur meine, Tabs, Filter und Termine mit Statuslabels](assets/toolbar_events_coach2_v2_de.png){ class="shadow lightbox" title="Terminliste in der Sicht der Betreuer:innen" }
 
@@ -34,30 +36,31 @@ In der Betreuer:innen-Rolle fehlt Ihnen im Unterschied zu Besitzer:innen der Tab
 
 ### Absenzen erfassen [:octicons-tag-16:{ title="ab Release 12.0 (OO-2637)" }](https://track.frentix.com/issue/OO-2637) {: #record_absences}
 
-Wurde ein Termin beendet, werden Sie als Betreuer:in darauf aufmerksam gemacht, dass noch Absenzen zu erfassen sind. Sie können den Link im Hinweis nutzen oder auf das Buch-Icon in der Zeile eines Termins klicken.
+Ist einer Ihrer Termine vorbei und sind seine Absenzen noch nicht erfasst, steht über der Liste ein Hinweis mit der Anzahl dieser Termine. Ein Klick auf "Termin(e) mit offenen Abwesenheiten anzeigen" öffnet den Tab "Pendent", der nur diese Termine zeigt. Die Erfassung öffnen Sie mit einem Klick auf das Buch-Icon in der Zeile des Termins.
 
-![Hinweis auf offene Absenzen und Buch-Icon zum Erfassen in der Terminliste](assets/toolbar_events_coach_record_absences1_v1_de.png){ class="shadow lightbox" title="Terminliste in der Sicht der Betreuer:innen" }
+![Der Hinweis über der Liste führt zu den Terminen mit offenen Absenzen, das Buch-Icon in der Zeile öffnet die Erfassung](assets/toolbar_events_coach_record_absences1_v2_de.png){ class="shadow lightbox" title="Terminliste in der Sicht der Betreuer:innen · 2026.10.08" }
 
-Die Termine sind in Einheiten unterteilt (z.B. ein Termin von 8.00 Uhr - 12.00 Uhr in 4 Einheiten zu je einer Stunde). Sie können die Absenzen für jede einzelne Einheit erfassen.
-Markieren Sie, ob die Abwesenheit entschuldigt ist, und geben Sie einen Kommentar dazu an. Ein weiteres Kommentarfeld für den Gesamttermin ist ebenfalls pro Teilnehmer:in vorhanden.
+Ein Termin ist in Einheiten unterteilt, zum Beispiel ein Vormittag von 8.00 bis 12.00 Uhr in 4 Einheiten zu je einer Stunde. Die Absenzen erfassen Sie pro Einheit: In den Spalten "E. 1", "E. 2" und so weiter setzen Sie ein Häkchen bei jeder Einheit, in der eine Person gefehlt hat. Mit "Entschuldigt" markieren Sie eine entschuldigte Absenz und begründen sie. In der Spalte "Kommentar" halten Sie pro Person eine Bemerkung zum ganzen Termin fest.
 
 ![Absenzen pro Einheit mit Kommentarfeldern je Teilnehmer:in](assets/toolbar_events_coach_record_absences2_v1_de.png){ class="shadow lightbox" title="Formular zum Erfassen der Absenzen" }
 
-Soll die Erfassung der Absenzen zu einem späteren Zeitpunkt vervollständigt werden, können Sie die Erfassung mit dem Button am unteren Rand zwischenspeichern.
+Möchten Sie die Erfassung später fortsetzen, klicken Sie unten auf "Absenzen zwischenspeichern".
 
 
 ### Termine abschliessen {: #close_events}
 
-Kann die Erfassung der Absenzen endgültig abgeschlossen werden, gehen Sie folgendermassen vor:
+Sind alle Absenzen eines Termins erfasst, schliessen Sie den Termin so ab:
 
 1. Icon "Termine" in der Toolbar klicken
 2. Tab "Termine" wählen
 3. Beim betreffenden Termin in der Liste auf das Buch-Icon klicken (Absenz editieren)
   (nur möglich, wenn Termin bereits gestartet oder erledigt)
 4. Button "Termine abschliessen" am unteren Rand der Liste klicken
-5. Es öffnet sich ein Popup, in dem Sie die Absenzenerfassung endgültig abschliessen können.
+5. Im Dialog "Termine abschliessen" das "Effektive Ende" prüfen, bei Bedarf eine "Bemerkung" eingeben und mit "Termine abschliessen" bestätigen
 
-![Effektive Einheiten und Bemerkung beim Abschliessen eines Termins](assets/toolbar_events_coach_close_event_v1_de.png){ class="shadow lightbox" title="Dialog Termin abschliessen" }
+Das Feld "Effektive Einheiten" zeigt der Dialog nur, wenn die System-Administration die Option ["Termine partiell durchgeführt zulassen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#partially_done) eingeschaltet hat. Dort wählen Sie dann, wie viele Einheiten tatsächlich stattgefunden haben.
+
+![Effektive Einheiten, effektives Ende und Bemerkung beim Abschliessen eines Termins](assets/toolbar_events_coach_close_event_v1_de.png){ class="shadow lightbox" title="Dialog Termine abschliessen" }
 
 
 
@@ -121,11 +124,11 @@ Der Eintrag erscheint nur, wenn alle folgenden Bedingungen erfüllt sind. Fehlt 
 
 ### Rekurse {: #appeals}
 
-Wurden Rekurse zu eventuell falsch erfassten Absenzen eingereicht, können Sie sich unter diesem Tab einen Überblick verschaffen. Filter helfen Ihnen bei einer grösseren Anzahl von Rekursen.
+Halten Teilnehmende eine erfasste Absenz für falsch, reichen sie einen Rekurs ein. Im Tab "Rekurse" sehen Sie diese Rekurse mit Person, Termin, Einheiten und dem Stand in der Spalte "Rekurs". Bei vielen Rekursen zeigen Sie mit dem Filter rechts über der Liste nur die pendenten, angenommenen oder abgelehnten an.
 
-![Tab "Rekurse" mit dem Filter für pendente, angenommene und abgelehnte Rekurse](assets/toolbar_events_coach_tab_appeals_v1_de.png){ class="shadow lightbox" title="Tab Rekurse in der Sicht der Betreuer:innen" }
+![Im Tab Rekurse stehen die eingereichten Rekurse, der Filter rechts über der Liste grenzt sie nach ihrem Stand ein](assets/toolbar_events_coach_tab_appeals_v2_de.png){ class="shadow lightbox" title="Tab Rekurse in der Sicht der Betreuer:innen · 2026.10.08" }
 
-Die Bearbeitung der Rekurse erfolgt in der Regel durch Absenzenverwalter:innen, die kursübergreifend alle Rekurse in der zentralen [kursübergreifenden Absenzenverwaltung](../area_modules/Absence_Management.de.md) abrufen können. 
+In der Regel bearbeiten Absenzenverwalter:innen die Rekurse, und zwar für alle Kurse gemeinsam in der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
 
 
 [Zum Seitenanfang ^](#toolbar_events)
@@ -135,10 +138,10 @@ Die Bearbeitung der Rekurse erfolgt in der Regel durch Absenzenverwalter:innen, 
 
 ## Aufruf als Besitzer:in {: #call_as_owner}
 
-Kursbesitzer:innen steht das Icon ebenfalls zur Verfügung. Bei ihnen öffnet sich der Screen zum **Erfassen und Verwalten** von Terminen und Absenzen, der weitestgehend der Erfassung und Verwaltung unter `Kurs > Administration > Termine und Absenzen` entspricht.<br>
+Kursbesitzer:innen steht das Icon ebenfalls zur Verfügung. Bei ihnen öffnet sich die Ansicht zum Erfassen und Verwalten von Terminen und Absenzen, die weitestgehend der Ansicht unter `Kurs > Administration > Termine und Absenzen` entspricht.<br>
 Siehe [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
 
-Technisch gesehen werden in diesen beiden Screens Laufzeitdaten erfasst, im Unterschied zur [Konfiguration](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management).
+Hier arbeiten Sie mit den Terminen selbst: Sie legen Termine an und erfassen Absenzen. Ob der Kurs überhaupt Termine hat und wie Absenzen zählen, legen Sie dagegen in den [Kurseinstellungen](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management) fest.
 
 ![Icon "Termine" in der Toolbar eines Kurses](assets/toolbar_events_owner1_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Sicht der Kursbesitzer:innen" }
 

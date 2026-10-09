@@ -5,7 +5,7 @@
 
 ## Which events does the Course Planner cover? {: #type_of_events}
 
-The events created and displayed in the Course Planner refer to the elements used in the Course Planner. (Other events, e.g. from projects, are not listed here in the Course Planner.)
+In the Course Planner you see and plan the events of your implementations, for example the course days of a module. Events from other areas, such as projects, do not appear here.
 
 [To the top of the page ^](#events)
 
@@ -15,7 +15,7 @@ The events created and displayed in the Course Planner refer to the elements use
 
 ### Selection of current events [:octicons-tag-16:{ title="from Release 20.0 (OO-8067)" }](https://track.frentix.com/issue/OO-8067){:target="_blank"}
 
-You can find a selection of current events on the **overview of the Course Planner**.
+You see the events of the current week on the start page of the Course Planner in the "Events" widget.
 
 ![Course Planner entry in the main navigation and Events widget with the week bar and the events of the selected day, both highlighted](assets/course_planner_events_display1_v4_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
@@ -25,27 +25,34 @@ You can find a selection of current events on the **overview of the Course Plann
 You will find the complete overview of all events in the Course Planner in the "Events" area:<br>
 `Course Planner > Events`
 
-Use the tabs and filters to narrow down and select. The images under [Views](#views) show what the list looks like.
+Use the buttons for the period, the tabs and the filters to narrow down the list. The images under [Views](#views) show what the list looks like.
 
 
 ### Events of an implementation {: #events_of_an_implementation}
 
-You can also find the **currently upcoming** events of an implementation under<br>
+You also see the upcoming events of an implementation in its "Overview" tab:<br>
 `Course Planner > Implementations > "your implementation" > Tab Overview`
 
-![Events widget with the week bar and the event of the selected day, numbered the way via the implementation to the Overview tab](assets/course_planner_events_display4_v2_en.png){ class="shadow lightbox" title="Overview tab of an implementation" }
+The "Events" widget shows the current week. If no event is left until the end of the week, it shows "No events until the end of the week". "Next event" then takes you to the week with the next event.
 
-**All** events of an implementation can be found under<br>
+![The Events widget shows the next event of the implementation in the week bar](assets/course_planner_events_display4_v3_en.png){ class="shadow lightbox" title="Overview tab of an implementation · 2026.10.08" }
+
+All events of an implementation are in its "Events" tab:<br>
 `Course Planner > Implementations > "your implementation" > Tab Events`
 
-If the element type of the implementation can contain sub-elements, you can use the "All levels" and "This level" buttons there to select all levels of the product structure or just the current level as a sub-selection. Various filters are also available.
+In the Course Planner, every part of a product is called an element: the implementation itself and everything below it, for example a module. If your implementation can contain further elements, the buttons "All levels" and "This level" appear above the list:
 
-![Tabs and filters above the event list with status, location and teachers, numbered the way via the implementation to the Events tab](assets/course_planner_events_display5_v2_en.png){ class="shadow lightbox" title="Events tab of an implementation" }
+* **All levels** shows the events of the implementation and of all its elements. This way you also see the events of the modules.
+* **This level** shows only the events that belong directly to the open implementation.
+
+The "Element" column shows which element an event belongs to. You show it via the gear icon at the top right above the list. If the two buttons are missing, your implementation cannot contain further elements; its type determines this. Use the tabs and filters to narrow down the list further.
+
+![With All levels the event list also shows the events of the modules, the Element column names the module](assets/course_planner_events_display5_v3_en.png){ class="shadow lightbox" title="Events tab of an implementation · 2026.10.08" }
 
 
 ### Views {: #views}
 
-The events can be displayed as a timeline or as a table. Use the buttons at the top right to switch the view: "Timeline" on the left, "Table view" on the right.
+You see the events as a timeline or as a table. Use the two symbols at the top right above the list to switch the view: the timeline on the left, the table view on the right.
 
 #### Timeline
 
@@ -55,21 +62,21 @@ The events can be displayed as a timeline or as a table. Use the buttons at the 
 
 ![Switch to the table view highlighted, below it the events as a table with date, time, title, element and status](assets/course_planner_events_display6_v2_en.png){ class="shadow lightbox" title="Table view in the Events area" }
 
-### Elements of an event [:octicons-tag-16:{ title="from Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
+### Who an event is for [:octicons-tag-16:{ title="from Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
-In the event list, the "Element" column shows which element an event belongs to. Click the element name to open the element directly, even if it does not belong to the currently selected implementation or product.
+In the event list, the "Element" column shows which element an event belongs to, for example the implementation or one of its modules. A click on the name opens this element, even if it does not belong to the implementation or product that is currently open.
 
-With modularized courses, an event can have participants from several elements. The detail view of an event lists these elements in a table:
+If a course is used in several implementations or modules, an event of this course can apply to participants from several elements. You see who an event is for in its detail view: click the + at the beginning of the row. At the very bottom there is a table with one row per element:
 
-* The **"For participants of"** column names the element the participants come from, the **"Participants"** column their number.
-* The **"Default element"** column marks the default element with the "Default" label, as in the course.
-* The "Status" column uses the labels **"Included"** and **"Excluded"** to show whether the participants of the respective element are included in or excluded from the event.
+* **For participants of** names the element the participants come from. The "Participants" column shows their number.
+* **Default element** shows the "Default" label for the default element of the course. You see the same label in the course in the [members management in the Course Planner area](../learningresources/Members_management.md#section_course_planner).
+* **Status** shows "Included" if the participants of this element belong to the event, and "Excluded" if they are left out.
 
-Use the three dots at the end of a row to control which elements take part in the event. With **"Open"** you open the element, with **"Exclude participants"** you take the participants of this element out of the event. You bring excluded elements back with **"Include participants again"**; the "Status" column changes accordingly.
+If the participants of an element are not to take part in this event, open the 3-dot menu at the end of their row and choose "Exclude participants". With "Include participants again" in the same menu you add them back; the "Status" column shows the new state. You only see both entries if you may edit the event. "Open product" opens the element in a new window.
 
-The detail view additionally shows the date, time, "Unit", number of participants, "Compulsory" and "Teacher" of the event as well as the associated course.
+Above the table, the detail view shows the "Date", "Time", "Unit", "Location", "Participants", "Compulsory" and "Teachers" of the event as well as the associated course under "Course".
 
-![The detail view of an event with course and the table For participants of, Default element, Participants and Status, plus the menu with Open and Exclude participants](assets/course_planner_events_event_elements_v1_en.png){ class="shadow lightbox" title="Detail view of an event" }
+![At the bottom of the detail view the table For participants of, in the 3-dot menu Open product and Exclude participants](assets/course_planner_events_event_elements_v2_en.png){ class="shadow lightbox" title="Detail view of an event · 2026.10.08" }
 
 
 [To the top of the page ^](#events)
@@ -79,7 +86,7 @@ The detail view additionally shows the date, time, "Unit", number of participant
 
 ## How do I create new events? {: #create_events}
 
-As events refer to an implementation, you will find the option to create them under<br>
+You create a new event with "Add event" in the "Events" tab of the implementation:<br>
 `Course Planner > Implementations > "your implementation" > Tab Events`
 
 "Add event" is also available in the Events tab of a product as soon as the product has at least one implementation. In the first step of the wizard, "Select element", you choose the implementation or the element the event belongs to:<br>
@@ -87,7 +94,7 @@ As events refer to an implementation, you will find the option to create them un
 
 In the "Events" area of the Course Planner, "Add event" is greyed out because neither an implementation nor a product is selected there.
 
-In the Events tab of an implementation, you can also import events by clicking on the small arrow next to the button.
+To take over many events at once from an Excel file, use the Events tab of an implementation: click the small arrow next to the "Add event" button and choose "Import events".
 
 If you create an event for a course with "Add event", OpenOlat switches on the Event & absence management in the course if it is still switched off. The event is then also available in the course without anyone having to adjust the course settings. Imported events do not switch it on, neither from "Import events" nor from the [import wizard of the Course Planner](Course_Planner_Import_Export.md#import_wizard). More on this under [Course Settings - Tab Execution](../learningresources/Course_Settings_Execution.md#lecture_enabled). [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
@@ -109,7 +116,7 @@ If you create an event for a course with "Add event", OpenOlat switches on the E
 If the module "Rooms" is activated, you can assign one or more rooms to an event. The "Rooms" field is available in the dialog for creating or editing an event, which you open here:<br>
 `Course Planner > Implementations > "your implementation" > Tab Events`
 
-The room selection takes the time period of the event into account and shows which rooms are "Available" and which are "Occupied". The building and the number of seats are displayed for each room; if the capacity is not sufficient for the number of participants, this is indicated. Via "Add rooms" you open a selection with table and calendar view, where you can filter by availability and see the earlier or later free time slot for occupied rooms. In the calendar view of this selection, a click on an entry opens the callout "Booking" with room, event, date and time of the existing booking. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
+The room selection takes the time period of the event into account and shows which rooms are "Available" and which are "Occupied". For each room you see the building and the number of seats; if the capacity is not sufficient for the number of participants, OpenOlat points this out. Via "Add rooms" you open a selection with table and calendar view, where you can filter by availability and see the earlier or later free time slot for occupied rooms. In the calendar view of this selection, a click on an entry opens the "Booking" window with room, event, date and time of the existing booking. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
 
 In the detail view of an event, the booked room appears under the label "Room" as a room card with reference, building and location; if several rooms are booked, the label is "Rooms".
 
@@ -128,7 +135,7 @@ If a room is double-booked during the period of the event, the warning "The room
 
 ## Download events as an Excel list {: #download_events}
 
-If required, the events displayed in the list can also be downloaded as an Excel file. To do this, use the button at the top right of the list.
+Use the download button at the top right above the list to download the events the list currently shows as an Excel file.
 
 ![The download button at the top right above the event list highlighted](assets/course_planner_events_download_v2_en.png){ class="shadow lightbox" title="Events area in the Course Planner · 2026.10.07" }
 
@@ -140,6 +147,7 @@ If required, the events displayed in the list can also be downloaded as an Excel
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Members management >](../../manual_user/learningresources/Members_management.md)<br>
 [Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
 [Course Settings - Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
 [Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)

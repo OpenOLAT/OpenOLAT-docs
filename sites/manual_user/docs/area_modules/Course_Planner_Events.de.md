@@ -5,7 +5,7 @@
 
 ## Um welche Termine geht es im Course Planner? {: #type_of_events}
 
-Die im Course Planner erstellten und angezeigten Termine beziehen sich auf die im Course Planner verwendeten Elemente. (Andere Termine, z.B. aus Projekten, sind hier im Course Planner nicht aufgeführt.)
+Im Course Planner sehen und planen Sie die Termine Ihrer Durchführungen, zum Beispiel die Kurstage eines Moduls. Termine aus anderen Bereichen, etwa aus Projekten, erscheinen hier nicht.
 
 [zum Seitenanfang ^](#events)
 
@@ -16,7 +16,7 @@ Die im Course Planner erstellten und angezeigten Termine beziehen sich auf die i
 
 ### Auswahl aktueller Termine [:octicons-tag-16:{ title="ab Release 20.0 (OO-8067)" }](https://track.frentix.com/issue/OO-8067){:target="_blank"}
 
-Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planners**. 
+Die Termine der laufenden Woche sehen Sie auf der Startseite des Course Planners im Widget "Termine".
 
 ![Eintrag Course Planner in der Hauptnavigation und Widget Termine mit Wochenleiste und den Terminen des gewählten Tages, beide hervorgehoben](assets/course_planner_events_display1_v4_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
@@ -27,28 +27,35 @@ Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planne
 Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Bereich "Termine":<br>
 `Course Planner > Termine`
 
-Verwenden Sie die Tabs und Filter zur Eingrenzung und Auswahl. Wie die Liste aussieht, zeigen die Bilder unter [Ansichten](#views).
+Mit den Buttons für den Zeitraum, den Tabs und den Filtern grenzen Sie die Liste ein. Wie die Liste aussieht, zeigen die Bilder unter [Ansichten](#views).
 
 
 
 
 ### Termine einer bestimmten Durchführung {: #events_of_an_implementation}
 
-Die **aktuell anstehenden** Termine einer Durchführung finden Sie auch unter<br>
+Die anstehenden Termine einer Durchführung sehen Sie auch in ihrem Tab "Übersicht":<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Übersicht`
 
-![Widget Termine mit Wochenleiste und dem Termin des gewählten Tages, nummeriert der Weg über die Durchführung zum Tab Übersicht](assets/course_planner_events_display4_v2_de.png){ class="shadow lightbox" title="Tab Übersicht einer Durchführung" }
+Das Widget "Termine" zeigt die laufende Woche. Steht bis Ende der Woche kein Termin mehr an, zeigt es "Keine Termine bis Ende der Woche". Mit "Nächster Termin" springen Sie dann zur Woche mit dem nächsten Termin.
 
-**Alle** Termine einer Durchführung finden Sie unter<br>
+![Das Widget Termine zeigt in der Wochenleiste den nächsten Termin der Durchführung](assets/course_planner_events_display4_v3_de.png){ class="shadow lightbox" title="Tab Übersicht einer Durchführung · 2026.10.08" }
+
+Alle Termine einer Durchführung stehen in ihrem Tab "Termine":<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
-Kann der Elementtyp der Durchführung Unterelemente enthalten, können Sie dort mit den Buttons "Alle Ebenen" und "Diese Ebene" alle Ebenen der Produktstruktur oder nur die aktuelle Ebene als Unterauswahl nehmen. Ausserdem stehen unterschiedliche Filter zur Verfügung.
+Im Course Planner heisst jeder Teil eines Produkts Element: die Durchführung selbst und alles, was darunter liegt, zum Beispiel ein Modul. Kann Ihre Durchführung weitere Elemente enthalten, stehen über der Liste die Buttons "Alle Ebenen" und "Diese Ebene":
 
-![Tabs und Filter über der Terminliste mit Status, Ort und Dozenten, nummeriert der Weg über die Durchführung zum Tab Termine](assets/course_planner_events_display5_v2_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung" }
+* **Alle Ebenen** zeigt die Termine der Durchführung und aller ihrer Elemente. So sehen Sie auch die Termine der Module.
+* **Diese Ebene** zeigt nur die Termine, die direkt zur geöffneten Durchführung gehören.
+
+Zu welchem Element ein Termin gehört, zeigt die Spalte "Element". Sie blenden sie über das Zahnrad rechts über der Liste ein. Fehlen die beiden Buttons, kann Ihre Durchführung keine weiteren Elemente enthalten; das legt ihr Typ fest. Mit den Tabs und Filtern grenzen Sie die Liste weiter ein.
+
+![Mit Alle Ebenen zeigt die Terminliste auch die Termine der Module, die Spalte Element nennt das Modul](assets/course_planner_events_display5_v3_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung · 2026.10.08" }
 
 ### Ansichten {: #views}
 
-Die Termine können als Zeitansicht (Timeline) oder als Tabelle dargestellt werden. Verwenden Sie zum Umschalten der Ansicht die Buttons rechts oben: links "Zeitansicht", rechts "Tabelle".
+Die Termine sehen Sie als Zeitansicht oder als Tabelle. Mit den beiden Symbolen rechts über der Liste wechseln Sie die Ansicht: links die Zeitansicht, rechts die Tabellenansicht.
 
 #### Zeitansicht
 
@@ -58,21 +65,21 @@ Die Termine können als Zeitansicht (Timeline) oder als Tabelle dargestellt werd
 
 ![Umschalter zur Tabellenansicht hervorgehoben, darunter die Termine als Tabelle mit Datum, Zeit, Titel, Element und Status](assets/course_planner_events_display6_v2_de.png){ class="shadow lightbox" title="Tabellenansicht im Bereich Termine" }
 
-### Elemente eines Termins [:octicons-tag-16:{ title="ab Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
+### Für wen ein Termin gilt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9544)" }](https://track.frentix.com/issue/OO-9544){:target="_blank"} {: #event_elements}
 
-In der Terminliste zeigt die Spalte "Element", zu welchem Element ein Termin gehört. Mit Klick auf den Elementnamen öffnen Sie das Element direkt, auch wenn es nicht zur aktuell gewählten Durchführung oder zum aktuell gewählten Produkt gehört.
+In der Terminliste zeigt die Spalte "Element", zu welchem Element ein Termin gehört, etwa zur Durchführung oder zu einem ihrer Module. Ein Klick auf den Namen öffnet dieses Element, auch wenn es nicht zur gerade geöffneten Durchführung oder zum gerade geöffneten Produkt gehört.
 
-Bei modularisierten Kursen kann ein Termin Teilnehmer:innen aus mehreren Elementen haben. Die Detailansicht eines Termins listet diese Elemente in einer Tabelle auf:
+Wird ein Kurs in mehreren Durchführungen oder Modulen genutzt, kann ein Termin dieses Kurses für Teilnehmende aus mehreren Elementen gelten. Für wen ein Termin gilt, sehen Sie in seiner Detailansicht: Klicken Sie auf das + am Anfang der Zeile. Zuunterst steht eine Tabelle mit einer Zeile pro Element:
 
-* Die Spalte **"Für Teilnehmer:innen von"** nennt das Element, aus dem die Teilnehmenden stammen, die Spalte **"Teilnehmer:innen"** deren Anzahl.
-* Die Spalte **"Standardelement"** kennzeichnet das Standardelement mit dem Label "Standard", wie im Kurs.
-* Die Spalte "Status" zeigt mit den Labels **"Eingeschlossen"** und **"Ausgeschlossen"**, ob die Teilnehmer:innen des jeweiligen Elements in den Termin eingeschlossen oder davon ausgeschlossen sind.
+* **Für Teilnehmer:innen von** nennt das Element, aus dem die Teilnehmenden kommen. Die Spalte "Teilnehmer:innen" zeigt ihre Anzahl.
+* **Standardelement** zeigt beim Standardelement des Kurses das Label "Standard". Dasselbe Label sehen Sie im Kurs in der [Mitgliederverwaltung im Bereich Course Planner](../learningresources/Members_management.de.md#section_course_planner).
+* **Status** zeigt "Eingeschlossen", wenn die Teilnehmenden dieses Elements zum Termin gehören, und "Ausgeschlossen", wenn sie davon ausgenommen sind.
 
-Über die drei Punkte am Zeilenende steuern Sie, welche Elemente am Termin teilnehmen. Mit **"Offen"** öffnen Sie das Element, mit **"Teilnehmer ausschliessen"** nehmen Sie die Teilnehmenden dieses Elements vom Termin aus. Ausgeschlossene Elemente holen Sie mit **"Teilnehmer wieder einschliessen"** zurück; die Spalte "Status" wechselt entsprechend.
+Sollen die Teilnehmenden eines Elements nicht an diesem Termin teilnehmen, öffnen Sie das 3-Punkte-Menü am Ende ihrer Zeile und wählen "Teilnehmer ausschliessen". Mit "Teilnehmer wieder einschliessen" im selben Menü nehmen Sie sie wieder auf; die Spalte "Status" zeigt den neuen Stand. Beide Einträge sehen Sie nur, wenn Sie den Termin bearbeiten dürfen. Mit "Produkt öffnen" öffnen Sie das Element in einem neuen Fenster.
 
-Die Detailansicht zeigt zusätzlich Datum, Zeit, Einheit, Teilnehmerzahl, Präsenz und Dozenten des Termins sowie den zugehörigen Kurs.
+Über der Tabelle zeigt die Detailansicht "Datum", "Zeit", "Einheit", "Ort", "Teilnehmer:innen", "Präsenz" und "Dozenten" des Termins sowie unter "Kurs" den zugehörigen Kurs.
 
-![Die Detailansicht eines Termins mit Kurs und der Tabelle Für Teilnehmer:innen von, Standardelement, Teilnehmer:innen und Status, dazu das Menü mit Offen und Teilnehmer ausschliessen](assets/course_planner_events_event_elements_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Termins" }
+![Unten in der Detailansicht die Tabelle Für Teilnehmer:innen von, im 3-Punkte-Menü Produkt öffnen und Teilnehmer ausschliessen](assets/course_planner_events_event_elements_v2_de.png){ class="shadow lightbox" title="Detailansicht eines Termins · 2026.10.08" }
 
 
 [zum Seitenanfang ^](#events)
@@ -83,7 +90,7 @@ Die Detailansicht zeigt zusätzlich Datum, Zeit, Einheit, Teilnehmerzahl, Präse
 
 ## Wie erstelle ich neue Termine? {: #create_events}
 
-Da sich Termine auf eine Durchführung beziehen, finden Sie die Möglichkeit zum Erstellen unter<br>
+Einen neuen Termin legen Sie mit "Termin hinzufügen" im Tab "Termine" der Durchführung an:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
 Auch im Tab Termine eines Produkts steht "Termin hinzufügen" zur Verfügung, sobald das Produkt mindestens eine Durchführung hat. Im ersten Schritt des Assistenten, "Element auswählen", wählen Sie die Durchführung oder das Element, zu dem der Termin gehört:<br>
@@ -91,7 +98,7 @@ Auch im Tab Termine eines Produkts steht "Termin hinzufügen" zur Verfügung, so
 
 Im Bereich "Termine" des Course Planners ist "Termin hinzufügen" ausgegraut, weil dort weder eine Durchführung noch ein Produkt gewählt ist.
 
-Im Tab Termine einer Durchführung können Sie nach Klick auf den kleinen Pfeil neben dem Button Termine auch importieren.
+Viele Termine auf einmal übernehmen Sie im Tab Termine einer Durchführung aus einer Excel-Datei: Klicken Sie auf den kleinen Pfeil neben dem Button "Termin hinzufügen" und wählen Sie "Termine importieren".
 
 Erstellen Sie mit "Termin hinzufügen" einen Termin für einen Kurs, schaltet OpenOlat im Kurs die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist. Der Termin steht danach auch im Kurs zur Verfügung, ohne dass jemand die Kurseinstellungen anpassen muss. Importierte Termine schalten sie nicht ein, weder aus "Termine importieren" noch aus dem [Import-Assistenten des Course Planners](Course_Planner_Import_Export.de.md#import_wizard). Mehr dazu unter [Kurseinstellungen - Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled). [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
@@ -110,14 +117,14 @@ Erstellen Sie mit "Termin hinzufügen" einen Termin für einen Kurs, schaltet Op
 
 ## Wie belege ich Räume für einen Termin? [:octicons-tag-16:{ title="ab Release 21.0 (OO-9526)" }](https://track.frentix.com/issue/OO-9526){:target="_blank"} {: #room_booking}
 
-Ist das Modul «Räume» aktiviert, können Sie einem Termin einen oder mehrere Räume zuweisen. Das Feld «Räume» steht im Dialog zum Erstellen oder Bearbeiten eines Termins zur Verfügung, den Sie hier öffnen:<br>
+Ist das Modul "Räume" aktiviert, können Sie einem Termin einen oder mehrere Räume zuweisen. Das Feld "Räume" steht im Dialog zum Erstellen oder Bearbeiten eines Termins zur Verfügung, den Sie hier öffnen:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
-Die Raumauswahl berücksichtigt den Zeitraum des Termins und zeigt, welche Räume «Verfügbar» und welche «Besetzt» sind. Zu jedem Raum werden das Gebäude und die Anzahl Plätze angezeigt; reicht die Kapazität für die Teilnehmerzahl nicht aus, wird darauf hingewiesen. Über «Räume hinzufügen» öffnen Sie eine Auswahl mit Tabellen- und Kalenderansicht, in der Sie nach Verfügbarkeit filtern und zu besetzten Räumen den früheren oder späteren freien Zeitraum sehen. In der Kalenderansicht dieser Auswahl öffnet ein Klick auf einen Eintrag das Callout «Buchung» mit Raum, Termin, Datum und Zeit der bestehenden Buchung. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
+Die Raumauswahl berücksichtigt den Zeitraum des Termins und zeigt, welche Räume "Verfügbar" und welche "Besetzt" sind. Zu jedem Raum sehen Sie das Gebäude und die Anzahl Plätze; reicht die Kapazität für die Teilnehmerzahl nicht aus, weist OpenOlat darauf hin. Über "Räume hinzufügen" öffnen Sie eine Auswahl mit Tabellen- und Kalenderansicht, in der Sie nach Verfügbarkeit filtern und zu besetzten Räumen den früheren oder späteren freien Zeitraum sehen. In der Kalenderansicht dieser Auswahl öffnet ein Klick auf einen Eintrag das Fenster "Buchung" mit Raum, Termin, Datum und Zeit der bestehenden Buchung. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
 
-In der Detailansicht eines Termins erscheint der gebuchte Raum unter dem Label «Raum» als Raumkarte mit Kennzeichen, Gebäude und Standort; sind mehrere Räume gebucht, lautet das Label «Räume».
+In der Detailansicht eines Termins erscheint der gebuchte Raum unter dem Label "Raum" als Raumkarte mit Kennzeichen, Gebäude und Standort; sind mehrere Räume gebucht, lautet das Label "Räume".
 
-Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung «Der Raum "..." ist in diesem Zeitraum doppelt gebucht!» unterhalb der Raumkarte; die Karte erhält dazu einen gelben Rand. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} Die Warnungen zu fehlenden Plätzen und zu inaktiven Räumen sehen Sie in der [Raumplanung](Course_Planner_Rooms.de.md#warnings).
+Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung "Der Raum "..." ist in diesem Zeitraum doppelt gebucht!" unterhalb der Raumkarte; die Karte erhält dazu einen gelben Rand. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"} Die Warnungen zu fehlenden Plätzen und zu inaktiven Räumen sehen Sie in der [Raumplanung](Course_Planner_Rooms.de.md#warnings).
 
 ![Drei gebuchte Räume als Raumkarten mit Gebäude und Adresse, einer mit der Warnung zur Doppelbuchung](assets/course_planner_events_room_booking_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Termins" }
 
@@ -131,7 +138,7 @@ Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung «Der Ra
 
 ## Download der Termine als Excel-Liste  {: #download_events}
 
-Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei heruntergeladen werden. Verwenden Sie dazu den Button rechts oben über der Liste.
+Die Termine, die die Liste gerade zeigt, laden Sie mit dem Download-Button rechts über der Liste als Excel-Datei herunter.
 
 ![Der Download-Button rechts über der Terminliste hervorgehoben](assets/course_planner_events_download_v2_de.png){ class="shadow lightbox" title="Bereich Termine im Course Planner · 2026.10.07" }
 
@@ -145,6 +152,7 @@ Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei her
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
 [Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
 [Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)

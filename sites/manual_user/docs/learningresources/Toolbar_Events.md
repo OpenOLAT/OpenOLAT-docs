@@ -1,20 +1,20 @@
 # Toolbar: Events {: #toolbar_events}
 
 
-The "Events" icon is displayed automatically if events and absences are activated in the course.<br>
-`Course > Administration > Settings > Execution`
+The "Events" icon appears in the course toolbar as soon as "Event & absence management" is switched on in the course:<br>
+`Course > Administration > Settings > Tab Execution`
 
-It is then available to participants, coaches, and owners of the course. However, depending on the role and the associated rights, different options are displayed.
+Participants, coaches and owners of the course see the icon. What you can do after the click depends on your role.
 
 ## Call as participant {: #call_as_participant}
 
 ![Icon "Events" in the toolbar of a course](assets/toolbar_events_participant1_v1_en.png){ class="shadow lightbox" title="Course toolbar in the participants' view" }
 
-Participants only see the events for informational purposes. They only see their own events and only the information relevant to them. They cannot record absences here.
+As a participant, you see your own events here with the details that apply to you. You do not record absences here.
 
-You can narrow down the list with the tabs "All", "Relevant", "Today", "Upcoming" and "Past". Use the two symbols above the list on the right to switch between the timeline and the table view.
+You can narrow down the list with the tabs "All", "Relevant", "Today", "Upcoming" and "Past". "Relevant" is preselected and shows the events from today on. Use the two symbols above the list on the right to switch between the timeline and the table view.
 
-![Event list with tabs, filters and status labels](assets/toolbar_events_participant2_v1_en.png){ class="shadow lightbox" title="Event list in the participants' view" }
+![Participants narrow down the event list with the tabs and switch between timeline and table view with the two symbols](assets/toolbar_events_participant2_v2_en.png){ class="shadow lightbox" title="Event list in the participants' view · 2026.10.08" }
 
 [To the top of the page ^](#toolbar_events)
 
@@ -22,42 +22,45 @@ You can narrow down the list with the tabs "All", "Relevant", "Today", "Upcoming
 
 ## Call as coach {: #call_as_coach}
 
-When coaches click the "Events" icon in the toolbar, they can **record and manage** events and absences.
+As a coach, you open the events of the course via the "Events" icon in the course toolbar. There you record absences and close events. You do not create new events here. Under "Role" you see that you have opened the course as coach.
 
-![Icon "Events" and role selection in the toolbar](assets/toolbar_events_coach1_v1_en.png){ class="shadow lightbox" title="Course toolbar in the coaches' view" }
+![The Events icon in the course toolbar opens the event list, the role shows Coach](assets/toolbar_events_coach1_v2_en.png){ class="shadow lightbox" title="Course toolbar in the coaches' view · 2026.10.08" }
 
 In the coach role, unlike owners, you do not have the tab "Participants". You only see the tab "Appeals" if the option ["Appeal absence enabled"](../../manual_admin/administration/Modules_Events_and_Absences.md#appeal_enabled) is switched on in the system administration and the option ["Teachers can see appeals"](../../manual_admin/administration/Modules_Events_and_Absences.md#teacher_see_appeal) as well. If only the tab "Events" remains, OpenOlat shows the event list without a tab bar.
 
-![Toggle All coaches and Show only mine, tabs, filters and events with status labels](assets/toolbar_events_coach2_v2_en.png){ class="shadow lightbox" title="Event list in the coaches' view" }
+Above the list you choose which events you see: "All coaches" shows all events of the course, "Show only mine" only the events where you are entered as teacher. What applies when you first open the list is set by the system administration with the setting [Default display in course](../../manual_admin/administration/Modules_Events_and_Absences.md#display_in_courses). After that, OpenOlat remembers your choice.
+
+![Switch All coaches and Show only mine, tabs, filters and events with status labels](assets/toolbar_events_coach2_v2_en.png){ class="shadow lightbox" title="Event list in the coaches' view" }
 
 
 
 ### Record absences [:octicons-tag-16:{ title="from Release 12.0 (OO-2637)" }](https://track.frentix.com/issue/OO-2637) {: #record_absences}
 
-Once an event has ended, you as the coach are notified that absences still need to be recorded. You can use the link in the notification or click the book icon in the row of an event.
+If one of your events is over and its absences have not been recorded yet, a note with the number of these events appears above the list. A click on "Show event(s) with open absences" opens the tab "Pending", which shows only these events. You open the recording with a click on the book icon in the row of the event.
 
-![Note about open absences and the book icon for recording in the event list](assets/toolbar_events_coach_record_absences1_v1_en.png){ class="shadow lightbox" title="Event list in the coaches' view" }
+![The note above the list leads to the events with open absences, the book icon in the row opens the recording](assets/toolbar_events_coach_record_absences1_v2_en.png){ class="shadow lightbox" title="Event list in the coaches' view · 2026.10.08" }
 
-The events are divided into units (e.g., an event from 8:00 a.m. to 12:00 p.m. in 4 units of one hour each). You can record the absences for each individual unit.
-Indicate whether the absence is authorized and add a comment. There is also an additional comment field for the entire event for each participant.
+An event is divided into units, for example a morning from 8:00 to 12:00 in 4 units of one hour each. You record the absences per unit: in the columns "U. 1", "U. 2" and so on, tick every unit in which a person was absent. With "Authorized" you mark an authorized absence and give a reason. In the column "Comment" you note a remark on the whole event for each person.
 
 ![Absences recorded per unit, with reason and comment for an authorized absence](assets/toolbar_events_coach_record_absences2_v1_en.png){ class="shadow lightbox" title="Form for recording absences" }
 
-If you want to complete the recording of absences at a later time, you can temporarily save your entries using the button at the bottom of the list.
+If you want to continue the recording later, click "Quick save absences" at the bottom.
 
 
 ### Close events {: #close_events}
 
-Once the recording of absences can be finalized, proceed as follows:
+Once all absences of an event are recorded, you close the event as follows:
 
 1. Click the icon "Events" in the toolbar
 2. Select the tab "Events"
 3. Click the book icon for the relevant event in the list (edit absence)
     (only possible if the event has already started or is done)
 4. Click the button "Close events" at the bottom of the list
-5. A pop-up window opens where you can finalize the absence entry.
+5. In the dialog "Close events", check the "Effective end", enter a "Comment" if required and confirm with "Close events"
 
-![Effective end and comment when closing an event](assets/toolbar_events_coach_close_event_v1_en.png){ class="shadow lightbox" title="Dialog Close event" }
+The dialog only shows the field "Effective units" if the system administration has switched on the option ["Allow holding partial events"](../../manual_admin/administration/Modules_Events_and_Absences.md#partially_done). There you then choose how many units actually took place.
+
+![Effective end and comment when closing an event](assets/toolbar_events_coach_close_event_v1_en.png){ class="shadow lightbox" title="Dialog Close events" }
 
 
 
@@ -121,11 +124,11 @@ The entry only appears if all of the following conditions are met. If it is miss
 
 ### Appeals {: #appeals}
 
-If appeals have been submitted for absences that were possibly recorded incorrectly, you can get an overview under this tab. Filters help you when there is a large number of appeals.
+If participants consider a recorded absence to be wrong, they submit an appeal. In the tab "Appeals" you see these appeals with the person, the event, the units and the state in the column "Appeal". With many appeals, use the filter at the top right above the list to show only the pending, approved or rejected ones.
 
-![Tab "Appeals" with the filter for pending, approved and rejected appeals](assets/toolbar_events_coach_tab_appeals_v1_en.png){ class="shadow lightbox" title="Tab Appeals in the coaches' view" }
+![The tab Appeals lists the submitted appeals, the filter at the top right above the list narrows them down by their state](assets/toolbar_events_coach_tab_appeals_v2_en.png){ class="shadow lightbox" title="Tab Appeals in the coaches' view · 2026.10.08" }
 
-Appeals are usually processed by absence administrators, who can access all appeals across courses in the central [cross-course absence management](../area_modules/Absence_Management.md).
+As a rule, absence managers process the appeals, for all courses together in the [Absence management](../area_modules/Absence_Management.md).
 
 
 [To the top of the page ^](#toolbar_events)
@@ -135,10 +138,10 @@ Appeals are usually processed by absence administrators, who can access all appe
 
 ## Call as owner {: #call_as_owner}
 
-Course owners also have access to the icon. For them, the screen for **recording and managing** events and absences opens, which largely corresponds to the recording and management under `Course > Administration > Events and Absences`.<br>
+Course owners also have access to the icon. For them, the view for recording and managing events and absences opens, which largely corresponds to the view under `Course > Administration > Events and Absences`.<br>
 See [Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
 
-Technically speaking, runtime data is recorded in these two screens, in contrast to the [configuration](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management).
+Here you work with the events themselves: you create events and record absences. Whether the course has events at all and how absences count, you set in the [course settings](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management) instead.
 
 ![Icon "Events" in the toolbar of a course](assets/toolbar_events_owner1_v1_en.png){ class="shadow lightbox" title="Course toolbar in the course owners' view" }
 

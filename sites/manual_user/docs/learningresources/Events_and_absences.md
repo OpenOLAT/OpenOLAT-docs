@@ -1,35 +1,37 @@
 # Events and absences {: #course_admin_events_and_absences}
 
-Absence management allows attendance lists to be kept online and absences to be documented. Attendance is monitored on a course-by-course basis.
+With events and absences you keep attendance lists online and document absences. You always record attendance within one course.
 
-For this purpose, **events** can be created in the course, which can be divided into several **units**. For example, a morning (event) can be divided into several time blocks (units). This makes it possible for participants to be marked as absent for individual units of an event without losing the entire event.
+For this, you create events in the course and divide each event into units. A morning, for example, is an event with four units of one hour each. If a person misses only one hour, you record the absence for this one unit and not for the whole event.
 
-Events and units are either created by the course owners themselves or synchronized with OpenOlat via an external administration system. All events also appear in the course calendar, provided the course includes a calendar.
+Course owners create the events themselves, or they come from an external administration system of your organization. The events appear in the course calendar if "Synchronize course calendar" is switched on for the course: [Course Settings - Tab Execution](../learningresources/Course_Settings_Execution.md#course_calendar_sync).
 
-Before absence management can be used, it must be activated by the course owners. This is done under `Course > Administration > Settings > Tab Execution`. After activation, further settings can be made, and the "Events" option additionally appears in the toolbar.
+To use events and absences in the course, you as course owner switch on "Event & absence management":<br>
+`Course > Administration > Settings > Tab Execution`<br>
+After that, further settings are available there, and the "Events" icon appears in the course toolbar.
 
 
 ## "Events" in the toolbar {: #toolbar_events}
 
-**Course owners** can add events and organize absences here. In addition, the menu "Events and Absences" appears for course owners in the course administration. The options are largely identical. 
+As a course owner, you create events here and manage the absences. You find largely the same options in the Administration menu under "Events and Absences".
 
 ![The menu entry "Events and Absences" opens the event and absence management for course owners](assets/events_and_absences_adminmenu_v1_en.png){ class="shadow lightbox" title="Menu Administration of a course" }
 
-**Course coaches** see the "Events" menu only in the toolbar, not in the course administration. They also cannot create *new* events, only view existing ones and, if activated, record absences. It is also possible to filter by events for which you are registered as coach.
+As a coach, you open the events only via the "Events" icon in the toolbar; the Administration menu has no entry "Events and Absences". You do not create new events. You see the existing events and, if switched on in the course, record the absences. With "Show only mine" you see only the events where you are entered as teacher.
 
 ![Coaches with the role "Coach" reach the events only via the toolbar icon "Events"; their Administration menu contains no entry "Events and Absences"](assets/events_and_absences_toolbar_for_coach_v1_en.png){ class="shadow lightbox" title="Course toolbar in the coaches' view" }
 
-**Participants** see the "Events" menu in the toolbar and can quickly identify synchronous face-to-face or online events, e.g. in the context of blended learning. 
+Participants open their events in the course via the "Events" icon in the toolbar, on site as well as online, for example in a blended learning course.
 
 ![Participants open the course's event list via the toolbar icon "Events", with date, time, title, status, location and teachers](assets/events_and_absences_participant_v1_en.png){ class="shadow lightbox" title="Event list in the participants' view" }
 
-Participants can find their personal absences under "Personal tools" in the [Absences menu](../personal_menu/Absences.md).
+Participants find their own absences in the personal tools in the [Absences menu](../personal_menu/Absences.md).
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
 ---
 
-The following section describes the events and absences view for **course owners** in more detail. 
+The following sections describe the view of the course owners.
 
 ## Tab Events [:octicons-tag-16:{ title="from Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636) {: #tab_events}
 
@@ -37,20 +39,20 @@ The following section describes the events and absences view for **course owners
 
 ### Display events {: #display_events}
 
-In the "Events" tab, events can be added to the course and displayed filtered according to various criteria. If, for example, the event has been assigned to subjects (taxonomy), it can be filtered by these. To display details about an event, click on the + at the beginning of the relevant line.
+In the "Events" tab you add events to the course and narrow down the list with the tabs and filters. If you have assigned events to subjects (taxonomy), you can also filter by them. You expand the details of an event with the + at the beginning of its row.
 
 In the 3-dot menu at the end of each line, you find the actions for an event:
 
 - **Edit** and **Copy**
-- **Change to an online meeting** or **Change to an on-location meeting**, for an event with an online meeting additionally **Join online meeting**
-- **Mark as exam**, for an event already marked instead **Edit exam** and **Delete exam**, see [Mark event as exam](#mark_event_as_exam)
-- **Absence list** and **Attendance list** as PDF, **Log** and **Export** as Excel file
+- **Change to an online meeting** or "Change to an on-location meeting", for an event with an online meeting additionally "Join online meeting"
+- **Mark as exam**, for an event already marked instead "Edit exam" and "Delete exam", see [Mark event as exam](#mark_event_as_exam)
+- **Absence list** and "Attendance list" as PDF, "Log" and "Export" as Excel file
 - **Reopen event** for a closed or cancelled event, see [Reopen events](#reopen_events)
 - **Delete**
 
 If the course is used in the Course Planner, Edit, Copy, the change to an online meeting or an on-location meeting and Delete are missing, because the events are managed in the Course Planner. If the events come from an external administration system, Edit and Delete can be missing as well. The page on the toolbar describes which entries coaches see in the same menu: [Menu at the end of the row](../learningresources/Toolbar_Events.md#lists_and_export)
 
-![The 3-dot menu of a scheduled event offers Edit, Copy, Change to an online meeting, Mark as exam, the lists, Log, Export and Delete](assets/events_and_absences_event_menu_v1_en.png){ class="shadow lightbox" title="Tab Events in the course toolbar" }
+![The 3-dot menu of a scheduled event offers Edit, Copy, Change to an online meeting, Mark as exam, the lists, Log, Export and Delete](assets/events_and_absences_event_menu_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
 
 Use the column selection (gear icon) to show further columns. If the module "Rooms" is activated, the column "Rooms" with the booked rooms of the event is available there. It is hidden by default.
 
@@ -73,9 +75,9 @@ In the timeline, each event stands as its own block, grouped by year and date. T
 
 In the table view, a click on the + at the beginning of a line expands the detail view; in the timeline it is the arrow at the bottom edge of the block. The content is the same in both views.
 
-In the table view, a title line at the top names the title and the reference of the event, the badges "Status" and "Absences", and on the right the action "Edit". In the timeline it is omitted, because the head of the block already carries this information; editing runs through the 3-dot menu there.
+In the table view, a title line at the top names the title and the reference of the event, the badges "Status" and "Absences", and on the right the action "Edit". In the timeline this line is missing because the head of the block shows the same information; there you edit the event via the 3-dot menu.
 
-The attributes line sums up the key values: date, time, participants and compulsory presence. "Unit" only appears if the event covers more than one unit, "Location" only if a location is recorded.
+Below it, one line shows the date, time, participants and compulsory presence. "Unit" only appears if the event covers more than one unit, "Location" only if a location is recorded.
 
 The teachers follow as user cards with business card, e-mail and chat. If nobody is assigned, it says "No teachers assigned yet.".
 
@@ -85,9 +87,9 @@ The remaining details only appear if they are maintained for the event:
 * **Room**: the room card under the label "Room", with several rooms under "Rooms". If a room is double-booked during the period of the event, the warning appears below the room card and the card gets a yellow border. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
 * **Description** and **Preparation/Follow up** as their own paragraphs.
 
-At the very bottom you find the table of the elements whose participants belong to the event.
+At the very bottom a table shows who the event is for: one row per course, group or element of the Course Planner, with the number of participants and whether they are included or excluded. How to leave participants out is described under [Exclude participants](#exclude_participants).
 
-![Expanded event block with key values, teachers field, room card, description and element table](assets/events_and_absences_timeline_v1_en.png){ class="shadow lightbox" title="Timeline of the event list" }
+![Expanded event with date, time, compulsory presence, room card, description and at the bottom the table of who the event is for](assets/events_and_absences_timeline_v1_en.png){ class="shadow lightbox" title="Timeline of the event list" }
 
 Rooms are assigned in the Course Planner. A standalone course therefore shows no room cards: [Book rooms for an event >](../area_modules/Course_Planner_Events.md#room_booking)
 
@@ -98,7 +100,7 @@ Rooms are assigned in the Course Planner. A standalone course therefore shows no
 
 ### Create/Edit event {: #edit_events}
 
-To add (further) events, use the "Add event" button at the top right above the list in the "Events" tab.
+You create an event with the "Add event" button at the top right above the list in the "Events" tab.
 
 ![The "Add event" button at the top right above the event list](assets/events_and_absences_tab_events_create1_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
 
@@ -106,9 +108,9 @@ To add (further) events, use the "Add event" button at the top right above the l
 
     The "Add event" button is only displayed if the course is a standalone course. See `Course > Administration > Settings > Tab Share > Section Usage`.<br>If the course is used in the Course Planner, the events are created and managed in the Course Planner.
 
-A popup opens for entering all details of the event. 
+In the dialog "Add event" you enter the details of the event.
 
-![Input mask for a new event with the mandatory fields Title, Date, Time and Unit, the toggle Online meeting with Meeting link and the switch Compulsory](assets/events_and_absences_tab_events_create2_v3_en.png){ class="shadow lightbox" title="Dialog Add event" }
+![Dialog with the mandatory fields Title, Date, Time and Unit, the switched-on Online meeting with Meeting link and the switch Compulsory](assets/events_and_absences_tab_events_create2_v3_en.png){ class="shadow lightbox" title="Dialog Add event" }
 
  **Title**: Give the event a meaningful name.
 
@@ -128,11 +130,11 @@ A popup opens for entering all details of the event.
 
  **Location**: This specifies where this event takes place. This can be, for example, an on-site location or the exact room designation.
 
- **Online meeting**: If the event is to take place online, switch on the toggle button "Online meeting". Available options are BigBlueButton, Microsoft Teams and "Meeting link". The meeting link covers other providers, for example Zoom. For this option, enter the "Meeting link provider name" and the "URL to join meeting".<br>
+ **Online meeting**: If the event is to take place online, switch on "Online meeting". Available options are BigBlueButton, Microsoft Teams and "Meeting link". The meeting link covers other providers, for example Zoom. For this option, enter the "Meeting link provider name" and the "URL to join meeting".<br>
  The online meeting takes over the title, time and people from the event. You open it later in the event list via "Join online meeting".
 Learners have access via the calendar or the "Events" icon in the toolbar.
 
-**Recording URL**: Any URL can be specified under which a recording of the meeting is accessed. The URL can also be specified if the toggle button "Online meeting" is switched off.
+**Recording URL**: Any URL can be specified under which a recording of the meeting is accessed. The URL can also be specified if the switch "Online meeting" is switched off.
 
 **Subjects**: Here you can assign the event to one or more terms of a stored taxonomy. This makes the event easier to find.
 
@@ -151,8 +153,8 @@ Learners have access via the calendar or the "Events" icon in the toolbar.
 
 ### Copy or delete events {: #copy_delete_events}
 
-As soon as at least one event is selected in the first column, the buttons for copying and deleting events appear above the list of events.<br>
-Alternatively, the options for copying and deleting can be accessed under the 3 dots at the end of a line.
+Tick one or several events in the first column. The buttons "Copy" and "Delete" then appear above the list.<br>
+You also copy or delete a single event via the 3-dot menu at the end of its row.
 
 ![With an event selected, the buttons "Copy" and "Delete" appear above the list; the same options are available in the 3-dot menu at the end of the line](assets/events_and_absences_tab_events_copy_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
 
@@ -190,7 +192,7 @@ Coaches have the same entry in the toolbar. The page on the toolbar describes wh
 
 ### Cancel events {: #cancel_events}
 
-Events are cancelled via the [event icon in the toolbar](../learningresources/Toolbar_Events.md#cancel_events).
+You cancel events via the ["Events" icon in the toolbar](../learningresources/Toolbar_Events.md#cancel_events).
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -199,19 +201,19 @@ Events are cancelled via the [event icon in the toolbar](../learningresources/To
 
 ### Close events {: #close_events}
 
-Events are closed via the [event icon in the toolbar](../learningresources/Toolbar_Events.md#close_events).
+You close events via the ["Events" icon in the toolbar](../learningresources/Toolbar_Events.md#close_events).
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
 ---
 
-### Reopen events {: #reopen_events}
+### Reopen events [:octicons-tag-16:{ title="from Release 13.0 (OO-3716)" }](https://track.frentix.com/issue/OO-3716){:target="_blank"} {: #reopen_events}
 
-An already closed event can be reopened by course owners. You will find the option "Reopen event" under the 3 dots in the line of an event.
+As a course owner, you reopen a closed event: choose "Reopen event" in the 3-dot menu of its row.
 
 ![The option "Reopen event" in the 3-dot menu of a done event](assets/events_and_absences_reopen_event1_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
 
-Alternatively, an event can also be reopened via the book icon (edit absence).
+Alternatively, you open the absence recording with the book icon ("Edit absence") and click "Reopen event" there.
 
 ![The book icon "Edit absence" opens the absence recording; the button "Reopen event" opens the closed event again](assets/events_and_absences_reopen_event2_v1_en.png){ class="shadow lightbox" title="Absence recording of an event" }
 
@@ -221,7 +223,7 @@ Alternatively, an event can also be reopened via the book icon (edit absence).
 
 ### Manage teachers [:octicons-tag-16:{ title="from Release 20.0.3 (OO-8622)" }](https://track.frentix.com/issue/OO-8622) {: #manage_teachers}
 
-As soon as at least one event is selected in the first column, the button "Manage teachers" appears above the list of events.
+Tick one or several events in the first column. The button "Manage teachers" then appears above the list. In the dialog of the same name, you assign teachers to individual events with a tick, or to all selected events at once with "Assign to all events" and "Remove from all events".
 
 ![With an event selected, the button "Manage teachers" appears above the event list next to the buttons "Copy" and "Delete"](assets/events_and_absences_tab_events_teachers1_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
 
@@ -234,7 +236,7 @@ As soon as at least one event is selected in the first column, the button "Manag
 
 ### Exclude participants {: #exclude_participants}
 
-When the detail view of an event is open (after clicking on the + at the beginning of the relevant line), an icon with 3 dots is displayed at the bottom. There you will find the option to exclude the participants from the selected event.
+If a group of participants is not to take part in an event, you leave them out of this event. To do so, open the detail view of the event (click on the + at the beginning of the row). The table at the very bottom has one row per course, group or element. Open the 3-dot menu at the end of the row and choose "Exclude participants". The column "Status" then shows "Excluded"; with "Include participants again" in the same menu you add the participants back.
 
 ![The 3-dot menu at the bottom of the event detail view contains the option "Exclude participants"](assets/events_and_absences_tab_events_exclude_participants_v1_en.png){ class="shadow lightbox" title="Detail view of an event" }
 
@@ -267,10 +269,10 @@ Units for which the person was marked as not authorized.
 Units for which the person was marked as authorized. The reason can be specified.
 
 **Dispensed**<br>
-Units for which the person was dispensed. Whether dispensations are counted as attended is determined by the configuration of the absence management.
+Units for which the person was dispensed. Whether dispensations count as attended is determined by the configuration of the Event & absence management.
 
-**Grafik**<br>
-The bar in the column "Grafik" shows attendance graphically. Green symbolizes attendance, orange authorized, red absent or not authorized, and blue dispensed units.
+**Progress**<br>
+The bar in the column "Progress" shows attendance graphically. Green symbolizes attendance, orange authorized, red absent or not authorized, and blue dispensed units.
 
 :o_icon_o_midwarn:<br>
 The attention column with this icon shows whether the defined attendance rate has been reached. The red icon :o_icon_o_icon_error: means that the rate is below the required limit. The warning icon :o_icon_o_icon_warning: appears when the rate is less than five percentage points above the limit.
@@ -298,11 +300,11 @@ The threshold for mandatory attendance set for the course in general can be adju
 
 ## Tab Appeals {: #tab_appeals}
 
-If appeals have been submitted, you can get an overview under this tab as course owner. Filters help you with a larger number of appeals.
+If participants consider a recorded absence to be wrong, they submit an appeal. In the tab "Appeals" you as course owner see these appeals. With many appeals, use the filter at the top right above the list to show only the pending, approved or rejected ones.
 
 ![The "Appeals" tab lists submitted appeals and offers a filter by Pending, Approved and Rejected](assets/events_and_absences_tab_appeals1_v1_en.png){ class="shadow lightbox" title="Tab Appeals in the course administration" }
 
-Appeals are usually processed by absence managers, who can access all appeals across courses in the central [cross-course absence management](../area_modules/Absence_Management.md). 
+As a rule, absence managers process the appeals, for all courses together in the [Absence management](../area_modules/Absence_Management.md).
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -312,18 +314,19 @@ Appeals are usually processed by absence managers, who can access all appeals ac
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal absences >](../personal_menu/Absences.md)<br>
-[Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
+[Personal tools: Absences >](../personal_menu/Absences.md)<br>
+[Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
-[Safe Exam Browser >](../../manual_how-to/SEB/SEB.md)<br>
+[How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>
-[Cross-course absence management by absence managers >](../area_modules/Absence_Management.md)
+[Absence management >](../area_modules/Absence_Management.md)
 
 **Further reading**<br>
-[Basic concept Events and Absences >](../basic_concepts/Events_and_Absences.md)<br>
-[Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Configuration of absence management in a course >](../learningresources/Course_Settings_Execution.md)<br>
-[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
-[Module Rooms (Admin) >](../../manual_admin/administration/Modules_Rooms.md)
+[Events and Absences (basic concept) >](../basic_concepts/Events_and_Absences.md)<br>
+[Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Coaching - Events and Absences >](../area_modules/Coaching_Events_Absences.md)<br>
+[Module Rooms >](../../manual_admin/administration/Modules_Rooms.md)
 
 [To the top of the page ^](#course_admin_events_and_absences)
