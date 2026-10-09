@@ -42,7 +42,7 @@ Further information on the individual elements can be found under the correspond
 **Further reading**<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Personal Tools >](../personal_menu/Personal_Tools.md)
+[User tools >](../personal_menu/Personal_Tools.md)
 
 **youtube**<br>
 [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>)<br>

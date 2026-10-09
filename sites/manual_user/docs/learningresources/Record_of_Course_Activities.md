@@ -69,7 +69,7 @@ is read as follows (database operation: update / modify):
 ## Further information {: #further_information}
 
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
-[Personal tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Members management >](../learningresources/Members_management.md)
 
 [To the top of the page ^](#record_of_course_activities)

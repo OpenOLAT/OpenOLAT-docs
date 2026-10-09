@@ -51,8 +51,8 @@ With the help of the check boxes you determine which entries appear on your visi
 
 ## Further information {: #further_information}
 
-[Personal tools: Other users >](Other_users.md)<br>
-[Personal tools: E-Mail >](E-Mail.md)<br>
+[User tools: Other users >](Other_users.md)<br>
+[User tools: E-Mail >](E-Mail.md)<br>
 [Personal Configuration: Settings >](Settings.md)<br>
 [Personal Configuration: Password >](Password.md)<br>
 [Personal menu and general components >](index.md)

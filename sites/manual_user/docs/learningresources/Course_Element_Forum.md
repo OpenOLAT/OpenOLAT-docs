@@ -141,7 +141,7 @@ Posts in individual forum threads can also be archived. A ZIP archive is created
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
-To receive notifications about new forum posts, set the "Changes" slider to "On" in the discussion topics overview. You will then receive a notification via email or under "Subscriptions" in the "Personal Tools" section. It doesn't matter who posted the new message.
+To receive notifications about new forum posts, set the "Changes" slider to "On" in the discussion topics overview. You will then receive a notification via email or under "Subscriptions" in the "User tools" section. It doesn't matter who posted the new message.
 
 You will only receive a notification when a new post is created, not when an existing post is edited!
 

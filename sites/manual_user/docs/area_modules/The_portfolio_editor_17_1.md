@@ -144,6 +144,6 @@ The search and filter options help you to find the desired file(s) quickly.
 
 ## Further information {: #further_information}
 
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)
+[User tools: Media Center >](../personal_menu/Media_Center.md)
 
 [To the top of the page ^](#portfolio_editor)

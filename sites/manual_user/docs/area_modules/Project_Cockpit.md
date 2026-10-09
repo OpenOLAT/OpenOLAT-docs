@@ -62,6 +62,6 @@ The [subscription function](../personal_menu/Personal_Tools.md#subscriptions) is
 
 ## Further information {: #further_information}
 
-[Personal Tools >](../personal_menu/Personal_Tools.md)
+[User tools >](../personal_menu/Personal_Tools.md)
 
 [To the top of the page ^](#cockpit)

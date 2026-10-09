@@ -187,7 +187,7 @@ The people who have booked the course are displayed here if the course has [offe
 
 **Mentioned on this page**<br>
 [Export content >](../learningresources/Export_Content.md)<br>
-[Personal tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Members management >](Members_management.md)<br>
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>

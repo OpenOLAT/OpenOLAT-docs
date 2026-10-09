@@ -1,6 +1,6 @@
 # Sites and modules {: #sites}
 
-When you work in OpenOlat, you switch between the sites through the main navigation. This is the top row of every page (also called "header"). A site is an entry of the main navigation, for example Courses, Groups, Catalog or Coaching: a click on it leads to the functions of this site. What concerns only you, for example your calendar or your notes, you open through the [Personal tools](../personal_menu/Personal_Tools.md) instead.
+When you work in OpenOlat, you switch between the sites through the main navigation. This is the top row of every page (also called "header"). A site is an entry of the main navigation, for example Courses, Groups, Catalog or Coaching: a click on it leads to the functions of this site. What concerns only you, for example your calendar or your notes, you open through the [User tools](../personal_menu/Personal_Tools.md) instead.
 
 Which sites you see is controlled by three things: the module, the activation in the administration and your role. Every OpenOlat instance therefore composes and orders its main navigation differently. The following image shows what is possible: an instance with almost all available sites. Most instances offer fewer.
 
@@ -46,7 +46,7 @@ You know the site and are looking for the page that explains it. The table lists
 | 15 | Quality management | [Quality Management](Quality_Management.md) |
 | 16 | Administration | [System](../../manual_admin/administration/System.md), administration manual |
 
-The portfolio does not appear as a site in the main navigation. You open it through the Personal tools as "Portfolio 2.0", and it is described under [Creating Portfolios](Portfolio.md).
+The portfolio does not appear as a site in the main navigation. You open it through the User tools as "Portfolio 2.0", and it is described under [Creating Portfolios](Portfolio.md).
 
 
 ## Further information {: #further_information}

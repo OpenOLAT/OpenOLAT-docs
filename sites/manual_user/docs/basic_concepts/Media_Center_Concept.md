@@ -29,7 +29,7 @@ The Media Center is initially an individual, personal area and can therefore als
 
 ![Highlighted profile picture at the top right of the main navigation opens the personal menu](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Main navigation at the top right" }
 
-![Highlighted entry Media Center under Personal tools in the opened personal menu](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" title="Personal menu, Personal tools" }
+![Highlighted entry Media Center under User tools in the opened personal menu](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" title="Personal menu, User tools" }
 
 Even if they are personal media, they can be shared with other people and used in various OpenOlat contexts.<br>
 [More about sharing >](#share)
@@ -248,7 +248,7 @@ You cannot add media items in the media management, the "Add media file" button 
 [Creating Portfolios >](../area_modules/Portfolio.md)
 
 **Further reading**<br>
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)<br>
 [Working with media files >](../basic_concepts/Working_with_Media_Files.md)<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)

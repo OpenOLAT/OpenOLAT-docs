@@ -87,7 +87,7 @@ Further information on the tools can be found under ["Using Additional Course Fe
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
-[Personal tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [Search in a course >](../basic_concepts/Search_in_Course.md)<br>

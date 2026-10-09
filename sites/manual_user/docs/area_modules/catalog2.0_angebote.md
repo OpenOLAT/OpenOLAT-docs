@@ -203,7 +203,7 @@ Clicking on the tile of the taxonomy launcher opens the so-called microsite with
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [User management (administration manual) >](../../manual_admin/usermanagement/index.md)<br>
 [Coaching - People >](Coaching_People.md)<br>
-[Personal tools: Booking orders >](../personal_menu/Bookings.md)<br>
+[User tools: Booking orders >](../personal_menu/Bookings.md)<br>
 [Catalog 1.0 >](catalog1.0.md)<br>
 [Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
 [Access configuration / Share >](../learningresources/Access_configuration.md)

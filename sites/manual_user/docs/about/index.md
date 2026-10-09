@@ -20,7 +20,7 @@ At the top right of the main menu bar there is always access to the OpenOlat man
 
 !!! info "Important"
 
-    If the link does not appear, it is hidden in the personal tools in the personal [settings](../personal_menu/Settings.md).
+    If the link does not appear, it is hidden in the user tools in the personal [settings](../personal_menu/Settings.md).
 
 
 #### :o_icon_o_icon_help: Context help

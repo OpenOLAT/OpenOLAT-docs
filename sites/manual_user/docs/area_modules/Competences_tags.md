@@ -10,7 +10,7 @@ In a portfolio entry, the activated taxonomies are available to learners as comp
 
 ![Input field Competences in a portfolio entry with the selected competences Biologie, Flora and Gemüse and the suggestion list from the taxonomy, which shows the path for each level](assets/eP%20Kompetenz%20EN.png){ class="shadow lightbox" }
 
-Learners get an overview of all assigned competences in the personal menu under `Personal tools > Competences`.
+Learners get an overview of all assigned competences in the personal menu under `User tools > Competences`.
 
 ![Page My competences with the table of all competences by taxonomy, level and level type, on the right the personal menu with the highlighted entry Competences](assets/Kompetenz_uebersicht_en.png){ class="shadow lightbox" }
 

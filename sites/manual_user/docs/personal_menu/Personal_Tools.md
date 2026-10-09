@@ -1,8 +1,8 @@
-# Personal tools {: #personal_tools}
+# User tools {: #personal_tools}
 
 ![Section Personal tools in the personal menu, marked with a frame and an arrow, with twelve entries from Calendar to E-mail](assets/pers_menu_tools_v4_en.png){ class="aside-right shadow lightbox"}
 
-You can find the personal tools as a section in the [personal menu](index.md).
+You can find the user tools as a section in the [personal menu](index.md).
 
 Which tools are offered to you here is determined on the one hand by the activation in the system administration. On the other hand, you decide yourself whether the tools appear in the [personal menu](index.md) or as an icon in the main navigation.
 

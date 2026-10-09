@@ -86,7 +86,7 @@ Furthermore, videos are possible as an attachment to a forum posting or a notifi
 [Video Recording >](Video_Recording.md)<br>
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
 [Video Collection >](../area_modules/Video_Collection.md)<br>
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)
+[User tools: Media Center >](../personal_menu/Media_Center.md)
 
 **Videos in courses**<br>
 [Course Element "Video" >](../learningresources/Course_Element_Video.md)<br>

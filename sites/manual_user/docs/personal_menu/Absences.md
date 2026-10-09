@@ -1,6 +1,6 @@
-# Personal tools: Absences {: #pers_tools_absences}
+# User tools: Absences {: #pers_tools_absences}
 
-![Personal tools menu with the entry Absences, which shows the user's own events, absences, notices of absence, dispensations and appeals of all courses with absence management](assets/pers_menu_absences_v3_de.png){ class="aside-right lightbox"}
+![User tools menu with the entry Absences, which shows the user's own events, absences, notices of absence, dispensations and appeals of all courses with absence management](assets/pers_menu_absences_v3_de.png){ class="aside-right lightbox"}
 
 ![Absences icon](assets/icon_absences.png){ class="shadow lightbox" }
 

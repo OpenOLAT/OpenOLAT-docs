@@ -144,7 +144,7 @@ Uploading media to the Media Center is done in the personal menu or in the Conte
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)
+[User tools: Media Center >](../personal_menu/Media_Center.md)
 
 **Further reading**<br>
 [Types of Course Elements >](../learningresources/Course_Elements.md)<br>

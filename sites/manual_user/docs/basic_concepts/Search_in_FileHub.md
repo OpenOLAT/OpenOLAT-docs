@@ -1,6 +1,6 @@
 # Search in the File Hub {: #search_in_file_hub}
 
-The [File Hub](../personal_menu/File_Hub.md), which you find under [Personal tools](../personal_menu/Personal_Tools.md), is a personal file explorer and shows available files of the OpenOlat instance.
+The [File Hub](../personal_menu/File_Hub.md), which you find under [User tools](../personal_menu/Personal_Tools.md), is a personal file explorer and shows available files of the OpenOlat instance.
 
 Accordingly, the search in the File Hub is primarily aimed at **files** that you want to copy or move, for example.
 
@@ -54,8 +54,8 @@ The "Advanced search" in the search result is also a [full-text search](Search_G
 
 ## Further information {: #further_information}
 
-[Personal tools: File Hub >](../personal_menu/File_Hub.md)<br>
-[Personal Tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[User tools >](../personal_menu/Personal_Tools.md)<br>
 [General information on the search >](Search_General.md)<br>
 [Global search >](Search_Global.md)<br>
 [Local search >](Search_Local.md)<br>

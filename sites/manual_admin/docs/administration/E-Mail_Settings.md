@@ -30,11 +30,11 @@ If this option is not activated, it means that several accounts can have the sam
 
 ## E-mail inbox and outbox {: #e-mail-inbox-and-outbox}
 
-OpenOlat has an internal inbox that lists all emails sent and received in OpenOlat in the personal inbox of each person: [Personal tools: E-Mail](../../manual_user/personal_menu/E-Mail.md). The OpenOlat inbox is an optional component.
+OpenOlat has an internal inbox that lists all emails sent and received in OpenOlat in the personal inbox of each person: [User tools: E-Mail](../../manual_user/personal_menu/E-Mail.md). The OpenOlat inbox is an optional component.
 
 ### Enable the OpenOlat inbox
 
-  * If the OpenOlat inbox is switched off, all emails created in OpenOlat are sent exclusively to the personal email address. The OpenOlat inbox is not visible in the personal tools.
+  * If the OpenOlat inbox is switched off, all emails created in OpenOlat are sent exclusively to the personal email address. The OpenOlat inbox is not visible in the user tools.
   * If the OpenOlat inbox is switched on, all received and sent emails are listed in the personal inbox of each person.
 
 Under "Standard settings for e-mail sending" you define the default behaviour as an administrator:
@@ -44,7 +44,7 @@ Under "Standard settings for e-mail sending" you define the default behaviour as
 
 In addition, every person can define in their personal [settings](../../manual_user/personal_menu/Settings.md#mail_delivery) under "E-mail delivery" where OpenOlat delivers their e-mails. This own choice overrides your default setting. The default setting only applies to the persons who have not made a choice themselves. Without a valid e-mail address in the profile, no delivery to the outside takes place in any case.
 
-Independently of both settings, every person forwards single messages from the inbox to their own address: [Personal tools: E-Mail](../../manual_user/personal_menu/E-Mail.md#forward).
+Independently of both settings, every person forwards single messages from the inbox to their own address: [User tools: E-Mail](../../manual_user/personal_menu/E-Mail.md#forward).
 
 ### Inbox and outbox [:octicons-tag-16:{ title="from Release 12.2 (OO-2982)" }](https://track.frentix.com/issue/OO-2982)
 
@@ -125,7 +125,7 @@ The recommended setting:
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal tools: E-Mail >](../../manual_user/personal_menu/E-Mail.md)<br>
+[User tools: E-Mail >](../../manual_user/personal_menu/E-Mail.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
 [Course Element "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.md)<br>

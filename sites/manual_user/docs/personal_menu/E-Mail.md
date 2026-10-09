@@ -1,6 +1,6 @@
-# Personal tools: E-Mail {: #email}
+# User tools: E-Mail {: #email}
 
-![Entry E-Mail as the last item of the personal tools, after Calendar, Subscriptions, File Hub, Notes, Competences, Badges, Media Center and To-dos, in the personal menu](assets/pers_menu_email_v3_de.png){ class="aside-right lightbox"}
+![Entry E-Mail as the last item of the user tools, after Calendar, Subscriptions, File Hub, Notes, Competences, Badges, Media Center and To-dos, in the personal menu](assets/pers_menu_email_v3_de.png){ class="aside-right lightbox"}
 
 ![Icon E-mail](assets/icon_e-mail.png)
 
@@ -78,7 +78,7 @@ E-mails can be sent from various places, e.g.:
 [Members management >](../learningresources/Members_management.md)
 
 **Further reading**<br>
-[Personal tools >](Personal_Tools.md)<br>
+[User tools >](Personal_Tools.md)<br>
 [Subscriptions >](Subscriptions.md)
 
 [To the top of the page ^](#email)

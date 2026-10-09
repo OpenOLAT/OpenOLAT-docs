@@ -174,7 +174,7 @@ The report summarizes the attendances per person: as an **Aggregated list** acro
 
 **Mentioned on this page**<br>
 [Events and absences >](../learningresources/Events_and_absences.md)<br>
-[Personal tools: Absences >](../personal_menu/Absences.md)<br>
+[User tools: Absences >](../personal_menu/Absences.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)

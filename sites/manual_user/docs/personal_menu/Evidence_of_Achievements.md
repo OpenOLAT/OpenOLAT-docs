@@ -25,7 +25,7 @@ Course owners define in their courses whether participants see their evidence of
 Users find their evidence of achievement and, if activated, also their received [certificates](../learningresources/Course_Settings_Assessment_Certificate.md#certificate) both in the respective course in which the evidence of achievement or the certificate was issued and collected in the personal menu.
 
 
-### Evidence of achievement in the personal tools {: #where_in_pers_tools}
+### Evidence of achievement in the personal menu {: #where_in_pers_tools}
 
 The display in the personal menu is suitable for obtaining a quick overview of all personal evidence of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidence of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Score, Passed, Certificate. If the grading module is active, the "Rating" column shows the achieved grade; it is displayed from the start. The "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
@@ -69,13 +69,13 @@ If the evidence of achievement is activated in a course, participants find the l
 **Mentioned on this page**<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
-[Personal tools: Portfolio >](../personal_menu/Portfolio.md)<br>
+[User tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[User tools: Portfolio >](../personal_menu/Portfolio.md)<br>
 [Personal achievements/successes: Certificates >](Certificates.md)
 
 **Further reading**<br>
 [Assessment systems in OpenOlat: Grades >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
-[Badges in the personal tools >](OpenBadges.md)<br>
+[Badges in the user tools >](OpenBadges.md)<br>
 [Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
 [Badges in the eAssessment administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [Create test receipt: Test settings >](../learningresources/Test_settings.md)<br>

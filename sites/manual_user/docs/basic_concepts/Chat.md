@@ -67,7 +67,7 @@ To view chat logs, open the chat window of the desired chat partner. Then select
 ## Further information {: #further_information}
 
 [Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
-[Personal tools: Other users >](../personal_menu/Other_users.md)<br>
+[User tools: Other users >](../personal_menu/Other_users.md)<br>
 [Group Administration >](../groups/Group_Administration.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Additional Course Features >](../learningresources/Additional_Course_Features.md)<br>

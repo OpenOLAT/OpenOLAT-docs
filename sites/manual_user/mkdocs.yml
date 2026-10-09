@@ -76,7 +76,7 @@ nav:
 
   - Personal menu:
     - personal_menu/index.md
-    - Personal tools:
+    - User tools:
       - Overview: "personal_menu/Personal_Tools.md"
       - Calendar: "personal_menu/Calendar.md"
       - Subscriptions: "personal_menu/Subscriptions.md"

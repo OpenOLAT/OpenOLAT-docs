@@ -1,11 +1,11 @@
-# Personal tools: Competences {: #competences}
+# User tools: Competences {: #competences}
 
-![Personal tools menu with the entry Competences, the overview of all competences assigned to a person](assets/pers_menu_competences_v3_de.png){ class="aside-right lightbox"}
+![User tools menu with the entry Competences, the overview of all competences assigned to a person](assets/pers_menu_competences_v3_de.png){ class="aside-right lightbox"}
 
 ![Competences icon](assets/icon_competences.png)
 
 
-In the personal tools, learners get an overview of all competences that have been assigned to them in OpenOlat.
+In the user tools, learners get an overview of all competences that have been assigned to them in OpenOlat.
 
 Competences may have been assigned in ePortfolio entries, for example, or entered manually by user managers in the user profile.
 
@@ -23,7 +23,7 @@ Competences may have been assigned in ePortfolio entries, for example, or entere
 
 ## Where do competences play a role? {: #where_used}
 
-In addition to being displayed in the personal tools, the awarding or acquisition of competences also occurs in the following contexts:
+In addition to being displayed in the user tools, the awarding or acquisition of competences also occurs in the following contexts:
 
 - [Competences tags >](../area_modules/Competences_tags.md) (ePortfolio)
 - [File Hub Concept >](../basic_concepts/File_Hub_Concept.md) (Document pool)

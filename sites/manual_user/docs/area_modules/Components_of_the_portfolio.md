@@ -1,6 +1,6 @@
 # Components of the portfolio
 
-Every OpenOlat user has access to their own portfolio area via the personal menu at the top right: `Personal tools > Portfolio 2.0`. The following image shows the overview page of the Portfolio 2.0.
+Every OpenOlat user has access to their own portfolio area via the personal menu at the top right: `User tools > Portfolio 2.0`. The following image shows the overview page of the Portfolio 2.0.
 
 ![Overview page My portfolio with the links to binders, entries, media center and trash, the Opened sections area with the shares and the last used elements](assets/eP_Overview_EN.png){ class="shadow lightbox" }
 

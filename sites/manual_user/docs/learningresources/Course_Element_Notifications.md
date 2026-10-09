@@ -16,7 +16,7 @@ Specialty / Note |
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Notifications](<https://www.youtube.com/embed/3tAj19Avfkk>){:target="_blank"}
 
-This course element allows you to embed notifications in the course structure. These notifications are visible both in the course and under `Personal tools > Subscriptions` in the notifications of each individual participant. The message can be either a short info text or extensive information added as a file attachment (by default, max. 5 MB).
+This course element allows you to embed notifications in the course structure. These notifications are visible both in the course and under `User tools > Subscriptions` in the notifications of each individual participant. The message can be either a short info text or extensive information added as a file attachment (by default, max. 5 MB).
 
 A message can be published immediately or at a later point in time and additionally sent by e-mail. How to choose the recipients is described in the section [Writing and sending a message](#create_notification).
 
@@ -30,7 +30,7 @@ A message can be published immediately or at a later point in time and additiona
 
 In the "Permissions" section, you can define which course roles are allowed to create and manage messages. Owners can generally create and manage messages.
 
-Messages can be viewed in the personal menu under `Personal tools > Subscriptions`, see also the page [Subscriptions](../personal_menu/Subscriptions.md). The number of displayed messages can be set in the course editor.
+Messages can be viewed in the personal menu under `User tools > Subscriptions`, see also the page [Subscriptions](../personal_menu/Subscriptions.md). The number of displayed messages can be set in the course editor.
 
 By default, only coaches and owners are allowed to create messages. However, all participants may read messages. In the "Notification configuration" tab, you can adjust this setting according to your wishes.
 

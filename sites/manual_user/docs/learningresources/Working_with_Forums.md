@@ -60,7 +60,7 @@ attachments before storing them in your personal folder.
 
 To be notified about new forum posts, set the toggle at "Modifications" to
 "On" in the overview of discussion topics. Then you will get a notification
-by e-mail or under Subscriptions in the "Personal Tools" section. It does not
+by e-mail or under Subscriptions in the "User tools" section. It does not
 matter whether the post was created by a participant or a guest.
 
 A notification is only sent if a new post has been created, but not if an

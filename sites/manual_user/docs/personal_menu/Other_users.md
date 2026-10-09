@@ -1,6 +1,6 @@
-# Personal tools: Other users {: #other_users}
+# User tools: Other users {: #other_users}
 
-![Personal tools menu with the entry Other users, which searches for other users by their account details](assets/pers_menu_other_users_v3_de.png){ class="aside-right lightbox"}
+![User tools menu with the entry Other users, which searches for other users by their account details](assets/pers_menu_other_users_v3_de.png){ class="aside-right lightbox"}
 
 ![Other users icon](assets/icon_other_users.png)
 

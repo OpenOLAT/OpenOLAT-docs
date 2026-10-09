@@ -20,7 +20,7 @@ Available since | Release 10.0 (OO-963)
 
 The personal menu is divided into five sections:
 
-![1](assets/1_green_20.png) **Personal tools**: your working tools, from the calendar to the mailbox <br>
+![1](assets/1_green_20.png) **User tools**: your working tools, from the calendar to the mailbox <br>
 ![2](assets/2_green_20.png) **Achievements/Successes**: everything you have achieved in OpenOlat <br>
 ![3](assets/3_green_20.png) **Configuration**: profile, settings and password <br>
 ![4](assets/4_green_20.png) **Help**: links to the manual, to training courses and to support <br>
@@ -30,7 +30,7 @@ At the end of the menu you find the **Log out** function.
 
 !!! note "Quick Links"
 
-    **Personal tools**
+    **User tools**
 
     * [Calendar](../personal_menu/Calendar.md)
     * [Subscriptions](../personal_menu/Subscriptions.md)
@@ -60,7 +60,7 @@ At the end of the menu you find the **Log out** function.
 
 The **Help** and **System** sections contain no personal data. Under **Help** you find the links that the administration has released for your installation, for example to the OpenOlat manual, to the OpenOlat Academy or to a support address. Under **System** you find system related functions such as **Print**.
 
-A detailed description of all tools is available on the page [Personal tools](../personal_menu/Personal_Tools.md).
+A detailed description of all tools is available on the page [User tools](../personal_menu/Personal_Tools.md).
 
 
 ## Available tools {: #available_tools}
@@ -85,7 +85,7 @@ Select the checkboxes of the tools that should appear in the menu bar, and save.
 
 ![Checkbox Calendar selected, the list also contains Profile, Certificates and Print, in the System tab of the settings](assets/pers_menu_move_item_v2_en.png){ class="shadow lightbox" title="System tab of the settings" }
 
-Not only the personal tools are available for selection, but also entries from the other sections, for example **Certificates**, **Settings** or **Print**.
+Not only the user tools are available for selection, but also entries from the other sections, for example **Certificates**, **Settings** or **Print**.
 
 !!! info "Important"
 
@@ -115,7 +115,7 @@ Two tools are not part of the personal menu but are always in the menu bar: the 
 
 ## Further information {: #further_information}
 
-[Personal tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools.md)<br>
 [Core functions: Overview (Administration manual) >](../../manual_admin/administration/Core_functions.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Chat >](../basic_concepts/Chat.md)<br>

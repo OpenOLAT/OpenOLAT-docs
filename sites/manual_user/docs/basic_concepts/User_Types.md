@@ -70,7 +70,7 @@ Guests have limited access to OpenOlat without registering. They can view learni
 
 ## Further information {: #further_information}
 
-[Personal tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Groups >](../groups/index.md)<br>
 [Roles and Rights: Guest access >](guest_access.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>

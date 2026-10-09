@@ -286,7 +286,7 @@ All reports can also be downloaded as Excel files.
 **Further reading**<br>
 [Setting up the Safe Exam Browser >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
 [Module Rooms >](Modules_Rooms.md)<br>
-[Personal tools: Absences >](../../manual_user/personal_menu/Absences.md)<br>
+[User tools: Absences >](../../manual_user/personal_menu/Absences.md)<br>
 [Absence management >](../../manual_user/area_modules/Absence_Management.md)
 
 [To the top of the page ^](#module_events_and_absences)

@@ -297,7 +297,7 @@ You can find out how teachers can grade a portfolio assignment in the chapter "[
 [Portfolio template: Creation >](Portfolio_template_Creation.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
-[Personal tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools.md)<br>
 [The Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.md)<br>
 [Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
 [Components of the portfolio >](../area_modules/Components_of_the_portfolio.md)<br>

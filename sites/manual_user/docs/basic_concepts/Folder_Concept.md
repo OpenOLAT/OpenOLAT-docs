@@ -6,7 +6,7 @@ The folder component is used everywhere in OpenOlat where files are stored. This
 
 ### Personal folder {: #personal_folder}
 
-The personal folder can be found in the personal tools in the [personal menu](../personal_menu/index.md), in the [File Hub](../personal_menu/File_Hub.md).
+The personal folder can be found in the user tools in the [personal menu](../personal_menu/index.md), in the [File Hub](../personal_menu/File_Hub.md).
 
 It offers the option of storing individual files independently of courses or resource folders.
 
@@ -202,7 +202,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 
 **Mentioned on this page**<br>
 [Personal menu and general components >](../personal_menu/index.md)<br>
-[Personal tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Resource folder >](../learningresources/Resource_Folder.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>

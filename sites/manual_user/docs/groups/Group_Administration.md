@@ -163,7 +163,7 @@ For more information, see the separate chapter [Automatic Group Life Cycle](../.
 
 **Mentioned on this page**<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
-[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Creating Wikis >](../learningresources/Wiki.md)<br>
 [Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
 [Course Element "OpenMeetings" >](../learningresources/Course_Element_OpenMeetings.md)<br>

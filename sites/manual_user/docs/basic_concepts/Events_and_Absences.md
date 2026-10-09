@@ -180,10 +180,10 @@ A distinction must be made between
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
 [Projects - Schedule >](../area_modules/Project_Schedule.md)<br>
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>
-[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [BigBlueButton module >](../../manual_admin/administration/BigBlueButton_module.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
-[Personal tools: Absences >](../personal_menu/Absences.md)<br>
+[User tools: Absences >](../personal_menu/Absences.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>

@@ -42,12 +42,12 @@ The e-mail does not arrive at the moment your interval expires, but at the next 
 
 Under "E-mail delivery" you set where OpenOlat delivers your e-mails. The field only appears when the administration has switched on the OpenOlat inbox.
 
-  * "Send e-mails to the OpenOlat internal inbox": The messages stay in OpenOlat. You read them under `Personal tools > E-Mail`. In the notification mail you also find a note about new e-mails in the OpenOlat inbox.
+  * "Send e-mails to the OpenOlat internal inbox": The messages stay in OpenOlat. You read them under `User tools > E-Mail`. In the notification mail you also find a note about new e-mails in the OpenOlat inbox.
   * "Send e-mails to the OpenOlat internal inbox and the address ...": OpenOlat puts every message into the inbox and forwards it to the address shown as well. The address shown is the one from your profile. This is the permanent forwarding.
 
 Your choice overrides the system-wide default setting. If you make no choice, the default of the administration applies: [Email Settings](../../manual_admin/administration/E-Mail_Settings.md#e-mail-inbox-and-outbox).
 
-You can also forward a single message without this setting: [Personal tools: E-Mail](E-Mail.md#forward).
+You can also forward a single message without this setting: [User tools: E-Mail](E-Mail.md#forward).
 
 #### Character set used in download {: #charset}
 
@@ -83,7 +83,7 @@ You find page-specific links in the social sharing bar at the bottom left under 
 
 ### ![3](assets/3_green_24.png) User tools {: #personal_tools}
 
-Here you select which personal tools appear directly at the top in the main navigation (to the left of your profile picture) so that you can access these tools quickly.<br>
+Here you select which user tools appear directly at the top in the main navigation (to the left of your profile picture) so that you can access these tools quickly.<br>
 Tools that are displayed as an icon in the main navigation are no longer listed in the personal menu.
 
 **Example: "System settings" and "Badges" have been moved from the personal menu to the main navigation**
@@ -174,10 +174,10 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal tools: Subscriptions >](Subscriptions.md)<br>
+[User tools: Subscriptions >](Subscriptions.md)<br>
 [Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
 [Email Settings >](../../manual_admin/administration/E-Mail_Settings.md)<br>
-[Personal tools: E-Mail >](E-Mail.md)<br>
+[User tools: E-Mail >](E-Mail.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)
@@ -185,7 +185,7 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 **Further reading**<br>
 [Personal Configuration: Profile >](Profile.md)<br>
 [Personal Configuration: Password >](Password.md)<br>
-[Personal tools >](Personal_Tools.md)<br>
+[User tools >](Personal_Tools.md)<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
 [Chat >](../basic_concepts/Chat.md)
 

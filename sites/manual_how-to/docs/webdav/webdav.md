@@ -130,7 +130,7 @@ your computer containing the following sub-directories:
 
 ## Further information {: #further_information}
 
-[Personal tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
+[User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [Using group tools >](../../manual_user/groups/Using_Group_Tools.md)<br>
 [Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>
 [Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>

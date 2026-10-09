@@ -1,6 +1,6 @@
-# Personal tools: Portfolio {: #portfolio}
+# User tools: Portfolio {: #portfolio}
 
-![Entry Portfolio 2.0 in the Personal tools menu: access to your own binders, entries, shares and portfolio tasks](assets/pers_menu_portfolio_v3_de.png){ class="aside-right lightbox"}
+![Entry Portfolio 2.0 in the User tools menu: access to your own binders, entries, shares and portfolio tasks](assets/pers_menu_portfolio_v3_de.png){ class="aside-right lightbox"}
 
 ![Portfolio icon](assets/icon_portfolio.png)
 

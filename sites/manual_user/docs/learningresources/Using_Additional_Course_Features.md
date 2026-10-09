@@ -140,7 +140,7 @@ Now the persons in the group can add and change glossary entries.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Course Element "Participant list" >](../learningresources/Course_Element_Participant_List.md)<br>
 [Course Element "Notifications" >](../learningresources/Course_Element_Notifications.md)<br>
 [Course Element "E-Mail" >](../learningresources/Course_Element_EMail.md)<br>

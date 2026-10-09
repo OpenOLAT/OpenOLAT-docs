@@ -1,6 +1,6 @@
-# Personal tools: File Hub {: #file_hub}
+# User tools: File Hub {: #file_hub}
 
-![Personal tools menu with the entry File Hub, the entry point to the global file browser for all accessible folders in OpenOlat](assets/pers_menu_file_hub_v3_de.png){ class="aside-right lightbox"}
+![User tools menu with the entry File Hub, the entry point to the global file browser for all accessible folders in OpenOlat](assets/pers_menu_file_hub_v3_de.png){ class="aside-right lightbox"}
 
 ![File Hub icon](assets/icon_file_hub.png)
 
@@ -10,7 +10,7 @@ The File Hub is the **global file browser** of OpenOlat. It lists **all folders 
 
 The File Hub only displays folders to which the logged-in person has access permission.
 
-![Six storage locations on the start page of the File Hub: Personal files, Groups, Courses, Document pool, Course archive and Resource folder, with the search field above; File Hub in the personal tools](assets/pers_menu_file_hub_storage_locations_v1_de.png){ class="shadow lightbox"}
+![Six storage locations on the start page of the File Hub: Personal files, Groups, Courses, Document pool, Course archive and Resource folder, with the search field above; File Hub in the user tools](assets/pers_menu_file_hub_storage_locations_v1_de.png){ class="shadow lightbox"}
 
 [To the top of the page ^](#file_hub)
 
@@ -33,7 +33,7 @@ See also [File Hub (basic concept)](../basic_concepts/File_Hub_Concept.md)
 
 ## Where is the File Hub used? {: #where_used}
 
-The folders and files are displayed in the File Hub according to the individual, personal permissions. This is why the File Hub is one of the **personal tools** and can be found in the **personal menu**.
+The folders and files are displayed in the File Hub according to the individual, personal permissions. This is why the File Hub is one of the **user tools** and can be found in the **personal menu**.
 
 However, the File Hub is also displayed in many other places whenever **files are to be selected**.
 
@@ -101,7 +101,7 @@ Additionally, files that are saved via data archiving are stored in the private 
 
 _Public_
 
-Files that should be available to other OpenOlat users can be stored in this folder. The "public" folder is visible in the business card. In the personal tools, you can search under "Other users" for the person who uploaded a document there. This simplifies the data exchange between OpenOlat users.
+Files that should be available to other OpenOlat users can be stored in this folder. The "public" folder is visible in the business card. In the user tools, you can search under "Other users" for the person who uploaded a document there. This simplifies the data exchange between OpenOlat users.
 
 In OpenOlat, several variants of folders exist. Beside the two folders in the personal menu, the following folder variants with different purposes exist:
 

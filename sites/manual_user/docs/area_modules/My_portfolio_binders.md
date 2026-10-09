@@ -78,7 +78,7 @@ Two further tabs appear depending on the binder and your rights:
 [Media Center Concept >](../basic_concepts/Media_Center_Concept.md)<br>
 [Multiple use of entries >](Multiple_use_of_entries.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.md)<br>
-[Personal tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
+[User tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
 [Portfolio task and assignment: Collecting and editing >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
 
 **Further reading**<br>

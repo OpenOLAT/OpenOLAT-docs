@@ -46,6 +46,6 @@ Math formulas can be inserted in the following course elements and learning reso
 [CortexJS keybindings >](https://cortexjs.io/mathlive/reference/keybindings/)<br>
 [Content Editor >](Content_Editor.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
-[Personal tools: Portfolio >](../personal_menu/Portfolio.md)
+[User tools: Portfolio >](../personal_menu/Portfolio.md)
 
 [To the top of the page ^](#formula)

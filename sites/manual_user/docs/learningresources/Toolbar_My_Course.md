@@ -173,14 +173,14 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 **Mentioned on this page**<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
-[Personal Tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>
 [Personal achievements/successes: Badges >](../personal_menu/OpenBadges.md)<br>
-[Personal tools: Notes >](../personal_menu/Notes.md)<br>
+[User tools: Notes >](../personal_menu/Notes.md)<br>
 [Terms of Use >](../basic_concepts/Terms_Of_Use.md)<br>
 [Course settings - Tab Share >](Course_Settings_Share.md)<br>
 [Course Element "Enrolment" >](Course_Element_Enrolment.md)

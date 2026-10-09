@@ -86,7 +86,7 @@ to complete the action.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools.md)<br>
 [My portfolio binders >](../area_modules/My_portfolio_binders.md)
 
 [To the top of the page ^](#portfolio-task-collecting-and-editing)

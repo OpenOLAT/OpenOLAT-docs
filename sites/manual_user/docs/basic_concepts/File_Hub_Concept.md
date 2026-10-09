@@ -28,11 +28,11 @@ The File Hub is available in OpenOlat as a **global file browser**, in which **a
 
 ### The File Hub in the personal menu [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #in_personal_menu}
 
-The folders and files are displayed in the File Hub according to individual, personal permissions, which is why the File Hub is also one of the **personal tools** and can be found in the **personal menu**.
+The folders and files are displayed in the File Hub according to individual, personal permissions, which is why the File Hub is also one of the **user tools** and can be found in the **personal menu**.
 
 ![Arrow pointing to the profile picture at the top right, which opens the personal menu, in the Courses area](assets/file_hub_pers_menu_open_v1_de.png){ class=" shadow lightbox" }
 
-![Entry File Hub highlighted under Personal tools in the opened personal menu, behind it the start page of the File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class=" shadow lightbox" }
+![Entry File Hub highlighted under User tools in the opened personal menu, behind it the start page of the File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class=" shadow lightbox" }
 
 
 
@@ -109,13 +109,13 @@ Files from the course elements of a course are stored in the storage folder of a
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal tools: Media Center](../personal_menu/Media_Center.md)<br>
+[User tools: Media Center](../personal_menu/Media_Center.md)<br>
 [Module Document Pool](../../manual_admin/administration/Modules_Document_pool.md)<br>
 [Sites and modules](../area_modules/index.md)<br>
 [Using Group Tools](../groups/Using_Group_Tools.md)<br>
 [Course administration - Archiving & Reports](../learningresources/Course_Archiving.md)<br>
 [Storage folder](../learningresources/Storage_folder.md)<br>
-[Personal tools: File Hub](../personal_menu/File_Hub.md)<br>
+[User tools: File Hub](../personal_menu/File_Hub.md)<br>
 [Resource folder](../learningresources/Resource_Folder.md)
 
 **Further reading**<br>

@@ -188,12 +188,12 @@ The list shows the mappings of all organisations. The "Subdomain allowed" column
 [Manage user settings >](../usermanagement/Configure_User.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
-[Personal tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
+[User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [REST API >](REST_API.md)<br>
 [Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)<br>
 [Authoring - Bulk Actions >](../../manual_user/area_modules/Authoring_BulkActions.md)<br>
 [Core functions: Overview >](Core_functions.md)<br>
-[Personal tools: Booking orders >](../../manual_user/personal_menu/Bookings.md)
+[User tools: Booking orders >](../../manual_user/personal_menu/Bookings.md)
 
 **Further reading**<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>

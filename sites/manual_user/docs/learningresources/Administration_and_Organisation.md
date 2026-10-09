@@ -269,7 +269,7 @@ confirmed, this is also visible.
 **Mentioned on this page**<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
-[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)
 
 **Further reading**<br>

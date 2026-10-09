@@ -153,7 +153,7 @@ The optional licenses can be configured here.
 ## Further information {: #further_information}
 
 **Further reading**<br>
-[Personal tools: Subscriptions >](../../manual_user/personal_menu/Subscriptions.md)<br>
+[User tools: Subscriptions >](../../manual_user/personal_menu/Subscriptions.md)<br>
 [Modules: Overview >](Modules.md)
 
 [To the top of the page ^](#core_config)

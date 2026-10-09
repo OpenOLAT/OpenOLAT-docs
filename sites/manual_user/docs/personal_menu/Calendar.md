@@ -1,6 +1,6 @@
-# Personal tools: Calendar {: #calendar}
+# User tools: Calendar {: #calendar}
 
-![Entry point to the personal calendar: the Calendar entry heads the list of Personal tools, ahead of Subscriptions, File Hub, Notes and Evidence of achievement](assets/pers_menu_calendar_v3_de.png){ class="aside-right lightbox" }
+![Entry point to the personal calendar: the Calendar entry heads the list of User tools, ahead of Subscriptions, File Hub, Notes and Evidence of achievement](assets/pers_menu_calendar_v3_de.png){ class="aside-right lightbox" }
 
 :fontawesome-regular-calendar-days:
 
@@ -14,14 +14,14 @@ The calendar function is available in various places:
 
 <br>:octicons-device-camera-video-24: **Video Introduction (German)**: [Course calendar](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank"}
 
-* In the [personal menu](../personal_menu/index.md) [(Personal tools)](../personal_menu/Personal_Tools.md):<br> In addition to your personal appointments, all appointments from the various courses and groups of which you are a member can be combined in your personal calendar. This gives you an overview. External calendars can also be imported according to individual requirements.
+* In the [personal menu](../personal_menu/index.md) [(User tools)](../personal_menu/Personal_Tools.md):<br> In addition to your personal appointments, all appointments from the various courses and groups of which you are a member can be combined in your personal calendar. This gives you an overview. External calendars can also be imported according to individual requirements.
 
 ![The calendars are nested: the personal calendar encloses the course calendar, which in turn encloses two group calendars. The appointments of the inner calendars are combined outwards](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" title="Nesting of the calendars" }
 
 
 !!! info "Important"
 
-    If you cannot find a calendar in the list of your personal tools, administrators have switched it off in the system administration:<br>
+    If you cannot find a calendar in the list of your user tools, administrators have switched it off in the system administration:<br>
     `Administration > Core functions > Calendar`
 
 
@@ -217,7 +217,7 @@ Other calendars (such as those from the PerformX system) can also be integrated 
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Finding courses >](../area_modules/Courses.md)<br>
 [Personal menu >](../personal_menu/index.md)<br>
-[Personal tools >](../personal_menu/Personal_Tools.md)
+[User tools >](../personal_menu/Personal_Tools.md)
 
 **Further reading**<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>

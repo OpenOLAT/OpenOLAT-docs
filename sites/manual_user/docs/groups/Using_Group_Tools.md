@@ -51,7 +51,7 @@ Group **participants** will then see the following items in the group menu on th
 
 ## Further information {: #further_information}
 
-[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)

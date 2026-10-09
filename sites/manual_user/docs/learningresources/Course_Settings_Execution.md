@@ -194,7 +194,7 @@ Traditional courses do not include a "Learning Progress" option.
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
-[Personal tools: Absences >](../personal_menu/Absences.md)<br>
+[User tools: Absences >](../personal_menu/Absences.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)
 
 **Further reading**<br>

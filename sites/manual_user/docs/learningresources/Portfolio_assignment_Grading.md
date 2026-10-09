@@ -181,6 +181,6 @@ The user is now shown the status "Passed" or "Failed" and the score entered.
 [Portfolio task: collecting and editing >](Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
 [Course Element "Portfolio Task" >](Course_Element_Portfolio_Task.md)<br>
 [Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
-[Personal tools: Portfolio >](../personal_menu/Portfolio.md)
+[User tools: Portfolio >](../personal_menu/Portfolio.md)
 
 [To the top of the page ^](#portfolio_comment_grading)

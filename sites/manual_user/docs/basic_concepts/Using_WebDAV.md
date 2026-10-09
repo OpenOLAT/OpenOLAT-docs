@@ -113,7 +113,7 @@ Once you have set up the connection successfully, a directory opens on your comp
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>

@@ -523,7 +523,6 @@ plugins:
           Personal Menu : Persönliche Werkzeuge
           Personal menu : Persönliches Menü
           Personal menu and general components: Persönliches Menü und allgemeine Funktionen
-          Personal tools : Persönliche Werkzeuge
           Planning :  Planung
           Planning an implementation : Durchführung planen
           Planning tasks (to-dos) : Planungsaufgaben (To-dos)
@@ -656,6 +655,7 @@ plugins:
           User management : Benutzerverwaltung
           User manual: Benutzerhandbuch
           User search : Personensuche
+          User tools : Persönliche Werkzeuge
           User types : Benutzertypen
           User view  : Sicht Benutzer
           Account search : Kontosuche

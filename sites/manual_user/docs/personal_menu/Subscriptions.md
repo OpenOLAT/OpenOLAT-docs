@@ -1,4 +1,4 @@
-# Personal tools: Subscriptions {: #subscriptions}
+# User tools: Subscriptions {: #subscriptions}
 
 ![Entry Subscriptions, marked with a frame, in first place in the section Personal tools of the personal menu: entry point to the overview of changes in all subscribed elements](assets/pers_menu_subscriptions_v4_en.png){ class="aside-right lightbox" }
 

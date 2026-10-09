@@ -457,7 +457,7 @@ For more information on this tab, which is available in several course elements,
 
 With the reminder function, you can send [Reminders](../learningresources/Course_Reminders.md) to course members in the form of an e-mail and generate automatic [To-dos](../learningresources/Course_todos.md) for the task. To-dos are stored for participants in the personal menu under "[To-dos](../personal_menu/To-Dos.md)".
 
-If the automatic creation of to-dos is activated, learners can see the current status (step) of the workflow of the corresponding task under `My course > To-dos` and thus quickly recognize whether or which actions currently need to be taken by them. In addition, these to-dos also appear in the user's personal to-dos in the personal tools. 
+If the automatic creation of to-dos is activated, learners can see the current status (step) of the workflow of the corresponding task under `My course > To-dos` and thus quickly recognize whether or which actions currently need to be taken by them. In addition, these to-dos also appear in the user's personal to-dos in the user tools. 
 
 The to-dos therefore help learners to keep track of their tasks.
 Further information on To-dos can be found [here](../basic_concepts/To_Dos_Basics.md).

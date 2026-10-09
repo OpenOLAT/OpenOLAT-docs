@@ -454,7 +454,7 @@ Click the link to access the files in your Media Center. Here, you can select, c
 
 ![Open Add media file menu with document, diagram, text, video, audio and quote.](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
 
-[Media Center (Personal tools) >](../personal_menu/Media_Center.md)<br>
+[Media Center (User tools) >](../personal_menu/Media_Center.md)<br>
 [Detailed information about the Media Center (Basic concept) >](Media_Center_Concept.md)
 
 [To the top of the page ^](#content_editor)
@@ -470,7 +470,7 @@ Click the link to access the files in your Media Center. Here, you can select, c
 [Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
 [Forms - Overview >](../learningresources/Form.md)<br>
 [The Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.md)<br>
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [My portfolio binders >](../area_modules/My_portfolio_binders.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>

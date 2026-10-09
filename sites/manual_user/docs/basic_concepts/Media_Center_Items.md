@@ -107,7 +107,7 @@ Here you can specify who is allowed to use a media element. Participants can onl
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Content Editor >](Content_Editor.md)<br>
 [Media Center Concept >](../basic_concepts/Media_Center_Concept.md)<br>
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)<br>
 [Working with media files >](../basic_concepts/Working_with_Media_Files.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)

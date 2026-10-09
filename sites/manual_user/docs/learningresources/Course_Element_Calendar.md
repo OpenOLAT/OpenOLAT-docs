@@ -31,7 +31,7 @@ Check whether the course element "Calendar" is really the optimal choice for you
 
 **Mentioned on this page**<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
-[Personal tools: Calendar >](../personal_menu/Calendar.md)<br>
+[User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)
 

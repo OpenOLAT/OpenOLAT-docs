@@ -364,7 +364,7 @@ Also remember that the size of individual files and the total storage of a folde
 [Resource folder >](../../manual_user/learningresources/Resource_Folder.md)<br>
 [Using Group Tools >](../../manual_user/groups/Using_Group_Tools.md)<br>
 [Personal menu >](../../manual_user/personal_menu/index.md)<br>
-[Personal tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
+[User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Document Pool >](../../manual_admin/administration/Modules_Document_pool.md)<br>
 [Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)

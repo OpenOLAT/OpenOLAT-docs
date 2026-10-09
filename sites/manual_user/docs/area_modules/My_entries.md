@@ -27,6 +27,6 @@ The timeline, which can be shown and hidden, gives you a graphical overview of t
 ## Further information {: #further_information}
 
 [The Portfolio Editor >](The_portfolio_editor_17_1.md)<br>
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)
+[User tools: Media Center >](../personal_menu/Media_Center.md)
 
 [To the top of the page ^](#my_entries)

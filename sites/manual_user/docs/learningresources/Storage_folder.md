@@ -45,6 +45,6 @@ As soon as the checkbox is activated, the path for other files of the storage fo
 
 **Further reading**<br>
 [Folder concept >](../basic_concepts/Folder_Concept.md)<br>
-[Personal tools: File Hub >](../personal_menu/File_Hub.md)
+[User tools: File Hub >](../personal_menu/File_Hub.md)
 
 [To the top of the page ^](#storage_folder)

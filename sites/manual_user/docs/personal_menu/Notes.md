@@ -1,6 +1,6 @@
-# Personal tools: Notes {: #notes}
+# User tools: Notes {: #notes}
 
-![Personal tools menu with the entry Notes, the collection point for all personal course notes](assets/pers_menu_notes_v3_de.png){ class="aside-right lightbox"}
+![User tools menu with the entry Notes, the collection point for all personal course notes](assets/pers_menu_notes_v3_de.png){ class="aside-right lightbox"}
 
 ![Notes icon](assets/icon_notes.png)
 
@@ -14,7 +14,7 @@ Notes can be made in various places in OpenOlat:
 * Notes in projects
 * Notes in tests
 
-In the personal tools you will find all the notes you have made **on your courses**. (The notes on tests and projects are not included here.)
+In the user tools you will find all the notes you have made **on your courses**. (The notes on tests and projects are not included here.)
 
 [To the top of the page ^](#notes)
 
@@ -44,7 +44,7 @@ An editor opens in which one note sheet is available per course.
 
 ## Where can I view the course notes? {: #where_view}
 
-You can view, edit, print and delete the note sheets from the various courses **collected in the personal tools**. To edit a note, click on the name of the course.
+You can view, edit, print and delete the note sheets from the various courses **collected in the user tools**. To edit a note, click on the name of the course.
 
 ![List My notes with two courses and the columns Title, Learning resource and Delete; the course title is the link to the note sheet](assets/pers_menu_notes_list_v1_de.png){ class="shadow lightbox"}
 

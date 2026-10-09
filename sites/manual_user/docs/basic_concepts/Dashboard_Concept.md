@@ -103,7 +103,7 @@ As a system administrator you define the system default in the edit mode with **
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
-[Personal tools: Absences >](../personal_menu/Absences.md)
+[User tools: Absences >](../personal_menu/Absences.md)
 
 **Further reading**<br>
 [Table concept >](Table_Concept.md)<br>

@@ -136,8 +136,8 @@ Persons with editing rights can switch directly to editing mode for supported fi
 ## Further information {: #further_information}
 
 [Course Settings >](../learningresources/Course_Settings.md)<br>
-[Personal tools: File Hub >](../personal_menu/File_Hub.md)<br>
-[Personal tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Full-Text Search >](../basic_concepts/Full_Text_Search.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
