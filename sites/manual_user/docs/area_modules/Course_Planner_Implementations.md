@@ -31,7 +31,7 @@ Depending on your rights, the menu of the 3 dots at the end of a row offers acti
 
 With **Save filter**, frequently used filter combinations can be saved and reused as your own preset. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
-![The Save filter action in the menu at the top right of the table, which keeps a filter combination as your own preset](assets/course_planner_implementations_list_filter_v1_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner" }
+![The menu of the three dots to the right of the filters contains the Save filter action, which keeps a filter combination as your own preset](assets/course_planner_implementations_list_filter_v2_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner · 2026.10.09" }
 
 "Displayed columns" can also be used to show the **Subjects** and **Subject paths** columns, which are hidden by default (between the "Status" and "Calendar" columns). The subjects themselves are maintained in the system administration, under `Administration > Modules > Taxonomy`. [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
@@ -585,7 +585,7 @@ In the detail areas "Courses", "Events" and "To-dos", the **"Activity"** column 
 
 An implementation contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. To do this, use the **"Shift all dates"** button in the "Overview elements" step, at the top right of the list of elements. The dialog shows the "Reference date (earliest)". Under "Shift by" you choose between "Date" and "Days" and then enter the "New date" or the number of days.
 
-![Reference date, the choice of shifting by Date or Days and the new date](assets/course_planner_implementations_copy5_v2_en.png){ class="shadow lightbox" title="Shift all dates dialog of the Copy element wizard" }
+![The Shift all dates dialog shows the earliest date as the reference date, under Shift by you choose Date or Days and enter the new date](assets/course_planner_implementations_copy5_v3_en.png){ class="shadow lightbox" title="Shift all dates dialog of the Copy element wizard · 2026.10.09" }
 
 If the implementation has offers, the third step **"Offers"** follows. It lists the offers of the original element, all of them selected; an offer you deselect is not included in the copy. If an offer has a period, the wizard shifts it by the same number of days as **"Shift all dates"**. You adjust the period in the row of the offer.
 

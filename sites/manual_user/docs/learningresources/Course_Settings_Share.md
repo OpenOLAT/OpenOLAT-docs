@@ -49,7 +49,7 @@ The descriptions of the following sections assume the usage "Standalone".
 
 If no Course Planner is used, the courses are independent.
 
-![Usage Standalone with the Change link](assets/course_settings_share_usage1_v1_de.png){ class="shadow lightbox" title="Usage section in the Share tab" }
+![Usage Standalone with the Change link](assets/course_settings_share_usage1_v1_en.png){ class="shadow lightbox" title="Usage section in the Share tab · 2026.10.09" }
 
 **Standalone**<br>
 Independent learning resources have their own member management system. To add new members, open `Course > Administration > Member management`.<br>
@@ -157,7 +157,7 @@ You can find more information about sharing a course via LTI here:<br>
 
 ## Section Share Overview {: #section_share_overview}
 
-![Member counts by role, assigned groups and products, plus the administratively authorised persons with their rights](assets/course_settings_share_overview_v2_de.png){ class="shadow lightbox" title="Share overview in the Share tab" }
+![Member counts by role, assigned groups and products, plus the administratively authorised persons with their rights](assets/course_settings_share_overview_v1_en.png){ class="shadow lightbox" title="Share overview in the Share tab · 2026.10.09" }
 
 In the **Members** block, you will find the number of course members, broken down by owners, coaches, and participants.
 

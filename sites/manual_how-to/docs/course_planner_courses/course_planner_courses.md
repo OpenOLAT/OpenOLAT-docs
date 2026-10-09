@@ -145,7 +145,7 @@ Once a new implementation has been created and set up, and its execution period 
 
 Use the "Add event" button to the right above the table to add further events.
 
-![Marked Events tab of an implementation with the Add event button and the list of events](assets/course_planner_courses_implementation_events_v1_de.png){ class="shadow lightbox" title="Events tab of an implementation" }
+![In the Events tab of an implementation, the planned events are listed, with the Add event button to the right above the table you create further ones](assets/course_planner_courses_implementation_events_v2_en.png){ class="shadow lightbox" title="Events tab of an implementation · 2026.10.09" }
 
 !!! info "Technical background"
 
@@ -239,6 +239,8 @@ You can offer a course in the catalog as early as the planning phase and, for ex
 4. Create a new [offer](../../manual_user/area_modules/catalog2.0_angebote.md) with the "Add offer" button.
 
 ![In the Catalog tab of an implementation, you open the Offers section and create an offer with the Add offer button, the menu next to it lists the available offer types](assets/course_planner_courses_implementation_catalog_v2_en.png){ class="shadow lightbox" title="Catalog tab of an implementation · 2026.10.09" }
+
+In the same tab, under "Settings", you use "Booking" to determine whether you can also add participants without an offer ("Allowed without booking order") or whether every addition goes through an offer ("Requires booking order"). [Settings in the Catalog tab >](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_catalog_settings)
 
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
@@ -378,7 +380,7 @@ To create a report, click one of the arrows in the "Run" column.
 The Excel files created in this way are listed at the bottom of the screen.
 They can be copied, deleted and downloaded.
 
-![Created report in the Generated report section with the actions Info, Copy to, Delete and Download](assets/course_planner_courses_reports3_v1_de.png){ class="shadow lightbox" title="Reports page in the Course Planner" }
+![The Generated reports section lists the created Excel files by month, each with the actions Info, Copy to, Delete and Download](assets/course_planner_courses_reports3_v2_en.png){ class="shadow lightbox" title="Reports page in the Course Planner · 2026.10.09" }
 
 
 ### Booking orders received via the catalog
@@ -386,7 +388,7 @@ They can be copied, deleted and downloaded.
 You download an Excel file containing all booking orders received via the catalog with the "Export booking orders" button:<br>
 `Course Planner > Implementations > "Title of the implementation" > Tab "Catalog" > Booking orders`
 
-![Marked Export booking orders button above the list of booking orders](assets/course_planner_courses_reports4_v1_de.png){ class="shadow lightbox" title="Catalog tab of an implementation" }
+![In the Catalog tab of an implementation, the Booking orders section shows all booking orders received, the Export booking orders button gives you them as an Excel file](assets/course_planner_courses_reports4_v2_en.png){ class="shadow lightbox" title="Catalog tab of an implementation · 2026.10.09" }
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
 
@@ -402,9 +404,10 @@ A course template is a course with the usage **Template**:<br>
 In the "Content" tab of the implementation, you add it with the "Add course template" button. The button is only available if the element type of the implementation is set to "1 template/course" under "Max. course references".
 
 You can find the preparation of the automated instantiation (course creation from the course template) here:<br>
-`Course Planner > Implementations > "Title of the implementation" > Tab "Settings" > Sub-tab "Automation"`
+`Course Planner > Implementations > "Title of the implementation" > Tab "Settings" > Sub-tab "Automation"`<br>
+The sub-tab is only available if the element type of the implementation is set to "Implementation" under "For use as".
 
-![Automation sub-tab with the automatic instantiation of course templates and the automatic change of the course status](assets/course_planner_courses_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" title="Settings tab of an implementation" }
+![In the Automation sub-tab of an implementation, the rules adopted from the element type are listed, in the Content context the instantiation of the course and the status changes of the course](assets/course_planner_courses_implementations_tab_settings_automation_v2_en.png){ class="shadow lightbox" title="Settings tab of an implementation · 2026.10.09" }
 
 You can determine when automated instantiation should take place.<br>
 This also includes the option to automatically change the course status.

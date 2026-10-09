@@ -32,7 +32,7 @@ Je nach Ihren Rechten bietet das Menü der 3 Punkte am Ende einer Zeile Aktionen
 
 Mit **Filter speichern** können häufig verwendete Filterkombinationen als eigene Voreinstellung gespeichert und wiederverwendet werden. [:octicons-tag-16:{ title="ab Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
-![Die Aktion Filter speichern im Menü rechts über der Tabelle, mit der eine Filterkombination als eigene Voreinstellung erhalten bleibt](assets/course_planner_implementations_list_filter_v1_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner" }
+![Das Menü der drei Punkte rechts neben den Filtern enthält die Aktion Filter speichern, mit der eine Filterkombination als eigene Voreinstellung erhalten bleibt](assets/course_planner_implementations_list_filter_v2_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner · 2026.10.09" }
 
 Über "Spalten auswählen" lassen sich zusätzlich die standardmässig ausgeblendeten Spalten **Fachbereiche** und **Fachbereich Pfade** einblenden (zwischen den Spalten "Status" und "Kalender"). Die Fachbereiche selbst werden in der System-Administration gepflegt, unter `Administration > Module > Taxonomie`. [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
@@ -598,7 +598,7 @@ In den Detailbereichen "Kurse", "Termine" und "To-dos" zeigt die Spalte **"Aktiv
 
 In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Verwenden Sie dazu im Schritt «Übersicht Elemente» den Button **"Alle Daten schieben"** rechts über der Liste der Elemente. Der Dialog zeigt das "Bezugsdatum (frühestes)". Unter "Verschiebung nach" wählen Sie zwischen "Datum" und "Tage" und geben anschliessend das "Neue Datum" bzw. die Anzahl Tage an.
 
-![Bezugsdatum, die Wahl der Verschiebung nach Datum oder Tage und das neue Datum](assets/course_planner_implementations_copy5_v2_de.png){ class="shadow lightbox" title="Dialog Alle Daten schieben des Assistenten Element kopieren" }
+![Der Dialog Alle Daten schieben zeigt als Bezugsdatum das früheste Datum, unter Verschiebung nach wählen Sie Datum oder Tage und tragen das neue Datum ein](assets/course_planner_implementations_copy5_v3_de.png){ class="shadow lightbox" title="Dialog Alle Daten schieben des Assistenten Element kopieren · 2026.10.09" }
 
 Hat die Durchführung Angebote, folgt als dritter Schritt **"Angebote"**. Er listet die Angebote der Vorlage, alle sind ausgewählt; ein abgewähltes Angebot übernimmt die Kopie nicht. Hat ein Angebot einen Zeitraum, verschiebt der Wizard ihn um dieselbe Anzahl Tage wie **"Alle Daten schieben"**. In der Zeile des Angebots passen Sie den Zeitraum an.
 

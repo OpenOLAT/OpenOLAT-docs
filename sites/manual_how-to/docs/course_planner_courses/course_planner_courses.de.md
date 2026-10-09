@@ -148,7 +148,7 @@ Wenn eine neue Durchführung erstellt und eingerichtet worden ist, und auch dere
 
 Mit dem Button "Termin hinzufügen" rechts über der Tabelle fügen Sie weitere Termine hinzu.
 
-![Markierter Tab Termine einer Durchführung mit dem Button Termin hinzufügen und der Liste der Termine](assets/course_planner_courses_implementation_events_v1_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung" }
+![Im Tab Termine einer Durchführung stehen die geplanten Termine, mit dem Button Termin hinzufügen rechts über der Tabelle legen Sie weitere an](assets/course_planner_courses_implementation_events_v2_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung · 2026.10.09" }
 
 !!! info "Technischer Hintergrund"
 
@@ -242,6 +242,8 @@ Sie können bereits in der Planungsphase einen Kurs im Katalog anbieten und z.B.
 4. Erstellen Sie mit dem Button "Angebot hinzufügen" ein neues [Angebot](../../manual_user/area_modules/catalog2.0_angebote.de.md).
 
 ![Im Tab Katalog einer Durchführung öffnen Sie den Bereich Angebote und legen mit dem Button Angebot hinzufügen ein Angebot an, das Menü daneben listet die verfügbaren Angebotsarten](assets/course_planner_courses_implementation_catalog_v2_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung · 2026.10.09" }
+
+Im selben Tab legen Sie unter "Einstellungen" mit "Buchung" fest, ob Sie Teilnehmer:innen auch ohne Angebot aufnehmen können ("Ohne Buchungsauftrag zulässig") oder ob jede Aufnahme über ein Angebot läuft ("Buchungsauftrag erforderlich"). [Einstellungen im Tab Katalog >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_catalog_settings)
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -381,7 +383,7 @@ Klicken Sie zum Erstellen eines Reports auf einen der Pfeile in der Spalte "Ausf
 Die so erstellten Excel-Dateien finden Sie im unteren Bereich des Screens aufgelistet.
 Sie können kopiert, gelöscht und heruntergeladen werden.
 
-![Erstellter Report im Bereich Generierter Report mit den Aktionen Info, Kopieren nach, Löschen und Herunterladen](assets/course_planner_courses_reports3_v1_de.png){ class="shadow lightbox" title="Seite Reports im Course Planner" }
+![Im Bereich Generierter Report stehen die erstellten Excel-Dateien nach Monat, jede mit den Aktionen Info, Kopieren nach, Löschen und Herunterladen](assets/course_planner_courses_reports3_v2_de.png){ class="shadow lightbox" title="Seite Reports im Course Planner · 2026.10.09" }
 
 
 ### Über den Katalog eingegangene Buchungsaufträge
@@ -389,7 +391,7 @@ Sie können kopiert, gelöscht und heruntergeladen werden.
 Eine Excel-Datei mit allen Buchungsaufträgen, die über den Katalog eingegangen sind, laden Sie mit dem Button "Buchungsaufträge herunterladen" herunter:<br>
 `Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Katalog" > Buchungsaufträge`
 
-![Markierter Button Buchungsaufträge herunterladen über der Liste der Buchungsaufträge](assets/course_planner_courses_reports4_v1_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung" }
+![Im Tab Katalog einer Durchführung zeigt der Bereich Buchungsaufträge alle eingegangenen Buchungsaufträge, mit dem Button Buchungsaufträge herunterladen erhalten Sie sie als Excel-Datei](assets/course_planner_courses_reports4_v2_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung · 2026.10.09" }
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 
@@ -405,9 +407,10 @@ Ein Kurstemplate ist ein Kurs mit dem Verwendungszweck **Template**:<br>
 Im Tab "Kursinhalt" der Durchführung fügen Sie es mit dem Button "Kurstemplate hinzufügen" hinzu. Den Button gibt es nur, wenn der Elementtyp der Durchführung bei "Max. Kursreferenzen" auf "1 Template/Kurs" steht.
 
 Die Vorbereitung der automatisierten Instanziierung (Kurserstellung aus dem Kurstemplate) finden Sie hier:<br>
-`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Unter-Tab "Automatisierung"`
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Unter-Tab "Automatisierung"`<br>
+Den Unter-Tab gibt es nur, wenn der Elementtyp der Durchführung unter "Verwendung als" auf "Durchführung" steht.
 
-![Unter-Tab Automatisierung mit der automatischen Instanziierung von Kurstemplates und dem automatischen Wechsel des Kursstatus](assets/course_planner_courses_implementations_tab_settings_automation_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung" }
+![Im Unter-Tab Automatisierung einer Durchführung stehen die Regeln, die vom Elementtyp übernommen sind, im Kontext Inhalt die Instanziierung des Kurses und die Statusänderungen des Kurses](assets/course_planner_courses_implementations_tab_settings_automation_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung · 2026.10.09" }
 
 Sie können bestimmen, wann die automatisierte Instanziierung erfolgen soll.<br>
 Damit einhergehend besteht auch die Möglichkeit, den Kursstatus automatisch zu ändern.
