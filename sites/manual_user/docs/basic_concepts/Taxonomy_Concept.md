@@ -96,7 +96,7 @@ Two areas behave differently:
 
 Anyone who wants to make a course, a question or a media item findable by discipline assigns subjects to it. Where this happens depends on the area. For a course, authors select them in the course settings in the tab "Metadata". The field is called "Subjects" there, "Subjects / Catalog" when the catalog is enabled. In the Media Center it is called "Subjects" as well. The field only offers taxonomy levels from the taxonomies that are selected for the area. For a question, you select the subject in the metadata of the question, section "General", field "Subject". The subjects of the question bank are available for selection there.
 
-![Field Subjects / Catalog with the selected subject Software-Schulung](../area_modules/assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" title="Metadata tab in the course settings" }
+![In the field Subjects / Catalog, the subject English is assigned to the course](assets/taxonomy_concept_subject_field_v1_en.png){ class="shadow lightbox" title="Metadata tab in the course settings · 2026.10.09" }
 
 A course can belong to several subjects. In the catalog, it appears on the microsite of each of these subjects, see [Launcher and microsite](#launcher).
 
@@ -109,7 +109,9 @@ For an image in the Media Center, the AI can suggest the subject, see [automatic
 
 In the catalog, the taxonomy becomes a navigation through which people find offers by discipline. The start page of the catalog consists of sections, the launchers. A launcher of the type "Taxonomy level" shows taxonomy levels as tiles. In the field "Type", administrators choose whether the launcher refers to a whole taxonomy or to a single taxonomy level. The launcher shows their direct sublevels, see [Module Catalog: Tab Launch page](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page).
 
-Clicking a tile opens the microsite of this taxonomy level. It shows the background image and the description of the level, the tiles of its sublevels and the offers with this subject.
+Clicking a tile opens the microsite of this taxonomy level. Its header shows the background image, the title of the level and, if the level has one, its level type. Below follow the description of the level, the tiles of its sublevels and the offers with this subject.
+
+![The microsite STEM shows the background image in the header, below it the description and the tile of the sublevel Mathematics](assets/taxonomy_concept_microsite_v1_en.png){ class="shadow lightbox" title="Microsite of the taxonomy level STEM in the catalog · 2026.10.09" }
 
 ![A taxonomy with subjects on courses becomes tiles on the catalog start page and microsites](assets/taxonomy_concept_catalog_v1_en.svg){ class="shadow lightbox" title="From the taxonomy tree to the catalog page · 2026.10.08" }
 
@@ -119,11 +121,13 @@ Three rules determine what the launcher shows:
 - **Sequence**: The tiles appear in the order of the field "Order" of the taxonomy levels. Levels without an order follow alphabetically by title.
 - **Images**: The tile shows the teaser image of the taxonomy level, the header of the microsite its background image. Both images belong to the taxonomy level, see [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md).
 
-![Launcher Kategorien with nine tiles, the tile OpenOlat Akademie highlighted](../area_modules/assets/catalog20_categorielauncher_v1_de.png){ class="shadow lightbox" title="Start page of the catalog with a launcher of the type Taxonomy level" }
+![The launcher Disciplines shows the taxonomy levels Languages and STEM as tiles with their teaser image](assets/taxonomy_concept_launcher_v1_en.png){ class="shadow lightbox" title="Start page of the catalog · 2026.10.09" }
 
 ### Implementations in the catalog [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #catalog_course_planner}
 
 Anyone who wants to make courses and implementations findable in the catalog by the same subjects selects the same taxonomy in both areas. Implementations appear as offers in the catalog; their subjects come from the taxonomies of the Course Planner. Launchers and filters of the catalog only offer taxonomy levels from the taxonomies that are selected for Learning resources / Catalog. If you cannot set up a launcher or a filter in the catalog for the subjects of implementations, the taxonomy is only selected in the Course Planner. Select it additionally for Learning resources / Catalog.
+
+![On the microsite English, the implementation Englisch Intensivwoche Herbst 2026 with its subject English appears next to a course with the same subject](assets/taxonomy_concept_catalog_course_planner_v1_en.png){ class="shadow lightbox" title="Microsite of the taxonomy level English in the catalog · 2026.10.09" }
 
 ### Deselect a taxonomy [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9214)" }](https://track.frentix.com/issue/OO-9214){:target="_blank"} {: #deselect}
 

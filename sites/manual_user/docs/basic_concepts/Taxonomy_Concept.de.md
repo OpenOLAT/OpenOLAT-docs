@@ -96,7 +96,7 @@ Zwei Bereiche verhalten sich anders:
 
 Wer einen Kurs, eine Frage oder ein Medium nach Fächern auffindbar machen will, ordnet ihm Fachbereiche zu. Wo das geschieht, hängt vom Bereich ab. Bei einem Kurs wählen Autor:innen sie in den Kurseinstellungen im Tab "Metadaten". Das Feld heisst dort "Fachbereiche", bei eingeschaltetem Katalog "Fachbereiche / Katalog". Im Media Center heisst es "Themen/Fachbereiche". Das Feld bietet nur Taxonomieebenen aus den Taxonomien an, die für den Bereich ausgewählt sind. Bei einer Frage wählen Sie den Fachbereich in den Metadaten der Frage, Abschnitt "Allgemein", Feld "Fachbereich". Zur Auswahl stehen dort die Fachbereiche des Fragenpools.
 
-![Feld Fachbereiche / Katalog mit dem gewählten Fachbereich Software-Schulung](../area_modules/assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" title="Tab Metadaten der Kurseinstellungen" }
+![Im Feld Fachbereiche / Katalog ist dem Kurs der Fachbereich Englisch zugeordnet](assets/taxonomy_concept_subject_field_v1_de.png){ class="shadow lightbox" title="Tab Metadaten der Kurseinstellungen · 2026.10.09" }
 
 Ein Kurs kann mehreren Fachbereichen angehören. Im Katalog erscheint er auf der Microsite jedes dieser Fachbereiche, siehe [Launcher und Microsite](#launcher).
 
@@ -109,7 +109,9 @@ Bei einem Bild im Media Center kann die KI den Fachbereich vorschlagen, siehe [a
 
 Im Katalog wird aus der Taxonomie eine Navigation, über die Personen Angebote nach Fächern finden. Die Startseite des Katalogs besteht aus Abschnitten, den Launchern. Ein Launcher vom Typ "Taxonomieebene" zeigt Taxonomieebenen als Kacheln. Im Feld "Typ" wählen Administrator:innen, ob sich der Launcher auf eine ganze Taxonomie oder auf eine einzelne Taxonomieebene bezieht. Der Launcher zeigt deren direkte Unterebenen, siehe [Modul Katalog: Tab Startseite](../../manual_admin/administration/Modules_Catalog_2.0.de.md#tab_start_page).
 
-Ein Klick auf eine Kachel öffnet die Microsite dieser Taxonomieebene. Sie zeigt das Hintergrund Bild und die Beschreibung der Ebene, die Kacheln ihrer Unterebenen und die Angebote mit diesem Fachbereich.
+Ein Klick auf eine Kachel öffnet die Microsite dieser Taxonomieebene. Ihr Kopf zeigt das Hintergrund Bild, den Titel der Ebene und, wenn die Ebene einen hat, ihren Ebenentyp. Darunter folgen die Beschreibung der Ebene, die Kacheln ihrer Unterebenen und die Angebote mit diesem Fachbereich.
+
+![Die Microsite MINT zeigt im Kopf das Hintergrund Bild, darunter die Beschreibung und die Kachel der Unterebene Mathematik](assets/taxonomy_concept_microsite_v1_de.png){ class="shadow lightbox" title="Microsite der Taxonomieebene MINT im Katalog · 2026.10.09" }
 
 ![Eine Taxonomie mit Fachbereichen an Kursen wird zu Kacheln auf der Katalog-Startseite und zu Microsites](assets/taxonomy_concept_catalog_v1_de.svg){ class="shadow lightbox" title="Vom Taxonomiebaum zur Katalogseite · 2026.10.08" }
 
@@ -119,11 +121,13 @@ Drei Regeln bestimmen, was der Launcher zeigt:
 - **Reihenfolge**: Die Kacheln stehen in der Reihenfolge des Felds "Sortierung" der Taxonomieebenen. Ebenen ohne Sortierung folgen alphabetisch nach Titel.
 - **Bilder**: Die Kachel zeigt das Teaser Bild der Taxonomieebene, der Kopf der Microsite ihr Hintergrund Bild. Beide Bilder gehören zur Taxonomieebene, siehe [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md).
 
-![Launcher Kategorien mit neun Kacheln, die Kachel OpenOlat Akademie markiert](../area_modules/assets/catalog20_categorielauncher_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs mit einem Launcher vom Typ Taxonomieebene" }
+![Der Launcher Fächer zeigt die Taxonomieebenen Sprachen und MINT als Kacheln mit ihrem Teaser Bild](assets/taxonomy_concept_launcher_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs · 2026.10.09" }
 
 ### Durchführungen im Katalog [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #catalog_course_planner}
 
 Wer Kurse und Durchführungen im Katalog nach denselben Fachbereichen auffindbar machen will, wählt dieselbe Taxonomie in beiden Bereichen aus. Durchführungen erscheinen als Angebote im Katalog, ihre Fachbereiche stammen aus den Taxonomien des Course Planners. Launcher und Filter des Katalogs bieten nur Taxonomieebenen aus den Taxonomien an, die für Lernressourcen / Katalog ausgewählt sind. Wenn Sie im Katalog für die Fachbereiche von Durchführungen keinen Launcher und keinen Filter einrichten können, ist die Taxonomie nur im Course Planner ausgewählt. Wählen Sie sie zusätzlich für Lernressourcen / Katalog aus.
+
+![Auf der Microsite Englisch steht die Durchführung Englisch Intensivwoche Herbst 2026 mit ihrem Fachbereich Englisch neben einem Kurs mit demselben Fachbereich](assets/taxonomy_concept_catalog_course_planner_v1_de.png){ class="shadow lightbox" title="Microsite der Taxonomieebene Englisch im Katalog · 2026.10.09" }
 
 ### Taxonomie abwählen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9214)" }](https://track.frentix.com/issue/OO-9214){:target="_blank"} {: #deselect}
 
