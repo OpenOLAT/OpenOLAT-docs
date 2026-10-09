@@ -162,13 +162,13 @@ If several implementations have been created and set up, there will be events fo
 
 ![The Events tab of a product lists the events of all implementations, you add more with the Add event button](assets/course_planner_curriculum_events1_v2_en.png){ class="shadow lightbox" title="Events tab of a product · 2026.10.09" }
 
-The event can refer to the entire implementation of a product or only to part of the implementation of the product. In the first step of the dialog, select the desired element from the structure tree displayed.
+The event can refer to the entire implementation of a product or only to part of the implementation of the product. In the first step of the dialog, select the desired element from the structure tree displayed. If the element has courses, they are listed below it in the "Carried out in" section: select the course in which the event takes place. The first course is preselected.
 
-![First step of the dialog: selecting the element from the structure of the product, from the implementation down to the single course](assets/course_planner_curriculum_events2_v1_de.png){ class="shadow lightbox" title="Add event dialog" }
+![In the Select element step, you mark the element the event applies to and choose below it, under Carried out in, the course in which it takes place](assets/course_planner_curriculum_events2_v2_en.png){ class="shadow lightbox" title="Add event dialog · 2026.10.09" }
 
-Once the element of the implementation to be scheduled has been selected, configure the event, i.e., make the appropriate settings.
+Once the element of the implementation to be scheduled has been selected, configure the event in the "Settings" step, i.e., make the appropriate settings.
 
-![Form of the event with the fields from Title to Compulsory](assets/course_planner_curriculum_events3_v1_de.png){ class="shadow lightbox" title="Add event dialog" }
+![In the Settings step, you enter all details of the event, from title, date, time and unit through location, rooms, online meeting and subjects to teacher and compulsory attendance](assets/course_planner_curriculum_events3_v2_en.png){ class="shadow lightbox" title="Add event dialog · 2026.10.09" }
 
 #### Title {: #event_title}
 
@@ -190,10 +190,18 @@ If, for example, a morning session from 8:00 a.m. to 12:00 p.m. has been schedul
 
 Where the event takes place, if physical attendance is planned.
 
+#### Rooms {: #event_rooms}
+
+If the "Rooms" module is enabled, you assign one or more rooms to the event. The selection only becomes active once the date and time are entered, and then shows which rooms are available in this period. More on this under [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md#room_booking)
+
 #### Online meeting {: #event_online_meeting}
 
 The Course Planner allows you to manage and maintain events for online meetings directly in the planning phase, on the product or on the implementation, even without any course content having been stored yet. Online meetings can be set up with BigBlueButton and Teams. (This depends on what is set up in OpenOlat for you.)<br>
 The stored events are later applied to the course when linking the implementation to a course and are then also available in the course.
+
+#### Subjects {: #event_subjects}
+
+Assign the event to one or more subjects. With the "Adopt" button, you adopt the subjects of the implementation and of the selected course. The field only appears if subjects are set up in your OpenOlat instance.
 
 #### Teacher {: #event_teachers}
 
@@ -230,7 +238,7 @@ You can offer a course in the catalog as early as the planning phase and, for ex
 3. Select the "Offers" section.
 4. Create a new [offer](../../manual_user/area_modules/catalog2.0_angebote.md) with the "Add offer" button.
 
-![Marked tabs Catalog and Offers of an implementation and the Add offer button with the offer types](assets/course_planner_courses_implementation_catalog_v1_de.png){ class="shadow lightbox" title="Catalog tab of an implementation" }
+![In the Catalog tab of an implementation, you open the Offers section and create an offer with the Add offer button, the menu next to it lists the available offer types](assets/course_planner_courses_implementation_catalog_v2_en.png){ class="shadow lightbox" title="Catalog tab of an implementation · 2026.10.09" }
 
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
@@ -248,9 +256,9 @@ The "Change" button opens the "Change usage" dialog. A course knows three usages
 - **Use in Course Planner**: for courses that you add directly to an implementation. The members come from the implementation; in the course itself you only manage the owners.
 - **Template**: for course templates from which the Course Planner instantiates a course of its own for every implementation (see step 10). A template has no participants.
 
-The dialog offers the fourth usage "Embedding" only for learning resources other than courses.
+The dialog offers the fourth usage "Embedding" only for learning resources other than courses. The dialog shows the present value under "Current usage" at the top and, below it under "Change usage to", the other usages to choose from.
 
-![Change usage dialog with the selected option for courses in the Course Planner](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" title="Change usage dialog" }
+![In the Change usage dialog of a standalone course, you choose Use in Course Planner so that the course appears in the Add course dialog of an implementation](assets/course_planner_course_share_embedding1_v2_en.png){ class="shadow lightbox" title="Change usage dialog · 2026.10.09" }
 
 !!! info "What does the usage «Use in Course Planner» do?"
 
@@ -268,7 +276,7 @@ Go to the **authoring area** and select the courses that you want to include in 
 **Substep 2**<br>
 In the course, under `Course > Administration > Settings > Tab "Share"`, select **Use in Course Planner** as the usage.
 
-![Usage section with the usage for courses in the Course Planner and the Change button](assets/course_planner_course_share_embedding2_v1_de.png){ class="shadow lightbox" title="Share tab of the course settings" }
+![In the Share tab of the course settings, the Usage section shows that the course is set to Use in Course Planner, you switch the usage with the Change button](assets/course_planner_course_share_embedding2_v2_en.png){ class="shadow lightbox" title="Share tab of the course settings · 2026.10.09" }
 
 
 The method described for specifying the usage also serves for verification. If a course with the usage "Standalone" is already part of an implementation, its "Share" tab shows a warning message: this usage is not recommended for courses in the Course Planner.
@@ -312,7 +320,7 @@ As mentioned at the beginning, the Course Planner serves to separate the **plann
 
 To add content (courses) to an implementation, select the **"Content" tab** in an implementation and click the "Add course" button.
 
-![Marked Content tab of an implementation with the list of courses and the Add course button](assets/course_planner_courses_implementations_tab_content_v1_de.png){ class="shadow lightbox" title="Content tab of an implementation" }
+![The Content tab of an implementation lists the courses included, you add more with the Add course button](assets/course_planner_courses_implementations_tab_content_v2_en.png){ class="shadow lightbox" title="Content tab of an implementation · 2026.10.09" }
 
 !!! note "Note"
 
@@ -347,7 +355,7 @@ Why they become members of an implementation and not members of a product has al
 
 You can therefore find the member management in the **"Implementations" tab** of the product in the menu of the **three dots at the end of a line** (= implementation), entry "Members management". In the opened implementation, the "Members" tab leads there as well.
 
-![Menu at the end of an implementation's row with the marked entry Members management](assets/course_planner_curriculum_add_members1_v1_de.png){ class="shadow lightbox" title="List of implementations of a product" }
+![The menu of the three dots at the end of an implementation's row leads with the entry Members management to the participants of this implementation](assets/course_planner_curriculum_add_members1_v2_en.png){ class="shadow lightbox" title="List of implementations of a product · 2026.10.09" }
 
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
@@ -365,7 +373,7 @@ There you can choose from various templates that you can use to create Excel fil
 
 To create a report, click one of the arrows in the "Run" column.
 
-![Report templates for booking orders with the marked Run column](assets/course_planner_courses_reports2_v1_de.png){ class="shadow lightbox" title="Reports page in the Course Planner" }
+![On the Reports page of the Course Planner, you create a report from the desired template for booking orders with the arrow in the Run column](assets/course_planner_courses_reports2_v2_en.png){ class="shadow lightbox" title="Reports page in the Course Planner · 2026.10.09" }
 
 The Excel files created in this way are listed at the bottom of the screen.
 They can be copied, deleted and downloaded.
@@ -391,7 +399,7 @@ If the course is actually going to take place (e.g., after enough booking orders
 
 A course template is a course with the usage **Template**:<br>
 `Course > Administration > Settings > Tab "Share" > Section "Usage"`<br>
-In the "Content" tab of the implementation, you add it with the "Add course template" button.
+In the "Content" tab of the implementation, you add it with the "Add course template" button. The button is only available if the element type of the implementation is set to "1 template/course" under "Max. course references".
 
 You can find the preparation of the automated instantiation (course creation from the course template) here:<br>
 `Course Planner > Implementations > "Title of the implementation" > Tab "Settings" > Sub-tab "Automation"`

@@ -165,13 +165,13 @@ Wenn mehrere Durchführungen erstellt und eingerichtet worden sind, existieren z
 
 ![Der Tab Termine eines Produkts listet die Termine aller Durchführungen, mit dem Button Termin hinzufügen legen Sie weitere an](assets/course_planner_curriculum_events1_v2_de.png){ class="shadow lightbox" title="Tab Termine eines Produkts · 2026.10.09" }
 
-Der Termin kann sich auf die gesamte Durchführung eines Produkts beziehen oder nur auf einen Teil der Durchführung des Produkts. Wählen Sie im ersten Schritt des Dialogs das gewünschte Element aus dem angezeigten Strukturbaum.
+Der Termin kann sich auf die gesamte Durchführung eines Produkts beziehen oder nur auf einen Teil der Durchführung des Produkts. Wählen Sie im ersten Schritt des Dialogs das gewünschte Element aus dem angezeigten Strukturbaum. Hat das Element Kurse, stehen sie darunter im Bereich "Durchführen in": Wählen Sie dort den Kurs, in dem der Termin stattfindet. Der erste Kurs ist vorausgewählt.
 
-![Erster Schritt des Dialogs: Auswahl des Elements aus der Struktur des Produkts, von der Durchführung bis zum einzelnen Kurs](assets/course_planner_curriculum_events2_v1_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen" }
+![Im Schritt Element auswählen markieren Sie das Element, für das der Termin gilt, und wählen darunter unter Durchführen in den Kurs, in dem er stattfindet](assets/course_planner_curriculum_events2_v2_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen · 2026.10.09" }
 
-Nachdem das zu terminierende Element der Durchführung gewählt ist, konfigurieren Sie den Termin, d.h. Sie nehmen die entsprechenden Einstellungen vor.
+Nachdem das zu terminierende Element der Durchführung gewählt ist, konfigurieren Sie den Termin im Schritt "Einstellungen", d.h. Sie nehmen die entsprechenden Einstellungen vor.
 
-![Formular des Termins mit den Feldern von Titel bis Präsenz](assets/course_planner_curriculum_events3_v1_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen" }
+![Im Schritt Einstellungen erfassen Sie alle Angaben zum Termin, von Titel, Datum, Zeit und Einheit über Ort, Räume, Online Meeting und Fachbereiche bis zu Dozenten und Präsenz](assets/course_planner_curriculum_events3_v2_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen · 2026.10.09" }
 
 #### Titel {: #event_title}
 
@@ -193,10 +193,18 @@ Wurde z.B. ein Vormittag von 8.00-12.00 Uhr vorgesehen, kann er beispielsweise i
 
 Wo findet der Termin statt, falls physische Präsenz geplant ist.
 
+#### Räume {: #event_rooms}
+
+Ist das Modul "Räume" aktiviert, weisen Sie dem Termin einen oder mehrere Räume zu. Die Auswahl wird erst aktiv, wenn Datum und Zeit eingetragen sind, und zeigt dann, welche Räume in diesem Zeitraum verfügbar sind. Mehr dazu unter [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md#room_booking)
+
 #### Online Meeting {: #event_online_meeting}
 
 Der Course Planner ermöglicht die Verwaltung und Pflege von Terminen für Online-Meetings bereits in der Planungsphase direkt am Produkt bzw. auf der Durchführung, auch ohne bereits hinterlegte Kursinhalte. Es können Online-Meetings mit BigBlueButton und Teams eingerichtet werden. (Es hängt davon ab, was bei Ihnen in OpenOlat eingerichtet ist.)<br>
 Die hinterlegten Termine werden später bei der Verknüpfung der Durchführung mit einem Kurs auf diesen appliziert und sind dann auch im Kurs verfügbar.
+
+#### Fachbereiche {: #event_subjects}
+
+Ordnen Sie den Termin einem oder mehreren Fachbereichen zu. Mit dem Button "Übernehmen" übernehmen Sie die Fachbereiche der Durchführung und des gewählten Kurses. Das Feld erscheint nur, wenn in Ihrer OpenOlat-Instanz Fachbereiche eingerichtet sind.
 
 #### Dozenten {: #event_teachers}
 
@@ -233,7 +241,7 @@ Sie können bereits in der Planungsphase einen Kurs im Katalog anbieten und z.B.
 3. Wählen Sie den Teilbereich "Angebote".
 4. Erstellen Sie mit dem Button "Angebot hinzufügen" ein neues [Angebot](../../manual_user/area_modules/catalog2.0_angebote.de.md).
 
-![Markierte Tabs Katalog und Angebote einer Durchführung und der Button Angebot hinzufügen mit den Angebotsarten](assets/course_planner_courses_implementation_catalog_v1_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung" }
+![Im Tab Katalog einer Durchführung öffnen Sie den Bereich Angebote und legen mit dem Button Angebot hinzufügen ein Angebot an, das Menü daneben listet die verfügbaren Angebotsarten](assets/course_planner_courses_implementation_catalog_v2_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung · 2026.10.09" }
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -251,9 +259,9 @@ Mit dem Button "Ändern" öffnet sich der Dialog "Verwendungszweck ändern". Ein
 - **Verwendung im Course Planner**: für Kurse, die Sie direkt in eine Durchführung einbinden. Die Mitglieder kommen aus der Durchführung, im Kurs selbst verwalten Sie nur noch die Besitzer:innen.
 - **Template**: für Kurstemplates, aus denen der Course Planner für jede Durchführung einen eigenen Kurs instanziiert (siehe Schritt 10). Ein Template hat keine Teilnehmenden.
 
-Den vierten Verwendungszweck "Einbindung" bietet der Dialog nur anderen Lernressourcen als Kursen an.
+Den vierten Verwendungszweck "Einbindung" bietet der Dialog nur anderen Lernressourcen als Kursen an. Der Dialog zeigt oben unter "Aktueller Verwendungszweck" den heutigen Wert und darunter unter "Verwendungszweck ändern in" die übrigen Verwendungszwecke zur Auswahl.
 
-![Dialog Verwendungszweck ändern mit der gewählten Option für Kurse im Course Planner](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern" }
+![Im Dialog Verwendungszweck ändern eines eigenständigen Kurses wählen Sie Verwendung im Course Planner, damit der Kurs im Dialog Kurs hinzufügen einer Durchführung erscheint](assets/course_planner_course_share_embedding1_v2_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern · 2026.10.09" }
 
 !!! info "Was bewirkt der Verwendungszweck «Verwendung im Course Planner»?"
 
@@ -271,7 +279,7 @@ Gehen Sie in den **Autorenbereich** und wählen Sie nacheinander die Kurse, die 
 **Teilschritt 2**<br>
 Wählen Sie im Kurs unter `Kurs > Administration > Einstellungen > Tab "Freigabe"` als Verwendungszweck **Verwendung im Course Planner**.
 
-![Abschnitt Verwendung mit dem Verwendungszweck für Kurse im Course Planner und dem Button Ändern](assets/course_planner_course_share_embedding2_v1_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen" }
+![Im Tab Freigabe der Kurseinstellungen zeigt der Abschnitt Verwendung, dass der Kurs auf Verwendung im Course Planner steht, mit dem Button Ändern wechseln Sie den Verwendungszweck](assets/course_planner_course_share_embedding2_v2_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen · 2026.10.09" }
 
 
 Der beschriebene Weg zur Angabe des Verwendungszwecks dient auch zur Kontrolle. Steckt ein Kurs mit dem Verwendungszweck "Eigenständig" bereits in einer Durchführung, zeigt sein Tab "Freigabe" eine Warnmeldung: Dieser Verwendungszweck wird für Kurse im Course Planner nicht empfohlen.
@@ -315,7 +323,7 @@ Wie eingangs erwähnt, dient der Course Planner dazu, die **Planungsarbeit** von
 
 Um einer Durchführung Inhalt (Kurse) hinzuzufügen, wählen Sie in einer Durchführung den **Tab "Kursinhalt"** und klicken auf den Button "Kurs hinzufügen".
 
-![Markierter Tab Kursinhalt einer Durchführung mit der Kursliste und dem Button Kurs hinzufügen](assets/course_planner_courses_implementations_tab_content_v1_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung" }
+![Im Tab Kursinhalt einer Durchführung stehen die eingebundenen Kurse, mit dem Button Kurs hinzufügen binden Sie weitere ein](assets/course_planner_courses_implementations_tab_content_v2_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung · 2026.10.09" }
 
 !!! note "Hinweis"
 
@@ -350,7 +358,7 @@ Warum sie Mitglieder einer Durchführung und nicht Mitglieder eines Produkts wer
 
 Die Mitgliederverwaltung finden Sie deshalb im **Tab "Durchführungen"** des Produkts im Menü der **3 Punkte am Ende einer Zeile** (= Durchführung), Eintrag "Mitgliederverwaltung". In der geöffneten Durchführung führt der Tab "Mitglieder" ebenfalls dorthin.
 
-![Menü am Zeilenende einer Durchführung mit dem markierten Eintrag Mitgliederverwaltung](assets/course_planner_curriculum_add_members1_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen eines Produkts" }
+![Das Menü der drei Punkte am Zeilenende einer Durchführung führt mit dem Eintrag Mitgliederverwaltung zu den Teilnehmer:innen dieser Durchführung](assets/course_planner_curriculum_add_members1_v2_de.png){ class="shadow lightbox" title="Liste der Durchführungen eines Produkts · 2026.10.09" }
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -368,7 +376,7 @@ Sie können dort aus verschiedenen Vorlagen auswählen, anhand derer Sie Excel-D
 
 Klicken Sie zum Erstellen eines Reports auf einen der Pfeile in der Spalte "Ausführen".
 
-![Reportvorlagen für Buchungsaufträge mit der markierten Spalte Ausführen](assets/course_planner_courses_reports2_v1_de.png){ class="shadow lightbox" title="Seite Reports im Course Planner" }
+![Auf der Seite Reports des Course Planners erstellen Sie mit dem Pfeil in der Spalte Ausführen einen Report aus der gewünschten Vorlage für Buchungsaufträge](assets/course_planner_courses_reports2_v2_de.png){ class="shadow lightbox" title="Seite Reports im Course Planner · 2026.10.09" }
 
 Die so erstellten Excel-Dateien finden Sie im unteren Bereich des Screens aufgelistet.
 Sie können kopiert, gelöscht und heruntergeladen werden.
@@ -394,7 +402,7 @@ Wenn der Kurs tatsächlich stattfinden wird (z.B. nachdem genügend Buchungsauft
 
 Ein Kurstemplate ist ein Kurs mit dem Verwendungszweck **Template**:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"`<br>
-Im Tab "Kursinhalt" der Durchführung fügen Sie es mit dem Button "Kurstemplate hinzufügen" hinzu.
+Im Tab "Kursinhalt" der Durchführung fügen Sie es mit dem Button "Kurstemplate hinzufügen" hinzu. Den Button gibt es nur, wenn der Elementtyp der Durchführung bei "Max. Kursreferenzen" auf "1 Template/Kurs" steht.
 
 Die Vorbereitung der automatisierten Instanziierung (Kurserstellung aus dem Kurstemplate) finden Sie hier:<br>
 `Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Unter-Tab "Automatisierung"`
