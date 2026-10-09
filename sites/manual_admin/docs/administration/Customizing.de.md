@@ -1,5 +1,7 @@
 # Customizing: Übersicht {: #customizing}
 
+![Erscheinungsbild und Hauptnavigation der ganzen Instanz in sieben Menüpunkten, von Darstellung bis Bereiche, im aufgeklappten Menü Customizing der System-Administration](assets/admin_customizing_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+
 Im Menü "Customizing" passen Administrator:innen und Systemadministrator:innen das Erscheinungsbild und die Hauptnavigation der ganzen Instanz an. Sie finden diese Einstellungen in der System-Administration unter:<br>
 `Administration > Customizing`
 
@@ -50,7 +52,7 @@ Administrator:innen legen fest,
 
 Alle Texte können in verschiedenen Sprachen hinterlegt werden.
 
-![Seite Impressum im Menü Customizing: eingeschaltet und auf Position Footer gesetzt erscheint das Impressum als Link in der Fusszeile, die drei Texte werden je Sprache hinterlegt](assets/admin_customizing_imprint_v1_de.png){ class="shadow lightbox" }
+![Eingeschaltet und auf Position Footer gesetzt erscheint das Impressum als Link in der Fusszeile, die drei Texte werden je Sprache hinterlegt](assets/admin_customizing_imprint_v1_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing" }
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -60,7 +62,7 @@ Alle Texte können in verschiedenen Sprachen hinterlegt werden.
 
 Hier kann definiert werden, welche Hilfeseiten über das Hilfe-Icon :fontawesome-solid-circle-question: im allgemeinen Menü bereitgestellt werden. Auch ein Link zum Support Kontaktformular ist möglich.
 
-![Dialog Hilfemöglichkeit bearbeiten auf der Seite Hilfe: Typ, Bezeichnung je Sprache, Symbol und URL, dazu die Anzeigeorte Autorenbereich, Benutzerwerkzeug und Login](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" }
+![Typ, Bezeichnung je Sprache, Symbol und URL, dazu die Anzeigeorte Autorenbereich, Benutzerwerkzeug und Login](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" title="Dialog Hilfemöglichkeit bearbeiten auf der Seite Hilfe" }
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -115,6 +117,8 @@ Im Tab "Reihenfolge" schalten Sie die Bereiche für die ganze Instanz frei und o
 
 Der Eintrag "Coaching Werkzeug" lässt sich nicht deaktivieren, weil Betreuer:innen und Besitzer:innen ihre Lernressourcen über das Coaching erreichen: Die Checkbox "Aktiviert" ist ausgegraut. Reihenfolge und Zugang bleiben einstellbar. [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
+![Checkbox Aktiviert beim Eintrag Coaching Werkzeug ausgegraut, Zugang und die Pfeile Hoch und Runter bleiben einstellbar](assets/admin_customizing_sites_v3_de.png){ class="shadow lightbox" title="Tab Reihenfolge auf der Seite Bereiche · 2026.10.09" }
+
 Die Liste gilt für die ganze Instanz. Drei weitere Punkte entscheiden mit darüber, ob eine Person einen Bereich sieht.
 
 **Das Modul muss aktiv sein.** Ein Eintrag erscheint nur, wenn zusätzlich das zugehörige Modul eingeschaltet ist. Ein aktivierter Eintrag "Katalog" bleibt ohne Wirkung, solange das [Modul Katalog](Modules_Catalog_2.0.de.md) ausgeschaltet ist. Bei ausgeschaltetem Modul ist die Checkbox "Aktiviert" des Eintrags ausgegraut.
@@ -128,11 +132,13 @@ Die Liste gilt für die ganze Instanz. Drei weitere Punkte entscheiden mit darü
 
 In den Tabs "Infoseite n°1" bis "Infoseite n°4" binden Sie je einen Kurs als eigenen Bereich in die Hauptnavigation ein, zum Beispiel für Informationen an alle Personen der Instanz.
 
+![Je Sprache ein eigener Titel und eine eigene Lernressource, hervorgehoben die Zeile für Deutsch, darüber Kurs-Toolbar für alle anzeigen und Icon CSS Class](assets/admin_customizing_infopage_v2_de.png){ class="shadow lightbox" title="Tab Infoseite n°1 auf der Seite Bereiche · 2026.10.09" }
+
 Je Sprache hinterlegen Sie einen eigenen Titel und eine eigene Lernressource. Mit "Auswählen" öffnen Sie die Suche nach der referenzierbaren Lernressource. Erst dort verbinden Sie den Bereich mit einem Kurs. Die Checkbox "Standard" bestimmt den Eintrag, der gilt, wenn für die Sprache einer Person keiner hinterlegt ist.
 
 Im Feld "Icon CSS Class" legen Sie das Symbol des Bereichs fest. Mit der Checkbox "Kurs-Toolbar für alle anzeigen" sehen alle Personen die Toolbar des Kurses. Ohne Häkchen sehen sie nur Personen, die den Kurs verwalten dürfen, zum Beispiel Besitzer:innen.
 
-![Kurs aus der Liste wählen, oder über Erstellen und Datei importieren eine neue Lernressource anlegen, im Dialog Referenzierbare Lernressource suchen](assets/admin_customizing_infopage_select_v1_de.png){ class="shadow lightbox" }
+![Kurs aus der Liste wählen, oder über Erstellen und Datei importieren eine neue Lernressource anlegen](assets/admin_customizing_infopage_select_v1_de.png){ class="shadow lightbox" title="Dialog Referenzierbare Lernressource suchen" }
 
 In den Tabs "Externe Seite n°1" und "Externe Seite n°2" binden Sie je Sprache eine externe URL mit eigenem Titel als Bereich ein. [:octicons-tag-16:{ title="ab Release 18.2 (OO-7398)" }](https://track.frentix.com/issue/OO-7398)
 

@@ -1,5 +1,7 @@
 # Externe Werkzeuge: Übersicht {: #ext_tools}
 
+![Ein Eintrag je externem Werkzeug, von OpenMeetings bis PDF Generator, im aufgeklappten Menü Externe Werkzeuge der System-Administration](assets/admin_external_tools_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+
 Im Menü "Externe Werkzeuge" schalten die OpenOlat-Administrator:innen diverse externe Werkzeuge ein und aus (z.B. mehrere virtuelle Klassenzimmer) und richten je nach Werkzeug bestimmte Basiseinstellungen ein, die systemweit gelten. Das Menü liegt in der System-Administration unter: `Administration > Externe Werkzeuge`
 
 ## Steckbrief

@@ -34,7 +34,7 @@ document pool as the top entry of the navigation on the left. There
 administrators can upload documents and make them available to everybody,
 independent of their access rights in the document pool.
 
-![Checkbox Enable document pool, fields WebDAV mount point and Taxonomy, and checkbox Enable templates](assets/documentpool_documentpool.png){ class="shadow lightbox" title="Tab Document pool in the system administration" }
+![Checkbox Enable document pool, fields WebDAV mount point and Taxonomy, and checkbox Enable templates](assets/modules_document_pool_tab_document_pool_v1_en.png){ class="shadow lightbox" title="Tab Document pool in the system administration · 2026.10.09" }
 
 ## Tab Access permissions {: #tab_permissions}
 
@@ -47,8 +47,8 @@ order that a competence type appears it must have been created in the system adm
 * **Manager competence:** Allow management or not
 * **Teach competence (Teacher competence):** The Teach competence defines the access rights for the individual levels in the document pool. First it is selected whether users with the Teach competence get read access to this level. If yes, these users can read the content of this level. In addition, a number defines how many levels above should also get read access.<br>
     If "Allow write access" is also enabled, these users can also upload documents.
-* **Have competence:** Allow read access or not
-* **Target competence:** Allow read access or not
+* **Have competence:** Allowed to read or not
+* **Target competence:** Allowed to read or not
 
 These settings need to be repeated for all defined competence types.
 
@@ -58,6 +58,8 @@ directly in OpenOlat. In OpenOlat this can be done either in the user
 management or in the system administration under `Administration > Modules > Taxonomy`.
 
 Which competence types appear here depends on the level types of your taxonomy, for example "Handlungsfeld" and "Fach".
+
+![All options of a competence type, with the Teacher competence additionally levels above and write access](assets/modules_document_pool_tab_permissions_v1_en.png){ class="shadow lightbox" title="Tab Access permissions in the system administration · 2026.10.09" }
 
 ## Tab Info page [:octicons-tag-16:{ title="from Release 12.3 (OO-3227)" }](https://track.frentix.com/issue/OO-3227) {: #tab_info_page}
 

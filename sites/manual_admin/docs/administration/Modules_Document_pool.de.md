@@ -37,7 +37,7 @@ Dokumentenpool als oberster Eintrag der Navigation links angezeigt. Dort können
 Administrator:innen Dokumente hochladen und allen zur Verfügung stellen,
 unabhängig von ihren Zugriffsrechten im Dokumentenpool.
 
-![Checkbox Dokumentenpool einschalten, Felder WebDAV Mountpunkt und Taxonomie sowie Checkbox Vorlagen aktivieren](assets/Dokumentenpool_DE.png){ class="shadow lightbox" title="Tab Dokumentenpool in der System-Administration" }
+![Checkbox Dokumentenpool einschalten, Felder WebDAV Mountpunkt und Taxonomie sowie Checkbox Vorlagen aktivieren](assets/modules_document_pool_tab_document_pool_v1_de.png){ class="shadow lightbox" title="Tab Dokumentenpool in der System-Administration · 2026.10.09" }
 
 ## Tab Zugangsberechtigungen {: #tab_permissions}
 
@@ -63,6 +63,8 @@ entweder in der Benutzerverwaltung oder in der System-Administration unter `Admi
 
 Welche Kompetenztypen hier erscheinen, hängt von den Ebenentypen Ihrer Taxonomie
 ab, zum Beispiel "Handlungsfeld" und "Fach".
+
+![Alle Optionen eines Kompetenztyps, bei der Dozier-Kompetenz zusätzlich übergeordnete Ebenen und schreibender Zugriff](assets/modules_document_pool_tab_permissions_v1_de.png){ class="shadow lightbox" title="Tab Zugangsberechtigungen in der System-Administration · 2026.10.09" }
 
 ## Tab Infoseite [:octicons-tag-16:{ title="ab Release 12.3 (OO-3227)" }](https://track.frentix.com/issue/OO-3227) {: #tab_info_page}
 

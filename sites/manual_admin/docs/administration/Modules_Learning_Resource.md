@@ -2,7 +2,7 @@
 
 The Learning resource module includes settings that affect courses and learning resources stored in the authoring area.
 
-![Checkboxes for Comment, Rating and Request membership, plus the default setting for leaving and the role priority, Learning resource page in the Modules menu of the system administration](assets/modules_learning_resource_tab_settings_v2_en.png){ class="shadow lightbox" }
+![Checkboxes for Comment, Rating and Request membership, plus the default setting for leaving and the role priority](assets/modules_learning_resource_tab_settings_v2_en.png){ class="shadow lightbox" title="Learning resource page in the Modules menu" }
 
 [To the top of the page ^](#learning_resource)
 
@@ -20,13 +20,13 @@ Activating the first checkbox makes the pre-selection "In Preparation" visible f
 #### Scope "In preparation" under "Courses"
 
 **Participant view when activated**
-![Scope "In preparation" activated, one course in preparation in the list, Courses area](assets/modules_learning_resource_tab_settings_section_v1_en.png){ class="shadow lightbox" }
+![Scope "In preparation" activated, one course in preparation in the list](assets/modules_learning_resource_tab_settings_section_v1_en.png){ class="shadow lightbox" title="Courses area" }
 
 #### Course search {: #course_search}
 
 The [course search](../../manual_user/basic_concepts/Search_in_Course.md) is configured per course, not in this module. Course owners activate it under `Course > Administration > Settings > Tab "Toolbar"`. The "Course search" button then appears in the toolbar of the course.
 
-![Course search checkbox activated and highlighted, Toolbar tab of the course settings](assets/modules_learning_resource_course_search_setting_v1_en.png){ class="shadow lightbox" }
+![Course search checkbox activated and highlighted](assets/modules_learning_resource_course_search_setting_v1_en.png){ class="shadow lightbox" title="Toolbar tab of the course settings" }
 
 How course owners activate the course search and the other toolbar tools is described on the page [Using Additional Course Features](../../manual_user/learningresources/Using_Additional_Course_Features.md).
 
@@ -38,11 +38,11 @@ How course owners activate the course search and the other toolbar tools is desc
 
 The course info page can be called up in the header of a course. The comment is "hidden" within it.
 
-![Course toolbar with the Info page button highlighted](assets/modules_repository_course_info_v1_en.png){ class="shadow lightbox" }
+![Info page button highlighted](assets/modules_repository_course_info_v1_en.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 An input field for submitting a comment can then be displayed on the info page.
 
-![Info page of a course with the input field for a comment highlighted](assets/modules_repository_course_comment_v1_en.png){ class="shadow lightbox" }
+![Input field for a comment highlighted](assets/modules_repository_course_comment_v1_en.png){ class="shadow lightbox" title="Info page of a course" }
 
 The availability of this input field can be switched on/off globally by administrators in this module.
 
@@ -55,7 +55,7 @@ The availability of this input field can be switched on/off globally by administ
 
 Clickable stars for rating can also be displayed on the info page of a course.
 
-![Info page of a course with the rating widget of five clickable stars highlighted](assets/modules_repository_course_review_v1_en.png){ class="shadow lightbox" }
+![Rating with five clickable stars highlighted](assets/modules_repository_course_review_v1_en.png){ class="shadow lightbox" title="Info page of a course" }
 
 The availability of stars for rating a course can be switched on/off globally by administrators in this module.
 
@@ -67,7 +67,7 @@ The availability of stars for rating a course can be switched on/off globally by
 
 If someone opens a course to which they do not have access, a notice appears. There is a button there that can be used to request membership. When clicked, an email is sent to all course owners.
 
-![Notice page "You are not a member." with the Request membership button](assets/modules_repository_request_membership_v1_en.png){ class="shadow lightbox" }
+![Request membership button next to Back](assets/modules_repository_request_membership_v1_en.png){ class="shadow lightbox" title="Notice page for people without membership" }
 
 This function can be switched on/off globally by administrators in this module.
 
@@ -151,12 +151,14 @@ The "Access" tab contains the sections Access and Status "Finished".
 
 Anyone who is an owner or coach in a course (a learning resource) finds that learning resource in the Coaching tool. Under "My Courses", learning resources are displayed in which users with the coach role are participants themselves.
 
+![My courses and Coaching Tool each enabled for registered users, below them the button Open site settings](assets/modules_learning_resource_tab_access_v3_en.png){ class="shadow lightbox" title="Access tab in the Learning resource module · 2026.10.09" }
+
 #### Show hint in "Courses"
 
 If this toggle button is activated, course owners/coaches receive notices about the effects of the access setting.
 
-![Toggle button Show hint in "Courses" switched on, Access tab in the Learning resource module](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" }
-![Notice box for coaches/owners with the link To the coaching area, Courses area](assets/Modules_Learning_Resource_user_hint_v1.png){ class="shadow lightbox" }
+![Toggle button Show hint in "Courses" switched on](assets/modules_learning_resource_tab_access_hint_v1.png){ class="shadow lightbox" title="Access tab in the Learning resource module" }
+![Notice box for coaches/owners with the link To the coaching area](assets/Modules_Learning_Resource_user_hint_v1.png){ class="shadow lightbox" title="Courses area" }
 
 #### Site settings
 

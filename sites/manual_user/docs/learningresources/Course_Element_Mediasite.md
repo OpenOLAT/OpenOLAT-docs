@@ -23,36 +23,38 @@ The setup is described in the administration manual: [External Tools: Overview](
 
 Course owners configure the course element in the course editor in the tab "Mediasite configuration". There they define which server loads the content and which recording or channel appears in the course.
 
+![Card Custom Mediasite Server selected and field Presentation URL or ID with Choose content highlighted, the fields of the LTI 1.3 connection in between](assets/course_element_mediasite_config_lti13_v2_en.png){ class="shadow lightbox" title="Mediasite configuration tab in the course editor · 2026.10.09" }
+
 ### Select the server {: #server}
 
 Under "Configuration" you select which connection the course element uses:
 
 **Preconfigured Mediasite Server:** The course element uses the server that your administrators have set up in the system administration. The card shows the server name and the LTI version. This option only appears if the option "Preconfigured Server" is activated in the system administration.
 
-**Custom Mediasite Server:** The course element uses its own LTI connection that applies to this course element only. You select the **LTI version** and enter the details you receive from the operator of your Mediasite server. For LTI 1.1 these are **LTI Key**, **LTI Secret**, **LTI URL**, **My Mediasite - Administration URL** and **Username Property Key**. For LTI 1.3 these are **LTI 1.3 Initiate Login URL**, **LTI 1.3 Redirect URL**, **LTI 1.3 JWKS URL** and **LTI URL**, optionally the **My Mediasite - Administration URL**. OpenOlat generates the **LTI 1.3 Client ID** and the **LTI 1.3 Deployment ID** on the first save and displays them. The operator of the Mediasite server needs these two values to register OpenOlat on their side.
+**Custom Mediasite Server:** The course element uses its own LTI connection that applies to this course element only. You select the "LTI version" and enter the details you receive from the operator of your Mediasite server. For LTI 1.1 these are "LTI Key", "LTI Secret", "LTI URL", "My Mediasite - Administration URL" and "Username Property Key". For LTI 1.3 these are "LTI 1.3 Initiate Login URL", "LTI 1.3 Redirect URL", "LTI 1.3 JWKS URL" and "LTI URL", optionally the "My Mediasite - Administration URL". OpenOlat generates the "LTI 1.3 Client ID" and the "LTI 1.3 Deployment ID" on the first save. They are displayed as soon as you open the course element in the course editor again. The operator of the Mediasite server needs these two values to register OpenOlat on their side.
 
-With **Suppress "Data transmission agreement"** you define whether participants have to confirm the data transmission to the Mediasite server before the first opening (see [View in the course](#course_view)).
+With the checkbox Suppress "Data transmission agreement" you define whether participants have to confirm the data transmission to the Mediasite server before the first opening (see [View in the course](#course_view)).
 
 ### Choose content [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9717)" }](https://track.frentix.com/issue/OO-9717){:target="_blank"} {: #choose_content}
 
 With the content selection you define which channel or which single recording appears in the course. A channel continuously shows all recordings of the collection, including those that are added later. A single recording shows exactly this video.
 
-1. Click **Choose content** below the field **Presentation URL or ID**.
+1. Click "Choose content" below the field "Presentation URL or ID".
 2. The dialog "Choose content" opens the interface of the Mediasite server. Browse your channels and recordings there.
 3. Select a channel or a single recording.
-4. OpenOlat transfers the selection to the field **Presentation URL or ID**.
-5. Click **Save**.
+4. OpenOlat transfers the selection to the field "Presentation URL or ID".
+5. Click "Save".
 
 The dialog also provides you with the functions of the Mediasite server for uploading a new recording. This way you upload a video directly from the course editor and select it afterwards, without opening the Mediasite interface in a separate window.
 
 !!! tip "The button Choose content appears with a complete LTI 1.3 connection"
-    The content selection requires LTI 1.3. With the preconfigured server, your administrators define the LTI version. With the custom server, you select LTI 1.3 and save the course element once so that the connection is established. After that the button appears. With LTI 1.1 you enter the module ID manually.
+    The content selection requires LTI 1.3. With the preconfigured server, your administrators define the LTI version. With the custom server, you select LTI 1.3 and save the course element once so that the connection is established. When you open the course element again afterwards, the button appears. With LTI 1.1 you enter the module ID manually.
 
 ### Enter the module ID manually {: #module_id}
 
-In the field **Presentation URL or ID** you enter the ID of a recording or a channel. Alternatively, you paste the link that you copied from the Mediasite interface. OpenOlat reads the ID from the link. With LTI 1.1 the manual entry is the only way. With LTI 1.3 it is available in addition to the content selection.
+In the field "Presentation URL or ID" you enter the ID of a recording or a channel. Alternatively, you paste the link that you copied from the Mediasite interface. OpenOlat reads the ID from the link. With LTI 1.1 the manual entry is the only way. With LTI 1.3 it is available in addition to the content selection.
 
-With **Show preview** you check how the selected content appears for course participants. With **Open My Mediasite administration** you switch to the administration interface of your Mediasite server.
+With "Show preview" you check how the selected content appears for course participants. With "Open My Mediasite administration" you switch to the administration interface of your Mediasite server.
 
 ## Configuration errors in the course editor {: #configuration_errors}
 

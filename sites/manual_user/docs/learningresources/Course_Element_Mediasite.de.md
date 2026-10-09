@@ -23,36 +23,38 @@ Die Einrichtung ist im Administrationshandbuch beschrieben: [Externe Werkzeuge: 
 
 Kursbesitzer:innen konfigurieren den Kursbaustein im Kurseditor im Tab "Mediasite Konfiguration". Sie legen dort fest, über welchen Server der Inhalt geladen wird und welche Aufzeichnung oder welcher Kanal im Kurs erscheint.
 
+![Karte Eigener Mediasite Server gewählt und Feld Modul ID oder Präsentationslink mit Inhalt auswählen hervorgehoben, dazwischen die Felder der LTI-1.3-Verbindung](assets/course_element_mediasite_config_lti13_v2_de.png){ class="shadow lightbox" title="Tab Mediasite Konfiguration im Kurseditor · 2026.10.09" }
+
 ### Server wählen {: #server}
 
 Unter "Konfiguration" wählen Sie, welche Verbindung der Kursbaustein verwendet:
 
 **Vorkonfigurierter Mediasite Server:** Der Kursbaustein verwendet den Server, den Ihre Administrator:innen in der System-Administration eingerichtet haben. Die Karte zeigt den Servernamen und die LTI-Version an. Diese Option erscheint nur, wenn in der System-Administration die Option "Vorkonfigurierter Server" aktiviert ist.
 
-**Eigener Mediasite Server:** Der Kursbaustein verwendet eine eigene LTI-Verbindung, die nur für diesen Kursbaustein gilt. Sie wählen die **LTI-Version** und tragen die Angaben ein, die Sie von der Betreiberin Ihres Mediasite-Servers erhalten. Bei LTI 1.1 sind das **LTI Key**, **LTI Secret**, **LTI URL**, **My Mediasite - Administration URL** und **Username Property Key**. Bei LTI 1.3 sind das **LTI 1.3 Initiate Login URL**, **LTI 1.3 Redirect URL**, **LTI 1.3 JWKS URL** und **LTI URL**, optional die **My Mediasite - Administration URL**. Die **LTI 1.3 Client ID** und die **LTI 1.3 Deployment ID** erzeugt OpenOlat beim ersten Speichern und zeigt sie an. Diese beiden Werte benötigt die Betreiberin des Mediasite-Servers, um OpenOlat auf ihrer Seite zu registrieren.
+**Eigener Mediasite Server:** Der Kursbaustein verwendet eine eigene LTI-Verbindung, die nur für diesen Kursbaustein gilt. Sie wählen die "LTI-Version" und tragen die Angaben ein, die Sie von der Betreiberin Ihres Mediasite-Servers erhalten. Bei LTI 1.1 sind das "LTI Key", "LTI Secret", "LTI URL", "My Mediasite - Administration URL" und "Username Property Key". Bei LTI 1.3 sind das "LTI 1.3 Initiate Login URL", "LTI 1.3 Redirect URL", "LTI 1.3 JWKS URL" und "LTI URL", optional die "My Mediasite - Administration URL". Die "LTI 1.3 Client ID" und die "LTI 1.3 Deployment ID" erzeugt OpenOlat beim ersten Speichern. Angezeigt werden sie, sobald Sie den Kursbaustein im Kurseditor erneut öffnen. Diese beiden Werte benötigt die Betreiberin des Mediasite-Servers, um OpenOlat auf ihrer Seite zu registrieren.
 
-Mit **Zustimmung "Datenübertragung" unterdrücken** legen Sie fest, ob Teilnehmende die Datenübertragung an den Mediasite-Server vor dem ersten Öffnen bestätigen müssen (siehe [Ansicht im Kurs](#course_view)).
+Mit der Checkbox Zustimmung "Datenübertragung" unterdrücken legen Sie fest, ob Teilnehmende die Datenübertragung an den Mediasite-Server vor dem ersten Öffnen bestätigen müssen (siehe [Ansicht im Kurs](#course_view)).
 
 ### Inhalt auswählen [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9717)" }](https://track.frentix.com/issue/OO-9717){:target="_blank"} {: #choose_content}
 
 Mit der Inhaltsauswahl bestimmen Sie, welcher Kanal oder welche einzelne Aufzeichnung im Kurs erscheint. Ein Kanal zeigt fortlaufend alle Aufzeichnungen der Sammlung, auch solche, die später hinzukommen. Eine einzelne Aufzeichnung zeigt genau dieses Video.
 
-1. Klicken Sie unter dem Feld **Modul ID oder Präsentationslink** auf **Inhalt auswählen**.
+1. Klicken Sie unter dem Feld "Modul ID oder Präsentationslink" auf "Inhalt auswählen".
 2. Der Dialog "Inhalt auswählen" öffnet die Oberfläche des Mediasite-Servers. Durchsuchen Sie dort Ihre Kanäle und Aufzeichnungen.
 3. Wählen Sie einen Kanal oder eine einzelne Aufzeichnung.
-4. OpenOlat übernimmt die Auswahl in das Feld **Modul ID oder Präsentationslink**.
-5. Klicken Sie auf **Speichern**.
+4. OpenOlat übernimmt die Auswahl in das Feld "Modul ID oder Präsentationslink".
+5. Klicken Sie auf "Speichern".
 
 Der Dialog stellt Ihnen auch die Funktionen des Mediasite-Servers zum Hochladen einer neuen Aufzeichnung bereit. So laden Sie ein Video direkt aus dem Kurseditor hoch und wählen es anschliessend aus, ohne die Mediasite-Oberfläche in einem eigenen Fenster zu öffnen.
 
 !!! tip "Die Schaltfläche Inhalt auswählen erscheint bei einer vollständigen LTI-1.3-Verbindung"
-    Die Inhaltsauswahl setzt LTI 1.3 voraus. Beim vorkonfigurierten Server legen Ihre Administrator:innen die LTI-Version fest. Beim eigenen Server wählen Sie LTI 1.3 und speichern den Kursbaustein einmal, damit die Verbindung aufgebaut wird. Danach erscheint die Schaltfläche. Bei LTI 1.1 geben Sie die Modul-ID von Hand ein.
+    Die Inhaltsauswahl setzt LTI 1.3 voraus. Beim vorkonfigurierten Server legen Ihre Administrator:innen die LTI-Version fest. Beim eigenen Server wählen Sie LTI 1.3 und speichern den Kursbaustein einmal, damit die Verbindung aufgebaut wird. Öffnen Sie den Kursbaustein danach erneut, erscheint die Schaltfläche. Bei LTI 1.1 geben Sie die Modul-ID von Hand ein.
 
 ### Modul-ID von Hand eingeben {: #module_id}
 
-Im Feld **Modul ID oder Präsentationslink** tragen Sie die ID einer Aufzeichnung oder eines Kanals ein. Alternativ fügen Sie den Link ein, den Sie aus der Mediasite-Oberfläche kopiert haben. OpenOlat liest die ID aus dem Link heraus. Bei LTI 1.1 ist die manuelle Eingabe der einzige Weg. Bei LTI 1.3 steht sie zusätzlich zur Inhaltsauswahl zur Verfügung.
+Im Feld "Modul ID oder Präsentationslink" tragen Sie die ID einer Aufzeichnung oder eines Kanals ein. Alternativ fügen Sie den Link ein, den Sie aus der Mediasite-Oberfläche kopiert haben. OpenOlat liest die ID aus dem Link heraus. Bei LTI 1.1 ist die manuelle Eingabe der einzige Weg. Bei LTI 1.3 steht sie zusätzlich zur Inhaltsauswahl zur Verfügung.
 
-Mit **Vorschau anzeigen** prüfen Sie, wie der gewählte Inhalt für Kursteilnehmer:innen erscheint. Mit **My Mediasite Verwaltung öffnen** wechseln Sie in die Verwaltungsoberfläche Ihres Mediasite-Servers.
+Mit "Vorschau anzeigen" prüfen Sie, wie der gewählte Inhalt für Kursteilnehmer:innen erscheint. Mit "My Mediasite Verwaltung öffnen" wechseln Sie in die Verwaltungsoberfläche Ihres Mediasite-Servers.
 
 ## Konfigurationsfehler im Kurseditor {: #configuration_errors}
 

@@ -2,7 +2,7 @@
 
 Zum Modul Lernressourcen gehören Einstellungen, die Kurse und Lernressourcen betreffen, welche im Autorenbereich gespeichert sind.
 
-![Kontrollkästchen für Kommentar, Bewertung und Mitgliedschaft beantragen, Standardeinstellung zum Austreten und Rollenpriorität, Seite Lernressource im Menü Module der System-Administration](assets/modules_learning_resource_tab_settings_v2_de.png){ class="shadow lightbox" }
+![Kontrollkästchen für Kommentar, Bewertung und Mitgliedschaft beantragen, Standardeinstellung zum Austreten und Rollenpriorität](assets/modules_learning_resource_tab_settings_v2_de.png){ class="shadow lightbox" title="Seite Lernressource im Menü Module" }
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -20,13 +20,13 @@ Mit Aktivierung der ersten Checkbox machen Administrator:innen für Teilnehmer:i
 #### Bereich "In Vorbereitung" unter "Kurse"
 
 **Ansicht Teilnehmer:in bei Aktivierung**
-![Filter "In Vorbereitung" aktiviert, ein Kurs in Vorbereitung in der Liste, Bereich Kurse](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" }
+![Filter "In Vorbereitung" aktiviert, ein Kurs in Vorbereitung in der Liste](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" title="Bereich Kurse" }
 
 #### Kurssuche {: #course_search}
 
 Die [Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md) wird pro Kurs konfiguriert, nicht in diesem Modul. Kursbesitzer:innen aktivieren sie unter `Kurs > Administration > Einstellungen > Tab "Toolbar"`. Danach erscheint der Button "Kurssuche" in der Toolbar des Kurses.
 
-![Checkbox Kurssuche aktiviert und hervorgehoben, Tab Toolbar der Kurseinstellungen](assets/modules_learning_resource_course_search_setting_v1_de.png){ class="shadow lightbox" }
+![Checkbox Kurssuche aktiviert und hervorgehoben](assets/modules_learning_resource_course_search_setting_v1_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen" }
 
 Wie Kursbesitzer:innen die Kurssuche und die weiteren Werkzeuge der Toolbar aktivieren, beschreibt die Seite [Einsatz weiterer Kursfunktionen der Toolbar](../../manual_user/learningresources/Using_Additional_Course_Features.de.md).
 
@@ -38,11 +38,11 @@ Wie Kursbesitzer:innen die Kurssuche und die weiteren Werkzeuge der Toolbar akti
 
 In der Kopfzeile eines Kurses kann die Infoseite zum Kurs aufgerufen werden. Darin "verbirgt" sich der Kommentar.
 
-![Hervorgehobener Button Infoseite in der Kurs-Toolbar](assets/modules_repository_course_info_v2_de.png){ class="shadow lightbox" }
+![Hervorgehobener Button Infoseite](assets/modules_repository_course_info_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Auf der Infoseite kann dann ein Eingabefeld zur Abgabe eines Kommentars angezeigt werden.
 
-![Hervorgehobener Bereich Kommentar mit dem Eingabefeld "Schreiben Sie einen Kommentar..." auf der Infoseite eines Kurses](assets/modules_repository_course_comment_v2_de.png){ class="shadow lightbox" }
+![Hervorgehobener Bereich Kommentar mit dem Eingabefeld "Schreiben Sie einen Kommentar..."](assets/modules_repository_course_comment_v2_de.png){ class="shadow lightbox" title="Infoseite eines Kurses" }
 
 Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
@@ -55,7 +55,7 @@ Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem M
 
 Auf der Infoseite zu einem Kurs können ebenfalls anklickbare Sterne zur Beurteilung angezeigt werden.
 
-![Hervorgehobene Bewertung mit fünf anklickbaren Sternen auf der Infoseite eines Kurses](assets/modules_repository_course_review_v2_de.png){ class="shadow lightbox" }
+![Hervorgehobene Bewertung mit fünf anklickbaren Sternen](assets/modules_repository_course_review_v2_de.png){ class="shadow lightbox" title="Infoseite eines Kurses" }
 
 Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
@@ -67,7 +67,7 @@ Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrato
 
 Wenn jemand einen Kurs öffnet, auf welchen er keinen Zugriff hat, erscheint ein Hinweis. Dort gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Beim Anklicken wird damit eine E-Mail an alle Kursbesitzer:innen verschickt.
 
-![Button Mitgliedschaft beantragen neben Zurück auf der Hinweisseite "Sie sind kein Mitglied."](assets/modules_repository_request_membership_v2_de.png){ class="shadow lightbox" }
+![Button Mitgliedschaft beantragen neben Zurück](assets/modules_repository_request_membership_v2_de.png){ class="shadow lightbox" title="Hinweisseite für Personen ohne Mitgliedschaft" }
 
 Diese Funktion kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
 
@@ -151,12 +151,14 @@ Der Tab "Zugang" enthält die Abschnitte Zugang und Status "Beendet".
 
 Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet diese Lernressource im Coaching Werkzeug. Unter "Meine Kurse" werden Lernressourcen angezeigt, bei denen Benutzer:innen mit der Rolle Betreuer:in selbst Teilnehmer:in sind.
 
+![Meine Kurse und Coaching Werkzeug je aktiviert für registrierte Konten, darunter der Button Bereichseinstellungen öffnen](assets/modules_learning_resource_tab_access_v3_de.png){ class="shadow lightbox" title="Tab Zugang im Modul Lernressource · 2026.10.09" }
+
 #### Hinweis in "Kurse" anzeigen
 
 Wird dieser Toggle-Button aktiviert, erhalten die Kursbesitzer:innen/Betreuer:innen Hinweise zu den Auswirkungen der Zugangseinstellung.
 
-![Toggle-Button Hinweis in "Kurse" anzeigen eingeschaltet, Tab Zugang im Modul Lernressource](assets/modules_learning_resource_tab_access_hint_v1_de.png){ class="shadow lightbox" }
-![Hinweisbox für Betreuer:innen/Besitzer:innen mit dem Link Zum Coaching-Bereich, Bereich Kurse](assets/Modules_Learning_Resource_user_hint_de_v1.png){ class="shadow lightbox" }
+![Toggle-Button Hinweis in "Kurse" anzeigen eingeschaltet](assets/modules_learning_resource_tab_access_hint_v1_de.png){ class="shadow lightbox" title="Tab Zugang im Modul Lernressource" }
+![Hinweisbox für Betreuer:innen/Besitzer:innen mit dem Link Zum Coaching-Bereich](assets/Modules_Learning_Resource_user_hint_de_v1.png){ class="shadow lightbox" title="Bereich Kurse" }
 
 #### Bereichseinstellungen
 

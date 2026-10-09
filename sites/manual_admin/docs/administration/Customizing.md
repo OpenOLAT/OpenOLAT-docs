@@ -1,5 +1,7 @@
 # Customizing: Overview {: #customizing}
 
+![Appearance and main navigation of the whole instance in seven menu items, from Layout to Sites, in the expanded Customizing menu of the system administration](assets/admin_customizing_overview_v2_en.png){ class="shadow lightbox aside-left-lg" }
+
 In the "Customizing" menu, administrators and system administrators adapt the appearance and the main navigation of the whole instance. You will find these settings in the system administration under:<br>
 `Administration > Customizing`
 
@@ -49,7 +51,7 @@ Administrators determine,
 
 All text can be entered in different languages.
 
-![Imprint page in the Customizing menu: once switched on and set to position Footer, the imprint appears as a link in the footer line, and the three texts are maintained per language](assets/admin_customizing_imprint_v1_de.png){ class="shadow lightbox" }
+![Once switched on and set to position Footer, the imprint appears as a link in the footer line, and the three texts are maintained per language](assets/admin_customizing_imprint_v1_de.png){ class="shadow lightbox" title="Imprint page in the Customizing menu" }
 
 [To the top of the page ^](#customizing)
 
@@ -58,7 +60,7 @@ All text can be entered in different languages.
 
 Here you can specify which help pages are displayed via the help icon :fontawesome-solid-circle-question: in the main menu. You can also include a link to the support contact form.
 
-![Edit help option dialog on the Help page: type, name per language, symbol and URL, plus the display locations authoring, user tools and login](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" }
+![Type, name per language, symbol and URL, plus the display locations authoring, user tools and login](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" title="Edit help option dialog on the Help page" }
 
 [To the top of the page ^](#customizing)
 
@@ -109,6 +111,8 @@ In the "Order" tab, you enable the sites for the whole instance and arrange them
 
 The "Coaching tool" entry cannot be deactivated, because coaches and owners reach their learning resources through Coaching. The "Enabled" checkbox is greyed out. Order and access remain adjustable. [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
+![Enabled checkbox of the Coaching tool entry greyed out, access and the Up and Down arrows remain adjustable](assets/admin_customizing_sites_v3_en.png){ class="shadow lightbox" title="Order tab on the Sites page · 2026.10.09" }
+
 The list applies to the whole instance. Three further points decide together whether a person sees a site.
 
 **The module must be active.** An entry only appears if the corresponding module is switched on as well. An activated "Catalog" entry has no effect as long as the [Module Catalog](Modules_Catalog_2.0.md) is switched off. While a module is switched off, the "Enabled" checkbox of its entry is greyed out.
@@ -122,11 +126,13 @@ The list applies to the whole instance. Three further points decide together whe
 
 In the tabs "Info page n°1" to "Info page n°4", you add one course each as a separate site to the main navigation, for example for information addressed to all people of the instance.
 
-For each language you store a separate title and a separate learning resource. With "Choose" you open the search for the referenceable learning resource. Only there do you connect the site with a course. The "Default" checkbox determines the entry that applies when no entry is stored for the language of a person.
+![A separate title and a separate learning resource per language, the row for German highlighted, above it Show toolbar for all users and Icon CSS Class](assets/admin_customizing_infopage_v2_en.png){ class="shadow lightbox" title="Info page n°1 tab on the Sites page · 2026.10.09" }
+
+For each language you store a separate title and a separate learning resource. With "Select" you open the search for the referenceable learning resource. Only there do you connect the site with a course. The "Default" checkbox determines the entry that applies when no entry is stored for the language of a person.
 
 In the "Icon CSS Class" field, you set the symbol of the site. With the "Show toolbar for all users" checkbox, all people see the toolbar of the course. Without a checkmark, only people who may manage the course see it, for example owners.
 
-![Select the course from the list, or use Create and Import file to add a new learning resource instead, in the Search for referenceable learning resources dialog](assets/admin_customizing_infopage_select_v1_en.png){ class="shadow lightbox" }
+![Select the course from the list, or use Create and Import file to add a new learning resource instead](assets/admin_customizing_infopage_select_v1_en.png){ class="shadow lightbox" title="Search for referenceable learning resources dialog" }
 
 In the tabs "External page n°1" and "External page n°2", you add an external URL with its own title per language as a site. [:octicons-tag-16:{ title="from Release 18.2 (OO-7398)" }](https://track.frentix.com/issue/OO-7398)
 

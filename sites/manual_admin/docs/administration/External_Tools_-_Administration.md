@@ -1,5 +1,7 @@
 # External Tools: Overview {: #ext_tools}
 
+![One entry per external tool, from OpenMeetings to PDF generator, in the expanded External tools menu of the system administration](assets/admin_external_tools_overview_v2_en.png){ class="shadow lightbox aside-left-lg" }
+
 In the menu "External tools", the OpenOlat administrators switch various external tools on and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide. The menu is located in the system administration under: `Administration > External tools`
 
 ## Profile
