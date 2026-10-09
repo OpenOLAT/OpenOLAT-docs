@@ -1,6 +1,6 @@
 # Coaching - Termine und Absenzen {: #events}
 
-![Markierter Button Termine / Absenzen unter Aufgaben führt zur kursübergreifenden Termin- und Absenzenverwaltung](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching" }
+![Markierter Button Termine / Absenzen unter Aufgaben führt zur kursübergreifenden Termin- und Absenzenverwaltung](assets/coaching_events_absences1_v2_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.10.09" }
 
 !!! info "Voraussetzungen"
 
@@ -13,7 +13,7 @@ Hier sehen Sie die Termine und Absenzen über alle Kurse hinweg, für die Sie zu
 
 ## Als Betreuer:in - Als Klassenlehrer [:octicons-tag-16:{ title="ab Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
-![Markierte Buttons Als Betreuer:in und Als Klassenlehrer über der Tab-Leiste](assets/coaching_events_absences_events_coach-master_v1_de.png){ class="shadow lightbox" title="Werkzeug Termine des Coachings" }
+![Markierte Buttons Als Betreuer:in und Als Klassenlehrer über der Tab-Leiste wechseln die Rolle, für die Sie Termine und Absenzen sehen](assets/coaching_events_absences_events_coach-master_v2_de.png){ class="shadow lightbox" title="Werkzeug Termine des Coachings · 2026.10.09" }
 
 Sind Sie Dozent:in von Terminen und zugleich Klassenlehrer:in einer Durchführung, wählen Sie über der Tab-Leiste, für welche Rolle Sie die Termine und Absenzen sehen:
 
@@ -29,15 +29,19 @@ Haben Sie nur eine der beiden Rollen, fehlen die Buttons, und Sie sehen direkt d
 
 ## Tab Cockpit [:octicons-tag-16:{ title="ab Release 14.1 (OO-4215)" }](https://track.frentix.com/issue/OO-4215) {: #tab_cockpit}
 
-Im Tab "Cockpit" sehen Sie die "Tagesübersicht" mit den Abschnitten "Termine", "Absenzen" und "Meldungen" für heute. Was darin steht, hängt davon ab, ob Sie oben "Als Betreuer:in" oder "Als Klassenlehrer" gewählt haben. Mit den Pfeilen und dem Datumsfeld rechts wechseln Sie zu einem anderen Tag.
+Im Tab "Cockpit" sehen Sie die "Tagesübersicht" mit den Abschnitten "Termine", "Absenzen" und "Meldungen" für heute. Was darin steht, hängt davon ab, ob Sie oben "Als Betreuer:in" oder "Als Klassenlehrer" gewählt haben. In der Rolle "Als Klassenlehrer" fehlt der Abschnitt "Termine". Mit den Pfeilen und dem Datumsfeld rechts wechseln Sie zu einem anderen Tag.
 
-![Tagesübersicht mit Datumswahl, einem Termin mit Zählern und Buchsymbol, darunter die Abschnitte Absenzen und Meldungen mit der Anzeige Alle oder Unentschuldigt](assets/coaching_events_absences_tab_events_cockpit_v1_de.png){ class="shadow lightbox" title="Tab Cockpit im Werkzeug Termine des Coachings" }
+Sind Termine vergangener Tage noch nicht abgeschlossen, nennt ein Hinweis über der Liste diese Tage. Ein Klick auf einen Tag zeigt seine Tagesübersicht.
+
+![Markierte Datumswahl, Termin mit Zählern und Button zum Abschliessen der Absenzenerfassung in der Tagesübersicht, darunter die Absenzen und Meldungen des Tages](assets/coaching_events_absences_tab_events_cockpit_v2_de.png){ class="shadow lightbox" title="Tab Cockpit im Werkzeug Termine des Coachings · 2026.10.09" }
 
 Mit einem Klick auf das Buchsymbol in der Zeile eines Termins erfassen Sie die Absenzen.
 
 Im 3-Punkte-Menü am Ende der Zeile exportieren Sie den Termin mit "Export" als Excel-Datei und laden die "Absenzenliste" und die "Präsenzliste" als PDF herunter.
 
-Ein Klick auf den Kurstitel öffnet die Termine dieses Kurses. Dort schliessen Sie die Absenzenerfassung für einen Tag ab.
+Ein Klick auf den Kurstitel öffnet die Termine dieses Kurses.
+
+Ist in der Administration die [Tageserfassung Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md#daily_absence_recording) eingeschaltet, steht in der Rolle "Als Betreuer:in" unter der Liste der Button "Absenzenerfassung für ... abschliessen". Er schliesst nach einer Bestätigung alle Termine dieses Tages ab.
 
 [Zum Seitenanfang ^](#events)
 
@@ -48,7 +52,9 @@ Ein Klick auf den Kurstitel öffnet die Termine dieses Kurses. Dort schliessen S
 
 Im Tab "Termine" sehen Sie alle Termine, für die Sie zuständig sind. Mit den Buttons für den Zeitraum, den Tabs und den Filtern grenzen Sie die Liste ein.
 
-![Zeitraum-Buttons Heute und Bevorstehende, Letzte 3 Monate und Individuell, Filter-Tabs, Filter Durchführung, Dozenten und Absenzen sowie die Terminliste mit Status](assets/coaching_events_absences_tab_events_events_v1_de.png){ class="shadow lightbox" title="Tab Termine im Werkzeug Termine des Coachings" }
+Sind für Termine noch Absenzen zu erfassen, nennt ein Hinweis über den Buttons deren Anzahl. Der Link "Termin(e) mit offenen Abwesenheiten anzeigen" zeigt nur diese Termine.
+
+![Zeitraum-Buttons, Filter-Tabs und Filter Produkt, Durchführung, Dozenten und Absenzen grenzen die Terminliste mit Status, Buchsymbol und Stern-Symbol ein](assets/coaching_events_absences_tab_events_events_v2_de.png){ class="shadow lightbox" title="Tab Termine im Werkzeug Termine des Coachings · 2026.10.09" }
 
 Mit dem Zahnrad rechts über der Liste wählen Sie, welche Spalten die Liste zeigt. In der Zeile eines Termins finden Sie:
 
@@ -73,11 +79,11 @@ Im Tab "Absenzen" sehen Sie danach die erfassten Absenzen. Mit den Feldern über
 * **Datum**: der Zeitraum, in dem die Absenzen liegen.
 * **Anzeige**: "Alle" oder nur "Unentschuldigt".
 
-![Suchfeld, Datumsbereich und Anzeige Alle oder Unentschuldigt über der Liste der erfassten Absenzen mit Datum, Kurs, Termin, Ort, Abwesend und Entschuldigt](assets/coaching_events_absences_tab_absences1_v1_de.png){ class="shadow lightbox" title="Tab Absenzen im Werkzeug Termine des Coachings" }
+![Markiertes Suchfeld mit Datumsbereich und markierte Anzeige Alle oder Unentschuldigt grenzen die Liste der erfassten Absenzen mit Datum, Kurs, Termin, Ort, Abwesend und Entschuldigt ein](assets/coaching_events_absences_tab_absences1_v2_de.png){ class="shadow lightbox" title="Tab Absenzen im Werkzeug Termine des Coachings · 2026.10.09" }
 
 Um eine Absenz zu entschuldigen, setzen Sie in der ersten Spalte ein Häkchen bei der Absenz. Über der Liste erscheint dann der Button "Absenz entschuldigen".
 
-![Button Absenz entschuldigen über der Liste, sobald eine Person markiert ist](assets/coaching_events_absences_authorize_v1_de.png){ class="shadow lightbox" title="Tab Absenzen im Werkzeug Termine des Coachings" }
+![Markierter Button Absenz entschuldigen erscheint über der Liste, sobald bei einer Absenz ein Häkchen gesetzt ist](assets/coaching_events_absences_authorize_v2_de.png){ class="shadow lightbox" title="Tab Absenzen im Werkzeug Termine des Coachings · 2026.10.09" }
 
 [Zum Seitenanfang ^](#events)
 
@@ -88,7 +94,7 @@ Um eine Absenz zu entschuldigen, setzen Sie in der ersten Spalte ein Häkchen be
 
 Im Tab "Meldungen" stehen unter "Abmeldungen und Dispense" alle Meldungen zu Absenzen und Dispensen.
 
-![Filter Art der Meldung, Entschuldigt und Unentschuldigt, Grund und Datum sowie die Buttons Neue Absenzmeldung erfassen, Neue Dispens erfassen und Abmeldung](assets/coaching_events_absences_tab_notices_v1_de.png){ class="shadow lightbox" title="Tab Meldungen im Werkzeug Termine des Coachings" }
+![Markierte Filter grenzen die Liste der Meldungen ein, die markierten Buttons erfassen eine neue Absenzmeldung, eine neue Dispens oder eine Abmeldung](assets/coaching_events_absences_tab_notices_v2_de.png){ class="shadow lightbox" title="Tab Meldungen im Werkzeug Termine des Coachings · 2026.10.09" }
 
 Mit den Feldern über der Liste grenzen Sie die Meldungen ein:
 
@@ -96,6 +102,7 @@ Mit den Feldern über der Liste grenzen Sie die Meldungen ein:
 * **Art der Meldung**: "Ohne Abmeldung", "Abgemeldet" oder "Dispensiert", dazu ein Häkchen bei "Entschuldigt", "Unentschuldigt" oder beiden.
 * **Grund**: die Absenzenbegründungen, die Administrator:innen vorgegeben haben, zum Beispiel Krankheit.
 * **Datum**: der Zeitraum, in dem die Meldungen liegen.
+* **Anzeige**: "Alle" oder nur "Unentschuldigt".
 
 Eine neue Meldung erfassen Sie mit den Buttons "Neue Absenzmeldung erfassen", "Neue Dispens erfassen" und "Abmeldung".
 
@@ -112,10 +119,12 @@ In diesem Tab sehen Sie die eingereichten Rekurse zu Ihren Terminen. Den Tab gib
 Mit den Feldern über der Liste grenzen Sie die Rekurse ein:
 
 * **Suche**: nach Benutzer:innen, Dozent:innen und Terminen.
-* **Status**: "Pendent", "Abgelehnt" oder "Angenommen", einzeln oder zusammen.
+* **Status**: "Pendent", "Abgelehnt" oder "Angenommen", einzeln oder zusammen. Voreingestellt ist "Pendent".
 * **Datum**: der Zeitraum, in dem die Rekurse liegen.
 
-![Suchfeld, Statusfilter Pendent, Abgelehnt, Angenommen und Datumsbereich über der Rekursliste](assets/coaching_events_absences_tab_appeals_v1_de.png){ class="shadow lightbox" title="Tab Rekurse im Werkzeug Termine des Coachings" }
+Liegen offene Rekurse vor, nennt ein Hinweis über der Liste deren Anzahl.
+
+![Markiertes Suchfeld mit Statusfilter auf Pendent und Datumsbereich über der Rekursliste mit einem pendenten Rekurs, darüber der Hinweis auf einen offenen Rekurs](assets/coaching_events_absences_tab_appeals_v2_de.png){ class="shadow lightbox" title="Tab Rekurse im Werkzeug Termine des Coachings · 2026.10.09" }
 
 [Zum Seitenanfang ^](#events)
 

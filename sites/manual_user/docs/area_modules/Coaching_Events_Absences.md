@@ -1,6 +1,6 @@
 # Coaching - Events and Absences {: #events}
 
-![Marked button Events / Absences under Assignments leads to the cross-course event and absence management](assets/coaching_events_absences1_v1_en.png){ class="shadow lightbox" title="Coaching entry page" }
+![Marked button Events / Absences under Assignments leads to the cross-course event and absence management](assets/coaching_events_absences1_v2_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.10.09" }
 
 !!! info "Prerequisites"
 
@@ -13,7 +13,7 @@ Here you see the events and absences across all courses you are responsible for.
 
 ## As coach - As master coach [:octicons-tag-16:{ title="from Release 14.1 (OO-4216)" }](https://track.frentix.com/issue/OO-4216) {: #tabs_coach-master_coach}
 
-![Marked buttons As coach and As master coach above the tab bar](assets/coaching_events_absences_events_coach-master_v1_en.png){ class="shadow lightbox" title="Events tool of Coaching" }
+![Marked buttons As coach and As master coach above the tab bar switch the role for which you see events and absences](assets/coaching_events_absences_events_coach-master_v2_en.png){ class="shadow lightbox" title="Events tool of Coaching · 2026.10.09" }
 
 If you are a teacher of events and at the same time master coach of an implementation, you choose above the tab bar for which role you see the events and absences:
 
@@ -29,15 +29,19 @@ If you have only one of the two roles, the buttons are missing and you see the e
 
 ## Tab Cockpit [:octicons-tag-16:{ title="from Release 14.1 (OO-4215)" }](https://track.frentix.com/issue/OO-4215) {: #tab_cockpit}
 
-In the "Cockpit" tab you see the "Daily overview" with the sections "Events", "Absences" and "Notices" for today. What they contain depends on whether you have chosen "As coach" or "As master coach" above. Use the arrows and the date field on the right to switch to another day.
+In the "Cockpit" tab you see the "Daily overview" with the sections "Events", "Absences" and "Notices" for today. What they contain depends on whether you have chosen "As coach" or "As master coach" above. In the role "As master coach", the section "Events" is missing. Use the arrows and the date field on the right to switch to another day.
 
-![Daily overview with date selection, one event with counters and book icon, below it the recorded absences and the section Notices with the display All or Unauthorized](assets/coaching_events_absences_tab_events_cockpit_v1_en.png){ class="shadow lightbox" title="Tab Cockpit in the Events tool of Coaching" }
+If events of past days are not closed yet, a notice above the list names these days. A click on a day shows its daily overview.
+
+![Marked date selection, event with counters and button to close the absence recording in the daily overview, below it the absences and notices of the day](assets/coaching_events_absences_tab_events_cockpit_v2_en.png){ class="shadow lightbox" title="Tab Cockpit in the Events tool of Coaching · 2026.10.09" }
 
 A click on the book icon in the row of an event lets you record the absences.
 
 In the 3-dot menu at the end of the row, you export the event as an Excel file with "Export" and download the "Absence list" and the "Attendance list" as PDF.
 
-A click on the course title opens the events of this course. There you close the absence recording for a day.
+A click on the course title opens the events of this course.
+
+If the [Daily recording of absences](../../manual_admin/administration/Modules_Events_and_Absences.md#daily_absence_recording) is switched on in the administration, the button "Close events for ..." stands below the list in the role "As coach". After a confirmation, it closes all events of this day.
 
 [To the top of the page ^](#events)
 
@@ -48,7 +52,9 @@ A click on the course title opens the events of this course. There you close the
 
 In the "Events" tab you see all events you are responsible for. Use the buttons for the period, the tabs and the filters to narrow down the list.
 
-![Period buttons Today and upcoming, Last 3 months and Custom, filter tabs, filters Product, Execution, Teachers and Absences as well as the event list with status](assets/coaching_events_absences_tab_events_events_v1_en.png){ class="shadow lightbox" title="Tab Events in the Events tool of Coaching" }
+If absences still need to be recorded for events, a notice above the buttons shows their number. The link "Show event(s) with open absences" shows only these events.
+
+![Period buttons, filter tabs and filters Product, Execution, Teachers and Absences narrow down the event list with status, book icon and asterisk symbol](assets/coaching_events_absences_tab_events_events_v2_en.png){ class="shadow lightbox" title="Tab Events in the Events tool of Coaching · 2026.10.09" }
 
 With the gear icon at the top right above the list, you choose which columns the list shows. In the row of an event you find:
 
@@ -73,11 +79,11 @@ In the "Absences" tab you then see the recorded absences. Use the fields above t
 * **Date**: the period the absences fall in.
 * **Display**: "All" or only "Unauthorized".
 
-![Search field, date range and display All or Unauthorized above the list of recorded absences with date, course, event, location, absent and authorized](assets/coaching_events_absences_tab_absences1_v1_en.png){ class="shadow lightbox" title="Tab Absences in the Events tool of Coaching" }
+![Marked search field with date range and marked display All or Unauthorized narrow down the list of recorded absences with date, course, event, location, absent and authorized](assets/coaching_events_absences_tab_absences1_v2_en.png){ class="shadow lightbox" title="Tab Absences in the Events tool of Coaching · 2026.10.09" }
 
 To excuse an absence, tick the absence in the first column. The "Authorize absence" button then appears above the list.
 
-![Button Authorize absence above the list as soon as a person is selected](assets/coaching_events_absences_authorize_v1_en.png){ class="shadow lightbox" title="Tab Absences in the Events tool of Coaching" }
+![Marked button Authorize absence appears above the list as soon as an absence is ticked](assets/coaching_events_absences_authorize_v2_en.png){ class="shadow lightbox" title="Tab Absences in the Events tool of Coaching · 2026.10.09" }
 
 [To the top of the page ^](#events)
 
@@ -88,7 +94,7 @@ To excuse an absence, tick the absence in the first column. The "Authorize absen
 
 In the "Notices" tab, all notices on absences and dispensations are listed under "Notices of absence / dispensations".
 
-![Filters Type of notice, Authorized and Not authorized, Reason and Date, the buttons Record new absence, Record new dispensation and Record new notice of absence and one notice](assets/coaching_events_absences_tab_notices_v1_en.png){ class="shadow lightbox" title="Tab Notices in the Events tool of Coaching" }
+![Marked filters narrow down the list of notices, the marked buttons record a new absence, a new dispensation or a new notice of absence](assets/coaching_events_absences_tab_notices_v2_en.png){ class="shadow lightbox" title="Tab Notices in the Events tool of Coaching · 2026.10.09" }
 
 Use the fields above the list to narrow down the notices:
 
@@ -96,6 +102,7 @@ Use the fields above the list to narrow down the notices:
 * **Type of notice**: "Without notification", "Notice of absence" or "Dispensation", plus a tick at "Authorized", "Not authorized" or both.
 * **Reason**: the reasons of absence predefined by administrators, for example illness.
 * **Date**: the period the notices fall in.
+* **Display**: "All" or only "Unauthorized".
 
 You record a new notice with the buttons "Record new absence", "Record new dispensation" and "Record new notice of absence".
 
@@ -112,10 +119,12 @@ In this tab you see the appeals submitted for your events. The tab only exists i
 Use the fields above the list to narrow down the appeals:
 
 * **Search**: for users, coaches and events.
-* **Status**: "Pending", "Rejected" or "Approved", one or several together.
+* **Status**: "Pending", "Rejected" or "Approved", one or several together. "Pending" is preselected.
 * **Date**: the period the appeals fall in.
 
-![Search field, status filter Pending, Rejected, Approved and date range above the appeal list with one pending appeal](assets/coaching_events_absences_tab_appeals_v1_en.png){ class="shadow lightbox" title="Tab Appeals in the Events tool of Coaching" }
+If there are pending appeals, a notice above the list shows their number.
+
+![Marked search field with status filter set to Pending and date range above the appeal list with one pending appeal, above it the notice about one pending appeal](assets/coaching_events_absences_tab_appeals_v2_en.png){ class="shadow lightbox" title="Tab Appeals in the Events tool of Coaching · 2026.10.09" }
 
 [To the top of the page ^](#events)
 
