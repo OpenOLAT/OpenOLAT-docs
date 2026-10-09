@@ -7,6 +7,12 @@ a green bar on the left; a red dash marks the place where lines were removed
 uncommitted and untracked changes, so the preview shows everything that is not
 live yet. Set OO_DIFF_BASE to compare against another ref, e.g. HEAD.
 
+Set OO_DIFF_BASE to an issue ID (e.g. OODOC-640) to see what an issue changed,
+also after the push: the hook finds the commits whose message names the issue,
+and compares every file they touched against its state before the first of these
+commits, up to the working tree. Changes of other commits in between on the same
+file are marked too.
+
 A block is a paragraph, a heading, a list item, a table row or an image line.
 Lines inside code fences, admonition titles, raw HTML and table separator rows
 are never touched. The marker is an empty <span> at the start of the block's
@@ -19,11 +25,15 @@ not as a markdown extension (unlike oo_icons) because it needs the source path
 of the page, which only on_page_markdown provides.
 """
 import difflib
+import logging
 import os
 import re
 import subprocess
 
 BASE = os.environ.get("OO_DIFF_BASE", "origin/master")
+ISSUE_RE = re.compile(r"^[A-Z][A-Z0-9]*-\d+$")
+
+log = logging.getLogger("mkdocs.hooks.oo_diffmark")
 
 PREFIX_RE = re.compile(r"^(\s*(?:#{1,6}\s+|[-*+]\s+|\d+\.\s+|>\s*|\|\s*)?)")
 UNIT_START_RE = re.compile(r"^\s*(?:#{1,6}\s|[-*+]\s|\d+\.\s|\|)")
@@ -48,11 +58,22 @@ STYLE = """
 """
 
 _root = None
-_changed = set()
+_changed = {}  # source path relative to the repo -> base ref to compare against
 
 
 def _git(*args):
 	return subprocess.run(["git", "-C", _root, *args], capture_output=True, text=True).stdout
+
+
+def _issue_bases(issue):
+	"""Map every file the issue's commits touched to the parent of its first such commit."""
+	commits = _git("log", "--reverse", "--format=%H", "-E", f"--grep={issue}([^0-9]|$)", "HEAD").split()
+	bases = {}
+	for commit in commits:
+		for path in _git("diff-tree", "--no-commit-id", "--name-only", "-r", commit, "--", "*.md").split():
+			bases.setdefault(path, f"{commit}^")
+	log.info(f"oo_diffmark: {issue}: {len(commits)} commits, {len(bases)} pages")
+	return bases
 
 
 def on_config(config):
@@ -61,10 +82,13 @@ def on_config(config):
 		["git", "-C", os.path.dirname(os.path.abspath(config.config_file_path)), "rev-parse", "--show-toplevel"],
 		capture_output=True, text=True).stdout.strip()
 	if not _root:
-		_changed = set()
+		_changed = {}
 		return config
-	_changed = set(_git("diff", "--name-only", BASE, "--", "*.md").split())
-	_changed |= set(_git("ls-files", "--others", "--exclude-standard", "--", "*.md").split())
+	if ISSUE_RE.match(BASE):
+		_changed = _issue_bases(BASE)
+		return config
+	_changed = dict.fromkeys(_git("diff", "--name-only", BASE, "--", "*.md").split(), BASE)
+	_changed.update(dict.fromkeys(_git("ls-files", "--others", "--exclude-standard", "--", "*.md").split(), BASE))
 	return config
 
 
@@ -111,7 +135,7 @@ def on_page_markdown(markdown, page, config, files):
 	rel = os.path.relpath(page.file.abs_src_path, _root)
 	if rel not in _changed:
 		return markdown
-	old = _strip_meta(_git("show", f"{BASE}:{rel}")).splitlines()
+	old = _strip_meta(_git("show", f"{_changed[rel]}:{rel}")).splitlines()
 	new = markdown.splitlines()
 
 	added, deleted = set(), {}

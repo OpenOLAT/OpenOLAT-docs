@@ -94,9 +94,17 @@ for p in cfg['plugins']:
 CONFIG="mkdocs.local.${SITE}.${LANG}.${PORT}.yml"
 trap 'rm -f "$CONFIG"' EXIT
 
-# The preview shows the "last update" date of every page and marks every block
-# that differs from origin/master (committed, uncommitted or untracked), see
-# hooks/oo_diffmark.py. Set OO_DIFF_BASE to compare against another ref.
+# The preview marks every block that differs from origin/master (committed,
+# uncommitted or untracked), see hooks/oo_diffmark.py. Set OO_DIFF_BASE to
+# compare against another ref, or to an issue ID (e.g. OODOC-640) to mark what
+# the commits of that issue changed, also after the push.
+# The "last update" date of the pages costs build time and is off; set
+# OO_PAGE_DATE=1 to show it.
+PAGE_DATE=""
+if [ "${OO_PAGE_DATE:-}" = "1" ]; then
+	PAGE_DATE="  - git-revision-date-localized"
+fi
+
 cat > "$CONFIG" <<EOF
 INHERIT: mkdocs.yml
 
@@ -116,7 +124,7 @@ plugins:
           name: Deutsch
           build: true
 ${NAV_TRANSLATIONS}
-  - git-revision-date-localized
+${PAGE_DATE}
   - search:
       lang:
 ${SEARCH_LANGS}
