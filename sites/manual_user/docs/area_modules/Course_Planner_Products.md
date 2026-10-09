@@ -48,7 +48,7 @@ After activation, system administrators can activate and set up the module at:<b
 
 ## Create product {: #create_product}
 
-To create a product, open the Course Planner and then the "Products" subsection.
+To create a product, open the Course Planner and then the "Products" subsection. Course planners and administrators see the "Create product" button.
 
 ![With the Create product button at the top right above the list you add a product, the table shows reference, organisation and the number of implementations by status per product](assets/course_planner_products2_v3_en.png){ class="shadow lightbox" title="Products page in the Course Planner · 2026.10.09" }
 
@@ -154,9 +154,9 @@ If a course already has coaches or participants, its usage can no longer be chan
 **Mentioned on this page**<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
-[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
-[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
+[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>

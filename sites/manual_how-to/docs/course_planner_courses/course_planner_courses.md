@@ -111,7 +111,7 @@ Under the "Create" button, you will find a selection of [element types](../../ma
 
 All planned implementations of this product can then be found in the list under this tab. You can select any implementation and customize it according to your requirements.
 
-Instead of creating new implementations using the button above the list, you can also create a copy of an implementation that has already been planned and modified. The action "Copy element" can be found in the menu of the three dots at the end of a line.
+Instead of creating new implementations using the button above the list, you can also create a copy of an implementation that has already been planned and modified. The action "Copy element" can be found in the menu of the three dots at the end of a line. Depending on your rights, the same menu also offers "Open in a new Tab", "Edit", "Members management" (see step 8), "Export" and "Delete".
 
 ![The menu of the three dots at the end of an implementation's row contains the entry Copy element, which lets you reuse a planned implementation as a template](assets/course_planner_curriculum_implementations3_v2_en.png){ class="shadow lightbox" title="List of implementations of a product · 2026.10.09" }
 
@@ -130,6 +130,8 @@ Once a new implementation has been created and set up (the process/program for t
 
 You define the execution period, that is when an implementation takes place, when configuring the implementation:<br>
 `Course Planner > Implementations > "Title of the implementation" > Tab "Settings" > Sub-tab "Execution"`
+
+Under "Execution period", choose "Anytime", "Begin and end date" or "One-day". With "Begin and end date", enter the begin and the end in the "Dates" field; with "One-day", enter the day in the "Date" field. With "Anytime", the implementation has no fixed period. The execution period has no effect on visibility and access for the members. Time-controlled automation rules, however, depend on its begin or end (see step 10).
 
 ![In the Settings tab, sub-tab Execution, you choose Anytime, Begin and end date or One-day for the execution period and enter the dates in the Dates field](assets/course_planner_courses_implementation_settings_v2_en.png){ class="shadow lightbox" title="Settings tab of an implementation · 2026.10.09" }
 
@@ -377,8 +379,7 @@ To create a report, click one of the arrows in the "Run" column.
 
 ![On the Reports page of the Course Planner, you create a report from the desired template for booking orders with the arrow in the Run column](assets/course_planner_courses_reports2_v2_en.png){ class="shadow lightbox" title="Reports page in the Course Planner · 2026.10.09" }
 
-The Excel files created in this way are listed at the bottom of the screen.
-They can be copied, deleted and downloaded.
+The Excel files created in this way are listed below in the "Generated reports" section. They can be copied, deleted and downloaded. A report is kept for 10 days, after which OpenOlat deletes it. Its row shows how long it remains, for example "10 more days".
 
 ![The Generated reports section lists the created Excel files by month, each with the actions Info, Copy to, Delete and Download](assets/course_planner_courses_reports3_v2_en.png){ class="shadow lightbox" title="Reports page in the Course Planner · 2026.10.09" }
 
@@ -409,8 +410,7 @@ The sub-tab is only available if the element type of the implementation is set t
 
 ![In the Automation sub-tab of an implementation, the rules adopted from the element type are listed, in the Content context the instantiation of the course and the status changes of the course](assets/course_planner_courses_implementations_tab_settings_automation_v2_en.png){ class="shadow lightbox" title="Settings tab of an implementation · 2026.10.09" }
 
-You can determine when automated instantiation should take place.<br>
-This also includes the option to automatically change the course status.
+Under "Configuration", you choose whether the implementation adopts the rules of its element type or whether you define them yourself with "Override". The rules in the "Content" context determine when the course is instantiated from the course template and when its course status changes automatically. The rules in the "Implementation" context change the status of the implementation itself, for example to "Confirmed" before the begin or to "Finished" at the end of the execution period.
 
 You can find more about the automation in the user manual under:<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation)

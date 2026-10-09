@@ -180,17 +180,15 @@ Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen
 
 ![Zwei markierte Kurse und darüber die Buttons Status ändern und Entfernen, rechts oben der Button Kurs hinzufügen](assets/course_planner_implementations_tab_content_v2_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung · 2026.09.30" }
 
-<br>
+#### Automatisch gesteuerte Kursinhalte {: #content_automation}
 
-**Automatisch gesteuerte Kursinhalte**<br>
 Steuern Automatisierungsregeln den Inhalt dieser Durchführung, erscheint oberhalb der Liste der Abschnitt «Übersicht Automatisierung». Aufgeführt sind nur aktive Regeln, die den Inhalt betreffen. Zu jeder Regel sehen Sie die Art der Regel, also «Instanziierung» oder den Zielstatus, dazu das Datum der geplanten Ausführung und die Bedingung, die die Ausführung auslöst. Über den Link «Einstellungen» wechseln Sie direkt zur [Konfiguration der Automatisierung](#tab_settings_automation).
 
 ![Die Infobox Übersicht Automatisierung mit Art, geplantem Ausführungsdatum und auslösender Bedingung je Regel sowie dem Link Einstellungen](assets/course_planner_implementations_tab_content_automation_v1_de.png){ class="shadow lightbox" title="Tab Kursinhalt einer Durchführung" }
 
-<br>
+#### Kurstemplates als Kursinhalt [:octicons-tag-16:{ title="ab Release 20.0 (OO-8424)" }](https://track.frentix.com/issue/OO-8424){:target="_blank"} {: #content_course_templates}
 
-**Kurstemplates als Kursinhalt**<br>
-Wenn es dem gewählten Durchführungstyp (Einzelkurs erforderlich) entspricht, besteht die Möglichkeit auch ein Kurstemplate hinzuzufügen, das zu einem späteren Zeitpunkt instanziiert werden kann. Das heisst, zum Zeitpunkt der Planung im Course Planner ist ein Kurs nur angekündigt, aber noch nicht hinzugefügt. Erst wenn die Kursdurchführung tatsächlich stattfindet, weil z.B. genügend Buchungsaufträge vorhanden sind, wird der Kurs der Durchführung hinzugefügt (instanziiert).
+Steht beim Elementtyp der Durchführung "Max. Kursreferenzen" auf "1 Template/Kurs", können Sie auch ein Kurstemplate hinzufügen, das zu einem späteren Zeitpunkt instanziiert werden kann. Das heisst, zum Zeitpunkt der Planung im Course Planner ist ein Kurs nur angekündigt, aber noch nicht hinzugefügt. Erst wenn die Kursdurchführung tatsächlich stattfindet, weil z.B. genügend Buchungsaufträge vorhanden sind, wird der Kurs der Durchführung hinzugefügt (instanziiert).
 
 Die Verwendung eines Templates zur Instanziierung empfiehlt sich, wenn es sich um einen immer wiederkehrenden gleichen Kurs handelt.
 
@@ -198,7 +196,8 @@ Die Verwendung eines Templates zur Instanziierung empfiehlt sich, wenn es sich u
 
 Die Buttons "Kurs hinzufügen" und "Kurstemplate hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
 
-**Erstellung von Kurstemplates**<br>
+#### Erstellung von Kurstemplates {: #create_course_templates}
+
 Kurstemplates werden erstellt, indem im Kurs unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"` der Verwendungszweck "Template" gewählt wird. Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
 
 
@@ -280,7 +279,7 @@ Wenn Teilnehmer:innen einer Durchführung zugewiesen werden, erhalten sie je nac
 - Zuweisung zu einem **Bildungsprodukt**: Benachrichtigung mit Link in den Kursbereich
 - Zuweisung zu einer **Gruppe**: Benachrichtigung mit Link in den Gruppenbereich
 
-Im Kursbereich, im Gruppenbereich sowie direkt auf der Kurs- oder Bildungsprodukt-Info-Seite erscheint die Hinweisbox **"Anfragen zur Mitgliedschaft akzeptieren"**. Teilnehmer:innen können die Anfrage dort annehmen oder ablehnen. Eine Annahme ist an allen drei Stellen gleichermassen möglich.
+Im Kursbereich, im Gruppenbereich sowie direkt auf der Kurs- oder Bildungsprodukt-Info-Seite erscheint die Hinweisbox **"Anfragen zur Mitgliedschaft akzeptieren"**. Teilnehmer:innen können die Anfrage dort annehmen oder ablehnen. Eine Annahme ist an allen drei Stellen gleichermassen möglich. Mit "Später" schliessen sie die Hinweisbox, ohne zu entscheiden.
 
 ![Die Hinweisbox Anfragen zur Mitgliedschaft akzeptieren mit den Aktionen Details, Akzeptieren und Ablehnen](assets/course_planner_implementations_accept_membership_v1_de.png){ class="shadow lightbox" title="Kursbereich einer eingeladenen Person" }
 
@@ -296,6 +295,8 @@ Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manu
 
 
 Im Course Planner kann eingerichtet werden, dass ein Buchungswunsch von einer administrativen Rolle (z.B. Linienvorgesetzte:r oder Ausbildungsverantwortliche:r) bestätigt werden muss. Mit dieser Einstellung können Teilnehmende einen Kurs buchen; die vorgesetzte Person muss die Buchung aber in einem Zwischenschritt bestätigen oder ablehnen.
+
+Fügen Sie Teilnehmer:innen selbst hinzu, wählen Sie im Schritt "Mitgliedschaft" des Assistenten "Mit Bestätigung". Unter "Bestätigung durch" legen Sie fest, ob "Administrative Rollen" oder die "Teilnehmer:in" selbst bestätigt, und unter "Bestätigung bis" das Datum, bis zu dem die Bestätigung erfolgen muss. Mit "Standard" ist die Mitgliedschaft sofort aktiv.
 
 Dieser Genehmigungsschritt kann auch in allen Angeboten eingerichtet werden, ausser bei Bezahlung mit Paypal (denn dort wird sofort bezahlt/gebucht).
 

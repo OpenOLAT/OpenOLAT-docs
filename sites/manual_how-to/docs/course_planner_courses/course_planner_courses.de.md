@@ -114,7 +114,7 @@ Unter dem Button "Erstellen" finden Sie eine Auswahl an [Elementtypen](../../man
 
 Alle geplanten Durchführungen dieses Produkts finden Sie anschliessend in der Liste unter diesem Tab. Sie können jede Durchführung wählen und sie entsprechend Ihren Wünschen anpassen.
 
-Statt neue Durchführungen mit dem Button über der Liste zu erstellen, können Sie auch von einer bereits geplanten und modifizierten Durchführung eine Kopie erzeugen. Die Aktion "Element kopieren" finden Sie im Menü der 3 Punkte am Ende einer Zeile.
+Statt neue Durchführungen mit dem Button über der Liste zu erstellen, können Sie auch von einer bereits geplanten und modifizierten Durchführung eine Kopie erzeugen. Die Aktion "Element kopieren" finden Sie im Menü der 3 Punkte am Ende einer Zeile. Je nach Ihren Rechten bietet dasselbe Menü auch "In neuem Tab öffnen", "Bearbeiten", "Mitgliederverwaltung" (siehe Schritt 8), "Export" und "Löschen".
 
 ![Das Menü der drei Punkte am Zeilenende einer Durchführung enthält den Eintrag Element kopieren, mit dem Sie eine geplante Durchführung als Vorlage weiterverwenden](assets/course_planner_curriculum_implementations3_v2_de.png){ class="shadow lightbox" title="Liste der Durchführungen eines Produkts · 2026.10.09" }
 
@@ -133,6 +133,8 @@ Wenn eine neue Durchführung erstellt und eingerichtet worden ist (der Ablauf / 
 
 Den Durchführungszeitraum, also wann eine Durchführung stattfindet, legen Sie bei der Konfiguration der Durchführung fest:<br>
 `Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Unter-Tab "Durchführung"`
+
+Unter "Durchführungszeitraum" wählen Sie "Jederzeit", "Beginn- und Enddatum" oder "Eintägig". Bei "Beginn- und Enddatum" tragen Sie im Feld "Zeitraum" Beginn und Ende ein, bei "Eintägig" im Feld "Datum" den Tag. Mit "Jederzeit" bleibt die Durchführung ohne festen Zeitraum. Auf Sichtbarkeit und Zugang für die Mitglieder wirkt sich der Durchführungszeitraum nicht aus. Zeitgesteuerte Regeln der Automatisierung richten sich aber nach seinem Beginn oder Ende (siehe Schritt 10).
 
 ![Im Tab Einstellungen, Unter-Tab Durchführung, wählen Sie beim Durchführungszeitraum Jederzeit, Beginn- und Enddatum oder Eintägig und tragen im Feld Zeitraum die Daten ein](assets/course_planner_courses_implementation_settings_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung · 2026.10.09" }
 
@@ -380,8 +382,7 @@ Klicken Sie zum Erstellen eines Reports auf einen der Pfeile in der Spalte "Ausf
 
 ![Auf der Seite Reports des Course Planners erstellen Sie mit dem Pfeil in der Spalte Ausführen einen Report aus der gewünschten Vorlage für Buchungsaufträge](assets/course_planner_courses_reports2_v2_de.png){ class="shadow lightbox" title="Seite Reports im Course Planner · 2026.10.09" }
 
-Die so erstellten Excel-Dateien finden Sie im unteren Bereich des Screens aufgelistet.
-Sie können kopiert, gelöscht und heruntergeladen werden.
+Die so erstellten Excel-Dateien finden Sie darunter im Bereich "Generierter Report". Sie können kopiert, gelöscht und heruntergeladen werden. Ein Report bleibt 10 Tage gespeichert, danach löscht OpenOlat ihn. Wie lange er noch bleibt, zeigt seine Zeile an, etwa "Noch 10 Tage".
 
 ![Im Bereich Generierter Report stehen die erstellten Excel-Dateien nach Monat, jede mit den Aktionen Info, Kopieren nach, Löschen und Herunterladen](assets/course_planner_courses_reports3_v2_de.png){ class="shadow lightbox" title="Seite Reports im Course Planner · 2026.10.09" }
 
@@ -412,8 +413,7 @@ Den Unter-Tab gibt es nur, wenn der Elementtyp der Durchführung unter "Verwendu
 
 ![Im Unter-Tab Automatisierung einer Durchführung stehen die Regeln, die vom Elementtyp übernommen sind, im Kontext Inhalt die Instanziierung des Kurses und die Statusänderungen des Kurses](assets/course_planner_courses_implementations_tab_settings_automation_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung · 2026.10.09" }
 
-Sie können bestimmen, wann die automatisierte Instanziierung erfolgen soll.<br>
-Damit einhergehend besteht auch die Möglichkeit, den Kursstatus automatisch zu ändern.
+Unter "Konfiguration" wählen Sie, ob die Durchführung die Regeln ihres Elementtyps übernimmt oder ob Sie sie mit "Überschreiben" eigens festlegen. Die Regeln im Kontext "Inhalt" bestimmen, wann der Kurs aus dem Kurstemplate instanziiert wird und wann sich sein Kursstatus automatisch ändert. Die Regeln im Kontext "Durchführung" ändern den Status der Durchführung selbst, etwa auf "Bestätigt" vor dem Beginn oder auf "Beendet" zum Ende des Durchführungszeitraums.
 
 Mehr zur Automatisierung finden Sie im Benutzerhandbuch unter:<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation)

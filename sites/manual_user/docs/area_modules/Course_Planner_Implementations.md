@@ -173,17 +173,15 @@ To **remove several courses**, select the courses with the checkboxes in the fir
 
 ![Two selected courses with the Change status and Remove buttons above them, at the top right the Add course button](assets/course_planner_implementations_tab_content_v2_en.png){ class="shadow lightbox" title="Content tab of an implementation · 2026.09.30" }
 
-<br>
+#### Automatically controlled course content {: #content_automation}
 
-**Automatically controlled course content**<br>
 If automation rules control the content of this implementation, the "Automation overview" section appears above the list. Only active rules that concern the content are listed. For each rule you see the type of rule, either "Instantiation" or the target status, plus the date of the planned execution and the condition that triggers the execution. Use the "Settings" link to switch directly to the [automation configuration](#tab_settings_automation).
 
 ![The Automation overview info box with type, planned execution date and triggering condition per rule as well as the Settings link](assets/course_planner_implementations_tab_content_automation_v1_en.png){ class="shadow lightbox" title="Content tab of an implementation" }
 
-<br>
+#### Course template as course content [:octicons-tag-16:{ title="from Release 20.0 (OO-8424)" }](https://track.frentix.com/issue/OO-8424){:target="_blank"} {: #content_course_templates}
 
-**Course template as course content**<br>
-If it corresponds to the selected implementation type (Single course required), it is also possible to add a course template that can be instantiated at a later date. This means that at the time of planning in the Course Planner, a course is only announced but not yet added. Only when the course is actually held, for example, because there are enough bookings, is the course added to the implementation (instantiated).
+If "Max. course references" is set to "1 template/course" for the element type of the implementation, you can also add a course template that can be instantiated at a later date. This means that at the time of planning in the Course Planner, a course is only announced but not yet added. Only when the course is actually held, for example, because there are enough bookings, is the course added to the implementation (instantiated).
 
 Using a template for instantiation is recommended if it is a recurring course that is always the same.
 
@@ -191,7 +189,8 @@ Using a template for instantiation is recommended if it is a recurring course th
 
 The "Add course" and "Add course template" buttons become inactive once the number of courses or templates corresponding to the selected implementation type has been added.
 
-**Creation of course templates**<br>
+#### Creation of course templates {: #create_course_templates}
+
 Course templates are created by selecting the usage "Template" in the course under `Course > Administration > Settings > Tab "Share" > Section "Usage"`. The templates for course content in Course Planner do not have independent member management, as members are added in the Course Planner for each implementation.
 
 !!! info "Important"
@@ -270,7 +269,7 @@ When participants are assigned to an implementation, they receive a system notif
 - Assignment to an **educational product**: notification with a link to the course area
 - Assignment to a **group**: notification with a link to the group area
 
-The notification box **"Accept membership requests"** appears in the course area, in the group area, and directly on the course or educational product info page. Participants can accept or decline the request there. Acceptance is possible equally at all three locations.
+The notification box **"Accept membership requests"** appears in the course area, in the group area, and directly on the course or educational product info page. Participants can accept or decline the request there. Acceptance is possible equally at all three locations. With "Later", they close the notification box without deciding.
 
 ![The notification box Accept membership requests with the actions Details, Accept and Decline](assets/course_planner_implementations_accept_membership_v1_en.png){ class="shadow lightbox" title="Course area of an invited person" }
 
@@ -286,6 +285,8 @@ For administrators: [System-wide configuration of the invitation >](../../manual
 
 
 The Course Planner can be set up so that a booking request must be confirmed by an administrative role (e.g. a line manager or education manager). With this setting, users can book a course, but the manager must confirm or decline the booking in an intermediate step.
+
+If you add participants yourself, choose "With confirmation" in the "Membership" step of the wizard. Under "Confirmation by", you determine whether "Administrative roles" or the "Participant" confirms, and under "Confirmation until" the date by which the confirmation must take place. With "Standard", the membership is active immediately.
 
 This approval step can also be set up for all offers, except when paying with Paypal (since payment/booking there is immediate).
 

@@ -51,7 +51,7 @@ Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivie
 
 ## Produkt erstellen {: #create_product}
 
-Zum Erstellen eines Produkts öffnen Sie den Course Planner und dort den Unterbereich "Produkte".
+Zum Erstellen eines Produkts öffnen Sie den Course Planner und dort den Unterbereich "Produkte". Den Button "Produkt erstellen" sehen Kursplaner:innen und Administrator:innen.
 
 ![Mit dem Button Produkt erstellen rechts über der Liste legen Sie ein Produkt an, die Tabelle zeigt je Produkt Kennzeichen, Organisation und die Anzahl Durchführungen nach Status](assets/course_planner_products2_v3_de.png){ class="shadow lightbox" title="Seite Produkte im Course Planner · 2026.10.09" }
 
@@ -158,9 +158,9 @@ Hat ein Kurs schon Betreuer:innen oder Teilnehmer:innen, lässt sich der Verwend
 **Auf dieser Seite erwähnt**<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
-[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
-[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
+[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>

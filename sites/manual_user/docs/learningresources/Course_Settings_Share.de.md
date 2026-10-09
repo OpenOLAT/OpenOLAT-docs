@@ -37,7 +37,7 @@ Bei einem Kurs im Course Planner bleibt im Abschnitt Freigabe deshalb nur die Ad
 
 !!! info "Wichtig"
 
-    Der Abschnitt Externe OER-Kataloge und Suchmaschinen erscheint zusätzlich nur, wenn das Modul OAI-PMH aktiviert ist, und die Administrative Freigabe nur, wenn das Modul Organisationseinheiten aktiviert ist. Den Verwendungszweck "Verwendung im Course Planner" gibt es nur, wenn das Modul Course Planner aktiviert ist.
+    Der Abschnitt Externe OER-Kataloge und Suchmaschinen erscheint zusätzlich nur, wenn das Modul OAI-PMH aktiviert ist, und die Administrative Freigabe nur, wenn das Modul Organisationen aktiviert ist. Den Verwendungszweck "Verwendung im Course Planner" gibt es nur, wenn das Modul Course Planner aktiviert ist.
 
 Die Beschreibungen der folgenden Abschnitte gehen vom Verwendungszweck "Eigenständig" aus.
 
@@ -89,14 +89,17 @@ Hat ein Kurs bereits Mitglieder, ist eine Kopie der einfachste Weg in den Course
 
 ![Alle Einstellungen eines eigenständigen Kurses auf einen Blick: Zugang Privat, Direktlink, Austritt mit der Option Nie, Administrative Freigabe und die Rechte für Autor:innen](assets/course_settings_share_share_v4_de.png){ class="shadow lightbox" title="Abschnitt Freigabe im Tab Freigabe · 2026.10.09" }
 
-**Zugang für Teilnehmer:innen**<br>
+#### Zugang für Teilnehmer:innen {: #section_share_access}
+
 Bei der Wahl **"Privat"** werden die Teilnehmenden durch die Kursbesitzer:in bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, hinzugefügt. Dies geschieht unter `Kurs > Administration > Mitgliederverwaltung`. Es ist also wie eine persönliche Einladung in den Kurs durch Kursbesitzer:innen.<br>
 Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden einen Kurs selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben. Soll die Buchung nach Wahl eines Angebots im Katalog erfolgen, muss ebenfalls diese Option angewählt sein. 
 
-**Direktlink**<br> 
+#### Direktlink {: #section_share_direct_link}
+
 Wenn Sie diesen Link weitergeben, kann damit dieser Kurs direkt aufgerufen werden. Ist die Person noch nicht in OpenOlat bekannt (registriert) und eingeloggt, erscheint zunächst der Login-Bildschirm.
 
 #### Teilnehmer:innen können austreten [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #section_share_leave}
+
 **Jederzeit**: Möchten Teilnehmende ihre Mitgliedschaft im Kurs selbst beenden, können sie das jederzeit tun.<br>
 **Nach Kursenddatum oder Status "Beendet"**: Ein Beenden der Kursmitgliedschaft aus Eigeninitiative der Teilnehmenden ist erst möglich, sobald der Durchführungszeitraum abgelaufen ist oder der Kurs den Status "Beendet" hat. Wurde diese Option gewählt, ohne zuvor in der Beschreibung einen Durchführungszeitraum zu wählen, ist ein Austritt erst möglich, sobald der Kurs den Status "Beendet" erhält.<br>
 **Nie**: Der Besuch des Kurses ist Pflicht und Teilnehmer:innen können deshalb nicht selbst austreten.
@@ -105,15 +108,17 @@ Wenn Sie diesen Link weitergeben, kann damit dieser Kurs direkt aufgerufen werde
 
     Diese Einstellung gibt es nur bei Kursen mit dem Verwendungszweck **"Eigenständig"**. Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), erscheint sie im Tab Freigabe nicht, und den Teilnehmenden steht die Funktion "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung gebucht, stornieren sie die Buchung selbst: Sie öffnen im Katalog die Infoseite der Durchführung und wählen dort die Aktion "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Aktion "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Aktion erscheint nur bei einer Durchführung mit Anfangsdatum, bis zum Tag vor dem Beginn, und nur, wenn das Angebot stornierbar ist (siehe [Stornierungsbedingungen](../basic_concepts/Offer_Concepts.de.md#offer_invoice_cancellation)). Danach hilft die Verwaltung Ihrer Organisation weiter. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 
-**Administrative Freigabe**<br>
-Aus den hier ausgewählten Organisationseinheiten können Personen mit bestimmten übergeordneten Rollen (z.B. Administrator:innen, Lernressourcenverwalter:innen) ebenfalls auf diesen Kurs zugreifen. Weil es diese Rollen pro Organisationseinheit gibt (z.B. Admin für Abteilung xy), können Sie hier bestimmen, welche Organisationseinheiten administrativen Zugriff auf Ihren Kurs erhalten werden.
-Ist das Modul Organisationseinheiten nicht aktiviert, finden Sie hier nur eine einzige Organisation (in der Regel "OpenOlat").<br> 
-Wieviele Personen administrativ zugreifen können, sehen Sie in der [Freigabeübersicht >](#section_share_overview)
+#### Administrative Freigabe {: #section_share_admin_access}
 
-**Autor:innen können**<br>
+Aus den hier ausgewählten Organisationen können Personen mit bestimmten übergeordneten Rollen (z.B. Administrator:innen, Lernressourcenverwalter:innen) ebenfalls auf diesen Kurs zugreifen. Weil es diese Rollen pro Organisation gibt (z.B. Admin für Abteilung xy), können Sie hier bestimmen, welche Organisationen administrativen Zugriff auf Ihren Kurs erhalten. Das Feld erscheint nur, wenn das Modul Organisationen aktiviert ist.<br>
+Wie viele Personen administrativ zugreifen können, sehen Sie in der [Freigabeübersicht >](#section_share_overview)
+
+#### Autor:innen können {: #section_share_authors}
+
 Erlauben Sie hier, was andere Autor:innen mit Ihrem Kurs tun dürfen: "in Gruppen einbinden", "kopieren" und "Inhalt exportieren". Bei anderen Lernressourcen als Kursen heisst die erste Option "einbinden".
 
-**Externe OER-Kataloge und Suchmaschinen**<br>
+#### Externe OER-Kataloge und Suchmaschinen {: #section_share_oer}
+
 Mit OAI-PMH lassen sich Metadaten von Lernressourcen für Internet-Portale oder Kataloge ausserhalb OpenOlat freigeben, damit Suchmaschinen einen Inhalt besser finden können. (OER = Open Educational Resources)
 
 Die Funktion muss zunächst generell durch einen/eine Administrator:in aktiviert werden.<br>
@@ -163,9 +168,9 @@ Mehr über die Freigabe eines Kurses via LTI finden Sie hier:<br>
 
 ![Mitgliederzahlen nach Rolle, zugeordnete Gruppen und Produkte sowie administrativ Zugriffsberechtigte mit ihren Rechten](assets/course_settings_share_overview_v2_de.png){ class="shadow lightbox" title="Freigabeübersicht im Tab Freigabe" }
 
-Im Block **Mitglieder** finden Sie die Anzahl der Kursmitglieder, aufgegliedert nach Besitzer:innen, Betreuer:innen und Teilnehmer:innen.
+Im Block **Mitglieder** finden Sie die Anzahl der Kursmitglieder, aufgegliedert nach Besitzer:innen, Betreuer:innen und Teilnehmer:innen. Mit "Mitgliederverwaltung öffnen" wechseln Sie direkt in die Mitgliederverwaltung des Kurses.
 
-Im Block **Administrative Freigabe** sind alle Personen aufgeführt, die aufgrund ihrer Rolle ebenfalls Zugriff auf diesen Kurs haben.
+Im Block **Administrative Freigabe** steht je Rolle, wie viele Personen aufgrund dieser Rolle ebenfalls auf diesen Kurs zugreifen können und mit welchem Recht, etwa "Vollzugriff" für Lernressourcenverwalter:innen und Administrator:innen.
 
 Wurde der Kurs Gruppen zugeordnet, finden Sie die betreffenden Gruppen im Block **Gruppen** angezeigt.
 
@@ -178,16 +183,19 @@ Wurde der Kurs im Course Planner einem Produkt zugeordnet, finden Sie die Verwen
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
-[Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
 
 **Weiterführend**<br>
-[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kopieren (eines Kurses) >](../learningresources/Course_Copy.de.md)
 
 [Zum Seitenanfang ^](#tab_share)

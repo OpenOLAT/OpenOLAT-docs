@@ -37,7 +37,7 @@ For a course in the Course Planner, only the administrative access therefore rem
 
 !!! info "Important"
 
-    The External OER catalogues and search engines section additionally appears only if the OAI-PMH module is activated, and the administrative access only if the Organisational units module is activated. The usage "Use in Course Planner" exists only if the Course Planner module is activated.
+    The External OER catalogues and search engines section additionally appears only if the OAI-PMH module is activated, and the administrative access only if the Organisations module is activated. The usage "Use in Course Planner" exists only if the Course Planner module is activated.
 
 The descriptions of the following sections assume the usage "Standalone".
 
@@ -75,7 +75,7 @@ Except for "Standalone", member management does not take place in the course. Op
 If a course already has members, a copy is the simplest way into the Course Planner: it is created without coaches and participants and can be switched. The steps are described here:<br>
 [If the usage cannot be changed >](../../manual_how-to/course_planner_courses/course_planner_courses.md#embedding_locked)
 
-!!! tip "Note"
+!!! tip "Tip"
 
     When creating new courses, pay attention to the default usage setting. Administrators set the usage for new courses in the system administration, in the field "Usage for new courses" under:<br>
     `Administration > Modules > Course Planner > Tab "Settings"`
@@ -88,14 +88,17 @@ If a course already has members, a copy is the simplest way into the Course Plan
 
 ![All settings of a standalone course at a glance: access Private, direct link, leaving with the option Never, administrative access and the rights for authors](assets/course_settings_share_share_v4_en.png){ class="shadow lightbox" title="Share section in the Share tab · 2026.10.09" }
 
-**Access for participants**<br>
-If you select **"Private"**, participants will be added by the course owner or persons who have member management rights. This is done under `Course > Administration > Member management`. It is therefore like a personal invitation to the course by the course owner.
+#### Access for participants {: #section_share_access}
+
+If you select **"Private"**, participants will be added by the course owner or persons who have member management rights. This is done under `Course > Administration > Member management`. It is therefore like a personal invitation to the course by the course owner.<br>
 When selecting the option **"Bookable and open offers"**, learners can book a course themselves, but may have to enter a password (depending on the settings). If the booking is to be made after selecting an offer in the catalog, this option must also be selected. 
 
-**Direct link**<br> 
+#### Direct link {: #section_share_direct_link}
+
 If you share this link, this course can be accessed directly. If the person is not yet known (registered) in OpenOlat and logged in, the login screen will appear first.
 
 #### Participants can leave [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #section_share_leave}
+
 **At any time**: If participants wish to terminate their membership in the course themselves, they can do so at any time.<br>
 **After course end date or status "Finished"**: Participants can only terminate their course membership on their own initiative once the implementation period has ended or the course has the status "Finished". If this option is selected without first selecting an implementation period in the description, participants can only leave once the course reaches the status "Finished".<br>
 **Never**: Attendance at the course is compulsory, so participants cannot withdraw themselves.
@@ -104,15 +107,17 @@ If you share this link, this course can be accessed directly. If the person is n
 
     This setting exists only for courses with the usage **"Standalone"**. If the Course Planner manages the course instead (usage **"Use in Course Planner"**), it does not appear in the Share tab, and the "Leave course" function is not available to the participants. If participants have booked an implementation, they cancel the booking themselves: They open the info page of the implementation in the catalog and select the action "Cancel booking" there. If a cancellation fee applies, the action is called "Cancel booking for a fee", and the confirmation dialog states the amount. The action appears only for an implementation with a begin date, until the day before it begins, and only if the offer is cancelable (see [Cancellation policy](../basic_concepts/Offer_Concepts.md#offer_invoice_cancellation)). After that, the administration of your organisation can help. [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 
-**Administrative access**<br>
-People with certain higher-level roles (e.g., administrators, learning resource managers) can also access this course from the organizational units selected here. Because these roles exist per organizational unit (e.g., admin for department xy), you can determine here which organizational units will have administrative access to your course.
-If the Organizational Units module is not activated, you will only find a single organization here (usually "OpenOlat").<br>
+#### Administrative access {: #section_share_admin_access}
+
+People with certain higher-level roles (e.g., administrators, learning resource managers) can also access this course from the organisations selected here. Because these roles exist per organisation (e.g., admin for department xy), you can determine here which organisations have administrative access to your course. The field only appears if the Organisations module is activated.<br>
 You can see how many people have administrative access in the [share overview >](#section_share_overview).
 
-**Authors can**<br>
+#### Authors can {: #section_share_authors}
+
 Allow here what other authors may do with your course: "embed in groups", "copy" and "export content". For learning resources other than courses, the first option is called "embed".
 
-**External OER catalogs and search engines**<br>
+#### External OER catalogues and search engines {: #section_share_oer}
+
 OAI-PMH allows metadata from learning resources to be shared with Internet portals or catalogs outside OpenOlat, enabling search engines to find content more easily. (OER = Open Educational Resources)
 
 The function must first be activated by an administrator.<br>
@@ -132,7 +137,7 @@ Admin Manual: [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.md
 
 In order for a course to be listed in the catalog, an offer must be created. Multiple offers can also be created if the same course is to be offered under different conditions (e.g., free of charge for a specific target group, subject to a fee for others).
 
-In order to create an offer for the catalog, the option "Bookable and open offers" must be selected in the "Approval" section under "Access for participants." 
+In order to create an offer for the catalog, the option "Bookable and open offers" must be selected in the "Share" section under "Access for participants".
 
 You can find more information about offers and the catalog here:<br>
 [Catalog >](../area_modules/catalog2.0.md)<br>
@@ -148,6 +153,7 @@ You can find more information about offers and the catalog here:<br>
 
 OpenOlat courses can also be accessed from another LMS via LTI 1.3. However, this external access requires security measures and precisely defined permissions.<br>
 In this section, you can set up a deployment to make the course accessible for another LMS.
+
 You can find more information about sharing a course via LTI here:<br>
 [Configuring LTI access to a course >](../learningresources/LTI_Share_courses.md)<br>
 
@@ -159,9 +165,9 @@ You can find more information about sharing a course via LTI here:<br>
 
 ![Member counts by role, assigned groups and products, plus the administratively authorised persons with their rights](assets/course_settings_share_overview_v1_en.png){ class="shadow lightbox" title="Share overview in the Share tab · 2026.10.09" }
 
-In the **Members** block, you will find the number of course members, broken down by owners, coaches, and participants.
+In the **Members** block, you will find the number of course members, broken down by owners, coaches, and participants. With "Open members management", you switch directly to the member management of the course.
 
-The **Administrative access** block lists all persons who also have access to this course due to their role.
+The **Administrative access** block shows per role how many persons can also access this course due to this role, and with which right, for example "full access" for learning resource managers and administrators.
 
 If the course has been assigned to groups, you will find the relevant groups displayed in the **Groups** block.
 
@@ -174,16 +180,19 @@ If the course has been assigned to a product in the Course Planner, you will fin
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[Offer concepts: Cancellation policy for invoice offers >](../basic_concepts/Offer_Concepts.md)<br>
 [How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Module OAI-PMH >](../../manual_admin/administration/Modules_OAI.md)<br>
 [Catalog 2.0 - Overview >](../area_modules/catalog2.0.md)<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
-[Offer concepts: Cancellation policy for invoice offers >](../basic_concepts/Offer_Concepts.md)<br>
 [Course Settings - Tab Share: Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)
 
 **Further reading**<br>
-[Access configuration >](../learningresources/Access_configuration.md)
+[Access configuration >](../learningresources/Access_configuration.md)<br>
+[Course Settings >](../learningresources/Course_Settings.md)<br>
+[Copy (a course) >](../learningresources/Course_Copy.md)
 
 [To the top of the page ^](#tab_share)
