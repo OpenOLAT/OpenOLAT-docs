@@ -49,7 +49,7 @@ Weitere Details zu den Filteroptionen und zum Tabellenkonzept finden Sie auf der
 
 Über das Zahnrad-Icon kann ausgewählt werden, welche Spalten in der Tabelle angezeigt werden. Sie können so individuell die relevanten Informationen zusammenstellen.
 
-![Zahnrad öffnet die Liste Spalten auswählen, hervorgehoben die Einträge Einstellungen, Mitgliederverwaltung und Inhalt editieren am Ende der Liste](assets/authoring_select_columns_v1_de.png){ class="shadow lightbox" title="Liste Spalten auswählen im Autorenbereich · 2026.10.08" }
+![Zahnrad öffnet die Liste Spalten auswählen, hervorgehoben die Einträge Einstellungen, Mitgliederverwaltung und Inhalt editieren am Ende der Liste](assets/authoring_select_columns_v2_de.png){ class="shadow lightbox" title="Liste Spalten auswählen im Autorenbereich · 2026.10.09" }
 
 **Beispiel**:<br>
 In der Spalte "Ref." ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.

@@ -14,7 +14,7 @@ SCORM steht für "Sharable Content Object Reference Model" und ist ein standardi
 
 ## Ansicht als Betreuer:in {: #coach_view}
 
-![Rolle Betreuer:in gewählt, Tabs Übersicht, Teilnehmer:innen und Vorschau, die Übersicht zeigt Bestanden, Nicht bestanden und die Verteilung der Punkte](assets/course_element_scorm_coach_v2_de.png){ class="shadow lightbox" title="Kursansicht des Kursbausteins SCORM 1.2 · 2026.10.08" }
+![Rolle Betreuer:in gewählt, Tabs Übersicht, Teilnehmer:innen und Vorschau, die Übersicht zeigt Bestanden, Nicht bestanden und die Verteilung der Punkte](assets/course_element_scorm_coach_v3_de.png){ class="shadow lightbox" title="Kursansicht des Kursbausteins SCORM 1.2 · 2026.10.09" }
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -24,7 +24,7 @@ SCORM steht für "Sharable Content Object Reference Model" und ist ein standardi
 
 Rufen Sie den Kursbaustein im Kurs als Besitzer:in auf, haben Sie im Vergleich zu Betreuer:innen zusätzlich den Tab "Erinnerungen" und können dort Erinnerungen einrichten.
 
-![Rolle Besitzer:in gewählt, zusätzlicher Tab Erinnerungen neben Übersicht, Teilnehmer:innen und Vorschau](assets/course_element_scorm_owner_v2_de.png){ class="shadow lightbox" title="Kursansicht des Kursbausteins SCORM 1.2 · 2026.10.08" }
+![Rolle Besitzer:in gewählt, zusätzlicher Tab Erinnerungen neben Übersicht, Teilnehmer:innen und Vorschau](assets/course_element_scorm_owner_v3_de.png){ class="shadow lightbox" title="Kursansicht des Kursbausteins SCORM 1.2 · 2026.10.09" }
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -190,7 +190,7 @@ Kursbesitzer:innen erstellen Erinnerungen im Kurseditor oder direkt im Kurs: Ruf
 
 Sie können ausser dem Erstellen von Erinnerungen sich über beide Zugangswege auch eine Vorschau und alle versendeten Erinnerungen anzeigen lassen. Erfasste Erinnerungen erscheinen in einer Liste. Ein Klick auf das Plus-Zeichen am Anfang einer Zeile zeigt die Bedingungen der Erinnerung. In der aufgeklappten Zeile zeigt "E-Mail-Benachrichtigung anzeigen" die E-Mail, die versendet wird. Mit "Erinnerung jetzt senden" lösen Sie den Versand von Hand aus, ohne auf den nächsten regulären Versand zu warten.
 
-![Button Erinnerung hinzufügen und Menü mit Vorschau und versendeten Erinnerungen, darunter eine Erinnerung mit ihren Bedingungen](assets/course_element_scorm_tab_reminders_v3_de.png){ class="shadow lightbox" title="Tab Erinnerungen im Kurseditor · 2026.10.08" }
+![Button Erinnerung hinzufügen und Menü mit Vorschau und versendeten Erinnerungen, darunter eine Erinnerung mit ihren Bedingungen](assets/course_element_scorm_tab_reminders_v4_de.png){ class="shadow lightbox" title="Tab Erinnerungen im Kurseditor · 2026.10.09" }
 
 
 [Zum Seitenanfang ^](#course_element_scorm)
