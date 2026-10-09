@@ -285,6 +285,18 @@ In the system administration under `Administration > External tools > AI module`
 
 
 
+## ONNX embedding model [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #onnx_embedding_model}
+
+If Taxonomy Matching (Embeddings) is to run without an external AI provider, use an ONNX embedding model: OpenOlat loads it from a model directory on its own server, needs no API key, and no text leaves the server.
+
+As soon as a model is in the model directory, the system administration shows the section "ONNX embedding model" with the detected models under `Administration > External tools > AI module` in the tab "AI providers". There, "Rescan" detects newly placed models, and "Validate" checks whether each model loads correctly. Then, in the tab "AI features", select the provider "Local ONNX" and the embedding model for Taxonomy Matching (Embeddings), see [Module Taxonomy: Automatic assignment by AI](Modules_Taxonomy.md#ai_matching).
+
+The model directory and the files in it are part of the server configuration. frentix customers contact the frentix support for the setup: [support@frentix.com](mailto:support@frentix.com)
+
+[To the top of the page ^](#ext_tools)
+
+
+
 ## PDF Generator [:octicons-tag-16:{ title="from Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
 In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists, [info pages of learning resources and implementations](../../manual_user/learningresources/General_Functions_Infopage.md#print) or similar.

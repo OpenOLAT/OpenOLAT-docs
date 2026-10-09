@@ -295,6 +295,18 @@ In der System-Administration unter `Administration > Externe Werkzeuge > KI Modu
 
 
 
+## ONNX Einbettungsmodell [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #onnx_embedding_model}
+
+Soll die Taxonomie-Zuordnung (Embeddings) ohne externen KI Anbieter laufen, setzen Sie ein ONNX Einbettungsmodell ein: OpenOlat lädt es aus einem Modellverzeichnis auf dem eigenen Server, braucht keinen API Schlüssel, und kein Text verlässt den Server.
+
+Sobald im Modellverzeichnis ein Modell liegt, zeigt die System-Administration unter `Administration > Externe Werkzeuge > KI Modul` im Tab "KI-Anbieter" den Abschnitt "ONNX Einbettungsmodell" mit den erkannten Modellen. Dort erkennt "Neu einlesen" neu abgelegte Modelle, und "Validieren" prüft, ob jedes Modell korrekt geladen wird. Im Tab "KI-Funktionen" wählen Sie danach bei der Taxonomie-Zuordnung (Embeddings) den Anbieter "Local ONNX" und das Einbettungsmodell, siehe [Modul Taxonomie: Automatische Zuordnung per KI](Modules_Taxonomy.de.md#ai_matching).
+
+Das Modellverzeichnis und die Dateien darin sind Teil der Serverkonfiguration. frentix-Kund:innen wenden sich für die Einrichtung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+
+[Zum Seitenanfang ^](#ext_tools)
+
+
+
 ## PDF Generator [:octicons-tag-16:{ title="ab Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
 In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultate, Mitgliederlisten, [Infoseiten von Lernressourcen und Durchführungen](../../manual_user/learningresources/General_Functions_Infopage.de.md#print) oder ähnliches.
