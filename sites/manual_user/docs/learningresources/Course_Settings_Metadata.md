@@ -7,6 +7,8 @@ The "Metadata" tab describes what the learning resource is. The ["Info" tab](../
 The "Metadata" tab is the first tab of the settings:<br>
 `Course > Administration > Settings > Tab "Metadata"`
 
+![Title and reference as the first fields in the Metadata tab, which comes first in the settings](assets/course_settings_metadata_form_v1_en.png){ class="shadow lightbox" title="Metadata tab of the course settings · 2026.10.09" }
+
 After creating, copying or importing a learning resource, OpenOlat opens the settings directly on this tab. This way you check the title and reference right at the start. The tab can be edited by owners of the learning resource, learning resource managers and administrators, and for courses also by persons who have been granted the "Course editor" right in the [Members management](../learningresources/Members_management.md).
 
 Every learning resource has this tab. Some fields only exist for courses or only if the system administration has switched on a module. This is stated for each field.
@@ -54,9 +56,9 @@ What lies behind the Creative Commons licenses is explained at [creativecommons.
 
 As soon as a license is selected, the field "Licensor" appears for the person or organisation that grants the license. With "Free text", the field "License text" also appears for your own license description. If the learning resource contains items with their own license, OpenOlat lists them under "Items license details". Then select a license for the learning resource that is at least as restrictive as the licenses of the items.
 
-In the list in Authoring, the "License" column shows the license of each learning resource. The column is hidden until you show it via "Displayed columns". A click on the name of the license shows the license and the link to the license text.
+In the list in Authoring, the "License" column shows the license of each learning resource. The column is hidden until you show it via "Displayed columns". A click on the name of the license opens a window with the license, the licensor and the license text, shown as a link for Creative Commons licenses.
 
-![A click on the license name CC0 in the License column opens a window with the license and the link to the license text](assets/Autorenbereich_Lizenz_en.png){ class="shadow lightbox" title="List of learning resources in Authoring" }
+![The License column, once shown, lists the license name of each learning resource, and a click on it opens the window with license, licensor and link to the license text](assets/course_settings_metadata_license_column_v1_en.png){ class="shadow lightbox" title="My entries tab in Authoring · 2026.10.09" }
 
 !!! tip "Tip"
 

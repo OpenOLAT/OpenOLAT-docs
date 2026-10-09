@@ -7,6 +7,8 @@ Der Tab "Metadaten" beschreibt, was die Lernressource ist. Der [Tab "Info"](../l
 Der Tab "Metadaten" ist der erste Tab der Einstellungen:<br>
 `Kurs > Administration > Einstellungen > Tab "Metadaten"`
 
+![Titel und Kennzeichen als erste Felder im Tab Metadaten, der an erster Stelle der Einstellungen steht](assets/course_settings_metadata_form_v1_de.png){ class="shadow lightbox" title="Tab Metadaten der Kurseinstellungen · 2026.10.09" }
+
 Nach dem Erstellen, Kopieren oder Importieren einer Lernressource öffnet OpenOlat die Einstellungen direkt auf diesem Tab. So prüfen Sie Titel und Kennzeichen gleich zu Beginn. Bearbeiten können den Tab Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen, bei Kursen ausserdem Personen, denen in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) das Recht "Kurseditor" erteilt wurde.
 
 Jede Lernressource hat diesen Tab. Einzelne Felder gibt es nur bei Kursen oder nur, wenn die System-Administration ein Modul eingeschaltet hat. Das steht beim jeweiligen Feld.
@@ -54,9 +56,9 @@ Was hinter den Creative-Commons-Lizenzen steht, erklärt [creativecommons.org](h
 
 Sobald eine Lizenz gewählt ist, erscheint das Feld "Lizenzgeber" für die Person oder Organisation, welche die Lizenz vergibt. Mit "Freitext" erscheint zusätzlich das Feld "Lizenztext" für eine eigene Lizenzbeschreibung. Enthält die Lernressource Elemente mit eigener Lizenz, listet OpenOlat diese unter "Details Element-Lizenzen" auf. Wählen Sie dann für die Lernressource eine Lizenz, die mindestens so restriktiv ist wie die Lizenzen der Elemente.
 
-In der Liste des Autorenbereichs zeigt die Spalte "Lizenz" die Lizenz jeder Lernressource. Die Spalte ist ausgeblendet, bis Sie sie über "Spalten auswählen" einblenden. Ein Klick auf den Namen der Lizenz zeigt die Lizenz und den Link zum Lizenztext.
+In der Liste des Autorenbereichs zeigt die Spalte "Lizenz" die Lizenz jeder Lernressource. Die Spalte ist ausgeblendet, bis Sie sie über "Spalten auswählen" einblenden. Ein Klick auf den Namen der Lizenz öffnet ein Fenster mit der Lizenz, dem Lizenzgeber und dem Lizenztext, bei Creative-Commons-Lizenzen als Link.
 
-![Klick auf den Lizenznamen CC0 in der Spalte Lizenz öffnet ein Fenster mit der Lizenz und dem Link zum Lizenztext](assets/Autorenbereich_Lizenz.png){ class="shadow lightbox" title="Liste der Lernressourcen im Autorenbereich" }
+![Eingeblendete Spalte Lizenz mit dem Lizenznamen jeder Lernressource, ein Klick darauf öffnet das Fenster mit Lizenz, Lizenzgeber und Link zum Lizenztext](assets/course_settings_metadata_license_column_v1_de.png){ class="shadow lightbox" title="Tab Meine Einträge im Autorenbereich · 2026.10.09" }
 
 !!! tip "Tipp"
 

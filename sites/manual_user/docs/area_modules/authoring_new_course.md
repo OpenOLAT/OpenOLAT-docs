@@ -2,17 +2,34 @@
 
 ## Create new OpenOlat learning resources
 
-The following learning resources can be created in Authoring:
+In Authoring, the "Create" button opens a menu with the learning resources you can create:
 
-![Open Create menu with course, test, CP learning content, wiki, podcast, blog, resource folder, form, portfolio 2.0 template and glossary](assets/autorenbereich_erstellen_v1_de.png){ class="shadow lightbox" title="Create menu in Authoring" }
+![Open Create menu with the learning resources of the list below, from course and course from template to Word, Excel and PowerPoint](assets/authoring_new_course_create_menu_v1_en.png){ class="shadow lightbox" title="Create menu in Authoring · 2026.10.09" }
+
+Some entries only appear in the menu if the system administration has switched on the corresponding function: form, wiki and portfolio 2.0 template via the respective module, Word, Excel and PowerPoint via a [document editor](../../manual_admin/administration/External_Tools_-_Administration.md#dokumenteneditoren).
 
 The specific creation process is described on the following pages:
 
 * Creating courses <br>
 [User manual article](../learningresources/Creating_Course.md) | [Detailed instructions](../../manual_how-to/my_first_course/my_first_course.md)
 
+* Creating a course from a template [:octicons-tag-16:{ title="from Release 20.2 (OO-8897)" }](https://track.frentix.com/issue/OO-8897){:target="_blank"}<br>
+[User manual article](../learningresources/Creating_Course.md#purpose)
+
 * Creating tests<br>
 [User manual article](../learningresources/Test.md) | [Detailed instructions](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
+
+* Creating forms <br>
+[User manual article](../learningresources/Form.md)  | [Detailed instructions](../../manual_how-to/create_a_form/create_a_form.md)
+
+* Creating resource folders<br>
+[User manual article](../learningresources/Resource_Folder.md) | [Detailed instructions](../../manual_how-to/multiple_use/multiple_use.md)
+
+* Creating blogs<br>
+[User manual article](../learningresources/Blog.md) | [Detailed instructions](../../manual_how-to/blog/blog.md)
+
+* Creating podcasts <br>
+[User manual article](../learningresources/Podcast.md) | [Detailed instructions](../../manual_how-to/podcast/podcast.md)
 
 * Creating CP learning content<br>
 [User manual article](../learningresources/CP_Editor.md) | [Detailed instructions](../../manual_how-to/content_package/content_package.md)
@@ -20,23 +37,14 @@ The specific creation process is described on the following pages:
 * Creating wikis <br>
 [User manual article](../learningresources/Wiki.md) | [Detailed instructions](../../manual_how-to/wikis/wikis.md)
 
-* Creating podcasts <br>
-[User manual article](../learningresources/Podcast.md) | [Detailed instructions](../../manual_how-to/podcast/podcast.md)
-
-* Creating blogs<br>
-[User manual article](../learningresources/Blog.md) | [Detailed instructions](../../manual_how-to/blog/blog.md)
-
-* Creating resource folders<br>
-[User manual article](../learningresources/Resource_Folder.md) | [Detailed instructions](../../manual_how-to/multiple_use/multiple_use.md)
-
-* Creating forms <br>
-[User manual article](../learningresources/Form.md)  | [Detailed instructions](../../manual_how-to/create_a_form/create_a_form.md)
-
 * Create a prepared or pre-structured portfolio template<br>
 [User manual article](../learningresources/Portfolio_template_Creation.md)
 
 * Creating glossaries<br>
 [User manual article](../learningresources/Glossary.md)
+
+* Creating Word, Excel and PowerPoint files<br>
+[User manual article](../learningresources/index.md#further_learningresources)
 
 !!! tip "Tip"
 
@@ -48,10 +56,12 @@ The specific creation process is described on the following pages:
 
 ## Import learning resources
 
-![The Import file button opens the dialog for uploading a file, the selection menu next to it with Embed via URL opens the dialog for a URL](assets/Datei_importieren_gesamt.jpg){ class="shadow lightbox" title="Import in Authoring" }
+![Dialog with the formats that can be imported, the field for uploading the file and the mandatory field Administrative access](assets/authoring_new_course_import_file_v1_en.png){ class="shadow lightbox" title="Dialog Import file · 2026.10.09" }
 
 ### Import file
-Learning resources created outside OpenOlat or exported from another OpenOlat system can be imported into OpenOlat, provided they are in a compatible format. All of the mentioned types of learning resources, videos, certain standardized formats and any files can be imported.
+Learning resources created outside OpenOlat or exported from another OpenOlat system can be imported into OpenOlat, provided they are in a compatible format. You can import learning resources exported from OpenOlat, videos in MP4 format, the standard formats IMS Content Packaging, IMS QTI 2.1 assessment and SCORM 1.2, as well as any files.
+
+In the "Import file" dialog, you upload the file in the "File" field and select under "Administrative access" the organisation to which the learning resource is assigned.
 
 If you import a course from another OpenOlat instance, for example, you will be asked whether the learning resources used in the course (e.g. a wiki or a test) should also be imported. After the import, you must publish the course so that it is visible to you and other OpenOlat users.
 
@@ -92,6 +102,7 @@ Click **Embed** to create the learning resource.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Creating Courses >](../learningresources/Creating_Course.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Creating Tests >](../learningresources/Test.md)<br>
@@ -110,6 +121,7 @@ Click **Embed** to create the learning resource.
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Glossary >](../learningresources/Glossary.md)<br>
+[Various Types of Learning Resources >](../learningresources/index.md)<br>
 [Course Settings - Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)
 
