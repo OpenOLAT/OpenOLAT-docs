@@ -117,7 +117,7 @@ Der Schutz gilt für die Kursbausteine Test, Bewertung, Aufgabe, Gruppenaufgabe,
 
 Im Kursbaustein **[Mitteilungen](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_Notifications/#create_notification){:target="_blank"}** liessen sich die Empfänger:innen bisher nicht nach Kurs und Gruppen unterscheiden. Neu werden Besitzer:innen, Betreuer:innen und Teilnehmende getrennt ausgewählt, in Kursen mit Gruppen oder Course-Planner-Elementen auch gezielt nur die Personen im Kurs oder die Mitglieder einer bestimmten Gruppe oder eines bestimmten Elements. So erreicht eine Ankündigung genau die Personen, für die sie gedacht ist.
 
-![Mitteilung mit Empfänger:innen-Auswahl aus Kurs, Guppen und Durchführung](assets/211/Individual_recipients_course_and_group_selection_DE.png){ class="shadow lightbox" title="Mitteilung mit Empfänger:innen-Auswahl aus Kurs, Guppen und Durchführung" }
+![Mitteilung mit Empfänger:innen-Auswahl aus Kurs, Gruppen und Durchführung](assets/211/Individual_recipients_course_and_group_selection_DE.png){ class="shadow lightbox" title="Mitteilung mit Empfänger:innen-Auswahl aus Kurs, Gruppen und Durchführung" }
 
 ### Weitere Verbesserungen
 
@@ -149,7 +149,7 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 
 ![Exportoption - Alle PDF-Dateien in einem Ordner](assets/211/Export_results_PDF_one_folder_DE.png){ class="shadow lightbox" title="Exportoption - Alle PDF-Dateien in einem Ordner" }
 
-![Exportierte PDF-Resultate in einem Ordner mit sprechenden Dateinamen](assets/211/PDF_results_export_in_one_folder_ with_descriptive_file_names.png){ class="shadow lightbox" title="Exportierte PDF-Resultate in einem Ordner mit sprechenden Dateinamen" }
+![Exportierte PDF-Resultate in einem Ordner mit sprechenden Dateinamen](assets/211/PDF_results_export_in_one_folder_with_descriptive_file_names.png){ class="shadow lightbox" title="Exportierte PDF-Resultate in einem Ordner mit sprechenden Dateinamen" }
 
 ### Weitere Verbesserungen
 
