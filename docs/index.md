@@ -2,7 +2,7 @@
 title: User, Admin and Developer Manuals for the OpenOlat LMS
 description: Official documentation for the OpenOlat learning management
   system (LMS) - user manual, admin manual, release notes and developer
-  cookbook for the current release 21.0 and older versions.
+  cookbook for the current release 21.1 and older versions.
 hide:
   - navigation
   - toc
@@ -14,7 +14,7 @@ hide:
       <h1>OpenOlat Documentation</h1>
       <p class="oo-home-lede">The official manual for the OpenOlat learning management system,
         the open source LMS by <a href="https://www.frentix.com">frentix GmbH</a>.
-        It documents the current release OpenOlat 21.0. Search it, browse it, or ask Sophia.</p>
+        It documents the current release OpenOlat 21.1. Search it, browse it, or ask Sophia.</p>
       <p class="oo-home-teaser">New here? <a href="whats_in_openolat/">Explore the OpenOlat features</a></p>
     </div>
     <div class="oo-home-hero__mark">
@@ -52,20 +52,20 @@ hide:
     <div class="oo-home-card__band">
       <span class="oo-home-card__tile"><i class="o_icon o_icon_notes size24" aria-hidden="true"></i></span>
       <span>
-        <h2><a href="release_notes/Release_notes_21.0/">What's new</a></h2>
-        <span class="oo-home-card__meta">Release 21.0, July 2026</span>
+        <h2><a href="release_notes/Release_notes_21.1/">What's new</a></h2>
+        <span class="oo-home-card__meta">Release 21.1, September 2026</span>
       </span>
     </div>
     <div class="oo-home-card__body">
-      <p>OpenOlat 21.0 is here. See what changed for learners, authors, coaches and administrators.</p>
+      <p>OpenOlat 21.1 is here. See what changed for learners, authors, coaches and administrators.</p>
       <ul>
-        <li>Separation of learning and coaching into two areas</li>
-        <li>Room management, automation and to-dos in the Course Planner</li>
-        <li>AI: essay questions with AI grading, formative AI feedback, Word and Markdown import</li>
+        <li>Booking forms in the Course Planner</li>
+        <li>New Info page with PDF flyer and QR code</li>
+        <li>Recording of Teams online meetings and personal AI settings</li>
       </ul>
       <ul class="oo-home-card__links">
+        <li><a href="release_notes/Release_notes_21.1/"><i class="o_icon o_icon_start" aria-hidden="true"></i>Release notes 21.1</a></li>
         <li><a href="release_notes/Release_notes_21.0/"><i class="o_icon o_icon_start" aria-hidden="true"></i>Release notes 21.0</a></li>
-        <li><a href="release_notes/Release_notes_20.3/"><i class="o_icon o_icon_start" aria-hidden="true"></i>Release notes 20.3</a></li>
         <li><a href="release_notes/"><i class="o_icon o_icon_start" aria-hidden="true"></i>All versions</a></li>
       </ul>
     </div>
@@ -179,7 +179,7 @@ hide:
   <div>
     <h3>Older versions</h3>
     <ul>
-      <li><a href="release_notes/">All release notes, 21.0 back to 15.2</a></li>
+      <li><a href="release_notes/">All release notes, 21.1 back to 15.2</a></li>
       <li><a href="https://archivedocs.openolat.org/">Manual archive</a></li>
     </ul>
   </div>

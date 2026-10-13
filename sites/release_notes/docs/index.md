@@ -1,6 +1,6 @@
 ---
 title: Release Notes
-description: Release notes for every OpenOlat version from 21.0 back to 15.2, with
+description: Release notes for every OpenOlat version from 21.1 back to 15.2, with
   release date and a one-line summary per release.
 ---
 
@@ -8,20 +8,21 @@ description: Release notes for every OpenOlat version from 21.0 back to 15.2, wi
 
 Every OpenOlat release brings new features, improvements and changes. This page lists the current release and all earlier releases documented on this site.
 
-## Current release: OpenOlat 21.0 {: #current_release}
+## Current release: OpenOlat 21.1 {: #current_release}
 
-:material-calendar-month-outline: **Release date: 07/16/2026**
+:material-calendar-month-outline: **Release date: 09/30/2026**
 
-* Learning and coaching are separated: learners stay under "Courses", everyone with a coaching function works in the "Coaching" area.
-* The Course Planner gains room management, automation and to-dos.
-* AI features grow: essay questions with AI grading, formative AI feedback for learners, and Word and Markdown import in the Content Editor.
+* Booking order forms in the Course Planner collect additional information when an offer is booked, step by step in a wizard.
+* The Info page of courses and implementations has been redesigned and can be downloaded as a PDF flyer with a QR code.
+* Microsoft Teams online meetings can be recorded. With the AI settings, each person decides about automatic AI features.
 
-[Release Notes 21.0 >](Release_notes_21.0.md)
+[Release Notes 21.1 >](Release_notes_21.1.md)
 
 ## All versions {: #all_versions}
 
 | Version | Release date | What it brought |
 | --- | --- | --- |
+| [21.1](Release_notes_21.1.md) | 09/30/2026 | Booking forms in the Course Planner, new Info page with PDF flyer, recording of Teams online meetings, AI settings |
 | [21.0](Release_notes_21.0.md) | 07/16/2026 | Separation of learning and coaching, room management and automation in the Course Planner, essay questions with AI grading |
 | [20.3](Release_notes_20.3.md) | 03/25/2026 | Configurable widgets, Markdown import for the Page course element, more AI providers, Master Import/Export in the Course Planner |
 | [20.2](Release_notes_20.2.md) | 12/11/2025 | Certification program with recertification and credit points, central certificate overview, Bento dashboard layout |

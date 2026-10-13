@@ -2,7 +2,7 @@
 title: Benutzer-, Administrations- und Entwicklerhandbuch für das LMS OpenOlat
 description: Offizielle Dokumentation des Lernmanagementsystems (LMS) OpenOlat -
   Benutzerhandbuch, Administrationshandbuch, Release Notes und Developer Cookbook
-  für das aktuelle Release 21.0 und ältere Versionen.
+  für das aktuelle Release 21.1 und ältere Versionen.
 hide:
   - navigation
   - toc
@@ -14,7 +14,7 @@ hide:
       <h1>OpenOlat Dokumentation</h1>
       <p class="oo-home-lede">Das offizielle Handbuch für das Lernmanagementsystem OpenOlat,
         das Open Source LMS der <a href="https://www.frentix.com">frentix GmbH</a>.
-        Es dokumentiert das aktuelle Release OpenOlat 21.0. Durchsuchen Sie es, blättern Sie darin, oder fragen Sie Sophia.</p>
+        Es dokumentiert das aktuelle Release OpenOlat 21.1. Durchsuchen Sie es, blättern Sie darin, oder fragen Sie Sophia.</p>
       <p class="oo-home-teaser">Neu hier? <a href="whats_in_openolat/">Entdecken Sie die Funktionen von OpenOlat</a></p>
     </div>
     <div class="oo-home-hero__mark">
@@ -52,20 +52,20 @@ hide:
     <div class="oo-home-card__band">
       <span class="oo-home-card__tile"><i class="o_icon o_icon_notes size24" aria-hidden="true"></i></span>
       <span>
-        <h2><a href="release_notes/Release_notes_21.0/">Was ist neu</a></h2>
-        <span class="oo-home-card__meta">Release 21.0, Juli 2026</span>
+        <h2><a href="release_notes/Release_notes_21.1/">Was ist neu</a></h2>
+        <span class="oo-home-card__meta">Release 21.1, September 2026</span>
       </span>
     </div>
     <div class="oo-home-card__body">
-      <p>OpenOlat 21.0 ist da. Sehen Sie, was sich für Lernende, Autor:innen, Betreuer:innen und Administrator:innen geändert hat.</p>
+      <p>OpenOlat 21.1 ist da. Sehen Sie, was sich für Lernende, Autor:innen, Betreuer:innen und Administrator:innen geändert hat.</p>
       <ul>
-        <li>Trennung von Lernen und Coaching in zwei Bereiche</li>
-        <li>Raumverwaltung, Automatisierung und To-dos im Course Planner</li>
-        <li>KI: Freitextfragen mit KI-Bewertung, formatives KI-Feedback, Word- und Markdown-Import</li>
+        <li>Buchungsformulare im Course Planner</li>
+        <li>Neue Infoseite mit PDF-Flyer und QR-Code</li>
+        <li>Aufzeichnung von Teams-Terminen und persönliche KI-Einstellungen</li>
       </ul>
       <ul class="oo-home-card__links">
+        <li><a href="release_notes/Release_notes_21.1/"><i class="o_icon o_icon_start" aria-hidden="true"></i>Release Notes 21.1</a></li>
         <li><a href="release_notes/Release_notes_21.0/"><i class="o_icon o_icon_start" aria-hidden="true"></i>Release Notes 21.0</a></li>
-        <li><a href="release_notes/Release_notes_20.3/"><i class="o_icon o_icon_start" aria-hidden="true"></i>Release Notes 20.3</a></li>
         <li><a href="release_notes/"><i class="o_icon o_icon_start" aria-hidden="true"></i>Alle Versionen</a></li>
       </ul>
     </div>
@@ -179,7 +179,7 @@ hide:
   <div>
     <h3>Ältere Versionen</h3>
     <ul>
-      <li><a href="release_notes/">Alle Release Notes, 21.0 bis 15.2</a></li>
+      <li><a href="release_notes/">Alle Release Notes, 21.1 bis 15.2</a></li>
       <li><a href="https://archivedocs.openolat.org/de/">Handbucharchiv</a></li>
     </ul>
   </div>

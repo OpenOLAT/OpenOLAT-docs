@@ -75,7 +75,7 @@ Die Standardwerte für Aufzeichnung, Start und Veröffentlichung legt die Admini
 
 ## KI-Einstellungen: Kontrolle über automatische KI-Funktionen
 
-Zwei KI-Funktionen arbeiteten bisher ohne Rückfrage mit Inhalten von Personen: Beim Hochladen eines Bildes erzeugt die KI Metadaten wie Titel und Alternativtext, und Freitextantworten in einem Quiz des Content Editors erhalten eine **KI-Korrektur**. Im Sinne der Transparenz, die der EU AI Act verlangt, lässt sich das jetzt steuern. <!-- OO-9784 -->
+Zwei KI-Funktionen arbeiteten bisher ohne Rückfrage mit Inhalten von Personen: Beim Hochladen eines Bildes erzeugt die KI Metadaten wie Titel und Alternativtext, und Freitextantworten in einem Quiz des Content Editors erhalten eine **KI-Korrektur**. Im Sinne der Transparenz, die der EU AI Act verlangt, lässt sich das jetzt steuern.
 
 Die Administration legt pro KI-Funktion eine **Vorgabe für Personen** fest. Jede Person kann sie in den persönlichen Einstellungen unter **«KI-Einstellungen»** übernehmen oder für sich ändern. Vor der ersten KI-Korrektur in einem Quiz fragt ein Dialog nach der Zustimmung. Beim Import in den Content Editor zeigt ein Schalter, ob Bild-Metadaten mit KI erzeugt werden, und lässt sich für den einzelnen Import ändern. Bestehende Installationen verhalten sich wie bisher, bis jemand eine Einstellung ändert.
 
@@ -97,7 +97,7 @@ Beim Kopieren einer Durchführung verschickte OpenOlat bisher für jedes kopiert
 
 ### Weitere Verbesserungen
 
-* **[Teilnehmer:inkommentar](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/#tab_members){:target="_blank"}:** Kommentare aus der Buchung zeigt die Mitgliedertabelle direkt mit einem Notizsymbol, ohne dass jede Person einzeln geöffnet werden muss.
+* **[Kommentar Teilnehmer:in](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/#tab_members){:target="_blank"}:** Kommentare aus der Buchung zeigt die Mitgliedertabelle direkt mit einem Notizsymbol, ohne dass jede Person einzeln geöffnet werden muss.
 * **Termine kopieren:** Kopien übernehmen alle Angaben wie Ort, Online-Termin, Raum, Dozierende und Themen. Einzel- und Sammelaktion verhalten sich gleich.
 * **[Termine und Absenzen](https://docs.openolat.org/de/manual_user/learningresources/Course_Settings_Execution/#lecture_enabled){:target="_blank"}:** Wird im Course Planner ein Termin für einen Kurs erstellt oder zugewiesen, schaltet OpenOlat die Funktion im Kurs automatisch ein.
 

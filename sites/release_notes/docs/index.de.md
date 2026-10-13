@@ -1,6 +1,6 @@
 ---
 title: Release Notes
-description: Release Notes zu jeder OpenOlat-Version von 21.0 bis 15.2, mit Releasedatum
+description: Release Notes zu jeder OpenOlat-Version von 21.1 bis 15.2, mit Releasedatum
   und einer Zusammenfassung pro Release.
 ---
 
@@ -8,20 +8,21 @@ description: Release Notes zu jeder OpenOlat-Version von 21.0 bis 15.2, mit Rele
 
 Jeder OpenOlat-Release bringt neue Funktionen, Verbesserungen und Änderungen. Diese Seite listet den aktuellen Release und alle früheren Releases auf, die auf dieser Website dokumentiert sind.
 
-## Aktueller Release: OpenOlat 21.0 {: #current_release}
+## Aktueller Release: OpenOlat 21.1 {: #current_release}
 
-:material-calendar-month-outline: **Releasedatum: 16.07.2026**
+:material-calendar-month-outline: **Releasedatum: 30.09.2026**
 
-* Lernen und Coaching sind getrennt: Lernende bleiben unter "Kurse", alle mit einer Betreuungsfunktion arbeiten im Bereich "Coaching".
-* Der Course Planner erhält Raumverwaltung, Automatisierung und To-dos.
-* Die KI Funktionen wachsen: Freitextfragen mit KI-Auswertung, formatives KI-Feedback für Lernende sowie Word- und Markdown-Import im Content Editor.
+* Buchungsformulare im Course Planner holen beim Buchen eines Angebots zusätzliche Angaben ein, Schritt für Schritt in einem Wizard.
+* Die Infoseite von Kursen und Durchführungen ist neu gestaltet und lässt sich als PDF-Flyer mit QR-Code herunterladen.
+* Online-Termine mit Microsoft Teams lassen sich aufzeichnen. Mit den KI-Einstellungen entscheidet jede Person über automatische KI-Funktionen.
 
-[Release Notes 21.0 >](Release_notes_21.0.de.md)
+[Release Notes 21.1 >](Release_notes_21.1.de.md)
 
 ## Alle Versionen {: #all_versions}
 
 | Version | Releasedatum | Was der Release brachte |
 | --- | --- | --- |
+| [21.1](Release_notes_21.1.de.md) | 30.09.2026 | Buchungsformulare im Course Planner, neue Infoseite mit PDF-Flyer, Aufzeichnung von Teams-Terminen, KI-Einstellungen |
 | [21.0](Release_notes_21.0.de.md) | 16.07.2026 | Trennung von Lernen und Coaching, Raumverwaltung und Automatisierung im Course Planner, Freitextfragen mit KI-Auswertung |
 | [20.3](Release_notes_20.3.de.md) | 25.03.2026 | Konfigurierbare Widgets, Markdown-Import im Kursbaustein "Seite", weitere KI Anbieter, Master Import/Export im Course Planner |
 | [20.2](Release_notes_20.2.de.md) | 11.12.2025 | Zertifikatsprogramm mit Rezertifizierung und Kreditpunkten, zentrale Zertifikatsübersicht, Bento-Dashboard-Layout |
