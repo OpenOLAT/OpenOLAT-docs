@@ -36,13 +36,13 @@ BigBlueButton ermöglicht virtuelle Klassenräume mit folgenden Funktionalitäte
 
 ### Systemvoraussetzungen
 
-BigBlueButton ist eine browserbasierte Software-Lösung und benötigt keine zusätzlichen Plugins oder Installationen. Für den vollen Funktionsumfang (für Betreuer:innen und Teilnehmende) wird **Google Chrome** oder **Mozilla Firefox** empfohlen. Unter Windows lässt sich auch die neue Version von **Edge mit Chromium Engine** verwenden. Für das Teilen des eigenen Bildschirms empfiehlt sich **Google Chrome**.
+BigBlueButton ist eine browserbasierte Software-Lösung und benötigt keine zusätzlichen Plugins oder Installationen. Für den vollen Funktionsumfang (für Betreuer:innen und Teilnehmende) wird Google Chrome oder Mozilla Firefox empfohlen. Unter Windows lässt sich auch die neue Version von Edge mit Chromium Engine verwenden. Für das Teilen des eigenen Bildschirms empfiehlt sich **Google Chrome**.
 
 ## Konfiguration im Kurseditor
 
 Bei der Einbindung von BigBlueButton im Kurs lässt sich festlegen, ob die Online-Termine des Kursbausteins nur durch die Moderierenden oder auch durch Teilnehmende gestartet werden können. Moderierende sind die Besitzer:innen und Betreuer:innen des Kurses. Die Einstellung steht unter `Kurseditor > Kursbaustein BigBlueButton > Konfiguration` im Feld "Zugang" als Option "Nur Moderatoren dürfen diesen Raum eröffnen". Ist die Option gesetzt, können Teilnehmende den Online-Termin erst betreten, wenn die Moderation ihn gestartet hat.
 
-![Zugang auf die Moderierenden beschränken, Option im Feld "Zugang" der Kursbaustein-Konfiguration](../assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png){ class="shadow lightbox" }
+![Zugang auf Moderierende beschränkt, Option "Nur Moderatoren dürfen diesen Raum eröffnen" angekreuzt](../assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor" }
 
 ## Räume erstellen, konfigurieren und betreten [:octicons-tag-16:{ title="ab Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
 
@@ -50,9 +50,9 @@ Folgende Einstellungen erfolgen bei geschlossenem Editor.
 
 ### Tab "Terminverwaltung"
 
-Im Tab "Terminverwaltung" legen die Besitzer:innen des Kurses neue Online-Termine an und konfigurieren sie. Bereits angelegte Online-Termine lassen sich hier auch kopieren oder löschen.
+Im Tab "Terminverwaltung" legen die Besitzer:innen und Betreuer:innen des Kurses neue Online-Termine an und konfigurieren sie. Bereits angelegte Online-Termine lassen sich hier auch kopieren oder löschen. Der Tab fehlt, solange für ihre Rolle keine aktivierte Raumvorlage freigegeben ist. Die Freigabe setzt die Administration in der Raumvorlage im Feld "Raumvorlage aktiviert für" ([Modul BigBlueButton](../../../manual_admin/administration/BigBlueButton_module.de.md#room_config)).
 
-![Online-Termine anlegen und verwalten, Schaltfläche "Online-Termin hinzufügen" im Tab "Terminverwaltung"](../assets/image2020-4-7_13-29-23.png){ class="shadow lightbox" }
+![Schaltfläche "Online-Termin hinzufügen" über der noch leeren Liste der Online-Termine](../assets/image2020-4-7_13-29-23.png){ class="shadow lightbox" title="Tab Terminverwaltung im Kursbaustein BigBlueButton" }
 
 Folgende Varianten lassen sich erstellen:
 
@@ -67,7 +67,7 @@ Folgende Varianten lassen sich erstellen:
 
 Die Varianten unterscheiden sich nur in der Erstellung der Termine. Es entstehen separate Online-Termine beziehungsweise Reservierungen, die sich anschliessend einzeln bearbeiten lassen. Je nach Konfiguration des Servers stehen unterschiedliche Auswahlmöglichkeiten bereit.
 
-![Online-Termin konfigurieren, Formular "Einzelnen Online-Termin hinzufügen"](../assets/bbb_erstellen.png){ class="shadow lightbox" }
+![Felder eines Online-Termins, Pflichtfelder Name, Raumvorlage, Beginn und Ende mit Stern markiert](../assets/bbb_erstellen.png){ class="shadow lightbox" title="Dialog Einzelnen Online-Termin hinzufügen" }
 
 Die Einstellungen im Detail:
 
@@ -93,7 +93,7 @@ Die Einstellungen im Detail:
 Nur bei termingebundenen Räumen:
 
 * **Beginn**: Geben Sie den Starttermin ein.
-* **Vorlaufzeit (Min.)**: 0 bis 30 Minuten konfigurierbare Vorlaufzeit. In dieser Zeit können Betreuer:innen und Besitzer:innen das Meeting bereits starten, Teilnehmende dagegen nicht. So lässt sich zum Beispiel eine Präsentation vorbereiten.
+* **Vorlaufzeit (Min.)**: 0 bis 30 Minuten konfigurierbare Vorlaufzeit. In dieser Zeit können Besitzer:innen und Betreuer:innen das Meeting bereits starten, Teilnehmende dagegen nicht. So lässt sich zum Beispiel eine Präsentation vorbereiten.
 * **Ende**: Ende des Meetings. Die maximale Laufzeit eines Meetings hängt von der gewählten Raumvorlage ab.
 * **Nachlaufzeit (Min.)**: 0 bis 30 Minuten konfigurierbare Nachlaufzeit. Das Meeting verlängert sich nach Erreichen der Endzeit automatisch für alle Personen um die Nachlaufzeit. Es erscheint eine Anzeige mit der verbleibenden Konferenzzeit.
 
@@ -112,19 +112,19 @@ Bei wiederkehrenden Terminen lassen sich die Termine im zweiten Prozessschritt "
 
 Über den Tab "Online-Termine" erhalten Sie Zugang zu einem bestimmten Online-Termin beziehungsweise Raum.
 
-Besitzer:innen und Betreuer:innen des Kurses können ihre Präsentationen bereits im Vorfeld hochladen, so dass sie bei Beginn des Meetings zur Verfügung stehen. Direkt angezeigt wird das oberste Dokument der Liste.
+Besitzer:innen und Betreuer:innen des Kurses können ihre Präsentationen bereits im Vorfeld hochladen, so dass sie bei Beginn des Meetings zur Verfügung stehen. Direkt angezeigt wird das oberste Dokument der Liste. In ein bereits laufendes Online-Meeting lassen sich keine Präsentationsfolien hochladen.
 
-![Präsentationsfolien vor dem Meeting bereitstellen, Detailansicht eines Online-Termins im Tab "Online-Termine"](../assets/BBB_praesentation.png){ class="shadow lightbox" }
+![Drei hochgeladene Präsentationsfolien, je mit Schaltfläche zum Löschen, darunter "Präsentationsfolien hochladen"](../assets/BBB_praesentation.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins im Tab Online-Termine" }
 
 #### Aufzeichnungen
 
-Die Aufzeichnungen eines Meetings finden Sie ebenfalls im Tab "Online-Termine". Automatisch veröffentlichte Aufzeichnungen sind hier direkt wählbar. Erfolgt die Veröffentlichung manuell, sehen zunächst nur Besitzer:innen und Betreuer:innen die Aufzeichnungen und legen fest, für welche Zielgruppe die Aufzeichnung bereitstehen soll. Je nach Serverkonfiguration steht auch ein Download einer Aufzeichnung zur Verfügung.
+Die Aufzeichnungen eines Meetings finden Sie ebenfalls im Tab "Online-Termine". Automatisch veröffentlichte Aufzeichnungen sind hier direkt wählbar. Erfolgt die Veröffentlichung manuell, sehen zunächst nur Besitzer:innen und Betreuer:innen die Aufzeichnungen und legen fest, für welche Zielgruppe die Aufzeichnung bereitstehen soll. Je nach Serverkonfiguration steht auch ein Download einer Aufzeichnung zur Verfügung. Über der Liste der Aufzeichnungen erscheint je nach Serverkonfiguration der Hinweis, dass sich Aufzeichnungen nur mit Google Chrome oder Firefox ansehen lassen.
 
 !!! warning "Achtung"
 
     Die Einstellungen unter "Publizieren" wie auch unter "Löschen" gelten sowohl für die Aufzeichnung als auch für den Download. Löschen Sie einen Eintrag, wird die gesamte Aufzeichnung gelöscht.
 
-![Aufzeichnung für einzelne Rollen freigeben, Auswahl "Publizieren für" in der Liste der Aufzeichnungen](../assets/bbb_manuell_publizieren.png){ class="shadow lightbox" }
+![Auswahl "Publizieren für" mit vier Zielgruppen, angekreuzt sind alle Teilnehmenden des Meetings ohne Gäste](../assets/bbb_manuell_publizieren.png){ class="shadow lightbox" title="Aufzeichnungen in der Detailansicht eines Online-Termins" }
 
 ## Kalender Anzeige
 
@@ -134,23 +134,23 @@ In der Konfiguration eines Raums lässt sich sowohl während der Erstellung als 
 
 Zusätzlich erscheinen die in BigBlueButton erstellten Online-Termine automatisch im kursspezifischen Kalender. Von hier aus gelangen alle Kursmitglieder rasch in den entsprechend verlinkten BigBlueButton-Raum.
 
-![Belegte Zeiten vor der Terminwahl prüfen, Wochenansicht unter "Raumbuchungen anzeigen"](../assets/image2020-4-7_14-14-5.png){ class="shadow lightbox" }
+![Belegte Zeiten aller BigBlueButton-Räume als Wochenkalender, eine Buchung am Dienstag von 13.29 bis 14.11 Uhr](../assets/image2020-4-7_14-14-5.png){ class="shadow lightbox" title="Dialog Raumbuchungen anzeigen" }
 
 ## Teilnehmerperspektive
 
 Rufen Teilnehmende einen BigBlueButton-Kursbaustein auf, sehen sie die Liste "Aktuelle und zukünftige Online-Termine" und, sofern vorhanden, die Liste "Abgelaufene Online-Termine". Permanente Reservierungen stehen ohne Datum in der ersten Liste. Ein Klick auf "Auswählen" führt zur Detailansicht des jeweiligen Online-Termins.
 
-![Online-Termin auswählen, Listen "Aktuelle und zukünftige Online-Termine" und "Abgelaufene Online-Termine" im Kursbaustein](../assets/BBB_Uebersicht.png){ class="shadow lightbox" }
+![Online-Termine in zwei Listen, aktuelle und abgelaufene, je Zeile mit dem Link "Auswählen"](../assets/BBB_Uebersicht.png){ class="shadow lightbox" title="Kursbaustein BigBlueButton aus Sicht der Teilnehmenden" }
 
 Aktuelle Sessions starten Sie mit "Meeting beitreten". Damit gelangen Sie in den BigBlueButton-Raum.
 
-![Meeting betreten und Aufzeichnungen öffnen, Detailansicht eines Online-Termins](../assets/BBB_Meeting_beitreten.png){ class="shadow lightbox" }
+![Schaltfläche "Meeting beitreten", darunter die Aufzeichnungen des Meetings mit Link zum Öffnen](../assets/BBB_Meeting_beitreten.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins für Teilnehmende" }
 
-Abgelaufene Online-Termine lassen sich nicht mehr betreten. Die Detailansicht gibt aber Zugriff auf vorhandene Aufzeichnungen des Meetings. Betreuer:innen und Besitzer:innen des Kurses können Aufzeichnungen hier auch löschen.
+Abgelaufene Online-Termine lassen sich nicht mehr betreten. Die Detailansicht gibt aber Zugriff auf vorhandene Aufzeichnungen des Meetings. Besitzer:innen und Betreuer:innen des Kurses können Aufzeichnungen hier auch löschen.
 
 ## BigBlueButton Meeting Raum
 
-![Bereiche des Konferenzraums im Überblick, beschrifteter BigBlueButton-Raum](../assets/BBB-Raum.png){ class="shadow lightbox" }
+![Rot beschriftete Bereiche des Konferenzraums, von der Personenliste links bis zur Leiste am unteren Rand](../assets/BBB-Raum.png){ class="shadow lightbox" title="Konferenzraum in BigBlueButton" }
 
 Der Raum gliedert sich in die Personenliste mit den geteilten Notizen, den Chat-Bereich mit der Texteingabe, den Präsentationsbereich für Folien und den Webcam-Bereich. Am rechten Rand stehen die Whiteboard-Werkzeuge, oben die Schaltfläche zum Start der Aufzeichnung und die allgemeinen Einstellungen. Die Leiste am unteren Rand steuert Audio, Webcam und Screensharing sowie Umfragen, den Upload und das Teilen von Videos.
 
@@ -168,4 +168,4 @@ Je nach Konfiguration der BigBlueButton-Raumvorlage lassen sich Konferenz-Räume
 
 Der Gästelink erscheint auch für Besitzer:innen und Betreuer:innen des Kurses, bevor sie den Raum betreten. Zusätzlich lässt sich während der Konfiguration des Raums ein Passwort für Gäste generieren.
 
-![Gästelink weitergeben, Detailansicht eines Online-Termins mit dem Feld "Link für externe Benutzer:innen"](../assets/bbb_externe2.png){ class="shadow lightbox" }
+![URL für externe Benutzer:innen zum Weitergeben, darunter die Schaltfläche "Meeting beitreten"](../assets/bbb_externe2.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins für Moderierende" }

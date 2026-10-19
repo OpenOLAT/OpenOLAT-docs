@@ -36,13 +36,13 @@ BigBlueButton enables virtual classrooms with the following functionalities:
 
 ### System requirements
 
-BigBlueButton is a browser-based software solution and requires no additional plug-ins or installations. For full functionality (for coaches and participants) **Google Chrome** or **Mozilla Firefox** is recommended. On Windows the new version of **Edge with Chromium Engine** can also be used. For sharing your own screen, **Google Chrome** is recommended.
+BigBlueButton is a browser-based software solution and requires no additional plug-ins or installations. For full functionality (for coaches and participants) Google Chrome or Mozilla Firefox is recommended. On Windows the new version of Edge with Chromium Engine can also be used. For sharing your own screen, **Google Chrome** is recommended.
 
 ## Configuration in the course editor
 
 When integrating BigBlueButton into a course you can decide whether the online-meetings of the course element can be started by the moderators only or also by participants. Moderators are the owners and coaches of the course. The setting is located in `Course editor > BigBlueButton course element > Configuration` in the field "Access authorisation" as the option "Only moderators are allowed to open this virtual classroom". If the option is set, participants can only enter the online-meeting once the moderation has started it.
 
-![Restrict access to the moderators, option in the field "Access authorisation" of the course element configuration](../assets/image2020-4-14_11-19-9.png){ class="shadow lightbox" }
+![Access restricted to moderators, option "Only moderators are allowed to open this virtual classroom" checked](../assets/image2020-4-14_11-19-9.png){ class="shadow lightbox" title="Tab Configuration in the course editor" }
 
 ## Create, configure and enter rooms [:octicons-tag-16:{ title="from Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
 
@@ -50,9 +50,9 @@ The following settings are made with the editor closed.
 
 ### Tab "Meeting management"
 
-In the tab "Meeting management" the owners of the course create and configure new online-meetings. Online-meetings that already exist can also be copied or deleted here.
+In the tab "Meeting management" the owners and coaches of the course create and configure new online-meetings. Online-meetings that already exist can also be copied or deleted here. The tab is missing as long as no enabled room template is released for their role. The administration sets the release in the room template in the field "Room-template activated for" ([BigBlueButton module](../../../manual_admin/administration/BigBlueButton_module.md#room_config)).
 
-![Create and manage online-meetings, button "Add online-meeting" in the tab "Meeting management"](../assets/image2020-4-14_11-20-49.png){ class="shadow lightbox" }
+![Button "Add online-meeting" above the still empty list of online-meetings](../assets/image2020-4-14_11-20-49.png){ class="shadow lightbox" title="Tab Meeting management in the course element BigBlueButton" }
 
 The following variants can be created:
 
@@ -67,7 +67,7 @@ The following variants can be created:
 
 The variants only differ in the way the meetings are created. Separate online-meetings or reservations are created, which can then be edited individually. Depending on the configuration of the server, different options are available.
 
-![Configure an online-meeting, form "Add single meeting"](../assets/bbb_creating.png){ class="shadow lightbox" }
+![Fields of an online-meeting, mandatory fields Name, Room-template, Start date and End date marked with an asterisk](../assets/bbb_creating.png){ class="shadow lightbox" title="Dialog Add single meeting" }
 
 The settings in detail:
 
@@ -93,7 +93,7 @@ The settings in detail:
 Only for scheduled rooms:
 
 * **Start date**: Enter the starting date.
-* **Prep time (min.)**: 0 to 30 minutes configurable prep time. During this time coaches and owners can already start the meeting, participants cannot. This allows a presentation to be prepared, for example.
+* **Prep time (min.)**: 0 to 30 minutes configurable prep time. During this time owners and coaches can already start the meeting, participants cannot. This allows a presentation to be prepared, for example.
 * **End date**: End of the meeting. The maximum duration of a meeting depends on the selected room template.
 * **Follow-up (min.)**: 0 to 30 minutes configurable follow-up time. After the end time is reached, the meeting is automatically extended by the follow-up time for all people. A display with the remaining conference time appears.
 
@@ -112,19 +112,19 @@ For recurring meetings, the meetings can be edited, deleted or supplemented with
 
 The tab "Online-meetings" gives you access to a specific online-meeting or room.
 
-Owners and coaches of the course can upload their presentations in advance so that they are available at the start of the meeting. The top document of the list is displayed directly.
+Owners and coaches of the course can upload their presentations in advance so that they are available at the start of the meeting. The top document of the list is displayed directly. Slides cannot be uploaded to an online-meeting that is already running.
 
-![Provide slides before the meeting, detail view of an online-meeting in the tab "Online-meetings"](../assets/BBB_praesentation.png){ class="shadow lightbox" }
+![Three uploaded slides, each with a button to delete it, below them "Upload slides"](../assets/BBB_praesentation.png){ class="shadow lightbox" title="Online-meeting detail view in the tab Online-meetings" }
 
 #### Recordings
 
-The recordings of a meeting can also be found in the tab "Online-meetings". Automatically published recordings are directly selectable here. If the publication is done manually, only owners and coaches see the recordings at first and define for which target group the recording should be provided. Depending on the server configuration, a download of a recording is also available.
+The recordings of a meeting can also be found in the tab "Online-meetings". Automatically published recordings are directly selectable here. If the publication is done manually, only owners and coaches see the recordings at first and define for which target group the recording should be provided. Depending on the server configuration, a download of a recording is also available. Depending on the server configuration, a note above the list of recordings says that recordings can only be viewed with Google Chrome or Firefox.
 
 !!! warning "Attention"
 
     The settings under "Publish" as well as under "Delete" apply to the recording as well as to the download. If you delete an entry, the whole recording is deleted.
 
-![Release a recording to individual roles, selection "publish to" in the list of recordings](../assets/bbb_recordings.png){ class="shadow lightbox" }
+![Selection "publish to" with four target groups, all meeting's attendees without guests checked](../assets/bbb_recordings.png){ class="shadow lightbox" title="Recordings in the detail view of an online-meeting" }
 
 ## Calendar view
 
@@ -134,23 +134,23 @@ When configuring a room, an overview of all booked BigBlueButton rooms of the in
 
 In addition, the online-meetings created in BigBlueButton automatically appear in the course-specific calendar. From here, all course members can quickly reach the correspondingly linked BigBlueButton room.
 
-![Check occupied times before choosing a date, weekly view under "Show room bookings"](../assets/image2020-4-7_14-14-5.png){ class="shadow lightbox" }
+![Occupied times of all BigBlueButton rooms as a weekly calendar, one booking on Tuesday from 13.29 to 14.11](../assets/image2020-4-7_14-14-5.png){ class="shadow lightbox" title="Dialog Show room bookings" }
 
 ## View for participants
 
 When participants call up a BigBlueButton course element, they see the list "Current and upcoming online-meetings" and, if available, the list "Past online-meetings". Permanent reservations appear without a date in the first list. A click on "Select" leads to the detail view of the respective online-meeting.
 
-![Select an online-meeting, lists "Current and upcoming online-meetings" and "Past online-meetings" in the course element](../assets/BBB_Uebersicht.png){ class="shadow lightbox" }
+![Online-meetings in two lists, current and past, each row with the link "Select"](../assets/BBB_Uebersicht.png){ class="shadow lightbox" title="Course element BigBlueButton from the participants' view" }
 
 You start current sessions with "Join the online-meeting". This takes you into the BigBlueButton room.
 
-![Join a meeting and open recordings, detail view of an online-meeting](../assets/BBB_Meeting_beitreten.png){ class="shadow lightbox" }
+![Button "Join the online-meeting", below it the recordings of the meeting with a link to open them](../assets/BBB_Meeting_beitreten.png){ class="shadow lightbox" title="Detail view of an online-meeting for participants" }
 
-Past online-meetings can no longer be entered. The detail view still gives access to existing recordings of the meeting. Coaches and owners of the course can also delete recordings here.
+Past online-meetings can no longer be entered. The detail view still gives access to existing recordings of the meeting. Owners and coaches of the course can also delete recordings here.
 
 ## BigBlueButton Room
 
-![Overview of the areas of the conference room, annotated BigBlueButton room](../assets/BBB-Raum.png){ class="shadow lightbox" }
+![Areas of the conference room labelled in red, from the list of people on the left to the bar at the bottom](../assets/BBB-Raum.png){ class="shadow lightbox" title="Conference room in BigBlueButton" }
 
 The room is divided into the list of people with the shared notes, the chat area with the text input, the presentation area for slides and the webcam area. The whiteboard tools are located on the right-hand edge, the button to start the recording and the general settings at the top. The bar at the bottom controls audio, webcam and screen sharing as well as polls, upload and video sharing.
 
@@ -168,4 +168,4 @@ Depending on the configuration of the BigBlueButton room template, conference ro
 
 The guest link also appears for owners and coaches of the course before they enter the room. In addition, a password for guests can be generated during the configuration of the room.
 
-![Pass on the guest link, detail view of an online-meeting with the field "Link for external users"](../assets/bbb_externe2.png){ class="shadow lightbox" }
+![URL for external users to pass on, below it the button "Join the online-meeting"](../assets/bbb_externe2.png){ class="shadow lightbox" title="Detail view of an online-meeting for moderators" }

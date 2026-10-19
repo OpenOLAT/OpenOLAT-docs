@@ -1,4 +1,4 @@
-# Frequently asked questions - BigBlueButton
+# Frequently asked questions - BigBlueButton {: #bbb_faq}
 
 !!! note "Open Source Solution BigBlueButton"
 
@@ -84,6 +84,15 @@ The following options are available to troubleshoot the problem:
 * Restart your PC or notebook
 
 
+**What does the option "See other viewers webcams" mean?**
+
+If the dialog shows the status "Locked" for this option, participants only see the webcams of the moderators. A participant who shares their own camera is then only seen by the moderation, not by the other participants. The option is in the dialog "Lock viewers". During the BigBlueButton meeting, moderators find the gear icon "Manage users" next to the heading "Users". With it, they open the dialog: `Users > Manage users > Lock viewers`.
+
+The room template defines which status the option has when the meeting starts. There, the same setting is called "Webcams only for moderators". With "Yes", it has the status "Locked" at the start. During the meeting, moderators can lift the lock and set it again in the dialog at any time.
+
+Administrators and system administrators edit room templates in the system administration under: `Administration > External tools > BigBlueButton > Tab "Room-templates"`. For more information see [BigBlueButton module](../../../manual_admin/administration/BigBlueButton_module.md#tab_room-templates). Course owners and coaches cannot change the setting. They only select the room template when they create an online meeting in the running course: `Course element "BigBlueButton" > Meeting management > Add online-meeting`.
+
+
 **The presentation is too small and the videos of the participants and moderators are very large. How can I change this?**
 
 Between the videos and the presentation/screensharing, you can use the mouse to increase and decrease the ratio of the two areas. In addition, the presentation/screensharing can be displayed full screen at any time (click on the icon in the upper right corner of the presentation)
@@ -124,3 +133,16 @@ _The recording includes:_ All audio, all activated cameras, presentations/screen
 **From when is the recording available in the OpenOlat course?**
 
 Any recordings will be available in OpenOlat a few minutes after the meeting has concluded/ended. Under "Past online-meetings" you can control the publication.
+
+
+## Further information {: #further_information}
+
+[Help Videos from BigBlueButton](https://bigbluebutton.org/html5/){:target="_blank"}<br>
+[FAQ BigBlueButton](https://docs.bigbluebutton.org/support/faq.html){:target="_blank"}<br>
+[More FAQ BigBlueButton](https://support.blindsidenetworks.com/hc/en-us/categories/360000379651-BigBlueButton-HTML5){:target="_blank"}<br>
+[BigBlueButton module >](../../../manual_admin/administration/BigBlueButton_module.md)<br>
+[Course Element "BigBlueButton" >](index.md)<br>
+[Virtual classrooms >](../../basic_concepts/Virtual_classrooms.md)<br>
+[Using Group Tools >](../../groups/Using_Group_Tools.md)
+
+[To the top of the page ^](#bbb_faq)

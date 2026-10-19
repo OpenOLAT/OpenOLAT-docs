@@ -1,4 +1,4 @@
-# Häufig gestellte Fragen - BigBlueButton
+# Häufig gestellte Fragen - BigBlueButton {: #bbb_faq}
 
 !!! note "Open Source Lösung BigBlueButton"
 
@@ -84,6 +84,15 @@ Folgende Möglichkeiten stehen zur Problembehebung zur Verfügung:
 * Starten Sie Ihren PC oder Ihr Notebook neu
 
 
+**Was bedeutet die Option "Webcams anderer anzeigen"?**
+
+Zeigt der Dialog bei dieser Option den Status "Gesperrt", sehen Teilnehmende nur noch die Webcams der Moderierenden. Wer als Teilnehmer:in die eigene Kamera teilt, wird dann nur von der Moderation gesehen, nicht von den anderen Teilnehmenden. Die Option steht im Dialog "Rechte der Teilnehmenden einschränken". Moderierende finden während des BigBlueButton-Meetings neben der Überschrift "Teilnehmer" das Zahnrad "Teilnehmende verwalten". Damit öffnen sie den Dialog: `Teilnehmer > Teilnehmende verwalten > Rechte der Zuschauenden einschränken`.
+
+Die Raumvorlage legt fest, welchen Status die Option zu Beginn des Meetings hat. Dort heisst dieselbe Einstellung "Nur Moderatorenkamera". Mit "Ja" hat sie zu Beginn den Status "Gesperrt". Moderierende können die Sperre während des Meetings im Dialog jederzeit aufheben und wieder setzen.
+
+Raumvorlagen bearbeiten Administrator:innen und Systemadministrator:innen in der System-Administration unter: `Administration > Externe Werkzeuge > BigBlueButton > Tab "Raumvorlagen"`. Mehr dazu unter [Modul BigBlueButton](../../../manual_admin/administration/BigBlueButton_module.de.md#tab_room-templates). Besitzer:innen und Betreuer:innen des Kurses können die Einstellung nicht ändern. Sie wählen nur die Raumvorlage aus, wenn sie im laufenden Kurs einen Online-Termin anlegen: `Kursbaustein "BigBlueButton" > Terminverwaltung > Online-Termin hinzufügen`.
+
+
 **Die Präsentation ist zu klein und die Videos der Teilnehmenden und Moderierenden sind sehr gross. Wie kann ich das verändern?**
 
 Zwischen den Videos und der Präsentation/Screensharing kann mit der Maus das Verhältnis der beiden Bereiche vergrössert und verkleinert werden. Zusätzlich kann die Präsentation/Screensharing jederzeit Vollbild angezeigt werden (Klick auf das Symbol in der rechten oberen Ecke der Präsentation)
@@ -124,3 +133,16 @@ _Die Aufzeichnung beinhaltet:_ Sämtliches Audio, alle aktivierten Kameras, Prä
 **Ab wann steht die Aufzeichnung im OpenOlat-Kurs zur Verfügung?**
 
 Allfällige Aufzeichnungen stehen einige Minuten nach Abschluss/Beendigung des Meetings in OpenOlat zur Verfügung. Unter "Abgelaufene Online-Termine" können Sie die Publikation steuern.
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Hilfe-Videos von BigBlueButton](https://bigbluebutton.org/html5/){:target="_blank"}<br>
+[FAQ BigBlueButton](https://docs.bigbluebutton.org/support/faq.html){:target="_blank"}<br>
+[Weitere FAQ BigBlueButton](https://support.blindsidenetworks.com/hc/en-us/categories/360000379651-BigBlueButton-HTML5){:target="_blank"}<br>
+[Modul BigBlueButton >](../../../manual_admin/administration/BigBlueButton_module.de.md)<br>
+[Kursbaustein "BigBlueButton" >](index.de.md)<br>
+[Virtuelle Klassenzimmer >](../../basic_concepts/Virtual_classrooms.de.md)<br>
+[Gruppenwerkzeuge nutzen >](../../groups/Using_Group_Tools.de.md)
+
+[Zum Seitenanfang ^](#bbb_faq)
