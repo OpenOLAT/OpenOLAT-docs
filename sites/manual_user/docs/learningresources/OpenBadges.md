@@ -155,19 +155,19 @@ As soon as you have decided to create a new badge (click on the "Create a new ba
 If you are already the owner of a course with a course badge, the wizard for course badges starts with the **Starting point** step. There you choose "Create a new badge" or "Create from existing badge". With the second option, you adopt the details of an existing badge and adapt them in the following steps. The wizard then skips the Image and Customization steps.
 
 1. **Image**: The first step is to select a template or upload your own image. SVG and PNG are currently supported.
-![Selection of a badge template from motifs such as thumbs up, star, cup or check mark on shield, circle or hexagon, alternatively upload of an own image](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" title="Image step in the badge wizard" }
+![Selection of a badge template from motifs such as thumbs up, star, cup or check mark on shield, circle or hexagon, alternatively upload of an own image](assets/badges-wizard-1_de.jpg){ class="shadow lightbox" title="Image step in the badge wizard" }
 
 2. **Customization**: If the template was created with variables, you can change e.g. the background color and the title of the template. This step only appears for customizable templates.
-![Background color bronze and title "Test passed" set for the selected template, preview shows the finished badge](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" title="Customization step in the badge wizard" }
+![Background color bronze and title "Test passed" set for the selected template, preview shows the finished badge](assets/badges-wizard-2_de.jpg){ class="shadow lightbox" title="Customization step in the badge wizard" }
 
 3. **Award criteria**: Fill in the criteria description and choose the award procedure: automatic awarding based on the selected criteria, or manual awarding only via the assessment tool. The available criteria are described under [Course badges assigned automatically](#award_criteria). When you create a new version, this step is skipped and the award criteria remain unchanged.
-![Criteria description, award procedure automatic or manual only via the assessment tool, selected rule course is passed](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" title="Award criteria step in the badge wizard" }
+![Criteria description, award procedure automatic or manual only via the assessment tool, selected rule course is passed](assets/badges-wizard-4_de.jpg){ class="shadow lightbox" title="Award criteria step in the badge wizard" }
 
 4. **Details**: Mandatory details are the name and description of the badge, as well as the issuer. Under "Language" you select the language of the badge. You can additionally add an issuer URL and an issuer email. The expiration can be set to "Never" or defined with a validity period, e.g. 12 months. OpenOlat assigns the version itself: a new badge starts with the first version, and each new version increments it.
-![Mandatory fields name, description and issuer, plus issuer URL, issuer email and expiration with validity period](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" title="Details step in the badge wizard" }
+![Mandatory fields name, description and issuer, plus issuer URL, issuer email and expiration with validity period](assets/badges-wizard-3_de.jpg){ class="shadow lightbox" title="Details step in the badge wizard" }
 
 5. **Summary**: Summary screen of all the details.
-![Badge preview with name, description and the award rule, when the course is passed the badge is awarded](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" title="Summary step in the badge wizard" }
+![Badge preview with name, description and the award rule, when the course is passed the badge is awarded](assets/badges-wizard-5_de.jpg){ class="shadow lightbox" title="Summary step in the badge wizard" }
 
 6. **Recipients**: Shows in a preview which participants receive the badge based on the criteria immediately after "Finish". For manual awarding, you select the recipients here.
 

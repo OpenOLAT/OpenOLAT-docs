@@ -156,19 +156,19 @@ Sobald Sie sich zum Erstellen eines neuen Badges entschlossen haben (Klick auf d
 Sind Sie bereits Besitzer:in eines Kurses mit einem Kurs-Badge, beginnt der Wizard für Kurs-Badges mit dem Schritt **Ausgangspunkt**. Dort wählen Sie "Einen neuen Badge erstellen" oder "Von vorhandenem Badge erstellen". Mit der zweiten Option übernehmen Sie die Details eines vorhandenen Badges und passen sie in den folgenden Schritten an. Der Wizard überspringt dann die Schritte Bild und Anpassung.
 
 1. **Bild**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG und PNG unterstützt.
-![Auswahl einer Badge-Vorlage aus Motiven wie Daumen, Stern, Pokal oder Haken auf Schild, Kreis oder Sechseck, alternativ Upload eines eigenen Bildes](assets/badges-wizard-1.de.jpg){ class="shadow lightbox" title="Schritt Bild im Badge-Wizard" }
+![Auswahl einer Badge-Vorlage aus Motiven wie Daumen, Stern, Pokal oder Haken auf Schild, Kreis oder Sechseck, alternativ Upload eines eigenen Bildes](assets/badges-wizard-1_de.jpg){ class="shadow lightbox" title="Schritt Bild im Badge-Wizard" }
 
 2. **Anpassung**: Wenn die Vorlage mit Variablen erstellt wurde, können Sie z.B. Hintergrundfarbe und Titel der Vorlage ändern. Dieser Schritt erscheint nur bei anpassbaren Vorlagen.
-![Hintergrundfarbe Bronze und Titel Test bestanden für die gewählte Vorlage gesetzt, Vorschau zeigt den fertigen Badge](assets/badges-wizard-2.de.jpg){ class="shadow lightbox" title="Schritt Anpassung im Badge-Wizard" }
+![Hintergrundfarbe Bronze und Titel Test bestanden für die gewählte Vorlage gesetzt, Vorschau zeigt den fertigen Badge](assets/badges-wizard-2_de.jpg){ class="shadow lightbox" title="Schritt Anpassung im Badge-Wizard" }
 
 3. **Vergabekriterien**: Geben Sie die Kriterien-Beschreibung an und wählen Sie das Vergabeverfahren: automatische Vergabe anhand der gewählten Kriterien oder nur manuelle Vergabe über das Bewertungswerkzeug. Die verfügbaren Kriterien sind unter [Kurs-Badges automatisch vergeben](#award_criteria) beschrieben. Beim Erstellen einer neuen Version entfällt dieser Schritt, die Vergabekriterien bleiben unverändert.
-![Kriterien-Beschreibung, Vergabeverfahren automatisch oder nur manuell über das Bewertungswerkzeug, gewählte Regel Kurs bestanden](assets/badges-wizard-4.de.jpg){ class="shadow lightbox" title="Schritt Vergabekriterien im Badge-Wizard" }
+![Kriterien-Beschreibung, Vergabeverfahren automatisch oder nur manuell über das Bewertungswerkzeug, gewählte Regel Kurs bestanden](assets/badges-wizard-4_de.jpg){ class="shadow lightbox" title="Schritt Vergabekriterien im Badge-Wizard" }
 
 4. **Details**: Obligatorische Angaben sind Name und Beschreibung des Badges sowie der Herausgeber. Unter "Sprache" wählen Sie die Sprache des Badges. Sie können zusätzlich eine Herausgeber-URL und eine Herausgeber-E-Mail hinzufügen. Der Verfall kann auf "Nie" stehen oder mit einer Gültigkeitsdauer, z.B. 12 Monate, festgelegt werden. Die Version vergibt OpenOlat selbst: ein neuer Badge beginnt mit der ersten Version, jede neue Version zählt sie hoch.
-![Pflichtfelder Name, Beschreibung und Herausgeber, dazu Herausgeber-URL, Herausgeber-Email und Verfall mit Gültigkeitsdauer](assets/badges-wizard-3.de.jpg){ class="shadow lightbox" title="Schritt Details im Badge-Wizard" }
+![Pflichtfelder Name, Beschreibung und Herausgeber, dazu Herausgeber-URL, Herausgeber-Email und Verfall mit Gültigkeitsdauer](assets/badges-wizard-3_de.jpg){ class="shadow lightbox" title="Schritt Details im Badge-Wizard" }
 
 5. **Zusammenfassung**: Bildschirm mit einer Zusammenfassung aller Details.
-![Badge-Vorschau mit Name, Beschreibung und der Vergaberegel, wenn der Kurs bestanden ist, dann wird der Badge vergeben](assets/badges-wizard-5.de.jpg){ class="shadow lightbox" title="Schritt Zusammenfassung im Badge-Wizard" }
+![Badge-Vorschau mit Name, Beschreibung und der Vergaberegel, wenn der Kurs bestanden ist, dann wird der Badge vergeben](assets/badges-wizard-5_de.jpg){ class="shadow lightbox" title="Schritt Zusammenfassung im Badge-Wizard" }
 
 6. **Empfänger**: Zeigt in einer Vorschau, welche Teilnehmer:innen den Badge aufgrund der Kriterien unmittelbar nach "Fertigstellen" erhalten. Bei manueller Vergabe wählen Sie die Empfänger hier aus.
 

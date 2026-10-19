@@ -22,7 +22,7 @@ Ein Standardset von Vorlagen ist bereits auf der OpenOlat Instanz vorbereitet.
 
 Weitere Vorlagen können  erstellt werden, indem  Bild, Name und eine Beschreibung der Vorlage spezifiziert wird.
 
-![Formular "Vorlage hochladen" mit den Feldern Bild, Name, Beschreibung, Kategorien und Anwendungsbereich](assets/badges-admin-global-templates.de.jpg){ class="shadow lightbox" }
+![Pflichtfelder Bild, Name und Anwendungsbereich mit den Optionen "Global" und "Kurs", bei Name und Beschreibung der Link "Übersetzung"](assets/badges-admin-global-templates_de.jpg){ class="shadow lightbox" title="Dialog Vorlage hochladen im Tab Vorlagen" }
 
 #### Name {: #name }
 

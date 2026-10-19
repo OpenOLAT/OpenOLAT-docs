@@ -24,7 +24,7 @@ A standard set of templates is already instantiated on the OpenOlat instance.
 
 Additional templates can be created by specifying the image, name and a description of the template.
 
-![Form "Upload template" with the fields Image, Name, Description, Categories and Scope](assets/badges-admin-global-templates.de.jpg){ class="shadow lightbox" }
+![Mandatory fields Image, Name and Scope with the options "global" and "course", the link "Translation" next to Name and Description](assets/badges-admin-global-templates_de.jpg){ class="shadow lightbox" title="Upload template dialog in the Templates tab" }
 
 #### Name {: #name }
 
