@@ -6,6 +6,7 @@
     * [I do not receive an e-mail with the validation code](Login_Page.md#no_mail)
     * [I have not received any credentials from my institution](Login_Page.md#no_account)
     * [The login through my institution fails](Login_Page.md#external_login)
+    * [I am logged in, but I cannot open a course or individual course elements in it](../help/Course_Problems_and_Error_Messages.md)
     * [Who do I contact if none of this helps?](Login_Page.md#contact_support)
     * [Where can I change my password?](Password.md)
     * [Which security levels are available in OpenOlat?](Security_levels.md)

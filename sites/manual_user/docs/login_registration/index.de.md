@@ -6,6 +6,7 @@
     * [Ich erhalte keine E-Mail mit dem Validierungscode](Login_Page.de.md#no_mail)
     * [Ich habe von meiner Institution keine Zugangsdaten erhalten](Login_Page.de.md#no_account)
     * [Die Anmeldung über meine Institution schlägt fehl](Login_Page.de.md#external_login)
+    * [Ich bin angemeldet, kann aber einen Kurs oder einzelne Kursbausteine darin nicht öffnen](../help/Course_Problems_and_Error_Messages.de.md)
     * [An wen wende ich mich, wenn nichts davon hilft?](Login_Page.de.md#contact_support)
     * [Wo kann ich mein Passwort ändern?](Password.de.md)
     * [Welche Sicherheitsstufen gibt es in OpenOlat?](Security_levels.de.md)
