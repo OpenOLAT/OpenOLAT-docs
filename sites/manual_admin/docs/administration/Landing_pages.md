@@ -1,6 +1,6 @@
 # Landing pages {: #landing_pages}
 
-Administrators specify here in fine-grained detail which users are presented with which landing page when they log in to OpenOlat. You find the setting in the system administration under:<br>
+After login, OpenOlat opens a landing page for every person. With rules, administrators define which landing page that is for which users, so that every person starts where they work. You find the setting in the system administration under:<br>
 `Administration > Core functions > Landing pages`
 
 You narrow down the users by role, by a user attribute or by both, and then assign them the appropriate landing page via the columns "Landing page" and "Selection". You can create as many rules as necessary. OpenOlat always applies the first matching rule. The rules are independent of each other and do not all have to match; only the order decides.
@@ -9,16 +9,16 @@ You narrow down the users by role, by a user attribute or by both, and then assi
 
     The rules only apply if a person has not set their own landing page and does not return to their last location after login. More about this in the section [What takes precedence over the rules](#precedence).
 
-The column "Position" defines the order in which the rules are checked: the first rule that matches determines the page for the users concerned. You change the position via the columns "Up" / "Down". You add further rules via the column "Add" and remove a rule via "Delete". Click "Save" to apply the rules.
+The column "Position" defines the order in which OpenOlat checks the rules: the first rule that matches determines the page for the users concerned. You change the position via the columns "Up" / "Down". You add further rules via the column "Add" and remove a rule via "Delete". Click "Save" to apply the rules.
 
-Via "Role" you define whether you want to set a specific landing page for users with a specific role (e.g. Course authors or Question bank managers), for example the page "Authoring" for all authors. If you select no role, any subsequent restrictions apply to all registered users, independent of their role.
+In the column "Role" you choose the role a rule applies to, for example "Course authors" or "Question bank managers". In this way, the page "Authoring environment" opens for all course authors, for example. If you choose no role ("-"), the rule applies to all registered users, independent of their role.
 
-Course owners and Course coaches are roles in learning resources such as courses; Master coaches is a role in Course Planner. Such a rule applies to a person as soon as they have this role at least once, for example in a single course. All other roles in the list are roles that users receive in the user management.
+Course owners and Course coaches are roles in learning resources such as courses; the role Master coaches belongs to Course Planner. Such a rule applies to a person as soon as they have this role at least once, for example in a single course. All other roles in the list are roles that users receive in the user management.
 
-Via the "User attribute" the previously defined users (either all users of the system or users with a specific role) are further narrowed down. The user attribute (e.g. gender, country or field of study) is then defined via the column "Value". For the attribute "Gender" the values _male/female_ are possible, for country e.g. _Switzerland, Germany_ etc., or for field of study _Informatics, Theology_ etc. Which values can be entered in the column "Value" depends on your organisation and on how these values are available in your OpenOlat instance. User attributes can also change depending on earlier settings. Attributes may have been renamed, or the list of available attributes may have been adjusted. You find both settings in the system administration under:<br>
+In the column "User attribute" you narrow down the users of the rule further, that is all users or the users of the chosen role. You enter the value of the attribute in the column "Value". For the attribute "Gender" these are the values "Male", "Female" and "Other", for the attribute "Country" for example "Switzerland" or "Germany", for the attribute "Field of studies" for example "Informatics" or "Theology". Which attributes and values are available depends on how your organisation has set up the user attributes in OpenOlat. You can rename attributes or adjust the list of available attributes in the system administration under:<br>
 `Administration > Customizing > User Properties`
 
-You define which page or which course opens in the column "Landing page". Via the column "Selection" you choose a preset page, and OpenOlat then enters its link in the column "Landing page". You can choose from "My courses in course area", "Bookmarks in course area", "Catalog in course area", "Group area", "Bookmarks in group area", "My subscriptions", "My e-portfolio", "Infocours 1", "Infocours 2", "Authoring environment", "Coaching Tool", "Course Planner", "Catalog (if available as own area)" and "Portal (if available as own area)".
+You define which page or which course OpenOlat opens in the column "Landing page". Via the column "Selection" you choose a preset page, and OpenOlat then enters its link in the column "Landing page". You can choose from "My courses in course area", "Bookmarks in course area", "Catalog in course area", "Group area", "Bookmarks in group area", "My subscriptions", "My e-portfolio", "Info course 1", "Info course 2", "Authoring environment", "Coaching Tool", "Course Planner", "Catalog (if available as own area)" and "Portal (if available as own area)".
 
 You enter any other page in OpenOlat as a link in the column "Landing page", e.g. a course or a specific tab of a list. The link must have the following format:
 
@@ -42,7 +42,7 @@ The link shows where it leads: each part stands for an area, a view or a tab, ju
 
 !!! info "Important"
 
-    Two courses can be defined that are added to the navigation in addition to the known areas as desired: the Info courses 1 and 2. Which courses are displayed as Info course 1 or 2, and are thus available for selection here, you define in the tabs Info page n°1 / n°2 in the system administration under:<br>
+    The selection "Info course 1" and "Info course 2" opens the two courses that your organisation can add to the main navigation as areas of their own. You define which courses these are in the tabs "Info page n°1" and "Info page n°2", in the system administration under:<br>
     `Administration > Customizing > Sites`
 
 
@@ -59,6 +59,9 @@ Every role in OpenOlat has its own working area: learners work under "Courses", 
 | 5 | no role ("-") | `/MyCoursesSite/0` | My courses in course area |
 
 Always put the rule without a role at the end. It applies to all persons to whom no rule above applies, for example learners.
+
+The rule for Course planners only leads to Course Planner if the [module Course Planner](Modules_Course_Planner.md) is enabled. You find the switch in the system administration under:<br>
+`Administration > Modules > Course Planner`
 
 As long as your organisation has not saved any rules of its own, OpenOlat uses four of these rules as default: for Course planners, Course authors, Course coaches and all other persons. The rule for Course owners is not one of them. Add it so that owners who are neither author nor coach also land in Coaching. If your organisation has already saved the rules once, its rules remain unchanged. In that case, compare them with the table above [:octicons-tag-16:{ title="from Release 21.1 (OO-9777)" }](https://track.frentix.com/issue/OO-9777).
 
@@ -79,10 +82,10 @@ A rule can also lead deeper than the entry page of an area. With `/CoachSite/0/C
 
 The rules only determine the landing page if a person does not return to their last location after login and has not set their own landing page. Each person sets both of these in their [personal settings](../../manual_user/personal_menu/Settings.md#special):
 
-* **Resume last session:** With "No", OpenOlat opens the landing page you have set here for the person's role after each login. With "Yes, automatically", OpenOlat instead opens the location the person visited last. They then only see your landing page as long as there is no such location yet, for example at the first login. With "Yes, on request", OpenOlat asks after login "Do you want to resume your last session?". If the person clicks "Landing page", your landing page opens.
+* **Resume last session:** With "No", OpenOlat opens the landing page that your rules determine for the person after each login. With "Yes, automatically", OpenOlat instead opens the location the person visited last. They then only see your landing page as long as there is no such location yet, for example at the first login. With "Yes, on request", OpenOlat asks after login "Do you want to resume your last session?". If the person clicks "Landing page", your landing page opens.
 * **Landing page:** In the field "Landing page", a person sets any page they are allowed to open as their personal landing page. It takes precedence over every rule.
 
-The operation of your OpenOlat instance determines which value applies for "Resume last session" as long as a person has not chosen anything.
+If a person has not chosen anything for "Resume last session", the value from the server configuration of your OpenOlat instance applies. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
 
 Persons who log in via a link, e.g. from an e-mail, land at the target of this link. The rules do not apply to guests and invitees.
 
@@ -91,11 +94,12 @@ Persons who log in via a link, e.g. from an e-mail, land at the target of this l
 
 **Mentioned on this page**<br>
 [Roles and their working areas >](../../manual_user/basic_concepts/Roles_Home_Areas.md)<br>
+[Module Course Planner >](../administration/Modules_Course_Planner.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)
 
 **Further reading**<br>
 [Core functions: Overview >](../administration/Core_functions.md)<br>
-[Customizing >](../administration/Customizing.md)<br>
+[Customizing: Overview >](../administration/Customizing.md)<br>
 [Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)<br>
 [Coaching - Courses >](../../manual_user/area_modules/Coaching_Courses.md)
 
