@@ -75,6 +75,19 @@ Integrated documents can also be edited later if needed, and their metadata can 
 
 ![Menu Edit with Edit metadata, Edit document, Choose another document and Save to learning resource management: detail view of a document](assets/Dokument_bearbeiten.png){ class="lightbox" }
 
+### Remove a document
+
+A document cannot be deleted in the course element, only replaced. You select another document in the course editor in the "Document" tab: `Edit > Select other document`. If the course should no longer show any document, delete the whole course element in `Course > Administration > Course editor` and publish the course, see [Deleting, Moving and Copying Course Elements](Deleting_Moving_and_Copying_Course_Elements.md).
+
+The file itself is kept. Where it is stored is shown by the "Storage location" below the document in the "Document" tab:
+
+* **Storage folder**: Uploaded files, newly created files and files selected from the storage folder are stored here. You delete the file in `Course > Administration > Files > Storage folder`, see [Storage folder](Storage_folder.md).
+* **Learning resource repository**: The file is a learning resource of its own. You delete it like any learning resource, see [Delete (a course or learning resource)](Course_Delete.md).
+
+!!! info "Important"
+
+    Delete the file only when no course element shows it any more. Otherwise participants see the message "No document" in the course element.
+
 
 ### Configure permissions [:octicons-tag-16:{ title="since Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 

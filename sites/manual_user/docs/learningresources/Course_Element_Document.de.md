@@ -75,6 +75,19 @@ Eingebundene Dokumente können bei Bedarf später auch bearbeitet und Metadaten 
 
 ![Menü Bearbeiten mit Metadaten bearbeiten, Dokument bearbeiten, anderes Dokument wählen und in Lernressourcenverwaltung speichern: Detailansicht eines Dokuments](assets/Dokument_bearbeiten.png){ class="lightbox" }
 
+### Dokument entfernen
+
+Ein Dokument lässt sich im Kursbaustein nicht löschen, nur austauschen. Ein anderes Dokument wählen Sie im Kurseditor im Tab "Dokument": `Bearbeiten > Anderes Dokument wählen`. Soll im Kurs gar kein Dokument mehr erscheinen, löschen Sie den ganzen Kursbaustein in `Kurs > Administration > Kurseditor` und publizieren Sie den Kurs, siehe [Löschen, Verschieben und Kopieren von Kursbausteinen](Deleting_Moving_and_Copying_Course_Elements.de.md).
+
+Die Datei selbst bleibt dabei erhalten. Wo sie liegt, zeigt die Angabe "Speicherort" unter dem Dokument im Tab "Dokument":
+
+* **Ablageordner**: Hier liegen hochgeladene, neu erstellte und aus dem Ablageordner gewählte Dateien. Sie löschen die Datei in `Kurs > Administration > Dateien > Ablageordner`, siehe [Ablageordner](Storage_folder.de.md).
+* **Lernressourcenverwaltung**: Die Datei ist eine eigene Lernressource. Sie löschen sie wie jede Lernressource, siehe [Löschen (eines Kurses/einer Lernressource)](Course_Delete.de.md).
+
+!!! info "Wichtig"
+
+    Löschen Sie die Datei erst, wenn kein Kursbaustein sie mehr anzeigt. Sonst sehen die Teilnehmenden im Kursbaustein den Hinweis "Kein Dokument".
+
 
 ### Berechtigungen konfigurieren [:octicons-tag-16:{ title="ab Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
