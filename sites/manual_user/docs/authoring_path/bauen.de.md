@@ -5,11 +5,15 @@ description: Inhalt zusammensetzen. Im Kurseditor setzen Sie Kursbausteine zusam
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zum ersten Kurs" markdown="1">
+<nav class="oo-mh-trail" aria-label="Einführung für Autor:innen" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zum ersten Kurs</span>
-[‹ Menü: Planen](planen.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Steuern ›](steuern.de.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Einrichten](einrichten.de.md)
+1. [Planen](planen.de.md)
+1. [Bauen](bauen.de.md){ aria-current="page" }
+1. [Steuern](steuern.de.md)
+1. [Öffnen](oeffnen.de.md)
+1. [Prüfen](pruefen.de.md)
+1. [Auswerten](auswerten.de.md)
 
 </nav>
 
@@ -39,7 +43,7 @@ Der Bereich, in dem der Aufbau eines Kurses bearbeitet wird: Bausteine anlegen, 
 
     **Wie Nutzende es nennen:** Kursbaukasten, Kurserstellungstool, Kursdesigner, Kurs-Bausteineditor, Autorenwerkzeug, Lernpfad-Editor
 
-    [Im Handbuch lesen](../learningresources/Learning_path_course_Course_editor.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kurseditor%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Learning_path_course_Course_editor.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kurseditor%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -59,7 +63,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Wie Nutzende es nennen:** Baustein, Kurselement, Lerninhalt, Seite, Modulbaustein, Lernbaustein, Kursmodul, Lernelement
 
-    [Im Handbuch lesen](../learningresources/Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursbaustein%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursbaustein%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 <div class="oo-mh-kids" markdown>
 
@@ -71,7 +75,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Englisch:** Structure
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Structure.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Struktur%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Structure.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Struktur%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "Seite im Detail"
 
@@ -81,7 +85,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Wie Nutzende es nennen:** Inhaltsseite, Textseite, Wissensseite, Lernseite
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Page.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Seite%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Page.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Seite%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "HTML-Seite im Detail"
 
@@ -91,7 +95,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Wie Nutzende es nennen:** Inhaltsseite, Webseite, HTML-Inhalt, HTML-Dokument
 
-    [Im Handbuch lesen](../learningresources/Course_Element_HTML_Page.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22HTML-Seite%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_HTML_Page.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22HTML-Seite%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "Ordner im Detail"
 
@@ -101,7 +105,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Wie Nutzende es nennen:** Dateiablage, Materialsammlung
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Folder.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Ordner%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Folder.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Ordner%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "Forum im Detail"
 
@@ -109,7 +113,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Englisch:** Forum
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Forum.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Forum%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Forum.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Forum%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "Aufgabe im Detail"
 
@@ -119,7 +123,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Wie Nutzende es nennen:** Hausaufgabe, Auftrag, Arbeitsauftrag, Einsendeaufgabe, Übung, Lernaufgabe
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Task.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Aufgabe%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Task.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Aufgabe%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "Bewertung im Detail"
 
@@ -127,7 +131,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Englisch:** Assessment
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Assessment.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Assessment.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -149,7 +153,7 @@ Der blockbasierte Editor, mit dem Inhalte aus Absätzen, Bildern, Tabellen und F
 
     **Wie Nutzende es nennen:** Inhaltseditor, Seitenersteller, Seiteneditor
 
-    [Im Handbuch lesen](../basic_concepts/Content_Editor.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Content%20Editor%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../basic_concepts/Content_Editor.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Content%20Editor%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -169,7 +173,7 @@ Das Modul, in dem jede Person ihre Medien ablegt und verwaltet: Bilder, Videos, 
 
     **Wie Nutzende es nennen:** Bildverwaltung, Fotoverwaltung, Medienverwaltung, Medienbibliothek, Medienpool, Medienbank
 
-    [Im Handbuch lesen](../basic_concepts/Media_Center_Concept.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Media%20Center%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../basic_concepts/Media_Center_Concept.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Media%20Center%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -191,7 +195,7 @@ Der Dateibereich eines Kurses, in dem die Dateien des Kurses liegen.
 
     **Nicht verwechseln mit «[Ressourcenordner](../learningresources/Resource_Folder.de.md)»:** Der Ablageordner gehört zu einem Kurs, der Ressourcenordner ist eine eigene Lernressource für mehrere Kurse.
 
-    [Im Handbuch lesen](../learningresources/Storage_folder.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Ablageordner%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Storage_folder.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Ablageordner%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -209,7 +213,7 @@ Der Vorgang, mit dem die Änderungen aus dem Kurseditor in den laufenden Kurs ü
 
     **Englisch:** Publish
 
-    [Im Handbuch lesen](../learningresources/Using_additional_Course_Editor_Tools.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Publizieren%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Using_additional_Course_Editor_Tools.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Publizieren%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -241,7 +245,7 @@ Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support
 
 ## Vertiefen, wenn der erste Kurs läuft {: #deepen}
 
-Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
+Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
 - **Kurseditor:** Bearbeitungsmodus aktivieren.
 - **Kursbaustein:** [Externe Seite](../learningresources/Course_Element_External_Page.de.md), [Linkliste](../learningresources/Course_Element_Link_List.de.md), [CP-Lerninhalt](../learningresources/Course_Element_CP_Learning_Content.de.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbausteine](../learningresources/Course_Elements.de.md).

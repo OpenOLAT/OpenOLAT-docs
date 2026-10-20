@@ -5,11 +5,15 @@ description: Role and place. Before you build, you need the Author role.
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to your first course" markdown="1">
+<nav class="oo-mh-trail" aria-label="Introduction for authors" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: The path to your first course</span>
-[‹ The path to your first course](index.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menu: Plan ›](planen.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Set up](einrichten.md){ aria-current="page" }
+1. [Plan](planen.md)
+1. [Build](bauen.md)
+1. [Control](steuern.md)
+1. [Open](oeffnen.md)
+1. [Assess](pruefen.md)
+1. [Evaluate](auswerten.md)
 
 </nav>
 
@@ -107,7 +111,7 @@ With frentix: we show you in the training. [support@frentix.com](mailto:support@
 
 ## Deepen once the first course is running {: #deepen}
 
-The first course is in place. Now the things that did not matter while building pay off: the terms of this station have parts and settings that control the course more precisely.
+The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
 - **Learning resource:** [Form](../learningresources/Form.md), [Test](../learningresources/Course_Element_Test.md), [Questionnaire](../learningresources/Course_Element_Survey.md), [Wiki](../learningresources/Course_Element_Wiki.md) and more. All settings are on the page [Various Types of Learning Resources](../learningresources/index.md).
 

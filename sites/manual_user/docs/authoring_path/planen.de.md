@@ -5,11 +5,15 @@ description: 'Kurs anlegen. Sie legen den Kurs an und treffen die eine Entscheid
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zum ersten Kurs" markdown="1">
+<nav class="oo-mh-trail" aria-label="Einführung für Autor:innen" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zum ersten Kurs</span>
-[‹ Menü: Einrichten](einrichten.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Bauen ›](bauen.de.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Einrichten](einrichten.de.md)
+1. [Planen](planen.de.md){ aria-current="page" }
+1. [Bauen](bauen.de.md)
+1. [Steuern](steuern.de.md)
+1. [Öffnen](oeffnen.de.md)
+1. [Prüfen](pruefen.de.md)
+1. [Auswerten](auswerten.de.md)
 
 </nav>
 
@@ -17,7 +21,7 @@ description: 'Kurs anlegen. Sie legen den Kurs an und treffen die eine Entscheid
 
 <p class="oo-mh-sub">Kurs anlegen</p>
 
-Sie legen den Kurs an und treffen die eine Entscheidung, die alles Weitere prägt: Lernpfadkurs oder herkömmlicher Kurs. Der Kursstatus sagt, in welcher Phase der Kurs steht.
+Sie legen den Kurs an und treffen die eine Entscheidung, die alles Weitere prägt: Lernpfadkurs oder herkömmlicher Kurs. Der Kursstatus zeigt, wie weit der Kurs ist, von "Vorbereitung" bis "Beendet".
 
 ## Begriffe dieser Station {: #terms}
 
@@ -39,7 +43,7 @@ Ein Kurs ist eine Lernressource, aber eine besondere: er ist die einzige, die Mi
 
     **Wie Nutzende es nennen:** Lernraum, Schulung, Seminar, Lehrgang, Klassenraum, Modul
 
-    [Im Handbuch lesen](../learningresources/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -57,7 +61,7 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     **Englisch:** Course design
 
-    [Im Handbuch lesen](../learningresources/Administration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursdesign%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Administration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursdesign%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 <div class="oo-mh-kids" markdown>
 
@@ -73,7 +77,7 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     **Nicht verwechseln mit «[Herkömmlicher Kurs](../learningresources/Creating_Course.de.md)»:** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
 
-    [Im Handbuch lesen](../learningresources/Learning_path_course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Lernpfadkurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Learning_path_course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Lernpfadkurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "Herkömmlicher Kurs im Detail"
 
@@ -85,7 +89,7 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     **Nicht verwechseln mit «[Lernpfadkurs](../learningresources/Learning_path_course.de.md)»:** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
 
-    [Im Handbuch lesen](../learningresources/Creating_Course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Herk%C3%B6mmlicher%20Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Creating_Course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Herk%C3%B6mmlicher%20Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -105,7 +109,7 @@ Der Zustand eines Kurses im Lebenszyklus: Vorbereitung, Review, Freigabe Betreue
 
     **Englisch:** Course status
 
-    [Im Handbuch lesen](../learningresources/Access_configuration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursstatus%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Access_configuration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursstatus%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -141,7 +145,7 @@ Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support
 
 ## Vertiefen, wenn der erste Kurs läuft {: #deepen}
 
-Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
+Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
 - **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kurs-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md) (in der Oberfläche: **Automatische Verwaltung des Lebenszyklus**), [Kursarchiv](../learningresources/Course_Archiving.de.md), [Infoseite](../learningresources/Info_page.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
 - **Kursstatus:** [Papierkorb](../learningresources/Access_configuration.de.md), [Freigabe Betreuer:innen](../learningresources/Access_configuration.de.md).

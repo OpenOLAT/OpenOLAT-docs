@@ -1,14 +1,14 @@
 ---
 ᴴₒᴴₒᴴₒ: true
 title: Benutzerhandbuch
-description: Das Benutzerhandbuch von OpenOlat mit dem Einstieg nach Rolle, dem Weg zum ersten Kurs für Autor:innen und den Neuerungen in Release 21.0.
+description: Das Benutzerhandbuch von OpenOlat mit dem Einstieg nach Rolle, der Einführung für Autor:innen und den Neuerungen in Release 21.0.
 hide:
   - toc
 ---
 
 # Benutzerhandbuch {: #manual_user}
 
-<p class="oo-mh-lede">Alles, was OpenOlat kann, Seite für Seite erklärt: Kurse, Tests, Gruppen, Rollen und das persönliche Menü. Wählen Sie den Einstieg, der zu Ihrer Rolle passt.</p>
+<p class="oo-mh-lede">Das Benutzerhandbuch erklärt, was OpenOlat kann und wozu es dient: Kurse, Tests, Gruppen, Rollen und das persönliche Menü. Der Einstieg zeigt je Rolle, welche Seiten Sie zuerst lesen. Anleitungen Schritt für Schritt stehen im How-to.</p>
 <p class="oo-mh-meta">Release 21.0 · Nachschlagewerk</p>
 
 <div class="oo-mh-roles" markdown>
@@ -17,7 +17,7 @@ hide:
 
 <div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span><h2>Ich entwickle</h2></div>
 
-<p class="oo-mh-role__text">Der Weg zum ersten Kurs: sieben Stationen von der Rolle Autor:in bis zur Auswertung.</p>
+<p class="oo-mh-role__text">Die Einführung für Autor:innen führt in sieben Stationen von der Rolle Autor:in bis zur Auswertung.</p>
 
 <!-- gen:authoring_path_tiles -->
 <div class="oo-mh-stations" markdown>
@@ -26,14 +26,14 @@ hide:
 1. [Planen <small>Kurs anlegen</small>](../authoring_path/planen.de.md)
 1. [Bauen <small>Inhalt zusammensetzen</small>](../authoring_path/bauen.de.md)
 1. [Steuern <small>Wer sieht was, wann</small>](../authoring_path/steuern.de.md)
-1. [Öffnen <small>Zugang und Mitglieder</small>](../authoring_path/oeffnen.de.md)
+1. [Öffnen <small>Wer hineinkommt</small>](../authoring_path/oeffnen.de.md)
 1. [Prüfen <small>Leistung messen</small>](../authoring_path/pruefen.de.md)
 1. [Auswerten <small>Wie läuft der Kurs</small>](../authoring_path/auswerten.de.md)
 
 </div>
 <!-- /gen:authoring_path_tiles -->
 
-<p class="oo-mh-go" markdown>[<i class="o_icon o_icon_start" aria-hidden="true"></i> Den ganzen Weg öffnen](../authoring_path/index.de.md)</p>
+<p class="oo-mh-go" markdown>[<i class="o_icon o_icon_start" aria-hidden="true"></i> Einführung für Autor:innen](../authoring_path/index.de.md)</p>
 
 </section>
 
@@ -67,29 +67,29 @@ hide:
 
 </div>
 
-## So kommen Sie zum ersten Kurs {: #first_course}
+## Einführung für Autor:innen {: #first_course}
 
-Drei Phasen. In jeder ist frentix für Sie da, und in jeder können Sie auch allein weitergehen.
+In drei Phasen kommen Sie zum ersten Kurs: zuerst verstehen, dann entwickeln, dann verbessern. Wissen und Vertiefen stehen in diesem Handbuch, Anwenden im How-to. frentix begleitet Sie auf Wunsch in jeder Phase.
 
 <div class="oo-mh-phasecards" markdown>
 
-<article class="oo-mh-pcard oo-mh-pcard--know" markdown>
+<article class="oo-mh-pcard oo-mh-pcard--know" id="phase_know" markdown>
 
 <div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Wissen</span><h3>Vor dem Start</h3></div>
 
 <div class="oo-mh-pcard__body" markdown>
 
-Lesen, was es gibt und wozu es dient. Der Weg zum ersten Kurs erklärt die Begriffe des ersten Kurses und zeigt, was leicht verwechselt wird.
+Sieben Stationen erklären die Begriffe des ersten Kurses und zeigen, was leicht verwechselt wird.
 
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Der Weg zum ersten Kurs](../authoring_path/index.de.md){ .oo-mh-pcard__go }
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Einführung für Autor:innen](../authoring_path/index.de.md){ .oo-mh-pcard__go }
 
 </div>
 
 </article>
 
-<article class="oo-mh-pcard oo-mh-pcard--apply" markdown>
+<article class="oo-mh-pcard oo-mh-pcard--apply" id="phase_apply" markdown>
 
-<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Anwenden</span><h3>Den ersten Kurs bauen</h3></div>
+<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Anwenden</span><h3>Den ersten Kurs entwickeln</h3></div>
 
 <div class="oo-mh-pcard__body" markdown>
 
@@ -103,7 +103,7 @@ Das How-to «Mein erster Kurs» führt in zehn Schritten von der Rolle Autor:in 
 
 </article>
 
-<article class="oo-mh-pcard oo-mh-pcard--deepen" markdown>
+<article class="oo-mh-pcard oo-mh-pcard--deepen" id="phase_deepen" markdown>
 
 <div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Vertiefen</span><h3>Den Kurs verbessern</h3></div>
 

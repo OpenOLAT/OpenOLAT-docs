@@ -5,11 +5,15 @@ description: Leistung messen. Tests messen Wissen, Selbsttests dienen der Übung
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zum ersten Kurs" markdown="1">
+<nav class="oo-mh-trail" aria-label="Einführung für Autor:innen" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zum ersten Kurs</span>
-[‹ Menü: Öffnen](oeffnen.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Auswerten ›](auswerten.de.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Einrichten](einrichten.de.md)
+1. [Planen](planen.de.md)
+1. [Bauen](bauen.de.md)
+1. [Steuern](steuern.de.md)
+1. [Öffnen](oeffnen.de.md)
+1. [Prüfen](pruefen.de.md){ aria-current="page" }
+1. [Auswerten](auswerten.de.md)
 
 </nav>
 
@@ -17,7 +21,7 @@ description: Leistung messen. Tests messen Wissen, Selbsttests dienen der Übung
 
 <p class="oo-mh-sub">Leistung messen</p>
 
-Tests messen Wissen, Selbsttests dienen der Übung. Das Bewertungswerkzeug sammelt die Resultate, der Leistungsnachweis fasst sie dauerhaft zusammen. Zertifikat und Badge bescheinigen.
+Tests messen Wissen, Selbsttests dienen der Übung. Das Bewertungswerkzeug sammelt die Resultate, der Leistungsnachweis fasst sie dauerhaft zusammen. Zertifikat und Badge bescheinigen sie.
 
 ## Begriffe dieser Station {: #terms}
 
@@ -41,7 +45,7 @@ Kursbaustein, der eine Test-Lernressource in den Kurs einbindet.
 
     **Nicht verwechseln mit «[Selbsttest](../learningresources/Course_Element_Self_Test.de.md)»:** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Test.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Test%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Test.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Test%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -63,7 +67,7 @@ Kursbaustein, der eine Test-Lernressource zur Selbstkontrolle einbindet.
 
     **Nicht verwechseln mit «[Test](../learningresources/Course_Element_Test.de.md)»:** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Self_Test.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Selbsttest%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Self_Test.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Selbsttest%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -83,7 +87,7 @@ Der Bereich, in dem Fragen unabhängig von einem einzelnen Test gesammelt, versc
 
     **Wie Nutzende es nennen:** Fragendatenbank, Aufgabenpool, Itembank, Fragensammlung, Testfragen-Datenbank, Fragenkatalog, Fragen-Repository, Testfragenkatalog, Quizpool, Fragenbank
 
-    [Im Handbuch lesen](../area_modules/Question_Bank.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Fragenpool%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../area_modules/Question_Bank.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Fragenpool%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -103,7 +107,7 @@ Das Urteil über die Leistung einer Person in einem bewertbaren Kursbaustein, au
 
     **Wie Nutzende es nennen:** Benotung, Punkte
 
-    [Im Handbuch lesen](../learningresources/Assessment_of_learners.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Assessment_of_learners.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertung%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -123,7 +127,7 @@ Der Bereich eines Kurses, in dem Betreuende und Besitzende alle Resultate der Te
 
     **Wie Nutzende es nennen:** Bewertungstool, Benotungstool, Prüfungswerkzeug, Beurteilungstool, Benotungswerkzeug, Testinstrument
 
-    [Im Handbuch lesen](../learningresources/Assessment_tool_overview.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertungswerkzeug%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Assessment_tool_overview.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertungswerkzeug%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -145,7 +149,7 @@ Die Zusammenstellung aller Resultate einer Person in einem Kurs, je bewertbarem 
 
     **Nicht verwechseln mit «[Zertifikat](../personal_menu/Certificates.de.md)»:** Der Leistungsnachweis ist die Auswertung im System und immer da. Das Zertifikat ist ein PDF, das ausgestellt wird.
 
-    [Im Handbuch lesen](../personal_menu/Evidence_of_Achievements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Leistungsnachweis%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../personal_menu/Evidence_of_Achievements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Leistungsnachweis%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -169,7 +173,7 @@ Ein PDF, das die erfolgreiche Teilnahme an einem Kurs oder den Abschluss eines Z
 
     **Nicht verwechseln mit «[Badge](../personal_menu/OpenBadges.de.md)»:** Das Zertifikat ist ein PDF aus einer Vorlage. Der Badge ist ein maschinenlesbarer OpenBadge mit Bild und Kriterien.
 
-    [Im Handbuch lesen](../personal_menu/Certificates.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Zertifikat%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../personal_menu/Certificates.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Zertifikat%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -191,7 +195,7 @@ Eine digitale Auszeichnung nach dem Standard Open Badges, mit Bild, Kriterien un
 
     **Nicht verwechseln mit «[Zertifikat](../personal_menu/Certificates.de.md)»:** Das Zertifikat ist ein PDF aus einer Vorlage. Der Badge ist ein maschinenlesbarer OpenBadge mit Bild und Kriterien.
 
-    [Im Handbuch lesen](../personal_menu/OpenBadges.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Badge%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../personal_menu/OpenBadges.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Badge%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -235,7 +239,7 @@ Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support
 
 ## Vertiefen, wenn der erste Kurs läuft {: #deepen}
 
-Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
+Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
 - **Test:** [Test-Part](../learningresources/Configure_tests.de.md), [Betreuer:innen-Chat](../../manual_how-to/communication_during_exam/communication_during_exam.de.md), [Testversuch](../learningresources/Assessing_tests.de.md), [Zusätzliche Seite](../learningresources/Test_settings.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbaustein Test](../learningresources/Course_Element_Test.de.md).
 - **Fragenpool:** [Beurteilungsprozess](../area_modules/Question_Bank_Review_Process.de.md), [Freigaben](../area_modules/Question_Bank.de.md), [Liste](../area_modules/Question_bank_possible_operations.de.md). Alle Einstellungen stehen auf der Seite [Fragenpool: Übersicht](../area_modules/Question_Bank.de.md).

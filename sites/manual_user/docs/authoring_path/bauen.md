@@ -5,11 +5,15 @@ description: Assemble the content. In the course editor you put course elements 
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to your first course" markdown="1">
+<nav class="oo-mh-trail" aria-label="Introduction for authors" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: The path to your first course</span>
-[‹ Menu: Plan](planen.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menu: Control ›](steuern.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Set up](einrichten.md)
+1. [Plan](planen.md)
+1. [Build](bauen.md){ aria-current="page" }
+1. [Control](steuern.md)
+1. [Open](oeffnen.md)
+1. [Assess](pruefen.md)
+1. [Evaluate](auswerten.md)
 
 </nav>
 
@@ -227,7 +231,7 @@ With frentix: we show you in the training. [support@frentix.com](mailto:support@
 
 ## Deepen once the first course is running {: #deepen}
 
-The first course is in place. Now the things that did not matter while building pay off: the terms of this station have parts and settings that control the course more precisely.
+The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
 - **Course editor:** Enable edit mode.
 - **Course element:** [External page](../learningresources/Course_Element_External_Page.md), [Link list](../learningresources/Course_Element_Link_List.md), [CP learning content](../learningresources/Course_Element_CP_Learning_Content.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.md) and more. All settings are on the page [Types of Course Elements](../learningresources/Course_Elements.md).

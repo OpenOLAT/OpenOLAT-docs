@@ -1,23 +1,15 @@
 ---
-title: Der Weg zum ersten Kurs
-description: Sieben Stationen führen von der Rolle Autor:in bis zur Auswertung des laufenden Kurses.
+title: Einführung für Autor:innen
+description: Sieben Stationen in der Reihenfolge, in der Sie einen Kurs aufbauen.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zum ersten Kurs" markdown="1">
+# Einführung für Autor:innen {: #authoring_path}
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zum ersten Kurs</span>
-[‹ Benutzerhandbuch](../general/index.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Einrichten ›](einrichten.de.md){ .oo-mh-btn .oo-mh-btn--next }
+Sieben Stationen in der Reihenfolge, in der Sie einen Kurs aufbauen.
 
-</nav>
-
-# Der Weg zum ersten Kurs {: #authoring_path}
-
-Sieben Stationen führen von der Rolle Autor:in bis zur Auswertung des laufenden Kurses. Die Reihenfolge folgt dem Lebenszyklus eines Kurses. Jede Station erklärt ihre Begriffe, zeigt, was leicht verwechselt wird, und öffnet zwei Türen: ausprobieren und nachlesen.
-
-<p class="oo-mh-phases"><span class="oo-mh-phase oo-mh-phase--on"><b>Wissen</b>: Sie sind hier</span> <span class="oo-mh-phase"><b>Anwenden</b>: mit frentix oder mit dem How-to «Mein erster Kurs»</span> <span class="oo-mh-phase"><b>Vertiefen</b>: wenn der erste Kurs läuft</span></p>
+Diese Einführung ist die Phase Wissen. Danach folgen [Anwenden](../general/index.de.md#phase_apply) mit dem How-to «Mein erster Kurs» oder mit frentix und [Vertiefen](../general/index.de.md#phase_deepen), sobald der erste Kurs läuft.
 
 ## Die Stationen {: #stations}
 
@@ -27,13 +19,11 @@ Sieben Stationen führen von der Rolle Autor:in bis zur Auswertung des laufenden
 1. [Planen <small>Kurs anlegen</small>](planen.de.md)
 1. [Bauen <small>Inhalt zusammensetzen</small>](bauen.de.md)
 1. [Steuern <small>Wer sieht was, wann</small>](steuern.de.md)
-1. [Öffnen <small>Zugang und Mitglieder</small>](oeffnen.de.md)
+1. [Öffnen <small>Wer hineinkommt</small>](oeffnen.de.md)
 1. [Prüfen <small>Leistung messen</small>](pruefen.de.md)
 1. [Auswerten <small>Wie läuft der Kurs</small>](auswerten.de.md)
 
 </div>
-
-<p class="oo-mh-hint">Klicken Sie eine Station an. Die Reihenfolge ist eine Empfehlung, kein Zwang.</p>
 
 ## Bevor Sie beginnen {: #before_you_start}
 

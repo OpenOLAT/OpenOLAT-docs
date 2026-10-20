@@ -128,7 +128,7 @@ Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle.
 - [Wie bereite ich die Erstellung persönlicher Portfolios durch Teilnehmer:innen vor?](portfolio/portfolio.de.md)
 - [Wie kann ich am Ende eines Kurses eine Umfrage durchführen?](survey/survey.de.md)
 
-<p class="oo-mh-role__foot" markdown>Die Begriffe dazu: [Der Weg zum ersten Kurs](../manual_user/authoring_path/index.de.md) im Benutzerhandbuch</p>
+<p class="oo-mh-role__foot" markdown>Die Begriffe dazu: [Einführung für Autor:innen](../manual_user/authoring_path/index.de.md) im Benutzerhandbuch</p>
 
 </section>
 
@@ -193,7 +193,7 @@ Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle.
 - [Wie kann ich mittels WebDAV Dateien übertragen?](webdav/webdav.de.md)
 - [Wie erstelle ich eine Excel-Liste aller vorhandenen Kurse?](course_list/course_list.de.md)
 
-<p class="oo-mh-role__foot" markdown>Die Begriffe dazu: [Der Weg zur laufenden Installation](../manual_admin/admin_path/index.de.md) im Administrationshandbuch</p>
+<p class="oo-mh-role__foot" markdown>Die Begriffe dazu: [Einführung für Administrator:innen](../manual_admin/admin_path/index.de.md) im Administrationshandbuch</p>
 
 </section>
 

@@ -128,7 +128,7 @@ If the guide you need is not above, find it here by role. Each card collects the
 - [How do I prepare the creation of personal portfolios by participants?](portfolio/portfolio.md)
 - [How can I run a survey at the end of a course?](survey/survey.md)
 
-<p class="oo-mh-role__foot" markdown>The terms behind it: [The path to your first course](../manual_user/authoring_path/index.md) in the user manual</p>
+<p class="oo-mh-role__foot" markdown>The terms behind it: [Introduction for authors](../manual_user/authoring_path/index.md) in the user manual</p>
 
 </section>
 
@@ -193,7 +193,7 @@ If the guide you need is not above, find it here by role. Each card collects the
 - [How can I transfer files using WebDAV?](webdav/webdav.md)
 - [How do I create an Excel list of all available courses?](course_list/course_list.md)
 
-<p class="oo-mh-role__foot" markdown>The terms behind it: [The path to a running installation](../manual_admin/admin_path/index.md) in the administration manual</p>
+<p class="oo-mh-role__foot" markdown>The terms behind it: [Introduction for administrators](../manual_admin/admin_path/index.md) in the administration manual</p>
 
 </section>
 

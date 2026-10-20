@@ -1,23 +1,27 @@
 ---
 title: Öffnen
-description: 'Zugang und Mitglieder. Der Kurs bekommt Mitglieder und einen Zugang: über die Zugangskonfiguration, ein Angebot im Katalog oder eine Gruppe.'
+description: 'Wer hineinkommt. Sie legen fest, wer in den Kurs kommt: über die Zugangskonfiguration, ein Angebot im Katalog oder eine Gruppe.'
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zum ersten Kurs" markdown="1">
+<nav class="oo-mh-trail" aria-label="Einführung für Autor:innen" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zum ersten Kurs</span>
-[‹ Menü: Steuern](steuern.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Prüfen ›](pruefen.de.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Einrichten](einrichten.de.md)
+1. [Planen](planen.de.md)
+1. [Bauen](bauen.de.md)
+1. [Steuern](steuern.de.md)
+1. [Öffnen](oeffnen.de.md){ aria-current="page" }
+1. [Prüfen](pruefen.de.md)
+1. [Auswerten](auswerten.de.md)
 
 </nav>
 
 # Öffnen {: #oeffnen}
 
-<p class="oo-mh-sub">Zugang und Mitglieder</p>
+<p class="oo-mh-sub">Wer hineinkommt</p>
 
-Der Kurs bekommt Mitglieder und einen Zugang: über die Zugangskonfiguration, ein Angebot im Katalog oder eine Gruppe. Drei Kursrollen teilen die Arbeit auf.
+Sie legen fest, wer in den Kurs kommt: über die Zugangskonfiguration, ein Angebot im Katalog oder eine Gruppe. Drei Kursrollen teilen die Arbeit auf.
 
 ## Begriffe dieser Station {: #terms}
 
@@ -37,7 +41,7 @@ Der Bereich einer Lernressource, in dem die Angebote festgelegt werden: wer buch
 
     **Englisch:** Access configuration
 
-    [Im Handbuch lesen](../learningresources/Access_configuration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Zugangskonfiguration%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../learningresources/Access_configuration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Zugangskonfiguration%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -57,7 +61,7 @@ Die Festlegung, unter welchen Bedingungen eine Lernressource gebucht werden kann
 
     **Wie Nutzende es nennen:** Buchungsmöglichkeit, Preis, Kursangebot, Variante, Buchbares Angebot
 
-    [Im Handbuch lesen](../area_modules/catalog2.0_angebote.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Angebot%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../area_modules/catalog2.0_angebote.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Angebot%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -77,7 +81,7 @@ Das Modul, das Lernressourcen und Durchführungen mit einem Angebot zum Buchen a
 
     **Wie Nutzende es nennen:** Kursangebot, Angebotsübersicht, Kurskatalog, Programm, Kursverzeichnis, Marktplatz, Kursportal, Angebotsverzeichnis, Kursdatenbank, Kurspool, Angebotskatalog, Buchbarer Kurskatalog, Bildungskatalog
 
-    [Im Handbuch lesen](../area_modules/catalog2.0.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Katalog%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../area_modules/catalog2.0.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Katalog%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -97,7 +101,7 @@ Eine Gruppe von Personen, die zusammenarbeitet, mit eigenen Mitgliedern, eigenen
 
     **Wie Nutzende es nennen:** Lerngruppe, Arbeitsgruppe, Klasse, Team, Kohorte, Interessengruppe, Gemeinschaft, Benutzergruppe, Organisationsgruppe
 
-    [Im Handbuch lesen](../groups/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gruppe%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../groups/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gruppe%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -119,7 +123,7 @@ Kursrolle mit der vollen Verantwortung für eine Lernressource.
 
     **Nicht verwechseln mit «[Betreuer:in](../basic_concepts/coach.de.md)»:** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
 
-    [Im Handbuch lesen](../basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Besitzer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Besitzer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -141,7 +145,7 @@ Kursrolle. Betreuende begleiten die Teilnehmenden eines Kurses oder einer Gruppe
 
     **Nicht verwechseln mit «[Besitzer:in](../basic_concepts/Roles.de.md)»:** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
 
-    [Im Handbuch lesen](../basic_concepts/coach.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Betreuer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../basic_concepts/coach.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Betreuer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -161,7 +165,7 @@ Kursrolle. Teilnehmende arbeiten den Kurs durch und sehen ausschliesslich die ei
 
     **Wie Nutzende es nennen:** Lernende, Schüler:in, Studierende, Mitarbeitende, Auszubildende, Kursteilnehmer:in
 
-    [Im Handbuch lesen](../basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Teilnehmer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20es%3F)
+    [Im Handbuch lesen](../basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Teilnehmer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -197,7 +201,7 @@ Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support
 
 ## Vertiefen, wenn der erste Kurs läuft {: #deepen}
 
-Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
+Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
 - **Angebot:** [Zugangscode](../basic_concepts/Offer_Concepts.de.md), Formulare für Buchungsaufträge. Alle Einstellungen stehen auf der Seite [Katalog 2.0 - Angebote](../area_modules/catalog2.0_angebote.de.md).
 - **Katalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../area_modules/catalog2.0_web.de.md). Alle Einstellungen stehen auf der Seite [Katalog 2.0: Übersicht](../area_modules/catalog2.0.de.md).

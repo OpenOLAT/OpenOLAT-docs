@@ -5,11 +5,15 @@ description: 'Create the course. You create the course and make the one decision
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to your first course" markdown="1">
+<nav class="oo-mh-trail" aria-label="Introduction for authors" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: The path to your first course</span>
-[‹ Menu: Set up](einrichten.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menu: Build ›](bauen.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Set up](einrichten.md)
+1. [Plan](planen.md){ aria-current="page" }
+1. [Build](bauen.md)
+1. [Control](steuern.md)
+1. [Open](oeffnen.md)
+1. [Assess](pruefen.md)
+1. [Evaluate](auswerten.md)
 
 </nav>
 
@@ -17,7 +21,7 @@ description: 'Create the course. You create the course and make the one decision
 
 <p class="oo-mh-sub">Create the course</p>
 
-You create the course and make the one decision that shapes everything else: learning path course or conventional course. The course status tells you which phase the course is in.
+You create the course and make the one decision that shapes everything else: learning path course or conventional course. The course status shows how far along the course is, from "Preparation" to "Finished".
 
 ## Terms of this station {: #terms}
 
@@ -139,7 +143,7 @@ With frentix: we show you in the training. [support@frentix.com](mailto:support@
 
 ## Deepen once the first course is running {: #deepen}
 
-The first course is in place. Now the things that did not matter while building pay off: the terms of this station have parts and settings that control the course more precisely.
+The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
 - **Course:** [Publication](../learningresources/Using_additional_Course_Editor_Tools.md), [Course life cycle](../../manual_admin/administration/Life_cycles_-_Administration.md) (in the interface: **Automatic Life-cycle management**), [Course archive](../learningresources/Course_Archiving.md), [Info page](../learningresources/Info_page.md) and more. All settings are on the page [Various Types of Learning Resources](../learningresources/index.md).
 - **Course status:** [Trash](../learningresources/Access_configuration.md), [Access for coach](../learningresources/Access_configuration.md).

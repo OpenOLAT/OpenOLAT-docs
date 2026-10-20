@@ -1,23 +1,27 @@
 ---
 title: Open
-description: 'Access and members. The course gets members and a way in: through the access configuration, an offer in the catalog or a group.'
+description: 'Who gets in. You decide who gets into the course: through the access configuration, an offer in the catalog or a group.'
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/authoring_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to your first course" markdown="1">
+<nav class="oo-mh-trail" aria-label="Introduction for authors" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: The path to your first course</span>
-[‹ Menu: Control](steuern.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menu: Assess ›](pruefen.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Set up](einrichten.md)
+1. [Plan](planen.md)
+1. [Build](bauen.md)
+1. [Control](steuern.md)
+1. [Open](oeffnen.md){ aria-current="page" }
+1. [Assess](pruefen.md)
+1. [Evaluate](auswerten.md)
 
 </nav>
 
 # Open {: #oeffnen}
 
-<p class="oo-mh-sub">Access and members</p>
+<p class="oo-mh-sub">Who gets in</p>
 
-The course gets members and a way in: through the access configuration, an offer in the catalog or a group. Three course roles share the work.
+You decide who gets into the course: through the access configuration, an offer in the catalog or a group. Three course roles share the work.
 
 ## Terms of this station {: #terms}
 
@@ -197,7 +201,7 @@ With frentix: we show you in the training. [support@frentix.com](mailto:support@
 
 ## Deepen once the first course is running {: #deepen}
 
-The first course is in place. Now the things that did not matter while building pay off: the terms of this station have parts and settings that control the course more precisely.
+The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
 - **Offer:** [Access code](../basic_concepts/Offer_Concepts.md), Booking order forms. All settings are on the page [Catalog 2.0 - Offers](../area_modules/catalog2.0_angebote.md).
 - **Catalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.md), [Web catalog](../area_modules/catalog2.0_web.md). All settings are on the page [Catalog 2.0: Overview](../area_modules/catalog2.0.md).

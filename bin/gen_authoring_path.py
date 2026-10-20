@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Schreibt die Seiten «Der Weg zum ersten Kurs» (Einführung für Autor:innen) im Benutzerhandbuch.
+"""Schreibt die Seiten der Einführung für Autor:innen im Benutzerhandbuch (mit --view auch die
+Einführung für Administrator:innen im Administrationshandbuch).
 
 Eingaben
   bin/authoring_path_views.yaml   die kuratierte Ansicht: Stationen, Stationstexte DE/EN,
@@ -80,8 +81,11 @@ def page_file(path, lang):
 
 
 def anchors_of(fn):
+    """Explicit anchors of a page: {: #id} of headings and id="..." of HTML blocks (cards)."""
     with open(fn, encoding="utf-8") as f:
-        return set(re.findall(r"\{:\s*#([A-Za-z0-9_\-.]+)\s*\}", f.read()))
+        src = f.read()
+    return (set(re.findall(r"\{:\s*#([A-Za-z0-9_\-.]+)\s*\}", src))
+            | set(re.findall(r'\bid="([A-Za-z0-9_\-.]+)"', src)))
 
 
 def h1_of(fn):
@@ -209,6 +213,16 @@ def validate(V, M):
     for k in V.get("deep_exclude") or []:
         if k not in C:
             fail(f"Ausgeschlossener Schlüssel fehlt in der Map: {k}")
+    # phase sentence of the introduction page: {home}#anchor links to the cards of the entry page
+    for lang in LANGS:
+        home_fn = os.path.normpath(os.path.join(OUT, home_link(V) + SUFFIX[lang]))
+        if not os.path.isfile(home_fn):
+            fail(f"Einstiegsseite fehlt: {os.path.relpath(home_fn, ROOT)}")
+            continue
+        have = anchors_of(home_fn)
+        for a in re.findall(r"\{home\}#([A-Za-z0-9_\-.]+)", V["view"].get("phases_" + lang, "")):
+            if a not in have:
+                fail(f"Anker #{a} des Phasensatzes fehlt in {os.path.relpath(home_fn, ROOT)}")
     # word of the interface for terms whose agreed word the code does not carry yet
     V["_ui_word"] = {}
     for k, bundle_key in (V.get("ui_word") or {}).items():
@@ -229,6 +243,11 @@ def validate(V, M):
 def doors_of(V):
     """Welche Türen eine Station zeigt: try (How-to) und/oder read (Handbuchseite)."""
     return V["view"].get("doors") or ["try", "read"]
+
+
+def home_link(V):
+    """Die Einstiegsseite des Handbuchs, relativ zu den Seiten der Einführung, ohne Sprachendung."""
+    return V["view"].get("home_link", "../general/index")
 
 
 # ---------------------------------------------------------------- model -----------------------
@@ -299,9 +318,11 @@ class Ctx:
 
 
 # ---------------------------------------------------------------- rendering -------------------
-def tiles(V, lang, prefix):
-    """The seven station tiles; prefix is the relative path from the page to authoring_path/."""
-    lines = ['<div class="oo-mh-stations" markdown>', ""]
+def tiles(V, lang, prefix, block_id=None):
+    """The station tiles; prefix is the relative path from the page to the introduction folder.
+    block_id gives the block an anchor (on the entry page: view.tiles_id)."""
+    ident = f' id="{block_id}"' if block_id else ""
+    lines = [f'<div class="oo-mh-stations"{ident} markdown>', ""]
     for s in V["stations"]:
         lines.append(f"1. [{s[lang]} <small>{s['sub_' + lang]}</small>]({prefix}{s['id']}{SUFFIX[lang]})")
     lines += ["", "</div>"]
@@ -321,48 +342,33 @@ def gen_note(V):
     return GEN_NOTE.replace("bin/authoring_path_views.yaml", V["view"].get("source", "bin/authoring_path_views.yaml"))
 
 
-def navbar(ctx, idx, lang):
-    """Die Navigation des Autorenwegs: Beschriftung, zurück, weiter. Steht vor dem Titel und am
-    Seitenende. idx = -1 für die Wegseite, sonst Index der Station."""
+def trail(ctx, idx, lang):
+    """Die Reihe aller Stationen oben auf jeder Stationsseite, die aktuelle mit aria-current.
+    Die Einführungsseite selbst trägt keine Reihe, ihr Stationsraster ist der Inhalt."""
     V, U = ctx.V, ctx.V["ui"][lang]
-    stations = V["stations"]
-    m = U["menu"]
-    def btn(cls, href, text):
-        return f'[{text}]({href}){{ .oo-mh-btn .oo-mh-btn--{cls} }}'
-    if idx < 0:
-        home = V["view"].get("home_link", "../general/index")
-        pv = btn("prev", f"{home}{SUFFIX[lang]}", f"‹ {U['home']}")
-        n = stations[0]
-        nx = btn("next", f"{n['id']}{SUFFIX[lang]}", f"{m}: {n[lang]} ›")
-    else:
-        prev = stations[idx - 1] if idx > 0 else None
-        nxt = stations[idx + 1] if idx + 1 < len(stations) else None
-        pv = (btn("prev", f"{prev['id']}{SUFFIX[lang]}", f"‹ {m}: {prev[lang]}") if prev
-              else btn("prev", f"index{SUFFIX[lang]}", f"‹ {U['path_back']}"))
-        nx = (btn("next", f"{nxt['id']}{SUFFIX[lang]}", f"{m}: {nxt[lang]} ›") if nxt
-              else btn("next", f"index{SUFFIX[lang]}", f"{U['path_back']} ›"))
-    return (f'<nav class="oo-mh-nav" aria-label="{U["nav_label"]}" markdown="1">\n\n'
-            f'<span class="oo-mh-nav__label">{U["nav_label"]}</span>\n{pv}\n{nx}\n\n</nav>')
+    lines = [f'<nav class="oo-mh-trail" aria-label="{U["section"]}" markdown="1">', ""]
+    for i, st in enumerate(V["stations"]):
+        cur = '{ aria-current="page" }' if i == idx else ""
+        lines.append(f"1. [{st[lang]}]({st['id']}{SUFFIX[lang]}){cur}")
+    lines += ["", "</nav>"]
+    return "\n".join(lines)
 
 
 def render_index(ctx, lang):
     V, U = ctx.V, ctx.V["ui"][lang]
     v = V["view"]
-    phases = " ".join(
-        f'<span class="oo-mh-phase{" oo-mh-phase--on" if i == 0 else ""}"><b>{p[0]}</b>: {p[1]}</span>'
-        for i, p in enumerate(v["phases_" + lang]))
+    # {home} im Phasensatz wird zum Link auf die Einstiegsseite des Handbuchs (Karten der Phasen).
+    phases = v["phases_" + lang].replace("{home}", home_link(V) + SUFFIX[lang])
     # {<Stations-ID>} im Text «Bevor Sie beginnen» wird zum Link auf diese Station.
     before = v["before_" + lang]
     for st in V["stations"]:
         before = before.replace("{" + st["id"] + "}", f"[{st[lang]}]({st['id']}{SUFFIX[lang]})")
-    out = [front(v[lang], v["lead_" + lang].split(". ")[0] + "."), gen_note(V), "",
-           navbar(ctx, -1, lang), "",
+    out = [front(v[lang], v["lead_" + lang].split(". ")[0].rstrip(".") + "."), gen_note(V), "",
            f"# {v[lang]} {{: #{v.get('anchor', 'authoring_path')}}}", "",
            v["lead_" + lang], "",
-           f'<p class="oo-mh-phases">{phases}</p>', "",
+           phases, "",
            f"## {U['stations_h']} {{: #stations}}", "",
            tiles(V, lang, ""), "",
-           f'<p class="oo-mh-hint">{v["hint_" + lang]}</p>', "",
            f"## {U['before_h']} {{: #before_you_start}}", "",
            before, ""]
     return "\n".join(out)
@@ -408,17 +414,20 @@ def render_station(ctx, s, idx, lang):
     for it in s["items"]:
         mine.add(it["key"])
         mine.update(it.get("kids") or [])
-    out = [front(s[lang], s["sub_" + lang] + ". " + s["desc_" + lang].split(". ")[0] + "."), gen_note(V), "",
-           navbar(ctx, idx, lang), "",
+    out = [front(s[lang], s["sub_" + lang] + ". " + s["desc_" + lang].split(". ")[0].rstrip(".") + "."), gen_note(V), "",
+           trail(ctx, idx, lang), "",
            f"# {s[lang]} {{: #{s['id']}}}", "",
            f'<p class="oo-mh-sub">{s["sub_" + lang]}</p>', "",
            s["desc_" + lang], "",
            f"## {U['terms_h']} {{: #terms}}", "",
            '<div class="oo-mh-terms" markdown>', ""]
+    # Sind alle Karten der Station Module, sagt das Etikett nichts, was der Stationstitel nicht
+    # schon sagt: es entfällt auf allen Karten der Station.
+    all_modules = all(ctx.C[it["key"]].get("kind") == "module" for it in s["items"])
     for it in s["items"]:
         k = it["key"]
-        out += ['<div class="oo-mh-term" markdown>', "",
-                f'<p class="oo-mh-kind">{ctx.kind(k, lang)}</p>', "",
+        kind_line = [] if all_modules else [f'<p class="oo-mh-kind">{ctx.kind(k, lang)}</p>', ""]
+        out += ['<div class="oo-mh-term" markdown>', ""] + kind_line + [
                 f"### {ctx.name(k, lang)} {{: #{k.replace('.', '_')}}}", "",
                 md_escape(first_sentences(ctx.desc(k, lang))), ""]
         out += detail_block(ctx, k, lang)
@@ -547,7 +556,9 @@ def patch_home(V, lang, write):
         return
     a = src.index(TILES_BEGIN) + len(TILES_BEGIN)
     b = src.index(TILES_END)
-    new = src[:a] + "\n" + tiles(V, lang, V["view"].get("tiles_prefix", "../authoring_path/")) + "\n" + src[b:]
+    new = (src[:a] + "\n"
+           + tiles(V, lang, V["view"].get("tiles_prefix", "../authoring_path/"), V["view"].get("tiles_id"))
+           + "\n" + src[b:])
     if write and new != src:
         with open(fn, "w", encoding="utf-8") as f:
             f.write(new)

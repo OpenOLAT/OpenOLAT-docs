@@ -1,4 +1,4 @@
-# Kuratierte Ansicht «Der Weg zum ersten Kurs» (Autorenweg) für das Benutzerhandbuch.
+# Kuratierte Ansicht «Einführung für Autor:innen» (Autorenweg) für das Benutzerhandbuch.
 #
 # Quelle der Seiten unter sites/manual_user/docs/authoring_path/. Die Seiten werden von
 # bin/gen_authoring_path.py geschrieben, nie von Hand. Diese Datei trägt nur, was die
@@ -18,26 +18,20 @@
 
 view:
   id: autorenweg
-  de: Der Weg zum ersten Kurs
-  en: The path to your first course
-  lead_de: >-
-    Sieben Stationen führen von der Rolle Autor:in bis zur Auswertung des laufenden Kurses.
-    Die Reihenfolge folgt dem Lebenszyklus eines Kurses. Jede Station erklärt ihre Begriffe,
-    zeigt, was leicht verwechselt wird, und öffnet zwei Türen: ausprobieren und nachlesen.
-  lead_en: >-
-    Seven stations lead from the Author role to the evaluation of the running course. The
-    order follows the lifecycle of a course. Each station explains its terms, shows what is
-    easily confused, and opens two doors: try it out and read up.
-  phases_de:
-    - [Wissen, Sie sind hier]
-    - [Anwenden, mit frentix oder mit dem How-to «Mein erster Kurs»]
-    - [Vertiefen, wenn der erste Kurs läuft]
-  phases_en:
-    - [Knowledge, you are here]
-    - [Apply, with frentix or with the how-to «My first course»]
-    - [Deepen, once the first course is running]
-  hint_de: Klicken Sie eine Station an. Die Reihenfolge ist eine Empfehlung, kein Zwang.
-  hint_en: Click a station. The order is a recommendation, not a rule.
+  # Titel der Einführungsseite = Menüeintrag «Introduction for authors» (nav_translations)
+  de: Einführung für Autor:innen
+  en: Introduction for authors
+  lead_de: Sieben Stationen in der Reihenfolge, in der Sie einen Kurs aufbauen.
+  lead_en: Seven stations in the order in which you build a course.
+  # Phasensatz: {home} wird zur Einstiegsseite, die Anker sind die Phasenkarten dort.
+  phases_de: >-
+    Diese Einführung ist die Phase Wissen. Danach folgen [Anwenden]({home}#phase_apply) mit dem
+    How-to «Mein erster Kurs» oder mit frentix und [Vertiefen]({home}#phase_deepen), sobald der
+    erste Kurs läuft.
+  phases_en: >-
+    This introduction is the knowledge phase. It is followed by [Apply]({home}#phase_apply) with
+    the how-to «My first course» or with frentix, and by [Deepen]({home}#phase_deepen) once the
+    first course is running.
   before_de: >-
     Sie brauchen die Rolle Autor:in. Mit ihr erscheint der Autorenbereich in der Hauptnavigation.
     Wer die Rolle vergibt, steht in der Station {einrichten}.
@@ -82,12 +76,12 @@ stations:
     sub_en: Create the course
     desc_de: >-
       Sie legen den Kurs an und treffen die eine Entscheidung, die alles Weitere prägt:
-      Lernpfadkurs oder herkömmlicher Kurs. Der Kursstatus sagt, in welcher Phase der Kurs
-      steht.
+      Lernpfadkurs oder herkömmlicher Kurs. Der Kursstatus zeigt, wie weit der Kurs ist, von
+      "Vorbereitung" bis "Beendet".
     desc_en: >-
       You create the course and make the one decision that shapes everything else: learning
-      path course or conventional course. The course status tells you which phase the course
-      is in.
+      path course or conventional course. The course status shows how far along the course
+      is, from "Preparation" to "Finished".
     items:
       - key: course.course
       - key: course.course_design
@@ -170,13 +164,13 @@ stations:
   - id: oeffnen
     de: Öffnen
     en: Open
-    sub_de: Zugang und Mitglieder
-    sub_en: Access and members
+    sub_de: Wer hineinkommt
+    sub_en: Who gets in
     desc_de: >-
-      Der Kurs bekommt Mitglieder und einen Zugang: über die Zugangskonfiguration, ein Angebot
-      im Katalog oder eine Gruppe. Drei Kursrollen teilen die Arbeit auf.
+      Sie legen fest, wer in den Kurs kommt: über die Zugangskonfiguration, ein Angebot im
+      Katalog oder eine Gruppe. Drei Kursrollen teilen die Arbeit auf.
     desc_en: >-
-      The course gets members and a way in: through the access configuration, an offer in the
+      You decide who gets into the course: through the access configuration, an offer in the
       catalog or a group. Three course roles share the work.
     items:
       - key: course.access_configuration
@@ -207,7 +201,7 @@ stations:
     desc_de: >-
       Tests messen Wissen, Selbsttests dienen der Übung. Das Bewertungswerkzeug sammelt die
       Resultate, der Leistungsnachweis fasst sie dauerhaft zusammen. Zertifikat und Badge
-      bescheinigen.
+      bescheinigen sie.
     desc_en: >-
       Tests measure knowledge, self-tests are for practice. The assessment tool collects the
       results, the evidence of achievement sums them up permanently. Certificate and badge
@@ -241,7 +235,7 @@ stations:
     sub_de: Wie läuft der Kurs
     sub_en: How the course is doing
     desc_de: >-
-      Kurs Statistiken und Test Statistiken zeigen, wie der Kurs läuft. Kurserinnerungen holen
+      Kursstatistiken und Teststatistiken zeigen, wie der Kurs läuft. Kurserinnerungen holen
       Teilnehmende zurück, die stehen geblieben sind.
     desc_en: >-
       Course statistics and test statistics show how the course is doing. Course reminders
@@ -257,7 +251,7 @@ stations:
       en: Stay informed about learning progress
     read:
       path: manual_user/docs/learningresources/Statistics_Course
-      de: Kurs Statistiken
+      de: Kursstatistiken
       en: Course statistics
     further:
       - manual_user/docs/learningresources/Assessment_tool_overview
@@ -309,7 +303,7 @@ ui:
     apart_station: "Nicht verwechseln: «{a}» und «{b}»"
     manual: Im Handbuch lesen
     sophia: Sophia fragen
-    sophia_q: 'Was ist "{name}" in OpenOlat und wie verwende ich es?'
+    sophia_q: 'Was ist "{name}" in OpenOlat und wie verwende ich das?'
     doors_h: Zwei Türen
     try: Ausprobieren
     read: Nachlesen
@@ -319,18 +313,12 @@ ui:
     frentix_mail: support@frentix.com
     deepen_h: Vertiefen, wenn der erste Kurs läuft
     deepen_lead: >-
-      Der erste Kurs steht. Jetzt lohnt sich, was beim Bauen noch nicht wichtig war: Die
+      Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die
       Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
     deepen_more: und weitere
     in_ui: "in der Oberfläche: **{ui}**"
     deepen_attrs: "Alle Einstellungen stehen auf der Seite {link}."
     deepen_none: Diese Station hat keine tieferen Teile. Die nächste Station wartet.
-    prev: zurück
-    next: weiter
-    path_back: Der Weg zum ersten Kurs
-    home: Benutzerhandbuch
-    menu: Menü
-    nav_label: 'Navigation: Der Weg zum ersten Kurs'
     foot_h: Weiterführende Informationen
     foot_mentioned: Auf dieser Seite erwähnt
     foot_further: Weiterführend
@@ -358,19 +346,13 @@ ui:
     frentix_mail: support@frentix.com
     deepen_h: Deepen once the first course is running
     deepen_lead: >-
-      The first course is in place. Now the things that did not matter while building pay
-      off: the terms of this station have parts and settings that control the course more
+      The first course is running. Now the things that did not matter at the start pay off:
+      the terms of this station have parts and settings that control the course more
       precisely.
     deepen_more: and more
     in_ui: "in the interface: **{ui}**"
     deepen_attrs: "All settings are on the page {link}."
     deepen_none: This station has no deeper parts. The next station is waiting.
-    prev: back
-    next: next
-    path_back: The path to your first course
-    home: User manual
-    menu: Menu
-    nav_label: 'Navigation: The path to your first course'
     foot_h: Further information
     foot_mentioned: Mentioned on this page
     foot_further: Further reading

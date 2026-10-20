@@ -148,7 +148,16 @@
   font-weight: 700;
   line-height: 1.25;
   text-align: center;
-  hyphens: manual;
+  /* Material breaks long words anywhere (word-break: break-word). In a narrow
+     tile that cut «zusammensetzen» into «zusammenset/zen». Words now break
+     only at a syllable, with a hyphen (the page carries lang de or en). */
+  word-break: normal;
+  overflow-wrap: normal;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  /* at least four letters after the break: «zusammen-setzen», not
+     «zusammenset-zen» */
+  hyphenate-limit-chars: 6 3 4;
   transition: border-color 0.2s, background-color 0.2s;
 }
 .md-typeset .oo-mh-stations > ol > li > a:hover,
@@ -163,7 +172,6 @@
   color: var(--oo-mh-muted);
   font-weight: 400;
   font-size: 0.6rem;
-  hyphens: manual;
 }
 /* on the path index the tiles have the whole width */
 .md-typeset > .oo-mh-stations > ol > li > a {
@@ -244,6 +252,13 @@
 }
 .md-typeset .oo-mh-new > p {
   margin: 0 0 0.4em;
+}
+/* menu paths in the narrow news cards: break at the spaces of the path, and
+   small enough that a tab name in quotes still fits on one line */
+.md-typeset .oo-mh-new code {
+  font-size: 0.75em;
+  word-break: normal;
+  overflow-wrap: anywhere;
 }
 .md-typeset a.oo-mh-new__title {
   font-weight: 700;
@@ -375,29 +390,6 @@
   margin: -0.6em 0 1em;
   color: var(--oo-mh-muted);
 }
-.md-typeset .oo-mh-phases {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4em;
-  margin: 1em 0;
-}
-.md-typeset .oo-mh-phase {
-  padding: 0.2em 0.75em;
-  border: 1px solid var(--oo-mh-line);
-  border-radius: var(--oo-radius-sm);
-  color: var(--oo-mh-muted);
-}
-.md-typeset .oo-mh-phase b {
-  color: var(--md-typeset-color);
-}
-.md-typeset .oo-mh-phase--on {
-  border-color: var(--oo-mh-ink);
-  background: var(--oo-mh-tint);
-  color: var(--oo-mh-ink);
-}
-.md-typeset .oo-mh-hint {
-  color: var(--oo-mh-muted);
-}
 
 /* term cards */
 .md-typeset .oo-mh-terms {
@@ -467,72 +459,76 @@
   margin-bottom: 0;
 }
 
-/* Navigation des Autorenwegs: vor dem Titel und am Seitenende */
-.md-typeset .oo-mh-nav {
-  margin: 0 0 1.4em;
-  padding: 0.6em 0.8em;
-  border: 1px dashed var(--oo-sea);
-  border-radius: var(--oo-radius);
-  background: rgba(18, 99, 101, 0.06);
+/* Reihe der Stationen oben auf jeder Stationsseite: alle Stationen als
+   Links, die aktuelle (aria-current="page") gefüllt. Keine Beschriftung,
+   kein Zurück und Weiter; das leistet die Fusszeile von Material. */
+.md-typeset .oo-mh-trail {
+  margin: 0 0 1.2em;
 }
-.md-typeset .oo-mh-nav > p {
+.md-typeset .oo-mh-trail > ol {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 0.6em;
+  gap: 0.35em;
   margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: oo-mh-trail;
 }
-.md-typeset .oo-mh-nav + h1 {
-  margin-top: 0;
+.md-typeset .oo-mh-trail > ol > li {
+  margin: 0;
+  padding: 0;
+  counter-increment: oo-mh-trail;
 }
-.md-typeset .oo-mh-nav__label {
-  flex: 0 0 100%;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--oo-sea);
-  margin-bottom: 0.2em;
-}
-.md-typeset .oo-mh-nav .oo-mh-btn {
-  white-space: nowrap;
-}
-.md-typeset .oo-mh-nav .oo-mh-btn--next {
-  margin-left: auto;
-}
-[data-md-color-scheme="slate"] .md-typeset .oo-mh-nav {
-  border-color: #6FC2C4;
-  background: rgba(111, 194, 196, 0.10);
-}
-[data-md-color-scheme="slate"] .md-typeset .oo-mh-nav__label {
-  color: #6FC2C4;
-}
-.md-typeset .oo-mh-nav .oo-mh-btn {
+.md-typeset .oo-mh-trail > ol > li > a {
   display: inline-block;
-  padding: 0.45em 1.1em;
-  border: 1px solid var(--oo-sea);
-  border-radius: var(--oo-radius);
-  color: var(--oo-sea);
-  font-weight: 700;
-  text-decoration: none;
+  padding: 0.25em 0.75em;
+  border: 1px solid var(--oo-mh-line);
+  border-radius: var(--oo-radius-sm);
+  color: var(--md-typeset-color);
+  font-size: 0.7rem;
+  line-height: 1.4;
 }
-.md-typeset .oo-mh-nav .oo-mh-btn--next {
+.md-typeset .oo-mh-trail > ol > li > a::before {
+  content: counter(oo-mh-trail) ". ";
+  color: var(--oo-mh-muted);
+}
+.md-typeset .oo-mh-trail > ol > li > a:hover,
+.md-typeset .oo-mh-trail > ol > li > a:focus-visible {
+  border-color: var(--oo-mh-ink);
+  background: var(--oo-mh-tint);
+  color: var(--oo-mh-ink);
+}
+.md-typeset .oo-mh-trail > ol > li > a[aria-current="page"] {
+  border-color: var(--oo-sea);
   background: var(--oo-sea);
   color: #fff;
+  font-weight: 700;
 }
-.md-typeset .oo-mh-nav .oo-mh-btn:hover,
-.md-typeset .oo-mh-nav .oo-mh-btn:focus-visible {
-  border-color: var(--oo-sea-dark);
-  background: var(--oo-sea-dark);
-  color: #fff;
+.md-typeset .oo-mh-trail > ol > li > a[aria-current="page"]::before {
+  color: inherit;
 }
-[data-md-color-scheme="slate"] .md-typeset .oo-mh-nav .oo-mh-btn {
+[data-md-color-scheme="slate"] .md-typeset .oo-mh-trail > ol > li > a[aria-current="page"] {
   border-color: #6FC2C4;
-  color: #6FC2C4;
-}
-[data-md-color-scheme="slate"] .md-typeset .oo-mh-nav .oo-mh-btn--next {
   background: #6FC2C4;
   color: #0F5456;
+}
+.md-typeset .oo-mh-trail + h1 {
+  margin-top: 0;
+}
+
+/* Stationen in der Phasenkarte «Wissen» (Einstiegsseite Administrationshandbuch):
+   untereinander, Name und Untertitel linksbündig */
+.md-typeset .oo-mh-pcard .oo-mh-stations > ol {
+  grid-template-columns: 1fr;
+  margin: 0 0 0.8em;
+}
+.md-typeset .oo-mh-pcard .oo-mh-stations > ol > li > a {
+  padding: 0.35em 0.6em;
+  text-align: left;
+}
+.md-typeset .oo-mh-pcard .oo-mh-stations small {
+  display: inline;
+  margin: 0 0 0 0.4em;
 }
 
 /* ---- narrow screens ------------------------------------------------------- */
