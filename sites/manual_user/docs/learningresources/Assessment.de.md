@@ -5,7 +5,7 @@ Wissensüberprüfung eingesetzt werden können. Für einige Kursbausteine
 existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
 
-![Kursbaustein-Menü im Kurseditor mit allen Optionen der Wissensüberprüfung](assets/Wissensueberpruefung_172.png){ class="shadow lightbox" }
+![Zwölf Kursbausteine der Wissensüberprüfung, von Bewertung und Test bis Umfrage und Mehrere Checklisten](assets/Wissensueberpruefung_172.png){ class="shadow lightbox" title="Gruppe Wissensüberprüfung im Kurseditor" }
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden und die beiden Kursbausteine für [Einsendeaufgaben](Course_Element_Task.de.md). Aber auch die anderen Bausteine wie [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md), [Bewertungen](Course_Element_Assessment.de.md) mit und ohne Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien viel Potenzial.
 
@@ -185,7 +185,7 @@ Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar.
 
 Der Kursbaustein mit Lernkarten-Logik dient der individuellen Selbstüberprüfung der Teilnehmenden. Dafür kombiniert die Lehrperson mehrere OpenOlat Tests oder Fragen-Sets aus dem Fragenpool, die die Lernenden selbständig in Serien und Challenges bearbeiten können. Die Anzahl der Fragen pro Übungsserie kann genau wie die Anzahl der Gesamt-Challenges festgelegt werden. Umfasst eine Serie beispielsweise 10 Fragen, werden dem Lernenden 10 Fragen eingeblendet. Danach kann er entscheiden, ob er falsch beantwortete Fragen noch mal beantworten oder diese überspringen will. Die Anzahl der Level spiegelt die Intensität der Übung wider und gibt an wie häufig eine Frage wiederholt korrekt beantwortet werden muss. 
 
-![Ansicht des Kursbausteins Übung mit Übungsserie, individuellem Üben nach Fachbereich und persönlicher Lernstatistik](assets/KB_Uebung_de.png){ class="shadow lightbox" }
+![Übungsserie mit Challenge, individuelles Üben nach Fachbereich, persönliche Statistik und Lernstand pro Level](assets/KB_Uebung_de.png){ class="shadow lightbox" title="Kursbaustein Übung aus Sicht der Teilnehmenden" }
 
 Neben den von der Lehrperson konfigurierten Übungssettings können Teilnehmende auch bestimmte Fragen wie neue Fragen oder Fragen eines bestimmten Levels filtern und bearbeiten. Auch eigene Serien können zusammengestellt werden.
 
@@ -226,17 +226,14 @@ Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden besti
 
     Anders als beim Kursbaustein Umfrage erfolgt für diesen Kursbaustein allerdings keine spezifische grafische Auswertungsübersicht.
 
-##  Kursbaustein "Umfrage" {: #course_element_survey}
+##  Kursbaustein "Umfrage" [:octicons-tag-16:{ title="ab Release 13.0 (OO-3676)" }](https://track.frentix.com/issue/OO-3676) {: #course_element_survey}
 
 :fontawesome-solid-sliders:
 
 
-Mit dem Kursbaustein "Umfrage" fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. Wenn Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen im
-Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)". Die Resultate einer Umfrage werden  standardmässig anonymisiert gespeichert. 
+Mit dem Kursbaustein "Umfrage" fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis dient die Lernressource "Formular", die Sie mit dem Kursbaustein Umfrage verknüpfen. Wenn Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen unter "[Wie erstelle ich eine Formular-Lernressource?](../../manual_how-to/create_a_form/create_a_form.de.md)". OpenOlat speichert die Resultate einer Umfrage standardmässig anonymisiert.
 
-Ein in einem Kurs verlinktes Formular kann nur solange vollständig im
-"[Formular-Editor](../learningresources/Form_Editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
-Danach können nur noch Tippfehler korrigiert werden.
+Ein im Kurs verknüpftes Formular lässt sich im [Formulareditor](../learningresources/Form_Editor.de.md) nur so lange vollständig bearbeiten, wie es noch niemand zum Ausfüllen geöffnet hat. Danach können nur noch Tippfehler korrigiert werden.
 
 !!! warning "Achtung"
 
@@ -292,7 +289,7 @@ soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 
 
 
-![Gratulationstitel, Siegertreppchen, Punktehistogramm und Liste der besten Teilnehmer:innen in der Rangliste eines Kursbausteins](assets/Highscore.png){ class="shadow lightbox" }
+![Gratulationstitel, Siegertreppchen, Punktehistogramm und Liste der besten Teilnehmer:innen](assets/Highscore.png){ class="shadow lightbox" title="Rangliste eines Kursbausteins" }
 
 ---
 
@@ -305,7 +302,7 @@ soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 [Kursbaustein "Bewertung" >](Course_Element_Assessment.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
-[Der Formular-Editor >](Form_Editor.de.md)<br>
+[Der Formulareditor >](Form_Editor.de.md)<br>
 [Portfolioaufgabe: abholen und bearbeiten >](Portfolio_task_and_assignment_Collecting_and_editing.de.md)<br>
 [Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
 [Bereiche und Module >](../area_modules/index.de.md)<br>
@@ -316,7 +313,7 @@ soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 [Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
-[Drei Schritte zu Ihrem Formular >](../forms/Three_Steps_to_your_Form.de.md)<br>
+[Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Formulare - Übersicht >](Form.de.md)<br>
 [Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)
 

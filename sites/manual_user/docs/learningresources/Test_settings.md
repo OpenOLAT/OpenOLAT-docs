@@ -4,31 +4,31 @@ In the `Test > Administration` area you will find further menus, similar to othe
 
 ![Administration menu with eleven entries from "Settings" to "Delete", including "Test editor", with "Offer types" greyed out](assets/test_administration_menu_v2_en.png){ class="shadow lightbox" title="Administration menu of a published test learning resource · 2026.09.28" }
 
-The basic configuration of the entire test is largely carried out in the **"Settings"**, particularly in the "Options" tab (see below).
+You configure the test as a whole largely in the "Settings", particularly in the "Options" tab (see below).
 
-The **"Members management"** menu is particularly relevant if the test is to be used independently of the course, otherwise the test participants are managed via the linked course.
+You need the "Members management" menu mainly if the test is to be used independently of the course. Otherwise you manage the test participants via the linked course.
 
-The **"Test editor"** entry opens the test editor. There you create the questions and the structure of the test. The editor entry in the Administration menu always names the editor: "Test editor" for a test, "Form editor" for a form, "Video editor" for a video and "Course editor" for a course. For all other learning resources it is called "Edit content". [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
+The "Test editor" entry opens the test editor. There you create the questions and the structure of the test. What the editor entry is called for other learning resources is described under [Editor entry](Detailed_View_of_Learning_Resources.md#editor_entry). [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
 
 !!! note "Test editor QTI 2.1"
     Overview of the test editor.<br>
     [Test editor](Test_editor_QTI_2.1.md)
 
-The **"Assessment tool"** of the test only appears if the test is to be used independently of the course: `Test > Administration > Settings > Tab "Share"`, usage "Standalone".
+The "Assessment tool" of the test only appears if the test is to be used independently of the course: `Test > Administration > Settings > Tab "Share"`, usage "Standalone".
 
-Correctors can be added for the test in the **"Correction workflow"** menu (see below). 
+In the "Correction workflow" menu you add correctors to the test (see below).
 
-The **"Test statistics"** menu only appears for standalone tests. If the test runs in a course, you find the statistics in the Administration menu of the course: `Course > Administration > Test statistics`.
+The "Test statistics" menu only appears for standalone tests. If the test runs in a course, you find the statistics in the Administration menu of the course: `Course > Administration > Test statistics`.
 
-The **"Offer types"** menu is only active if the test has been configured as bookable.
+The "Offer types" menu is only active if the test has been configured as bookable.
 
-Under **"Export handwritten exams"** a wizard generates exams for printing based on the online test (see below). The entry only appears if the PDF generator is switched on. You find it in the system administration under: `Administration > External tools > PDF generator`.
+Under "Export handwritten exams" a wizard takes you in several steps from the online test to print-ready exam sheets (see below). The entry only appears if the PDF generator is switched on. You find it in the system administration under: `Administration > External tools > PDF generator`.
 
-The tests can be copied or saved using the "Copy", "Export content" and "Export to Word" menus.
+With the "Copy", "Export content" and "Export to Word" menus you copy or save the test.
 
-**"About this test"** opens a window with the technical details of the test such as ID, type and external link.
+"About this test" opens a window with the technical details of the test such as ID, type and external link.
 
-**"Delete"** deletes the test learning resource. It can then be found in the author area in the "Deleted" tab. 
+"Delete" deletes the test learning resource. You then find it in the authoring area in the "Deleted" tab.
 
 On this page you will find more detailed explanations of the following administration menus of the learning resource Test:
 
@@ -230,6 +230,7 @@ The test is then downloaded in zip format with two Word files, one of which cont
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Detailed View of Learning Resources >](Detailed_View_of_Learning_Resources.md)<br>
 [Test editor >](Test_editor_QTI_2.1.md)<br>
 [Tests at course level >](Tests_at_course_level.md)<br>
 [Coaching - Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>

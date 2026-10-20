@@ -2,9 +2,9 @@
 
 ## Aufruf des Editors {: #open_editor} 
 
-Der Editor zum Erstellen und Bearbeiten einer Formular-Lernressource kann von verschiedenen Stellen aus aufgerufen werden. Den Formulareditor öffnen die Besitzer:innen der Formular-Lernressource sowie Lernressourcenverwalter:innen und Administrator:innen.
+Im Formulareditor erstellen und bearbeiten Sie eine Formular-Lernressource. Den Formulareditor öffnen Sie als Besitzer:in der Formular-Lernressource, als Lernressourcenverwalter:in oder als Administrator:in. Die folgenden drei Wege führen in den Editor.
 
-<h3> Möglichkeit 1</h3>
+<h3> Möglichkeit 1: Neues Formular im Autorenbereich erstellen</h3>
 
 Benötigen Sie den Formulareditor zum Erstellen einer neuen Formular-Lernressource, öffnen Sie ihn am einfachsten im Autorenbereich: Via Menü zum Erstellen neuer Lernressourcen.
 
@@ -13,7 +13,7 @@ Benötigen Sie den Formulareditor zum Erstellen einer neuen Formular-Lernressour
 ![Menü Erstellen aufgeklappt, der Eintrag Formular markiert, darüber Kurs, Test und die übrigen Lernressourcentypen](assets/form_open_editor1_v1_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich" }
 
 
-<h3> Möglichkeit 2</h3>
+<h3> Möglichkeit 2: Bestehendes Formular im Autorenbereich öffnen</h3>
 
 Bereits im Autorenbereich angelegte Formular-Lernressourcen öffnen Sie im Editor nach Auswahl im Autorenbereich. Verwenden Sie zur Suche z.B. den Filter "Typ = Formular".
 
@@ -24,7 +24,7 @@ Klicken Sie im Suchergebnis am Ende der Zeile auf die 3 Punkte und wählen Sie i
 ![Filter Typ aufgeklappt, der Eintrag Formular angehakt und der Button Übernehmen markiert](assets/form_open_editor2_v1_de.png){ class="shadow lightbox" title="Suche im Autorenbereich" }
 
 
-<h3> Möglichkeit 3</h3>
+<h3> Möglichkeit 3: Formular in einem Kursbaustein wählen oder erstellen</h3>
 
 Wenn Sie zuerst einen Kursbaustein im Kurseditor einfügen, können Sie in den "leeren" Kursbaustein anschliessend eine Formular-Lernressource einfügen. Das heisst, eine bestehende Formular-Lernressource aus dem Autorenbereich auswählen, eine Formular-Lernressource importieren oder eine neue Lernressource Formular erstellen. 
 
@@ -150,17 +150,14 @@ Unter den Icons in der linken oberen Ecke - sie erscheinen sobald ein Inhaltsele
 
 ## Formular konfigurieren {: #config} 
 
-Um für die Formular-Lernressource als Ganzes Einstellungen vorzunehmen, verlassen Sie den Formulareditor. Den Formulareditor rufen Sie jederzeit wieder auf unter:<br>
-`Formular > Administration > Formulareditor`
-
-Der Eintrag zum Editor im Menü Administration nennt den Editor immer beim Namen: bei einem Formular "Formulareditor", bei einem Test "Testeditor", bei einem Video "Videoeditor" und bei einem Kurs "Kurseditor". Bei allen übrigen Lernressourcen heisst er "Inhalt editieren". [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
-
-Wählen Sie für die Konfiguration:<br>
+Einstellungen für die Formular-Lernressource als Ganzes, etwa Titel, Beschreibung oder Freigabe, legen Sie ausserhalb des Formulareditors fest. Wählen Sie dafür:<br>
 `Formular > Administration > Einstellungen`
 
 ![Menü Administration im Formulareditor aufgeklappt, der Eintrag Einstellungen markiert, darunter der Eintrag Formulareditor](assets/form_config_v2_de.png){ class="shadow lightbox" title="Menü Administration im Formulareditor · 2026.09.28" }
 
-Sie können hier die Konfiguration vornehmen, wie Sie es von anderen Lernressourcen kennen.
+Im selben Menü öffnet der Eintrag "Formulareditor" jederzeit wieder den Editor: `Formular > Administration > Formulareditor`. Wie dieser Eintrag bei anderen Lernressourcen heisst, steht unter [Eintrag zum Editor](Detailed_View_of_Learning_Resources.de.md#editor_entry). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
+
+Die Einstellungen sind wie bei anderen Lernressourcen in Tabs gegliedert, unter anderem:
 
 * Tab Metadaten (z.B. Titel, Kennzeichen, Lizenz, usw.)
 * Tab Info (z.B. Titelbild, Beschreibung, Hauptsprache, usw.)
@@ -191,6 +188,7 @@ Hier noch ein paar Tipps zur Verwendung des Formulareditors:
 
 [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md)<br>
 [Formular-Elemente](Form_Elements.de.md)<br>
+[Detailansicht einer Lernressource](Detailed_View_of_Learning_Resources.de.md)<br>
 [Frageregeln in Formularen](Form_Question_Rules.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource?](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Das Formular-Element Rubrik](Form_Element_Rubric.de.md)

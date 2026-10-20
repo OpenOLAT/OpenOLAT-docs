@@ -4,31 +4,31 @@ Im Bereich `Test > Administration` finden Sie, ähnlich wie bei anderen Lernress
 
 ![Menü Administration mit elf Einträgen von "Einstellungen" bis "Löschen", darunter "Testeditor", davon "Angebotsarten" ausgegraut](assets/test_administration_menu_v2_de.png){ class="shadow lightbox" title="Menü Administration einer veröffentlichten Test-Lernressource · 2026.09.28" }
 
-Die grundsätzliche Konfiguration des gesamten Tests erfolgt grösstenteils in den **"Einstellungen"**, besonders im Tab "Optionen" (siehe unten).
+Den Test als Ganzes konfigurieren Sie grösstenteils in den "Einstellungen", besonders im Tab "Optionen" (siehe unten).
 
-Das Menü **"Mitgliederverwaltung"** ist besonders dann relevant, wenn der Test kursunabhängig verwendet werden soll, ansonsten erfolgt die Mitgliederverwaltung der Test-Teilnehmenden über den verbundenen Kurs. 
+Das Menü "Mitgliederverwaltung" brauchen Sie vor allem, wenn der Test kursunabhängig verwendet werden soll. Sonst verwalten Sie die Test-Teilnehmenden über den verbundenen Kurs.
 
-Der Eintrag **"Testeditor"** öffnet den Testeditor. Dort legen Sie die Fragen und den Aufbau des Tests an. Der Eintrag zum Editor im Menü Administration nennt den Editor immer beim Namen: bei einem Test "Testeditor", bei einem Formular "Formulareditor", bei einem Video "Video-Editor" und bei einem Kurs "Kurseditor". Bei allen übrigen Lernressourcen heisst er "Inhalt editieren". [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
+Der Eintrag "Testeditor" öffnet den Testeditor. Dort legen Sie die Fragen und den Aufbau des Tests an. Wie der Eintrag zum Editor bei anderen Lernressourcen heisst, steht unter [Eintrag zum Editor](Detailed_View_of_Learning_Resources.de.md#editor_entry). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
 
 !!! note "Testeditor QTI 2.1"
     Übersicht zum Testeditor.<br>
     [Testeditor](Test_editor_QTI_2.1.de.md)
 
-Das **"Bewertungswerkzeug"** des Tests erscheint nur, wenn der Test kursunabhängig verwendet werden soll: `Test > Administration > Einstellungen > Tab "Freigabe"`, Verwendungszweck "Eigenständig".
+Das "Bewertungswerkzeug" des Tests erscheint nur, wenn der Test kursunabhängig verwendet werden soll: `Test > Administration > Einstellungen > Tab "Freigabe"`, Verwendungszweck "Eigenständig".
 
-Im Menü **"Korrektur-Workflow"** können für den Test Korrektor:innen hinzugefügt werden (siehe unten). 
+Im Menü "Korrektur-Workflow" fügen Sie dem Test Korrektor:innen hinzu (siehe unten).
 
-Das Menü **"Test Statistik"** erscheint nur bei eigenständigen Tests. Läuft der Test in einem Kurs, finden Sie die Statistik im Menü Administration des Kurses: `Kurs > Administration > Teststatistiken`.
+Das Menü "Test Statistik" erscheint nur bei eigenständigen Tests. Läuft der Test in einem Kurs, finden Sie die Statistik im Menü Administration des Kurses: `Kurs > Administration > Teststatistiken`.
 
-Das Menü **"Angebotsarten"** ist nur aktiv, wenn der Test buchbar konfiguriert wurde.
+Das Menü "Angebotsarten" ist nur aktiv, wenn der Test buchbar konfiguriert wurde.
 
-Mit Hilfe eines Wizards können basierend auf dem Online-Test unter **"Handschriftliche Prüfungen generieren"** Prüfungen für den Druck erzeugt werden (siehe unten). Der Eintrag erscheint nur, wenn der PDF Generator eingeschaltet ist. Sie finden ihn in der System-Administration unter: `Administration > Externe Werkzeuge > PDF Generator`.
+Unter "Handschriftliche Prüfungen generieren" führt Sie ein Assistent in mehreren Schritten vom Online-Test zu druckfertigen Prüfungsbogen (siehe unten). Der Eintrag erscheint nur, wenn der PDF Generator eingeschaltet ist. Sie finden ihn in der System-Administration unter: `Administration > Externe Werkzeuge > PDF Generator`.
 
-Über die Menüs "Kopieren", "Inhalt exportieren" und "Als Worddatei exportieren" können die Tests kopiert bzw. gespeichert werden. 
+Mit den Menüs "Kopieren", "Inhalt exportieren" und "Als Worddatei exportieren" kopieren oder speichern Sie den Test.
 
-**"Über diesen Test"** öffnet ein Fenster mit den technischen Angaben zum Test wie ID, Typ und externer Link.
+"Über diesen Test" öffnet ein Fenster mit den technischen Angaben zum Test wie ID, Typ und externer Link.
 
-**"Löschen"** löscht die Lernressource Test. Sie finden sie anschliessend im Autorenbereich im Tab "Gelöscht".
+"Löschen" löscht die Lernressource Test. Sie finden sie anschliessend im Autorenbereich im Tab "Gelöscht".
 
 Auf dieser Seite finden Sie nähere Erläuterungen zu folgenden Administrationsmenüs der Lernressource Test:
 
@@ -196,25 +196,25 @@ Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" un
 
 ## Handschriftliche Prüfungen generieren [:octicons-tag-16:{ title="ab Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648) {: #create_paper_pencil}
 
-Wenn Sie offline eine Prüfung durchführen wollen, können Sie in diesem Wizard ein Deckblatt und verschiedene Versionen von Ihrer Testressource mit zufällig gewählten Antworten generieren lassen.
+Wenn Sie offline eine Prüfung durchführen wollen, können Sie mit diesem Assistenten ein Deckblatt und verschiedene Versionen von Ihrer Testressource mit zufällig gewählten Antworten generieren lassen.
 
 1. In den Optionen wählen Sie die Sprache und die Anzahl der Tests sowie im Feld "Seriennummer" einen Präfix für die Dateinamen aus. Sie können auch bestimmen, ob Sie ein Deckblatt oder auch eine zusätzliche Seite mitgenerieren wollen.
 
-    ![Schritt Optionen mit den Feldern "Anzahl der Tests", "Ausgangsprache für Export" und "Seriennummer" sowie der Auswahl "Erste Seite" und "Zusätzliche Seite" unter Deckblatt](assets/test_settings_paper_exam_options_v1_de.png){ class="shadow lightbox" title="Schritt Optionen des Wizards Handschriftliche Prüfungen generieren · 2026.09.28" }
+    ![Schritt Optionen mit den Feldern "Anzahl der Tests", "Ausgangsprache für Export" und "Seriennummer" sowie der Auswahl "Erste Seite" und "Zusätzliche Seite" unter Deckblatt](assets/test_settings_paper_exam_options_v1_de.png){ class="shadow lightbox" title="Schritt Optionen des Assistenten Handschriftliche Prüfungen generieren · 2026.09.28" }
 
 2. Im zweiten Schritt wählen Sie die Attribute, die auf das Deckblatt kopiert werden sollen. Manche Attribute, wie die Beschreibung der Testressource, sind noch anpassbar.
 
-    ![Attributgruppen Allgemeines und Testparameter zur Auswahl für das Deckblatt, alle angehakt](assets/test_settings_paper_exam_cover_attributes_v1_de.png){ class="shadow lightbox" title="Schritt Deckblattattribute des Wizards · 2026.09.28" }
+    ![Attributgruppen Allgemeines und Testparameter zur Auswahl für das Deckblatt, alle angehakt](assets/test_settings_paper_exam_cover_attributes_v1_de.png){ class="shadow lightbox" title="Schritt Deckblattattribute des Assistenten · 2026.09.28" }
 
 3. Hier ist die Möglichkeit, bestimmte Felder zu markieren und zu überschreiben. Das Beschreibungsfeld wird von der Testressource herüberkopiert und lässt sich hier nochmals anpassen.
 
-    ![Die Felder "Titel" und "Verfahren" sowie das Feld "Informationen (Beschreibungsfeld)" mit HTML-Editor, überschreibbar für das Deckblatt](assets/test_settings_paper_exam_cover_fields_v1_de.png){ class="shadow lightbox" title="Schritt Deckblattfelder des Wizards · 2026.09.28" }
+    ![Die Felder "Titel" und "Verfahren" sowie das Feld "Informationen (Beschreibungsfeld)" mit HTML-Editor, überschreibbar für das Deckblatt](assets/test_settings_paper_exam_cover_fields_v1_de.png){ class="shadow lightbox" title="Schritt Deckblattfelder des Assistenten · 2026.09.28" }
 
 4. Haben Sie im Schritt "Optionen" die Option "Zusätzliche Seite" aktiviert, erscheint hier der Schritt "Zusätzliche Seite".
 
 5. Die Zusammenfassung beinhaltet eine Übersicht aller getätigten Einstellungen sowie eine Vorschau der zu generierenden Tests. Bitte beachten Sie, dass eine grössere Anzahl von Generierungen etwas dauern kann und der Browser möglicherweise nicht immer reagiert.
 
-    ![Anzahl Tests und Lösungsblätter, Dateiformat, Ausgabesprache, Seriennummern, die vom Test mitgegebenen Parameter und die Angaben für das Deckblatt](assets/test_settings_paper_exam_summary_v1_de.png){ class="shadow lightbox" title="Schritt Zusammenfassung des Wizards · 2026.09.28" }
+    ![Anzahl Tests und Lösungsblätter, Dateiformat, Ausgabesprache, Seriennummern, die vom Test mitgegebenen Parameter und die Angaben für das Deckblatt](assets/test_settings_paper_exam_summary_v1_de.png){ class="shadow lightbox" title="Schritt Zusammenfassung des Assistenten · 2026.09.28" }
 
 [zum Seitenanfang ^](#test_settings)
 
@@ -233,6 +233,7 @@ Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von dene
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Detailansicht einer Lernressource >](Detailed_View_of_Learning_Resources.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1.de.md)<br>
 [Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>

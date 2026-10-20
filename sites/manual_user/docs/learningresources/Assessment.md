@@ -3,7 +3,7 @@
 Here you get an overview of the course elements that can be used for knowledge testing. For some course elements there are separate pages or chapters here in the manual.
 
 
-![Course element menu in the course editor with all assessment options](assets/Wissensueberpruefung_172_en.png){ class="shadow lightbox" }
+![Twelve assessment course elements, from Assessment and Test to Survey and Multiple checklists](assets/Wissensueberpruefung_172_en.png){ class="shadow lightbox" title="Group Assessment in the course editor" }
 
 OpenOlat provides various course elements for knowledge testing. The central course elements for this are the three course elements for OpenOlat [tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md), [assessments](Course_Element_Assessment.md) with and without assessment grid (rubric) or the checklists offer a lot of potential for certain scenarios.
 
@@ -134,7 +134,7 @@ A more complex alternative to the self-test is the course element Practice.
 
 The course element with flashcard logic is used for individual self-testing of course participants. For this purpose, the teacher combines several OpenOlat tests or question sets from the question pool, which the learners can work on independently in series and challenges. The number of questions per exercise series can be defined, as can the number of total challenges. For example, if a series comprises 10 questions, the learner is shown 10 questions. Afterwards, he can decide whether he wants to answer incorrectly answered questions again or skip them. The number of levels reflects the intensity of the exercise and indicates how often a question has to be answered correctly repeatedly. 
 
-![View of the course element Practice with practice series, individual practice by subject and personal learning statistics](assets/KB_Uebung_en.png){ class="shadow lightbox" }
+![Practice series with challenge, individual practice by subject, personal statistics and learning progress per level](assets/KB_Uebung_en.png){ class="shadow lightbox" title="Course element Practice from the participant view" }
 
 In addition to the practice settings configured by the teacher, course participants can also filter and edit specific questions such as new questions or questions of a certain level. Custom series can also be created.
 
@@ -163,13 +163,13 @@ The use of this course element makes sense e.g. if the learners have to fill in 
 
     Unlike the Survey course module, however, this course module does not generate a specific graphical summary of the results.
 
-##  Course Element: Survey {: #course_element_survey}
+##  Course Element: Survey [:octicons-tag-16:{ title="from Release 13.0 (OO-3676)" }](https://track.frentix.com/issue/OO-3676) {: #course_element_survey}
 
 :fontawesome-solid-sliders:
 
-With the course element "Survey" you can add an online questionnaire to your course. The learning resource "Form" is used as a basis and is linked to the course element Survey. If you have not yet created a form for surveys, follow the instructions in the chapter "[3 steps to your questionnaire](../forms/Three_Steps_to_your_Form.md)". By default, the results of a survey are stored anonymously.
+With the course element "Survey" you can add an online questionnaire to your course. It is based on the learning resource "Form", which you link to the course element Survey. If you have not yet created a form for surveys, follow the instructions under "[How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md)". By default, OpenOlat stores the results of a survey anonymously.
 
-A form linked in a course can only be edited completely in the "[form editor](../learningresources/Form_Editor.md)" as long as the page has not been opened. After that only typing errors can be corrected.
+A form linked in a course can only be edited completely in the [form editor](../learningresources/Form_Editor.md) as long as nobody has opened it to fill it in. After that only typing errors can be corrected.
 
 !!! warning "Attention"
 
@@ -211,7 +211,7 @@ number should be shown. At least one of the above options needs to be selected.
 
 
 
-![Congratulation title, podium, points histogram and top results listing in the highscore of a course element](assets/Highscore_EN.png){ class="shadow lightbox" }
+![Congratulation title, podium, points histogram and top results listing](assets/Highscore_EN.png){ class="shadow lightbox" title="Highscore of a course element" }
 
 ---
 
@@ -224,7 +224,7 @@ number should be shown. At least one of the above options needs to be selected.
 [Course Element "Assessment" >](Course_Element_Assessment.md)<br>
 [Course Element "Structure" >](Course_Element_Structure.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
-[The Form Editor >](Form_Editor.md)<br>
+[The form editor >](Form_Editor.md)<br>
 [Portfolio task: collecting and editing >](Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Sites and modules >](../area_modules/index.md)<br>
@@ -235,7 +235,7 @@ number should be shown. At least one of the above options needs to be selected.
 [Tests at course level >](Tests_at_course_level.md)<br>
 [Course Element "Test" >](Course_Element_Test.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[Three steps to your form >](../forms/Three_Steps_to_your_Form.md)<br>
+[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Forms - Overview >](Form.md)<br>
 [Course Element "Checklist" >](Course_Element_Checklist.md)
 

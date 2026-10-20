@@ -4,7 +4,7 @@ A learning resource consists of different areas. Even if the learning resources 
 
 ## Toolbar of learning resources
 
-The toolbar provides access to the "Info page" of the learning resource (for courses "Course info"). Owners of the learning resource see their role (e.g. owner) and can access the administration menus of the learning resource via the toolbar. The status of the learning resource (e.g. "Published") is also displayed in the toolbar and can be changed here by owners. A bookmark can also be set on the learning resource.
+Via the toolbar you reach the "Info page" of the learning resource, also for courses. Owners of the learning resource see their role (e.g. owner) and can access the administration menus of the learning resource via the toolbar. The status of the learning resource (e.g. "Published") is also displayed in the toolbar and can be changed here by owners. A bookmark can also be set on the learning resource.
 
 Depending on the learning resource, there may also be other elements in the toolbar. What exactly is in the toolbar and visible depends on:
 
@@ -17,15 +17,15 @@ Here are a few **toolbar examples:**
 
 Example of a typical toolbar that applies to most learning resources such as blog, podcast, form, glossary, resource folder, video or wiki:
 
-![Toolbar with Administration, status Preparation, Info page, role Owner and Bookmark, learning resource outside a course](assets/Blog_Toolbar.png){ class="shadow lightbox" }
+![Toolbar with Administration, status Preparation, Info page, role Owner and Bookmark](assets/Blog_Toolbar.png){ class="shadow lightbox" title="Toolbar of a learning resource outside a course" }
 
 The toolbar of a course, on the other hand, can contain further elements and tools:
 
-![Course toolbar with Administration, Status, Course info, Learning path, Calendar, Participant list, Participant infos, E-Mail, Role and My course plus a second row with course tools](assets/Kurs_toolbar.png){ class="shadow lightbox" }
+![Administration, Status, Course info, Learning path, Calendar, Participant list, Participant infos, E-Mail, Role and My course, below a second row with course tools](assets/Kurs_toolbar.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 The toolbar of the Portfolio 2.0 template is more for configuration purposes:
 
-![Toolbar of the Portfolio 2.0 template with Edit metadata, Create new section and New assignment, below the tabs Overview, Entries, History and Templates](assets/Portfoliovorlage_Toolbar.png){ class="shadow lightbox" }
+![Edit metadata, Create new section and New assignment in the toolbar, below the tabs Overview, Entries, History and Templates](assets/Portfoliovorlage_Toolbar.png){ class="shadow lightbox" title="Toolbar of a Portfolio 2.0 template" }
 
 ## Administration of learning resources
 
@@ -50,6 +50,18 @@ In the **Members management**, additional owners of the learning resource can be
 **Export content** allows you to download the learning resource, e.g. as a backup file (ZIP file). This file can later be imported into OpenOlat again. In this way, learning resources can also be transferred to other OpenOlat instances.
 
 **Delete** marks the learning resource as "deleted". It then appears in the authoring area in the tab "Deleted" (trash function). As long as the learning resource is still in the trash, it can be restored or permanently deleted.
+
+### Editor entry [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780) {: #editor_entry}
+
+If a learning resource has its own editor, you open it via an entry in the "Administration" menu. The entry carries the name of the editor. You see it as owner of the learning resource, as learning resource manager or as administrator.
+
+* **Course:** "Course editor"
+* **Test:** "Test editor"
+* **Form:** "Form editor"
+* **Video:** "Video editor"
+* **CP learning content, Word, Excel and PowerPoint:** "Edit content". For Word, Excel and PowerPoint, the entry only appears if an editor for the file format is set up in OpenOlat.
+
+Wiki, blog, podcast, glossary, resource folder and Portfolio 2.0 template have no such entry. You edit these learning resources directly in the opened learning resource.
 
 
 ## Further information {: #further_information}

@@ -4,7 +4,7 @@ Eine Lernressource besteht aus verschiedenen Bereichen. Auch wenn sich die Lernr
 
 ## Toolbar von Lernressourcen
 
-Über die Toolbar ist ein Zugriff auf die "Infoseite" der Lernressource möglich (bei Kursen "Kursinfo"). Besitzer:innen der Lernressource sehen ihre Rolle (z.B. Besitzer:in) und können über die Toolbar die Menüs der Administration der Lernressource aufrufen. Auch der Status der Lernressource (z.B. "Veröffentlicht") wird in der Toolbar angezeigt und kann hier von Besitzer:innen geändert werden. Zudem lässt sich ein Bookmark auf die Lernressource setzen.
+Über die Toolbar erreichen Sie die "Infoseite" der Lernressource, auch bei Kursen. Besitzer:innen der Lernressource sehen ihre Rolle (z.B. Besitzer:in) und können über die Toolbar die Menüs der Administration der Lernressource aufrufen. Auch der Status der Lernressource (z.B. "Veröffentlicht") wird in der Toolbar angezeigt und kann hier von Besitzer:innen geändert werden. Zudem lässt sich ein Bookmark auf die Lernressource setzen.
 
 Je nach Lernressource können sich auch weitere Elemente in der Toolbar befinden. Was sich genau in der Toolbar befindet und sichtbar ist, hängt ab von:
 
@@ -17,15 +17,15 @@ Hier ein paar **Toolbar-Beispiele:**
 
 Beispiel für eine typische Toolbar, die für die meisten Lernressourcen wie Blog, Podcast, Formular, Glossar, Ressourcenordner, Video oder Wiki gilt:
 
-![Toolbar mit Administration, Status Vorbereitung, Infoseite, Rolle Besitzer:in und Bookmark, Lernressource ausserhalb eines Kurses](assets/Blog_Toolbar.png){ class="shadow lightbox" }
+![Toolbar mit Administration, Status Vorbereitung, Infoseite, Rolle Besitzer:in und Bookmark](assets/Blog_Toolbar.png){ class="shadow lightbox" title="Toolbar einer Lernressource ausserhalb eines Kurses" }
 
 Die Toolbar eines Kurses kann dagegen noch weitere Elemente und Werkzeuge enthalten:
 
-![Kurs-Toolbar mit Administration, Status, Kursinfo, Lernpfad, Kalender, Liste der Teilnehmer:innen, Mitteilungen, E-Mail, Rolle und Mein Kurs sowie einer zweiten Zeile mit Kurswerkzeugen](assets/Kurs_toolbar.png){ class="shadow lightbox" }
+![Administration, Status, Kursinfo, Lernpfad, Kalender, Liste der Teilnehmer:innen, Mitteilungen, E-Mail, Rolle und Mein Kurs, darunter eine zweite Zeile mit Kurswerkzeugen](assets/Kurs_toolbar.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 Die Toolbar der Portfolio 2.0 Vorlage dient eher der Konfiguration:
 
-![Toolbar der Portfolio 2.0 Vorlage mit Metadaten bearbeiten, Neuen Bereich erstellen und Neue Aufgabe, darunter die Tabs Überblick, Einträge, Änderungsprotokoll und Vorlagen](assets/Portfoliovorlage_Toolbar.png){ class="shadow lightbox" }
+![Metadaten bearbeiten, Neuen Bereich erstellen und Neue Aufgabe in der Toolbar, darunter die Tabs Überblick, Einträge, Änderungsprotokoll und Vorlagen](assets/Portfoliovorlage_Toolbar.png){ class="shadow lightbox" title="Toolbar einer Portfolio 2.0 Vorlage" }
 
 ## Administration von Lernressourcen
 
@@ -50,6 +50,18 @@ In der **Mitgliederverwaltung** können weitere Besitzer:innen der Lernressource
 **Inhalt exportieren** ermöglicht einen Download der Lernressource, z.B. als Backup-Datei (ZIP-Datei). Diese Datei kann später wieder in OpenOlat importiert werden. Auf diese Weise können Lernressourcen auch in andere OpenOlat-Instanzen übertragen werden.
 
 **Löschen** führt dazu, dass die Lernressource als "gelöscht" markiert wird. Sie erscheint dann im Autorenbereich im Tab "Gelöscht" (Papierkorb-Funktion). Solange sich die Lernressource noch im Papierkorb befindet, kann sie wiederhergestellt oder auch dauerhaft gelöscht werden.
+
+### Eintrag zum Editor [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780) {: #editor_entry}
+
+Hat eine Lernressource einen eigenen Editor, öffnen Sie ihn über einen Eintrag im Menü "Administration". Der Eintrag trägt den Namen des Editors. Sie sehen ihn als Besitzer:in der Lernressource, als Lernressourcenverwalter:in oder als Administrator:in.
+
+* **Kurs:** "Kurseditor"
+* **Test:** "Testeditor"
+* **Formular:** "Formulareditor"
+* **Video:** "Videoeditor"
+* **CP-Lerninhalt, Word, Excel und PowerPoint:** "Inhalt editieren". Bei Word, Excel und PowerPoint erscheint der Eintrag nur, wenn in OpenOlat ein Editor für das Dateiformat eingerichtet ist.
+
+Wiki, Blog, Podcast, Glossar, Ressourcenordner und Portfolio 2.0 Vorlage haben keinen solchen Eintrag. Sie bearbeiten diese Lernressourcen direkt in der geöffneten Lernressource.
 
 
 ## Weiterführende Informationen {: #further_information}

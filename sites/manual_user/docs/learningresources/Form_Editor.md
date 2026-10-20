@@ -2,9 +2,9 @@
 
 ## Calling up the editor {: #open_editor} 
 
-The editor for creating and editing a form learning resource can be called up from various places. The form editor can be opened by the owners of the form learning resource as well as by learning resource managers and administrators.
+In the form editor you create and edit a form learning resource. You open the form editor as owner of the form learning resource, as learning resource manager or as administrator. The following three ways lead into the editor.
 
-<h3> Option 1</h3>
+<h3> Option 1: Create a new form in the authoring area</h3>
 
 If you need the form editor to create a new form learning resource, the easiest way to open it is in the authoring area: via the menu for creating new learning resources.
 
@@ -13,7 +13,7 @@ If you need the form editor to create a new form learning resource, the easiest 
 ![Menu Create expanded, the entry Form highlighted, above it Course, Test and the other learning resource types](assets/form_open_editor1_v1_de.png){ class="shadow lightbox" title="Menu Create in the authoring area" }
 
 
-<h3> Option 2</h3>
+<h3> Option 2: Open an existing form in the authoring area</h3>
 
 You can open form learning resources that have already been created in the authoring area in the editor after selecting them in the authoring area. Use the "Type = Form" filter to search, for example.
 
@@ -24,7 +24,7 @@ In the search result, click on the 3 dots at the end of the line and select the 
 ![Filter Type expanded, the entry Form ticked and the button Apply highlighted](assets/form_open_editor2_v1_de.png){ class="shadow lightbox" title="Search in the authoring area" }
 
 
-<h3> Option 3</h3>
+<h3> Option 3: Select or create a form in a course element</h3>
 
 If you first insert a course element in the course editor, you can then insert a form learning resource into the "empty" course element. This means selecting an existing form learning resource from the authoring area, importing a form learning resource or creating a new form learning resource.
 
@@ -152,17 +152,14 @@ Among the icons in the top left-hand corner - they appear as soon as a content e
 
 ## Configure Form {: #config}
 
-To make settings for the form learning resource as a whole, exit the form editor. You can call up the form editor again at any time under:<br>
-`Form > Administration > Form editor`
-
-The entry for the editor in the menu Administration always calls the editor by its name: for a form "Form editor", for a test "Test editor", for a video "Video editor" and for a course "Course editor". For all other learning resources it is called "Edit content". [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
-
-Select for the configuration:<br>
+You define settings for the form learning resource as a whole, such as title, description or sharing, outside the form editor. Select:<br>
 `Form > Administration > Settings`
 
 ![Menu Administration in the form editor expanded, the entry Settings highlighted, below it the entry Form editor](assets/form_config_v2_en.png){ class="shadow lightbox" title="Menu Administration in the form editor · 2026.09.28" }
 
-You can make the configuration here as you know it from other learning resources.
+In the same menu, the entry "Form editor" opens the editor again at any time: `Form > Administration > Form editor`. What this entry is called for other learning resources is described under [Editor entry](Detailed_View_of_Learning_Resources.md#editor_entry). [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
+
+As with other learning resources, the settings are organised in tabs, among others:
 
 * Metadata tab (e.g. title, reference, license, etc.)
 * Info tab (e.g. cover image, description, main language, etc.)
@@ -195,6 +192,7 @@ Here are a few more tips for using the form editor:
 
 [Course Element "Survey"](../learningresources/Course_Element_Survey.md)<br>
 [Form elements](Form_Elements.md)<br>
+[Detailed View of Learning Resources](Detailed_View_of_Learning_Resources.md)<br>
 [Question rules in forms](Form_Question_Rules.md)<br>
 [How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [The form element rubric](Form_Element_Rubric.md)
