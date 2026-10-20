@@ -13,10 +13,10 @@ Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen anpass
 Sie finden den Tab "System" im persönlichen Menü unter:<br>
 `Persönliches Menü > Einstellungen > Tab "System"`
 
-![Vier nummerierte Abschnitte des Tabs System, von den allgemeinen Systemeinstellungen bis zum Zurücksetzen der Einstellungen, in den persönlichen Einstellungen](assets/pers_menu_settings_tab_system_v1_de.png){ class="shadow lightbox" title="Tab System der persönlichen Einstellungen" }
+![Die vier Abschnitte des Tabs System markiert, von den allgemeinen Systemeinstellungen bis zum Zurücksetzen der Einstellungen, so finden Sie jeden Abschnitt dieser Seite im Tab wieder](assets/pers_menu_settings_tab_system_v2_de.png){ class="shadow lightbox" title="Tab System der persönlichen Einstellungen · 2026.10.20" }
 
 
-### ![1](assets/1_green_24.png) Allgemeine Systemeinstellungen {: #general}
+### Allgemeine Systemeinstellungen {: #general}
 
 In den allgemeinen Systemeinstellungen sehen Sie Ihre Kontodaten. Sie legen hier ausserdem die Sprache, die Benachrichtigungen und die Zustellung Ihrer E-Mails fest.
 
@@ -62,7 +62,7 @@ Eine einzelne Nachricht leiten Sie auch ohne diese Einstellung weiter: [Persönl
 Unter "Dokumenteneditor" wählen Sie, mit welchem Editor OpenOlat Ihre Dokumente öffnet. Das Feld erscheint nur, wenn Ihnen mindestens zwei externe Editoren zur Verfügung stehen.
 
 
-### ![2](assets/2_green_24.png) Spezielle Systemeinstellungen {: #special}
+### Spezielle Systemeinstellungen {: #special}
 
 Damit Sie nach dem Login sofort dort weiterarbeiten, wo Ihre Arbeit liegt, legen Sie hier fest, welche Seite OpenOlat nach dem Login öffnet: den zuletzt besuchten Ort oder eine Startseite.
 
@@ -91,7 +91,7 @@ Ihre Organisation kann für jede Rolle eine Startseite einrichten. Haben Sie meh
 
 Bei "Ja, automatisch" blendet OpenOlat das Feld "Startseite" aus.
 
-Am einfachsten öffnen Sie die gewünschte Seite und klicken links unten in der Fusszeile auf das Startseiten-Icon :o_icon_o_icon_landingpage: "Aktuelle Seite im Profil als persönliche Startseite festlegen". Jede OpenOlat-Seite, auf die Sie Zugriff haben, kann so Ihre persönliche Startseite werden. Den Link auf eine bestimmte Seite erhalten Sie auch über die Aktion "Teilen" links unten in der Fusszeile. Wählen Sie dort "Link kopieren" und fügen Sie den Link ins Feld "Startseite" ein [:octicons-tag-16:{ title="ab Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"}.
+Am einfachsten öffnen Sie die gewünschte Seite und klicken links unten in der Fusszeile auf das Startseiten-Icon :o_icon_o_icon_landingpage: "Aktuelle Seite im Profil als persönliche Startseite festlegen". Jede OpenOlat-Seite, auf die Sie Zugriff haben, kann so Ihre persönliche Startseite werden. Den Link auf eine bestimmte Seite erhalten Sie auch über die Aktion ["Teilen"](../basic_concepts/Navigation.de.md#share) links unten in der Fusszeile. Wählen Sie dort "Link kopieren" und fügen Sie den Link ins Feld "Startseite" ein [:octicons-tag-16:{ title="ab Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"}.
 
 Auch einen eigenen Filter-Tab einer Liste können Sie als persönliche Startseite festlegen, zum Beispiel einen gespeicherten Filter der Kursliste im Coaching. Öffnen Sie den Tab und klicken Sie auf das Startseiten-Icon :o_icon_o_icon_landingpage: in der Fusszeile. Wie Sie einen Filter als eigenen Tab speichern, beschreibt die Seite [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
@@ -100,7 +100,7 @@ Auch einen eigenen Filter-Tab einer Liste können Sie als persönliche Startseit
 Leeren Sie das Feld "Startseite" und klicken Sie auf "Speichern", gilt wieder die Startseite Ihrer Organisation.
 
 
-### ![3](assets/3_green_24.png) Persönliche Werkzeuge {: #personal_tools}
+### Persönliche Werkzeuge {: #personal_tools}
 
 Hier wählen Sie aus, welche persönlichen Werkzeuge direkt oben in der Hauptnavigation (links neben Ihrem Profilbild) erscheinen sollen, sodass Sie schnell auf diese Werkzeuge zugreifen können.<br>
 Werkzeuge, die als Symbol in der Hauptnavigation angezeigt werden, sind nicht mehr im persönlichen Menü aufgeführt.
@@ -113,15 +113,15 @@ Werkzeuge, die als Symbol in der Hauptnavigation angezeigt werden, sind nicht me
     Versuchen Sie nicht, alle Werkzeuge zu aktivieren, sondern wählen Sie gezielt die Werkzeuge aus, die Sie häufig benutzen. So bleibt die Hauptnavigation übersichtlich.
 
 
-### ![4](assets/4_green_24.png) Einstellungen zurücksetzen {: #reset}
+### Einstellungen zurücksetzen {: #reset}
 
-Unter "Einstellungen Zurücksetzen" im Tab "System" haben Sie die Möglichkeit, Ihre vorgenommenen systembezogenen Änderungen wieder **auf die Standardeinstellungen zurückzusetzen**. Zurückgesetzt werden können
+Möchten Sie Ihre persönlichen Anpassungen rückgängig machen, setzen Sie sie unter "Einstellungen Zurücksetzen" im Tab "System" auf die Standardeinstellung zurück. Sie wählen aus, was zurückgesetzt wird:
 
-* die personalisierten Einstellungen der Bildschirmkomponenten (Menü, Toolboxen, Tabellen, Portal, Kalender, usw.),
-* Systemeinstellungen (Benachrichtigungen, E-Mail-Versand, Zeichensatz, usw.)
-* sowie die Einstellungen zur Wiederherstellung der letzten Sitzung.
+* "Personalisierung von Bildschirmkomponenten (Menü, Toolboxen, Tabellen, Portal, Kalender etc.)"
+* "Systemeinstellungen (Benachrichtigungen, E-Mail Versand, Zeichensatz etc.)"
+* "Sitzung wiederherstellen"
 
-Nach dem Zurücksetzen werden Sie automatisch aus OpenOlat abgemeldet.
+Nach einem Klick auf "Zurücksetzen" meldet OpenOlat Sie automatisch ab, damit die Standardeinstellung wirkt.
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -130,9 +130,9 @@ Nach dem Zurücksetzen werden Sie automatisch aus OpenOlat abgemeldet.
 
 ## Tab WebDAV {: #tab_webdav}
 
-Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-Instanz](../basic_concepts/Using_WebDAV.de.md), über den Sie Dateien bequem verwalten können. Über WebDAV greifen Sie als OpenOlat-Benutzer:in auf Ihren persönlichen Ordner zu. OpenOlat-Autor:innen können über WebDAV ihre gesamten Kursdateien organisieren.
+Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-Instanz](../basic_concepts/Using_WebDAV.de.md), über den Sie Dateien verwalten. Über WebDAV greifen Sie als OpenOlat-Benutzer:in auf Ihren persönlichen Ordner zu. OpenOlat-Autor:innen können über WebDAV ihre gesamten Kursdateien organisieren.
 
-Unter "Zugangsdaten" sehen Sie Ihren WebDAV-Anmeldenamen. Mit "Passwort einrichten" legen Sie ein eigenes WebDAV-Passwort fest.
+Unter "Zugangsdaten" sehen Sie Ihren WebDAV-Anmeldenamen. Haben Sie ein OpenOlat-Passwort, verwenden Sie es auch für WebDAV. Haben Sie kein OpenOlat-Passwort, legen Sie mit "Passwort einrichten" ein eigenes WebDAV-Passwort fest.
 
 ![WebDAV-Adresse der Instanz und darunter die Zugangsdaten mit WebDAV-Anmeldename, nicht eingerichtetem WebDAV-Passwort und Button Passwort einrichten, Tab WebDAV der persönlichen Einstellungen](assets/pers_menu_settings_tab_webdav_v1_de.png){ class="shadow lightbox" title="Tab WebDAV der persönlichen Einstellungen" }
 
@@ -155,9 +155,9 @@ Im Tab "Instant-Messaging" legen Sie die Einstellungen für die [Chat-Funktion](
 
 ## Tab Nutzungsbedingungen {: #tab_terms_of_use}
 
-Hier können Sie die Nutzungsbedingungen nachlesen, welche Sie beim ersten Login bestätigt haben. Die genauen Nutzungsbedingungen werden von den OpenOlat-Administrator:innen festgelegt.
+Hier lesen Sie die Nutzungsbedingungen nach, denen Sie beim ersten Login zugestimmt haben. Ihren Inhalt legen die Administrator:innen Ihrer OpenOlat-Instanz fest.
 
-Ferner kann hier auch die Löschung des kompletten OpenOlat-Kontos beantragt werden. Der Antrag geht als E-Mail an eine von der System-Administration hinterlegte Adresse; die Löschung selbst führt die Benutzerverwaltung aus. Mehr dazu: [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#request_account_deletion)
+Stimmen Sie den Nutzungsbedingungen nicht mehr zu, beantragen Sie hier mit "Konto löschen beantragen" die Löschung Ihres OpenOlat-Kontos. Der Antrag geht als E-Mail an eine von der System-Administration hinterlegte Adresse; die Löschung selbst führt die Benutzerverwaltung aus. Mehr dazu: [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#request_account_deletion)
 
 ![Text der Nutzungsbedingungen mit Datum der Zustimmung, Button Konto löschen beantragen und drei bestätigte Kontrollkästchen, Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der persönlichen Einstellungen" }
 
@@ -168,9 +168,9 @@ Ferner kann hier auch die Löschung des kompletten OpenOlat-Kontos beantragt wer
 
 ## Tab Personendaten {: #tab_user_data}
 
-In diesem Bereich können Sie eine Übersicht über Ihre in OpenOlat gespeicherten Daten nach Artikel 15 DSGVO beim Betreiber anfordern. Es ist der entsprechende Support-Link hier hinterlegt.
+Möchten Sie wissen, welche Daten OpenOlat über Sie gespeichert hat, fordern Sie hier eine Übersicht nach Artikel 15 DSGVO bei der Betreiberin an. Der Link "Support" öffnet dafür eine E-Mail an den Support.
 
-Sobald der Export durchgeführt wurde, können Sie die über Sie gespeicherten Benutzerdaten hier über die Schaltfläche **Dateien herunterladen** beziehen. Die Datei bleibt einen Monat zum Herunterladen bereit, danach ist ein neuer Export nötig.
+Sobald der Export bereitsteht, laden Sie die über Sie gespeicherten Benutzerdaten hier mit der Schaltfläche "Dateien herunterladen" herunter. Die Datei bleibt einen Monat zum Herunterladen bereit, danach ist ein neuer Export nötig.
 
 Wie der Export ausgelöst wird und wer das darf, beschreibt die Seite [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#export_user_data) im Administrationshandbuch.
 
@@ -181,7 +181,7 @@ Wie der Export ausgelöst wird und wer das darf, beschreibt die Seite [Datenschu
 
 ## Tab GUI-Einstellungen {: #tab_GUI}
 
-Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeichert. Expert:innen können hier gezielt einzelne Variablenwerte zurücksetzen.
+Möchten Sie nur eine einzelne gespeicherte Anpassung zurücksetzen statt aller, finden Sie sie hier. OpenOlat speichert die Einstellungen des GUI (Graphical User Interface) in Variablen. Mit "Zurücksetzen" in der Zeile einer Variable setzen Sie diese eine Variable zurück, mit "Mehrere Einträge zurücksetzen" die ausgewählten. Der Tab richtet sich an Expert:innen.
 
 ![Tabelle der gespeicherten GUI-Variablen mit den Spalten Zugeordnete Klasse und Key und je einem Button Zurücksetzen, Tab GUI-Einstellungen der persönlichen Einstellungen](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" title="Tab GUI-Einstellungen der persönlichen Einstellungen" }
 
@@ -198,6 +198,7 @@ Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeic
 [E-Mail Einstellungen >](../../manual_admin/administration/E-Mail_Settings.de.md)<br>
 [Persönliche Werkzeuge: E-Mail >](E-Mail.de.md)<br>
 [Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Modul Instant Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)<br>

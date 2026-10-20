@@ -24,7 +24,7 @@ The table shows what the info page consists of, from top to bottom. The column "
 | Type | yes | automatic | no |
 | Title | yes | Tab "Metadata" | no |
 | Set bookmark | yes | automatic | no |
-| Share | yes | automatic | no |
+| [Share](../basic_concepts/Navigation.md#share): shares the link to the info page, from the catalog and for an implementation the link to the offer [:octicons-tag-16:{ title="from Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"} | yes | automatic | no |
 | Download as PDF | yes | automatic | PDF Generator |
 | Teaser | yes | Tab "Info" | no |
 | Implementation format | yes | course only: Tab "Metadata" | no |
@@ -63,7 +63,7 @@ The info page does not show technical details such as the ID, the external link 
 
 !!! note "Note"
 
-    If you, as a participant, can hardly find any information on the info page, it is because your instructor has not set up this page (yet). Ask your instructor about it.
+    If you, as a participant, can hardly find any information on the info page, the owners of the learning resource have not set up the page further yet. Ask your coaches about it.
 
 [To the top of the page ^](#general_functions_info)
 
@@ -74,7 +74,7 @@ The info page does not show technical details such as the ID, the external link 
 
 Anyone who may only book a course after approval by a supervisor often needs the course details on paper. For this, the info page can be output as a flyer: in one column, without buttons and with a QR code that leads directly to the offer.
 
-Click **Download as PDF** in the header of the info page. The button is next to "Set bookmark" and "Share". OpenOlat creates a PDF file with the title of the learning resource as the file name. You get the same printout with the "Print" command of your browser, then without a file.
+Click "Download as PDF" in the header of the info page. The button is next to "Set bookmark" and "Share". OpenOlat creates a PDF file with the title of the learning resource as the file name. You get the same printout with the "Print" command of your browser, then without a file.
 
 ![Printout in one column with logo, title, cover image, price, facts, sections, events as a table and QR code View offer](assets/general_functions_infopage_print_v1_en.png){ class="shadow lightbox" title="PDF of an info page · 2026.09.29" }
 
@@ -124,7 +124,7 @@ You do not enter the details in a course, but in the Course Planner in the setti
 In the main navigation, open your course overview by clicking on "Courses".<br>
 Then select the link "Learn more" next to the "Open" button of a course.
 
-![Link Learn more next to the Open button of a course highlighted](assets/general_functions_infopage_access_courses_v1_de.png){ class="shadow lightbox" title="Course overview Courses in the tab Active" }
+![Courses in the main navigation and the link Learn more next to the Open button of a course highlighted](assets/general_functions_infopage_access_courses_v1_en.png){ class="shadow lightbox" title="Course overview Courses in the tab Active · 2026.10.20" }
 
 
 [To the top of the page ^](#general_functions_info)
@@ -136,11 +136,11 @@ Then select the link "Learn more" next to the "Open" button of a course.
 
 In the tile view of the catalog, you find the link "Learn more" to display the info page at the bottom right. You can also click on the image.
 
-![Image and link Learn more at the bottom right next to the Open button highlighted](assets/general_functions_infopage_access_catalog_tile_v1_de.png){ class="shadow lightbox" title="Tile of a course in the catalog" }
+![Catalog in the main navigation, the image of a course and the link Learn more at the bottom right next to the Book button highlighted](assets/general_functions_infopage_access_catalog_tile_v1_en.png){ class="shadow lightbox" title="Tile of a course in the catalog · 2026.10.20" }
 
 In the list view, click the link "Learn more" or the title of the learning resource.
 
-![Title of a course and link Learn more in the column of the same name highlighted](assets/general_functions_infopage_access_catalog_list_v1_de.png){ class="shadow lightbox" title="List view of the catalog" }
+![Title of a course and link Learn more in the column of the same name highlighted](assets/general_functions_infopage_access_catalog_list_v1_en.png){ class="shadow lightbox" title="List view of the catalog · 2026.10.20" }
 
 [To the top of the page ^](#general_functions_info)
 
@@ -149,7 +149,7 @@ In the list view, click the link "Learn more" or the title of the learning resou
 
 ### Access the info page within a course {: #access_within_a_course}
 
-Once you are in the course, select the link "Info page" with the info icon in the toolbar. You reach the same page in any other opened learning resource via the toolbar.
+If you have opened a course, select the link "Info page" with the info icon in the toolbar. You reach the same page in any other opened learning resource via the toolbar.
 
 ![Link Info page with info icon highlighted as the first tool, next to it Learning path, Events and Course search](assets/general_functions_infopage_access_toolbar_v2_en.png){ class="shadow lightbox" title="Toolbar of an opened course · 2026.09.29" }
 
@@ -172,6 +172,7 @@ The details on usage, for example in which courses the learning resource is embe
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
 [Licenses >](../../manual_admin/administration/Licenses.md)<br>

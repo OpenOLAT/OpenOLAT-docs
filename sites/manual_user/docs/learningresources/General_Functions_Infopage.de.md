@@ -24,7 +24,7 @@ Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte
 | Typ | ja | automatisch | nein |
 | Titel | ja | Tab "Metadaten" | nein |
 | Bookmark setzen | ja | automatisch | nein |
-| Teilen | ja | automatisch | nein |
+| [Teilen](../basic_concepts/Navigation.de.md#share): teilt den Link auf die Infoseite, aus dem Katalog und bei einer Durchführung den Link auf das Angebot [:octicons-tag-16:{ title="ab Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"} | ja | automatisch | nein |
 | Als PDF herunterladen | ja | automatisch | PDF Generator |
 | Teaser | ja | Tab "Info" | nein |
 | Durchführungsformat | ja | nur Kurs: Tab "Metadaten" | nein |
@@ -63,7 +63,7 @@ Technische Angaben wie die ID, den externen Link und die Verantwortlichen zeigt 
 
 !!! note "Hinweis"
 
-    Wenn Sie als Teilnehmer:in kaum Informationen auf der Infoseite finden, dann liegt es daran, dass Ihre Lehrperson diese Seite (noch) nicht weiter eingerichtet hat. Sprechen Sie die Lehrperson darauf an.
+    Finden Sie als Teilnehmer:in kaum Informationen auf der Infoseite, haben die Besitzer:innen der Lernressource die Seite noch nicht weiter eingerichtet. Sprechen Sie Ihre Betreuer:innen darauf an.
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -74,7 +74,7 @@ Technische Angaben wie die ID, den externen Link und die Verantwortlichen zeigt 
 
 Wer einen Kurs erst nach der Zustimmung einer vorgesetzten Person buchen darf, braucht die Kursangaben oft auf Papier. Die Infoseite lässt sich dafür als Flyer ausgeben: einspaltig, ohne Schaltflächen und mit einem QR-Code, der direkt zum Angebot führt.
 
-Klicken Sie im Kopf der Infoseite auf **Als PDF herunterladen**. Die Schaltfläche steht neben "Bookmark setzen" und "Teilen". OpenOlat erzeugt eine PDF-Datei mit dem Titel der Lernressource als Dateinamen. Den gleichen Ausdruck erhalten Sie über den Befehl "Drucken" Ihres Browsers, dann ohne Datei.
+Klicken Sie im Kopf der Infoseite auf "Als PDF herunterladen". Die Schaltfläche steht neben "Bookmark setzen" und "Teilen". OpenOlat erzeugt eine PDF-Datei mit dem Titel der Lernressource als Dateinamen. Den gleichen Ausdruck erhalten Sie über den Befehl "Drucken" Ihres Browsers, dann ohne Datei.
 
 ![Einspaltiger Ausdruck mit Logo, Titel, Titelbild, Preis, Fakten, Abschnitten, Terminen als Tabelle und QR-Code Zum Angebot](assets/general_functions_infopage_print_v1_de.png){ class="shadow lightbox" title="PDF einer Infoseite · 2026.09.29" }
 
@@ -149,7 +149,7 @@ In der Listenansicht klicken Sie den Link "Mehr erfahren" oder den Titel der Ler
 
 ### Aufruf der Infoseite innerhalb eines Kurses {: #access_within_a_course}
 
-Wenn Sie sich im Kurs befinden, wählen Sie den Link "Infoseite" mit dem Info-Symbol in der Toolbar. Dieselbe Seite erreichen Sie auch in jeder anderen geöffneten Lernressource über die Toolbar.
+Haben Sie einen Kurs geöffnet, wählen Sie den Link "Infoseite" mit dem Info-Symbol in der Toolbar. Dieselbe Seite erreichen Sie auch in jeder anderen geöffneten Lernressource über die Toolbar.
 
 ![Link Infoseite mit Info-Symbol als erstes Werkzeug markiert, daneben Lernpfad, Termine und Kurssuche](assets/general_functions_infopage_access_toolbar_v2_de.png){ class="shadow lightbox" title="Toolbar eines geöffneten Kurses · 2026.09.29" }
 
@@ -172,6 +172,7 @@ Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
 [Lizenzen >](../../manual_admin/administration/Licenses.de.md)<br>

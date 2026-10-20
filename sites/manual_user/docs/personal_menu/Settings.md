@@ -1,6 +1,6 @@
 # :o_icon_o_icon_settings: Personal Configuration: Settings {: #personal_configuration_settings}
 
-![Entry System settings in the section Configuration of the personal menu, between the entries Profile and Password](assets/pers_menu_settings_v1_de.png){ class="aside-right lightbox"}
+![Entry System settings in the section Configuration of the personal menu, between the entries Profile and Password](assets/pers_menu_settings_v1_en.png){ class="aside-right lightbox" title="Personal menu · 2026.10.20" }
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [User settings](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank"}
 
@@ -13,10 +13,10 @@ The settings allow you to adapt OpenOlat according to your needs. You find the s
 You find the tab "System" in the personal menu under:<br>
 `Personal menu > System settings > Tab "System"`
 
-![Four numbered sections of the tab System, from the general system settings to the reset of the configurations, in the personal settings](assets/pers_menu_settings_tab_system_v1_de.png){ class="shadow lightbox" title="System tab of the personal settings" }
+![The four sections of the tab System highlighted, from the general system settings to the reset of the configurations, so you find each section of this page in the tab](assets/pers_menu_settings_tab_system_v2_en.png){ class="shadow lightbox" title="System tab of the personal settings · 2026.10.20" }
 
 
-### ![1](assets/1_green_24.png) General system settings {: #general}
+### General system settings {: #general}
 
 In the general system settings you see your account data. You also set the language, the notifications and the delivery of your e-mails here.
 
@@ -62,11 +62,11 @@ Via the "Character set used in download" you determine in which character set fi
 Under "Document editor" you select which editor OpenOlat uses to open your documents. The field only appears when at least two external editors are available to you.
 
 
-### ![2](assets/2_green_24.png) Specific system settings {: #special}
+### Specific system settings {: #special}
 
 So that you can continue working right where your work lies after login, you define here which page OpenOlat opens after login: the location last visited or a landing page.
 
-![Resume last session is set to No, the field Landing page contains the link to a custom filter tab of the course list in Coaching](assets/pers_menu_settings_tab_system_special_landing_page_v1_de.png){ class="shadow lightbox" title="Section Specific system settings in the System tab · 2026.10.19" }
+![Resume last session is set to No, the field Landing page contains the link to a custom filter tab of the course list in Coaching](assets/pers_menu_settings_tab_system_special_landing_page_v1_en.png){ class="shadow lightbox" title="Section Specific system settings in the System tab · 2026.10.20" }
 
 #### Resume last session {: #resume_session}
 
@@ -91,37 +91,37 @@ Your organisation can set up a landing page for each role. If you have several r
 
 With "Yes, automatically", OpenOlat hides the field "Landing page".
 
-The easiest way is to open the desired page and click the landing page icon :o_icon_o_icon_landingpage: "Set current page as personal start page in profile" at the bottom left of the footer. Any OpenOlat page you have access to can become your personal landing page this way. You also get the link to a specific page via the action "Share" at the bottom left of the footer. Select "Copy link" there and paste the link into the field "Landing page" [:octicons-tag-16:{ title="from Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"}.
+The easiest way is to open the desired page and click the landing page icon :o_icon_o_icon_landingpage: "Set current page as personal start page in profile" at the bottom left of the footer. Any OpenOlat page you have access to can become your personal landing page this way. You also get the link to a specific page via the action ["Share"](../basic_concepts/Navigation.md#share) at the bottom left of the footer. Select "Copy link" there and paste the link into the field "Landing page" [:octicons-tag-16:{ title="from Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"}.
 
 You can also set a custom filter tab of a list as your personal landing page, for example a saved filter of the course list in Coaching. Open the tab and click the landing page icon :o_icon_o_icon_landingpage: in the footer. The page [Working with tables](../basic_concepts/Table_Concept.md) describes how to save a filter as a custom tab.
 
-![Custom filter tab without participants under As owner, an arrow leads to the landing page icon at the bottom left of the footer](assets/pers_menu_settings_landing_page_icon_v1_de.png){ class="shadow lightbox" title="Page Courses in Coaching · 2026.10.19" }
+![Custom filter tab without participants under As owner, an arrow leads to the landing page icon at the bottom left of the footer](assets/pers_menu_settings_landing_page_icon_v1_en.png){ class="shadow lightbox" title="Page Courses in Coaching · 2026.10.20" }
 
 If you clear the field "Landing page" and click "Save", the landing page of your organisation applies again.
 
 
-### ![3](assets/3_green_24.png) User tools {: #personal_tools}
+### User tools {: #personal_tools}
 
 Here you select which user tools appear directly at the top in the main navigation (to the left of your profile picture) so that you can access these tools quickly.<br>
 Tools that are displayed as an icon in the main navigation are no longer listed in the personal menu.
 
 **Example: "System settings" and "Badges" have been moved from the personal menu to the main navigation**
-![Check boxes System settings and Badges marked in the section User tools, their icons appear in the main navigation and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_de.png){ class="shadow lightbox" title="Section User tools in the System tab" }
+![Check boxes System settings and Badges marked in the section User tools, their icons appear in the main navigation and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_en.png){ class="shadow lightbox" title="Section User tools in the System tab · 2026.10.20" }
 
 !!! tip "Tip"
 
     Do not try to enable all the tools; instead, select only the ones you use frequently. This keeps the main navigation uncluttered.
 
 
-### ![4](assets/4_green_24.png) Reset configurations {: #reset}
+### Reset configurations {: #reset}
 
-Under "Reset configurations" in the tab "System" you can **reset** any system-related changes you have made **back to their default settings**. The following can be reset:
+If you want to undo your personal adjustments, reset them to the default setting under "Reset configurations" in the tab "System". You select what is reset:
 
-* the personalized interface components (menu, tool boxes, tables, portal, calendar, etc.),
-* system configuration (notifications, e-mail, character set, etc.)
-* as well as the settings for resuming the last session.
+* "Personalized interface components (menu, tool boxes, tables, portal, calendar etc.)"
+* "System configuration (notifications, e-mail, character set etc.)"
+* "Session resume"
 
-After the reset you are automatically logged out of OpenOlat.
+After a click on "Reset", OpenOlat logs you out automatically so that the default setting takes effect.
 
 [To the top of the page ^](#personal_configuration_settings)
 
@@ -130,11 +130,11 @@ After the reset you are automatically logged out of OpenOlat.
 
 ## Tab WebDAV {: #tab_webdav}
 
-In the tab "WebDAV" you find the [WebDAV link to your OpenOlat instance](../basic_concepts/Using_WebDAV.md), which you can use to conveniently manage files. Via WebDAV you access your personal folder as an OpenOlat user. OpenOlat authors can organize their entire course files via WebDAV.
+In the tab "WebDAV" you find the [WebDAV link to your OpenOlat instance](../basic_concepts/Using_WebDAV.md), which you can use to manage files. Via WebDAV you access your personal folder as an OpenOlat user. OpenOlat authors can organize their entire course files via WebDAV.
 
-Under "Access data" you see your WebDAV username. With "Set password" you define a separate WebDAV password.
+Under "Access data" you see your WebDAV username. If you have an OpenOlat password, you also use it for WebDAV. If you have no OpenOlat password, you define a separate WebDAV password with "Set password".
 
-![WebDAV address of the instance and below it the access data with WebDAV username, WebDAV password not set and button Set password, tab WebDAV of the personal settings](assets/pers_menu_settings_tab_webdav_v1_de.png){ class="shadow lightbox" title="WebDAV tab of the personal settings" }
+![WebDAV address of the instance and below it the access data: with an OpenOlat password you access WebDAV with your WebDAV username and your OpenOlat password](assets/pers_menu_settings_tab_webdav_v1_en.png){ class="shadow lightbox" title="WebDAV tab of the personal settings · 2026.10.20" }
 
 [To the top of the page ^](#personal_configuration_settings)
 
@@ -145,7 +145,7 @@ Under "Access data" you see your WebDAV username. With "Set password" you define
 
 In the tab "Instant Messaging" you define the settings for the [chat function](../../manual_admin/administration/Instant_Messaging.md) and your communication status after login. With the option "Receive messages from all users" you specify whether all users may send you messages. Under "Default status after login" you choose between "Available", "Please do not disturb" and "Not available".
 
-![Option Receive messages from all users and the three statuses Available, Please do not disturb and Not available, tab Instant Messaging of the personal settings](assets/pers_menu_settings_tab_instant-messaging_v1_de.png){ class="shadow lightbox" title="Instant Messaging tab of the personal settings" }
+![Option Receive messages from all users and the three statuses Available, Please do not disturb and Not available, the same statuses as in the status menu of the main navigation](assets/pers_menu_settings_tab_instant-messaging_v1_en.png){ class="shadow lightbox" title="Instant Messaging tab of the personal settings · 2026.10.20" }
 
 
 [To the top of the page ^](#personal_configuration_settings)
@@ -155,11 +155,11 @@ In the tab "Instant Messaging" you define the settings for the [chat function](.
 
 ## Tab Terms of use {: #tab_terms_of_use}
 
-Here you can read the terms of use, which you confirmed the first time you logged in. The exact terms of use are determined by the OpenOlat administrators.
+Here you read the terms of use you agreed to the first time you logged in. The administrators of your OpenOlat instance define their content.
 
-Furthermore you can request the deletion of your complete OpenOlat account here. The request is sent as an email to an address configured by the system administration; the deletion itself is carried out by the user management. More about this: [Data protection](../../manual_admin/usermanagement/Data_protection.md#request_account_deletion)
+If you no longer agree to the terms of use, you request the deletion of your OpenOlat account here with "Ask to delete your account". The request is sent as an email to an address configured by the system administration; the deletion itself is carried out by the user management. More about this: [Data protection](../../manual_admin/usermanagement/Data_protection.md#request_account_deletion)
 
-![Text of the terms of use with the date of consent, button Ask to delete your account and three confirmed check boxes, tab Terms of use of the personal settings](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" title="Terms of use tab of the personal settings" }
+![Text of the terms of use with the date of consent, button Ask to delete your account and three confirmed check boxes](assets/pers_menu_settings_tab_terms_of_use_v1_en.png){ class="shadow lightbox" title="Terms of use tab of the personal settings · 2026.10.20" }
 
 [To the top of the page ^](#personal_configuration_settings)
 
@@ -168,9 +168,9 @@ Furthermore you can request the deletion of your complete OpenOlat account here.
 
 ## Tab User data {: #tab_user_data}
 
-In this section, you can request an overview of your data stored in OpenOlat from the operator in accordance with Article 15 of the GDPR. The relevant support link is provided here.
+If you want to know which data OpenOlat has stored about you, request an overview in accordance with Article 15 of the GDPR from the operator here. The link "Support" opens an e-mail to the support for this.
 
-Once the export is complete, you can obtain the user data stored about you here with the **Download the data** button. The file stays available for one month, after that a new export is required.
+As soon as the export is ready, you download the user data stored about you here with the button "Download the data". The file stays available for one month, after that a new export is required.
 
 How the export is triggered and who is allowed to do so is described on the page [Data protection](../../manual_admin/usermanagement/Data_protection.md#export_user_data) in the administration manual.
 
@@ -181,9 +181,9 @@ How the export is triggered and who is allowed to do so is described on the page
 
 ## Tab GUI preferences {: #tab_GUI}
 
-The GUI (Graphical User Interface) settings are stored in variables. Experts can use this tab to reset specific variable values.
+If you want to reset only a single saved adjustment instead of all of them, you find it here. OpenOlat stores the settings of the GUI (Graphical User Interface) in variables. With "Reset" in the row of a variable you reset this one variable, with "Bulk reset" the selected ones. The tab is intended for experts.
 
-![Table of the stored GUI variables with the columns Assigned class and Key and one button Reset per row, tab GUI preferences of the personal settings](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" title="GUI preferences tab of the personal settings" }
+![Table of the stored GUI variables with the columns Attributed class and Key and one button Reset per row, so you reset a single variable](assets/pers_menu_settings_tab_gui_v1_en.png){ class="shadow lightbox" title="GUI preferences tab of the personal settings · 2026.10.20" }
 
 [To the top of the page ^](#personal_configuration_settings)
 
@@ -198,6 +198,7 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 [Email Settings >](../../manual_admin/administration/E-Mail_Settings.md)<br>
 [User tools: E-Mail >](E-Mail.md)<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
