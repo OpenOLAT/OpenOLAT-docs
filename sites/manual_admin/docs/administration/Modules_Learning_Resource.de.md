@@ -1,6 +1,7 @@
 # Modul Lernressource [:octicons-tag-16:{ title="ab Release 20.3 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"} {: #learning_resource}
 
-Zum Modul Lernressourcen gehören Einstellungen, die Kurse und Lernressourcen betreffen, welche im Autorenbereich gespeichert sind.
+Im Modul Lernressource legen Administrator:innen systemweite Einstellungen und Vorgaben für Kurse und andere Lernressourcen fest. Sie finden das Modul in der System-Administration unter:<br>
+`Administration > Module > Lernressource`
 
 ![Kontrollkästchen für Kommentar, Bewertung und Mitgliedschaft beantragen, Standardeinstellung zum Austreten und Rollenpriorität](assets/modules_learning_resource_tab_settings_v2_de.png){ class="shadow lightbox" title="Seite Lernressource im Menü Module" }
 
@@ -15,11 +16,12 @@ Der Tab "Einstellungen" enthält die Abschnitte Einstellungen, Standardeinstellu
 
 ### Abschnitt Einstellungen
 
-Mit Aktivierung der ersten Checkbox machen Administrator:innen für Teilnehmer:innen die Vorauswahl "In Vorbereitung" im Menü "Kurse" sichtbar. Dies bewirkt Folgendes.
+Mit dem ersten Kontrollkästchen machen Administrator:innen für Teilnehmer:innen die Vorauswahl "In Vorbereitung" im Menü "Kurse" sichtbar.
 
 #### Bereich "In Vorbereitung" unter "Kurse"
 
-**Ansicht Teilnehmer:in bei Aktivierung**
+Ist das Kontrollkästchen angekreuzt, sehen Teilnehmende unter "Kurse" die Vorauswahl "In Vorbereitung" mit den Kursen, die noch nicht veröffentlicht sind:
+
 ![Filter "In Vorbereitung" aktiviert, ein Kurs in Vorbereitung in der Liste](assets/modules_learning_resource_tab_settings_section_v1_de.png){ class="shadow lightbox" title="Bereich Kurse" }
 
 #### Kurssuche {: #course_search}
@@ -36,15 +38,15 @@ Wie Kursbesitzer:innen die Kurssuche und die weiteren Werkzeuge der Toolbar akti
 
 #### Kommentar {: #comment}
 
-In der Kopfzeile eines Kurses kann die Infoseite zum Kurs aufgerufen werden. Darin "verbirgt" sich der Kommentar.
+Auf der Infoseite eines Kurses können Benutzer:innen einen Kommentar schreiben. Die Infoseite öffnen sie im Kurs über den Link "Infoseite" in der Toolbar.
 
 ![Hervorgehobener Button Infoseite](assets/modules_repository_course_info_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
-Auf der Infoseite kann dann ein Eingabefeld zur Abgabe eines Kommentars angezeigt werden.
+Dafür zeigt die Infoseite unten ein Eingabefeld.
 
 ![Hervorgehobener Bereich Kommentar mit dem Eingabefeld "Schreiben Sie einen Kommentar..."](assets/modules_repository_course_comment_v2_de.png){ class="shadow lightbox" title="Infoseite eines Kurses" }
 
-Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
+Ob das Eingabefeld erscheint, schalten Administrator:innen in diesem Modul mit dem Kontrollkästchen "Kommentar" systemweit ein oder aus.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -53,11 +55,11 @@ Die Verfügbarkeit dieses Eingabefeldes kann von Administrator:innen in diesem M
 
 #### Bewertung
 
-Auf der Infoseite zu einem Kurs können ebenfalls anklickbare Sterne zur Beurteilung angezeigt werden.
+Auf der Infoseite eines Kurses können Benutzer:innen den Kurs auch mit Sternen bewerten. Die Sterne stehen im Bereich "Bewertung".
 
 ![Hervorgehobene Bewertung mit fünf anklickbaren Sternen](assets/modules_repository_course_review_v2_de.png){ class="shadow lightbox" title="Infoseite eines Kurses" }
 
-Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
+Ob die Sterne zur Bewertung eines Kurses erscheinen, schalten Administrator:innen in diesem Modul mit dem Kontrollkästchen "Bewertung" systemweit ein oder aus.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -65,11 +67,11 @@ Die Verfügbarkeit der Sterne zur Beurteilung eines Kurses kann von Administrato
 
 #### Mitgliedschaft beantragen
 
-Wenn jemand einen Kurs öffnet, auf welchen er keinen Zugriff hat, erscheint ein Hinweis. Dort gibt es einen Button, mit dem eine Mitgliedschaft beantragt werden kann. Beim Anklicken wird damit eine E-Mail an alle Kursbesitzer:innen verschickt.
+Öffnet jemand einen Kurs, auf den er keinen Zugriff hat, erscheint ein Hinweis mit dem Button "Mitgliedschaft beantragen". Ein Klick darauf schickt eine E-Mail an alle Besitzer:innen des Kurses.
 
 ![Button Mitgliedschaft beantragen neben Zurück](assets/modules_repository_request_membership_v2_de.png){ class="shadow lightbox" title="Hinweisseite für Personen ohne Mitgliedschaft" }
 
-Diese Funktion kann von Administrator:innen in diesem Modul global ein-/ausgeschaltet werden.
+Ob der Button erscheint, schalten Administrator:innen in diesem Modul mit dem Kontrollkästchen "Mitgliedschaft beantragen" systemweit ein oder aus.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -79,13 +81,13 @@ Diese Funktion kann von Administrator:innen in diesem Modul global ein-/ausgesch
 #### Taxonomie
 **Verwendung von Taxonomie im Katalog** [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9214)" }](https://track.frentix.com/issue/OO-9214){:target="_blank"}
 
-Die Aktivierung von Taxonomie in der Lernressource führt dazu, dass die gewählte "Struktur" im Katalog verfügbar ist. Damit dieser Weg funktioniert, muss die entsprechende Taxonomie zuerst grundsätzlich erarbeitet und integriert sein.
+Wählen Sie hier eine Taxonomie, steht ihre Struktur im Katalog zur Verfügung. Dafür muss die Taxonomie zuerst erarbeitet und eingerichtet sein.
 
 !!! tip "Grundlage"
     In der System-Administration unter `Administration > Module > Taxonomie` können verschiedene Taxonomien erstellt werden.
 
 
-Eine Taxonomie kann in diesem Bereich nicht abgewählt werden, solange sie in einem Launcher des **Katalogs verwendet wird**. Beim Versuch der Abwahl erscheint die Meldung: «Die Taxonomie wird noch in einem Launcher des Katalogs verwendet und kann daher nicht abgewählt werden.»
+Eine Taxonomie kann in diesem Bereich nicht abgewählt werden, solange sie in einem Launcher des Katalogs verwendet wird. Beim Versuch der Abwahl erscheint die Meldung: «Die Taxonomie wird noch in einem Launcher des Katalogs verwendet und kann daher nicht abgewählt werden.»
 
 
 Wie Taxonomien erstellt und konfiguriert werden, beschreibt die Seite [Modul Taxonomie](Modules_Taxonomy.de.md).
@@ -98,9 +100,9 @@ Wie Taxonomien erstellt und konfiguriert werden, beschreibt die Seite [Modul Tax
 
 #### Teilnehmer:innen können austreten {: #allow_leaving_courses}
 
-Mit dieser Option wird eine Standardeinstellung für alle neuen Kurse vorgegeben. (Bereits bestehende Kurse sind davon nicht betroffen.) Kursteilnehmer:innen können ggf. dann selbst entscheiden, ob sie einen Kurs verlassen möchten.
+Mit dieser Option geben Sie vor, ob Teilnehmende neue Kurse selbst verlassen dürfen. Bestehende Kurse behalten ihre Einstellung. Wie Teilnehmende einen Kurs verlassen, beschreibt [Zugangskonfiguration / Freigabe](../../manual_user/learningresources/Access_configuration.de.md#leave_learning_resource).
 
-Als Standardeinstellung kann gewählt werden zwischen
+Zur Wahl stehen:
 
 * Jederzeit
 * Nach Kursenddatum oder Status "Beendet"
@@ -116,14 +118,14 @@ Als Standardeinstellung kann gewählt werden zwischen
 
 ### Abschnitt Benachrichtigung [:octicons-tag-16:{ title="ab Release 17.2.4 (OO-6739)" }](https://track.frentix.com/issue/OO-6739){:target="_blank"} {: #notification}
 
-OpenOlat kann an verschiedenen Stellen Benachrichtigungen über Ereignisse versenden. Wenn jemand die Benachrichtigungen erhalten möchte, kann dazu ein Abonnement eingerichtet werden. Für Ereignisse in der Lernressource gibt es das Abonnement "*Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen*".
+Besitzer:innen sollen erfahren, wenn sich der Status ihrer Lernressource ändert. Dafür gibt es das Abonnement "Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen".
 
 #### Abonnement
 
 A) Voreinstellung<br>
-Durch Aktivierung/Deaktivierung des Abonnements wird bestimmt, ob bei Erstellung eines neuen Kurses bzw. einer Lernressource im Autorenbereich standardmässig auch ein Abonnement für die beschriebene Zielgruppe eingerichtet wird. Dies hat keine Auswirkung auf bereits erstellte Abonnements.
+Mit diesem Kontrollkästchen legen Sie fest, ob OpenOlat beim Erstellen eines neuen Kurses oder einer Lernressource im Autorenbereich das Abonnement für die Besitzer:innen gleich mit einrichtet. Bereits bestehende Abonnements bleiben davon unberührt.
 
-B) Bereits bestehende Abonnements können aktualisiert werden mit den Buttons "Bestehende Abonnements aktivieren" und "Bestehende Abonnements deaktivieren". 
+B) Bestehende Abonnements schalten Sie mit den Buttons "Bestehende Abonnements aktivieren" und "Bestehende Abonnements deaktivieren" ein oder aus.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -155,9 +157,10 @@ Wer in einem Kurs (einer Lernressource) Besitzer:in oder Betreuer:in ist, findet
 
 #### Hinweis in "Kurse" anzeigen
 
-Wird dieser Toggle-Button aktiviert, erhalten die Kursbesitzer:innen/Betreuer:innen Hinweise zu den Auswirkungen der Zugangseinstellung.
+Ist dieser Schalter eingeschaltet, erhalten Besitzer:innen und Betreuer:innen unter "Kurse" einen Hinweis zu den Auswirkungen der Zugangseinstellung.
 
 ![Toggle-Button Hinweis in "Kurse" anzeigen eingeschaltet](assets/modules_learning_resource_tab_access_hint_v1_de.png){ class="shadow lightbox" title="Tab Zugang im Modul Lernressource" }
+
 ![Hinweisbox für Betreuer:innen/Besitzer:innen mit dem Link Zum Coaching-Bereich](assets/Modules_Learning_Resource_user_hint_de_v1.png){ class="shadow lightbox" title="Bereich Kurse" }
 
 #### Bereichseinstellungen
@@ -170,7 +173,7 @@ Ob die Bereiche "Meine Kurse" und "Coaching Werkzeug" in der Hauptnavigation ers
 Dort legen Sie die Reihenfolge der Bereiche in der Hauptnavigation fest und bestimmen, für welche Rollen sie sichtbar sind. Den Bereich "Meine Kurse" können Sie dort auch deaktivieren. Das Coaching Werkzeug lässt sich in der Standardkonfiguration nicht deaktivieren, weil Besitzer:innen und Betreuer:innen ihre Lernressourcen nur dort finden. Mehr dazu: [Customizing: Bereiche >](Customizing.de.md#sites)
 
 !!! note "Zugang zur Einstellung"
-    Nur **Administrator:innen** können diese Seite aufrufen und Veränderungen vornehmen.
+    Nur Administrator:innen können diese Seite aufrufen und ändern.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -196,6 +199,7 @@ Kursbesitzer:innen überschreiben die Einstellung für ihren Kurs unter:<br>
 [Suche in einem Kurs >](../../manual_user/basic_concepts/Search_in_Course.de.md)<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../../manual_user/learningresources/Access_configuration.de.md)<br>
 [Allgemeines >](../../manual_user/learningresources/General_Information.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
 [Customizing: Übersicht >](Customizing.de.md)

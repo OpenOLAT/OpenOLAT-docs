@@ -1,6 +1,6 @@
 # User tools: Booking orders {: #bookings}
 
-![User tools menu with the entry Booking orders, which leads to the overview of all courses and learning resources the user booked themselves](assets/pers_menu_bookings_v3_de.png){ class="aside-right lightbox"}
+![Entry Booking orders, marked with a frame, in the section User tools of the personal menu: entry point to the overview of all booked courses and learning resources](assets/pers_menu_bookings_v4_en.png){ class="aside-right lightbox" }
 
 ![Booking orders icon](assets/icon_bookings.png)
 
@@ -12,7 +12,9 @@ Learning resources where the owners enter the participants manually, or where pa
 
 Use the cogwheel to select the columns you want to see, e.g. the offer type ("Access code", "Freely available", "Invoice", PayPal), the offer and the content (the booked learning resource). With every booking, OpenOlat automatically creates a booking number under which this booking order is managed. This number is also shown here.
 
-Use the download icon to the right of the cogwheel to download all booking orders as a table. Use **Details** in the 3-dot menu of a booking to open the dialog "Booking" with the detail information on this booking order. If the booked offer used forms, the dialog also shows the completed forms. [:octicons-tag-16:{ title="from Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
+Use the download icon to the right of the cogwheel to download all booking orders as a table. Use "Details" in the 3-dot menu of a booking to open the dialog "Booking" with the detail information on this booking order. If the booked offer used forms, the dialog also shows the completed forms. [:octicons-tag-16:{ title="from Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
+
+You cannot cancel a booking or leave a course here. You cancel a booking on the info page in the box "Get started", you leave a course in the box "My course". When these buttons appear is described in [General Functions: Info Page](../learningresources/General_Functions_Infopage.md#get_started_my_course).
 
 If the offer type "Invoice" is enabled, the additional tab "Billing addresses" appears. There you see the billing addresses stored for your bookings. [Administrators](../../manual_admin/administration/Modules_Organisations.md) maintain the billing addresses of organisations.
 
@@ -20,7 +22,8 @@ The option to book also appears in the [catalog](../area_modules/catalog2.0_ange
 
 ## Further information {: #further_information}
 
-[Access configuration / Share >](../learningresources/Access_configuration.md)<br>
+[Access configuration >](../learningresources/Access_configuration.md)<br>
+[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Members management >](../learningresources/Members_management.md)

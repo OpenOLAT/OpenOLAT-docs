@@ -3,19 +3,16 @@
 
 ## Was enthält der OpenOlat-Katalog? [:octicons-tag-16:{ title="ab Release 17.1 (OO-6201)" }](https://track.frentix.com/issue/OO-6201) {: #offers_catalog_content}
 
-Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu "Produkten" angezeigt. In OpenOlat sind dies
+Im OpenOlat-Katalog finden Lernende, was sie buchen oder öffnen können, je Eintrag mit einer kurzen Beschreibung. Das sind:
 
 - Kurse
-- Durchführungen von Curricula/Produkten
-- oder andere Lernressourcen, wie z.B. Tests oder Videos.
+- Durchführungen des Course Planners
+- andere Lernressourcen, zum Beispiel Tests oder Videos
 
 
 ## Erscheinen alle Kurse im Katalog? {: #offers_display_decision}
 
-Im Katalog werden **nicht automatisch** alle erstellten Kurse und Lernressourcen angezeigt. Die Autor:innen der jeweiligen Kurse und Lernressourcen entscheiden, ob etwas in den Katalog aufgenommen wird.
-
-Dazu muss im jeweiligen Kurs bzw. der Lernressource ein **Angebot** erstellt werden.<br>
-Wenn kein Angebot erstellt wird, erfolgt auch kein Katalogeintrag.
+Nein. Der Katalog zeigt nicht automatisch alle Kurse und Lernressourcen. Ob ein Kurs im Katalog erscheint, entscheiden seine Autor:innen: Sie erstellen dafür im Kurs ein Angebot. Ohne Angebot gibt es keinen Katalogeintrag.
 
 [Zum Seitenanfang ^](#offers)
 
@@ -24,14 +21,14 @@ Wenn kein Angebot erstellt wird, erfolgt auch kein Katalogeintrag.
 
 ## Wie wird ein Angebot erstellt? {: #offers_create}
 
-Angebote hängen am Kurs und werden dort von Autor:innen in den Einstellungen definiert:<br>
+Angebote gehören zum Kurs. Autor:innen erstellen sie in den Kurseinstellungen:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe"`
 
 !!! note "Unterschied Katalog 1.0 und Katalog 2.0"
 
-    Im Katalog 1.0 werden alle Angebote in den Kursen erstellt: `Kurs > Administration > Einstellungen > Tab "Freigabe"`. Anschliessend werden sie in der **Katalogverwaltung** zusammengestellt.
+    Im Katalog 1.0 erstellen Sie alle Angebote in den Kursen: `Kurs > Administration > Einstellungen > Tab "Freigabe"`. Anschliessend stellen Sie sie in der Katalogverwaltung zusammen.
 
-    Im Katalog 2.0 werden Angebote ebenfalls in den Kurseinstellungen erstellt. Zusätzlich werden hier noch Angaben gemacht, **wo** im Katalog das Angebot erscheinen soll. Anhand dieser Angaben kann der Katalog 2.0 die Angebote dann **dynamisch selbst zusammenstellen**.
+    Im Katalog 2.0 erstellen Sie Angebote ebenfalls in den Kurseinstellungen. Dort geben Sie zusätzlich an, wo im Katalog das Angebot erscheinen soll. Mit diesen Angaben stellt der Katalog 2.0 die Angebote selbst zusammen.
 
 ![Der Weg vom Menü Administration über Einstellungen und Tab Freigabe zur Option Buchbare und offene Angebote und zum Button Angebot hinzufügen](assets/catalog20_angebot_erstellen_v2_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen · 2026.09.28" }
 
@@ -42,15 +39,16 @@ Angebote hängen am Kurs und werden dort von Autor:innen in den Einstellungen de
 
 ## Voraussetzung für ein Angebot {: #offers_requirements}
 
-Auch der Zugang zu einem Kurs wird in den Kurseinstellungen konfiguriert: `Kurs > Administration > Einstellungen > Tab "Freigabe"`. Es stehen zwei grundsätzliche Varianten zur Verfügung:
+Bevor Sie ein Angebot erstellen, öffnen Sie den Kurs für Buchungen. Dafür wählen Sie unter "Zugang für Teilnehmer:innen" eine von zwei Varianten:<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe"`
 
-![Optionen Privat und Buchbare und offene Angebote für den Zugang für Teilnehmer:innen](assets/catalog20_freigabe_v1_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen" }
+![Einstellung Zugang für Teilnehmer:innen im Tab Freigabe mit den Optionen Privat und Buchbare und offene Angebote, die zweite Option ist gewählt](assets/catalog20_freigabe_v2_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen · 2026.10.20" }
 
-Bei der Wahl "Privat" werden die Teilnehmenden durch die Besitzer:innen bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, eingetragen. Was privat ist, soll auch nicht im Katalog veröffentlicht werden.
+Mit "Privat" tragen Besitzer:innen oder Personen mit dem Recht zur Mitgliederverwaltung die Teilnehmenden ein. Ein privater Kurs erscheint nicht im Katalog.
 
-Bei Wahl der Option "Buchbare und offene Angebote" können die Lernenden einen Kurs/Lernressource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben.
+Mit "Buchbare und offene Angebote" buchen Lernende den Kurs oder die Lernressource selbst. Je nach Angebot geben sie dafür einen Zugangscode ein.
 
-Wird die zweite Option "Buchbare und offene Angebote" gewählt, können Sie anschliessend Angebote erstellen.
+Nur mit "Buchbare und offene Angebote" können Sie Angebote erstellen.
 
 [Zum Seitenanfang ^](#offers)
 
@@ -61,21 +59,25 @@ Wird die zweite Option "Buchbare und offene Angebote" gewählt, können Sie ansc
 
 Ein Angebot enthält die Bedingungen, zu denen der Kurs oder die Lernressource genutzt werden kann.
 
-In einem **Angebot** wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. So ist ein Buchungsauftrag mit Zugangscode, ohne oder per PayPal (sofern von Administrator:innen aktiviert) möglich. Auch ein Zugang ohne Buchungsauftrag oder als Gast können konfiguriert werden. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden. Wählen Sie die Schaltfläche "Angebot hinzufügen", um Angebote hinzuzufügen.
+Ein Angebot legt fest, wer den Kurs oder die Lernressource unter welchen Bedingungen buchen kann. Möglich ist eine Buchung mit Zugangscode, eine freie Buchung oder eine kostenpflichtige Buchung mit PayPal Checkout, sofern Administrator:innen diese eingerichtet haben. Auch ein Zugang ohne Buchungsauftrag oder als Gast lässt sich einrichten. Buchen steht dabei für belegen, einschreiben oder einkaufen. Klicken Sie auf "Angebot hinzufügen", um ein Angebot zu erstellen.
 
 Bei Angeboten einer Durchführung im Course Planner kann ein Angebot zusätzlich Formulare verlangen, die beim Buchen als Schritte ausgefüllt werden. Bei Angeboten eines Kurses oder einer anderen Lernressource ist das nicht möglich. [Formulare für Buchungsaufträge >](Course_Planner_Implementations.de.md#booking_order_forms) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
 
-![Angebotsarten Zugangscode, Frei verfügbar, Ohne Buchung und Gastzugang mit ihren Kurzbeschreibungen zur Auswahl](assets/catalog20_auswahl_art_v1_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen" }
+![Angebotsarten Ohne Buchung, Frei verfügbar, Zugangscode und PayPal Checkout, gruppiert nach Mitgliedschaft, jede mit ihrer Kurzbeschreibung zur Auswahl](assets/catalog20_auswahl_art_v2_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen · 2026.10.20" }
 
-Es können zum gleichen Kurs mehrere verschiedene Angebote erstellt werden. Z.B. kann dann der gleiche Kurs für einige Teilnehmer:innen kostenlos, für andere kostenpflichtig angeboten werden.
+Der Dialog ordnet die Angebotsarten in drei Gruppen: "Ohne Mitgliedschaft", "Mit Mitgliedschaft" und "Mit Mitgliedschaft - Kostenpflichtig". Welche Angebotsarten erscheinen, hängt von der Lernressource und von den Einstellungen der System-Administration ab.
 
-![Zwei Angebote Zugangscode und Frei verfügbar desselben Kurses, jeweils für andere Organisationen angeboten](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe" }
+Zu einem Kurs können Sie mehrere Angebote erstellen, etwa kostenlos für die einen und kostenpflichtig für die anderen Teilnehmenden.
 
-Angebote können auch auf verschiedene Teilbereiche von Organisationen (Unterorganisationen) beschränkt werden.
+![Zwei Angebote desselben Kurses markiert: Zugangscode mit Zeitraum und Frei verfügbar, je für eine andere Organisation freigegeben](assets/catalog20_2angebote_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe · 2026.10.20" }
+
+Im Tab "Freigabe" steht jedes Angebot in einem eigenen Kasten. Ein Abzeichen zeigt seinen Status, zum Beispiel "Buchbar", "Geplant" oder "Nicht verfügbar". Darüber fasst eine Übersicht zusammen, ob die Angebote im internen oder im externen Katalog veröffentlicht sind.
+
+Im Feld "Freigegeben für" beschränken Sie ein Angebot auf Organisationen oder Unterorganisationen.
 
 !!! info "Organisationszugehörigkeit"
 
-    Ist ein Angebot auf eine bestimmte Organisation oder Unterorganisation eingeschränkt, erscheint es im Katalog **nur für Benutzer:innen, die Mitglied dieser Organisation sind**. Benutzer:innen ausserhalb der Organisation sehen das Angebot nicht, auch wenn der Kurs veröffentlicht ist.
+    Ist ein Angebot auf eine bestimmte Organisation oder Unterorganisation eingeschränkt, erscheint es im Katalog nur für Benutzer:innen, die Mitglied dieser Organisation sind. Benutzer:innen ausserhalb der Organisation sehen das Angebot nicht, auch wenn der Kurs veröffentlicht ist.
 
     Die Organisationszugehörigkeit wird in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) gepflegt.
 
@@ -87,30 +89,32 @@ Angebote können auch auf verschiedene Teilbereiche von Organisationen (Unterorg
 
 ## Angebote veröffentlichen {: #offer_publish}
 
-Editieren Sie ein Angebot um festzulegen, wann und wo es im Katalog erscheinen wird.
+Wann und wo ein Angebot im Katalog erscheint, legen Sie im Angebot selbst fest. Öffnen Sie es dafür mit "Angebot editieren".
 
-![Link Angebot editieren in der Zeile eines Angebots vom Typ Zugangscode](assets/catalog20_offer_edit_v1_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe" }
+![Link Angebot editieren im Kasten eines Angebots vom Typ Zugangscode markiert](assets/catalog20_offer_edit_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe · 2026.10.20" }
 
-Angebote können unabhängig vom Publikationsstatus des Kurses veröffentlicht werden. Dazu wählt man in der Angebotserstellung "zeitbeschränkt" aus und definiert einen zukünftigen Zeitraum. Das Angebot ist dann im Katalog für diesen definierten Zeitraum verfügbar.
+Zuoberst im Angebot stehen "Interne Bezeichnung" und "Angebotsbeschreibung". Die interne Bezeichnung sehen nur Sie, die Beschreibung erscheint im Katalog, sobald das Angebot buchbar ist. Darunter folgen die Abschnitte "Katalog" mit "Veröffentlicht in", "Freigegeben für" und "Verfügbar wenn" sowie "Mitgliedschaft" mit "Buchungsbeleg". Ist dort "E-Mail an Teilnehmer:in senden" angekreuzt, erhalten Buchende eine Bestätigung per E-Mail. Bei "Frei verfügbar" steht im Abschnitt "Mitgliedschaft" zusätzlich "Automatisches Buchen". Mehr dazu unter [Zugangskonfiguration / Freigabe](../learningresources/Access_configuration.de.md#offer_availability).
 
-![Option Mit zeitlicher Einschränkung und die Datumsfelder Von und bis markiert](assets/catalog20_zeitbeschraenkt_v1_de.png){ class="shadow lightbox" title="Dialog Zugangscode" }
+Wann ein Angebot verfügbar ist, legen Sie im Angebot unter "Verfügbar wenn" fest. Mit "Kursstatus "Veröffentlicht"" gilt das Angebot, solange der Kurs veröffentlicht ist. Mit "Benutzerdefinierte Bedingung" wählen Sie unter "Status ist" einen oder mehrere Kursstatus und legen unter "Ab" und "Bis" den Zeitraum fest, jeweils als "Statusgesteuert", "Absolutes Datum" oder "Relatives Datum". Das Angebot ist dann verfügbar, wenn der Kurs einen der gewählten Status hat und das Datum im Zeitraum liegt.
 
-Neben der **grundsätzlichen Aktivierung**, dass das Angebot in einem Katalog angezeigt werden soll, kann ein **Fachbereich** angegeben werden. Wird kein Fachbereich angegeben, kann das Angebot zwar z.B. über die Suchfunktion im Katalog gefunden werden, es wird jedoch in keinem Taxonomie-Launcher angezeigt, in dem Angebote mit gleichem Fachbereich zusammengefasst angezeigt werden.
+![Verfügbar wenn mit Benutzerdefinierte Bedingung markiert: Status ist Veröffentlicht, Ab und Bis je mit einem absoluten Datum](assets/catalog20_zeitbeschraenkt_v2_de.png){ class="shadow lightbox" title="Dialog Zugangscode · 2026.10.20" }
 
-Ausserdem muss je nach Angebotstyp z.B. der **Zugangscode** definiert werden.
+Unter "Veröffentlicht in" wählen Sie "Interner Katalog", damit das Angebot im OpenOlat-Katalog erscheint. Ist der externe Katalog eingeschaltet, steht zusätzlich "Externer Katalog" zur Wahl. Den Fachbereich wählen Sie nicht im Angebot, sondern im Tab "Metadaten" des Kurses. Die Übersicht im Tab "Freigabe" zeigt ihn unter "Angebot in Fachbereiche", der Link "Metadaten öffnen" führt dorthin. Ist kein Fachbereich angegeben, kann das Angebot zwar z.B. über die Suchfunktion im Katalog gefunden werden, es wird jedoch in keinem Taxonomie-Launcher angezeigt, in dem Angebote mit gleichem Fachbereich zusammengefasst angezeigt werden.
 
-![Checkbox Im OpenOlat Katalog anzeigen, Feld Fachbereiche / Katalog und Pflichtfeld Zugangscode markiert](assets/catalog20_offer_activate_v1_de.png){ class="shadow lightbox" title="Dialog Zugangscode" }
+Je nach Angebotsart legen Sie weitere Angaben fest, bei "Zugangscode" zum Beispiel den Code selbst.
+
+![Pflichtfeld Zugangscode und Veröffentlicht in mit gewähltem Interner Katalog markiert](assets/catalog20_offer_activate_v2_de.png){ class="shadow lightbox" title="Dialog Zugangscode · 2026.10.20" }
 
 [Zum Seitenanfang ^](#offers)
 
 ---
 
 
-## Wie läuft die Buchung eines Angebots ab? {: #offer_booking}
+## Wie läuft die Buchung eines Angebots ab? [:octicons-tag-16:{ title="ab Release 17.0 (OO-6146)" }](https://track.frentix.com/issue/OO-6146){:target="_blank"} {: #offer_booking}
 
-Mit einer Buchung erhalten Sie Zugang zu einem Kurs oder einer Durchführung aus dem Katalog. Sie buchen auf der Infoseite mit **Buchen**. Hat der Kurs oder die Durchführung mehrere Angebote, zeigt die Infoseite sie zur Auswahl, beschriftet mit der Angebotsart und, falls vorhanden, dem Preis. Wählen Sie zuerst das gewünschte Angebot aus, **Buchen** gilt dann für dieses Angebot. Was danach geschieht, hängt von der Angebotsart ab und davon, ob das Angebot Formulare verwendet.
+Mit einer Buchung erhalten Sie Zugang zu einem Kurs oder einer Durchführung aus dem Katalog. Sie buchen auf der Infoseite im Kasten "Los geht's" mit "Buchen". Hat der Kurs oder die Durchführung mehrere Angebote, zeigt die Infoseite sie zur Auswahl, beschriftet mit der Angebotsart und, falls vorhanden, dem Preis. Wählen Sie zuerst das gewünschte Angebot aus, "Buchen" gilt dann für dieses Angebot. Was danach geschieht, hängt von der Angebotsart ab und davon, ob das Angebot Formulare verwendet.
 
-Verwendet das Angebot kein Formular, bucht der Klick auf **Buchen** bei "Frei verfügbar" sofort. Bei "Zugangscode" öffnet sich der Dialog "Zugangscode", bei "Rechnung" der Dialog "Buchung auf Rechnung" mit dem Button **Kostenpflichtig buchen**. Angebote einzelner Kurse verwenden nie Formulare: Mit Zugangscode oder frei verfügbar buchen Sie diese immer auf diesem Weg. Die Angebotsart "Rechnung" gibt es nur bei Durchführungen.
+Verwendet das Angebot kein Formular, bucht der Klick auf "Buchen" bei "Frei verfügbar" sofort. Bei "Zugangscode" öffnet sich der Dialog "Zugangscode", bei "Rechnung" der Dialog "Buchung auf Rechnung" mit dem Button "Kostenpflichtig buchen". Angebote einzelner Kurse verwenden nie Formulare: Mit Zugangscode oder frei verfügbar buchen Sie diese immer auf diesem Weg. Die Angebotsart "Rechnung" gibt es nur bei Durchführungen.
 
 ### Buchung mit Formularen als Assistent [:octicons-tag-16:{ title="ab Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"} {: #offer_booking_wizard}
 
@@ -128,7 +132,7 @@ Welche Schritte der Assistent zeigt, hängt von der Angebotsart ab:
 | Zugangscode | zuerst der Schritt "Zugangscode", danach die Formulare |
 | Rechnung | zuerst der Schritt "Buchungsdetails", danach die Formulare |
 
-Im Schritt "Zugangscode" geben Sie den Zugangscode ein, den Sie erhalten haben. Im Schritt "Buchungsdetails" wählen Sie über **Rechnungsadresse auswählen** die Rechnungsadresse, sie ist Pflicht. Die "Bestellnummer (PO-Nummer)" und der "Kommentar" sind freiwillig. Hat das Angebot einen Preis oder eine Stornierungsgebühr, zeigt der Schritt diese Angaben an.
+Im Schritt "Zugangscode" geben Sie den Zugangscode ein, den Sie erhalten haben. Im Schritt "Buchungsdetails" wählen Sie über "Rechnungsadresse auswählen" die Rechnungsadresse, sie ist Pflicht. Die "Bestellnummer (PO-Nummer)" und der "Kommentar" sind freiwillig. Hat das Angebot einen Preis oder eine Stornierungsgebühr, zeigt der Schritt diese Angaben an.
 
 ![Button Rechnungsadresse auswählen für das Pflichtfeld, dazu Bestellnummer, Kommentar und Preis, danach der Schritt des Formulars](assets/catalog20_booking_wizard_invoice_details_v1_de.png){ class="shadow lightbox" title="Schritt Buchungsdetails im Assistenten Buchung auf Rechnung · 2026.10.02" }
 
@@ -151,12 +155,14 @@ Formulare an Angeboten gibt es nur bei Durchführungen im Course Planner, nicht 
 
 ## Infoseite {: #offer_info}
 
-Wer im Katalog auf eine Kachel klickt, bekommt eine nähere Beschreibung zum angebotenen Kurs bzw. der Lernressource, ohne dass der Kurs bereits gestartet wird. Auch wenn für den Kursstart evtl. eine Zugangsberechtigung eingerichtet wurde, ist diese Infoseite im Katalog einsehbar. Sie enthält Angaben, die die Autor:innen unter den Metadaten gemacht haben:<br>
+Wer im Katalog bei einem Angebot auf "Mehr erfahren" klickt, sieht die Infoseite des Kurses oder der Lernressource, ohne den Kurs zu öffnen. Die Infoseite ist im Katalog auch dann einsehbar, wenn der Kurs eine Zugangsberechtigung verlangt. Ihre Angaben tragen Autor:innen in den Einstellungen ein, die meisten im Tab "Info":<br>
 `Kurs > Administration > Einstellungen > Tab "Info"`
 
-![Button Infoseite in der Zeile eines Suchtreffers markiert](assets/catalog20_eintrag_v1_de.png){ class="shadow lightbox" title="Suchergebnisse im Katalog" }
+![Link Mehr erfahren neben dem Button Buchen in der Zeile eines Suchtreffers markiert](assets/catalog20_eintrag_v2_de.png){ class="shadow lightbox" title="Suchergebnisse im Katalog · 2026.10.20" }
 
-![Beschreibung, Lernziele, Voraussetzungen und Bescheinigung eines Kurses mit dem Button Kurs starten und dem Fachbereich im Überblick](assets/catalog20_infoseite_v1_de.png){ class="shadow lightbox" title="Infoseite im Katalog" }
+![Infoseite eines Kurses im Katalog unter Suchergebnisse: Titel, Fakten, Titelbild und Los geht's mit dem Button Buchen](assets/catalog20_infoseite_v2_de.png){ class="shadow lightbox" title="Infoseite im Katalog · 2026.10.20" }
+
+Woraus die Infoseite besteht und was die Kästen "Los geht's" und "Mein Kurs" zeigen, beschreibt [Allgemeine Funktionen: Infoseite](../learningresources/General_Functions_Infopage.de.md#content).
 
 [Zum Seitenanfang ^](#offers)
 
@@ -165,33 +171,33 @@ Wer im Katalog auf eine Kachel klickt, bekommt eine nähere Beschreibung zum ang
 
 ## Metadaten, Fachbereich {: #offer_metadata}
 
-Es ist von grosser Bedeutung, welchem Fachbereich Autor:innen einen Kurs bzw. eine Lernressource zuordnen. Denn hinter dem Fachbereich steht die Taxonomie, nach der in den Taxonomie-Launchern des Katalogs Kurse zusammengestellt werden. Sie wählen den Fachbereich unter:<br>
+Mit dem Fachbereich entscheiden Sie, in welchem Taxonomie-Launcher des Katalogs ein Kurs oder eine Lernressource erscheint. Hinter dem Fachbereich steht die Taxonomie, nach der der Katalog die Kurse zusammenstellt. Sie wählen den Fachbereich unter:<br>
 `Kurs > Administration > Einstellungen > Tab "Metadaten"`
 
-![Feld Fachbereiche / Katalog mit dem gewählten Fachbereich Software-Schulung und dem Pfeil zur Auswahl](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" title="Tab Metadaten der Kurseinstellungen" }
+![Tab Metadaten mit dem Feld Fachbereiche / Katalog, darin der Fachbereich Erste Schritte und rechts die Schaltfläche Durchsuchen: hier legen Sie fest, in welchem Taxonomie-Launcher der Kurs erscheint](assets/catalog20_fachbereich_v2_de.png){ class="shadow lightbox" title="Tab Metadaten der Kurseinstellungen · 2026.10.20" }
 
-Die im Tab "Metadaten" gemachten Angaben zum Fachbereich können im Tab "Freigabe" bei der Erstellung eines Angebots genutzt werden. Die Fachbereiche dienen der Verschlagwortung im Katalog. Es können mehrere Fachbereiche als Schlagwort angegeben werden.
+Ein Angebot übernimmt den Fachbereich, den Sie im Tab "Metadaten" angeben. Im Angebot selbst wählen Sie keinen Fachbereich, der Tab "Freigabe" zeigt ihn nur unter "Angebot in Fachbereiche" an. Im Katalog dienen die Fachbereiche auch als Schlagworte. Sie können mehrere Fachbereiche angeben.
 
-Wenn Sie auf den kleinen Pfeil am Ende der Zeile "Fachbereiche / Katalog" klicken, können Sie die Schlagworte auswählen. Zunächst erscheint ein Popup, in dem die verwendeten Fachbereiche aufgelistet sind.
+Wenn Sie in das Feld "Fachbereiche / Katalog" klicken, erscheint ein Popup mit einem Suchfeld. Unter "Auswahl" stehen die gewählten Fachbereiche, darunter alle Fachbereiche nach Taxonomie gruppiert. Mit einem Häkchen fügen Sie einen Fachbereich hinzu oder entfernen ihn. "Alles auswählen" kreuzt alle aufgeführten Fachbereiche an, "Auswahl zurücksetzen" hebt die ganze Auswahl auf.
 
-![Popup mit Suchfeld, der Auswahl Software-Schulung und dem Button Browser öffnen](assets/catalog20_metadata_subjects_popup_v1_de.png){ class="shadow lightbox" title="Feld Fachbereiche / Katalog im Tab Metadaten" }
+![Popup unter dem Feld Fachbereiche / Katalog mit Suchfeld, der Auswahl Erste Schritte und den Fachbereichen zum Ankreuzen: so finden Sie einen Fachbereich über seinen Namen](assets/catalog20_metadata_subjects_popup_v2_de.png){ class="shadow lightbox" title="Feld Fachbereiche / Katalog im Tab Metadaten · 2026.10.20" }
 
-Sie können nun über das Suchfeld oder durch Öffnen eines Browsers weitere Fachbereiche hinzufügen.
+Mehr Überblick bietet die Schaltfläche "Durchsuchen" rechts neben dem Feld. Sie öffnet den Dialog "Hinzufügen" mit dem Taxonomiebaum, je Taxonomie ein eigener Tab. Kreuzen Sie die gewünschten Fachbereiche an und klicken Sie auf "Hinzufügen". Danach speichern Sie den Tab "Metadaten" mit "Speichern".
 
-![Taxonomiebaum mit den Ebenen Purchase, Software-Schulung und Verkauf zum Ankreuzen](assets/catalog20_metadata_subjects_browser_v1_de.png){ class="shadow lightbox" title="Dialog Suche für die Fachbereiche" }
+![Dialog Hinzufügen mit den Tabs der Taxonomien, Suchfeld und Taxonomiebaum zum Ankreuzen: hier sehen Sie, wie die Fachbereiche zueinander stehen](assets/catalog20_metadata_subjects_browser_v2_de.png){ class="shadow lightbox" title="Dialog Hinzufügen nach Klick auf Durchsuchen · 2026.10.20" }
 
-Der dynamische Katalog 2.0 kann mit diesen Metadaten alle Angebote, die die gleiche Taxonomie verwenden (die gleichen Fachbereiche angegeben haben), zusammenfassen und in einem Katalogabschnitt (Launcher) zusammen anzeigen (Taxonomie-Launcher).
+Mit diesen Metadaten fasst der Katalog 2.0 alle Angebote mit denselben Fachbereichen zusammen und zeigt sie in einem gemeinsamen Katalogabschnitt, dem Taxonomie-Launcher.
 
-![Taxonomie-Launcher Online Schulungen mit der Kachel des Fachbereichs Software-Schulung](assets/catalog20_taxonomylauncher_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
+![Startseite des Katalogs mit dem Taxonomie-Launcher Taxonomieebene, hervorgehoben die Kachel des Fachbereichs Erste Schritte: ein Klick darauf führt zu allen Angeboten dieses Fachbereichs](assets/catalog20_taxonomylauncher_v2_de.png){ class="shadow lightbox" title="Startseite des Katalogs · 2026.10.20" }
 
-Nach Klick auf die Kachel des Taxonomie-Launchers öffnet sich die sogenannte Microsite mit der Liste aller Kurse und Lernressourcen, die diesem Fachbereich zugeordnet wurden.
+Ein Klick auf die Kachel im Taxonomie-Launcher öffnet die Microsite des Fachbereichs. Sie listet alle Kurse und Lernressourcen, die diesem Fachbereich zugeordnet sind.
 
-![Vier Kurse des Fachbereichs Software-Schulung mit den Buttons Infoseite und starten](assets/catalog20_taxonomylauncher_microsite_v1_de.png){ class="shadow lightbox" title="Microsite des Taxonomie-Launchers" }
+![Drei Angebote des Fachbereichs Erste Schritte, jedes mit dem Link Mehr erfahren und dem Button Buchen oder Öffnen](assets/catalog20_taxonomylauncher_microsite_v2_de.png){ class="shadow lightbox" title="Microsite des Taxonomie-Launchers · 2026.10.20" }
 
 
 !!! note "Katalog 1.0"
 
-    Informationen zum Erstellen von Angeboten im Katalog 1.0 finden Sie [hier](catalog1.0.de.md).
+    Wie Sie Angebote im Katalog 1.0 erstellen, beschreibt [Katalog 1.0](catalog1.0.de.md).
 
 [Zum Seitenanfang ^](#offers)
 
@@ -200,12 +206,17 @@ Nach Klick auf die Kachel des Taxonomie-Launchers öffnet sich die sogenannte Mi
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Benutzerverwaltung (Administrationshandbuch) >](../../manual_admin/usermanagement/index.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Coaching - Personen >](Coaching_People.de.md)<br>
 [Persönliche Werkzeuge: Buchungsaufträge >](../personal_menu/Bookings.de.md)<br>
-[Katalog 1.0 >](catalog1.0.de.md)<br>
+[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
+[Katalog 1.0 >](catalog1.0.de.md)
+
+**Weiterführend**<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
-[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
+[Katalog 2.0: Übersicht >](catalog2.0.de.md)
 
 [Zum Seitenanfang ^](#offers)

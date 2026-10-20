@@ -15,6 +15,8 @@ Sie rufen die Infoseite im Kurs über den Link "Infoseite" in der Toolbar auf, i
 
 ## Informationen der Infoseite [:octicons-tag-16:{ title="ab Release 21.1 (OO-8728)" }](https://track.frentix.com/issue/OO-8728){:target="_blank"} {: #content}
 
+Die Infoseite trennt zwei Fragen in zwei Spalten. Links steht, worum es geht: Kopf, Fakten, Abschnitte, Lizenz und Bewertung. Rechts steht, was Sie betrifft und was Sie als Nächstes tun können: Titelbild, "Los geht's", "Mein Kurs" und Termine.
+
 Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte "Im Bild" sagt, ob das Element im Bild oben zu sehen ist. Die Pfade beziehen sich auf die Einstellungen der Lernressource: `Kurs > Administration > Einstellungen`. "nur Kurs" heisst, dass andere Lernressourcen diese Einstellung nicht haben. Ein Element erscheint nur, wenn es einen Inhalt hat.
 
 | Element | Im Bild | Als Autor:in einstellen unter | Nur mit Administration |
@@ -31,8 +33,8 @@ Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte
 | Fachbereiche | ja | Tab "Metadaten" | Taxonomie |
 | **Rechte Spalte** | | | |
 | Titelbild oder Teaser-Film | ja | Tab "Info" | nein |
-| Los geht's mit Buchen oder Öffnen [:octicons-tag-16:{ title="ab Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | ja | automatisch, Angebote unter Tab "Freigabe" | nein |
-| Mein Kurs | nein | automatisch für Mitglieder, Fortschritt, Status und Punkte nur Kurs | nein |
+| [Los geht's](#get_started) mit Buchen oder Öffnen [:octicons-tag-16:{ title="ab Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | ja | automatisch, Angebote unter Tab "Freigabe" | nein |
+| [Mein Kurs](#my_course): Fortschritt, Status, Punkte, Note, Gruppen und Kurs verlassen | nein | automatisch für Mitglieder; Fortschritt, Status, Punkte und Note nur Kurs | nein |
 | Termine | ja | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | Termine / Absenzen |
 | **Fakten** | | | |
 | Durchführungszeitraum | ja | nur Kurs: Tab "Durchführung" | nein |
@@ -64,6 +66,57 @@ Technische Angaben wie die ID, den externen Link und die Verantwortlichen zeigt 
 !!! note "Hinweis"
 
     Finden Sie als Teilnehmer:in kaum Informationen auf der Infoseite, haben die Besitzer:innen der Lernressource die Seite noch nicht weiter eingerichtet. Sprechen Sie Ihre Betreuer:innen darauf an.
+
+Auf dem Smartphone oder in einem Browserfenster, das schmaler als 992 Pixel ist, stehen alle Kästen in einer Spalte untereinander. Die Reihenfolge ist fest: Titelbild, Kopf, "Los geht's", "Mein Kurs", Fakten, Abschnitte, Termine, Lizenz und Bewertung. Ab 768 Pixel Breite steht das Titelbild neben dem Titel, wie im folgenden Bild.
+
+![Infoseite in schmalem Fenster in einer Spalte: Titel mit Titelbild daneben, darunter untereinander Los geht's, Mein Kurs und Fakten](assets/general_functions_infopage_narrow_v1_de.png){ class="shadow lightbox" title="Infoseite in schmalem Fenster · 2026.10.20" }
+
+[Zum Seitenanfang ^](#general_functions_info)
+
+---
+
+
+## Los geht's und Mein Kurs {: #get_started_my_course}
+
+In der rechten Spalte der Infoseite sehen Sie, was Sie als Nächstes tun können und wie weit Sie im Kurs sind. Der Kasten "Los geht's" führt Sie in den Kurs oder zur Buchung, der Kasten "Mein Kurs" zeigt Ihren eigenen Stand. Beide Kästen füllt OpenOlat selbst, je nach Ihrer Rolle und den Einstellungen des Kurses.
+
+![Rechte Spalte der Infoseite eines Lernpfadkurses für Teilnehmende: Los geht's mit Kurs öffnen, darunter Mein Kurs mit Fortschritt, Status, Punkten, Gruppen und Kurs verlassen](assets/general_functions_infopage_my_course_v1_de.png){ class="shadow lightbox" title="Infoseite eines Lernpfadkurses als Teilnehmer:in · 2026.10.20" }
+
+### Los geht's {: #get_started}
+
+Der Kasten "Los geht's" zeigt die Aktion, die zu Ihrer Lage passt:
+
+- **Ohne Mitgliedschaft:** die Angebote des Kurses und die Schaltfläche "Buchen". Wie die Buchung abläuft, beschreibt [Katalog 2.0 - Angebote](../area_modules/catalog2.0_angebote.de.md#offer_booking).
+- **Als Mitglied:** die Schaltfläche "Kurs öffnen". Ist der Kurs noch nicht zugänglich, steht darüber ein Hinweis, etwa "Der Inhalt ist noch nicht verfügbar" oder "Buchung ausstehend", und die Schaltfläche ist ausgegraut.
+- **Mit administrativer Rolle:** Sind Sie nicht Mitglied, aber Administrator:in, Lernressourcenverwalter:in, Principal oder Kursplaner:in, öffnen Sie den Kurs mit "Mit administrativer Rolle öffnen".
+- **Ohne Anmeldung:** Wer die Infoseite über einen Link öffnet, ohne in OpenOlat angemeldet zu sein, sieht "Im Katalog ansehen", wenn der Kurs im Katalog buchbar ist, sonst "Zum Login".
+
+Ist ein Kurs beendet und haben Teilnehmende im Status "Beendet" keinen Zugriff mehr, meldet der Kasten "Kurs beendet".
+
+Eine Durchführung des Course Planners können Sie selbst stornieren, solange sie noch nicht begonnen hat. Dafür zeigt der Kasten "Los geht's" die Schaltfläche "Buchung stornieren". Fällt eine Stornierungsgebühr an, heisst sie "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt die Gebühr. Nach der Stornierung erhalten Sie eine E-Mail mit dem Betreff "Bestätigung Ihrer Stornierung". [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"}
+
+Die Schaltfläche erscheint nur, wenn alle vier Bedingungen erfüllt sind:
+
+- Sie sind Teilnehmer:in der Durchführung, oder Ihre Buchung ist noch ausstehend.
+- Die Durchführung hat ein Anfangsdatum, und dieses liegt in der Zukunft. Ab dem Tag des Beginns fehlt die Schaltfläche.
+- Zu Ihrer Buchung besteht ein Buchungsauftrag im Status "Neu", "In Zahlungsprozess" oder "Bezahlt".
+- Das Angebot ist stornierbar. Das ist der Normalfall. Nur beim Angebot "Rechnung" können Verantwortliche die Stornierung mit dem Schalter "Stornierbar" ausschalten.
+
+Sie sehen die Schaltfläche, wenn Sie die Infoseite im Katalog oder unter `Kurse > In Vorbereitung` öffnen. Unter [Buchungsaufträge](../personal_menu/Bookings.de.md) lässt sich eine Buchung nicht stornieren.
+
+### Mein Kurs {: #my_course}
+
+Als Mitglied sehen Sie im Kasten "Mein Kurs" Ihren eigenen Stand, ohne den Kurs zu öffnen. Der Kasten zeigt nur die Angaben, die es für Sie gibt:
+
+- **Fortschritt:** Ihr Fortschritt in Prozent. Nur in einem Lernpfadkurs und erst, wenn OpenOlat einen Fortschritt erfasst hat.
+- **Status, Punkte und Note:** Ihr Ergebnis im Kurs. Dafür muss unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` der Schalter "Leistungsnachweis den Teilnehmer:innen anzeigen" eingeschaltet sein, siehe [Kurseinstellungen - Tab Bewertung](Course_Settings_Assessment.de.md#section_evidence_of_achievements). Der Status erscheint, wenn der Kurs "Bestanden" oder "Nicht bestanden" vergibt, die Punkte, wenn er Punkte vergibt. Die Note setzt zusätzlich voraus, dass Administrator:innen die Noten in der System-Administration eingeschaltet haben.
+- **Gruppen:** die Gruppen des Kurses, in denen Sie Mitglied sind. Ein Klick auf den Namen öffnet die Gruppe.
+
+Unten im Kasten steht die Schaltfläche "Kurs verlassen". Damit tragen Sie sich selbst aus dem Kurs aus, gleich wie mit dem Eintrag "Kurs verlassen" im Menü "Mein Kurs" der Kurs-Toolbar, siehe [Toolbar: Mein Kurs](Toolbar_My_Course.de.md#leave_course). Die Schaltfläche erscheint nur für Teilnehmende und nur, wenn die Einstellung "Teilnehmer:innen können austreten" nicht auf "Nie" steht, siehe [Zugangskonfiguration / Freigabe](Access_configuration.de.md#leave_learning_resource). Steht sie auf "Nach Kursenddatum oder Status "Beendet"", ist die Schaltfläche ausgegraut, bis das Kursenddatum vorbei ist oder der Kurs den Status "Beendet" hat.
+
+Die Schaltfläche fehlt, wenn der Kurs zu einer Durchführung des Course Planners gehört oder Sie über eine solche Mitglied sind. Sie fehlt auch, wenn eine Gruppe Sie eingetragen hat, die das Austreten nicht erlaubt oder mit mehreren Kursen verknüpft ist, und während eines Prüfungsmodus.
+
+Bei anderen Lernressourcen als Kursen zeigt der Kasten nur die Gruppen und die Schaltfläche zum Verlassen. Gibt es keine dieser Angaben, fehlt der Kasten "Mein Kurs" ganz.
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -110,7 +163,10 @@ Einige Elemente unterscheiden sich:
 - **Dazu kommen** der Abschnitt "Gliederung" und der Fakt "Teilnehmer:innen" mit der Zahl der Plätze.
 - **Im Kopf** steht neben dem Kennzeichen der Elementtyp der Durchführung.
 
-Sie stellen die Angaben nicht in einem Kurs ein, sondern im Course Planner in den Einstellungen der Durchführung, in den Tabs "Metadaten", "Infos" und "Durchführung". Mehr dazu unter [Course Planner: Durchführungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings).
+Sie stellen die Angaben nicht in einem Kurs ein, sondern in den Einstellungen der Durchführung, in den Unter-Tabs "Metadaten", "Infos" und "Durchführung":<br>
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab "Einstellungen"`
+
+Mehr dazu unter [Course Planner: Durchführungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings).
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -180,10 +236,15 @@ Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
+[Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
+[Persönliche Werkzeuge: Buchungsaufträge >](../personal_menu/Bookings.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Toolbar: Mein Kurs >](../learningresources/Toolbar_My_Course.de.md)<br>
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)
 
 **Weiterführend**<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
-[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
+[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)
 
 [Zum Seitenanfang ^](#general_functions_info)
