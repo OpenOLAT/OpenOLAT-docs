@@ -10,9 +10,10 @@ The "Organisations" module is optionally available in OpenOlat. It is activated 
 
 ## Tab Configuration {: #tab_configuration}
 
-![Activation of the Organisations module, the e-mail domain mapping, the legal documents and the customer number; the Customer number section is highlighted](assets/organisations_tab_config_v3_en.png){ class="shadow lightbox" title="Configuration tab of the Organisations module · 2026.10.02" }
+With the "Organisations" module, you map the company structure in organisations. Roles, rights and the visibility of courses and content can then depend on the organisation an account belongs to. In the "Configuration" tab, you switch on the module and the additional functions your organisation needs:<br>
+`Administration > Modules > Organisations > Tab "Configuration"`
 
-In the "Configuration" tab, you switch on the module and the additional functions your organisation needs. The tab contains
+The tab contains
 
 * the activation of the Organisations module
 * the activation of the e-mail domain mapping (only visible if the Organisations module is activated)
@@ -20,15 +21,18 @@ In the "Configuration" tab, you switch on the module and the additional function
 * the activation of the [customer number](#customer_number) (only visible if the Organisations module is activated)
 * the "Status" section, which names the default organisation and warns if accounts with global roles are in different organisations or if several organisations have the identifier "default-org"
 
-The company structure can be mapped in the "Organisations" module. Roles, rights and the visibility of courses and content can then be made dependent on membership of a specific organisation.
-
-The ability of course participants to self-register can also be made dependent on membership of a specific organisation. This restriction is set up by comparing the e-mail address of new users against the stored e-mail domains and automatically assigning them to a specific organisation.
+The e-mail domain mapping takes effect during self-registration. If it is switched on, self-registration only accepts e-mail addresses whose domain is stored as an active [e-mail domain mapping](#tab_mail_domain_assignment) of an organisation. OpenOlat assigns the new account to this organisation. If several organisations match, the person selects one of them during registration.
 
 ### Customer number [:octicons-tag-16:{ title="from Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736){:target="_blank"} {: #customer_number}
 
 If your organisation invoices courses, the customer number links each booking to the person or organisation that your accounting keeps for it. The customer number is the number under which the accounting keeps a person or an organisation. If it is included in the export of the booking orders, the accounting assigns each booking to the right account without looking it up.
 
-You switch on the customer number in the "Configuration" tab, in the "Customer number" section, with the "Enable customer number" toggle. The section only appears once the Organisations module is switched on. By default, the toggle is off.
+![Customer number section highlighted, Enable customer number toggle switched on, between Legal documents and Status](assets/organisations_tab_config_v3_en.png){ class="shadow lightbox" title="Configuration tab of the Organisations module · 2026.10.02" }
+
+You switch on the customer number in the "Customer number" section with the "Enable customer number" toggle:<br>
+`Administration > Modules > Organisations > Tab "Configuration"`
+
+The section only appears once the Organisations module is switched on. By default, the toggle is off.
 
 If the toggle is on, the "Customer number" field is available in three places:
 
@@ -36,7 +40,7 @@ If the toggle is on, the "Customer number" field is available in three places:
 * in the [Metadata](#edit_metadata) tab of an organisation
 * in a [billing address](#edit_billing_adresses) of an organisation
 
-The field is never mandatory and accepts any text. OpenOlat shows recorded numbers in the Course Planner in the [member list of an implementation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_members) and in the billing address of a booking order. The [Booking orders report](../../manual_user/area_modules/Reports_BookingOrders.md) contains three additional columns: the customer number of the person, that of the billing address and that of the organisation to which the billing address belongs.
+The field is never mandatory and accepts any text. You display the numbers of the organisations in the [Organisations structures](#tab_structure) tab as the "Customer number" column with "Displayed columns". In the Course Planner, OpenOlat shows the number of a person in the [member list of an implementation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_members) and the number of a billing address in the billing address of a booking order. The [Booking orders report](../../manual_user/area_modules/Reports_BookingOrders.md) contains three additional columns: the customer number of the person, that of the billing address and that of the organisation to which the billing address belongs.
 
 If you switch the customer number off again, the field disappears from all forms. The recorded numbers remain stored, but OpenOlat no longer displays or exports them.
 
@@ -89,7 +93,7 @@ The default organisation, shown in the image, is different: its identifier is al
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "User management"`
 ![Add user menu with the roles from System administrator to User](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="User management tab of an organisation" }
 
-The "User management" tab shows a list of the users currently assigned to this organisation. Existing users can also be removed again.
+The "User management" tab shows a list of the users currently assigned to this organisation. You can also remove existing users again.
 
 The "Add user" button can be used to add further users with a specific role. Select the desired role from the listed roles. In the following dialog, you can search for users. They can be added according to the selection. It is also possible to add several users at once.
 
@@ -132,7 +136,6 @@ Education managers see the same overview in Coaching as line managers and additi
 ### Billing addresses [:octicons-tag-16:{ title="from Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Billing addresses"`
-![Form of a billing address of the organisation, the Customer number field below the identifier is highlighted](assets/organisations_edit_tab_billing_addresses_v2_en.png){ class="shadow lightbox" title="Edit billing address dialog in the Billing addresses tab · 2026.10.02" }
 
 When a person books an offer with invoice, they select a billing address of their organisation instead of entering the address themselves. You store these billing addresses here for each organisation with "Create". The form opens in the "Edit billing address" dialog, also when you create a new address. The person can choose from the active billing addresses of the organisations in which they are a user.
 
@@ -141,6 +144,8 @@ The tab only appears if the offer type "Invoice" is enabled. You select it in th
 
 A billing address consists of the fields "Identifier", "Name / Company", "Addition / Department", "Address line 1" to "Address line 4", "P.O. box", "Region", "ZIP", "City" and "Country". Mandatory fields are "Identifier", "Name / Company", "Address line 1", "City" and "Country".
 
+![Customer number field highlighted, directly below the mandatory Identifier field and above Name / Company](assets/organisations_edit_tab_billing_addresses_v2_en.png){ class="shadow lightbox" title="Edit billing address dialog in the Billing addresses tab · 2026.10.02" }
+
 If the [customer number](#customer_number) is switched on, a billing address of an organisation has the additional field "Customer number", directly below "Identifier". Personal billing addresses do not have this field, nor does an address that is only entered during booking via "Other organisation address". If a number is recorded, it appears as the first line of the billing address wherever OpenOlat displays the address: in the detail view of a booking order in the Course Planner, when selecting the billing address during a booking with invoice, and in the participants' [own booking orders](../../manual_user/personal_menu/Bookings.md).
 
 ### E-mail domains mappings {: #edit_mail_domain}
@@ -148,7 +153,7 @@ If the [customer number](#customer_number) is switched on, a billing address of 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "E-mail domains mappings"`
 ![Still empty list of the e-mail domain mappings of an organisation with the Create e-mail domain mapping button](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of an organisation" }
 
-An e-mail domain can be specified for each organisation, which is used to check whether users belong to this organisation. This matters when users can self-register for courses, but the courses should only be available for a specific organisation.
+If people create their account themselves via self-registration, the e-mail domain decides whether the registration is possible and to which organisation the new account belongs. Here you store the e-mail domains of this organisation. If the [e-mail domain mapping](#tab_configuration) is switched on, self-registration only accepts e-mail addresses whose domain is stored as an active mapping, and OpenOlat assigns the new account to this organisation.
 
 [To the top of the page ^](#organisations)
 
@@ -174,7 +179,7 @@ Further types can be created via "Create organisation type". In addition to the 
 
 ![E-mail domains per organisation with the columns Active, Subdomain allowed and Accounts with domain](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of the Organisations module" }
 
-If organisations exist, self-registration can be restricted to specific e-mail domains. New users are then automatically assigned to an organisation based on their e-mail domain and are only allowed to self-register for content/courses of this organisation.
+With the e-mail domain mappings, you restrict self-registration to specific e-mail domains. OpenOlat then only accepts e-mail addresses whose domain is stored as an active mapping of an organisation, and assigns the new account to this organisation. If several organisations match, the person selects one of them during registration.
 
 The list shows the mappings of all organisations. The "Subdomain allowed" column indicates whether e-mail addresses of a subdomain also match the organisation, for example "hr.example.com" for the domain "example.com". The "Accounts with domain" column counts the accounts of the organisation whose e-mail address matches the domain.
 

@@ -13,9 +13,10 @@ Das Modul "Organisationen" ist optional in OpenOlat verfügbar. Es wird in der S
 
 ## Tab Konfiguration {: #tab_configuration}
 
-![Aktivierung des Moduls Organisationen, der E-Mail-Domänen-Zuordnung, der rechtlichen Dokumente und der Debitorennummer; der Abschnitt Debitorennummer ist hervorgehoben](assets/organisations_tab_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration im Modul Organisationen · 2026.10.02" }
+Mit dem Modul "Organisationen" bilden Sie die Unternehmensstruktur in Organisationen ab. Rollen, Rechte und die Sichtbarkeit von Kursen und Inhalten können danach davon abhängen, zu welcher Organisation ein Konto gehört. Im Tab "Konfiguration" schalten Sie das Modul und die Zusatzfunktionen ein, die Ihre Organisation braucht:<br>
+`Administration > Module > Organisationen > Tab "Konfiguration"`
 
-Im Tab Konfiguration schalten Sie das Modul und seine Zusatzfunktionen ein, die Ihre Organisation braucht. Der Tab enthält
+Der Tab enthält
 
 * die Aktivierung des Moduls Organisationen
 * die Aktivierung der E-Mail-Domänen-Zuordnung (nur sichtbar bei aktiviertem Modul Organisationen)
@@ -23,23 +24,26 @@ Im Tab Konfiguration schalten Sie das Modul und seine Zusatzfunktionen ein, die 
 * die Aktivierung der [Debitorennummer](#customer_number) (nur sichtbar bei aktiviertem Modul Organisationen)
 * den Abschnitt "Status", der die Standardorganisation nennt und warnt, wenn Konten mit globalen Rollen in verschiedenen Organisationen liegen oder mehrere Organisationen die Bezeichnung "default-org" tragen
 
-Im Modul "Organisationen" kann die Unternehmensstruktur abgebildet werden. Anschliessend können Rollen, Rechte und Sichtbarkeit von Kursen und Inhalten von der Zugehörigkeit zu einer bestimmten Organisationseinheit abhängig gemacht werden.
-
-Auch die Möglichkeit zur Selbstregistration von Kursteilnehmer:innen kann von der Zugehörigkeit zu einer bestimmten Organisationseinheit abhängig gemacht werden. Diese Einschränkung wird vorgenommen, indem die Mail-Adresse neuer Benutzer:innen mit den hinterlegten E-Mail-Domänen abgeglichen und automatisch einer bestimmten Organisationseinheit zugeordnet wird.
+Die E-Mail-Domänen-Zuordnung wirkt bei der Selbstregistrierung. Ist sie eingeschaltet, nimmt die Selbstregistrierung nur E-Mail-Adressen an, deren Domäne bei einer Organisation als aktive [E-Mail-Domänen-Zuordnung](#tab_mail_domain_assignment) hinterlegt ist. OpenOlat ordnet das neue Konto dieser Organisation zu. Passen mehrere Organisationen, wählt die Person bei der Registrierung eine davon aus.
 
 ### Debitorennummer [:octicons-tag-16:{ title="ab Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736){:target="_blank"} {: #customer_number}
 
 Stellt Ihre Organisation Kurse in Rechnung, verbindet die Debitorennummer jede Buchung mit der Person oder Organisation, die Ihre Buchhaltung dafür führt. Die Debitorennummer ist die Nummer, unter der die Buchhaltung eine Person oder eine Organisation führt. Steht sie im Export der Buchungsaufträge, ordnet die Buchhaltung jede Buchung ohne Nachschlagen dem richtigen Konto zu.
 
-Sie schalten die Debitorennummer im Tab "Konfiguration" ein, im Abschnitt "Debitorennummer" mit dem Schalter "Debitorennummer aktivieren". Der Abschnitt erscheint erst, wenn das Modul Organisationen eingeschaltet ist. Standardmässig ist der Schalter aus.
+![Abschnitt Debitorennummer hervorgehoben, Schalter Debitorennummer aktivieren eingeschaltet, zwischen Rechtliche Dokumente und Status](assets/organisations_tab_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration im Modul Organisationen · 2026.10.02" }
+
+Sie schalten die Debitorennummer im Abschnitt "Debitorennummer" mit dem Schalter "Debitorennummer aktivieren" ein:<br>
+`Administration > Module > Organisationen > Tab "Konfiguration"`
+
+Der Abschnitt erscheint erst, wenn das Modul Organisationen eingeschaltet ist. Standardmässig ist der Schalter aus.
 
 Ist der Schalter ein, steht das Feld "Debitorennummer" an drei Orten zur Verfügung:
 
-* im Reiter "Profil" eines Kontos in der Benutzerverwaltung, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md#profile)
+* im Tab "Profil" eines Kontos in der Benutzerverwaltung, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md#profile)
 * im Tab [Metadaten](#edit_metadata) einer Organisation
 * bei einer [Rechnungsadresse](#edit_billing_adresses) einer Organisation
 
-Das Feld ist nie ein Pflichtfeld und nimmt beliebigen Text an. Erfasste Nummern zeigt OpenOlat im Course Planner in der [Mitgliederliste einer Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_members) und in der Rechnungsadresse eines Buchungsauftrags. Der [Report Buchungsaufträge](../../manual_user/area_modules/Reports_BookingOrders.de.md) enthält drei zusätzliche Spalten: die Debitorennummer der Person, die der Rechnungsadresse und die der Organisation, zu der die Rechnungsadresse gehört.
+Das Feld ist nie ein Pflichtfeld und nimmt beliebigen Text an. Die Nummern der Organisationen blenden Sie im Tab [Organisationsstruktur](#tab_structure) mit "Spalten auswählen" als Spalte "Debitorennummer" ein. Im Course Planner zeigt OpenOlat die Nummer einer Person in der [Mitgliederliste einer Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_members) und die Nummer einer Rechnungsadresse in der Rechnungsadresse eines Buchungsauftrags. Der [Report Buchungsaufträge](../../manual_user/area_modules/Reports_BookingOrders.de.md) enthält drei zusätzliche Spalten: die Debitorennummer der Person, die der Rechnungsadresse und die der Organisation, zu der die Rechnungsadresse gehört.
 
 Schalten Sie die Debitorennummer wieder aus, verschwindet das Feld aus allen Formularen. Die erfassten Nummern bleiben gespeichert, OpenOlat zeigt sie aber nicht mehr an und exportiert sie nicht.
 
@@ -97,7 +101,7 @@ Anders bei der Standardorganisation, die das Bild zeigt: Ihre Bezeichnung ist im
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Kontenverwaltung"`
 ![Menü Konto hinzufügen mit den Rollen von Systemadministrator:in bis Benutzer:in](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="Tab Kontenverwaltung einer Organisation" }
 
-Im Tab "Kontenverwaltung" erhält man eine Liste mit den aktuell dieser Organisationseinheit zugeordneten Benutzer:innen. Ebenso können bestehende Benutzer:innen wieder entfernt werden.
+Der Tab "Kontenverwaltung" zeigt eine Liste der Benutzer:innen, die dieser Organisation aktuell zugeordnet sind. Sie können bestehende Benutzer:innen auch wieder entfernen.
 
 Mit dem Button "Konto hinzufügen" können weitere Benutzer:innen einer bestimmten Rolle hinzugefügt werden. Hierfür wird aus den aufgelisteten Rollen die gewünschte ausgewählt. Im anschliessenden Dialog kann nach Benutzer:innen gesucht werden. Entsprechend der Auswahl können sie hinzugefügt werden. Auch das Hinzufügen von mehreren Benutzer:innen ist möglich.
 
@@ -145,7 +149,6 @@ Ausbildungsverantwortliche sehen im Coaching dieselbe Übersicht wie Linienvorge
 ### Rechnungsadressen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Rechnungsadressen"`
-![Formular einer Rechnungsadresse der Organisation, das Feld Debitorennummer unter dem Identifikator ist hervorgehoben](assets/organisations_edit_tab_billing_addresses_v2_de.png){ class="shadow lightbox" title="Dialog Rechnungsadresse bearbeiten im Tab Rechnungsadressen · 2026.10.02" }
 
 Bucht eine Person ein Angebot mit Rechnung, wählt sie eine Rechnungsadresse ihrer Organisation aus, statt die Adresse selbst einzugeben. Diese Rechnungsadressen hinterlegen Sie hier je Organisation mit "Erstellen". Das Formular öffnet sich im Dialog "Rechnungsadresse bearbeiten", auch beim Anlegen einer neuen Adresse. Zur Auswahl stehen der Person die aktiven Rechnungsadressen der Organisationen, in denen sie Benutzer:in ist.
 
@@ -153,6 +156,8 @@ Der Tab erscheint nur, wenn die Angebotsart "Rechnung" eingeschaltet ist. Sie w�
 `Administration > Core-Konfiguration > Zugangskontrolle`, siehe [Core-Konfiguration](Core_functions.de.md).
 
 Eine Rechnungsadresse besteht aus den Feldern "Identifikator", "Name / Firma", "Zusatz / Abteilung", "Adresszeile 1" bis "Adresszeile 4", "Postfach", "Region", "PLZ", "Ort" und "Land". Pflichtfelder sind "Identifikator", "Name / Firma", "Adresszeile 1", "Ort" und "Land".
+
+![Feld Debitorennummer hervorgehoben, direkt unter dem Pflichtfeld Identifikator und über Name / Firma](assets/organisations_edit_tab_billing_addresses_v2_de.png){ class="shadow lightbox" title="Dialog Rechnungsadresse bearbeiten im Tab Rechnungsadressen · 2026.10.02" }
 
 Ist die [Debitorennummer](#customer_number) eingeschaltet, hat eine Rechnungsadresse einer Organisation zusätzlich das Feld "Debitorennummer", direkt unter "Identifikator". Persönliche Rechnungsadressen haben dieses Feld nicht, ebenso wenig eine Adresse, die erst beim Buchen über "Andere Organisationsadresse" eingegeben wird. Ist eine Nummer erfasst, steht sie als erste Zeile der Rechnungsadresse, überall wo OpenOlat die Adresse anzeigt: in der Detailansicht eines Buchungsauftrags im Course Planner, bei der Auswahl der Rechnungsadresse während der Buchung mit Rechnung und in den [eigenen Buchungsaufträgen](../../manual_user/personal_menu/Bookings.de.md) der Teilnehmer:innen.
 
@@ -162,7 +167,7 @@ Ist die [Debitorennummer](#customer_number) eingeschaltet, hat eine Rechnungsadr
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "E-Mail-Domänen-Zuordnungen"`
 ![Noch leere Liste der E-Mail-Domänen-Zuordnungen einer Organisation mit dem Button E-Mail-Domänen-Zuordnung erstellen](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen einer Organisation" }
 
-Zu jeder Organisation kann eine E-Mail-Domäne angegeben werden, anhand derer die Zugehörigkeit von Benutzer:innen zu dieser Organisationseinheit geprüft werden kann. Dies ist dann von Bedeutung, wenn sich Benutzer:innen selbst für Kurse anmelden können, die Kurse jedoch nur für eine bestimmte Organisationseinheit verfügbar sein sollen.
+Legen Personen ihr Konto per Selbstregistrierung selbst an, entscheidet die E-Mail-Domäne, ob die Registrierung möglich ist und zu welcher Organisation das neue Konto gehört. Hier hinterlegen Sie die E-Mail-Domänen dieser Organisation. Ist die [E-Mail-Domänen-Zuordnung](#tab_configuration) eingeschaltet, nimmt die Selbstregistrierung nur E-Mail-Adressen an, deren Domäne als aktive Zuordnung hinterlegt ist, und OpenOlat ordnet das neue Konto dieser Organisation zu.
 
 [Zum Seitenanfang ^](#organisations)
 
@@ -189,7 +194,7 @@ Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur en
 
 ![E-Mail-Domänen je Organisation mit den Spalten Aktiv, Unter-Domänen erlaubt und Konten mit Domäne](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen im Modul Organisationen" }
 
-Existieren Organisationseinheiten, kann die Selbstregistration auf bestimmte E-Mail-Domänen eingeschränkt werden. Neue Benutzer:innen werden dann basierend auf ihrer E-Mail-Domäne automatisch einer Organisationseinheit zugeordnet und nur für Inhalte/Kurse dieser Organisationseinheit zur Selbstregistration zugelassen.
+Mit den E-Mail-Domänen-Zuordnungen schränken Sie die Selbstregistrierung auf bestimmte E-Mail-Domänen ein. OpenOlat nimmt dann nur E-Mail-Adressen an, deren Domäne bei einer Organisation als aktive Zuordnung hinterlegt ist, und ordnet das neue Konto dieser Organisation zu. Passen mehrere Organisationen, wählt die Person bei der Registrierung eine davon aus.
 
 Die Liste zeigt die Zuordnungen aller Organisationen. Die Spalte "Unter-Domänen erlaubt" sagt, ob auch E-Mail-Adressen einer Unter-Domäne zur Organisation passen, etwa "hr.example.com" zur Domäne "example.com". Die Spalte "Konten mit Domäne" zählt die Konten der Organisation, deren E-Mail-Adresse zur Domäne passt.
 
