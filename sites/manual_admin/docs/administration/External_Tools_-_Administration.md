@@ -140,7 +140,18 @@ Please note that user accounts are automatically created for the OpenOlat connec
 
 ## JupyterHub [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6901)" }](https://track.frentix.com/issue/OO-6901){:target="_blank"} {: #jupyter}
 
-JupyterHub is used to provide Jupyter images for learners.
+With JupyterHub, learners start a Jupyter environment from within the course. The course element sets which image the hub starts. OpenOlat connects the hub via LTI 1.3. The module "LTI 1.3" must therefore be enabled, see [LTI 1.3](#lti):<br>
+`Administration > External tools > LTI > Configuration`
+
+You set up a hub in the system administration: `Administration > External tools > JupyterHub > Add hub configuration`. The button appears once "JupyterHub course element" is switched on. In the "JupyterHub URL" field you enter the address of the hub. From this address OpenOlat builds the redirect URL and the other LTI addresses itself. In OpenOlat you do not enter them by hand:
+
+| Item | Address |
+|---|---|
+| Redirect URL | `<JupyterHub URL>/hub/lti13/oauth_callback` |
+| Initiate login URL | `<JupyterHub URL>/hub/lti13/oauth_login` |
+| JWKS URL | `<JupyterHub URL>/hub/lti13/jwks` |
+
+When you change a hub configuration, OpenOlat sets these addresses again on saving. OpenOlat also generates the "Client ID" itself and shows it in the form.
 
 
 [User manual: Course element JupyterHub >](../../manual_user/learningresources/Course_Element_JupyterHub.md)<br>
