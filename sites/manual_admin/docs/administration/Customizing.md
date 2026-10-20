@@ -58,9 +58,9 @@ All text can be entered in different languages.
 
 ## Help [:octicons-tag-16:{ title="from Release 15.1 (OO-4562)" }](https://track.frentix.com/issue/OO-4562){:target="_blank"} {: #help}
 
-Here you can specify which help pages are displayed via the help icon :fontawesome-solid-circle-question: in the main menu. You can also include a link to the support contact form.
+So that persons find the right help when they have questions, you define on the "Help" page which help options the help icon :fontawesome-solid-circle-question: offers, for example the official OpenOlat manual, your own help course or a contact form for the support. For each help option you choose under "Display" whether it appears in the authoring area, in the user tool or on the login page.
 
-![Type, name per language, symbol and URL, plus the display locations authoring, user tools and login](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" title="Edit help option dialog on the Help page" }
+![Under Display the three locations Authoring, User tool and Login where the help option appears, above them Type, Label per language, Icon and URL](assets/admin_customizing_help_edit_v1_en.png){ class="shadow lightbox" title="Edit help facility dialog on the Help page · 2026.10.20" }
 
 [To the top of the page ^](#customizing)
 
@@ -92,8 +92,48 @@ Various portlets can be selected for the "Portal" tab.
 
 ## User properties {: #user_properties}
 
-Administrators can use this feature to select the attributes displayed in user management and group them.
-In addition, the translations can be edited.
+Which details OpenOlat keeps about a person, what these details are called and where they appear is defined by administrators and system administrators for the whole instance. In one place you decide which data your organisation collects and which fields persons fill in in their profile, when an account is created or during self-registration. You will find the settings in the system administration under:<br>
+`Administration > Customizing > User Properties`
+
+The page has three tabs: "Properties" for the individual details, "Contexts" for the places where the details appear, and "Reset" for the whole configuration at once.
+
+### What is a property? {: #user_properties_attribute}
+
+Every field a person fills in in their profile is a property: a single detail about a person, for example "Date of birth" or "Organizational unit/study group". A property is either active or deactivated for the whole instance.
+
+The "Properties" tab lists all properties with their technical name and their label. There you assign a property to a group and adapt its label per language in the column "Translate". The group decides under which heading the field appears in the profile: fields of the group "account" appear there under "Personal data".
+
+### What is a context? {: #user_properties_context}
+
+The same property appears in many places in OpenOlat: in the profile, as a column in the table of the user management, in the form for creating an account, when importing users, in the self-registration and in the data of the REST API. Each of these places is a context. A context has its own selection of properties and defines for each property whether it is mandatory there. This way a detail can appear in the user management without the self-registration asking for it.
+
+The "Contexts" tab lists all contexts with their technical name and a description. The profile, for example, is called "org.olat.user.ProfileFormController" there.
+
+Whether a detail appears in a place is therefore decided twice: at the property, which must be active, and at the context, which must use the property.
+
+### Reset the configuration [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9781)" }](https://track.frentix.com/issue/OO-9781) {: #user_properties_reset}
+
+After many individual changes it is often no longer clear where a setting comes from. With the "Reset" tab you return to a fixed state. The drop-down "Load Preset:" offers two presets:
+
+  * **Default** restores the system configuration, that is the state of a new installation.
+  * **Minimal** uses the same contexts, but only with the properties "Username", "First name", "Last name" and "E-mail". This preset suits an instance that is to keep as few details about persons as possible.
+
+OpenOlat computes both from the system configuration of the installed version. They therefore know every property and every context of this version, also after an update.
+
+A reset replaces all settings of the tabs "Properties" and "Contexts": which properties are active, their groups and, in every context, the properties used, their order and the settings "Mandatory", "Admin only" and "User: readonly". Your own changes are lost. Labels you have adapted in the column "Translate" are kept.
+
+!!! warning "Attention"
+    OpenOlat loads the selected preset immediately after "OK", without asking again. The step cannot be undone. Note down your settings beforehand if you want to restore them later.
+
+Below the drop-down a note sums up both presets. After "OK" OpenOlat reports "Predefined config loaded...".
+
+![Drop-down Load Preset with the entry Default, below it the note on Default and Minimal and that your own changes are lost](assets/admin_customizing_user_properties_reset_v1_en.png){ class="shadow lightbox" title="Tab Reset on the page User Properties · 2026.10.20" }
+
+#### Skype ID, Xing, LinkedIn and ICQ {: #user_properties_social_media}
+
+The properties "Skype ID", "Xing", "LinkedIn" and "ICQ" are deactivated in the system configuration. On a new installation and after "Default" they therefore appear neither in the profile nor in the user management. If your organisation needs one of them, activate it in the "Properties" tab in the column "Active".
+
+On an existing installation it depends on whether the settings of this page have ever been saved. If they have never been changed, the four properties are deactivated after the update as well. If they have been changed before, the four properties stay as they are saved until you load "Default". OpenOlat never deletes values that persons have already entered.
 
 [To the top of the page ^](#customizing)
 

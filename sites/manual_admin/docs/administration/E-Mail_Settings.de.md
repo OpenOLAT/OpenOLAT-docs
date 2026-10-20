@@ -94,33 +94,35 @@ Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden der Variable: Die
 
 Mit der E-Mail Signatur hängt OpenOlat den persönlichen Text einer Person an das Ende der E-Mails, die diese Person aus OpenOlat heraus über ein E-Mail-Formular verschickt, zum Beispiel über den Kursbaustein "E-Mail", den Kursbaustein "Liste der Teilnehmer:innen" oder die Mitgliederverwaltung. Der Text steht im E-Mail-Formular am Ende der Nachricht und lässt sich dort vor dem Versand noch bearbeiten. Die Signatur erfasst jede Person selbst: [Persönliche Konfiguration: Profil](../../manual_user/personal_menu/Profile.de.md).
 
-Damit das Feld für die Signatur im Profil erscheint, aktivieren Sie das Attribut "emailSignature" in der System-Administration unter:<br>
+Auf einer neuen Installation steht das Feld "E-Mail Signatur" bereits im Profil: Das Attribut "emailSignature" ist in der Systemkonfiguration aktiv und im Verwendungskontext des Profils enthalten. Fehlt das Feld im Profil Ihrer Instanz, weicht deren gespeicherte Konfiguration davon ab. Prüfen Sie dann zwei Stellen in der System-Administration unter:<br>
 `Administration > Customizing > Benutzer:innen-Attribute`
 
-**Schritt 1: Tab "Properties", Zeile "emailSignature" aktivieren**
+Was ein Attribut und ein Verwendungskontext sind, erklärt der Abschnitt [Benutzer:innen-Attribute](Customizing.de.md#user_properties).
+
+**Schritt 1: Tab "Attribute", Zeile "emailSignature" aktivieren**
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate1_v1_de.png" alt="Spalte Aktiv gibt emailSignature systemweit frei: Tab Properties der Seite Benutzer:innen-Attribute" />
+	<img src="../assets/e-mail_settings_activate1_v2_de.png" alt="Schalter in der Spalte Aktiv gibt emailSignature systemweit frei" class="shadow lightbox" title="Tab Attribute auf der Seite Benutzer:innen-Attribute · 2026.10.20" />
 </details>
 
-**Schritt 2: Tab "Contexts", Kontext "org.olat.user.ProfileFormController" bearbeiten**
+**Schritt 2: Tab "Verwendungskontexte", in der Zeile "org.olat.user.ProfileFormController" auf "Bearbeiten" klicken**
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate2_v1_de.png" alt="Link Bearbeiten öffnet die Attributliste von org.olat.user.ProfileFormController: Tab Contexts der Seite Benutzer:innen-Attribute" />
+	<img src="../assets/e-mail_settings_activate2_v2_de.png" alt="Link Bearbeiten in der Zeile org.olat.user.ProfileFormController öffnet die Attributliste dieses Verwendungskontexts" class="shadow lightbox" title="Tab Verwendungskontexte auf der Seite Benutzer:innen-Attribute · 2026.10.20" />
 </details>
 
-Im Kontext schalten Sie für "emailSignature" die Spalte "Verwenden" ein. Erst damit steht das Feld im Profil zur Verfügung.
+Im Dialog "Kontext bearbeiten" schalten Sie in der Zeile "emailSignature" den Schalter in der Spalte "Verwenden" ein. Erst damit steht das Feld im Profil zur Verfügung.
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate3_v1_de.png" alt="Spalte Verwenden gibt emailSignature für das persönliche Profil frei: Dialog Context bearbeiten" />
+	<img src="../assets/e-mail_settings_activate3_v2_de.png" alt="Eingeschalteter Schalter Verwenden in der Zeile emailSignature gibt das Feld für das persönliche Profil frei" class="shadow lightbox" title="Dialog Kontext bearbeiten · 2026.10.20" />
 </details>
 
-Die empfohlene Einstellung:
+Empfohlen ist, in dieser Zeile nur "Verwenden" einzuschalten. "Zwingend", "Nur Administrator:innen" und "Benutzer:innen: nur lesend" bleiben aus: So erfasst jede Person ihre Signatur freiwillig und ändert sie selbst. Diese Einstellung entspricht der Systemkonfiguration.
 
-![Nur Verwenden eingeschaltet, Zwingend, Admin only und User readonly aus: Zeile emailSignature im Dialog Context bearbeiten](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" title="Dialog Context bearbeiten" }
+![Nur Verwenden eingeschaltet, Zwingend, Nur Administrator:innen und Benutzer:innen: nur lesend ausgeschaltet in der Zeile emailSignature](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" title="Dialog Kontext bearbeiten" }
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -138,6 +140,7 @@ Die empfohlene Einstellung:
 [Lebenszyklen: Übersicht >](Life_cycles_-_Administration.de.md)<br>
 [Automatischer Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
 [Wie verwende ich das Sprachanpassungswerkzeug? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md)<br>
-[Persönliche Konfiguration: Profil >](../../manual_user/personal_menu/Profile.de.md)
+[Persönliche Konfiguration: Profil >](../../manual_user/personal_menu/Profile.de.md)<br>
+[Customizing: Übersicht >](Customizing.de.md)
 
 [Zum Seitenanfang ^](#email_settings)

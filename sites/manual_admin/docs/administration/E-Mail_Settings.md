@@ -94,33 +94,35 @@ The obstacle is not the tool, but finding the variable: the mail texts are sprea
 
 With the E-Mail signature, OpenOlat appends the personal text of a person to the end of the emails that this person sends from OpenOlat via an email form, for example via the course element "E-Mail", the course element "Participant list" or the members management. The text sits at the end of the message in the email form, where it can still be edited before sending. Every person enters their signature themselves: [Profile](../../manual_user/personal_menu/Profile.md).
 
-For the signature field to appear in the profile, activate the attribute "emailSignature" in the system administration under:<br>
+On a new installation the field "E-Mail signature" is already in the profile: the property "emailSignature" is active in the system configuration and included in the context of the profile. If the field is missing from the profile of your instance, its saved configuration differs from this. Then check two places in the system administration under:<br>
 `Administration > Customizing > User Properties`
+
+What a property and a context are is explained in the section [User properties](Customizing.md#user_properties).
 
 **Step 1: Tab "Properties", activate the row "emailSignature"**
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate1_v1_de.png" alt="Column Active releases emailSignature system-wide: tab Properties of the page User Properties" />
+	<img src="../assets/e-mail_settings_activate1_v2_en.png" alt="Switch in the column Active releases emailSignature system-wide" class="shadow lightbox" title="Tab Properties on the page User Properties · 2026.10.20" />
 </details>
 
-**Step 2: Tab "Contexts", edit the context "org.olat.user.ProfileFormController"**
+**Step 2: Tab "Contexts", click "Edit" in the row "org.olat.user.ProfileFormController"**
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate2_v1_de.png" alt="Link Edit opens the attribute list of org.olat.user.ProfileFormController: tab Contexts of the page User Properties" />
+	<img src="../assets/e-mail_settings_activate2_v2_en.png" alt="Link Edit in the row org.olat.user.ProfileFormController opens the property list of this context" class="shadow lightbox" title="Tab Contexts on the page User Properties · 2026.10.20" />
 </details>
 
-In the context, switch on the column "include" for "emailSignature". Only then is the field available in the profile.
+In the dialog "edit Context", switch on the switch in the column "include" in the row "emailSignature". Only then is the field available in the profile.
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate3_v1_de.png" alt="Column include releases emailSignature for the personal profile: dialogue edit Context" />
+	<img src="../assets/e-mail_settings_activate3_v2_en.png" alt="Switched-on include switch in the row emailSignature releases the field for the personal profile" class="shadow lightbox" title="Dialog edit Context · 2026.10.20" />
 </details>
 
-The recommended setting:
+We recommend switching on only "include" in this row. "Mandatory", "Admin only" and "User: readonly" stay off: this way every person enters their signature voluntarily and changes it themselves. This setting corresponds to the system configuration.
 
-![Only include switched on, Mandatory, Admin only and User readonly off: row emailSignature in the dialogue edit Context](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" title="Dialog Edit Context" }
+![Only include switched on, Mandatory, Admin only and User: readonly switched off in the row emailSignature](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" title="Dialog edit Context" }
 
 ## Further information {: #further_information}
 
@@ -138,6 +140,7 @@ The recommended setting:
 [Life cycles - Overview >](Life_cycles_-_Administration.md)<br>
 [Automatic Group Life Cycle >](Automatic_Group_Lifecycle.md)<br>
 [How do I use the language adaptation tool? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.md)<br>
-[Profile >](../../manual_user/personal_menu/Profile.md)
+[Profile >](../../manual_user/personal_menu/Profile.md)<br>
+[Customizing: Overview >](Customizing.md)
 
 [To the top of the page ^](#email_settings)

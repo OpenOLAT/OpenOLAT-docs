@@ -60,9 +60,9 @@ Alle Texte können in verschiedenen Sprachen hinterlegt werden.
 
 ## Hilfe [:octicons-tag-16:{ title="ab Release 15.1 (OO-4562)" }](https://track.frentix.com/issue/OO-4562){:target="_blank"} {: #help}
 
-Hier kann definiert werden, welche Hilfeseiten über das Hilfe-Icon :fontawesome-solid-circle-question: im allgemeinen Menü bereitgestellt werden. Auch ein Link zum Support Kontaktformular ist möglich.
+Damit Personen bei Fragen die passende Hilfe finden, legen Sie auf der Seite "Hilfe" fest, welche Hilfemöglichkeiten das Hilfe-Icon :fontawesome-solid-circle-question: anbietet, zum Beispiel das offizielle OpenOlat Handbuch, einen eigenen Hilfekurs oder ein Kontaktformular für den Support. Je Hilfemöglichkeit wählen Sie unter "Anzeige", ob sie im Autorenbereich, in den persönlichen Werkzeugen oder auf der Login-Seite erscheint.
 
-![Typ, Bezeichnung je Sprache, Symbol und URL, dazu die Anzeigeorte Autorenbereich, Benutzerwerkzeug und Login](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" title="Dialog Hilfemöglichkeit bearbeiten auf der Seite Hilfe" }
+![Unter Anzeige die drei Orte Autorenbereich, Persönliche Werkzeuge und Login, an denen die Hilfemöglichkeit erscheint, darüber Typ, Bezeichnung je Sprache, Symbol und URL](assets/admin_customizing_help_edit_v1_de.png){ class="shadow lightbox" title="Dialog Hilfemöglichkeit bearbeiten auf der Seite Hilfe · 2026.10.20" }
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -97,8 +97,48 @@ Für den Tab "Portal" können verschiedene Portlets ausgewählt werden.
 
 ## Benutzer:innen-Attribute {: #user_properties}
 
-Für Administrator:innen besteht hier die Möglichkeit, die in der Benutzerverwaltung angezeigten Attribute zu bestimmen und zu gruppieren.
-Ausserdem können die Übersetzungen bearbeitet werden.
+Welche Angaben OpenOlat zu einer Person führt, wie diese Angaben heissen und wo sie erscheinen, legen Administrator:innen und Systemadministrator:innen für die ganze Instanz fest. So bestimmen Sie an einer Stelle, welche Daten Ihre Organisation erhebt und welche Felder Personen im Profil, beim Erstellen eines Kontos oder bei der Selbstregistrierung ausfüllen. Sie finden die Einstellungen in der System-Administration unter:<br>
+`Administration > Customizing > Benutzer:innen-Attribute`
+
+Die Seite hat drei Tabs: "Attribute" für die einzelnen Angaben, "Verwendungskontexte" für die Stellen, an denen die Angaben erscheinen, und "Zurücksetzen" für die ganze Konfiguration auf einmal.
+
+### Was ist ein Attribut? {: #user_properties_attribute}
+
+Jedes Feld, das eine Person in ihrem Profil ausfüllt, ist ein Attribut: eine einzelne Angabe zu einer Person, zum Beispiel "Geburtsdatum" oder "Organisationseinheit / Studiengruppe". Ein Attribut ist für die ganze Instanz entweder aktiv oder deaktiviert.
+
+Der Tab "Attribute" listet alle Attribute mit ihrem technischen Namen und ihrer Beschriftung. Dort ordnen Sie ein Attribut einer Gruppe zu und passen in der Spalte "Übersetzen" seine Beschriftung je Sprache an. Die Gruppe bestimmt, unter welcher Überschrift das Feld im Profil steht: Felder der Gruppe "account" stehen dort unter "Personalien".
+
+### Was ist ein Verwendungskontext? {: #user_properties_context}
+
+Dasselbe Attribut erscheint an vielen Stellen von OpenOlat: im Profil, als Spalte in der Tabelle der Benutzerverwaltung, im Formular zum Erstellen eines Kontos, beim Importieren von Benutzer:innen, in der Selbstregistrierung und in den Angaben der REST API. Jede dieser Stellen ist ein Verwendungskontext. Ein Verwendungskontext führt seine eigene Auswahl an Attributen und legt je Attribut fest, ob es dort zwingend ist. So kann eine Angabe in der Benutzerverwaltung stehen, ohne dass die Selbstregistrierung danach fragt.
+
+Der Tab "Verwendungskontexte" listet alle Verwendungskontexte mit ihrem technischen Namen und einer Beschreibung. Das Profil heisst dort zum Beispiel "org.olat.user.ProfileFormController".
+
+Ob eine Angabe an einer Stelle erscheint, entscheidet sich deshalb zweimal: am Attribut, das aktiv sein muss, und am Verwendungskontext, der das Attribut verwenden muss.
+
+### Konfiguration zurücksetzen [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9781)" }](https://track.frentix.com/issue/OO-9781) {: #user_properties_reset}
+
+Nach vielen einzelnen Änderungen ist oft nicht mehr nachvollziehbar, welche Einstellung woher stammt. Mit dem Tab "Zurücksetzen" kehren Sie zu einem festen Stand zurück. Die Auswahlliste "Vordefinierte Konfiguration laden:" bietet zwei vordefinierte Konfigurationen:
+
+  * **Default** stellt die Systemkonfiguration wieder her, also den Stand einer neuen Installation.
+  * **Minimal** verwendet dieselben Verwendungskontexte, aber nur mit den Attributen "Anmeldename", "Vorname", "Nachname" und "E-Mail". Diese Konfiguration passt, wenn Ihre Instanz so wenige Angaben zu Personen wie möglich führen soll.
+
+OpenOlat berechnet beide aus der Systemkonfiguration der installierten Version. Sie kennen deshalb jedes Attribut und jeden Verwendungskontext dieser Version, auch nach einem Update.
+
+Ein Zurücksetzen ersetzt alle Einstellungen der Tabs "Attribute" und "Verwendungskontexte": welche Attribute aktiv sind, ihre Gruppen und in jedem Verwendungskontext die verwendeten Attribute, ihre Reihenfolge und die Einstellungen "Zwingend", "Nur Administrator:innen" und "Benutzer:innen: nur lesend". Eigene Anpassungen gehen dabei verloren. Beschriftungen, die Sie in der Spalte "Übersetzen" angepasst haben, bleiben erhalten.
+
+!!! warning "Achtung"
+    OpenOlat lädt die gewählte Konfiguration sofort nach "OK", ohne Rückfrage. Der Schritt lässt sich nicht rückgängig machen. Notieren Sie Ihre Einstellungen vorher, wenn Sie sie später wieder herstellen wollen.
+
+Unter der Auswahlliste fasst eine Notiz beide Konfigurationen zusammen. Nach "OK" meldet OpenOlat "Vordefinierte Konfiguration wurde geladen...".
+
+![Auswahlliste Vordefinierte Konfiguration laden mit dem Eintrag Default, darunter die Notiz zu Default und Minimal und dass eigene Anpassungen verloren gehen](assets/admin_customizing_user_properties_reset_v1_de.png){ class="shadow lightbox" title="Tab Zurücksetzen auf der Seite Benutzer:innen-Attribute · 2026.10.20" }
+
+#### Skype ID, Xing, LinkedIn und ICQ {: #user_properties_social_media}
+
+Die Attribute "Skype ID", "Xing", "LinkedIn" und "ICQ" sind in der Systemkonfiguration deaktiviert. Auf einer neuen Installation und nach "Default" erscheinen sie deshalb weder im Profil noch in der Benutzerverwaltung. Braucht Ihre Organisation eines davon, aktivieren Sie es im Tab "Attribute" in der Spalte "Aktiv".
+
+Auf einer bestehenden Installation hängt es davon ab, ob die Einstellungen dieser Seite schon einmal gespeichert wurden. Wurden sie nie geändert, sind die vier Attribute nach dem Update ebenfalls deaktiviert. Wurden sie schon einmal geändert, bleiben die vier Attribute so, wie sie gespeichert sind, bis Sie "Default" laden. Werte, die Personen bereits erfasst haben, löscht OpenOlat in keinem Fall.
 
 [Zum Seitenanfang ^](#customizing)
 
