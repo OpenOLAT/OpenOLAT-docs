@@ -55,7 +55,7 @@ To add a new appointment, click in the corresponding calendar field. A pop-up op
 9. You can only add links after the appointment has been created. Simply save the existing appointment and edit it again. You will then see an "Add link" button under "Links".
 
 
-Appointments can be subsequently edited or deleted by clicking on the appointment and then on the "Edit" button.
+You edit or delete an appointment afterwards by clicking on the appointment and then on the "Edit" button.
 
 An appointment can also be moved using drag & drop.
 
@@ -111,8 +111,8 @@ Depending on the type of calendar (Personal calendar, group calendar, course cal
 
 The personal calendar displays:
 
-1. The **personal appointments** you entered in this calendar yourself.
-2. Other **standalone calendars** that have been selected in the calendar list for the shared view.<br> E.g. a group or course calendar.
+1. The personal appointments you entered in this calendar yourself.
+2. Other standalone calendars that have been selected in the calendar list for the shared view.<br> E.g. a group or course calendar.
 3. **Aggregated calendars**<br> Aggregated calendars, for their part, have combined appointments from several different calendars. With aggregated calendars, it should be noted that OpenOlat cannot resolve where the events originally came from. An integrated aggregated calendar does not provide this origin information for the individual appointments, only which calendars are included.
 
 !!! info "Aggregated calendar"
@@ -159,18 +159,20 @@ If you want to add another independent calendar to the calendar list, use the bu
 Calendar files (.ics) can be added using the "Import file" button.<br>
 Clicking the small arrow next to it reveals the "Import from URL" entry.
 
-![Highlighted is the Import file button at the top right of the calendar list, next to it the opened arrow menu with the Import from URL entry](assets/pers_menu_calendar_list_add_v1_de.png){ class="shadow lightbox" title="Calendar list, Import file button" }
+![Highlighted is the Import file button at the top right of the calendar list, next to it the opened arrow menu with the Import from URL entry](assets/pers_menu_calendar_list_add_v1_en.png){ class="shadow lightbox" title="Calendar list, Import file button · 2026.10.20" }
+
+A calendar that you import from a URL must be reachable via the public internet. If the "SSRF mitigation" protection is switched on in the system administration, OpenOlat rejects addresses from the local network, for example a calendar server in the network of your organisation. When importing as a new calendar, the message "Data could not be written to that calendar file. Please try again later." then appears; when importing via the 3 dots into an existing calendar, the message "Calendar file format incorrect. Please check the URL" appears. The same messages also appear for a wrong address or a network error. An address from the local network can only be allowed through an exception in the server configuration, see [Security](../../manual_admin/administration/Login_Security.md#ssrf). Contact your administration for this. [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
 
 
 !!! info "Please note:"
 
-    Use the buttons above the calendar list to add further **independent calendars** to the calendar list.
+    Use the buttons above the calendar list to add further independent calendars to the calendar list.
 
     * Another line appears = another independent calendar
     * You can specify in the calendar list whether the appointments in this calendar should be transferred to your personal calendar (activate the toggle button).
     * You can give the calendars different colors.
 
-    The options to add or delete under the 3 dots at the end of a line, on the other hand, only edit this single **(aggregated) calendar**.
+    The options to add or delete under the 3 dots at the end of a line, on the other hand, only edit this single (aggregated) calendar.
 
     * The calendars imported here do *not* appear in the calendar list, but are included in the now aggregated calendar.
     * You can *not* differentiate by color.
@@ -197,9 +199,9 @@ Using iCal (a standard for managing appointments), you can integrate the various
 ---
 
 
-## Managed calendar {: #managed}
+## Managed calendar [:octicons-tag-16:{ title="from Release 10.4 (OO-1644)" }](https://track.frentix.com/issue/OO-1644) {: #managed}
 
-Other calendars (such as those from the PerformX system) can also be integrated into the OpenOlat calendar as **managed calendars** on Feed. Managed appointments are marked with a lock symbol.
+Other systems, for example PerformX, can write appointments into OpenOlat calendars via the REST interface. Such appointments are called managed appointments, the other system manages them. In the calendar they carry a lock symbol.
 
 
 !!! info "Important"
@@ -217,7 +219,8 @@ Other calendars (such as those from the PerformX system) can also be integrated 
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Finding courses >](../area_modules/Courses.md)<br>
 [Personal menu >](../personal_menu/index.md)<br>
-[User tools >](../personal_menu/Personal_Tools.md)
+[User tools >](../personal_menu/Personal_Tools.md)<br>
+[Security >](../../manual_admin/administration/Login_Security.md)
 
 **Further reading**<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>

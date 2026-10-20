@@ -55,7 +55,7 @@ Um einen neuen Termin hinzuzufügen, klicken Sie in das entsprechende Kalenderfe
 9. Links können Sie erst hinzufügen, nachdem der Termin erstellt wurde. Speichern Sie einfach den bestehenden Termin und bearbeiten Sie ihn erneut. Dann wird Ihnen unter "Links" ein Button "Link hinzufügen" angezeigt.
 
 
-Termine können nachträglich bearbeitet oder wieder gelöscht werden, indem man auf den Termin und anschliessend auf die Schaltfläche "Bearbeiten" klickt.
+Einen Termin bearbeiten oder löschen Sie nachträglich, indem Sie auf den Termin und anschliessend auf die Schaltfläche "Bearbeiten" klicken.
 
 Ein Termin kann auch mit Drag&Drop verschoben werden.
 
@@ -111,8 +111,8 @@ Je nach Kalenderart (Persönlicher Kalender, Gruppenkalender, Kurskalender) unte
 
 Im persönlichen Kalender werden angezeigt:
 
-1. Die selbst in diesem Kalender eingetragenen **persönlichen Termine**.
-2. Andere **eigenständige Kalender**, die in der Kalenderliste für die gemeinsame Ansicht ausgewählt wurden.<br> Z.B. ein Gruppen- oder Kurskalender.
+1. Die selbst in diesem Kalender eingetragenen persönlichen Termine.
+2. Andere eigenständige Kalender, die in der Kalenderliste für die gemeinsame Ansicht ausgewählt wurden.<br> Z.B. ein Gruppen- oder Kurskalender.
 3. **Aggregierte Kalender**<br> Aggregierte Kalender haben ihrerseits Termine wieder aus mehreren verschiedenen Kalendern zusammengezogen. Bei aggregierten Kalendern ist zu beachten, dass OpenOlat nicht auflösen kann, woher die Termine ursprünglich kamen. Ein eingebundener aggregierter Kalender liefert diese Herkunftsinformation für die einzelnen Termine nicht mit, lediglich welche Kalender darin enthalten sind.
 
 !!! info "Aggregierte Kalender"
@@ -161,16 +161,18 @@ Mit Klick auf den kleinen Pfeil daneben erscheint der Eintrag "Kalender via URL 
 
 ![Markiert ist die Schaltfläche Datei importieren oben rechts in der Kalenderliste, daneben das geöffnete Pfeilmenü mit dem Eintrag Kalender via URL importieren](assets/pers_menu_calendar_list_add_v1_de.png){ class="shadow lightbox" title="Kalenderliste, Schaltfläche Datei importieren" }
 
+Ein Kalender, den Sie per URL importieren, muss über das öffentliche Internet erreichbar sein. Ist in der System-Administration der Schutz "SSRF Mitigation" eingeschaltet, weist OpenOlat Adressen aus dem lokalen Netz ab, etwa einen Kalenderserver im Netz Ihrer Organisation. Beim Import als neuer Kalender erscheint dann die Meldung "Die Kalender-Datei konnte nicht geschrieben werden. Bitte versuchen Sie es später nochmals.", beim Import über die 3 Punkte in einen bestehenden Kalender die Meldung "Das Kalender-Dateiformat ist nicht korrekt. Bitte überprüfen Sie die URL." Dieselben Meldungen erscheinen auch bei einer falschen Adresse oder einem Netzwerkfehler. Eine Adresse aus dem lokalen Netz lässt sich nur über eine Ausnahme in der Serverkonfiguration freigeben, siehe [Sicherheit](../../manual_admin/administration/Login_Security.de.md#ssrf). Wenden Sie sich dafür an Ihre Administration. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
+
 
 !!! info "Beachten Sie:"
 
-    Mit den Buttons oberhalb der Kalenderliste fügen Sie weitere **eigenständige Kalender** zur Kalenderliste hinzu.
+    Mit den Buttons oberhalb der Kalenderliste fügen Sie weitere eigenständige Kalender zur Kalenderliste hinzu.
 
     * Es erscheint eine weitere Zeile = weiterer eigenständiger Kalender
     * Sie können in der Kalenderliste bestimmen, ob die Termine dieses Kalenders in Ihren persönlichen Kalender übernommen werden sollen (Toggle-Button einschalten).
     * Sie können den Kalendern unterschiedliche Farben geben.
 
-    Die Optionen zum Hinzufügen oder Löschen unter den 3 Punkten am Ende einer Zeile bearbeiten dagegen nur diesen einzelnen **(aggregierten) Kalender**.
+    Die Optionen zum Hinzufügen oder Löschen unter den 3 Punkten am Ende einer Zeile bearbeiten dagegen nur diesen einzelnen (aggregierten) Kalender.
 
     * Die hier importierten Kalender erscheinen *nicht* in der Kalenderliste, sind aber in dem nun aggregierten Kalender enthalten.
     * Sie können *keine* farbliche Unterscheidung vornehmen.
@@ -197,9 +199,9 @@ Mit Klick auf den kleinen Pfeil daneben erscheint der Eintrag "Kalender via URL 
 ---
 
 
-## Managed Kalender {: #managed}
+## Managed Kalender [:octicons-tag-16:{ title="ab Release 10.4 (OO-1644)" }](https://track.frentix.com/issue/OO-1644) {: #managed}
 
-Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Feed auch in den OpenOlat-Kalender als **managed Kalender** integrieren. Managed Termine werden mit einem Schloss-Symbol gekennzeichnet.
+Andere Systeme, zum Beispiel PerformX, können über die REST-Schnittstelle Termine in OpenOlat-Kalender schreiben. Solche Termine heissen managed Termine, sie verwaltet das andere System. Im Kalender tragen sie ein Schloss-Symbol.
 
 
 !!! info "Wichtig"
@@ -217,7 +219,8 @@ Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Fee
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Kurse finden >](../area_modules/Courses.de.md)<br>
 [Persönliches Menü >](../personal_menu/index.de.md)<br>
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
 
 **Weiterführend**<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>

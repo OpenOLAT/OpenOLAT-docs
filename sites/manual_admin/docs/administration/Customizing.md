@@ -67,14 +67,14 @@ Here you can specify which help pages are displayed via the help icon :fontaweso
 
 ## Language adaptation tool {: #language_adaption_tool}
 
-Individual text elements can be adjusted here if required.
+If a label of the user interface does not match the language of your organisation, you change individual text elements for the whole instance with the language adaptation tool. The "Start" button opens the tool in a new window.
 
 [To the top of the page ^](#customizing)
 
 
 ## System registration {: #system_registration}
 
-OpenOlat is open source and needs an active community of users. You too can be part of this community.
+OpenOlat is open source and needs an active community of users. With the system registration, you register your installation with openolat.org. You choose whether OpenOlat transfers statistical data to openolat.org anonymously, whether the installation is published at openolat.org and whether you get information on new releases and security updates.
 
 [To the top of the page ^](#customizing)
 
@@ -85,7 +85,7 @@ OpenOlat is open source and needs an active community of users. You too can be p
 Various portlets can be selected for the "Portal" tab.
 
 !!! tip "Tip"
-    We recommend not using this feature. It has been superseded by numerous modules in OpenOlat and is thus a historical remnant that nevertheless cannot simply be switched off. Thank you for your understanding.
+    We recommend not using this feature. It has been superseded by numerous modules in OpenOlat and is thus a historical remnant that nevertheless cannot simply be switched off.
 
 [To the top of the page ^](#customizing)
 
@@ -136,6 +136,8 @@ In the "Icon CSS Class" field, you set the symbol of the site. With the "Show to
 
 In the tabs "External page n°1" and "External page n°2", you add an external URL with its own title per language as a site. [:octicons-tag-16:{ title="from Release 18.2 (OO-7398)" }](https://track.frentix.com/issue/OO-7398)
 
+With the "iFrame" checkbox, OpenOlat shows the page embedded in the site. When you save, OpenOlat calls the address and checks whether the page allows embedding. If the address lies in the local network and the "SSRF mitigation" checkbox is selected under `Administration > Login > Security`, OpenOlat rejects the address. OpenOlat reports a rejected address the same way as a page that does not allow embedding: "This URL does not support iFrame embedding." An address from the local network can only be allowed through an exception in the server configuration, see [Security](Login_Security.md#ssrf). [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
+
 [To the top of the page ^](#customizing)
 
 
@@ -144,7 +146,8 @@ In the tabs "External page n°1" and "External page n°2", you add an external U
 
 **Mentioned on this page**<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
-[Module Catalog >](Modules_Catalog_2.0.md)
+[Module Catalog >](Modules_Catalog_2.0.md)<br>
+[Security >](Login_Security.md)
 
 **Further reading**<br>
 [Modules: Overview >](Modules.md)<br>

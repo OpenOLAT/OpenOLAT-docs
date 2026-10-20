@@ -70,7 +70,7 @@ Hier kann definiert werden, welche Hilfeseiten über das Hilfe-Icon :fontawesome
 
 ## Sprachanpassungswerkzeug {: #language_adaption_tool}
 
-Hier können bei Bedarf einzelne Textelemente für die ganze Instanz angepasst werden.
+Passt eine Beschriftung der Oberfläche nicht zur Sprache Ihrer Organisation, ändern Sie mit dem Sprachanpassungswerkzeug einzelne Textelemente für die ganze Instanz. Der Button "Start" öffnet das Werkzeug in einem neuen Fenster.
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -78,7 +78,7 @@ Hier können bei Bedarf einzelne Textelemente für die ganze Instanz angepasst w
 
 ## Systemregistrierung {: #system_registration}
 
-OpenOlat ist Open-Source und braucht eine aktive Community von Anwender:innen. Es besteht die Möglichkeit, dass auch Sie in dieser Community dabei sind.
+OpenOlat ist Open-Source und braucht eine aktive Community von Anwender:innen. Mit der Systemregistrierung melden Sie Ihre Installation bei openolat.org an. Sie wählen dabei, ob OpenOlat statistische Daten anonym an openolat.org überträgt, ob die Installation auf openolat.org veröffentlicht wird und ob Sie über neue Releases und Sicherheitsupdates informiert werden.
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -89,7 +89,7 @@ OpenOlat ist Open-Source und braucht eine aktive Community von Anwender:innen. E
 Für den Tab "Portal" können verschiedene Portlets ausgewählt werden.
 
 !!! tip "Tipp"
-    Wir empfehlen diese Einrichtung nicht einzusetzen. Sie ist überholt durch etliche Module in OpenOlat und ist damit ein historisches Überbleibsel, welches dennoch nicht einfach ausgeschaltet werden kann. Vielen Dank für Ihr Verständnis.
+    Wir empfehlen diese Einrichtung nicht einzusetzen. Sie ist überholt durch etliche Module in OpenOlat und ist damit ein historisches Überbleibsel, welches dennoch nicht einfach ausgeschaltet werden kann.
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -142,6 +142,8 @@ Im Feld "Icon CSS Class" legen Sie das Symbol des Bereichs fest. Mit der Checkbo
 
 In den Tabs "Externe Seite n°1" und "Externe Seite n°2" binden Sie je Sprache eine externe URL mit eigenem Titel als Bereich ein. [:octicons-tag-16:{ title="ab Release 18.2 (OO-7398)" }](https://track.frentix.com/issue/OO-7398)
 
+Mit der Checkbox "iFrame" zeigt OpenOlat die Seite eingebettet im Bereich an. Beim Speichern ruft OpenOlat die Adresse auf und prüft, ob die Seite eine Einbettung erlaubt. Liegt die Adresse im lokalen Netz und ist unter `Administration > Login > Sicherheit` die Checkbox "SSRF Mitigation" gewählt, weist OpenOlat die Adresse ab. Eine abgewiesene Adresse meldet OpenOlat gleich wie eine Seite, die keine Einbettung erlaubt: "Diese URL unterstützt keine iFrame Einbettung." Eine Adresse aus dem lokalen Netz lässt sich nur über eine Ausnahme in der Serverkonfiguration freigeben, siehe [Sicherheit](Login_Security.de.md#ssrf). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
+
 [Zum Seitenanfang ^](#customizing)
 
 
@@ -150,7 +152,8 @@ In den Tabs "Externe Seite n°1" und "Externe Seite n°2" binden Sie je Sprache 
 
 **Auf dieser Seite erwähnt**<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
-[Modul Katalog >](Modules_Catalog_2.0.de.md)
+[Modul Katalog >](Modules_Catalog_2.0.de.md)<br>
+[Sicherheit >](Login_Security.de.md)
 
 **Weiterführend**<br>
 [Module: Übersicht >](Modules.de.md)<br>

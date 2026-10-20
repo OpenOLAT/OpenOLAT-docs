@@ -1,80 +1,92 @@
 # Four Steps to Your Blog
 
-With the aid of the following guidelines you will create a blog for your
-course before adapting it according to your needs.
+With this guide, you add a blog to your course in a short time, define who may write in it, and create the first entry.
 
 ## Step 1: Open course editor and insert Blog course element
 
-a) Go to the desired course and open the course editor, which is located in the "Administration" menu.
+a) Open the desired course and select the "Course editor" entry in the "Administration" menu.
 
-b) Select the position in the course menu where the course element should be added. Course elements are always inserted below the currently selected course element.
+b) In the course menu, select the course element below which the blog should appear. OpenOlat always inserts new course elements below the selected course element.
 
-c) Click "Insert course element" or use the Quick-Add function and select "Blog".
+c) Click "Insert course elements" or use the Quick-Add function and select "Blog".
 
 The course element has now been added to the course.
 
-d) Now assign a suitable title in the tab „Title and description“ and save the course element.
+d) Assign a suitable title in the tab "Title and description" and save the course element.
 
-## Step 2: Create Blog
+## Step 2: Create Blog [:octicons-tag-16:{ title="from Release 19.0 (OO-7531)" }](https://track.frentix.com/issue/OO-7531)
 
-a) Go to the tab „Blog learning content“ and click "Select, create or import blog".
+a) Switch to the tab "Blog learning content". As long as no blog is selected, the tab offers three options:
 
-![Tab "Blog learning content" with the button "Select, create or import blog"](assets/13_blog_step2.png){ class="shadow lightbox" }
+![As long as no blog is selected, the tab offers the three options Select, Create and Embed via URL](assets/four_steps_to_your_blog_learning_content_v1_en.png){ class="shadow lightbox" title="Tab Blog learning content in the course editor · 2026.10.20" }
 
-Here you can now create a new blog, upload a blog you already have as a file (e.g. through an export), or specify a URL for the blog import.
+* **Select**: You connect the course element with a blog that already exists as a learning resource.
+* **Create**: You create a new OpenOlat blog in which you and the authorised people write entries.
+* **Embed via URL**: You embed an external blog via its RSS feed, see [Embed an external blog](#external_blog).
 
-In the following we assume that you want to use a new
-_OpenOlat blog_.
+A blog that you have as a file, for example from an export, you upload with "Import" via the arrow next to "Embed via URL". Whether a blog is an OpenOlat blog or an external blog is thus fixed when it is created and cannot be changed later.
 
-* Click the „Create“ button
+In the following, you create a new OpenOlat blog:
 
-* Enter a title for your blog and confirm with "Create".
+b) Click "Create".
 
-Done, a new Blog learning resource has been created, and further settings as well as the concrete design can now be made.
+c) In the "Create blog" dialog, enter a title and confirm with "Create".
 
-## Step 3: Define user permissions
+A new blog learning resource is now created and connected with the course element. The tab now shows the blog with the number of its posts and the settings "Posts are rateable" and "Posts are commentable". With "Edit learning resource" you open the blog itself.
 
-In the tab **"Blog learning content"** it is defined who may create blog entries and moderate the blog.
-More differentiated settings are also possible via the advanced configuration.
+## Step 3: Define user permissions [:octicons-tag-16:{ title="from Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417)
 
-Blog moderators additionally have the "Edit blog" button in the course run and can determine the title, description and image of a blog. They also decide at the outset whether an external blog or an OpenOlat blog is to be used. This decision is necessary before blog entries can be created, for example by participants.
+In the tab "Blog learning content", you define under "User rights" who may create blog entries and who may moderate the blog. For "Create items" and "Moderator" you select the roles, for example participants or coaches. In the advanced configuration, you additionally grant a right to individual users or groups, also with a start and an end. The "Create items" right only appears for an OpenOlat blog; in an external blog nobody writes in OpenOlat.
 
-Finally, the course must be published and the course editor closed for the changes to become visible.
+Finally, publish the course and close the course editor so that the changes become visible.
 
 ## Step 4: Add blog entries
 
-![Blog without entries, with the options "Create your own entries" and "Embed an already existing external blog"](assets/13_blog_step3a.png){ class="shadow lightbox" }
+After publishing, the blog is in the course. As long as it has no entries, it shows the message "No entries were found that can be displayed."
 
-* Click "**Create your own entries**" to create the first initial entry of the blog. This step is necessary so that blog entries can subsequently also be published by the defined target group.
+![A new blog without entries, the Add entry button creates the first entry](assets/four_steps_to_your_blog_add_entry_v1_en.png){ class="shadow lightbox" title="Blog course element in the course · 2026.10.20" }
 
-* Create the first blog entry by giving it a title. The actual blog entry is added under "Content". Audio or video files can additionally be inserted, or more files uploaded.
+* Click "Add entry". You find the button in the empty list and at the top right.
 
-* Once you have filled in all desired fields, publish the blog entry.
+* Give the entry a title and write it in the "Content" field. In addition, you can write a summary and upload an audio or video file.
 
-Additional entries can then simply be added via the "Create new entry" button in the
-course run.
+* Click "Publish". With "Save draft" you keep the entry without publishing it.
 
-!!! info "Info"
+You add further entries at any time with "Add entry". People with the "Create items" right write their entries the same way in the course, as soon as the course is published.
 
-    A prerequisite for course owners, coaches or participants to create blog entries is the use of an OpenOlat blog (not the integration of an external blog). Commenting, however, is generally possible.
+!!! info "Important"
 
-!!! info "Note"
+    Owners, coaches and participants can create entries only in an OpenOlat blog. Depending on the settings "Posts are rateable" and "Posts are commentable", they can rate and comment on an external blog.
 
-    Participants and coaches create their entries in the course run while the editor is closed. Owners can also add new entries in the course editor.
+    Participants and coaches create their entries in the course. Owners of the blog can additionally add entries directly in the learning resource, which opens in the course editor in the tab "Blog learning content" via "Edit learning resource".
 
-### Embed an external blog
+### Embed an external blog {: #external_blog}
 
-In addition to OpenOlat blogs, external blogs from the internet can also be embedded in a course. This requires the RSS feed of the desired external blog.
+You show a blog that appears outside OpenOlat on the internet directly in the course via its RSS feed. For this you need the address of the RSS feed.
 
-Instead of clicking "Create your own entries," click the **"Embed an already existing external blog"** button and insert the RSS feed link in the dialog that appears.
+In the tab "Blog learning content", click "Embed via URL". In the dialog, enter the address of the RSS feed in the "URL" field. If OpenOlat recognises the blog, the fields "Type" and "Title of learning resource" are filled in afterwards. Click "Embed". You open the same dialog in Authoring via the arrow next to "Import file" with "Embed via URL".
 
-The content of the external blog is then displayed directly in the OpenOlat course and can be rated with stars and also commented on. These comments are only visible within the course, not publicly on the internet.
+![In the URL field you enter the address of the external blog, type and title of the learning resource follow below](assets/four_steps_to_your_blog_embed_via_url_v1_en.png){ class="shadow lightbox" title="Embed via URL dialog · 2026.10.20" }
+
+The feed must be reachable via the public internet, because OpenOlat retrieves it from the server. If the "SSRF mitigation" protection is switched on in the system administration, OpenOlat does not retrieve a feed from the local network, for example from a server in the network of your organisation, see [Security](../../manual_admin/administration/Login_Security.md#ssrf). [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
+
+The course then shows the entries of the external blog. Depending on the settings, they can be rated with stars and commented on. The comments are only visible in the course, not in the external blog. New entries are only created in the external blog. You change the address of the feed in the learning resource with "Replace URL".
 
 !!! tip "Tip"
 
-    Alternatively, an OpenOlat blog can be created in the author area like any other learning resource and then integrated into the desired course in the course editor in the tab "Blog learning content".
+    Alternatively, you create an OpenOlat blog like any other learning resource in Authoring with "Create" and then connect it with the course in the course editor in the tab "Blog learning content" via "Select".
 
-    This approach is recommended to understand that learning resources are cross-course tools and that the integration in the selected course is only one option.
+    This shows that learning resources are cross-course: the same blog can be embedded in several OpenOlat courses and can also be used without a course.
 
-    The same blog can be embedded in several OpenOlat courses and can also be used independently of a course.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Security >](../../manual_admin/administration/Login_Security.md)
+
+**Further reading**<br>
+[Course Element "Blog" >](../learningresources/Course_Element_Blog.md)<br>
+[Four Steps to Your Podcast >](../resource_podcast/Four_Steps_to_Your_Podcast.md)
+
+[To the top of the page ^](#four-steps-to-your-blog)
 

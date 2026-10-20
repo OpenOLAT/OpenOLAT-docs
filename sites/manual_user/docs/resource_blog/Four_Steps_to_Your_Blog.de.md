@@ -1,81 +1,92 @@
 # Vier Schritte zu Ihrem Blog
 
-Mit dieser Anleitung haben Sie in kurzer Zeit in Ihrem Kurs einen Blog
-erstellt und ihn Ihren Wünschen entsprechend angepasst.
+Mit dieser Anleitung fügen Sie Ihrem Kurs in kurzer Zeit einen Blog hinzu, legen fest, wer darin schreiben darf, und erstellen den ersten Eintrag.
 
-## Schritt 1: Kurseditor öffnen und Kursbaustein Blog einfügen  
+## Schritt 1: Kurseditor öffnen und Kursbaustein Blog einfügen
 
-a) Gehen Sie in den gewünschten Kurs und öffnen Sie den Kurseditor, der sich im Menü "Administration" befindet.
+a) Öffnen Sie den gewünschten Kurs und wählen Sie im Menü "Administration" den Eintrag "Kurseditor".
 
-b) Wählen Sie die Stelle im Kursmenü an der der Baustein hinzugefügt werden soll. Kursbausteine werden immer unterhalb des aktuell ausgewählten Kursbausteins eingefügt.
+b) Wählen Sie im Kursmenü den Kursbaustein, unter dem der Blog stehen soll. OpenOlat fügt neue Kursbausteine immer unterhalb des ausgewählten Kursbausteins ein.
 
-c) Klicken Sie auf "Kursbaustein einfügen" oder nutzen Sie die Quick-Add Funktion und wählen Sie "Blog".
+c) Klicken Sie auf "Kursbausteine einfügen" oder nutzen Sie die Quick-Add-Funktion und wählen Sie "Blog".
 
-Schon ist der Kursbaustein dem Kurs hinzugefügt.  
+Schon ist der Kursbaustein dem Kurs hinzugefügt.
 
-d) Vergeben Sie nun noch einen passenden Titel im Tab „Titel und Beschreibung“ und speichern Sie den Kursbaustein.
+d) Vergeben Sie im Tab "Titel und Beschreibung" einen passenden Titel und speichern Sie den Kursbaustein.
 
-## Schritt 2: Blog erstellen  
+## Schritt 2: Blog erstellen [:octicons-tag-16:{ title="ab Release 19.0 (OO-7531)" }](https://track.frentix.com/issue/OO-7531)
 
-a) Gehen sie in den Tab „Blog-Lerninhalt“ und klicken sie auf „Blog wählen, erstellen oder importieren“.
+a) Wechseln Sie in den Tab "Blog-Lerninhalt". Solange kein Blog gewählt ist, bietet der Tab drei Wege an:
 
-![Dialog "Blog wählen, erstellen oder importieren" mit dem Button "Erstellen"](assets/Blog_erstellen1.png){ class="shadow lightbox" }
+![Solange kein Blog gewählt ist, bietet der Tab die drei Wege Auswählen, Erstellen und Per URL einbinden](assets/four_steps_to_your_blog_learning_content_v1_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor · 2026.10.20" }
 
-Hier können Sie nun einen neuen Blog erstellen, einen Blog der Ihnen als Datei vorliegt (z.B. durch einen Export) hochladen oder eine URL für den Blog-Import angeben.
+* **Auswählen**: Sie verbinden den Kursbaustein mit einem Blog, der bereits als Lernressource besteht.
+* **Erstellen**: Sie legen einen neuen OpenOlat-Blog an, in dem Sie und die berechtigten Personen Einträge schreiben.
+* **Per URL einbinden**: Sie binden einen externen Blog über seinen RSS-Feed ein, siehe [Externen Blog einbinden](#external_blog).
 
-Wir gehen im Folgenden davon aus, dass Sie einen neuen 
-_OpenOlat Blog_ verwenden möchten. 
+Einen Blog, der Ihnen als Datei vorliegt, zum Beispiel aus einem Export, laden Sie über den Pfeil neben "Per URL einbinden" mit "Import" hoch. Ob ein Blog ein OpenOlat-Blog oder ein externer Blog ist, steht damit beim Anlegen fest und lässt sich später nicht mehr ändern.
 
-* Klicken Sie auf den Button „Erstellen“ 
+Im Folgenden erstellen Sie einen neuen OpenOlat-Blog:
 
-* Geben Sie einen Titel für Ihren Blog ein und bestätigen Sie mit "Erstellen". 
+b) Klicken Sie auf "Erstellen".
 
-Fertig, damit ist eine neue Blog Lernressource angelegt und weitere Einstellungen sowie die konkrete Ausgestaltung können vorgenommen werden.
+c) Geben Sie im Dialog "Blog erstellen" einen Titel ein und bestätigen Sie mit "Erstellen".
 
-## Schritt 3: Benutzerberechtigungen definieren 
+Damit ist eine neue Blog-Lernressource angelegt und mit dem Kursbaustein verbunden. Der Tab zeigt den Blog nun mit der Zahl seiner Einträge und den Einstellungen "Beiträge bewerten" und "Beiträge kommentieren". Mit "Lernressource bearbeiten" öffnen Sie den Blog selbst.
 
-Im Tab **"Blog-Lerninhalt"** wird festgelegt, wer Blogbeiträge erstellen und den Blog moderieren darf. 
-Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
+## Schritt 3: Benutzerberechtigungen definieren [:octicons-tag-16:{ title="ab Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417)
 
-Blog-Moderatoren verfügen zusätzlich im Kursrun über den Button "Blog bearbeiten" und können Titel, Beschreibung und Bild eines Blogs bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Blog oder ein OpenOlat Blog verwendet werden soll. Diese Entscheidung ist notwendig bevor Blogbeiträge z.B. von Teilnehmenden erstellt werden können. 
+Im Tab "Blog-Lerninhalt" legen Sie unter "Berechtigungen" fest, wer Blogbeiträge erstellen und wer den Blog moderieren darf. Für "Beiträge erstellen" und "Moderator" wählen Sie je die Rollen, zum Beispiel Teilnehmer:innen oder Betreuer:innen. In der erweiterten Konfiguration vergeben Sie ein Recht zusätzlich an einzelne Benutzer:innen oder Gruppen, auch mit Beginn und Ende. Die Berechtigung "Beiträge erstellen" erscheint nur bei einem OpenOlat-Blog, bei einem externen Blog schreibt niemand in OpenOlat.
 
-Abschliessend muss der Kurs publiziert und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden.
+Abschliessend publizieren Sie den Kurs und schliessen den Kurseditor, damit die Änderungen sichtbar werden.
 
-## Schritt 4: Blog Beiträge hinzufügen  
+## Schritt 4: Blog Beiträge hinzufügen
 
+Nach dem Publizieren steht der Blog im Kurs. Solange er keine Einträge hat, zeigt er die Meldung "Es wurden keine Einträge gefunden, die angezeigt werden können."
 
-![Blog ohne Einträge mit den Optionen "Einträge selbst erstellen" und "Einen bestehenden Blog einbinden"](assets/13_blog_einbinden.png){ class="shadow lightbox" }
+![Ein neuer Blog ohne Einträge, mit dem Button Eintrag hinzufügen erstellen Sie den ersten Beitrag](assets/four_steps_to_your_blog_add_entry_v1_de.png){ class="shadow lightbox" title="Kursbaustein Blog im Kurs · 2026.10.20" }
 
-* Klicken Sie auf "**Einträge selbst erstellen**" um den ersten Initialbeitrag des Blogs zu erstellen. Dieser Schritt ist notwendig, damit Blogbeiträge von der definierten Zielgruppe anschliessend ebenfalls eingestellt werden können.
+* Klicken Sie auf "Eintrag hinzufügen". Sie finden den Button in der leeren Liste und oben rechts.
 
-* Erstellen Sie den ersten Blogbeitrag indem Sie einen Titel vergeben. Der eigentliche Blogbeitrag wird unter "Inhalt" eingefügt. Alternativ oder ergänzend können auch Audio oder Videodateien oder als eingefügt. Zusätzlich können noch hochgeladen werden. 
+* Vergeben Sie einen Titel und schreiben Sie den Beitrag im Feld "Inhalt". Ergänzend können Sie eine Zusammenfassung schreiben und eine Audio- oder Videodatei hochladen.
 
-* Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie den Blogbeitrag. 
+* Klicken Sie auf "Veröffentlichen". Mit "Entwurf speichern" sichern Sie den Beitrag, ohne ihn zu veröffentlichen.
 
-Weitere Einträge können anschliessend über den Button "Neuen Eintrag erstellen" einfach im
-Kursrun hinzugefügt werden.
+Weitere Einträge fügen Sie jederzeit mit "Eintrag hinzufügen" hinzu. Personen mit der Berechtigung "Beiträge erstellen" schreiben ihre Beiträge auf dieselbe Weise im Kurs, sobald der Kurs publiziert ist.
 
-!!! info "Info"
+!!! info "Wichtig"
 
-    Voraussetzung dafür, dass Kursbesitzer, Betreuer oder Teilnehmende Blogbeiträge erstellen können ist die Verwendung eines OpenOlat Blogs (nicht die Einbindung eines externen Blogs). Eine Kommentierung ist jedoch grundsätzlich möglich. 
+    Beiträge erstellen können Besitzer:innen, Betreuer:innen und Teilnehmende nur in einem OpenOlat-Blog. Einen externen Blog können sie je nach den Einstellungen "Beiträge bewerten" und "Beiträge kommentieren" bewerten und kommentieren.
 
-!!! info "Hinweis"
+    Teilnehmende und Betreuer:innen erstellen ihre Beiträge im Kurs. Besitzer:innen des Blogs fügen Einträge zusätzlich direkt in der Lernressource hinzu, die sich im Kurseditor im Tab "Blog-Lerninhalt" über "Lernressource bearbeiten" öffnet.
 
-    Teilnehmer und Betreuer erstellen ihre Beiträge bei geschlossenem Editor im Kursrun. Besitzer können neue Einträge auch im Kurseditor hinzufügen.
+### Externen Blog einbinden {: #external_blog}
 
- ### Externen Blog einbinden
+Einen Blog, der ausserhalb von OpenOlat im Internet erscheint, zeigen Sie über seinen RSS-Feed direkt im Kurs an. Sie brauchen dafür die Adresse des RSS-Feeds.
 
- Neben OpenOlat Blogs können auch externe Blogs aus dem Internet in einen Kurs eingebunden werden. Hierfür wird der RSS-Feed des gewünschten externen Blogs benötigt.
+Klicken Sie im Tab "Blog-Lerninhalt" auf "Per URL einbinden". Tragen Sie im Dialog im Feld "URL" die Adresse des RSS-Feeds ein. Erkennt OpenOlat den Blog, sind danach die Felder "Typ" und "Titel der Lernressource" ausgefüllt. Klicken Sie auf "Einbinden". Denselben Dialog öffnen Sie im Autorenbereich über den Pfeil neben "Datei importieren" mit "Per URL einbinden".
 
- Anstatt auf den Button "Einträge selbst erstellen" klicken Sie auf den Button **"Einen bestehenden Blog einbinden"** und fügen Sie im erscheinenden Dialog den RSS-Feed Link ein.
+![Im Feld URL tragen Sie die Adresse des externen Blogs ein, Typ und Titel der Lernressource folgen darunter](assets/four_steps_to_your_blog_embed_via_url_v1_de.png){ class="shadow lightbox" title="Dialog Per URL einbinden · 2026.10.20" }
 
- Anschliessend werden die Inhalte des externen Blogs im OpenOlat Kurs direkt angezeigt und können mit Sternchen bewertet und auch kommentiert werden. Diese Kommentierungen sind nur innerhalb des Kurses, nicht öffentlich im Internet, sichtbar.
+Der Feed muss über das öffentliche Internet erreichbar sein, denn OpenOlat ruft ihn vom Server aus ab. Ist in der System-Administration der Schutz "SSRF Mitigation" eingeschaltet, ruft OpenOlat keinen Feed aus dem lokalen Netz ab, etwa von einem Server im Netz Ihrer Organisation, siehe [Sicherheit](../../manual_admin/administration/Login_Security.de.md#ssrf). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
+
+Anschliessend zeigt der Kurs die Einträge des externen Blogs. Je nach Einstellung lassen sie sich mit Sternen bewerten und kommentieren. Die Kommentare sind nur im Kurs sichtbar, nicht im externen Blog. Neue Einträge entstehen nur im externen Blog. Die Adresse des Feeds ändern Sie in der Lernressource mit "URL ersetzen".
 
 !!! tip "Tipp"
 
-    Alternativ kann ein OpenOlat Blog so wie alle anderen Lernressourcen im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Blog-Lerninhalt" in den gewünschten Kurs eingebunden werden.
+    Alternativ erstellen Sie einen OpenOlat-Blog wie jede andere Lernressource im Autorenbereich mit "Erstellen" und verbinden ihn danach im Kurseditor im Tab "Blog-Lerninhalt" über "Auswählen" mit dem Kurs.
 
-    Dieses Vorgehen empfiehlt sich um zu verstehen, dass Lernressourcen kursübergreifende Tools sind und die Einbindung in dem gewählten Kurs nur eine Möglichkeit darstellt.
+    So wird sichtbar, dass Lernressourcen kursübergreifend sind: Derselbe Blog lässt sich in mehreren OpenOlat-Kursen einbinden und auch ohne Kurs verwenden.
 
-    Derselbe Blog kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
+
+**Weiterführend**<br>
+[Kursbaustein "Blog" >](../learningresources/Course_Element_Blog.de.md)<br>
+[Vier Schritte zu Ihrem Podcast >](../resource_podcast/Four_Steps_to_Your_Podcast.de.md)
+
+[Zum Seitenanfang ^](#vier-schritte-zu-ihrem-blog)
 

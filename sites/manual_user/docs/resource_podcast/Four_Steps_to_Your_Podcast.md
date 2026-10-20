@@ -1,100 +1,84 @@
 # Four Steps to Your Podcast
 
-With the aid of this guideline you will be able to add a podcast to your
-course in no time and create your first episode.
+With this guide, you add a podcast to your course in a short time and create the first episode.
 
 ## Requirements
 
 Produce an audio or video file for your podcast episode by means of
 appropriate recording software (e.g.
 [GarageBand](http://www.apple.com/ilife/garageband/ "GarageBand")) before
-saving it in MP3, MP4, M4V, M4A or AAC.
+saving it in one of the indicated formats: MP3, MP4, M4V, M4A or AAC, and observe the indicated maximum size.
 
-In case you have not created a course yet you will get further information in
-the chapter ["Creating Courses"](../learningresources/Creating_Course.md) on how to proceed
-before generating a podcast by means of the following instruction.
+In case you have not created a course yet, the chapter ["Creating Courses"](../learningresources/Creating_Course.md) describes how to proceed
+before you create your podcast with the following instruction.
 
 ## Create Podcast
 
-### Step 1: Open course editor and insert podcast course element<br>
----<br>
-1. Search for your course in "Authoring", section "My entries," and open it.
+In four steps you insert the course element, create the podcast, fill it with the first episode and publish the course.
 
-![Find your course in "Authoring", section "My entries"](assets/opencourse.gif){ class="shadow lightbox" }
+### Step 1: Open course editor and insert podcast course element
 
-2. Click "Course Editor" at the top of the Administration drop-down menu.<br>
-3. Select position at which your Podcast course element should be inserted by
-clicking on it.<br>
-4. Select "Podcast" in the pop-up "Insert course elements" in the toolbar.<br>
-5. Indicate a short title for your course element in the tab "Title and
-description" and save your settings.
+1. Open the course in Authoring, for example via the tab "My courses" or "Favourites".
 
-### Step 2: Create a Podcast<br>
----<br>
-1. Click on "Select, create or import podcast" in the tab "Podcast learning
-content."
+    ![The tabs Favourites and My courses list the courses you own or have marked as favourite](assets/four_steps_to_your_podcast_authoring_my_courses_v1_en.png){ class="shadow lightbox" title="Tab My courses in Authoring · 2026.10.20" }
 
-![Select, create or import a podcast in the tab "Podcast learning content"](assets/13_podcast_step2.png){ class="shadow lightbox" }
+2. Select the "Course editor" entry in the "Administration" menu.
+3. In the course menu, select the course element below which the podcast should appear.
+4. Click "Insert course elements" and select "Podcast".
+5. Enter a short title for the course element in the tab "Title and description" and save.
 
-2. Click on "Create."<br>
-3. Indicate the title of your podcast. This information will appear in the
-header of your podcast. Click on "Create"
+### Step 2: Create a Podcast [:octicons-tag-16:{ title="from Release 19.0 (OO-7531)" }](https://track.frentix.com/issue/OO-7531)
 
-### Step 3: Fill podcast with content<br>
----<br>
-1. In the course editor click on "Edit" in the tab "Podcast Learning Content".
+1. Switch to the tab "Podcast learning content". As long as no podcast is selected, the tab offers three options: "Select" connects the course element with an existing podcast, "Create" creates a new OpenOlat podcast and "Embed via URL" embeds an external podcast via its feed.
 
-![Click "Edit" in the tab "Podcast Learning Content"](assets/openpodcast.gif){ class="shadow lightbox" }
+    ![As long as no podcast is selected, the tab offers the three options Select, Create and Embed via URL](assets/four_steps_to_your_podcast_learning_content_v1_en.png){ class="shadow lightbox" title="Tab Podcast learning content in the course editor · 2026.10.20" }
 
-2. Click on "Create episodes".
+2. Click "Create".
+3. In the "Create Podcast" dialog, enter the title of the podcast. It later appears in the header of the podcast. Click "Create".
 
-!!! info ""
+Whether a podcast is an OpenOlat podcast or an external podcast is fixed when it is created and cannot be changed later.
 
-    If you already have an external podcast, you can also include it.
+You embed an existing external podcast in the tab "Podcast learning content" with "Embed via URL". In the dialog, enter the address of the feed in the "URL" field and click "Embed". The feed must be reachable via the public internet, because OpenOlat retrieves it from the server. If the "SSRF mitigation" protection is switched on in the system administration, OpenOlat does not retrieve a feed from the local network, for example from a server in the network of your organisation, see [Security](../../manual_admin/administration/Login_Security.md#ssrf). [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
 
+### Step 3: Fill podcast with content
 
-![Podcast without episodes, with the options "Create your own episode" and "Embed an already existing external podcast"](assets/createepisode.gif){ class="shadow lightbox" }
+1. In the course editor, click "Edit learning resource" in the tab "Podcast learning content".
 
-3. Enter a title, select an audio or video file from your computer and click
-"Publish". Add a description if necessary.
+    ![The selected podcast with its number of posts, the Edit learning resource button opens it](assets/four_steps_to_your_podcast_edit_resource_v1_en.png){ class="shadow lightbox" title="Tab Podcast learning content with a selected podcast · 2026.10.20" }
 
-!!! info ""
+2. Click "Add episode". You find the button in the empty list and at the top right.
 
-    Additional episodes can be added later on following the same pattern or directly within the course view.
+    ![A new podcast without episodes, the Add episode button creates the first episode](assets/four_steps_to_your_podcast_add_episode_v1_en.png){ class="shadow lightbox" title="Podcast learning resource · 2026.10.20" }
 
-!!! warning "Attention"
+3. Enter a title, select a file from your computer in the "Audio or video file" field and click "Publish". If required, add a summary.
 
-    Step 3 is also required if learners are to upload podcasts. In any case, the first episode, i.e. the first video, must be uploaded by the teacher before the learners can upload videos themselves.
+You add further episodes later the same way or directly in the course. Who else may add episodes in the course, you define in the tab "Podcast learning content" under "User rights" with "Create items". These people add their episodes in the course as soon as the course is published.
 
-### Step 4: Publish and activate course<br>
----<br>
-1. The easiest way to publish a course is to close the course editor and switch
-directly to the normal course view.
+### Step 4: Publish and activate course
 
-    Simply click on the course title in the bread crumb bar and a query will
-appear asking you how you want to publish the course.
+1. Close the course editor. If the course has unpublished changes, the "Unpublished modifications" dialog appears.
 
-    Select "**Yes, automatically**" if you want to publish all changes made. Select
-"**Yes, manually**" if you only want to select some changes for publication.
+    Select "Publish automatically" if all changes are to be published. Select "Publish manually" if you only want to publish some of the changes or adjust the share or the course status.
 
-
-![Dialog "Publish changes" with the options "No", "Yes, manually" and "Yes, automatically"](assets/publizieren.jpg){ class="shadow lightbox" }
+    ![When you close the course editor, you publish all modifications automatically or select them manually](assets/four_steps_to_your_podcast_publish_changes_v1_en.png){ class="shadow lightbox" title="Unpublished modifications dialog · 2026.10.20" }
 
 !!! tip "Tip"
 
-    You can also publish your podcast through the link in the toolbar in the course editor. 
+    You open the detailed publishing process in the course editor via "Publish" in the toolbar.
 
-Your podcast is now embedded and participants can download the first
-episode.
+Your podcast is now embedded and participants can play the first episode.
 
-As with all OpenOlat learning resources, the learning resource (here Podcast)
-can be created first and then the created learning resource can be integrated
-into the desired course.
+Like any learning resource, you can also create a podcast first in Authoring and then embed it in the course in the tab "Podcast learning content" with "Select".
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Creating Courses >](../learningresources/Creating_Course.md)
+[Creating Courses >](../learningresources/Creating_Course.md)<br>
+[Security >](../../manual_admin/administration/Login_Security.md)
+
+**Further reading**<br>
+[Course Element "Podcast" >](../learningresources/Course_Element_Podcast.md)<br>
+[Four Steps to Your Blog >](../resource_blog/Four_Steps_to_Your_Blog.md)
 
 [To the top of the page ^](#four-steps-to-your-podcast)
 
