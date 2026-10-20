@@ -11,8 +11,7 @@ Available since | Release 10.5 (2016)
 
 ## BigBlueButton {: #bbb}
 
-BigBlueButton is software that enables online conferences or can serve as a virtual classroom.
-To enable web conferences with BigBlueButton in OpenOlat, BBB must be activated and configured in the system administration under `Administration > External tools > BigBlueButton`.
+BigBlueButton is software for online conferences and virtual classrooms. To make web conferences with BigBlueButton possible in OpenOlat, activate and configure BigBlueButton in the system administration under `Administration > External tools > BigBlueButton`.
 
 [See the details >](BigBlueButton_module.md)<br>
 [To the top of the page ^](#ext_tools)
@@ -26,7 +25,7 @@ OpenMeetings is a solution for web conferences.
 In the system administration you configure the OpenMeetings module and activate the functionality, under:<br>
 `Administration > External tools > OpenMeetings`
 
-In the tab "Configuration", enter the "URL OpenMeetings Server", as well as the "Web Service username" previously created in OpenMeetings and the corresponding "Web Service password". Then save the data and press the "Check the connection" button to check the credentials.
+In the tab "Configuration", enter the "URL OpenMeetings Server", as well as the "Web Service username" previously created in OpenMeetings and the corresponding "Web Service password". Then save the data and check the credentials with the "Check the connection" button.
 
 If the module is switched on and the credentials for the OpenMeetings server are correct, OpenOlat can create and use OpenMeetings rooms in the following locations:
 
@@ -43,7 +42,7 @@ In the tab "Rooms", administrators get an overview of the OpenMeetings rooms cre
 
 Adobe Connect is the web conferencing solution from the Adobe product line.
 
-Activation and configuration can be carried out if the required licenses are available.
+You can activate and configure the tool if the required licenses are available.
 
 [To the top of the page ^](#ext_tools)
 
@@ -74,7 +73,7 @@ How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting 
 
 ## Microsoft SharePoint / OneDrive [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #microsoft_sharepoint}
 
-To enable writing and copying files to and from SharePoint and OneDrive in the OpenOlat File Hub and OpenOlat Media Center, these two tools must be activated in the system administration under `Administration > External tools > Microsoft SharePoint / OneDrive`. (They can be activated individually).
+To enable writing and copying files to and from SharePoint and OneDrive in the OpenOlat File Hub and OpenOlat Media Center, activate these two tools in the system administration under `Administration > External tools > Microsoft SharePoint / OneDrive`. You can also activate them individually.
 
 The prerequisite is that the required licenses are available.
 
@@ -86,7 +85,7 @@ The prerequisite is that the required licenses are available.
 ## Zoom [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6187)" }](https://track.frentix.com/issue/OO-6187){:target="_blank"} {: #zoom}
 
 Zoom is software that can be used to hold video conferences, meetings, and webinars.
-To enable Zoom meetings in OpenOlat, Zoom must be activated and configured in the system administration under `Administration > External tools > Zoom`.
+To make Zoom meetings possible in OpenOlat, activate and configure Zoom in the system administration under `Administration > External tools > Zoom`.
 
 [See the details >](Zoom.md)<br>
 [To the top of the page ^](#ext_tools)
@@ -109,7 +108,7 @@ This allows e.g. external LTI platforms and tools to be connected.
 
 GoToTraining is a virtual training platform.
 
-Activation and configuration can be carried out if the required licenses are available.
+You can activate and configure the tool if the required licenses are available.
 
 [Website GoToTraining >](https://www.goto.de/training)<br>
 [To the top of the page ^](#ext_tools)
@@ -128,9 +127,9 @@ You receive the following information from your vitero or OpenOlat administrator
 
 Under "Time Zone OLAT server" you set the time zone of your OpenOlat system. This is necessary to synchronize the times of the appointments with the vitero system.
 
-Once you have entered the data, select the "Test server connection" button to check the configuration and the connection to the vitero server. Then you save the configuration and use vitero in your courses.
+Once you have entered the data, check the configuration and the connection to the vitero server with the "Test server connection" button. Then you save the configuration and use vitero in your courses.
 
-Please note that user accounts are automatically created for the OpenOlat connection on the vitero server. Any existing user accounts and appointments will not be considered.
+For the connection, OpenOlat automatically creates user accounts on the vitero server. OpenOlat does not take into account user accounts and appointments that already exist on the vitero server.
 
 
 [Website vitero >](https://www.vitero.com/)<br>
@@ -140,7 +139,7 @@ Please note that user accounts are automatically created for the OpenOlat connec
 
 ## JupyterHub [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6901)" }](https://track.frentix.com/issue/OO-6901){:target="_blank"} {: #jupyter}
 
-With JupyterHub, learners start a Jupyter environment from within the course. The course element sets which image the hub starts. OpenOlat connects the hub via LTI 1.3. The module "LTI 1.3" must therefore be enabled, see [LTI 1.3](#lti):<br>
+With JupyterHub, learners start a Jupyter environment from within the course. The course element sets which image the hub starts. OpenOlat connects the hub via LTI 1.3. The module "LTI 1.3" must therefore be enabled in the system administration, see [LTI 1.3](#lti):<br>
 `Administration > External tools > LTI > Configuration`
 
 You set up a hub in the system administration: `Administration > External tools > JupyterHub > Add hub configuration`. The button appears once "JupyterHub course element" is switched on. In the "JupyterHub URL" field you enter the address of the hub. From this address OpenOlat builds the redirection URI and the other LTI addresses itself. In OpenOlat you do not enter them by hand:
@@ -153,6 +152,22 @@ You set up a hub in the system administration: `Administration > External tools 
 
 When you change a hub configuration, OpenOlat sets these addresses again on saving. OpenOlat also generates the "Client ID" itself and shows it in the form.
 
+### Hub configurations {: #jupyter_hub_configurations}
+
+If a hub is no longer offered, for example after the end of the semester, deactivate it instead of deleting it. The configuration is kept, the hub can no longer be selected in the course editor, and the course elements that still use it point this out.
+
+You find the list "Hub configurations" in the system administration under `Administration > External tools > JupyterHub`. It shows each hub with status, client ID, CPU and RAM. The list opens in the "Active" tab; the "All" tab also shows the inactive hubs, and the "Status" filter limits the list to active or inactive hubs [:octicons-tag-16:{ title="from Release 21.0 (OO-9565)" }](https://track.frentix.com/issue/OO-9565){:target="_blank"}. The column "Applications / Participants" counts the course elements that use the hub. A click on the number lists them with course and number of participants.
+
+![List of hub configurations with the All and Active tabs; the More actions menu of an active hub contains Deactivate](assets/admin_external_tools_jupyterhub_hub_list_v1_en.png){ class="shadow lightbox" title="Hub configurations list in the system administration · 2026.10.20" }
+
+The "More actions" menu (three-dot icon) at the end of each row offers these actions:
+
+* **Deactivate**: The hub becomes inactive immediately, without being deleted. It can no longer be selected in the course editor. Course elements that use it show a warning in the "JupyterHub configuration" tab, and instead of the Jupyter environment participants see the message "Jupyter hub inactive".
+* **Activate**: Appears for an inactive hub and makes it selectable and startable again.
+* **Edit**: Opens the hub configuration, like the "Edit" column.
+* **Copy**: Creates a new hub configuration with the same details and its own client ID. Its name carries the suffix "(copy)".
+* **Delete**: Is only possible as long as no course element uses the hub. Otherwise OpenOlat reports "Hub configuration in use"; in this case, deactivate the hub.
+
 
 [User manual: Course element JupyterHub >](../../manual_user/learningresources/Course_Element_JupyterHub.md)<br>
 [To the top of the page ^](#ext_tools)
@@ -163,7 +178,7 @@ When you change a hub configuration, OpenOlat sets these addresses again on savi
 
 card2brain is a software for learning with a flashcard system.
 
-Activation and configuration can be carried out if the required licenses are available.
+You can activate and configure the tool if the required licenses are available.
 
 
 [Website card2brain >](https://card2brain.ch/de)<br>
@@ -175,7 +190,7 @@ Activation and configuration can be carried out if the required licenses are ava
 
 Edubase is an e-book platform.
 
-Activation and configuration can be carried out if the required licenses are available.
+You can activate and configure the tool if the required licenses are available.
 
 
 [Website Edubase >](https://www.edubase.ch)<br>
@@ -198,7 +213,7 @@ The menu entry reads "Youtube API" and thus differs from the brand YouTube. It d
 
 Opencast is an open source software for planning, recording and publishing audiovisual learning content, especially for the recording and distribution of courses.
 
-After activation, the API and LTI configuration can be carried out. BigBlueButton recordings from OpenOlat can also be used.
+After activation, you set up the connection via the API and via LTI. BigBlueButton recordings from OpenOlat can also be used.
 
 [To the top of the page ^](#ext_tools)
 
@@ -241,7 +256,7 @@ administration you activate the module in general and enable the use of
 edu-sharing as a course element, under:<br>
 `Administration > External tools > edu-sharing`
 
-Configuration takes place in four steps:
+You configure edu-sharing in four steps:
 
 1. Enter and save configuration values.
 2. Generate and save keys.
@@ -271,7 +286,7 @@ The prerequisite in each case is that the necessary licenses are available.
 
 ## draw.io [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} {: #draw_io}
 
-draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the course element "Document", in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on one diagram. To use draw.io, the function must be set up in the system administration under `Administration > External tools > draw.io`.
+draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the course element "Document", in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on one diagram. To use draw.io, set up the function in the system administration under `Administration > External tools > draw.io`.
 
 
 [Website draw.io >](https://www.drawio.com)<br>
@@ -318,7 +333,7 @@ These functions are only available if the switch "PDF Service" is turned on and 
 
 Gotenberg is a PDF generator based on Google Chrome or Chromium and Docker.
 
-More information on Gotenberg can be found at [Gotenberg](https://gotenberg.dev/docs/getting-started/introduction) and [GitHub](https://github.com/gotenberg/gotenberg).
+You find more information on Gotenberg at [Gotenberg](https://gotenberg.dev/docs/getting-started/introduction) and [GitHub](https://github.com/gotenberg/gotenberg).
 
 To learn more about how to install and configure the PDF service Gotenberg, please visit the [installation manual](../installation/gotenbergPdf.md).
 

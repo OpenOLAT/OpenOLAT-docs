@@ -1,75 +1,75 @@
 # Formular als Rubrik-Bewertung
 
-Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](../learningresources/Form_Element_Rubric.de.md) Element eignet sich optimal für eine kriterienbasierte Bewertung von Leistungen. Dafür wird ein zuvor erstelltes Formular mit einem Rubrik Element in den Kursbaustein "Bewertung" eines Kurses eingebaut.
+Wer Leistungen nach festen Kriterien bewerten will, etwa ein Referat nach Inhalt, Sprache und Form, verknüpft den Kursbaustein "Bewertung" mit einem Formular, das ein Element [Rubrik](../learningresources/Form_Element_Rubric.de.md) enthält. Die Betreuenden wählen dann je Kriterium eine Stufe, und OpenOlat kann aus der Rubrik die Punkte übernehmen. Die Bewertung wird so für alle Teilnehmenden nach denselben Massstäben nachvollziehbar.
+
+Besitzer:innen des Kurses richten die Rubrik-Bewertung im Kurseditor ein. Bewerten können Besitzer:innen und Betreuer:innen.
 
 !!! note "Hinweis"
 
-    Auch Bewertungen im Rahmen eines Peer-Reviews werden mit Rubrik-Formularen ausgeführt. Dazu benötigt es den [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md).
+    Auch Bewertungen im Rahmen eines Peer-Reviews arbeiten mit Rubrik-Formularen. Dafür ist der [Kursbaustein "Aufgabe"](../learningresources/Course_Element_Task.de.md) zuständig.
 
 
 ## Im Kurseditor
 
-Gehen Sie in den Kurseditor und fügen Sie den [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md) hinzu. Aktivieren Sie anschliessend den Tab "Bewertung" des Kursbausteins und setzen Sie den Haken bei "Rubrik-Bewertung".
+Fügen Sie im Kurseditor den [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md) hinzu. Öffnen Sie den Tab "Bewertung" des Kursbausteins und schalten Sie "Rubrik-Bewertung" ein.
 
-![Checkbox Rubrik-Bewertung aktiviert mit Button "Rubrik-Formular auswählen", im Tab "Bewertung" des Kursbausteins](assets/Bewertung_Tab_Rurbrik-Bewerung.png){ class="shadow lightbox" }
+![Schalter Rubrik-Bewertung eingeschaltet, darunter der Button Rubrik-Formular auswählen, solange noch kein Formular gewählt ist](assets/forms_in_rubric_scoring_assessment_tab_v1_de.png){ class="shadow lightbox" title="Tab Bewertung eines Kursbausteins Bewertung im Kurseditor · 2026.10.20" }
 
-Im nächsten Schritt können sie ein passendes Rubrik-Formular auswählen oder erstellen.
+Klicken Sie danach auf "Rubrik-Formular auswählen". Im Dialog wählen Sie ein vorhandenes Formular aus oder legen ein neues an.
 
-![Liste eigener Formular-Lernressourcen zum Auswählen, im Dialog "Rubrik-Formular auswählen"](assets/Rubrik-Formular_waehlen.png){ class="shadow lightbox" }
+![Dialog Rubrik-Formular auswählen mit den eigenen Formularen im Tab Meine Einträge; der Haken in der Spalte Auswählen übernimmt ein Formular](assets/forms_in_rubric_scoring_select_form_v1_de.png){ class="shadow lightbox" title="Dialog Rubrik-Formular auswählen im Kurseditor · 2026.10.20" }
 
-Die Basis des Rubriks ist die Lernressource Formular der im [Formular-Editor](../learningresources/Form_Editor.de.md) ein Rubrik Element hinzugefügt wurde.
+Grundlage der Rubrik-Bewertung ist eine Lernressource Formular, der im [Formulareditor](../learningresources/Form_Editor.de.md) ein Element Rubrik hinzugefügt wurde.
 
-In der erscheinenden Übersicht werden alle Formulare, bei denen Sie Besitzer sind, angezeigt. Das gewünschte Formular mit dem Bewertungsrubrik kann einfach per Klick auf den Haken ausgewählt und so dem Kurs hinzugefügt werden.
+Der Dialog öffnet im Tab "Meine Einträge" mit den Formularen, deren Besitzer:in Sie sind. In den Tabs "Alle Einträge" und "Suchen" finden Sie weitere Formulare, die Sie einbinden dürfen. Mit einem Klick auf das Häkchen in der Spalte "Auswählen" übernehmen Sie ein Formular in den Kursbaustein.
 
-Hat man noch kein Formular erstellt, kann auch eine neue Lernressource Formular über den Button "Erstellen" angelegt oder ein extern vorliegendes Formular importiert werden. Anschliessend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
+Gibt es noch kein passendes Formular, legen Sie mit "Erstellen" eine neue Lernressource Formular an oder laden mit "Datei importieren" ein vorhandenes Formular hoch. Das neue Formular erscheint danach ebenfalls in der Liste und lässt sich auswählen.
 
-Ein neu erstelltes Formular beinhaltet zunächst noch kein Rubrik Element. Dieses muss im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](../learningresources/Form_Editor.de.md) hinzugefügt werden.
+Ein neu erstelltes Formular enthält noch kein Element Rubrik. Fügen Sie es im Kurseditor über "Bearbeiten" hinzu oder direkt in der Lernressource im [Formulareditor](../learningresources/Form_Editor.de.md).
 
-Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen eingebunden werden kann.
+Ein Formular, das Sie im Kurseditor erstellen, ist eine eigene Lernressource. Sie finden es im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" und können es in weiteren Kursen einbinden.
 
-Nachdem ein Formular (mit Rubrik) ausgewählt wurde kann es über den Link "Bearbeiten" gestaltet werden. Wurde das Formular schon vorher passend eingerichtet ist eine Bearbeitung nicht mehr notwendig.
+Ist ein Formular ausgewählt, zeigt der Tab seinen Titel und die Schaltflächen "Ersetzen" und "Bearbeiten". Mit "Bearbeiten" gestalten Sie das Formular; war es schon vorher passend eingerichtet, ist das nicht nötig. "Ersetzen" erscheint nur, solange in diesem Kursbaustein noch keine Rubrik-Bewertung begonnen wurde.
 
 ### Bewertungsrubrik Beispiel
 
-So könnte ein Bewertungsrubrik aussehen:
+Eine Rubrik mit vier Kriterien und fünf Stufen kann so aussehen:
 
-![Beispielrubrik mit vier Kriterienzeilen und fünf Bewertungsstufen von "sehr schlecht" bis "sehr gut"](assets/Rubrik_Formular_Beispiel1.png){ class="shadow lightbox" }
+![Beispielrubrik mit vier Kriterienzeilen und fünf Bewertungsstufen von "sehr schlecht" bis "sehr gut"](assets/Rubrik_Formular_Beispiel1.png){ class="shadow lightbox" title="Element Rubrik eines Formulars · 2023.06.01" }
 
-#### Rubrik-Bewertung konfigurieren
+### Rubrik-Bewertung konfigurieren
 
-Nachdem ein Rubrik mit der Bewertung verknüpft wurde können im Tab "Bewertung" folgende weitere Konfigurationen vorgenommen werden:
+Ist ein Rubrik-Formular verknüpft, legen Sie im Tab "Bewertung" fest, was die Teilnehmenden aus der Rubrik-Bewertung erhalten: Punkte, Note, Bestanden und persönliche Rückmeldungen.
 
-**Status "Korrigieren" setzen, wenn Zugriff gewährt**: Wird der Haken gesetzt erscheint bei geschlossenem Editor für Besitzer und Betreuer unter Status die Anzeige "Korrigieren". Den Teilnehmenden wird passend dazu "In Korrektur" angezeigt. Ist der Haken nicht gesetzt, sieht der User "Keine Angabe" und den Lehrenden wird der Status "Nicht gestartet" oder "Bewertet" angezeigt, je nachdem ob eine Bewertung schon vorgenommen wurde oder nicht.  
+**Status "Korrigieren" setzen, wenn Zugriff gewährt**: Damit die Betreuenden sehen, wo eine Bewertung ansteht, setzt OpenOlat in Lernpfadkursen den Status der teilnehmenden Person auf "Korrigieren", sobald sie Zugriff auf den Kursbaustein hat. Die Teilnehmenden sehen dann "In Korrektur". Ist der Schalter ausgeschaltet, steht der Status zunächst auf "Nicht gestartet".
 
-**Punkte vergeben**: Punkte können, sofern aktiviert, automatisch oder manuell vergeben werden. Automatische Punkte können als Summe oder Durchschnitt aus dem Rubrik übernommen werden. Die minimalen und maximalen Punkte werden angezeigt bzw. können bei manueller Bewertung eingetragen werden.
+**Punkte vergeben**: Ist der Schalter eingeschaltet, wählen Sie unter "Punkte", wie die Punkte entstehen: "Summe aus Rubrik-Formular übernehmen", "Durchschnitt aus Rubrik-Formular übernehmen" oder "Punkte manuell vergeben". Übernimmt OpenOlat die Punkte aus dem Rubrik-Formular, ergeben sich "Minimal erreichbare Punkte" und "Maximal erreichbare Punkte" aus dem Formular, und mit dem "Skalierungsfaktor" passen Sie die Punkte an. Bei manueller Vergabe tragen Sie beide Grenzen selbst ein.
 
-**Bewertung mit Einstufung/Noten**: Sofern Punkte vergeben werden können diese auch mit einer Einstufung/Noten verbunden werden. Die Zuweisung kann Manuell oder automatisch erfolgen. Ferner muss eine Bewertungsskala ausgewählt werden. Weitere Infos finden Sie [hier](../learningresources/Assessment_translate_points_in_grades.de.md). 
+**Bewertung mit Einstufung/Noten**: Sind Punkte eingeschaltet, rechnet OpenOlat sie auf Wunsch in eine Note um. Unter "Zuweisung" wählen Sie "Manuell" oder "Automatisch bei Punktänderungen", mit "Bewertungsskala bearbeiten" wählen Sie die Skala. Mehr dazu auf der Seite [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md).
 
-**Bestanden/Nicht bestanden ausgeben**:  Sofern ein bestanden angezeigt werden soll kann definiert werden ob die Anzeige automatisch basierend auf einer Punkteschwelle erfolgen soll oder ob ein bestanden manuell gesetzt werden soll.
+**Bestanden/Nicht bestanden ausgeben**: Schalten Sie die Option ein, wenn die Teilnehmenden sehen sollen, ob sie den Kursbaustein bestanden haben. Sind zusätzlich Punkte eingeschaltet, wählen Sie unter "Art der Ausgabe" zwischen "Automatisch durch Punkteschwelle" und "Manuell durch Betreuer:in". Bei der automatischen Ausgabe geben Sie die "Punkteschwelle für Bestanden" an.
 
 !!! info "Wichtig"
 
-    Wenn Einstufung/Noten ausgewählt wurde ist hier bereits enthalten ob die Skala mit einem Bestehen kombiniert ist oder nicht. Eine separate Auswahl ist dann nicht mehr möglich. 
+    Ist "Bewertung mit Einstufung/Noten" eingeschaltet, bestimmt die Bewertungsskala das Bestehen. Die Option "Bestanden/Nicht bestanden ausgeben" erscheint dann nicht.
 
-**Bei Kurs-Bewertung ausschliessen**: Ist der Haken gesetzt, wird die Bewertung des Kursbausteins nicht beim [Bestehen](../learningresources/Course_Settings.de.md) des Kurses berücksichtigt. 
+**Bei Kurs-Bewertung berücksichtigen**: In Lernpfadkursen erscheint der Schalter, sobald "Punkte vergeben" oder "Bestanden/Nicht bestanden ausgeben" eingeschaltet ist. Ist er eingeschaltet, zählen Punkte und Bestehen des Kursbausteins für die Bewertung des ganzen Kurses, die Sie in den [Kurseinstellungen im Tab "Bewertung"](../learningresources/Course_Settings_Assessment.de.md) festlegen.
 
-**Individueller Kommentar**: Wenn aktiviert, kann ein individueller Kommentar zur (Rubrik-)Bewertung hinterlassen werden z.B. eine Bewertung oder ein Punktabzug näher erläutert werden.
+**Individueller Kommentar**: Ist das Häkchen gesetzt, hinterlassen die Betreuenden zur Bewertung einen Kommentar, etwa um einen Punktabzug zu erklären.
 
-**Individuelle Bewertungsdokumente**: Wenn aktiviert, können ergänzend zur (Rubrik-)Bewertung weitere, individuelle Dokumente dem Lerner zur Verfügung gestellt werden.
+**Individuelle Bewertungsdokumente**: Ist das Häkchen gesetzt, stellen die Betreuenden der teilnehmenden Person zusätzlich eigene Dokumente zur Bewertung bereit.
 
-**Hinweise für Benutzer:innen**: Allgemeine Informationen zur Bewertung des Kursbausteins für alle Lernenden. Erläutern sie eventuell näher die Kategorien des Rubriks.  
-
-**Hinweise für alle Betreuer:innen**: Hier können Hinweise für Betreuende hinterlegt werden, z.B. was bei der Bewertung der Rubrik-Kategorien wichtig und zu beachten ist. Die Teilnehmenden sehen die Hinweise nicht.
-
-Weitere Informationen zum Kursbaustein Bewertung finden Sie [hier](../learningresources/Course_Element_Assessment.de.md).
+Alle Optionen des Tabs beschreibt die Seite [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md).
 
 ### Rubrik-Bewertung vornehmen
 
-Die eigentliche Bewertung der Lernenden erfolgt dann bei geschlossenem Kurs-Editor im Kursrun direkt beim gewünschten Kursbaustein oder im Bewertungswerkzeug.
+Besitzer:innen und Betreuer:innen bewerten die Teilnehmenden bei geschlossenem Kurseditor, entweder direkt im Kursbaustein oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md). Im Kursbaustein zeigt der Tab "Teilnehmer:innen" alle Teilnehmenden mit Punkten, Bestanden und Status. Die Tabs über der Liste filtern die Personen, zum Beispiel "Zu korrigieren" oder "Freizugeben".
 
-![Teilnehmerliste mit Punkten, Note und Bestehensstatus, im Bewertungswerkzeug](assets/Bewertung181.jpg){ class="shadow lightbox" }
+![Liste der Teilnehmenden mit Punkten, Bestanden und Status je Person, darüber die Tabs von Alle bis Ausgenommen und die Schaltfläche Neue Massenbewertung starten](assets/forms_in_rubric_scoring_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen eines Kursbausteins Bewertung im Kurs · 2026.10.20" }
 
-Wählen Sie hierfür die zu bewertende Person aus der Liste aus und markieren Sie einfach die gewünschten Ausprägungen. Sofern aktiviert werden die Punkte aus der Rubrikbewertung automatisch übernommen und führen so schnell zu einer Kriterien basierten, transparenten Bewertung.
+Wählen Sie die zu bewertende Person in der Liste aus, um ihre Bewertung zu öffnen. Dort öffnet "Editieren" im Abschnitt "Rubrik-Bewertung" das Rubrik-Formular, in dem Sie je Kriterium die zutreffende Stufe markieren. "Anzeigen" zeigt die Rubrik ohne Bearbeitung, und eine abgeschlossene Rubrik-Bewertung öffnen Sie mit "Wieder öffnen" erneut. Übernimmt der Kursbaustein die Punkte aus dem Rubrik-Formular, setzt OpenOlat sie aus der Rubrik ein. [:octicons-tag-16:{ title="ab Release 19.0 (OO-7757)" }](https://track.frentix.com/issue/OO-7757){:target="_blank"}
+
+Mit "Neue Massenbewertung starten" bewerten Sie mehrere Personen in einem Durchgang, siehe [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -77,10 +77,15 @@ Wählen Sie hierfür die zu bewertende Person aus der Liste aus und markieren Si
 [Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
-[Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)
+
+**Weiterführend**<br>
+[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Formulare in Kursen >](../learningresources/Forms_in_Courses.de.md)
 
 [Zum Seitenanfang ^](#formular-als-rubrik-bewertung)
 
