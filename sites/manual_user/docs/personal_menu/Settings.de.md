@@ -4,10 +4,14 @@
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Benutzereinstellungen](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank"}
 
-Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen anpassen.
+Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen anpassen. Sie finden die Einstellungen im persönlichen Menü unter:<br>
+`Persönliches Menü > Einstellungen`
 
 
 ## Tab System {: #tab_system}
+
+Sie finden den Tab "System" im persönlichen Menü unter:<br>
+`Persönliches Menü > Einstellungen > Tab "System"`
 
 ![Vier nummerierte Abschnitte des Tabs System, von den allgemeinen Systemeinstellungen bis zum Zurücksetzen der Einstellungen, in den persönlichen Einstellungen](assets/pers_menu_settings_tab_system_v1_de.png){ class="shadow lightbox" title="Tab System der persönlichen Einstellungen" }
 
@@ -60,25 +64,40 @@ Unter "Dokumenteneditor" wählen Sie, mit welchem Editor OpenOlat Ihre Dokumente
 
 ### ![2](assets/2_green_24.png) Spezielle Systemeinstellungen {: #special}
 
-In den Speziellen Systemeinstellungen sehen und ändern Sie die Einstellungen, die Ihnen den tagtäglichen Einstieg und die Arbeit mit OpenOlat erleichtern können.
+Damit Sie nach dem Login sofort dort weiterarbeiten, wo Ihre Arbeit liegt, legen Sie hier fest, welche Seite OpenOlat nach dem Login öffnet: den zuletzt besuchten Ort oder eine Startseite.
+
+![Sitzung wiederherstellen steht auf Nein, im Feld Startseite ist der Link auf einen eigenen Filter-Tab der Kursliste im Coaching eingetragen](assets/pers_menu_settings_tab_system_special_landing_page_v1_de.png){ class="shadow lightbox" title="Abschnitt Spezielle Systemeinstellungen im Tab System · 2026.10.19" }
 
 #### Sitzung wiederherstellen {: #resume_session}
 
-In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem Login passiert:
+In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem Login passiert. Ihre Startseite ist die Seite, die Sie unten im Feld "Startseite" festlegen. Haben Sie dort keine festgelegt, ist es die Startseite, die Ihre Organisation für Ihre Rolle eingerichtet hat.
 
-  * "Nein": Die Startseite wird geladen.
-  * "Ja, automatisch": OpenOlat lädt den zuletzt besuchten Ort.
-  * "Ja, bei Bedarf": Sie legen nach jedem Login fest, wohin Sie gelangen wollen.
+  * "Nein": OpenOlat öffnet nach jedem Login Ihre Startseite.
+  * "Ja, automatisch": OpenOlat öffnet den Ort, den Sie zuletzt besucht haben.
+  * "Ja, bei Bedarf": OpenOlat fragt nach dem Login "Wollen Sie Ihre letzte Sitzung wiederherstellen?". Mit "Ja" gelangen Sie an den zuletzt besuchten Ort, mit "Startseite" auf Ihre Startseite. Gibt es weder Ihre eigene noch eine Startseite Ihrer Organisation, heisst der zweite Button "Nein".
+
+Setzen Sie in dieser Rückfrage das Häkchen "Nicht mehr nachfragen", speichert OpenOlat Ihre Antwort als Einstellung: "Ja" stellt "Sitzung wiederherstellen" auf "Ja, automatisch", "Startseite" oder "Nein" stellt sie auf "Nein".
+
+Gibt es noch keinen zuletzt besuchten Ort, etwa beim ersten Login, öffnet OpenOlat in jedem Fall Ihre Startseite.
 
 
-#### Startseite {: #landing_page}
+#### :o_icon_o_icon_landingpage: Startseite [:octicons-tag-16:{ title="ab Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986) {: #landing_page}
 
-Wenn Sie die Einstellung "Ja, automatisch" gewählt haben, wird das Feld "Startseite" ausgeblendet. Dieses Feld gestattet Ihnen, jede beliebige Seite innerhalb OpenOlat als Ihre persönliche Startseite festzulegen und damit die systemweit eingestellte Startseite zu überschreiben.
+Ihre Organisation kann für jede Rolle eine Startseite einrichten. Haben Sie mehrere Rollen, legt Ihre Organisation fest, welche davon Ihre Startseite bestimmt. Im Feld "Startseite" können Sie eine eigene Startseite festlegen. Sie hat Vorrang vor der Startseite Ihrer Organisation. Damit OpenOlat sie nach jedem Login öffnet, wählen Sie bei "Sitzung wiederherstellen" "Nein". Mehr dazu: [Startseiten nach Rolle](../../manual_admin/administration/Landing_pages.de.md#role_based) und [Was Vorrang vor der Startseite Ihrer Organisation hat](../../manual_admin/administration/Landing_pages.de.md#precedence)
 
-Seitenspezifische Links finden Sie in der Social-Sharing-Leiste links unten unter "Link kopieren". Noch einfacher ist es, auf der gewünschten Startseite das Startseiten-Icon anzuklicken. Jede OpenOlat-Seite, auf die Sie Zugriff haben, kann so als persönliche Startseite gewählt werden.
+!!! info "Wichtig"
 
-**Startseiten-Icon in der Fusszeile:**
-![Startseiten-Icon in der Fusszeile mit Pfeil markiert, darunter der Tooltip Aktuelle Seite im Profil als persönliche Startseite festlegen](assets/pers_menu_settings_tab_system_pers_startpage_v1_de.png){ class="shadow lightbox" title="Abschnitt Spezielle Systemeinstellungen" }
+    Eine persönliche Startseite steht nicht in den Regeln, mit denen Ihre Organisation die Startseiten einrichtet. Öffnet OpenOlat nach dem Login eine unerwartete Seite, muss bei einer Anfrage deshalb zuerst geklärt werden, ob eine Regel Ihrer Organisation oder Ihre persönliche Startseite gilt. Diese Abklärung verkürzen Sie, wenn Sie gleich angeben, ob Sie eine persönliche Startseite festgelegt haben.
+
+Bei "Ja, automatisch" blendet OpenOlat das Feld "Startseite" aus.
+
+Am einfachsten öffnen Sie die gewünschte Seite und klicken links unten in der Fusszeile auf das Startseiten-Icon :o_icon_o_icon_landingpage: "Aktuelle Seite im Profil als persönliche Startseite festlegen". Jede OpenOlat-Seite, auf die Sie Zugriff haben, kann so Ihre persönliche Startseite werden. Den Link auf eine bestimmte Seite erhalten Sie auch über die Aktion "Teilen" links unten in der Fusszeile. Wählen Sie dort "Link kopieren" und fügen Sie den Link ins Feld "Startseite" ein [:octicons-tag-16:{ title="ab Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"}.
+
+Auch einen eigenen Filter-Tab einer Liste können Sie als persönliche Startseite festlegen, zum Beispiel einen gespeicherten Filter der Kursliste im Coaching. Öffnen Sie den Tab und klicken Sie auf das Startseiten-Icon :o_icon_o_icon_landingpage: in der Fusszeile. Wie Sie einen Filter als eigenen Tab speichern, beschreibt die Seite [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
+
+![Eigener Filter-Tab ohne Teilnehmer:innen unter Als Besitzer:in, ein Pfeil führt zum Startseiten-Icon links unten in der Fusszeile](assets/pers_menu_settings_landing_page_icon_v1_de.png){ class="shadow lightbox" title="Seite Kurse im Coaching · 2026.10.19" }
+
+Leeren Sie das Feld "Startseite" und klicken Sie auf "Speichern", gilt wieder die Startseite Ihrer Organisation.
 
 
 ### ![3](assets/3_green_24.png) Persönliche Werkzeuge {: #personal_tools}
@@ -140,7 +159,7 @@ Hier können Sie die Nutzungsbedingungen nachlesen, welche Sie beim ersten Login
 
 Ferner kann hier auch die Löschung des kompletten OpenOlat-Kontos beantragt werden. Der Antrag geht als E-Mail an eine von der System-Administration hinterlegte Adresse; die Löschung selbst führt die Benutzerverwaltung aus. Mehr dazu: [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#request_account_deletion)
 
-![Text der Nutzungsbedingungen mit Datum der Zustimmung, Button Konto löschen beantragen und drei bestätigte Kontrollkästchen, Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der persönlichen Einstellungen" }{ class="shadow lightbox" }
+![Text der Nutzungsbedingungen mit Datum der Zustimmung, Button Konto löschen beantragen und drei bestätigte Kontrollkästchen, Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der persönlichen Einstellungen" }
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -178,6 +197,8 @@ Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeic
 [Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [E-Mail Einstellungen >](../../manual_admin/administration/E-Mail_Settings.de.md)<br>
 [Persönliche Werkzeuge: E-Mail >](E-Mail.de.md)<br>
+[Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
+[Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Modul Instant Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)
@@ -186,7 +207,6 @@ Die Einstellungen des GUI (Graphical User Interface) werden in Variablen gespeic
 [Persönliche Konfiguration: Profil >](Profile.de.md)<br>
 [Persönliche Konfiguration: Passwort >](Password.de.md)<br>
 [Persönliche Werkzeuge >](Personal_Tools.de.md)<br>
-[Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
 [Chat >](../basic_concepts/Chat.de.md)
 
 **youtube**<br>

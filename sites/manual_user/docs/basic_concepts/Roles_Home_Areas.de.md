@@ -37,6 +37,8 @@ Die Arbeitsbereiche ergänzen sich, ohne sich zu überschneiden. So bleibt jeder
 
 Rollen sind natürlich kombinierbar. Eine Lehrperson kann zum Beispiel als Autor:in im Autorenbereich Kurse erstellen, im Coaching die eigenen Teilnehmenden begleiten und unter "Meine Kurse" selbst eine Weiterbildung absolvieren. Die Hauptnavigation zeigt in diesem Fall alle entsprechenden Menüpunkte nebeneinander an.
 
+Nach dem Login öffnet OpenOlat die Startseite, die Ihre Organisation für die erste passende Rolle festgelegt hat ([Startseiten nach Rolle](../../manual_admin/administration/Landing_pages.de.md#role_based)). Eine [persönliche Startseite](../personal_menu/Settings.de.md#landing_page) in den Einstellungen hat Vorrang vor der Startseite Ihrer Organisation.
+
 Innerhalb eines Kurses gibt es zusätzlich den Rollenwechsel: Wurden einer Person mehrere Kursrollen zugewiesen, kann sie über das Menü "Rolle" in der Toolbar des Kurses die Perspektive wechseln.<br>
 (Siehe [Rollen in einem Kurs](Roles.de.md#course))
 
@@ -76,6 +78,8 @@ Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte fin
 [Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [System >](../../manual_admin/administration/System.de.md)<br>
+[Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>

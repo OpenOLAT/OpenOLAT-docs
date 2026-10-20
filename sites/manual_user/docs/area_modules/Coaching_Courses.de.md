@@ -1,7 +1,7 @@
 # Coaching - Kurse {: #courses}
 
 
-![Kurse im Coaching Tool mit den Fokus-Einträgen Als Betreuer:in, Als Besitzer:in und dem gewählten Weitere Ressourcen, darunter die Tabs Favoriten, Alle und Beendet und die Spalten ID bis Status.](assets/coaching_courses2_v3_de.png){ class="shadow lightbox" }
+![Kurse im Coaching Tool mit den Fokus-Einträgen Als Betreuer:in, Als Besitzer:in und dem gewählten Weitere Ressourcen, darunter die Tabs Favoriten, Alle und Beendet und die Spalten ID bis Status.](assets/coaching_courses2_v3_de.png){ class="shadow lightbox" title="Kurse im Coaching" }
 
 
 ### WELCHE Kurse zeigt die Liste? {: #courses_which}
@@ -39,9 +39,9 @@ Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränk
 * **Freigabe Betreuer:innen**: nur Kurse im Status "Freigabe Betreuer:innen".
 * **Beendet**: nur Kurse im Status "Beendet".
 
-Im Fokus "Weitere Ressourcen" stehen nur die drei Tabs **Favoriten**, **Alle** und **Beendet** zur Verfügung. Standard beim Öffnen ist hier **Alle**. Die Tabs "Relevant", "Veröffentlicht" und "Freigabe Betreuer:innen" entfallen, weil OpenOlat für eingebundene Ressourcen und Vorlagen keine Kursstatistiken lädt. Aus demselben Grund fehlen die Filter zu Besuchen, Bewertungen, Teilnehmendenzahl und Zertifikaten. Verfügbar sind hier die Filter "Favoriten", "Durchführungszeitraum", "Status" und "Typ". Gehören Ihre Ressourcen zu Bildungsprodukten, kommt der Filter "Produkte" dazu.
+Im Fokus "Weitere Ressourcen" stehen nur die drei Tabs "Favoriten", "Alle" und "Beendet" zur Verfügung. Standard beim Öffnen ist hier "Alle". Die Tabs "Relevant", "Veröffentlicht" und "Freigabe Betreuer:innen" entfallen, weil OpenOlat für eingebundene Ressourcen und Vorlagen keine Kursstatistiken lädt. Aus demselben Grund fehlen die Filter zu Besuchen, Bewertungen, Teilnehmendenzahl und Zertifikaten. Verfügbar sind hier die Filter "Favoriten", "Durchführungszeitraum", "Status" und "Typ". Gehören Ihre Ressourcen zu Bildungsprodukten, kommt der Filter "Produkte" dazu.
 
-Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
+Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md). Ein Tab dieser Ansicht lässt sich auch als [persönliche Startseite](../personal_menu/Settings.de.md#landing_page) festlegen.
 
 [Zum Seitenanfang ^](#courses)
 
@@ -69,7 +69,7 @@ Der Platzhalter verhält sich damit gleich wie im Bereich [Kurse](Courses.de.md)
 
     Mit Klick auf die kleinen Buttons rechts oben über der Liste können Sie jederzeit zwischen der Listen- und der Kacheldarstellung wechseln.
 
-![Kursliste in Listendarstellung mit Spalten von Typ und Titel über Teilnehmer:innen und Besuche bis Fortschritt, Erfolgsstatus, Punkte und Zertifikate, Umschalter rechts oben.](assets/coaching_courses3_v2_de.png){ class="shadow lightbox" }
+![Kursliste in Listendarstellung mit Spalten von Typ und Titel über Teilnehmer:innen und Besuche bis Fortschritt, Erfolgsstatus, Punkte und Zertifikate, Umschalter rechts oben.](assets/coaching_courses3_v2_de.png){ class="shadow lightbox" title="Kurse im Coaching in der Listendarstellung" }
 
 
 Sie sehen auf einen Blick zum Beispiel
@@ -108,7 +108,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Bewertungswerkzeug** (anklickbares Symbol, das direkt zum Bewertungswerkzeug dieses Kurses führt)
 * **Informationsseite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Kurs > Administration > Einstellungen` eingegeben wurden)
 
-Am rechten Rand jeder Zeile öffnet das Drei-Punkte-Menü die Aktionen zu diesem Eintrag: **Bewertungswerkzeug**, **Informationsseite** und **In neuem Tab öffnen**. Den Eintrag "Bewertungswerkzeug" enthält das Menü nur bei Kursen und Tests.
+Am rechten Rand jeder Zeile öffnet das Drei-Punkte-Menü die Aktionen zu diesem Eintrag: "Bewertungswerkzeug", "Informationsseite" und "In neuem Tab öffnen". Den Eintrag "Bewertungswerkzeug" enthält das Menü nur bei Kursen und Tests.
 
 Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts- und Zertifikatsspalten und kein Bewertungswerkzeug, weder als Spalte noch im Drei-Punkte-Menü. Verfügbar sind hier die Spalten ID, Favorit, Typ, Technischer Typ, Titel, Ext. ID, Kennzeichen, Beginn, Ende, Ref., Status und Informationsseite.
 
@@ -128,6 +128,7 @@ Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Autorenbereich - Übersicht >](Authoring.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Kurse finden >](Courses.de.md)
 
 **Weiterführend**<br>
