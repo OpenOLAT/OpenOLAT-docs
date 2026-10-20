@@ -14,6 +14,8 @@ Beim Löschen wird ein Konto nicht aus der Datenbank entfernt, sondern anonymisi
 
 Welche Daten dabei gelöscht, anonymisiert oder erhalten werden, zeigt die Tabelle auf der Seite [Benutzer:in löschen](Delete_User.de.md#del_properties) im Detail.
 
+Einträge im Audit-Log der REST API, die eine gelöschte Person betreffen, bleiben erhalten, bis die dort eingestellte Aufbewahrung sie löscht, siehe [REST API: Audit-Log](../administration/REST_API.de.md#audit-log).
+
 [Zum Seitenanfang ^](#data_protection)
 
 ---
@@ -97,7 +99,7 @@ Der Dialog führt die Elemente alphabetisch auf. Die Auswahl umfasst:
 * Zugehörigkeit zu Gruppen
 * Zugehörigkeit zu Kursen
 
-![Pflichtfeld Export Elemente mit 22 Kontrollkästchen, darüber der Link zu Daten, darunter Start Export, im Dialog Kontendaten exportieren](assets/data_protection_export_dialog_v1_de.png){ class="shadow lightbox" }
+![Pflichtfeld Export Elemente mit 22 Kontrollkästchen, darüber der Link zu Daten, darunter Start Export](assets/data_protection_export_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Kontendaten exportieren" }
 
 [Zum Seitenanfang ^](#data_protection)
 
@@ -110,9 +112,9 @@ Der Dialog führt die Elemente alphabetisch auf. Die Auswahl umfasst:
 
 Das Drucken der Nutzungsbedingungen ist sowohl während des Login-Prozesses im Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab "Nutzungsbedingungen" möglich.
 
-![Druck-Link rechts unter dem Bedingungstext, darunter Kontrollkästchen und die Schaltflächen Akzeptieren und Ablehnen, im Dialog Nutzungsbedingungen beim Anmelden](assets/data_protection_terms_login_v1_de.png){ class="shadow lightbox" }
+![Druck-Link rechts unter dem Bedingungstext, darunter Kontrollkästchen und die Schaltflächen Akzeptieren und Ablehnen](assets/data_protection_terms_login_v1_de.png){ class="shadow lightbox" title="Dialog Nutzungsbedingungen beim Anmelden" }
 
-![Markierter Druck-Link rechts unter dem Bedingungstext, darunter Zustimmungsdatum und Schaltfläche Konto löschen beantragen, im Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/data_protection_terms_settings_v1_de.png){ class="shadow lightbox" }
+![Markierter Druck-Link rechts unter dem Bedingungstext, darunter Zustimmungsdatum und Schaltfläche Konto löschen beantragen](assets/data_protection_terms_settings_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der persönlichen Einstellungen" }
 
 ### Löschung des eigenen Kontos beantragen [:octicons-tag-16:{ title="ab Release 13.2 (OO-3520)" }](https://track.frentix.com/issue/OO-3520) {: #request_account_deletion}
 
@@ -125,7 +127,7 @@ Den Tab selbst beschreibt die Seite [Persönliche Konfiguration: Einstellungen](
 
 ### Sichtbarkeit von E-Mail-Adressen in OpenOlat [:octicons-tag-16:{ title="ab Release 12.5 (OO-3518)" }](https://track.frentix.com/issue/OO-3518) {: #visibility_of_e-mail}
 
-E-Mail Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative Benutzer:innen, nicht aber für normale Benutzer:innen sichtbar.
+E-Mail-Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative Benutzer:innen, nicht aber für normale Benutzer:innen sichtbar.
 
 [Zum Seitenanfang ^](#data_protection)
 
@@ -136,6 +138,7 @@ E-Mail Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative 
 
 [Benutzerverwaltung >](index.de.md)<br>
 [Benutzer:in löschen >](Delete_User.de.md)<br>
+[REST API >](../administration/REST_API.de.md)<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Nutzungsbedingungen >](../../manual_user/basic_concepts/Terms_Of_Use.de.md)<br>

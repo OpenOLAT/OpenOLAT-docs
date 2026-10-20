@@ -14,6 +14,8 @@ When an account is deleted, it is not removed from the database but anonymised. 
 
 Which data is deleted, anonymised or retained in the process is shown in detail in the table on the page [Delete user](Delete_User.md#del_properties).
 
+Entries in the audit log of the REST API that concern a deleted person are kept until the retention configured there deletes them, see [REST API: Audit log](../administration/REST_API.md#audit-log).
+
 [To the top of the page ^](#data_protection)
 
 ---
@@ -97,7 +99,7 @@ The dialog lists the elements alphabetically. The selection covers:
 * Subscriptions
 * Tasks
 
-![Mandatory field Export elements with 22 check boxes, above it the link to the data, below it Start export, in the export dialog](assets/data_protection_export_dialog_v1_en.png){ class="shadow lightbox" }
+![Mandatory field Export elements with 22 check boxes, above it the link to the data, below it Start export](assets/data_protection_export_dialog_v1_en.png){ class="shadow lightbox" title="Export user data dialog" }
 
 [To the top of the page ^](#data_protection)
 
@@ -111,9 +113,9 @@ The dialog lists the elements alphabetically. The selection covers:
 
 The terms of use can be printed both during the login process in the "Terms of Use" dialog and in the personal settings in the "Terms of Use" tab.
 
-![Print link below the terms text on the right, below it a check box and the Accept and Reject buttons, in the terms of use dialog shown when signing in](assets/data_protection_terms_login_v1_de.png){ class="shadow lightbox" }
+![Print link below the terms text on the right, below it a check box and the Accept and Reject buttons](assets/data_protection_terms_login_v1_de.png){ class="shadow lightbox" title="Terms of use dialog when signing in" }
 
-![Highlighted print link below the terms text on the right, below it the date of consent and the Ask to delete your account button, in the Terms of use tab of the personal settings](assets/data_protection_terms_settings_v1_en.png){ class="shadow lightbox" }
+![Highlighted print link below the terms text on the right, below it the date of consent and the Ask to delete your account button](assets/data_protection_terms_settings_v1_en.png){ class="shadow lightbox" title="Terms of use tab of the personal settings" }
 
 ### Ask to delete your own account [:octicons-tag-16:{ title="from Release 13.2 (OO-3520)" }](https://track.frentix.com/issue/OO-3520) {: #request_account_deletion}
 
@@ -137,6 +139,7 @@ Email addresses of other users are only visible in OpenOlat for administrative u
 
 [User management >](index.md)<br>
 [Delete user >](Delete_User.md)<br>
+[REST API >](../administration/REST_API.md)<br>
 [Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Terms of Use >](../../manual_user/basic_concepts/Terms_Of_Use.md)<br>
