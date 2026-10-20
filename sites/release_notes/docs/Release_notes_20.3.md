@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 09/02/2026**
+:material-calendar-month-outline: **Release date: 03/25/2026 • Last update: 09/30/2026**
 
 * * *
 
@@ -109,6 +109,8 @@ With the **Master Import**, the Course Planner offers a central feature for effi
 
 **Typical use cases:** Efficiently create new implementations with dates and participants, add additional dates to existing implementations later, or add additional memberships.
 
+From :octicons-tag-24: Release 20.3.1 onward, administrators can also take over courses with the usage «Standalone» in the [Master Import](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Import_Export/#import_wizard){:target="_blank"}. OpenOlat shows a warning instead of an error. From :octicons-tag-24: Release 20.3.2 onward, the export and import of users also include the **Account expiration**.
+
 ![CPL Master Import](assets/203/CPL_master_import.png){ class="shadow lightbox" title="Course Planner: Master Import" }
 
 * * *
@@ -127,6 +129,10 @@ The new **Activity Log** centrally records all relevant activities in the Certif
     
     The Activity Log ensures traceability: Changes and processes in the Course Planner are fully documented and can be found at a glance—this simplifies troubleshooting, increases transparency, and strengthens quality assurance.
 
+### Report and Table View
+
+From :octicons-tag-24: Release 20.3.2 onward, the report «Booking orders» contains **[all booking types](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Reports/#inhalt_buchungsbericht){:target="_blank"}**, with the sheet «All» and one sheet per offer type. From :octicons-tag-24: Release 20.3.1 onward, the **[Subjects](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Implementations/#listing){:target="_blank"}** can be shown as columns in products and implementations.
+
 * * *
 
 ## Tests, e-assessment & Safe Exam Browser
@@ -135,9 +141,13 @@ The **status display in tests** has been simplified, and the number of attempts 
 
 For the Safe Exam Browser, custom **configuration templates** can be created and selected for an exam.
 
+From :octicons-tag-24: Release 20.3.7 onward, administrators can **[import existing SEB files as a template](https://docs.openolat.org/en/manual_admin/administration/e-Assessment_AssessmentMgmt/#tab_seb){:target="_blank"}**, and the **Password for quitting** can be set per exam. From :octicons-tag-24: Release 20.3.10 onward, authors can also upload their **[own SEB file](https://docs.openolat.org/en/manual_user/learningresources/Assessment_mode/#tab-safe-exam-browser){:target="_blank"}** in the settings of the assessment mode, without needing a template from the administration.
+
+From :octicons-tag-24: Release 20.3.2 onward, OpenOlat checks during the **[import of QTI tests](https://docs.openolat.org/en/manual_user/learningresources/Test/#create_questions_in_tests){:target="_blank"}** whether the package complies with the QTI standard, and rejects non-compliant packages. In addition, the **[copy/paste restriction](https://docs.openolat.org/en/manual_user/learningresources/Test_question_types/#essay){:target="_blank"}** in essay questions also applies to text dragged and dropped into the input field.
+
 To ensure that participant assessment data (including evidence of achievement) is always up to date, from :octicons-tag-24: Release 20.3.7 onward, an **automatic recalculation of assessment data** will take place at the structure module level and at the top-level course node whenever assessment rules are modified and published.
 
-Furthermore, in :octicons-tag-24: Release 20.3.7, the **partial scoring** for **matrix and drag-and-drop questions** with single-choice answers has been adjusted.
+Furthermore, in :octicons-tag-24: Release 20.3.4 and :octicons-tag-24: Release 20.3.7, the **partial scoring** for **matrix and drag-and-drop questions** has been corrected.
 
 !!! warning "No automatic migration"
 
@@ -169,7 +179,11 @@ The transition of background images on the login page has been completely redesi
 
 ## Further, briefly noted
 
-- **Courses:** A new “Relevant” filter shows course members their active courses directly. Courses can be sorted by time period, and the dialog for leaving a course has been standardized.
+- **Courses:**
+    - A new “Relevant” filter shows course members their active courses directly.
+    - Courses can be sorted by time period, and the dialog for leaving a course has been standardized.
+    - The [Excel export of the members management](https://docs.openolat.org/en/manual_user/learningresources/Members_management/#excel-export-of-the-origin){:target="_blank"} shows all origins of a member by name (:octicons-tag-24: Release 20.3.1)
+    - Courses with the usage «Use in Course Planner» offer the predefined filters for coaches and participants (:octicons-tag-24: Release 20.3.7)
 
 - **Blog/Podcast:** The table view has been improved for read-only mode.
 
@@ -187,7 +201,17 @@ The transition of background images on the login page has been completely redesi
 
 - **Internal Security Audit:** As part of the quality assurance process for Release 20.3, an internal security audit was conducted and targeted security improvements were implemented.
 
-- **Events**: Input field for the URL of the meeting recording (:octicons-tag-24: Release 20.3.2)
+- **Events:**
+    - Input field for the URL of the meeting recording (:octicons-tag-24: Release 20.3.2)
+    - The configuration of the [Event & absence management](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Execution/#config_event_and_absence_management){:target="_blank"} in the administration and the course settings has been restructured. The administration defines whether courses may override the default configuration (:octicons-tag-24: Release 20.3.8)
+
+- **[Topic assignment](https://docs.openolat.org/en/manual_user/learningresources/Course_Element_Topic_Assignment/){:target="_blank"}:** The labels have been standardized, and the tab is now called «Administration of users» (:octicons-tag-24: Release 20.3.1)
+
+- **[Coaching Tool](https://docs.openolat.org/en/manual_user/area_modules/Coaching_Courses/#courses_search){:target="_blank"}:** The search for courses and persons supports the wildcard `*`, as in the «Courses» section (:octicons-tag-24: Release 20.3.7)
+
+- **[Task and group task](https://docs.openolat.org/en/manual_user/learningresources/Assessing_tasks_and_group_tasks/#results_export){:target="_blank"}:** «Export results» provides the current step, the completion date of each step and the assigned coaches (:octicons-tag-24: Release 20.3.8)
+
+- **[ePortfolio](https://docs.openolat.org/en/manual_user/learningresources/Portfolio_assignment_Grading/#comment_save){:target="_blank"}:** Comments are kept when their author is deleted. «Unknown user» appears instead of name and picture (:octicons-tag-24: Release 20.3.10)
 
 * * *
 
@@ -220,8 +244,16 @@ The transition of background images on the login page has been completely redesi
     - Fabric.js from 4.4.0 to 6.4.0+
     - Prototype.js 1.7 removed
 - OpenOlat ships with a project configuration for Anthropic Claude Code for AI-assisted development, including architectural knowledge and developer skills
-- Rest API extension for Credit Point System (transactions, systems, balances) (:octicons-tag-24: Release 20.3.2)
+- REST API extensions:
+    - Credit Point System (transactions, systems, balances) (:octicons-tag-24: Release 20.3.2)
+    - URL of the recording for events (:octicons-tag-24: Release 20.3.2)
+    - Retrieve the absence notices of a course (:octicons-tag-24: Release 20.3.5)
 - Maintenance tool to find and regenerate broken certificate PDFs (:octicons-tag-24: Release 20.3.7)
+- Learning resources with the usage «Template» are excluded from the automatic lifecycle and are no longer finished or deleted automatically (:octicons-tag-24: Release 20.3.2)
+- fxSyncher: Configuration viewable read-only in the administration (:octicons-tag-24: Release 20.3.2 - frentix release only)
+- [AI module](https://docs.openolat.org/en/manual_admin/administration/External_Tools_AI/#ai_properties){:target="_blank"}: Providers and functions can be preset via `olat.properties` (`ai.*`) (:octicons-tag-24: Release 20.3.4)
+- Paella player: mp4 streams are loaded in CORS mode, the stream server must send `Access-Control-Allow-Origin` (:octicons-tag-24: Release 20.3.10)
+- Update of third-party libraries (:octicons-tag-24: Release 20.3.10)
 
 * * *
 
@@ -229,18 +261,21 @@ The transition of background images on the login page has been completely redesi
 
 !!! note "Checklist after updating to 20.3"
 
-    The following functions must be activated or configured in `Administration` after updating to Release 20.2:
+    The following functions must be activated or configured in `Administration` after updating to Release 20.3:
 
     * [x] Set default video resolution: `Modules > Video > Video configuration`
     * [x] Configure SEO metadata (organization, keywords): `Modules > SEO / OAI-PMH metadata > Search Engine`
+    * [x] Check the stream server for CORS or switch off CORS in the player (`"crossOrigin": false`): `Modules > Live stream > Paella player` (:octicons-tag-24: Release 20.3.10)
+    * [x] [Check the course-level configuration](https://docs.openolat.org/en/manual_admin/administration/Modules_Events_and_Absences/){:target="_blank"}: `Modules > Events / Absences` (:octicons-tag-24: Release 20.3.8)
     * [x] Create and share SEB configuration templates: `e-Assessment > Assessment management > Safe Exam Browser configuration`
     * [x] Check Content Security Policy for compatibility after an update: `Login > Security > Configuration`
-    * [x] Maintenance Certificates: `e-Assessment > Certificates > Maintenance`
+    * [x] Maintenance Certificates: `e-Assessment > Certificates > Maintenance` (:octicons-tag-24: Release 20.3.7)
 
 * * *
 
 ## Further information
 
+- [YouTrack Release notes 20.3.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.10&title=Release%20Notes%2020.3.10){:target="_blank"}
 - [YouTrack Release notes 20.3.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.9&title=Release%20Notes%2020.3.9){:target="_blank"}
 - [YouTrack Release notes 20.3.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.8&title=Release%20Notes%2020.3.8){:target="_blank"}
 - [YouTrack Release notes 20.3.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.7&title=Release%20Notes%2020.3.7){:target="_blank"}

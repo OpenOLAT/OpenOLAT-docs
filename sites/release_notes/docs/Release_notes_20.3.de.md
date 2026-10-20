@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 02.09.2026**
+:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 30.09.2026**
 
 * * *
 
@@ -110,6 +110,8 @@ Der Course Planner erhält mit dem **Master Import** eine zentrale Funktion für
 
 **Typische Anwendungsfälle:** Neue Durchführungen mit Terminen und Teilnehmenden effizient anlegen, nachträglich weitere Termine zu bestehenden Durchführungen hinzufügen oder zusätzliche Mitgliedschaften ergänzen.
 
+Ab :octicons-tag-24: Release 20.3.1 können Administrator:innen im [Master Import](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Import_Export/#import_wizard){:target="_blank"} auch Kurse mit dem Verwendungszweck «Eigenständig» übernehmen. OpenOlat zeigt dabei eine Warnung statt eines Fehlers. Ab :octicons-tag-24: Release 20.3.2 enthalten Export und Import der Benutzer:innen zudem den **Kontoablauf**.
+
 ![CPL Master Import](assets/203/CPL_master_import_DE.png){ class="shadow lightbox" title="Course Planner: Master Import" }
 
 * * *
@@ -128,6 +130,10 @@ Mit dem neuen **Aktivitäts-Log** werden alle relevanten Vorgänge im Zertifikat
 
 	Das Aktivitäts-Log schafft Nachvollziehbarkeit: Änderungen und Vorgänge im Course Planner sind lückenlos dokumentiert und auf einen Blick auffindbar – das erleichtert die Fehlersuche, erhöht die Transparenz und stärkt die Qualitätssicherung.
 
+### Report und Tabellenansicht
+
+Ab :octicons-tag-24: Release 20.3.2 enthält der Report «Buchungsaufträge» **[alle Buchungsarten](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Reports/#inhalt_buchungsbericht){:target="_blank"}**, mit dem Blatt «Alle» und einem Blatt pro Angebotstyp. Ab :octicons-tag-24: Release 20.3.1 lassen sich in Produkten und Durchführungen die **[Fachbereiche](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/#listing){:target="_blank"}** als Spalten einblenden.
+
 * * *
 
 ## Tests, E-Assessment & Safe Exam Browser
@@ -136,9 +142,13 @@ Die **Statusanzeige in Tests** wurde vereinfacht und die Anzahl der Versuche ist
 
 Für den Safe Exam Browser können eigene **Konfigurationsvorlagen** erstellt und für eine Prüfung ausgewählt werden.
 
-Für stets aktuelle Bewertungsdaten der Teilnehmenden (inklusive Leistungsnachweis) erfolgt ab :octicons-tag-24: Release 20.3.7 eine **automatsche Neuberechnung der Bewertungsdaten** auf Ebene Struktur-Baustein sowie am obersten Kursknoten, sobald Bewertungsregeln geändert und publiziert werden.
+Ab :octicons-tag-24: Release 20.3.7 können Administrator:innen bestehende **[SEB-Dateien als Vorlage importieren](https://docs.openolat.org/de/manual_admin/administration/e-Assessment_AssessmentMgmt/#tab_seb){:target="_blank"}**, und das **Beenden/Entsperren-Kennwort** lässt sich pro Prüfung festlegen. Ab :octicons-tag-24: Release 20.3.10 laden Autor:innen in den Einstellungen des Prüfungsmodus auch eine **[eigene SEB-Datei](https://docs.openolat.org/de/manual_user/learningresources/Assessment_mode/#tab-safe-exam-browser){:target="_blank"}** hoch, ohne dafür eine Vorlage der Administration zu benötigen.
 
-Ausserdem wurde in :octicons-tag-24: Release 20.3.7 die **Teilpunkteberechnung** für **Matrix- und Drag-und-Drop-Fragen** mit Single Choice Antworten angepasst.
+Ab :octicons-tag-24: Release 20.3.2 prüft OpenOlat beim **[Import von QTI-Tests](https://docs.openolat.org/de/manual_user/learningresources/Test/#create_questions_in_tests){:target="_blank"}**, ob das Paket dem QTI-Standard entspricht, und lehnt nicht konforme Pakete ab. Die **[Copy/Paste-Sperre](https://docs.openolat.org/de/manual_user/learningresources/Test_question_types/#essay){:target="_blank"}** in Freitext-Fragen gilt zudem auch für Text, der per Drag & Drop in das Eingabefeld gezogen wird.
+
+Für stets aktuelle Bewertungsdaten der Teilnehmenden (inklusive Leistungsnachweis) erfolgt ab :octicons-tag-24: Release 20.3.7 eine **automatische Neuberechnung der Bewertungsdaten** auf Ebene Struktur-Baustein sowie am obersten Kursknoten, sobald Bewertungsregeln geändert und publiziert werden.
+
+Ausserdem wurde in :octicons-tag-24: Release 20.3.4 und :octicons-tag-24: Release 20.3.7 die **Teilpunkteberechnung** für **Matrix- und Drag-und-Drop-Fragen** korrigiert.
 
 !!! warning "Keine automatische Migration"
 
@@ -170,7 +180,11 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 ## Weiteres, kurz notiert
 
-- **Kurs:** Ein neuer Filter «Relevant» zeigt Kursmitgliedern direkt ihre aktiven Kurse an. Kurse können nach Zeitraum sortiert werden und der Dialog zum Verlassen eines Kurses wurde vereinheitlicht.
+- **Kurs:**
+    - Ein neuer Filter «Relevant» zeigt Kursmitgliedern direkt ihre aktiven Kurse an.
+    - Kurse können nach Zeitraum sortiert werden und der Dialog zum Verlassen eines Kurses wurde vereinheitlicht.
+    - Der [Excel-Export der Mitgliederverwaltung](https://docs.openolat.org/de/manual_user/learningresources/Members_management/#excel-export-der-herkunft){:target="_blank"} zeigt alle Herkünfte eines Mitglieds mit Namen (:octicons-tag-24: Release 20.3.1)
+    - Kurse mit dem Verwendungszweck «Verwendung im Course Planner» bieten die vordefinierten Filter für Betreuende und Teilnehmende (:octicons-tag-24: Release 20.3.7)
 
 - **Blog/Podcast:** Die Tabellenansicht wurde für den Read-Only-Modus verbessert.
 
@@ -188,7 +202,17 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 - **Internes Sicherheitsaudit:** Im Rahmen der Qualitätssicherung für Release 20.3 wurde ein internes Sicherheitsaudit durchgeführt und gezielte Verbesserungen im Bereich Sicherheit umgesetzt.
 
-- **Termine**: Eingabefeld für URL zur Meeting-Aufzeichnung (:octicons-tag-24: Release 20.3.2)
+- **Termine:**
+    - Eingabefeld für URL zur Meeting-Aufzeichnung (:octicons-tag-24: Release 20.3.2)
+    - Die Konfiguration der [Termin- und Absenzenverwaltung](https://docs.openolat.org/de/manual_user/learningresources/Course_Settings_Execution/#config_event_and_absence_management){:target="_blank"} in Administration und Kurseinstellungen ist neu gegliedert. Die Administration legt fest, ob Kurse die Standardkonfiguration überschreiben dürfen (:octicons-tag-24: Release 20.3.8)
+
+- **[Themenvergabe](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_Topic_Assignment/){:target="_blank"}:** Die Bezeichnungen wurden vereinheitlicht, der Tab heisst neu «Verwaltung Benutzer:innen» (:octicons-tag-24: Release 20.3.1)
+
+- **[Coaching Tool](https://docs.openolat.org/de/manual_user/area_modules/Coaching_Courses/#courses_search){:target="_blank"}:** Die Suche nach Kursen und Personen unterstützt den Platzhalter `*`, wie im Bereich «Kurse» (:octicons-tag-24: Release 20.3.7)
+
+- **[Aufgabe und Gruppenaufgabe](https://docs.openolat.org/de/manual_user/learningresources/Assessing_tasks_and_group_tasks/#results_export){:target="_blank"}:** «Resultate exportieren» liefert den aktuellen Schritt, das Abschlussdatum jedes Schritts und die zugewiesenen Betreuer:innen (:octicons-tag-24: Release 20.3.8)
+
+- **[ePortfolio](https://docs.openolat.org/de/manual_user/learningresources/Portfolio_assignment_Grading/#comment_save){:target="_blank"}:** Kommentare bleiben erhalten, wenn die verfassende Person gelöscht wird. Statt Name und Bild erscheint «Unbekannte:r Benutzer:in» (:octicons-tag-24: Release 20.3.10)
 
 * * *
 
@@ -197,7 +221,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 - Modernisierung theme.js und OpenOlat Theme Login-Seite
 - Video-Transkodierung:
     - Standardauflösung 1080p für Videotranskodierung
-    - Unterstützung für externen Transcodingdienst mit verschiedenen Service-Queues zur Verarbeitung von Videos unterschiedlicher Größe
+    - Unterstützung für externen Transcodingdienst mit verschiedenen Service-Queues zur Verarbeitung von Videos unterschiedlicher Grösse
     - Automatische Erstellung von Video-Untertiteln (*Teil des frentix Cloud Services. Nicht-Kunden melden sich bei Interesse beim Frentix Vertrieb.*)
 - Allgemeine Bibliotheks-Updates
     - Hibernate 7.2.6, Jakarta persistence 3.2, Jakarta EE 11
@@ -221,8 +245,16 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
     - Fabric.js von 4.4.0 auf 6.4.0+
     - Prototype.js 1.7 entfernt
 -  OpenOlat wird mit einer Projektkonfiguration für Anthropic Claude Code zur KI-gestützten Entwicklung inkl. Architekturwissen und Entwickler-Skill ausgeliefert
-- Rest API Erweiterung für Kreditpunktesystem (Transaktionen, Systeme, Guthaben) (:octicons-tag-24: Release 20.3.2)
+- REST API Erweiterungen:
+    - Kreditpunktesystem (Transaktionen, Systeme, Guthaben) (:octicons-tag-24: Release 20.3.2)
+    - URL zur Aufzeichnung bei Terminen (:octicons-tag-24: Release 20.3.2)
+    - Absenzmeldungen eines Kurses abrufen (:octicons-tag-24: Release 20.3.5)
 - Wartungstool zum Auffinden und Wiederherstellen beschädigter Zertifikat-PDFs (:octicons-tag-24: Release 20.3.7)
+- Lernressourcen mit dem Verwendungszweck «Template» sind vom automatischen Lebenszyklus ausgenommen und werden nicht mehr automatisch beendet oder gelöscht (:octicons-tag-24: Release 20.3.2)
+- fxSyncher: Konfiguration in der Administration lesend einsehbar (:octicons-tag-24: Release 20.3.2 - nur frentix-Release)
+- [KI Modul](https://docs.openolat.org/de/manual_admin/administration/External_Tools_AI/#ai_properties){:target="_blank"}: Anbieter und Funktionen lassen sich über `olat.properties` vorbelegen (`ai.*`) (:octicons-tag-24: Release 20.3.4)
+- Paella player: mp4-Streams werden im CORS-Modus geladen, der Stream-Server muss `Access-Control-Allow-Origin` senden (:octicons-tag-24: Release 20.3.10)
+- Aktualisierung der Bibliotheken von Drittanbietern (:octicons-tag-24: Release 20.3.10)
 
 * * *
 
@@ -234,14 +266,17 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
     * [x] Standardeinstellung für Video-Auflösung festlegen: `Module > Video > Videokonfiguration`
     * [x] SEO Metadaten (Organisation, Stichwörter) konfigurieren: `Module > SEO / OAI-PMH Metadaten > Suchmaschinenoptimierung`
+    * [x] Stream-Server auf CORS prüfen oder CORS im Player abschalten (`"crossOrigin": false`): `Module > Livestream > Paella player` (:octicons-tag-24: Release 20.3.10)
+    * [x] [Konfiguration auf Kursebene prüfen](https://docs.openolat.org/de/manual_admin/administration/Modules_Events_and_Absences/){:target="_blank"}: `Module > Termine / Absenzen` (:octicons-tag-24: Release 20.3.8)
     * [x] SEB-Konfigurationsvorlagen erstellen und freigeben: `e-Assessment > Prüfungsverwaltung > Safe Exam Browser Konfiguration`
     * [x] Content Security Policy nach Update auf Kompatibilität prüfen: `Login > Sicherheit > Konfiguration`
-    * [x] Wartung Zertifikate: `e-Assessment > Zertifikate > Wartung`
+    * [x] Wartung Zertifikate: `e-Assessment > Zertifikate > Wartung` (:octicons-tag-24: Release 20.3.7)
 
 * * *
 
 ## Weitere Informationen
 
+- [YouTrack Release Notes 20.3.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.10&title=Release%20Notes%2020.3.10){:target="_blank"}
 - [YouTrack Release Notes 20.3.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.9&title=Release%20Notes%2020.3.9){:target="_blank"}
 - [YouTrack Release Notes 20.3.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.8&title=Release%20Notes%2020.3.8){:target="_blank"}
 - [YouTrack Release Notes 20.3.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.7&title=Release%20Notes%2020.3.7){:target="_blank"}
