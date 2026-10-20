@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/16/2026 • Last update: 09/02/2026**
+:material-calendar-month-outline: **Release date: 07/16/2026 • Last update: 10/02/2026**
 
 * * *
 
@@ -23,7 +23,7 @@ Besides optional **serial numbers** and a **print version** for **certificates**
 
 ![Number of features and bugs in release 21.0](assets/210/Features_Improvements_Labels_21.0_EN.png)
 
-Since release 20.3, over 125 new features and improvements have been added to OpenOlat. Here you will find the most important innovations summarized. In addition, more than 100 bugs have been fixed. You can find the complete list of changes in 20.3.x [here](Release_notes_20.3.md){:target="_blank"}.
+Since release 20.3, over 125 new features and improvements have been added to OpenOlat; the most important ones are summarized here. In addition, more than 100 bugs have been fixed. The complete list of changes in 20.3.x is available [here](Release_notes_20.3.md){:target="_blank"}.
 
 * * *
 
@@ -33,14 +33,14 @@ Historically, two perspectives were mixed under **«Courses»**: participants ac
 
 With OpenOlat **Release 21.0**, the entry point for learning and supervising/coaching is clearly separated:
 
-* **Participants** move as usual under [**«Courses»**](https://docs.openolat.org/en/manual_user/area_modules/Courses/) to access their learning content.
-* **Coaches, course owners** and other roles with a coaching function (e.g. line managers, education managers) now find their courses, learning resources and educational products as well as the people they coach in the [**«Coaching»**](https://docs.openolat.org/en/manual_user/area_modules/Coaching/) area.
+* **Participants** move as usual under [**«Courses»**](https://docs.openolat.org/en/manual_user/area_modules/Courses/){:target="_blank"} to access their learning content.
+* **Coaches, course owners** and other roles with a coaching function (e.g. line managers, education managers) now find their courses, learning resources and educational products as well as the people they coach in the [**«Coaching»**](https://docs.openolat.org/en/manual_user/area_modules/Coaching/){:target="_blank"} area.
 
 ### Step-by-step transition
 
 !!! tip "Up to and including Release 20.3.x"
 
-    Instructions ["Step by Step: Switching learning-resource access for coaches"](https://docs.openolat.org/en/release_notes/Release_notes_20.1/#abspaltung-von-kurse)
+    Instructions ["Step by Step: Switching learning-resource access for coaches"](https://docs.openolat.org/en/release_notes/Release_notes_20.1/#separation-from-courses){:target="_blank"}
 
 !!! tip "From Release 21.0.0"
 
@@ -60,7 +60,7 @@ With OpenOlat **Release 21.0**, the entry point for learning and supervising/coa
 
 ## New «Rooms» module
 
-With the [**«Rooms»**](https://docs.openolat.org/en/manual_admin/administration/Modules_Rooms/) module, OpenOlat provides its own central **building and room management**.
+With the [**«Rooms»**](https://docs.openolat.org/en/manual_admin/administration/Modules_Rooms/){:target="_blank"} module, OpenOlat provides its own central **building and room management**.
 
 Venues are maintained with address and additional information such as capacity, and the location can be opened directly in Google Maps / Apple Maps.
 
@@ -71,6 +71,15 @@ The rooms can be booked in the Course Planner as well as for events. The automat
 All bookings including room utilization are clearly summarized and managed in the **Room Scheduling**.
 
 ![Room Scheduling](assets/210/course_planner_rooms_scheduling_table_v1_en.png){ class="shadow lightbox" title="Room Scheduling with conflict highlighting" }
+
+### Further improvements
+
+* **Export and import:** Export and import in the Course Planner list the booked rooms of an event in the new column «Rooms» (:octicons-tag-24: Release 21.0.1)
+* **Copy element:** The wizard now asks whether the room bookings are copied along with the events (:octicons-tag-24: Release 21.0.2)
+* **Tables and calendar:**
+    * Personal filters can be saved, and the tables can be downloaded (:octicons-tag-24: Release 21.0.2)
+    * A click on a booking shows its details in all calendar views (:octicons-tag-24: Release 21.0.3)
+* **Access:** The room management in the Course Planner is only available to administrators and course planners (:octicons-tag-24: Release 21.0.3)
 
 * * *
 
@@ -92,11 +101,11 @@ A **central overview** consolidates all to-dos across all products, and on the d
 
 ### Further improvements
 
-* **[Implementations](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Implementations/#tab_settings_assessment):** Direct link to a certification program
-* **[Events](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Events/#event_elements):** Optimized display for modularized courses with participants from several implementations/classes
-* **[Product overview](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Products/#product_overview):** Optimized sorting and filters
-* **[Member widget](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Dashboard/#widget_members):** Optimized display and direct jump to the members area of the implementation
-* **[Offer «Invoice»](https://docs.openolat.org/en/manual_user/basic_concepts/Offer_Concepts/#offer_invoice_cancellation):** Optimized configuration of the cancellation conditions
+* **[Implementations](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Implementations/#tab_settings_assessment){:target="_blank"}:** Direct link to a certification program
+* **[Events](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Events/#event_elements){:target="_blank"}:** Optimized display for modularized courses with participants from several implementations/classes
+* **[Product overview](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Products/#product_overview){:target="_blank"}:** Optimized sorting and filters
+* **[Member widget](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Dashboard/#widget_members){:target="_blank"}:** Optimized display and direct jump to the members area of the implementation
+* **[Offer «Invoice»](https://docs.openolat.org/en/manual_user/basic_concepts/Offer_Concepts/#offer_invoice_cancellation){:target="_blank"}:** Optimized configuration of the cancellation conditions
 
 * * *
 
@@ -104,19 +113,19 @@ A **central overview** consolidates all to-dos across all products, and on the d
 
 ### Import Markdown/Word
 
-Prepared learning content in Word or Markdown files previously had to be rebuilt by hand in the **Page**. From Release 21.0, an [**import function**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#markdown) is available. Either the **Word and Markdown files** can be imported completely, or their content can be pasted as text in the import dialog. OpenOlat automatically converts the content into the matching blocks - title, text, tables, code, images and more. Referenced images automatically end up in the Media Center.
+Prepared learning content in Word or Markdown files previously had to be rebuilt by hand in the **Page**. From Release 21.0, an [**import function**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#markdown){:target="_blank"} is available. Either the **Word and Markdown files** can be imported completely, or their content can be pasted as text in the import dialog. OpenOlat automatically converts the content into the matching blocks (title, text, tables, code, images and more). Referenced images automatically end up in the Media Center.
 
 ![Import Word file in the Page](assets/210/content_editor_import_dialog_v1_en.png){ class="shadow lightbox" title="Import Word file in the Page" }
 
 ### Table of contents
 
-Navigating in long pages is made easier by the new content element [**«Table of contents»**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#table_of_contents). The table lists - either for the whole page or a single chapter - the titles as clickable jump links and takes you directly to the respective section with one click.
+Navigating in long pages is made easier by the new content element [**«Table of contents»**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#table_of_contents){:target="_blank"}. The table lists - either for the whole page or a single chapter - the titles as clickable jump links and takes you directly to the respective section with one click.
 
-Since all title elements are now [**automatically given anchors**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#anchors), the jump targets within the page arise entirely on their own.
+Since all title elements are now [**automatically given anchors**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#anchors){:target="_blank"}, the jump targets within the page arise entirely on their own.
 
 ### Optimized layout deletion
 
-All [layout blocks can now be deleted](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#delete_layout), including the topmost one. In doing so, you can decide whether the content is also deleted with it or moved into the adjacent layout.
+All [layout blocks can now be deleted](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#delete_layout){:target="_blank"}, including the topmost one. In doing so, you can decide whether the content is also deleted with it or moved into the adjacent layout.
 
 If the last remaining layout is removed, the page automatically receives an empty default layout again.
 
@@ -128,11 +137,11 @@ If the last remaining layout is removed, the page automatically receives an empt
 
 In addition to multiple-choice questions, from Release 21.0 **free-text questions with AI grading** can also be generated via the question bank. The prerequisite is that the "Essay Question Generator" and "Essay Grading" features are configured in the AI module. All AI-generated questions in the question bank automatically receive the "Review" status so that they are reviewed for accuracy before use.
 
-For each free-text question, the AI provides a **[«Grading kit»](https://docs.openolat.org/en/manual_user/area_modules/Question_Bank_Create_Questions/#ai_grading)** with criteria for assessing the answer. Besides a model answer, weighted key points, typical misconceptions as well as grading notes, difficulty level and Bloom's level are captured. It can be manually fine-tuned and tested directly against a sample answer.
+For each free-text question, the AI provides a **[«Grading kit»](https://docs.openolat.org/en/manual_user/area_modules/Question_Bank_Create_Questions/#ai_grading){:target="_blank"}** with criteria for assessing the answer. Besides a model answer, weighted key points, typical misconceptions as well as grading notes, difficulty level and Bloom's level are captured. It can be manually fine-tuned and tested directly against a sample answer.
 
 ### Formative AI feedback for learners
 
-Free-text questions with AI grading can be used directly in a **quiz in the** [**Content Editor**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/). When learners answer such a question, formative feedback on their answer is retrieved under **AI feedback**: "Overall assessment", "What went well", "What is missing" and "Next step" - either as a short summary or as detailed feedback.
+Free-text questions with AI grading can be used directly in a **quiz in the** [**Content Editor**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/){:target="_blank"}. When learners answer such a question, formative feedback on their answer is retrieved under **AI feedback**: "Overall assessment", "What went well", "What is missing" and "Next step" - either as a short summary or as detailed feedback.
 
 The feedback deliberately awards no points but supports self-assessment and invites further work. The prerequisite is the configured "Essay Grading" AI feature.
 
@@ -147,13 +156,14 @@ When building a **Page** by importing a Markdown or Word file, the matching prac
 ### Further AI features
 
 * **Automatic taxonomy assignment:** When generating metadata for images, an embedding model (embeddings) now assigns content to the matching taxonomy level - this saves the manual classification and keeps the subject-matter systematics consistent
-* [**AI module usage log**](https://docs.openolat.org/en/manual_admin/administration/External_Tools_AI/#ai_usage_log): records every AI call of the instance and provides administrators with information on which functions are used how often and where token costs arise
+* [**AI module usage log**](https://docs.openolat.org/en/manual_admin/administration/External_Tools_AI/#ai_usage_log){:target="_blank"}: records every AI call of the instance and provides administrators with information on which functions are used how often and where token costs arise
+* **[Limits per AI feature](https://docs.openolat.org/en/manual_admin/administration/External_Tools_AI/#ai_function_limits){:target="_blank"}:** Output tokens, timeout and input length can be set per AI feature. The default values are also suitable for reasoning models (:octicons-tag-24: Release 21.0.2)
 
 ### AI chatbot Sophia
 
-[**Sophia**](https://docs.openolat.org/en/manual_user/help/?h=sophia#help_sophia) is an AI chatbot that primarily supports **authors and administrative users** and answers questions about the OpenOlat software in dialog. The **OpenOlat manual** serves as its knowledge base.
+[**Sophia**](https://docs.openolat.org/en/manual_user/help/?h=sophia#help_sophia){:target="_blank"} is an AI chatbot that primarily supports **authors and administrative users** and answers questions about the OpenOlat software in dialog. The **OpenOlat manual** serves as its knowledge base.
 
-Search (RAG) and language model run locally in the fxCloud. Sophia is currently available on **[docs.openolat.org](https://docs.openolat.org)**.
+Search (RAG) and language model run locally in the fxCloud. Sophia is currently available on **[docs.openolat.org](https://docs.openolat.org){:target="_blank"}**.
 
 * * *
 
@@ -161,7 +171,7 @@ Search (RAG) and language model run locally in the fxCloud. Sophia is currently 
 
 ### Learning path: course grade/level at course level
 
-The conversion of points at course level into a different kind of [level/grade](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Assessment/#evaluation_with_grades) already exists in the conventional course. For the learning path course, this option is available from Release 21.0.
+The conversion of points at course level into a different kind of [level/grade](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Assessment/#evaluation_with_grades){:target="_blank"} already exists in the conventional course. For the learning path course, this option is available from Release 21.0.
 
 If a learning path course is assessed with points, an overall grade at course level can be assigned via the option **«With levels/grading»**. The basis for this is the sum of the points of the assessable course elements - as a sum, weighted sum or average according to the points setting. The selected assessment system for the conversion also determines the **success status** of the learning path course.
 
@@ -169,26 +179,28 @@ If a learning path course is assessed with points, an overall grade at course le
 
 Courses with the status «Finished» can still be opened by participants in **read-only mode** - so past content can, for example, continue to be reviewed later for exam preparation.
 
-If, in certain setups - for example short, directly completed or paid courses - no access at all should be possible after the course ends, this can now be realized via the option [**«No access»**](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Options/).
+If, in certain setups - for example short, directly completed or paid courses - no access at all should be possible after the course ends, this can now be realized via the option [**«No access»**](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Options/){:target="_blank"}.
 
-The default value is defined [system-wide](https://docs.openolat.org/en/manual_admin/administration/Modules_Learning_Resource/) and can be overridden in the course if needed.
+The default value is defined [system-wide](https://docs.openolat.org/en/manual_admin/administration/Modules_Learning_Resource/){:target="_blank"} and can be overridden in the course if needed.
 
 ### Availability of offers
 
-An [**offer in the catalog**](https://docs.openolat.org/en/manual_user/learningresources/Access_configuration/#verfugbarkeit-des-angebots-steuern) is often not meant to be bookable permanently, but to open from a certain date or close in good time before the course starts.
+An [**offer in the catalog**](https://docs.openolat.org/en/manual_user/learningresources/Access_configuration/#manage-offer-availability){:target="_blank"} is often not meant to be bookable permanently, but to open from a certain date or close in good time before the course starts.
 
 OpenOlat 21.0 offers the possibility, via **custom conditions**, to define in which course or implementation status and in which period (fixed date or relative to the implementation period) an offer is available.
 
 ### External course tools
 
-OpenOlat 21.0 supports jumping from within the course **to external services** such as a school portal or the timetable tool. With the [**external course tools**](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Toolbar/#external_tools), up to four custom targets can be integrated centrally into the course toolbar and displayed on a role basis. This way the school portal is visible to learners, while the administration tool only appears for coaches.
+OpenOlat 21.0 supports jumping from within the course **to external services** such as a school portal or the timetable tool. With the [**external course tools**](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Toolbar/#external_tools){:target="_blank"}, up to four custom targets can be integrated centrally into the course toolbar and displayed on a role basis. This way the school portal is visible to learners, while the administration tool only appears for coaches.
 
 ![Jump to an external tool from the course toolbar](assets/210/course_toolbar_with_external_tools_v1_en.png){ class="shadow lightbox" title="Jump to an external tool from the course toolbar" }
 
 ### Further improvements
 
 * **Course lifecycle:** Saved changes to the lifecycle settings take effect immediately; via **«Stop process»** the current run can be halted immediately.
-* **[Catalog launcher](https://docs.openolat.org/en/manual_admin/administration/Modules_Catalog_2.0/):** For precise control of which section of the catalog a launcher shows, the launcher type "Taxonomy level" lets you specifically choose whether it refers to an entire taxonomy or to a specific taxonomy level
+* **[Catalog launcher](https://docs.openolat.org/en/manual_admin/administration/Modules_Catalog_2.0/){:target="_blank"}:** For precise control of which section of the catalog a launcher shows, the launcher type "Taxonomy level" lets you specifically choose whether it refers to an entire taxonomy or to a specific taxonomy level
+* **My courses:** The table now offers the columns «Score» and, when the levels/grading module is active, «Rating». The card shows the rating after the score (:octicons-tag-24: Release 21.0.1)
+* **Members management:** Courses with the usage «Use in Course Planner» offer the predefined filters for coaches and participants (:octicons-tag-24: Release 21.0.1)
 
 * * *
 
@@ -229,7 +241,7 @@ The **report on the correction workflow** has been optimized and extended: it is
 
 ### Evidence of achievement and assessment data
 
-In the overview of the evidence of achievement - [personal menu](https://docs.openolat.org/en/manual_user/personal_menu/) and [user management](https://docs.openolat.org/en/manual_admin/usermanagement/Configure_User/) - further information is available:
+In the overview of the evidence of achievement - [personal menu](https://docs.openolat.org/en/manual_user/personal_menu/){:target="_blank"} and [user management](https://docs.openolat.org/en/manual_admin/usermanagement/Configure_User/){:target="_blank"} - further information is available:
 
 * **Assessment:** Shows the grade achieved when the levels/grading module is active
 * **Reference:** Shows the reference of the respective course
@@ -238,7 +250,7 @@ In addition, an individual **evidence of achievement can be deleted** in user ma
 
 To ensure that participant assessment data (including evidence of achievement) is always up to date, from :octicons-tag-24: Release 21.0.1 onward, an **automatic recalculation of assessment data** will take place at the structure module level and at the top-level course node whenever assessment rules are modified and published.
 
-To avoid inconsistencies, the configuration of **scoring rules** is available only **in read-only mode** if assessments are already present. Editing must be explicitly enabled.
+To avoid inconsistencies, from :octicons-tag-24: Release 21.0.1 onward, the configuration of **assessment rules** is available only **in read-only mode** if assessments are already present. Editing must be explicitly enabled.
 
 * * *
 
@@ -248,15 +260,15 @@ To avoid inconsistencies, the configuration of **scoring rules** is available on
 
 Audit-proof and practical certificates can be issued with OpenOlat 21.0.
 
-With the option **«With [serial number](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Certification_Programs/)»**, every certificate generated via the certification program automatically receives a sequential, human-readable serial number. The format is defined via variables.
+With the option **«With [serial number](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Certification_Programs/){:target="_blank"}»**, every certificate generated via the certification program automatically receives a sequential, human-readable serial number. The format is defined via variables.
 
 The serial number is assigned anew on each issuance - including a recertification - appears on the certificate and in the PDF file name, and is shown in the certificate overview.
 
-The option **«With [print version](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Assessment_Certificate/#print_template)»** activates an additional template for pre-printed paper - for example with an already printed background, logo or embossing. It contains only the variable content without graphic elements and can be exported by course owners and authorized coaches in addition to the standard certificate.
+The option **«With [print version](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Assessment_Certificate/#print_template){:target="_blank"}»** activates an additional template for pre-printed paper - for example with an already printed background, logo or embossing. It contains only the variable content without graphic elements and can be exported by course owners and authorized coaches in addition to the standard certificate.
 
 ### New certificate template
 
-The integrated standard **[certificate template](https://docs.openolat.org/en/manual_admin/administration/e-Assessment_Certificates/)** has been completely replaced, is deliberately kept simple and is now **HTML-based**. HTML [templates](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Assessment_Certificate/#certificate_template) are the recommended variant from Release 21.0, as they are more flexible to design and work with the certificate variables with a `$` prefix. Classic PDF forms still work, but should only be used if the Gotenberg PDF service is not installed.
+The integrated standard **[certificate template](https://docs.openolat.org/en/manual_admin/administration/e-Assessment_Certificates/){:target="_blank"}** has been completely replaced, is deliberately kept simple and is now **HTML-based**. HTML [templates](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Assessment_Certificate/#certificate_template){:target="_blank"} are the recommended variant from Release 21.0, as they are more flexible to design and work with the certificate variables with a `$` prefix. Classic PDF forms still work, but should only be used if the Gotenberg PDF service is not installed.
 
 * * *
 
@@ -264,7 +276,7 @@ The integrated standard **[certificate template](https://docs.openolat.org/en/ma
 
 ### Two-factor authentication with One Time Code
 
-For local logins, sign-in can now be secured with a second factor. With the [**One Time Code**](https://docs.openolat.org/en/manual_user/login_registration/One_Time_Code/) option activated, account holders receive an 8-digit confirmation code by email after entering their username and password, and complete the sign-in on a validation page with it. The code is valid only for the current login.
+For local logins, sign-in can now be secured with a second factor. With the [**One Time Code**](https://docs.openolat.org/en/manual_user/login_registration/One_Time_Code/){:target="_blank"} option activated, account holders receive an 8-digit confirmation code by email after entering their username and password, and complete the sign-in on a validation page with it. The code is valid only for the current login.
 
 The procedure complements Passkey: if Passkey is additionally activated, a stored passkey takes over the second factor, while the One Time Code serves as a fallback for accounts without a passkey.
 
@@ -274,10 +286,20 @@ The prerequisite is a valid email address on the account as well as a functional
 
 ## Other, in brief
 
-* **UX, usability, accessibility**: Optimizations of checkbox buttons, object selector, button styling as well as in the area of accessibility
-* **Mediasite integration via LTI 1.3:** The [Mediasite module](https://docs.openolat.org/en/manual_user/learningresources/Course_Element_Mediasite/) can now be connected to the Mediasite server via either LTI 1.1 or LTI 1.3
-* **JupyterHub** When configuring the [JupyterHub course element](https://docs.openolat.org/en/manual_user/learningresources/Course_Element_JupyterHub/), only active hubs are available; for an already configured but inactive hub, a warning points out that it no longer works - so courses do not unnoticeably run into nothing
+* **UX, usability, accessibility**:
+    * Optimizations of checkbox buttons, object selector, button styling as well as in the area of accessibility
+    * Catalog 1.0 also shows a clean layout on tablet and smartphone (:octicons-tag-24: Release 21.0.4)
+* **Mediasite integration via LTI 1.3:**
+    * The [Mediasite module](https://docs.openolat.org/en/manual_user/learningresources/Course_Element_Mediasite/){:target="_blank"} can now be connected to the Mediasite server via either LTI 1.1 or LTI 1.3
+    * With LTI 1.3, content can be selected directly on the Mediasite server via [Deep Linking](https://docs.openolat.org/en/manual_user/learningresources/Course_Element_Mediasite/#choose_content){:target="_blank"}, in addition to entering the ID (:octicons-tag-24: Release 21.0.3)
+* **JupyterHub** When configuring the [JupyterHub course element](https://docs.openolat.org/en/manual_user/learningresources/Course_Element_JupyterHub/){:target="_blank"}, only active hubs are available; for an already configured but inactive hub, a warning points out that it no longer works - so courses do not unnoticeably run into nothing
 * **Recruiting module Selectus:** The frentix Selectus software has been integrated as a separate OpenOlat module and, after the integration phase is complete, will in future be available for committee-based selection procedures, applications for professorships/scholarships, for calls and competitions as well as awards by foundations
+* **[Task and group task](https://docs.openolat.org/en/manual_user/learningresources/Assessing_tasks_and_group_tasks/#results_export){:target="_blank"}:** «Export results» provides the current step, the completion date of each step and the assigned coaches (:octicons-tag-24: Release 21.0.2)
+* **[Event & absence management](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Execution/#config_event_and_absence_management){:target="_blank"}:** The configuration in the administration and the course settings has been restructured. The administration defines whether courses may override the default configuration (:octicons-tag-24: Release 21.0.2)
+* **[Coaching Tool](https://docs.openolat.org/en/manual_user/area_modules/Coaching_Courses/#courses_search){:target="_blank"}:** The search for courses and persons supports the wildcard `*`, as in the «Courses» section (:octicons-tag-24: Release 21.0.1)
+* **Translations:**
+    * The Selectus module is fully translated into German and French (:octicons-tag-24: Release 21.0.1)
+    * French, Italian and Slovak cover the entire user interface, Selectus now also in Italian (:octicons-tag-24: Release 21.0.4)
 
 * * *
 
@@ -286,8 +308,12 @@ The prerequisite is a valid email address on the account as well as a functional
 * **Certificates:** HTML templates recommended
 * **Catalog 2.0** is enabled by default for new installations
 * Secure delivery of unsafe content via a second domain (`olat.properties key: server.content.domainname`) using **iFrame sandboxing** for SCORM, HTML page and all content delivered in iFrames
+    * Content delivered via the second domain also opens in a new tab, after reloading and for several persons at the same time (:octicons-tag-24: Release 21.0.4)
 * Update of third-party libraries
 * fxSyncher: Dedicated site in the main menu with configurable access (:octicons-tag-24: Release 21.0.1 - frentix release only)
+* **REST API:** Events of elements in the Course Planner can be created, changed and retrieved (:octicons-tag-24: Release 21.0.1)
+* [Maintenance tool](https://docs.openolat.org/en/manual_admin/administration/e-Assessment_Certificates/#tab_maintenance){:target="_blank"} for finding and restoring damaged certificate PDFs (:octicons-tag-24: Release 21.0.1)
+* Paella player: mp4 streams are loaded in CORS mode, the stream server must send `Access-Control-Allow-Origin` (:octicons-tag-24: Release 21.0.4)
 
 * * *
 
@@ -300,17 +326,23 @@ The prerequisite is a valid email address on the account as well as a functional
     * [x] Coaching module mandatory: `e-Assessment > Coaching`
     * [x] Note that the "Courses" area is accessible only to participants: `Modules > Learning resource > "Access" tab > Access`
     * [x] Participant access to finished learning resources: `Modules > Learning resource > "Access" tab > Status "Finished"`
-    * [x] (De)activation of the [«Rooms» module](https://docs.openolat.org/en/manual_admin/administration/Modules_Rooms/): `Modules > Rooms`
-    * [x] Set up element types and automation in the [Course Planner](https://docs.openolat.org/en/manual_admin/administration/Modules_Course_Planner/): `Modules > Course Planner > Element types tab`
-    * [x] Configure [AI features](https://docs.openolat.org/en/manual_admin/administration/External_Tools_AI/): `External tools > AI module`
-    * [x] Minimum version Safe Exam Browser: e-Assessment > [Assessment management](https://docs.openolat.org/en/manual_admin/administration/e-Assessment_AssessmentMgmt/#tab_seb_versions) > Safe Exam Browser versions
-    * [x] Activate [One Time Code](https://docs.openolat.org/en/manual_admin/administration/Login_Password_and_Authentication/) (2FA): `Login > Password and authentication > Authentication tab`
+    * [x] (De)activation of the [«Rooms» module](https://docs.openolat.org/en/manual_admin/administration/Modules_Rooms/){:target="_blank"}: `Modules > Rooms`
+    * [x] Set up element types and automation in the [Course Planner](https://docs.openolat.org/en/manual_admin/administration/Modules_Course_Planner/){:target="_blank"}: `Modules > Course Planner > Element types tab`
+    * [x] [Check the course-level configuration](https://docs.openolat.org/en/manual_admin/administration/Modules_Events_and_Absences/#course-level-configuration){:target="_blank"}: `Modules > Events / Absences` (:octicons-tag-24: Release 21.0.2)
+    * [x] Check the stream server for CORS or switch off CORS in the player (`"crossOrigin": false`): `Modules > Live stream > Paella player` (:octicons-tag-24: Release 21.0.4)
+    * [x] Configure [AI features](https://docs.openolat.org/en/manual_admin/administration/External_Tools_AI/){:target="_blank"}: `External tools > AI module`
+        * [Adjust the limits per AI feature if required](https://docs.openolat.org/en/manual_admin/administration/External_Tools_AI/#ai_function_limits){:target="_blank"}: tab «AI features» (:octicons-tag-24: Release 21.0.2)
+    * [x] Minimum version Safe Exam Browser: e-Assessment > [Assessment management](https://docs.openolat.org/en/manual_admin/administration/e-Assessment_AssessmentMgmt/#tab_seb_versions){:target="_blank"} > Safe Exam Browser versions
+    * [x] [Certificate maintenance](https://docs.openolat.org/en/manual_admin/administration/e-Assessment_Certificates/#tab_maintenance){:target="_blank"}: `e-Assessment > Certificates > Maintenance` (:octicons-tag-24: Release 21.0.1)
+    * [x] Activate [One Time Code](https://docs.openolat.org/en/manual_admin/administration/Login_Password_and_Authentication/){:target="_blank"} (2FA): `Login > Password and authentication > Authentication tab`
     * [x] Set up a second domain for unsafe content: `olat.properties key > server.content.domainname`
 
 * * *
 
 ## Further information
 
+* [YouTrack Release notes 21.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.5&title=Release%20Notes%2021.0.5){:target="_blank"}
+* [YouTrack Release notes 21.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.4&title=Release%20Notes%2021.0.4){:target="_blank"}
 * [YouTrack Release notes 21.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.3&title=Release%20Notes%2021.0.3){:target="_blank"}
 * [YouTrack Release notes 21.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.2&title=Release%20Notes%2021.0.2){:target="_blank"}
 * [YouTrack Release notes 21.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.1&title=Release%20Notes%2021.0.1){:target="_blank"}
