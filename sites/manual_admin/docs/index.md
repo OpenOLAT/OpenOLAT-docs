@@ -1,25 +1,35 @@
 ---
 title: Admin manual
-description: The OpenOlat admin manual with the path to a running installation, the three phases knowledge, apply and deepen, and what is new in release 21.0.
+description: The OpenOlat admin manual with the introduction for administrators in the three phases knowledge, apply and deepen, and what is new in release 21.0.
 hide:
   - toc
 ---
 
 # Admin manual {: #admin_manual}
 
-<p class="oo-mh-lede">How you configure, extend and operate an OpenOlat instance. Every chapter starts at the place in the administration where the setting lives.</p>
+<p class="oo-mh-lede">The admin manual explains how you configure, extend and operate an OpenOlat installation. Step-by-step guides are in the how-to.</p>
 <p class="oo-mh-meta">Release 21.0 · Reference</p>
 
 !!! note "Installation chapter"
 
     The chapter "Installation and operation" is available in English only.
 
-## The path to a running installation {: #path}
+## Introduction for administrators {: #phases}
 
-<p class="oo-mh-role__text">Five stations from the basic settings to a connected installation.</p>
+In three phases you get to a running installation: first understand, then install, then improve. Knowledge and Deepen are in this manual, Apply is in the installation guide. frentix accompanies you in every phase if you wish.
+
+<div class="oo-mh-phasecards" markdown>
+
+<article class="oo-mh-pcard oo-mh-pcard--know" id="phase_know" markdown>
+
+<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Knowledge</span><h3>Before you start</h3></div>
+
+<div class="oo-mh-pcard__body" markdown>
+
+Five stations explain the terms of the administration and show what is easily confused.
 
 <!-- gen:authoring_path_tiles -->
-<div class="oo-mh-stations" markdown>
+<div class="oo-mh-stations" id="path" markdown>
 
 1. [Set up <small>System and appearance</small>](admin_path/einrichten.md)
 1. [Access <small>Who may enter</small>](admin_path/zugang.md)
@@ -30,35 +40,19 @@ hide:
 </div>
 <!-- /gen:authoring_path_tiles -->
 
-<p class="oo-mh-go" markdown>[<i class="o_icon o_icon_start" aria-hidden="true"></i> Open the whole path](admin_path/index.md)</p>
-
-## How you get to a running installation {: #phases}
-
-Three phases. frentix is there for you in each of them, and in each you can also continue on your own.
-
-<div class="oo-mh-phasecards" markdown>
-
-<article class="oo-mh-pcard oo-mh-pcard--know" markdown>
-
-<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Knowledge</span><h3>Before you start</h3></div>
-
-<div class="oo-mh-pcard__body" markdown>
-
-Read what there is and what it is for. The path to a running installation explains the terms of the administration and shows what is easily confused.
-
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> The path to a running installation](admin_path/index.md){ .oo-mh-pcard__go }
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Introduction for administrators](admin_path/index.md){ .oo-mh-pcard__go }
 
 </div>
 
 </article>
 
-<article class="oo-mh-pcard oo-mh-pcard--apply" markdown>
+<article class="oo-mh-pcard oo-mh-pcard--apply" id="phase_apply" markdown>
 
-<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Apply</span><h3>Set up the installation</h3></div>
+<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Apply</span><h3>Install OpenOlat</h3></div>
 
 <div class="oo-mh-pcard__body" markdown>
 
-You operate OpenOlat yourself? The installation guide leads from the database to the first login. Sophia helps along the way.
+You operate OpenOlat yourself? The installation guide leads from the system user on the server via Tomcat and the database to the first login.
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> Installation guide](installation/installGuide.md){ .oo-mh-pcard__go }
 
@@ -68,7 +62,7 @@ You operate OpenOlat yourself? The installation guide leads from the database to
 
 </article>
 
-<article class="oo-mh-pcard oo-mh-pcard--deepen" markdown>
+<article class="oo-mh-pcard oo-mh-pcard--deepen" id="phase_deepen" markdown>
 
 <div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Deepen</span><h3>Improve the installation</h3></div>
 
@@ -76,9 +70,9 @@ You operate OpenOlat yourself? The installation guide leads from the database to
 
 Once the installation is running: read reports, set up lifecycles, adapt the wording of the interface, connect other systems.
 
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Reports](administration/Reports.md){ .oo-mh-pcard__go }
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Lifecycles](administration/Life_cycles_-_Administration.md){ .oo-mh-pcard__go }
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Language adaption tool](administration/Customizing.md#language_adaption_tool){ .oo-mh-pcard__go }
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Reports](administration/Reports.md){ .oo-mh-pcard__go }<br>
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Lifecycles](administration/Life_cycles_-_Administration.md){ .oo-mh-pcard__go }<br>
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Language adaption tool](administration/Customizing.md#language_adaption_tool){ .oo-mh-pcard__go }<br>
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> REST API](administration/REST_API.md){ .oo-mh-pcard__go }
 
 </div>
@@ -117,7 +111,7 @@ These functions have to be activated or configured in the system administration 
 
 [Course Planner: element types and automation](administration/Modules_Course_Planner.md#tab_element_types){ .oo-mh-new__title }
 
-`Administration > Modules > Course Planner > Tab Element types`
+`Administration > Modules > Course Planner > Tab "Element types"`
 
 [Release Notes: Element types with automation](../release_notes/Release_notes_21.0.md#element-types-with-automation){ .oo-mh-new__rn }
 
@@ -137,7 +131,7 @@ These functions have to be activated or configured in the system administration 
 
 [One time code (2FA)](administration/Login_Password_and_Authentication.md){ .oo-mh-new__title }
 
-`Administration > Login > Password and authentication > Tab Authentication`
+`Administration > Login > Password and authentication > Tab "Authentication"`
 
 [Release Notes: Two-factor authentication with One Time Code](../release_notes/Release_notes_21.0.md#two-factor-authentication-with-one-time-code){ .oo-mh-new__rn }
 
@@ -155,7 +149,7 @@ The full checklist after the update, with further items on learning resources an
 
     ---
 
-    The system settings decide how the whole instance behaves and how it presents itself. This is where you set the basics, the Core functions and the customisation of your OpenOlat.
+    Here you define how the whole instance behaves and how it presents itself: the basics, the Core functions and the Customizing of your OpenOlat.
 
     [:octicons-arrow-right-24: System](administration/System.md)
 

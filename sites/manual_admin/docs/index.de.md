@@ -1,25 +1,35 @@
 ---
 title: Administrationshandbuch
-description: Das Administrationshandbuch von OpenOlat mit dem Weg zur laufenden Installation, den drei Phasen Wissen, Anwenden und Vertiefen und den Neuerungen in Release 21.0.
+description: Das Administrationshandbuch von OpenOlat mit der Einführung für Administrator:innen in den drei Phasen Wissen, Anwenden und Vertiefen und den Neuerungen in Release 21.0.
 hide:
   - toc
 ---
 
 # Administrationshandbuch {: #admin_manual}
 
-<p class="oo-mh-lede">Wie Sie eine OpenOlat-Installation konfigurieren, erweitern und betreiben. Jedes Kapitel beginnt an der Stelle in der Administration, an der die Einstellung liegt.</p>
+<p class="oo-mh-lede">Das Administrationshandbuch erklärt, wie Sie eine OpenOlat-Installation konfigurieren, erweitern und betreiben. Anleitungen Schritt für Schritt stehen im How-to.</p>
 <p class="oo-mh-meta">Release 21.0 · Nachschlagewerk</p>
 
 !!! note "Kapitel Installation nur auf Englisch"
 
     Das Kapitel "Installation und Betrieb" liegt nur auf Englisch vor. Alle anderen Kapitel dieses Handbuchs sind auf Deutsch verfügbar.
 
-## Der Weg zur laufenden Installation {: #path}
+## Einführung für Administrator:innen {: #phases}
 
-<p class="oo-mh-role__text">Fünf Stationen von den Grundeinstellungen bis zur angebundenen Installation.</p>
+In drei Phasen kommen Sie zur laufenden Installation: zuerst verstehen, dann installieren, dann verbessern. Wissen und Vertiefen stehen in diesem Handbuch, Anwenden in der Installationsanleitung. frentix begleitet Sie auf Wunsch in jeder Phase.
+
+<div class="oo-mh-phasecards" markdown>
+
+<article class="oo-mh-pcard oo-mh-pcard--know" id="phase_know" markdown>
+
+<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Wissen</span><h3>Vor dem Start</h3></div>
+
+<div class="oo-mh-pcard__body" markdown>
+
+Fünf Stationen erklären die Begriffe der Administration und zeigen, was leicht verwechselt wird.
 
 <!-- gen:authoring_path_tiles -->
-<div class="oo-mh-stations" markdown>
+<div class="oo-mh-stations" id="path" markdown>
 
 1. [Einrichten <small>System und Auftritt</small>](admin_path/einrichten.de.md)
 1. [Zugang <small>Wer hinein darf</small>](admin_path/zugang.de.md)
@@ -30,35 +40,19 @@ hide:
 </div>
 <!-- /gen:authoring_path_tiles -->
 
-<p class="oo-mh-go" markdown>[<i class="o_icon o_icon_start" aria-hidden="true"></i> Den ganzen Weg öffnen](admin_path/index.de.md)</p>
-
-## So kommen Sie zur laufenden Installation {: #phases}
-
-Drei Phasen. In jeder ist frentix für Sie da, und in jeder können Sie auch allein weitergehen.
-
-<div class="oo-mh-phasecards" markdown>
-
-<article class="oo-mh-pcard oo-mh-pcard--know" markdown>
-
-<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Wissen</span><h3>Vor dem Start</h3></div>
-
-<div class="oo-mh-pcard__body" markdown>
-
-Lesen, was es gibt und wozu es dient. Der Weg zur laufenden Installation erklärt die Begriffe der Administration und zeigt, was leicht verwechselt wird.
-
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Der Weg zur laufenden Installation](admin_path/index.de.md){ .oo-mh-pcard__go }
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Einführung für Administrator:innen](admin_path/index.de.md){ .oo-mh-pcard__go }
 
 </div>
 
 </article>
 
-<article class="oo-mh-pcard oo-mh-pcard--apply" markdown>
+<article class="oo-mh-pcard oo-mh-pcard--apply" id="phase_apply" markdown>
 
-<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Anwenden</span><h3>Die Installation einrichten</h3></div>
+<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Anwenden</span><h3>OpenOlat installieren</h3></div>
 
 <div class="oo-mh-pcard__body" markdown>
 
-Sie betreiben OpenOlat selbst? Die Installationsanleitung führt von der Datenbank bis zum ersten Login, nur auf Englisch. Sophia hilft unterwegs.
+Sie betreiben OpenOlat selbst? Die Installationsanleitung führt vom Systembenutzer auf dem Server über Tomcat und die Datenbank bis zum ersten Login. Sie liegt nur auf Englisch vor.
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> Installation guide](installation/installGuide.md){ .oo-mh-pcard__go }
 
@@ -68,7 +62,7 @@ Sie betreiben OpenOlat selbst? Die Installationsanleitung führt von der Datenba
 
 </article>
 
-<article class="oo-mh-pcard oo-mh-pcard--deepen" markdown>
+<article class="oo-mh-pcard oo-mh-pcard--deepen" id="phase_deepen" markdown>
 
 <div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Vertiefen</span><h3>Die Installation verbessern</h3></div>
 
@@ -76,9 +70,9 @@ Sie betreiben OpenOlat selbst? Die Installationsanleitung führt von der Datenba
 
 Wenn die Installation läuft: Reports lesen, Lebenszyklen einrichten, Begriffe der Oberfläche anpassen, andere Systeme anbinden.
 
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Reports](administration/Reports.de.md){ .oo-mh-pcard__go }
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Lebenszyklen](administration/Life_cycles_-_Administration.de.md){ .oo-mh-pcard__go }
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Sprachanpassungswerkzeug](administration/Customizing.de.md#language_adaption_tool){ .oo-mh-pcard__go }
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Reports](administration/Reports.de.md){ .oo-mh-pcard__go }<br>
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Lebenszyklen](administration/Life_cycles_-_Administration.de.md){ .oo-mh-pcard__go }<br>
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Sprachanpassungswerkzeug](administration/Customizing.de.md#language_adaption_tool){ .oo-mh-pcard__go }<br>
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> REST API](administration/REST_API.de.md){ .oo-mh-pcard__go }
 
 </div>
@@ -117,7 +111,7 @@ Diese Funktionen müssen nach dem Update in der System-Administration aktiviert 
 
 [Course Planner: Elementtypen und Automatisierung](administration/Modules_Course_Planner.de.md#tab_element_types){ .oo-mh-new__title }
 
-`Administration > Module > Course Planner > Tab Elementtypen`
+`Administration > Module > Course Planner > Tab "Elementtypen"`
 
 [Release Notes: Elementtypen mit Automatisierung](../release_notes/Release_notes_21.0.de.md#elementtypen-mit-automatisierung){ .oo-mh-new__rn }
 
@@ -127,7 +121,7 @@ Diese Funktionen müssen nach dem Update in der System-Administration aktiviert 
 
 [KI-Funktionen](administration/External_Tools_AI.de.md){ .oo-mh-new__title }
 
-`Administration > Externe Werkzeuge > KI Modul`
+`Administration > Externe Werkzeuge > KI-Modul`
 
 [Release Notes: KI-Funktionen](../release_notes/Release_notes_21.0.de.md#ki-funktionen){ .oo-mh-new__rn }
 
@@ -137,7 +131,7 @@ Diese Funktionen müssen nach dem Update in der System-Administration aktiviert 
 
 [One Time Code (2FA)](administration/Login_Password_and_Authentication.de.md){ .oo-mh-new__title }
 
-`Administration > Login > Password und Authentifizierung > Tab Authentifizierung`
+`Administration > Login > Passwort und Authentifizierung > Tab "Authentifizierung"`
 
 [Release Notes: Zwei-Faktor-Authentifizierung mit One Time Code](../release_notes/Release_notes_21.0.de.md#zwei-faktor-authentifizierung-mit-one-time-code){ .oo-mh-new__rn }
 
@@ -155,7 +149,7 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zu Lernressourcen und
 
     ---
 
-    Die Systemeinstellungen entscheiden, wie sich die gesamte Installation verhält und wie sie auftritt. Hier legen Sie die Grundlagen, die Core-Konfiguration und das Customizing Ihres OpenOlat fest.
+    Hier legen Sie fest, wie sich die gesamte Installation verhält und wie sie auftritt: die Grundlagen, die Core-Konfiguration und das Customizing Ihres OpenOlat.
 
     [:octicons-arrow-right-24: System](administration/System.de.md)
 
@@ -229,7 +223,7 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zu Lernressourcen und
 
     [:octicons-arrow-right-24: Zoom-Integration](administration/Zoom.de.md)
 
-    [:octicons-arrow-right-24: KI Modul](administration/External_Tools_AI.de.md)
+    [:octicons-arrow-right-24: KI-Modul](administration/External_Tools_AI.de.md)
 
 -   :fontawesome-solid-credit-card:{ .lg .middle } __Lebenszyklen und Bezahlung__
 

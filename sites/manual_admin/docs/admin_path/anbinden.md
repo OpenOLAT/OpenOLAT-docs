@@ -5,11 +5,13 @@ description: Exams and external tools. Assessment management defines how exams r
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to a running installation" markdown="1">
+<nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: The path to a running installation</span>
-[‹ Menu: Modules](module.md){ .oo-mh-btn .oo-mh-btn--prev }
-[The path to a running installation ›](index.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Set up](einrichten.md)
+1. [Access](zugang.md)
+1. [Roles](rollen.md)
+1. [Modules](module.md)
+1. [Assess and connect](anbinden.md){ aria-current="page" }
 
 </nav>
 
@@ -17,7 +19,7 @@ description: Exams and external tools. Assessment management defines how exams r
 
 <p class="oo-mh-sub">Exams and external tools</p>
 
-Assessment management defines how exams run, the Safe Exam Browser secures them. Under External tools you enable the AI features with the AI module and connect courses to external applications via LTI. The REST API in the core functions opens OpenOlat to other systems.
+Assessment management defines how exams run, the Safe Exam Browser secures them. Among the external tools you enable the AI features with the AI module and connect courses to external applications via LTI. The REST API opens OpenOlat to other systems. All three areas are in the system administration:<br>`Administration > e-Assessment > Assessment management`<br>`Administration > External tools`<br>`Administration > Core functions > REST API`
 
 ## Terms of this station {: #terms}
 
@@ -141,7 +143,7 @@ frentix accompanies you in the setup with support and coaching: [support@frentix
 
 ## Deepen once the installation is running {: #deepen}
 
-The installation is running. Now the things that did not matter while setting up pay off: the terms of this station have parts and settings that control the installation more precisely.
+The installation is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the installation more precisely.
 
 - **Safe Exam Browser:** [Safe Exam Browser configuration template](../administration/e-Assessment_AssessmentMgmt.md). More on the page [How do I prepare an exam with the Safe Exam Browser (SEB)?](../../manual_how-to/SEB/SEB.md).
 - **AI module:** [AI Provider](../administration/External_Tools_AI.md), [AI Feature](../administration/External_Tools_AI.md), AI settings, [AI processing pool](../administration/External_Tools_AI.md) and more.

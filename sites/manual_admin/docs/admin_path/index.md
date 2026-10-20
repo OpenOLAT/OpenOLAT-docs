@@ -1,23 +1,15 @@
 ---
-title: The path to a running installation
-description: Five stations lead from the basic settings to a connected installation.
+title: Introduction for administrators
+description: Five stations in the order in which you set up a new instance.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to a running installation" markdown="1">
+# Introduction for administrators {: #admin_path}
 
-<span class="oo-mh-nav__label">Navigation: The path to a running installation</span>
-[‹ Admin manual](../index.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menu: Set up ›](einrichten.md){ .oo-mh-btn .oo-mh-btn--next }
+Five stations in the order in which you set up a new instance.
 
-</nav>
-
-# The path to a running installation {: #admin_path}
-
-Five stations lead from the basic settings to a connected installation. The order follows the setup of a new instance: first the system, then access, roles, modules, and finally exams and external tools. Each station explains its terms, shows what is easily confused, and leads to the manual page.
-
-<p class="oo-mh-phases"><span class="oo-mh-phase oo-mh-phase--on"><b>Knowledge</b>: you are here</span> <span class="oo-mh-phase"><b>Apply</b>: your own installation or a ready instance from frentix</span> <span class="oo-mh-phase"><b>Deepen</b>: once the installation is running</span></p>
+This introduction is the knowledge phase. It is followed by [Apply](../index.md#phase_apply) with the installation guide or a ready instance from frentix, and by [Deepen](../index.md#phase_deepen) once the installation is running.
 
 ## The stations {: #stations}
 
@@ -30,8 +22,6 @@ Five stations lead from the basic settings to a connected installation. The orde
 1. [Assess and connect <small>Exams and external tools</small>](anbinden.md)
 
 </div>
-
-<p class="oo-mh-hint">Click a station. The order is a recommendation, not a rule.</p>
 
 ## Before you start {: #before_you_start}
 

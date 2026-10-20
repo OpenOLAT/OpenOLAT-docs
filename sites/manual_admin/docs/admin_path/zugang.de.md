@@ -5,11 +5,13 @@ description: Wer hinein darf. Hier entscheiden Sie, wer Ihre Installation erreic
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zur laufenden Installation" markdown="1">
+<nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zur laufenden Installation</span>
-[‹ Menü: Einrichten](einrichten.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Rollen ›](rollen.de.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Einrichten](einrichten.de.md)
+1. [Zugang](zugang.de.md){ aria-current="page" }
+1. [Rollen](rollen.de.md)
+1. [Module](module.de.md)
+1. [Prüfen und Anbinden](anbinden.de.md)
 
 </nav>
 
@@ -17,7 +19,7 @@ description: Wer hinein darf. Hier entscheiden Sie, wer Ihre Installation erreic
 
 <p class="oo-mh-sub">Wer hinein darf</p>
 
-Hier entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden. Die Authentifizierung legt die Login-Methoden fest, die Selbstregistrierung öffnet die Instanz für neue Konten, der Gast sieht nur, was ausdrücklich für Gäste freigegeben ist. Der One Time Code ergänzt das Passwort um einen zweiten Faktor.
+Hier entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden. Die Authentifizierung legt die Login-Verfahren fest, die Selbstregistrierung öffnet die Instanz für neue Konten, der Gast sieht nur, was ausdrücklich für Gäste freigegeben ist. Der One Time Code ergänzt das Passwort um einen zweiten Faktor. Die Einstellungen liegen in der System-Administration unter:<br>`Administration > Login`
 
 ## Begriffe dieser Station {: #terms}
 
@@ -37,7 +39,7 @@ Der Abschnitt der Administration für Anmeldung und Zugang: Password und Authent
 
     **Englisch:** Login
 
-    [Im Handbuch lesen](../administration/Login.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Login%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/Login.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Login%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -55,7 +57,7 @@ Der Nachweis, dass eine Person die ist, die sie zu sein vorgibt.
 
     **Englisch:** Authentication
 
-    [Im Handbuch lesen](../../manual_user/login_registration/Login_Concept.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Authentifizierung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/login_registration/Login_Concept.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Authentifizierung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -75,7 +77,7 @@ Das Modul, mit dem eine Person auf der Anmeldeseite selbst ein Konto anlegt, ohn
 
     **Wie Nutzende es nennen:** Registrierung, Konto selbst erstellen, Account anlegen, sich registrieren
 
-    [Im Handbuch lesen](../administration/Login_Self-Registration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Selbstregistrierung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/Login_Self-Registration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Selbstregistrierung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -97,7 +99,7 @@ Der Zugang zu OpenOlat ohne Konto über den Link Gastzugang auf der Anmeldeseite
 
     **Nicht verwechseln mit «[Gast](../../manual_user/basic_concepts/guest_access.de.md)»:** Gast ist die Zugangsrolle der Person; der Gastzugang ist die Funktion, die die Administration ein- oder ausschaltet.
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/guest_access.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gastzugang%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/guest_access.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gastzugang%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 <div class="oo-mh-kids" markdown>
 
@@ -113,7 +115,7 @@ Der Zugang zu OpenOlat ohne Konto über den Link Gastzugang auf der Anmeldeseite
 
     **Nicht verwechseln mit «[Gastzugang](../../manual_user/basic_concepts/guest_access.de.md)»:** Gast ist die Zugangsrolle der Person; der Gastzugang ist die Funktion, die die Administration ein- oder ausschaltet.
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/guest_access.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gast%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/guest_access.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Gast%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -137,7 +139,7 @@ Ein achtstelliger Bestätigungscode, den OpenOlat nach der Eingabe von Anmeldena
 
     **Nicht verwechseln mit «[Passkey](../../manual_user/login_registration/Passkey.de.md)»:** Der One Time Code kommt per E-Mail und braucht kein Gerät; der Passkey ist an ein Gerät oder einen Sicherheitsschlüssel gebunden.
 
-    [Im Handbuch lesen](../../manual_user/login_registration/One_Time_Code.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22One%20Time%20Code%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/login_registration/One_Time_Code.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22One%20Time%20Code%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -165,7 +167,7 @@ Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@fr
 
 ## Vertiefen, wenn die Installation läuft {: #deepen}
 
-Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
+Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
 - **Login:** [Sicherheit](../administration/Login_Security.de.md).
 - **Authentifizierung:** [Lokale OpenOlat-Authentifizierung](../../manual_user/login_registration/Login_Concept.de.md), Login für Administratoren, [Cloud Login](../administration/Login.de.md), [Passkey](../../manual_user/login_registration/Passkey.de.md) und weitere.

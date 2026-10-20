@@ -5,11 +5,13 @@ description: Prüfungen und externe Werkzeuge. Die Prüfungsverwaltung legt fest
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zur laufenden Installation" markdown="1">
+<nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zur laufenden Installation</span>
-[‹ Menü: Module](module.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Der Weg zur laufenden Installation ›](index.de.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Einrichten](einrichten.de.md)
+1. [Zugang](zugang.de.md)
+1. [Rollen](rollen.de.md)
+1. [Module](module.de.md)
+1. [Prüfen und Anbinden](anbinden.de.md){ aria-current="page" }
 
 </nav>
 
@@ -17,7 +19,7 @@ description: Prüfungen und externe Werkzeuge. Die Prüfungsverwaltung legt fest
 
 <p class="oo-mh-sub">Prüfungen und externe Werkzeuge</p>
 
-Die Prüfungsverwaltung legt fest, wie Prüfungen ablaufen, der Safe Exam Browser sichert sie ab. Unter Externe Werkzeuge schalten Sie mit dem KI Modul die KI-Funktionen frei und verbinden über LTI Kurse mit externen Anwendungen. Die REST API in der Core Konfiguration öffnet OpenOlat für andere Systeme.
+Die Prüfungsverwaltung legt fest, wie Prüfungen ablaufen, der Safe Exam Browser sichert sie ab. Unter den externen Werkzeugen schalten Sie mit dem KI-Modul die KI-Funktionen frei und verbinden über LTI Kurse mit externen Anwendungen. Die REST API öffnet OpenOlat für andere Systeme. Alle drei Bereiche liegen in der System-Administration:<br>`Administration > e-Assessment > Prüfungsverwaltung`<br>`Administration > Externe Werkzeuge`<br>`Administration > Core-Konfiguration > REST API`
 
 ## Begriffe dieser Station {: #terms}
 
@@ -41,7 +43,7 @@ Die Verwaltung von Prüfungsmodus und Prüfungseinsicht.
 
     **Nicht verwechseln mit «[Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview.de.md)»:** Das Bewertungswerkzeug bewertet Leistungen, die Prüfungsverwaltung legt Prüfungsfenster und Einsichten fest.
 
-    [Im Handbuch lesen](../../manual_user/learningresources/Assessment_Management.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Pr%C3%BCfungsverwaltung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/learningresources/Assessment_Management.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Pr%C3%BCfungsverwaltung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -61,7 +63,7 @@ Anbindung des Safe Exam Browser. Der Prüfungsmodus verlangt diesen Browser und 
 
     **Wie Nutzende es nennen:** SEB, Sichere Prüfungssoftware, Klausur-Browser, Prüfungsbrowser, Lockdown-Browser, Prüfungsschutz, Exam-Sicherheitsbrowser
 
-    [Im Handbuch lesen](../../manual_how-to/SEB/SEB.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Safe%20Exam%20Browser%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_how-to/SEB/SEB.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Safe%20Exam%20Browser%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -81,7 +83,7 @@ Das Modul, das die Anbindung an KI-Dienste verwaltet: welche Anbieter zur Verfü
 
     **Wie Nutzende es nennen:** KI, Künstliche Intelligenz, AI, LLM, Sprachmodell-Anbindung, KI-Funktionen, AI-Assistent, KI-gestützte Module, KI-Funktionsmodule
 
-    [Im Handbuch lesen](../administration/External_Tools_AI.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22KI%20Modul%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/External_Tools_AI.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22KI%20Modul%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -101,7 +103,7 @@ Standard Learning Tools Interoperability.
 
     **Wie Nutzende es nennen:** Learning Tools Interoperability, LTI 1.3, LTI-Schnittstelle, LTI-Anbindung, Externe Tools, Tool-Integration, LMS-Integration, Drittanwendungen
 
-    [Im Handbuch lesen](../administration/LTI_Integrations.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22LTI%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/LTI_Integrations.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22LTI%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -121,7 +123,7 @@ Programmierschnittstelle nach dem REST-Muster.
 
     **Wie Nutzende es nennen:** Schnittstelle, API-Integration, Systemanbindung, API-Schnittstelle, Webservice
 
-    [Im Handbuch lesen](../administration/REST_API.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22REST%20API%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/REST_API.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22REST%20API%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -145,7 +147,7 @@ Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@fr
 
 ## Vertiefen, wenn die Installation läuft {: #deepen}
 
-Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
+Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
 - **Safe Exam Browser:** [Safe Exam Browser Konfigurationsvorlage](../administration/e-Assessment_AssessmentMgmt.de.md). Mehr dazu auf der Seite [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor?](../../manual_how-to/SEB/SEB.de.md).
 - **KI Modul:** [KI Anbieter](../administration/External_Tools_AI.de.md), [KI Funktion](../administration/External_Tools_AI.de.md), KI-Einstellungen, [KI-Verarbeitungs-Pool](../administration/External_Tools_AI.de.md) und weitere.

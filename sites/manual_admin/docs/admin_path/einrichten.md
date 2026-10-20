@@ -1,15 +1,17 @@
 ---
 title: Set up
-description: System and appearance. The system settings define how the installation behaves and how it looks.
+description: System and appearance. Here you define how the installation behaves and how it looks.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to a running installation" markdown="1">
+<nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: The path to a running installation</span>
-[‹ The path to a running installation](index.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menu: Access ›](zugang.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Set up](einrichten.md){ aria-current="page" }
+1. [Access](zugang.md)
+1. [Roles](rollen.md)
+1. [Modules](module.md)
+1. [Assess and connect](anbinden.md)
 
 </nav>
 
@@ -17,7 +19,7 @@ description: System and appearance. The system settings define how the installat
 
 <p class="oo-mh-sub">System and appearance</p>
 
-The system settings define how the installation behaves and how it looks. In the core functions you configure the basic features, in customizing the system layout, logo and footer line, and with the landing page the first screen after login.
+Here you define how the installation behaves and how it looks. In the core functions you configure the basic features and, with the landing page, the first screen after login; in customizing the system layout, logo and footer line. Both areas are in the system administration:<br>`Administration > Core functions`<br>`Administration > Customizing`
 
 ## Terms of this station {: #terms}
 
@@ -119,7 +121,7 @@ frentix accompanies you in the setup with support and coaching: [support@frentix
 
 ## Deepen once the installation is running {: #deepen}
 
-The installation is running. Now the things that did not matter while setting up pay off: the terms of this station have parts and settings that control the installation more precisely.
+The installation is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the installation more precisely.
 
 - **System:** [Info messages](../administration/System.md), [User sessions](../administration/System.md).
 - **Core functions:** [Files and folders](../administration/Files_and_Folders.md), Audit log, Request limit, [E-mail inbox and outbox](../administration/E-Mail_Settings.md).

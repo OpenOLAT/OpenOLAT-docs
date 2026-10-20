@@ -5,11 +5,13 @@ description: Who may enter. Here you decide who reaches your installation and ho
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to a running installation" markdown="1">
+<nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: The path to a running installation</span>
-[‹ Menu: Set up](einrichten.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menu: Roles ›](rollen.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Set up](einrichten.md)
+1. [Access](zugang.md){ aria-current="page" }
+1. [Roles](rollen.md)
+1. [Modules](module.md)
+1. [Assess and connect](anbinden.md)
 
 </nav>
 
@@ -17,7 +19,7 @@ description: Who may enter. Here you decide who reaches your installation and ho
 
 <p class="oo-mh-sub">Who may enter</p>
 
-Here you decide who reaches your installation and how people log in. Authentication defines the login methods, self-registration opens the instance for new accounts, and guests only see what is explicitly released for guests. The one time code adds a second factor to the password.
+Here you decide who reaches your installation and how people log in. Authentication defines the login methods, self-registration opens the instance for new accounts, and guests only see what is explicitly released for guests. The one time code adds a second factor to the password. The settings are in the system administration under:<br>`Administration > Login`
 
 ## Terms of this station {: #terms}
 
@@ -163,7 +165,7 @@ frentix accompanies you in the setup with support and coaching: [support@frentix
 
 ## Deepen once the installation is running {: #deepen}
 
-The installation is running. Now the things that did not matter while setting up pay off: the terms of this station have parts and settings that control the installation more precisely.
+The installation is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the installation more precisely.
 
 - **Login:** [Security](../administration/Login_Security.md).
 - **Authentication:** [Local OpenOlat authentication](../../manual_user/login_registration/Login_Concept.md), Login for administrators, [Cloud login](../administration/Login.md), [Passkey](../../manual_user/login_registration/Passkey.md) and more.

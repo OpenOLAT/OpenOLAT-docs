@@ -1,15 +1,17 @@
 ---
 title: Einrichten
-description: System und Auftritt. Die Systemeinstellungen legen fest, wie sich die Installation verhält und wie sie auftritt.
+description: System und Auftritt. Hier legen Sie fest, wie sich die Installation verhält und wie sie auftritt.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zur laufenden Installation" markdown="1">
+<nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zur laufenden Installation</span>
-[‹ Der Weg zur laufenden Installation](index.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Zugang ›](zugang.de.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Einrichten](einrichten.de.md){ aria-current="page" }
+1. [Zugang](zugang.de.md)
+1. [Rollen](rollen.de.md)
+1. [Module](module.de.md)
+1. [Prüfen und Anbinden](anbinden.de.md)
 
 </nav>
 
@@ -17,7 +19,7 @@ description: System und Auftritt. Die Systemeinstellungen legen fest, wie sich d
 
 <p class="oo-mh-sub">System und Auftritt</p>
 
-Die Systemeinstellungen legen fest, wie sich die Installation verhält und wie sie auftritt. In der Core Konfiguration stellen Sie die Grundfunktionen ein, im Customizing Systemlayout, Logo und Fusszeile, mit der Startseite den ersten Bildschirm nach dem Login.
+Hier legen Sie fest, wie sich die Installation verhält und wie sie auftritt. In der Core-Konfiguration stellen Sie die Grundfunktionen ein und mit der Startseite den ersten Bildschirm nach dem Login, im Customizing Systemlayout, Logo und Fusszeile. Beide Bereiche liegen in der System-Administration:<br>`Administration > Core-Konfiguration`<br>`Administration > Customizing`
 
 ## Begriffe dieser Station {: #terms}
 
@@ -39,7 +41,7 @@ Der Abschnitt der Administration für den Betrieb: Systeminformation, Info messa
 
     **Wie Nutzende es nennen:** Systeminformation, Systemstatus, Fehlersuche
 
-    [Im Handbuch lesen](../administration/System.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22System%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/System.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22System%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -57,7 +59,7 @@ Der Abschnitt der Administration mit den Grundfunktionen der Plattform: E-Mail, 
 
     **Englisch:** Core functions
 
-    [Im Handbuch lesen](../administration/Core_functions.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Core%20Konfiguration%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/Core_functions.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Core%20Konfiguration%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -75,7 +77,7 @@ Der Abschnitt der Administration für das Erscheinungsbild und die Anpassung der
 
     **Englisch:** Customizing
 
-    [Im Handbuch lesen](../administration/Customizing.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Customizing%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/Customizing.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Customizing%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -95,7 +97,7 @@ Die Seite, die eine Person nach der Anmeldung sieht.
 
     **Wie Nutzende es nennen:** Landingpage, Einstiegsseite, Seite nach dem Login, Startbereich
 
-    [Im Handbuch lesen](../administration/Landing_pages.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Startseite%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/Landing_pages.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Startseite%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -119,7 +121,7 @@ Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@fr
 
 ## Vertiefen, wenn die Installation läuft {: #deepen}
 
-Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
+Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
 - **System:** [Info messages](../administration/System.de.md), [Aktive Sitzungen](../administration/System.de.md).
 - **Core Konfiguration:** [Dateien und Ordner](../administration/Files_and_Folders.de.md), Audit-Log, Limite für Anfragen, [E-Mail Postfach und Versand](../administration/E-Mail_Settings.de.md).
@@ -128,7 +130,7 @@ Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichti
 ## Weiterführende Informationen {: #further_information}
 
 [System >](../administration/System.de.md)<br>
-[Core Konfiguration: Übersicht >](../administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../administration/Core_functions.de.md)<br>
 [Customizing: Übersicht >](../administration/Customizing.de.md)<br>
 [Startseite >](../administration/Landing_pages.de.md)<br>
 [Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>

@@ -1,15 +1,17 @@
 ---
 title: Roles
-description: Accounts and organisation. In user management you create accounts and assign roles.
+description: Accounts and organisation. In user management, which is in the main navigation, you create accounts and assign roles.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: The path to a running installation" markdown="1">
+<nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: The path to a running installation</span>
-[‹ Menu: Access](zugang.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menu: Modules ›](module.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Set up](einrichten.md)
+1. [Access](zugang.md)
+1. [Roles](rollen.md){ aria-current="page" }
+1. [Modules](module.md)
+1. [Assess and connect](anbinden.md)
 
 </nav>
 
@@ -17,7 +19,7 @@ description: Accounts and organisation. In user management you create accounts a
 
 <p class="oo-mh-sub">Accounts and organisation</p>
 
-In user management you create accounts and assign roles. The system role System administrator configures the installation, the organisation role Administrator manages the organisation. The roles User manager and Roles manager share the work on accounts, authors build courses. Every account belongs to an organisation.
+In user management, which is in the main navigation, you create accounts and assign roles. The system role System administrator configures the installation, the organisation role Administrator manages the organisation. The roles User manager and Roles manager share the work on accounts, authors build courses. Every account belongs to an organisation.
 
 ## Terms of this station {: #terms}
 
@@ -151,7 +153,7 @@ frentix accompanies you in the setup with support and coaching: [support@frentix
 
 ## Deepen once the installation is running {: #deepen}
 
-The installation is running. Now the things that did not matter while setting up pay off: the terms of this station have parts and settings that control the installation more precisely.
+The installation is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the installation more precisely.
 
 This station has no deeper parts. The next station is waiting.
 

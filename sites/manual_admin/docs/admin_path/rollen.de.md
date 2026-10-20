@@ -1,15 +1,17 @@
 ---
 title: Rollen
-description: Konten und Organisation. In der Benutzerverwaltung erstellen Sie Konten und weisen Rollen zu.
+description: Konten und Organisation. In der Benutzerverwaltung, die in der Hauptnavigation steht, erstellen Sie Konten und weisen Rollen zu.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zur laufenden Installation" markdown="1">
+<nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zur laufenden Installation</span>
-[‹ Menü: Zugang](zugang.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Module ›](module.de.md){ .oo-mh-btn .oo-mh-btn--next }
+1. [Einrichten](einrichten.de.md)
+1. [Zugang](zugang.de.md)
+1. [Rollen](rollen.de.md){ aria-current="page" }
+1. [Module](module.de.md)
+1. [Prüfen und Anbinden](anbinden.de.md)
 
 </nav>
 
@@ -17,7 +19,7 @@ description: Konten und Organisation. In der Benutzerverwaltung erstellen Sie Ko
 
 <p class="oo-mh-sub">Konten und Organisation</p>
 
-In der Benutzerverwaltung erstellen Sie Konten und weisen Rollen zu. Die Systemrolle Systemadministrator:in konfiguriert die Installation, die Organisationsrolle Administrator:in verwaltet die Organisation. Die Rollen Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten, Autor:innen bauen Kurse. Jedes Konto gehört zu einer Organisation.
+In der Benutzerverwaltung, die in der Hauptnavigation steht, erstellen Sie Konten und weisen Rollen zu. Die Systemrolle Systemadministrator:in konfiguriert die Installation, die Organisationsrolle Administrator:in verwaltet die Organisation. Die Rollen Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten, Autor:innen bauen Kurse. Jedes Konto gehört zu einer Organisation.
 
 ## Begriffe dieser Station {: #terms}
 
@@ -39,7 +41,7 @@ Systemrolle. Sie öffnet den Bereich Administration und damit die Systemkonfigur
 
     **Wie Nutzende es nennen:** IT-Administrator:in, Serveradministrator:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Systemadministrator%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Systemadministrator%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -59,7 +61,7 @@ Organisationsrolle, die alle administrativen Rollen einer Organisation vereinigt
 
     **Wie Nutzende es nennen:** Systemverwalter:in, Systembetreuer:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Administrator%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Administrator%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -79,7 +81,7 @@ Administrative Organisationsrolle. Sie verwaltet die Konten der eigenen Organisa
 
     **Wie Nutzende es nennen:** User-Admin, Kontoverwalter:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Benutzerverwalter%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Benutzerverwalter%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -99,7 +101,7 @@ Administrative Organisationsrolle. Sie vergibt und entzieht Rollen an den Konten
 
     **Wie Nutzende es nennen:** Rechteverwalter:in, Berechtigungsmanager:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Rollenverwalter%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Rollenverwalter%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -119,7 +121,7 @@ Organisationsrolle. Sie erlaubt es, im Autorenbereich Lernressourcen zu erstelle
 
     **Wie Nutzende es nennen:** Kursersteller:in, Content-Ersteller:in, E-Learning-Autor:in, Content-Autor:in, Lerninhalte-Ersteller:in, Kursautor:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Autor%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Autor%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -139,7 +141,7 @@ Eine Einheit in der Struktur der Plattform, zum Beispiel eine Schule, ein Instit
 
     **Wie Nutzende es nennen:** Organisationsstruktur, Abteilungsverwaltung, Mandantenverwaltung, Einrichtung, Abteilung
 
-    [Im Handbuch lesen](../administration/Modules_Organisations.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Organisation%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20es%20ein%3F)
+    [Im Handbuch lesen](../administration/Modules_Organisations.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Organisation%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -163,7 +165,7 @@ Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@fr
 
 ## Vertiefen, wenn die Installation läuft {: #deepen}
 
-Die Installation läuft. Jetzt lohnt sich, was beim Einrichten noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
+Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
 Diese Station hat keine tieferen Teile. Die nächste Station wartet.
 

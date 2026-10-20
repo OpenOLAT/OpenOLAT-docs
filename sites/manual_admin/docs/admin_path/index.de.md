@@ -1,23 +1,15 @@
 ---
-title: Der Weg zur laufenden Installation
-description: Fünf Stationen führen von den Grundeinstellungen bis zur angebundenen Installation.
+title: Einführung für Administrator:innen
+description: Fünf Stationen in der Reihenfolge, in der Sie eine neue Instanz aufbauen.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
-<nav class="oo-mh-nav" aria-label="Navigation: Der Weg zur laufenden Installation" markdown="1">
+# Einführung für Administrator:innen {: #admin_path}
 
-<span class="oo-mh-nav__label">Navigation: Der Weg zur laufenden Installation</span>
-[‹ Administrationshandbuch](../index.de.md){ .oo-mh-btn .oo-mh-btn--prev }
-[Menü: Einrichten ›](einrichten.de.md){ .oo-mh-btn .oo-mh-btn--next }
+Fünf Stationen in der Reihenfolge, in der Sie eine neue Instanz aufbauen.
 
-</nav>
-
-# Der Weg zur laufenden Installation {: #admin_path}
-
-Fünf Stationen führen von den Grundeinstellungen bis zur angebundenen Installation. Die Reihenfolge folgt dem Aufbau einer neuen Instanz: zuerst das System, dann der Zugang, die Rollen, die Module, zuletzt Prüfungen und externe Werkzeuge. Jede Station erklärt ihre Begriffe, zeigt, was leicht verwechselt wird, und führt auf die Handbuchseite.
-
-<p class="oo-mh-phases"><span class="oo-mh-phase oo-mh-phase--on"><b>Wissen</b>: Sie sind hier</span> <span class="oo-mh-phase"><b>Anwenden</b>: eigene Installation oder fertige Instanz von frentix</span> <span class="oo-mh-phase"><b>Vertiefen</b>: wenn die Installation läuft</span></p>
+Diese Einführung ist die Phase Wissen. Danach folgen [Anwenden](../index.de.md#phase_apply) mit der Installationsanleitung oder einer fertigen Instanz von frentix und [Vertiefen](../index.de.md#phase_deepen), sobald die Installation läuft.
 
 ## Die Stationen {: #stations}
 
@@ -30,8 +22,6 @@ Fünf Stationen führen von den Grundeinstellungen bis zur angebundenen Installa
 1. [Prüfen und Anbinden <small>Prüfungen und externe Werkzeuge</small>](anbinden.de.md)
 
 </div>
-
-<p class="oo-mh-hint">Klicken Sie eine Station an. Die Reihenfolge ist eine Empfehlung, kein Zwang.</p>
 
 ## Bevor Sie beginnen {: #before_you_start}
 
