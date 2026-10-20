@@ -257,7 +257,7 @@ The wizard leads through the steps "User search", "Booking order", "Membership",
 
 In the "Booking order" step, you choose the offer through which the participants are added. If this offer uses forms, a separate step follows for each form, labelled with its step name. These steps are located between the steps "Booking order" and "Membership" and appear as soon as you leave the "Booking order" step with "Next". You fill in the forms once, and OpenOlat saves the answers for each selected person with their own booking order. The option "Without booking order" only appears if the implementation is set to [Allowed without booking order](#tab_catalog_settings) in the Catalog tab. With this option, no booking order is created, and no steps for forms follow.
 
-![Two steps for forms between the Booking order and Membership steps](assets/course_planner_implementations_add_member_forms_v1_en.png){ class="shadow lightbox" title="Step of a form in the Add participants wizard · 2026.10.02" }
+![Two steps for forms between the Booking order and Membership steps](assets/course_planner_implementations_add_member_forms_v2_en.png){ class="shadow lightbox" title="Step of a form in the Add participants wizard · 2026.10.20" }
 
 <br>
 

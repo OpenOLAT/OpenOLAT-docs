@@ -118,7 +118,7 @@ If the offer of an implementation uses at least one form, OpenOlat guides you th
 
 The title of the wizard names the offer type and the implementation: "Booking freely available for", "Booking with an access code for" or "Booking on invoice for", followed by the title of the implementation and, if set, its reference.
 
-![Title with offer type, implementation and reference, the form as the only step, Next inactive and Book highlighted](assets/catalog20_booking_wizard_free_v1_en.png){ class="shadow lightbox" title="Booking freely available wizard in the catalog · 2026.10.02" }
+![Title with offer type, implementation and reference, the form as the only step, Next inactive and Book highlighted](assets/catalog20_booking_wizard_free_v2_en.png){ class="shadow lightbox" title="Booking freely available wizard in the catalog · 2026.10.20" }
 
 Which steps the wizard shows depends on the offer type:
 
@@ -130,15 +130,15 @@ Which steps the wizard shows depends on the offer type:
 
 In the step "Access code", you enter the access code you have received. In the step "Booking details", you select the billing address via **Select billing address**; it is mandatory. The "P.O. number" and the "Comment" are optional. If the offer has a price or a cancellation fee, the step shows this information.
 
-![Select billing address button for the mandatory field, plus P.O. number, comment and price, then the step of the form](assets/catalog20_booking_wizard_invoice_details_v1_en.png){ class="shadow lightbox" title="Booking details step in the Booking on invoice wizard · 2026.10.02" }
+![Select billing address button for the mandatory field, plus P.O. number, comment and price, then the step of the form](assets/catalog20_booking_wizard_invoice_details_v2_en.png){ class="shadow lightbox" title="Booking details step in the Booking on invoice wizard · 2026.10.20" }
 
 Each form is a separate step, labelled with its step name. The offer determines the order of the forms.
 
 - **Next** checks the mandatory fields of the displayed step and leads to the next step.
 - **Back** leads to the previous step without checking. Your entries are retained.
-- In the last step, the highlighted button completes the booking: **Book** for "Freely available" and "Access code", **Order for a fee** for "Invoice". In the steps before, this button is inactive; in the last step, **Next** is inactive.
+- In the last step, the highlighted button completes the booking: "Book" for "Freely available" and "Access code", "Order for a fee" for "Invoice". In the steps before, this button is inactive; in the last step, "Next" is inactive.
 
-The booking order is only created with this last click. If you cancel the wizard beforehand with **Cancel** or the close icon, you are not booked, and OpenOlat does not save any answers. If OpenOlat asks with the dialog "Unsaved form data", **Do not save data** closes the wizard and **Back to form** returns you to the step.
+The booking order is only created with this last click. If you cancel the wizard beforehand with "Cancel" or the close icon, you are not booked, and OpenOlat does not save any answers. If OpenOlat asks with the dialog "Unsaved form data", "Do not save data" closes the wizard and "Back to form" returns you to the step.
 
 If another person books for you, for example with [Book on behalf of](Coaching_People.md#linemanager_educationmanager_book_participants) in Coaching or when [adding participants](Course_Planner_Implementations.md#add_members) in the Course Planner, this person fills in the forms. The answers belong to your booking order. You see your completed forms under [Booking orders](../personal_menu/Bookings.md) in the dialog "Booking" of the booking order.
 
@@ -170,7 +170,7 @@ It is of great importance to which subject authors assign a course or learning r
 
 ![Field Subjects / Catalog with the selected subject Software-Schulung and the arrow for the selection](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" title="Metadata tab of the course settings" }
 
-The information on the subject provided in the "**Metadata**" tab can be used in the "**Share**" tab when creating an offer. The subjects are used for **keywording** in the catalog. Several subjects can be specified as keywords.
+The information on the subject provided in the "Metadata" tab can be used in the "Share" tab when creating an offer. The subjects are used for keywording in the catalog. Several subjects can be specified as keywords.
 
 If you click on the small arrow at the end of the "Subjects / Catalog" line, you can select the keywords. First, a popup appears in which the subjects used are listed.
 

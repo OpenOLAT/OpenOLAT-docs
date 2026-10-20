@@ -136,9 +136,9 @@ Jedes Formular ist ein eigener Schritt, beschriftet mit seinem Schrittnamen. Die
 
 - **Weiter** prüft die Pflichtfelder des angezeigten Schritts und führt zum nächsten Schritt.
 - **Zurück** führt ohne Prüfung zum vorherigen Schritt. Ihre Eingaben bleiben erhalten.
-- Im letzten Schritt schliesst der hervorgehobene Button die Buchung ab: **Buchen** bei "Frei verfügbar" und "Zugangscode", **Kostenpflichtig buchen** bei "Rechnung". In den Schritten davor ist dieser Button inaktiv, im letzten Schritt ist **Weiter** inaktiv.
+- Im letzten Schritt schliesst der hervorgehobene Button die Buchung ab: "Buchen" bei "Frei verfügbar" und "Zugangscode", "Kostenpflichtig buchen" bei "Rechnung". In den Schritten davor ist dieser Button inaktiv, im letzten Schritt ist "Weiter" inaktiv.
 
-Der Buchungsauftrag entsteht erst mit diesem letzten Klick. Brechen Sie den Assistenten vorher mit **Abbrechen** oder dem Schliessen-Symbol ab, sind Sie nicht gebucht, und OpenOlat speichert keine Antworten. Fragt OpenOlat dabei mit dem Dialog "Ungespeicherte Formulardaten" nach, schliesst **Daten nicht speichern** den Assistenten, **Zurück zum Formular** führt in den Schritt zurück.
+Der Buchungsauftrag entsteht erst mit diesem letzten Klick. Brechen Sie den Assistenten vorher mit "Abbrechen" oder dem Schliessen-Symbol ab, sind Sie nicht gebucht, und OpenOlat speichert keine Antworten. Fragt OpenOlat dabei mit dem Dialog "Ungespeicherte Formulardaten" nach, schliesst "Daten nicht speichern" den Assistenten, "Zurück zum Formular" führt in den Schritt zurück.
 
 Bucht eine andere Person für Sie, etwa mit [Buchen im Namen von](Coaching_People.de.md#linemanager_educationmanager_book_participants) im Coaching oder beim [Hinzufügen von Teilnehmer:innen](Course_Planner_Implementations.de.md#add_members) im Course Planner, füllt diese Person die Formulare aus. Die Antworten gehören zu Ihrem Buchungsauftrag. Ihre ausgefüllten Formulare sehen Sie unter [Buchungsaufträge](../personal_menu/Bookings.de.md) im Dialog "Buchung" des Buchungsauftrags.
 
@@ -170,7 +170,7 @@ Es ist von grosser Bedeutung, welchem Fachbereich Autor:innen einen Kurs bzw. ei
 
 ![Feld Fachbereiche / Katalog mit dem gewählten Fachbereich Software-Schulung und dem Pfeil zur Auswahl](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" title="Tab Metadaten der Kurseinstellungen" }
 
-Die im Tab "**Metadaten**" gemachten Angaben zum Fachbereich können im Tab "**Freigabe**" bei der Erstellung eines Angebots genutzt werden. Die Fachbereiche dienen der **Verschlagwortung** im Katalog. Es können mehrere Fachbereiche als Schlagwort angegeben werden.
+Die im Tab "Metadaten" gemachten Angaben zum Fachbereich können im Tab "Freigabe" bei der Erstellung eines Angebots genutzt werden. Die Fachbereiche dienen der Verschlagwortung im Katalog. Es können mehrere Fachbereiche als Schlagwort angegeben werden.
 
 Wenn Sie auf den kleinen Pfeil am Ende der Zeile "Fachbereiche / Katalog" klicken, können Sie die Schlagworte auswählen. Zunächst erscheint ein Popup, in dem die verwendeten Fachbereiche aufgelistet sind.
 
