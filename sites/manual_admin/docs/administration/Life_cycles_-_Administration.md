@@ -64,7 +64,7 @@ Each of the two areas states in its explanatory text the time at which OpenOlat 
 
 An account passes through the states active, reactivated within the grace period, inactive and deleted. Which entries an account shows in which state is described on the page [Manage user settings](../usermanagement/Configure_User.md#automatic_user_lifecycle).
 
-![The two processes with their triggers, below them the chain of states from active to deleted and the three places where the entries appear](assets/admin_lifecycle_account_processes_v1_en.svg){ class="shadow lightbox" }
+![The two processes with their triggers, below them the chain of states from active to deleted and the three places where the entries appear](assets/admin_lifecycle_account_processes_v1_en.svg){ class="shadow lightbox" title="Account expiration and automatic user lifecycle" }
 
 ### The three steps at a glance {: #lifecycle_accounts_variants}
 
@@ -72,7 +72,7 @@ Three steps end the use of an account: the account expiration, the deactivation 
 
 | Step | Trigger | Where you set it | Mail notification | Version |
 |------|---------|------------------|-------------------|---------|
-| Account expiration | The expiry date stored for the account is reached. | You set the date per account in the user management: when creating it under `User management > Create user` or subsequently under `User management > "Account of the person" > Tab "Account"`. The actions "Import users" and "Create temp. users" in the user management and the action "Change user settings" for selected accounts in the user search set it as well. | Before and after the account expiration, in the area "Account expiration" | :octicons-tag-16:{ title="from Release 15.4" } |
+| Account expiration | The expiry date stored for the account is reached. | You set the date per account in the user management: when creating it under `User management > Create user` or subsequently under `User management > "Account of the person" > Tab "Account"`. The actions "Import users" and "Create temp. users" in the user management and the action "Change user settings" for selected accounts in the account search set it as well. | Before and after the account expiration, in the area "Account expiration" | :octicons-tag-16:{ title="from Release 15.4" } |
 | Deactivation | No login occurs during the inactivity period. | Automatically: toggle "Deactivate user after inactivity" and field "Num. of days before deactivation" in the system administration under `Administration > Life cycles > User`. Manually: status "Inactive" under `User management > "Account of the person" > Tab "Account"`. | Before and after the deactivation, in the area "Automatic user lifecycle" | :octicons-tag-16:{ title="from Release 15.1" } |
 | Deletion | The account stays inactive for the configured time after the deactivation. | Automatically: toggle "Delete inactive user" and field "Num. of days before deletion" in the system administration under `Administration > Life cycles > User`. Manually: action "Delete user" under `User management > Delete user`. | Before and after the deletion, in the area "Automatic user lifecycle" | :octicons-tag-16:{ title="from Release 15.1" } |
 
@@ -88,8 +88,8 @@ Whoever deactivates an account or looks for a deactivated account meets three wo
 | Word | What it names | Where it appears |
 |------|---------------|------------------|
 | deactivate, deactivation | The action: OpenOlat or a person sets the account to inactive. | Toggle "Deactivate user after inactivity", fields "Num. of days before deactivation" and "Mail before deactivation" |
-| Inactivation | The point in time at which the action is or was carried out. | Columns "Days until inactivation" and "Inactivation date", filter "Inactivation" in the user search |
-| Inactive | The status of the account after the deactivation. | Field "Status" in the "Account" tab, filter tab "Inactive" in the user search |
+| Inactivation | The point in time at which the action is or was carried out. | Columns "Days until inactivation" and "Inactivation date", filter "Inactivation" in the account search |
+| Inactive | The status of the account after the deactivation. | Field "Status" in the "Account" tab, filter tab "Inactive" in the account search |
 
 Deactivation sets the account status to "Inactive". The person can no longer log in. The account itself is fully retained. Password, profile, roles, group memberships and course data remain unchanged.
 
@@ -126,7 +126,7 @@ An account with the status "Active and not deletable" is excluded from deletion 
 [Delete user >](../usermanagement/Delete_User.md)
 
 **Further reading**<br>
-[User search >](../usermanagement/Search_Users.md)<br>
+[Account search >](../usermanagement/Search_Users.md)<br>
 [Create user >](../usermanagement/Create_User.md)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
 [Module Course Planner >](Modules_Course_Planner.md)

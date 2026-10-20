@@ -272,7 +272,7 @@ In user management, the [self-defined roles](#relations) appear under "User role
 [Course statistics >](../learningresources/Statistics_Course.md)<br>
 [Assessment Management: Overview >](../learningresources/Assessment_Management.md)<br>
 [Coaching - People >](../area_modules/Coaching_People.md)<br>
-[User search >](../../manual_admin/usermanagement/Search_Users.md)
+[Account search >](../../manual_admin/usermanagement/Search_Users.md)
 
 **Further reading**<br>
 [Authorisation in courses >](Authorisation_Concept.md)<br>

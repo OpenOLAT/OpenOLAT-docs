@@ -9,7 +9,7 @@ Zu jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für d
 Der Kopfbereich über den Reitern zeigt auf einen Blick, wem das Konto gehört, in welchen Organisationen die Person ist und welche Rollen sie hat. Neben dem Bild der Person steht der Status des Kontos, zum Beispiel "Aktiv". Unter dem Namen öffnen zwei Symbole die "Visitenkarte" der Person und ein Formular, mit dem Sie ihr eine "E-Mail" schreiben. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
 - **Identität**: die Nummer, unter der OpenOlat das Konto führt.
-- **Benutzer:in in**: die Organisationen, in denen die Person die Rolle Benutzer:in hat. Gibt es keine solche Organisation, steht hier "Keine Daten vorhanden".
+- **Benutzer:in in**: die Organisationen, in denen die Person die Rolle Benutzer:in hat. Hat sie diese Rolle in keiner Organisation, steht hier "Keine Daten vorhanden". Das ist bei jedem Konto vom Kontotyp "Extern" oder "Anonymer Zugang" der Fall, denn diese Konten haben die Rolle Benutzer:in nicht.
 - **Zusätzliche Rollen**: alle Rollen der Person ausser Benutzer:in, zum Beispiel Autor:in oder Lernressourcenverwalter:in. Hat die Person eine Rolle in mehreren Organisationen, steht die Anzahl dieser Organisationen in Klammern hinter der Rolle. Hat sie keine weitere Rolle, fehlt die Zeile.
 - **E-Mail**: die E-Mail-Adresse aus dem Profil.
 - **Kontotyp**: "Registriert", "Extern" oder "Anonymer Zugang".

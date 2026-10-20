@@ -1,6 +1,6 @@
 # Manage user settings {: #user_configuration}
 
-If you have the right to manage users, you can search for a specific person using the [user search](Search_Users.md) and manage their user settings.
+If you have the right to manage users, you can search for a specific person using the [account search](Search_Users.md) and manage their user settings.
 
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
@@ -10,7 +10,7 @@ A maximum of the tabs listed below are available for configuration for each user
 The header area above the tabs shows at a glance whose account it is, which organisations the person belongs to and which roles they have. Next to the picture of the person, the status of the account is displayed, for example "Active". Below the name, two icons open the "Visiting card" of the person and a form with which you write them an "E-mail". [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
 - **Identity**: the number under which OpenOlat maintains the account.
-- **User in**: the organisations in which the person has the User role. If there is no such organisation, "No data available" is displayed here.
+- **User in**: the organisations in which the person has the User role. If the person does not have this role in any organisation, "No data available" is displayed here. This is the case for every account of the account type "External user" or "Anonymous guest", because these accounts do not have the User role.
 - **Additional Roles**: all roles of the person except User, for example Author or Learning resource manager. If the person has a role in several organisations, the number of these organisations is shown in brackets after the role. If the person has no further role, the line is missing.
 - **E-Mail**: the email address from the profile.
 - **Account type**: "Registered user", "External user" or "Anonymous guest".
@@ -322,7 +322,7 @@ Here you can check which grading assignments have been assigned to this user.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[User search >](Search_Users.md)<br>
+[Account search >](Search_Users.md)<br>
 [Data protection >](Data_protection.md)<br>
 [Delete user >](Delete_User.md)<br>
 [E-mail settings >](../administration/E-Mail_Settings.md)<br>

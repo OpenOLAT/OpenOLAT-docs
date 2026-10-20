@@ -5,7 +5,7 @@
 
 When a user's account is deleted, that person is no longer known as a registered user in OpenOlat and can no longer be found.
 
-When an account is deleted, it is not removed from the database but **anonymised**: the login name is replaced by an anonymous identifier and the profile data is cleared. Objects that are linked to the account (e.g. posts, certificates, booking orders) therefore remain, but only refer to the anonymised account. The table below therefore distinguishes between **deleted**, **anonymised** and **retained**.
+When an account is deleted, it is not removed from the database but anonymised: the login name is replaced by an anonymous identifier and the profile data is cleared. Objects that are linked to the account (e.g. posts, certificates, booking orders) therefore remain, but only refer to the anonymised account. The table below therefore distinguishes between "deleted", "anonymised" and "retained".
 
 **Work results** created by that person are subject to their own rules when the account is deleted. See below: [What is deleted?](#del_properties)
 
@@ -37,12 +37,12 @@ In the user management, use the account search to find the users whose accounts 
 **Step 2:**<br>
 In the search results, mark the users to be deleted using the checkbox at the beginning of the row. As soon as at least 1 person is marked, the "Delete users" button appears above the list.
 
-![Checkbox of a row ticked, above it the Delete users button appears, in the account search of the user management](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" }
+![Checkbox of a row ticked, above it the Delete users button appears](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" title="Result list of the account search" }
 
 **Step 3:**<br>
 After clicking this button, a confirmation dialog appears which you must confirm.
 
-![Confirmation dialog Delete users with a warning and the Confirmation checkbox that must be ticked before deleting](assets/delete_user_var1_step3_v1_de.png){ class="shadow lightbox" }
+![Confirmation dialog Delete users with a warning and the Confirmation checkbox that must be ticked before deleting](assets/delete_user_var1_step3_v1_de.png){ class="shadow lightbox" title="Confirmation dialog above the account search" }
 
 [To the top of the page ^](#delete_user)
 
@@ -53,7 +53,7 @@ After clicking this button, a confirmation dialog appears which you must confirm
 **Step 1:**<br>
 Users can also be selected and their OpenOlat accounts deleted via the "Delete user" link.
 
-![Delete user link in the toolbar above the search form of the account search](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
+![Delete user link in the toolbar above the search form](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" title="Toolbar of the account search" }
 
 **Step 2:**<br>
 Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases of the automatic user lifecycle:
@@ -67,15 +67,15 @@ Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases 
 On all three tabs, the **Inactivation** filter narrows the list by period, either to "Account expiry in the next" or to "Inactive for the last", in days, weeks, months or years.
 
 !!! info "Configuration of the automatic user lifecycle"
-    The automatic user lifecycle runs in two steps: **Deactivation** and **Deletion**. Independently of this, the **account expiration** deactivates an account on its stored expiry date. The applicable deadlines and notifications are configured in the system administration: `Administration > Life cycles > User`<br>
+    The automatic user lifecycle runs in two steps: deactivation and deletion. Independently of this, the account expiration deactivates an account on its stored expiry date. The applicable deadlines and notifications are configured in the system administration: `Administration > Life cycles > User`<br>
     [Details on the automatic user lifecycle](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
 
-![Three tabs Accounts without activity, Deactivated accounts and Ready to delete, below them the opened Inactivation filter](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" }
+![Three tabs Accounts without activity, Deactivated accounts and Ready to delete, below them the opened Inactivation filter](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" title="View Delete user in the account search" }
 
 **Step 3:**<br>
 Mark the users to be deleted using the checkbox at the beginning of the row. As soon as at least 1 person is marked, the "Delete users" button appears above the list.
 
-![Marked row in the Deactivated accounts tab, above it the Delete users button next to Change account settings and Change status](assets/delete_user_var2_step3_v1_de.png){ class="shadow lightbox" }
+![Marked row in the Deactivated accounts tab, above it the Delete users button next to Change account settings and Change status](assets/delete_user_var2_step3_v1_de.png){ class="shadow lightbox" title="View Delete user in the account search" }
 
 **Step 4:**<br>
 After clicking this button, a confirmation dialog appears which you must confirm.
@@ -209,7 +209,7 @@ For all other roles, the name is anonymised. These include:
 
 "Administrative" is therefore defined more narrowly here than when roles are assigned in the user management. Roles managers and quality managers also lose their name on deletion.
 
-Anyone who can access the user management finds the deleted accounts with first name, last name and roles in the [User search, status "Deleted users"](Search_Users.md#status). The "Roles" column shows which roles the account held when it was deleted. Use the "Clear" action to delete the first name and last name of these accounts afterwards as well.
+Anyone who can access the user management finds the deleted accounts with first name, last name and roles in the [Account search, status "Deleted users"](Search_Users.md#status). The "Roles" column shows which roles the account held when it was deleted. Use the "Clear" action to delete the first name and last name of these accounts afterwards as well.
 
 
 [To the top of the page ^](#delete_user)
@@ -236,7 +236,7 @@ For **automatic deletion** via the automatic user lifecycle, an additional safeg
 [Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
-[User search >](Search_Users.md)
+[Account search >](Search_Users.md)
 
 **Further reading**<br>
 [User management >](index.md)<br>

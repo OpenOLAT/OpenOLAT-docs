@@ -26,7 +26,7 @@ In the "Additional roles" section, each organisation of the person has its own s
 
 If the "Organisations" module is switched off, the tab only shows the "Additional roles" section with a single selection list "Roles".
 
-![Sections Affiliation with the field User in and Additional roles with the button Add organisation, both marked, Roles tab of an account](assets/assign_roles_orgunit_v2_de.png){ class="shadow lightbox"}
+![Sections Affiliation with the field User in and Additional roles with the button Add organisation, both marked](assets/assign_roles_orgunit_v2_de.png){ class="shadow lightbox" title="Roles tab of an account" }
 
 !!! note "Note"
 
@@ -53,7 +53,7 @@ Use the tabs "All", "7 days", "4 weeks" and "12 months" to narrow down the perio
 
 **Further reading**<br>
 [Manage user settings >](Configure_User.md)<br>
-[User search >](Search_Users.md)<br>
+[Account search >](Search_Users.md)<br>
 [Module Organisations >](../administration/Modules_Organisations.md)<br>
 [Roles and Rights: Assign roles >](../../manual_user/basic_concepts/Assign_Roles.md)
 

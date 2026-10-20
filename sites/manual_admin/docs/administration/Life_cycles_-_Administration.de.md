@@ -65,7 +65,7 @@ Jeder der beiden Bereiche nennt in seinem Erklärtext die Uhrzeit, zu der OpenOl
 
 Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist (Schonfrist), inaktiv und gelöscht. Welche Angaben ein Konto in welchem Zustand zeigt, beschreibt die Seite [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md#automatic_user_lifecycle).
 
-![Die beiden Prozesse mit ihren Auslösern, darunter die Zustandskette von aktiv bis gelöscht und die drei Orte der Angaben](assets/admin_lifecycle_account_processes_v1_de.svg){ class="shadow lightbox" }
+![Die beiden Prozesse mit ihren Auslösern, darunter die Zustandskette von aktiv bis gelöscht und die drei Orte der Angaben](assets/admin_lifecycle_account_processes_v1_de.svg){ class="shadow lightbox" title="Kontoablauf und automatischer Kontolebenszyklus" }
 
 ### Die drei Schritte im Überblick {: #lifecycle_accounts_variants}
 

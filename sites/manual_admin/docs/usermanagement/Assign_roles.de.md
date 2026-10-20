@@ -26,7 +26,7 @@ Im Abschnitt "Zusätzliche Rollen" steht für jede Organisation der Person eine 
 
 Ist das Modul "Organisationen" ausgeschaltet, zeigt der Reiter nur den Abschnitt "Zusätzliche Rollen" mit einer einzigen Auswahlliste "Rollen".
 
-![Abschnitte Zugehörigkeit mit dem Feld Benutzer:in in und Zusätzliche Rollen mit dem Button Organisation hinzufügen, beide markiert, Reiter Rollen eines Kontos](assets/assign_roles_orgunit_v2_de.png){ class="shadow lightbox"}
+![Abschnitte Zugehörigkeit mit dem Feld Benutzer:in in und Zusätzliche Rollen mit dem Button Organisation hinzufügen, beide markiert](assets/assign_roles_orgunit_v2_de.png){ class="shadow lightbox" title="Reiter Rollen eines Kontos" }
 
 !!! note "Hinweis"
 

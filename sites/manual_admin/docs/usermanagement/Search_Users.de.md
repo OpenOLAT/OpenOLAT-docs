@@ -17,7 +17,7 @@ Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Wei
 
 Geben Sie Ihre relevanten Suchkriterien ein und bestätigen Sie mit der "Return"-Taste oder durch Klick auf den Button "Suchen".
 
-![Suchfelder von Anmeldename bis Kontoablauf, gegliedert in Personalien, Adresse, Institution, Rollen, Authentifizierung und Kontostatus: Kontosuche mit dem Suchformular](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
+![Suchfelder von Anmeldename bis Kontoablauf, gegliedert in Personalien, Adresse, Institution, Rollen, Authentifizierung und Kontostatus](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" title="Suchformular der Kontosuche" }
 
 Über der Ansicht stehen die Aktionen "Konto erstellen", "Konten importieren", "Temporäres Konto erstellen" und "Konten löschen".
 
@@ -128,7 +128,7 @@ Hier können angezeigt werden:
 
 
 
-![Tabelle der gelöschten Konten mit Del_Anmeldename, Gelöscht am, Erstellt und Gelöscht von, links der aufgeklappte Eintrag Status: Kontosuche mit Status Gelöschte Konten](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
+![Tabelle der gelöschten Konten mit Del_Anmeldename, Gelöscht am, Erstellt und Gelöscht von, links der aufgeklappte Eintrag Status](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" title="Status Gelöschte Konten in der Kontosuche" }
 
 
 Die Tabelle "Gelöschte Konten" in der Benutzerverwaltung enthält folgende Spalten, die im Löschprozess eine Rolle spielen:
@@ -167,14 +167,14 @@ Unter dem Menü "**Vordefinierte Suchabfragen**" finden Sie oft benutzte Suchabf
 
 Zur schnellen Suche geben Sie einfach einen Begriff oder einen Teil davon in das Feld "Quick Search" ein.
 
-![Markiertes Eingabefeld mit dem Button Quick Search über den übrigen Suchfeldern: Kontosuche mit dem Suchformular](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" }
+![Markiertes Eingabefeld mit dem Button Quick Search über den übrigen Suchfeldern](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" title="Suchformular der Kontosuche" }
 
 [Zum Seitenanfang ^](#search_user)
 
 
 ## Massensuche {: #search_user_bulk_search}
 
-![Markierter Link Massensuche neben der Überschrift Kontosuche: Suchformular](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" }
+![Markierter Link Massensuche neben der Überschrift Kontosuche: Suchformular](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" title="Kopf des Suchformulars der Kontosuche" }
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -186,7 +186,7 @@ Wird nach einer Suchaktion eine Liste mit den Suchergebnissen angezeigt, kann da
 Sie suchen im ersten Schritt alle Konten, die einer bestimmten Organisationseinheit angehören.<br>
 Im zweiten Schritt filtern Sie in den Ergebnissen alle inaktiven Konten dieser Organisationseinheit heraus.
 
-![Filterreihe mit Status, Organisationen, Inaktivierung und Mehr über der Trefferliste, das Auswahlfeld Status ist aufgeklappt: Suchergebnis der Kontosuche](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
+![Filterreihe mit Status, Organisationen, Inaktivierung und Mehr über der Trefferliste, das Auswahlfeld Status ist aufgeklappt](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" title="Trefferliste der Kontosuche" }
 
 Über der Trefferliste stehen die Filter-Tabs "Alle", "Aktiv", "Aktiv und nicht löschbar", "Ausstehende", "Inaktiv" und "Login gesperrt" sowie die Filter "Status", "Organisationen" und "Inaktivierung". Der Filter "Inaktivierung" grenzt auf einen Zeitraum ein, in dem Konten deaktiviert wurden oder deaktiviert werden.
 

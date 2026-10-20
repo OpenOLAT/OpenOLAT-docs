@@ -5,7 +5,7 @@
 
 Wird das Konto eines/einer Benutzer:in gelöscht, ist diese Person in Zukunft nicht mehr als registriert in OpenOlat bekannt und auffindbar.
 
-Beim Löschen wird das Konto nicht aus der Datenbank entfernt, sondern **anonymisiert**: Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Objekte, die mit dem Konto verknüpft sind (z. B. Beiträge, Zertifikate, Buchungsaufträge), bleiben dadurch bestehen, verweisen aber nur noch auf das anonymisierte Konto. In der Tabelle unten wird deshalb zwischen **gelöscht**, **anonymisiert** und **erhalten** unterschieden.
+Beim Löschen wird das Konto nicht aus der Datenbank entfernt, sondern anonymisiert: Der Anmeldename wird durch eine anonyme Kennung ersetzt, die Profildaten werden geleert. Objekte, die mit dem Konto verknüpft sind (z. B. Beiträge, Zertifikate, Buchungsaufträge), bleiben dadurch bestehen, verweisen aber nur noch auf das anonymisierte Konto. In der Tabelle unten wird deshalb zwischen "gelöscht", "anonymisiert" und "erhalten" unterschieden.
 
 Für die **Arbeitsergebnisse** dieser Person gelten beim Löschen ihres Kontos eigene Regeln. Siehe unten: [Was wird gelöscht?](#del_properties)
 
@@ -29,20 +29,20 @@ Diese Rollen suchen Konten, ändern Kontoeinstellungen und Status und sehen je n
 ---
 
 
-## Variante 1: über die Kontensuche {: #delete_user_var1}
+## Variante 1: über die Kontosuche {: #delete_user_var1}
 
 **Schritt 1:**<br>
-Suchen Sie in der Benutzerverwaltung mit der Kontensuche die Benutzer:innen, deren Konten gelöscht werden sollen.
+Suchen Sie in der Benutzerverwaltung mit der Kontosuche die Benutzer:innen, deren Konten gelöscht werden sollen.
 
 **Schritt 2:**<br>
 Markieren Sie im Suchergebnis die zu löschenden Benutzer:innen in der Checkbox am Anfang der Zeile. Sobald mindestens 1 Person markiert ist, erscheint u.a. der Button "Konto löschen" über der Liste.
 
-![Kontrollkästchen einer Zeile angehakt, darüber erscheint der Button Konto löschen, in der Kontosuche der Benutzerverwaltung](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" }
+![Kontrollkästchen einer Zeile angehakt, darüber erscheint der Button Konto löschen](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" title="Trefferliste der Kontosuche" }
 
 **Schritt 3:**<br>
 Nach Klick auf diesen Button erscheint nochmals eine Sicherheitsabfrage, die Sie bestätigen müssen.
 
-![Sicherheitsabfrage Konto löschen mit Warnhinweis und Kontrollkästchen Bestätigung, das vor dem Löschen anzuhaken ist](assets/delete_user_var1_step3_v1_de.png){ class="shadow lightbox" }
+![Sicherheitsabfrage Konto löschen mit Warnhinweis und Kontrollkästchen Bestätigung, das vor dem Löschen anzuhaken ist](assets/delete_user_var1_step3_v1_de.png){ class="shadow lightbox" title="Sicherheitsabfrage über der Kontosuche" }
 
 [Zum Seitenanfang ^](#delete_user)
 
@@ -53,7 +53,7 @@ Nach Klick auf diesen Button erscheint nochmals eine Sicherheitsabfrage, die Sie
 **Schritt 1:**<br>
 Auch über den Link "Konten löschen" können Benutzer:innen ausgewählt und deren OpenOlat-Konten gelöscht werden.
 
-![Link Konten löschen in der Werkzeugleiste über dem Suchformular der Kontosuche](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
+![Link Konten löschen in der Werkzeugleiste über dem Suchformular](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" title="Werkzeugleiste der Kontosuche" }
 
 **Schritt 2:**<br>
 Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert, entsprechend den Phasen des automatischen Kontolebenszyklus:
@@ -67,15 +67,15 @@ Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert,
 Auf allen drei Tabs schränkt der Filter **Inaktivierung** die Liste nach Zeitraum ein, entweder auf "Kontoablauf in den nächsten" oder auf "Inaktiv seit den letzten", je in Tagen, Wochen, Monaten oder Jahren.
 
 !!! info "Konfiguration des automatischen Kontolebenszyklus"
-    Der automatische Kontolebenszyklus läuft in zwei Schritten: **Deaktivierung** und **Löschung**. Unabhängig davon deaktiviert der **Kontoablauf** ein Konto an seinem hinterlegten Ablaufdatum. Welche Fristen und Benachrichtigungen gelten, wird in der System-Administration festgelegt: `Administration > Lebenszyklen > Konto`<br>
+    Der automatische Kontolebenszyklus läuft in zwei Schritten: Deaktivierung und Löschung. Unabhängig davon deaktiviert der Kontoablauf ein Konto an seinem hinterlegten Ablaufdatum. Welche Fristen und Benachrichtigungen gelten, wird in der System-Administration festgelegt: `Administration > Lebenszyklen > Konto`<br>
     [Details zum automatischen Kontolebenszyklus](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
-![Drei Tabs Konten ohne Aktivität, Deaktivierte Konten und Bereit zu löschen, darunter der geöffnete Filter Inaktivierung](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" }
+![Drei Tabs Konten ohne Aktivität, Deaktivierte Konten und Bereit zu löschen, darunter der geöffnete Filter Inaktivierung](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" title="Ansicht Konten löschen in der Kontosuche" }
 
 **Schritt 3:**<br>
 Markieren Sie die zu löschenden Benutzer:innen in der Checkbox am Anfang der Zeile. Sobald mindestens 1 Person markiert ist, erscheint u.a. der Button "Konto löschen" über der Liste.
 
-![Markierte Zeile im Tab Deaktivierte Konten, darüber der Button Konto löschen neben Kontoeinstellungen ändern und Status ändern](assets/delete_user_var2_step3_v1_de.png){ class="shadow lightbox" }
+![Markierte Zeile im Tab Deaktivierte Konten, darüber der Button Konto löschen neben Kontoeinstellungen ändern und Status ändern](assets/delete_user_var2_step3_v1_de.png){ class="shadow lightbox" title="Ansicht Konten löschen in der Kontosuche" }
 
 **Schritt 4:**<br>
 Nach Klick auf diesen Button erscheint nochmals eine Sicherheitsabfrage, die Sie bestätigen müssen.
@@ -220,7 +220,7 @@ Wer die Benutzerverwaltung erreicht, findet die gelöschten Konten mit Vorname, 
 
 ## Wann kann ein/eine Benutzer:in nicht gelöscht werden? {: #none_deleted_user}
 
-Konten mit dem Status **"Aktiv und nicht löschbar"** können nicht gelöscht werden, weder manuell noch automatisch. In der Kontensuche erscheinen sie zwar und lassen sich auch markieren, beim Löschen nimmt OpenOlat sie aber aus der Auswahl heraus. Dieser Status wird typischerweise für Systemkonten wie das Administrator-Konto vergeben.
+Konten mit dem Status **"Aktiv und nicht löschbar"** können nicht gelöscht werden, weder manuell noch automatisch. In der Kontosuche erscheinen sie zwar und lassen sich auch markieren, beim Löschen nimmt OpenOlat sie aber aus der Auswahl heraus. Dieser Status wird typischerweise für Systemkonten wie das Administrator-Konto vergeben.
 
 Bei der **automatischen Löschung** über den automatischen Kontolebenszyklus greift zusätzlich eine Sicherung: Würde der Anteil der auf einmal zu löschenden Konten einen konfigurierten Prozentwert überschreiten, bricht die automatische Löschung vollständig ab.
 
