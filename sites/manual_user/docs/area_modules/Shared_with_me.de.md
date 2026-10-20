@@ -10,6 +10,8 @@ Sie gelangen zu den für Sie freigegebenen Mappen über den Klick auf "Zeige an 
 
 Unter "**Mappen**" werden alle Mappen angezeigt, die für Sie freigegeben wurden. Über das Zahnradsymbol können Sie die für Sie relevanten Spalten auswählen. So lassen sich beispielsweise Informationen darüber einblenden, ob die Mappen in einem bestimmten Kurs verwendet werden, wie der Bearbeitungsstatus lautet oder wann die letzte Änderung erfolgt ist. Mit der Funktion "Entfernen" können Sie Ihren Zugang zu einer Mappe aufheben, ohne dass die Mappe selbst gelöscht wird.
 
+Die ganze Mappe einer Person öffnen Sie mit einem Klick auf ihren Titel: `Persönliches Menü > Portfolio 2.0 > Zeige an mich freigegebene Mappen > Tab "Mappen"`. Der Tab "Einträge / To do" führt dagegen jeweils zu einem einzelnen Eintrag. In der geöffneten Mappe sehen Sie alle Bereiche, die die Person für Sie freigegeben hat. Bereiche ohne Freigabe fehlen, und von Einträgen im Status "Entwurf" sehen Sie nur den Titel. Fehlt Ihnen ein Teil, bitten Sie die Person, die Freigabe zu erweitern.
+
 Die Spaltenansicht ermöglicht es Ihnen, schnell zu erkennen, ob und wo Handlungsbedarf besteht. In einigen Fällen können Sie zudem direkt zur entsprechenden Stelle navigieren (Direktlink).
 
 Über die Filter "Alle anzeigen", "Offene Sektionen" und "Neue anzeigen" grenzen Sie die Liste ein, zum Beispiel gezielt auf Mappen mit noch offenen Bereichen.

@@ -119,10 +119,9 @@ Erlauben Sie hier, was andere Autor:innen mit Ihrem Kurs tun dürfen: "in Gruppe
 
 #### Externe OER-Kataloge und Suchmaschinen {: #section_share_oer}
 
-Mit OAI-PMH lassen sich Metadaten von Lernressourcen für Internet-Portale oder Kataloge ausserhalb OpenOlat freigeben, damit Suchmaschinen einen Inhalt besser finden können. (OER = Open Educational Resources)
+Damit externe OER-Kataloge und Suchmaschinen Ihren Kurs finden, setzen Sie das Häkchen "Indexieren von Metadaten zulassen": `Kurs > Administration > Einstellungen > Tab "Freigabe"`. OpenOlat gibt die Metadaten des Kurses dann über OAI-PMH an Portale und Kataloge ausserhalb von OpenOlat weiter. (OER = Open Educational Resources)
 
-Die Funktion muss zunächst generell durch einen/eine Administrator:in aktiviert werden.<br>
-Damit die Informationen eines ganz bestimmten Kurses an die Suchmaschinen weiter gegeben werden, muss anschliessend der/die jeweilige Autor:in (Kursbesitzer:in) dies für den eigenen Kurs erlauben.
+Voraussetzung ist das Modul OAI-PMH, das Ihre Administration einschaltet. OpenOlat gibt den Kurs erst weiter, wenn er den Status "Veröffentlicht" hat. Verlangt Ihre Administration bestimmte Lizenzen, muss der Kurs zudem eine davon tragen. Ist der Kurs nicht veröffentlicht oder fehlt die verlangte Lizenz, nennt ein Warnhinweis unter dem Häkchen den Grund.
 
 Mehr über OER finden Sie hier:<br>
 How-To: [Kurse zur Indexierung freigeben >](../../manual_how-to/oai_pmh/oai_pmh.de.md#wie-sehe-ich-im-autorenbereich-welche-kurselernressourcen-zur-indexierung-freigegeben-sind)<br>

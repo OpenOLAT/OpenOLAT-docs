@@ -118,10 +118,9 @@ Allow here what other authors may do with your course: "embed in groups", "copy"
 
 #### External OER catalogues and search engines {: #section_share_oer}
 
-OAI-PMH allows metadata from learning resources to be shared with Internet portals or catalogs outside OpenOlat, enabling search engines to find content more easily. (OER = Open Educational Resources)
+To let external OER catalogues and search engines find your course, select the checkbox "Allow indexing of metadata": `Course > Administration > Settings > Tab "Share"`. OpenOlat then passes the metadata of the course on to portals and catalogues outside OpenOlat via OAI-PMH. (OER = Open Educational Resources)
 
-The function must first be activated by an administrator.<br>
-In order for the information about a specific course to be passed on to search engines, the respective author (course owner) must then allow this for their own course.
+This requires the OAI-PMH module, which your administration switches on. OpenOlat only passes the course on once it has the status "Published". If your administration requires specific licences, the course must also carry one of them. If the course is not published or lacks the required licence, a warning below the checkbox names the reason.
 
 Find out more about OER here:<br>
 How-to: [Release courses for indexing >](../../manual_how-to/oai_pmh/oai_pmh.md#wie-sehe-ich-im-autorenbereich-welche-kurselernressourcen-zur-indexierung-freigegeben-sind)<br>
