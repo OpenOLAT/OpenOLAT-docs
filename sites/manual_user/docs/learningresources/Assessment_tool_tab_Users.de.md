@@ -45,9 +45,7 @@ Kursbaustein "Aufgabe"
 
 ### Erreichte Punkte einsehen {: #points}
 
-Um als Betreuer:in nachzuschauen, wieviele Punkte bestimmte Teilnehmer:innen erreicht haben, öffnen Sie im betreffenden Kurs die Administration und darin das Bewertungswerkzeug.
-Auf der Übersicht gibt es verschiedene Möglichkeiten zu (vorgefilterten) Teilnehmerlisten zu gelangen.
-Ist eine Liste geöffnet, klicken Sie dort auf den Namen der betreffenden Person. 
+Um als Betreuer:in nachzuschauen, wie viele Punkte bestimmte Teilnehmer:innen erreicht haben, öffnen Sie im betreffenden Kurs das Bewertungswerkzeug: `Kurs > Administration > Bewertungswerkzeug`. Die Übersicht führt mit einem Klick auf eine der Zahlen zu einer vorgefilterten Liste, zum Beispiel zu allen Personen, die bestanden haben. Ist eine Liste geöffnet, klicken Sie auf den Namen der betreffenden Person.
 
 ![Kursstruktur links und die Links zu vorgefilterten Listen wie Anzahl Teilnehmende, Bestanden, Nicht bestanden und Mitglieder hervorgehoben](assets/assessment_tool_tab_users_points1_v1_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs" }
 
@@ -58,14 +56,21 @@ Um die Punkte für den Gesamtkurs zu sehen, wählen Sie links den Namen des Kurs
 
 ![Spalte Punkte mit den Punkten des Gesamtkurses je Person hervorgehoben](assets/assessment_tool_tab_users_points2_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des obersten Kursbausteins im Bewertungswerkzeug" }
 
-In der Konfiguration kann festgelegt sein, dass Betreuer:innen im Bewertungswerkzeug Punkte vergeben können, das Ergebnis jedoch nicht selbst freigeben dürfen. 
-In diesem Fall sind diese Punkte provisorisch und dürfen noch nicht ins Total übernommen werden.
+Vergebene Punkte zählen erst zur Gesamtpunktzahl des Kurses, wenn die Bewertung freigegeben ist. In einem Lernpfadkurs legen die Kurseinstellungen fest, ob Betreuer:innen eine Bewertung selbst freigeben dürfen: `Kurs > Administration > Einstellungen > Tab "Bewertung"`, Abschnitt "Berechtigungen", Option "Bewertung freigeben" unter "Betreuende können". Mehr dazu im [Abschnitt Berechtigungen](Course_Settings_Assessment.de.md#section_assessment_rights).
 
-Damit Betreuer:innen sehen können, wieviele Punkte Teilnehmer:innen haben werden, wenn alle Punkte frei gegeben sind, sind die provisorischen Punkte in Klammer angegeben.
+Damit Betreuer:innen trotzdem sehen, wie viele Punkte eine Person nach der Freigabe hat, stehen in der Bewertung der Person die noch nicht freigegebenen Punkte in Klammern. Diese Ansicht öffnet ein Klick auf den Namen der Person. In einem Lernpfadkurs zeigt die Zeile des Kurses zuerst die Gesamtpunktzahl aus den freigegebenen Bewertungen, dahinter in Klammern die Gesamtpunktzahl nach der Freigabe aller Bewertungen. [:octicons-tag-16:{ title="ab Release 20.1.2 (OO-8839)" }](https://track.frentix.com/issue/OO-8839)
 
-Beispiel:
-![Punkte je Kursbaustein, die noch nicht freigegebenen Punkte in Klammern, im Kurstotal die theoretische Punktzahl nach Freigabe in Klammern](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" title="Bewertung einer Person im Bewertungswerkzeug" }
+In Klammern stehen auch Punkte, die nicht zur Gesamtpunktzahl zählen. Ein Klick auf einen Wert mit Info-Symbol zeigt, warum er in Klammern steht.
 
+Das folgende Beispiel zeigt die Bewertung einer Person in einem Lernpfadkurs, in dem noch nicht alle Bewertungen freigegeben sind.
+
+![Spalte Punkte mit nicht freigegebenen Punkten in Klammern, beim Kurs die Gesamtpunktzahl nach Freigabe aller Bewertungen](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" title="Bewertung einer Person im Bewertungswerkzeug" }
+
+Die Werte in der Spalte "Punkte" bedeuten im Beispiel:
+
+* **Musterkurs A** (Zeile des Kurses): "9 (21)" heisst, 9 Punkte sind vergeben und freigegeben. Sind alle vergebenen Punkte freigegeben, hat die Person 21 Punkte.
+* **Test**: "(12)" heisst, 12 Punkte sind vergeben, aber noch nicht freigegeben.
+* **Aufgabe**: "9" ohne Klammer heisst, 9 Punkte sind vergeben und freigegeben.
 
 #### Punkte eines bestimmten Kursbausteins
 
@@ -93,6 +98,7 @@ Nach Auswahl einer oder mehrerer Personen eines Assessment Bausteins erscheinen 
 **Auf dieser Seite erwähnt**<br>
 [Lernende bewerten >](Assessment_of_learners.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
 [Tests bewerten >](Assessing_tests.de.md)
 
 **Weiterführend**<br>

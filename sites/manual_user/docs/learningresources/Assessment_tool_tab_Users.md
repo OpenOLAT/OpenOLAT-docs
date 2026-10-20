@@ -42,9 +42,7 @@ Course element "Task"
 
 ### View points earned {: #points}
 
-To check as a coach how many points specific participants have earned, open the Administration for the relevant course and then open the assessment tool.
-The overview page offers several ways to access (pre-filtered) participant lists.
-If a list is open, click on the name of the person in question.
+To check as a coach how many points specific participants have earned, open the assessment tool in the relevant course: `Course > Administration > Assessment tool`. On the overview, a click on one of the numbers opens a pre-filtered list, for example all persons who have passed. If a list is open, click on the name of the person in question.
 
 ![Course structure on the left and the links to pre-filtered lists such as number of participants, passed, failed and members highlighted](assets/assessment_tool_tab_users_points1_v1_de.png){ class="shadow lightbox" title="Overview of the assessment tool" }
 
@@ -52,15 +50,23 @@ If a list is open, click on the name of the person in question.
 
 To view the points for the entire course, select the course name on the left and then the "Participants" tab.
 
-![Points column with the points of the entire course per person highlighted](assets/assessment_tool_tab_users_points2_v1_de.png){ class="shadow lightbox" title="Tab Participants of the top course element in the assessment tool" }
+![Score column with the points of the entire course per person highlighted](assets/assessment_tool_tab_users_points2_v1_de.png){ class="shadow lightbox" title="Tab Participants of the top course element in the assessment tool" }
 
-The configuration may specify that coaches can assign points in the assessment tool but are not permitted to release the result themselves.
-In this case, these points are provisional and must not yet be included in the total.
+Awarded points only count towards the total score of the course once the assessment is released. In a learning path course, the course settings define whether coaches may release an assessment themselves: `Course > Administration > Settings > Tab "Assessment"`, section "User rights", option "release assessment" under "Coaches can". More on this in the [section User rights](Course_Settings_Assessment.md#section_assessment_rights).
 
-To let coaches see how many points participants will have once all points have been released, the provisional points are shown in parentheses.
+To let coaches still see how many points a person has after the release, the assessment of the person shows the points not yet released in parentheses. A click on the name of the person opens this view. In a learning path course, the course row first shows the total score from the released assessments, followed in parentheses by the total score after the release of all assessments. [:octicons-tag-16:{ title="from Release 20.1.2 (OO-8839)" }](https://track.frentix.com/issue/OO-8839)
 
-Example:
-![Points per course element, the points not yet released in parentheses, in the course total the theoretical score after release in parentheses](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" title="Assessment of a person in the assessment tool" }
+Points that do not count towards the total score are also shown in parentheses. A click on a value with an info icon shows why it is in parentheses.
+
+The following example shows the assessment of a person in a learning path course in which not all assessments are released yet.
+
+![Score column with points not yet released in parentheses, for the course the total score after the release of all assessments](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" title="Assessment of a person in the assessment tool" }
+
+In the example, the values in the "Score" column mean:
+
+* **Musterkurs A** (course row): "9 (21)" means that 9 points are awarded and released. Once all awarded points are released, the person has 21 points.
+* **Test**: "(12)" means that 12 points are awarded but not yet released.
+* **Aufgabe**: "9" without parentheses means that 9 points are awarded and released.
 
 #### Points for a specific course element
 
@@ -87,6 +93,7 @@ After selecting one or more people in an assessment element, further functions a
 **Mentioned on this page**<br>
 [Assessing learners >](Assessment_of_learners.md)<br>
 [Assessment of course elements >](Assessment_of_course_modules.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
 [Assessing tests >](Assessing_tests.md)
 
 **Further**<br>
