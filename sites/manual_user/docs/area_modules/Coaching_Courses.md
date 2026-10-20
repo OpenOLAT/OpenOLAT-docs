@@ -1,7 +1,7 @@
 # Coaching - Courses {: #courses}
 
 
-![Courses in the Coaching Tool with the focus entries As coach, As owner and the selected Other resources, below them the tabs Favourites, All and Finished and the columns ID to Status.](assets/coaching_courses2_v3_en.png){ class="shadow lightbox" }
+![Courses in the Coaching Tool with the focus entries As coach, As owner and the selected Other resources, below them the tabs Favourites, All and Finished and the columns ID to Status.](assets/coaching_courses2_v3_en.png){ class="shadow lightbox" title="Courses in Coaching" }
 
 
 ### WHICH courses does the list show? {: #courses_which}
@@ -39,9 +39,9 @@ Predefined filter tabs are available above the list. They narrow down which cour
 * **Access for coach**: only courses with the status "Access for coach".
 * **Finished**: only courses with the status "Finished".
 
-In the focus "Other resources", only the three tabs **Favourites**, **All** and **Finished** are available. The default when opening is **All** here. The tabs "Relevant", "Published" and "Access for coach" are omitted, because OpenOlat does not load course statistics for embedded resources and templates. For the same reason, the filters for visits, assessments, number of participants and certificates are missing. Available here are the filters "Favourites", "Execution period", "Status" and "Type". If your resources belong to educational products, the filter "Products" is added.
+In the focus "Other resources", only the three tabs "Favourites", "All" and "Finished" are available. The default when opening is "All" here. The tabs "Relevant", "Published" and "Access for coach" are omitted, because OpenOlat does not load course statistics for embedded resources and templates. For the same reason, the filters for visits, assessments, number of participants and certificates are missing. Available here are the filters "Favourites", "Execution period", "Status" and "Type". If your resources belong to educational products, the filter "Products" is added.
 
-For more information on working with filters and filter tabs in general, see [Working with tables](../basic_concepts/Table_Concept.md).
+For more information on working with filters and filter tabs in general, see [Working with tables](../basic_concepts/Table_Concept.md). A tab of this view can also be set as a [personal landing page](../personal_menu/Settings.md#landing_page).
 
 [To the top of the page ^](#courses)
 
@@ -69,7 +69,7 @@ The wildcard thus behaves in the same way as in the [Courses](Courses.md) area.
 
     By clicking on the small buttons at the top right above the list, you can switch between list and tile view at any time.
 
-![Course list in list view with columns from Type and Title via Participants and visits to Progress, Success status, Points and Certificates, switch at the top right.](assets/coaching_courses3_v2_de.png){ class="shadow lightbox" }
+![Course list in list view with columns from Type and Title via Participants and visits to Progress, Success status, Points and Certificates, switch at the top right.](assets/coaching_courses3_v2_de.png){ class="shadow lightbox" title="Courses in Coaching in the list view" }
 
 
 You see at a glance, for example,
@@ -108,7 +108,7 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 * **Assessment tool** (clickable icon that leads directly to the assessment tool of this course)
 * **Info page** (clickable light bulb icon that leads directly to the information entered in the course under `Course > Administration > Settings`)
 
-At the right edge of each row, the three-dot menu opens the actions for this entry: **Assessment tool**, **Info page** and **Open course**. The menu contains the entry "Assessment tool" only for courses and tests.
+At the right edge of each row, the three-dot menu opens the actions for this entry: "Assessment tool", "Info page" and "Open in new tab". The menu contains the entry "Assessment tool" only for courses and tests.
 
 In the focus "Other resources", the list shows no participant, progress and certificate columns and no assessment tool, neither as a column nor in the three-dot menu. Available here are the columns ID, Favourite, Type, Technical Type, Title, Ext. ID, Reference, Begin, End, Ref., Status and Info page.
 
@@ -128,6 +128,7 @@ In the focus "Other resources", the list shows no participant, progress and cert
 [Assessment tool - Overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Authoring - Overview >](Authoring.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
+[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Finding courses >](Courses.md)
 
 **Further reading**<br>

@@ -37,6 +37,8 @@ The working areas complement each other without overlapping. This keeps each are
 
 Roles can of course be combined. A teacher, for example, can create courses as an author in the authoring area, accompany their own participants in Coaching, and complete a course themselves as a learner under "My courses". In this case the main navigation displays all the corresponding menu items side by side.
 
+After login, OpenOlat opens the landing page your organisation has set for the first matching role ([Landing pages by role](../../manual_admin/administration/Landing_pages.md#role_based)). A [personal landing page](../personal_menu/Settings.md#landing_page) in the settings takes precedence over the landing page of your organisation.
+
 Within a course there is additionally the role switch: if a person has been assigned several course roles, they can change perspective via the "Role" menu in the course toolbar.<br>
 (See [Roles in a course](Roles.md#course))
 
@@ -76,6 +78,8 @@ You find the complete description of all roles and the associated rights under [
 [Authoring - Overview >](../area_modules/Authoring.md)<br>
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
 [System >](../../manual_admin/administration/System.md)<br>
+[Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
+[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [User management >](../../manual_admin/usermanagement/index.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank.md)<br>

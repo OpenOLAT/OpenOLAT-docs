@@ -4,10 +4,14 @@
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [User settings](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank"}
 
-The settings allow you to adapt OpenOlat according to your needs.
+The settings allow you to adapt OpenOlat according to your needs. You find the settings in the personal menu under:<br>
+`Personal menu > System settings`
 
 
 ## Tab System {: #tab_system}
+
+You find the tab "System" in the personal menu under:<br>
+`Personal menu > System settings > Tab "System"`
 
 ![Four numbered sections of the tab System, from the general system settings to the reset of the configurations, in the personal settings](assets/pers_menu_settings_tab_system_v1_de.png){ class="shadow lightbox" title="System tab of the personal settings" }
 
@@ -60,25 +64,40 @@ Under "Document editor" you select which editor OpenOlat uses to open your docum
 
 ### ![2](assets/2_green_24.png) Specific system settings {: #special}
 
-In the specific system settings, you view and change the settings that can make it easier for you to get started and work with OpenOlat on a daily basis.
+So that you can continue working right where your work lies after login, you define here which page OpenOlat opens after login: the location last visited or a landing page.
+
+![Resume last session is set to No, the field Landing page contains the link to a custom filter tab of the course list in Coaching](assets/pers_menu_settings_tab_system_special_landing_page_v1_de.png){ class="shadow lightbox" title="Section Specific system settings in the System tab · 2026.10.19" }
 
 #### Resume last session {: #resume_session}
 
-In the selection "Resume last session" you specify what happens immediately after login:
+In the selection "Resume last session" you specify what happens immediately after login. Your landing page is the page you set below in the field "Landing page". If you have not set one there, it is the landing page your organisation has set up for your role.
 
-  * "No": The landing page is loaded.
-  * "Yes, automatically": OpenOlat loads the location last visited.
-  * "Yes, on request": You decide after each login where you want to go.
+  * "No": OpenOlat opens your landing page after each login.
+  * "Yes, automatically": OpenOlat opens the location you visited last.
+  * "Yes, on request": OpenOlat asks after login "Do you want to resume your last session?". With "Yes" you go to the location last visited, with "Landing page" to your landing page. If there is neither your own landing page nor one of your organisation, the second button is called "No".
+
+If you tick the check box "Do not ask again" in this prompt, OpenOlat saves your answer as a setting: "Yes" sets "Resume last session" to "Yes, automatically", "Landing page" or "No" sets it to "No".
+
+If there is no location last visited yet, for example at the first login, OpenOlat opens your landing page in any case.
 
 
-#### Landing page {: #landing_page}
+#### :o_icon_o_icon_landingpage: Landing page [:octicons-tag-16:{ title="from Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986) {: #landing_page}
 
-If you have selected the setting "Yes, automatically", the field "Landing page" is hidden. This field allows you to set any page within OpenOlat as your personal landing page, thereby overriding the system-wide landing page.
+Your organisation can set up a landing page for each role. If you have several roles, your organisation determines which of them defines your landing page. In the field "Landing page" you can set your own landing page. It takes precedence over the landing page of your organisation. So that OpenOlat opens it after each login, select "No" for "Resume last session". More about this: [Landing pages by role](../../manual_admin/administration/Landing_pages.md#role_based) and [What takes precedence over the landing page of your organisation](../../manual_admin/administration/Landing_pages.md#precedence)
 
-You find page-specific links in the social sharing bar at the bottom left under "Copy link". It is even easier to click the landing page icon on the desired page. Any OpenOlat page you have access to can be selected as your personal landing page this way.
+!!! info "Important"
 
-**Landing page icon in the footer:**
-![Landing page icon in the footer marked with an arrow, below it the tooltip Set current page as personal start page in profile](assets/pers_menu_settings_tab_system_pers_startpage_v1_de.png){ class="shadow lightbox" title="Section Specific system settings" }
+    A personal landing page does not appear in the rules your organisation uses to set up the landing pages. If OpenOlat opens an unexpected page after login, any request about it therefore first has to clarify whether a rule of your organisation or your personal landing page applies. You shorten this clarification if you state right away whether you have set a personal landing page.
+
+With "Yes, automatically", OpenOlat hides the field "Landing page".
+
+The easiest way is to open the desired page and click the landing page icon :o_icon_o_icon_landingpage: "Set current page as personal start page in profile" at the bottom left of the footer. Any OpenOlat page you have access to can become your personal landing page this way. You also get the link to a specific page via the action "Share" at the bottom left of the footer. Select "Copy link" there and paste the link into the field "Landing page" [:octicons-tag-16:{ title="from Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"}.
+
+You can also set a custom filter tab of a list as your personal landing page, for example a saved filter of the course list in Coaching. Open the tab and click the landing page icon :o_icon_o_icon_landingpage: in the footer. The page [Working with tables](../basic_concepts/Table_Concept.md) describes how to save a filter as a custom tab.
+
+![Custom filter tab without participants under As owner, an arrow leads to the landing page icon at the bottom left of the footer](assets/pers_menu_settings_landing_page_icon_v1_de.png){ class="shadow lightbox" title="Page Courses in Coaching · 2026.10.19" }
+
+If you clear the field "Landing page" and click "Save", the landing page of your organisation applies again.
 
 
 ### ![3](assets/3_green_24.png) User tools {: #personal_tools}
@@ -178,6 +197,8 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 [Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
 [Email Settings >](../../manual_admin/administration/E-Mail_Settings.md)<br>
 [User tools: E-Mail >](E-Mail.md)<br>
+[Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
+[Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)
@@ -186,7 +207,6 @@ The GUI (Graphical User Interface) settings are stored in variables. Experts can
 [Personal Configuration: Profile >](Profile.md)<br>
 [Personal Configuration: Password >](Password.md)<br>
 [User tools >](Personal_Tools.md)<br>
-[Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
 [Chat >](../basic_concepts/Chat.md)
 
 **youtube**<br>
