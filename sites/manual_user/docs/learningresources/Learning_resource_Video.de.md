@@ -2,33 +2,31 @@
 
 :fontawesome-solid-film:
 
+Mit der Lernressource Video stellen Sie ein Video einmal in OpenOlat bereit und binden es danach in beliebig viele Kurse ein, oder Sie bieten es unabhängig von Kursen an. Die Lernressource besteht nicht nur aus der Videodatei: Sie hat eine eigene Infoseite, ein eigenes Menü "Administration" und eigene Freigabeeinstellungen. Im Videoeditor gestalten Sie das Video zudem interaktiv aus, zum Beispiel mit Annotationen oder Quizfragen.
 
-Die Lernressource Video ist das zentrale Element für Videos in OpenOlat. Sie wird im Autorenbereich über "Datei importieren" (für den Upload einer MP4-Datei) oder "Per URL einbinden" (für die Einbindung eines externen Videos, z. B. YouTube oder Vimeo) [erstellt](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) und ist anschliessend im Bereich "Meine Einträge" im Autorenbereich zu finden.
+Sie erstellen die Lernressource im Autorenbereich: Mit "Datei importieren" laden Sie eine MP4-Datei hoch, mit "Per URL einbinden" binden Sie ein externes Video ein, etwa von YouTube oder Vimeo. Die Schritte beschreibt der Abschnitt [Lernressourcen importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren). Danach finden Sie das Video im Autorenbereich im Tab "Meine Einträge".
 
 ![Button "Datei importieren" mit aufgeklapptem Eintrag "Per URL einbinden", darunter Video-Lernressourcen in der Liste "Meine Einträge"](assets/Video_Lernressource_anlegen.jpg){ class="shadow lightbox" title="Autorenbereich, Tab Meine Einträge" }
 
-Die Lernressource Video besteht nicht nur aus der Videodatei selbst, sondern ist ein eigenständiges Objekt mit eigener Infoseite, Administrationsmenü und Freigabeeinstellungen. Sie steht kursübergreifend zur Verfügung und kann in mehreren Kursen eingebunden oder auch unabhängig von Kursen bereitgestellt werden.
-
-Darüber hinaus kann die Lernressource Video auch mit dem OpenOlat Videoeditor interaktiv weiter ausgestaltet werden, z.B. mit Annotationen oder Quizfragen.
-
-Weitere technische Hinweise zum Upload und Organisation von Videos finden Sie [hier](../basic_concepts/Video_Upload.de.md).
+Technische Hinweise zum Hochladen und Organisieren von Videos finden Sie auf der Seite [Video hochladen](../basic_concepts/Video_Upload.de.md).
 
 [Zum Seitenanfang ^](#learning_resource_video)
 
 ---
 
 
-## Administrations Menüs der Lernressource Video im Überblick {: #video_administration}
+## Menü "Administration" der Lernressource Video {: #video_administration}
 
-Die Lernressource Video verfügt über folgende Administrations-Menüs. Das Menü Administration sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen.
+Im Menü "Administration" verwalten Sie die Lernressource Video: ihre Einstellungen, ihre Mitglieder, die interaktiven Elemente und die Videodatei selbst. Das Menü sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen. Es enthält diese Einträge:
 
-* **Einstellungen** (siehe unten)
-* [Mitgliederverwaltung](../learningresources/Members_management.de.md): In erster Linie relevant bei eigenständiger Verwendung der Lernressource Video. Wird das Video in einem Kurs verwendet, brauchen die Mitglieder nicht separat organisiert werden. Lediglich weitere Besitzer:innen der Lernressource werden in diesem Menü hinzugefügt und verwaltet.
-* **Video-Editor** (siehe unten)
-* [Angebotsarten](../learningresources/Offer_Types.de.md): Führt zu den Buchungsaufträgen
-* **Video ersetzen**: Möglichkeit eine andere/neue Video Datei in der Lernressource zu hinterlegen. Das bietet sich z.B. für Aktualisierungen eines Videos an. Der Link zur Lernressource sowie eventuelle Einbindungen bleibt dabei erhalten, während das neue Video angezeigt wird. Sind für das Video bereits Untertitel vorhanden und ist der frentix Cloud-Transcodingservice aktiv, fragt OpenOlat beim Ersetzen, ob neue Untertitel generiert werden sollen (siehe [Tab "Untertitel konfigurieren"](#video_subtitles)).
-* **Kopieren:** Erstellt eine Kopie der Lernressource inklusive aller ergänzten interaktiven Elemente des Videoeditors.
-* **Inhalt exportieren**: Erstellt eine zip Datei der Lernressource, die lokal gespeichert werden und in andere OpenOlat Systeme importiert oder als Back up verwendet werden kann. 
+* **Einstellungen**: siehe [Menü "Einstellungen"](#video_settings).
+* [Mitgliederverwaltung](../learningresources/Members_management.de.md): Vor allem wichtig, wenn Sie die Lernressource Video unabhängig von Kursen anbieten. Ist das Video in einen Kurs eingebunden, verwalten Sie hier keine Mitglieder, sondern nur weitere Besitzer:innen der Lernressource.
+* **Videoeditor**: siehe [Menü "Videoeditor"](#video_editor).
+* [Angebotsarten](../learningresources/Offer_Types.de.md): Führt zu den Buchungsaufträgen.
+* **Video ersetzen**: Lädt eine neue Videodatei in die bestehende Lernressource, etwa für eine aktualisierte Fassung. Der Link zur Lernressource und alle Einbindungen bleiben erhalten, angezeigt wird danach das neue Video. Sind für das Video bereits Untertitel vorhanden und ist der frentix Cloud-Transcodingservice aktiv, fragt OpenOlat beim Ersetzen, ob neue Untertitel generiert werden sollen (siehe [Tab "Untertitel konfigurieren"](#video_subtitles)).
+* **Kopieren**: Erstellt eine Kopie der Lernressource mit allen Elementen, die Sie im Videoeditor angelegt haben.
+* **Inhalt exportieren**: Erstellt eine ZIP-Datei der Lernressource. Sie können die Datei lokal speichern, in eine andere OpenOlat-Instanz importieren oder als Sicherung aufbewahren.
+* **Über dieses Video**: Zeigt in einem Dialog technische Angaben zur Lernressource.
 * **Löschen**
 
 [Zum Seitenanfang ^](#learning_resource_video)
@@ -37,48 +35,55 @@ Die Lernressource Video verfügt über folgende Administrations-Menüs. Das Men�
 
 ## Menü "Einstellungen" der Lernressource Video {: #video_settings}
 
-![Acht Tabs von "Info" bis "Download", darunter "Poster konfigurieren", "Untertitel konfigurieren" und "Videoqualitäten"](assets/Video_Einstellungen.png){ class="shadow lightbox" title="Einstellungen einer Video-Lernressource" }
+In den Einstellungen legen Sie fest, wie das Video beschrieben, freigegeben und angezeigt wird. Sie öffnen die Einstellungen über `Video > Administration > Einstellungen`. Welche Tabs erscheinen, hängt vom Video ab: "Videoqualitäten" fehlt bei Videos, die über "Per URL einbinden" hinzugefügt wurden, "Download" erscheint nur bei Videos im Format MP4 und "Katalog" nur bei aktivem Katalog 1.0.
 
+![Reiterleiste der Einstellungen markiert, sieben Tabs von "Metadaten" bis "Download", darunter "Poster konfigurieren", "Untertitel konfigurieren" und "Videoqualitäten"](assets/learning_resource_video_settings_tabs_v1_de.png){ class="shadow lightbox" title="Einstellungen einer Video-Lernressource · 2026.10.20" }
 
-### Tab "Info"
-
-Im Tab "Info" haben Sie Möglichkeit eine Beschreibung, einen Teaser und ein Kennzeichen einzutragen, die auf der Info-Seite des Videos angezeigt werden. Wird die Lernressource im Kurs für den Kursbaustein Video eingebunden, können Beschreibung und Titel zusätzlich direkt bei dem Video im Kurs eingeblendet werden. Wie man die Lernressource Video generell in einen Kurs einbindet, erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md).
-
-Weitere Infos zur Einrichtung der Infoseite finden Sie im Kapitel ["Infoseite einrichten"](../learningresources/Course_Settings_Info.de.md#configure_info).
-
-!!! tip "Tipp"
-
-    Da es sich bei der Lernressource bereits um ein Video handelt ist es in den meisten Fällen nicht sinnvoll oder notwendig noch ein Teaser-Film zu hinterlegen. Eine Ausnahme wäre eine kurze Zusammenfassung eines längeren Videos, das im Vorfeld schon auf den Inhalt hinweisen soll. Dieses Video wäre aber nur sichtbar, wenn die Lernressource Video eigenständig und nicht integriert in einen Kurs angeboten wird. Weitere Infos dazu findet man im Tab "Freigabe". 
 
 ### Tab "Metadaten"
 
-Im Tab "Metadaten" finden Sie generelle Angaben zum Video wie Erstelldatum und Dateigrösse. Ferner haben Sie die Möglichkeit, wie in anderen Lernressourcen auch, Informationen zu Autor:innen, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz zu hinterlegen.
+Im Tab "Metadaten" finden Sie allgemeine Angaben zum Video wie Erstelldatum und Dateigrösse. Wie bei anderen Lernressourcen hinterlegen Sie hier ausserdem Angaben zu Autor:innen, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz.
 
 
 !!! note "Hinweis für YouTube Videos"
 
-    Werden über "Per URL einbinden" YouTube Videos eingebunden, werden dabei auch Metadaten der YouTube Datei, wie der Titel oder ein Startbild übernommen.
+    Binden Sie ein YouTube-Video über "Per URL einbinden" ein, übernimmt OpenOlat auch Metadaten des YouTube-Videos, etwa den Titel und ein Startbild.
 
-### Tab "Freigabe"
-Im Tab Freigabe legen Sie fest, ob die Lernressource Video in einem Kurs eingebunden oder eigenständig verwendet werden soll. Wählen Sie beim Verwendungszweck "Eigenständig" muss die Buchungsmethode noch zusätzlich definiert werden. Weitere Infos finden Sie [hier](../learningresources/Course_Settings_Share.de.md).
+### Tab "Info"
 
-Sofern die [Video Collection](../area_modules/Video_Collection.de.md) in Ihrer Instanz aktiviert ist können Sie auch entscheiden ob Ihre Lernressource Video dort angezeigt werden soll. 
+Im Tab "Info" tragen Sie eine Beschreibung, einen Teaser und ein Kennzeichen ein, die auf der Infoseite des Videos erscheinen. Binden Sie die Lernressource im Kursbaustein "Video" ein, können Sie Titel und Beschreibung zusätzlich direkt beim Video im Kurs einblenden. Wie Sie die Lernressource Video in einen Kurs einbinden, beschreibt die Seite [Kursbaustein "Video"](Course_Element_Video.de.md).
 
-### Tab "Poster konfigurieren"
-
-Im Tab "Poster konfigurieren" legen Sie fest, mit welchem Vorschaubild das Video im Kursbereich, im Katalog, auf der Video Collection-Seite, auf der Infoseite, im Autorenbereich sowie im Kurs angezeigt werden soll. 
-
-Mit Hilfe der Schaltfläche "Poster ersetzen" können Sie zwischen verschiedenen Standbildern des Videos wählen oder alternativ über die Schaltfläche "Poster hochladen" ein eigenes Bild als Startbild (Poster) hochladen. Falls kein Poster ausgewählt wurde, erscheint das Standbild vom Beginn des Videos.
+Wie Sie die Infoseite einrichten, beschreibt der Abschnitt [Infoseite einrichten](../learningresources/Course_Settings_Info.de.md#configure_info).
 
 !!! tip "Tipp"
 
-    Bitte beachten Sie, dass ein hochgeladenes Bild dieselben Abmessungen in Pixel haben sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab "Metadaten".
+    Die Lernressource ist bereits ein Video, ein zusätzlicher Teaser-Film ist deshalb meist überflüssig. Sinnvoll ist er etwa als kurze Zusammenfassung eines längeren Videos. Sichtbar ist der Teaser-Film nur, wenn Sie die Lernressource Video eigenständig anbieten und nicht in einen Kurs einbinden. Mehr dazu im Tab "Freigabe".
+
+### Tab "Freigabe"
+
+Im Tab "Freigabe" legen Sie fest, ob die Lernressource Video in einen Kurs eingebunden oder eigenständig verwendet wird. Wählen Sie beim "Verwendungszweck" die Option "Eigenständig", legen Sie zusätzlich fest, wie Personen das Video buchen können. Mehr dazu auf der Seite [Kurseinstellungen - Tab Freigabe](../learningresources/Course_Settings_Share.de.md).
+
+Ist die [Video Collection](../area_modules/Video_Collection.de.md) in Ihrer Instanz aktiviert, legen Sie hier auch fest, ob die Lernressource Video dort erscheint.
+
+### Tab "Katalog"
+
+Der Tab "Katalog" erscheint nur, wenn der [Katalog 1.0](../area_modules/catalog1.0.de.md) in der OpenOlat-Instanz aktiviert ist. Dort tragen Sie die Lernressource in den Katalog ein.
+
+### Tab "Poster konfigurieren"
+
+Im Tab "Poster konfigurieren" legen Sie fest, mit welchem Vorschaubild das Video im Kursbereich, im Katalog, auf der Seite der Video Collection, auf der Infoseite, im Autorenbereich und im Kurs erscheint.
+
+Mit "Poster ersetzen" wählen Sie eines von mehreren Standbildern aus dem Video, mit "Poster hochladen" laden Sie ein eigenes Bild als Poster hoch. Ist kein Poster gewählt, erscheint das Standbild vom Beginn des Videos.
+
+!!! tip "Tipp"
+
+    Laden Sie ein Bild im Format JPG hoch, das dieselben Abmessungen in Pixel hat wie das Originalvideo. Die Abmessungen des Videos finden Sie im Tab "Metadaten".
 
 ### Tab "Untertitel konfigurieren" {: #video_subtitles}
 
-Untertitel können manuell hochgeladen oder, bei aktivem frentix Cloud-Transcodingservice, automatisch generiert werden (siehe [Automatische Untertitelgenerierung](#video_subtitles_auto)).
+Mit Untertiteln bleibt das Video auch ohne Ton verständlich. Sie laden Untertitel manuell hoch oder lassen sie bei aktivem frentix Cloud-Transcodingservice automatisch generieren (siehe [Automatische Untertitelgenerierung](#video_subtitles_auto)).
 
-Erstellen Sie bei Bedarf ausserhalb von OpenOlat eine Untertiteldatei für Ihr Video und binden Sie diese im Tab "Untertitel konfigurieren" ein, indem Sie die VTT-Datei hochladen und die passende Sprache auswählen.
+Erstellen Sie die Untertiteldatei ausserhalb von OpenOlat. Im Tab "Untertitel konfigurieren" laden Sie die VTT-Datei hoch und wählen die passende Sprache.
 
 Einem Video können Untertitel in mehreren Sprachen zugewiesen werden. OpenOlat unterstützt das [WebVTT-Format](https://w3c.github.io/webvtt/) (siehe auch [Wikipedia](https://en.wikipedia.org/wiki/WebVTT)), daher muss die Datei mit der Endung .vtt gespeichert sein. Dieses Format ist mit den meisten gängigen Video-Playern kompatibel.
 
@@ -120,7 +125,7 @@ Das folgende Beispiel zeigt den Anfang einer typischen VTT-Datei:
 
 
 
-Bereits erstellte Untertitel werden in einer Tabelle aufgelistet und können dort auch gelöscht werden.
+Hochgeladene Untertitel erscheinen in einer Tabelle, dort können Sie sie auch löschen.
 
 #### Automatische Untertitelgenerierung [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"} {: #video_subtitles_auto}
 
@@ -132,7 +137,7 @@ Ist der frentix Cloud-Transcodingservice für die OpenOlat-Instanz aktiviert, er
 
 !!! info "Wichtig"
 
-    Die automatische Untertitelgenerierung ist Teil des frentix Cloud-Transcodingservice und nicht in der Standard-Distribution von OpenOlat enthalten. Bei Interesse kontaktieren Sie den frentix Support: [contact@frentix.com](mailto:contact@frentix.com)
+    Die automatische Untertitelgenerierung ist Teil des frentix Cloud-Transcodingservice und nicht in der Standard-Distribution von OpenOlat enthalten. Bei Interesse wenden Sie sich an frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 #### Untertitel beim Ersetzen eines Videos [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}
 
@@ -143,59 +148,51 @@ Wird über das Administrationsmenü "Video ersetzen" eine neue Videodatei hochge
 
 #### Untertitel im Video anzeigen
 
-Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt. 
+OpenOlat spielt Videos zunächst ohne Untertitel ab. Sind Untertitel vorhanden, zeigt der Videoplayer unten rechts dieses Symbol:
+![Symbol für Untertitel im Videoplayer](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
 
-Sobald Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
-![Symbol für Untertitel im Video-Player](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
-
-CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese von den Teilnehmenden aktiviert werden. In OpenOlat ist diese Funktion im Player unten rechts zu finden. Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
+CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia): Die Untertitel bleiben ausgeblendet, bis die Teilnehmenden sie einschalten. Fahren Sie mit dem Mauszeiger über das Symbol, klappt die Liste der vorhandenen Untertitel auf. Die aktuelle Auswahl ist eingefärbt.
 
 ![Aufgeklappte Liste der Untertitel mit "None" und "German" über dem Symbol CC unten rechts im Player](assets/video_subtitle.png){ class="shadow lightbox" title="Untertitelauswahl im Videoplayer" }
 
 
 ### Tab "Videoqualitäten" {: #video_quality}
 
-Im Tab "Videoqualitäten" sehen Sie in welchen Auflösungen das Video vorliegt. Sobald ein Video hochgeladen wird, werden Videos in den verschiedenen Auflösungen erstellt. Dieser Prozess kann eine Weile dauern. Welche Auflösungen im Anschluss zur Verfügung stehen ist abhängig von den Einstellungen, die in der System-Administration vorgenommen werden unter:<br>
+Im Tab "Videoqualitäten" sehen Sie, in welchen Auflösungen das Video vorliegt. Nach dem Hochladen erstellt OpenOlat das Video in mehreren Auflösungen, das kann eine Weile dauern. Welche Auflösungen entstehen, legt die System-Administration fest unter:<br>
 `Administration > Module > Video`
 
-Ausstehende Videos können transkodiert und nicht verwendete Auflösungen gelöscht werden.
+Mit "Transkodieren" erstellen Sie eine ausstehende Auflösung, mit "Löschen" entfernen Sie eine Auflösung, die Sie nicht brauchen.
 
-![Auflösungen Master video, 480p, 360p und 240p mit Dimension, Grösse und Format, je mit der Aktion "Löschen" ausser beim Master video](assets/Video_qualitaten_20.png){ class="shadow lightbox" title="Tab Videoqualitäten in den Einstellungen" }
+![Tabelle der Auflösungen Master video, 1080p Full-HD, 480p, 360p und 240p mit Dimension, Grösse und Format, je mit der Aktion "Löschen" ausser beim Master video](assets/learning_resource_video_qualities_v1_de.png){ class="shadow lightbox" title="Tab Videoqualitäten in den Einstellungen · 2026.10.20" }
 
-Im Videoplayer lässt sich bei Bedarf die gewünschte Auflösung über den "Source Chooser" auswählen.
+Im Videoplayer wählen Sie die Auflösung über das Zahnrad-Symbol "Source Chooser".
 
 ![Aufgeklappte Auswahl der Auflösungen 720p bis 240p mit Dateigrösse über dem Zahnrad-Symbol Source Chooser](assets/video_aufloesung.png){ class="shadow lightbox" title="Videoplayer einer Video-Lernressource" }
 
 !!! info "Wichtig"
 
-    Für Videos, die über "Per URL einbinden" hinzugefügt wurden, können die Einstellungen nicht vorgenommen werden.
+    Für Videos, die über "Per URL einbinden" hinzugefügt wurden, erscheint der Tab "Videoqualitäten" nicht.
 
 ### Tab "Download" [:octicons-tag-16:{ title="ab Release 16.0 (OO-5471)" }](https://track.frentix.com/issue/OO-5471){:target="_blank"}
 
-Im Tab Download kann eingestellt werden, ob Teilnehmende das Video herunterladen dürfen oder nicht.
+Im Tab "Download" legen Sie fest, ob Teilnehmende das Video herunterladen dürfen.
 
 !!! info "Wichtig"
 
-    Für Videos, die über "Per URL einbinden" hinzugefügt wurden, können die Einstellungen nicht vorgenommen werden.
-
-### Tab "Katalog"
-
-Der Tab "Katalog" erscheint nur wenn der [Katalog 1.0](../area_modules/catalog1.0.de.md) in der OpenOlat Instanz aktiviert ist. Es besteht dann die Möglichkeit die Lernressource entsprechend in den Katalog einzutragen. 
+    Der Tab "Download" erscheint nur für Videos im Format MP4. Für YouTube- oder Vimeo-Videos, die über "Per URL einbinden" hinzugefügt wurden, fehlt er.
 
 [Zum Seitenanfang ^](#learning_resource_video)
 
 ---
 
 
-## Menü "Video-Editor" [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"} {: #video_editor}
+## Menü "Videoeditor" [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"} {: #video_editor}
 
-Den Videoeditor öffnen Sie in der Administration der Lernressource über den Eintrag "Video-Editor".
+Im Videoeditor ergänzen Sie das Video mit interaktiven Elementen, die beim Abspielen an ihrer Stelle im Video erscheinen. Sie öffnen ihn über `Video > Administration > Videoeditor`.
 
-![Eintrag Video-Editor im aufgeklappten Menü Administration markiert](assets/learning_resource_video_administration_menu_v1_de.png){ class="shadow lightbox" title="Menü Administration einer Video-Lernressource · 2026.09.28" }
+![Aufgeklapptes Menü Administration einer Video-Lernressource, der Eintrag Videoeditor zum Öffnen des Videoeditors markiert](assets/learning_resource_video_administration_menu_v2_de.png){ class="shadow lightbox" title="Menü Administration einer Video-Lernressource · 2026.10.20" }
 
-Hier kann das Video mit (interaktiven) Elementen ausgestaltet und weiter konfiguriert werden. 
-
-![Vorschau links oben, Konfigurationsbereich mit den Tabs Kapitel bis Quiz rechts oben und Timeline mit einer Spur je Elementtyp unten](assets/Video-Editor.png){ class="shadow lightbox" title="Aufbau des Videoeditors" }
+![Vorschau mit einer Quizfrage links oben, Konfigurationsbereich mit den Tabs Kapitel bis Quiz rechts oben und Timeline mit einer Spur je Elementtyp unten](assets/learning_resource_video_editor_overview_v1_de.png){ class="shadow lightbox" title="Aufbau des Videoeditors · 2026.10.20" }
 
 Der Videoeditor umfasst drei Bearbeitungsbereiche:
 
@@ -203,66 +200,66 @@ Der Videoeditor umfasst drei Bearbeitungsbereiche:
 * Timeline (unten)
 * Vorschaubereich (links oben)
 
-Konfiguriert werden können: Kapitel, Annotationen, Segmente, Kommentare und Quiz. 
+Im Konfigurationsbereich stehen die Tabs "Kapitel", "Annotationen", "Segmente", "Kommentare" und "Quiz".
 
 
 ### Videoeditor: Kapitel [:octicons-tag-16:{ title="ab Release 11.1 (OO-2246)" }](https://track.frentix.com/issue/OO-2246){:target="_blank"} {: #video_chapter}
 
-Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies erleichtert die Navigation im Video und sollte bei längeren Videos möglichst ergänzt werden. Ein Kapitel wird im Tab Kapitel mit der Schaltfläche "hinzufügen" angelegt. 
+Mit Kapiteln springen die Teilnehmenden direkt an eine Stelle im Video, was sich vor allem bei längeren Videos lohnt. Sie legen ein Kapitel im Tab "Kapitel" mit "Hinzufügen" an.
 
-Wählen Sie den Zeitpunkt für den Start des Kapitels und vergeben Sie einen Namen. OpenOlat setzt dann an der Stelle eine Kapitelmarke.
+Legen Sie unter "Beginn" den Zeitpunkt fest, an dem das Kapitel beginnt, und geben Sie unter "Text" seinen Namen ein.
 
-Sie können auch über die Timeline zu einer bestimmten Stelle im Video navigieren und dann auf "Hinzufügen" klicken um ein Kapitel genau ab dieser Stelle anzulegen. Die Anfangszeit wird dann automatisch übernommen. 
+Wenn Sie vorher in der Timeline an eine Stelle springen und dann auf "Hinzufügen" klicken, übernimmt OpenOlat diese Stelle als Beginn.
 
-Kapitel können anschliessend sowohl bearbeitet, als auch wieder gelöscht werden. Ferner sind die Kapitel in der Timeline sichtbar. 
+Kapitel lassen sich danach bearbeiten und wieder löschen. Sie erscheinen auch in der Timeline.
 
 ![Vier Kapitel mit Beginn und Text, Schaltfläche "Hinzufügen" und die Symbole zum Bearbeiten und Löschen markiert, unten die Kapitel in der Timeline](assets/Video_Kapitel.jpg){ class="shadow lightbox" title="Videoeditor, Tab Kapitel" }
 
 
 ### Videoeditor: Annotationen :octicons-tag-16:{ title="ab Release 17.2 (OO-6344)" } {: #video_annotation}
 
-Anmerkungen bzw. Annotationen können an beliebigen Stellen im Video ebenfalls hinterlegt werden, z.B. um besonders wichtige Stellen hervorzuheben oder bestimmte Aspekte zu ergänzen z.B. Literaturangaben. Neben Text können auch Links gesetzt werden, die z.B. zu weiteren Informationen führen. 
+Mit Annotationen blenden Sie an einer beliebigen Stelle im Video einen Text ein, etwa um eine wichtige Stelle hervorzuheben oder eine Literaturangabe zu ergänzen. Neben Text sind auch Links möglich, zum Beispiel auf weiterführende Informationen.
 
-Wählen Sie in der Timeline die Stelle im Video an der die Annotation hinzugefügt werden soll und klicken Sie auf "hinzufügen". Es erscheint die Konfiguration für die Annotation. 
+Wählen Sie in der Timeline die Stelle, an der die Annotation erscheinen soll, und klicken Sie auf "Hinzufügen". Es öffnet sich die Konfiguration der Annotation.
 
-Geben Sie den gewünschten Text ein, legen Sie die Dauer der Anzeige fest und wählen Sie eine Farbe für die Kennzeichnung im linken Bereich. Klicken Sie auf das Stift-Symbol um die Position und die Grösse des Annotationsfelds anzupassen. Sie können auch per Drag & drop das Annotationsfeld verschieben. Speichern Sie die Einstellungen.
+Geben Sie den Text ein, legen Sie unter "Dauer" fest, wie lange die Annotation erscheint, und wählen Sie unter "Farbe" eine Farbe für die Kennzeichnung im linken Bereich. Mit dem Stift-Symbol passen Sie Position und Grösse des Annotationsfelds an. Sie können das Feld auch mit der Maus an eine andere Stelle ziehen. Speichern Sie die Einstellungen.
 
 ![Konfiguration einer Annotation mit Text, Farbe und dem Symbol für Position und Grösse, daneben das Annotationsfeld im Video und die Annotation in der Timeline](assets/Video_Annotationen.jpg){ class="shadow lightbox" title="Videoeditor, Tab Annotationen" }
 
-Sie können beliebig viele Annotationen hinzufügen und über die Pfeile zwischen ihnen wechseln. Über das 3-Punkte Menü können Annotationen auch wieder gelöscht werden. 
+Sie können beliebig viele Annotationen hinzufügen und über die Pfeile zwischen ihnen wechseln. Über das Symbol mit den drei Punkten löschen Sie eine Annotation wieder.
 
 
 ### Videoeditor: Segmente :octicons-tag-16:{ title="ab Release 17.2 (OO-6598)" } {: #video_segments}
 
-Segmente sind spezifische Bereiche im Video, die z.B. einem übergeordneten Ansatz oder einer Strukturierung zugeordnet werden. Die Segmente sind besonders in Kursen für die Kursbausteine "Video" und "Videoaufgabe" relevant und können hier eingeblendet und verwendet werden. 
+Mit Segmenten teilen Sie das Video in Abschnitte und ordnen jedem Abschnitt einen Begriff zu, etwa eine Phase oder ein Thema. Die Segmente blenden Sie in den Kursbausteinen "Video" und "Videoaufgabe" ein und arbeiten dort mit ihnen.
 
 
 #### Segmente erstellen
 
-Im Videoeditor wählen Sie den Tab "Segmente" und klicken auf "Hinzufügen". Es erscheint das Konfigurationsmenü. 
+Im Videoeditor wählen Sie den Tab "Segmente" und klicken auf "Hinzufügen". Es öffnet sich die Konfiguration des Segments.
 
 ![Tab "Segmente" und die Schaltfläche "Hinzufügen" markiert, noch ohne Segmente](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" title="Videoeditor, Tab Segmente" }
 
-Für jedes Segment muss mit "Hinzufügen" ein Element angelegt und mit passendem Zeitslot und **Begriff** versehen werden.  Die Segmente dürfen sich dabei zeitlich nicht überschneiden. Also einem zeitlichen  Segment wird genau ein Begriff zugeordnet.  
+Legen Sie jedes Segment mit "Hinzufügen" an und geben Sie ihm einen Zeitraum und einen "Begriff". Segmente dürfen sich zeitlich nicht überschneiden, und jedem Segment ist genau ein Begriff zugeordnet.
 
-Sie können direkt alle relevanten Video-Segmentbegriffe eingeben und diese dann im zweiten Schritt den konkreten zeitlichen Positionen zuordnen. Gehen Sie dafür wie folgt vor:
+Sie können auch zuerst alle Begriffe erfassen und sie danach den Zeiträumen im Video zuordnen:
 
-* Button "Begriffe" anklicken. 
+* Klicken Sie auf "Begriffe".
 
 ![Konfiguration eines Segments mit Beginn, Ende, Dauer und Begriff, die Schaltfläche "Begriffe" markiert](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" title="Konfiguration eines Segments" }
 
-* Über das Plus-Zeichen alle relevanten Begriffe einfügen. Möglichst schon passend in der Reihenfolge in der sie im Video auftauchen. Dann können sie später leichter zugeordnet werden.
+* Fügen Sie über das Plus-Symbol alle Begriffe ein, am besten in der Reihenfolge, in der sie im Video vorkommen. So ordnen Sie sie später leichter zu.
 
 ![Drei Begriffe mit Farbe, Abkürzung und Titel, die Plus-Symbole zum Hinzufügen weiterer Begriffe markiert](assets/learning_resource_video_segments3_v1_de.png){ class="shadow lightbox" title="Dialog Begriffe bearbeiten" }
 
 
-Alternative: Sie springen jeweils zum gewünschten Zeitpunkt in der Timeline des Videos und fügen dann denn passenden Begriff für das Segement hinzu. So geht´s: 
+Oder Sie springen in der Timeline jeweils zur gewünschten Stelle und legen dort das Segment mit dem passenden Begriff an:
 
-* Über die Timeline zur gewünschten Stelle navigieren und "hinzufügen" anklicken"
-* Begriff für diesen Startpunkt hinzufügen oder aus der Liste wählen. Dauer festlegen und speichern.
-* Zur nächsten Stelle springen und wieder hinzufügen anklicken usw.
+* Springen Sie in der Timeline zur gewünschten Stelle und klicken Sie auf "Hinzufügen".
+* Fügen Sie einen Begriff für diesen Beginn hinzu oder wählen Sie einen aus der Liste. Legen Sie die Dauer fest und speichern Sie.
+* Springen Sie zur nächsten Stelle und klicken Sie wieder auf "Hinzufügen".
 
-Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt und können so auch rasch aufgerufen und dann bearbeitet werden. 
+Die Segmente erscheinen in der Timeline in einer eigenen Spur. Von dort rufen Sie ein Segment rasch zur Bearbeitung auf.
 
 ![Fünf Segmente mit Abkürzung und Begriff in der eigenen Spur S der Timeline, eines davon ausgewählt](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" title="Timeline im Videoeditor" }
 
@@ -272,52 +269,64 @@ Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt un
     * Sie können ein Segment in der Timeline anklicken und gelangen dadurch direkt zur Bearbeitung dieses Segments.
 
 
-Die Segmente werden vor allem im Kursbaustein Videoaufgabe verwendet. Wofür könnte man die Segmente hier verwenden? Hier ein paar Ideen:
+Segmente kommen vor allem im Kursbaustein "Videoaufgabe" zum Einsatz. Einige Beispiele:
 
-**a)** Lehrende könnten beispielsweise einen zentralen Begriff einem bestimmten Zeitslot im Video zuordnen. Die Lernenden müssen später im Kurs die konkrete Stelle finden, an denen dieser Aspekt auftaucht. <br>
-**b)** Lehrende definieren verschiedene Phasen eines Prozesses und kennzeichnen diese als Segmente. Die Lernenden müssen dann die passenden Bereiche im Video identifizieren. Das funktioniert ähnlich mit der Zuordnung von Theorien.<br>
-**c)** Bei einem Beobachtungsvideo einer Kindergarten-Szene, eines Bewerbungsgesprächs oder sonstigen Realvideos sollen bestimmte typische Aspekte oder Fehler identifiziert werden.  
+* Sie ordnen einen zentralen Begriff einem Zeitraum im Video zu. Die Teilnehmenden suchen später im Kurs die Stelle, an der dieser Aspekt vorkommt.
+* Sie kennzeichnen die Phasen eines Prozesses als Segmente. Die Teilnehmenden bestimmen dann die passenden Abschnitte im Video. Ähnlich funktioniert die Zuordnung von Theorien.
+* In einem Beobachtungsvideo, etwa einer Kindergarten-Szene oder eines Bewerbungsgesprächs, erkennen die Teilnehmenden typische Aspekte oder Fehler.
 
 
 ### Videoeditor: Kommentare :octicons-tag-16:{ title="ab Release 17.2 (OO-6766)" } {: #video_comments}
 
-Kommentare lassen sich gezielt an einer bestimmten Stelle im Video platzieren. Sie können zentrale Kernaussagen hervorheben, zusätzliche Informationen ergänzen oder auf den folgenden Videoabschnitt vorbereiten. Jeder Kommentar wird mit dem Namen der erstellenden Person gekennzeichnet.
+Mit Kommentaren heben Sie an einer bestimmten Stelle im Video Kernaussagen hervor, ergänzen Informationen oder bereiten auf den folgenden Abschnitt vor. Jeder Kommentar trägt den Namen der Person, die ihn erstellt hat.
 
-Beim Abspielen stoppt das Video automatisch an der kommentierten Stelle. Um fortzufahren, muss der Kommentar aktiv geschlossen oder der Play-Button erneut angeklickt werden. Darin liegt der wesentliche Unterschied zu Annotationen.
+Beim Abspielen hält das Video an der Stelle des Kommentars an. Weiter geht es erst, wenn die Person den Kommentar schliesst oder erneut auf die Abspieltaste klickt. Darin unterscheiden sich Kommentare von Annotationen.
 
-Kommentare können als Text oder als Video-Kommentar angelegt werden. Video-Kommentare lassen sich direkt per Webcam in OpenOlat aufnehmen, als Datei importieren oder per Link einbinden: so entsteht ein "Video im Video" an der entsprechenden Stelle.
+Einen Kommentar legen Sie als Text oder als Video an. Einen Video-Kommentar nehmen Sie direkt in OpenOlat mit der Webcam auf, importieren ihn als Datei oder binden ihn über eine URL ein. So entsteht an dieser Stelle ein "Video im Video".
 
 
 ![Kommentar mit Video-URL und Text, Auswahl Text, Video aufnehmen, Video importieren und Video-URL zum Importieren, dazu der Kommentar in der Spur K der Timeline](assets/Video_Kommentare.jpg){ class="shadow lightbox" title="Videoeditor, Tab Kommentare" }
 
 
-### Videoeditor: Quiz {: #video_quiz}
+### Videoeditor: Quiz [:octicons-tag-16:{ title="ab Release 21.1 (OO-9750)" }](https://track.frentix.com/issue/OO-9750){:target="_blank"} {: #video_quiz}
 
-Fügen Sie Ihrem Video einzelne Quizfragen hinzu. Aktuell stehen 12 verschiedene Fragetypen zur Auswahl. Wählen Sie   einfach einen Frage-Typ aus der Liste aus und Sie gelangen zum Quiz-Editor für die konkrete Quizfrage. Geben Sie hier die Frage und Antwortoptionen ein und speichern Sie alles.
+Mit Quizfragen halten Sie das Video an einer Stelle an und regen die Teilnehmenden zum Nachdenken über das Gesehene an. Sie legen eine Quizfrage im Tab "Quiz" mit "Hinzufügen" an. Zur Wahl stehen 12 Fragetypen. Nach der Wahl des Fragetyps öffnet sich der Editor der Quizfrage: Geben Sie dort die Frage und die Antworten ein und speichern Sie.
 
-Die konkreten Tabs für die Quizfrage entsprechen dem gewählten Frage-Typ. 
+Welche Tabs der Editor zeigt, hängt vom Fragetyp ab.
 
 !!! note "Hinweis"
 
     Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../learningresources/Test_question_types.de.md)".
 
+Eine Frage aus dem Fragenpool übernehmen Sie mit "Fragen aus Pool importieren" im Menü hinter dem Symbol mit den drei Punkten neben "Hinzufügen"; danach konfigurieren Sie sie wie eine neu erstellte Quizfrage.
 
-Nach der Eingabe gelangen Sie wieder in den Videoeditor und können die Quizfrage weiter für das Video konfigurieren. Definieren Sie hier:
+Nach der Eingabe gelangen Sie wieder in den Videoeditor und konfigurieren die Quizfrage für das Video. Legen Sie hier fest:
 
-* den Startpunkt der Quizfrage im Video -> "Beginn"
-* wie lange die Teilnehmenden Zeit für die Beantwortung der Quizfrage haben. 
-* ob die Frage übersprungen werden darf
-* ob mehrere Versuche erlaubt sind
-* mit welcher Farbe die Frage gekennzeichnet und angezeigt wird
+* **"Beginn"**: den Zeitpunkt, an dem die Quizfrage im Video erscheint. Das Video hält an dieser Stelle an.
+* **"Zeitbeschränkung"**: wie viele Sekunden die Teilnehmenden für die Antwort haben. Ohne Eintrag gibt es keine Zeitbeschränkung.
+* **"Farbe"**: mit welcher Farbe die Quizfrage gekennzeichnet und angezeigt wird.
+* **"Optionen"**: welche Schaltflächen die Teilnehmenden nach einer falschen Antwort zusätzlich erhalten. Die Optionen halten niemanden an der Quizfrage fest: Wer im Video vorspult, kommt weiterhin an ihr vorbei. Verhindern lässt sich das nur für Teilnehmende im [Kursbaustein "Video"](Course_Element_Video.de.md) mit der Einstellung "Vorspulen bei erster Betrachtung einschränken".
+    * **"Überspringen-Option bei falscher Antwort anzeigen"**: Die Schaltfläche "Überspringen" erscheint. Die Teilnehmenden kommen ohne richtige Antwort weiter.
+    * **"Wiederholen ohne erneutes Ansehen"**: Die Schaltfläche "Nochmal versuchen" erscheint. Die Quizfrage wird zurückgesetzt und kann sofort erneut beantwortet werden, ohne dass das Video nochmals läuft.
 
-Die Quiz-Fragen im Video werden direkt bei der Beantwortung der Frage "ausgewertet" - aber nur, ob sie richtig oder falsch beantwortet wurden. Die zu einer Frage hinterlegten Punkte spielen bei der Verwendung im Video keine Rolle. Es gibt daher auch keine Gesamtauswertung am Ende des Videos. (Bei Verwendung der gleichen Frage z.B. in einem Test, werden die Punkte dagegen verwendet.)
+![Konfiguration einer Quizfrage mit Beginn, Zeitbeschränkung und Farbe, die beiden eingeschalteten Optionen markiert, darunter die Tabelle mit Frage und Typ](assets/learning_resource_video_quiz_options_v1_de.png){ class="shadow lightbox" title="Videoeditor, Tab Quiz · 2026.10.20" }
 
-Wenn eine Frage falsch beantwortet wird, es für die Frage nur einen Versuch gibt und sie auch nicht übersprungen werden darf, dann springt das Video wieder zum Anfang, und die Teilnehmenden kommen nicht weiter. 
+OpenOlat wertet eine Quizfrage im Video direkt bei der Antwort aus, aber nur danach, ob sie richtig oder falsch beantwortet ist. Die zu einer Frage hinterlegten Punkte spielen im Video keine Rolle, deshalb zeigt die Tabelle der Quizfragen nur die Spalten "Frage" und "Typ". Es gibt auch keine Gesamtauswertung am Ende des Videos. Verwenden Sie dieselbe Frage etwa in einem Test, zählen dort die Punkte.
+
+Wird eine Quizfrage richtig beantwortet, erscheint die Schaltfläche "Weiter" und das Video läuft weiter. Wird sie falsch beantwortet oder läuft die Zeitbeschränkung ab, bevor eine Antwort gespeichert ist, erscheinen je nach Konfiguration bis zu drei Schaltflächen:
+
+* **"Nochmal ansehen"**: Das Video springt zur vorangehenden Quizfrage zurück und läuft von dort weiter. Gibt es keine vorangehende Quizfrage, springt es an den Anfang des Videos. Die Schaltfläche fehlt, wenn die Quizfrage bei 00:00 liegt.
+* **"Nochmal versuchen"**: nur mit der Option "Wiederholen ohne erneutes Ansehen". Die Zeitbeschränkung beginnt von vorn.
+* **"Überspringen"**: nur mit der Option "Überspringen-Option bei falscher Antwort anzeigen". Das Video läuft weiter.
+
+![Falsch beantwortete Quizfrage im abgespielten Video, die Schaltflächen Nochmal ansehen, Nochmal versuchen und Überspringen markiert](assets/learning_resource_video_quiz_incorrect_answer_v1_de.png){ class="shadow lightbox" title="Quizfrage im Video nach einer falschen Antwort · 2026.10.20" }
+
+Liegt eine Quizfrage bei 00:00 und sind beide Optionen ausgeschaltet, erscheint nach einer falschen Antwort keine Schaltfläche. Setzen Sie die Quizfrage deshalb nach 00:00 oder schalten Sie mindestens eine der beiden Optionen ein.
 
 
 !!! note "Hinweis"
 
-    Die Quizfragen dienen in erster Linie zur Aktivierung und kurzen Reflexion. Sie eignen sich nicht für komplexe Prüfverfahren. 
+    Die Quizfragen dienen in erster Linie zur Aktivierung und kurzen Reflexion. Sie eignen sich nicht für komplexe Prüfverfahren. Für eine bewertete Prüfung setzen Sie den [Kursbaustein "Test"](Course_Element_Test.de.md) ein.
 
 
 [Zum Seitenanfang ^](#learning_resource_video)
@@ -335,11 +344,12 @@ Wenn eine Frage falsch beantwortet wird, es für die Frage nur einen Versuch gib
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
 [Video Collection >](../area_modules/Video_Collection.de.md)<br>
+[Katalog 1.0 >](../area_modules/catalog1.0.de.md)<br>
 [WebVTT: The Web Video Text Tracks Format >](https://w3c.github.io/webvtt/)<br>
 [WebVTT (Wikipedia) >](https://en.wikipedia.org/wiki/WebVTT)<br>
 [Untertitel (Wikipedia) >](https://de.wikipedia.org/wiki/Untertitel)<br>
-[Katalog 1.0 >](../area_modules/catalog1.0.de.md)<br>
-[Test Fragetypen >](../learningresources/Test_question_types.de.md)
+[Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test.de.md)
 
 **Weiterführend**<br>
 [Kursbaustein "Videoaufgabe" >](Course_Element_Video_Task.de.md)<br>
