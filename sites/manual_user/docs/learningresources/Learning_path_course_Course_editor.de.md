@@ -8,7 +8,7 @@ Lernpfadkurse lassen sich so konfigurieren, dass die Lernenden die Kursbausteine
 
 Beispiele und eine weitere Einführung finden Sie im [Whitepaper Lernpfadkurse (PDF)](assets/Whitepaper_Lernpfadkurse_final.pdf).
 
-![Tab Lernpfad des obersten Kursbausteins mit den Optionen Sequenziell und Ohne Reihenfolge für die Abfolge der Lernschritte sowie der Durchführung Teil des Lernpfades oder Ausgenommen](assets/Tab_Lernpfad_Struktur.png){ class="shadow lightbox" }
+![Tab Lernpfad des obersten Kursbausteins mit den Optionen Sequenziell und Ohne Reihenfolge für die Abfolge der Lernschritte sowie der Durchführung Teil des Lernpfades oder Ausgenommen](assets/Tab_Lernpfad_Struktur.png){ class="shadow lightbox" title="Tab Lernpfad des obersten Kursbausteins im Kurseditor" }
 
 Sollen bestimmte Bereiche des Kurses eine andere Einstellung erhalten, fügen Sie einen [Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md) hinzu und konfigurieren dort die Abfolge der Lernschritte. Die Einstellung gilt für alle untergeordneten Kursbausteine. So kann ein Kurs standardmässig sequenziell sein, während die Lernenden einen bestimmten Bereich in beliebiger Reihenfolge aufrufen.
 
@@ -16,11 +16,11 @@ Sollen bestimmte Bereiche des Kurses eine andere Einstellung erhalten, fügen Si
 
 Lernpfadkurse haben im Kurseditor anstelle der Tabs "Sichtbarkeit" und "Zugang" den Tab "Lernpfad". Hier konfigurieren Sie:
 
-![Tab Lernpfad eines Kursbausteins mit Durchführung, Relatives Datum, Freigabedatum, Zu bearbeiten bis, Bearbeitungszeit in Minuten und Erledigungskriterium](assets/learning_path_tab_v1_de.png){ class="shadow lightbox" }
+![Tab Lernpfad eines Kursbausteins mit Durchführung, Relatives Datum, Freigabedatum, Zu bearbeiten bis, Bearbeitungszeit in Minuten und Erledigungskriterium](assets/learning_path_tab_v1_de.png){ class="shadow lightbox" title="Tab Lernpfad eines Kursbausteins im Kurseditor" }
 
 * **Durchführung**
     * **Obligatorisch**: Die Erledigung des Kursbausteins ist verbindlich und zählt bei der prozentualen Berechnung des Lernfortschritts.
-    * **Freiwillig**: Die Erledigung zählt bei der prozentualen Anzeige nicht.
+    * **Freiwillig**: Die Erledigung zählt bei der prozentualen Anzeige nicht. Die Teilnehmenden erreichen die folgenden Kursbausteine auch dann, wenn sie einen freiwilligen Kursbaustein nicht erledigt haben. Bei einer [sequenziellen Abfolge](#sequential_or_not) öffnen sie einen freiwilligen Kursbaustein aber erst, wenn die obligatorischen Kursbausteine davor erledigt sind. Soll ein Ordner mit Material vom ersten Kursbesuch an offen sein, setzen Sie ihn im Kurseditor vor den ersten obligatorischen Kursbaustein: `Kurs > Administration > Kurseditor`.
     * **Ausgenommen**: Der Kursbaustein ist nicht Teil des Lernpfades und nur über Ausnahmen steuerbar. Er ist für die Teilnehmenden nicht sichtbar.
 * **Freigabedatum**: Vor dem Freigabedatum ist der Kursbaustein sichtbar, aber nicht zugänglich. Ab dem angegebenen Zeitpunkt können die Teilnehmenden ihn öffnen und bearbeiten. Ohne Angabe ist der Kursbaustein dauerhaft verfügbar, sofern die Person Zugang zum Kurs hat. Ein zeitlich begrenzter Zugang mit der Option "Relatives Datum" ist nur auf Ebene der einzelnen Kursbausteine möglich, nicht auf Strukturbausteinen und nicht auf dem obersten Kursbaustein.
 * **Zu bearbeiten bis**: Die Teilnehmenden können den Kursbaustein bis zum angegebenen Zeitpunkt öffnen und bearbeiten. Läuft die Frist ab, während der Kursbaustein geöffnet ist, bleibt er weiter bearbeitbar; der Zugriff endet nicht automatisch.
@@ -35,7 +35,7 @@ Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Aus
 
 Mit "Ausnahmen einschalten" legen Sie differenziert fest, wer den jeweiligen Kursbaustein sehen und bearbeiten darf und wer nicht. Zunächst nehmen Sie eine Grundeinstellung vor, anschliessend definieren Sie Ausnahmen von dieser Grundeinstellung. Mehrere Ausnahmen sind möglich (Oder-Verknüpfung). So kann ein Kursbaustein grundsätzlich obligatorisch sein, aber für bestimmte Personen oder Gruppen freiwillig oder gar nicht sichtbar (ausgenommen). Mit Ausnahmen setzen Sie individuelle Lernpfade für verschiedene Lernende um.
 
-![Button Ausnahme hinzufügen, aufgeklappt mit den Typen Gruppen, Organisationen, Benutzer:in, Konto-Attribut, Kursbaustein bestanden und Kursdurchführung Nummer, Tab Lernpfad im Kurseditor](assets/learning_path_exceptions_v2_de.png){ class="shadow lightbox" }
+![Button Ausnahme hinzufügen, aufgeklappt mit den Typen Gruppen, Organisationen, Benutzer:in, Konto-Attribut, Kursbaustein bestanden und Kursdurchführung Nummer, Tab Lernpfad im Kurseditor](assets/learning_path_exceptions_v2_de.png){ class="shadow lightbox" title="Ausnahmen im Tab Lernpfad, Menü Ausnahme hinzufügen" }
 
 Die Ausnahmen können sich auf folgende Aspekte beziehen:
 
@@ -51,15 +51,15 @@ Die Ausnahmen können sich auf folgende Aspekte beziehen:
 
 a) Der Kursbaustein ist grundsätzlich nicht sichtbar, ausser man ist Mitglied der Gruppe "B-ernhardiner". Dann ist die Bearbeitung obligatorisch.
 
-![Ausnahmetabelle mit Standard Ausgenommen und der Gruppe B-ernhardiner als Obligatorisch, darunter die Erledigungskriterien eines Kursbausteins Bewertung](assets/image2021-12-13_13-41-2.png){ class="shadow lightbox" }
+![Ausnahmetabelle mit Standard Ausgenommen und der Gruppe B-ernhardiner als Obligatorisch, darunter die Erledigungskriterien eines Kursbausteins Bewertung](assets/image2021-12-13_13-41-2.png){ class="shadow lightbox" title="Ausnahmen im Tab Lernpfad, Beispiel a" }
 
 b) Der Kursbaustein "Struktur" und alle untergeordneten Kursbausteine sind grundsätzlich sichtbar, ausser für die Mitglieder der Gruppe "Glossar" und die Einzelperson "John Green".
 
-![Ausnahmetabelle eines Strukturbausteins mit Standard Teil des Lernpfades, der Eintrag John Green vom Typ Benutzer:in und die Gruppe Glossar sind als Ausgenommen markiert](assets/Ausnahme_b.png){ class="shadow lightbox" }
+![Ausnahmetabelle eines Strukturbausteins mit Standard Teil des Lernpfades, der Eintrag John Green vom Typ Benutzer:in und die Gruppe Glossar sind als Ausgenommen markiert](assets/Ausnahme_b.png){ class="shadow lightbox" title="Ausnahmen im Tab Lernpfad, Beispiel b" }
 
 c) Der Kursbaustein ist grundsätzlich obligatorisch. Für Personen, die eine bestimmte Checkliste bestanden haben, ist die Bearbeitung freiwillig. Für Personen, die einen bestimmten Test bestanden haben, ist der Kursbaustein nicht sichtbar (ausgenommen).
 
-![Ausnahmetabelle mit Standard Obligatorisch, die bestandene Checkliste führt zu Freiwillig, der bestandene Test zu Ausgenommen](assets/Ausnahme_c.png){ class="shadow lightbox" }
+![Ausnahmetabelle mit Standard Obligatorisch, die bestandene Checkliste führt zu Freiwillig, der bestandene Test zu Ausgenommen](assets/Ausnahme_c.png){ class="shadow lightbox" title="Ausnahmen im Tab Lernpfad, Beispiel c" }
 
 ### Bearbeitungszeit {: #learning_time}
 

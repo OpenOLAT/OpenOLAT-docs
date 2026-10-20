@@ -8,7 +8,7 @@ Learning path courses can be configured so that learners go through the course e
 
 Examples and a further introduction can be found in our [Whitepaper on learning path courses (PDF, German)](assets/Whitepaper_Lernpfadkurse_final.pdf).
 
-![Tab Learning path of the top course element with the options Sequential and No sequence for the sequence of steps and the execution Part of learning path or Excluded](assets/Tab_Lernpfad_Struktur.png){ class="shadow lightbox" }
+![Tab Learning path of the top course element with the options Sequential and No sequence for the sequence of steps and the execution Part of learning path or Excluded](assets/Tab_Lernpfad_Struktur.png){ class="shadow lightbox" title="Tab Learning path of the top course element in the course editor" }
 
 If certain areas of the course are to have a different setting, add a [course element "Structure"](../learningresources/Course_Element_Structure.md) and configure the sequence of steps there. The setting applies to all subordinate course elements. For example, a course can be sequential by default while learners access a certain area in any order.
 
@@ -16,11 +16,11 @@ If certain areas of the course are to have a different setting, add a [course el
 
 In the course editor, learning path courses have the tab "Learning path" instead of the tabs "Visibility" and "Access". Here you configure:
 
-![Tab Learning path of a course element with Execution, Relative dates, Release date, Due date, Learning time in minutes and Completion criterion](assets/learning_path_tab_v1_en.png){ class="shadow lightbox" }
+![Tab Learning path of a course element with Execution, Relative dates, Release date, Due date, Learning time in minutes and Completion criterion](assets/learning_path_tab_v1_en.png){ class="shadow lightbox" title="Tab Learning path of a course element in the course editor" }
 
 * **Execution**
     * **Mandatory**: The completion of the course element is binding and counts in the percentage calculation of the learning progress.
-    * **Optional**: The completion does not count in the percentage display.
+    * **Optional**: The completion does not count in the percentage display. Participants reach the following course elements even if they have not completed an optional course element. With the [sequence of steps](#sequential_or_not) "Sequential", however, they open an optional course element only after the mandatory course elements before it are done. If a folder with material is to be open from the first course launch, place it in the course editor before the first mandatory course element: `Course > Administration > Course editor`.
     * **Excluded**: The course element is not part of the learning path and can only be controlled via exceptions. It is not visible to the participants.
 * **Release date**: Before the release date the course element is visible but not accessible. From the specified date participants can open and work on it. Without an entry the course element is permanently available, provided the person has access to the course. Time-limited access with the option "Relative dates" is only possible at the level of individual course elements, not on structure elements and not on the top course element.
 * **Due date**: Participants can open and work on the course element up to the specified date. If the deadline expires while the course element is open, it remains editable; access does not end automatically.
@@ -35,7 +35,7 @@ These settings are available for almost all course elements. An exception is the
 
 With "Enable exceptions" you define in a differentiated way who may see and work on the respective course element and who may not. First you make a basic setting, then you define exceptions to this basic setting. Several exceptions are possible (or-link). For example, a course element can be mandatory in general but optional or not visible at all (excluded) for certain persons or groups. With exceptions you implement individual learning paths for different learners.
 
-![Button Add exception, expanded with the types Groups, Organisations, Users, User property, Course element passed and Course execution number, tab Learning path in the course editor](assets/learning_path_exceptions_v2_en.png){ class="shadow lightbox" }
+![Button Add exception, expanded with the types Groups, Organisations, Users, User property, Course element passed and Course execution number, tab Learning path in the course editor](assets/learning_path_exceptions_v2_en.png){ class="shadow lightbox" title="Exceptions in the tab Learning path, menu Add exception" }
 
 The exceptions can refer to the following aspects:
 
@@ -51,15 +51,15 @@ The exceptions can refer to the following aspects:
 
 a) The course element is generally not visible unless you are a member of the group "B-ernhardiner". Then the processing is mandatory.
 
-![Exception table with default Excluded and the group B-ernhardiner as Mandatory, below the completion criteria of a course element Assessment](assets/image2021-12-13_13-41-2.png){ class="shadow lightbox" }
+![Exception table with default Excluded and the group B-ernhardiner as Mandatory, below the completion criteria of a course element Assessment](assets/image2021-12-13_13-41-2.png){ class="shadow lightbox" title="Exceptions in the tab Learning path, example a" }
 
 b) The course element "Structure" and all subordinate course elements are generally visible, except for the members of the group "Glossar" and the individual "John Green".
 
-![Exception table of a structure element with default Part of learning path, the entry John Green of type User and the group Glossar are marked as Excluded](assets/Ausnahme_b.png){ class="shadow lightbox" }
+![Exception table of a structure element with default Part of learning path, the entry John Green of type User and the group Glossar are marked as Excluded](assets/Ausnahme_b.png){ class="shadow lightbox" title="Exceptions in the tab Learning path, example b" }
 
 c) The course element is mandatory in general. For persons who have passed a certain check list, the processing is optional. For persons who have passed a certain test, the course element is not visible (excluded).
 
-![Exception table with default Mandatory, the passed check list leads to Optional, the passed test to Excluded](assets/Ausnahme_c.png){ class="shadow lightbox" }
+![Exception table with default Mandatory, the passed check list leads to Optional, the passed test to Excluded](assets/Ausnahme_c.png){ class="shadow lightbox" title="Exceptions in the tab Learning path, example c" }
 
 ### Learning time {: #learning_time}
 
