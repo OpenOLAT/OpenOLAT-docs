@@ -143,13 +143,13 @@ Please note that user accounts are automatically created for the OpenOlat connec
 With JupyterHub, learners start a Jupyter environment from within the course. The course element sets which image the hub starts. OpenOlat connects the hub via LTI 1.3. The module "LTI 1.3" must therefore be enabled, see [LTI 1.3](#lti):<br>
 `Administration > External tools > LTI > Configuration`
 
-You set up a hub in the system administration: `Administration > External tools > JupyterHub > Add hub configuration`. The button appears once "JupyterHub course element" is switched on. In the "JupyterHub URL" field you enter the address of the hub. From this address OpenOlat builds the redirect URL and the other LTI addresses itself. In OpenOlat you do not enter them by hand:
+You set up a hub in the system administration: `Administration > External tools > JupyterHub > Add hub configuration`. The button appears once "JupyterHub course element" is switched on. In the "JupyterHub URL" field you enter the address of the hub. From this address OpenOlat builds the redirection URI and the other LTI addresses itself. In OpenOlat you do not enter them by hand:
 
 | Item | Address |
 |---|---|
-| Redirect URL | `<JupyterHub URL>/hub/lti13/oauth_callback` |
+| Redirection URI(s) (Redirect URL) | `<JupyterHub URL>/hub/lti13/oauth_callback` |
 | Initiate login URL | `<JupyterHub URL>/hub/lti13/oauth_login` |
-| JWKS URL | `<JupyterHub URL>/hub/lti13/jwks` |
+| Public Key URL (JWKS URL) | `<JupyterHub URL>/hub/lti13/jwks` |
 
 When you change a hub configuration, OpenOlat sets these addresses again on saving. OpenOlat also generates the "Client ID" itself and shows it in the form.
 
@@ -338,6 +338,32 @@ the [installation manual](../installation/athenaPdf.md).
 
 
 ## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[BigBlueButton module >](BigBlueButton_module.md)<br>
+[Course Element "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)<br>
+[Microsoft Teams module >](Teams_module.md)<br>
+[SharePoint / OneDrive >](SharePoint_OneDrive.md)<br>
+[Zoom >](Zoom.md)<br>
+[LTI 1.3 Integrations >](LTI_Integrations.md)<br>
+[Website GoToTraining >](https://www.goto.de/training)<br>
+[Website vitero >](https://www.vitero.com/)<br>
+[Course Element "JupyterHub" >](../../manual_user/learningresources/Course_Element_JupyterHub.md)<br>
+[Website card2brain >](https://card2brain.ch/de)<br>
+[Website Edubase >](https://www.edubase.ch)<br>
+[Course Element "Mediasite" >](../../manual_user/learningresources/Course_Element_Mediasite.md)<br>
+[Documentation for Mediasite >](https://mediasite.com/)<br>
+[Website edu-sharing >](https://edu-sharing.com/)<br>
+[Website draw.io >](https://www.drawio.com)<br>
+[External tools: AI module >](External_Tools_AI.md)<br>
+[Module Taxonomy >](Modules_Taxonomy.md)<br>
+[General Functions: Info Page >](../../manual_user/learningresources/General_Functions_Infopage.md)<br>
+[Website Gotenberg >](https://gotenberg.dev/docs/getting-started/introduction)<br>
+[GitHub: Gotenberg >](https://github.com/gotenberg/gotenberg)<br>
+[Install Gotenberg PDF >](../installation/gotenbergPdf.md)<br>
+[Website AthenaPDF >](https://www.athenapdf.com)<br>
+[GitHub: AthenaPDF >](https://github.com/arachnys/athenapdf/tree/master/weaver)<br>
+[Install AthenaPDF >](../installation/athenaPdf.md)
 
 **Further reading**<br>
 [Modules: Overview >](Modules.md)<br>
