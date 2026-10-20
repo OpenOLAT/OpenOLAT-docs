@@ -1,6 +1,6 @@
 # :o_icon_o_icon_settings: Personal Configuration: Settings {: #personal_configuration_settings}
 
-![Entry System settings in the section Configuration of the personal menu, between the entries Profile and Password](assets/pers_menu_settings_v1_en.png){ class="aside-right lightbox" title="Personal menu · 2026.10.20" }
+![Entry System settings in the section Configuration of the personal menu, between the entries Profile and Password](assets/pers_menu_settings_v1_en.png){ class="aside-right lightbox"}
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [User settings](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank"}
 
@@ -190,6 +190,39 @@ If you want to reset only a single saved adjustment instead of all of them, you 
 ---
 
 
+## Tab AI settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"} {: #tab_ai_settings}
+
+Some AI features of OpenOlat work automatically, without you calling them. In the tab "AI settings" you decide for each of these features whether OpenOlat may use it for your answers and images. You find the tab under:<br>
+`Personal menu > System settings > Tab "AI settings"`
+
+The tab only appears if the administration has switched on at least one of the two features, and it only shows the rows of the switched-on features. Guests do not see the tab, for them the default of the administration always applies.
+
+![AI settings tab with the highlighted rows AI feedback on free-text answers and AI image descriptions, each with the values Default (on), On and Off, so you see which choice applies to you](assets/pers_menu_settings_tab_ai_settings_v1_en.png){ class="shadow lightbox" title="AI settings tab of the personal settings · 2026.10.20" }
+
+The tab shows one row per feature:
+
+* **"AI feedback on free-text answers"**: Your answer to a free-text question (essay question) in a quiz is sent to the AI, and you receive formative feedback. It does not award points. More about this: [AI feedback on free-text answers](../basic_concepts/Content_Editor.md#ai_feedback)
+* **"AI image descriptions"**: For an image that you upload, OpenOlat generates title, description, alternative text and tags with the AI. More about this: [Generate metadata with AI](../basic_concepts/Media_Center_Items.md#metadata_ai)
+
+In each row you select one of three values and then click "Save":
+
+* **"Default (on)" or "Default (off)"**: The setting of the administration for everyone applies. The addition in brackets shows whether the feature runs for you.
+* **"On"**: The feature runs for you, even if the default is "off".
+* **"Off"**: The feature does not run for you, even if the default is "on".
+
+If the AI feedback is set to "Off", you answer free-text questions as usual, only no AI feedback appears. If the AI image descriptions are set to "Off", OpenOlat does not generate metadata in the background when you upload an image. You can still trigger the button "Generate metadata with AI" in the form yourself at any time.
+
+As long as "Default" is selected for the AI feedback, OpenOlat asks you at the start of a quiz with AI feedback whether the AI may correct your answers. More about this: [Consent to the AI correction](../basic_concepts/Content_Editor.md#ai_consent)
+
+If you selected "Always allow" in this dialog, the row here is set to "On". If you want to be asked again, select "Default" and click "Save". After that the default of the administration applies again. "Reset configurations" in the tab "System" leaves your AI settings unchanged.
+
+System administrators set the default for everyone in the AI module: [External tools: AI module](../../manual_admin/administration/External_Tools_AI.md#ai_functions)
+
+[To the top of the page ^](#personal_configuration_settings)
+
+---
+
+
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
@@ -202,7 +235,10 @@ If you want to reset only a single saved adjustment instead of all of them, you 
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
-[Data protection >](../../manual_admin/usermanagement/Data_protection.md)
+[Data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
+[External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)
 
 **Further reading**<br>
 [Personal Configuration: Profile >](Profile.md)<br>

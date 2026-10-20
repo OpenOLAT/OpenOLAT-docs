@@ -134,7 +134,7 @@ Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-Instanz](../basic_
 
 Unter "Zugangsdaten" sehen Sie Ihren WebDAV-Anmeldenamen. Haben Sie ein OpenOlat-Passwort, verwenden Sie es auch für WebDAV. Haben Sie kein OpenOlat-Passwort, legen Sie mit "Passwort einrichten" ein eigenes WebDAV-Passwort fest.
 
-![WebDAV-Adresse der Instanz und darunter die Zugangsdaten mit WebDAV-Anmeldename, nicht eingerichtetem WebDAV-Passwort und Button Passwort einrichten, Tab WebDAV der persönlichen Einstellungen](assets/pers_menu_settings_tab_webdav_v1_de.png){ class="shadow lightbox" title="Tab WebDAV der persönlichen Einstellungen" }
+![WebDAV-Adresse der Instanz und darunter die Zugangsdaten mit WebDAV-Anmeldename, nicht eingerichtetem WebDAV-Passwort und Button Passwort einrichten](assets/pers_menu_settings_tab_webdav_v1_de.png){ class="shadow lightbox" title="Tab WebDAV der persönlichen Einstellungen" }
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -145,7 +145,7 @@ Unter "Zugangsdaten" sehen Sie Ihren WebDAV-Anmeldenamen. Haben Sie ein OpenOlat
 
 Im Tab "Instant-Messaging" legen Sie die Einstellungen für die [Chat-Funktion](../../manual_admin/administration/Instant_Messaging.de.md) und Ihren Kommunikations-Status nach dem Login fest. Mit der Option "Kurznachrichten von allen Benutzer:innen empfangen" legen Sie fest, ob alle Benutzer:innen Ihnen Kurznachrichten senden dürfen. Unter "Nach dem Einloggen ist mein Status" wählen Sie zwischen "Verfügbar", "Bitte nicht stören" und "Nicht verfügbar".
 
-![Option Kurznachrichten von allen Benutzer:innen empfangen und die drei Status Verfügbar, Bitte nicht stören und Nicht verfügbar, Tab Instant-Messaging der persönlichen Einstellungen](assets/pers_menu_settings_tab_instant-messaging_v1_de.png){ class="shadow lightbox" title="Tab Instant-Messaging der persönlichen Einstellungen" }
+![Option Kurznachrichten von allen Benutzer:innen empfangen und die drei Status Verfügbar, Bitte nicht stören und Nicht verfügbar](assets/pers_menu_settings_tab_instant-messaging_v1_de.png){ class="shadow lightbox" title="Tab Instant-Messaging der persönlichen Einstellungen" }
 
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
@@ -159,7 +159,7 @@ Hier lesen Sie die Nutzungsbedingungen nach, denen Sie beim ersten Login zugesti
 
 Stimmen Sie den Nutzungsbedingungen nicht mehr zu, beantragen Sie hier mit "Konto löschen beantragen" die Löschung Ihres OpenOlat-Kontos. Der Antrag geht als E-Mail an eine von der System-Administration hinterlegte Adresse; die Löschung selbst führt die Benutzerverwaltung aus. Mehr dazu: [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#request_account_deletion)
 
-![Text der Nutzungsbedingungen mit Datum der Zustimmung, Button Konto löschen beantragen und drei bestätigte Kontrollkästchen, Tab Nutzungsbedingungen der persönlichen Einstellungen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der persönlichen Einstellungen" }
+![Text der Nutzungsbedingungen mit Datum der Zustimmung, Button Konto löschen beantragen und drei bestätigte Kontrollkästchen](assets/Nutzungsbedingungen_20.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der persönlichen Einstellungen" }
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -183,7 +183,40 @@ Wie der Export ausgelöst wird und wer das darf, beschreibt die Seite [Datenschu
 
 Möchten Sie nur eine einzelne gespeicherte Anpassung zurücksetzen statt aller, finden Sie sie hier. OpenOlat speichert die Einstellungen des GUI (Graphical User Interface) in Variablen. Mit "Zurücksetzen" in der Zeile einer Variable setzen Sie diese eine Variable zurück, mit "Mehrere Einträge zurücksetzen" die ausgewählten. Der Tab richtet sich an Expert:innen.
 
-![Tabelle der gespeicherten GUI-Variablen mit den Spalten Zugeordnete Klasse und Key und je einem Button Zurücksetzen, Tab GUI-Einstellungen der persönlichen Einstellungen](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" title="Tab GUI-Einstellungen der persönlichen Einstellungen" }
+![Tabelle der gespeicherten GUI-Variablen mit den Spalten Zugeordnete Klasse und Key und je einem Button Zurücksetzen](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" title="Tab GUI-Einstellungen der persönlichen Einstellungen" }
+
+[Zum Seitenanfang ^](#personal_configuration_settings)
+
+---
+
+
+## Tab KI-Einstellungen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"} {: #tab_ai_settings}
+
+Einige KI-Funktionen von OpenOlat arbeiten automatisch, ohne dass Sie sie aufrufen. Im Tab "KI-Einstellungen" entscheiden Sie für jede dieser Funktionen, ob OpenOlat sie für Ihre Antworten und Bilder nutzen darf. Sie finden den Tab unter:<br>
+`Persönliches Menü > Einstellungen > Tab "KI-Einstellungen"`
+
+Der Tab erscheint nur, wenn die Administration mindestens eine der beiden Funktionen eingeschaltet hat, und er zeigt nur die Zeilen der eingeschalteten Funktionen. Gäste sehen den Tab nicht, für sie gilt immer die Vorgabe der Administration.
+
+![Tab KI-Einstellungen mit den markierten Zeilen KI-Feedback zu Freitextantworten und KI-Bildbeschreibungen, je mit den Werten Vorgabe (ein), Ein und Aus, so sehen Sie, welche Wahl für Sie gilt](assets/pers_menu_settings_tab_ai_settings_v1_de.png){ class="shadow lightbox" title="Tab KI-Einstellungen der persönlichen Einstellungen · 2026.10.20" }
+
+Je Funktion steht eine Zeile im Tab:
+
+* **"KI-Feedback zu Freitextantworten"**: Ihre Antwort auf eine Freitextfrage (Essay-Frage) in einem Quiz geht an die KI, und Sie erhalten ein formatives Feedback. Es vergibt keine Punkte. Mehr dazu: [KI-Feedback zu Freitextantworten](../basic_concepts/Content_Editor.de.md#ai_feedback)
+* **"KI-Bildbeschreibungen"**: Für ein Bild, das Sie hochladen, erzeugt OpenOlat mit der KI Titel, Beschreibung, Alternativtext und Tags. Mehr dazu: [Metadaten mit KI generieren](../basic_concepts/Media_Center_Items.de.md#metadata_ai)
+
+In jeder Zeile wählen Sie einen von drei Werten und klicken danach auf "Speichern":
+
+* **"Vorgabe (ein)" oder "Vorgabe (aus)"**: Es gilt, was die Administration für alle eingestellt hat. Der Klammerzusatz zeigt, ob die Funktion damit für Sie läuft.
+* **"Ein"**: Die Funktion läuft für Sie, auch wenn die Vorgabe "aus" lautet.
+* **"Aus"**: Die Funktion läuft für Sie nicht, auch wenn die Vorgabe "ein" lautet.
+
+Steht das KI-Feedback auf "Aus", beantworten Sie Freitextfragen wie gewohnt, es erscheint nur kein KI-Feedback. Stehen die KI-Bildbeschreibungen auf "Aus", erzeugt OpenOlat beim Hochladen eines Bildes keine Metadaten im Hintergrund. Den Button "Metadaten mit KI generieren" im Formular können Sie trotzdem jederzeit selbst auslösen.
+
+Solange beim KI-Feedback "Vorgabe" gewählt ist, fragt OpenOlat Sie zu Beginn eines Quiz mit KI-Feedback, ob die KI Ihre Antworten korrigieren darf. Mehr dazu: [Einwilligung zur KI-Korrektur](../basic_concepts/Content_Editor.de.md#ai_consent)
+
+Haben Sie in diesem Dialog "Immer erlauben" gewählt, steht die Zeile hier auf "Ein". Möchten Sie wieder gefragt werden, wählen Sie "Vorgabe" und klicken auf "Speichern". Danach gilt wieder die Vorgabe der Administration. "Einstellungen Zurücksetzen" im Tab "System" lässt Ihre KI-Einstellungen unverändert.
+
+Welche Vorgabe für alle gilt, legen Systemadministrator:innen im KI-Modul fest: [Externe Werkzeuge: KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_functions)
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -202,7 +235,10 @@ Möchten Sie nur eine einzelne gespeicherte Anpassung zurücksetzen statt aller,
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Modul Instant Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)<br>
-[Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)
+[Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Media Center: Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)
 
 **Weiterführend**<br>
 [Persönliche Konfiguration: Profil >](Profile.de.md)<br>

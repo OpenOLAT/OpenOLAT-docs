@@ -3,7 +3,7 @@
 !!! warning "Concept study: possible new presentation"
     This page is an experiment on how the entry point to the AI features could look in the future. The content is deliberately condensed. The linked manual pages are authoritative.
 
-AI supports you in creating content at several places in OpenOlat, and these places are far apart: in the question pool, in the Media Center, in the Content Editor and in the taxonomy. Anyone who wants to know where it pays off has to gather four manual pages today. The map shows the outcome instead: what the AI takes off your hands, where you find it, and which feature is behind it. Each card leads to the responsible manual page. The base below names what the administration has to set up once so that the cards are available at all.
+AI supports you in creating content at several places in OpenOlat, and these places are far apart: in the question pool, in the Media Center, in the Content Editor and in the taxonomy. Anyone who wants to know where it pays off has to gather four manual pages today. The map shows the outcome instead: what the AI takes off your hands, where you find it, and which feature is behind it. Each card leads to the responsible manual page. The base below names what the administration has to set up once so that the cards are available at all. In addition, every person can switch the AI feedback on free-text answers and the image descriptions on upload on or off for themselves, in the [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings) of their personal settings.
 
 <div style="max-width:1450px">
 <svg viewBox="0 0 1040 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four outcomes for authors, below them the prerequisites in the system administration">
@@ -125,6 +125,7 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 
 ## Further information {: #further_information}
 
+[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Question pool: Create Questions >](Question_Bank_Create_Questions.md)<br>
 [Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>

@@ -39,7 +39,7 @@ Für eine bewertete Prüfung nutzen Sie weiterhin den [Kursbaustein Test](../../
 
 Die Freitextfrage im Quiz erscheint nur, wenn die Administration die passende KI Funktion freigeschaltet hat.
 
-1. Öffnen Sie als Administrator:in die System-Administration: `Administration > Externe Werkzeuge > KI Modul`.
+1. Öffnen Sie als Systemadministrator:in die System-Administration: `Administration > Externe Werkzeuge > KI-Modul`.
 2. Wählen Sie den Tab **"KI-Funktionen"**.
 3. Prüfen Sie die Funktion **"Essay Bewertung"**: Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI Anbieter und ein Sprachmodell sind gewählt.
 4. Für den Weg über den Import prüfen Sie zusätzlich die Funktion **"Essay Fragen Generator"**.

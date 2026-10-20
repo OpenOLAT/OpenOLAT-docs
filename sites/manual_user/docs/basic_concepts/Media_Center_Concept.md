@@ -69,13 +69,13 @@ Different **file formats** and **content elements** can be stored and managed in
 
 ## Add media to the Media Center [:octicons-tag-16:{ title="from Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
-![Highlighted drop-down menu next to Add media file with File, Video via URL, video and audio recording, draw.io diagram, Text and Citation, in My Media Center](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Add media file menu in My Media Center" }
+![Highlighted drop-down menu next to Add media file with File, Video via URL, video and audio recording, draw.io diagram, Text and Citation](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Add media file menu in My Media Center" }
 
 There are various ways to store media in the Media Center:
 
 ### Upload or link existing media directly in the Media Center {: #add_existing}
 
-* **Add media file:** Upload images, videos, pdf, Excel, etc. If the AI module is enabled, metadata such as title, description, alt text and tags can be pre-filled by AI via a button when uploading images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
+* **Add media file:** Upload images, videos, pdf, Excel, etc. If the AI module is enabled, metadata such as title, description, alt text and tags can be pre-filled by AI via a button when uploading images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. If the AI image descriptions are switched on for you, OpenOlat additionally adds missing metadata in the background, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
 * **Add video via URL:** Videos from external portals such as YouTube, Vimeo, Panopto or nanoo.tv can simply be added via a link.
 * **Add citation:** Quotations from books, articles, websites, films, etc. can be stored in text form and provided with metadata such as source, author, URL, etc. This means that citations can be inserted in several places in OpenOlat without having to enter the entire source again and again. However, make sure that you enter all details carefully and comprehensively.
 
@@ -92,7 +92,7 @@ There are various ways to store media in the Media Center:
 
 Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [Content Editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear. Click on the button and you will be taken to the Media Center with all the corresponding options.
 
-![Drop-down menu next to Add media file with Document, draw.io diagram, Text, Video via URL, video and audio recording and Citation, in the dialog Select medium of the course element Page](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Select medium in the course element Page" }
+![Drop-down menu next to Add media file with Document, draw.io diagram, Text, Video via URL, video and audio recording and Citation](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Select medium in the course element Page" }
 
 
 ### Collect content elements and assign them to the Media Center {: #assign_media}
@@ -139,7 +139,7 @@ Select the table view at the top right above the list if you are currently viewi
 
 If you select at least one list entry at the beginning of a line in the table view, the "Delete" button appears above the list, which can be used to delete several elements at once.
 
-![Ticked entry Muster.pdf and button Delete above the list, both highlighted, in the table view of My Media Center](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" title="Table view of My Media Center" }
+![Ticked entry Muster.pdf and button Delete above the list, both highlighted](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" title="Table view of My Media Center" }
 
 You can also delete individual files in the 3-dot menu if you have clicked on an individual medium and the information and descriptions are displayed. (Same menu as for downloading.)
 
@@ -157,7 +157,7 @@ Embedded counts both in the "Page" course element and in an ePortfolio page, inc
 
 **Sharing does not protect the media item.** Shared, but embedded nowhere means: deleted. Please note: the person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Media items that were embedded only there lose their embedding and are therefore deleted as well.
 
-Administrators and learning resource managers find the retained media items without an assignment in the media management, using the **Without creator** filter, provided that the media item is shared with a course of their organisation. A media item that is only embedded in a page does not appear there.
+Administrators and learning resource managers find the retained media items without an assignment in the media management, using the filter "Without creator", provided that the media item is shared with a course of their organisation. A media item that is only embedded in a page does not appear there.
 
 !!! tip "Before an account is deleted"
     Ask the person concerned to download any media items they need. If a media item is to remain in the system, it must be embedded in a page beforehand. The complete table of all data types is on the page [Delete user](../../manual_admin/usermanagement/Delete_User.md#del_properties).
@@ -171,7 +171,7 @@ Administrators and learning resource managers find the retained media items with
 
 The storage space in the Media Center is limited. You can see exactly how much storage space you have available and how much you have already used at the bottom left. This lets you know before uploading how much space remains for new media. The indicator only appears in the segment "My Media Center", it is missing in the media management, see [Manage Media Center](#media_center_administration).
 
-![Highlighted storage indicator 0 B of 30.0 MB used at the bottom left, in the segment My Media Center next to the segment Media management](assets/media_center_quota_v2_en.png){ class="shadow lightbox" title="Segment My Media Center, bottom left" }
+![Highlighted storage indicator 0 B of 30.0 MB used at the bottom left](assets/media_center_quota_v2_en.png){ class="shadow lightbox" title="Segment My Media Center, bottom left" }
 
 Authors usually require more storage space, so quota settings are configured separately for these power users. Besides authors, learning resource managers and administrators also count as power users.
 
@@ -222,7 +222,7 @@ The media management lists media items of other persons that are shared with a c
 
 After clicking on a media item, you see in the tab "Uses" where it is embedded, and in the tab "Shares" with whom it is shared. Depending on the media type, the tab "Overview" also shows the activities log with the previous actions on the media item. This lets you clarify where a media item is embedded before you ask its creator to replace or remove it. In the tab "Shares", you can remove a share with the "Remove" icon in its row and confirm with "Remove share".
 
-The filters **Used in**, **In use** and **Shared with** narrow down the list. The **Without creator** filter shows the media items in this list whose creator no longer has an account because it was deleted.
+The filters "Used in", "In use" and "Shared with" narrow down the list. The filter "Without creator" shows the media items in this list whose creator no longer has an account because it was deleted.
 
 If a media item is shared with you as editable (setting "Editable" in the share), you can also edit its metadata and, depending on the media type, its versions. You can then download it via the 3-dot menu. Without an editable share, the 3-dot menu is missing.
 
@@ -239,6 +239,7 @@ You cannot add media items in the media management, the "Add media file" button 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
 [Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>

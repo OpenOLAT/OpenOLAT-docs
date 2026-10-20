@@ -1,9 +1,9 @@
-# KI Funktionen: Anwendungsmap {: #ai_features_map}
+# KI-Funktionen: Anwendungsmap {: #ai_features_map}
 
 !!! warning "Konzeptstudie: mögliche neue Darstellung"
     Diese Seite ist ein Versuch, wie der Einstieg in die KI-Funktionen künftig aussehen könnte. Die Inhalte sind bewusst verkürzt. Verbindlich sind die verlinkten Handbuchseiten.
 
-KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat, und diese Stellen liegen weit auseinander: im Fragenpool, im Media Center, im Content Editor und bei der Taxonomie. Wer wissen will, wo sich der Einsatz lohnt, muss heute vier Handbuchseiten zusammensuchen. Die Map zeigt stattdessen das Ergebnis: was die KI Ihnen abnimmt, wo Sie es finden, und welche Funktion dahintersteckt. Jede Karte führt auf die zuständige Handbuchseite. Der Sockel darunter nennt, was die Administration einmal einrichten muss, damit die Karten überhaupt zur Verfügung stehen.
+KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat, und diese Stellen liegen weit auseinander: im Fragenpool, im Media Center, im Content Editor und bei der Taxonomie. Wer wissen will, wo sich der Einsatz lohnt, muss heute vier Handbuchseiten zusammensuchen. Die Map zeigt stattdessen das Ergebnis: was die KI Ihnen abnimmt, wo Sie es finden, und welche Funktion dahintersteckt. Jede Karte führt auf die zuständige Handbuchseite. Der Sockel darunter nennt, was die Administration einmal einrichten muss, damit die Karten überhaupt zur Verfügung stehen. Das KI-Feedback zu Freitextantworten und die Bildbeschreibungen beim Hochladen kann zudem jede Person für sich ein- oder ausschalten, im [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings) ihrer persönlichen Einstellungen.
 
 <div style="max-width:1450px">
 <svg viewBox="0 0 1040 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vier Ergebnisse für Autor:innen, darunter die Voraussetzungen in der System-Administration">
@@ -125,10 +125,11 @@ KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat,
 
 ## Weiterführende Informationen {: #further_information}
 
+[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Fragenpool: Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
-[Externe Werkzeuge: KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)
+[Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)
 
 [Zum Seitenanfang ^](#ai_features_map)

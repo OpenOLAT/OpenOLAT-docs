@@ -39,7 +39,7 @@ For a graded assessment, continue to use the [Test course element](../../manual_
 
 The essay question in the Quiz only appears once the administration has enabled the matching AI feature.
 
-1. As an administrator, open the system administration: `Administration > External tools > AI module`.
+1. As a system administrator, open the system administration: `Administration > External tools > AI module`.
 2. Select the **"AI features"** tab.
 3. Check the **"Essay Grading"** feature: the "Enable feature" switch is set to "ON", and an AI provider and a language model are selected.
 4. For the import route, also check the **"Essay Question Generator"** feature.

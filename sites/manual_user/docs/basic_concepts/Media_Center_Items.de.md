@@ -1,6 +1,9 @@
 # Media Center: Informationen und Einstellungen zu Einzelmedien {: #media_center_items}
 
-Zu jedem im Media Center abgelegten Einzelmedium können Informationen und Einstellungen eingegeben werden. Öffnen Sie dazu im persönlichen Menü das Media Center und klicken Sie das gewünschte Medienelement an. Es öffnet sich eine Ansicht mit den nachfolgend beschriebenen Tabs:
+Zu jedem im Media Center abgelegten Einzelmedium können Informationen und Einstellungen eingegeben werden. Öffnen Sie dazu das Media Center und klicken Sie das gewünschte Medienelement an:<br>
+`Persönliches Menü > Media Center > "Medienelement"`
+
+Es öffnet sich eine Ansicht mit den nachfolgend beschriebenen Tabs:
 
 * Übersicht
 * Metadaten
@@ -10,7 +13,7 @@ Zu jedem im Media Center abgelegten Einzelmedium können Informationen und Einst
 
 ## Tab Übersicht {: #media_center_overview}
 
-Der Tab **Übersicht** zeigt die Details Typ, Autor:in, Datum und Grösse. Es besteht ausserdem die Möglichkeit, den Aktivitätslog anzuzeigen und eine neue Version zu erstellen bzw. das Bild zu ersetzen.
+Der Tab "Übersicht" zeigt die Details Typ, Autor:in, Datum und Grösse. Es besteht ausserdem die Möglichkeit, den Aktivitätslog anzuzeigen und eine neue Version zu erstellen bzw. das Bild zu ersetzen.
 
 ![Tab Übersicht eines Bildes mit Typ, Autor:in, Datum und Grösse, den Buttons Neue Version erstellen und Bild ersetzen sowie dem eingeklappten Aktivitätslog](assets/media_center_items_tab_overview_v1_de.png){ class="shadow lightbox" title="Tab Übersicht eines Medienelements" }
 
@@ -24,9 +27,9 @@ Im Aktivitätslog kann nachverfolgt werden, wann das Medienelement von wem bearb
 
 ### "Neue Version erstellen" und "Bild ersetzen" [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6986)" }](https://track.frentix.com/issue/OO-6986){:target="_blank"} {: #media_center_versioning}
 
-Interessant ist die Möglichkeit, Medienelemente zu **versionieren**. So können z.B. verschiedene Arbeitsschritte oder Zwischenstufen gesichert werden. Ein Wechsel zu älteren Versionen ist dann jederzeit möglich.
+Möchten Sie Arbeitsschritte oder Zwischenstufen eines Medienelements sichern, erstellen Sie mit "Neue Version erstellen" eine neue Version. Zu einer älteren Version wechseln Sie jederzeit zurück.
 
-Mit **Bild ersetzen** wird dagegen in der aktuellen Version das Bild ausgetauscht. Alle sonstigen eingegebenen Metadaten und Einstellungen (z.B. Freigaben) bleiben dabei erhalten.
+Mit "Bild ersetzen" tauschen Sie dagegen das Bild in der aktuellen Version aus. Alle sonstigen eingegebenen Metadaten und Einstellungen (z.B. Freigaben) bleiben dabei erhalten.
 
 
 ![Markierte Buttons Neue Version erstellen und Bild ersetzen oben rechts im Tab Übersicht eines Bildes](assets/media_center_items_tab_overview_new_version_v1_de.png){ class="shadow lightbox" title="Tab Übersicht eines Bildes" }
@@ -64,13 +67,17 @@ Je nach Art des Medientyps variieren die Informationen und Möglichkeiten der Me
 
 ### Metadaten mit KI generieren [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"} {: #metadata_ai}
 
-Ist das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) mit der KI Funktion "Bildbeschreibungs-Generator" konfiguriert, steht beim Hochladen von Bildern und im Metadaten-Dialog der Button **"Metadaten mit KI generieren"** zur Verfügung. Ein Klick darauf befüllt Titel, Beschreibung, Alt-Text und Tags mit KI-generierten Vorschlägen. Erkennt die KI, wovon das Bild handelt, ordnet sie dem Medium auch einen Fachbereich (Taxonomie) zu. Ist die [automatische Zuordnung per KI](../../manual_admin/administration/Modules_Taxonomy.de.md#ai_matching) eingerichtet, findet sie den inhaltlich passenden Fachbereich auch ohne Wortgleichheit. Ohne diese Einrichtung trifft die Zuordnung nur bei einem wortgleichen Fachbereich. Wenn das Feld "Themen/Fachbereiche" nach "Metadaten mit KI generieren" leer bleibt, hat das Media Center keine Taxonomie zur Auswahl. Die KI wählt den Fachbereich nur aus den Taxonomien, die das Media Center verwendet. Das sind die Taxonomien, die in der Konfiguration des Media Centers unter "Verknüpfte Taxonomien" ausgewählt sind. Ist dort keine ausgewählt, verwendet das Media Center die Taxonomien der Lernressourcen. Ein Hinweis im Formular zeigt an, dass die Metadaten mit KI generiert wurden. Prüfen Sie die Vorschläge vor dem Speichern und passen Sie sie bei Bedarf an. Für SVG-Bilder steht die KI-Bildanalyse nicht zur Verfügung.
+Die KI schlägt Ihnen Metadaten für ein Bild vor, auf zwei Wegen: Sie lösen die Vorschläge selbst mit einem Button aus, oder OpenOlat ergänzt sie beim Hochladen eines neuen Bildes im Hintergrund. Beide Wege setzen voraus, dass im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Bildbeschreibungs-Generator" eingeschaltet ist.
+
+Beim Hochladen von Bildern und im Metadaten-Dialog steht der Button "Metadaten mit KI generieren" zur Verfügung, unabhängig von Ihren persönlichen KI-Einstellungen. Ein Klick darauf befüllt Titel, Beschreibung, Alt-Text und Tags mit KI-generierten Vorschlägen. Erkennt die KI, wovon das Bild handelt, ordnet sie dem Medium auch einen Fachbereich (Taxonomie) zu. Ist die [automatische Zuordnung per KI](../../manual_admin/administration/Modules_Taxonomy.de.md#ai_matching) eingerichtet, findet sie den inhaltlich passenden Fachbereich auch ohne Wortgleichheit. Ohne diese Einrichtung trifft die Zuordnung nur bei einem wortgleichen Fachbereich. Wenn das Feld "Themen/Fachbereiche" nach "Metadaten mit KI generieren" leer bleibt, hat das Media Center keine Taxonomie zur Auswahl. Die KI wählt den Fachbereich nur aus den Taxonomien, die das Media Center verwendet. Das sind die Taxonomien, die in der Konfiguration des Media Centers unter "Verknüpfte Taxonomien" ausgewählt sind. Ist dort keine ausgewählt, verwendet das Media Center die Taxonomien der Lernressourcen. Ein Hinweis im Formular zeigt an, dass die Metadaten mit KI generiert wurden. Prüfen Sie die Vorschläge vor dem Speichern und passen Sie sie bei Bedarf an. Für SVG-Bilder steht die KI-Bildanalyse nicht zur Verfügung.
 
 Bereits ausgefüllte Felder bleiben bei der Generierung erhalten; der Titel wird nur ersetzt, wenn er leer ist oder einem Dateinamen entspricht.
 
-![Fachbereich Astronomy von der KI gesetzt, dazu Hinweis und auslösender Button, Dialog Mediendatei hinzufügen](assets/media_center_items_ai_v2_de.png){ class="shadow lightbox" title="Dialog Mediendatei hinzufügen" }
+![Fachbereich Astronomy von der KI gesetzt, dazu Hinweis und auslösender Button](assets/media_center_items_ai_v2_de.png){ class="shadow lightbox" title="Dialog Mediendatei hinzufügen" }
 
-Auch beim [Markdown-Import in den Content Editor](Content_Editor.de.md#markdown) werden die Metadaten importierter Bilder im Hintergrund per KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
+Beim Hochladen eines neuen Bildes, im Media Center mit "Mediendatei hinzufügen" wie im Element [Bild](Content_Editor.de.md#image) des Content Editors, ergänzt OpenOlat fehlende Metadaten zusätzlich im Hintergrund mit KI. Nach dem Speichern meldet OpenOlat: "Die Bild-Metadaten werden im Hintergrund mit KI generiert und in wenigen Augenblicken automatisch ergänzt." Dieser Weg läuft nur, wenn die KI-Bildbeschreibungen für Sie eingeschaltet sind, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). Er entfällt, wenn Sie im selben Formular schon den Button "Metadaten mit KI generieren" benutzt haben [:octicons-tag-16:{ title="ab Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"}.
+
+Beim [Markdown-Import in den Content Editor](Content_Editor.de.md#import_images) entscheiden Sie mit dem Schalter "Bild-Metadaten mit KI generieren" im Import-Dialog, ob OpenOlat die Metadaten der importierten Bilder im Hintergrund mit KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
 
 [Zum Seitenanfang ^](#media_center_items)
 
@@ -104,12 +111,16 @@ Hier kann festgelegt werden, durch wen ein Medienelement verwendet werden darf. 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Externe Werkzeuge: KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Content Editor >](Content_Editor.de.md)<br>
-[Media Center: Konzept >](../basic_concepts/Media_Center_Concept.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)
+
+**Weiterführend**<br>
+[Media Center: Konzept >](Media_Center_Concept.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Modul Media Center >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
-[Arbeiten mit Mediendateien >](../basic_concepts/Working_with_Media_Files.de.md)<br>
-[Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)
+[Arbeiten mit Mediendateien >](Working_with_Media_Files.de.md)
 
 [Zum Seitenanfang ^](#media_center_items)

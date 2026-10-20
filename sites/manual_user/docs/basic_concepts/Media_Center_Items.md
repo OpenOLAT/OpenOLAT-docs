@@ -1,6 +1,9 @@
 # Information and settings for items in the Media Center {: #media_center_items}
 
-Information and settings can be entered for each individual media item stored in the Media Center. To do this, open the Media Center in your personal menu and click on the desired media item. A view opens with the tabs described below:
+Information and settings can be entered for each individual media item stored in the Media Center. To do this, open the Media Center and click on the desired media item:<br>
+`Personal menu > Media Center > "Media item"`
+
+A view opens with the tabs described below:
 
 * Overview
 * Metadata
@@ -10,7 +13,7 @@ Information and settings can be entered for each individual media item stored in
 
 ## Tab Overview {: #media_center_overview}
 
-The **Overview** tab shows the details Type, Creator, Date and Size. You can also view the activity log and create a new version or replace the image.
+The tab "Overview" shows the details Type, Creator, Date and Size. You can also view the activity log and create a new version or replace the image.
 
 ![Overview tab of an image with Type, Creator, Date and Size, the buttons Create new version and Replace image and the collapsed activity log](assets/media_center_items_tab_overview_v1_de.png){ class="shadow lightbox" title="Overview tab of a media item" }
 
@@ -24,9 +27,9 @@ The activity log can be used to track when the media element was edited and by w
 
 ### "Create new version" and "Replace image" [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6986)" }](https://track.frentix.com/issue/OO-6986){:target="_blank"} {: #media_center_versioning}
 
-An interesting feature is the option to **version** media elements. This allows you to save different work steps or intermediate stages, for example. You can then switch back to older versions at any time.
+If you want to save work steps or intermediate stages of a media element, create a new version with "Create new version". You can switch back to an older version at any time.
 
-In contrast, **Replace image** replaces the image in the current version. All other metadata and settings (e.g. shares) remain unchanged.
+In contrast, "Replace image" replaces the image in the current version. All other metadata and settings (e.g. shares) remain unchanged.
 
 
 ![Highlighted buttons Create new version and Replace image at the top right of the Overview tab of an image](assets/media_center_items_tab_overview_new_version_v1_de.png){ class="shadow lightbox" title="Overview tab of an image" }
@@ -64,13 +67,17 @@ The information and options available for metadata vary depending on the type of
 
 ### Generate metadata with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"} {: #metadata_ai}
 
-If the [AI module](../../manual_admin/administration/External_Tools_AI.md) is configured with the AI feature "Image Description Generator", the button **"Generate metadata with AI"** is available when uploading images and in the metadata dialog. Clicking it fills title, description, alt text and tags with AI-generated suggestions. If the AI detects what the image is about, it also assigns a subject (taxonomy) to the media item. If the [automatic assignment by AI](../../manual_admin/administration/Modules_Taxonomy.md#ai_matching) is set up, it finds the subject that matches in content even without an identical wording. Without this setup, the assignment only takes effect for a subject with an identical wording. If the field "Subjects" stays empty after "Generate metadata with AI", the Media Center has no taxonomy to choose from. The AI only selects the subject from the taxonomies that the Media Center uses. These are the taxonomies selected in the configuration of the Media Center under "Linked taxonomies". If none is selected there, the Media Center uses the taxonomies of the learning resources. A notice in the form indicates that the metadata has been generated with AI. Review the suggestions before saving and adjust them if necessary. AI image analysis is not available for SVG images.
+The AI suggests metadata for an image in two ways: you trigger the suggestions yourself with a button, or OpenOlat adds them in the background when you upload a new image. Both ways require that the AI feature "Image Description Generator" is switched on in the [AI module](../../manual_admin/administration/External_Tools_AI.md).
+
+When uploading images and in the metadata dialog, the button "Generate metadata with AI" is available, regardless of your personal AI settings. Clicking it fills title, description, alt text and tags with AI-generated suggestions. If the AI detects what the image is about, it also assigns a subject (taxonomy) to the media item. If the [automatic assignment by AI](../../manual_admin/administration/Modules_Taxonomy.md#ai_matching) is set up, it finds the subject that matches in content even without an identical wording. Without this setup, the assignment only takes effect for a subject with an identical wording. If the field "Subjects" stays empty after "Generate metadata with AI", the Media Center has no taxonomy to choose from. The AI only selects the subject from the taxonomies that the Media Center uses. These are the taxonomies selected in the configuration of the Media Center under "Linked taxonomies". If none is selected there, the Media Center uses the taxonomies of the learning resources. A notice in the form indicates that the metadata has been generated with AI. Review the suggestions before saving and adjust them if necessary. AI image analysis is not available for SVG images.
 
 Fields that are already filled in are retained during generation; the title is only replaced if it is empty or corresponds to a file name.
 
-![Subject Astronomy set by the AI, together with the notice about the AI generation, dialog Add media file](assets/media_center_items_ai_v2_en.png){ class="shadow lightbox" title="Dialog Add media file" }
+![Subject Astronomy set by the AI, together with the notice about the AI generation and the triggering button](assets/media_center_items_ai_v2_en.png){ class="shadow lightbox" title="Dialog Add media file" }
 
-Metadata of imported images is also generated by AI in the background during [Markdown import into the Content Editor](Content_Editor.md#markdown) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
+When you upload a new image, in the Media Center with "Add media file" as well as in the element [Image](Content_Editor.md#image) of the Content Editor, OpenOlat additionally adds missing metadata in the background with AI. After saving, OpenOlat reports: "The image metadata is generated with AI in the background and will be added automatically in a few moments." This way only runs if the AI image descriptions are switched on for you, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). It is skipped if you have already used the button "Generate metadata with AI" in the same form [:octicons-tag-16:{ title="from Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"}.
+
+During the [Markdown import into the Content Editor](Content_Editor.md#import_images) you decide with the switch "Generate image metadata with AI" in the import dialog whether OpenOlat generates the metadata of the imported images in the background with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
 
 [To the top of the page ^](#media_center_items)
 
@@ -104,12 +111,16 @@ Here you can specify who is allowed to use a media element. Participants can onl
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
+[Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [Content Editor >](Content_Editor.md)<br>
-[Media Center Concept >](../basic_concepts/Media_Center_Concept.md)<br>
+[Personal Configuration: Settings >](../personal_menu/Settings.md)
+
+**Further reading**<br>
+[Media Center Concept >](Media_Center_Concept.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)<br>
-[Working with media files >](../basic_concepts/Working_with_Media_Files.md)<br>
-[Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)
+[Working with media files >](Working_with_Media_Files.md)
 
 [To the top of the page ^](#media_center_items)

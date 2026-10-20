@@ -69,13 +69,13 @@ Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** ab
 
 ## Medien dem Media Center hinzufügen [:octicons-tag-16:{ title="ab Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
-![Markiertes Aufklappmenü neben Mediendatei hinzufügen mit Datei, Video per URL, Video- und Audioaufzeichnung, draw.io Diagramm, Text und Zitat, in Mein Media Center](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Aufklappmenü Mediendatei hinzufügen in Mein Media Center" }
+![Markiertes Aufklappmenü neben Mediendatei hinzufügen mit Datei, Video per URL, Video- und Audioaufzeichnung, draw.io Diagramm, Text und Zitat](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Aufklappmenü Mediendatei hinzufügen in Mein Media Center" }
 
 Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 ### Existierende Medien direkt im Media Center hochladen bzw. verlinken {: #add_existing}
 
-* **Mediendatei hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen. Bei aktiviertem KI Modul können beim Hochladen von Bildern Metadaten wie Titel, Beschreibung, Alt-Text und Tags per Button von der KI vorbefüllt werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
+* **Mediendatei hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen. Bei aktiviertem KI-Modul können beim Hochladen von Bildern Metadaten wie Titel, Beschreibung, Alt-Text und Tags per Button von der KI vorbefüllt werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. Sind die KI-Bildbeschreibungen für Sie eingeschaltet, ergänzt OpenOlat fehlende Metadaten zusätzlich im Hintergrund, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
 * **Video per URL hinzufügen:** Videos aus externen Portalen wie YouTube, Vimeo, Panopto oder nanoo.tv können einfach per Link hinzugefügt werden.
 * **Zitat hinzufügen:** Hier können Zitate aus Büchern, Artikeln, Webseiten, Filmen u.ä. in Textform hinterlegt und mit Metadaten wie Quelle, Autor, URL usw. versehen werden. So können Zitate an mehreren Stellen in OpenOlat eingefügt werden, ohne immer wieder die gesamte Quelle eintragen zu müssen. Achten Sie aber darauf, alle Angaben sorgfältig und umfassend vorzunehmen.
 
@@ -92,7 +92,7 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center". Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten.
 
-![Aufklappmenü neben Mediendatei hinzufügen mit Dokument, draw.io Diagramm, Text, Video per URL, Video- und Audioaufzeichnung und Zitat, im Dialog Medium auswählen des Kursbausteins Seite](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Medium auswählen im Kursbaustein Seite" }
+![Aufklappmenü neben Mediendatei hinzufügen mit Dokument, draw.io Diagramm, Text, Video per URL, Video- und Audioaufzeichnung und Zitat](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Medium auswählen im Kursbaustein Seite" }
 
 
 ### Inhaltselemente sammeln und mit dem Media Center verknüpfen {: #assign_media}
@@ -139,7 +139,7 @@ Wählen Sie oben rechts über der Liste die Tabellenansicht, falls Sie gerade di
 
 Selektieren Sie in der Tabellenansicht am Beginn einer Zeile mindestens einen Listeneintrag, erscheint über der Liste der Button "Löschen", mit dem sich mehrere Elemente auf einmal löschen lassen.
 
-![Angehakter Eintrag Muster.pdf und Button Löschen über der Liste, beide markiert, in der Tabellenansicht von Mein Media Center](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" title="Tabellenansicht von Mein Media Center" }
+![Angehakter Eintrag Muster.pdf und Button Löschen über der Liste, beide markiert](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" title="Tabellenansicht von Mein Media Center" }
 
 Einzelne Dateien können Sie auch im 3-Punkte-Menü löschen, wenn Sie ein einzelnes Medium angeklickt haben und die Informationen und Beschreibungen angezeigt werden. (Gleiches Menü wie zum Herunterladen.)
 
@@ -157,7 +157,7 @@ Eingebunden zählt sowohl im Kursbaustein "Seite" als auch in einer ePortfolio-S
 
 Eine **Freigabe schützt das Medium nicht**. Freigegeben, aber nirgends eingebunden bedeutet: gelöscht. Zu beachten: Die eigenen ePortfolio-Mappen der Person werden vorher gelöscht, sofern sie deren einzige Besitzerin ist. Medien, die nur dort eingebunden waren, verlieren dadurch ihre Einbindung und werden ebenfalls gelöscht.
 
-Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenverwalter:innen in der Medienverwaltung über den Filter **Ohne Ersteller:in**, sofern das Medium an einen Kurs ihrer Organisation freigegeben ist. Ein Medium, das nur in einer Seite eingebunden ist, erscheint dort nicht.
+Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenverwalter:innen in der Medienverwaltung über den Filter "Ohne Ersteller:in", sofern das Medium an einen Kurs ihrer Organisation freigegeben ist. Ein Medium, das nur in einer Seite eingebunden ist, erscheint dort nicht.
 
 !!! tip "Vor dem Löschen eines Kontos"
     Bitten Sie die betroffene Person, benötigte Medien herunterzuladen. Soll ein Medium im System bleiben, muss es vorher in eine Seite eingebunden werden. Die vollständige Tabelle aller Datenarten steht auf der Seite [Benutzer:in löschen](../../manual_admin/usermanagement/Delete_User.de.md#del_properties).
@@ -171,7 +171,7 @@ Erhaltene Medien ohne Zuordnung finden Administrator:innen und Lernressourcenver
 
 Der Speicherplatz im Media Center ist begrenzt. Wie viel Speicher Ihnen genau zur Verfügung steht und wie viel Sie schon verbraucht haben, sehen Sie links unten. So wissen Sie vor dem Hochladen, wie viel Platz Ihnen für neue Medien bleibt. Die Anzeige erscheint nur im Segment "Mein Media Center", in der Medienverwaltung fehlt sie, siehe [Media Center verwalten](#media_center_administration).
 
-![Markierte Speicheranzeige 0 B von 30.0 MB belegt unten links, im Segment Mein Media Center neben dem Segment Medienverwaltung](assets/media_center_quota_v2_de.png){ class="shadow lightbox" title="Segment Mein Media Center, unten links" }
+![Markierte Speicheranzeige 0 B von 30.0 MB belegt unten links](assets/media_center_quota_v2_de.png){ class="shadow lightbox" title="Segment Mein Media Center, unten links" }
 
 In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Als Poweruser zählen neben den Autor:innen auch Lernressourcenverwalter:innen und Administrator:innen.
 
@@ -222,7 +222,7 @@ Die Medienverwaltung listet Medien anderer Personen, die an einen Kurs freigegeb
 
 Nach Anklicken eines Mediums sehen Sie im Tab "Verwendungen", wo es eingebunden ist, und im Tab "Freigaben", an wen es freigegeben ist. Je nach Medientyp zeigt der Tab "Übersicht" zudem das Aktivitätslog mit den bisherigen Aktionen am Medium. So klären Sie, wo ein Medium eingebunden ist, bevor Sie dessen Ersteller:in bitten, es zu ersetzen oder zu entfernen. Im Tab "Freigaben" können Sie eine Freigabe über das Symbol "Entfernen" in ihrer Zeile entfernen und mit "Share entfernen" bestätigen.
 
-Die Filter **Verwendet in**, **In Verwendung** und **Geteilt mit** grenzen die Liste ein. Der Filter **Ohne Ersteller:in** zeigt davon die Medien, deren Ersteller:in kein Konto mehr hat, weil es gelöscht wurde.
+Die Filter "Verwendet in", "In Verwendung" und "Geteilt mit" grenzen die Liste ein. Der Filter "Ohne Ersteller:in" zeigt davon die Medien, deren Ersteller:in kein Konto mehr hat, weil es gelöscht wurde.
 
 Ist ein Medium Ihnen bearbeitbar freigegeben (Einstellung "Bearbeitbar freigeben" in der Freigabe), bearbeiten Sie zusätzlich seine Metadaten und, je nach Medientyp, seine Versionen. Herunterladen können Sie es dann über das 3-Punkte-Menü. Ohne bearbeitbare Freigabe fehlt das 3-Punkte-Menü.
 
@@ -239,6 +239,7 @@ Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Medien
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
 [Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
