@@ -10,7 +10,7 @@ Im Tab Freigabe finden Sie diese Abschnitte. Welche davon ein Kurs tatsächlich 
 [Freigabe](#section_share)<br>
 [Angebot](#section_offer)<br>
 [LTI 1.3 Zugangskonfiguration](#section_LTI)<br>
-[Freigabeübersicht](#section_share_overview)<br>
+[Freigabeübersicht](#section_share_overview)
 
 ---
 
@@ -45,15 +45,15 @@ Die Beschreibungen der folgenden Abschnitte gehen vom Verwendungszweck "Eigenst�
 
 ---
 
-## Abschnitt Verwendung [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) {: #section_usage}
+## Abschnitt Verwendung [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9805)" }](https://track.frentix.com/issue/OO-9805){:target="_blank"} {: #section_usage}
 
-Wird kein Course Planner verwendet, sind die Kurse eigenständig.
+Der Verwendungszweck legt fest, woher die Mitglieder einer Lernressource kommen: aus ihrer eigenen Mitgliederverwaltung, vom Course Planner oder von der Stelle, an der sie eingebunden ist. Neue Kurse sind eigenständig, solange das Modul Course Planner nicht aktiviert ist.
 
 ![Verwendungszweck Eigenständig mit dem Link Ändern](assets/course_settings_share_usage1_v1_de.png){ class="shadow lightbox" title="Abschnitt Verwendung im Tab Freigabe" }
 
 **Eigenständig**<br>
 Eigenständige Lernressourcen besitzen eine eigene Mitgliederverwaltung. Zum Hinzufügen neuer Mitglieder öffnen Sie also `Kurs > Administration > Mitgliederverwaltung`.<br>
-Der Zugang kann mit der Buchungsmethode "Privat" durch Eintragung als Mitglied (z.B. durch Kursbesitzer:innen), durch Vergabe eines Zugangscodes oder über eine Veröffentlichung im Katalog erfolgen.
+Teilnehmende erhalten Zugang über "Privat", indem zum Beispiel Kursbesitzer:innen sie als Mitglied eintragen, oder über "Buchbare und offene Angebote", etwa mit einem Zugangscode oder über ein Angebot im Katalog.
 
 **Verwendung im Course Planner**<br>
 Wird der Kurs in ein Produkt des Course Planner eingebunden, werden die Mitgliedschaften durch den Course Planner vergeben und verwaltet. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
@@ -61,9 +61,12 @@ Wird der Kurs in ein Produkt des Course Planner eingebunden, werden die Mitglied
 **Template**<br>
 Auch diese Kurse sind durch den Course Planner verwaltet und ohne eigenständige Mitgliederverwaltung. Der Unterschied zur Option "Verwendung im Course Planner" besteht darin, dass ein Template zur Instanzierung verwendet wird. Der Kurs in einer Durchführung wird erst zu einem bestimmten Zeitpunkt aus diesem Template erstellt (instanziert).
 
-Durch Klick auf "Ändern" öffnet sich der Dialog "Verwendungszweck ändern". Er zeigt oben den aktuellen Verwendungszweck und darunter die Verwendungszwecke, zu denen Sie wechseln können. Der aktuelle Verwendungszweck steht deshalb nicht in der Auswahl.
+**Einbindung**<br>
+Diesen Verwendungszweck gibt es nur bei Lernressourcen, die keine Kurse sind, zum Beispiel bei einem Test oder einem Formular. Die Lernressource ist wiederverwendbar und hat keine eigenständige Mitgliederverwaltung: Sie wird an anderer Stelle eingebunden, etwa in einen Kursbaustein, und die Mitglieder kommen von dort. Mehr dazu finden Sie unter [Verwendungszweck einer Lernressource vorsehen](General_Functions_Concept.de.md#usage).
 
-Ausser bei "Eigenständig" erfolgt die Mitgliederverwaltung nicht im Kurs. Deshalb sperrt OpenOlat einen Wechsel, sobald der Kurs eine Voraussetzung nicht erfüllt. Ein gesperrter Verwendungszweck steht im Dialog, ist aber nicht anwählbar. Die Gründe nennt der Dialog über der Auswahl unter dem Satz "Aufgrund der folgenden Voraussetzungen sind bestimmte Optionen nicht verfügbar:":
+Durch Klick auf "Ändern" öffnet sich der Dialog "Verwendungszweck ändern". Er zeigt oben unter "Aktueller Verwendungszweck" den aktuellen Verwendungszweck und darunter unter "Verwendungszweck ändern in" die Verwendungszwecke, zu denen Sie wechseln können. Der aktuelle Verwendungszweck steht deshalb nicht in der Auswahl. Das Hilfesymbol neben "Verwendungszweck ändern in" zeigt beim Darüberfahren einen Hilfetext und öffnet beim Klick diesen Abschnitt des Handbuchs.
+
+Ausser bei "Eigenständig" verwaltet ein Kurs seine Mitglieder nicht selbst. Deshalb sperrt OpenOlat einen Wechsel, sobald der Kurs eine Voraussetzung nicht erfüllt. Ein gesperrter Verwendungszweck steht im Dialog, ist aber nicht anwählbar. Die Gründe nennt der Dialog über der Auswahl unter dem Satz "Aufgrund der folgenden Voraussetzungen sind bestimmte Optionen nicht verfügbar:":
 
 - **Keine Mitglieder mit Ausnahme der Besitzer:innen:** Der Kurs hat Betreuer:innen oder Teilnehmer:innen. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
 - **Keine Gruppen, die auch in anderen Kursen eingebunden sind:** Eine Gruppe des Kurses ist zugleich in einem anderen Kurs eingebunden. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
@@ -91,22 +94,22 @@ Hat ein Kurs bereits Mitglieder, ist eine Kopie der einfachste Weg in den Course
 
 #### Zugang für Teilnehmer:innen {: #section_share_access}
 
-Bei der Wahl **"Privat"** werden die Teilnehmenden durch die Kursbesitzer:in bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, hinzugefügt. Dies geschieht unter `Kurs > Administration > Mitgliederverwaltung`. Es ist also wie eine persönliche Einladung in den Kurs durch Kursbesitzer:innen.<br>
-Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden einen Kurs selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben. Soll die Buchung nach Wahl eines Angebots im Katalog erfolgen, muss ebenfalls diese Option angewählt sein. 
+Bei "Privat" fügen Kursbesitzer:innen oder Personen mit dem Recht zur Mitgliederverwaltung die Teilnehmenden hinzu, unter `Kurs > Administration > Mitgliederverwaltung`. Das entspricht einer persönlichen Einladung in den Kurs.<br>
+Bei "Buchbare und offene Angebote" buchen die Teilnehmenden den Kurs selbst, je nach Angebot mit einem Zugangscode. Auch eine Buchung über ein Angebot im Katalog setzt diese Option voraus.
 
 #### Direktlink {: #section_share_direct_link}
 
-Wenn Sie diesen Link weitergeben, kann damit dieser Kurs direkt aufgerufen werden. Ist die Person noch nicht in OpenOlat bekannt (registriert) und eingeloggt, erscheint zunächst der Login-Bildschirm.
+Wer diesen Link erhält, ruft den Kurs damit direkt auf. Ist die Person nicht in OpenOlat registriert oder nicht eingeloggt, erscheint zuerst der Login-Bildschirm.
 
 #### Teilnehmer:innen können austreten [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #section_share_leave}
 
 **Jederzeit**: Möchten Teilnehmende ihre Mitgliedschaft im Kurs selbst beenden, können sie das jederzeit tun.<br>
-**Nach Kursenddatum oder Status "Beendet"**: Ein Beenden der Kursmitgliedschaft aus Eigeninitiative der Teilnehmenden ist erst möglich, sobald der Durchführungszeitraum abgelaufen ist oder der Kurs den Status "Beendet" hat. Wurde diese Option gewählt, ohne zuvor in der Beschreibung einen Durchführungszeitraum zu wählen, ist ein Austritt erst möglich, sobald der Kurs den Status "Beendet" erhält.<br>
+**Nach Kursenddatum oder Status "Beendet"**: Teilnehmende können erst austreten, wenn der Durchführungszeitraum abgelaufen ist oder der Kurs den Status "Beendet" hat. Ist im [Tab "Durchführung"](Course_Settings_Execution.de.md#execution_period) kein Durchführungszeitraum festgelegt, können sie erst mit dem Status "Beendet" austreten.<br>
 **Nie**: Der Besuch des Kurses ist Pflicht und Teilnehmer:innen können deshalb nicht selbst austreten.
 
 !!! info "Wichtig"
 
-    Diese Einstellung gibt es nur bei Kursen mit dem Verwendungszweck **"Eigenständig"**. Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), erscheint sie im Tab Freigabe nicht, und den Teilnehmenden steht die Funktion "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung gebucht, stornieren sie die Buchung selbst: Sie öffnen im Katalog die Infoseite der Durchführung und wählen dort die Aktion "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Aktion "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Aktion erscheint nur bei einer Durchführung mit Anfangsdatum, bis zum Tag vor dem Beginn, und nur, wenn das Angebot stornierbar ist (siehe [Stornierungsbedingungen](../basic_concepts/Offer_Concepts.de.md#offer_invoice_cancellation)). Danach hilft die Verwaltung Ihrer Organisation weiter. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
+    Diese Einstellung gibt es nur bei Kursen mit dem Verwendungszweck "Eigenständig". Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck "Verwendung im Course Planner"), erscheint sie im Tab Freigabe nicht, und den Teilnehmenden steht die Funktion "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung gebucht, stornieren sie die Buchung selbst: Sie öffnen im Katalog die Infoseite der Durchführung und wählen dort die Aktion "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Aktion "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Aktion erscheint nur bei einer Durchführung mit Anfangsdatum, bis zum Tag vor dem Beginn, und nur, wenn das Angebot stornierbar ist (siehe [Stornierungsbedingungen](../basic_concepts/Offer_Concepts.de.md#offer_invoice_cancellation)). Danach hilft die Verwaltung Ihrer Organisation weiter. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 
 #### Administrative Freigabe {: #section_share_admin_access}
 
@@ -144,7 +147,7 @@ Mehr über Angebote und den Katalog finden Sie hier:<br>
 [Katalog >](../area_modules/catalog2.0.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Angebote erstellen >](../area_modules/catalog2.0_angebote.de.md)<br>
-[Anbieten von Durchführungen im Katalog >](../area_modules/Course_Planner_Implementations.de.md#tab_catalog)<br>
+[Anbieten von Durchführungen im Katalog >](../area_modules/Course_Planner_Implementations.de.md#tab_catalog)
 
 [Zum Seitenanfang ^](#tab_share)
 
@@ -156,7 +159,7 @@ OpenOlat-Kurse können via LTI 1.3 auch von einem anderen LMS aus aufgerufen wer
 In diesem Abschnitt können Sie dazu ein sogenanntes Deployment einrichten, um den Kurs für ein anderes LMS aufrufbar zu machen.
 
 Mehr über die Freigabe eines Kurses via LTI finden Sie hier:<br>
-[LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)<br>
+[LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
 
 [Zum Seitenanfang ^](#tab_share)
 
@@ -167,13 +170,13 @@ Mehr über die Freigabe eines Kurses via LTI finden Sie hier:<br>
 
 ![Mitgliederzahlen nach Rolle, zugeordnete Gruppen und Produkte sowie administrativ Zugriffsberechtigte mit ihren Rechten](assets/course_settings_share_overview_v2_de.png){ class="shadow lightbox" title="Freigabeübersicht im Tab Freigabe" }
 
-Im Block **Mitglieder** finden Sie die Anzahl der Kursmitglieder, aufgegliedert nach Besitzer:innen, Betreuer:innen und Teilnehmer:innen. Mit "Mitgliederverwaltung öffnen" wechseln Sie direkt in die Mitgliederverwaltung des Kurses.
+Im Block "Mitglieder" finden Sie die Anzahl der Kursmitglieder, aufgegliedert nach Besitzer:innen, Betreuer:innen und Teilnehmer:innen. Mit "Mitgliederverwaltung öffnen" wechseln Sie direkt in die Mitgliederverwaltung des Kurses.
 
-Im Block **Administrative Freigabe** steht je Rolle, wie viele Personen aufgrund dieser Rolle ebenfalls auf diesen Kurs zugreifen können und mit welchem Recht, etwa "Vollzugriff" für Lernressourcenverwalter:innen und Administrator:innen.
+Im Block "Administrative Freigabe" steht je Rolle, wie viele Personen aufgrund dieser Rolle ebenfalls auf diesen Kurs zugreifen können und mit welchem Recht, etwa "Vollzugriff" für Lernressourcenverwalter:innen und Administrator:innen.
 
-Wurde der Kurs Gruppen zugeordnet, finden Sie die betreffenden Gruppen im Block **Gruppen** angezeigt.
+Ist der Kurs Gruppen zugeordnet, zeigt der Block "Gruppen" diese Gruppen.
 
-Wurde der Kurs im Course Planner einem Produkt zugeordnet, finden Sie die Verwendungen im Block **Produkt** angezeigt.
+Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produkt" die Verwendungen.
 
 [Zum Seitenanfang ^](#tab_share)
 
@@ -182,7 +185,9 @@ Wurde der Kurs im Course Planner einem Produkt zugeordnet, finden Sie die Verwen
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Funktionskonzept Kurse und Lernressourcen >](../learningresources/General_Functions_Concept.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.de.md)<br>

@@ -7,11 +7,11 @@ Ein OpenOlat-Kurs wird aus einzelnen Kursbausteinen zusammengesetzt. In den meis
 
 Beispiel Kursbaustein "Video":
 
-![Kurs mit drei Kursbausteinen der Typen Seite, Video und Test, in den Kursbaustein Video wird die Lernressource Video eingesetzt](assets/general_functions_concept_course_v1_de.png){ class="lightbox" }
+![Kurs mit drei Kursbausteinen der Typen Seite, Video und Test, in den Kursbaustein Video wird die Lernressource Video eingesetzt](assets/general_functions_concept_course_v1_de.png){ class="lightbox" title="Schema Kurs, Kursbausteine und Lernressource" }
 
 ## Kursbausteine
 
-OpenOlat bietet den Kursautor:innen eine Vielzahl verschiedener Kursbausteintypen an. Jeder Kursbausteintyp hat andere Fähigkeiten.
+OpenOlat bietet Kursautor:innen viele Kursbausteintypen an, und jeder Typ hat andere Fähigkeiten.
 
 **Beispiel 1:**<br>
 Ein [Kursbaustein "Video"](../learningresources/Course_Element_Video.de.md) muss mit den Zusatzfunktionen für Videos (Annotationen, Quizzes, Kapitel, Kommentare, Segmente) umgehen können.
@@ -24,7 +24,7 @@ Eine [Checkliste](../learningresources/Course_Element_Checklist.de.md) ist ein B
 
 Autor:innen stehen je nach Konfiguration z.B. die folgenden Kursbausteintypen zur Verfügung:
 
-![Kursbausteintypen in den Gruppen Wissensvermittlung, Wissensüberprüfung, Kommunikation und Kollaboration, Verwaltung und Organisation sowie Andere, Auswahl im Kurseditor](assets/general_functions_concept_course_elements_v1_de.png){ class="shadow lightbox" }
+![Im Kurseditor wählen Sie den Kursbaustein aus den Gruppen Wissensvermittlung, Wissensüberprüfung, Kommunikation und Kollaboration, Verwaltung und Organisation sowie Andere](assets/general_functions_concept_course_elements_v2_de.png){ class="shadow lightbox" title="Dialog Kursbausteine einfügen im Kurseditor · 2026.10.21" }
 
 
 ## Was ist eine Lernressource?
@@ -40,23 +40,23 @@ Lernressourcen sind Objekte, die in Kursbausteine eingefügt werden können.
 
 Das Funktionskonzept mit den Kursbausteinen als Behälter für Lernressourcen hat wesentliche Vorteile:
 
-* Die Lernressourcen können **mehrfach in verschiedenen Kursbausteinen und Kursen** genutzt werden.
-* Die Lernressourcen können **ausgewechselt werden**, ohne dass dadurch die Kursstruktur zerstört wird. Die Kursbausteine bilden weiterhin als vorübergehend leere Behälter die Kursstruktur.
-* Den Kursbausteinen können **Eigenschaften** gegeben werden (z.B. Titel), die **unabhängig** von der eingefügten Lernressource erhalten bleiben. Das gilt z.B., wenn eine andere Video-Lernressource mit anderem Dateinamen eingefügt wird oder ein Test speziell für den konkreten Kurs eine andere Grundeinstellung erhält.
+* **Mehrfach nutzen:** Dieselbe Lernressource lässt sich in verschiedenen Kursbausteinen und Kursen einsetzen.
+* **Auswechseln:** Eine Lernressource lässt sich austauschen, ohne dass die Kursstruktur verloren geht. Die Kursbausteine bilden die Kursstruktur weiter, vorübergehend als leere Behälter.
+* **Eigenschaften behalten:** Eigenschaften des Kursbausteins wie der Titel bleiben unabhängig von der eingefügten Lernressource erhalten. Das gilt zum Beispiel, wenn Sie eine andere Video-Lernressource mit anderem Dateinamen einfügen oder ein Test für den konkreten Kurs eine andere Grundeinstellung erhält.
 
 
-## Eigenständige Lernressourcen
+## Eigenständige Lernressourcen [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7277)" }](https://track.frentix.com/issue/OO-7277){:target="_blank"}
 
-Im Normalfall werden Lernressourcen in Kursbausteine eingebunden ("embedded"). Es gibt jedoch auch die Möglichkeit, manche Lernressourcen eigenständig ("stand alone") zu benutzen.
+Im Normalfall binden Sie eine Lernressource ein, etwa in einen Kursbaustein (Verwendungszweck "Einbindung"). Manche Lernressourcen lassen sich auch eigenständig nutzen (Verwendungszweck "Eigenständig").
 
-Das bedeutet, dass die Lernressource in den Einstellungen ähnlich wie ein Kurs behandelt wird. So können z.B. einer Lernressource direkt Mitglieder zugewiesen werden.
+Eine eigenständige Lernressource behandelt OpenOlat in den Einstellungen ähnlich wie einen Kurs. So können Sie ihr zum Beispiel direkt Mitglieder zuweisen.
 
 
-### Wann macht eine eigenständige Lernressource Sinn?
+### Wann ist eine eigenständige Lernressource sinnvoll?
 
-Ein Wiki oder ein Blog sind Lernressourcen, bei denen eine Verwendung als eigenständige Lernressource Sinn macht. Sie können gut ohne einen Kurs verwendet werden.
+Ein Wiki oder ein Blog eignen sich als eigenständige Lernressource, weil sie gut ohne Kurs funktionieren.
 
-Bei Test-Lernressourcen ist dies dagegen eher nicht empfohlen, weil sich viele Auswertungsfunktionen im Test-Kursbaustein befinden. Durch Einbettung in einen Kurs wird der Test Teil des Gesamtkurses und kann die Ergebnisse an den Kurs weitergeben. Bei mehreren bewertbaren Kursbausteinen ist der Test dann für Betreuer:innen im Bewertungswerkzeug aufgeführt, und es kann eine Bewertung für den Gesamtkurs gemacht werden. Wenn diese Gesamtschau benötigt wird, macht eine eigenständige Lernressource wenig Sinn.
+Bei Test-Lernressourcen ist das eher nicht empfohlen, weil viele Auswertungsfunktionen im Kursbaustein "Test" liegen. In einen Kurs eingebunden, wird der Test Teil des Gesamtkurses und gibt seine Ergebnisse an den Kurs weiter. Bei mehreren bewertbaren Kursbausteinen führt das Bewertungswerkzeug den Test dann für Betreuer:innen auf, und sie können den Gesamtkurs bewerten. Wird diese Gesamtschau gebraucht, ist eine eigenständige Lernressource wenig sinnvoll.
 
 
 ### Eigenständige Lernressourcen in Kursen
@@ -71,7 +71,7 @@ Bei Test-Lernressourcen ist dies dagegen eher nicht empfohlen, weil sich viele A
 ## Unterschiede: Lernressource im Kurs <-> eigenständige Lernressource
 
 
-|                                   |Lernressource im Kurs<br>"embedded"| eigenständige Lernressource<br>"stand alone" |
+|                                   |Lernressource im Kurs<br>"Einbindung"| eigenständige Lernressource<br>"Eigenständig" |
 |-------------------------------------------------|:-------------------:|:-------------------:|
 | Besitzer:innen als Mitglieder                   | ja    | ja   |
 | Betreuer:innen als Mitglieder                   | nein  | ja   |
@@ -83,16 +83,22 @@ Bei Test-Lernressourcen ist dies dagegen eher nicht empfohlen, weil sich viele A
 | bei Videos: in Video Collection auflistbar      | ja    | ja   |
 
 
-## Verwendungszweck einer Lernressource vorsehen
+## Verwendungszweck einer Lernressource vorsehen [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9805)" }](https://track.frentix.com/issue/OO-9805){:target="_blank"} {: #usage}
 
-Wenn eine Lernressource im Autorenbereich erstellt worden ist, werden verschiedene Einstellungen an ihr vorgenommen (Konfiguration). Unter anderem wird dort auch eingestellt, ob die Lernressource zur Einbindung in Kursbausteine vorgesehen ist oder in erster Linie als eigenständige Lernressource genutzt werden soll.
+Der Verwendungszweck beantwortet eine einzige Frage: Woher kommen die Mitglieder einer Lernressource? Nur eine Lernressource mit dem Verwendungszweck "Eigenständig" hat eine eigene Mitgliederverwaltung. Bei "Einbindung" kommen die Mitglieder von der Stelle, an der die Lernressource eingebunden ist, bei "Verwendung im Course Planner" vom Course Planner, und ein "Template" dient nur als Vorlage für Kursinhalte.
+
+In den Einstellungen einer Lernressource legen Sie unter anderem fest, ob sie an anderer Stelle eingebunden oder in erster Linie eigenständig genutzt wird. Eine neue Lernressource, die kein Kurs ist, erhält zunächst den Verwendungszweck "Einbindung".
 
 Sie finden die Einstellung des Verwendungszwecks in der gewählten Lernressource unter:<br>
 `Lernressource > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"`
 
-![Feld Verwendungszweck mit dem Wert Einbindung in Kurs und dem Button Ändern, Abschnitt Verwendung im Tab Freigabe der Einstellungen einer Lernressource](assets/general_functions_concept_use_of_resources_v1_de.png){ class="shadow lightbox" }
+![Im Tab Freigabe zeigt der Abschnitt Verwendung den Verwendungszweck Einbindung mit dem Button Ändern, darunter erlauben Sie unter Autor:innen können das Einbinden](assets/general_functions_concept_use_of_resources_v2_de.png){ class="shadow lightbox" title="Tab Freigabe eines Formulars · 2026.10.21" }
 
-![Dialog Verwendungszweck ändern mit den zwei Optionen Einbindung in Kurs und Eigenständig](assets/general_functions_concept_use_of_resources_embedded_v1_de.png){ class="shadow lightbox" }
+Eine Lernressource mit dem Verwendungszweck "Einbindung" ist wiederverwendbar und wird an anderer Stelle eingebunden: in einen Kursbaustein eines Kurses oder, bei einem Formular, auch in eine Datenerhebung des Qualitätsmanagements und als [Formular für Buchungsaufträge](../area_modules/Course_Planner_Implementations.de.md#booking_order_forms) in eine Durchführung des Course Planner. Ein Kurs ist nur einer dieser Orte, deshalb nennt der Name des Verwendungszwecks keinen Ort. Damit andere Autor:innen Ihre Lernressource einbinden dürfen, setzen Sie im selben Tab unter "Autor:innen können" das Häkchen "einbinden".
+
+Mit "Ändern" öffnen Sie den Dialog "Verwendungszweck ändern". Er zeigt unter "Aktueller Verwendungszweck" den heutigen Wert und darunter unter "Verwendungszweck ändern in" die Verwendungszwecke, zu denen Sie wechseln können. Bei Lernressourcen, die keine Kurse sind, gibt es nur "Einbindung" und "Eigenständig", der Dialog bietet deshalb genau eine Option an. Das Hilfesymbol neben "Verwendungszweck ändern in" führt zur Beschreibung aller Verwendungszwecke im [Abschnitt Verwendung des Tabs Freigabe](Course_Settings_Share.de.md#section_usage).
+
+![Der Dialog Verwendungszweck ändern zeigt bei einem Formular oben den aktuellen Verwendungszweck Einbindung und darunter Eigenständig als einzige Option zum Wechseln](assets/general_functions_concept_use_of_resources_embedded_v2_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern bei einem Formular · 2026.10.21" }
 
 Ein Kurs lässt sich nicht in einen anderen Kurs einbinden. Ist der Course Planner aktiviert, stehen für Kurse stattdessen die Verwendungszwecke "Eigenständig", "Verwendung im Course Planner" [:octicons-tag-16:{ title="ab Release 20.0 (OO-8104)" }](https://track.frentix.com/issue/OO-8104){:target="_blank"} und "Template" [:octicons-tag-16:{ title="ab Release 20.0 (OO-8422)" }](https://track.frentix.com/issue/OO-8422){:target="_blank"} zur Wahl. Beide haben keine eigenständige Mitgliederverwaltung: Bei "Verwendung im Course Planner" verwaltet der Course Planner die Mitglieder, ein "Template" dient als Vorlage für Kursinhalte. Details dazu finden Sie im Kapitel [Course Planner: Produkte](../area_modules/Course_Planner_Products.de.md).
 
@@ -105,9 +111,16 @@ Ein Kurs lässt sich nicht in einen anderen Kurs einbinden. Ist der Course Plann
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Video" >](../learningresources/Course_Element_Video.de.md)<br>
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)<br>
 [Kursbaustein "Checkliste" >](../learningresources/Course_Element_Checklist.de.md)<br>
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
 [Course Planner: Produkte >](../area_modules/Course_Planner_Products.de.md)
+
+**Weiterführend**<br>
+[Detailansicht einer Lernressource >](../learningresources/Detailed_View_of_Learning_Resources.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)
 
 [Zum Seitenanfang ^](#General_Functions_Concept)

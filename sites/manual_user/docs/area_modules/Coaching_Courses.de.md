@@ -6,17 +6,17 @@
 
 ### WELCHE Kurse zeigt die Liste? {: #courses_which}
 
-Der Menüpunkt "Kurse" im Coaching Tool zeigt die Lernressourcen, für die Sie zuständig sind. Oberhalb der Liste wählen Sie mit dem **Fokus**, welche Ressourcen die Liste lädt:
+Der Menüpunkt "Kurse" im Coaching Tool zeigt die Lernressourcen, für die Sie zuständig sind. Oberhalb der Liste wählen Sie mit dem Fokus, welche Ressourcen die Liste lädt:
 
 * **Als Betreuer:in**: Kurse, in denen Sie Betreuer:in sind.
 * **Als Besitzer:in**: Kurse mit dem Verwendungszweck "Eigenständig" oder "Verwendung im Course Planner", die Sie besitzen.
-* **Weitere Ressourcen** [:octicons-tag-16:{ title="ab Release 20.1.5 (OO-8870)" }](https://track.frentix.com/issue/OO-8870){:target="_blank"}: Lernressourcen mit dem Verwendungszweck "Einbindung in Kurs" oder "Template", die Sie besitzen, zum Beispiel ein Test, ein Wiki oder eine Kursvorlage.
+* **Weitere Ressourcen** [:octicons-tag-16:{ title="ab Release 20.1.5 (OO-8870)" }](https://track.frentix.com/issue/OO-8870){:target="_blank"}: Lernressourcen mit dem Verwendungszweck "Einbindung" oder "Template", die Sie besitzen, zum Beispiel ein Test, ein Wiki oder eine Kursvorlage.
 
 Ein Fokus erscheint nur, wenn Sie mindestens eine passende Lernressource im Status "Vorbereitung" bis "Beendet" besitzen. Die Fokus-Auswahl selbst wird sichtbar, sobald mehr als ein Fokus für Sie zutrifft. Im oben gezeigten Beispiel stehen alle drei Fokus-Einträge zur Verfügung, gewählt ist "Weitere Ressourcen".
 
-* Es werden die Teilnehmenden aus **allen** von Ihnen betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
+* Es werden die Teilnehmenden aus allen von Ihnen betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
 * Betreuer:innen sehen nur die von ihnen betreuten Teilnehmenden.
-* Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuer:in gegenüber dieser Person haben.
+* Die betreuten Teilnehmenden sind gruppiert und den Rollen zugeordnet, die Sie als Betreuer:in gegenüber dieser Person haben.
 * In der Liste für Betreuer:innen sehen Sie nur Kurse, die veröffentlicht, beendet oder zumindest für Betreuer:innen zugänglich sind.
 
 !!! tip "Hier finden Sie Ihre eingebundenen Ressourcen und Ihre Vorlagen"
@@ -85,7 +85,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 
 * **ID** (eindeutige Nummer)
 * **Favorit**
-* **Typ** (Würfel-Symbol für "Kurs", bei Stand-alone-Lernressourcen ein entsprechendes anderes Symbol)
+* **Typ** (Symbol für den Typ der Lernressource, bei Kursen ein Würfel)
 * **Technischer Typ** (z.B. "Lernpfad" oder "Herkömmlicher Kurs")
 * **Titel**
 * **Ext. ID** (externe ID, die einer anderen Systematik folgen kann als die von OpenOlat automatisch vergebene ID)
@@ -97,24 +97,24 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Teilnehmer:innen** (Anzahl aller Teilnehmenden)
 * **Besucht** (Anzahl der Teilnehmenden, die diesen Kurs schon einmal besucht haben)
 * **Nicht besucht** (Anzahl der Teilnehmenden, die diesen Kurs noch nie besucht haben)
-* **Letzter Besuch** (Wann wurde dieser Kurs zuletzt von einer/einem Teilnehmenden besucht)
-* **durchschnittlicher Fortschritt** (Durchschnitt aus den Fortschrittswerten aller Teilnehmenden, die den Kurs schon einmal besucht haben)
+* **Letzter Besuch** (Zeitpunkt, zu dem zuletzt Teilnehmende den Kurs besucht haben)
+* **ø Fortschritt** (Durchschnitt aus den Fortschrittswerten aller Teilnehmenden, die den Kurs schon einmal besucht haben)
 * **Erfolgsstatus** (grafisch und in Zahlen: "Bestanden" | "Nicht bestanden" | "Keine Angabe")
 * **Bestanden**
 * **Nicht bestanden**
 * **Keine Angabe**
-* **durchschnittliche Punkte** (durchschnittliche Punktzahl aller Teilnehmenden, die diesen Kurs bereits bearbeitet haben)
+* **ø Punkte** (durchschnittliche Punktzahl aller Teilnehmenden, die diesen Kurs bereits bearbeitet haben)
 * **Zertifikate** (Anzahl der Zertifikate, die in diesem Kurs bereits ausgestellt wurden)
 * **Bewertungswerkzeug** (anklickbares Symbol, das direkt zum Bewertungswerkzeug dieses Kurses führt)
-* **Informationsseite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Kurs > Administration > Einstellungen` eingegeben wurden)
+* **Infoseite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Kurs > Administration > Einstellungen` eingegeben wurden)
 
-Am rechten Rand jeder Zeile öffnet das Drei-Punkte-Menü die Aktionen zu diesem Eintrag: "Bewertungswerkzeug", "Informationsseite" und "In neuem Tab öffnen". Den Eintrag "Bewertungswerkzeug" enthält das Menü nur bei Kursen und Tests.
+Am rechten Rand jeder Zeile öffnet das Drei-Punkte-Menü die Aktionen zu diesem Eintrag: "Bewertungswerkzeug", "Infoseite" und "In neuem Tab öffnen". Den Eintrag "Bewertungswerkzeug" enthält das Menü nur bei Kursen und Tests.
 
-Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts- und Zertifikatsspalten und kein Bewertungswerkzeug, weder als Spalte noch im Drei-Punkte-Menü. Verfügbar sind hier die Spalten ID, Favorit, Typ, Technischer Typ, Titel, Ext. ID, Kennzeichen, Beginn, Ende, Ref., Status und Informationsseite.
+Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts- und Zertifikatsspalten und kein Bewertungswerkzeug, weder als Spalte noch im Drei-Punkte-Menü. Verfügbar sind hier die Spalten ID, Favorit, Typ, Technischer Typ, Titel, Ext. ID, Kennzeichen, Beginn, Ende, Ref., Status und Infoseite.
 
 !!! tip "Genaue Zahlen zum Erfolgsstatus"
 
-    Fahren Sie mit der Maus über den grafischen Balken in der Spalte "Erfolgsstatus". Ein Tooltip zeigt die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+    Fahren Sie mit der Maus über den grafischen Balken in der Spalte "Erfolgsstatus". Ein Tooltip zeigt die genauen Zahlen mit Anteil in Prozent, zum Beispiel "Bestanden: 12 (60%) | Nicht bestanden: 3 (15%) | Keine Angabe: 5 (25%)" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
 
 
 [Zum Seitenanfang ^](#courses)

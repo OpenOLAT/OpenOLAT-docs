@@ -45,7 +45,7 @@ The sections in the order of the wizard:
 * "Subjects": add or remove subjects. When the catalog is enabled, the section is called "Subjects / Catalog".
 * "Execution": set "Execution period" and "Location" uniformly. For the execution period, "Anytime", "Time period", "Begin and end date" and "One-day" are available; what the options do is described in the [course settings](../learningresources/Course_Settings_Execution.md#execution_period). With "One-day", you enter a day in the field "Date", and the "Overview" then shows "Execution period: One-day:" with this date. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 * "Administrative access": add or remove organisations, see [Section "Administrative access"](#bulk_administrative_access).
-* "Authors rights": add or remove the rights "Reference", "Copy" and "Download" for all other authors.
+* "Authors rights": add or remove the rights "embed" ("Reference"), "copy" and "export content" ("Download") for all other authors.
 * "Toolbar": switch tools of the toolbar on or off.
 
 The wizard only offers "Execution" and "Toolbar" if at least one course is selected, and only applies the changes to courses.

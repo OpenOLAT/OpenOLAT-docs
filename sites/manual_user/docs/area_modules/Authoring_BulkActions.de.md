@@ -45,7 +45,7 @@ Die Bereiche in der Reihenfolge des Assistenten:
 * "Fachbereiche": Fachbereiche hinzufügen oder entfernen. Bei eingeschaltetem Katalog heisst der Bereich "Fachbereiche / Katalog".
 * "Durchführung": "Durchführungszeitraum" und "Durchführungsort" einheitlich setzen. Beim Durchführungszeitraum stehen "Jederzeit", "Zeitabschnitt", "Beginn- und Enddatum" und "Eintägig" zur Wahl; was die Optionen bewirken, beschreiben die [Kurseinstellungen](../learningresources/Course_Settings_Execution.de.md#execution_period). Mit "Eintägig" tragen Sie im Feld "Datum" einen Tag ein, die "Übersicht" zeigt dann "Durchführungszeitraum: Eintägig:" mit diesem Datum. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 * "Administrative Freigabe": Organisationen hinzufügen oder entfernen, siehe [Bereich "Administrative Freigabe"](#bulk_administrative_access).
-* "Autorenrechte": die Rechte "Referenzieren", "Kopieren" und "Exportieren" für alle anderen Autor:innen hinzufügen oder entfernen.
+* "Autorenrechte": die Rechte "einbinden" ("Referenzieren"), "kopieren" und "Inhalt exportieren" ("Exportieren") für alle anderen Autor:innen hinzufügen oder entfernen.
 * "Toolbar": Werkzeuge der Toolbar ein- oder ausschalten.
 
 "Durchführung" und "Toolbar" bietet der Assistent nur an, wenn mindestens ein Kurs ausgewählt ist, und übernimmt die Änderungen nur bei Kursen.

@@ -6,17 +6,17 @@
 
 ### WHICH courses does the list show? {: #courses_which}
 
-The menu item "Courses" in the Coaching Tool shows the learning resources you are responsible for. Above the list, you use the **focus** to choose which resources the list loads:
+The menu item "Courses" in the Coaching Tool shows the learning resources you are responsible for. Above the list, you use the focus to choose which resources the list loads:
 
 * **As coach**: courses in which you are coach.
 * **As owner**: courses with the usage "Standalone" or "Use in Course Planner" that you own.
-* **Other resources** [:octicons-tag-16:{ title="from Release 20.1.5 (OO-8870)" }](https://track.frentix.com/issue/OO-8870){:target="_blank"}: learning resources with the usage "Embedding in course" or "Template" that you own, for example a test, a wiki or a course template.
+* **Other resources** [:octicons-tag-16:{ title="from Release 20.1.5 (OO-8870)" }](https://track.frentix.com/issue/OO-8870){:target="_blank"}: learning resources with the usage "Embedding" or "Template" that you own, for example a test, a wiki or a course template.
 
 A focus only appears if you own at least one matching learning resource with a status from "Preparation" to "Finished". The focus selection itself becomes visible as soon as more than one focus applies to you. In the example shown above, all three focus entries are available, "Other resources" is selected.
 
-* The participants from **all** courses you coach are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
+* The participants from all courses you coach are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
 * Coaches only see the participants they coach.
-* The participants you coach are **grouped and assigned to the roles** you have as coach in relation to them.
+* The participants you coach are grouped and assigned to the roles you have as coach in relation to them.
 * In the list for coaches, you only see courses that are published, finished or at least accessible for coaches.
 
 !!! tip "This is where you find your embedded resources and your templates"
@@ -69,7 +69,7 @@ The wildcard thus behaves in the same way as in the [Courses](Courses.md) area.
 
     By clicking on the small buttons at the top right above the list, you can switch between list and tile view at any time.
 
-![Course list in list view with columns from Type and Title via Participants and visits to Progress, Success status, Points and Certificates, switch at the top right.](assets/coaching_courses3_v2_de.png){ class="shadow lightbox" title="Courses in Coaching in the list view" }
+![Course list in list view with columns from Type and Title via Participants and visits to Progress, Success status, Score and Certificates, switch at the top right.](assets/coaching_courses3_v2_en.png){ class="shadow lightbox" title="Courses in Coaching in the list view · 2026.10.21" }
 
 
 You see at a glance, for example,
@@ -84,8 +84,8 @@ Clicking on a course name takes you directly to the course. There, you can navig
 You can choose which columns are displayed by clicking on the gear icon at the top right.
 
 * **ID** (unique number)
-* **Favourite**
-* **Type** (cube icon for "Course", a corresponding different icon for stand-alone learning resources)
+* **Bookmark**
+* **Type** (icon for the type of the learning resource, a cube for courses)
 * **Technical Type** (e.g. "Learning path" or "Conventional course")
 * **Title**
 * **Ext. ID** (external ID, which may follow a different system than the ID automatically assigned by OpenOlat)
@@ -97,24 +97,24 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 * **Participants** (number of all participants)
 * **Visited** (number of participants who have already visited this course)
 * **Not visited** (number of participants who have never visited this course)
-* **Last visit** (when this course was last visited by a participant)
-* **Average progress** (average of the progress values of all participants who have already visited the course)
-* **Success status** (graphically and in numbers: "Passed" | "Not passed" | "Not specified")
+* **Last visit** (time when participants last visited the course)
+* **ø Progress** (average of the progress values of all participants who have already visited the course)
+* **Success status** (graphically and in numbers: "Passed" | "Not passed" | "Undefined")
 * **Passed**
 * **Not passed**
-* **Not specified**
-* **Average points** (average score of all participants who have already worked on this course)
+* **Undefined**
+* **ø Score** (average score of all participants who have already worked on this course)
 * **Certificates** (number of certificates already issued in this course)
 * **Assessment tool** (clickable icon that leads directly to the assessment tool of this course)
 * **Info page** (clickable light bulb icon that leads directly to the information entered in the course under `Course > Administration > Settings`)
 
 At the right edge of each row, the three-dot menu opens the actions for this entry: "Assessment tool", "Info page" and "Open in new tab". The menu contains the entry "Assessment tool" only for courses and tests.
 
-In the focus "Other resources", the list shows no participant, progress and certificate columns and no assessment tool, neither as a column nor in the three-dot menu. Available here are the columns ID, Favourite, Type, Technical Type, Title, Ext. ID, Reference, Begin, End, Ref., Status and Info page.
+In the focus "Other resources", the list shows no participant, progress and certificate columns and no assessment tool, neither as a column nor in the three-dot menu. Available here are the columns ID, Bookmark, Type, Technical Type, Title, Ext. ID, Reference, Begin, End, Ref., Status and Info page.
 
 !!! tip "Exact numbers for the success status"
 
-    Hover the mouse over the graphic bar in the "Success status" column. A tooltip shows the exact numbers: "Passed: X / Not passed: Y / Not specified: Z" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+    Hover the mouse over the graphic bar in the "Success status" column. A tooltip shows the exact numbers with their share in percent, for example "Passed: 12 (60%) | Not passed: 3 (15%) | Undefined: 5 (25%)" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
 
 
 [To the top of the page ^](#courses)

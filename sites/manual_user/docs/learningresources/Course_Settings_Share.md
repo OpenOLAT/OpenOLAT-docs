@@ -10,7 +10,7 @@ In the Share tab, you will find these sections. Which of them a course actually 
 [Share](#section_share)<br>
 [Offer](#section_offer)<br>
 [LTI 1.3 access configuration](#section_LTI)<br>
-[Share overview](#section_share_overview)<br>
+[Share overview](#section_share_overview)
 
 ---
 
@@ -45,15 +45,15 @@ The descriptions of the following sections assume the usage "Standalone".
 
 ---
 
-## Section usage [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) {: #section_usage}
+## Section usage [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9805)" }](https://track.frentix.com/issue/OO-9805){:target="_blank"} {: #section_usage}
 
-If no Course Planner is used, the courses are independent.
+The usage defines where the members of a learning resource come from: from its own member management, from the Course Planner or from the place where it is embedded. New courses are standalone as long as the Course Planner module is not activated.
 
 ![Usage Standalone with the Change link](assets/course_settings_share_usage1_v1_en.png){ class="shadow lightbox" title="Usage section in the Share tab · 2026.10.09" }
 
 **Standalone**<br>
-Independent learning resources have their own member management system. To add new members, open `Course > Administration > Member management`.<br>
-Access can be granted using the "Private" booking method by registering as a member (e.g., by course owners), by assigning an access code, or by publishing it in the catalog.
+Standalone learning resources have their own member management. To add new members, open `Course > Administration > Member management`.<br>
+Participants get access via "Private", for example when course owners enter them as members, or via "Bookable and open offers", for instance with an access code or via an offer in the catalog.
 
 **Use in Course Planner**<br>
 If the course is integrated into a product of the Course Planner, memberships are assigned and managed by the Course Planner. The course then does not require a second, separate membership management system.
@@ -61,9 +61,12 @@ If the course is integrated into a product of the Course Planner, memberships ar
 **Template**<br>
 These courses are also managed by the Course Planner and do not require separate member management. The difference to the "Use in Course Planner" option is that a template is used for instantiation. The course in a run is only created (instantiated) from this template at a specific point in time.
 
-Clicking "Change" opens the "Change usage" dialog. It shows the current usage at the top and below it the usages you can switch to. The current usage is therefore not in the selection.
+**Embedding**<br>
+This usage exists only for learning resources that are not courses, for example a test or a form. The learning resource is reusable and has no standalone member management: it is embedded elsewhere, for instance in a course element, and the members come from there. More on this under [Provide for the usage of a learning resource](General_Functions_Concept.md#usage).
 
-Except for "Standalone", member management does not take place in the course. OpenOlat therefore blocks a switch as soon as the course does not meet a precondition. A blocked usage appears in the dialog but cannot be selected. The dialog names the reasons above the selection, under the sentence "Due to the following preconditions, certain options are not available:":
+Clicking "Change" opens the "Change usage" dialog. It shows the current usage at the top under "Current usage" and below it, under "Change usage to", the usages you can switch to. The current usage is therefore not in the selection. The help icon next to "Change usage to" shows a help text when you hover over it and opens this section of the manual when you click it.
+
+Except for "Standalone", a course does not manage its members itself. OpenOlat therefore blocks a switch as soon as the course does not meet a precondition. A blocked usage appears in the dialog but cannot be selected. The dialog names the reasons above the selection, under the sentence "Due to the following preconditions, certain options are not available:":
 
 - **No members except owners:** The course has coaches or participants. Blocks the switch to "Use in Course Planner" and to "Template".
 - **No groups that are also referenced by other courses:** A group of the course is also embedded in another course. Blocks the switch to "Use in Course Planner" and to "Template".
@@ -90,22 +93,22 @@ If a course already has members, a copy is the simplest way into the Course Plan
 
 #### Access for participants {: #section_share_access}
 
-If you select **"Private"**, participants will be added by the course owner or persons who have member management rights. This is done under `Course > Administration > Member management`. It is therefore like a personal invitation to the course by the course owner.<br>
-When selecting the option **"Bookable and open offers"**, learners can book a course themselves, but may have to enter a password (depending on the settings). If the booking is to be made after selecting an offer in the catalog, this option must also be selected. 
+With "Private", course owners or persons with the right to manage members add the participants, under `Course > Administration > Member management`. This is like a personal invitation to the course.<br>
+With "Bookable and open offers", the participants book the course themselves, depending on the offer with an access code. A booking via an offer in the catalog also requires this option.
 
 #### Direct link {: #section_share_direct_link}
 
-If you share this link, this course can be accessed directly. If the person is not yet known (registered) in OpenOlat and logged in, the login screen will appear first.
+Whoever receives this link opens the course directly with it. If the person is not registered in OpenOlat or not logged in, the login screen appears first.
 
 #### Participants can leave [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #section_share_leave}
 
 **At any time**: If participants wish to terminate their membership in the course themselves, they can do so at any time.<br>
-**After course end date or status "Finished"**: Participants can only terminate their course membership on their own initiative once the implementation period has ended or the course has the status "Finished". If this option is selected without first selecting an implementation period in the description, participants can only leave once the course reaches the status "Finished".<br>
+**After course end date or status "Finished"**: Participants can only leave once the execution period has ended or the course has the status "Finished". If no execution period is set in the ["Execution" tab](Course_Settings_Execution.md#execution_period), they can only leave with the status "Finished".<br>
 **Never**: Attendance at the course is compulsory, so participants cannot withdraw themselves.
 
 !!! info "Important"
 
-    This setting exists only for courses with the usage **"Standalone"**. If the Course Planner manages the course instead (usage **"Use in Course Planner"**), it does not appear in the Share tab, and the "Leave course" function is not available to the participants. If participants have booked an implementation, they cancel the booking themselves: They open the info page of the implementation in the catalog and select the action "Cancel booking" there. If a cancellation fee applies, the action is called "Cancel booking for a fee", and the confirmation dialog states the amount. The action appears only for an implementation with a begin date, until the day before it begins, and only if the offer is cancelable (see [Cancellation policy](../basic_concepts/Offer_Concepts.md#offer_invoice_cancellation)). After that, the administration of your organisation can help. [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
+    This setting exists only for courses with the usage "Standalone". If the Course Planner manages the course instead (usage "Use in Course Planner"), it does not appear in the Share tab, and the "Leave course" function is not available to the participants. If participants have booked an implementation, they cancel the booking themselves: They open the info page of the implementation in the catalog and select the action "Cancel booking" there. If a cancellation fee applies, the action is called "Cancel booking for a fee", and the confirmation dialog states the amount. The action appears only for an implementation with a begin date, until the day before it begins, and only if the offer is cancelable (see [Cancellation policy](../basic_concepts/Offer_Concepts.md#offer_invoice_cancellation)). After that, the administration of your organisation can help. [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 
 #### Administrative access {: #section_share_admin_access}
 
@@ -142,7 +145,7 @@ You can find more information about offers and the catalog here:<br>
 [Catalog >](../area_modules/catalog2.0.md)<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>
 [Create offers >](../area_modules/catalog2.0_angebote.md)<br>
-[Offering implementations in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)<br>
+[Offering implementations in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)
 
 [To the top of the page ^](#tab_share)
 
@@ -154,7 +157,7 @@ OpenOlat courses can also be accessed from another LMS via LTI 1.3. However, thi
 In this section, you can set up a deployment to make the course accessible for another LMS.
 
 You can find more information about sharing a course via LTI here:<br>
-[Configuring LTI access to a course >](../learningresources/LTI_Share_courses.md)<br>
+[Configuring LTI access to a course >](../learningresources/LTI_Share_courses.md)
 
 [To the top of the page ^](#tab_share)
 
@@ -164,13 +167,13 @@ You can find more information about sharing a course via LTI here:<br>
 
 ![Member counts by role, assigned groups and products, plus the administratively authorised persons with their rights](assets/course_settings_share_overview_v1_en.png){ class="shadow lightbox" title="Share overview in the Share tab · 2026.10.09" }
 
-In the **Members** block, you will find the number of course members, broken down by owners, coaches, and participants. With "Open members management", you switch directly to the member management of the course.
+In the "Members" block, you will find the number of course members, broken down by owners, coaches, and participants. With "Open members management", you switch directly to the member management of the course.
 
-The **Administrative access** block shows per role how many persons can also access this course due to this role, and with which right, for example "full access" for learning resource managers and administrators.
+The "Administrative access" block shows per role how many persons can also access this course due to this role, and with which right, for example "full access" for learning resource managers and administrators.
 
-If the course has been assigned to groups, you will find the relevant groups displayed in the **Groups** block.
+If the course is assigned to groups, the "Groups" block shows these groups.
 
-If the course has been assigned to a product in the Course Planner, you will find the uses displayed in the **Product** block.
+If the course is assigned to a product in the Course Planner, the "Product" block shows the uses.
 
 [To the top of the page ^](#tab_share)
 
@@ -179,7 +182,9 @@ If the course has been assigned to a product in the Course Planner, you will fin
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Function concept courses and learning resources >](../learningresources/General_Functions_Concept.md)<br>
 [How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Offer concepts: Cancellation policy for invoice offers >](../basic_concepts/Offer_Concepts.md)<br>
 [How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Module OAI-PMH >](../../manual_admin/administration/Modules_OAI.md)<br>
