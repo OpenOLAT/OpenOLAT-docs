@@ -1,7 +1,6 @@
 # Autorenbereich - Sammelaktionen {: #authoring_bulk_actions}
 
-Sobald Sie in der ersten Spalte der Tabelle eine Lernressource auswählen, erscheinen über der Tabelle zusätzliche Buttons, von "E-Mail versenden" bis "Löschen". Mit ihnen führen Sie Aktionen für die ausgewählten Lernressourcen gemeinsam durch, also für mehrere Lernressourcen auf einmal (Bulk Actions).<br>
-Diese Buttons sind nicht sichtbar, wenn nicht mindestens eine Lernressource ausgewählt ist. Die Buttons für Sammelaktionen und das Menü unter den 3 Punkten sehen Autor:innen, Lernressourcenverwalter:innen und Administrator:innen.
+Wollen Sie mehrere Lernressourcen gleich behandeln, etwa allen Kursen einer Reihe denselben Status geben, erledigen Sie das im Autorenbereich in einem Schritt statt Kurs für Kurs. Wählen Sie die Lernressourcen dazu in der ersten Spalte der Tabelle aus. Sobald mindestens eine ausgewählt ist, erscheinen über der Tabelle die Buttons für Sammelaktionen (Bulk Actions), von "E-Mail versenden" bis "Löschen". Die Buttons für Sammelaktionen und das Menü unter den 3 Punkten sehen Autor:innen, Lernressourcenverwalter:innen und Administrator:innen.
 
 Bei Klick auf die 3 Punkte am Ende einer Tabellenzeile erscheint ein Menü mit Aktionen nur für die Lernressource dieser Zeile.
 
@@ -17,9 +16,9 @@ Bei Klick auf die 3 Punkte am Ende einer Tabellenzeile erscheint ein Menü mit A
 
 ### E-Mail versenden [:octicons-tag-16:{ title="ab Release 11.5 (OO-2674)" }](https://track.frentix.com/issue/OO-2674){:target="_blank"} {: #send_mail}
 
-Wählen Sie die gewünschten Lernressourcen aus und klicken Sie auf "E-Mail versenden". Es öffnet sich ein Dialog. Sie können nun definieren, an wen die E-Mail verschickt werden soll. Mögliche Empfänger:innen sind **alle Kursbesitzer:innen, alle Kursbetreuer:innen und alle Teilnehmenden**.
+Wollen Sie die Mitglieder mehrerer Kurse mit einer Nachricht erreichen, etwa vor einer Änderung im Kursangebot, wählen Sie die Kurse aus und klicken Sie auf "E-Mail versenden". Im Dialog legen Sie fest, wer die E-Mail erhält: alle Kursbesitzer:innen, alle Kursbetreuer:innen und alle Teilnehmenden stehen zur Wahl.
 
-Fügen Sie einen Betreff und die gewünschte Nachricht hinzu. Bei Bedarf kann noch ein Anhang und eine Kopie für den Absender ergänzt werden.
+Fügen Sie einen Betreff und die Nachricht hinzu. Bei Bedarf ergänzen Sie einen Anhang und eine Kopie an sich selbst.
 
 !!! info "Wichtig"
 
@@ -27,11 +26,11 @@ Fügen Sie einen Betreff und die gewünschte Nachricht hinzu. Bei Bedarf kann no
 
 ### Status ändern [:octicons-tag-16:{ title="ab Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"} {: #change_status}
 
-Wählen Sie den Publikationsstatus aus, der für alle ausgewählten Lernressourcen gelten soll und klicken Sie auf "Ändern".
+Sollen mehrere Lernressourcen gleichzeitig veröffentlicht oder beendet werden, setzen Sie ihren Status in einem Schritt. Klicken Sie auf "Status ändern", wählen Sie den Publikationsstatus, der für alle ausgewählten Lernressourcen gelten soll, und klicken Sie auf "Ändern".
 
 ### Besitzer:innen bearbeiten [:octicons-tag-16:{ title="ab Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"} {: #modify_owners}
 
-Hier werden Ihnen alle **Besitzer:innen der ausgewählten Lernressourcen** angezeigt. Sie können diese gleichzeitig aus mehreren Kursen entfernen oder auch neue Besitzer:innen den ausgewählten Lernressourcen hinzufügen. Eine E-Mailbenachrichtigungsoption schliesst die Bearbeitung ab.
+Wechselt die Verantwortung für mehrere Lernressourcen, etwa beim Stellenwechsel einer Autorin, passen Sie die Besitzer:innen aller ausgewählten Lernressourcen gemeinsam an. Der Assistent führt durch vier Schritte: Im ersten zeigt er alle Besitzer:innen der ausgewählten Lernressourcen, und Sie entfernen sie gleichzeitig aus mehreren Lernressourcen. Im zweiten fügen Sie neue Besitzer:innen hinzu, im dritten prüfen Sie die Änderungen. Im letzten Schritt wählen Sie, ob OpenOlat eine E-Mail-Benachrichtigung versendet.
 
 ### Metadaten und Einstellungen [:octicons-tag-16:{ title="ab Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"} {: #metadata_settings}
 
@@ -43,9 +42,9 @@ Die Bereiche in der Reihenfolge des Assistenten:
 
 * "Metadaten": "Autor:innen / Durchführung mit", "Durchführungsformat" (nur bei Kursen, z.B. "Prüfungskurs"), "Hauptsprache", "Zeitaufwand", "Lizenz" (bei eingeschalteten Lizenzen) und "Freigabe OER-Kataloge und Suchmaschinen" (bei eingeschaltetem Modul OAI-PMH).
 * "Fachbereiche": Fachbereiche hinzufügen oder entfernen. Bei eingeschaltetem Katalog heisst der Bereich "Fachbereiche / Katalog".
+* "Durchführung": "Durchführungszeitraum" und "Durchführungsort" einheitlich setzen. Beim Durchführungszeitraum stehen "Jederzeit", "Zeitabschnitt", "Beginn- und Enddatum" und "Eintägig" zur Wahl; was die Optionen bewirken, beschreiben die [Kurseinstellungen](../learningresources/Course_Settings_Execution.de.md#execution_period). Mit "Eintägig" tragen Sie im Feld "Datum" einen Tag ein, die "Übersicht" zeigt dann "Durchführungszeitraum: Eintägig:" mit diesem Datum. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 * "Administrative Freigabe": Organisationen hinzufügen oder entfernen, siehe [Bereich "Administrative Freigabe"](#bulk_administrative_access).
 * "Autorenrechte": die Rechte "Referenzieren", "Kopieren" und "Exportieren" für alle anderen Autor:innen hinzufügen oder entfernen.
-* "Durchführung": "Durchführungszeitraum" und "Durchführungsort" einheitlich setzen.
 * "Toolbar": Werkzeuge der Toolbar ein- oder ausschalten.
 
 "Durchführung" und "Toolbar" bietet der Assistent nur an, wenn mindestens ein Kurs ausgewählt ist, und übernimmt die Änderungen nur bei Kursen.
@@ -72,29 +71,25 @@ Administrator:innen ordnen Kurse zudem in der System-Administration im Tab "Lern
 
 ### Kopieren {: #copy}
 
-Mit dem **Button "Kopieren" über der Tabelle** können Sie **mehrere Lernressourcen** kopieren.<br>
-Durch Anklicken von "Kopieren" im **Menü, das unter den 3 Punkten am Ende einer Zeile erscheint**, kopieren Sie eine **einzelne Lernressource**. (Die Lernressource dieser Tabellenzeile.)
+Eine Kopie lohnt sich, wenn Sie Lernressourcen für ein neues Semester wiederverwenden oder eine Sicherheitskopie erstellen wollen. Mit dem Button "Kopieren" über der Tabelle kopieren Sie mehrere Lernressourcen auf einmal. Mit "Kopieren" im Menü unter den 3 Punkten am Ende einer Zeile kopieren Sie nur die Lernressource dieser Zeile.
 
-Wählen Sie eine oder mehrere Lernressourcen aus um sie zu kopieren. Beispielsweise zur Wiederverwendung für ein neues Semester oder um eine Sicherheitskopie zu erstellen.
-
-Kopierte Lernressourcen befinden sich anschliessend im Tab "Meine Einträge". Der Zusatz ("Kopie") wird dem Titel hinzugefügt. Der Titel kann aber anschliessend nach Wunsch geändert werden.
+Kopierte Lernressourcen finden Sie danach im Tab "Meine Einträge". OpenOlat ergänzt den Titel um den Zusatz "(Kopie)", den Titel können Sie danach beliebig ändern.
 
 ### Löschen {: #delete}
 
-Eine Lernressource kann nur von den Besitzer:innen der Lernressource sowie Lernressourcenverwalter:innen und Administrator:innen gelöscht werden.
+Brauchen Sie Lernressourcen nicht mehr, räumen Sie den Autorenbereich auf, indem Sie sie löschen. Löschen dürfen die Besitzer:innen der Lernressource sowie Lernressourcenverwalter:innen und Administrator:innen.
 
-Mit dem **Button über der Tabelle** können Sie schnell **mehrere Lernressourcen auf einmal** löschen.<br>
-Wollen Sie nur eine **einzelne Lernressource** löschen, können Sie auch auf die **3 Punkte am Ende der betreffenden Tabellenzeile** klicken und dann auf die Option "Löschen".
+Mit dem Button "Löschen" über der Tabelle löschen Sie mehrere Lernressourcen auf einmal. Eine einzelne Lernressource löschen Sie auch über die 3 Punkte am Ende ihrer Tabellenzeile und die Option "Löschen".
 
-Sie müssen diese Aktion zur Sicherheit noch einmal im Menü bestätigen. Die Besitzer:innen der Lernressource werden, sofern konfiguriert, per E-Mail benachrichtigt.
+Zur Sicherheit bestätigen Sie die Aktion noch einmal. Die Besitzer:innen der Lernressource werden, sofern konfiguriert, per E-Mail benachrichtigt.
 
-Nach dem Löschen erscheinen die Lernressourcen nur noch im [Tab "**Gelöscht**"](../area_modules/Authoring.de.md#authoring-deleted) (Papierkorb-Funktion) für die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen.
+Nach dem Löschen erscheinen die Lernressourcen nur noch im [Tab "Gelöscht"](../area_modules/Authoring.de.md#authoring-deleted) (Papierkorb-Funktion) für die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen.
 
 Als Besitzer:in können Sie gelöschte Lernressourcen wiederherstellen. Das dauerhafte Löschen der Lernressourcen ist nur durch Administrator:innen oder Lernressourcenverwalter:innen möglich.
 
 ### Lernressource öffnen {: #open_resource}
 
-Ein Klick auf den **Titel** einer Lernressource öffnet die entsprechende Ressource.
+Um mit einer Lernressource zu arbeiten, klicken Sie in der Tabelle auf ihren Titel. OpenOlat öffnet dann die Lernressource.
 
 ### Einstellungen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"} {: #settings}
 
@@ -130,11 +125,11 @@ Hiermit exportieren Sie Ihre Lernressourcen als ZIP-Datei, zum Beispiel als Back
 
 ### Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
-Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, zeigt das Menü zusätzlich die Option "Als Lernpfad duplizieren" an. Ein neuer, konvertierter [Lernpfad-Kurs](../learningresources/Learning_path_course.de.md) wird als Kopie erstellt, die Ursprungsversion bleibt als herkömmlicher Kurs erhalten.
+Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, zeigt das Menü zusätzlich die Option "Als Lernpfad duplizieren" an. OpenOlat erstellt dann eine Kopie als [Lernpfadkurs](../learningresources/Learning_path_course.de.md), die Ursprungsversion bleibt als herkömmlicher Kurs erhalten.
 
 ### Kopieren mit Wizard [:octicons-tag-16:{ title="ab Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_with_wizard}
 
-Handelt es sich in der Tabellenzeile um einen Lernpfad-Kurs, zeigt das Menü zusätzlich die Option "Kopieren mit Wizard" an.
+Handelt es sich in der Tabellenzeile um einen Lernpfadkurs, zeigt das Menü zusätzlich die Option "Kopieren mit Wizard" an. Der Assistent führt Schritt für Schritt durch die Kopie und lässt Sie wählen, welche Teile des Kurses übernommen werden, beschrieben unter [Kopieren eines Kurses mit Wizard](../learningresources/Course_Copy_Wizard.de.md).
 
 [Zum Seitenanfang ^](#authoring_bulk_actions)
 
@@ -144,12 +139,14 @@ Handelt es sich in der Tabellenzeile um einen Lernpfad-Kurs, zeigt das Menü zus
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Autorenbereich - Übersicht >](Authoring.de.md)<br>
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)
+[Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
+[Kopieren eines Kurses mit Wizard >](../learningresources/Course_Copy_Wizard.de.md)
 
 **Weiterführend**<br>
 [Kurs erstellen >](../../manual_user/learningresources/Creating_Course.de.md)<br>

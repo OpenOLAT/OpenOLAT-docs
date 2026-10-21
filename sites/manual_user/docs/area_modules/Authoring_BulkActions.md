@@ -1,7 +1,6 @@
 # Authoring - Bulk Actions {: #authoring_bulk_actions}
 
-As soon as you select a learning resource in the first column of the table, additional buttons appear above the table, from "Send E-mail" to "Delete". With them, you carry out actions for the selected learning resources together, i.e. for several learning resources at once (Bulk Actions).<br>
-These buttons are not visible unless at least one learning resource is selected. The buttons for bulk actions and the menu under the 3 dots are visible to authors, learning resource managers and administrators.
+If you want to handle several learning resources in the same way, for example give all courses of a series the same status, you do this in Authoring in one step instead of course by course. To do so, select the learning resources in the first column of the table. As soon as at least one is selected, the buttons for bulk actions (Bulk Actions) appear above the table, from "Send E-mail" to "Delete". The buttons for bulk actions and the menu under the 3 dots are visible to authors, learning resource managers and administrators.
 
 Clicking on the 3 dots at the end of a table row opens a menu with actions only for the learning resource of this row.
 
@@ -17,9 +16,9 @@ Clicking on the 3 dots at the end of a table row opens a menu with actions only 
 
 ### Send E-mail [:octicons-tag-16:{ title="from Release 11.5 (OO-2674)" }](https://track.frentix.com/issue/OO-2674){:target="_blank"} {: #send_mail}
 
-Select the desired learning resources and click on "Send E-mail". A dialog opens. You can now define to whom the email should be sent. Possible recipients are **all course owners, all course coaches and all participants**.
+If you want to reach the members of several courses with one message, for example before a change in the course offering, select the courses and click on "Send E-mail". In the dialog, you specify who receives the email: all course owners, all course coaches and all participants are available.
 
-Add a subject and the desired message. If necessary, an attachment and a copy for the sender can be added.
+Add a subject and the message. If necessary, add an attachment and a copy to yourself.
 
 !!! info "Important"
 
@@ -27,11 +26,11 @@ Add a subject and the desired message. If necessary, an attachment and a copy fo
 
 ### Change status [:octicons-tag-16:{ title="from Release 17.1 (OO-5011)" }](https://track.frentix.com/issue/OO-5011){:target="_blank"} {: #change_status}
 
-Select the publication status that should apply to all selected learning resources and click on "Change".
+If several learning resources are to be published or finished at the same time, set their status in one step. Click on "Change status", select the publication status that should apply to all selected learning resources, and click on "Change".
 
 ### Modify owners [:octicons-tag-16:{ title="from Release 15.4 (OO-5025)" }](https://track.frentix.com/issue/OO-5025){:target="_blank"} {: #modify_owners}
 
-All **owners of the selected learning resources** are displayed here. You can remove them from several courses at the same time or add new owners to the selected learning resources. An email notification option completes the editing.
+If the responsibility for several learning resources changes, for example when an author changes jobs, you adjust the owners of all selected learning resources together. The wizard guides you through four steps: In the first, it shows all owners of the selected learning resources, and you remove them from several learning resources at the same time. In the second, you add new owners, in the third, you review the changes. In the last step, you choose whether OpenOlat sends an email notification.
 
 ### Metadata and settings [:octicons-tag-16:{ title="from Release 17.2 (OO-6441)" }](https://track.frentix.com/issue/OO-6441){:target="_blank"} {: #metadata_settings}
 
@@ -43,9 +42,9 @@ The sections in the order of the wizard:
 
 * "Metadata": "Authors / taught by", "Implementation format" (only for courses, e.g. "Exam course"), "Main language", "Expenditure of work", "License" (when licenses are enabled) and "Release OER catalogues and search engines" (when the OAI-PMH module is enabled).
 * "Subjects": add or remove subjects. When the catalog is enabled, the section is called "Subjects / Catalog".
+* "Execution": set "Execution period" and "Location" uniformly. For the execution period, "Anytime", "Time period", "Begin and end date" and "One-day" are available; what the options do is described in the [course settings](../learningresources/Course_Settings_Execution.md#execution_period). With "One-day", you enter a day in the field "Date", and the "Overview" then shows "Execution period: One-day:" with this date. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 * "Administrative access": add or remove organisations, see [Section "Administrative access"](#bulk_administrative_access).
 * "Authors rights": add or remove the rights "Reference", "Copy" and "Download" for all other authors.
-* "Execution": set "Execution period" and "Location" uniformly.
 * "Toolbar": switch tools of the toolbar on or off.
 
 The wizard only offers "Execution" and "Toolbar" if at least one course is selected, and only applies the changes to courses.
@@ -72,29 +71,25 @@ Administrators can also assign courses to an organisation in the system administ
 
 ### Copy {: #copy}
 
-With the **"Copy" button above the table** you can copy **several learning resources**.<br>
-By clicking on "Copy" in the **menu that appears under the 3 dots at the end of a row**, you copy a **single learning resource**. (The learning resource of this table row.)
+A copy is worthwhile if you want to reuse learning resources for a new semester or create a backup copy. With the button "Copy" above the table, you copy several learning resources at once. With "Copy" in the menu under the 3 dots at the end of a row, you copy only the learning resource of this row.
 
-Select one or more learning resources to copy them. For example, to reuse them for a new semester or to create a backup copy.
-
-Copied learning resources can then be found in the tab "My entries". The addition ("copy") is added to the title. However, the title can subsequently be changed as desired.
+You then find copied learning resources in the tab "My entries". OpenOlat adds the suffix "(copy)" to the title; you can change the title as desired afterwards.
 
 ### Delete {: #delete}
 
-A learning resource can only be deleted by the owners of the learning resource, learning resource managers, and administrators.
+If you no longer need learning resources, tidy up Authoring by deleting them. The owners of the learning resource, learning resource managers and administrators may delete.
 
-With the **button above the table** you can quickly delete **several learning resources at once**.<br>
-If you only want to delete a **single learning resource**, you can also click on the **3 dots at the end of the respective table row** and then on the option "Delete".
+With the button "Delete" above the table, you delete several learning resources at once. You also delete a single learning resource via the 3 dots at the end of its table row and the option "Delete".
 
-You must confirm this action again in the menu for the sake of safety. The owners of the learning resource will be notified by email, if configured.
+For safety, you confirm the action once more. The owners of the learning resource will be notified by email, if configured.
 
-After deletion, the learning resources will only appear in the ["**Deleted**" tab](../area_modules/Authoring.md#authoring-deleted) (trash function) for the respective owners, learning resource managers, and administrators.
+After deletion, the learning resources will only appear in the ["Deleted" tab](../area_modules/Authoring.md#authoring-deleted) (trash function) for the respective owners, learning resource managers, and administrators.
 
 As the owner, you can restore deleted learning resources. Only administrators or learning resource managers can permanently delete learning resources.
 
 ### Open learning resource {: #open_resource}
 
-Clicking on the **title** of a learning resource opens the corresponding resource.
+To work with a learning resource, click on its title in the table. OpenOlat then opens the learning resource.
 
 ### Settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"} {: #settings}
 
@@ -130,11 +125,11 @@ This allows you to export your learning resources as a ZIP file, for example as 
 
 ### Duplicate as learning path {: #duplicate_as_learning_path}
 
-If the table row is a conventional course, the menu also shows the option "Duplicate as learning path". A new, converted [Learning path course](../learningresources/Learning_path_course.md) is created as a copy, the original version is preserved as a conventional course.
+If the table row is a conventional course, the menu also shows the option "Duplicate as learning path". OpenOlat then creates a copy as a [learning path course](../learningresources/Learning_path_course.md), and the original version is preserved as a conventional course.
 
 ### Copy with wizard [:octicons-tag-16:{ title="from Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_with_wizard}
 
-If the table row is a learning path course, the menu also shows the option "Copy with wizard".
+If the table row is a learning path course, the menu also shows the option "Copy with wizard". The wizard guides you step by step through the copy and lets you choose which parts of the course are taken over, described under [Copy a course with wizard](../learningresources/Course_Copy_Wizard.md).
 
 [To the top of the page ^](#authoring_bulk_actions)
 
@@ -144,12 +139,14 @@ If the table row is a learning path course, the menu also shows the option "Copy
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Authoring - Overview >](Authoring.md)<br>
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
-[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)
+[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)<br>
+[Copy a course with wizard >](../learningresources/Course_Copy_Wizard.md)
 
 **Further reading**<br>
 [Creating Courses >](../../manual_user/learningresources/Creating_Course.md)<br>

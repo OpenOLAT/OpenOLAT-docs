@@ -444,32 +444,40 @@ In the display settings, the implementation differs from the course in three poi
 ![Five options from Outline to Credit points, the roles with their number of people and the Credit points field with amount and credit point system](assets/course_planner_implementations_tab_settings_infos_v3_en.png){ class="shadow lightbox" title="Infos sub-tab of the settings of an implementation · 2026.10.09" }
 
 
-#### Execution in the settings
+#### Execution in the settings {: #tab_settings_execution}
 
-The execution settings include the execution period, the location and the number of participants.
+When and where the implementation takes place and how many people can participate is set in the sub-tab "Execution": with the fields "Execution period", "Location" and "Number of participants". The execution period appears on the info page of the implementation under "Facts", and time-controlled [automations](#tab_settings_automation) calculate with it. "Number of participants" is only available for the implementation itself, not for its subordinate elements.
+
+Three options are available for the execution period: [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
+
+- "Anytime": The implementation is not bound to a period.
+- "Begin and end date": In the field "Dates", you enter the begin and the end of the implementation.
+- "One-day": For implementations on a single day. In the field "Date", you only enter this day, OpenOlat sets the begin and the end to this day.
+
+Unlike the [course](../learningresources/Course_Settings_Execution.md#execution_period), there is no "Time period" here. If the begin and the end of an implementation fall on the same day, for example after an import, "One-day" is selected the next time it is opened. If an external system manages the execution period, the options and the date cannot be edited.
 
 ![The execution period with begin and end date, the location and the number of participants with min. and max.](assets/course_planner_implementations_tab_settings_execution_v2_en.png){ class="shadow lightbox" title="Execution sub-tab of the settings · 2026.09.30" }
 
 
 #### Configure automation [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"} {: #tab_settings_automation}
 
-In the **"Automation"** subsection of the settings tab, you define when courses are [instantiated](#tab_content) automatically and when status changes are triggered automatically.
+If a course is to be used multiple times and always in the same way, create it as a template. OpenOlat then creates the courses from the template for each implementation. The [instantiation](#tab_content) can be set automatically to a specific time and controlled role-specifically, for example accessible to coaches a few days before an implementation starts. Until then, the template owners still work on the template while the organizational planning in the Course Planner is already under way.
 
-The subsection appears for elements whose element type has the use "Implementation" or "Element". For the use "Implementation or element (legacy)" it is missing.
+In the sub-tab "Automation" of the tab "Settings", you define when courses are [instantiated](#tab_content) automatically and when status changes are triggered automatically.
 
-If a course is to be used multiple times in exactly the same way, it can be created as a template. The courses are then created from the template for each implementation. [Instantiation](#tab_content) can take place automatically at a specific time and role-specifically, e.g. accessible to coaches a few days before an implementation starts. Until then, the template owners can still work on the template while the organizational planning in the Course Planner is already under way.
+The sub-tab appears for elements whose element type has the use "Implementation" or "Element". For the use "Implementation or element (legacy)" it is missing.
 
 **Scope of the automation rules:**
 
 Automation rules are defined at two levels:
 
 * **Element type level** in the system administration under `Administration > Modules > Course Planner > Tab Element types`: Administrators define default rules for each element type. These rules serve as a template for all elements of this type.
-* **Element level** `Settings tab > Automation`: For each individual element, you decide whether the rules of the element type are adopted or overridden individually.
+* **Element level** under `Course Planner > Implementations > "your implementation" > Tab Settings > Automation`: For each individual element, you decide whether the rules of the element type are adopted or overridden individually.
 
 Two modes are available for the individual element:
 
-* **"Adopt from type "Element type""**: The element uses the default rules of the element type. The label names the type and whether rules are active there. If administrators adjust the template, this automatically affects all elements that use this mode.
-* **"Override"**: The element uses deviating, individually configured rules, independent of the element type.
+* **Adopt from type "Element type"**: The element uses the default rules of the element type. The label names the type and whether rules are active there. If administrators adjust the template, this automatically affects all elements that use this mode.
+* **Override**: The element uses deviating, individually configured rules, independent of the element type.
 
 **Types of automation rules:**
 
@@ -477,6 +485,8 @@ Two modes are available for the individual element:
 |---|---|
 | On status change | An action is triggered as soon as the implementation or element status reaches a certain value. |
 | Time-controlled | An action is triggered relative to the start or end of the implementation period. |
+
+Time-controlled rules calculate from the begin or the end in the [execution period](#tab_settings_execution). If an element has no such date itself, the date of the nearest superordinate element that has one applies. If it is missing there too, OpenOlat does not execute the rule. For a one-day implementation, the day of the implementation is both the begin and the end. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 
 **Execution of the rules:**
 

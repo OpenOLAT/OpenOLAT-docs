@@ -1,34 +1,39 @@
 # Course Settings - Tab Execution {: #tab_execution}
 
-Unlike other learning resources, courses still have an "Execution" tab in the "Settings" menu.
+In the "Execution" tab, you specify when and where a course takes place, whether it manages events and absences, and how OpenOlat calculates the learning progress. Only courses have this tab, other learning resources do not. You find it under:<br>
+`Course > Administration > Settings > Tab "Execution"`
 
-![All settings of the tab one below the other, from the execution period to the learning progress](assets/course_settings_execution1_v3_en.png){ class="shadow lightbox" title="Tab Execution in the Settings menu of a course" }
+![All settings of the tab one below the other, the execution period is set to One-day and the field Date takes the single course day](assets/course_settings_execution1_v4_en.png){ class="shadow lightbox" title="Tab Execution in the settings of a course · 2026.10.21" }
 
 ## Configuration of execution {: #config_execution}
 
 #### Execution period {: #execution_period }
 
-For learning resources of the "Course" type, a duration can be specified. The following options are available:
+With the execution period, you specify when the course takes place. Participants see it on the info page, and time-dependent functions such as reminders calculate with its dates. Four options are available for the execution period:
 
-* _None_: Select this option if the course does not begin and end on a specific date, or if you do not want to include the dates explicitly in the course information.
+* **Anytime**: The course is not bound to a period. The info page shows no execution period, and time-dependent functions have no reference point.
 
-* _With begin and end date_: The course owner can enter the start and end dates of the course here. The end date includes the final day (11:59 p.m.).
+* **Time period**: You select a predefined time period, for example a semester, see the section [Time period](#lifecycle). The option only appears if the administration has switched on the module "Time periods".
 
-* _Time period_: If you select this option, you will be presented with predefined time periods, such as semesters, to choose from. See the section "Time period".
+* **Begin and end date**: In the field "Dates", you enter the begin date and the end date of the course. The end day belongs to the period. If one of the two dates stays empty, the info page shows "From" with the begin date or "Until" with the end date.
 
-The selected course period is displayed in the course information. 
+* **One-day** [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}: For courses that take place on a single day. In the field "Date", you only enter this day. OpenOlat sets the begin and the end to this day, so that reminders and the course life cycle have an end date. The info page only shows this date. If the begin and the end of a course fall on the same day, "One-day" is selected the next time the settings are opened.
+
+The selected execution period appears on the info page of the course under "Facts". 
+
+OpenOlat offers the same options when you [create a course](Creating_Course.md), also when you create it from a template, in the wizard ["Copy with wizard"](Course_Copy_Wizard.md), and for several courses at once in the bulk action ["Metadata and settings"](../area_modules/Authoring_BulkActions.md#metadata_settings) in Authoring. Which option is preselected when a course is created is set by the administration, see [Module Course](../../manual_admin/administration/Modules_Course.md#execution_period).
 
 !!! info "Important"
 
     This setting should not be confused with the course status and does not affect the visibility or access of course members. 
 
-However, keep the following in mind: 
+On other functions in the course, however, the execution period does have an effect:
 
-If "With begin and end date" is selected, the dates entered here will also apply to various time-dependent functions in the course, such as reminders or the automatic submission of assignments in the assignment module. 
+If "Begin and end date" or "One-day" is selected, the dates entered here will also apply to various time-dependent functions in the course, such as reminders or the automatic submission of assignments in the assignment module. With "One-day", the course day is both the begin and the end. 
 
-The end date of the course period is also used for the course lifecycle. The exact implications of this are determined by the OpenOlat administrators. For example, the course could be set to "completed" two days after the end date and/or deleted four weeks after the end date. It is best to check which settings apply to the course lifecycle in your OpenOlat instance. The configuration is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
+The end date of the execution period also controls the course life cycle. What happens after the end date is determined by the OpenOlat administrators. For example, OpenOlat can set the course to "Finished" two days after the end date or delete it four weeks later. It is best to check which settings apply to the course lifecycle in your OpenOlat instance. The configuration is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
 
-In traditional courses, the "Pass" status is determined based on whether the result was achieved within the course period. If a "Pass" is not achieved by the end date, "Fail" is automatically displayed.
+In traditional courses, the "Pass" status is determined based on whether the result was achieved within the course period. If a "Pass" is not achieved by the end of the end day (11:59 p.m.), "Fail" is automatically displayed.
 
 !!! note "Note"
 
@@ -37,13 +42,14 @@ In traditional courses, the "Pass" status is determined based on whether the res
 
 #### Time period {: #lifecycle }
 
-If the OpenOlat administrator has configured time periods (e.g., semesters) at the system level, you can select one of the predefined options here when "Time period" is selected as the execution period. The time period then appears as information in the course overview. However, the time period is independent of the course status and course access rights (see the chapter ["Access Configuration"](../learningresources/Access_configuration.md)). It therefore has no effect on visibility or access for course members.
+If your organisation plans in fixed time periods such as semesters, assign the course to one of these time periods instead of entering dates. To do so, select "Time period" for the execution period and then choose an entry in the field "Time period" below. Current and upcoming time periods are available that administrators have created in the system administration: `Administration > Modules > Time periods`, described under [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md).
+
+The time period appears on the info page of the course under "Facts". It is independent of the course status and of the [access configuration](../learningresources/Access_configuration.md) and has no effect on visibility or access for course members.
 
 
 #### Location {: #execution_location }
 
-The location where a course or learning resource takes place. This field is particularly useful for blended learning offerings. For courses that are entirely online, this field can be left blank. Alternatively, you can enter "online" or "Internet" here.
-The text entered in this field will be displayed in the course information.
+If the course takes place on site in whole or in part, for example in a blended learning offering, enter the place in the field "Location". Participants then know where to go. For a course that is entirely online, the field stays empty, or you enter "online". The entry appears on the info page under "Facts" as "Location".
 
 
 [To the top of the page ^](#tab_execution)
@@ -53,11 +59,11 @@ The text entered in this field will be displayed in the course information.
 
 ## Configuration of Event & Absence management in course {: #config_event_and_absence_management} [:octicons-tag-16:{ title="from Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636)
 
-This section is edited by **course owners**. Coaches do not reach it; they find the "Events" tool in the course toolbar.
+If you want to plan events and record attendance in the course, switch on the Event & absence management here and specify how OpenOlat counts attendance and absences. This section is edited by **course owners**. Coaches do not reach it; they find the "Events" tool in the course toolbar.
 
 #### Event & absence management {: #lecture_enabled }
 
-This toggle is available if the module "Events and Absences" is [activated system-wide](../../manual_admin/administration/Modules_Events_and_Absences.md). Without the activated module, the whole section "Configuration of Event & Absence management in course" is missing in the "Execution" tab.
+This switch is available if the module "Events and Absences" is [activated system-wide](../../manual_admin/administration/Modules_Events_and_Absences.md). Without the activated module, the whole section "Configuration of Event & Absence management in course" is missing in the "Execution" tab.
 
 You do not have to set the switch yourself in every case. In three cases, OpenOlat switches on the Event & absence management if it is still switched off:
 
@@ -76,7 +82,8 @@ Only the switch itself is switched on; the other settings of this section keep t
 
 If the Event & absence management is switched on for the current course, the remaining settings of this section appear. The fields "Prep time", "Follow-up" and "Admissible IP addresses" are only added once "Event can be marked as an exam" is switched on. The field "Safe Exam Browser Keys" additionally only appears with the Safe Exam Browser type "With manual keys" (see [Safe Exam Browser Keys](#seb_key)).
 
-In addition, the "Events and Absences" menu will then appear in the course administration. As the **course owner**, you can enter events and absences there once the configuration is complete (at runtime).
+In addition, the menu "Events and Absences" appears in the course administration. There, as a course owner, you enter events and absences once the configuration is complete:<br>
+`Course > Administration > Events and Absences`
 
 !!! note "Note"
 
@@ -86,9 +93,9 @@ In addition, the "Events and Absences" menu will then appear in the course admin
 
 #### Override default configuration {: #config_override }
 
-If overwriting is permitted with "Yes", the following checkboxes and input fields can be edited and a specific configuration of the event and absence management can be made for this course.
+If this course is to work differently from the default of the administration, set "Override default configuration" to "Yes". The checkboxes and input fields below then become editable, and you configure the event and absence management for this course.
 
-If the option is set to "No", the administrator's default setting will be applied. The checkboxes and input fields below remain inactive and display the default value. The functions preset there are nevertheless effective in the course.
+If the option is set to "No", the default setting of the administration applies. The checkboxes and input fields below remain inactive and show the default value. The preset functions are nevertheless effective in the course.
 
 Whether you can switch on overwriting at all is set by administrators in the system administration with the setting "Default configuration": `Administration > Modules > Events / Absences`, tab "Configuration", section "Course-level configuration". With the selection card "Overridable" you can choose this option freely. With "Read-only" it stays on "No" and is greyed out, unless overwriting was already switched on in this course before.
 
@@ -103,7 +110,7 @@ Whether you can switch on overwriting at all is set by administrators in the sys
 
 #### Roll call enabled {: #roll_call_enabled }
 
-If attendance monitoring is enabled, the additional configuration options **"Calculate attendance rate"** and **"Attendance quota global in %"** are available.
+If you want to record who attended the events, enable the roll call. Then "Calculate attendance rate" and "Attendance quota global in %" appear in addition.
 
 #### Calculate attendance rate {: #attendance_rate_calculation }
 
@@ -115,22 +122,21 @@ An event consists of 10 sessions. The participant was absent from one of the ses
 
 #### Attendance quota global in % {: #global_absence_rate }
 
-A global attendance rate is calculated for all participants across all dates of the current course and displayed in the personal menu under "Absences".
-The global absence rate specified here is used to assess the attendance rate.
+Across all events of the course, OpenOlat calculates a global attendance rate for each participant and shows it in the personal menu under "Absences". The quota entered here is the benchmark against which OpenOlat assesses this attendance rate.
 
 #### Synchronize teacher calendar {: #teacher_calendar_sync }
 
-If this option is selected, course dates are entered into the lecturers' personal calendars. (These dates are dates for which absences can be recorded.)
+If this option is selected, OpenOlat enters the events of the course in the personal calendar of the teachers. This applies to the events for which absences are recorded.
 
 #### Synchronize course calendar {: #course_calendar_sync }
 
-If this option is selected, events are entered in the course calendar. If this option is not selected, only the simple events are listed in the course calendar; events with the option to record an absence are no longer listed.
+If this option is selected, OpenOlat enters the events for which absences are recorded in the course calendar. Without the option, they are missing there; the other entries of the course calendar remain.
 
 #### Event can be marked as an exam {: #event_as_exam }
 
 The help icon next to the option shows the text "If this option is enabled, the event can be marked as an 'Exam'. A marked event is executed in assessment mode, optionally with SEB."
 
-If the option is switched on, you can select the "Mark as exam" option from the 3-dot menu for events. This creates an assessment mode. In addition, the following fields "Prep time", "Follow-up", "Admissible IP addresses" and "Safe Exam Browser Keys" appear with the course-wide default values for these assessment modes. The default values are applied when marking; assessment modes already created remain unchanged by later modifications.
+If the option is switched on, "Mark as exam" is available for events in the 3-dot menu. Marking an event in this way creates an assessment mode for it. In addition, the following fields "Prep time", "Follow-up", "Admissible IP addresses" and "Safe Exam Browser Keys" appear with the course-wide default values for these assessment modes. The default values are applied when marking; assessment modes already created remain unchanged by later modifications.
 
 The option only appears if the assessment mode is enabled system-wide. To change the option in the course, "Override default configuration" must be set to "Yes". If overwriting is set to "No" and the option is switched on in the system administration, this field appears checked and inactive, and "Mark as exam" works with the default values from the administration.
 
@@ -171,16 +177,17 @@ Assessment modes created directly via the [assessment management](../learningres
 
 #### Type {: #course_type }
 
-For your information, this section indicates whether the current course is a learning path course or a traditional (classic) course. 
+Here you see whether the course is a learning path course or a traditional (classic) course.
 
-Existing courses can be converted into a learning path course at this point. 
+If you want to continue a traditional course as a learning path course, click "Duplicate as learning path" here. OpenOlat then creates a copy as a learning path course, and the original course remains a traditional course.
 
 #### Calculation of learning progress {: #learning_progress }
 
-For learning path courses, you can specify whether the displayed course progress is calculated based on the number of required course modules or based on the time spent on the required course modules. If you select "time spent," all required course modules must be assigned corresponding durations in the course editor. 
-Optional course modules are not taken into account.
+The learning progress shows participants how far they have got in the learning path course. You choose what it is based on: "According to the number of mandatory course elements" or "According to the estimated duration of the mandatory course elements". Optional course elements do not count in either case.
 
-Traditional courses do not include a "Learning Progress" option.
+If you choose the duration, every mandatory course element needs an estimated duration. OpenOlat therefore asks for an initial value and enters it for all course elements that do not have a duration yet. You then adjust the individual values in the course editor.
+
+Traditional courses do not have the option "Calculation of learning progress".
 
 
 [To the top of the page ^](#tab_execution)
@@ -190,7 +197,12 @@ Traditional courses do not include a "Learning Progress" option.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Creating Courses >](Creating_Course.md)<br>
+[Copy a course with wizard >](Course_Copy_Wizard.md)<br>
+[Authoring - Bulk Actions >](../area_modules/Authoring_BulkActions.md)<br>
+[Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
 [Automatic Course Life Cycle >](../../manual_admin/administration/Automatic_Course_Lifecycle.md)<br>
+[Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>

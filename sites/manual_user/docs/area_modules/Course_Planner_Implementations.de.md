@@ -454,32 +454,40 @@ In den Anzeigeeinstellungen unterscheidet sich die Durchführung in drei Punkten
 
 ![Fünf Optionen von Gliederung bis Kreditpunkte, die Rollen mit ihrer Personenzahl und das Feld Kreditpunkte mit Anzahl und Kreditpunktesystem](assets/course_planner_implementations_tab_settings_infos_v3_de.png){ class="shadow lightbox" title="Unter-Tab Infos der Einstellungen einer Durchführung · 2026.10.09" }
 
-#### Durchführung in den Einstellungen
+#### Durchführung in den Einstellungen {: #tab_settings_execution}
 
-Zu den Einstellungen der Durchführung gehören der Durchführungszeitraum, der Ort und die Anzahl der Teilnehmer:innen.
+Wann und wo die Durchführung stattfindet und wie viele Personen teilnehmen können, legen Sie im Unter-Tab "Durchführung" fest: mit den Feldern "Durchführungszeitraum", "Durchführungsort" und "Anzahl Teilnehmer:innen". Der Durchführungszeitraum erscheint auf der Infoseite der Durchführung unter "Fakten", und zeitgesteuerte [Automatisierungen](#tab_settings_automation) rechnen mit ihm. "Anzahl Teilnehmer:innen" gibt es nur bei der Durchführung selbst, nicht bei ihren untergeordneten Elementen.
+
+Für den Durchführungszeitraum stehen drei Optionen zur Wahl: [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
+
+- "Jederzeit": Die Durchführung ist an keinen Zeitraum gebunden.
+- "Beginn- und Enddatum": Im Feld "Zeitraum" tragen Sie den Beginn und das Ende der Durchführung ein.
+- "Eintägig": Für Durchführungen an einem einzigen Tag. Im Feld "Datum" tragen Sie nur diesen Tag ein, OpenOlat setzt Beginn und Ende auf diesen Tag.
+
+Anders als beim [Kurs](../learningresources/Course_Settings_Execution.de.md#execution_period) gibt es hier keinen "Zeitabschnitt". Fallen Beginn und Ende einer Durchführung auf denselben Tag, etwa nach einem Import, ist beim nächsten Öffnen "Eintägig" gewählt. Verwaltet ein externes System den Durchführungszeitraum, lassen sich Optionen und Datum nicht bearbeiten.
 
 ![Der Durchführungszeitraum mit Beginn- und Enddatum, der Durchführungsort und die Anzahl Teilnehmer:innen mit Min. und Max.](assets/course_planner_implementations_tab_settings_execution_v2_de.png){ class="shadow lightbox" title="Unter-Tab Durchführung der Einstellungen · 2026.09.30" }
 
 
 #### Automatisierung konfigurieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578){:target="_blank"} {: #tab_settings_automation}
 
-Im Unterabschnitt **«Automatisierung»** der Tab-Einstellungen legen Sie fest, wann Kurse automatisch [instanziiert](#tab_content) und wann Statuswechsel automatisch ausgelöst werden.
+Soll ein Kurs mehrfach und dabei immer gleich verwendet werden, legen Sie ihn als Template an. OpenOlat erstellt die Kurse dann für jede Durchführung aus dem Template. Die [Instanziierung](#tab_content) lässt sich automatisch auf einen bestimmten Zeitpunkt legen und rollenspezifisch steuern, zum Beispiel einige Tage vor Beginn einer Durchführung zugänglich für Betreuer:innen. Bis dahin arbeiten die Templatebesitzer:innen noch am Template, während die organisatorische Planung im Course Planner bereits läuft.
 
-Der Unterabschnitt erscheint bei Elementen, deren Elementtyp die Verwendung «Durchführung» oder «Element» hat. Bei der Verwendung «Durchführung oder Element (legacy)» fehlt er.
+Im Unter-Tab "Automatisierung" des Tabs "Einstellungen" legen Sie fest, wann Kurse automatisch [instanziiert](#tab_content) und wann Statuswechsel automatisch ausgelöst werden.
 
-Soll ein Kurs mehrfach und dabei immer genau gleich verwendet werden, kann er als Template angelegt werden. Die Kurse werden dann für jede Durchführung aus der Template-Vorlage erstellt. Die [Instanziierung](#tab_content) kann automatisiert zu einem bestimmten Zeitpunkt sowie rollenspezifisch erfolgen, z.B. einige Tage vor Beginn einer Durchführung zugänglich für Betreuer:innen. Bis dahin können die Templatebesitzer:innen noch am Template arbeiten, während die organisatorische Planung im Course Planner bereits läuft.
+Der Unter-Tab erscheint bei Elementen, deren Elementtyp die Verwendung "Durchführung" oder "Element" hat. Bei der Verwendung "Durchführung oder Element (legacy)" fehlt er.
 
 **Geltungsbereich der Automatisierungsregeln:**
 
 Automatisierungsregeln werden auf zwei Ebenen definiert:
 
 * **Elementtyp-Ebene** in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`: Administrator:innen hinterlegen Standardregeln für jeden Elementtyp. Diese Regeln gelten als Vorlage für alle Elemente dieses Typs.
-* **Element-Ebene** `Tab Einstellungen > Automatisierung`: Für jedes einzelne Element entscheiden Sie, ob die Regeln des Elementtyps übernommen oder individuell überschrieben werden sollen.
+* **Element-Ebene** unter `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Einstellungen > Automatisierung`: Für jedes einzelne Element entscheiden Sie, ob die Regeln des Elementtyps übernommen oder individuell überschrieben werden sollen.
 
 Für das einzelne Element stehen zwei Modi zur Wahl:
 
-* **«Vom Typ "Elementtyp" übernehmen»**: Das Element verwendet die Standardregeln des Elementtyps. Die Beschriftung nennt den Namen des Typs und ob dort Regeln aktiv sind. Passen Administrator:innen die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
-* **«Überschreiben»**: Das Element verwendet abweichende, individuell konfigurierte Regeln, unabhängig vom Elementtyp.
+* **Vom Typ "Elementtyp" übernehmen**: Das Element verwendet die Standardregeln des Elementtyps. Die Beschriftung nennt den Namen des Typs und ob dort Regeln aktiv sind. Passen Administrator:innen die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
+* **Überschreiben**: Das Element verwendet abweichende, individuell konfigurierte Regeln, unabhängig vom Elementtyp.
 
 **Typen von Automatisierungsregeln:**
 
@@ -488,15 +496,17 @@ Für das einzelne Element stehen zwei Modi zur Wahl:
 | Bei Statuswechsel | Eine Aktion wird ausgelöst, sobald der Durchführungs- oder Elementstatus einen bestimmten Wert annimmt. |
 | Zeitgesteuert | Eine Aktion wird relativ zum Beginn oder Ende des Durchführungszeitraums ausgelöst. |
 
+Zeitgesteuerte Regeln rechnen ab dem Beginn oder dem Ende im [Durchführungszeitraum](#tab_settings_execution). Hat ein Element selbst kein solches Datum, gilt das Datum des nächsten übergeordneten Elements, das eines hat. Fehlt es auch dort, führt OpenOlat die Regel nicht aus. Bei einer eintägigen Durchführung ist der Durchführungstag zugleich Beginn und Ende. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
+
 **Ausführung der Regeln:**
 
 Aktivierte Automatisierungen laufen einmal täglich zu einer festen Uhrzeit. Die Uhrzeit nennt der Informationstext oberhalb der Konfiguration.
 
-Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung oberhalb der Tabs unter «Automatisierung» das Datum der nächsten Ausführung. Steht keine Ausführung mehr an, erscheint dort ein Strich.
+Sobald mindestens eine Regel aktiv ist, zeigt der Kopfbereich der Durchführung oberhalb der Tabs unter "Automatisierung" das Datum der nächsten Ausführung. Steht keine Ausführung mehr an, erscheint dort ein Strich.
 
 **Tabelle der Regeln:**
 
-Unter der Konfiguration listet eine Tabelle die Regeln des Elements. Die Tabs «Alle», «Relevant», «Durchführung» und «Inhalt» darüber grenzen die Liste ein; bei Elementen mit der Verwendung «Element» heisst der dritte Tab «Element». Vorgewählt ist «Relevant», der Tab zeigt nur die eingeschalteten Regeln. «Durchführung» und «Inhalt» zeigen die Regeln, die die Durchführung selbst bzw. ihre Kurse betreffen. Die Spalten nennen je Regel «Kontext», «Automatisierung», «Zielstatus» und «Bedingung», dazu unter «Der Durchführungsstatus ist», bei Elementen «Der Elementstatus ist», den Status, den die Durchführung bzw. das Element für die Ausführung haben muss, sowie «Geplante Ausführung» und «Ausführungsdatum». Der Schalter in der Spalte «Regel» zeigt, ob die Regel eingeschaltet ist.
+Unter der Konfiguration listet eine Tabelle die Regeln des Elements. Die Tabs "Alle", "Relevant", "Durchführung" und "Inhalt" darüber grenzen die Liste ein; bei Elementen mit der Verwendung "Element" heisst der dritte Tab "Element". Vorgewählt ist "Relevant", der Tab zeigt nur die eingeschalteten Regeln. "Durchführung" und "Inhalt" zeigen die Regeln, die die Durchführung selbst bzw. ihre Kurse betreffen. Die Spalten nennen je Regel "Kontext", "Automatisierung", "Zielstatus" und "Bedingung", dazu unter "Der Durchführungsstatus ist", bei Elementen "Der Elementstatus ist", den Status, den die Durchführung bzw. das Element für die Ausführung haben muss, sowie "Geplante Ausführung" und "Ausführungsdatum". Der Schalter in der Spalte "Regel" zeigt, ob die Regel eingeschaltet ist.
 
 ![Der Modus Überschreiben und die Tabelle der Regeln mit Kontext, Automatisierung, Zielstatus, Bedingung und geplanter Ausführung](assets/course_planner_implementations_tab_settings_automation_v4_de.png){ class="shadow lightbox" title="Unter-Tab Automatisierung der Einstellungen einer Durchführung · 2026.10.02" }
 

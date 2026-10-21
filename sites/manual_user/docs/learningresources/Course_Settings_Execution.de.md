@@ -1,8 +1,9 @@
 # Kurseinstellungen - Tab Durchführung {: #tab_execution}
 
-Kurse verfügen, im Gegensatz zu anderen Lernressourcen, im Menü "Einstellungen" noch über den Tab "Durchführung".
+Im Tab "Durchführung" legen Sie fest, wann und wo ein Kurs stattfindet, ob er Termine und Absenzen verwaltet und wie OpenOlat den Lernfortschritt berechnet. Den Tab gibt es nur bei Kursen, nicht bei anderen Lernressourcen. Sie finden ihn unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Durchführung"`
 
-![Alle Einstellungen des Tabs untereinander, vom Durchführungszeitraum bis zum Lernfortschritt](assets/course_settings_execution1_v3_de.png){ class="shadow lightbox" title="Tab Durchführung im Menü Einstellungen eines Kurses" }
+![Alle Einstellungen des Tabs untereinander, beim Durchführungszeitraum ist Eintägig gewählt und das Feld Datum nimmt den einen Kurstag auf](assets/course_settings_execution1_v4_de.png){ class="shadow lightbox" title="Tab Durchführung in den Einstellungen eines Kurses · 2026.10.21" }
 
 
 ## Einstellungen zur Durchführung {: #config_execution}
@@ -10,27 +11,31 @@ Kurse verfügen, im Gegensatz zu anderen Lernressourcen, im Menü "Einstellungen
 #### Durchführungszeitraum {: #execution_period }
 
 
-Bei Lernressourcen vom Typ "Kurs" kann ein Durchführungszeitraum festgelegt werden. Folgende Optionen sind möglich:
+Mit dem Durchführungszeitraum legen Sie fest, wann der Kurs stattfindet. Teilnehmende sehen ihn auf der Infoseite, und zeitabhängige Funktionen wie Erinnerungen rechnen mit seinen Daten. Für den Durchführungszeitraum stehen vier Optionen zur Wahl:
 
-* _Ohne_: Wählen Sie diese Option, wenn der Kurs nicht zu einem bestimmten Daten beginnt und aufhört oder Sie den Termin nicht explizit in den Informationen einbauen möchten.
+* **Jederzeit**: Der Kurs ist an keinen Zeitraum gebunden. Die Infoseite zeigt keinen Durchführungszeitraum, und zeitabhängige Funktionen haben keinen Bezugspunkt.
 
-* _Mit Beginn- und Enddatum_: Der Kursbesitzer kann hier das Start- und Enddatum des Kurses eintragen. Dabei ist beim Enddatum der Endtag miteingeschlossen (23:59).
+* **Zeitabschnitt**: Sie wählen einen vordefinierten Zeitabschnitt, zum Beispiel ein Semester, siehe den Abschnitt [Zeitabschnitt](#lifecycle). Die Option erscheint nur, wenn die Administration das Modul "Zeitabschnitte" eingeschaltet hat.
 
-* _Zeitabschnitt_: Bei Wahl dieser Option werden Ihnen vordefinierte Zeitabschnitte, wie z.B. Semester, zur Auswahl angeboten. Siehe den Abschnitt "Zeitabschnitt".
+* **Beginn- und Enddatum**: Im Feld "Zeitraum" tragen Sie das Beginn- und das Enddatum des Kurses ein. Der Endtag gehört zum Zeitraum. Bleibt eines der beiden Daten leer, zeigt die Infoseite "Ab" mit dem Beginndatum oder "Bis" mit dem Enddatum.
 
-Ein gewählter Durchführungszeitraum wird in der Kursinfo angezeigt. 
+* **Eintägig** [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}: Für Kurse, die an einem einzigen Tag stattfinden. Im Feld "Datum" tragen Sie nur diesen Tag ein. OpenOlat setzt Beginn und Ende auf diesen Tag, damit Erinnerungen und der Kurs-Lebenszyklus ein Enddatum haben. Die Infoseite zeigt nur dieses Datum. Fallen Beginn und Ende eines Kurses auf denselben Tag, ist beim nächsten Öffnen der Einstellungen "Eintägig" gewählt.
+
+Der gewählte Durchführungszeitraum erscheint auf der Infoseite des Kurses unter "Fakten". 
+
+Dieselben Optionen bietet OpenOlat beim [Erstellen eines Kurses](Creating_Course.de.md) an, auch beim Erstellen aus einem Template, ausserdem im Assistenten ["Kopieren mit Wizard"](Course_Copy_Wizard.de.md) und für mehrere Kurse gleichzeitig in der Sammelaktion ["Metadaten und Einstellungen"](../area_modules/Authoring_BulkActions.de.md#metadata_settings) des Autorenbereichs. Welche Option beim Erstellen eines Kurses vorgewählt ist, legt die Administration fest, siehe [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#execution_period).
 
 !!! info "Wichtig"
 
     Diese Einstellung ist nicht zu verwechseln mit dem Kursstatus und hat auch keine Auswirkungen auf die Sichtbarkeit oder den Zugang der Kursmitglieder. 
 
-Folgendes sollte man allerdings beachten: 
+Auf andere Funktionen im Kurs wirkt der Durchführungszeitraum dagegen:
 
-Wird "mit Beginn- und Enddatum" gewählt, gelten die hier eingetragenen Daten auch für verschiedene zeitabhängige Funktionen im Kurs, zum Beispiel für Erinnerungen oder im Aufgabenbaustein beim automatischen Einziehen von Aufgaben. 
+Wird "Beginn- und Enddatum" oder "Eintägig" gewählt, gelten die hier eingetragenen Daten auch für verschiedene zeitabhängige Funktionen im Kurs, zum Beispiel für Erinnerungen oder im Aufgabenbaustein beim automatischen Einziehen von Aufgaben. Bei "Eintägig" ist der Kurstag zugleich Beginn und Ende. 
 
-Das Enddatum des Durchführungszeitraums wird auch für den Kurs-Lebenszyklus verwendet. Welche genauen Konsequenzen damit verbunden sind, legen die OpenOlat-Administrator:innen fest. Z.B. könnte der Kurs 2 Tage nach dem Endtermin auf "beendet" gesetzt und/oder der Kurs 4 Wochen nach dem Termin gelöscht werden. Erkundigen Sie sich am besten, welche Einstellungen in Ihrer OpenOlat-Instanz für den Kurs-Lebenszyklus gelten. Die Konfiguration beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
+Das Enddatum des Durchführungszeitraums steuert auch den Kurs-Lebenszyklus. Was nach dem Enddatum geschieht, legen die OpenOlat-Administrator:innen fest. Zum Beispiel kann OpenOlat den Kurs 2 Tage nach dem Enddatum auf "Beendet" setzen oder ihn 4 Wochen danach löschen. Erkundigen Sie sich am besten, welche Einstellungen in Ihrer OpenOlat-Instanz für den Kurs-Lebenszyklus gelten. Die Konfiguration beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
 
-In herkömmlichen Kursen wird bei der Berechnung von "Bestanden" berücksichtigt, ob das Ergebnis innerhalb des Durchführungszeitraums erreicht wurde. Wird kein "Bestanden" bis zum Enddatum erzielt, erscheint automatisch "Nicht bestanden".
+In herkömmlichen Kursen wird bei der Berechnung von "Bestanden" berücksichtigt, ob das Ergebnis innerhalb des Durchführungszeitraums erreicht wurde. Wird bis zum Ende des Endtags (23:59 Uhr) kein "Bestanden" erzielt, erscheint automatisch "Nicht bestanden".
 
 !!! note "Hinweis"
 
@@ -39,13 +44,14 @@ In herkömmlichen Kursen wird bei der Berechnung von "Bestanden" berücksichtigt
 
 #### Zeitabschnitt {: #lifecycle }
 
-Wenn auf Systemebene vom OpenOlat Administrator Zeitabschnitte (z.B. Semester) konfiguriert wurden, kann bei gewähltem Durchführungszeitraum "Zeitabschnitt" hier eine der vordefinierten Optionen ausgewählt werden. Der Zeitabschnitt erscheint anschliessend als Information in der Kursübersicht. Der Zeitabschnitt ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel ["Zugangskonfiguration"](../learningresources/Access_configuration.de.md)). Er hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
+Plant Ihre Organisation in festen Zeitabschnitten wie Semestern, ordnen Sie den Kurs einem dieser Zeitabschnitte zu, statt Daten einzutragen. Wählen Sie dazu beim Durchführungszeitraum "Zeitabschnitt" und darunter im Feld "Zeitabschnitt" einen Eintrag. Zur Wahl stehen laufende und künftige Zeitabschnitte, die Administrator:innen in der System-Administration angelegt haben: `Administration > Module > Zeitabschnitte`, beschrieben unter [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md).
+
+Der Zeitabschnitt erscheint auf der Infoseite des Kurses unter "Fakten". Er ist unabhängig vom Kursstatus und von der [Zugangskonfiguration](../learningresources/Access_configuration.de.md) und hat keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
 
 #### Durchführungsort {: #execution_location }
 
-Der Ort, an dem ein Kurs bzw. eine Lernressource durchgeführt wird. Dieser Punkt ist vor allem bei Blended Learning Angeboten sinnvoll. Bei einer reinen online Nutzung kann das Feld auch frei bleiben. Alternativ kann hier "online" oder "Internet" eingetragen werden. 
-Die Eingabe in diesem Textfeld wird in der Kursinfo angezeigt.
+Findet der Kurs ganz oder teilweise vor Ort statt, etwa bei einem Blended-Learning-Angebot, tragen Sie im Feld "Durchführungsort" ein, wo das ist. So wissen die Teilnehmenden, wohin sie kommen. Bei einem reinen Online-Kurs bleibt das Feld leer, oder Sie tragen "online" ein. Der Eintrag erscheint auf der Infoseite unter "Fakten" als "Ort".
 
 [Zum Seitenanfang ^](#tab_execution)
 
@@ -54,12 +60,12 @@ Die Eingabe in diesem Textfeld wird in der Kursinfo angezeigt.
 
 ## Konfiguration Termin- und Absenzenverwaltung im Kurs {: #config_event_and_absence_management} [:octicons-tag-16:{ title="ab Release 12.0 (OO-2636)" }](https://track.frentix.com/issue/OO-2636)
 
-Diesen Abschnitt bearbeiten **Kursbesitzer:innen**. Betreuer:innen erreichen ihn nicht; sie finden das Werkzeug "Termine" in der Kurs-Werkzeugleiste.
+Wollen Sie im Kurs Termine planen und Anwesenheiten erfassen, schalten Sie hier die Termin- und Absenzenverwaltung ein und legen fest, wie OpenOlat Anwesenheit und Absenzen zählt. Diesen Abschnitt bearbeiten **Kursbesitzer:innen**. Betreuer:innen erreichen ihn nicht; sie finden das Werkzeug "Termine" in der Kurs-Werkzeugleiste.
 
 
 #### Termin- und Absenzenverwaltung {: #lecture_enabled }
 
-Dieser Toggle steht zur Verfügung, wenn das Modul "Termine und Absenzen" [systemweit aktiviert](../../manual_admin/administration/Modules_Events_and_Absences.de.md) ist. Ohne aktiviertes Modul fehlt der ganze Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs" im Tab "Durchführung".
+Dieser Schalter steht zur Verfügung, wenn das Modul "Termine und Absenzen" [systemweit aktiviert](../../manual_admin/administration/Modules_Events_and_Absences.de.md) ist. Ohne aktiviertes Modul fehlt der ganze Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs" im Tab "Durchführung".
 
 Den Schalter müssen Sie nicht in jedem Fall selbst setzen. In drei Fällen schaltet OpenOlat die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist:
 
@@ -78,7 +84,8 @@ Eingeschaltet wird nur der Schalter selbst; die übrigen Einstellungen dieses Ab
 
 Ist die Termin- und Absenzenverwaltung für den aktuellen Kurs eingeschaltet, erscheinen die übrigen Einstellungen dieses Abschnitts. Die Felder "Vorlaufzeit", "Nachlaufzeit" und "Erlaubte IP-Adressen" kommen erst dazu, wenn "Termin kann als Prüfung markiert werden" eingeschaltet ist. Das Feld "Safe Exam Browser Key" erscheint zusätzlich nur bei der Safe-Exam-Browser-Art "Mit manuellen Keys" (siehe [Safe Exam Browser Key](#seb_key)).
 
-Darüber hinaus erscheint anschliessend das Menü "Termine und Absenzen" in der Kurs-Administration. Als **Kursbesitzer:in** können Sie dort nach Fertigstellung der Konfiguration (zur Laufzeit) Termine und Absenzen erfassen.<br>
+Ausserdem erscheint in der Kurs-Administration das Menü "Termine und Absenzen". Dort erfassen Sie als Kursbesitzer:in Termine und Absenzen, sobald die Konfiguration fertig ist:<br>
+`Kurs > Administration > Termine und Absenzen`
 
 !!! note "Hinweis"
 
@@ -88,9 +95,9 @@ Darüber hinaus erscheint anschliessend das Menü "Termine und Absenzen" in der 
 
 #### Standardkonfiguration überschreiben {: #config_override }
 
-Wird das Überschreiben mit "Ja" zugelassen, sind die nachfolgenden Checkboxen und Eingabefelder editierbar und es kann spezifisch für diesen Kurs eine Konfiguration der Termin- und Absenzenverwaltung vorgenommen werden.
+Soll dieser Kurs anders arbeiten als die Vorgabe der Administration, setzen Sie "Standardkonfiguration überschreiben" auf "Ja". Die Checkboxen und Eingabefelder darunter werden dann bearbeitbar, und Sie konfigurieren die Termin- und Absenzenverwaltung für diesen Kurs.
 
-Steht die Option auf "Nein", wird die Voreinstellung des/der Administrator:in angewendet. Die nachstehenden Checkboxen und Eingabefelder bleiben inaktiv und zeigen den voreingestellten Wert an. Die dort voreingestellten Funktionen sind im Kurs dennoch wirksam.
+Steht die Option auf "Nein", gilt die Voreinstellung der Administration. Die Checkboxen und Eingabefelder darunter bleiben inaktiv und zeigen den voreingestellten Wert. Die voreingestellten Funktionen wirken im Kurs trotzdem.
 
 Ob Sie das Überschreiben überhaupt einschalten können, legen Administrator:innen in der System-Administration mit der Einstellung "Standardkonfiguration" fest: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration", Abschnitt "Konfiguration auf Kursebene". Bei der Auswahlkarte "Überschreibbar" können Sie diesen Punkt frei wählen. Bei "Schreibgeschützt" bleibt er auf "Nein" und ist ausgegraut, sofern das Überschreiben in diesem Kurs nicht schon vorher eingeschaltet war.
 
@@ -106,7 +113,7 @@ Ob Sie das Überschreiben überhaupt einschalten können, legen Administrator:in
 
 #### Anwesenheitskontrolle einschalten {: #roll_call_enabled }
 
-Wird die Anwesenheitskontrolle eingeschaltet, stehen als weitere Konfigurationsoptionen **"Anwesenheitsquote berechnen"** und **"Absenzenquote global in %"** zur Verfügung.
+Wollen Sie bei den Terminen festhalten, wer anwesend war, schalten Sie die Anwesenheitskontrolle ein. Danach erscheinen zusätzlich "Anwesenheitsquote berechnen" und "Absenzenquote global in %".
 
 #### Anwesenheitsquote berechnen {: #attendance_rate_calculation }
 
@@ -118,24 +125,23 @@ Ein Termin besteht aus 10 Einheiten. An einer der Einheiten war der/die Teilnehm
 
 #### Absenzenquote global in % {: #global_absence_rate }
 
-Über alle Termine des aktuellen Kurses hinweg wird bei allen Teilnehmer:innen eine globale Anwesenheitsquote errechnet und im persönlichen Menü unter dem Punkt "Absenzen" angezeigt. 
-Die hier angegebene globale Absenzquote wird für die Beurteilung der Anwesenheitsquote verwendet.
+Über alle Termine des Kurses berechnet OpenOlat für alle Teilnehmer:innen je eine globale Anwesenheitsquote und zeigt sie im persönlichen Menü unter "Absenzen". Die hier eingetragene Absenzenquote ist der Massstab, an dem OpenOlat diese Anwesenheitsquote beurteilt.
 
 
 #### Dozentenkalender synchronisieren {: #teacher_calendar_sync }
 
-Ist die Option gewählt, werden Kurs-Termine bei den Dozenten in ihren persönlichen Kalender eingetragen. (Bei den Terminen handelt es sich um Termine mit der Möglichkeit zum Erfassen einer Absenz.)
+Ist die Option gewählt, trägt OpenOlat die Termine des Kurses in den persönlichen Kalender der Dozent:innen ein. Gemeint sind die Termine, bei denen Absenzen erfasst werden.
 
 #### Kurs Kalender synchronisieren {: #course_calendar_sync }
 
-Ist die Option gewählt, werden Termine im Kurskalender eingetragen. Ist die Option nicht gewählt, sind nur noch die einfachen Termine im Kurskalender aufgeführt, die Termine mit der Möglichkeit zum Erfassen einer Absenz nicht mehr.
+Ist die Option gewählt, trägt OpenOlat die Termine, bei denen Absenzen erfasst werden, in den Kurskalender ein. Ohne die Option fehlen sie dort, die übrigen Einträge des Kurskalenders bleiben.
 
 
 #### Termin kann als Prüfung markiert werden {: #event_as_exam }
 
 Das Hilfe-Symbol neben der Option zeigt den Text "Wenn diese Option aktiviert ist, kann der Termin als 'Prüfung' markiert werden. Ein markierter Termin wird im Prüfungsmodus durchgeführt, optional mit SEB."
 
-Ist die Option eingeschaltet, kann man bei Terminen im 3-Punkte-Menü die Option "Als Prüfung markieren" wählen. Dadurch wird ein Prüfungsmodus erstellt. Ausserdem erscheinen die nachfolgenden Felder "Vorlaufzeit", "Nachlaufzeit", "Erlaubte IP-Adressen" und "Safe Exam Browser Key" mit den kursweiten Vorgabewerten für diese Prüfungsmodi. Die Vorgabewerte werden beim Markieren übernommen; bereits erstellte Prüfungsmodi bleiben bei späteren Änderungen unverändert.
+Ist die Option eingeschaltet, steht bei Terminen im 3-Punkte-Menü "Als Prüfung markieren" zur Wahl. Wer einen Termin so markiert, erstellt dazu einen Prüfungsmodus. Ausserdem erscheinen die nachfolgenden Felder "Vorlaufzeit", "Nachlaufzeit", "Erlaubte IP-Adressen" und "Safe Exam Browser Key" mit den kursweiten Vorgabewerten für diese Prüfungsmodi. Die Vorgabewerte werden beim Markieren übernommen; bereits erstellte Prüfungsmodi bleiben bei späteren Änderungen unverändert.
 
 Die Option erscheint nur, wenn der Prüfungsmodus systemweit eingeschaltet ist. Zum Ändern der Option im Kurs ist "Standardkonfiguration überschreiben" auf "Ja" nötig. Steht das Überschreiben auf "Nein" und ist die Option in der System-Administration eingeschaltet, erscheint dieses Feld angehakt und inaktiv, und "Als Prüfung markieren" arbeitet mit den Vorgabewerten der Administration.
 
@@ -176,17 +182,18 @@ Prüfungsmodi, die direkt über die [Prüfungsverwaltung](../learningresources/A
 
 #### Typ {: #course_type }
 
-Zur Information wird hier angezeigt, ob der aktuelle Kurs ein Lernpfadkurs oder ein herkömmlicher (klassischer) Kurs ist. 
+Hier sehen Sie, ob der Kurs ein Lernpfadkurs oder ein herkömmlicher (klassischer) Kurs ist.
 
-Herkömmliche Kurse können an dieser Stelle in einen Lernpfad-Kurs konvertiert werden. 
+Wollen Sie einen herkömmlichen Kurs als Lernpfadkurs weiterführen, klicken Sie hier auf "Als Lernpfad duplizieren". OpenOlat erstellt dann eine Kopie als Lernpfadkurs, der ursprüngliche Kurs bleibt als herkömmlicher Kurs erhalten.
 
 #### Lernfortschritt berechnen {: #learning_progress }
 
 
-Für Lernpfad Kurse kann definiert werden ob der angezeigte Kursfortschritt anhand der Anzahl der obligatorischen Kursbausteine oder anhand der Bearbeitungszeit der obligatorischen Kursbausteine berechnet wird. Wird die Bearbeitungszeit gewählt müssen alle obligatorischen Kursbausteine im Kurseditor mit entsprechenden Zeiten versehen werden. 
-Freiwillige Kursbausteine werden nicht berücksichtigt.
+Der Lernfortschritt zeigt Teilnehmenden, wie weit sie im Lernpfadkurs sind. Sie wählen, worauf er beruht: "Anhand der Anzahl der obligatorischen Kursbausteine" oder "Anhand der Bearbeitungszeit der obligatorischen Kursbausteine". Freiwillige Kursbausteine zählen in beiden Fällen nicht.
 
-Herkömmliche Kurse verfügen nicht über die Option "Lernfortschritt".
+Wählen Sie die Bearbeitungszeit, braucht jeder obligatorische Kursbaustein eine Bearbeitungszeit. OpenOlat fragt deshalb nach einem Anfangswert und trägt ihn bei allen Kursbausteinen ein, die noch keine Bearbeitungszeit haben. Die einzelnen Werte passen Sie danach im Kurseditor an.
+
+Herkömmliche Kurse haben die Option "Lernfortschritt berechnen" nicht.
 
 
 [Zum Seitenanfang ^](#tab_execution)
@@ -197,7 +204,12 @@ Herkömmliche Kurse verfügen nicht über die Option "Lernfortschritt".
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Kurs erstellen >](Creating_Course.de.md)<br>
+[Kopieren eines Kurses mit Wizard >](Course_Copy_Wizard.de.md)<br>
+[Autorenbereich - Sammelaktionen >](../area_modules/Authoring_BulkActions.de.md)<br>
+[Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
 [Automatischer Kurs-Lebenszyklus >](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md)<br>
+[Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)<br>
