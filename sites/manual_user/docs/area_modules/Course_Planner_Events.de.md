@@ -120,7 +120,7 @@ Erstellen Sie mit "Termin hinzufügen" einen Termin für einen Kurs, schaltet Op
 Ist das Modul "Räume" aktiviert, können Sie einem Termin einen oder mehrere Räume zuweisen. Das Feld "Räume" steht im Dialog zum Erstellen oder Bearbeiten eines Termins zur Verfügung, den Sie hier öffnen:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
 
-Die Raumauswahl berücksichtigt den Zeitraum des Termins und zeigt, welche Räume "Verfügbar" und welche "Besetzt" sind. Zu jedem Raum sehen Sie das Gebäude und die Anzahl Plätze; reicht die Kapazität für die Teilnehmerzahl nicht aus, weist OpenOlat darauf hin. Über "Räume hinzufügen" öffnen Sie eine Auswahl mit Tabellen- und Kalenderansicht, in der Sie nach Verfügbarkeit filtern und zu besetzten Räumen den früheren oder späteren freien Zeitraum sehen. In der Kalenderansicht dieser Auswahl öffnet ein Klick auf einen Eintrag das Fenster "Buchung" mit Raum, Termin, Datum und Zeit der bestehenden Buchung. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
+Die Raumauswahl berücksichtigt den Zeitraum des Termins und zeigt, welche Räume "Verfügbar" und welche "Besetzt" sind. Zu jedem Raum sehen Sie das Gebäude und die Anzahl Plätze; reicht die Kapazität für die Teilnehmerzahl nicht aus, weist OpenOlat darauf hin. Mit dem Button "Durchsuchen" neben dem Feld öffnen Sie eine Auswahl mit Tabellen- und Kalenderansicht, in der Sie nach Verfügbarkeit filtern und zu besetzten Räumen den früheren oder späteren freien Zeitraum sehen. In der Kalenderansicht dieser Auswahl öffnet ein Klick auf einen Eintrag das Fenster "Buchung" mit Raum, Termin, Datum und Zeit der bestehenden Buchung. [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
 
 In der Detailansicht eines Termins erscheint der gebuchte Raum unter dem Label "Raum" als Raumkarte mit Kennzeichen, Gebäude und Standort; sind mehrere Räume gebucht, lautet das Label "Räume".
 
@@ -130,6 +130,28 @@ Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung "Der Rau
 
 !!! note "Admin. Rechte erforderlich"
     Räume und Gebäude werden in der System-Administration unter `Administration > Module > Räume` verwaltet; dafür sind administrative Rechte erforderlich. Fehlen Ihnen diese Rechte, wenden Sie sich an eine Person mit administrativer Rolle, wenn Sie neue Räume benötigen oder Angaben zu einem Raum anpassen lassen möchten.
+
+[zum Seitenanfang ^](#events)
+
+
+---
+
+## Termine kopieren [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9744)" }](https://track.frentix.com/issue/OO-9744){:target="_blank"} {: #copy_events}
+
+Wiederholt sich ein Termin der Durchführung, kopieren Sie ihn, statt ihn neu zu erfassen. Kopiert wird wie im Kurs im Tab "Termine":<br>
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine`
+
+Einen einzelnen Termin kopieren Sie mit "Kopieren" im 3-Punkte-Menü seiner Zeile, mehrere Termine mit Häkchen und dem Button "Kopieren" über der Liste. Was die Kopie übernimmt und wie sich die beiden Wege unterscheiden, beschreibt [Einen oder mehrere Termine kopieren](../learningresources/Events_and_absences.de.md#copy_events).
+
+Ist das Modul "Räume" aktiviert, übernimmt die Kopie auch die Räume des Ausgangstermins. Beim Kopieren eines einzelnen Termins sind die Räume im Dialog "Termin bearbeiten" im Feld "Räume" vorausgewählt und werden mit "Speichern" gebucht. Beim Kopieren mehrerer Termine bucht OpenOlat die Räume sofort.
+
+![Der Dialog Termin bearbeiten einer Kopie im Course Planner mit dem vom Ausgangstermin übernommenen Raum im Feld Räume](assets/course_planner_events_copy_event_rooms_v1_de.png){ class="shadow lightbox" title="Dialog Termin bearbeiten einer Kopie · 2026.10.21" }
+
+!!! warning "Raum doppelt belegt, bis Sie die Kopie umdatieren"
+
+    Die Kopie liegt auf demselben Datum und zur selben Zeit wie der Ausgangstermin. Bis Sie sie umdatieren, belegt sie dieselben Räume ein zweites Mal. In der Raumauswahl steht der Raum deshalb unter "Besetzt", und die Detailansicht der Kopie zeigt die Warnung zur Doppelbuchung. Ändern Sie beim Kopieren eines einzelnen Termins Datum und Zeit, bevor Sie speichern. Kopierte Termine einer Mehrfachauswahl datieren Sie danach einzeln mit "Bearbeiten" um.
+
+Nach dem Kopieren mehrerer Termine gilt jede Kopie zunächst für niemanden: In ihrer Detailansicht zeigt die Tabelle zuunterst in der Spalte "Status" den Wert "Ausgeschlossen". Mit "Teilnehmer wieder einschliessen" im 3-Punkte-Menü der Zeile nehmen Sie die Teilnehmenden auf, siehe [Für wen ein Termin gilt](#event_elements).
 
 [zum Seitenanfang ^](#events)
 
@@ -155,7 +177,8 @@ Die Termine, die die Liste gerade zeigt, laden Sie mit dem Download-Button recht
 [Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
 [Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
-[Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)
+[Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)<br>
+[Termine und Absenzen >](../../manual_user/learningresources/Events_and_absences.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>

@@ -116,7 +116,7 @@ If you create an event for a course with "Add event", OpenOlat switches on the E
 If the module "Rooms" is activated, you can assign one or more rooms to an event. The "Rooms" field is available in the dialog for creating or editing an event, which you open here:<br>
 `Course Planner > Implementations > "your implementation" > Tab Events`
 
-The room selection takes the time period of the event into account and shows which rooms are "Available" and which are "Occupied". For each room you see the building and the number of seats; if the capacity is not sufficient for the number of participants, OpenOlat points this out. Via "Add rooms" you open a selection with table and calendar view, where you can filter by availability and see the earlier or later free time slot for occupied rooms. In the calendar view of this selection, a click on an entry opens the "Booking" window with room, event, date and time of the existing booking. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
+The room selection takes the time period of the event into account and shows which rooms are "Available" and which are "Occupied". For each room you see the building and the number of seats; if the capacity is not sufficient for the number of participants, OpenOlat points this out. With the "Browse" button next to the field you open a selection with table and calendar view, where you can filter by availability and see the earlier or later free time slot for occupied rooms. In the calendar view of this selection, a click on an entry opens the "Booking" window with room, event, date and time of the existing booking. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9715)" }](https://track.frentix.com/issue/OO-9715){:target="_blank"}
 
 In the detail view of an event, the booked room appears under the label "Room" as a room card with reference, building and location; if several rooms are booked, the label is "Rooms".
 
@@ -132,6 +132,28 @@ If a room is double-booked during the period of the event, the warning "The room
 
 ---
 
+
+## Copying events [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9744)" }](https://track.frentix.com/issue/OO-9744){:target="_blank"} {: #copy_events}
+
+If an event of the implementation recurs, copy it instead of entering it again. You copy in the "Events" tab, as in the course:<br>
+`Course Planner > Implementations > "your implementation" > Tab Events`
+
+Copy a single event with "Copy" in the 3-dot menu of its row, several events with ticks and the "Copy" button above the list. What the copy takes over and how the two ways differ is described under [Copying one or several events](../learningresources/Events_and_absences.md#copy_events).
+
+If the "Rooms" module is activated, the copy also takes over the rooms of the source event. When you copy a single event, the rooms are preselected in the "Rooms" field of the dialog "Edit event" and are booked with "Save". When you copy several events, OpenOlat books the rooms immediately.
+
+![The dialog Edit event of a copy in the Course Planner with the room taken over from the source event in the Rooms field](assets/course_planner_events_copy_event_rooms_v1_en.png){ class="shadow lightbox" title="Dialog Edit event of a copy · 2026.10.21" }
+
+!!! warning "Room booked twice until you reschedule the copy"
+
+    The copy is on the same date and at the same time as the source event. Until you reschedule it, it occupies the same rooms a second time. In the room selection, the room is therefore listed under "Occupied", and the detail view of the copy shows the double booking warning. When you copy a single event, change the date and time before you save. Reschedule copies from a multiple selection afterwards, one by one, with "Edit".
+
+After copying several events, each copy initially applies to no one: in its detail view, the table at the very bottom shows the value "Excluded" in the column "Status". With "Include participants again" in the 3-dot menu of the row you add the participants, see [Who an event is for](#event_elements).
+
+[To the top of the page ^](#events)
+
+
+---
 
 ## Download events as an Excel list {: #download_events}
 
@@ -150,7 +172,8 @@ Use the download button at the top right above the list to download the events t
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>
 [Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
 [Course Settings - Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
-[Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)
+[Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)<br>
+[Events and absences >](../../manual_user/learningresources/Events_and_absences.md)
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>

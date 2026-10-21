@@ -13,7 +13,8 @@ Danach stehen dort weitere Einstellungen bereit, und in der Kurs-Toolbar erschei
 
 ## "Termine" in der Toolbar {: #toolbar_events}
 
-Als Kursbesitzer:in legen Sie hier Termine an und verwalten die Absenzen. Dieselben Möglichkeiten finden Sie weitgehend auch im Menü Administration unter "Termine und Absenzen".
+Als Kursbesitzer:in legen Sie hier Termine an und verwalten die Absenzen. Dieselben Möglichkeiten finden Sie weitgehend auch im Menü Administration des Kurses:<br>
+`Kurs > Administration > Termine und Absenzen`
 
 ![Menüeintrag "Termine und Absenzen" öffnet die Termin- und Absenzenverwaltung für Kursbesitzer:innen](assets/events_and_absences_adminmenu_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.10.09" }
 
@@ -43,7 +44,7 @@ Im Tab "Termine" fügen Sie dem Kurs Termine hinzu und grenzen die Liste mit den
 
 Im 3-Punkte-Menü am Ende jeder Zeile finden Sie die Aktionen zu einem Termin:
 
-- **Bearbeiten** und **Kopieren**
+- **Bearbeiten** und "Kopieren"
 - **Ändere in Online Meeting** oder "Ändere in vor Ort Termin", bei einem Termin mit Online Meeting zusätzlich "Online Meeting beitreten"
 - **Als Prüfung markieren**, bei einem bereits markierten Termin stattdessen "Prüfung editieren" und "Prüfung löschen", siehe [Termin als Prüfung markieren](#mark_event_as_exam)
 - **Absenzenliste** und "Präsenzliste" als PDF, "Log" und "Export" als Excel-Datei
@@ -85,13 +86,13 @@ Die übrigen Angaben erscheinen nur, wenn sie am Termin gepflegt sind:
 
 * **Online Meeting**: "Online Meeting beitreten" als hervorgehobene Schaltfläche, dazu der Link auf eine hinterlegte Aufzeichnung.
 * **Raum**: die Raumkarte unter dem Label "Raum", bei mehreren Räumen unter "Räume". Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung unterhalb der Raumkarte und die Karte erhält einen gelben Rand. [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
-* **Beschreibung** und **Vorbereitung/Nachbereitung** als eigene Absätze.
+* **Beschreibung** und "Vorbereitung/Nachbereitung" als eigene Absätze.
 
 Zuunterst zeigt eine Tabelle, für wen der Termin gilt: eine Zeile pro Kurs, Gruppe oder Element des Course Planner, mit der Anzahl Teilnehmender und ob sie eingeschlossen oder ausgeschlossen sind. Wie Sie Teilnehmende ausnehmen, steht unter [Teilnehmer:innen ausschliessen](#exclude_participants).
 
 ![Aufgeklappter Termin mit Datum, Zeit, Ort, Präsenz, Raumkarte, Beschreibung, Vorbereitung und zuunterst der Tabelle, für wen der Termin gilt](assets/events_and_absences_timeline_v2_de.png){ class="shadow lightbox" title="Zeitansicht der Terminliste · 2026.10.09" }
 
-Räume werden im Course Planner zugewiesen. Ein eigenständiger Kurs zeigt deshalb keine Raumkarten: [Räume für einen Termin belegen >](../area_modules/Course_Planner_Events.de.md#room_booking)
+Räume weisen Sie im Course Planner zu. Ein eigenständiger Kurs zeigt deshalb keine Raumkarten: [Räume für einen Termin belegen >](../area_modules/Course_Planner_Events.de.md#room_booking)
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -106,45 +107,47 @@ Einen Termin legen Sie mit dem Button "Termin hinzufügen" rechts über der List
 
 !!! info "Wichtig"
 
-    Der Button "Termin hinzufügen" wird nur angezeigt, wenn es sich um einen eigenständigen Kurs handelt. Siehe `Kurs > Administration > Einstellungen > Tab Freigabe > Abschnitt Verwendung`.<br>Wird der Kurs im Course Planner verwendet, werden die Termine im Course Planner erstellt und verwaltet.
+    OpenOlat zeigt den Button "Termin hinzufügen" nur in einem eigenständigen Kurs. Die Verwendung des Kurses sehen Sie unter:<br>
+    `Kurs > Administration > Einstellungen > Tab Freigabe > Abschnitt Verwendung`<br>
+    Wird der Kurs im Course Planner verwendet, erstellen und verwalten Sie die Termine im Course Planner.
 
 Im Dialog "Termin hinzufügen" erfassen Sie die Angaben zum Termin.
 
 ![Dialog mit den Pflichtfeldern Titel, Datum, Zeit und Einheit, dem eingeschalteten Online Meeting mit Sitzungs-Link und dem Schalter Präsenz](assets/events_and_absences_tab_events_create2_v4_de.png){ class="shadow lightbox" title="Dialog Termin hinzufügen · 2026.10.09" }
 
- **Titel**: Vergeben Sie einen sinnvollen Namen.
+**Titel**: Vergeben Sie einen sinnvollen Namen.
 
- **Kennzeichen**: Die optionale Angabe eines Kennzeichens dient zur Unterscheidung bei Terminen mit gleichem Titel.
+**Kennzeichen**: Das optionale Kennzeichen unterscheidet Termine mit gleichem Titel.
 
- **Datum**: Ein Datum muss zwingend angegeben werden.
+**Datum**: Das Datum ist ein Pflichtfeld.
 
- **Zeit**: Auch die Zeitangabe ist ein Pflichtfeld. Denn z.B. können Kalendereinträge nur mit einer Zeitangabe korrekt angezeigt werden.
+**Zeit**: Auch die Zeit ist ein Pflichtfeld, denn ohne Zeit zeigt zum Beispiel der Kalender den Termin nicht korrekt an.
 
- **Einheit**: Hier wird angegeben, wie viele (Zeit-)Einheiten dieser Termin umfasst.<br>
- Ein Termin kann 1 - 12 Einheiten umfassen.<br>
- Beispiel: Ein Termin umfasst 2 Stunden, die in 4 thematische Einheiten gegliedert sind (4 x 0.5 Stunden).
+**Einheit**: Hier legen Sie fest, wie viele (Zeit-)Einheiten der Termin umfasst, 1 bis 12.<br>
+Beispiel: Ein Termin dauert 2 Stunden und ist in 4 thematische Einheiten gegliedert (4 x 0.5 Stunden).
 
 !!! info "Wichtig"
 
-    Stammen die Termine aus einem externen Verwaltungssystem, das sie nach OpenOlat synchronisiert, ist das Feld "Einheit" in OpenOlat gesperrt. Der Wert kommt aus diesem System und wird dort geändert. Gesperrt ist das Feld ausserdem, sobald die Anwesenheitskontrolle des Termins abgeschlossen ist.
+    Stammen die Termine aus einem externen Verwaltungssystem, das sie nach OpenOlat synchronisiert, ist das Feld "Einheit" in OpenOlat gesperrt. Der Wert kommt aus diesem System, und Sie ändern ihn dort. Gesperrt ist das Feld ausserdem, sobald die Anwesenheitskontrolle des Termins abgeschlossen ist.
 
- **Ort**: Hier wird angegeben, wo dieser Termin stattfindet. Das kann z.B. ein Präsenzort oder die genaue Zimmerbezeichnung sein.
+**Ort**: Hier geben Sie an, wo der Termin stattfindet, zum Beispiel den Präsenzort oder die genaue Zimmerbezeichnung.
 
- **Online Meeting**: Soll der Termin online stattfinden, schalten Sie "Online Meeting" ein. Zur Auswahl stehen BigBlueButton, Microsoft Teams und "Sitzungs-Link". Der Sitzungs-Link deckt weitere Anbieter ab, zum Beispiel Zoom. Geben Sie dafür den "Name des Sitzungsanbieters" und die "URL für Sitzungsteilnahme" an.<br>
- Das Online Meeting übernimmt Titel, Zeit und Personen aus dem Termin. Später öffnen Sie es in der Terminliste über "Online Meeting beitreten".
-Lernende haben Zugriff über den Kalender oder das Icon "Termine" in der Toolbar.
+**Online Meeting**: Soll der Termin online stattfinden, schalten Sie "Online Meeting" ein. Zur Auswahl stehen BigBlueButton, Microsoft Teams und "Sitzungs-Link". Der Sitzungs-Link deckt weitere Anbieter ab, zum Beispiel Zoom. Geben Sie dafür den "Name des Sitzungsanbieters" und die "URL für Sitzungsteilnahme" an.<br>
+Das Online Meeting übernimmt Titel, Zeit und Personen aus dem Termin. Später öffnen Sie es in der Terminliste über "Online Meeting beitreten".
+Teilnehmende erreichen es über den Kalender oder das Icon "Termine" in der Toolbar.
 
-**URL für Aufzeichnung**: Es kann eine beliebige URL angegeben werden, unter der eine Aufzeichnung des Meetings aufgerufen wird. Die URL kann auch angegeben werden, wenn der Schalter "Online Meeting" ausgeschaltet ist.
+**URL für Aufzeichnung**: Hier hinterlegen Sie eine beliebige URL, unter der die Aufzeichnung des Meetings abrufbar ist. Das Feld steht auch zur Verfügung, wenn der Schalter "Online Meeting" ausgeschaltet ist.
 
-**Fachbereiche**: Hier können Sie den Termin einem oder mehreren Begriffen einer hinterlegten Taxonomie zuordnen. Dadurch kann der Termin dann schneller gefunden werden.
+**Fachbereiche**: Hier ordnen Sie den Termin einem oder mehreren Begriffen einer hinterlegten Taxonomie zu. So finden Sie den Termin schneller.
 
 **Dozenten**: Wählen Sie die Kursbetreuer:innen, die den Termin durchführen. Bei einem neuen Termin sind alle Kursbetreuer:innen vorgewählt. Nur die ausgewählten Kursbetreuer:innen können die Anwesenheitskontrolle durchführen. (Als Dozent:in kann nur eine Person hinzugefügt werden, die auch die Rolle "Betreuer:in" besitzt.) Möchte ein:e Kursbesitzer:in ebenfalls diese Funktion übernehmen, muss sich diese Person zusätzlich als Kursbetreuer:in in den Kurs eintragen.
 
-**Beschreibung**: Hier können Sie optional eine Beschreibung für den Termin hinzufügen.
+**Beschreibung**: Hier fügen Sie optional eine Beschreibung des Termins hinzu.
 
-**Vorbereitung/Nachbereitung**: Falls Sie den Teilnehmenden einen Vor- bzw. Nachbereitungsauftrag zum jeweiligen Termin geben möchten, kann dieser hier hinzugefügt werden. Er wird im Kalender angezeigt, sofern die Termine mit dem Kurskalender synchronisiert werden: `Kurs > Administration > Einstellungen > Tab Durchführung`.
+**Vorbereitung/Nachbereitung**: Hier geben Sie den Teilnehmenden einen Auftrag zur Vor- oder Nachbereitung des Termins. Der Kalender zeigt ihn, sofern die Termine mit dem Kurskalender synchronisiert werden:<br>
+`Kurs > Administration > Einstellungen > Tab Durchführung`
 
-**Präsenz**: Wird der Schalter auf "Aus" gestellt, ist die Absenzenerfassung für den Termin deaktiviert.
+**Präsenz**: Steht der Schalter auf "Aus", ist die Absenzenerfassung für den Termin ausgeschaltet.
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -157,6 +160,34 @@ Setzen Sie in der ersten Spalte ein Häkchen bei einem oder mehreren Terminen. �
 Einen einzelnen Termin kopieren oder löschen Sie auch über das 3-Punkte-Menü am Ende seiner Zeile.
 
 ![Mit Häkchen bei einem Termin erscheinen über der Liste die Buttons "Kopieren" und "Löschen"; dieselben Optionen stehen im 3-Punkte-Menü am Ende der Zeile](assets/events_and_absences_tab_events_copy_v2_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
+
+#### Einen oder mehrere Termine kopieren [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9744)" }](https://track.frentix.com/issue/OO-9744){:target="_blank"} {: #copy_events}
+
+Findet derselbe Unterricht noch einmal statt, kopieren Sie den Termin und ändern danach nur noch Datum und Zeit. Die Kopie übernimmt die übrigen Angaben des Ausgangstermins. Sie kopieren Termine im Tab "Termine":<br>
+`Kurs > Administration > Termine und Absenzen > Tab Termine`
+
+**Einen Termin kopieren:** Wählen Sie im 3-Punkte-Menü des Termins "Kopieren". OpenOlat legt die Kopie noch nicht an, sondern öffnet den Dialog "Termin bearbeiten" mit allen übernommenen Angaben. Titel und Kennzeichen tragen den Zusatz "(Kopie)", Datum und Zeit sind noch die des Ausgangstermins. Passen Sie Datum und Zeit an und klicken Sie auf "Speichern". Erst dann entsteht der neue Termin; mit "Abbrechen" entsteht keiner. Gleich verhält sich der Button "Kopieren" über der Liste, wenn Sie genau einen Termin mit einem Häkchen ausgewählt haben.
+
+![Der Dialog Termin bearbeiten einer Kopie: Titel und Kennzeichen mit dem Zusatz (Kopie), alle übrigen Angaben vom Ausgangstermin übernommen, Datum und Zeit noch unverändert](assets/events_and_absences_copy_event_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Termin bearbeiten einer Kopie · 2026.10.21" }
+
+**Mehrere Termine kopieren:** Setzen Sie bei den Terminen ein Häkchen und klicken Sie über der Liste auf "Kopieren". OpenOlat legt die Kopien sofort an, ohne Dialog. Jede Kopie liegt auf demselben Datum und zur selben Zeit wie ihr Ausgangstermin. Öffnen Sie danach jede Kopie mit "Bearbeiten" und datieren Sie sie um.
+
+Die Kopie übernimmt vom Ausgangstermin:
+
+- **Titel** und "Kennzeichen", je mit dem Zusatz "(Kopie)". Hat der Ausgangstermin kein Kennzeichen, bleibt das Feld leer.
+- **Datum**, "Zeit" und "Einheit"
+- **Ort** und "URL für Aufzeichnung"
+- **Online Meeting**: Einen Sitzungs-Link übernimmt die Kopie mit Anbietername und URL. Bei BigBlueButton und Microsoft Teams erhält die Kopie ein eigenes Meeting mit denselben Einstellungen. So treffen sich die Teilnehmenden zweier Termine nicht im selben Meeting.
+- **Fachbereiche**
+- **Dozenten**: dieselben Dozent:innen wie der Ausgangstermin. Hat der Ausgangstermin keine Dozent:innen, bleibt auch die Kopie ohne. Anders als bei einem neuen Termin sind dann nicht alle Kursbetreuer:innen vorgewählt.
+- **Beschreibung**, "Vorbereitung/Nachbereitung" und "Präsenz"
+- **Räume**, wenn der Termin im Course Planner geplant wird und das Modul "Räume" aktiviert ist: [Termine kopieren im Course Planner](../area_modules/Course_Planner_Events.de.md#copy_events)
+
+Nicht übernommen werden die erfassten Absenzen. Die Anwesenheitskontrolle der Kopie ist offen, auch wenn sie beim Ausgangstermin bereits abgeschlossen war.
+
+!!! warning "Nach dem Kopieren mehrerer Termine: Teilnehmende einschliessen"
+
+    Kopieren Sie mehrere Termine auf einmal, zeigt die Spalte "Teilnehmer:innen" bei den Kopien 0. In der Detailansicht einer Kopie steht der Kurs in der Tabelle zuunterst mit dem Status "Ausgeschlossen". Damit die Teilnehmenden zum Termin gehören, wählen Sie dort im 3-Punkte-Menü "Teilnehmer wieder einschliessen", siehe [Teilnehmer:innen ausschliessen](#exclude_participants). Eine Kopie, die Sie im Dialog "Termin bearbeiten" speichern, gilt gleich für die Teilnehmenden des Kurses.
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -246,42 +277,43 @@ Soll eine Gruppe von Teilnehmenden nicht an einem Termin teilnehmen, nehmen Sie 
 
 ## Tab Teilnehmer:innen {: #tab_participants}
 
-Im Tab "Teilnehmer:innen" erhalten Sie eine Übersicht über alle Teilnehmer:innen des Kurses oder der ausgewählten Gruppen. (Ohne Besitzer:innen und Betreuer:innen, sofern diese nicht zusätzlich in der Rolle Teilnehmer:in eingetragen sind.) Über den Button "Drucken" kann die Liste gedruckt werden.
+Im Tab "Teilnehmer:innen" sehen Sie auf einen Blick, wie es um die Anwesenheit aller Teilnehmer:innen des Kurses oder der ausgewählten Gruppen steht. Besitzer:innen und Betreuer:innen erscheinen nur, wenn sie zusätzlich in der Rolle Teilnehmer:in eingetragen sind. Mit dem Button "Drucken" drucken Sie die Liste.
 
 ![Die Teilnehmerliste zeigt je Person Erstzulassung, Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert, den farbigen Fortschrittsbalken und die Anwesenheit in Prozent](assets/events_and_absences_tab_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen in der Kurs-Administration · 2026.10.09" }
 
 **Erstzulassung**<br>
-Mit der Erstzulassung wird definiert, wann der Teilnehmende mit dem Kurs begonnen hat.
+Die Erstzulassung legt fest, wann die Person mit dem Kurs begonnen hat.
 
 **Einheiten**<br>
-Hier wird die maximale Anzahl von Einheiten, die eine Person erreichen kann, angezeigt, unabhängig davon, ob der Termin schon stattgefunden hat oder nicht.
+Die maximale Anzahl Einheiten, die eine Person erreichen kann, unabhängig davon, ob der Termin schon stattgefunden hat.
 
 **Anwesend**<br>
-Hier wird angezeigt, an wie vielen Einheiten die Person anwesend war. Berücksichtigt wird dabei die Anzahl der abgeschlossenen (erledigten) Absenzen.
+Die Anzahl Einheiten, an denen die Person anwesend war. OpenOlat berücksichtigt dabei die abgeschlossenen (erledigten) Absenzen.
 
 
 **Unentschuldigt**<br>
-Einheiten, bei denen die Person als unentschuldigt gekennzeichnet wurde.
+Einheiten, bei denen die Person als unentschuldigt gekennzeichnet ist.
 
 **Entschuldigt**<br>
-Einheiten, bei denen die Person als entschuldigt gekennzeichnet wurde. Der Grund kann angegeben werden.
+Einheiten, bei denen die Person als entschuldigt gekennzeichnet ist. Ein Grund lässt sich angeben.
 
 **Dispensiert**<br>
-Einheiten, für die die Person dispensiert wurde. Ob Dispensen als anwesend zählen, legt die Konfiguration der Termin- und Absenzenverwaltung fest.
+Einheiten, für die die Person dispensiert ist. Ob Dispense als anwesend zählen, legen Administrator:innen in der System-Administration mit der Option "Dispense als anwesend zählen" fest:<br>
+`Administration > Module > Termine / Absenzen > Tab Konfiguration`
 
 **Fortschritt**<br>
-Im Fortschritt wird die Anwesenheit grafisch dargestellt. Grün symbolisiert die Anwesenheit, orange entschuldigte, rot abwesende bzw. unentschuldigte und blau dispensierte Einheiten.
+Der Balken zeigt die Anwesenheit grafisch. Grün steht für anwesende, orange für entschuldigte, rot für abwesende bzw. unentschuldigte und blau für dispensierte Einheiten.
 
 :o_icon_o_midwarn:<br>
-In der Achtungsspalte mit diesem Symbol wird angezeigt, ob die definierte Anwesenheitsquote erreicht worden ist. Das rote Symbol :o_icon_o_icon_error: bedeutet, dass die Quote unter dem erforderlichen Limit liegt. Das Warnsymbol :o_icon_o_icon_warning: erscheint, wenn die Quote weniger als fünf Prozentpunkte über dem Limit liegt.
+Die Achtungsspalte mit diesem Symbol zeigt, ob die festgelegte Anwesenheitsquote erreicht ist. Das rote Symbol :o_icon_o_icon_error: bedeutet, dass die Quote unter dem erforderlichen Limit liegt. Das Warnsymbol :o_icon_o_icon_warning: erscheint, wenn die Quote weniger als fünf Prozentpunkte über dem Limit liegt.
 
 **Anwesenheit**<br>
 Die Anwesenheitsquote der Person in Prozent. Die Spalte erscheint zusammen mit der Achtungsspalte, wenn für den Kurs die Anwesenheitsquote berechnet wird.
 
 :fontawesome-solid-circle-info:<br>
-In der Infospalte werden Informationen angezeigt, welche von der Standardeinstellung abweichen. Dies ist beispielsweise ein persönlicher Schwellwert oder ein späterer Kursstart. Diese beiden Optionen können in den Einstellungen (Stift) definiert werden. Der persönliche Schwellwert definiert die zu erreichende Anwesenheitsquote für die betreffende Person.
+Die Infospalte zeigt Angaben, die von der Standardeinstellung abweichen, zum Beispiel einen persönlichen Schwellwert oder einen späteren Kursstart. Beide legen Sie mit dem Stift in der Zeile der Person fest. Der persönliche Schwellwert ist die Anwesenheitsquote, die diese Person erreichen muss.
 
-Wenn Änderungen nicht sofort sichtbar sind, loggen Sie sich bitte aus und wieder ein. 
+Wenn Änderungen nicht sofort sichtbar sind, loggen Sie sich bitte aus und wieder ein.
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 
@@ -290,7 +322,7 @@ Wenn Änderungen nicht sofort sichtbar sind, loggen Sie sich bitte aus und wiede
 
 ### Schwellwert für Präsenzpflicht individuell anpassen {: #personal_rate}
 
-Der für den Kurs generell eingestellte Schwellwert für die Anwesenheitspflicht kann individuell angepasst werden. Wählen Sie dazu im Tab "Teilnehmer:innen" die betreffende Person und klicken Sie auf das Icon zum Bearbeiten.
+Gilt für eine Person eine andere Anwesenheitspflicht als für den Kurs, passen Sie den Schwellwert für sie an. Wählen Sie dazu im Tab "Teilnehmer:innen" die betreffende Person und klicken Sie auf das Icon zum Bearbeiten.
 
 ![Im Dialog "Teilnehmer:innen-Schwellwert bearbeiten" werden der persönliche Schwellwert und die Erstzulassung einer Person angepasst; der Kursschwellwert wird angezeigt](assets/events_and_absences_tab_participants_personal_rate_v2_de.png){ class="shadow lightbox" title="Dialog Teilnehmer:innen-Schwellwert bearbeiten · 2026.10.09" }
 

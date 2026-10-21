@@ -13,7 +13,8 @@ After that, further settings are available there, and the "Events" icon appears 
 
 ## "Events" in the toolbar {: #toolbar_events}
 
-As a course owner, you create events here and manage the absences. You find largely the same options in the Administration menu under "Events and Absences".
+As a course owner, you create events here and manage the absences. You find largely the same options in the Administration menu of the course:<br>
+`Course > Administration > Events and Absences`
 
 ![The menu entry "Events and Absences" opens the event and absence management for course owners](assets/events_and_absences_adminmenu_v2_en.png){ class="shadow lightbox" title="Menu Administration of a course · 2026.10.09" }
 
@@ -43,7 +44,7 @@ In the "Events" tab you add events to the course and narrow down the list with t
 
 In the 3-dot menu at the end of each line, you find the actions for an event:
 
-- **Edit** and **Copy**
+- **Edit** and "Copy"
 - **Change to an online meeting** or "Change to an on-location meeting", for an event with an online meeting additionally "Join online meeting"
 - **Mark as exam**, for an event already marked instead "Edit exam" and "Delete exam", see [Mark event as exam](#mark_event_as_exam)
 - **Absence list** and "Attendance list" as PDF, "Log" and "Export" as Excel file
@@ -85,13 +86,13 @@ The remaining details only appear if they are maintained for the event:
 
 * **Online meeting**: "Join online meeting" as a highlighted button, plus the link to a stored recording.
 * **Room**: the room card under the label "Room", with several rooms under "Rooms". If a room is double-booked during the period of the event, the warning appears below the room card and the card gets a yellow border. [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9641)" }](https://track.frentix.com/issue/OO-9641){:target="_blank"}
-* **Description** and **Preparation/Follow up** as their own paragraphs.
+* **Description** and "Preparation/Follow up" as their own paragraphs.
 
 At the very bottom a table shows who the event is for: one row per course, group or element of the Course Planner, with the number of participants and whether they are included or excluded. How to leave participants out is described under [Exclude participants](#exclude_participants).
 
 ![Expanded event with date, time, location, compulsory presence, room card, description, preparation and at the bottom the table of who the event is for](assets/events_and_absences_timeline_v2_en.png){ class="shadow lightbox" title="Timeline of the event list · 2026.10.09" }
 
-Rooms are assigned in the Course Planner. A standalone course therefore shows no room cards: [Book rooms for an event >](../area_modules/Course_Planner_Events.md#room_booking)
+You assign rooms in the Course Planner. A standalone course therefore shows no room cards: [Book rooms for an event >](../area_modules/Course_Planner_Events.md#room_booking)
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -106,45 +107,47 @@ You create an event with the "Add event" button at the top right above the list 
 
 !!! info "Important"
 
-    The "Add event" button is only displayed if the course is a standalone course. See `Course > Administration > Settings > Tab Share > Section Usage`.<br>If the course is used in the Course Planner, the events are created and managed in the Course Planner.
+    OpenOlat shows the "Add event" button only in a standalone course. You see the usage of the course under:<br>
+    `Course > Administration > Settings > Tab Share > Section Usage`<br>
+    If the course is used in the Course Planner, you create and manage the events in the Course Planner.
 
 In the dialog "Add event" you enter the details of the event.
 
 ![Dialog with the mandatory fields Title, Date, Time and Unit, the switched-on Online meeting with Meeting link and the switch Compulsory](assets/events_and_absences_tab_events_create2_v3_en.png){ class="shadow lightbox" title="Dialog Add event" }
 
- **Title**: Give the event a meaningful name.
+**Title**: Give the event a meaningful name.
 
- **Reference**: The optional reference serves to distinguish events with the same title.
+**Reference**: The optional reference distinguishes events with the same title.
 
- **Date**: A date must be specified.
+**Date**: The date is a mandatory field.
 
- **Time**: The time is also a mandatory field. This is because, for example, calendar entries can only be displayed correctly with a time specification.
+**Time**: The time is also a mandatory field, because without a time the calendar, for example, does not display the event correctly.
 
- **Unit**: This specifies how many (time) units this event comprises.<br>
- An event can comprise 1 - 12 units.<br>
- Example: An event comprises 2 hours, divided into 4 thematic units (4 x 0.5 hours).
+**Unit**: Here you specify how many (time) units the event comprises, 1 to 12.<br>
+Example: An event lasts 2 hours and is divided into 4 thematic units (4 x 0.5 hours).
 
 !!! info "Important"
 
-    If the events come from an external administration system that synchronises them to OpenOlat, the "Unit" field is locked in OpenOlat. The value comes from this system and is changed there. The field is also locked as soon as the roll call of the event has been closed.
+    If the events come from an external administration system that synchronises them to OpenOlat, the "Unit" field is locked in OpenOlat. The value comes from this system, and you change it there. The field is also locked as soon as the roll call of the event has been closed.
 
- **Location**: This specifies where this event takes place. This can be, for example, an on-site location or the exact room designation.
+**Location**: Here you specify where the event takes place, for example the on-site location or the exact room designation.
 
- **Online meeting**: If the event is to take place online, switch on "Online meeting". Available options are BigBlueButton, Microsoft Teams and "Meeting link". The meeting link covers other providers, for example Zoom. For this option, enter the "Meeting link provider name" and the "URL to join meeting".<br>
- The online meeting takes over the title, time and people from the event. You open it later in the event list via "Join online meeting".
-Learners have access via the calendar or the "Events" icon in the toolbar.
+**Online meeting**: If the event is to take place online, switch on "Online meeting". Available options are BigBlueButton, Microsoft Teams and "Meeting link". The meeting link covers other providers, for example Zoom. For this option, enter the "Meeting link provider name" and the "URL to join meeting".<br>
+The online meeting takes over the title, time and people from the event. You open it later in the event list via "Join online meeting".
+Participants reach it via the calendar or the "Events" icon in the toolbar.
 
-**Recording URL**: Any URL can be specified under which a recording of the meeting is accessed. The URL can also be specified if the switch "Online meeting" is switched off.
+**Recording URL**: Here you enter any URL under which the recording of the meeting can be accessed. The field is also available if the switch "Online meeting" is switched off.
 
-**Subjects**: Here you can assign the event to one or more terms of a stored taxonomy. This makes the event easier to find.
+**Subjects**: Here you assign the event to one or more terms of a stored taxonomy. This way you find the event faster.
 
 **Teacher**: Select the course coaches who hold the event. For a new event, all course coaches are preselected. Only the selected course coaches can carry out the attendance check. (Only a person who also has the role "Coach" can be added as a teacher.) If a course owner also wants to take on this function, this person must additionally register as a course coach in the course.
 
-**Description**: Here you can optionally add a description for the event.
+**Description**: Here you optionally add a description of the event.
 
-**Preparation/Follow up**: If you want to give the participants a preparation or follow-up assignment for the respective event, it can be added here. It is displayed in the calendar, provided the events are synchronized with the course calendar: `Course > Administration > Settings > Tab Execution`.
+**Preparation/Follow up**: Here you give the participants a preparation or follow-up assignment for the event. The calendar shows it, provided the events are synchronized with the course calendar:<br>
+`Course > Administration > Settings > Tab Execution`
 
-**Compulsory**: If the switch is set to "Off", absence recording is deactivated for the event.
+**Compulsory**: If the switch is set to "Off", absence recording is switched off for the event.
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -157,6 +160,34 @@ Tick one or several events in the first column. The buttons "Copy" and "Delete" 
 You also copy or delete a single event via the 3-dot menu at the end of its row.
 
 ![With an event selected, the buttons "Copy" and "Delete" appear above the list; the same options are available in the 3-dot menu at the end of the line](assets/events_and_absences_tab_events_copy_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
+
+#### Copying one or several events [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9744)" }](https://track.frentix.com/issue/OO-9744){:target="_blank"} {: #copy_events}
+
+If the same lesson takes place again, copy the event and then only change the date and time. The copy takes over the other details of the source event. You copy events in the "Events" tab:<br>
+`Course > Administration > Events and Absences > Tab Events`
+
+**Copying one event:** Select "Copy" in the 3-dot menu of the event. OpenOlat does not create the copy yet, but opens the dialog "Edit event" with all details taken over. Title and reference carry the suffix "(Copy)", date and time are still those of the source event. Adjust the date and time and click "Save". Only then is the new event created; with "Cancel", none is created. The "Copy" button above the list behaves the same way if you have ticked exactly one event.
+
+![The dialog Edit event of a copy: title and reference with the suffix (Copy), all other details taken over from the source event, date and time still unchanged](assets/events_and_absences_copy_event_dialog_v1_en.png){ class="shadow lightbox" title="Dialog Edit event of a copy · 2026.10.21" }
+
+**Copying several events:** Tick the events and click "Copy" above the list. OpenOlat creates the copies immediately, without a dialog. Each copy is on the same date and at the same time as its source event. Then open each copy with "Edit" and reschedule it.
+
+The copy takes over from the source event:
+
+- **Title** and "Reference", each with the suffix "(Copy)". If the source event has no reference, the field stays empty.
+- **Date**, "Time" and "Unit"
+- **Location** and "Recording URL"
+- **Online meeting**: The copy takes over a meeting link with provider name and URL. With BigBlueButton and Microsoft Teams, the copy gets its own meeting with the same settings. This way, the participants of two events do not meet in the same meeting.
+- **Subjects**
+- **Teacher**: the same teachers as the source event. If the source event has no teachers, the copy has none either. Unlike with a new event, not all course coaches are preselected in this case.
+- **Description**, "Preparation/Follow up" and "Compulsory"
+- **Rooms**, if the event is planned in the Course Planner and the module "Rooms" is activated: [Copying events in the Course Planner](../area_modules/Course_Planner_Events.md#copy_events)
+
+The recorded absences are not taken over. The attendance check of the copy is open, even if it was already closed for the source event.
+
+!!! warning "After copying several events: include the participants"
+
+    If you copy several events at once, the column "Participants" shows 0 for the copies. In the detail view of a copy, the course appears in the table at the bottom with the status "Excluded". So that the participants belong to the event, select "Include participants again" in the 3-dot menu there, see [Exclude participants](#exclude_participants). A copy that you save in the dialog "Edit event" applies to the participants of the course right away.
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -246,42 +277,43 @@ If a group of participants is not to take part in an event, you leave them out o
 
 ## Tab Participants {: #tab_participants}
 
-In the "Participants" tab you get an overview of all participants of the course or the selected groups. (Excluding owners and coaches, unless they are additionally registered in the role participant.) The list can be printed via the "Print" button.
+In the "Participants" tab you see at a glance how the attendance of all participants of the course or the selected groups stands. Owners and coaches only appear if they are additionally registered in the role participant. With the "Print" button you print the list.
 
 ![The participant list shows per person first admission, units, attended, not excused, authorized, dispensed, the coloured bar and the presence rate](assets/events_and_absences_tab_participants_v2_en.png){ class="shadow lightbox" title="Tab Participants in the course administration · 2026.10.09" }
 
 **First admission**<br>
-The first admission defines when the participant started the course.
+The first admission defines when the person started the course.
 
 **Units**<br>
-Here the maximum number of units a person can achieve is displayed, regardless of whether the event has already taken place or not.
+The maximum number of units a person can achieve, regardless of whether the event has already taken place.
 
 **Attended**<br>
-Here it is displayed at how many units the person was present. The number of closed (done) absences is taken into account.
+The number of units the person attended. OpenOlat takes the closed (done) absences into account.
 
 
 **Not excused**<br>
-Units for which the person was marked as not authorized.
+Units for which the person is marked as not authorized.
 
 **Authorized**<br>
-Units for which the person was marked as authorized. The reason can be specified.
+Units for which the person is marked as authorized. A reason can be specified.
 
 **Dispensed**<br>
-Units for which the person was dispensed. Whether dispensations count as attended is determined by the configuration of the Event & absence management.
+Units for which the person is dispensed. Administrators define in the system administration whether dispensations count as attended, with the option "Count dispensation as attendant":<br>
+`Administration > Modules > Events / Absences > Tab Configuration`
 
 **Progress**<br>
-The bar in the column "Progress" shows attendance graphically. Green symbolizes attendance, orange authorized, red absent or not authorized, and blue dispensed units.
+The bar shows the attendance graphically. Green stands for attended, orange for authorized, red for absent or not authorized, and blue for dispensed units.
 
 :o_icon_o_midwarn:<br>
-The attention column with this icon shows whether the defined attendance rate has been reached. The red icon :o_icon_o_icon_error: means that the rate is below the required limit. The warning icon :o_icon_o_icon_warning: appears when the rate is less than five percentage points above the limit.
+The attention column with this icon shows whether the defined attendance rate is reached. The red icon :o_icon_o_icon_error: means that the rate is below the required limit. The warning icon :o_icon_o_icon_warning: appears when the rate is less than five percentage points above the limit.
 
 **Presence**<br>
 The attendance rate of the person in percent. The column appears together with the attention column when the attendance rate is calculated for the course.
 
 :fontawesome-solid-circle-info:<br>
-The info column displays information that deviates from the default settings. This is, for example, a personal rate or a later course start. These two options can be defined in the settings (pencil). The personal rate defines the attendance rate to be achieved for the person in question.
+The info column shows details that deviate from the default settings, for example a personal rate or a later course start. You define both with the pencil in the row of the person. The personal rate is the attendance rate this person has to achieve.
 
-If changes are not immediately visible, please log out and log in again. 
+If changes are not immediately visible, please log out and log in again.
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
@@ -290,7 +322,7 @@ If changes are not immediately visible, please log out and log in again.
 
 ### Customize the threshold for mandatory attendance {: #personal_rate}
 
-The threshold for mandatory attendance set for the course in general can be adjusted individually. To do this, select the person in question in the "Participants" tab and click on the edit icon.
+If a different mandatory attendance applies to one person than to the course, adjust the threshold for this person. To do this, select the person in question in the "Participants" tab and click on the edit icon.
 
 ![In the "Edit participant's rate" dialog, the personal rate and the first admission of a person are adjusted; the course's rate is displayed](assets/events_and_absences_tab_participants_personal_rate_v2_en.png){ class="shadow lightbox" title="Dialog Edit participant's rate · 2026.10.09" }
 
