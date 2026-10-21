@@ -28,13 +28,13 @@ Wurde ein bereits geladenes Theme auf dem Server geändert, zeigen Browser oft n
 
 ### Abschnitt Firmen- oder Institutionslogo [:octicons-tag-16:{ title="ab Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
 
-Sie können ein eigenes Logo hochladen (png-Datei), das dann in der Hauptnavigation links oben angezeigt wird. Beachten Sie, dass dieses Logo innerhalb des Themes (Gesamtlayouts) verwendet wird. Als voreingestellter Standard wird das OpenOlat-Logo angezeigt.
+Damit Personen Ihre Organisation auf jeder Seite erkennen, laden Sie ein eigenes Logo als PNG-Datei bis 1 MB hoch. OpenOlat zeigt es links oben in der Hauptnavigation, eingebettet in das gewählte Theme. Ohne eigenes Logo erscheint das OpenOlat-Logo.
 
 Zusätzlich legen Sie fest, wohin ein Klick auf das Logo führt: auf die Startseite oder auf eine selbst gewählte Ziel-URL. Im Feld für den Alternativ-Text hinterlegen Sie den Text, der anstelle des Logos erscheint.
 
 ### Abschnitt Fusszeile Eigenschaften
 
-In diesem Abschnitt legen Sie den Text der Fusszeile rechts unten fest sowie die Ziel-URL, auf die ein Klick auf die Fusszeile führt. E-Mail- und Link-Adressen im Text werden automatisch in einen anklickbaren Link umgewandelt.
+In diesem Abschnitt legen Sie den Text der Fusszeile rechts unten fest sowie die Ziel-URL, auf die ein Klick auf die Fusszeile führt. E-Mail- und Link-Adressen im Text wandelt OpenOlat automatisch in anklickbare Links um. Enthält der Text eine solche Adresse, kann sie mit der Ziel-URL der Fusszeile in Konflikt geraten.
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -42,17 +42,16 @@ In diesem Abschnitt legen Sie den Text der Fusszeile rechts unten fest sowie die
 
 ## Impressum [:octicons-tag-16:{ title="ab Release 10.0 (OO-1166)" }](https://track.frentix.com/issue/OO-1166){:target="_blank"} {: #imprint}
 
-Administrator:innen legen fest,
+Damit Personen die rechtlichen Angaben Ihrer Organisation finden, richten Sie auf der Seite "Impressum" das Impressum der Instanz ein. Sie finden die Seite in der System-Administration unter:<br>
+`Administration > Customizing > Impressum`
 
-* wo der Link zum Impressum erscheint (z.B. im Footer)
-* ob ein Impressumstext erscheint und wie er lautet
-* ob ein Text zu den Nutzungsbedingungen innerhalb des Impressums erscheint und wie der Text lautet
-* ob ein Text zur Datenschutzerklärung innerhalb des Impressums erscheint und wie der Text lautet
-* ob ein Kontaktformular für allgemeine Anfragen erscheinen soll und an wen die Anfrage ggf. geschickt wird
+Die Checkbox "Impressum einschalten" blendet den Link zum Impressum ein. Erst danach erscheinen die übrigen Einstellungen der Seite. Unter "Position" wählen Sie, ob der Link oben ("Top") oder in der Fusszeile ("Footer") steht.
 
-Alle Texte können in verschiedenen Sprachen hinterlegt werden.
+Für "Impressum auf", "Term of use" und "Datenschutz Erklärung" steht je Sprache der Instanz ein Button, über den Sie den Text in dieser Sprache hinterlegen. Ein Häkchen auf dem Button zeigt, dass für diese Sprache ein Text vorhanden ist. Mit dem Papierkorb daneben löschen Sie ihn. Im Impressum erscheinen die Texte unter "Impressum", "Nutzungsbedingungen" und "Datenschutzerklärung".
 
-![Eingeschaltet und auf Position Footer gesetzt erscheint das Impressum als Link in der Fusszeile, die drei Texte werden je Sprache hinterlegt](assets/admin_customizing_imprint_v1_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing" }
+Mit der Checkbox "Kontaktformular" bieten Sie zusätzlich ein Formular für allgemeine Anfragen an. Die Anfragen gehen an die Adresse im Feld "Kontakt E-Mail", die Sie mit "Speichern" sichern.
+
+![Impressum eingeschaltet und auf Position Footer gesetzt, darunter die Texte Impressum auf, Term of use und Datenschutz Erklärung, je Sprache hinterlegt](assets/admin_customizing_imprint_v2_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing · 2026.10.21" }
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -60,7 +59,8 @@ Alle Texte können in verschiedenen Sprachen hinterlegt werden.
 
 ## Hilfe [:octicons-tag-16:{ title="ab Release 15.1 (OO-4562)" }](https://track.frentix.com/issue/OO-4562){:target="_blank"} {: #help}
 
-Damit Personen bei Fragen die passende Hilfe finden, legen Sie auf der Seite "Hilfe" fest, welche Hilfemöglichkeiten das Hilfe-Icon :fontawesome-solid-circle-question: anbietet, zum Beispiel das offizielle OpenOlat Handbuch, einen eigenen Hilfekurs oder ein Kontaktformular für den Support. Je Hilfemöglichkeit wählen Sie unter "Anzeige", ob sie im Autorenbereich, in den persönlichen Werkzeugen oder auf der Login-Seite erscheint.
+Damit Personen bei Fragen die passende Hilfe finden, legen Sie auf der Seite "Hilfe" fest, welche Hilfemöglichkeiten das Hilfe-Icon :fontawesome-solid-circle-question: anbietet, zum Beispiel das offizielle OpenOlat Handbuch, einen eigenen Hilfekurs oder ein Kontaktformular für den Support. Je Hilfemöglichkeit wählen Sie unter "Anzeige", ob sie im Autorenbereich, in den persönlichen Werkzeugen oder auf der Login-Seite erscheint. Sie finden die Seite in der System-Administration unter:<br>
+`Administration > Customizing > Hilfe`
 
 ![Unter Anzeige die drei Orte Autorenbereich, Persönliche Werkzeuge und Login, an denen die Hilfemöglichkeit erscheint, darüber Typ, Bezeichnung je Sprache, Symbol und URL](assets/admin_customizing_help_edit_v1_de.png){ class="shadow lightbox" title="Dialog Hilfemöglichkeit bearbeiten auf der Seite Hilfe · 2026.10.20" }
 
@@ -116,6 +116,30 @@ Der Tab "Verwendungskontexte" listet alle Verwendungskontexte mit ihrem technisc
 
 Ob eine Angabe an einer Stelle erscheint, entscheidet sich deshalb zweimal: am Attribut, das aktiv sein muss, und am Verwendungskontext, der das Attribut verwenden muss.
 
+### Attribut aktivieren und deaktivieren [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9782)" }](https://track.frentix.com/issue/OO-9782) {: #user_properties_activate}
+
+Braucht Ihre Organisation eine Angabe eine Zeit lang nicht, deaktivieren Sie das Attribut, statt es aus jedem Verwendungskontext einzeln zu entfernen. Dazu schalten Sie es im Tab "Attribute" in der Spalte "Aktiv" aus. Vor dem Deaktivieren fragt OpenOlat mit "Deaktivieren?" nach. Ein Attribut aktivieren Sie ohne Rückfrage.
+
+Ein deaktiviertes Attribut blendet OpenOlat in allen Verwendungskontexten aus, also im Profil, in den Tabellen und in den Formularen. Die Werte, die Personen bereits erfasst haben, bleiben gespeichert. Die Attribute "Vorname", "Nachname", "E-Mail", "E-Mail-Adresse geändert" und "E-Mail Versand sperren" lassen sich nicht deaktivieren, ihr Schalter in der Spalte "Aktiv" lässt sich nicht umstellen.
+
+Beim Deaktivieren bleibt die Konfiguration des Attributs in den Verwendungskontexten erhalten. Aktivieren Sie es wieder, erscheint es an denselben Stellen wie vorher und mit denselben Einstellungen zu "Zwingend", "Nur Administrator:innen" und "Benutzer:innen: nur lesend". So blenden Sie zum Beispiel das Geburtsdatum für ein Semester aus und danach unverändert wieder ein.
+
+Steht ein Attribut beim Aktivieren in keinem Verwendungskontext, setzt OpenOlat es in die Verwendungskontexte, in denen die Systemkonfiguration es vorsieht, mit deren Einstellungen. In keinem Verwendungskontext stehen Attribute, die schon vor dem Update auf Release 21.1.1 deaktiviert waren, und Attribute, die "Default" oder "Minimal" im Tab "Zurücksetzen" deaktiviert hat.
+
+### Verwendungskontexte einsehen und bearbeiten [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9782)" }](https://track.frentix.com/issue/OO-9782) {: #user_properties_context_edit}
+
+Wo eine Angabe überall erscheint, zeigt der Tab "Attribute" in der Spalte "Verwendungskontexte": Die Zahl nennt je Attribut, wie viele Verwendungskontexte es verwenden. Ein Klick auf die Zahl öffnet den Tab "Verwendungskontexte", gefiltert auf dieses Attribut. Bei einem deaktivierten Attribut nennt die Zahl weiterhin die gespeicherten Verwendungskontexte, ist aber nicht anklickbar.
+
+Im Tab "Verwendungskontexte" wählen Sie im Filter "Attribut" entweder "Alle aktiven Attribute" oder ein einzelnes aktives Attribut. Die Einträge nennen den technischen Namen und die Beschriftung, zum Beispiel "birthDay · Geburtsdatum". Die Spalte "Anzahl Attribute" zählt in jedem Verwendungskontext nur die aktiven Attribute.
+
+![Filter Attribut auf birthDay gesetzt, die Liste zeigt nur die Verwendungskontexte mit diesem Attribut, oben rechts der Button Kontext hinzufügen für weitere](assets/admin_customizing_user_properties_contexts_filter_v1_de.png){ class="shadow lightbox" title="Tab Verwendungskontexte auf der Seite Benutzer:innen-Attribute · 2026.10.21" }
+
+Ist die Liste auf ein Attribut gefiltert und verwenden es noch nicht alle Verwendungskontexte, erscheint oben rechts der Button "Kontext hinzufügen". Damit nehmen Sie das Attribut in weitere Verwendungskontexte auf, ohne jeden einzeln zu öffnen. Der Dialog "Kontext hinzufügen" listet alle Verwendungskontexte, die das Attribut noch nicht verwenden. Über das Suchfeld grenzen Sie die Liste nach Name oder Beschreibung ein. Ein Klick auf "Hinzufügen" in einer Zeile nimmt das Attribut sofort in diesen Verwendungskontext auf und öffnet dessen Dialog "Kontext bearbeiten".
+
+![Suchfeld grenzt die Verwendungskontexte ohne das Attribut ein, mit Hinzufügen in einer Zeile nimmt OpenOlat das Attribut dort auf](assets/admin_customizing_user_properties_context_add_v1_de.png){ class="shadow lightbox" title="Dialog Kontext hinzufügen im Tab Verwendungskontexte · 2026.10.21" }
+
+Im Dialog "Kontext bearbeiten" legen Sie fest, welche Attribute dieser Verwendungskontext zeigt (Spalte "Verwenden") und in welcher Reihenfolge. Ausserdem setzen Sie je Attribut die Einstellungen "Zwingend", "Nur Administrator:innen" und "Benutzer:innen: nur lesend". Denselben Dialog öffnen Sie auch über "Bearbeiten" in einer Zeile der Liste. Deaktivierte Attribute erscheinen darin nicht.
+
 ### Konfiguration zurücksetzen [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9781)" }](https://track.frentix.com/issue/OO-9781) {: #user_properties_reset}
 
 Nach vielen einzelnen Änderungen ist oft nicht mehr nachvollziehbar, welche Einstellung woher stammt. Mit dem Tab "Zurücksetzen" kehren Sie zu einem festen Stand zurück. Die Auswahlliste "Vordefinierte Konfiguration laden:" bietet zwei vordefinierte Konfigurationen:
@@ -123,7 +147,7 @@ Nach vielen einzelnen Änderungen ist oft nicht mehr nachvollziehbar, welche Ein
   * **Default** stellt die Systemkonfiguration wieder her, also den Stand einer neuen Installation.
   * **Minimal** verwendet dieselben Verwendungskontexte, aber nur mit den Attributen "Anmeldename", "Vorname", "Nachname" und "E-Mail". Diese Konfiguration passt, wenn Ihre Instanz so wenige Angaben zu Personen wie möglich führen soll.
 
-OpenOlat berechnet beide aus der Systemkonfiguration der installierten Version. Sie kennen deshalb jedes Attribut und jeden Verwendungskontext dieser Version, auch nach einem Update.
+OpenOlat berechnet beide aus der Systemkonfiguration der installierten Version. Sie berücksichtigen deshalb jedes Attribut und jeden Verwendungskontext dieser Version, auch nach einem Update.
 
 Ein Zurücksetzen ersetzt alle Einstellungen der Tabs "Attribute" und "Verwendungskontexte": welche Attribute aktiv sind, ihre Gruppen und in jedem Verwendungskontext die verwendeten Attribute, ihre Reihenfolge und die Einstellungen "Zwingend", "Nur Administrator:innen" und "Benutzer:innen: nur lesend". Eigene Anpassungen gehen dabei verloren. Beschriftungen, die Sie in der Spalte "Übersetzen" angepasst haben, bleiben erhalten.
 
@@ -182,7 +206,7 @@ Im Feld "Icon CSS Class" legen Sie das Symbol des Bereichs fest. Mit der Checkbo
 
 In den Tabs "Externe Seite n°1" und "Externe Seite n°2" binden Sie je Sprache eine externe URL mit eigenem Titel als Bereich ein. [:octicons-tag-16:{ title="ab Release 18.2 (OO-7398)" }](https://track.frentix.com/issue/OO-7398)
 
-Mit der Checkbox "iFrame" zeigt OpenOlat die Seite eingebettet im Bereich an. Beim Speichern ruft OpenOlat die Adresse auf und prüft, ob die Seite eine Einbettung erlaubt. Liegt die Adresse im lokalen Netz und ist unter `Administration > Login > Sicherheit` die Checkbox "SSRF Mitigation" gewählt, weist OpenOlat die Adresse ab. Eine abgewiesene Adresse meldet OpenOlat gleich wie eine Seite, die keine Einbettung erlaubt: "Diese URL unterstützt keine iFrame Einbettung." Eine Adresse aus dem lokalen Netz lässt sich nur über eine Ausnahme in der Serverkonfiguration freigeben, siehe [Sicherheit](Login_Security.de.md#ssrf). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
+Mit der Checkbox "iFrame" zeigt OpenOlat die Seite eingebettet im Bereich an. Beim Speichern ruft OpenOlat die Adresse auf und prüft, ob die Seite eine Einbettung erlaubt. Liegt die Adresse im lokalen Netz und ist in der System-Administration unter `Administration > Login > Sicherheit` die Checkbox "SSRF Mitigation" gewählt, weist OpenOlat die Adresse ab. Eine abgewiesene Adresse meldet OpenOlat gleich wie eine Seite, die keine Einbettung erlaubt: "Diese URL unterstützt keine iFrame Einbettung." Eine Adresse aus dem lokalen Netz lässt sich nur über eine Ausnahme in der Serverkonfiguration freigeben, siehe [Sicherheit](Login_Security.de.md#ssrf). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
 
 [Zum Seitenanfang ^](#customizing)
 

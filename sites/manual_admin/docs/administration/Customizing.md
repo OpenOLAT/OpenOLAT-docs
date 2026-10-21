@@ -28,37 +28,37 @@ If a theme that is already loaded has been changed on the server, browsers often
 
 ### Company or Institution Logo Section [:octicons-tag-16:{ title="from Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
 
-You can upload your own logo (PNG file), which will then appear in the top-left corner of the main navigation. Please note that this logo will be used within the theme (overall layout). The OpenOlat logo is displayed by default.
+So that people recognise your organisation on every page, upload your own logo as a PNG file of up to 1 MB. OpenOlat shows it in the top-left corner of the main navigation, embedded in the selected theme. Without your own logo, the OpenOlat logo appears.
 
 You also define where a click on the logo leads: to the landing page or to a target URL of your choice. In the field for the alternative text, you enter the text that appears in place of the logo.
 
 ### Footer Properties Section
 
-In this section, you define the text of the footer in the bottom-right corner and the target URL that a click on the footer leads to. Email and web addresses in the text are automatically converted into a clickable link.
+In this section, you define the text of the footer in the bottom-right corner and the target URL that a click on the footer leads to. OpenOlat automatically converts email and web addresses in the text into clickable links. If the text contains such an address, it can conflict with the target URL of the footer.
 
 [To the top of the page ^](#customizing)
 
 
 ## Imprint [:octicons-tag-16:{ title="from Release 10.0 (OO-1166)" }](https://track.frentix.com/issue/OO-1166){:target="_blank"} {: #imprint}
 
-Administrators determine,
+So that people find the legal information of your organisation, you set up the imprint of the instance on the "Imprint" page. You will find the page in the system administration under:<br>
+`Administration > Customizing > Imprint`
 
-* where the link to the legal notice appears (e.g., in the footer)
-* whether a legal notice appears and what it says
-* whether a text regarding the terms of use appears in the legal notice and what that text says
-* whether a privacy policy appears within the legal notice and what the text says
-* whether a contact form for general inquiries should be displayed and, if so, to whom the inquiry will be sent
+The "Enable imprint" checkbox shows the link to the imprint. Only then do the other settings of the page appear. Under "Position" you choose whether the link appears at the top ("Top") or in the footer ("Footer").
 
-All text can be entered in different languages.
+For "Imprint in", "Term of use" and "Privacy policy" there is one button per language of the instance, with which you store the text in this language. A checkmark on the button shows that a text exists for this language. With the trash icon next to it you delete the text. In the imprint the texts appear under "Imprint", "Usage terms" and "Privacy policy".
 
-![Once switched on and set to position Footer, the imprint appears as a link in the footer line, and the three texts are maintained per language](assets/admin_customizing_imprint_v1_de.png){ class="shadow lightbox" title="Imprint page in the Customizing menu" }
+With the "Contact form" checkbox you also offer a form for general requests. The requests go to the address in the "Contact mail" field, which you store with "Save".
+
+![Imprint enabled and set to position Footer, below it the texts Imprint in, Term of use and Privacy policy, maintained per language](assets/admin_customizing_imprint_v2_en.png){ class="shadow lightbox" title="Imprint page in the Customizing menu · 2026.10.21" }
 
 [To the top of the page ^](#customizing)
 
 
 ## Help [:octicons-tag-16:{ title="from Release 15.1 (OO-4562)" }](https://track.frentix.com/issue/OO-4562){:target="_blank"} {: #help}
 
-So that persons find the right help when they have questions, you define on the "Help" page which help options the help icon :fontawesome-solid-circle-question: offers, for example the official OpenOlat manual, your own help course or a contact form for the support. For each help option you choose under "Display" whether it appears in the authoring area, in the user tool or on the login page.
+So that persons find the right help when they have questions, you define on the "Help" page which help options the help icon :fontawesome-solid-circle-question: offers, for example the official OpenOlat manual, your own help course or a contact form for the support. For each help option you choose under "Display" whether it appears in the authoring area, in the user tool or on the login page. You will find the page in the system administration under:<br>
+`Administration > Customizing > Help`
 
 ![Under Display the three locations Authoring, User tool and Login where the help option appears, above them Type, Label per language, Icon and URL](assets/admin_customizing_help_edit_v1_en.png){ class="shadow lightbox" title="Edit help facility dialog on the Help page · 2026.10.20" }
 
@@ -111,6 +111,30 @@ The "Contexts" tab lists all contexts with their technical name and a descriptio
 
 Whether a detail appears in a place is therefore decided twice: at the property, which must be active, and at the context, which must use the property.
 
+### Activate and deactivate a property [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9782)" }](https://track.frentix.com/issue/OO-9782) {: #user_properties_activate}
+
+If your organisation does not need a detail for a while, deactivate the property instead of removing it from every context one by one. To do so, switch it off in the "Properties" tab in the column "Active". Before deactivating, OpenOlat asks "Deactivate?". You activate a property without a confirmation question.
+
+OpenOlat hides a deactivated property in all contexts, that is in the profile, in the tables and in the forms. The values persons have already entered stay stored. The properties "First name", "Last name", "E-mail", "E-mail address changed" and "Block E-Mail delivery" cannot be deactivated, their switch in the column "Active" cannot be changed.
+
+When you deactivate a property, its configuration in the contexts is kept. If you activate it again, it appears in the same places as before and with the same settings for "Mandatory", "Admin only" and "User: readonly". This way you hide, for example, the date of birth for one semester and show it again unchanged afterwards.
+
+If a property is in no context when you activate it, OpenOlat adds it to the contexts in which the system configuration provides it, with their settings. Properties that were already deactivated before the update to Release 21.1.1 are in no context, and neither are properties that "Default" or "Minimal" in the "Reset" tab has deactivated.
+
+### View and edit contexts [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9782)" }](https://track.frentix.com/issue/OO-9782) {: #user_properties_context_edit}
+
+Where a detail appears is shown in the "Properties" tab in the column "Contexts": for each property the number says how many contexts use it. A click on the number opens the "Contexts" tab, filtered on this property. For a deactivated property the number still shows the stored contexts, but it cannot be clicked.
+
+In the "Contexts" tab you choose in the filter "Property" either "All active properties" or a single active property. The entries show the technical name and the label, for example "birthDay · Date of birth". The column "Property count" counts only the active properties in each context.
+
+![Filter Property set to birthDay, the list shows only the contexts with this property, top right the Add context button for further ones](assets/admin_customizing_user_properties_contexts_filter_v1_en.png){ class="shadow lightbox" title="Tab Contexts on the page User Properties · 2026.10.21" }
+
+If the list is filtered on a property and not all contexts use it yet, the "Add context" button appears at the top right. With it you add the property to further contexts without opening each one. The "Add context" dialog lists all contexts that do not use the property yet. With the search field you narrow down the list by name or description. A click on "Add" in a row adds the property to this context immediately and opens its "edit Context" dialog.
+
+![Search field narrows down the contexts without the property, with Add in a row OpenOlat adds the property there](assets/admin_customizing_user_properties_context_add_v1_en.png){ class="shadow lightbox" title="Dialog Add context in the Contexts tab · 2026.10.21" }
+
+In the "edit Context" dialog you define which properties this context shows (column "include") and in which order. You also set for each property the settings "Mandatory", "Admin only" and "User: readonly". You open the same dialog with "Edit" in a row of the list. Deactivated properties do not appear in it.
+
 ### Reset the configuration [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9781)" }](https://track.frentix.com/issue/OO-9781) {: #user_properties_reset}
 
 After many individual changes it is often no longer clear where a setting comes from. With the "Reset" tab you return to a fixed state. The drop-down "Load Preset:" offers two presets:
@@ -118,7 +142,7 @@ After many individual changes it is often no longer clear where a setting comes 
   * **Default** restores the system configuration, that is the state of a new installation.
   * **Minimal** uses the same contexts, but only with the properties "Username", "First name", "Last name" and "E-mail". This preset suits an instance that is to keep as few details about persons as possible.
 
-OpenOlat computes both from the system configuration of the installed version. They therefore know every property and every context of this version, also after an update.
+OpenOlat computes both from the system configuration of the installed version. They therefore take into account every property and every context of this version, also after an update.
 
 A reset replaces all settings of the tabs "Properties" and "Contexts": which properties are active, their groups and, in every context, the properties used, their order and the settings "Mandatory", "Admin only" and "User: readonly". Your own changes are lost. Labels you have adapted in the column "Translate" are kept.
 
@@ -176,7 +200,7 @@ In the "Icon CSS Class" field, you set the symbol of the site. With the "Show to
 
 In the tabs "External page n°1" and "External page n°2", you add an external URL with its own title per language as a site. [:octicons-tag-16:{ title="from Release 18.2 (OO-7398)" }](https://track.frentix.com/issue/OO-7398)
 
-With the "iFrame" checkbox, OpenOlat shows the page embedded in the site. When you save, OpenOlat calls the address and checks whether the page allows embedding. If the address lies in the local network and the "SSRF mitigation" checkbox is selected under `Administration > Login > Security`, OpenOlat rejects the address. OpenOlat reports a rejected address the same way as a page that does not allow embedding: "This URL does not support iFrame embedding." An address from the local network can only be allowed through an exception in the server configuration, see [Security](Login_Security.md#ssrf). [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
+With the "iFrame" checkbox, OpenOlat shows the page embedded in the site. When you save, OpenOlat calls the address and checks whether the page allows embedding. If the address lies in the local network and the "SSRF mitigation" checkbox is selected in the system administration under `Administration > Login > Security`, OpenOlat rejects the address. OpenOlat reports a rejected address the same way as a page that does not allow embedding: "This URL does not support iFrame embedding." An address from the local network can only be allowed through an exception in the server configuration, see [Security](Login_Security.md#ssrf). [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
 
 [To the top of the page ^](#customizing)
 
