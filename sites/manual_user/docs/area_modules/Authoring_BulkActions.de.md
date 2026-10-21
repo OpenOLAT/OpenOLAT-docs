@@ -36,11 +36,12 @@ Wechselt die Verantwortung für mehrere Lernressourcen, etwa beim Stellenwechsel
 
 Gehören mehrere Lernressourcen zusammen, etwa die Kurse einer Weiterbildungsreihe, **vereinheitlichen** Sie ihre **Metadaten** und Einstellungen in einem Durchgang, statt jede Lernressource einzeln zu bearbeiten. Nach Klick auf "Metadaten und Einstellungen" öffnet sich der Assistent (Wizard) "Einstellungen bearbeiten". Er ändert nur die ausgewählten Lernressourcen, bei denen Sie Besitzer:in, Lernressourcenverwalter:in oder Administrator:in sind.
 
-Im ersten Schritt "Bereiche" wählen Sie aus, was Sie bearbeiten wollen. Der Assistent führt danach nur durch die gewählten Bereiche und schliesst mit dem Schritt "Übersicht", der die geplanten Änderungen auflistet. In "Metadaten", "Autorenrechte", "Durchführung" und "Toolbar" übernimmt OpenOlat nur die Felder, bei denen Sie das Kontrollkästchen "Ändern" markieren. Lassen Sie in "Metadaten" oder "Durchführung" ein markiertes Feld leer, werden die bestehenden Daten gelöscht.
+Im ersten Schritt "Bereiche" wählen Sie aus, was Sie bearbeiten wollen. Der Assistent führt danach nur durch die gewählten Bereiche und schliesst mit dem Schritt "Übersicht", der die geplanten Änderungen auflistet. In "Metadaten", "Info", "Autorenrechte", "Durchführung" und "Toolbar" übernimmt OpenOlat nur die Felder, bei denen Sie das Kontrollkästchen "Ändern" markieren. Lassen Sie in "Metadaten", "Info" oder "Durchführung" ein markiertes Feld leer, werden die bestehenden Daten gelöscht.
 
 Die Bereiche in der Reihenfolge des Assistenten:
 
-* "Metadaten": "Autor:innen / Durchführung mit", "Durchführungsformat" (nur bei Kursen, z.B. "Prüfungskurs"), "Hauptsprache", "Zeitaufwand", "Lizenz" (bei eingeschalteten Lizenzen) und "Freigabe OER-Kataloge und Suchmaschinen" (bei eingeschaltetem Modul OAI-PMH).
+* "Metadaten": "Durchführungsformat" (nur bei Kursen, z.B. "Prüfungskurs") sowie "Lizenz" mit "Lizenzgeber" (bei eingeschalteten Lizenzen).
+* "Info": "Autor:innen / Durchführung mit", "Hauptsprache", "Zeitaufwand", die Anzeigeeinstellungen der Infoseite und "Freigabe OER-Kataloge und Suchmaschinen", siehe [Bereich "Info"](#bulk_info).
 * "Fachbereiche": Fachbereiche hinzufügen oder entfernen. Bei eingeschaltetem Katalog heisst der Bereich "Fachbereiche / Katalog".
 * "Durchführung": "Durchführungszeitraum" und "Durchführungsort" einheitlich setzen. Beim Durchführungszeitraum stehen "Jederzeit", "Zeitabschnitt", "Beginn- und Enddatum" und "Eintägig" zur Wahl; was die Optionen bewirken, beschreiben die [Kurseinstellungen](../learningresources/Course_Settings_Execution.de.md#execution_period). Mit "Eintägig" tragen Sie im Feld "Datum" einen Tag ein, die "Übersicht" zeigt dann "Durchführungszeitraum: Eintägig:" mit diesem Datum. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 * "Administrative Freigabe": Organisationen hinzufügen oder entfernen, siehe [Bereich "Administrative Freigabe"](#bulk_administrative_access).
@@ -48,6 +49,25 @@ Die Bereiche in der Reihenfolge des Assistenten:
 * "Toolbar": Werkzeuge der Toolbar ein- oder ausschalten.
 
 "Durchführung" und "Toolbar" bietet der Assistent nur an, wenn mindestens ein Kurs ausgewählt ist, und übernimmt die Änderungen nur bei Kursen.
+
+#### Bereich "Info" [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9757)" }](https://track.frentix.com/issue/OO-9757){:target="_blank"} {: #bulk_info}
+
+Sollen mehrere Kurse auf ihrer Infoseite dieselben Angaben zeigen, etwa die Termine und das Zertifikat, legen Sie diese Angaben im Bereich "Info" für alle gleichzeitig fest, statt jeden Kurs einzeln zu öffnen. Was die Anzeigeeinstellungen auf der Infoseite bewirken, beschreibt der Abschnitt [Anzeigeeinstellungen](../learningresources/Course_Settings_Info.de.md#display_settings) in den Kurseinstellungen.
+
+![Schritt Info mit angekreuztem Ändern: Textfelder, Anzeigeeinstellungen der Infoseite mit Keine Änderung, Ein und Aus sowie Freigabe für OER-Kataloge, gültig für alle ausgewählten Lernressourcen](assets/authoring_bulkactions_step_info_v1_de.png){ class="shadow lightbox" title="Schritt Info im Assistenten Einstellungen bearbeiten · 2026.10.21" }
+
+Jedes Feld und jede Gruppe trägt das Kontrollkästchen "Ändern". Erst wenn Sie es ankreuzen, erscheinen die Eingabefelder. Der Bereich zeigt in dieser Reihenfolge:
+
+* "Autor:innen / Durchführung mit", "Hauptsprache" und "Zeitaufwand": Textfelder für alle Arten von Lernressourcen. Der Eintrag ersetzt den bisherigen Wert bei allen ausgewählten Lernressourcen.
+* "Auf Infoseite anzeigen": "Termine", "Lernen Sie Ihre Dozent:innen kennen", "Zertifikat" und "Kreditpunkte".
+* "Als Dozenten angezeigte Mitglieder": "Dozierende der Termine", "Betreuer:innen" und "Kursbesitzer:innen".
+* "Freigabe OER-Kataloge und Suchmaschinen": "Ein" oder "Aus" für alle ausgewählten Lernressourcen. Das Feld erscheint nur, wenn das Modul OAI-PMH eingeschaltet ist.
+
+Bei den Einstellungen unter "Auf Infoseite anzeigen" und "Als Dozenten angezeigte Mitglieder" wählen Sie je Einstellung "Keine Änderung", "Ein" oder "Aus". "Keine Änderung" ist vorgewählt und lässt die Einstellung in jedem Kurs, wie sie ist. Setzen Sie "Lernen Sie Ihre Dozent:innen kennen" auf "Ein", verlangt der Assistent unter "Als Dozenten angezeigte Mitglieder" mindestens eine Rolle auf "Ein". Die Rollen ändert OpenOlat nur in Kursen, in denen "Lernen Sie Ihre Dozent:innen kennen" eingeschaltet ist oder mit diesem Durchgang eingeschaltet wird.
+
+!!! info "Wichtig"
+
+    Die Einstellungen unter "Auf Infoseite anzeigen" und "Als Dozenten angezeigte Mitglieder" übernimmt OpenOlat nur bei Kursen. Ist unter den ausgewählten Lernressourcen kein Kurs, bleiben sie gesperrt. "Kreditpunkte" lässt sich nur ändern, wenn bei mindestens einem ausgewählten Kurs Kreditpunkte eingeschaltet sind. Einstellungen, die eine externe Verwaltung vorgibt, bleiben ebenfalls gesperrt.
 
 #### Bereich "Administrative Freigabe" {: #bulk_administrative_access}
 
@@ -68,6 +88,10 @@ Eine Organisation, die Sie im selben Durchlauf hinzufügen, zählt dabei nicht m
 2. Wählen Sie im zweiten Durchlauf unter "Organisation entfernen" die bisherige Organisation.
 
 Administrator:innen ordnen Kurse zudem in der System-Administration im Tab "Lernressourcen" einer Organisation zu, beschrieben unter [Modul Organisationen](../../manual_admin/administration/Modules_Organisations.de.md#edit_learning_resources).
+
+#### Schritt "Übersicht" {: #bulk_overview}
+
+Bevor OpenOlat etwas ändert, prüfen Sie im Schritt "Übersicht", was der Assistent übernehmen wird. Die Übersicht listet je Bereich jede markierte Änderung mit ihrem neuen Wert auf, im Bereich "Info" etwa "Termine: ein". Daneben steht, für welche Lernressourcen die Änderung gilt: "Alle", eine Anzahl wie "1 Lernressource" oder "Keine", wenn sich bei keiner Lernressource etwas ändert. Ein Klick auf die Angabe zeigt die Titel der betroffenen Lernressourcen. Eine Einstellung auf "Keine Änderung" erscheint nicht in der Übersicht. Hat ein Bereich keine markierte Änderung, steht dort "Keine Änderungen vorgenommen." Erst mit "Fertigstellen" übernimmt OpenOlat die Änderungen. Mit "Abbrechen" und danach "Daten nicht speichern" verwerfen Sie sie.
 
 ### Kopieren {: #copy}
 
@@ -140,10 +164,10 @@ Handelt es sich in der Tabellenzeile um einen Lernpfadkurs, zeigt das Menü zus�
 
 **Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
+[Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Autorenbereich - Übersicht >](Authoring.de.md)<br>
-[Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
 [Kopieren eines Kurses mit Wizard >](../learningresources/Course_Copy_Wizard.de.md)

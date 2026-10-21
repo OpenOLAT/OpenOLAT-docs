@@ -36,11 +36,12 @@ If the responsibility for several learning resources changes, for example when a
 
 If several learning resources belong together, for example the courses of a continuing education series, you **standardize** their **metadata** and settings in one pass instead of editing each learning resource individually. After clicking "Metadata and settings", the wizard "Change settings" opens. It only changes the selected learning resources for which you are owner, learning resource manager or administrator.
 
-In the first step "Sections", you select what you want to edit. The wizard then only guides you through the selected sections and ends with the step "Overview", which lists the planned changes. In "Metadata", "Authors rights", "Execution" and "Toolbar", OpenOlat only applies the fields for which you tick the checkbox "Change". If you leave a ticked field empty in "Metadata" or "Execution", the existing data is deleted.
+In the first step "Sections", you select what you want to edit. The wizard then only guides you through the selected sections and ends with the step "Overview", which lists the planned changes. In "Metadata", "Info", "Authors rights", "Execution" and "Toolbar", OpenOlat only applies the fields for which you tick the checkbox "Change". If you leave a ticked field empty in "Metadata", "Info" or "Execution", the existing data is deleted.
 
 The sections in the order of the wizard:
 
-* "Metadata": "Authors / taught by", "Implementation format" (only for courses, e.g. "Exam course"), "Main language", "Expenditure of work", "License" (when licenses are enabled) and "Release OER catalogues and search engines" (when the OAI-PMH module is enabled).
+* "Metadata": "Implementation format" (only for courses, e.g. "Exam course") as well as "License" with "Licensor" (when licenses are enabled).
+* "Info": "Authors / taught by", "Main language", "Expenditure of work", the display settings of the info page and "Release OER catalogues and search engines", see [Section "Info"](#bulk_info).
 * "Subjects": add or remove subjects. When the catalog is enabled, the section is called "Subjects / Catalog".
 * "Execution": set "Execution period" and "Location" uniformly. For the execution period, "Anytime", "Time period", "Begin and end date" and "One-day" are available; what the options do is described in the [course settings](../learningresources/Course_Settings_Execution.md#execution_period). With "One-day", you enter a day in the field "Date", and the "Overview" then shows "Execution period: One-day:" with this date. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 * "Administrative access": add or remove organisations, see [Section "Administrative access"](#bulk_administrative_access).
@@ -48,6 +49,25 @@ The sections in the order of the wizard:
 * "Toolbar": switch tools of the toolbar on or off.
 
 The wizard only offers "Execution" and "Toolbar" if at least one course is selected, and only applies the changes to courses.
+
+#### Section "Info" [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9757)" }](https://track.frentix.com/issue/OO-9757){:target="_blank"} {: #bulk_info}
+
+If several courses are to show the same details on their info page, for example the events and the certificate, you define these details in the section "Info" for all of them at once instead of opening each course individually. What the display settings do on the info page is described in the section [Display settings](../learningresources/Course_Settings_Info.md#display_settings) of the course settings.
+
+![Step Info with Change ticked: text fields, display settings of the info page with No change, On and Off, and the release for OER catalogues, valid for all selected learning resources](assets/authoring_bulkactions_step_info_v1_en.png){ class="shadow lightbox" title="Step Info in the wizard Change settings · 2026.10.21" }
+
+Each field and each group carries the checkbox "Change". Only when you tick it do the input fields appear. The section shows, in this order:
+
+* "Authors / taught by", "Main language" and "Expenditure of work": text fields for all types of learning resources. The entry replaces the previous value in all selected learning resources.
+* "Display on info page": "Events", "Meet your teachers", "Certificate" and "Credit points".
+* "Members displayed as teacher": "Teachers in events", "Coaches" and "Course owners".
+* "Release OER catalogues and search engines": "On" or "Off" for all selected learning resources. The field only appears if the OAI-PMH module is enabled.
+
+For the settings under "Display on info page" and "Members displayed as teacher", you choose "No change", "On" or "Off" for each setting. "No change" is preselected and leaves the setting in each course as it is. If you set "Meet your teachers" to "On", the wizard requires at least one role set to "On" under "Members displayed as teacher". OpenOlat only changes the roles in courses in which "Meet your teachers" is switched on or is switched on in this run.
+
+!!! info "Important"
+
+    OpenOlat only applies the settings under "Display on info page" and "Members displayed as teacher" to courses. If there is no course among the selected learning resources, they remain locked. "Credit points" can only be changed if credit points are enabled in at least one selected course. Settings that are specified by an external management also remain locked.
 
 #### Section "Administrative access" {: #bulk_administrative_access}
 
@@ -68,6 +88,10 @@ An organisation that you add in the same run does not count here. If you select 
 2. In the second run, select the previous organisation under "Remove organisation".
 
 Administrators can also assign courses to an organisation in the system administration in the "Learning resources" tab, described under [Module Organisations](../../manual_admin/administration/Modules_Organisations.md#edit_learning_resources).
+
+#### Step "Overview" {: #bulk_overview}
+
+Before OpenOlat changes anything, you check in the step "Overview" what the wizard will apply. The overview lists each marked change with its new value per section, in the section "Info" for example "Events: on". Next to it, it shows for which learning resources the change applies: "All", a number such as "1 learning resource", or "None" if nothing changes in any learning resource. A click on this entry shows the titles of the learning resources concerned. A setting left on "No change" does not appear in the overview. If a section has no marked change, it shows "No Changes made." OpenOlat only applies the changes with "Finish". With "Cancel" and then "Do not save data", you discard them.
 
 ### Copy {: #copy}
 
@@ -140,10 +164,10 @@ If the table row is a learning path course, the menu also shows the option "Copy
 
 **Mentioned on this page**<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
+[Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Authoring - Overview >](Authoring.md)<br>
-[Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)<br>
 [Copy a course with wizard >](../learningresources/Course_Copy_Wizard.md)
