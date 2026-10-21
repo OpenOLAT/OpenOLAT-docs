@@ -36,7 +36,16 @@ try {
 	*/
 	document.querySelectorAll("img.lightbox").forEach(function(item) {
 		item.addEventListener("click", function(event) {
-			const instance = basicLightbox.create('<img src="' + event.target.src + '" width="1024" height="768">');
+			/* Class oo-lightbox (extra.css): limited in width only, a screenshot taller than
+			   the window keeps its readable width and scrolls. Escape closes the lightbox. */
+			var onKey = function(e) {
+				if (e.key === "Escape") instance.close();
+			};
+			var instance = basicLightbox.create('<img src="' + event.target.src + '">', {
+				className: "oo-lightbox",
+				onShow: function() { document.addEventListener("keydown", onKey); },
+				onClose: function() { document.removeEventListener("keydown", onKey); }
+			});
 			instance.show();
 		});
 	});

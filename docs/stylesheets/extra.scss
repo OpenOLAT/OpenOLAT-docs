@@ -118,6 +118,24 @@ img {
 	}
 }
 
+/* lightbox (class set in extra.js): limited in width only, a screenshot taller than the
+   window keeps its readable width and the dark layer scrolls; the page behind stays put */
+.basicLightbox.oo-lightbox {
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	align-items: flex-start;
+	.basicLightbox__placeholder {
+		height: auto;
+		margin: auto 0;
+		> img:first-child:last-child {
+			position: static;
+			max-width: 95vw;
+			max-height: none;
+			margin: 2.5vh auto;
+		}
+	}
+}
+
 /* always use hr to clear floating images */
 hr {
 	clear: both;
