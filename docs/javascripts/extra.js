@@ -46,6 +46,11 @@ try {
 				onShow: function() { document.addEventListener("keydown", onKey); },
 				onClose: function() { document.removeEventListener("keydown", onKey); }
 			});
+			/* Screenshots of the old capture rule are stored at exactly 1150 px and would stay
+			   small in the lightbox: stretch them to the window, at most 1400 px (21.10.2026) */
+			if (event.target.naturalWidth === 1150) {
+				instance.element().querySelector("img").style.width = "min(95vw, 1400px)";
+			}
 			instance.show();
 		});
 	});
