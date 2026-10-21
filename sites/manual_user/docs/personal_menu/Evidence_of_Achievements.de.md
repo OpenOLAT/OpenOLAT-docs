@@ -75,7 +75,7 @@ Ist in einem Kurs der Leistungsnachweis aktiviert, finden Teilnehmende in der To
 
 **Weiterführend**<br>
 [Bewertungssysteme in OpenOlat: Noten >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
-[Badges in den persönlichen Werkzeugen >](OpenBadges.de.md)<br>
+[Badges unter Erfolge/Leistungen >](OpenBadges.de.md)<br>
 [Badges im Bewertungswerkzeug >](../learningresources/OpenBadges.de.md)<br>
 [Badges in der eAssessment-Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
 [Testquittung erstellen: Test Einstellungen >](../learningresources/Test_settings.de.md)<br>

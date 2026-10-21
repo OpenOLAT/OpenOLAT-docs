@@ -75,7 +75,7 @@ If the evidence of achievement is activated in a course, participants find the l
 
 **Further reading**<br>
 [Assessment systems in OpenOlat: Grades >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
-[Badges in the user tools >](OpenBadges.md)<br>
+[Badges under Achievements/Successes >](OpenBadges.md)<br>
 [Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
 [Badges in the eAssessment administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [Create test receipt: Test settings >](../learningresources/Test_settings.md)<br>
