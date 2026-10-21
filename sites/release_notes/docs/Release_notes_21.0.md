@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/16/2026 • Last update: 10/02/2026**
+:material-calendar-month-outline: **Release date: 07/16/2026 • Last update: 10/21/2026**
 
 * * *
 
@@ -296,7 +296,9 @@ The prerequisite is a valid email address on the account as well as a functional
 * **Recruiting module Selectus:** The frentix Selectus software has been integrated as a separate OpenOlat module and, after the integration phase is complete, will in future be available for committee-based selection procedures, applications for professorships/scholarships, for calls and competitions as well as awards by foundations
 * **[Task and group task](https://docs.openolat.org/en/manual_user/learningresources/Assessing_tasks_and_group_tasks/#results_export){:target="_blank"}:** «Export results» provides the current step, the completion date of each step and the assigned coaches (:octicons-tag-24: Release 21.0.2)
 * **[Event & absence management](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Execution/#config_event_and_absence_management){:target="_blank"}:** The configuration in the administration and the course settings has been restructured. The administration defines whether courses may override the default configuration (:octicons-tag-24: Release 21.0.2)
-* **[Coaching Tool](https://docs.openolat.org/en/manual_user/area_modules/Coaching_Courses/#courses_search){:target="_blank"}:** The search for courses and persons supports the wildcard `*`, as in the «Courses» section (:octicons-tag-24: Release 21.0.1)
+* **[Coaching Tool](https://docs.openolat.org/en/manual_user/area_modules/Coaching_Courses/#courses_search){:target="_blank"}:**
+    * The search for courses and persons supports the wildcard `*`, as in the «Courses» section (:octicons-tag-24: Release 21.0.1)
+    * The course list offers the «Implementation format» filter and an optional column of the same name (:octicons-tag-24: Release 21.0.6)
 * **Translations:**
     * The Selectus module is fully translated into German and French (:octicons-tag-24: Release 21.0.1)
     * French, Italian and Slovak cover the entire user interface, Selectus now also in Italian (:octicons-tag-24: Release 21.0.4)
@@ -341,6 +343,7 @@ The prerequisite is a valid email address on the account as well as a functional
 
 ## Further information
 
+* [YouTrack Release notes 21.0.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.6&title=Release%20Notes%2021.0.6){:target="_blank"}
 * [YouTrack Release notes 21.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.5&title=Release%20Notes%2021.0.5){:target="_blank"}
 * [YouTrack Release notes 21.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.4&title=Release%20Notes%2021.0.4){:target="_blank"}
 * [YouTrack Release notes 21.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.3&title=Release%20Notes%2021.0.3){:target="_blank"}

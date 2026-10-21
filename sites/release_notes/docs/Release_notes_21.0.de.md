@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 16.07.2026 • Letztes Update: 02.10.2026**
+:material-calendar-month-outline: **Releasedatum: 16.07.2026 • Letztes Update: 21.10.2026**
 
 * * *
 
@@ -296,7 +296,9 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 * **Recruiting-Modul Selectus:** Die frentix Selectus Software wurde als eigenes OpenOlat Modul integriert und steht nach abgeschlossener Integrationsphase zukünftig für kommissionsbasierte Auswahlverfahren, Bewerbungen von Professuren/Stipendien, für Ausschreibungen und Wettbewerbe sowie Vergaben von Stiftungen zur Verfügung
 * **[Aufgabe und Gruppenaufgabe](https://docs.openolat.org/de/manual_user/learningresources/Assessing_tasks_and_group_tasks/#results_export){:target="_blank"}:** «Resultate exportieren» liefert den aktuellen Schritt, das Abschlussdatum jedes Schritts und die zugewiesenen Betreuer:innen (:octicons-tag-24: Release 21.0.2)
 * **[Termin- und Absenzenverwaltung](https://docs.openolat.org/de/manual_user/learningresources/Course_Settings_Execution/#config_event_and_absence_management){:target="_blank"}:** Die Konfiguration in Administration und Kurseinstellungen ist neu gegliedert. Die Administration legt fest, ob Kurse die Standardkonfiguration überschreiben dürfen (:octicons-tag-24: Release 21.0.2)
-* **[Coaching Tool](https://docs.openolat.org/de/manual_user/area_modules/Coaching_Courses/#courses_search){:target="_blank"}:** Die Suche nach Kursen und Personen unterstützt den Platzhalter `*`, wie im Bereich «Kurse» (:octicons-tag-24: Release 21.0.1)
+* **[Coaching Tool](https://docs.openolat.org/de/manual_user/area_modules/Coaching_Courses/#courses_search){:target="_blank"}:**
+    * Die Suche nach Kursen und Personen unterstützt den Platzhalter `*`, wie im Bereich «Kurse» (:octicons-tag-24: Release 21.0.1)
+    * Die Kursliste bietet den Filter «Durchführungsformat» und die gleichnamige Spalte zum Einblenden (:octicons-tag-24: Release 21.0.6)
 * **Übersetzungen:**
     * Das Modul Selectus ist vollständig auf Deutsch und Französisch übersetzt (:octicons-tag-24: Release 21.0.1)
     * Französisch, Italienisch und Slowakisch decken die ganze Benutzeroberfläche ab, Selectus neu auch auf Italienisch (:octicons-tag-24: Release 21.0.4)
@@ -341,6 +343,7 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 21.0.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.6&title=Release%20Notes%2021.0.6){:target="_blank"}
 * [YouTrack Release Notes 21.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.5&title=Release%20Notes%2021.0.5){:target="_blank"}
 * [YouTrack Release Notes 21.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.4&title=Release%20Notes%2021.0.4){:target="_blank"}
 * [YouTrack Release Notes 21.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.3&title=Release%20Notes%2021.0.3){:target="_blank"}
