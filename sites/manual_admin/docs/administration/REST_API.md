@@ -18,9 +18,9 @@ The REST API page is available to system administrators. It has two tabs:
 
 ## Concept {: #concept}
 
-REST is a style of architecture to be primarily used with the HTTP protocol, but not exclusively. In the case of HTTP, it utilizes all its features: URIs to describe resources, HTTP Methods as "verbs" to manipulate resources (GET to retrieve resources, PUT to create new ones, POST to modify them, DELETE...), HTTP Headers and Media Types for content negotiation...
+REST is an architectural style that mostly works with the HTTP protocol, but is not limited to it. With HTTP, REST uses the means of HTTP: URIs describe the resources, the HTTP methods act on them as "verbs" (GET retrieves a resource, PUT creates a new one, POST modifies an existing one, DELETE deletes it), HTTP headers and media types define the format of the content.
 
-In OpenOlat, the JSR-311: JAX-RS (The Java API for RESTful Web Services) is used as a backend for the implementation of the REST API. JSR-311 is a standard from J2EE. We use the reference implementation from the following standard: [Jersey](https://jersey.dev.java.net/).
+The OpenOlat REST API follows the Jakarta RESTful Web Services (JAX-RS) standard. OpenOlat uses [Apache CXF](https://cxf.apache.org/) as the implementation.
 
 
 
@@ -40,26 +40,26 @@ To also allow users to generate a key themselves, activate the "Generation of AP
 
 !!! info "Important"
 
-	As long as the Passkey feature is not enabled, the OpenOlat password can still be used for REST access.
+    As long as the Passkey feature is not enabled, the OpenOlat password can still be used for REST access.
 
 
 ### Limit access to users with API key [:octicons-tag-16:{ title="from Release 20.1.0 (OO-8745)" }](https://track.frentix.com/issue/OO-8745)
 
 When the REST API is enabled, it can in principle be used by all users with an authenticated session. Often, however, access should be restricted to specific users.
 
-The "API access" selection in the "Configuration" tab of the REST API page determines who may use the REST API:
+You define who may use the REST API with the "API access" selection, under:<br>
+`Administration > Core functions > REST API > "Configuration" tab`
 
 * **for all users**: access is open to all authenticated users.
 * **only for user with API key**: access is restricted to users who have an API key.
 
 Combined with generating the keys exclusively through the user management, this allows access to the REST API to be granted to specific users in a targeted way.
 
-
 [To the top of the page ^](#REST-API)
 
----  
+---
 
-###  Usage {: #usage}
+### Usage {: #usage}
 
 The OpenOlat REST API is built for remote management applications. It does not implement all features available in the user interface, and many of the requests are reserved for administrative users such as administrators, user managers, group managers and authors.
 
@@ -67,33 +67,113 @@ The main functions of the REST API include, for example, creating and organizing
 
 The REST API reads roll calls, but it cannot execute them: you cannot set a person as present or absent through it. What you can change is the supervisor notification date, the comment and the reason.
 
-While theoretically possible, it is not in the spirit of the concept to use the REST API for an alternative user interface.
+Technically, a user interface of its own could be built on the REST API. It is not intended for that, however.
+
+When the request limit is switched on, the REST API rejects too many calls with the status 429. A third-party system that sends many calls in a row must then wait and send the call again, see [Request limit](#rate-limit).
 
 [To the top of the page ^](#REST-API)
 
 ---
 
-##  Security {: #security}
+## Security {: #security}
 
-The security is based on a two level mechanism, as it is in OpenOlat.
+The REST API checks every request in two levels:
 
-  1. The first level is a servlet filter which collects all requests to the REST API. This filter determines whether the URI is open to everyone (`/api`, `/ping`, `/auth`...) or if it needs an authentication. The filter hands the authentication itself over to a web service.
-  2. The second level applies to every call of the REST API. Every method checks if the user (if a user must be authenticated) has enough privileges to operate on the desired resource.
+  1. The first level is a servlet filter that receives all requests to the REST API. It determines whether a URI is open to everyone (`/api`, `/ping`, `/auth`...) or needs an authentication. The filter hands the authentication itself over to a web service.
+  2. The second level applies to every call of the REST API. Every method checks whether the user (if an authentication is required) has enough privileges for the resource concerned.
 
-To maintain a valid authentication over several requests, the filter proposes two methods:
+To keep an authentication valid over several requests, the filter supports two methods:
 
   1. Reuse the session cookie on every request. The advantage of this method is that OpenOlat doesn't need to create a session on every request.
   2. If you cannot use the session cookie, the filter always adds an HTTP Header (`X-OLAT-TOKEN`) to the response. Send this token with the next request to maintain your privileges.
 
-###  Best practice usage
+### Best practice usage
 
-If the REST API is used to implement specific features in the OpenOlat web user interface such as using the course database, the OpenOlat web session cookie can be reused (method 1). The user is already authenticated in the browser
+If the REST API implements specific features in the OpenOlat user interface, such as the course database, it reuses the OpenOlat web session cookie (method 1). The user is already authenticated in the browser.
 
-If the REST API is used by an external (server based) application, best- practice is to use basic authentication to authenticate the user and enable session cookies in the http client of the remote application.
+If an external, server-based application uses the REST API, "Basic Authentication" is recommended, together with session cookies switched on in the HTTP client of the external application.
 
-If none of the above is possible, use method 2 using the `X-OLAT-TOKEN`. Note that a user can have only one `X-OLAT-TOKEN` at any time. If your remote application sends several requests concurrently, basic authentication should be used.
+If neither of these ways is possible, use method 2 with the `X-OLAT-TOKEN`. A user has only one `X-OLAT-TOKEN` at any time. If your external application sends several requests at the same time, use "Basic Authentication" instead.
 
-If you are building a remote portal and want to implement some kind of home- brew single-sign-on process, method 2 can be used to generate the X-OLAT-TOKEN for every user as a server request. The Token can then be added to each link in the portal to login the user based on the token (`?X-OLAT-TOKEN=xyz`). When clicking the link, OpenOlat will identify the user based on the token and create a valid session. Security wise there are better options to achieve the same. We recommend using OAuth instead which is supported by OpenOlat as well.
+If you build an external portal with a single sign-on process of your own, your server can request an `X-OLAT-TOKEN` for every user with method 2. You add the token to each link in the portal (`?X-OLAT-TOKEN=xyz`). When the user clicks the link, OpenOlat recognises the user by the token and creates a valid session. Security-wise there are better ways to the same result: we recommend OAuth, which OpenOlat supports as well.
+
+[To the top of the page ^](#REST-API)
+
+---
+
+## Request limit [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9779)" }](https://track.frentix.com/issue/OO-9779){:target="_blank"} {: #rate-limit}
+
+A single third-party system can send thousands of calls per minute or many calls at the same time to the REST API, for example when a synchronisation gets out of control. This load reaches the database and slows down the user interface for everyone working in OpenOlat. The request limit restricts the calls and so protects the user interface from the load of a third-party system. Third-party systems with an account of their own keep working in the meantime.
+
+You find the settings in the "Request limit (rate limiting)" section, under:<br>
+`Administration > Core functions > REST API > "Configuration" tab`
+
+The section appears as soon as the "Access REST API" switch is set to "On". It is available to system administrators.
+
+![Request limit switch on, below it 600 requests per minute per user, 4 parallel requests and 60 requests per minute per IP address without login](assets/admin_core_config_rest_api_rate_limit_v1_en.png){ class="shadow lightbox" title="Request limit section in the Configuration tab · 2026.10.21" }
+
+### What the limit restricts {: #rate_limit_scope}
+
+OpenOlat counts the calls of every logged-in person. Two values apply to them: how many calls they may send per minute and how many calls may run at the same time. OpenOlat counts calls without login per IP address, with a value per minute of its own; this includes the login via `/restapi/auth`. The "Maximum parallel requests per user" value applies there as well, per IP address.
+
+A minute is the full clock minute: at the start of every minute, the count starts again at 0. Calls that OpenOlat already rejects at login with the status 401 or 403 are not counted.
+
+### What happens when the limit is exceeded {: #rate_limit_exceeded}
+
+If a call is above the limit, OpenOlat does not execute it and responds with the HTTP status 429 (Too Many Requests). The call does not wait in a queue, and OpenOlat does not catch it up later either.
+
+The `Retry-After` header of the response states the waiting time in seconds until a new attempt: for too many calls per minute the time until the next full minute, for too many simultaneous calls 1 second. The content of the response is in JSON format, for example:
+
+    {"code":429,"message":"Too many requests, retry after 23 seconds"}
+
+### What a third-party system must do {: #rate_limit_client}
+
+This section is for developers of third-party systems. When a third-party system receives the status 429, it waits for the seconds from `Retry-After` and then sends the call again. This way it does not run into a timeout and does not lose a call. Send at most as many calls at the same time as the "Maximum parallel requests per user" field allows.
+
+With three further headers, a third-party system can adjust its pace before it is rejected. They are part of the response to every counted call, including a successful one:
+
+* `X-RateLimit-Limit`: configured number of calls per minute
+* `X-RateLimit-Remaining`: remaining calls in the current minute
+* `X-RateLimit-Reset`: start of the next minute as a Unix timestamp in seconds
+
+A rejection because of too many simultaneous calls only carries the `Retry-After` header.
+
+### Settings {: #rate_limit_settings}
+
+Choose the values so that your third-party systems work without rejection in normal operation. All three fields accept whole numbers from 1. You apply your changes with "Save" at the end of the page; they take effect immediately, without a restart. The defaults of these settings can also be set in the server configuration. frentix customers contact the frentix support for this: [support@frentix.com](mailto:support@frentix.com)
+
+#### Request limit {: #rate_limit_switch}
+
+When the switch is set to "On", OpenOlat checks every call against the three values below, and the three fields appear. When it is set to "Off", OpenOlat does not restrict the calls.
+
+#### Requests per minute per user {: #rate_limit_per_minute}
+
+Number of calls a logged-in person may send in one minute. By default 600.
+
+#### Maximum parallel requests per user {: #rate_limit_parallel}
+
+Number of calls of a logged-in person that may run at the same time. For calls without login, the value applies per IP address. A further call immediately receives the status 429. By default 4.
+
+#### Requests per minute per IP address (unauthenticated) {: #rate_limit_anonymous}
+
+Number of calls without login that may come from one IP address in one minute. By default 60.
+
+### Restrictions {: #rate_limit_restrictions}
+
+* **Same values for everyone**: The values apply to all third-party systems and all persons, including administrators. There is no exception and no value of its own for a single third-party system. If a third-party system needs more calls, raise the value for everyone.
+* **Counted per person**: All API keys and sessions of a person share one counter. A third-party system with an account of its own is not affected by the rejection of another one. Two third-party systems with the same account share the limit.
+* **Counted per node**: On a cluster, every node counts on its own. The effective limit is the configured value multiplied by the number of nodes.
+* **Exempt paths**: `/restapi/ping`, `/restapi/i18n`, `/restapi/openmeetings`, `/restapi/drawio`, `/restapi/onlyoffice` and `/restapi/office365` with all their sub-paths are not limited. `/restapi/system` is not limited for IP addresses that are whitelisted for system access in the server configuration. Monitoring via `/restapi/ping` therefore keeps running, even while a third-party system is being rejected.
+
+### Default state and update {: #rate_limit_default}
+
+By default, the request limit is switched off. After the update to Release 21.1.0 it stays switched off, even if the REST API is switched on. Switch it on yourself if needed.
+
+When you switch the REST API on with the "Access REST API" switch, OpenOlat also sets the "Request limit" switch to "On" and shows the three fields with their values. The limit takes effect with "Save". When you switch the REST API off and save, OpenOlat also switches the limit off.
+
+### Rejections in the audit log {: #rate_limit_audit_log}
+
+Rejected calls appear in the audit log with the status 429; the "Status" filter groups them under "Request limit (429)". OpenOlat writes at most one entry per person or IP address, per node, per minute and per reason. The reasons are too many calls per minute and too many simultaneous calls. Entries are only created when the "Audit log" switch is set to "On". More about it: [Audit log](#audit-log)
 
 [To the top of the page ^](#REST-API)
 
@@ -110,12 +190,12 @@ You evaluate the entries in the "Audit log" tab of the REST API page; the settin
 Whether a call creates an entry depends on its method and on the response:
 
 * **Write calls**: Every call with PUT, POST, DELETE or PATCH creates an entry, even if it fails.
-* **Denied calls**: Every call with the status 401, 403, 429 or 5xx creates an entry, including a read call.
+* **Denied calls**: Every call with the status 401, 403 or 5xx creates an entry, including a read call. Calls with the status 429 create an entry according to the rule below.
 * **Read calls**: A successful call with GET or HEAD creates an entry only when the option "Record read calls (GET)" is switched on. By default, it is switched off.
 
 If a call is missing from the audit log, it was usually a successful read call. No entries are created either while the "Audit log" switch is set to "Off" or while the REST API is switched off.
 
-If the request limit rejects a third-party system with the status 429, only the first rejection per minute appears in the audit log. OpenOlat counts per logged-in person, and per IP address for calls without login. A third-party system that ignores the rejection and keeps sending does not flood the audit log this way.
+If the [request limit](#rate-limit) rejects a third-party system with the status 429, at most one entry per person, node, minute and reason appears in the audit log. The reasons are too many calls per minute and too many simultaneous calls. OpenOlat counts per logged-in person, and per IP address for calls without login. A third-party system that ignores the rejection and keeps sending does not flood the audit log this way.
 
 ### Evaluate entries {: #audit_log_evaluation}
 
@@ -202,18 +282,18 @@ An entry can contain personal data, for example name and email address in the re
 
 ## Configuration of the interface in the code {: #configuration}
 
-A spring bean allows to configure Resources, Singletons and Providers; either statically with the XML configuration of the bean ( `/org/olat/restapi/_spring/restApiContext.xml` ) or programmatically by adding or removing classes and singletons to/from the bean (bean id is the same as its interface: `org.olat.restapi.support.RestRegistrationService` ).
+A Spring bean configures resources, singletons and providers: either statically with the XML configuration of the bean (`/org/olat/restapi/_spring/restApiContext.xml`) or programmatically by adding classes and singletons to the bean or removing them from it. The bean ID is the same as its interface: `org.olat.restapi.support.RestRegistrationService`.
 
-OpenOlat uses the standard JAXB provider from Jersey to produce XML from java objects, as well as the JSON provider from [Jackson](http://jackson.codehaus.org/), which reuses the same JAXB annotations.
+The REST API delivers its responses in XML or JSON format. For JSON, OpenOlat uses the provider from [Jackson](http://jackson.codehaus.org/).
 
 !!! info "Important"
 
-	All configuration settings must be done before the Jersey's servlet starts.
+    All configuration settings must be in place before the servlet of the REST API starts.
 
 
-###  Example
+### Example
 
-Here is a little example on how to create a user and add it to a learning group:
+The example creates a user and adds the user to a learning group as a participant:
 
     PUT https://your.openolat.domain/olat/restapi/users
     HTTP Header: Content-Type application/json
@@ -222,7 +302,7 @@ Here is a little example on how to create a user and add it to a learning group:
     HTTP Header: Accept application/json
     Response: 200
     Choose a group
-    PUT https://your.openolat.domain/olat/restapi/groups/{groupId}/users/{identityKey}
+    PUT https://your.openolat.domain/olat/restapi/groups/{groupKey}/participants/{identityKey}
     Response: 200
 
 [To the top of the page ^](#REST-API)
@@ -233,27 +313,30 @@ Here is a little example on how to create a user and add it to a learning group:
 
 Whoever connects a third-party system to OpenOlat finds all endpoints of the REST API in its documentation. The documentation is based on the OpenAPI specification (formerly Swagger Specification), a description format for REST interfaces. It describes the available endpoints, the operations on each endpoint with parameters, input and output, as well as the objects used by the REST API.
 
-The links to the documentation are in the "Configuration" tab of the REST API page under "Documentation OpenAPI 3.0", as soon as the REST API is switched on:
+The links to the documentation are under "Documentation OpenAPI 3.0" as soon as the REST API is switched on, in the system administration under:<br>
+`Administration > Core functions > REST API > "Configuration" tab`
+
+Two links are available there:
 
 * **"Pretty docu with SwaggerUI"**: the readable documentation at the address `/restapi/api-docs/` of your instance.
 * **"Raw JSON"**: the complete description in a single document, the file openapi.json at the address `/restapi/openapi.json` of your instance.
 
-The SwaggerUI allows you to choose a specific server prefix and to execute the listed requests with the "try it out" button. These requests are binding: they change the data of the addressed system directly.
+In the SwaggerUI, you choose a server prefix and execute the listed requests with the "try it out" button. These requests are binding: they change the data of the addressed system directly.
 
- [To the top of the page ^](#REST-API)
+[To the top of the page ^](#REST-API)
 
 ---
 
-##  Externally managed courses and groups  {: #managed}
+## Externally managed courses and groups {: #managed}
 
-Courses and groups can be created via REST API. Such externally managed courses and groups are called "managed" as an external system is responsible for their lifecycle. You switch the use of this functionality on and off per object type in the "Configuration" tab, section "Managed objects", under:<br>
+Courses and groups can be created via the REST API. Such externally created courses and groups are called "managed", because an external system is the leading system for their data. You switch the use of this functionality on and off per object type in the "Managed objects" section, under:<br>
 `Administration > Core functions > REST API > "Configuration" tab`
 
-Via REST API an optional external ID can be attached to courses and groups. For courses an additional external reference can be used to help identify the resource for end users.
+Via the REST API, the ID from the external system can be stored for courses and groups. For courses, an external reference can in addition make the course recognisable for users.
 
-If such external ID's are used for courses or groups, the external systems must also configure for each external resource which elements in OpenOlat are managed by the external system and which can be modified within the OpenOlat user interface. This is configured with so called "managed flags". Either all elements are managed or the managed elements are listed in detail. The configuration of the "managed flags" are described in the technical documentation of the REST API.
+Whoever uses the external IDs for courses or groups also defines which elements of an externally created resource may not be edited in OpenOlat. This is done with the so-called "managed flags". Either all elements are managed externally or only individual ones, for example the metadata and the user management. The technical documentation of the REST API describes the configuration of the "managed flags".
 
-If the external management is enabled, the user elements in the OpenOlat user interface configured to be "managed" are displayed non-editable. In addition, the external ID's are used in search fields, detail pages and tables. Other non managed resources can be used and managed within OpenOlat as usual.
+If the external management is switched on, the OpenOlat user interface shows the elements marked with "managed flags" as not editable. In addition, the external IDs appear in search fields, detail pages and tables. Other resources that were not created externally can be used and managed alongside as usual.
 
 ??? abstract "Managed organisations"
 
@@ -454,7 +537,7 @@ If the external management is enabled, the user elements in the OpenOlat user in
 
 ## Further information {: #further_information}
 
-[Jersey](<https://jersey.dev.java.net/>)<br>
+[Apache CXF](<https://cxf.apache.org/>)<br>
 [Manage user settings >](../usermanagement/Configure_User.md)<br>
 [Data protection >](../usermanagement/Data_protection.md)<br>
 [Jackson](<http://jackson.codehaus.org/>)<br>
