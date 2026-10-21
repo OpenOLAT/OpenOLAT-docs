@@ -41,7 +41,7 @@ on the question mark! :fontawesome-solid-circle-question:.
 
 !!! info "Important"
 
-    If the link does not appear, it has been hidden at the user tools in the
+    If the link does not appear, it has been hidden in the user tools of the
     personal [Settings](../personal_menu/Settings.md).
 
 [To the top of the page ^](#help)

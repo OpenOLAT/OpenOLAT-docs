@@ -46,7 +46,7 @@ The e-mail does not arrive at the moment your interval expires, but at the next 
 
 Under "E-mail delivery" you set where OpenOlat delivers your e-mails. The field only appears when the administration has switched on the OpenOlat inbox.
 
-  * "Send e-mails to the OpenOlat internal inbox": The messages stay in OpenOlat. You read them under `User tools > E-Mail`. In the notification mail you also find a note about new e-mails in the OpenOlat inbox.
+  * "Send e-mails to the OpenOlat internal inbox": The messages stay in OpenOlat. You read them under `User tools > E-mail`. In the notification mail you also find a note about new e-mails in the OpenOlat inbox.
   * "Send e-mails to the OpenOlat internal inbox and the address ...": OpenOlat puts every message into the inbox and forwards it to the address shown as well. The address shown is the one from your profile. This is the permanent forwarding.
 
 Your choice overrides the system-wide default setting. If you make no choice, the default of the administration applies: [Email Settings](../../manual_admin/administration/E-Mail_Settings.md#e-mail-inbox-and-outbox).

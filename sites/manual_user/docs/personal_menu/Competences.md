@@ -23,7 +23,7 @@ Competences may have been assigned in ePortfolio entries, for example, or entere
 
 ## Where do competences play a role? {: #where_used}
 
-In addition to being displayed in the user tools, the awarding or acquisition of competences also occurs in the following contexts:
+Apart from the display in the user tools, the awarding or acquisition of competences also occurs in the following contexts:
 
 - [Competences tags >](../area_modules/Competences_tags.md) (ePortfolio)
 - [File Hub Concept >](../basic_concepts/File_Hub_Concept.md) (Document pool)

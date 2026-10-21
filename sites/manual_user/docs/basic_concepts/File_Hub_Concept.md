@@ -28,11 +28,11 @@ The File Hub is available in OpenOlat as a **global file browser**, in which **a
 
 ### The File Hub in the personal menu [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #in_personal_menu}
 
-The folders and files are displayed in the File Hub according to individual, personal permissions, which is why the File Hub is also one of the **user tools** and can be found in the **personal menu**.
+The folders and files are displayed in the File Hub according to individual, personal permissions, which is why the File Hub is also one of the **User tools** and can be found in the **personal menu**.
 
 ![Arrow pointing to the profile picture at the top right, which opens the personal menu, in the Courses area](assets/file_hub_pers_menu_open_v1_de.png){ class=" shadow lightbox" }
 
-![Entry File Hub highlighted under User tools in the opened personal menu, behind it the start page of the File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class=" shadow lightbox" }
+![Entry File Hub highlighted under User tools in the opened personal menu, behind it the start page of the File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class="shadow lightbox" }
 
 
 

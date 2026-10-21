@@ -85,7 +85,7 @@ Select the checkboxes of the tools that should appear in the menu bar, and save.
 
 ![Checkbox Calendar selected, the list also contains Profile, Certificates and Print, in the System tab of the settings](assets/pers_menu_move_item_v2_en.png){ class="shadow lightbox" title="System tab of the settings" }
 
-Not only the user tools are available for selection, but also entries from the other sections, for example **Certificates**, **Settings** or **Print**.
+Not only the user tools are available for selection, but also entries from the other sections, for example **Certificates**, **System settings** or **Print**.
 
 !!! info "Important"
 

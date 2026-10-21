@@ -33,7 +33,7 @@ See also [File Hub (basic concept)](../basic_concepts/File_Hub_Concept.md)
 
 ## Where is the File Hub used? {: #where_used}
 
-The folders and files are displayed in the File Hub according to the individual, personal permissions. This is why the File Hub is one of the **user tools** and can be found in the **personal menu**.
+The folders and files are displayed in the File Hub according to the individual, personal permissions. This is why the File Hub is one of the **User tools** and can be found in the **personal menu**.
 
 However, the File Hub is also displayed in many other places whenever **files are to be selected**.
 
