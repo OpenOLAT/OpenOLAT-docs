@@ -90,9 +90,9 @@ KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat,
 <rect x="40" y="532" width="960" height="146" rx="12" fill="#F4F7FB" stroke="#1F4E8C" stroke-width="2"/>
 <text x="60" y="562" class="bh">Voraussetzung, einmal in der System-Administration eingerichtet</text>
 
-<a href="../../../manual_admin/administration/External_Tools_AI/#ai_provider"><title>KI Anbieter</title><g>
+<a href="../../../manual_admin/administration/External_Tools_AI/#ai_provider"><title>KI-Anbieter</title><g>
 <rect class="cbox" x="60" y="578" width="176" height="64" rx="9" fill="#FFFFFF" stroke="#2276D9" stroke-width="2"/>
-<text x="148" y="602" class="chip" text-anchor="middle">KI Anbieter</text>
+<text x="148" y="602" class="chip" text-anchor="middle">KI-Anbieter</text>
 <text x="148" y="624" class="cap" text-anchor="middle">drei Anbietertypen</text>
 </g></a>
 <a href="../../../manual_admin/administration/External_Tools_AI/#ai_function_limits"><title>Limits pro Funktion</title><g>

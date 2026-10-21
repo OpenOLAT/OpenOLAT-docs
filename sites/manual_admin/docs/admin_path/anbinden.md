@@ -77,7 +77,7 @@ The module that manages the connection to AI services: which providers are avail
 
     The module that manages the connection to AI services: which providers are available, which features are active, which model each feature uses and how many calls may run at the same time. It provides no feature for learners itself but serves the features of other modules.
 
-    **German:** KI Modul
+    **German:** KI-Modul
 
     **What users call it:** AI, artificial intelligence, LLM
 

@@ -123,6 +123,8 @@ Möchten Sie Ihre persönlichen Anpassungen rückgängig machen, setzen Sie sie 
 
 Nach einem Klick auf "Zurücksetzen" meldet OpenOlat Sie automatisch ab, damit die Standardeinstellung wirkt.
 
+Die Option "Personalisierung von Bildschirmkomponenten" lässt gespeicherte Anpassungen wie ausgeblendete Tabellenspalten unverändert. Solche Anpassungen setzen Sie im [Tab "GUI-Einstellungen"](#tab_GUI) mit "Zurücksetzen" oder "Mehrere Einträge zurücksetzen" zurück.
+
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
 ---
@@ -181,7 +183,7 @@ Wie der Export ausgelöst wird und wer das darf, beschreibt die Seite [Datenschu
 
 ## Tab GUI-Einstellungen {: #tab_GUI}
 
-Möchten Sie nur eine einzelne gespeicherte Anpassung zurücksetzen statt aller, finden Sie sie hier. OpenOlat speichert die Einstellungen des GUI (Graphical User Interface) in Variablen. Mit "Zurücksetzen" in der Zeile einer Variable setzen Sie diese eine Variable zurück, mit "Mehrere Einträge zurücksetzen" die ausgewählten. Der Tab richtet sich an Expert:innen.
+Hier finden Sie Ihre gespeicherten Anpassungen, etwa ausgeblendete Tabellenspalten, und setzen sie gezielt zurück. OpenOlat speichert die Einstellungen des GUI (Graphical User Interface) in Variablen. Mit "Zurücksetzen" in der Zeile einer Variable setzen Sie diese eine Variable zurück, mit "Mehrere Einträge zurücksetzen" die ausgewählten. Der Tab richtet sich an Expert:innen.
 
 ![Tabelle der gespeicherten GUI-Variablen mit den Spalten Zugeordnete Klasse und Key und je einem Button Zurücksetzen](assets/pers_menu_settings_tab_GUI_v1_de.png){ class="shadow lightbox" title="Tab GUI-Einstellungen der persönlichen Einstellungen" }
 

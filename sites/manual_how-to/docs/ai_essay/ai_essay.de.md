@@ -37,14 +37,14 @@ Für eine bewertete Prüfung nutzen Sie weiterhin den [Kursbaustein Test](../../
 
 ## Voraussetzungen prüfen {: #requirements}
 
-Die Freitextfrage im Quiz erscheint nur, wenn die Administration die passende KI Funktion freigeschaltet hat.
+Die Freitextfrage im Quiz erscheint nur, wenn die Administration die passende KI-Funktion freigeschaltet hat.
 
 1. Öffnen Sie als Systemadministrator:in die System-Administration: `Administration > Externe Werkzeuge > KI-Modul`.
 2. Wählen Sie den Tab **"KI-Funktionen"**.
-3. Prüfen Sie die Funktion **"Essay Bewertung"**: Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI Anbieter und ein Sprachmodell sind gewählt.
+3. Prüfen Sie die Funktion **"Essay Bewertung"**: Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI-Anbieter und ein Sprachmodell sind gewählt.
 4. Für den Weg über den Import prüfen Sie zusätzlich die Funktion **"Essay Fragen Generator"**.
 
-Bei frentix-Kund:innen verwaltet frentix das KI Modul. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Bei frentix-Kund:innen verwaltet frentix das KI-Modul. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
 
 Zwei Grenzwerte dieser Funktion wirken direkt auf Lernende und Autor:innen:
 
@@ -53,7 +53,7 @@ Zwei Grenzwerte dieser Funktion wirken direkt auf Lernende und Autor:innen:
 | "Maximale Anzahl Eingabewörter" | 400 | Längere Antworten weist OpenOlat vor der Bewertung zurück. Die Meldung nennt den eingestellten Wert. |
 | "Timeout (Sekunden)" | 600 | Dauert die Bewertung länger, bricht OpenOlat sie ab und meldet dies. |
 
-Details zu diesen Feldern beschreibt [Externe Werkzeuge: KI Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits).
+Details zu diesen Feldern beschreibt [Externe Werkzeuge: KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits).
 
 [Zum Seitenanfang ^](#ai_essay)
 
@@ -73,7 +73,7 @@ Details zu diesen Feldern beschreibt [Externe Werkzeuge: KI Modul](../../manual_
 
 !!! info "Wichtig"
 
-    Der Eintrag "Freitext" erscheint im Menü "Hinzufügen" nur, wenn die KI Funktion "Essay Bewertung" konfiguriert ist. Fehlt der Eintrag, prüfen Sie die Voraussetzungen im KI Modul.
+    Der Eintrag "Freitext" erscheint im Menü "Hinzufügen" nur, wenn die KI-Funktion "Essay Bewertung" konfiguriert ist. Fehlt der Eintrag, prüfen Sie die Voraussetzungen im KI-Modul.
 
 [Zum Seitenanfang ^](#ai_essay)
 
@@ -199,12 +199,12 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 
 ## Checkliste {: #checklist}
 
-- [x] Ist im KI Modul die Funktion "Essay Bewertung" aktiv und mit einem Modell verbunden?
+- [x] Ist im KI-Modul die Funktion "Essay Bewertung" aktiv und mit einem Modell verbunden?
 - [x] Erscheint im Quiz unter "Hinzufügen" der Eintrag "Freitext"?
 - [x] Sind Lernziel, Quelltext-Auszug, Musterantwort, Bloom-Stufe und Sprache erfasst?
 - [x] Ergeben die Gewichte der Schlüsselpunkte und der Bewertungskriterien je 1.0?
 - [x] Wurde das Feedback mit einer Beispielantwort getestet?
-- [x] Passt das erwartete Antwortmass zur Grenze für Eingabewörter im KI Modul?
+- [x] Passt das erwartete Antwortmass zur Grenze für Eingabewörter im KI-Modul?
 - [x] Ist den Lernenden klar, dass das KI-Feedback keine Punkte vergibt?
 
 ---
@@ -216,12 +216,12 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 [Kursbaustein "Seite" >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
-[Externe Werkzeuge: KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
 
 **Weiterführend**<br>
 [Test Fragetypen >](../../manual_user/learningresources/Test_question_types.de.md)<br>
-[KI Funktionen: Anwendungsmap >](../../manual_user/area_modules/AI_Features_Map.de.md)<br>
+[KI-Funktionen: Anwendungsmap >](../../manual_user/area_modules/AI_Features_Map.de.md)<br>
 [Fragenpool: Beurteilungsprozess >](../../manual_user/area_modules/Question_Bank_Review_Process.de.md)
 
 [Zum Seitenanfang ^](#ai_essay)

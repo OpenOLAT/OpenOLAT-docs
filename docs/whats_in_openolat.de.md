@@ -224,7 +224,7 @@ Womit sich OpenOlat verbindet, und was die KI für Sie übernimmt.
 
     ---
 
-    Das KI Modul und die KI Funktionen in Fragenpool, Media Center, Content Editor und Taxonomie.
+    Das KI-Modul und die KI-Funktionen in Fragenpool, Media Center, Content Editor und Taxonomie.
 
 -   __Selectus__
     {: data-oo-cluster="integrations_and_ai" data-oo-domain="selectus" }

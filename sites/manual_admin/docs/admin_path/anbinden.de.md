@@ -71,11 +71,11 @@ Anbindung des Safe Exam Browser. Der Prüfungsmodus verlangt diesen Browser und 
 
 <p class="oo-mh-kind">Modul</p>
 
-### KI Modul {: #ai_ai_module}
+### KI-Modul {: #ai_ai_module}
 
 Das Modul, das die Anbindung an KI-Dienste verwaltet: welche Anbieter zur Verfügung stehen, welche Funktionen aktiv sind, welches Modell jede Funktion verwendet und wie viele Aufrufe gleichzeitig laufen dürfen.
 
-??? note "KI Modul im Detail"
+??? note "KI-Modul im Detail"
 
     Das Modul, das die Anbindung an KI-Dienste verwaltet: welche Anbieter zur Verfügung stehen, welche Funktionen aktiv sind, welches Modell jede Funktion verwendet und wie viele Aufrufe gleichzeitig laufen dürfen. Es liefert selbst keine Funktion für Lernende, sondern bedient die Funktionen anderer Module.
 
@@ -150,7 +150,7 @@ Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@fr
 Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
 - **Safe Exam Browser:** [Safe Exam Browser Konfigurationsvorlage](../administration/e-Assessment_AssessmentMgmt.de.md). Mehr dazu auf der Seite [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor?](../../manual_how-to/SEB/SEB.de.md).
-- **KI Modul:** [KI Anbieter](../administration/External_Tools_AI.de.md), [KI Funktion](../administration/External_Tools_AI.de.md), KI-Einstellungen, [KI-Verarbeitungs-Pool](../administration/External_Tools_AI.de.md) und weitere.
+- **KI-Modul:** [KI-Anbieter](../administration/External_Tools_AI.de.md), [KI-Funktion](../administration/External_Tools_AI.de.md), KI-Einstellungen, [KI-Verarbeitungs-Pool](../administration/External_Tools_AI.de.md) und weitere.
 - **LTI:** [Plattform](../administration/LTI_External_platforms.de.md), [Deployment](../administration/LTI_External_tools.de.md), [Tool](../administration/LTI_External_tools.de.md), [Deep Linking](../administration/LTI_Deeplinking.de.md) und weitere. Mehr dazu auf der Seite [LTI 1.3 Integrationen](../administration/LTI_Integrations.de.md).
 
 ## Weiterführende Informationen {: #further_information}
@@ -159,7 +159,7 @@ Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war:
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
 [Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management.de.md)<br>
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
-[Externe Werkzeuge: KI Modul >](../administration/External_Tools_AI.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](../administration/External_Tools_AI.de.md)<br>
 [LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)<br>
 [REST API >](../administration/REST_API.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../administration/External_Tools_-_Administration.de.md)<br>

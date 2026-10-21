@@ -312,9 +312,9 @@ In der System-Administration unter `Administration > Externe Werkzeuge > Analyti
 
 
 
-## KI Modul [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
+## KI-Modul [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
 
-In der System-Administration unter `Administration > Externe Werkzeuge > KI Modul` aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können.
+In der System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können.
 
 [Zu den Details >](External_Tools_AI.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
@@ -323,9 +323,9 @@ In der System-Administration unter `Administration > Externe Werkzeuge > KI Modu
 
 ## ONNX Einbettungsmodell [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #onnx_embedding_model}
 
-Soll die Taxonomie-Zuordnung (Embeddings) ohne externen KI Anbieter laufen, setzen Sie ein ONNX Einbettungsmodell ein: OpenOlat lädt es aus einem Modellverzeichnis auf dem eigenen Server, braucht keinen API Schlüssel, und kein Text verlässt den Server.
+Soll die Taxonomie-Zuordnung (Embeddings) ohne externen KI-Anbieter laufen, setzen Sie ein ONNX Einbettungsmodell ein: OpenOlat lädt es aus einem Modellverzeichnis auf dem eigenen Server, braucht keinen API Schlüssel, und kein Text verlässt den Server.
 
-Sobald im Modellverzeichnis ein Modell liegt, zeigt die System-Administration unter `Administration > Externe Werkzeuge > KI Modul` im Tab "KI-Anbieter" den Abschnitt "ONNX Einbettungsmodell" mit den erkannten Modellen. Dort erkennt "Neu einlesen" neu abgelegte Modelle, und "Validieren" prüft, ob jedes Modell korrekt geladen wird. Im Tab "KI-Funktionen" wählen Sie danach bei der Taxonomie-Zuordnung (Embeddings) den Anbieter "Local ONNX" und das Einbettungsmodell, siehe [Modul Taxonomie: Automatische Zuordnung per KI](Modules_Taxonomy.de.md#ai_matching).
+Sobald im Modellverzeichnis ein Modell liegt, zeigt die System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` im Tab "KI-Anbieter" den Abschnitt "ONNX Einbettungsmodell" mit den erkannten Modellen. Dort erkennt "Neu einlesen" neu abgelegte Modelle, und "Validieren" prüft, ob jedes Modell korrekt geladen wird. Im Tab "KI-Funktionen" wählen Sie danach bei der Taxonomie-Zuordnung (Embeddings) den Anbieter "Local ONNX" und das Einbettungsmodell, siehe [Modul Taxonomie: Automatische Zuordnung per KI](Modules_Taxonomy.de.md#ai_matching).
 
 Das Modellverzeichnis und die Dateien darin sind Teil der Serverkonfiguration. frentix-Kund:innen wenden sich für die Einrichtung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
 
@@ -380,7 +380,7 @@ Wie Sie den PDF-Dienst AthenaPDF installieren und konfigurieren, erfahren Sie im
 [Dokumentation zu Mediasite >](https://mediasite.com/)<br>
 [Website edu-sharing >](https://edu-sharing.com/)<br>
 [Website draw.io >](https://www.drawio.com)<br>
-[Externe Werkzeuge: KI Modul >](External_Tools_AI.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](External_Tools_AI.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../../manual_user/learningresources/General_Functions_Infopage.de.md)<br>
 [Website Gotenberg >](https://gotenberg.dev/docs/getting-started/introduction)<br>

@@ -205,10 +205,10 @@ OpenOlat durchsucht die Taxonomien, die für das Media Center ausgewählt sind. 
 
 ### Voraussetzungen {: #ai_matching_requirements}
 
-Die Zuordnung per Einbettungsmodell braucht drei Einstellungen im KI Modul, siehe [Externe Werkzeuge: KI Modul](External_Tools_AI.de.md#ai_functions):
+Die Zuordnung per Einbettungsmodell braucht drei Einstellungen im KI-Modul, siehe [Externe Werkzeuge: KI-Modul](External_Tools_AI.de.md#ai_functions):
 
-* Die KI Funktion "Taxonomie-Zuordnung (Embeddings)" ist aktiviert.
-* Ein KI Anbieter ist gewählt, der ein Einbettungsmodell anbietet.
+* Die KI-Funktion "Taxonomie-Zuordnung (Embeddings)" ist aktiviert.
+* Ein KI-Anbieter ist gewählt, der ein Einbettungsmodell anbietet.
 * Ein Einbettungsmodell ist gewählt.
 
 Fehlt eine dieser Einstellungen, ordnet OpenOlat eine Ebene nur dann zu, wenn das Ergebnis der KI wortgleich mit dem Titel oder dem Kennzeichen der Ebene ist. Gross- und Kleinschreibung spielt dabei keine Rolle.
@@ -231,11 +231,11 @@ Welchen Fachbereich ein Medium erhält, hängt vom Auslöser ab:
 
 | Auslöser | Was OpenOlat zuordnet | Was dafür nötig ist |
 |---|---|---|
-| Button "Metadaten mit KI generieren" beim Hochladen eines Bildes | den am besten passenden Fachbereich, genau einen | Die KI Funktion "Bildbeschreibungs-Generator" liefert, worum es im Bild geht. |
-| Import einer Markdown-Datei in den Content Editor | alle passenden Fachbereiche, bis zu drei je Taxonomie | Dieselbe KI Funktion. Die Zuordnung läuft nach dem Speichern im Hintergrund. |
+| Button "Metadaten mit KI generieren" beim Hochladen eines Bildes | den am besten passenden Fachbereich, genau einen | Die KI-Funktion "Bildbeschreibungs-Generator" liefert, worum es im Bild geht. |
+| Import einer Markdown-Datei in den Content Editor | alle passenden Fachbereiche, bis zu drei je Taxonomie | Dieselbe KI-Funktion. Die Zuordnung läuft nach dem Speichern im Hintergrund. |
 | Metadaten von Hand erfassen | nichts | Sie wählen den Fachbereich selbst im Feld "Themen/Fachbereiche". |
 
-Die KI liefert also, worum es im Medium geht, und die Taxonomie-Zuordnung sucht dazu den passenden Fachbereich. Ohne die KI Funktion "Bildbeschreibungs-Generator" bleibt diese Angabe leer, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Der zugeordnete Fachbereich ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
+Die KI liefert also, worum es im Medium geht, und die Taxonomie-Zuordnung sucht dazu den passenden Fachbereich. Ohne die KI-Funktion "Bildbeschreibungs-Generator" bleibt diese Angabe leer, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Der zugeordnete Fachbereich ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
 
 Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung und Tags erzeugt hat, prüfen Sie zuerst, ob für das Media Center eine Taxonomie ausgewählt ist, oder, wenn dort keine ausgewählt ist, unter `Administration > Module > Lernressource`.
 
@@ -261,7 +261,7 @@ Hier werden alle gelöschten Elemente aus dem Tab "Ebenen" abgelegt.
 [Katalog 2.0 >](../../manual_user/area_modules/catalog2.0.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
-[Externe Werkzeuge: KI Modul >](External_Tools_AI.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](External_Tools_AI.de.md)<br>
 [Modul Media Center >](Modules_Media_Center.de.md)
 
 **Weiterführend**<br>

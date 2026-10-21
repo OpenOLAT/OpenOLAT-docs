@@ -123,6 +123,8 @@ If you want to undo your personal adjustments, reset them to the default setting
 
 After a click on "Reset", OpenOlat logs you out automatically so that the default setting takes effect.
 
+The option "Personalized interface components" leaves saved adjustments such as hidden table columns unchanged. You reset such adjustments in the [tab "GUI preferences"](#tab_GUI) with "Reset" or "Bulk reset".
+
 [To the top of the page ^](#personal_configuration_settings)
 
 ---
@@ -181,7 +183,7 @@ How the export is triggered and who is allowed to do so is described on the page
 
 ## Tab GUI preferences {: #tab_GUI}
 
-If you want to reset only a single saved adjustment instead of all of them, you find it here. OpenOlat stores the settings of the GUI (Graphical User Interface) in variables. With "Reset" in the row of a variable you reset this one variable, with "Bulk reset" the selected ones. The tab is intended for experts.
+Here you find your saved adjustments, such as hidden table columns, and reset them selectively. OpenOlat stores the settings of the GUI (Graphical User Interface) in variables. With "Reset" in the row of a variable you reset this one variable, with "Bulk reset" the selected ones. The tab is intended for experts.
 
 ![Table of the stored GUI variables with the columns Attributed class and Key and one button Reset per row, so you reset a single variable](assets/pers_menu_settings_tab_gui_v1_en.png){ class="shadow lightbox" title="GUI preferences tab of the personal settings · 2026.10.20" }
 

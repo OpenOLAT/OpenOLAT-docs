@@ -30,14 +30,14 @@ Im Fragenpool können Fragen auch mit Hilfe von künstlicher Intelligenz erstell
 
 !!! info "Wichtig"
 
-    Diese Funktion steht nur zur Verfügung, wenn in der System-Administration das [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md) aktiviert und mindestens eine passende KI Funktion mit einem KI Anbieter und Modell konfiguriert ist: "MC Fragen Generator" für Multiple-Choice-Fragen sowie "Essay Fragen Generator" und "Essay Bewertung" für Freitextfragen mit KI-Korrektur.
+    Diese Funktion steht nur zur Verfügung, wenn in der System-Administration das [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) aktiviert und mindestens eine passende KI-Funktion mit einem KI-Anbieter und Modell konfiguriert ist: "MC Fragen Generator" für Multiple-Choice-Fragen sowie "Essay Fragen Generator" und "Essay Bewertung" für Freitextfragen mit KI-Korrektur.
 
 Als Ausgangsmaterial wählen Sie einen von zwei Modi:
 
 * **"Datei hochladen"**: eine Markdown-, Text- oder Word-Datei (.docx).
 * **"Text einfügen"**: Sie fügen den Quelltext direkt in das Eingabefeld ein.
 
-Wie lang der Quelltext sein darf, gibt die System-Administration im [KI Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits) vor, standardmässig 60000 Zeichen [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. Der Dialog nennt die geltende Grenze und weist zu lange Texte zurück.
+Wie lang der Quelltext sein darf, gibt die System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits) vor, standardmässig 60000 Zeichen [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. Der Dialog nennt die geltende Grenze und weist zu lange Texte zurück.
 
 Anschliessend legen Sie fest, wie viele Fragen erzeugt werden: "Multiple-Choice-Fragen" und, sofern die KI-Korrektur konfiguriert ist, "Essay-Fragen mit KI-Korrektur" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"}. Die KI schlägt anhand der Textlänge sinnvolle Werte vor, die Sie anpassen können. Mit "Fragen generieren" starten Sie den Vorgang.
 
@@ -100,7 +100,7 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 
 **Auf dieser Seite erwähnt**<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
-[KI Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
 [Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)
