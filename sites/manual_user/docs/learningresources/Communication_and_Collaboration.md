@@ -32,10 +32,10 @@ You can also use the forum as an alternative to the notification element for ann
 ### Tab Configuration
 Here you can set the user permissions of the forum and define which course roles are allowed to create forum posts. You can choose between coaches, participants and guests. You can also set whether coaches are allowed to moderate the forum and whether pseudonymized postings are allowed in the forum. In pseudonymized forums, the authors of a post can choose their own pseudonym. Once a pseudonym has been created, it always remains active in the forum, but can be changed or switched off as needed. The pseudonym can be protected by participants with a password, so that only this person can use this pseudonym. Without password protection, the same pseudonym could be used by several participants. Furthermore, it can be set that the use of a pseudonym is enabled by default. To do this, select the checkbox "Pseudonym activated in individual forum posts".
 
-![Checkboxes for pseudonym aliases and role selection for moderation and creating forum posts, tab Configuration of a forum](assets/forum_config.png){ class="shadow lightbox" }
+![Checkboxes for pseudonym aliases and role selection for moderation and creating forum posts, tab Configuration of a forum](assets/forum_config.png){ class="shadow lightbox" title="Configuration tab of a forum" }
 
 **Moderation rights**
-All course owners and [coaches](../basic_concepts/coach.md) have the following additional moderation rights. They can:
+All course owners and [coaches](../basic_concepts/Roles.md#coach) have the following additional moderation rights. They can:
 
   * Edit and delete all forum posts and attach files.
   * Prioritize threads (sticky): the discussion topic then always appears at the top of the list.
@@ -67,7 +67,7 @@ Who, besides the course owners, can take which actions is defined in the course 
 ### Tab Configuration
 Here you can set the user permissions of the element and define which course roles are allowed to upload files and create discussion topics. You can also define who may create forum posts in the respective discussion topics. You can choose between coaches and participants. It can also be set here whether coaches are allowed to moderate the file dialog.
 
-![Role selection for moderation, uploading files and creating discussion topics, and creating forum posts, tab Configuration of the file dialog](assets/file_dialog_config.png){ class="shadow lightbox" }
+![Role selection for moderation, uploading files and creating discussion topics, and creating forum posts, tab Configuration of the file dialog](assets/file_dialog_config.png){ class="shadow lightbox" title="Configuration tab of the file dialog" }
 
 !!! warning "Attention"
 
@@ -108,7 +108,7 @@ In the tab "Template settings", subfolders can be created for both the drop box 
 
 In the participant list, the members of the course can be made visible to everyone. Unlike the course tool [Member management](../learningresources/Members_management.md), which is only visible to owners, the course element "Participant list" makes all participants of the course visible to all persons who can open the course. Members are listed by their course role, sorted as "course administrators", "coaches" and "participants", with a photo, according to their "highest" role. In the configuration, you can define which user groups are displayed in the participant list.
 
-![Configuration of the participant list: checkboxes for course administrator, coaches and participants with visibility scopes, plus toggles for the e-mail and download function](assets/participant_list_config.png){ class="shadow lightbox" }
+![Configuration of the participant list: checkboxes for course administrator, coaches and participants with visibility scopes, plus toggles for the e-mail and download function](assets/participant_list_config.png){ class="shadow lightbox" title="Configuration of the course element Participant list" }
 By linking to the OpenOlat business card, and the option to send an OpenOlat mail to any desired member of the course directly from the course element, this course element makes it easy and straightforward to contact other participants. In the course editor, you can define whether the e-mail function is available for all participants, or only for owners and coaches. Mails to individual or multiple persons (groups) are sent from the course view via the "Send e-mail" button. External mail addresses can also be added to the form as needed.
 
 Besides the mail function, the chat function is also available in the participant list in the course view. The online status of each participant is visible next to their name. Clicking it opens the chat window (instant messenger).
@@ -123,7 +123,7 @@ Finally, it can be defined who is allowed to download the participant list as Ex
 
 [Virtual classrooms >](../basic_concepts/Virtual_classrooms.md)<br>
 [Working with forums >](Working_with_Forums.md)<br>
-[Role: Coach >](../basic_concepts/coach.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [Using additional course features in the toolbar >](Using_Additional_Course_Features.md)<br>
 [Course element "Task" >](Course_Element_Task.md)<br>
 [Member management >](Members_management.md)

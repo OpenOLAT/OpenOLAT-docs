@@ -13,5 +13,6 @@ Accompanies participants of an implementation or a course with access to the ass
 
 [Course Planner: Overview >](../Course_Planner.md)<br>
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
-[Roles and Rights: The role of a coach >](../../basic_concepts/coach.md)<br>
 [Roles and Rights: Which roles are available? >](../../basic_concepts/Roles.md)
+
+[To the top of the page ^](#role_coach)

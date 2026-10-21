@@ -9,7 +9,7 @@ OpenOlat consistently separates the two perspectives on a course by role:
 * Under **Courses** ("My courses") you find the learning resources in which you yourself are entered as a participant.
 * Learning resources you accompany as a coach or owner are found in the **Coaching** area.
 
-If you are assigned both roles in a course, the course appears in both areas. You then open it where your current task lies: under "Courses" for learning, in "Coaching" for coaching.
+If you are assigned both roles in a course, the course appears in both areas. You then open it where your current task lies: under "Courses" for learning, in "Coaching" for coaching. What coaches may do within the course itself is described in the section [The role Coach](Roles.md#coach).
 
 Two people can therefore see different menus after logging in. If a menu item is missing, this is not an error: either the corresponding module is not activated or the required role has not been assigned.
 

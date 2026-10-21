@@ -14,7 +14,7 @@ Specialty / Note |
 
 With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. 
 
-![Forum post with title, author and text, plus the buttons Reply with quote and Reply without quote, example of a start posting in a forum](assets/Posting_beantworten.png){ class="shadow lightbox" }
+![Forum post with title, author and text, plus the buttons Reply with quote and Reply without quote, example of a start posting in a forum](assets/Posting_beantworten.png){ class="shadow lightbox" title="Discussion topic in the forum" }
 
 [To the top of the page ^](#forum)
 
@@ -32,13 +32,13 @@ A forum is configured in the course editor in the "configuration" tab. Here you 
 
 In the case of pseudonymized forums, the posters can choose a pseudonym themselves. Once a pseudonym has been created, it will always remain active in the forum, but can be changed or switched off as required. The pseudonym can be protected by a user with a password, so that only this user can use this pseudonym. Without password protection the same pseudonym can be used by several users. Furthermore, it can be set that the use of an alias is activated by default. To do this, select the checkbox "Activate alias in every message".
 
-![Checkboxes Allow posts using an alias and Activate alias in every message, plus the role selection for moderation and creating posts, Configuration tab of a forum](assets/forum_config.png){ class="shadow lightbox" }
+![Checkboxes Allow posts using an alias and Activate alias in every message, plus the role selection for moderation and creating posts, Configuration tab of a forum](assets/forum_config.png){ class="shadow lightbox" title="Configuration tab of a forum" }
 
 ---
 
 ### Moderation rights {: #moderator}
 
-All course owners and if enabled all [coaches](../basic_concepts/coach.md) have the following additional **moderation rights**. They can:
+Course owners always have the following additional moderation rights, [coaches](../basic_concepts/Roles.md#coach) if the right "Moderator" is switched on for them. The right is switched on by default; owners switch it off in the "Configuration" tab. Whoever moderates can:
 
   * Editing and deleting all posts in a forum; attaching files.
   * Prioritizing threads (sticky): a certain discussion subject will always appear on top of a list.
@@ -70,7 +70,7 @@ Forums are the central tools for asynchronous discussion in online courses and a
 
 Participants can open topics in forums, archive topics and also customize the display of a thread/topic. They can create, edit and mark posts and subscribe to a forum completely.
 
-![Discussion topic in a forum with the marked controls Adjust display, Subscribe, Mark and Create post](assets/arbeiten_mit_Foren.png){ class="shadow lightbox" }
+![Discussion topic in a forum with the marked controls Adjust display, Subscribe, Mark and Create post](assets/arbeiten_mit_Foren.png){ class="shadow lightbox" title="Discussion topic in the forum" }
 
 
 !!! tip "Tip"
@@ -104,7 +104,7 @@ Depending on the configuration by the course owner, you may also be able to publ
 
 Individual forum posts can be marked. To do so, click on the small flag in the upper right corner of a post in the detailed view of a topic. In the forum overview you can see how many posts per topic have been marked. This makes it easier to find individual posts again or mark them for a later reply.
 
-![Flag icon in the top right corner of a forum post to mark the post](assets/Posting_markieren.png){ class="shadow lightbox" }
+![Flag icon in the top right corner of a forum post to mark the post](assets/Posting_markieren.png){ class="shadow lightbox" title="Forum post in a discussion topic" }
 
 ---
 
@@ -112,11 +112,11 @@ Individual forum posts can be marked. To do so, click on the small flag in the u
 
 If you have selected the "Forum" course module, you will find the options to export forum posts as a Word file under the button with the three dots. 
 
-![Menu with the options Person filter, Export to Word and Excel report marked, opened via the button with the 3 dots in the course element Forum](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" }
+![Menu with the options Person filter, Export to Word and Excel report marked, opened via the button with the 3 dots in the course element Forum](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" title="Course element Forum" }
 
 With the person filter, you can search specifically for posts by certain persons, such as just the most recent ones.
 
-![Filtered forum posts of a single person after applying the person filter in the course element Forum](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" }
+![Filtered forum posts of a single person after applying the person filter in the course element Forum](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" title="Course element Forum" }
 
 The Excel file that can also be generated here contains a report with statistical data on the number of posts, their authors, etc., but does not include the posts themselves. It contains one row for each forum post written.
 
@@ -129,9 +129,9 @@ Posts in individual forum threads can also be archived. A ZIP archive is created
 * To create an archive, click on the discussion thread to open it. 
 * Above the displayed discussion topic, you will see the "Archive discussion topic" button.
 
-![Discussion topics marked in the forum's topic overview, click to open for archiving](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" }
+![Discussion topics marked in the forum's topic overview, click to open for archiving](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" title="Topic overview of the forum" }
 
-![Archive discussion topic button marked above an open discussion topic in the forum](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" }
+![Archive discussion topic button marked above an open discussion topic in the forum](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" title="Open discussion topic in the forum" }
 
 
 ---
@@ -166,7 +166,7 @@ Participants can view all posts below each other (all), with or without indentat
 
 Especially interesting for more complex discussions is also the view "one". The entire thread structure is displayed here and can thus be traced very well. It is helpful that individual parts can be shown and hidden. In addition, you can quickly recognize new forum posts by the asterisk in this display.
 
-![Nested discussion structure with a new post marked by an asterisk and the currently displayed post highlighted in green, view "one" in a forum](assets/Forum_Aufbau-1a.png){ class="shadow lightbox" }
+![Nested discussion structure with a new post marked by an asterisk and the currently displayed post highlighted in green, view "one" in a forum](assets/Forum_Aufbau-1a.png){ class="shadow lightbox" title="Discussion topic in the forum" }
 
 [To the top of the page ^](#forum)
 
@@ -189,7 +189,7 @@ c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a 
 
 ## Further information {: #further_information}
 
-[Role of a coach >](../basic_concepts/coach.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [Personal Configuration: Profile >](../personal_menu/Profile.md)<br>
 [Course Element Notifications >](../../manual_user/learningresources/Course_Element_Notifications.md)<br>
 [Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)<br>

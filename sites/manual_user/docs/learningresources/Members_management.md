@@ -39,7 +39,7 @@ In the extended filter panel (arrow icon), the selection can also be modified by
 * **Group**: selection from the groups used in the course
 * **CPL element**: selection from the Course Planner elements used in the course
 
-The cogwheel menu can also be used to show the **Origin** column. It shows the way a person became a member of the course (course, group, or Course Planner). The **Joined** and **Last visit** columns can also be added here.
+The cogwheel menu can also be used to show the "Origin" column. It shows the way a person became a member of the course (course, group, or Course Planner). The "Joined" and "Last visit" columns can also be added here.
 
 **Detail view:** Click on a row to open the detail view of a person. It shows a user info card (account type, join date, last visit if applicable) with the **Edit** action and, where applicable, up to three origin sections:
 
@@ -188,6 +188,8 @@ However, it is best to assign these extended rights to the _participants_ of a g
 
 ### Assignment of additional rights {: #additional_rights}
 
+What coaches may do in the course without these rights is described in the section [The role Coach](../basic_concepts/Roles.md#coach).
+
 The following course rights can be assigned to groups:
 
 
@@ -271,6 +273,7 @@ If course-related terms of use or the course-related privacy policy are [activat
 [Groups >](../groups/index.md)<br>
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
 [Glossary >](../learningresources/Glossary.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>

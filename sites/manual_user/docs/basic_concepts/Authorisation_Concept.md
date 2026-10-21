@@ -16,7 +16,7 @@ Legend
 
 
 ## Rights of the course roles [:octicons-tag-16:{ title="from Release 20.1.0 (OO-8646)" }](https://track.frentix.com/issue/OO-8646)
-The course roles participant and coach also stand for the group participants/coaches and implementation participants/coaches.
+The course roles participant and coach also stand for the group participants/coaches and implementation participants/coaches. What coaches may do in the individual course elements and course tools is described in the section [The role Coach](Roles.md#coach).
 
 |                                                             | Owners           | Coaches           | Participants      |
 | ----------------------------------------------------------- | :--------------: | :---------------: | :---------------: |

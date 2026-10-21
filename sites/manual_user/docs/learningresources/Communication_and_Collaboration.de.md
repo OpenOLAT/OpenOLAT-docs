@@ -34,10 +34,10 @@ Sie können das Forum auch als Alternative für den Mitteilungsbaustein für Ank
 ### Tab Konfiguration
 Hier können die Benutzerberechtigungen des Forums eingestellt und definiert werden welche Kursrollen Forenbeiträge erstellen dürfen. Zur Wahl stehen Betreuer:innen, Teilnehmende und Gäste. Auch wird hier eingestellt, ob Betreuer:innen das Forum moderieren dürfen und ob in dem Forum pseudonymisierte Postings erlaubt sind. Bei pseudonymisierten Foren können sich die Beitragsersteller selbst ein Pseudonym auswählen. Ein einmal erstelltes Pseudonym bleibt im Forum immer aktiviert, kann aber je nach Bedarf geändert oder ausgeschaltet werden. Das Pseudonym kann von Teilnehmenden mit einem Passwort geschützt werden, damit nur diese Person dieses Pseudonym verwenden kann. Ohne Passwortschutz könnte dasselbe Pseudonym von mehreren Teilnehmenden verwendet werden. Weiter kann eingestellt werden, dass die Verwendung eines Pseudonyms standardmässig eingeschaltet ist. Wählen Sie dazu die Checkbox "Pseudonym im einzelnen Forum-Post aktiviert".
 
-![Checkboxen für Pseudonym-Aliase und Rollenauswahl für Moderation und Forumsbeitrag erstellen, Tab Konfiguration eines Forums](assets/forum_config_DE.png){ class="shadow lightbox" }
+![Checkboxen für Pseudonym-Aliase und Rollenauswahl für Moderation und Forumsbeitrag erstellen, Tab Konfiguration eines Forums](assets/forum_config_DE.png){ class="shadow lightbox" title="Tab Konfiguration eines Forums" }
 
 **Moderationsrechte**
-Alle Kursbesitzer:innen und [Betreuer:innen](../basic_concepts/coach.de.md) verfügen über folgende weitere Moderationsrechte. Sie können:
+Alle Kursbesitzer:innen und [Betreuer:innen](../basic_concepts/Roles.de.md#coach) verfügen über folgende weitere Moderationsrechte. Sie können:
 
   * Alle Forumsbeiträge editieren, löschen und Dateien anhängen.
   * Threads priorisieren (sticky): So erscheint das Diskussionsthema immer zuoberst auf der Liste.
@@ -70,7 +70,7 @@ Wer neben den Kursbesitzer:innen noch welche Aktionen vornehmen kann, wird im Ku
 ### Tab Konfiguration
 Hier können die Benutzerberechtigungen des Bausteins eingestellt und definiert werden, welche Kursrollen Dateien hochladen und Diskussionsthemen erstellen dürfen. Zudem kann definiert werden, wer in den jeweiligen Diskussionsthemen Forumsbeiträge erstellen darf. Zur Wahl stehen Betreuer:innen und Teilnehmende. Auch wird hier eingestellt, ob Betreuer:innen die Dateidiskussion moderieren dürfen.
 
-![Rollenauswahl für Moderation, Datei hochladen und Diskussionsthema erstellen sowie Forumsbeitrag erstellen, Tab Konfiguration der Dateidiskussion](assets/file_dialog_config_DE.png){ class="shadow lightbox" }
+![Rollenauswahl für Moderation, Datei hochladen und Diskussionsthema erstellen sowie Forumsbeitrag erstellen, Tab Konfiguration der Dateidiskussion](assets/file_dialog_config_DE.png){ class="shadow lightbox" title="Tab Konfiguration der Dateidiskussion" }
 
 !!! warning "Achtung"
 
@@ -118,7 +118,7 @@ Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rü
 
 In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar gemacht werden. Im Gegensatz zum Kurswerkzeug [Mitgliederverwaltung](../learningresources/Members_management.de.md), das nur für Besitzende sichtbar ist, werden mit dem Kursbaustein "Teilnehmerliste" alle Teilnehmenden des Kurses für alle Personen sichtbar, die den Kurs öffnen können. Die Mitglieder werden sortiert nach ihrer Kursrolle nach "Kursadministrator:innen", "Betreuer:innen" und "Teilnehmende" mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden sollen.
 
-![Konfiguration der Teilnehmerliste: Checkboxen für Kursadministrator, Betreuer und Teilnehmer mit Sichtbarkeits-Scopes, dazu Schalter für Mail- und Downloadfunktion](assets/Teilnehmerliste_Editor.png){ class="shadow lightbox" }
+![Konfiguration der Teilnehmerliste: Checkboxen für Kursadministrator, Betreuer und Teilnehmer mit Sichtbarkeits-Scopes, dazu Schalter für Mail- und Downloadfunktion](assets/Teilnehmerliste_Editor.png){ class="shadow lightbox" title="Konfiguration des Kursbausteins Liste der Teilnehmer:innen" }
 Durch die Verlinkung auf die OpenOlat-Visitenkarte sowie der Möglichkeit aus dem Kursbaustein heraus eine OpenOlat-Mail an jedes gewünschte Mitglied des Kurses zu schreiben, ermöglicht dieser Kursbaustein weitere Teilnehmende einfach und problemlos zu kontaktieren. Im Kurseditor können Sie festlegen, ob die E-Mailfunktion für alle Teilnehmenden oder nur für Besitzende und Betreuende verfügbar sein soll. Mails an einzelne oder mehrere Personen(-gruppen) werden in der Kursansicht über die Schaltfläche "E-Mail versenden" verschickt. Im Formular können nach Bedarf auch externe Mailadressen hinzugefügt werden.
 
 Neben der Mailfunktion ist in der Kursansicht auch die Chatfunktion in der Teilnehmerliste verfügbar. Der Online-Status jeder teilnehmenden Person ist neben dem Namen sichtbar. Ein Klick darauf öffnet das Chatfenster (Instant Messenger).
@@ -133,7 +133,7 @@ Zum Schluss kann definiert werden, wer die Teilnehmerliste als Excel herunterlad
 
 [Virtuelle Klassenzimmer >](../basic_concepts/Virtual_classrooms.de.md)<br>
 [Arbeiten mit Foren >](Working_with_Forums.de.md)<br>
-[Rolle Betreuer:in >](../basic_concepts/coach.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](Using_Additional_Course_Features.de.md)<br>
 [Kursbaustein "Aufgabe" >](Course_Element_Task.de.md)<br>
 [Mitgliederverwaltung >](Members_management.de.md)

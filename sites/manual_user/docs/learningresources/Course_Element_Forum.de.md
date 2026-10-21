@@ -14,7 +14,7 @@ Spezialität / Hinweis |
 
 Mit dem Kursbaustein "Forum" können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise können Teilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische forenbasierte Online-Methoden um usw.
 
-![Forumsbeitrag mit Titel, Autorin und Text sowie den Buttons Antworten mit Zitat und Antworten ohne Zitat, Beispiel eines Startpostings im Forum](assets/Posting_beantworten.png){ class="shadow lightbox" }
+![Forumsbeitrag mit Titel, Autorin und Text sowie den Buttons Antworten mit Zitat und Antworten ohne Zitat, Beispiel eines Startpostings im Forum](assets/Posting_beantworten.png){ class="shadow lightbox" title="Diskussionsthema im Forum" }
 
 [Zum Seitenanfang ^](#forum)
 
@@ -32,13 +32,13 @@ Die Konfiguration eines Forums erfolgt im Kurseditor im Tab "Konfiguration". Hie
 Wurde der Haken bei "Beiträge mit Pseudonym zulassen" aktiviert können die Ersteller:innen des Beitrags selbst einen Namen eintragen unter dem ihr Beitrag erscheint. Das Pseudonym kann von Teilnehmenden mit einem Passwort geschützt werden, damit nur diese Person dieses Pseudonym verwenden kann. Ohne Passwortschutz könnte dasselbe Pseudonym von mehreren Teilnehmenden verwendet werden.
 Weiter kann eingestellt werden, ob der eingegebene Pseudonymname bei weiteren Postings im Forum als Standard voreingestellt ist und somit auch weitere Postings unter dem definierten Namen erfolgen. Wählen Sie dazu die Checkbox "Pseudonym im einzelnen Forum-Post aktiviert".
 
-![Checkboxen Beiträge mit Pseudonym zulassen und Pseudonym im Forum-Post aktiviert, dazu die Rollenauswahl für Moderation und Beitragserstellung, Tab Konfiguration eines Forums](assets/forum_config_DE.png){ class="shadow lightbox" }
+![Checkboxen Beiträge mit Pseudonym zulassen und Pseudonym im Forum-Post aktiviert, dazu die Rollenauswahl für Moderation und Beitragserstellung, Tab Konfiguration eines Forums](assets/forum_config_DE.png){ class="shadow lightbox" title="Tab Konfiguration eines Forums" }
 
 ---
 
 ### Moderationsrechte {: #moderator}
 
-Alle Kursbesitzer:innen und sofern aktiviert alle [Betreuer:innen](../basic_concepts/coach.de.md) verfügen über folgende weitere **Moderationsrechte**. Sie können:
+Kursbesitzer:innen haben immer folgende weitere Moderationsrechte, [Betreuer:innen](../basic_concepts/Roles.de.md#coach) dann, wenn für sie das Recht "Moderator" eingeschaltet ist. Das Recht ist standardmässig eingeschaltet; Besitzer:innen schalten es im Tab "Konfiguration" ab. Wer moderiert, kann:
 
 * Alle Forumsbeiträge editieren, löschen und Dateien anhängen.
 * Threads priorisieren (sticky): So erscheint das Diskussionsthema immer zuoberst auf der Liste.
@@ -70,7 +70,7 @@ Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-Kurs
 
 Teilnehmende können in Foren Themen eröffnen, Themen archivieren und auch die Darstellung eines Threads/Themas anpassen. Sie können Postings erstellen, editieren und markieren sowie ein Forum komplett abonnieren.
 
-![Diskussionsthema im Forum mit markierten Bedienelementen Darstellung anpassen, Abonnieren, Markieren und Posting erstellen](assets/arbeiten_mit_Foren.png){ class="shadow lightbox" }
+![Diskussionsthema im Forum mit markierten Bedienelementen Darstellung anpassen, Abonnieren, Markieren und Posting erstellen](assets/arbeiten_mit_Foren.png){ class="shadow lightbox" title="Diskussionsthema im Forum" }
 
 
 !!! tip "Tipp"
@@ -107,7 +107,7 @@ Sofern aktiviert können Sie Ihren Beitrag eventuell auch unter einem Pseudonym 
 
 Einzelne Forenbeiträge können markiert werden. Klicken Sie dazu in der Detailansicht eines Themas auf die kleine Flagge in der rechten oberen Ecke eines Beitrags. In der Forenübersicht sehen Sie wie viele Beiträge pro Thema markiert wurden. Auf diese Weise können einzelne Beiträge leichter wiedergefunden oder für eine spätere Beantwortung gekennzeichnet werden.
 
-![Flaggen-Symbol oben rechts an einem Forumsbeitrag zum Markieren des Beitrags](assets/Posting_markieren.png){ class="shadow lightbox" }
+![Flaggen-Symbol oben rechts an einem Forumsbeitrag zum Markieren des Beitrags](assets/Posting_markieren.png){ class="shadow lightbox" title="Forumsbeitrag im Diskussionsthema" }
 
 ---
 
@@ -115,11 +115,11 @@ Einzelne Forenbeiträge können markiert werden. Klicken Sie dazu in der Detaila
 
 Wenn Sie den Kursbaustein "Forum" ausgewählt haben, finden Sie unter dem Button mit den 3 Punkten die Optionen zum Export der Forenbeiträge als Word-Datei. 
 
-![Menü mit den Optionen Personenfilter, Export to Word und Excel report markiert, geöffnet über den Button mit den 3 Punkten im Kursbaustein Forum](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" }
+![Menü mit den Optionen Personenfilter, Export to Word und Excel report markiert, geöffnet über den Button mit den 3 Punkten im Kursbaustein Forum](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" title="Kursbaustein Forum" }
 
 Mit dem Personenfilter können Sie gezielt Beiträge bestimmter Personen suchen, z.B. auch nur die neusten.
 
-![Gefilterte Forumsbeiträge einer einzelnen Person nach Anwenden des Personenfilters im Kursbaustein Forum](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" }
+![Gefilterte Forumsbeiträge einer einzelnen Person nach Anwenden des Personenfilters im Kursbaustein Forum](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" title="Kursbaustein Forum" }
 
 Die hier ebenfalls erstellbare Excel-Datei enthält einen Bericht mit statistischen Daten über die Anzahl der Beiträge, deren Autor:innen, usw, jedoch ohne die Beiträge selbst. Sie enthält eine Zeile für jeden geschriebenen Forumsbeitrag.
 
@@ -132,9 +132,9 @@ Forumsbeiträge einzelner Diskussionsthemen können auch archiviert werden. Es w
 * Klicken Sie zum Erstellen eines Archivs auf das Diskussionsthema um es zu öffnen. 
 * Über dem angezeigten Diskussionsthema finden Sie dann den Button "Diskussionsthema archivieren".
 
-![Diskussionsthemen markiert in der Themenübersicht des Forums, zum Öffnen des Archivs anklicken](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" }
+![Diskussionsthemen markiert in der Themenübersicht des Forums, zum Öffnen des Archivs anklicken](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" title="Themenübersicht des Forums" }
 
-![Button Diskussionsthema archivieren markiert über einem geöffneten Diskussionsthema im Forum](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" }
+![Button Diskussionsthema archivieren markiert über einem geöffneten Diskussionsthema im Forum](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" title="Geöffnetes Diskussionsthema im Forum" }
 
 
 ---
@@ -167,7 +167,7 @@ Teilnehmende können sich alle Beiträge untereinander anzeigen lassen (alle), m
 
 Besonders interessant für komplexere Diskussionen ist auch die Ansicht "einer". Hier wird die gesamte Thread-Struktur angezeigt und kann so sehr gut nachvollzogen werden. Hilfreich dabei ist es, dass sich einzelne Parts ein- und ausblenden lassen. Darüber hinaus erkennt man in dieser Darstellung auch rasch neue Forenbeiträge an dem Sternchen.
 
-![Verschachtelte Diskussionsstruktur mit markiertem neuen Beitrag als Sternchen und grün hervorgehobenem aktuell angezeigten Beitrag, Ansicht einer im Forum](assets/Forum_Aufbau-1a.png){ class="shadow lightbox" }
+![Verschachtelte Diskussionsstruktur mit markiertem neuen Beitrag als Sternchen und grün hervorgehobenem aktuell angezeigten Beitrag, Ansicht einer im Forum](assets/Forum_Aufbau-1a.png){ class="shadow lightbox" title="Diskussionsthema im Forum" }
 
 [Zum Seitenanfang ^](#forum)
 
@@ -192,7 +192,7 @@ c) Die [Dateidiskussion](../learningresources/Course_Element_File_Dialog.de.md) 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Rolle Betreuer:in >](../basic_concepts/coach.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Persönliche Konfiguration: Profil >](../personal_menu/Profile.de.md)<br>
 [Kursbaustein Mitteilungen >](../../manual_user/learningresources/Course_Element_Notifications.de.md)<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md)<br>

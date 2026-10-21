@@ -9,7 +9,7 @@ OpenOlat trennt die beiden Blickwinkel auf einen Kurs konsequent nach Rolle:
 * Unter **Kurse** ("Meine Kurse") finden Sie die Lernressourcen, in denen Sie selbst als Teilnehmer:in eingetragen sind.
 * Lernressourcen, die Sie als Betreuer:in oder Besitzer:in begleiten, finden Sie im Bereich **Coaching**.
 
-Sind Ihnen in einem Kurs beide Rollen zugewiesen, erscheint der Kurs in beiden Bereichen. Sie öffnen ihn dann dort, wo Ihre aktuelle Aufgabe liegt: zum Lernen unter "Kurse", zum Betreuen im "Coaching".
+Sind Ihnen in einem Kurs beide Rollen zugewiesen, erscheint der Kurs in beiden Bereichen. Sie öffnen ihn dann dort, wo Ihre aktuelle Aufgabe liegt: zum Lernen unter "Kurse", zum Betreuen im "Coaching". Was Betreuer:innen im Kurs selbst dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](Roles.de.md#coach).
 
 Zwei Personen können deshalb nach dem Login unterschiedliche Menüs sehen. Fehlt ein Menüpunkt, ist das kein Fehler: Entweder ist das entsprechende Modul nicht aktiviert oder die dafür nötige Rolle wurde nicht zugewiesen.
 

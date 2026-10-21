@@ -40,7 +40,7 @@ Im erweiterten Filterpanel (Pfeil-Symbol) lässt sich die Auswahl zusätzlich mo
 * **Gruppe**: Auswahl unter den im Kurs verwendeten Gruppen
 * **CPL-Element**: Auswahl unter den im Kurs verwendeten Course-Planner-Elementen
 
-Über das Zahnrad-Menü lässt sich zusätzlich die Spalte **Herkunft** einblenden. Sie zeigt an, über welchen Weg eine Person Mitglied des Kurses wurde (Kurs, Gruppe oder Course Planner). Auch die Spalten **Beitritt** und **Letzter Besuch** können hier ergänzt werden.
+Über das Zahnrad-Menü lässt sich zusätzlich die Spalte "Herkunft" einblenden. Sie zeigt an, über welchen Weg eine Person Mitglied des Kurses wurde (Kurs, Gruppe oder Course Planner). Auch die Spalten "Beitritt" und "Letzter Besuch" können hier ergänzt werden.
 
 **Detailansicht:** Klicken Sie auf eine Zeile, um die Detailansicht einer Person zu öffnen. Sie zeigt eine Benutzerinfo-Karte (Kontotyp, Beitrittsdatum, ggf. letzter Besuch) mit der Aktion **Bearbeiten** sowie, sofern zutreffend, bis zu drei Herkunfts-Abschnitte:
 
@@ -190,6 +190,8 @@ Vergeben Sie diese erweiterten Rechte aber am besten an die _Teilnehmenden_ eine
 
 ### Vergabe zusätzlicher Rechte {: #additional_rights}
 
+Was Betreuer:innen ohne diese Rechte im Kurs dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](../basic_concepts/Roles.de.md#coach).
+
 Folgende Kursrechte können an Gruppen vergeben werden:
 
 
@@ -275,6 +277,7 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 [Gruppen >](../groups/index.de.md)<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
 [Glossar >](../learningresources/Glossary.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>
