@@ -32,7 +32,7 @@ Mit Hilfe des Kursbausteins "LTI-Seite" können Sie externe Lernapplikationen in
 
 Die folgenden Parameter können im Kursbaustein konfiguriert werden:
 
-![URL, Schlüssel und Passwort, OpenOlat Rollen mit LTI-Rollen-Mapping, Punkte übertragen mit Skalierungsfaktor sowie die drei Anzeigeoptionen: Tab Seiteninhalt im Kurseditor](assets/course_element_lti_page_content_v1_de.png){ class="shadow lightbox" }
+![URL, Schlüssel und Passwort, OpenOlat Rollen mit LTI-Rollen-Mapping, Punkte übertragen mit Skalierungsfaktor sowie die drei Anzeigeoptionen: Tab Seiteninhalt im Kurseditor](assets/course_element_lti_page_content_v2_de.png){ class="shadow lightbox" }
 
 **LTI Version:** Wir empfehlen die aktuelle Version LTI 1.3. Aus Kompatibilitätsgründen kann jedoch auch die ältere Version gewählt werden.
 

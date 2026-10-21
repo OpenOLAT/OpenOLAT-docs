@@ -35,7 +35,7 @@ and password.
 
 The following parameters can be configured:
 
-![URL, key and password, OpenOlat roles with LTI role mapping, transfer score with scaling factor, and the three display options: tab Page content in the course editor](assets/course_element_lti_page_content_v1_de.png){ class="shadow lightbox" }
+![URL, key and password, OpenOlat roles with LTI role mapping, transfer score with scaling factor, and the three display options: tab Page content in the course editor](assets/course_element_lti_page_content_v2_de.png){ class="shadow lightbox" }
 
 **LTI-Version:** We recommend the current version LTI 1.3. However, for compatibility reasons, the older version can also be selected.
 
