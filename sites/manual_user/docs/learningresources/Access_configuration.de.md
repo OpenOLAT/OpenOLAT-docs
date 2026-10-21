@@ -99,7 +99,7 @@ Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle Open
 
 ![Symbol PayPal Checkout](assets/cc-paypal.png){ class="size24" } **PayPal Checkout**
 
-Mit "PayPal Checkout" ist die Buchung kostenpflichtig. Sie legen einen Betrag fest, den die buchende Person mit einem PayPal-Konto oder einer Kreditkarte (Visa/Mastercard) bezahlt. Die Option erscheint nur, wenn Administrator:innen sie in der System-Administration [eingerichtet](../../manual_admin/administration/Payment_PayPal.de.md) haben. (Diese Funktion steht nur Benutzer:innen mit Autorenrechten zur Verfügung.)
+Mit "PayPal Checkout" ist die Buchung kostenpflichtig. Sie legen einen Betrag fest, den die buchende Person mit einem PayPal-Konto oder einer Kreditkarte (Visa/Mastercard) bezahlt. Die Option erscheint nur, wenn Administrator:innen sie in der System-Administration [eingerichtet](../../manual_admin/administration/Payment_PayPal.de.md) haben. Ein Angebot mit "PayPal Checkout" erstellen können nur Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in. Besitzer:innen ohne eine dieser Rollen sehen die Option nicht.
 
 ![Symbol Ohne Buchung](assets/notBooking.jpg){ class="size24" } **Ohne Buchung**
 

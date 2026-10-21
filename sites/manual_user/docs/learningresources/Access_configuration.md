@@ -99,7 +99,7 @@ Select this option if no further restrictions apply. All OpenOlat users can book
 
 ![Icon PayPal Checkout](assets/cc-paypal.png){ class="size24" } **PayPal Checkout**
 
-With "PayPal Checkout", the booking is subject to a fee. You define an amount that the booking person pays with a PayPal account or a credit card (Visa/Mastercard). The option only appears if administrators have [set it up](../../manual_admin/administration/Payment_PayPal.md) in the system administration. (This function is only available to users with author rights.)
+With "PayPal Checkout", the booking is subject to a fee. You define an amount that the booking person pays with a PayPal account or a credit card (Visa/Mastercard). The option only appears if administrators have [set it up](../../manual_admin/administration/Payment_PayPal.md) in the system administration. Only persons with the role author, learning resource manager or administrator can create an offer with "PayPal Checkout". Owners without one of these roles do not see the option.
 
 ![Icon Without booking](assets/notBooking.jpg){ class="size24" } **Without booking**
 
