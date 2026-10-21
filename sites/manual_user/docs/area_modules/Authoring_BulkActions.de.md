@@ -139,6 +139,10 @@ Aktionen im Menü unter den 3 Punkten beziehen sich immer auf die **einzelne Ler
 
 Die Einträge "Einstellungen", der Eintrag zum Editor und "Mitgliederverwaltung" erscheinen nur, wenn Sie Besitzer:in der Lernressource, Lernressourcenverwalter:in oder Administrator:in sind.
 
+!!! info "Wichtig"
+
+    Wollen Sie Lernressourcen für externe OER-Kataloge und Suchmaschinen freigeben, finden Sie die Aktion "Freigabe externer OER-Katalog" im Menü unter den 3 Punkten nicht mehr [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9751)" }](https://track.frentix.com/issue/OO-9751){:target="_blank"}. Auch über der Tabelle gibt es dafür keine Sammelaktion. Eine einzelne Lernressource geben Sie in ihren Einstellungen mit dem Häkchen "Indexieren von Metadaten zulassen" frei: `Lernressource > Administration > Einstellungen > Tab "Freigabe"`. Nur dort warnt OpenOlat, wenn die Lernressource noch nicht veröffentlicht ist oder eine verlangte Lizenz fehlt, beschrieben unter [Externe OER-Kataloge und Suchmaschinen](../learningresources/Course_Settings_Share.de.md#section_share_oer). Mehrere Lernressourcen geben Sie mit der Sammelaktion "Metadaten und Einstellungen" frei, im Bereich "Info" über das Feld "Freigabe OER-Kataloge und Suchmaschinen", siehe [Bereich "Info"](#bulk_info). Der gleichnamige Filter "Freigabe externer OER-Katalog", den Sie über der Tabelle unter "Mehr..." einblenden, zeigt nur die freigegebenen oder die nicht freigegebenen Lernressourcen an und ändert keine Freigabe.
+
 ### Mitgliederverwaltung {: #members_management}
 
 Hier organisieren Sie die Mitglieder einer Lernressource. Mehr Informationen dazu finden Sie im Kapitel [Mitgliederverwaltung](../learningresources/Members_management.de.md).

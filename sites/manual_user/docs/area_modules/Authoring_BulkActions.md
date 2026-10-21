@@ -139,6 +139,10 @@ Actions in the menu under the 3 dots always refer to the **single learning resou
 
 The entries "Settings", the entry for the editor and "Members management" only appear if you are owner of the learning resource, learning resource manager or administrator.
 
+!!! info "Important"
+
+    If you want to release learning resources to external OER catalogues and search engines, you will no longer find the action "Release external OER catalog" in the menu under the 3 dots [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9751)" }](https://track.frentix.com/issue/OO-9751){:target="_blank"}. There is no bulk action for it above the table either. You release a single learning resource in its settings with the checkbox "Allow indexing of metadata": `Learning resource > Administration > Settings > Tab "Share"`. Only there does OpenOlat warn you if the learning resource is not yet published or lacks a required license, described under [External OER catalogues and search engines](../learningresources/Course_Settings_Share.md#section_share_oer). You release several learning resources with the bulk action "Metadata and settings", in the section "Info" via the field "Release OER catalogues and search engines", see [Section "Info"](#bulk_info). The filter of the same name "Release external OER catalog", which you show above the table under "More...", only shows the released or the not released learning resources and does not change any release.
+
 ### Members management {: #members_management}
 
 Here you organise the members of a learning resource. You can find more information on this in the chapter [Members management](../learningresources/Members_management.md).
