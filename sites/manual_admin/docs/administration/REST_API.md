@@ -200,7 +200,7 @@ An entry can contain personal data, for example name and email address in the re
 
 ---
 
-##  Configuration {: #configuration}
+## Configuration of the interface in the code {: #configuration}
 
 A spring bean allows to configure Resources, Singletons and Providers; either statically with the XML configuration of the bean ( `/org/olat/restapi/_spring/restApiContext.xml` ) or programmatically by adding or removing classes and singletons to/from the bean (bean id is the same as its interface: `org.olat.restapi.support.RestRegistrationService` ).
 

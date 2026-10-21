@@ -219,7 +219,7 @@ Ein Eintrag kann Personendaten enthalten, etwa Name und E-Mail-Adresse im Reques
 ---
 
 
-## Konfiguration {: #configuration}
+## Konfiguration der Schnittstelle im Code {: #configuration}
 
 Ein Spring Bean erlaubt es Ressourcen, Singletons und Provider zu
 konfigurieren; entweder statisch mit der XML-Konfiguration des Beans (
@@ -501,7 +501,7 @@ verwaltet werden.
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
 [Datenschutz >](../usermanagement/Data_protection.de.md)<br>
 [Jackson](<http://jackson.codehaus.org/>)<br>
-[Externe Werkzeuge: KI Modul >](External_Tools_AI.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](External_Tools_AI.de.md)<br>
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)
 
 [Zum Seitenanfang ^](#REST-API)
