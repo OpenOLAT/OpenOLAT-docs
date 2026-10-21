@@ -109,6 +109,8 @@ The search area depends on the object:
 
 If you enrol users in implementations with the import, you fill two sheets that belong together: the "Users" sheet says who the user is, the "Memberships" sheet says where they take part and in which role. An account is a user's access to OpenOlat, with username, profile data and organisation membership. A membership links an account to a role in an implementation or in one of its elements.
 
+An example: Anna Muster is to take part in two implementations. In the "Users" sheet, she appears in a single row, with her username "amuster". In the "Memberships" sheet, she appears in two rows, one per implementation, both with the username "amuster" and the role "PARTICIPANT".
+
 | | "Users" sheet | "Memberships" sheet |
 |---|---|---|
 | One row describes | one account | one user in one role in an implementation or an element |
@@ -147,6 +149,9 @@ Warnings do not prevent the import but indicate possible issues, for example whe
 
 The complete list of all error and warning codes can be found in the [Import/Export: Reference](Course_Planner_Import_Export_Reference.md#errors_warnings_reference).
 
+### Steps of the import wizard {: #import_steps}
+
+Before the import creates or changes anything, you check the content of the file sheet by sheet. Steps 2 to 5 each show one sheet with the import status of every row, in this order: "Products", "Implementations", "Users" and "Memberships". You exclude rows you do not want to import with the "Ignored" checkbox.
 
 #### Step 1: Select file {: #step1}
 

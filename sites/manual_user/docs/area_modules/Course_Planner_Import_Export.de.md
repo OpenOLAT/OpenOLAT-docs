@@ -109,6 +109,8 @@ Gesucht wird je nach Objekt in einem anderen Bereich:
 
 Wer mit dem Import Personen in Durchführungen einschreibt, füllt zwei Sheets, die zusammengehören: Das Sheet "Konten" sagt, wer die Person ist, das Sheet "Mitgliedschaft" sagt, wo sie in welcher Rolle mitmacht. Ein Konto ist der Zugang einer Person zu OpenOlat, mit Anmeldename, Profilangaben und Organisationszugehörigkeit. Eine Mitgliedschaft verbindet ein Konto mit einer Rolle in einer Durchführung oder in einem ihrer Elemente.
 
+Ein Beispiel: Anna Muster soll an zwei Durchführungen teilnehmen. Im Sheet "Konten" steht sie in einer einzigen Zeile, mit ihrem Anmeldenamen "amuster". Im Sheet "Mitgliedschaft" steht sie in zwei Zeilen, eine pro Durchführung, beide mit dem Anmeldenamen "amuster" und der Rolle "PARTICIPANT" (Teilnehmer:in).
+
 | | Sheet "Konten" | Sheet "Mitgliedschaft" |
 |---|---|---|
 | Eine Zeile beschreibt | ein Konto | eine Person in einer Rolle in einer Durchführung oder einem Element |
@@ -147,6 +149,9 @@ Warnungen verhindern den Import nicht, weisen aber auf mögliche Probleme hin, z
 
 Die vollständige Liste aller Fehler- und Warnungscodes finden Sie in der [Import/Export: Referenz](Course_Planner_Import_Export_Reference.de.md#errors_warnings_reference).
 
+### Schritte des Import-Assistenten {: #import_steps}
+
+Bevor der Import etwas anlegt oder ändert, prüfen Sie den Inhalt der Datei Sheet für Sheet. Die Schritte 2 bis 5 zeigen je ein Sheet mit dem Importstatus jeder Zeile, in dieser Reihenfolge: "Produkte", "Durchführungen", "Konten" und "Mitgliedschaft". Zeilen, die Sie nicht importieren wollen, schliessen Sie über die Checkbox "Ignoriert" aus.
 
 #### Schritt 1: Datei auswählen {: #step1}
 
