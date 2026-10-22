@@ -30,9 +30,9 @@ Whoever creates a to-do finds the same fields in every module. Two entries exist
 | Delegated | Execution can be delegated to other persons, also to changing persons over time. Responsibility remains with the assigned person | everywhere; for personal to-dos only if the administration allows delegation to other persons |
 | Status | The processing state of the task | everywhere |
 | Priority | Urgent, High, Medium or Low | everywhere |
-| Start date | When the task starts. Can be used for reminders | everywhere |
+| Start date | When the task starts. If a due date is also set, the detail area shows a progress bar | everywhere |
 | Due date | The date by which the task should be completed | everywhere |
-| Expenditure of work | The estimated effort in weeks (w), days (d) and hours (h), input format `3w 1d 6h`. The value can be used for calculations | everywhere |
+| Expenditure of work | The estimated effort in weeks (w), days (d) and hours (h), input format `3w 1d 6h`. By default, one day counts as 8 hours and one week as 5 days. OpenOlat converts the entry accordingly: `10h` appears as `1d 2h` | everywhere |
 | Tags | Freely assignable keywords | everywhere |
 | Description | Additional information about the task | everywhere |
 | Context | Module and object the to-do originates from. In the list as the columns "Context type" and "Context" | everywhere |
@@ -42,8 +42,12 @@ Whoever creates a to-do finds the same fields in every module. Two entries exist
 
 Tags you have created once are available for selection in other to-dos as well. They are not a hierarchically structured classification like the taxonomy that OpenOlat offers elsewhere.
 
+How many hours make a day and how many days make a week for the expenditure of work is part of the server configuration. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+
 
 ## Status and quick actions [:octicons-tag-16:{ title="from Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"} {: #status_quick_actions}
+
+The status shows everyone involved how far a task has progressed. With the quick actions you change it directly in the list.
 
 | Status | Meaning |
 |---|---|
@@ -52,13 +56,13 @@ Tags you have created once are available for selection in other to-dos as well. 
 | Done | The task is completed |
 | Deleted | The to-do is removed and only visible via the "Deleted" filter |
 
-In the list, the status appears as a coloured circle next to the title. Use the plus sign at the start of a row to expand the detail area. There you change the state without opening the dialog:
+In the list, the status appears as a coloured circle next to the title. Use the plus sign at the start of a row to expand the detail area. There you change the status without opening the dialog:
 
 * **"Start"** sets the status to "In progress". The action only appears with the status "Open".
 * **"Mark as done"** completes the task. The action appears with the statuses "Open" and "In progress".
 * **"Edit"** opens the dialog with all fields.
 
-If start date and due date are both set, the list additionally shows a progress bar.
+If start date and due date are both set, the expanded detail area additionally shows a progress bar. It indicates how much of the time between the two dates has passed. Once the due date is exceeded, the bar is completely filled and red.
 
 The image at the top of the page shows the status circles and the expanded detail area with the quick actions.
 

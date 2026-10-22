@@ -30,9 +30,9 @@ Wer ein To-do anlegt, findet in jedem Modul dieselben Felder vor. Zwei Angaben g
 | Delegiert | Die Ausführung kann an andere Personen delegiert werden, auch phasenweise an wechselnde. Die Verantwortung bleibt bei der zugewiesenen Person | überall; bei persönlichen To-dos nur, wenn die Administration die Delegierung an andere Personen zulässt |
 | Status | Der Bearbeitungsstand der Aufgabe | überall |
 | Priorität | Dringend, Hoch, Mittel oder Tief | überall |
-| Startdatum | Ab wann die Aufgabe läuft. Kann für Erinnerungen verwendet werden | überall |
+| Startdatum | Ab wann die Aufgabe läuft. Ist auch ein Fälligkeitstermin gesetzt, zeigt der Detailbereich einen Fortschrittsbalken | überall |
 | Fälligkeitstermin | Das Datum, bis zu dem die Aufgabe erledigt sein soll | überall |
-| Zeitaufwand | Der geschätzte Aufwand in Wochen (w), Tagen (d) und Stunden (h), Eingabeformat `3w 1d 6h`. Die Angabe kann für Berechnungen verwendet werden | überall |
+| Zeitaufwand | Der geschätzte Aufwand in Wochen (w), Tagen (d) und Stunden (h), Eingabeformat `3w 1d 6h`. Standardmässig zählt ein Tag 8 Stunden und eine Woche 5 Tage. OpenOlat rechnet die Eingabe danach um: `10h` erscheint als `1d 2h` | überall |
 | Tags | Frei vergebbare Schlagwörter | überall |
 | Beschreibung | Ergänzende Informationen zur Aufgabe | überall |
 | Kontext | Modul und Objekt, aus dem das To-do stammt. In der Liste als Spalten «Kontext Typ» und «Kontext» | überall |
@@ -42,8 +42,12 @@ Wer ein To-do anlegt, findet in jedem Modul dieselben Felder vor. Zwei Angaben g
 
 Einmal erstellte Tags stehen auch in anderen To-dos zur Auswahl. Es handelt sich dabei nicht um eine hierarchisch strukturierte Verschlagwortung, wie sie die Taxonomie an anderen Stellen in OpenOlat bietet.
 
+Wie viele Stunden ein Tag und wie viele Tage eine Woche beim Zeitaufwand zählen, ist Teil der Serverkonfiguration. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+
 
 ## Status und Schnellaktionen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"} {: #status_quick_actions}
+
+Am Status sehen alle Beteiligten, wie weit eine Aufgabe ist. Mit den Schnellaktionen ändern Sie ihn direkt in der Liste.
 
 | Status | Bedeutung |
 |---|---|
@@ -52,13 +56,13 @@ Einmal erstellte Tags stehen auch in anderen To-dos zur Auswahl. Es handelt sich
 | Erledigt | Die Aufgabe ist abgeschlossen |
 | Gelöscht | Das To-do ist entfernt und nur noch über den Filter «Gelöscht» sichtbar |
 
-In der Liste steht der Status als farbiger Kreis neben dem Titel. Über das Pluszeichen am Zeilenanfang klappen Sie den Detailbereich auf. Dort ändern Sie den Stand, ohne den Dialog zu öffnen:
+In der Liste steht der Status als farbiger Kreis neben dem Titel. Über das Pluszeichen am Zeilenanfang klappen Sie den Detailbereich auf. Dort ändern Sie den Status, ohne den Dialog zu öffnen:
 
 * **«Starten»** setzt den Status auf «In Bearbeitung». Die Aktion erscheint nur beim Status «Offen».
 * **«Als erledigt markieren»** schliesst die Aufgabe ab. Die Aktion erscheint bei den Status «Offen» und «In Bearbeitung».
 * **«Bearbeiten»** öffnet den Dialog mit allen Feldern.
 
-Sind Startdatum und Fälligkeitstermin gesetzt, zeigt die Liste zusätzlich einen Fortschrittsbalken.
+Sind Startdatum und Fälligkeitstermin gesetzt, zeigt der aufgeklappte Detailbereich zusätzlich einen Fortschrittsbalken. Er gibt an, wie viel der Zeit zwischen den beiden Daten verstrichen ist. Ist der Termin überschritten, ist der Balken ganz gefüllt und rot.
 
 Das Bild am Seitenanfang zeigt die Statuskreise und den aufgeklappten Detailbereich mit den Schnellaktionen.
 
