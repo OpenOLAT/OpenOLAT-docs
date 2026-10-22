@@ -30,7 +30,7 @@ If you delete a course, OpenOlat automatically saves all course data (not the co
 
 In the top button line of the author area, you will find an icon with 3 dots on the far right. Below this you will find the course archive, in which all existing course archive files are listed and can be downloaded.
 
-![Open 3-dot menu on the far right of the top button row with the entry Course archive](assets/course_archiving_open_v1_de.png){ class="shadow lightbox" title="Top button row in the authoring area" }
+![Finding the course archive: in the authoring area the open 3-dot menu on the far right of the top button row with the entry Course archive highlighted](assets/course_archiving_open_v1_en.png){ class="shadow lightbox" title="Top button row in the authoring area · 2026.10.22" }
 
 
 !!! info "Important"
@@ -47,18 +47,21 @@ In the top button line of the author area, you will find an icon with 3 dots on 
 * Open the authoring area
 * Select the desired course
 * Click on the "Archiving & Reporting" option in the "Administration" area
-* Then, select the button "Create archive" in the "Course archiving" area.
+* Then, select one of the two buttons "Create archive" in the "Course archiving" area.
 
-![Open Administration menu, the entry for archiving and reporting is highlighted](assets/course_archiving_create_single_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
+![Finding Archiving & Reporting: in the open Administration menu of a course the entry Archiving & Reporting is highlighted](assets/course_archiving_create_single_v2_en.png){ class="shadow lightbox" title="Administration menu of a course · 2026.10.22" }
 
-![Menu entry Course archiving on the left, on the right the Create archive buttons above and inside the empty archive list](assets/course_archiving_create_single2_v1_de.png){ class="shadow lightbox" title="Course archiving under Archiving & Reporting" }
+![Starting an archive: on the left the highlighted menu entry Course archiving, on the right the highlighted Create archive buttons above and inside the empty archive list](assets/course_archiving_create_single2_v2_en.png){ class="shadow lightbox" title="Course archiving under Archiving & Reporting · 2026.10.22" }
 
 
 ### Create a partial archive {: #partial_archive}
 
-You need a partial archive if only part of the course data is to be kept, for example the results of a single course element. When you create an archive in the course administration, the wizard first asks for the archive type: "Complete archive" or "Partial archive".
+You need a partial archive if only part of the course data is to be kept, for example the results of a single course element. When you create an archive in the course administration, the wizard first asks for the archive type: "Complete archive" or "Partial archive". The steps that follow depend on the archive type:
 
-![Wizard step Archive type with the choice between Complete archive and Partial archive, followed by Settings and Overview](assets/course_archiving_create_partial_v1_de.png){ class="shadow lightbox" title="Archive course dialog" }
+* **Complete archive**: "Settings" and "Overview". The wizard shows the step "Settings" only to administrators and learning resource managers of the course's organisation, or if the course contains a test. Otherwise "Overview" follows directly.
+* **Partial archive**: "Select course elements", "Settings", "Other objects" and "Overview". Here the wizard shows the step "Settings" only if you select a test as a course element.
+
+![Choosing the archive type: wizard step Archive type with Complete archive selected next to Partial archive, at the top the steps Settings and Overview follow in this view](assets/course_archiving_create_partial_v1_en.png){ class="shadow lightbox" title="Archive course dialog · 2026.10.22" }
 
 For a partial archive, you first select the course elements. In the wizard step "Other objects", you define under "Other archive objects" what is added to the archive: "Memberships", "Log files", "Course results" and "Course chat". All four checkboxes are preselected. A complete archive always contains the file "Memberships", in the ZIP file as `course_memberships.xlsx`. What the file shows is described under [Memberships](#memberships).
 
@@ -73,7 +76,7 @@ For a partial archive, you first select the course elements. In the wizard step 
 * As soon as at least one course is selected, a button line appears above the list
 * Select the “Archive course” button
 
-![Two selected courses in the first column, above them the displayed button row with Archive course](assets/course_archiving_create_multiple_v1_de.png){ class="shadow lightbox" title="Course list in the authoring area" }
+![Archiving several courses at once: two selected courses in the first column, above them the button row with Archive course highlighted](assets/course_archiving_create_multiple_v1_en.png){ class="shadow lightbox" title="Course list in the authoring area · 2026.10.22" }
 
 !!! info "Important"
 
@@ -101,10 +104,6 @@ All course archives are listed in the "Course archive management" tab.
 
 All [surveys](../learningresources/Course_Element_Survey.md) of the course are displayed according to their integration in the course structure. The desired surveys to be archived can be selected and saved as a ZIP file.
 
-### Questionnaire
-
-Storage of *old* OpenOlat questionnaires. Generally no longer relevant, as the questionnaires have been replaced by forms in the course element "Survey".
-
 ### Tests
 
 All [tests](../learningresources/Course_Element_Test.md) of the course are displayed. Course elements "Self-test" are not included in the course archiving. The desired elements to be archived can be selected and saved as a ZIP file. The individual selected tests are then stored in a separate folder in the ZIP file.
@@ -118,7 +117,7 @@ The archive contains test results as PDF files if you select "Customised" for "C
 
 ### Course results
 
-The *final results* of all assessment modules integrated in the course, such as [tests](../learningresources/Course_Element_Test.md), [assessments](../learningresources/Course_Element_Assessment.md), [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), [checklists](../learningresources/Course_Element_Checklist.md), [tasks](../learningresources/Course_Element_Task.md), etc., are archived here as a ZIP file for all course participants. The ZIP file can be downloaded and saved directly, but can also be found in the course owner's private folder in OpenOlat.
+The *final results* of all assessment modules integrated in the course, such as [tests](../learningresources/Course_Element_Test.md), [assessments](../learningresources/Course_Element_Assessment.md), [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), [checklists](../learningresources/Course_Element_Checklist.md), [tasks](../learningresources/Course_Element_Task.md), etc., are archived here as a ZIP file for all course participants. The ZIP file can be downloaded and saved directly. In addition, OpenOlat stores it in the [personal files](../personal_menu/File_Hub.md#personal_files) of the person who creates it, in the folder `private > archive > "Course title"`.
 
 The ZIP file contains an xlsx file with information on the course participants and any documents submitted by the participants. These documents are bundled per course element and contain subfolders with the names of the participants who have submitted documents.
 
@@ -182,7 +181,7 @@ All [topics assigned](../learningresources/Course_Element_Topic_Assignment.md) t
 
 ### Log files
 
-The personalized log files of course owners and the pseudonymized log files of course participants can be saved here for a selected period of time. Depending on the scope, the creation may take some time. You will then find the log files in your personal, private OpenOlat folder as a ZIP file with an Excel table.
+The personalized log files of course owners and the pseudonymized log files of course participants can be saved here for a selected period of time. Depending on the scope, the creation may take some time. You will then find the log files as a ZIP file with an Excel table in your personal files, in the folder `private > archive > "Course title"`.
 
 ### Forums
 
@@ -202,7 +201,7 @@ All ["Participants folder"](../learningresources/Course_Element_Participant_Fold
 
 All [wikis](../learningresources/Course_Element_Wiki.md) in the course are listed. The desired wikis to be archived can be selected and saved as a ZIP file. The ZIP file then contains one folder for each wiki and a folder with metadata for each saved wiki.
 
-In the wiki, all pages and all uploaded files are packed into a ZIP file. The participant folder is saved according to the folder structure of this module.
+In the wiki, all pages and all uploaded files are packed into a ZIP file.
 
 ### SCORM results
 
@@ -220,13 +219,9 @@ All [forms](../learningresources/Course_Element_Form.md) of the course are liste
 
 All of the course elements integrated in the course [Video task](../learningresources/Course_Element_Video_Task.md) are listed, regardless of the mode selected. The desired modules can be selected and the results saved as a ZIP file. The ZIP file contains an xlsx file with the results of the individual participants.
 
-### Chat history
+### Course chat
 
 Here the chat history can be exported as an xlsx file and also deleted.
-
-### Booking orders
-
-The people who have booked the course are displayed here if the course has [offers](../learningresources/Access_configuration.md).
 
 [To the top of the page ^](#course_archiving)
 
@@ -257,8 +252,7 @@ The people who have booked the course are displayed here if the course has [offe
 [Course Element "Wiki" >](../learningresources/Course_Element_Wiki.md)<br>
 [Course Element "SCORM 1.2" >](../learningresources/Course_Element_SCORM_Learning_Content.md)<br>
 [Course Element "Form" >](../learningresources/Course_Element_Form.md)<br>
-[Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)<br>
-[Access configuration >](../learningresources/Access_configuration.md)
+[Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)
 
 **Further reading**<br>
 [Record of Course Activities >](Record_of_Course_Activities.md)<br>

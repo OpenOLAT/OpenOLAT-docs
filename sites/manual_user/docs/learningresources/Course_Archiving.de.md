@@ -47,18 +47,21 @@ In der obersten Button-Zeile des Autorenbereichs finden Sie ganz rechts ein Icon
 * Öffnen Sie den Autorenbereich.
 * Wählen Sie den gewünschten Kurs.
 * Klicken Sie unter "Administration" auf die Option "Archivierung & Reports".
-* Wählen Sie anschliessend im Bereich "Kursarchivierung" einen der Buttons "Archiv erstellen".
+* Wählen Sie anschliessend im Bereich "Kursarchivierung" einen der Buttons "Archiv erstellen" oder "Archive erstellen".
 
-![Geöffnetes Menü Administration, markiert ist der Eintrag für Archivierung und Reports](assets/course_archiving_create_single_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
+![Archivierung & Reports finden: im geöffneten Menü Administration eines Kurses ist der Eintrag Archivierung & Reports markiert](assets/course_archiving_create_single_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.10.22" }
 
-![Menüeintrag Kursarchivierung links, rechts die Buttons Archiv erstellen über und in der leeren Archivliste](assets/course_archiving_create_single2_v1_de.png){ class="shadow lightbox" title="Kursarchivierung unter Archivierung & Reports" }
+![Ein Archiv starten: links der markierte Menüeintrag Kursarchivierung, rechts die markierten Buttons Archiv erstellen über der leeren Archivliste und Archive erstellen in der Liste](assets/course_archiving_create_single2_v2_de.png){ class="shadow lightbox" title="Kursarchivierung unter Archivierung & Reports · 2026.10.22" }
 
 
 ### Ein Teilarchiv erstellen {: #partial_archive}
 
-Ein Teilarchiv brauchen Sie, wenn nur ein Teil der Kursdaten aufbewahrt werden soll, etwa die Ergebnisse eines einzelnen Kursbausteins. Erstellen Sie ein Archiv in der Kursadministration, fragt der Wizard als Erstes nach der Archivart: "Gesamtarchiv" oder "Teilarchiv".
+Ein Teilarchiv brauchen Sie, wenn nur ein Teil der Kursdaten aufbewahrt werden soll, etwa die Ergebnisse eines einzelnen Kursbausteins. Erstellen Sie ein Archiv in der Kursadministration, fragt der Wizard als Erstes nach der Archivart: "Gesamtarchiv" oder "Teilarchiv". Die Schritte danach hängen von der Archivart ab:
 
-![Wizard-Schritt Archivart mit der Wahl zwischen Gesamtarchiv und Teilarchiv, danach folgen Einstellungen und Übersicht](assets/course_archiving_create_partial_v1_de.png){ class="shadow lightbox" title="Dialog Kurs archivieren" }
+* **Gesamtarchiv**: "Einstellungen" und "Übersicht". Den Schritt "Einstellungen" zeigt der Wizard nur Administrator:innen und Lernressourcenverwalter:innen der Organisation des Kurses oder wenn der Kurs einen Test enthält. Sonst folgt direkt die "Übersicht".
+* **Teilarchiv**: "Kursbausteine auswählen", "Einstellungen", "Weitere Objekte" und "Übersicht". Den Schritt "Einstellungen" zeigt der Wizard hier nur, wenn Sie einen Test als Kursbaustein auswählen.
+
+![Wizard-Schritt Archivart mit gewähltem Gesamtarchiv neben Teilarchiv, oben folgen in dieser Ansicht die Schritte Einstellungen und Übersicht](assets/course_archiving_create_partial_v1_de.png){ class="shadow lightbox" title="Dialog Kurs archivieren" }
 
 Beim Teilarchiv wählen Sie zuerst die Kursbausteine. Im Wizard-Schritt "Weitere Objekte" legen Sie unter "Weitere Archivobjekte" fest, was zusätzlich ins Archiv kommt: "Mitgliedschaften", "Log-Dateien", "Kursresultate" und "Kurs-Chat". Alle vier Kontrollkästchen sind vorausgewählt. Ein Gesamtarchiv enthält die Datei "Mitgliedschaften" immer, in der ZIP-Datei als `course_memberships.xlsx`. Was die Datei zeigt, steht unter [Mitgliedschaften](#memberships).
 
@@ -102,10 +105,6 @@ Im Tab "Kursarchivmanagement" sind alle Kursarchive aufgelistet.
 
 Es werden alle [Umfragen](../learningresources/Course_Element_Survey.de.md) des Kurses entsprechend ihrer Einbindung in der Kursstruktur angezeigt. Die gewünschten zu archivierenden Umfragen können ausgewählt und als ZIP-Datei gespeichert werden.
 
-### Fragebogen
-
-Speicherung der *alten* OpenOlat Fragebögen. In der Regel nicht mehr relevant, da die Fragebögen durch Formulare im Kursbaustein Umfrage ersetzt wurden.
-
 ### Tests
 
 Es werden alle [Tests](../learningresources/Course_Element_Test.de.md) des Kurses angezeigt. Kursbausteine "Selbsttest" sind in der Kursarchivierung nicht enthalten. Die gewünschten zu archivierenden Elemente können ausgewählt und als ZIP-Datei gespeichert werden. In der ZIP-Datei liegen dann die einzelnen ausgewählten Tests in jeweils einem extra Ordner.
@@ -118,7 +117,7 @@ Testergebnisse als PDF-Dateien enthält das Archiv, wenn Sie im Wizard-Schritt "
 
 ### Kursresultate
 
-Hier werden die *Endresultate* von allen im Kurs integrierten Assessment Bausteinen wie [Tests](../learningresources/Course_Element_Test.de.md), [Bewertungen](../learningresources/Course_Element_Assessment.de.md), [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md), [Checklisten](../learningresources/Course_Element_Checklist.de.md), [Aufgaben](../learningresources/Course_Element_Task.de.md) usw. von allen Teilnehmenden gebündelt als ZIP-Datei archiviert. Die ZIP-Datei kann direkt heruntergeladen und gespeichert werden, liegt aber auch noch im privaten Ordner der Kursbesitzer:innen in OpenOlat.
+Hier werden die *Endresultate* von allen im Kurs integrierten Assessment Bausteinen wie [Tests](../learningresources/Course_Element_Test.de.md), [Bewertungen](../learningresources/Course_Element_Assessment.de.md), [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md), [Checklisten](../learningresources/Course_Element_Checklist.de.md), [Aufgaben](../learningresources/Course_Element_Task.de.md) usw. von allen Teilnehmenden gebündelt als ZIP-Datei archiviert. Die ZIP-Datei kann direkt heruntergeladen und gespeichert werden. Zusätzlich legt OpenOlat sie in den [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) der Person ab, die sie erstellt, im Ordner `private > archive > "Kurstitel"`.
 
 In der ZIP-Datei findet man eine xlsx-Datei mit Informationen zu den Teilnehmenden sowie eventuell von den Teilnehmenden abgegebene Dokumente. Diese Dokumente werden pro Kursbaustein gebündelt und enthalten Unterordner mit den Namen der Teilnehmenden, die Dokumente eingereicht haben.
 
@@ -179,7 +178,7 @@ Es werden alle [Themenvergaben](../learningresources/Course_Element_Topic_Assign
 
 ### Logfiles
 
-Hier können die personalisierten Logfiles der Kursbesitzer:innen sowie die pseudonymisierten Logfiles der Teilnehmenden für einen gewählten Zeitraum gesichert werden. Je nach Umfang kann die Erstellung einige Zeit in Anspruch nehmen. Anschliessend findet man die Logfiles im persönlichen, privaten OpenOlat Ordner als ZIP-Datei mit Excel-Tabelle.
+Hier können die personalisierten Logfiles der Kursbesitzer:innen sowie die pseudonymisierten Logfiles der Teilnehmenden für einen gewählten Zeitraum gesichert werden. Je nach Umfang kann die Erstellung einige Zeit in Anspruch nehmen. Anschliessend finden Sie die Logfiles als ZIP-Datei mit Excel-Tabelle in Ihren persönlichen Dateien, im Ordner `private > archive > "Kurstitel"`.
 
 ### Foren
 
@@ -191,15 +190,15 @@ Neben der Archivierung kann auch ein Bericht im xlsx-Format zu den gewünschten 
 
 Es werden alle [Dateidiskussionen](../learningresources/Course_Element_File_Dialog.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Elemente können ausgewählt und als ZIP-Datei gespeichert werden.
 
-### Teilnehmer Ordner [:octicons-tag-16:{ title="ab Release 11.3 (OO-2455)" }](https://track.frentix.com/issue/OO-2455)
+### Teilnehmer:innen Ordner [:octicons-tag-16:{ title="ab Release 11.3 (OO-2455)" }](https://track.frentix.com/issue/OO-2455)
 
-Es werden alle ["Teilnehmer Ordner"](../learningresources/Course_Element_Participant_Folder.de.md) Kursbausteine angezeigt. Die gewünschten zu archivierenden Elemente können ausgewählt und als ZIP-Datei gespeichert werden. In der ZIP-Datei befinden sich dann die einzelnen Elemente mit jeweils einem Ordner pro Teilnehmer mit je einem Abgabe- und Rückgabeordner.
+Es werden alle ["Teilnehmer:innen Ordner"](../learningresources/Course_Element_Participant_Folder.de.md) Kursbausteine angezeigt. Die gewünschten zu archivierenden Elemente können ausgewählt und als ZIP-Datei gespeichert werden. In der ZIP-Datei befinden sich dann die einzelnen Elemente mit jeweils einem Ordner pro Teilnehmer mit je einem Abgabe- und Rückgabeordner.
 
 ### Wikis
 
 Es werden alle [Wikis](../learningresources/Course_Element_Wiki.de.md) des Kurses aufgelistet. Die gewünschten zu archivierenden Wikis können ausgewählt und als ZIP-Datei gespeichert werden. In der ZIP-Datei liegen je ein Ordner pro Wiki sowie ein Ordner mit Metadaten für jedes gespeicherte Wiki.
 
-Beim Wiki werden alle Seiten und alle hochgeladenen Dateien in eine ZIP-Datei verpackt. Der Teilnehmer Ordner wird entsprechend der Ordner Struktur dieses Bausteins gespeichert.
+Beim Wiki werden alle Seiten und alle hochgeladenen Dateien in eine ZIP-Datei verpackt.
 
 ### SCORM Resultate
 
@@ -215,16 +214,12 @@ Es werden alle Kursbaustein [Formulare](../learningresources/Course_Element_Form
 
 ### Videoaufgabe
 
-Es werden alle im Kurs eingebauten Kursbausteine [Video-Aufgabe](../learningresources/Course_Element_Video_Task.de.md) unabhängig vom gewählten Modus aufgelistet. Die gewünschten Bausteine können ausgewählt und die Ergebnisse als ZIP-Datei gespeichert werden. Die ZIP-Datei enthält eine xlsx-Datei mit den Ergebnissen der einzelnen Teilnehmenden.
+Es werden alle im Kurs eingebauten Kursbausteine [Videoaufgabe](../learningresources/Course_Element_Video_Task.de.md) unabhängig vom gewählten Modus aufgelistet. Die gewünschten Bausteine können ausgewählt und die Ergebnisse als ZIP-Datei gespeichert werden. Die ZIP-Datei enthält eine xlsx-Datei mit den Ergebnissen der einzelnen Teilnehmenden.
 
 
-### Chat Historie
+### Kurs-Chat
 
 Hier kann der Chatverlauf als xlsx-Datei exportiert und auch gelöscht werden.
-
-### Buchungsaufträge
-
-Hier werden die Personen, die den Kurs gebucht haben, angezeigt, sofern der Kurs über [Angebote](../learningresources/Access_configuration.de.md) verfügt.
 
 [Zum Seitenanfang ^](#course_archiving)
 
@@ -255,8 +250,7 @@ Hier werden die Personen, die den Kurs gebucht haben, angezeigt, sofern der Kurs
 [Kursbaustein "Wiki" >](../learningresources/Course_Element_Wiki.de.md)<br>
 [Kursbaustein "SCORM 1.2" >](../learningresources/Course_Element_SCORM_Learning_Content.de.md)<br>
 [Kursbaustein "Formular" >](../learningresources/Course_Element_Form.de.md)<br>
-[Kursbaustein "Videoaufgabe" >](../learningresources/Course_Element_Video_Task.de.md)<br>
-[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
+[Kursbaustein "Videoaufgabe" >](../learningresources/Course_Element_Video_Task.de.md)
 
 **Weiterführend**<br>
 [Aufzeichnung der Kursaktivitäten >](Record_of_Course_Activities.de.md)<br>
