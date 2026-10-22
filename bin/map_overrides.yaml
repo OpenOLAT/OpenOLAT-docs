@@ -24,3 +24,7 @@ overrides:
     field: man
     value: manual_user/basic_concepts/Roles#coach
     register: 19
+  - key: collaboration.collab_tools
+    field: man
+    value: manual_user/groups/Group_Administration/index
+    register: 21
