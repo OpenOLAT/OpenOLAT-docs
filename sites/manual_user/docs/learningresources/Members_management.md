@@ -1,6 +1,6 @@
 # Members management {: #members_management}
 
-In the members management, course owners see all users and groups of a course and can organize them comprehensively, e.g. assign certain course-related rights, contact participants, and organize course groups. Rights management and the administration of consents to course-related terms of use or the privacy policy also take place here.
+In the members management, course owners see all users and groups of a course and can organize them comprehensively, e.g. assign certain course-related rights, contact participants, and organize course groups. You also manage the rights in the course and the consents to course-related terms of use or the privacy policy here.
 
 ![Members management of a course with the areas Members, Groups, Course Planner, Booking Orders, Invitations, Rights, and Consents](assets/members_management_open_v1_de.png){ class="shadow lightbox" title="Members management of a course" }
 
@@ -170,16 +170,16 @@ All persons who were added to the course via the "Invite external members" optio
 
 ##  Rights  {: #section_rights}
 
-There is often a wish to grant individual users additional rights without transferring full ownership rights to them or assigning them another course-specific role. You can do this in the **Rights** area of the members management.
+There is often a wish to grant individual users additional rights without transferring full ownership rights to them or assigning them another course-specific role. You do this in the "Rights" area of the members management.
 
-There, all course-specific groups are displayed, divided into group coaches and group participants, together with the rights groups assigned to each.
+There, the course coaches and course participants are listed first, followed by all groups of the course, divided into coaches and participants. For each of these rows, you tick the rights.
 
 Note that this does not grant individual rights, but rights for certain _course tool groups_, such as access to the course editor with all its integrated options, or the complete assessment tool.
 
 All persons entered in the respective group in the corresponding role then automatically receive the authorization to use the respective tool with all its options throughout the entire course. The course rights of a group are always bound to a single course and never apply generally.
 
 Often, the targeted assignment of certain rights, instead of entering someone as an owner, is already useful or necessary for data protection reasons.
-However, it is best to assign these extended rights to the _participants_ of a group, not to the coaches, since this involves further permissions.
+If a person is only to use a specific tool and not coach otherwise, it is best to assign the right to the participants of a group, not to its coaches: As a group coach, the person receives further permissions.
 
 !!! warning "Attention"
 
@@ -190,58 +190,60 @@ However, it is best to assign these extended rights to the _participants_ of a g
 
 What coaches may do in the course without these rights is described in the section [The role Coach](../basic_concepts/Roles.md#coach).
 
-The following course rights can be assigned to groups:
+The following course rights can be assigned to course coaches, course participants and to the coaches or participants of a group:
 
 
-**Group management**
+#### Group management {: #right_group_management}
 
 For the activated group of people, the "Administration" menu of the course also appears, and all actions from the "Groups" area of the members management are additionally available, e.g. create groups, add to or remove from the course, send emails to groups, as well as the actions from the "Consents" area.
 
-**Member management**
+#### Members management {: #right_members_management}
 
 For the activated group of people, the "Administration" menu of the course also appears.
 All actions of the Members, Groups, Booking Orders, and Consents areas of the members management are available, but not rights management or the Course Planner area.
 
-**Course editor**
+#### Course editor {: #right_course_editor}
 
 For the activated group of people, the "Administration" menu of the course also appears.
 
-When this rights group is activated, even non-authors can use the course editor with all its associated functionalities. In addition, the group also has access to further menus such as "Files", "Reminder", "Assessment management", "Learning area", and others.
+When this rights group is activated, even non-authors can use the course editor with all its associated functionalities. In addition, the group also has access to further menus such as "Files", "Reminder", "Assessment management", "Learning area", and others. In the assessment management, members with this right also start and finish an exam with manual start.
 
-**Archiving**
+#### Archive tool {: #right_archiving}
 
 For the activated group, the course administration menu with the "Archiving & Reports" submenu also appears. Members have access to all areas of [Archiving](../learningresources/Course_Archiving.md) and thus to all course data. They can archive course content such as forum posts or test results of all participants.
 
 The granting of this permission should be carefully weighed for data protection reasons.
 
 
-**Assessment tool**
+#### Assessment tool {: #right_assessment_tool}
 
 The "Administration" menu with the [assessment tool](Assessment_tool_overview.md) also appears.
 
-Even without being entered as a coach in the course, members can assess and comment on all achievements of the participants this way.
+Even without being entered as a coach in the course, members can assess and comment on all achievements of the participants this way. With this right, they also start and finish an exam with manual start in the assessment tool, see [Who can start and finish an exam manually](../learningresources/Assessment_mode.md#start_stop_rights).
 
 !!! info "Important"
 
     However, this does not include access to the assessment in the course run.
 
-**Glossary tool**
+    If coaches receive this right, they see all participants of the course in the assessment tool, not only the participants of their group. They assess all of them and can reset assessment data.
 
-This right allows members to edit the glossary of the course, which of course only makes sense if a [glossary](../learningresources/Glossary.md) is assigned to the course. Access is directly via the "Glossary" tool in the toolbar.
+#### Glossary tool {: #right_glossary_tool}
 
-**Statistics**
+This right allows members to edit the glossary of the course. This only makes sense if a [glossary](../learningresources/Glossary.md) is assigned to the course. Members open it via the "Glossary" tool in the toolbar.
+
+#### Statistics {: #right_statistics}
 
 For the activated group of people, the "Administration" menu of the course also appears.
 
 Members with this right get access to all statistics areas available for this course, i.e. course statistics, questionnaire statistics, and test statistics. The data can be displayed and downloaded.
 
-**Assessment mode**
+#### Assessment mode {: #right_assessment_mode}
 
 For the activated group of people, the "Administration" menu of the course also appears, with assessment management.
 
-Members may set up, edit, and delete new [assessment configurations](../learningresources/Assessment_mode.md).
+Members may set up, edit, and delete new [assessment configurations](../learningresources/Assessment_mode.md). In the assessment management, they also start and finish an exam with manual start, see [Who can start and finish an exam manually](../learningresources/Assessment_mode.md#start_stop_rights).
 
-**Course database**
+#### Course database {: #right_course_db}
 
 For the activated group of people, the "Administration" menu of the course also appears.
 

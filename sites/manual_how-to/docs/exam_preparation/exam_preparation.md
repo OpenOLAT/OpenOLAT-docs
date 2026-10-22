@@ -40,7 +40,7 @@ Now it is a matter of planning and conducting an exam with this course/test. To 
 
 ## How do I configure my exam? {: #config_exam}
 
-The settings (configuration) are made in various places and on various levels.
+You define the settings (configuration) of an exam in various places and on various levels.
 
 ![Four nested levels, each with its own configuration: course, course element, learning resource and question](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" title="Levels of the exam configuration" }
 
@@ -49,7 +49,7 @@ On this level you define, for example, when the overall course counts as "passed
 `Course > Administration > Settings`
 
 **Course element** level<br>
-The "Test" course element is used for exams. Within a course there can be several test course elements, e.g. an entry test, tests per topic area, and a final test. Each test course element can be configured differently, e.g. whether the assessment should be done automatically or manually.<br>
+The "Test" course element is used for exams. Within a course there can be several test course elements, e.g. an entry test, tests per topic area, and a final test. Each test course element can be configured differently, e.g. whether OpenOlat assesses automatically or a person by hand.<br>
 `Course > Administration > Course editor > "Course element"`, there in the various tabs
 
 **Learning resource** level<br>
@@ -91,9 +91,12 @@ An assessment mode can be activated and deactivated automatically or manually. T
 For an automatic start and end, a corresponding time window must be set up under:<br>
 `Course > Administration > Assessment management > Tab "Configuration assessment mode"`
 
-If a manual start/end by coaches is desired, the assessment mode can be started and ended with the "Start" button. You find the button under:<br>
+If a person is to start the exam by hand, for example the supervisor in the exam room, choose the option "Manual" under "Start / End mode". From the day of the exam, this person starts the exam with the button "Start exam" in the assessment tool or with the button "Start" in the assessment management:<br>
+`Course > Administration > Assessment tool`<br>
 `Course > Administration > Assessment management > Tab "Configuration assessment mode"`<br>
-As soon as an assessment mode has been activated, a "Finish" or "Finish exam" button is displayed. Click one of the two buttons. The status of the assessment mode then switches to "End".
+After the start, the same place shows the button "Finish exam" or "Finish". After the click, the status of the assessment mode switches to "End".
+
+Coaches only see these buttons with an additional right. Who sees the buttons and which right the supervisor needs is described in the section [Who can start and finish an exam manually](../../manual_user/learningresources/Assessment_mode.md#start_stop_rights).
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -211,13 +214,13 @@ For an exam that is already running, subsequent editing of the assessment mode i
 
 Recommendations:
 
-- During an already running exam, no live change that affects all participants should be made if at all possible.
+- During a running exam, change nothing that affects all participants if at all possible.
 - Before you change a running assessment mode for all exam participants, you may be able to check the effect of your change on a test account.
 - If possible, you should rather end the exam cleanly, set it up correctly anew, and reset the attempt for those affected.<br>
 
 Procedure:
 
-1. End the exam<br> (In manual mode, by coaches or course owners with the "Finish exam" button in the assessment tool.)
+1. End the exam<br> (With "Manual", with the button "Finish exam" in the assessment tool, by a person who may also start the exam, see [Who can start and finish an exam manually](../../manual_user/learningresources/Assessment_mode.md#start_stop_rights).)
 2. Create a new, correct assessment mode with a manual start/end.<br> Attention: The button for starting ("Start" in assessment management, "Start exam" in the assessment tool) only appears on the day the assessment mode begins. For an immediate restart, enter a start time that is imminent and choose the option "Manual" under "Start / End mode".<br>
 
 
@@ -243,7 +246,7 @@ B) the entry in the assessment mode
 <h3>A) Entries in the Test course element</h3>
 
 `Course > Administration > Course editor > "Course element" > Tab "Learning path"`<br>
-Each course element in a learning path course can contain an entry regarding release. A time window can be specified within which the course element can be accessed. The entry "Due date" defines by when the course element can be opened. If a course element is open and is being worked on while the deadline expires, the element remains open and can continue to be worked on. There is no automatic ending of access.<br>
+Each course element in a learning path course can contain an entry regarding release. A time window can be specified within which the course element can be accessed. The entry "Due date" defines by when the course element can be opened. If a course element is open and is being worked on while the deadline expires, the element remains open and can continue to be worked on. OpenOlat does not end the access automatically.<br>
 `Course > Administration > Course editor > Course element "Test" > Tab "Test configuration"`<br>
 Here you will find a toggle button "Set assessment period". During this test period the test can be started. As soon as the "Until" time is reached, the test is automatically ended. This is the case even if the defined test time has not yet been used up.
 
@@ -299,7 +302,7 @@ If an exam has already been worked on by some participants, the exam or a questi
 
 * If it is a simple error (e.g. a typo) that can easily still be communicated to all participants, informing all exam participants is a good option. Either verbally in the exam room or, for example, in the exam chat. (See [communication during an exam](../../manual_how-to/communication_during_exam/communication_during_exam.md)).
 
-* If a question cannot be solved at all because of the error, the way out remains that all participants receive, for example, the full number of points intended for this question. For this, a manual assessment can be carried out in the assessment tool. Inform the participants during the running exam and then grade the question as announced. It is advisable to supplement the awarding of the points with a corresponding comment giving the reason.<br>
+* If a question cannot be solved at all because of the error, the way out remains that all participants receive, for example, the full number of points intended for this question. For this, you assess the question by hand in the assessment tool. Inform the participants during the running exam and then grade the question as announced. It is advisable to supplement the awarding of the points with a corresponding comment giving the reason.<br>
 (See ["This is how you assess the solutions starting from a specific course element"](../../manual_user/learningresources/Assessment_of_learners.md#assess_solutions)).
 
 * Is the test so faulty that the test learning resource should be exchanged?<br>
@@ -325,7 +328,7 @@ To block all other activities in OpenOlat after the start of a test, use an [ass
 
 To also restrict all other activities on the exam participants' computer after the start of a test, use the [Safe Exam Browser (SEB)](../../manual_how-to/SEB/SEB.md).
 
-In an assessment mode, a restriction to specific IP addresses can also be made. This allows participation in the exam to be limited to the exclusive use of devices in an exam room.
+In an assessment mode, you can also restrict access to specific IP addresses. This allows participation in the exam to be limited to the exclusive use of devices in an exam room.
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -366,7 +369,7 @@ Coaches can then schedule inspections for individual participants in the assessm
 - [x] Exam rules created? (What is allowed and not allowed)
 - [x] Exam participants informed about the rules? (Terms of use of a course defined?)
 - [x] Communication during the exam clarified beforehand? (e.g. use of the exam chat)
-- [x] Procedure for starting and ending the exam clarified in advance? (Automatic? Manual? By whom?)
+- [x] Procedure for starting and ending the exam clarified in advance? (Automatic? Manual? By whom, with which right?)
 - [x] Instruction given on how to end the exam?
 - [x] Mock exam conducted? With all exam participants?
 - [x] Assessment mode configured?

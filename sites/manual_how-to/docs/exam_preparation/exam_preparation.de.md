@@ -38,7 +38,7 @@ Jetzt geht es darum, mit diesem Kurs/Test eine Prüfung zu planen und durchzufü
 
 ## Wie konfiguriere ich meine Prüfung? {: #config_exam}
 
-Die Einstellungen (Konfiguration) werden an verschiedenen Stellen und auf verschiedenen Ebenen vorgenommen.
+Die Einstellungen (Konfiguration) einer Prüfung legen Sie an verschiedenen Stellen und auf verschiedenen Ebenen fest.
 
 ![Vier verschachtelte Ebenen mit eigener Konfiguration: Kurs, Kursbaustein, Lernressource und Frage](assets/exam_preparation_overview_v1_de.png){ class="shadow lightbox" title="Ebenen der Prüfungskonfiguration" }
 
@@ -47,7 +47,7 @@ Auf dieser Ebene wird z.B. festgelegt, wann der Gesamtkurs als "bestanden" gilt.
 `Kurs > Administration > Einstellungen`
 
 Ebene **Kursbaustein**<br>
-Für Prüfungen wird der Kursbaustein "Test" verwendet. Innerhalb eines Kurses kann es mehrere Test-Kursbausteine geben, z.B. einen Einstiegstest, Tests pro Themengebiet und einen Abschlusstest. Jeder Test-Kursbaustein kann anders konfiguriert werden, z.B. ob die Bewertung automatisch oder manuell erfolgen soll.<br>
+Für Prüfungen wird der Kursbaustein "Test" verwendet. Innerhalb eines Kurses kann es mehrere Test-Kursbausteine geben, z.B. einen Einstiegstest, Tests pro Themengebiet und einen Abschlusstest. Jeder Test-Kursbaustein kann anders konfiguriert werden, z.B. ob OpenOlat automatisch bewertet oder eine Person von Hand.<br>
 `Kurs > Administration > Kurseditor > "Kursbaustein"`, dort in den verschiedenen Tabs
 
 Ebene **Lernressource**<br>
@@ -89,9 +89,12 @@ Ein Prüfungsmodus kann automatisch oder manuell aktiviert und deaktiviert werde
 Für automatischen Start und Ende muss ein entsprechendes Zeitfenster eingerichtet werden unter:<br>
 `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
 
-Wird ein manueller Start/Beendigung durch Betreuer:innen gewünscht, kann der Prüfungsmodus mit dem Button "Starten" begonnen und beendet werden. Sie finden den Button unter:<br>
+Soll eine Person die Prüfung von Hand starten, zum Beispiel die Aufsicht im Prüfungsraum, wählen Sie bei "Art des Beginns/Endes" die Option "Manuell". Ab dem Prüfungstag startet sie die Prüfung mit dem Button "Prüfung starten" im Bewertungswerkzeug oder mit dem Button "Starten" in der Prüfungsverwaltung:<br>
+`Kurs > Administration > Bewertungswerkzeug`<br>
 `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`<br>
-Sobald ein Prüfungsmodus aktiviert wurde, wird ein Button "Beenden" bzw. "Prüfung beenden" angezeigt. Klicken Sie auf einen der beiden Buttons. Anschliessend wechselt der Status des Prüfungsmodus auf "Beendet".
+Nach dem Start steht an derselben Stelle der Button "Prüfung beenden" bzw. "Beenden". Nach dem Klick wechselt der Status des Prüfungsmodus auf "Beendet".
+
+Betreuer:innen sehen diese Buttons nur mit einem zusätzlichen Recht. Wer die Buttons sieht und welches Recht die Aufsicht braucht, beschreibt der Abschnitt [Wer eine Prüfung manuell starten und beenden kann](../../manual_user/learningresources/Assessment_mode.de.md#start_stop_rights).
 
 [zum Seitenanfang ^](#exam_preparation)
 
@@ -209,13 +212,13 @@ Bei einer bereits laufenden Prüfung ist eine nachträgliche Bearbeitung des Pr�
 
 Empfehlungen:
 
-- Während einer bereits laufenden Prüfung sollte möglichst keine Live-Änderung vorgenommen werden, die alle Teilnehmenden trifft.
+- Ändern Sie während einer laufenden Prüfung möglichst nichts, was alle Teilnehmenden trifft.
 - Bevor Sie einen laufenden Prüfungsmodus für alle Prüfungsteilnehmer:innen abändern, können Sie evtl. die Wirkung Ihrer Änderung an einem Testaccount prüfen.
 - Wenn möglich, sollten Sie lieber die Prüfung sauber beenden, korrekt neu aufsetzen und den Versuch für die Betroffenen zurücksetzen.<br>
 
 Vorgehen:
 
-1. Prüfung beenden<br> (Bei manuellem Modus durch Betreuer:innen oder Kursbesitzer:innen mit dem Button "Prüfung beenden" im Bewertungswerkzeug.)
+1. Prüfung beenden<br> (Bei "Manuell" mit dem Button "Prüfung beenden" im Bewertungswerkzeug, durch eine Person, die die Prüfung auch starten darf, siehe [Wer eine Prüfung manuell starten und beenden kann](../../manual_user/learningresources/Assessment_mode.de.md#start_stop_rights).)
 2. Neuen, korrekten Prüfungsmodus mit manuellem Start/Beenden anlegen.<br> Achtung: Der Button zum Starten ("Starten" in der Prüfungsverwaltung, "Prüfung starten" im Bewertungswerkzeug) erscheint erst am Tag, an dem der Prüfungsmodus beginnt. Für einen sofortigen Neustart als Beginn eine unmittelbar bevorstehende Zeitangabe machen und bei "Art des Beginns/Endes" die Option "Manuell" wählen.<br>
 
 
@@ -241,7 +244,7 @@ B) die Angabe im Prüfungsmodus
 <h3>A) Angaben im Kursbaustein Test</h3>
 
 `Kurs > Administration > Kurseditor > "Kursbaustein" > Tab "Lernpfad"`<br>
-Jeder Kursbaustein in einem Lernpfadkurs kann eine Angabe zur Freigabe enthalten. Es kann ein Zeitfenster angegeben werden, in dem auf den Kursbaustein zugegriffen werden kann. Die Angabe "Zu bearbeiten bis" definiert, bis wann der Kursbaustein geöffnet werden kann. Ist ein Kursbaustein geöffnet und wird bearbeitet, während die Frist abläuft, bleibt der Baustein weiter geöffnet und kann weiter bearbeitet werden. Es erfolgt kein automatisches Beenden des Zugriffs.<br>
+Jeder Kursbaustein in einem Lernpfadkurs kann eine Angabe zur Freigabe enthalten. Es kann ein Zeitfenster angegeben werden, in dem auf den Kursbaustein zugegriffen werden kann. Die Angabe "Zu bearbeiten bis" definiert, bis wann der Kursbaustein geöffnet werden kann. Ist ein Kursbaustein geöffnet und wird bearbeitet, während die Frist abläuft, bleibt der Baustein weiter geöffnet und kann weiter bearbeitet werden. OpenOlat beendet den Zugriff nicht automatisch.<br>
 `Kurs > Administration > Kurseditor > Kursbaustein "Test" > Tab "Test-Konfiguration"`<br>
 Hier finden Sie einen Toggle-Button "Testzeitraum festlegen". Während diesem Testzeitraum kann der Test gestartet werden. Sobald die Bis-Zeit erreicht ist, wird der Test automatisch beendet. Dies auch dann, wenn die definierte Testzeit noch nicht aufgebraucht ist.
 
@@ -297,7 +300,7 @@ Ist eine Prüfung bereits von einigen Teilnehmer:innen bearbeitet worden, kann d
 
 * Handelt es sich um einen einfachen Fehler (z.B. Schreibfehler), der problemlos allen Teilnehmenden noch kommuniziert werden kann, bietet sich eine Information an alle Prüfungsteilnehmer:innen an. Entweder mündlich im Prüfungsraum oder auch z.B. im Prüfungs-Chat. (Siehe [Kommunikation während einer Prüfung](../../manual_how-to/communication_during_exam/communication_during_exam.de.md)). 
 
-* Kann eine Frage wegen des Fehlers gar nicht gelöst werden, bleibt der Ausweg, dass alle Teilnehmer:innen z.B. die vorgesehene volle Punktzahl für diese Frage erhalten. Dazu kann im Bewertungswerkzeug eine manuelle Bewertung vorgenommen werden. Informieren Sie während der laufenden Prüfung die Teilnehmer:innen und bewerten Sie die Frage dann wie angekündigt. Es empfiehlt sich, die Vergabe der Punkte mit einem entsprechenden Kommentar zur Begründung zu ergänzen.<br> 
+* Kann eine Frage wegen des Fehlers gar nicht gelöst werden, bleibt der Ausweg, dass alle Teilnehmer:innen z.B. die vorgesehene volle Punktzahl für diese Frage erhalten. Dazu bewerten Sie die Frage im Bewertungswerkzeug von Hand. Informieren Sie während der laufenden Prüfung die Teilnehmer:innen und bewerten Sie die Frage dann wie angekündigt. Es empfiehlt sich, die Vergabe der Punkte mit einem entsprechenden Kommentar zur Begründung zu ergänzen.<br> 
 (Siehe ["So bewerten Sie die Lösungen ausgehend von einem bestimmten Kursbaustein"](../../manual_user/learningresources/Assessment_of_learners.de.md#assess_solutions)). 
 
 * Ist der Test so fehlerhaft, dass die Test-Lernressource ausgewechselt werden sollte?<br>
@@ -323,7 +326,7 @@ Um nach dem Start eines Tests alle anderen Aktivitäten in OpenOlat zu unterbind
 
 Um nach dem Start eines Tests auch alle sonstigen Aktivitäten auf dem Rechner der Prüfungsteilnehmer:innen einzuschränken, verwenden Sie den [Safe Exam Browser (SEB)](../../manual_how-to/SEB/SEB.de.md).
 
-In einem Prüfungsmodus kann auch eine Einschränkung auf bestimmte IP-Adressen vorgenommen werden. So kann die Teilnahme an der Prüfung auf die ausschliessliche Nutzung von Geräten in einem Prüfungsraum begrenzt werden.
+In einem Prüfungsmodus können Sie den Zugang auch auf bestimmte IP-Adressen einschränken. So kann die Teilnahme an der Prüfung auf die ausschliessliche Nutzung von Geräten in einem Prüfungsraum begrenzt werden.
 
 [zum Seitenanfang ^](#exam_preparation)
 
@@ -364,7 +367,7 @@ Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einze
 - [x] Regeln zur Prüfung erstellt? (Erlaubtes und Unerlaubtes)
 - [x] Prüfungsteilnehmer:innen über die Regeln informiert? (Nutzungsbedingungen eines Kurses definiert?)
 - [x] Kommunikation während der Prüfung vorher geklärt? (z.B. Verwendung des Prüfungs-Chats)
-- [x] Verfahren zum Starten und Beenden der Prüfung vorab geklärt? (Automatisch? Manuell? Durch wen?)
+- [x] Verfahren zum Starten und Beenden der Prüfung vorab geklärt? (Automatisch? Manuell? Durch wen, mit welchem Recht?)
 - [x] Instruktion zum Beenden der Prüfung gegeben? 
 - [x] Probeklausur durchgeführt? Mit allen Prüfungsteilnehmer:innen?
 - [x] Prüfungsmodus konfiguriert?

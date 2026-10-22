@@ -1,6 +1,6 @@
 # Mitgliederverwaltung {: #members_management}
 
-In der Mitgliederverwaltung sehen Kursbesitzer:innen alle Benutzer:innen und Gruppen eines Kurses und können diese umfassend organisieren z.B. bestimmte kursbezogene Rechte vergeben, Teilnehmende kontaktieren und Kurs-Gruppen organisieren. Das Rechtemanagement und die Verwaltung der Einwilligungen zu kursbezogenen Nutzungsbedingungen bzw. Datenschutzerklärung erfolgt ebenfalls hier.  
+In der Mitgliederverwaltung sehen Kursbesitzer:innen alle Benutzer:innen und Gruppen eines Kurses und können diese umfassend organisieren z.B. bestimmte kursbezogene Rechte vergeben, Teilnehmende kontaktieren und Kurs-Gruppen organisieren. Auch die Rechte im Kurs und die Einwilligungen zu kursbezogenen Nutzungsbedingungen bzw. Datenschutzerklärung verwalten Sie hier.
 
 ![Mitgliederverwaltung eines Kurses mit den Bereichen Mitglieder, Gruppen, Course Planner, Buchungsaufträge, Einladungen, Rechte und Einwilligungen](assets/members_management_open_v1_de.png){ class="shadow lightbox" title="Mitgliederverwaltung eines Kurses" }
 
@@ -171,9 +171,9 @@ Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder ei
 
 ##  Bereich "Rechte"   {: #section_rights}
 
-Häufig besteht der Wunsch, einzelnen Benutzer:innen zusätzliche Rechte zu vergeben, ohne ihnen dabei volle Besitzrechte zu übertragen oder eine weitere kursspezifische Rolle zuzuweisen. Dies können Sie im Bereich **Rechte** der Mitgliederverwaltung vornehmen.
+Häufig besteht der Wunsch, einzelnen Benutzer:innen zusätzliche Rechte zu vergeben, ohne ihnen dabei volle Besitzrechte zu übertragen oder eine weitere kursspezifische Rolle zuzuweisen. Das erledigen Sie im Bereich "Rechte" der Mitgliederverwaltung.
 
-Dort werden alle kursspezifischen Gruppen angezeigt, unterteilt in Gruppen-Betreuer:innen und Gruppen-Teilnehmer:innen, zusammen mit den jeweils zugeordneten Rechtegruppen.
+Dort stehen zuerst die Kursbetreuer:innen und Kursteilnehmer:innen, danach alle Gruppen des Kurses, unterteilt in Betreuer:innen und Teilnehmer:innen. Für jede dieser Zeilen kreuzen Sie die Rechte an.
 
 Zu beachten ist dabei, dass hier keine
 Einzelrechte, sondern Rechte für bestimmte _Kurswerkzeuggruppen_ vergeben werden wie z.B. Zugriff auf den Kurseditor mit allen integrierten Möglichkeiten oder das komplette Bewertungswerkzeug. 
@@ -181,7 +181,7 @@ Einzelrechte, sondern Rechte für bestimmte _Kurswerkzeuggruppen_ vergeben werde
 Alle Personen, die in die jeweilige Gruppe in der entsprechenden Rolle eingetragen sind, erhalten dann automatisch die Berechtigung das jeweilige Werkzeug mit allen Optionen im gesamten Kurs zu verwenden. Die Kursrechte einer Gruppe sind immer an einen einzelnen Kurs gebunden und gelten nicht pauschal.
 
 Häufig ist die gezielte Vergabe bestimmter Rechte, anstatt des Eintrags als Besitzer:in schon aus Datenschutzgründen sinnvoll oder notwendig. 
-Vergeben Sie diese erweiterten Rechte aber am besten an die _Teilnehmenden_ einer Gruppe nicht an die Betreuer:innen, da damit weitere Berechtigungen verbunden sind. 
+Soll eine Person nur ein bestimmtes Werkzeug nutzen und sonst nicht betreuen, vergeben Sie das Recht am besten an die Teilnehmenden einer Gruppe, nicht an deren Betreuer:innen: Als Gruppenbetreuer:in erhält die Person weitere Berechtigungen.
 
 !!! warning "Achtung"
 
@@ -192,64 +192,64 @@ Vergeben Sie diese erweiterten Rechte aber am besten an die _Teilnehmenden_ eine
 
 Was Betreuer:innen ohne diese Rechte im Kurs dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](../basic_concepts/Roles.de.md#coach).
 
-Folgende Kursrechte können an Gruppen vergeben werden:
+Folgende Kursrechte können an Kursbetreuer:innen, Kursteilnehmer:innen und an die Betreuer:innen oder Teilnehmer:innen einer Gruppe vergeben werden:
 
 
-**Gruppen-Verwaltung**
+#### Gruppen-Verwaltung {: #right_group_management}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration" und es stehen zusätzlich alle Aktionen aus dem Bereich "Gruppen" der Mitgliederverwaltung also z.B. Gruppen erstellen, zum Kurs hinzufügen oder entfernen, Mails an Gruppen verschicken sowie die Aktionen aus dem Bereich "Einwilligungen" zur Verfügung.  
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration" und es stehen zusätzlich alle Aktionen aus dem Bereich "Gruppen" der Mitgliederverwaltung also z.B. Gruppen erstellen, zum Kurs hinzufügen oder entfernen, Mails an Gruppen verschicken sowie die Aktionen aus dem Bereich "Einwilligungen" zur Verfügung.
 
-**Mitglieder-Verwaltung**
+#### Mitglieder-Verwaltung {: #right_members_management}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration". 
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
 Es stehen alle Aktionen der Bereiche Mitglieder, Gruppen, Buchungsaufträge und Einwilligungen der Mitgliederverwaltung zur Verfügung, jedoch kein Rechtemanagement und kein Course-Planner-Bereich.
 
-**Kurseditor**
+#### Kurseditor {: #right_course_editor}
 
 Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
 
-Bei Aktivierung dieser Rechte-Gruppe können auch Nicht-Autoren den Kurseditor mit allen dazu gehörenden Funktionalitäten verwenden. Darüber stehen der Gruppe noch weitere Menüs wie "Dateien", "Erinnerung", "Prüfungsverwaltung",  "Lernbereich" u.a. zur Verfügung.
+Bei Aktivierung dieser Rechte-Gruppe können auch Nicht-Autoren den Kurseditor mit allen dazu gehörenden Funktionalitäten verwenden. Darüber stehen der Gruppe noch weitere Menüs wie "Dateien", "Erinnerung", "Prüfungsverwaltung", "Lernbereich" u.a. zur Verfügung. In der Prüfungsverwaltung starten und beenden Mitglieder mit diesem Recht auch eine Prüfung mit manuellem Start.
 
-**Datenarchivierung**
+#### Datenarchivierung {: #right_archiving}
 
 Für die aktivierte Gruppe erscheint zusätzlich das Menü Kurs-Administration mit dem Untermenü Archivierung & Reports. Mitglieder haben Zugriff auf alle Bereiche der [Archivierung](../learningresources/Course_Archiving.de.md) und damit auf sämtliche Kursdaten. Sie können Kursinhalte wie Forenbeiträge oder Testergebnisse aller Teilnehmenden archivieren.  
 
 Die Vergabe dieser Berechtigung sollte aus Datenschutzgründen sorgfältig abgewogen werden.  
 
 
-**Bewertungs-Werkzeug**
+#### Bewertungs-Werkzeug {: #right_assessment_tool}
 
 Es erscheint zusätzlich das Menü "Administration" mit dem [Bewertungswerkzeug](Assessment_tool_overview.de.md).
 
-Auch ohne als Betreuer:in im Kurs eingetragen zu sein können so Mitglieder sämtliche Leistungen der Teilnehmenden bewerten und kommentieren.
+Auch ohne als Betreuer:in im Kurs eingetragen zu sein, können so Mitglieder sämtliche Leistungen der Teilnehmenden bewerten und kommentieren. Mit diesem Recht starten und beenden sie im Bewertungswerkzeug auch eine Prüfung mit manuellem Start, siehe [Wer eine Prüfung manuell starten und beenden kann](../learningresources/Assessment_mode.de.md#start_stop_rights).
 
 !!! info "Wichtig"
 
     Ein Zugriff auf die Bewertung im Kursrun besteht dabei aber nicht.
 
-**Glossar-Werkzeug** 
+    Erhalten Betreuer:innen dieses Recht, sehen sie im Bewertungswerkzeug alle Teilnehmer:innen des Kurses, nicht nur die Teilnehmenden ihrer Gruppe. Sie bewerten alle und können Bewertungsdaten zurücksetzen.
 
-Dieses Recht erlaubt es den Mitgliedern das Glossar
-des Kurses zu bearbeiten, was natürlich nur Sinn macht, wem dem Kurs auch ein [Glossar](../learningresources/Glossary.de.md) zugeordnet ist. Der Zugriff erfolgt direkt über das Werkzeug "Glossar" in der Toolbar.  
+#### Glossar-Werkzeug {: #right_glossary_tool}
 
- **Statistiken**
+Dieses Recht erlaubt es den Mitgliedern, das Glossar des Kurses zu bearbeiten. Das ist nur sinnvoll, wenn dem Kurs ein [Glossar](../learningresources/Glossary.de.md) zugeordnet ist. Die Mitglieder öffnen es über das Werkzeug "Glossar" in der Toolbar.
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration". 
-
-Mitglieder mit diesem Recht erhalten Zugriff auf alle für diesen Kurs zur Verfügung stehenden Statistikbereiche, also Kursstatistiken, Fragebogen
-Statistiken und Teststatistiken. Die Daten können angezeigt und heruntergeladen werden.  
-
-**Prüfungsmodus**
-
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration" mit der Prüfungsverwaltung.
-
-Mitglieder dürfen neue [Prüfungskonfigurationen](../learningresources/Assessment_mode.de.md) einrichten, bearbeiten und löschen.  
-
-**Kurs Datenbank**
+#### Statistiken {: #right_statistics}
 
 Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
 
-Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und exportieren.  
+Mitglieder mit diesem Recht erhalten Zugriff auf alle für diesen Kurs zur Verfügung stehenden Statistikbereiche, also Kursstatistiken, Fragebogen Statistiken und Teststatistiken. Die Daten können angezeigt und heruntergeladen werden.
+
+#### Prüfungsmodus {: #right_assessment_mode}
+
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration" mit der Prüfungsverwaltung.
+
+Mitglieder dürfen neue [Prüfungskonfigurationen](../learningresources/Assessment_mode.de.md) einrichten, bearbeiten und löschen. In der Prüfungsverwaltung starten und beenden sie auch eine Prüfung mit manuellem Start, siehe [Wer eine Prüfung manuell starten und beenden kann](../learningresources/Assessment_mode.de.md#start_stop_rights).
+
+#### Kurs Datenbank {: #right_course_db}
+
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
+
+Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und exportieren.
 
 [Zum Seitenanfang ^](#members_management)
 

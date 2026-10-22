@@ -176,7 +176,7 @@ In all other course elements, coaches have the same rights as participants by de
 **Available by default**<br>
 In the "Administration" menu of the course:
 
-* "Assessment tool": assess the coached participants. Coaches cannot reset or delete data there.
+* "Assessment tool": assess the coached participants. Coaches cannot reset or delete data there, and they see an exam with manual start there but do not start it (see below).
 * "To-dos"
 * "Test statistics" and "Survey statistics", if the course contains a test or a survey: results of the coached participants
 * "Coach files", if the function is switched on in the course
@@ -204,6 +204,8 @@ Without additional rights, coaches do not open:
 * "Events and Absences" and "Offer types"
 * the status of the course and the actions "Copy", "Duplicate as learning path" and "Delete"
 * "Export content". Exception: if the person also has the role Author in the organisation of the course and the course allows downloading, they see this action.
+
+Coaches without an additional right do not start or finish an exam with manual start. They only see the button "Start exam" in the assessment tool with the right "Assessment tool", and in the assessment management with the right "Assessment mode". Without a right, only coaches who are entered as teacher in the event of the exam see it. More on this in the section [Who can start and finish an exam manually](../learningresources/Assessment_mode.md#start_stop_rights).
 
 
 [To the top of the page ^](#roles)
@@ -263,7 +265,7 @@ With this right, "Archiving & Reporting" is available in the "Administration" me
 
 #### Assessment tool {: #assessment_tool}
 
-The assessment tool is part of the basic equipment of all coaches. With this right, it is also available to other members in the "Administration" menu of the course. Whoever has the right sees all participants of the course there and can reset and delete data, also as coach.
+The assessment tool is part of the basic equipment of all coaches. With this right, it is also available to other members in the "Administration" menu of the course. Whoever has the right sees all participants of the course there and can reset and delete data, also as coach. The person with this right also starts and finishes an exam with manual start in the assessment tool.
 
 [More about the assessment tool >](../learningresources/Assessment_tool_overview.md)
 
@@ -286,7 +288,7 @@ With this right, "Course statistics" is available in the "Administration" menu o
 
 #### Assessment mode {: #assessment_mode}
 
-With this right, "Assessment management" is available in the "Administration" menu of the course, with the same options as for course owners.
+With this right, "Assessment management" is available in the "Administration" menu of the course, with the same options as for course owners. The members create, edit and delete assessment modes there and start and finish an exam with manual start.
 
 [More about assessment management >](../learningresources/Assessment_Management.md)
 
@@ -394,6 +396,7 @@ In user management, the [self-defined roles](#relations) appear under "User role
 [Course Element "Video Livestream" >](../learningresources/Course_Element_Video_Livestream.md)<br>
 [Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
+[Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>
 [Groups >](../groups/index.md)<br>
 [Group Administration >](../groups/Group_Administration/index.md)<br>
 [Elements >](../learningresources/General_Configuration_of_Course_Elements.md)<br>

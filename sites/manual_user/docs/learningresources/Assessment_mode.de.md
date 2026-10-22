@@ -7,7 +7,7 @@
 
 ## Was versteht man unter "Prüfungsmodus"? [:octicons-tag-16:{ title="ab Release 10.2 (OO-1349)" }](https://track.frentix.com/issue/OO-1349)
 
-Ein Prüfungsmodus ist eine **Prüfungskonfiguration**, in der Tests und Prüfungen in **geschütztem Modus** (sogenannter Kioskmodus) während einer festgelegten Zeit durchgeführt werden.
+Ein Prüfungsmodus ist eine Prüfungskonfiguration, mit der Teilnehmende Tests und Prüfungen während einer festgelegten Zeit in einem geschützten Modus ablegen (sogenannter Kioskmodus).
 
 Während dieser Zeit ist nur der Zugriff auf zuvor festgelegte Kursbausteine im betroffenen Kurs gestattet. Alle weiteren Funktionen in OpenOlat, wie andere Kurse, Gruppen, Notizen etc., werden während der Prüfungsdauer (Laufzeit des Prüfungsmodus) ausgeblendet. Nur ein Logout ist während der Prüfung möglich.
 
@@ -16,26 +16,25 @@ Während dieser Zeit ist nur der Zugriff auf zuvor festgelegte Kursbausteine im 
 
 ## Prüfungsmodus hinzufügen
 
-Sie **erstellen** und konfigurieren einen Prüfungsmodus, indem Sie
+Einen Prüfungsmodus erstellen und konfigurieren Sie in der Prüfungsverwaltung des Kurses:
 
-1. Ihren **Kurs** mit dem darin enthaltenen Test wählen,
-2. in der **"Kurs-Administration"** die Option **"Prüfungsverwaltung"** wählen,
-3. und dort den **Tab "Konfiguration Prüfungsmodus"** auswählen.
-4. Klicken Sie dort auf den **Button "Prüfungsmodus hinzufügen"**.
+1. Öffnen Sie den Kurs mit dem Test.
+2. Wählen Sie `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`.
+3. Klicken Sie auf "Prüfungsmodus hinzufügen".
 
 Für einen Termin des Kurses entsteht der Prüfungsmodus stattdessen in der Terminliste: [Prüfungsmodus aus einem Termin](#exam_from_event)
 
 ![Tab "Konfiguration Prüfungsmodus" und Button "Prüfungsmodus hinzufügen" markiert](assets/assessment_management_create_exam_setting_v2_de.png){ class="shadow lightbox" title="Seite Prüfungsverwaltung im Kurs" }
 
-Auf der Übersichtsseite sehen Sie alle für einen Kurs bereits abgehaltenen, laufenden oder geplanten Prüfungen. Der Modus geplanter Prüfungen kann bis zur Prüfung noch bearbeitet werden, eine nachträgliche Bearbeitung ist nicht möglich. Die Übersicht enthält Informationen zu Datum und Dauer, Vor- und Nachlaufzeiten, sowie Benutzergruppen.
+Im Tab "Konfiguration Prüfungsmodus" sehen Sie alle für einen Kurs bereits abgehaltenen, laufenden oder geplanten Prüfungen. Der Modus geplanter Prüfungen kann bis zur Prüfung noch bearbeitet werden, eine nachträgliche Bearbeitung ist nicht möglich. Die Übersicht enthält Informationen zu Datum und Dauer, Vor- und Nachlaufzeiten, sowie Benutzergruppen.
 
 ![Übersichtstabelle der Prüfungsmodi mit Status, Vorlauf- und Nachlaufzeit sowie Zielgruppe je Prüfung](assets/assessment_management_exam_settings_overview_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration Prüfungsmodus" }
 
-Prüfungskonfigurationen werden vorab erstellt und enthalten
+Sie erstellen einen Prüfungsmodus vor der Prüfung. Er enthält
 
-* eine Start- und Endzeit
-* evtl. Vor- und Nachlaufzeiten (falls diese gewünscht sind)
-* evtl. Einschränkungen auf spezifische Nutzergruppen.
+* eine Start- und Endzeit,
+* auf Wunsch Vor- und Nachlaufzeiten,
+* auf Wunsch Einschränkungen auf bestimmte Nutzergruppen.
 
 Ein Prüfungsmodus kann gelten
 
@@ -66,19 +65,19 @@ Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränk
 
 ![Tab "Allgemein" mit Feldern Titel, Beschreibung, Beginn, Vorlaufzeit, Ende, Nachlaufzeit und Art des Beginns/Endes](assets/assessment_management_create_exam_setting_tab_general_v1_de.png){ class="shadow lightbox" title="Dialog einer neuen Prüfung" }
 
-Detailliert können neben Titel und Beschreibung, die den Teilnehmenden in der Prüfungsbenachrichtigung angezeigt werden, die folgenden Parameter konfiguriert werden:
+Titel und Beschreibung sehen die Teilnehmenden in der Benachrichtigung zur Prüfung. Daneben legen Sie in diesem Tab fest:
 
 **Beginn**: Legen Sie hier Datum und Uhrzeit für den Beginn der Prüfung fest.
 
 Die **Vorlaufzeit**, die Sie in Minuten angeben, sperrt OpenOlat während der angegebenen Dauer vor Prüfungsbeginn.
 
-**Ende**: Der Zeitpunkt an dem die Prüfung beendet wird.
+**Ende**: Legen Sie hier Datum und Uhrzeit für das Ende der Prüfung fest.
 
 Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser Dauer im Anschluss an die Prüfung noch gesperrt.
 
 Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie lange der Test dauert. Wie Prüfungsmodus, Testzeitraum, Zeitbeschränkung und Verlängerung zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
 
-**Art des Beginns/Endes**: Sie können zwischen automatischem und manuellem Start / Ende wählen. Stellen Sie als Autor:in hier "Manuell" ein, finden Betreuer:innen auf der Übersichtsseite des Bewertungswerkzeugs einen Start- und Ende-Button bei der entsprechenden Prüfungskonfiguration, mit dem sie den Prüfungsmodus manuell einschalten können.
+**Art des Beginns/Endes**: Wählen Sie, ob die Prüfung "Automatisch" zur konfigurierten Zeit beginnt und endet oder "Manuell". Bei "Manuell" startet und beendet eine Person die Prüfung am Prüfungstag selbst. Wer das darf, beschreibt der Abschnitt [Wer eine Prüfung manuell starten und beenden kann](#start_stop_rights).
 
 ---
 
@@ -87,9 +86,9 @@ Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie 
 
 ![Tab "Einschränkungen Kursbaustein" mit Checkbox "Zugriff auf Kursbaustein einschränken" und Auswahl des Startbausteins](assets/assessment_management_create_exam_setting_tab_element_restriction_v1_de.png){ class="shadow lightbox" title="Dialog einer Prüfung" }
 
-**Zugriff auf Kursbaustein einschränken**: Um die Prüfung auf ausgewählte Kursbausteine des betroffenen Kurses zu beschränken, wählen Sie hier die Checkbox aus, und klicken Sie dann auf die Schaltfläche "Kursbausteine auswählen". Es öffnet sich eine Liste aller Kursbausteine des Kurses - wählen Sie jene Kursbausteine aus, die den Teilnehmenden während der Prüfung angezeigt werden sollen. Alle anderen Kursbausteine werden für die Dauer der Prüfung ausgeblendet.
+**Zugriff auf Kursbaustein einschränken**: Um die Prüfung auf ausgewählte Kursbausteine des betroffenen Kurses zu beschränken, wählen Sie hier die Checkbox aus, und klicken Sie dann auf die Schaltfläche "Kursbausteine auswählen". Es öffnet sich eine Liste aller Kursbausteine des Kurses. Wählen Sie die Kursbausteine aus, die den Teilnehmenden während der Prüfung angezeigt werden sollen. Alle anderen Kursbausteine werden für die Dauer der Prüfung ausgeblendet.
 
-**Startbaustein**: Soll den Teilnehmenden ein bestimmter Kursbaustein direkt beim Start angezeigt werden, so arbeiten Sie mit der Schaltfläche "Kursbaustein auswählen". Wählen Sie aus den verfügbaren Kursbausteinen einen aus. Es werden nur die Kursbausteine angezeigt, die im Schritt zuvor zur Anzeige ausgewählt wurden.
+**Startbaustein**: Soll den Teilnehmenden ein bestimmter Kursbaustein direkt beim Start angezeigt werden, klicken Sie auf "Kursbaustein auswählen" und wählen einen der verfügbaren Kursbausteine aus. Es werden nur die Kursbausteine angezeigt, die im Schritt zuvor zur Anzeige ausgewählt wurden.
 
 ---
 
@@ -98,7 +97,7 @@ Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie 
 
 ![Tab "Zugang" mit IP-Einschränkung, den vier Teilnehmenden-Optionen und der Checkbox "Prüfungskonfiguration auch bei Betreuenden anwenden"](assets/assessment_management_create_exam_setting_tab_access_v1_de.png){ class="shadow lightbox" title="Tab Zugang im Dialog einer Prüfung" }
 
-**Einschränkung auf IP-Adressen**: Um eine Ausführung der Prüfung nur an bestimmten Computern oder Orten zuzulassen, markieren Sie hier die Checkbox und tragen dann die zulässigen IP-Adressen ein. Diese sollten Sie von ihrer Informatik-Abteilung erhalten können. Sie können dadurch z.B. verhindern, dass Teilnehmende eine Prüfung von zuhause ablegen.
+**Einschränkung auf IP-Adressen**: Um eine Ausführung der Prüfung nur an bestimmten Computern oder Orten zuzulassen, markieren Sie hier die Checkbox und tragen dann die zulässigen IP-Adressen ein. Diese sollten Sie von Ihrer Informatik-Abteilung erhalten können. Sie können dadurch z.B. verhindern, dass Teilnehmende eine Prüfung von zuhause ablegen.
 
 **Teilnehmende**: Hier legen Sie fest, für welche Teilnehmenden die Prüfung gültig ist. Wählen Sie aus den folgenden Optionen aus:
 
@@ -110,7 +109,7 @@ Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie 
 Sobald eine Option mit Gruppen ausgewählt wurde, müssen Sie zwingend immer über die Schaltflächen "Gruppen auswählen" oder "Lernbereiche auswählen" die betroffenen Gruppen auswählen. Gilt die Prüfung für Teilnehmende des Course Planner, wählen Sie die Produkte über die Schaltfläche "Produkt auswählen" aus.
 
 **Prüfungskonfiguration auch bei Betreuenden anwenden**:
-Wird diese Option gewählt, gilt der Prüfungsmodus auch für Betreuer:innen. D.h. auch für Betreuer:innen gilt der Kioskmodus, in dem andere Funktionen gesperrt sind.
+Ist diese Option gewählt, gilt der Prüfungsmodus auch für die Betreuer:innen der gewählten Teilnehmenden. Wie die Teilnehmenden erreichen sie während der Prüfung in OpenOlat nur noch die Prüfung. Soll eine Betreuer:in als Aufsicht die Prüfung manuell starten, lassen Sie die Option ausgeschaltet.
 
 !!! note "Hinweis"
 
@@ -206,25 +205,52 @@ Teilnehmende, die einer Prüfung zugeteilt wurden, werden zu Beginn der Prüfung
 
 ![Benachrichtigung "Aktuelle Prüfung" mit Kurs, Zeitraum, Sperrhinweisen und Countdown bis zum Prüfungsbeginn](assets/assessment_management_exam_info1_v1_de.png){ class="shadow lightbox" title="Benachrichtigung für Teilnehmende" }
 
-Wurde von dem/der Kursbesitzer:in ein manueller Start vorgesehen, finden Betreuer:innen auf der Übersichtsseite des [Bewertungswerkzeugs](Assessment_tool_overview.de.md) einen Start- und Ende-Button bei der entsprechenden Prüfungskonfiguration. Damit kann der Prüfungsmodus manuell eingeschaltet werden. Der Start-Button wird für Betreuer:innen erst sichtbar, sobald der vorkonfigurierte Zeitraum für diese Prüfung erreicht wurde.
+Ist bei "Art des Beginns/Endes" die Option "Manuell" gewählt, startet eine Person die Prüfung selbst, zum Beispiel die Aufsicht im Prüfungsraum, sobald alle bereit sind. Dafür zeigt die Übersicht des [Bewertungswerkzeugs](Assessment_tool_overview.de.md) im Bereich "Prüfungsmodus" bei der Prüfung den Button "Prüfung starten". Der Button erscheint ab dem Tag, an dem die Prüfung beginnt, und nicht erst zur konfigurierten Uhrzeit.
 
 ![Kachel Prüfungsmodus mit Button "Starten" markiert](assets/assessment_management_exam_coach_v1_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs" }
 
-Wird der Prüfungsmodus manuell durch Betreuer:innen gestartet, so bleibt die Vorlaufzeit unverändert (wie in der Konfiguration vorgesehen), auch wenn der Button zum Start der Prüfung später als geplant geklickt wird.
+Startet die Prüfung später als geplant, bleibt die Vorlaufzeit so, wie sie konfiguriert ist. Das Ende der Prüfung verschiebt sich um dieselbe Zeit nach hinten, die konfigurierte Prüfungsdauer bleibt also gleich.
 
-Wird manuell die Prüfung verspätet gestartet, dann verschiebt sich das Prüfungsende nach hinten. Die vorkonfigurierte **Prüfungsdauer** bleibt also gleich.
+Während der Prüfung verfolgen Betreuer:innen den Prüfungsmodus in der Übersicht des Bewertungswerkzeugs.
 
-Ein laufender Prüfungsmodus kann von den Betreuer:innen im Bewertungswerkzeug verfolgt werden.
+Im Bewertungswerkzeug bewerten sie auch Aufgaben und Freitextfragen von Tests direkt und geben die Bewertung für die Teilnehmenden frei. So lässt sich eine Prüfung gleich im Anschluss besprechen.
 
-Bewertungen, z.B. für Einsendeaufgaben oder Freitextfragen von Tests, können auch direkt bewertet und für die Teilnehmenden freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht und -besprechung ermöglicht.
+
+### Wer eine Prüfung manuell starten und beenden kann {: #start_stop_rights}
+
+Betreuer:innen sehen eine Prüfung mit manuellem Start im Bereich "Prüfungsmodus" des Bewertungswerkzeugs, den Button "Prüfung starten" aber nur mit einem zusätzlichen Recht. Legen Sie deshalb vor dem Prüfungstag fest, wer die Prüfung startet, und geben Sie dieser Person das passende Recht.
+
+Den Button "Prüfung starten" und danach "Prüfung beenden" sehen im Bewertungswerkzeug:
+
+* Personen mit Besitzerrechten am Kurs, also Besitzer:innen, Lernressourcenverwalter:innen und Administrator:innen, dazu Principals, Kursplaner:innen und Klassenlehrer:innen
+* Mitglieder mit dem Recht "Bewertungs-Werkzeug"
+* Betreuer:innen, die beim Termin der Prüfung als Dozent:in eingetragen sind (siehe [Prüfungsmodus aus einem Termin](#exam_from_event))
+
+Mitglieder mit dem Recht "Bewertungs-Werkzeug" und Dozent:innen des Termins finden denselben Button auch im [Kursbaustein "Test"](Course_Element_Test.de.md) im Tab "Prüfungsmodus".
+
+In der Prüfungsverwaltung starten und beenden Personen mit Besitzerrechten und Mitglieder mit dem Recht "Prüfungsmodus" oder "Kurseditor" die Prüfung, mit den Buttons "Starten" und "Beenden" in der Liste der Prüfungen:<br>
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
+
+Die Rechte vergeben Besitzer:innen in der Mitgliederverwaltung, für alle Kursbetreuer:innen oder gezielt für die Betreuer:innen einer Gruppe, zum Beispiel einer Gruppe "Aufsicht":<br>
+`Kurs > Administration > Mitgliederverwaltung > Rechte`<br>
+Die beiden Rechte für den Prüfungsstart geben unterschiedlich viel frei. Was jedes Recht sonst noch erlaubt, beschreibt die Mitgliederverwaltung unter [Vergabe zusätzlicher Rechte](Members_management.de.md#additional_rights).
+
+* **Bewertungs-Werkzeug**: Die Person startet und beendet die Prüfung im Bewertungswerkzeug und arbeitet dort mit allen Funktionen des Werkzeugs.
+* **Prüfungsmodus**: Die Person startet und beendet die Prüfung in der Prüfungsverwaltung. Dort legt sie auch Prüfungsmodi an, bearbeitet und löscht sie.
+
+!!! info "Wichtig"
+
+    Mit dem Recht "Bewertungs-Werkzeug" sieht eine Betreuer:in im Bewertungswerkzeug alle Teilnehmer:innen des Kurses, nicht nur die Teilnehmenden ihrer Gruppe. Sie bewertet alle und kann Bewertungsdaten zurücksetzen. Wägen Sie deshalb ab, ob die Aufsicht diesen Zugriff braucht oder ob das Recht "Prüfungsmodus" genügt.
+
+Soll eine Betreuer:in die Prüfung starten, lassen Sie im Tab "Zugang" die Option "Prüfungskonfiguration auch bei Betreuenden anwenden" ausgeschaltet. Sonst gilt der Prüfungsmodus auch für sie, und sie erreicht in OpenOlat nur noch die Prüfung.
 
 ---
 
 ## Prüfung beenden
 
-Ein laufender Prüfungsmodus kann generell automatisch oder manuell beendet werden.
+Ein laufender Prüfungsmodus endet automatisch oder manuell, je nach Einstellung bei "Art des Beginns/Endes".
 
-Bei manuellem Modus können Betreuer:innen und Kursbesitzer:innen die Prüfung im **Bewertungswerkzeug** beenden.
+Bei "Manuell" beenden die Personen, die die Prüfung auch starten dürfen, sie mit dem Button "Prüfung beenden" im Bewertungswerkzeug, siehe [Wer eine Prüfung manuell starten und beenden kann](#start_stop_rights).
 
 ![Banner zum aktiven Prüfungsmodus mit Button "Beenden" und Kachel Prüfungsmodus mit Status Gestartet markiert](assets/assessment_management_exam_stop_v1_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs" }
 
@@ -238,7 +264,9 @@ Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder g
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Mitgliederverwaltung >](Members_management.de.md)
 
 **Weiterführend**<br>
 [Prüfungsverwaltung: Prüfungseinsicht >](Assessment_inspection.de.md)<br>

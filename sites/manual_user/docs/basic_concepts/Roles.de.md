@@ -176,7 +176,7 @@ In den übrigen Kursbausteinen haben Betreuer:innen standardmässig dieselben Re
 **Standardmässig verfügbar**<br>
 Im Menü "Administration" des Kurses:
 
-* "Bewertungswerkzeug": die betreuten Teilnehmenden bewerten. Daten zurücksetzen und löschen können Betreuer:innen dort nicht.
+* "Bewertungswerkzeug": die betreuten Teilnehmenden bewerten. Daten zurücksetzen und löschen können Betreuer:innen dort nicht, und eine Prüfung mit manuellem Start sehen sie dort, starten sie aber nicht (siehe unten).
 * "To-dos"
 * "Test Statistiken" und "Fragebogen Statistiken", wenn der Kurs einen Test oder eine Umfrage enthält: Resultate der betreuten Teilnehmenden
 * "Unterlagen Betreuer:innen", wenn die Funktion im Kurs eingeschaltet ist
@@ -204,6 +204,8 @@ Ohne zusätzliche Rechte öffnen Betreuer:innen nicht:
 * "Termine und Absenzen" und "Angebotsarten"
 * den Status des Kurses und die Aktionen "Kopieren", "Als Lernpfad duplizieren" und "Löschen"
 * "Inhalt exportieren". Ausnahme: Hat die Person in der Organisation des Kurses zusätzlich die Rolle Autor:in und erlaubt der Kurs das Herunterladen, sieht sie diese Aktion.
+
+Eine Prüfung mit manuellem Start starten und beenden Betreuer:innen ohne zusätzliches Recht nicht. Den Button "Prüfung starten" sehen sie im Bewertungswerkzeug erst mit dem Recht "Bewertungs-Werkzeug", in der Prüfungsverwaltung mit dem Recht "Prüfungsmodus". Ohne Recht sehen ihn nur Betreuer:innen, die beim Termin der Prüfung als Dozent:in eingetragen sind. Mehr dazu im Abschnitt [Wer eine Prüfung manuell starten und beenden kann](../learningresources/Assessment_mode.de.md#start_stop_rights).
 
 
 [Zum Seitenanfang ^](#roles)
@@ -263,7 +265,7 @@ Mit diesem Recht steht "Archivierung & Reports" im Menü "Administration" des Ku
 
 #### Bewertungs-Werkzeug {: #assessment_tool}
 
-Das Bewertungswerkzeug gehört zur Grundausstattung aller Betreuer:innen. Mit diesem Recht steht es auch weiteren Mitgliedern im Menü "Administration" des Kurses zur Verfügung. Wer das Recht hat, sieht dort alle Teilnehmer:innen des Kurses und kann Daten zurücksetzen und löschen, auch als Betreuer:in.
+Das Bewertungswerkzeug gehört zur Grundausstattung aller Betreuer:innen. Mit diesem Recht steht es auch weiteren Mitgliedern im Menü "Administration" des Kurses zur Verfügung. Wer das Recht hat, sieht dort alle Teilnehmer:innen des Kurses und kann Daten zurücksetzen und löschen, auch als Betreuer:in. Eine Prüfung mit manuellem Start startet und beendet die Person mit diesem Recht ebenfalls im Bewertungswerkzeug.
 
 [Mehr zum Bewertungswerkzeug >](../learningresources/Assessment_tool_overview.de.md)
 
@@ -286,7 +288,7 @@ Mit diesem Recht steht "Kurs Statistiken" im Menü "Administration" des Kurses z
 
 #### Prüfungsmodus {: #assessment_mode}
 
-Mit diesem Recht steht "Prüfungsverwaltung" im Menü "Administration" des Kurses zur Verfügung, mit denselben Optionen wie für Kursbesitzer:innen.
+Mit diesem Recht steht "Prüfungsverwaltung" im Menü "Administration" des Kurses zur Verfügung, mit denselben Optionen wie für Kursbesitzer:innen. Die Mitglieder legen dort Prüfungsmodi an, bearbeiten und löschen sie und starten und beenden eine Prüfung mit manuellem Start.
 
 [Mehr zur Prüfungsverwaltung >](../learningresources/Assessment_Management.de.md)
 
@@ -394,6 +396,7 @@ In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations)
 [Kursbaustein "Video Livestream" >](../learningresources/Course_Element_Video_Livestream.de.md)<br>
 [Kursbaustein "Videoaufgabe" >](../learningresources/Course_Element_Video_Task.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
+[Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
