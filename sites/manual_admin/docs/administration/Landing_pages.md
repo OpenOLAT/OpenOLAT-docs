@@ -38,7 +38,7 @@ If you use a link from the browser address bar, always shorten it according to t
 
 The link shows where it leads: each part stands for an area, a view or a tab, just as you click it in the interface.
 
-![Arrows from the link CoachSite/0/Courses/0/coach/0/All/0 to the path Coaching > Courses and to the tab All under As coach](assets/admin_landing_pages_link_v1_de.png){ class="shadow lightbox" title="Page Courses in Coaching with the address bar · 2026.10.19" }
+![Arrows from the link CoachSite/0/Courses/0/coach/0/All/0 to the path Coaching > Courses and to the tab All under As coach](assets/admin_landing_pages_link_v1_en.png){ class="shadow lightbox" title="Page Courses in Coaching with the address bar · 2026.10.22" }
 
 !!! info "Important"
 
@@ -67,7 +67,7 @@ As long as your organisation has not saved any rules of its own, OpenOlat uses f
 
 A rule can also lead deeper than the entry page of an area. With `/CoachSite/0/Courses/0` instead of `/CoachSite/0`, the course list in Coaching opens directly, without the entry page with its buttons and widgets. In the same way, a specific tab of a list can be entered as the target. The tabs in the link are called `All` for "All", `Bookmarks` for "Favourites" and `Relevant` for "Relevant". Without a tab, the course list in Coaching opens the tab "Relevant". The image shows such targets in an example, not the recommended configuration:
 
-![Five rules from Administrators to Course coaches, the view and the tab are marked in the paths of the column Landing page](assets/admin_landing_pages_rules_v1_de.png){ class="shadow lightbox" title="Example on the page Landing pages in the Core functions · 2026.10.19" }
+![Five rules from Administrators to Course coaches, with the view and the tab marked in the paths of the column Landing page](assets/admin_landing_pages_rules_v1_en.png){ class="shadow lightbox" title="Example on the page Landing pages in the Core functions · 2026.10.22" }
 
 !!! info "Multiple roles: the first matching rule decides"
 
