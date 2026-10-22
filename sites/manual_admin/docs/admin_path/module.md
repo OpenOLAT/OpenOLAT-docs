@@ -1,13 +1,13 @@
 ---
 title: Modules
-description: Enable functions. The basic version of OpenOlat can be extended with modules that you switch on.
+description: Which functions you need. The basic version of OpenOlat can be extended with modules that you switch on.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-1. [Set up](einrichten.md)
+1. [System](einrichten.md)
 1. [Access](zugang.md)
 1. [Roles](rollen.md)
 1. [Modules](module.md){ aria-current="page" }
@@ -17,9 +17,9 @@ description: Enable functions. The basic version of OpenOlat can be extended wit
 
 # Modules {: #module}
 
-<p class="oo-mh-sub">Enable functions</p>
+<p class="oo-mh-sub">Which functions you need</p>
 
-The basic version of OpenOlat can be extended with modules that you switch on. System administrators activate and configure the modules one by one. This station shows a selection. All modules are listed in the system administration under:<br>`Administration > Modules`
+The basic version of OpenOlat can be extended with modules that you switch on. Without the matching module, a function does not appear. Before you start, you therefore clarify which functions your organisation needs, for example the catalog, the rooms or the Course Planner. This station shows a selection.
 
 ## Terms of this station {: #terms}
 
@@ -94,6 +94,8 @@ The module that switches on the planning of the educational offering in OpenOlat
 <p class="oo-mh-kicker">Read up</p>
 
 [Modules: overview](../administration/Modules.md)
+
+After the installation, system administrators activate and configure the modules one by one. All modules are listed in the system administration under:<br>`Administration > Modules`
 
 frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
 

@@ -24,8 +24,8 @@ view:
   # Titel der Einführungsseite = Menüeintrag «Introduction for administrators» (nav_translations)
   de: Einführung für Administrator:innen
   en: Introduction for administrators
-  lead_de: Fünf Stationen in der Reihenfolge, in der Sie eine neue Instanz aufbauen.
-  lead_en: Five stations in the order in which you set up a new instance.
+  lead_de: Fünf Stationen zeigen, was Sie vor dem Start einer Installation verstehen und entscheiden.
+  lead_en: Five stations show what you understand and decide before you start an installation.
   # Phasensatz: {home} wird zur Einstiegsseite, die Anker sind die Phasenkarten dort.
   phases_de: >-
     Diese Einführung ist die Phase Wissen. Danach folgen [Anwenden]({home}#phase_apply) mit der
@@ -43,21 +43,26 @@ view:
     main navigation. Who gets which role is explained in the station {rollen}.
 
 stations:
+  # Stationstexte: was vor dem Start zu verstehen und zu entscheiden ist (Testbefund OODOC-680,
+  # 22.10.2026). Der Menüpfad steht in menu_de/menu_en und erscheint unter «Nachlesen».
   - id: einrichten
-    de: Einrichten
-    en: Set up
-    sub_de: System und Auftritt
-    sub_en: System and appearance
+    de: System
+    en: System
+    sub_de: Betrieb und Auftritt
+    sub_en: Operation and appearance
     desc_de: >-
-      Hier legen Sie fest, wie sich die Installation verhält und wie sie auftritt. In der
-      Core-Konfiguration stellen Sie die Grundfunktionen ein und mit der Startseite den ersten
-      Bildschirm nach dem Login, im Customizing Systemlayout, Logo und Fusszeile. Beide Bereiche
-      liegen in der System-Administration:<br>`Administration > Core-Konfiguration`<br>`Administration > Customizing`
+      Vor dem Start klären Sie, wer die Installation betreibt, Ihre Organisation selbst oder ein
+      Anbieter wie frentix, und wie sie auftreten soll. Die Core-Konfiguration legt die Grundfunktionen fest, die
+      Startseite den ersten Bildschirm nach dem Login und das Customizing Systemlayout, Logo und
+      Fusszeile.
     desc_en: >-
-      Here you define how the installation behaves and how it looks. In the core functions you
-      configure the basic features and, with the landing page, the first screen after login; in
-      customizing the system layout, logo and footer line. Both areas are in the system
-      administration:<br>`Administration > Core functions`<br>`Administration > Customizing`
+      Before you start, you clarify who operates the installation, your organisation itself or a
+      provider such as frentix, and how it should look. The core functions define the basic features, the landing
+      page the first screen after login, and customizing the system layout, logo and footer line.
+    menu_de: >-
+      Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > Core-Konfiguration`<br>`Administration > Customizing`
+    menu_en: >-
+      After the installation, the settings are in the system administration under:<br>`Administration > Core functions`<br>`Administration > Customizing`
     items:
       - key: platform.admin_system
       - key: platform.admin_core_config
@@ -79,16 +84,19 @@ stations:
     sub_de: Wer hinein darf
     sub_en: Who may enter
     desc_de: >-
-      Hier entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden. Die
-      Authentifizierung legt die Login-Verfahren fest, die Selbstregistrierung öffnet die Instanz
-      für neue Konten, der Gast sieht nur, was ausdrücklich für Gäste freigegeben ist. Der One
-      Time Code ergänzt das Passwort um einen zweiten Faktor. Die Einstellungen liegen in der
-      System-Administration unter:<br>`Administration > Login`
+      Vor dem Start entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden.
+      Die Authentifizierung legt die Login-Verfahren fest. Mit der Selbstregistrierung legen
+      Personen ihr Konto selbst an, der Gast sieht nur, was ausdrücklich für Gäste freigegeben ist.
+      Der One Time Code ergänzt das Passwort um einen zweiten Faktor.
     desc_en: >-
-      Here you decide who reaches your installation and how people log in. Authentication defines
-      the login methods, self-registration opens the instance for new accounts, and guests only see
-      what is explicitly released for guests. The one time code adds a second factor to the
-      password. The settings are in the system administration under:<br>`Administration > Login`
+      Before you start, you decide who reaches your installation and how people log in.
+      Authentication defines the login methods. With self-registration, people create their
+      account themselves, and guests only see what is explicitly released for guests. The one time
+      code adds a second factor to the password.
+    menu_de: >-
+      Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > Login`
+    menu_en: >-
+      After the installation, the settings are in the system administration under:<br>`Administration > Login`
     items:
       - key: platform.admin_login
       - key: platform.authentication
@@ -113,16 +121,20 @@ stations:
     sub_de: Konten und Organisation
     sub_en: Accounts and organisation
     desc_de: >-
-      In der Benutzerverwaltung, die in der Hauptnavigation steht, erstellen Sie Konten und
-      weisen Rollen zu. Die Systemrolle Systemadministrator:in konfiguriert die Installation, die Organisationsrolle
-      Administrator:in verwaltet die Organisation. Die Rollen Benutzerverwalter:in und
-      Rollenverwalter:in teilen die Arbeit an den Konten, Autor:innen bauen Kurse. Jedes Konto
-      gehört zu einer Organisation.
+      Vor dem Start klären Sie, wie Ihre Organisation aufgebaut ist und wer welche Rolle bekommt.
+      Jedes Konto gehört zu einer Organisation. Die Systemrolle Systemadministrator:in konfiguriert
+      die Installation, die Organisationsrolle Administrator:in verwaltet die Organisation. Die
+      Rollen Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten,
+      Autor:innen bauen Kurse.
     desc_en: >-
-      In user management, which is in the main navigation, you create accounts and assign
-      roles. The system role System administrator configures the installation, the organisation role Administrator manages the
-      organisation. The roles User manager and Roles manager share the work on accounts, authors
-      build courses. Every account belongs to an organisation.
+      Before you start, you clarify how your organisation is structured and who gets which role.
+      Every account belongs to an organisation. The system role System administrator configures
+      the installation, the organisation role Administrator manages the organisation. The roles
+      User manager and Roles manager share the work on accounts, authors build courses.
+    menu_de: >-
+      Nach der Installation erstellen Sie Konten und weisen Rollen in der Benutzerverwaltung zu. Sie steht in der Hauptnavigation.
+    menu_en: >-
+      After the installation, you create accounts and assign roles in user management. It is in the main navigation.
     items:
       - key: roles.role_sysadmin
       - key: roles.role_administrator
@@ -144,19 +156,25 @@ stations:
   - id: module
     de: Module
     en: Modules
-    sub_de: Funktionen freischalten
-    sub_en: Enable functions
+    sub_de: Welche Funktionen Sie brauchen
+    sub_en: Which functions you need
     # Karten: nur Begriffe, die unter Administration > Module als Modul stehen (Menügruppe
     # modulesParent im Code). Coaching steht unter e-Assessment, Lernressource und Kurs sind als
     # Begriffe die Objekte, nicht die Module; ihre Modulseiten stehen in der Fussliste.
     desc_de: >-
-      Die Grundversion von OpenOlat lässt sich mit zuschaltbaren Modulen ergänzen.
-      Systemadministrator:innen aktivieren und konfigurieren die Module einzeln. Diese Station
-      zeigt eine Auswahl. Alle Module stehen in der System-Administration unter:<br>`Administration > Module`
+      Die Grundversion von OpenOlat lässt sich mit zuschaltbaren Modulen ergänzen. Ohne das
+      passende Modul erscheint eine Funktion nicht. Vor dem Start klären Sie deshalb, welche
+      Funktionen Ihre Organisation braucht, zum Beispiel den Katalog, die Räume oder den Course
+      Planner. Diese Station zeigt eine Auswahl.
     desc_en: >-
-      The basic version of OpenOlat can be extended with modules that you switch on. System
-      administrators activate and configure the modules one by one. This station shows a
-      selection. All modules are listed in the system administration under:<br>`Administration > Modules`
+      The basic version of OpenOlat can be extended with modules that you switch on. Without the
+      matching module, a function does not appear. Before you start, you therefore clarify which
+      functions your organisation needs, for example the catalog, the rooms or the Course Planner.
+      This station shows a selection.
+    menu_de: >-
+      Nach der Installation aktivieren und konfigurieren Systemadministrator:innen die Module einzeln. Alle Module stehen in der System-Administration unter:<br>`Administration > Module`
+    menu_en: >-
+      After the installation, system administrators activate and configure the modules one by one. All modules are listed in the system administration under:<br>`Administration > Modules`
     items:
       - key: catalog.catalog
       - key: attendance.rooms_module
@@ -179,15 +197,19 @@ stations:
     sub_de: Prüfungen und externe Werkzeuge
     sub_en: Exams and external tools
     desc_de: >-
-      Die Prüfungsverwaltung legt fest, wie Prüfungen ablaufen, der Safe Exam Browser sichert
-      sie ab. Unter den externen Werkzeugen schalten Sie mit dem KI-Modul die KI-Funktionen frei
-      und verbinden über LTI Kurse mit externen Anwendungen. Die REST API öffnet OpenOlat für
-      andere Systeme. Alle drei Bereiche liegen in der System-Administration:<br>`Administration > e-Assessment > Prüfungsverwaltung`<br>`Administration > Externe Werkzeuge`<br>`Administration > Core-Konfiguration > REST API`
+      Vor dem Start klären Sie, ob Sie in OpenOlat Prüfungen durchführen und welche anderen
+      Systeme Sie anbinden. Die Prüfungsverwaltung legt fest, wie Prüfungen ablaufen, der Safe
+      Exam Browser sichert sie ab. Das KI-Modul schaltet die KI-Funktionen frei, LTI verbindet
+      Kurse mit externen Anwendungen und die REST API öffnet OpenOlat für andere Systeme.
     desc_en: >-
-      Assessment management defines how exams run, the Safe Exam Browser secures them. Among the
-      external tools you enable the AI features with the AI module and connect courses to external
-      applications via LTI. The REST API opens OpenOlat to other systems. All three areas are in
-      the system administration:<br>`Administration > e-Assessment > Assessment management`<br>`Administration > External tools`<br>`Administration > Core functions > REST API`
+      Before you start, you clarify whether you run exams in OpenOlat and which other systems you
+      connect. Assessment management defines how exams run, the Safe Exam Browser secures them.
+      The AI module enables the AI features, LTI connects courses to external applications and the
+      REST API opens OpenOlat to other systems.
+    menu_de: >-
+      Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > e-Assessment > Prüfungsverwaltung`<br>`Administration > Externe Werkzeuge`<br>`Administration > Core-Konfiguration > REST API`
+    menu_en: >-
+      After the installation, the settings are in the system administration under:<br>`Administration > e-Assessment > Assessment management`<br>`Administration > External tools`<br>`Administration > Core functions > REST API`
     items:
       - key: assessment.assessment_management
       - key: assessment.safe_exam_browser

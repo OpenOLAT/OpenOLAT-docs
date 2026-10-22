@@ -1,13 +1,13 @@
 ---
-title: Set up
-description: System and appearance. Here you define how the installation behaves and how it looks.
+title: System
+description: Operation and appearance. Before you start, you clarify who operates the installation, your organisation itself or a provider such as frentix, and how it should look.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-1. [Set up](einrichten.md){ aria-current="page" }
+1. [System](einrichten.md){ aria-current="page" }
 1. [Access](zugang.md)
 1. [Roles](rollen.md)
 1. [Modules](module.md)
@@ -15,11 +15,11 @@ description: System and appearance. Here you define how the installation behaves
 
 </nav>
 
-# Set up {: #einrichten}
+# System {: #einrichten}
 
-<p class="oo-mh-sub">System and appearance</p>
+<p class="oo-mh-sub">Operation and appearance</p>
 
-Here you define how the installation behaves and how it looks. In the core functions you configure the basic features and, with the landing page, the first screen after login; in customizing the system layout, logo and footer line. Both areas are in the system administration:<br>`Administration > Core functions`<br>`Administration > Customizing`
+Before you start, you clarify who operates the installation, your organisation itself or a provider such as frentix, and how it should look. The core functions define the basic features, the landing page the first screen after login, and customizing the system layout, logo and footer line.
 
 ## Terms of this station {: #terms}
 
@@ -112,6 +112,8 @@ The page a person sees after signing in.
 <p class="oo-mh-kicker">Read up</p>
 
 [System](../administration/System.md)
+
+After the installation, the settings are in the system administration under:<br>`Administration > Core functions`<br>`Administration > Customizing`
 
 frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
 

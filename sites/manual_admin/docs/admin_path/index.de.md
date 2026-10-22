@@ -1,13 +1,13 @@
 ---
 title: Einführung für Administrator:innen
-description: Fünf Stationen in der Reihenfolge, in der Sie eine neue Instanz aufbauen.
+description: Fünf Stationen zeigen, was Sie vor dem Start einer Installation verstehen und entscheiden.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 # Einführung für Administrator:innen {: #admin_path}
 
-Fünf Stationen in der Reihenfolge, in der Sie eine neue Instanz aufbauen.
+Fünf Stationen zeigen, was Sie vor dem Start einer Installation verstehen und entscheiden.
 
 Diese Einführung ist die Phase Wissen. Danach folgen [Anwenden](../index.de.md#phase_apply) mit der Installationsanleitung oder einer fertigen Instanz von frentix und [Vertiefen](../index.de.md#phase_deepen), sobald die Installation läuft.
 
@@ -15,10 +15,10 @@ Diese Einführung ist die Phase Wissen. Danach folgen [Anwenden](../index.de.md#
 
 <div class="oo-mh-stations" markdown>
 
-1. [Einrichten <small>System und Auftritt</small>](einrichten.de.md)
+1. [System <small>Betrieb und Auftritt</small>](einrichten.de.md)
 1. [Zugang <small>Wer hinein darf</small>](zugang.de.md)
 1. [Rollen <small>Konten und Organisation</small>](rollen.de.md)
-1. [Module <small>Funktionen freischalten</small>](module.de.md)
+1. [Module <small>Welche Funktionen Sie brauchen</small>](module.de.md)
 1. [Prüfen und Anbinden <small>Prüfungen und externe Werkzeuge</small>](anbinden.de.md)
 
 </div>

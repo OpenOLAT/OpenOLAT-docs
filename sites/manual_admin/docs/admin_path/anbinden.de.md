@@ -1,13 +1,13 @@
 ---
 title: Prüfen und Anbinden
-description: Prüfungen und externe Werkzeuge. Die Prüfungsverwaltung legt fest, wie Prüfungen ablaufen, der Safe Exam Browser sichert sie ab.
+description: Prüfungen und externe Werkzeuge. Vor dem Start klären Sie, ob Sie in OpenOlat Prüfungen durchführen und welche anderen Systeme Sie anbinden.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-1. [Einrichten](einrichten.de.md)
+1. [System](einrichten.de.md)
 1. [Zugang](zugang.de.md)
 1. [Rollen](rollen.de.md)
 1. [Module](module.de.md)
@@ -19,7 +19,7 @@ description: Prüfungen und externe Werkzeuge. Die Prüfungsverwaltung legt fest
 
 <p class="oo-mh-sub">Prüfungen und externe Werkzeuge</p>
 
-Die Prüfungsverwaltung legt fest, wie Prüfungen ablaufen, der Safe Exam Browser sichert sie ab. Unter den externen Werkzeugen schalten Sie mit dem KI-Modul die KI-Funktionen frei und verbinden über LTI Kurse mit externen Anwendungen. Die REST API öffnet OpenOlat für andere Systeme. Alle drei Bereiche liegen in der System-Administration:<br>`Administration > e-Assessment > Prüfungsverwaltung`<br>`Administration > Externe Werkzeuge`<br>`Administration > Core-Konfiguration > REST API`
+Vor dem Start klären Sie, ob Sie in OpenOlat Prüfungen durchführen und welche anderen Systeme Sie anbinden. Die Prüfungsverwaltung legt fest, wie Prüfungen ablaufen, der Safe Exam Browser sichert sie ab. Das KI-Modul schaltet die KI-Funktionen frei, LTI verbindet Kurse mit externen Anwendungen und die REST API öffnet OpenOlat für andere Systeme.
 
 ## Begriffe dieser Station {: #terms}
 
@@ -138,6 +138,8 @@ Programmierschnittstelle nach dem REST-Muster.
 <p class="oo-mh-kicker">Nachlesen</p>
 
 [Externe Werkzeuge: Übersicht](../administration/External_Tools_-_Administration.de.md)
+
+Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > e-Assessment > Prüfungsverwaltung`<br>`Administration > Externe Werkzeuge`<br>`Administration > Core-Konfiguration > REST API`
 
 Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
 

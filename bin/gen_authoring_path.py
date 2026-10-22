@@ -467,6 +467,10 @@ def render_station(ctx, s, idx, lang):
     out += ['<div class="oo-mh-door" markdown>', "",
             f'<p class="oo-mh-kicker">{U["read"]}</p>', "",
             read_line, ""]
+    # Menüpfad der Station (menu_de/menu_en, nur Admin-Weg): wo die Einstellungen nach der
+    # Installation stehen; die Stationstexte selbst sagen, was vor dem Start zu klären ist.
+    if s.get("menu_" + lang):
+        out += [s["menu_" + lang], ""]
     if "try" not in doors:
         out += [f'{U["frentix"]} [{U["frentix_mail"]}](mailto:{U["frentix_mail"]})', ""]
     out += ["</div>", "", "</div>", ""]

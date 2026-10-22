@@ -1,13 +1,13 @@
 ---
 title: Module
-description: Funktionen freischalten. Die Grundversion von OpenOlat lässt sich mit zuschaltbaren Modulen ergänzen.
+description: Welche Funktionen Sie brauchen. Die Grundversion von OpenOlat lässt sich mit zuschaltbaren Modulen ergänzen.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-1. [Einrichten](einrichten.de.md)
+1. [System](einrichten.de.md)
 1. [Zugang](zugang.de.md)
 1. [Rollen](rollen.de.md)
 1. [Module](module.de.md){ aria-current="page" }
@@ -17,9 +17,9 @@ description: Funktionen freischalten. Die Grundversion von OpenOlat lässt sich 
 
 # Module {: #module}
 
-<p class="oo-mh-sub">Funktionen freischalten</p>
+<p class="oo-mh-sub">Welche Funktionen Sie brauchen</p>
 
-Die Grundversion von OpenOlat lässt sich mit zuschaltbaren Modulen ergänzen. Systemadministrator:innen aktivieren und konfigurieren die Module einzeln. Diese Station zeigt eine Auswahl. Alle Module stehen in der System-Administration unter:<br>`Administration > Module`
+Die Grundversion von OpenOlat lässt sich mit zuschaltbaren Modulen ergänzen. Ohne das passende Modul erscheint eine Funktion nicht. Vor dem Start klären Sie deshalb, welche Funktionen Ihre Organisation braucht, zum Beispiel den Katalog, die Räume oder den Course Planner. Diese Station zeigt eine Auswahl.
 
 ## Begriffe dieser Station {: #terms}
 
@@ -94,6 +94,8 @@ Das Modul, das die Planung des Bildungsangebots in OpenOlat einschaltet: Produkt
 <p class="oo-mh-kicker">Nachlesen</p>
 
 [Module: Übersicht](../administration/Modules.de.md)
+
+Nach der Installation aktivieren und konfigurieren Systemadministrator:innen die Module einzeln. Alle Module stehen in der System-Administration unter:<br>`Administration > Module`
 
 Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
 

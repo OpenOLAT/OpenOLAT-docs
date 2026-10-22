@@ -1,13 +1,13 @@
 ---
 title: Assess and connect
-description: Exams and external tools. Assessment management defines how exams run, the Safe Exam Browser secures them.
+description: Exams and external tools. Before you start, you clarify whether you run exams in OpenOlat and which other systems you connect.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-1. [Set up](einrichten.md)
+1. [System](einrichten.md)
 1. [Access](zugang.md)
 1. [Roles](rollen.md)
 1. [Modules](module.md)
@@ -19,7 +19,7 @@ description: Exams and external tools. Assessment management defines how exams r
 
 <p class="oo-mh-sub">Exams and external tools</p>
 
-Assessment management defines how exams run, the Safe Exam Browser secures them. Among the external tools you enable the AI features with the AI module and connect courses to external applications via LTI. The REST API opens OpenOlat to other systems. All three areas are in the system administration:<br>`Administration > e-Assessment > Assessment management`<br>`Administration > External tools`<br>`Administration > Core functions > REST API`
+Before you start, you clarify whether you run exams in OpenOlat and which other systems you connect. Assessment management defines how exams run, the Safe Exam Browser secures them. The AI module enables the AI features, LTI connects courses to external applications and the REST API opens OpenOlat to other systems.
 
 ## Terms of this station {: #terms}
 
@@ -134,6 +134,8 @@ A programming interface following the REST pattern.
 <p class="oo-mh-kicker">Read up</p>
 
 [External tools: overview](../administration/External_Tools_-_Administration.md)
+
+After the installation, the settings are in the system administration under:<br>`Administration > e-Assessment > Assessment management`<br>`Administration > External tools`<br>`Administration > Core functions > REST API`
 
 frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
 

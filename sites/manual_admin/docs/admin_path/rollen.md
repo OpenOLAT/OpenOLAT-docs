@@ -1,13 +1,13 @@
 ---
 title: Roles
-description: Accounts and organisation. In user management, which is in the main navigation, you create accounts and assign roles.
+description: Accounts and organisation. Before you start, you clarify how your organisation is structured and who gets which role.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-1. [Set up](einrichten.md)
+1. [System](einrichten.md)
 1. [Access](zugang.md)
 1. [Roles](rollen.md){ aria-current="page" }
 1. [Modules](module.md)
@@ -19,7 +19,7 @@ description: Accounts and organisation. In user management, which is in the main
 
 <p class="oo-mh-sub">Accounts and organisation</p>
 
-In user management, which is in the main navigation, you create accounts and assign roles. The system role System administrator configures the installation, the organisation role Administrator manages the organisation. The roles User manager and Roles manager share the work on accounts, authors build courses. Every account belongs to an organisation.
+Before you start, you clarify how your organisation is structured and who gets which role. Every account belongs to an organisation. The system role System administrator configures the installation, the organisation role Administrator manages the organisation. The roles User manager and Roles manager share the work on accounts, authors build courses.
 
 ## Terms of this station {: #terms}
 
@@ -144,6 +144,8 @@ A unit in the structure of the platform, for example a school, an institute or a
 <p class="oo-mh-kicker">Read up</p>
 
 [User management](../usermanagement/index.md)
+
+After the installation, you create accounts and assign roles in user management. It is in the main navigation.
 
 frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
 

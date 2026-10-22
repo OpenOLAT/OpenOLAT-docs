@@ -16,7 +16,7 @@ hide:
 
 ## Introduction for administrators {: #phases}
 
-In three phases you get to a running installation: first understand, then install, then improve. Knowledge and Deepen are in this manual, Apply is in the installation guide. frentix accompanies you in every phase if you wish.
+In three phases you get to a running installation: first understand, then install, then adapt. Knowledge and Deepen are in this manual, Apply is in the installation guide. frentix accompanies you in every phase if you wish.
 
 <div class="oo-mh-phasecards" markdown>
 
@@ -26,15 +26,15 @@ In three phases you get to a running installation: first understand, then instal
 
 <div class="oo-mh-pcard__body" markdown>
 
-Five stations explain the terms of the administration and show what is easily confused.
+Five stations show what you understand and decide before you start, and what is easily confused.
 
 <!-- gen:authoring_path_tiles -->
 <div class="oo-mh-stations" id="path" markdown>
 
-1. [Set up <small>System and appearance</small>](admin_path/einrichten.md)
+1. [System <small>Operation and appearance</small>](admin_path/einrichten.md)
 1. [Access <small>Who may enter</small>](admin_path/zugang.md)
 1. [Roles <small>Accounts and organisation</small>](admin_path/rollen.md)
-1. [Modules <small>Enable functions</small>](admin_path/module.md)
+1. [Modules <small>Which functions you need</small>](admin_path/module.md)
 1. [Assess and connect <small>Exams and external tools</small>](admin_path/anbinden.md)
 
 </div>
@@ -64,7 +64,7 @@ You operate OpenOlat yourself? The installation guide leads from the system user
 
 <article class="oo-mh-pcard oo-mh-pcard--deepen" id="phase_deepen" markdown>
 
-<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Deepen</span><h3>Improve the installation</h3></div>
+<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Deepen</span><h3>Adapt to your own needs</h3></div>
 
 <div class="oo-mh-pcard__body" markdown>
 

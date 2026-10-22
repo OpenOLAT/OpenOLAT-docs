@@ -16,7 +16,7 @@ hide:
 
 ## Einführung für Administrator:innen {: #phases}
 
-In drei Phasen kommen Sie zur laufenden Installation: zuerst verstehen, dann installieren, dann verbessern. Wissen und Vertiefen stehen in diesem Handbuch, Anwenden in der Installationsanleitung. frentix begleitet Sie auf Wunsch in jeder Phase.
+In drei Phasen kommen Sie zur laufenden Installation: zuerst verstehen, dann installieren, dann anpassen. Wissen und Vertiefen stehen in diesem Handbuch, Anwenden in der Installationsanleitung. frentix begleitet Sie auf Wunsch in jeder Phase.
 
 <div class="oo-mh-phasecards" markdown>
 
@@ -26,15 +26,15 @@ In drei Phasen kommen Sie zur laufenden Installation: zuerst verstehen, dann ins
 
 <div class="oo-mh-pcard__body" markdown>
 
-Fünf Stationen erklären die Begriffe der Administration und zeigen, was leicht verwechselt wird.
+Fünf Stationen zeigen, was Sie vor dem Start verstehen und entscheiden, und was leicht verwechselt wird.
 
 <!-- gen:authoring_path_tiles -->
 <div class="oo-mh-stations" id="path" markdown>
 
-1. [Einrichten <small>System und Auftritt</small>](admin_path/einrichten.de.md)
+1. [System <small>Betrieb und Auftritt</small>](admin_path/einrichten.de.md)
 1. [Zugang <small>Wer hinein darf</small>](admin_path/zugang.de.md)
 1. [Rollen <small>Konten und Organisation</small>](admin_path/rollen.de.md)
-1. [Module <small>Funktionen freischalten</small>](admin_path/module.de.md)
+1. [Module <small>Welche Funktionen Sie brauchen</small>](admin_path/module.de.md)
 1. [Prüfen und Anbinden <small>Prüfungen und externe Werkzeuge</small>](admin_path/anbinden.de.md)
 
 </div>
@@ -64,7 +64,7 @@ Sie betreiben OpenOlat selbst? Die Installationsanleitung führt vom Systembenut
 
 <article class="oo-mh-pcard oo-mh-pcard--deepen" id="phase_deepen" markdown>
 
-<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Vertiefen</span><h3>Die Installation verbessern</h3></div>
+<div class="oo-mh-pcard__band"><span class="oo-mh-pcard__kicker">Vertiefen</span><h3>An eigene Bedürfnisse anpassen</h3></div>
 
 <div class="oo-mh-pcard__body" markdown>
 

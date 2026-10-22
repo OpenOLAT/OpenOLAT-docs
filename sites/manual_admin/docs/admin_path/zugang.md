@@ -1,13 +1,13 @@
 ---
 title: Access
-description: Who may enter. Here you decide who reaches your installation and how people log in.
+description: Who may enter. Before you start, you decide who reaches your installation and how people log in.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Introduction for administrators" markdown="1">
 
-1. [Set up](einrichten.md)
+1. [System](einrichten.md)
 1. [Access](zugang.md){ aria-current="page" }
 1. [Roles](rollen.md)
 1. [Modules](module.md)
@@ -19,7 +19,7 @@ description: Who may enter. Here you decide who reaches your installation and ho
 
 <p class="oo-mh-sub">Who may enter</p>
 
-Here you decide who reaches your installation and how people log in. Authentication defines the login methods, self-registration opens the instance for new accounts, and guests only see what is explicitly released for guests. The one time code adds a second factor to the password. The settings are in the system administration under:<br>`Administration > Login`
+Before you start, you decide who reaches your installation and how people log in. Authentication defines the login methods. With self-registration, people create their account themselves, and guests only see what is explicitly released for guests. The one time code adds a second factor to the password.
 
 ## Terms of this station {: #terms}
 
@@ -156,6 +156,8 @@ An eight-digit confirmation code OpenOlat sends by e-mail after the username and
 <p class="oo-mh-kicker">Read up</p>
 
 [Login](../administration/Login.md)
+
+After the installation, the settings are in the system administration under:<br>`Administration > Login`
 
 frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
 

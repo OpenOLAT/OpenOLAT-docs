@@ -1,13 +1,13 @@
 ---
-title: Einrichten
-description: System und Auftritt. Hier legen Sie fest, wie sich die Installation verhält und wie sie auftritt.
+title: System
+description: Betrieb und Auftritt. Vor dem Start klären Sie, wer die Installation betreibt, Ihre Organisation selbst oder ein Anbieter wie frentix, und wie sie auftreten soll.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-1. [Einrichten](einrichten.de.md){ aria-current="page" }
+1. [System](einrichten.de.md){ aria-current="page" }
 1. [Zugang](zugang.de.md)
 1. [Rollen](rollen.de.md)
 1. [Module](module.de.md)
@@ -15,11 +15,11 @@ description: System und Auftritt. Hier legen Sie fest, wie sich die Installation
 
 </nav>
 
-# Einrichten {: #einrichten}
+# System {: #einrichten}
 
-<p class="oo-mh-sub">System und Auftritt</p>
+<p class="oo-mh-sub">Betrieb und Auftritt</p>
 
-Hier legen Sie fest, wie sich die Installation verhält und wie sie auftritt. In der Core-Konfiguration stellen Sie die Grundfunktionen ein und mit der Startseite den ersten Bildschirm nach dem Login, im Customizing Systemlayout, Logo und Fusszeile. Beide Bereiche liegen in der System-Administration:<br>`Administration > Core-Konfiguration`<br>`Administration > Customizing`
+Vor dem Start klären Sie, wer die Installation betreibt, Ihre Organisation selbst oder ein Anbieter wie frentix, und wie sie auftreten soll. Die Core-Konfiguration legt die Grundfunktionen fest, die Startseite den ersten Bildschirm nach dem Login und das Customizing Systemlayout, Logo und Fusszeile.
 
 ## Begriffe dieser Station {: #terms}
 
@@ -112,6 +112,8 @@ Die Seite, die eine Person nach der Anmeldung sieht.
 <p class="oo-mh-kicker">Nachlesen</p>
 
 [System](../administration/System.de.md)
+
+Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > Core-Konfiguration`<br>`Administration > Customizing`
 
 Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
 

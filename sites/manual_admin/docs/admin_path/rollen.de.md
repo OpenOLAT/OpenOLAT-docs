@@ -1,13 +1,13 @@
 ---
 title: Rollen
-description: Konten und Organisation. In der Benutzerverwaltung, die in der Hauptnavigation steht, erstellen Sie Konten und weisen Rollen zu.
+description: Konten und Organisation. Vor dem Start klären Sie, wie Ihre Organisation aufgebaut ist und wer welche Rolle bekommt.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-1. [Einrichten](einrichten.de.md)
+1. [System](einrichten.de.md)
 1. [Zugang](zugang.de.md)
 1. [Rollen](rollen.de.md){ aria-current="page" }
 1. [Module](module.de.md)
@@ -19,7 +19,7 @@ description: Konten und Organisation. In der Benutzerverwaltung, die in der Haup
 
 <p class="oo-mh-sub">Konten und Organisation</p>
 
-In der Benutzerverwaltung, die in der Hauptnavigation steht, erstellen Sie Konten und weisen Rollen zu. Die Systemrolle Systemadministrator:in konfiguriert die Installation, die Organisationsrolle Administrator:in verwaltet die Organisation. Die Rollen Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten, Autor:innen bauen Kurse. Jedes Konto gehört zu einer Organisation.
+Vor dem Start klären Sie, wie Ihre Organisation aufgebaut ist und wer welche Rolle bekommt. Jedes Konto gehört zu einer Organisation. Die Systemrolle Systemadministrator:in konfiguriert die Installation, die Organisationsrolle Administrator:in verwaltet die Organisation. Die Rollen Benutzerverwalter:in und Rollenverwalter:in teilen die Arbeit an den Konten, Autor:innen bauen Kurse.
 
 ## Begriffe dieser Station {: #terms}
 
@@ -156,6 +156,8 @@ Eine Einheit in der Struktur der Plattform, zum Beispiel eine Schule, ein Instit
 <p class="oo-mh-kicker">Nachlesen</p>
 
 [Benutzerverwaltung](../usermanagement/index.de.md)
+
+Nach der Installation erstellen Sie Konten und weisen Rollen in der Benutzerverwaltung zu. Sie steht in der Hauptnavigation.
 
 Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
 

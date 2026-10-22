@@ -1,13 +1,13 @@
 ---
 title: Zugang
-description: Wer hinein darf. Hier entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden.
+description: Wer hinein darf. Vor dem Start entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden.
 ---
 
 <!-- Generiert von bin/gen_authoring_path.py aus bin/admin_path_views.yaml. Nicht von Hand bearbeiten. -->
 
 <nav class="oo-mh-trail" aria-label="Einführung für Administrator:innen" markdown="1">
 
-1. [Einrichten](einrichten.de.md)
+1. [System](einrichten.de.md)
 1. [Zugang](zugang.de.md){ aria-current="page" }
 1. [Rollen](rollen.de.md)
 1. [Module](module.de.md)
@@ -19,7 +19,7 @@ description: Wer hinein darf. Hier entscheiden Sie, wer Ihre Installation erreic
 
 <p class="oo-mh-sub">Wer hinein darf</p>
 
-Hier entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden. Die Authentifizierung legt die Login-Verfahren fest, die Selbstregistrierung öffnet die Instanz für neue Konten, der Gast sieht nur, was ausdrücklich für Gäste freigegeben ist. Der One Time Code ergänzt das Passwort um einen zweiten Faktor. Die Einstellungen liegen in der System-Administration unter:<br>`Administration > Login`
+Vor dem Start entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden. Die Authentifizierung legt die Login-Verfahren fest. Mit der Selbstregistrierung legen Personen ihr Konto selbst an, der Gast sieht nur, was ausdrücklich für Gäste freigegeben ist. Der One Time Code ergänzt das Passwort um einen zweiten Faktor.
 
 ## Begriffe dieser Station {: #terms}
 
@@ -158,6 +158,8 @@ Ein achtstelliger Bestätigungscode, den OpenOlat nach der Eingabe von Anmeldena
 <p class="oo-mh-kicker">Nachlesen</p>
 
 [Login](../administration/Login.de.md)
+
+Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > Login`
 
 Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
 
