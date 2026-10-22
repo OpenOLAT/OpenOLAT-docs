@@ -1,20 +1,21 @@
 # e-Assessment Administration: Overview {: #e-assessments}
 
-![e-Assessment menu in the system administration with the entries Coaching, Question Pool, Test, Levels/Grading, Assessment management, Certificates, OpenBadges, Credit points, and ePortfolio](assets/admin_e-assessment_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Nine entries in the e-Assessment menu of the system administration, from Coaching to ePortfolio, each with its own section on this page](assets/admin_e-assessment_overview_v2_en.png){ width="204" class="shadow lightbox aside-left-lg" }
 
-Administrators can make the following settings in the e-Assessment area:
+In the e-Assessment menu of the system administration, administrators set up the tools for assessment and exams for the whole instance. Each section of this page belongs to an entry of the menu and leads to its detail page.
 
 
 ## Coaching {: #coaching}
 
-Here, the coaching module is activated.
+Under "Coaching", administrators see that coaching is switched on for the instance. The checkbox "Coaching enabled" is greyed out, because coaches and owners reach their learning resources through coaching. [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
+[See the details >](../../manual_user/area_modules/Coaching.md#availability)<br>
 [To the top of the page ^](#e-assessments)
 
 
-## Question Pool {: #questionpool}
+## Question bank {: #questionpool}
 
-As an administrator, you can make the basic settings for the question pool here. 
+Here you set the basic settings of the question bank for the whole instance.
 
 [See the details >](../administration/eAssessment_Question_bank.md)<br>
 [To the top of the page ^](#e-assessments)
@@ -30,7 +31,7 @@ This is where the test receipt is configured and settings for the correction flo
 
 ## Levels/Grading [:octicons-tag-16:{ title="from Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007) {: #grading_levels}
 
-In addition to the scoring system using points, the "Levels/Grading" module can be activated. Further assessment systems can be added and configured there.
+In addition to the assessment with points, the module "Levels/Grading" can be switched on. There, administrators add and configure rating systems and set the default rating system that is preselected in new rating scales. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596)
 
 [See the details >](../administration/Assessment_translate_points_in_grades_admin.md) <br>
 [To the top of the page ^](#e-assessments)
@@ -58,8 +59,7 @@ In addition, this function is also available for user administrators, line manag
 
 ## OpenBadges [:octicons-tag-16:{ title="from Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #openbadges}
 
-Badges can be enabled here. 
-Administrators are also responsible for creating and managing global badges here.
+Here, administrators switch on badges. They also create and manage the global badges here.
 
 [See the details >](../administration/e-Assessment_openBadges.md)<br>
 [To the top of the page ^](#e-assessments)
@@ -67,7 +67,7 @@ Administrators are also responsible for creating and managing global badges here
 
 ## Credit points [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558) {: #credit_points}
 
-After activating credit points in the administration, course owners can award credit points to their course participants for successfully completing a course.
+When credit points are switched on here, course owners award credit points to their participants for successfully completing a course.
 
 [See the details >](../administration/e-Assessment_Credit_Points.md)<br>
 [To the top of the page ^](#e-assessments)

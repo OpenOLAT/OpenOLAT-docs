@@ -1,18 +1,21 @@
 # e-Assessment Administration: Übersicht {: #e-assessments}
 
-![Menü e-Assessment in der System-Administration mit den Einträgen Coaching, Fragenpool, Test, Einstufung/Noten, Prüfungsverwaltung, Zertifikate, OpenBadges, Kreditpunkte und ePortfolio](assets/admin_e-assessment_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Neun Einträge im Menü e-Assessment der System-Administration, von Coaching bis ePortfolio, jeder mit eigenem Abschnitt auf dieser Seite](assets/admin_e-assessment_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
-Im Bereich e-Assessment können Administrator:innen folgende Einstellungen vornehmen:
+Administrator:innen richten im Menü e-Assessment der System-Administration die Werkzeuge rund um Bewertung und Prüfungen für die ganze Instanz ein. Jeder Abschnitt dieser Seite gehört zu einem Eintrag des Menüs und führt zu dessen Detailseite.
 
 
 ## Coaching {: #coaching}
 
-Hier wird das Coaching-Modul eingeschaltet.
+Unter "Coaching" sehen Administrator:innen, dass das Coaching auf der Instanz eingeschaltet ist. Die Checkbox "Coaching Zugang" ist ausgegraut, weil Betreuer:innen und Besitzer:innen ihre Lernressourcen über das Coaching erreichen. [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
+
+[Zu den Details >](../../manual_user/area_modules/Coaching.de.md#availability)<br>
+[Zum Seitenanfang ^](#e-assessments)
 
 
 ## Fragenpool {: #questionpool}
 
-Hier können Sie als Administrator:in die grundsätzlichen Einstellungen zum Fragenpool vornehmen. 
+Hier legen Sie die Grundeinstellungen des Fragenpools für die ganze Instanz fest.
 
 [Zu den Details >](../administration/eAssessment_Question_bank.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -27,7 +30,7 @@ An dieser Stelle wird die Testquittung konfiguriert und werden Einstellungen fü
 
 ## Einstufung/Noten [:octicons-tag-16:{ title="ab Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007) {: #grading_levels}
 
-Neben dem Bewertungssystem durch Punkte, kann das Modul "Einstufung/Noten" aktiviert werden. Dort können weitere Bewertungssysteme ergänzt und konfiguriert werden.
+Neben der Bewertung mit Punkten lässt sich das Modul "Einstufung/Noten" einschalten. Dort ergänzen und konfigurieren Administrator:innen Bewertungssysteme und legen das Standard-Bewertungssystem fest, das in neuen Bewertungsskalen vorausgewählt ist. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596)
 
 [Zu den Details >](../administration/Assessment_translate_points_in_grades_admin.de.md) <br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -55,8 +58,7 @@ Zusätzlich ist diese Funktion auch für Benutzerverwalter:innen, Linienvorgeset
 
 ## OpenBadges [:octicons-tag-16:{ title="ab Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #openbadges}
 
-Hier kann die Verwendung von Badges ermöglicht werden. 
-Auch die Erstellung und Verwaltung globaler Badges erfolgt hier durch Administrator:innen.
+Hier schalten Administrator:innen die Badges ein. Ausserdem erstellen und verwalten sie hier die globalen Badges.
 
 [Zu den Details >](../administration/e-Assessment_openBadges.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -64,7 +66,7 @@ Auch die Erstellung und Verwaltung globaler Badges erfolgt hier durch Administra
 
 ## Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558) {: #credit_points}
 
-Nach Aktivierung der Kreditpunkte in der Administration können Kursbesitzer:innen ihren Kursteilnehmer:innen Kreditpunkte für das erfolgreiche Bestehen eines Kurses vergeben.
+Sind die Kreditpunkte hier eingeschaltet, vergeben Kursbesitzer:innen ihren Teilnehmenden Kreditpunkte für das erfolgreiche Bestehen eines Kurses.
 
 [Zu den Details >](../administration/e-Assessment_Credit_Points.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
