@@ -1,163 +1,169 @@
 # Group Administration {: #group_administration}
 
-If you create a new group you are automatically coach of this group. Coaches of a group get the link "**Administration**" in the menu of the group. 
+Group coaches set up their group in the group administration: which tools the members use, who is a member, which courses the group is linked to and how new people get in. If you create a new group, you are automatically coach of this group. Coaches see the entry "Administration" in the menu of the group, group managers and administrators see it in every group:<br>
+`Groups > "Group name" > Administration`
 
-![Administration menu entry in the left-hand navigation of a group](../assets/Gruppe_173a_en.png){ class="shadow lightbox"}
+![Administration menu entry of a group opened, next to it the tabs of the group administration](../assets/Gruppe_173a_en.png){ class="shadow lightbox" title="Administration of a group" }
 
-Via the displayed tabs you can:
+In the tabs of the group administration you can:
 
-  * provide group members with tools and thus supplement the left-hand navigation of the group,
-  * manage members,
-  * Assign the group to courses,
-  * configure access to the group and
-  * set the group inactive.
+  * in the tab "Description", change the name, the description and the maximum number of participants,
+  * in the tab "Tools", provide the members with tools that then appear in the menu of the group,
+  * in the tab "Members", add members and define who sees them,
+  * in the tab "Courses", link the group to courses,
+  * in the tab "Share", define how people sign up themselves, and share the group via LTI,
+  * in the tab "Group Life Cycle", set the group inactive, delete or reactivate it,
+  * in the tab "Options", as a person with an administrative role, allow the coaches to send invitations and to share via LTI.
 
-As a group coach, you can make [general settings](../../area_modules/Group_Management.md) and delete the group.
+Which tabs you see depends on your role and on the group. The conditions are given with each tab.
 
-The individual tabs of the administration of groups are explained below.  
+You edit several groups together or delete a group in the list of groups: [Group Management](../../area_modules/Group_Management.md)
 
 ## Tab Description
 
-Under the tab "Description" you can
+In the tab "Description" you change the information you defined when you created the group:
 
-* change the group name,
-* add a description,
-* read out the link to the group
-* limit the number of group participants and
-* activate a waiting list, if required. 
+* "Group name" and "Description",
+* "Maximum number of participants",
+* "Waiting list" and "Moving up automatically".
 
-Note: You have already made these settings during creation.
+For copying, the tab also shows the "Link to this group" and the link to the "Visiting card" of the group.
 
 ## Tab Tools  {: #tools}
 
-In the tab Tools the group can be provided by collaborative tools. 
-Once a tool is activated, its
-corresponding icon will be visible in the group menu on the left.
+In the tab "Tools" you equip the group with tools for collaboration. Each tool you switch on appears with its icon in the menu of the group on the left.
 
-!!! info
+!!! info "Important"
 
-    In order for the tools to be available in groups, they must be activated by the OpenOlat administrator. This is especially true for BigBlueButton, MS Teams OpenMeetings, Wikis and Calendars. If certain tools are not available to you as a group owner, they have been deactivated by the OpenOlat administrator.
+    The system administration defines which tools are available. "Information for members", "E-mail", "Folder" and "Forum" are always available. Calendar, chat, wiki, portfolio, OpenMeetings, Adobe Connect, BigBlueButton, Microsoft Teams and Zoom only appear if the corresponding module is switched on and, where the module requires it, released for groups. If a tool is missing, contact the administrators of your OpenOlat instance.
 
-The following tools are available for group use. 
+The following tools are available:
 
 Tool | | Description
 ---|---|---
-:o_icon_o_icon_news: | Information to members| If the tool "Information" is activated, you can define if only group coaches or group members can create messages. Own messages can always be edited. As a group owner, all messages can be edited and deleted.
-:o_icon_o_co_icon:| Email| If the "Email" tool is enabled, non-members can access the email functionality and send messages to group members (coaches, participants or all members).
-:o_icon_o_calendar_icon: | Calendar| You can provide the group with a calendar where you can enter common dates. Once the calendar is activated and saved, you can configure the write permissions for it, i.e. specify who can enter appointments. For more general information about calendar functions, see [Calendar](../../personal_menu/Calendar.md).
-:o_icon_o_bc_icon: | Folder| With a folder you enable the exchange of files between the members of your group. Joint editing of office documents is also possible, depending on the configuration by the OpenOlat administrator. Once the folder is activated and saved, you can configure the write permissions for it, i.e. define who can upload and create files.
-:o_icon_o_fo_icon:| Forum| Here you provide your group with a forum for discussions. As the group's coach, you have the right to edit and delete posts as well as create new ones.
-:o_icon_o_icon_chat: | Chat| You can provide a chat room for the group. You can also see here which other members are currently logged in to OpenOlat.
-:o_icon_o_wiki_icon: | Wiki| You can provide a wiki for the group to create content together. Further information about working with wikis can be found [here](../../learningresources/Wiki.md).
-:o_icon_o_ep_icon: | Portfolio| You can provide a [portfolio](../../area_modules/Portfolio_General_Information.md) 2.0 to the group. However, it is not an assessment portfolio.
-:material-monitor: | OpenMeetings| When OpenMeetings is enabled and saved, a virtual meeting room or classroom is available to the group. Further information about OpenMeetings can be found [here](../../learningresources/Course_Element_OpenMeetings.md)
-:material-monitor: | BigBlueButton| By selecting BigBlueButton, multiple BigBlueButton rooms can be made available to a group. The functionality is similar to the corresponding [course element BigBlueButton](../../learningresources/bigbluebutton/index.md). In the group, only the BigBlueButton templates generally activated for groups are available. These may differ from the room templates in courses. If a group member is a coach, course owner, author or administrator in the OpenOlat system, additional BigBlueButton room templates may be available to them.
-:material-monitor: | Microsoft Teams| By choosing Microsoft Teams, multiple rooms can be made available to a group. Further information about MS Teams can be found [here](../../learningresources/Course_Element_Microsoft_Teams.md).
+:o_icon_o_icon_news: | Information for members| If "Information for members" is switched on, you define whether only coaches or also participants create messages. Every person can edit their own messages. As a coach, you edit and delete all messages.
+:o_icon_o_co_icon:| E-mail| If "E-mail" is switched on, participants can also send messages to selected coaches, participants or to all.
+:o_icon_o_calendar_icon: | Calendar| With a calendar you enter common dates of the group. You define whether only coaches or all members create entries. General information about the calendar is on the page [User tools: Calendar](../../personal_menu/Calendar.md).
+:o_icon_o_bc_icon: | Folder| With a folder the members exchange files. Depending on the configuration by the administrators, they can also edit office documents together. Once the folder is switched on and saved, you define who can upload and create files.
+:o_icon_o_fo_icon:| Forum| With the forum all members exchange ideas at different times. As coach of the group, you edit and delete posts and write new ones.
+:o_icon_o_icon_chat: | Chat| With the chat the members write to each other in real time. There you also see which other members are currently logged in to OpenOlat.
+:o_icon_o_wiki_icon: | Wiki| With a wiki the members create content together. How to work with a wiki is described on the page [Creating Wikis](../../learningresources/Wiki.md).
+:o_icon_o_ep_icon: | ePortfolio| With a [portfolio](../../area_modules/Portfolio_General_Information.md) 2.0 the members work together on a portfolio. It is not a portfolio for an assessment.
+:material-monitor: | OpenMeetings| If OpenMeetings is switched on and saved, a virtual meeting room is available to the group. It works similarly to the [Course Element "OpenMeetings"](../../learningresources/Course_Element_OpenMeetings.md).
+:material-monitor: | Adobe Connect| With Adobe Connect a virtual meeting room is available to the group. It works similarly to the [Course Element "Adobe Connect"](../../learningresources/Course_Element_Adobe_Connect.md) [:octicons-tag-16:{ title="from Release 14.0 (OO-3889)" }](https://track.frentix.com/issue/OO-3889).
+:material-monitor: | BigBlueButton| With BigBlueButton several BigBlueButton rooms are available to the group. They work similarly to the [Course Element "BigBlueButton"](../../learningresources/bigbluebutton/index.md). In the group, only the room templates released for groups are available. They may differ from the room templates in courses. If a member has the role coach, course owner, author or administrator in OpenOlat, further room templates may be available to this person.
+:material-monitor: | Microsoft Teams| With Microsoft Teams several rooms are available to the group. They work similarly to the [Course Element "Microsoft Teams"](../../learningresources/Course_Element_Microsoft_Teams.md).
+:material-monitor: | Zoom| With Zoom a Zoom meeting is available to the group. It works similarly to the [Course Element "Zoom"](../../learningresources/zoom/index.md) [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6189)" }](https://track.frentix.com/issue/OO-6189).
 
-Each tool can only be used once in a group. It is therefore not possible to e.g. provide your members with more than one folder, wiki or forum elements. If you need more tools of said elements, it is better to use an OpenOlat course instead.
+Each tool can only be added once to a group. A group therefore never has two folders, wikis or forums. If you need several tools of the same kind, use a course instead of a group.
 
-Information on using the group tools from the group participant perspective can be found [here](../Using_Group_Tools.md).
+How the members use the tools is described on the page [Using Group Tools](../Using_Group_Tools.md).
 
 ## Tab Members  {: #members}
 
-Here you can:
-* Define who can see which people in the group.
-* Define whether participants may remove themselves from the group.
-* Add and manage new members. If activated, a waiting list can also be viewed and organized.
+In the tab "Members" you determine who belongs to the group and who sees the members. The tab has three areas: "Display members", "Membership configuration" and "Members".
 
+### Display members {: #display_members}
 
-### Display members ###
+If "Members can see coaches" or "Members can see participants" is switched on, the entry "Members" appears in the menu of the group. There the members see the people of the role you switched on.
 
-If the setting **"Members see coaches"** or **"Members see participants"** is activated, the "Members" menu appears in the left-hand navigation. Depending on the activated checkmark, the members will then see the corresponding persons.
+With "All users can see coaches" and "All users can see participants" you also show the list on the visiting card of the group, which all users see.
 
-With the option **"All users see coaches"** and **“All users see participants"**, the list of group members can also be activated on the publicly visible group business card for all system users.
+If the group has a waiting list, you define with "Members can see waiting list" and "All users can see the waiting list" who sees the waiting list.
 
-If the waiting list is activated, you can define whether it should only be visible to members or all users.
+With "Members can download the list of members" you allow the members to download the list as an Excel file and to print it.
 
-With the option **“Members may download member list"** you can control whether participants may also download the member list as an Excel file or not and whether the member list can be printed out.
+### Membership configuration {: #membership_configuration}
 
-If you activate the option **"Participants can leave group"**, participants can remove themselves from the group if they wish. Otherwise, the removal must be carried out by a group coach and is usually only carried out on request.
+If "Members can leave the group" is switched on, participants remove themselves from the group: [Leave a group](../Leave_a_Group.md). Otherwise they ask a coach of the group to remove them.
 
+### Members {: #member_list}
 
-**Member overview**
+The area "Members" lists all members of the group. You filter the list by role or waiting list, search for specific people and remove members. With the icon "Download table" you get the coaches and participants of the group as an Excel file.
 
-The members of the group are displayed under "Members". They can also be filtered by role or waiting list or searched for or deleted. If you click on the "Download table" icon, the group's coaches or participants are displayed in an Excel file.
+With "Add member" you search for people who have an account in OpenOlat and add them to the group. Which ways are available depends on your role in OpenOlat:
 
-
-**Add member**
-
-Depending on the course role, users have different options for adding group members. Users can use "Add member" to search for people who have an account in OpenOlat.  OpenOlat authors can also use the "bulk search" and add several people with their OpenOlat ID, email or institution number and also invite external members by entering an email address. <br>
+* **Bulk search**: You add several people at once by username, e-mail or institution identifier. In the default configuration, authors see the bulk search, users without a further role do not.
+* **Invite external members**: Via the arrow next to "Add member" you invite people without an OpenOlat account with their e-mail address. The action is available if the system administration has switched on invitations for groups. Administrators and group managers can always invite, coaches with the role author depending on the configuration for all groups or only if it is switched on for this group in the tab "Options".
 
 <details>
-    <summary>Screen</summary>
+    <summary>Author view</summary>
 	<img src="../assets/group_administration_external_members_v1_de.png" alt="Option Invite external members in the Members tab of the group administration" />
-</details>
+</details><br>
 
 
-When adding people, you can decide whether they are added to the group as participants or coaches.
+When adding, you define whether a person becomes coach or participant of the group:
 
-How do group facilitators differ from group participants?
+*  **Coaches** open the group administration, change all settings described here and can also delete the group. If the group is linked to a course, they also open the assessment tool and the test statistics for their group in the course. They also carry out further actions released for coaches, limited to their group.
+*  **Participants** use the tools of the group within the settings the coaches have defined.
 
-*  **Group coaches**: You have access to the group administration settings and can make all the settings mentioned above. Group administrators can also delete a group. If the group is linked to a course, group tutors in the course also have access to the assessment tool and test statistics for their own group. They can perform other actions that are enabled for coaches, but only in relation to their group.
-*  **Members**:  You can use the group's collaborative tools and act within the framework of the settings configured by the group coaches.
-
-The manual addition of members by group administrators makes sense, for example, if you want to add specific individuals to your group.  Another way to add people to a group is by creating an offer in the "Share" tab. You can find further information under ["Become a group member"](../../groups/Group_Membership.md), in particular under 2a).
+Adding people one by one is useful if you want specific people in the group. If people should sign up themselves, set up an offer in the tab "Share": [Become a group member](../Group_Membership.md#by_yourself)
 
 
 
 ## Tab Courses {: #courses}
 
-This tab is available only if the group is associated with one or more courses or the group owner has author rights.
+In the tab "Courses" you link the group to courses. In courses, groups serve for example for controlled enrolment, for collaboration, for assigning presentations, for registering for excursions and for granting rights in the course.
 
-If you select "Add course", an overview of all courses available to you as a group coach will appear. Only courses for which you are registered as the owner can be connected.
+You see the tab if the group is linked to at least one course or if you have the role author, group manager or administrator.
 
-To select a course, highlight it, click on the title or click on the check mark in the "_Select_" column. A click on the :octicons-info-16: icon provides you with further information on the course, such as author, language or the description. 
+With "Add course" you open the selection of courses. Under "My entries" you find the courses you own, under "All entries" also the courses you may reference. To select a course, highlight it, click on the title or click on the check mark in the column "Select". A click on the :octicons-info-16: icon shows information on the course, for example author, language or description.
 
-OpenOlat authors can also create or import new courses to be linked in this area.
+Authors also create or import new courses here and link them to the group right away.
 
-Course owners can link groups to several courses, and a course may have several embedded groups. OpenOlat does not restrict the number of embedded courses.
-
-Groups are used in many different ways in courses, e.g. for controlled enrolment in the course, for cooperative activities, for assigning presentations, for registering for excursions, but also for rights management within courses.
-
-Groups and courses can be linked in two ways: in the group, under the tab "Courses", or from the course via the "[Members management](../../learningresources/Members_management.md)" → "Groups".
+A group can be linked to any number of courses, and a course to several groups. The link is made in two ways: from the group in the tab "Courses" or from the course in the [Members management](../../learningresources/Members_management.md):<br>
+`Course > Administration > Members management > Groups`
 
 ## Tab Share {: #booking}
 
-In addition to adding people manually by the group coach, a group booking order (offer) can also be created for groups. This way, interested parties can sign up for the group themselves.
+In the tab "Share" you define how people get into the group without your intervention. With an offer, interested people sign up themselves as participants, instead of you adding every person in the tab "Members". In addition, you share the group here with another learning management system (see below).
 
-The following options are available:
+For groups, these offer types are available:
 
-  * :material-key-variant: **Access code**: Select the "access code" offer type if the booking orders shall be restricted to people in possession of the access code. An access code is manually set by the owner of the group, who then passes the code on to authorized users. Only users who can provide this access code will be able to book the resource. In order to open the group, this code must be entered when opening the group for the first time. It is also possible to define a time limit for booking orders with the access code.
-  * :material-gift: **Freely available:** Select the free offer type if no other restrictions shall apply. All users can book the resource. Using this offer type adds users as participants to the group. However, it is also possible to limit the free access in time.
-  * :fontawesome-brands-cc-paypal: **PayPal Checkout** (only available if unlocked by an administrator): Select this offer type to enable booking orders for financial compensation. This offer type allows you to define an amount that must be paid with a PayPal account or with a credit card (Visa/Mastercard). The waiting list cannot be combined with this offer type. The options "waiting list" respectively "PayPal" will not appear in the group administration if the respective other is selected.
+  * :material-key-variant: **Access code**: Only people who know the code book the group. You define the code yourself and pass it on. The person enters it before opening the group for the first time. You can also limit an offer with access code in time.
+  * :material-gift: **Freely available**: All users book the group without a code and thus become participants. You can also limit the free access in time.
+  * :fontawesome-brands-cc-paypal: **PayPal Checkout**: The booking costs an amount that the person pays with a PayPal account or a credit card (Visa/Mastercard). The offer type is available if the system administration has switched on PayPal Checkout and you have the role author, learning resource manager or administrator. Waiting list and PayPal Checkout exclude each other: if the waiting list is switched on in the tab "Description", PayPal Checkout is missing; if an offer with payment exists, the waiting list is missing.
 
-You can also configure multiple offer types. These types serve as different options the users can choose from.  For example, you could set up the access for 2 days "freely available" and then only with password or payment option. If the configured offers overlap, interested parties can choose the option. Under "Edit" you can change the configuration of the offers again at any time.
+You can also set up several offers that apply side by side. An example: "Freely available" during the first two days, then only with access code or against payment. If two offers overlap in time, interested people choose one of them. You can change an existing offer at any time.
 
-Once a offer type is configured, the group will be listed in the "**Published groups**" and can thus be searched and booked by users. If no offer type is configured the group is only available for registered users, which has been added to the group by a coach under the tab "members".
+As soon as an offer exists, the group appears under "Published groups", where others find and book it. A group can only be booked as long as it has the status "Active" [:octicons-tag-16:{ title="from Release 20.0.0 (OO-7272)" }](https://track.frentix.com/issue/OO-7272). Without an offer, the group is only open to the people coaches have added in the tab "Members".
 
-Once a resource has been booked by a user he/she will be added to the resource members list. From that moment on, the system decides whether a person has access to the group solely on the basis of the list of participants. Expired booking order configurations therefore have no influence on a participation.
+Whoever has booked a group is on the list of participants. From then on, only this list decides about access to the group. An expired offer therefore does not change an existing participation.
 
-If you manually delete people from the group, they can regain access to the group by a new booking order, provided that a suitable offer still exists. In this case, check whether it is possible to change or remove the offer so that a new entry is no longer possible.
+If you remove a person from the group, they book the group again via an offer that is still valid. If that should not be possible, change or remove the offer.
 
-!!! info "Hint"
+!!! tip "Tip"
 
-    Delete offers that are no longer needed or configure them with a deadline. The booking orders already made remain valid and are not affected by this.
+    Delete offers you no longer need, or limit them in time. Existing bookings are not affected.
 
+Groups with an offer are particularly suitable if:
 
-Public groups with various access options are particularly suitable, especially when:
+* you offer projects or course-independent training,
+* you collect people you want to assign to a course later,
+* the number of participants is limited and the group takes over the organisation, also with moving up automatically.
 
-* Projects or course-independent training can be offered 
-* You use the group to collect people you want to assign to a course later on
-* the number of participants is limited and the organization of the participants should be done through this group (also with automatic moving up)
-* If there should be different accesses for different OpenOlat organizations, e.g. internal and external booking orders
+### LTI 1.3 access configuration [:octicons-tag-16:{ title="from Release 15.5 (OO-5206)" }](https://track.frentix.com/issue/OO-5206) {: #lti_access_configuration}
 
-## Tab Group Life Cycle
+Below the offers, the tab shows the area "LTI 1.3 access configuration". With it, you bring people from another learning management system, for example from Moodle, directly into the group: [Configure LTI access to a group](../LTI_Share_groups.md)
 
-The status of the group and other information are displayed here. Furthermore, the status can be changed, e.g. an active group can be set inactive or an inactive group can be deleted or reactivated. Also, the group can be excluded from the automatic group life cycle, e.g. if it is an important group that must remain permanently present.
+Administrators and group managers see the area if the LTI configuration of the system administration allows their role. Coaches with the role author see it if the LTI release applies to all groups or is switched on for this group in the tab "Options".
 
-![Confirmation dialog for starting the inactivation in the Group life cycle tab](../assets/Gruppe_inaktivieren_173a_en.png){ class="shadow lightbox" }
+## Tab Group Life Cycle [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5190)" }](https://track.frentix.com/issue/OO-5190)
 
-For more information, see the separate chapter [Automatic Group Life Cycle](../../../manual_admin/administration/Automatic_Group_Lifecycle.md) in the Administration Manual.
+In the tab "Group Life Cycle" you see the status of the group, when it was created, when it was last used and when the next inactivation or deletion is planned. Here you set an active group inactive, delete an inactive group or reactivate it. With "Exclude from the automatic methods" you exclude the group from the automatic group life cycle, for example a group that must exist permanently.
+
+![Confirmation before starting the inactivation, with a note on the e-mail to the responsible persons and the status change after the deadline](../assets/Gruppe_inaktivieren_173a_en.png){ class="shadow lightbox" title="Dialog Inactivate group in the tab Group Life Cycle" }
+
+How the automatic group life cycle works and who sets it up is described in the Administration Manual: [Automatic Group Life Cycle](../../../manual_admin/administration/Automatic_Group_Lifecycle.md)
+
+## Tab Options [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6300)" }](https://track.frentix.com/issue/OO-6300) {: #options}
+
+In the tab "Options", people with an administrative role allow the coaches of this group two things that are otherwise reserved for administrators and group managers:
+
+* **Activate invitation of external users for group coaches with authoring rights**: Coaches with the role author invite external members in the tab "Members".
+* **Activate "LTI 1.3" release for group coaches with author role**: Coaches with the role author see the "LTI 1.3 access configuration" in the tab "Share".
+
+The tab only exists if the system administration has defined for invitations or for LTI 1.3 that the permission must be switched on per group. Administrators and group managers edit it, principals only see it read-only.
 
 ## Further information {: #further_information}
 
@@ -167,11 +173,19 @@ For more information, see the separate chapter [Automatic Group Life Cycle](../.
 [Creating Wikis >](../../learningresources/Wiki.md)<br>
 [Portfolio - General Information >](../../area_modules/Portfolio_General_Information.md)<br>
 [Course Element "OpenMeetings" >](../../learningresources/Course_Element_OpenMeetings.md)<br>
+[Course Element "Adobe Connect" >](../../learningresources/Course_Element_Adobe_Connect.md)<br>
 [Course Element "BigBlueButton" >](../../learningresources/bigbluebutton/index.md)<br>
 [Course Element "Microsoft Teams" >](../../learningresources/Course_Element_Microsoft_Teams.md)<br>
+[Course Element "Zoom" >](../../learningresources/zoom/index.md)<br>
 [Using Group Tools >](../Using_Group_Tools.md)<br>
+[Leave a group >](../Leave_a_Group.md)<br>
 [Become a group member >](../Group_Membership.md)<br>
 [Members management >](../../learningresources/Members_management.md)<br>
+[Configure LTI access to a group >](../LTI_Share_groups.md)<br>
 [Automatic Group Life Cycle >](../../../manual_admin/administration/Automatic_Group_Lifecycle.md)
+
+**Further reading**<br>
+[Create Groups >](../Create_Groups.md)<br>
+[Roles and Rights: Which roles are available? >](../../basic_concepts/Roles.md)
 
 [To the top of the page ^](#group_administration)
