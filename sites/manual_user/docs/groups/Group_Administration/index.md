@@ -79,7 +79,7 @@ If "Members can leave the group" is switched on, participants remove themselves 
 
 ### Members {: #member_list}
 
-The area "Members" lists all members of the group. You filter the list by role or waiting list, search for specific people and remove members. With the icon "Download table" you get the coaches and participants of the group as an Excel file.
+The area "Members" lists all members of the group. You filter the list by role or waiting list, search for specific people and remove members. With the icon "Download" you get the coaches and participants of the group as an Excel file.
 
 With "Add member" you search for people who have an account in OpenOlat and add them to the group. Which ways are available depends on your role in OpenOlat:
 

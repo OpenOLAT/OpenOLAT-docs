@@ -79,7 +79,7 @@ Ist "Teilnehmer:innen können Gruppe verlassen" eingeschaltet, tragen sich Teiln
 
 ### Mitglieder {: #member_list}
 
-Der Bereich "Mitglieder" listet alle Mitglieder der Gruppe. Sie filtern die Liste nach Rolle oder Warteliste, suchen gezielt nach Personen und entfernen Mitglieder. Mit dem Symbol "Tabelle herunterladen" erhalten Sie die Betreuer:innen und Teilnehmer:innen der Gruppe als Excel-Datei.
+Der Bereich "Mitglieder" listet alle Mitglieder der Gruppe. Sie filtern die Liste nach Rolle oder Warteliste, suchen gezielt nach Personen und entfernen Mitglieder. Mit dem Symbol "Herunterladen" erhalten Sie die Betreuer:innen und Teilnehmer:innen der Gruppe als Excel-Datei.
 
 Mit "Mitglied hinzufügen" suchen Sie Personen, die ein Konto in OpenOlat haben, und fügen sie der Gruppe hinzu. Welche Wege dabei zur Wahl stehen, hängt von Ihrer Rolle in OpenOlat ab:
 
