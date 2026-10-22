@@ -152,24 +152,25 @@ Badges are created in the badge tool. A wizard guides you through the creation p
 
 As soon as you have decided to create a new badge (click on the "Create a new badge" button), a wizard will guide you through the creation process step by step.
 
-If you are already the owner of a course with a course badge, the wizard for course badges starts with the **Starting point** step. There you choose "Create a new badge" or "Create from existing badge". With the second option, you adopt the details of an existing badge and adapt them in the following steps. The wizard then skips the Image and Customization steps.
+If you are already the owner of a course with a course badge, the wizard for course badges starts with the "Starting point" step. There you choose "Create a new badge" or "Create from existing badge". With the second option, you adopt the details of an existing badge and adapt them in the following steps. The wizard then skips the "Image" and "Customization" steps.
 
-1. **Image**: The first step is to select a template or upload your own image. SVG and PNG are currently supported.
-![Selection of a badge template from motifs such as thumbs up, star, cup or check mark on shield, circle or hexagon, alternatively upload of an own image](assets/badges-wizard-1_de.jpg){ class="shadow lightbox" title="Image step in the badge wizard" }
+1. **Image**: The first step is to select a template or upload your own image. OpenOlat supports the image formats SVG and PNG. For your own image, select "Own badge" and upload the file. With the categories above the templates, you narrow down the selection.
+![Categories above the templates, Own badge in first place for your own image, the template Check mark on shield is selected](assets/openbadges_wizard_image_v1_en.png){ class="shadow lightbox" title="Step Image in the wizard for course badges · 2026.10.22" }
 
 2. **Customization**: If the template was created with variables, you can change e.g. the background color and the title of the template. This step only appears for customizable templates.
-![Background color bronze and title "Test passed" set for the selected template, preview shows the finished badge](assets/badges-wizard-2_de.jpg){ class="shadow lightbox" title="Customization step in the badge wizard" }
+![Background color Bronze and title Passed with preview, so you see the finished badge before you continue](assets/openbadges_wizard_customization_v1_en.png){ class="shadow lightbox" title="Step Customization in the wizard for course badges · 2026.10.22" }
 
 3. **Award criteria**: Fill in the criteria description and choose the award procedure: automatic awarding based on the selected criteria, or manual awarding only via the assessment tool. The available criteria are described under [Course badges assigned automatically](#award_criteria). When you create a new version, this step is skipped and the award criteria remain unchanged.
-![Criteria description, award procedure automatic or manual only via the assessment tool, selected rule course is passed](assets/badges-wizard-4_de.jpg){ class="shadow lightbox" title="Award criteria step in the badge wizard" }
+![Criteria description, award procedure Award automatically and the rule Course element passed, so you define what the badge is awarded for](assets/openbadges_wizard_award_criteria_v1_en.png){ class="shadow lightbox" title="Step Award criteria in the wizard for course badges · 2026.10.22" }
 
-4. **Details**: Mandatory details are the name and description of the badge, as well as the issuer. Under "Language" you select the language of the badge. You can additionally add an issuer URL and an issuer email. The expiration can be set to "Never" or defined with a validity period, e.g. 12 months. OpenOlat assigns the version itself: a new badge starts with the first version, and each new version increments it.
-![Mandatory fields name, description and issuer, plus issuer URL, issuer email and expiration with validity period](assets/badges-wizard-3_de.jpg){ class="shadow lightbox" title="Details step in the badge wizard" }
+4. **Details**: Mandatory details are the name and description of the badge, as well as the issuer. Under "Language" you select the language of the badge. You can additionally add an issuer URL and an issuer email. If LinkedIn organizations have been added in the system administration under `Administration > e-Assessment > OpenBadges > Tab "Configuration"`, you additionally select one of them under "LinkedIn organization". Under "Expiration" you choose "Never" or "Valid for" with a validity period, e.g. 12 months. OpenOlat assigns the version itself: a new badge starts with the first version, and with each new version OpenOlat increases the version number.
+![Fields Language, Name, Description, Issuer, Issuer URL, Issuer email, LinkedIn organization and Expiration with a validity period of 12 months, there is no field for the version](assets/openbadges_wizard_details_v1_en.png){ class="shadow lightbox" title="Step Details in the wizard for course badges · 2026.10.22" }
 
-5. **Summary**: Summary screen of all the details.
-![Badge preview with name, description and the award rule, when the course is passed the badge is awarded](assets/badges-wizard-5_de.jpg){ class="shadow lightbox" title="Summary step in the badge wizard" }
+5. **Summary**: Shows the image, name, language, description, badge expiry and the award criteria for checking.
+![Badge image, name, language, description, badge expiry after 12 months and the rule, if the course element is passed, then the badge is awarded](assets/openbadges_wizard_summary_v1_en.png){ class="shadow lightbox" title="Step Summary in the wizard for course badges · 2026.10.22" }
 
-6. **Recipients**: Shows in a preview which participants receive the badge based on the criteria immediately after "Finish". For manual awarding, you select the recipients here.
+6. **Recipients**: Shows in a preview which participants receive the badge based on the criteria immediately after "Finish". For manual awarding, you select the recipients here. This step only appears if the course has participants. As long as the course is not published, the preview shows no recipients.
+![Recipients preview with the list of participants who receive the badge immediately after Finish, so you see before completing to whom the badge goes](assets/openbadges_wizard_recipients_v1_en.png){ class="shadow lightbox" title="Step Recipients in the wizard for course badges · 2026.10.22" }
 
 !!! note "Note"
 

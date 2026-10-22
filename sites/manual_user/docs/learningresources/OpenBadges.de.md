@@ -153,24 +153,25 @@ Badges werden im Badge-Tool erstellt. Ein Wizard führt durch die Erstellung.<br
 
 Sobald Sie sich zum Erstellen eines neuen Badges entschlossen haben (Klick auf den Button "Einen neuen Badge erstellen"), führt Sie ein Wizard in Schritten durch den Erstellungsprozess.
 
-Sind Sie bereits Besitzer:in eines Kurses mit einem Kurs-Badge, beginnt der Wizard für Kurs-Badges mit dem Schritt **Ausgangspunkt**. Dort wählen Sie "Einen neuen Badge erstellen" oder "Von vorhandenem Badge erstellen". Mit der zweiten Option übernehmen Sie die Details eines vorhandenen Badges und passen sie in den folgenden Schritten an. Der Wizard überspringt dann die Schritte Bild und Anpassung.
+Sind Sie bereits Besitzer:in eines Kurses mit einem Kurs-Badge, beginnt der Wizard für Kurs-Badges mit dem Schritt "Ausgangspunkt". Dort wählen Sie "Einen neuen Badge erstellen" oder "Von vorhandenem Badge erstellen". Mit der zweiten Option übernehmen Sie die Details eines vorhandenen Badges und passen sie in den folgenden Schritten an. Der Wizard überspringt dann die Schritte "Bild" und "Anpassung".
 
-1. **Bild**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG und PNG unterstützt.
-![Auswahl einer Badge-Vorlage aus Motiven wie Daumen, Stern, Pokal oder Haken auf Schild, Kreis oder Sechseck, alternativ Upload eines eigenen Bildes](assets/badges-wizard-1_de.jpg){ class="shadow lightbox" title="Schritt Bild im Badge-Wizard" }
+1. **Bild**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. OpenOlat unterstützt die Bildformate SVG und PNG. Für ein eigenes Bild wählen Sie "Eigener Badge" und laden die Datei hoch. Mit den Kategorien über den Vorlagen schränken Sie die Auswahl ein.
+![Kategorien über den Vorlagen, an erster Stelle Eigener Badge für ein eigenes Bild, gewählt ist die Vorlage Check mark on shield](assets/openbadges_wizard_image_v1_de.png){ class="shadow lightbox" title="Schritt Bild im Wizard für Kurs-Badges · 2026.10.22" }
 
 2. **Anpassung**: Wenn die Vorlage mit Variablen erstellt wurde, können Sie z.B. Hintergrundfarbe und Titel der Vorlage ändern. Dieser Schritt erscheint nur bei anpassbaren Vorlagen.
-![Hintergrundfarbe Bronze und Titel Test bestanden für die gewählte Vorlage gesetzt, Vorschau zeigt den fertigen Badge](assets/badges-wizard-2_de.jpg){ class="shadow lightbox" title="Schritt Anpassung im Badge-Wizard" }
+![Hintergrundfarbe Bronze und Titel Bestanden mit Vorschau, so sehen Sie den fertigen Badge, bevor Sie weitergehen](assets/openbadges_wizard_customization_v1_de.png){ class="shadow lightbox" title="Schritt Anpassung im Wizard für Kurs-Badges · 2026.10.22" }
 
 3. **Vergabekriterien**: Geben Sie die Kriterien-Beschreibung an und wählen Sie das Vergabeverfahren: automatische Vergabe anhand der gewählten Kriterien oder nur manuelle Vergabe über das Bewertungswerkzeug. Die verfügbaren Kriterien sind unter [Kurs-Badges automatisch vergeben](#award_criteria) beschrieben. Beim Erstellen einer neuen Version entfällt dieser Schritt, die Vergabekriterien bleiben unverändert.
-![Kriterien-Beschreibung, Vergabeverfahren automatisch oder nur manuell über das Bewertungswerkzeug, gewählte Regel Kurs bestanden](assets/badges-wizard-4_de.jpg){ class="shadow lightbox" title="Schritt Vergabekriterien im Badge-Wizard" }
+![Kriterien-Beschreibung, Vergabeverfahren Automatisch vergeben und die Regel Kursbaustein bestanden, so legen Sie fest, wofür der Badge vergeben wird](assets/openbadges_wizard_award_criteria_v1_de.png){ class="shadow lightbox" title="Schritt Vergabekriterien im Wizard für Kurs-Badges · 2026.10.22" }
 
-4. **Details**: Obligatorische Angaben sind Name und Beschreibung des Badges sowie der Herausgeber. Unter "Sprache" wählen Sie die Sprache des Badges. Sie können zusätzlich eine Herausgeber-URL und eine Herausgeber-E-Mail hinzufügen. Der Verfall kann auf "Nie" stehen oder mit einer Gültigkeitsdauer, z.B. 12 Monate, festgelegt werden. Die Version vergibt OpenOlat selbst: ein neuer Badge beginnt mit der ersten Version, jede neue Version zählt sie hoch.
-![Pflichtfelder Name, Beschreibung und Herausgeber, dazu Herausgeber-URL, Herausgeber-Email und Verfall mit Gültigkeitsdauer](assets/badges-wizard-3_de.jpg){ class="shadow lightbox" title="Schritt Details im Badge-Wizard" }
+4. **Details**: Obligatorische Angaben sind Name und Beschreibung des Badges sowie der Herausgeber. Unter "Sprache" wählen Sie die Sprache des Badges. Sie können zusätzlich eine Herausgeber-URL und eine Herausgeber-E-Mail hinzufügen. Sind in der System-Administration unter `Administration > e-Assessment > OpenBadges > Tab "Konfiguration"` LinkedIn-Organisationen hinzugefügt, wählen Sie unter "LinkedIn-Organisation" zusätzlich eine davon aus. Unter "Verfall" wählen Sie "Nie" oder "Gültig für" mit einer Gültigkeitsdauer, z.B. 12 Monate. Die Version vergibt OpenOlat selbst: ein neuer Badge beginnt mit der ersten Version, mit jeder neuen Version erhöht OpenOlat die Versionsnummer.
+![Felder Sprache, Name, Beschreibung, Herausgeber, Herausgeber-URL, Herausgeber-E-Mail, LinkedIn-Organisation und Verfall mit Gültigkeitsdauer 12 Monate, ein Feld für die Version gibt es nicht](assets/openbadges_wizard_details_v1_de.png){ class="shadow lightbox" title="Schritt Details im Wizard für Kurs-Badges · 2026.10.22" }
 
-5. **Zusammenfassung**: Bildschirm mit einer Zusammenfassung aller Details.
-![Badge-Vorschau mit Name, Beschreibung und der Vergaberegel, wenn der Kurs bestanden ist, dann wird der Badge vergeben](assets/badges-wizard-5_de.jpg){ class="shadow lightbox" title="Schritt Zusammenfassung im Badge-Wizard" }
+5. **Zusammenfassung**: Zeigt zur Kontrolle Bild, Name, Sprache, Beschreibung, Ablauf des Badges und die Vergabekriterien.
+![Badge-Bild, Name, Sprache, Beschreibung, Ablauf des Badges nach 12 Monaten und die Regel, wenn der Kursbaustein bestanden ist, dann wird der Badge vergeben](assets/openbadges_wizard_summary_v1_de.png){ class="shadow lightbox" title="Schritt Zusammenfassung im Wizard für Kurs-Badges · 2026.10.22" }
 
-6. **Empfänger**: Zeigt in einer Vorschau, welche Teilnehmer:innen den Badge aufgrund der Kriterien unmittelbar nach "Fertigstellen" erhalten. Bei manueller Vergabe wählen Sie die Empfänger hier aus.
+6. **Empfänger**: Zeigt in einer Vorschau, welche Teilnehmer:innen den Badge aufgrund der Kriterien unmittelbar nach "Fertigstellen" erhalten. Bei manueller Vergabe wählen Sie die Empfänger:innen hier aus. Dieser Schritt erscheint nur, wenn der Kurs Teilnehmer:innen hat. Solange der Kurs nicht veröffentlicht ist, zeigt die Vorschau keine Empfänger:innen.
+![Empfänger-Vorschau mit der Liste der Teilnehmer:innen, die den Badge nach Fertigstellen sofort erhalten, so sehen Sie vor dem Abschluss, an wen der Badge geht](assets/openbadges_wizard_recipients_v1_de.png){ class="shadow lightbox" title="Schritt Empfänger im Wizard für Kurs-Badges · 2026.10.22" }
 
 !!! note "Hinweis"
 
