@@ -131,6 +131,8 @@ Wer Resultat-Exporte eines Kurses ausserhalb von OpenOlat auswertet oder den Ein
 Sie laden die Datei direkt herunter, mit dem Button "Start" unter:<br>
 `Kurs > Administration > Archivierung & Reports > Reports > Mitgliedschaften`
 
+![Die Datei Mitgliedschaften herunterladen: im aufgeklappten Menü Reports der Eintrag Mitgliedschaften markiert, rechts der Hinweistext und der markierte Button Start](assets/course_archiving_reports_memberships_v1_de.png){ class="shadow lightbox" title="Archivierung & Reports eines Kurses · 2026.10.22" }
+
 Der Dateiname setzt sich aus dem Kurstitel, dem Wort "Mitgliedschaften" sowie Datum und Uhrzeit des Downloads zusammen. OpenOlat legt diese Datei nicht im Kursarchiv ab. Zusätzlich ist sie Teil jedes Gesamtarchivs, und beim Teilarchiv steht sie als Archivobjekt zur Wahl, siehe [Ein Teilarchiv erstellen](#partial_archive).
 
 **Aufbau der Datei**<br>

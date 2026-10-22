@@ -131,6 +131,8 @@ If you evaluate result exports of a course outside OpenOlat or settle the work o
 You download the file directly, with the button "Start" under:<br>
 `Course > Administration > Archiving & Reporting > Reports > Memberships`
 
+![Download the file Memberships: in the expanded Reports menu the entry Memberships is highlighted, on the right the hint text and the highlighted Start button](assets/course_archiving_reports_memberships_v1_en.png){ class="shadow lightbox" title="Archiving & Reporting of a course · 2026.10.22" }
+
 The file name consists of the course title, the word "Memberships" and the date and time of the download. OpenOlat does not store this file in the course archive. In addition, the file is part of every complete archive, and it can be selected as an archive object for a partial archive, see [Create a partial archive](#partial_archive).
 
 **Structure of the file**<br>
