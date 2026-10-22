@@ -202,7 +202,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 **Werkzeuge in OpenOlat:**
 
 * virtuelle Sitzungszimmer (BBB mit Abstimmungsfunktion) 
-* Kursbaustein Teilnehmerliste
+* Kursbaustein "Liste der Teilnehmer:innen"
 * Kursbaustein Dateidiskussion
 * Kursbaustein Bewertung
 * Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail

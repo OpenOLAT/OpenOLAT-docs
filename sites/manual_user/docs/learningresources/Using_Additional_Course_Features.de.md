@@ -37,9 +37,9 @@ Standardmässig können nur Kursbesitzer:innen Termine im Kalender erstellen. Te
 Kurskalender werden automatisch in den [persönlichen Kalender](../personal_menu/Calendar.de.md) der Kursmitglieder übertragen. So können alle Termine auch direkt über den persönlichen OpenOlat Kalender aufgerufen werden. Gleiches gilt für Gruppenkalender. Bei Gruppenkalendern kann in der Gruppenadministration eingestellt werden welche Schreib- bzw. Leserechte die Mitglieder erhalten.
 
 
-## Liste der Teilnehmenden
+## Liste der Teilnehmer:innen
 
-Hier können alle Kursbesitzer:innen, Betreuer:innen und Teilnehmenden eines Kurses zentral angezeigt werden. Teilnehmende können über die Teilnehmerliste E-Mails an bestimmte Personen, auch an einzelne Kursmitglieder, verschicken. Anders als im [Kursbaustein "Teilnehmerliste"](../learningresources/Course_Element_Participant_List.de.md) können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
+Das Werkzeug zeigt alle Mitglieder des Kurses, gruppiert unter "Kursadministrator:innen", "Betreuer:innen" und "Teilnehmer:innen". Alle, die es öffnen, können darüber E-Mails an einzelne oder mehrere Kursmitglieder verschicken. Anders als der gleichnamige [Kursbaustein "Liste der Teilnehmer:innen"](../learningresources/Course_Element_Participant_List.de.md) lässt sich das Werkzeug nicht konfigurieren.
 
 ## Mitteilungen
 
@@ -47,7 +47,7 @@ Das Tool entspricht dem [Kursbaustein "Mitteilungen"](../learningresources/Cours
 
 ## E-Mail
 
-Hier können Kursbesitzer:innen konfigurieren an wen die Lernenden über diesen Link Mails verschicken können. Zur Auswahl stehen die drei Kursrollen "Kursbesitzer:innen", "Betreuer:innen" und "Teilnehmer:innen". Eine weitere Differenzierung ist nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an Kursmitglieder benötigen, sollten Sie den [Kursbaustein "E-Mail"](../learningresources/Course_Element_EMail.de.md) oder den [Kursbaustein "Teilnehmerliste"](../learningresources/Course_Element_Participant_List.de.md) nutzen.
+Hier können Kursbesitzer:innen konfigurieren an wen die Lernenden über diesen Link Mails verschicken können. Zur Auswahl stehen die drei Kursrollen "Kursbesitzer:innen", "Betreuer:innen" und "Teilnehmer:innen". Eine weitere Differenzierung ist nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an Kursmitglieder benötigen, sollten Sie den [Kursbaustein "E-Mail"](../learningresources/Course_Element_EMail.de.md) oder den [Kursbaustein "Liste der Teilnehmer:innen"](../learningresources/Course_Element_Participant_List.de.md) nutzen.
 
 ## Teams Online-Meeting
 
@@ -140,7 +140,7 @@ Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
 
 **Auf dieser Seite erwähnt**<br>
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
-[Kursbaustein "Teilnehmerliste" >](../learningresources/Course_Element_Participant_List.de.md)<br>
+[Kursbaustein "Liste der Teilnehmer:innen" >](../learningresources/Course_Element_Participant_List.de.md)<br>
 [Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
 [Kursbaustein "E-Mail" >](../learningresources/Course_Element_EMail.de.md)<br>
 [Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>

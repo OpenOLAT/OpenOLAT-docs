@@ -34,7 +34,7 @@ Im Bereich "Über mich" können Sie bei Bedarf einige Informationen als Freitext
 
 <a id="profile_photo"></a>
 
-Wichtig für das Online-Lernen ist auch, dass Sie Ihrem Profil ein Foto von sich hinzufügen. So wird das Online-Lernen persönlicher und die Online-Kommunikation und -Kooperation ist für alle angenehmer und einfacher. Das im Profil hinterlegte Foto erscheint in OpenOlat an diversen Stellen, z.B. auf Ihrer Visitenkarte, bei Forenbeiträgen oder in der Teilnehmerliste. Das Bild wird von OpenOlat auf eine Breite von 100 Pixel zugeschnitten.
+Wichtig für das Online-Lernen ist auch, dass Sie Ihrem Profil ein Foto von sich hinzufügen. So wird das Online-Lernen persönlicher und die Online-Kommunikation und -Kooperation ist für alle angenehmer und einfacher. Das im Profil hinterlegte Foto erscheint in OpenOlat an diversen Stellen, z.B. auf Ihrer Visitenkarte, bei Forenbeiträgen oder in der Liste der Teilnehmer:innen. Das Bild wird von OpenOlat auf eine Breite von 100 Pixel zugeschnitten.
 
 Ihr Foto laden Sie im Abschnitt "Publiziertes Bild" über "Datei wählen" hoch, als JPG-, PNG- oder GIF-Datei bis 10 MB. Mit "Ersetzen" tauschen Sie das Foto aus, mit "Löschen" entfernen Sie es. Klicken Sie danach auf "Speichern". Ist der Abschnitt gesperrt, gibt Ihre Organisation das Foto vor.
 

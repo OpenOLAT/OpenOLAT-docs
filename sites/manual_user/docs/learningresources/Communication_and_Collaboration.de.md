@@ -113,21 +113,29 @@ Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rü
 
 
 
-## Kursbaustein "Teilnehmerliste"  {: #participant_list}
+## Kursbaustein "Liste der Teilnehmer:innen"  {: #participant_list}
 :fontawesome-solid-users:
 
-In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar gemacht werden. Im Gegensatz zum Kurswerkzeug [Mitgliederverwaltung](../learningresources/Members_management.de.md), das nur für Besitzende sichtbar ist, werden mit dem Kursbaustein "Teilnehmerliste" alle Teilnehmenden des Kurses für alle Personen sichtbar, die den Kurs öffnen können. Die Mitglieder werden sortiert nach ihrer Kursrolle nach "Kursadministrator:innen", "Betreuer:innen" und "Teilnehmende" mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden sollen.
+Der Kursbaustein "Liste der Teilnehmer:innen", oft auch Teilnehmerliste genannt, zeigt allen, die ihn öffnen, wer im Kurs dabei ist. Die [Mitgliederverwaltung](../learningresources/Members_management.de.md) dagegen öffnen nur Besitzer:innen und Personen, die den Kurs mitverwalten, etwa mit dem Recht "Mitglieder-Verwaltung".
 
-![Konfiguration der Teilnehmerliste: Checkboxen für Kursadministrator, Betreuer und Teilnehmer mit Sichtbarkeits-Scopes, dazu Schalter für Mail- und Downloadfunktion](assets/Teilnehmerliste_Editor.png){ class="shadow lightbox" title="Konfiguration des Kursbausteins Liste der Teilnehmer:innen" }
-Durch die Verlinkung auf die OpenOlat-Visitenkarte sowie der Möglichkeit aus dem Kursbaustein heraus eine OpenOlat-Mail an jedes gewünschte Mitglied des Kurses zu schreiben, ermöglicht dieser Kursbaustein weitere Teilnehmende einfach und problemlos zu kontaktieren. Im Kurseditor können Sie festlegen, ob die E-Mailfunktion für alle Teilnehmenden oder nur für Besitzende und Betreuende verfügbar sein soll. Mails an einzelne oder mehrere Personen(-gruppen) werden in der Kursansicht über die Schaltfläche "E-Mail versenden" verschickt. Im Formular können nach Bedarf auch externe Mailadressen hinzugefügt werden.
+Die Liste zeigt die Mitglieder mit Foto, gruppiert unter "Kursadministrator:innen", "Betreuer:innen" und "Teilnehmer:innen". Wer mehrere Rollen hat, erscheint nur einmal, unter der höchsten Rolle. Welche Benutzergruppen die Liste anzeigt, legen Sie im Kurseditor fest:<br>
+`Kurs > Administration > Kurseditor > Kursbaustein wählen > Tab "Konfiguration"`
 
-Neben der Mailfunktion ist in der Kursansicht auch die Chatfunktion in der Teilnehmerliste verfügbar. Der Online-Status jeder teilnehmenden Person ist neben dem Namen sichtbar. Ein Klick darauf öffnet das Chatfenster (Instant Messenger).
+!!! danger "⚡ Neues Bild erforderlich"
+    Screenshot zeigt noch den alten Stand: Die Beschriftungen lauten heute "Kursadministrator:innen", "Betreuer:innen", "Teilnehmer:innen" und "E-Mail-Funktion", die Optionen "... für alle Benutzer:innen freischalten" und "... nur für Betreuer:innen und Administrator:innen freischalten".<br>
+    Weg: `Kurs > Administration > Kurseditor > Kursbaustein wählen > Tab "Konfiguration"`
 
-Zum Schluss kann definiert werden, wer die Teilnehmerliste als Excel herunterladen oder als Übersicht ausdrucken darf. Wiederum wird unterschieden zwischen Betreuenden und Administrator:innen oder allen Teilnehmenden.
+![Checkboxen für die drei Rollen mit Auswahl der angezeigten Personen, darunter die Optionen für E-Mail- und Downloadfunktion](assets/Teilnehmerliste_Editor.png){ class="shadow lightbox" title="Konfiguration des Kursbausteins Liste der Teilnehmer:innen" }
+
+Über die Liste erreichen Sie die Visitenkarte der angezeigten Personen. Mit der "E-Mail-Funktion" legen Sie im Kurseditor fest, ob alle Benutzer:innen aus der Liste E-Mails verschicken dürfen oder nur Betreuer:innen und Administrator:innen. In der Kursansicht verschicken Sie E-Mails über die Schaltfläche "E-Mail versenden", an einzelne Mitglieder oder an alle Mitglieder einer Rolle. Im Formular können Sie auch externe E-Mail-Adressen hinzufügen.
+
+Ist der Chat in OpenOlat eingeschaltet, zeigt die Liste neben dem Namen jeder Person ihren Online-Status. Ein Klick darauf öffnet das Chatfenster (Instant Messenger).
+
+Mit der "Downloadfunktion" legen Sie fest, wer die Liste als Excel-Datei herunterladen oder drucken darf: alle Benutzer:innen oder nur Betreuer:innen und Administrator:innen.
 
 !!! info "Wichtig"
 
-    In der Toolbar steht mit dem Werkzeug "Liste der Teilnehmer:innen" eine ähnliche Funktion zur Verfügung. Allerdings können hier keine weitere Konfigurationen vorgenommen werden.
+    Die Toolbar enthält ein Werkzeug mit demselben Namen "Liste der Teilnehmer:innen". Es zeigt eine ähnliche Liste, lässt sich aber nicht konfigurieren.
 
 ## Weiterführende Informationen {: #further_information}
 

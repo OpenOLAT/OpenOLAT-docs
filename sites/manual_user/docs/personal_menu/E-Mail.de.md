@@ -71,7 +71,7 @@ E-Mails können an diversen Stellen versandt werden, z.B.:
 [Persönliche Konfiguration: Profil >](Profile.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](Settings.de.md)<br>
 [Kursbaustein "E-Mail" >](../learningresources/Course_Element_EMail.de.md)<br>
-[Kursbaustein "Teilnehmerliste" >](../learningresources/Course_Element_Participant_List.de.md)<br>
+[Kursbaustein "Liste der Teilnehmer:innen" >](../learningresources/Course_Element_Participant_List.de.md)<br>
 [Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration.de.md)<br>

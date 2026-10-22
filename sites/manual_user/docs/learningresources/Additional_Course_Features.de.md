@@ -1,6 +1,6 @@
 # Zusätzliche Kursfunktionen
 
-![Kurs-Toolbar mit den Icons Administration, Status, Kursinfo, Lernpfad, Kalender, Termine, Teilnehmerliste, Mitteilungen, E-Mail, Forum, Dokumente, Rolle und Mein Kurs](assets/Toolbar_20.jpg){ class="shadow lightbox" }
+![Kurs-Toolbar mit den Icons Administration, Status, Kursinfo, Lernpfad, Kalender, Termine, Liste der Teilnehmer:innen, Mitteilungen, E-Mail, Forum, Dokumente, Rolle und Mein Kurs](assets/Toolbar_20.jpg){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 In der Toolbar eines Kurses stehen Teilnehmenden eine Reihe von weiteren Kursfunktionen zur Verfügung. Einige Elemente wie ["Kursinfo"](../learningresources/Info_page.de.md), "Mein Kurs" oder der Bereich "Lernpfad" (bei Lernpfadkursen) werden automatisch angelegt. Auch das Element "Termine" erscheint automatisch in der Toolbar, wenn die ["Termine und Absenzen"](../learningresources/Events_and_absences.de.md) im Kurs aktiviert wurden. 
 

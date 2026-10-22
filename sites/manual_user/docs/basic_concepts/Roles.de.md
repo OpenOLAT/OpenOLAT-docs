@@ -369,7 +369,7 @@ In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations)
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
 [Kursbaustein "Kalender" >](../learningresources/Course_Element_Calendar.de.md)<br>
-[Kursbaustein "Teilnehmerliste" >](../learningresources/Course_Element_Participant_List.de.md)<br>
+[Kursbaustein "Liste der Teilnehmer:innen" >](../learningresources/Course_Element_Participant_List.de.md)<br>
 [Kursbaustein "LTI-Seite" >](../learningresources/Course_Element_LTI_Page.de.md)<br>
 [Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
 [Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
