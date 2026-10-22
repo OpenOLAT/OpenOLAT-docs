@@ -10,6 +10,8 @@ Eingaben
                                   Wortlaut der Verwechslungshinweise, tiefere Teile
   OpenOLAT-Repo (git, nur lesend)  Wort der Oberfläche für die Begriffe unter ui_word der Ansicht,
                                   gelesen aus LocalStrings_de/en.properties am Stand origin/master
+  bin/map_overrides.yaml          Überbrückung für Abweichungen aus dem Register der
+                                  Begriffsabweichungen, bis die Map nachgezogen hat
 
 map.json entsteht in der Concept Map (fxIntelligence) mit
   cd <fxIntelligence>/knowledge/openolat/concept-map && CM_WORK=/tmp/cm python3 scripts/02_map_to_json.py
@@ -41,6 +43,7 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITES = os.path.join(ROOT, "sites")
 VIEWS = os.path.join(ROOT, "bin", "authoring_path_views.yaml")
+OVERRIDES = os.path.join(ROOT, "bin", "map_overrides.yaml")
 # OUT und HOME werden in main() aus der Ansicht gesetzt (view.out_dir, view.home_page); die
 # Vorgabe ist der Autorenweg.
 OUT = os.path.join(SITES, "manual_user", "docs", "authoring_path")
@@ -152,7 +155,28 @@ def load(map_path, views=VIEWS):
         V = yaml.safe_load(f)
     with open(map_path, encoding="utf-8") as f:
         M = json.load(f)
+    apply_overrides(M)
     return V, M
+
+
+def apply_overrides(M):
+    """Überschreibt Felder der Map nach bin/map_overrides.yaml (Register der Begriffsabweichungen).
+    Trägt die Map den Wert schon, ist die Zeile erledigt und wird gemeldet."""
+    if not os.path.isfile(OVERRIDES):
+        return
+    with open(OVERRIDES, encoding="utf-8") as f:
+        rows = (yaml.safe_load(f) or {}).get("overrides") or []
+    C = M["concepts"]
+    for o in rows:
+        k, field, value = o["key"], o["field"], o["value"]
+        if k not in C:
+            fail(f"Begriff aus map_overrides.yaml fehlt in der Map: {k} (Register Nr. {o.get('register')})")
+            continue
+        if C[k].get(field) == value:
+            print(f"Erledigt, Zeile streichen: {k} {field} = {value} (Register Nr. {o.get('register')})")
+            continue
+        print(f"Überbrückt: {k} {field} {C[k].get(field)!r} -> {value!r} (Register Nr. {o.get('register')})")
+        C[k][field] = value
 
 
 def validate(V, M):

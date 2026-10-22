@@ -1,0 +1,26 @@
+# Überbrückung zwischen Concept Map und Oberfläche für bin/gen_authoring_path.py (beide Ansichten).
+#
+# Jede Zeile steht im Register der Begriffsabweichungen (fxWorkspace/projects/OO-Begriffsabweichungen,
+# Spalte Nr.) und überschreibt im Lauf genau ein Feld eines Begriffs aus map.json. Die Map selbst
+# bleibt unverändert. Trägt die Map den Wert schon, meldet der Generator die Zeile als erledigt:
+# dann hier und im Register streichen.
+#
+# Felder: de, en (Begriff), man (Handbuchseite, mit Anker erlaubt).
+
+overrides:
+  - key: ai.ai_module
+    field: de
+    value: KI-Modul
+    register: 1
+  - key: ai.ai_provider
+    field: de
+    value: KI-Anbieter
+    register: 2
+  - key: ai.ai_function
+    field: de
+    value: KI-Funktion
+    register: 6
+  - key: roles.coach
+    field: man
+    value: manual_user/basic_concepts/Roles#coach
+    register: 19

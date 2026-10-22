@@ -83,7 +83,7 @@ Das Modul, das die Anbindung an KI-Dienste verwaltet: welche Anbieter zur Verfü
 
     **Wie Nutzende es nennen:** KI, Künstliche Intelligenz, AI, LLM, Sprachmodell-Anbindung, KI-Funktionen, AI-Assistent, KI-gestützte Module, KI-Funktionsmodule
 
-    [Im Handbuch lesen](../administration/External_Tools_AI.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22KI%20Modul%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../administration/External_Tools_AI.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22KI-Modul%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
