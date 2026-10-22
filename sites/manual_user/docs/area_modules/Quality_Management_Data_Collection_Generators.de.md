@@ -3,31 +3,29 @@
 
 !!! tip "Empfehlung"
 
-    Für das Verständnis des Datenerhebungsgenerators werden Kenntnisse über Datenerhebungen vorausgesetzt.
+    Ein Datenerhebungsgenerator erstellt [Datenerhebungen](Quality_Management_Data_Collections.de.md). Kennen Sie die Datenerhebung, verstehen Sie die Einstellungen des Generators leichter.
 
 
 ## Was macht ein Datenerhebungsgenerator? {: #QMgenerator_function}
 
-**Datenerhebungen** können im Modul Qualitätsmanagement auch **automatisiert nach bestimmten Regeln** erstellt werden.
+Wer dieselbe Befragung in vielen Kursen durchführt, etwa ein Feedback am Ende jedes Kurses, muss die Datenerhebungen nicht einzeln anlegen. Ein Datenerhebungsgenerator erstellt sie im Modul Qualitätsmanagement automatisch, nach Regeln, die Sie einmal festlegen.
 
-Die Beschreibung und Einrichtung der Regeln geschieht in sogenannten **Datenerhebungsgeneratoren**.
-
-![Ein Datenerhebungsgenerator erzeugt aus einer Formular-Lernressource mehrere Datenerhebungen mit je eigenem Personenkreis und Abgabetermin](assets/quality_management_scheme_generator_v1_de.png){ class="lightbox" }
+![Ein Datenerhebungsgenerator erzeugt aus einer Formular-Lernressource mehrere Datenerhebungen mit je eigenem Personenkreis und Abgabetermin](assets/quality_management_scheme_generator_v1_de.png){ class="lightbox" title="Schema eines Datenerhebungsgenerators" }
 
 
 ## Wie wird ein Datenerhebungsgenerator erstellt? {: #create_QMgenerator}
 
-Bei entsprechender Berechtigung (Rolle) erscheint in Ihrer Hauptnavigation das **Qualitätsmanagement**. Klicken Sie auf den Link im Abschnitt **"Datenerhebungsgeneratoren"**.
+Datenerhebungsgeneratoren erstellen und bearbeiten Personen mit der Rolle Qualitätsverwalter:in oder Administrator:in. Ihnen zeigt die Hauptnavigation den Eintrag "Qualitätsmanagement". Auf dessen Startseite klicken Sie im Abschnitt "Datenerhebungsgeneratoren" auf "Datenerhebungsgeneratoren öffnen".
 
-![Abschnitt Datenerhebungsgeneratoren und Eintrag Qualitätsmanagement im Menü Mehr markiert, Startseite des Qualitätsmanagements](assets/quality_management_data_collection_generators_v1_de.png){ class="shadow lightbox" }
+![Weg zu den Generatoren: Eintrag Qualitätsmanagement im Menü Mehr und Kachel Datenerhebungsgeneratoren mit dem Link Datenerhebungsgeneratoren öffnen markiert](assets/quality_management_data_collection_generators_v2_de.png){ class="shadow lightbox" title="Startseite des Qualitätsmanagements · 2026.10.22" }
 
-Erstellen Sie dort einen neuen Datenerhebungsgenerator.
+Klicken Sie dort auf "Generator erstellen".
 
-![Button Generator erstellen markiert, über der leeren Liste der Datenerhebungsgeneratoren](assets/quality_management_data_collection_generators_create_v1_de.png){ class="shadow lightbox" }
+![Button Generator erstellen markiert, die Liste darunter ist noch leer](assets/quality_management_data_collection_generators_create_v1_de.png){ class="shadow lightbox" title="Liste der Datenerhebungsgeneratoren" }
 
-Mit der Wahl eines Typs bestimmen Sie das Regel-Set, nach dem Datenerhebungen erstellt werden.
+Im Dialog "Generator erstellen" wählen Sie den Typ und geben den Titel des Generators ein. Der Typ bestimmt, wofür der Generator Datenerhebungen erstellt: für Kurse, für die Termine von Betreuer:innen in einem Kurs oder für Elemente im Course Planner. Nach dem Erstellen lässt sich der Typ nicht mehr ändern.
 
-![Auswahlliste Typ im Dialog Generator erstellen mit den Einträgen Kurs, Termine eines/einer Betreuer:in in einem Kurs und Element](assets/quality_management_data_collection_generators_type_v2_de.png){ class="shadow lightbox" }
+![Auswahlliste Typ mit den Einträgen Kurs, Termine eines/einer Betreuer:in in einem Kurs und Element](assets/quality_management_data_collection_generators_type_v2_de.png){ class="shadow lightbox" title="Dialog Generator erstellen" }
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collection_Generators)
 
@@ -36,87 +34,92 @@ Mit der Wahl eines Typs bestimmen Sie das Regel-Set, nach dem Datenerhebungen er
 
 ## Generator Typ "Kurs" {: #QMgenerator_type_course}
 
-![Typ Kurs im Dialog Generator erstellen markiert, darunter das Feld Titel des Generators](assets/quality_management_data_collection_generator_course_v1_de.png){ class="shadow lightbox" }
+Der Typ "Kurs" erstellt Datenerhebungen für Kurse. Ihr Start richtet sich nach dem Kursbeginn, nach dem Kursende oder nach festen Wochentagen.
+
+![Typ Kurs markiert, darunter das Feld Titel des Generators](assets/quality_management_data_collection_generator_course_v1_de.png){ class="shadow lightbox" title="Dialog Generator erstellen" }
 
 ### Tab "Konfiguration" {: #Quality_Management_Data_Collection_Generators_Type_Course_Config}
 
-![Tab Konfiguration eines Generators vom Typ Kurs mit 13 nummerierten Feldern von Titel des Generators bis Bearbeitung einschränken, oben die Tabs Berechtigungen Report, Positivliste und Negativliste](assets/quality_management_data_collection_generator_course_config_v2_de.png){ class="shadow lightbox" }
+![Ausgefülltes Formular: Die markierten Felder legen fest, für welche Kurse, wann und für wen Datenerhebungen entstehen](assets/quality_management_data_collection_generator_course_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration, Typ Kurs · 2026.10.22" }
 
-![1](assets/1_green_24.png) **Titel des Generators**<br>
-Verwenden Sie möglichst einen Titel, der eine Aussage zu Inhalt und Verwendung macht, um eine klare Zuordnung und Abgrenzung zu anderen Generatoren zu ermöglichen.
+#### Titel des Generators {: #course_generator_title }
+Wählen Sie einen Titel, der Inhalt und Zweck nennt. So unterscheiden Sie den Generator in der Liste von den anderen Generatoren.
 
-![2](assets/2_green_24.png) **Organisationen**<br>
-Wurde das Modul "Organisationseinheiten" aktiviert und eingerichtet, können Datenerhebungen auch auf ausgewählte Organisationseinheiten bezogen werden.
+#### Organisationen {: #course_organisations }
+Der Generator berücksichtigt nur Kurse der hier gewählten Organisationen und ihrer Unterorganisationen. Das Feld erscheint, wenn das Modul "Organisationen" eingeschaltet ist.
 
-![3](assets/3_green_24.png) **Formular**<br>
-Auch bei Datenerhebungsgeneratoren kommt jeweils nur ein Formular zum Einsatz um Vergleichbarkeit und Auswertung zu ermöglichen. Soll ein weiteres Formular verwendet werden, müssten Sie einen weiteren Generator erstellen.
+#### Formular {: #course_form }
+Ein Generator arbeitet mit genau einem Formular. So lassen sich alle seine Datenerhebungen vergleichen und gemeinsam auswerten. Für ein weiteres Formular erstellen Sie einen weiteren Generator. Hat der Generator bereits Datenerhebungen erstellt, lässt sich das Formular nicht mehr ersetzen.
 
-![4](assets/4_green_24.png) **Titel der Datenerhebung**<br>
+#### Titel der Datenerhebung {: #course_data_collection_title }
 Geben Sie hier den Titel der vom Datenerhebungsgenerator erzeugten Datenerhebungen an.
 Im Titel können auch Variablen verwendet werden.
 
-![5](assets/5_green_24.png) **Rollen der Teilnehmer:innen**<br>
-Die Kursmitglieder mit den hier ausgewählten Rollen können an der Datenerhebung teilnehmen. Es besteht die Möglichkeit, diese Datenerhebung z.B. ausschliesslich unter Betreuer:innen zu machen.
+#### Rollen der Teilnehmer:innen {: #course_roles }
+Die Kursmitglieder mit den hier ausgewählten Rollen können an der Datenerhebung teilnehmen. So befragen Sie zum Beispiel nur die Betreuer:innen eines Kurses.
 
-![6](assets/6_green_24.png) **Startereignis**<br>
-Auslösende Startereignisse können beim Generator vom Typ "Kurs" sein:
+#### Startereignis {: #course_start_trigger }
+Das Startereignis legt fest, wann die Datenerhebung startet:
 
 * Kursbeginn
 * Kursende
-* täglich
+* Täglich
 
-![7](assets/7_green_24.png) **Tage nach Kurstermin**<br>
-(Diese Option wird nur angezeigt, wenn "Kursbeginn" oder "Kursende" als Startereignis gewählt wurde.)<br>
+#### Tage nach Kurstermin {: #course_days_after_course_date }
+Diese Option wird nur angezeigt, wenn "Kursbeginn" oder "Kursende" als Startereignis gewählt wurde.
 Der Start der Datenerhebung wird aus dem Startereignis und der hier eingetragenen Anzahl Tage berechnet.
 Die Anzahl Tage kann auch negativ sein.
 
-**Wochentag**<br>
-(Diese Option wird nur angezeigt, wenn "täglich" als Startereignis gewählt wurde.)<br>
-Es wird periodisch immer an den angegebenen Wochentagen eine Datenerhebung generiert.
+#### Wochentage {: #course_days_of_week }
+Diese Option wird nur angezeigt, wenn "Täglich" als Startereignis gewählt wurde.
+Der Generator erstellt an jedem gewählten Wochentag für jeden Kurs eine Datenerhebung.
+
+#### Startzeit {: #course_start_time }
+Diese Option wird nur angezeigt, wenn "Täglich" als Startereignis gewählt wurde.
+Tragen Sie Stunde und Minute ein, zu der die Datenerhebungen an den angegebenen Wochentagen starten.
 
 !!! note "Hinweis"
 
-    Hat ein Kurs ein Beginn- oder Enddatum, wird er vor und nach diesen Daten nicht in den Datenerhebungen berücksichtigt.
+    Hat ein Kurs ein Beginn- oder Enddatum, erstellt der Generator vor dem Beginn und nach dem Ende keine täglichen Datenerhebungen für diesen Kurs.
 
-![8](assets/8_green_24.png) **Dauer der Datenerhebung (Stunden)**<br>
+#### Dauer der Datenerhebung (Stunden) {: #course_duration }
 Nach Start der Datenerhebung können alle Teilnehmenden im angegebenen Zeitraum das Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich.
 
-![9](assets/9_green_24.png) **Einladung**<br>
-Die Einladung ist eine Funktion der Datenerhebung. Werden nun vom Datenerhebungsgenerator mehrere Datenerhebungen automatisch generiert, werden in den Datenerhebungen das Versanddatum der Einladung in Abhängigkeit des jeweiligen Startdatums und des hier eingetragenen Wertes berechnet.
+#### Einladung (Tage nach Start der Datenerhebung) {: #course_invitation }
+Die Einladung geht so viele Tage nach dem Start der Datenerhebung hinaus, wie Sie hier eintragen. Der Generator berechnet das Versanddatum für jede Datenerhebung aus deren eigenem Startdatum. Ohne Eintrag verschickt OpenOlat keine Einladung.
 
-![10](assets/10_green_24.png) ![11](assets/11_green_24.png) **Erinnerungen**<br>
-Auch die Erinnerungen sind eine Funktion der Datenerhebung. Werden vom Datenerhebungsgenerator mehrere Datenerhebungen automatisch generiert, werden in den Datenerhebungen das Versanddatum der Erinnerung in Abhängigkeit des jeweiligen Startdatums und des hier eingetragenen Wertes berechnet.
+#### Erinnerung 1 (Tage nach Start der Datenerhebung) {: #course_reminder_1 }
+Das Versanddatum der Erinnerung berechnet der Generator wie bei der Einladung aus dem Startdatum der Datenerhebung und dem hier eingetragenen Wert.
 
+#### Erinnerung 2 (Tage nach Start der Datenerhebung) {: #course_reminder_2 }
+Das Versanddatum der zweiten Erinnerung wird gleich berechnet wie bei der Erinnerung 1.
 
-![12](assets/12_green_24.png) **Durchführungsformate ausschliessen**<br>
+#### Durchführungsformate ausschliessen {: #course_exclude_implementation_formats }
 Zu Kursen kann in den Metadaten ein Durchführungsformat angegeben werden. Es besteht die Möglichkeit, bei erzeugten Datenerhebungen bestimmte [Durchführungsformate](../../manual_admin/administration/Modules.de.md#course) auszuschliessen, z.B. wenn Prüfungskurse nicht berücksichtigt werden sollen.
 
-![13](assets/13_green_24.png) **Bearbeitung einschränken**<br>
-Mit der Checkbox "Nur Qualitätsverwalter:innen können bearbeiten" wird die Bearbeitung des Generators auf Qualitätsmanager:innen eingeschränkt.
+#### Bearbeitung einschränken {: #course_limit_edit_rights }
+Setzen Sie das Häkchen bei "Nur Qualitätsverwalter:innen können bearbeiten", lassen sich die geplanten Datenerhebungen dieses Generators nur noch im Modul Qualitätsmanagement bearbeiten. In der [Datenerhebungsvorschau](Quality_Management_Data_Collection_Preview.de.md) eines Kurses und im Course Planner sind sie dann nur noch zu sehen.
 
 
 ### Tab "Berechtigungen Report"
 
-Die hier eingegebene Konfiguration wird 1:1 in die erstellten Datenerhebungen übertragen.
-Siehe [Datenerhebung](Quality_Management_Data_Collections.de.md).
+Die Berechtigungen, die Sie hier festlegen, übernimmt der Generator in jede Datenerhebung, die er erstellt. Die einzelnen Einstellungen beschreibt die Seite [Datenerhebung](Quality_Management_Data_Collections.de.md).
 
 
 ### Tab "Positivliste" {: #Quality_Management_Data_Collection_Generators_Type_Course_PositivList}
 
-Wurde ein Generator erstellt, ergibt sich daraus eine Liste von Kursen, zu welchen Datenerhebungen generiert werden.
-
-Wird zudem noch eine Positivliste definiert, werden nur noch Kurse für Datenerhebungen berücksichtigt, die sowohl in der ursprünglich vom Generator erzeugten Liste enthalten sind, als auch in dieser Positivliste.
+Mit der Positivliste beschränken Sie den Generator auf ausgewählte Kurse. Er berücksichtigt dann nur Kurse, die seine Konfiguration erfüllen und zugleich in der Positivliste stehen.
 
 
 
 ### Tab "Negativliste" {: #Quality_Management_Data_Collection_Generators_Type_Course_NegativList}
 
-Wurde ein Generator erstellt, ergibt sich daraus eine Liste von Kursen, zu welchen Datenerhebungen generiert werden. In der Negativliste können einzelne dieser Kurse ausgenommen werden.
+Mit der Negativliste nehmen Sie einzelne Kurse aus, die der Generator nach seiner Konfiguration sonst berücksichtigen würde.
 
-!!! note "Hinweis"
+!!! tip "Tipp"
 
-    Es macht nur Sinn, entweder eine Positivliste oder eine Negativliste zu erstellen.<br>
-    Sollen **nur zu einem kleinen Teil der Kurse** Datenerhebungen gemacht werden, empfiehlt sich eine **Positivliste**.<br> Sollen **zum überwiegenden Teil der Kurse** Datenerhebungen gemacht werden, empfiehlt sich eine **Negativliste**.
+    Erstellen Sie entweder eine Positivliste oder eine Negativliste.<br>
+    Sollen nur wenige Kurse Datenerhebungen erhalten, eignet sich die Positivliste.<br> Sollen die meisten Kurse Datenerhebungen erhalten, eignet sich die Negativliste.
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collection_Generators)
 
@@ -125,17 +128,18 @@ Wurde ein Generator erstellt, ergibt sich daraus eine Liste von Kursen, zu welch
 
 ## Generator Typ "Termine eines/einer Betreuer:in in einem Kurs" {: #QMgenerator_type_events}
 
-![Typ Termine eines/einer Betreuer:in in einem Kurs im Dialog Generator erstellen markiert](assets/quality_management_data_collection_generator_events_v1_de.png){ class="shadow lightbox" }
+Dieser Typ erstellt Datenerhebungen zu den Terminen, die Betreuer:innen in einem Kurs unterrichten. Die Datenerhebung startet im letzten Termin der Betreuer:in oder im Termin mit einer bestimmten Einheit.
+
+![Typ Termine eines/einer Betreuer:in in einem Kurs markiert](assets/quality_management_data_collection_generator_events_v1_de.png){ class="shadow lightbox" title="Dialog Generator erstellen" }
 
 ### Tab "Konfiguration"
 
-![Tab Konfiguration eines Generators vom Typ Termine eines/einer Betreuer:in in einem Kurs mit 17 nummerierten Feldern von Titel des Generators bis Bearbeitung einschränken](assets/quality_management_data_collection_generator_events_config_v1_de.png){ class="shadow lightbox" }
+![Ausgefülltes Formular: Die markierten Felder legen fest, in welchem Termin und für wen Datenerhebungen entstehen](assets/quality_management_data_collection_generator_events_config_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration, Typ Termine eines/einer Betreuer:in in einem Kurs · 2026.10.22" }
 
 
 Siehe auch [Konfiguration im Typ Kurs](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
 
-![5](assets/5_green_24.png) **Rollen der Teilnehmer:innen**<br>
-
+#### Rollen der Teilnehmer:innen {: #events_roles }
 Die Kursmitglieder mit den hier ausgewählten Rollen können an der Datenerhebung teilnehmen.
 
 * Besitzer:innen
@@ -143,54 +147,55 @@ Die Kursmitglieder mit den hier ausgewählten Rollen können an der Datenerhebun
 * Unterrichtende:r Betreuer:in (= unterrichtende Person am Termin, der zur Datenerhebung führt)
 * Teilnehmer:innen
 
-![6](assets/6_green_24.png) **Beurteilungsgegenstand**<br>
-Der Generator trägt in der [Datenerhebung](Quality_Management_Data_Collections.de.md) den Beurteilungsgegenstand ein:
+#### Beurteilungsgegenstand {: #events_topic }
+Der Beurteilungsgegenstand legt fest, was die [Datenerhebung](Quality_Management_Data_Collections.de.md) beurteilt:
 
-* Betreuer:in oder
+* Betreuer:in
 * Kurs
 
 !!! note "Hinweis"
 
     Gibt es in einem Kurs mehrere Betreuer:innen, welche die übrigen Kriterien erfüllen, wird pro Betreuer:in eine [Datenerhebung](Quality_Management_Data_Collections.de.md) initiiert.
 
-![7](assets/7_green_24.png) **Minimale Anzahl Einheiten Betreuer:in**<br>
+#### Minimale Anzahl Einheiten Betreuer:in {: #events_teacher_minimum_units }
 Die Datenerhebung findet nur statt, wenn der/die Betreuer:in die hier angegebene minimale Anzahl Einheiten in einem Kurs insgesamt hat. (Nicht nur die bereits durchgeführten Lektionen.)
 
-![8](assets/8_green_24.png) **Maximale Anzahl Einheiten Betreuer:in**<br>
+#### Maximale Anzahl Einheiten Betreuer:in {: #events_teacher_maximum_units }
 Die Datenerhebung findet nur statt, wenn der/die Betreuer:in die hier angegebene maximale Anzahl Einheiten in einem Kurs insgesamt nicht überschreitet.
 
 !!! note "Beispiel"
 
-    In der Datenerhebung für den Regelfall, sollen nur Betreuer:innen beurteilt werden, die mind. 10 Einheiten zu halten haben. Hierfür wird die minimale Anzahl Einheiten verwendet.
+    Im Regelfall sollen nur Betreuer:innen beurteilt werden, die mindestens 10 Einheiten unterrichten. Dafür tragen Sie bei der minimalen Anzahl Einheiten 10 ein.
 
-    Sollen nur selten unterrichtende Betreuer:innen beurteilt werden, kann in einem weiteren Generator eine Datenerhebung für Betreuer:innen mit einer maximalen Anzahl Einheiten erzeugt werden.
+    Betreuer:innen, die nur selten unterrichten, beurteilen Sie mit einem weiteren Generator. Dort legen Sie eine maximale Anzahl Einheiten fest.
 
-![9](assets/9_green_24.png) **Start der Datenerhebung**<br>
+#### Start der Datenerhebung {: #events_data_collection_start }
+Hier wählen Sie den Termin, in dem die Datenerhebung startet:
 
-* Am letzten Termin (welchen der/die Betreuer:in in einem Kurs unterrichtet)
-* Am Termin mit der Einheit x (Termine, die der/die Betreuer:in unterrichtet)
+* Im letzten Termin (welchen der/die Betreuer:in in einem Kurs unterrichtet)
+* Im Termin mit der Einheit x (Termine, die der/die Betreuer:in unterrichtet)
 
-![10](assets/10_green_24.png) **Start x Minuten vor dem Ende des Termins**<br>
+#### Termin mit der Einheit x {: #events_event_with_unit }
+Diese Option wird nur angezeigt, wenn "Im Termin mit der Einheit x" gewählt wurde.
+Tragen Sie die Nummer der Einheit ein. Die Datenerhebung startet im Termin, der diese Einheit enthält.
 
-Wird die Befragung kurz vor dem Ende durchgeführt, ist in der Regel mit einer höheren Beteiligung zu rechnen.
+#### Start x Minuten vor dem Ende des Termins {: #events_minutes_before_end }
+Die Datenerhebung startet so viele Minuten vor dem Ende des Termins, wie Sie hier eintragen. Startet die Befragung noch während des Termins, beteiligen sich in der Regel mehr Teilnehmende.
 
-
-![11](assets/11_green_24.png) **Dauer der Datenerhebung (Tage)**<br>
-
+#### Dauer der Datenerhebung (Tage) {: #events_duration }
 Nach Start der Datenerhebung können alle Teilnehmenden im angegebenen Zeitraum das Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich.
 
-![12](assets/12_green_24.png) **Ankündigung für Betreuer:innen (Tage vor Start der Datenerhebung)**<br>
+#### Ankündigung für Betreuer:innen (Tage vor Start der Datenerhebung) {: #events_announcement }
+Mit einer Ankündigung erfahren Betreuer:innen vorab von der Datenerhebung und können bei Bedarf reagieren. Sie geht so viele Tage vor dem Start der Datenerhebung hinaus, wie Sie hier eintragen. Ohne Eintrag verschickt OpenOlat keine Ankündigung.
 
-Wenn hier keine Angaben gemacht werden, wird keine Ankündigung verschickt.
-In manchen Fällen ist es sinnvoll, dass z.B. Betreuer:innen vorab eine Ankündigung erhalten und ggf. intervenieren können.
+#### Einladung (Tage nach Start der Datenerhebung) {: #events_invitation }
+Die Einladung ist eine E-Mail an die Teilnehmer:innen mit dem Link zum Formular. Ohne Eintrag verschickt OpenOlat keine E-Mail. Die Teilnehmenden erfahren dann auf anderem Weg von der Datenerhebung, zum Beispiel von der Betreuer:in im Unterricht.
 
-![13](assets/13_green_24.png) **Einladung (Tage nach Start der Datenerhebung)**<br>
+#### Erinnerung 1 (Tage nach Start der Datenerhebung) {: #events_reminder_1 }
+Das Versanddatum der Erinnerung wird wie beim [Typ Kurs](#course_reminder_1) aus dem Startdatum der Datenerhebung und dem hier eingetragenen Wert berechnet.
 
-Die Einladung ist eine E-Mail an die Teilnehmer:innen mit dem Link zum Formular. Wird keine Angabe gemacht, wird keine E-Mail verschickt, die Teilnehmenden müssen anderweitig informiert werden. (Z.B. durch Dozierende im Unterricht.)
-
-
-![14](assets/14_green_24.png) ![15](assets/15_green_24.png) **Erinnerung (Tage nach Start der Datenerhebung)**<br>
-Siehe auch [Konfiguration im Typ Kurs](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
+#### Erinnerung 2 (Tage nach Start der Datenerhebung) {: #events_reminder_2 }
+Das Versanddatum der zweiten Erinnerung wird gleich berechnet wie bei der Erinnerung 1.
 
 
 
@@ -216,55 +221,54 @@ Siehe [Typ Kurs Negativliste](#Quality_Management_Data_Collection_Generators_Typ
 
 ## Generator Typ "Element" {: #QMgenerator_type_element}
 
-![Typ Element im Dialog Generator erstellen markiert](assets/quality_management_data_collection_generator_element_v1_de.png){ class="shadow lightbox" }
+Der Typ "Element" erstellt Datenerhebungen für Elemente im Course Planner. Den Start berechnet der Generator vom Beginn oder vom Ende des Elements aus.
+
+![Typ Element markiert](assets/quality_management_data_collection_generator_element_v1_de.png){ class="shadow lightbox" title="Dialog Generator erstellen" }
 
 ### Tab "Konfiguration"
 
-![Tab Konfiguration eines Generators vom Typ Element mit 13 nummerierten Feldern, darunter Elementtyp, Element Termin und Tage nach Element Termin](assets/quality_management_data_collection_generator_element_config_v1_de.png){ class="shadow lightbox" }
+![Ausgefülltes Formular: Die markierten Felder legen fest, für welchen Elementtyp, wann und für wen Datenerhebungen entstehen](assets/quality_management_data_collection_generator_element_config_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration, Typ Element · 2026.10.22" }
 
 Siehe auch [Konfiguration im Typ Kurs](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
 
-![6](assets/6_green_24.png) **Elementtyp**<br>
-
-Zu jedem Element gibt es eine Datenerhebung.
-
-Abhängig davon, wie das Produkt eingerichtet ist, können Elemente z.B. sein:
+#### Elementtyp {: #element_type }
+Der Generator erstellt für jedes Element dieses Elementtyps eine Datenerhebung. Welche Elementtypen zur Wahl stehen, hängt von der Einrichtung des Course Planner ab, zum Beispiel:
 
 * Semester
 * Lehrgang
 * Modul
 
-![7](assets/7_green_24.png) **Element Termin**<br>
-Auslösende Startereignisse können beim Generator vom Typ "Element" sein:
+#### Element Termin {: #element_date }
+Der Element Termin legt fest, von welchem Datum des Elements aus der Start der Datenerhebung berechnet wird:
 
 * Beginn
 * Ende
 
-![8](assets/8_green_24.png) **Tage nach Element Termin**<br>
-Der Start der Datenerhebung wird aus dem Startereignis und der hier eingetragenen Anzahl Tage berechnet.
+#### Tage nach Element Termin {: #element_days_after_element_date }
+Der Start der Datenerhebung wird aus dem Element Termin und der hier eingetragenen Anzahl Tage berechnet.
 Die Anzahl Tage kann auch negativ sein.
+
+#### Dauer der Datenerhebung (Tage) {: #element_duration }
+Beim Typ "Element" geben Sie die Dauer in Tagen an, nicht in Stunden wie beim Typ "Kurs". Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich.
 
 
 ### Tab "Berechtigungen Report"
 
-Die hier eingegebene Konfiguration wird 1:1 in die erstellten Datenerhebungen übertragen.
-Siehe [Datenerhebung](Quality_Management_Data_Collections.de.md).
+Wie beim Typ "Kurs" übernimmt der Generator die Berechtigungen, die Sie hier festlegen, in jede Datenerhebung, die er erstellt. Die einzelnen Einstellungen beschreibt die Seite [Datenerhebung](Quality_Management_Data_Collections.de.md).
 
 
 ### Tab "Positivliste"
 
-Wurde ein Generator erstellt, ergibt sich daraus eine Liste von Elementen, zu welchen Datenerhebungen generiert werden.
-
-Wird zudem noch eine Positivliste definiert, werden nur noch Elemente für Datenerhebungen berücksichtigt, die sowohl in der ursprünglich vom Generator erzeugten Liste enthalten sind, als auch in dieser Positivliste.
+Mit der Positivliste beschränken Sie den Generator auf ausgewählte Elemente. Er berücksichtigt dann nur Elemente, die seine Konfiguration erfüllen und zugleich in der Positivliste stehen.
 
 
 ### Tab "Negativliste"
 
-Wurde ein Generator erstellt, ergibt sich daraus eine Liste von Elementen, zu welchen Datenerhebungen generiert werden. In der Negativliste können einzelne dieser Elemente ausgenommen werden.
+Mit der Negativliste nehmen Sie einzelne Elemente aus, die der Generator nach seiner Konfiguration sonst berücksichtigen würde.
 
-!!! note "Hinweis"
+!!! tip "Tipp"
 
-    Es macht nur Sinn, entweder eine Positivliste oder eine Negativliste zu erstellen.<br>Soll **nur zu einem kleinen Teil der Elemente** Datenerhebungen gemacht werden, empfiehlt sich eine **Positivliste**.<br> Soll **zum überwiegenden Teil der Elemente** Datenerhebungen gemacht werden, empfiehlt sich eine **Negativliste**.
+    Erstellen Sie entweder eine Positivliste oder eine Negativliste.<br>Sollen nur wenige Elemente Datenerhebungen erhalten, eignet sich die Positivliste.<br> Sollen die meisten Elemente Datenerhebungen erhalten, eignet sich die Negativliste.
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collection_Generators)
 
@@ -273,13 +277,30 @@ Wurde ein Generator erstellt, ergibt sich daraus eine Liste von Elementen, zu we
 
 ## Generator einschalten {: #activate_QMgenerator}
 
-Jeder neu erstellte Generator ist zunächst noch ausgeschaltet. So kann er in Ruhe konfiguriert werden. Das Einschalten und Aktivieren eines Generators erfolgt über den Button links oben.
+Ein neuer Generator ist ausgeschaltet. So konfigurieren Sie ihn in Ruhe, bevor er Datenerhebungen erstellt. Zum Einschalten klicken Sie links oben auf "Ausgeschaltet" und wählen "Einschalten".
 
-![Button Ausgeschaltet links oben markiert, über den Tabs Konfiguration, Berechtigungen Report, Positivliste und Negativliste eines Generators](assets/quality_management_data_collection_generator_switch_v1_de.png){ class="shadow lightbox" }
+![Button Ausgeschaltet links oben markiert, über den Tabs Konfiguration, Berechtigungen Report, Positivliste und Negativliste eines Generators](assets/quality_management_data_collection_generator_switch_v1_de.png){ class="shadow lightbox" title="Generator im Qualitätsmanagement" }
 
-!!! note "Hinweis"
+!!! info "Wichtig"
 
-    Das Editieren eines Generators ist nur möglich, wenn der Generator ausgeschaltet ist.
+    Bearbeiten lässt sich ein Generator nur, solange er ausgeschaltet ist.
+
+Beim Einschalten öffnet sich der Dialog "Datenerhebungsgenerator einschalten" mit dem Feld "Stichtag". Der Stichtag legt fest, ab wann der Generator Datenerhebungen berücksichtigt. Bei einem neuen Generator steht im Feld der aktuelle Zeitpunkt. Schalten Sie einen Generator wieder ein, der schon gelaufen ist, steht im Feld der Zeitpunkt seines letzten Laufs vor dem Ausschalten. Unter dem Feld zeigt der Dialog, wie viele neue Datenerhebungen mit diesem Stichtag generiert werden. Ändern Sie den Stichtag, passt sich die Anzahl an.
+
+![Feld Stichtag mit Datum und Uhrzeit und darunter der Hinweis, wie viele neue Datenerhebungen beim Einschalten generiert werden](assets/quality_management_data_collection_generators_enable_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Datenerhebungsgenerator einschalten · 2026.10.22" }
+
+Mit "Einschalten" schalten Sie den Generator ein. Mit "Abbrechen" bleibt er ausgeschaltet.
+
+!!! warning "Nachholen nach dem Wiedereinschalten"
+
+    War ein Generator einige Zeit ausgeschaltet, holt er beim Wiedereinschalten Datenerhebungen nach. Massgebend ist der Stichtag.
+
+    * **Stichtag unverändert:** Der Generator holt die Datenerhebungen nach, die während der ausgeschalteten Zeit fällig wurden.
+    * **Stichtag auf den aktuellen Zeitpunkt gesetzt:** Der Generator holt keine verpassten Datenerhebungen nach. Beim Typ "Kurs" kann er aber Datenerhebungen erzeugen, die in diesem Moment bereits laufen.
+    * **Zeitraum:** Nachgeholte Datenerhebungen behalten Start und Ende, die sich aus der Konfiguration ergeben. Sie laufen also nur noch die verbleibende Zeit.
+    * **Abgelaufene Datenerhebungen:** Beim Startereignis "Täglich" und beim Typ "Termine eines/einer Betreuer:in in einem Kurs" holt der Generator nur Datenerhebungen nach, die beim Einschalten noch laufen. Bei den Startereignissen "Kursbeginn" und "Kursende" und beim Typ "Element" erzeugt er auch Datenerhebungen, deren Ende beim Einschalten schon vorbei ist.
+
+    Prüfen Sie deshalb die Anzahl im Dialog, bevor Sie auf "Einschalten" klicken.
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collection_Generators)
 
@@ -288,7 +309,13 @@ Jeder neu erstellte Generator ist zunächst noch ausgeschaltet. So kann er in Ru
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Qualitätsmanagement: Datenerhebung >](Quality_Management_Data_Collections.de.md)<br>
 [Module: Übersicht >](../../manual_admin/administration/Modules.de.md)<br>
-[Qualitätsmanagement: Datenerhebung >](Quality_Management_Data_Collections.de.md)
+[Qualitätsmanagement: Datenerhebungsvorschau >](Quality_Management_Data_Collection_Preview.de.md)
+
+**Weiterführend**<br>
+[Qualitätsmanagement: Übersicht >](Quality_Management.de.md)<br>
+[Qualitätsmanagement: Analyse >](Quality_Management_Analysis.de.md)
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collection_Generators)

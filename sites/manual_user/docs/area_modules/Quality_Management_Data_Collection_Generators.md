@@ -3,31 +3,29 @@
 
 !!! tip "Recommendation"
 
-    Knowledge of data collections is a prerequisite for understanding the data collection generator.
+    A data collection generator creates [data collections](Quality_Management_Data_Collections.md). If you know the data collection, the settings of the generator are easier to understand.
 
 
 ## What does a data collection generator do? {: #QMgenerator_function}
 
-**Data collections** can also be created **automatically according to certain rules** in the Quality management module.
+If you run the same survey in many courses, for example a feedback at the end of every course, you do not have to create the data collections one by one. A data collection generator creates them automatically in the Quality management module, according to rules you define once.
 
-The rules are described and set up in so-called **data collection generators**.
-
-![A data collection generator creates several data collections from one form learning resource, each with its own group of people and submission deadline](assets/quality_management_scheme_generator_v1_de.png){ class="lightbox" }
+![A data collection generator creates several data collections from one form learning resource, each with its own group of people and submission deadline](assets/quality_management_scheme_generator_v1_de.png){ class="lightbox" title="Scheme of a data collection generator" }
 
 
 ## How is a data collection generator created? {: #create_QMgenerator}
 
-If you have the appropriate authorization (role), **Quality management** appears in your main navigation. Click on the link in the section **"Data collection generators"**.
+Persons with the role Quality manager or Administrator create and edit data collection generators. For them, the main navigation shows the entry "Quality management". On its start page, click "Go to data collection generators" in the section "Data collection generators".
 
-![Section Data collection generators and entry Quality management in the More menu highlighted, start page of the quality management](assets/quality_management_data_collection_generators_v1_de.png){ class="shadow lightbox" }
+![Way to the generators: entry Quality management in the More menu and tile Data collection generators with the link Go to data collection generators highlighted](assets/quality_management_data_collection_generators_v2_en.png){ class="shadow lightbox" title="Start page of the quality management · 2026.10.22" }
 
-Create a new data collection generator there.
+Click "Create generator" there.
 
-![Button Create generator highlighted, above the empty list of data collection generators](assets/quality_management_data_collection_generators_create_v1_de.png){ class="shadow lightbox" }
+![Button Create generator highlighted, above the list of generators](assets/quality_management_data_collection_generators_create_v1_en.png){ class="shadow lightbox" title="List of data collection generators · 2026.10.22" }
 
-By selecting a type, you determine the rule set according to which data collections are created.
+In the dialog "Create generator", select the type and enter the title of the generator. The type determines what the generator creates data collections for: for courses, for the events of coaches in a course or for elements in the Course Planner. After the generator has been created, the type can no longer be changed.
 
-![Drop-down Type in the dialog Create generator with the entries Course, Events of a coach in a course and Element](assets/quality_management_data_collection_generators_type_v2_de.png){ class="shadow lightbox" }
+![Selection Type with the entries Course, Events of a coach in a course and Element](assets/quality_management_data_collection_generators_type_v2_en.png){ class="shadow lightbox" title="Dialog Create generator · 2026.10.22" }
 
 [To the top of the page ^](#Quality_Management_Data_Collection_Generators)
 
@@ -36,87 +34,92 @@ By selecting a type, you determine the rule set according to which data collecti
 
 ## Generator type "Course" {: #QMgenerator_type_course}
 
-![Type Course in the dialog Create generator highlighted, below it the field Title of the generator](assets/quality_management_data_collection_generator_course_v1_de.png){ class="shadow lightbox" }
+The type "Course" creates data collections for courses. Their start depends on the start of course, on the end of course or on fixed days of the week.
+
+![Type Course highlighted, below it the field Title of generator](assets/quality_management_data_collection_generator_course_v1_en.png){ class="shadow lightbox" title="Dialog Create generator · 2026.10.22" }
 
 ### Tab "Configuration" {: #Quality_Management_Data_Collection_Generators_Type_Course_Config}
 
-![Tab Configuration of a generator of type Course with 13 numbered fields from Title of the generator to Restrict editing, at the top the tabs Report access, White list and Black list](assets/quality_management_data_collection_generator_course_config_v2_de.png){ class="shadow lightbox" }
+![Completed form: the highlighted fields determine for which courses, when and for whom data collections are created](assets/quality_management_data_collection_generator_course_config_v3_en.png){ class="shadow lightbox" title="Tab Configuration, type Course · 2026.10.22" }
 
-![1](assets/1_green_24.png) **Title of the generator**<br>
-If possible, use a title that makes a statement about content and use, to enable a clear assignment and differentiation from other generators.
+#### Title of generator {: #course_generator_title }
+Choose a title that states content and purpose. This lets you tell the generator apart from the other generators in the list.
 
-![2](assets/2_green_24.png) **Organizations**<br>
-If the module "Organizational units" has been activated and set up, data collections can also be related to selected organizational units.
+#### Organisations {: #course_organisations }
+The generator only takes into account courses of the organisations selected here and of their sub-organisations. The field appears if the module "Organisations" is enabled.
 
-![3](assets/3_green_24.png) **Form**<br>
-With data collection generators, too, only one form is used at a time to enable comparability and evaluation. If another form is to be used, you would have to create another generator.
+#### Form {: #course_form }
+A generator works with exactly one form. This way, all its data collections can be compared and evaluated together. For another form, create another generator. Once the generator has created data collections, the form can no longer be replaced.
 
-![4](assets/4_green_24.png) **Title of the data collection**<br>
+#### Title of the data collection {: #course_data_collection_title }
 Enter the title of the data collections generated by the data collection generator here.
 Variables can also be used in the title.
 
-![5](assets/5_green_24.png) **Roles of participants**<br>
-The course members with the roles selected here can participate in the data collection. It is possible, for example, to conduct this data collection exclusively among coaches.
+#### Roles of participants {: #course_roles }
+The course members with the roles selected here can participate in the data collection. This way, you can for example survey only the coaches of a course.
 
-![6](assets/6_green_24.png) **Start trigger**<br>
-Triggering start events for the generator of type "Course" can be:
+#### Start trigger {: #course_start_trigger }
+The start trigger determines when the data collection starts:
 
 * Start of course
 * End of course
-* daily
+* Daily
 
-![7](assets/7_green_24.png) **Days after course date**<br>
-(This option is only displayed if "Start of course" or "End of course" has been selected as the start trigger.)<br>
+#### Days after course date {: #course_days_after_course_date }
+This option is only displayed if "Start of course" or "End of course" has been selected as the start trigger.
 The start of the data collection is calculated from the start trigger and the number of days entered here.
 The number of days can also be negative.
 
-**Days of week**<br>
-(This option is only displayed if "Daily" has been selected as the start trigger.)<br>
-A data collection is generated periodically on the specified days of the week.
+#### Days of week {: #course_days_of_week }
+This option is only displayed if "Daily" has been selected as the start trigger.
+The generator creates one data collection for each course on every selected day of the week.
+
+#### Start time {: #course_start_time }
+This option is only displayed if "Daily" has been selected as the start trigger.
+Enter the hour and minute at which the data collections start on the specified days of the week.
 
 !!! note "Note"
 
-    If a course has a start or end date, it is not included in the data collections before and after these dates.
+    If a course has a start or end date, the generator creates no daily data collections for this course before the start and after the end.
 
-![8](assets/8_green_24.png) **Duration of the data collection (hours)**<br>
+#### Duration of the data collection (hours) {: #course_duration }
 After the start of the data collection, all participants can complete and submit the form within the specified period. After this deadline, it is no longer possible to submit the form.
 
-![9](assets/9_green_24.png) **Invitation**<br>
-The invitation is a function of the data collection. If several data collections are generated automatically by the data collection generator, the dispatch date of the invitation is calculated in the data collections depending on the respective start date and the value entered here.
+#### Invitation (days after data collection start) {: #course_invitation }
+The invitation is sent as many days after the start of the data collection as you enter here. The generator calculates the dispatch date for each data collection from its own start date. Without an entry, OpenOlat sends no invitation.
 
-![10](assets/10_green_24.png) ![11](assets/11_green_24.png) **Reminders**<br>
-The reminders are also a function of the data collection. If several data collections are generated automatically by the data collection generator, the dispatch date of the reminder is calculated in the data collections depending on the respective start date and the value entered here.
+#### Reminder 1 (days after data collection start) {: #course_reminder_1 }
+As for the invitation, the generator calculates the dispatch date of the reminder from the start date of the data collection and the value entered here.
 
+#### Reminder 2 (days after data collection start) {: #course_reminder_2 }
+The dispatch date of the second reminder is calculated in the same way as for reminder 1.
 
-![12](assets/12_green_24.png) **Exclude implementation formats**<br>
+#### Exclude implementation formats {: #course_exclude_implementation_formats }
 An implementation format can be specified for courses in the metadata. It is possible to exclude certain [implementation formats](../../manual_admin/administration/Modules.md#course) from generated data collections, e.g. if examination courses are not to be included.
 
-![13](assets/13_green_24.png) **Restrict editing**<br>
-With the checkbox "Only quality managers can edit", the editing of the generator is restricted to quality managers.
+#### Limit edit rights {: #course_limit_edit_rights }
+If you tick "Only quality managers can edit", the planned data collections of this generator can only be edited in the Quality management module. In the [data collection preview](Quality_Management_Data_Collection_Preview.md) of a course and in the Course Planner, they can then only be viewed.
 
 
 ### Tab "Report access"
 
-The configuration entered here is transferred 1:1 to the created data collections.
-See [Data collections](Quality_Management_Data_Collections.md).
+The generator transfers the access rights you define here to every data collection it creates. The individual settings are described on the page [Data collections](Quality_Management_Data_Collections.md).
 
 
 ### Tab "White list" {: #Quality_Management_Data_Collection_Generators_Type_Course_PositivList}
 
-If a generator has been created, this results in a list of courses for which data collections are generated.
-
-If a white list is also defined, only courses that are contained both in the list originally created by the generator and in this white list are taken into account for data collections.
+With the white list, you limit the generator to selected courses. It then only takes into account courses that meet its configuration and are also on the white list.
 
 
 
 ### Tab "Black list" {: #Quality_Management_Data_Collection_Generators_Type_Course_NegativList}
 
-If a generator has been created, this results in a list of courses for which data collections are generated. Individual courses can be excluded in the black list.
+With the black list, you exclude individual courses that the generator would otherwise take into account according to its configuration.
 
-!!! note "Note"
+!!! tip "Tip"
 
-    It only makes sense to create either a white list or a black list.<br>
-    If data collections are to be carried out **only for a small part of the courses**, a **white list** is recommended.<br> If data collections are to be carried out **for the majority of the courses**, a **black list** is recommended.
+    Create either a white list or a black list.<br>
+    If only a few courses are to receive data collections, the white list is suitable.<br> If most courses are to receive data collections, the black list is suitable.
 
 [To the top of the page ^](#Quality_Management_Data_Collection_Generators)
 
@@ -125,72 +128,74 @@ If a generator has been created, this results in a list of courses for which dat
 
 ## Generator type "Events of a coach in a course" {: #QMgenerator_type_events}
 
-![Type Events of a coach in a course in the dialog Create generator highlighted](assets/quality_management_data_collection_generator_events_v1_de.png){ class="shadow lightbox" }
+This type creates data collections for the events that coaches teach in a course. The data collection starts in the last event of the coach or in the event with a specific unit.
+
+![Type Events of a coach in a course highlighted](assets/quality_management_data_collection_generator_events_v1_en.png){ class="shadow lightbox" title="Dialog Create generator · 2026.10.22" }
 
 ### Tab "Configuration"
 
-![Tab Configuration of a generator of type Events of a coach in a course with 17 numbered fields from Title of the generator to Restrict editing](assets/quality_management_data_collection_generator_events_config_v1_de.png){ class="shadow lightbox" }
+![Completed form: the highlighted fields determine in which event and for whom data collections are created](assets/quality_management_data_collection_generator_events_config_v2_en.png){ class="shadow lightbox" title="Tab Configuration, type Events of a coach in a course · 2026.10.22" }
 
 
 See also [Configuration in the type Course](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
 
-![5](assets/5_green_24.png) **Roles of participants**<br>
-
+#### Roles of participants {: #events_roles }
 The course members with the roles selected here can participate in the data collection.
 
-* Owners
+* Owner
 * All coaches (= all coaches of the course)
 * Teaching coach (= the person teaching at the event that leads to the data collection)
-* Participants
+* Participant
 
-![6](assets/6_green_24.png) **Topic**<br>
-The generator enters the topic in the [data collection](Quality_Management_Data_Collections.md):
+#### Topic {: #events_topic }
+The topic determines what the [data collection](Quality_Management_Data_Collections.md) assesses:
 
-* Coach or
+* Coach
 * Course
 
 !!! note "Note"
 
     If there are several coaches in a course who fulfill the other criteria, one [data collection](Quality_Management_Data_Collections.md) is initiated per coach.
 
-![7](assets/7_green_24.png) **Teacher minimum units**<br>
+#### Teacher minimum units {: #events_teacher_minimum_units }
 The data collection only takes place if the coach has the minimum number of units in a course in total specified here. (Not only the lessons already held.)
 
-![8](assets/8_green_24.png) **Teacher maximum units**<br>
+#### Teacher maximum units {: #events_teacher_maximum_units }
 The data collection only takes place if the coach does not exceed the maximum number of units in a course in total specified here.
 
 !!! note "Example"
 
-    In the data collection for the standard case, only coaches who have to hold at least 10 units should be assessed. The minimum number of units is used for this purpose.
+    In the standard case, only coaches who teach at least 10 units are to be assessed. For this, enter 10 as the minimum number of units.
 
-    If only rarely teaching coaches are to be assessed, a data collection for coaches with a maximum number of units can be generated in another generator.
+    Coaches who teach only rarely are assessed with another generator. There, you define a maximum number of units.
 
-![9](assets/9_green_24.png) **Start of data collection**<br>
+#### Start of data collection {: #events_data_collection_start }
+Here you select the event in which the data collection starts:
 
 * In the last event (which the coach teaches in a course)
 * In the event with unit x (events taught by the coach)
 
-![10](assets/10_green_24.png) **Start x minutes before the end of the event**<br>
+#### Event with unit x {: #events_event_with_unit }
+This option is only displayed if "In the event with unit x" has been selected.
+Enter the number of the unit. The data collection starts in the event that contains this unit.
 
-If the survey is conducted shortly before the end, a higher participation rate can generally be expected.
+#### Start x minutes before the end of the event {: #events_minutes_before_end }
+The data collection starts as many minutes before the end of the event as you enter here. If the survey starts while the event is still running, more participants usually take part.
 
-
-![11](assets/11_green_24.png) **Duration of the data collection (days)**<br>
-
+#### Duration of the data collection (days) {: #events_duration }
 After the start of the data collection, all participants can complete and submit the form within the specified period. After this deadline, it is no longer possible to submit the form.
 
-![12](assets/12_green_24.png) **Announcement to coaches (days before data collection start)**<br>
+#### Announcement to coaches (days before data collection start) {: #events_announcement }
+With an announcement, coaches learn about the data collection in advance and can react if necessary. It is sent as many days before the start of the data collection as you enter here. Without an entry, OpenOlat sends no announcement.
 
-If no information is provided here, no announcement is sent.
-In some cases it makes sense that, for example, coaches receive an announcement in advance and can intervene if necessary.
+#### Invitation (days after data collection start) {: #events_invitation }
+The invitation is an email to the participants with the link to the form. Without an entry, OpenOlat sends no email. The participants then learn about the data collection by other means, for example from the coach in class.
 
-![13](assets/13_green_24.png) **Invitation (days after data collection start)**<br>
+#### Reminder 1 (days after data collection start) {: #events_reminder_1 }
+As for the [type Course](#course_reminder_1), the dispatch date of the reminder is calculated from the start date of the data collection and the value entered here.
 
-The invitation is an email to the participants with the link to the form. If no information is provided, no email is sent and the participants must be informed by other means. (E.g. by lecturers in class.)
-
-
-![14](assets/14_green_24.png) ![15](assets/15_green_24.png) **Reminder (days after data collection start)**<br>
-See also [Configuration in the type Course](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
+#### Reminder 2 (days after data collection start) {: #events_reminder_2 }
+The dispatch date of the second reminder is calculated in the same way as for reminder 1.
 
 
 
@@ -216,70 +221,86 @@ See [Type Course Black list](#Quality_Management_Data_Collection_Generators_Type
 
 ## Generator type "Element" {: #QMgenerator_type_element}
 
-![Type Element in the dialog Create generator highlighted](assets/quality_management_data_collection_generator_element_v1_de.png){ class="shadow lightbox" }
+The type "Element" creates data collections for elements in the Course Planner. The generator calculates the start from the begin or from the end of the element.
+
+![Type Element highlighted](assets/quality_management_data_collection_generator_element_v1_en.png){ class="shadow lightbox" title="Dialog Create generator · 2026.10.22" }
 
 ### Tab "Configuration"
 
-![Tab Configuration of a generator of type Element with 13 numbered fields, among them Type element, Element date and Days after element date](assets/quality_management_data_collection_generator_element_config_v1_de.png){ class="shadow lightbox" }
+![Completed form: the highlighted fields determine for which element type, when and for whom data collections are created](assets/quality_management_data_collection_generator_element_config_v2_en.png){ class="shadow lightbox" title="Tab Configuration, type Element · 2026.10.22" }
 
 See also [Configuration in the type Course](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
 
-![6](assets/6_green_24.png) **Type element**<br>
-
-There is one data collection for each element.
-
-Depending on how the product is set up, elements can be, for example:
+#### Type element {: #element_type }
+The generator creates one data collection for each element of this element type. Which element types are available depends on how the Course Planner is set up, for example:
 
 * Semester
 * Program
 * Module
 
-![7](assets/7_green_24.png) **Element date**<br>
-Triggering start events for the generator of type "Element" can be:
+#### Element date {: #element_date }
+The element date determines from which date of the element the start of the data collection is calculated:
 
 * Begin
 * End
 
-![8](assets/8_green_24.png) **Days after element date**<br>
-The start of the data collection is calculated from the start trigger and the number of days entered here.
+#### Days after element date {: #element_days_after_element_date }
+The start of the data collection is calculated from the element date and the number of days entered here.
 The number of days can also be negative.
+
+#### Duration of the data collection (days) {: #element_duration }
+For the type "Element", you enter the duration in days, not in hours as for the type "Course". After this deadline, it is no longer possible to submit the form.
 
 
 ### Tab "Report access"
 
-The configuration entered here is transferred 1:1 to the created data collections.
-See [Data collections](Quality_Management_Data_Collections.md).
+As for the type "Course", the generator transfers the access rights you define here to every data collection it creates. The individual settings are described on the page [Data collections](Quality_Management_Data_Collections.md).
 
 
 ### Tab "White list"
 
-If a generator has been created, this results in a list of elements for which data collections are generated.
-
-If a white list is also defined, only elements that are contained both in the list originally created by the generator and in this white list are taken into account for data collections.
+With the white list, you limit the generator to selected elements. It then only takes into account elements that meet its configuration and are also on the white list.
 
 
 ### Tab "Black list"
 
-If a generator has been created, this results in a list of elements for which data collections are generated. Individual elements can be excluded in the black list.
+With the black list, you exclude individual elements that the generator would otherwise take into account according to its configuration.
 
-!!! note "Note"
+!!! tip "Tip"
 
-    It only makes sense to create either a white list or a black list.<br>If data collections are to be carried out **only for a small part of the elements**, a **white list** is recommended.<br> If data collections are to be carried out **for the majority of the elements**, a **black list** is recommended.
+    Create either a white list or a black list.<br>If only a few elements are to receive data collections, the white list is suitable.<br> If most elements are to receive data collections, the black list is suitable.
 
 [To the top of the page ^](#Quality_Management_Data_Collection_Generators)
 
 ---
 
 
-## Switch on generator {: #activate_QMgenerator}
+## Enable generator {: #activate_QMgenerator}
 
-Each newly created generator is initially switched off. This allows it to be configured at leisure. A generator is switched on and activated using the button at the top left.
+A new generator is disabled. This way, you can configure it at leisure before it creates data collections. To enable it, click "Disabled" at the top left and select "Enable".
 
-![Button Switched off at the top left highlighted, above the tabs Configuration, Report access, White list and Black list of a generator](assets/quality_management_data_collection_generator_switch_v1_de.png){ class="shadow lightbox" }
+![Button Disabled at the top left highlighted, above the tabs Configuration, Report access, White list and Black list of a generator](assets/quality_management_data_collection_generator_switch_v1_en.png){ class="shadow lightbox" title="Generator in the quality management · 2026.10.22" }
 
-!!! note "Note"
+!!! info "Important"
 
-    Editing a generator is only possible if the generator is switched off.
+    A generator can only be edited while it is disabled.
+
+When you enable a generator, the dialog "Enable data collection generator" opens with the field "Due date". The due date determines from when on the generator takes data collections into account. For a new generator, the field contains the current point in time. If you enable a generator again that has already run, the field contains the time of its last run before it was disabled. Below the field, the dialog shows how many new data collections are generated with this due date. If you change the due date, the number is updated.
+
+![Field Due date with date and time and below it the information how many new data collections are generated when the generator is enabled](assets/quality_management_data_collection_generators_enable_dialog_v1_en.png){ class="shadow lightbox" title="Dialog Enable data collection generator · 2026.10.22" }
+
+Click "Enable" to enable the generator. With "Cancel", it remains disabled.
+
+!!! warning "Catching up after enabling again"
+
+    If a generator was disabled for some time, it catches up on data collections when it is enabled again. The due date is decisive.
+
+    * **Due date unchanged:** The generator catches up on the data collections that became due while it was disabled.
+    * **Due date set to the current point in time:** The generator does not catch up on missed data collections. For the type "Course", however, it can create data collections that are already running at this moment.
+    * **Period:** Data collections that are caught up keep the start and end that result from the configuration. They therefore only run for the remaining time.
+    * **Expired data collections:** For the start trigger "Daily" and for the type "Events of a coach in a course", the generator only catches up on data collections that are still running when it is enabled. For the start triggers "Start of course" and "End of course" and for the type "Element", it also creates data collections whose end has already passed when it is enabled.
+
+    Therefore, check the number in the dialog before you click "Enable".
 
 [To the top of the page ^](#Quality_Management_Data_Collection_Generators)
 
@@ -288,7 +309,13 @@ Each newly created generator is initially switched off. This allows it to be con
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Quality Management: Data collections >](Quality_Management_Data_Collections.md)<br>
 [Modules: Overview >](../../manual_admin/administration/Modules.md)<br>
-[Quality Management: Data collections >](Quality_Management_Data_Collections.md)
+[Quality Management: Data Collection Preview >](Quality_Management_Data_Collection_Preview.md)
+
+**Further reading**<br>
+[Quality Management: Overview >](Quality_Management.md)<br>
+[Quality Management: Analysis >](Quality_Management_Analysis.md)
 
 [To the top of the page ^](#Quality_Management_Data_Collection_Generators)
