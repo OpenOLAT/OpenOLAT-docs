@@ -102,13 +102,13 @@ Speicherung der *alten* OpenOlat Fragebögen. In der Regel nicht mehr relevant, 
 
 ### Tests
 
-Es werden alle [Tests](../learningresources/Course_Element_Test.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Elemente können ausgewählt und als ZIP-Datei gespeichert werden. In der ZIP-Datei liegen dann die einzelnen ausgewählten Tests in jeweils einem extra Ordner.
+Es werden alle [Tests](../learningresources/Course_Element_Test.de.md) des Kurses angezeigt. Kursbausteine "Selbsttest" sind in der Kursarchivierung nicht enthalten. Die gewünschten zu archivierenden Elemente können ausgewählt und als ZIP-Datei gespeichert werden. In der ZIP-Datei liegen dann die einzelnen ausgewählten Tests in jeweils einem extra Ordner.
 
-Archivierte Tests werden personalisiert gespeichert und enthalten alle Testergebnisse.
+Archivierte Tests werden personalisiert gespeichert und enthalten alle Testergebnisse. Jede Excel-Datei mit Testresultaten im Archiv enthält das Sheet "Exportinformationen" mit Kurs, Kursbaustein, Zeitpunkt und der Person, die das Archiv erstellt hat, siehe [Tests exportieren](../learningresources/Test_export.de.md#export_information). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
 
 Testergebnisse als PDF-Dateien enthält das Archiv, wenn Sie im Wizard-Schritt "Einstellungen" bei "Kursbausteine" die Option "Benutzerspezifisch" und beim Kursbaustein Test die Option "Erweitert – mit PDF" wählen. Die Auswahl erscheint nur, wenn in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist. Die Option "Alle PDF-Dateien in einem Ordner" bietet nur der Export im Kursbaustein Test über den Button "Resultate exportieren". Mehr dazu unter [Testergebnisse archivieren](../learningresources/Course_Element_Test.de.md#archive) und [Tests exportieren](../learningresources/Test_export.de.md#pdf_files). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
-![Button Resultate exportieren über der Liste der Teilnehmenden markiert](assets/test_export_results1_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Kursbaustein Test" }
+![Den Export der Testresultate finden: Kursbaustein Test im Kursmenü, Tab Teilnehmer:innen und Button Resultate exportieren markiert](assets/test_export_results1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Kursbaustein Test · 2026.10.22" }
 
 ### Kursresultate
 
@@ -122,7 +122,7 @@ Kursresultate beinhalten die zusammengefasste Gesamtauswertung eines Kurses, _ni
 
 Es werden alle [Aufgaben](../learningresources/Course_Element_Task.de.md) und [Gruppenaufgaben](../learningresources/Course_Element_Grouptask.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Aufgaben bzw. Gruppenaufgaben können ausgewählt und als ZIP-Datei gespeichert werden.
 
-In der ZIP-Datei liegen dann die einzelnen ausgewählten Aufgaben/Gruppenaufgaben in jeweils einem extra Ordner. In diesem befinden sich dann die Ergebnisse der einzelnen Lernenden sowie der Gesamtüberblick als Excel-Datei.
+In der ZIP-Datei liegen dann die einzelnen ausgewählten Aufgaben/Gruppenaufgaben in jeweils einem extra Ordner. In diesem befinden sich dann die Ergebnisse der einzelnen Lernenden sowie der Gesamtüberblick als Excel-Datei. Die Excel-Datei entsteht nur, wenn im Kursbaustein der Schritt "Bewertung" aktiviert ist. Sie enthält das Sheet "Exportinformationen". Dort steht unter "Exportiert von" die Person, die das Archiv erstellt hat, siehe [Excel-Report der Resultate](../learningresources/Assessing_tasks_and_group_tasks.de.md#results_export).
 
 ### Themenvergabe
 
@@ -195,6 +195,7 @@ Hier werden die Personen, die den Kurs gebucht haben angezeigt, sofern der Kurs 
 [Kursbaustein "Checkliste" >](../learningresources/Course_Element_Checklist.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
+[Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)<br>
 [Kursbaustein "Themenvergabe" >](../learningresources/Course_Element_Topic_Assignment.de.md)<br>
 [Kursbaustein "Forum" >](../learningresources/Course_Element_Forum.de.md)<br>
 [Kursbaustein "Dateidiskussion" >](../learningresources/Course_Element_File_Dialog.de.md)<br>

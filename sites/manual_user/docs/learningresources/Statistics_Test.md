@@ -12,7 +12,7 @@ You can also open the evaluation of a single test with the "Test Statistics" but
 
 Both the key figures for a test and further analyses of the completion time, average points per question and the percentage of correct answers per question are displayed. Furthermore, key figures such as the number of participants who have completed the question, the average number of points and processing time etc. are displayed and visualized for each question. Using key values for test assessment and item analysis, you can assess a test in terms of difficulty and suitability, for example.
 
-A download of the raw data and a print version are also available here.
+A download of the raw data and a print version are also available here. The Excel file from "Download raw data" contains the sheet "Export information", which records which course and course element the data comes from, and when and by whom it was downloaded, see [Export tests](Test_export.md#export_information). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
 
 Access to the test statistics is not only available to the course owners but also to all coaches of the course. Other members see the menu item if they have been granted the right "Statistics", see [Assignment of additional rights](Members_management.md#additional_rights).
 

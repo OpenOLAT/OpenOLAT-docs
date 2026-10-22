@@ -33,7 +33,7 @@ Here too, owners always find the menu item, other authors only if exporting is a
 
 !!! tip "Tip"
 
-    Please note whether you are in the administration of a course or of a test learning resource. In the course, the editor entry is called **Course editor**, in the test learning resource **Test editor**.
+    Please note whether you have opened the administration of a course or of a test learning resource. In the course, the editor entry is called "Course editor", in the test learning resource "Test editor".
 
 
 [To the top of the page ^](#test_export)
@@ -92,7 +92,7 @@ Questions created in OpenOlat comply with the QTI standard. This means they can 
 
 ### Export to pool
 
-If you are in the test editor of a test learning resource, select the desired question and click on the icon with the 3 dots in the upper right corner. With "Export to pool" you transfer the question to the question bank.
+If you have opened the test editor of a test learning resource, select the desired question and click on the icon with the 3 dots in the upper right corner. With "Export to pool" you transfer the question to the question bank.
 
 ![Menu with three dots at the top right of the question with the entry Export to pool marked](assets/test_export_question_to_pool_v2_en.png){ class="shadow lightbox" title="Question in the test editor · 2026.10.01" }
 
@@ -136,7 +136,9 @@ In the dialog "Export" you choose the format in the step "Type". Word and QTI 2.
 
 ### Test Statistics
 
-Whoever wants to know how a test turned out sees the key figures of the whole test and of each individual question in the test statistics. To do this, use the **"Test Statistics" button** in the "Participants" tab of the "Test" course element. The button is available to coaches and owners. You find the evaluation of all tests of the course under `Course > Administration > Test statistics`, see [Test statistics](Statistics_Test.md).
+Whoever wants to know how a test turned out sees the key figures of the whole test and of each individual question in the test statistics. For a single test, use the button "Test Statistics" in the course element "Test". The button is available to coaches and owners. You find it under:<br>`Course > Course element "Test" > Tab "Participants" > Button "Test Statistics"`
+
+You find the evaluation of all tests of the course under `Course > Administration > Test statistics`, see [Test statistics](Statistics_Test.md).
 
 ![Test Statistics button above the list of participants marked](assets/test_export_statistics1_v1_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element · 2026.10.01" }
 
@@ -148,9 +150,9 @@ Whoever wants to know how a test turned out sees the key figures of the whole te
 
 ### Test results of participants [:octicons-tag-16:{ title="from Release 16.2 (OO-5974)" }](https://track.frentix.com/issue/OO-5974)
 
-Whoever wants to evaluate, print or archive the results of a test receives a zip file with all test results of all participants in the selected course element via the **"Export results" button**. The button is available to coaches and owners in the tab "Participants" of the course element "Test".
+Whoever wants to evaluate, print or archive the results of a test receives a zip file with all test results of all participants in the selected course element via the button "Export results". The button is available to coaches and owners. You find it under:<br>`Course > Course element "Test" > Tab "Participants" > Button "Export results"`
 
-![Export results button above the list of participants marked](assets/test_export_results1_v1_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element · 2026.10.01" }
+![Finding the export of test results: course element Test in the course menu, tab Participants and button Export results marked](assets/test_export_results1_v2_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element · 2026.10.22" }
 
 If you have decided to create a zip file, you can specify a name for the zip file and choose one of the options offered for its contents.
 
@@ -207,6 +209,24 @@ Whoever evaluates the results sees in the Excel file with the raw data which par
 
 For each question, the column "Score" contains the score of the question. For automatically corrected questions, it is followed by the column "Adjustment" with the amount by which the points were adjusted. How an adjustment is made is described on the page [Assessing tests](../learningresources/Assessing_tests.md#adjust_score). You receive the same Excel file in the test statistics via "Download raw data".
 
+#### Sheet "Export information" [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812) {: #export_information}
+
+Whoever processes exported raw data further or stores it outside OpenOlat recognises from the sheet "Export information" which course and which course element the file comes from, and when and by whom it was created. The sheet is the last sheet in every Excel file with test results, whether the file comes from "Export results", from "Download raw data" in the [test statistics](Statistics_Test.md) or from the [course archiving](Course_Archiving.md). It has the columns "Information" and "Value" and these rows:
+
+Row | Content
+---------|----------
+URL | Link to the course element in the course. The link takes you from the file directly back to the test.
+OpenOlat Version | Version of OpenOlat with which the file was created.
+Course title | Title of the course.
+Course reference | Reference of the course. If the course has no reference, the ID of the course is shown here.
+Course element title | Title of the course element.
+Course element ID | Number of the course element. The same number is at the end of the URL. It identifies the course element unambiguously, even if its title changes later.
+Export language | Language of the person who started the export, as a written-out name, for example "German".
+Exported | Date and time of the export.
+Exported by | Name of the person who started the export. The row stays empty in archive files that OpenOlat creates itself, for example when deleting the test data in the course element with "Delete all data".
+
+If the test does not belong to a course, for example in the test statistics of a standalone test learning resource, "URL", "Course title" and "Course reference" refer to the test learning resource. The rows "Course element title" and "Course element ID" are then missing.
+
 !!! note "Note"
 
     There is also an option in the course administration under `Course > Administration > Archiving & Reporting` to export or archive test results. For more information, see [Archiving test results](../learningresources/Course_Element_Test.md#archive).
@@ -224,6 +244,7 @@ For each question, the column "Score" contains the score of the question. For au
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Test statistics >](Statistics_Test.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
+[Course administration - Archiving & Reports >](Course_Archiving.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test.md)
 
 **Further**<br>

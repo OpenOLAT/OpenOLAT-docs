@@ -101,13 +101,13 @@ Storage of *old* OpenOlat questionnaires. Generally no longer relevant, as the q
 
 ### Tests
 
-All [tests](../learningresources/Course_Element_Test.md) of the course are displayed. The desired elements to be archived can be selected and saved as a ZIP file. The individual selected tests are then stored in a separate folder in the ZIP file.
+All [tests](../learningresources/Course_Element_Test.md) of the course are displayed. Course elements "Self-test" are not included in the course archiving. The desired elements to be archived can be selected and saved as a ZIP file. The individual selected tests are then stored in a separate folder in the ZIP file.
 
-Archived tests are saved on a personalized basis and contain all test results.
+Archived tests are saved on a personalized basis and contain all test results. Every Excel file with test results in the archive contains the sheet "Export information" with course, course element, time and the person who created the archive, see [Export tests](../learningresources/Test_export.md#export_information). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
 
 The archive contains test results as PDF files if you select "Customised" for "Course elements" in the wizard step "Settings" and "Advanced – with PDF" for the course element Test. The selection only appears if the [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is switched on in the system administration under `Administration > External tools > PDF generator`. The option "All PDF files in one folder" is only offered by the export in the course element Test via the button "Export results". More on this under [Archiving test results](../learningresources/Course_Element_Test.md#archive) and [Export tests](../learningresources/Test_export.md#pdf_files). [:octicons-tag-16:{ title="from Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
-![Export results button above the list of participants marked](assets/test_export_results1_v1_en.png){ class="shadow lightbox" title="Participants tab in the course element Test" }
+![Finding the export of test results: course element Test in the course menu, tab Participants and button Export results marked](assets/test_export_results1_v2_en.png){ class="shadow lightbox" title="Participants tab in the course element Test · 2026.10.22" }
 
 
 ### Course results
@@ -123,7 +123,7 @@ Course results contain the summarized overall assessment of a course, _not_ indi
 
 All [tasks](../learningresources/Course_Element_Task.md) and [group tasks](../learningresources/Course_Element_Grouptask.md) of the course are displayed. The desired tasks or group tasks to be archived can be selected and saved as a ZIP file.
 
-The ZIP file then contains the individual selected tasks/group tasks, each in a separate folder. This folder then contains the results of the individual learners as well as the overall overview as an Excel file.
+The ZIP file then contains the individual selected tasks/group tasks, each in a separate folder. This folder then contains the results of the individual learners as well as the overall overview as an Excel file. The Excel file is only created if the step "Grading" is activated in the course element. It contains the sheet "Export information". There, "Exported by" shows the person who created the archive, see [Excel report of the results](../learningresources/Assessing_tasks_and_group_tasks.md#results_export).
 
 
 ### Topic assignment
@@ -198,6 +198,7 @@ The people who have booked the course are displayed here if the course has [offe
 [Course Element "Checklist" >](../learningresources/Course_Element_Checklist.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
+[Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)<br>
 [Course Element "Topic Assignment" >](../learningresources/Course_Element_Topic_Assignment.md)<br>
 [Course Element "Forum" >](../learningresources/Course_Element_Forum.md)<br>
 [Course Element "File Dialog" >](../learningresources/Course_Element_File_Dialog.md)<br>

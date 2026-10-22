@@ -34,7 +34,7 @@ Auch hier finden Besitzer:innen den Menüpunkt immer, andere Autor:innen nur, we
 
 !!! tip "Tipp"
 
-    Achten Sie darauf, ob Sie sich in der Administration eines Kurses oder einer Test-Lernressource befinden. Im Kurs heisst der Eintrag zum Editor **Kurseditor**, in der Test-Lernressource **Testeditor**.
+    Achten Sie darauf, ob Sie die Administration eines Kurses oder einer Test-Lernressource geöffnet haben. Im Kurs heisst der Eintrag zum Editor "Kurseditor", in der Test-Lernressource "Testeditor".
 
 
 [Zum Seitenanfang ^](#test_export)
@@ -93,7 +93,7 @@ In OpenOlat erstellte Fragen entsprechen dem QTI-Standard. Sie können dadurch a
 
 ### Zum Pool exportieren
 
-Befinden Sie sich im Testeditor einer Test-Lernressource, wählen Sie die gewünschte Frage aus und klicken auf das Icon mit den 3 Punkten rechts oben. Mit "Zum Pool exportieren" übernehmen Sie die Frage in den Fragenpool.
+Haben Sie den Testeditor einer Test-Lernressource geöffnet, wählen Sie die gewünschte Frage aus und klicken auf das Icon mit den 3 Punkten rechts oben. Mit "Zum Pool exportieren" übernehmen Sie die Frage in den Fragenpool.
 
 ![Menü mit drei Punkten rechts oben bei der Frage und darin der Eintrag Zum Pool exportieren markiert](assets/test_export_question_to_pool_v2_de.png){ class="shadow lightbox" title="Frage im Testeditor · 2026.10.01" }
 
@@ -137,7 +137,9 @@ Im Dialog "Export" wählen Sie im Schritt "Typ" das Format. Word und QTI 2.1 ste
 
 ### Teststatistiken
 
-Wer wissen will, wie ein Test ausgefallen ist, sieht in den Teststatistiken die Kennzahlen des ganzen Tests und jeder einzelnen Frage. Verwenden Sie dazu den **Button "Teststatistiken"** im Tab "Teilnehmer:innen" des Kursbausteins "Test". Der Button steht Betreuer:innen und Besitzer:innen zur Verfügung. Die Auswertung aller Tests des Kurses finden Sie unter `Kurs > Administration > Teststatistiken`, siehe [Teststatistiken](Statistics_Test.de.md).
+Wer wissen will, wie ein Test ausgefallen ist, sieht in den Teststatistiken die Kennzahlen des ganzen Tests und jeder einzelnen Frage. Für einen einzelnen Test verwenden Sie den Button "Teststatistiken" im Kursbaustein "Test". Der Button steht Betreuer:innen und Besitzer:innen zur Verfügung. Sie finden ihn unter:<br>`Kurs > Kursbaustein "Test" > Tab "Teilnehmer:innen" > Button "Teststatistiken"`
+
+Die Auswertung aller Tests des Kurses finden Sie unter `Kurs > Administration > Teststatistiken`, siehe [Teststatistiken](Statistics_Test.de.md).
 
 ![Button Teststatistiken über der Liste der Teilnehmenden markiert](assets/test_export_statistics1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.10.07" }
 
@@ -149,9 +151,9 @@ Wer wissen will, wie ein Test ausgefallen ist, sieht in den Teststatistiken die 
 
 ### Testresultate der Teilnehmenden [:octicons-tag-16:{ title="ab Release 16.2 (OO-5974)" }](https://track.frentix.com/issue/OO-5974)
 
-Wer die Resultate eines Tests auswerten, ausdrucken oder archivieren will, erhält mit dem **Button "Resultate exportieren"** eine zip-Datei mit sämtlichen Testresultaten aller Teilnehmenden im ausgewählten Kursbaustein. Der Button steht Betreuer:innen und Besitzer:innen im Tab "Teilnehmer:innen" des Kursbausteins "Test" zur Verfügung.
+Wer die Resultate eines Tests auswerten, ausdrucken oder archivieren will, erhält mit dem Button "Resultate exportieren" eine zip-Datei mit sämtlichen Testresultaten aller Teilnehmenden im ausgewählten Kursbaustein. Der Button steht Betreuer:innen und Besitzer:innen zur Verfügung. Sie finden ihn unter:<br>`Kurs > Kursbaustein "Test" > Tab "Teilnehmer:innen" > Button "Resultate exportieren"`
 
-![Button Resultate exportieren über der Liste der Teilnehmenden markiert](assets/test_export_results1_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test" }
+![Den Export der Testresultate finden: Kursbaustein Test im Kursmenü, Tab Teilnehmer:innen und Button Resultate exportieren markiert](assets/test_export_results1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.10.22" }
 
 Haben Sie sich für das Erstellen der zip-Datei entschieden, können Sie einen Namen für die zip-Datei angeben und eine der angebotenen Varianten für ihren Inhalt wählen.
 
@@ -208,6 +210,24 @@ Wer die Resultate auswertet, sieht in der Excel-Datei mit den Rohdaten, welcher 
 
 Je Frage steht in der Spalte "Pkt" die Punktzahl der Frage. Bei automatisch korrigierten Fragen folgt die Spalte "Anpassung" mit dem Betrag, um den die Punkte angepasst wurden. Wie eine Anpassung entsteht, steht auf der Seite [Tests bewerten](../learningresources/Assessing_tests.de.md#adjust_score). Dieselbe Excel-Datei erhalten Sie in den Teststatistiken über "Rohdaten herunterladen".
 
+#### Sheet "Exportinformationen" [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812) {: #export_information}
+
+Wer exportierte Rohdaten weiterverarbeitet oder ausserhalb von OpenOlat ablegt, erkennt am Sheet "Exportinformationen", aus welchem Kurs und welchem Kursbaustein die Datei stammt und wann und von wem sie erstellt wurde. Das Sheet steht als letztes Sheet in jeder Excel-Datei mit Testresultaten, gleich ob die Datei aus "Resultate exportieren", aus "Rohdaten herunterladen" in den [Teststatistiken](Statistics_Test.de.md) oder aus der [Kursarchivierung](Course_Archiving.de.md) stammt. Es hat die Spalten "Information" und "Wert" und diese Zeilen:
+
+Zeile | Inhalt
+---------|----------
+URL | Link auf den Kursbaustein im Kurs. Über den Link gelangen Sie von der Datei direkt zum Test zurück.
+OpenOlat Version | Version von OpenOlat, mit der die Datei erstellt wurde.
+Kurstitel | Titel des Kurses.
+Kurskennzeichen | Kennzeichen des Kurses. Hat der Kurs kein Kennzeichen, steht hier die ID des Kurses.
+Kursbausteintitel | Titel des Kursbausteins.
+Kursbaustein ID | Nummer des Kursbausteins. Dieselbe Nummer steht am Ende der URL. Sie bezeichnet den Kursbaustein eindeutig, auch wenn sich sein Titel später ändert.
+Exportsprache | Sprache der Person, die den Export ausgelöst hat, als ausgeschriebener Name, zum Beispiel "German".
+Exportiert | Datum und Uhrzeit des Exports.
+Exportiert von | Name der Person, die den Export ausgelöst hat. Leer bleibt die Zeile in Archivdateien, die OpenOlat selbst anlegt, zum Beispiel beim Löschen der Testdaten im Kursbaustein mit "Alle Daten löschen".
+
+Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigenständigen Test-Lernressource, beziehen sich "URL", "Kurstitel" und "Kurskennzeichen" auf die Test-Lernressource. Die Zeilen "Kursbausteintitel" und "Kursbaustein ID" fehlen dann.
+
 
 !!! note "Hinweis"
 
@@ -225,6 +245,7 @@ Je Frage steht in der Spalte "Pkt" die Punktzahl der Frage. Bei automatisch korr
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Teststatistiken >](Statistics_Test.de.md)<br>
 [Tests bewerten >](../learningresources/Assessing_tests.de.md)<br>
+[Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)
 
 **Weiterführend**<br>

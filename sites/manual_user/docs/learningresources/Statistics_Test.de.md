@@ -12,7 +12,7 @@ Die Auswertung eines einzelnen Tests öffnen Sie auch mit dem Button "Teststatis
 
 Es werden sowohl die Kennzahlen für einen Test als auch weitere Analysen zur Bearbeitungsdauer, durchschnittlichen Punkten pro Frage und der prozentuale Anteil der richtigen Antworten pro Frage angezeigt. Des Weiteren werden für jede Frage Kennzahlen wie die Anzahl der Teilnehmenden, die die Frage ausgefüllt haben, die durchschnittliche Punktzahl und Bearbeitungsdauer usw. angezeigt und visualisiert. Durch Kennwerte zur Testevaluation und Itemanalyse können Sie so einen Test im Hinblick auf z.B. Schwierigkeit und Eignung evaluieren.
 
-Ein Download der Rohdaten sowie eine Druckversion stehen hier ebenfalls zur Verfügung.
+Ein Download der Rohdaten sowie eine Druckversion stehen hier ebenfalls zur Verfügung. Die Excel-Datei aus "Rohdaten herunterladen" enthält das Sheet "Exportinformationen", das festhält, aus welchem Kurs und Kursbaustein die Daten stammen und wann und von wem sie heruntergeladen wurden, siehe [Tests exportieren](Test_export.de.md#export_information). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
 
 Zugang zu den Teststatistiken haben neben den Kursbesitzer:innen auch alle Betreuer:innen des Kurses. Weitere Mitglieder sehen den Menüpunkt, wenn ihnen das Recht "Statistiken" erteilt wurde, siehe [Vergabe zusätzlicher Rechte](Members_management.de.md#additional_rights).
 

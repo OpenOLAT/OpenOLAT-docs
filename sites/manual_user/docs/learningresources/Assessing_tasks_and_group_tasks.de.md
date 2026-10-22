@@ -1,60 +1,60 @@
 # Aufgaben und Gruppenaufgaben bewerten
 
-Hier erfahren Sie wie man Bewertungen für Aufgaben und Gruppenaufgaben mit Hilfe des OpenOlat "Bewertungswerkzeugs" vornimmt.
+Wer Abgaben in den Kursbausteinen "Aufgabe" und "Gruppenaufgabe" bewertet, erledigt das im Bewertungswerkzeug des Kurses. Hier erfahren Sie, wie Sie dort Abgaben ansehen, herunterladen und bewerten.
 
-Gehen Sie in das Bewertungswerkzeug und wählen Sie in der linken Übersicht den Assessmentbaustein aus, den Sie bewerten möchten. Hier finden Sie zwei Tabs: Übersicht und Teilnehmer:innen.
+Sie öffnen das Bewertungswerkzeug unter:<br>`Kurs > Administration > Bewertungswerkzeug`
 
-Im Tab Übersicht erhalten Sie eine Übersicht zur Bewertung dieses Kursbausteins, z.B. wie viele Personen diesen Kursbaustein schon bestanden haben. 
-Im Tab Teilnehmer:innen werden die Teilnehmenden angezeigt und die eigentliche Bewertung von Teilnehmenden kann gestartet werden.
+Wählen Sie links den Kursbaustein aus, den Sie bewerten möchten. Er hat zwei Tabs: Im Tab "Übersicht" sehen Sie den Stand der Bewertung dieses Kursbausteins, zum Beispiel wie viele Personen ihn schon bestanden haben. Im Tab "Teilnehmer:innen" sehen Sie die Teilnehmenden und starten die Bewertung.
 
 ## Tab Teilnehmer:innen
 
 **Generelle Aktionsmöglichkeiten**
 
-![Buttons "Neue Massenbewertung starten", "Resultate exportieren", "Daten exportieren" und "Statistik" über der Teilnehmerliste: Tab Teilnehmer:innen des Bewertungswerkzeugs](assets/assessment_tool_task_participants_de.png){ class="shadow lightbox" }
+![Buttons "Neue Massenbewertung starten", "Resultate exportieren", "Daten exportieren" und "Statistik" über der Teilnehmerliste](assets/assessment_tool_task_participants_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Bewertungswerkzeug" }
 
 Betreuer:innen und Besitzer:innen haben über die entsprechenden Buttons verschiedene Aktionsmöglichkeiten: 
 
-* Über "Resultate exportieren" die abgegebenen Dokumente aller oder ausgewählter Teilnehmenden samt einem Excel-Report herunterladen
+* Über "Resultate exportieren" die abgegebenen Dokumente aller oder ausgewählter Teilnehmenden samt einem [Excel-Report](#results_export) herunterladen.
 * Über "Daten exportieren" die Bewertungsdaten der Teilnehmenden ausgeben.
 * Über "Statistik" die Auswertung des Kursbausteins öffnen.
-* Eine neue Massenbewertung starten und damit alle Teilnehmenden auf einmal zu bewerten.
-* Die Aufgabe für alle oder mehrere ausgewählte Teilnehmenden auf den Status "abgeschlossen" zu setzen und damit die Bewertung final zu beenden. 
-* Die Bewertungen der Aufgabe für alle oder mehrere ausgewählte Teilnehmenden auf einen Schlag sichtbar bzw. unsichtbar zu setzen, also freizugeben oder die Freigabe zurückzuziehen.
-* Eine E-Mail an alle oder bestimmte Teilnehmende verschicken.
-* Die Abgabe für bestimmte oder alle Personen zu verlängern.
+* Über "Neue Massenbewertung starten" alle Teilnehmenden auf einmal bewerten.
+* Über "Bewertung abschliessen" die Bewertung für alle oder ausgewählte Teilnehmende abschliessen.
+* Über "Freigeben" und "Freigabe zurückziehen" die Bewertungen für alle oder ausgewählte Teilnehmende auf einen Schlag sichtbar oder unsichtbar machen.
+* Über "E-Mail" eine E-Mail an alle oder ausgewählte Teilnehmende senden.
+* Über "Verlängern" die Fristen für alle oder ausgewählte Personen verlängern.
 
-Direkt auswählbar sind die Optionen "Resultate exportieren" sowie eine Massenbewertung vorzunehmen. Wie man eine Massenbewertung für Aufgaben genau erstellt erfahren Sie hier im Bereich [How to](../../manual_how-to/bulk_assessment/bulk_assessment.de.md).
-Für weitere Aktionen, die sich nur auf bestimmte Teilnehmende beziehen müssen die gewünschten Teilnehmenden zunächst ausgewählt werden bevor die Optionen angezeigt werden.
+Ohne Auswahl stehen die Buttons "Neue Massenbewertung starten", "Resultate exportieren", "Daten exportieren" und "Statistik" zur Verfügung. Wie Sie eine Massenbewertung für Aufgaben erstellen, beschreibt die Anleitung [Wie und wo kann ich eine Massenbewertung vornehmen?](../../manual_how-to/bulk_assessment/bulk_assessment.de.md)
 
-![Nach Auswahl einer Person erscheinen sechs Aktionen: "Bewertung abschliessen", "Freigeben", "Freigabe zurückziehen", "Verlängern", "Resultate exportieren" und "E-Mail": Bewertungswerkzeug](assets/assessment_tool_task_bulk_actions_de.png){ class="shadow lightbox" }
+Für Aktionen, die nur bestimmte Teilnehmende betreffen, wählen Sie diese Personen zuerst in der Liste aus. Danach erscheinen die Buttons für die Auswahl.
+
+![Nach Auswahl einer Person erscheinen sechs Aktionen: "Bewertung abschliessen", "Freigeben", "Freigabe zurückziehen", "Verlängern", "Resultate exportieren" und "E-Mail"](assets/assessment_tool_task_bulk_actions_de.png){ class="shadow lightbox" title="Teilnehmerliste im Bewertungswerkzeug" }
 
 ## Einreichung ansehen
 
-Bevor eine Aufgabe bewertet werden kann müssen sich die Betreuer:innen oder Besitzer:innen die Einreichungen bzw. abgegebenen Dokumente ansehen. Dies kann entweder einzeln für jeden Teilnehmer bzw. Teilnehmerin oder in Form der Massenbewertung bzw. dem Herunterladen der abgegebenen Dokumente von mehreren Personen erfolgen. 
+Bevor Betreuer:innen oder Besitzer:innen eine Aufgabe bewerten, sehen sie sich die abgegebenen Dokumente an: einzeln für jede Person, oder für mehrere Personen gesammelt über die Massenbewertung oder den Download der abgegebenen Dokumente.
 
 ### Einreichungen einzelner Teilnehmender
 
-Sobald von einem Lernenden eine Datei über den Button "endgültige Abgabe" eingereicht wurde, kann sie vom Lehrenden geöffnet und angeschaut werden.
+Sobald Teilnehmende eine Datei mit dem Button "Endgültige Abgabe" abgegeben haben, können Betreuer:innen sie öffnen und ansehen.
 
-Um sich die Einreichung _einer einzelnen Person_ anzeigen zu lassen wählen Sie diese Person aus und klicken Sie auf die abgegebene Datei. 
+Um die Abgabe _einer einzelnen Person_ anzusehen, wählen Sie die Person aus und klicken auf die abgegebene Datei.
 
-![Schritt Abgabe ist "Abgeschlossen" markiert, mit abgegebener Datei, Abgabedatum und den Aktionen "Öffnen", "Laden" und "Abgegebene Dokumente": Bewertungsflow einer Person](assets/Aufgabe_abgegeben.png){ class="shadow lightbox" }
+![Schritt Abgabe ist "Abgeschlossen" markiert, mit abgegebener Datei, Abgabedatum und den Aktionen "Öffnen", "Laden" und "Abgegebene Dokumente"](assets/Aufgabe_abgegeben.png){ class="shadow lightbox" title="Bewertungsflow einer Person" }
 
-Wie Sie die Assessmentbausteine einzelner Personen generell bewerten erfahren Sie  in einer [Schritt für Schritt Anleitung](Assessment_of_learners.de.md).
+Wie Sie bewertbare Kursbausteine einzelner Personen bewerten, beschreibt die Schritt-für-Schritt-Anleitung [Lernende bewerten](Assessment_of_learners.de.md).
 
 ### Einreichungen aller oder mehrerer Teilnehmender
 
-Wenn viele Lösungsversuche hochgeladen wurden, oder Sie viele Lernende bewerten müssen, empfiehlt es sich, über die Schaltfläche "Resultate exportieren" alle Lösungsversuche auf einmal herunterzuladen. Im heruntergeladenen Ordner finden Sie ebenfalls alle Aufgabenzuweisungen. 
+Wenn viele Teilnehmende abgegeben haben oder Sie viele Personen bewerten müssen, laden Sie mit dem Button "Resultate exportieren" alle Abgaben auf einmal herunter. In der heruntergeladenen ZIP-Datei finden Sie auch alle zugewiesenen Aufgabenstellungen.
 
-Alternativ können Sie die gewünschten Personen auswählen und dann die Option "Resultate exportieren" wählen. 
+Alternativ wählen Sie die gewünschten Personen aus und klicken dann auf "Resultate exportieren".
 
 Anschliessend können Sie das [Bewertungsformular](The_assessment_form.de.md) ausfüllen. Es erscheint bei der Bewertung eines Kursbausteins unter "Bewertung".
 
 
 ### Excel-Report der Resultate [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9601)" }](https://track.frentix.com/issue/OO-9601) {: #results_export}
 
-Die ZIP-Datei aus "Resultate exportieren" enthält neben den abgegebenen Dokumenten einen Excel-Report. Er führt pro Person eine Zeile und hält fest, wer welchen Schritt wann abgeschlossen hat. Kursverantwortliche lesen daraus zum Beispiel ab, welche Betreuerin oder welcher Betreuer eine Bewertung abgeschlossen hat, und stützen darauf die Vergütung der Bewertungsarbeit.
+Die ZIP-Datei aus "Resultate exportieren" enthält neben den abgegebenen Dokumenten einen Excel-Report, sofern im Kursbaustein der Schritt "Bewertung" aktiviert ist. Ohne diesen Schritt enthält die ZIP-Datei nur die Dokumente. Der Report führt pro Person eine Zeile und hält fest, wer welchen Schritt wann abgeschlossen hat. Kursverantwortliche lesen daraus zum Beispiel ab, welche Betreuerin oder welcher Betreuer eine Bewertung abgeschlossen hat, und stützen darauf die Vergütung der Bewertungsarbeit.
 
 Neben Laufnummer, Kurspfad, erstem Zugriff und den Personendaten enthält der Report diese Spalten:
 
@@ -77,48 +77,64 @@ Ein Schritt, der im Kursbaustein nicht aktiviert ist, erzeugt keine Spalte. Fehl
 
 Denselben Excel-Report erzeugt die Kursarchivierung, sofern im Kursbaustein der Schritt Bewertung aktiviert ist.
 
+Wer Reports aus mehreren Kursen sammelt oder ausserhalb von OpenOlat ablegt, erkennt am Sheet "Exportinformationen", aus welchem Kurs und welchem Kursbaustein die Datei stammt und wann und von wem sie erstellt wurde. Die Excel-Datei hat dafür zwei Sheets: "Resultate" mit den Spalten oben und "Exportinformationen". Das Sheet "Exportinformationen" hat die Spalten "Information" und "Wert" und diese Zeilen: [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
+
+Zeile | Inhalt
+---------|----------
+URL | Link auf den Kursbaustein im Kurs. Über den Link gelangen Sie von der Datei direkt zur Aufgabe zurück.
+OpenOlat Version | Version von OpenOlat, mit der die Datei erstellt wurde.
+Kurstitel | Titel des Kurses.
+Kurskennzeichen | Kennzeichen des Kurses. Hat der Kurs kein Kennzeichen, steht hier die ID des Kurses.
+Kursbausteintitel | Titel des Kursbausteins.
+Kursbaustein ID | Nummer des Kursbausteins. Dieselbe Nummer steht am Ende der URL. Sie bezeichnet den Kursbaustein eindeutig, auch wenn sich sein Titel später ändert.
+Exportsprache | Sprache der Person, die den Export ausgelöst hat, als ausgeschriebener Name, zum Beispiel "German".
+Exportiert | Datum und Uhrzeit des Exports.
+Exportiert von | Name der Person, die den Export ausgelöst hat, in der Kursarchivierung die Person, die das Archiv erstellt hat. Leer bleibt die Zeile in Archivdateien, die OpenOlat selbst anlegt, zum Beispiel beim Löschen eines Kurses.
+
+Dasselbe Sheet enthalten die Excel-Dateien mit Testresultaten, siehe [Tests exportieren](Test_export.de.md#export_information).
+
 
 ## Bewertungsmöglichkeiten Kursbaustein "Aufgabe"
 
-Welche Schritte im Bewertungsflow genau zur Verfügung stehen, ist abhängig von der konkreten Konfiguration des Aufgaben Bausteins. Die Details werden in der Konfiguration des Kursbausteins ["Aufgabe"](../learningresources/Course_Element_Task.de.md) bzw. ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) festgelegt. Im Bewertungswerkzeug können die Bewertungsoptionen nicht mehr geändert werden.
+Welche Schritte im Bewertungsflow zur Verfügung stehen, hängt von der Konfiguration des Kursbausteins ab. Sie wird im Kursbaustein ["Aufgabe"](../learningresources/Course_Element_Task.de.md) bzw. ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) festgelegt. Im Bewertungswerkzeug lassen sich die Bewertungsoptionen nicht mehr ändern.
 
-Falls gewünscht und entsprechend konfiguriert, kann ein Rückgabe-Dokument hochgeladen werden. Dabei könnte es sich zum Beispiel um eine ausführliche Bewertungstabelle oder eine überarbeitete Version der Einreichung handeln. Auch ist es möglich eine Einreichung über den Button "Benötigt Überarbeitung" noch einmal an den Lernenden zurückzuspielen und eine Überarbeitungsschleife auszulösen.
+Falls so konfiguriert, laden Sie ein Rückgabe-Dokument hoch, zum Beispiel eine ausführliche Bewertungstabelle oder eine korrigierte Version der Einreichung. Mit dem Button "Benötigt Überarbeitung" geben Sie eine Einreichung an die teilnehmende Person zurück und lösen eine Überarbeitungsschleife aus.
 
-Sobald Teilnehmende eine Aufgabe definitiv abgegeben haben, ist eine erneute Abgabe oder ein Austauschen für sie nicht mehr möglich. Falls eine Aufgabe versehentlich abgegeben oder das falsche Dokument hochgeladen wurde, kann der/die Betreuer:in aber die "Abgabe erneut öffnen" und so dem Lernenden ermöglichen eine weitere Abgabe einzureichen.
+Sobald Teilnehmende eine Aufgabe endgültig abgegeben haben, können sie nichts mehr abgeben oder austauschen. Wurde eine Aufgabe versehentlich abgegeben oder das falsche Dokument hochgeladen, öffnen Betreuer:innen die Abgabe mit "Abgabe erneut öffnen" wieder. Die Person kann dann erneut abgeben.
 
-Wie weit der Bewertungsflow schon fortgeschritten ist, erkennen sowohl die Lernenden als auch die Lehrenden an den grünen Haken an den einzelnen Bewertungsschritten.
+Wie weit der Bewertungsflow fortgeschritten ist, erkennen Teilnehmende und Betreuer:innen an den grünen Haken bei den einzelnen Bewertungsschritten.
 
-Sobald eine Einreichung akzeptiert wurde und die teilnehmende Person keine Einreichungen bzw. Überarbeitungen mehr vornehmen soll, sollte der Button "Abgabe akzeptieren" bestätigt werden. Dadurch sind die Bearbeitung und die Bewertung einer Aufgabe definitiv abgeschlossen. Eine entsprechende Meldung erfolgt an die Teilnehmenden.
+Soll die Person keine Einreichungen oder Überarbeitungen mehr abgeben, klicken Sie auf den Button "Abgabe akzeptieren". Damit sind Bearbeitung und Bewertung der Aufgabe endgültig abgeschlossen. Die Teilnehmenden erhalten eine entsprechende Meldung.
 
-Die weiteren Bewertungsaktionen für die Aufgabe erfolgen im unteren Teil im Bereich "Bewertung", im eigentlichen Bewertungsformular. Hier können Punkte, Feedbacks usw. hinterlegt werden. Eine Beschreibung der Möglichkeiten finden sie auch [hier](The_assessment_form.de.md).
+Punkte, Feedback und weitere Angaben zur Bewertung hinterlegen Sie im unteren Teil im Bereich "Bewertung", dem eigentlichen Bewertungsformular. Die Möglichkeiten beschreibt die Seite [Das Bewertungsformular](The_assessment_form.de.md).
 
 ## Bewertungsflow für Gruppenaufgaben
 
-Die Bewertung von Einreichungen über den Kursbaustein "Gruppenaufgabe" erfolgt ähnlich wie beim Kursbaustein "Aufgabe".
+Abgaben im Kursbaustein "Gruppenaufgabe" bewerten Sie ähnlich wie im Kursbaustein "Aufgabe".
 
- * Gehen Sie zur gewünschten Gruppenaufgabe.
- * Wählen Sie im Tab "Übersicht" die gewünschte Gruppe oder filtern Sie im Tab "Teilnehmer:innen" die gewünschte Gruppe. 
- * Sofern ein Gruppenmitglied eine Einreichung für die Gruppe vorgenommen hat, gilt diese für die gesamte Gruppe und kann nun auch für die gesamte Gruppe bewertet werden.
- * Klicken Sie auf ein Gruppenmitglied oder wählen Sie im 3-Punkte Bereich die Option "Details anzeigen / bewerten" und Sie gelangen in den Bewertungsflow für die Gruppe. 
- * Nehmen Sie die Bewertung analog zur Bewertung des Kursbausteins Aufgabe vor. 
+ * Öffnen Sie die gewünschte Gruppenaufgabe.
+ * Wählen Sie im Tab "Übersicht" die gewünschte Gruppe oder filtern Sie im Tab "Teilnehmer:innen" nach der gewünschten Gruppe.
+ * Hat ein Gruppenmitglied für die Gruppe abgegeben, gilt die Abgabe für die ganze Gruppe und lässt sich für die ganze Gruppe bewerten.
+ * Klicken Sie auf ein Gruppenmitglied oder wählen Sie im 3-Punkte-Menü die Option "Details anzeigen / bewerten". Damit öffnen Sie den Bewertungsflow der Gruppe.
+ * Bewerten Sie die Gruppe wie beim Kursbaustein "Aufgabe".
 
-Im Bereich "Bewertung", also dem eigentlichen Bewertungsformular, klicken Sie auf den Button "Bewerten". 
+Im Bereich "Bewertung", dem eigentlichen Bewertungsformular, klicken Sie auf den Button "Bewerten".
 
-![Zuweisung, Abgabe und Rückgabe sind abgeschlossen, Schritt Bewertung steht auf "Offen" mit Leistungsübersicht und Button "Bewerten": Bewertungsflow einer Gruppe im Bewertungswerkzeug](assets/Gruppe_bewerten.png){ class="shadow lightbox" }
+![Zuweisung, Abgabe und Rückgabe sind abgeschlossen, Schritt Bewertung steht auf "Offen" mit Leistungsübersicht und Button "Bewerten"](assets/Gruppe_bewerten.png){ class="shadow lightbox" title="Bewertungsflow einer Gruppe im Bewertungswerkzeug" }
 
-Der Vorteil einer Gruppenaufgabe ist, dass eine Bewertung für alle Gruppenmitglieder über den Button "Bewerten" auf einen Schlag vorgenommen werden kann, gleichzeitig aber auch Anpassungen für einzelne Gruppenmitglieder möglich sind.
+Mit dem Button "Bewerten" bewerten Sie alle Gruppenmitglieder auf einen Schlag und können trotzdem einzelne Gruppenmitglieder abweichend bewerten.
 
-Wenn nicht die gesamte Gruppe bestanden hat oder nicht alle dieselbe Punktzahl erhalten sollen, darf "Für die ganze Gruppe" _nicht_ ausgewählt sein. Dadurch wird eine individuelle Bewertung pro Teilnehmer:in möglich.
+Wenn nicht die ganze Gruppe bestanden hat oder nicht alle dieselbe Punktzahl erhalten sollen, darf "Für die ganze Gruppe" _nicht_ ausgewählt sein. Dann bewerten Sie jedes Gruppenmitglied einzeln.
 
-![Aktivierte Checkbox "Für die ganze Gruppe" überträgt Punkte und Kommentar auf alle Mitglieder, mit Wahl zwischen "Nicht freigegeben" und "Freigegeben": Dialog Bewertung einer Gruppenaufgabe](assets/Gruppenbewertung.png){ class="shadow lightbox" }
+![Aktivierte Checkbox "Für die ganze Gruppe" überträgt Punkte und Kommentar auf alle Mitglieder, mit Wahl zwischen "Nicht freigegeben" und "Freigegeben"](assets/Gruppenbewertung.png){ class="shadow lightbox" title="Dialog Bewertung einer Gruppenaufgabe" }
 
 !!! info "Wichtig"
 
-    Sollen andere bewertbare Kursbausteine anstatt einer "Gruppenaufgabe" für eine Gruppe bewertet werden, müssen die Bewertungen für jedes Gruppenmitglied separat vorgenommen werden.
+    Andere bewertbare Kursbausteine als die "Gruppenaufgabe" bewerten Sie für eine Gruppe für jedes Gruppenmitglied einzeln.
 
 !!! note "Hinweis"
 
-    Im Kursrun ist die Bewertung der einzelnen Gruppen ähnlich wie generell beim Kursbaustein Aufgabe, ebenfalls möglich.
+    Gruppen lassen sich auch direkt im Kursbaustein "Gruppenaufgabe" bewerten, ähnlich wie im Kursbaustein "Aufgabe".
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -126,6 +142,7 @@ Wenn nicht die gesamte Gruppe bestanden hat oder nicht alle dieselbe Punktzahl e
 [Wie und wo kann ich eine Massenbewertung vornehmen? >](../../manual_how-to/bulk_assessment/bulk_assessment.de.md)<br>
 [Lernende bewerten >](Assessment_of_learners.de.md)<br>
 [Das Bewertungsformular >](The_assessment_form.de.md)<br>
+[Tests exportieren >](Test_export.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)
 
