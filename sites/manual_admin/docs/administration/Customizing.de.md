@@ -70,7 +70,10 @@ Damit Personen bei Fragen die passende Hilfe finden, legen Sie auf der Seite "Hi
 
 ## Sprachanpassungswerkzeug {: #language_adaption_tool}
 
-Passt eine Beschriftung der Oberfläche nicht zur Sprache Ihrer Organisation, ändern Sie mit dem Sprachanpassungswerkzeug einzelne Textelemente für die ganze Instanz. Der Button "Start" öffnet das Werkzeug in einem neuen Fenster.
+Passt eine Beschriftung der Oberfläche nicht zur Sprache Ihrer Organisation, ändern Sie mit dem Sprachanpassungswerkzeug einzelne Textelemente für die ganze Instanz. Sie finden das Werkzeug in der System-Administration unter:<br>
+`Administration > Customizing > Sprachanpassungswerkzeug`
+
+Der Button "Start" öffnet das Werkzeug in einem neuen Fenster.
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -78,7 +81,10 @@ Passt eine Beschriftung der Oberfläche nicht zur Sprache Ihrer Organisation, ä
 
 ## Systemregistrierung {: #system_registration}
 
-OpenOlat ist Open-Source und braucht eine aktive Community von Anwender:innen. Mit der Systemregistrierung melden Sie Ihre Installation bei openolat.org an. Sie wählen dabei, ob OpenOlat statistische Daten anonym an openolat.org überträgt, ob die Installation auf openolat.org veröffentlicht wird und ob Sie über neue Releases und Sicherheitsupdates informiert werden.
+OpenOlat ist Open-Source und braucht eine aktive Community von Anwender:innen. Mit der Systemregistrierung melden Sie Ihre Installation bei openolat.org an. Sie finden die Seite in der System-Administration unter:<br>
+`Administration > Customizing > Systemregistrierung`
+
+Sie wählen dabei, ob OpenOlat statistische Daten anonym an openolat.org überträgt, ob die Installation auf openolat.org veröffentlicht wird und ob Sie über neue Releases und Sicherheitsupdates informiert werden.
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -86,7 +92,7 @@ OpenOlat ist Open-Source und braucht eine aktive Community von Anwender:innen. M
 
 ## Portal {: #portal}
 
-Für den Tab "Portal" können verschiedene Portlets ausgewählt werden.
+Das Portal ist ein Bereich der Hauptnavigation, auf dem Personen Schnellzugänge, etwa zu ihren Gruppen, Kursen oder zum Kalender, selbst anordnen. Sie schalten es auf der Seite "Bereiche" im Tab "Reihenfolge" mit dem Eintrag "Portal" frei. Welche Schnellzugänge eine Person auf ihrem Portal zeigt, legt sie selbst mit "Seite konfigurieren" fest, siehe [Portal konfigurieren](../../manual_user/basic_concepts/Portal_configuration.de.md).
 
 !!! tip "Tipp"
     Wir empfehlen diese Einrichtung nicht einzusetzen. Sie ist überholt durch etliche Module in OpenOlat und ist damit ein historisches Überbleibsel, welches dennoch nicht einfach ausgeschaltet werden kann.
@@ -215,6 +221,7 @@ Mit der Checkbox "iFrame" zeigt OpenOlat die Seite eingebettet im Bereich an. Be
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Portal konfigurieren >](../../manual_user/basic_concepts/Portal_configuration.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
 [Modul Katalog >](Modules_Catalog_2.0.de.md)<br>
 [Sicherheit >](Login_Security.de.md)

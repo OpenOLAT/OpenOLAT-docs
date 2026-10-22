@@ -26,7 +26,7 @@ Das persönliche Menü ist in fünf Abschnitte gegliedert:
 ![4](assets/4_green_20.png) **Hilfe**: Verweise auf Handbuch, Schulungen und Support <br>
 ![5](assets/5_green_20.png) **System**: systemnahe Funktionen wie Drucken <br>
 
-Am Ende des Menüs steht die Funktion **Abmelden**.
+Am Ende des Menüs steht die Funktion "Abmelden".
 
 !!! note "Quick Links"
 
@@ -58,7 +58,7 @@ Am Ende des Menüs steht die Funktion **Abmelden**.
     * [Einstellungen](../personal_menu/Settings.de.md)
     * [Passwort](../personal_menu/Password.de.md)
 
-Die Abschnitte **Hilfe** und **System** enthalten keine persönlichen Daten. Unter **Hilfe** stehen die Verweise, welche die Administration für Ihre Installation freigegeben hat, zum Beispiel auf das OpenOlat Handbuch, auf die OpenOlat Academy oder auf eine Support-Adresse. Unter **System** finden Sie systemnahe Funktionen wie **Drucken**.
+Die Abschnitte "Hilfe" und "System" enthalten keine persönlichen Daten. Unter "Hilfe" stehen die Verweise, welche die Administration für Ihre Installation freigegeben hat, zum Beispiel auf das OpenOlat Handbuch, auf die OpenOlat Academy oder auf eine Support-Adresse. Unter "System" finden Sie systemnahe Funktionen wie "Drucken".
 
 Eine ausführliche Beschreibung aller Werkzeuge finden Sie auf der Seite [Persönliche Werkzeuge](../personal_menu/Personal_Tools.de.md).
 
@@ -69,7 +69,7 @@ Welche Werkzeuge Ihnen überhaupt angeboten werden, entscheidet die Administrati
 
 Konten mit der Rolle Einladung sehen im persönlichen Menü nur Hilfe, Abonnements und Passwort, solange ihnen keine weitere Rolle zugewiesen ist.
 
-Die Bereiche der Hauptnavigation, zum Beispiel Kurse, Gruppen oder Katalog, gehören nicht zum persönlichen Menü. Ob Sie einen Bereich sehen, entscheidet die Administration: Das Modul muss aktiv sein, der Bereich freigeschaltet und Ihre Rolle zugelassen. Sie selbst können ihn nicht einschalten. Fehlt ein Bereich, prüfen Sie zuerst das Menü **Mehr** am rechten Rand der Hauptnavigation. Was über einen Bereich entscheidet, beschreibt die Seite [Bereiche und Module](../area_modules/index.de.md#conditions).
+Die Bereiche der Hauptnavigation, zum Beispiel Kurse, Gruppen oder Katalog, gehören nicht zum persönlichen Menü. Ob Sie einen Bereich sehen, entscheidet die Administration: Das Modul muss aktiv sein, der Bereich freigeschaltet und Ihre Rolle zugelassen. Sie selbst können ihn nicht einschalten. Fehlt ein Bereich, prüfen Sie zuerst das Menü "Mehr" am rechten Rand der Hauptnavigation. Was über einen Bereich entscheidet, beschreibt die Seite [Bereiche und Module](../area_modules/index.de.md#conditions).
 
 [Core-Konfiguration: Persönliche Werkzeuge (Administrationshandbuch) >](../../manual_admin/administration/Core_functions.de.md#personal_tools)
 
@@ -83,19 +83,19 @@ Die Einstellung dazu nehmen Sie vor unter<br>
 
 Markieren Sie dort die Kontrollkästchen der Werkzeuge, die in der Menüleiste erscheinen sollen, und speichern Sie.
 
-![Kontrollkästchen Kalender markiert, die Liste enthält auch Profil, Zertifikate und Drucken, im Tab System der Einstellungen](assets/pers_menu_move_item_v2_de.png){ class="shadow lightbox" title="Tab System der Einstellungen" }
+![Kontrollkästchen Kalender markiert, die Liste enthält auch Profil, Zertifikate und Drucken](assets/pers_menu_move_item_v2_de.png){ class="shadow lightbox" title="Persönliche Werkzeuge im Tab System der Einstellungen" }
 
-Zur Auswahl stehen nicht nur die persönlichen Werkzeuge, sondern auch Einträge der übrigen Abschnitte, zum Beispiel **Zertifikate**, **Einstellungen** oder **Drucken**.
+Zur Auswahl stehen nicht nur die persönlichen Werkzeuge, sondern auch Einträge der übrigen Abschnitte, zum Beispiel "Zertifikate", "Einstellungen" oder "Drucken".
 
 !!! info "Wichtig"
 
-    Jedes Werkzeug wird nur einmal angezeigt, entweder im persönlichen Menü **oder** in der Menüleiste.
+    Jedes Werkzeug wird nur einmal angezeigt, entweder im persönlichen Menü oder in der Menüleiste.
 
 !!! warning "Achtung"
 
     OpenOlat übernimmt die verschobenen Werkzeuge erst beim nächsten Login in die Menüleiste. Bis dahin bleibt die Menüleiste unverändert, und das Werkzeug steht weiterhin im persönlichen Menü. Melden Sie sich ab und wieder an, um das Ergebnis zu sehen.
 
-Im Beispiel ist der **Kalender** in die Menüleiste verschoben. Nach dem nächsten Login liegt sein Symbol links neben dem Chat-Status, und im persönlichen Menü fehlt der Eintrag.
+Im Beispiel ist der "Kalender" in die Menüleiste verschoben. Nach dem nächsten Login liegt sein Symbol links neben dem Chat-Status, und im persönlichen Menü fehlt der Eintrag.
 
 ![Kalendersymbol in der Menüleiste neben dem Chat-Status, mit Kreis markiert; im geöffneten persönlichen Menü fehlt der Eintrag Kalender](assets/pers_menu_moved_tool_v2_de.png){ class="shadow lightbox" title="Menüleiste und persönliches Menü" }
 

@@ -4,23 +4,24 @@
 
 ## Was ist der File Hub? [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #what}
 
-In OpenOlat steht ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle Ordner** aufgelistet sind, auf die Sie Zugriff haben (Kursordner, Gruppenordner, Archivordner usw.).
+Wer Dateien aus verschiedenen Kursen und Gruppen braucht, muss nicht jeden Ordner einzeln aufsuchen. Der File Hub ist ein globaler Dateibrowser, in dem alle Ordner aufgelistet sind, auf die Sie Zugriff haben (Kursordner, Gruppenordner, Archivordner usw.).
 
-![Sechs Kacheln der Ablageorte unter einem Suchfeld, Startseite des File Hub](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
+![Sechs Kacheln der Ablageorte unter einem Suchfeld](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox" title="Startseite des File Hub" }
 
 
 ## Merkmale des File Hubs [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #features}
 
 * **Multi-File-Upload** per drag & drop
-* Werden im File Hub Dateien an einen anderen Ort übernommen, werden sie jeweils **kopiert**. <br>
+* Werden im File Hub Dateien an einen anderen Ort übernommen, werden sie jeweils kopiert. <br>
 (Im Unterschied zum [Media Center](../personal_menu/Media_Center.de.md), dort sollen z.B. Logos, AGBs u.ä. zentral verwaltet, aktualisiert und allen Autor:innen zur Verfügung gestellt werden. Deshalb werden dort die Dateien verlinkt.)
-* Es werden nur Ordner im File Hub angezeigt, auf die die aktuell eingeloggte Person **Zugriffsberechtigungen** hat.
+* Es werden nur Ordner im File Hub angezeigt, auf die die aktuell eingeloggte Person Zugriffsberechtigungen hat.
 
 
 ## Struktur [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #structure}
 
+Der File Hub ordnet die Ablageorte in vier Zweige: Kurse, Gruppen, persönliche Dateien und den Dokumentenpool.
 
-![Vier Zweige des File Hub: Kurse, Gruppen, persönlicher Ordner und Dokumentenpool als interner Pool](assets/file_hub_concept_overview_v3_de.png){ class="shadow lightbox"}
+![Vier Zweige des File Hub: Kurse, Gruppen, persönlicher Ordner und Dokumentenpool als interner Pool](assets/file_hub_concept_overview_v3_de.png){ class="shadow lightbox" title="Aufbau des File Hub" }
 
 
 
@@ -28,18 +29,19 @@ In OpenOlat steht ein File Hub als **globaler Dateibrowser** zur Verfügung, in 
 
 ### Der File Hub im persönlichen Menü [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #in_personal_menu}
 
-Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlichen Berechtigungen angezeigt, deshalb gehört der File Hub auch zu den **persönlichen Werkzeugen** und ist im **persönlichen Menü** zu finden.
+Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlichen Berechtigungen angezeigt. Deshalb gehört der File Hub zu den persönlichen Werkzeugen. Sie öffnen ihn im persönlichen Menü unter:<br>
+`Persönliches Menü > Persönliche Werkzeuge > File Hub`
 
-![Pfeil auf das Profilbild rechts oben, das das persönliche Menü öffnet, im Bereich Kurse](assets/file_hub_pers_menu_open_v1_de.png){ class=" shadow lightbox" }
+![Pfeil auf das Profilbild rechts oben, das das persönliche Menü öffnet](assets/file_hub_pers_menu_open_v1_de.png){ class="shadow lightbox" title="Menüleiste im Bereich Kurse" }
 
-![Eintrag File Hub markiert unter Persönliche Werkzeuge im geöffneten persönlichen Menü, dahinter die Startseite des File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class=" shadow lightbox" }
+![Eintrag File Hub unter Persönliche Werkzeuge markiert, dahinter die Startseite des File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class="shadow lightbox" title="Geöffnetes persönliches Menü" }
 
 
 
 ### Der File Hub in anderen Zusammenhängen [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #in_other_contexts}
 
-Der File Hub wird an vielen weiteren Stellen immer dann angezeigt, wenn **aus Dateien ausgewählt** werden soll.<br>
-Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kurs-Administration unter `Kurs > Administration > Dateien`.
+Der File Hub wird an vielen weiteren Stellen immer dann angezeigt, wenn aus Dateien ausgewählt werden soll.<br>
+Zur Anzeige eines Ordnerinhalts finden Sie den File Hub zum Beispiel in der Kurs-Administration unter `Kurs > Administration > Dateien`.
 
 
 
@@ -75,7 +77,7 @@ In [Kursarchiven](../learningresources/Course_Archiving.de.md) werden Teilnehmer
 Die in einem Kurs verwendeten Dateien befinden sich in einem zum Kurs gehörenden Ordner, dem [Ablageordner](../learningresources/Storage_folder.de.md).<br>
 Der Zugriff ist unter `Kurs > Administration > Dateien` zu finden.
 
-Der [Ablageordner](../learningresources/Storage_folder.de.md) ist kursspezifisch. Um ausserdem auch mehrfach in verschiedenen Kursen genutzte Dateien verwenden zu können, kann ergänzend ein **Ressourcenordner** im Kurs eingebunden werden.
+Der [Ablageordner](../learningresources/Storage_folder.de.md) ist kursspezifisch. Um ausserdem auch mehrfach in verschiedenen Kursen genutzte Dateien verwenden zu können, kann ergänzend ein [Ressourcenordner](../learningresources/Resource_Folder.de.md) im Kurs eingebunden werden.
 
 
 ### Persönliche Dateien [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #personal_files}
@@ -88,7 +90,7 @@ Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch 
 [Ressourcenordner](../learningresources/Resource_Folder.de.md) dienen als Behälter für kursübergreifend mehrfach genutzte Dateien.
 
 * Sie gelten als Lernressourcen und sind deshalb im Autorenbereich aufgelistet. Sie können dort auch neu erstellt und editiert werden: `Autorenbereich > Erstellen`
-* Ressourcenordner können im Autorenbereich zentral gepflegt werden. Ressourcenordner haben eigene Besitzer:innen. (Sie können deshalb auch von einer anderen Person gepflegt werden als dem/der Kursbesitzer:in, die den Ressourcenordner in einen Kurs einbindet.)
+* Ressourcenordner können im Autorenbereich zentral gepflegt werden. Ressourcenordner haben eigene Besitzer:innen. (Sie können deshalb auch von einer anderen Person gepflegt werden als von der Kursbesitzer:in, die den Ressourcenordner in einen Kurs einbindet.)
 * Der gleiche Ressourcenordner kann in verschiedene Kurse eingebunden sein. Werden Dateien im Ressourcenordner geändert, sind sie in allen Kursen geändert.
 * Pro Kurs kann jeweils 1 Ressourcenordner eingebunden werden.
 * Es sind Unterordner innerhalb des Ressourcenordners möglich.
@@ -97,7 +99,7 @@ Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch 
 
 ## Einrichten der Zugriffsbedingungen [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #access_conditions}
 
-Wie oben bereits erwähnt, werden im File Hub nur Ordner und Dateien angezeigt, auf die eine Zugriffsberechtigung besteht. Das Erteilen/Einrichten der Zugriffsberechtigungen geschieht **in den jeweiligen Quellen**.
+Wie oben bereits erwähnt, werden im File Hub nur Ordner und Dateien angezeigt, auf die eine Zugriffsberechtigung besteht. Die Zugriffsberechtigungen erteilen Sie in den jeweiligen Quellen.
 
 Beispiel Gruppenordner<br>
 Der File Hub erkennt automatisch, ob Sie Mitglied einer Gruppe sind und welche Gruppenordner Ihnen im File Hub angezeigt werden. Wer also Zugriff auf einen Gruppenordner via File Hub erhalten möchte, muss eine Mitgliedschaft in der betreffenden Gruppe erhalten (siehe Gruppenverwaltung).
@@ -115,8 +117,8 @@ Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses ab
 [Gruppenwerkzeuge nutzen](../groups/Using_Group_Tools.de.md)<br>
 [Kursadministration - Archivierung & Reports](../learningresources/Course_Archiving.de.md)<br>
 [Ablageordner](../learningresources/Storage_folder.de.md)<br>
-[Persönliche Werkzeuge: File Hub](../personal_menu/File_Hub.de.md)<br>
-[Ressourcenordner](../learningresources/Resource_Folder.de.md)
+[Ressourcenordner](../learningresources/Resource_Folder.de.md)<br>
+[Persönliche Werkzeuge: File Hub](../personal_menu/File_Hub.de.md)
 
 **Weiterführend**<br>
 [Ordnerkonzept](Folder_Concept.de.md)<br>

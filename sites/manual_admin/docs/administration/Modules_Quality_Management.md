@@ -1,48 +1,41 @@
 # Module Quality Management {: #Modules_Quality_Management}
 
-The "Quality management" module is an additional module.
-It must first be activated by an administrator.
+With quality management, quality managers plan data collections, analyse them and derive measures. The module is switched off by default. Administrators switch it on in the system administration and set the related options there:<br>
+`Administration > Modules > Quality management`
 
-The configuration of the module is carried out by administrators in the system administration under<br>
-`Administration > Module > Quality Management`.
-
-![Quality management in the system administration: switches for module, suggestion for improvement, data collection preview, and action to-dos, plus email fields for sender and recipient](assets/modules_quality_management_v1_de.png){ class="shadow lightbox" }
+![Switches for module, suggestion for improvement, data collection preview and action to-dos, plus email fields for sender and recipient](assets/modules_quality_management_v1_de.png){ class="shadow lightbox" title="Quality management module in the system administration" }
 
 ## Configuration quality management {: #settings_qm}
 
-The entire module is activated with the first checkbox.
+The "Quality management" checkbox switches the module on.
 
-The optional email address can be used for individual customization:<br>
-Each time data is collected, it is defined to whom emails are automatically sent.
-The mails are always sent by OpenOlat with the standard address (no-reply).
-This address can be overridden by entering a different email in this section.
-The field "Sender email name" sets the name displayed for the sender.
+OpenOlat sends the emails of quality management, for example invitations and reminders for a data collection, with the standard address of the instance (no-reply). You define in each data collection to whom they go. If your own address is to appear as sender, enter it in the "Sender email address" field. The field "Sender email name" sets the name displayed for the sender.
 
 ## Configuration suggestion for improvement [:octicons-tag-16:{ title="from Release 13.0 (OO-3740)" }](https://track.frentix.com/issue/OO-3740) {: #settings_improvement}
 
-If the option is activated, the option to create suggestions for improvement is displayed under the Quality management menu item. The emails created there are sent to the email address specified here.
+With a suggestion for improvement, people pass their feedback directly to the people in charge. If the "Suggestion for improvement" checkbox is selected, the start page of quality management offers the link "Create suggestion for improvement". Each suggestion goes as an email to the addresses in the "Recipient email addresses" field. In the fields "Email subject (template)" and "Email message (template)" you set the subject and the text with which the form of the suggestion starts.
 
-## Data collection preview [:octicons-tag-16:{ title="from Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399) {: #data_collection_preview}
+## Data collection previews [:octicons-tag-16:{ title="from Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399) {: #data_collection_preview}
 
-This preview is displayed after activation
+With the data collection preview, the people in charge of a course see early which data collections will concern their course. The "Data collections previews" checkbox is selected by default. The preview then appears in three places:
 
 * in courses
 * in products
 * in the "Quality management" module
 
-If this option is activated, the "Data collection preview" option is displayed for course owners in the course administration menu. The planned surveys relating to this course can be viewed there. This preview is purely informative for course owners. Editing is only possible for quality managers.
+In the course, the entry "Data collection previews" appears in the menu of the course administration for owners and coaches of the course as well as for administrators, learning resource managers and principals. There they see the planned data collections that relate to this course. In the course, the preview is purely informative. Only quality managers can edit the data collections.
 
 See [User manual](../../manual_user/learningresources/Data_Collection_Previews.md)
 
-In addition, the data collection preview can be called up in products and shows all surveys that relate to one of the elements.
+In addition, the data collection preview can be called up in products in the Course Planner and shows all data collections that relate to one of the elements.
 
-The data collection preview in the "Quality management" module refers to all planned surveys (not just individual courses).
+The data collection preview in the "Quality management" module refers to all planned data collections (not just individual courses).
 
 ## Action to-dos [:octicons-tag-16:{ title="from Release 18.0 (OO-6781)" }](https://track.frentix.com/issue/OO-6781) {: #to_do}
 
 To-dos can be created in various places in OpenOlat (projects, tasks, etc.). In quality management, we tend to talk about "measures" as a reaction to findings from a survey. A "measure" in quality management is a to-do.
 
-If this option is activated, quality managers can create to-dos (measures).
+If the "Action to-dos" checkbox is selected, quality managers can create to-dos (measures). By default it is not selected.
 
 ## Activation of Site {: #site_activation}
 

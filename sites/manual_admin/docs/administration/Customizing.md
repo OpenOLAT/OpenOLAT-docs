@@ -67,14 +67,20 @@ So that persons find the right help when they have questions, you define on the 
 
 ## Language adaptation tool {: #language_adaption_tool}
 
-If a label of the user interface does not match the language of your organisation, you change individual text elements for the whole instance with the language adaptation tool. The "Start" button opens the tool in a new window.
+If a label of the user interface does not match the language of your organisation, you change individual text elements for the whole instance with the language adaptation tool. You will find the tool in the system administration under:<br>
+`Administration > Customizing > Language adaptation tool`
+
+The "Start" button opens the tool in a new window.
 
 [To the top of the page ^](#customizing)
 
 
 ## System registration {: #system_registration}
 
-OpenOlat is open source and needs an active community of users. With the system registration, you register your installation with openolat.org. You choose whether OpenOlat transfers statistical data to openolat.org anonymously, whether the installation is published at openolat.org and whether you get information on new releases and security updates.
+OpenOlat is open source and needs an active community of users. With the system registration, you register your installation with openolat.org. You will find the page in the system administration under:<br>
+`Administration > Customizing > System registration`
+
+You choose whether OpenOlat transfers statistical data to openolat.org anonymously, whether the installation is published at openolat.org and whether you get information on new releases and security updates.
 
 [To the top of the page ^](#customizing)
 
@@ -82,7 +88,7 @@ OpenOlat is open source and needs an active community of users. With the system 
 
 ## Portal {: #portal}
 
-Various portlets can be selected for the "Portal" tab.
+The portal is a site of the main navigation on which people arrange quick links, for example to their groups, courses or the calendar, themselves. You enable it on the "Sites" page in the "Order" tab with the entry "Portal". Which quick links a person shows on their portal, they define themselves with "Configure page", see [Portal configuration](../../manual_user/basic_concepts/Portal_configuration.md).
 
 !!! tip "Tip"
     We recommend not using this feature. It has been superseded by numerous modules in OpenOlat and is thus a historical remnant that nevertheless cannot simply be switched off.
@@ -209,6 +215,7 @@ With the "iFrame" checkbox, OpenOlat shows the page embedded in the site. When y
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Portal configuration >](../../manual_user/basic_concepts/Portal_configuration.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Catalog >](Modules_Catalog_2.0.md)<br>
 [Security >](Login_Security.md)

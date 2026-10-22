@@ -1,42 +1,35 @@
 # Modul Qualitätsmanagement {: #Modules_Quality_Management}
 
-Das Modul "Qualitätsmanagement" ist ein Zusatzmodul. 
-Es muss zunächst von einem/einer Administrator:in aktiviert werden.
+Mit dem Qualitätsmanagement planen Qualitätsverwalter:innen Datenerhebungen, werten sie aus und leiten Massnahmen ab. Das Modul ist standardmässig ausgeschaltet. Administrator:innen schalten es in der System-Administration ein und legen dort die zugehörigen Optionen fest:<br>
+`Administration > Module > Qualitätsmanagement`
 
-Die Konfiguration des Moduls erfolgt durch Administrator:innen in der System-Administration unter<br>
-`Administration > Module > Qualitätsmanagement`.
-
-![Qualitätsmanagement in der System-Administration: Schalter für Modul, Verbesserungsvorschlag, Datenerhebungsvorschau und Massnahmen To-Dos, dazu E-Mail-Felder für Absender und Empfänger](assets/modules_quality_management_v1_de.png){ class="shadow lightbox" }
+![Schalter für Modul, Verbesserungsvorschlag, Datenerhebungsvorschau und Massnahmen To-Dos, dazu E-Mail-Felder für Absender und Empfänger](assets/modules_quality_management_v1_de.png){ class="shadow lightbox" title="Modul Qualitätsmanagement in der System-Administration" }
 
 ## Einstellungen Qualitätsmanagement {: #settings_qm}
 
-Mit der ersten Checkbox wird das gesamte Modul aktiviert.
+Die Checkbox "Qualitätsmanagement" schaltet das Modul ein.
 
-Die optionale Mailadresse kann für eine individuelle Anpassung verwendet werden:<br>
-Bei jeder Datenerhebung wird definiert, an wen Mails automatisch verschickt werden.
-Die Mails werden grundsätzlich von OpenOlat mit der Standardadresse (no-reply) verschickt.
-Durch Angabe einer anderen E-Mail in diesem Abschnitt, kann diese Adresse übersteuert werden.
-Im Feld "Absender Name" legen Sie den angezeigten Namen des Absenders fest.
+Die E-Mails des Qualitätsmanagements, etwa Einladungen und Erinnerungen zu einer Datenerhebung, verschickt OpenOlat mit der Standardadresse der Instanz (no-reply). An wen sie gehen, legen Sie in jeder Datenerhebung fest. Soll eine eigene Adresse als Absender erscheinen, tragen Sie sie im Feld "Absender E-Mail-Adresse" ein. Im Feld "Absender Name" legen Sie den angezeigten Namen des Absenders fest.
 
 
 ## Einstellungen Verbesserungsvorschlag [:octicons-tag-16:{ title="ab Release 13.0 (OO-3740)" }](https://track.frentix.com/issue/OO-3740) {: #settings_improvement}
 
-Wird die Option aktiviert, wird unter dem Menüpunkt Qualitätsmanagement die Option zur Erstellung von Verbesserungsvorschlägen angezeigt. Die dort erstellten Mails werden an die hier angegebene Mailadresse geschickt.
+Mit einem Verbesserungsvorschlag geben Personen ihr Feedback direkt an die Verantwortlichen weiter. Ist die Checkbox "Verbesserungsvorschlag" gesetzt, bietet die Startseite des Qualitätsmanagements den Link "Verbesserungsvorschlag erstellen" an. Jeder Vorschlag geht als E-Mail an die Adressen im Feld "Empfänger E-Mail-Adressen". In den Feldern "E-Mail Betreff (Vorlage)" und "E-Mail Nachricht (Vorlage)" geben Sie den Betreff und den Text vor, mit denen das Formular des Vorschlags beginnt.
 
 
 ## Datenerhebungsvorschau [:octicons-tag-16:{ title="ab Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399) {: #data_collection_preview}
 
-Diese Vorschau wird nach der Aktivierung angezeigt
+Mit der Datenerhebungsvorschau sehen die Verantwortlichen eines Kurses früh, welche Erhebungen ihren Kurs betreffen werden. Die Checkbox "Datenerhebungsvorschau" ist standardmässig gesetzt. Die Vorschau erscheint dann an drei Orten:
 
 * in Kursen
 * in Produkten
 * im Modul "Qualitätsmanagement"
 
-Wird die Option aktiviert, ist für Kursbesitzer:innen im Menü der Kursadministration die Option "Datenerhebungsvorschau" angezeigt. Dort können die geplanten Erhebungen eingesehen werden, die diesen Kurs betreffen. Für Kursbesitzer:innen ist diese Vorschau rein informativ. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
+Im Kurs erscheint im Menü der Kurs-Administration der Eintrag "Datenerhebungsvorschau" für Besitzer:innen und Betreuer:innen des Kurses sowie für Administrator:innen, Lernressourcenverwalter:innen und Principals. Dort sehen sie die geplanten Erhebungen, die diesen Kurs betreffen. Im Kurs ist die Vorschau rein informativ. Bearbeiten können die Erhebungen nur Qualitätsverwalter:innen.
 
 Siehe [Benutzerhandbuch](../../manual_user/learningresources/Data_Collection_Previews.de.md)
 
-Ausserdem kann die Datenerhebungsvorschau in Produkten aufgerufen werden und zeigt dort alle Erhebungen, die eines der Elemente betreffen.
+Ausserdem kann die Datenerhebungsvorschau in Produkten im Course Planner aufgerufen werden und zeigt dort alle Erhebungen, die eines der Elemente betreffen.
 
 Die Datenerhebungsvorschau im Modul "Qualitätsmanagement" bezieht sich auf alle geplanten Erhebungen (nicht nur auf einzelne Kurse). 
 
@@ -45,12 +38,12 @@ Die Datenerhebungsvorschau im Modul "Qualitätsmanagement" bezieht sich auf alle
 
 In OpenOlat können an verschiedenen Stellen To-dos erstellt werden (Projekte, Aufgaben, usw.). Im Qualitätsmanagement redet man in der Regel eher von "Massnahmen" als Reaktion auf Erkenntnisse aus einer oder mehreren Erhebungen. Eine "Massnahme" im Qualitätsmanagement ist ein To-do. 
 
-Wird diese Option aktiviert, können Qualitätsmanager:innen To-dos (Massnahmen) erstellen.
+Ist die Checkbox "Massnahmen To-dos" gesetzt, können Qualitätsverwalter:innen To-dos (Massnahmen) erstellen. Standardmässig ist sie nicht gesetzt.
 
 
 ## Aktivierung des Bereichs {: #site_activation}
 
-Damit Qualitätsmanager:innen das Qualitätsmanagement in der Hauptnavigation finden, braucht es neben dem aktivierten Modul auch den aktivierten [Bereich](../../manual_user/area_modules/index.de.md) "Qualitätsmanagement". Sie aktivieren ihn in der System-Administration unter:<br>
+Damit Qualitätsverwalter:innen das Qualitätsmanagement in der Hauptnavigation finden, braucht es neben dem aktivierten Modul auch den aktivierten [Bereich](../../manual_user/area_modules/index.de.md) "Qualitätsmanagement". Sie aktivieren ihn in der System-Administration unter:<br>
 `Administration > Customizing > Bereiche`
 
 Setzen Sie im Tab "Reihenfolge" in der Zeile "Qualitätsmanagement" die Checkbox in der Spalte "Aktiviert" und legen Sie in der Spalte "Zugang" fest, wer den Bereich in der Hauptnavigation angezeigt bekommt.

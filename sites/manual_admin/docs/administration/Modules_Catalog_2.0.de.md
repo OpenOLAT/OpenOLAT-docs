@@ -13,7 +13,7 @@ Ist der [Katalog V2](#config_catalog_v2) aktiviert, erscheinen zusätzliche Eins
 
 Der Schalter "Sortierung nach Priorität" blendet in den Auflistungen des Katalogs einen Sortier-Button ein. Sein Standardkriterium "Relevanz" ordnet die Angebote zuerst nach ihrer Priorität, dann nach Beginndatum, Enddatum und Titel. Die Wirkung beschreibt die Seite [Katalog 2.0: Sortierung/Reihenfolge](../../manual_user/area_modules/catalog2.0_sort_offers.de.md#sorting_microsites_by_priority). [:octicons-tag-16:{ title="ab Release 20.2 (OO-9039)" }](https://track.frentix.com/issue/OO-9039)
 
-![Markierter Schalter Sortierung nach Priorität bei aktivem Katalog V2, Web-Katalog eingeschaltet, Tab Einstellungen im Modul Katalog](assets/modules_catalog_tab_settings_v2_de.png){ class="shadow lightbox" }
+![Markierter Schalter Sortierung nach Priorität bei aktivem Katalog V2, Web-Katalog eingeschaltet](assets/modules_catalog_tab_settings_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Katalog" }
 
 ### Migration von Katalog V1 zu V2 [:octicons-tag-16:{ title="ab Release 17.0 (OO-6148)" }](https://track.frentix.com/issue/OO-6148) {: #migration_v1_v2}
 
@@ -52,23 +52,23 @@ Wer mit dem Katalog V1 arbeitet, legt im Tab "Konfiguration" fest, wo der Katalo
 
 ### Tab Startseite {: #tab_start_page}
 
-Auf der Startseite kann man sogenannte **"Launcher"** hinzufügen. Launcher sind die konfigurierbaren Abschnitte der Startseite. 
+Was Personen auf der Startseite des Katalogs zuerst sehen, stellen Sie im Tab "Startseite" aus Launchern zusammen. Launcher sind die konfigurierbaren Abschnitte der Startseite, zum Beispiel eine Reihe mit den zuletzt veröffentlichten Kursen. Mit "Launcher hinzufügen" wählen Sie den Launchertyp.
 
-Die in einem Launcher angezeigten Inhalte werden automatisch je nach gewähltem Launchertyp ausgewählt. Die verfügbaren Launchertypen sind nachstehend beschrieben. Standardmässig ist ein Launcher vom Typ "Zuletzt veröffentlicht" aktiviert. 
+Welche Inhalte ein Launcher zeigt, wählt OpenOlat automatisch nach dem Launchertyp aus. Die verfügbaren Launchertypen sind nachstehend beschrieben. Standardmässig ist ein Launcher vom Typ "Zuletzt veröffentlicht" aktiviert.
 
-Allen Launchern kann ein Name in verschiedenen Sprachen gegeben werden. Der Name erscheint dann als Kopfzeile über den Kacheln. Launcher können auch nur für spezifische Organisationen freigegeben werden. Wählen Sie dazu "Einschränkung auf Organisation". Ausserdem kann separat bestimmt werden, ob ein Launcher im internen und/oder externen Katalog angezeigt wird.
+Allen Launchern kann ein Name in verschiedenen Sprachen gegeben werden. Der Name erscheint dann als Kopfzeile über den Kacheln. Launcher können auch nur für spezifische Organisationen freigegeben werden. Wählen Sie dazu "Einschränkung auf Organisationen". Ausserdem kann separat bestimmt werden, ob ein Launcher im internen und/oder externen Katalog angezeigt wird.
 
-![Dropdown-Menü Launcher hinzufügen mit allen verfügbaren Launchertypen, darunter eine Liste mit drei bereits konfigurierten Launchern, Tab Startseite im Modul Katalog](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
+![Dropdown-Menü Launcher hinzufügen mit allen verfügbaren Launchertypen, darunter eine Liste mit drei bereits konfigurierten Launchern](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" title="Tab Startseite im Modul Katalog" }
 
 
 #### Launchertyp "Statischer Text"
 
-In diesem Launcher kann manuell statischer Text hinzufügt werden.
+In diesem Launcher kann manuell statischer Text hinzugefügt werden.
 
 
 #### Launchertyp "Beliebte Kurse"
 
-Die Reihenfolge der Angebote in diesem Launcher wird durch die Anzahl der Klicks auf Kursbausteine während den letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status "Publiziert" berücksichtigt.
+Die Reihenfolge der Angebote in diesem Launcher wird durch die Anzahl der Klicks auf Kursbausteine während der letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status "Publiziert" berücksichtigt.
 
 
 #### Launchertyp "Zuletzt veröffentlicht"
@@ -89,7 +89,7 @@ Klickt man in einem Taxonomie-Launcher auf eine der angezeigten Kategorien (Taxo
 
 Die Angebote werden entsprechend der definierten Taxonomieebene automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
 
-Beim Konfigurieren dieses Launchers wählen Sie über das Feld **Typ** [:octicons-tag-16:{ title="ab Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"}, worauf sich der Launcher bezieht:
+Beim Konfigurieren dieses Launchers wählen Sie über das Feld "Typ" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"}, worauf sich der Launcher bezieht:
 
 * **Taxonomie:** Auswahl einer Taxonomie aus den für den Katalog verfügbaren Taxonomien.
 * **Taxonomieebene:** Auswahl einer bestimmten Taxonomieebene.
@@ -109,20 +109,20 @@ Die manuell hinzugefügten Durchführungen können durch Klick auf Doppelpfeile 
 ---
 
 
-### Tab Filter {: #tab_filter}
+### Tab Filter [:octicons-tag-16:{ title="ab Release 17.2 (OO-6326)" }](https://track.frentix.com/issue/OO-6326) {: #tab_filter}
 
-Man kann die Kursliste weiter durch Filter oder Suche verfeinern. Dieser Tab steuert, welche Filter auf den Microsites und der Suchergebnisseite verfügbar sind und von den Benutzer:innen genutzt werden können. Filter können z.B. Fachbereiche, Taxonomieebene, Angebotsart, Durchführungsformat, Semester, Lizenz, Hauptsprache, Lernressourcentyp, Autor usw. sein.
+Damit Personen in einer langen Angebotsliste schnell das Passende finden, verfeinern sie die Liste mit Filtern oder der Suche. Im Tab "Filter" legen Sie fest, welche Filter auf den Microsites und der Suchergebnisseite zur Wahl stehen. Filter können z.B. Fachbereiche, Taxonomieebene, Angebotsart, Durchführungsformat, Semester, Lizenz, Hauptsprache, Lernressourcentyp, Autor usw. sein.
 
 ### Tab Layout {: #tab_layout}
 
 Dieser Tab beinhaltet alles, was das Erscheinungsbild des Katalogs V2 angeht. Man kann den Anzeigetitel des Katalogs anpassen und ein Hintergrundbild für den Header der Startseite auswählen.
 
-Unter **Kacheln Taxonomieebenen Launcher**, kann man die Form der Kacheln der Microsites wählen.
+Unter "Kacheln Taxonomieebenen Launcher" wählen Sie die Form der Kacheln der Microsites.
 
-Die **Angezeigten Informationen in Karte** sind Texte aus den Metadaten, die auf den Karten der Startseite angezeigt werden. Die Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
+Unter "Angezeigte Informationen in Karte" wählen Sie, welche Angaben aus den Metadaten auf den Karten der Startseite erscheinen. Die Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
 
 
-![Header mit Titel Katalog und Hintergrundbild-Upload (1324 x 240 px, maximal 2.0 MB), Formwahl der Taxonomiekacheln und Checkliste der Karteninformationen, Tab Layout im Modul Katalog](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" }
+![Header mit Titel Katalog und Hintergrundbild-Upload (1324 x 240 px, maximal 2.0 MB), Formwahl der Taxonomiekacheln und Checkliste der Karteninformationen](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" title="Tab Layout im Modul Katalog" }
 
 [Zum Seitenanfang ^](#modul_catalog)
 
@@ -131,7 +131,7 @@ Die **Angezeigten Informationen in Karte** sind Texte aus den Metadaten, die auf
 
 ### Verwalten des Kataloges [:octicons-tag-16:{ title="ab Release 17.1 (OO-6201)" }](https://track.frentix.com/issue/OO-6201) {: #v2_admin}
 
-Der Katalog V2 wird aus der Taxonomie der Fachbereiche gespeist. Benutzer:innen mit der Rolle [Lernressourcenverwalter:in](../../manual_user/basic_concepts/Roles_Rights.de.md) und Administrator:innen können die Verschlagwortung über das Menü verwalten. Bei Klick gelangt man auf die Fachbereiche. Dort kann man die aktuelle Taxonomie auswählen, Neue Taxonomieebenen erstellen und importieren und auch Ebenen löschen.
+Der Katalog V2 ist nach den Fachbereichen einer Taxonomie gegliedert. Wer diese Gliederung pflegt, öffnet sie auf der Startseite des Katalogs mit dem Link "Katalog-Verwaltung". Den Link sehen Administrator:innen und Personen mit dem Verwaltungsrecht für einen Fachbereich. Personen mit der Rolle [Lernressourcenverwalter:in](../../manual_user/basic_concepts/Roles_Rights.de.md) sehen ihn, wenn im Tab "Einstellungen" unter "Taxonomie bearbeitbar von" die Rolle Lernressourcenverwalter:in gewählt ist. Voraussetzung ist in jedem Fall das eingeschaltete [Modul Taxonomie](Modules_Taxonomy.de.md). In der Katalog-Verwaltung wählen Sie die aktuelle Taxonomie, erstellen und importieren neue Taxonomieebenen und löschen Ebenen.
 
 Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Lernressourcen. Ist diese gelöscht, taucht eine Lernressource nicht mehr im Katalog auf.
 
@@ -139,11 +139,11 @@ Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Ler
 
     Die Fachbereiche, Verschlagwortung, Taxonomie die man als Lernressourcenverwalter:in bearbeiten kann, kann auch andere Bereiche betreffen, in denen die Taxonomie benutzt wird. Diese können sein: ePortfolio Einträge, Curriculum Einträge, Dokumentenpool.
 
-![Liste der Fachbereiche mit Kennzeichen, Erstelldatum und Anzahl Unterebenen, Seite Katalog-Verwaltung](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
+![Liste der Fachbereiche mit Kennzeichen, Erstelldatum und Anzahl Unterebenen](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" title="Seite Katalog-Verwaltung" }
 
 Das Recht zur Verwaltung eines Katalog- bzw. Fachbereichteils kann verschiedenen Personen gegeben werden. Initial vergeben Administrator:innen dieses Recht. Wählen Sie den gewünschten (Teil-)Fachbereich und dann den Tab "Verwaltung". [:octicons-tag-16:{ title="ab Release 20.1 (OO-8544)" }](https://track.frentix.com/issue/OO-8544)
 
-![Tab Verwaltung und Button Verwalter:in hinzufügen hervorgehoben, keine Verwalter:innen eingetragen, Fachbereichsseite (Beispiel Ski Jumping)](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
+![Tab Verwaltung und Button Verwalter:in hinzufügen hervorgehoben, keine Verwalter:innen eingetragen](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" title="Taxonomieebene Ski Jumping in der Katalog-Verwaltung" }
 
 
 Für Benutzer:innen mit diesem Recht gilt:
@@ -166,41 +166,41 @@ Benutzer:innen mit diesem Recht können nicht:
 
 ### Erstellung von passendem Bildmaterial für den Katalog {: #pictures_for_the_catalog}
 
-Im Katalog werden Bilder für unterschiedliche illustrative Zwecke benutzt. Dies ist eine Auflistung der Bildgrössen und des Verhaltens bei unterschiedlichen Dimensionen. Die unten angebotenen Schemata kann man sich als Richtlinie im Grafikprogramm über das aktuelle Bild legen, um den passenden Ausschnitt zu wählen.
+Damit Bilder im Katalog nicht an der falschen Stelle beschnitten werden, wählen Sie Grösse und Ausschnitt passend zu ihrem Platz. Die folgenden Abschnitte nennen die Bildgrössen und zeigen, was OpenOlat bei anderen Dimensionen tut. Die Schemata legen Sie im Grafikprogramm als Richtlinie über Ihr Bild, um den passenden Ausschnitt zu wählen.
 
 #### Hintergrundbilder
 
-Für die Hintergründe der Taxonomieunterseiten, sowie der Startseite werden Bilddimensionen von **1324 x 240 px** empfohlen, die maximale Dateigrösse für den Upload beträgt **2.0 MB**. Ist das Bild höher als 240px wird ein passender Ausschnitt aus der Mitte heraus genommen. Taxonomieebenen-Hintergründe lassen sich im Tab "Taxonomie" anpassen. Das Hintergrundbild für die Startseite finden Sie im Tab "Layout".
+Für die Hintergründe der Taxonomieunterseiten sowie der Startseite werden Bilddimensionen von 1324 x 240 px empfohlen, die maximale Dateigrösse für den Upload beträgt 2.0 MB. Ist das Bild höher als 240 px, nimmt OpenOlat einen passenden Ausschnitt aus der Mitte. Das Hintergrundbild einer Taxonomieebene laden Sie in der Katalog-Verwaltung bei der Ebene im Tab "Metadaten" im Feld "Hintergrund Bild" hoch. Das Hintergrundbild für die Startseite finden Sie im Tab "Layout".
 
 So wählt OpenOlat den Ausschnitt bei kleineren Bildgrössen:
 
-![Vergleich der Kachelgrössen auf Mobile und Laptop: Teaser-Bilder 240x120 px, Kursbilder 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" }
+![Vergleich der Kachelgrössen auf Mobile und Laptop: Teaser-Bilder 240x120 px, Kursbilder 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" title="Bildausschnitte im Katalog auf Mobile und Laptop" }
 
 **Hintergrund für den Start**
 
-![Schnittmaske für das Hintergrundbild: Vollbild 1324x240 px, Mobile-Ausschnitt 340x240 px, Laptop-Ausschnitt 1024x240 px, Textzone Suche und Titel ca. 500x60 px](assets/catalog_background_start.png){ class="shadow lightbox" }
+![Schnittmaske für das Hintergrundbild: Vollbild 1324x240 px, Mobile-Ausschnitt 340x240 px, Laptop-Ausschnitt 1024x240 px, Textzone Suche und Titel ca. 500x60 px](assets/catalog_background_start.png){ class="shadow lightbox" title="Hintergrundbild der Startseite" }
 
 **Hintergrund für die Taxonomieebenen**
 
-![Schnittmaske für das Taxonomie-Hintergrundbild: Vollbild 1324x240 px, Mobile-Ausschnitt 340x240 px, Laptop-Ausschnitt 1024x240 px, halbtransparenter Textbalken oben links](assets/catalog_background_taxonomy.png){ class="shadow lightbox" }
+![Schnittmaske für das Taxonomie-Hintergrundbild: Vollbild 1324x240 px, Mobile-Ausschnitt 340x240 px, Laptop-Ausschnitt 1024x240 px, halbtransparenter Textbalken oben links](assets/catalog_background_taxonomy.png){ class="shadow lightbox" title="Hintergrundbild einer Taxonomieebene" }
 
 #### Taxonomie-Launcher-Bilder
 
-Je nach Einstellung haben wir es hier mit quadratischen oder rechteckigen Bildern zu tun. Die rechteckigen Bilder besitzen ein Seitenverhältnis von **16:9** mit empfohlener Anzeige von **640 x 360 px**. Der Textbalken darunter verdeckt ca. 80px.
+Ob die Kacheln eines Taxonomie-Launchers rechteckig oder quadratisch sind, legen Sie im Tab "Layout" unter "Kacheln Taxonomieebenen Launcher" fest. Rechteckige Kacheln haben ein Seitenverhältnis von 2,4 zu 1, die besten Resultate ergibt ein Bild mit 240 x 100 px. Quadratische Kacheln haben ein Seitenverhältnis von 1 zu 1. Das Bild einer Taxonomieebene laden Sie in der Katalog-Verwaltung bei der Ebene im Tab "Metadaten" im Feld "Teaser Bild" hoch. Über dem unteren Rand des Bildes liegt ein halbtransparenter Balken mit dem Titel der Ebene.
 
 **Rechteckig**
 
-![Schema des rechteckigen Teasers mit halbtransparentem Textbalken am unteren Rand](assets/catalog_taxteaser.png){ class="shadow lightbox" }
+![Schema des rechteckigen Teasers mit halbtransparentem Textbalken am unteren Rand](assets/catalog_taxteaser.png){ class="shadow lightbox" title="Rechteckige Kachel einer Taxonomieebene" }
 
 **Quadratisch**
 
-![Schema des quadratischen Teasers mit halbtransparentem Textbalken am unteren Rand](assets/catalog_taxteaser_square.png){ class="shadow lightbox" }
+![Schema des quadratischen Teasers mit halbtransparentem Textbalken am unteren Rand](assets/catalog_taxteaser_square.png){ class="shadow lightbox" title="Quadratische Kachel einer Taxonomieebene" }
 
 #### Kursbilder
 
-Können direkt im Kurs eingestellt werden und sollten die Dimensionen 570x380 px nicht überschreiten. Ansonsten wird hier auch ein passender Ausschnitt aus der Mitte genommen.
+Kursbilder legen Sie direkt im Kurs fest. Sie sollten die Dimensionen 570 x 380 px nicht überschreiten, sonst nimmt OpenOlat auch hier einen passenden Ausschnitt aus der Mitte.
 
-![Schema des Kursbilds mit den empfohlenen Massen 570x380 px](assets/catalog_course.png){ class="shadow lightbox" }
+![Schema des Kursbilds mit den empfohlenen Massen 570x380 px](assets/catalog_course.png){ class="shadow lightbox" title="Kursbild im Katalog" }
 
 [Zum Seitenanfang ^](#modul_catalog)
 
@@ -214,7 +214,7 @@ Der Web-Katalog ist ein nach aussen gespiegelter Katalog, auf den auch Personen 
 
 Der Web-Katalog kann auch vorübergehend deaktiviert werden.
 
-![Markierte Schalter Web-Katalog, Web-Katalog vorübergehend deaktiviert und Link auf Login-Seite im Tab Einstellungen bei aktiviertem Katalog V2](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" }
+![Markierte Schalter Web-Katalog, Web-Katalog vorübergehend deaktiviert und Link auf Login-Seite bei aktiviertem Katalog V2](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Katalog" }
 
 [Zum Seitenanfang ^](#modul_catalog)
 

@@ -13,7 +13,7 @@ If [Catalog V2](#config_catalog_v2) is activated, additional settings appear: th
 
 The switch "Sorting by priority" adds a sort button to the lists of the catalog. Its default criterion "Relevance" orders the offers first by their priority, then by start date, end date and title. The page [Catalog 2.0: Sorting/order](../../manual_user/area_modules/catalog2.0_sort_offers.md#sorting_microsites_by_priority) describes the effect. [:octicons-tag-16:{ title="from Release 20.2 (OO-9039)" }](https://track.frentix.com/issue/OO-9039)
 
-![Highlighted switch Sorting by priority with Catalog V2 active, web catalog switched on, Settings tab in the Catalog module](assets/modules_catalog_tab_settings_v2_en.png){ class="shadow lightbox" }
+![Highlighted switch Sorting by priority with Catalog V2 active, web catalog switched on](assets/modules_catalog_tab_settings_v2_en.png){ class="shadow lightbox" title="Settings tab in the Catalog module" }
 
 ### Migration from Catalog V1 to V2 [:octicons-tag-16:{ title="from Release 17.0 (OO-6148)" }](https://track.frentix.com/issue/OO-6148) {: #migration_v1_v2}
 
@@ -53,13 +53,13 @@ Whoever works with Catalog V1 sets in the "Configuration" tab where the catalog 
 
 ### Tab "Launch page" {: #tab_start_page}
 
-You can add so-called **"launchers"** to the start page. Launchers are the configurable sections of the start page.
+What people see first on the launch page of the catalog, you put together from launchers in the "Launch page" tab. Launchers are the configurable sections of the launch page, for example a row with the most recently published courses. With "Add launcher" you choose the launcher type.
 
-The content displayed in a launcher is automatically selected based on the selected launcher type. The available launcher types are described below. By default, a launcher of the type “Recently published” is activated. 
+OpenOlat selects the content of a launcher automatically according to the launcher type. The available launcher types are described below. By default, a launcher of the type "Recently published" is activated.
 
-All launchers can be given a name in different languages. The name then appears as a header above the tiles. Launchers can also be released only for specific organizations. To do this, select "Restriction to organization." In addition, you can specify separately whether a launcher is displayed in the internal and/or external catalog.
+All launchers can be given a name in different languages. The name then appears as a header above the tiles. Launchers can also be released only for specific organizations. To do this, select "Restriction to organizations". In addition, you can specify separately whether a launcher is displayed in the internal and/or external catalog.
 
-![Dropdown menu Add launcher with all available launcher types, below a list of three already configured launchers, Launch page tab in the Catalog module](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
+![Dropdown menu Add launcher with all available launcher types, below a list of three already configured launchers](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" title="Launch page tab in the Catalog module" }
 
 
 #### Launcher type "Static text"
@@ -87,7 +87,7 @@ Clicking on one of the categories (taxonomy level) displayed in a taxonomy launc
 
 The offers are automatically selected according to the defined taxonomy level and then displayed in alphabetical order.
 
-When configuring this launcher, you use the **Type** field [:octicons-tag-16:{ title="from Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"} to define what the launcher refers to:
+When configuring this launcher, you use the "Type" field [:octicons-tag-16:{ title="from Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"} to define what the launcher refers to:
 
 * **Taxonomy:** Selection of a taxonomy from the taxonomies available for the catalog.
 * **Taxonomy level:** Selection of a specific taxonomy level.
@@ -98,26 +98,26 @@ The manually added learning resources can be sorted by clicking on the double ar
 
 #### Launcher type "Selected implementations"
 
-The manually added entries can be sorted by clicking on the double arrows in front of the entries.
+The manually added implementations can be sorted by clicking on the double arrows in front of the entries.
 
 [To the top of the page ^](#modul_catalog)
 
 ---
 
 
-### Tab Filters {: #tab_filter}
+### Tab Filters [:octicons-tag-16:{ title="from Release 17.2 (OO-6326)" }](https://track.frentix.com/issue/OO-6326) {: #tab_filter}
 
-The course list can be further refined by filters or search. This tab controls which filters are available on the microsites and the search results page and can be used by the users. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc.
+So that people quickly find the right offer in a long list, they refine the list with filters or the search. In the "Filters" tab you define which filters are available on the microsites and the search results page. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc.
 
 ### Tab Layout {: #tab_layout}
 
-This tab contains everything concerning the appearance of the catalog V2. You can customize the display title of the catalogue and select a background image for the header of the start page.
+This tab contains everything concerning the appearance of the catalog V2. You can customize the display title of the catalog and select a background image for the header of the launch page.
 
-Under **Tiles Taxonomy Levels Launcher**, one can influence the appearance of the tiles of the microsites.
+Under "Style taxonomy level launchers" you choose the shape of the tiles of the microsites.
 
-The **Information displayed in card** field controls which metadata is displayed on the card of the start page. This metadata must be filled in in the respective learning resource under `Settings > Metadata`.
+Under "Information displayed in card" you choose which details from the metadata appear on the cards of the launch page. This metadata must be filled in in the respective learning resource under `Settings > Metadata`.
 
-![Header with catalog title and background image upload (1324 x 240 px, maximum 2.0 MB), below the shape choice for the taxonomy tiles and the checklist of card information](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" }
+![Header with catalog title and background image upload (1324 x 240 px, maximum 2.0 MB), below the shape choice for the taxonomy tiles and the checklist of card information](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" title="Layout tab in the Catalog module" }
 
 [To the top of the page ^](#modul_catalog)
 
@@ -125,7 +125,7 @@ The **Information displayed in card** field controls which metadata is displayed
 
 ### Management of catalog V2 [:octicons-tag-16:{ title="from Release 17.1 (OO-6201)" }](https://track.frentix.com/issue/OO-6201) {: #v2_admin}
 
-Catalog V2 is fed from the taxonomy of the subjects. Users with the role [Learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) and administrators can manage the keywording via the menu. Clicking takes you to the subjects. There you can select the current taxonomy, create and import new taxonomy levels and also delete levels.
+Catalog V2 is structured by the subjects of a taxonomy. Whoever maintains this structure opens it on the launch page of the catalog with the link "Catalog management". Administrators and people with the management right for a subject see the link. People with the role [Learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) see it if the role Learning resource manager is selected in the "Settings" tab under "Taxonomy editable by". In any case, the [Module Taxonomy](Modules_Taxonomy.md) must be switched on. In the catalog management you select the current taxonomy, create and import new taxonomy levels and delete levels.
 
 Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalog.
 
@@ -134,11 +134,11 @@ Deleting levels only deletes the keywording, not any linked learning resources. 
     The subjects, keywording, taxonomy that can be edited as a Learning resource manager can also affect other areas in which the taxonomy is used. These can be: ePortfolio entries, curriculum entries, document pool.
 
 
-![List of subject areas with reference code, creation date and number of sub-levels, Catalog management page](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
+![List of subject areas with reference code, creation date and number of sub-levels](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" title="Catalog management page" }
 
-The right to manage a catalog or subject area section can be granted to different persons. Initially, administrators assign this right. Select the desired subject area section and then the "management" tab. [:octicons-tag-16:{ title="from Release 20.1 (OO-8544)" }](https://track.frentix.com/issue/OO-8544)
+The right to manage a catalog or subject area section can be granted to different persons. Initially, administrators assign this right. Select the desired subject area section and then the "Management" tab. [:octicons-tag-16:{ title="from Release 20.1 (OO-8544)" }](https://track.frentix.com/issue/OO-8544)
 
-![Management tab and Add manager button highlighted, no managers registered yet, subject area page (example Ski Jumping)](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
+![Management tab and Add manager button highlighted, no managers registered yet](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" title="Taxonomy level Ski Jumping in the catalog management" }
 
 The following applies to users with this right:
 
@@ -161,41 +161,41 @@ Users with this right cannot:
 
 ### Creation of suitable image material for the catalog {: #pictures_for_the_catalog}
 
-Images are used for various illustrative purposes in the catalog. This is a list of image sizes and their behaviour in different dimensions. It is advised to use the provided images below as overlay guidelines in your graphic program. They already have reduced opacity build-in.
+So that images in the catalog are not cropped in the wrong place, choose size and crop to match their place. The following sections give the image sizes and show what OpenOlat does with other dimensions. Place the schemas as a guide over your image in your graphics program to choose the right crop.
 
 #### Background images
 
-Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the taxonomy subpages and the homepage, the maximum file size for the upload is **2.0 MB**. If the image is higher than 240px, a suitable section is taken from the centre. Taxonomy level backgrounds can be customised in the "Taxonomy" tab. The background image for the launch page is in the "Layout" tab.
+Image dimensions of 1324 x 240 px are recommended for the backgrounds of the taxonomy subpages and the launch page, the maximum file size for the upload is 2.0 MB. If the image is higher than 240 px, OpenOlat takes a suitable section from the centre. You upload the background image of a taxonomy level in the catalog management at the level in the "Metadata" tab in the "Background image" field. The background image for the launch page is in the "Layout" tab.
 
 This is how OpenOlat chooses the section for smaller image sizes:
 
-![Comparison of tile sizes on mobile and laptop: teaser images 240x120 px, course images 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" }
+![Comparison of tile sizes on mobile and laptop: teaser images 240x120 px, course images 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" title="Image crops in the catalog on mobile and laptop" }
 
 **Background for the launch page**
 
-![Crop guide for the background image: full width 1324x240 px, mobile crop 340x240 px, laptop crop 1024x240 px, search and title text zone approx. 500x60 px](assets/catalog_background_start.png){ class="shadow lightbox" }
+![Crop guide for the background image: full width 1324x240 px, mobile crop 340x240 px, laptop crop 1024x240 px, search and title text zone approx. 500x60 px](assets/catalog_background_start.png){ class="shadow lightbox" title="Background image of the launch page" }
 
 **Background for the taxonomy levels**
 
-![Crop guide for the taxonomy background image: full width 1324x240 px, mobile crop 340x240 px, laptop crop 1024x240 px, semi-transparent text bar top left](assets/catalog_background_taxonomy.png){ class="shadow lightbox" }
+![Crop guide for the taxonomy background image: full width 1324x240 px, mobile crop 340x240 px, laptop crop 1024x240 px, semi-transparent text bar top left](assets/catalog_background_taxonomy.png){ class="shadow lightbox" title="Background image of a taxonomy level" }
 
 #### Taxonomy launcher images
 
-Depending on the setting, we are dealing here with square or rectangular images. The rectangular images have an aspect ratio of **16:9** with a recommended display of **640 x 360 px**. The text bar underneath covers approx. 80px.
+Whether the tiles of a taxonomy launcher are rectangular or square, you define in the "Layout" tab under "Style taxonomy level launchers". Rectangular tiles have an aspect ratio of 2.4 to 1, an image of 240 x 100 px gives the best results. Square tiles have an aspect ratio of 1 to 1. You upload the image of a taxonomy level in the catalog management at the level in the "Metadata" tab in the "Teaser image" field. A semi-transparent bar with the title of the level lies over the bottom edge of the image.
 
 **Rectangular**
 
-![Schema of the rectangular teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser.png){ class="shadow lightbox" }
+![Schema of the rectangular teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser.png){ class="shadow lightbox" title="Rectangular tile of a taxonomy level" }
 
 **Square**
 
-![Schema of the square teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser_square.png){ class="shadow lightbox" }
+![Schema of the square teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser_square.png){ class="shadow lightbox" title="Square tile of a taxonomy level" }
 
 #### Course images
 
-Can be set directly in the course and should not exceed the dimensions 570x380 px. Otherwise a suitable section from the centre will be used.
+You set course images directly in the course. They should not exceed the dimensions 570 x 380 px, otherwise OpenOlat also takes a suitable section from the centre here.
 
-![Schema of the course image with the recommended size of 570x380 px](assets/catalog_course.png){ class="shadow lightbox" }
+![Schema of the course image with the recommended size of 570x380 px](assets/catalog_course.png){ class="shadow lightbox" title="Course image in the catalog" }
 
 [To the top of the page ^](#modul_catalog)
 
@@ -209,7 +209,7 @@ The web catalog is a catalog mirrored to the outside, which can also be accessed
 
 The web catalog can also be deactivated temporarily.
 
-![Highlighted switches Web catalog, Web catalog temporarily deactivated and Link on login page in the Settings tab with Catalog V2 activated](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" }
+![Highlighted switches Web catalog, Web catalog temporarily disabled and Link on login site with Catalog V2 activated](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" title="Settings tab in the Catalog module" }
 
 [To the top of the page ^](#modul_catalog)
 

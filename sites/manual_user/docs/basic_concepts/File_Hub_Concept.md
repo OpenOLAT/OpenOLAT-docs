@@ -4,23 +4,24 @@
 
 ## What is the File Hub? [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #what}
 
-The File Hub is available in OpenOlat as a **global file browser**, in which **all folders** are listed that you have access to (course folders, group folders, archive folders, etc.).
+If you need files from different courses and groups, you do not have to visit every folder separately. The File Hub is a global file browser in which all folders are listed that you have access to (course folders, group folders, archive folders, etc.).
 
-![Six tiles of the storage locations below a search field, start page of the File Hub](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
+![Six tiles of the storage locations below a search field](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox" title="Start page of the File Hub" }
 
 
 ## Features of the File Hub [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #features}
 
 * **Multi-file upload** via drag & drop
-* If files are transferred to another location in the File Hub, they are **copied** in each case. <br>
+* If files are transferred to another location in the File Hub, they are copied in each case. <br>
 (In contrast to the [Media Center](../personal_menu/Media_Center.md), where e.g. logos, terms and conditions, etc. are centrally managed, updated and made available to all authors. This is why the files are linked there.)
-* Only folders to which the person currently logged in has **access permissions** are displayed in the File Hub.
+* Only folders to which the person currently logged in has access permissions are displayed in the File Hub.
 
 
 ## Structure [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #structure}
 
+The File Hub arranges the storage locations in four branches: courses, groups, personal files and the document pool.
 
-![Four branches of the File Hub: courses, groups, personal folder and document pool as an internal pool](assets/file_hub_concept_overview_v3_de.png){ class="shadow lightbox"}
+![Four branches of the File Hub: courses, groups, personal folder and document pool as an internal pool](assets/file_hub_concept_overview_v3_de.png){ class="shadow lightbox" title="Structure of the File Hub" }
 
 
 
@@ -28,18 +29,19 @@ The File Hub is available in OpenOlat as a **global file browser**, in which **a
 
 ### The File Hub in the personal menu [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #in_personal_menu}
 
-The folders and files are displayed in the File Hub according to individual, personal permissions, which is why the File Hub is also one of the **User tools** and can be found in the **personal menu**.
+The folders and files are displayed in the File Hub according to individual, personal permissions. This is why the File Hub is one of the user tools. You open it in the personal menu under:<br>
+`Personal menu > User tools > File Hub`
 
-![Arrow pointing to the profile picture at the top right, which opens the personal menu, in the Courses area](assets/file_hub_pers_menu_open_v1_de.png){ class=" shadow lightbox" }
+![Arrow pointing to the profile picture at the top right, which opens the personal menu](assets/file_hub_pers_menu_open_v1_de.png){ class="shadow lightbox" title="Menu bar in the Courses site" }
 
-![Entry File Hub highlighted under User tools in the opened personal menu, behind it the start page of the File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class="shadow lightbox" }
+![Entry File Hub highlighted under User tools, behind it the start page of the File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class="shadow lightbox" title="Opened personal menu" }
 
 
 
 ### The File Hub in other contexts [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #in_other_contexts}
 
-The File Hub is displayed in many other places whenever a **file is to be selected**.<br>
-To **display the contents of a folder**, you can find the File Hub, for example, in the course administration under `Course > Administration > Files`.
+The File Hub is displayed in many other places whenever a file is to be selected.<br>
+To display the contents of a folder, you can find the File Hub, for example, in the course administration under `Course > Administration > Files`.
 
 
 
@@ -75,7 +77,7 @@ In [course archives](../learningresources/Course_Archiving.md), participant data
 The files used in a course are located in a folder belonging to the course, the [storage folder](../learningresources/Storage_folder.md).<br>
 Access can be found under `Course > Administration > Files`.
 
-The [storage folder](../learningresources/Storage_folder.md) is course-specific. In order to also be able to use files that are used several times in different courses, a **resource folder** can also be included in the course.
+The [storage folder](../learningresources/Storage_folder.md) is course-specific. In order to also be able to use files that are used several times in different courses, a [resource folder](../learningresources/Resource_Folder.md) can also be included in the course.
 
 
 ### Personal files [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #personal_files}
@@ -97,7 +99,7 @@ Only folders to which the person logged in has access authorization are displaye
 
 ## Setting up the access conditions [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #access_conditions}
 
-As mentioned above, the File Hub only displays folders and files for which access permission has been granted. Access permissions are granted/set up **in the respective sources**.
+As mentioned above, the File Hub only displays folders and files for which access permission has been granted. You grant the access permissions in the respective sources.
 
 Example group folder<br>
 The File Hub automatically recognizes whether you are a member of a group and which group folders are displayed in the File Hub. Anyone wishing to gain access to a group folder via File Hub must be a member of the relevant group (see Group management).
@@ -115,8 +117,8 @@ Files from the course elements of a course are stored in the storage folder of a
 [Using Group Tools](../groups/Using_Group_Tools.md)<br>
 [Course administration - Archiving & Reports](../learningresources/Course_Archiving.md)<br>
 [Storage folder](../learningresources/Storage_folder.md)<br>
-[User tools: File Hub](../personal_menu/File_Hub.md)<br>
-[Resource folder](../learningresources/Resource_Folder.md)
+[Resource folder](../learningresources/Resource_Folder.md)<br>
+[User tools: File Hub](../personal_menu/File_Hub.md)
 
 **Further reading**<br>
 [Folder concept](Folder_Concept.md)<br>

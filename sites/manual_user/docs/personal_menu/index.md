@@ -26,7 +26,7 @@ The personal menu is divided into five sections:
 ![4](assets/4_green_20.png) **Help**: links to the manual, to training courses and to support <br>
 ![5](assets/5_green_20.png) **System**: system related functions such as printing <br>
 
-At the end of the menu you find the **Log out** function.
+At the end of the menu you find the "Log out" function.
 
 !!! note "Quick Links"
 
@@ -58,7 +58,7 @@ At the end of the menu you find the **Log out** function.
     * [Settings](../personal_menu/Settings.md)
     * [Password](../personal_menu/Password.md)
 
-The **Help** and **System** sections contain no personal data. Under **Help** you find the links that the administration has released for your installation, for example to the OpenOlat manual, to the OpenOlat Academy or to a support address. Under **System** you find system related functions such as **Print**.
+The "Help" and "System" sections contain no personal data. Under "Help" you find the links that the administration has released for your installation, for example to the OpenOlat manual, to the OpenOlat Academy or to a support address. Under "System" you find system related functions such as "Print".
 
 A detailed description of all tools is available on the page [User tools](../personal_menu/Personal_Tools.md).
 
@@ -69,7 +69,7 @@ The administration decides which tools are offered to you at all. In the system 
 
 Accounts with the role Invitee only see Help, Subscriptions and Password in the personal menu as long as no further role is assigned to them.
 
-The sites of the top navigation bar, for example Courses, Groups or Catalog, do not belong to the personal menu. Whether you see a site is decided by the administration: the module must be active, the site must be activated and your role must be permitted. You cannot switch it on yourself. If a site is missing, first check the **More** menu on the right edge of the top navigation bar. The page [Sites and modules](../area_modules/index.md#conditions) describes what decides about a site.
+The sites of the top navigation bar, for example Courses, Groups or Catalog, do not belong to the personal menu. Whether you see a site is decided by the administration: the module must be active, the site must be activated and your role must be permitted. You cannot switch it on yourself. If a site is missing, first check the "More" menu on the right edge of the top navigation bar. The page [Sites and modules](../area_modules/index.md#conditions) describes what decides about a site.
 
 [Core functions: User tools (Administration manual) >](../../manual_admin/administration/Core_functions.md#personal_tools)
 
@@ -83,19 +83,19 @@ You make this setting under<br>
 
 Select the checkboxes of the tools that should appear in the menu bar, and save.
 
-![Checkbox Calendar selected, the list also contains Profile, Certificates and Print, in the System tab of the settings](assets/pers_menu_move_item_v2_en.png){ class="shadow lightbox" title="System tab of the settings" }
+![Checkbox Calendar selected, the list also contains Profile, Certificates and Print](assets/pers_menu_move_item_v2_en.png){ class="shadow lightbox" title="User tools in the System tab of the settings" }
 
-Not only the user tools are available for selection, but also entries from the other sections, for example **Certificates**, **System settings** or **Print**.
+Not only the user tools are available for selection, but also entries from the other sections, for example "Certificates", "System settings" or "Print".
 
 !!! info "Important"
 
-    Each tool is shown only once, either in the personal menu **or** in the menu bar.
+    Each tool is shown only once, either in the personal menu or in the menu bar.
 
 !!! warning "Attention"
 
     OpenOlat places the moved tools into the menu bar only at your next login. Until then the menu bar stays unchanged, and the tool remains in the personal menu. Log out and log in again to see the result.
 
-In the example the **Calendar** has been moved to the menu bar. After the next login its icon sits to the left of the chat status, and the entry is missing from the personal menu.
+In the example the "Calendar" has been moved to the menu bar. After the next login its icon sits to the left of the chat status, and the entry is missing from the personal menu.
 
 ![Calendar icon in the menu bar, marked with a circle; in the opened personal menu the entry Calendar is missing](assets/pers_menu_moved_tool_v2_en.png){ class="shadow lightbox" title="Menu bar and personal menu" }
 
