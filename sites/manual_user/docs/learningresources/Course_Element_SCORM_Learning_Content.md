@@ -12,6 +12,9 @@ Specialty / Note |
 
 SCORM stands for "Sharable Content Object Reference Model" and is a standardized e-learning format for interactive e-learning modules that is supported by OpenOlat. The "SCORM 1.2" course element allows SCORM 1.2 learning content to be embedded in OpenOlat courses. The SCORM package must be created externally using another tool. The learning resource used as the content itself is called "SCORM 1.2". [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"}
 
+!!! warning "SCORM for learning, the Test course element for exams"
+    SCORM is suited for knowledge transfer and for exercises that participants work on alone. The result from SCORM, that is the score or "Passed", reflects the learning status. The SCORM package runs entirely in the participants' browser, so the answers and the transferred result are technically accessible there. We therefore recommend conducting exams and certifications exclusively with the [Course Element "Test"](Course_Element_Test.md).
+
 ## Coach view {: #coach_view}
 
 ![Role Coach selected, tabs Overview, Participants and Preview, the overview shows Passed, Not passed and the distribution of the score](assets/course_element_scorm_coach_v2_en.png){ class="shadow lightbox" title="Course view of the SCORM 1.2 course element · 2026.10.08" }
@@ -209,6 +212,7 @@ If the course owner has enabled badge awarding under `Course > Administration > 
 
 ## Further information {: #further_information}
 
+[Course Element "Test" >](Course_Element_Test.md)<br>
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
 [Types of Course Elements >](Course_Elements.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)<br>
