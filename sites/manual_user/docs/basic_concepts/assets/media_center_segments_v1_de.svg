@@ -65,7 +65,7 @@
   <text x="448" y="596" class="no">nein</text>
   <line x1="26" y1="619" x2="717" y2="619" stroke="#A6A6A6" stroke-width="1"/>
   <text x="26" y="647" class="foot">Löschen setzt voraus, dass Sie selbst Ersteller:in des Mediums sind.</text>
-  <text x="26" y="671" class="foot">Die Medienverwaltung zeigt genau die Medien, bei denen das nicht der Fall ist: deshalb</text>
-  <text x="26" y="695" class="foot">führt der Löschen-Button dort nie zum Erfolg. Ein fremdes Medium entfernt nur dessen Ersteller:in.</text>
+  <text x="26" y="671" class="foot">Die Medienverwaltung zeigt genau die Medien, bei denen das nicht der Fall ist,</text>
+  <text x="26" y="695" class="foot">und bietet deshalb kein Löschen an. Ein fremdes Medium entfernt nur dessen Ersteller:in.</text>
   <text x="717" y="729" text-anchor="end" style="font-size:11px; fill:#A6A6A6">OpenOlat ∞ Media Center</text>
 </svg>

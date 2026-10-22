@@ -65,7 +65,7 @@
   <text x="448" y="596" class="no">no</text>
   <line x1="26" y1="619" x2="717" y2="619" stroke="#A6A6A6" stroke-width="1"/>
   <text x="26" y="647" class="foot">Deleting requires that you are the creator of the media item yourself.</text>
-  <text x="26" y="671" class="foot">Media management shows exactly the media items for which this is not the case: this is why</text>
-  <text x="26" y="695" class="foot">the Delete button there never succeeds. A media item of another person can only be removed by its creator.</text>
+  <text x="26" y="671" class="foot">Media management shows exactly the media items for which this is not the case,</text>
+  <text x="26" y="695" class="foot">and therefore does not offer deleting. A media item of another person can only be removed by its creator.</text>
   <text x="717" y="729" text-anchor="end" style="font-size:11px; fill:#A6A6A6">OpenOlat ∞ Media Center</text>
 </svg>

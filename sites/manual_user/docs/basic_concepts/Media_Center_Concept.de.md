@@ -25,7 +25,8 @@ Medien können...
 
 ## Zugang [:octicons-tag-16:{ title="ab Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #access}
 
-Das Media Center ist zunächst ein individueller, persönlicher Bereich und deshalb auch im **persönlichen Menü** zu finden.
+Das Media Center ist zunächst Ihr persönlicher Bereich. Sie öffnen es über Ihr Profilbild oben rechts im persönlichen Menü:<br>
+`Persönliches Menü > Media Center`
 
 ![Markiertes Profilbild oben rechts in der Hauptnavigation öffnet das persönliche Menü](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Hauptnavigation oben rechts" }
 
@@ -36,7 +37,7 @@ Auch wenn es sich um persönliche Medien handelt, können diese mit anderen Pers
 
 ### Administrativer Zugriff {: #administrative_access}
 
-Administrative Benutzer:innen, wie Lernressourcenverwalter:innen und Administrator:innen, haben aufgrund ihrer höher berechtigten Rollen **indirekt** Zugriff auf Medien. Sie haben **administrativen Zugriff** auf alle Medien, die in ihrer Organisation, den Gruppen, den Kursen und mit den Benutzer:innen geteilt werden.
+Administrator:innen und Lernressourcenverwalter:innen haben über ihre Rolle zusätzlich administrativen Zugriff auf Medien anderer Personen, sofern diese an einen Kurs freigegeben sind, der zu einer Organisation gehört, in der sie diese Rolle haben. Sie finden diese Medien im Segment "Medienverwaltung", siehe [Media Center verwalten](#media_center_administration).
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -77,7 +78,7 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 * **Mediendatei hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen. Bei aktiviertem KI-Modul können beim Hochladen von Bildern Metadaten wie Titel, Beschreibung, Alt-Text und Tags per Button von der KI vorbefüllt werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. Sind die KI-Bildbeschreibungen für Sie eingeschaltet, ergänzt OpenOlat fehlende Metadaten zusätzlich im Hintergrund, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
 * **Video per URL hinzufügen:** Videos aus externen Portalen wie YouTube, Vimeo, Panopto oder nanoo.tv können einfach per Link hinzugefügt werden.
-* **Zitat hinzufügen:** Hier können Zitate aus Büchern, Artikeln, Webseiten, Filmen u.ä. in Textform hinterlegt und mit Metadaten wie Quelle, Autor, URL usw. versehen werden. So können Zitate an mehreren Stellen in OpenOlat eingefügt werden, ohne immer wieder die gesamte Quelle eintragen zu müssen. Achten Sie aber darauf, alle Angaben sorgfältig und umfassend vorzunehmen.
+* **Zitat hinzufügen:** Hier können Zitate aus Büchern, Artikeln, Webseiten, Filmen u.ä. in Textform hinterlegt und mit Metadaten wie Quelle, Autor, URL usw. versehen werden. So können Zitate an mehreren Stellen in OpenOlat eingefügt werden, ohne immer wieder die gesamte Quelle eintragen zu müssen. Achten Sie aber darauf, alle Angaben sorgfältig und vollständig einzutragen.
 
 ### Neue Medien direkt im Media Center erstellen [:octicons-tag-16:{ title="ab Release 18.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"} {: #create_in_media_center}
 
@@ -90,7 +91,7 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 ### Neue Medien ausserhalb des Media Centers im Content Editor erstellen {: #create_in_editor}
 
-Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center". Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten.
+Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs nutzen Sie dafür zum Beispiel den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center". Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten.
 
 ![Aufklappmenü neben Mediendatei hinzufügen mit Dokument, draw.io Diagramm, Text, Video per URL, Video- und Audioaufzeichnung und Zitat](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Medium auswählen im Kursbaustein Seite" }
 
@@ -135,6 +136,8 @@ Die Ansicht, die Benutzer:innen dabei sehen:<br>
 
 ## Medien löschen {: #delete_media}
 
+Eigene Medien, die Sie nicht mehr brauchen, löschen Sie in Ihrem Media Center unter `Persönliches Menü > Media Center`. Sehen Sie eine Segmentleiste, wählen Sie dort das Segment "Mein Media Center".
+
 Wählen Sie oben rechts über der Liste die Tabellenansicht, falls Sie gerade die Medien in der Kachelansicht angezeigt haben.
 
 Selektieren Sie in der Tabellenansicht am Beginn einer Zeile mindestens einen Listeneintrag, erscheint über der Liste der Button "Löschen", mit dem sich mehrere Elemente auf einmal löschen lassen.
@@ -173,14 +176,14 @@ Der Speicherplatz im Media Center ist begrenzt. Wie viel Speicher Ihnen genau zu
 
 ![Markierte Speicheranzeige 0 B von 30.0 MB belegt unten links](assets/media_center_quota_v2_de.png){ class="shadow lightbox" title="Segment Mein Media Center, unten links" }
 
-In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Als Poweruser zählen neben den Autor:innen auch Lernressourcenverwalter:innen und Administrator:innen.
+In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher gilt für diese Poweruser ein eigener Standardwert. Als Poweruser zählen neben den Autor:innen auch Lernressourcenverwalter:innen und Administrator:innen.
 
 Den Standardwert legen Systemadministrator:innen in der System-Administration fest, unter:<br>
 `Administration > Core-Konfiguration > Dateien und Ordner`, Tab "Quotas"
 
 Derselbe Wert gilt auch für die persönlichen Dateien. Einen eigenen Standardwert nur für das Media Center gibt es nicht, siehe [Dateien und Ordner](../../manual_admin/administration/Files_and_Folders.de.md#files_and_folders_quotas).
 
-Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen für sie eine eigene Quota, im Reiter "Quota" ihres Kontos in der Benutzerverwaltung, siehe [Kontoeinstellungen verwalten](../../manual_admin/usermanagement/Configure_User.de.md#quota). Wenden Sie sich deshalb bei Fragen zum Speicherbedarf an Ihre Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen.
+Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen für sie eine eigene Quota unter `Benutzerverwaltung > "Name der Person" > Quota`, siehe [Kontoeinstellungen verwalten](../../manual_admin/usermanagement/Configure_User.de.md#quota). Wenden Sie sich deshalb bei Fragen zum Speicherbedarf an Ihre Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen.
 
 ![Zwei Wege zu mehr Platz im Media Center, für eine Person oder für alle einer Rolle, mit Ort und Auswirkung](assets/media_center_quota_ways_v1_de.svg){ class="shadow lightbox" title="Mehr Speicherplatz im Media Center" }
 
@@ -194,11 +197,11 @@ Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwa
 
 ## Medien verwenden [:octicons-tag-16:{ title="ab Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
-Und wie können die Medien, die sich im Media Center befinden, weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden.
+Medien aus dem Media Center setzen Sie dort ein, wo Sie Inhalte gestalten. Dateien, Dokumente und Sammlungen verwenden Sie zum Beispiel mit dem Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden.
 
 ![Markierter Eintrag Aus meinem Medien Center wählen im Menü Inhalt hinzufügen des Kursbausteins Seite, neben Bild, Video, Zitat und Dokument](assets/media_center_page_v1_de.png){ class=" shadow lightbox" title="Menü Inhalt hinzufügen im Kursbaustein Seite" }
 
-Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen oder filtern Sie nach ...
+Die Filter über der Liste helfen, die gesuchten Medien schnell zu finden, zum Beispiel "Typ", "Fachbereich Pfade", "Verwendet in", "In Verwendung", "Geteilt mit", "Quelle" oder "Plattform".
 
 ![Filterleiste des Media Centers mit den Tabs Alle bis Suchmaske und den Filtern Typ, Fachbereich Pfade, Verwendet in, In Verwendung, Geteilt mit, Quelle und Plattform](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" title="Filterleiste im Media Center" }
 
@@ -216,6 +219,9 @@ Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen 
 
 Wer als Administrator:in oder Lernressourcenverwalter:in wissen muss, wo das Medium einer anderen Person eingebunden und an wen es freigegeben ist, findet die Antwort im Media Center im Segment "Medienverwaltung". Nur diese beiden Rollen sehen es neben dem Segment "Mein Media Center". Alle übrigen Rollen sehen nur ihr eigenes Media Center und keine Segmentleiste.
 
+Sie öffnen das Segment unter:<br>
+`Persönliches Menü > Media Center > Segment "Medienverwaltung"`
+
 ![Hinzufügen, Löschen und Speicheranzeige nur in Mein Media Center, im Vergleich mit der Medienverwaltung](assets/media_center_segments_v1_de.svg){ class="shadow lightbox" title="Die zwei Segmente des Media Centers" }
 
 Die Medienverwaltung listet Medien anderer Personen, die an einen Kurs freigegeben sind, der zu einer Organisation gehört, in der Sie Administrator:in oder Lernressourcenverwalter:in sind. Medien, die direkt an Sie, an eine Ihrer Gruppen oder an Ihre Organisation freigegeben sind, erscheinen dort nicht. Sie stehen wie Ihre eigenen Medien im Segment "Mein Media Center", im Tab "Für mich freigegeben".
@@ -230,7 +236,7 @@ Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Medien
 
 !!! info "Wichtig"
 
-    Medien anderer Personen können Sie in der Medienverwaltung nicht löschen, auch nicht als Administrator:in. Der Button "Löschen" über der Liste und, bei bearbeitbarer Freigabe, die Aktion "Löschen" im 3-Punkte-Menü sind zwar vorhanden, enden aber immer mit der Meldung, dass das Medium nicht gelöscht werden kann. Die Meldung nennt als Grund vorhandene Verwendungen, auch wenn das Medium nirgends eingebunden ist. Der eigentliche Grund: Löschen setzt voraus, dass Sie selbst Ersteller:in des Mediums sind und dass es nirgends eingebunden ist. Wer ein fremdes Medium entfernen möchte, bittet dessen Ersteller:in darum. Ist deren Konto gelöscht, bleibt das Medium erhalten und ohne Zuordnung, siehe [Was mit den Medien beim Löschen eines Kontos geschieht](#delete_media_account).
+    In der Medienverwaltung löschen Sie keine Medien, auch nicht als Administrator:in. Weder über der Liste noch im 3-Punkte-Menü eines Mediums gibt es dort die Aktion "Löschen" [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9774)" }](https://track.frentix.com/issue/OO-9774){:target="_blank"}. Löschen setzt voraus, dass Sie selbst Ersteller:in des Mediums sind und dass es nirgends eingebunden ist. Ihre eigenen Medien löschen Sie im Segment "Mein Media Center", siehe [Medien löschen](#delete_media). Wer ein fremdes Medium entfernen möchte, bittet dessen Ersteller:in darum. Ist deren Konto gelöscht, bleibt ein eingebundenes Medium erhalten und ist niemandem mehr zugeordnet, siehe [Was mit den Medien beim Löschen eines Kontos geschieht](#delete_media_account).
 
 [Zum Seitenanfang ^](#media_center_concept)
 
