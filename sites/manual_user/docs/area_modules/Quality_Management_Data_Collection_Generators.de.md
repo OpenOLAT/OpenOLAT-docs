@@ -279,7 +279,7 @@ Mit der Negativliste nehmen Sie einzelne Elemente aus, die der Generator nach se
 
 Ein neuer Generator ist ausgeschaltet. So konfigurieren Sie ihn in Ruhe, bevor er Datenerhebungen erstellt. Zum Einschalten klicken Sie links oben auf "Ausgeschaltet" und wählen "Einschalten".
 
-![Button Ausgeschaltet links oben markiert, über den Tabs Konfiguration, Berechtigungen Report, Positivliste und Negativliste eines Generators](assets/quality_management_data_collection_generator_switch_v1_de.png){ class="shadow lightbox" title="Generator im Qualitätsmanagement" }
+![Button Ausgeschaltet links oben markiert, über den Tabs Konfiguration, Berechtigungen Report, Positivliste und Negativliste eines Generators](assets/quality_management_data_collection_generator_switch_v2_de.png){ class="shadow lightbox" title="Generator im Qualitätsmanagement · 2026.10.22" }
 
 !!! info "Wichtig"
 
