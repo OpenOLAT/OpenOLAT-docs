@@ -8,7 +8,7 @@
 If, for example, the results of participants have to be kept for 10 years for legal reasons, the course itself can be deleted while the participant data is kept separately in a course archive.
 
 **What does an archive file include?**<br>
-Course archive files (**ZIP files**) can be created in the course administration as well as in the Authoring area, which mainly contain **Excel files** or rtf files for text formats. This lists all the results achieved by course participants in a course in tabular form. If the archiving includes other files, these are provided in subfolders within the ZIP file.
+You can create course archive files in the course administration as well as in the authoring area. A course archive file is a ZIP file and mainly contains Excel files that list the results of the course participants in tabular form. If the archiving includes other files, such as submissions, they are stored in subfolders of the ZIP file.
 
 **Complete archive - partial archive**<br>
 Partial archives can also be created on request, e.g. if only the results of a particular course element are to be archived. (E.g. the final test and practice tests should not be included in the archive).
@@ -19,10 +19,12 @@ Such a course archive must be distinguished from the [“Export content”](../l
 | ------------------------------------- | ------------------------------------- | -------------------------------------|
 | Archive course structure and archive | Archive participant results   | Report with statistical analysis for a specific course element |
 | Empty course without participant data      | pure participant data for documentation (proof)| Report Excel contains more than the participant data in the Excel of the course archive |
-| for transfer to another LMS        | not re-importable     | Report for certain modules, e.g. forum |
+| for transfer to another LMS        | not re-importable     | Report for certain modules, e.g. forum, as well as the memberships of the course |
 | especially html and xml-files                | especially Excel-files                         |Course element-specific Excel files |
 
-If you delete a course, all course data (not the course elements) is automatically saved in your [personal files](../personal_menu/File_Hub.md). By assigning rights in [Members management](Members_management.md), other persons can also be given the right to archive all data.
+The menu item "Archiving & Reporting" is visible to the owners of the course as well as to administrators and learning resource managers of the organisation the course belongs to. You give other persons access with the right "Archive tool" in the ["Rights" section of the members management](Members_management.md#right_archiving).
+
+If you delete a course, OpenOlat automatically saves all course data (not the course elements) in your [personal files](../personal_menu/File_Hub.md). This archive does not contain the file "Memberships". If you want to keep a record of who had which role in the course, create a complete archive before deleting or download the file under "Reports", see [Memberships](#memberships).
 
 ## Where can I find course archive files?
 
@@ -33,7 +35,7 @@ In the top button line of the author area, you will find an icon with 3 dots on 
 
 !!! info "Important"
 
-    All the archives you have created are listed in the course archive. <br>Administrators and learning resource managers only see the archives they have created themselves or courses they own in the "Course archives" tab. <br>In the **Course archive management** tab, on the other hand, the archives of all authors are listed for administrators and learning resource managers.
+    All the archives you have created are listed in the course archive. <br>Administrators and learning resource managers only see the archives they have created themselves or courses they own in the "Course archives" tab. <br>In the "Course archive management" tab, on the other hand, OpenOlat lists the archives of all authors for administrators and learning resource managers.
 
 ![Tabs Course archives and Course archive management above the list of created ZIP files with Info, Delete and Download](assets/course_archiving_all_v1_de.png){ class="shadow lightbox" title="Course archive page in the authoring area" }
 
@@ -44,23 +46,25 @@ In the top button line of the author area, you will find an icon with 3 dots on 
 
 * Open the authoring area
 * Select the desired course
-* Click on the "**Archiving & Reporting**" option in the "**Administration**" area
-* Then, select the button "**Create archive**" in the "Course archiving" area.
+* Click on the "Archiving & Reporting" option in the "Administration" area
+* Then, select the button "Create archive" in the "Course archiving" area.
 
 ![Open Administration menu, the entry for archiving and reporting is highlighted](assets/course_archiving_create_single_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
 
 ![Menu entry Course archiving on the left, on the right the Create archive buttons above and inside the empty archive list](assets/course_archiving_create_single2_v1_de.png){ class="shadow lightbox" title="Course archiving under Archiving & Reporting" }
 
 
-### Create a partial archive
+### Create a partial archive {: #partial_archive}
 
-As soon as you want to create an archive **via course administration**, you will first be asked whether it should be a complete or partial archive.
+You need a partial archive if only part of the course data is to be kept, for example the results of a single course element. When you create an archive in the course administration, the wizard first asks for the archive type: "Complete archive" or "Partial archive".
 
 ![Wizard step Archive type with the choice between Complete archive and Partial archive, followed by Settings and Overview](assets/course_archiving_create_partial_v1_de.png){ class="shadow lightbox" title="Archive course dialog" }
 
+For a partial archive, you first select the course elements. In the wizard step "Other objects", you define under "Other archive objects" what is added to the archive: "Memberships", "Log files", "Course results" and "Course chat". All four checkboxes are preselected. A complete archive always contains the file "Memberships", in the ZIP file as `course_memberships.xlsx`. What the file shows is described under [Memberships](#memberships).
+
 !!! tip "Tip"
 
-    If administrators or learning resource managers create a complete archive, they can decide in the wizard step "Settings" under "Log files of participants" whether participants appear **anonymised or personalised** in the log files. (Depending on data protection requirements.) Archives with personalised log files are then only accessible to administrative roles.
+    If administrators or learning resource managers create a complete archive, they can decide in the wizard step "Settings" under "Log files of participants" whether participants appear "Anonymised" or "Personalised" in the log files. (Depending on data protection requirements.) Archives with personalised log files are then only accessible to administrative roles.
 
 ### Archive multiple courses in the authoring area
 
@@ -75,13 +79,15 @@ As soon as you want to create an archive **via course administration**, you will
 
     If several archives are created with this bulk action, only complete archives can be created, not partial archives.
 
+As in the course, each of these complete archives also contains the file "Memberships".
+
 ## Course archive management
 
 !!! info "Important"
 
     This tab is only available for OpenOlat administrators and learning resource managers, not for authors.
 
-All course archives are listed in the **Course archive management** tab.
+All course archives are listed in the "Course archive management" tab.
 
 * They can be preselected by further tabs: "All", "Complete archives", "Partial archives", "Ongoing archiving" and "Only for administrative roles".
 * The download option is also located under the icon with the 3 dots at the end of a line. The course archives can be downloaded here for a certain period of time (default setting 10 days).
@@ -117,6 +123,47 @@ The *final results* of all assessment modules integrated in the course, such as 
 The ZIP file contains an xlsx file with information on the course participants and any documents submitted by the participants. These documents are bundled per course element and contain subfolders with the names of the participants who have submitted documents.
 
 Course results contain the summarized overall assessment of a course, _not_ individual elements.
+
+### Memberships [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9787)" }](https://track.frentix.com/issue/OO-9787) {: #memberships}
+
+If you evaluate result exports of a course outside OpenOlat or settle the work of the coaches, you need an overview of who has which role in which group. The Excel file "Memberships" provides this overview for the whole course in one file: all participants, coaches and owners with their role in the course, in each group of the course and in each element of the [Course Planner](../area_modules/Course_Planner.md) the course is linked to. You can filter it directly and combine it with other exports.
+
+You download the file directly, with the button "Start" under:<br>
+`Course > Administration > Archiving & Reporting > Reports > Memberships`
+
+The file name consists of the course title, the word "Memberships" and the date and time of the download. OpenOlat does not store this file in the course archive. In addition, the file is part of every complete archive, and it can be selected as an archive object for a partial archive, see [Create a partial archive](#partial_archive).
+
+**Structure of the file**<br>
+The file has four sheets:
+
+* **Participants**: all persons who are a participant in at least one place
+* **Coaches**: all persons who are a coach in at least one place
+* **Owners**: all persons who are an owner in at least one place
+* **Export information**: URL of the course, OpenOlat Version, course title, course reference, export language, the time "Exported" and the person under "Exported by"
+
+The sheets "Participants", "Coaches" and "Owners" have the same columns, in this order:
+
+1. the details of the person, by default "Username", "First name" and "Last name"
+2. "Course" for the role directly in the course
+3. one column per group of the course, alphabetically by group name
+4. one column per element of the Course Planner the course is linked to, alphabetically by name of the element
+
+There are columns for groups only if the course has groups. There are columns for Course Planner elements only if the course is linked to such elements. The rows are sorted by last name and first name.
+
+**How to read the file**<br>
+On a sheet, each person appears exactly once, in one row. The cells show the role the person has in that place:
+
+* in the column "Course": "Participant", "Coach" or "Owner"
+* in the column of a group: "Group participant" or "Group coach"
+* in the column of a Course Planner element: "CPL participant", "CPL coach" or "CPL owner"
+
+An empty cell means that the person does not have the role of the sheet in that place. If a person has several roles, they appear on several sheets. For example, someone who is a participant in the course and also coaches group A appears on the sheet "Participants" with "Participant" in the column "Course" and on the sheet "Coaches" with "Group coach" in the column of group A.
+
+Persons on the waiting list and deleted users are not included in the file.
+
+Which details of the person appear as columns is defined by the system administration under `Administration > Customizing > User Properties`, tab "Contexts". The administration manual explains what a context is under [Customizing](../../manual_admin/administration/Customizing.md#user_properties_context).
+
+The member list of the members management shows the same persons with one row per person. Its Excel export lists all groups and Course Planner elements of a person comma-separated in the column "Origin", without the role per group. More on this under [Excel export of the origin](Members_management.md#origin_export).
 
 
 ### Task and group tasks [:octicons-tag-16:{ title="from Release 14.0 (OO-3945)" }](https://track.frentix.com/issue/OO-3945)
@@ -161,7 +208,7 @@ All [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.md) cours
 
 ### Checklists
 
-All [checklists](../learningresources/Course_Element_Checklist.md) for the course are listed. The desired checklists to be archived can be selected and saved as a ZIP file. The ZIP file contains a folder for each checklist. Inside is an xlsx file containing the results of the people who completed the checklists.
+All [checklists](../learningresources/Course_Element_Checklist.md) for the course are listed. The desired checklists to be archived can be selected and saved as a ZIP file. The ZIP file contains a folder for each checklist. Inside is an xlsx file containing the results of the people who completed the checklist.
 
 ### Forms
 
@@ -187,8 +234,8 @@ The people who have booked the course are displayed here if the course has [offe
 
 **Mentioned on this page**<br>
 [Export content >](../learningresources/Export_Content.md)<br>
-[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Members management >](Members_management.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
@@ -197,6 +244,8 @@ The people who have booked the course are displayed here if the course has [offe
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
 [Course Element "Checklist" >](../learningresources/Course_Element_Checklist.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Customizing: Overview >](../../manual_admin/administration/Customizing.md)<br>
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)<br>
 [Course Element "Topic Assignment" >](../learningresources/Course_Element_Topic_Assignment.md)<br>

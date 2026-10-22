@@ -5,9 +5,9 @@
 :octicons-device-camera-video-24: **Video introduction (German)**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank"}
 
 
-If you are an **owner** of a course, the "Administration" button is displayed at the top left. There you will find all options for **editing, configuration and administration** of the course, before and during its use. Administrators and learning resource managers of the organisation the course belongs to see the same options. The most important options include the [course editor](#course_editor) and the [settings](#settings).
+If you are an owner of a course, OpenOlat shows you the "Administration" button at the top left. There you will find all options for editing, configuration and administration of the course, before and during its use. Administrators and learning resource managers of the organisation the course belongs to see the same options. The most important options include the [course editor](#course_editor) and the [settings](#settings).
 
-The "Administration" button is also available for **coaches**. However, fewer options are then displayed, and only those relevant to coaches. In particular, for example, the [assessment tool](#assessment_tool). Persons who have been granted individual rights in the [Rights area of the members management](Members_management.md#section_rights) see the options for these rights.
+The "Administration" button is also available for coaches. They see fewer options there, only those relevant to coaches, for example the [assessment tool](#assessment_tool). Persons who have been granted individual rights in the [Rights area of the members management](Members_management.md#section_rights) see the options for these rights.
 
 !!! info "Important"
 
@@ -16,14 +16,14 @@ The "Administration" button is also available for **coaches**. However, fewer op
 
 Other learning resources also have the "Administration" menu, but the menu options there are not as extensive. They vary depending on the learning resource.
 
-Below you will find an overview of the "Administration" menu options for **courses**.
+Below you will find an overview of the "Administration" menu options for courses.
 
 
 ---
 
 ## Settings {: #settings}
 
-All settings that affect the **course as a whole** are made here. (Settings that only affect a specific course element are made in the course editor after selecting the relevant course element).
+Here you define all settings that affect the course as a whole. (You define settings for a single course element in the course editor after selecting the course element.)
 
 [See the details >](Course_Settings.md)<br>
 [To the top of the page ^](#course_administration)
@@ -47,7 +47,7 @@ In the course editor the course can be edited by adding and configuring course e
 
 ## Files {: #files}
 
-Some files used in the course are stored in the **storage folder**. This belongs to the course and can be opened here.<br>
+Some files used in the course are stored in the storage folder. This belongs to the course and can be opened here.<br>
 (Other files and objects are shared with other users, are stored in other places and can be managed in the File Hub or Media Center).
 
 [See the details about the Storage folder >](Storage_folder.md)<br>
@@ -90,7 +90,7 @@ The guide ["What measures can I take to reduce storage space consumption?"](../.
 
 ## Assessment tool {: #assessment_tool}
 
-The assessment tool (not to be confused with the course element "Assessment") is used to coach and monitor the results of all course participants. Here you have access to all assessable course elements and can, for example, make assessments with points, pass/fail etc. and provide individual feedback.
+The assessment tool (not to be confused with the course element "Assessment") is used to coach and monitor the results of all course participants. Here you have access to all assessable course elements and can, for example, assess the participants with points or passed/failed and give them individual feedback.
 
 [See the details >](Assessment_tool_overview.md)<br>
 [To the top of the page ^](#course_administration)
@@ -147,7 +147,7 @@ This menu option allows you to create, edit and display configurations for asses
 
 ## Data collection previews [:octicons-tag-16:{ title="from Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399){:target="_blank"} {: #data_collection_previews}
 
-If activated, course owners can view the planned surveys of the **Quality Management** module of the course. This preview is purely informative for course owners. Editing is only possible for quality managers.
+If activated, course owners can view the planned surveys of the Quality Management module for the course. This preview is purely informative for course owners. Editing is only possible for quality managers.
 
 [See the details about quality management >](../../manual_admin/administration/Modules_Quality_Management.md)<br>
 [To the top of the page ^](#course_administration)
@@ -192,9 +192,9 @@ The survey statistics allow you to carry out a general course-related, anonymize
 [To the top of the page ^](#course_administration)
 
 
-## Archiving & Reporting {: #archiving_reporting}
+## Archiving & Reporting [:octicons-tag-16:{ title="from Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504){:target="_blank"} {: #archiving_reporting}
 
-Elements of the course can be archived here with the help of a wizard. A complete archive or a partial archive with selected course elements can be created, as well as course results, etc.
+Here you secure the data of the course, for example to keep results beyond the end of the course. A wizard creates a complete archive or a partial archive with selected course elements. Under "Reports" you also download the course results, the memberships of the course, the course chat and reports on the forums.
 
 [See the details >](Course_Archiving.md)<br>
 [To the top of the page ^](#course_administration)

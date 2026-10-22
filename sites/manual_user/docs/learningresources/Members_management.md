@@ -50,9 +50,11 @@ The cogwheel menu can also be used to show the "Origin" column. It shows the way
 !!! info "Important"
     Each section only appears if the person concerned actually has a corresponding origin.
 
-#### Excel export of the origin [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9435)" }](https://track.frentix.com/issue/OO-9435){:target="_blank"}
+#### Excel export of the origin [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9435)" }](https://track.frentix.com/issue/OO-9435){:target="_blank"} {: #origin_export}
 
-In the Excel export of the member list, the "Origin" column lists all associated groups and Course Planner elements in full by name (comma-separated).
+In the Excel export of the member list, the "Origin" column lists all associated groups and Course Planner elements in full by name (comma-separated). Each person appears there in one row.
+
+If you need the role of a person in each individual group and in each element of the Course Planner, for example to settle the work of the coaches, use the export "Memberships". It separates the roles into sheets of their own and has a column of its own with the role for each group and each element. More on this under [Memberships](Course_Archiving.md#memberships).
 
 
 ### Edit user information {: #edit_user_info}
@@ -265,6 +267,7 @@ If course-related terms of use or the course-related privacy policy are [activat
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
 [Course Administration: Overview >](../learningresources/Administration.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
 [Toolbar: Overview >](../learningresources/Toolbar.md)<br>
@@ -276,7 +279,6 @@ If course-related terms of use or the course-related privacy policy are [activat
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
 [Glossary >](../learningresources/Glossary.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)

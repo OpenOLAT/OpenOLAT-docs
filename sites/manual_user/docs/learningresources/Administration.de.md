@@ -5,9 +5,9 @@
 :octicons-device-camera-video-24: **Video-Einführung**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank"}
 
 
-Sind Sie **Besitzer:in** eines Kurses, wird Ihnen links oben der Button "Administration" angezeigt. Dort finden Sie alle Optionen zur **Bearbeitung, Konfiguration und Administration** des Kurses, vor und während seiner Nutzung. Dieselben Optionen sehen Administrator:innen und Lernressourcenverwalter:innen der Organisation, der der Kurs angehört. Zu den wichtigsten zählen der [Kurseditor](#course_editor) und die [Einstellungen](#settings).
+Sind Sie Besitzer:in eines Kurses, zeigt OpenOlat Ihnen links oben den Button "Administration". Dort finden Sie alle Optionen zur Bearbeitung, Konfiguration und Administration des Kurses, vor und während seiner Nutzung. Dieselben Optionen sehen Administrator:innen und Lernressourcenverwalter:innen der Organisation, der der Kurs angehört. Zu den wichtigsten zählen der [Kurseditor](#course_editor) und die [Einstellungen](#settings).
 
-**Betreuer:innen** steht der Button "Administration" ebenfalls zur Verfügung. Allerdings sind dann weniger und nur für Betreuer:innen relevante Optionen angezeigt. Insbesondere z.B. das [Bewertungswerkzeug](#assessment_tool). Personen, denen im [Bereich "Rechte" der Mitgliederverwaltung](Members_management.de.md#section_rights) einzelne Rechte erteilt wurden, sehen die Optionen zu diesen Rechten.
+Betreuer:innen steht der Button "Administration" ebenfalls zur Verfügung. Sie sehen dort weniger Optionen, nur die für Betreuer:innen relevanten, zum Beispiel das [Bewertungswerkzeug](#assessment_tool). Personen, denen im [Bereich "Rechte" der Mitgliederverwaltung](Members_management.de.md#section_rights) einzelne Rechte erteilt wurden, sehen die Optionen zu diesen Rechten.
 
 !!! info "Wichtig"
 
@@ -16,14 +16,14 @@ Sind Sie **Besitzer:in** eines Kurses, wird Ihnen links oben der Button "Adminis
 
 Andere Lernressourcen verfügen ebenfalls über das Menü "Administration", jedoch sind die Menüoptionen dort nicht so umfangreich. Sie variieren je nach Lernressource.
 
-Im Folgenden erhalten Sie einen Überblick über die Menüoptionen der "Administration" von **Kursen**.
+Im Folgenden erhalten Sie einen Überblick über die Menüoptionen der "Administration" von Kursen.
 
 
 ---
 
 ## Einstellungen {: #settings}
 
-Hier werden alle Einstellungen gemacht, die den **Kurs als Ganzes betreffen**. (Einstellungen, die nur einen bestimmten Kursbaustein betreffen, werden im Kurseditor nach Anwahl des betreffenden Kursbausteins gemacht.)
+Hier legen Sie alle Einstellungen fest, die den Kurs als Ganzes betreffen. (Einstellungen für einen einzelnen Kursbaustein legen Sie im Kurseditor fest, nachdem Sie den Kursbaustein ausgewählt haben.)
 
 [Zu den Details >](Course_Settings.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -31,7 +31,7 @@ Hier werden alle Einstellungen gemacht, die den **Kurs als Ganzes betreffen**. (
 
 ## Mitgliederverwaltung {: #members_management}
 
-In der Mitgliederverwaltung finden Kursbesitzer:innen eine Auflistung aller Personen die Zugriff auf den Kurs bzw. die Lernressource haben. Sie können hier weiteren Benutzer:innen und Gruppen Zugriff gewähren, indem Sie jemand zum Mitglied des Kurses machen.
+In der Mitgliederverwaltung finden Kursbesitzer:innen eine Auflistung aller Personen, die Zugriff auf den Kurs bzw. die Lernressource haben. Sie können hier weiteren Benutzer:innen und Gruppen Zugriff gewähren, indem Sie jemand zum Mitglied des Kurses machen.
 
 [Zu den Details >](Members_management.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -47,7 +47,7 @@ Im Kurseditor kann der Kurs bearbeitet werden, indem Kursbausteine hinzugefügt 
 
 ## Dateien {: #files}
 
-Manche im Kurs verwendete Dateien werden im **Ablageordner** abgelegt. Dieser gehört zum Kurs und kann hier geöffnet werden.<br>
+Manche im Kurs verwendete Dateien liegen im Ablageordner. Dieser gehört zum Kurs und kann hier geöffnet werden.<br>
 (Andere Dateien und Objekte werden mit anderen Benutzer:innen geteilt, sind an anderen Stellen abgelegt und können im File Hub oder Media Center verwaltet werden.)
 
 [Zu den Details über den Ablageordner >](Storage_folder.de.md)<br>
@@ -90,7 +90,7 @@ Weitere Wege, den Speicherbedarf zu senken, beschreibt die Anleitung ["Mit welch
 
 ## Bewertungswerkzeug {: #assessment_tool}
 
-Das Bewertungswerkzeug (nicht zu verwechseln mit dem Kursbaustein "Bewertung") dient der Betreuung und Ergebniskontrolle aller Kursteilnehmer:innen. Hier hat man Zugriff auf alle bewertbaren Kursbausteine und kann z.B. Bewertungen mit Punktevergabe, bestanden/nicht bestanden usw. vornehmen und individuelle Feedbacks bereitstellen.
+Das Bewertungswerkzeug (nicht zu verwechseln mit dem Kursbaustein "Bewertung") dient der Betreuung und Ergebniskontrolle aller Kursteilnehmer:innen. Hier haben Sie Zugriff auf alle bewertbaren Kursbausteine und können die Teilnehmenden zum Beispiel mit Punkten oder bestanden/nicht bestanden bewerten und ihnen individuelle Feedbacks geben.
 
 [Zu den Details >](Assessment_tool_overview.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -138,7 +138,7 @@ Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert.
 
 ## Prüfungsverwaltung [:octicons-tag-16:{ title="ab Release 10.2 (OO-1349)" }](https://track.frentix.com/issue/OO-1349){:target="_blank"} {: #assessment_management}
 
-Unter dieser Menüoption können Sie Konfigurationen für Prüfungsmodi erstellen, bearbeiten und anzeigen lassen. Sie können beispielsweise einen Prüfungsmodus konfigurieren, der für die Teilnehmer:innen nur bestimmte Kursbausteine aufrufbar macht und auch den Aufruf anderer Informationsquellen für die Teilnehmer:innen einschränkt.
+Unter dieser Menüoption können Sie Konfigurationen für Prüfungsmodi erstellen, bearbeiten und anzeigen lassen. Sie können beispielsweise einen Prüfungsmodus konfigurieren, in dem die Teilnehmer:innen nur bestimmte Kursbausteine öffnen können und auch der Aufruf anderer Informationsquellen eingeschränkt ist.
 
 [Zu den Details des Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Zu den Details der Prüfungseinsicht >](Assessment_inspection.de.md)<br>
@@ -147,7 +147,7 @@ Unter dieser Menüoption können Sie Konfigurationen für Prüfungsmodi erstelle
 
 ## Datenerhebungsvorschau [:octicons-tag-16:{ title="ab Release 18.2 (OO-7399)" }](https://track.frentix.com/issue/OO-7399){:target="_blank"} {: #data_collection_previews}
 
-Sofern aktiviert, können Kursbesitzer:innen die geplanten Erhebungen des **Moduls Qualitätsmanagement** des Kurses einsehen. Für Kursbesitzer:innen ist diese Vorschau rein informativ. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
+Sofern aktiviert, können Kursbesitzer:innen die geplanten Erhebungen des Moduls Qualitätsmanagement zum Kurs einsehen. Für Kursbesitzer:innen ist diese Vorschau rein informativ. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
 
 [Zu den Details über das Qualitätsmanagement >](../../manual_admin/administration/Modules_Quality_Management.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -192,9 +192,9 @@ Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisie
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Archivierung & Reports {: #archiving_reporting}
+## Archivierung & Reports [:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504){:target="_blank"} {: #archiving_reporting}
 
-Hier können Elemente des Kurses mit Hilfe eines Wizards archiviert werden. Es kann ein Gesamtarchiv oder ein Teilarchiv mit ausgewählten Kursbausteinen erstellt werden, sowie Kursresultate u.a.
+Hier sichern Sie die Daten des Kurses, etwa um Ergebnisse über das Kursende hinaus aufzubewahren. Ein Wizard erstellt ein Gesamtarchiv oder ein Teilarchiv mit ausgewählten Kursbausteinen. Unter "Reports" laden Sie zudem die Kursresultate, die Mitgliedschaften des Kurses, den Kurs-Chat und Berichte zu den Foren herunter.
 
 [Zu den Details >](Course_Archiving.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -244,7 +244,7 @@ Den Menüpunkt gibt es nur in Kursen mit dem Verwendungszweck "Template". Dort s
 
 ## Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
-Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Der ursprüngliche herkömmliche Kurs bleibt erhalten und es wird eine Kopie erzeugt, in der die zusätzlichen Eigenschaften eines Lernpfadkurses ergänzt werden. Beim Konvertieren muss als erstes entschieden werden, ob der Kurs "Mit Lernpfad" oder "Mit Lernfortschritt" erstellt werden soll.
+Herkömmliche Kurse (und damit u.a. alle Kurse, die vor der OpenOlat Version 15 erstellt wurden) können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Der ursprüngliche herkömmliche Kurs bleibt erhalten und es wird eine Kopie erzeugt, in der die zusätzlichen Eigenschaften eines Lernpfadkurses ergänzt werden. Beim Konvertieren muss als erstes entschieden werden, ob der Kurs "Mit Lernpfad" oder "Mit Lernfortschritt" erstellt werden soll.
 
 Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
@@ -261,7 +261,7 @@ Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
 ## Inhalt exportieren {: #export_content}
 
-Exportieren Sie Ihre Lernressourcen als ZIP-Datei um eine Sicherungskopie zu erhalten oder um die Lernressource in einer anderen OpenOlat Instanz zu importieren.
+Exportieren Sie Ihre Lernressourcen als ZIP-Datei, um eine Sicherungskopie zu erhalten oder um die Lernressource in einer anderen OpenOlat Instanz zu importieren.
 
 [Zu den Details >](Export_Content.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)

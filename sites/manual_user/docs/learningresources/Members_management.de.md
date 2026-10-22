@@ -51,9 +51,11 @@ Im erweiterten Filterpanel (Pfeil-Symbol) lässt sich die Auswahl zusätzlich mo
 !!! info "Wichtig"
     Jeder Abschnitt erscheint nur, wenn für die betreffende Person tatsächlich eine entsprechende Herkunft vorliegt.
 
-#### Excel-Export der Herkunft [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9435)" }](https://track.frentix.com/issue/OO-9435){:target="_blank"}
+#### Excel-Export der Herkunft [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9435)" }](https://track.frentix.com/issue/OO-9435){:target="_blank"} {: #origin_export}
 
-Im Excel-Export der Mitgliederliste werden in der Spalte «Herkunft» alle zugehörigen Gruppen und Course-Planner-Elemente vollständig namentlich (kommagetrennt) ausgegeben.
+Im Excel-Export der Mitgliederliste werden in der Spalte "Herkunft" alle zugehörigen Gruppen und Course-Planner-Elemente vollständig namentlich (kommagetrennt) ausgegeben. Jede Person steht dort in einer Zeile.
+
+Brauchen Sie die Rolle einer Person in jeder einzelnen Gruppe und in jedem Element des Course Planner, etwa um den Einsatz der Betreuer:innen abzurechnen, nutzen Sie den Export "Mitgliedschaften". Er trennt die Rollen in eigene Blätter und hat für jede Gruppe und jedes Element eine eigene Spalte mit der Rolle. Mehr dazu unter [Mitgliedschaften](Course_Archiving.de.md#memberships).
 
 
 ### Benutzerinformationen bearbeiten {: #edit_user_info}
@@ -267,6 +269,7 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
 [Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
 [Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
@@ -278,7 +281,6 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
 [Glossar >](../learningresources/Glossary.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)
