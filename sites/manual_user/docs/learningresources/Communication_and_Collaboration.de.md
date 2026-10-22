@@ -121,11 +121,15 @@ Der Kursbaustein "Liste der Teilnehmer:innen", oft auch Teilnehmerliste genannt,
 Die Liste zeigt die Mitglieder mit Foto, gruppiert unter "Kursadministrator:innen", "Betreuer:innen" und "Teilnehmer:innen". Wer mehrere Rollen hat, erscheint nur einmal, unter der höchsten Rolle. Welche Benutzergruppen die Liste anzeigt, legen Sie im Kurseditor fest:<br>
 `Kurs > Administration > Kurseditor > Kursbaustein wählen > Tab "Konfiguration"`
 
-!!! danger "⚡ Neues Bild erforderlich"
-    Screenshot zeigt noch den alten Stand: Die Beschriftungen lauten heute "Kursadministrator:innen", "Betreuer:innen", "Teilnehmer:innen" und "E-Mail-Funktion", die Optionen "... für alle Benutzer:innen freischalten" und "... nur für Betreuer:innen und Administrator:innen freischalten".<br>
-    Weg: `Kurs > Administration > Kurseditor > Kursbaustein wählen > Tab "Konfiguration"`
+Für Betreuer:innen und Teilnehmer:innen wählen Sie zusätzlich, wer genau in der Liste erscheint:
 
-![Checkboxen für die drei Rollen mit Auswahl der angezeigten Personen, darunter die Optionen für E-Mail- und Downloadfunktion](assets/Teilnehmerliste_Editor.png){ class="shadow lightbox" title="Konfiguration des Kursbausteins Liste der Teilnehmer:innen" }
+- "Alle Betreuer:innen" bzw. "Alle Teilnehmer:innen": alle Personen mit dieser Rolle, auch aus den Gruppen des Kurses und aus dem Course Planner
+- "Alle Kursbetreuer:innen" bzw. "Alle Kursteilnehmer:innen": die Mitglieder des Kurses, auch die aus dem Course Planner, aber nicht die Mitglieder der Gruppen
+- "Alle Betreuer:innen der selektierten Gruppen" bzw. "Alle Teilnehmer:innen der selektierten Gruppen": nur die Mitglieder der Gruppen, die Sie auswählen, einzeln oder über einen Lernbereich, der mehrere Gruppen zusammenfasst
+
+Ist der Kurs im Course Planner eingebunden, steht zusätzlich die Option "Alle Betreuer:innen des ausgewählten Produkts" bzw. "Alle Teilnehmer:innen des ausgewählten Produkts" zur Wahl.
+
+![Checkboxen für drei Rollen legen fest, wer in der Liste erscheint; darunter E-Mail- und Downloadfunktion freischalten](assets/course_element_participant_list_configuration_v1_de.png){ class="shadow lightbox" title="Konfiguration des Kursbausteins Liste der Teilnehmer:innen im Kurseditor · 2026.10.22" }
 
 Über die Liste erreichen Sie die Visitenkarte der angezeigten Personen. Mit der "E-Mail-Funktion" legen Sie im Kurseditor fest, ob alle Benutzer:innen aus der Liste E-Mails verschicken dürfen oder nur Betreuer:innen und Administrator:innen. In der Kursansicht verschicken Sie E-Mails über die Schaltfläche "E-Mail versenden", an einzelne Mitglieder oder an alle Mitglieder einer Rolle. Im Formular können Sie auch externe E-Mail-Adressen hinzufügen.
 
