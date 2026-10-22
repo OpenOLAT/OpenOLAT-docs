@@ -12,21 +12,23 @@ Organisationsrollen geben einer Person Rechte, die in ihrer ganzen Organisation 
 `Benutzerverwaltung > "Name der Person" > Rollen`<br>
 Dort kreuzen Sie die Rollen im Feld "Rollen in "Name der Organisation"" an.
 
+Welche Bereiche der Hauptnavigation eine Rolle öffnet, zeigt die Seite [Rollen und ihre Arbeitsbereiche](Roles_Home_Areas.de.md).
+
 ![Das Feld Rollen in einer Organisation mit der Auswahlliste der Rollen, die Sie dort ankreuzen, von Autor:in bis Systemadministrator:in](assets/roles_rights_system_roles_v3_de.png){ class="shadow lightbox" title="Tab Rollen in der Benutzerverwaltung · 2026.10.21" }
 
-* **Autor:in**: Autor:innen erstellen Kurse und weitere Lernressourcen wie Tests, Videos und Portfoliovorlagen. Dafür öffnen sie den Autorenbereich in der obersten Navigation. Dort finden sie alle Kurse und Lernressourcen, auf die sie Zugriff haben. Die Rolle geht häufig an Lehrende oder E-Learning-Verantwortliche.
+* **Autor:in**: Autor:innen erstellen Kurse und weitere Lernressourcen wie Tests, Videos und Portfoliovorlagen. Dafür öffnen sie den Autorenbereich in der Hauptnavigation. Dort finden sie alle Kurse und Lernressourcen, auf die sie Zugriff haben. Die Rolle geht häufig an Lehrende oder E-Learning-Verantwortliche.
 * **Lernressourcenverwalter:in**: Lernressourcenverwalter:innen verwalten die Kurse und Lernressourcen ihrer Organisation, auch ohne dort als Besitzer:in eingetragen zu sein. Sie haben automatisch Besitzerrechte (Vollzugriff) für alle Kurse und Lernressourcen, die der eigenen Organisation angehören (siehe [Administrative Freigabe](../learningresources/Access_configuration.de.md#administrative-freigabe)). Im Status "Beendet" und "Gelöscht" ist der Zugriff lesend. Im Autorenbereich finden sie diese Kurse und Lernressourcen und können sie kopieren und exportieren.
 * **Linienvorgesetzte:r**: Linienvorgesetzte können zum Beispiel automatisch informiert werden, wenn eine Person ihrer Organisation ein Zertifikat erhält.
 * **Ausbildungsverantwortliche:r**: Ausbildungsverantwortliche haben Rechte für ihre Organisation und alle Organisationen darunter. Sie haben Rechte im Coaching, auch wenn sie dort nicht als Betreuer:in eingetragen sind, und übernehmen administrative Aufgaben, zum Beispiel Buchungsaufträge kontrollieren oder Konten sperren.
 * **Principal**: Principals sehen viele Bereiche des Systems, aber nur lesend. Sie können nichts ändern und keine Objekte bearbeiten.
-* **Absenzenverwalter:in**: Absenzenverwalter:innen verwalten die Absenzen ihrer Organisation. Dafür steht ihnen in der obersten Navigation der Menüpunkt "Absenzenverwaltung" zur Verfügung.
+* **Absenzenverwalter:in**: Absenzenverwalter:innen verwalten die Absenzen ihrer Organisation. Dafür steht ihnen in der Hauptnavigation der Menüpunkt "Absenzenverwaltung" zur Verfügung.
 * **Kursplaner:in**: Kursplaner:innen arbeiten im [Course Planner](../area_modules/Course_Planner.de.md). Sind Kursplaner:innen einer Organisation zugeordnet, haben sie nur Zugang zum Course Planner dieser Organisation.
 * **Projektverwalter:in**: Projektverwalter:innen verwalten alle Projekte. Im Menüpunkt "Projekte" öffnen sie zusätzlich den Tab "Administration" und erreichen dort alle Projekte mit Mitgliederverwaltung und Konfiguration.
 * **Qualitätsverwalter:in**: Qualitätsverwalter:innen steuern das Qualitätsmanagement. Im Menüpunkt "Qualitätsmanagement" verwalten sie sämtliche Einstellungen und Objekte wie Fragebögen, Datenerhebungsgeneratoren und das Analysewerkzeug.
 * **Selectusverwalter:in**: Selectusverwalter:innen verwalten die Berufungsverfahren ihrer Organisation. Im Menüpunkt "Selectus" legen sie Ausschreibungen an, bearbeiten, kopieren und archivieren sie und stellen die Kommissionen zusammen. Die Rolle wirkt nur, wenn das Modul "Selectus" eingeschaltet ist.
-* **Benutzerverwalter:in**: Benutzerverwalter:innen verwalten die Konten ihrer Organisation in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md), die ihnen als Menüpunkt in der obersten Navigation zur Verfügung steht. Sie erstellen Konten, bearbeiten sie und setzen sie inaktiv. Sie vergeben die Rollen Benutzer:in und Autor:in.
-* **Rollenverwalter:in**: Rollenverwalter:innen verwalten die Rollen der Personen ihrer Organisation. Sie öffnen die Benutzerverwaltung über einen eigenen Menüpunkt in der obersten Navigation und sehen dort alle Konten der eigenen Organisationen. Ausser den Rollen Principal, Administrator:in und Systemadministrator:in vergeben, ändern und entfernen sie alle Rollen.
-* **Administrator:in**: Administrator:innen besitzen Modul- und Funktionsverwaltung und haben auf alle Bereiche des Systems, wie Benutzerverwaltung, Katalogverwaltung und Course Planner Zugriff, ausser auf die System-Administration. Die Rolle kann auf eine Organisation beschränkt werden. Administrator:innen können Benutzer:innen löschen und zudem weiteren Personen das Recht für die Katalogverwaltung einräumen.
+* **Benutzerverwalter:in**: Benutzerverwalter:innen verwalten die Konten ihrer Organisation in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md), die ihnen als Menüpunkt in der Hauptnavigation zur Verfügung steht. Sie erstellen Konten, bearbeiten sie und setzen sie inaktiv. Sie vergeben die Rollen Benutzer:in und Autor:in.
+* **Rollenverwalter:in**: Rollenverwalter:innen verwalten die Rollen der Personen ihrer Organisation. Sie öffnen die Benutzerverwaltung über einen eigenen Menüpunkt in der Hauptnavigation und sehen dort alle Konten der eigenen Organisationen. Ausser den Rollen Principal, Administrator:in und Systemadministrator:in vergeben, ändern und entfernen sie alle Rollen.
+* **Administrator:in**: Administrator:innen verwalten Module und Funktionen und haben Zugriff auf alle Bereiche des Systems wie Benutzerverwaltung, Katalogverwaltung und Course Planner, ausser auf die System-Administration. Die Rolle kann auf eine Organisation beschränkt werden. Administrator:innen können Benutzer:innen löschen und zudem weiteren Personen das Recht für die Katalogverwaltung einräumen.
 * **Gruppenverwalter:in**: Gruppenverwalter:innen verwalten alle Gruppen. Im Menüpunkt "Gruppen" öffnen sie zusätzlich den Tab [Gruppenverwaltung](../area_modules/Group_Management.de.md). Die Rolle ist eine Systemrolle und gilt für das gesamte System.
 * **Poolverwalter:in**: Poolverwalter:innen verwalten den [Fragenpool](../area_modules/Question_Bank.de.md). Im Fragenpool öffnen sie den Bereich "Administration". Die Rolle ist eine Systemrolle und gilt für das gesamte System.
 * **Systemadministrator:in**: Systemadministrator:innen konfigurieren und überwachen das System technisch. Dafür haben sie Zugriff auf die System-Administration. Die Rolle ist eine Systemrolle und an keine Organisation gebunden.
@@ -222,6 +224,8 @@ Brauchen Mitglieder mehr Rechte, als ihre Rolle mitbringt, vergeben Sie zusätzl
 `Kurs > Administration > Mitgliederverwaltung > Rechte`<br>
 Die Rechte lassen sich an Kursbetreuer:innen und Kursteilnehmer:innen vergeben, je Gruppe auch an Gruppenbetreuer:innen und Gruppenteilnehmer:innen.
 
+Den Bereich "Rechte" sehen Personen mit Besitzerrechten am Kurs, also Besitzer:innen, Lernressourcenverwalter:innen und Administrator:innen, dazu Principals und Kursplaner:innen. Gehört der Kurs zu einer Durchführung im Course Planner, sehen ihn auch Produktbesitzer:innen, Elementbesitzer:innen und Klassenlehrer:innen. Betreuer:innen sehen ihn nicht, auch nicht mit dem Recht "Mitglieder-Verwaltung".
+
 ![Die neun Rechte von Gruppen-Verwaltung bis Kurs Datenbank, die Sie je Kursrolle und je Rolle in einer Gruppe ankreuzen](assets/roles_membermanagement_rights_v2_de.png){ class="shadow lightbox" title="Bereich Rechte der Mitgliederverwaltung · 2026.10.21" }
 
 #### Gruppen-Verwaltung {: #group_management}
@@ -234,7 +238,7 @@ Mit diesem Recht verwalten Mitglieder die Gruppen des Kurses unter `Kurs > Admin
 
 #### Mitglieder-Verwaltung {: #members_management}
 
-Mit diesem Recht steht die Mitgliederverwaltung im Menü "Administration" des Kurses zur Verfügung, mit denselben Optionen wie für Kursbesitzer:innen. Beim Hinzufügen neuer Mitglieder sehen die Mitglieder mit diesem Recht alle registrierten Benutzer:innen.
+Mit diesem Recht steht die Mitgliederverwaltung im Menü "Administration" des Kurses zur Verfügung, mit denselben Optionen wie für Kursbesitzer:innen, ausser den Bereichen "Rechte" und "Course Planner". Beim Hinzufügen neuer Mitglieder sehen die Mitglieder mit diesem Recht alle registrierten Benutzer:innen.
 
 Das Recht "Mitglieder-Verwaltung" schliesst die Gruppen-Verwaltung ein, auch wenn das Recht "Gruppen-Verwaltung" nicht gesetzt ist.
 
@@ -245,7 +249,7 @@ Das Recht "Mitglieder-Verwaltung" schliesst die Gruppen-Verwaltung ein, auch wen
 
 Mit diesem Recht steht der Kurseditor im Menü "Administration" des Kurses zur Verfügung. Kursmitglieder wie Betreuer:innen bearbeiten damit den Kurs und konfigurieren oder ergänzen Kursbausteine. Neue Kurse oder Lernressourcen erstellen sie damit nicht. Im selben Menü öffnen sie zusätzlich "Einstellungen", "Dateien", "Lernbereich", "Prüfungsverwaltung", "Erinnerung" und "Termine und Absenzen", die drei letzten nur, wenn die zugehörige Funktion eingeschaltet ist.<br>
 **Hinweis:** 
-Ein Kurs, den eine Person über dieses Recht bearbeitet, ohne Besitzer:in zu sein, erscheint nicht in ihrem Autorenbereich, auch wenn sie sonst Autorenrechte hat. Sie öffnet den Kurs stattdessen in der obersten Navigation unter "Kurse" und findet den Kurseditor im Menü "Administration". Betreuer:innen und Teilnehmer:innen sehen den Kurs auch in diesem Fall erst, wenn die Besitzer:innen ihn veröffentlicht haben.
+Ein Kurs, den eine Person über dieses Recht bearbeitet, ohne Besitzer:in zu sein, erscheint nicht in ihrem Autorenbereich, auch wenn sie sonst Autorenrechte hat. Sie öffnet den Kurs stattdessen in der Hauptnavigation unter "Kurse" und findet den Kurseditor im Menü "Administration". Betreuer:innen und Teilnehmer:innen sehen den Kurs auch in diesem Fall erst, wenn die Besitzer:innen ihn veröffentlicht haben.
 
 [Mehr zum Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)
 
@@ -298,7 +302,7 @@ Mit diesem Recht steht "Kurs DB" im Menü "Administration" des Kurses zur Verfü
 
 !!! note "Hinweis"
 
-    Gruppenteilnehmer:innen und Gruppenbetreuer:innen sind Rollen innerhalb einer bestimmten Gruppe. Die Rolle Gruppenverwalter:in ist dagegen eine Systemrolle: Sie verwaltet die Gruppen des gesamten Systems.
+    Gruppenteilnehmer:innen und Gruppenbetreuer:innen sind Rollen innerhalb einer bestimmten Gruppe. Die Rolle Gruppenverwalter:in ist dagegen eine Systemrolle: Wer sie hat, verwaltet die Gruppen des gesamten Systems.
 
 [Zum Seitenanfang ^](#roles)
 
@@ -320,7 +324,7 @@ Sind die Rollen eingerichtet, verbinden Sie in der Benutzerverwaltung zwei Konte
 
 ## Kontorollen {: #account_roles} 
 
-In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations) unter "Kontorollen". Dort steht jede Rolle und ihre Gegenrolle als eigener Eintrag. Ein Klick auf einen Eintrag listet die Konten auf, die diese Rolle in einer Beziehung haben. Der Menüpunkt erscheint, sobald mindestens eine solche Rolle angelegt ist.<br>
+In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations) unter "Kontorollen". Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf einen Eintrag listet die Konten auf, die diese Rolle in einer Beziehung haben. Der Menüpunkt erscheint, sobald mindestens eine solche Rolle angelegt ist.<br>
 (Siehe [Kontorollen](../../manual_admin/usermanagement/Search_Users.de.md#user_roles))
 
 [Zum Seitenanfang ^](#roles)
@@ -346,6 +350,7 @@ In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations)
 
 **Auf dieser Seite erwähnt**<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
@@ -400,8 +405,8 @@ In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations)
 [Kontosuche >](../../manual_admin/usermanagement/Search_Users.de.md)
 
 **Weiterführend**<br>
-[Benutzertypen >](User_Types.de.md)<br>
-[Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)
+[Rollen und Rechte: Übersicht >](Roles_Rights.de.md)<br>
+[Benutzertypen >](User_Types.de.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)

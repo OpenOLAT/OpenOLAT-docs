@@ -12,21 +12,23 @@ Organisation roles give a person rights that apply throughout their organisation
 `User management > "Name of the person" > Roles`<br>
 There you tick the roles in the field "Roles for "Name of the organisation"".
 
+Which areas of the main navigation a role opens is shown on the page [Roles and their working areas](Roles_Home_Areas.md).
+
 ![The field Roles for an organisation with the selection list of the roles you tick there, from Author to System administrator](assets/roles_rights_system_roles_v3_en.png){ class="shadow lightbox" title="Roles tab in the user management · 2026.10.21" }
 
-* **Author**: Authors create courses and other learning resources such as tests, videos and portfolio templates. For this they open Authoring in the top navigation. There they find all courses and learning resources they have access to. The role is often given to teachers or e-learning managers.
+* **Author**: Authors create courses and other learning resources such as tests, videos and portfolio templates. For this they open Authoring in the main navigation. There they find all courses and learning resources they have access to. The role is often given to teachers or e-learning managers.
 * **Learning resource manager**: Learning resource managers manage the courses and learning resources of their organisation, even without being entered there as owner. They automatically have owner rights (full access) for all courses and learning resources belonging to their own organisation (see [Administrative access](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" the access is read-only. In Authoring they find these courses and learning resources and can copy and export them.
 * **Line manager**: Line managers can, for example, be informed automatically when a person of their organisation receives a certificate.
 * **Education manager**: Education managers have rights for their organisation and all organisations below it. They have rights in Coaching, even if they are not entered there as coach, and take on administrative tasks, for example checking booking orders or blocking accounts.
 * **Principal**: Principals see many areas of the system, but read-only. They cannot change anything and cannot edit objects.
-* **Absence manager**: Absence managers manage the absences of their organisation. For this, the menu item "Absence management" is available to them in the top navigation.
+* **Absence manager**: Absence managers manage the absences of their organisation. For this, the menu item "Absence management" is available to them in the main navigation.
 * **Course planner**: Course planners work in the [Course Planner](../area_modules/Course_Planner.md). If course planners are assigned to an organisation, they only have access to that organisation's Course Planner.
 * **Project manager**: Project managers manage all projects. In the "Projects" menu item they also open the "Administration" tab and reach all projects there, including member management and configuration.
 * **Quality manager**: Quality managers steer quality management. In the "Quality management" menu item they manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
 * **Selectus manager**: Selectus managers manage the appointment procedures of their organisation. In the "Selectus" menu item they create, edit, copy and archive positions and put together the committees. The role only takes effect if the "Selectus" module is switched on.
-* **User manager**: User managers manage the accounts of their organisation in the [User management](../../manual_admin/usermanagement/index.md), which is available to them as a menu item in the top navigation. They create accounts, edit them and set them to inactive. They assign the roles User and Author.
-* **Roles manager**: Roles managers manage the roles of the people in their organisation. They open the user management via a menu item of its own in the top navigation and see all accounts of their own organisations there. Except for the roles Principal, Administrator and System administrator, they assign, change and remove all roles.
-* **Administrator**: Administrators have module and function management and have access to all areas of the system, such as user management, catalog management and Course Planner, except the system administration. This role can be limited to an organisation. Administrators can delete users and also grant other people the right to manage the catalog.
+* **User manager**: User managers manage the accounts of their organisation in the [User management](../../manual_admin/usermanagement/index.md), which is available to them as a menu item in the main navigation. They create accounts, edit them and set them to inactive. They assign the roles User and Author.
+* **Roles manager**: Roles managers manage the roles of the people in their organisation. They open the user management via a menu item of its own in the main navigation and see all accounts of their own organisations there. Except for the roles Principal, Administrator and System administrator, they assign, change and remove all roles.
+* **Administrator**: Administrators manage modules and functions and have access to all areas of the system such as user management, catalog management and Course Planner, except the system administration. This role can be limited to an organisation. Administrators can delete users and also grant other people the right to manage the catalog.
 * **Group manager**: Group managers manage all groups. In the "Groups" menu item they also open the tab [Group Management](../area_modules/Group_Management.md). The role is a system role and applies to the entire system.
 * **Question bank manager**: Question bank managers manage the [Question Bank](../area_modules/Question_Bank.md). In the question bank they open the "Administration" section. The role is a system role and applies to the entire system.
 * **System administrator**: System administrators configure and monitor the system technically. For this they have access to the system administration. The role is a system role and is not tied to any organisation.
@@ -222,6 +224,8 @@ If members need more rights than their role brings, you assign additional rights
 `Course > Administration > Members management > Rights`<br>
 The rights can be assigned to course coaches and course participants, and per group also to group coaches and group participants.
 
+The "Rights" section is visible to people with owner rights for the course, that is owners, learning resource managers and administrators, and also to principals and course planners. If the course belongs to an implementation in the Course Planner, product owners, element owners and master coaches see it as well. Coaches do not see it, not even with the right "Members management".
+
 ![The nine rights from Group management to Course database, which you tick per course role and per role in a group](assets/roles_membermanagement_rights_v2_en.png){ class="shadow lightbox" title="Rights section of the members management · 2026.10.21" }
 
 #### Group management {: #group_management}
@@ -234,7 +238,7 @@ With this right, members manage the groups of the course under `Course > Adminis
 
 #### Members management {: #members_management}
 
-With this right, the members management is available in the "Administration" menu of the course, with the same options as for course owners. When adding new members, the members with this right see all registered users.
+With this right, the members management is available in the "Administration" menu of the course, with the same options as for course owners, except the sections "Rights" and "Course Planner". When adding new members, the members with this right see all registered users.
 
 The right "Members management" includes group management, even if the right "Group management" is not set.
 
@@ -245,7 +249,7 @@ The right "Members management" includes group management, even if the right "Gro
 
 With this right, the course editor is available in the "Administration" menu of the course. Course members such as coaches use it to edit the course and to configure or add course elements. They cannot create new courses or learning resources with it. In the same menu they also open "Settings", "Files", "Learning areas", "Assessment management", "Reminders" and "Events and Absences", the last three only if the respective function is switched on.<br>
 **Note:** 
-A course that a person edits via this right without being its owner does not appear in their Authoring, even if they otherwise have author rights. Instead, they open the course in the top navigation under "Courses" and find the course editor in the "Administration" menu. In this case, too, coaches and participants only see the course once the owners have published it.
+A course that a person edits via this right without being its owner does not appear in their Authoring, even if they otherwise have author rights. Instead, they open the course in the main navigation under "Courses" and find the course editor in the "Administration" menu. In this case, too, coaches and participants only see the course once the owners have published it.
 
 [More about the course editor >](../learningresources/General_Configuration_of_Course_Elements.md)
 
@@ -298,7 +302,7 @@ With this right, "Course DB" is available in the "Administration" menu of the co
 
 !!! note "Note"
 
-    Group participants and group coaches are roles within a specific group. The role Group manager, on the other hand, is a system role: it manages the groups of the entire system.
+    Group participants and group coaches are roles within a specific group. The role Group manager, on the other hand, is a system role: whoever has it manages the groups of the entire system.
 
 [To the top of the page ^](#roles)
 
@@ -346,6 +350,7 @@ In user management, the [self-defined roles](#relations) appear under "User role
 
 **Mentioned on this page**<br>
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Roles and their working areas >](Roles_Home_Areas.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [User management >](../../manual_admin/usermanagement/index.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
@@ -400,8 +405,8 @@ In user management, the [self-defined roles](#relations) appear under "User role
 [Account search >](../../manual_admin/usermanagement/Search_Users.md)
 
 **Further reading**<br>
-[User Types >](User_Types.md)<br>
-[Roles and their working areas >](Roles_Home_Areas.md)
+[Roles and Rights: Overview >](Roles_Rights.md)<br>
+[User Types >](User_Types.md)
 
 **youtube**<br>
 [Requirements for authors](<https://www.youtube.com/embed/L0jc_LBKXLE>)
