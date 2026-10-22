@@ -210,7 +210,7 @@ The metadata and descriptions of such a "course" can only be adapted to the lear
 
 The PayPal payment module allows authors to unlock learning content in exchange for money. It must be set up and activated in advance in the system administration.
 
-After the PayPal module has been configured successfully, the offer type "PayPal Checkout" is available when creating an offer: for courses under `Course > Administration > Settings > Share > Section "Offer"`, for implementations in the Course Planner and for groups in the [group administration](../groups/Group_Administration.md#booking).
+After the PayPal module has been configured successfully, the offer type "PayPal Checkout" is available when creating an offer: for courses under `Course > Administration > Settings > Share > Section "Offer"`, for implementations in the Course Planner and for groups in the [group administration](../groups/Group_Administration/index.md#booking).
 
 [Setting up the PayPal payment module (Administration) >](../../manual_admin/administration/Payment_PayPal.md)
 
@@ -313,7 +313,7 @@ With automatic booking, the offer description is not displayed and users are onl
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
-[Group Administration >](../groups/Group_Administration.md)<br>
+[Group Administration >](../groups/Group_Administration/index.md)<br>
 [PayPal Configuration (Administration) >](../../manual_admin/administration/Payment_PayPal.md)<br>
 [Payment modules: Invoice (Administration) >](../../manual_admin/administration/Payment_Invoice.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>

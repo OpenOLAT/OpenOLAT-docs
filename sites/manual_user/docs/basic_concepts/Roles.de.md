@@ -229,7 +229,7 @@ Die Rechte lassen sich an Kursbetreuer:innen und Kursteilnehmer:innen vergeben, 
 Mit diesem Recht verwalten Mitglieder die Gruppen des Kurses unter `Kurs > Administration > Mitgliederverwaltung > Gruppen`. Sie ändern und entfernen Gruppen, die bereits zum Kurs gehören, fügen weitere Gruppen hinzu, auf die sie Zugriff haben, oder erstellen neue Gruppen.
 
 [Mehr zu Gruppen >](../groups/index.de.md)<br>
-[Mehr zur Gruppenadministration >](../groups/Group_Administration.de.md)
+[Mehr zur Gruppenadministration >](../groups/Group_Administration/index.de.md)
 
 
 #### Mitglieder-Verwaltung {: #members_management}
@@ -390,7 +390,7 @@ In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations)
 [Kursbaustein "Videoaufgabe" >](../learningresources/Course_Element_Video_Task.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>
-[Gruppenadministration >](../groups/Group_Administration.de.md)<br>
+[Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
 [Glossar >](../learningresources/Glossary.de.md)<br>

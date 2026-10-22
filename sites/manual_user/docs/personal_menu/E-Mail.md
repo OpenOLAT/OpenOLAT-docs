@@ -56,7 +56,7 @@ E-mails can be sent from various places, e.g.:
   * via [Course Reminders](../learningresources/Course_Reminders.md)
   * with invitations to courses or groups
   * via the visiting card
-  * via the group tool "E-mail" in the [Group Administration](../groups/Group_Administration.md)
+  * via the group tool "E-mail" in the [Group Administration](../groups/Group_Administration/index.md)
   * in the [Members management](../learningresources/Members_management.md) of learning resources and groups.
 
 [To the top of the page ^](#email)
@@ -74,7 +74,7 @@ E-mails can be sent from various places, e.g.:
 [Course Element "Participant list" >](../learningresources/Course_Element_Participant_List.md)<br>
 [Toolbar: Overview >](../learningresources/Toolbar.md)<br>
 [Course Reminders >](../learningresources/Course_Reminders.md)<br>
-[Group Administration >](../groups/Group_Administration.md)<br>
+[Group Administration >](../groups/Group_Administration/index.md)<br>
 [Members management >](../learningresources/Members_management.md)
 
 **Further reading**<br>

@@ -47,7 +47,7 @@ Falls Sie eine Nachricht erhalten, während Sie offline sind, so wird diese Nach
 Kontakte können über die Gruppe von OpenOlat hinzugefügt oder entfernt werden.
 Sofern Sie Betreuer:in einer Gruppe sind, können Sie Betreuer:innen oder Teilnehmende in Ihre Gruppe ein- oder ausladen. Diese Personen erscheinen dann auf Ihrer Gruppenliste im Chat, sofern die Gruppe die Anzeige der Gruppenmitglieder zulässt. Gruppenbetreuer:innen werden in der Kontaktliste mit fetter Schrift dargestellt.
 
-Wie Sie die Anzeige der Gruppenmitglieder in Ihrer Gruppe konfigurieren, erfahren Sie in der [Gruppenadministration](../groups/Group_Administration.de.md).
+Wie Sie die Anzeige der Gruppenmitglieder in Ihrer Gruppe konfigurieren, erfahren Sie in der [Gruppenadministration](../groups/Group_Administration/index.de.md).
 
 ## Einem Gruppen- oder Kurschat beitreten {: #join_group}
 
@@ -68,7 +68,7 @@ Um Chat-Protokolle einzusehen, öffnen Sie das Chatfenster der gewünschten Chat
 
 [Modul Instant-Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)<br>
 [Persönliche Werkzeuge: Personensuche >](../personal_menu/Other_users.de.md)<br>
-[Gruppenadministration >](../groups/Group_Administration.de.md)<br>
+[Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Zusätzliche Kursfunktionen >](../learningresources/Additional_Course_Features.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)

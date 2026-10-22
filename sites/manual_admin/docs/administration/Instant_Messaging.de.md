@@ -62,7 +62,7 @@ Kurznachrichten unter Gruppenteilnehmer:innen. Ist sie eingeschaltet, erscheint
 die Liste aller Gruppenmitglieder der Gruppen, in denen man Mitglied ist. Diese
 Personen können für einen Chat oder eine Kurznachricht direkt angewählt werden.
 Zusätzlich muss die Gruppe die Anzeige der Mitglieder freigeben:<br>
-[Gruppenadministration, Tab Mitglieder](../../manual_user/groups/Group_Administration.de.md#members)
+[Gruppenadministration, Tab Mitglieder](../../manual_user/groups/Group_Administration/index.de.md#members)
 
 #### Online Status anzeigen {: #show_online_status }
 
@@ -96,7 +96,7 @@ Weitere Informationen zur Anwendung des Instant-Messaging Moduls finden Sie hier
 ## Weiterführende Informationen {: #further_information}
 
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
-[Gruppenadministration >](../../manual_user/groups/Group_Administration.de.md)<br>
+[Gruppenadministration >](../../manual_user/groups/Group_Administration/index.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Chat >](../../manual_user/basic_concepts/Chat.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../../manual_user/groups/Using_Group_Tools.de.md)<br>

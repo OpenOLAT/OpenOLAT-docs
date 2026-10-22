@@ -205,7 +205,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 
 - **Angebot:** [Zugangscode](../basic_concepts/Offer_Concepts.de.md), Formulare für Buchungsaufträge. Alle Einstellungen stehen auf der Seite [Katalog 2.0 - Angebote](../area_modules/catalog2.0_angebote.de.md).
 - **Katalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../area_modules/catalog2.0_web.de.md). Alle Einstellungen stehen auf der Seite [Katalog 2.0: Übersicht](../area_modules/catalog2.0.de.md).
-- **Gruppe:** [Lerngruppen](../learningresources/Members_management.de.md), [Lernbereich](../learningresources/Learning_Areas.de.md), [Mitglieder](../learningresources/Members_management.de.md), [Kollaborative Werkzeuge](../groups/Group_Administration.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Gruppen](../groups/index.de.md).
+- **Gruppe:** [Lerngruppen](../learningresources/Members_management.de.md), [Lernbereich](../learningresources/Learning_Areas.de.md), [Mitglieder](../learningresources/Members_management.de.md), [Kollaborative Werkzeuge](../groups/Group_Administration/index.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Gruppen](../groups/index.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -222,7 +222,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Extern verfügbarer Katalog >](../area_modules/catalog2.0_web.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Lernbereiche >](../learningresources/Learning_Areas.de.md)<br>
-[Gruppenadministration >](../groups/Group_Administration.de.md)
+[Gruppenadministration >](../groups/Group_Administration/index.de.md)
 
 **Weiterführend**<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>

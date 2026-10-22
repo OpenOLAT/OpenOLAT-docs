@@ -229,7 +229,7 @@ The rights can be assigned to course coaches and course participants, and per gr
 With this right, members manage the groups of the course under `Course > Administration > Members management > Groups`. They change and remove groups that already belong to the course, add further groups they have access to, or create new groups.
 
 [More about groups >](../groups/index.md)<br>
-[More about the group administration >](../groups/Group_Administration.md)
+[More about the group administration >](../groups/Group_Administration/index.md)
 
 
 #### Members management {: #members_management}
@@ -390,7 +390,7 @@ In user management, the [self-defined roles](#relations) appear under "User role
 [Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Groups >](../groups/index.md)<br>
-[Group Administration >](../groups/Group_Administration.md)<br>
+[Group Administration >](../groups/Group_Administration/index.md)<br>
 [Elements >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
 [Glossary >](../learningresources/Glossary.md)<br>

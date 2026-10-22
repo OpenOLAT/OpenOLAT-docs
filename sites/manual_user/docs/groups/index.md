@@ -8,7 +8,7 @@
     * [Become a group member](Group_Membership.md)
     * [Using Group Tools](Using_Group_Tools.md)
     * [Leave a group](Leave_a_Group.md)
-    * [Group Administration](Group_Administration.md)
+    * [Group Administration](Group_Administration/index.md)
     * [LTI Sharing](LTI_Share_groups.md)
     * [Roles in groups](../basic_concepts/Roles.md#groups)
 

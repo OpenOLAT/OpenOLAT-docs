@@ -224,7 +224,7 @@ Other systems, for example PerformX, can write appointments into OpenOlat calend
 
 **Further reading**<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
-[Group Administration >](../groups/Group_Administration.md)<br>
+[Group Administration >](../groups/Group_Administration/index.md)<br>
 [Course Element "Calendar" >](../learningresources/Course_Element_Calendar.md)<br>
 [Core functions: Overview >](../../manual_admin/administration/Core_functions.md)
 

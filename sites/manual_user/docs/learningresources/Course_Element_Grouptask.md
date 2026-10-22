@@ -60,6 +60,6 @@ All decisions and submissions made during the workflow always apply to the entir
 
 **Further reading**<br>
 [Create Groups >](../groups/Create_Groups.md)<br>
-[Group Administration >](../groups/Group_Administration.md)
+[Group Administration >](../groups/Group_Administration/index.md)
 
 [To the top of the page ^](#course_element_group_tasks)

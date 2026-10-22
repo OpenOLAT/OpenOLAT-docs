@@ -75,7 +75,7 @@ The members of the respective roles can be displayed and edited here.
 
 There are two group roles, which can be displayed and edited:
 
-* [Group coaches](../../manual_user/groups/Group_Administration.md) and
+* [Group coaches](../../manual_user/groups/Group_Administration/index.md) and
 * Group participants
 
 
@@ -223,7 +223,7 @@ The "Account" tab of a single person carries the same periods, see [Manage user 
 
 **Mentioned on this page**<br>
 [Roles and rights >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
-[Group administration >](../../manual_user/groups/Group_Administration.md)<br>
+[Group administration >](../../manual_user/groups/Group_Administration/index.md)<br>
 [Modules >](../administration/Modules.md)<br>
 [Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Manage user settings >](Configure_User.md)

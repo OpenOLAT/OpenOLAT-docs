@@ -56,7 +56,7 @@ E-Mails können an diversen Stellen versandt werden, z.B.:
   * durch [Kurserinnerungen](../learningresources/Course_Reminders.de.md)
   * bei Kurs- oder Gruppeneinladungen
   * über die Visitenkarte
-  * über das Gruppenwerkzeug "E-Mail" in der [Gruppenadministration](../groups/Group_Administration.de.md)
+  * über das Gruppenwerkzeug "E-Mail" in der [Gruppenadministration](../groups/Group_Administration/index.de.md)
   * in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) von Lernressourcen und Gruppen.
 
 [Zum Seitenanfang ^](#email)
@@ -74,7 +74,7 @@ E-Mails können an diversen Stellen versandt werden, z.B.:
 [Kursbaustein "Liste der Teilnehmer:innen" >](../learningresources/Course_Element_Participant_List.de.md)<br>
 [Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
-[Gruppenadministration >](../groups/Group_Administration.de.md)<br>
+[Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 
 **Weiterführend**<br>

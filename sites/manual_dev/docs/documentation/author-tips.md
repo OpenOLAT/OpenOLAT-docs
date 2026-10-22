@@ -46,12 +46,12 @@ Add `{: #anchor-example}` to any title element to create an anchor that can be r
 === "Markup"
 		[Link to the tables section in this page](#tables)
 	
-		[Link to the courses section in a different page](../../manual_user/groups/Group_Administration.md#courses) 
+		[Link to the courses section in a different page](../../manual_user/groups/Group_Administration/index.md#courses) 
 
 === "Output"	
 	[Link to the tables section in this page](#tables)
 
-	[Link to the courses section in a different page](../../manual_user/groups/Group_Administration.md#courses) 
+	[Link to the courses section in a different page](../../manual_user/groups/Group_Administration/index.md#courses) 
  
  
 ### Downloads

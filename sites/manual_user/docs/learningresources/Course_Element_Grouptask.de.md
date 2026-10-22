@@ -60,7 +60,7 @@ Sämtliche Entscheidungen und Einsendungen, die während des Workflows getroffen
 
 **Weiterführend**<br>
 [Gruppen erstellen >](../groups/Create_Groups.de.md)<br>
-[Gruppenadministration >](../groups/Group_Administration.de.md)
+[Gruppenadministration >](../groups/Group_Administration/index.de.md)
 
 [Zum Seitenanfang ^](#course_element_group_tasks)
 

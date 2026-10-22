@@ -56,7 +56,7 @@ With this setting you allow chatting and sending messages between group
 participants. If it is enabled, the list of all group members of the groups
 one is a member of appears. These persons can be selected directly for a chat
 or a message. In addition, the group must allow the display of its members:<br>
-[Group Administration, Tab Members](../../manual_user/groups/Group_Administration.md#members)
+[Group Administration, Tab Members](../../manual_user/groups/Group_Administration/index.md#members)
 
 #### Show online status {: #show_online_status }
 
@@ -89,7 +89,7 @@ here: [Chat](../../manual_user/basic_concepts/Chat.md)
 ## Further information {: #further_information}
 
 [Assign roles >](../usermanagement/Assign_roles.md)<br>
-[Group Administration >](../../manual_user/groups/Group_Administration.md)<br>
+[Group Administration >](../../manual_user/groups/Group_Administration/index.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Chat >](../../manual_user/basic_concepts/Chat.md)<br>
 [Using Group Tools >](../../manual_user/groups/Using_Group_Tools.md)<br>

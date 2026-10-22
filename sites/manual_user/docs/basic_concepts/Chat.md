@@ -47,7 +47,7 @@ If you receive a message while you are offline, this message is stored and displ
 Contacts can be added or removed via the groups of OpenOlat.
 Provided that you are the coach of a group, you can invite or disinvite coaches or participants to your group. These persons then appear on your group list in the chat, provided that the group allows the display of group members. Group coaches are displayed in bold in the contact list.
 
-How to configure the display of group members in your group is described in the [Group Administration](../groups/Group_Administration.md).
+How to configure the display of group members in your group is described in the [Group Administration](../groups/Group_Administration/index.md).
 
 ## Join a group or course chat {: #join_group}
 
@@ -68,7 +68,7 @@ To view chat logs, open the chat window of the desired chat partner. Then select
 
 [Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
 [User tools: Other users >](../personal_menu/Other_users.md)<br>
-[Group Administration >](../groups/Group_Administration.md)<br>
+[Group Administration >](../groups/Group_Administration/index.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Additional Course Features >](../learningresources/Additional_Course_Features.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)

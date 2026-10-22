@@ -420,7 +420,7 @@ nav:
     - Using Group Tools: "groups/Using_Group_Tools.md"
     - Leave a group: "groups/Leave_a_Group.md"
     - Administration: 
-      - Group Administration: "groups/Group_Administration.md"
+      - Group Administration: "groups/Group_Administration/index.md"
       - LTI access: "groups/LTI_Share_groups.md"
 
   - Help:

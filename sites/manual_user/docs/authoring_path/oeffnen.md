@@ -205,7 +205,7 @@ The first course is running. Now the things that did not matter at the start pay
 
 - **Offer:** [Access code](../basic_concepts/Offer_Concepts.md), Booking order forms. All settings are on the page [Catalog 2.0 - Offers](../area_modules/catalog2.0_angebote.md).
 - **Catalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.md), [Web catalog](../area_modules/catalog2.0_web.md). All settings are on the page [Catalog 2.0: Overview](../area_modules/catalog2.0.md).
-- **Group:** [Learning groups](../learningresources/Members_management.md), [Learning area](../learningresources/Learning_Areas.md), [Members](../learningresources/Members_management.md), [Collaborative tools](../groups/Group_Administration.md) and more. All settings are on the page [Groups](../groups/index.md).
+- **Group:** [Learning groups](../learningresources/Members_management.md), [Learning area](../learningresources/Learning_Areas.md), [Members](../learningresources/Members_management.md), [Collaborative tools](../groups/Group_Administration/index.md) and more. All settings are on the page [Groups](../groups/index.md).
 
 ## Further information {: #further_information}
 
@@ -222,7 +222,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Externally available catalog >](../area_modules/catalog2.0_web.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Learning areas >](../learningresources/Learning_Areas.md)<br>
-[Group Administration >](../groups/Group_Administration.md)
+[Group Administration >](../groups/Group_Administration/index.md)
 
 **Further reading**<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>

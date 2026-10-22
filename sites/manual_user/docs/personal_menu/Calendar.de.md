@@ -224,7 +224,7 @@ Andere Systeme, zum Beispiel PerformX, können über die REST-Schnittstelle Term
 
 **Weiterführend**<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
-[Gruppenadministration >](../groups/Group_Administration.de.md)<br>
+[Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Kursbaustein "Kalender" >](../learningresources/Course_Element_Calendar.de.md)<br>
 [Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)
 

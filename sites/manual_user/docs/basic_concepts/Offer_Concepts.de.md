@@ -210,7 +210,7 @@ Die Metadaten und Beschreibungen eines solchen "Kurses" können entsprechend nur
 
 Das PayPal Bezahlungsmodul erlaubt es Autor:innen, Lerninhalte gegen Geld freizuschalten. Es muss vorgängig in der System-Administration eingerichtet und freigeschaltet werden.
 
-Nach erfolgreicher Konfiguration des PayPal Moduls steht die Angebotsart "PayPal Checkout" beim Erstellen eines Angebots zur Verfügung: für Kurse unter `Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot"`, für Durchführungen im Course Planner und für Gruppen in der [Gruppenadministration](../groups/Group_Administration.de.md#booking).
+Nach erfolgreicher Konfiguration des PayPal Moduls steht die Angebotsart "PayPal Checkout" beim Erstellen eines Angebots zur Verfügung: für Kurse unter `Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot"`, für Durchführungen im Course Planner und für Gruppen in der [Gruppenadministration](../groups/Group_Administration/index.de.md#booking).
 
 [Einrichtung des Bezahlungsmoduls PayPal (Administration) >](../../manual_admin/administration/Payment_PayPal.de.md)
 
@@ -313,7 +313,7 @@ Beim automatischen Buchen wird die Angebotsbeschreibung nicht angezeigt und den 
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
-[Gruppenadministration >](../groups/Group_Administration.de.md)<br>
+[Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [PayPal Konfiguration (Administration) >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
 [Bezahlungsmodule: Rechnung (Administration) >](../../manual_admin/administration/Payment_Invoice.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>

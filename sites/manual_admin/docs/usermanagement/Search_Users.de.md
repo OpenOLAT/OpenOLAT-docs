@@ -74,7 +74,7 @@ werden.
 
 Es existieren zwei Gruppenrollen, die angezeigt und bearbeitet werden können: 
 
-* [Gruppenbetreuer:innen](../../manual_user/groups/Group_Administration.de.md) und 
+* [Gruppenbetreuer:innen](../../manual_user/groups/Group_Administration/index.de.md) und 
 * Gruppenteilnehmer:innen 
 
 
@@ -221,7 +221,7 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 
 **Auf dieser Seite erwähnt**<br>
 [Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
-[Gruppenverwaltung >](../../manual_user/groups/Group_Administration.de.md)<br>
+[Gruppenverwaltung >](../../manual_user/groups/Group_Administration/index.de.md)<br>
 [Module >](../administration/Modules.de.md)<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Kontoeinstellungen verwalten >](Configure_User.de.md)
