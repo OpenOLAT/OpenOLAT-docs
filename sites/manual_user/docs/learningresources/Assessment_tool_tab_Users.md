@@ -44,13 +44,13 @@ Course element "Task"
 
 To check as a coach how many points specific participants have earned, open the assessment tool in the relevant course: `Course > Administration > Assessment tool`. On the overview, a click on one of the numbers opens a pre-filtered list, for example all persons who have passed. If a list is open, click on the name of the person in question.
 
-![Course structure on the left and the links to pre-filtered lists such as number of participants, passed, failed and members highlighted](assets/assessment_tool_tab_users_points1_v1_de.png){ class="shadow lightbox" title="Overview of the assessment tool" }
+![Course structure on the left and the numbers that open pre-filtered lists highlighted: participants, passed, not passed, undefined and members](assets/assessment_tool_tab_users_points1_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool · 2026.10.22" }
 
 #### Points for the entire course
 
 To view the points for the entire course, select the course name on the left and then the "Participants" tab.
 
-![Score column with the points of the entire course per person highlighted](assets/assessment_tool_tab_users_points2_v1_de.png){ class="shadow lightbox" title="Tab Participants of the top course element in the assessment tool" }
+![Course name selected on the left, the Participants tab and the Score column with the points of the entire course per person highlighted](assets/assessment_tool_tab_users_points2_v1_en.png){ class="shadow lightbox" title="Tab Participants of the course in the assessment tool · 2026.10.22" }
 
 Awarded points only count towards the total score of the course once the assessment is released. In a learning path course, the course settings define whether coaches may release an assessment themselves: `Course > Administration > Settings > Tab "Assessment"`, section "User rights", option "release assessment" under "Coaches can". More on this in the [section User rights](Course_Settings_Assessment.md#section_assessment_rights).
 
@@ -60,13 +60,15 @@ Points that do not count towards the total score are also shown in parentheses. 
 
 The following example shows the assessment of a person in a learning path course in which not all assessments are released yet.
 
-![Score column with points not yet released in parentheses, for the course the total score after the release of all assessments](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" title="Assessment of a person in the assessment tool" }
+![Score column highlighted: course row 9 (21), Case study (12) not released, Oral exam 9 released](assets/assessment_tool_tab_users_points3_v1_en.png){ class="shadow lightbox" title="Assessment of a person in the assessment tool · 2026.10.22" }
 
 In the example, the values in the "Score" column mean:
 
-* **Musterkurs A** (course row): "9 (21)" means that 9 points are awarded and released. Once all awarded points are released, the person has 21 points.
-* **Test**: "(12)" means that 12 points are awarded but not yet released.
-* **Aufgabe**: "9" without parentheses means that 9 points are awarded and released.
+* **Sample course A** (course row): "9 (21)" means that 9 points are awarded and released. Once all awarded points are released, the person has 21 points.
+* **Case study**: "(12)" means that 12 points are awarded but not yet released.
+* **Oral exam**: "9" without parentheses means that 9 points are awarded and released.
+
+Whether an assessment is released is shown in the "Release assessment" column: in the example "Not released" for Case study and "Released" for Oral exam.
 
 #### Points for a specific course element
 

@@ -47,14 +47,13 @@ Kursbaustein "Aufgabe"
 
 Um als Betreuer:in nachzuschauen, wie viele Punkte bestimmte Teilnehmer:innen erreicht haben, öffnen Sie im betreffenden Kurs das Bewertungswerkzeug: `Kurs > Administration > Bewertungswerkzeug`. Die Übersicht führt mit einem Klick auf eine der Zahlen zu einer vorgefilterten Liste, zum Beispiel zu allen Personen, die bestanden haben. Ist eine Liste geöffnet, klicken Sie auf den Namen der betreffenden Person.
 
-![Kursstruktur links und die Links zu vorgefilterten Listen wie Anzahl Teilnehmende, Bestanden, Nicht bestanden und Mitglieder hervorgehoben](assets/assessment_tool_tab_users_points1_v1_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs" }
-
+![Kursstruktur links und die Zahlen, die vorgefilterte Listen öffnen, hervorgehoben: Teilnehmer:innen, Bestanden, Nicht bestanden, Keine Angabe und Mitglieder](assets/assessment_tool_tab_users_points1_v2_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs · 2026.10.22" }
 
 #### Punkte des gesamten Kurses
 
 Um die Punkte für den Gesamtkurs zu sehen, wählen Sie links den Namen des Kurses und dann den Tab "Teilnehmer:innen".
 
-![Spalte Punkte mit den Punkten des Gesamtkurses je Person hervorgehoben](assets/assessment_tool_tab_users_points2_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des obersten Kursbausteins im Bewertungswerkzeug" }
+![Kursname links ausgewählt, Tab Teilnehmer:innen und Spalte Punkte mit den Punkten des Gesamtkurses je Person hervorgehoben](assets/assessment_tool_tab_users_points2_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kurses im Bewertungswerkzeug · 2026.10.22" }
 
 Vergebene Punkte zählen erst zur Gesamtpunktzahl des Kurses, wenn die Bewertung freigegeben ist. In einem Lernpfadkurs legen die Kurseinstellungen fest, ob Betreuer:innen eine Bewertung selbst freigeben dürfen: `Kurs > Administration > Einstellungen > Tab "Bewertung"`, Abschnitt "Berechtigungen", Option "Bewertung freigeben" unter "Betreuende können". Mehr dazu im [Abschnitt Berechtigungen](Course_Settings_Assessment.de.md#section_assessment_rights).
 
@@ -64,13 +63,15 @@ In Klammern stehen auch Punkte, die nicht zur Gesamtpunktzahl zählen. Ein Klick
 
 Das folgende Beispiel zeigt die Bewertung einer Person in einem Lernpfadkurs, in dem noch nicht alle Bewertungen freigegeben sind.
 
-![Spalte Punkte mit nicht freigegebenen Punkten in Klammern, beim Kurs die Gesamtpunktzahl nach Freigabe aller Bewertungen](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" title="Bewertung einer Person im Bewertungswerkzeug" }
+![Spalte Punkte hervorgehoben: Zeile des Kurses 9 (21), Case study (12) nicht freigegeben, Oral exam 9 freigegeben](assets/assessment_tool_tab_users_points3_v2_de.png){ class="shadow lightbox" title="Bewertung einer Person im Bewertungswerkzeug · 2026.10.22" }
 
 Die Werte in der Spalte "Punkte" bedeuten im Beispiel:
 
-* **Musterkurs A** (Zeile des Kurses): "9 (21)" heisst, 9 Punkte sind vergeben und freigegeben. Sind alle vergebenen Punkte freigegeben, hat die Person 21 Punkte.
-* **Test**: "(12)" heisst, 12 Punkte sind vergeben, aber noch nicht freigegeben.
-* **Aufgabe**: "9" ohne Klammer heisst, 9 Punkte sind vergeben und freigegeben.
+* **Sample course A** (Zeile des Kurses): "9 (21)" heisst, 9 Punkte sind vergeben und freigegeben. Sind alle vergebenen Punkte freigegeben, hat die Person 21 Punkte.
+* **Case study**: "(12)" heisst, 12 Punkte sind vergeben, aber noch nicht freigegeben.
+* **Oral exam**: "9" ohne Klammer heisst, 9 Punkte sind vergeben und freigegeben.
+
+Ob eine Bewertung freigegeben ist, zeigt die Spalte "Freigabe Bewertung": im Beispiel "Nicht freigegeben" bei Case study und "Freigegeben" bei Oral exam.
 
 #### Punkte eines bestimmten Kursbausteins
 
