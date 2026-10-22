@@ -1,13 +1,14 @@
 # Account search {: #search_user}
 
-User administrators and administrators can search for specific users/accounts in different ways:
+If you want to edit an account, you first find it in the account search. Depending on what you know about the accounts you are looking for, a different way leads to the goal faster: individual attributes, a role or assignment, a search term or a whole list. Administrators, user managers, roles managers and principals reach the account search under:<br>
+`User management > User search`
 
 !!! note "Quick Links"
 
     * [Enter criteria in the search form](#search_user_form)
     * [Display accounts according to different roles and assignments](#search_user_roles)
-    * [Quick Search](#search_user_quick_search)
-    * [Mass search](#search_user_bulk_search)
+    * [Quick search with the search field](#search_user_quick_search)
+    * [Bulk search](#search_user_bulk_search)
     * [Filter search results](#search_user_filter_searchresults)
     * [Columns of the result table](#search_user_result_columns)
 
@@ -15,7 +16,7 @@ User administrators and administrators can search for specific users/accounts in
 
 ## Enter criteria in the search form {: #search_user_form}
 
-Enter your relevant search criteria and confirm with the "Return" key or by clicking on the "Search" button.
+If you are looking for accounts with specific attributes, for example all accounts of an institution or with a specific role, fill in the matching fields of the search form. Confirm with the Enter key or with "Search".
 
 ![Search fields from ID to Last user login before, grouped into personal data, address, institution, roles, authentication, account status and dates](assets/user_management_search_form_v2_en.png){ class="shadow lightbox" title="Search form of the account search" }
 
@@ -28,19 +29,18 @@ The field "Account expiration" searches by the expiry date of the accounts. The 
 
 ## Display accounts according to different roles and assignments {: #search_user_roles}
 
-Select one of the relevant search criteria in the menu on the left and narrow it down.
+If you want to see all accounts with the same role or assignment, select an entry in the menu on the left and below it the role or assignment you need. The list then shows all matching accounts.
 
 ![Marked menu on the left with nine expandable entries that display accounts by roles and assignments](assets/user_management_search_left_menu_v2_en.png){ class="shadow lightbox" title="Left menu of the account search" }
 
 ### Organizations {: #organizations}
 
-If an OpenOlat instance uses several "organizations", the users can be
-displayed here sorted accordingly.
+If an OpenOlat instance uses several "organisations", the accounts can be displayed here sorted accordingly.
 
 
-### Organizational Roles {: #organizational-roles}
+### Organisation roles {: #organizational-roles}
 
-The following organizational roles are distinguished and can be used for a filtered display:
+For each organisation role, an entry of its own shows all accounts that hold it:
 
 * All system users
 * Authors
@@ -55,14 +55,17 @@ The following organizational roles are distinguished and can be used for a filte
 * Learning resource managers
 * Line managers
 * Education managers
+* Selectus managers
 * Principals
 * Administrators
 * System administrators
 
+The entries for absence managers, project managers, quality managers, question bank managers, course planners and Selectus managers only appear when the corresponding module is switched on.
 
-### Course Roles {: #course-roles}
 
-We distiguish three course roles:
+### Course roles {: #course-roles}
+
+We distinguish three course roles:
 
   * Course owners
   * [Course coaches](../../manual_user/basic_concepts/Roles_Rights.md#course-rights-and-roles) and
@@ -71,7 +74,7 @@ We distiguish three course roles:
 The members of the respective roles can be displayed and edited here.
 
 
-### Group Roles {: #group-roles}
+### Group roles {: #group-roles}
 
 There are two group roles, which can be displayed and edited:
 
@@ -79,13 +82,13 @@ There are two group roles, which can be displayed and edited:
 * Group participants
 
 
-### Course Planner Roles {: #course-planner-roles}
+### Course Planner roles {: #course-planner-roles}
 
 If an OpenOlat instance uses the Course Planner, there are other roles available in addition to the usual course roles, whose members can be displayed and edited.
 
 * Product owners
 * Element owners
-* Head teachers
+* Master coaches
 * Course owners
 * Course coaches
 * Course participants
@@ -109,18 +112,18 @@ For example:
 * ...
 
 
-### User types {: #account-types}
+### User type {: #account-types}
 
-Here you can search within pre-selected account types.
+Here you search within pre-selected user types.
 
-* External accounts
-* Registrated accounts
-* Anonymous accounts
+* External user
+* Registered user
+* Anonymous guests
 
 
 ### Status {: #status}
 
-The following can be displayed here:
+Here you see the accounts with a specific status:
 
 * Pending users
 * Inactive users
@@ -131,61 +134,69 @@ The following can be displayed here:
 ![Table of the deleted users with Del_Username, Name, Last name, Deleted, Last login, Created, Deleted by and Remove filter, on the left the expanded entry Status](assets/user_management_search_status_v2_en.png){ class="shadow lightbox" title="Status Deleted users in the account search" }
 
 
-The "**Deleted users**" table in the user administration contains the following
-information (column titles) that is relevant in the user deletion process:
+The table "Deleted users" in the user management contains the following columns, which play a role in the deletion process:
 
-  *  **Del_Username:**  In the deletion process, the user name of the deleted user is replaced by an ID.
-  *  **Name / Last name:**  If the deleted user is an administrative user, the first name and surname are displayed here. The "Clear" action deletes this data as well.
+  *  **Del_Username:** In the deletion process, OpenOlat replaces the username of the deleted account with an ID.
+  *  **Name / Last name:** If the deleted account held an administrative role, the first name and last name stand here. The "Clear" action deletes this data as well.
   *  **Deleted:** Date of deletion
   *  **Last login:** Date of last login
   *  **Created:** Date of account creation
-  *  **Roles:**  Display of the administrative roles of the person who was deleted
+  *  **Roles:** The administrative roles of the deleted account
   *  **Deleted by:** Person who carried out the deletion
-  *  **Remove filter:** Column with the "Clear" action that deletes the first and last name of administrative users.
+  *  **Remove filter:** Column with the "Clear" action that deletes the first and last name of administrative accounts.
 
 
-!!! tip "Show column titles"
+!!! tip "Show columns"
 
-    If a column is not displayed, you can show it using the gear icon on the right above the table.
-
-
-
-### Predefined search queries {: #predefined-search-queries}
-
-Under the menu "**Predefined search queries**" you will find frequently used search queries:
-
-* Accounts without groups
-* Missing authentication
-* Users, who joined within the last week
-* Users, who joined within the last month
-* Users, who joined within the last six month
-* New accounts
-
-[To the top of the page ^](#search_user)
+    If a column is missing, show it with the gear symbol on the right above the table.
 
 
-## Quick Search {: #search_user_quick_search}
 
-For a quick search, simply enter a term or part of a term in the "Quick Search" field.
+### Predefined searches {: #predefined-search-queries}
 
-![Marked input field with the button Search above the remaining search fields](assets/user_management_quick_search_v2_en.png){ class="shadow lightbox" title="Search form of the account search" }
+Under the menu "Predefined searches" you find frequently used searches:
+
+* Users without groups
+* Users without email
+* Users without organisation
+* User email duplicates
+* Authentication missing
+* New since last week
+* New since last month
+* New since the last six months
+* New users
+* Global roles outside default org
+
+Only administrators and roles managers see the entries "Users without email", "Users without organisation" and "User email duplicates".
 
 [To the top of the page ^](#search_user)
 
 
-## Bulk search {: #search_user_bulk_search}
+## Quick search with the search field [:octicons-tag-16:{ title="from Release 21.1 (OO-9627)" }](https://track.frentix.com/issue/OO-9627) {: #search_user_quick_search}
+
+If you know the name, the e-mail address or the institution identifier of a person, the search field above the search form finds the account fastest. Enter the term or its beginning in the field "Enter search term" and confirm with "Search" or the Enter key. OpenOlat finds the accounts whose username, first name, last name, e-mail, institutional e-mail, institution identifier, organizational unit/study group or field of studies begins with the term. Separate several terms with spaces; an account appears as soon as one of the terms applies. The search field only finds an ID when you enter it completely and as the only term. The search covers the organisations you manage. The hits appear in a list of their own.
+
+![Marked search field with the term white, the cross to clear the field and the button Search](assets/user_management_quick_search_v3_en.png){ class="shadow lightbox" title="Search field above the search form of the account search · 2026.10.22" }
+
+As soon as the field contains text, a cross appears on its right. A click on it clears the field, see [Reset search](../../manual_user/basic_concepts/Search_General.md#search_reset). When you return from the result list to the search form, your term is still in the field.
+
+[To the top of the page ^](#search_user)
+
+
+## Bulk search [:octicons-tag-16:{ title="from Release 15.4 (OO-5233)" }](https://track.frentix.com/issue/OO-5233) {: #search_user_bulk_search}
+
+If you have a list of people, for example from a spreadsheet, whose accounts you want to edit together, you search for all of them in one step. Next to the title "User search: search form", click "Bulk search".
 
 ![Marked link Bulk search next to the heading User search: search form](assets/user_management_bulk_search_v2_en.png){ class="shadow lightbox" title="Header of the search form of the account search" }
+
+In the field "Usernames, E-mail or Institution identifier", enter one entry per line, at most 16'000 lines, and click "Search". The line numbers at the margin show how many entries the list holds. OpenOlat finds the accounts whose username, e-mail or institution identifier matches an entry exactly; upper and lower case do not matter. The bulk search does not find deleted accounts and accounts outside the organisations you manage. With "Search form" you return to the search form.
 
 [To the top of the page ^](#search_user)
 
 
 ## Filter search results {: #search_user_filter_searchresults}
 
-If a list of search results is displayed after a search action, filters can be used to further specify the selection in a second step.<br>
-**Example**:<br>
-In the first step, you search for all users who belong to a specific organizational unit.
-In the second step, you filter out all inactive users of this organizational unit in the results.
+In the result list, you narrow the selection further with filters. An example: you first search for all accounts of an organisation and then show only the inactive accounts of this organisation with "Inactive" above the result list.
 
 ![Filter row with Status, Organisations, Inactivation and More above the result list, the selection field Status is expanded](assets/user_management_filter_searchresults_v2_en.png){ class="shadow lightbox" title="Result list of the account search" }
 
@@ -225,6 +236,7 @@ The "Account" tab of a single person carries the same periods, see [Manage user 
 [Roles and rights >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
 [Group administration >](../../manual_user/groups/Group_Administration/index.md)<br>
 [Modules >](../administration/Modules.md)<br>
+[General information on the search >](../../manual_user/basic_concepts/Search_General.md)<br>
 [Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Manage user settings >](Configure_User.md)
 

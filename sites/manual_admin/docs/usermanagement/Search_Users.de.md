@@ -1,12 +1,13 @@
 # Kontosuche {: #search_user}
 
-Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Weise nach bestimmten Benutzer:innen/Konten suchen:
+Wer ein Konto bearbeiten will, findet es zuerst in der Kontosuche. Je nachdem, was Sie über die gesuchten Konten wissen, führt ein anderer Weg schneller ans Ziel: einzelne Merkmale, eine Rolle oder Zuordnung, ein Suchbegriff oder eine ganze Liste. Die Kontosuche erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals unter:<br>
+`Benutzerverwaltung > Kontosuche`
 
 !!! note "Quick Links"
 
     * [Eingabe von Kriterien im Suchformular](#search_user_form)
     * [Konten nach unterschiedlichen Rollen und Zuordnungen anzeigen lassen](#search_user_roles)
-    * [Quick Search](#search_user_quick_search)
+    * [Schnelle Suche über das Suchfeld](#search_user_quick_search)
     * [Massensuche](#search_user_bulk_search)
     * [Suchergebnisse filtern](#search_user_filter_searchresults)
     * [Spalten der Ergebnistabelle](#search_user_result_columns)
@@ -15,9 +16,9 @@ Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Wei
 
 ## Eingabe von Kriterien im Suchformular {: #search_user_form}
 
-Geben Sie Ihre relevanten Suchkriterien ein und bestätigen Sie mit der "Return"-Taste oder durch Klick auf den Button "Suchen".
+Suchen Sie Konten mit bestimmten Merkmalen, etwa alle Konten einer Institution oder mit einer bestimmten Rolle, füllen Sie im Suchformular die passenden Felder aus. Bestätigen Sie mit der Eingabetaste oder mit "Suchen".
 
-![Suchfelder von Anmeldename bis Kontoablauf, gegliedert in Personalien, Adresse, Institution, Rollen, Authentifizierung und Kontostatus](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" title="Suchformular der Kontosuche" }
+![Suchfelder von ID bis zur letzten Anmeldung, gegliedert in Personalien, Adresse, Institution, Rollen, Authentifizierung, Kontostatus und Daten, darüber das Suchfeld](assets/user_management_search_form_v3_de.png){ class="shadow lightbox" title="Suchformular der Kontosuche · 2026.10.22" }
 
 Über der Ansicht stehen die Aktionen "Konto erstellen", "Konten importieren", "Temporäres Konto erstellen" und "Konten löschen".
 
@@ -28,9 +29,9 @@ Das Feld "Kontoablauf" sucht nach dem Ablaufdatum der Konten. Die Auswahl links 
 
 ## Konten nach unterschiedlichen Rollen und Zuordnungen anzeigen lassen {: #search_user_roles}
 
-Wählen Sie links im Menü eines der relevanten Suchkriterien und nehmen Sie eine Eingrenzung vor.
+Wollen Sie alle Konten mit derselben Rolle oder Zuordnung sehen, wählen Sie links im Menü einen Eintrag und darunter die gewünschte Rolle oder Zuordnung. Die Liste zeigt dann alle passenden Konten.
 
-![Markiertes Menü links mit neun aufklappbaren Einträgen, die Konten nach Rollen und Zuordnungen anzeigen](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" title="Linkes Menü der Kontosuche" }
+![Markiertes Menü links mit neun aufklappbaren Einträgen, die Konten nach Rollen und Zuordnungen anzeigen](assets/user_management_search_left_menu_v3_de.png){ class="shadow lightbox" title="Linkes Menü der Kontosuche · 2026.10.22" }
 
 ### Organisationen {: #organizations}
 
@@ -38,15 +39,14 @@ Verwendet eine OpenOlat Instanz mehrere "Organisationen", lassen sich die Konten
 
 ### Organisationsrollen {: #organizational-roles}
 
-Folgende Organisationsrollen werden unterschieden und können für eine
-gefilterte Darstellung verwendet werden:
+Für jede Organisationsrolle zeigt ein eigener Eintrag alle Konten, die sie innehaben:
 
 * Alle Systembenutzer:innen
 * Autor:innen
 * Gruppenverwalter:innen
 * Absenzenverwalter:innen
 * Projektverwalter:innen
-* Qualityverwalter:innen
+* Qualitätsverwalter:innen
 * Poolverwalter:innen
 * Benutzerverwalter:innen
 * Rollenverwalter:innen
@@ -54,9 +54,12 @@ gefilterte Darstellung verwendet werden:
 * Lernressourcenverwalter:innen
 * Linienvorgesetzte
 * Ausbildungsverantwortliche
+* Selectusverwalter:innen
 * Principals
 * Administrator:innen
 * Systemadministrator:innen
+
+Die Einträge für Absenzenverwalter:innen, Projektverwalter:innen, Qualitätsverwalter:innen, Poolverwalter:innen, Kursplaner:innen und Selectusverwalter:innen erscheinen nur, wenn das zugehörige Modul eingeschaltet ist.
 
 
 ### Kursrollen {: #course-roles}
@@ -67,15 +70,14 @@ Es werden drei Kursrollen unterschieden:
   * [Kursbetreuer:innen](../../manual_user/basic_concepts/Roles_Rights.de.md#kursbezogene-rollen-und-rechte) und
   * Kursteilnehmer:innen
 
-Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet
-werden.
+Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet werden.
 
 ### Gruppenrollen {: #group-roles}
 
-Es existieren zwei Gruppenrollen, die angezeigt und bearbeitet werden können: 
+Es existieren zwei Gruppenrollen, die angezeigt und bearbeitet werden können:
 
-* [Gruppenbetreuer:innen](../../manual_user/groups/Group_Administration/index.de.md) und 
-* Gruppenteilnehmer:innen 
+* [Gruppenbetreuer:innen](../../manual_user/groups/Group_Administration/index.de.md) und
+* Gruppenteilnehmer:innen
 
 
 ### Course Planner Rollen {: #course-planner-roles}
@@ -110,7 +112,7 @@ Zum Beispiel:
 
 ### Kontotypen {: #account-types}
 
-Hier suchen Sie innerhalb vorselektierter Kontotypen. 
+Hier suchen Sie innerhalb vorselektierter Kontotypen.
 
 * Externe Konten
 * Registrierte Konten
@@ -119,16 +121,16 @@ Hier suchen Sie innerhalb vorselektierter Kontotypen.
 
 ### Status {: #status}
 
-Hier können angezeigt werden:
+Hier sehen Sie die Konten mit einem bestimmten Status:
 
 * Ausstehende Konten
 * Inaktive Konten
-* Gesperrte Konten 
+* Gesperrte Konten
 * Gelöschte Konten
 
 
 
-![Tabelle der gelöschten Konten mit Del_Anmeldename, Gelöscht am, Erstellt und Gelöscht von, links der aufgeklappte Eintrag Status](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" title="Status Gelöschte Konten in der Kontosuche" }
+![Tabelle der gelöschten Konten mit Del_Anmeldename, Vorname, Nachname, Gelöscht am, Letzte Anmeldung, Erstellt, Gelöscht von und Filter entfernen, links der aufgeklappte Eintrag Status](assets/user_management_search_status_v3_de.png){ class="shadow lightbox" title="Status Gelöschte Konten in der Kontosuche · 2026.10.22" }
 
 
 Die Tabelle "Gelöschte Konten" in der Benutzerverwaltung enthält folgende Spalten, die im Löschprozess eine Rolle spielen:
@@ -143,50 +145,59 @@ Die Tabelle "Gelöschte Konten" in der Benutzerverwaltung enthält folgende Spal
   *  **Filter entfernen:** Spalte mit der Aktion "Entfernen", die Vor- und Nachname administrativer Konten löscht.
 
 
-!!! tip "Spaltentitel anzeigen"
+!!! tip "Spalten einblenden"
 
-    Sollte eine Spalte nicht angezeigt sein, können Sie sie über das Zahnrad-Icon rechts über der Tabelle einblenden.
+    Fehlt eine Spalte, blenden Sie sie über das Zahnrad-Symbol rechts über der Tabelle ein.
 
 
 
 ### Vordefinierte Suchabfragen {: #predefined-search-queries}
 
-Unter dem Menü "**Vordefinierte Suchabfragen**" finden Sie oft benutzte Suchabfragen:
+Unter dem Menü "Vordefinierte Suchabfragen" finden Sie oft benutzte Suchabfragen:
 
-* Konten ohne Gruppen
+* Konten ohne Gruppe
+* Konten ohne E-Mail
+* Benutzer:innen ohne Organisation
+* Konten E-Mail-Duplikate
 * Fehlende Authentifizierung
-* Konten, welche in der letzten Woche neu dazugekommen sind
-* Konten, welche im letzten Monat neu dazugekommen sind
-* Konten, welche im letzten Halbjahr neu dazugekommen sind
+* Neu seit 1 Woche
+* Neu seit 1 Monat
+* Neu seit 6 Monaten
 * Neue Konten
+* Globale Rollen ausserhalb der Standard-org
+
+Die Einträge "Konten ohne E-Mail", "Benutzer:innen ohne Organisation" und "Konten E-Mail-Duplikate" sehen nur Administrator:innen und Rollenverwalter:innen.
 
 [Zum Seitenanfang ^](#search_user)
 
 
-## Quick Search {: #search_user_quick_search}
+## Schnelle Suche über das Suchfeld [:octicons-tag-16:{ title="ab Release 21.1 (OO-9627)" }](https://track.frentix.com/issue/OO-9627) {: #search_user_quick_search}
 
-Zur schnellen Suche geben Sie einfach einen Begriff oder einen Teil davon in das Feld "Quick Search" ein.
+Kennen Sie den Namen, die E-Mail-Adresse oder die Institutionsnummer einer Person, finden Sie ihr Konto am schnellsten über das Suchfeld über dem Suchformular. Geben Sie den Begriff oder seinen Anfang in das Feld "Suchbegriff eingeben" ein und bestätigen Sie mit "Suchen" oder der Eingabetaste. OpenOlat findet die Konten, bei denen der Anmeldename, der Vorname, der Nachname, die E-Mail, die Institutions E-Mail, die Institutionsnummer, die Organisationseinheit / Studiengruppe oder das Studienfach mit dem Begriff beginnt. Mehrere Begriffe trennen Sie mit Leerzeichen; ein Konto erscheint, sobald einer der Begriffe zutrifft. Eine ID findet das Suchfeld nur, wenn Sie sie vollständig und als einzigen Begriff eingeben. Gesucht wird in den Organisationen, die Sie verwalten. Die Treffer erscheinen in einer eigenen Liste.
 
-![Markiertes Eingabefeld mit dem Button Quick Search über den übrigen Suchfeldern](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" title="Suchformular der Kontosuche" }
+![Markiertes Suchfeld mit dem Begriff white, dem Kreuz zum Leeren des Felds und dem Button Suchen](assets/user_management_quick_search_v3_de.png){ class="shadow lightbox" title="Suchfeld über dem Suchformular der Kontosuche · 2026.10.22" }
+
+Sobald im Feld etwas steht, erscheint rechts darin ein Kreuz. Ein Klick darauf leert das Feld, siehe [Suche zurücksetzen](../../manual_user/basic_concepts/Search_General.de.md#search_reset). Kehren Sie von der Trefferliste zum Suchformular zurück, steht Ihr Begriff noch im Feld.
 
 [Zum Seitenanfang ^](#search_user)
 
 
-## Massensuche {: #search_user_bulk_search}
+## Massensuche [:octicons-tag-16:{ title="ab Release 15.4 (OO-5233)" }](https://track.frentix.com/issue/OO-5233) {: #search_user_bulk_search}
 
-![Markierter Link Massensuche neben der Überschrift Kontosuche: Suchformular](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" title="Kopf des Suchformulars der Kontosuche" }
+Haben Sie eine Liste von Personen, etwa aus einer Tabelle, deren Konten Sie gemeinsam bearbeiten wollen, suchen Sie alle in einem Schritt. Klicken Sie neben dem Titel "Kontosuche: Suchformular" auf "Massensuche".
+
+![Markierter Link Massensuche neben der Überschrift Kontosuche: Suchformular](assets/user_management_bulk_search_v3_de.png){ class="shadow lightbox" title="Kopf des Suchformulars der Kontosuche · 2026.10.22" }
+
+Tragen Sie im Feld "Anmeldename, E-Mail oder Institutionsnummer" je Zeile einen Eintrag ein, höchstens 16'000 Zeilen, und klicken Sie auf "Suchen". Die Zeilennummern am Rand zeigen, wie viele Einträge die Liste hat. OpenOlat findet die Konten, deren Anmeldename, E-Mail oder Institutionsnummer genau einem Eintrag entspricht; Gross- und Kleinschreibung spielen keine Rolle. Gelöschte Konten und Konten ausserhalb der Organisationen, die Sie verwalten, findet die Massensuche nicht. Über "Suchformular" kehren Sie zum Suchformular zurück.
 
 [Zum Seitenanfang ^](#search_user)
 
 
 ## Suchergebnisse filtern {: #search_user_filter_searchresults}
 
-Wird nach einer Suchaktion eine Liste mit den Suchergebnissen angezeigt, kann darin mit Hilfe von Filtern die Auswahl in einem zweiten Schritt weiter spezifiziert werden.<br>
-**Beispiel**:<br>
-Sie suchen im ersten Schritt alle Konten, die einer bestimmten Organisationseinheit angehören.<br>
-Im zweiten Schritt filtern Sie in den Ergebnissen alle inaktiven Konten dieser Organisationseinheit heraus.
+In der Trefferliste grenzen Sie die Auswahl mit Filtern weiter ein. Ein Beispiel: Sie suchen zuerst alle Konten einer Organisation und zeigen danach mit "Inaktiv" über der Trefferliste nur die inaktiven Konten dieser Organisation.
 
-![Filterreihe mit Status, Organisationen, Inaktivierung und Mehr über der Trefferliste, das Auswahlfeld Status ist aufgeklappt](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" title="Trefferliste der Kontosuche" }
+![Filterreihe mit Status, Organisationen, Inaktivierung und Mehr über der Trefferliste, das Auswahlfeld Status ist aufgeklappt](assets/user_management_filter_searchresults_v3_de.png){ class="shadow lightbox" title="Trefferliste der Kontosuche · 2026.10.22" }
 
 Über der Trefferliste stehen die Filter-Tabs "Alle", "Aktiv", "Aktiv und nicht löschbar", "Ausstehende", "Inaktiv" und "Login gesperrt" sowie die Filter "Status", "Organisationen" und "Inaktivierung". Der Filter "Inaktivierung" grenzt auf einen Zeitraum ein, in dem Konten deaktiviert wurden oder deaktiviert werden.
 
@@ -223,6 +234,7 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 [Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
 [Gruppenverwaltung >](../../manual_user/groups/Group_Administration/index.de.md)<br>
 [Module >](../administration/Modules.de.md)<br>
+[Allgemeines zur Suche >](../../manual_user/basic_concepts/Search_General.de.md)<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Kontoeinstellungen verwalten >](Configure_User.de.md)
 
