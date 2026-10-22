@@ -13,9 +13,9 @@ nav:
     - System: "administration/System.md"
     - Core functions:
       - Overview: "administration/Core_functions.md"
-      - Landing pages: "administration/Landing_pages.md"
       - REST API: "administration/REST_API.md"
-      - Email Settings: "administration/E-Mail_Settings.md"
+      - Landing pages: "administration/Landing_pages.md"
+      - E-Mail Settings: "administration/E-Mail_Settings.md"
       - Files and Folders: "administration/Files_and_Folders.md"
       - WebDAV: "administration/WebDAV.md"
       - Licenses: "administration/Licenses.md"
