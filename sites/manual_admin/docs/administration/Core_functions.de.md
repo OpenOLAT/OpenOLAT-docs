@@ -1,6 +1,6 @@
 # Core-Konfiguration: Übersicht {: #core_config}
 
-![Grundeinstellungen des ganzen Systems in vierzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core-Konfiguration der System-Administration](assets/admin_core_config_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
+![Grundeinstellungen des ganzen Systems in sechzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core-Konfiguration der System-Administration](assets/admin_core_config_overview_v4_de.png){ width="196" class="shadow lightbox aside-left-lg" title="Menü Core-Konfiguration in der Administration · 2026.10.22" }
 
 In der Core-Konfiguration legen Administrator:innen und Systemadministrator:innen die Grundeinstellungen fest, die für das ganze System gelten: von Sprache und Startseite über E-Mail und Dateien bis zu den Schnittstellen, über die andere Systeme auf OpenOlat zugreifen. Die Abschnitte dieser Seite folgen der Reihenfolge des Menüs. Sie finden das Menü in der System-Administration unter:<br>
 `Administration > Core-Konfiguration`

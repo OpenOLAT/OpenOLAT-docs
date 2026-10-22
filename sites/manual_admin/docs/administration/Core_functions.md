@@ -1,6 +1,6 @@
 # Core functions: Overview {: #core_config}
 
-![Basic settings of the whole system in fourteen areas, from language and region to licenses, in the expanded Core functions menu of the system administration](assets/admin_core_config_overview_v3_en.png){ class="shadow lightbox aside-left-lg" }
+![Basic settings of the whole system in sixteen areas, from language and region to licenses, in the expanded Core functions menu of the system administration](assets/admin_core_config_overview_v4_en.png){ width="196" class="shadow lightbox aside-left-lg" title="Core functions menu in the administration · 2026.10.22" }
 
 In the Core functions, administrators and system administrators define the basic settings that apply to the whole system: from language and landing pages to e-mail and files, up to the interfaces through which other systems access OpenOlat. The sections of this page follow the order of the menu. You find the menu in the system administration under:<br>
 `Administration > Core functions`
