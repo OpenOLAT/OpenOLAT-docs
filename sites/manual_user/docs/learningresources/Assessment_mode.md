@@ -20,14 +20,15 @@ You create and configure an assessment mode in the assessment management of the 
 1. Open the course with the test.
 2. Select `Course > Administration > Assessment management > Tab "Configuration assessment mode"`.
 3. Click on "Add assessment mode".
+4. In the dialog "Create assessment mode", fill in title, start, end, prep time, follow-up and start / end mode, and click on "Create". OpenOlat then opens the exam with the tabs described in the following sections.
 
 For an event of the course, the assessment mode is created in the event list instead: [Assessment mode from an event](#exam_from_event)
 
-![Tab "Configuration assessment mode" and button "Add assessment mode" marked](assets/assessment_management_create_exam_setting_v2_en.png){ class="shadow lightbox" title="Assessment management page of a course" }
+![Tab "Configuration assessment mode" and button "Add assessment mode" marked](assets/assessment_management_create_exam_setting_v3_en.png){ class="shadow lightbox" title="Assessment management page of a course · 2026.10.22" }
 
 In the tab "Configuration assessment mode", you can see all examinations that have already been held, are in progress or are planned for a course. The mode of scheduled exams can still be edited up until the exam, but it is not possible to edit them retrospectively. The overview contains information on date and duration, lead and lag times and user groups.
 
-![Overview table of the assessment modes with status, lead and lag time, and target group per exam](assets/assessment_management_exam_settings_overview_v1_en.png){ class="shadow lightbox" title="Tab Configuration assessment mode" }
+![List of the assessment modes with filters by status, showing a scheduled exam with the button "Start" and an exam in the follow-up, each with prep time, follow-up and target group](assets/assessment_management_exam_settings_overview_v2_en.png){ class="shadow lightbox" title="Tab Configuration assessment mode · 2026.10.22" }
 
 You create an assessment mode before the exam. It contains
 
@@ -62,7 +63,7 @@ Furthermore, access to the exam can be restricted to specific IP addresses or th
 
 ## Tab "General"
 
-![Tab "General" with fields Title, Description, Start, Prep time, End, Follow-up time and Type of start/end](assets/assessment_management_create_exam_setting_tab_general_v1_en.png){ class="shadow lightbox" title="Dialog of a new exam" }
+![Fields Title, Description, Start, Prep time, End, Follow-up and Start / End mode](assets/assessment_management_create_exam_setting_tab_general_v1_en.png){ class="shadow lightbox" title="Tab General of an exam setting" }
 
 Participants see the title and description in the exam notification. In addition, you define in this tab:
 
@@ -83,18 +84,18 @@ Prep time and follow-up time control how long OpenOlat is locked, not how long t
 
 ## Tab "Element restriction"
 
-![Tab "Element restriction" with checkbox "Restrict access to course element" and selection of the start module](assets/assessment_management_create_exam_setting_tab_element_restriction_v1_en.png){ class="shadow lightbox" title="Dialog of an exam" }
+![Switched-on toggle "Restrict access to single course elements" with the selected course element and the first element shown](assets/assessment_management_create_exam_setting_tab_element_restriction_v2_en.png){ class="shadow lightbox" title="Tab Element restriction of an exam setting · 2026.10.22" }
 
-**Restrict access to course element**: To restrict the exam to selected course elements of the relevant course, select the checkbox here and then click on the "Select course element" button. A list of all course elements of the course opens. Select the course elements that you want to be displayed to the participants during the exam. All other course elements are hidden for the duration of the exam.
+**Restrict access to single course elements**: To restrict the exam to selected course elements of the relevant course, switch on the toggle here and then click on the "Select course element" button. A list of all course elements of the course opens. Select the course elements that you want to be displayed to the participants during the exam. All other course elements are hidden for the duration of the exam.
 
-**Start module**: If you want a specific course element to be displayed to the participants directly at the start, click on "Select course element" and select one of the available course elements. Only the course elements that were selected for display in the previous step are displayed.
+**First element shown**: If you want a specific course element to be displayed to the participants directly at the start, click on "Select course element" and select one of the available course elements. Only the course elements that were selected for display in the previous step are displayed.
 
 ---
 
 
 ## Tab "Access"
 
-![Tab "Access" with IP restriction, the four participant options and the checkbox "Apply exam setting for coaches"](assets/assessment_management_create_exam_setting_tab_access_v1_en.png){ class="shadow lightbox" title="Tab Access in the exam dialog" }
+![Checkbox "Limit to IP address", the four options under "Participants" and the checkbox "Apply exam setting for coach"](assets/assessment_management_create_exam_setting_tab_access_v2_en.png){ class="shadow lightbox" title="Tab Access of an exam setting · 2026.10.22" }
 
 **Limit to IP address**: To only allow the exam to be taken on certain computers or locations, select the checkbox here and then enter the permitted IP addresses. You should be able to obtain these from your IT department. For example, you can use it to prevent participants from taking an exam from home.
 
@@ -119,11 +120,11 @@ If this option is selected, the assessment mode also applies to the coaches of t
 
 ## Tab "Safe Exam Browser" [:octicons-tag-16:{ title="from Release 20.3 (OO-9159)" }](https://track.frentix.com/issue/OO-9159) {: #tab-safe-exam-browser}
 
-![Switched-off toggle "Use Safe Exam Browser", further fields only appear after switching it on](assets/assessment_management_create_exam_setting_tab_seb_v1_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser in the exam dialog" }
+![Switched-off toggle "Use Safe Exam Browser", further fields only appear after switching it on](assets/assessment_management_create_exam_setting_tab_seb_v1_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser of an exam setting" }
 
 **Use Safe Exam Browser**: The use of the [Safe Exam Browser](http://www.safeexambrowser.org) allows the secure execution of online exams by putting the computer into the so-called kiosk mode. This prevents the use of unauthorized sources during an exam. Participants are notified that the SEB is a prerequisite for the exam. The exam can only be carried out once OpenOlat has been started in the Safe Exam Browser.
 
-![Marked choice SEB configuration with From template (recommended), Customised and With manual keys, below it Template, Template type and assessment mode-specific configuration](assets/assessment_management_create_exam_setting_tab_seb_fields_v2_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser in the exam dialog · 2026.10.02" }
+![Marked choice SEB configuration with From template (recommended), Customised and With manual keys, below it Template, Template type and assessment mode-specific configuration](assets/assessment_management_create_exam_setting_tab_seb_fields_v2_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser of an exam setting · 2026.10.02" }
 
 **SEB configuration** [:octicons-tag-16:{ title="from Release 20.3.10 / 21.0.4 (OO-9730)" }](https://track.frentix.com/issue/OO-9730): Define where the Safe Exam Browser takes its settings for this exam from. Three types are available:
 
@@ -206,7 +207,7 @@ Participants who have been assigned to an exam are informed about the start of t
 
 If the option "Manual" is selected under "Start / End mode", a person starts the exam themselves, for example the supervisor in the exam room as soon as everyone is ready. For this, the overview of the [assessment tool](Assessment_tool_overview.md) shows the button "Start exam" next to the exam in the area "Assessment mode". The button appears from the day on which the exam begins, not only at the configured time.
 
-![Assessment mode tile with button "Start exam" marked](assets/assessment_management_exam_coach_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool" }
+![Menu Administration with the entry Assessment tool and area Assessment mode with a scheduled exam and the button "Start exam" marked](assets/assessment_management_exam_coach_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool" }
 
 If the exam starts later than planned, the prep time remains as configured. The end of the exam is postponed by the same time, so the configured exam duration remains the same.
 
@@ -252,7 +253,7 @@ A running assessment mode ends automatically or manually, depending on the setti
 
 With "Manual", the persons who may also start the exam finish it with the button "Finish exam" in the assessment tool, see [Who can start and finish an exam manually](#start_stop_rights).
 
-![Banner of the active assessment mode with button "Finish exam" and tile Assessment mode with status In progress marked](assets/assessment_management_exam_stop_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool" }
+![Banner of the running exam with button "Finish exam" and area Assessment mode with status In progress and the same button marked](assets/assessment_management_exam_stop_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool" }
 
 The assessment mode is also ended when the corresponding course is ended or deleted.
 
