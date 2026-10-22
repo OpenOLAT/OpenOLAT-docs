@@ -1,10 +1,10 @@
 # Tests bewerten {: #assessing_tests}
 
-Hier erfahren Sie, wie Sie Tests mit dem Bewertungswerkzeug von OpenOlat bewerten und korrigieren.
+Nach einem Test bewerten Sie im Bewertungswerkzeug die Ergebnisse der Teilnehmenden: Sie korrigieren Antworten von Hand, gleichen fehlerhafte Fragen aus und geben die Resultate frei.
 
 Öffnen Sie das Bewertungswerkzeug über `Kurs > Administration > Bewertungswerkzeug` und wählen Sie in der linken Übersicht, die die Kursstruktur widerspiegelt, den Test aus, den Sie bewerten möchten. Hier finden Sie zwei Tabs: "Übersicht" und "Teilnehmer:innen".
 
-Im Tab "Übersicht" erhalten Sie eine Übersicht zur Bewertung dieses Kursbausteins, z.B. wie viele Personen diesen Kursbaustein schon bestanden haben. Im Tab "Teilnehmer:innen" werden die Teilnehmenden angezeigt und die eigentliche Bewertung von Teilnehmenden kann gestartet werden.
+Der Tab "Übersicht" fasst den Stand der Bewertung dieses Kursbausteins zusammen, zum Beispiel wie viele Personen ihn schon bestanden haben. Im Tab "Teilnehmer:innen" sehen Sie die Teilnehmenden und starten die Bewertung.
 
 ## Tab Teilnehmer:innen
 
@@ -15,7 +15,7 @@ Im Tab "Übersicht" erhalten Sie eine Übersicht zur Bewertung dieses Kursbauste
 Kursbetreuer:innen und Kursbesitzer:innen haben über die entsprechenden Buttons die Möglichkeit:
 
 * sich die Teststatistiken anzuschauen,
-* die Resultate aller angezeigten Lernenden als zip-Datei zu exportieren,
+* die Resultate aller angezeigten Teilnehmenden als zip-Datei zu exportieren,
 * Tests einzuziehen, die sich aktuell in Bearbeitung befinden,
 * alle Daten des Tests zu löschen,
 * die Bewertung für alle oder mehrere ausgewählte Teilnehmende auf den Status "abgeschlossen" zu setzen und damit die Bewertung final zu beenden,
@@ -32,13 +32,13 @@ Kursbetreuer:innen und Kursbesitzer:innen haben über die entsprechenden Buttons
 Die Buttons und Optionen im Detail:
 
 ### Teststatistiken
-Aufrufen der detaillierten Statistik zu jeder Frage eines Tests. Sämtliche Antworten der Lernenden werden dabei berücksichtigt. Mehr dazu auf der Seite [Teststatistiken](Statistics_Test.de.md).
+Der Button öffnet die Statistik zum Test und zu jeder seiner Fragen. So erkennen Sie, wie gut einzelne Fragen funktioniert haben. Ausgewertet wird je Person der letzte Testversuch, sobald er beendet ist. Mehr dazu auf der Seite [Teststatistiken](Statistics_Test.de.md).
 
 ### Resultate exportieren
-Hier können die kompletten Testresultate als zip-Datei exportiert und somit archiviert werden. Der Titel der zip-Datei zeigt den Namen des Tests, den zugehörigen Kurs sowie das Datum des Downloads an. Der Ergebnisdownload beinhaltet eine Teilnehmendenübersicht als HTML-Seite, Ordner mit den Ergebnissen der Teilnehmenden sowie weitere Dateien. Wenn die Testquittung aktiviert wurde, wird auch diese exportiert. Welche Spalten die Excel-Datei enthält, steht auf der Seite [Tests exportieren](Test_export.de.md#export_results).
+Um die Testresultate zu archivieren oder ausserhalb von OpenOlat auszuwerten, exportieren Sie sie als zip-Datei. Der Name der zip-Datei nennt den Test, den Kurs und das Datum des Downloads. Die zip-Datei enthält eine Übersicht der Teilnehmenden als HTML-Seite, Ordner mit den Resultaten der Teilnehmenden und weitere Dateien. Ist die Testquittung eingeschaltet, enthält sie auch die Testquittungen. Welche Spalten die Excel-Datei enthält, steht auf der Seite [Tests exportieren](Test_export.de.md#export_results).
 
 ### Tests einziehen
-Sofern gestartete, aber noch nicht abgegebene Tests vorliegen, können diese eingezogen und somit angeschaut werden. Die Tests können auch einmalig nach Ende des Testdurchlaufs eingezogen werden.
+Haben Teilnehmende einen Test gestartet, aber noch nicht abgegeben, beenden Sie ihn mit "Tests einziehen". Die bis dahin gegebenen Antworten gelten dann als abgegeben, und Sie können sie ansehen und bewerten. Der Button ist nur aktiv, solange mindestens eine Person den Test bearbeitet.
 
 ### Korrekturwerkzeug {: #correction_tool}
 Im Korrekturwerkzeug korrigieren Sie einen Test Frage für Frage oder Person für Person. Sie vergeben Punkte für Fragen, die OpenOlat nicht selbst auswertet, passen die Punkte automatisch korrigierter Fragen an und hinterlassen Kommentare.
@@ -60,10 +60,10 @@ Mit "Alle Daten löschen" löschen Sie die Daten aller Teilnehmenden zu diesem T
 Den Eintrag sehen unter anderem Kursbesitzer:innen und Personen mit dem Recht [Bewertungs-Werkzeug](Members_management.de.md#additional_rights), nicht aber Kursbetreuer:innen ohne dieses Recht. Die Daten einzelner Personen setzen Sie dagegen bei der jeweiligen Person zurück, siehe Abschnitt "Tests zurücksetzen oder annullieren".
 
 ### Verlängern [:octicons-tag-16:{ title="ab Release 12.3 (OO-2967)" }](https://track.frentix.com/issue/OO-2967)
-Hier kann die voreingestellte Testzeit verlängert werden.
+Brauchen einzelne Teilnehmende mehr Zeit, wählen Sie sie in der Liste aus und verlängern mit "Verlängern" ihre Bearbeitungszeit um eine Anzahl Minuten.
 
 ### Bewertungsskala anpassen [:octicons-tag-16:{ title="ab Release 16.2 (OO-6008)" }](https://track.frentix.com/issue/OO-6008)
-Über diesen Button kann die Bewertungsskala geändert oder ein Wechsel zu einem anderen Bewertungssystem vorgenommen werden.
+Mit "Bewertungsskala anpassen" ändern Sie die Bewertungsskala des Kursbausteins oder wechseln zu einem anderen Bewertungssystem.
 
 ## Manuelle Bewertung von Testfragen
 Für die manuelle Bewertung der Fragen eines Tests sind grundsätzlich folgende Vorgehensweisen möglich:
@@ -74,7 +74,7 @@ b) Bewertung aller Fragen des Tests ausgehend von einer Person
 
 c) Bewertung einer einzelnen Person
 
-!!! note "Hinweis"
+!!! tip "Tipp"
 
     Für die Bewertung von a) und b) nutzen Sie den Button "Korrekturwerkzeug".
 
@@ -114,20 +114,32 @@ Die Spalten "#Manuell" und "#Zu korrigieren" erscheinen nur, wenn der Test Frage
 
 #### Antworten korrigieren {: #correct_answers}
 
-Klicken Sie auf den Titel der Frage, die Sie korrigieren möchten. Es erscheint die Antwort der ersten Person. Hier können Sie Punkte und Kommentare hinterlassen und bei Bedarf die Korrektur auch "Zur Überprüfung markieren". Für automatisch korrigierte Fragen können Sie sich auch die Lösung anzeigen lassen ("Lösung ansehen", "Korrekte Lösung ansehen") und die [Punkte anpassen](#adjust_score).
+Klicken Sie auf den Titel der Frage, die Sie korrigieren möchten. Es erscheint die Antwort der ersten Person. Hier können Sie Punkte und Kommentare hinterlassen und bei Bedarf die Korrektur auch "Zur Überprüfung markieren". Für automatisch korrigierte Fragen können Sie sich auch die Lösung anzeigen lassen ("Lösung ansehen", "Korrekte Lösung ansehen") und die [Punkte anpassen](#adjust_score). Im Feld "Bewertungsdokument" laden Sie bei Bedarf eine Datei zur Antwort hoch, etwa eine korrigierte Fassung. Teilnehmende finden sie in ihren Testresultaten bei der Frage, dort wo auch der Kommentar steht.
 
-Mehrere Korrektor:innen können gleichzeitig Bewertungen für einen Test vornehmen. Ist eine Frage durch eine:n Korrektor:in bereits in Bearbeitung, wird diese automatisch für andere gesperrt. In der System-Administration legen Administrator:innen unter `Administration > e-Assessment > Test` im Abschnitt "Konfiguration Korrektur" fest, ob die Teilnehmenden im Korrekturwerkzeug anonym aufgeführt werden. Statt des Namens erscheint dann die "Teilnehmendenkennung".
+Kommentare sind für Korrigierende immer sichtbar. Teilnehmende sehen sie nur, wenn die Testresultate für sie sichtbar sind und die Fragezusammenfassung angezeigt wird, siehe [Tests auf Kursebene](Tests_at_course_level.de.md#report). Das gilt für jeden Kommentar zu einer Frage, auch für den Kommentar aus "Punkte anpassen" und aus den Aktionen für alle Teilnehmenden.
+
+Mehrere Korrektor:innen können einen Test gleichzeitig bewerten. Bearbeitet jemand gerade die Antwort einer Person auf eine Frage, sperrt OpenOlat diese Antwort für alle anderen. In der System-Administration legen Administrator:innen unter `Administration > e-Assessment > Test` im Abschnitt "Konfiguration Korrektur" fest, ob die Teilnehmenden im Korrekturwerkzeug anonym aufgeführt werden. Statt des Namens erscheint dann die "Teilnehmendenkennung".
 
 Abschliessend speichern Sie die Eingaben mit "Speichern", "Speichern und weiter" oder "Speichern und zur Übersicht". Sie können zur nächsten Person wechseln oder zurück in die Fragenübersicht des Korrekturwerkzeugs gehen und die nächste Frage auswählen.
 
 #### Punkte für alle Teilnehmenden einer Frage {: #score_all_participants}
 
-Im Menü mit drei Punkten am Ende der Zeile einer Frage stehen zwei Aktionen, die eine Frage für alle Teilnehmenden auf einmal bewerten:
+War eine Frage fehlerhaft gestellt, behandeln Sie alle Teilnehmenden gleich, ohne jede Antwort einzeln zu öffnen. Im Menü mit drei Punkten am Ende der Zeile einer Frage stehen dafür zwei Aktionen für alle Teilnehmenden:
 
-* **Punkte zum Punktestand aller Teilnehmer:innen addieren**: OpenOlat zählt die eingegebene Punktzahl zu den Punkten jeder Person dazu. Die maximale Punktzahl der Frage wird dabei nicht überschritten.
-* **Punkte für alle Teilnehmer:innen setzen**: Alle Personen erhalten für diese Frage dieselbe Punktzahl.
+* **Punkte zur Punktzahl der Teilnehmenden addieren**: OpenOlat zählt die eingegebene Punktzahl zu den Punkten jeder Person dazu. Die maximale Punktzahl der Frage wird dabei nicht überschritten.
+* **Punkte für alle Teilnehmenden setzen**: Alle Personen erhalten für diese Frage dieselbe Punktzahl, unabhängig von ihrer Antwort.
 
-Bei einer automatisch korrigierten Frage gelten diese Punkte als Anpassung, genau wie eine [einzelne Punkteanpassung](#adjust_score).
+Beide Aktionen öffnen einen Dialog mit demselben Ablauf:
+
+1. Tragen Sie im Pflichtfeld "Zu addierende Punktzahl" bzw. "Neue Punktezahl" den Wert ein. Er muss zwischen der minimalen und der maximalen Punktzahl der Frage liegen. Beim Addieren muss er grösser als 0 sein.
+2. Erklären Sie im Feld "Kommentar", warum sich die Punkte ändern. OpenOlat hängt den Text bei jeder Person am Ende ihres bestehenden Kommentars an, ein vorhandener Kommentar bleibt erhalten. Das Feld ist freiwillig. [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9825)" }](https://track.frentix.com/issue/OO-9825)
+3. Bestätigen Sie mit "Punkte addieren" bzw. "Punktezahl setzen". OpenOlat speichert die Punkte und den Kommentar sofort bei allen Teilnehmenden, ein zusätzliches Speichern ist nicht nötig.
+
+Ist die Frage automatisch korrigiert, weist der Dialog darauf hin, dass die Frage automatisch bewertet wurde, und bittet um einen Kommentar, der den Teilnehmenden die Anpassung erklärt. Halten Sie diese Erklärung bereit, bevor Sie den Dialog öffnen: Ohne sie sehen die Teilnehmenden eine Punktzahl, die nicht zu ihrer Antwort passt.
+
+![Hinweis auf die automatische Bewertung der Frage, Pflichtfeld Neue Punktezahl und Feld Kommentar, der bei allen Teilnehmenden am bestehenden Kommentar angehängt wird](assets/assessing_tests_set_score_all_v1_de.png){ class="shadow lightbox" title="Dialog Punkte für alle Teilnehmenden setzen · 2026.10.22" }
+
+Bei einer automatisch korrigierten Frage gelten diese Punkte als Anpassung, genau wie eine [einzelne Punkteanpassung](#adjust_score). Die Frage trägt danach den Status "Manuell angepasst", auch bei Personen, die keine Antwort abgegeben oder die Frage nicht gelesen haben. Bei einer Frage, die von Hand korrigiert wird, gelten die Punkte als manuelle Korrektur, die Frage trägt den Status "Manuell korrigiert".
 
 ### Punkte einer Frage anpassen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9599)" }](https://track.frentix.com/issue/OO-9599) {: #adjust_score}
 
@@ -135,20 +147,21 @@ Stellt sich nach der Durchführung eines Tests heraus, dass eine automatisch kor
 
 Öffnen Sie im Korrekturwerkzeug die Antwort einer Person auf eine automatisch korrigierte Frage. Das Feld "Punkte" ist schreibgeschützt. Daneben steht der Button "Punkte anpassen".
 
-![Schreibgeschütztes Feld Punkte mit dem Button Punkte anpassen und dem geöffneten Eingabefenster für den neuen Punktwert](assets/assessing_tests_adjust_score_v1_de.png){ class="shadow lightbox" title="Antwort auf eine automatisch korrigierte Frage im Korrekturwerkzeug · 2026.09.28" }
+![Geöffnetes Eingabefenster Punkte anpassen mit dem Pflichtfeld Neue Punktezahl und dem Feld Kommentar für die Erklärung an die Person](assets/assessing_tests_adjust_score_v2_de.png){ class="shadow lightbox" title="Antwort auf eine automatisch korrigierte Frage im Korrekturwerkzeug · 2026.10.22" }
 
 1. Klicken Sie auf "Punkte anpassen". Es öffnet sich ein kleines Eingabefenster.
-2. Tragen Sie im Feld "Punkte" den neuen Punktwert der Frage ein, nicht die Differenz. Der Wert muss zwischen der minimalen und der maximalen Punktzahl der Frage liegen.
-3. Bestätigen Sie mit "Punkte anpassen".
-4. Speichern Sie die Korrektur mit "Speichern", "Speichern und weiter" oder "Speichern und zur Übersicht".
+2. Tragen Sie im Pflichtfeld "Neue Punktezahl" den neuen Punktwert der Frage ein, nicht die Differenz. Der Wert muss zwischen der minimalen und der maximalen Punktzahl der Frage liegen.
+3. Erklären Sie bei Bedarf im Feld "Kommentar", warum Sie die Punkte anpassen. OpenOlat hängt den Text am Ende des Feldes "Kommentar" der Antwort an.
+4. Bestätigen Sie mit "Punkte anpassen".
+5. Speichern Sie die Korrektur mit "Speichern", "Speichern und weiter" oder "Speichern und zur Übersicht". Erst damit sind Punkte und Kommentar gespeichert.
 
-Die Frage trägt danach den Status "Angepasst". Das Feld "Punkte" zeigt das Ergebnis. Darunter zeigt "Punkte (Auto)" den automatisch errechneten Wert und dahinter die Anpassung in Klammern, zum Beispiel "0 (+1)".
+Die Frage trägt danach den Status "Manuell angepasst". Das Feld "Punkte" zeigt das Ergebnis. Darunter zeigt "Punkte (Auto)" den automatisch errechneten Wert und dahinter die Anpassung in Klammern, zum Beispiel "0 (+1)".
 
-![Status Angepasst, Feld Punkte mit dem neuen Wert und darunter Punkte (Auto) mit dem automatisch errechneten Wert und der Anpassung in Klammern](assets/assessing_tests_score_adjusted_v1_de.png){ class="shadow lightbox" title="Angepasste Frage im Korrekturwerkzeug · 2026.09.28" }
+![Status Manuell angepasst, Feld Punkte mit dem neuen Wert und darunter Punkte (Auto) mit dem automatisch errechneten Wert und der Anpassung in Klammern](assets/assessing_tests_score_adjusted_v2_de.png){ class="shadow lightbox" title="Angepasste Frage im Korrekturwerkzeug · 2026.10.22" }
 
-Mit "Anpassung zurücksetzen" stellen Sie den automatisch errechneten Wert wieder her. Der Status wechselt zurück auf "Auto". Speichern Sie auch diese Änderung.
+Mit "Anpassung zurücksetzen" stellen Sie den automatisch errechneten Wert wieder her. Der Status wechselt zurück auf "Automatisch korrigiert". Speichern Sie auch diese Änderung.
 
-Bei Fragen, die von Hand korrigiert werden, gibt es keine Anpassung. Dort tragen Sie den Punktwert direkt im Feld "Punkte" ein, die Frage erhält den Status "Manuell".
+Bei Fragen, die von Hand korrigiert werden, gibt es keine Anpassung. Dort tragen Sie den Punktwert direkt im Feld "Punkte" ein, die Frage erhält den Status "Manuell korrigiert".
 
 Die Anpassung erscheint überall dort, wo Punkte stehen:
 
@@ -165,13 +178,15 @@ Die Teilnehmenden sehen in ihren Resultaten nur den Endwert der Frage, nicht die
 
 Wenn Sie die Antwort einer Person öffnen, zeigt der Status auf einen Blick, wie die Frage bewertet ist und ob noch etwas zu tun bleibt:
 
-* **Nicht beantwortet**: Die Person hat keine Antwort abgegeben.
-* **Auto**: OpenOlat hat die Frage automatisch korrigiert.
-* **Angepasst**: Der automatisch errechnete Punktwert wurde angepasst.
+* **Keine Antwort**: Die Person hat keine Antwort abgegeben oder die Frage nicht gelesen, und es sind keine Punkte von Hand vergeben.
+* **Automatisch korrigiert**: OpenOlat hat die Antwort automatisch bewertet.
+* **Manuell angepasst**: Die Punkte einer automatisch korrigierten Frage wurden von Hand geändert, mit "Punkte anpassen" oder mit einer Aktion für alle Teilnehmenden. Das gilt auch, wenn die Person keine Antwort abgegeben hat.
 * **Zu korrigieren**: Die Frage wird von Hand korrigiert und hat noch keine Punkte.
-* **Manuell**: Die Frage wurde von Hand korrigiert.
+* **Manuell korrigiert**: Die Frage wird von Hand korrigiert und hat Punkte. Das gilt auch, wenn die Person keine Antwort abgegeben hat.
 
-Hat die Person keine Antwort abgegeben, steht über der Antwort der Hinweis "Diese Frage wurde von der teilnehmenden Person nicht beantwortet." Hat sie die Frage gar nicht geöffnet, lautet er "Diese Frage wurde von der teilnehmenden Person nicht gelesen." Eine nicht gelesene Frage trägt ebenfalls den Status "Nicht beantwortet". Den eigenen Wert "Nicht gelesen" zeigt die Markierung rechts neben dem Namen der Person über der Antwort, dort stehen auch "Beantwortet" und "Nicht beantwortet". Denselben Wert zeigt die Fragenliste eines einzelnen Testversuchs, siehe [c) Manuelle Bewertung ausgehend von einer einzelnen Person](#test_runs).
+Hat die Person keine Antwort abgegeben, steht über der Antwort der Hinweis "Diese Frage wurde von der teilnehmenden Person nicht beantwortet." Hat sie die Frage gar nicht geöffnet, lautet er "Diese Frage wurde von der teilnehmenden Person nicht gelesen." Eine nicht gelesene oder nicht beantwortete Frage trägt den Status "Keine Antwort", solange niemand Punkte von Hand vergeben hat. Danach zeigt der Status den Eingriff: "Manuell angepasst" oder "Manuell korrigiert". Den eigenen Wert "Nicht gelesen" zeigt die Markierung rechts neben dem Namen der Person über der Antwort, dort stehen auch "Beantwortet" und "Nicht beantwortet". Denselben Wert zeigt die Fragenliste eines einzelnen Testversuchs, siehe [c) Manuelle Bewertung ausgehend von einer einzelnen Person](#test_runs).
+
+Spalten und Registerkarten des Korrekturwerkzeugs verwenden kürzere Bezeichnungen als der Status über der Antwort: die Spalten "#Auto", "#Manuell" und "#Angepasst" sowie die Registerkarten "Manuell" und "Angepasst".
 
 ### b) Manuelle Bewertung pro Person - Tab Teilnehmer:innen
 
@@ -196,12 +211,12 @@ Die Tabelle zeigt je Person:
 
 Die Spalten "#Manuell" und "#Zu korrigieren" erscheinen nur, wenn der Test Fragen enthält, die von Hand korrigiert werden. Die Spalte mit der Teilnehmendenkennung und die Spalte "Punkte" lassen sich nicht ausblenden, damit immer erkennbar bleibt, wessen Ergebnis in der Zeile steht.
 
-Wählen Sie hier die erste Person aus und Sie gelangen in die Fragenliste dieser Person. Hier wählen Sie die gewünschte Frage aus und nehmen die Bewertung vor (siehe a)). Anschliessend wählen Sie die nächste Person, bis alle Bewertungen erledigt sind.
+Ein Klick auf eine Person öffnet ihre Fragenliste. Dort wählen Sie eine Frage und bewerten sie wie unter a) beschrieben. Danach wählen Sie die nächste Person, bis alle bewertet sind.
 
 
 ### c) Manuelle Bewertung ausgehend von einer einzelnen Person {: #test_runs}
 
-Falls nur eine einzelne Person bewertet werden soll, bietet sich folgender Weg an:
+Wollen Sie nur eine einzelne Person bewerten, gehen Sie so vor:
 
 Wählen Sie den gewünschten Test in der linken Navigation aus und wählen Sie den Tab "Teilnehmer:innen". Klicken Sie dann auf den Namen der zu bewertenden Person. Es erscheint eine Liste mit allen Testversuchen dieser Person. Beim jüngsten Versuch klicken Sie in der Spalte "Korrektur" auf das Stift-Symbol "Korrigieren".
 
@@ -212,7 +227,7 @@ Wählen Sie den gewünschten Test in der linken Navigation aus und wählen Sie d
 Die Liste zeigt je Testversuch:
 
 * **Lauf**: die Nummer des Testversuchs.
-* **Beendet am**, **Dauer** und **Status** des Testversuchs.
+* **Beendet am**, "Dauer" und "Status" des Testversuchs.
 * **#Beantwortet**: wie viele Fragen die Person in diesem Testversuch beantwortet hat.
 * **Punkte**: das Ergebnis des Testversuchs. Der Wert ist schreibgeschützt.
 * **Punkte (Auto)**: der automatisch errechnete Anteil. Gibt es Anpassungen, stehen sie in Klammern dahinter, zum Beispiel "3 (+1 | -0.5)".
@@ -228,7 +243,7 @@ Nur beim jüngsten Testversuch sind die Werte in "#Zu korrigieren" und "#Zu übe
 
 Über das Symbol "Korrigieren" gelangen Sie in die Fragenliste des Testversuchs. Sie zeigt je Frage die Spalten "Sektion", "Frage", "Fragetyp", "Beantwortet", "Punkte", "Punkte (Auto)", "Punkte (Manuell)", "#Zu korrigieren" und "#Zu überprüfen". Die Spalte "Beantwortet" zeigt für jede Frage "Beantwortet", "Nicht beantwortet" oder "Nicht gelesen".
 
-Die Registerkarten "Alle", "Zu korrigieren", "Zu überprüfen", "Beantwortet", "Manuell" und "Angepasst" führen direkt zu den Fragen, die Sie suchen. Zusätzlich schränkt der Filter "Status" die Liste auf die Werte "Beantwortet", "Nicht beantwortet" oder "Nicht gelesen" ein. Von hier aus öffnen Sie jede Frage und nehmen die Bewertung vor (siehe a)).
+Die Registerkarten "Alle", "Zu korrigieren", "Zu überprüfen", "Beantwortet", "Manuell" und "Angepasst" führen direkt zu den Fragen, die Sie suchen. Zusätzlich schränkt der Filter "Status" die Liste auf die Werte "Beantwortet", "Nicht beantwortet" oder "Nicht gelesen" ein. Von hier aus öffnen Sie jede Frage und bewerten sie wie unter a) beschrieben.
 
 
 ### Freitextantworten als PDF herunterladen [:octicons-tag-16:{ title="ab Release 19.1 (OO-8963)" }](https://track.frentix.com/issue/OO-8963)
@@ -241,33 +256,32 @@ Für alle Antworten einer Frage öffnen Sie im Tab "Fragen" das Menü mit drei P
 
 ![Menü mit drei Punkten am Ende der Zeile einer Freitextfrage mit der Aktion Als PDF-Dateien für alle Teilnehmer:innen herunterladen](assets/assessing_tests_essay_pdf_menu_v1_de.png){ class="shadow lightbox" title="Tab Fragen im Korrekturwerkzeug" }
 
-Das PDF enthält im Kopfbereich Angaben zu Kurs, Kursbaustein und Test, damit eine eindeutige Zuordnung möglich ist. Wird der Test anonym korrigiert, werden die persönlichen Angaben der Teilnehmenden weggelassen und stattdessen die "Teilnehmendenkennung" angezeigt.
+Das PDF nennt im Kopfbereich Kurs, Kursbaustein und Test, damit sich jedes PDF eindeutig zuordnen lässt. Wird der Test anonym korrigiert, steht statt der persönlichen Angaben der Teilnehmenden die "Teilnehmendenkennung".
 
-Der Download steht im Korrekturwerkzeug eines Kurses zur Verfügung sowie im [Korrektur-Workflow](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments) für externe Korrektor:innen.
+Den Download finden Sie im Korrekturwerkzeug eines Kurses und im [Korrektur-Workflow](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments) für externe Korrektor:innen.
 
 !!! tip "Voraussetzung"
 
-    Der Download setzt voraus, dass in der System-Administration der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist.
+    Der Download setzt voraus, dass in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der Schalter "PDF Dienst" eingeschaltet ist, siehe [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator).
 
 
 ## Tests zurücksetzen oder annullieren [:octicons-tag-16:{ title="ab Release 14.2 (OO-4825)" }](https://track.frentix.com/issue/OO-4825)
 
-Von Lernenden durchgeführte Test-Versuche können auch rückgängig gemacht werden. Dafür öffnen Sie im Bewertungswerkzeug den Test einer Person. Unter "Testversuche" finden Sie "Annullieren" im Menü mit drei Punkten am Ende der Zeile eines Versuchs. Der Button "Testdaten zurücksetzen" steht unter der Liste der Versuche.
+Soll ein Testversuch nicht zählen oder eine Person den Test von vorn beginnen, annullieren Sie den Versuch oder setzen die Testdaten der Person zurück. Dafür öffnen Sie im Bewertungswerkzeug den Test einer Person. Unter "Testversuche" finden Sie "Annullieren" im Menü mit drei Punkten am Ende der Zeile eines Versuchs. Der Button "Testdaten zurücksetzen" steht unter der Liste der Versuche.
 
 ![Menü mit drei Punkten eines Testversuchs geöffnet mit der Aktion Annullieren, darunter der Button Testdaten zurücksetzen, beide hervorgehoben](assets/assessing_tests_invalidate_reset_v1_de.png){ class="shadow lightbox" title="Testversuche einer Person im Bewertungswerkzeug · 2026.09.29" }
 
-Beim **Annullieren** wird ein einzelner Versuch als ungültig markiert. Das bedeutet, der Versuch erscheint weiter in der Liste und kann von Lehrenden eingesehen und sogar wieder aktiviert werden, wird aber nicht mehr als Ergebnis für die lernende Person berücksichtigt. Hat die Person mehrere Versuche durchgeführt, wird der zeitlich nächste Versuch als Ergebnis berücksichtigt.
-Die Anzahl der angezeigten Versuche ändert sich dadurch aber nicht. Ist also ein Test z.B. auf drei Versuche eingeschränkt und hat die Person drei Versuche unternommen, stehen ihr keine weiteren Versuche zur Verfügung, auch wenn einer oder mehrere der Versuche annulliert wurden.
+Mit "Annullieren" markieren Sie einen einzelnen Versuch als ungültig. Der Versuch erscheint weiter in der Liste, Sie können ihn ansehen und wieder aktivieren, er zählt aber nicht mehr als Ergebnis der Person. Hat die Person mehrere Versuche durchgeführt, zählt der zeitlich nächste Versuch als Ergebnis. Die Anzahl der angezeigten Versuche ändert sich dadurch aber nicht. Ist also ein Test z.B. auf drei Versuche eingeschränkt und hat die Person drei Versuche unternommen, stehen ihr keine weiteren Versuche zur Verfügung, auch wenn einer oder mehrere der Versuche annulliert wurden.
 
 Liegt nur ein Versuch vor und wird dieser annulliert, ändert sich die Tabellenanzeige im Bewertungswerkzeug nicht. Der annullierte Versuch mit den zugehörigen Punkten wird weiterhin angezeigt.
 
-Im Gegensatz zum Annullieren führt **"Testdaten zurücksetzen"** dazu, dass alle Versuche komplett gelöscht werden, die Anzahl der Versuche somit auf 0 gesetzt wird.
+Mit "Testdaten zurücksetzen" löschen Sie dagegen alle Versuche der Person. Die Anzahl der Versuche steht danach wieder auf 0.
 
 ## Bewertung im Kursrun [:octicons-tag-16:{ title="ab Release 15.5 (OO-5211)" }](https://track.frentix.com/issue/OO-5211)
 
-Neben der Bewertung im Bewertungswerkzeug können auch einzelne Tests im Kursrun bei geschlossenem Editor bewertet werden. Die Bewertungsmöglichkeiten in den Tabs "Übersicht" und "Teilnehmer:innen" sind überwiegend identisch. Allerdings gibt es im Kursrun noch die Tabs "Vorschau", "Kommunikation" und "Erinnerungen".
+Einen einzelnen Test bewerten Sie auch direkt im Kurs, ohne das Bewertungswerkzeug zu öffnen: Wählen Sie bei geschlossenem Editor den Kursbaustein "Test". Die Tabs "Übersicht" und "Teilnehmer:innen" bieten dort weitgehend dieselben Möglichkeiten wie im Bewertungswerkzeug. Zusätzlich gibt es die Tabs "Vorschau", "Kommunikation" und "Erinnerungen".
 
-Die Vorschau zeigt die Perspektive der Teilnehmenden an. Der Tab "Kommunikation" ist für die Kommunikation während eines laufenden Tests z.B. im Rahmen von Online-Klausuren gedacht. Im Tab "Erinnerungen" besteht die Möglichkeit, eine Erinnerungsmail für bestimmte Bedingungen der Test-Bearbeitung, z.B. bei einer bestimmten Punktzahl, bestimmter Anzahl der Versuche oder beim Bestehen/Nichtbestehen, zu verschicken (siehe [Erinnerung](Course_Reminders.de.md)).
+Der Tab "Vorschau" zeigt den Test aus Sicht der Teilnehmenden. Der Tab "Kommunikation" dient dem Austausch mit den Teilnehmenden während eines laufenden Tests, zum Beispiel bei Online-Klausuren. Im Tab "Erinnerungen" verschicken Sie Erinnerungsmails, wenn bestimmte Bedingungen der Testbearbeitung erfüllt sind, zum Beispiel eine bestimmte Punktzahl, eine bestimmte Anzahl Versuche oder Bestehen und Nichtbestehen, siehe [Erinnerung](Course_Reminders.de.md).
 
 ![Tabs Vorschau, Kommunikation und Erinnerungen neben Übersicht und Teilnehmer:innen markiert, dazu der Button Korrekturwerkzeug und im Menü mit drei Punkten Alle Daten löschen](assets/assessing_tests_course_run_v1_de.png){ class="shadow lightbox" title="Test-Kursbaustein im Kursrun · 2026.10.07" }
 

@@ -23,6 +23,8 @@ Ob eine Frage als Frage taugt, zeigt sich auch daran, wie oft ihre Punkte nachtr
 * **Anzahl der Anpassungen**: bei wie vielen Antworten der automatisch errechnete Punktwert nachträglich angepasst wurde.
 * **Durchschnittliche Anpassung**: um wie viele Punkte im Mittel angepasst wurde, mit Vorzeichen, zum Beispiel "+0.8".
 
+Beide Werte berücksichtigen auch Fragen, welche die Person nicht gelesen oder nicht beantwortet hat, sobald dort Punkte angepasst wurden, etwa mit der Aktion "Punkte für alle Teilnehmenden setzen". Die Anzahl der Anpassungen stimmt damit mit der Spalte "#Angepasst" des Korrekturwerkzeugs überein. [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9825)" }](https://track.frentix.com/issue/OO-9825)
+
 Eine hohe Zahl von Anpassungen deutet darauf hin, dass die Frage oder ihre Lösung überarbeitet werden sollte. Ohne Anpassung fehlen die beiden Werte, ebenso bei Fragen, die von Hand korrigiert werden, weil es dort keine Anpassung gibt. Wie Sie Punkte anpassen, steht auf der Seite [Tests bewerten](Assessing_tests.de.md#adjust_score).
 
 [Zum Seitenanfang ^](#test_statistics)

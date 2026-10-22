@@ -23,6 +23,8 @@ Whether a question works as a question also shows in how often its points had to
 * **Number of adjustments**: for how many answers the automatically calculated score was adjusted afterwards.
 * **Average adjustment**: by how many points the score was adjusted on average, with sign, for example "+0.8".
 
+Both values also take into account questions that the person did not read or did not answer, as soon as points were adjusted there, for example with the action "Set score for all participants". The number of adjustments therefore matches the column "#Adjusted" of the correction tool. [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9825)" }](https://track.frentix.com/issue/OO-9825)
+
 A high number of adjustments indicates that the question or its solution should be revised. Without an adjustment, the two values are missing, as they are for questions that are corrected by hand, because there is no adjustment there. How to adjust the score is described on the page [Assessing tests](Assessing_tests.md#adjust_score).
 
 [To the top of the page ^](#test_statistics)
