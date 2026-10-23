@@ -16,7 +16,7 @@ Available since | Release 10.0 (OO-963)
 
 ## The sections of the menu {: #sections}
 
-![The five sections of the personal menu, numbered 1 to 5, and the entry Log out at the end](assets/pers_menu2_v4_en.png){ class="shadow aside-right lightbox"}
+![The five sections of the personal menu, numbered 1 to 5, and the entry Log out at the end](assets/pers_menu2_v5_en.png){ class="shadow aside-right lightbox"}
 
 The personal menu is divided into five sections:
 
