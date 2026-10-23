@@ -120,7 +120,7 @@ Create the file `~/conf/server.xml`
 	<?xml version='1.0' encoding='utf-8'?>
 	<Server port="8085" shutdown="SHUTDOWN">
 	  <Service name="Catalina">
-	    <Connector port="8088" protocol="HTTP/1.1" maxPartCount="-1" maxParameterCount="-1" />
+	    <Connector port="8088" protocol="HTTP/1.1" maxPartCount="-1" maxParameterCount="-1" maxLocaleCount="-1" />
 	    <Engine name="Catalina" defaultHost="localhost">
 	      <Host name="localhost"  appBase="webapps" />
 	    </Engine>
@@ -128,7 +128,7 @@ Create the file `~/conf/server.xml`
 	</Server>
 
 !!! info "What this does"
-	This file configures Tomcat, the web server that runs OpenOlat. Port 8088 is where the browser reaches OpenOlat, port 8085 is an internal port that Tomcat uses to shut down. The two `-1` values remove the default limits on the number of uploaded file parts and form fields per request. OpenOlat needs this for large forms and uploads with many files.
+	This file configures Tomcat, the web server that runs OpenOlat. Port 8088 is where the browser reaches OpenOlat, port 8085 is an internal port that Tomcat uses to shut down. The three `-1` values remove the default limits on the number of uploaded file parts, form fields and accepted browser languages per request. OpenOlat needs this for large forms, uploads with many files and browsers with many configured languages. Without `maxLocaleCount="-1"`, Tomcat 10.1.61 and newer rejects requests from browsers with more than 10 languages in the `Accept-Language` header, and OpenOlat shows an error page instead of the login page.
 
 Make sure the chosen ports (8085 and 8088 in this example) are available.
 Set the environment variables `CATALINA_HOME` and `JRE_HOME`, for example by appending the following to your `~/.bashrc`

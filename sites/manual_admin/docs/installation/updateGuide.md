@@ -130,6 +130,15 @@ In your `server.xml` make sure you set `maxPartCount` and `maxParameter` to inde
 
 	<Connector port="8088" protocol="HTTP/1.1" maxPartCount="-1" maxParameterCount="-1" />
 
+### Tomcat 10.1.61 and greater
+Tomcat 10.1.61 introduced the connector attribute `maxLocaleCount` with a default value of 10. It limits the number of languages that Tomcat accepts in the `Accept-Language` header of a request. Browsers with many configured languages exceed this limit easily: Chromium-based browsers add the base language for every regional variant, so six configured languages can already produce more than 10 entries. A request above the limit fails with an `IllegalArgumentException`, and OpenOlat shows an error page instead of the login page.
+
+The attribute belongs to the common connector attributes and applies to the HTTP connector and to the AJP connector alike. Set it to indefinite (-1) on every connector in your `server.xml`:
+
+	<Connector port="8088" protocol="HTTP/1.1" maxPartCount="-1" maxParameterCount="-1" maxLocaleCount="-1" />
+
+The same change ships with Tomcat 9.0.123 and Tomcat 11.0.27.
+
 
 ## Troubleshooting
 
