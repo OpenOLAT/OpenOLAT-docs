@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 30.09.2026**
+:material-calendar-month-outline: **Releasedatum: 30.09.2026 • Letztes Update: 21.10.2026**
 
 * * *
 
@@ -128,6 +128,8 @@ Im Kursbaustein **[Mitteilungen](https://docs.openolat.org/de/manual_user/learni
 * **Mitteilungen und Blog:** Der Kursbaustein Mitteilungen trägt überall denselben Namen und ein eigenes Symbol, ebenso der Blog.
 * **Quiz im Video:** Klarere Optionen und Schaltflächen. Nach einer falschen Antwort führen «Nochmal ansehen», «Nochmal versuchen» oder «Überspringen» weiter.
 * **Freigabe für OER-Kataloge:** erfolgt nur noch in den Kurseinstellungen. Die separate Aktion im Autorenbereich entfällt.
+* **[Kursarchiv](https://docs.openolat.org/de/manual_user/learningresources/Course_Archiving/#memberships){:target="_blank"}:** Der neue Excel-Export «Mitgliedschaften» zeigt pro Rolle, in welchen Gruppen und Course-Planner-Elementen Personen diese Rolle haben (:octicons-tag-24: Release 21.1.1)
+* **[Exportinformationen](https://docs.openolat.org/de/manual_user/learningresources/Test_export/#export_information){:target="_blank"}:** Der Export der Resultate aus Aufgabe, Gruppenaufgabe und Test enthält ein zusätzliches Blatt mit Kurs, Kursbaustein, Zeitpunkt und exportierender Person (:octicons-tag-24: Release 21.1.1)
 
 * * *
 
@@ -138,6 +140,8 @@ Im Kursbaustein **[Mitteilungen](https://docs.openolat.org/de/manual_user/learni
 Eine fehlerhafte Frage lässt sich nach der Durchführung eines Tests nicht mehr entfernen. Nachträglich können aber zusätzliche Punkte oder die volle Punktzahl an alle Teilnehmenden vergeben werden. Diese Punkteänderung war bisher im Ergebnisexport und in der Teststatistik nicht erkennbar, sodass gegebene Antwort und erreichte Punkte scheinbar nicht zusammenpassten.
 
 Neu kennzeichnet OpenOlat solche Fragen mit dem Status **[«Angepasst»](https://docs.openolat.org/de/manual_user/learningresources/Assessing_tests/#adjust_score){:target="_blank"}** und weist automatische, angepasste und manuelle Punkte getrennt aus. Vordefinierte Filter in der Detailansicht eines Testlaufs und im Korrekturwerkzeug führen direkt zu den Fragen, die zu korrigieren, zu überprüfen oder angepasst sind. Die Teststatistik zeigt die Anzahl der Anpassungen und die durchschnittliche Anpassung, der Ergebnisexport enthält eigene Spalten dafür.
+
+Ab :octicons-tag-24: Release 21.1.1 lässt sich beim Anpassen der Punkte direkt ein **[Kommentar](https://docs.openolat.org/de/manual_user/learningresources/Assessing_tests/#score_all_participants){:target="_blank"}** für die Teilnehmenden erfassen, auch in den Sammelaktionen «Punkte für alle Teilnehmenden setzen» und «Punkte zur Punktzahl der Teilnehmenden addieren». OpenOlat hängt ihn an den bestehenden Kommentar an. Eindeutige Status wie «Manuell angepasst» oder «Keine Antwort» zeigen in der Detailansicht, wie eine Frage bewertet wurde.
 
 ![Korrektur einer Frage mit Punkte-Anpassung](assets/211/assessing_tests_score_adjusted_v1_de.png){ class="shadow lightbox" title="Korrektur einer Frage mit Punkte-Anpassung" }
 
@@ -153,7 +157,9 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 
 ### Weitere Verbesserungen
 
-* **Lückentext:** Beim Kopieren einer Lücke übernimmt OpenOlat alle Einstellungen, auch Varianten, Länge und Gross-/Kleinschreibung.
+* **Lückentext:**
+    * Beim Kopieren einer Lücke übernimmt OpenOlat alle Einstellungen, auch Varianten, Länge und Gross-/Kleinschreibung.
+    * Hilfetext zur Option «Wildcard (*)», Standardwert bei numerischen Lücken und gleichbleibende Reihenfolge von Antworten mit gleicher Punktzahl (:octicons-tag-24: Release 21.1.1)
 * **Standard-Bewertungssystem:** lässt sich in der Administration von Einstufung/Noten festlegen und ist beim ersten Bearbeiten der Bewertungsskala vorausgewählt.
 * **Einstufung/Noten:** Einheitliche Begriffe wie «Bewertungssystem», «Bewertungsskala», «Höchste Bewertung» und «Mit Erfolgsstatus».
 
@@ -172,11 +178,14 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 
 ## Weiteres, kurz notiert
 
-* **Kreditpunkte im Coaching:** Linienvorgesetzte, Ausbildungsverantwortliche und Beziehungsrollen sehen die Kreditpunkte betreuter Personen in einem eigenen Tab, nur lesend.
+* **Coaching:**
+    * Linienvorgesetzte, Ausbildungsverantwortliche und Beziehungsrollen sehen die Kreditpunkte betreuter Personen in einem eigenen Tab, nur lesend.
+    * Die Kursliste bietet den Filter «Durchführungsformat» und die gleichnamige Spalte zum Einblenden (:octicons-tag-24: Release 21.1.1)
 * **[Kontoablauf und Kontolebenszyklus](https://docs.openolat.org/de/manual_admin/administration/Life_cycles_-_Administration/#lifecycle_accounts_variants){:target="_blank"}:** Administration und Benutzerverwaltung trennen beide Abläufe klar. Die neue Spalte «Tage bis Ablauf» zeigt, wann ein Konto abläuft.
 * **[Zertifikate](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Certification_Programs/#certificate_status){:target="_blank"}:** OpenOlat erstellt Zertifikate zuverlässig im Hintergrund, auch nach einem Neustart, und wiederholt fehlgeschlagene Versuche automatisch. Bis dahin zeigt das Zertifikat den Status «Hängig».
 * **Sprachen:** Polnisch und Spanisch sind vollständig übersetzt, alle weiteren ausgelieferten Sprachen auf dem Stand von 21.1.
 * **Sprachanpassungswerkzeug:** Die Sprache lässt sich direkt beim Bearbeiten eines Textes wechseln, ohne zum Start zurückzukehren.
+* **Web-Katalog:** Suchmaschinen und Vorschauen in sozialen Netzwerken zeigen neu das Teaserbild von Durchführungen sowie Preis, Termine und Taxonomie der Angebote (:octicons-tag-24: Release 21.1.1)
 
 * * *
 
@@ -188,6 +197,12 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 * **REST API, Limite für Anfragen (Rate Limiting):** Begrenzt die Anfragen pro Benutzer:in und Minute sowie die parallelen Anfragen. Abgewiesene Anfragen erhalten den HTTP-Status 429 und erscheinen im Audit-Log.
 * **REST API, Räume von Terminen (Breaking Change):** `.../lectureblocks/{key}/room` liefert und erwartet alle Raumbuchungen eines Termins als Array statt als Objekt; ohne Buchung antwortet `GET` mit `200` und leerem Array statt `204`. Der neue Endpunkt `GET /rm/bookings?lectureBlockKeys=` liefert die Buchungen für bis zu 500 Termine in einer Anfrage.
 * **SSRF Mitigation:** Erfasste URLs, etwa von Kalendern oder Feeds, dürfen nicht mehr auf lokale oder interne Adressen zeigen. Neuinstallationen aktiv, bestehende per Opt-in.
+* **[Benutzer:innen-Attribute](https://docs.openolat.org/de/manual_admin/administration/Customizing/#user_properties){:target="_blank"}:**
+    * «Zurücksetzen» bietet nur noch «Default» und «Minimal», berechnet aus der Systemkonfiguration. Neuinstallationen und «Default» schalten Skype, XING, LinkedIn und ICQ aus (:octicons-tag-24: Release 21.1.1)
+    * Deaktivierte Attribute behalten ihre Verwendungskontexte. Die Spalte «Verwendungskontexte» zeigt die Anzahl, ein Filter und «Kontext hinzufügen» erleichtern die Zuordnung (:octicons-tag-24: Release 21.1.1)
+* **Login:** «Sitzung wiederherstellen» steht für Personen ohne eigene Wahl neu auf «Nein», nach dem Login öffnet sich die Startseite ohne Rückfrage (:octicons-tag-24: Release 21.1.1)
+* **Öffentliche Seiten ohne Session:** Sitemaps und Fehlerseiten erzeugen keine Session mehr, das Impressum hat eine feste URL für Suchmaschinen (:octicons-tag-24: Release 21.1.1)
+* **Antwortadresse der System-Mails:** Die neue Property `adminemailname` legt einen Anzeigenamen für die Antwortadresse fest (:octicons-tag-24: Release 21.1.1)
 * Aktualisierung der Bibliotheken von Drittanbietern
 
 * * *
@@ -201,6 +216,7 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
     * [x] Regeln der Startseite prüfen: `Core-Konfiguration > Startseite`
     * [x] Audit-Log und Limite für Anfragen der REST API konfigurieren, die Limite gilt pro Cluster-Knoten: `Core-Konfiguration > REST API` (`restapi.auditlog.*`, `restapi.ratelimit.*`)
     * [x] SSRF Mitigation einschalten: `Login > Sicherheit` (`http.ssrf.protection.enabled`, erlaubte Ziele: `http.ssrf.allowed.addresses`, `http.ssrf.allowed.hosts`)
+    * [x] [Benutzer:innen-Attribute prüfen, Skype, XING, LinkedIn und ICQ sind standardmässig ausgeschaltet](https://docs.openolat.org/de/manual_admin/administration/Customizing/#user_properties_social_media){:target="_blank"}: `Customizing > Benutzer:innen-Attribute` (`user.properties.deactivated.default`) (:octicons-tag-24: Release 21.1.1)
     * [x] [Debitorennummer aktivieren](https://docs.openolat.org/de/manual_admin/administration/Modules_Organisations/#customer_number){:target="_blank"}: `Module > Organisationen`
     * [x] Recht «Kreditpunkte anzeigen» vergeben, für Linienvorgesetzte und Ausbildungsverantwortliche: `Module > Organisationen`, für Rollen Person zu Person: `Module > Rolle Person zu Person`
     * [x] [Standardwerte der Anzeigeeinstellungen für die Infoseite setzen](https://docs.openolat.org/de/manual_admin/administration/Modules_Course_Planner/#default_settings){:target="_blank"}: `Module > Course Planner > Einstellungen` und `Module > Kurs`
@@ -211,9 +227,12 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
     * [x] [Online-Termine ohne Datum (permanente Reservierungen) bei Bedarf ausschalten](https://docs.openolat.org/de/manual_admin/administration/Teams_module/#permanent_meetings){:target="_blank"}: `Externe Werkzeuge > Microsoft Teams`
     * [x] [Einstellungen zu Kontoablauf und automatischem Kontolebenszyklus prüfen](https://docs.openolat.org/de/manual_admin/administration/Life_cycles_-_Administration/#lifecycle_accounts_variants){:target="_blank"}: `Lebenszyklen > Konto`
     * [x] [Erstellung der Zertifikate im Hintergrund bei Bedarf anpassen](https://docs.openolat.org/de/manual_admin/administration/e-Assessment_Certificates/#tab_config){:target="_blank"}: `olat.properties` (`certificate.generation.*`)
+    * [x] Standardwert für «Sitzung wiederherstellen» bei Bedarf anpassen, bisher «Ja, bei Bedarf»: `olat.properties` (`history.resume.enabled.default=ondemand`) (:octicons-tag-24: Release 21.1.1)
+    * [x] Anzeigename der Antwortadresse bei Bedarf festlegen: `olat.properties` (`adminemailname`) (:octicons-tag-24: Release 21.1.1)
 
 * * *
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 21.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.1&title=Release%20Notes%2021.1.1){:target="_blank"}
 * [YouTrack Release Notes 21.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.0&title=Release%20Notes%2021.1.0){:target="_blank"}

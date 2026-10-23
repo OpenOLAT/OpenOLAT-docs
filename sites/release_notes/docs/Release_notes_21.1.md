@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 09/30/2026**
+:material-calendar-month-outline: **Release date: 09/30/2026 • Last update: 10/21/2026**
 
 * * *
 
@@ -128,6 +128,8 @@ In the course element **[Info messages](https://docs.openolat.org/en/manual_user
 * **Info messages and Blog:** The course element Info messages has the same name everywhere and its own icon, as does the Blog.
 * **Video quiz:** Clearer options and buttons. After a wrong answer, «Watch again», «Try again» or «Skip» lead onward.
 * **Release for OER catalogs:** now only takes place in the course settings. The separate action in Authoring is no longer available.
+* **[Course archive](https://docs.openolat.org/en/manual_user/learningresources/Course_Archiving/#memberships){:target="_blank"}:** The new Excel export «Memberships» shows for each role in which groups and Course Planner elements persons hold that role (:octicons-tag-24: Release 21.1.1)
+* **[Export information](https://docs.openolat.org/en/manual_user/learningresources/Test_export/#export_information){:target="_blank"}:** The export of results from Task, Group task and Test contains an additional sheet with course, course element, time and exporting person (:octicons-tag-24: Release 21.1.1)
 
 * * *
 
@@ -138,6 +140,8 @@ In the course element **[Info messages](https://docs.openolat.org/en/manual_user
 A faulty question can no longer be removed after a test has been taken. However, additional points or the full score can be awarded to all participants afterwards. Until now, this change of points was not apparent in the results export and in the test statistics, so that the given answer and the points achieved seemingly did not match.
 
 Now OpenOlat marks such questions with the status **[«Adjusted»](https://docs.openolat.org/en/manual_user/learningresources/Assessing_tests/#adjust_score){:target="_blank"}** and shows automatic, adjusted and manual points separately. Predefined filters in the detail view of a test run and in the correction tool lead directly to the questions that are to be corrected, to be reviewed or adjusted. The test statistics show the number of adjustments and the average adjustment, and the results export contains separate columns for them.
+
+From :octicons-tag-24: Release 21.1.1 onward, a **[comment](https://docs.openolat.org/en/manual_user/learningresources/Assessing_tests/#score_all_participants){:target="_blank"}** for participants can be entered directly when adjusting points, also in the bulk actions «Set score for all participants» and «Add points to participants score». OpenOlat appends it to the existing comment. Clear statuses such as «Adjusted manually» or «No answer» show in the detail view how a question was assessed.
 
 ![Correction of a question with score adjustment](assets/211/assessing_tests_score_adjusted_v1_en.png){ class="shadow lightbox" title="Correction of a question with score adjustment" }
 
@@ -153,7 +157,9 @@ Until now, when all test results were exported, the PDF files only had a number 
 
 ### Further improvements
 
-* **Gap FIB text:** When a gap is copied, OpenOlat takes over all settings, including variants, length and case sensitivity.
+* **Gap FIB text:**
+    * When a gap is copied, OpenOlat takes over all settings, including variants, length and case sensitivity.
+    * Help text for the «Wildcard (*)» option, a default value for numerical gaps and a stable order of answers with the same score (:octicons-tag-24: Release 21.1.1)
 * **Default rating system:** can be defined in the Administration of Levels/Grading and is preselected the first time the rating scale is edited.
 * **Levels/Grading:** Uniform terms such as «Rating system», «Rating scale», «Highest rating» and «With success status».
 
@@ -172,11 +178,14 @@ Until now, when all test results were exported, the PDF files only had a number 
 
 ## Other, in brief
 
-* **Credit points in Coaching:** Line managers, education managers and relation roles see the credit points of the persons they coach in a separate tab, read-only.
+* **Coaching:**
+    * Line managers, education managers and relation roles see the credit points of the persons they coach in a separate tab, read-only.
+    * The course list offers the «Implementation format» filter and an optional column of the same name (:octicons-tag-24: Release 21.1.1)
 * **[Account expiration and user lifecycle](https://docs.openolat.org/en/manual_admin/administration/Life_cycles_-_Administration/#lifecycle_accounts_variants){:target="_blank"}:** Administration and user management clearly separate the two processes. The new column «Days until expiry» shows when an account expires.
 * **[Certificates](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Certification_Programs/#certificate_status){:target="_blank"}:** OpenOlat creates certificates reliably in the background, even after a restart, and automatically repeats failed attempts. Until then, the certificate shows the status «Pending».
 * **Languages:** Polish and Spanish are fully translated, all other shipped languages are at the level of 21.1.
 * **Language adaptation tool:** The language can be switched directly while editing a text, without returning to the start.
+* **Web catalog:** Search engines and social media previews now show the teaser image of implementations as well as the price, dates and taxonomy of offers (:octicons-tag-24: Release 21.1.1)
 
 * * *
 
@@ -188,6 +197,12 @@ Until now, when all test results were exported, the PDF files only had a number 
 * **REST API, rate limits:** Limits the requests per user and minute as well as the parallel requests. Rejected requests receive the HTTP status 429 and appear in the audit log.
 * **REST API, rooms of events (Breaking Change):** `.../lectureblocks/{key}/room` returns and expects all room bookings of an event as an array instead of an object; without a booking, `GET` responds with `200` and an empty array instead of `204`. The new endpoint `GET /rm/bookings?lectureBlockKeys=` returns the bookings for up to 500 events in one request.
 * **SSRF Mitigation:** Entered URLs, for example of calendars or feeds, may no longer point to local or internal addresses. Active for new installations, opt-in for existing ones.
+* **[User properties](https://docs.openolat.org/en/manual_admin/administration/Customizing/#user_properties){:target="_blank"}:**
+    * «Reset» only offers «Default» and «Minimal», calculated from the system configuration. New installations and «Default» switch off Skype, XING, LinkedIn and ICQ (:octicons-tag-24: Release 21.1.1)
+    * Deactivated properties keep their contexts. The «Contexts» column shows their number, and a filter and «Add context» make assignment easier (:octicons-tag-24: Release 21.1.1)
+* **Login:** «Resume last session» is now set to «No» for persons without their own choice, and the landing page opens after login without a prompt (:octicons-tag-24: Release 21.1.1)
+* **Public pages without session:** Sitemaps and error pages no longer create a session, and the imprint has a fixed URL for search engines (:octicons-tag-24: Release 21.1.1)
+* **Reply-to address of system mails:** The new property `adminemailname` defines a display name for the reply-to address (:octicons-tag-24: Release 21.1.1)
 * Update of third-party libraries
 
 * * *
@@ -201,6 +216,7 @@ Until now, when all test results were exported, the PDF files only had a number 
     * [x] Check the rules of the landing page: `Core functions > Landing page`
     * [x] Configure the audit log and the rate limits of the REST API, the limit applies per cluster node: `Core functions > REST API` (`restapi.auditlog.*`, `restapi.ratelimit.*`)
     * [x] Switch on SSRF Mitigation: `Login > Security` (`http.ssrf.protection.enabled`, allowed targets: `http.ssrf.allowed.addresses`, `http.ssrf.allowed.hosts`)
+    * [x] [Check the user properties; Skype, XING, LinkedIn and ICQ are switched off by default](https://docs.openolat.org/en/manual_admin/administration/Customizing/#user_properties_social_media){:target="_blank"}: `Customizing > User Properties` (`user.properties.deactivated.default`) (:octicons-tag-24: Release 21.1.1)
     * [x] [Activate the customer number](https://docs.openolat.org/en/manual_admin/administration/Modules_Organisations/#customer_number){:target="_blank"}: `Modules > Organisations`
     * [x] Grant the right «View credit points», for line managers and education managers: `Modules > Organisations`, for roles user to user: `Modules > Role user to user`
     * [x] [Set the default values of the display settings for the Info page](https://docs.openolat.org/en/manual_admin/administration/Modules_Course_Planner/#default_settings){:target="_blank"}: `Modules > Course Planner > Settings` and `Modules > Course`
@@ -211,9 +227,12 @@ Until now, when all test results were exported, the PDF files only had a number 
     * [x] [Switch off online meetings without date (permanent reservations) if needed](https://docs.openolat.org/en/manual_admin/administration/Teams_module/#permanent_meetings){:target="_blank"}: `External tools > Microsoft Teams`
     * [x] [Check the settings for account expiration and automatic user lifecycle](https://docs.openolat.org/en/manual_admin/administration/Life_cycles_-_Administration/#lifecycle_accounts_variants){:target="_blank"}: `Life cycles > Account`
     * [x] [Adjust the creation of certificates in the background if needed](https://docs.openolat.org/en/manual_admin/administration/e-Assessment_Certificates/#tab_config){:target="_blank"}: `olat.properties` (`certificate.generation.*`)
+    * [x] Adjust the default value for «Resume last session» if needed, previously «Yes, on request»: `olat.properties` (`history.resume.enabled.default=ondemand`) (:octicons-tag-24: Release 21.1.1)
+    * [x] Define the display name of the reply-to address if needed: `olat.properties` (`adminemailname`) (:octicons-tag-24: Release 21.1.1)
 
 * * *
 
 ## Further information
 
+* [YouTrack Release notes 21.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.1&title=Release%20Notes%2021.1.1){:target="_blank"}
 * [YouTrack Release notes 21.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.0&title=Release%20Notes%2021.1.0){:target="_blank"}
