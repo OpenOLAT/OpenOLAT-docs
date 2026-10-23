@@ -36,7 +36,9 @@ In der obersten Button-Zeile des Autorenbereichs finden Sie ganz rechts ein Icon
 
     Im Kursarchiv werden alle von Ihnen erstellten Archive aufgelistet. <br>Administrator:innen und Lernressourcenverwalter:innen sehen im Tab "Kursarchive" auch nur die von ihnen selbst erstellten Archive oder Kurse, in denen sie Besitzer:in sind. <br>Im Tab "Kursarchivmanagement" listet OpenOlat Administrator:innen und Lernressourcenverwalter:innen dagegen die Archive aller Autor:innen auf.
 
-![Tabs Kursarchive und Kursarchivmanagement über der Liste der erstellten ZIP-Dateien mit Info, Löschen und Herunterladen](assets/course_archiving_all_v1_de.png){ class="shadow lightbox" title="Seite Kursarchiv im Autorenbereich" }
+Im Tab "Kursarchive" filtern Sie die Liste mit "Alle Archive", "Gesamtarchive" und "Teilarchive". Zu jedem erstellten Archiv stehen die Buttons "Info", "Kopieren nach", "Löschen" und "Herunterladen" bereit. "Info" zeigt die Metadaten des Archivs. Mit "Kopieren nach" legen Sie eine Kopie der ZIP-Datei in einem Ordner im [File Hub](../personal_menu/File_Hub.de.md) ab.
+
+![Alle eigenen Kursarchive auf einen Blick: markierte Tabs Kursarchive und Kursarchivmanagement über der Liste der ZIP-Dateien mit Info, Kopieren nach, Löschen und Herunterladen](assets/course_archiving_all_v2_de.png){ class="shadow lightbox" title="Seite Kursarchiv im Autorenbereich · 2026.10.23" }
 
 
 
@@ -94,9 +96,9 @@ Jedes dieser Gesamtarchive enthält wie im Kurs auch die Datei "Mitgliedschaften
 Im Tab "Kursarchivmanagement" sind alle Kursarchive aufgelistet.
 
 * Sie können durch weitere Tabs vorselektiert werden: "Alle", "Gesamtarchive", "Teilarchive", "Laufende Archivierungen" und "Nur für administrative Rollen".
-* Unter dem Icon mit den 3 Punkten am Ende einer Zeile befindet sich auch die Option zum Herunterladen. Die Kursarchive können hier eine bestimmte Zeit lang heruntergeladen werden (Voreinstellung 10 Tage).
+* Unter dem Icon mit den 3 Punkten am Ende einer Zeile finden Sie "Metadaten anzeigen", "Herunterladen" und "Löschen". Die Kursarchive können hier eine bestimmte Zeit lang heruntergeladen werden (Voreinstellung 10 Tage).
 
-![Archive aller Autor:innen mit Filtertabs und dem 3-Punkte-Menü einer Zeile mit Metadaten anzeigen, Herunterladen und Löschen](assets/course_archiving_management_v1_de.png){ class="shadow lightbox" title="Tab Kursarchivmanagement auf der Seite Kursarchiv" }
+![Archive aller Autor:innen verwalten: markiert sind der Tab Kursarchivmanagement, die Filtertabs und das geöffnete 3-Punkte-Menü einer Zeile mit Metadaten anzeigen, Herunterladen und Löschen](assets/course_archiving_management_v2_de.png){ class="shadow lightbox" title="Tab Kursarchivmanagement auf der Seite Kursarchiv · 2026.10.23" }
 
 
 ## Was wird von den einzelnen Elementen archiviert?

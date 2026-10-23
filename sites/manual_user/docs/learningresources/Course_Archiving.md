@@ -37,7 +37,9 @@ In the top button line of the author area, you will find an icon with 3 dots on 
 
     All the archives you have created are listed in the course archive. <br>Administrators and learning resource managers only see the archives they have created themselves or courses they own in the "Course archives" tab. <br>In the "Course archive management" tab, on the other hand, OpenOlat lists the archives of all authors for administrators and learning resource managers.
 
-![Tabs Course archives and Course archive management above the list of created ZIP files with Info, Delete and Download](assets/course_archiving_all_v1_de.png){ class="shadow lightbox" title="Course archive page in the authoring area" }
+In the "Course archives" tab, you filter the list with "All archives", "Complete archives" and "Partial archives". Each archive created offers the buttons "Info", "Copy to", "Delete" and "Download". "Info" shows the metadata of the archive. With "Copy to", you place a copy of the ZIP file in a folder in the [File Hub](../personal_menu/File_Hub.md).
+
+![All your course archives at a glance: highlighted tabs Course archives and Course archive management above the list of ZIP files with Info, Copy to, Delete and Download](assets/course_archiving_all_v1_en.png){ class="shadow lightbox" title="Course archive page in the authoring area · 2026.10.23" }
 
 
 ## Create course archive
@@ -93,9 +95,9 @@ As in the course, each of these complete archives also contains the file "Member
 All course archives are listed in the "Course archive management" tab.
 
 * They can be preselected by further tabs: "All", "Complete archives", "Partial archives", "Ongoing archiving" and "Only for administrative roles".
-* The download option is also located under the icon with the 3 dots at the end of a line. The course archives can be downloaded here for a certain period of time (default setting 10 days).
+* Under the icon with the 3 dots at the end of a line, you find "Show metadata", "Download" and "Delete". The course archives can be downloaded here for a certain period of time (default setting 10 days).
 
-![Archives of all authors with filter tabs and the 3-dot menu of a row with Show metadata, Download and Delete](assets/course_archiving_management_v1_de.png){ class="shadow lightbox" title="Course archive management tab on the Course archive page" }
+![Managing the archives of all authors: highlighted are the tab Course archive management, the filter tabs and the open 3-dot menu of a row with Show metadata, Download and Delete](assets/course_archiving_management_v1_en.png){ class="shadow lightbox" title="Course archive management tab on the Course archive page · 2026.10.23" }
 
 
 ## What is archived from the individual elements?
