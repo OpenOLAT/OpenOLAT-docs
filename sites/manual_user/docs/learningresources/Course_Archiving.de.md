@@ -153,6 +153,8 @@ Die Blätter "Teilnehmer\_innen", "Betreuer\_innen" und "Besitzer\_innen" haben 
 
 Spalten für Gruppen gibt es nur, wenn der Kurs Gruppen hat. Spalten für Elemente des Course Planner gibt es nur, wenn der Kurs mit solchen Elementen verknüpft ist. Die Zeilen sind nach Nachname und Vorname sortiert.
 
+![Blatt Betreuer\_innen, eine Zeile je Person: die markierten Spalten Kurs, zwei Gruppen und ein Element des Course Planner zeigen die Rolle, etwa Gruppenbetreuer:in; unten die vier Blätter markiert](assets/course_archiving_memberships_excel_v1_de.png){ class="shadow lightbox" title="Excel-Datei Mitgliedschaften · 2026.10.23" }
+
 **So lesen Sie die Datei**<br>
 Auf einem Blatt steht jede Person genau einmal, in einer Zeile. In den Zellen steht die Rolle, die die Person an dieser Stelle hat:
 

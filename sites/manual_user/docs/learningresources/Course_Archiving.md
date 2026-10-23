@@ -153,6 +153,8 @@ The sheets "Participants", "Coaches" and "Owners" have the same columns, in this
 
 There are columns for groups only if the course has groups. There are columns for Course Planner elements only if the course is linked to such elements. The rows are sorted by last name and first name.
 
+![Sheet Coaches, one row per person: the highlighted columns Course, two groups and one Course Planner element show the role, for example Group coach; the four sheets highlighted at the bottom](assets/course_archiving_memberships_excel_v1_en.png){ class="shadow lightbox" title="Excel file Memberships · 2026.10.23" }
+
 **How to read the file**<br>
 On a sheet, each person appears exactly once, in one row. The cells show the role the person has in that place:
 
