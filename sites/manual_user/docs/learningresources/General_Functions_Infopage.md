@@ -33,8 +33,8 @@ The table shows what the info page consists of, from top to bottom. The column "
 | Subjects | yes | Tab "Metadata" | Taxonomy |
 | **Right column** | | | |
 | Cover image or teaser movie | yes | Tab "Info" | no |
-| [Get started](#get_started) with booking or opening [:octicons-tag-16:{ title="from Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | yes | automatic, offers under Tab "Share" | no |
-| [My course](#my_course): progress, status, score, grade, groups and Leave Course | no | automatic for members; progress, status, score and grade course only | no |
+| [Get started](#get_started) with booking, opening or [Cancel booking](#cancel_booking) [:octicons-tag-16:{ title="from Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | yes | automatic, offers under Tab "Share" | no |
+| [My course](#my_course): progress, status, score, grade, groups and [Leave Course](#leave_course) | no | automatic for members; progress, status, score and grade course only | no |
 | Events | yes | course only: Tab "Info", "Display on info page" | Events / Absences |
 | **Facts** | | | |
 | Execution period | yes | course only: Tab "Execution" | no |
@@ -82,6 +82,21 @@ The right column of the info page shows what you can do next and how far you hav
 
 ![Right column of the info page of a learning path course for participants: Get started with Open Course, below it My course with progress, status, score, groups and Leave Course](assets/general_functions_infopage_my_course_v1_en.png){ class="shadow lightbox" title="Info page of a learning path course as a participant · 2026.10.20" }
 
+You also leave again on the info page. Which button you see for this depends on what you are a member of: a single course or an implementation. The button only appears if the roles in the last column allow leaving:
+
+| You are a member | Button on the info page | Who allows leaving |
+|---|---|---|
+| of a single course, booked or enrolled | [Leave Course](#leave_course) in the box "My course" of the course | Owners of the course, default by administrators |
+| of another learning resource, for example a wiki | "Leave Wiki" in the box "My course", see [Leave course](#leave_course) | Owners of the learning resource, default by administrators |
+| of an implementation that you booked or in which you were enrolled with an offer | [Cancel booking](#cancel_booking) in the box "Get started" of the implementation | Course planners, product owners and element owners |
+| of an implementation without a booking order for you | none | nobody; whoever enrolled you removes you on request |
+
+An implementation is the concrete run of an educational offering, with a period, a location, members and one or more courses. If you are a member of an implementation, you are also a member of its courses. You then leave via the implementation, not via the single course. How you recognise an implementation:
+
+- **Info page without "My course":** The info page of an implementation never shows the box "My course", even if you are a member. The info page of a course shows it as soon as there are details for you.
+- **Scope under "Courses":** Under `Courses`, the scope "Educational products" with your implementations is listed next to "My courses". An implementation that you have marked as a favourite is also listed next to it with its name as a scope of its own. An implementation that consists of only a single course appears in none of these scopes. The scopes only appear if administrators have switched them on, see [Products in "Courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses).
+- **Booking order:** Whether a booking order exists for you is shown in your booking orders: `Personal menu > User tools > Booking orders`, see [Booking orders](../personal_menu/Bookings.md). If there is no entry for the implementation, you were enrolled without a booking order.
+
 ### Get started {: #get_started}
 
 The box "Get started" shows the action that suits your situation:
@@ -93,30 +108,57 @@ The box "Get started" shows the action that suits your situation:
 
 If a course is finished and participants no longer have access in the status "Finished", the box reports "Course finished".
 
-You can cancel an implementation of the Course Planner yourself as long as it has not started yet. For this, the box "Get started" shows the button "Cancel booking". If a cancellation fee applies, it is called "Cancel booking for a fee", and the confirmation dialog states the fee. After the cancellation, you receive an e-mail with the subject "Confirmation of your cancellation". [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"}
+If you have booked an implementation that has not started yet, the box also shows the button "Cancel booking", see [Cancel booking](#cancel_booking).
 
-The button only appears if all four conditions are met:
+### Cancel booking [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"} {: #cancel_booking}
 
-- You are a participant of the implementation, or your booking is still pending.
-- The implementation has a start date, and this date is in the future. From the day it begins, the button is missing.
-- There is a booking order for your booking with the status "New", "In payment process" or "Paid".
-- The offer is cancelable. This is the normal case. Only for the offer "Invoice" can the persons in charge switch off cancellation with the switch "Cancelable".
+If you cannot take part in a booked implementation after all, you cancel the booking yourself as long as the implementation has not started yet. You cancel on the info page of the implementation, which you reach via the catalog:<br>
+`Catalog > "Your implementation" > Learn more > Box "Get started" > Cancel booking`
 
-You see the button if you open the info page in the catalog or under `Courses > In preparation`. Under [Booking orders](../personal_menu/Bookings.md), a booking cannot be cancelled.
+Confirm in the dialog with "Cancel booking". If a cancellation fee applies, the button is called "Cancel booking for a fee", and the confirmation dialog states the fee. After the cancellation, you receive an e-mail whose subject ends with "Confirmation of your cancellation".
+
+If administrators have switched on the scope "In preparation" under "Courses" in the system administration at `Administration > Modules > Learning resource`, you also reach the same info page under `Courses > In preparation > Learn more`. An implementation is listed there only as long as it is not running yet. The administration manual describes the setting under [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md).
+
+!!! info "Important"
+
+    Under `Courses > Active`, "Learn more" leads to the info page of the course, not to the info page of the implementation. "Cancel booking" is missing there. In the scope "Educational products" and in the scope with the name of the implementation under `Courses`, "Learn more" also opens an info page without this button. Under [Booking orders](../personal_menu/Bookings.md), a booking cannot be cancelled either. Open the implementation in the catalog.
+
+The button only appears if the implementation allows cancellation and your booking fits. What the implementation allows is set by course planners and product owners, the offer also by element owners. As a participant, you do not see these settings; if the button is missing, ask your coaches. All four conditions must be met:
+
+- **Start date in the future:** "Begin and end date" or "One-day" is selected for the execution period. With "Anytime", the implementation has no start date, and the button is missing. From the day it begins, the button is missing as well. Course planners set the execution period under `Course Planner > Implementations > "Your implementation" > Tab "Settings" > Sub-tab "Execution"`, see [Execution in the settings](../area_modules/Course_Planner_Implementations.md#tab_settings_execution).
+- **Booking via an offer:** There is a booking order for your booking with the status "New", "In payment process" or "Paid". This applies if you booked in the catalog or were enrolled with an offer. If you were enrolled in the wizard with "Without booking order", the button is missing, see [Add members](../area_modules/Course_Planner_Implementations.md#add_members). In that case, ask the person who enrolled you to remove you.
+- **Cancelable offer:** Every offer is cancelable. Only for the offer "Invoice" can cancellation be switched off with the switch "Cancelable" and a fee be set, see [Offer concepts: Cancellation policy](../basic_concepts/Offer_Concepts.md#offer_invoice_cancellation).
+- **Your role:** You are a participant of the implementation, or your booking is still pending.
 
 ### My course {: #my_course}
 
 As a member, you see your own progress in the box "My course" without opening the course. The box only shows the details that exist for you:
 
 - **Progress:** your progress in percent. Only in a learning path course and only once OpenOlat has recorded progress.
-- **Status, score and grade:** your result in the course. For this, the switch "Show evidence of achievement to participants" must be switched on under `Course > Administration > Settings > Tab "Assessment"`, see [Course Settings - Tab Assessment](Course_Settings_Assessment.md#section_evidence_of_achievements). The status appears if the course assesses "Passed" or "Not passed", the score if it awards points. The grade additionally requires administrators to have switched on grades in the system administration.
+- **Status, score and grade:** your result in the course. For this, the switch "Show evidence of achievement to participants" must be switched on under `Course > Administration > Settings > Tab "Assessment"`, see [Course Settings - Tab Assessment](Course_Settings_Assessment.md#section_evidence_of_achievements). The status appears if the course assesses "Passed" or "Not passed", the score if it awards points. The grade additionally requires administrators to have switched on grades in the system administration: `Administration > e-Assessment > Levels/Grading`.
 - **Groups:** the groups of the course in which you are a member. A click on the name opens the group.
 
-At the bottom of the box is the button "Leave Course". With it, you remove yourself from the course, the same as with the entry "Leave course" in the menu "My course" of the course toolbar, see [Toolbar: My Course](Toolbar_My_Course.md#leave_course). The button only appears for participants and only if the setting "Participants can leave" is not set to "Never", see [Access configuration](Access_configuration.md#leave_learning_resource). If it is set to "After course end date or status "Finished"", the button is greyed out until the course end date has passed or the course has the status "Finished".
-
-The button is missing if the course belongs to an implementation of the Course Planner or if you are a member via such an implementation. It is also missing if a group enrolled you that does not allow leaving or is linked to several courses, and during an assessment mode.
+At the bottom of the box is the button "Leave Course", see [Leave course](#leave_course).
 
 For learning resources other than courses, the box only shows the groups and the button to leave. If none of these details exist, the box "My course" is missing completely.
+
+### Leave course [:octicons-tag-16:{ title="from Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405){:target="_blank"} {: #leave_course}
+
+If you no longer need a course, you remove yourself from it. You leave the course on its info page:<br>
+`Courses > Active > Learn more > Box "My course" > Leave Course`
+
+In the opened course, the link "Info page" in the toolbar leads to the same page. The entry "Leave course" in the menu "My course" of the course toolbar offers the same way, see [Toolbar: My Course](Toolbar_My_Course.md#leave_course). For other learning resources, the button carries the type in its name, for example "Leave Wiki".
+
+The button only appears for participants and only if the owners of the course allow leaving. They set it under:<br>
+`Course > Administration > Settings > Tab "Share" > Participants can leave`
+
+If the setting is "Never", the button is missing. If it is "After course end date or status "Finished"", the button is greyed out until the course end date has passed or the course has the status "Finished". The options are described in [Access configuration](Access_configuration.md#leave_learning_resource). Which option a new course has is preset by administrators in the system administration: `Administration > Modules > Learning resource`, see [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md#allow_leaving_courses).
+
+The button is also missing in these cases:
+
+- You are a member of the course via an implementation, or the course belongs to an implementation. How you recognise this is described under [Get started and My course](#get_started_my_course). Then you cancel the booking of the implementation, see [Cancel booking](#cancel_booking).
+- A group enrolled you that does not allow leaving or is linked to several courses.
+- An assessment mode is running.
 
 [To the top of the page ^](#general_functions_info)
 
@@ -153,7 +195,7 @@ The printout leaves out what only makes sense on screen: Set bookmark, Share and
 
 ## Info page of an implementation [:octicons-tag-16:{ title="from Release 20.0 (OO-8286)" }](https://track.frentix.com/issue/OO-8286){:target="_blank"} {: #implementation}
 
-Anyone booking an implementation in the Course Planner first sees the same info page as for a course, with facts, sections, events and "Get started". Printing and "Download as PDF" work the same way.
+Anyone booking an implementation in the catalog first sees the same info page as for a course, with facts, sections, events and "Get started". Printing and "Download as PDF" work the same way.
 
 ![Info page of an implementation with reference and element type, actions, facts, description, teachers, Get started with price and events](assets/general_functions_infopage_example_v2_en.png){ class="shadow lightbox" title="Info page of an implementation · 2026.09.29" }
 
@@ -236,12 +278,14 @@ The details on usage, for example in which courses the learning resource is embe
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Toolbar: Info page >](../learningresources/Info_page.md)<br>
-[Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
+[Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [User tools: Booking orders >](../personal_menu/Bookings.md)<br>
+[Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Toolbar: My Course >](../learningresources/Toolbar_My_Course.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
-[Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)
+[Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
+[Offer concepts >](../basic_concepts/Offer_Concepts.md)
 
 **Further reading**<br>
 [Course Settings >](../learningresources/Course_Settings.md)<br>

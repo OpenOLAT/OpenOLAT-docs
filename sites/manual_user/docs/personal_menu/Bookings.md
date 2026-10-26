@@ -14,7 +14,7 @@ Use the cogwheel to select the columns you want to see, e.g. the offer type ("Ac
 
 Use the download icon to the right of the cogwheel to download all booking orders as a table. Use "Details" in the 3-dot menu of a booking to open the dialog "Booking" with the detail information on this booking order. If the booked offer used forms, the dialog also shows the completed forms. [:octicons-tag-16:{ title="from Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
 
-You cannot cancel a booking or leave a course here. You cancel a booking on the info page in the box "Get started", you leave a course in the box "My course". When these buttons appear is described in [General Functions: Info Page](../learningresources/General_Functions_Infopage.md#get_started_my_course).
+You cannot cancel a booking or leave a course here. You cancel a booking on the info page of the implementation, which you open via the catalog: `Catalog > "Your implementation" > Learn more > Box "Get started" > Cancel booking`. When the button appears is described in [Info page: Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking). You leave a course in the box "My course" of its info page, see [Info page: Leave course](../learningresources/General_Functions_Infopage.md#leave_course).
 
 If the offer type "Invoice" is enabled, the additional tab "Billing addresses" appears. There you see the billing addresses stored for your bookings. [Administrators](../../manual_admin/administration/Modules_Organisations.md) maintain the billing addresses of organisations.
 

@@ -47,7 +47,7 @@ Anyone who has taken a course voluntarily often wants to be able to leave it on 
 
 Which option is preset for new learning resources is defined by the system administration in the [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md#allow_leaving_courses). Without its own default, it is "At any time".
 
-If participants may leave the course, they select the entry "Leave course" in the menu "My course" of the course toolbar. The info page offers the same way with the button "Leave Course" in the box "My course", see [General Functions: Info Page](General_Functions_Infopage.md#my_course).
+If participants may leave the course, they select the entry "Leave course" in the menu "My course" of the course toolbar. The info page offers the same way with the button "Leave Course" in the box "My course", see [General Functions: Info Page](General_Functions_Infopage.md#leave_course).
 
 ![Entry Leave course in the opened menu My course of the course toolbar, set off below a separator](assets/toolbar_my_course_leave_menu_v1_en.png){ class="shadow lightbox" title="Menu My course in the course toolbar · 2026.10.20" }
 

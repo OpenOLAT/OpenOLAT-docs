@@ -47,7 +47,7 @@ Wer einen Kurs freiwillig belegt hat, möchte ihn oft auch selbst wieder verlass
 
 Welche Option bei neuen Lernressourcen voreingestellt ist, legt die System-Administration im [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md#allow_leaving_courses) fest. Ohne eigene Vorgabe ist es "Jederzeit".
 
-Dürfen Teilnehmende den Kurs verlassen, wählen sie in der Kurs-Toolbar im Menü "Mein Kurs" den Eintrag "Kurs verlassen". Den gleichen Weg bietet die Infoseite im Kasten "Mein Kurs" mit der Schaltfläche "Kurs verlassen", siehe [Allgemeine Funktionen: Infoseite](General_Functions_Infopage.de.md#my_course).
+Dürfen Teilnehmende den Kurs verlassen, wählen sie in der Kurs-Toolbar im Menü "Mein Kurs" den Eintrag "Kurs verlassen". Den gleichen Weg bietet die Infoseite im Kasten "Mein Kurs" mit der Schaltfläche "Kurs verlassen", siehe [Allgemeine Funktionen: Infoseite](General_Functions_Infopage.de.md#leave_course).
 
 ![Eintrag Kurs verlassen im geöffneten Menü Mein Kurs der Kurs-Toolbar, abgesetzt unter einer Trennlinie](assets/toolbar_my_course_leave_menu_v1_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Kurs-Toolbar · 2026.10.20" }
 

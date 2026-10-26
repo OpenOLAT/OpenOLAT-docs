@@ -14,7 +14,7 @@ Wählen Sie über das Zahnrad die Spalten aus, die Sie sehen möchten, z.B. den 
 
 Über das Download-Icon rechts neben dem Zahnrad laden Sie alle Buchungsaufträge als Tabelle herunter. Über "Informationen" im 3-Punkte-Menü einer Buchung öffnen Sie den Dialog "Buchung" mit den Detailinformationen zu diesem Buchungsauftrag. Verwendete das gebuchte Angebot Formulare, zeigt der Dialog auch die ausgefüllten Formulare. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
 
-Stornieren oder einen Kurs verlassen können Sie hier nicht. Eine Buchung stornieren Sie auf der Infoseite im Kasten "Los geht's", einen Kurs verlassen Sie im Kasten "Mein Kurs". Wann diese Schaltflächen erscheinen, beschreibt [Allgemeine Funktionen: Infoseite](../learningresources/General_Functions_Infopage.de.md#get_started_my_course).
+Stornieren oder einen Kurs verlassen können Sie hier nicht. Eine Buchung stornieren Sie auf der Infoseite der Durchführung, die Sie über den Katalog öffnen: `Katalog > "Ihre Durchführung" > Mehr erfahren > Kasten "Los geht's" > Buchung stornieren`. Wann die Schaltfläche erscheint, beschreibt [Infoseite: Buchung stornieren](../learningresources/General_Functions_Infopage.de.md#cancel_booking). Einen Kurs verlassen Sie im Kasten "Mein Kurs" seiner Infoseite, siehe [Infoseite: Kurs verlassen](../learningresources/General_Functions_Infopage.de.md#leave_course).
 
 Ist die Angebotsart "Rechnung" eingeschaltet, erscheint zusätzlich der Tab "Rechnungsadressen". Dort sehen Sie die Rechnungsadressen, die für Ihre Buchungen hinterlegt sind. Rechnungsadressen von Organisationen pflegen [Administrator:innen](../../manual_admin/administration/Modules_Organisations.de.md).
 

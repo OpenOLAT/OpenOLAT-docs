@@ -33,8 +33,8 @@ Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte
 | Fachbereiche | ja | Tab "Metadaten" | Taxonomie |
 | **Rechte Spalte** | | | |
 | Titelbild oder Teaser-Film | ja | Tab "Info" | nein |
-| [Los geht's](#get_started) mit Buchen oder Öffnen [:octicons-tag-16:{ title="ab Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | ja | automatisch, Angebote unter Tab "Freigabe" | nein |
-| [Mein Kurs](#my_course): Fortschritt, Status, Punkte, Note, Gruppen und Kurs verlassen | nein | automatisch für Mitglieder; Fortschritt, Status, Punkte und Note nur Kurs | nein |
+| [Los geht's](#get_started) mit Buchen, Öffnen oder [Buchung stornieren](#cancel_booking) [:octicons-tag-16:{ title="ab Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | ja | automatisch, Angebote unter Tab "Freigabe" | nein |
+| [Mein Kurs](#my_course): Fortschritt, Status, Punkte, Note, Gruppen und [Kurs verlassen](#leave_course) | nein | automatisch für Mitglieder; Fortschritt, Status, Punkte und Note nur Kurs | nein |
 | Termine | ja | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | Termine / Absenzen |
 | **Fakten** | | | |
 | Durchführungszeitraum | ja | nur Kurs: Tab "Durchführung" | nein |
@@ -82,6 +82,21 @@ In der rechten Spalte der Infoseite sehen Sie, was Sie als Nächstes tun können
 
 ![Rechte Spalte der Infoseite eines Lernpfadkurses für Teilnehmende: Los geht's mit Kurs öffnen, darunter Mein Kurs mit Fortschritt, Status, Punkten, Gruppen und Kurs verlassen](assets/general_functions_infopage_my_course_v1_de.png){ class="shadow lightbox" title="Infoseite eines Lernpfadkurses als Teilnehmer:in · 2026.10.20" }
 
+Auf der Infoseite treten Sie auch wieder aus. Welche Schaltfläche Sie dafür sehen, hängt davon ab, worin Sie Mitglied sind: in einem einzelnen Kurs oder in einer Durchführung. Die Schaltfläche erscheint nur, wenn die Rollen in der letzten Spalte das Austreten zulassen:
+
+| Sie sind Mitglied | Schaltfläche auf der Infoseite | Wer das Austreten zulässt |
+|---|---|---|
+| in einem einzelnen Kurs, gebucht oder eingetragen | [Kurs verlassen](#leave_course) im Kasten "Mein Kurs" des Kurses | Besitzer:innen des Kurses, Vorgabe durch Administrator:innen |
+| in einer anderen Lernressource, etwa einem Wiki | "Wiki verlassen" im Kasten "Mein Kurs", siehe [Kurs verlassen](#leave_course) | Besitzer:innen der Lernressource, Vorgabe durch Administrator:innen |
+| in einer Durchführung, die Sie gebucht haben oder in die Sie mit einem Angebot eingetragen wurden | [Buchung stornieren](#cancel_booking) im Kasten "Los geht's" der Durchführung | Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen |
+| in einer Durchführung, ohne dass für Sie ein Buchungsauftrag besteht | keine | niemand; wer Sie eingetragen hat, trägt Sie auf Anfrage aus |
+
+Eine Durchführung ist der konkrete Durchgang eines Bildungsangebots, mit Zeitraum, Ort, Mitgliedern und einem oder mehreren Kursen. Sind Sie Mitglied einer Durchführung, sind Sie auch Mitglied ihrer Kurse. Ihr Austritt läuft dann über die Durchführung, nicht über den einzelnen Kurs. Woran Sie eine Durchführung erkennen:
+
+- **Infoseite ohne "Mein Kurs":** Die Infoseite einer Durchführung zeigt den Kasten "Mein Kurs" nie, auch wenn Sie Mitglied sind. Die Infoseite eines Kurses zeigt ihn, sobald es Angaben für Sie gibt.
+- **Bereich unter "Kurse":** Unter `Kurse` steht neben "Meine Kurse" der Bereich "Bildungsprodukte" mit Ihren Durchführungen. Eine Durchführung, die Sie als Favorit markiert haben, steht zusätzlich mit ihrem Namen als eigener Bereich daneben. Eine Durchführung, die nur aus einem einzigen Kurs besteht, erscheint in keinem dieser Bereiche. Die Bereiche erscheinen nur, wenn Administrator:innen sie eingeschaltet haben, siehe [Produkte in "Kurse"](../../manual_admin/administration/Modules_Course_Planner.de.md#product_in_my_courses).
+- **Buchungsauftrag:** Ob für Sie ein Buchungsauftrag besteht, sehen Sie in Ihren Buchungsaufträgen: `Persönliches Menü > Persönliche Werkzeuge > Buchungsaufträge`, siehe [Buchungsaufträge](../personal_menu/Bookings.de.md). Fehlt dort ein Eintrag zur Durchführung, wurden Sie ohne Buchungsauftrag eingetragen.
+
 ### Los geht's {: #get_started}
 
 Der Kasten "Los geht's" zeigt die Aktion, die zu Ihrer Lage passt:
@@ -93,30 +108,57 @@ Der Kasten "Los geht's" zeigt die Aktion, die zu Ihrer Lage passt:
 
 Ist ein Kurs beendet und haben Teilnehmende im Status "Beendet" keinen Zugriff mehr, meldet der Kasten "Kurs beendet".
 
-Eine Durchführung des Course Planners können Sie selbst stornieren, solange sie noch nicht begonnen hat. Dafür zeigt der Kasten "Los geht's" die Schaltfläche "Buchung stornieren". Fällt eine Stornierungsgebühr an, heisst sie "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt die Gebühr. Nach der Stornierung erhalten Sie eine E-Mail mit dem Betreff "Bestätigung Ihrer Stornierung". [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"}
+Haben Sie eine Durchführung gebucht, die noch nicht begonnen hat, zeigt der Kasten zusätzlich die Schaltfläche "Buchung stornieren", siehe [Buchung stornieren](#cancel_booking).
 
-Die Schaltfläche erscheint nur, wenn alle vier Bedingungen erfüllt sind:
+### Buchung stornieren [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"} {: #cancel_booking}
 
-- Sie sind Teilnehmer:in der Durchführung, oder Ihre Buchung ist noch ausstehend.
-- Die Durchführung hat ein Anfangsdatum, und dieses liegt in der Zukunft. Ab dem Tag des Beginns fehlt die Schaltfläche.
-- Zu Ihrer Buchung besteht ein Buchungsauftrag im Status "Neu", "In Zahlungsprozess" oder "Bezahlt".
-- Das Angebot ist stornierbar. Das ist der Normalfall. Nur beim Angebot "Rechnung" können Verantwortliche die Stornierung mit dem Schalter "Stornierbar" ausschalten.
+Können Sie an einer gebuchten Durchführung doch nicht teilnehmen, stornieren Sie die Buchung selbst, solange die Durchführung noch nicht begonnen hat. Sie stornieren auf der Infoseite der Durchführung, die Sie über den Katalog erreichen:<br>
+`Katalog > "Ihre Durchführung" > Mehr erfahren > Kasten "Los geht's" > Buchung stornieren`
 
-Sie sehen die Schaltfläche, wenn Sie die Infoseite im Katalog oder unter `Kurse > In Vorbereitung` öffnen. Unter [Buchungsaufträge](../personal_menu/Bookings.de.md) lässt sich eine Buchung nicht stornieren.
+Bestätigen Sie im Dialog mit "Buchung stornieren". Fällt eine Stornierungsgebühr an, heisst die Schaltfläche "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt die Gebühr. Nach der Stornierung erhalten Sie eine E-Mail, deren Betreff mit "Bestätigung Ihrer Stornierung" endet.
+
+Haben Administrator:innen in der System-Administration unter `Administration > Module > Lernressource` den Bereich "In Vorbereitung" unter "Kurse" eingeschaltet, erreichen Sie dieselbe Infoseite auch unter `Kurse > In Vorbereitung > Mehr erfahren`. Dort steht eine Durchführung nur, solange sie noch nicht läuft. Die Einstellung beschreibt das Administrationshandbuch unter [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md).
+
+!!! info "Wichtig"
+
+    Unter `Kurse > Aktiv` führt "Mehr erfahren" zur Infoseite des Kurses, nicht zur Infoseite der Durchführung. Dort fehlt "Buchung stornieren". Auch in den Bereichen "Bildungsprodukte" und mit dem Namen der Durchführung unter `Kurse` öffnet "Mehr erfahren" eine Infoseite ohne diese Schaltfläche. Unter [Buchungsaufträge](../personal_menu/Bookings.de.md) lässt sich eine Buchung nicht stornieren. Öffnen Sie die Durchführung im Katalog.
+
+Die Schaltfläche erscheint nur, wenn die Durchführung die Stornierung zulässt und Ihre Buchung dazu passt. Was die Durchführung zulässt, stellen Kursplaner:innen und Produktbesitzer:innen ein, das Angebot auch Elementbesitzer:innen. Als Teilnehmer:in sehen Sie diese Einstellungen nicht; fehlt die Schaltfläche, fragen Sie Ihre Betreuer:innen. Alle vier Bedingungen müssen erfüllt sein:
+
+- **Anfangsdatum in der Zukunft:** Im Durchführungszeitraum ist "Beginn- und Enddatum" oder "Eintägig" gewählt. Bei "Jederzeit" hat die Durchführung kein Anfangsdatum, und die Schaltfläche fehlt. Ab dem Tag des Beginns fehlt sie ebenfalls. Kursplaner:innen stellen den Durchführungszeitraum ein unter `Course Planner > Durchführungen > "Ihre Durchführung" > Tab "Einstellungen" > Unter-Tab "Durchführung"`, siehe [Durchführung in den Einstellungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings_execution).
+- **Buchung über ein Angebot:** Zu Ihrer Buchung besteht ein Buchungsauftrag im Status "Neu", "In Zahlungsprozess" oder "Bezahlt". Das trifft zu, wenn Sie im Katalog gebucht haben oder mit einem Angebot eingetragen wurden. Wurden Sie im Assistenten mit "Ohne Buchungsauftrag" eingetragen, fehlt die Schaltfläche, siehe [Mitglieder hinzufügen](../area_modules/Course_Planner_Implementations.de.md#add_members). Bitten Sie dann die Person, die Sie eingetragen hat, Sie auszutragen.
+- **Stornierbares Angebot:** Jedes Angebot ist stornierbar. Nur beim Angebot "Rechnung" lässt sich die Stornierung mit dem Schalter "Stornierbar" ausschalten und eine Gebühr festlegen, siehe [Angebotskonzepte: Stornierungsbedingungen](../basic_concepts/Offer_Concepts.de.md#offer_invoice_cancellation).
+- **Ihre Rolle:** Sie sind Teilnehmer:in der Durchführung, oder Ihre Buchung ist noch ausstehend.
 
 ### Mein Kurs {: #my_course}
 
 Als Mitglied sehen Sie im Kasten "Mein Kurs" Ihren eigenen Stand, ohne den Kurs zu öffnen. Der Kasten zeigt nur die Angaben, die es für Sie gibt:
 
 - **Fortschritt:** Ihr Fortschritt in Prozent. Nur in einem Lernpfadkurs und erst, wenn OpenOlat einen Fortschritt erfasst hat.
-- **Status, Punkte und Note:** Ihr Ergebnis im Kurs. Dafür muss unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` der Schalter "Leistungsnachweis den Teilnehmer:innen anzeigen" eingeschaltet sein, siehe [Kurseinstellungen - Tab Bewertung](Course_Settings_Assessment.de.md#section_evidence_of_achievements). Der Status erscheint, wenn der Kurs "Bestanden" oder "Nicht bestanden" vergibt, die Punkte, wenn er Punkte vergibt. Die Note setzt zusätzlich voraus, dass Administrator:innen die Noten in der System-Administration eingeschaltet haben.
+- **Status, Punkte und Note:** Ihr Ergebnis im Kurs. Dafür muss unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` der Schalter "Leistungsnachweis den Teilnehmer:innen anzeigen" eingeschaltet sein, siehe [Kurseinstellungen - Tab Bewertung](Course_Settings_Assessment.de.md#section_evidence_of_achievements). Der Status erscheint, wenn der Kurs "Bestanden" oder "Nicht bestanden" vergibt, die Punkte, wenn er Punkte vergibt. Die Note setzt zusätzlich voraus, dass Administrator:innen die Noten in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Einstufung/Noten`.
 - **Gruppen:** die Gruppen des Kurses, in denen Sie Mitglied sind. Ein Klick auf den Namen öffnet die Gruppe.
 
-Unten im Kasten steht die Schaltfläche "Kurs verlassen". Damit tragen Sie sich selbst aus dem Kurs aus, gleich wie mit dem Eintrag "Kurs verlassen" im Menü "Mein Kurs" der Kurs-Toolbar, siehe [Toolbar: Mein Kurs](Toolbar_My_Course.de.md#leave_course). Die Schaltfläche erscheint nur für Teilnehmende und nur, wenn die Einstellung "Teilnehmer:innen können austreten" nicht auf "Nie" steht, siehe [Zugangskonfiguration / Freigabe](Access_configuration.de.md#leave_learning_resource). Steht sie auf "Nach Kursenddatum oder Status "Beendet"", ist die Schaltfläche ausgegraut, bis das Kursenddatum vorbei ist oder der Kurs den Status "Beendet" hat.
-
-Die Schaltfläche fehlt, wenn der Kurs zu einer Durchführung des Course Planners gehört oder Sie über eine solche Mitglied sind. Sie fehlt auch, wenn eine Gruppe Sie eingetragen hat, die das Austreten nicht erlaubt oder mit mehreren Kursen verknüpft ist, und während eines Prüfungsmodus.
+Unten im Kasten steht die Schaltfläche "Kurs verlassen", siehe [Kurs verlassen](#leave_course).
 
 Bei anderen Lernressourcen als Kursen zeigt der Kasten nur die Gruppen und die Schaltfläche zum Verlassen. Gibt es keine dieser Angaben, fehlt der Kasten "Mein Kurs" ganz.
+
+### Kurs verlassen [:octicons-tag-16:{ title="ab Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405){:target="_blank"} {: #leave_course}
+
+Brauchen Sie einen Kurs nicht mehr, tragen Sie sich selbst aus. Sie verlassen den Kurs auf seiner Infoseite:<br>
+`Kurse > Aktiv > Mehr erfahren > Kasten "Mein Kurs" > Kurs verlassen`
+
+Im geöffneten Kurs führt der Link "Infoseite" in der Toolbar auf dieselbe Seite. Den gleichen Weg bietet der Eintrag "Kurs verlassen" im Menü "Mein Kurs" der Kurs-Toolbar, siehe [Toolbar: Mein Kurs](Toolbar_My_Course.de.md#leave_course). Bei anderen Lernressourcen trägt die Schaltfläche den Typ im Namen, etwa "Wiki verlassen".
+
+Die Schaltfläche erscheint nur für Teilnehmende und nur, wenn die Besitzer:innen des Kurses das Austreten zulassen. Sie stellen es ein unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Teilnehmer:innen können austreten`
+
+Steht die Einstellung auf "Nie", fehlt die Schaltfläche. Steht sie auf "Nach Kursenddatum oder Status "Beendet"", ist die Schaltfläche ausgegraut, bis das Kursenddatum vorbei ist oder der Kurs den Status "Beendet" hat. Die Optionen beschreibt [Zugangskonfiguration / Freigabe](Access_configuration.de.md#leave_learning_resource). Welche Option ein neuer Kurs mitbringt, geben Administrator:innen in der System-Administration vor: `Administration > Module > Lernressource`, siehe [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md#allow_leaving_courses).
+
+Die Schaltfläche fehlt auch in diesen Fällen:
+
+- Sie sind über eine Durchführung Mitglied des Kurses, oder der Kurs gehört zu einer Durchführung. Woran Sie das erkennen, steht unter [Los geht's und Mein Kurs](#get_started_my_course). Dann stornieren Sie die Buchung der Durchführung, siehe [Buchung stornieren](#cancel_booking).
+- Eine Gruppe hat Sie eingetragen, die das Austreten nicht erlaubt oder mit mehreren Kursen verknüpft ist.
+- Ein Prüfungsmodus läuft.
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -153,7 +195,7 @@ Der Ausdruck lässt weg, was nur am Bildschirm Sinn ergibt: Bookmark setzen, Tei
 
 ## Infoseite einer Durchführung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8286)" }](https://track.frentix.com/issue/OO-8286){:target="_blank"} {: #implementation}
 
-Wer eine Durchführung im Course Planner bucht, sieht vorher dieselbe Infoseite wie bei einem Kurs, mit Fakten, Abschnitten, Terminen und "Los geht's". Drucken und "Als PDF herunterladen" funktionieren gleich.
+Wer eine Durchführung im Katalog bucht, sieht vorher dieselbe Infoseite wie bei einem Kurs, mit Fakten, Abschnitten, Terminen und "Los geht's". Drucken und "Als PDF herunterladen" funktionieren gleich.
 
 ![Infoseite einer Durchführung mit Kennzeichen und Elementtyp, Aktionen, Fakten, Beschreibung, Dozent:innen, Los geht's mit Preis und Terminen](assets/general_functions_infopage_example_v2_de.png){ class="shadow lightbox" title="Infoseite einer Durchführung · 2026.09.29" }
 
@@ -236,12 +278,14 @@ Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
-[Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
+[Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Persönliche Werkzeuge: Buchungsaufträge >](../personal_menu/Bookings.de.md)<br>
+[Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Toolbar: Mein Kurs >](../learningresources/Toolbar_My_Course.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
-[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)
 
 **Weiterführend**<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
