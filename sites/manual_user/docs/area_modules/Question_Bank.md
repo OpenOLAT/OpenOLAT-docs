@@ -34,7 +34,7 @@ The menu of the question bank is divided into the areas that the following secti
 
 ## My question bank {: #my_question_bank}
 
-Under "My questions" you will find your own questions. You can mark the questions as favorites and group them in lists. Favorites and lists are two ways of sorting and organizing items.
+Under "My questions" you will find your own questions. You can mark the questions as favorites and group them in lists. Favorites and lists are two ways of sorting and organizing items. Each list you create appears as its own entry under "My question bank" in the menu.
 
 Items that you mark as favorites under "My questions" appear a second time under "My favorites". These are one and the same item: changes under "My favorites" also apply under "My questions".
 
@@ -44,7 +44,9 @@ Individual questions, entire sections or tests can also be exported directly fro
 
 If the [review process](Question_Bank_Review_Process.md) is activated (authors review each other's questions), "My question bank" also shows your subjects. Depending on authorization, the menu also shows the areas "Review" and "Final".
 
-![Expanded area My question bank with My questions, My favorites and two own lists, on the right the question table with the action buttons](assets/question_bank_navigation_my_question_bank_v1_de.png){ class="shadow lightbox" title="My question bank area" }
+Depending on the configuration, the buttons "Create question", "AI questions" and "Import" are located above the table of your questions. With the search filters and the search field, you narrow down the table, see [Search function in the question bank](Question_Pool_Search.md).
+
+![Highlighted area My question bank with My questions and My favorites, on the right the search filters above the table of your own questions, so you find your questions and narrow them down](assets/question_bank_navigation_my_question_bank_v2_en.png){ class="shadow lightbox" title="My question bank area · 2026.10.26" }
 
 
 [To the top of the page ^](#question_bank)

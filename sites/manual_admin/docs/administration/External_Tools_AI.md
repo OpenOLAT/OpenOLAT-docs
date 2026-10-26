@@ -166,7 +166,7 @@ By default, 8 threads are available for "Interactive" and 2 threads for "Batch".
 
 Below the two fields, the load per pool shows how many calls are currently running and how many are waiting. The "Refresh" button reloads these values.
 
-![Fields for parallel calls, the load per pool and the button that reloads the load values.](assets/admin_external_tools_ai_pools_v1_en.png){ class="shadow lightbox" title="AI processing pools tab of the AI module" }
+![Highlighted load per pool with the running and waiting calls, and the highlighted button Refresh, which reloads these values](assets/admin_external_tools_ai_pools_v2_en.png){ class="shadow lightbox" title="AI processing pools tab of the AI module · 2026.10.26" }
 
 [To the top of the page ^](#ai)
 
@@ -185,7 +185,7 @@ The following are available for analysis:
 
 The "Total tokens" widget above the table shows the sum of all tokens in the selected time range.
 
-![Widget with the total tokens above the table of AI calls with duration, status and model.](assets/admin_external_tools_ai_usagelog_v1_en.png){ class="shadow lightbox" title="Usage log tab of the AI module" }
+![Highlighted widget Total tokens and the highlighted table of AI calls with date, AI feature, duration, status, provider and model, so you see the consumption of the selected time range](assets/admin_external_tools_ai_usagelog_v2_en.png){ class="shadow lightbox" title="Usage log tab of the AI module · 2026.10.26" }
 
 [To the top of the page ^](#ai)
 

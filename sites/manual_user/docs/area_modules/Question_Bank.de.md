@@ -34,7 +34,7 @@ Das Menü des Fragenpools gliedert sich in die Bereiche, die die folgenden Absch
 
 ## Mein Fragenpool {: #my_question_bank}
 
-Unter "Meine Fragen" finden Sie Ihre eigenen Fragen. Sie können die Fragen als Favoriten markieren und sie in Listen zusammenfassen. Favoriten und Listen sind zwei Möglichkeiten, Items zu sortieren und zu organisieren.
+Unter "Meine Fragen" finden Sie Ihre eigenen Fragen. Sie können die Fragen als Favoriten markieren und sie in Listen zusammenfassen. Favoriten und Listen sind zwei Möglichkeiten, Items zu sortieren und zu organisieren. Jede Liste, die Sie anlegen, erscheint unter "Mein Fragenpool" als eigener Eintrag im Menü.
 
 Items, die Sie unter "Meine Fragen" als Favorit markieren, erscheinen unter "Meine Favoriten" ein zweites Mal. Es handelt sich dabei um ein und dasselbe Item: Änderungen unter "Meine Favoriten" gelten auch unter "Meine Fragen".
 
@@ -44,7 +44,9 @@ Einzelne Fragen, ganze Sektionen oder Tests lassen sich auch direkt aus dem [Tes
 
 Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert (Autor:innen beurteilen die erstellten Fragen gegenseitig), zeigt "Mein Fragenpool" zusätzlich Ihre Fachbereiche. Je nach Berechtigung erscheinen im Menü ausserdem die Bereiche "Beurteilung" und "Final".
 
-![Aufgeklappter Bereich Mein Fragenpool mit Meine Fragen, Meine Favoriten und zwei eigenen Listen, rechts die Fragentabelle mit den Aktionsbuttons](assets/question_bank_navigation_my_question_bank_v1_de.png){ class="shadow lightbox" title="Bereich Mein Fragenpool" }
+Je nach Konfiguration stehen über der Tabelle Ihrer Fragen die Buttons "Frage erstellen", "KI Fragen" und "Import". Mit den Suchfiltern und dem Suchfeld grenzen Sie die Tabelle ein, mehr dazu unter [Suchfunktion im Fragenpool](Question_Pool_Search.de.md).
+
+![Markierter Bereich Mein Fragenpool mit Meine Fragen und Meine Favoriten, rechts die Suchfilter über der Tabelle Ihrer eigenen Fragen, so finden Sie Ihre Fragen und grenzen sie ein](assets/question_bank_navigation_my_question_bank_v2_de.png){ class="shadow lightbox" title="Bereich Mein Fragenpool · 2026.10.26" }
 
 
 [Zum Seitenanfang ^](#question_bank)

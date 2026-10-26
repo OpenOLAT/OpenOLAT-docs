@@ -5,7 +5,7 @@ With the question bank settings, administrators decide which functions authors u
 
 Question bank managers also edit some of the settings in the [administration of the question bank managers](../../manual_user/area_modules/Question_Bank_Administration.md).
 
-![Switches for review process, lists, pools, groups, subjects and levels, below them the rights of the pool manager](assets/Question bank administration EN.png){ class="shadow lightbox" title="Tab Question bank in the system administration" }
+![Highlighted tab Question bank with the function switches, below them the highlighted section Rights question bank manager, in which you release settings to question bank managers](assets/eassessment_question_bank_settings_v1_en.png){ class="shadow lightbox" title="Tab Question bank in the system administration · 2026.10.26" }
 
 ## Tab Question bank
 

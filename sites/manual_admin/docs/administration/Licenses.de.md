@@ -7,14 +7,14 @@ Administrator:innen konfigurieren sie in der System-Administration unter:<br>
 
 ## Lizenzen in Bereichen aktivieren [:octicons-tag-16:{ title="ab Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170) {: #licences_activation}
 
-![Lizenzen aktivieren in: Kontrollkästchen für Ordner, Fragenpool und Lernressourcen, alle drei eingeschaltet](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
+![Markierte Kontrollkästchen unter Lizenzen aktivieren in: Ordner, Media Center, Fragenpool und Lernressourcen, alle vier eingeschaltet](assets/licenses_activate_v1_de.png){ class="shadow lightbox aside-right-lg" }
 
 Lizenzen lassen sich in folgenden Bereichen von OpenOlat verwenden:
 
   * Ordner
+  * Media Center
   * Fragenpool
   * Lernressourcen
-  * Media Center
 
 Unter "Lizenzen aktivieren in" schalten Sie die Lizenzen je Bereich ein oder
 aus. Nach jeder Änderung weist OpenOlat darauf hin, den Indexer der
@@ -41,29 +41,24 @@ vorsieht.
 
 Genügen die Standardlizenztypen nicht, erstellen Sie eigene Lizenzen. Der
 Button "Lizenz erstellen" öffnet einen Dialog mit den Feldern "Name",
-"Lizenztext" und "CSS Klasse". Eigene Lizenztypen lassen sich danach
-bearbeiten, aber nicht löschen. Den Namen ändern Sie beim Bearbeiten nicht
-mehr, er erscheint nur noch als Text.
+"Lizenztext" und "CSS Klasse". Eigene Lizenztypen lassen sich nicht löschen.
 
 ![Pflichtfeld Name, mehrzeiliges Feld Lizenztext und Feld CSS Klasse mit den Buttons Abbrechen und Speichern](assets/LizenzMgmt_eigeneLizenz_DE.png){ class="shadow lightbox" title="Dialog Lizenz erstellen" }
 
-Die Übersicht listet alle verfügbaren Lizenzen auf. Mit den Pfeilen in den
-Spalten "Hoch" und "Runter" ändern Sie die Reihenfolge, in der die Lizenzen
-erscheinen. Über den Link in der Spalte "Übersetzung" hinterlegen Sie den
-Lizenznamen in einer anderen Sprache. Eigene Lizenzen ändern Sie über die
-Spalte "Bearbeiten".
+Die Übersicht listet alle verfügbaren Lizenzen auf. Über den Link in der
+Spalte "Übersetzung" hinterlegen Sie den Lizenznamen in einer anderen Sprache.
 
-Die Spalten "Ordner", "Fragenpool", "Lernressourcen" und "Media Center"
+Die Spalten "Ordner", "Media Center", "Fragenpool" und "Lernressourcen"
 erscheinen in der Übersicht nur, wenn die Lizenzen für den jeweiligen Bereich
 eingeschaltet sind. In diesen Spalten schalten Sie für jeden Bereich einzelne
 Lizenztypen ein oder aus.
 
-![Button Lizenz erstellen hervorgehoben über der Übersicht der Lizenztypen mit den Kontrollkästchen je Bereich Ordner, Fragenpool und Lernressourcen](assets/LizenzMgmt_Lizenztypen_DE.png){ class="shadow lightbox" title="Übersicht der Lizenztypen" }
+![Markierter Button Lizenz erstellen und markierte Spalten Ordner, Media Center, Fragenpool und Lernressourcen, in denen Sie jeden Lizenztyp je Bereich ein- oder ausschalten](assets/licenses_types_v1_de.png){ class="shadow lightbox" title="Übersicht der Lizenztypen · 2026.10.26" }
 
 Lizenztypen, die als Open Educational Resource gelten, tragen ein
 OER-Kennzeichen. Bei den Standardlizenztypen sind das die sieben
 Creative-Commons-Lizenzen und "Public domain". Bei eigenen Lizenzen setzen Sie
-das Kennzeichen im Dialog "Lizenz erstellen" oder "Lizenz bearbeiten" mit dem
+das Kennzeichen im Dialog "Lizenz erstellen" mit dem
 Kontrollkästchen "Qualifiziert als OER-Lizenz". Die Spalte "OER-Lizenz" der
 Übersicht zeigt das Kennzeichen an. [:octicons-tag-16:{ title="ab Release 17.2 (OO-6683)" }](https://track.frentix.com/issue/OO-6683)
 
@@ -73,9 +68,9 @@ Kontrollkästchen "Qualifiziert als OER-Lizenz". Die Spalte "OER-Lizenz" der
 
 ## Initiale Lizenzen festlegen {: #licences_initial}
 
-![Auswahlliste Initialer Lizenzgeber geöffnet mit den Optionen Ohne Lizenzgeber, Aktuelle:r Benutzer:in und Konstanter Lizenzgeber, je Bereich neben der Auswahlliste Initiale Lizenz](assets/LizenzMgmt_initiale_DE.png){ class="shadow lightbox aside-right-lg" }
+![Markierte Felder Initiale Lizenz und Initialer Lizenzgeber des Bereichs Ordner, darunter dieselben Felder mit eigenen Werten für Media Center und Fragenpool](assets/licenses_initial_v1_de.png){ class="shadow lightbox aside-right-lg" }
 
-Für die Bereiche "Ordner", "Fragenpool", "Lernressourcen" und "Media Center"
+Für die Bereiche "Ordner", "Media Center", "Fragenpool" und "Lernressourcen"
 legen Sie eine initiale Lizenz und einen initialen Lizenzgeber fest. Die
 Einstellungen erscheinen für jeden Bereich, in dem Lizenzen eingeschaltet sind.
 

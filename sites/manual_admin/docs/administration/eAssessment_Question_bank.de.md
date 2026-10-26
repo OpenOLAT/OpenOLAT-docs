@@ -5,7 +5,7 @@ Mit den Einstellungen des Fragenpools bestimmen Administrator:innen, welche Funk
 
 Einige der Einstellungen bearbeiten auch Poolverwalter:innen in der [Administration der Poolverwalter:innen](../../manual_user/area_modules/Question_Bank_Administration.de.md).
 
-![Schalter für Beurteilungsprozess, Listen, Pools, Gruppen, Fachbereiche und Stufen, darunter die Rechte der Poolverwalter:innen](assets/Fragenpool_admin.png){ class="shadow lightbox" title="Tab Fragenpool in der System-Administration" }
+![Markierter Tab Fragenpool mit den Funktionsschaltern, darunter der markierte Abschnitt Rechte Poolverwalter:in, in dem Sie Poolverwalter:innen Einstellungen freigeben](assets/eassessment_question_bank_settings_v1_de.png){ class="shadow lightbox" title="Tab Fragenpool in der System-Administration · 2026.10.26" }
 
 ## Tab Fragenpool
 

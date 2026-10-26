@@ -7,14 +7,14 @@ configure them in the system administration under:<br>
 
 ## Activate licenses in areas [:octicons-tag-16:{ title="from Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170) {: #licences_activation}
 
-![Activate licenses in: checkboxes for Folder, Question pool and Learning resources, all three switched on](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
+![Highlighted checkboxes under Activate licenses in: Folder, Media Center, Question bank and Learning resources, all four switched on](assets/licenses_activate_v1_en.png){ class="shadow lightbox aside-right-lg" }
 
 Licenses can be used in the following OpenOlat areas:
 
   * Folder
+  * Media Center
   * Question bank
   * Learning resources
-  * Media Center
 
 Under "Activate licenses in", you switch the licenses on or off per area.
 After each change, OpenOlat reminds you to start the full text search indexer
@@ -39,28 +39,24 @@ only permits use in the context intended by the author.
 
 If the default license types are not sufficient, you create your own
 licenses. The button "Create license" opens a dialog with the fields "Name",
-"License text" and "CSS class". Own license types can be edited afterwards, but
-not deleted. When editing, you can no longer change the name, it only appears
-as text.
+"License text" and "CSS class". Own license types cannot be deleted.
 
 ![Mandatory field Name, multi-line field License text and field CSS class with the buttons Cancel and Save](assets/LizenzMgmt_eigeneLizenz_EN.png){ class="shadow lightbox" title="Dialog Create license" }
 
-The overview lists all available licenses. Use the arrows in the columns "Up"
-and "Down" to change the order in which the licenses appear. With the link in
-the column "Translation", you store the license name in another language. You
-change own licenses via the column "Edit".
+The overview lists all available licenses. With the link in the column
+"Translation", you store the license name in another language.
 
-The columns "Folder", "Question bank", "Learning resources" and "Media Center"
+The columns "Folder", "Media Center", "Question bank" and "Learning resources"
 only appear in the overview if the licenses are switched on for the respective
 area. In these columns, you switch individual license types on or off for each
 area.
 
-![Button Create license highlighted above the overview of license types with the checkboxes per area Folder, Question pool and Learning resources](assets/LizenzMgmt_Lizenztypen_EN.png){ class="shadow lightbox" title="Overview of license types" }
+![Highlighted button Create license and highlighted columns Folder, Media Center, Question bank and Learning resources, in which you switch each license type on or off per area](assets/licenses_types_v1_en.png){ class="shadow lightbox" title="Overview of license types · 2026.10.26" }
 
 License types that qualify as Open Educational Resource carry an OER flag.
 Among the default license types, these are the seven Creative Commons licenses
 and "Public domain". For own licenses, you set the flag in the dialog "Create
-license" or "Edit license" with the checkbox "Qualifies as OER License". The
+license" with the checkbox "Qualifies as OER License". The
 column "OER-License" of the overview shows the flag. [:octicons-tag-16:{ title="from Release 17.2 (OO-6683)" }](https://track.frentix.com/issue/OO-6683)
 
 [To the top of the page ^](#licences)
@@ -69,10 +65,10 @@ column "OER-License" of the overview shows the flag. [:octicons-tag-16:{ title="
 
 ## Set initial licenses {: #licences_initial}
 
-![Drop-down Initial licensor opened with the options No licensor, Current user and Constant licensor, next to the drop-down Initial license for each section](assets/LizenzMgmt_initiale_EN.png){ class="shadow lightbox aside-right-lg" }
+![Highlighted fields Initial license and Initial licensor of the area Folder, below them the same fields with their own values for Media Center and Question bank](assets/licenses_initial_v1_en.png){ class="shadow lightbox aside-right-lg" }
 
-For the areas "Folder", "Question bank", "Learning resources" and "Media
-Center", you set an initial license and an initial licensor. The settings
+For the areas "Folder", "Media Center", "Question bank" and "Learning
+resources", you set an initial license and an initial licensor. The settings
 appear for each area in which licenses are switched on.
 
   *  **Initial license:** All licenses that are switched on for this area are available for selection.
