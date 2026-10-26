@@ -1,142 +1,132 @@
 # Assessment {: #assessment}
 
-Here you get an overview of the course elements that can be used for knowledge testing. For some course elements there are separate pages or chapters here in the manual.
-
+With the course elements of the group "Assessment" you check what participants have learned and assess their performance. This page gives an overview; each course element has its own page with all settings. The owners of the course add the course elements in the course editor and configure them there: `Course > Administration > Course editor`. Coaches only reach the course editor if they have been granted the "Course editor" right in the course.
 
 ![Twelve assessment course elements, from Assessment and Test to Survey and Multiple checklists](assets/Wissensueberpruefung_172_en.png){ class="shadow lightbox" title="Group Assessment in the course editor" }
 
-OpenOlat provides various course elements for knowledge testing. The central course elements for this are the three course elements for OpenOlat [tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md), [assessments](Course_Element_Assessment.md) with and without assessment grid (rubric) or the checklists offer a lot of potential for certain scenarios.
+At the centre are the three course elements that use OpenOlat [tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task.md). For further scenarios, the [portfolio task](../learningresources/Creating_Portfolio_Tasks.md), the [assessment](Course_Element_Assessment.md) with or without rubric assessment, and the check list are available.
 
-Most course elements in the assessment category can also be given points if required and then will be given the "HighScore" configuration tab for the highscore. With the allocation of points, further features such as the addition of points or the passing/failing of a course based on the assessments of different course elements can be added. A course element [structure](Course_Element_Structure.md) is used for this for conventional courses.
+In most course elements of this group you can award points. The course element then receives the tab "HighScore" for the [highscore](#highscore). The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](Course_Element_Structure.md) takes care of this.
 
-Another configuration tab that is available for most assessment course elements (except for self-test and survey) is the tab "Reminder". Here, emails can be sent depending on the progress of the respective course element. For example, a mail can be sent if a task has not yet been worked on by a certain date. The possibilities are similar to those in the menu "Reminder" in the course administration for which you can find more information [here](../learningresources/Course_Reminders.md).
+All course elements of this group except Self-test, Practice and Survey have the tab "Reminders"; for Task and Grouptask in learning path courses it is called "Reminders & to-dos". There you set up emails that OpenOlat sends depending on the progress of the course element, for example if a task or a test has not been worked on by a certain date. The options are similar to those in the menu "Reminders" of the course: `Course > Administration > Reminders`. More about this: [Course Reminders](../learningresources/Course_Reminders.md)
 
-The assessment category also includes the course elements "Survey" and "Form", which let you build OpenOlat [forms](../learningresources/Form_Editor.md) for surveys and similar purposes into a course.
+The group also includes the course elements "Survey" and "Form". With them, you build OpenOlat [forms](../learningresources/Form_Editor.md) for surveys and similar purposes into a course.
 
-
-
-##  Course Element: Assessment {: #course_element_assessment}
+## Course Element: Assessment {: #course_element_assessment}
 
 :fontawesome-regular-thumbs-up:
 
-The course element "Assessment" is suitable for evaluating services which are not explicitly submitted electronically, e.g. presence presentations or online websites. A rubric-based assessment is also available here.
+With the course element "Assessment" you assess achievements that participants do not submit in OpenOlat, for example an on-site presentation or a website of their own. For an assessment based on defined criteria, the rubric assessment is available.
 
-On separate pages you will learn how to set up, perform and configure an [assessment](Course_Element_Assessment.md).
+How to set up, carry out and configure an assessment is described on the page [Course Element "Assessment"](Course_Element_Assessment.md).
 
 
 
-##  Course Element: Task {: #course_element_task}
+## Course Element: Task {: #course_element_task}
 
 :fontawesome-solid-list-check:
 
-Coaches can use the Task course element to organize actions and submission tasks. Learners upload their submissions to the OpenOlat course and receive feedback or assessment from the teacher. Revisions can also be requested. Sample solutions can also be provided using this course element.
+With the course element "Task" you organise file submissions and submission tasks. Participants upload their solutions to the course and receive feedback and an assessment from the coaches. Coaches can request revisions and provide sample solutions.
 
-The central configuration of the course element takes place in the first step in the tab "Workflow". Here you determine which of the following options you want to use:
+You define the sequence of the task in the tab "Workflow". There you switch the following steps on or off and then configure them:
 
-   *  **Task Assignment**: assign tasks to course participants or groups.
+  * **Task assignment**: Provide a task directly in the course element.
+  * **Submission**: Participants submit their solutions. They create them directly in OpenOlat or upload a file.
+  * **Feedback**: Coaches return corrected tasks with feedback and request a revision if needed. Instead of the coaches or in addition, participants can also assess each other (peer review).
+  * **Revision**: Participants submit revised documents. Coaches can request further revisions until they consider the task completed and close the revision.
+  * **Sample solution**: Provide all participants with a sample solution for the task. You upload sample solutions as a file or create them directly in OpenOlat.
+  * **Grading**: You record points, passed/failed and feedback individually for each person.
 
-  *  **Submission**: Learners should have the opportunity to submit tasks. This is where course participants create their solutions or upload them in a PDF file format.
+Whether the task is mandatory or optional is defined in the tab "Learning path" in learning path courses, and in the tab "Workflow" in conventional courses. Mandatory tasks have to be completed. OpenOlat collects them after the deadline and hands them over to the coaches for assessment. With optional tasks, participants decide themselves whether to work on them. OpenOlat does not collect optional tasks after the deadline.
 
-  *  **Review and Correction**: this is where course participants will find their tasks corrected as well as requests for revisions.
+All settings of the course element are described on the page [Course Element "Task"](Course_Element_Task.md).
 
-  *  **Revision Period**: course participants upload their revised documents in this element. You as a coach can place multiple revision requests until the task is considered completed and the revision process closed.
-
-  *  **Sample solution**: provide course participants with sample solutions of their tasks. You can either create them directly in OpenOlat or upload files.
-
-  *  **Assessment**: create individual assessments for each course participant or for participants of a group as a whole.
-
- In the tab "Learning path" (or in the tab "Workflow" for conventional) you can also define whether the task is mandatory or voluntary. 
-
-Mandatory tasks have to be completed and will be collected after the set deadline and handed over to the coach for evaluation. In the case of optional tasks, the user can decide for himself if he wants to work on them. Furthermore, optional tasks are not collected after the deadline.
-
-How to create tasks step by step and further information on the [configuration possibilities](../learningresources/Course_Element_Task.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task.md).
-
-##  Course Element: Portfolio Task {: #course_element_portfolio}
+## Course Element: Portfolio Task {: #course_element_portfolio}
 
 :fontawesome-solid-briefcase:
 
-By means of the course element "Portfolio task" you can provide predefined portfolio templates to be filled by your course participants. The course participants can then pick up the portfolio task in their course,  and are then forwarded to their individual portfolio area. The portfolio picked up in this way can then be filled with content and artifacts by the learners and, if desired, made available to other people or the course coaches. Depending on the configuration, these persons can also evaluate and comment on the portfolio. 
+With the course element "Portfolio task" you provide participants with a prepared binder. The participants pick up the portfolio task in the course and are then taken to their personal portfolio area. There they fill the binder with content and, if needed, share it with other people or the coaches. Depending on the configuration, these persons can comment on and assess the portfolio.
 
-For the course element Portfolio task you need a "Portfolio 2.0 template", which you link to the course element. If you have not yet created a Portfolio Template learning resource, you can also create a new Portfolio Template or link to a previously created one directly in the course via "Select or create Portfolio Template".  Click [here](../learningresources/Creating_Portfolio_Tasks.md) to find out exactly how to create a portfolio task.
+The portfolio task needs a portfolio template, which you link in the tab "Learning content". Under "Select or create portfolio template", you select an existing portfolio template with "Select" or create a new one with "Create". How to create a portfolio task step by step is described on the page [Creating Portfolio Tasks](../learningresources/Creating_Portfolio_Tasks.md).
 
-
-If you have already added a portfolio template, it will appear under Selected Portfolio Template. Follow the link to get to the preview. You now have the option of selecting a different content with the "Change Portfolio Template" button.
+Once a portfolio template is linked, the tab shows its title. With "Preview" you view the portfolio template, with "Replace" you link a different one.
 
 !!! info "Important"
 
-    In case a portfolio template has already been downloaded and edited it will no longer be possible to replace it.
+    Once a participant has picked up the portfolio template, it can no longer be replaced.
 
-In the tab "Assessment" you can preconfigure the display of points, status passed/failed and individual comments.
+In the tab "Assessment" you define whether points, the status passed/failed and individual comments are displayed.
 
-Further information on how learners can pick up and use a portfolio task can be found in the chapter "[Portfolio task and assignment: Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)". How teachers can evaluate a portfolio task can be found in the chapter "[Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md)".
+How participants pick up and work on a portfolio task is described on the page [Portfolio task: collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md). How coaches comment on and assess a portfolio task is described on the page [Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md).
 
-General information on the subject of portfolios and e-portfolios can be found [here](../area_modules/index.md).
+General information on portfolio and e-portfolio can be found on the page [Portfolio - General Information](../area_modules/Portfolio_General_Information.md).
 
 All settings of the course element are described on the page [Course Element "Portfolio Task"](Course_Element_Portfolio_Task.md).
 
-## Course Element: Group Task {: #course_element_group_tasks}
+## Course Element: Group Task [:octicons-tag-16:{ title="from Release 10.3 (OO-991)" }](https://track.frentix.com/issue/OO-991) {: #course_element_group_tasks}
 
 :fontawesome-solid-list-check:
 
-The course element Group task functions largely like the course element [Task](Course_Element_Task.md).
+The course element "Group task" works largely like the course element ["Task"](Course_Element_Task.md). A group works on the task together and submits a joint solution. Points and feedback apply to the whole group and can be adjusted for individual group members.
 
-Points and feedbacks are created for the whole group in this course element, but can be customized.
+There are two differences compared with the course element "Task":
 
-The following differences to the course element Task should be noted:
+In the tab "Workflow" you select one or more groups to which the task is assigned. Only these groups see and work on the task. As long as no group is assigned, the course element is not visible when the course editor is closed.
 
-When creating the group task, one or more groups to which the task is assigned must be selected in the tab "Workflow". Only these groups can then view and edit the task. As long as no group has been assigned, the course element is not visible when the editor is closed.
-
-When the editor is closed, the tab "All participants" does not show the individual persons directly, but the assigned groups are shown, which can then be selected and evaluated. Within the assessment process it can be decided whether the assessment is valid for the entire group or whether the assessment is only valid for a certain group member.
+When the course editor is closed, the tab "Participants" shows the coaches the assigned groups. There they select a group and assess it. During the assessment they decide whether the assessment applies to the whole group or only to a certain group member.
 
 All settings of the course element are described on the page [Course Element "Group Task"](Course_Element_Grouptask.md).
 
-##  Course Element: Test {: #course_element_test}
+## Course Element: Test {: #course_element_test}
 
 :fontawesome-solid-square-pen:
 
-The course element "Test" integrates tests into a course. A test in a course is used to assess achievements and includes various question types. Depending on the choice of "[question types](../learningresources/Test_question_types.md)", it is evaluated automatically or manually. OpenOlat uses the IMS-QTI 2.1 format for tests, which allows exchange with other test systems and learning management systems that also support this standard.
+With the course element "Test" you integrate a learning resource "Test" into your course. A test in a course is used to assess achievements or as a quiz and includes various [question types](../learningresources/Test_question_types.md). Depending on the question type, OpenOlat evaluates the test automatically or coaches evaluate it manually. OpenOlat uses the IMS QTI 2.1 format for tests. This allows tests to be exchanged with other test systems and learning management systems that also support this standard.
 
-If you have not selected any test yet, there will be a message saying _No file chosen_ under the tab Test configuration. Click on "Choose, create or import file" to add a test to the course element, or to create a new test, respectively. In case you have already selected a test the name of this learning resource will be displayed after _Selected file_. Click on the name to open a preview of the test. Click on "Replace file" if you would like to exchange the learning resource with another one. Further information can be found in the chapter "[Creating Tests](../learningresources/Test.md)".
+If no test is linked yet, the tab "Test configuration" shows the notice "No test learning resource has been selected for this course element yet." There you select an existing test with "Select", create a new one with "Create" or import a test. Once a test is linked, the tab shows its title. "Preview" starts the preview of the test. Further information can be found on the page [Creating Tests](../learningresources/Test.md).
 
-The two main tabs for test configuration are "[Test configuration](../learningresources/Tests_at_course_level.md)" and " **Options** ". All settings of the course element are described on the page [Course Element "Test"](Course_Element_Test.md).
+You define the settings of the test in the course mainly in the tabs "Test configuration" and "Options", see [Tests at course level](../learningresources/Tests_at_course_level.md). All settings of the course element are described on the page [Course Element "Test"](Course_Element_Test.md).
 
-The settings under "Options" are initially being copied from the options of the learning resource. However, the options can be adjusted if needed. To do so, open the tab "Options" and click on "Adjust configuration". You may now set a time limit, limit the number of attempts, allow guests to do the test, choose from various display options, etc. If the option "Show question title" is not selected while menu navigation is allowed, the navigation will only show "anonymised" titles, not the real titles.
+OpenOlat initially takes the settings in the tab "Options" from the learning resource. If you want to change them for this course, select the setting "Adjust configuration" in the tab "Options". You can then, for example, set a time limit, limit the number of attempts, allow guests to take part or choose display options. If "Show question title" is switched off and "Allow menu navigation" is switched on, the navigation shows anonymised titles instead of the question titles.
 
-Furthermore, you can set up an information text (HTML page) which will be visible at the test start page as "Information", above the "Start" button. To add a file go to the tab "Options" and click on "Select page" or "Create page and open in editor". You can replace the file later if needed.
+In the tab "Options" you can set up an HTML page for the test in the section "Information (HTML page)". OpenOlat shows it on the start page of the test above the start button under "Information". You can replace the page later.
 
-Once you have selected a file, the security setting field is added to the display and you can allow links to files in the storage folder. This is useful, for example, if you want to link to other HTML files or graphics. However, this setting also means that experienced course participants can view the entire folder of the course.
+Once a page is selected, the section "Security settings" appears with the option "Allow links in the entire storage folder.". It is useful if the page links to other HTML files or graphics in the storage folder. However, it also means that experienced participants can view the entire storage folder of the course.
 
-Any test linked to a course can only be edited in your test-editor as long as there are no users launching and taking it. After that only typing errors can be corrected.
+To exchange the integrated test, click "Replace" in the tab "Test configuration" and select the new test. If participants already have test results, you can download them in the next step. The test can only be replaced if the course element is publishable.
 
 !!! warning "Attention"
 
-    In case participants are taking a test at that moment all their
-    results will be lost since that test is not complete. All results achieved between replacing and publishing a test will be lost as well.
+    If participants are taking the test at that moment and have not yet completed it, their results will be lost. All results achieved between replacing the test and publishing this change will be lost as well.
 
-The test results of the participants will be personalised.
+A test linked in a course can only be edited completely in the test editor until at least one participant has started and completed it. After that only typing errors can be corrected.
+
+OpenOlat stores the results of the participants in personalised form.
 
 
-##  Course Element: Self-test {: #course_element_self_test}
+## Course Element: Self-test {: #course_element_self_test}
 
 :fontawesome-solid-square-pen:
 
-Like the "Test", the course element "Self-test" uses the learning resource Test and is configured and set up similarly. The main difference is that there is no option "passed/failed" and the tab "HighScore" is omitted.
+You configure the course element "Self-test" similarly to the course element "Test". A self-test, however, has no status passed/failed, has no tab "HighScore" and does not appear in the assessment tool.
 
-In contrast to the course element "Test" self-tests are suitable to get practice; results of self-tests will be saved anonymously. Self-tests can be taken as often as needed. The course element "Self-test" contains learning resources of the type "Test." If you have not generated a test before please follow the instructions in the chapter ["How do I proceed when I create a test"](../../manual_how-to/test_creation_procedure/test_creation_procedure.md).
+Self-tests are meant for practice: OpenOlat saves all entries anonymously, and participants can take a self-test as often as they like.
 
-For more information on tests, refer to the chapter "[Creating Tests](../learningresources/Test.md)".  The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
+In the course element "Self-test" you integrate a learning resource of the type Test, just as in the course element "Test". If you have not created a test yet, follow the instructions on the page ["How do I proceed when I create a test?"](../../manual_how-to/test_creation_procedure/test_creation_procedure.md).
 
-A more complex alternative to the self-test is the course element Practice.
+For more information on tests, refer to the pages [Creating Tests](../learningresources/Test.md) and [Tests at course level](../learningresources/Tests_at_course_level.md).
 
-## Course Element: Practice {: #course_element_uebung}
+A more complex alternative to the self-test is the course element "Practice".
 
-:octicons-device-camera-video-24: **Video introduction**: [The course element Practice](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank"}
+## Course Element: Practice [:octicons-tag-16:{ title="from Release 17.0 (OO-5220)" }](https://track.frentix.com/issue/OO-5220) {: #course_element_uebung}
 
-The course element with flashcard logic is used for individual self-testing of course participants. For this purpose, the teacher combines several OpenOlat tests or question sets from the question pool, which the learners can work on independently in series and challenges. The number of questions per exercise series can be defined, as can the number of total challenges. For example, if a series comprises 10 questions, the learner is shown 10 questions. Afterwards, he can decide whether he wants to answer incorrectly answered questions again or skip them. The number of levels reflects the intensity of the exercise and indicates how often a question has to be answered correctly repeatedly. 
+:octicons-device-camera-video-24: **Video introduction (German)**: [The course element Practice](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank"}
+
+The course element with flashcard logic is used for individual self-testing of participants. For this purpose, the teacher combines several OpenOlat tests or question sets from the question bank, which the participants work on independently in series and challenges. The number of questions per practice series can be defined, as can the number of challenges. For example, if a series comprises 10 questions, 10 questions are shown. Afterwards, participants decide whether to answer incorrectly answered questions again or skip them. The number of levels reflects the intensity of the practice and indicates how often a question has to be answered correctly repeatedly.
 
 ![Practice series with challenge, individual practice by subject, personal statistics and learning progress per level](assets/KB_Uebung_en.png){ class="shadow lightbox" title="Course element Practice from the participant view" }
 
-In addition to the practice settings configured by the teacher, course participants can also filter and edit specific questions such as new questions or questions of a certain level. Custom series can also be created.
+Besides the "Practice series" that OpenOlat compiles according to the teacher's settings, participants choose their own practice mode under "Individual practice": "New questions" practises questions they have never answered, "My errors" practises incorrectly answered questions, and under "Own series" they compile questions themselves, for example filtered by level or subject. In the section "Per taxonomy subject" they practise questions from a specific subject.
 
 After completion of a challenge, detailed statistics on the learning status as well as a summary overview are available in addition to the classification in ranking lists.
 
@@ -144,26 +134,27 @@ After completion of a challenge, detailed statistics on the learning status as w
 
     Only automatically evaluable test questions can be used for this course element.
 
-## Course Element: Video task
-With the course element "Video task" video learning resources can be reused for interactive (formative) exercises or tasks with assessments (summative). Participants have to identify relevant situations ("teachable moment") in a video and assign them to a category. The placeholders required for this in the video (= segments) as well as the categories are defined in the "Video" learning resource (see Video Editor). A practice mode and a strict test mode are available.
+## Course Element: Video task [:octicons-tag-16:{ title="from Release 17.2 (OO-6643)" }](https://track.frentix.com/issue/OO-6643)
 
-## Course Element: Form  {: #course_element_form}
+With the course element "Video task" you use learning resources "Video" for interactive exercises (formative) or for tasks with assessment (summative). Participants identify relevant situations in the video and assign terms to them. You define the sections in the video (segments) and the terms in the learning resource "Video". The modes "Practice: Assign terms", "Practice: Identify situations" and "Test: Identify situations" are available. Only the test can be assessed.
 
-![form icon](assets/Forular_icon.png)
+## Course Element: Form [:octicons-tag-16:{ title="from Release 15.5 (OO-5338)" }](https://track.frentix.com/issue/OO-5338) {: #course_element_form}
 
-Using the course element "Form" you can add the learning resource form to a course. The form works similar to the course element "Survey" and can also be filled out only once. However, with the form it is visible which participant has filled in what in the form. Thus, in contrast to the survey (at least in the standard setting), filling in the form is not anonymous. 
+![Symbol of the course element Form](assets/Forular_icon.png)
 
-For the completion of the course element, a last deadline can be defined in the tab "Form". A [course reminder](../learningresources/Course_Reminders.md) can also be linked in addition. In contrast to the survey module, participants automatically receive a confirmation email with the date and time of submission as well as their completed form as a PDF attachment when they submit the completed form.
+With the course element "Form" you add a learning resource "Form" to a course. The form works similarly to the course element "Survey". Participants fill it in once, or several times with the option "Filling out the form multiple times". Unlike the survey, the answers are not anonymous: coaches see who filled in the form and how.
 
-Coaches can see in the overview table in the course run which participants have already completed the form and which have not. Forms that have already been submitted can be reopened by the coach for further processing by the participant, or they can be completely reset. By clicking on the participant, the completed form can be viewed. The form data of all participants are available as Excel export.
+In the tab "Form" you set a deadline under "Completion deadline". In addition, you can link a [course reminder](../learningresources/Course_Reminders.md). If the option "Confirmation e-mail" is selected for participants, they receive a confirmation with the date and time after submitting, together with their completed form as a PDF. The confirmation can also be sent to owners, coaches and external email addresses.
 
-The use of this course element makes sense e.g. if the learners have to fill in certain forms obligatorily, e.g. before starting a laboratory internship or as confirmation for the independent performance of a service.
+Coaches see in an overview table in the course which participants have already completed the form and which have not. They reopen a submitted form for further editing with "Reopen" or reset it completely with "Reset data". A click on a participant shows their completed form. The form data of all participants are available as Excel export.
+
+The course element helps, for example, when participants have to fill in certain forms obligatorily, such as before a laboratory internship or as confirmation that they have performed a task independently.
 
 !!! info "Important"
 
-    Unlike the Survey course module, however, this course module does not generate a specific graphical summary of the results.
+    Unlike the course element "Survey", the course element "Form" does not offer a graphical evaluation of the answers.
 
-##  Course Element: Survey [:octicons-tag-16:{ title="from Release 13.0 (OO-3676)" }](https://track.frentix.com/issue/OO-3676) {: #course_element_survey}
+## Course Element: Survey [:octicons-tag-16:{ title="from Release 13.0 (OO-3676)" }](https://track.frentix.com/issue/OO-3676) {: #course_element_survey}
 
 :fontawesome-solid-sliders:
 
@@ -175,39 +166,35 @@ A form linked in a course can only be edited completely in the [form editor](../
 
     If participants are currently running the questionnaire but have not yet completed it, their results will be lost.
 
-Further information on the subject of questionnaires and surveys can be found in the chapter "[Creating forms](../learningresources/Form.md)" and the corresponding subchapters.
+Further information on questionnaires and surveys can be found on the page [Forms - Overview](../learningresources/Form.md) and its subpages.
 
 
-##  Course Element: Checklist {: #course_element_checklist}
+## Course Element: Check list [:octicons-tag-16:{ title="from Release 9.4 (OO-936)" }](https://track.frentix.com/issue/OO-936) {: #course_element_checklist}
 
 :fontawesome-regular-square-check:
 
-The course element allows you to embed and evaluate checklists in the course structure. A checklist contains check elements with completed and uncompleted tasks or checks. The checklist can be used as an informational tool that helps participants to complete smaller tasks or to keep information secure, for example, by maintaining attendance or to-do lists.
+With the course element "Check list" you embed check lists or inspection lists in the course structure and assess them. A check list contains items that are ticked off as completed or not completed. It helps participants, for example, to complete smaller tasks or to record information, and it serves as an attendance or to-do list.
 
-You can also add several checklists at once. This procedure is useful if you need several identical checklists. Several (maximum of 12) modules with the same check elements are created and bundled with a structure module. A title is automatically created for each module, but changes are possible. Each module can then be given a specific submission date.
+With "Multiple checklists" you add several identical check lists at once. OpenOlat creates up to 12 course elements with the same items and groups them in a course element "Structure". Each course element automatically receives a title, which you can change, and can be given its own submission date.
 
-In this way, several checklists with identical check criteria but for different groups, for different objects to be checked, for different event dates or for checking the same object at different times (development) can be created relatively quickly.
+In this way you quickly create several check lists with the same criteria, for example for different groups, for different objects to be checked, for different event dates or to check the same object at different times.
 
-Further information can be found [here](Course_Element_Checklist.md).
+All settings of the course element are described on the page [Course Element "Checklist"](Course_Element_Checklist.md).
 
-
-
-### Highscore [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
+## Highscore [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
 
 If you award points in a course element, you can show the participants a highscore. The highscore makes a playful comparison between participants possible and can be seen as motivational factor.
 
 The highscore is set up in the tab "HighScore". This tab is available in all assessable course elements except for the course elements Practice and Video task, and additionally in the course element "Structure". The prerequisite for using the
-"HighScore" tab is that points are awarded for the selected block (e.g. test,
-task, evaluation).
+"HighScore" tab is that points are awarded in the selected course element (e.g. test,
+task, assessment).
 
-First "Show Highscore" needs to be enabled. Optional a starting date can be
-added. Upon this date the highscore will be shown. Otherwise the highscore is
-shown directly after finishing the test. Afterwards it can be defined, if the
-user data is shown anonymized or with pre and last name. In the next part it
-can be chosen, which elements of the highscore should be shown. There is the
-choice between congratulation title, podium, histogram and top result listing.
-For the listing it can be defined additionally, if all users or only a certain
-number should be shown. At least one of the above options needs to be selected.
+First "Show Highscore" needs to be enabled. Optionally, a starting date can be
+added. From this date on the highscore is shown. Otherwise the highscore is
+shown directly after finishing the test. With "Anonymize usernames" the highscore shows the persons anonymised instead of with first and last name. In the next part you
+choose which elements of the highscore are shown. You can choose between the congratulations title, the podium, the histogram and the top results listing.
+For the listing you can additionally define whether all participants or only a certain
+number of top participants are shown. At least one of these options needs to be selected.
 
 
 
@@ -227,7 +214,7 @@ number should be shown. At least one of the above options needs to be selected.
 [The form editor >](Form_Editor.md)<br>
 [Portfolio task: collecting and editing >](Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
-[Sites and modules >](../area_modules/index.md)<br>
+[Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
 [Course Element "Portfolio Task" >](Course_Element_Portfolio_Task.md)<br>
 [Course Element "Group Task" >](Course_Element_Grouptask.md)<br>
 [Test question types >](Test_question_types.md)<br>

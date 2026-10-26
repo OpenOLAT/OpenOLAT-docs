@@ -35,7 +35,7 @@ Die Arbeitsbereiche ergänzen sich, ohne sich zu überschneiden. So bleibt jeder
 
 ## Mehrere Rollen, mehrere Arbeitsbereiche {: #multiple_roles}
 
-Rollen sind natürlich kombinierbar. Eine Lehrperson kann zum Beispiel als Autor:in im Autorenbereich Kurse erstellen, im Coaching die eigenen Teilnehmenden begleiten und unter "Meine Kurse" selbst eine Weiterbildung absolvieren. Die Hauptnavigation zeigt in diesem Fall alle entsprechenden Menüpunkte nebeneinander an.
+Rollen lassen sich kombinieren. Eine Lehrperson kann zum Beispiel als Autor:in im Autorenbereich Kurse erstellen, im Coaching die eigenen Teilnehmenden begleiten und unter "Meine Kurse" selbst eine Weiterbildung absolvieren. Die Hauptnavigation zeigt in diesem Fall alle entsprechenden Menüpunkte nebeneinander an.
 
 Nach dem Login öffnet OpenOlat die Startseite, die Ihre Organisation für die erste passende Rolle festgelegt hat ([Startseiten nach Rolle](../../manual_admin/administration/Landing_pages.de.md#role_based)). Eine [persönliche Startseite](../personal_menu/Settings.de.md#landing_page) in den Einstellungen hat Vorrang vor der Startseite Ihrer Organisation.
 
@@ -48,7 +48,7 @@ Innerhalb eines Kurses gibt es zusätzlich den Rollenwechsel: Wurden einer Perso
 
 ## Weitere rollenspezifische Bereiche {: #further_areas}
 
-Neben den Kernbereichen gibt es weitere Menüpunkte und Bereiche, die erst mit der passenden Rolle gezielt sichtbar werden:
+Neben den Kernbereichen gibt es weitere Menüpunkte und Bereiche, die erst mit der passenden Rolle sichtbar werden:
 
 | Rolle | Arbeitsbereich |
 |---|---|
@@ -60,7 +60,7 @@ Neben den Kernbereichen gibt es weitere Menüpunkte und Bereiche, die erst mit d
 | Absenzenverwalter:in | Menüpunkt [Absenzenverwaltung](../area_modules/Absence_Management.de.md) |
 | Projektverwalter:in | Menüpunkt "Projekte", zusätzlicher Tab [Administration](../area_modules/Project_Admin.de.md) |
 | Lernressourcenverwalter:in | [Autorenbereich](../area_modules/Authoring.de.md), mit Besitzerrechten für die Kurse und Lernressourcen der eigenen Organisation |
-| Administrator:in | Modul- und Funktionsverwaltung: Zugriff auf viele Bereiche wie Benutzerverwaltung, Katalogverwaltung und Course Planner, jedoch nicht auf die Administrationsseite |
+| Administrator:in | Modul- und Funktionsverwaltung: Zugriff auf viele Bereiche wie Benutzerverwaltung, Katalog-Verwaltung und Course Planner, jedoch nicht auf die Administrationsseite |
 | Principal | Lesender Zugriff auf viele Bereiche des Systems |
 
 Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte finden Sie unter [Welche Rollen gibt es?](Roles.de.md) Eine Übersicht aller Menüpunkte der Hauptnavigation bietet die Seite [Bereiche und Module](../area_modules/index.de.md).

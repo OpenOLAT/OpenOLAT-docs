@@ -3,50 +3,38 @@
 Mit der Suche im Fragenpool finden Sie Frage-Items jeweils in *dem* Pool oder *der* Liste, in der Sie sich gerade befinden. Es ist nicht möglich, über mehrere Fragenpools hinweg Items zu suchen.
 
 
-## Einfache Suche {: #simple_search}
+## Suche [:octicons-tag-16:{ title="ab Release 14.1 (OO-4165)" }](https://track.frentix.com/issue/OO-4165){:target="_blank"} {: #simple_search}
 
-Die einfache Suche ist eine Volltextsuche, die über alle Elemente der Items sucht. Um die Suche zu optimieren, hier einige Informationen zur Syntax der zugrunde liegenden Lucene-Suche.
+Mit dem Eingabefeld über der Fragenliste finden Sie Fragen schnell über ein Stichwort. Die Suche durchsucht Titel, Thema, Schlagworte, Abdeckung und Zusatzinformationen der Fragen. Gross- und Kleinschreibung spielt keine Rolle.
 
-|  Syntax    | Beispiel  |
+| Eingabe | Findet Fragen, bei denen eines dieser Felder |
 | ---------- | ----------|
-| Es werden immer ganze Suchbegriffe erwartet.| \+ Funktioniert: *Indikation* |
-| |-  Funktioniert nicht: *Indikati*  |
+| *Indikati* | den Begriff an beliebiger Stelle enthält, zum Beispiel *Indikation* oder *Kontraindikation* |
+| *Hallo Du* | genau diese Wortfolge an beliebiger Stelle enthält |
+| *Indikation\** | mit *Indikation* beginnt |
+| *\*indikation* | mit *indikation* endet |
+| *"Hallo Du"* | genau aus *Hallo Du* besteht |
 
-Die Suche nach Teilbegriffen funktioniert daher nur, wenn Wildcards verwendet werden:
-
-* Mit " ? " wird nach genau einem weiteren Zeichen gesucht, 
-* Mit " * " wird nach einer beliebigen Anzahl weiterer Zeichen sucht. 
-
-<br>
-
-**Hier ein paar Beispiele:**
-
-
-*Indikatio?* => Findet *Indikation*
-
-_Indikatio*_  => Findet *Indikation, Indikationen, Indikationsklassen ...*  
-
-Mit Hilfe von " " kann nach Phrasen, also einer Gruppe von Wörtern, gesucht werden.
-
-*Hallo Du* => Findet alle Items, die entweder ein *Hallo* oder ein *Du* enthalten
-(ODER- Verknüpfung).
-
-*"Hallo Du"* => Findet alle Items die genau diese Phrase enthalten. 
-
-Mit Hilfe von " - " und " + " können mehrere Begriffe kombiniert werden. Die Zeichen werden ohne Leerschlag vor die entsprechenden Begriffe gesetzt.
-
-*+Hallo +Du* => Findet alle Items die beide Begriffe enthalten (UND-Verknüpfung).
-
-*Hallo -Du* => Findet alle Items, die nur den ersten Begriff, auf gar keinen Fall aber den zweiten Begriff enthalten.
-
-Es gibt einige gesperrte Sonderzeichen, die von Lucene verwendet werden, wie z.B. "_" und ":".<br> Werden diese Sonderzeichen verwendet, wird die Ergebnisliste vermutlich leer sein.  
+Als Platzhalter für beliebige weitere Zeichen dient " * ". Beginnt oder endet die Eingabe mit " * ", sucht OpenOlat nur an dieser Stelle weiter, sonst an beiden Enden des Begriffs.
 
 [Zum Seitenanfang ^](#question_pool_search)
 
 
-## Erweiterte Suche {: #advanced_search}
+## Suchfilter {: #advanced_search}
 
-Die erweiterte Suche ermöglicht die Suche über festgelegte Felder. Sie bezieht auch die Metadaten mit ein. Anders als bei der einfachen Suche, die ebenfalls über alle Felder sucht, wird hier aber genau festgelegt, welcher Suchbegriff in welchem Feld gesucht werden soll. Dies erhöht die Trefferquote und die Genauigkeit der Suche. Es können beliebige Felder miteinander kombiniert werden.
+Die Suchfilter schränken die Fragenliste nach einzelnen Angaben ein. Sie sind beim Öffnen der Liste eingeblendet und lassen sich mit der Suche und untereinander kombinieren.
 
+Standardmässig zeigt OpenOlat unter anderem die Filter "Titel", "Autor:in", "Typ", "Testart", "Status" und "Max. Punkte", je nach Konfiguration auch "Fachbereich" und "Stufe". Weitere Filter wie "Thema", "Schlagworte", "Sprache" oder "Format" stehen zusätzlich zur Wahl. Die Filter entsprechen den Metadaten einer Frage, die die [Detailansicht einer Frage](Item_Detailed_View.de.md#metadata) beschreibt.
+
+[Zum Seitenanfang ^](#question_pool_search)
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)
+
+**Weiterführend**<br>
+[Fragenpool: Fragen verwenden >](Question_bank_possible_operations.de.md)<br>
+[Fragenpool: Übersicht >](Question_Bank.de.md)
 
 [Zum Seitenanfang ^](#question_pool_search)

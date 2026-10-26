@@ -4,7 +4,7 @@
 
 The Content Editor lets you insert various content elements into a page based on a layout of your choice and thus design a content page optimised for mobile devices. OpenOlat saves your changes automatically.
 
-The Content Editor is used in several places in OpenOlat.
+The Content Editor is used in several places in OpenOlat. Who uses it depends on the place: in the course element "Page" the owners of the course and authorised coaches, in the learning resource "Form" its owners, in the portfolio the owners of the binder.
 
 ![A selected title block with its toolbar and an open inspector, next to it the Add content links in the areas of the layout.](assets/content_editor_v1_de.png){ class="shadow lightbox" title="Content Editor in edit mode" }
 
@@ -18,25 +18,25 @@ The Content Editor is used in the [course element Page](../learningresources/Cou
 
 ### Course element page [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"} {: #course_element_page}
 
-The Content Editor is activated in the course element Page either in the course editor in the tab "Page content" or, with the course editor closed, by switching on the edit mode directly on the desired course element Page.
+In the course element "Page" you open the Content Editor in two ways: in the course editor in the tab "Page content" with "Edit page", or with the course editor closed directly in the course element by switching on the edit mode. You reach the course editor under: `Course > Administration > Course editor`.
 
 **When the course editor is closed:**
 
 ![The Edit mode switch is set to Off, highlighted in turquoise.](assets/content_editor_page_run_mode_v1_de.png){ class="shadow lightbox" title="Course element Page in the course" }
 
-The slide switch turns the edit mode on and off.
+The switch "Edit mode" turns editing of the page on and off.
 
 **In the course editor:**
 
 ![Three marked steps: course element Page, tab Page content, button Edit page.](assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" title="Course element Page in the course editor" }
 
-In the course editor, you can configure whether, in addition to course owners, coaches are also allowed to use the Content Editor of the course element and edit the page when the course editor is closed.
+In the tab "Page content" you define under "Rights" whether, in addition to course owners, coaches may also edit the page when the course editor is closed: option "Edit page" for "Coach". With "Show advanced configuration" you additionally grant the right to individual roles, groups or users, optionally with a start and end.
 
 ![The option Edit page is ticked for coaches.](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" title="Page content tab of the course element Page" }
 
-The media content of the [Course Element "Page"](../learningresources/Course_Element_Page.md) (images, audio, video, diagrams, quotes, documents, etc.) is stored in the [Media Center](../personal_menu/Media_Center.md), not in the course’s storage folder (see [Course Element "HTML Page"](../learningresources/Course_Element_HTML_Page.md)). For more information, see the explanations for the respective course element types. 
+OpenOlat stores the media content of the [Course Element "Page"](../learningresources/Course_Element_Page.md) (images, audio, video, diagrams, citations, documents, etc.) in the [Media Center](../personal_menu/Media_Center.md), not in the course’s storage folder as with the [Course Element "HTML Page"](../learningresources/Course_Element_HTML_Page.md).
 
-Different rules apply to the portfolio and the learning resource Form.
+The media of a portfolio binder are also stored in the Media Center. The learning resource "Form", by contrast, stores images in the learning resource itself.
 
 [To the top of the page ^](#content_editor)
 
@@ -49,7 +49,7 @@ The Content Editor is also used in the [learning resource Form](../learningresou
 
 The displayed options for inserting content are adapted to the form, e.g. different question types are available here.
 
-![The Add content dialog in the Form Editor with the additional area Question types.](assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" title="Add content dialogue in the Form Editor" }
+![The Add content dialog in the form editor with the additional area Question types.](assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" title="Add content dialogue in the form editor" }
 
 [To the top of the page ^](#content_editor)
 
@@ -71,11 +71,11 @@ The Content Editor is also used for entries in [portfolio binders](../area_modul
 
 ## Layout in the content editor [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6199)" }](https://track.frentix.com/issue/OO-6199){:target="_blank"} {: #content_editor_layout}
 
-Before you can insert content in the Content Editor, you must first "add a new layout". The layout serves as a grid that determines the arrangement of the content (blocks).
+Before you can insert content in the Content Editor, you add a layout with "Add a new layout". The layout serves as a grid that determines the arrangement of the content (blocks).
 
 There are various layouts to choose from, which differ in the way the fields are arranged. You can also combine several layouts on one page.
 
-If necessary, the layout can be changed later at any time. To do this, simply click on the gear icon (Edit settings) of the layout and select a new layout.
+If necessary, the layout can be changed later at any time. To do this, click on the gear icon (Edit settings) of the layout and select a new layout.
 
 ![The gear icon opens the inspector with the layout templates, the selected one is marked in turquoise.](assets/Lyout_Formular.jpg){ class="shadow lightbox" title="Inspector of a layout" }
 
@@ -95,7 +95,7 @@ Every layout on a page can be deleted via the layout's three-dot menu, including
 
 ### Content blocks {: #content_blocks}
 
-Content blocks with various specific types of content can be added to each section of a layout. The number of content blocks varies depending on the selected design. For example, a three-column design has 3 content blocks. 
+Content blocks with various specific types of content can be added to each section of a layout. The number of content blocks depends on the selected layout. For example, a three-column layout has 3 content blocks.
 
 
 ### Adding, positioning and configuring content in a block {: #add_content}
@@ -129,16 +129,16 @@ A block can be copied with the "Duplicate" action, both as a short action on the
 
 ### General formatting for all content blocks - The Inspector [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6198)" }](https://track.frentix.com/issue/OO-6198){:target="_blank"} {: #inspector}
 
-**Spacing**
+#### Spacing {: #spacing}
 
-Consistent spacing between the layout fields (content blocks) is important for creating an appealing layout. You can choose from various spacing options: 
+Consistent spacing between the fields of a layout (content blocks) makes a page easy to read. Under "Spacing" you can choose:
 
-* no spacing
+* No spacing
 * S (small)
 * M (medium)
 * L (large)
 * XL (extra large)
-* custom
+* Custom
 
 === "S (small spacing)"
 
@@ -155,20 +155,20 @@ Consistent spacing between the layout fields (content blocks) is important for c
     ![Image, text and form elements are set far apart. Same example page with the spacing XL.](assets/content_editor_layout_spacing_extra-large.jpg){ class="shadow lightbox" title="extra large spacing" }
 
 
-**Background**
+#### Background {: #background}
 
-In the "Style" tab you define the background of a layout [:octicons-tag-16:{ title="from Release 18.2.5 (OO-7641)" }](https://track.frentix.com/issue/OO-7641){:target="_blank"}. Besides "None", a predefined colour list is available, letting you set individual layouts apart visually.
+In the inspector of a layout you define the background of the layout in the tab "Style" under "Background" [:octicons-tag-16:{ title="from Release 18.2.5 (OO-7641)" }](https://track.frentix.com/issue/OO-7641){:target="_blank"}. Besides "None", a predefined colour list is available, letting you set individual layouts apart visually.
 
 
-**Block style "Note"**
+#### Alert box {: #alert_box}
 
-Layouts and various content blocks can be displayed as formatted info boxes [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined info type is selected, the information is clearly highlighted by applying the corresponding colour scheme to the box, along with a matching icon. The types "Note", "Info", "Tip", "Important", "Warning", "Error" and "Success" are available. With the type "Custom" you design the colour and icon of the box yourself. If desired, a box can also be made collapsible.
+Layouts and various content blocks can be displayed as a formatted alert box [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. When a predefined type is selected, the box highlights information with the matching colour and the matching icon. The types "Note", "Info", "Tip", "Important", "Warning", "Error" and "Success" are available. With the type "Custom" you design the colour and icon of the box yourself. In the field "Title" you give the box a heading, "With icon" shows the icon, and "Collapsible" makes the box collapsible.
 
-![The info box is switched on, the list of types is open.](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" title="Style tab in the inspector of a layout" }
+![The alert box is switched on, the list of types is open.](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" title="Style tab in the inspector of a layout" }
 
 Example:
 
-![Two finished info boxes with icon, title and coloured frame in the text of a page.](assets/content_editor_box_v1_de.png){ class="shadow lightbox" title="Info boxes on a page" }
+![Two finished alert boxes with icon, title and coloured frame in the text of a page.](assets/content_editor_box_v1_de.png){ class="shadow lightbox" title="Alert boxes on a page" }
 
 [To the top of the page ^](#content_editor)
 
@@ -195,7 +195,7 @@ Please note that not *all* elements are available in every content editor.
 
 ### Title {: #title}
 
-Various font sizes are predefined for the heading element. The sizes h1 to h6 are available.
+For the element "Title" you select one of the predefined levels h1 to h6 under "Size" in the inspector.
 
 Every title additionally receives an [anchor](#anchors). It is used exclusively by the ["Table of contents"](#table_of_contents) element, which lists the titles and links them via their anchors. Outside the table of contents, the anchors cannot be addressed.
 
@@ -203,11 +203,13 @@ Every title additionally receives an [anchor](#anchors). It is used exclusively 
 
 ### Text {: #text}
 
-Use this element to add texts.
+With the element "Text" you insert formatted running text. The formatting bar offers, among other things, font style, alignment, font size, colours, lists, links and formulas. In the inspector you define under "Columns" in how many columns the text appears.
 
 ![Formatting bar of a selected text block with font style, colours, lists, link and formula.](assets/Text-Element.png){ class="shadow lightbox" title="Formatting bar of a text block" }
 
 ### Table {: #table}
+
+With the element "Table" you present content in rows and columns. In the inspector you define the number of rows and columns under "Row" and "Column" and whether the table has a "Row header" or a "Column header". Under "Row style" you choose how the rows are displayed. Above and below the table you can enter a table title and a table caption.
 
 ![Fields for row and column, row header and column header as well as the row style.](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" title="Inspector of a table block" }
 
@@ -217,21 +219,21 @@ A special small editor is available for mathematical formulas.
 
 ![Input field in the content block with the formula keyboard and its registers.](assets/content_editor_content_math_v1_de.png){ class="shadow lightbox" title="Formula editor" }
 
-This text element does not exist in the Form Editor. 
+This text element does not exist in the form editor. 
 
 ### Code example [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"} {: #code}
 
-The 'Code' block enables text to be displayed in a font with fixed spacing and numbering of the lines. This is particularly helpful for technical learning content such as programming examples. The programming language used can be selected when creating the code block. Participants can copy the code template directly to the clipboard for further processing.
+The block "Code example" shows text in a font with fixed spacing and numbered lines. This helps with technical learning content such as programming examples. When creating the block, you select the programming language. Participants copy the code directly to the clipboard to reuse it.
 
 ![Two code blocks in Java and C sharp with line numbers, syntax colours and a copy symbol.](assets/content_editor_content_code_v1_de.png){ class="shadow lightbox" title="Code examples on a page" }
 
-This text element does not exist in the Form Editor. 
+This text element does not exist in the form editor. 
 
-### Quote {: #quote}
+### Citation {: #quote}
 
-If a text is entered as a quote, it automatically has a predefined formatting. The quotes are saved as reusable objects in the Media Center, just like audio or videos.
+If a text is entered as a citation, it automatically has a predefined formatting. Citations are saved as reusable objects in the Media Center, just like audio or videos.
 
-This text element does not exist in the Form Editor. 
+This text element does not exist in the form editor. 
 
 [To the top of the page ^](#content_editor)
 
@@ -239,14 +241,14 @@ This text element does not exist in the Form Editor.
 
 !!! info "Section Media"
 
-    Instead of the "Media" section and its associated content elements, the [Form Editor](../learningresources/Form_Editor.md) includes the "Question Types" and "Organizational" sections with their corresponding content elements. 
+    Instead of the "Media" section and its associated content elements, the [form editor](../learningresources/Form_Editor.md) includes the "Question Types" and "Organizational" sections with their corresponding content elements. 
 
 
 ### Image {: #image}
 
 All images available in the Media Center can be integrated. New images can be uploaded and are then stored in the Media Center. The image formats png, jpg, gif and svg are supported [:octicons-tag-16:{ title="svg from Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
-If the AI feature "Image Description Generator" is switched on in the AI module, OpenOlat adds title, description, alternative text and tags of a newly uploaded image in the background with AI, provided the AI image descriptions are switched on for you, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). More about this: [Generate metadata with AI](Media_Center_Items.md#metadata_ai)
+If the AI feature "Image Description Generator" is switched on in the [AI module](../../manual_admin/administration/External_Tools_AI.md), OpenOlat adds title, description, alternative text and tags of a newly uploaded image in the background with AI, provided the AI image descriptions are switched on for you, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). More about this: [Generate metadata with AI](Media_Center_Items.md#metadata_ai)
 
 ### Gallery [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"} {: #gallery}
 
@@ -270,10 +272,11 @@ Audio can be recorded directly in OpenOlat, uploaded or selected from existing a
 
 ### Video [:octicons-tag-16:{ title="from Release 18.0 (OO-7001)" }](https://track.frentix.com/issue/OO-7001){:target="_blank"} {: #video}
 
-Videos can also be integrated via URL in the 'Video' block. The video formats MP4 and m3u8 as well as the platforms YouTube, Vimeo, Panopto and nanoo.tv are supported. It is also possible to record new videos directly in OpenOlat.
+Videos can also be integrated via URL in the block "Video".<br>
+The video formats MP4 and m3u8 as well as the platforms YouTube, Vimeo, Panopto and nanoo.tv are supported. It is also possible to record new videos directly in OpenOlat.
 
 
-### Document {: #document}
+### Document [:octicons-tag-16:{ title="from Release 14.0 (OO-3943)" }](https://track.frentix.com/issue/OO-3943){:target="_blank"} {: #document}
 
 Here, you can upload documents in various formats (e.g., PDF or Word files) using drag-and-drop, select them from the Media Center, or create them directly in specific formats. The media files are automatically saved in the Media Center.
 
@@ -301,7 +304,7 @@ Existing diagrams can be loaded from the Media Center or new diagrams can be cre
 
 ### Quiz [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
 
-This content element allows you to embed quiz questions that can be automatically graded into a page. You can create new questions or add existing ones from the question bank. You can also add feedback to each question, including images and videos, which enhances the learning experience.
+This content element allows you to embed quiz questions that can be automatically graded into a page. You can create new questions or add existing ones from the question bank. You can also add feedback to each question, including images and videos.
 
 These short quiz questions are intended to encourage engagement with the course content, but they do not award points. For graded quizzes, please use the course elements ["Test"](../learningresources/Course_Element_Test.md) or ["Self-test"](../learningresources/Course_Element_Self_Test.md).
 
@@ -331,11 +334,11 @@ You insert the element via "Add content" in the "Other & design" section. When i
 
 If the table of contents stays empty, the hint "No titles found after this position" appears. The element is then placed below the titles it is meant to list, or the selected title sizes do not match the existing titles. Move it before the titles you want, or adjust the title sizes in the Inspector.
 
-This element does not exist in the Form Editor.
+This element does not exist in the form editor.
 
 ### HTML text code {: #html}
 
-The HTML text code editor is available exclusively in the editor of the course element Page. It performs similar functions to the "Text" content element, but offers additional menus and options.
+The element "HTML text code" is available only in the Content Editor of the course element Page. It performs similar functions to the element "Text" and offers additional menus and options.
 
 [To the top of the page ^](#content_editor)
 
@@ -371,7 +374,9 @@ Before the AI corrects free-text answers of learners, OpenOlat asks them for per
 
 "Allow once" is highlighted if the default of the administration is "on", otherwise "Not now". As long as nothing is stored, the dialog appears again in every new attempt, also after a click on "New attempt". Without permission, learners answer the free-text questions as usual, only no AI feedback appears.
 
-Learners undo "Always allow" by selecting "Default" again in the tab "AI settings". There the AI feedback can also be switched off completely: [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings)
+Learners undo "Always allow" by selecting "Default" again in the tab "AI settings". There the AI feedback can also be switched off completely. You find the tab under:<br>
+`Personal menu > System settings > Tab "AI settings"`<br>
+More about this: [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings)
 
 [To the top of the page ^](#content_editor)
 
@@ -381,9 +386,9 @@ Learners undo "Always allow" by selecting "Default" again in the tab "AI setting
 
 !!! info "Important"
 
-    Markdown is a widely used text format that is output by many tools and AI applications. It allows for the seamless import and reuse of existing content without the need for additional formatting. At the same time, it supports a clear structure and facilitates the ongoing development of learning content.
+    Markdown is a widely used text format that many tools and AI applications output. Headings, lists and tables are recorded in it as simple characters, so the structure of a text is preserved during import.
 
-Markdown files and Word documents can be imported directly into the Content Editor, allowing content from external tools, text files or AI applications to be imported without manual reformatting. The content is automatically converted into the structured page format, providing an efficient foundation for populating course pages with content more quickly and easily.
+You import Markdown files and Word documents directly into the Content Editor. This way you take over content from external tools, text files or AI applications without reformatting it by hand. OpenOlat automatically converts the content into blocks of the page.
 
 To import, click the button "Import" at the bottom of the Content Editor.
 
@@ -393,7 +398,7 @@ In the import dialogue you choose between two options:
 
 ![The modes Upload file and Paste text, the selected file and, highlighted, the switches Add AI generated Quiz and Generate image metadata with AI](assets/content_editor_import_dialog_v2_en.png){ class="shadow lightbox" title="Import dialogue in the Content Editor · 2026.10.20" }
 
-**A) Upload file:** (The following are supported)
+**A) Upload file:** The following are supported:
 
 * Markdown files (.md, .markdown, .txt)
 * ZIP archives up to a maximum of 50 MB (A ZIP archive must contain exactly one markdown file and can additionally include the image files referenced relatively within it.)
@@ -416,7 +421,7 @@ During import, the markdown elements are converted into blocks of the Content Ed
 | Paragraph | [Text](#text) |
 | Horizontal rule (`---`) | [Separator](#separator) |
 | Code block | [Code example](#code) (with detected programming language) |
-| Blockquote `>` | Text with [alert box](#inspector) |
+| Blockquote `>` | Text with [alert box](#alert_box) |
 | GitHub admonition (e.g. `> [!WARNING]`) | Text with alert box of the matching type |
 | List (bulleted or numbered) | Text with list |
 | Table | [Table](#table) |
@@ -435,9 +440,9 @@ The title size also determines which imported titles the ["Table of contents"](#
 
 ### Images during import {: #import_images}
 
-Images are imported directly into the [Media Center](#media_center), and a duplicate check ensures that the same image isn't stored multiple times in the Media Center. This saves space and keeps things organized automatically, without the author having to worry about it.
+During import, OpenOlat stores images directly in the [Media Center](#media_center). A duplicate check prevents the same image from being stored in the Media Center several times, without you as an author having to do anything.
 
-Images with absolute URLs are downloaded during import, provided the administrators have approved the respective domain for external media. Base64 images embedded directly in the markdown (data URIs) are also imported.
+OpenOlat downloads images with absolute URLs during import. If the mode under `Administration > Login > Security > Tab "Media server"` in the system administration is set to "Configure", this only applies to the domains enabled there. The import does not download an image from another domain and reports it as a warning, see [Tab Media server](../../manual_admin/administration/Login_Security.md#tab_mediaserver). Base64 images embedded directly in the markdown (data URIs) are also imported.
 
 If the AI feature "Image Description Generator" is switched on in the [AI module](../../manual_admin/administration/External_Tools_AI.md), the import dialog shows the switch "Generate image metadata with AI". If it is switched on, OpenOlat generates title, description, alternative text and tags for the imported images in the background with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. OpenOlat transmits a reduced version of each image to the AI service. If it is switched off, OpenOlat does not generate metadata with AI.
 
@@ -468,11 +473,11 @@ Generation runs in the background and can take a minute; the quiz element appear
 ---
 
 
-## Media Center {: #media_center}
+## Media Center [:octicons-tag-16:{ title="from Release 11.0 (OO-2299)" }](https://track.frentix.com/issue/OO-2299){:target="_blank"} {: #media_center}
 
-In the Content Editor of the course element Page and of the portfolio, there is a separate button that leads to the Media Center. Essentially, this provides an additional way to access the files, regardless of the type of media.
+In the Content Editor of the course element Page and of the portfolio, a separate button "Media Center" in the dialog "Add content" leads to your media. It is an additional way to access your files, regardless of the type of media.
 
-Click the link to access the files in your Media Center. Here, you can select, create, or upload files. 
+Click the button to open the files in your Media Center. Here, you select files, create new ones or upload them.
 
 ![Open Add media file menu with document, diagram, text, video, audio and quote.](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" title="Add media file menu" }
 
@@ -496,19 +501,20 @@ Click the link to access the files in your Media Center. Here, you can select, c
 [My portfolio binders >](../area_modules/My_portfolio_binders.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
-[The Form Editor >](../learningresources/Form_Editor.md)<br>
+[The form editor >](../learningresources/Form_Editor.md)<br>
+[External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Information and settings for items in the Media Center >](Media_Center_Items.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>
 [Course Element "Self-test" >](../learningresources/Course_Element_Self_Test.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
-[External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
-[Question pool: Create Questions >](../area_modules/Question_Bank_Create_Questions.md)<br>
+[Question Bank: Create Questions >](../area_modules/Question_Bank_Create_Questions.md)<br>
+[Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Media Center Concept >](Media_Center_Concept.md)
 
 **Further reading**<br>
 [Working with tables >](Table_Concept.md)<br>
 [Math formula >](Math_formula.md)<br>
-[Accessibility: Basic principals >](Accessibility_Principals.md)
+[Accessibility: Basic principles >](Accessibility_Principals.md)
 
 [To the top of the page ^](#content_editor)

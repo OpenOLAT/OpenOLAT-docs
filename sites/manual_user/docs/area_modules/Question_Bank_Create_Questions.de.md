@@ -1,26 +1,26 @@
 # Fragenpool: Fragen erstellen {: #create_questions}
 
-![Die als Favorit markierten Frageitems mit Typ, Format und Status, darunter die Aktionen für Listen, Test, Export und Freigabe. Bereich Meine Favoriten im Fragenpool.](assets/Fragenpool_favoriten.png){ class="shadow lightbox" }
+![Die als Favorit markierten Frageitems mit Typ, Format und Status, darunter die Aktionen für Listen, Test, Export und Freigabe](assets/Fragenpool_favoriten.png){ class="shadow lightbox" title="Bereich Meine Favoriten im Fragenpool" }
 
 ## Übersicht über vorhandene Fragen [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #question_list}
 
 Die Tabellenansicht der Fragen die im Fragenpool abgelegt sind bietet vielfältige Möglichkeiten. Achten Sie darauf, dass alle für Sie relevanten Spalten über das Zahnrad-Symbol ausgewählt sind.
 
-Besonders relevante Fragen können Sie als **Favorit** markieren und so schnell wiederfinden. Eine weitere Möglichkeit ist mehrere Fragen in **Listen** zu organisieren und so eine individuelle Systematik für Ihre Fragen aufzubauen.
+Besonders relevante Fragen können Sie als Favorit markieren und so schnell wiederfinden. Eine weitere Möglichkeit ist, mehrere Fragen in Listen zu organisieren und so eine individuelle Ordnung für Ihre Fragen aufzubauen.
 
-Sie können Fragen im Bereich "Meine Fragen", in einer Liste oder in einer Gruppenfreigabe erstellen oder importieren. Dabei werden die Frageitems aber grundsätzlich unter "Meine Fragen" abgelegt und dann referenziert. 
+Sie können Fragen im Bereich "Meine Fragen", in einer Liste oder in einer Gruppenfreigabe erstellen oder importieren. Dabei legt OpenOlat die Frageitems aber grundsätzlich unter "Meine Fragen" ab und referenziert sie am jeweiligen Ort.
 
-Eine Übersicht der **Fragetypen**, die erstellt und importiert werden können, finden Sie im Kapitel ["Test Fragetypen"](../learningresources/Test_question_types.de.md).
+Eine Übersicht der Fragetypen, die erstellt und importiert werden können, finden Sie im Kapitel ["Test Fragetypen"](../learningresources/Test_question_types.de.md).
 
 [Zum Seitenanfang ^](#create_questions)
 
 ## Fragen im Fragenpool erstellen [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #create}
 
-Frageitems können im Fragenpool über den Button "Frage erstellen" im QTI 2.1 Format erstellt und direkt zur weiteren Nutzung gespeichert werden. 
+Frageitems können im Fragenpool über den Button "Frage erstellen" im QTI 2.1 Format erstellt und direkt zur weiteren Nutzung gespeichert werden.
 
-![Geöffnete Auswahlliste der QTI 2.1 Fragetypen, von Single Choice bis Lückentext mit Dropdown.](assets/Frage_erstellen_typen.png){ class="shadow lightbox" }
+![Geöffnete Auswahlliste der QTI 2.1 Fragetypen, von Single Choice bis Lückentext mit Dropdown](assets/Frage_erstellen_typen.png){ class="shadow lightbox" title="Dialog Frage erstellen" }
 
-Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum Schluss, wenn vorhanden, der Fachbereich ausgewählt. Die so erstellten Fragen können dann in die OpenOlat Lernressource Test importiert und verwendet werden.
+Im Dialog "Frage erstellen" geben Sie einen Titel ein und wählen anschliessend den Fragetyp und, falls vorhanden, den Fachbereich. Die so erstellten Fragen können dann in die OpenOlat Lernressource Test importiert und verwendet werden.
 
 [Zum Seitenanfang ^](#create_questions)
 
@@ -65,7 +65,7 @@ Folgende Angaben stehen zur Verfügung:
 
 Sind bei den Schlüsselpunkten oder den Bewertungskriterien Zeilen ausgefüllt, muss die Summe aller Gewichte 1.0 ergeben.
 
-Mit dem Button **"Feedback testen"** geben Sie eine Beispielantwort ein und sehen in der Vorschau, welches KI-Feedback Lernende erhalten würden. So lässt sich das Bewertungskit vor dem Einsatz feinjustieren.
+Mit dem Button "Feedback testen" geben Sie eine Beispielantwort ein und sehen in der Vorschau, welches KI-Feedback Lernende erhalten würden. So lässt sich das Bewertungskit vor dem Einsatz feinjustieren.
 
 !!! info "Wo Lernende das KI-Feedback erhalten"
 
@@ -73,25 +73,25 @@ Mit dem Button **"Feedback testen"** geben Sie eine Beispielantwort ein und sehe
 
 [Zum Seitenanfang ^](#create_questions)
 
-## Beurteilung durch Fachkollegen [:octicons-tag-16:{ title="ab Release 12.3 (OO-3111)" }](https://track.frentix.com/issue/OO-3111){:target="_blank"} {: #review}
+## Beurteilung durch Fachkolleg:innen [:octicons-tag-16:{ title="ab Release 12.3 (OO-3111)" }](https://track.frentix.com/issue/OO-3111){:target="_blank"} {: #review}
 
-Nachdem eine Frage in erster Version erstellt wurde, kann sie zur Prüfung durch Fachkollegen in einen Beurteilungsprozess gegeben werden.
+Nachdem eine Frage in erster Version erstellt wurde, kann sie zur Prüfung durch Fachkolleg:innen in einen Beurteilungsprozess gegeben werden.
 
 [Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Zum Seitenanfang ^](#create_questions)
 
 ## Frage in den Pool freigeben [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_in_pool}
 
-![Geöffnetes Menü Freigeben mit Export, In Pool freigeben und In Gruppe freigeben. Detailansicht eines Frageitems.](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" }
+![Geöffnetes Menü Freigeben mit Export, In Pool freigeben und In Gruppe freigeben](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" title="Menü Freigeben in der Detailansicht einer Frage" }
 
-Es können mehrere Pools von dem/der Poolverwalter:in angelegt worden sein. Als Autor:in einer Frage können Sie entscheiden, in welchen Pool Ihre Frage freigegeben wird.
+Poolverwalter:innen können mehrere Pools anlegen. Als Autor:in einer Frage entscheiden Sie, in welchen Pool Sie Ihre Frage freigeben: `Freigeben > In Pool freigeben`.
 
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
 [Zum Seitenanfang ^](#create_questions)
 
 ## Frage in Gruppe freigeben [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_with_group}
 
-Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe erstellen. Soll eine neu erstellte Frage zunächst ausschliesslich von den Gruppenmitgliedern einsehbar sein, können Sie in der Toolbar unter "Freigeben" die Frage auch nur für diese Gruppe freigeben.
+Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe erstellen. Soll eine neu erstellte Frage zunächst ausschliesslich für die Gruppenmitglieder sichtbar sein, geben Sie die Frage in der Toolbar nur für diese Gruppe frei: `Freigeben > In Gruppe freigeben`.
 
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
 [Zum Seitenanfang ^](#create_questions)
@@ -100,14 +100,14 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 
 **Auf dieser Seite erwähnt**<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
-[KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
-[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
-[Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)
+[Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[Fragenpool: Freigabemöglichkeiten >](Question_Pool_Sharing_Options.de.md)
 
 **Weiterführend**<br>
-[Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
-[Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
-[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+[Fragenpool: Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
+[Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 [Zum Seitenanfang ^](#create_questions)

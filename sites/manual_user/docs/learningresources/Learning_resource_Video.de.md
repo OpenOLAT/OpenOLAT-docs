@@ -141,7 +141,7 @@ Ist der frentix Cloud-Transcodingservice für die OpenOlat-Instanz aktiviert, er
 
 #### Untertitel beim Ersetzen eines Videos [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}
 
-Wird über das Administrationsmenü "Video ersetzen" eine neue Videodatei hochgeladen und existieren bereits Untertitel, fragt OpenOlat bei aktivem Cloud-Transcodingservice im Dialog "Untertitel generieren?", ob für das neue Video ein neuer Untertitel generiert werden soll.
+Laden Sie über `Video > Administration > Video ersetzen` eine neue Videodatei hoch und existieren bereits Untertitel, fragt OpenOlat bei aktivem Cloud-Transcodingservice im Dialog "Untertitel generieren?", ob für das neue Video ein neuer Untertitel generiert werden soll.
 
 * **Ja**: Die bestehenden Untertiteldateien werden gelöscht und für das neue Video werden automatisch neue Untertitel generiert.
 * **Nein**: Die bestehenden Untertiteldateien bleiben erhalten.

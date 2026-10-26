@@ -4,7 +4,7 @@
 
 Der Content Editor ermöglicht es basierend auf einem selbst gewählten Layout verschiedene Inhaltselemente in eine Seite einzufügen und so eine Inhaltsseite optimiert für Mobilgeräte zu gestalten. OpenOlat speichert Ihre Änderungen automatisch.
 
-Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet. 
+Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet. Wer ihn nutzt, hängt vom Ort ab: im Kursbaustein "Seite" die Besitzer:innen des Kurses und berechtigte Betreuer:innen, in der Lernressource "Formular" deren Besitzer:innen, im Portfolio die Besitzer:innen der Mappe.
 
 ![Ein markierter Titel-Block mit Werkzeugleiste und geöffnetem Inspektor, daneben die Links Inhalt hinzufügen in den Bereichen des Layouts.](assets/content_editor_v1_de.png){ class="shadow lightbox" title="Content Editor im Bearbeitungsmodus" }
 
@@ -20,25 +20,25 @@ Der Content Editor wird im [Kursbaustein Seite](../learningresources/Course_Elem
 
 ### Kursbaustein Seite [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"} {: #course_element_page}
 
-Der Content Editor wird im Kursbaustein Seite entweder im Kurseditor im Tab "Seiteninhalt" oder bei geschlossenem Kurseditor durch Aktivierung des Bearbeitungsmodus direkt beim gewünschten Kursbaustein Seite aktiviert. 
+Im Kursbaustein "Seite" öffnen Sie den Content Editor auf zwei Wegen: im Kurseditor im Tab "Seiteninhalt" mit "Seite editieren", oder bei geschlossenem Kurseditor direkt im Kursbaustein, indem Sie den Bearbeitungsmodus einschalten. Den Kurseditor erreichen Sie unter: `Kurs > Administration > Kurseditor`.
 
 **Bei geschlossenem Kurseditor:**
 
 ![Der Schalter Bearbeitungsmodus steht auf Aus, türkis hervorgehoben.](assets/content_editor_page_run_mode_v1_de.png){ class="shadow lightbox" title="Kursbaustein Seite im Kurs" }
 
-Über den Schiebeschalter kann der Bearbeitungsmodus ein- und ausgeschaltet werden. 
+Der Schalter "Bearbeitungsmodus" schaltet die Bearbeitung der Seite ein und aus.
 
 **Im Kurseditor:**
 
 ![Drei markierte Schritte: Kursbaustein Seite, Tab Seiteninhalt, Button Seite editieren.](assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" title="Kursbaustein Seite im Kurseditor" }
 
-Im Kurseditor kann konfiguriert werden, ob neben den Kursbesitzer:innen auch Betreuende den jeweiligen Content Editor des Kursbausteins bei geschlossenem Kurseditor verwenden und die Seite bearbeiten dürfen.
+Im Tab "Seiteninhalt" legen Sie unter "Berechtigungen" fest, ob neben den Kursbesitzer:innen auch Betreuer:innen die Seite bei geschlossenem Kurseditor bearbeiten dürfen: Option "Seite editieren" für "Betreuer:innen". Mit "Erweiterte Konfiguration anzeigen" vergeben Sie das Recht zusätzlich an einzelne Rollen, Gruppen oder Benutzer:innen, auf Wunsch mit Beginn und Ende.
 
 ![Die Option Seite editieren ist für Betreuer:innen angehakt.](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" title="Tab Seiteninhalt des Kursbausteins Seite" }
 
-Die Medien-Inhalte des [Kursbausteins "Seite"](../learningresources/Course_Element_Page.de.md) (Bilder, Audio, Video, Diagramme, Zitate, Dokumente, etc.) werden im [Media Center](../personal_menu/Media_Center.de.md), nicht im Ablageordner des Kurses (vergl. [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md)), gespeichert. Weitere Infos finden Sie bei den Erläuterungen zu den jeweiligen Kursbausteintypen. 
+Die Medien-Inhalte des [Kursbausteins "Seite"](../learningresources/Course_Element_Page.de.md) (Bilder, Audio, Video, Diagramme, Zitate, Dokumente usw.) speichert OpenOlat im [Media Center](../personal_menu/Media_Center.de.md), nicht im Ablageordner des Kurses wie beim [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md).
 
-Für Portfolio und Formular-Lernressource gelten andere Regeln.
+Auch die Medien einer Portfolio-Mappe liegen im Media Center. Die Lernressource "Formular" speichert Bilder dagegen in der Lernressource selbst.
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -51,7 +51,7 @@ Der Content Editor wird auch in der [Lernressource Formular](../learningresource
 
 Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst, z.B. stehen hier verschiedene Fragetypen zur Auswahl.
 
-![Der Dialog Inhalt hinzufügen im Formular-Editor mit dem zusätzlichen Bereich Fragetypen.](assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formular-Editor" }
+![Der Dialog Inhalt hinzufügen im Formulareditor mit dem zusätzlichen Bereich Fragetypen.](assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor" }
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -73,11 +73,11 @@ Auch für Einträge in [Portfolio-Mappen](../area_modules/My_portfolio_binders.d
 
 ## Layout im Content Editor [:octicons-tag-16:{ title="ab Release 17.1.0 (OO-6199)" }](https://track.frentix.com/issue/OO-6199){:target="_blank"} {: #content_editor_layout}
 
-Bevor Sie Inhalte im Content Editor einfügen können, müssen Sie zuerst ein "neues Layout" hinzufügen. Das Layout dient als Raster, das die Anordnung der Inhalte (Blöcke) bestimmt.
+Bevor Sie Inhalte im Content Editor einfügen können, fügen Sie mit "Neues Layout einfügen" ein Layout hinzu. Das Layout dient als Raster, das die Anordnung der Inhalte (Blöcke) bestimmt.
 
 Es stehen verschiedene Layouts zur Auswahl, die sich durch unterschiedlich angeordnete Felder unterscheiden. Sie können auf einer Seite auch mehrere Layouts kombinieren.
 
-Falls nötig, lässt sich das Layout später jederzeit ändern. Klicken Sie dazu einfach auf das Zahnrad-Symbol (Einstellungen bearbeiten) des Layouts und wählen Sie ein neues Layout aus.
+Falls nötig, lässt sich das Layout später jederzeit ändern. Klicken Sie dazu auf das Zahnrad-Symbol (Einstellungen bearbeiten) des Layouts und wählen Sie ein neues Layout aus.
 
 ![Das Zahnrad öffnet den Inspektor mit den Layout-Vorlagen, die gewählte ist türkis markiert.](assets/Lyout_Formular.jpg){ class="shadow lightbox" title="Inspektor eines Layouts" }
 
@@ -99,7 +99,7 @@ Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.
 
 ### Inhalts-Blöcke {: #content_blocks}
 
-In jeden Bereich eines Layouts können Inhalts-Blöcke mit verschiedenen konkreten Inhalten hinzugefügt werden. Die Anzahl der Inhaltsblöcke variiert je nach gewähltem Design. Ein dreispaltiges Design verfügt dabei beispielsweise über 3 Inhaltsblöcke. 
+In jeden Bereich eines Layouts können Inhalts-Blöcke mit verschiedenen konkreten Inhalten hinzugefügt werden. Die Anzahl der Inhaltsblöcke hängt vom gewählten Layout ab. Ein dreispaltiges Layout hat zum Beispiel 3 Inhaltsblöcke.
 
 ### Inhalte in einem Block hinzufügen, positionieren und konfigurieren {: #add_content}
 
@@ -132,16 +132,16 @@ Ein Block lässt sich mit der Aktion "Duplizieren" kopieren, sowohl als Kurzakti
 
 ### Generelle Formatierungen für alle Inhaltsblöcke - Der Inspektor [:octicons-tag-16:{ title="ab Release 17.1.0 (OO-6198)" }](https://track.frentix.com/issue/OO-6198){:target="_blank"} {: #inspector}
 
-**Abstände**
+#### Abstand {: #spacing}
 
-Für die ansprechende Gestaltung eines Layouts sind einheitliche Abstände zwischen den Feldern des Layouts (Inhaltsblöcken) bedeutsam. Sie haben die Wahl zwischen verschiedenen Abständen: 
+Einheitliche Abstände zwischen den Feldern eines Layouts (Inhaltsblöcken) machen eine Seite übersichtlich. Unter "Abstand" stehen zur Wahl:
 
-* kein Abstand
+* Kein Abstand
 * S (klein)
 * M (mittel)
 * L (gross)
 * XL (extragross)
-* benutzerdefiniert
+* Benutzerdefiniert
 
 
 === "S (kleiner Abstand)"
@@ -159,14 +159,14 @@ Für die ansprechende Gestaltung eines Layouts sind einheitliche Abstände zwisc
 
 
 
-**Hintergrund**
+#### Hintergrund {: #background}
 
-Im Tab "Stil" legen Sie den Hintergrund eines Layouts fest [:octicons-tag-16:{ title="ab Release 18.2.5 (OO-7641)" }](https://track.frentix.com/issue/OO-7641){:target="_blank"}. Neben "Kein Hintergrund" steht eine vordefinierte Farbliste zur Auswahl, mit der sich einzelne Layouts farblich voneinander abheben lassen.
+Im Inspektor eines Layouts legen Sie im Tab "Stil" unter "Hintergrund" den Hintergrund des Layouts fest [:octicons-tag-16:{ title="ab Release 18.2.5 (OO-7641)" }](https://track.frentix.com/issue/OO-7641){:target="_blank"}. Neben "Kein Hintergrund" steht eine vordefinierte Farbliste zur Auswahl, mit der sich einzelne Layouts farblich voneinander abheben lassen.
 
 
-**Block-Stil 'Hinweis'**
+#### Hinweis-Box {: #alert_box}
 
-Layouts und verschiedene Inhaltsblöcke können als formatierte Hinweis-Box dargestellt werden [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. Bei Auswahl eines vordefinierten Hinweis-Typs werden Informationen durch eine entsprechende Farbgebung der Box und mit passendem Icon deutlich hervorgehoben. Zur Auswahl stehen die Typen "Notiz", "Information", "Tipp", "Wichtig", "Warnung", "Fehler" und "Erfolg". Mit dem Typ "Benutzerdefiniert" gestalten Sie Farbe und Icon der Box selbst. Auf Wunsch kann eine Box auch einklappbar gemacht werden.
+Layouts und verschiedene Inhaltsblöcke können als formatierte Hinweis-Box dargestellt werden [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138){:target="_blank"}. Bei Auswahl eines vordefinierten Hinweis-Typs hebt die Box Informationen mit der passenden Farbe und dem passenden Icon hervor. Zur Auswahl stehen die Typen "Notiz", "Information", "Tipp", "Wichtig", "Warnung", "Fehler" und "Erfolg". Mit dem Typ "Benutzerdefiniert" gestalten Sie Farbe und Icon der Box selbst. Im Feld "Titel" geben Sie der Box eine Überschrift, "Mit Icon" blendet das Icon ein, und "Einklappbar" macht die Box einklappbar.
 
 ![Die Hinweis-Box ist eingeschaltet, die Typenliste ist geöffnet.](assets/content_editor_box_inspector_v1_de.png){ class="shadow lightbox" title="Tab Stil im Inspektor eines Layouts" }
 
@@ -198,7 +198,7 @@ Bitte beachten Sie, dass nicht in jedem Content Editor *alle* Elemente zur Verf�
 
 ### Titel {: #title}
 
-Für das Überschriftselement sind verschiedene Schriftgrössen vordefiniert. Zur Auswahl stehen h1 bis h6.
+Für das Element "Titel" wählen Sie im Inspektor unter "Grösse" eine der vordefinierten Stufen h1 bis h6.
 
 Jeder Titel erhält zusätzlich einen [Anker](#anchors). Genutzt wird dieser ausschliesslich vom Element ["Inhaltsverzeichnis"](#table_of_contents), das die Titel auflistet und über ihre Anker verlinkt. Ausserhalb des Inhaltsverzeichnisses lassen sich die Anker nicht ansteuern.
 
@@ -207,11 +207,13 @@ Jeder Titel erhält zusätzlich einen [Anker](#anchors). Genutzt wird dieser aus
 
 ### Text {: #text}
 
-Hierüber werden Texte hinzugefügt.
+Mit dem Element "Text" fügen Sie formatierten Fliesstext ein. Die Formatierungsleiste bietet unter anderem Schriftschnitt, Ausrichtung, Schriftgrösse, Farben, Listen, Links und Formeln. Im Inspektor legen Sie unter "Spalten" fest, in wie vielen Spalten der Text erscheint.
 
 ![Formatierungsleiste eines markierten Text-Blocks mit Schriftschnitt, Farben, Listen, Link und Formel.](assets/Text-Element.png){ class="shadow lightbox" title="Formatierungsleiste eines Text-Blocks" }
 
 ### Tabelle {: #table}
+
+Mit dem Element "Tabelle" stellen Sie Inhalte in Zeilen und Spalten dar. Im Inspektor legen Sie unter "Zeile" und "Spalte" die Anzahl Zeilen und Spalten fest und bestimmen, ob die Tabelle eine "Kopfzeile" oder eine "Kopfspalte" hat. Unter "Zeilenstil" wählen Sie die Darstellung der Zeilen. Über und unter der Tabelle können Sie eine Tabellenüberschrift und eine Tabellenunterschrift eintragen.
 
 ![Felder für Zeile und Spalte, Kopfzeile und Kopfspalte sowie der Zeilenstil.](assets/content_editor_content_table_v1_de.png){ class="shadow lightbox" title="Inspektor eines Tabellen-Blocks" }
 
@@ -222,21 +224,21 @@ Für mathematische Formeln steht ein spezieller kleiner Editor zur Verfügung.
 
 ![Eingabefeld im Inhaltsblock mit der Formeltastatur und ihren Registern.](assets/content_editor_content_math_v1_de.png){ class="shadow lightbox" title="Formeleditor" }
 
-Dieses Textelement existiert nicht im Formular-Editor. 
+Dieses Textelement existiert nicht im Formulareditor. 
 
 ### Code-Beispiel [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"} {: #code}
 
-Der 'Code' Block ermöglicht die Textdarstellung in einer Schriftart mit festen Abständen und Nummerierung der Zeilen. Dies ist insbesondere bei technischen Lerninhalten wie Programmierbeispielen sehr hilfreich. Beim Anlegen des Code Blocks kann die verwendete Programmiersprache gewählt werden. Zur Weiterverarbeitung können Teilnehmende die Code-Vorlage direkt in die Zwischenablage kopieren.
+Der Block "Code-Beispiel" zeigt Text in einer Schrift mit festen Abständen und nummerierten Zeilen. Das hilft bei technischen Lerninhalten wie Programmierbeispielen. Beim Anlegen des Blocks wählen Sie die Programmiersprache. Teilnehmende kopieren den Code direkt in die Zwischenablage, um ihn weiterzuverwenden.
 
 ![Zwei Code-Blöcke in Java und C-Sharp mit Zeilennummern, Syntaxfarben und Kopier-Symbol.](assets/content_editor_content_code_v1_de.png){ class="shadow lightbox" title="Code-Beispiele auf einer Seite" }
 
-Dieses Textelement existiert nicht im Formular-Editor. 
+Dieses Textelement existiert nicht im Formulareditor. 
 
 ### Zitat {: #quote}
 
 Wird ein Text als Zitat erfasst, hat er automatisch eine vordefinierte Formatierung. Die Zitate werden wie Audios oder Videos als wiederverwendbare Objekte im Media Center gespeichert.
 
-Dieses Textelement existiert nicht im Formular-Editor. 
+Dieses Textelement existiert nicht im Formulareditor. 
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -244,13 +246,13 @@ Dieses Textelement existiert nicht im Formular-Editor.
 
 !!! info "Bereich Medien"
 
-    Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formular Editor](../learningresources/Form_Editor.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
+    Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formulareditor](../learningresources/Form_Editor.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
 
 ### Bild {: #image}
 
 Alle im Media Center verfügbaren Bilder können eingebunden werden. Neue Bilder lassen sich hochladen und werden automatisch im Media Center abgelegt. Unterstützt werden die Bildformate png, jpg, gif und svg [:octicons-tag-16:{ title="svg ab Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
-Ist im KI-Modul die KI-Funktion "Bildbeschreibungs-Generator" eingeschaltet, ergänzt OpenOlat Titel, Beschreibung, Alternativtext und Tags eines neu hochgeladenen Bildes im Hintergrund mit KI, sofern die KI-Bildbeschreibungen für Sie eingeschaltet sind, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). Mehr dazu: [Metadaten mit KI generieren](Media_Center_Items.de.md#metadata_ai)
+Ist im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Bildbeschreibungs-Generator" eingeschaltet, ergänzt OpenOlat Titel, Beschreibung, Alternativtext und Tags eines neu hochgeladenen Bildes im Hintergrund mit KI, sofern die KI-Bildbeschreibungen für Sie eingeschaltet sind, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). Mehr dazu: [Metadaten mit KI generieren](Media_Center_Items.de.md#metadata_ai)
 
 
 ### Galerie [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"} {: #gallery}
@@ -260,11 +262,11 @@ Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slidesh
 ![Dieselbe Bilderserie als Slideshow, als Vorschau mit Miniaturen und als Raster.](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" title="Galerie in drei Darstellungen" }
 
 
-### Bildervergleich [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"} {: #image_comparison}
+### Bildvergleich [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"} {: #image_comparison}
 
 Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden.
 
-![Zwei Bildervergleiche, der Regler blendet links waagrecht und rechts senkrecht über.](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" title="Bildervergleich auf einer Seite" }
+![Zwei Bildvergleiche, der Regler blendet links waagrecht und rechts senkrecht über.](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" title="Bildvergleich auf einer Seite" }
 
 
 ### Audio {: #audio}
@@ -276,11 +278,11 @@ Audios können direkt in OpenOlat neu aufgenommen, hochgeladen oder aus den bere
 
 ### Video [:octicons-tag-16:{ title="ab Release 18.0 (OO-7001)" }](https://track.frentix.com/issue/OO-7001){:target="_blank"} {: #video}
 
-Im Block 'Video' können auch Videos per URL eingebunden werden. <br>
+Im Block "Video" können auch Videos per URL eingebunden werden.<br>
 Unterstützt werden die Video-Formate MP4 und m3u8 sowie die Plattformen YouTube, Vimeo, Panopto und nanoo.tv. Auch die Aufzeichnung neuer Videos direkt in OpenOlat ist möglich.
 
 
-### Dokument {: #document}
+### Dokument [:octicons-tag-16:{ title="ab Release 14.0 (OO-3943)" }](https://track.frentix.com/issue/OO-3943){:target="_blank"} {: #document}
 
 Hier können Dokumente in verschiedenen Formaten (z.B. PDF- oder Word-Dateien) per Drag & Drop hochgeladen, aus dem Media Center ausgewählt oder in bestimmten Formaten direkt erstellt werden. Die Medien werden automatisch im Media Center abgelegt.
 
@@ -307,7 +309,7 @@ Es können bereits vorhandene Diagramme aus dem Media Center geladen werden oder
 
 ### Quiz [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
 
-Mit diesem Inhaltselement können automatisiert auswertbare Quizfragen in eine Seite eingebunden werden. Sie haben die Möglichkeit, neue Fragen zu erstellen oder bestehende Fragen aus dem Fragenpool hinzuzufügen. Zu jeder Frage lassen sich zudem Feedbacks ergänzen, inklusive Bildern und Videos, was den Lernwert steigert.
+Mit diesem Inhaltselement können automatisiert auswertbare Quizfragen in eine Seite eingebunden werden. Sie haben die Möglichkeit, neue Fragen zu erstellen oder bestehende Fragen aus dem Fragenpool hinzuzufügen. Zu jeder Frage lassen sich zudem Feedbacks ergänzen, auch mit Bildern und Videos.
 
 Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern, vergeben jedoch keine Punkte. Für bewertbare Quizfragen nutzen Sie bitte die Kursbausteine ["Test"](../learningresources/Course_Element_Test.de.md) oder ["Selbsttest"](../learningresources/Course_Element_Self_Test.de.md).
 
@@ -338,12 +340,12 @@ Sie fügen das Element über "Inhalt hinzufügen" im Bereich "Andere & Design" e
 
 Bleibt das Verzeichnis leer, erscheint der Hinweis "Keine Titel nach dieser Position gefunden". Das Element steht dann unterhalb der Titel, die es auflisten soll, oder die gewählten Titelgrössen passen nicht zu den vorhandenen Titeln. Verschieben Sie es vor die gewünschten Titel oder passen Sie die Titelgrössen im Inspektor an.
 
-Dieses Element existiert nicht im Formular-Editor.
+Dieses Element existiert nicht im Formulareditor.
 
 
 ### HTML-Textcode {: #html}
 
-Ausschliesslich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text", bietet aber noch weitere Menüs und Möglichkeiten.
+Das Element "HTML-Textcode" gibt es nur im Content Editor des Kursbausteins Seite. Es übernimmt ähnliche Funktionen wie das Element "Text" und bietet zusätzlich weitere Menüs und Möglichkeiten.
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -379,7 +381,9 @@ Bevor die KI Freitextantworten von Lernenden korrigiert, fragt OpenOlat sie um E
 
 Hervorgehoben ist "Einmal erlauben", wenn die Vorgabe der Administration "ein" lautet, sonst "Jetzt nicht". Solange nichts gespeichert ist, erscheint der Dialog bei jedem neuen Versuch wieder, auch nach einem Klick auf "Neuer Versuch". Ohne Erlaubnis beantworten Lernende die Freitextfragen wie gewohnt, es erscheint nur kein KI-Feedback.
 
-"Immer erlauben" machen Lernende rückgängig, indem sie im Tab "KI-Einstellungen" wieder "Vorgabe" wählen. Dort lässt sich das KI-Feedback auch ganz ausschalten: [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings)
+"Immer erlauben" machen Lernende rückgängig, indem sie im Tab "KI-Einstellungen" wieder "Vorgabe" wählen. Dort lässt sich das KI-Feedback auch ganz ausschalten. Sie finden den Tab unter:<br>
+`Persönliches Menü > Einstellungen > Tab "KI-Einstellungen"`<br>
+Mehr dazu: [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings)
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -390,10 +394,10 @@ Hervorgehoben ist "Einmal erlauben", wenn die Vorgabe der Administration "ein" l
 
 !!! info "Wichtig"
 
-    Markdown ist ein weit verbreitetes Textformat, das in vielen Tools und KI-Anwendungen ausgegeben wird. Es ermöglicht die nahtlose Übernahme und Weiterverwendung bestehender Inhalte ohne zusätzlichen Formatierungsaufwand. Gleichzeitig unterstützt es eine klare Struktur und erleichtert die kontinuierliche Weiterentwicklung von Lerninhalten.
+    Markdown ist ein verbreitetes Textformat, das viele Werkzeuge und KI-Anwendungen ausgeben. Überschriften, Listen und Tabellen sind darin als einfache Zeichen festgehalten, deshalb bleibt die Struktur eines Textes beim Import erhalten.
 
 
-Markdown-Dateien und Word-Dokumente können direkt im Content Editor importiert werden, wodurch sich Inhalte aus externen Werkzeugen, Textdateien oder KI-Anwendungen ohne manuelles Nachformatieren übernehmen lassen. Der Inhalt wird automatisch in das strukturierte Seitenformat überführt und bildet so eine effiziente Grundlage, um Kursseiten schneller und einfacher mit Inhalten zu befüllen.
+Markdown-Dateien und Word-Dokumente importieren Sie direkt in den Content Editor. So übernehmen Sie Inhalte aus externen Werkzeugen, Textdateien oder KI-Anwendungen, ohne sie von Hand nachzuformatieren. OpenOlat überführt den Inhalt automatisch in Blöcke der Seite.
 
 Klicken Sie zum Import auf den Button "Importieren" am unteren Rand des Content Editors.
 
@@ -403,10 +407,10 @@ Im Import-Dialog wählen Sie zwischen zwei Varianten:
 
 ![Die Modi Datei hochladen und Text einfügen, die gewählte Datei und markiert die Schalter KI-generiertes Quiz hinzufügen und Bild-Metadaten mit KI generieren](assets/content_editor_import_dialog_v2_de.png){ class="shadow lightbox" title="Dialog Importieren im Content Editor · 2026.10.20" }
 
-**A) Datei hochladen:** (Unterstützt werden)
+**A) Datei hochladen:** Unterstützt werden:
 
-* Markdown-Dateien (.md, .markdown, .txt) 
-*  ZIP-Archive bis maximal 50 MB (Ein ZIP-Archiv muss genau eine Markdown-Datei enthalten und kann zusätzlich die darin relativ referenzierten Bilddateien mitliefern.)
+* Markdown-Dateien (.md, .markdown, .txt)
+* ZIP-Archive bis maximal 50 MB (Ein ZIP-Archiv muss genau eine Markdown-Datei enthalten und kann zusätzlich die darin relativ referenzierten Bilddateien mitliefern.)
 * Word-Dokumente (.docx) bis maximal 200 MB [:octicons-tag-16:{ title="Word-Import ab Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.
 
 **B) Text einfügen:** Markdown-formatierter Text wird direkt in das Eingabefeld eingefügt, z.B. aus der Zwischenablage. Lokale Bildpfade werden in diesem Modus nicht unterstützt.
@@ -426,7 +430,7 @@ Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editor
 | Absatz | [Text](#text) |
 | Trennlinie (`---`) | [Separator](#separator) |
 | Codeblock | [Code-Beispiel](#code) (mit erkannter Programmiersprache) |
-| Blockzitat `>` | Text mit [Hinweis-Box](#inspector) |
+| Blockzitat `>` | Text mit [Hinweis-Box](#alert_box) |
 | GitHub-Admonition (z.B. `> [!WARNING]`) | Text mit Hinweis-Box des passenden Typs |
 | Liste (Aufzählung oder nummeriert) | Text mit Liste |
 | Tabelle | [Tabelle](#table) |
@@ -445,9 +449,9 @@ Die Titelgrösse steuert zugleich, welche importierten Titel das Element ["Inhal
 
 ### Bilder beim Import {: #import_images}
 
-Bilder werden direkt ins [Media Center](#media_center) eingebunden, wobei eine Duplikats-Prüfung verhindert, dass das selbe Bild mehrfach im Media Center abgelegt wird. So wird Platz gespart und automatisch aufgeräumt, ohne dass man sich als Autor:in darum kümmern muss.
+Bilder legt OpenOlat beim Import direkt im [Media Center](#media_center) ab. Eine Duplikatsprüfung verhindert, dass dasselbe Bild mehrfach im Media Center landet, ohne dass Sie als Autor:in etwas tun müssen.
 
-Bilder mit absoluten URLs werden beim Import heruntergeladen, sofern die Administrator:innen die jeweilige Domain für externe Medien freigegeben haben. Auch direkt im Markdown eingebettete Base64-Bilder (Data-URIs) werden übernommen.
+Bilder mit absoluten URLs lädt OpenOlat beim Import herunter. Steht in der System-Administration unter `Administration > Login > Sicherheit > Tab "Medien-Server"` der Modus auf "Konfigurieren", gilt das nur für die dort freigegebenen Domänen. Ein Bild einer anderen Domäne lädt der Import nicht und meldet es als Warnung, siehe [Tab Medien-Server](../../manual_admin/administration/Login_Security.de.md#tab_mediaserver). Auch direkt im Markdown eingebettete Base64-Bilder (Data-URIs) werden übernommen.
 
 Ist im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Bildbeschreibungs-Generator" eingeschaltet, steht im Import-Dialog der Schalter "Bild-Metadaten mit KI generieren". Ist er eingeschaltet, erzeugt OpenOlat für die importierten Bilder Titel, Beschreibung, Alternativtext und Tags im Hintergrund mit KI [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. Dabei überträgt OpenOlat eine verkleinerte Version jedes Bildes an den KI-Dienst. Ist er ausgeschaltet, erzeugt OpenOlat keine Metadaten mit KI.
 
@@ -479,11 +483,11 @@ Die Generierung läuft im Hintergrund und kann eine Minute dauern; das Quiz-Elem
 ---
 
 
-## Media Center {: #media_center}
+## Media Center [:octicons-tag-16:{ title="ab Release 11.0 (OO-2299)" }](https://track.frentix.com/issue/OO-2299){:target="_blank"} {: #media_center}
 
-Im Content Editor des Kursbausteins Seite und des Portfolios gibt es noch einen separaten Button, der zum Media Center führt. Im Prinzip handelt es sich dabei um einen weiteren Weg unabhängig von der Art des Mediums auf die Dateien zuzugreifen. 
+Im Content Editor des Kursbausteins Seite und des Portfolios führt im Dialog "Inhalt hinzufügen" ein eigener Button "Media Center" zu Ihren Medien. Er ist ein weiterer Weg, unabhängig von der Art des Mediums auf Ihre Dateien zuzugreifen.
 
-Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers. Hier können Sie Dateien auswählen, erstellen oder hochladen. 
+Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wählen Sie Dateien aus, erstellen neue oder laden sie hoch.
 
 ![Geöffnetes Menü Mediendatei hinzufügen mit Dokument, Diagramm, Text, Video, Audio und Zitat.](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" title="Menü Mediendatei hinzufügen" }
 
@@ -507,14 +511,15 @@ Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Media Centers.
 [Meine Portfolio Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
-[Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)<br>
 [Kursbaustein "Selbsttest" >](../learningresources/Course_Element_Self_Test.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
-[Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Fragenpool: Fragen erstellen >](../area_modules/Question_Bank_Create_Questions.de.md)<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Media Center: Konzept >](Media_Center_Concept.de.md)
 
 **Weiterführend**<br>

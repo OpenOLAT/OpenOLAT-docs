@@ -1,51 +1,40 @@
-# Question Pool: Search {: #question_pool_search}
+# Question Bank: Search {: #question_pool_search}
 
-When searching in the question bank, you will find question items in *the* pool or *the* list you are currently in. It is not possible to search for items across multiple question pools.
+When searching in the question bank, you will find question items in *the* pool or *the* list you are currently in. It is not possible to search for items across multiple pools.
 
 
-## Simple Search {: #simple_search}
+## Search [:octicons-tag-16:{ title="from Release 14.1 (OO-4165)" }](https://track.frentix.com/issue/OO-4165){:target="_blank"} {: #simple_search}
 
-The simple search is a full-text search that searches across all elements of the items. To optimize the search, here is some information on the syntax of the underlying Lucene search.
+With the input field above the question list you quickly find questions by a keyword. The search looks through the title, topic, keywords, coverage and additional information of the questions. Upper and lower case do not matter.
 
-|  Syntax    | Example  |
+| Input | Finds questions in which one of these fields |
 | ---------- | ----------|
-| Whole search terms are always expected.| \+ Works: *Indication* |
-| |-  Doesn't work: *Indicati*  |
+| *Indicati* | contains the term at any position, for example *Indication* or *Contraindication* |
+| *Hello World* | contains exactly this sequence of words at any position |
+| *Indication\** | begins with *Indication* |
+| *\*indication* | ends with *indication* |
+| *"Hello World"* | consists exactly of *Hello World* |
 
-The search for partial terms therefore only works if wildcards are used:
-
-* With " ? " you search for exactly one additional character,
-* With " * " you search for any number of additional characters.
-
-<br>
-
-**Here are a few examples:**
-
-
-*Indicatio?* => Finds *Indication*
-
-_Indicatio*_ => Finds *Indication, Indications, Indication classes ...*
-
-You can use " " to search for phrases, i.e. a group of words.
-
-*Hello World* => Finds all items containing either a *Hello* or a *World*
-(OR operator).
-
-*"Hello World"* => Finds all items containing exactly this phrase.
-
-Several terms can be combined using " - " and " + ". The characters are placed before the corresponding terms without a space.
-
-*+Hello +World* => Finds all items containing both terms (AND operator).
-
-*Hello -World* => Finds all items containing the first term but under no circumstances the second term.
-
-Some special characters are reserved for Lucene and cannot be used, e.g. "_" and ":".<br> If these special characters are used, the result list will probably be empty.
+" * " serves as a placeholder for any number of further characters. If the input begins or ends with " * ", OpenOlat only searches further at this position, otherwise at both ends of the term.
 
 [To the top of the page ^](#question_pool_search)
 
 
-## Advanced Search {: #advanced_search}
+## Search filters {: #advanced_search}
 
-The advanced search allows you to search across defined fields. It also includes the metadata. Unlike the simple search, which also searches across all fields, here you define exactly which search term is searched for in which field. This increases both recall and precision of the search. Any fields can be combined with each other.
+The search filters narrow down the question list by individual pieces of information. They are shown when the list opens and can be combined with the search and with each other.
+
+By default, OpenOlat shows among others the filters "Title", "Author", "Type", "Test type", "Status" and "Max. score", depending on the configuration also "Subject" and "Level". Further filters such as "Topic", "Keywords", "Language" or "Format" are also available. The filters correspond to the metadata of a question that the [Item Detailed View](Item_Detailed_View.md#metadata) describes.
+
+[To the top of the page ^](#question_pool_search)
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Item Detailed View >](Item_Detailed_View.md)
+
+**Further reading**<br>
+[Question bank: Use questions >](Question_bank_possible_operations.md)<br>
+[Question Bank: Overview >](Question_Bank.md)
 
 [To the top of the page ^](#question_pool_search)

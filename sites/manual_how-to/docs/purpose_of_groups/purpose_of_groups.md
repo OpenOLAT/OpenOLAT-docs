@@ -1,6 +1,8 @@
-# How do I set up groups to suit their purpose?
+# How do I set up groups to suit their purpose? {: #purpose_of_groups}
 
-There are many reasons and intentions why groups are formed. Depending on the purpose, different tools can be used by the groups in OpenOlat.
+Groups are formed for different reasons: a class stays together across several courses, a project team divides up work, an exam group takes an exam together. This page matches 23 typical purposes with the tools in OpenOlat that suit them. This way you find the course elements and modules that support the purpose of your group.
+
+Administrators and group managers create groups. Authors and users with no additional role create groups if the system administration allows it in the [Groups module](../../manual_admin/administration/Modules_Groups.md): `Administration > Modules > Groups`. How to set up a group is described on the page [Create Groups](../../manual_user/groups/Create_Groups.md).
 
 
 ## 1. Grades / Classes / Semester
@@ -11,22 +13,21 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Characteristics:**
 
-* learners stay in the common group **over several courses**
-* learners stay in the shared group **for a longer period of time**
-* creation of the group by the administrator/coach
-* **no** group membership by **self-booking**
+* participants stay in the shared group over several courses
+* participants stay in the shared group for a longer period of time
+* creation of the group by administrators or coaches
+* participants do not book the group themselves
 
 **Tools in OpenOlat:**
 
-* virtual classrooms (BBB, Microsoft Teams, Zoom, among others).
-* module curriculum
-* module organizations
+* virtual classrooms (BigBlueButton, Microsoft Teams, Zoom, among others)
+* Course Planner module
+* Organisations module
 * group tools
 * shared calendars
 * common forum
 * common wiki
 * ...
-
 
 
 ## 2. Proficiency groups
@@ -37,19 +38,19 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Characteristics:**
 
-* learners usually stay in the same group only for a certain course (with a certain level).
-* creation of the group by the administrator/coach
-* possibly group membership through self-booking
+* participants usually stay in the shared group only for a certain course (with a certain level)
+* creation of the group by administrators or coaches
+* possibly participants book the group themselves
 
 **Tools in OpenOlat:**
 
-* e.g. within courses sections with different levels 
+* e.g. within courses sections with different levels
 * e.g. access regulation via learning path
-* e.g. access regulation via function "exceptions"
-* possibly course element enrollment
-* course element group task
-* course element exercise
-* coaching tool
+* e.g. access regulation via exceptions in the learning path
+* possibly course element Enrolment
+* course element Group task
+* course element Practice
+* Coaching
 * ...
 
 
@@ -61,16 +62,16 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Characteristics:**
 
-* Assignment to the group possibly automatically by Syncher (after entry to the language).
-* or assignment to the group by selection of the participant
+* assignment to the group possibly automatically by fxSyncher based on the language specification. fxSyncher is the synchronisation service of frentix: it transfers persons and memberships from a source system to OpenOlat.
+* or participants choose their group themselves
 
 **Tools in OpenOlat:**
 
 * multilingual user interface
 * language adaptation tool
-* specific offer for language groups (through learning path via exception function)
-* module curriculum
-* module organizations
+* own content for language groups (via exceptions in the learning path)
+* Course Planner module
+* Organisations module
 * ...
 
 
@@ -87,9 +88,9 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 **Tools in OpenOlat:**
 
 * e.g. message dispatch according to postal code
-* assignment to group possibly automatically (specification of language, postal code -> Syncher)
+* assignment to group possibly automatically (specification of language, postal code -> fxSyncher)
 * copy function for whole courses (-> creation of language versions)
-* module organizations
+* Organisations module
 * ...
 
 
@@ -108,15 +109,15 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 * access control to courses (access only in a certain time window)
 * collaboration tools: chat, messages, email
-* course element group task
-* course element topic assignment
-* course element documents (for joint editing of a document)
-* shared folder
-* moderation by coach
-* course element BBB with breakout rooms for subgroups
-* course element file discussion
-* course element link list
-* course element check list
+* course element Group task
+* course element Topic assignment
+* course element Document (for joint editing of a document)
+* course element Folder for shared files
+* moderation by coaches
+* course element BigBlueButton with breakout rooms for subgroups
+* course element File dialog
+* course element Link list
+* course element Check list
 * ...
 
 
@@ -136,12 +137,12 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element topic assignment
-* course element scheduling
+* course element Topic assignment
+* course element Appointment scheduling
 * common calendar
-* list of participants
-* common participant folder
-* podcast (report on project status)
+* course element "Participant list"
+* folder of the group
+* course element Podcast (report on project status)
 * ...
 
 
@@ -159,12 +160,12 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element scheduling
+* course element Appointment scheduling
 * different calendars
-* course element survey
-* course element link list
-* course element checklist
-* project management functions
+* course element Survey
+* course element Link list
+* course element Check list
+* Projects area
 * ...
 
 
@@ -172,7 +173,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Purpose:**
 
-* preparatory committees to prepare an event, project, ...
+* committees to prepare an event, a project, etc.
 
 **Characteristics:**
 
@@ -181,9 +182,9 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element scheduling
+* course element Appointment scheduling
 * different calendars, also with calendar import
-* course element topic assignment
+* course element Topic assignment
 * collaboration tools: chat, messages, email
 * ...
 
@@ -204,10 +205,10 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* virtual meeting room (BBB with voting function) 
-* course element participant list
-* course element file discussion
-* course element assessment
+* virtual meeting rooms (BigBlueButton with voting function)
+* course element "Participant list"
+* course element File dialog
+* course element Assessment
 * collaboration tools: chat, messages, email
 * ...
 
@@ -216,21 +217,21 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Purpose:**
 
-* Consulting with an expert
+* consulting by experts
 
 **Characteristics:**
 
 * often 1:1 meetings
-* situation analysis by the consultant
+* situation analysis by the consulting person
 * accompanied implementation
 
 **Tools in OpenOlat:**
 
-* BBB meeting room
-* course element task
-* course element checklist
-* course element assessment
-* course element link list
+* course element BigBlueButton
+* course element Task
+* course element Check list
+* course element Assessment
+* course element Link list
 * ...
 
 
@@ -243,18 +244,18 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 **Characteristics:**
 
 * mostly live -> online meetings
-* equal, active group members 
+* equal, active group members
 * possibly with blog
 
 **Tools in OpenOlat:**
 
-* course element BBB
-* course element Teams
+* course element BigBlueButton
+* course element Microsoft Teams
 * course element Zoom
-* course element forum
-* course element blog
-* OpenOlat chat function
-* possibly course element enrollment
+* course element Forum
+* course element Blog
+* Chat
+* possibly course element Enrolment
 * ...
 
 
@@ -271,10 +272,10 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element forum
-* course element blog
+* course element Forum
+* course element Blog
 * course element BigBlueButton
-* course element survey
+* course element Survey
 * ...
 
 
@@ -290,9 +291,9 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element checklist
-* course element survey
-* course element file discussion
+* course element Check list
+* course element Survey
+* course element File dialog
 * ...
 
 
@@ -308,9 +309,9 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element document
-* course element group task
-* portfolio task
+* course element Document
+* course element Group task
+* course element Portfolio task
 * ...
 
 
@@ -326,7 +327,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element BBB with breakout rooms (within a teaching unit/session at BBB).
+* course element BigBlueButton with breakout rooms (within a teaching unit or session)
 * ...
 
 
@@ -343,13 +344,13 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element enrollment
-* course element topic assignment
-* course element group task
-* course element checklist
-* course element wiki (wiki entry per group)
-* group folder
-* group coach
+* course element Enrolment
+* course element Topic assignment
+* course element Group task
+* course element Check list
+* course element Wiki (wiki entry per group)
+* folder of the group
+* group coaches
 * collaboration tools: chat, messages, email
 * ...
 
@@ -366,10 +367,10 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* virtual classrooms (BBB, Teams, etc.)
-* video recording
-* collaboration tools: chat, messaging, email
-* course element video task
+* virtual classrooms (BigBlueButton, Microsoft Teams, among others)
+* audio/video recording
+* collaboration tools: chat, messages, email
+* course element Video task
 * ...
 
 
@@ -385,8 +386,8 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element enrollment
-* course element topic assignment
+* course element Enrolment
+* course element Topic assignment
 * ...
 
 
@@ -399,16 +400,16 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Characteristics:**
 
-* interaction in given situations of 2 or more persons.
-* observation by the other group participants
+* interaction in given situations of 2 or more persons
+* observation by the other group members
 
 **Tools in OpenOlat:**
 
-* course element BBB and other video conferencing tools
-* video recording at different places in OpenOlat
-* course element form for recording observations
-* course element video task (assessment of a pre-recorded video)
-* course element discussion forum
+* course element BigBlueButton and other video conferencing tools
+* audio/video recording at different places in OpenOlat
+* course element Form for recording observations
+* course element Video task (assessment of a pre-recorded video)
+* course element Forum
 * ...
 
 
@@ -424,12 +425,12 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* course element group task
-* course element video (e.g. for presentation of game situation)
+* course element Group task
+* course element Video (e.g. for presentation of game situations)
 * collaboration tools: chat, messages, email
-* course element discussion forum
-* course element checklist
-* group folder
+* course element Forum
+* course element Check list
+* folder of the group
 * ...
 
 
@@ -438,19 +439,19 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 **Purpose:**
 
 * Group with possibility to gain practical experience
-* occasional exchange, rather for organizational questions, main thing takes place at the different internship places
+* occasional exchange, rather for organizational questions; the main work takes place at the different internship places
 
 **Characteristics:**
 
-* group members have similar experience in a particular field.
+* group members have similar experience in a particular field
 * at the beginning all group members have little experience in the learning field of the internship
-* group members are in the same situation, but are mostly separated in location
+* group members are in the same situation, but mostly work at different places
 
 **Tools in OpenOlat:**
 
-* course element documents (for info sheets)
-* course element forum
-* course element blog (for internship report)
+* course element Document (for info sheets)
+* course element Forum
+* course element Blog (for internship report)
 * ...
 
 
@@ -468,11 +469,11 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* question pool
-* 15 different question types
+* question bank
+* 16 different [question types](../../manual_user/learningresources/Test_question_types.md)
 * special exam courses
-* exam mode
-* use of the SafeExamBrowser
+* assessment mode
+* use of the Safe Exam Browser
 * creation of exams from OpenOlat questions, execution on paper with individualized documents (export as Word)
 * automatic evaluation with manual review possibility
 * disadvantage compensation
@@ -481,7 +482,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * ...
 
 
-##  23. Interest groups
+## 23. Interest groups
 
 **Purpose:**
 
@@ -495,8 +496,20 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Tools in OpenOlat:**
 
-* OpenOlat chat
-* course element blog
-* course element forum
-* membership in courses by self-booking
+* Chat
+* course element Blog
+* course element Forum
+* courses that participants book themselves
 * ...
+
+
+## Further information {: #further_information}
+
+[Module Groups >](../../manual_admin/administration/Modules_Groups.md)<br>
+[Create Groups >](../../manual_user/groups/Create_Groups.md)<br>
+[Test question types >](../../manual_user/learningresources/Test_question_types.md)<br>
+[Groups >](../../manual_user/groups/index.md)<br>
+[Using Group Tools >](../../manual_user/groups/Using_Group_Tools.md)<br>
+[Course Element "Enrolment" >](../../manual_user/learningresources/Course_Element_Enrolment.md)
+
+[To the top of the page ^](#purpose_of_groups)

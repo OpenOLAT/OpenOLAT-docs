@@ -146,7 +146,7 @@ If the frentix cloud transcoding service is activated for the OpenOlat instance,
 
 #### Subtitles when replacing a video [:octicons-tag-16:{ title="from Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}
 
-If a new video file is uploaded via the "Replace Video" administration menu and subtitles already exist, OpenOlat asks in the dialog "Generate subtitle?" whether a new subtitle should be generated for the replaced video, provided the cloud transcoding service is active.
+If you upload a new video file via `Video > Administration > Replace Video` and subtitles already exist, OpenOlat asks in the dialog "Generate subtitle?" whether a new subtitle should be generated for the new video, provided the cloud transcoding service is active.
 
 * **Yes**: The existing subtitle files are deleted and new subtitles are automatically generated for the new video.
 * **No**: The existing subtitle files are kept.
@@ -296,7 +296,7 @@ Which tabs the editor shows depends on the question type.
 
     For more information on the different question types, see the chapter "[Test Question Types](../learningresources/Test_question_types.md)".
 
-You take over a question from the question pool with "Import questions from pool" in the menu behind the icon with the three dots next to "Add"; you then configure it like a newly created quiz question.
+You take over a question from the question bank with "Import questions from pool" in the menu behind the icon with the three dots next to "Add"; you then configure it like a newly created quiz question.
 
 After entering the information, you return to the video editor and configure the quiz question for the video. Here, define:
 

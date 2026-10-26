@@ -3,11 +3,11 @@
 
 In OpenOlat werden Sie an verschiedenen Stellen durch KI unterstützt. Damit diese Stellen arbeiten, binden Sie im KI-Modul die KI-Anbieter an, die Sie verwenden. Das KI-Modul unterstützt mehrere KI-Anbieter; welcher Anbieter und welches Modell verwendet wird, legen Sie pro KI-Funktion fest [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
 
-Das KI-Modul ist Teil der externen Werkzeuge, siehe [Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md). Es liegt in der System-Administration und wird von Systemadministrator:innen konfiguriert. Nur die Rolle Systemadministrator:in öffnet die System-Administration, auch Administrator:innen erreichen sie ohne diese Rolle nicht. Wie Rollen vergeben werden, beschreibt [Rollen zuweisen >](../usermanagement/Assign_roles.de.md).
+Das KI-Modul ist Teil der externen Werkzeuge, siehe [Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md). Es liegt in der System-Administration, Systemadministrator:innen konfigurieren es dort. Nur die Rolle Systemadministrator:in öffnet die System-Administration, auch Administrator:innen erreichen sie ohne diese Rolle nicht. Wie Rollen vergeben werden, beschreibt [Rollen zuweisen >](../usermanagement/Assign_roles.de.md).
 
 !!! tip "Unterstützung durch frentix"
 
-    Kund:innen von frentix kontaktieren für die Anbindung eines KI-Anbieters bitte [contact@frentix.com](mailto:contact@frentix.com). frentix unterstützt bei der Wahl von Anbieter und Modell, beim API-Schlüssel und beim Betrieb eines selbst gehosteten Modells. Bei Systemen mit dem fx-Release nimmt frentix diese Anpassungen vor.
+    Kund:innen von frentix kontaktieren für die Anbindung eines KI-Anbieters bitte [contact@frentix.com](mailto:contact@frentix.com). frentix unterstützt bei der Wahl von Anbieter und Modell, beim API-Schlüssel und beim Betrieb eines selbst gehosteten Modells. Bei Systemen mit dem fx-Release übernimmt frentix diese Anpassungen.
 
     **Nicht Hosting-Kund:in von frentix?** Fragen Sie Ihren Systembetreiber!
 
@@ -64,13 +64,7 @@ Wenn Sie die KI-Modelle von OpenAI benutzen wollen, hinterlegen Sie hier Ihren A
 
 #### Generischer KI-Anbieter {: #ai_provider_generic}
 
-In diesem Abschnitt konfigurieren Sie einen generischen OpenAI-kompatiblen KI-Anbieter, z.B.
-
-* vLLM
-* Ollama
-* LiteLLM
-* NeuralMagic
-* ...
+In diesem Abschnitt konfigurieren Sie einen generischen OpenAI-kompatiblen KI-Anbieter, zum Beispiel vLLM, Ollama, LiteLLM oder NeuralMagic.
 
 Dafür stehen folgende Felder zur Verfügung:
 
@@ -97,7 +91,7 @@ Sie konfigurieren jede KI-Funktion einzeln. Die verfügbaren Modelle lädt OpenO
 * welches Modell verwendet werden soll (Feld "Sprachmodell"; beim Bildbeschreibungs-Generator "Vision Modell", bei der Taxonomie-Zuordnung "Einbettungsmodell"),
 * und ob die Funktion für Personen ohne eigene Wahl läuft (Schalter "Vorgabe für Personen", nur bei "Bildbeschreibungs-Generator" und "Essay Bewertung", siehe [Vorgabe für Personen](#ai_user_default)).
 
-**Derzeit kann KI in den folgenden Funktionen eingebunden werden**:
+**KI lässt sich in die folgenden Funktionen einbinden**:
 
 * Taxonomie-Zuordnung (Embeddings): Zuordnung zur passenden Taxonomieebene per Einbettungsmodell, siehe [Modul Taxonomie: Automatische Zuordnung per KI >](Modules_Taxonomy.de.md#ai_matching) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
 * MC Fragen Generator (Erstellung von MC-Fragen), genutzt im [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
@@ -142,7 +136,7 @@ Pro KI-Funktion legen Sie zusätzlich fest, wie viel Text an das Modell gesendet
 * **"Maximale Anzahl Ausgabe-Tokens"**: begrenzt, wie viel Text das Modell erzeugen darf. Ein Reasoning-Modell verbraucht einen Teil davon, um vor der Antwort nachzudenken. Ist der Wert zu klein, bleibt für die Antwort nichts übrig und der Aufruf schlägt fehl. Kleinster zulässiger Wert: 1024.
 * **"Timeout (Sekunden)"**: legt fest, wie lange OpenOlat auf die Antwort des KI-Anbieters wartet, bevor der Aufruf abgebrochen wird. Reasoning-Modelle und selbst gehostete Modelle brauchen deutlich länger als Modelle in der Cloud. Kleinster zulässiger Wert: 10.
 * **"Maximale Anzahl Eingabezeichen"**: begrenzt den Quelltext, der zur Fragengenerierung an das Modell gesendet wird. Kleinster zulässiger Wert: 1000.
-* **"Maximale Anzahl Eingabewörter"**: begrenzt die Anzahl Wörter einer Antwort, die zur Essay Bewertung angenommen wird. Längere Antworten lehnt OpenOlat mit einer Fehlermeldung ab, bevor ein KI-Aufruf erfolgt. Die Meldung nennt den eingestellten Wert. Kleinster zulässiger Wert: 50.
+* **"Maximale Anzahl Eingabewörter"**: begrenzt die Anzahl Wörter einer Antwort, die zur Essay Bewertung angenommen wird. Längere Antworten lehnt OpenOlat mit einer Fehlermeldung ab, bevor es die KI aufruft. Die Meldung nennt den eingestellten Wert. Kleinster zulässiger Wert: 50.
 
 Die Standardwerte je Funktion:
 

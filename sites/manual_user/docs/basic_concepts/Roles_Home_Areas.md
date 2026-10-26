@@ -35,7 +35,7 @@ The working areas complement each other without overlapping. This keeps each are
 
 ## Multiple roles, multiple working areas {: #multiple_roles}
 
-Roles can of course be combined. A teacher, for example, can create courses as an author in the authoring area, accompany their own participants in Coaching, and complete a course themselves as a learner under "My courses". In this case the main navigation displays all the corresponding menu items side by side.
+Roles can be combined. A teacher, for example, can create courses as an author in the authoring area, accompany their own participants in Coaching, and complete a course themselves as a learner under "My courses". In this case the main navigation displays all the corresponding menu items side by side.
 
 After login, OpenOlat opens the landing page your organisation has set for the first matching role ([Landing pages by role](../../manual_admin/administration/Landing_pages.md#role_based)). A [personal landing page](../personal_menu/Settings.md#landing_page) in the settings takes precedence over the landing page of your organisation.
 
@@ -55,7 +55,7 @@ Besides the core areas, there are further menu items and areas that only become 
 | User manager | [User management](../../manual_admin/usermanagement/index.md), menu item in the top navigation |
 | Roles manager | [User management](../../manual_admin/usermanagement/index.md), with the right to assign roles |
 | Group manager | "Groups" menu item, additional tab [Group management](../area_modules/Group_Management.md) |
-| Question bank manager | [Question pool](../area_modules/Question_Bank.md), including the Administration area |
+| Question bank manager | [Question bank](../area_modules/Question_Bank.md), including the Administration area |
 | Quality manager | [Quality management](../area_modules/Quality_Management.md) menu item |
 | Absence manager | [Absence management](../area_modules/Absence_Management.md) menu item |
 | Project manager | "Projects" menu item, additional tab [Administration](../area_modules/Project_Admin.md) |

@@ -3,7 +3,7 @@
 !!! warning "Concept study: possible new presentation"
     This page is an experiment on how the entry point to the AI features could look in the future. The content is deliberately condensed. The linked manual pages are authoritative.
 
-AI supports you in creating content at several places in OpenOlat, and these places are far apart: in the question pool, in the Media Center, in the Content Editor and in the taxonomy. Anyone who wants to know where it pays off has to gather four manual pages today. The map shows the outcome instead: what the AI takes off your hands, where you find it, and which feature is behind it. Each card leads to the responsible manual page. The base below names what the administration has to set up once so that the cards are available at all. In addition, every person can switch the AI feedback on free-text answers and the image descriptions on upload on or off for themselves, in the [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings) of their personal settings.
+AI supports you in creating content at several places in OpenOlat, and these places are far apart: in the question bank, in the Media Center, in the Content Editor and in the taxonomy. Anyone who wants to know where it pays off has to gather four manual pages today. The map shows the outcome instead: what the AI takes off your hands, where you find it, and which feature is behind it. Each card leads to the responsible manual page. The base below names what the administration has to set up once so that the cards are available at all. In addition, every person can switch the AI feedback on free-text answers and the image descriptions on upload on or off for themselves, in the [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings) of their personal settings.
 
 <div style="max-width:1450px">
 <svg viewBox="0 0 1040 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four outcomes for authors, below them the prerequisites in the system administration">
@@ -25,14 +25,14 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 
 <text x="40" y="34" class="h0">What the AI takes off authors' hands</text>
 
-<!-- Card 1: question pool -->
-<a href="../Question_Bank_Create_Questions/#create_with_AI"><title>Question pool: Create Questions</title><g>
+<!-- Card 1: question bank -->
+<a href="../Question_Bank_Create_Questions/#create_with_AI"><title>Question Bank: Create Questions</title><g>
 <rect class="card" x="40" y="60" width="470" height="200" rx="12" fill="#FFFDFA" stroke="#C06613" stroke-width="2"/>
 <rect x="40" y="60" width="7" height="200" rx="3.5" fill="#C06613"/>
-<text x="68" y="90" class="place">QUESTION POOL</text>
+<text x="68" y="90" class="place">QUESTION BANK</text>
 <text x="68" y="122" class="out">Questions from a subject text</text>
 <text x="68" y="152" class="body">Paste a text and the AI suggests multiple-choice</text>
-<text x="68" y="175" class="body">and open-text questions with grading criteria.</text>
+<text x="68" y="175" class="body">and essay questions with grading criteria.</text>
 <text x="68" y="198" class="body">Answers receive formative AI feedback.</text>
 <text x="68" y="226" class="fn">MC Question Generator · Essay Question Generator</text>
 <text x="68" y="246" class="fn">Essay Grading</text>
@@ -57,7 +57,7 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 <rect x="40" y="280" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="68" y="310" class="place">CONTENT EDITOR</text>
 <text x="68" y="342" class="out">Quiz with AI feedback</text>
-<text x="68" y="372" class="body">Open-text questions in a quiz on a content page.</text>
+<text x="68" y="372" class="body">Essay questions in a quiz on a content page.</text>
 <text x="68" y="395" class="body">Learners retrieve an assessment of their answer</text>
 <text x="68" y="418" class="body">with strengths, gaps and the next step.</text>
 <text x="68" y="441" class="body">No points are awarded.</text>
@@ -73,7 +73,7 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 <text x="558" y="372" class="body">The AI assigns a text to the matching taxonomy</text>
 <text x="558" y="395" class="body">level via an embedding model. This applies to image</text>
 <text x="558" y="418" class="body">metadata and to the Markdown import.</text>
-<text x="558" y="468" class="fn">Taxonomy matching</text>
+<text x="558" y="468" class="fn">Taxonomy Matching</text>
 </g></a>
 
 <!-- Base -->
@@ -126,7 +126,7 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 ## Further information {: #further_information}
 
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Question pool: Create Questions >](Question_Bank_Create_Questions.md)<br>
+[Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
 [Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>

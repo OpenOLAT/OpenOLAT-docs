@@ -3,11 +3,11 @@
 
 In OpenOlat you are supported by AI at different points. For these points to work, you connect the AI providers you use in the AI module. The AI module supports multiple AI providers; you define per AI feature which provider and which model is used [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
 
-The AI module is part of the external tools, see [External Tools: Overview >](External_Tools_-_Administration.md). It is located in the system administration and is configured by system administrators. Only the role system administrator opens the system administration, administrators do not reach it without this role either. How roles are granted is described in [Assign roles >](../usermanagement/Assign_roles.md).
+The AI module is part of the external tools, see [External Tools: Overview >](External_Tools_-_Administration.md). It is located in the system administration, system administrators configure it there. Only the role system administrator opens the system administration, administrators do not reach it without this role either. How roles are granted is described in [Assign roles >](../usermanagement/Assign_roles.md).
 
 !!! tip "Support by frentix"
 
-    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for connecting an AI provider. frentix supports the choice of provider and model, the API key and the operation of a self-hosted model. For systems with the fx-Release, frentix makes these adjustments.
+    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for connecting an AI provider. frentix supports the choice of provider and model, the API key and the operation of a self-hosted model. For systems with the fx-Release, frentix takes care of these adjustments.
 
     **Not a frentix hosting-client?** Please ask your local system operator!
 
@@ -63,13 +63,7 @@ If you want to use OpenAI's AI models, enter your API key here. Please note that
 
 #### Generic AI Provider {: #ai_provider_generic}
 
-In this section, you configure a generic OpenAI-compatible AI provider, such as
-
-* vLLM
-* Ollama
-* LiteLLM
-* NeuralMagic
-* ...
+In this section, you configure a generic OpenAI-compatible AI provider, for example vLLM, Ollama, LiteLLM or NeuralMagic.
 
 The following fields are available:
 
@@ -95,13 +89,13 @@ You configure each AI feature separately. OpenOlat loads the available models di
 * which model should be used (field "Language model"; "Vision model" for the Image Description Generator, "Embedding model" for Taxonomy Matching),
 * and whether the feature runs for persons without a choice of their own (switch "Default for users", only for "Image Description Generator" and "Essay Grading", see [Default for users](#ai_user_default)).
 
-**Currently, AI can be integrated into the following features**:
+**AI can be integrated into the following features**:
 
 * Taxonomy Matching (Embeddings): assignment to the matching taxonomy level via embedding model, see [Module Taxonomy: Automatic assignment by AI >](Modules_Taxonomy.md#ai_matching) [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"}
-* MC Question Generator (creation of multiple-choice questions), used in [Question pool: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
+* MC Question Generator (creation of multiple-choice questions), used in [Question Bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
 * Image Description Generator (creation of image descriptions, alternative text, and keywords), used in [Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
 * Essay Question Generator (creation of open-text questions with grading criteria)
-* Essay Grading (formative AI feedback on open-text answers), used in the question pool and in the [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
+* Essay Grading (formative AI feedback on open-text answers), used in the question bank and in the [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
 
 The benefit of these features for authors and the places where they take effect are shown in the concept study [AI features: Application map >](../../manual_user/area_modules/AI_Features_Map.md).
 
@@ -140,7 +134,7 @@ For each AI feature you additionally define how much text is sent to the model, 
 * **"Maximum output tokens"**: limits how much text the model may produce. A reasoning model uses part of it to think before answering. If the value is too small, nothing is left for the answer and the call fails. Smallest permitted value: 1024.
 * **"Timeout (seconds)"**: defines how long OpenOlat waits for the response of the AI provider before the call is cancelled. Reasoning models and self-hosted models take considerably longer than models in the cloud. Smallest permitted value: 10.
 * **"Maximum input characters"**: limits the source text that is sent to the model for question generation. Smallest permitted value: 1000.
-* **"Maximum input words"**: limits the number of words of an answer that is accepted for essay grading. OpenOlat rejects longer answers with an error message before any AI call is made. The message states the configured value. Smallest permitted value: 50.
+* **"Maximum input words"**: limits the number of words of an answer that is accepted for essay grading. OpenOlat rejects longer answers with an error message before it calls the AI. The message states the configured value. Smallest permitted value: 50.
 
 The default values per feature:
 
@@ -172,7 +166,7 @@ By default, 8 threads are available for "Interactive" and 2 threads for "Batch".
 
 Below the two fields, the load per pool shows how many calls are currently running and how many are waiting. The "Refresh" button reloads these values.
 
-![Fields for parallel calls, the load per pool and the Refresh button.](assets/admin_external_tools_ai_pools_v1_en.png){ class="shadow lightbox" title="AI processing pools tab of the AI module" }
+![Fields for parallel calls, the load per pool and the button that reloads the load values.](assets/admin_external_tools_ai_pools_v1_en.png){ class="shadow lightbox" title="AI processing pools tab of the AI module" }
 
 [To the top of the page ^](#ai)
 
@@ -284,7 +278,7 @@ taxonomy.matching.passage.prefix=
 [External Tools: Overview >](External_Tools_-_Administration.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
-[Question pool: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)<br>
+[Question Bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)<br>
 [Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
 [AI features: Application map >](../../manual_user/area_modules/AI_Features_Map.md)<br>
