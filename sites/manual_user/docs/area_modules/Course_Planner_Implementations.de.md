@@ -294,14 +294,14 @@ Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manu
 
 <br>
 
-#### Tab Mitglieder > Bestätigung der Mitgliedschaft durch Linienvorgesetzte/Ausbildungsverantwortliche {: #confirm_membership}
+#### Tab Mitglieder > Bestätigung der Mitgliedschaft {: #confirm_membership}
 
 
-Im Course Planner kann eingerichtet werden, dass ein Buchungswunsch von einer administrativen Rolle (z.B. Linienvorgesetzte:r oder Ausbildungsverantwortliche:r) bestätigt werden muss. Mit dieser Einstellung können Teilnehmende einen Kurs buchen; die vorgesetzte Person muss die Buchung aber in einem Zwischenschritt bestätigen oder ablehnen.
+Sollen Linienvorgesetzte oder Ausbildungsverantwortliche über eine Teilnahme entscheiden, braucht es eine Buchung über ein Angebot. Wählen Sie im [Angebot](../../manual_user/area_modules/catalog2.0_angebote.de.md) der Durchführung unter "Mitgliedschaft" die Option "Mit Bestätigung". Wer über dieses Angebot gebucht wird, erhält eine ausstehende Mitgliedschaft. Linienvorgesetzte und Ausbildungsverantwortliche mit den nötigen Rechten akzeptieren sie im Coaching oder lehnen sie ab, siehe [Ausstehende Mitgliedschaften genehmigen](../../manual_user/area_modules/Coaching_People.de.md#linemanager_educationmanager_confirm_membership). Bei Bezahlung mit PayPal gibt es diese Option nicht: Dort ist die Buchung mit der Zahlung sofort abgeschlossen.
 
-Fügen Sie Teilnehmer:innen selbst hinzu, wählen Sie im Schritt "Mitgliedschaft" des Assistenten "Mit Bestätigung". Unter "Bestätigung durch" legen Sie fest, ob "Administrative Rollen" oder die "Teilnehmer:in" selbst bestätigt, und unter "Bestätigung bis" das Datum, bis zu dem die Bestätigung erfolgen muss. Mit "Standard" ist die Mitgliedschaft sofort aktiv.
+Fügen Sie Teilnehmer:innen selbst hinzu, gilt dasselbe, wenn Sie im Assistenten im Schritt "Buchungsauftrag" ein solches Angebot wählen. Der Schritt "Mitgliedschaft" bietet dann keine eigene Wahl zur Bestätigung.
 
-Diesen Genehmigungsschritt richten Sie auch in Angeboten ein, ausser bei Bezahlung mit PayPal: Dort ist die Buchung mit der Zahlung sofort abgeschlossen.
+Wählen Sie im Schritt "Buchungsauftrag" die Option "Ohne Buchungsauftrag", entscheiden Sie im Schritt "Mitgliedschaft" zwischen "Standard" und "Mit Bestätigung". Mit "Standard" ist die Mitgliedschaft sofort aktiv. Mit "Mit Bestätigung" legen Sie unter "Bestätigung durch" fest, ob "Administrative Rollen" oder die "Teilnehmer:in" selbst bestätigt, und unter "Bestätigung bis" das Datum, bis zu dem die Bestätigung erfolgen muss. Eine so entstandene ausstehende Mitgliedschaft hat keinen Buchungsauftrag. Sie erscheint deshalb nicht im Coaching, und Linienvorgesetzte oder Ausbildungsverantwortliche können sie dort nicht bestätigen.
 
 ![Die Wahl zwischen Standard und Mit Bestätigung, dazu Bestätigung durch administrative Rollen und das Feld Bestätigung bis](assets/course_planner_implementations_confirm_member_v1_de.png){ class="shadow lightbox" title="Schritt Mitgliedschaft des Assistenten Teilnehmer:innen hinzufügen" }
 

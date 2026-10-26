@@ -4,7 +4,7 @@ The "Organisations" module is optionally available in OpenOlat. It is activated 
 
 !!! tip "Activation"
 
-    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for the activation. After activation, various additional settings can be made for the system-wide configuration. For systems with the fx-Release, these adjustments are made by frentix.
+    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for the activation. After activation, additional settings for the system-wide configuration are available. For systems with the fx-Release, frentix takes care of these adjustments.
 
     **Not a frentix hosting customer?** Please ask your system operator!
 
@@ -78,7 +78,7 @@ If the folder is activated under `Administration > Modules > Organisations > Tab
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Metadata"`
 ![Marked field Identifier with the greyed-out value default-org, below it the field Name with the value OpenOlat](assets/organisations_edit_tab_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab of the default organisation · 2026.10.02" }
 
-In the "Metadata" tab, you maintain the details by which an organisation is recognized in OpenOlat. In addition to the identifier and the name, a location and a description can be entered. If the [customer number](#customer_number) is switched on, the additional field "Customer number" appears between location and description. OpenOlat only displays the ID and the External ID; they cannot be changed here. The organisation type (as defined in the "Organisations types" tab) is also assigned here. If every organisation is linked to a corresponding organisation type on creation, a hierarchical structure can be built. An organisation that belongs to several higher-level organisations at the same time cannot be represented.
+In the "Metadata" tab, you maintain the details by which an organisation is recognized in OpenOlat. In addition to the identifier and the name, a location and a description can be entered. If the [customer number](#customer_number) is switched on, the additional field "Customer number" appears between location and description. OpenOlat only displays the ID and the External ID; they cannot be changed here. In addition, you assign the organisation type here, as defined in the "Organisations types" tab. If every organisation is linked to a corresponding organisation type on creation, a hierarchical structure can be built. An organisation that belongs to several higher-level organisations at the same time cannot be represented.
 
 For organisations that system administrators created themselves, the identifier and name can be changed at any time. The two fields are only locked if an external system manages the organisation. Via the [REST API](REST_API.md), such a system can also set the customer number of an organisation and lock the field in doing so.
 
@@ -117,21 +117,50 @@ In the "Learning resources" tab, you see which courses are directly assigned to 
 
     When you remove a course, OpenOlat does not check whether the course is still assigned to another organisation afterwards. If you want to move a course to another organisation, first click "Add courses" in the new organisation. Only then remove the course from the previous organisation with "Remove".
 
-The **assignment of educational products** is done in the Course Planner, at the respective implementation.
+You assign educational products to an organisation in the Course Planner, at the respective implementation.
 
 ### Line managers [:octicons-tag-16:{ title="from Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Line managers"`
-![Rights of line managers as checkboxes, below them the Save button](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" title="Line managers tab of an organisation" }
+![List of the rights for line managers from View courses and CPL products to View "Reset password" action, all still off, indented rights locked](assets/organisations_edit_tab_line_management_v2_en.png){ class="shadow lightbox" title="Line managers tab of an organisation · 2026.10.26" }
 
 Line managers see the learning progress of their staff in Coaching. In this tab, you use the rights to define which information and actions are available to them. The rights apply to an organisation at the top level of the tree structure and to all its sub-organisations. OpenOlat therefore only shows the tab for organisations at the top level.
+
+#### The rights in detail [:octicons-tag-16:{ title="from Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"} {: #rights_linemanager}
+
+By default, no right is set. You can only set an indented right once the right above it is set; if you remove the upper right, OpenOlat also removes the indented ones. If a right is not set, the corresponding tab or button is missing completely in Coaching. What the tabs for line managers look like is shown in [Coaching - People](../../manual_user/area_modules/Coaching_People.md#person_detail_view_tabs).
+
+* **View courses and CPL products**: The tab "Courses" appears in the detail view of a person.
+    * **View course progress and status**: The people list and the tab "Courses" additionally show progress and success status.
+    * **View events and absence**: The tab "Events & Absences" appears if the module Events and Absences is also switched on.
+        * **Absence report**: The reports of the category "Absences" are available under `Coaching > Reports`.
+    * **View evidence of achievement**: The tabs "Efficiency statements" and "Certificates" appear.
+        * **Upload external certificates**: In the tab "Certificates", line managers can upload external certificates for the person.
+* **View badges**: The tab "Badges" appears.
+* **View credit points**: The tab "Credit points" appears, with the credit point balance and the transactions of the person, read-only. The right only takes effect if the [credit points module](e-Assessment_Credit_Points.md) is also switched on.
+* **View bookings**: The tab "Bookings" appears if the module Catalog is also switched on.
+    * **Pending course booking orders**: Line managers see pending memberships of the person and can accept or decline them. This applies to memberships from a booking via an offer with the option "With confirmation", see [Coaching - People](../../manual_user/area_modules/Coaching_People.md#linemanager_educationmanager_confirm_membership).
+    * **Booking orders report**: The reports of the category "Booking orders" are available under `Coaching > Reports`.
+    * **Create booking on behalf of**: The button "Book on behalf of" appears.
+* **View groups**: The tab "Groups" appears.
+* **View course calendar**: The tab "Calendar" appears.
+* **View profile**: The tab "Profile" appears, read-only.
+    * **Edit profile**: In the tab "Profile", line managers can edit the details of the person.
+        * **Create accounts**: The button "Create account" appears in the people list.
+        * **Edit administrative properties**: The tab "Profile" additionally shows the user properties that are marked with "Admin only" in the configuration of the user properties.
+    * **Pending account activation**: The button "Activate pending accounts" appears in the people list as soon as there are pending accounts.
+    * **Deactivate accounts**: The tab "Account" appears, in which the status of the account can be changed.
+* **View "Contact" action**: "Contact" appears in the menu "More actions" of the detail view.
+* **View "Reset password" action**: "Reset password" appears in the menu "More actions", except for people with the role author or a higher role.
+
+People with an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations) receive the same rights via the role, not via the organisation.
 
 ### Education managers [:octicons-tag-16:{ title="from Release 20.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #edit_education_manager}
 
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Education managers"`
-![Rights of education managers as checkboxes, below them the Save button](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" title="Education managers tab of an organisation" }
+![The same list of rights for education managers, here all set except Absence report and View credit points](assets/organisations_edit_tab_education_manager_v2_en.png){ class="shadow lightbox" title="Education managers tab of an organisation · 2026.10.26" }
 
-Education managers see the same overview in Coaching as line managers and additionally take on administrative tasks. In this tab, you use the rights to define which information and actions are available to them. As with line managers, the rights apply to an organisation at the top level and to all its sub-organisations, and OpenOlat only shows the tab for organisations at the top level.
+Education managers see the same overview in Coaching as line managers and additionally take on administrative tasks. In this tab, you use the rights to define which information and actions are available to them. As with line managers, the rights apply to an organisation at the top level and to all its sub-organisations, and OpenOlat only shows the tab for organisations at the top level. The tab offers the same rights with the same effect as the tab "Line managers", described under [The rights in detail](#rights_linemanager). You set them separately for education managers.
 
 ### Billing addresses [:octicons-tag-16:{ title="from Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
 
@@ -198,7 +227,10 @@ The list shows the mappings of all organisations. The "Subdomain allowed" column
 [Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)<br>
 [Authoring - Bulk Actions >](../../manual_user/area_modules/Authoring_BulkActions.md)<br>
 [Core functions: Overview >](Core_functions.md)<br>
-[User tools: Booking orders >](../../manual_user/personal_menu/Bookings.md)
+[User tools: Booking orders >](../../manual_user/personal_menu/Bookings.md)<br>
+[Coaching - People >](../../manual_user/area_modules/Coaching_People.md)<br>
+[e-Assessment Administration: Credit points >](e-Assessment_Credit_Points.md)<br>
+[Define own roles and relations >](../../manual_user/basic_concepts/Assign_Roles.md)
 
 **Further reading**<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>

@@ -5,7 +5,7 @@
 
 Organisationsweit oder systemweit gültige Rollen werden in der Benutzerverwaltung vergeben:<br>
 `Benutzerverwaltung > Benutzer:in auswählen > Tab "Rollen"`<br>
-Dementsprechend wird die Zuweisung typischerweise durch Benutzerverwalter:innen oder Administrator:innen vorgenommen.
+Die Zuweisung übernehmen deshalb typischerweise Benutzerverwalter:innen oder Administrator:innen.
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank"}
 
@@ -27,7 +27,7 @@ Kursbesitzer:innen fügen neue Kursmitglieder hinzu unter<br>
 Die gewünschte Rolle innerhalb eines Kurses wird dann während des Erfassens des neuen Mitglieds abgefragt.
 
 **Rollenzuweisung der Kursbesitzer:innen**<br>
-Eine Person mit Autorenrecht (= Organisationsrolle "Autor:in"), die einen Kurs erstellt, ist automatisch Besitzer:in dieses Kurses (Kursrolle "Besitzer:in"). Wenn gewünscht, können dann weitere Personen zu Mit-Besitzer:innen gemacht werden.
+Eine Person mit Autorenrecht (= Organisationsrolle "Autor:in"), die einen Kurs erstellt, ist automatisch Besitzer:in dieses Kurses (Kursrolle "Besitzer:in"). Weitere Personen können Sie anschliessend als zusätzliche Besitzer:innen hinzufügen.
 
 **Rollen der Kursmitglieder ändern**<br>
 Bei Mitgliedern eines Kurses kann die Rolle geändert werden unter<br>
@@ -57,7 +57,7 @@ Besteht bereits eine Mitgliedschaft in einer Gruppe und Sie wollen die Rolle der
 
 
 **Zuweisung der Rolle Gruppenbetreuer:in**<br>
-Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser Gruppe. Betreuer:innen einer Gruppe erhalten zusätzlich den Link "Administration" im Menü. Wenn gewünscht, können dann weitere Personen zu Gruppenbetreuer:innen gemacht werden.<br>
+Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser Gruppe. Betreuer:innen einer Gruppe erhalten zusätzlich den Link "Administration" im Menü. Weiteren Personen können Sie anschliessend ebenfalls die Rolle Gruppenbetreuer:in zuweisen.<br>
 Vorgehen: `Gruppen > Administration > Tab "Mitglieder" > Icon mit 3 Punkten am Zeilenende > "Mitglied bearbeiten"`
 
 
@@ -97,7 +97,7 @@ Eine Person kann in mehreren Organisationseinheiten Mitglied sein und in jeder O
 
 ## Rollenzuweisung der "Einladung" {: #role_assignment_invitee} 
 
-Die "Rolle", bzw. den zugehörigen Rechtestatus, erhalten alle Personen, die über die Option "**Externe Mitglieder einladen**" einem Kurs hinzugefügt wurden. In der Benutzerverwaltung sollte nur ausnahmsweise die Rolle "Einladung" zugeteilt werden. 
+Die "Rolle", bzw. den zugehörigen Rechtestatus, erhalten alle Personen, die über die Option "Externe Mitglieder einladen" einem Kurs hinzugefügt wurden. In der Benutzerverwaltung sollte nur ausnahmsweise die Rolle "Einladung" zugeteilt werden. 
 
 Soll z.B. im Portfolio eine externe Person Einsicht in eine Mappe erhalten, wird die Einladung erstellt unter<br>
 `Portfolio > Meine Mappen > "Mappe" > Tab "Freigabe" > Zugangsrecht hinzufügen > Einladung hinzufügen`
@@ -110,19 +110,19 @@ Soll z.B. im Portfolio eine externe Person Einsicht in eine Mappe erhalten, wird
 
 ## Eigene Rollen und Beziehungen definieren {: #role_assignment_relations} 
 
-Die Aktivierung und Definition eigener Rollen erfolgt durch **Administrator:innen** in der System-Administration:<br>
+Eigene Rollen schalten Administrator:innen in der System-Administration ein und legen sie dort fest:<br>
 `Administration > Module > Rolle Person zu Person`<br>
 Z.B. Vorgesetzte:r, Untergebene:r, Expert:in, Zu Beurteilende:r, Elternteil, Ausbildungsverantwortliche:r, Schüler:in, Mentor:in, Lernbegleiter:in, usw.
 
-Anschliessend können **Benutzerverwalter:innen** unter<br>
+Anschliessend können Benutzerverwalter:innen unter<br>
 `Benutzerverwaltung > Benutzer:in auswählen > Tab "Beziehungen"`<br>
 neue Beziehungen zwischen der gewählten Person und anderen OpenOlat-Benutzer:innen angeben (z.B. Vorgesetzte:r - Untergebene:r).
 
-Es kann nur die von Administrator:innen eingerichtete und definierte Systematik der Rollen verwendet werden.
+Zur Wahl stehen nur die Rollen, die Administrator:innen eingerichtet haben.
 
-Mit der Person-zu-Person-Beziehung in OpenOlat können in der Administration bzw. in der Benutzerverwaltung kursübergreifende Betreuungsfunktionen für beispielsweise Mentor:innen, Lernbegleiter:innen und Vorgesetzte eingerichtet werden. Ist dies der Fall, können Betreuende im Coaching einfach und übersichtlich auf die zu betreuenden Personen zugreifen und Bewertungen vornehmen.
+Mit der Person-zu-Person-Beziehung richten Sie in der Administration bzw. in der Benutzerverwaltung kursübergreifende Betreuungsfunktionen ein, zum Beispiel für Mentor:innen, Lernbegleiter:innen und Vorgesetzte. Betreuende greifen dann im Coaching auf die Personen zu, die sie betreuen, und sehen deren Lernstand ein. Bewerten können sie über die Beziehung nicht.
 
-Für jede Person-zu-Person-Beziehung können spezifische Rechte definiert und somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise und Zertifikate. Analog wird auch die Rolle "Linienvorgesetzte:r" im Coaching abgebildet. Hier kann ebenfalls auf definierte Inhalte von Benutzer:innen der eigenen Organisationseinheit zugegriffen werden.
+Für jede Person-zu-Person-Beziehung können spezifische Rechte definiert und somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise, Zertifikate und Kreditpunkte [:octicons-tag-16:{ title="ab Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"}. Was die einzelnen Rechte bewirken, beschreibt [Modul Organisationen: Die Rechte im Einzelnen](../../manual_admin/administration/Modules_Organisations.de.md#rights_linemanager). Analog wird auch die Rolle "Linienvorgesetzte:r" im Coaching abgebildet. Hier kann ebenfalls auf definierte Inhalte von Benutzer:innen der eigenen Organisationseinheit zugegriffen werden.
 
 [zum Seitenanfang ^](#role_assignment)
 
@@ -133,7 +133,8 @@ Für jede Person-zu-Person-Beziehung können spezifische Rechte definiert und so
 **Auf dieser Seite erwähnt**<br>
 [Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)<br>
 [Rollen zuweisen (Administrationshandbuch) >](../../manual_admin/usermanagement/Assign_roles.de.md)<br>
-[Gruppen >](../groups/index.de.md)
+[Gruppen >](../groups/index.de.md)<br>
+[Modul Organisationen (Administrationshandbuch) >](../../manual_admin/administration/Modules_Organisations.de.md)
 
 **Weiterführend**<br>
 [Welche Rollen gibt es? >](Roles.de.md)<br>

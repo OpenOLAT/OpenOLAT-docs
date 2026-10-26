@@ -5,7 +5,7 @@ Das Modul "Organisationen" ist optional in OpenOlat verfügbar. Es wird in der S
 
 !!! tip "Aktivierung"
 
-    frentix-Kund:innen kontaktieren für die Aktivierung bitte: [contact@frentix.com](mailto:contact@frentix.com). Nach der Aktivierung können diverse zusätzliche Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassungen durch frentix vorgenommen.
+    frentix-Kund:innen kontaktieren für die Aktivierung bitte: [contact@frentix.com](mailto:contact@frentix.com). Nach der Aktivierung stehen zusätzliche Einstellungen für die systemweite Konfiguration zur Verfügung. Bei Systemen mit dem fx-Release übernimmt frentix diese Anpassungen.
 
     **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
 
@@ -84,7 +84,7 @@ Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfigurat
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Metadaten"`
 ![Markiertes Feld Bezeichnung mit dem ausgegrauten Wert default-org, darunter das Feld Name mit dem Wert OpenOlat](assets/organisations_edit_tab_metadata_v2_de.png){ class="shadow lightbox" title="Tab Metadaten der Standardorganisation · 2026.10.02" }
 
-Im Tab "Metadaten" pflegen Sie die Angaben, an denen eine Organisation in OpenOlat erkannt wird. Neben der Bezeichnung und dem Namen können ein Standort und eine Beschreibung eingetragen werden. Ist die [Debitorennummer](#customer_number) eingeschaltet, steht zwischen Standort und Beschreibung zusätzlich das Feld "Debitorennummer". Die ID und die Externe ID zeigt OpenOlat nur an, sie lassen sich hier nicht ändern. Ausserdem erfolgt hier die Zuordnung des Organisationstyps (wie im Tab "Organisationstypen" definiert). Wird bei der Erstellung jede Organisation mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
+Im Tab "Metadaten" pflegen Sie die Angaben, an denen eine Organisation in OpenOlat erkannt wird. Neben der Bezeichnung und dem Namen können ein Standort und eine Beschreibung eingetragen werden. Ist die [Debitorennummer](#customer_number) eingeschaltet, steht zwischen Standort und Beschreibung zusätzlich das Feld "Debitorennummer". Die ID und die Externe ID zeigt OpenOlat nur an, sie lassen sich hier nicht ändern. Ausserdem ordnen Sie hier den Organisationstyp zu, wie er im Tab "Organisationstypen" definiert ist. Wird bei der Erstellung jede Organisation mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
 
 Bei Organisationen, die Systemadministrator:innen selbst erstellt haben, lassen sich Bezeichnung und Name jederzeit ändern. Gesperrt sind die beiden Felder nur, wenn ein externes System die Organisation verwaltet. Ein solches System kann über die [REST API](REST_API.de.md) auch die Debitorennummer einer Organisation setzen und das Feld dabei sperren.
 
@@ -127,23 +127,52 @@ Im Tab "Lernressourcen" sehen Sie, welche Kurse der Organisation direkt zugeordn
 
     OpenOlat prüft beim Entfernen nicht, ob der Kurs danach noch einer anderen Organisation zugeordnet ist. Wollen Sie einen Kurs in eine andere Organisation verschieben, klicken Sie deshalb zuerst in der neuen Organisation auf "Kurse hinzufügen". Erst danach entfernen Sie den Kurs in der bisherigen Organisation mit "Entfernen".
 
-Die **Zuordnung von Bildungsprodukten** erfolgt im Course Planner in der jeweiligen Durchführung.
+Bildungsprodukte ordnen Sie einer Organisation im Course Planner in der jeweiligen Durchführung zu.
 
 
 ### Linienvorgesetzte [:octicons-tag-16:{ title="ab Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Linienvorgesetzte:r"`
-![Rechte der Linienvorgesetzten als Checkboxen, darunter der Button Speichern](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" title="Tab Linienvorgesetzte:r einer Organisation" }
+![Liste der Rechte für Linienvorgesetzte von Kurse und CPL-Produkte anzeigen bis "Passwort zurücksetzen" Aktion anzeigen, alle noch aus, eingerückte Rechte gesperrt](assets/organisations_edit_tab_line_management_v2_de.png){ class="shadow lightbox" title="Tab Linienvorgesetzte:r einer Organisation · 2026.10.26" }
 
 Linienvorgesetzte sehen im Coaching den Lernfortschritt ihrer Mitarbeitenden. Welche Angaben und Aktionen ihnen dabei offenstehen, legen Sie in diesem Tab mit den Rechten fest. Die Rechte gelten für eine Organisation auf oberster Ebene der Baumstruktur und für alle ihre Unterorganisationen. Den Tab zeigt OpenOlat deshalb nur bei Organisationen auf oberster Ebene.
+
+#### Die Rechte im Einzelnen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"} {: #rights_linemanager}
+
+Ab Werk ist kein Recht gesetzt. Ein eingerücktes Recht setzen Sie erst, wenn das Recht darüber gesetzt ist; nehmen Sie das obere Recht weg, entfernt OpenOlat auch die eingerückten. Ist ein Recht nicht gesetzt, fehlt der zugehörige Tab oder Button im Coaching ganz. Wie die Tabs für Linienvorgesetzte aussehen, zeigt [Coaching - Personen](../../manual_user/area_modules/Coaching_People.de.md#person_detail_view_tabs).
+
+* **Kurse und CPL-Produkte anzeigen**: In der Detailansicht einer Person erscheint der Tab "Kurse".
+    * **Kursfortschritt und Status anzeigen**: Die Personenliste und der Tab "Kurse" zeigen zusätzlich Fortschritt und Erfolgsstatus.
+    * **Termine und Absenzen anzeigen**: Der Tab "Termine & Abwesenheiten" erscheint, wenn auch das Modul Termine und Absenzen eingeschaltet ist.
+        * **Absenzen-Report**: Unter `Coaching > Reports` stehen die Reports der Kategorie "Absenzen" zur Verfügung.
+    * **Leistungsnachweise anzeigen**: Die Tabs "Leistungsnachweise" und "Zertifikate" erscheinen.
+        * **Externe Zertifikate hochladen**: Im Tab "Zertifikate" können Linienvorgesetzte externe Zertifikate für die Person hochladen.
+* **Badges anzeigen**: Der Tab "Badges" erscheint.
+* **Kreditpunkte anzeigen**: Der Tab "Kreditpunkte" erscheint, mit Kreditpunkteguthaben und Transaktionen der Person, nur lesend. Das Recht wirkt nur, wenn zusätzlich das [Modul Kreditpunkte](e-Assessment_Credit_Points.de.md) eingeschaltet ist.
+* **Buchungen anzeigen**: Der Tab "Buchungen" erscheint, wenn auch das Modul Katalog eingeschaltet ist.
+    * **Ausstehende Kursbuchungen**: Linienvorgesetzte sehen ausstehende Mitgliedschaften der Person und können sie akzeptieren oder ablehnen. Das gilt für Mitgliedschaften aus einer Buchung über ein Angebot mit der Option "Mit Bestätigung", siehe [Coaching - Personen](../../manual_user/area_modules/Coaching_People.de.md#linemanager_educationmanager_confirm_membership).
+    * **Buchungsaufträge-Report**: Unter `Coaching > Reports` stehen die Reports der Kategorie "Buchungsaufträge" zur Verfügung.
+    * **Im Namen von jemandem buchen**: Der Button "Buchen im Namen von" erscheint.
+* **Gruppen anzeigen**: Der Tab "Gruppen" erscheint.
+* **Kurskalender anzeigen**: Der Tab "Kalender" erscheint.
+* **Profil anzeigen**: Der Tab "Profil" erscheint, nur lesend.
+    * **Profil editieren**: Im Tab "Profil" können Linienvorgesetzte die Angaben der Person bearbeiten.
+        * **Konten erstellen**: In der Personenliste erscheint der Button "Konto erstellen".
+        * **Administrative Eigenschaften editieren**: Der Tab "Profil" zeigt zusätzlich die Benutzerattribute, die in der Konfiguration der Benutzerattribute mit "Nur Administrator:innen" markiert sind.
+    * **Aktivieren von Konten**: In der Personenliste erscheint der Button "Ausstehende Konten aktivieren", sobald ausstehende Konten vorliegen.
+    * **Konten deaktivieren**: Der Tab "Konto" erscheint, mit dem sich der Status des Kontos ändern lässt.
+* **"Kontaktieren" Aktion anzeigen**: Im Menü "Weitere Aktionen" der Detailansicht erscheint "Kontaktieren".
+* **"Passwort zurücksetzen" Aktion anzeigen**: Im Menü "Weitere Aktionen" erscheint "Passwort zurücksetzen", ausser bei Personen mit der Rolle Autor:in oder einer höheren Rolle.
+
+Personen mit einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) erhalten dieselben Rechte über die Rolle, nicht über die Organisation.
 
 
 ### Ausbildungsverantwortliche [:octicons-tag-16:{ title="ab Release 20.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #edit_education_manager}
 
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Ausbildungsverantwortliche"`
-![Rechte der Ausbildungsverantwortlichen als Checkboxen, darunter der Button Speichern](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" title="Tab Ausbildungsverantwortliche einer Organisation" }
+![Dieselbe Liste der Rechte für Ausbildungsverantwortliche, hier alle ausser Absenzen-Report und Kreditpunkte anzeigen gesetzt](assets/organisations_edit_tab_education_manager_v2_de.png){ class="shadow lightbox" title="Tab Ausbildungsverantwortliche einer Organisation · 2026.10.26" }
 
-Ausbildungsverantwortliche sehen im Coaching dieselbe Übersicht wie Linienvorgesetzte und übernehmen zusätzlich administrative Aufgaben. Welche Angaben und Aktionen ihnen offenstehen, legen Sie in diesem Tab mit den Rechten fest. Wie bei den Linienvorgesetzten gelten die Rechte für eine Organisation auf oberster Ebene und für alle ihre Unterorganisationen, und OpenOlat zeigt den Tab nur bei Organisationen auf oberster Ebene.
+Ausbildungsverantwortliche sehen im Coaching dieselbe Übersicht wie Linienvorgesetzte und übernehmen zusätzlich administrative Aufgaben. Welche Angaben und Aktionen ihnen offenstehen, legen Sie in diesem Tab mit den Rechten fest. Wie bei den Linienvorgesetzten gelten die Rechte für eine Organisation auf oberster Ebene und für alle ihre Unterorganisationen, und OpenOlat zeigt den Tab nur bei Organisationen auf oberster Ebene. Der Tab bietet dieselben Rechte mit derselben Wirkung wie der Tab "Linienvorgesetzte:r", beschrieben unter [Die Rechte im Einzelnen](#rights_linemanager). Sie setzen sie für Ausbildungsverantwortliche getrennt.
 
 
 ### Rechnungsadressen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
@@ -213,7 +242,10 @@ Die Liste zeigt die Zuordnungen aller Organisationen. Die Spalte "Unter-Domänen
 [Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)<br>
 [Autorenbereich - Sammelaktionen >](../../manual_user/area_modules/Authoring_BulkActions.de.md)<br>
 [Core-Konfiguration: Übersicht >](Core_functions.de.md)<br>
-[Persönliche Werkzeuge: Buchungsaufträge >](../../manual_user/personal_menu/Bookings.de.md)
+[Persönliche Werkzeuge: Buchungsaufträge >](../../manual_user/personal_menu/Bookings.de.md)<br>
+[Coaching - Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
+[e-Assessment Administration: Kreditpunkte >](e-Assessment_Credit_Points.de.md)<br>
+[Eigene Rollen und Beziehungen definieren >](../../manual_user/basic_concepts/Assign_Roles.de.md)
 
 **Weiterführend**<br>
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>

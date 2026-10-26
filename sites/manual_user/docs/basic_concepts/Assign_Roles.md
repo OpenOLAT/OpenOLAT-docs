@@ -5,7 +5,7 @@
 
 Organisation-wide or system-wide roles are assigned in the user management:<br>
 `User management > Select user > Tab "Roles"`<br>
-Accordingly, the assignment is typically made by user managers or administrators.
+The assignment is therefore typically done by user managers or administrators.
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [User management](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank"}
 
@@ -13,7 +13,7 @@ Depending on the area of responsibility, roles, and therefore additional rights,
 
 The "Roles" tab shows the affiliation of the person ("User in"), their additional roles per organisation and, under "Role history", every change to the roles. The administration manual describes the details: [Assign roles](../../manual_admin/usermanagement/Assign_roles.md)
 
-![Sections Affiliation with the field User in and Additional roles with the button Add organisation, both marked](assets/roles_rights_user_management_v3_de.png){ class="shadow lightbox" title="Roles tab in the user management" }
+![Sections Affiliation with the field User in and Additional roles with the button Add organisation, both marked](assets/roles_rights_user_management_v4_en.png){ class="shadow lightbox" title="Roles tab in the user management · 2026.10.26" }
 
 [To the top of the page ^](#role_assignment)
 
@@ -27,7 +27,7 @@ Course owners add new course members under<br>
 The desired role within a course is then queried while the new member is being entered.
 
 **Role assignment of the course owners**<br>
-A person with authoring rights (= organisation role "Author") who creates a course is automatically the owner of this course (course role "Owner"). If desired, other people can then be made co-owners.
+A person with authoring rights (= organisation role "Author") who creates a course is automatically the owner of this course (course role "Owner"). You can then add further people as additional owners.
 
 **Change roles of course members**<br>
 For members of a course, the role can be changed under<br>
@@ -57,7 +57,7 @@ If a membership in a group already exists and you want to change the role of the
 
 
 **Assignment of the role group coach**<br>
-When you create a new group, you are automatically the coach of this group. Coaches of a group also receive the "Administration" link in the menu. If desired, additional people can then be made group coaches.<br>
+When you create a new group, you are automatically the coach of this group. Coaches of a group also receive the "Administration" link in the menu. You can then assign the role group coach to further people as well.<br>
 Procedure: `Groups > Administration > Tab "Members" > Icon with 3 dots at the end of the row > "Edit membership"`
 
 
@@ -97,7 +97,7 @@ A person can be a member of several organisation units and hold different roles 
 
 ## Role assignment of the "Invitee" {: #role_assignment_invitee} 
 
-All persons who have been added to a course via the option "**Invite external members**" receive this "role", or the associated rights status. In the user management the role "Invitee" should only be assigned in exceptional cases. 
+All persons who have been added to a course via the option "Invite external members" receive this "role", or the associated rights status. In the user management the role "Invitee" should only be assigned in exceptional cases. 
 
 If, for example, an external person is to be given access to a binder in the Portfolio, the invitation is created under<br>
 `Portfolio > My binders > "Binder" > Tab "Shares" > Add access rights > Add invitation`
@@ -110,19 +110,19 @@ If, for example, an external person is to be given access to a binder in the Por
 
 ## Define own roles and relations {: #role_assignment_relations} 
 
-The activation and definition of own roles is carried out by **administrators** in the system administration:<br>
+Administrators switch on and define own roles in the system administration:<br>
 `Administration > Modules > Role user to user`<br>
 E.g. superior, subordinate, expert, appraisee, parent, education manager, student, mentor, learning guide, etc.
 
-Subsequently, **user managers** can specify under<br>
+Subsequently, user managers can specify under<br>
 `User management > Select user > Tab "Relations"`<br>
 new relations between the selected person and other OpenOlat users (e.g. superior - subordinate).
 
-Only the system of roles set up and defined by administrators can be used.
+Only the roles that administrators have set up are available.
 
-With the user-to-user relation in OpenOlat, cross-course support functions can be set up in the administration or in the user management, for example for mentors, learning guides and superiors. If this is the case, coaches can easily and clearly access the persons to be coached in Coaching and make assessments.
+With the user-to-user relation, you set up cross-course support functions in the administration or in the user management, for example for mentors, learning guides and superiors. Coaches then access the people they coach in Coaching and view their learning progress. They cannot assess via the relation.
 
-Specific rights can be defined for each user-to-user relation and thus access can be granted to explicitly released contents of the coached persons, such as course list, calendar, absence overview, efficiency statements and certificates. Similarly, the role "Line manager" is also mapped in Coaching. Here, too, defined contents of users of the own organisation unit can be accessed.
+Specific rights can be defined for each user-to-user relation and thus access can be granted to explicitly released contents of the coached persons, such as course list, calendar, absence overview, efficiency statements, certificates and credit points [:octicons-tag-16:{ title="from Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"}. What the individual rights do is described in [Module Organisations: The rights in detail](../../manual_admin/administration/Modules_Organisations.md#rights_linemanager). Similarly, the role "Line manager" is also mapped in Coaching. Here, too, defined contents of users of the own organisation unit can be accessed.
 
 [To the top of the page ^](#role_assignment)
 
@@ -133,7 +133,8 @@ Specific rights can be defined for each user-to-user relation and thus access ca
 **Mentioned on this page**<br>
 [Roles and their working areas >](Roles_Home_Areas.md)<br>
 [Assign roles (Administration manual) >](../../manual_admin/usermanagement/Assign_roles.md)<br>
-[Groups >](../groups/index.md)
+[Groups >](../groups/index.md)<br>
+[Module Organisations (Administration manual) >](../../manual_admin/administration/Modules_Organisations.md)
 
 **Further reading**<br>
 [Which roles are available? >](Roles.md)<br>

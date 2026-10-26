@@ -1,10 +1,10 @@
 # Coaching - Personen {: #people}
 
 
-![Markierter Button Personen in der Gruppe Coaching führt zur Liste aller betreuten Personen.](assets/coaching_people1_v1_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching" }
+![Markierter Button Personen in der Gruppe Coaching führt zur Liste aller betreuten Personen.](assets/coaching_people1_v2_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.10.26" }
 
 
-![Fokus-Buttons Als Betreuer:in, Als Kursbesitzer:in, Linienvorgesetzte:r und Ausbildungsverantwortliche:r über der Personenliste mit Kursen, Besuchen, Fortschritt und Erfolgsstatus.](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" title="Personenliste im Coaching" }
+![Markierte Fokus-Buttons Als Betreuer:in und Linienvorgesetzte:r über der Personenliste mit Kursen, Besuchen, Fortschritt und Erfolgsstatus; welche Fokus-Buttons erscheinen, hängt von Ihren Rollen ab](assets/coaching_people_who_v2_de.png){ class="shadow lightbox" title="Personenliste im Coaching · 2026.10.26" }
 
 
 ## WEN zeigt die Liste? [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374){:target="_blank"} {: #people_who}
@@ -72,11 +72,11 @@ Mit dem Suchfeld oberhalb der Liste grenzen Sie die Personen nach Namen und weit
 
 ## Kontaktieren betreuter Personen [:octicons-tag-16:{ title="ab Release 20.0.3 (OO-8591)" }](https://track.frentix.com/issue/OO-8591){:target="_blank"} {: #contact}
 
-Um **einer bestimmten Person** eine Mail zu schreiben, klicken Sie einfach auf die 3 Punkte am Ende der betreffenden Zeile.
+Um einer bestimmten Person eine E-Mail zu schreiben, klicken Sie auf die 3 Punkte am Ende ihrer Zeile und wählen "Kontaktieren".
 
-Um eine Mail an **mehrere Personen** zu schreiben, markieren Sie die betreffenden Personen in der ersten Spalte. Anschliessend erscheint über der Liste ein Button "Kontaktieren".
+Um eine E-Mail an mehrere Personen zu schreiben, markieren Sie die betreffenden Personen in der ersten Spalte. Anschliessend erscheint über der Liste ein Button "Kontaktieren".
 
-![Button Kontaktieren über der Liste nach dem Markieren zweier Personen sowie der Eintrag Kontaktieren im Zeilenmenü.](assets/coaching_people_contact_v1_de.png){ class="shadow lightbox" title="Personenliste im Coaching" }
+![Markiert: Button Kontaktieren über der Liste nach dem Auswählen zweier Personen, die Auswahlspalte und der Eintrag Kontaktieren im Zeilenmenü](assets/coaching_people_contact_v2_de.png){ class="shadow lightbox" title="Personenliste im Coaching · 2026.10.26" }
 
 [Zum Seitenanfang ^](#people)
 
@@ -92,7 +92,7 @@ Betreuen Sie eine Person in Ihren Kursen, zeigt Ihnen die Detailansicht vor alle
 
 Termine und Absenzen der Personen, die Sie betreuen, finden Sie in dieser Rolle im Werkzeug [Coaching - Termine und Absenzen](Coaching_Events_Absences.de.md). Es zeigt die Termine aller Ihrer betreuten Kurse, nicht die einer einzelnen Person.
 
-### Unter "Linienvorgesetzte:r", "Ausbildungsverantwortliche:r" und eigenen Rollen {: #person_detail_view_tabs}
+### Unter "Linienvorgesetzte:r", "Ausbildungsverantwortliche:r" und eigenen Rollen [:octicons-tag-16:{ title="ab Release 20.0.4 (OO-8687)" }](https://track.frentix.com/issue/OO-8687){:target="_blank"} {: #person_detail_view_tabs}
 
 Sind Sie für eine Person als Linienvorgesetzte:r, als Ausbildungsverantwortliche:r oder in einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) zuständig, ordnet die Detailansicht alle Auskünfte über die Person nach Themen in Tabs. So finden Sie Lernstand, Termine und Buchungen der Person, ohne in die einzelnen Kurse zu wechseln. Jeder Tab erscheint nur, wenn Administrator:innen Ihrer Rolle das zugehörige Recht erteilt haben; die Rechte zeigt der Abschnitt [Kontrollaufgaben](#linemanager_educationmanager_observe). Die Tabs stehen unter den Angaben zur Person in der folgenden Reihenfolge.
 
@@ -134,11 +134,17 @@ Hier sehen Sie, welche Badges die Person erhalten hat. Voraussetzung ist das Rec
 
 #### Kreditpunkte [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"} {: #tab_credit_points}
 
-Hier sehen Sie den Stand der Kreditpunkte der Person je Kreditpunktesystem und die zugehörigen Transaktionen, nur lesend. Voraussetzung sind eingeschaltete [Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) und das Recht "Kreditpunkte anzeigen".
+Hier sehen Sie, wie viele Kreditpunkte die Person in jedem Kreditpunktesystem hat und aus welchen Buchungen sie stammen. Der Tab zeigt dieselbe Ansicht wie die Seite [Meine Kreditpunkte](../personal_menu/Credit_Points.de.md) der Person: je Kreditpunktesystem die Kachel "Kreditpunkteguthaben", bei einem Kreditpunktesystem mit Gültigkeitsdauer zusätzlich die Kachel "Nächster Kreditpunkteverfall", und darunter die Tabelle "Transaktionen".
+
+![Tab Kreditpunkte zwischen Badges und Buchungen, darunter Kreditpunkteguthaben und Transaktionen einer betreuten Person, ohne Buttons zum Buchen](assets/coaching_people_detail_credit_points_v1_de.png){ class="shadow lightbox" title="Tab Kreditpunkte einer Person im Coaching · 2026.10.26" }
+
+Der Tab ist nur lesend. Die Buttons "Kreditpunkte hinzufügen" und "Kreditpunkte entfernen" fehlen, und im Menü einer Transaktion steht nur "Detail der Transaktion". Kreditpunkte gutschreiben, abziehen oder stornieren können Administrator:innen in der Benutzerverwaltung. Ist ein Kreditpunktesystem auf Organisationen beschränkt, sehen Sie es nur, wenn Sie selbst einer dieser Organisationen angehören.
+
+Voraussetzung sind das eingeschaltete [Modul Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) und das Recht "Kreditpunkte anzeigen", das Administrator:innen [an der Organisation](../../manual_admin/administration/Modules_Organisations.de.md#edit_linemanager) oder an einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) setzen. Ab Werk ist das Recht aus. Fehlt eine der beiden Voraussetzungen, fehlt der Tab ganz, ohne Hinweis.
 
 #### Buchungen {: #tab_bookings}
 
-Hier sehen Sie, wann und über welches Angebot die Person in einen Kurs oder eine Durchführung gekommen ist. Die Liste nennt je Buchung das "Auftragsdatum", das "Angebot", den "Inhalt" und den "Status". Voraussetzung sind das eingeschaltete [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md) und das Recht "Buchungen anzeigen". Tragen Sie zusätzlich das Recht "Ausstehende Kursbuchungen", kann der Umschalter "Ausstehende Mitgliedschaften" erscheinen, siehe [Ausstehende Mitgliedschaften genehmigen](#linemanager_educationmanager_confirm_membership).
+Hier sehen Sie, wann und über welches Angebot die Person in einen Kurs oder eine Durchführung gekommen ist. Die Liste nennt je Buchung das "Auftragsdatum", das "Angebot", den "Inhalt" und den "Status". Voraussetzung sind das eingeschaltete [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md) und das Recht "Buchungen anzeigen". Tragen Sie zusätzlich das Recht "Ausstehende Kursbuchungen" und sind das Modul Course Planner und die Angebotsart "Rechnung" eingeschaltet, steht neben "Buchungsaufträge" der Umschalter "Ausstehende Mitgliedschaften", siehe [Ausstehende Mitgliedschaften genehmigen](#linemanager_educationmanager_confirm_membership).
 
 #### Gruppen {: #tab_groups}
 
@@ -178,7 +184,7 @@ Hier sehen Sie, wann das Konto der Person angelegt wurde und wann sie sich zulet
 
 Linienvorgesetzte und Ausbildungsverantwortliche finden im Coaching Tool unter Personen einen zusätzlichen Button, unter dem sie alle Personen finden, für die sie in ihrer Rolle zuständig sind.
 
-![Markierte Fokus-Buttons Linienvorgesetzte:r und Ausbildungsverantwortliche:r neben Als Betreuer:in und Als Kursbesitzer:in.](assets/coaching_people_line_manager1_v1_de.png){ class="shadow lightbox" title="Personenliste im Coaching" }
+![Markierter Fokus-Button Linienvorgesetzte:r neben Als Betreuer:in; für Ausbildungsverantwortliche erscheint an derselben Stelle der Button Ausbildungsverantwortliche:r](assets/coaching_people_line_manager1_v2_de.png){ class="shadow lightbox" title="Personenliste im Coaching · 2026.10.26" }
 
 ### Erweiterte Personensicht [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9168)" }](https://track.frentix.com/issue/OO-9168){:target="_blank"} {: #linemanager_educationmanager_extended_view}
 
@@ -196,7 +202,7 @@ Hat eine Person zusätzliche Rollen (mehr als die Rolle Autor:in), erscheint in 
 
 ### Voraussetzungen {: #linemanager_educationmanager_conditions}
 
-Damit ein zusätzlicher Button "Linienvorgesetzte:r" und/oder "Ausbildungsverantwortliche:r" angezeigt wird, müssen folgende Voraussetzungen erfüllt sein.
+Den zusätzlichen Button "Linienvorgesetzte:r" bzw. "Ausbildungsverantwortliche:r" sehen Sie, wenn die Voraussetzungen 1 und 2 erfüllt sind. Was Sie unter dem Button sehen und tun können, bestimmt Voraussetzung 3.
 
 **Voraussetzung 1:**
 Das Modul "Organisationen" muss in der System-Administration aktiviert sein.<br> `Administration > Module > Organisationen`
@@ -205,8 +211,9 @@ Das Modul "Organisationen" muss in der System-Administration aktiviert sein.<br>
 Die betreffende Person muss die Rolle zugewiesen bekommen haben.<br> `Benutzerverwaltung > Person auswählen > Tab Rollen`
 
 **Voraussetzung 3:**
-In der System-Administration müssen z.B. die Option "Ausstehende Kursbuchungen" oder weitere Rechte **aktiviert sein**:<br>
-`Administration > Module > Organisationen > Tab Organisationsstruktur > "Organisationseinheit (oberste Ebene)" > Tab Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r > Option "Ausstehende Kursbuchungen"`
+Administrator:innen erteilen Ihrer Rolle in der System-Administration die Rechte, die Sie brauchen. Ohne Recht fehlt der zugehörige Tab oder Button. Um ausstehende Mitgliedschaften zu genehmigen, braucht Ihre Rolle das Recht "Buchungen anzeigen" und das darunter eingerückte Recht "Ausstehende Kursbuchungen". Das zweite lässt sich erst setzen, wenn das erste gesetzt ist:<br>
+`Administration > Module > Organisationen > Tab Organisationsstruktur > "Organisationseinheit (oberste Ebene)" > Tab Linienvorgesetzte:r bzw. Ausbildungsverantwortliche > Optionen "Buchungen anzeigen" und "Ausstehende Kursbuchungen"`<br>
+Was jedes Recht bewirkt, beschreibt [Modul Organisationen: Die Rechte im Einzelnen](../../manual_admin/administration/Modules_Organisations.de.md#rights_linemanager).
 
 ---
 
@@ -215,7 +222,7 @@ In der System-Administration müssen z.B. die Option "Ausstehende Kursbuchungen"
 Im Coaching Tool finden Sie als Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r rechts oben den **Button "Konto erstellen"**. Sie öffnen damit ein Formular zum Erfassen der notwendigen Angaben, um noch nicht registrierte Personen in OpenOlat aufzunehmen.
 
 Ob dieser Button zur Verfügung steht, wird in der System-Administration festgelegt:<br>
-`Administration > Module > Organisationen > Tab Organisationsstruktur > "Organisationseinheit (oberste Ebene)" > Tab Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r > Option "Konten erstellen"`
+`Administration > Module > Organisationen > Tab Organisationsstruktur > "Organisationseinheit (oberste Ebene)" > Tab Linienvorgesetzte:r bzw. Ausbildungsverantwortliche > Option "Konten erstellen"`
 
 Ein durch Linienvorgesetzte oder Ausbildungsverantwortliche angelegtes Konto enthält automatisch eine Zuordnung der neu registrierten Person zur Organisationseinheit der Linienvorgesetzten bzw. Ausbildungsverantwortlichen.
 
@@ -228,13 +235,13 @@ Ein durch Linienvorgesetzte oder Ausbildungsverantwortliche angelegtes Konto ent
 Möchten Sie als Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r eine bereits in OpenOlat registrierte Person in eine Durchführung einbuchen, wählen Sie die Person im Coaching Tool und klicken auf den **Button "Buchen im Namen von"**. Dort wählen Sie die Durchführung, an der die Person teilnehmen soll. Zur Wahl stehen nur Durchführungen, keine Kurse oder anderen Lernressourcen. Angebote mit PayPal oder PayPal Checkout erscheinen dort nicht.
 
 Ob dieser Button zur Verfügung steht, wird in der System-Administration festgelegt:<br>
-`Administration > Module > Organisationen > Tab Organisationsstruktur > "Organisationseinheit (oberste Ebene)" > Tab Linienvorgesetzte:r bzw. Ausbildungsverantwortliche:r > Option "Im Namen von jemandem buchen"`
+`Administration > Module > Organisationen > Tab Organisationsstruktur > "Organisationseinheit (oberste Ebene)" > Tab Linienvorgesetzte:r bzw. Ausbildungsverantwortliche > Option "Im Namen von jemandem buchen"`
 
 Personen mit einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) sehen den Button ebenfalls, wenn der Rolle dasselbe Recht zugeteilt ist.
 
 Verwendet das Angebot Formulare, führt OpenOlat Sie durch den [Assistenten der Buchung](catalog2.0_angebote.de.md#offer_booking_wizard). Sie füllen die Formulare stellvertretend aus. Die Antworten gehören zum Buchungsauftrag der gebuchten Person, nicht zu Ihrem. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
 
-![Markierter Button Buchen im Namen von rechts über den Tabs, darüber der Hinweis auf eine ausstehende Mitgliedschaft.](assets/coaching_people_line_manager3_v1_de.png){ class="shadow lightbox" title="Detailansicht einer Person im Coaching" }
+![Markierter Button Buchen im Namen von rechts über den Tabs der Detailansicht einer betreuten Person](assets/coaching_people_line_manager3_v2_de.png){ class="shadow lightbox" title="Detailansicht einer Person im Coaching · 2026.10.26" }
 
 
 **Beispiel 1:**<br>
@@ -250,18 +257,21 @@ Ihre Mitarbeiter:innen sind verpflichtet, Sicherheitskurse oder Compliancekurse 
 
 Oft entscheiden Linienvorgesetzte und Ausbildungsverantwortliche, ob Lernende an einer Bildungsmassnahme teilnehmen können. In OpenOlat kann ihnen die Möglichkeit eingerichtet werden, ausstehende Mitgliedschaften zu akzeptieren oder abzulehnen.
 
-Wählen Sie dazu im Coaching Tool die betreffende Person und öffnen Sie die **Detailansicht** durch Klick auf das Plus-Symbol am Anfang der Zeile.
+Wählen Sie dazu im Coaching Tool die betreffende Person. Hat sie eine ausstehende Mitgliedschaft, zeigt ihre Detailansicht einen Hinweis mit dem Link "Zur Bestätigung gehen". Er öffnet im Tab "Buchungen" die Liste "Ausstehende Mitgliedschaften". Ein Klick auf das Plus-Symbol am Anfang einer Zeile klappt die Details der Mitgliedschaft auf.
 
-Rechts oben innerhalb der Detailansicht finden Sie die beiden **Buttons "Akzeptieren" und "Ablehnen"** mit denen Sie über eine Mitgliedschaft entscheiden.
+Rechts oben in den aufgeklappten Details entscheiden Sie mit den Buttons "Akzeptieren" und "Ablehnen" über die Mitgliedschaft.
 
-Alternativ und einfacher können Sie auch den **Link innerhalb der Benachrichtigung** benutzen. Ist das Rechnungsmodul aktiv, führt zusätzlich der Button "Ausstehende Bestätigungen" auf der Coaching-Übersicht zu einer Liste aller offenen Mitgliedschaften; ihr Suchfeld kennt den Stern `*` als Platzhalter.
+Alternativ benutzen Sie den Link in der Benachrichtigung. Sind das Modul Course Planner und die Angebotsart "Rechnung" eingeschaltet, führt zusätzlich der Button "Ausstehende Bestätigungen" auf der Coaching-Übersicht zu einer Liste aller offenen Mitgliedschaften; ihr Suchfeld kennt den Stern `*` als Platzhalter.
 
-![Buttons Akzeptieren und Ablehnen zu einer ausstehenden Mitgliedschaft, erreicht über den Link Zur Bestätigung gehen und den Tab Buchungen.](assets/coaching_people_line_manager4_v1_de.png){ class="shadow lightbox" title="Detailansicht einer Person im Coaching" }
+![Weg zur Entscheidung über eine ausstehende Mitgliedschaft: Link Zur Bestätigung gehen, Tab Buchungen mit Ausstehende Mitgliedschaften und die Buttons Akzeptieren und Ablehnen, alle markiert](assets/coaching_people_line_manager4_v2_de.png){ class="shadow lightbox" title="Tab Buchungen einer Person im Coaching · 2026.10.26" }
 
-!!! note "Wie kommt es zu ausstehenden Mitgliedschaften?"
+!!! info "Wie kommt es zu ausstehenden Mitgliedschaften?"
 
-    Mitgliedschaften, die erst noch durch Linienvorgesetzte oder Ausbildungsverantwortliche genehmigt werden müssen, werden im Course Planner für Durchführungen eingerichtet.
-    Mehr dazu [hier >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#confirm_membership)
+    Im Coaching erscheinen ausstehende Mitgliedschaften in Durchführungen, die über ein Angebot gebucht wurden, bei dem unter "Mitgliedschaft" die Option "Mit Bestätigung" gewählt ist. Gebucht hat entweder die Person selbst im Katalog, Sie mit "Buchen im Namen von" oder jemand im Course Planner, der beim Hinzufügen der Person im Schritt "Buchungsauftrag" ein solches Angebot gewählt hat.
+
+    Fügt jemand die Person im Course Planner mit "Ohne Buchungsauftrag" hinzu und wählt im Schritt "Mitgliedschaft" die Option "Mit Bestätigung", ist die Mitgliedschaft zwar ausstehend. Im Coaching erscheint sie aber weder im Hinweis noch in der Liste, weil kein Buchungsauftrag dazu besteht.
+
+    Mehr dazu: [Bestätigung der Mitgliedschaft im Course Planner >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#confirm_membership)
 
 ---
 
@@ -277,12 +287,15 @@ Grundsätzlich werden Ihnen als Linienvorgesetzte:r oder Ausbildungsverantwortli
 * Sie sehen, wer welche Kurse besucht, können aber nicht auf Checklisten, Aufgaben usw. innerhalb der Kurse zugreifen, um die Eintragungen der Teilnehmenden zu sehen.
 * Sie können sich erhaltene Badges und andere Leistungsdaten anzeigen lassen, aber selbst keine Badges vergeben.
 * Sie können sich Absenzen anzeigen lassen, aber nicht selbst erfassen. Dies müssen die Kursbesitzer:innen/Betreuer:innen. Das Erstellen von Absenzenreports ist dagegen möglich.
+* Sie können das Kreditpunkteguthaben und die Transaktionen einer Person einsehen, aber keine Kreditpunkte gutschreiben, abziehen oder stornieren. So sehen Sie zum Beispiel, ob jemand genug Kreditpunkte für die Rezertifizierung in einem Zertifikatsprogramm gesammelt hat. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"}
 
-In der Detailansicht einer Person finden Sie diese Angaben in eigenen Tabs: die besuchten Kurse im Tab [Kurse](#tab_courses), die erhaltenen Badges im Tab [Badges](#tab_badges) und die Absenzen im Tab [Termine & Abwesenheiten](#tab_lectures). Welcher Tab zu welchem Recht gehört, beschreibt der Abschnitt [Die Detailansicht einer Person](#person_detail_view_tabs).
+In der Detailansicht einer Person finden Sie diese Angaben in eigenen Tabs: die besuchten Kurse im Tab [Kurse](#tab_courses), die erhaltenen Badges im Tab [Badges](#tab_badges), die Absenzen im Tab [Termine & Abwesenheiten](#tab_lectures) und die Kreditpunkte im Tab [Kreditpunkte](#tab_credit_points). Welcher Tab zu welchem Recht gehört, beschreibt der Abschnitt [Die Detailansicht einer Person](#person_detail_view_tabs).
 
 Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte Rechte, können Sie diese von Administrator:innen einrichten lassen. Der nachstehende Screenshot zeigt, welche Optionen von Administrator:innen konfiguriert werden können. (Für Ausbildungsverantwortliche bestehen die gleichen Optionen.)
 
-![Rechte der Rolle Linienvorgesetzte:r als Checkbox-Liste, von Kurse und Produkte anzeigen bis Administrative Eigenschaften anzeigen.](assets/coaching_people_line_manager5_v1_de.png){ class="shadow lightbox" title="Tab Linienvorgesetzte:r einer Organisationseinheit" }
+![Rechte der Rolle Linienvorgesetzte:r als Checkbox-Liste, von Kurse und CPL-Produkte anzeigen bis "Passwort zurücksetzen" Aktion anzeigen, alle gesetzt](assets/coaching_people_line_manager5_v2_de.png){ class="shadow lightbox" title="Tab Linienvorgesetzte:r einer Organisation · 2026.10.26" }
+
+Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [Modul Organisationen: Linienvorgesetzte](../../manual_admin/administration/Modules_Organisations.de.md#edit_linemanager).
 
 ### Die Bildungsprodukte einer Person [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"} {: #linemanager_educationmanager_products}
 
@@ -310,6 +323,7 @@ Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Termine und Absenzen im Kurs >](../learningresources/Events_and_absences.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
+[Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)<br>
 [Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
 [Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>

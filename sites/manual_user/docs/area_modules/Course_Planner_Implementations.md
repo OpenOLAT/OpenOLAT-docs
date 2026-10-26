@@ -284,14 +284,14 @@ For administrators: [System-wide configuration of the invitation >](../../manual
 
 <br>
 
-#### Tab Members > Confirmation of membership by line managers/education managers {: #confirm_membership}
+#### Tab Members > Confirmation of membership {: #confirm_membership}
 
 
-The Course Planner can be set up so that a booking request must be confirmed by an administrative role (e.g. a line manager or education manager). With this setting, users can book a course, but the manager must confirm or decline the booking in an intermediate step.
+If line managers or education managers are to decide on a participation, a booking via an offer is required. In the [offer](../../manual_user/area_modules/catalog2.0_angebote.md) of the implementation, select the option "With confirmation" under "Membership". Anyone booked via this offer receives a pending membership. Line managers and education managers with the necessary rights accept or decline it in Coaching, see [Confirm pending memberships](../../manual_user/area_modules/Coaching_People.md#linemanager_educationmanager_confirm_membership). This option is not available for payment with PayPal: there the booking is completed immediately with the payment.
 
-If you add participants yourself, choose "With confirmation" in the "Membership" step of the wizard. Under "Confirmation by", you determine whether "Administrative roles" or the "Participant" confirms, and under "Confirmation until" the date by which the confirmation must take place. With "Standard", the membership is active immediately.
+If you add participants yourself, the same applies when you select such an offer in the step "Booking order" of the wizard. The step "Membership" then offers no separate choice for confirmation.
 
-You also set up this approval step in offers, except when paying with PayPal: there the booking is completed immediately with the payment.
+If you select the option "Without booking order" in the step "Booking order", you choose between "Standard" and "With confirmation" in the step "Membership". With "Standard", the membership is active immediately. With "With confirmation", you determine under "Confirmation by" whether "Administrative roles" or the "Participant" confirms, and under "Confirmation until" the date by which the confirmation must take place. A pending membership created this way has no booking order. It therefore does not appear in Coaching, and line managers or education managers cannot confirm it there.
 
 ![The choice between Standard and With confirmation, plus confirmation by administrative roles and the Confirmation until field](assets/course_planner_implementations_confirm_member_v1_en.png){ class="shadow lightbox" title="Membership step of the Add participants wizard" }
 
