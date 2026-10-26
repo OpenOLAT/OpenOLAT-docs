@@ -1,4 +1,4 @@
-# Kursbaustein "Mitteilungen" {: #notification}
+# Kursbaustein "Mitteilungen" [:octicons-tag-16:{ title="ab Release 21.1 (OO-9761)" }](https://track.frentix.com/issue/OO-9761){:target="_blank"} {: #notification}
 
 
 ## Steckbrief
@@ -16,38 +16,31 @@ Spezialität / Hinweis |
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Mitteilungen](<https://www.youtube.com/embed/3tAj19Avfkk>){:target="_blank"}
 
-Der Kursbaustein bietet die Möglichkeit, Mitteilungen in der Kursstruktur einzubetten. Diese Mitteilungen sind sowohl im Kurs als auch unter `Persönliche Werkzeuge > Abonnements` bei den Benachrichtigungen der einzelnen Teilnehmenden sichtbar. Bei der Mitteilung kann es sich sowohl um einen kurzen Infotext handeln, als auch um umfangreiche Infos, die per Datei-Anhang (standardmässig höchstens 5 MB) beigefügt werden.
+Mit dem Kursbaustein "Mitteilungen" informieren Sie die Mitglieder eines Kurses an einer festen Stelle im Kursmenü, etwa über eine Terminänderung oder neue Unterlagen. Die Mitteilungen erscheinen im Kurs und zusätzlich unter `Persönliche Werkzeuge > Abonnements` bei den Benachrichtigungen aller, die sie abonniert haben. Eine Mitteilung kann ein kurzer Text sein oder umfangreichere Informationen als Datei-Anhang mitbringen (standardmässig höchstens 5 MB).
 
 Eine Mitteilung lässt sich sofort oder zu einem späteren Zeitpunkt veröffentlichen und zusätzlich per E-Mail versenden. Wie Sie die Empfänger:innen wählen, beschreibt der Abschnitt [Mitteilung verfassen und versenden](#create_notification).
 
 ## Konfiguration im Kurseditor Tab "Mitteilungs-Konfiguration" {: #configuration_notification}
 
- **Anzeige:** Die maximale Anzahl Tage legt fest, wie lange (in Tagen) die
-Mitteilungen im Kurs angezeigt werden. Die maximale Anzahl Mitteilungen legt
-fest, wie viele Mitteilungen gleichzeitig im Kurs angezeigt werden.
+Im Tab "Mitteilungs-Konfiguration" bestimmen Sie, wie lange und wie viele Mitteilungen der Kursbaustein zeigt, ob sie automatisch abonniert werden und wer sie verfasst.
 
- **Automatisch abonnieren:** Standardmässig wird der Kursbaustein automatisch
-von Teilnehmenden abonniert. Diese Option können Sie hier ausschalten, so dass
-Teilnehmende Mitteilungen manuell abonnieren können.
+**Anzeige:** Die maximale Anzahl Tage legt fest, wie lange eine Mitteilung im Kurs sichtbar bleibt. Die maximale Anzahl Mitteilungen legt fest, wie viele Mitteilungen der Kursbaustein gleichzeitig zeigt. Standardmässig sind es 90 Tage und 10 Mitteilungen.
+
+**Automatisch abonnieren:** Ist "Diese Mitteilungen bei Ansicht automatisch abonnieren" eingeschaltet (Standard), abonnieren die Mitglieder des Kurses die Mitteilungen, sobald sie den Kursbaustein öffnen. Schalten Sie die Option aus, abonnieren Teilnehmende die Mitteilungen bei Bedarf selbst.
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
-Im Bereich "Berechtigungen" kann definiert werden welche Kursrollen Mitteilungen verfassen und verwalten dürfen. Besitzende können grundsätzlich Mitteilungen verfassen und verwalten.
+Im Bereich "Berechtigungen" legen Sie fest, welche Kursrollen Mitteilungen verfassen und verwalten dürfen. Standardmässig verfassen und verwalten Besitzende und Betreuende die Mitteilungen, Teilnehmende lesen sie. Besitzende behalten beide Rechte in jedem Fall.
 
-Mitteilungen können im persönlichen Menü unter `Persönliche Werkzeuge > Abonnements` eingesehen werden, mehr dazu auf der Seite [Abonnements](../personal_menu/Subscriptions.de.md). Die Anzahl angezeigter Mitteilungen kann im Kurseditor eingestellt werden.
-
-Standardmässig dürfen nur Betreuende und Besitzende Mitteilungen erstellen. Alle Teilnehmenden dürfen jedoch Mitteilungen lesen. Im Tab "Mitteilungs-Konfiguration" können Sie diese Einstellung Ihren Wünschen entsprechend anpassen.
+Abonnierte Mitteilungen sehen die Mitglieder des Kurses auch im persönlichen Menü unter `Persönliche Werkzeuge > Abonnements`, mehr dazu auf der Seite [Abonnements](../personal_menu/Subscriptions.de.md).
 
 !!! info "Wichtig"
 
-    Die Anzahl der Zeichen für die Mitteilung ist auf 32.000 Zeichen begrenzt. Sie
-    erhalten eine entsprechende Information über die bereits verbrauchte
-    Zeichenzahl rechts unten im Mitteilungseditor. Wird die erlaubte Zeichenzahl überschritten, erfolgt ein entsprechender Hinweis. Achtung: Die Anzahl der angegebenen tatsächlichen Zeichen weicht von der Anzahl der sichtbaren Zeichen
-    ab, da für die tatsächliche Anzahl der HTML-Code verwendet wird.
+    Eine Mitteilung ist auf 32.000 Zeichen begrenzt. Rechts unten im Textfeld der Mitteilung zeigt OpenOlat, wie viele Zeichen bereits verbraucht sind, und meldet beim Speichern, wenn die Grenze überschritten ist. Gezählt wird der HTML-Code der Mitteilung, deshalb liegt die Zahl über der Anzahl sichtbarer Zeichen.
 
 !!! tip "Tipp"
 
-    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Mitteilungen](../learningresources/Using_Additional_Course_Features.de.md)".
+    Für eine Ankündigung an den ganzen Kurs, die keinen Platz im Kursmenü braucht, eignet sich das gleichnamige Werkzeug "[Mitteilungen](../learningresources/Using_Additional_Course_Features.de.md)" in der Toolbar. Es lässt sich nicht konfigurieren: Besitzende und Betreuende verfassen dort Mitteilungen, Teilnehmende abonnieren sie bei Bedarf selbst. Den Kursbaustein nehmen Sie, wenn die Mitteilungen an einer bestimmten Stelle im Kursmenü stehen sollen oder wenn Sie Anzeige, Berechtigungen, automatisches Abonnieren und Zugang selbst festlegen wollen.
 
 ## Mitteilung verfassen und versenden [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9594)" }](https://track.frentix.com/issue/OO-9594) {: #create_notification}
 

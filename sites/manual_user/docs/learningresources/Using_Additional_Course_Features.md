@@ -3,11 +3,11 @@
 Course owners can additionally activate certain toolbar tools under:<br>
 `Course > Administration > Settings`
 
-![Selection of the activatable tools in the Toolbar tab of the course settings](assets/Toolbar1.png){ class="shadow lightbox" }
+![Selection of the activatable tools in the Toolbar tab of the course settings](assets/Toolbar1.png){ class="shadow lightbox" title="Tab Toolbar of the course settings" }
 
 Activated tools are then displayed directly in the toolbar, independent of the course structure.
 
-![Administration, State, Role and My course frame the activated tools, which appear with icon and label and wrap onto a second row. Toolbar of a course.](assets/course_toolbar_activated_tools_v1_en.png){ class="shadow lightbox" }
+![Administration, State, Role and My course frame the activated tools, which appear with icon and label and wrap onto a second row. Toolbar of a course.](assets/course_toolbar_activated_tools_v1_en.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 ## Course Search [:octicons-tag-16:{ title="from Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 
@@ -17,7 +17,7 @@ In addition to the full text search for all of OpenOlat, a course search can be 
 * Content of HTML pages
 * Documents in folders
 * Title and content of forum entries
-* Title and content of notifications
+* Title and content of info messages
 * Wiki entries
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Search function](<https://www.youtube.com/embed/GlUCyVl11ic>){:target="_blank"}
@@ -30,11 +30,11 @@ New appointments can be created simply by clicking on the desired date. You can 
 
 You can adjust appointments by clicking on the appointment and selecting the "Edit" option. Here you can also set links to course elements or external websites, or delete the appointment.
 
-If you want to delete all appointments of a course calendar, you can do this via the gear icon in the calendar area with the option "Reset calendar".
+You delete all appointments of a course calendar via the gear icon in the calendar area with the option "Reset calendar".
 
-![Option "Reset calendar" in the calendar list menu](assets/Kalender_zuruecksetzen.png){ class="shadow lightbox" }
+![Option "Reset calendar" in the calendar list menu](assets/Kalender_zuruecksetzen.png){ class="shadow lightbox" title="Dialog Calendar list" }
 
-By default, only course owners can create appointments in the calendar. Participants only have read rights and can neither create new appointments nor edit existing ones. If participants should be able to create appointments themselves, a course element "Calendar" can be added instead of the toolbar calendar and configured accordingly.
+By default, only course owners can create appointments in the calendar. Participants only have read rights and can neither create new appointments nor edit existing ones. If participants should be able to create appointments themselves, add a course element "Calendar" instead of the toolbar calendar and configure it accordingly.
 
 Course calendars are automatically transferred to the [personal calendar](../personal_menu/Calendar.md) of course members. Thus all dates can also be called up directly via the personal OpenOlat calendar. The same applies to group calendars. For group calendars, the group administration can be used to set which write or read rights the members receive.
 
@@ -42,15 +42,20 @@ Course calendars are automatically transferred to the [personal calendar](../per
 
 Here all course owners, coaches and participants of a course can be displayed centrally. Participants can send e-mails to specific persons, even to individual course members, via the participant list. In contrast to the [course element "Participant list"](../learningresources/Course_Element_Participant_List.md), no further configurations can be made here.
 
-## Notifications
+## Info messages
 
-This tool corresponds to the [course element "Notifications"](../learningresources/Course_Element_Notifications.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element, no further configurations can be made here.
+With the tool "Info messages", you address an announcement to the entire course without placing a course element in the course menu. Owners and coaches create the info messages. Participants subscribe to the tool themselves if needed and are then notified when a new info message appears.
+
+In contrast to the [course element "Info messages"](../learningresources/Course_Element_Notifications.md), the tool cannot be configured. Display, user rights, automatic subscription and access are defined in the course element only. Use the course element if the info messages should appear at a specific place in the course menu or if you need these settings.
+
+You switch the tool on under:<br>
+`Course > Administration > Settings > Tab "Toolbar"`, in the row "Info messages" with the checkbox "On".
 
 ## E-Mail
 
 Here course owners can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owners", "coaches" and "participants". A further differentiation is not possible. If you need more differentiated settings for sending mails to course members, you should use the [course element "E-Mail"](../learningresources/Course_Element_EMail.md) or the [course element "Participant list"](../learningresources/Course_Element_Participant_List.md).
 
-## Teams Online-Meeting
+## Teams Online-Meeting [:octicons-tag-16:{ title="from Release 15.4 (OO-5151)" }](https://track.frentix.com/issue/OO-5151){:target="_blank"}
 
 Similar to the [Microsoft Teams course element](../learningresources/Course_Element_Microsoft_Teams.md), rooms for synchronous meetings with Teams can be created here.
 
@@ -92,19 +97,19 @@ When opening the chat, each course member can choose whether to participate unde
 
 In a glossary, the terms of a course, a subject or an event can be explained. The terms are automatically sorted alphabetically and can be accessed by clicking on the corresponding initial letter.
 
-If teachers activate the glossary in the "Toolbar" tab of the course settings, a specific glossary still needs to be selected or created in the next step. To do this, switch to the "Options" tab. Here you can select an existing learning resource Glossary or create a new learning resource Glossary.
+If teachers activate the glossary under `Course > Administration > Settings > Tab "Toolbar"`, a specific glossary still needs to be selected or created in the next step. To do this, switch to the "Options" tab. Here you can select an existing learning resource Glossary or create a new learning resource Glossary.
 
 Once a glossary is defined, the glossary link appears in the toolbar, and users can open the entire glossary in a new window or display glossary terms in learning content, e.g. in the course element HTML page, Page, or forum postings.
 
 As a course owner, once you have opened the glossary via the corresponding link, you can add entries, regardless of whether you are also the owner of the glossary learning resource.
 
-Enter the term you want to define as well as any synonyms. Switch to the "Definition" tab and add the definition of the term. Save the entries and you are done.
+Enter the term you want to define as well as any synonyms. Switch to the "Definition" tab and add the definition of the term. Then save the entries.
 
-![Entering a term and synonyms when creating a glossary entry](assets/glossary_add.png){ class="shadow lightbox" }
+![Entering a term and synonyms when creating a glossary entry](assets/glossary_add.png){ class="shadow lightbox" title="Dialog Glossary: add term" }
 
-All entries can of course also be changed or deleted later.
+All entries can be changed or deleted later.
 
-!!! info "Note"
+!!! info "Important"
 
     Please note: only *one* glossary can be integrated per course.
 
@@ -123,9 +128,9 @@ There are two ways to do this:
 
 **Define write permissions in the learning resource Glossary**
 
-Switch to the author area and open the desired learning resource "Glossary". Here, in the "Write permission" tab, you can define whether only the owners of the learning resource may create and edit entries, or whether users are also granted this right.
+Switch to the author area and open the desired learning resource "Glossary". Here, in the "Write permissions" tab, you can define whether only the owners of the learning resource may create and edit entries, or whether users are also granted this right.
 
-![Activating write permission for all users in the Write permission tab of the learning resource Glossary](assets/glossary_permission.png){ class="shadow lightbox" }
+![Activating write permission for all users in the Write permission tab of the learning resource Glossary](assets/glossary_permission.png){ class="shadow lightbox" title="Tab Write permissions of the learning resource Glossary" }
 
 **Define write permissions for specific persons of the course**
 
@@ -142,7 +147,7 @@ Now the persons in the group can add and change glossary entries.
 **Mentioned on this page**<br>
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Course Element "Participant list" >](../learningresources/Course_Element_Participant_List.md)<br>
-[Course Element "Notifications" >](../learningresources/Course_Element_Notifications.md)<br>
+[Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
 [Course Element "E-Mail" >](../learningresources/Course_Element_EMail.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
 [Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
@@ -151,6 +156,10 @@ Now the persons in the group can add and change glossary entries.
 [Course Element "Forum" >](../learningresources/Course_Element_Forum.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
 [Members management >](Members_management.md)
+
+**Further reading**<br>
+[Course Settings - Tab Toolbar >](../learningresources/Course_Settings_Toolbar.md)<br>
+[Toolbar: Overview >](../learningresources/Toolbar.md)
 
 **youtube**<br>
 [Search function](<https://www.youtube.com/embed/GlUCyVl11ic>)

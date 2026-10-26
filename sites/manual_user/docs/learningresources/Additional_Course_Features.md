@@ -66,7 +66,7 @@ Course owners and coaches first get an overview of all participants via the "Lea
 * [Course search](../basic_concepts/Search_in_Course.md): Search the course by keywords
 * **Course calendar**: Access to the course-specific calendar
 * Participant list: Overview of **course members**
-* **Notifications**: Here, the teacher can store central course information.
+* **Info messages**: Here, the teacher can store central course information.
 * **E-mail**: Contact option for the course owners and coaches
 * **BigBlueButton** (or other virtual classrooms): For synchronous meetings
 * **Blog**: Access to a central course blog

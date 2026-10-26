@@ -395,7 +395,7 @@ Reminders can also be triggered specifically and repeatedly. However, reminders 
 Other OpenOlat tools that can also be used for reminders in other ways:
 
 [User tools: E-Mail >](../personal_menu/E-Mail.md)<br>
-[Course Element "Notifications" >](../learningresources/Course_Element_Notifications.md)<br>
+[Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)
 
 [To the top of the page ^](#course_reminders)

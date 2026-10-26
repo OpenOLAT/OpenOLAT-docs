@@ -6,7 +6,7 @@ Einige Lernressourcen können direkt im Autorenbereich erstellt werden.<br>
 Darüber hinaus können [weitere Lernressourcen-Typen](#further_learningresources) erstellt oder importiert werden.
 
 
-![Aufgeklapptes Menü Erstellen mit den zehn direkt erstellbaren Lernressourcen-Typen, daneben der Button Datei importieren, Autorenbereich](assets/learning_resources_v1_de.png){ class="shadow lightbox" }
+![Aufgeklapptes Menü Erstellen mit den zehn direkt erstellbaren Lernressourcen-Typen, daneben der Button Datei importieren, Autorenbereich](assets/learning_resources_v1_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich" }
 
 ---
 
@@ -21,7 +21,7 @@ Ein OpenOlat-Kurs kann als reiner Online-Kurs eingesetzt werden oder Vorlesungen
 Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine"](Course_Elements.de.md).
 
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -35,7 +35,7 @@ OpenOlat-Tests können sowohl zu Prüfungs- als auch zu Übungszwecken verwendet
 
 Mehr Informationen zum Einsatz und zur Erstellung von Tests finden Sie im Kapitel ["Tests erstellen"](../learningresources/Test.de.md).
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -47,7 +47,7 @@ Mehr Informationen zum Einsatz und zur Erstellung von Tests finden Sie im Kapite
 
 Ein Content-Packaging (kurz CP) ist ein Lerninhalt in einem standardisierten E-Learning-Format. Die Spezifikation dieses Datenformats kommt ebenfalls von [IMS bzw. 1EdTech Consortium](https://de.wikipedia.org/wiki/IMS_Content_Packaging "IMS bzw. 1EdTech Consortium"). OpenOlat unterstützt die IMS-CP Version 1.1.2. CPs eignen sich für die Verwendung in OpenOlat-Kursen oder auch ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Lerninhalte nicht nur in OpenOlat, sondern auch in anderen LMS verwendet werden können. Mehr Informationen zur Erstellung von Content-Packagings finden Sie im Kapitel ["CP-Lerninhalt erstellen"](../learningresources/CP_Editor.de.md).
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -61,7 +61,7 @@ Mit Wikis können auf einfache Weise gemeinsam Inhalte erstellt werden. Ein Wiki
 
 Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und sinnvoll arbeiten, erfahren Sie im Kapitel [Kursbaustein "Wiki"](../learningresources/Course_Element_Wiki.de.md).
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -75,7 +75,7 @@ Ein Podcast ermöglicht den Upload von Audio- oder Videodateien, die anschliesse
 
 Weitere Informationen zum Thema Podcast finden Sie im Kapitel ["Podcast: Übersicht"](../learningresources/Podcast.de.md).
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -83,13 +83,13 @@ Weitere Informationen zum Thema Podcast finden Sie im Kapitel ["Podcast: Übersi
 
 ![Eintrag Blog markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_blog_v1_de.png){ class="aside-right lightbox"}
 
-:fontawesome-solid-bullhorn:
+:o_icon_o_FileResource-BLOG_icon:
 
 In einem Blog können fachbezogene oder persönliche Informationen zeitlich strukturiert veröffentlicht und kommentiert werden. Blogs werden häufig als Online-Tagebuch oder Online-Journal eingesetzt. In Kursen eingebundene Blogs können auch von Teilnehmenden auf einfache Art bewertet und kommentiert werden.
 
 Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources/Course_Element_Blog.de.md). Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden, finden Sie im ["How to Bereich"](../../manual_how-to/blog/blog.de.md).
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -99,7 +99,7 @@ Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources
 
 Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafiken usw.) in mehreren Kursen verwendet werden. Dabei werden die Dateien aus dem Ressourcenordner referenziert und müssen somit nicht mehrfach erstellt werden. Der verknüpfte Ressourcenordner wird in den Dateien des verknüpften Kurses unter `_sharedfolder` angezeigt, und es besteht Zugriff auf alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass nur *ein* Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere Informationen finden Sie im Kapitel ["Kurseinstellungen"](../learningresources/Course_Settings.de.md#options) im Tab "Optionen".
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -113,7 +113,7 @@ Formulare können in OpenOlat für vielfältige Zwecke und an unterschiedlichen 
 
 Mehr Informationen zum Einsatz und zur Erstellung von Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel [Formulare erstellen](../learningresources/Form.de.md).
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -125,7 +125,7 @@ Mehr Informationen zum Einsatz und zur Erstellung von Formularen für Umfragen, 
 
 Eine Portfolio 2.0 Vorlage beinhaltet Aufgaben, die im Rahmen eines Portfolio-Assessments genutzt und als Portfolioaufgabe in einen OpenOlat-Kurs eingebunden werden können. Mit Hilfe einer Portfolio 2.0 Vorlage können Lehrende eine strukturierte Portfoliomappe gestalten, die die Lernenden abholen und bearbeiten können. Weitere Informationen zur [Portfolio 2.0 Vorlage](Portfolio_template_Creation.de.md) erhalten Sie im entsprechenden Kapitel.
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -139,7 +139,7 @@ In einem Glossar können Begriffe und Definitionen abgelegt und alphabetisch sor
 
 Weitere Infos zur [Erstellung](../learningresources/Glossary_create.de.md) und [Verwendung](../learningresources/Glossary_usage.de.md) von Glossaren finden Sie in den entsprechenden Kapiteln.
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -156,7 +156,7 @@ Ein standardisiertes E-Learning-Format, das von OpenOlat unterstützt wird, ist 
 
 SCORM-Module können in OpenOlat nicht erstellt, sondern nur importiert werden.
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -166,7 +166,7 @@ SCORM-Module können in OpenOlat nicht erstellt, sondern nur importiert werden.
 
 Audiodateien können in OpenOlat hochgeladen und an einigen Stellen auch direkt [in OpenOlat aufgenommen](../learningresources/Audio_Recording.de.md) werden.
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -176,7 +176,7 @@ Audiodateien können in OpenOlat hochgeladen und an einigen Stellen auch direkt 
 
 OpenOlat verwendet Video-Lerninhalt im MPEG-4-Format mit der Dateiendung MP4. Die Lernressource Video kann in OpenOlat über "Datei importieren" oder "Per URL einbinden" hinzugefügt und anschliessend weiter konfiguriert werden. OpenOlat unterstützt die Anzeige von Untertiteln in mehreren Sprachen, integrierte Quizzes, Anmerkungen und Sprungmarken. Generelle Informationen finden Sie im Kapitel [Lernressource: Video](../learningresources/Learning_resource_Video.de.md).
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)
 
 ---
 
@@ -194,4 +194,4 @@ Zudem können Sie, sofern ein entsprechender Dokumenteneditor aktiviert ist, Wor
     Diagramm-Dateien (draw.io) lassen sich hier in der Regel nicht direkt erstellen. Nutzen Sie dafür z.B. das Media Center, einen Kurs oder den Bereich "Projekte".
 
 
-[zum Seitenanfang ^](#learning_resources)
+[Zum Seitenanfang ^](#learning_resources)

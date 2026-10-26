@@ -6,7 +6,7 @@ Some learning resources can be created directly in the authoring area.<br>
 In addition, [further learning resource types](#further_learningresources) can be created or imported.
 
 
-![Expanded Create menu with the ten learning resource types that can be created directly, next to it the button Import file, authoring area](assets/learning_resources_v1_de.png){ class="shadow lightbox" }
+![Expanded Create menu with the ten learning resource types that can be created directly, next to it the button Import file, authoring area](assets/learning_resources_v1_de.png){ class="shadow lightbox" title="Create menu in the authoring area" }
 
 ---
 
@@ -83,7 +83,7 @@ Further information on podcasts can be found in the chapter ["Podcast: Overview"
 
 ![Entry Blog highlighted in the Create menu of the authoring area](assets/learning_resource_blog_v1_de.png){ class="aside-right lightbox"}
 
-:fontawesome-solid-bullhorn:
+:o_icon_o_FileResource-BLOG_icon:
 
 In a blog, subject-related or personal information can be published and commented on in a time-structured manner. Blogs are often used as an online diary or online journal. Blogs embedded in courses can also be rated and commented on easily by participants.
 

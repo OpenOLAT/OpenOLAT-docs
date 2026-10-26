@@ -379,7 +379,7 @@ In user management, the [self-defined roles](#relations) appear under "User role
 [Course Element "Participant list" >](../learningresources/Course_Element_Participant_List.md)<br>
 [Course Element "LTI Page" >](../learningresources/Course_Element_LTI_Page.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
-[Course Element "Notifications" >](../learningresources/Course_Element_Notifications.md)<br>
+[Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
 [Course Element "OpenMeetings" >](../learningresources/Course_Element_OpenMeetings.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
 [Course Element "Podcast" >](../learningresources/Course_Element_Podcast.md)<br>

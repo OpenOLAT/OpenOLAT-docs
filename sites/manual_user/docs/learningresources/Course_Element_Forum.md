@@ -177,7 +177,7 @@ Especially interesting for more complex discussions is also the view "one". The 
 
 ### Alternatives
 
-a) You can also use the forum as an alternative for the [Notification element](../learningresources/Course_Element_Notifications.md) for announcements from the course authors, especially if queries from learners are desired.
+a) You can also use the forum as an alternative for the [course element "Info messages"](../learningresources/Course_Element_Notifications.md) for announcements from the course authors, especially if queries from learners are desired.
 
 b) In addition to the course element "Forum", there is also the option of displaying a central forum for the entire course in the [Course Toolbar](../learningresources/Using_Additional_Course_Features.md). This is often useful if the course only includes _one_ forum that is to be permanently available. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
 
@@ -191,7 +191,7 @@ c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a 
 
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [Personal Configuration: Profile >](../personal_menu/Profile.md)<br>
-[Course Element Notifications >](../../manual_user/learningresources/Course_Element_Notifications.md)<br>
+[Course Element "Info messages" >](../../manual_user/learningresources/Course_Element_Notifications.md)<br>
 [Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)<br>
 [Course Element File Dialog >](../../manual_user/learningresources/Course_Element_File_Dialog.md)<br>
 [Course Element Blog >](../../manual_user/learningresources/Course_Element_Blog.md)

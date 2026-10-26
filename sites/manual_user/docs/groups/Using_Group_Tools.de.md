@@ -1,13 +1,13 @@
 # Gruppenwerkzeuge nutzen {: #group_tools}
 
-Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration können Gruppen**betreuer:innen** für die Teilnehmer:innen eine Auswahl treffen. Gruppen**teilnehmer:innen** sehen im Gruppenmenü links dann (je nach Aktivierung) folgende Punkte:
+Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration treffen Gruppenbetreuer:innen für die Teilnehmer:innen eine Auswahl. Gruppenteilnehmer:innen sehen im Gruppenmenü links dann (je nach Aktivierung) folgende Punkte:
 
 
 
 | Symbol | Name |   | Beschreibung |
 | ------ | ---- | - | ------------ |
-| :o_icon_o_icon_news: | Information | :material-rss: | Die "Information" ähnelt den "Teilnehmerinfos" der Toolbar bzw. dem Kursbaustein "Mitteilungen" in Kursen. Wer die entsprechende Berechtigung hat, kann Mitteilungen für alle Gruppenmitglieder erstellen und diese Informationen, wenn gewünscht, auch per Mail an Abonnenten, Betreuer:innen und Teilnehmer:innen verschicken. Der/die Gruppenbetreuer:in kann einstellen, ob auch Gruppenteilnehmer:innen Informationen erstellen und verschicken dürfen. | 
-| :o_icon_o_calendar_icon: | Kalender | :material-rss: | Verwalten Sie die Termine Ihrer Gruppe über den Gruppenkalender. Je nach Konfiguration haben Sie Schreib- oder nur Leserechte. Weitere allgemeine Informationen zum Kalender finden Sie [hier](../personal_menu/Calendar.de.md). | 
+| :o_icon_o_icon_news: | Information | :material-rss: | Die "Information" ähnelt dem Werkzeug "Mitteilungen" der Toolbar und dem gleichnamigen Kursbaustein in Kursen. Wer die entsprechende Berechtigung hat, kann Mitteilungen für alle Gruppenmitglieder erstellen und diese Informationen, wenn gewünscht, auch per Mail an Abonnent:innen, Betreuer:innen und Teilnehmer:innen verschicken. Gruppenbetreuer:innen können einstellen, ob auch Gruppenteilnehmer:innen Informationen erstellen und verschicken dürfen. |
+| :o_icon_o_calendar_icon: | Kalender | :material-rss: | Verwalten Sie die Termine Ihrer Gruppe über den Gruppenkalender. Je nach Konfiguration haben Sie Schreib- oder nur Leserechte. Weitere allgemeine Informationen zum Kalender finden Sie [hier](../personal_menu/Calendar.de.md). |
 | ![Symbol Kurs](assets/course.png){ class=size32 } | Kurs |  | Sofern die Gruppe mit einem oder mehreren Kursen verbunden ist, können diese über den Link in der Gruppennavigation angezeigt und  aufgerufen werden. |
 | ![Symbol Mitglieder](assets/members.png){ class=size32 } | Mitglieder |  | Sofern die Anzeige aktiviert ist, sehen Sie eine Liste mit allen Teilnehmer:innen und/oder Betreuer:innen der Gruppe. Je nach Einstellung ist auch die Warteliste sichtbar. Die Liste kann je nach Konfiguration heruntergeladen und gedruckt werden. An die Mitglieder können E-Mails verschickt werden. |
 | :o_icon_o_co_icon: | E-Mail |  | Schicken Sie allen oder ausgewählten Gruppenbetreuer:innen oder -teilnehmer:innen eine E-Mail. |
@@ -17,33 +17,30 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration können Gruppen**b
 | ![Symbol Wiki](assets/wiki.png){ class=size32 } | Wiki | :material-rss:  | Nutzen Sie das Wiki, um gemeinsam Inhalte zu erstellen. |
 | :o_icon_o_ep_icon: | Portfolio |  | Nutzen Sie das Portfolio, um gemeinsam eine Sammelmappe zu erstellen und Einträge hinzuzufügen. |
 | ![Symbol OpenMeetings](assets/openmeetings.png){ class=size32 } | OpenMeetings |  | Nutzen Sie OpenMeetings zur Online Kommunikation und Kollaboration in virtuellen Räumen. |
-| ![Symbol BigBlueButton](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Nutzen Sie BigBluebutton zur Online Kommunikation und Kollaboration in virtuellen Räumen. Bei entsprechender Freigabe der Raumvorlagen können sowohl Gruppenbetreuer:innen als auch Gruppenmitglieder neue Meetings für gemeinsame Online-Session anlegen. Auch im Gruppenwerkzeug stehen die Aufzeichnungen nach Meeting-Ende für einen weiteren Zugriff bereit. Die Funktionalität ist im [Kursbaustein BigBlueButton](../learningresources/bigbluebutton/index.de.md) näher beschrieben. |
-| ![Symbol Microsoft Teams](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Nutzen Sie MS Teams zur Online Kommunikation und Kollaboration in virtuellen Räumen. Bei entsprechender Konfiguration durch den/die Gruppenbetreuer:in können sowohl Gruppenbetreuer:innen als auch Gruppenmitglieder neue Online-Termine anlegen. Ob dabei auch permanente Reservierungen ohne Datum zur Wahl stehen, legt die System-Administration fest [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9666)" }](https://track.frentix.com/issue/OO-9666). Die Funktionalität ist im [Kursbaustein "Microsoft Teams"](../learningresources/Course_Element_Microsoft_Teams.de.md) näher beschrieben. |
+| ![Symbol BigBlueButton](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Nutzen Sie BigBlueButton zur Online Kommunikation und Kollaboration in virtuellen Räumen. Bei entsprechender Freigabe der Raumvorlagen können sowohl Gruppenbetreuer:innen als auch Gruppenmitglieder neue Meetings für gemeinsame Online-Session anlegen. Auch im Gruppenwerkzeug stehen die Aufzeichnungen nach Meeting-Ende für einen weiteren Zugriff bereit. Die Funktionalität ist im [Kursbaustein BigBlueButton](../learningresources/bigbluebutton/index.de.md) näher beschrieben. |
+| ![Symbol Microsoft Teams](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Nutzen Sie MS Teams zur Online Kommunikation und Kollaboration in virtuellen Räumen. Bei entsprechender Konfiguration durch die Gruppenbetreuer:innen können sowohl Gruppenbetreuer:innen als auch Gruppenmitglieder neue Online-Termine anlegen. Ob dabei auch permanente Reservierungen ohne Datum zur Wahl stehen, legt die System-Administration fest [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9666)" }](https://track.frentix.com/issue/OO-9666). Die Funktionalität ist im [Kursbaustein "Microsoft Teams"](../learningresources/Course_Element_Microsoft_Teams.de.md) näher beschrieben. |
 
-!!! info ""
+!!! info "Wichtig"
 
-	Die mit einem :material-rss: markierten Werkzeuge können abonniert werden, so dass man schnell über Änderungen informiert wird.
+    Die mit einem :material-rss: markierten Werkzeuge können abonniert werden, so dass man schnell über Änderungen informiert wird.
 
 !!! info "Virtuelle Klassenräume"
 
-	Je nach Konfiguration durch den OpenOlat
-	[Administrator](../../manual_admin/administration/External_Tools_-_Administration.de.md), stehen
-	unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton,
-	Microsoft Teams als Gruppenwerkzeug zur Verfügung.
+    Je nach Konfiguration durch die OpenOlat-[Administrator:innen](../../manual_admin/administration/External_Tools_-_Administration.de.md) stehen unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton oder Microsoft Teams als Gruppenwerkzeug zur Verfügung.
 
 
 
-!!! info "Gruppenkalender in Verbindung mit Kurskalendern" 
+!!! info "Gruppenkalender in Verbindung mit Kurskalendern"
 
-	In einem Gruppenkalender sehen die Gruppenteilnehmer:innen alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind.
+    In einem Gruppenkalender sehen die Gruppenteilnehmer:innen alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind.
 
-	Ist die Gruppe einem Kurs zugeordnet, werden im Kurskalender den Gruppenteilnehmer:innen folgende Einträge angezeigt:
+    Ist die Gruppe einem Kurs zugeordnet, werden im Kurskalender den Gruppenteilnehmer:innen folgende Einträge angezeigt:
 
-	- öffentliche Einträge der Gruppe,
-	- die eigenen Gruppenkalendereinträge des jeweiligen Gruppenmitglieds,
-	- sowie die kurspezifischen Kalendereinträge. 
+    - öffentliche Einträge der Gruppe,
+    - die eigenen Gruppenkalendereinträge des jeweiligen Gruppenmitglieds,
+    - sowie die kursspezifischen Kalendereinträge.
 
-	Personen die nicht Mitglied der Gruppe sind, sehen im Kurskalender die Kalendereinträge der anderen Gruppen nicht. Sind einem Kurs mehrere Gruppen zugeordnet, sehen die Mitglieder also nur die eigenen Gruppenkalendereinträge, aber nicht die der anderen Gruppen.
+    Personen, die nicht Mitglied der Gruppe sind, sehen im Kurskalender die Kalendereinträge der anderen Gruppen nicht. Sind einem Kurs mehrere Gruppen zugeordnet, sehen die Mitglieder also nur die eigenen Gruppenkalendereinträge, aber nicht die der anderen Gruppen.
 
 [Zum Seitenanfang ^](#group_tools)
 
@@ -54,6 +51,8 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration können Gruppen**b
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
 [Kursbaustein "BigBlueButton" >](../learningresources/bigbluebutton/index.de.md)<br>
 [Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
+[Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)
 
 [Zum Seitenanfang ^](#group_tools)

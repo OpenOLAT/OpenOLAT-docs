@@ -21,7 +21,7 @@ Example of a typical toolbar that applies to most learning resources such as blo
 
 The toolbar of a course, on the other hand, can contain further elements and tools:
 
-![Administration, Status, Course info, Learning path, Calendar, Participant list, Participant infos, E-Mail, Role and My course, below a second row with course tools](assets/Kurs_toolbar.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Administration, Status, Course info, Learning path, Calendar, Participant list, Info messages, E-Mail, Role and My course, below a second row with course tools](assets/Kurs_toolbar.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 The toolbar of the Portfolio 2.0 template is more for configuration purposes:
 

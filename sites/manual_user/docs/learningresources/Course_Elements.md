@@ -111,7 +111,7 @@ The following course elements are particularly suitable for organizational matte
 <div class="grid cards" markdown>
 
 * [:o_icon_o_en_icon: Enrolment](Course_Element_Enrolment.md)
-* [:o_icon_o_infomsg_icon: Notifications](Course_Element_Notifications.md)
+* [:o_icon_o_infomsg_icon: Info messages](Course_Element_Notifications.md)
 * [:o_icon_o_co_icon: E-Mail](Course_Element_EMail.md)
 * [:o_icon_o_icon_topicbroker: Topic Broker](Course_Element_Topic_Broker.md)
 * [:o_icon_o_cal_icon: Calendar](Course_Element_Calendar.md)

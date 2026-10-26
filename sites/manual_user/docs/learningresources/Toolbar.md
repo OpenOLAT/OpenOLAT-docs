@@ -93,11 +93,11 @@ The participant list can also include contact options in the list of all course 
 
 ---
 
-### Notifications {: #notifications}
+### Info messages {: #notifications}
 
 ![Icon Notifications highlighted in the toolbar](assets/toolbar_notifications_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
-In the notifications, teachers can store information about the entire course centrally.<br>
+In the info messages, teachers can store information about the entire course centrally.<br>
 [More >](../learningresources/Course_Element_Notifications.md)
 
 ---

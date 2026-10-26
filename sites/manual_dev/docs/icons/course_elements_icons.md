@@ -1,8 +1,8 @@
-# Course Elements — Icon Reference
+# Course Elements: Icon Reference
 
 This page lists every course element with its real OpenOlat icon, ready to use in the manual.
 
-Icons are rendered with the `:o_icon_<class>:` syntax — a MkDocs hook (`hooks/oo_icons.py`) that turns the token directly into `<i class="o_icon <class>" aria-hidden="true"></i>`, styled by `docs/stylesheets/oo-docs.css` (synced from OpenOlat's own `_icons.scss` via `bin/sync_docs_css.py`). This shows the exact icon OpenOlat uses — including the custom OpenOlat-font glyphs and layered/mirrored icons that a FontAwesome substitute could never reproduce.
+Icons are rendered with the `:o_icon_<class>:` syntax, a MkDocs hook (`hooks/oo_icons.py`) that turns the token directly into `<i class="o_icon <class>" aria-hidden="true"></i>`, styled by `docs/stylesheets/oo-docs.css` (synced from OpenOlat's own `_icons.scss` via `bin/sync_docs_css.py`). This shows the exact icon OpenOlat uses, including the custom OpenOlat-font glyphs and layered/mirrored icons that a FontAwesome substitute could never reproduce.
 
 **Usage:** insert an icon into a manual page with its CSS class, e.g.:
 
@@ -40,7 +40,7 @@ Icons are rendered with the `:o_icon_<class>:` syntax — a MkDocs hook (`hooks/
 | :o_icon_o_dialog_icon:{: style="padding-right:4px;" } | Dateidiskussion | File Dialog | `dialog` | `o_dialog_icon` |
 | :o_icon_o_co_icon: | E-Mail | E-Mail | `co` | `o_co_icon` |
 | :o_icon_o_fo_icon: | Forum | Forum | `fo` | `o_fo_icon` |
-| :o_icon_o_infomsg_icon: | Mitteilungen | Notifications | `info` | `o_infomsg_icon` |
+| :o_icon_o_infomsg_icon: | Mitteilungen | Info messages | `info` | `o_infomsg_icon` |
 | :o_icon_o_cmembers_icon: | Teilnehmerliste | Participant List | `cmembers` | `o_cmembers_icon` |
 
 ---
@@ -97,7 +97,7 @@ Icons are rendered with the `:o_icon_<class>:` syntax — a MkDocs hook (`hooks/
 
 ### Third-party Integrations
 
-These use OpenOlat's own custom icon font (fontello-built) rather than FontAwesome — glyphs FontAwesome doesn't have for these external brands. The `:o_icon_<class>:` syntax renders them exactly like any other icon on this page; no special handling needed.
+These use OpenOlat's own custom icon font (fontello-built) rather than FontAwesome: glyphs FontAwesome doesn't have for these external brands. The `:o_icon_<class>:` syntax renders them exactly like any other icon on this page; no special handling needed.
 
 | Icon | Name DE | Name EN | Alias | CSS Class |
 |------|---------|---------|-------|-----------|

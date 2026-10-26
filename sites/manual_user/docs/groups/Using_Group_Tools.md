@@ -1,11 +1,11 @@
 # Using Group Tools {: #group_tools}
 
-Group **coaches** have a full range of group collaboration tools they can choose for participants.
-Group **participants** will then see the following items in the group menu on the left (depending on activation):
+Group coaches have a full range of group collaboration tools they can choose for participants.
+Group participants will then see the following items in the group menu on the left (depending on activation):
 
 | Icon | Name |   | Description |
 | ---- | ---- | - | ----------- |
-| :o_icon_o_icon_news: | Information | :material-rss: | The "Information" is similar to the "Participant info" of the toolbar or the course element "Messages" in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by email to subscribers, coaches and participants. The group administrator can set whether group members can also create and send information. |
+| :o_icon_o_icon_news: | Information | :material-rss: | The "Information" is similar to the tool "Info messages" of the toolbar and the course element of the same name in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by email to subscribers, coaches and participants. Group coaches can set whether group members can also create and send information. |
 | :o_icon_o_calendar_icon: | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. More general information about the calendar can be found [here](../personal_menu/Calendar.md). |
 | ![Course icon](assets/course.png){ class=size32 } | Course |  | If the group is linked to one or more courses, these can be displayed and accessed via the link in the group navigation. |
 | ![Members icon](assets/members.png){ class=size32 } | Members |  | Here you will see a list containing all group participants and/or its coaches if activated. Depending on the settings, the waiting list might be visible too. Depending on the configuration the list can be downloaded and printed. E-mails can be sent to the members. |
@@ -20,30 +20,27 @@ Group **participants** will then see the following items in the group menu on th
 | ![Microsoft Teams icon](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Use MS Teams for online communication and collaboration in virtual spaces. With appropriate configuration by the group coach, both group coaches and group members can create new online meetings. Whether permanent reservations without a date are also available is defined by the system administration [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9666)" }](https://track.frentix.com/issue/OO-9666). The functionality is described in more detail in the [course element "Microsoft Teams"](../learningresources/Course_Element_Microsoft_Teams.md). |
 
 
-!!! info ""  
+!!! info "Important"
 
-	The tools marked with :material-rss: can be subscribed to, so that you are quickly informed about changes.
+    The tools marked with :material-rss: can be subscribed to, so that you are quickly informed about changes.
 
 !!! info "Virtual classrooms"
 
-	Depending on the configuration by the OpenOlat 
-	[Administrator](../../manual_admin/administration/External_Tools_-_Administration.md), different
-	virtual classrooms such as OpenMeetings, BigBlueButton,
-	Microsoft Teams are available as group tools.
+    Depending on the configuration by the OpenOlat [administrators](../../manual_admin/administration/External_Tools_-_Administration.md), different virtual classrooms such as OpenMeetings, BigBlueButton or Microsoft Teams are available as group tools.
 
 
 
-!!! info "Group calendars in conjunction with course calendars" 
+!!! info "Group calendars in conjunction with course calendars"
 
-	In a group calendar, the group participants can see all the entries of the group members, regardless of whether the appointments are private or public.
+    In a group calendar, the group participants can see all the entries of the group members, regardless of whether the appointments are private or public.
 
-	If the group is assigned to a course, the following entries are displayed to the group participants in the course calendar:
+    If the group is assigned to a course, the following entries are displayed to the group participants in the course calendar:
 
-	- public entries of the group,
-	- the respective group members own group calendar entries,
-	- as well as course specific calendar entries. 
+    - public entries of the group,
+    - the respective group member's own group calendar entries,
+    - as well as course specific calendar entries.
 
-	People who are not members of the group will not see the calendar entries of the other groups in the course calendar. If several groups are assigned to a course, the members will only see their own group calendar entries, but not those of the other groups.
+    People who are not members of the group will not see the calendar entries of the other groups in the course calendar. If several groups are assigned to a course, the members will only see their own group calendar entries, but not those of the other groups.
 
 [To the top of the page ^](#group_tools)
 
@@ -54,6 +51,8 @@ Group **participants** will then see the following items in the group menu on th
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
+[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)
 
 [To the top of the page ^](#group_tools)

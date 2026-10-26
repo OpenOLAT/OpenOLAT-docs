@@ -5,7 +5,7 @@ Kursbesitzer:innen können zusätzlich bestimmte Werkzeuge der Toolbar aktiviere
 
 Aktivierte Werkzeuge werden anschliessend direkt in der Toolbar unabhängig von der Kursstruktur angezeigt.
 
-![Administration, Status, Rolle und Mein Kurs rahmen die aktivierten Werkzeuge ein, die mit Symbol und Beschriftung erscheinen und auf eine zweite Zeile umbrechen. Werkzeugleiste eines Kurses.](assets/course_toolbar_activated_tools_v1_de.png){ class="shadow lightbox" }
+![Administration, Status, Rolle und Mein Kurs rahmen die aktivierten Werkzeuge ein, die mit Symbol und Beschriftung erscheinen und auf eine zweite Zeile umbrechen. Werkzeugleiste eines Kurses.](assets/course_toolbar_activated_tools_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
 ## Kurssuche [:octicons-tag-16:{ title="ab Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 
@@ -26,13 +26,13 @@ Ruft man den Kalender auf öffnet er sich in einem neuen Fenster. Pro Kurs kann 
 
 Neue Termine lassen sich einfach durch einen Klick auf das gewünschte Datum erstellen. Anschliessend können Titel, Beschreibung, Beginn und Ende, Ort, Wiederholungen sowie die Sichtbarkeit festgelegt werden. Der Termin erscheint danach im Kalender bzw. in allen Instanzen des Kurskalenders.
 
-Über einen Klick auf den Termin und die Option „Editieren“ lassen sich Termine anpassen. Hier können auch Verlinkungen zu Kursbausteinen oder externen Webseiten gesetzt oder der Termin gelöscht werden.
+Über einen Klick auf den Termin und die Option "Editieren" lassen sich Termine anpassen. Hier können auch Verlinkungen zu Kursbausteinen oder externen Webseiten gesetzt oder der Termin gelöscht werden.
 
-Sollen alle Termine eines Kurskalenders gelöscht werden, kann dies über das Zahnradsymbol im Kalenderbereich mit der Option „Kalender zurücksetzen“ erfolgen.
+Alle Termine eines Kurskalenders löschen Sie über das Zahnradsymbol im Kalenderbereich mit der Option "Kalender zurücksetzen".
 
-![Option "Kalender zurücksetzen" im Menü der Kalenderliste](assets/Kalender_zuruecksetzen.png){ class="shadow lightbox" }
+![Option "Kalender zurücksetzen" im Menü der Kalenderliste](assets/Kalender_zuruecksetzen.png){ class="shadow lightbox" title="Dialog Kalender Liste" }
 
-Standardmässig können nur Kursbesitzer:innen Termine im Kalender erstellen. Teilnehmende haben lediglich Leserechte und können weder neue Termine anlegen noch bestehende bearbeiten. Sollen Teilnehmende selbst Termine erstellen dürfen, kann statt des Kalenders in der Toolbar ein Kursbaustein „Kalender“ hinzugefügt und entsprechend konfiguriert werden.
+Standardmässig können nur Kursbesitzer:innen Termine im Kalender erstellen. Teilnehmende haben lediglich Leserechte und können weder neue Termine anlegen noch bestehende bearbeiten. Sollen Teilnehmende selbst Termine erstellen dürfen, fügen Sie statt des Kalenders in der Toolbar einen Kursbaustein "Kalender" hinzu und konfigurieren ihn entsprechend.
 
 Kurskalender werden automatisch in den [persönlichen Kalender](../personal_menu/Calendar.de.md) der Kursmitglieder übertragen. So können alle Termine auch direkt über den persönlichen OpenOlat Kalender aufgerufen werden. Gleiches gilt für Gruppenkalender. Bei Gruppenkalendern kann in der Gruppenadministration eingestellt werden welche Schreib- bzw. Leserechte die Mitglieder erhalten.
 
@@ -43,13 +43,18 @@ Das Werkzeug zeigt alle Mitglieder des Kurses, gruppiert unter "Kursadministrato
 
 ## Mitteilungen
 
-Das Tool entspricht dem [Kursbaustein "Mitteilungen"](../learningresources/Course_Element_Notifications.de.md). Teilnehmende können das Tool abonnieren und somit benachrichtigt werden, wenn es neue Informationen gibt. Anders als im Kursbaustein können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
+Mit dem Werkzeug "Mitteilungen" richten Sie eine Ankündigung an den ganzen Kurs, ohne dafür einen Kursbaustein ins Kursmenü zu setzen. Besitzende und Betreuende verfassen die Mitteilungen. Teilnehmende abonnieren das Werkzeug bei Bedarf selbst und werden dann benachrichtigt, wenn eine neue Mitteilung erscheint.
+
+Anders als der [Kursbaustein "Mitteilungen"](../learningresources/Course_Element_Notifications.de.md) lässt sich das Werkzeug nicht konfigurieren. Anzeige, Berechtigungen, automatisches Abonnieren und Zugang legen Sie nur im Kursbaustein fest. Den Kursbaustein nehmen Sie deshalb, wenn die Mitteilungen an einer bestimmten Stelle im Kursmenü stehen sollen oder wenn Sie diese Einstellungen brauchen.
+
+Sie schalten das Werkzeug ein unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Toolbar"`, in der Zeile "Mitteilungen" mit der Checkbox "Ein".
 
 ## E-Mail
 
 Hier können Kursbesitzer:innen konfigurieren an wen die Lernenden über diesen Link Mails verschicken können. Zur Auswahl stehen die drei Kursrollen "Kursbesitzer:innen", "Betreuer:innen" und "Teilnehmer:innen". Eine weitere Differenzierung ist nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an Kursmitglieder benötigen, sollten Sie den [Kursbaustein "E-Mail"](../learningresources/Course_Element_EMail.de.md) oder den [Kursbaustein "Liste der Teilnehmer:innen"](../learningresources/Course_Element_Participant_List.de.md) nutzen.
 
-## Teams Online-Meeting
+## Teams Online-Meeting [:octicons-tag-16:{ title="ab Release 15.4 (OO-5151)" }](https://track.frentix.com/issue/OO-5151){:target="_blank"}
 
 Ähnlich wie im [Kursbaustein Microsoft](../learningresources/Course_Element_Microsoft_Teams.de.md) Teams können hier Räume für synchrone Meetings mit Teams angelegt werden.
 
@@ -91,19 +96,19 @@ Beim Aufruf des Chats kann jedes Kursmitglied wählen, ob es mit dem eigenen Nam
 
 In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Die Begriffe werden automatisch alphabetisch sortiert und können mit Klick auf den entsprechenden Startbuchstaben aufgerufen werden. 
 
-Aktivieren Lehrende das Glossar im Tab „Toolbar“ der Kurseinstellungen, muss im nächsten Schritt noch ein konkretes Glossar ausgewählt oder erstellt werden. Wechseln Sie dafür in den Tab „Optionen“. Hier kann eine existierende Lernressource Glossar ausgewählt oder eine neue Lernressource Glossar erstellt werden. 
+Aktivieren Lehrende das Glossar unter `Kurs > Administration > Einstellungen > Tab "Toolbar"`, muss im nächsten Schritt noch ein konkretes Glossar ausgewählt oder erstellt werden. Wechseln Sie dafür in den Tab "Optionen". Hier kann eine existierende Lernressource Glossar ausgewählt oder eine neue Lernressource Glossar erstellt werden. 
 
 Ist ein Glossar definiert erscheint der Glossar-Link in der Toolbar und User können das gesamte Glossar in einem neuen Fenster öffnen oder Glossarbegriffe in Lerninhalten z.B. im Kursbaustein HTML-Seite, Seite oder Foren-Postings einblenden lassen.  
 
 Als Kursbesitzer:in können Sie, wenn Sie das Glossar über den entsprechenden Link geöffnet haben, Einträge hinzufügen, unabhängig davon, ob Sie auch Besitzer:in der Glossar Lernressource sind.
 
-Geben Sie den Begriff, den Sie definieren möchten sowie eventuelle Synonyme ein. Wechseln Sie zum Tab „Definition“ und ergänzen Sie die Definition des Begriffs. Speichern Sie die Einträge und fertig. 
+Geben Sie den Begriff, den Sie definieren möchten sowie eventuelle Synonyme ein. Wechseln Sie zum Tab "Definition" und ergänzen Sie die Definition des Begriffs. Speichern Sie anschliessend die Einträge.
 
-![Eingabe von Begriff und Synonymen beim Erstellen eines Glossareintrags](assets/Glossar_Eintrag.png){ class="shadow lightbox" }
+![Eingabe von Begriff und Synonymen beim Erstellen eines Glossareintrags](assets/Glossar_Eintrag.png){ class="shadow lightbox" title="Dialog Glossar: Begriff hinzufügen" }
 
-Alle Einträge können später natürlich auch wieder geändert oder gelöscht werden.  
+Alle Einträge lassen sich später ändern oder löschen.
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
     Bitte beachten Sie: Pro Kurs kann nur *ein* Glossar eingebunden werden.
 
@@ -124,7 +129,7 @@ Hierfür gibt es zwei Wege:
 
 Wechseln Sie in den Autorenbereich und rufen Sie die gewünschte Lernressource "Glossar" auf. Hier kann im Tab "Schreibberechtigung" definiert werden ob nur die Besitzer:innen der Lernressource Beiträge erstellen und editieren dürfen oder ob auch Benutzer:innen das Recht erhalten. 
 
-![Aktivierung der Schreibberechtigung für alle Benutzer im Tab Schreibberechtigung der Lernressource Glossar](assets/Glossar_Schreibberechtigung.png){ class="shadow lightbox" }
+![Aktivierung der Schreibberechtigung für alle Benutzer:innen im Tab Schreibberechtigung der Lernressource Glossar](assets/Glossar_Schreibberechtigung.png){ class="shadow lightbox" title="Tab Schreibberechtigung der Lernressource Glossar" }
 
 **Schreibrechte für bestimmte Personen des Kurses definieren**
 
@@ -150,6 +155,10 @@ Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
 [Kursbaustein "Forum" >](../learningresources/Course_Element_Forum.de.md)<br>
 [Kursbaustein "Ordner" >](../learningresources/Course_Element_Folder.de.md)<br>
 [Mitgliederverwaltung >](Members_management.de.md)
+
+**Weiterführend**<br>
+[Kurseinstellungen - Tab Toolbar >](../learningresources/Course_Settings_Toolbar.de.md)<br>
+[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)
 
 **youtube**<br>
 [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>)
