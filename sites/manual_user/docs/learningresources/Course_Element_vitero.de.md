@@ -27,15 +27,15 @@ Der virtuelle Sitzungsraum gestattet den Teilnehmern die Kommunikation über Tex
 
 ## Konfiguration im Kurseditor
 
-![Terminverwaltung mit den Schaltflächen Termin anlegen und Auslastung Teamräume, Tab Konfiguration im Kurseditor](assets/vitero_Kurseditor.png){ class="shadow lightbox" }
+![Terminverwaltung mit den Schaltflächen Termin anlegen und Auslastung Teamräume](assets/vitero_Kurseditor.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor" }
 
-Im Kurseditor oder in der publizierten Ansicht können Sie Ihre vitero Termine erfassen. Wählen Sie dazu die Schaltfläche "**Termin anlegen**". Zuvor können Sie mit der Schaltfläche "**Auslastung Teamräume**" die aktuelle Auslastung der verfügbaren Teamräume ansehen um einen freien Termin zu finden.
+Im Kurseditor oder in der Kursansicht können Sie Ihre vitero Termine erfassen. Wählen Sie dazu die Schaltfläche "**Termin anlegen**". Zuvor können Sie mit der Schaltfläche "**Auslastung Teamräume**" die aktuelle Auslastung der verfügbaren Teamräume ansehen um einen freien Termin zu finden.
 
-## Konfiguration im Kursrun (geschlossener Editor)
+## Konfiguration in der Kursansicht {: #konfiguration-im-kursrun-geschlossener-editor}
 
-![Dialog Editieren mit Terminfeldern, Zeitpuffern, Raumgrösse und Option "Einschreibung durch Benutzer", im Kursrun von vitero](assets/Vitero_Konfiguration.png){ class="shadow lightbox" }
+![Terminfelder, Zeitpuffer vor Terminbeginn und nach Terminende, Raumgrösse und Option "Einschreibung durch Benutzer"](assets/Vitero_Konfiguration.png){ class="shadow lightbox" title="Dialog Editieren im Kursbaustein vitero" }
 
-Geben Sie nun das Start- und das Enddatum des Termins ein und wählen Sie die Grösse des Raums. Mit "**Zeitpuffer vor Terminbeginn**" können sie festlegen wie viele Minuten vor dem Startdatum der Raum betreten werden kann. Mit "**Zeitpuffer nach Terminende**" legen Sie fest, wie viele Minuten nach Terminende der Termin definitiv geschlossen wird.
+Geben Sie nun das Start- und das Enddatum des Termins ein und wählen Sie die Grösse des Raums. Mit "**Zeitpuffer vor Terminbeginn**" können Sie festlegen wie viele Minuten vor dem Startdatum der Raum betreten werden kann. Mit "**Zeitpuffer nach Terminende**" legen Sie fest, wie viele Minuten nach Terminende der Termin definitiv geschlossen wird.
 
 Mit der Option "**Einschreibung durch Benutzer**" ermöglichen Sie es allen Teilnehmenden, welche Zugriff auf den Kursbaustein haben, sich selbständig in diesen Termin einzutragen. Dies ist so lange möglich wie es noch freie Plätze hat. Ist diese Option ausgeschaltet, können nur Kursbesitzer Teilnehmende in die Termine eintragen.
 

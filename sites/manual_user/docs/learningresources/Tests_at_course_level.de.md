@@ -137,7 +137,7 @@ Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fä
 
 Zugriff auf von Teilnehmenden ausgefüllte Tests erhalten Sie im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)". Das Bewertungswerkzeug finden Sie unter `Kurs > Administration > Bewertungswerkzeug`. Wählen Sie dort den gewünschten Kursbaustein Test. Im Tab "Teilnehmer:innen" werden alle Teilnehmenden angezeigt, ihre Tests können personenbezogen aufgerufen, eingesehen, geändert und kommentiert werden.
 
-Alternativ können die Ergebnisse auch im Kursrun bei geschlossenem Editor eingesehen und verwaltet werden. Im Kursrun besteht auch die Möglichkeit, Erinnerungen zu dem jeweiligen Test zu konfigurieren und so einen bedingungsabhängigen Mailversand auszulösen.
+Alternativ sehen und verwalten Sie die Ergebnisse auch im Kurs bei geschlossenem Kurseditor. Dort konfigurieren Sie auch Erinnerungen zum jeweiligen Test und lösen so einen bedingungsabhängigen Mailversand aus.
 
 ![Teilnehmende mit Versuchen, Punkten und Status sowie geöffnetem Zeilenmenü mit den Aktionen zur Bewertung](assets/Test_Kursrun_20a.jpg){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test" }
 

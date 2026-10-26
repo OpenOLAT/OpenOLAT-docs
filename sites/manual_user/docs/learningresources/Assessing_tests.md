@@ -277,13 +277,13 @@ If there is only one attempt and it is invalidated, the table display in the ass
 
 With "Reset data of test", in contrast, you delete all attempts of the person. The number of attempts is then back to 0.
 
-## Assessment in the course run [:octicons-tag-16:{ title="from Release 15.5 (OO-5211)" }](https://track.frentix.com/issue/OO-5211)
+## Assessment in the course view [:octicons-tag-16:{ title="from Release 15.5 (OO-5211)" }](https://track.frentix.com/issue/OO-5211) {: #assessment-in-the-course-run}
 
-You can also assess a single test directly in the course, without opening the assessment tool: with the editor closed, select the "Test" course element. The tabs "Overview" and "Participants" there offer largely the same options as in the assessment tool. In addition, there are the tabs "Preview", "Communication" and "Reminders".
+You can also assess a single test directly in the course, without opening the assessment tool: with the course editor closed, select the "Test" course element. The tabs "Overview" and "Participants" there offer largely the same options as in the assessment tool. In addition, there are the tabs "Preview", "Communication" and "Reminders".
 
 The "Preview" tab shows the test from the participants' point of view. The "Communication" tab serves for exchanges with the participants during an ongoing test, for example in online exams. In the "Reminders" tab you send reminder emails when certain conditions of the test processing are met, for example a certain score, a certain number of attempts, or passing and failing, see [Reminders](Course_Reminders.md).
 
-![Tabs Preview, Communication and Reminders next to Overview and Participants marked, together with the Correction tool button and Delete all data in the menu with three dots](assets/assessing_tests_course_run_v1_en.png){ class="shadow lightbox" title="Test course element in the course run · 2026.10.07" }
+![Tabs Preview, Communication and Reminders next to Overview and Participants marked, together with the Correction tool button and Delete all data in the menu with three dots](assets/assessing_tests_course_run_v1_en.png){ class="shadow lightbox" title="Test course element in the course view · 2026.10.07" }
 
 ---
 

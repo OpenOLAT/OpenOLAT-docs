@@ -26,13 +26,13 @@ The virtual meeting room allows participants to communicate via text chat, audio
 
 ## Configuration in the course editor
 
-![Meeting administration with the buttons Create meeting and Team room utilisation, Configuration tab in the course editor](assets/Vitero_EN.png){ class="shadow lightbox" }
+![Meeting administration with the buttons Create meeting and Team room utilisation](assets/Vitero_EN.png){ class="shadow lightbox" title="Configuration tab in the course editor" }
 
-You can enter your vitero dates in the course editor or in the published view. Select the button "**Create meeting**". Before you do this, you can use the "**Team room utilization**" button to view the current utilization of the available team rooms in order to find a free appointment.
+You can enter your vitero dates in the course editor or in the course view. Select the button "**Create meeting**". Before you do this, you can use the "**Team room utilization**" button to view the current utilization of the available team rooms in order to find a free appointment.
 
-## Configuration in the course run (closed editor)
+## Configuration in the course view {: #configuration-in-the-course-run-closed-editor}
 
-![Edit dialog with meeting fields, buffer times, room size and option "User can sign in themselves", in the course run of vitero](assets/Vitero_1_EN.png){ class="shadow lightbox" }
+![Meeting fields, start and end buffer, room size and option "User can sign in themselves"](assets/Vitero_1_EN.png){ class="shadow lightbox" title="Edit dialog in the course element vitero" }
 
 Now enter the start and end date of the appointment and select the size of the room. With "**Start buffer**" you can define how many minutes before the start date the room can be entered. With "**End buffer**" you define how many minutes after end of appointment the meeting will be closed definitively.
 

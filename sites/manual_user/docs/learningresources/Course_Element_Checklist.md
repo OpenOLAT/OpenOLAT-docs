@@ -30,7 +30,7 @@ By means of the course element "Checklist" you add a checklist to your course. F
 
 ## Tab Configuration [:octicons-tag-16:{ title="from Release 17.0 (OO-6458)" }](https://track.frentix.com/issue/OO-6458){:target="_blank"}
 
-In this tab, you can determine whether a deadline should be effective for the checklist and if and how course participants are assessed. Depending on the selected settings, you have different valuation options at your disposal. The later assessment takes place either in the course run with closed editor or in the [Assessment tool](../learningresources/Assessment_of_course_modules.md) of the course. Once an assessment has taken place, you should not change the configuration anymore.
+In this tab, you determine whether a deadline should be effective for the checklist and if and how participants are assessed. Depending on the selected settings, you have different assessment options at your disposal. Later, you assess either in the course with the course editor closed or in the [Assessment tool](../learningresources/Assessment_of_course_modules.md) of the course. As soon as you have assessed a participant, you should not change the configuration anymore.
 
 ### Detailed settings of the "Configuration" tab
 
@@ -83,9 +83,9 @@ If the course owner has activated the assignment of badges under `Administration
 
 ## Use and evaluate checklists [:octicons-tag-16:{ title="from Release 16.1 (OO-5946)" }](https://track.frentix.com/issue/OO-5946){:target="_blank"}
 
-After you have created the checklist, you will see the two tabs "My Checklist" and "Manage checklists" on the element page. Course participants without coach rights can not see the administration tab. If the checkboxes have a score it is visible to the learners, thus the calculation of the overall score is reasonable.
+In the course, course owners and coaches see the tabs "Overview", "Participants" and "Preview" in the course element, depending on the configuration also "Reminders" and "Badges". Participants without coach rights see their checklist directly. If points have been assigned to the individual checkboxes, they are visible to the learners in their checklist. This way, the learners see directly how an overall score is made up.
 
-The checklist management offers an overview of all checklists of participants coached by you, and provides printable overviews. Filter the table by group if you are coaching multiple groups. Edit the checkboxes and assess your participants directly, without leaving the course. The evaluation can be carried out either per person or per box.
+The "Participants" tab offers you as course owner or coach an overview of all checklists of the participants coached by you. If you coach several groups, you can filter the overview table by group. In the same tab, you assess the checklists of the individual learners, either per person or via the button "Edit per checkbox".
 
 You can also download PDFs for offline use. The " **PDF overview**" button opens a PDF file with the checklists current state across all your supervised participants. In the PDF you will still find the Signature column, with which you can have the participant confirm the correctness of the document.
 

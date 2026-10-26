@@ -70,7 +70,7 @@ Es gibt drei spezifische Kurs-Rollen:
 Besitzer:innen haben alle Rechte innerhalb eines Kurses und können auf alle Menüs der [Kurs-Administration](../learningresources/Administration.de.md) zugreifen. Sie legen die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person, die einen Kurs anlegt ist automatisch Kurs-Besitzer:in. Kurs-Besitzer:innen können auch weitere Besitzer:innen dem Kurs hinzufügen.
 
   *  **Betreuer:in**<br>
-Betreuende spielen in der Regel bei der _Kursdurchführung_ eine Rolle, sind jedoch bei der Erstellung nicht involviert. Kurs-Betreuer:innen haben Zugriff auf das Bewertungswerkzeug, die To-dos, die Datenerhebungsvorschau und die Statistiken. Sofern ein Unterlagenordner für Betreuende aktiviert wurde sehen sie diesen ebenfalls in der Administration. Betreuende können auch Bewertungen im Kursrun vornehmen. Je nach Konfiguration im Kurseditor haben sie eventuell auch Zugriff auf weitere Optionen und Funktionen bestimmter Kursbausteine.
+Betreuende begleiten in der Regel den laufenden Kurs, sind jedoch bei der Erstellung nicht involviert. Kurs-Betreuer:innen haben Zugriff auf das Bewertungswerkzeug, die To-dos, die Datenerhebungsvorschau und die Statistiken. Sofern ein Unterlagenordner für Betreuende aktiviert wurde, sehen sie diesen ebenfalls in der Administration. Betreuende bewerten auch direkt im Kurs. Je nach Konfiguration im Kurseditor haben sie eventuell auch Zugriff auf weitere Optionen und Funktionen bestimmter Kursbausteine.
 
   *  **Teilnehmer:in**<br>
 Teilnehmer:innen sind in der Regel die Lernenden bzw. Personen, die an einem Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der von den Besitzer:innen bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen Zugriff auf die Kurs Administration und die darin enthaltenen Menüs. 
@@ -187,7 +187,7 @@ Soll eine Person nur ein bestimmtes Werkzeug nutzen und sonst nicht betreuen, ve
 
 !!! warning "Achtung"
 
-    Gruppenbetreuer:innen erhalten grundsätzlich auch Zugang zum [Bewertungswerkzeug](Assessment_tool_overview.de.md) und können alle Mitglieder der Gruppe auch bewerten. Ferner dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alle für Betreuende im Kursrun freigegebenen Dinge!
+    Gruppenbetreuer:innen erhalten grundsätzlich auch Zugang zum [Bewertungswerkzeug](Assessment_tool_overview.de.md) und können alle Mitglieder der Gruppe auch bewerten. Ferner dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alles, was im Kurs für Betreuende freigegeben ist.
 
 
 ### Vergabe zusätzlicher Rechte {: #additional_rights}
@@ -227,7 +227,7 @@ Auch ohne als Betreuer:in im Kurs eingetragen zu sein, können so Mitglieder sä
 
 !!! info "Wichtig"
 
-    Ein Zugriff auf die Bewertung im Kursrun besteht dabei aber nicht.
+    Zugang zur Bewertung in der Kursansicht erhalten sie damit aber nicht.
 
     Erhalten Betreuer:innen dieses Recht, sehen sie im Bewertungswerkzeug alle Teilnehmer:innen des Kurses, nicht nur die Teilnehmenden ihrer Gruppe. Sie bewerten alle und können Bewertungsdaten zurücksetzen.
 

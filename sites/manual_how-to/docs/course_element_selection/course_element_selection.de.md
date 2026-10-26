@@ -31,7 +31,7 @@ Der Kursbaustein "Auswahl" wird innerhalb eines OpenOlat-Kurses eingebunden. Wen
 ## Schritt 1: Kurseditor öffnen und Kursbaustein "Auswahl" einfügen 
 
 a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der Kursbaustein "Auswahl" eingefügt werden soll.
-  
+
 
 b) Öffnen Sie den gewünschten Kurs im **Kurseditor** (Menü "Administration" > Kurseditor).
 
@@ -59,7 +59,7 @@ b) Ziehen Sie nacheinander die Kursbausteine mit gedrückter Maustaste auf den A
 
 **Beispiel: Für die Teilnehmer:innen stehen später 4 Kursbausteine zur Auswahl**
 
-![selection_authoring2_v1_de.png](assets/selection_authoring2_v1_de.png){ class="shadow lightbox" }  
+![Kursmenü mit dem Baustein Auswahl und den vier untergeordneten Bausteinen Dateidiskussion 1 bis 4](assets/selection_authoring2_v1_de.png){ class="shadow lightbox" title="Kursmenü im Kurseditor" }  
 
 [zum Seitenanfang ^](#how_do_i_use_course_element_selection)
 
@@ -73,12 +73,10 @@ b) Im Tab "Konfiguration" bestimmen Sie, wie viele der untergeordneten Kursbaust
 
 **Beispiel: Die Kursteilnehmer:innen müssen 2 der 4 angebotenen Kursbausteine "Dateidiskussion" auswählen und bearbeiten**
 
-![selection_authoring_tab_config_v1_de.png](assets/selection_authoring_tab_config_v1_de.png){ class="shadow lightbox" }  
+![Feld "Auswahl pro Teilnehmer:in" mit dem Wert 2 im Kursbaustein Auswahl](assets/selection_authoring_tab_config_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor" }  
 
-Im Kursrun* werden die beiden gewählten Kursbausteine nach der Wahl in das Kursmenü eingefügt. Die Teilnehmer:innen haben also in diesem Abschnitt ein individuelles Kursmenü.<br> 
+Im Kurs bei geschlossenem Kurseditor fügt OpenOlat die beiden gewählten Kursbausteine nach der Wahl in das Kursmenü ein. Die Teilnehmer:innen haben also in diesem Abschnitt ein individuelles Kursmenü.<br> 
 Siehe [Der Kursbaustein "Auswahl", Abschnitt "Auswahl treffen"](../../manual_user/learningresources/Course_Element_Selection.de.md#selection_participant) 
-
-(*Kursrun = Modus "aktiver Kurs", im Unterschied zum Kurs, der im Editor geöffnet ist)
 
 
 !!! info "Hinweis zur Konfiguration der zugeordneten Kursbausteine"
@@ -87,30 +85,29 @@ Siehe [Der Kursbaustein "Auswahl", Abschnitt "Auswahl treffen"](../../manual_use
     Siehe [Der Kursbaustein "Auswahl", Abschnitt "Auswahl einrichten"](../../manual_user/learningresources/Course_Element_Selection.de.md#selection_setup)
 
 
-c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
+c) Abschliessend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
 
 [zum Seitenanfang ^](#how_do_i_use_course_element_selection)
 
 ---
 
 ## Schritt 4: Kurs publizieren und Kurs-Status auf "Veröffentlicht" ändern  
-  
+
 Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
-Der Kursbaustein "Auswahl" ist nun eingebunden und Kursteilnehmende können aus mehreren Kursbausteinen selbst Pflicht-Bausteine wählen.
+Der Kursbaustein "Auswahl" ist nun eingebunden und Teilnehmende können aus mehreren Kursbausteinen selbst Pflicht-Bausteine wählen.
 
 [zum Seitenanfang ^](#how_do_i_use_course_element_selection)
 
 ---
 
-## Weitere Informationen
+## Weiterführende Informationen {: #further_information}
 
-[Wie erstelle ich meinen ersten OpenOlat-Kurs](../my_first_course/my_first_course.de.md)<br>
-[Der Kursbaustein "Auswahl"](../../manual_user/learningresources/Course_Element_Selection.de.md)
+**Auf dieser Seite erwähnt**<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
+[Kursbaustein "Auswahl" >](../../manual_user/learningresources/Course_Element_Selection.de.md)
 
-<br>
-
-[zum Seitenanfang ^](#how_do_i_use_course_element_selection)
+[Zum Seitenanfang ^](#how_do_i_use_course_element_selection)
 
 ---
 

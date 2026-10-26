@@ -21,7 +21,7 @@ organisieren.
 
 Mehrere einzeln wählbare **Termine** werden zusammengestellt zu einem **Anlass**. 
 
-![Kursbaustein Terminplanung in der Kursansicht: Anlass "Vorbereitungsmeeting" mit wählbarem Termin, Datum, Uhrzeit und Button "Eintragen"](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" }
+![Kursbaustein Terminplanung in der Kursansicht: Anlass "Vorbereitungsmeeting" mit wählbarem Termin, Datum, Uhrzeit und Button "Eintragen"](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" title="Kursbaustein Terminplanung in der Kursansicht" }
 
 
 Autor:innen können unter anderem festlegen, ob mehrere Termine auswählbar sind, ob die Teilnehmendenzahl begrenzt wird, ob sichtbar ist, wer sich eingetragen hat, und ob ein in der OpenOlat-Instanz installiertes virtuelles Klassenzimmer (z. B. BigBlueButton oder Teams) zugeordnet werden soll.
@@ -34,7 +34,7 @@ Autor:innen können unter anderem festlegen, ob mehrere Termine auswählbar sind
 
 Wurde im Kurseditor der Kursbaustein hinzugefügt, werden im Tab "Konfiguration" die Berechtigungen für bestimmte Personengruppen festgelegt.
 
-![Tab "Konfiguration" des Kursbausteins im Kurseditor: Checkboxen für Organisatoren, Benachrichtigung, Kommentar-Erlaubnis sowie Rechte "Anlass bearbeiten" und "Termine bearbeiten"](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" }
+![Tab "Konfiguration" des Kursbausteins im Kurseditor: Checkboxen für Organisatoren, Benachrichtigung, Kommentar-Erlaubnis sowie Rechte "Anlass bearbeiten" und "Termine bearbeiten"](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor" }
 
 **Organisatoren**<br>
 Es kann definiert werden, ob Kurs-Besitzer:innen und/oder Kurs-Betreuer:innen als Organisator:innen der Termine gelten.
@@ -62,9 +62,9 @@ Wer diese Berechtigung erhält, kann einen Termin bearbeiten. Das Recht kann per
 ---
 
 
-## Einrichtung im Kursrun (geschlossener Kurseditor) [:octicons-tag-16:{ title="ab Release 15.3 (OO-4918)" }](https://track.frentix.com/issue/OO-4918){:target="_blank"} {: #course_run}
+## Einrichtung in der Kursansicht [:octicons-tag-16:{ title="ab Release 15.3 (OO-4918)" }](https://track.frentix.com/issue/OO-4918){:target="_blank"} {: #course_run}
 
-Die eigentliche Konfiguration und Einrichtung der wählbaren Termine erfolgt im Kursrun bei geschlossenem Editor. 
+Die wählbaren Termine konfigurieren und richten Sie im Kurs bei geschlossenem Kurseditor ein.
 Zunächst wird ein **Anlass** erstellt. Dies ist eine Zusammenstellung mehrerer einzeln wählbarer **Termine**. 
 
 Über den Button "Anlass erstellen" wird zunächst eine neue Terminbuchung oder Terminfindung angelegt, die Basiskonfiguration vorgenommen und die ersten Termine eingetragen. Mit "Termin hinzufügen" können später weitere Termine ergänzt werden. Bereits angelegte Termine lassen sich über das Drei-Punkte-Menü jederzeit wieder bearbeiten.
@@ -80,7 +80,7 @@ Klicken Sie als erstes auf **"Anlass erstellen".**
 
 Es erscheint das Konfigurationsmenü und Sie können folgende Aspekte festlegen: 
 
-![Dialog "Anlass erstellen" im Kursrun: Felder für Titel, Beschreibung, Typ, Konfiguration, Organisator:in, Ort, Teilnehmerbegrenzung, Einschreibefrist, Terminart und Online-Termin](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
+![Felder für Titel, Beschreibung, Typ, Konfiguration, Organisator:in, Ort, Teilnehmerbegrenzung, Einschreibefrist, Terminart und Online-Termin](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" title="Dialog Anlass erstellen in der Kursansicht" }
 
 
 **Titel**<br>
@@ -135,7 +135,7 @@ Wählen Sie "Nein", wenn keine entsprechende Verknüpfung vorgesehen ist.
 
 Ein erstellter "Anlass" kann später mit Klick auf das Zahnrad bearbeitet, dupliziert oder gelöscht werden. Auch kann der Teilnehmerkreis für den Anlass auf bestimmte Gruppen eingeschränkt werden. Ein Export der Teilnehmenden für einen Anlass ist ebenfalls möglich.
 
-![Zahnrad-Menü eines Anlasses im Kursrun mit den Aktionen "Anlass bearbeiten", "Teilnehmer:innenkreis", "Teilnehmer:innen exportieren", "Anlass duplizieren" und "Löschen"](assets/Anlasse_bearbeiten_20.jpg){ class="shadow lightbox" }
+![Zahnrad-Menü eines Anlasses mit den Aktionen "Anlass bearbeiten", "Teilnehmer:innenkreis", "Teilnehmer:innen exportieren", "Anlass duplizieren" und "Löschen"](assets/Anlasse_bearbeiten_20.jpg){ class="shadow lightbox" title="Kursbaustein Terminplanung in der Kursansicht" }
 
 [Zum Seitenanfang ^](#appointment_scheduling)
 
@@ -145,9 +145,9 @@ Ein erstellter "Anlass" kann später mit Klick auf das Zahnrad bearbeitet, dupli
 
 Schon bei der Erstellung eines Anlasses können der oder die zugehörigen Termine gleich mit angelegt werden. (Siehe [oben ^](#config_occassion))
 
-Als Kursbesitzer:in oder Betreuer:in wird Ihnen im Kursrun nach Wahl des Kursbausteins aber auch der Button "Termin hinzufügen" angezeigt. Wählen Sie auch dort eine der 3 Terminarten.
+Als Kursbesitzer:in oder Betreuer:in sehen Sie im Kurs nach Wahl des Kursbausteins aber auch den Button "Termin hinzufügen". Wählen Sie auch dort eine der 3 Terminarten.
 
-![Aufgeklappter Button "Termin hinzufügen" in der Terminübersicht eines Anlasses: Zur Wahl stehen Termine mit Start/Dauer, Termine mit Start/Ende und wiederkehrende Termine](assets/course_element_appointment_scheduling_create_appointment_v1_de.png){ class="shadow lightbox" }
+![Aufgeklappter Button "Termin hinzufügen" in der Terminübersicht eines Anlasses: Zur Wahl stehen Termine mit Start/Dauer, Termine mit Start/Ende und wiederkehrende Termine](assets/course_element_appointment_scheduling_create_appointment_v1_de.png){ class="shadow lightbox" title="Terminübersicht eines Anlasses" }
 
 [Zum Seitenanfang ^](#appointment_scheduling)
 
@@ -156,7 +156,7 @@ Als Kursbesitzer:in oder Betreuer:in wird Ihnen im Kursrun nach Wahl des Kursbau
 
 ### Termine organisieren {: #config_appointment}
 
-![Anlass-Kachel "Terminbuchung" im Kursrun mit Link "Termine anzeigen" und Hinweisbox zur Anzahl Termine](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
+![Anlass-Kachel "Terminbuchung" mit Link "Termine anzeigen" und Hinweisbox zur Anzahl Termine](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" title="Kursbaustein Terminplanung in der Kursansicht" }
 
 Die konkreten für einen "Anlass" definierten Termine können über den Link "Termine anzeigen" im Überblick näher betrachtet und von den Kursbesitzer:innen bzw. Betreuer:innen auch einzeln editiert werden. 
 
@@ -164,7 +164,7 @@ Sie können hier Teilnehmende hinzufügen, löschen, umbuchen, die Beschreibung 
 
 Wird die letzte teilnehmende Person aus einem bestätigten Termin entfernt oder umgebucht, hebt OpenOlat die Bestätigung dieses Termins automatisch auf. :octicons-tag-16:{ title="ab Release 19.0.7 (OO-8100)" }
 
-![Terminliste einer Terminfindung: Je Termin stehen der Button "Bestätigen" und das Drei-Punkte-Menü mit "Termin bearbeiten", "Benutzer:in hinzufügen" und "Löschen" zur Verfügung](assets/Termine_bearbeiten_20.jpg){ class="shadow lightbox" }
+![Terminliste einer Terminfindung: Je Termin stehen der Button "Bestätigen" und das Drei-Punkte-Menü mit "Termin bearbeiten", "Benutzer:in hinzufügen" und "Löschen" zur Verfügung](assets/Termine_bearbeiten_20.jpg){ class="shadow lightbox" title="Terminliste einer Terminfindung" }
 
 [Zum Seitenanfang ^](#appointment_scheduling)
 
@@ -174,13 +174,13 @@ Wird die letzte teilnehmende Person aus einem bestätigten Termin entfernt oder 
 
 Mit Klick auf den Kursbaustein werden den Teilnehmenden die vorbereiteten Terminfindungen bzw. möglichen Terminbuchungen angezeigt. Umfasst der Kursbaustein mehrere Anlässe, erscheint zunächst eine Übersichtsseite. 
 
-![Übersichtsseite des Kursbausteins aus Teilnehmendensicht: Die Anlässe "Terminbuchung" und "Terminfindung" erscheinen als Kacheln mit dem Link "Termine auswählen" und der Anzahl freier Termine](assets/Terminplanung_TN.png){ class="shadow lightbox" }
+![Übersichtsseite des Kursbausteins aus Teilnehmendensicht: Die Anlässe "Terminbuchung" und "Terminfindung" erscheinen als Kacheln mit dem Link "Termine auswählen" und der Anzahl freier Termine](assets/Terminplanung_TN.png){ class="shadow lightbox" title="Kursbaustein Terminplanung aus Teilnehmendensicht" }
 
 Anschliessend können die Termine ausgewählt werden. Gibt es nur einen Anlass wird die konkrete Auswahl direkt angezeigt. 
 
 Über den Button "Eintragen" kann ein Termin gewählt werden. Je nach Konfiguration kann auch noch ein Kommentar hinzugefügt oder mehrere Termine ausgewählt werden. Auch ein Austragen ist möglich.  
 
-![Terminauswahl aus Teilnehmendensicht: Jeder Termin zeigt die freien Plätze und den Button "Eintragen" oder "Austragen"; bei gesetzter Einschreibefrist steht das Enddatum "Eintragen bis" am Termin](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" }
+![Terminauswahl aus Teilnehmendensicht: Jeder Termin zeigt die freien Plätze und den Button "Eintragen" oder "Austragen"; bei gesetzter Einschreibefrist steht das Enddatum "Eintragen bis" am Termin](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" title="Terminauswahl in der Kursansicht" }
 
 Über die Filteroption "Ausgebucht" können sich Teilnehmende auch anzeigen lassen, wer den Termin ausgewählt hat (sofern aktiviert) und untereinander Kontakt aufnehmen um Termine zu tauschen. 
 

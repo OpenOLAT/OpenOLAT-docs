@@ -30,7 +30,7 @@ Mit dem Kursbaustein "Checkliste" fügen Sie eine Checkliste in Ihren Kurs ein. 
 
 ## Tab Konfiguration [:octicons-tag-16:{ title="ab Release 17.0 (OO-6458)" }](https://track.frentix.com/issue/OO-6458){:target="_blank"}
 
-In diesem Tab können Sie bestimmen ob ein Abgabedatum für die Checkliste wirksam sein soll, und ob und wie die Kursteilnehmer bewertet werden. Je nach gewählten Einstellungen, stehen Ihnen unterschiedliche Bewertungsoptionen zur Verfügung. Die spätere Bewertung erfolgt entweder im Kursrun bei geschlossenem Editor oder im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) des Kurses. Sobald eine Bewertung eines Kursteilnehmers stattgefunden hat, sollten Sie die Konfiguration nicht mehr verändern.
+In diesem Tab bestimmen Sie, ob ein Abgabedatum für die Checkliste wirksam sein soll und ob und wie die Teilnehmenden bewertet werden. Je nach gewählten Einstellungen stehen Ihnen unterschiedliche Bewertungsoptionen zur Verfügung. Später bewerten Sie entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) des Kurses. Sobald Sie eine teilnehmende Person bewertet haben, sollten Sie die Konfiguration nicht mehr verändern.
 
 ### Detail Einstellungen des Tabs "Konfiguration"
 
@@ -80,9 +80,9 @@ Wurde von dem/der Kursbesitzer:in unter `Administration > Einstellungen > Tab Be
 
 ## Checklisten nutzen und bewerten [:octicons-tag-16:{ title="ab Release 16.1 (OO-5946)" }](https://track.frentix.com/issue/OO-5946){:target="_blank"}
 
-Im Kursrun sehen Sie Ihre "Persönliche Checkliste" und die "Checklisten Verwaltung". Kursteilnehmer ohne Betreuerrechte sehen nur ihre "Persönliche Checkliste". Wurden den einzelnen Checkboxen Punkte zugeordnet sind diese für die Lernenden in ihrer persönlichen Checkliste sichtbar. So können die Lernenden direkt sehen wie sich eine Gesamtpunktzahl zusammensetzt.
+Im Kurs sehen Kursbesitzer:innen und Betreuer:innen beim Kursbaustein die Tabs "Übersicht", "Teilnehmer:innen" und "Vorschau", je nach Konfiguration zusätzlich "Erinnerungen" und "Badges". Teilnehmende ohne Betreuerrechte sehen direkt ihre Checkliste. Wurden den einzelnen Checkboxen Punkte zugeordnet, sind diese für die Lernenden in ihrer Checkliste sichtbar. So sehen die Lernenden direkt, wie sich eine Gesamtpunktzahl zusammensetzt.
 
-Die Checklistenverwaltung bietet Ihnen als Kursbesitzer oder Betreuer eine Übersicht über alle Checklisten der von Ihnen betreuten Teilnehmer. Falls Sie mehrere Gruppen betreuen, können Sie die Übersichtstabelle nach Gruppen filtern. In der Checklisten Verwaltung können Sie nun die Bewertung der Checklisten der einzelnen Lernenden vornehmen. Dabei kann die Bewertung entweder per Person oder per Box erfolgen.
+Der Tab "Teilnehmer:innen" bietet Ihnen als Kursbesitzer:in oder Betreuer:in eine Übersicht über alle Checklisten der von Ihnen betreuten Teilnehmenden. Falls Sie mehrere Gruppen betreuen, können Sie die Übersichtstabelle nach Gruppen filtern. Im selben Tab bewerten Sie die Checklisten der einzelnen Lernenden, entweder per Person oder über den Button "Per Box Bewertung".
 
 Zusätzlich können Sie mit Hilfe der Schaltfläche **Übersicht als PDF** den aktuellen Stand der Checkliste über alle Teilnehmer als PDF ausdrucken. Im PDF finden Sie noch die Spalte Unterschrift, mit der Sie den Teilnehmer die Richtigkeit des Dokuments bestätigen lassen können.
 

@@ -1,24 +1,24 @@
 # Assess tasks {: #assess_tasks}
 
-The assessment of handed in tasks can be done by coaches and course owners either in the assessment tool or directly in the course run.
+Coaches and course owners assess the tasks handed in by the participants in the assessment tool or directly in the course with the course editor closed.
 
-You can find out in detail how tasks and group tasks are evaluated in the assessment tool in the chapter ["Assessment tool"](../learningresources/Assessment_tool_overview.md) → ["Assessing tasks and group tasks"](../learningresources/Assessing_tasks_and_group_tasks.md). The following is a brief description of how the assessment is performed in the run time view:
+You can find out in detail how tasks and group tasks are evaluated in the assessment tool in the chapter ["Assessment tool"](../learningresources/Assessment_tool_overview.md) → ["Assessing tasks and group tasks"](../learningresources/Assessing_tasks_and_group_tasks.md). The following section briefly describes the assessment in the course:
 
 ## Coach view {: #coach_view}
 
-In the run time view you get to the assessment area by clicking on the corresponding task. The tabs "Overview" and "Participants" are available. For the course element Task, the tab "Workflow" is added. If the assignment is stored directly in the task, the tab "Edit tasks and sample solutions" also appears. If coaches may also create tasks, the tab "Edit tasks and sample solutions" is also visible for them. If reminders or to-dos are set up, the tab "Reminders & to-dos" appears for course owners.
+In the course, you get to the assessment area by clicking on the corresponding task. The tabs "Overview" and "Participants" are available. For the course element Task, the tab "Workflow" is added. If the assignment is stored directly in the task, the tab "Edit tasks and sample solutions" also appears. If coaches may also create tasks, the tab "Edit tasks and sample solutions" is also visible for them. If reminders or to-dos are set up, the tab "Reminders & to-dos" appears for course owners.
 
 In the tab "Participants", filter tabs narrow down the list, among them "All" and "Relevant". Which further tabs appear depends on the configuration of the course element.
 
 The table displays the current workflow step in the column "Step". The symbol :o_icon_o_icon_info: in front of the step means that an action by the coach is required. The steps Review and Correction require coach input in order for the user to be able to finalize the task. Whether the step Solution (without icon) includes the assessment step, depends on the configuration of the task. The Grading step is only displayed if no sample solution is available, but remains, even with the assessment already carried out. Choose the column according to your needs.
 
-![Column "Step" shows the workflow step reached per person, an info symbol marks required actions: tab Participants of the coach view](assets/task_correction.png){ class="shadow lightbox" }
+![Column "Step" shows the workflow step reached per person, an info symbol marks required actions](assets/task_correction.png){ class="shadow lightbox" title="Participants tab in the course view" }
 
 Clicking on an individual person in the participant list takes you to the assessment workflow for that person and allows you to upload feedback and assign points, depending on the configuration of the task.
 
 To process several people at once, select the rows you want. As soon as one row is selected, the actions "Finalize assessment", "Release", "Withdraw release", "Extend", "Export results" and "E-Mail" appear above the list.
 
-![Action bar after row selection with "Finalize assessment", "Release", "Withdraw release", "Extend", "Export results" and "E-Mail": tab Participants of the coach view](assets/task_coach_bulk_actions_en.png){ class="shadow lightbox" }
+![Action bar after row selection with "Finalize assessment", "Release", "Withdraw release", "Extend", "Export results" and "E-Mail"](assets/task_coach_bulk_actions_en.png){ class="shadow lightbox" title="Action bar in the Participants tab" }
 
 All files uploaded by the participant can be downloaded in the tab "Submissions" as well as in the assessment tool with one click on the button "Export results". The single uploads are saved sorted after learners (last name, name, username) with the corresponding sub folders as zip file.
 

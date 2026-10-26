@@ -22,9 +22,11 @@ The element is particularly suitable when learners are meant to engage with one 
 In the course editor, add the "File dialog" element. Upload the documents via the "Files" tab, and set the permissions for the different roles via "Configuration".
 
 ## Creating a file dialog
-Owners and other authorised persons can click the "Create file dialog" button. This is possible both in the course editor and, with the course editor closed, in the course run.
+Owners and other authorised persons can click the "Create file dialog" button. The button is available both in the course editor and in the course with the course editor closed.
 
-![Button "Create file dialog" in the course editor, "Files" tab](assets/course_element_file_dialog_neu_v1_de.png){ class="shadow lightbox" }
+![Button "Create file dialog" in the "Files" tab above the list, which is still empty](assets/Dateidiskussion_erstellen_Editor_20.png){ class="shadow lightbox" title="Course element File dialog in the course editor" }
+
+![Button "Create file dialog" directly below the title of the course element, without tabs](assets/course_element_file_dialog_neu_v1_de.png){ class="shadow lightbox" title="Course element File dialog in the course view" }
 
 After clicking the "Create file dialog" button, you are prompted to upload a file as the basis for discussion or to select one from the storage folder of the course.
 
@@ -48,7 +50,7 @@ Who is allowed to upload files is set in the course editor, in the "Configuratio
 
 The advanced configuration allows the permissions to be refined further: for example by limiting uploads to a time frame or granting individual persons specific upload permissions.
 
-![Permissions in the "Configuration" tab: roles and users for moderation and creating discussions](assets/course_element_file_dialog_config_v1_de.png){ class="shadow lightbox" }
+![Permissions in the "Configuration" tab: roles and users for moderation and creating discussions](assets/course_element_file_dialog_config_v1_de.png){ class="shadow lightbox" title="Configuration tab in the course editor" }
 
 
 ### Which file formats are possible?
@@ -78,13 +80,13 @@ The files uploaded to the course element "File dialog" are stored in a path with
 Below the discussed file are the buttons for opening a discussion topic.
 Several discussion topics per document are possible.
 
-![Button "Open discussion topic" below the discussed file](assets/course_element_file_dialog_diskussion_neu_v1_de.png){ class="shadow lightbox" }
+![Button "Open discussion topic" below the discussed file](assets/course_element_file_dialog_diskussion_neu_v1_de.png){ class="shadow lightbox" title="Course element File dialog in the course view" }
 
 ### Opening or downloading files to be discussed
 
 When participants or coaches select the course element "File dialog", they first see all file dialogs already created, or the files behind which a file dialog exists. Selecting an element takes them to the corresponding file dialog.
 
-![Overview of several file dialogs, each with its own basis for discussion](assets/course_element_file_dialog_doc1_doc2_v1_de.png){ class="shadow lightbox" }
+![Overview of several file dialogs, each with its own basis for discussion](assets/course_element_file_dialog_doc1_doc2_v1_de.png){ class="shadow lightbox" title="Course element File dialog in the course view" }
 
 ### How is a contribution added to the discussion?
 
@@ -92,7 +94,7 @@ Discussion participants can write replies with or without quoting the previous p
 If a post is edited afterwards, this is shown in the header; the last editing step is displayed in each case.
 Files can also be attached when creating or editing a post.
 
-![Discussion post with reply options and an attached file](assets/course_element_file_dialog_beitrag_v1_de.png){ class="shadow lightbox" }
+![Discussion post with reply options and an attached file](assets/course_element_file_dialog_beitrag_v1_de.png){ class="shadow lightbox" title="Discussion post in the course view" }
 
 !!! tip "Tip"
 
@@ -106,7 +108,7 @@ Moderators usually have the following tasks:
 * observing in a controlling manner (monitoring and steering the content),
 * taking corrective action when needed. (For example, you can hide offensive, inappropriate forum posts. Changes made by moderators to a forum post are displayed.)
 
-![Menu with the options "End discussion", "Hide discussion" and "Prioritise thread"](assets/course_element_file_dialog_verbergen_v1_de.png){ class="shadow lightbox" }
+![Menu with the options "End discussion", "Hide discussion" and "Prioritise thread"](assets/course_element_file_dialog_verbergen_v1_de.png){ class="shadow lightbox" title="Discussion menu in the course view" }
 
 
 !!! note "Note"
@@ -118,7 +120,7 @@ Moderators usually have the following tasks:
 
 Above the posts of a file dialog, several buttons allow you to change how the posts are displayed. For example, discussion posts can be shown nested (replies indented). Or you can display only the most recent posts. This makes it easier to search extensive discussions.
 
-![Buttons for the appearance of the discussion posts: nested, flat, single, marked or new](assets/course_element_file_dialog_darstellung_v1_de.png){ class="shadow lightbox" }
+![Buttons for the appearance of the discussion posts: nested, flat, single, marked or new](assets/course_element_file_dialog_darstellung_v1_de.png){ class="shadow lightbox" title="Post display options in the course view" }
 
 
 ### Moving posts
@@ -127,11 +129,11 @@ Discussion posts can be moved to another place in a file dialog by authorised pe
 
 A single post, an entire discussion thread, or part of a discussion thread with all replies attached below it, can be moved. The discussion participants affected can be informed by mail about the moving of their posts.
 
-![Menu item "Move to another forum" on a discussion post](assets/course_element_file_dialog_beitrag_verschieben2_v1_de.png){ class="shadow lightbox" }
+![Menu item "Move to another forum" on a discussion post](assets/course_element_file_dialog_beitrag_verschieben2_v1_de.png){ class="shadow lightbox" title="Post menu in the course view" }
 
 A wizard helps with moving.
 
-![Wizard for moving a discussion thread: select course, forum and discussion thread](assets/course_element_file_dialog_beitrag_verschieben_v1_de.png){ class="shadow lightbox" }
+![Wizard for moving a discussion thread: select course, forum and discussion thread](assets/course_element_file_dialog_beitrag_verschieben_v1_de.png){ class="shadow lightbox" title="Move discussion thread wizard" }
 
 
 !!! note "Note"
@@ -145,19 +147,19 @@ A distinction must be made when deleting:
 
 * **Deleting a single post**: The creator of a discussion post has the right to delete their own post again. Deleting a post normally also makes the replies to that post obsolete. Therefore, the replies to this post are also deleted. The discussion thread is thus cut off at this point.
 
-![Confirmation prompt when deleting a single discussion post](assets/course_element_file_dialog_loeschen_beitrag_v1_de.png){ class="shadow lightbox" }
+![Confirmation prompt when deleting a single discussion post](assets/course_element_file_dialog_loeschen_beitrag_v1_de.png){ class="shadow lightbox" title="Delete post dialog" }
 
 * **Deleting the entire discussion for a file**:
 Owners and coaches have access to this option at the top right, in the icon with the 3 dots. Alternatively, the 3 dots at the end of a table row (file) can also be selected in the table view.
 
-![Menu item "Delete" for the entire discussion of a file](assets/course_element_file_dialog_loeschen_diskussion_v1_de.png){ class="shadow lightbox" }
+![Menu item "Delete" for the entire discussion of a file](assets/course_element_file_dialog_loeschen_diskussion_v1_de.png){ class="shadow lightbox" title="Discussion menu in the course view" }
 
 
 ## Ending and archiving discussions
 
 Manually ending a discussion is done by coaches and owners.
 
-![Menu with the options "End discussion", "Hide discussion" and "Prioritise thread"](assets/course_element_file_dialog_beenden_v1_de.png){ class="shadow lightbox" }
+![Menu with the options "End discussion", "Hide discussion" and "Prioritise thread"](assets/course_element_file_dialog_beenden_v1_de.png){ class="shadow lightbox" title="Discussion menu in the course view" }
 
 Only the individual discussion thread for one file is ended each time; it is then marked accordingly. Content changes are then no longer possible. However, the original document remains, and new discussions about it can be opened at any time.
 
@@ -165,4 +167,4 @@ Another way to automatically close all discussions of a course element is to lim
 
 Coaches and owners can also archive the discussion topics as a .zip file via the corresponding button.
 
-![Button "Archive discussion topic" for a file dialog](assets/course_element_file_dialog_archivieren_v1_de.png){ class="shadow lightbox" }
+![Button "Archive discussion topic" for a file dialog](assets/course_element_file_dialog_archivieren_v1_de.png){ class="shadow lightbox" title="Course element File dialog in the course view" }

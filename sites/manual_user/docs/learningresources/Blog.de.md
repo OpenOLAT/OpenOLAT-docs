@@ -11,7 +11,7 @@ Der Begriff "Blog" setzt sich aus "World Wide Web" und "Log" für Logbuch zusamm
 
 ## Blog erstellen
 
-Mit dem Erstellen von Blogs ist hier das Erstellen der Blog-Lernressourcen und das Einbinden der Lernressourcen in einen Kursbaustein gemeint. (Nicht das Ergänzen, Editieren, Kommentieren und Bewerten von Beiträgen durch Kursteilnehmer:innen im Kursrun. Dies bezeichnen wir als [Bloggen](Blog_Blogging.de.md).)
+Mit dem Erstellen von Blogs ist hier das Erstellen der Blog-Lernressourcen und das Einbinden der Lernressourcen in einen Kursbaustein gemeint. (Nicht das Ergänzen, Editieren, Kommentieren und Bewerten von Beiträgen durch Kursteilnehmer:innen im Kurs. Dies bezeichnen wir als [Bloggen](Blog_Blogging.de.md).)
 
 [Zu den Details >](../learningresources/Blog_Create.de.md)
 

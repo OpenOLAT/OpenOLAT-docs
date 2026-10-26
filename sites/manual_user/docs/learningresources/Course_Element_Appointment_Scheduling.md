@@ -21,7 +21,7 @@ b) **appointment finding**<br>
 
 Several individually selectable **appointments** are combined into an **occasion**.
 
-![Appointment scheduling course element in the course view: occasion "Vorbereitungsmeeting" with a selectable appointment, date, time and "Select" button](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" }
+![Appointment scheduling course element in the course view: occasion "Vorbereitungsmeeting" with a selectable appointment, date, time and "Select" button](assets/course_element_appointment_scheduling1_v1_de.png){ class="shadow lightbox" title="Course element Appointment scheduling in the course view" }
 
 
 Among other things, authors can define whether multiple appointments can be selected, whether the number of participants is limited, whether it is visible who has enrolled, and whether a virtual classroom installed in the OpenOlat instance (e.g. BigBlueButton or Teams) should be assigned.
@@ -34,7 +34,7 @@ Among other things, authors can define whether multiple appointments can be sele
 
 Once the course element has been added in the course editor, the permissions for specific groups of people are defined in the "Configuration" tab.
 
-![Tab "Configuration" of the course element in the course editor: checkboxes for organizers, notification, comment permission and rights "Edit occasion" and "Edit appointments"](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" }
+![Tab "Configuration" of the course element in the course editor: checkboxes for organizers, notification, comment permission and rights "Edit occasion" and "Edit appointments"](assets/course_element_appointment_scheduling_editor_v1_de.png){ class="shadow lightbox" title="Configuration tab in the course editor" }
 
 **Organizers**<br>
 You can define whether course owners and/or course coaches are considered organizers of the appointments.
@@ -62,9 +62,9 @@ Whoever is granted this permission can edit an appointment. The right can be gra
 ---
 
 
-## Setup in the course run (closed course editor) [:octicons-tag-16:{ title="from Release 15.3 (OO-4918)" }](https://track.frentix.com/issue/OO-4918){:target="_blank"} {: #course_run}
+## Setup in the course view [:octicons-tag-16:{ title="from Release 15.3 (OO-4918)" }](https://track.frentix.com/issue/OO-4918){:target="_blank"} {: #course_run}
 
-The actual configuration and setup of the selectable appointments takes place in the course run with the editor closed.
+You configure and set up the selectable appointments in the course with the course editor closed.
 First, an **occasion** is created. This is a compilation of several individually selectable **appointments**.
 
 Using the "Create occasion" button, a new appointment booking or appointment finding is first created, the basic configuration is performed, and the first appointments are entered. Additional appointments can be added later using "Add appointment". Appointments that have already been created can be edited at any time via the three-dot menu.
@@ -80,7 +80,7 @@ First, click on **"Create occasion".**
 
 The configuration menu appears and you can define the following aspects:
 
-![Dialog "Create occasion" in the course run: fields for title, description, type, configuration, organizer, location, participant limit, enrollment deadline, type of appointment and online appointment](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" }
+![Fields for title, description, type, configuration, organizer, location, participant limit, enrollment deadline, type of appointment and online appointment](assets/Terminplanung_Anlass_erstellen_20.jpg){ class="shadow lightbox" title="Create occasion dialog in the course view" }
 
 
 **Title**<br>
@@ -135,7 +135,7 @@ Select "No" if no such connection is intended.
 
 A created "occasion" can later be edited, duplicated or deleted by clicking on the cogwheel. The group of participants for the occasion can also be restricted to certain groups. An export of the participants for an occasion is also possible.
 
-![Cogwheel menu of an occasion in the course run with the actions "Edit occasion", "Participation restrictions", "Export participants", "Duplicate occasion" and "Delete"](assets/Anlasse_bearbeiten_20.jpg){ class="shadow lightbox" }
+![Cogwheel menu of an occasion with the actions "Edit occasion", "Participation restrictions", "Export participants", "Duplicate occasion" and "Delete"](assets/Anlasse_bearbeiten_20.jpg){ class="shadow lightbox" title="Course element Appointment scheduling in the course view" }
 
 [To the top ^](#appointment_scheduling)
 
@@ -145,9 +145,9 @@ A created "occasion" can later be edited, duplicated or deleted by clicking on t
 
 The associated appointment(s) can be created directly when creating an occasion. (See [above ^](#config_occassion))
 
-As course owner or coach, however, you are also shown the "Add appointment" button in the course run after selecting the course element. There, too, choose one of the 3 types of appointment.
+As course owner or coach, however, you also see the "Add appointment" button in the course after selecting the course element. There, too, choose one of the 3 types of appointment.
 
-![Expanded "Add appointment" button in the appointment overview of an occasion: The options are appointments with start/duration, appointments with start/end and recurring appointments](assets/course_element_appointment_scheduling_create_appointment_v1_de.png){ class="shadow lightbox" }
+![Expanded "Add appointment" button in the appointment overview of an occasion: The options are appointments with start/duration, appointments with start/end and recurring appointments](assets/course_element_appointment_scheduling_create_appointment_v1_de.png){ class="shadow lightbox" title="Appointment overview of an occasion" }
 
 [To the top ^](#appointment_scheduling)
 
@@ -156,7 +156,7 @@ As course owner or coach, however, you are also shown the "Add appointment" butt
 
 ### Organize appointments {: #config_appointment}
 
-![Occasion tile "Terminbuchung" in the course run with "Show appointments" link and info box about the number of appointments](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" }
+![Occasion tile "Terminbuchung" with "Show appointments" link and info box about the number of appointments](assets/Terminplanung_Termine_anzeigen_20.jpg){ class="shadow lightbox" title="Course element Appointment scheduling in the course view" }
 
 The concrete appointments defined for an "occasion" can be viewed in more detail via the "Show appointments" link in the overview and can also be edited individually by the course owners or coaches.
 
@@ -164,7 +164,7 @@ Here you can add, delete or rebook participants, adjust the description, change 
 
 If the last participant is removed from a confirmed appointment or rebooked, OpenOlat automatically revokes the confirmation of this appointment. :octicons-tag-16:{ title="from Release 19.0.7 (OO-8100)" }
 
-![Appointment list of an appointment finding: For each appointment, the "Confirm" button and the three-dot menu with "Edit appointment", "Add user" and "Delete" are available](assets/Termine_bearbeiten_20.jpg){ class="shadow lightbox" }
+![Appointment list of an appointment finding: For each appointment, the "Confirm" button and the three-dot menu with "Edit appointment", "Add user" and "Delete" are available](assets/Termine_bearbeiten_20.jpg){ class="shadow lightbox" title="Appointment list of an appointment finding" }
 
 [To the top ^](#appointment_scheduling)
 
@@ -174,13 +174,13 @@ If the last participant is removed from a confirmed appointment or rebooked, Ope
 
 By clicking on the course element, participants are shown the prepared appointment findings or possible appointment bookings. If the course element comprises several occasions, an overview page appears first.
 
-![Overview page of the course element from the participant view: The occasions "Terminbuchung" and "Terminfindung" appear as tiles with the "Select appointments" link and the number of free appointments](assets/Terminplanung_TN.png){ class="shadow lightbox" }
+![Overview page of the course element from the participant view: The occasions "Terminbuchung" and "Terminfindung" appear as tiles with the "Select appointments" link and the number of free appointments](assets/Terminplanung_TN.png){ class="shadow lightbox" title="Course element Appointment scheduling for participants" }
 
 The appointments can then be selected. If there is only one occasion, the concrete selection is displayed directly.
 
 Using the "Select" button, an appointment can be chosen. Depending on the configuration, a comment can also be added or several appointments can be selected. Unenrolling is also possible.
 
-![Appointment selection from the participant view: each appointment shows free seats and "Select" or "Deselect"; with a deadline set, "Select until" is shown](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" }
+![Appointment selection from the participant view: each appointment shows free seats and "Select" or "Deselect"; with a deadline set, "Select until" is shown](assets/Terminplanung_TN_wahl_20.png){ class="shadow lightbox" title="Appointment selection in the course view" }
 
 Using the "Fully booked" filter option, participants can also see who has selected the appointment (if activated) and contact each other to swap appointments.
 

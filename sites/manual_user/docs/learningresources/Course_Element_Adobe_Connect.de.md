@@ -27,9 +27,9 @@ Im Connect Raum stehen diverse Elemente (Pods) zur Verfügung, die miteinander k
 Hier steht der Tab "Konfiguration" für weitere Einstellungen zur Verfügung:<br>
 `Kurs > Administration > Kurseditor > Kursbaustein "Adobe Connect" > Tab "Konfiguration"`
 
-## Konfiguration im Kursrun (geschlossener Editor)
+## Konfiguration in der Kursansicht {: #konfiguration-im-kursrun-geschlossener-editor}
 
-Nachdem der Kursbaustein hinzugefügt wurde, muss ein Meetingraum im Tab "Konfiguration" über den Button "Meeting hinzufügen" erstellt werden:<br>
+Nachdem Sie den Kursbaustein hinzugefügt haben, erstellen Sie im Kurs bei geschlossenem Kurseditor einen Meetingraum. Klicken Sie dazu im Tab "Konfiguration" auf den Button "Meeting hinzufügen":<br>
 `Kurs > Kursbaustein "Adobe Connect" > Konfiguration > Meeting hinzufügen`
 
 Anschliessend erscheint der folgende Dialog:

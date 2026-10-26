@@ -12,7 +12,7 @@ The term "Blog" comprises "World Wide Web" and "Log". Blogs usually serve as onl
 
 ## Create a blog
 
-Creating blogs here means creating the blog learning resources and integrating the learning resources into a course element. (Not the addition, editing, commenting and rating of contributions by course participants in the course run. This is called [Blogging](Blog_Blogging.md).)
+Creating blogs here means creating the blog learning resources and integrating the learning resources into a course element. (Not the addition, editing, commenting and rating of contributions by course participants in the course. This is called [Blogging](Blog_Blogging.md).)
 
 [Further details >](../learningresources/Blog_Create.md)
 

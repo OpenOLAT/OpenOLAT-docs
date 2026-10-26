@@ -83,7 +83,7 @@ So that the coaches see where an assessment is pending, OpenOlat sets the status
 
 ## Perform assessment
 
-The assessment of participants is carried out by the owners or coaches either in the course run with the course editor closed or in the [assessment tool](../learningresources/Assessment_tool_overview.md).
+Owners and coaches assess the participants either in the course with the course editor closed or in the [assessment tool](../learningresources/Assessment_tool_overview.md).
 
 A complete overview of the course element appears in the **tab "Overview"**.
 

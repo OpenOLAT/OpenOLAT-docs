@@ -36,7 +36,7 @@ Je nach Raumwahl stehen unterschiedliche Funktionen zur Verfügung. Kooperations
 
 Nach dem Hinzufügen des Kursbausteins muss zunächst im Tab "Raum" ein OpenMeetings Raum angelegt und die Raumeinstellungen konfiguriert werden. Diese Einstellungen können später sowohl im Kurseditor als auch im Kursun angepasst werden.
 
-![Dialog Raumeinstellungen anpassen mit Typ, Teilnehmerzahl, Moderation, Audio/Video, Aufzeichnung und Beschreibung, im Tab Raum](assets/OPM_Raumeinstellungen_praesentation.png){ class="shadow lightbox" }
+![Dialog Raumeinstellungen anpassen mit Typ, Teilnehmerzahl, Moderation, Audio/Video, Aufzeichnung und Beschreibung, im Tab Raum](assets/OPM_Raumeinstellungen_praesentation.png){ class="shadow lightbox" title="Tab Raum im Kurseditor" }
 
 Unter "Typ" kann der gewünschte Raumtyp gewählt werden. Die genauen Raum Bezeichnungen können je nach OpenMeetings Instanz variieren. Während sich Kooperations- und Präsentationsäume vorrangig darin unterscheiden, ob jeder User schon beim Betreten des Raums automatisch Audio/Videorechte erhält oder nicht, ist der Interviewraum anders aufgebaut als die anderen Räume.
 
@@ -50,19 +50,19 @@ Die Angabe einer **maximalen Teilnehmerzahl** limitiert die verfügbaren Plätze
 
 Unter "**Moderation**" kann definiert werden, ob ein Moderator erforderlich ist, bevor die Teilnehmer eines Raums weitere Rechte erhalten können. Wird die Option "**Ohne Moderation**" gewählt, erhält der erster User der den Raum betritt automatisch Moderationsrechte.
 
-Unter "**Audio/Video**" legen Sie fest, ob im Raum nur Audio oder Audio und Video zur Verfügung steht. Mit der Option "**Aufzeichnung erlauben**" lässt sich die Sitzung als Film aufzeichnen; der Film wird nach der Sitzung automatisch bereitgestellt. Im Feld "**Beschreibung**" beschreiben Sie den Inhalt der Sitzung und das Zielpublikum.
+Unter "Audio/Video" legen Sie fest, ob im Raum nur Audio oder Audio und Video zur Verfügung steht. Mit der Option "Aufzeichnung erlauben" lässt sich die Sitzung als Film aufzeichnen; der Film wird nach der Sitzung automatisch bereitgestellt. Im Feld "Beschreibung" beschreiben Sie den Inhalt der Sitzung und das Zielpublikum.
 
-## Konfiguration im Kursrun (geschlossener Editor) {: #course_run_configuration}
+## Konfiguration in der Kursansicht {: #course_run_configuration}
 
-![Sitzungsraum betreten, Aufzeichnungen, Bereich Voraussetzungen zur Verbindungsprüfung, Administration mit Schliessen, Teilnehmerverwaltung und Raumeinstellungen, im Kursrun von OpenMeetings](assets/OPM_kursrun.png){ class="shadow lightbox" }
+![Buttons Sitzungsraum betreten und Aufzeichnungen, Bereich Voraussetzungen zur Verbindungsprüfung, Bereich Administration mit Raum temporär schliessen, Teilnehmerverwaltung und Raumeinstellungen](assets/OPM_kursrun.png){ class="shadow lightbox" title="Kursbaustein OpenMeetings in der Kursansicht" }
 
-Über "**Sitzungsraum betreten**" gelangt man in den Meetingraum.
+Über "Sitzungsraum betreten" gelangen Sie in den Meetingraum.
 
-Liegen Aufzeichnungen vor, können diese über den Link "**Aufzeichnungen**" aufgerufen werden.
+Liegen Aufzeichnungen vor, rufen Sie diese über den Link "Aufzeichnungen" auf.
 
-Über "**Raum temporär schliessen**" kann der Raum auch geschlossen werden, so dass ein Zugang nicht möglich ist.
+Über "Raum temporär schliessen" schliessen Sie den Raum, so dass kein Zugang möglich ist.
 
-Über den Link "**Teilnehmerverwaltung**" sieht man die Personen, die sich aktuell im Raum befinden und kann diese auch bei Bedarf auch entfernen. Über die Schaltfläche "**Raumeinstellungen**" passen Kursbesitzer und Betreuer die Raumeinstellungen auch im Kursrun an.
+Über den Link "Teilnehmerverwaltung" sehen Sie die Personen, die sich aktuell im Raum befinden, und können diese bei Bedarf entfernen. Über die Schaltfläche "Raumeinstellungen" passen Kursbesitzer:innen und Betreuer:innen die Raumeinstellungen auch im Kurs an.
 
 ## Weiterführende Informationen {: #further_information}
 

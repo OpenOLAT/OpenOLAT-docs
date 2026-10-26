@@ -27,7 +27,7 @@ Der Kursbaustein Teilnehmer:innen Ordner kann im Bewertungswerkzeug auch in die 
 
 Im Tab "Ordner Einstellungen" im Kurseditor können Konfigurationen zum Abgabe- und Rückgabeordner vorgenommen werden. Standardmässig sind beide Ordner aktiviert und das Löschen und Überschreiben von Dateien ist den Teilnehmenden gestattet.
 
-![Tab "Ordner Einstellungen": Abgabe- und Rückgabeordner aktivieren, Löschen und Überschreiben erlauben, Zeitfenster und Dokumentenzahl einschränken](assets/course_element_participant_folder_settings_v1_de.png){ class="shadow lightbox" }
+![Tab "Ordner Einstellungen": Abgabe- und Rückgabeordner aktivieren, Löschen und Überschreiben erlauben, Zeitfenster und Dokumentenzahl einschränken](assets/course_element_participant_folder_settings_v1_de.png){ class="shadow lightbox" title="Tab Ordner Einstellungen im Kurseditor" }
 
 Ist der Teilnehmer:innen Abgabeordner aktiviert, können die Teilnehmenden Dateien hochladen oder direkt in OpenOlat erstellen. Wurden von dem/der Administrator:in der OpenOlat Instanz weitere Dokumenteneditoren aktiviert, ist auch die Erstellung von weiteren Dateiformaten wie Word, Excel oder PowerPoint Dateien möglich.
 
@@ -46,11 +46,11 @@ Eine ähnliche Konfiguration der Abgabe von Dateien und Dateirückgabe durch Bet
 
 Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner Unterordner angelegt und so eine durchgehende Ordner-Struktur für alle Teilnehmenden angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln.
 
-![Tab "Template Einstellungen" mit Unterordnern für Abgabe- und Rückgabeordner](assets/course_element_participant_folder_template_v1_de.png){ class="shadow lightbox" }
+![Tab "Template Einstellungen" mit Unterordnern für Abgabe- und Rückgabeordner](assets/course_element_participant_folder_template_v1_de.png){ class="shadow lightbox" title="Tab Template Einstellungen im Kurseditor" }
 
 !!! warning "Achtung"
 
-    Die hier angelegten Unterordner können später nicht umbenannt werden. Lediglich ein Löschen und Neuanlegen ist möglich. Im Kursrun werden beim Versuch diese Unterordner umzubenennen Kopien der Unterordner mit neuem Namen erstellt.
+    Die hier angelegten Unterordner können später nicht umbenannt werden. Lediglich ein Löschen und Neuanlegen ist möglich. Versucht jemand im Kurs, diese Unterordner umzubenennen, entstehen Kopien der Unterordner mit dem neuen Namen.
 
 ## Tab "Badges"
 Wurde von dem/der Kursbesitzer:in unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.

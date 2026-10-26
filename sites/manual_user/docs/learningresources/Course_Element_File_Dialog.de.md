@@ -22,11 +22,11 @@ Der Baustein eignet sich besonders, wenn Lernende sich gezielt mit einem konkret
 Im Kurseditor fügen Sie den Baustein "Dateidiskussion" hinzu. Über den Tab "Dateien" laden Sie die Dokumente hoch, über "Konfiguration" legen Sie die Berechtigungen für unterschiedliche Rollen fest.
 
 ## Dateidiskussion anlegen
-Kursbesitzer:innen und weitere Personen mit Berechtigung können den Button "Dateidiskussion erstellen" anklicken. Dies kann sowohl im Kurseditor als auch bei geschlossenem Kurseditor im Kursrun erfolgen.
+Kursbesitzer:innen und weitere Personen mit Berechtigung können den Button "Dateidiskussion erstellen" anklicken. Der Button steht sowohl im Kurseditor als auch im Kurs bei geschlossenem Kurseditor zur Verfügung.
 
-![Button "Dateidiskussion erstellen" im Kurseditor, Tab "Dateien"](assets/Dateidiskussion_erstellen_Editor_20.png){ class="shadow lightbox" }
+![Button "Dateidiskussion erstellen" im Tab "Dateien" oberhalb der noch leeren Liste](assets/Dateidiskussion_erstellen_Editor_20.png){ class="shadow lightbox" title="Kursbaustein Dateidiskussion im Kurseditor" }
 
-![Button "Dateidiskussion erstellen" im Kursrun bei geschlossenem Kurseditor](assets/Dateidiskussion_erstellen_Kursrun_20.png){ class="shadow lightbox" }
+![Button "Dateidiskussion erstellen" direkt unter dem Titel des Kursbausteins, ohne Tabs](assets/Dateidiskussion_erstellen_Kursrun_20.png){ class="shadow lightbox" title="Kursbaustein Dateidiskussion in der Kursansicht" }
 
 Nach Klick auf den Button "Dateidiskussion erstellen" wird man aufgefordert, eine Datei als Diskussionsgrundlage hochzuladen oder eine Datei aus dem Ablageordner des Kurses auszuwählen. 
 
@@ -50,7 +50,7 @@ Wer Dateien hochladen darf, wird im Kurseditor im Tab "Konfiguration" festgelegt
 
 Über die erweiterte Konfiguration lassen sich die Rechte weiter verfeinern: etwa indem Uploads zeitlich begrenzt oder einzelnen Personen gezielt Upload-Berechtigungen erteilt werden.
 
-![Berechtigungen im Tab "Konfiguration": Rollen und Benutzer:innen für Moderation und Diskussionserstellung](assets/Dateidiskussion_Konfiguration20a.png){ class="shadow lightbox" }
+![Berechtigungen im Tab "Konfiguration": Rollen und Benutzer:innen für Moderation und Diskussionserstellung](assets/Dateidiskussion_Konfiguration20a.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor" }
 
 
 ### Welche Dateiformate sind möglich?
@@ -80,13 +80,13 @@ Die in den Kursbaustein Dateidiskussion hochgeladenen Dateien werden in einem Pf
 Unterhalb der diskutierten Datei befinden sich die Buttons zum Eröffnen eines Diskussionsthemas.
 Es sind mehrere Diskussionsthemen pro Dokument möglich.
 
-![Button "Diskussionsthema eröffnen" unterhalb der diskutierten Datei](assets/Dateidiskussion_Diskussionsthema_eroeffnen1a.jpg){ class="shadow lightbox" }
+![Button "Diskussionsthema eröffnen" unterhalb der diskutierten Datei](assets/Dateidiskussion_Diskussionsthema_eroeffnen1a.jpg){ class="shadow lightbox" title="Kursbaustein Dateidiskussion in der Kursansicht" }
 
 ### Zu diskutierende Dateien öffnen oder herunterladen
 
 Wenn Teilnehmende oder Betreuende den Kursbaustein Dateidiskussion anwählen, sehen sie zunächst alle schon angelegten Dateidiskussionen bzw. die Dateien, hinter denen sich jeweils eine eigene Dateidiskussion befindet. Durch Wahl eines Elements gelangen sie in die entsprechende Dateidiskussion.
 
-![Übersicht mehrerer Dateidiskussionen mit je eigener Diskussionsgrundlage](assets/Dateidiskussion_20.png){ class="shadow lightbox" }
+![Übersicht mehrerer Dateidiskussionen mit je eigener Diskussionsgrundlage](assets/Dateidiskussion_20.png){ class="shadow lightbox" title="Kursbaustein Dateidiskussion in der Kursansicht" }
 
 ### Wie wird ein Diskussionsbeitrag ergänzt?
 
@@ -94,7 +94,7 @@ Diskussionsteilnehmer:innen können Antworten mit oder ohne Zitat des vorherigen
 Wird ein Beitrag nachträglich bearbeitet, erscheint dies in der Kopfzeile; angezeigt wird jeweils der letzte Bearbeitungsschritt.
 Beim Erstellen oder Bearbeiten eines Beitrags können zudem Dateien angehängt werden.
 
-![Diskussionsbeitrag mit Antwortoptionen und angehängter Datei](assets/Dateidiskussion_Posting20.jpg){ class="shadow lightbox" }
+![Diskussionsbeitrag mit Antwortoptionen und angehängter Datei](assets/Dateidiskussion_Posting20.jpg){ class="shadow lightbox" title="Diskussionsbeitrag in der Kursansicht" }
 
 !!! tip "Tipp"
 
@@ -108,7 +108,7 @@ Moderator:innen haben gewöhnlich die Aufgaben,
 * prüfend zu beobachten (inhaltliche Kontrolle und Steuerung),
 * bei Bedarf korrigierend einzugreifen. (Sie können z.B. beleidigende, unpassende Forumsbeiträge verbergen. Änderungen von Moderator:innen an einem Forumsbeitrag werden angezeigt.)
 
-![Menü mit den Optionen "Diskussion beenden", "Diskussion verbergen" und "Thread priorisieren"](assets/Dateidiskussion_beenden.jpg){ class="shadow lightbox" }
+![Menü mit den Optionen "Diskussion beenden", "Diskussion verbergen" und "Thread priorisieren"](assets/Dateidiskussion_beenden.jpg){ class="shadow lightbox" title="Menü einer Diskussion in der Kursansicht" }
 
 
 !!! note "Hinweis"
@@ -120,7 +120,7 @@ Moderator:innen haben gewöhnlich die Aufgaben,
 
 Oberhalb der Beiträge einer Dateidiskussion ermöglichen verschiedene Buttons eine Änderung der Darstellung der Beiträge. Zum Beispiel können die Diskussonsbeiträge verschachtelt (Antworten jeweils eingerückt) dargestellt werden. Oder Sie können sich nur die neusten Beiträge anzeigen lassen. Das erleichtert das Durchsuchen umfangreicher Diskussionen.
 
-![Buttons zur Darstellung der Diskussionsbeiträge: geschachtelt, flach, einer, markiert oder neu](assets/Dateidiskussion_Foren_Darstellung.jpg){ class="shadow lightbox" }
+![Buttons zur Darstellung der Diskussionsbeiträge: geschachtelt, flach, einer, markiert oder neu](assets/Dateidiskussion_Foren_Darstellung.jpg){ class="shadow lightbox" title="Darstellung der Beiträge in der Kursansicht" }
 
 
 ### Verschieben von Beiträgen
@@ -129,11 +129,11 @@ Diskussionsbeiträge können von Berechtigten an eine andere Stelle in einer Dat
 
 Es kann ein einzelner Beitrag, ein ganzer Diskussionsfaden oder ein Teil eines Diskussionsfadens, mit allen darunter angehängten Antworten, verschoben werden. Die betroffenen Diskussionsteilnehmer:innen können per Mail über das Verschieben ihrer Beiträge informiert werden.
 
-![Menüpunkt "Verschieben in anderes Forum" bei einem Diskussionsbeitrag](assets/Dateidiskussion_verschieben.jpg){ class="shadow lightbox" }
+![Menüpunkt "Verschieben in anderes Forum" bei einem Diskussionsbeitrag](assets/Dateidiskussion_verschieben.jpg){ class="shadow lightbox" title="Beitragsmenü in der Kursansicht" }
 
 Ein Wizard hilft beim Verschieben.
 
-![Wizard zum Verschieben eines Diskussionsfadens: Kurs, Forum und Diskussionsfaden auswählen](assets/course_element_file_dialog_beitrag_verschieben_v1_de.png){ class="shadow lightbox" }
+![Wizard zum Verschieben eines Diskussionsfadens: Kurs, Forum und Diskussionsfaden auswählen](assets/course_element_file_dialog_beitrag_verschieben_v1_de.png){ class="shadow lightbox" title="Dialog Diskussionsfaden verschieben" }
 
 
 !!! note "Hinweis"
@@ -147,19 +147,19 @@ Beim Löschen ist zu unterscheiden:
 
 * **Löschen eines einzelnen Beitrags**: Der/die Ersteller:in eines Diskussionsbeitrags hat das Recht, den eigenen Beitrag auch wieder zu löschen. Durch das Löschen eines Beitrags werden im Normalfall aber auch die Antworten auf diesen Beitrag obsolet. Deshalb werden die Antworten auf diesen Beitrag ebenfalls gelöscht. Der Diskussionsfaden wird also an dieser Stelle abgeschnitten.
 
-![Sicherheitsabfrage beim Löschen eines einzelnen Diskussionsbeitrags](assets/Dateidiskussion_Post_loeschen1.jpg){ class="shadow lightbox" }
+![Sicherheitsabfrage beim Löschen eines einzelnen Diskussionsbeitrags](assets/Dateidiskussion_Post_loeschen1.jpg){ class="shadow lightbox" title="Dialog Beitrag löschen" }
 
 * **Löschen der gesamten Diskussion zu einer Datei**:		
 Besitzer:innen und Betreuer:innen steht diese Option rechts oben im Icon mit den 3 Punkte zur Verfügung. Alternativ können auch in der Tabellendarstellung die 3 Punkte am Ende einer Tabellenzeile (Datei) gewählt werden.
 
-![Menüpunkt "Löschen" für die gesamte Diskussion zu einer Datei](assets/Dateidiskussion_Thread_loeschen.jpg){ class="shadow lightbox" }
+![Menüpunkt "Löschen" für die gesamte Diskussion zu einer Datei](assets/Dateidiskussion_Thread_loeschen.jpg){ class="shadow lightbox" title="Menü einer Diskussion in der Kursansicht" }
 
 
 ## Diskussion beenden und archivieren
 
 Das manuelle Beenden einer Diskussion erfolgt durch Betreuer:innen und Besitzer:innen.
 
-![Menü mit den Optionen "Diskussion beenden", "Diskussion verbergen" und "Thread priorisieren"](assets/Dateidiskussion_beenden.jpg){ class="shadow lightbox" }
+![Menü mit den Optionen "Diskussion beenden", "Diskussion verbergen" und "Thread priorisieren"](assets/Dateidiskussion_beenden.jpg){ class="shadow lightbox" title="Menü einer Diskussion in der Kursansicht" }
 
 Beendet wird jeweils nur der einzelne Diskussionsstrang zu einer Datei; er wird danach entsprechend markiert. Inhaltliche Änderungen sind dann nicht mehr möglich. Das Ausgangsdokument bleibt jedoch bestehen, und es können jederzeit neue Diskussionen dazu eröffnet werden.
 

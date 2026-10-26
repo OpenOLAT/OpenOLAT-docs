@@ -29,7 +29,7 @@ The course element "Participant folder" can also be included in the assessment v
 
 In the course editor, the "Folder settings" tab is used to configure the drop box and the return box. By default, both folders are activated, and participants are permitted to delete and overwrite files.
 
-!["Folder settings" tab: activate the drop box and return box, allow deleting and overwriting, limit the time frame and number of documents](assets/course_element_participant_folder_settings_v1_de.png){ class="shadow lightbox" }
+!["Folder settings" tab: activate the drop box and return box, allow deleting and overwriting, limit the time frame and number of documents](assets/course_element_participant_folder_settings_v1_de.png){ class="shadow lightbox" title="Folder settings tab in the course editor" }
 
 If the participant drop box is activated, participants can upload files or create them directly in OpenOlat. If the administrator of the OpenOlat instance has activated further document editors, it is also possible to create further file formats such as Word, Excel or PowerPoint files.
 
@@ -48,11 +48,11 @@ A similar configuration for submitting and returning files via coaches can also 
 
 In the "Template settings" tab, subfolders can be created for both the drop box and the return box, creating a consistent folder structure for all participants. For example, a return box could include a subfolder for content feedback and one for supplementary files, or a drop box could reflect a certain desired structure for the submissions.
 
-!["Template settings" tab with subfolders for the drop box and return box](assets/course_element_participant_folder_template_v1_de.png){ class="shadow lightbox" }
+!["Template settings" tab with subfolders for the drop box and return box](assets/course_element_participant_folder_template_v1_de.png){ class="shadow lightbox" title="Template settings tab in the course editor" }
 
 !!! warning "Attention"
 
-    The subfolders created here cannot be renamed later. Only deleting and recreating them is possible. In the course run, attempting to rename these subfolders creates copies of the subfolders with a new name.
+    The subfolders created here cannot be renamed later. Only deleting and recreating them is possible. If someone tries to rename these subfolders in the course, copies of the subfolders with the new name are created.
 
 ## Tab "Badges"
 If the owner has activated the awarding of badges under `Course > Administration > Settings > Tab "Assessment" > Section "Badges"`, the "Badges" tab is displayed in the course editor for this course element, and a specific badge can be created for this course element.

@@ -79,9 +79,9 @@ Aktivieren Sie die Checkbox "Individueller Kommentar" oder "Individuelle Bewertu
 
 Damit die Betreuenden sehen, wo eine Bewertung ansteht, setzt OpenOlat in Lernpfadkursen den Status auf Wunsch automatisch. Ist die Option "Status "Korrigieren" setzen, wenn Zugriff gewährt" eingeschaltet, erhält die teilnehmende Person den Status "Korrigieren", sobald sie Zugriff auf den Kursbaustein hat. Die Teilnehmenden sehen dann "In Korrektur". Ist die Option ausgeschaltet, steht der Status zunächst auf "Nicht gestartet". Bei einem neu eingefügten Kursbaustein ist die Option eingeschaltet.
 
-## Bewertung im Kursrun durchführen
+## Bewertung in der Kursansicht durchführen {: #bewertung-im-kursrun-durchfuhren}
 
-Die Bewertung der Teilnehmenden wird von den Besitzer:innen oder Betreuer:innen entweder im Kursrun bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) durchgeführt.
+Besitzer:innen und Betreuer:innen bewerten die Teilnehmenden entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md).
 
 Im **Tab "Übersicht"** erscheint eine Gesamtübersicht zum Kursbaustein.
 

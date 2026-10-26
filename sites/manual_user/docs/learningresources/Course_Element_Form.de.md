@@ -18,7 +18,7 @@ Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kur
 
 Für das Ausfüllen des Kursbausteins kann im Tab "Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) kann ebenfalls ergänzend verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im Anhang.
 
-Betreuende sehen in der Übersichtstabelle im Kursrun welche Teilnehmenden das Formular schon ausgefüllt haben und welche nicht. Bereits abgegebene Formulare können zur weiteren Bearbeitung durch den Teilnehmenden von der Betreuer:in wieder geöffnet oder auch komplett zurückgesetzt werden. Mit Klick auf die Teilnehmenden kann das ausgefüllte Formular angesehen werden. Die Formulardaten aller Teilnehmenden stehen als Excel-Export zur Verfügung.
+Betreuende sehen im Kurs in der Übersichtstabelle, welche Teilnehmenden das Formular schon ausgefüllt haben und welche nicht. Bereits abgegebene Formulare können zur weiteren Bearbeitung durch den Teilnehmenden von der Betreuer:in wieder geöffnet oder auch komplett zurückgesetzt werden. Mit Klick auf die Teilnehmenden kann das ausgefüllte Formular angesehen werden. Die Formulardaten aller Teilnehmenden stehen als Excel-Export zur Verfügung.
 
 Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden bestimmte Formulare verpflichtend ausfüllen müssen, z.B. vor der Aufnahme eines Laborpraktikums oder als Bestätigung für das eigenständige Erbringen einer Leistung.
 
@@ -32,7 +32,7 @@ Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie im [How-to Berei
 
 Nachdem Sie den Kursbaustein Formular dem Kurs hinzugefügt haben stehen Ihnen im Kurseditor folgende Tabs zur Verfügung:
 
-![Tabs Titel und Beschreibung, Layout, Lernpfad, Formular und Erinnerungen des Kursbausteins Formular im Kurseditor](assets/Formular_Tabs1.jpg){ class="shadow lightbox" }
+![Tabs Titel und Beschreibung, Layout, Lernpfad, Formular und Erinnerungen des Kursbausteins Formular im Kurseditor](assets/Formular_Tabs1.jpg){ class="shadow lightbox" title="Kursbaustein Formular im Kurseditor" }
 
 Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine Beschreibungen und Informationen zum jeweiligen Kursbaustein hinterlegt und die optische Darstellung definiert werden. Im [Tab Lernpfad](../learningresources/Learning_path_course_Course_editor.de.md) werden spezielle Einstellungen die für Lernpfad Kurse gelten definiert. Herkömmliche Kurse verfügen dagegen über die Tabs Sichtbarkeit und Zugang. Hier wird definiert, wer diesen Kursbaustein sehen bzw. bearbeiten kann.
 
@@ -40,11 +40,11 @@ Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine Beschreibungen
 
 Die zentrale Konfiguration erfolgt im Tab "Formular". Hier wird im ersten Schritt entweder ein neues Formular erstellt oder ein existierendes ausgewählt.
 
-![Button Wählen, erstellen oder importieren, solange kein Formular gewählt ist, im Tab Formular des Kurseditors](assets/Formular_waehlen.jpg){ class="shadow lightbox" }
+![Button Wählen, erstellen oder importieren, solange kein Formular gewählt ist, im Tab Formular des Kurseditors](assets/Formular_waehlen.jpg){ class="shadow lightbox" title="Tab Formular im Kurseditor" }
 
 Nach Klick auf den Button werden alle Formulare, bei denen man Besitzer:in ist, angezeigt und können einfach per Klick auf den Haken ausgewählt werden.
 
-![Drei eigene Formulare unter Meine Einträge mit Häkchen in der Spalte Auswählen, Buttons Erstellen und Importieren oben rechts, im Dialog Formular auswählen](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
+![Drei eigene Formulare unter Meine Einträge mit Häkchen in der Spalte Auswählen, Buttons Erstellen und Importieren oben rechts, im Dialog Formular auswählen](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" title="Dialog Formular auswählen" }
 
 Hat man noch kein Formular erstellt, kann eine neue Lernressource Formular über den Button "Erstellen" erstellt oder ein extern vorliegendes Formular über den Button "Importieren" hinzugefügt werden. Anschliessend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
 
@@ -52,7 +52,7 @@ Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen ode
 
 Wenn ein Formular im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen und Kursbausteinen eingebunden werden kann.
 
-![Schalter Mehrfaches Ausfüllen des Formulars eingeschaltet, Feld Teilnahme bis mit Option Relatives Datum und vier Empfängergruppen der E-Mail Bestätigung, im Tab Formular des Kurseditors](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" }
+![Schalter Mehrfaches Ausfüllen des Formulars eingeschaltet, Feld Teilnahme bis mit Option Relatives Datum und vier Empfängergruppen der E-Mail Bestätigung, im Tab Formular des Kurseditors](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" title="Tab Formular im Kurseditor" }
 
 **Mehrfaches Ausfüllen des Formulars**
 
@@ -82,13 +82,13 @@ Bei geschlossenem Kurseditor sehen Besitzer:innen und Betreuer:innen eine Übers
 
 Besitzer:innen verfügen zusätzlich noch über den Tab "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen](../learningresources/Course_Reminders.de.md) schon versandt wurden.
 
-![Button Daten exportieren und Mehr-Menü einer Zeile mit Formular als PDF, Wieder öffnen und Daten zurücksetzen, in der Teilnehmerliste für Besitzer:innen und Betreuer:innen](assets/Formular_kursrun.png){ class="shadow lightbox" }
+![Button Daten exportieren und Mehr-Menü einer Zeile mit Formular als PDF, Wieder öffnen und Daten zurücksetzen, in der Teilnehmerliste für Besitzer:innen und Betreuer:innen](assets/Formular_kursrun.png){ class="shadow lightbox" title="Teilnehmerliste des Kursbausteins Formular" }
 
 ## Ansicht: Teilnehmende
 
 Teilnehmenden wird dagegen direkt beim Klick auf das Formular das konkrete Formular angezeigt und sie können es ausfüllen. Ein Zwischenspeichern ist ebenfalls möglich.
 
-![Formular mit Auswahlfrage, Schiebereglern und Textfeldern sowie den Buttons Speichern und abschliessen und Zwischenspeichern, in der Ansicht der Teilnehmenden im Kurs](assets/Formular_Beispiel_Kurs.jpg){ class="shadow lightbox" }
+![Formular mit Auswahlfrage, Schiebereglern und Textfeldern sowie den Buttons Speichern und abschliessen und Zwischenspeichern, in der Ansicht der Teilnehmenden im Kurs](assets/Formular_Beispiel_Kurs.jpg){ class="shadow lightbox" title="Kursbaustein Formular in der Kursansicht" }
 
 Das fertig ausgefüllte Formular muss abschliessend gespeichert werden und kann dann von den Teilnehmenden nicht mehr bearbeitet, nur noch angezeigt werden.
 

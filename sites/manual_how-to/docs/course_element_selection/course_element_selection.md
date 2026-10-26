@@ -32,7 +32,7 @@ The course element "Selection" is integrated within an OpenOlat course. If you h
 ## Step 1: Open course editor and insert "Selection" course element 
 
 a) Go to the **Author area** and search for the course in which the course element "Selection" is to be inserted.
-  
+
 
 b) Open the desired course in the **Course editor** (menu "Administration" > Course editor).
 
@@ -60,7 +60,7 @@ b) Hold down the mouse button and drag the course elements one after the other o
 
 **Example: Participants will later be able to choose from 4 course modules**
 
-![selection_authoring2_v1_de.png](assets/selection_authoring2_v1_de.png){ class="shadow lightbox" }  
+![Course menu with the element Selection and the four subordinate elements File discussion 1 to 4](assets/selection_authoring2_v1_de.png){ class="shadow lightbox" title="Course menu in the course editor" }  
 
 [To the top of the page ^](#how_do_i_use_course_element_selection)
 
@@ -74,12 +74,10 @@ b) In the "Configuration" tab, you determine how many of the subordinate course 
 
 **Example: Course participants must select and complete 2 of the 4 "File discussion" course elements offered**
 
-![selection_authoring_tab_config_v1_de.png](assets/selection_authoring_tab_config_v1_de.png){ class="shadow lightbox" }  
+![Field "Selection per participant" with the value 2 in the course element Selection](assets/selection_authoring_tab_config_v1_de.png){ class="shadow lightbox" title="Configuration tab in the course editor" }  
 
-In the Course run*, the two selected course elements are added to the course menu after selection. The participants therefore have an individual course menu in this section.<br> 
+In the course with the course editor closed, OpenOlat adds the two selected course elements to the course menu after selection. The participants therefore have an individual course menu in this section.<br> 
 See [Course element "Selection", Section "Make a selection"](../../manual_user/learningresources/Course_Element_Selection.md) 
-
-(*Course run = Mode "active course", in contrast to the course that is open in the editor)
 
 
 !!! info "Note on the configuration of the assigned course elements"
@@ -95,7 +93,7 @@ c) Finally, the course must be **published** and the course editor closed so tha
 ---
 
 ## Step 4: Publish course and change course status to "Published"  
-  
+
 To do this, proceed as described in ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md).
 
 The course element "Selection" is now integrated and course participants can choose compulsory elements from several course elements.
@@ -104,12 +102,11 @@ The course element "Selection" is now integrated and course participants can cho
 
 ---
 
-## Further informations
+## Further information {: #further_information}
 
-[How do I create my first OpenOlat course](../my_first_course/my_first_course.md)<br>
-[Course element "Selection"](../../manual_user/learningresources/Course_Element_Selection.md)
-
-<br>
+**Mentioned on this page**<br>
+[How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
+[Course Element "Selection" >](../../manual_user/learningresources/Course_Element_Selection.md)
 
 [To the top of the page ^](#how_do_i_use_course_element_selection)
 

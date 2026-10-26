@@ -23,9 +23,9 @@ Specialty / Note | GoToMeeting is commercial software. To use the course element
 
 No specific tab
 
-## Configuration in the course run (closed editor) {: #closed_editor_config}
+## Configuration in the course view {: #closed_editor_config}
 
-A new meeting can be created in the "Configuration" area:<br>
+In the course with the course editor closed, you create a new meeting in the "Configuration" area:<br>
 `Course > Course element "GoToMeeting" > Configuration > Add new training`
 
 ![Required fields Organizers, Name, Start training and End, plus Description and the "I have an account" button](assets/Gotomeeting_EN.png){ class="shadow lightbox" title="Add new training dialog" }

@@ -23,9 +23,9 @@ Spezialität / Hinweis | GoToMeeting ist eine kommerzielle Software. Um den Kurs
 
 Kein spezifischer Tab
 
-## Konfiguration im Kursrun (geschlossener Editor) {: #closed_editor_config}
+## Konfiguration in der Kursansicht {: #closed_editor_config}
 
-Im Bereich "Konfiguration" kann ein neues Meeting erstellt werden:<br>
+Im Kurs bei geschlossenem Kurseditor erstellen Sie im Bereich "Konfiguration" ein neues Meeting:<br>
 `Kurs > Kursbaustein "GoToMeeting" > Konfiguration > Neue Schulung erstellen`
 
 ![Pflichtfelder Organizers, Name, Schulung starten und End, dazu Beschreibung und Button "Ich habe ein GoToMeeting Konto"](assets/goto_meeting_erstellen.png){ class="shadow lightbox" title="Dialog Neue Schulung erstellen" }

@@ -36,7 +36,7 @@ Different functions are available depending on the room selected. The special th
 
 After adding the course element, you must first create an OpenMeetings room in the "Room" tab and configure the room settings. These settings can be adjusted later in the course editor as well as in the course unit.
 
-![Change room parameters dialog with room's type, number of participants, moderation, audio/video, recording and comment, in the Room tab](assets/Openmeetings_EN.png){ class="shadow lightbox" }
+![Change room parameters dialog with room's type, number of participants, moderation, audio/video, recording and comment, in the Room tab](assets/Openmeetings_EN.png){ class="shadow lightbox" title="Room tab in the course editor" }
 
 The desired room type can be selected under "Room's type". The exact room designations can vary depending on the OpenMeetings instance.  While cooperation and presentation rooms differ primarily in whether each user automatically receives audio/video rights when entering the room or not, the interview room is structured differently from the other rooms.
 
@@ -50,19 +50,19 @@ Specifying a **maximum number of participants** limits the available seats in th
 
 Under "**Moderation**", you can define whether a moderator is required before the participants of a room can obtain further rights. If the option "**No moderation**" is selected, the first user who enters the room automatically receives moderation rights.
 
-Under "**Audio/Video**" you specify whether only audio or audio and video are available in the room. With the option "**Recording allowed**" you can record the session; the recording is converted and made available automatically after the session. In the "**Comment**" field you describe the agenda of the session and the target audience.
+Under "Audio/Video" you specify whether only audio or audio and video are available in the room. With the option "Recording allowed" you can record the session; the recording is converted and made available automatically after the session. In the "Comment" field you describe the agenda of the session and the target audience.
 
-## Configuration in the course run (closed editor) {: #course_run_configuration}
+## Configuration in the course view {: #course_run_configuration}
 
-![Enter, Recordings, Prerequisites area for connection check, Administration with Close, Members and room configuration, in the course run of OpenMeetings](assets/OPM_kursrun.png){ class="shadow lightbox" }
+![Buttons Enter and Recordings, Prerequisites area for connection check, Administration area with Close, Members and Room configuration](assets/OPM_kursrun.png){ class="shadow lightbox" title="Course element OpenMeetings in the course view" }
 
-Via "**Enter**" you enter the meeting room.
+Via "Enter" you enter the meeting room.
 
-If recordings are available, they can be accessed via the "**Recordings**" link.
+If recordings are available, you access them via the "Recordings" link.
 
-The room can also be closed via "**Close**" so that access is not possible.
+Via "Close" you close the room so that no access is possible.
 
-Via the link "**Members**" you can see the persons who are currently in the room and can also remove them if required. Via the button "**Room configuration**" course owners and coaches can also adjust the room settings from the course run.
+Via the link "Members" you see the persons who are currently in the room and can remove them if required. Via the button "Room configuration" course owners and coaches also adjust the room settings in the course.
 
 ## Further information {: #further_information}
 

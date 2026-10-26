@@ -277,13 +277,13 @@ Liegt nur ein Versuch vor und wird dieser annulliert, ändert sich die Tabellena
 
 Mit "Testdaten zurücksetzen" löschen Sie dagegen alle Versuche der Person. Die Anzahl der Versuche steht danach wieder auf 0.
 
-## Bewertung im Kursrun [:octicons-tag-16:{ title="ab Release 15.5 (OO-5211)" }](https://track.frentix.com/issue/OO-5211)
+## Bewertung in der Kursansicht [:octicons-tag-16:{ title="ab Release 15.5 (OO-5211)" }](https://track.frentix.com/issue/OO-5211) {: #bewertung-im-kursrun}
 
-Einen einzelnen Test bewerten Sie auch direkt im Kurs, ohne das Bewertungswerkzeug zu öffnen: Wählen Sie bei geschlossenem Editor den Kursbaustein "Test". Die Tabs "Übersicht" und "Teilnehmer:innen" bieten dort weitgehend dieselben Möglichkeiten wie im Bewertungswerkzeug. Zusätzlich gibt es die Tabs "Vorschau", "Kommunikation" und "Erinnerungen".
+Einen einzelnen Test bewerten Sie auch direkt im Kurs, ohne das Bewertungswerkzeug zu öffnen: Wählen Sie bei geschlossenem Kurseditor den Kursbaustein "Test". Die Tabs "Übersicht" und "Teilnehmer:innen" bieten dort weitgehend dieselben Möglichkeiten wie im Bewertungswerkzeug. Zusätzlich gibt es die Tabs "Vorschau", "Kommunikation" und "Erinnerungen".
 
 Der Tab "Vorschau" zeigt den Test aus Sicht der Teilnehmenden. Der Tab "Kommunikation" dient dem Austausch mit den Teilnehmenden während eines laufenden Tests, zum Beispiel bei Online-Klausuren. Im Tab "Erinnerungen" verschicken Sie Erinnerungsmails, wenn bestimmte Bedingungen der Testbearbeitung erfüllt sind, zum Beispiel eine bestimmte Punktzahl, eine bestimmte Anzahl Versuche oder Bestehen und Nichtbestehen, siehe [Erinnerung](Course_Reminders.de.md).
 
-![Tabs Vorschau, Kommunikation und Erinnerungen neben Übersicht und Teilnehmer:innen markiert, dazu der Button Korrekturwerkzeug und im Menü mit drei Punkten Alle Daten löschen](assets/assessing_tests_course_run_v1_de.png){ class="shadow lightbox" title="Test-Kursbaustein im Kursrun · 2026.10.07" }
+![Tabs Vorschau, Kommunikation und Erinnerungen neben Übersicht und Teilnehmer:innen markiert, dazu der Button Korrekturwerkzeug und im Menü mit drei Punkten Alle Daten löschen](assets/assessing_tests_course_run_v1_de.png){ class="shadow lightbox" title="Test-Kursbaustein in der Kursansicht · 2026.10.07" }
 
 ---
 

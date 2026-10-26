@@ -137,7 +137,7 @@ For example, if you want to add a new question to a test or if an answer was inc
 
 Access to tests completed by participants is available in the "[Assessment tool](../learningresources/Assessment_tool_overview.md)". The assessment tool can be found under `Course > Administration > Assessment tool`. Select the desired course element Test there. The "Participants" tab displays all participants, and their tests can be called up, viewed, changed and commented on in relation to a person.
 
-Alternatively, the results can also be viewed and managed in the course run with the editor closed. In the course run it is also possible to configure reminders for the respective test and thus trigger a condition-dependent mail dispatch.
+Alternatively, you also view and manage the results in the course with the course editor closed. There you also configure reminders for the respective test and thus trigger a condition-dependent mail dispatch.
 
 ![Participants with attempts, score and status as well as an open row menu with the assessment actions](assets/course_element_test_run_participants_v1_en.png){ class="shadow lightbox" title="Participants tab of the course element Test · 2026.10.01" }
 

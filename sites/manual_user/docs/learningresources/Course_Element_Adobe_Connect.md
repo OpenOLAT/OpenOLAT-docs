@@ -26,9 +26,9 @@ In the Connect room, various elements (pods) are available, which can be combine
 Here, the "Configuration" tab is available for further settings:<br>
 `Course > Administration > Course editor > Course element "Adobe Connect" > Tab "Configuration"`
 
-## Configuration in the course run (closed editor)
+## Configuration in the course view {: #configuration-in-the-course-run-closed-editor}
 
-After the course element has been added, a meeting room must be created in the tab "Configuration" via the button "Add meeting":<br>
+After you have added the course element, create a meeting room in the course with the course editor closed. To do this, click the button "Add meeting" in the tab "Configuration":<br>
 `Course > Course element "Adobe Connect" > Configuration > Add meeting`
 
 Then the following dialog appears:

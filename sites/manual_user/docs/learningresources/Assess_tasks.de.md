@@ -1,24 +1,24 @@
 # Aufgaben bewerten {: #assess_tasks}
 
-Betreuer:innen und Kursbesitzer:innen können sowohl über das Bewertungswerkzeug als auch direkt im Kursrun die Bewertung der Teilnehmenden bezüglich der eingereichten Aufgaben vornehmen.
+Betreuer:innen und Kursbesitzer:innen bewerten die eingereichten Aufgaben der Teilnehmenden im Bewertungswerkzeug oder direkt im Kurs bei geschlossenem Kurseditor.
 
-Wie Aufgaben und Gruppenaufgaben im Bewertungswerkzeug bewertet werden, erfahren Sie ausführlich im Kapitel ["Bewertungswerkzeug"](Assessment_tool_overview.de.md) → ["Aufgaben und Gruppenaufgaben bewerten"](Assessing_tasks_and_group_tasks.de.md). Im Folgenden wird kurz beschrieben, wie die Bewertung im Kursrun erfolgt:
+Wie Aufgaben und Gruppenaufgaben im Bewertungswerkzeug bewertet werden, erfahren Sie ausführlich im Kapitel ["Bewertungswerkzeug"](Assessment_tool_overview.de.md) → ["Aufgaben und Gruppenaufgaben bewerten"](Assessing_tasks_and_group_tasks.de.md). Der folgende Abschnitt beschreibt kurz die Bewertung im Kurs:
 
 ## Übersicht für Betreuer:innen {: #coach_view}
 
-Im Kursrun gelangt man in den Bewertungsbereich durch Anklicken der entsprechenden Aufgabe. Es stehen die Tabs "Übersicht" und "Teilnehmer:innen" zur Verfügung. Beim Kursbaustein Aufgabe kommt der Tab "Workflow" hinzu. Sofern die Aufgabenstellung direkt in der Aufgabe hinterlegt ist, erscheint zusätzlich der Tab "Verwalten". Wenn Betreuer:innen auch Aufgaben erstellen dürfen, ist für sie ebenfalls der Tab "Verwalten" sichtbar. Sind Erinnerungen oder To-dos eingerichtet, erscheint für Kursbesitzer:innen der Tab "Erinnerungen & To-dos".
+Im Kurs gelangen Sie in den Bewertungsbereich, indem Sie die entsprechende Aufgabe anklicken. Es stehen die Tabs "Übersicht" und "Teilnehmer:innen" zur Verfügung. Beim Kursbaustein Aufgabe kommt der Tab "Workflow" hinzu. Sofern die Aufgabenstellung direkt in der Aufgabe hinterlegt ist, erscheint zusätzlich der Tab "Verwalten". Wenn Betreuer:innen auch Aufgaben erstellen dürfen, ist für sie ebenfalls der Tab "Verwalten" sichtbar. Sind Erinnerungen oder To-dos eingerichtet, erscheint für Kursbesitzer:innen der Tab "Erinnerungen & To-dos".
 
 Im Tab "Teilnehmer:innen" grenzen Filterreiter die Liste ein, darunter "Alle" und "Relevant". Welche weiteren Reiter erscheinen, hängt von der Konfiguration des Kursbausteins ab.
 
 Die Übersichtstabelle zeigt in der Spalte "Schritt" an, in welchem Schritt des Workflows die Teilnehmenden sich befinden. Das Symbol :o_icon_o_icon_info: vor dem Schritt bedeutet, dass eine Aktion durch die betreuende Person erforderlich ist. In den Schritten Feedback und Korrektur ist eine Eingabe durch die Betreuer:innen zwingend erforderlich, um die Aufgabe zum Abschluss zu bringen. Ob im Schritt Lösung (ohne Icon Anzeige) eine Bewertung vorgenommen werden muss, hängt von der Konfiguration der Aufgabe ab. Der Schritt Bewertung wird auch angezeigt bei bereits erfolgter Bewertung, allerdings nur dann, wenn es keine Musterlösung gibt. Aktivieren Sie die angezeigten Spalten der Tabelle entsprechend Ihren Bedürfnissen.
 
-![Spalte "Schritt" zeigt je Person den erreichten Workflow-Schritt, ein Info-Symbol markiert nötige Aktionen: Tab Teilnehmer:innen der Betreueransicht](assets/task_correction_DE.png){ class="shadow lightbox" }
+![Spalte "Schritt" zeigt je Person den erreichten Workflow-Schritt, ein Info-Symbol markiert nötige Aktionen](assets/task_correction_DE.png){ class="shadow lightbox" title="Tab Teilnehmer:innen in der Kursansicht" }
 
 Mit Klick auf eine einzelne Person der Teilnehmerliste gelangt man zum Bewertungsflow für diese Person und kann Feedbacks hochladen und Punkte vergeben, je nach Konfiguration der Aufgabe.
 
 Um mehrere Personen auf einmal zu bearbeiten, wählen Sie die gewünschten Zeilen aus. Bereits bei einer Auswahl erscheinen über der Liste die Aktionen "Bewertung abschliessen", "Freigeben", "Freigabe zurückziehen", "Verlängern", "Resultate exportieren" und "E-Mail".
 
-![Aktionsleiste nach Zeilenauswahl mit "Bewertung abschliessen", "Freigeben", "Freigabe zurückziehen", "Verlängern", "Resultate exportieren" und "E-Mail": Tab Teilnehmer:innen der Betreueransicht](assets/task_coach_bulk_actions_de.png){ class="shadow lightbox" }
+![Aktionsleiste nach Zeilenauswahl mit "Bewertung abschliessen", "Freigeben", "Freigabe zurückziehen", "Verlängern", "Resultate exportieren" und "E-Mail"](assets/task_coach_bulk_actions_de.png){ class="shadow lightbox" title="Aktionsleiste im Tab Teilnehmer:innen" }
 
 Die von den Lernenden hochgeladenen Dokumente können auch gesammelt über "Resultate exportieren" gespeichert und für die Bewertung herangezogen werden. Die einzelnen Einreichungen werden sortiert nach Lernenden (Name, Vorname, Benutzername) mit entsprechenden Unterordnern als zip Datei gespeichert.
 
