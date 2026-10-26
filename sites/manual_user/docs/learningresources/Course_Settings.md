@@ -42,7 +42,7 @@ Metadata of a course are
 * License
 
 [For more details >](../learningresources/Course_Settings_Metadata.md)<br>
-[More about **Meta data** >](../basic_concepts/Full_Text_Search.md#metadata)<br>
+[More about metadata >](../basic_concepts/Search_General.md#metadata)<br>
 [To the top of the page ^](#course_settings)
 
 
@@ -61,8 +61,8 @@ Here you define information about the course or learning resource. This includes
 
 This information is also visible to interested parties without course access on the info page.
 
-[More about the **Set up of the info page** >](../learningresources/Course_Settings_Info.md)<br>
-[More about the **content of the info page** >](../learningresources/Info_page.md)<br>
+[More about the set up of the info page >](../learningresources/Course_Settings_Info.md)<br>
+[More about the content of the info page >](../learningresources/Info_page.md)<br>
 [To the top of the page ^](#course_settings)
 
 
@@ -96,14 +96,14 @@ In the "Share" tab, you define how and for whom a course or learning resource is
 * Whether an offer is made in the catalog for the course and if so, which one
 * Whether the course can also be used from another LMS via LTI
 
-[Details about **Tab Share** >](Course_Settings_Share.md)<br>
-[More about the **Share** >](Access_configuration.md)<br>
+[Details about the Share tab >](Course_Settings_Share.md)<br>
+[More about sharing >](Access_configuration.md)<br>
 [To the top of the page ^](#course_settings)
 
 
 ## Tab Catalog (only applies to catalog version 1) {: #catalog}
 
-![Tab "Catalog" active, between "Share" and "Disclaimer"](assets/course_settings_tab_catalog_v2_de.png){ class="shadow lightbox" title="Catalog tab in the course settings · 2026.10.02" }
+![Tab "Catalog" active, between "Share" and "Terms of use"](assets/course_settings_tab_catalog_v2_de.png){ class="shadow lightbox" title="Catalog tab in the course settings · 2026.10.02" }
 
 The "Add to catalog" button can be used to enter the learning resource in the catalog and assign it to one or more predefined categories. To enter the course or learning resource in several catalog areas, the step must be repeated. All catalog entries then appear here in the "Catalog" tab and can also be removed here.
 
@@ -114,19 +114,19 @@ Only enter your courses in the catalog once they have been completed and should 
 [To the top of the page ^](#course_settings)
 
 
+## Tab Terms of use [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455){:target="_blank"} {: #disclaimer}
 
-## Tab Terms of use {: #disclaimer}
-
-![Tab "Disclaimer" active, fifth in the tab bar](assets/course_settings_tab_disclaimer_v1_en.png){ class="shadow lightbox" title="Disclaimer tab in the course settings · 2026.10.02" }
+![Tab "Disclaimer" active, fifth in the tab bar](assets/course_settings_tab_disclaimer_v1_en.png){ class="shadow lightbox" title="Terms of use tab in the course settings · 2026.10.02" }
 
 Here
 
-* freely definable course-related **terms of use**
-* and a course-related **privacy policy** 
+* freely definable course-related "Terms of use"
+* and a course-related "Privacy policy"
 
 can be activated and stored. If a person starts the course, they must first accept the conditions, otherwise access to the course is not possible. For each text you switch on, you enter a title, the conditions and the label of the checkbox that is ticked to accept. A second checkbox is possible.
 
-In the [Members management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions.
+In the [Members management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions:<br>
+`Course > Administration > Members management > Consents`
 
 ![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels](assets/disclaimer_course_v1_en.png){ class="shadow lightbox" title="Form Course related terms of use" }
 
@@ -139,18 +139,19 @@ In the [Members management](../learningresources/Members_management.md) you can 
 
 In the Layout tab you determine how the course looks and how participants move through it. Here you can
 
-* select a **layout template** for a course,
-* define the **course navigation** in more detail
-* and define the **style of the course elements**.
+* select a layout template for a course,
+* define the course navigation in more detail
+* and define the style of the course elements.
 
-Which **layout templates** are available is determined by the system layout (theme) that applies to your entire OpenOlat instance. The "Default" template is always available. A uniform appearance for all courses (colors, fonts, logo) is therefore implemented centrally via a custom system layout, see [Layout](../../manual_admin/administration/Customizing.md#layout). For a single course, choose the option "Customize...": there you set the font and colors for text, headings, links, menu and toolbox and upload a logo. In addition, you can store your own CSS files in the "courseCSS" folder of the course [Storage folder](../learningresources/Storage_folder.md). They then appear in the selection as "from course folder".
+Which layout templates are available is determined by the system layout (theme) that applies to your entire OpenOlat instance. The "Default" template is always available. A uniform appearance for all courses (colors, fonts, logo) is therefore implemented centrally via a custom system layout, see [Layout](../../manual_admin/administration/Customizing.md#layout). For a single course, choose the option "Customize...": there you set the font and colors for text, headings, links, menu and toolbox and upload a logo. In addition, you can store your own CSS files in the "courseCSS" folder of the course [Storage folder](../learningresources/Storage_folder.md). They then appear in the selection as "from course folder". You open the storage folder under:<br>
+`Course > Administration > Storage folder`
 
-In the "**Navigation**" section you can set the visibility of the menu and crumb navigation. In learning path courses you also specify whether the icons and the path are displayed in the menu ("Display icons in menu", "Display path in menu"). Depending on the linear or flexible scenario, one or the other variant offers itself.
+In the "Navigation" section you can set the visibility of the menu and crumb navigation. In learning path courses you also specify whether the icons and the path are displayed in the menu ("Display icons in menu", "Display path in menu"). Depending on the linear or flexible scenario, one or the other variant offers itself.
 
 ![Status symbols on a line on the left, the symbol of the course element in front of each title](assets/lp_icons_v1_en.png){ class="shadow lightbox" title="Course menu with path and icons" }
 ![Only the titles of the course elements, status symbols on the right](assets/no_lp_no_icons_v1_en.png){ class="shadow lightbox" title="Course menu without path and icons" }
 
-In the section "**Course element default style**" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
+In the section "Course element default style" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 
 [To the top of the page ^](#course_settings)
 
@@ -171,24 +172,26 @@ Here you can switch the toolbar in the course header on or off and define which 
 
 In the Assessment tab, you can make settings for
 
-* Assessment methods: total, average, weighted
-* Requirements for passing the course 
+* Course assessment with points: sum, average, weighted
+* Requirements for passing the course
 * The role of coaches in the assessment process
-* Activate and configure course certificates
+* Activate and configure evidence of achievement
 * Activate and configure credit points
 * Activate and configure course certificates and also set up recertification
-* Award of badges
-
+* Activate the award of badges
 
 
 !!! info "Important"
 
-    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the Assessment tab. The configuration for passing the course is done in the course editor on the top course element in the "Score" tab. There is no progression for conventional courses.
+    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the Assessment tab. The configuration for passing the course is done in the course editor on the top course element in the "Score" tab:<br>
+    `Course > Administration > Course editor > top course element > Tab "Score"`
+
+    There is no progression for conventional courses.
 
 
 [For more details >](../learningresources/Course_Settings_Assessment.md)<br>
-[For more details on **certificates** >](../learningresources/Course_Settings_Assessment_Certificate.md#certificate)<br>
-[For more details on **recertification** >](../learningresources/Course_Settings_Assessment_Certificate.md#recertification)<br>
+[For more details on certificates >](../learningresources/Course_Settings_Assessment_Certificate.md#certificate)<br>
+[For more details on recertification >](../learningresources/Course_Settings_Assessment_Certificate.md#recertification)<br>
 [To the top of the page ^](#course_settings)
 
 ## Tab Options {: #options}
@@ -207,7 +210,7 @@ If you are a user with an administrative role (learning resource manager, admini
 * invitation to activate external users for course owners with author rights
 * activate the "LTI 1.3" release for course owners with authoring rights
 
-[For more details > ](../learningresources/Course_Settings_Options.md)<br>
+[For more details >](../learningresources/Course_Settings_Options.md)<br>
 [To the top of the page ^](#course_settings)
 
 

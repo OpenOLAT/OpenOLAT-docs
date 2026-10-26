@@ -2,17 +2,17 @@
 
 ![Symbol Video hinzufügen / editieren](assets/add_video.png)
 
-Videos, die in den Kursbaustein "HTML-Seite" eingebunden werden, sind **direkt eingebundene** Videos.<br> (Siehe [Übersicht zu Videos](Video.de.md))
+Videos, die in den Kursbaustein "HTML-Seite" eingebunden werden, sind direkt eingebundene Videos.<br> (Siehe [Übersicht zu Videos](Video.de.md))
 
-Es können in die OpenOlat-Datenbank **hochgeladene** Videos sein oder **Links**, z.B. auf YouTube-Videos.<br>
+Es können in die OpenOlat-Datenbank hochgeladene Videos sein oder Links, z.B. auf YouTube-Videos.<br>
 (Bei Videos in HTML-Seiten handelt es sich also nicht um Video-Lernressourcen, d.h. sie sind ohne Annotationen, Quiz, usw.)
 
-Die direkt eingebundenen Videos im Kursbaustein "HTML-Seite" sind **im Ablageordner des Kurses abgelegt**. Von dort werden sie in den Kursbaustein verlinkt. So eingebettete Videos stehen nur im jeweiligen Kurs zur Verfügung.
+Die direkt eingebundenen Videos im Kursbaustein "HTML-Seite" sind im Ablageordner des Kurses abgelegt. Von dort werden sie in den Kursbaustein verlinkt. So eingebettete Videos stehen nur im jeweiligen Kurs zur Verfügung.
 
 
 ## Anzeige der Videos in einer HTML-Seite
 
-Für die Anzeige greift das Tool auf den in OpenOlat integrierten **Mediaplayer** zurück, was einige Vorteile hat.
+Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer zurück, was einige Vorteile hat.
 
 1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten richtig codiert sind.
 2. Der Player erkennt, ob Benutzer:innen mit einem HTML5-fähigen und Codec-kompatiblen Mobile-Browser auf das Video zugreifen. In dem Fall werden die Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä. angezeigt werden.
@@ -28,32 +28,34 @@ Welche externen Videoplattformen OpenOlat per Link einbetten darf, legen Adminis
 
 ## Video hinzufügen / editieren
 
-Im Kursbaustein "HTML-Seite" steht Ihnen ein HTML-Editor zur Verfügung, über den Sie auch Videos in eine HTML-Seite einbinden können. Im Tab "Seiteninhalt" können Sie den Editor öffnen und gelangen zum Button "Video hinzufügen / editieren".
+Im Kursbaustein "HTML-Seite" steht Ihnen ein HTML-Editor zur Verfügung, über den Sie auch Videos in eine HTML-Seite einbinden können. Den Editor öffnen Sie im Kurseditor mit dem Button "Seite bearbeiten":<br>
+`Kurs > Administration > Kurseditor > Kursbaustein "HTML-Seite" > Tab "Seiteninhalt" > Seite bearbeiten`
 
-![Button Video hinzufügen / editieren mit Tooltip zu den unterstützten Formaten FLV, MP4 und AAC, Symbolleiste des HTML-Editors im Kursbaustein HTML-Seite](assets/video_button.png){ class="shadow lightbox" }
+Im Editor finden Sie den Button "Video hinzufügen / editieren".
+
+![Button Video hinzufügen / editieren mit Tooltip zu den unterstützten Formaten FLV, MP4 und AAC](assets/video_button.png){ class="shadow lightbox" title="HTML-Editor im Kursbaustein HTML-Seite" }
 
 Im Dialog wählen Sie unter "Typ" die Art der Einbindung. Unter "Adresse" geben Sie den Link zum Video ein oder laden eine Datei hoch. Unter "Grösse" legen Sie Breite und Höhe des Players in Pixeln fest.
 
 !!! tip "Tipp"
 
-    Sie können Ihrer Mediendatei auch noch ein Startbild hinzufügen.
-    (Upload eines Bildes unter "Vorschau".)
+    Sie können Ihrer Mediendatei auch noch ein Startbild hinzufügen (Upload eines Bildes unter "Vorschau").
 
 Im Folgenden finden Sie die wichtigsten Informationen zur Nutzung des in HTML-Seiten verwendeten TinyMCE Plugins "Video hinzufügen / editieren" (Unterstützt FLV, MP4 mit h264 codiert, AAC).
 
 
 ### Empfohlenes Format
 
-In der Praxis hat sich der **mp4** (oder MPEG-4) Container mit dem H.264 Video-Codec für Video und dem **mp3** Audio-Codec für Audio etabliert. Aktuelle Versionen von Firefox, Chrome und Safari können solche Videos abspielen.
+In der Praxis hat sich der mp4 (oder MPEG-4) Container mit dem H.264 Video-Codec für Video und dem mp3 Audio-Codec für Audio etabliert. Aktuelle Versionen von Firefox, Chrome und Safari können solche Videos abspielen.
 
 Die folgenden Optionen stehen Ihnen zur Verfügung:
 
-![Auswahlliste Typ mit den sieben Einträgen Video, Musik, YouTube, Vimeo, Nanoo.tv, http (pseudo) Streamingserver und rtmp Streamingserver, Dialog Video hinzufügen / editieren](assets/Video_Audio_Typen_DE.png){ class="shadow lightbox" }
+![Auswahlliste Typ mit den sieben Einträgen Video, Musik, YouTube, Vimeo, Nanoo.tv, http (pseudo) Streamingserver und rtmp Streamingserver](assets/Video_Audio_Typen_DE.png){ class="shadow lightbox" title="Feld Typ im Dialog Video hinzufügen / editieren" }
 
 | Option | Beschreibung |
 |---|---|
 | Video | Einbindung eines Videos mit spezifischer Codierung. |
-| Musik | Einbindung einer Audiodatei ohne Video. |
+| Musik | Einbindung einer Audio-Datei ohne Video. |
 | YouTube / Vimeo / Nanoo.tv | Einbindung eines YouTube-, Vimeo- oder Nanoo.tv-Videos. |
 | http | Streaming mit Flash-Datei von einem Webserver. |
 | rtmp | Streaming mit Flash-Datei von einem speziellen Streaming-Server. |
@@ -80,42 +82,47 @@ In das Adressfeld können Sie entweder den Link auf das Video direkt eingeben od
     Von Flash Filmen wird abgeraten, da diese auf vielen mobilen Geräten wie z.B. dem iPad grundsätzlich nicht abspielbar sind.
 
 
+#### Musik (.MP3)
+
+Für eine reine Audio-Datei wählen Sie unter "Typ" die Option "Musik (.MP3)". Im Feld "Adresse" geben Sie den Link auf die Audio-Datei ein oder laden die Datei hoch. In der HTML-Seite erscheint dann nur eine schmale Steuerungsleiste zum Starten und Anhalten, mit Fortschrittsanzeige. Einen Vollbildmodus gibt es für Audio-Dateien nicht. MP3-Dateien spielen alle gängigen Browser ab.
+
+
 #### YouTube
 
-YouTube Videos werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration **direkt integriert** werden.
+YouTube Videos werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration direkt integriert werden.
 
-![Typ YouTube mit einem youtu.be-Link im Feld Adresse, Startbild logo.png unter Vorschau und Grösse 400 mal 300 Pixel, Dialog Video hinzufügen / editieren](assets/youtube_embed_DE.png){ class="shadow lightbox" }
+![Typ YouTube mit einem youtu.be-Link im Feld Adresse, Startbild logo.png unter Vorschau und Grösse 400 mal 300 Pixel](assets/youtube_embed_DE.png){ class="shadow lightbox" title="Dialog Video hinzufügen / editieren" }
 
-Benutzen Sie als "Adresse" einen direkten Link zu dem Video, erhältlich unter dem Link "**Teilen**".
+Benutzen Sie als "Adresse" einen direkten Link zu dem Video, erhältlich unter dem Link "Teilen".
 
-![Kurzlink youtu.be im Tab Teilen eines YouTube-Videos, darunter die Option Start um für eine Startzeit](assets/youtube_share.png){ class="shadow lightbox" }
+![Kurzlink youtu.be, darunter die Option Start um für eine Startzeit](assets/youtube_share.png){ class="shadow lightbox" title="Tab Teilen eines YouTube-Videos" }
 
 #### Vimeo
 
 Vimeo Videos werden in OpenOlat ebenfalls direkt verlinkt. Unter "Adresse" geben Sie den Link des gewünschten Videos ein.
 
-![Typ Vimeo mit einem vimeo.com-Link im Feld Adresse und Videovorschau, Dialog Video hinzufügen / editieren](assets/vimeo_embed_DE.png){ class="shadow lightbox" }
+![Typ Vimeo mit einem vimeo.com-Link im Feld Adresse und Videovorschau](assets/vimeo_embed_DE.png){ class="shadow lightbox" title="Dialog Video hinzufügen / editieren" }
 
-Einen direkten Link zum Vimeo-Video finden Sie unter dem Link "**Share**".
+Einen direkten Link zum Vimeo-Video finden Sie unter dem Link "Share".
 
-![Feld Link mit der Videoadresse im Vimeo-Dialog Dieses Video teilen, daneben Sozial, E-Mail hinzufügen und Einbetten](assets/vimeo_share_DE.png){ class="shadow lightbox" }
+![Feld Link mit der Videoadresse, daneben Sozial, E-Mail hinzufügen und Einbetten](assets/vimeo_share_DE.png){ class="shadow lightbox" title="Vimeo-Dialog Dieses Video teilen" }
 
 #### Nanoo.tv
 
 Videos von der Plattform [Nanoo.tv](https://portal.nanoo.tv/) können direkt verlinkt werden. Für die Nutzung und Anzeige der Videos ist ein Nanoo.tv-Account notwendig.
 
-![Typ Nanoo.tv mit einem nanoo.tv/link/n-Link im Feld Adresse, Grösse 384 mal 216 Pixel und Videovorschau, Tab Allgemein im Dialog Video hinzufügen / editieren](assets/Nanoo_tv_DE.png){ class="shadow lightbox" }
+![Typ Nanoo.tv mit einem nanoo.tv/link/n-Link im Feld Adresse, Grösse 384 mal 216 Pixel und Videovorschau](assets/Nanoo_tv_DE.png){ class="shadow lightbox" title="Tab Allgemein im Dialog Video hinzufügen / editieren" }
 
 Über die URL kann unabhängig vom Browser gesteuert werden, ob das Video sofort automatisch startet oder nicht. Dafür muss die URL hinter /link/ entsprechend angepasst werden.
 
-* automatisch starten mit "n": https://www.nanoo.tv/link/ **n** /sdxpLoaC
-* manuell starten mit "v": https://www.nanoo.tv/link/ **v** /sdxpLoaC
+* automatisch starten mit "n": `https://www.nanoo.tv/link/n/sdxpLoaC`
+* manuell starten mit "v": `https://www.nanoo.tv/link/v/sdxpLoaC`
 
 Die Einstellungen im Tab "Erweitert" funktionieren hier nicht.
 
 #### http (pseudo) Streamingserver (nur .FLV)
 
-Mit dieser Funktion können **Flash-Filme** im Format **.flv** integriert werden. Wenn die Filme am Ursprungsort richtig exportiert werden, enthalten sie eine Indexierung. Mit Hilfe dieses Inhaltsverzeichnisses kann man auch innerhalb des Films schnell an eine beliebige Stelle springen, der Film muss nicht erst komplett geladen werden. Es handelt sich dabei nicht um ein richtiges Streaming, bei diesem muss auch auf dem Server eine entsprechende Streaming-Software installiert sein.
+Mit dieser Funktion können Flash-Filme im Format .flv integriert werden. Wenn die Filme am Ursprungsort richtig exportiert werden, enthalten sie eine Indexierung. Mit Hilfe dieses Inhaltsverzeichnisses kann man auch innerhalb des Films schnell an eine beliebige Stelle springen, der Film muss nicht erst komplett geladen werden. Es handelt sich dabei nicht um ein richtiges Streaming, bei diesem muss auch auf dem Server eine entsprechende Streaming-Software installiert sein.
 
 In das Feld "Streamingserver" muss die Adresse des Servers eingegeben werden. Unter "Adresse" wird die Adresse des eigentlichen Films eingegeben.
 
@@ -140,6 +147,8 @@ Dieses von Adobe entwickelte Protokoll ermöglicht die Übertragung des Videos v
 
 [Video: Übersicht >](Video.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
-[Nanoo.tv >](https://portal.nanoo.tv/)
+[Nanoo.tv >](https://portal.nanoo.tv/)<br>
+[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
+[Ablageordner >](../learningresources/Storage_folder.de.md)
 
 [Zum Seitenanfang ^](#video_html_page)

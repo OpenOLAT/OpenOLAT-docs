@@ -4,7 +4,7 @@ Hier erhalten Sie einen Überblick, wie Sie einen Test in einem Kurs weiter konf
 
 ## Testkonfiguration auf Kursebene
 
-Den Kurseditor öffnen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen sowie Personen mit dem Recht "Kurseditor". Öffnen Sie dafür den Kurs, gehen Sie in den Kurseditor und fügen Sie einen Kursbaustein "Test" hinzu bzw. wählen Sie einen bereits hinzugefügten Kursbaustein Test. Sie sehen nun die folgenden Tabs:
+Den Kurseditor öffnen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen sowie Personen mit dem Recht "Kurseditor". Sie finden ihn unter `Kurs > Administration > Kurseditor`. Fügen Sie dort einen Kursbaustein "Test" hinzu bzw. wählen Sie einen bereits hinzugefügten Kursbaustein Test. Sie sehen nun die folgenden Tabs:
 
 ![Zehn Tabs zur Konfiguration eines Kursbausteins Test, von Titel und Beschreibung bis Erinnerungen, der Tab Korrektor:innen ausgegraut](assets/course_element_test_editor_tabs_v1_de.png){ class="shadow lightbox" title="Kursbaustein Test im Kurseditor · 2026.10.01" }
 
@@ -67,15 +67,15 @@ Wenn das Feld "immer" gewählt wird, stehen die Resultate direkt nach Beenden de
 
 ![Fünf Kontrollkästchen unter Übersicht Resultate markiert, von Testzusammenfassung bis Lösung](assets/course_element_test_report_summary_v1_de.png){ class="shadow lightbox" title="Abschnitt Report im Tab Test-Konfiguration · 2026.10.01" }
 
-Bei der **Testzusammenfassung** wird u.a. die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte Punktzahl sowie der Status angezeigt.
+Bei der "Testzusammenfassung" wird u.a. die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte Punktzahl sowie der Status angezeigt.
 
-Die **Sektionszusammenfassung** ist nur relevant, wenn ein Test auch [Sektionen](Configure_tests.de.md) enthält.
+Die "Sektionszusammenfassung" ist nur relevant, wenn ein Test auch [Sektionen](Configure_tests.de.md) enthält.
 
-Bei der **Fragezusammenfassung** wird der Titel der Frage, die jeweils erreichten Punkte bzw. der passende Prozentwert angezeigt, aber nicht die Fragestellung selbst.
+Bei der "Fragezusammenfassung" wird der Titel der Frage, die jeweils erreichten Punkte bzw. der passende Prozentwert angezeigt, aber nicht die Fragestellung selbst.
 
-Bei der Option **Antwort, von Teilnehmer:in abgegeben** wird die Frage, alle Antwortoptionen sowie die Wahl der Teilnehmenden angezeigt, allerdings keine Bewertung, ob die Frage richtig oder falsch beantwortet wurde. Ist dies gewünscht, muss die Option mit weiteren Feedback-Optionen kombiniert werden.
+Bei der Option "Antwort, von Teilnehmer:in abgegeben" wird die Frage, alle Antwortoptionen sowie die Wahl der Teilnehmenden angezeigt, allerdings keine Bewertung, ob die Frage richtig oder falsch beantwortet wurde. Ist dies gewünscht, muss die Option mit weiteren Feedback-Optionen kombiniert werden.
 
-Die **Lösung** beinhaltet die korrekten Antworten.
+Die Option "Lösung" beinhaltet die korrekten Antworten.
 
 Je nach Kombination der Anzeigeoptionen können den Teilnehmenden somit unterschiedliche Arten von Feedback hinterlassen werden.
 
@@ -102,7 +102,7 @@ Aktivieren Sie die E-Mail Bestätigung, wenn Sie die Abgabe des Tests per E-Mail
 
 Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Titel des Test-Kursbausteins im Betreff verwendet werden. Alternativ können die Vorlage und der Betreff auch geändert werden. Wählen Sie in diesem Fall unter "Vorlage" die Option "Eigener Text", um den Mailtext zu bearbeiten oder komplett zu ändern.
 
-Weitere Informationen zur Verwendung von Variablen in Mailing-Texten finden Sie [hier](Administration_and_Organisation.de.md#einsatz-von-variablen).
+Welche Variablen Sie im Mailtext verwenden können, zeigt nach der Wahl von "Eigener Text" der Tooltip am Hilfe-Symbol neben dem Feld "E-Mail Text": `$firstName`, `$lastName`, `$fullName`, `$email`, `$username`, `$courseName`, `$courseDescription`, `$courseUrl`, `$courseElementName`, `$attempt`, `$score`, `$maxScore`, `$passed` und `$grading`.
 
 ### Tab "Erinnerungen" [:octicons-tag-16:{ title="ab Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447)
 Hier können Erinnerungsmails nach bestimmten Kriterien konfiguriert werden. Weitere Informationen zum Versand von Erinnerungen erhalten Sie [hier](../learningresources/Course_Reminders.de.md).
@@ -161,7 +161,6 @@ Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttes
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Test Einstellungen - Administration >](Test_settings.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
-[Verwaltung und Organisation >](Administration_and_Organisation.de.md)<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>

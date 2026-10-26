@@ -10,28 +10,31 @@ Verfügbar seit | Release 14.0 (OO-3888)
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software Adobe Connect
 Bewertbar | nein
-Spezialität / Hinweis | Adobe Connect ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
+Spezialität / Hinweis | Adobe Connect ist eine kommerzielle Software. Um den Kursbaustein zu nutzen, ist eine separate Lizenz und ein Serverhosting erforderlich.
 
 
 
 ## Tool Spezifisches
 
-Standardmässig sind Kursbesitzer und Betreuer Adobe Connect Verwalter und
-Teilnehmende sind Connect Teilnehmende ohne weitere Rechte.
+Standardmässig sind Kursbesitzer:innen und Betreuer:innen Adobe Connect Verwalter:innen und Teilnehmende sind Connect Teilnehmende ohne weitere Rechte.
 
-Im Connect Raum stehen diverse Elemente (Pods) zur Verfügung, die miteinander kombiniert und in "Layouts" organisiert werden können. So können u.a. Präsentationsdateien hochgeladen und auch ein Veranstaltungsmitschnitt aktiviert werden. Sowohl die hochgeladenen Präsentationsdateien als auch die Aufzeichnungen sind in OpenOlat für die Kursbesitzer und Betreuer sichtbar und können den Teilnehmenden alle oder teilweise zur Verfügung gestellt werden.
+Im Connect Raum stehen diverse Elemente (Pods) zur Verfügung, die miteinander kombiniert und in "Layouts" organisiert werden können. So können u.a. Präsentationsdateien hochgeladen und auch ein Veranstaltungsmitschnitt aktiviert werden. Sowohl die hochgeladenen Präsentationsdateien als auch die Aufzeichnungen sind in OpenOlat für die Kursbesitzer:innen und Betreuer:innen sichtbar und können den Teilnehmenden alle oder teilweise zur Verfügung gestellt werden.
 
-![Meetingansicht mit Aufzeichnung und Präsentationsdateien, Button Dateien bereitstellen](assets/connect_aufzeichnung.png){ class="shadow lightbox" }
+![Button "Meeting beitreten", darunter im Bereich Inhalt die Aufzeichnung und die Präsentationsdateien mit dem Button "Dateien bereitstellen"](assets/connect_aufzeichnung.png){ class="shadow lightbox" title="Meeting im Kursbaustein Adobe Connect" }
 
 ## Konfiguration im Kurseditor
 
-Hier steht der Reiter Konfiguration für weitere Einstellungen zur Verfügung. 
+Hier steht der Tab "Konfiguration" für weitere Einstellungen zur Verfügung:<br>
+`Kurs > Administration > Kurseditor > Kursbaustein "Adobe Connect" > Tab "Konfiguration"`
 
 ## Konfiguration im Kursrun (geschlossener Editor)
 
-Nachdem der Kursbaustein hinzugefügt wurde, muss ein Meetingraum im Tab "Konfiguration" über den Button "Meeting hinzufügen" erstellt werden. Anschliessend erscheint der folgende Dialog:
+Nachdem der Kursbaustein hinzugefügt wurde, muss ein Meetingraum im Tab "Konfiguration" über den Button "Meeting hinzufügen" erstellt werden:<br>
+`Kurs > Kursbaustein "Adobe Connect" > Konfiguration > Meeting hinzufügen`
 
-![Eingabefelder für Vorlage, Terminbindung und Vor-/Nachlaufzeit im Dialog Meeting hinzufügen](assets/connect_meeting_hinzufuegen.jpg){ class="shadow lightbox" }
+Anschliessend erscheint der folgende Dialog:
+
+![Felder Name, Beschreibung, Vorlage, Typ "Dauernd", Beginn- und Enddatum mit Vorlauf- und Nachlaufzeit](assets/connect_meeting_hinzufuegen.jpg){ class="shadow lightbox" title="Dialog Meeting hinzufügen" }
 
 Unter dem eingetragenen Namen wird der Raum im Bereich der Meetings angezeigt. Die Beschreibung wird sichtbar nachdem man den Raum ausgewählt hat.
 
@@ -39,11 +42,11 @@ Sofern vorhanden können Sie eine vom Hosting-Server bereitgestellte Vorlage ver
 
 Unabhängig von der Raumkonfiguration kann der Zugang zum Kursbaustein des Virtuellen Klassenzimmers auch wie alle anderen Kursbausteine über die Tabs Sichtbarkeit und Zugang im Kurseditor konfiguriert werden.
 
-Ein eingebauter Adobe Connect Kursbaustein kann mehrere unterschiedlich konfigurierte Meeting-Räume enthalten. Je nach Konfiguration unter `Administration > Externe Werkzeuge > Adobe Connect` führen alle eingerichteten Meetings in denselben oder verschiedene Adobe Connect Räume.
+Ein eingebauter Adobe Connect Kursbaustein kann mehrere unterschiedlich konfigurierte Meeting-Räume enthalten. Je nach Konfiguration in der System-Administration unter `Administration > Externe Werkzeuge > Adobe Connect` führen alle eingerichteten Meetings in denselben oder verschiedene Adobe Connect Räume.
 
 Im Tab "Meetings" wird die Übersicht der eingerichteten virtuellen Räume so angezeigt, wie sie auch für Teilnehmende sichtbar sind. Terminlich abgelaufene, termingebundene Meetings werden entsprechend gekennzeichnet.
 
-![Liste zukünftiger und abgelaufener Meetings mit Terminangaben und Button Auswählen, Tab Meetings](assets/connect_meetings.jpg){ class="shadow lightbox" }
+![Listen Zukünftige Meetings und Alte Meetings mit Beginn- und Enddatum, in jeder Zeile der Link "Auswählen"](assets/connect_meetings.jpg){ class="shadow lightbox" title="Tab Meetings im Kursbaustein Adobe Connect" }
 
 Über "Auswählen" gelangt man in das entsprechende virtuelle Klassenzimmer. Beim ersten Aufruf muss man sich für das Meeting "anmelden" und anschliessend hat man die Möglichkeit über ein weiteres Dialogfenster dem Meeting beizutreten. Mit "Meeting beitreten" gelangt man in das Virtuelle Klassenzimmer und sämtliche raumspezifischen Werkzeuge stehen zur Verfügung.
 
@@ -60,8 +63,9 @@ Im Tab "Meetings" wird die Übersicht der eingerichteten virtuellen Räume so an
 [DFN Server](https://www.conf.dfn.de/anleitungen-und-dokumentation/adobe-connect)
 
 **Weiterführend**<br>
-[Kommunikation und Kollaboration](Communication_and_Collaboration.de.md)<br>
-[Kursbaustein "GoToMeeting"](Course_Element_GoToMeeting.de.md)<br>
-[Externe Werkzeuge: Übersicht](../../manual_admin/administration/External_Tools_-_Administration.de.md)
+[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbaustein "GoToMeeting" >](Course_Element_GoToMeeting.de.md)<br>
+[Virtuelle Klassenzimmer >](../basic_concepts/Virtual_classrooms.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
 
 [Zum Seitenanfang ^](#adobe_connect)

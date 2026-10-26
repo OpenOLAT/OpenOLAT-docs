@@ -5,7 +5,7 @@
 Name | Video
 ---------|----------
 Icon | :o_icon_o_icon_video:
-Verfügbar seit | 
+Verfügbar seit | Release 10.5 (OO-725)
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige von mp4-Dateien, inkl. der Ergänzungen in OpenOlat (Quizzes, Kommentare, Segmente, Annotationen, Kapitel, Poster, Untertitel)
 Bewertbar | nein
@@ -19,11 +19,12 @@ Handelt es sich um ein interaktives Video, sind auch weitere Aktionen wie die Be
 
 Informationen zur Nachbearbeitung des Videos mit OpenOlat Quiz und Sprungmarken finden Sie im Kapitel "[Lernressource: Video](../learningresources/Learning_resource_Video.de.md)".
 
-## Neues Video zuordnen
+## Neues Video zuordnen [:octicons-tag-16:{ title="ab Release 10.5 (OO-725)" }](https://track.frentix.com/issue/OO-725){:target="_blank"}
 
-Gehen Sie in den Kurseditor und fügen Sie Ihrem Kurs den Kursbaustein "Video" hinzu.
+Gehen Sie in den Kurseditor und fügen Sie Ihrem Kurs den Kursbaustein "Video" hinzu. Den Kurseditor öffnen Sie unter:<br>
+`Kurs > Administration > Kurseditor`
 
-Wenn Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video** die Meldung _Kein Video ausgewählt_. Klicken Sie im Tab "Lerninhalt" auf "Video auswählen oder importieren", um Ihrem Kursbaustein ein Video zuzuordnen.
+Wenn Sie noch kein Video zugewiesen haben, erscheint beim Titel "Gewähltes Video" die Meldung "Kein Video ausgewählt". Klicken Sie im Tab "Lerninhalt" auf "Video auswählen oder importieren", um Ihrem Kursbaustein ein Video zuzuordnen.
 
 Es erscheint ein neues Menü. Unter "Alle Einträge" sehen Sie alle Videos des Systems die Sie einbinden können. Unter "Meine Einträge" sehen Sie die Video Lernressourcen bei denen Sie Besitzer sind. Wählen sie das gewünschte Video aus. Eine Suche ist ebenfalls möglich.
 
@@ -35,19 +36,19 @@ Sobald Sie ein Video hinzugefügt haben, erscheint dessen Name als Link. Folgen 
 
 Unter "Videoelemente anzeigen" können auch Annotationen, Segmente, Quiz und Kommentare, sofern in der Lernressource Video hinzugefügt, aktiviert werden.
 
-Haben Sie ein Video ausgewählt bzw. importiert erscheint im Tab Lerninhalt der Abschnitt **"Optionen"**. Hier können Sie definieren:
+Haben Sie ein Video ausgewählt bzw. importiert, erscheint im Tab "Lerninhalt" der Abschnitt "Optionen". Hier können Sie definieren:
 
 * ob die Zuschauer das Video kommentieren und/oder bewerten dürfen
-* ob das Video automatisch gestartet werden soll oder nicht<br>
+* ob das Video automatisch gestartet werden soll oder nicht
 * ob das Vorspulen eingeschränkt werden soll oder nicht
 * ob der Video Titel aus der Lernressource angezeigt werden soll
 * ob eine Beschreibung des Videos angezeigt werden soll. Dabei kann entweder die Beschreibung aus der Info der Lernressource Video übernommen, eine neue Beschreibung hinterlegt oder ganz darauf verzichtet werden.
 
-Sofern Titel und Beschreibung aktiviert wurden werden diese unterhalb des Videos angezeigt.
+Sofern Titel und Beschreibung aktiviert sind, werden diese unterhalb des Videos angezeigt.
 
 Um die Zuordnung eines Videos nachträglich zu ändern und ein anderes Video auszuwählen, klicken Sie im Tab "Lerninhalt" auf "Video auswechseln" und wählen anschliessend ein anderes Video aus.
 
-!!! info "Wichtig"
+!!! tip "Tipp"
 
     In Lernpfadkursen kann im Tab "Lernpfad" zusätzlich als Erledigungskriterium definiert werden, ob die Lernenden das Video zu Ende schauen müssen (zu 95%), damit der Kursbaustein als erledigt gilt.
 
@@ -55,7 +56,7 @@ Zusätzlich können alle Videos die in OpenOlat als Lernressource angelegt und i
 
 ## Art der Einbindung im Kurs
 
-Ein Video, das mit Hilfe des Kursbausteins Video in einen Kurs eingebunden wurde ermöglicht - im Gegensatz zu Videos die über das [Kurselement "Einzelne Seite" eingebunden](Single_Page_Add_edit_video.de.md) werden:
+Ein Video, das Sie mit dem Kursbaustein "Video" einbinden, ermöglicht im Gegensatz zu einem Video im [Kursbaustein "HTML-Seite"](../basic_concepts/Video_in_HTML_Pages.de.md):
 
   * die Wiedergabe mit Untertiteln
   * die Wiedergabe in unterschiedlichen Auflösungen (vor allem relevant für Mobilgeräte, oder ohne WLAN-Zugang)
@@ -68,7 +69,10 @@ Ein Video, das mit Hilfe des Kursbausteins Video in einen Kurs eingebunden wurde
 
 [Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
-[Einzelne Seite: Video hinzufügen / editieren >](Single_Page_Add_edit_video.de.md)<br>
-[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)
+[Videos im Kursbaustein "HTML-Seite" >](../basic_concepts/Video_in_HTML_Pages.de.md)<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbaustein "Videoaufgabe" >](../learningresources/Course_Element_Video_Task.de.md)<br>
+[Video Collection >](../area_modules/Video_Collection.de.md)
 
 [Zum Seitenanfang ^](#course_element_video)

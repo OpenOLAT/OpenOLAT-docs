@@ -20,11 +20,11 @@ Available since | Release 10.0 (OO-963)
 
 The personal menu is divided into five sections:
 
-![1](assets/1_green_20.png) **User tools**: your working tools, from the calendar to the mailbox <br>
-![2](assets/2_green_20.png) **Achievements/Successes**: everything you have achieved in OpenOlat <br>
-![3](assets/3_green_20.png) **Configuration**: profile, settings and password <br>
-![4](assets/4_green_20.png) **Help**: links to the manual, to training courses and to support <br>
-![5](assets/5_green_20.png) **System**: system related functions such as printing <br>
+**User tools**: your working tools, from the calendar to the mailbox<br>
+**Achievements/Successes**: everything you have achieved in OpenOlat<br>
+**Configuration**: profile, settings and password<br>
+**Help**: links to the manual, to training courses and to support<br>
+**System**: system related functions such as printing
 
 At the end of the menu you find the "Log out" function.
 
@@ -91,7 +91,7 @@ Not only the user tools are available for selection, but also entries from the o
 
     Each tool is shown only once, either in the personal menu or in the menu bar.
 
-!!! warning "Attention"
+!!! info "Important"
 
     OpenOlat places the moved tools into the menu bar only at your next login. Until then the menu bar stays unchanged, and the tool remains in the personal menu. Log out and log in again to see the result.
 
@@ -108,18 +108,16 @@ In the example the "Calendar" has been moved to the menu bar. After the next log
 
 ## Always in the menu bar: Chat and search {: #always_visible}
 
-Two tools are not part of the personal menu but are always in the menu bar: the [Chat](../basic_concepts/Chat.md) (instant messaging) with your status and the counter of unread messages, and the [Search](../basic_concepts/Full_Text_Search.md). They cannot be moved.
+Two tools are not part of the personal menu but are always in the menu bar: the [Chat](../basic_concepts/Chat.md) (instant messaging) with your status and the counter of unread messages, and the [global search](../basic_concepts/Search_Global.md). They cannot be moved.
 
 ![Chat status, counter of unread messages and search icon on the right of the menu bar, marked with a circle](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox" title="Menu bar on the right" }
 
 
 ## Further information {: #further_information}
 
-[User tools >](../personal_menu/Personal_Tools.md)<br>
-[Core functions: Overview (Administration manual) >](../../manual_admin/administration/Core_functions.md)<br>
-[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Chat >](../basic_concepts/Chat.md)<br>
-[Full-Text Search >](../basic_concepts/Full_Text_Search.md)
+[Navigation >](../basic_concepts/Navigation.md)<br>
+[Personal Configuration >](../personal_menu/Personal_Configuration.md)<br>
+[Session Timeout and Logout >](../basic_concepts/Session_Timeout_and_Logout.md)
 
 **youtube**<br>
 [Navigation (German)](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank"}<br>

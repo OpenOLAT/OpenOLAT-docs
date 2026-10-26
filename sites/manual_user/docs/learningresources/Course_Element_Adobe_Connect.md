@@ -19,17 +19,21 @@ By default, course owners and coaches are Adobe Connect administrators and parti
 
 In the Connect room, various elements (pods) are available, which can be combined with each other and organized in "layouts". For example, presentation files can be uploaded and an event recording can be activated. Both the uploaded presentation files and the recordings are visible in OpenOlat for course owners and coaches and can be made available to course participants in full or in part.
 
-![Meeting view with recording and presentation files, Share files button](assets/AC_Files_EN.png){ class="shadow lightbox" }
+![Button "Join the meeting", below it in the Content area the recordings with the "Share files" button](assets/AC_Files_EN.png){ class="shadow lightbox" title="Meeting in the Adobe Connect course element" }
 
 ## Configuration in the course editor
 
-Here, the configuration tab is available for further settings.
+Here, the "Configuration" tab is available for further settings:<br>
+`Course > Administration > Course editor > Course element "Adobe Connect" > Tab "Configuration"`
 
 ## Configuration in the course run (closed editor)
 
-After the course element has been added, a meeting room must be created in the tab "Configuration" via the button "Add Meeting". Then the following dialog appears:
+After the course element has been added, a meeting room must be created in the tab "Configuration" via the button "Add meeting":<br>
+`Course > Course element "Adobe Connect" > Configuration > Add meeting`
 
-![Input fields for template, time-binding and lead/follow-up time in the Add meeting dialog](assets/AC_Anlegen_EN.png){ class="shadow lightbox" }
+Then the following dialog appears:
+
+![Fields Name, Description, Template, type "Permanent", start and end date with prep and follow-up time](assets/AC_Anlegen_EN.png){ class="shadow lightbox" title="Add meeting dialog" }
 
 Under the entered title the room is displayed in the meeting area. The description becomes visible after you have selected the room.
 
@@ -37,11 +41,11 @@ If available, you can use a template provided by the hosting server or "No templ
 
 Irrespective of the room configuration, access to the course element of the virtual classroom can also be configured like all other course elements via the Visibility and Access tabs in the course editor.
 
-A built-in Adobe Connect course element can contain multiple differently configured meeting rooms. Depending on the configuration under `Administration > External Tools > Adobe Connect`, all meetings set up run in the same or different Adobe Connect rooms.
+A built-in Adobe Connect course element can contain multiple differently configured meeting rooms. Depending on the configuration in the system administration under `Administration > External Tools > Adobe Connect`, all meetings set up run in the same or different Adobe Connect rooms.
 
 In the "Meetings" tab, the overview of the virtual rooms set up is displayed in the same way as they are visible to participants. Scheduled meetings are marked accordingly.
 
-![Upcoming and old meetings lists with schedule details and Select button, Meetings tab](assets/AC_overview_EN.png){ class="shadow lightbox" }
+![Lists Upcoming meetings and Old meetings with start and end date, a "Select" link in each row](assets/AC_overview_EN.png){ class="shadow lightbox" title="Meetings tab in the Adobe Connect course element" }
 
 "Select" takes you to the corresponding virtual classroom. At the first call you have to "register" for the meeting and afterwards you have the possibility to join the meeting via another dialog window. With "Join the meeting" you enter the virtual classroom and all room specific tools are available.
 
@@ -58,8 +62,9 @@ In the "Meetings" tab, the overview of the virtual rooms set up is displayed in 
 [DFN server](https://www.conf.dfn.de/anleitungen-und-dokumentation/adobe-connect)
 
 **Further reading**<br>
-[Communication and Collaboration](Communication_and_Collaboration.md)<br>
-[Course Element "GoToMeeting"](Course_Element_GoToMeeting.md)<br>
-[External Tools: Overview](../../manual_admin/administration/External_Tools_-_Administration.md)
+[Types of Course Elements >](Course_Elements.md)<br>
+[Course Element "GoToMeeting" >](Course_Element_GoToMeeting.md)<br>
+[Virtual classrooms >](../basic_concepts/Virtual_classrooms.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
 
 [To the top of the page ^](#adobe_connect)

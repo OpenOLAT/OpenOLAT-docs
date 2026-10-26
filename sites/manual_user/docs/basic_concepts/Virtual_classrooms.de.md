@@ -64,7 +64,7 @@ Sobald das jeweilige virtuelle Klassenzimmer in der System-Administration freige
 
 **Weiterführend**<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
-[Kommunikation und Kollaboration >](../learningresources/Communication_and_Collaboration.de.md)<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)
 
 **youtube**<br>

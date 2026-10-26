@@ -64,7 +64,7 @@ As soon as the respective virtual classroom is activated in the system administr
 
 **Further reading**<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
-[Communication and Collaboration >](../learningresources/Communication_and_Collaboration.md)<br>
+[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)
 
 **youtube**<br>

@@ -4,7 +4,7 @@ Here you get an overview of how to further configure a test in a course, how to 
 
 ## Test Configuration at Course Level
 
-Owners of the course, learning resource managers and administrators as well as persons with the right "Course editor" open the course editor. Open the course, go to the course editor and add a course element "Test" or select an already added course element Test. You will now see the following tabs:
+Owners of the course, learning resource managers and administrators as well as persons with the right "Course editor" open the course editor. You find it under `Course > Administration > Course editor`. Add a course element "Test" there or select an already added course element Test. You will now see the following tabs:
 
 ![Ten tabs for configuring a course element Test, from Title and description to Reminders, the Correctors tab greyed out](assets/course_element_test_editor_tabs_v1_en.png){ class="shadow lightbox" title="Course element Test in the course editor · 2026.10.01" }
 
@@ -67,15 +67,15 @@ If the "Always" field is selected, the results are available immediately after t
 
 ![Five checkboxes under Overview results marked, from Test summary to Solution](assets/course_element_test_report_summary_v1_en.png){ class="shadow lightbox" title="Report section in the Test configuration tab · 2026.10.01" }
 
-The **test summary** shows, among other things, the percentage achieved, the time taken to complete the test, the number of questions worked on and the score achieved, as well as the status.
+The "Test summary" shows, among other things, the percentage achieved, the time taken to complete the test, the number of questions worked on and the score achieved, as well as the status.
 
-The **section summary** is only relevant if a test also contains [sections](Configure_tests.md).
+The "Section summary" is only relevant if a test also contains [sections](Configure_tests.md).
 
-In the **question summary**, the title of the question, the points achieved in each case or the matching percentage value are displayed, but not the question itself.
+In the "Question summary", the title of the question, the points achieved in each case or the matching percentage value are displayed, but not the question itself.
 
-With the option **Answer, submitted by participant**, the question, all answer options as well as the choice of the participants are shown, but no evaluation whether the question was answered correctly or incorrectly. If this is desired, the option must be combined with other feedback options.
+With the option "Answer, submitted by participant", the question, all answer options as well as the choice of the participants are shown, but no evaluation whether the question was answered correctly or incorrectly. If this is desired, the option must be combined with other feedback options.
 
-The **Solution** contains the correct answers.
+The option "Solution" contains the correct answers.
 
 Depending on the combination of the display options, different types of feedback can be left for the participants.
 
@@ -102,7 +102,7 @@ Activate the confirmation e-mail if you want to confirm the submission of the te
 
 The template and a preset subject with the title of the test course element in the subject can be used for the e-mail text. Alternatively, the template and subject can also be changed. In this case, select the option "Own text" under "Template" to edit or completely change the e-mail text.
 
-Further information about variables in mailing texts can be found [here](Administration_and_Organisation.md#use-of-variables).
+The variables you can use in the e-mail text are listed in the tooltip of the help icon next to the field "Text e-mail", once "Own text" is selected: `$firstName`, `$lastName`, `$fullName`, `$email`, `$username`, `$courseName`, `$courseDescription`, `$courseUrl`, `$courseElementName`, `$attempt`, `$score`, `$maxScore`, `$passed` and `$grading`.
 
 ### Tab "Reminders" [:octicons-tag-16:{ title="from Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447)
 Reminder e-mails can be configured here according to specific criteria. Further information on sending reminders can be found [here](../learningresources/Course_Reminders.md).
@@ -161,7 +161,6 @@ Via `Course > Administration > Test statistics` ([Test statistics](../learningre
 [Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Test settings - Administration >](Test_settings.md)<br>
 [Configure tests >](Configure_tests.md)<br>
-[Administration and Organisation >](Administration_and_Organisation.md)<br>
 [Course Reminders >](../learningresources/Course_Reminders.md)<br>
 [Test editor >](Test_editor_QTI_2.1.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>

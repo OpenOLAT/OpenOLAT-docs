@@ -5,7 +5,7 @@
 Name | Video
 ---------|----------
 Icon | :o_icon_o_icon_video:
-Available since | 
+Available since | Release 10.5 (OO-725)
 Functional group | Knowledge transfer
 Purpose | Display of mp4 files, including the additions in OpenOlat (quizzes, comments, segments, annotations, chapters, posters, subtitles)
 Assessable | no
@@ -19,11 +19,12 @@ If it is an interactive video, further actions such as answering quiz questions 
 
 For information on post-processing the video with OpenOlat quizzes and skip marks, see the "[Learning resource: Video](../learningresources/Learning_resource_Video.md)" chapter.
 
-## Assign new video
+## Assign new video [:octicons-tag-16:{ title="from Release 10.5 (OO-725)" }](https://track.frentix.com/issue/OO-725){:target="_blank"}
 
-Go to the course editor and add the course element "Video" to your course.
+Go to the course editor and add the course element "Video" to your course. You open the course editor under:<br>
+`Course > Administration > Course editor`
 
-If you have not yet assigned a video, the message _No video selected_ appears at the title **Selected video**. Click on "Select or import video" in the "Learning content" tab to assign a video to your course element.
+If you have not yet assigned a video, the message "No video selected" appears at the title "Selected video". Click on "Select or import video" in the "Video" tab to assign a video to your course element.
 
 A new menu appears. Under "All entries" you can see all videos of the system that you can embed. Under "My entries" you can see the video learning resources you are an owner of. Select the video you want. A search is also possible.
 
@@ -33,9 +34,9 @@ Click "Import" or "Import URL" to upload or link to a *new* video. Alternatively
 
 Once you add a video, its name appears as a link. Follow the link to get to the preview of the video.
 
-Under "Show video elements", annotations, segments, quizzes and comments, if added in the learning resource video, can also be activated.
+Under "Display video elements", annotations, segments, quizzes and comments, if added in the learning resource video, can also be activated.
 
-Once you have selected or imported a video, the following section appears in the Learning content tab **Options**. Here you can define:
+Once you have selected or imported a video, the section "Options" appears in the "Video" tab. Here you can define:
 
 * Whether viewers may comment on and/or rate the video
 * whether the video should be started automatically or not
@@ -45,9 +46,9 @@ Once you have selected or imported a video, the following section appears in the
 
 If the title and description are enabled, they will be displayed below the video.
 
-To change the assignment of a video afterwards and select a different video, click on "Change video" in the "Learning content" tab and then select a different video.
+To change the assignment of a video afterwards and select a different video, click on "Replace video" in the "Video" tab and then select a different video.
 
-!!! info "Important"
+!!! tip "Tip"
 
     In learning path courses, the tab "Learning path" can also be used to define as a completion criterion whether learners have to finish watching the video (95%) for the course element to be considered completed.
 
@@ -55,7 +56,7 @@ In addition, all videos that are created in OpenOlat as learning resources and i
 
 ## Type of integration in the course
 
-A video that has been integrated into a course with the help of the course element video enables - in contrast to videos that are embedded via the [course element "Single Page"](Single_Page_Add_edit_video.md):
+A video that you embed with the course element "Video" enables, in contrast to a video in the [course element "HTML page"](../basic_concepts/Video_in_HTML_Pages.md):
 
   * playback with subtitles
   * playback in different resolutions (especially relevant for mobile devices, or without Wifi access)
@@ -68,7 +69,10 @@ A video that has been integrated into a course with the help of the course eleme
 
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
 [Authoring - Overview >](../area_modules/Authoring.md)<br>
-[Single Page: Add / edit video >](Single_Page_Add_edit_video.md)<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)
+[Videos in course element "HTML page" >](../basic_concepts/Video_in_HTML_Pages.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)<br>
+[Video Collection >](../area_modules/Video_Collection.md)
 
 [To the top of the page ^](#course_element_video)

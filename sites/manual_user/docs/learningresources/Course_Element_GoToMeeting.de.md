@@ -6,14 +6,14 @@
 Name | GoToMeeting
 ---------|----------
 Icon | :o_icon_o_gotomeeting_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 10.5 (OO-1944)
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software GoToMeeting
 Bewertbar | nein
-Spezialität / Hinweis | GoToMeeting ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
+Spezialität / Hinweis | GoToMeeting ist eine kommerzielle Software. Um den Kursbaustein zu nutzen, ist eine separate Lizenz und ein Serverhosting erforderlich.
 
 
- ## Tool Spezifisches {: #tool_specific}
+## Tool Spezifisches {: #tool_specific}
 
 !!! note "Link zu weiteren Infos"
 
@@ -21,13 +21,14 @@ Spezialität / Hinweis | GoToMeeting ist eine kommerzielle Software. Um den Kurs
 
 ## Konfiguration im Kurseditor {: #editor_config}
 
-Kein spezifischer Tab 
+Kein spezifischer Tab
 
 ## Konfiguration im Kursrun (geschlossener Editor) {: #closed_editor_config}
 
-Im Bereich "Konfiguration" kann ein neues Meeting erstellt werden.
+Im Bereich "Konfiguration" kann ein neues Meeting erstellt werden:<br>
+`Kurs > Kursbaustein "GoToMeeting" > Konfiguration > Neue Schulung erstellen`
 
-![Dialog Neue Schulung erstellen mit Feldern für Name, Beschreibung sowie Start- und Endzeit](assets/goto_meeting_erstellen.png){ class="shadow lightbox" }
+![Pflichtfelder Organizers, Name, Schulung starten und End, dazu Beschreibung und Button "Ich habe ein GoToMeeting Konto"](assets/goto_meeting_erstellen.png){ class="shadow lightbox" title="Dialog Neue Schulung erstellen" }
 
 !!! info "Zugang zum Meeting-Raum"
 
@@ -39,8 +40,9 @@ Im Bereich "Konfiguration" kann ein neues Meeting erstellt werden.
 [GoToMeeting (Anbieter-Website)](https://www.goto.com/meeting)
 
 **Weiterführend**<br>
-[Kommunikation und Kollaboration](Communication_and_Collaboration.de.md)<br>
-[Kursbaustein "Adobe Connect"](Course_Element_Adobe_Connect.de.md)<br>
-[Externe Werkzeuge: Übersicht](../../manual_admin/administration/External_Tools_-_Administration.de.md)
+[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbaustein "Adobe Connect" >](Course_Element_Adobe_Connect.de.md)<br>
+[Virtuelle Klassenzimmer >](../basic_concepts/Virtual_classrooms.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
 
 [Zum Seitenanfang ^](#gotomeeting)

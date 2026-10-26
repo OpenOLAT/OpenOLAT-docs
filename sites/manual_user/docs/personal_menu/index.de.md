@@ -20,11 +20,11 @@ Verfügbar seit | Release 10.0 (OO-963)
 
 Das persönliche Menü ist in fünf Abschnitte gegliedert:
 
-![1](assets/1_green_20.png) **Persönliche Werkzeuge**: Ihre Arbeitswerkzeuge, vom Kalender bis zum E-Mail-Postfach <br>
-![2](assets/2_green_20.png) **Erfolge/Leistungen**: alles, was Sie in OpenOlat erreicht haben <br>
-![3](assets/3_green_20.png) **Konfiguration**: Profil, Einstellungen und Passwort <br>
-![4](assets/4_green_20.png) **Hilfe**: Verweise auf Handbuch, Schulungen und Support <br>
-![5](assets/5_green_20.png) **System**: systemnahe Funktionen wie Drucken <br>
+**Persönliche Werkzeuge**: Ihre Arbeitswerkzeuge, vom Kalender bis zum E-Mail-Postfach<br>
+**Erfolge/Leistungen**: alles, was Sie in OpenOlat erreicht haben<br>
+**Konfiguration**: Profil, Einstellungen und Passwort<br>
+**Hilfe**: Verweise auf Handbuch, Schulungen und Support<br>
+**System**: systemnahe Funktionen wie Drucken
 
 Am Ende des Menüs steht die Funktion "Abmelden".
 
@@ -91,7 +91,7 @@ Zur Auswahl stehen nicht nur die persönlichen Werkzeuge, sondern auch Einträge
 
     Jedes Werkzeug wird nur einmal angezeigt, entweder im persönlichen Menü oder in der Menüleiste.
 
-!!! warning "Achtung"
+!!! info "Wichtig"
 
     OpenOlat übernimmt die verschobenen Werkzeuge erst beim nächsten Login in die Menüleiste. Bis dahin bleibt die Menüleiste unverändert, und das Werkzeug steht weiterhin im persönlichen Menü. Melden Sie sich ab und wieder an, um das Ergebnis zu sehen.
 
@@ -108,18 +108,16 @@ Im Beispiel ist der "Kalender" in die Menüleiste verschoben. Nach dem nächsten
 
 ## Immer in der Menüleiste: Chat und Suche {: #always_visible}
 
-Zwei Werkzeuge stehen nicht im persönlichen Menü, sondern grundsätzlich in der Menüleiste: der [Chat](../basic_concepts/Chat.de.md) (Instant Messaging) mit Ihrem Status und dem Zähler der ungelesenen Nachrichten sowie die [Suche](../basic_concepts/Full_Text_Search.de.md). Sie lassen sich nicht verschieben.
+Zwei Werkzeuge stehen nicht im persönlichen Menü, sondern grundsätzlich in der Menüleiste: der [Chat](../basic_concepts/Chat.de.md) (Instant Messaging) mit Ihrem Status und dem Zähler der ungelesenen Nachrichten sowie die [globale Suche](../basic_concepts/Search_Global.de.md). Sie lassen sich nicht verschieben.
 
 ![Chat-Status, Zähler der ungelesenen Nachrichten und Suchsymbol rechts in der Menüleiste, mit Kreis markiert](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox" title="Menüleiste rechts" }
 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
-[Core-Konfiguration: Übersicht (Administrationshandbuch) >](../../manual_admin/administration/Core_functions.de.md)<br>
-[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
-[Chat >](../basic_concepts/Chat.de.md)<br>
-[Volltextsuche >](../basic_concepts/Full_Text_Search.de.md)
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
+[Persönliche Konfiguration >](../personal_menu/Personal_Configuration.de.md)<br>
+[Session-Timeout und Logout >](../basic_concepts/Session_Timeout_and_Logout.de.md)
 
 **youtube**<br>
 [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank"}<br>
