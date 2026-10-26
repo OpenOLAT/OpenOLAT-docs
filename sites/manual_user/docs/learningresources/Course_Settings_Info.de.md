@@ -5,7 +5,7 @@ Die Angaben in der Kursadministration im Tab "Info" sind die wesentlichen Bestan
 
 ## Infoseite einrichten {: #configure_info}
 
-Die Einrichtung der [Infoseite](../learningresources/General_Functions_Infopage.de.md) erfolgt unter `Kurs > Administration > Einstellungen` in den Tabs "Metadaten", "Info" und "Durchführung". Je ausführlicher Sie die Lernressource beschreiben, umso einfacher kann diese gefunden und desto besser sind Interessierte und spätere Teilnehmer:innen informiert.
+Die Einrichtung der [Infoseite](../learningresources/General_Functions_Infopage.de.md) erfolgt unter `Kurs > Administration > Einstellungen` in den Tabs "Metadaten", "Info" und "Durchführung". Je ausführlicher Sie die Lernressource beschreiben, umso einfacher kann diese gefunden werden und desto besser sind Interessierte und spätere Teilnehmer:innen informiert.
 
 Den **Titel** (Pflichtfeld, höchstens 100 Zeichen) und das **Kennzeichen**, z.B. die Bezeichnung aus dem Vorlesungsverzeichnis oder eines gedruckten Kurskataloges, legen Sie im [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md) fest.
 
