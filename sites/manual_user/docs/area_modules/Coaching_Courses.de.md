@@ -39,7 +39,11 @@ Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränk
 * **Freigabe Betreuer:innen**: nur Kurse im Status "Freigabe Betreuer:innen".
 * **Beendet**: nur Kurse im Status "Beendet".
 
-Im Fokus "Weitere Ressourcen" stehen nur die drei Tabs "Favoriten", "Alle" und "Beendet" zur Verfügung. Standard beim Öffnen ist hier "Alle". Die Tabs "Relevant", "Veröffentlicht" und "Freigabe Betreuer:innen" entfallen, weil OpenOlat für eingebundene Ressourcen und Vorlagen keine Kursstatistiken lädt. Aus demselben Grund fehlen die Filter zu Besuchen, Bewertungen, Teilnehmendenzahl und Zertifikaten. Verfügbar sind hier die Filter "Favoriten", "Durchführungszeitraum", "Status" und "Typ". Gehören Ihre Ressourcen zu Bildungsprodukten, kommt der Filter "Produkte" dazu.
+Im Fokus "Weitere Ressourcen" stehen nur die drei Tabs "Favoriten", "Alle" und "Beendet" zur Verfügung. Standard beim Öffnen ist hier "Alle". Die Tabs "Relevant", "Veröffentlicht" und "Freigabe Betreuer:innen" entfallen, weil OpenOlat für eingebundene Ressourcen und Vorlagen keine Kursstatistiken lädt. Aus demselben Grund fehlen die Filter zu Besuchen, Bewertungen, Teilnehmendenzahl und Zertifikaten. Verfügbar sind hier die Filter "Favoriten", "Durchführungszeitraum", "Status", "Durchführungsformat" und "Typ". Gehören Ihre Ressourcen zu Bildungsprodukten, kommt der Filter "Produkte" dazu. Ein Durchführungsformat tragen nur Kurse, also auch Kursvorlagen. Tests, Wikis und andere Lernressourcen fallen bei aktivem Filter "Durchführungsformat" aus der Liste.
+
+In allen Fokus-Einträgen grenzen Sie die Liste mit dem Filter "Durchführungsformat" auf Kurse eines oder mehrerer Formate ein, zum Beispiel auf alle Präsenzveranstaltungen [:octicons-tag-16:{ title="ab Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. Wer viele Kurse betreut, findet so die Kurse mit ähnlichem Betreuungsaufwand zusammen, etwa die Kurse im Selbststudium, deren Fortschritt laufend zu prüfen ist. Zur Wahl stehen alle Formate, welche die System-Administration im [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#implementation_formats) definiert hat. Das Format eines Kurses wird im Kurs unter `Kurs > Administration > Einstellungen`, Tab "Metadaten" gewählt, siehe [Durchführungsformat](../learningresources/Course_Settings_Metadata.de.md#educational_type). Kurse ohne gewähltes Format erscheinen bei aktivem Filter nicht.
+
+![Filter Durchführungsformat mit Blended Learning und Präsenzveranstaltung gewählt, die Liste zeigt nur Kurse dieser Formate, die Spalte Durchführungsformat nennt das Format je Kurs](assets/coaching_courses_educational_type_filter_v1_de.png){ class="shadow lightbox" title="Kurse im Coaching, Filter Durchführungsformat · 2026.10.27" }
 
 Weitere Informationen zum allgemeinen Umgang mit Filtern und Filter-Tabs finden Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md). Ein Tab dieser Ansicht lässt sich auch als [persönliche Startseite](../personal_menu/Settings.de.md#landing_page) festlegen.
 
@@ -92,6 +96,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Kennzeichen**
 * **Beginn** (Beginn des Durchführungszeitraums dieses Kurses)
 * **Ende** (Ende des Durchführungszeitraums dieses Kurses)
+* **Durchführungsformat** (Format, das im Kurs unter `Kurs > Administration > Einstellungen`, Tab "Metadaten" gewählt ist, zum Beispiel "Präsenzveranstaltung"; standardmässig ausgeblendet)
 * **Ref.** (Anzahl der Referenzierungen, nur bei aktivem Course Planner)
 * **Status** ("in Review", "Veröffentlicht", "Beendet")
 * **Teilnehmer:innen** (Anzahl aller Teilnehmenden)
@@ -110,7 +115,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 
 Am rechten Rand jeder Zeile öffnet das Drei-Punkte-Menü die Aktionen zu diesem Eintrag: "Bewertungswerkzeug", "Infoseite" und "In neuem Tab öffnen". Den Eintrag "Bewertungswerkzeug" enthält das Menü nur bei Kursen und Tests.
 
-Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts- und Zertifikatsspalten und kein Bewertungswerkzeug, weder als Spalte noch im Drei-Punkte-Menü. Verfügbar sind hier die Spalten ID, Favorit, Typ, Technischer Typ, Titel, Ext. ID, Kennzeichen, Beginn, Ende, Ref., Status und Infoseite.
+Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts- und Zertifikatsspalten und kein Bewertungswerkzeug, weder als Spalte noch im Drei-Punkte-Menü. Verfügbar sind hier die Spalten ID, Favorit, Typ, Technischer Typ, Titel, Ext. ID, Kennzeichen, Beginn, Ende, Durchführungsformat, Ref., Status und Infoseite.
 
 !!! tip "Genaue Zahlen zum Erfolgsstatus"
 
@@ -128,6 +133,8 @@ Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Autorenbereich - Übersicht >](Authoring.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
+[Modul Kurs (Admin) >](../../manual_admin/administration/Modules_Course.de.md)<br>
+[Kurseinstellungen: Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Kurse finden >](Courses.de.md)
 

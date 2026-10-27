@@ -31,7 +31,7 @@ Neben dem Typ öffnet ein Button das Fenster "Über diesen Kurs" mit technischen
 
 #### Durchführungsformat {: #educational_type}
 
-Ordnet einen Kurs einem Format zu, zum Beispiel Blended Learning oder Selbststudium. Das Format dient der Einordnung, etwa als Filter im Autorenbereich, und ändert nichts am Aufbau des Kurses. Welche Formate zur Wahl stehen, legt die System-Administration im [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#implementation_formats) fest. Das Feld gibt es nur bei Kursen.
+Ordnet einen Kurs einem Format zu, zum Beispiel Blended Learning oder Selbststudium. Das Format dient der Einordnung, etwa als Filter im Autorenbereich, und ändert nichts am Aufbau des Kurses. Betreuer:innen und Besitzer:innen filtern auch die [Kursliste im Coaching](../area_modules/Coaching_Courses.de.md#courses_filters) nach dem Format und blenden es dort als Spalte ein [:octicons-tag-16:{ title="ab Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. Welche Formate zur Wahl stehen, legt die System-Administration im [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#implementation_formats) fest. Das Feld gibt es nur bei Kursen.
 
 #### Fachbereiche {: #taxonomy_levels}
 
@@ -74,6 +74,7 @@ In der Liste des Autorenbereichs zeigt die Spalte "Lizenz" die Lizenz jeder Lern
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
 [Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
+[Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>

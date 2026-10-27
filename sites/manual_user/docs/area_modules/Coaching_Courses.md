@@ -39,7 +39,11 @@ Predefined filter tabs are available above the list. They narrow down which cour
 * **Access for coach**: only courses with the status "Access for coach".
 * **Finished**: only courses with the status "Finished".
 
-In the focus "Other resources", only the three tabs "Favourites", "All" and "Finished" are available. The default when opening is "All" here. The tabs "Relevant", "Published" and "Access for coach" are omitted, because OpenOlat does not load course statistics for embedded resources and templates. For the same reason, the filters for visits, assessments, number of participants and certificates are missing. Available here are the filters "Favourites", "Execution period", "Status" and "Type". If your resources belong to educational products, the filter "Products" is added.
+In the focus "Other resources", only the three tabs "Favourites", "All" and "Finished" are available. The default when opening is "All" here. The tabs "Relevant", "Published" and "Access for coach" are omitted, because OpenOlat does not load course statistics for embedded resources and templates. For the same reason, the filters for visits, assessments, number of participants and certificates are missing. Available here are the filters "Favourites", "Execution period", "Status", "Implementation format" and "Type". If your resources belong to educational products, the filter "Products" is added. Only courses carry an implementation format, course templates included. Tests, wikis and other learning resources drop out of the list when the filter "Implementation format" is active.
+
+In all focus entries, you narrow down the list with the filter "Implementation format" to courses of one or more formats, for example to all lectures [:octicons-tag-16:{ title="from Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. If you coach many courses, you thus find the courses with a similar coaching effort together, for example the self-study courses whose progress you check continuously. All formats that the system administration has defined in the [Module Course](../../manual_admin/administration/Modules_Course.md#implementation_formats) are available for selection. The format of a course is selected in the course under `Course > Administration > Settings`, tab "Metadata", see [Implementation format](../learningresources/Course_Settings_Metadata.md#educational_type). Courses without a selected format do not appear when the filter is active.
+
+![Filter Implementation format with Blended-learning and Lecture selected, the list shows only courses of these formats, the column Implementation format names the format per course](assets/coaching_courses_educational_type_filter_v1_en.png){ class="shadow lightbox" title="Courses in Coaching, filter Implementation format · 2026.10.27" }
 
 For more information on working with filters and filter tabs in general, see [Working with tables](../basic_concepts/Table_Concept.md). A tab of this view can also be set as a [personal landing page](../personal_menu/Settings.md#landing_page).
 
@@ -92,6 +96,7 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 * **Reference**
 * **Begin** (begin of the implementation period of this course)
 * **End** (end of the implementation period of this course)
+* **Implementation format** (format selected in the course under `Course > Administration > Settings`, tab "Metadata", for example "Lecture"; hidden by default)
 * **Ref.** (number of references, only with an active Course Planner)
 * **Status** ("Review", "Published", "Finished")
 * **Participants** (number of all participants)
@@ -110,7 +115,7 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 
 At the right edge of each row, the three-dot menu opens the actions for this entry: "Assessment tool", "Info page" and "Open in new tab". The menu contains the entry "Assessment tool" only for courses and tests.
 
-In the focus "Other resources", the list shows no participant, progress and certificate columns and no assessment tool, neither as a column nor in the three-dot menu. Available here are the columns ID, Bookmark, Type, Technical Type, Title, Ext. ID, Reference, Begin, End, Ref., Status and Info page.
+In the focus "Other resources", the list shows no participant, progress and certificate columns and no assessment tool, neither as a column nor in the three-dot menu. Available here are the columns ID, Bookmark, Type, Technical Type, Title, Ext. ID, Reference, Begin, End, Implementation format, Ref., Status and Info page.
 
 !!! tip "Exact numbers for the success status"
 
@@ -128,6 +133,8 @@ In the focus "Other resources", the list shows no participant, progress and cert
 [Assessment tool - Overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Authoring - Overview >](Authoring.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
+[Module Course (Admin) >](../../manual_admin/administration/Modules_Course.md)<br>
+[Course Settings: Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Finding courses >](Courses.md)
 

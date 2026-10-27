@@ -31,7 +31,7 @@ Next to the type, a button opens the window "About this course" with technical d
 
 #### Implementation format {: #educational_type}
 
-Assigns a course to a format, for example Blended-learning or Self-study. The format serves for classification, for example as a filter in Authoring, and does not change the structure of the course. The system administration defines which formats are available in the [Module Course](../../manual_admin/administration/Modules_Course.md#implementation_formats). The field only exists for courses.
+Assigns a course to a format, for example Blended-learning or Self-study. The format serves for classification, for example as a filter in Authoring, and does not change the structure of the course. Coaches and owners also filter the [course list in Coaching](../area_modules/Coaching_Courses.md#courses_filters) by the format and display it there as a column [:octicons-tag-16:{ title="from Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. The system administration defines which formats are available in the [Module Course](../../manual_admin/administration/Modules_Course.md#implementation_formats). The field only exists for courses.
 
 #### Subjects {: #taxonomy_levels}
 
@@ -74,6 +74,7 @@ In the list in Authoring, the "License" column shows the license of each learnin
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
 [Toolbar: Info page >](../learningresources/Info_page.md)<br>
 [Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
+[Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
 [Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
