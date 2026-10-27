@@ -206,18 +206,21 @@ Automation rules can be defined for each element type. These rules serve as a te
 
 **Configuring automation rules**
 
-Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch on "Automation" in the "Automation" section. The table below shows the rules of the element type. New rules cannot be added: you switch each rule on or off in the column "Rule". You adjust the condition of a rule, for example trigger and relative date, via the more menu (⋮) of the row with "Edit automation rule". The tabs above the table narrow it down: "Relevant" shows only the rules switched on, "Implementation" or "Element" and "Content" show the rules of the respective context.
+Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch on "Automation" in the "Automation" section. The table below shows the rules of the element type. New rules cannot be added: you switch each rule on or off in the column "Rule". You adjust the condition of a rule, for example trigger and relative date, via the more menu (⋮) of the row with "Edit automation rule". The tabs above the table narrow it down: "All" shows every rule, "Relevant" only the rules switched on, "Implementation" or "Element" and "Content" the rules of the respective context.
 
 For element types with the usage "Implementation or element (legacy)", the section only shows a note. Implementations and elements of this type cannot be automated. To automate an implementation, assign it an element type with the usage "Implementation", for an element one with the usage "Element".
 
 ![Automation switch turned on, rule table with one switch per rule in the column Rule](assets/modules_course_planner_element_type_automation_v1_en.png){ class="shadow lightbox" title="Automation section in the dialog of an element type" }
 
-Each automation rule contains:
+The columns of the table describe each rule:
 
-* **Trigger**:
-  * **On status change**: The action is triggered as soon as the implementation or element status reaches a defined value.
-  * **Time-controlled**: The action is triggered relative to the start or end of the implementation period. You define the reference date (start or end) and an optional offset (number of days/weeks/months before or after the reference date).
-* **Action**: What is executed automatically, e.g. create course from template (instantiation) or set course status.
+* **Context**: What the rule acts on. "Implementation" or "Element" stands for the object itself, "Content" for its courses.
+* **Automation**: What the rule does. "Status change" sets the status to the value in the column "Target status", "Instantiation" creates courses from the templates of the implementation or element.
+* **Condition**: When the rule applies. In the dialog "Edit automation rule" you choose a "Trigger" for this:
+  * **On status change**: The rule applies as soon as the implementation or element has one of the statuses under "On status".
+  * **Time-controlled**: The rule applies at the point in time you define under "Relative date" before or after the begin or end of the execution period. "Only when current status is" limits it to certain statuses.
+
+Context, automation and target status of a rule are fixed, in the dialog you only change the condition. The rules switched on run once a day.
 
 
 [To the top of the page ^](#module_course_planner)

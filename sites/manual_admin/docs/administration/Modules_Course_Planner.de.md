@@ -205,18 +205,21 @@ Für jeden Elementtyp lassen sich Automatisierungsregeln hinterlegen. Diese Rege
 
 **Automatisierungsregeln konfigurieren**
 
-Öffnen Sie den gewünschten Elementtyp über das :fontawesome-regular-pen-to-square:-Symbol und schalten Sie im Abschnitt "Automatisierung" den Schalter "Automatisierung" ein. Die Tabelle darunter zeigt die Regeln des Elementtyps. Neue Regeln lassen sich nicht hinzufügen: Sie schalten jede Regel in der Spalte "Regel" ein oder aus. Die Bedingung einer Regel, etwa Auslöser und relatives Datum, passen Sie über das Mehr-Menü (⋮) der Zeile mit "Automationsregel bearbeiten" an. Die Tabs über der Tabelle grenzen sie ein: "Relevant" zeigt nur die eingeschalteten Regeln, "Durchführung" oder "Element" und "Inhalt" zeigen die Regeln des jeweiligen Kontexts.
+Öffnen Sie den gewünschten Elementtyp über das :fontawesome-regular-pen-to-square:-Symbol und schalten Sie im Abschnitt "Automatisierung" den Schalter "Automatisierung" ein. Die Tabelle darunter zeigt die Regeln des Elementtyps. Neue Regeln lassen sich nicht hinzufügen: Sie schalten jede Regel in der Spalte "Regel" ein oder aus. Die Bedingung einer Regel, etwa Auslöser und relatives Datum, passen Sie über das Mehr-Menü (⋮) der Zeile mit "Automationsregel bearbeiten" an. Die Tabs über der Tabelle grenzen sie ein: "Alle" zeigt jede Regel, "Relevant" nur die eingeschalteten, "Durchführung" oder "Element" und "Inhalt" die Regeln des jeweiligen Kontexts.
 
 Bei Elementtypen mit der Verwendung "Durchführung oder Element (legacy)" zeigt der Abschnitt nur einen Hinweis. Durchführungen und Elemente dieses Typs lassen sich nicht automatisieren. Wer eine Durchführung automatisieren will, weist ihr einen Elementtyp mit der Verwendung "Durchführung" zu, bei einem Element einen mit der Verwendung "Element".
 
 ![Schalter Automatisierung eingeschaltet, Regeltabelle mit je einem Schalter pro Regel in der Spalte Regel](assets/modules_course_planner_element_type_automation_v1_de.png){ class="shadow lightbox" title="Abschnitt Automatisierung im Dialog eines Elementtyps" }
 
-Jede Automatisierungsregel enthält:
+Die Spalten der Tabelle beschreiben jede Regel:
 
-* **Auslöser**:
-  * **Bei Statuswechsel**: Die Aktion wird ausgelöst, sobald der Durchführungs- oder Elementstatus einen definierten Wert annimmt.
-  * **Zeitgesteuert**: Die Aktion wird relativ zum Beginn oder Ende des Durchführungszeitraums ausgelöst. Dabei legen Sie das Bezugsdatum (Beginn oder Ende) sowie einen optionalen Versatz (Anzahl Tage/Wochen/Monate vor oder nach dem Bezugsdatum) fest.
-* **Aktion**: Was automatisch ausgeführt wird, z. B. Kurs aus Vorlage erstellen (Instanziierung) oder Kursstatus setzen.
+* **Kontext**: Worauf die Regel wirkt. "Durchführung" oder "Element" steht für das Objekt selbst, "Inhalt" für seine Kurse.
+* **Automatisierung**: Was die Regel tut. "Statusänderung" setzt den Status auf den Wert der Spalte "Zielstatus", "Instanziierung" erstellt Kurse aus den Vorlagen der Durchführung oder des Elements.
+* **Bedingung**: Wann die Regel greift. Im Dialog "Automatisierungsregel bearbeiten" wählen Sie dafür einen "Auslöser":
+  * **Bei Statuswechsel**: Die Regel greift, sobald die Durchführung oder das Element einen der Status unter "Bei Status" hat.
+  * **Zeitgesteuert**: Die Regel greift zum Zeitpunkt, den Sie unter "Relatives Datum" vor oder nach dem Beginn oder Ende des Durchführungszeitraums festlegen. "Nur wenn aktueller Status" beschränkt sie auf bestimmte Status.
+
+Kontext, Automatisierung und Zielstatus einer Regel stehen fest, im Dialog ändern Sie nur die Bedingung. Die eingeschalteten Regeln laufen einmal täglich.
 
 
 [Zum Seitenanfang ^](#module_course_planner)
