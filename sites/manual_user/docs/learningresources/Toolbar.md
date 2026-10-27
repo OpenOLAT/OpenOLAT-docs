@@ -119,7 +119,7 @@ E-mails can be sent from various places. In addition to the [personal menu](../p
 
 ### BigBlueButton (or other virtual classrooms) [:octicons-tag-16:{ title="from Release 15.4 (OO-5151)" }](https://track.frentix.com/issue/OO-5151) {: #BBB}
 
-![Icon BigBlueButton highlighted in the toolbar](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool BigBlueButton with the screen icon highlighted in the toolbar, to its left E-Mail, to its right Blog](assets/toolbar_bbb_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
 As an alternative to a course element, access to a video conferencing tool can also be enabled via an icon in the toolbar. In addition to BigBlueButton, other installed video conferencing tools can also be displayed in the toolbar (e.g. Microsoft Teams or Zoom).<br>
 [More >](../learningresources/bigbluebutton/index.md)
@@ -165,7 +165,7 @@ Via this link, the teacher can make important course documents available for dow
 
 ### Events {: #events}
 
-![Icon Events highlighted in the toolbar](assets/toolbar_events_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Events with the book icon highlighted in the toolbar, to its left Info page and Learning path, to its right Course search](assets/toolbar_events_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 If the appointment and absence management is enabled, it can be accessed here to view or record events and absences.<br>
 [More >](../learningresources/Toolbar_Events.md)
@@ -183,7 +183,7 @@ If a glossary has been linked to the course, it can also be accessed from the to
 
 ### Course chat {: #chat}
 
-![Icon Course chat highlighted in the toolbar](assets/toolbar_course_chat_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Course chat with the single speech bubble icon highlighted in the toolbar, to its left Documents, to its right Course search](assets/toolbar_course_chat_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
 The chat enables synchronous exchange between the course members.<br>
 [More >](../basic_concepts/Chat.md)
@@ -231,7 +231,7 @@ If a person has multiple roles in this course, the role can be changed here.<br>
 
 ### My course {: #my_course}
 
-![Open menu My course with Evidence of achievement, To-dos, My badges, Notes, Bookmark and Leave course](assets/toolbar_my_course_v1_en.png){ class="shadow lightbox" title="Menu My course in the toolbar" }
+![Open menu My course with Evidence of achievement, To-dos, Notes, Bookmark and, set off from them, Leave course](assets/toolbar_my_course_v2_en.png){ class="shadow lightbox" title="Menu My course in the toolbar, participant view · 2026.10.27" }
 
 The "My course" drop-down menu in the toolbar provides access to personalized components of the course.<br>
 [More >](../learningresources/Toolbar_My_Course.md)
@@ -240,9 +240,9 @@ The "My course" drop-down menu in the toolbar provides access to personalized co
 
 ### Progress {: #progress}
 
-![Progress indicator as a pie chart at 63 percent highlighted at the right edge of the toolbar](assets/toolbar_progress_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Progress indicator as a pie chart at 88 percent highlighted at the right edge of the toolbar, to its left My course](assets/toolbar_progress_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
-In learning path courses, course participants see their processing status here in the form of a pie chart. For other roles, the progress indicator is not relevant and is therefore not displayed. There is no learning path in conventional courses, so no learning progress can be calculated there.<br>
+In learning path courses, course participants see their processing status here in the form of a pie chart. For other roles, the progress indicator is not relevant and is therefore not displayed. There is no learning path in conventional courses, so no learning progress can be calculated there. You only see the progress indicator if you are a participant of the course and the course contains at least one course element with the option "Mandatory" selected under "Execution".<br>
 [More >](../learningresources/Creating_learning_path_courses.md#configuration-for-calculating-the-learning-progress)
 
 [To the top of the page ^](#toolbar)

@@ -3,7 +3,7 @@
 
 Das Dropdown-Menü "Mein Kurs" der Toolbar bietet Zugriff auf personalisierte Bestandteile des aktuell geöffneten Kurses.
 
-![Das geöffnete Menü Mein Kurs listet die persönlichen Werkzeuge des Kurses, abgesetzt davon der Eintrag Kurs verlassen, in der Kurs-Toolbar](assets/toolbar_my_course_v1_de.png){ class="shadow lightbox"}
+![Das geöffnete Menü Mein Kurs listet die persönlichen Werkzeuge des Kurses, abgesetzt davon der Eintrag Kurs verlassen, in der Kurs-Toolbar](assets/toolbar_my_course_v2_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar, Sicht Teilnehmer:in · 2026.10.27" }
 
 
 ## Wie wird das Icon "Mein Kurs" in der Toolbar angezeigt bzw. entfernt? {: #display_icon}
@@ -52,7 +52,7 @@ Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folge
 
 Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss von den Kursbesitzer:innen zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests, Aufgaben u.ä., ihre Punkte und weitere Informationen.
 
-![Fortschritt, erreichte Punkte und die Tabelle der bewerteten Kursbausteine, darunter der Bereich Zertifikate](assets/Leistungsnachweis_19.png){ class="shadow lightbox" }
+![Fortschritt, erreichte Punkte und die Tabelle der bewerteten Kursbausteine, darunter der Bereich Zertifikate](assets/Leistungsnachweis_19.png){ class="shadow lightbox" title="Leistungsnachweis eines Kurses" }
 
 Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) ausgestellt wurde, finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
 
@@ -142,7 +142,7 @@ Die Funktion "Kurs verlassen" beendet sofort Ihre Kurs- oder Gruppenmitgliedscha
 
 Die Möglichkeit, sich aus einem Kurs auszutragen, muss zuvor von den Kursbesitzer:innen in den Einstellungen des Kurses im Tab "Freigabe" aktiviert worden sein und gilt nur für Teilnehmende, nicht für Betreuer:innen oder Besitzer:innen.
 
-![Der Eintrag Kurs verlassen steht im Menü Mein Kurs abgesetzt unter einer Trennlinie](assets/toolbar_my_course_leave_menu_v1_de.png){ class="shadow lightbox" }
+![Der Eintrag Kurs verlassen steht im Menü Mein Kurs abgesetzt unter einer Trennlinie](assets/toolbar_my_course_leave_menu_v1_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar" }
 
 **Wann ist "Kurs verlassen" verfügbar?**
 
@@ -171,7 +171,7 @@ Nach Klick auf "Kurs verlassen" erscheint ein Bestätigungsdialog mit folgendem 
 
 Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliessen, muss zusätzlich unter "Bestätigung" die Checkbox "Kurs verlassen" angekreuzt und danach mit Klick auf **"Verlassen"** bestätigt werden.
 
-![Warnung über den Verlust der Mitgliedschaft, Kursname, Checkbox Kurs verlassen unter Bestätigung, Button Verlassen](assets/toolbar_my_course_leave_dialog_v1_de.png){ class="shadow lightbox" }
+![Warnung über den Verlust der Mitgliedschaft, Kursname, Checkbox Kurs verlassen unter Bestätigung, Button Verlassen](assets/toolbar_my_course_leave_dialog_v1_de.png){ class="shadow lightbox" title="Bestätigungsdialog zum Verlassen eines Kurses" }
 
 [Zum Seitenanfang ^](#my_course)
 

@@ -119,7 +119,7 @@ E-Mails können an diversen Stellen versandt werden. Neben dem [persönlichen Me
 
 ### BigBlueButton (oder andere virtuelle Klassenzimmer) [:octicons-tag-16:{ title="ab Release 15.4 (OO-5151)" }](https://track.frentix.com/issue/OO-5151) {: #BBB}
 
-![Icon BigBlueButton in der Toolbar markiert](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug BigBlueButton mit dem Bildschirm-Symbol in der Toolbar markiert, links daneben E-Mail, rechts Blog](assets/toolbar_bbb_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
 Alternativ zu einem Kursbaustein kann der Zugriff auf ein Videokonferenz-Tool auch via Icon in der Toolbar ermöglicht werden. Neben BigBlueButton können auch andere installierte Videokonferenz-Tools in der Toolbar angezeigt werden (z. B. Microsoft Teams oder Zoom).<br>
 [Mehr dazu >](../learningresources/bigbluebutton/index.de.md)
@@ -165,7 +165,7 @@ Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Foru
 
 ### Termine {: #events}
 
-![Icon Termine in der Toolbar markiert](assets/toolbar_events_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Termine mit dem Buch-Symbol in der Toolbar markiert, links daneben Infoseite und Lernpfad, rechts Kurssuche](assets/toolbar_events_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Ist das Termin- und Absenzenmanagement eingeschaltet, kann es hier zur Ansicht bzw. Erfassung von Terminen und Absenzen aufgerufen werden.<br>
 [Mehr dazu >](../learningresources/Toolbar_Events.de.md)
@@ -183,7 +183,7 @@ Sofern ein Glossar mit dem Kurs verbunden wurde, kann es auch in der Toolbar auf
 
 ### Kurs-Chat {: #chat}
 
-![Icon Kurs-Chat in der Toolbar markiert](assets/toolbar_course_chat_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Kurs-Chat mit dem einfachen Sprechblasen-Symbol in der Toolbar markiert, links daneben Dokumente, rechts Kurssuche](assets/toolbar_course_chat_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
 Der Chat ermöglicht den synchronen Austausch unter den Kurs-Mitgliedern.<br>
 [Mehr dazu >](../basic_concepts/Chat.de.md)
@@ -231,7 +231,7 @@ Besitzt eine Person in diesem Kurs mehrere Rollen, kann die Rolle hier gewechsel
 
 ### Mein Kurs {: #my_course}
 
-![Geöffnetes Menü Mein Kurs mit Leistungsnachweis, To-dos, Meine Badges, Notizen, Bookmark und Kurs verlassen](assets/toolbar_my_course_v1_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar" }
+![Geöffnetes Menü Mein Kurs mit Leistungsnachweis, To-dos, Notizen, Bookmark und, abgesetzt davon, Kurs verlassen](assets/toolbar_my_course_v2_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar, Sicht Teilnehmer:in · 2026.10.27" }
 
 Das Dropdown-Menü "Mein Kurs" der Toolbar bietet Zugriff auf personalisierte Bestandteile des Kurses.<br>
 [Mehr dazu >](../learningresources/Toolbar_My_Course.de.md)
@@ -240,9 +240,9 @@ Das Dropdown-Menü "Mein Kurs" der Toolbar bietet Zugriff auf personalisierte Be
 
 ### Fortschrittsanzeige {: #progress}
 
-![Fortschrittsanzeige als Kreisdiagramm mit 63 Prozent am rechten Rand der Toolbar markiert](assets/toolbar_progress_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Fortschrittsanzeige als Kreisdiagramm mit 88 Prozent am rechten Rand der Toolbar markiert, links daneben Mein Kurs](assets/toolbar_progress_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
-Kursteilnehmer:innen sehen in Lernpfadkursen hier ihren Bearbeitungsstand in Form eines Kreisdiagramms. Für andere Rollen ist die Fortschrittsanzeige nicht relevant und wird deshalb nicht angezeigt. In herkömmlichen Kursen gibt es keinen Lernpfad, deshalb kann dort auch kein Lernfortschritt berechnet werden.<br>
+Kursteilnehmer:innen sehen in Lernpfadkursen hier ihren Bearbeitungsstand in Form eines Kreisdiagramms. Für andere Rollen ist die Fortschrittsanzeige nicht relevant und wird deshalb nicht angezeigt. In herkömmlichen Kursen gibt es keinen Lernpfad, deshalb kann dort auch kein Lernfortschritt berechnet werden. Sie sehen die Fortschrittsanzeige nur, wenn Sie Teilnehmer:in des Kurses sind und der Kurs mindestens einen Kursbaustein enthält, bei dem unter "Durchführung" die Option "Obligatorisch" gewählt ist.<br>
 [Mehr dazu >](../learningresources/Creating_learning_path_courses.de.md#konfiguration-zur-berechnung-des-lernfortschritts)
 
 [Zum Seitenanfang ^](#toolbar)

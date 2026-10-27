@@ -3,7 +3,7 @@
 The "My Course" drop-down menu in the toolbar provides access to personalized components of the currently open course.
 
 
-![The open My course menu lists the personal tools of the course, set off from them the Leave course entry, in the course toolbar](assets/toolbar_my_course_v1_en.png){ class="shadow lightbox"}
+![The open My course menu lists the personal tools of the course, set off from them the Leave course entry, in the course toolbar](assets/toolbar_my_course_v2_en.png){ class="shadow lightbox" title="Menu My course in the toolbar, participant view · 2026.10.27" }
 
 ## How is the "My Course" icon displayed or removed from the toolbar?  {: #display_icon}
 
@@ -49,7 +49,7 @@ Depending on the configuration of the course, not all of the following entries m
 
 An evidence of achievement is a confirmation of a completed assessment and must first be activated by the course owners. Learners can then see the individual assessment modules of the course that they have completed, such as tests, assignments, etc., their scores, and further information.
 
-![Progress, points achieved and the table of assessed course elements, plus the Certificates area](assets/Leistungsnachweis_19.png){ class="shadow lightbox" }
+![Progress, points achieved and the table of assessed course elements, plus the Certificates area](assets/Leistungsnachweis_19.png){ class="shadow lightbox" title="Evidence of achievement of a course" }
 
 If a [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) has been issued for the course, you will also find it under "Evidence of achievement" for download. Course coaches can view the certificates in the [Coaching Tool](../area_modules/Coaching.md).
 
@@ -133,7 +133,7 @@ The "Leave course" function immediately terminates your course or group membersh
 
 The option to unsubscribe from a course must first be enabled by the course owners in the course settings under the "Share" tab and only applies to participants, not to coaches or owners.
 
-![The Leave course entry sits in the My course menu, set off below a separator](assets/toolbar_my_course_leave_menu_v1_en.png){ class="shadow lightbox" }
+![The Leave course entry sits in the My course menu, set off below a separator](assets/toolbar_my_course_leave_menu_v1_en.png){ class="shadow lightbox" title="Menu My course in the toolbar" }
 
 **When is "Leave course" available?**
 
@@ -162,7 +162,7 @@ After clicking "Leave course," a confirmation dialog appears with the following 
 
 The dialog names the course concerned under "Course". To complete the withdrawal, the "Leave course" checkbox must also be checked under "Confirmation" and confirmed by clicking **"Leave"**.
 
-![Warning about the loss of membership, course name, Leave course checkbox under Confirmation, Leave button](assets/toolbar_my_course_leave_dialog_v1_en.png){ class="shadow lightbox" }
+![Warning about the loss of membership, course name, Leave course checkbox under Confirmation, Leave button](assets/toolbar_my_course_leave_dialog_v1_en.png){ class="shadow lightbox" title="Confirmation dialog for leaving a course" }
 
 [To the top of the page ^](#my_course)
 
