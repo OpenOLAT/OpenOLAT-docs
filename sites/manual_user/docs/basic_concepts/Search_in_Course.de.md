@@ -2,7 +2,7 @@
 
 Neben der [Volltextsuche](Search_General.de.md#full_text_search) über das gesamte OpenOlat gibt es auch eine Kurssuche, welche pro Kurs in der Toolbar aktiviert werden kann.
 
-![Werkzeug Kurssuche mit Lupensymbol neben Kursinfo, Lernpfad, Kalender und BigBlueButton](assets/search_in_course_toolbar_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Kurssuche mit dem Lupensymbol in der Toolbar markiert: hier starten Sie die Suche, die nur diesen Kurs durchsucht. Links davon die übrigen Werkzeuge ab Infoseite mit dem Info-Symbol](assets/search_in_course_toolbar_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Die Kurssuche durchsucht nur den entsprechenden Kurs. Es werden folgende Elemente gefunden:
 

@@ -1,7 +1,7 @@
 # Coaching - Courses {: #courses}
 
 
-![Courses in the Coaching Tool with the focus entries As coach, As owner and the selected Other resources, below them the tabs Favourites, All and Finished and the columns ID to Status.](assets/coaching_courses2_v3_en.png){ class="shadow lightbox" title="Courses in Coaching" }
+![Courses in Coaching, focus Other resources: learning resources that you own and that are embedded in courses, tabs Favourites, All and Finished, at the right the info icon for the Info page](assets/coaching_courses2_v4_en.png){ class="shadow lightbox" title="Courses in Coaching, focus Other resources · 2026.10.27" }
 
 
 ### WHICH courses does the list show? {: #courses_which}
@@ -67,9 +67,9 @@ The wildcard thus behaves in the same way as in the [Courses](Courses.md) area.
 
 !!! tip "Tip"
 
-    By clicking on the small buttons at the top right above the list, you can switch between list and tile view at any time.
+    By clicking on the small buttons at the top right above the list, you can switch between list view and table view at any time.
 
-![Course list in list view with columns from Type and Title via Participants and visits to Progress, Success status, Score and Certificates, switch at the top right.](assets/coaching_courses3_v2_en.png){ class="shadow lightbox" title="Courses in Coaching in the list view · 2026.10.21" }
+![Course list in the focus As coach in table view: per course participants, visits, progress, success status, score and certificates, at the right the icons for the Assessment tool and the Info page](assets/coaching_courses3_v3_en.png){ class="shadow lightbox" title="Courses in Coaching in table view · 2026.10.27" }
 
 
 You see at a glance, for example,

@@ -30,7 +30,7 @@ Available since | Release 10.0 (2014)
 
 ### Administration {: #admin}
 
-![Icon Administration highlighted at the far left of the toolbar, next to it the status Published](assets/toolbar_admin_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Administration highlighted at the far left of the toolbar: the menu owners and authorised coaches use to manage the course. Next to it the status Published and the tools starting with Info page](assets/toolbar_admin_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 The course administration is only displayed to those authorized to edit, not to the participants. Many menu options for administration and editing can be accessed there.<br>
 [More >](../learningresources/Administration.md)
@@ -39,7 +39,7 @@ The course administration is only displayed to those authorized to edit, not to 
 
 ### Status [:octicons-tag-16:{ title="from Release 13.0 (OO-3584)" }](https://track.frentix.com/issue/OO-3584) {: #status}
 
-![Status indicator Published highlighted as a green button with a selection arrow, to the left of the tool icons](assets/toolbar_status_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Status Published highlighted as a green button with a selection arrow: this is where authorised persons change the status of the course. To its right the tools from Info page with its info icon](assets/toolbar_status_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 The status is only displayed to those authorized to edit, not to participants. The status of the course can be changed here.<br>
 [More >](../learningresources/Access_configuration.md)
@@ -57,7 +57,7 @@ Anyone who wants to know what a course is about opens the description of the cou
 
 ### Learning path [:octicons-tag-16:{ title="from Release 15.0 (OO-4300)" }](https://track.frentix.com/issue/OO-4300) {: #learning_path}
 
-![Icon Learning path highlighted in the toolbar, to its right Calendar, BigBlueButton and Course search](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Learning path highlighted in the toolbar, to its left the Info page with the info icon, to its right Calendar, Info messages and the other tools](assets/toolbar_learning_path_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 **Access by participants**<br>
 The learning path icon in the toolbar gives learners an overview of their progress in all course elements. Depending on the columns selected, additional information such as the type of execution and dates can also be displayed. This makes it easy for learners to keep track of their activities in the course.
@@ -71,7 +71,7 @@ Course owners and coaches can use the "Learning path" link to first get an overv
 
 ### Calendar {: #calendar}
 
-![Icon Calendar highlighted in the toolbar](assets/toolbar_calendar_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Calendar highlighted in the toolbar, to its left Info page and Learning path](assets/toolbar_calendar_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 *One* calendar can be activated per course. There are two options for integration. The calendar can either be displayed as a [calendar course element](../learningresources/Course_Element_Calendar.md) or in a central position at the top of the course toolbar.
 
@@ -92,7 +92,7 @@ By default, only owners of a course have write access to the calendar. Course pa
 
 ### Participant list [:octicons-tag-16:{ title="from Release 15.0 (OO-4168)" }](https://track.frentix.com/issue/OO-4168) {: #participant_list}
 
-![Icon Participant list highlighted in the toolbar](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Participant list with the people icon highlighted in the toolbar, to its left Info page, Learning path and Calendar, to its right Info messages and the other tools](assets/toolbar_participant_list_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
 The participant list can also include contact options in the list of all course members.<br>
 [More >](../learningresources/Course_Element_Participant_List.md)
@@ -110,7 +110,7 @@ In the info messages, teachers can store information about the entire course cen
 
 ### E-Mail {: #email}
 
-![Icon E-Mail highlighted in the toolbar](assets/toolbar_email_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool E-Mail with the envelope icon highlighted in the toolbar](assets/toolbar_email_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 E-mails can be sent from various places. In addition to the [personal menu](../personal_menu/E-Mail.md), the icon in the toolbar is a good way to offer course members a contact option with quick access.<br>
 [More >](../learningresources/Course_Element_EMail.md)
@@ -137,7 +137,7 @@ Multiple blogs can be integrated into OpenOlat. Access via the icon in the toolb
 
 ### Wiki {: #wiki}
 
-![Icon Wiki highlighted in the toolbar](assets/toolbar_wiki_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Wiki with the globe icon highlighted in the toolbar, to its left Blog, to its right Forum](assets/toolbar_wiki_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 Access to a central wiki for the entire course can be set up in the toolbar.<br>
 [More about creating a wiki >](../learningresources/Wiki.md)<br>
@@ -147,7 +147,7 @@ Access to a central wiki for the entire course can be set up in the toolbar.<br>
 
 ### Forum {: #forum}
 
-![Icon Forum highlighted in the toolbar](assets/toolbar_forum_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Forum with the speech bubble icon highlighted in the toolbar, to its left Wiki, to its right Documents](assets/toolbar_forum_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 In addition to the "Forum" course element, there is also the option of displaying a central forum for the entire course in the course toolbar. This is useful if the course only includes *one* forum that is to be permanently available. However, settings such as pseudonymization or moderation rights cannot be set here.<br>
 [More >](../learningresources/Course_Element_Forum.md)
@@ -156,7 +156,7 @@ In addition to the "Forum" course element, there is also the option of displayin
 
 ### Documents {: #documents}
 
-![Icon Documents highlighted in the toolbar](assets/toolbar_documents_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Documents with the folder icon highlighted in the toolbar, to its right Course search](assets/toolbar_documents_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 Via this link, the teacher can make important course documents available for download in one central location. Learners can download the documents, receive notifications when new documents are available (subscribe), and send the files by e-mail if necessary. However, the configuration options are not as extensive as those of the "Folder" course element.<br>
 [More >](../learningresources/Storage_folder.md)
@@ -174,7 +174,7 @@ If the appointment and absence management is enabled, it can be accessed here to
 
 ### Glossary {: #glossary}
 
-![Icon Glossary with selection arrow highlighted in the toolbar](assets/toolbar_glossary_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Glossary with the mortarboard icon and a selection arrow highlighted in the toolbar, to its left Documents, to its right Course search](assets/toolbar_glossary_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
 If a glossary has been linked to the course, it can also be accessed from the toolbar. A glossary can be used to explain the terms of a course, a subject or an event. The terms are automatically sorted alphabetically and can be accessed by clicking on the corresponding initial letter.<br>
 [More >](../learningresources/Glossary.md)
@@ -192,7 +192,7 @@ The chat enables synchronous exchange between the course members.<br>
 
 ### Course search [:octicons-tag-16:{ title="from Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581) {: #course_search}
 
-![Icon Course search highlighted in the toolbar](assets/toolbar_search_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Course search with the magnifier icon highlighted in the toolbar](assets/toolbar_search_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 Depending on where the search is started, different areas are searched. The course search is performed with the icon in the toolbar.<br>
 [More >](../basic_concepts/Search_in_Course.md)
@@ -222,7 +222,7 @@ The configuration of the four external course tools is included when a course is
 
 ### Role {: #role}
 
-![Role switcher with the active role Owner highlighted in the toolbar](assets/toolbar_role_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Role switcher with the active role Owner and the label Role highlighted in the toolbar, to its right My course](assets/toolbar_role_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 If a person has multiple roles in this course, the role can be changed here.<br>
 [More >](../basic_concepts/Roles.md#course)

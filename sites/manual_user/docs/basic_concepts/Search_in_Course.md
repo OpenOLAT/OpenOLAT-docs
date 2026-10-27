@@ -2,7 +2,7 @@
 
 In addition to the [full-text search](Search_General.md#full_text_search) across the entire OpenOlat, there is also a course search, which can be activated for each course in the toolbar.
 
-![Tool Course search with magnifier icon next to Course info, Learning path, Calendar and BigBlueButton](assets/search_in_course_toolbar_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Course search with the magnifier icon highlighted in the toolbar: this is where you start a search that covers only this course. To its left the other tools, from Info page with its info icon](assets/search_in_course_toolbar_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 The course search only searches the corresponding course. The following elements are found:
 

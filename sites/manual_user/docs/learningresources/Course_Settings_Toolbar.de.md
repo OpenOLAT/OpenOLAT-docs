@@ -9,7 +9,7 @@ Auf diesem Weg können Tools, die kontinuierlich zur Verfügung stehen sollen, a
 
 **Beispiel:**
 
-![Toolbar im Kurs mit den aktivierten Werkzeugen Kursinfo, Lernpfad, Kalender, BigBlueButton und Kurssuche](assets/course_settings_toolbar_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Toolbar aus Sicht der Teilnehmenden, markiert die freigeschalteten Werkzeuge: Infoseite mit dem Info-Symbol, Lernpfad, Kalender, Mitteilungen, E-Mail, Blog, Wiki, Forum, Dokumente und Kurssuche](assets/course_settings_toolbar_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses aus Sicht der Teilnehmenden · 2026.10.27" }
 
  Zu den [Tools](../learningresources/Using_Additional_Course_Features.de.md) der Toolbar zählen neben der Kurssuche, dem Glossar und dem Kurs-Chat diverse Werkzeuge, die auch als Kursbausteine aufrufbar sind, z.B. Kalender, Liste der Teilnehmer:innen, E-Mail, Blog, Wiki, Forum und Dokumenten Ordner. Bei [Wiki](../learningresources/Wiki.de.md) und [Blog](../learningresources/Blog.de.md) kann auch auf bereits erstellte Lernressourcen zurückgegriffen werden. Die anderen Tools ähneln zwar den entsprechenden Kursbausteinen, bieten aber nicht alle weiteren Konfigurationsmöglichkeiten, wie sie in den Kursbausteinen im Kurseditor zur Verfügung stehen.
 

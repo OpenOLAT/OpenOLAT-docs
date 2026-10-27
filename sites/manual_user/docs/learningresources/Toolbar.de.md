@@ -30,7 +30,7 @@ Verfügbar seit | Release 10.0 (2014)
 
 ### Administration {: #admin}
 
-![Icon Administration ganz links in der Toolbar markiert, daneben der Status Veröffentlicht](assets/toolbar_admin_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Administration ganz links in der Toolbar markiert: Menü, über das Besitzer:innen und berechtigte Betreuer:innen den Kurs verwalten. Daneben Status Veröffentlicht und Werkzeuge ab Infoseite](assets/toolbar_admin_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Die Kurs-Administration wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilnehmer:innen. Dort sind viele Menüoptionen zur Verwaltung und Bearbeitung aufrufbar.<br>
 [Mehr dazu >](../learningresources/Administration.de.md)
@@ -39,7 +39,7 @@ Die Kurs-Administration wird nur den zur Bearbeitung Berechtigten angezeigt, nic
 
 ### Status [:octicons-tag-16:{ title="ab Release 13.0 (OO-3584)" }](https://track.frentix.com/issue/OO-3584) {: #status}
 
-![Statusanzeige Veröffentlicht als grüne Schaltfläche mit Auswahlpfeil markiert, links neben den Werkzeug-Icons](assets/toolbar_status_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Status Veröffentlicht als grüne Schaltfläche mit Auswahlpfeil markiert: hier wechseln Berechtigte den Status des Kurses. Rechts daneben die Werkzeuge ab Infoseite mit dem Info-Symbol](assets/toolbar_status_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Der Status wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilnehmer:innen. Der Status des Kurses kann hier gewechselt werden.<br>
 [Mehr dazu >](../learningresources/Access_configuration.de.md)
@@ -57,7 +57,7 @@ Wer wissen möchte, worum es in einem Kurs geht, öffnet über das Werkzeug "Inf
 
 ### Lernpfad [:octicons-tag-16:{ title="ab Release 15.0 (OO-4300)" }](https://track.frentix.com/issue/OO-4300) {: #learning_path}
 
-![Icon Lernpfad in der Toolbar markiert, rechts daneben Kalender, BigBlueButton und Kurssuche](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Lernpfad in der Toolbar markiert, links daneben die Infoseite mit dem Info-Symbol, rechts Kalender, Mitteilungen und die weiteren Werkzeuge](assets/toolbar_learning_path_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 **Aufruf durch Teilnehmer:innen**<br>
 Über das Lernpfad-Icon in der Toolbar erhalten Lernende einen Überblick über ihren Fortschritt in allen Kursbausteinen. Je nach gewählten Spalten können ausserdem zusätzliche Informationen wie die Art der Durchführung und Termine angezeigt werden. So behalten Lernende ihre Aktivitäten im Kurs einfach im Blick.
@@ -71,7 +71,7 @@ Kursbesitzer:innen und Betreuer:innen erhalten über den Link "Lernpfad" zunäch
 
 ### Kalender {: #calendar}
 
-![Icon Kalender in der Toolbar markiert](assets/toolbar_calendar_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Kalender in der Toolbar markiert, links davon Infoseite und Lernpfad](assets/toolbar_calendar_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Pro Kurs kann *ein* Kalender aktiviert werden. Für die Einbindung gibt es zwei Optionen. Der Kalender kann entweder als [Kalender-Kursbaustein](../learningresources/Course_Element_Calendar.de.md) oder an zentraler Position oben in der Kurstoolbar angezeigt werden.
 
@@ -92,7 +92,7 @@ Standardmässig haben nur Besitzer:innen eines Kurses Schreibrechte im Kalender.
 
 ### Liste der Teilnehmer:innen [:octicons-tag-16:{ title="ab Release 15.0 (OO-4168)" }](https://track.frentix.com/issue/OO-4168) {: #participant_list}
 
-![Icon Liste der Teilnehmer:innen in der Toolbar markiert](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Liste der Teilnehmer:innen mit dem Personen-Symbol in der Toolbar markiert, links daneben Infoseite, Lernpfad und Kalender, rechts Mitteilungen und die weiteren Werkzeuge](assets/toolbar_participant_list_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
 Die Liste der Teilnehmer:innen kann in der Auflistung aller Kursmitglieder auch Kontaktmöglichkeiten enthalten.<br>
 [Mehr dazu >](../learningresources/Course_Element_Participant_List.de.md)
@@ -110,7 +110,7 @@ In den Mitteilungen können Lehrende zentral Informationen zum Gesamtkurs hinter
 
 ### E-Mail {: #email}
 
-![Icon E-Mail in der Toolbar markiert](assets/toolbar_email_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug E-Mail mit dem Briefsymbol in der Toolbar markiert](assets/toolbar_email_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 E-Mails können an diversen Stellen versandt werden. Neben dem [persönlichen Menü](../personal_menu/E-Mail.de.md) ist das Icon in der Toolbar eine gute Möglichkeit, den Kursmitgliedern eine Kontaktmöglichkeit mit schnellem Zugriff anzubieten.<br>
 [Mehr dazu >](../learningresources/Course_Element_EMail.de.md)
@@ -137,7 +137,7 @@ In OpenOlat können mehrere Blogs eingebunden werden. Ein Aufruf durch das Icon 
 
 ### Wiki {: #wiki}
 
-![Icon Wiki in der Toolbar markiert](assets/toolbar_wiki_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Wiki mit dem Globus-Symbol in der Toolbar markiert, links daneben Blog, rechts Forum](assets/toolbar_wiki_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 In der Toolbar kann der Zugriff auf ein zentrales Wiki für den Gesamtkurs eingerichtet werden.<br>
 [Mehr zum Erstellen eines Wikis >](../learningresources/Wiki.de.md)<br>
@@ -147,7 +147,7 @@ In der Toolbar kann der Zugriff auf ein zentrales Wiki für den Gesamtkurs einge
 
 ### Forum {: #forum}
 
-![Icon Forum in der Toolbar markiert](assets/toolbar_forum_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Forum mit dem Sprechblasen-Symbol in der Toolbar markiert, links daneben Wiki, rechts Dokumente](assets/toolbar_forum_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Forum für den gesamten Kurs in der Kurstoolbar anzeigen zu lassen. Das bietet sich an, wenn der Kurs nur *ein* Forum umfasst, das permanent zur Verfügung stehen soll. Einstellungen wie Pseudonymisierung oder Moderationsrechte lassen sich hier jedoch nicht festlegen.<br>
 [Mehr dazu >](../learningresources/Course_Element_Forum.de.md)
@@ -156,7 +156,7 @@ Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Foru
 
 ### Dokumente {: #documents}
 
-![Icon Dokumente in der Toolbar markiert](assets/toolbar_documents_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Dokumente mit dem Ordner-Symbol in der Toolbar markiert, rechts daneben die Kurssuche](assets/toolbar_documents_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Über diesen Link kann die Lehrkraft wichtige Dokumente des Kurses zentral zum Download bereitstellen. Die Lernenden können die Dokumente herunterladen, sich benachrichtigen lassen, wenn neue Dokumente bereitstehen (abonnieren) und bei Bedarf die Dateien per Mail versenden. Die Konfigurationsmöglichkeiten sind aber nicht so umfangreich wie beim Kursbaustein "Ordner".<br>
 [Mehr dazu >](../learningresources/Storage_folder.de.md)
@@ -174,7 +174,7 @@ Ist das Termin- und Absenzenmanagement eingeschaltet, kann es hier zur Ansicht b
 
 ### Glossar {: #glossary}
 
-![Icon Glossar mit Auswahlpfeil in der Toolbar markiert](assets/toolbar_glossary_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Glossar mit dem Doktorhut-Symbol und Auswahlpfeil in der Toolbar markiert, links daneben Dokumente, rechts Kurssuche](assets/toolbar_glossary_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
 Sofern ein Glossar mit dem Kurs verbunden wurde, kann es auch in der Toolbar aufgerufen werden. In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Die Begriffe werden automatisch alphabetisch sortiert und können mit Klick auf den entsprechenden Startbuchstaben aufgerufen werden.<br>
 [Mehr dazu >](../learningresources/Glossary.de.md)
@@ -192,7 +192,7 @@ Der Chat ermöglicht den synchronen Austausch unter den Kurs-Mitgliedern.<br>
 
 ### Kurssuche [:octicons-tag-16:{ title="ab Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581) {: #course_search}
 
-![Icon Kurssuche in der Toolbar markiert](assets/toolbar_search_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Kurssuche mit dem Lupensymbol in der Toolbar markiert](assets/toolbar_search_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Je nachdem, von wo die Suche gestartet wird, werden andere Bereiche durchsucht. Mit dem Icon in der Toolbar wird die Kurssuche ausgeführt.<br>
 [Mehr dazu >](../basic_concepts/Search_in_Course.de.md)
@@ -222,7 +222,7 @@ Die Konfiguration der vier externen Kurstools wird beim **Kopieren** eines Kurse
 
 ### Rolle {: #role}
 
-![Rollenwechsler mit der aktiven Rolle Besitzer:in in der Toolbar markiert](assets/toolbar_role_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Rollenwechsler mit der aktiven Rolle Besitzer:in und der Beschriftung Rolle in der Toolbar markiert, rechts daneben Mein Kurs](assets/toolbar_role_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Besitzt eine Person in diesem Kurs mehrere Rollen, kann die Rolle hier gewechselt werden.<br>
 [Mehr dazu >](../basic_concepts/Roles.de.md#course)

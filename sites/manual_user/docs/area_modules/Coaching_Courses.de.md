@@ -1,7 +1,7 @@
 # Coaching - Kurse {: #courses}
 
 
-![Kurse im Coaching Tool mit den Fokus-Einträgen Als Betreuer:in, Als Besitzer:in und dem gewählten Weitere Ressourcen, darunter die Tabs Favoriten, Alle und Beendet und die Spalten ID bis Status.](assets/coaching_courses2_v3_de.png){ class="shadow lightbox" title="Kurse im Coaching" }
+![Kurse im Coaching, Fokus Weitere Ressourcen: Lernressourcen, die Sie besitzen und die in Kurse eingebunden werden, Tabs Favoriten, Alle und Beendet, rechts das Info-Symbol für die Infoseite](assets/coaching_courses2_v4_de.png){ class="shadow lightbox" title="Kurse im Coaching, Fokus Weitere Ressourcen · 2026.10.27" }
 
 
 ### WELCHE Kurse zeigt die Liste? {: #courses_which}
@@ -67,9 +67,9 @@ Der Platzhalter verhält sich damit gleich wie im Bereich [Kurse](Courses.de.md)
 
 !!! tip "Tipp"
 
-    Mit Klick auf die kleinen Buttons rechts oben über der Liste können Sie jederzeit zwischen der Listen- und der Kacheldarstellung wechseln.
+    Mit Klick auf die kleinen Buttons rechts oben über der Liste können Sie jederzeit zwischen der Listenansicht und der Tabellenansicht wechseln.
 
-![Kursliste in Listendarstellung mit Spalten von Typ und Titel über Teilnehmer:innen und Besuche bis Fortschritt, Erfolgsstatus, Punkte und Zertifikate, Umschalter rechts oben.](assets/coaching_courses3_v2_de.png){ class="shadow lightbox" title="Kurse im Coaching in der Listendarstellung" }
+![Kursliste im Fokus Als Betreuer:in in der Tabellenansicht: je Kurs Teilnehmer:innen, Besuche, Fortschritt, Erfolgsstatus, Punkte und Zertifikate, rechts Symbole für Bewertungswerkzeug und Infoseite](assets/coaching_courses3_v3_de.png){ class="shadow lightbox" title="Kurse im Coaching in der Tabellenansicht · 2026.10.27" }
 
 
 Sie sehen auf einen Blick zum Beispiel

@@ -8,7 +8,7 @@ In this way, tools that are to be continuously available can be accessed from a 
 
 **Example:**
 
-![Toolbar in the course with the enabled tools Course info, Learning path, Calendar, BigBlueButton and Course search](assets/course_settings_toolbar_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Toolbar of a course as participants see it, highlighting the enabled tools: Info page with the info icon, Learning path, Calendar, Info messages, E-Mail, Blog, Wiki, Forum, Documents and Course search](assets/course_settings_toolbar_v2_en.png){ class="shadow lightbox" title="Toolbar of a course as participants see it · 2026.10.27" }
 
 In addition to course search, glossary and course chat these tools include various [tools](../learningresources/Using_Additional_Course_Features.md) that can also be called up as course element, e.g. calendar, list of participants, e-mail, blog, wiki, forum, and documents folder. In the case of [Wiki](../learningresources/Wiki.md) and [Blog](../learningresources/Blog.md), it is also possible to fall back on learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer the further configuration options as they are available in the course elements in the course editor.
 
