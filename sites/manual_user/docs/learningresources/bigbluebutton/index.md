@@ -134,7 +134,7 @@ When configuring a room, an overview of all booked BigBlueButton rooms of the in
 
 In addition, the online-meetings created in BigBlueButton automatically appear in the course-specific calendar. From here, all course members can quickly reach the correspondingly linked BigBlueButton room.
 
-![Occupied times of all BigBlueButton rooms as a weekly calendar, one booking on Tuesday from 13.29 to 14.11](../assets/image2020-4-7_14-14-5.png){ class="shadow lightbox" title="Dialog Show room bookings" }
+![Occupied times of all BigBlueButton rooms as a weekly calendar, bookings of the room template Cafe on Thursday and on Friday](../assets/bigbluebutton_room_bookings_v1_en.png){ class="shadow lightbox" title="Dialog Show room bookings · 2026.10.27" }
 
 ## View for participants
 

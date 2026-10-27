@@ -67,9 +67,9 @@ Im Kalender steht jede Buchung als Kalendereintrag, beschriftet mit dem Kennzeic
 
 Das Fenster steht in jeder Kalenderansicht der Raumverwaltung zur Verfügung: in der Raumplanung, in der Raumliste und im Kalender einer einzelnen Raumzeile. In der Tabellenansicht führt stattdessen die aufgeklappte Zeile zu den [Details einer Buchung](#booking_details).
 
-![Das Fenster Buchung zeigt zur angeklickten Buchung den Raum, den Termin mit Kennzeichen, Datum und Uhrzeit sowie die Aktion Im Course Planner öffnen](assets/course_planner_rooms_scheduling_callout_v2_de.png){ class="shadow lightbox" title="Jahresansicht im Kalender der Raumverwaltung · 2026.09.30" }
+![Das Fenster Buchung zeigt zur angeklickten Buchung den Raum, den Termin mit Kennzeichen, Datum und Uhrzeit sowie die Aktion Im Course Planner öffnen](assets/course_planner_rooms_scheduling_callout_v3_de.png){ class="shadow lightbox" title="Jahresansicht im Kalender der Raumverwaltung · 2026.10.27" }
 
-![Der Umschalter zwischen Tabelle und Kalender mit den Ansichten Monat, Woche, Tag und Jahr, hier die Monatsansicht](assets/course_planner_rooms_scheduling_calendar_v1_de.png){ class="shadow lightbox" title="Kalender der Raumplanung" }
+![Der Umschalter zwischen Tabelle und Kalender mit den Ansichten Monat, Woche, Tag und Jahr, hier die Monatsansicht](assets/course_planner_rooms_scheduling_calendar_v2_de.png){ class="shadow lightbox" title="Kalender der Raumplanung · 2026.10.27" }
 
 ### Warnungen {: #warnings}
 

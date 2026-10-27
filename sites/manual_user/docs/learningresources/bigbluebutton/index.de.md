@@ -134,7 +134,7 @@ In der Konfiguration eines Raums lässt sich sowohl während der Erstellung als 
 
 Zusätzlich erscheinen die in BigBlueButton erstellten Online-Termine automatisch im kursspezifischen Kalender. Von hier aus gelangen alle Kursmitglieder rasch in den entsprechend verlinkten BigBlueButton-Raum.
 
-![Belegte Zeiten aller BigBlueButton-Räume als Wochenkalender, eine Buchung am Dienstag von 13.29 bis 14.11 Uhr](../assets/image2020-4-7_14-14-5.png){ class="shadow lightbox" title="Dialog Raumbuchungen anzeigen" }
+![Belegte Zeiten aller BigBlueButton-Räume als Wochenkalender, Buchungen der Raumvorlage Cafe am Donnerstag und am Freitag](../assets/bigbluebutton_room_bookings_v1_de.png){ class="shadow lightbox" title="Dialog Raumbuchungen anzeigen · 2026.10.27" }
 
 ## Teilnehmerperspektive
 
