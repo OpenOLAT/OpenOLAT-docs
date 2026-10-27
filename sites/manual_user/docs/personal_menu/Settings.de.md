@@ -26,7 +26,7 @@ Hier sehen Sie Ihren Anmeldenamen und Ihre OpenOlat-Rollen. Beide Angaben sind n
 
 #### Sprache {: #language}
 
-Unter "Sprache" wählen Sie Ihre individuelle Systemsprache. OpenOlat ist in zahlreiche Sprachen übersetzt worden. Die Änderung der Sprache wird erst nach dem nächsten Login aktiv.
+Unter "Sprache" wählen Sie, in welcher Sprache OpenOlat Ihnen die Oberfläche zeigt. Die Änderung wirkt ab dem nächsten Login.
 
 !!! info "Wichtig"
 
@@ -55,7 +55,7 @@ Eine einzelne Nachricht leiten Sie auch ohne diese Einstellung weiter: [Persönl
 
 #### Zeichensatz für Download {: #charset}
 
-Über den "Zeichensatz für Download" bestimmen Sie, in welchem Zeichensatz Dateien abgespeichert werden sollen, die Sie über die Datenarchivierung herunterladen. Dies betrifft den Download der Test- und Fragebogenresultate sowie der Kursresultate. Im Standard ist der Zeichensatz UTF-8 voreingestellt. Enthalten Ihre Tests oder Fragebogen z.B. arabische Zeichen, muss hier UTF-8 gewählt sein.
+Unter "Zeichensatz für Download" legen Sie fest, in welchem Zeichensatz OpenOlat die Dateien speichert, die Sie über die Datenarchivierung herunterladen. Dies betrifft den Download der Test- und Fragebogenresultate sowie der Kursresultate. Im Standard ist der Zeichensatz UTF-8 voreingestellt. Enthalten Ihre Tests oder Fragebogen z.B. arabische Zeichen, muss hier UTF-8 gewählt sein.
 
 #### Dokumenteneditor {: #document_editor}
 
@@ -72,13 +72,17 @@ Damit Sie nach dem Login sofort dort weiterarbeiten, wo Ihre Arbeit liegt, legen
 
 In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem Login passiert. Ihre Startseite ist die Seite, die Sie unten im Feld "Startseite" festlegen. Haben Sie dort keine festgelegt, ist es die Startseite, die Ihre Organisation für Ihre Rolle eingerichtet hat.
 
-  * "Nein": OpenOlat öffnet nach jedem Login Ihre Startseite.
-  * "Ja, automatisch": OpenOlat öffnet den Ort, den Sie zuletzt besucht haben.
-  * "Ja, bei Bedarf": OpenOlat fragt nach dem Login "Wollen Sie Ihre letzte Sitzung wiederherstellen?". Mit "Ja" gelangen Sie an den zuletzt besuchten Ort, mit "Startseite" auf Ihre Startseite. Gibt es weder Ihre eigene noch eine Startseite Ihrer Organisation, heisst der zweite Button "Nein".
+  * "Nein": OpenOlat öffnet nach jedem Login Ihre Startseite. So beginnen Sie immer am selben Ort.
+  * "Ja, automatisch": OpenOlat öffnet den Ort, den Sie zuletzt besucht haben. So arbeiten Sie ohne Umweg dort weiter, wo Sie aufgehört haben.
+  * "Ja, bei Bedarf": OpenOlat fragt nach dem Login "Wollen Sie Ihre letzte Sitzung wiederherstellen?", und Sie entscheiden bei jedem Login neu. Mit "Ja" gelangen Sie an den zuletzt besuchten Ort, mit "Startseite" auf Ihre Startseite. Gibt es weder Ihre eigene noch eine Startseite Ihrer Organisation, heisst der zweite Button "Nein".
 
 Setzen Sie in dieser Rückfrage das Häkchen "Nicht mehr nachfragen", speichert OpenOlat Ihre Antwort als Einstellung: "Ja" stellt "Sitzung wiederherstellen" auf "Ja, automatisch", "Startseite" oder "Nein" stellt sie auf "Nein".
 
+Haben Sie hier nie etwas gespeichert, ist im Standard "Nein" vorausgewählt: OpenOlat öffnet nach dem Login Ihre Startseite und fragt nicht nach. Eine gespeicherte Wahl bleibt erhalten. Gespeichert ist sie, sobald Sie in diesem Abschnitt einmal auf "Speichern" geklickt haben, auch wenn Sie dabei nur das Feld "Startseite" geändert haben, oder sobald Sie in der Rückfrage "Nicht mehr nachfragen" gesetzt haben. Möchten Sie nach dem Login dort weiterarbeiten, wo Sie aufgehört haben, wählen Sie "Ja, automatisch" oder "Ja, bei Bedarf" und klicken auf "Speichern" [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}.
+
 Gibt es noch keinen zuletzt besuchten Ort, etwa beim ersten Login, öffnet OpenOlat in jedem Fall Ihre Startseite.
+
+Fehlt die Auswahl "Sitzung wiederherstellen", ist die Funktion in der Serverkonfiguration Ihrer OpenOlat-Instanz ausgeschaltet. OpenOlat öffnet dann nach jedem Login Ihre Startseite.
 
 
 #### :o_icon_o_icon_landingpage: Startseite [:octicons-tag-16:{ title="ab Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986) {: #landing_page}
@@ -100,9 +104,9 @@ Auch einen eigenen Filter-Tab einer Liste können Sie als persönliche Startseit
 Leeren Sie das Feld "Startseite" und klicken Sie auf "Speichern", gilt wieder die Startseite Ihrer Organisation.
 
 
-### Persönliche Werkzeuge {: #personal_tools}
+### Persönliche Werkzeuge [:octicons-tag-16:{ title="ab Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #personal_tools}
 
-Hier wählen Sie aus, welche persönlichen Werkzeuge direkt oben in der Hauptnavigation (links neben Ihrem Profilbild) erscheinen sollen, sodass Sie schnell auf diese Werkzeuge zugreifen können.<br>
+Damit Sie häufig benutzte Werkzeuge mit einem Klick erreichen, wählen Sie hier, welche persönlichen Werkzeuge direkt oben in der Hauptnavigation erscheinen, links neben Ihrem Profilbild.<br>
 Werkzeuge, die als Symbol in der Hauptnavigation angezeigt werden, sind nicht mehr im persönlichen Menü aufgeführt.
 
 **Beispiel: "Einstellungen" und "Badges" sind aus dem persönlichen Menü in die Hauptnavigation verschoben**
@@ -122,6 +126,8 @@ Möchten Sie Ihre persönlichen Anpassungen rückgängig machen, setzen Sie sie 
 * "Sitzung wiederherstellen"
 
 Nach einem Klick auf "Zurücksetzen" meldet OpenOlat Sie automatisch ab, damit die Standardeinstellung wirkt.
+
+Die Option "Sitzung wiederherstellen" löscht nur den Ort, den Sie zuletzt besucht haben. Ihre Wahl bei ["Sitzung wiederherstellen"](#resume_session) im Abschnitt "Spezielle Systemeinstellungen" bleibt unverändert.
 
 Die Option "Personalisierung von Bildschirmkomponenten" lässt gespeicherte Anpassungen wie ausgeblendete Tabellenspalten unverändert. Solche Anpassungen setzen Sie im [Tab "GUI-Einstellungen"](#tab_GUI) mit "Zurücksetzen" oder "Mehrere Einträge zurücksetzen" zurück.
 

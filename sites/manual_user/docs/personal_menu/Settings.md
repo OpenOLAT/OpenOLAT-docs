@@ -26,7 +26,7 @@ Here you see your username and your OpenOlat roles. Both entries are for viewing
 
 #### Language {: #language}
 
-Under "Language" you select your individual system language. OpenOlat has been translated into numerous languages. Changing the language only becomes active after the next login.
+Under "Language" you select the language in which OpenOlat shows you the interface. The change takes effect from the next login.
 
 !!! info "Important"
 
@@ -55,7 +55,7 @@ You can also forward a single message without this setting: [User tools: E-Mail]
 
 #### Character set used in download {: #charset}
 
-Via the "Character set used in download" you determine in which character set files that you download via data archiving are stored. This concerns the download of test and questionnaire results as well as course results. By default, the character set UTF-8 is preset. If your tests or questionnaires contain e.g. Arabic characters, UTF-8 must be selected here.
+Under "Character set used in download" you set in which character set OpenOlat stores the files that you download via data archiving. This concerns the download of test and questionnaire results as well as course results. By default, the character set UTF-8 is preset. If your tests or questionnaires contain e.g. Arabic characters, UTF-8 must be selected here.
 
 #### Document editor {: #document_editor}
 
@@ -72,13 +72,17 @@ So that you can continue working right where your work lies after login, you def
 
 In the selection "Resume last session" you specify what happens immediately after login. Your landing page is the page you set below in the field "Landing page". If you have not set one there, it is the landing page your organisation has set up for your role.
 
-  * "No": OpenOlat opens your landing page after each login.
-  * "Yes, automatically": OpenOlat opens the location you visited last.
-  * "Yes, on request": OpenOlat asks after login "Do you want to resume your last session?". With "Yes" you go to the location last visited, with "Landing page" to your landing page. If there is neither your own landing page nor one of your organisation, the second button is called "No".
+  * "No": OpenOlat opens your landing page after each login. This way you always start at the same place.
+  * "Yes, automatically": OpenOlat opens the location you visited last. This way you continue without detour where you left off.
+  * "Yes, on request": OpenOlat asks after login "Do you want to resume your last session?", and you decide anew at each login. With "Yes" you go to the location last visited, with "Landing page" to your landing page. If there is neither your own landing page nor one of your organisation, the second button is called "No".
 
 If you tick the check box "Do not ask again" in this prompt, OpenOlat saves your answer as a setting: "Yes" sets "Resume last session" to "Yes, automatically", "Landing page" or "No" sets it to "No".
 
+If you have never saved anything here, "No" is preselected by default: OpenOlat opens your landing page after login and does not ask. A saved choice is kept. It is saved as soon as you have clicked "Save" in this section once, even if you only changed the field "Landing page", or as soon as you have ticked "Do not ask again" in the prompt. If you want to continue where you left off after login, select "Yes, automatically" or "Yes, on request" and click "Save" [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}.
+
 If there is no location last visited yet, for example at the first login, OpenOlat opens your landing page in any case.
+
+If the selection "Resume last session" is missing, the function is switched off in the server configuration of your OpenOlat instance. OpenOlat then opens your landing page after each login.
 
 
 #### :o_icon_o_icon_landingpage: Landing page [:octicons-tag-16:{ title="from Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986) {: #landing_page}
@@ -100,9 +104,9 @@ You can also set a custom filter tab of a list as your personal landing page, fo
 If you clear the field "Landing page" and click "Save", the landing page of your organisation applies again.
 
 
-### User tools {: #personal_tools}
+### User tools [:octicons-tag-16:{ title="from Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #personal_tools}
 
-Here you select which user tools appear directly at the top in the main navigation (to the left of your profile picture) so that you can access these tools quickly.<br>
+So that you reach frequently used tools with one click, you select here which user tools appear directly at the top in the main navigation, to the left of your profile picture.<br>
 Tools that are displayed as an icon in the main navigation are no longer listed in the personal menu.
 
 **Example: "System settings" and "Badges" have been moved from the personal menu to the main navigation**
@@ -122,6 +126,8 @@ If you want to undo your personal adjustments, reset them to the default setting
 * "Session resume"
 
 After a click on "Reset", OpenOlat logs you out automatically so that the default setting takes effect.
+
+The option "Session resume" only deletes the location you visited last. Your choice for ["Resume last session"](#resume_session) in the section "Specific system settings" remains unchanged.
 
 The option "Personalized interface components" leaves saved adjustments such as hidden table columns unchanged. You reset such adjustments in the [tab "GUI preferences"](#tab_GUI) with "Reset" or "Bulk reset".
 
