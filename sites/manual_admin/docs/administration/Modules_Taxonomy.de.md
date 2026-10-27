@@ -1,14 +1,14 @@
 # Modul Taxonomie {: #module_taxonomy}
 
-Sie finden das Modul in der System-Administration unter:<br>
+Im Modul Taxonomie bauen Sie die Verschlagwortung auf, mit der Katalog, Fragenpool, Dokumentenpool, ePortfolio, Course Planner und Media Center ihre Inhalte ordnen. Das Modul öffnen Administrator:innen und Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Module > Taxonomie`
 
 !!! note "Was ist eine Taxonomie?"
 
-    Im OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
+    In OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
     oftmals mit einem Kompetenzansatz.
 
-    Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
+    Eine Taxonomie lässt sich in mehreren OpenOlat-Bereichen aktivieren und einsetzen:
 
     * [Dokumentenpool](Modules_Document_pool.de.md)
     * [Fragenpool](../../manual_user/area_modules/Question_Bank.de.md)
@@ -19,60 +19,46 @@ Sie finden das Modul in der System-Administration unter:<br>
 
 ![Übersichtsseite der Taxonomien mit Aktivierungsstatus je Bereich, Menüpunkt Taxonomie im Menü Module der System-Administration](assets/modules_taxonomy_entry_v1_de.png){ class="shadow lightbox" title="Seite Taxonomie im Menü Module" }
 
-Direkt auf der Übersichtsseite kann eine neue Taxonomiestruktur erstellt werden.
+Auf der Übersichtsseite legen Sie mit "Neue Taxonomie erstellen" eine neue Taxonomie an.
 
-Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke aktiviert
-werden. Die Übersicht zeigt je Taxonomie, für welche Bereiche sie aktiviert ist:
+Sie können mehrere Taxonomien erstellen und für verschiedene Zwecke aktivieren. Die Übersicht zeigt je Taxonomie, für welche Bereiche sie aktiviert ist:
 Lernressourcen / Katalog, Fragenpool, Dokumentenpool, ePortfolio, Course Planner und
 Media Center. [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
-Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
- Fächer-, Handlungsfeld- oder Kompetenzstruktur abgebildet werden. Zum anderen
- können den Benutzer:innen Kompetenzen zugeordnet werden, welche ihnen den Zugriff
- auf die Taxonomie erlauben.
+Eine Taxonomie bildet zum Beispiel eine Fächer-, Handlungsfeld- oder Kompetenzstruktur ab. Zusätzlich ordnen Sie Benutzer:innen Kompetenzen zu, die ihnen den Zugriff auf einzelne Taxonomieebenen erlauben.
 
-**Beispiel** einer ausgearbeiteten Taxonomiestruktur, nach Fächern für den Dokumentenpool:
+Ein Beispiel einer ausgearbeiteten Taxonomiestruktur, nach Fächern für den Dokumentenpool:
 
 ![Beispielhafte Taxonomiestruktur HFM mit den Fächern MINT, Sport und Sprachen, Tab Taxonomie](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" title="Tab Taxonomie der Taxonomie HFM" }
 
 
 ## Metadaten {: #metadata}
 
-Beim Erstellen werden die Metadaten Kennzeichen und Titel, und falls gewünscht
-die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
-"Metadaten" bearbeitet werden. Hier wird zudem automatisch eine ID erstellt
-und sofern ein externes Verwaltungssystem die Ebenen angelegt hat, wird die
-Externe ID erstellt.
+Beim Erstellen einer Taxonomie geben Sie Kennzeichen und Titel ein, die Beschreibung ist freiwillig. Im Tab "Metadaten" bearbeiten Sie diese Angaben später. Dort steht auch die ID, die OpenOlat automatisch vergibt, und die Externe ID, wenn ein externes Verwaltungssystem die Taxonomie angelegt hat.
+
 ![Tab Metadaten einer Taxonomie mit den Feldern ID, Externe ID, Kennzeichen, Titel und Beschreibung](assets/modules_taxonomy_metadata_v1_de.png){ class="shadow lightbox" title="Tab Metadaten einer Taxonomie" }
 
 ## Ebenentypen {: #level_types}
 
-Ebenentypen werden gebraucht, um der Taxonomiestruktur eine Bedeutung zu
-geben. So können beispielsweise die Ebenentypen Kompetenz → Handlungsfeld →
-Fach erstellt und untereinander als Unterkategorien angelegt werden. Es ist
-dabei nicht notwendig, dass ein Ebenentyp immer an derselben Stelle oder auf
-derselben Ebene der Taxonomiestruktur vorzufinden ist.
+Ebenentypen geben der Taxonomiestruktur eine Bedeutung. So legen Sie beispielsweise die Ebenentypen Kompetenz → Handlungsfeld → Fach an und ordnen sie einander als Untertypen zu. Ein Ebenentyp muss dabei nicht immer an derselben Stelle oder auf derselben Ebene der Taxonomiestruktur stehen.
 
-Zu Ebenentypen werden gewisse Konfigurationen hinzugefügt.
-
-Im Tab "Ebenentypen" kann mit "Neuer Ebenentyp erstellen" ein neuer Typ
-erstellt werden.
+Im Tab "Ebenentypen" erstellen Sie mit "Neuer Ebenentyp erstellen" einen neuen Typ. Jeder Ebenentyp trägt die folgenden Angaben.
 
 #### Kennzeichen {: #level_type_identifier}
 
-Kennung für die Taxonomieebene. Dieses Kennzeichen wird in der Tabelle im Tab "Ebenen" in der Spalte "Ebenentyp" angezeigt. Die Spalte ist nicht voreingestellt, Sie blenden sie über das Zahnrad über der Tabelle unter "Spalten auswählen" ein. Wählen Sie ein eindeutiges und logisches Kennzeichen.
+Pflichtfeld, Kürzel für den Ebenentyp. Dieses Kennzeichen wird in der Tabelle im Tab "Ebenen" in der Spalte "Ebenentyp" angezeigt. Die Spalte ist nicht voreingestellt, Sie blenden sie über das Zahnrad über der Tabelle unter "Spalten auswählen" ein. Wählen Sie ein eindeutiges und logisches Kennzeichen.
 
 #### Titel {: #level_type_display_name}
 
-Der Titel ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
+Der Titel des Ebenentyps gilt für alle Sprachen und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, ePortfolio.
 
 #### CSS class {: #level_type_css_class}
 
-Sofern eine entsprechende css class im Theme hinterlegt ist, können Sie diese hier auswählen. Es können so nur Icons hinterlegt werden.
+Ist im Theme eine passende CSS-Klasse hinterlegt, tragen Sie sie hier ein. Auf diese Weise hinterlegen Sie nur Icons.
 
 #### Sichtbar {: #level_type_visible}
 
-Definiert, ob alle Taxonomieebenen von diesem Typ sichtbar sein sollen.
+Legt fest, ob alle Taxonomieebenen dieses Typs sichtbar sind.
 
 #### Kompetenzen {: #level_type_competences}
 
@@ -88,111 +74,116 @@ Eine kurze Beschreibung des Ebenentyps (optional).
 
 #### Untertypen {: #level_type_sub_types}
 
-Aus den bereits bestehenden Ebenentypen kann nun ein Untertyp ausgewählt werden. So ist es möglich, eine hierarchische Struktur zu schaffen. Diese wird dann beim Erstellen der Taxonomieebenen sichtbar.
+Hier wählen Sie aus den bestehenden Ebenentypen die Untertypen aus. So entsteht eine hierarchische Struktur, die beim Erstellen der Taxonomieebenen sichtbar wird.
 
 ![Tab Ebenentypen mit der Liste der Ebenentypen und Button "Neuer Ebenentyp erstellen"](assets/taxonomy-leveltypes.de.jpg){ class="shadow lightbox" title="Tab Ebenentypen einer Taxonomie" }
 
-## Taxonomie erstellen {: #taxonomy}
+## Taxonomieebenen erstellen {: #taxonomy}
 
-In diesem Tab werden nun die einzelnen Taxonomieebenen erstellt, importiert, exportiert und angezeigt.
-
-
-Beim Erstellen werden folgende Angaben benötigt:
+Im Tab "Ebenen" erstellen, importieren und exportieren Sie die einzelnen Taxonomieebenen und sehen ihre Struktur. "Neue Taxonomieebene erstellen" öffnet den gleichnamigen Dialog mit diesen Angaben:
 
 #### Pfad {: #level_path}
 
-Mit dem Pfad kann direkt die Position der neuen Taxonomieebene definiert werden.
+Mit dem Pfad legen Sie direkt die Position der neuen Taxonomieebene fest.
 
 #### Kennzeichen {: #level_identifier}
 
-Als Kennzeichen kann wiederum ein Kürzel für die Ebene verwendet werden.
+Pflichtfeld, Kürzel für die Ebene.
 
 #### Typ {: #level_type}
 
-Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt.
+Hier wählen Sie einen zuvor erstellten Ebenentyp.
 
 #### Sortierung {: #level_sort_order}
 
-*Aktuell Beta Feature.* Hier können Zahlen eingetragen werden, nach dem die Taxonomien sortiert werden. ( z.B. 1, 2, 3, 4, .. / 01, 02, 03, 04, ...)
-
-#### Teaser Bild {: #level_teaser_image}
-
-Das Bild wird als Datei hochgeladen. Beste Resultate mit der Grösse 240x100px, maximal 2 MB.
-
-#### Hintergrund Bild {: #level_background_image}
-
-Das Bild wird als Datei hochgeladen. Beste Resultate mit der Grösse 1324x240px, maximal 5 MB.
+Ganze Zahl, nach der OpenOlat die Taxonomieebenen aufsteigend sortiert, zum Beispiel 1, 2, 3, 4.
 
 #### Titel {: #level_display_name}
 
-Der Titel ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
+Der Titel ist sprachabhängig, Sie erfassen ihn je Sprache in einem eigenen Tab. Er wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, ePortfolio.
 
 #### Beschreibung {: #level_description}
 
-Beschreibung der Taxonomieebene. Wird im Katalog unter der Ebene angezeigt.
+Beschreibung der Taxonomieebene, ebenfalls je Sprache. Der Katalog zeigt sie unter der Ebene an.
+
+#### Teaser Bild {: #level_teaser_image}
+
+Im Bereich "Bilder" laden Sie das Bild als Datei hoch. Beste Resultate mit der Grösse 240x100px, maximal 2 MB.
+
+#### Hintergrund Bild {: #level_background_image}
+
+Im Bereich "Bilder" laden Sie das Bild als Datei hoch. Beste Resultate mit der Grösse 1324x240px, maximal 5 MB.
 
 ![Dialog "Neue Taxonomieebene erstellen" mit den Feldern Pfad, Kennzeichen, Typ, Sortierung, Titel und Beschreibung sowie dem Abschnitt Bilder mit Teaser Bild und Hintergrund Bild](assets/modules_taxonomy_level_create_v1_de.png){ class="shadow lightbox" title="Dialog Neue Taxonomieebene erstellen" }
 
-In der Übersicht ist nun die hierarchische Struktur sichtbar.
+Der Tab "Ebenen" zeigt danach die hierarchische Struktur.
 
 ![Ausgeklappte Liste der Taxonomie ABC im Tab "Ebenen" mit den Spalten Ebene, Kennzeichen, Externe ID und Unterebenen](assets/modules_taxonomy_levels_overview_v1_de.png){ class="shadow lightbox" title="Tab Ebenen einer Taxonomie" }
 
 !!! tip "Kompetenzen"
-    In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So erhalten Benutzer:innen die "Zugriffsrechte" für die einzelnen Taxonomieebenen. 
+    Öffnen Sie eine Taxonomieebene und fügen Sie im Tab "Kompetenzen" Benutzer:innen Kompetenzen hinzu. So erhalten sie die Zugriffsrechte für die einzelnen Taxonomieebenen.
 
-Es werden 4 verschiedene Kompetenzen unterschieden. Diese werden im Folgenden
-kurz umrissen:
+OpenOlat unterscheidet vier Kompetenzen:
 
-* **Unterrichten** ("Dozieren"): Eine Benutzer:in mit der Kompetenz Unterrichten ist in dieser Kompetenz befähigt. Meist bedeutet dies, sie hat ein gewisses Fachwissen, das sie weitergeben kann. Die Kompetenz Unterrichten wird der Benutzer:in entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
+* **Unterrichten** ("Dozieren"): Benutzer:innen mit der Kompetenz Unterrichten sind in diesem Bereich befähigt. Meist bedeutet dies, dass sie Fachwissen haben, das sie weitergeben können. Die Kompetenz Unterrichten weisen Sie von Hand zu, oder ein externes Verwaltungssystem trägt sie ein. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
 * **Verwalten**: Benutzer:innen können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen sie nicht zwingend auch die Kompetenz Unterrichten haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
 * **Haben**: Sobald eine Person in ihrem [ePortfolio](../../manual_user/area_modules/Portfolio_General_Information.de.md) einem Eintrag über "Kompetenzen hinzufügen" eine Kompetenz zuordnet, trägt OpenOlat ihr die Kompetenz Haben automatisch ein. Von Hand weisen Sie die Kompetenz Haben im Tab "Kompetenzen" der Taxonomieebene zu.
 * **Ziel**: Die Person strebt diese Kompetenz an. Sie sieht die Kompetenz Ziel in den persönlichen Werkzeugen unter "Kompetenzen".
 
 
-### Taxonomie exportieren {: #export}
+### Taxonomie exportieren [:octicons-tag-16:{ title="ab Release 17.2.0 (OO-6417)" }](https://track.frentix.com/issue/OO-6417){:target="_blank"} {: #export}
 
+Mit dem Export sichern Sie eine Taxonomie oder bearbeiten viele Taxonomieebenen in Excel. Öffnen Sie im Tab "Ebenen" das Drei-Punkte-Menü und wählen Sie "Taxonomieebenen exportieren". OpenOlat lädt ein ZIP-Archiv herunter. Es enthält eine Excel-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und den Ordner "media". Darin liegt für jede Ebene ein Ordner mit den Unterordnern "background" und "teaser" und den vorhandenen Hintergrund- und Teaserbildern. Die Bilder zeigt der [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md) bei der jeweiligen Taxonomieebene.
 
-Die Taxonomie wird mit Klick auf den Menüpunkt (siehe Bild) als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md))
 ![Geöffnetes Drei-Punkte-Menü mit den Einträgen Taxonomieebenen exportieren und Taxonomieebenen importieren, rechts über der Liste der Taxonomieebenen](assets/Taxonomie_exportieren.png){ class="shadow lightbox" title="Drei-Punkte-Menü im Tab Ebenen" }
 
 ### Taxonomie importieren [:octicons-tag-16:{ title="ab Release 15.4 (OO-5177)" }](https://track.frentix.com/issue/OO-5177){:target="_blank"} {: #import}
 
-**Daten Einfügen**
+Viele Taxonomieebenen erfassen oder ändern Sie schneller in einer Excel-Liste als einzeln. Den Import öffnen Sie im Tab "Ebenen" über das Drei-Punkte-Menü mit "Taxonomieebenen importieren". Der Assistent führt durch drei Schritte: "Daten einfügen", "Änderungen überprüfen" und "Updatemodus auswählen".
 
-![Schritt "Daten einfügen" des Import-Wizards mit den Spaltennamen der Taxonomiestruktur (A) und dem Upload der Hintergrund-/Teaserbilder (B)](assets/taxonomy-import-overview.de.jpg){ class="shadow lightbox" title="Taxonomieebenen importieren, Schritt Daten einfügen" }
+**Daten einfügen**
 
-Sie können die verschiedenen Teile der Taxonomie importieren. Möglich ist, nur die Struktur zu importieren (**A**), Bilder zu einer vorhandenen Struktur hinzuzufügen (**B**) oder eine neue Struktur inkl. Bilder zu importieren (**A+B**).
+![Bereiche "Taxonomiestruktur importieren" und "Hintergrund-/Teaserbild importieren", beide mit einem Link zur Vorlage](assets/taxonomy-import-overview.de.jpg){ class="shadow lightbox" title="Taxonomieebenen importieren, Schritt Daten einfügen" }
+
+Der Schritt hat zwei Bereiche. Im Bereich "Taxonomiestruktur importieren" fügen Sie Taxonomieebenen ein oder ändern bestehende. Im Bereich "Hintergrund-/Teaserbild importieren" laden Sie Bilder zu den Taxonomieebenen als ZIP-Datei hoch.
+
+Neben der Beschriftung "Vorlage" bietet jeder Bereich eine Vorlage zum Herunterladen:
+
+- **Download Excel-Vorlage** im Bereich "Taxonomiestruktur importieren": eine Excel-Tabelle mit der Kopfzeile "Pfad", "Kennzeichen", "Typ" und "Sortierung", danach je Sprache die Spalten "Sprache", "Titel" und "Beschreibung", dazu drei Taxonomieebenen als Beispiel. Die Spaltennamen erscheinen in der Sprache Ihrer Benutzeroberfläche. Halten Sie die Reihenfolge der Spalten ein. Pflicht sind "Pfad", "Kennzeichen", "Sprache" und "Titel".
+- **Download .zip-Vorlage** im Bereich "Hintergrund-/Teaserbild importieren": eine ZIP-Datei mit dem Ordner "media" und für dieselben drei Taxonomieebenen wie in der Excel-Vorlage den leeren Unterordnern "background" und "teaser".
 
 **Änderungen überprüfen**
 
 ![Schritt "Änderungen überprüfen" mit Warnsymbol je Zeile, wenn die Taxonomieebene bereits vorhanden ist und aktualisiert werden kann](assets/taxonomy-import-step2.de.jpg){ class="shadow lightbox" title="Taxonomieebenen importieren, Schritt Änderungen überprüfen" }
 
-Nach dem Import werden im zweiten Schritt die Taxonomie und die hinzugefügten Bilder nochmals überprüft. Ein Icon zeigt an, ob die Taxonomieebene bereits vorhanden ist und mit den Dateien und hochgeladen Informationen ergänzt und überschrieben werden soll.
+In diesem Schritt listet OpenOlat jede Taxonomieebene aus dem Import mit ihren Angaben auf. Die Spalten "Hintergrundbild" und "Teaserbild" zeigen, ob ein Bild dazugehört. Ein Warndreieck markiert Taxonomieebenen, die bereits vorhanden sind und aktualisiert werden können.
 
 **Updatemodus auswählen**
 
 ![Schritt "Updatemodus auswählen" mit Checkbox "Taxonomien aktualisieren" und Anzahl betroffener Taxonomieebenen](assets/taxonomy-import-step3.de.jpg){ class="shadow lightbox" title="Taxonomieebenen importieren, Schritt Updatemodus auswählen" }
 
-Hier entscheiden Sie, ob Sie die existierenden Taxonomieebenen überschreiben lassen oder nur neue Taxonomieebenen hinzufügen wollen. Falls Sie Medien hinzufügen möchten, müssen Sie die Änderungen hier überschreiben lassen.
+Hier entscheiden Sie mit dem Häkchen bei "Taxonomien aktualisieren", ob OpenOlat die vorhandenen Taxonomieebenen überschreibt oder nur neue hinzufügt. Daneben steht die Zahl der betroffenen Ebenen. Bilder übernimmt OpenOlat nur, wenn das Häkchen gesetzt ist.
 
-### Nur Taxonomie Struktur importieren/hinzufügen {: #import_add_structure}
+### Nur Taxonomiestruktur importieren/hinzufügen {: #import_add_structure}
 
-1. Laden Sie die aktuelle Taxonomie herunter oder nutzen Sie die Vorlage unter dem entsprechenden Punkt
+1. Exportieren Sie die aktuelle Taxonomie mit "Taxonomieebenen exportieren", oder laden Sie im Schritt "Daten einfügen" über "Download Excel-Vorlage" die Vorlage herunter.
 
-2. In der Excel fügen Sie die neuen Ebenen hinzu oder verändern bestehende. Der Pfad muss vollständig angegeben werden. Ist dieser fehlerhaft, können gewisse Ebenen nicht importiert werden.
- Haben Sie verschiedene Sprachen in OpenOlat aktiviert und benutzen den [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md), ist es ratsam, Titel und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Sprache", "Titel" & "Beschreibung" kopieren, diese hinten anhängen und eine neue, existierende Sprache, Titel + Beschreibung für jede Taxonomieebene ergänzen.
+2. Ergänzen Sie in der Excel-Tabelle neue Ebenen oder ändern Sie bestehende. Geben Sie den Pfad vollständig an, sonst markiert OpenOlat die Zeile mit einer Fehlermeldung. Eine übergeordnete Ebene muss bereits existieren oder in einer Zeile vor ihrer Unterebene stehen.
 
-3. Die geänderte Tabelle wird _ohne_ die Kopfzeile markiert und in das Eingabefeld kopiert. Im Schritt "Änderungen überprüfen" werden die Zellen auf Richtigkeit überprüft. Bei Fehlern erscheinen die Fehlermeldungen direkt am Eingabefeld.
+    Haben Sie mehrere Sprachen in OpenOlat aktiviert und benutzen den [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md), pflegen Sie Titel und Beschreibung am besten in jeder Sprache. Für eine weitere Sprache kopieren Sie die Spalten "Sprache", "Titel" und "Beschreibung", hängen sie hinten an und tragen für jede Taxonomieebene den Code einer aktivierten Sprache, etwa "EN", mit Titel und Beschreibung ein.
+
+3. Markieren Sie die geänderte Tabelle _ohne_ die Kopfzeile, kopieren Sie sie und fügen Sie sie in das Feld "Taxonomieebenen importieren" ein. Mit "Weiter" prüft OpenOlat die Zellen. Fehlermeldungen erscheinen direkt am Feld.
 
 ### Nur Hintergrund-/Teaserbild importieren/hinzufügen {: #import_add_media}
 
 ![Ordnerstruktur des entpackten Taxonomie-Exports mit Unterordnern "background" und "teaser" je Taxonomieebene](assets/taxonomy-media-folder-structure.jpg){ class="shadow lightbox" title="Entpacktes Export-Archiv einer Taxonomie" }
 
-1. Wenn Sie Hintergrundbilder zu einer existierenden Taxonomie hinzufügen möchten, exportieren Sie diese im ersten Schritt.
-2. Entzippen Sie das Archiv und legen Sie die betreffenden Bilder im Ordner "media" ab.
-3. Zippen Sie das gesamte Archiv wieder und fügen Sie es unter Absatz B im Wizard ein.
+1. Wenn Sie Hintergrund- oder Teaserbilder zu einer vorhandenen Taxonomie hinzufügen möchten, exportieren Sie diese zuerst mit "Taxonomieebenen exportieren".
+2. Entpacken Sie das Archiv und legen Sie die Bilder im Ordner "media" in die Unterordner "background" und "teaser" der passenden Ebene. Ein Hintergrundbild darf höchstens 5 MB gross sein, ein Teaserbild höchstens 2 MB.
+3. Packen Sie das Archiv wieder als ZIP-Datei und laden Sie es im Schritt "Daten einfügen" im Feld "Hintergrund-/Teaserbilder importieren (.zip)" hoch.
+4. Setzen Sie im Schritt "Updatemodus auswählen" das Häkchen bei "Taxonomien aktualisieren".
 
-Alternativ ist es auch möglich, die vorhandenen Vorlagen unter den jeweiligen Links herunterzuladen und diese entsprechend anzupassen.
+Statt des Exports können Sie im Schritt "Daten einfügen" über "Download .zip-Vorlage" die leere Ordnerstruktur herunterladen. Die Ordner unter "media" bilden den Pfad jeder Ebene aus ihren Kennzeichen ab, zum Beispiel "media/MATH/GEO". Benennen Sie die Ordner nach den Kennzeichen Ihrer Taxonomie und legen Sie die Bilder in die Unterordner "background" und "teaser". Umlaute in Kennzeichen unterstützt der Import der Bilder nicht.
 
 
 ## Automatische Zuordnung per KI [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #ai_matching}
@@ -241,30 +232,29 @@ Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung un
 
 [Zum Seitenanfang ^](#module_taxonomy)
 
-## Lost+Found {: #lost_found}
-**Letzter Tab in der Übersicht**
+## Lost+found {: #lost_found}
 
-Hier werden alle gelöschten Elemente aus dem Tab "Ebenen" abgelegt.
+"Lost+found" ist der letzte Tab einer Taxonomie. Löschen Sie eine Taxonomieebene und wählen dabei unter "Zusammenführen in" keine andere Ebene, legt OpenOlat die Dokumente aus ihrem Ordner im Dokumentenpool hier ab, in einem Ordner mit dem Kennzeichen der Ebene.
 
 !!! note "Hinweis"
-    Gelöschte Objekte können momentan nicht wiederhergestellt werden.
+    Eine gelöschte Taxonomieebene lässt sich nicht wiederherstellen.
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Dokumentenpool >](Modules_Document_pool.de.md)<br>
-[Fragenpool >](../../manual_user/area_modules/Question_Bank.de.md)<br>
-[ePortfolio >](eAssessment_ePortfolio.de.md)<br>
-[Katalog >](Modules_Catalog_2.0.de.md)<br>
+[Modul Dokumentenpool >](Modules_Document_pool.de.md)<br>
+[Fragenpool: Übersicht >](../../manual_user/area_modules/Question_Bank.de.md)<br>
+[e-Assessment Administration: ePortfolio >](eAssessment_ePortfolio.de.md)<br>
+[Modul Katalog >](Modules_Catalog_2.0.de.md)<br>
 [Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
 [Allgemeines zum Portfolio >](../../manual_user/area_modules/Portfolio_General_Information.de.md)<br>
-[Katalog 2.0 >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
-[Externe Werkzeuge: KI-Modul >](External_Tools_AI.de.md)<br>
-[Modul Media Center >](Modules_Media_Center.de.md)
+[Modul Media Center >](Modules_Media_Center.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](External_Tools_AI.de.md)
 
 **Weiterführend**<br>
-[Course Planner >](Modules_Course_Planner.de.md)
+[Modul Course Planner >](Modules_Course_Planner.de.md)
 
 [Zum Seitenanfang ^](#module_taxonomy)

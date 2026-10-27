@@ -6,7 +6,7 @@ Produkte, Durchführungen und Mitgliedschaften lassen sich im Course Planner üb
 
 Export und Import ergänzen die manuelle Erfassung im Course Planner: Bestehende Strukturen lassen sich als Excel-Datei exportieren, in dieser Datei bearbeiten und anschliessend wieder importieren, um Produkte, Durchführungen und Mitgliedschaften in grosser Zahl neu anzulegen oder zu aktualisieren.
 
-Gedacht sind Export und Import für Aufgaben, die viele Objekte gleichzeitig betreffen. Einzelne Änderungen an einem Produkt, einer Durchführung oder einer Mitgliedschaft erfolgen einfacher direkt auf der Oberfläche. Typische Einsatzfälle sind:
+Gedacht sind Export und Import für Aufgaben, die viele Objekte gleichzeitig betreffen. Ein einzelnes Produkt, eine einzelne Durchführung oder Mitgliedschaft ändern Sie einfacher direkt in der Oberfläche. Typische Einsatzfälle sind:
 
 * das Anlegen vieler neuer Produkte, Durchführungen und Termine auf einmal
 * das Abstimmen von Datum, Zeit, Ort und Räumen mehrerer Termine
@@ -16,7 +16,7 @@ Gedacht sind Export und Import für Aufgaben, die viele Objekte gleichzeitig bet
 
 !!! warning "Achtung"
 
-    Ein Import ändert viele Objekte in einem Durchgang. Es empfiehlt sich, vor jedem Import den aktuellen Stand zu exportieren und die Übersicht jedes Schritts genau zu prüfen. Grössere Importe sollten zuerst auf einer Testinstanz durchgeführt werden.
+    Ein Import ändert viele Objekte in einem Durchgang. Es empfiehlt sich, vor jedem Import den aktuellen Stand zu exportieren und die Übersicht jedes Schritts genau zu prüfen. Grössere Importe testen Sie am besten zuerst auf einer Testinstanz.
 
 Folgende Elemente können exportiert bzw. importiert werden:
 
@@ -27,7 +27,8 @@ Folgende Elemente können exportiert bzw. importiert werden:
 
 Wie Konten und Mitgliedschaften zusammenhängen und was der Import mit ihnen tut, beschreibt der Abschnitt [Konten und Mitgliedschaften](#accounts_memberships).
 
-Der Import-Assistent wird über das Mehr-Menü (⋮) auf dem Course-Planner-Dashboard gestartet.
+Den Import-Assistenten starten Sie auf dem Course-Planner-Dashboard über das Mehr-Menü (⋮) oben rechts:<br>
+`Course Planner > Mehr-Menü (⋮) > Importieren`
 
 ![Eintrag Importieren im Mehr-Menü oben rechts](assets/course_planner_import_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
@@ -39,7 +40,7 @@ Der Import-Assistent wird über das Mehr-Menü (⋮) auf dem Course-Planner-Dash
 
 ### Einstiegspunkte {: #export_entry_points}
 
-Der Export steht an mehreren Stellen im Course Planner zur Verfügung:
+Der Export steht Kursplaner:innen und Administrator:innen für alle Produkte und Durchführungen zur Verfügung, Produktbesitzer:innen für ihre Produkte samt deren Durchführungen und Elementbesitzer:innen für die Durchführungen, die sie besitzen. Sie finden ihn an mehreren Stellen im Course Planner:
 
 * Im Course-Planner-Dashboard, im Bereich "Produkte", "Durchführungen" oder "Termine": über das Mehr-Menü oder als Bulk-Aktion für mehrere ausgewählte Einträge
 * Auf der Seite eines einzelnen Produkts: als globale Aktion, sowie im Tab "Durchführung" über Mehr-Menü oder Bulk-Aktion
@@ -62,22 +63,24 @@ Ein Export auf Ebene der Durchführung enthält immer alle zugehörigen Angaben 
 ##### Navigation unter Mitglieder
 ![Aktion Export im Menü der drei Punkte oben rechts einer Durchführung](assets/course_planner_export_mitglieder_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder einer Durchführung" }
 
-Der Dateiname der exportierten Excel-Datei folgt dem Muster "CPL_Produkte_\<Datum und Zeit\>" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9178)" }](https://track.frentix.com/issue/OO-9178){:target="_blank"}.
+Der Dateiname der exportierten Excel-Datei folgt dem Muster "CPL_Produkte_\<Datum und Zeit\>".
 
 ### Aufbau der Excel-Datei {: #export_file_structure}
 
-Die exportierte Excel-Datei enthält je nach Exportart bis zu vier Sheets:
+Die exportierte Excel-Datei enthält bis zu vier Sheets mit Daten:
 
 * **Produkte:** Titel, Kennzeichen, ORG-Kennzeichen, Absenzen, Beschreibung, Erstellungsdatum, zuletzt geändert
 * **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich. Der Fachbereich-Pfad beginnt mit dem Taxonomie-Identifier ("\<Identifier\>:/\<Pfad\>") [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. Bei Terminen folgt nach dem Ort die Spalte "Räume" mit den gebuchten Räumen im Format "Gebäude-Kennzeichen:Raum-Kennzeichen", mehrere Räume durch Semikolon getrennt. Was der Import mit dieser Spalte tut, beschreibt der Abschnitt [Räume von Terminen](#import_rooms).
 * **Mitgliedschaft:** eine Zeile pro Mitgliedschaft, mit den Kennzeichen von Produkt, Durchführung und Element ("PROD - Kennzeichen", "IMPL - Kennzeichen", "Kennzeichen"), der Rolle und dem Anmeldenamen. Die Rolle steht als fester Wert, zum Beispiel PARTICIPANT für Teilnehmer:in; alle Werte listet die [Referenz](Course_Planner_Import_Export_Reference.de.md#enum_reference).
 * **Konten:** eine Zeile pro Person, die im Sheet "Mitgliedschaft" vorkommt: Anmeldename, Vorname, Nachname, E-Mail, Organisationszugehörigkeit, Kontoablauf [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, Erstellungsdatum
 
+Die Sheets "Mitgliedschaft" und "Konten" enthält der Export nur, wenn die exportierende Person die administrativen Benutzer:innen-Properties sehen darf, zu denen der Anmeldename gehört. Welche Rollen das dürfen, legt die System-Administration fest: `Administration > Module > Datenschutz`, Option "Administrative Benutzer:innen-Properties", siehe [Datenschutz](../../manual_admin/administration/Modules.de.md#data_privacy). Ein Export ohne diese beiden Sheets lässt sich nicht wieder importieren, denn der Import-Assistent verlangt mindestens vier Sheets.
+
 Zusätzlich enthält jede Export-Datei ein Sheet "Exportinformationen" mit URL, OpenOlat-Version, Exportsprache sowie Datum und Name der exportierenden Person [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9217)" }](https://track.frentix.com/issue/OO-9217){:target="_blank"}.
 
 !!! tip "Tipp"
 
-    Für einen Import empfiehlt es sich, zuerst einen Export der bestehenden Struktur durchzuführen und diese Datei als Grundlage zu verwenden, statt die Datei von Grund auf neu zu erstellen.
+    Für einen Import empfiehlt es sich, zuerst die bestehende Struktur zu exportieren und diese Datei als Grundlage zu verwenden, statt die Datei von Grund auf neu zu erstellen.
 
 [zum Seitenanfang ^](#import_export)
 
@@ -85,7 +88,7 @@ Zusätzlich enthält jede Export-Datei ein Sheet "Exportinformationen" mit URL, 
 
 ## Import-Assistent {: #import_wizard}
 
-Der Import-Button steht auf dem Course-Planner-Dashboard nur Personen mit der Rolle "Kursplaner:in" oder "Administrator:in" zur Verfügung.
+Den Eintrag "Importieren" im Mehr-Menü des Course-Planner-Dashboards sehen nur Personen mit der Rolle "Kursplaner:in" oder "Administrator:in".
 
 Der Import-Assistent öffnet sich als Dialog "Elemente vom Course Planner importieren oder aktualisieren" und führt in fünf Schritten durch die Kontrolle und Ausführung des Imports. Enthalten die Daten Fehler, kann der Assistent nicht abgeschlossen werden, solange die entsprechenden Zeilen nicht ignoriert werden [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9191)" }](https://track.frentix.com/issue/OO-9191){:target="_blank"}.
 
@@ -155,13 +158,17 @@ Bevor der Import etwas anlegt oder ändert, prüfen Sie den Inhalt der Datei She
 
 #### Schritt 1: Datei auswählen {: #step1}
 
-Laden Sie die Excel-Datei mit den zu importierenden Daten hoch. Eine Beispieldatei steht unter "Importbeispiel" über den Link "Excel Vorlage" zum Herunterladen bereit.
+Laden Sie im Feld "Datei auswählen" die Excel-Datei mit den zu importierenden Daten hoch.
+
+Als Muster für den Aufbau der Datei steht darüber unter "Importbeispiel" über den Link "Excel Vorlage" eine Beispieldatei zum Herunterladen bereit. Sie zeigt ein Produkt mit zwei Durchführungen samt Elementen, Kursen, Templates und Terminen, dazu Mitgliedschaften und Konten. Sheets und Spalten tragen in der Beispieldatei englische Namen. Für den Import spielt das keine Rolle, denn er liest Sheets und Spalten nach ihrer Position.
 
 ![Bedingungen an die Excel-Datei und der Link Excel Vorlage unter Importbeispiel](assets/course_planner_import_excel_v2_de.png){ class="shadow lightbox" title="Schritt Datei auswählen des Import-Assistenten · 2026.10.07" }
 
 !!! info "Wichtig"
 
     Die Excel-Datei muss folgende Bedingungen erfüllen: Das Sheet "Produkte" muss vorhanden sein, alle mit einem Sternchen (\*) gekennzeichneten Pflichtfelder müssen ausgefüllt sein, Kennzeichen müssen im gesamten System eindeutig sein, und Organisationen, Elementtypen und Fachbereiche müssen bereits im System vorhanden sein. Nur bestimmte Attribute lassen sich aktualisieren, alle anderen ignoriert der Import. Welche das sind, zeigt die Spalte "Aktualisierbar" in der [Referenz](Course_Planner_Import_Export_Reference.de.md#attribute_rules).
+
+    Ausserdem braucht die Datei mindestens vier Sheets. Hat sie weniger, meldet der Assistent: "Die Excel-Datei scheint nicht den Anforderungen für den Import eines Produkts zu entsprechen."
 
 #### Schritt 2: Produkte überprüfen {: #step2}
 
@@ -177,7 +184,7 @@ Analog zu Schritt 2, hier für die Durchführungsstruktur (Elemente, Templates, 
 
 Wird ein übergeordnetes Element ignoriert oder enthält es einen Fehler, werden auch alle untergeordneten Objekte automatisch vom Import ausgeschlossen.
 
-Ist das Modul "Termine und Absenzen" auf der Instanz deaktiviert, werden Termine beim Import automatisch als "Ignoriert" gesetzt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}.
+Ist das Modul "Termine / Absenzen" auf der Instanz deaktiviert, werden Termine beim Import automatisch als "Ignoriert" gesetzt.
 
 !!! info "Wichtig"
 
@@ -191,7 +198,7 @@ Die Tabelle zeigt die Konten aus dem Sheet "Konten" mit Anmeldename, Vor- und Na
 
 !!! info "Wichtig"
 
-    Ist auf der Instanz die Option "E-Mail obligatorisch" nicht aktiviert, kann das Feld E-Mail leer bleiben [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}.
+    Ist in der System-Administration unter `Administration > Core-Konfiguration > E-Mail` die Option "Obligatorisch" ausgeschaltet, kann das Feld E-Mail leer bleiben, siehe [E-Mail Einstellungen](../../manual_admin/administration/E-Mail_Settings.de.md#email_address).
 
 ![Spalten von Anmeldename bis Kontoablauf und ein bestehendes Konto mit Importstatus Keine Änderungen und einer Warnung beim Kontoablauf](assets/course_planner_import_users_v2_de.png){ class="shadow lightbox" title="Schritt Benutzer:innen überprüfen des Import-Assistenten · 2026.10.07" }
 
@@ -207,11 +214,16 @@ Die Tabelle zeigt die Mitgliedschaften aus dem Sheet "Mitgliedschaft" mit den Ke
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Import/Export: Referenz >](Course_Planner_Import_Export_Reference.de.md)<br>
+[Module: Übersicht (Administration) >](../../manual_admin/administration/Modules.de.md)<br>
+[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)<br>
+[E-Mail Einstellungen (Administration) >](../../manual_admin/administration/E-Mail_Settings.de.md)
+
+**Weiterführend**<br>
 [Course Planner: Übersicht >](Course_Planner.de.md)<br>
 [Course Planner: Produkte >](Course_Planner_Products.de.md)<br>
-[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
-[Import/Export: Referenz >](Course_Planner_Import_Export_Reference.de.md)<br>
-[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
-[Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)
+[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)
 
 [zum Seitenanfang ^](#import_export)

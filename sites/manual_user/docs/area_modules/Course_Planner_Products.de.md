@@ -118,6 +118,8 @@ Wie eine Übersichtsseite aufgebaut ist, welche Bedienelemente die Kacheln gemei
 
 Produkte, Durchführungen und Mitgliedschaften lassen sich auch über eine Excel-Datei importieren oder exportieren. Der Import-Assistent prüft die Daten in mehreren Schritten und zeigt vor der Ausführung genau an, was neu erstellt, geändert oder ignoriert wird [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"}.
 
+Eine Beispieldatei mit einem Produkt und zwei Durchführungen laden Sie im ersten Schritt des Import-Assistenten unter "Importbeispiel" über den Link "Excel Vorlage" herunter, siehe [Schritt 1: Datei auswählen](Course_Planner_Import_Export.de.md#step1).
+
 !!! note "Import / Export"
 
     Eine ausführliche Beschreibung finden Sie unter [Course Planner: Import / Export](Course_Planner_Import_Export.de.md).

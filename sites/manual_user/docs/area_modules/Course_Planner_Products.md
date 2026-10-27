@@ -114,6 +114,8 @@ How an overview page is structured, which controls the tiles have in common and 
 
 Products, implementations and memberships can also be imported or exported via an Excel file. The import wizard checks the data in several steps and shows exactly what will be newly created, changed or ignored before execution [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"}.
 
+You download an example file with one product and two implementations in the first step of the import wizard, under "Import example" via the link "Excel template", see [Step 1: Select file](Course_Planner_Import_Export.md#step1).
+
 !!! note "Import / Export"
 
     A detailed description can be found under [Course Planner: Import / Export](Course_Planner_Import_Export.md).

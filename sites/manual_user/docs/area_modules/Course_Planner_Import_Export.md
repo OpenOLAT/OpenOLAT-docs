@@ -6,7 +6,7 @@ Products, implementations, and memberships can be exported and imported in the C
 
 Export and import complement manual data entry in the Course Planner: existing structures can be exported as an Excel file, edited in that file, and then imported again to create or update products, implementations, and memberships in bulk.
 
-Export and import are intended for tasks that affect many objects at the same time. Individual changes to a product, an implementation, or a membership are easier to make directly in the user interface. Typical use cases are:
+Export and import are intended for tasks that affect many objects at the same time. A single product, implementation or membership is easier to change directly in the user interface. Typical use cases are:
 
 * creating many new products, implementations, and events at once
 * coordinating the date, time, location, and rooms of several events
@@ -16,7 +16,7 @@ Export and import are intended for tasks that affect many objects at the same ti
 
 !!! warning "Attention"
 
-    An import changes many objects in one run. It is recommended to export the current state before every import and to check the overview of every step carefully. Larger imports should first be carried out on a test instance.
+    An import changes many objects in one run. It is recommended to export the current state before every import and to check the overview of every step carefully. Ideally, test larger imports on a test instance first.
 
 The following elements can be exported and imported:
 
@@ -27,7 +27,8 @@ The following elements can be exported and imported:
 
 How accounts and memberships belong together and what the import does with them is described in the section [Accounts and memberships](#accounts_memberships).
 
-The import wizard is started via the more-menu (⋮) on the Course Planner dashboard.
+You start the import wizard on the Course Planner dashboard via the more-menu (⋮) at the top right:<br>
+`Course Planner > More-menu (⋮) > Import`
 
 ![Import entry in the more menu at the top right](assets/course_planner_import_v1_en.png){ class="shadow lightbox" title="Course Planner start page" }
 
@@ -39,7 +40,7 @@ The import wizard is started via the more-menu (⋮) on the Course Planner dashb
 
 ### Entry points {: #export_entry_points}
 
-Export is available at several places in the Course Planner:
+Export is available to course planners and administrators for all products and implementations, to product owners for their products and the implementations of these products, and to element owners for the implementations they own. You find it at several places in the Course Planner:
 
 * On the Course Planner dashboard, in the "Products", "Implementations", or "Events" area: via the more-menu or as a bulk action for several selected entries
 * On the page of a single product: as a global action, as well as in the "Implementation" tab via the more-menu or bulk action
@@ -62,22 +63,24 @@ An export at implementation level always contains all related data including mem
 ##### Navigation under Members
 ![Export action in the menu of the three dots at the top right of an implementation](assets/course_planner_export_member_v1_en.png){ class="shadow lightbox" title="Members tab of an implementation" }
 
-The file name of the exported Excel file follows the pattern "CPL_Products_\<date and time\>" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9178)" }](https://track.frentix.com/issue/OO-9178){:target="_blank"}.
+The file name of the exported Excel file follows the pattern "CPL_Products_\<date and time\>".
 
 ### Structure of the Excel file {: #export_file_structure}
 
-Depending on the export type, the exported Excel file contains up to four sheets:
+The exported Excel file contains up to four sheets with data:
 
 * **Products:** Title, Reference, ORG - Reference, Absences, Description, Creation date, Last modified
 * **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Reference, title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject. The subject path starts with the taxonomy identifier ("\<Identifier\>:/\<Path\>") [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. For events, the column "Rooms" follows the location and lists the booked rooms in the format "building reference:room reference", several rooms separated by a semicolon. What the import does with this column is described in the section [Rooms of events](#import_rooms).
 * **Memberships:** one row per membership, with the references of product, implementation and element ("PROD - Reference", "IMPL - Reference", "Reference"), the role and the username. The role is a fixed value, for example PARTICIPANT for participant; the [reference](Course_Planner_Import_Export_Reference.md#enum_reference) lists all values.
 * **Users:** one row per user who appears in the "Memberships" sheet: username, first name, last name, e-mail, organisation membership, account expiration [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, creation date
 
+The export contains the "Memberships" and "Users" sheets only if the exporting person may see the administrative user properties, which include the username. Which roles may do so is set in the system administration: `Administration > Modules > Privacy`, option "Administrative user properties", see [Data privacy](../../manual_admin/administration/Modules.md#data_privacy). An export without these two sheets cannot be imported again, because the import wizard requires at least four sheets.
+
 In addition, every export file contains an "Export information" sheet with URL, OpenOlat version, export language, as well as date and name of the exporting person [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9217)" }](https://track.frentix.com/issue/OO-9217){:target="_blank"}.
 
 !!! tip "Tip"
 
-    For an import, it is recommended to first perform an export of the existing structure and use that file as a basis, rather than creating the file from scratch.
+    For an import, it is recommended to first export the existing structure and use that file as a basis, rather than creating the file from scratch.
 
 [To the top of the page ^](#import_export)
 
@@ -85,7 +88,7 @@ In addition, every export file contains an "Export information" sheet with URL, 
 
 ## Import wizard {: #import_wizard}
 
-The import button on the Course Planner dashboard is only available to users with the role "Course planner" or "Administrator".
+Only users with the role "Course planner" or "Administrator" see the "Import" entry in the more-menu of the Course Planner dashboard.
 
 The import wizard opens as the dialog "Import/update elements of the Course Planner" and guides you through the review and execution of the import in five steps. If the data contains errors, the wizard cannot be completed until the affected rows are ignored [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9191)" }](https://track.frentix.com/issue/OO-9191){:target="_blank"}.
 
@@ -109,7 +112,7 @@ The search area depends on the object:
 
 If you enrol users in implementations with the import, you fill two sheets that belong together: the "Users" sheet says who the user is, the "Memberships" sheet says where they take part and in which role. An account is a user's access to OpenOlat, with username, profile data and organisation membership. A membership links an account to a role in an implementation or in one of its elements.
 
-An example: Anna Muster is to take part in two implementations. In the "Users" sheet, she appears in a single row, with her username "amuster". In the "Memberships" sheet, she appears in two rows, one per implementation, both with the username "amuster" and the role "PARTICIPANT".
+An example: Anna Muster is to take part in two implementations. In the "Users" sheet, she appears in a single row, with her username "amuster". In the "Memberships" sheet, she appears in two rows, one per implementation, both with the username "amuster" and the role "PARTICIPANT" (participant).
 
 | | "Users" sheet | "Memberships" sheet |
 |---|---|---|
@@ -155,13 +158,17 @@ Before the import creates or changes anything, you check the content of the file
 
 #### Step 1: Select file {: #step1}
 
-Upload the Excel file containing the data to be imported. An example file is available for download under "Import example" via the link "Excel template".
+Upload the Excel file with the data to be imported in the field "Import file".
+
+As a pattern for the structure of the file, an example file is available for download above it, under "Import example" via the link "Excel template". It shows a product with two implementations including elements, courses, templates and events, plus memberships and users. In the example file, sheets and columns have English names. This does not matter for the import, because it reads sheets and columns by their position.
 
 ![Conditions for the Excel file and the Excel template link under Import example](assets/course_planner_import_excel_v2_en.png){ class="shadow lightbox" title="Select file step of the import wizard · 2026.10.07" }
 
 !!! info "Important"
 
     The Excel file must meet the following conditions: the "Products" sheet must be present, all mandatory fields marked with an asterisk (\*) must be filled in, references must be unique across the entire system, and organisations, element types, and subjects must already exist in the system. Only certain attributes can be updated, the import ignores all others. The column "Updatable" in the [reference](Course_Planner_Import_Export_Reference.md#attribute_rules) shows which ones.
+
+    In addition, the file needs at least four sheets. If it has fewer, the wizard reports: "The Excel file does not appear to be in the correct format for importing a product."
 
 #### Step 2: Review products {: #step2}
 
@@ -177,11 +184,11 @@ Similar to step 2, but for the implementation structure (elements, templates, co
 
 If a parent element is ignored or contains an error, all child objects are automatically excluded from the import as well.
 
-If the module "Events and Absences" is deactivated on the instance, events are automatically set to "Ignored" during the import [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}.
+If the module "Events / Absences" is deactivated on the instance, events are automatically set to "Ignored" during the import.
 
 !!! info "Important"
 
-    If a course is configured with the usage purpose "Standalone", administrators exceptionally see only a warning instead of an error, so that older courses not yet converted to the Course Planner can still be imported. It is recommended to only use courses with the usage purpose "Used in Course Planner" [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9424)" }](https://track.frentix.com/issue/OO-9424){:target="_blank"}.
+    If a course is configured with the usage "Standalone", administrators exceptionally see only a warning instead of an error, so that older courses not yet converted to the Course Planner can still be imported. It is recommended to only use courses with the usage "Use in Course Planner" [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9424)" }](https://track.frentix.com/issue/OO-9424){:target="_blank"}.
 
 ![Error message for 38 elements, rows with error symbols automatically marked as Ignored](assets/course_planner_import_implementations_v2_en.png){ class="shadow lightbox" title="Review implementations step of the import wizard · 2026.10.07" }
 
@@ -191,7 +198,7 @@ The table shows the accounts from the "Users" sheet with username, first and las
 
 !!! info "Important"
 
-    If the "E-mail mandatory" option is not enabled on the instance, the e-mail field can be left empty [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}.
+    If the option "Mandatory" is switched off in the system administration under `Administration > Core functions > E-mail`, the e-mail field can be left empty, see [Email Settings](../../manual_admin/administration/E-Mail_Settings.md#email_address).
 
 ![Columns from Username to account expiration and an existing account with import status No changes and a warning for the account expiration](assets/course_planner_import_users_v2_en.png){ class="shadow lightbox" title="Review users step of the import wizard · 2026.10.07" }
 
@@ -207,11 +214,16 @@ The table shows the memberships from the "Memberships" sheet with the references
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Import/Export: Reference >](Course_Planner_Import_Export_Reference.md)<br>
+[Modules: Overview (Administration) >](../../manual_admin/administration/Modules.md)<br>
+[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[Course Planner: Room management >](Course_Planner_Rooms.md)<br>
+[Email Settings (Administration) >](../../manual_admin/administration/E-Mail_Settings.md)
+
+**Further reading**<br>
 [Course Planner: Overview >](Course_Planner.md)<br>
 [Course Planner: Products >](Course_Planner_Products.md)<br>
-[Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
-[Import/Export: Reference >](Course_Planner_Import_Export_Reference.md)<br>
-[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
-[Course Planner: Room management >](Course_Planner_Rooms.md)
+[Course Planner: Implementations >](Course_Planner_Implementations.md)
 
 [To the top of the page ^](#import_export)

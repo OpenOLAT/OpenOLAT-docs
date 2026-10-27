@@ -1,115 +1,133 @@
 # Fragenpool: Fragen importieren {: #question_bank_import}
 
+Fragen, die schon als Datei, in einem Test oder in einer Tabelle vorliegen, müssen Sie im Fragenpool nicht neu erstellen: Sie importieren sie. Den Button "Import" zeigt der Fragenpool Autor:innen, Poolverwalter:innen und Administrator:innen, zum Beispiel über der Tabelle unter "Meine Fragen".
+
 
 ## Import-Möglichkeiten {: #import_options}
 
-Es gibt drei Möglichkeiten, QTI 2.1-Fragen über den Import-Button in den Fragenpool zu importieren.
+Der Button "Import" bietet drei Wege, Fragen im Format QTI 2.1 in den Fragenpool zu holen.
 
-![Geöffnetes Menü Import mit den drei Importwegen ZIP-Datei von lokalem Computer, Test aus Autorenbereich und QTI 2.1 Excelimport über Copy&Paste. Fragenpool.](assets/pool_import.png){ class="shadow lightbox" }
+![Geöffnetes Menü des Buttons Import mit drei Importwegen: ZIP-Datei, Lernressource aus dem Autorenbereich und Excelimport über Copy&Paste](assets/pool_import.png){ class="shadow lightbox" title="Menü des Buttons Import im Fragenpool" }
 
-  *  **ZIP-Datei** von lokalem Computer:<br>
-  Falls Ihnen ein Set an QTI 2.1-Fragen oder ein Test als .zip-Datei zur Verfügung steht, können Sie diese hier importieren.
+  *  **ZIP-Datei von lokalem Computer**:<br>
+  Liegt Ihnen ein Set an QTI 2.1-Fragen oder ein Test als ZIP-Datei vor, importieren Sie die Datei hier.
   *  **Test aus Autorenbereich**:<br>
-  Wählen Sie aus den verfügbaren Test-Lernressourcen den Test aus, den Sie importieren möchten. Klicken Sie dazu in der entsprechenden Zeile auf den Link "Auswählen". Alle Fragen der gewählten Lernressource werden dann direkt in den Fragenpool importiert.
-  * QTI 2.1 **Excelimport** über Copy&Paste:<br>
-  Bereiten Sie die Fragen in einem Tabellenkalkulationsprogramm vor (z.B. Excel). Verwenden Sie die Excelimport-Vorlage, die Ihnen während des Imports angezeigt wird. Kopieren Sie die ausgefüllte Exceltabelle dann in das Formular-Feld.
+  Zur Wahl stehen die QTI 2.1-Tests, die Sie kopieren dürfen. Klicken Sie in der Zeile des gewünschten Tests auf seinen Titel. OpenOlat importiert alle Fragen dieses Tests in den Fragenpool.
+  *  **QTI 2.1 Excelimport über Copy&Paste**:<br>
+  Sie erfassen die Fragen in einem Tabellenkalkulationsprogramm wie Excel nach der Vorlage, die der Import bereitstellt, und fügen die Zeilen in das Eingabefeld ein. Der folgende Abschnitt beschreibt die Vorlage.
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 
 ## Nutzung der Datei "Vorlage Excelimport" {: #excelimport}
 
-Mit dem Fragenimport über Exceldateien können viele Fragen auf einen Schlag auf einfache Art und Weise importiert werden. Dieser Weg bietet sich beispielsweise auch an, um Fragen aus anderen Systemen zu importieren, welche im QTI-Standard 2.1 vorliegen.
+Mit dem Excelimport legen Sie viele Fragen in einem Durchgang an. Sie erfassen die Fragen zeilenweise in einer Tabelle, kopieren die Zeilen und fügen sie in OpenOlat ein. OpenOlat erzeugt daraus Fragen im Format QTI 2.1. So übernehmen Sie auch Fragen aus anderen Systemen, wenn Sie diese zuvor in die Tabelle übertragen.
 
-Starten Sie den Excelimport über Copy&Paste und laden Sie sich die "Vorlage Excelimport" herunter. Sie bildet die Basis für Ihr weiteres Vorgehen.
+Die Vorlage erhalten Sie im Import selbst. Im Fragenpool starten Sie ihn unter:<br>
+`Fragenpool > Mein Fragenpool > Meine Fragen > Import > QTI 2.1 Excelimport über Copy&Paste`
 
-Die Excel Vorlage beinhaltet vier Spalten:
+Im Schritt "Dateneingabe" steht über dem Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)" der Link "Vorlage Excelimport". Er liefert eine Excel-Datei mit Beispielfragen zu allen zehn Fragetypen, die der Excelimport kennt, und einem Beispiel für die Metadaten einer Frage. Bauen Sie Ihre Fragen nach diesem Muster auf.
 
-  a) Keyword/Punkte: Aspekt um den es geht
+Denselben Import mit derselben Vorlage bietet der [Testeditor](../learningresources/Test_editor_QTI_2.1.de.md), wenn Sie Fragen direkt in einen Test übernehmen:<br>
+`Test > Administration > Testeditor > Elemente hinzufügen > Fragen aus Excel importieren`
 
-  b) Value: der gewünschte Wert oder Text
+So importieren Sie die Fragen:
 
-  c) Extra: Extra Informationen
+1. Laden Sie über den Link "Vorlage Excelimport" die Vorlage herunter und erfassen Sie Ihre Fragen nach ihrem Muster.
+2. Markieren Sie in der Tabelle die Zeilen Ihrer Fragen und kopieren Sie sie.
+3. Fügen Sie die Zeilen in das Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)" ein. OpenOlat liest die Zeilen tabulatorgetrennt oder kommagetrennt.
+4. Klicken Sie auf "Weiter". Der Schritt "Übersicht" listet die erkannten Fragen mit Fragetyp, Titel und Punkten.
+5. Klicken Sie auf "Fertigstellen".
 
-  d) Erklärung: weitere Erläuterungen z.B. ob dieses Element optional ist.
+Kann OpenOlat eine Zeile nicht verarbeiten, nennt das Feld die Zeilennummer: "Problem auf Zeile …".
 
-<br>
+Die Vorlage ist eine Tabelle mit vier Spalten:
 
-Die Vorlage enthält Informationen für den Import der folgenden Fragetypen:
+Spalte | Inhalt
+---|---
+Keyword / Punkte | Das Schlüsselwort der Zeile, zum Beispiel "Type", "Title" oder "Points". In den Zeilen für Antworten und Lücken stehen hier die Punkte.
+Value | Der Wert oder Text der Zeile.
+Extra | Zusatzangaben einzelner Fragetypen, zum Beispiel die Lückenlänge beim Lückentext oder die Toleranz beim Lückentext numerisch.
+Erklärung | Erläuterungen zur Zeile, zum Beispiel, ob eine Angabe optional ist.
+
+Die Vorlage enthält Beispiele für die folgenden Fragetypen. Vor der Klammer steht der Wert, den Sie in der Zeile "Type" eintragen, in der Klammer der Name des Fragetyps in OpenOlat. Mehr zu den Fragetypen selbst finden Sie unter [Test Fragetypen](../learningresources/Test_question_types.de.md).
 
   * [MC (Multiple Choice)](#template_mc)
   * [SC (Single Choice)](#template_sc)
-  * [FIB - Fill in the blank (Lückentext)](#template_fip)
-  * [Numerical (Numerische Eingabe)](#template_numerical)
+  * [FIB (Lückentext)](#template_fip)
+  * [Numerical (Lückentext numerisch)](#template_numerical)
   * [Inlinechoice (Lückentext mit Dropdown)](#template_inlinechoice)
-  * [KPRIM](#template_kprim)
+  * [KPRIM (Kprim)](#template_kprim)
   * [Essay (Freitext)](#template_essay)
   * [Matrix](#template_matrix)
-  * [Drag&Drop](#template_dragdrop)
-  * [True-False](#template_truefalse)
+  * [Drag&drop (Drag and Drop)](#template_dragdrop)
+  * [Truefalse (True/false)](#template_truefalse)
 
-Die Fragen werden mit jeweils einer Trennzeile untereinander aufgeführt. Beim Kopieren wandelt Excel bzw. ein ähnliches Programm wie OpenOffice oder Numbers die Daten in einen Komma-separierten Text um.
+In der Vorlage stehen die Fragen untereinander, getrennt durch eine Leerzeile. Jede neue Frage beginnt mit der Zeile "Type". Die Schlüsselwörter dürfen auch deutsch lauten, zum Beispiel "Typ", "Titel", "Frage" oder "Punkte". Gross- und Kleinschreibung spielt keine Rolle.
 
-Im Folgenden werden die Möglichkeiten der in der Vorlage enthaltenen Fragetypen vorgestellt.
+Die folgenden Abschnitte beschreiben die Zeilen je Fragetyp.
 
 ---
 
-### Multiple-Choice Fragen {: #template_mc}
+### Multiple Choice {: #template_mc}
 
-**type**|MC für Multiple-Choice
+**Type**|MC
 ---|---
-**title**|Titel der Frage / Themengebiet
-**question**|Der Fragetext. Minimale HTML Formatierung ist erlaubt.
-**max. answers**|Max. Anzahl möglicher Antworten.
-**min. answers**|Min. Anzahl möglicher Antworten.
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Question**|Der Fragetext. Einfache HTML-Formatierung ist erlaubt.
+**Max answers**|Max. Anzahl möglicher Antworten, die Teilnehmende wählen dürfen
+**Min answers**|Min. Anzahl möglicher Antworten, die Teilnehmende wählen müssen
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
 
-Sie können beliebig viele Antworten, jeweils in einer separaten Zeile erstellen. Die Punktwerte für die einzelnen Antworten können ebenfalls definiert werden z.B.
+Danach folgen die Antworten, jede in einer eigenen Zeile: in der ersten Spalte die Punkte, in der zweiten der Antworttext. Antworten mit mehr als 0 Punkten gelten als richtig, negative Punkte ziehen bei der Wahl dieser Antwort Punkte ab. Die Zahl der Antworten ist frei.
 
-![Excel-Vorlage einer Multiple-Choice-Frage mit Typ, Titel, Fragetext, Max und Min answers, Punkten und sieben Antworten mit den Punktwerten 1 oder -1.](assets/MC_import_Beispiel.png){ class="shadow lightbox" }
+![Multiple-Choice-Frage mit Fragetext, höchstens vier und mindestens zwei Antworten, 3 Punkten und sieben Antworten, drei davon mit 1 Punkt und vier mit -1 Punkt](assets/MC_import_Beispiel.png){ class="shadow lightbox" title="Multiple-Choice-Frage in der Vorlage" }
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 ---
 
-### Single-Choice Fragen {: #template_sc}
+### Single Choice {: #template_sc}
 
-**type**|SC für Single-Choice
+**Type**|SC
 ---|---
-**title**|Titel der Frage / Themengebiet
-**question**|Der Fragetext. Minimale HTML Formatierung ist erlaubt.
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
-**Punkte wenn Option gewählt z.B. "1" (richtig) oder "0" (falsch)**|Optionstext. Es können beliebig viele Optionen angegeben werden, jede Option verwendet eine eigene Zeile mit der jeweiligen Punktzahl.
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Question**|Der Fragetext. Einfache HTML-Formatierung ist erlaubt.
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+
+Danach folgen die Antworten, jede in einer eigenen Zeile: in der ersten Spalte die Punkte, in der zweiten der Antworttext. Die richtige Antwort trägt mehr als 0 Punkte, zum Beispiel "1", die übrigen Antworten "0". Die Zahl der Antworten ist frei.
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 ---
 
-### Lückentext Fragen {: #template_fip}
+### Lückentext {: #template_fip}
 
-**type**|FIB für Lückentext
+**Type**|FIB
 ---|---
-**title**|Titel der Frage / Themengebiet
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
-**text**|Ein Textelement
-**Punkte, wenn Lücke korrekt z.B. "1"**|Korrekte Antwort in Lücke. Synonyme werden mit ";" getrennt. Grösse der Lücke und die maximale Anzahl Zeichen, z.B: "10,8".
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+**Text**|Ein Textteil der Frage vor, zwischen oder nach den Lücken
+**Punkte der Lücke, z. B. "1"**|Die Lösung der Lücke. Weitere richtige Varianten folgen, getrennt durch ";". In der Spalte "Extra" steht die Lückenlänge, zum Beispiel "20".
+
+Textzeilen und Lückenzeilen wechseln sich ab, in beliebiger Zahl.
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 ---
 
-### Numerische Eingabe {: #template_numerical}
+### Lückentext numerisch [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5573)" }](https://track.frentix.com/issue/OO-5573) {: #template_numerical}
 
-**type**|Numerical für numerische Eingabe
+**Type**|Numerical
 ---|---
-**title**|Titel der Frage / Themengebiet
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
-**text**|Ein Textelement, die Fragestellung
-**Punkte, wenn Lücke korrekt z.B. "1"**|Korrekte Antwort in Lücke. Synonyme werden mit ";" getrennt.
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+**Text**|Ein Textteil der Frage, zum Beispiel die Fragestellung
+**Punkte der Lücke, z. B. "1"**|Die Lösung als Zahl. Für eine Toleranz steht hier "Lösung;untere Grenze;obere Grenze" und in der Spalte "Extra" "absolute" oder "relative".
 
-Beispiel:
+Ohne Grenzen zählt nur die exakte Lösung. Mit "absolute" sind die Grenzen Zahlen: "1.41;1.40;1.42" lässt alle Werte zwischen 1.40 und 1.42 gelten. Mit "relative" sind die Grenzen Prozentwerte: "20;10;10" lässt alle Werte zwischen 18 und 22 gelten.
 
-![Excel-Vorlage einer numerischen Frage mit drei Textelementen, je einer Lösung mit Punktwert und der Toleranzangabe absolute oder relative in der Spalte Extra.](assets/Numerical_Import_Beispiel.png){ class="shadow lightbox" }
+![Lückentext numerisch mit drei Lücken: die exakte Lösung 42, eine Lösung mit absoluter und eine mit relativer Toleranz in der Spalte Extra](assets/Numerical_Import_Beispiel.png){ class="shadow lightbox" title="Lückentext numerisch in der Vorlage" }
 
 [Zum Seitenanfang ^](#question_bank_import)
 
@@ -117,120 +135,122 @@ Beispiel:
 
 ### Lückentext mit Dropdown {: #template_inlinechoice}
 
-**type**|Inlinechoice für Lückentext mit Dropdown
+**Type**|Inlinechoice
 ---|---
-**title**|Titel der Frage / Themengebiet
-**Question**|Fragestellung bzw. erstes Textelement der Frage
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
-**text**|Textelemente mit weiteren Teilen für die Frage bzw. Zwischentexte vor und nach den Lücken.
-**Punkte, wenn Lücke korrekt z.B. "1"**|die optionalen Antworten der Dropdown-Liste getrennt. Die korrekte Antwort wird in die folgende Spalte eingetragen.
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Question**|Die Fragestellung oder der erste Textteil der Frage
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+**Text**|Ein Textteil der Frage vor, zwischen oder nach den Lücken
+**Punkte der Lücke, z. B. "1"**|Die Antwortmöglichkeiten des Dropdowns, getrennt durch ";". In der Spalte "Extra" steht die Lösung.
 
-Beispiel:
+Soll ein anderes Zeichen die Antwortmöglichkeiten trennen, tragen Sie es in die vierte Spalte ein. Die Vorlage nutzt dafür "|" und führt die Erklärungen bei diesem Fragetyp deshalb in der fünften Spalte.
 
-![Excel-Vorlage eines Lückentexts mit Dropdown: Textelemente im Wechsel mit Antwortlisten, die Optionen durch senkrechte Striche getrennt, die korrekte Antwort in der Folgespalte.](assets/Inlinechoice_Import_Beispiel.png){ class="shadow lightbox" }
+![Lückentext mit Dropdown: Textteile im Wechsel mit Zeilen für die Lücken, die Antwortmöglichkeiten durch senkrechte Striche getrennt, die Lösung in der Spalte daneben](assets/Inlinechoice_Import_Beispiel.png){ class="shadow lightbox" title="Lückentext mit Dropdown in der Vorlage" }
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 ---
 
-### KPRIM Fragen {: #template_kprim}
+### Kprim [:octicons-tag-16:{ title="ab Release 11.2 (OO-2364)" }](https://track.frentix.com/issue/OO-2364) {: #template_kprim}
 
-**type**|KPRIM
+**Type**|KPRIM
 ---|---
-**title**|Titel der Frage / Themengebiet
-**question**|Fragentext
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
-+|korrekte Antwort
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Question**|Der Fragetext
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
++|richtige Antwort
 -|falsche Antwort
 -|falsche Antwort
-+|korrekte Antwort
++|richtige Antwort
 
-Korrekte Antworten werden also mit einem **+** und falsche mit **-** gekennzeichnet.
-
-[Zum Seitenanfang ^](#question_bank_import)
-
----
-
-### Essay Fragen {: #template_essay}
-
-**type**|ESSAY
----|---
-**title**|Titel der Frage / Themengebiet
-**question**|Fragentext
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
-**min**|Mindestanzahl Wörter
-**max**|Maximale Anzahl Wörter
+Eine Kprim-Frage hat genau vier Antworten. Richtige Antworten tragen in der ersten Spalte ein "+", falsche ein "-". Weitere Antwortzeilen übernimmt OpenOlat nicht.
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 ---
 
-### Matrix Fragen {: #template_matrix}
+### Freitext [:octicons-tag-16:{ title="ab Release 12.3 (OO-3174)" }](https://track.frentix.com/issue/OO-3174) {: #template_essay}
 
-**type**|MATRIX
+**Type**|ESSAY
 ---|---
-**title**|Titel der Frage / Themengebiet
-**question**|Fragentext
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
-
-Die Matrix selbst verteilt sich über die Spalten und Zeilen. Die entsprechenden Punkte werden in das passende Feld eingetragen.
-Hier ein Beispiel mit 3 Spalten und 3 Zeilen:
-
-![Excel-Vorlage einer Matrixfrage Hauptstädte Europas mit den Spalten Deutschland, Frankreich und Schweiz und den Zeilen Berlin, Bern und Paris, der Punktwert 1 steht bei den richtigen Zuordnungen.](assets/Matrix_Import_Beispiel.png){ class="shadow lightbox" }
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Question**|Der Fragetext
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+**Min**|Mindestanzahl Wörter der Antwort
+**Max**|Höchstanzahl Wörter der Antwort
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 ---
 
-### Drag & Drop Fragen {: #template_dragdrop}
+### Matrix {: #template_matrix}
 
-**type**|Drag & drop
+**Type**|MATRIX
 ---|---
-**title**|Titel der Frage / Themengebiet
-**question**|Fragentext
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Question**|Der Fragetext
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
 
-Die Umsetzung in der Excel-Vorlage ist ähnlich wie bei Matrix Fragen und verteilt sich über mehrere Spalten und Zeilen. Die entsprechenden Punkte werden in das passende Feld eingetragen. Hier ein Beispiel mit 3 Spalten und 3 Zeilen:
+Danach folgt die Matrix. In ihrer ersten Zeile bleibt die erste Spalte leer, die weiteren Spalten tragen die Spaltentitel. Jede folgende Zeile beginnt mit dem Zeilentitel, danach stehen je Spalte die Punkte. Eine Zuordnung mit mehr als 0 Punkten gilt als richtig. Ein Beispiel mit drei Spalten und drei Zeilen:
 
-![Excel-Vorlage einer Drag-and-drop-Frage Hauptstädte Afrika mit drei Ländern als Spalten und drei Städten als Zeilen, der Punktwert 1 steht bei den richtigen Zuordnungen.](assets/dad_Import_Beispiel.png){ class="shadow lightbox" }
+![Matrix mit den Spalten Deutschland, Frankreich und Schweiz und den Zeilen Berlin, Bern und Paris, 1 Punkt bei den richtigen Zuordnungen](assets/Matrix_Import_Beispiel.png){ class="shadow lightbox" title="Matrixfrage in der Vorlage" }
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 ---
 
-### TrueFalse Fragen {: #template_truefalse}
+### Drag and Drop {: #template_dragdrop}
 
-**type**|Truefalse
+**Type**|Drag&drop
 ---|---
-**title**|Titel der Frage / Themengebiet
-**question**|Fragentext
-**points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Question**|Der Fragetext
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
 
-Spalte **Unanswered**: Punkte, die vergeben oder abgezogen werden, wenn die Teilnehmenden keine Entscheidung treffen.
+Die Zeilen danach sind gleich aufgebaut wie bei der Matrix: eine Zeile mit den Spaltentiteln, dann je Zeile der Zeilentitel und die Punkte je Spalte. Ein Beispiel mit drei Spalten und drei Zeilen:
 
-Spalte **Right**: Punkte, die vergeben werden, wenn die Teilnehmenden die Antwort "Richtig" auswählen.
+![Drag-and-Drop-Frage mit den Spalten Algerien, Kenia und Namibia und den Zeilen Nairobi, Windhoek und Algier, 1 Punkt bei den richtigen Zuordnungen](assets/dad_Import_Beispiel.png){ class="shadow lightbox" title="Drag-and-Drop-Frage in der Vorlage" }
 
-Spalte **Wrong**: Punkte, die vergeben werden, wenn die Teilnehmenden die Antwort "Falsch" auswählen.
+[Zum Seitenanfang ^](#question_bank_import)
 
-Beispiel:
+---
 
-![Excel-Vorlage einer True-False-Frage Hauptstädte Europa mit den Spalten Unanswered, Right und Wrong und drei Aussagen mit ihren Punktwerten.](assets/truefalse_Import_Beispiel.png){ class="shadow lightbox" }
+### True/false {: #template_truefalse}
+
+**Type**|Truefalse
+---|---
+**Title**|Titel der Frage, zum Beispiel das Themengebiet
+**Question**|Der Fragetext
+**Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
+
+Danach folgt in der Vorlage eine Kopfzeile mit den Spalten "Unanswered", "Right" und "Wrong". Jede weitere Zeile beginnt mit einer Aussage, danach stehen die Punkte in dieser festen Reihenfolge:
+
+Spalte | Punkte, wenn Teilnehmende …
+---|---
+Unanswered | die Aussage nicht beantworten ("Unbeantwortet"). Auch ein Abzug ist möglich.
+Right | "Richtig" wählen
+Wrong | "Falsch" wählen
+
+Die Antwort mit mehr als 0 Punkten gilt als richtig.
+
+![True/false-Frage mit drei Aussagen und den Punktespalten Unanswered, Right und Wrong](assets/truefalse_Import_Beispiel.png){ class="shadow lightbox" title="True/false-Frage in der Vorlage" }
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 ---
 
 !!! info "Wichtig"
-
-    Neben den aufgeführten Feldern gibt es noch weitere optionale Felder wie "Topic", "Keywords", "License" usw. Weitere Details dazu finden Sie direkt in der bereitgestellten Datei "Vorlage Excelimport".
+    Neben den aufgeführten Zeilen kennt die Vorlage optionale Zeilen für Feedback und Metadaten, zum Beispiel "Hint", "Correct solution", "Feedback correct answer", "Topic", "Keywords" oder "License". Die Vorlage zeigt sie im ersten Lückentext-Beispiel, Sie können sie bei jedem Fragetyp ergänzen. Die Spalte "Erklärung" nennt zu jeder dieser Zeilen, ob sie nur im Fragenpool gilt.
 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
-[Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
-[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
-[Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
-[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+[Testeditor >](../learningresources/Test_editor_QTI_2.1.de.md)<br>
+[Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
+[Fragenpool: Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
+[Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
+[Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[Fragenpool: Freigabemöglichkeiten >](Question_Pool_Sharing_Options.de.md)<br>
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 [Zum Seitenanfang ^](#question_bank_import)

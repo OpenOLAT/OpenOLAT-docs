@@ -20,7 +20,7 @@ As a course owner, you create events here and manage the absences. You find larg
 
 As a coach, you open the events only via the "Events" icon in the toolbar; the Administration menu has no entry "Events and Absences". You do not create new events. You see the existing events and, if switched on in the course, record the absences. With "Show only mine" you see only the events where you are entered as teacher.
 
-![Coaches with the role "Coach" reach the events only via the toolbar icon "Events"; their Administration menu contains no entry "Events and Absences"](assets/events_and_absences_toolbar_for_coach_v1_en.png){ class="shadow lightbox" title="Course toolbar in the coaches' view" }
+![Coaches reach the events only via the toolbar icon "Events"; for them the Administration menu contains no entry "Events and Absences"](assets/events_and_absences_toolbar_for_coach_v1_en.png){ class="shadow lightbox" title="Course toolbar in the coaches' view" }
 
 Participants open their events in the course via the "Events" icon in the toolbar, on site as well as online, for example in a blended learning course.
 
@@ -53,7 +53,7 @@ In the 3-dot menu at the end of each line, you find the actions for an event:
 
 If the course is used in the Course Planner, Edit, Copy, the change to an online meeting or an on-location meeting and Delete are missing, because the events are managed in the Course Planner. If the events come from an external administration system, Edit and Delete can be missing as well. The page on the toolbar describes which entries coaches see in the same menu: [Menu at the end of the row](../learningresources/Toolbar_Events.md#lists_and_export)
 
-![The 3-dot menu of a scheduled event offers Edit, Copy, Change to an online meeting, Mark as exam, the lists, Log, Export and Delete](assets/events_and_absences_event_menu_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
+![The 3-dot menu of a scheduled event offers Edit, Copy, Change to an online meeting, Mark as exam, Absence list and Attendance list, Log, Export and Delete](assets/events_and_absences_event_menu_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
 
 Use the column selection (gear icon) to show further columns. If the module "Rooms" is activated, the column "Rooms" with the booked rooms of the event is available there. It is hidden by default.
 
@@ -140,7 +140,7 @@ Participants reach it via the calendar or the "Events" icon in the toolbar.
 
 **Subjects**: Here you assign the event to one or more terms of a stored taxonomy. This way you find the event faster.
 
-**Teacher**: Select the course coaches who hold the event. For a new event, all course coaches are preselected. Only the selected course coaches can carry out the attendance check. (Only a person who also has the role "Coach" can be added as a teacher.) If a course owner also wants to take on this function, this person must additionally register as a course coach in the course.
+**Teacher**: Select the course coaches who lead the event. For a new event, all course coaches are preselected. Only the selected course coaches can record attendance in the event. (Only a person who also has the role "Coach" can be added as a teacher.) If a course owner also wants to take on this function, this person must additionally register as a course coach in the course.
 
 **Description**: Here you optionally add a description of the event.
 
@@ -196,7 +196,11 @@ The recorded absences are not taken over. The attendance check of the copy is op
 
 ### Import events [:octicons-tag-16:{ title="from Release 13.0 (OO-3666)" }](https://track.frentix.com/issue/OO-3666){:target="_blank"} {: #import_events}
 
-You enter many events at once faster with an Excel file than one by one in the dialog. To do this, click on the small arrow next to the "Add event" button in the "Events" tab and select "Import events". The wizard "Import events from Excel" offers the "Template excel import" for download. Copy the completed rows from the Excel file into the field "Copied columns from Excel (comma separated)".
+You enter many events at once faster with an Excel file than one by one in the dialog. To do this, click on the small arrow next to the "Add event" button in the "Events" tab and select "Import events". The arrow only appears together with the button, that is in a standalone course. If the course is used in the Course Planner, you import the events there: [Creating new events in the Course Planner](../area_modules/Course_Planner_Events.md#create_events)
+
+In the step "Data input", the wizard "Import events from Excel" offers the link "Template excel import" for download. The template is an Excel table with the columns in the order the import requires. The header row is in English. Marked with an asterisk are "External ID", "Title", "Lectures", "Date", "Start", "End", "Compulsory", "Teacher" and "Participants", followed by "Location", "Description", "Preparation" and "Comment". Three sample events show how you specify teachers by e-mail address, username or institution identifier and take participants from the course, from a group or from an element of the Course Planner.
+
+Copy the completed rows without the header row from the Excel file into the field "Copied columns from Excel (comma separated)". The import skips a row without an entry in "Participants" and in the columns after it, without a message. If a row carries the External ID of an existing event, the import updates this event instead of creating a new one. In the step "Overview" you see the events before OpenOlat saves them.
 
 ![The small arrow next to the "Add event" button opens the option "Import events"](assets/events_and_absences_tab_events_import_v1_en.png){ class="shadow lightbox" title="Tab Events in the course administration" }
 
@@ -292,7 +296,7 @@ The number of units the person attended. OpenOlat takes the closed (done) absenc
 
 
 **Not excused**<br>
-Units for which the person is marked as not authorized.
+Units for which the person is marked as not excused.
 
 **Authorized**<br>
 Units for which the person is marked as authorized. A reason can be specified.
@@ -302,7 +306,7 @@ Units for which the person is dispensed. Administrators define in the system adm
 `Administration > Modules > Events / Absences > Tab Configuration`
 
 **Progress**<br>
-The bar shows the attendance graphically. Green stands for attended, orange for authorized, red for absent or not authorized, and blue for dispensed units.
+The bar shows the attendance graphically. Green stands for attended, orange for authorized, red for absent or not excused, and blue for dispensed units.
 
 :o_icon_o_midwarn:<br>
 The attention column with this icon shows whether the defined attendance rate is reached. The red icon :o_icon_o_icon_error: means that the rate is below the required limit. The warning icon :o_icon_o_icon_warning: appears when the rate is less than five percentage points above the limit.

@@ -140,7 +140,7 @@ Teilnehmende erreichen es über den Kalender oder das Icon "Termine" in der Tool
 
 **Fachbereiche**: Hier ordnen Sie den Termin einem oder mehreren Begriffen einer hinterlegten Taxonomie zu. So finden Sie den Termin schneller.
 
-**Dozenten**: Wählen Sie die Kursbetreuer:innen, die den Termin durchführen. Bei einem neuen Termin sind alle Kursbetreuer:innen vorgewählt. Nur die ausgewählten Kursbetreuer:innen können die Anwesenheitskontrolle durchführen. (Als Dozent:in kann nur eine Person hinzugefügt werden, die auch die Rolle "Betreuer:in" besitzt.) Möchte ein:e Kursbesitzer:in ebenfalls diese Funktion übernehmen, muss sich diese Person zusätzlich als Kursbetreuer:in in den Kurs eintragen.
+**Dozenten**: Wählen Sie die Kursbetreuer:innen, die den Termin leiten. Bei einem neuen Termin sind alle Kursbetreuer:innen vorgewählt. Nur die ausgewählten Kursbetreuer:innen können im Termin die Anwesenheit erfassen. (Als Dozent:in kann nur eine Person hinzugefügt werden, die auch die Rolle "Betreuer:in" besitzt.) Möchte ein:e Kursbesitzer:in ebenfalls diese Funktion übernehmen, muss sich diese Person zusätzlich als Kursbetreuer:in in den Kurs eintragen.
 
 **Beschreibung**: Hier fügen Sie optional eine Beschreibung des Termins hinzu.
 
@@ -196,7 +196,11 @@ Nicht übernommen werden die erfassten Absenzen. Die Anwesenheitskontrolle der K
 
 ### Termine importieren [:octicons-tag-16:{ title="ab Release 13.0 (OO-3666)" }](https://track.frentix.com/issue/OO-3666){:target="_blank"} {: #import_events}
 
-Viele Termine auf einmal erfassen Sie schneller mit einer Excel-Datei als einzeln im Dialog. Klicken Sie dazu im Tab "Termine" auf den kleinen Pfeil neben dem Button "Termin hinzufügen" und wählen Sie "Termine importieren". Der Assistent "Termine aus Excel importieren" bietet die "Vorlage Excelimport" zum Herunterladen. Kopieren Sie die ausgefüllten Zeilen aus der Excel-Datei in das Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)".
+Viele Termine auf einmal erfassen Sie schneller mit einer Excel-Datei als einzeln im Dialog. Klicken Sie dazu im Tab "Termine" auf den kleinen Pfeil neben dem Button "Termin hinzufügen" und wählen Sie "Termine importieren". Den Pfeil gibt es nur zusammen mit dem Button, also in einem eigenständigen Kurs. Wird der Kurs im Course Planner verwendet, importieren Sie die Termine dort: [Neue Termine im Course Planner erstellen](../area_modules/Course_Planner_Events.de.md#create_events)
+
+Der Assistent "Termine aus Excel importieren" bietet im Schritt "Dateneingabe" den Link "Vorlage Excelimport" zum Herunterladen. Die Vorlage ist eine Excel-Tabelle mit den Spalten in der Reihenfolge, die der Import verlangt. Die Kopfzeile ist englisch. Mit einem Stern markiert sind "External ID", "Title", "Lectures", "Date", "Start", "End", "Compulsory", "Teacher" und "Participants", danach folgen "Location", "Description", "Preparation" und "Comment". Drei Beispieltermine zeigen, wie Sie Dozent:innen über E-Mail-Adresse, Anmeldename oder Institutionsnummer angeben und Teilnehmende aus dem Kurs, aus einer Gruppe oder aus einem Element des Course Planner übernehmen.
+
+Kopieren Sie die ausgefüllten Zeilen ohne die Kopfzeile aus der Excel-Datei in das Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)". Eine Zeile ohne Eintrag in "Participants" und in den Spalten danach übergeht der Import ohne Meldung. Trägt eine Zeile die External ID eines bestehenden Termins, aktualisiert der Import diesen Termin, statt einen neuen anzulegen. Im Schritt "Übersicht" sehen Sie die Termine, bevor OpenOlat sie speichert.
 
 ![Der kleine Pfeil neben dem Button "Termin hinzufügen" öffnet die Option "Termine importieren"](assets/events_and_absences_tab_events_import_v2_de.png){ class="shadow lightbox" title="Tab Termine in der Kurs-Administration · 2026.10.09" }
 

@@ -1,236 +1,256 @@
 # Question Bank: Import Questions {: #question_bank_import}
 
+Questions that already exist as a file, in a test or in a table do not have to be created again in the question bank: you import them. The question bank shows the "Import" button to authors, question bank managers and administrators, for example above the table under "My questions".
+
 
 ## Import options {: #import_options}
 
-There are three ways to import QTI 2.1 questions into the question bank using the Import button.
+The "Import" button offers three ways to bring questions in the QTI 2.1 format into the question bank.
 
-![Open Import menu with the three import options ZIP-file from local computer, Tests from authoring environment and QTI 2.1 Excel import via copy&paste. Question bank.](assets/question_import_options.png){ class="shadow lightbox" }
+![Open menu of the Import button with three import options: ZIP file, test from the authoring environment and Excel import via copy&paste](assets/question_import_options.png){ class="shadow lightbox" title="Menu of the Import button in the question bank" }
 
-  *  **ZIP-file** from local computer:<br>
-  If you have a set of QTI 2.1 questions or a test available as a .zip file, you can import it here.
+  *  **ZIP-file from local computer**:<br>
+  If you have a set of QTI 2.1 questions or a test as a ZIP file, import the file here.
   *  **Tests from authoring environment**:<br>
-  Select the test you want to import from the available test learning resources. To do this, click on the "Select" link in the corresponding row. All questions of the selected learning resource are then imported directly into the question bank.
-  * QTI 2.1 **Excel import** via copy&paste:<br>
-  Prepare the questions in a spreadsheet program (e.g. Excel). Use the Excel import template that is displayed to you during the import. Then copy the completed Excel table into the form field.
+  The list offers the QTI 2.1 tests that you are allowed to copy. In the row of the test you want, click its title. OpenOlat imports all questions of this test into the question bank.
+  *  **QTI 2.1 Excel import via copy&paste**:<br>
+  You enter the questions in a spreadsheet program such as Excel, following the template that the import provides, and paste the rows into the input field. The next section describes the template.
 
 [To the top of the page ^](#question_bank_import)
 
 
 ## Usage of the file "Excel Import Template" {: #excelimport}
 
-The question import via Excel files allows you to import many questions at once in a simple way. This is also a good way to import questions from other systems that are available in the QTI 2.1 standard.
+With the Excel import you create many questions in one go. You enter the questions row by row in a table, copy the rows and paste them into OpenOlat. OpenOlat creates questions in the QTI 2.1 format from them. This way you can also take over questions from other systems, provided you transfer them into the table first.
 
-Start the Excel import via copy&paste and download the "Excel Import Template". It forms the basis for your further procedure.
+You get the template in the import itself. In the question bank, you start it under:<br>
+`Question bank > My question bank > My questions > Import > QTI 2.1 Excel import via copy&paste`
 
-The Excel template contains four columns:
+In the "Data input" step, the link "Template excel import" is located above the field "Copied columns from Excel (comma separated)". It provides an Excel file with example questions for all ten question types that the Excel import supports, and an example of the metadata of a question. Build your questions according to this pattern.
 
-  a) Keyword/Score: aspect at issue
+The [test editor](../learningresources/Test_editor_QTI_2.1.md) offers the same import with the same template when you add questions directly to a test:<br>
+`Test > Administration > Test editor > Add elements > Import questions from Excel`
 
-  b) Value: the desired value or text
+How to import the questions:
 
-  c) Extra: extra information
+1. Download the template via the link "Template excel import" and enter your questions according to its pattern.
+2. In the table, select the rows of your questions and copy them.
+3. Paste the rows into the field "Copied columns from Excel (comma separated)". OpenOlat reads the rows tab-separated or comma-separated.
+4. Click "Next". The "Overview" step lists the recognized questions with question type, title and points.
+5. Click "Finish".
 
-  d) Explanation: further explanations, e.g. whether this element is optional.
+If OpenOlat cannot process a row, the field names the row number: "Issue with line …".
 
-<br>
+The template is a table with four columns:
 
-The template contains information for importing the following question types:
+Column | Content
+---|---
+Keyword / Punkte | The keyword of the row, for example "Type", "Title" or "Points". In the rows for answers and gaps, this column holds the points.
+Value | The value or text of the row.
+Extra | Additional information for individual question types, for example the gap size for a gap text or the tolerance for a numerical gap text.
+Erklärung | Explanations of the row, for example whether an entry is optional.
 
-  * [MC (Multiple Choice)](#template_mc)
-  * [SC (Single Choice)](#template_sc)
-  * [FIB - Fill in the blank (gap text)](#template_fip)
-  * [Numerical (numerical input)](#template_numerical)
-  * [Inlinechoice (gap text with dropdown)](#template_inlinechoice)
-  * [KPRIM](#template_kprim)
+The template contains examples for the following question types. Before the parentheses is the value you enter in the "Type" row, in the parentheses the name of the question type in OpenOlat. You find more about the question types themselves under [Test question types](../learningresources/Test_question_types.md).
+
+  * [MC (Multiple choice)](#template_mc)
+  * [SC (Single choice)](#template_sc)
+  * [FIB (Gap FIB text)](#template_fip)
+  * [Numerical (Gap FIB numerical)](#template_numerical)
+  * [Inlinechoice (Gap with dropdown)](#template_inlinechoice)
+  * [KPRIM (Kprim)](#template_kprim)
   * [Essay](#template_essay)
-  * [Matrix](#template_matrix)
-  * [Drag&Drop](#template_dragdrop)
-  * [True-False](#template_truefalse)
+  * [Matrix (Match)](#template_matrix)
+  * [Drag&drop (Drag and Drop)](#template_dragdrop)
+  * [Truefalse (True/false)](#template_truefalse)
 
-The questions are each listed one below the other with a separator line. When copying, Excel or a similar program such as OpenOffice or Numbers converts the data into a comma-separated text.
+In the template, the questions are listed one below the other, separated by an empty row. Each new question starts with the "Type" row. The keywords may also be in German, for example "Typ", "Titel", "Frage" or "Punkte". Upper and lower case do not matter.
 
-The options for the question types contained in the template are presented below.
+The following sections describe the rows for each question type.
 
 ---
 
-### Multiple-choice questions {: #template_mc}
+### Multiple choice {: #template_mc}
 
-**type**|MC for multiple-choice
+**Type**|MC
 ---|---
-**title**|Title of the question / topic
-**question**|The question text. Minimal HTML formatting is allowed.
-**max. answers**|Max. number of possible answers.
-**min. answers**|Min. number of possible answers.
-**points**|Maximum achievable score. The minimum score is 0.
+**Title**|Title of the question, for example the subject area
+**Question**|The question text. Simple HTML formatting is allowed.
+**Max answers**|Max. number of possible answers that participants may select
+**Min answers**|Min. number of possible answers that participants must select
+**Points**|Maximum achievable score. The minimum score is 0.
 
-You can create as many answers as you like, each in a separate row. The point values for the individual answers can also be defined, e.g.
+The answers follow, each in its own row: the points in the first column, the answer text in the second. Answers with more than 0 points count as correct; negative points are deducted when this answer is selected. The number of answers is up to you.
 
-![Excel template of a multiple-choice question with type, title, question text, max and min answers, points and seven answers with the point values 1 or -1.](assets/MC_import_Beispiel.png){ class="shadow lightbox" }
+![Multiple-choice question with question text, at most four and at least two answers, 3 points and seven answers, three of them with 1 point and four with -1 point](assets/MC_import_Beispiel.png){ class="shadow lightbox" title="Multiple-choice question in the template" }
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### Single-choice questions {: #template_sc}
+### Single choice {: #template_sc}
 
-**type**|SC for single-choice
+**Type**|SC
 ---|---
-**title**|Title of the question / topic
-**question**|The question text. Minimal HTML formatting is allowed.
-**points**|Maximum achievable score. The minimum score is 0.
-**Points when option is selected, e.g. "1" (correct) or "0" (incorrect)**|Option text. You can specify as many options as you like, each option uses its own row with the respective score.
+**Title**|Title of the question, for example the subject area
+**Question**|The question text. Simple HTML formatting is allowed.
+**Points**|Maximum achievable score. The minimum score is 0.
+
+The answers follow, each in its own row: the points in the first column, the answer text in the second. The correct answer carries more than 0 points, for example "1", the other answers "0". The number of answers is up to you.
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### Gap text questions {: #template_fip}
+### Gap FIB text {: #template_fip}
 
-**type**|FIB for gap text
+**Type**|FIB
 ---|---
-**title**|Title of the question / topic
-**points**|Maximum achievable score. The minimum score is 0.
-**text**|A text element
-**Points when the gap is correct, e.g. "1"**|Correct answer in the gap. Synonyms are separated with ";". Size of the gap and the maximum number of characters, e.g. "10,8".
+**Title**|Title of the question, for example the subject area
+**Points**|Maximum achievable score. The minimum score is 0.
+**Text**|A text part of the question before, between or after the gaps
+**Points of the gap, e.g. "1"**|The solution of the gap. Further correct alternatives follow, separated by ";". The "Extra" column holds the gap size, for example "20".
+
+Text rows and gap rows alternate, in any number.
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### Numerical input {: #template_numerical}
+### Gap FIB numerical [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5573)" }](https://track.frentix.com/issue/OO-5573) {: #template_numerical}
 
-**type**|Numerical for numerical input
+**Type**|Numerical
 ---|---
-**title**|Title of the question / topic
-**points**|Maximum achievable score. The minimum score is 0.
-**text**|A text element, the question
-**Points when the gap is correct, e.g. "1"**|Correct answer in the gap. Synonyms are separated with ";".
+**Title**|Title of the question, for example the subject area
+**Points**|Maximum achievable score. The minimum score is 0.
+**Text**|A text part of the question, for example the question itself
+**Points of the gap, e.g. "1"**|The solution as a number. For a tolerance, enter "solution;lower bound;upper bound" here and "absolute" or "relative" in the "Extra" column.
 
-Example:
+Without bounds, only the exact solution counts. With "absolute", the bounds are numbers: "1.41;1.40;1.42" accepts all values between 1.40 and 1.42. With "relative", the bounds are percentages: "20;10;10" accepts all values between 18 and 22.
 
-![Excel template of a numerical question with three text elements, each with a solution with point value and the tolerance absolute or relative in the Extra column.](assets/Numerical_Import_Beispiel.png){ class="shadow lightbox" }
+![Numerical gap text with three gaps: the exact solution 42, one solution with absolute and one with relative tolerance in the Extra column](assets/Numerical_Import_Beispiel.png){ class="shadow lightbox" title="Numerical gap text in the template" }
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### Gap text with dropdown {: #template_inlinechoice}
+### Gap with dropdown {: #template_inlinechoice}
 
-**type**|Inlinechoice for gap text with dropdown
+**Type**|Inlinechoice
 ---|---
-**title**|Title of the question / topic
-**Question**|Question or first text element of the question
-**points**|Maximum achievable score. The minimum score is 0.
-**text**|Text elements with further parts of the question or intermediate texts before and after the gaps.
-**Points when the gap is correct, e.g. "1"**|The optional answers of the dropdown list, separated. The correct answer is entered in the following column.
+**Title**|Title of the question, for example the subject area
+**Question**|The question or the first text part of the question
+**Points**|Maximum achievable score. The minimum score is 0.
+**Text**|A text part of the question before, between or after the gaps
+**Points of the gap, e.g. "1"**|The answer options of the dropdown, separated by ";". The "Extra" column holds the solution.
 
-Example:
+If another character is to separate the answer options, enter it in the fourth column. The template uses "|" for this and therefore places the explanations for this question type in the fifth column.
 
-![Excel template of a gap text with dropdown: text elements alternating with answer lists, the options separated by vertical bars, the correct answer in the following column.](assets/Inlinechoice_Import_Beispiel.png){ class="shadow lightbox" }
+![Gap with dropdown: text parts alternating with rows for the gaps, the answer options separated by vertical bars, the solution in the column next to them](assets/Inlinechoice_Import_Beispiel.png){ class="shadow lightbox" title="Gap with dropdown in the template" }
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### KPRIM questions {: #template_kprim}
+### Kprim [:octicons-tag-16:{ title="from Release 11.2 (OO-2364)" }](https://track.frentix.com/issue/OO-2364) {: #template_kprim}
 
-**type**|KPRIM
+**Type**|KPRIM
 ---|---
-**title**|Title of the question / topic
-**question**|Question text
-**points**|Maximum achievable score. The minimum score is 0.
+**Title**|Title of the question, for example the subject area
+**Question**|The question text
+**Points**|Maximum achievable score. The minimum score is 0.
 +|correct answer
 -|incorrect answer
 -|incorrect answer
 +|correct answer
 
-Correct answers are therefore marked with **+** and incorrect answers with **-**.
+A Kprim question has exactly four answers. Correct answers carry a "+" in the first column, incorrect answers a "-". OpenOlat does not take over further answer rows.
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### Essay questions {: #template_essay}
+### Essay [:octicons-tag-16:{ title="from Release 12.3 (OO-3174)" }](https://track.frentix.com/issue/OO-3174) {: #template_essay}
 
-**type**|ESSAY
+**Type**|ESSAY
 ---|---
-**title**|Title of the question / topic
-**question**|Question text
-**points**|Maximum achievable score. The minimum score is 0.
-**min**|Minimum number of words
-**max**|Maximum number of words
+**Title**|Title of the question, for example the subject area
+**Question**|The question text
+**Points**|Maximum achievable score. The minimum score is 0.
+**Min**|Minimum number of words of the answer
+**Max**|Maximum number of words of the answer
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### Matrix questions {: #template_matrix}
+### Match {: #template_matrix}
 
-**type**|MATRIX
+**Type**|MATRIX
 ---|---
-**title**|Title of the question / topic
-**question**|Question text
-**points**|Maximum achievable score. The minimum score is 0.
+**Title**|Title of the question, for example the subject area
+**Question**|The question text
+**Points**|Maximum achievable score. The minimum score is 0.
 
-The matrix itself is distributed across the columns and rows. The corresponding points are entered in the appropriate field.
-Here is an example with 3 columns and 3 rows:
+The matrix follows. In its first row, the first column remains empty and the other columns hold the column titles. Each following row starts with the row title, followed by the points for each column. An assignment with more than 0 points counts as correct. An example with three columns and three rows:
 
-![Excel template of a matrix question Capitals of Europe with the columns Germany, France and Switzerland and the rows Berlin, Bern and Paris, the point value 1 stands at the correct assignments.](assets/Matrix_Import_Beispiel.png){ class="shadow lightbox" }
+![Match question with the columns Germany, France and Switzerland and the rows Berlin, Bern and Paris, 1 point for the correct assignments](assets/Matrix_Import_Beispiel.png){ class="shadow lightbox" title="Match question in the template" }
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### Drag & Drop questions {: #template_dragdrop}
+### Drag and Drop {: #template_dragdrop}
 
-**type**|Drag & drop
+**Type**|Drag&drop
 ---|---
-**title**|Title of the question / topic
-**question**|Question text
-**points**|Maximum achievable score. The minimum score is 0.
+**Title**|Title of the question, for example the subject area
+**Question**|The question text
+**Points**|Maximum achievable score. The minimum score is 0.
 
-The implementation in the Excel template is similar to matrix questions and is spread over several columns and rows. The corresponding points are entered in the appropriate field. Here is an example with 3 columns and 3 rows:
+The following rows are structured like those of the match question: one row with the column titles, then for each row the row title and the points for each column. An example with three columns and three rows:
 
-![Excel template of a drag-and-drop question Capitals of Africa with three countries as columns and three cities as rows, the point value 1 stands at the correct assignments.](assets/dad_Import_Beispiel.png){ class="shadow lightbox" }
+![Drag and Drop question with the columns Algeria, Kenya and Namibia and the rows Nairobi, Windhoek and Algiers, 1 point for the correct assignments](assets/dad_Import_Beispiel.png){ class="shadow lightbox" title="Drag and Drop question in the template" }
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
-### TrueFalse questions {: #template_truefalse}
+### True/false {: #template_truefalse}
 
-**type**|Truefalse
+**Type**|Truefalse
 ---|---
-**title**|Title of the question / topic
-**question**|Question text
-**points**|Maximum achievable score. The minimum score is 0.
+**Title**|Title of the question, for example the subject area
+**Question**|The question text
+**Points**|Maximum achievable score. The minimum score is 0.
 
-Column **Unanswered**: Points that are awarded or deducted if the participants do not make a decision.
+The template then shows a header row with the columns "Unanswered", "Right" and "Wrong". Each further row starts with a statement, followed by the points in this fixed order:
 
-Column **Right**: Points that are awarded if the participants select the answer "Right".
+Column | Points if participants …
+---|---
+Unanswered | do not answer the statement ("Unanswered"). A deduction is also possible.
+Right | select "Right"
+Wrong | select "Wrong"
 
-Column **Wrong**: Points that are awarded if the participants select the answer "Wrong".
+The answer with more than 0 points counts as correct.
 
-Example:
-
-![Excel template of a true-false question Capitals of Europe with the columns Unanswered, Right and Wrong and three statements with their point values.](assets/truefalse_Import_Beispiel.png){ class="shadow lightbox" }
+![True/false question with three statements and the point columns Unanswered, Right and Wrong](assets/truefalse_Import_Beispiel.png){ class="shadow lightbox" title="True/false question in the template" }
 
 [To the top of the page ^](#question_bank_import)
 
 ---
 
 !!! info "Important"
-
-    In addition to the listed fields, there are other optional fields such as "Topic", "Keywords", "License", etc. For more details, see the provided file "Excel Import Template".
+    In addition to the listed rows, the template knows optional rows for feedback and metadata, for example "Hint", "Correct solution", "Feedback correct answer", "Topic", "Keywords" or "License". The template shows them in the first gap text example, and you can add them to every question type. The "Erklärung" column states for each of these rows whether it applies only in the question bank.
 
 
 ## Further information {: #further_information}
 
-[Create questions >](Question_Bank_Create_Questions.md)<br>
+[Test editor >](../learningresources/Test_editor_QTI_2.1.md)<br>
+[Test question types >](../learningresources/Test_question_types.md)<br>
+[Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
 [Item Detailed View >](Item_Detailed_View.md)<br>
-[Details about the review process >](Question_Bank_Review_Process.md)<br>
-[Details about sharing >](Question_Pool_Sharing_Options.md)<br>
-[Instructions for creating the test >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
+[Question Bank Review Process >](Question_Bank_Review_Process.md)<br>
+[Question Bank: Sharing Options >](Question_Pool_Sharing_Options.md)<br>
+[How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
 [To the top of the page ^](#question_bank_import)
