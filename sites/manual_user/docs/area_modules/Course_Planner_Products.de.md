@@ -174,6 +174,7 @@ Hat ein Kurs schon Betreuer:innen oder Teilnehmer:innen, lässt sich der Verwend
 [Course Planner: To-dos >](../../manual_user/area_modules/Course_Planner_Todos.de.md)<br>
 [Coaching - Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
-[Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)
+[Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Importvorlagen >](../basic_concepts/Import_Templates.de.md)
 
 [zum Seitenanfang ^](#products)

@@ -255,6 +255,7 @@ Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung un
 [Externe Werkzeuge: KI-Modul >](External_Tools_AI.de.md)
 
 **Weiterführend**<br>
-[Modul Course Planner >](Modules_Course_Planner.de.md)
+[Modul Course Planner >](Modules_Course_Planner.de.md)<br>
+[Importvorlagen >](../../manual_user/basic_concepts/Import_Templates.de.md)
 
 [Zum Seitenanfang ^](#module_taxonomy)

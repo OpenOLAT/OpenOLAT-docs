@@ -224,6 +224,7 @@ The table shows the memberships from the "Memberships" sheet with the references
 **Further reading**<br>
 [Course Planner: Overview >](Course_Planner.md)<br>
 [Course Planner: Products >](Course_Planner_Products.md)<br>
-[Course Planner: Implementations >](Course_Planner_Implementations.md)
+[Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
+[Import templates >](../basic_concepts/Import_Templates.md)
 
 [To the top of the page ^](#import_export)

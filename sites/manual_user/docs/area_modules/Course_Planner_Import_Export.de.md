@@ -224,6 +224,7 @@ Die Tabelle zeigt die Mitgliedschaften aus dem Sheet "Mitgliedschaft" mit den Ke
 **Weiterführend**<br>
 [Course Planner: Übersicht >](Course_Planner.de.md)<br>
 [Course Planner: Produkte >](Course_Planner_Products.de.md)<br>
-[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)
+[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
+[Importvorlagen >](../basic_concepts/Import_Templates.de.md)
 
 [zum Seitenanfang ^](#import_export)

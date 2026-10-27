@@ -170,6 +170,7 @@ If a course already has coaches or participants, its usage can no longer be chan
 [Course Planner: To-dos >](../../manual_user/area_modules/Course_Planner_Todos.md)<br>
 [Coaching - Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [How do I plan and run a product with several courses with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)
+[Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Import templates >](../basic_concepts/Import_Templates.md)
 
 [To the top of the page ^](#products)

@@ -245,12 +245,16 @@ The answer with more than 0 points counts as correct.
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Test editor >](../learningresources/Test_editor_QTI_2.1.md)<br>
-[Test question types >](../learningresources/Test_question_types.md)<br>
+[Test question types >](../learningresources/Test_question_types.md)
+
+**Further reading**<br>
 [Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
 [Item Detailed View >](Item_Detailed_View.md)<br>
 [Question Bank Review Process >](Question_Bank_Review_Process.md)<br>
 [Question Bank: Sharing Options >](Question_Pool_Sharing_Options.md)<br>
-[How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
+[How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
+[Import templates >](../basic_concepts/Import_Templates.md)
 
 [To the top of the page ^](#question_bank_import)

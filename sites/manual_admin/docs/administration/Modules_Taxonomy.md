@@ -251,6 +251,7 @@ If the field "Subjects" stays empty although the AI has generated title, descrip
 [External tools: AI module >](External_Tools_AI.md)
 
 **Further reading**<br>
-[Module Course Planner >](Modules_Course_Planner.md)
+[Module Course Planner >](Modules_Course_Planner.md)<br>
+[Import templates >](../../manual_user/basic_concepts/Import_Templates.md)
 
 [To the top of the page ^](#module_taxonomy)

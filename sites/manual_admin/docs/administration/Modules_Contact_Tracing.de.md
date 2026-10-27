@@ -46,7 +46,8 @@ Im Schritt "Vorschau der Standorte" wählen Sie die Standorte aus, die Sie impor
 ## Weiterführende Informationen {: #further_information}
 
 **Weiterführend**<br>
-[Module: Übersicht >](Modules.de.md)
+[Module: Übersicht >](Modules.de.md)<br>
+[Importvorlagen >](../../manual_user/basic_concepts/Import_Templates.de.md)
 
 **youtube**<br>
 [Kontaktverfolgung im Praxiseinsatz](<https://www.youtube.com/embed/4fO16U6iaiU>)

@@ -504,7 +504,8 @@ If the course owners allow withdrawing, you withdraw from a topic with "Withdraw
 
 [Course element "Topic Assignment" >](../learningresources/Course_Element_Topic_Assignment.md)<br>
 [Course element "Enrolment" >](../learningresources/Course_Element_Enrolment.md)<br>
-[Course element "Selection" >](../learningresources/Course_Element_Selection.md)
+[Course element "Selection" >](../learningresources/Course_Element_Selection.md)<br>
+[Import templates >](../basic_concepts/Import_Templates.md)
 
 [To the top of the page ^](#topic_broker)
 

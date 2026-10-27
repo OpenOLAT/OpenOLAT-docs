@@ -364,7 +364,8 @@ In der Regel bearbeiten Absenzenverwalter:innen die Rekurse, und zwar für alle 
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
 [Coaching - Termine und Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
-[Modul Räume >](../../manual_admin/administration/Modules_Rooms.de.md)
+[Modul Räume >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Importvorlagen >](../basic_concepts/Import_Templates.de.md)
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 

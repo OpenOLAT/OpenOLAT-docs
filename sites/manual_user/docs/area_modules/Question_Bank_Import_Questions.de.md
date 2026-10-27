@@ -245,12 +245,16 @@ Die Antwort mit mehr als 0 Punkten gilt als richtig.
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Testeditor >](../learningresources/Test_editor_QTI_2.1.de.md)<br>
-[Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
+[Test Fragetypen >](../learningresources/Test_question_types.de.md)
+
+**Weiterführend**<br>
 [Fragenpool: Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
 [Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
 [Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Fragenpool: Freigabemöglichkeiten >](Question_Pool_Sharing_Options.de.md)<br>
-[Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
+[Importvorlagen >](../basic_concepts/Import_Templates.de.md)
 
 [Zum Seitenanfang ^](#question_bank_import)

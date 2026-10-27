@@ -94,6 +94,7 @@ When deleting, OpenOlat replaces the username with an anonymous identifier and e
 **Further reading**<br>
 [Login: Overview >](../administration/Login.md)<br>
 [Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
-[Data protection >](Data_protection.md)
+[Data protection >](Data_protection.md)<br>
+[Import templates >](../../manual_user/basic_concepts/Import_Templates.md)
 
 [To the top of the page ^](#create_user)

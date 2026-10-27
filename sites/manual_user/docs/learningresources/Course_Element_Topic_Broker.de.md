@@ -502,7 +502,8 @@ Erlauben die Kursbesitzer:innen das Zurückziehen, tragen Sie sich bis zur angez
 
 [Kursbaustein "Themenvergabe" >](../learningresources/Course_Element_Topic_Assignment.de.md)<br>
 [Kursbaustein "Einschreibung" >](../learningresources/Course_Element_Enrolment.de.md)<br>
-[Kursbaustein "Auswahl" >](../learningresources/Course_Element_Selection.de.md)
+[Kursbaustein "Auswahl" >](../learningresources/Course_Element_Selection.de.md)<br>
+[Importvorlagen >](../basic_concepts/Import_Templates.de.md)
 
 [zum Seitenanfang ^](#topic_broker)
 
