@@ -7,7 +7,7 @@ Dadurch stellt sich die Frage, an welcher Stelle im Katalog die Angebote angezei
 
 ## Sortierung/Reihenfolge auf der Startseite des Katalogs {: #sorting_startpage}
 
-Auf der **Startseite** des Katalogs wird die Reihenfolge der Objekte durch die Launcher bestimmt. Als Launcher werden die Abschnitte bezeichnet.
+Auf der Startseite des Katalogs wird die Reihenfolge der Objekte durch die Launcher bestimmt. Als Launcher werden die Abschnitte bezeichnet.
 
 ![Jeder Launcher ist ein eigener Abschnitt der Startseite, hier eine Taxonomieebene mit ihren Kategorien und darunter ausgewählte Lernressourcen](assets/catalog20_sort_offers_startpage_v2_de.png){ class="shadow lightbox" title="Startseite des Katalogs · 2026.09.28" }
 
@@ -40,7 +40,7 @@ Innerhalb eines Launcher hängt die Reihenfolge der Angebote vom Launchertyp ab:
 
 
 **Launchertyp "Statischer Text":**<br>
-Es erfolgt keine automatische Sortierung.
+OpenOlat sortiert die Inhalte nicht automatisch.
 
 **Launchertyp "Beliebte Kurse":**<br>
 Die Reihenfolge der Angebote wird durch die Anzahl der Klicks auf Kursbausteine während der letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status "Veröffentlicht" berücksichtigt.
@@ -49,11 +49,11 @@ Die Reihenfolge der Angebote wird durch die Anzahl der Klicks auf Kursbausteine 
 Die Angebote sind nach Veröffentlichungsdatum geordnet.
 
 **Launchertyp "Zufallsgenerator":**<br>
-Zufallsreihenfolge
+Die Angebote erscheinen in zufälliger Reihenfolge.
 
 **Launchertyp "Taxonomieebene":**<br>
-In einem Launcher vom Typ "Taxonomielevel" werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomielevel entsprechen vielmehr Ordnern, in denen dann erst die Kurse und Lernressourcen zu finden sind.<br>
-Die Angebote werden nach der Taxonomie automatisch ausgewählt und dann alphabetisch geordnet in einer Microsite aufgelistet, die sich beim Klick auf einen der Taxonomielevel in einem Taxonomie-Launcher öffnet.
+Ein Launcher vom Typ "Taxonomieebene" zeigt keine Kurse und Lernressourcen direkt. Die angezeigten Taxonomieebenen entsprechen Ordnern, in denen erst die Kurse und Lernressourcen zu finden sind.<br>
+Die Angebote werden nach der Taxonomie automatisch ausgewählt und dann alphabetisch geordnet in einer Microsite aufgelistet, die sich beim Klick auf eine der Taxonomieebenen in einem Taxonomie-Launcher öffnet.
 
 **Launchertyp "Ausgewählte Lernressourcen":**<br>
 Die manuell hinzugefügten Lernressourcen können durch Klick auf Doppelpfeile vor den Einträgen geordnet werden.
@@ -100,7 +100,7 @@ Beispiel: Taxonomiestruktur für den vorstehend angezeigten Taxonomie-Launcher:
 
 ### Sortierreihenfolge selbst wählen {: #sorting_microsites_button}
 
-Über der Liste einer Kategorie sitzt rechts oben der Sortier-Button. Er trägt immer das aktive Kriterium als Beschriftung, das Pfeilsymbol zeigt die Richtung. Ein Klick öffnet die Liste **"Sortierreihenfolge"**.
+Über der Liste einer Kategorie sitzt rechts oben der Sortier-Button. Er trägt immer das aktive Kriterium als Beschriftung, das Pfeilsymbol zeigt die Richtung. Ein Klick öffnet die Liste "Sortierreihenfolge".
 
 ![Sortier-Button Relevanz und offene Liste Sortierreihenfolge mit allen Kriterien](assets/catalog20_sort_offers_microsites_sort_button_v1_de.png){ class="shadow lightbox" title="Tabellenansicht einer Katalogkategorie" }
 
@@ -109,8 +109,8 @@ Zur Auswahl stehen "Relevanz" sowie alle sortierbaren Spalten der Liste, darunte
 !!! info "Wichtig"
     Der Sortier-Button erscheint nur, wenn die "Sortierung nach Priorität" aktiviert ist. Ohne diese Einstellung ist die Liste fest nach dem Titel aufsteigend sortiert und lässt sich nur über die Spaltentitel umsortieren. Die Aktivierung beschreibt der Abschnitt [Sortierung nach Priorität](#sorting_microsites_by_priority).
 
-!!! note "Modul Zeitabschnitte"
-    Die Spalte "Zeitabschnitt" erscheint in der Liste, sobald die Systemadministration das Modul "Zeitabschnitte" eingeschaltet hat.<br>
+!!! info "Modul Zeitabschnitte"
+    Die Spalten "Zeitabschnitt" und "Zeitabschnitt Beschr." erscheinen in der Liste, sobald Administrator:innen das Modul "Zeitabschnitte" eingeschaltet haben. Die Spalten "Beginn" und "Ende" stehen unabhängig davon zur Verfügung. [:octicons-tag-16:{ title="ab Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}<br>
     [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)
 
 [Zum Seitenanfang ^](#catalog_sort)
@@ -120,7 +120,7 @@ Zur Auswahl stehen "Relevanz" sowie alle sortierbaren Spalten der Liste, darunte
 
 ### Sortierung über die Spaltentitel [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"} {: #sorting_microsites_lists}
 
-Wie in allen Listen in OpenOlat, können auch die Angebote des Katalogs durch **Klick auf einen Spaltentitel** sortiert werden.
+Wie in allen Listen in OpenOlat, können auch die Angebote des Katalogs durch Klick auf einen Spaltentitel sortiert werden.
 
 !!! note "Hinweis"
     Die Spalte "Zeitabschnitt" sortiert chronologisch nach dem Zeitrahmen und nicht alphabetisch nach der Kurzbezeichnung: zuerst nach dem Beginndatum, dann nach dem Enddatum, zuletzt nach dem Titel. Einträge ohne Zeitabschnitt erscheinen immer am Ende der Liste.
@@ -156,7 +156,7 @@ Ist kein Datum angegeben, werden die Einträge ohne Datum nach denen mit Datum a
 
 ### Wo kann die Priorität eingestellt werden? [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"} {: #sorting_microsites_define_priority}
 
-Die Priorität legen Sie beim Angebot fest, im Abschnitt **Einstellungen** unter der Übersicht der Angebote. Die Zeile **Katalog-Priorität bei Sortierung** zeigt den aktuellen Wert, der Button **Bearbeiten** daneben öffnet den Dialog **Priorität anpassen**.
+Die Priorität legen Sie beim Angebot fest, im Abschnitt "Einstellungen" unter der Übersicht der Angebote. Die Zeile "Katalog-Priorität bei Sortierung" zeigt den aktuellen Wert, der Button "Bearbeiten" daneben öffnet den Dialog "Priorität anpassen".
 
 **Im Kurs:**<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Einstellungen" > Zeile "Katalog-Priorität bei Sortierung" > Button "Bearbeiten"`
@@ -164,7 +164,7 @@ Die Priorität legen Sie beim Angebot fest, im Abschnitt **Einstellungen** unter
 **Im Course Planner:**<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Angebote > Abschnitt "Einstellungen" > Zeile "Katalog-Priorität bei Sortierung" > Button "Bearbeiten"`
 
-Bei einer Durchführung enthält der Abschnitt zusätzlich die Einstellung **Buchung**, die das [Handbuch zu den Durchführungen](Course_Planner_Implementations.de.md#tab_catalog_settings) beschreibt.
+Bei einer Durchführung enthält der Abschnitt zusätzlich die Einstellung "Buchung", die das [Handbuch zu den Durchführungen](Course_Planner_Implementations.de.md#tab_catalog_settings) beschreibt.
 
 Beispiel Course Planner:
 
@@ -178,7 +178,7 @@ Beispiel Course Planner:
 ### Welche Prioritäten können gesetzt werden? {: #sorting_microsites_priorities}
 
 Als Priorität kann ein voreingestellter Boost-Wert gewählt oder ein eigener Boost-Wert eingegeben werden.
-Je höher der Boost-Wert, umso weiter vorne wird ein Angebot im Katalog angezeigt. Mit eigenen benutzerdefinierten Boost-Werten kann eine Feinjustierung in der Anzeigereihenfolge vorgenommen werden.
+Je höher der Boost-Wert, umso weiter vorne wird ein Angebot im Katalog angezeigt. Mit eigenen Boost-Werten justieren Sie die Anzeigereihenfolge fein.
 
 - Normal (Boost-Wert 0)
 - Mittel (Boost-Wert 1000)
@@ -201,12 +201,12 @@ Je höher der Boost-Wert, umso weiter vorne wird ein Angebot im Katalog angezeig
 
 ## Weiterführende Informationen {: #further_information}
 
-[Wie zeige ich meine Kurse im Katalog? >](../../manual_how-to/catalog/catalog.de.md)<br>
-[Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
-[Design >](../../manual_user/area_modules/catalog2.0_design.de.md)<br>
-[Externer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
-[Aktivierung der Prioritäten in der Administration >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
+[Wie zeige ich meine Kurse im OpenOlat-Katalog? >](../../manual_how-to/catalog/catalog.de.md)<br>
+[Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
 [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
-[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)
+[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
+[Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
+[Katalog 2.0 - Design >](../../manual_user/area_modules/catalog2.0_design.de.md)<br>
+[Extern verfügbarer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)
 
 [Zum Seitenanfang ^](#catalog_sort)

@@ -6,7 +6,7 @@ Der Menüpunkt "Kurse" bietet Ihnen den Zugang zu den für Sie zugänglichen Kur
 
 ## Meine Kurse
 
-Unter "Meine Kurse" können Sie sich standardmässig alle Kurse und Lernressourcen anzeigen lassen die aktiv oder beendet sind. Sie können auch Favoriten markieren und sich nur die Favoriten anzeigen lassen. Oder Sie nutzen die Suche um einen Kurs bzw. eine Lernressource basierend auf einem Stichwort zu finden.
+Unter "Meine Kurse" können Sie sich standardmässig alle Kurse und Lernressourcen anzeigen lassen, die aktiv oder beendet sind. Sie können auch Favoriten markieren und sich nur die Favoriten anzeigen lassen. Oder Sie nutzen die Suche, um einen Kurs bzw. eine Lernressource basierend auf einem Stichwort zu finden.
 
 Lernressourcen, bei denen Sie Betreuer:in oder Besitzer:in sind, finden Sie im Bereich "Coaching". Unter "Meine Kurse" finden Sie Lernressourcen, bei denen Sie selbst als Teilnehmer:in eingetragen sind. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576)
 
@@ -21,16 +21,16 @@ Filter lassen sich kombinieren. Eine Kombination, die Sie öfter brauchen, speic
 
 ### Filtern nach Durchführungszeitraum [:octicons-tag-16:{ title="ab Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
 
-Die verfügbaren Durchführungszeiträume stellt die Systemadministration über das Modul "Zeitabschnitte" bereit. Den Durchführungszeitraum können Sie auch als Sortierkriterium wählen. Klicken Sie dazu auf den Button rechts oben über der Liste und wählen Sie in der Liste "Sortierreihenfolge" den Eintrag "Durchführungszeitraum". Dieselbe Liste bietet weitere Kriterien, etwa "Relevanz", "Zuletzt besucht", "Fortschritt" oder "Titel". Der Button trägt immer das aktive Kriterium als Beschriftung, das Pfeilsymbol zeigt die Richtung.
+Der Filter "Durchführungszeitraum" zeigt die Kurse, deren Durchführungszeitraum "Aktuell", "Zukünftig" oder "Vergangen" ist. Den Durchführungszeitraum können Sie auch als Sortierkriterium wählen. Klicken Sie dazu auf den Button rechts oben über der Liste und wählen Sie in der Liste "Sortierreihenfolge" den Eintrag "Durchführungszeitraum". Dieselbe Liste bietet weitere Kriterien, etwa "Relevanz", "Zuletzt besucht", "Fortschritt" oder "Titel". Der Button trägt immer das aktive Kriterium als Beschriftung, das Pfeilsymbol zeigt die Richtung.
 
 ![Markierter Sortier-Button mit dem aktiven Kriterium Durchführungszeitraum, darunter die offene Liste Sortierreihenfolge](assets/courses_sort_order_v1_de.png){ class="shadow lightbox" title="Bereich Meine Kurse im Menü Kurse · 2026.10.02" }
 
 !!! info "Wichtig"
-    Die Sortierung nach Durchführungszeitraum erfolgt chronologisch nach dem **Zeitrahmen** und nicht alphabetisch nach der Bezeichnung: zuerst nach dem Beginndatum, ohne Beginndatum nach dem Enddatum. Innerhalb desselben Zeitraums wird alphabetisch sortiert. Kurse ohne Durchführungszeitraum erscheinen immer am Ende der Liste.
+    Nach dem Durchführungszeitraum sortiert die Liste chronologisch nach dem Beginndatum und nicht alphabetisch nach der Bezeichnung. Bei gleichem Beginndatum sortiert sie alphabetisch nach dem Titel. Kurse ohne Beginndatum, also auch Kurse ohne Durchführungszeitraum, erscheinen immer am Ende der Liste.
 
 Wie Administrator:innen die Zeitabschnitte verwalten, beschreibt die Seite [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md). Wie Sie Ihre Ansicht filtern, lesen Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
-Die Kurse lassen sich in der Tabellen- oder in der Listenansicht anzeigen.
+Die Kurse lassen sich in der Tabellen- oder in der Listenansicht anzeigen. In der Tabellenansicht zeigen die Spalten "Beginn" und "Ende", wann ein Kurs stattfindet. Über das Zahnrad "Spalten auswählen" blenden Sie die beiden Spalten ein oder aus, auch wenn Ihre Organisation das Modul "Zeitabschnitte" nicht nutzt. Die Spalten "Zeitabschnitt" und "Zeitabschnitt Beschr." erscheinen dagegen nur, wenn Administrator:innen das Modul eingeschaltet haben. [:octicons-tag-16:{ title="ab Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}
 
 ### Suchen
 
@@ -79,9 +79,9 @@ Besitzer:innen öffnen den Kurs bereits im Status "Vorbereitung", Betreuer:innen
 
 [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
-[Course Planner >](../area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
-[Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)
+[Coaching - Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)
 
 **youtube**<br>
 [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>)

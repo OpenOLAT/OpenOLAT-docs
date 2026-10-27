@@ -7,7 +7,7 @@ This raises the question of where in the catalog the offers are displayed.
 
 ## Sorting/order on the catalog start page {: #sorting_startpage}
 
-On the **home page** of the catalog, the order of the objects is determined by the launchers. The sections are referred to as launchers.
+On the start page of the catalog, the order of the objects is determined by the launchers. The sections are referred to as launchers.
 
 ![Each launcher is a section of its own on the start page, here a taxonomy level with its categories and below it selected learning resources](assets/catalog20_sort_offers_startpage_v2_en.png){ class="shadow lightbox" title="Start page of the catalog · 2026.09.28" }
 
@@ -40,7 +40,7 @@ Within a launcher, the order of the offers depends on the launcher type:
 
 
 **Launcher type "Static text":**<br>
-There is no automatic sorting.
+OpenOlat does not sort the contents automatically.
 
 **Launcher type "Popular courses":**<br>
 The order of the offers is determined by the number of clicks on course components during the last 28 days. Only courses with the status "Published" are taken into account.
@@ -49,11 +49,11 @@ The order of the offers is determined by the number of clicks on course componen
 The order of offers is determined by publishing date.
 
 **Launcher type "Random":**<br>
-Random order.
+The offers appear in random order.
 
 **Launcher type "Taxonomy level":**<br>
-In a “Taxonomy Level” launcher, courses and learning resources are not displayed directly; rather, the taxonomy levels shown correspond to folders where the courses and learning resources can be found.<br>
-The offerings are automatically selected based on the taxonomy and then listed alphabetically on a microsite that opens when you click on one of the taxonomy levels in a taxonomy launcher.
+A launcher of the type "Taxonomy level" does not show courses and learning resources directly. The taxonomy levels shown correspond to folders in which the courses and learning resources are found.<br>
+The offers are automatically selected based on the taxonomy and then listed alphabetically on a microsite that opens when you click on one of the taxonomy levels in a taxonomy launcher.
 
 **Launcher type "Selected learning resources":**<br>
 The manually added learning resources can be sorted by clicking on the double arrows in front of the entries.
@@ -100,7 +100,7 @@ Example: Taxonomy structure for the taxonomy launcher displayed above:
 
 ### Choosing the sort order {: #sorting_microsites_button}
 
-The sort button sits at the top right above the list of a category. It always carries the active criterion as its label, and the arrow symbol shows the direction. A click opens the list **"Sorted by"**.
+The sort button sits at the top right above the list of a category. It always carries the active criterion as its label, and the arrow symbol shows the direction. A click opens the list "Sorted by".
 
 ![Sort button Relevance and the open Sorted by list with all criteria](assets/catalog20_sort_offers_microsites_sort_button_v1_de.png){ class="shadow lightbox" title="Table view of a catalog category" }
 
@@ -109,8 +109,8 @@ The sort button sits at the top right above the list of a category. It always ca
 !!! info "Important"
     The sort button only appears when "Sorting by priority" is activated. Without this setting the list is sorted by title in ascending order and can only be re-sorted through the column titles. The section [Sorting by priority](#sorting_microsites_by_priority) describes the activation.
 
-!!! note "Module Time periods"
-    The "Time period" column appears in the list as soon as the system administration has switched on the "Time periods" module.<br>
+!!! info "Module Time periods"
+    The columns "Time period" and "Time period desc." appear in the list as soon as administrators have switched on the "Time periods" module. The columns "Begin" and "End" are available regardless of it. [:octicons-tag-16:{ title="from Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}<br>
     [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)
 
 [To the top of the page ^](#catalog_sort)
@@ -120,7 +120,7 @@ The sort button sits at the top right above the list of a category. It always ca
 
 ### Sorting through the column titles [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9218)" }](https://track.frentix.com/issue/OO-9218){:target="_blank"} {: #sorting_microsites_lists}
 
-As with all lists in OpenOlat, the offerings in the catalog can also be sorted by **clicking on a column title**.
+As with all lists in OpenOlat, the offerings in the catalog can also be sorted by clicking on a column title.
 
 !!! note "Note"
     The "Time period" column sorts chronologically by the time frame and not alphabetically by the short label: first by the begin date, then by the end date, and finally by the title. Entries without a time period always appear at the end of the list.
@@ -141,7 +141,7 @@ The sort button then appears at the top right above a list. Its default criterio
 
 ![Sort button with the default criterion Relevance above an offer list](assets/catalog20_sort_offers_microsites_button_relevance_v1_de.png){ class="shadow lightbox" title="Tile view of a catalog category" }
 
-When "Sort by Priority" is selected, a multi-stage sorting process takes place:<br>
+When "Sorting by relevance" is selected, a multi-stage sorting takes place:<br>
 1. Criterion: Sorting by priority<br>
 2. Criterion: Sorting by start date<br>
 3. Criterion: Sorting by end date<br>
@@ -156,7 +156,7 @@ If no date is specified, entries without a date are displayed after those with a
 
 ### Where can I set priorities? [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"} {: #sorting_microsites_define_priority}
 
-You set the priority with the offer, in the **Settings** section below the overview of the offers. The row **Catalog priority when sorting** shows the current value, the **Edit** button next to it opens the **Change priority** dialog.
+You set the priority with the offer, in the "Settings" section below the overview of the offers. The row "Catalog priority when sorting" shows the current value, the "Edit" button next to it opens the "Change priority" dialog.
 
 **In a course:**<br>
 `Course > Administration > Settings > Tab "Share" > Section "Settings" > Row "Catalog priority when sorting" > Button "Edit"`
@@ -164,7 +164,7 @@ You set the priority with the offer, in the **Settings** section below the overv
 **In the Course Planner:**<br>
 `Course Planner > Implementations > "your implementation" > Tab Catalog > Offers > Section "Settings" > Row "Catalog priority when sorting" > Button "Edit"`
 
-For an implementation, the section also contains the **Booking** setting, which is described in the [manual page on implementations](Course_Planner_Implementations.md#tab_catalog_settings).
+For an implementation, the section also contains the "Booking" setting, which is described in the [manual page on implementations](Course_Planner_Implementations.md#tab_catalog_settings).
 
 Example Course Planner:
 
@@ -177,14 +177,14 @@ Example Course Planner:
 
 ### What priorities can be set? {: #sorting_microsites_priorities}
 
-As a priority, you can select a preset boost value or enter your own boost value. The higher the boost value, the further up an offer will appear in the catalog. With your own user-defined boost values, you can fine-tune the display order.
+As a priority, you can select a preset boost value or enter your own boost value. The higher the boost value, the further up an offer will appear in the catalog. With your own boost values, you fine-tune the display order.
 
-- normal (boost value 0)
-- medium (boost value 1000)
-- high (boost value 2000)
-- very high (boost value 3000)
-- ultimative (boost value 4000)
-- custom (define your own boost value)
+- Normal (boost value 0)
+- Medium (boost value 1000)
+- High (boost value 2000)
+- Very high (boost value 3000)
+- Ultimate (boost value 4000)
+- Custom (your own boost value)
 
 ![Priority selection High with the corresponding boost value 2000](assets/catalog20_sort_offers_microsites_boost_v1_de.png){ class="shadow lightbox" title="Dialog Change priority" }
 
@@ -201,11 +201,11 @@ As a priority, you can select a preset boost value or enter your own boost value
 ## Further information {: #further_information}
 
 [How do I present my courses in the OpenOlat catalog? >](../../manual_how-to/catalog/catalog.md)<br>
-[Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
-[Design >](../../manual_user/area_modules/catalog2.0_design.md)<br>
-[External catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
-[Activate priorities in administration >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
+[Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
 [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
-[Course Planner: Implementations >](Course_Planner_Implementations.md)
+[Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
+[Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
+[Catalog 2.0 - Design >](../../manual_user/area_modules/catalog2.0_design.md)<br>
+[Externally available catalog >](../../manual_user/area_modules/catalog2.0_web.md)
 
 [To the top of the page ^](#catalog_sort)

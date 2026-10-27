@@ -21,16 +21,16 @@ Filters can be combined. A combination you need more often you save via the menu
 
 ### Filter by execution period [:octicons-tag-16:{ title="from Release 20.3 (OO-9218)" }](https://track.frentix.com/issue/OO-9218)
 
-The system administration provides the available execution periods through the "Time periods" module. You can also choose the execution period as a sort criterion. To do so, click the button at the top right above the list and select the entry "Execution period" in the list "Sorted by". The same list offers further criteria, for example "Relevance", "Last visited", "Progress" or "Title". The button always carries the active criterion as its label, and the arrow symbol shows the direction.
+The filter "Execution period" shows the courses whose execution period is "Current", "Upcoming" or "Finished". You can also choose the execution period as a sort criterion. To do so, click the button at the top right above the list and select the entry "Execution period" in the list "Sorted by". The same list offers further criteria, for example "Relevance", "Last visited", "Progress" or "Title". The button always carries the active criterion as its label, and the arrow symbol shows the direction.
 
 ![Marked sort button with the active criterion Execution period, below it the open Sorted by list](assets/courses_sort_order_v1_en.png){ class="shadow lightbox" title="My courses area in the Courses menu · 2026.10.02" }
 
 !!! info "Important"
-    Sorting by execution period is chronological according to the **time frame** and not alphabetical by the label: first by the begin date, without a begin date by the end date. Within the same period the sorting is alphabetical. Courses without an execution period always appear at the end of the list.
+    Sorted by execution period, the list is chronological by the begin date and not alphabetical by the label. With the same begin date, it sorts alphabetically by the title. Courses without a begin date, including courses without an execution period, always appear at the end of the list.
 
 How administrators manage the time periods is described on the page [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md). How you filter your view is described under [Working with tables](../basic_concepts/Table_Concept.md).
 
-The courses can be displayed in the table view or in the list view.
+The courses can be displayed in the table view or in the list view. In the table view, the columns "Begin" and "End" show when a course takes place. Via the gear "Customize columns" you show or hide the two columns, also if your organisation does not use the "Time periods" module. The columns "Time period" and "Time period desc.", in contrast, only appear when administrators have switched the module on. [:octicons-tag-16:{ title="from Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}
 
 ### Search
 
@@ -79,9 +79,9 @@ Owners open the course already in the status "Preparation", coaches from the sta
 
 [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
-[Course Planner >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
-[Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)
+[Coaching - Educational products >](../area_modules/Coaching_Educational_Products.md)
 
 **youtube**<br>
 [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>)
