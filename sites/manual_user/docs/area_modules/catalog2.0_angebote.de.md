@@ -77,7 +77,9 @@ Im Feld "Freigegeben für" beschränken Sie ein Angebot auf Organisationen oder 
 
 !!! info "Organisationszugehörigkeit"
 
-    Ist ein Angebot auf eine bestimmte Organisation oder Unterorganisation eingeschränkt, erscheint es im Katalog nur für Benutzer:innen, die Mitglied dieser Organisation sind. Benutzer:innen ausserhalb der Organisation sehen das Angebot nicht, auch wenn der Kurs veröffentlicht ist.
+    Ist ein Angebot auf eine bestimmte Organisation oder Unterorganisation eingeschränkt, erscheint es im Katalog für Benutzer:innen dieser Organisation und ihrer Unterorganisationen. Benutzer:innen ausserhalb dieser Organisationen sehen das Angebot nicht, auch wenn der Kurs veröffentlicht ist.
+
+    Die Einschränkung wirkt nur nach unten: Wer nur einer übergeordneten Organisation angehört, sieht ein Angebot für eine Unterorganisation nicht. Administrator:innen sind davon nicht ausgenommen, denn für den Katalog zählt allein, in welcher Organisation ein Konto die Rolle Benutzer:in hat. Soll ein Angebot für eine ganze Organisation mit allen Unterorganisationen gelten, wählen Sie die oberste dieser Organisationen.
 
     Die Organisationszugehörigkeit wird in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) gepflegt.
 

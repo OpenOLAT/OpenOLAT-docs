@@ -206,9 +206,11 @@ Automation rules can be defined for each element type. These rules serve as a te
 
 **Configuring automation rules**
 
-Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch to the "Automation" tab. Use "Add automation rule" to add new rules.
+Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch on "Automation" in the "Automation" section. The table below shows the rules of the element type. New rules cannot be added: you switch each rule on or off in the column "Rule". You adjust the condition of a rule, for example trigger and relative date, via the more menu (⋮) of the row with "Edit automation rule". The tabs above the table narrow it down: "Relevant" shows only the rules switched on, "Implementation" or "Element" and "Content" show the rules of the respective context.
 
-![Automation section in the dialog of an element type: switch, filters and rule table with context, target status and condition, in the Element types tab of the system administration](assets/modules_course_planner_element_type_automation_v1_en.png){ class="shadow lightbox" title="Automation tab of an element type" }
+For element types with the usage "Implementation or element (legacy)", the section only shows a note. Implementations and elements of this type cannot be automated. To automate an implementation, assign it an element type with the usage "Implementation", for an element one with the usage "Element".
+
+![Automation switch turned on, rule table with one switch per rule in the column Rule](assets/modules_course_planner_element_type_automation_v1_en.png){ class="shadow lightbox" title="Automation section in the dialog of an element type" }
 
 Each automation rule contains:
 

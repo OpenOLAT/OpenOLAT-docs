@@ -77,7 +77,9 @@ In the field "Released for", you restrict an offer to organisations or sub-organ
 
 !!! info "Organisation membership"
 
-    If an offer is restricted to a specific organisation or sub-organisation, it appears in the catalog only for users who are members of that organisation. Users outside the organisation do not see the offer, even if the course is published.
+    If an offer is restricted to a specific organisation or sub-organisation, it appears in the catalog for users of that organisation and of its sub-organisations. Users outside these organisations do not see the offer, even if the course is published.
+
+    The restriction only extends downwards: users who belong only to a parent organisation do not see an offer for a sub-organisation. Administrators are no exception, because for the catalog the only thing that counts is the organisation in which an account has the role User. If an offer is to apply to a whole organisation with all its sub-organisations, select the topmost of these organisations.
 
     Organisation membership is managed in the [user management](../../manual_admin/usermanagement/index.md).
 

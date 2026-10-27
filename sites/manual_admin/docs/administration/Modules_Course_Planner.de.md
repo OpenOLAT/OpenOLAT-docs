@@ -205,9 +205,11 @@ Für jeden Elementtyp lassen sich Automatisierungsregeln hinterlegen. Diese Rege
 
 **Automatisierungsregeln konfigurieren**
 
-Öffnen Sie den gewünschten Elementtyp über das :fontawesome-regular-pen-to-square:-Symbol und wechseln Sie zum Tab «Automatisierung». Über «Automatisierungsregel hinzufügen» fügen Sie neue Regeln hinzu.
+Öffnen Sie den gewünschten Elementtyp über das :fontawesome-regular-pen-to-square:-Symbol und schalten Sie im Abschnitt "Automatisierung" den Schalter "Automatisierung" ein. Die Tabelle darunter zeigt die Regeln des Elementtyps. Neue Regeln lassen sich nicht hinzufügen: Sie schalten jede Regel in der Spalte "Regel" ein oder aus. Die Bedingung einer Regel, etwa Auslöser und relatives Datum, passen Sie über das Mehr-Menü (⋮) der Zeile mit "Automationsregel bearbeiten" an. Die Tabs über der Tabelle grenzen sie ein: "Relevant" zeigt nur die eingeschalteten Regeln, "Durchführung" oder "Element" und "Inhalt" zeigen die Regeln des jeweiligen Kontexts.
 
-![Abschnitt Automatisierung im Dialog eines Elementtyps: Schalter, Filter und Regeltabelle mit Kontext, Zielstatus und Bedingung, im Tab Elementtypen der System-Administration](assets/modules_course_planner_element_type_automation_v1_de.png){ class="shadow lightbox" title="Tab Automatisierung eines Elementtyps" }
+Bei Elementtypen mit der Verwendung "Durchführung oder Element (legacy)" zeigt der Abschnitt nur einen Hinweis. Durchführungen und Elemente dieses Typs lassen sich nicht automatisieren. Wer eine Durchführung automatisieren will, weist ihr einen Elementtyp mit der Verwendung "Durchführung" zu, bei einem Element einen mit der Verwendung "Element".
+
+![Schalter Automatisierung eingeschaltet, Regeltabelle mit je einem Schalter pro Regel in der Spalte Regel](assets/modules_course_planner_element_type_automation_v1_de.png){ class="shadow lightbox" title="Abschnitt Automatisierung im Dialog eines Elementtyps" }
 
 Jede Automatisierungsregel enthält:
 
