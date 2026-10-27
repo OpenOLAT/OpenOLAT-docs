@@ -28,7 +28,7 @@ Ein Fokus erscheint nur, wenn Sie mindestens eine passende Lernressource im Stat
 
 ---
 
-### Vordefinierte Filter-Tabs [:octicons-tag-16:{ title="ab Release 20.0.4 (OO-8677)" }](https://track.frentix.com/issue/OO-8677) {: #courses_filters}
+### Vordefinierte Filter-Tabs und Filter [:octicons-tag-16:{ title="ab Release 20.0.4 (OO-8677)" }](https://track.frentix.com/issue/OO-8677) {: #courses_filters}
 
 Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränken ein, welche Kurse angezeigt werden. In den Fokus-Einträgen "Als Betreuer:in" und "Als Besitzer:in" stehen sechs Tabs bereit:
 
@@ -39,9 +39,9 @@ Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränk
 * **Freigabe Betreuer:innen**: nur Kurse im Status "Freigabe Betreuer:innen".
 * **Beendet**: nur Kurse im Status "Beendet".
 
-Im Fokus "Weitere Ressourcen" stehen nur die drei Tabs "Favoriten", "Alle" und "Beendet" zur Verfügung. Standard beim Öffnen ist hier "Alle". Die Tabs "Relevant", "Veröffentlicht" und "Freigabe Betreuer:innen" entfallen, weil OpenOlat für eingebundene Ressourcen und Vorlagen keine Kursstatistiken lädt. Aus demselben Grund fehlen die Filter zu Besuchen, Bewertungen, Teilnehmendenzahl und Zertifikaten. Verfügbar sind hier die Filter "Favoriten", "Durchführungszeitraum", "Status", "Durchführungsformat" und "Typ". Gehören Ihre Ressourcen zu Bildungsprodukten, kommt der Filter "Produkte" dazu. Ein Durchführungsformat tragen nur Kurse, also auch Kursvorlagen. Tests, Wikis und andere Lernressourcen fallen bei aktivem Filter "Durchführungsformat" aus der Liste.
+Im Fokus "Weitere Ressourcen" stehen nur die drei Tabs "Favoriten", "Alle" und "Beendet" zur Verfügung. Standard beim Öffnen ist hier "Alle". Die Tabs "Relevant", "Veröffentlicht" und "Freigabe Betreuer:innen" stehen hier nicht zur Wahl, weil OpenOlat für eingebundene Ressourcen und Vorlagen keine Kursstatistiken lädt. Aus demselben Grund fehlen die Filter zu Besuchen, Bewertungen, Teilnehmendenzahl und Zertifikaten. Verfügbar sind hier die Filter "Favoriten", "Durchführungszeitraum", "Status", "Durchführungsformat" und "Typ". Gehören Ihre Ressourcen zu Bildungsprodukten, kommt der Filter "Produkte" dazu. Ein Durchführungsformat tragen nur Kurse, Kursvorlagen eingeschlossen. Tests, Wikis und andere Lernressourcen fallen bei aktivem Filter "Durchführungsformat" aus der Liste.
 
-In allen Fokus-Einträgen grenzen Sie die Liste mit dem Filter "Durchführungsformat" auf Kurse eines oder mehrerer Formate ein, zum Beispiel auf alle Präsenzveranstaltungen [:octicons-tag-16:{ title="ab Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. Wer viele Kurse betreut, findet so die Kurse mit ähnlichem Betreuungsaufwand zusammen, etwa die Kurse im Selbststudium, deren Fortschritt laufend zu prüfen ist. Zur Wahl stehen alle Formate, welche die System-Administration im [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#implementation_formats) definiert hat. Das Format eines Kurses wird im Kurs unter `Kurs > Administration > Einstellungen`, Tab "Metadaten" gewählt, siehe [Durchführungsformat](../learningresources/Course_Settings_Metadata.de.md#educational_type). Kurse ohne gewähltes Format erscheinen bei aktivem Filter nicht.
+Betreuen Sie viele Kurse, finden Sie mit dem Filter "Durchführungsformat" die Kurse mit ähnlichem Betreuungsaufwand zusammen, etwa die Kurse im Selbststudium, deren Fortschritt laufend zu prüfen ist. Der Filter steht in allen Fokus-Einträgen bereit und grenzt die Liste auf Kurse eines oder mehrerer Formate ein, zum Beispiel auf alle Präsenzveranstaltungen [:octicons-tag-16:{ title="ab Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. Zur Wahl stehen alle Formate, welche die System-Administration unter `Administration > Module > Kurs`, Tab "Durchführungsformate" definiert hat, siehe [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#implementation_formats). Das Format eines Kurses wird im Kurs unter `Kurs > Administration > Einstellungen`, Tab "Metadaten" gewählt, siehe [Durchführungsformat](../learningresources/Course_Settings_Metadata.de.md#educational_type). Kurse ohne gewähltes Format erscheinen bei aktivem Filter nicht.
 
 ![Filter Durchführungsformat mit Blended Learning und Präsenzveranstaltung gewählt, die Liste zeigt nur Kurse dieser Formate, die Spalte Durchführungsformat nennt das Format je Kurs](assets/coaching_courses_educational_type_filter_v1_de.png){ class="shadow lightbox" title="Kurse im Coaching, Filter Durchführungsformat · 2026.10.27" }
 
@@ -132,9 +132,9 @@ Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts
 **Auf dieser Seite erwähnt**<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Autorenbereich - Übersicht >](Authoring.de.md)<br>
-[Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Modul Kurs (Admin) >](../../manual_admin/administration/Modules_Course.de.md)<br>
 [Kurseinstellungen: Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
+[Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Kurse finden >](Courses.de.md)
 

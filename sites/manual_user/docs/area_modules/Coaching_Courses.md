@@ -28,7 +28,7 @@ A focus only appears if you own at least one matching learning resource with a s
 
 ---
 
-### Predefined filter tabs [:octicons-tag-16:{ title="from Release 20.0.4 (OO-8677)" }](https://track.frentix.com/issue/OO-8677) {: #courses_filters}
+### Predefined filter tabs and filters [:octicons-tag-16:{ title="from Release 20.0.4 (OO-8677)" }](https://track.frentix.com/issue/OO-8677) {: #courses_filters}
 
 Predefined filter tabs are available above the list. They narrow down which courses are displayed. In the focus entries "As coach" and "As owner", six tabs are available:
 
@@ -39,9 +39,9 @@ Predefined filter tabs are available above the list. They narrow down which cour
 * **Access for coach**: only courses with the status "Access for coach".
 * **Finished**: only courses with the status "Finished".
 
-In the focus "Other resources", only the three tabs "Favourites", "All" and "Finished" are available. The default when opening is "All" here. The tabs "Relevant", "Published" and "Access for coach" are omitted, because OpenOlat does not load course statistics for embedded resources and templates. For the same reason, the filters for visits, assessments, number of participants and certificates are missing. Available here are the filters "Favourites", "Execution period", "Status", "Implementation format" and "Type". If your resources belong to educational products, the filter "Products" is added. Only courses carry an implementation format, course templates included. Tests, wikis and other learning resources drop out of the list when the filter "Implementation format" is active.
+In the focus "Other resources", only the three tabs "Favourites", "All" and "Finished" are available. The default when opening is "All" here. The tabs "Relevant", "Published" and "Access for coach" are not available here, because OpenOlat does not load course statistics for embedded resources and templates. For the same reason, the filters for visits, assessments, number of participants and certificates are missing. Available here are the filters "Favourites", "Execution period", "Status", "Implementation format" and "Type". If your resources belong to educational products, the filter "Products" is added. Only courses carry an implementation format, course templates included. Tests, wikis and other learning resources drop out of the list when the filter "Implementation format" is active.
 
-In all focus entries, you narrow down the list with the filter "Implementation format" to courses of one or more formats, for example to all lectures [:octicons-tag-16:{ title="from Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. If you coach many courses, you thus find the courses with a similar coaching effort together, for example the self-study courses whose progress you check continuously. All formats that the system administration has defined in the [Module Course](../../manual_admin/administration/Modules_Course.md#implementation_formats) are available for selection. The format of a course is selected in the course under `Course > Administration > Settings`, tab "Metadata", see [Implementation format](../learningresources/Course_Settings_Metadata.md#educational_type). Courses without a selected format do not appear when the filter is active.
+If you coach many courses, the filter "Implementation format" brings together the courses with a similar coaching effort, for example the self-study courses whose progress you check continuously. The filter is available in all focus entries and narrows down the list to courses of one or more formats, for example to all lectures [:octicons-tag-16:{ title="from Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. All formats that the system administration has defined under `Administration > Modules > Course`, tab "Implementation formats" are available for selection, see [Module Course](../../manual_admin/administration/Modules_Course.md#implementation_formats). The format of a course is selected in the course under `Course > Administration > Settings`, tab "Metadata", see [Implementation format](../learningresources/Course_Settings_Metadata.md#educational_type). Courses without a selected format do not appear when the filter is active.
 
 ![Filter Implementation format with Blended-learning and Lecture selected, the list shows only courses of these formats, the column Implementation format names the format per course](assets/coaching_courses_educational_type_filter_v1_en.png){ class="shadow lightbox" title="Courses in Coaching, filter Implementation format · 2026.10.27" }
 
@@ -132,9 +132,9 @@ In the focus "Other resources", the list shows no participant, progress and cert
 **Mentioned on this page**<br>
 [Assessment tool - Overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Authoring - Overview >](Authoring.md)<br>
-[Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Module Course (Admin) >](../../manual_admin/administration/Modules_Course.md)<br>
 [Course Settings: Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
+[Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Finding courses >](Courses.md)
 
