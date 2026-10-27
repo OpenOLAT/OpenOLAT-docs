@@ -76,7 +76,7 @@ Coaches assess the participants of their course.
 
 Course planners plan implementations and certification programs.
 
-- [How do I plan and run courses with the Course Planner?](course_planner_courses/course_planner_courses.md)
+- [How do I plan and run a course in several implementations with the Course Planner?](course_planner_courses/course_planner_courses.md)
 - [How can I create certification programs with the Course Planner?](certification_programs/certification_programs.md)
 
 </div>
@@ -167,10 +167,10 @@ If the guide you need is not above, find it here by role. Each card collects the
 
 <div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_curriculum size24" aria-hidden="true"></i></span><h3 id="for_planners">For planning: Course Planner and offers</h3></div>
 
-<p class="oo-mh-role__text">Plan implementations and certification programs in the Course Planner and make the offer visible.</p>
+<p class="oo-mh-role__text">Plan single courses and products with several courses in the Course Planner, create certification programs and make the offer visible.</p>
 
-- [How do I plan and run courses with the Course Planner?](course_planner_courses/course_planner_courses.md)
-- [How do I plan and run a curriculum with the Course Planner?](course_planner_curriculum/course_planner_curriculum.md)
+- [How do I plan and run a course in several implementations with the Course Planner?](course_planner_courses/course_planner_courses.md)
+- [How do I plan and run a product with several courses with the Course Planner?](course_planner_curriculum/course_planner_curriculum.md)
 - [How can I create certification programs with the Course Planner?](certification_programs/certification_programs.md)
 - [How do I present my courses in the OpenOlat catalog?](catalog/catalog.md)
 - [How can I have my courses found by search engines?](oai_pmh/oai_pmh.md)

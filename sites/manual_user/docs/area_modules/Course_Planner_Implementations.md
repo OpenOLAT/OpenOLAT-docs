@@ -124,7 +124,7 @@ Tabs by status and filters such as "Status", "Type" and "Execution period" narro
 
 The table in the "Structure" tab offers the following functions:
 
-- **Create**: If you would like to add further elements to this implementation that deviate from the structure of the product, you will find the available element types under the "Create" button, as they are defined in the system administration under `Administration > Modules > Course Planner > Tab Element types`.
+- **Create**: With the "Create" button, you add further elements directly below the implementation. The menu only offers the element types that the element type of the implementation permits under "Child elements", plus "Create new element". They are defined in the system administration under `Administration > Modules > Course Planner > Tab "Element types"`. The product itself has no structure: it lies in the implementation and passes to a new implementation with "Copy element".
 - **Download**: With the download button you download the displayed structure as an Excel file.
 - **Ref.**: In this column you display the content that the element references; the detail area is called "Referenced courses".
 - **Schedules**: In the column with the calendar icon you will find the schedules of the elements.
@@ -181,7 +181,7 @@ If automation rules control the content of this implementation, the "Automation 
 
 #### Course template as course content [:octicons-tag-16:{ title="from Release 20.0 (OO-8424)" }](https://track.frentix.com/issue/OO-8424){:target="_blank"} {: #content_course_templates}
 
-If "Max. course references" is set to "1 template/course" for the element type of the implementation, you can also add a course template that is only instantiated later. During planning in the Course Planner, the course is thus only announced but not yet added. Only when the implementation actually takes place, for example because there are enough booking orders, is the course created from the template and added to the implementation (instantiation).
+If "Content" is set to "Single course" for the element type of the implementation, you can also add a course template that is only instantiated later. During planning in the Course Planner, the course is thus only announced but not yet added. Only when the implementation actually takes place, for example because there are enough booking orders, is the course created from the template and added to the implementation (instantiation).
 
 A template is recommended for a course that always recurs in the same way.
 
@@ -666,7 +666,7 @@ If you have already opened an implementation, you will also find the option to d
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.md)<br>
-[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [Course Planner: Products >](Course_Planner_Products.md)<br>
 [Course Planner: Events >](Course_Planner_Events.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
@@ -687,6 +687,6 @@ If you have already opened an implementation, you will also find the option to d
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)
+[How do I plan and run a product with several courses with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)
 
 [To the top of the page ^](#implementations)

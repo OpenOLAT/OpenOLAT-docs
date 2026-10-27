@@ -1,4 +1,4 @@
-# Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? {: #plan_and_run_courses_with_course_planner}
+# Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? {: #plan_and_run_courses_with_course_planner}
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
@@ -6,7 +6,7 @@
 
 ??? abstract "Zielgruppe"
 
-    [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen
+    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Kursplaner:innen
 
     [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
@@ -29,7 +29,7 @@ Mit dem Course Planner kann die **Planungsarbeit** von der **Inhaltserstellung**
 **Kursplaner:innen** können schon vor Fertigstellung der Inhalte (Kurse) durch **Autor:innen** die gesamte organisatorische Planung vornehmen:
 
 * Planung mehrfacher Durchführungen des gleichen Kurses zu verschiedenen Zeiten
-* Planung von Produkten mit mehreren Kursen (und jeweils mehreren Durchführungen)
+* Planung von Produkten mit mehreren Kursen (und jeweils mehreren Durchführungen), siehe [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen?](../course_planner_curriculum/course_planner_curriculum.de.md)
 * Erstellung von Angeboten im Katalog
 * Reports zu den bereits eingegangenen Buchungsaufträgen
 * Planung von Terminen im Zusammenhang mit den verschiedenen Durchführungen (z.B. für Präsenzveranstaltungen oder Prüfungen)
@@ -69,7 +69,7 @@ Mehr dazu finden Sie im Benutzerhandbuch unter:<br>
 
 !!! note "Hinweis"
 
-    In der nachstehenden Anleitung beschränken wir uns zunächst auf einen einzelnen Kurs. Es ist darüber hinaus auch möglich, in einer Durchführung mehrere Kurse einzubinden.
+    In der nachstehenden Anleitung beschränken wir uns zunächst auf einen einzelnen Kurs. Es ist darüber hinaus auch möglich, in einer Durchführung mehrere Kurse einzubinden. Wie das geht, zeigt die Anleitung [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen?](../course_planner_curriculum/course_planner_curriculum.de.md)
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -405,7 +405,7 @@ Wenn der Kurs tatsächlich stattfinden wird (z.B. nachdem genügend Buchungsauft
 
 Ein Kurstemplate ist ein Kurs mit dem Verwendungszweck **Template**:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung"`<br>
-Im Tab "Kursinhalt" der Durchführung fügen Sie es mit dem Button "Kurstemplate hinzufügen" hinzu. Den Button gibt es nur, wenn der Elementtyp der Durchführung bei "Max. Kursreferenzen" auf "1 Template/Kurs" steht.
+Im Tab "Kursinhalt" der Durchführung fügen Sie es mit dem Button "Kurstemplate hinzufügen" hinzu. Den Button gibt es nur, wenn der Elementtyp der Durchführung bei "Inhalt" auf "Einzelkurs" steht.
 
 Die Vorbereitung der automatisierten Instanziierung (Kurserstellung aus dem Kurstemplate) finden Sie hier:<br>
 `Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Unter-Tab "Automatisierung"`<br>
@@ -429,6 +429,7 @@ Mehr zur Automatisierung finden Sie im Benutzerhandbuch unter:<br>
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Basiskonzepte >](../../manual_user/basic_concepts/index.de.md)<br>
+[Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen? >](../course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>

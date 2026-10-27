@@ -131,7 +131,7 @@ Tabs nach Status und Filter wie "Status", "Typ" und "Durchführungszeitraum" gre
 
 Die Tabelle im Tab "Struktur" bietet folgende Funktionen:
 
-- **Erstellen**: Möchten Sie dieser Durchführung abweichend von der Struktur des Produkts weitere Elemente hinzufügen, finden Sie unter dem Button "Erstellen" die verfügbaren Elementtypen, wie sie in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen` festgelegt sind.
+- **Erstellen**: Unter dem Button "Erstellen" legen Sie weitere Elemente direkt unter der Durchführung an. Das Menü bietet nur die Elementtypen an, die der Elementtyp der Durchführung unter "Kindelemente" zulässt, dazu "Neues Element erstellen". Festgelegt werden sie in der System-Administration unter `Administration > Module > Course Planner > Tab "Elementtypen"`. Das Produkt selbst hat keine Struktur: Sie liegt in der Durchführung und geht mit "Element kopieren" auf eine neue Durchführung über.
 - **Download**: Mit dem Download-Button laden Sie die angezeigte Struktur als Excel-Datei herunter.
 - **Ref.**: In dieser Spalte zeigen Sie die Inhalte an, die das Element referenziert; der Detailbereich heisst "Referenzierte Kurse".
 - **Stundenpläne**: In der Spalte mit dem Kalendersymbol finden Sie die Stundenpläne der Elemente.
@@ -188,7 +188,7 @@ Steuern Automatisierungsregeln den Inhalt dieser Durchführung, erscheint oberha
 
 #### Kurstemplates als Kursinhalt [:octicons-tag-16:{ title="ab Release 20.0 (OO-8424)" }](https://track.frentix.com/issue/OO-8424){:target="_blank"} {: #content_course_templates}
 
-Steht beim Elementtyp der Durchführung "Max. Kursreferenzen" auf "1 Template/Kurs", können Sie auch ein Kurstemplate hinzufügen, das erst später instanziiert wird. Während der Planung im Course Planner ist der Kurs damit nur angekündigt, aber noch nicht hinzugefügt. Erst wenn die Durchführung tatsächlich stattfindet, zum Beispiel weil genügend Buchungsaufträge vorliegen, entsteht der Kurs aus dem Template und kommt zur Durchführung hinzu (Instanziierung).
+Steht beim Elementtyp der Durchführung "Inhalt" auf "Einzelkurs", können Sie auch ein Kurstemplate hinzufügen, das erst später instanziiert wird. Während der Planung im Course Planner ist der Kurs damit nur angekündigt, aber noch nicht hinzugefügt. Erst wenn die Durchführung tatsächlich stattfindet, zum Beispiel weil genügend Buchungsaufträge vorliegen, entsteht der Kurs aus dem Template und kommt zur Durchführung hinzu (Instanziierung).
 
 Ein Template empfiehlt sich für einen Kurs, der immer gleich wiederkehrt.
 
@@ -682,7 +682,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.de.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
-[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Course Planner: Produkte >](Course_Planner_Products.de.md)<br>
 [Course Planner: Termine >](Course_Planner_Events.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
@@ -703,6 +703,6 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)
+[Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)
 
 [zum Seitenanfang ^](#implementations)

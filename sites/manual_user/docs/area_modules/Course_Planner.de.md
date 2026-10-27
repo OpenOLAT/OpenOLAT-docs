@@ -5,7 +5,7 @@
 
 Beim Öffnen des Course Planners gelangen Sie auf die Übersichtsseite mit den Zugriffs-Buttons, der Suche und einem Bereich mit konfigurierbaren Widgets (Durchführungen, Termine, Mitglieder).
 
-Die Zugriffs-Buttons sind in die drei Bereiche **Produkte**, **Produktivität** und **Tools** gegliedert [:octicons-tag-16:{ title="ab Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"}. Der Abschnitt [Wo finde ich den Course Planner?](#access) beschreibt sie in dieser Reihenfolge.
+Die Zugriffs-Buttons sind in die drei Bereiche "Produkte", "Produktivität" und "Tools" gegliedert [:octicons-tag-16:{ title="ab Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"}. Der Abschnitt [Wo finde ich den Course Planner?](#access) beschreibt sie in dieser Reihenfolge.
 
 ![Die Startseite des Course Planners mit den Zugriffs-Buttons in den drei Bereichen Produkte, Produktivität und Tools und den Widgets Durchführungen und To-do im Abschnitt Übersicht](assets/course_planner_overview_v5_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
@@ -128,7 +128,7 @@ Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in
 
 **Administrator:innen** und **Principals** haben ebenfalls Zugriff. (Auch diese Rollen sind evtl. auf Organisationseinheiten beschränkt.)
 
-**Principals** haben dabei ausschliesslich lesenden Zugriff auf den gesamten Course Planner: Aktionen wie **Status ändern**, **Entfernen** oder **Instanzieren** stehen ihnen nicht zur Verfügung. Öffnen Principals einen Kurs direkt aus dem Course Planner heraus, gilt dieselbe Leserechte-Beschränkung auch für die Kursansicht.
+**Principals** haben dabei ausschliesslich lesenden Zugriff auf den gesamten Course Planner: Aktionen wie "Status ändern", "Entfernen" oder "Instanzieren" stehen ihnen nicht zur Verfügung. Öffnen Principals einen Kurs direkt aus dem Course Planner heraus, gilt dieselbe Leserechte-Beschränkung auch für die Kursansicht.
 
 !!! info "Hinweis für die Einschränkung als Principal"
     Die Lese-Einschränkung ist dann aktiv, wenn der Principal auch nur diese Rolle ausübt. Es kann Querverbindungen geben, wenn ein User z.B. mehrere Rollen in einem Produkt hat. Dann kann dieser User aktiv werden, wo es die Rolle entsprechend zulässt. z.B. in einem To-do welches "ihm" zugewiesen ist.
@@ -305,8 +305,8 @@ Den **Import** starten Sie über das Mehr-Menü (⋮) oben rechts auf der Übers
 ## Weiterführende Informationen {: #further_information}
 
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
-[Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
+[Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Welche Rechte haben die Rollen innerhalb eines Kurses? >](../basic_concepts/Authorisation_Concept.de.md)<br>
 

@@ -1,4 +1,4 @@
-# How do I plan and run courses with the Course Planner? {: #plan_and_run_courses_with_course_planner}
+# How do I plan and run a course in several implementations with the Course Planner? {: #plan_and_run_courses_with_course_planner}
 
 ??? abstract "Purpose and content of this guide"
 
@@ -7,7 +7,7 @@
 
 ??? abstract "Target group"
 
-    [x] Authors [ ] Coaches  [ ] Participants
+    [ ] Authors [ ] Coaches  [ ] Participants  [x] Course planners
 
     [ ] Beginners [x] Advanced users  [x] Experts
 
@@ -27,7 +27,7 @@ With the Course Planner, **planning work** can be separated from **content creat
 **Course planners** can carry out all organizational planning even before the content (courses) has been completed by **authors**:
 
 * Planning multiple implementations of the same course at different times
-* Planning of products with multiple courses (and multiple implementations of each)
+* Planning of products with multiple courses (and multiple implementations of each), see [How do I plan and run a product with several courses with the Course Planner?](../course_planner_curriculum/course_planner_curriculum.md)
 * Creation of offers in the catalog
 * Reports on booking orders already received
 * Planning events related to the various implementations (e.g., for in-person events or exams)
@@ -66,7 +66,7 @@ You can find out more about this in the user manual under:<br>
 
 !!! note "Note"
 
-    In the following instructions, we will initially limit ourselves to a single course. It is also possible to integrate several courses into a single implementation.
+    In the following instructions, we will initially limit ourselves to a single course. It is also possible to integrate several courses into a single implementation. How this works is shown in the guide [How do I plan and run a product with several courses with the Course Planner?](../course_planner_curriculum/course_planner_curriculum.md)
 
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
@@ -402,7 +402,7 @@ If the course is actually going to take place (e.g., after enough booking orders
 
 A course template is a course with the usage **Template**:<br>
 `Course > Administration > Settings > Tab "Share" > Section "Usage"`<br>
-In the "Content" tab of the implementation, you add it with the "Add course template" button. The button is only available if the element type of the implementation is set to "1 template/course" under "Max. course references".
+In the "Content" tab of the implementation, you add it with the "Add course template" button. The button is only available if the element type of the implementation is set to "Single course" under "Content".
 
 You can find the preparation of the automated instantiation (course creation from the course template) here:<br>
 `Course Planner > Implementations > "Title of the implementation" > Tab "Settings" > Sub-tab "Automation"`<br>
@@ -426,6 +426,7 @@ You can find more about the automation in the user manual under:<br>
 **Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [Basic concepts >](../../manual_user/basic_concepts/index.md)<br>
+[How do I plan and run a product with several courses with the Course Planner? >](../course_planner_curriculum/course_planner_curriculum.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>

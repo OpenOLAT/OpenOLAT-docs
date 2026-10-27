@@ -7,7 +7,7 @@ Courses are embedded instead of duplicated: existing courses receive the usage "
 
 ## How do I do this?
 
-In the "Content" tab of an implementation, embed a course or a course template via "Add course". In the course itself, set the usage to "Use in Course Planner" or "Template".
+In the "Content" tab of an implementation, embed a course via "Add course" and a course template via "Add course template". In the course itself, set the usage to "Use in Course Planner" or "Template".
 
 ## Prerequisites
 
@@ -27,5 +27,7 @@ Embedded courses have no standalone member management: this runs via the impleme
 [Course Planner: Application map >](../Course_Planner_Map.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
-[How do I plan and run courses with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [Module Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.md)
+
+[To the top of the page ^](#courses)

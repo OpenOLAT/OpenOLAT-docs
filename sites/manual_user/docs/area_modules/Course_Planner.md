@@ -5,7 +5,7 @@
 
 When you open the Course Planner, you are taken to the overview page with the access buttons, the search, and an area with configurable widgets (implementations, events, members).
 
-The access buttons are divided into the three areas **Products**, **Productivity** and **Tools** [:octicons-tag-16:{ title="from Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"}. The section [Where can I find the Course Planner?](#access) describes them in this order.
+The access buttons are divided into the three areas "Products", "Productivity" and "Tools" [:octicons-tag-16:{ title="from Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"}. The section [Where can I find the Course Planner?](#access) describes them in this order.
 
 ![The Course Planner start page with the access buttons in the three areas Products, Productivity and Tools and the Implementations and To-do widgets in the Overview section](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
@@ -120,7 +120,7 @@ After activation of the Course Planner by a system administrator, it is availabl
 
 **Administrators** and **principals** also have access. (These roles may also be restricted to organisational units.)
 
-**Principals** have exclusively read access to the entire Course Planner: actions such as **Change status**, **Remove** or **Instantiate** are not available to them. If a principal opens a course directly from the Course Planner, the same read-only restriction also applies to the course view.
+**Principals** have exclusively read access to the entire Course Planner: actions such as "Change status", "Remove" or "Instantiate" are not available to them. If a principal opens a course directly from the Course Planner, the same read-only restriction also applies to the course view.
 
 !!! info "Note on the restriction as principal"
     The read restriction is active whenever the principal only holds this role. There can be overlaps if a user has several roles in a product, for example. In that case, this user can become active wherever the role permits, for example in a to-do assigned to "them".
@@ -297,8 +297,8 @@ You start the **import** via the more menu (⋮) at the top right of the overvie
 ## Further information {: #further_information}
 
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
-[How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
+[How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[How do I plan and run a product with several courses with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
 [Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [What rights do the roles have within a course? >](../basic_concepts/Authorisation_Concept.md)
 

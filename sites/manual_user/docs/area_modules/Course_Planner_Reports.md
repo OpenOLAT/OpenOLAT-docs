@@ -12,7 +12,7 @@ The following roles can create reports:
 !!! info "Important"
     The reports each relate to the organisation of the executing person and are therefore not cross-organisational.
 
-![The Reports button, highlighted on the Course Planner start page](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" }
+![The Reports button, highlighted](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
 The following templates are available for creating reports:
 
@@ -25,12 +25,12 @@ The following templates are available for creating reports:
 
 By clicking on the arrows in the "Execute" column, Excel files with the current data are generated using these templates.
 
-![The Execute column with the arrows per report template, highlighted in the Reports area of the Course Planner](assets/course_planner_reports2_v1_de.png){ class="shadow lightbox" }
+![The Execute column with the arrows per report template, highlighted](assets/course_planner_reports2_v1_de.png){ class="shadow lightbox" title="Reports area of the Course Planner" }
 
 The Excel files created in this way are all listed at the bottom of the screen.
 They can be copied and downloaded.
 
-![The Generated report area with an Excel file and the actions Info, Copy to, Delete and Download, highlighted in the Reports area](assets/course_planner_reports3_v1_de.png){ class="shadow lightbox" }
+![The Generated report area with an Excel file and the actions Info, Copy to, Delete and Download](assets/course_planner_reports3_v1_de.png){ class="shadow lightbox" title="Reports area of the Course Planner" }
 
 
 !!! note "Note"
@@ -65,8 +65,8 @@ The complete column overview is shown on the page [Reports: Booking orders](../a
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
-[How do I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
-[How do I plan and run a curriculum with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
+[How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[How do I plan and run a product with several courses with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
 [Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)
 
 [To the top of the page ^](#reports)

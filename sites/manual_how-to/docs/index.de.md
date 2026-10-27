@@ -76,7 +76,7 @@ Betreuer:innen bewerten die Teilnehmenden ihres Kurses.
 
 Kursplaner:innen planen Durchführungen und Zertifikatsprogramme.
 
-- [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen?](course_planner_courses/course_planner_courses.de.md)
+- [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen?](course_planner_courses/course_planner_courses.de.md)
 - [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](certification_programs/certification_programs.de.md)
 
 </div>
@@ -167,10 +167,10 @@ Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle.
 
 <div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_curriculum size24" aria-hidden="true"></i></span><h3 id="for_planners">Für die Planung: Course Planner und Angebote</h3></div>
 
-<p class="oo-mh-role__text">Durchführungen und Zertifikatsprogramme im Course Planner planen und das Angebot sichtbar machen.</p>
+<p class="oo-mh-role__text">Einzelkurse und Produkte mit mehreren Kursen im Course Planner planen, Zertifikatsprogramme erstellen und das Angebot sichtbar machen.</p>
 
-- [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen?](course_planner_courses/course_planner_courses.de.md)
-- [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen?](course_planner_curriculum/course_planner_curriculum.de.md)
+- [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen?](course_planner_courses/course_planner_courses.de.md)
+- [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen?](course_planner_curriculum/course_planner_curriculum.de.md)
 - [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](certification_programs/certification_programs.de.md)
 - [Wie zeige ich meine Kurse im OpenOlat-Katalog?](catalog/catalog.de.md)
 - [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](oai_pmh/oai_pmh.de.md)

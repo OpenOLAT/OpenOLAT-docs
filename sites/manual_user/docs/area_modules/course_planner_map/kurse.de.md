@@ -7,7 +7,7 @@ Kurse werden eingebunden statt dupliziert: Bestehende Kurse erhalten den Verwend
 
 ## Wie setze ich das um?
 
-Im Tab «Kursinhalt» einer Durchführung über «Kurs hinzufügen» einen Kurs oder ein Kurstemplate einbinden. Im Kurs selbst den Verwendungszweck auf «Verwendung im Course Planner» bzw. «Template» stellen.
+Im Tab «Kursinhalt» einer Durchführung über «Kurs hinzufügen» einen Kurs einbinden, über «Kurstemplate hinzufügen» ein Kurstemplate. Im Kurs selbst den Verwendungszweck auf «Verwendung im Course Planner» bzw. «Template» stellen.
 
 ## Vorbedingungen
 
@@ -27,5 +27,7 @@ Eingebundene Kurse haben keine eigenständige Mitgliederverwaltung: Diese läuft
 [Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
-[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Modul Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.de.md)
+
+[Zum Seitenanfang ^](#courses)
