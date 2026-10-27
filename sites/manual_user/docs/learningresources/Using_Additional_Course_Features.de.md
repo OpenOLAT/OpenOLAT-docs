@@ -5,7 +5,7 @@ Kursbesitzer:innen können zusätzlich bestimmte Werkzeuge der Toolbar aktiviere
 
 Aktivierte Werkzeuge werden anschliessend direkt in der Toolbar unabhängig von der Kursstruktur angezeigt.
 
-![Administration, Status, Rolle und Mein Kurs rahmen die aktivierten Werkzeuge ein, die mit Symbol und Beschriftung erscheinen und auf eine zweite Zeile umbrechen. Werkzeugleiste eines Kurses.](assets/course_toolbar_activated_tools_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Aktivierte Werkzeuge Kalender, Mitteilungen, E-Mail, Blog, Wiki, Forum, Dokumente und Kurssuche in der Toolbar markiert, je mit Symbol und Beschriftung](assets/course_toolbar_activated_tools_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 ## Kurssuche [:octicons-tag-16:{ title="ab Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581){:target="_blank"}
 

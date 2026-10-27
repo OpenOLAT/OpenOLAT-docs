@@ -1,6 +1,6 @@
 # Zusätzliche Kursfunktionen
 
-![Kurs-Toolbar mit den Icons Administration, Status, Kursinfo, Lernpfad, Kalender, Termine, Liste der Teilnehmer:innen, Mitteilungen, E-Mail, Forum, Dokumente, Rolle und Mein Kurs](assets/Toolbar_20.jpg){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Toolbar eines Kurses über dem Kursinhalt markiert, mit Administration, Status, den Werkzeugen von Infoseite bis Kurssuche, Rolle und Mein Kurs](assets/additional_course_features_toolbar_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 In der Toolbar eines Kurses stehen Teilnehmenden eine Reihe von weiteren Kursfunktionen zur Verfügung. Einige Elemente wie ["Kursinfo"](../learningresources/Info_page.de.md), "Mein Kurs" oder der Bereich "Lernpfad" (bei Lernpfadkursen) werden automatisch angelegt. Auch das Element "Termine" erscheint automatisch in der Toolbar, wenn die ["Termine und Absenzen"](../learningresources/Events_and_absences.de.md) im Kurs aktiviert wurden. 
 
@@ -10,7 +10,7 @@ Andere Werkzeuge können von den Kursbesitzenden unter `Administration > Einstel
 
 Das Dropdown-Menü "Mein Kurs" der Toolbar bietet Zugriff auf personalisierte Bestandteile des Kurses.
 
-![Geöffnetes Dropdown-Menü Mein Kurs mit den Einträgen Leistungsnachweis, To-dos, Notizen, Bookmark, Einwilligung, der Gruppe Gruppe2 und Kurs verlassen](assets/Mein_Kurs_menue_19.jpg){ class="shadow lightbox" }
+![Geöffnetes Dropdown-Menü Mein Kurs mit den Einträgen Leistungsnachweis, To-dos, Notizen, Bookmark, Einwilligung, der Gruppe Gruppe2 und Kurs verlassen](assets/Mein_Kurs_menue_19.jpg){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar" }
 
 Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folgenden Einträge angezeigt.
 
@@ -27,7 +27,7 @@ Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folge
 
 Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss vom Kursbesitzer bzw. der Kursbesitzerin zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests, Aufgaben u.ä., ihre Punkte und weitere Informationen.
 
-![Leistungsnachweis mit Fortschritt 40 Prozent, 2 von 13 Punkten, der Kursbausteinliste mit Bewertung und dem Bereich Zertifikate ohne erzeugtes Zertifikat](assets/Leistungsnachweis_19.png){ class="shadow lightbox" }
+![Leistungsnachweis mit Fortschritt 40 Prozent, 2 von 13 Punkten, der Kursbausteinliste mit Bewertung und dem Bereich Zertifikate ohne erzeugtes Zertifikat](assets/Leistungsnachweis_19.png){ class="shadow lightbox" title="Leistungsnachweis eines Kurses" }
 
 Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
 
@@ -56,7 +56,7 @@ Die Möglichkeit, sich aus einem Kurs auszutragen, muss zuvor von den Kursbesitz
 ## Lernpfad der Toolbar 
 Über das Lernpfad-Icon in der Toolbar erhalten Lernende einen Überblick über ihren Fortschritt in allen Kursbausteinen. Je nach gewählten Spalten können ausserdem zusätzliche Informationen wie die Art der Durchführung und Termine angezeigt werden. So behalten Lernende ihre Aktivitäten im Kurs einfach im Blick.
 
-![Lernpfad-Tabelle mit Kursbausteinen, Fortschritt in Prozent, Status wie Gestartet oder Abgeschlossen, Pflichtangabe und Bearbeitungsfristen je Baustein](assets/Mein_Lernpfad.png){ class="shadow lightbox" }
+![Lernpfad-Tabelle mit Kursbausteinen, Fortschritt in Prozent, Status wie Gestartet oder Abgeschlossen, Pflichtangabe und Bearbeitungsfristen je Baustein](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Lernpfad aus Sicht der Teilnehmer:in" }
 
 Kursbesitzer:innen und Betreuende erhalten über den Link "Lernpfad" zunächst eine Übersicht über alle Teilnehmenden und können dann im nächsten Schritt eine Person auswählen um sich ihren Lernfortschritt anzeigen zu lassen. 
 

@@ -21,7 +21,7 @@ Beispiel für eine typische Toolbar, die für die meisten Lernressourcen wie Blo
 
 Die Toolbar eines Kurses kann dagegen noch weitere Elemente und Werkzeuge enthalten:
 
-![Administration, Status, Kursinfo, Lernpfad, Kalender, Liste der Teilnehmer:innen, Mitteilungen, E-Mail, Rolle und Mein Kurs, darunter eine zweite Zeile mit Kurswerkzeugen](assets/Kurs_toolbar.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Toolbar eines Kurses mit Administration, Status, den Werkzeugen von Infoseite bis Kurssuche, Rolle und Mein Kurs](assets/toolbar_example_course_owner_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Die Toolbar der Portfolio 2.0 Vorlage dient eher der Konfiguration:
 

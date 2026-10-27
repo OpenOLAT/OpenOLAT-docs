@@ -4,11 +4,11 @@ The toolbar is located at the top of the page, directly below the main navigatio
 
 **Example participant**:
 
-![Toolbar from a participant's point of view with eight tool icons from Course info to Glossary, on the right the menu My course and the progress indicator at 63 percent](assets/toolbar_example_course_participant_v1_de.png){ class="shadow lightbox" title="Toolbar of a course, participant view" }
+![Toolbar from a participant's point of view with the tools from Info page (info icon) to Course search, including Info messages (megaphone) and Blog (blog icon), on the right My course](assets/toolbar_example_course_participant_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
 **Example course owner/coach**:
 
-![Toolbar from a course owner's point of view with the additional Administration, status Published and the role switcher, without progress indicator](assets/toolbar_example_course_owner_v1_de.png){ class="shadow lightbox" title="Toolbar of a course, course owner view" }
+![Toolbar from a course owner's point of view with additionally Administration, status Published and the role switcher, in between the same tools from Info page to Course search](assets/toolbar_example_course_owner_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, course owner view · 2026.10.27" }
 
 The course owner decides whether the toolbar is visible to course participants. It is always visible to coaches and owners.<br>
 [More >](#show_icons)
@@ -42,7 +42,7 @@ The status is only displayed to those authorized to edit, not to participants. T
 
 ### Course info {: #info_page}
 
-![Icon Course info highlighted as the first tool icon in the toolbar](assets/toolbar_course_info_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Info page with the info icon highlighted as the first tool of the toolbar](assets/toolbar_course_info_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 Under Course info, general information about the course is available, such as the description of the event or the execution period and location. This information is already visible before a course can be accessed by learners at all.<br>
 [More >](../learningresources/Info_page.md)
@@ -95,7 +95,7 @@ The participant list can also include contact options in the list of all course 
 
 ### Info messages {: #notifications}
 
-![Icon Notifications highlighted in the toolbar](assets/toolbar_notifications_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Info messages with the megaphone icon highlighted in the toolbar](assets/toolbar_notifications_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 In the info messages, teachers can store information about the entire course centrally.<br>
 [More >](../learningresources/Course_Element_Notifications.md)
@@ -122,7 +122,7 @@ As an alternative to a course element, access to a video conferencing tool can a
 
 ### Blog {: #blog}
 
-![Icon Blog highlighted in the toolbar](assets/toolbar_blog_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
+![Tool Blog with the blog icon highlighted in the toolbar, to the left of Wiki](assets/toolbar_blog_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 Multiple blogs can be integrated into OpenOlat. Access via the icon in the toolbar is a good option if the blog content relates to the entire course.<br>
 [More >](../learningresources/Course_Element_Blog.md)

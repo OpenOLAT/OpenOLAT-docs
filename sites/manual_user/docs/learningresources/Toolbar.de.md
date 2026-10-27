@@ -4,11 +4,11 @@ Die Toolbar (Werkzeugleiste) befindet sich im Kopf der Seite, direkt unter der H
 
 **Beispiel Teilnehmer:in**:
 
-![Toolbar aus Sicht einer Teilnehmer:in mit acht Werkzeug-Icons von Kursinfo bis Glossar, rechts das Menü Mein Kurs und die Fortschrittsanzeige mit 63 Prozent](assets/toolbar_example_course_participant_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in" }
+![Toolbar aus Sicht einer Teilnehmer:in mit den Werkzeugen von Infoseite (Info-Symbol) bis Kurssuche, darunter Mitteilungen (Megafon) und Blog (Blog-Symbol), rechts Mein Kurs](assets/toolbar_example_course_participant_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
 **Beispiel Kursbesitzer:in/Betreuer:in**:
 
-![Toolbar aus Sicht einer Kursbesitzer:in mit zusätzlich Administration, Status Veröffentlicht und dem Rollenwechsler, ohne Fortschrittsanzeige](assets/toolbar_example_course_owner_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Kursbesitzer:in" }
+![Toolbar aus Sicht einer Kursbesitzer:in mit zusätzlich Administration, Status Veröffentlicht und Rollenwechsler, dazwischen dieselben Werkzeuge von Infoseite bis Kurssuche](assets/toolbar_example_course_owner_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Kursbesitzer:in · 2026.10.27" }
 
 Ob die Toolbar für die Kursteilnehmer:innen sichtbar ist, entscheidet die Kursbesitzer:in. Für Betreuer:innen und Besitzer:innen ist sie immer sichtbar.<br>
 [Mehr dazu >](#show_icons)
@@ -42,7 +42,7 @@ Der Status wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilne
 
 ### Kursinfo {: #info_page}
 
-![Icon Kursinfo als erstes Werkzeug-Icon in der Toolbar markiert](assets/toolbar_course_info_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Infoseite mit dem Info-Symbol als erstes Werkzeug der Toolbar markiert](assets/toolbar_course_info_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Unter Kursinfo sind allgemeine Informationen über den Kurs abrufbar, wie z. B. die Beschreibung der Veranstaltung oder Durchführungszeitraum und Ort. Diese Informationen sind bereits sichtbar, bevor ein Kurs überhaupt von Lernenden aufgerufen werden kann.<br>
 [Mehr dazu >](../learningresources/Info_page.de.md)
@@ -95,7 +95,7 @@ Die Liste der Teilnehmer:innen kann in der Auflistung aller Kursmitglieder auch 
 
 ### Mitteilungen {: #notifications}
 
-![Icon Mitteilungen in der Toolbar markiert](assets/toolbar_notifications_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Mitteilungen mit dem Megafon-Symbol in der Toolbar markiert](assets/toolbar_notifications_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 In den Mitteilungen können Lehrende zentral Informationen zum Gesamtkurs hinterlegen.<br>
 [Mehr dazu >](../learningresources/Course_Element_Notifications.de.md)
@@ -122,7 +122,7 @@ Alternativ zu einem Kursbaustein kann der Zugriff auf ein Videokonferenz-Tool au
 
 ### Blog {: #blog}
 
-![Icon Blog in der Toolbar markiert](assets/toolbar_blog_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
+![Werkzeug Blog mit dem Blog-Symbol in der Toolbar markiert, links neben Wiki](assets/toolbar_blog_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 In OpenOlat können mehrere Blogs eingebunden werden. Ein Aufruf durch das Icon in der Toolbar bietet sich an, wenn sich der Blog-Inhalt auf den gesamten Kurs bezieht.<br>
 [Mehr dazu >](../learningresources/Course_Element_Blog.de.md)

@@ -1,6 +1,6 @@
 # Additional Course Features
 
-![Course toolbar with the icons Administration, Status, Course info, Learning path, Calendar, Events, Participant list, Notifications, E-mail, Forum, Documents, Role and My course](assets/Toolbar_20.jpg){ class="shadow lightbox" }
+![Toolbar of a course highlighted above the course content, with Administration, Status, the tools from Info page to Course search, Role and My course](assets/additional_course_features_toolbar_v1_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 In the toolbar of a course, participants have a number of additional course functions at their disposal. Some elements, such as ["Course info"](../learningresources/Info_page.md), "My course" or the "Learning path" area (for learning path courses), are added automatically. The "Events" element also appears automatically in the toolbar once ["Events and absences"](../learningresources/Events_and_absences.md) has been activated in the course.
 
@@ -10,7 +10,7 @@ Other tools can be additionally activated by the course owners under `Administra
 
 The drop-down menu "My course" in the toolbar provides access to personalized parts of the course.
 
-![Open drop-down menu My course with the entries Evidence of achievement, To-dos, Notes, Bookmark, Consent, the group Gruppe2 and Leave course](assets/Mein_Kurs_menue_19en.jpg){ class="shadow lightbox" }
+![Open drop-down menu My course with the entries Evidence of achievement, To-dos, Notes, Bookmark, Consent, the group Gruppe2 and Leave course](assets/Mein_Kurs_menue_19en.jpg){ class="shadow lightbox" title="Menu My course in the toolbar" }
 
 Depending on the configuration of the course, not all of the following entries may be displayed.
 
@@ -27,7 +27,7 @@ Depending on the configuration of the course, not all of the following entries m
 
 An evidence of achievement is a confirmation of a completed assessment and must first be activated by the course owner. Participants then see the individual assessment elements completed in the course, such as tests or tasks, their points and further information.
 
-![Evidence of achievement with progress 27 percent, 12 of 20 points and the course element table with score and pass status](assets/evidence_of_achievement_19.jpg){ class="shadow lightbox" }
+![Evidence of achievement with progress 27 percent, 12 of 20 points and the course element table with score and pass status](assets/evidence_of_achievement_19.jpg){ class="shadow lightbox" title="Evidence of achievement of a course" }
 
 If a [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) has been issued for the course, you will also find it under "Evidence of achievement" for download. Coaches of the course can view the certificates in the [coaching tool](../area_modules/Coaching.md).
 
@@ -55,7 +55,7 @@ The option to unsubscribe from a course must first be activated by the course ow
 ## Learning path in the toolbar
 Via the learning path icon in the toolbar, participants get an overview of their progress in all course elements. Depending on the columns selected, additional information such as the type of implementation and dates can also be displayed. This way, participants can easily keep track of their activities in the course.
 
-![Learning path table with course elements, progress in percent, status such as Started or Completed, mandatory flag and processing deadlines per element](assets/Mein_Lernpfad.png){ class="shadow lightbox" }
+![Learning path table with course elements, progress in percent, status such as Started or Completed, mandatory flag and processing deadlines per element](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Learning path from the participant's view" }
 
 Course owners and coaches first get an overview of all participants via the "Learning path" link and can then select a person in the next step to display their learning progress.
 

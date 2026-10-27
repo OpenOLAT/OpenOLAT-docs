@@ -81,7 +81,7 @@ Weitere Informationen zum Thema Podcast finden Sie im Kapitel ["Podcast: Übersi
 
 ## Blog {: #blog}
 
-![Eintrag Blog markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_blog_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Blog mit dem Blog-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_blog_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.10.27" }
 
 :o_icon_o_FileResource-BLOG_icon:
 

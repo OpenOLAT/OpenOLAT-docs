@@ -81,7 +81,7 @@ Further information on podcasts can be found in the chapter ["Podcast: Overview"
 
 ## Blog {: #blog}
 
-![Entry Blog highlighted in the Create menu of the authoring area](assets/learning_resource_blog_v1_de.png){ class="aside-right lightbox"}
+![Entry Blog with the blog icon highlighted in the Create menu of the authoring area](assets/learning_resource_blog_v2_en.png){ width="203" class="aside-right lightbox" title="Create menu in the authoring area · 2026.10.27" }
 
 :o_icon_o_FileResource-BLOG_icon:
 
