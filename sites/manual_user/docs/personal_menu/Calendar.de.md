@@ -36,7 +36,7 @@ Um einen neuen Termin hinzuzufügen, klicken Sie in das entsprechende Kalenderfe
 
 ![Die neun Angaben eines Termins von oben nach unten, von Kalender bis Links, darunter die Schaltflächen Speichern und Abbrechen](assets/pers_menu_calendar_details_v1_de.png){ class="shadow lightbox" title="Dialog Termindetails" }
 
-1. Wenn Sie Gruppenmitglied sind, treffen Sie erst oben im Kalender Pulldown-Menu die Auswahl, in welchem Kalender Sie einen Termin erstellen möchten (persönlicher Kalender oder Gruppenkalender).
+1. Wenn Sie Gruppenmitglied sind, wählen Sie zuerst oben im Feld "Kalender", in welchem Kalender Sie den Termin erstellen (persönlicher Kalender oder Gruppenkalender).
 
 2. Zu den "Termindetails" gehört zwingend ein Titel.
 
@@ -50,7 +50,7 @@ Um einen neuen Termin hinzuzufügen, klicken Sie in das entsprechende Kalenderfe
 
 7. Im Feld "Beschreibung" ergänzen Sie weitere Angaben zum Termin.
 
-8. Welche Details zu einem Termin für wen angezeigt werden, ist im Abschnitt [Sichtbarkeit](../personal_menu/Calendar.de.md#visibility) beschrieben.
+8. Welche Details zu einem Termin für wen angezeigt werden, ist im Abschnitt [Sichtbarkeit](#visibility) beschrieben.
 
 9. Links können Sie erst hinzufügen, nachdem der Termin erstellt wurde. Speichern Sie einfach den bestehenden Termin und bearbeiten Sie ihn erneut. Dann wird Ihnen unter "Links" ein Button "Link hinzufügen" angezeigt.
 
@@ -77,11 +77,11 @@ Ein Termin kann auch mit Drag&Drop verschoben werden.
 
 ## Wiederholung (Serientermine) {: #recurring_events}
 
-In den Termindetails kann unter "Wiederholung" die gewünschte Frequenz von Serienterminen ausgewählt werden. Sobald eine Wiederholung gewünscht wird, erscheint das Eingabefeld, mit dem das Ende der Serie definiert wird (Pflichtfeld).
+Für einen Termin, der regelmässig stattfindet, legen Sie eine Serie an, statt jeden Termin einzeln zu erfassen. Wählen Sie dazu in den Termindetails unter "Wiederholung", wie oft sich der Termin wiederholt. Sobald Sie eine Wiederholung wählen, erscheint das Pflichtfeld "endet am" für das Ende der Serie.
 
 ![Markiert sind das Auswahlfeld Wiederholung mit dem Wert Montag bis Freitag und daneben das Pflichtfeld endet am mit dem Enddatum der Serie, im Dialog Termindetails](assets/pers_menu_calendar_recurrence_v1_de.png){ class="shadow lightbox" title="Dialog Termindetails, Feld Wiederholung" }
 
-Auch Serientermine können bearbeitet werden. Klicken Sie dazu im Kalender auf einen der Termine. Beim Speichern der Anpassung kann ausgewählt werden, ob die Änderung für alle Termine der Serie oder nur für den aufgerufenen Termin gilt. Wenn alle Termine geändert werden sollen, werden diese Termine geändert, welche zuvor nicht individuell angepasst wurden.
+Auch Serientermine können Sie bearbeiten. Klicken Sie dazu im Kalender auf einen der Termine. Beim Speichern wählen Sie, ob die Änderung für alle Termine der Serie oder nur für den aufgerufenen Termin gilt. Gilt sie für alle Termine, ändert OpenOlat die Termine der Serie, die Sie zuvor nicht einzeln angepasst haben.
 
 [Zum Seitenanfang ^](#calendar)
 
@@ -90,7 +90,7 @@ Auch Serientermine können bearbeitet werden. Klicken Sie dazu im Kalender auf e
 
 ## Sichtbarkeit {: #visibility}
 
-Legen Sie hier fest, wer den Kalendereintrag sehen darf.
+Mit dem Feld "Sichtbarkeit" in den Termindetails legen Sie fest, wer den Kalendereintrag sehen darf.
 
 ![Markiert ist das Auswahlfeld Sichtbarkeit mit dem Wert Privat, direkt unter dem Feld Beschreibung im Dialog Termindetails](assets/pers_menu_calendar_visibility_v1_de.png){ class="shadow lightbox" title="Dialog Termindetails, Feld Sichtbarkeit" }
 
@@ -117,7 +117,7 @@ Im persönlichen Kalender werden angezeigt:
 
 !!! info "Aggregierte Kalender"
 
-    Ein aggregierter Kalender ist ein Sammelfeed, der alle Kalender und deren Termine enthält, auf die Sie Zugriff haben. Sie können diesen Feed von anderen Anwendungen aus verwenden, um alle Ihre OpenOlat-Termine dort einzufügen oder anzuzeigen. Dies erspart Ihnen die Arbeit, jeden Kalender einzeln einfügen zu müssen (siehe Kalender integrieren unten). Über das Zahnradsymbol in der Liste können Sie ferner Dateien und Kalender importieren sowie die Termine eines kompletten Kalenders zurücksetzen.
+    Ein aggregierter Kalender ist ein Sammelfeed, der alle Kalender und deren Termine enthält, auf die Sie Zugriff haben. Sie können diesen Feed von anderen Anwendungen aus verwenden, um alle Ihre OpenOlat-Termine dort einzufügen oder anzuzeigen. Dies erspart Ihnen die Arbeit, jeden Kalender einzeln einfügen zu müssen (siehe [OpenOlat-Kalender weitergeben](#share)). Über die 3 Punkte am Ende einer Zeile der Kalenderliste können Sie ferner Dateien und Kalender importieren sowie die Termine eines kompletten Kalenders zurücksetzen.
 
 [Zum Seitenanfang ^](#calendar)
 
@@ -126,7 +126,7 @@ Im persönlichen Kalender werden angezeigt:
 
 ## Kalenderliste {: #list}
 
-Über die Schaltfläche "Einstellungen" (kleiner Button mit dem Zahnrad-Icon) öffnet sich die Kalenderliste.
+In der Kalenderliste bestimmen Sie, welche Kalender Sie gemeinsam sehen und in welcher Farbe. Sie öffnen sie mit dem Symbol "Einstellungen" :o_icon_o_icon_customize: in der Kopfzeile des Kalenders.
 
 ![Markiert ist das Zahnrad-Symbol in der Kopfzeile des Kalenders, zwischen dem Drucksymbol und dem Feedsymbol: Es öffnet die Kalenderliste](assets/pers_menu_calendar_list_open_v1_de.png){ class="shadow lightbox" title="Kopfzeile des Kalenders" }
 
@@ -153,8 +153,7 @@ Unter dem Icon mit den 3 Punkten am Ende einer Zeile werden Bearbeitungsmöglich
 
 ## Kalender zur Kalenderliste hinzufügen  {: #add_to_list}
 
-Die Kurs- und Gruppenkalender werden der Kalenderliste des persönlichen Kalenders standardmässig hinzugefügt.
-Soll ein weiterer eigenständiger Kalender zur Kalenderliste hinzugefügt werden, verwenden Sie dazu die Buttons oberhalb der Liste.
+OpenOlat fügt die Kurs- und Gruppenkalender der Kalenderliste des persönlichen Kalenders standardmässig hinzu. Einen weiteren eigenständigen Kalender fügen Sie mit den Buttons oberhalb der Liste hinzu.
 
 Mit dem Button "Datei importieren" können Kalenderdateien (.ics) eingefügt werden.<br>
 Mit Klick auf den kleinen Pfeil daneben erscheint der Eintrag "Kalender via URL importieren".
@@ -168,7 +167,7 @@ Ein Kalender, den Sie per URL importieren, muss über das öffentliche Internet 
 
     Mit den Buttons oberhalb der Kalenderliste fügen Sie weitere eigenständige Kalender zur Kalenderliste hinzu.
 
-    * Es erscheint eine weitere Zeile = weiterer eigenständiger Kalender
+    * Es erscheint eine weitere Zeile, also ein weiterer eigenständiger Kalender.
     * Sie können in der Kalenderliste bestimmen, ob die Termine dieses Kalenders in Ihren persönlichen Kalender übernommen werden sollen (Toggle-Button einschalten).
     * Sie können den Kalendern unterschiedliche Farben geben.
 
@@ -177,7 +176,7 @@ Ein Kalender, den Sie per URL importieren, muss über das öffentliche Internet 
     * Die hier importierten Kalender erscheinen *nicht* in der Kalenderliste, sind aber in dem nun aggregierten Kalender enthalten.
     * Sie können *keine* farbliche Unterscheidung vornehmen.
 
-    **Empfehlung:**<br> Zur besseren Übersichtlichkeit wird der Import als eigenständige Kalender empfohlen (Import durch Buttons in der Kopfzeile der Kalenderliste).
+    **Empfehlung:**<br> Importieren Sie Kalender für eine bessere Übersicht als eigenständige Kalender, mit den Buttons in der Kopfzeile der Kalenderliste.
 
 
 
@@ -190,9 +189,28 @@ Ein Kalender, den Sie per URL importieren, muss über das öffentliche Internet 
 ---
 
 
+## Kalender drucken [:octicons-tag-16:{ title="ab Release 9.0 (OO-593)" }](https://track.frentix.com/issue/OO-593) {: #print}
+
+Für die Planung einer Woche oder für einen Aushang brauchen Sie Ihre Termine auf Papier oder als PDF. OpenOlat stellt dafür die Termine eines Zeitraums, den Sie wählen, als Liste zusammen, Tag für Tag.
+
+1. Klicken Sie in der Kopfzeile des Kalenders auf das Symbol "Drucken" :o_icon_o_icon_print:. Es steht links neben dem Symbol "Einstellungen", siehe Bild im Abschnitt [Kalenderliste](#list).
+2. Wählen Sie im Fenster "Drucken" den Zeitraum mit "Von" und "Bis". Vorgegeben sind heute und der gleiche Tag im nächsten Monat.
+3. Klicken Sie auf "Drucken".
+
+OpenOlat öffnet die Liste in einem neuen Browserfenster und darin den Druckdialog Ihres Browsers. Dort wählen Sie den Drucker oder speichern die Liste als PDF.
+
+Die Liste enthält die Termine aller Kalender, die Sie in der Kalenderliste in der Spalte "Anzeigen" eingeschaltet haben. Bei Terminen, von denen Sie nur die Zeitangabe sehen dürfen, steht statt des Titels "(Kalenderdetails verborgen)".
+
+Das Symbol "Drucken" finden Sie im persönlichen Kalender, im Kurskalender, im Gruppenkalender und im Stundenplan einer [Durchführung](../area_modules/Course_Planner_Implementations.de.md) im Course Planner. Kein Symbol "Drucken" haben die Kalender der [Raumverwaltung](../area_modules/Course_Planner_Rooms.de.md), der [Terminplan eines Projekts](../area_modules/Project_Schedule.de.md) und die Ansicht "Raumbuchungen anzeigen" der Kursbausteine [BigBlueButton](../learningresources/bigbluebutton/index.de.md) und [Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.de.md). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9931)" }](https://track.frentix.com/issue/OO-9931)
+
+[Zum Seitenanfang ^](#calendar)
+
+---
+
+
 ## OpenOlat-Kalender weitergeben {: #share}
 
-Über iCal (einem Standard zur Verwaltung von Terminen), können Sie die verschiedenen OpenOlat-Kalender in einen anderen Kalender wie z.B. den Google-Kalender integrieren. Klicken Sie dazu das iCal Icon :o_icon_o_icon_rss: entweder in der Kalenderansicht oder in der entsprechenden Zeile der Kalenderliste und kopieren Sie den iCal Link.
+Wenn Sie Ihre OpenOlat-Termine in einem anderen Kalenderprogramm sehen möchten, etwa im Google-Kalender, binden Sie die OpenOlat-Kalender über iCal ein, einen Standard für den Austausch von Terminen. Klicken Sie dazu auf das Symbol iCal :o_icon_o_icon_rss: in der Kopfzeile des Kalenders oder in der entsprechenden Zeile der Kalenderliste und kopieren Sie den iCal-Link.
 
 [Zum Seitenanfang ^](#calendar)
 
@@ -220,13 +238,21 @@ Andere Systeme, zum Beispiel PerformX, können über die REST-Schnittstelle Term
 [Kurse finden >](../area_modules/Courses.de.md)<br>
 [Persönliches Menü >](../personal_menu/index.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
-[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Course Planner: Raumverwaltung >](../area_modules/Course_Planner_Rooms.de.md)<br>
+[Projekte - Terminplan >](../area_modules/Project_Schedule.de.md)<br>
+[Kursbaustein "BigBlueButton" >](../learningresources/bigbluebutton/index.de.md)<br>
+[Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)
 
 **Weiterführend**<br>
 [Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Kursbaustein "Kalender" >](../learningresources/Course_Element_Calendar.de.md)<br>
 [Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)
+
+**youtube**<br>
+[Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>)
 
 
 [Zum Seitenanfang ^](#calendar)

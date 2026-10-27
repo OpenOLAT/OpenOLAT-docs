@@ -36,7 +36,7 @@ To add a new appointment, click in the corresponding calendar field. A pop-up op
 
 ![The nine entries of an appointment from top to bottom, from Calendar to Links, below them the Save and Cancel buttons](assets/pers_menu_calendar_details_v1_de.png){ class="shadow lightbox" title="Event details dialog" }
 
-1. If you are a group member, first select the calendar in which you would like to create an appointment (personal calendar or group calendar) in the calendar pull-down menu at the top.
+1. If you are a group member, first select in the "Calendar" field at the top in which calendar you create the appointment (personal calendar or group calendar).
 
 2. The "Event details" must include a subject.
 
@@ -50,7 +50,7 @@ To add a new appointment, click in the corresponding calendar field. A pop-up op
 
 7. In the "Description" field you add further details about the appointment.
 
-8. Which details of an appointment are displayed for whom is described in the [Visibility](../personal_menu/Calendar.md#visibility) section.
+8. Which details of an appointment are displayed for whom is described in the [Visibility](#visibility) section.
 
 9. You can only add links after the appointment has been created. Simply save the existing appointment and edit it again. You will then see an "Add link" button under "Links".
 
@@ -77,11 +77,11 @@ An appointment can also be moved using drag & drop.
 
 ## Recurring events {: #recurring_events}
 
-In the event details, the desired frequency of recurring appointments can be selected under "Recurrence". As soon as a recurrence is selected, the input field appears with which the end of the series is defined (mandatory field).
+For an appointment that takes place regularly, you create a series instead of entering each appointment individually. To do this, select under "Recurrence" in the event details how often the appointment repeats. As soon as you select a recurrence, the mandatory field "ends on" appears for the end of the series.
 
 ![Highlighted are the Recurrence selection field with the value Monday - Friday and next to it the mandatory field ends on with the end date of the series, in the Event details dialogue](assets/pers_menu_calendar_recurrence_v1_de.png){ class="shadow lightbox" title="Event details dialog, Recurrence field" }
 
-Serial appointments can also be edited. To do this, click on one of the appointments in the calendar. When saving the adjustment, you can select whether the change applies to all appointments in the series or only to the selected appointment. If all appointments are to be changed, those appointments that have not previously been customized will be changed.
+You can also edit recurring appointments. To do this, click on one of the appointments in the calendar. When saving, you select whether the change applies to all appointments in the series or only to the selected appointment. If it applies to all appointments, OpenOlat changes the appointments of the series that you have not adjusted individually before.
 
 [To the top of the page ^](#calendar)
 
@@ -90,7 +90,7 @@ Serial appointments can also be edited. To do this, click on one of the appointm
 
 ## Visibility {: #visibility}
 
-Specify here who can see the calendar entry.
+With the "Visibility" field in the event details you specify who can see the calendar entry.
 
 ![Highlighted is the Visibility selection field with the value Private, directly below the Description field in the Event details dialogue](assets/pers_menu_calendar_visibility_v1_de.png){ class="shadow lightbox" title="Event details dialog, Visibility field" }
 
@@ -117,7 +117,7 @@ The personal calendar displays:
 
 !!! info "Aggregated calendar"
 
-    An aggregated calendar is a collective feed that contains all calendars and their appointments that you have access to. You can use this feed from other applications to add or display all your OpenOlat appointments there. This saves you the work of having to insert each calendar individually (see Integrating calendars below). You can also use the gear icon in the list to import files and calendars and reset the appointments of an entire calendar.
+    An aggregated calendar is a collective feed that contains all calendars and their appointments that you have access to. You can use this feed from other applications to add or display all your OpenOlat appointments there. This saves you the work of having to insert each calendar individually (see [Share OpenOlat calendar](#share)). You can also use the 3 dots at the end of a line of the calendar list to import files and calendars and reset the appointments of an entire calendar.
 
 [To the top of the page ^](#calendar)
 
@@ -126,7 +126,7 @@ The personal calendar displays:
 
 ## Calendar list {: #list}
 
-The "Settings" button (small button with the cogwheel icon) opens the calendar list.
+In the calendar list you determine which calendars you see together and in which color. You open it with the "Settings" icon :o_icon_o_icon_customize: in the calendar header.
 
 ![Highlighted is the cogwheel icon in the calendar header, between the print icon and the feed icon: it opens the calendar list](assets/pers_menu_calendar_list_open_v1_de.png){ class="shadow lightbox" title="Calendar header" }
 
@@ -153,8 +153,7 @@ Editing options are displayed under the icon with the 3 dots at the end of a lin
 
 ## Add calendars to the calendar list {: #add_to_list}
 
-The course and group calendars are added to the calendar list of the personal calendar by default.
-If you want to add another independent calendar to the calendar list, use the buttons above the list.
+OpenOlat adds the course and group calendars to the calendar list of the personal calendar by default. You add another independent calendar with the buttons above the list.
 
 Calendar files (.ics) can be added using the "Import file" button.<br>
 Clicking the small arrow next to it reveals the "Import from URL" entry.
@@ -168,7 +167,7 @@ A calendar that you import from a URL must be reachable via the public internet.
 
     Use the buttons above the calendar list to add further independent calendars to the calendar list.
 
-    * Another line appears = another independent calendar
+    * Another line appears, that is, another independent calendar.
     * You can specify in the calendar list whether the appointments in this calendar should be transferred to your personal calendar (activate the toggle button).
     * You can give the calendars different colors.
 
@@ -177,7 +176,7 @@ A calendar that you import from a URL must be reachable via the public internet.
     * The calendars imported here do *not* appear in the calendar list, but are included in the now aggregated calendar.
     * You can *not* differentiate by color.
 
-    **Recommendation:**<br> For a better overview, we recommend importing as a separate calendar (import via buttons in the header of the calendar list).
+    **Recommendation:**<br> For a better overview, import calendars as independent calendars, with the buttons in the header of the calendar list.
 
 
 
@@ -190,9 +189,28 @@ A calendar that you import from a URL must be reachable via the public internet.
 ---
 
 
+## Print calendar [:octicons-tag-16:{ title="from Release 9.0 (OO-593)" }](https://track.frentix.com/issue/OO-593) {: #print}
+
+To plan a week or to put up a notice, you need your appointments on paper or as a PDF. For this, OpenOlat compiles the appointments of a period that you choose as a list, day by day.
+
+1. In the calendar header, click the "Print" icon :o_icon_o_icon_print:. It is located to the left of the "Settings" icon, see the image in the [Calendar list](#list) section.
+2. In the "Print" window, choose the period with "From" and "To". The defaults are today and the same day next month.
+3. Click "Print".
+
+OpenOlat opens the list in a new browser window and opens your browser's print dialog in it. There you choose the printer or save the list as a PDF.
+
+The list contains the appointments of all calendars that you have switched on in the "Show" column of the calendar list. For appointments of which you may only see the time information, "(Calendar details hidden)" appears instead of the subject.
+
+You find the "Print" icon in the personal calendar, in the course calendar, in the group calendar and in the timetable of an [implementation](../area_modules/Course_Planner_Implementations.md) in the Course Planner. The calendars of the [room management](../area_modules/Course_Planner_Rooms.md), the [schedule of a project](../area_modules/Project_Schedule.md) and the "Show room bookings" view of the [BigBlueButton](../learningresources/bigbluebutton/index.md) and [Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.md) course elements have no "Print" icon. [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9931)" }](https://track.frentix.com/issue/OO-9931)
+
+[To the top of the page ^](#calendar)
+
+---
+
+
 ## Share OpenOlat calendar {: #share}
 
-Using iCal (a standard for managing appointments), you can integrate the various OpenOlat calendars into another calendar, such as the Google calendar. To do this, click the iCal icon :o_icon_o_icon_rss: either in the calendar view or in the corresponding line of the calendar list and copy the iCal link.
+If you want to see your OpenOlat appointments in another calendar program, for example in Google Calendar, integrate the OpenOlat calendars via iCal, a standard for exchanging appointments. To do this, click the iCal icon :o_icon_o_icon_rss: in the calendar header or in the corresponding line of the calendar list and copy the iCal link.
 
 [To the top of the page ^](#calendar)
 
@@ -220,13 +238,21 @@ Other systems, for example PerformX, can write appointments into OpenOlat calend
 [Finding courses >](../area_modules/Courses.md)<br>
 [Personal menu >](../personal_menu/index.md)<br>
 [User tools >](../personal_menu/Personal_Tools.md)<br>
-[Security >](../../manual_admin/administration/Login_Security.md)
+[Security >](../../manual_admin/administration/Login_Security.md)<br>
+[Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
+[Course Planner: Room management >](../area_modules/Course_Planner_Rooms.md)<br>
+[Projects - Schedule >](../area_modules/Project_Schedule.md)<br>
+[Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
+[Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)
 
 **Further reading**<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
 [Group Administration >](../groups/Group_Administration/index.md)<br>
 [Course Element "Calendar" >](../learningresources/Course_Element_Calendar.md)<br>
 [Core functions: Overview >](../../manual_admin/administration/Core_functions.md)
+
+**youtube**<br>
+[Course calendar](<https://www.youtube.com/embed/tfx6UCYw8t8>)
 
 
 [To the top of the page ^](#calendar)
