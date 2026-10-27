@@ -15,7 +15,7 @@ Das Menü "Einstellungen" steht Besitzer:innen des Kurses, Lernressourcenverwalt
 
     Die Einstellungen von herkömmlichen und [Lernpfadkursen](../learningresources/Learning_path_course.de.md) variieren leicht.
 
-    Über die Tabs "Metadaten", "Info", "Durchführung" und "Freigabe" können Sie Informationen angeben, die in der [Kursinfoseite](../learningresources/Info_page.de.md) sichtbar werden.
+    Über die Tabs "Metadaten", "Info", "Durchführung" und "Freigabe" können Sie Informationen angeben, die auf der [Infoseite des Kurses](../learningresources/Info_page.de.md) sichtbar werden.
 
 ## Steckbrief
 
@@ -183,7 +183,7 @@ Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 
 !!! info "Wichtig"
 
-    Bei herkömmlichen Kursen sind im Bewertungs-Tab nur die Einstellungen für Leistungsnachweise, Zertifikate und Badges verfügbar. Die Konfiguration für das Bestehen erfolgt im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte":<br>
+    Bei herkömmlichen Kursen sind im Bewertungs-Tab nur die Einstellungen für Leistungsnachweise, Zertifikate und Badges verfügbar. Die Anforderungen für das Bestehen legen Sie im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" fest:<br>
     `Kurs > Administration > Kurseditor > oberster Kursbaustein > Tab "Punkte"`
 
     Einen Fortschritt gibt es bei herkömmlichen Kursen nicht.

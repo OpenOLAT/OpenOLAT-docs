@@ -106,7 +106,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **ø Punkte** (durchschnittliche Punktzahl aller Teilnehmenden, die diesen Kurs bereits bearbeitet haben)
 * **Zertifikate** (Anzahl der Zertifikate, die in diesem Kurs bereits ausgestellt wurden)
 * **Bewertungswerkzeug** (anklickbares Symbol, das direkt zum Bewertungswerkzeug dieses Kurses führt)
-* **Infoseite** (anklickbares Glühbirnen-Symbol, das direkt zu den Informationen führt, die im Kurs unter `Kurs > Administration > Einstellungen` eingegeben wurden)
+* **Infoseite** (anklickbares Info-Symbol, ein Kreis mit "i". Ein Klick öffnet die Infoseite des Kurses dieser Zeile mit den Angaben, die im Kurs unter `Kurs > Administration > Einstellungen` eingegeben wurden.) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9758)" }](https://track.frentix.com/issue/OO-9758){:target="_blank"}
 
 Am rechten Rand jeder Zeile öffnet das Drei-Punkte-Menü die Aktionen zu diesem Eintrag: "Bewertungswerkzeug", "Infoseite" und "In neuem Tab öffnen". Den Eintrag "Bewertungswerkzeug" enthält das Menü nur bei Kursen und Tests.
 

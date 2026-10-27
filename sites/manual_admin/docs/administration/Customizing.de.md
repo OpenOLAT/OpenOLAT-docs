@@ -90,7 +90,7 @@ Sie wählen dabei, ob OpenOlat statistische Daten anonym an openolat.org übertr
 
 
 
-## Portal {: #portal}
+## Portal [:octicons-tag-16:{ title="ab Release 10.0 (OO-982)" }](https://track.frentix.com/issue/OO-982) {: #portal}
 
 Das Portal ist ein Bereich der Hauptnavigation, auf dem Personen Schnellzugänge, etwa zu ihren Gruppen, Kursen oder zum Kalender, selbst anordnen. Sie schalten es auf der Seite "Bereiche" im Tab "Reihenfolge" mit dem Eintrag "Portal" frei. Welche Schnellzugänge eine Person auf ihrem Portal zeigt, legt sie selbst mit "Seite konfigurieren" fest, siehe [Portal konfigurieren](../../manual_user/basic_concepts/Portal_configuration.de.md).
 
@@ -200,7 +200,7 @@ Die Liste gilt für die ganze Instanz. Drei weitere Punkte entscheiden mit darü
 
 ### Übrige Tabs [:octicons-tag-16:{ title="ab Release 9.1 (OO-715)" }](https://track.frentix.com/issue/OO-715){:target="_blank"}
 
-In den Tabs "Infoseite n°1" bis "Infoseite n°4" binden Sie je einen Kurs als eigenen Bereich in die Hauptnavigation ein, zum Beispiel für Informationen an alle Personen der Instanz.
+In den Tabs "Infoseite n°1" bis "Infoseite n°4" binden Sie je einen Kurs als eigenen Bereich in die Hauptnavigation ein, zum Beispiel für Informationen an alle Personen der Instanz. Ein solcher Bereich "Infoseite" ist ein ganzer Kurs mit eigenem Eintrag in der Hauptnavigation. Er ist nicht dasselbe wie die [Infoseite einer Lernressource](../../manual_user/learningresources/General_Functions_Infopage.de.md), die einen Kurs beschreibt, bevor eine Person ihn betritt.
 
 ![Je Sprache ein eigener Titel und eine eigene Lernressource, hervorgehoben die Zeile für Deutsch, darüber Kurs-Toolbar für alle anzeigen und Icon CSS Class](assets/admin_customizing_infopage_v2_de.png){ class="shadow lightbox" title="Tab Infoseite n°1 auf der Seite Bereiche · 2026.10.09" }
 
@@ -224,6 +224,7 @@ Mit der Checkbox "iFrame" zeigt OpenOlat die Seite eingebettet im Bereich an. Be
 [Portal konfigurieren >](../../manual_user/basic_concepts/Portal_configuration.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
 [Modul Katalog >](Modules_Catalog_2.0.de.md)<br>
+[Allgemeine Funktionen: Infoseite >](../../manual_user/learningresources/General_Functions_Infopage.de.md)<br>
 [Sicherheit >](Login_Security.de.md)
 
 **Weiterführend**<br>

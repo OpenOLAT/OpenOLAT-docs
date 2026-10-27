@@ -22,15 +22,14 @@ Um im Feld "E-Mail-Adressen" mehrere Empfängeradressen einzutragen, müssen Sie
 
 ## Versand an Kursbesitzer/Betreuer/Teilnehmer [:octicons-tag-16:{ title="ab Release 15.4 (OO-5147)" }](https://track.frentix.com/issue/OO-5147){:target="_blank"}
 
-Markieren Sie die gewünschten Checkboxen, um die Mitgliedergruppen zu definieren, die Sie anschreiben möchten. Markieren Sie bei Betreuern und Teilnehmern in einem zweiten Schritt, ob Sie jeweils alle anschreiben möchten, oder nach Kurs und Gruppen unterscheiden. Klicken Sie keine Checkbox an, wird keine Mail verschickt.
+Markieren Sie die gewünschten Checkboxen, um die Mitgliedergruppen zu definieren, die Sie anschreiben möchten. Markieren Sie bei Betreuer:innen und Teilnehmer:innen in einem zweiten Schritt, ob Sie jeweils alle anschreiben möchten, oder nach Kurs und Gruppen unterscheiden. Klicken Sie keine Checkbox an, wird keine Mail verschickt.
 
 In den Feldern "Betreff (Vorlage)" und "Nachricht (Vorlage)" können Sie optional Standardwerte vorgeben.
 
  * *Betreff*: Wird der Betreff vorgegeben so kann dieser von den Teilnehmenden nicht angepasst werden. Wird der Betreff in der Vorlage leer gelassen, so müssen die Teilnehmenden einen eigenen Betreff festlegen (Pflichtfeld)
  * *Nachricht*: Die vordefinierte Nachricht kann beim Versand einer E-Mail durch die Teilnehmenden beliebig editiert werden.
 
-Zudem kann die Nachricht / der Betreff mit dem Einsatz von Variablen
-persönlicher und kursbezogen gestaltet werden.
+Zudem kann die Nachricht / der Betreff mit dem Einsatz von Variablen persönlicher und kursbezogen gestaltet werden.
 
 ## Einsatz von Variablen [:octicons-tag-16:{ title="ab Release 15.4 (OO-5070)" }](https://track.frentix.com/issue/OO-5070){:target="_blank"}
 
@@ -49,7 +48,7 @@ Folgende Variablen können im Betreff und im Text der E-Mail verwendet werden:
 
 !!! note "Hinweis"
 
-    Die Benutzervariablen beziehen sich auf denjenigen, der die E-Mail über den **"Senden"-Button** auslöst und verschickt.
+    Die Benutzervariablen beziehen sich auf die Person, die die E-Mail über den Button "Senden" auslöst und verschickt.
 
 Geben Sie durch einen geeigneten Kurztitel des Kursbausteins "E-Mail" Ihren Kursteilnehmer:innen einen Hinweis darauf, an welchen Empfängerkreis diese Nachricht versendet wird. Im E-Mail-Formular selbst werden die Empfängeradressen aus Gründen des Datenschutzes nicht angezeigt.
 
@@ -59,6 +58,6 @@ Geben Sie durch einen geeigneten Kurztitel des Kursbausteins "E-Mail" Ihren Kurs
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kurseinstellungen - Tab Toolbar](../learningresources/Course_Settings.de.md)
+[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
 
-[zum Seitenanfang ^](#mail)
+[Zum Seitenanfang ^](#mail)

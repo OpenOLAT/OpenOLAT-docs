@@ -106,7 +106,7 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 * **ø Score** (average score of all participants who have already worked on this course)
 * **Certificates** (number of certificates already issued in this course)
 * **Assessment tool** (clickable icon that leads directly to the assessment tool of this course)
-* **Info page** (clickable light bulb icon that leads directly to the information entered in the course under `Course > Administration > Settings`)
+* **Info page** (clickable info icon, a circle with "i". A click opens the info page of the course in this row with the details entered in the course under `Course > Administration > Settings`.) [:octicons-tag-16:{ title="from Release 21.1 (OO-9758)" }](https://track.frentix.com/issue/OO-9758){:target="_blank"}
 
 At the right edge of each row, the three-dot menu opens the actions for this entry: "Assessment tool", "Info page" and "Open in new tab". The menu contains the entry "Assessment tool" only for courses and tests.
 

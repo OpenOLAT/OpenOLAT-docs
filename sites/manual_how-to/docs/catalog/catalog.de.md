@@ -57,7 +57,7 @@ Auch [direkte Links zu einem bestimmten Angebot](../../manual_user/area_modules/
 
 ## Was kann ich im OpenOlat-Katalog anzeigen?  {: #catalog_what}
 
-Der OpenOlat-Katalog listet **Kurzbeschreibungen zu Kursen und Lernressourcen** auf. Es können bereits auf der Startseite einzelne Kacheln angezeigt werden. Unter den **Kategorien** befinden sich **Microsites**, auf denen dann weitere Einzelbeschreibungen (Kacheln) zu finden sind.
+Der OpenOlat-Katalog listet Kurzbeschreibungen zu Kursen und Lernressourcen auf. Schon auf der Startseite können einzelne Kacheln erscheinen. Die Kategorien führen zu Microsites mit weiteren Einzelbeschreibungen (Kacheln).
 
 ![Kategorien als Bildkacheln, eine davon führt zu einer Microsite mit Einzelbeschreibungen, darunter Beliebte Kurse mit einer markierten Kachel für einen einzelnen Kurs](assets/katalog_community_v1_de.png){ class="shadow lightbox" title="Startseite eines Katalogs" }
 

@@ -1,6 +1,6 @@
 # Toolbar: Übersicht {: #toolbar}
 
-Die Toolbar (Werkzeugleiste) befindet sich im Kopf der Seite, direkt unter der Hauptnavigation und zeigt verschiedenste Icons für Werkzeuge.
+Die Toolbar (Werkzeugleiste) steht im Kopf der Seite direkt unter der Hauptnavigation und zeigt die Icons der Werkzeuge.
 
 **Beispiel Teilnehmer:in**:
 
@@ -18,6 +18,12 @@ Wird die Toolbar für die Teilnehmer:innen angezeigt, können Kursbesitzer:innen
 
 Die Tools erscheinen dann entweder in der Toolbar oder unter "Mein Kurs".
 
+## Steckbrief
+
+Name | Toolbar
+---------|----------
+Verfügbar seit | Release 10.0 (2014)
+
 ---
 
 ## Verfügbare Icons {: #available_icons}
@@ -31,7 +37,7 @@ Die Kurs-Administration wird nur den zur Bearbeitung Berechtigten angezeigt, nic
 
 ---
 
-### Status {: #status}
+### Status [:octicons-tag-16:{ title="ab Release 13.0 (OO-3584)" }](https://track.frentix.com/issue/OO-3584) {: #status}
 
 ![Statusanzeige Veröffentlicht als grüne Schaltfläche mit Auswahlpfeil markiert, links neben den Werkzeug-Icons](assets/toolbar_status_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
@@ -40,16 +46,16 @@ Der Status wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilne
 
 ---
 
-### Kursinfo {: #info_page}
+### Infoseite [:octicons-tag-16:{ title="ab Release 21.1 (OO-9758)" }](https://track.frentix.com/issue/OO-9758){:target="_blank"} {: #info_page}
 
 ![Werkzeug Infoseite mit dem Info-Symbol als erstes Werkzeug der Toolbar markiert](assets/toolbar_course_info_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Unter Kursinfo sind allgemeine Informationen über den Kurs abrufbar, wie z. B. die Beschreibung der Veranstaltung oder Durchführungszeitraum und Ort. Diese Informationen sind bereits sichtbar, bevor ein Kurs überhaupt von Lernenden aufgerufen werden kann.<br>
+Wer wissen möchte, worum es in einem Kurs geht, öffnet über das Werkzeug "Infoseite" mit dem Info-Symbol die Beschreibung des Kurses, etwa mit Durchführungszeitraum und Ort. Dieselben Angaben sehen Interessierte schon, bevor sie den Kurs betreten.<br>
 [Mehr dazu >](../learningresources/Info_page.de.md)
 
 ---
 
-### Lernpfad {: #learning_path}
+### Lernpfad [:octicons-tag-16:{ title="ab Release 15.0 (OO-4300)" }](https://track.frentix.com/issue/OO-4300) {: #learning_path}
 
 ![Icon Lernpfad in der Toolbar markiert, rechts daneben Kalender, BigBlueButton und Kurssuche](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
@@ -84,7 +90,7 @@ Standardmässig haben nur Besitzer:innen eines Kurses Schreibrechte im Kalender.
 
 ---
 
-### Liste der Teilnehmer:innen {: #participant_list}
+### Liste der Teilnehmer:innen [:octicons-tag-16:{ title="ab Release 15.0 (OO-4168)" }](https://track.frentix.com/issue/OO-4168) {: #participant_list}
 
 ![Icon Liste der Teilnehmer:innen in der Toolbar markiert](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
@@ -111,7 +117,7 @@ E-Mails können an diversen Stellen versandt werden. Neben dem [persönlichen Me
 
 ---
 
-### BigBlueButton (oder andere virtuelle Klassenzimmer) {: #BBB}
+### BigBlueButton (oder andere virtuelle Klassenzimmer) [:octicons-tag-16:{ title="ab Release 15.4 (OO-5151)" }](https://track.frentix.com/issue/OO-5151) {: #BBB}
 
 ![Icon BigBlueButton in der Toolbar markiert](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
@@ -143,7 +149,7 @@ In der Toolbar kann der Zugriff auf ein zentrales Wiki für den Gesamtkurs einge
 
 ![Icon Forum in der Toolbar markiert](assets/toolbar_forum_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
-Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Forum für den gesamten Kurs in der Kurstoolbar anzeigen zu lassen. Das bietet sich an, wenn der Kurs nur *ein* Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.<br>
+Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Forum für den gesamten Kurs in der Kurstoolbar anzeigen zu lassen. Das bietet sich an, wenn der Kurs nur *ein* Forum umfasst, das permanent zur Verfügung stehen soll. Einstellungen wie Pseudonymisierung oder Moderationsrechte lassen sich hier jedoch nicht festlegen.<br>
 [Mehr dazu >](../learningresources/Course_Element_Forum.de.md)
 
 ---
@@ -184,7 +190,7 @@ Der Chat ermöglicht den synchronen Austausch unter den Kurs-Mitgliedern.<br>
 
 ---
 
-### Kurssuche {: #course_search}
+### Kurssuche [:octicons-tag-16:{ title="ab Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581) {: #course_search}
 
 ![Icon Kurssuche in der Toolbar markiert](assets/toolbar_search_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses" }
 
@@ -245,13 +251,13 @@ Kursteilnehmer:innen sehen in Lernpfadkursen hier ihren Bearbeitungsstand in For
 
 ## Icons (Tools) anzeigen {: #show_icons}
 
-### Anzeige durch Kursbesitzer:innen {: #show_icons_by_owners}
+### Anzeige durch Kursbesitzer:innen [:octicons-tag-16:{ title="ab Release 10.5 (OO-1967)" }](https://track.frentix.com/issue/OO-1967) {: #show_icons_by_owners}
 
 Als Kursbesitzer:in legen Sie unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` fest, ob die Teilnehmer:innen eine Toolbar angezeigt bekommen und, wenn ja, welche Icons (Werkzeuge) in der Toolbar angezeigt werden.
 
 ![Geöffnetes Menü Administration mit markiertem Eintrag Einstellungen und markiertem Tab Toolbar](assets/toolbar_show_icons1_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
 
-![Tab Toolbar in den Kurseinstellungen mit dem Schalter Toolbar sichtbar für Teilnehmer:innen und je einem Schalter pro Werkzeug](assets/toolbar_show_icons2_v1_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen" }
+![Checkbox Toolbar sichtbar für Teilnehmer:innen, darunter je eine Checkbox pro Werkzeug, alle eingeschaltet](assets/toolbar_show_icons2_v1_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen" }
 
 ### Ständig angezeigte Tool-Icons {: #show_icons_permanently}
 
@@ -259,7 +265,7 @@ Einige Icons werden in jedem Kurs angezeigt, sobald die Toolbar angezeigt wird. 
 
 - Administration
 - Status
-- Kursinfo
+- Infoseite
 - Lernpfad
 - Rolle
 - Mein Kurs

@@ -6,7 +6,7 @@ Im Modul Gruppen legen Administrator:innen systemweit fest, wer Gruppen erstelle
     `Administration > Module > Gruppen`
 
 !!! tip "Datenschutz"
-    Beachten Sie, dass in diesem Menü datenschutzbezogende Konfigurationen durchgeführt werden können (erzwungene Benachrichtigungen), die insbesondere **auch für Kurse gelten**: Siehe [Datenschutz](#data_privacy)
+    Beachten Sie, dass sich in diesem Menü datenschutzbezogene Einstellungen festlegen lassen (erzwungene Benachrichtigungen), die insbesondere auch für Kurse gelten. Siehe [Datenschutz](#data_privacy)
 
 
 ## Gruppen erstellen [:octicons-tag-16:{ title="ab Release 8.2 (OO-291)" }](https://track.frentix.com/issue/OO-291){:target="_blank"} {: #create_groups}
@@ -21,7 +21,7 @@ Systemadministrator:innen und Gruppenverwalter:innen können immer Gruppen erste
 ---
 
 
-## Gruppe - Lernressourcen zuordnen {: #assign_learning_resources}
+## Gruppe - Lernressourcen zuordnen [:octicons-tag-16:{ title="ab Release 8.4 (OO-513)" }](https://track.frentix.com/issue/OO-513) {: #assign_learning_resources}
 
 Kursbesitzer:innen und Gruppenbetreuer:innen können eigene Gruppen in eigene Kurse einbinden. Mit den folgenden Optionen lässt sich dieses Recht auf weitere Rollen ausweiten:
 
@@ -44,13 +44,13 @@ Legt pro Rolle der **einladenden** Person fest, ob beim manuellen Hinzufügen in
 
 Konfigurierbare Rollen: Benutzer:innen ohne zusätzliche Rolle, Autor:innen, Benutzerverwalter:innen, Rollenverwalter:innen, Gruppenverwalter:innen, Lernressourcenverwalter:innen, Poolverwalter:innen, Kursplaner:innen, Selectusverwalter:innen, Absenzenverwalter:innen, Projektverwalter:innen, Qualityverwalter:innen, Linienvorgesetzte, Ausbildungsverantwortliche, Principals, Administrator:innen, Systemadministrator:innen.
 
-![Datenschutz-Einstellungen im Modul Gruppen mit den Rollenlisten für erzwungene E-Mail-Benachrichtigung und Mitgliedschaftsbestätigung, je 17 Rollen](assets/module_groups_privacy_v2_de.png){ class="shadow lightbox" }
+![Rollenlisten für erzwungene E-Mail-Benachrichtigung und Mitgliedschaftsbestätigung, je 17 Rollen](assets/module_groups_privacy_v2_de.png){ class="shadow lightbox" title="Abschnitt Datenschutz im Modul Gruppen" }
 
 ### Bestätigung Mitgliedschaft erforderlich bei Einladung durch {: #accept_membership}
 
 Legt pro Rolle der einladenden Person fest, ob eine neue Mitgliedschaft sofort aktiv wird oder ob die eingeladene Person die Anfrage zuerst annehmen oder ablehnen muss (ausstehende Mitgliedschaft).
 
-Ausstehende Mitgliedschaftsanfragen erscheinen im Kursbereich, im Gruppenbereich und auf der Kurs- oder Bildungsprodukt-Info-Seite als Hinweisbox **"Anfragen zur Mitgliedschaft akzeptieren"**.
+Ausstehende Mitgliedschaftsanfragen erscheinen im Kursbereich, im Gruppenbereich und auf der Infoseite des Kurses oder der Durchführung als Hinweisbox "Anfragen zur Mitgliedschaft akzeptieren".
 
 !!! note "Hinweis"
 
@@ -60,9 +60,9 @@ Konfigurierbare Rollen: Benutzer:innen ohne zusätzliche Rolle, Autor:innen, Ben
 
 !!! tip "Beispielansicht bei einer entsprechenden Konfiguration für einen Kurs"
 
-    ![Dialog beim ersten Anmeldevorgang mit ausstehender Mitgliedschaftsanfrage für einen Kurs, Optionen Akzeptieren und Ablehnen](assets/module_groups_membership_request_v1_de.png){ class="shadow lightbox" }
+    ![Ausstehende Mitgliedschaftsanfrage für einen Kurs mit den Buttons Details, Akzeptieren und Ablehnen, darunter Später](assets/module_groups_membership_request_v1_de.png){ class="shadow lightbox" title="Dialog beim ersten Anmeldevorgang" }
 
-### Mitglieder können Gruppe verlassen {: #leave_group}
+### Mitglieder können Gruppe verlassen [:octicons-tag-16:{ title="ab Release 10.1 (OO-1284)" }](https://track.frentix.com/issue/OO-1284) {: #leave_group}
 
 Diese Funktion legt fest, ob Mitglieder "ihre" Gruppen selbstständig verlassen dürfen. Die beiden ersten Häkchen unterscheiden nach der Rolle der Person, welche die Gruppe erstellt hat:
 

@@ -1,13 +1,13 @@
 # Course Settings - Tab Info {: #tab_info}
 
 
-Each learning resource has an [information page](../learningresources/General_Functions_Infopage.md). The owner of the learning resource can fill this page with content, and once the learning resource has been published, it is available to interested parties even before they access the learning resource, regardless of whether they have booked it. This is useful, for example, if you want to inform the target group in advance.<br>
+Each learning resource has an [info page](../learningresources/General_Functions_Infopage.md). The owner of the learning resource can fill this page with content, and once the learning resource has been published, it is available to interested parties even before they access the learning resource, regardless of whether they have booked it. This is useful, for example, if you want to inform the target group in advance.<br>
 The information in the course administration in the "Info" tab is the essential content of the info page. Additional information for the info page comes from the "Metadata" and "Execution" tabs or is generated automatically.
 
 
 ## Set up info page {: #configure_info}
 
-The [info page](../learningresources/General_Functions_Infopage.md) is set up under `Course > Administration > Settings` in the tabs "Metadata", "Info" and "Execution". The more detailed you describe the learning resource, the easier it can be found and the better informed interested parties and later participants are.
+You set up the [info page](../learningresources/General_Functions_Infopage.md) under `Course > Administration > Settings` in the tabs "Metadata", "Info" and "Execution". The more detailed you describe the learning resource, the easier it can be found and the better informed interested parties and later participants are.
 
 You define the **Title** (mandatory field, maximum 100 characters) and the **Reference**, for example the name from the course catalog or a printed course catalog, in the ["Metadata" tab](../learningresources/Course_Settings_Metadata.md).
 

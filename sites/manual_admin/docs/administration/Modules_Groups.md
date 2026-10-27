@@ -6,7 +6,7 @@ In the Groups module, administrators define system-wide who is allowed to create
     `Administration > Modules > Groups`
 
 !!! tip "Data privacy"
-    Note that this menu also allows data-protection-related configurations (mandatory notifications) that **also apply to courses**: See [data privacy](#data_privacy)
+    Note that this menu also sets data-protection-related settings (mandatory notifications) that also apply to courses. See [data privacy](#data_privacy)
 
 
 ## Create groups [:octicons-tag-16:{ title="from Release 8.2 (OO-291)" }](https://track.frentix.com/issue/OO-291){:target="_blank"} {: #create_groups}
@@ -21,7 +21,7 @@ System administrators and group managers can always create groups. For other rol
 ---
 
 
-## Group - Resource assignment {: #assign_learning_resources}
+## Group - Resource assignment [:octicons-tag-16:{ title="from Release 8.4 (OO-513)" }](https://track.frentix.com/issue/OO-513) {: #assign_learning_resources}
 
 Course owners and group coaches can integrate their own groups into their own courses. The following options extend this right to other roles:
 
@@ -44,13 +44,13 @@ Defines per role of the **inviting** person whether an email notification must b
 
 Configurable roles: Users with no additional role, Authors, User managers, Role managers, Group managers, Learning resource managers, Question bank managers, Course planners, Selectus managers, Absence managers, Project managers, Quality managers, Line managers, Education managers, Principals, Administrators, System administrators.
 
-![Data privacy settings in the Groups module with the role lists for mandatory email notification and membership confirmation, 17 roles each](assets/module_groups_privacy_v2_en.png){ class="shadow lightbox" }
+![Role lists for enforced e-mail notification and membership confirmation, 17 roles each](assets/module_groups_privacy_v2_en.png){ class="shadow lightbox" title="Data privacy section in the Groups module" }
 
 ### Require acceptance of membership when invited by {: #accept_membership}
 
 Defines per role of the inviting person whether a new membership becomes active immediately or whether the invited person must first accept or decline the request (pending membership).
 
-Pending membership requests appear in the course area, in the group area, and on the course or educational product info page as the notification box **"Accept membership requests"**.
+Pending membership requests appear in the course area, in the group area, and on the info page of the course or implementation as the notification box "Accept membership requests".
 
 !!! note "Note"
 
@@ -60,9 +60,9 @@ Configurable roles: Users with no additional role, Authors, User managers, Role 
 
 !!! tip "Example view for a corresponding configuration for a course"
 
-    ![Dialog at first login with a pending membership request for a course, options Accept and Decline](assets/module_groups_membership_request_v1_en.png){ class="shadow lightbox" }
+    ![Pending membership request for a course with the buttons Details, Accept and Decline, below it Later](assets/module_groups_membership_request_v1_en.png){ class="shadow lightbox" title="Dialog at the first login" }
 
-### Members can leave group {: #leave_group}
+### Members can leave group [:octicons-tag-16:{ title="from Release 10.1 (OO-1284)" }](https://track.frentix.com/issue/OO-1284) {: #leave_group}
 
 This function defines whether members are allowed to leave "their" groups on their own. The first two checkboxes distinguish by the role of the person who created the group:
 

@@ -86,7 +86,7 @@ You choose whether OpenOlat transfers statistical data to openolat.org anonymous
 
 
 
-## Portal {: #portal}
+## Portal [:octicons-tag-16:{ title="from Release 10.0 (OO-982)" }](https://track.frentix.com/issue/OO-982) {: #portal}
 
 The portal is a site of the main navigation on which people arrange quick links, for example to their groups, courses or the calendar, themselves. You enable it on the "Sites" page in the "Order" tab with the entry "Portal". Which quick links a person shows on their portal, they define themselves with "Configure page", see [Portal configuration](../../manual_user/basic_concepts/Portal_configuration.md).
 
@@ -194,7 +194,7 @@ The list applies to the whole instance. Three further points decide together whe
 
 ### Other tabs [:octicons-tag-16:{ title="from Release 9.1 (OO-715)" }](https://track.frentix.com/issue/OO-715){:target="_blank"}
 
-In the tabs "Info page n°1" to "Info page n°4", you add one course each as a separate site to the main navigation, for example for information addressed to all people of the instance.
+In the tabs "Info page n°1" to "Info page n°4", you add one course each as a separate site to the main navigation, for example for information addressed to all people of the instance. Such a site "Info page" is a whole course with its own entry in the main navigation. It is not the same as the [info page of a learning resource](../../manual_user/learningresources/General_Functions_Infopage.md), which describes a course before a person enters it.
 
 ![A separate title and a separate learning resource per language, the row for German highlighted, above it Show toolbar for all users and Icon CSS Class](assets/admin_customizing_infopage_v2_en.png){ class="shadow lightbox" title="Info page n°1 tab on the Sites page · 2026.10.09" }
 
@@ -218,6 +218,7 @@ With the "iFrame" checkbox, OpenOlat shows the page embedded in the site. When y
 [Portal configuration >](../../manual_user/basic_concepts/Portal_configuration.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Catalog >](Modules_Catalog_2.0.md)<br>
+[General Functions: Info Page >](../../manual_user/learningresources/General_Functions_Infopage.md)<br>
 [Security >](Login_Security.md)
 
 **Further reading**<br>

@@ -12,7 +12,7 @@
 
 ## How the Catalog 1.0 works
 
-In the Catalog 1.0, course owners can enter their courses and thus make them visible. In addition, the catalog gives access to the information of the respective course info page, so that users can get an overview in advance without having to enter or book a course.
+In the Catalog 1.0, course owners can enter their courses and thus make them visible. In addition, the catalog opens the info page of the respective course, so that users can get an overview in advance without having to enter or book a course.
 
 Depending on the configuration, courses can be booked directly via the catalog, or the catalog serves as an overview of the courses in which participants are already enrolled.
 
@@ -22,7 +22,7 @@ The catalog can also be used to map the structures of a university or further ed
 
 Administrators or catalog administrators prepare the structure of the catalog and can also change the order of the entries.
 
-![Category Vorlagen with a subcategory and six published learning resources, toolbar with Edit data, Move, Order and Appoint managers, Catalog administration menu](assets/Katalogverwaltung1.png){ class="shadow lightbox" }
+![Category Vorlagen with a subcategory and six published learning resources, above them Edit data, Move, Order and Appoint managers](assets/Katalogverwaltung1.png){ class="shadow lightbox" title="Category in the Catalog administration menu" }
 
 Course owners can then link their courses within the predefined structure.
 
@@ -34,16 +34,16 @@ To add a course to the catalog, open the "Catalog" tab of the course settings as
 
 Click on the "Add to catalog" button and navigate to the desired position in the catalog.
 
-![Button Add to catalog and the table showing which role sees the course in the catalog in which status, Catalog tab of the course settings](assets/Katalog1a.jpg){ class="shadow lightbox" }
+![Button Add to catalog and the table showing which role sees the course in the catalog in which status](assets/Katalog1a.jpg){ class="shadow lightbox" title="Catalog tab in the course settings" }
 
 Afterwards it is displayed for whom the course is visible in its current state. You can also repeat the process and thus create several catalog entries for one course.
 
 **Further settings:**
 
-Now go to the "Share" tab as course owner to make the desired further settings:<br>
+Now go to the "Share" tab as course owner to set the desired further settings:<br>
 `Course > Administration > Settings > Tab "Share"`
 
-![Status Published and the Share tab highlighted, below them the usage Standalone and the access for participants, course settings](assets/Einstellungen_Tab_Freigabe1.jpg){ class="shadow lightbox" }
+![Status Published and the Share tab highlighted, below them the usage Standalone and the access for participants](assets/Einstellungen_Tab_Freigabe1.jpg){ class="shadow lightbox" title="Share tab in the course settings" }
 
 !!! tip "Hint"
 
@@ -70,7 +70,7 @@ Here is an example of how the configuration settings affect the catalog:
 
 A course owner enters a course in the catalog. The course has the status "Preparation" and its access is set to "Private Membership management by administration".
 
-In this case, the course is displayed in the catalog for course owners and for all enrolled members. However, the course itself cannot yet be entered, as it is still in the status "Preparation". Only after publication can the members also access it via the catalog.
+In this case, the course is displayed in the catalog for course owners and for all enrolled members. However, the course itself cannot yet be entered, as it still has the status "Preparation". Only after publication can the members also access it via the catalog.
 
 Persons who are not members of the course do *not* see the course in the catalog and cannot enter, enrol in or book the course.
 
@@ -86,16 +86,16 @@ In addition, an offer description is recommended, as well as removing the check 
 
 * The course status must be "Preparation" and must not be set to "Published"
 
-This way, users can read the course info page and enrol in the course.
+This way, users can read the info page of the course and enrol in the course.
 Course owners see all enrolled persons in the members management of the course and can remove individual persons if necessary or contact them by e-mail. However, participants cannot yet access content and course elements. This access is only activated when the course owners set the course to "Published".
 
 ## How users get to the catalog
 
 Users can call up the Catalog 1.0 via the top menu and navigate to the desired position.
 
-![Category Lernerlebnispfade with four courses, per course the learning progress in percent or the status Passed and the button Learn more, Catalog 1.0 in tile view](assets/Katalog_Lernerlebnispfad.png){ class="shadow lightbox" }
+![Category Lernerlebnispfade with four courses, per course the learning progress in percent or the status Passed and the buttons Learn more and Open](assets/Katalog_Lernerlebnispfad.png){ class="shadow lightbox" title="Category in Catalog 1.0" }
 
-The display is possible both as a list view and as a table view. In each case, further information is displayed, e.g. on the learning progress in learning paths, the implementation format, the time period, whether the course has already been passed, and further information stored in the course settings. The "Learn more" button takes users to the course info page.
+The display is possible both as a list view and as a table view. In each case, further information is displayed, e.g. on the learning progress in learning paths, the implementation format, the time period, whether the course has already been passed, and further information stored in the course settings. The "Learn more" button takes users to the info page of the course.
 
 
 !!! warning "Catalog 2.0 replaces Catalog 1.0"
@@ -109,7 +109,10 @@ The display is possible both as a list view and as a table view. In each case, f
 
 ## Further information {: #further_information}
 
-[Catalog 2.0: Offers >](catalog2.0_angebote.md)
+[Catalog 2.0: Overview >](catalog2.0.md)<br>
+[Catalog 2.0: Offers >](catalog2.0_angebote.md)<br>
+[Course Settings >](../learningresources/Course_Settings.md)<br>
+[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
 
 **youtube**<br>
 [Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>)<br>

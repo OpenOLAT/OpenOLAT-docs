@@ -2,7 +2,7 @@
 
 In addition to the [full-text search](Search_General.md#full_text_search) across the entire OpenOlat, there is also a course search, which can be activated for each course in the toolbar.
 
-![Tool Course search with magnifier icon next to Course info, Learning path, Calendar and BigBlueButton in the toolbar of a course](assets/search_in_course_toolbar_v1_de.png){ class="shadow lightbox" }
+![Tool Course search with magnifier icon next to Course info, Learning path, Calendar and BigBlueButton](assets/search_in_course_toolbar_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
 The course search only searches the corresponding course. The following elements are found:
 
@@ -10,10 +10,10 @@ The course search only searches the corresponding course. The following elements
 * Content of HTML pages
 * Documents in folders
 * Title and content of forum posts
-* Title and content of notifications
+* Title and content of info messages
 * Wiki contributions
 
-## Activation {: #activation}
+## Activation [:octicons-tag-16:{ title="from Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581) {: #activation}
 
 You activate the course search in the course administration:<br>
 `Course > Administration > Settings`, tab "[Toolbar](../learningresources/Course_Settings.md#toolbar)", option "Course search".

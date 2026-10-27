@@ -2,9 +2,9 @@
 
 ![Toolbar eines Kurses über dem Kursinhalt markiert, mit Administration, Status, den Werkzeugen von Infoseite bis Kurssuche, Rolle und Mein Kurs](assets/additional_course_features_toolbar_v1_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-In der Toolbar eines Kurses stehen Teilnehmenden eine Reihe von weiteren Kursfunktionen zur Verfügung. Einige Elemente wie ["Kursinfo"](../learningresources/Info_page.de.md), "Mein Kurs" oder der Bereich "Lernpfad" (bei Lernpfadkursen) werden automatisch angelegt. Auch das Element "Termine" erscheint automatisch in der Toolbar, wenn die ["Termine und Absenzen"](../learningresources/Events_and_absences.de.md) im Kurs aktiviert wurden. 
+In der Toolbar eines Kurses stehen Teilnehmenden eine Reihe von weiteren Kursfunktionen zur Verfügung. Einige Elemente wie ["Infoseite"](../learningresources/Info_page.de.md), "Mein Kurs" oder der Bereich "Lernpfad" (bei Lernpfadkursen) werden automatisch angelegt. Auch das Element "Termine" erscheint automatisch in der Toolbar, wenn die ["Termine und Absenzen"](../learningresources/Events_and_absences.de.md) im Kurs aktiviert wurden. 
 
-Andere Werkzeuge können von den Kursbesitzenden unter `Administration > Einstellungen > Toolbar` zusätzlich aktiviert werden. Weitere Infos zu diesen aktivierbaren Werkzeugen finden Sie auf der separaten Seite ["Einsatz weiterer Kursfunktionen der Toolbar"](../learningresources/Using_Additional_Course_Features.de.md). 
+Andere Werkzeuge können von den Kursbesitzenden unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` zusätzlich aktiviert werden. Weitere Infos zu diesen aktivierbaren Werkzeugen finden Sie auf der separaten Seite ["Einsatz weiterer Kursfunktionen der Toolbar"](../learningresources/Using_Additional_Course_Features.de.md). 
 
 ## Menü "Mein Kurs"
 
@@ -19,17 +19,17 @@ Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folge
 * **Notizen**: Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer:in lesen können.
 * **Bookmark**: Aktivieren Sie den Bookmark, dann erscheint  der Kurs im Menü "Kurse" im Tab "Favoriten".
 * **Einwilligung**: Sollte es im Kurs bestimmte Nutzungsbedingungen und/oder eine kursbezogene Datenschutzerklärung geben, denen Sie zugestimmt haben, können Sie diese hier einsehen und auch die Einwilligung widerrufen.
-* **Gruppen**: Hier sehe Sie alle kursspezifischen Gruppen in denen Sie Mitglied sind und können direkt dorthin navigieren.
+* **Gruppen**: Hier sehen Sie alle kursspezifischen Gruppen in denen Sie Mitglied sind und können direkt dorthin navigieren.
 * Mit **"Kurs verlassen"** können Sie sich aus dem Kurs austragen.
 
 
 ### Leistungsnachweis
 
-Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss vom Kursbesitzer bzw. der Kursbesitzerin zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests, Aufgaben u.ä., ihre Punkte und weitere Informationen.
+Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss von den Kursbesitzer:innen zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests, Aufgaben u.ä., ihre Punkte und weitere Informationen.
 
 ![Leistungsnachweis mit Fortschritt 40 Prozent, 2 von 13 Punkten, der Kursbausteinliste mit Bewertung und dem Bereich Zertifikate ohne erzeugtes Zertifikat](assets/Leistungsnachweis_19.png){ class="shadow lightbox" title="Leistungsnachweis eines Kurses" }
 
-Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
+Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) ausgestellt wurde, finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
 
 Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
 
@@ -48,12 +48,11 @@ Ein Überblick über alle persönlichen und kursbezogenen To-dos finden Teilnehm
 
 ### Kurs verlassen [:octicons-tag-16:{ title="ab Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405)
 
-Die "Kurs verlassen" Funktion beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, abhängig davon auf welche Weise Sie Zugriff zum Kurs haben. Im Anschluss daran haben Sie keinen Zugriff mehr auf den Kurs, bzw.
-müssen den entsprechenden Kurs- oder Gruppenbetreuer kontaktieren um wieder Kurszugriff zu erhalten.
+Die "Kurs verlassen" Funktion beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, abhängig davon auf welche Weise Sie Zugriff zum Kurs haben. Im Anschluss daran haben Sie keinen Zugriff mehr auf den Kurs und müssen die Betreuer:innen des Kurses oder der Gruppe kontaktieren, um wieder Zugriff zu erhalten.
 
 Die Möglichkeit, sich aus einem Kurs auszutragen, muss zuvor von den Kursbesitzer:innen in den Einstellungen des Kurses im Tab "Freigabe" aktiviert worden sein und gilt nur für Teilnehmende, nicht für Betreuer:innen oder Besitzer:innen.
 
-## Lernpfad der Toolbar 
+## Lernpfad der Toolbar [:octicons-tag-16:{ title="ab Release 15.0 (OO-4300)" }](https://track.frentix.com/issue/OO-4300)
 Über das Lernpfad-Icon in der Toolbar erhalten Lernende einen Überblick über ihren Fortschritt in allen Kursbausteinen. Je nach gewählten Spalten können ausserdem zusätzliche Informationen wie die Art der Durchführung und Termine angezeigt werden. So behalten Lernende ihre Aktivitäten im Kurs einfach im Blick.
 
 ![Lernpfad-Tabelle mit Kursbausteinen, Fortschritt in Prozent, Status wie Gestartet oder Abgeschlossen, Pflichtangabe und Bearbeitungsfristen je Baustein](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Lernpfad aus Sicht der Teilnehmer:in" }
@@ -61,13 +60,13 @@ Die Möglichkeit, sich aus einem Kurs auszutragen, muss zuvor von den Kursbesitz
 Kursbesitzer:innen und Betreuende erhalten über den Link "Lernpfad" zunächst eine Übersicht über alle Teilnehmenden und können dann im nächsten Schritt eine Person auswählen um sich ihren Lernfortschritt anzeigen zu lassen. 
 
 
-## Weitere aktivierbare Werkzeuge der Toolbar im Kurzüberblick
+## Weitere aktivierbare Werkzeuge der Toolbar im Kurzüberblick [:octicons-tag-16:{ title="ab Release 15.0 (OO-4168)" }](https://track.frentix.com/issue/OO-4168)
 
 
 * [Kurssuche](../basic_concepts/Search_in_Course.de.md): Durchsuchen Sie den Kurs nach Schlüsselbegriffen
 * **Kurskalender**: Zugriff auf den kursspezifischen Kalender
 * Liste der Teilnehmenden: Übersicht der **Kursmitglieder**
-* **Mitteilungen**: Hier kann der Lehrende zentrale Kursinfos hinterlegen.
+* **Mitteilungen**: Hier können Lehrende zentrale Kursinfos hinterlegen.
 * **E-Mail**: Kontaktmöglichkeit zu den Kursbesitzer:innen, Betreuer:innen 
 * **BigBlueButton** (Teams oder andere virtuelle Klassenzimmer): Für synchrone Meetings
 * **Blog**: Zugriff auf einen zentralen Kurs-Blog

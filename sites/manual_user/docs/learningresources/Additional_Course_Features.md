@@ -2,15 +2,15 @@
 
 ![Toolbar of a course highlighted above the course content, with Administration, Status, the tools from Info page to Course search, Role and My course](assets/additional_course_features_toolbar_v1_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-In the toolbar of a course, participants have a number of additional course functions at their disposal. Some elements, such as ["Course info"](../learningresources/Info_page.md), "My course" or the "Learning path" area (for learning path courses), are added automatically. The "Events" element also appears automatically in the toolbar once ["Events and absences"](../learningresources/Events_and_absences.md) has been activated in the course.
+In the toolbar of a course, participants have a number of additional course functions at their disposal. Some elements, such as ["Info page"](../learningresources/Info_page.md), "My course" or the "Learning path" area (for learning path courses), are added automatically. The "Events" element also appears automatically in the toolbar once ["Events and absences"](../learningresources/Events_and_absences.md) has been activated in the course.
 
-Other tools can be additionally activated by the course owners under `Administration > Settings > Toolbar`. For more information on these activatable tools, see the separate page ["Using Additional Course Features"](../learningresources/Using_Additional_Course_Features.md).
+Other tools can be additionally activated by the course owners under `Course > Administration > Settings > Tab "Toolbar"`. For more information on these activatable tools, see the separate page ["Using Additional Course Features"](../learningresources/Using_Additional_Course_Features.md).
 
 ## Menu "My course"
 
 The drop-down menu "My course" in the toolbar provides access to personalized parts of the course.
 
-![Open drop-down menu My course with the entries Evidence of achievement, To-dos, Notes, Bookmark, Consent, the group Gruppe2 and Leave course](assets/Mein_Kurs_menue_19en.jpg){ class="shadow lightbox" title="Menu My course in the toolbar" }
+![Open drop-down menu My course with Evidence of achievement, To-dos, Notes, Bookmark and the group heroes, next to it the role Participant](assets/Mein_Kurs_menue_19en.jpg){ class="shadow lightbox" title="Menu My course in the toolbar" }
 
 Depending on the configuration of the course, not all of the following entries may be displayed.
 
@@ -25,7 +25,7 @@ Depending on the configuration of the course, not all of the following entries m
 
 ### Evidence of Achievement
 
-An evidence of achievement is a confirmation of a completed assessment and must first be activated by the course owner. Participants then see the individual assessment elements completed in the course, such as tests or tasks, their points and further information.
+An evidence of achievement is a confirmation of a completed assessment and must first be activated by the course owners. Participants then see the individual assessment elements completed in the course, such as tests or tasks, their points and further information.
 
 ![Evidence of achievement with progress 27 percent, 12 of 20 points and the course element table with score and pass status](assets/evidence_of_achievement_19.jpg){ class="shadow lightbox" title="Evidence of achievement of a course" }
 
@@ -48,11 +48,11 @@ Participants find an overview of all personal and course-related to-dos in the [
 
 ### Leave course [:octicons-tag-16:{ title="from Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405)
 
-The "Leave course" function immediately ends your course or group membership, depending on how you have access to the course. After that, you no longer have access to the course and must contact the respective course or group coach to regain access.
+The "Leave course" function immediately ends your course or group membership, depending on how you have access to the course. After that, you no longer have access to the course and must contact the coaches of the course or group to regain access.
 
 The option to unsubscribe from a course must first be activated by the course owners in the course settings on the "Share" tab and is only valid for participants, not for coaches or owners.
 
-## Learning path in the toolbar
+## Learning path in the toolbar [:octicons-tag-16:{ title="from Release 15.0 (OO-4300)" }](https://track.frentix.com/issue/OO-4300)
 Via the learning path icon in the toolbar, participants get an overview of their progress in all course elements. Depending on the columns selected, additional information such as the type of implementation and dates can also be displayed. This way, participants can easily keep track of their activities in the course.
 
 ![Learning path table with course elements, progress in percent, status such as Started or Completed, mandatory flag and processing deadlines per element](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Learning path from the participant's view" }
@@ -60,13 +60,13 @@ Via the learning path icon in the toolbar, participants get an overview of their
 Course owners and coaches first get an overview of all participants via the "Learning path" link and can then select a person in the next step to display their learning progress.
 
 
-## Other activatable toolbar tools at a glance
+## Other activatable toolbar tools at a glance [:octicons-tag-16:{ title="from Release 15.0 (OO-4168)" }](https://track.frentix.com/issue/OO-4168)
 
 
 * [Course search](../basic_concepts/Search_in_Course.md): Search the course by keywords
 * **Course calendar**: Access to the course-specific calendar
 * Participant list: Overview of **course members**
-* **Info messages**: Here, the teacher can store central course information.
+* **Info messages**: Here, teachers can store central course information.
 * **E-mail**: Contact option for the course owners and coaches
 * **BigBlueButton** (or other virtual classrooms): For synchronous meetings
 * **Blog**: Access to a central course blog

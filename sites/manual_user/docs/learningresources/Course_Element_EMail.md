@@ -56,12 +56,12 @@ The following variables can be used in the subject and text of the e-mail:
 | `$username` | The username  |
 | `$email` | The participant's e-mail address  |
 | `$courseurl` | The internet address of the course  |
-| `$coursename`| The name of the course as defined in the course info page  |
-| `$coursedescription` | The description of the course as defined in the course info page  |
+| `$coursename`| The name of the course as on the info page  |
+| `$coursedescription` | The description of the course as on the info page  |
 
 !!! note "Note"
 
-    The user variables refer to the person who triggers and sends the e-mail via the **"Send" button**.
+    The user variables refer to the person who triggers and sends the e-mail via the button "Send".
 
 By means of a suitable short title for the course element "E-mail", you can provide your course participants with information to whom they can send messages. For privacy reasons they will not be able to see the recipients' addresses in your e-mail form.
 
@@ -71,6 +71,6 @@ By means of a suitable short title for the course element "E-mail", you can prov
 
 ## Further information {: #further_information}
 
-[Course settings - Toolbar tab](../learningresources/Course_Settings.md)
+[Course Settings >](../learningresources/Course_Settings.md)
 
 [To the top of the page ^](#mail)

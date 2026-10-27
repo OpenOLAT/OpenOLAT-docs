@@ -57,11 +57,11 @@ However, the link can also be incorporated elsewhere, e.g., into a website, or s
 
 ## What can I show in the OpenOlat catalog? {: #catalog_what}
 
-The OpenOlat catalog lists **short descriptions of courses and learning resources**. Individual tiles can already be displayed on the start page. Under the **categories** are **microsites**, on which further individual descriptions (tiles) can be found.
+The OpenOlat catalog lists short descriptions of courses and learning resources. Individual tiles can already appear on the start page. The categories lead to microsites with further individual descriptions (tiles).
 
 ![Categories as image tiles, one of them leads to a microsite with individual descriptions, below it Popular Courses with a marked tile for a single course](assets/catalog_community_v1_en.png){ class="shadow lightbox" title="Start page of a catalog" }
 
-The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the [settings](../../manual_user/learningresources/Course_Settings.md) (tab "Info" and tab "Metadata"). In most cases, it is the same information that participants find on the information page of the course.
+The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the [settings](../../manual_user/learningresources/Course_Settings.md) (tab "Info" and tab "Metadata"). In most cases, it is the same information that participants find on the info page of a course.
 
 The **layout** of the catalog is determined by the [administrators](../../manual_admin/administration/Modules_Catalog_2.0.md). If, for example, it has been determined that an indication of the implementation format should be displayed in the catalog entries, OpenOlat retrieves this information from the authors' details under "Settings" and displays it in the designated place on the catalog tile.
 

@@ -1,6 +1,6 @@
 # Toolbar: Overview {: #toolbar}
 
-The toolbar is located at the top of the page, directly below the main navigation, and displays various icons for tools.
+The toolbar sits at the top of the page directly below the main navigation and shows the icons of the tools.
 
 **Example participant**:
 
@@ -18,6 +18,12 @@ If the toolbar is displayed for participants, course owners can decide which ico
 
 The tools then appear either in the toolbar or under "My course".
 
+## Profile
+
+Name | Toolbar
+---------|----------
+Available since | Release 10.0 (2014)
+
 ---
 
 ## Available icons {: #available_icons}
@@ -31,7 +37,7 @@ The course administration is only displayed to those authorized to edit, not to 
 
 ---
 
-### Status {: #status}
+### Status [:octicons-tag-16:{ title="from Release 13.0 (OO-3584)" }](https://track.frentix.com/issue/OO-3584) {: #status}
 
 ![Status indicator Published highlighted as a green button with a selection arrow, to the left of the tool icons](assets/toolbar_status_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
@@ -40,16 +46,16 @@ The status is only displayed to those authorized to edit, not to participants. T
 
 ---
 
-### Course info {: #info_page}
+### Info page [:octicons-tag-16:{ title="from Release 21.1 (OO-9758)" }](https://track.frentix.com/issue/OO-9758){:target="_blank"} {: #info_page}
 
 ![Tool Info page with the info icon highlighted as the first tool of the toolbar](assets/toolbar_course_info_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-Under Course info, general information about the course is available, such as the description of the event or the execution period and location. This information is already visible before a course can be accessed by learners at all.<br>
+Anyone who wants to know what a course is about opens the description of the course with the tool "Info page" and its info icon, for example with the execution period and location. Interested people see the same details before they enter the course.<br>
 [More >](../learningresources/Info_page.md)
 
 ---
 
-### Learning path {: #learning_path}
+### Learning path [:octicons-tag-16:{ title="from Release 15.0 (OO-4300)" }](https://track.frentix.com/issue/OO-4300) {: #learning_path}
 
 ![Icon Learning path highlighted in the toolbar, to its right Calendar, BigBlueButton and Course search](assets/toolbar_learning_path_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
@@ -84,7 +90,7 @@ By default, only owners of a course have write access to the calendar. Course pa
 
 ---
 
-### Participant list {: #participant_list}
+### Participant list [:octicons-tag-16:{ title="from Release 15.0 (OO-4168)" }](https://track.frentix.com/issue/OO-4168) {: #participant_list}
 
 ![Icon Participant list highlighted in the toolbar](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
@@ -111,7 +117,7 @@ E-mails can be sent from various places. In addition to the [personal menu](../p
 
 ---
 
-### BigBlueButton (or other virtual classrooms) {: #BBB}
+### BigBlueButton (or other virtual classrooms) [:octicons-tag-16:{ title="from Release 15.4 (OO-5151)" }](https://track.frentix.com/issue/OO-5151) {: #BBB}
 
 ![Icon BigBlueButton highlighted in the toolbar](assets/toolbar_BBB_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
@@ -143,7 +149,7 @@ Access to a central wiki for the entire course can be set up in the toolbar.<br>
 
 ![Icon Forum highlighted in the toolbar](assets/toolbar_forum_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
-In addition to the "Forum" course element, there is also the option of displaying a central forum for the entire course in the course toolbar. This is useful if the course only includes *one* forum that is to be permanently available. However, no further settings such as pseudonymization or the assignment of moderation rights can be made here.<br>
+In addition to the "Forum" course element, there is also the option of displaying a central forum for the entire course in the course toolbar. This is useful if the course only includes *one* forum that is to be permanently available. However, settings such as pseudonymization or moderation rights cannot be set here.<br>
 [More >](../learningresources/Course_Element_Forum.md)
 
 ---
@@ -184,7 +190,7 @@ The chat enables synchronous exchange between the course members.<br>
 
 ---
 
-### Course search {: #course_search}
+### Course search [:octicons-tag-16:{ title="from Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581) {: #course_search}
 
 ![Icon Course search highlighted in the toolbar](assets/toolbar_search_v1_de.png){ class="shadow lightbox" title="Toolbar of a course" }
 
@@ -245,13 +251,13 @@ In learning path courses, course participants see their processing status here i
 
 ## Show icons (tools) {: #show_icons}
 
-### Display by course owners {: #show_icons_by_owners}
+### Display by course owners [:octicons-tag-16:{ title="from Release 10.5 (OO-1967)" }](https://track.frentix.com/issue/OO-1967) {: #show_icons_by_owners}
 
 As course owner you define under `Course > Administration > Settings > Tab "Toolbar"` whether participants see a toolbar and, if so, which icons (tools) are displayed in the toolbar.
 
 ![Open menu Administration with the highlighted entry Settings and the highlighted tab Toolbar](assets/toolbar_show_icons1_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
 
-![Tab Toolbar in the course settings with the switch Toolbar visible for participants and one switch per tool](assets/toolbar_show_icons2_v1_de.png){ class="shadow lightbox" title="Toolbar tab of the course settings" }
+![Checkbox Toolbar visible for participants, below it one checkbox per tool, all switched on](assets/toolbar_show_icons2_v1_de.png){ class="shadow lightbox" title="Toolbar tab of the course settings" }
 
 ### Permanently displayed tool icons {: #show_icons_permanently}
 
@@ -259,7 +265,7 @@ Some icons are displayed in every course as soon as the toolbar is displayed. Th
 
 - Administration
 - Status
-- Course info
+- Info page
 - Learning path
 - Role
 - My course

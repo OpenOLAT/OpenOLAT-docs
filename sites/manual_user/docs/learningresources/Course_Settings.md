@@ -15,7 +15,7 @@ The "Settings" menu is available to owners of the course, learning resource mana
 
     The settings of conventional and [learning path courses](../learningresources/Learning_path_course.md) vary slightly.
 
-    You can use the "Metadata", "Info", "Execution" and "Share" tabs to specify information that will be visible in the [Course info page](../learningresources/Info_page.md).
+    You can use the "Metadata", "Info", "Execution" and "Share" tabs to specify information that will be visible on the [info page of the course](../learningresources/Info_page.md).
 
 ## Profile
 
@@ -183,7 +183,7 @@ In the Assessment tab, you can make settings for
 
 !!! info "Important"
 
-    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the Assessment tab. The configuration for passing the course is done in the course editor on the top course element in the "Score" tab:<br>
+    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the Assessment tab. You set the requirements for passing in the course editor on the top course element in the "Score" tab:<br>
     `Course > Administration > Course editor > top course element > Tab "Score"`
 
     There is no progression for conventional courses.
