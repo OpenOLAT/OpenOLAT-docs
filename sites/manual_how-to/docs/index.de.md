@@ -74,9 +74,10 @@ Betreuer:innen bewerten die Teilnehmenden ihres Kurses.
 
 <div class="oo-mh-pcard__body" markdown>
 
-Kursplaner:innen planen Durchführungen und Zertifikatsprogramme.
+Kursplaner:innen planen Einzelkurse, Produkte mit mehreren Kursen und Zertifikatsprogramme.
 
 - [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen?](course_planner_courses/course_planner_courses.de.md)
+- [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen?](course_planner_curriculum/course_planner_curriculum.de.md)
 - [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](certification_programs/certification_programs.de.md)
 
 </div>

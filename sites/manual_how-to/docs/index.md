@@ -74,9 +74,10 @@ Coaches assess the participants of their course.
 
 <div class="oo-mh-pcard__body" markdown>
 
-Course planners plan implementations and certification programs.
+Course planners plan single courses, products with several courses and certification programs.
 
 - [How do I plan and run a course in several implementations with the Course Planner?](course_planner_courses/course_planner_courses.md)
+- [How do I plan and run a product with several courses with the Course Planner?](course_planner_curriculum/course_planner_curriculum.md)
 - [How can I create certification programs with the Course Planner?](certification_programs/certification_programs.md)
 
 </div>
