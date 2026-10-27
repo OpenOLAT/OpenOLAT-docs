@@ -21,7 +21,7 @@ Verfügbar seit | Release 9.0 (OO-533)
 
 !!! note "Quick Links"
 
-    * [Handhabung der Daten](Data_Management.de.md)
+    * [Fragen erstellen](Question_Bank_Create_Questions.de.md)
     * [Fragen importieren](Question_Bank_Import_Questions.de.md)
     * [Detailansicht einer Frage](Item_Detailed_View.de.md)
     * [Mögliche Aktionen im Fragenpool](Question_bank_possible_operations.de.md)
