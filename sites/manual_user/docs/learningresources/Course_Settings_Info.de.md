@@ -7,7 +7,7 @@ Die Angaben in der Kursadministration im Tab "Info" sind die wesentlichen Bestan
 
 Die [Infoseite](../learningresources/General_Functions_Infopage.de.md) richten Sie unter `Kurs > Administration > Einstellungen` in den Tabs "Metadaten", "Info" und "Durchführung" ein. Je ausführlicher Sie die Lernressource beschreiben, umso einfacher kann diese gefunden werden und desto besser sind Interessierte und spätere Teilnehmer:innen informiert.
 
-Den **Titel** (Pflichtfeld, höchstens 100 Zeichen) und das **Kennzeichen**, z.B. die Bezeichnung aus dem Vorlesungsverzeichnis oder eines gedruckten Kurskataloges, legen Sie im [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md) fest.
+Den **Titel** (Pflichtfeld, höchstens 100 Zeichen) und das **Kennzeichen**, z.B. die Bezeichnung aus dem Vorlesungsverzeichnis oder einem gedruckten Kurskatalog, legen Sie im [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md) fest.
 
 Je nach Lernressource steht nur ein Teil der Tabs zur Verfügung.
 
