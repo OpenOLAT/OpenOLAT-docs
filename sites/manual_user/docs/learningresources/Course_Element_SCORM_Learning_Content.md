@@ -10,14 +10,18 @@ Purpose | Integration of SCORM packages, created with other authoring tools
 Assessable | yes
 Specialty / Note | 
 
-SCORM stands for "Sharable Content Object Reference Model" and is a standardized e-learning format for interactive e-learning modules that is supported by OpenOlat. The "SCORM 1.2" course element allows SCORM 1.2 learning content to be embedded in OpenOlat courses. The SCORM package must be created externally using another tool. The learning resource used as the content itself is called "SCORM 1.2". [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"}
+With the course element "SCORM 1.2", you embed interactive learning content in a course that was created with another authoring tool. SCORM stands for "Sharable Content Object Reference Model" and is a standardized format for interactive e-learning modules. OpenOlat supports the version SCORM 1.2. You create the SCORM package outside of OpenOlat. The learning resource with the learning content is also called "SCORM 1.2". [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"}
 
 !!! warning "SCORM for learning, the Test course element for exams"
     SCORM is suited for knowledge transfer and for exercises that participants work on alone. The result from SCORM, that is the score or "Passed", reflects the learning status. The SCORM package runs entirely in the participants' browser, so the answers and the transferred result are technically accessible there. We therefore recommend conducting exams and certifications exclusively with the [Course Element "Test"](Course_Element_Test.md).
 
 ## Coach view {: #coach_view}
 
+If you open the course element in the course as a coach, the tabs "Overview", "Participants" and "Preview" show you how far the participants have progressed.
+
 ![Role Coach selected, tabs Overview, Participants and Preview, the overview shows Passed, Not passed and the distribution of the score](assets/course_element_scorm_coach_v2_en.png){ class="shadow lightbox" title="Course view of the SCORM 1.2 course element · 2026.10.08" }
+
+In the tab "Participants", a click on a person opens their assessment. Above it, a list shows which data the SCORM package has transmitted for this person, with the current state of each chapter (SCO). The section [Details of a SCORM course element](Assessment_of_course_modules.md#scorm_details) describes what the list shows. [:octicons-tag-16:{ title="from Release 20.3.11 / 21.0.6 / 21.1.1 (OO-9935)" }](https://track.frentix.com/issue/OO-9935)
 
 [To the top of the page ^](#course_element_scorm)
 
@@ -35,7 +39,7 @@ If you open the course element in the course as an owner, you also have the tab 
 
 ## Editing in the editor {: #editor}
 
-As a course owner, you can create and edit the "SCORM 1.2" course element just like any other course element in the course editor: `Course > Administration > Course editor`. You can then configure the settings further using the tabs.
+As a course owner, you can create and edit the "SCORM 1.2" course element just like any other course element in the course editor: `Course > Administration > Course editor`. You then configure it in the tabs.
 
 
 ### Tab "Learning content" {: #editor_tab_learning_content}
@@ -52,7 +56,7 @@ Select or import SCORM content. Click "Select or import" to upload a new SCORM p
     Description of importing learning resources in Authoring.<br>
     [Actions in Authoring > Import](../area_modules/authoring_new_course.md#import-learning-resources)
 
-If you have already added SCORM learning content, its name will appear as a link. Click the link to view a preview. To change the assigned SCORM learning content later, click "Replace" in the "Learning content" tab and then select a different SCORM package.
+If you have already added SCORM learning content, its name will appear as a link. A click on the link opens the preview. To change the assigned SCORM learning content later, click "Replace" in the "Learning content" tab and then select a different SCORM package.
 
 #### Display module {: #display_module }
 
@@ -91,14 +95,14 @@ With this option, the SCORM content launches immediately when the course element
 
 #### Close module automatically on finish {: #close_module_on_finish }
 
-The SCORM learning content closes automatically once it is completed, and users return to the course view.
+OpenOlat closes the SCORM learning content automatically once it is completed, and users return to the course view.
 
 #### Transfer score from SCORM {: #transfer_score }
 
 Properly created SCORM packages can transfer certain parameters (points, pass/fail status, etc.) to the LMS. With this option, OpenOlat takes over the results from the SCORM package into the assessment.<br>
 **Don't transfer scoring information:** Any values passed from the SCORM package are not taken into account in OpenOlat.<br>
 **Transfer score value:** The scores provided by the SCORM package are imported into OpenOlat's scoring system.<br>
-**Transfer passed value:** OpenOlat only adopts the "Passed" or "Failed" status reported by the SCORM package; the underlying score is irrelevant. Accordingly, specifying a maximum or required score is unnecessary with this option and will not be displayed.
+**Transfer passed value:** OpenOlat only adopts the "Passed" or "Failed" status reported by the SCORM package; the underlying score is irrelevant. The fields for the maximum and the required score therefore do not appear with this option.
 
 #### Maximum score {: #maximum_score }
 
@@ -114,7 +118,7 @@ If the course element is accessed multiple times, points earned in a previous at
 
 #### Include in course assessment {: #include_in_course_assessment }
 
-This toggle button determines whether passing the course element and any points earned there will be included in the overall course grade.
+This switch determines whether passing the course element and any points earned there will be included in the overall course grade.
 
 #### Count attempts only if score is transferred {: #count_attempts_if_score_transferred }
 
@@ -150,7 +154,7 @@ To use the features of the "Optimized for OpenOlat" display mode, the "jQuery" J
 
 #### Embed glossary terms {: #embed_glossary_terms }
 
-Select this option to enable the highlighting of glossary terms if you have configured a glossary in your course. This option requires the use of the "jQuery" JavaScript library.
+Select this option so that OpenOlat can highlight glossary terms in the content if you have configured a glossary in your course. This option requires the use of the "jQuery" JavaScript library.
 
 #### Display height {: #display_height }
 
@@ -193,7 +197,7 @@ In the "HighScore" tab, you activate and configure the highscore for this course
 
 Course owners create reminders in the course editor or directly in the course: if they open the course element outside of the editor, the tab "Reminders" is available there as well.
 
-In addition to creating reminders, you can also use either method to view a preview and all sent reminders. Created reminders appear in a list. A click on the plus sign at the start of a row shows the rules of the reminder. In the expanded row, "Show e-mail message" shows the e-mail that is sent. With "Send reminders now" you trigger the dispatch by hand, without waiting for the next regular dispatch.
+Both ways also show a preview and all sent reminders. Created reminders appear in a list. A click on the plus sign at the start of a row shows the rules of the reminder. In the expanded row, "Show e-mail message" shows the e-mail that is sent. With "Send reminders now" you trigger the dispatch by hand, without waiting for the next regular dispatch.
 
 ![Add reminder button and menu with preview and sent reminders, below it one reminder with its rules](assets/course_element_scorm_tab_reminders_v3_en.png){ class="shadow lightbox" title="Tab Reminders in the course editor · 2026.10.08" }
 
@@ -204,7 +208,8 @@ In addition to creating reminders, you can also use either method to view a prev
 
 ### Tab "Badges" :octicons-tag-16:{ title="from Release 18.0 (OO-6889)" } {: #badges}
 
-If the course owner has enabled badge awarding under `Course > Administration > Settings > Tab Assessment > Badges section`, the "Badges" tab will appear in the course editor for this course element, and a specific badge can be created for it.
+If the awarding of badges is enabled in the course settings, the course editor shows the tab "Badges" for this course element. There you create a badge specifically for this course element. Course owners enable the awarding under:<br>
+`Course > Administration > Settings > Tab "Assessment" > Section "Badges"`
 
 [To the top of the page ^](#course_element_scorm)
 
@@ -213,9 +218,9 @@ If the course owner has enabled badge awarding under `Course > Administration > 
 ## Further information {: #further_information}
 
 [Course Element "Test" >](Course_Element_Test.md)<br>
+[Assessment of course modules >](Assessment_of_course_modules.md)<br>
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
 [Types of Course Elements >](Course_Elements.md)<br>
-[Assessment of course modules >](Assessment_of_course_modules.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Badges >](OpenBadges.md)
 

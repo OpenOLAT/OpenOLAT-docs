@@ -10,14 +10,18 @@ Verwendungszweck | Integration von SCORM-Paketen, die mit anderen Autorenwerkzeu
 Bewertbar | ja
 Spezialität / Hinweis |
 
-SCORM steht für "Sharable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM 1.2" können SCORM-1.2-Lerninhalte in OpenOlat-Kurse eingebunden werden. Das SCORM-Paket muss extern mit einem anderen Tool erstellt werden. Der als Lernressource verwendete Lerninhalt selbst heisst dabei "SCORM 1.2". [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"}
+Mit dem Kursbaustein "SCORM 1.2" binden Sie interaktive Lerninhalte in einen Kurs ein, die mit einem anderen Autorenwerkzeug erstellt sind. SCORM steht für "Sharable Content Object Reference Model" und ist ein standardisiertes Format für interaktive E-Learning-Module. OpenOlat unterstützt die Version SCORM 1.2. Das SCORM-Paket erstellen Sie ausserhalb von OpenOlat. Die Lernressource mit dem Lerninhalt heisst ebenfalls "SCORM 1.2". [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"}
 
 !!! warning "SCORM für das Lernen, der Kursbaustein Test für Prüfungen"
     SCORM eignet sich für die Wissensvermittlung und für Übungen, die Teilnehmende allein bearbeiten. Das Resultat aus SCORM, also Punkte oder "Bestanden", bildet den Lernstand ab. Das SCORM-Paket läuft vollständig im Browser der Teilnehmenden: Die Antworten und das übertragene Resultat sind dort technisch zugänglich. Wir empfehlen deshalb, Prüfungen und Zertifizierungen ausschliesslich mit dem [Kursbaustein "Test"](Course_Element_Test.de.md) durchzuführen.
 
 ## Ansicht als Betreuer:in {: #coach_view}
 
+Rufen Sie den Kursbaustein im Kurs als Betreuer:in auf, sehen Sie in den Tabs "Übersicht", "Teilnehmer:innen" und "Vorschau", wie weit die Teilnehmenden sind.
+
 ![Rolle Betreuer:in gewählt, Tabs Übersicht, Teilnehmer:innen und Vorschau, die Übersicht zeigt Bestanden, Nicht bestanden und die Verteilung der Punkte](assets/course_element_scorm_coach_v3_de.png){ class="shadow lightbox" title="Kursansicht des Kursbausteins SCORM 1.2 · 2026.10.09" }
+
+Im Tab "Teilnehmer:innen" öffnet ein Klick auf eine Person ihre Bewertung. Darüber zeigt eine Liste, welche Daten das SCORM-Paket für diese Person übermittelt hat, mit dem aktuellen Stand jedes Kapitels (SCO). Was die Liste zeigt, beschreibt der Abschnitt [Details eines SCORM-Kursbausteins](Assessment_of_course_modules.de.md#scorm_details). [:octicons-tag-16:{ title="ab Release 20.3.11 / 21.0.6 / 21.1.1 (OO-9935)" }](https://track.frentix.com/issue/OO-9935)
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -35,7 +39,7 @@ Rufen Sie den Kursbaustein im Kurs als Besitzer:in auf, haben Sie im Vergleich z
 
 ## Bearbeitung im Editor {: #editor}
 
-Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM 1.2" wie alle anderen Kursbausteine im Kurseditor: `Kurs > Administration > Kurseditor`. Anschliessend können Sie in den Tabs die weitere Konfiguration vornehmen.
+Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM 1.2" wie alle anderen Kursbausteine im Kurseditor: `Kurs > Administration > Kurseditor`. Anschliessend konfigurieren Sie ihn in den Tabs.
 
 ### Tab "Lerninhalt" {: #editor_tab_learning_content}
 
@@ -51,7 +55,7 @@ Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Auswählen ode
     Beschreibung des Imports von Lernressourcen im Autorenbereich.<br>
     [Aktionen im Autorenbereich > Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren)
 
-Wenn Sie schon einen SCORM-Lerninhalt hinzugefügt haben, erscheint dessen Name als Link. Folgen Sie dem Link um zur Vorschau zu gelangen. Um die Zuordnung eines SCORM-Lerninhaltes nachträglich zu ändern, klicken Sie im Tab "Lerninhalt" auf "Ersetzen" und wählen anschliessend ein anderes SCORM-Paket aus.
+Wenn Sie schon einen SCORM-Lerninhalt hinzugefügt haben, erscheint dessen Name als Link. Ein Klick auf den Link öffnet die Vorschau. Um die Zuordnung eines SCORM-Lerninhaltes nachträglich zu ändern, klicken Sie im Tab "Lerninhalt" auf "Ersetzen" und wählen anschliessend ein anderes SCORM-Paket aus.
 
 #### Modul anzeigen {: #display_module }
 
@@ -90,14 +94,14 @@ Mit dieser Option startet der SCORM-Inhalt sofort, sobald im Kursmenü der Kursb
 
 #### Modul automatisch schliessen wenn beendet {: #close_module_on_finish }
 
-Der SCORM-Lerninhalt wird automatisch geschlossen, sobald er beendet ist und die Benutzer:innen kehren in die Kursansicht zurück.
+OpenOlat schliesst den SCORM-Lerninhalt automatisch, sobald er beendet ist, und die Benutzer:innen kehren in die Kursansicht zurück.
 
 #### Resultat aus SCORM übertragen {: #transfer_score }
 
 Korrekt erstellte SCORM-Pakete können bestimmte Parameter (Punkte, Bestanden, ...) an das LMS übergeben. Mit dieser Option übernimmt das OpenOlat-Bewertungssystem die Resultate aus dem SCORM-Paket.<br>
 **Nicht übertragen:** Evtl. übergebene Werte aus dem SCORM-Paket werden in OpenOlat nicht berücksichtigt.<br>
 **Score übertragen:** Die vom SCORM-Paket übergebenen Punkte werden in die Punkteauswertung von OpenOlat übernommen.<br>
-**Passed übertragen:** Es wird nur ein vom SCORM-Paket gemeldetes "Bestanden" oder "Nicht bestanden" von OpenOlat übernommen, eine dafür zugrunde liegende Punktezahl ist nicht relevant. Entsprechend ist bei dieser Option auch eine Angabe der maximalen oder notwendigen Punktzahl obsolet und wird nicht angezeigt.
+**Passed übertragen:** Es wird nur ein vom SCORM-Paket gemeldetes "Bestanden" oder "Nicht bestanden" von OpenOlat übernommen, eine dafür zugrunde liegende Punktezahl ist nicht relevant. Die Felder für die maximale und die notwendige Punktzahl erscheinen bei dieser Option deshalb nicht.
 
 #### Maximal erreichbare Punkte {: #maximum_score }
 
@@ -113,7 +117,7 @@ Wird der Kursbaustein mehrfach aufgerufen, werden einmal dort erreichte Punkte n
 
 #### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment }
 
-Mit diesem Toggle-Button wird bestimmt, ob das Bestehen des Kursbausteins und die eventuell hier erreichten Punkte in die Gesamtbewertung des Kurses einfliessen.
+Dieser Schalter bestimmt, ob das Bestehen des Kursbausteins und die eventuell hier erreichten Punkte in die Gesamtbewertung des Kurses einfliessen.
 
 #### Lösungsversuche nur zählen, wenn Punkte übertragen werden {: #count_attempts_if_score_transferred }
 
@@ -136,7 +140,7 @@ Im Tab "Anzeige Inhalt" bestimmen Sie, wie OpenOlat den SCORM-Inhalt im Kurs dar
 
 #### Anzeigemodus {: #display_mode }
 
-Wählen Sie den Modus "Standard" um die Ressource unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt. Bei SCORM-Lerninhalten ist der Modus "Standard" empfohlen, denn auf die Gestaltung des SCORM-Inhalts (Seitenverhältnis usw.) hat OpenOlat keinen Einfluss.<br>
+Wählen Sie den Modus "Standard", um die Ressource unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt. Bei SCORM-Lerninhalten ist der Modus "Standard" empfohlen, denn auf die Gestaltung des SCORM-Inhalts (Seitenverhältnis usw.) hat OpenOlat keinen Einfluss.<br>
 Wählen Sie den Modus "Optimiert für OpenOlat", wenn Sie<br>
 \- das Kurslayout in der Seite einbinden und auf den SCORM-Inhalt anwenden wollen,<br>
 \- eine JavaScript-Bibliothek verwenden möchten,<br>
@@ -149,7 +153,7 @@ Um die Funktionen des Anzeigemodus "Optimiert für OpenOlat" nutzen zu können, 
 
 #### Glossarbegriffe einbinden {: #embed_glossary_terms }
 
-Wählen Sie diese Option um die Möglichkeit der Hervorhebung von Glossarbegriffen zu aktivieren, falls Sie in Ihrem Kurs ein Glossar konfiguriert haben. Diese Option setzt die Verwendung der JavaScript Bibliothek "jQuery" voraus.
+Wählen Sie diese Option, damit OpenOlat Glossarbegriffe im Inhalt hervorheben kann, falls Sie in Ihrem Kurs ein Glossar konfiguriert haben. Diese Option setzt die Verwendung der JavaScript Bibliothek "jQuery" voraus.
 
 #### Höhe Anzeigefläche {: #display_height }
 
@@ -157,7 +161,7 @@ Mit diesem Drop-Down-Menü können Sie die Höhe der Fläche zur Inhaltsanzeige 
 
 #### Layout anpassen {: #adapt_layout }
 
-Wählen Sie die Option "OpenOlat Stylesheets" um das in OpenOlat und im Kurs definierte Layout in Ihre Seite zu übernehmen (Schriftart, Farben, Grösse etc.). Wenn Sie diese Anpassung nicht wünschen, wählen Sie die Option "Keine".
+Wählen Sie die Option "OpenOlat Stylesheets", um das in OpenOlat und im Kurs definierte Layout in Ihre Seite zu übernehmen (Schriftart, Farben, Grösse etc.). Wenn Sie diese Anpassung nicht wünschen, wählen Sie die Option "Keine".
 
 #### Zeichensatz Inhalt {: #content_character_set }
 
@@ -169,7 +173,7 @@ Erlaubt die Kodierung des Javascript-Codes anhand eines vordefinierten Zeichensa
 
 !!! note "Hinweis"
 
-    SCORM-Lerninhalte werden normalerweise mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, werden auf dieser Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren, ermittelt.
+    SCORM-Lerninhalte werden normalerweise mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, zeigt diese Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren.
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -191,7 +195,7 @@ Im Tab "HighScore" aktivieren und konfigurieren Sie die Rangliste für diesen Ku
 
 Kursbesitzer:innen erstellen Erinnerungen im Kurseditor oder direkt im Kurs: Rufen sie den Kursbaustein ausserhalb des Editors auf, steht dort ebenfalls der Tab "Erinnerungen" zur Verfügung.
 
-Sie können ausser dem Erstellen von Erinnerungen sich über beide Zugangswege auch eine Vorschau und alle versendeten Erinnerungen anzeigen lassen. Erfasste Erinnerungen erscheinen in einer Liste. Ein Klick auf das Plus-Zeichen am Anfang einer Zeile zeigt die Bedingungen der Erinnerung. In der aufgeklappten Zeile zeigt "E-Mail-Benachrichtigung anzeigen" die E-Mail, die versendet wird. Mit "Erinnerung jetzt senden" lösen Sie den Versand von Hand aus, ohne auf den nächsten regulären Versand zu warten.
+Über beide Wege zeigen Sie ausserdem eine Vorschau und alle versendeten Erinnerungen an. Erfasste Erinnerungen erscheinen in einer Liste. Ein Klick auf das Plus-Zeichen am Anfang einer Zeile zeigt die Bedingungen der Erinnerung. In der aufgeklappten Zeile zeigt "E-Mail-Benachrichtigung anzeigen" die E-Mail, die versendet wird. Mit "Erinnerung jetzt senden" lösen Sie den Versand von Hand aus, ohne auf den nächsten regulären Versand zu warten.
 
 ![Button Erinnerung hinzufügen und Menü mit Vorschau und versendeten Erinnerungen, darunter eine Erinnerung mit ihren Bedingungen](assets/course_element_scorm_tab_reminders_v4_de.png){ class="shadow lightbox" title="Tab Erinnerungen im Kurseditor · 2026.10.09" }
 
@@ -203,7 +207,8 @@ Sie können ausser dem Erstellen von Erinnerungen sich über beide Zugangswege a
 
 ### Tab "Badges" :octicons-tag-16:{ title="ab Release 18.0 (OO-6889)" } {: #badges}
 
-Wurde von dem/der Kursbesitzer:in unter `Kurs > Administration > Einstellungen > Tab Bewertung > Abschnitt Badges` die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+Ist in den Kurseinstellungen die Vergabe von Badges aktiviert, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein. Die Vergabe aktivieren Kursbesitzer:innen unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"`
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -212,9 +217,9 @@ Wurde von dem/der Kursbesitzer:in unter `Kurs > Administration > Einstellungen >
 ## Weiterführende Informationen {: #further_information}
 
 [Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
 [Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
 [Kursbausteine >](Course_Elements.de.md)<br>
-[Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Badges >](OpenBadges.de.md)
 
