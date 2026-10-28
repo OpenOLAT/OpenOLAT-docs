@@ -13,7 +13,7 @@ That's why OpenOlat has a special tool for assessment. You define
 * a specific time window,
 * if the assessment mode is active during this time window.
 
-## Configuration of a flowchart for an inspection [:octicons-tag-16:{ title="from Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
+## Configuration of a flowchart for an inspection [:octicons-tag-16:{ title="from Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425){:target="_blank"}
 
 As **Course owner** you create a flowchart in which you define how exam inspections work. <br>
 The **coaches** then schedule the inspections for the exam participants and select one of the predefined flowcharts (configurations).
@@ -44,7 +44,7 @@ By using the SEB, all other activities on the computer can be blocked during vie
 
 ![Marked choice SEB configuration with From template (recommended), Customised and With manual keys, below it Template, Template type and assessment mode-specific configuration](assets/assessment_management_create_exam_setting_tab_seb_fields_v2_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser in the exam dialog · 2026.10.02" }
 
-#### SEB configuration [:octicons-tag-16:{ title="from Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571){:target="_blank"} {: #seb_type_of_use}
+#### SEB configuration [:octicons-tag-16:{ title="from Release 20.3.7 (OO-9660)" }](https://track.frentix.com/issue/OO-9660){:target="_blank"} {: #seb_type_of_use}
 
 As in the assessment mode, you choose between "From template (recommended)", "Customised" and "With manual keys". The page on the assessment mode describes the three types: [Tab "Safe Exam Browser"](../learningresources/Assessment_mode.md#tab-safe-exam-browser)
 
@@ -58,7 +58,7 @@ Shows whether the template is a "Form" or a "SEB-File". For a form, the button "
 
 #### Assessment mode-specific configuration {: #seb_assessment_mode_configuration}
 
-Under this legend you find the **Downloadable configuration file**, the **Information for participants**, **Allow the exit of SEB** and the **Password for quitting** for this inspection. With a SEB-File, the password overwrites the one of the file, and the config key is automatically recalculated. With a form from the system, the information, the exit and the password come from the template.
+Under this legend you find the "Downloadable configuration file", the "Information for participants", "Allow the exit of SEB" and the "Password for quitting" for this inspection. With a SEB-File, the password overwrites the one of the file, and the config key is automatically recalculated. With a form from the system, the information, the exit and the password come from the template.
 
 #### Configuration from the template {: #seb_template_configuration}
 

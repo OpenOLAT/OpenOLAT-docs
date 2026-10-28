@@ -38,7 +38,7 @@ Manage Safe Exam Browser configuration templates that can be applied to assessme
 
 The template list shows all created SEB configuration templates with various columns that can be configured individually via the gear icon.
 
-The **Type** column shows whether a template is a **Form** (configured in OpenOlat) or an imported **SEB-File**.
+The "Type" column shows whether a template is a "Form" (configured in OpenOlat) or an imported "SEB-File".
 
 If **no template** has been created yet, the message is displayed: *"No Safe Exam Browser configuration templates have been created yet."*
 
@@ -54,7 +54,7 @@ Required field for naming the template.
 
 Defines whether the template is selectable for authors: **Active** or **Inactive**.
 
-#### Import SEB-File [:octicons-tag-16:{ title="from Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571)
+#### Import SEB-File [:octicons-tag-16:{ title="from Release 20.3.7 (OO-9660)" }](https://track.frentix.com/issue/OO-9660)
 
 We distinguish two types of templates:
 
@@ -95,7 +95,7 @@ Deactivated templates are no longer available for selection when configuring an 
 ---
 
 
-## Safe Exam Browser Versions Tab [:octicons-tag-16:{ title="from Release 21.0 (OO-9579)" }](https://track.frentix.com/issue/OO-9579)  {: #tab_seb_versions}
+## Safe Exam Browser Versions Tab [:octicons-tag-16:{ title="from Release 20.3.7 (OO-9660)" }](https://track.frentix.com/issue/OO-9660)  {: #tab_seb_versions}
 
 #### Enforce minimal SEB version {: #enforce_min_seb_version }
 

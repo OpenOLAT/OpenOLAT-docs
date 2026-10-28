@@ -40,7 +40,7 @@ Verwalten Sie Safe-Exam-Browser Konfigurationsvorlagen, die auf Prüfungsmodi an
 
 Die Vorlagenliste zeigt alle angelegten SEB-Konfigurationsvorlagen mit verschiedenen, über das Zahnradsymbol, persönlich konfigurierbaren Spalten.
 
-Die Spalte **Typ** zeigt, ob eine Vorlage als **Formular** (in OpenOlat konfiguriert) oder als importierte **SEB-Datei** vorliegt.
+Die Spalte "Typ" zeigt, ob eine Vorlage als "Formular" (in OpenOlat konfiguriert) oder als importierte "SEB-Datei" vorliegt.
 
 Ist noch **keine Vorlage** vorhanden, erscheint der Hinweis: *«Es wurden noch keine Safe-Exam-Browser-Konfigurationsvorlagen erstellt.»*
 
@@ -56,7 +56,7 @@ Pflichtfeld zur Benennung der Vorlage.
 
 Legt fest, ob die Vorlage für Autor:innen auswählbar ist: **Aktiv** oder **Inaktiv**.
 
-#### SEB-Datei importieren [:octicons-tag-16:{ title="ab Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571)
+#### SEB-Datei importieren [:octicons-tag-16:{ title="ab Release 20.3.7 (OO-9660)" }](https://track.frentix.com/issue/OO-9660)
 
 Wir unterscheiden zwei Arten von Vorlagen:
 
@@ -98,7 +98,7 @@ Deaktivierte Vorlagen stehen bei der Konfiguration eines Prüfungsmodus nicht me
 ---
 
 
-## Tab Safe Exam Browser Versionen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9579)" }](https://track.frentix.com/issue/OO-9579)  {: #tab_seb_versions}
+## Tab Safe Exam Browser Versionen [:octicons-tag-16:{ title="ab Release 20.3.7 (OO-9660)" }](https://track.frentix.com/issue/OO-9660)  {: #tab_seb_versions}
 
 #### Mindest SEB Version erzwingen {: #enforce_min_seb_version }
 

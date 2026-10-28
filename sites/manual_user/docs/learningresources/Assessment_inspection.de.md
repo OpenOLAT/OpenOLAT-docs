@@ -47,7 +47,7 @@ Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer wäh
 
 ![Markierte Auswahl SEB-Konfiguration mit Aus Vorlage (empfohlen), Benutzerdefiniert und Mit manuellen Keys, darunter Vorlage, Vorlage Typ und Prüfungsmodus-spezifische Konfiguration](assets/assessment_management_create_exam_setting_tab_seb_fields_v2_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser im Dialog einer Prüfung · 2026.10.02" }
 
-#### SEB-Konfiguration [:octicons-tag-16:{ title="ab Release 21.0 (OO-9571)" }](https://track.frentix.com/issue/OO-9571){:target="_blank"} {: #seb_type_of_use}
+#### SEB-Konfiguration [:octicons-tag-16:{ title="ab Release 20.3.7 (OO-9660)" }](https://track.frentix.com/issue/OO-9660){:target="_blank"} {: #seb_type_of_use}
 
 Wie im Prüfungsmodus wählen Sie zwischen «Aus Vorlage (empfohlen)», «Benutzerdefiniert» und «Mit manuellen Keys». Die drei Arten beschreibt die Seite zum Prüfungsmodus: [Tab "Safe Exam Browser"](../learningresources/Assessment_mode.de.md#tab-safe-exam-browser)
 
@@ -61,7 +61,7 @@ Zeigt, ob die Vorlage ein "Formular" oder eine "SEB-Datei" ist. Bei einem Formul
 
 #### Prüfungsmodus-spezifische Konfiguration {: #seb_assessment_mode_configuration}
 
-Unter dieser Legende stehen die **Herunterladbare Konfigurationsdatei**, der **Hinweis für Teilnehmende**, **Beenden von SEB erlauben** und das **Beenden/Entsperren-Kennwort** für diese Einsichtnahme. Bei einer SEB-Datei überschreibt das Kennwort jenes der Datei, und der Config Key wird automatisch neu berechnet. Bei einem Formular aus dem System kommen Hinweis, Beenden und Kennwort aus der Vorlage.
+Unter dieser Legende stehen die "Herunterladbare Konfigurationsdatei", der "Hinweis für Teilnehmende", "Beenden von SEB erlauben" und das "Beenden/Entsperren-Kennwort" für diese Einsichtnahme. Bei einer SEB-Datei überschreibt das Kennwort jenes der Datei, und der Config Key wird automatisch neu berechnet. Bei einem Formular aus dem System kommen Hinweis, Beenden und Kennwort aus der Vorlage.
 
 #### Konfiguration anhand der Vorlage {: #seb_template_configuration}
 
