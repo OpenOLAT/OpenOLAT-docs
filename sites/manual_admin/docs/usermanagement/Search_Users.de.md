@@ -20,7 +20,7 @@ Suchen Sie Konten mit bestimmten Merkmalen, etwa alle Konten einer Institution o
 
 ![Suchfelder von ID bis zur letzten Anmeldung, gegliedert in Personalien, Adresse, Institution, Rollen, Authentifizierung, Kontostatus und Daten, darüber das Suchfeld](assets/user_management_search_form_v3_de.png){ class="shadow lightbox" title="Suchformular der Kontosuche · 2026.10.22" }
 
-Über der Ansicht stehen die Aktionen "Konto erstellen", "Konten importieren", "Temporäres Konto erstellen" und "Konten löschen".
+Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen sehen über der Ansicht die Aktionen "Konto erstellen", "Konten importieren" und "Temporäres Konto erstellen". "Konten löschen" sehen in der Standardversion nur Administrator:innen, siehe [Benutzer:in löschen](Delete_User.de.md).
 
 Das Feld "Kontoablauf" sucht nach dem Ablaufdatum der Konten. Die Auswahl links bestimmt die Richtung: "Kontoablauf in den nächsten" findet Konten, die demnächst ablaufen, "Inaktiv seit den letzten" findet Konten, deren Ablauf zurückliegt. Rechts geben Sie die Anzahl und die Einheit an, etwa 30 Tage.
 
@@ -35,7 +35,7 @@ Wollen Sie alle Konten mit derselben Rolle oder Zuordnung sehen, wählen Sie lin
 
 ### Organisationen {: #organizations}
 
-Verwendet eine OpenOlat Instanz mehrere "Organisationen", lassen sich die Konten hier danach sortiert darstellen.
+Verwendet eine OpenOlat-Instanz mehrere "Organisationen", lassen sich die Konten hier danach sortiert darstellen.
 
 ### Organisationsrollen {: #organizational-roles}
 
@@ -82,7 +82,7 @@ Es existieren zwei Gruppenrollen, die angezeigt und bearbeitet werden können:
 
 ### Course Planner Rollen {: #course-planner-roles}
 
-Nutzt eine OpenOlat Instanz den Course Planner, stehen neben üblichen Kursrollen noch weitere Rollen zur Verfügung, deren Mitglieder angezeigt und bearbeitet werden können.
+Nutzt eine OpenOlat-Instanz den Course Planner, stehen neben üblichen Kursrollen noch weitere Rollen zur Verfügung, deren Mitglieder angezeigt und bearbeitet werden können.
 
 * Produktbesitzer:innen
 * Elementbesitzer:innen
@@ -141,7 +141,7 @@ Die Tabelle "Gelöschte Konten" in der Benutzerverwaltung enthält folgende Spal
   *  **Letzte Anmeldung:** Datum der letzten Anmeldung
   *  **Erstellt:** Datum der Kontenerstellung
   *  **Rollen:** Die administrativen Rollen des gelöschten Kontos
-  *  **Gelöscht von:** Person, die die Löschung vorgenommen hat
+  *  **Gelöscht von:** Person, die das Konto gelöscht hat
   *  **Filter entfernen:** Spalte mit der Aktion "Entfernen", die Vor- und Nachname administrativer Konten löscht.
 
 
@@ -231,6 +231,7 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Benutzer:in löschen >](Delete_User.de.md)<br>
 [Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
 [Gruppenverwaltung >](../../manual_user/groups/Group_Administration/index.de.md)<br>
 [Module >](../administration/Modules.de.md)<br>
@@ -240,6 +241,6 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 
 **Weiterführend**<br>
 [Konto erstellen >](Create_User.de.md)<br>
-[Benutzer:in löschen >](Delete_User.de.md)
+[Rollen zuweisen >](Assign_roles.de.md)
 
 [Zum Seitenanfang ^](#search_user)

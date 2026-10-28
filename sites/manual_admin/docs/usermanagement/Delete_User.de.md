@@ -22,7 +22,16 @@ Die Benutzerverwaltung selbst erreichen mehrere Rollen:
 * Administrator:in
 * Systemadministrator:in
 
-Diese Rollen suchen Konten, ändern Kontoeinstellungen und Status und sehen je nach Instanz auch den Bereich "Konten löschen", löschen aber selbst keine Konten. Systemadministrator:innen lösen Löschungen zusätzlich über den automatischen Kontolebenszyklus aus.
+Diese Rollen suchen Konten. Was sie an einem Konto ändern dürfen, zeigen die Buttons über der Trefferliste, sobald ein Konto markiert ist:
+
+* Administrator:innen erhalten "Kontoeinstellungen ändern", "Status ändern" und "Konto löschen".
+* Rollenverwalter:innen erhalten "Kontoeinstellungen ändern" und "Status ändern".
+* Benutzerverwalter:innen erhalten "Kontoeinstellungen ändern". Den Status eines Kontos ändern sie im Tab "Konto" des einzelnen Kontos.
+* Principals und Systemadministrator:innen ohne die Rolle Administrator:in erhalten keinen dieser Buttons und sehen im Tab "Konto" kein Feld "Status".
+
+Bei Konten mit der Rolle Administrator:in, Systemadministrator:in oder Rollenverwalter:in lässt sich der Status im Tab "Konto" nicht ändern.
+
+Den Bereich "Konten löschen" sehen in der Standardversion von OpenOlat nur Administrator:innen. Manche OpenOlat-Versionen zeigen ihn zusätzlich Benutzerverwalter:innen und Rollenverwalter:innen, beschränkt auf die Organisationen, in denen sie diese Rolle haben. Das ist keine Einstellung der Administration. Den Button "Konto löschen" erhalten sie auch dort nicht, löschen also selbst keine Konten. Systemadministrator:innen lösen Löschungen zusätzlich über den automatischen Kontolebenszyklus aus.
 
 [Zum Seitenanfang ^](#delete_user)
 
@@ -32,7 +41,8 @@ Diese Rollen suchen Konten, ändern Kontoeinstellungen und Status und sehen je n
 ## Variante 1: über die Kontosuche {: #delete_user_var1}
 
 **Schritt 1:**<br>
-Suchen Sie in der Benutzerverwaltung mit der Kontosuche die Benutzer:innen, deren Konten gelöscht werden sollen.
+Suchen Sie in der Kontosuche die Konten, die Sie löschen wollen:<br>
+`Benutzerverwaltung > Kontosuche`
 
 **Schritt 2:**<br>
 Markieren Sie im Suchergebnis die zu löschenden Benutzer:innen in der Checkbox am Anfang der Zeile. Sobald mindestens 1 Person markiert ist, erscheint u.a. der Button "Konto löschen" über der Liste.
@@ -51,7 +61,8 @@ Nach Klick auf diesen Button erscheint nochmals eine Sicherheitsabfrage, die Sie
 ## Variante 2: mit Suche nach Konten ohne Aktivität / deaktivierten Konten [:octicons-tag-16:{ title="ab Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460){:target="_blank"} {: #delete_user_var2}
 
 **Schritt 1:**<br>
-Auch über den Link "Konten löschen" können Benutzer:innen ausgewählt und deren OpenOlat-Konten gelöscht werden.
+Auch über den Link "Konten löschen" wählen Sie Konten aus und löschen sie:<br>
+`Benutzerverwaltung > Konten löschen`
 
 ![Link Konten löschen in der Werkzeugleiste über dem Suchformular](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" title="Werkzeugleiste der Kontosuche" }
 
@@ -64,7 +75,7 @@ Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert,
 
 **Tab "Bereit zu löschen":** Benutzer:innen, deren Konto die konfigurierte Deaktivierungsperiode überschritten hat und zur endgültigen Löschung bereit ist.
 
-Auf allen drei Tabs schränkt der Filter **Inaktivierung** die Liste nach Zeitraum ein, entweder auf "Kontoablauf in den nächsten" oder auf "Inaktiv seit den letzten", je in Tagen, Wochen, Monaten oder Jahren.
+Auf allen drei Tabs schränkt der Filter "Inaktivierung" die Liste nach Zeitraum ein, entweder auf "Kontoablauf in den nächsten" oder auf "Inaktiv seit den letzten", je in Tagen, Wochen, Monaten oder Jahren.
 
 !!! info "Konfiguration des automatischen Kontolebenszyklus"
     Der automatische Kontolebenszyklus läuft in zwei Schritten: Deaktivierung und Löschung. Unabhängig davon deaktiviert der Kontoablauf ein Konto an seinem hinterlegten Ablaufdatum. Welche Fristen und Benachrichtigungen gelten, wird in der System-Administration festgelegt: `Administration > Lebenszyklen > Konto`<br>
@@ -86,7 +97,7 @@ Nach Klick auf diesen Button erscheint nochmals eine Sicherheitsabfrage, die Sie
 
 ## Variante 3: Automatisches Löschen {: #delete_user_var3}
 
-Das Löschen von Benutzer:innen kann auch vollautomatisch durch einen aktivierten automatischen Kontolebenszyklus erfolgen.
+Ein eingeschalteter automatischer Kontolebenszyklus löscht Konten auch vollautomatisch.
 
 [Details zum automatischen Kontolebenszyklus >](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md#user_account_lifecycle)
@@ -99,7 +110,7 @@ Das Löschen von Benutzer:innen kann auch vollautomatisch durch einen aktivierte
 
 Wird ein/eine Benutzer:in gelöscht,
 
-* sollen manche Information unwiederbringlich gelöscht werden (z.B. Telefonnummer)
+* sollen manche Informationen unwiederbringlich gelöscht werden (z.B. Telefonnummer)
 * können/sollen manche Informationen ohne Namen erhalten bleiben (z.B. Forumsbeitrag, ohne den ein Diskussionstrang seinen Sinn verlieren würde)
 * müssen manche Informationen erhalten bleiben (z.B. Rechnungsadresse -> Aufbewahrungspflicht)
 
@@ -156,14 +167,14 @@ Am häufigsten gefragt wird nach den Medien im Media Center. Dort entscheidet ei
 |**Office for the web** :octicons-person-24: :octicons-package-24: |Alle von OpenOlat im Hintergrund gespeicherte Daten werden gelöscht.|
 |**Testresultate** :octicons-person-24: | Sämtliche Testresultate (Test-Sessions inkl. Antworten und Ergebnissen) werden gelöscht. |
 |**Leistungsnachweise** :octicons-person-24: | Alle Leistungsnachweise der Person werden gelöscht. |
-|**Zertifikate** :octicons-person-24: | Zertifikate werden beim Löschen eines Kontos nicht gelöscht, unabhängig davon, ob sie einen QR-Code bzw. eine Verifikations-URL tragen. Sie bleiben erhalten und verweisen auf das anonymisierte Konto, sodass ihre Echtheit weiterhin bestätigt werden kann (Host based / Signed verification). Es ist sinnvoll, die zu löschenden Benutzer:innen vorher darauf hinzuweisen, dass sie im persönlichen Menü ihre erworbenen Zertifikate vor dem Löschen ihres Accounts noch herunterladen.|
+|**Zertifikate** :octicons-person-24: | Zertifikate werden beim Löschen eines Kontos nicht gelöscht, unabhängig davon, ob sie einen QR-Code bzw. eine Verifikations-URL tragen. Sie bleiben erhalten und verweisen auf das anonymisierte Konto, sodass ihre Echtheit weiterhin bestätigt werden kann (Host based / Signed verification). Es ist sinnvoll, die zu löschenden Benutzer:innen vorher darauf hinzuweisen, dass sie im persönlichen Menü ihre erworbenen Zertifikate vor dem Löschen ihres Kontos noch herunterladen.|
 |**extern erworbene Zertifikate** :octicons-person-24: |OpenOlat-Benutzer:innen können auch extern erworbene Zertifikate in OpenOlat hochladen, um ihr Profil zu vervollständigen. Diese von der Person selbst hochgeladenen Zertifikate werden beim Löschen des Kontos ebenfalls nicht gelöscht und bleiben erhalten.|
 |`Benutzerverwaltung > Badges` :octicons-person-24: | Badges bleiben bestehen, damit die Echtheit bestätigt werden kann (Host based verification, Signed verification). Es ist dennoch sinnvoll, die zu löschenden Benutzer:innen vorher darauf hinzuweisen, dass sie im persönlichen Menü ihre erworbenen Badges herunterladen. Wurden **Globale Badges** vergeben, wird in der Liste der vergebenen globalen Badges an Stelle des Namens des Empfängers/der Empfängerin nur noch "unknown user" angezeigt. Administrator:innen finden diese Liste in der System-Administration: `Administration > e-Assessment > OpenBadges > Vergebene globale Badges`. Es bleibt so noch ersichtlich, wann und durch wen ein globaler Badge einmal vergeben wurde. Auch wenn durch Klick auf "Widerrufen" der Badge entzogen wird, bleibt er als Listeneintrag mit dem Status "Widerrufen" in der Liste der vergebenen globalen Badges erhalten. |
 |**Rolle Besitzer:in in Lernressourcen und Kurse** :octicons-package-24: | Lernressourcen und Kurse werden nicht gelöscht, wenn deren Besitzer:in gelöscht wird. Unabhängig davon, ob die Lernressource publiziert oder mit anderen Autoren geteilt oder nirgends referenziert/verwendet wurde. Wenn die gelöschte Benutzer:in der/die einzige Besitzer:in war, wird ersatzweise der/die Administrator:in als Besitzer:in eingetragen. Dies gilt auch für Test-Lernressourcen.|
 |**im Fragenpool enthaltene Fragen** :octicons-person-24: :octicons-package-24:| Fragen aus dem Fragenpool werden nur gelöscht, wenn die Person deren einzige Autor:in ist und die Einstellung "Fragen löschen, wenn Autor:in gelöscht" aktiviert ist. Fragen mit weiteren Autor:innen sowie alle Fragen bei deaktivierter Einstellung bleiben erhalten. |
 |**im Media Center erstellte Elemente** :octicons-person-24: :octicons-package-24: | Entscheidend ist, ob das Medium in eine Seite eingebunden ist. Das gilt für den Kursbaustein "Seite" ebenso wie für ePortfolio-Seiten. Ist das Medium eingebunden, bleibt es erhalten und ist danach niemandem mehr zugeordnet. Ist es nirgends eingebunden, wird es endgültig gelöscht. Eine Freigabe im Media Center schützt das Medium nicht. Zu beachten: Die eigenen ePortfolio-Mappen der Person werden vorher gelöscht, sofern sie deren einzige Besitzerin ist. Medien, die nur dort eingebunden waren, verlieren dadurch ihre Einbindung und werden ebenfalls gelöscht. Erhaltene Medien finden Administrator:innen und Lernressourcenverwalter:innen unter `Persönliches Menü > Media Center > Segment "Medienverwaltung"`.<br> Es ist sinnvoll, die betroffene Person vor dem Löschen ihres Kontos zu bitten, benötigte Medien herunterzuladen. Soll ein Medium im System bleiben, muss es vorher in eine Seite eingebunden werden. |
 |**externe Korrektor:innen** :octicons-package-24:| Werden Konten externer Korrektor:innen gelöscht, so erscheinen sie in den Listen der Korrekturaufträge nicht mehr. Ihr Vorname und Nachname bleiben aber erhalten, siehe [Wessen Name bleibt erhalten?](#name_retention). Die zugehörigen Korrekturauftrag-Datensätze werden entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, "Erledigt am") bleiben im Excel-Report im Worksheet "Archive" erhalten. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
-|**Korrekturaufträge** :octicons-person-24: :octicons-package-24: | Werden Benutzer:innen gelöscht, die Korrekturaufträge als externer/externe Korrektor:in hatten, so gelten folgende Regeln:  1) **Bereits erledigte Korrekturaufträge** erscheinen entsprechend zugeordnet im Bewertungswerkzeug des/der Kursbesitzer:in.  2) **Noch nicht erledigte Korrekturaufträge** erscheinen auf der Liste "Offene Bewertungen" im Bewertungswerkzeug des/der Kursbesitzer:in.  3) Die Kursbesitzer:innen können nach Anwahl des betreffenden Test-Kursbausteins und eines Teilnehmers/einer Teilnehmerin im **Änderungsverlauf** (Link am unteren Rand des Screens) nachsehen, wer eine Korrektur vorgenommen hat. Es sind dort auch die Namen inzwischen gelöschter Benutzer:innen noch ersichtlich.  Die Korrekturauftrag-Datensätze selbst werden beim Löschen entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, "Erledigt am") bleiben im Excel-Report im Worksheet "Archive" erhalten (siehe [Test-Einstellungen, Korrektur-Workflow](../../manual_user/learningresources/Test_settings.de.md#correction-workflow)).|
+|**Korrekturaufträge** :octicons-person-24: :octicons-package-24: | Werden Benutzer:innen gelöscht, die Korrekturaufträge als externer/externe Korrektor:in hatten, so gelten folgende Regeln:  1) **Bereits erledigte Korrekturaufträge** erscheinen entsprechend zugeordnet im Bewertungswerkzeug des/der Kursbesitzer:in.  2) **Noch nicht erledigte Korrekturaufträge** erscheinen auf der Liste "Offene Bewertungen" im Bewertungswerkzeug des/der Kursbesitzer:in.  3) Die Kursbesitzer:innen können nach Anwahl des betreffenden Test-Kursbausteins und eines Teilnehmers/einer Teilnehmerin im **Änderungsverlauf** (Link am unteren Rand des Screens) nachsehen, wer korrigiert hat. Es sind dort auch die Namen inzwischen gelöschter Benutzer:innen noch ersichtlich.  Die Korrekturauftrag-Datensätze selbst werden beim Löschen entfernt; die für die Abrechnung relevanten Angaben (Korrekturzeit, "Erledigt am") bleiben im Excel-Report im Worksheet "Archive" erhalten (siehe [Test-Einstellungen, Korrektur-Workflow](../../manual_user/learningresources/Test_settings.de.md#correction-workflow)).|
 |**Statistiken** :octicons-infinity-24: |Gelöschte Benutzer:innen sind in den Statistiken besuchter Kurse nicht mehr berücksichtigt.|
 |**Umfrageergebnisse aus dem Qualitätsmanagement** :octicons-infinity-24: |Im Rahmen des Qualitätsmanagements ausgefüllte Formulare werden anonymisiert gespeichert und brauchen deshalb beim Löschen eines Benutzerkontos auch nicht gelöscht werden.|
 |**Log-Tabellen** :octicons-infinity-24:| Log-Einträge werden beim Löschen nicht verändert. Sie enthalten keinen Namen, sondern nur die interne Nummer des Kontos; ob personenbezogen oder anonym geloggt wird, hängt von der Server-Einstellung zum anonymen Logging ab. |

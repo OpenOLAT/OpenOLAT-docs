@@ -1,7 +1,7 @@
 # Account search {: #search_user}
 
 If you want to edit an account, you first find it in the account search. Depending on what you know about the accounts you are looking for, a different way leads to the goal faster: individual attributes, a role or assignment, a search term or a whole list. Administrators, user managers, roles managers and principals reach the account search under:<br>
-`User management > User search`
+`User management > Account search`
 
 !!! note "Quick Links"
 
@@ -20,7 +20,7 @@ If you are looking for accounts with specific attributes, for example all accoun
 
 ![Search fields from ID to Last user login before, grouped into personal data, address, institution, roles, authentication, account status and dates](assets/user_management_search_form_v2_en.png){ class="shadow lightbox" title="Search form of the account search" }
 
-Above the view you find the actions "Create user", "Import users", "Create temp. users" and "Delete user".
+Administrators, user managers and roles managers see the actions "Create account", "Import accounts" and "Create temporary account" above the view. In the standard version, only administrators see "Delete accounts", see [Delete user](Delete_User.md).
 
 The field "Account expiration" searches by the expiry date of the accounts. The selection on the left determines the direction: "Account expiration in the next" finds accounts that expire shortly, "Inactive since the last" finds accounts whose expiry lies in the past. On the right you enter the number and the unit, for example 30 days.
 
@@ -94,9 +94,9 @@ If an OpenOlat instance uses the Course Planner, there are other roles available
 * Course participants
 
 
-### User roles {: #user_roles}
+### Account roles {: #user_roles}
 
-Here you see which accounts are linked through a role user to user, for example who is whose supervisor. Each role and each contra-role has its own entry with the accounts that hold it. The menu entry "User roles" only appears when "Role user to user" is switched on and at least one role is set up. You set up the roles in the system administration under:<br>
+Here you see which accounts are linked through a role user to user, for example who is whose supervisor. Each role and each contra-role has its own entry with the accounts that hold it. The menu entry "Account roles" only appears when "Role user to user" is switched on and at least one role is set up. You set up the roles in the system administration under:<br>
 `Administration > Modules > Role user to user`, see [Role user to user](../administration/Modules.md#role_user_to_user)
 
 For example:
@@ -125,16 +125,16 @@ Here you search within pre-selected user types.
 
 Here you see the accounts with a specific status:
 
-* Pending users
-* Inactive users
-* Blocked users
-* Deleted users
+* Pending accounts
+* Inactive accounts
+* Blocked accounts
+* Deleted accounts
 
 
-![Table of the deleted users with Del_Username, Name, Last name, Deleted, Last login, Created, Deleted by and Remove filter, on the left the expanded entry Status](assets/user_management_search_status_v2_en.png){ class="shadow lightbox" title="Status Deleted users in the account search" }
+![Table of the deleted accounts with Del_Username, Name, Last name, Deleted, Last login, Created, Deleted by and Remove filter, on the left the expanded entry Status](assets/user_management_search_status_v2_en.png){ class="shadow lightbox" title="Status Deleted accounts in the account search" }
 
 
-The table "Deleted users" in the user management contains the following columns, which play a role in the deletion process:
+The table "Deleted accounts" in the user management contains the following columns, which play a role in the deletion process:
 
   *  **Del_Username:** In the deletion process, OpenOlat replaces the username of the deleted account with an ID.
   *  **Name / Last name:** If the deleted account held an administrative role, the first name and last name stand here. The "Clear" action deletes this data as well.
@@ -142,7 +142,7 @@ The table "Deleted users" in the user management contains the following columns,
   *  **Last login:** Date of last login
   *  **Created:** Date of account creation
   *  **Roles:** The administrative roles of the deleted account
-  *  **Deleted by:** Person who carried out the deletion
+  *  **Deleted by:** Person who deleted the account
   *  **Remove filter:** Column with the "Clear" action that deletes the first and last name of administrative accounts.
 
 
@@ -156,18 +156,18 @@ The table "Deleted users" in the user management contains the following columns,
 
 Under the menu "Predefined searches" you find frequently used searches:
 
-* Users without groups
-* Users without email
+* Accounts without group
+* Accounts without e-mail
 * Users without organisation
-* User email duplicates
+* Account e-mail duplicates
 * Authentication missing
 * New since last week
 * New since last month
 * New since the last six months
-* New users
+* New accounts
 * Global roles outside default org
 
-Only administrators and roles managers see the entries "Users without email", "Users without organisation" and "User email duplicates".
+Only administrators and roles managers see the entries "Accounts without e-mail", "Users without organisation" and "Account e-mail duplicates".
 
 [To the top of the page ^](#search_user)
 
@@ -185,9 +185,9 @@ As soon as the field contains text, a cross appears on its right. A click on it 
 
 ## Bulk search [:octicons-tag-16:{ title="from Release 15.4 (OO-5233)" }](https://track.frentix.com/issue/OO-5233) {: #search_user_bulk_search}
 
-If you have a list of people, for example from a spreadsheet, whose accounts you want to edit together, you search for all of them in one step. Next to the title "User search: search form", click "Bulk search".
+If you have a list of people, for example from a spreadsheet, whose accounts you want to edit together, you search for all of them in one step. Next to the title "Account search: search form", click "Bulk search".
 
-![Marked link Bulk search next to the heading User search: search form](assets/user_management_bulk_search_v2_en.png){ class="shadow lightbox" title="Header of the search form of the account search" }
+![Marked link Bulk search next to the heading Account search: search form](assets/user_management_bulk_search_v2_en.png){ class="shadow lightbox" title="Header of the search form of the account search" }
 
 In the field "Usernames, E-mail or Institution identifier", enter one entry per line, at most 16'000 lines, and click "Search". The line numbers at the margin show how many entries the list holds. OpenOlat finds the accounts whose username, e-mail or institution identifier matches an entry exactly; upper and lower case do not matter. The bulk search does not find deleted accounts and accounts outside the organisations you manage. With "Search form" you return to the search form.
 
@@ -215,9 +215,9 @@ OpenOlat deactivates an account that does not log in within the configured perio
 |--------|---------|
 | Account expiration | The expiry date stored per account. |
 | Days until expiry | Remaining days until this date. |
-| Days until inactivation | Remaining days until OpenOlat deactivates the account. Only present when the toggle "Deactivate user after inactivity" is active. |
+| Days until inactivation | Remaining days until OpenOlat deactivates the account. Only present when the toggle "Deactivate accounts after inactivity" is active. |
 | Inactivation date | Date on which the account was deactivated. |
-| Days until deletion | Remaining days until the automatic deletion. Only present when the toggle "Delete inactive user" is active. |
+| Days until deletion | Remaining days until the automatic deletion. Only present when the toggle "Delete inactive accounts" is active. |
 
 You set both toggles in the system administration under:<br>
 `Administration > Life cycles > User`, see [Life cycles: Account](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
@@ -233,6 +233,7 @@ The "Account" tab of a single person carries the same periods, see [Manage user 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Delete user >](Delete_User.md)<br>
 [Roles and rights >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
 [Group administration >](../../manual_user/groups/Group_Administration/index.md)<br>
 [Modules >](../administration/Modules.md)<br>
@@ -241,7 +242,7 @@ The "Account" tab of a single person carries the same periods, see [Manage user 
 [Manage user settings >](Configure_User.md)
 
 **Further reading**<br>
-[Create user >](Create_User.md)<br>
-[Delete user >](Delete_User.md)
+[Create account >](Create_User.md)<br>
+[Assign roles >](Assign_roles.md)
 
 [To the top of the page ^](#search_user)

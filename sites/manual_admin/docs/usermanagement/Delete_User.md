@@ -12,7 +12,7 @@ When an account is deleted, it is not removed from the database but anonymised: 
 
 ## Who may delete user accounts?
 
-Whoever wants to remove an account permanently needs the role administrator. Only for this role does user management show the "Delete users" button above the result list.
+Whoever wants to remove an account permanently needs the role administrator. Only for this role does user management show the "Delete account" button above the result list.
 
 User management itself is reached by several roles:
 
@@ -22,7 +22,16 @@ User management itself is reached by several roles:
 * Administrator
 * System administrator
 
-These roles search accounts, change user settings and status and, depending on the instance, also see the "Delete user" area, but do not delete accounts themselves. System administrators additionally trigger deletions via the automatic user lifecycle.
+These roles search accounts. What they may change on an account is shown by the buttons above the result list as soon as an account is marked:
+
+* Administrators get "Change account settings", "Change status" and "Delete account".
+* Roles managers get "Change account settings" and "Change status".
+* User managers get "Change account settings". They change the status of an account in the "Account" tab of the single account.
+* Principals and system administrators without the role administrator get none of these buttons and see no "Status" field in the "Account" tab.
+
+For accounts with the role administrator, system administrator or roles manager, the status cannot be changed in the "Account" tab.
+
+In the standard version of OpenOlat, only administrators see the "Delete accounts" area. Some OpenOlat versions also show it to user managers and roles managers, limited to the organisations in which they hold this role. This is not a setting of the administration. Even there they do not get the "Delete account" button, so they do not delete accounts themselves. System administrators additionally trigger deletions via the automatic user lifecycle.
 
 [To the top of the page ^](#delete_user)
 
@@ -32,17 +41,18 @@ These roles search accounts, change user settings and status and, depending on t
 ## Option 1: Via the account search {: #delete_user_var1}
 
 **Step 1:**<br>
-In the user management, use the account search to find the users whose accounts are to be deleted.
+In the account search, find the accounts you want to delete:<br>
+`User management > Account search`
 
 **Step 2:**<br>
-In the search results, mark the users to be deleted using the checkbox at the beginning of the row. As soon as at least 1 person is marked, the "Delete users" button appears above the list.
+In the search results, mark the users to be deleted using the checkbox at the beginning of the row. As soon as at least 1 person is marked, the "Delete account" button appears above the list, among others.
 
-![Checkbox of a row ticked, above it the Delete users button appears](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" title="Result list of the account search" }
+![Checkbox of a row ticked, above it the Delete account button appears](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" title="Result list of the account search" }
 
 **Step 3:**<br>
 After clicking this button, a confirmation dialog appears which you must confirm.
 
-![Confirmation dialog Delete users with a warning and the Confirmation checkbox that must be ticked before deleting](assets/delete_user_var1_step3_v1_de.png){ class="shadow lightbox" title="Confirmation dialog above the account search" }
+![Confirmation dialog Delete account with a warning and the Confirmation checkbox that must be ticked before deleting](assets/delete_user_var1_step3_v1_de.png){ class="shadow lightbox" title="Confirmation dialog above the account search" }
 
 [To the top of the page ^](#delete_user)
 
@@ -51,9 +61,10 @@ After clicking this button, a confirmation dialog appears which you must confirm
 ## Option 2: Search for inactive / deactivated accounts [:octicons-tag-16:{ title="from Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460){:target="_blank"} {: #delete_user_var2}
 
 **Step 1:**<br>
-Users can also be selected and their OpenOlat accounts deleted via the "Delete user" link.
+You can also select accounts and delete them via the link "Delete accounts":<br>
+`User management > Delete accounts`
 
-![Delete user link in the toolbar above the search form](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" title="Toolbar of the account search" }
+![Delete accounts link in the toolbar above the search form](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" title="Toolbar of the account search" }
 
 **Step 2:**<br>
 Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases of the automatic user lifecycle:
@@ -64,18 +75,18 @@ Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases 
 
 **Tab "Ready to delete":** Users whose account has exceeded the configured deactivation period and is ready for permanent deletion.
 
-On all three tabs, the **Inactivation** filter narrows the list by period, either to "Account expiry in the next" or to "Inactive for the last", in days, weeks, months or years.
+On all three tabs, the filter "Inactivation" narrows the list by period, either to "Account expiration in the next" or to "Inactive for the last", in days, weeks, months or years.
 
 !!! info "Configuration of the automatic user lifecycle"
     The automatic user lifecycle runs in two steps: deactivation and deletion. Independently of this, the account expiration deactivates an account on its stored expiry date. The applicable deadlines and notifications are configured in the system administration: `Administration > Life cycles > User`<br>
     [Details on the automatic user lifecycle](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
 
-![Three tabs Accounts without activity, Deactivated accounts and Ready to delete, below them the opened Inactivation filter](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" title="View Delete user in the account search" }
+![Three tabs Accounts without activity, Deactivated accounts and Ready to delete, below them the opened Inactivation filter](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" title="View Delete accounts in the account search" }
 
 **Step 3:**<br>
-Mark the users to be deleted using the checkbox at the beginning of the row. As soon as at least 1 person is marked, the "Delete users" button appears above the list.
+Mark the users to be deleted using the checkbox at the beginning of the row. As soon as at least 1 person is marked, the "Delete account" button appears above the list, among others.
 
-![Marked row in the Deactivated accounts tab, above it the Delete users button next to Change account settings and Change status](assets/delete_user_var2_step3_v1_de.png){ class="shadow lightbox" title="View Delete user in the account search" }
+![Marked row in the Deactivated accounts tab, above it the Delete account button next to Change account settings and Change status](assets/delete_user_var2_step3_v1_de.png){ class="shadow lightbox" title="View Delete accounts in the account search" }
 
 **Step 4:**<br>
 After clicking this button, a confirmation dialog appears which you must confirm.
@@ -86,7 +97,7 @@ After clicking this button, a confirmation dialog appears which you must confirm
 
 ## Option 3: Automatic deletion {: #delete_user_var3}
 
-Users can also be deleted fully automatically by an activated automatic user lifecycle.
+An activated automatic user lifecycle also deletes accounts fully automatically.
 
 [Details on the automatic user lifecycle >](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md#user_account_lifecycle)
@@ -163,7 +174,7 @@ The most frequent question concerns the media items in the Media Center. There, 
 |**Questions in the question bank** :octicons-person-24: :octicons-package-24:| Questions from the question bank are only deleted if the person is their sole author and the setting "Delete questions when author deleted" is enabled. Questions with additional authors, as well as all questions when the setting is disabled, are retained. |
 |**Elements created in the Media Center** :octicons-person-24: :octicons-package-24: | What matters is whether the media item is embedded in a page. This applies to the "Page" course element as well as to ePortfolio pages. If the media item is embedded, it is retained and is no longer assigned to anyone. If it is not embedded anywhere, it is permanently deleted. Sharing a media item in the Media Center does not protect it. Please note: the person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Media items that were embedded only there lose their embedding and are therefore deleted as well. Administrators and learning resource managers find the retained media items under `Personal menu > Media Center > "Media management" segment`.<br> It makes sense to ask the person concerned to download any media items they need before their account is deleted. If a media item is to remain in the system, it must be embedded in a page beforehand. |
 |**External correctors** :octicons-package-24:| If accounts of external correctors are deleted, they no longer appear in the lists of grading assignments. Their first name and last name are retained, however, see [Whose name is retained?](#name_retention). The associated grading assignment records are removed; the data relevant for remuneration (correction time, "Close date") is retained in the "Archive" worksheet of the Excel report. [:octicons-tag-16:{ title="from Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)|
-|**Grading assignments** :octicons-person-24: :octicons-package-24: | If users who had grading assignments as external correctors are deleted, the following rules apply: 1) **Already completed grading assignments** appear accordingly assigned in the course owner's assessment tool. 2) **Not yet completed grading assignments** appear on the "Open assessments" list in the course owner's assessment tool. 3) Course owners can check in the **change log** (link at the bottom of the screen) who performed a correction after selecting the relevant test course element and a participant. The names of users who have since been deleted are still visible there.  The grading assignment records themselves are removed on deletion; the data relevant for remuneration (correction time, "Close date") is retained in the "Archive" worksheet of the Excel report (see [Test settings, Correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow)).|
+|**Grading assignments** :octicons-person-24: :octicons-package-24: | If users who had grading assignments as external correctors are deleted, the following rules apply: 1) **Already completed grading assignments** appear accordingly assigned in the course owner's assessment tool. 2) **Not yet completed grading assignments** appear on the "Open assessments" list in the course owner's assessment tool. 3) Course owners can check in the **change log** (link at the bottom of the screen) who corrected after selecting the relevant test course element and a participant. The names of users who have since been deleted are still visible there.  The grading assignment records themselves are removed on deletion; the data relevant for remuneration (correction time, "Close date") is retained in the "Archive" worksheet of the Excel report (see [Test settings, Correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow)).|
 |**Statistics** :octicons-infinity-24: |Deleted users are no longer included in the statistics of visited courses.|
 |**Survey results from quality management** :octicons-infinity-24: |Forms completed as part of quality management are stored anonymously and therefore do not need to be deleted when a user account is deleted.|
 |**Log tables** :octicons-infinity-24:| Log entries are not changed on deletion. They contain no name, only the internal number of the account; whether logging is personalised or anonymous depends on the server setting for anonymous logging. |
@@ -209,7 +220,7 @@ For all other roles, the name is anonymised. These include:
 
 "Administrative" is therefore defined more narrowly here than when roles are assigned in the user management. Roles managers and quality managers also lose their name on deletion.
 
-Anyone who can access the user management finds the deleted accounts with first name, last name and roles in the [Account search, status "Deleted users"](Search_Users.md#status). The "Roles" column shows which roles the account held when it was deleted. Use the "Clear" action to delete the first name and last name of these accounts afterwards as well.
+Anyone who can access the user management finds the deleted accounts with first name, last name and roles in the [Account search, status "Deleted accounts"](Search_Users.md#status). The "Roles" column shows which roles the account held when it was deleted. Use the "Clear" action to delete the first name and last name of these accounts afterwards as well.
 
 
 [To the top of the page ^](#delete_user)
