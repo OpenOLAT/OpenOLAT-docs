@@ -30,7 +30,7 @@ Information about groups and members can generally be exchanged in both directio
 * from the other LMS (= tool) to OpenOlat (= platform)
 
 
-![Exchange directions between OpenOlat and another LMS: OpenOlat as tool or as platform](assets/LTI_share_groups_platform_tool_v1_de.png){ class="shadow lightbox" title="Tool and platform roles between two systems" }
+![Exchange directions between OpenOlat and another LMS: OpenOlat as tool or as platform](assets/LTI_share_groups_platform_tool_v1_en.png){ class="shadow lightbox" title="Tool and platform roles between two systems" }
 
 If OpenOlat is the platform, you embed the external tool in a course via the course element "LTI page". Which data of the persons OpenOlat transfers to the tool, such as name, e-mail address and roles, is set in the course element: [Course element "LTI page"](../learningresources/Course_Element_LTI_Page.md). The following sections describe OpenOlat as the tool.
 
