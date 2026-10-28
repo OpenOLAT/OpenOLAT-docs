@@ -426,8 +426,6 @@ Hat ein Buchungsauftrag eine Rechnungsadresse mit erfasster Debitorennummer, zei
 
 Alles, was eine Durchführung beschreibt und steuert, legen Sie in den Unter-Tabs der Einstellungen fest. Die Unter-Tabs "Metadaten", "Infos", "Durchführung" und "Optionen" stehen immer zur Verfügung, "Automatisierung" und "Bewertung" nur unter den Bedingungen, die ihre Abschnitte weiter unten nennen. Bei der Durchführung selbst, nicht bei ihren untergeordneten Elementen, zeigt der Button "Vorschau Infoseite", wie die Infoseite der Durchführung erscheint.
 
-![Die Unter-Tabs der Einstellungen von Metadaten bis Optionen und der Button Vorschau Infoseite](assets/course_planner_implementations_tab_settings_v3_de.png){ class="shadow lightbox" title="Tab Einstellungen einer Durchführung · 2026.10.02" }
-
 #### Metadaten der Einstellungen
 
 Die Metadaten erleichtern unter anderem die Suche nach der Durchführung.

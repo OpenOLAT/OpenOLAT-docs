@@ -5,7 +5,7 @@ Im Modul Kurs legen Sie als Administrator:in fest, welche Kursoptionen systemwei
 
 ## Tab Einstellungen {: #settings}
 
-![Optionen unter Auf Infoseite anzeigen und Rollen unter Als Dozenten angezeigte Mitglieder, mit denen neue Kurse starten](assets/modules_course_settings_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Kurs · 2026.10.09" }
+Die Kursoptionen legen Sie unter "Moduleinstellungen" fest, die Voreinstellungen für neue Kurse unter "Standardeinstellungen". Der dritte Abschnitt, "Kursbezogene Konfiguration", enthält Links in andere Menüs.
 
 ### Moduleinstellungen {: #module_settings}
 
@@ -45,6 +45,8 @@ Hier legen Sie fest, ob der Leistungsnachweis in neuen Kursen eingeschaltet ist.
 Hier legen Sie fest, welche Abschnitte die Infoseite eines neuen Kurses zeigt: "Termine", "Lernen Sie Ihre Dozent:innen kennen" und "Zertifikat". Ab Werk sind alle drei Optionen gewählt. Für "Kreditpunkte" gibt es keinen Standardwert, die Option wird in jedem Kurs einzeln gewählt.
 
 "Lernen Sie Ihre Dozent:innen kennen" gilt für neue Kurse als gewählt, solange unter "Als Dozenten angezeigte Mitglieder" mindestens eine Rolle gewählt ist. Sollen neue Kurse ohne diesen Abschnitt starten, wählen Sie dort keine Rolle.
+
+![Optionen unter Auf Infoseite anzeigen und Rollen unter Als Dozenten angezeigte Mitglieder, mit denen neue Kurse starten](assets/modules_course_settings_v2_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Kurs · 2026.10.09" }
 
 #### Als Dozenten angezeigte Mitglieder {: #default_taught_by}
 

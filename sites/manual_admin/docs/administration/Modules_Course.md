@@ -5,7 +5,7 @@ In the Module Course, you as an administrator define which course options are av
 
 ## Tab Settings {: #settings}
 
-![Options under Display on info page and roles under Members displayed as teacher that new courses start with](assets/modules_course_settings_v2_en.png){ class="shadow lightbox" title="Settings tab in the Module Course · 2026.10.09" }
+You set the course options under "Module settings" and the presets for new courses under "Default settings". The third section, "Course related configuration", contains links to other menus.
 
 ### Module settings {: #module_settings}
 
@@ -45,6 +45,8 @@ Here you define whether the evidence of achievement is switched on in new course
 Here you define which sections the info page of a new course shows: "Events", "Meet your teachers" and "Certificate". By default, all three options are selected. There is no default value for "Credit points", the option is selected in each course individually.
 
 "Meet your teachers" counts as selected for new courses as long as at least one role is selected under "Members displayed as teacher". If new courses are to start without this section, select no role there.
+
+![Options under Display on info page and roles under Members displayed as teacher that new courses start with](assets/modules_course_settings_v2_en.png){ class="shadow lightbox" title="Settings tab in the Module Course · 2026.10.09" }
 
 #### Members displayed as teacher {: #default_taught_by}
 

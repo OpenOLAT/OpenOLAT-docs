@@ -414,9 +414,6 @@ If a booking order has a billing address with a recorded customer number, its de
 
 Everything that describes and controls an implementation is set in the sub-tabs of the settings. The sub-tabs "Metadata", "Infos", "Execution" and "Options" are always available, "Automation" and "Assessment" only under the conditions named in their sections below. For the implementation itself, not for its subordinate elements, the "Preview info page" button shows how the info page of the implementation appears.
 
-![The sub-tabs of the settings from Metadata to Options and the Preview info page button](assets/course_planner_implementations_tab_settings_v3_en.png){ class="shadow lightbox" title="Settings tab of an implementation · 2026.10.02" }
-
-
 #### Metadata of the settings
 
 The metadata makes it easier, among other things, to find the implementation.
