@@ -106,6 +106,8 @@ Owners and coaches open the list of a person in two ways, both show the same lis
 
 If you start from the person in the assessment tool, "Select" next to the course element "SCORM 1.2" opens the same list, see [Assessment of learners](Assessment_of_learners.md#assess_all_course_element).
 
+![Detail list with the filter tabs All and Last run and the columns Last run and SCO ID highlighted: Last run marks the current state of each SCO, earlier states stay unmarked](assets/assessment_of_course_modules_scorm_details_v1_en.png){ class="shadow lightbox" title="Details of a SCORM course element in the assessment tool · 2026.10.28" }
+
 The list shows the newest row at the top and has these columns:
 
 * **Last run:** marks the row with the current state of each SCO, with the text "Last run". In the other rows the cell stays empty.
@@ -120,6 +122,8 @@ Each time a person finishes a SCO, OpenOlat also stores a copy of the state. The
 Above the list you choose between "All" and "Last run". "Last run" shows only the marked rows, that is the current state of each SCO. "All" also shows the earlier states. "Last run" is also available among the filters of the list. The search field finds rows by their SCO ID.
 
 "Select" opens a window with the SCO ID in its title. It lists all data the SCO has transmitted, in the columns "Question", "Key" and "Value". "Key" is the technical name of the SCORM data field, such as `cmi.core.score.raw`, "Question" its name in OpenOlat, such as "Final score", and "Value" the transmitted content. The search field in the window finds entries by question, key or value.
+
+![Window with the SCO ID in its title, the search field and the columns Question, Key and Value highlighted: each row is one transmitted SCORM data field, such as Course status with the value completed](assets/assessment_of_course_modules_scorm_sco_data_v1_en.png){ class="shadow lightbox" title="Transmitted data of a SCO in the assessment tool · 2026.10.28" }
 
 You export the list and the table in the window with the icon "Download" of each. To export the SCORM data of all participants of a course, use `Course > Administration > Archiving & Reporting` instead, see [SCORM results](Course_Archiving.md#scorm-results).
 

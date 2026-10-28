@@ -108,6 +108,8 @@ Besitzer:innen und Betreuer:innen öffnen die Liste einer Person auf zwei Wegen,
 
 Gehen Sie im Bewertungswerkzeug von der Person aus, öffnet "Auswählen" beim Kursbaustein "SCORM 1.2" dieselbe Liste, siehe [Lernende bewerten](Assessment_of_learners.de.md#assess_all_course_element).
 
+![Detailliste mit markierten Filter-Tabs Alle und Letztes Versuch und Spalten Letztes Versuch und SCO ID: Last run kennzeichnet je SCO den aktuellen Stand, frühere Stände bleiben ohne Markierung](assets/assessment_of_course_modules_scorm_details_v1_de.png){ class="shadow lightbox" title="Details eines SCORM-Kursbausteins im Bewertungswerkzeug · 2026.10.28" }
+
 Die Liste zeigt die neueste Zeile zuoberst und hat diese Spalten:
 
 * **Letztes Versuch:** markiert je SCO die Zeile mit dem aktuellen Stand, mit dem Text "Last run". Bei den übrigen Zeilen bleibt die Zelle leer.
@@ -122,6 +124,8 @@ Jedes Mal, wenn eine Person ein SCO beendet, legt OpenOlat zusätzlich eine Kopi
 Über der Liste wählen Sie zwischen "Alle" und "Letztes Versuch". "Letztes Versuch" zeigt nur die markierten Zeilen, also den aktuellen Stand jedes SCO. "Alle" zeigt auch die früheren Stände. "Letztes Versuch" steht ausserdem bei den Filtern der Liste zur Wahl. Das Suchfeld findet Zeilen über die SCO ID.
 
 "Auswählen" öffnet ein Fenster mit der SCO ID im Titel. Es listet alle Daten, die das SCO übermittelt hat, in den Spalten "Frage", "Schlüssel" und "Wert". "Schlüssel" ist der technische Name des SCORM-Datenfelds, etwa `cmi.core.score.raw`, "Frage" dessen Bezeichnung in OpenOlat, etwa "Endergebnis", und "Wert" der übermittelte Inhalt. Das Suchfeld im Fenster findet Einträge über Frage, Schlüssel oder Wert.
+
+![Fenster mit der SCO ID im Titel, markiertem Suchfeld und Spalten Frage, Schlüssel und Wert: je Zeile ein übermitteltes SCORM-Datenfeld, etwa Kursstatus mit dem Wert completed](assets/assessment_of_course_modules_scorm_sco_data_v1_de.png){ class="shadow lightbox" title="Übermittelte Daten eines SCO im Bewertungswerkzeug · 2026.10.28" }
 
 Die Liste und die Tabelle im Fenster exportieren Sie je mit dem Symbol "Herunterladen". Die SCORM-Daten aller Teilnehmenden eines Kurses exportieren Sie dagegen unter `Kurs > Administration > Archivierung & Reports`, siehe [SCORM Resultate](Course_Archiving.de.md#scorm-resultate).
 
