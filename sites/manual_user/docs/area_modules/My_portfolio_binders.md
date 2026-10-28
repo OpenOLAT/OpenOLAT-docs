@@ -62,6 +62,9 @@ When you open a binder, you manage it via the toolbar above the tabs: on the lef
     * "Export binder as CP" downloads the binder as a CP (Content Package).
     * "Export binder as PDF" downloads the binder as a PDF file. The option only appears if your administrator has set up the [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator).
     * "Binder in one page" opens the whole binder as one page in a new browser window, for reading and printing.
+
+    ![Dropdown menu Export binder with three forms to back up, pass on or print the binder; in this binder from a template, the export is the only action of the toolbar](assets/my_portfolio_binders_export_menu_v1_en.png){ class="shadow lightbox" title="Dropdown menu Export binder in a binder from a template · 2026.10.28" }
+
 * **Create new section**: A section structures the binder like a chapter and holds the entries. The action exists only in binders you created yourself. In a binder from a template, the template defines the sections.
 * **Create new entry**: Here you write a new entry in a section of the binder. The action only appears once the binder has at least one section. In a binder from a template, it only appears if the template has switched on "Users are allowed to create new entries" or if the binder shows the tab "Templates". This tab exists if the template has switched on "Add template folder" and contains templates.
 * **Import entry**: With this you take over entries you have already written, for example under [My entries](My_entries.md), into a section of this binder. The wizard "Import entries" guides you through the selection. The action only appears once the binder has at least one section. In a binder from a template, it only appears if the template has switched on "Users are allowed to create new entries".
