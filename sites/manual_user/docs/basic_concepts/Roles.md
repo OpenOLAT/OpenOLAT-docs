@@ -6,7 +6,7 @@ A person's roles determine which areas and functions they use in OpenOlat. Each 
 
 The Course Planner also has the roles Product owner (assigned at the product), Element owner and Master coach (both assigned at the element). Their rights are described on the page [Course Planner: Overview](../area_modules/Course_Planner.md#roles_rights).
 
-## Organisation wide roles {: #org} 
+## Organisation roles {: #org} 
 
 Organisation roles give a person rights that apply throughout their organisation, for example to create courses or to manage accounts. They are assigned in the user management:<br>
 `User management > "Name of the person" > Roles`<br>
@@ -39,13 +39,8 @@ Which areas of the main navigation a role opens is shown on the page [Roles and 
 
     If you have questions about the role assignment, please contact the support of your OpenOlat instance.
 
-[To the top of the page ^](#roles)
 
-
----
-
-
-## Roles in an organisation [:octicons-tag-16:{ title="from Release 13.0 (OO-3302)" }](https://track.frentix.com/issue/OO-3302) {: #orgunit} 
+### Limit to one organisation [:octicons-tag-16:{ title="from Release 13.0 (OO-3302)" }](https://track.frentix.com/issue/OO-3302) {: #orgunit} 
 
 If your instance is divided into several organisations, a person receives in each organisation the roles they need there. The prerequisite is that the "Organisations" module is switched on.
 
@@ -81,20 +76,12 @@ How to assign roles per organisation is described on the page [Role assignment o
 
 ---
 
-## Roles in a course {: #course} 
+## Course roles {: #course} 
 
-![Three course roles owner, coach and participant; participants are registered users, anonymous guests, external users, participants without booking or former participants](assets/roles_rights_course_members_v1_de.png){ class="shadow lightbox" title="Course members by role" }
-
-Whoever teaches, coaches or learns in a course receives one of three course roles there. You assign the course roles under:<br>
+Whoever teaches, coaches or learns in a course receives one of three course roles there: Owner, Coach or Participant. You assign the course roles under:<br>
 `Course > Administration > Members management`
 
-* **Owner**: Owners have all rights in the course. They edit the course, manage the members and can delete the course.
-
-    :octicons-device-camera-video-24: **Video Introduction (German)**: [Requirements for authors](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"}
-
-* **Coach**: Coaches accompany and assess the participants. They have access to the [Assessment tool](../learningresources/Assessment_tool_overview.md) of the course and to "Test statistics" and "Survey statistics". They do not edit the course in the course editor and cannot delete it. In the assessment tool they see the participants who are entered directly in the course. They only see participants of a group or an implementation if they are coach there as well. More in the section [The role Coach](#coach).
-
-* **Participant**: Participants open the course and work on the course elements and contents that are open to them depending on the configuration. They have no further rights in the course.
+![Three course roles owner, coach and participant; participants are registered users, anonymous guests, external users, participants without booking or former participants](assets/roles_rights_course_members_v1_de.png){ class="shadow lightbox" title="Course members by role" }
 
 You change the roles of a person who is already a member in the members management via "Edit membership" in the menu of their row.
 
@@ -102,16 +89,19 @@ You change the roles of a person who is already a member in the members manageme
 
 In addition to the course-related roles, [guests](guest_access.md) without an OpenOlat account can also get access to a course in conventional courses.
 
-!!! tip "Role change"
 
-    A person can have several course roles, for example Owner and Coach. In the "Role" menu in the toolbar of the course, they switch under "Roles" to another of their roles and see the course the way this role sees it. Owners and coaches who are not also participants choose "Participant view" under "Switch to".
+### Owner {: #owner}
 
-    ![The Role menu shows the person's other roles under Roles and the participant view under Switch to](assets/roles_course_role_switch_v1_en.png){ class="shadow lightbox" title="Role menu in the toolbar of the course · 2026.10.21" }
+Owners have all rights in the course. They edit the course, manage the members and can delete the course.
+
+:octicons-device-camera-video-24: **Video Introduction (German)**: [Requirements for authors](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"}
 
 
-### The role Coach {: #coach}
+### Coach {: #coach}
 
-Coaches accompany and assess the participants of a course; they do not design the course itself. If they need further rights, owners have two ways:
+Coaches accompany and assess the participants; they do not design the course itself. They have access to the [Assessment tool](../learningresources/Assessment_tool_overview.md) of the course and to "Test statistics" and "Survey statistics". They do not edit the course in the course editor and cannot delete it. In the assessment tool they see the participants who are entered directly in the course. They only see participants of a group or an implementation if they are coach there as well.
+
+If coaches need further rights, owners have two ways:
 
 * **For the whole course** they make further tools available under:<br>
 `Course > Administration > Members management > Rights`
@@ -119,6 +109,10 @@ Coaches accompany and assess the participants of a course; they do not design th
 `Course > Administration > Course editor > "Course element"`
 
 What this section says about coaches also applies to group coaches of a group assigned to the course and to coaches of an implementation in the Course Planner. Group coaches only see the participants of their group. Coaches see the course from the status "Access for coach" onwards (see [Rights of the course roles](Authorisation_Concept.md)).
+
+!!! warning "Access assessment tool"
+
+    If a person is not to open the assessment tool, give them the role Coach neither in the course nor in a group or implementation.
 
 
 #### More rights in course elements {: #coach_rights}
@@ -208,19 +202,45 @@ Without additional rights, coaches do not open:
 Coaches without an additional right do not start or finish an exam with manual start. They only see the button "Start exam" in the assessment tool with the right "Assessment tool", and in the assessment management with the right "Assessment mode". Without a right, only coaches who are entered as teacher in the event of the exam see it. More on this in the section [Who can start and finish an exam manually](../learningresources/Assessment_mode.md#start_stop_rights).
 
 
+### Participant {: #participant}
+
+Participants open the course and work on the course elements and contents that are open to them depending on the configuration. They have no further rights in the course.
+
+
+### Switch role {: #role_switch}
+
+A person can have several course roles, for example Owner and Coach. In the "Role" menu in the toolbar of the course, they switch under "Roles" to another of their roles and see the course the way this role sees it. Owners and coaches who are not also participants choose "Participant view" under "Switch to".
+
+![The Role menu shows the person's other roles under Roles and the participant view under Switch to](assets/roles_course_role_switch_v1_en.png){ class="shadow lightbox" title="Role menu in the toolbar of the course · 2026.10.21" }
+
+
 [To the top of the page ^](#roles)
 
 ---
 
-## Roles in groups {: #groups} 
+## Group roles {: #groups} 
 
 If a course works with groups, you enter the members of a group as group coaches or group participants.
 
 * **Group coach**:<br>
-Group coaches have almost the same rights as course coaches, but only for their group. In the course they open the assessment tool, "Test statistics" and "Survey statistics". In the assessment tool they only see the participants of their own group.
+Group coaches have the rights of the role [Coach](#coach) in the course. In the assessment tool, in "Test statistics" and in "Survey statistics" they only see the participants of their own group.
 
 * **Group participant**:<br>
-Group participants have the same rights as course participants.
+Group participants have the same rights in the course as [participants](#participant).
+
+!!! info "Course/group roles"
+
+    Course and group rights do not depend on the organisation roles a person has received in the user management. People without a further role can also be course owner, course coach or group coach.
+
+!!! note "Note"
+
+    Group participants and group coaches are roles within a specific group. The role Group manager, on the other hand, is a system role: whoever has it manages the groups of the entire system.
+
+[To the top of the page ^](#roles)
+
+---
+
+## Additional rights {: #rights}
 
 If members need more rights than their role brings, you assign additional rights under:<br>
 `Course > Administration > Members management > Rights`<br>
@@ -244,13 +264,17 @@ With this right, the members management is available in the "Administration" men
 
 The right "Members management" includes group management, even if the right "Group management" is not set.
 
+!!! warning "Access members management"
+
+    People with the right "Members management" can give themselves additional rights, remove other members from the course and restrict their rights, including the rights of the person who created the course and of the other owners. More on the page [Members management](../learningresources/Members_management.md).
+
 [More about members management >](../learningresources/Members_management.md)
 
 
 #### Course editor {: #course_editor}
 
-With this right, the course editor is available in the "Administration" menu of the course. Course members such as coaches use it to edit the course and to configure or add course elements. They cannot create new courses or learning resources with it. In the same menu they also open "Settings", "Files", "Learning areas", "Assessment management", "Reminders" and "Events and Absences", the last three only if the respective function is switched on.<br>
-**Note:** 
+With this right, the course editor is available in the "Administration" menu of the course. Course members such as coaches use it to edit the course and to configure or add course elements. They cannot create new courses or learning resources with it. In the same menu they also open "Settings", "Files", "Learning areas", "Assessment management", "Reminders" and "Events and Absences", the last three only if the respective function is switched on.
+
 A course that a person edits via this right without being its owner does not appear in their Authoring, even if they otherwise have author rights. Instead, they open the course in the main navigation under "Courses" and find the course editor in the "Administration" menu. In this case, too, coaches and participants only see the course once the owners have published it.
 
 [More about the course editor >](../learningresources/General_Configuration_of_Course_Elements.md)
@@ -297,15 +321,6 @@ With this right, "Assessment management" is available in the "Administration" me
 
 With this right, "Course DB" is available in the "Administration" menu of the course if course databases are switched on for the instance, with the same options as for course owners. The members create course databases, reset, delete and export them.
 
-
-!!! info "Course/group roles"
-
-    Course and group rights do not depend on the organisation roles a person has received in the user management. People without a further role can also be course owner, course coach or group coach.
-
-!!! note "Note"
-
-    Group participants and group coaches are roles within a specific group. The role Group manager, on the other hand, is a system role: whoever has it manages the groups of the entire system.
-
 [To the top of the page ^](#roles)
 
 ---
@@ -319,30 +334,12 @@ Each of these roles has a contra-role that names the other side of the relation.
 
 Once the roles are set up, you connect two accounts in the user management via one of these roles. How to do this is described on the page [Define relations](Assign_Roles.md#role_assignment_relations).
 
-[To the top of the page ^](#roles)
 
----
+### User roles {: #account_roles} 
 
-
-## User roles {: #account_roles} 
-
-In user management, the [self-defined roles](#relations) appear under "User roles". There, each role and its contra-role appear as separate entries. Clicking an entry lists the accounts that have this role in a relation. The menu item appears as soon as at least one such role exists.<br>
-(See [User roles](../../manual_admin/usermanagement/Search_Users.md#user_roles))
-
-[To the top of the page ^](#roles)
-
-
----
-
-
-!!! warning "Access assessment tool"
-
-    If a person is not to open the assessment tool, give them the role Coach neither in the course nor in a group or implementation.
-
-!!! warning "Access members management"
-
-    People with the right "Members management" can give themselves additional rights, remove other members from the course and restrict their rights, including the rights of the person who created the course and of the other owners. More on the page [Members management](../learningresources/Members_management.md).
-
+Which accounts are connected via a self-defined role is shown in the user management under:<br>
+`User management > User roles`<br>
+There, each role and its contra-role appear as separate entries. Clicking an entry lists the accounts that have this role in a relation. The menu item appears if "Role user to user" is switched on in the system administration and at least one such role exists. More on this in the section [User roles](../../manual_admin/usermanagement/Search_Users.md#user_roles) of the account search.
 
 [To the top of the page ^](#roles)
 
@@ -357,9 +354,9 @@ In user management, the [self-defined roles](#relations) appear under "User role
 [User management >](../../manual_admin/usermanagement/index.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
-[Assign roles >](Assign_Roles.md)<br>
+[Roles and Rights: Assign roles >](Assign_Roles.md)<br>
+[Roles and Rights: Guest access >](guest_access.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
-[Guest access >](guest_access.md)<br>
 [Roles and Rights: Authorisation in courses >](Authorisation_Concept.md)<br>
 [Course Element "Adobe Connect" >](../learningresources/Course_Element_Adobe_Connect.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
@@ -399,7 +396,7 @@ In user management, the [self-defined roles](#relations) appear under "User role
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>
 [Groups >](../groups/index.md)<br>
 [Group Administration >](../groups/Group_Administration/index.md)<br>
-[Elements >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
 [Glossary >](../learningresources/Glossary.md)<br>
 [Course statistics >](../learningresources/Statistics_Course.md)<br>
@@ -409,7 +406,7 @@ In user management, the [self-defined roles](#relations) appear under "User role
 
 **Further reading**<br>
 [Roles and Rights: Overview >](Roles_Rights.md)<br>
-[User Types >](User_Types.md)
+[Roles and Rights: User Types >](User_Types.md)
 
 **youtube**<br>
 [Requirements for authors](<https://www.youtube.com/embed/L0jc_LBKXLE>)

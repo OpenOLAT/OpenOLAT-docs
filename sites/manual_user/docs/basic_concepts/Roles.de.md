@@ -6,7 +6,7 @@ Welche Bereiche und Funktionen eine Person in OpenOlat nutzt, bestimmen ihre Rol
 
 Im Course Planner gelten zusätzlich die Rollen Produktbesitzer:in (vergeben beim Produkt), Elementbesitzer:in und Klassenlehrer:in (beide vergeben beim Element). Ihre Rechte beschreibt die Seite [Course Planner: Übersicht](../area_modules/Course_Planner.de.md#roles_rights).
 
-## Organisationsweit gültige Rollen {: #org} 
+## Organisationsrollen {: #org} 
 
 Organisationsrollen geben einer Person Rechte, die in ihrer ganzen Organisation gelten, etwa zum Erstellen von Kursen oder zum Verwalten von Konten. Sie werden in der Benutzerverwaltung vergeben:<br>
 `Benutzerverwaltung > "Name der Person" > Rollen`<br>
@@ -39,13 +39,8 @@ Welche Bereiche der Hauptnavigation eine Rolle öffnet, zeigt die Seite [Rollen 
 
     Bei Fragen zur Rollenvergabe wenden Sie sich an den Support Ihrer OpenOlat-Instanz.
 
-[Zum Seitenanfang ^](#roles)
 
-
----
-
-
-## Rollen in einer Organisation [:octicons-tag-16:{ title="ab Release 13.0 (OO-3302)" }](https://track.frentix.com/issue/OO-3302) {: #orgunit} 
+### Auf eine Organisation begrenzen [:octicons-tag-16:{ title="ab Release 13.0 (OO-3302)" }](https://track.frentix.com/issue/OO-3302) {: #orgunit} 
 
 Gliedert sich Ihre Instanz in mehrere Organisationen, erhält eine Person in jeder Organisation die Rollen, die sie dort braucht. Voraussetzung ist, dass das Modul "Organisationen" eingeschaltet ist.
 
@@ -81,20 +76,12 @@ Wie Sie Rollen je Organisation vergeben, beschreibt die Seite [Rollenzuweisung o
 
 ---
 
-## Rollen in einem Kurs {: #course} 
+## Kursrollen {: #course} 
 
-![Drei Kursrollen Besitzer:in, Betreuer:in und Teilnehmer:in; Teilnehmende sind registrierte Benutzer:innen, anonyme Gäste, externe Benutzer:innen, Teilnehmende ohne Buchung oder frühere Teilnehmende](assets/roles_rights_course_members_v1_de.png){ class="shadow lightbox" title="Kursmitglieder nach Rolle" }
-
-Wer in einem Kurs lehrt, betreut oder lernt, erhält dort eine von drei Kursrollen. Sie vergeben die Kursrollen unter:<br>
+Wer in einem Kurs lehrt, betreut oder lernt, erhält dort eine von drei Kursrollen: Besitzer:in, Betreuer:in oder Teilnehmer:in. Sie vergeben die Kursrollen unter:<br>
 `Kurs > Administration > Mitgliederverwaltung`
 
-* **Besitzer:in**: Besitzer:innen haben alle Rechte im Kurs. Sie bearbeiten den Kurs, verwalten die Mitglieder und können den Kurs löschen.
-
-    :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"}
-
-* **Betreuer:in**: Betreuer:innen begleiten und bewerten die Teilnehmenden. Sie haben Zugriff auf das [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses und auf "Test Statistiken" und "Fragebogen Statistiken". Den Kurs bearbeiten sie nicht im Kurseditor, und sie können ihn nicht löschen. Im Bewertungswerkzeug sehen sie die Teilnehmer:innen, die direkt im Kurs eingetragen sind. Teilnehmer:innen einer Gruppe oder einer Durchführung sehen sie nur, wenn sie auch dort Betreuer:in sind. Mehr dazu im Abschnitt [Die Rolle Betreuer:in](#coach).
-
-* **Teilnehmer:in**: Teilnehmer:innen öffnen den Kurs und bearbeiten die Kursbausteine und Inhalte, die ihnen je nach Konfiguration offenstehen. Weitere Rechte im Kurs haben sie nicht.
+![Drei Kursrollen Besitzer:in, Betreuer:in und Teilnehmer:in; Teilnehmende sind registrierte Benutzer:innen, anonyme Gäste, externe Benutzer:innen, Teilnehmende ohne Buchung oder frühere Teilnehmende](assets/roles_rights_course_members_v1_de.png){ class="shadow lightbox" title="Kursmitglieder nach Rolle" }
 
 Die Rollen einer Person, die schon Mitglied ist, ändern Sie in der Mitgliederverwaltung über "Mitglied bearbeiten" im Menü ihrer Zeile.
 
@@ -102,16 +89,19 @@ Die Rollen einer Person, die schon Mitglied ist, ändern Sie in der Mitgliederve
 
 Neben den kursbezogenen Rollen können in herkömmlichen Kursen auch [Gäste](guest_access.de.md) ohne OpenOlat-Konto Zugang zu einem Kurs erhalten.
 
-!!! tip "Rollenwechsel"
 
-    Eine Person kann mehrere Kursrollen haben, zum Beispiel Besitzer:in und Betreuer:in. Im Menü "Rolle" in der Toolbar des Kurses wechselt sie unter "Rollen" zu einer anderen ihrer Rollen und sieht den Kurs so, wie diese Rolle ihn sieht. Besitzer:innen und Betreuer:innen, die nicht zugleich Teilnehmer:in sind, wählen unter "Wechseln zu" die "Teilnehmer:innenansicht".
+### Besitzer:in {: #owner}
 
-    ![Das Menü Rolle zeigt unter Rollen die weiteren Rollen der Person und unter Wechseln zu die Teilnehmer:innenansicht](assets/roles_course_role_switch_v1_de.png){ class="shadow lightbox" title="Menü Rolle in der Toolbar des Kurses · 2026.10.21" }
+Besitzer:innen haben alle Rechte im Kurs. Sie bearbeiten den Kurs, verwalten die Mitglieder und können den Kurs löschen.
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"}
 
 
-### Die Rolle Betreuer:in {: #coach}
+### Betreuer:in {: #coach}
 
-Betreuer:innen begleiten und bewerten die Teilnehmenden eines Kurses, den Kurs selbst gestalten sie nicht. Brauchen sie weitere Rechte, haben Besitzer:innen zwei Wege:
+Betreuer:innen begleiten und bewerten die Teilnehmenden, den Kurs selbst gestalten sie nicht. Sie haben Zugriff auf das [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses und auf "Test Statistiken" und "Fragebogen Statistiken". Den Kurs bearbeiten sie nicht im Kurseditor, und sie können ihn nicht löschen. Im Bewertungswerkzeug sehen sie die Teilnehmer:innen, die direkt im Kurs eingetragen sind. Teilnehmer:innen einer Gruppe oder einer Durchführung sehen sie nur, wenn sie auch dort Betreuer:in sind.
+
+Brauchen Betreuer:innen weitere Rechte, haben Besitzer:innen zwei Wege:
 
 * **Für den ganzen Kurs** geben sie Werkzeuge frei unter:<br>
 `Kurs > Administration > Mitgliederverwaltung > Rechte`
@@ -119,6 +109,10 @@ Betreuer:innen begleiten und bewerten die Teilnehmenden eines Kurses, den Kurs s
 `Kurs > Administration > Kurseditor > "Kursbaustein"`
 
 Was hier für Betreuer:innen steht, gilt auch für Gruppenbetreuer:innen einer Gruppe, die dem Kurs zugeordnet ist, und für Betreuer:innen einer Durchführung im Course Planner. Gruppenbetreuer:innen sehen dabei nur die Teilnehmenden ihrer Gruppe. Den Kurs sehen Betreuer:innen ab dem Status "Freigabe Betreuer:innen" (siehe [Rechte der Kursrollen](Authorisation_Concept.de.md)).
+
+!!! warning "Zugriff Bewertungswerkzeug"
+
+    Soll eine Person das Bewertungswerkzeug nicht öffnen, geben Sie ihr weder im Kurs noch in einer Gruppe oder Durchführung die Rolle Betreuer:in.
 
 
 #### Mehr Rechte in Kursbausteinen {: #coach_rights}
@@ -208,19 +202,45 @@ Ohne zusätzliche Rechte öffnen Betreuer:innen nicht:
 Eine Prüfung mit manuellem Start starten und beenden Betreuer:innen ohne zusätzliches Recht nicht. Den Button "Prüfung starten" sehen sie im Bewertungswerkzeug erst mit dem Recht "Bewertungs-Werkzeug", in der Prüfungsverwaltung mit dem Recht "Prüfungsmodus". Ohne Recht sehen ihn nur Betreuer:innen, die beim Termin der Prüfung als Dozent:in eingetragen sind. Mehr dazu im Abschnitt [Wer eine Prüfung manuell starten und beenden kann](../learningresources/Assessment_mode.de.md#start_stop_rights).
 
 
+### Teilnehmer:in {: #participant}
+
+Teilnehmer:innen öffnen den Kurs und bearbeiten die Kursbausteine und Inhalte, die ihnen je nach Konfiguration offenstehen. Weitere Rechte im Kurs haben sie nicht.
+
+
+### Rolle wechseln {: #role_switch}
+
+Eine Person kann mehrere Kursrollen haben, zum Beispiel Besitzer:in und Betreuer:in. Im Menü "Rolle" in der Toolbar des Kurses wechselt sie unter "Rollen" zu einer anderen ihrer Rollen und sieht den Kurs so, wie diese Rolle ihn sieht. Besitzer:innen und Betreuer:innen, die nicht zugleich Teilnehmer:in sind, wählen unter "Wechseln zu" die "Teilnehmer:innenansicht".
+
+![Das Menü Rolle zeigt unter Rollen die weiteren Rollen der Person und unter Wechseln zu die Teilnehmer:innenansicht](assets/roles_course_role_switch_v1_de.png){ class="shadow lightbox" title="Menü Rolle in der Toolbar des Kurses · 2026.10.21" }
+
+
 [Zum Seitenanfang ^](#roles)
 
 ---
 
-## Rollen in Gruppen {: #groups} 
+## Gruppenrollen {: #groups} 
 
 Arbeitet ein Kurs mit Gruppen, tragen Sie die Mitglieder einer Gruppe als Gruppenbetreuer:innen oder Gruppenteilnehmer:innen ein.
 
 * **Gruppenbetreuer:in**:<br>
-Gruppenbetreuer:innen haben fast dieselben Rechte wie Kursbetreuer:innen, aber nur für ihre Gruppe. Im Kurs öffnen sie das Bewertungswerkzeug, "Test Statistiken" und "Fragebogen Statistiken". Im Bewertungswerkzeug sehen sie nur die Teilnehmer:innen ihrer eigenen Gruppe.
+Gruppenbetreuer:innen haben im Kurs die Rechte der Rolle [Betreuer:in](#coach). Im Bewertungswerkzeug, in "Test Statistiken" und in "Fragebogen Statistiken" sehen sie nur die Teilnehmer:innen ihrer eigenen Gruppe.
 
 * **Gruppenteilnehmer:in**:<br>
-Gruppenteilnehmer:innen haben dieselben Rechte wie Kursteilnehmer:innen.
+Gruppenteilnehmer:innen haben im Kurs dieselben Rechte wie [Teilnehmer:innen](#participant).
+
+!!! info "Kurs-/Gruppenrollen"
+
+    Kurs- und Gruppenrechte hängen nicht von den Organisationsrollen ab, die eine Person in der Benutzerverwaltung erhalten hat. Auch Personen ohne weitere Rolle können Kursbesitzer:in, Kursbetreuer:in oder Gruppenbetreuer:in sein.
+
+!!! note "Hinweis"
+
+    Gruppenteilnehmer:innen und Gruppenbetreuer:innen sind Rollen innerhalb einer bestimmten Gruppe. Die Rolle Gruppenverwalter:in ist dagegen eine Systemrolle: Wer sie hat, verwaltet die Gruppen des gesamten Systems.
+
+[Zum Seitenanfang ^](#roles)
+
+---
+
+## Zusätzliche Rechte {: #rights}
 
 Brauchen Mitglieder mehr Rechte, als ihre Rolle mitbringt, vergeben Sie zusätzliche Rechte unter:<br>
 `Kurs > Administration > Mitgliederverwaltung > Rechte`<br>
@@ -244,13 +264,17 @@ Mit diesem Recht steht die Mitgliederverwaltung im Menü "Administration" des Ku
 
 Das Recht "Mitglieder-Verwaltung" schliesst die Gruppen-Verwaltung ein, auch wenn das Recht "Gruppen-Verwaltung" nicht gesetzt ist.
 
+!!! warning "Zugriff Mitgliederverwaltung"
+
+    Personen mit dem Recht "Mitglieder-Verwaltung" können sich selbst weitere Rechte geben, andere Mitglieder aus dem Kurs entfernen und deren Rechte einschränken, auch die Rechte der Person, die den Kurs erstellt hat, und der übrigen Besitzer:innen. Mehr dazu auf der Seite [Mitgliederverwaltung](../learningresources/Members_management.de.md).
+
 [Mehr zur Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 
 
 #### Kurseditor {: #course_editor}
 
-Mit diesem Recht steht der Kurseditor im Menü "Administration" des Kurses zur Verfügung. Kursmitglieder wie Betreuer:innen bearbeiten damit den Kurs und konfigurieren oder ergänzen Kursbausteine. Neue Kurse oder Lernressourcen erstellen sie damit nicht. Im selben Menü öffnen sie zusätzlich "Einstellungen", "Dateien", "Lernbereich", "Prüfungsverwaltung", "Erinnerung" und "Termine und Absenzen", die drei letzten nur, wenn die zugehörige Funktion eingeschaltet ist.<br>
-**Hinweis:** 
+Mit diesem Recht steht der Kurseditor im Menü "Administration" des Kurses zur Verfügung. Kursmitglieder wie Betreuer:innen bearbeiten damit den Kurs und konfigurieren oder ergänzen Kursbausteine. Neue Kurse oder Lernressourcen erstellen sie damit nicht. Im selben Menü öffnen sie zusätzlich "Einstellungen", "Dateien", "Lernbereich", "Prüfungsverwaltung", "Erinnerung" und "Termine und Absenzen", die drei letzten nur, wenn die zugehörige Funktion eingeschaltet ist.
+
 Ein Kurs, den eine Person über dieses Recht bearbeitet, ohne Besitzer:in zu sein, erscheint nicht in ihrem Autorenbereich, auch wenn sie sonst Autorenrechte hat. Sie öffnet den Kurs stattdessen in der Hauptnavigation unter "Kurse" und findet den Kurseditor im Menü "Administration". Betreuer:innen und Teilnehmer:innen sehen den Kurs auch in diesem Fall erst, wenn die Besitzer:innen ihn veröffentlicht haben.
 
 [Mehr zum Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)
@@ -297,15 +321,6 @@ Mit diesem Recht steht "Prüfungsverwaltung" im Menü "Administration" des Kurse
 
 Mit diesem Recht steht "Kurs DB" im Menü "Administration" des Kurses zur Verfügung, wenn die Kurs Datenbanken auf der Instanz eingeschaltet sind, mit denselben Optionen wie für Kursbesitzer:innen. Die Mitglieder erstellen Kurs Datenbanken, setzen sie zurück, löschen und exportieren sie.
 
-
-!!! info "Kurs-/Gruppenrollen"
-
-    Kurs- und Gruppenrechte hängen nicht von den Organisationsrollen ab, die eine Person in der Benutzerverwaltung erhalten hat. Auch Personen ohne weitere Rolle können Kursbesitzer:in, Kursbetreuer:in oder Gruppenbetreuer:in sein.
-
-!!! note "Hinweis"
-
-    Gruppenteilnehmer:innen und Gruppenbetreuer:innen sind Rollen innerhalb einer bestimmten Gruppe. Die Rolle Gruppenverwalter:in ist dagegen eine Systemrolle: Wer sie hat, verwaltet die Gruppen des gesamten Systems.
-
 [Zum Seitenanfang ^](#roles)
 
 ---
@@ -319,30 +334,12 @@ Jede dieser Rollen hat eine Gegenrolle, welche die andere Seite der Beziehung be
 
 Sind die Rollen eingerichtet, verbinden Sie in der Benutzerverwaltung zwei Konten über eine dieser Rollen. Wie das geht, beschreibt die Seite [Beziehungen definieren](Assign_Roles.de.md#role_assignment_relations).
 
-[Zum Seitenanfang ^](#roles)
 
----
+### Kontorollen {: #account_roles} 
 
-
-## Kontorollen {: #account_roles} 
-
-In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations) unter "Kontorollen". Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf einen Eintrag listet die Konten auf, die diese Rolle in einer Beziehung haben. Der Menüpunkt erscheint, sobald mindestens eine solche Rolle angelegt ist.<br>
-(Siehe [Kontorollen](../../manual_admin/usermanagement/Search_Users.de.md#user_roles))
-
-[Zum Seitenanfang ^](#roles)
-
-
----
-
-
-!!! warning "Zugriff Bewertungswerkzeug"
-
-    Soll eine Person das Bewertungswerkzeug nicht öffnen, geben Sie ihr weder im Kurs noch in einer Gruppe oder Durchführung die Rolle Betreuer:in.
-
-!!! warning "Zugriff Mitgliederverwaltung"
-
-    Personen mit dem Recht "Mitglieder-Verwaltung" können sich selbst weitere Rechte geben, andere Mitglieder aus dem Kurs entfernen und deren Rechte einschränken, auch die Rechte der Person, die den Kurs erstellt hat, und der übrigen Besitzer:innen. Mehr dazu auf der Seite [Mitgliederverwaltung](../learningresources/Members_management.de.md).
-
+Welche Konten über eine selbst definierte Rolle verbunden sind, sehen Sie in der Benutzerverwaltung unter:<br>
+`Benutzerverwaltung > Kontorollen`<br>
+Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf einen Eintrag listet die Konten auf, die diese Rolle in einer Beziehung haben. Der Menüpunkt erscheint, wenn "Rolle Person zu Person" in der System-Administration eingeschaltet und mindestens eine solche Rolle angelegt ist. Mehr dazu im Abschnitt [Kontorollen](../../manual_admin/usermanagement/Search_Users.de.md#user_roles) der Kontosuche.
 
 [Zum Seitenanfang ^](#roles)
 
@@ -357,9 +354,9 @@ In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations)
 [Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
-[Rollen zuweisen >](Assign_Roles.de.md)<br>
+[Rollen und Rechte: Rollen zuweisen >](Assign_Roles.de.md)<br>
+[Rollen und Rechte: Gastzugang >](guest_access.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
-[Gastzugang >](guest_access.de.md)<br>
 [Rollen und Rechte: Rechte in Kursen >](Authorisation_Concept.de.md)<br>
 [Kursbaustein "Adobe Connect" >](../learningresources/Course_Element_Adobe_Connect.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
@@ -409,7 +406,7 @@ In der Benutzerverwaltung erscheinen die [selbst definierten Rollen](#relations)
 
 **Weiterführend**<br>
 [Rollen und Rechte: Übersicht >](Roles_Rights.de.md)<br>
-[Benutzertypen >](User_Types.de.md)
+[Rollen und Rechte: Benutzertypen >](User_Types.de.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)
