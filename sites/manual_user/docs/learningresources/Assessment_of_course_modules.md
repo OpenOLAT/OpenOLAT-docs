@@ -104,7 +104,7 @@ Owners and coaches open the list of a person in two ways, both show the same lis
 * **In the course:** open the course element "SCORM 1.2", then in the tab "Participants" click the name of the person.<br>
 `Course > Course element "SCORM 1.2" > Tab "Participants" > "Name of the person"`
 
-If you start from the person in the assessment tool, "Select" next to the course element "SCORM 1.2" opens the same list, see [Assessment of learners](Assessment_of_learners.md#assess_all_course_element).
+If you start from the person in the assessment tool, "Select" next to the course element "SCORM 1.2" opens the same list, see [Assessment of learners](Assessment_of_learners.md#assess_all_course_element). In coaching under "People", the path via the person, the course and "Select" next to the course element also leads to this list, see [Coaching - People](../area_modules/Coaching_People.md).
 
 ![Detail list with the filter tabs All and Last run and the columns Last run and SCO ID highlighted: Last run marks the current state of each SCO, earlier states stay unmarked](assets/assessment_of_course_modules_scorm_details_v1_en.png){ class="shadow lightbox" title="Details of a SCORM course element in the assessment tool · 2026.10.28" }
 

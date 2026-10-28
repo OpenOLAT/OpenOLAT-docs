@@ -106,7 +106,7 @@ Besitzer:innen und Betreuer:innen öffnen die Liste einer Person auf zwei Wegen,
 * **Im Kurs:** Kursbaustein "SCORM 1.2" öffnen, im Tab "Teilnehmer:innen" auf den Namen der Person klicken.<br>
 `Kurs > Kursbaustein "SCORM 1.2" > Tab "Teilnehmer:innen" > "Name der Person"`
 
-Gehen Sie im Bewertungswerkzeug von der Person aus, öffnet "Auswählen" beim Kursbaustein "SCORM 1.2" dieselbe Liste, siehe [Lernende bewerten](Assessment_of_learners.de.md#assess_all_course_element).
+Gehen Sie im Bewertungswerkzeug von der Person aus, öffnet "Auswählen" beim Kursbaustein "SCORM 1.2" dieselbe Liste, siehe [Lernende bewerten](Assessment_of_learners.de.md#assess_all_course_element). Auch im Coaching unter "Personen" führt der Weg über die Person, den Kurs und "Auswählen" beim Kursbaustein zu dieser Liste, siehe [Coaching - Personen](../area_modules/Coaching_People.de.md).
 
 ![Detailliste mit markierten Filter-Tabs Alle und Letztes Versuch und Spalten Letztes Versuch und SCO ID: Last run kennzeichnet je SCO den aktuellen Stand, frühere Stände bleiben ohne Markierung](assets/assessment_of_course_modules_scorm_details_v1_de.png){ class="shadow lightbox" title="Details eines SCORM-Kursbausteins im Bewertungswerkzeug · 2026.10.28" }
 
