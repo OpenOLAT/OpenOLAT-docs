@@ -14,7 +14,7 @@ In the assessment tool, owners and coaches of a course assess the performance of
 First comes the 3-point menu, which applies to all course elements, then the specifics of the individual course elements. The assessment of tasks, group tasks and tests is described on separate pages.
 
 ## The 3-point menu
-![Assessment tool menu of the course element with the actions "Show details / assess", "Finalize assessment" and "Release"](assets/Bewertungswerkzeug_3_Punkte_en.png){ class="shadow lightbox" title="3-point menu in the participant list of an assessment" }
+![Opened 3-point menu in the row of a person: "Show details / assess", "Finalize assessment" and "Release" are available directly from the participant list](assets/assessment_of_course_modules_three_dots_menu_v1_en.png){ class="shadow lightbox" title="3-point menu in the participant list of a check list in the assessment tool · 2026.10.28" }
 
 The 3-point menu in the row of a person leads directly to the most important actions of their assessment:
 
@@ -41,39 +41,39 @@ For tests, these actions are also available:
 ## Check list
 For the course element "Check list", the 3-point menu offers the three actions described above:
 
-![3-point menu with the three options "Show details / assess", "Reopen assessment" and "Withdraw release"](assets/Bewertungswerkzeug_Checkliste172_en.png){ class="shadow lightbox" title="Opened 3-point menu in the assessment tool" }
+![3-point menu of a finalized and released assessment: instead of finalize and release, "Reopen assessment" and "Withdraw release" are offered](assets/assessment_of_course_modules_checklist_menu_v1_en.png){ width="209" class="shadow lightbox" title="3-point menu of a finalized assessment in the assessment tool · 2026.10.28" }
 
 A click on the name of a person opens their assessment.
 
 There you tick checkboxes for the person by hand and fill in the assessment form. Depending on the configuration of the course element, you award a score, the attribute "Passed" or both. The page [Course Element "Checklist"](Course_Element_Checklist.md) describes how to set up a check list.
 
-![Assessment form of the checklist with individually selectable checkboxes, added-up score and the result "Not passed"](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" title="Assessment form of a checklist in the assessment tool" }
+![Assessment of a person in the check list: below the visiting card you tick the checkboxes, the assessment form below shows score, result and comments](assets/assessment_of_course_modules_checklist_form_v1_en.png){ class="shadow lightbox" title="Assessment form of a check list in the assessment tool · 2026.10.28" }
 
 ## Assessment
 For the course element "Assessment", additional buttons are available above the participant list:
 
-![Buttons "Reset all data" and "Start new bulk assessment" above the participant list](assets/Bewertungswerkzeug_assessment_en.png){ class="shadow lightbox" title="Participant list of the course element Assessment" }
+![Buttons "Start new bulk assessment", "Export data" and "Statistic" above the participant list: assess several people at once, export data, open the statistics](assets/assessment_of_course_modules_assessment_buttons_v1_en.png){ class="shadow lightbox" title="Participant list of the course element Assessment in the assessment tool · 2026.10.28" }
 
-The button "Statistic" only appears if the course element uses a rubric assessment.
+The buttons "Export data" and "Statistic" only appear if the course element uses a rubric assessment.
 
 The button "Adjust grade scale" only appears if a grade scale is activated for the course element in the course editor.
 
 A click on the name of a person opens their assessment. There you fill in the assessment form and, if linked, use the assigned rubric.
 
-![Assessment form with four rubric criteria from "very poor" to "very good" as well as a score field and the status "Passed"](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" title="Assessment form with rubric in the course element Assessment" }
+If a [rubric](Form_Element_Rubric.md) is stored as the basis for the assessment, you assess each person criterion by criterion. The button "Edit" in the section "Rubric assessment" opens the rubric in a separate window.
 
-If a [rubric](Form_Element_Rubric.md) is stored as the basis for the assessment, you assess each person criterion by criterion.
+![Window "Rubric assessment" with four criteria in rows and the scale in columns: for each criterion you select one level](assets/assessment_of_course_modules_rubric_v1_en.png){ class="shadow lightbox" title="Rubric assessment of a person in the course element Assessment · 2026.10.28" }
 
 For the course element "Assessment", the [bulk assessment](Assessment_tool_overview.md#mass_assessment) is also available.
 
 ## Portfolio task [:octicons-tag-16:{ title="from Release 12.0 (OO-2923)" }](https://track.frentix.com/issue/OO-2923)
-For the course element "[Portfolio task](Creating_Portfolio_Tasks.md)", the 3-point menu offers these actions:
+For the course element "[Portfolio task](Creating_Portfolio_Tasks.md)", the 3-point menu offers the actions described above:
 
-![3-point menu of the portfolio task with the actions "Show details / assess", "Set status 'completed'" and "Set results to not visible"](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" title="Participant list of a portfolio task in the assessment tool" }
+![3-point menu of the portfolio task with "Show details / assess", "Finalize assessment" and "Release": the same actions as for the other course elements](assets/assessment_of_course_modules_portfolio_menu_v1_en.png){ class="shadow lightbox" title="Participant list of a portfolio task in the assessment tool · 2026.10.28" }
 
 The assessment in the assessment tool is the same as in the ["Assessment" tab in the portfolio](Portfolio_assignment_Grading.md) itself. In the assessment tool, however, you do not open the individual areas, you only assess them. It is therefore best to assess directly in the portfolio.
 
-![Portfolio binder with the areas Design principles, Tools and Online moderation, each with a number of entries and the status "Passed"](assets/Portfolioaufgabe172.png){ class="shadow lightbox" title="Assessment of a portfolio binder in the assessment tool" }
+![Assessment of a binder in the assessment tool: below the visiting card the portfolio template, below that each section with its number of entries by status, "Passed" and "Status"](assets/assessment_of_course_modules_portfolio_binder_v1_en.png){ class="shadow lightbox" title="Assessment of a binder in the assessment tool · 2026.10.28" }
 
 ## Course element "Structure" or total course assessment
 

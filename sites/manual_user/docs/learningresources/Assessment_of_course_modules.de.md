@@ -14,7 +14,7 @@ Im Bewertungswerkzeug bewerten Besitzer:innen und Betreuer:innen eines Kurses di
 Zuerst folgt das 3-Punkte-Menü, das für alle Kursbausteine gilt, danach die Besonderheiten der einzelnen Kursbausteine. Die Bewertung von Aufgaben, Gruppenaufgaben und Tests beschreiben eigene Seiten.
 
 ## Das 3-Punkte-Menü
-![Bewertungswerkzeug-Menü der Checkliste mit den Aktionen "Details anzeigen / bewerten", "Bewertung wieder eröffnen" und "Freigeben"](assets/Bewertungswerkzeug_Checkliste172.png){ class="shadow lightbox" title="3-Punkte-Menü in der Teilnehmerliste einer Checkliste" }
+![Geöffnetes 3-Punkte-Menü in der Zeile einer Person: "Details anzeigen / bewerten", "Bewertung abschliessen" und "Freigeben" erreichen Sie direkt aus der Teilnehmerliste](assets/assessment_of_course_modules_three_dots_menu_v1_de.png){ class="shadow lightbox" title="3-Punkte-Menü in der Teilnehmerliste einer Checkliste im Bewertungswerkzeug · 2026.10.28" }
 
 Das 3-Punkte-Menü in der Zeile einer Person führt direkt zu den wichtigsten Aktionen ihrer Bewertung:
 
@@ -43,39 +43,39 @@ Für Tests stehen zusätzlich diese Aktionen zur Wahl:
 ## Checkliste
 Für den Kursbaustein "Checkliste" bietet das 3-Punkte-Menü die drei oben genannten Aktionen:
 
-![3-Punkte-Menü mit den drei Optionen "Details anzeigen / bewerten", "Bewertung wieder eröffnen" und "Freigabe zurückziehen"](assets/3-Punkte_Bewertung_generell.png){ class="shadow lightbox" title="Geöffnetes 3-Punkte-Menü im Bewertungswerkzeug" }
+![3-Punkte-Menü einer abgeschlossenen und freigegebenen Bewertung: an Stelle von Abschliessen und Freigeben stehen "Bewertung wieder eröffnen" und "Freigabe zurückziehen"](assets/assessment_of_course_modules_checklist_menu_v1_de.png){ width="246" class="shadow lightbox" title="3-Punkte-Menü einer abgeschlossenen Bewertung im Bewertungswerkzeug · 2026.10.28" }
 
 Ein Klick auf den Namen einer Person öffnet ihre Bewertung.
 
 Dort haken Sie Checkboxen für die Person von Hand nach und füllen das Bewertungsformular aus. Je nach Konfiguration des Kursbausteins vergeben Sie Punkte, das Attribut "Bestanden" oder beides. Wie Sie eine Checkliste einrichten, beschreibt die Seite [Kursbaustein "Checkliste"](Course_Element_Checklist.de.md).
 
-![Bewertungsformular der Checkliste mit einzeln ankreuzbaren Checkboxen, addierten Punkten und dem Ergebnis "Nicht bestanden"](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" title="Bewertungsformular einer Checkliste im Bewertungswerkzeug" }
+![Bewertung einer Person in der Checkliste: unter der Visitenkarte haken Sie die Checkboxen nach, das Bewertungsformular darunter zeigt Punkte, Ergebnis und Kommentare](assets/assessment_of_course_modules_checklist_form_v1_de.png){ class="shadow lightbox" title="Bewertungsformular einer Checkliste im Bewertungswerkzeug · 2026.10.28" }
 
 ## Bewertung
 Für den Kursbaustein "Bewertung" stehen über der Teilnehmerliste zusätzliche Buttons zur Wahl:
 
-![Buttons "Statistik", "Alle Daten zurücksetzen" und "Neue Massenbewertung starten" über der Teilnehmerliste](assets/Bewertungswerkzeug_Bewertung172.png){ class="shadow lightbox" title="Teilnehmerliste des Kursbausteins Bewertung im Bewertungswerkzeug" }
+![Buttons "Neue Massenbewertung starten", "Daten exportieren" und "Statistik" über der Teilnehmerliste: mehrere Personen auf einmal bewerten, Daten exportieren, Statistik öffnen](assets/assessment_of_course_modules_assessment_buttons_v1_de.png){ class="shadow lightbox" title="Teilnehmerliste des Kursbausteins Bewertung im Bewertungswerkzeug · 2026.10.28" }
 
-Der Button "Statistik" erscheint nur, wenn der Kursbaustein eine Rubrik-Bewertung verwendet.
+Die Buttons "Daten exportieren" und "Statistik" erscheinen nur, wenn der Kursbaustein eine Rubrik-Bewertung verwendet.
 
 Der Button "Bewertungsskala anpassen" erscheint nur, wenn im Kurseditor eine Bewertungsskala für den Kursbaustein aktiviert ist.
 
 Ein Klick auf den Namen einer Person öffnet ihre Bewertung. Dort füllen Sie das Bewertungsformular aus und nutzen, sofern verknüpft, die zugeordnete Rubrik.
 
-![Bewertungsformular mit vier Rubrik-Kriterien von "sehr schlecht" bis "sehr gut" sowie Punktefeld und Status "Bestanden"](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" title="Bewertungsformular mit Rubrik im Kursbaustein Bewertung" }
+Ist eine [Rubrik](Form_Element_Rubric.de.md) als Bewertungsgrundlage hinterlegt, bewerten Sie jede Person Kriterium für Kriterium. Der Button "Editieren" im Abschnitt "Rubrik-Bewertung" öffnet die Rubrik in einem eigenen Fenster.
 
-Ist eine [Rubrik](Form_Element_Rubric.de.md) als Bewertungsgrundlage hinterlegt, bewerten Sie jede Person Kriterium für Kriterium.
+![Fenster "Rubrik-Bewertung" mit vier Kriterien in Zeilen und der Skala von "sehr schwach" bis "sehr gut" in Spalten: je Kriterium wählen Sie eine Stufe](assets/assessment_of_course_modules_rubric_v1_de.png){ class="shadow lightbox" title="Rubrik-Bewertung einer Person im Kursbaustein Bewertung · 2026.10.28" }
 
 Für den Kursbaustein "Bewertung" steht zusätzlich die [Massenbewertung](Assessment_tool_overview.de.md#mass_assessment) zur Verfügung.
 
 ## Portfolioaufgabe [:octicons-tag-16:{ title="ab Release 12.0 (OO-2923)" }](https://track.frentix.com/issue/OO-2923)
-Für den Kursbaustein "[Portfolioaufgabe](Creating_Portfolio_Tasks.de.md)" bietet das 3-Punkte-Menü diese Aktionen:
+Für den Kursbaustein "[Portfolioaufgabe](Creating_Portfolio_Tasks.de.md)" bietet das 3-Punkte-Menü die oben genannten Aktionen:
 
-![3-Punkte-Menü der Portfolioaufgabe mit den Aktionen "Details anzeigen / bewerten", "Status 'abgeschlossen' setzen" und "Resultate auf nicht sichtbar setzen"](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" title="Teilnehmerliste einer Portfolioaufgabe im Bewertungswerkzeug" }
+![3-Punkte-Menü der Portfolioaufgabe mit "Details anzeigen / bewerten", "Bewertung abschliessen" und "Freigeben": dieselben Aktionen wie bei den anderen Kursbausteinen](assets/assessment_of_course_modules_portfolio_menu_v1_de.png){ class="shadow lightbox" title="Teilnehmerliste einer Portfolioaufgabe im Bewertungswerkzeug · 2026.10.28" }
 
 Die Bewertung im Bewertungswerkzeug ist dieselbe wie im Tab ["Bewertung" im Portfolio](Portfolio_assignment_Grading.de.md) selbst. Im Bewertungswerkzeug öffnen Sie die einzelnen Bereiche jedoch nicht, Sie bewerten sie nur. Bewerten Sie deshalb am besten direkt im Portfolio.
 
-![Portfoliomappe mit den Bereichen Gestaltungsprinzipien, Tools und Online-Moderation, je mit Anzahl Einträgen und Status "Bestanden"](assets/Portfolioaufgabe172.png){ class="shadow lightbox" title="Bewertung einer Portfoliomappe im Bewertungswerkzeug" }
+![Bewertung einer Mappe im Bewertungswerkzeug: unter der Visitenkarte die Portfoliovorlage mit Abholdatum, darunter je Bereich die Anzahl Einträge nach Status sowie "Bestanden" und "Status"](assets/assessment_of_course_modules_portfolio_binder_v1_de.png){ class="shadow lightbox" title="Bewertung einer Mappe im Bewertungswerkzeug · 2026.10.28" }
 
 ## Kursbaustein "Struktur" oder gesamte Kursbewertung
 
