@@ -35,7 +35,7 @@
 
 ## Was ist ein Portfolio? {: #definition}
 
-Das **ePortfolio** ist das OpenOlat-Modul, mit dem Lernende ihre eigenen Lernprozesse dokumentieren, reflektieren und zur Rückmeldung freigeben. Jede Person sammelt ihre Arbeiten, Nachweise und Reflexionen in einer **Mappe**, gliedert sie in **Bereiche** und **Einträge** und entscheidet selbst, wer welche Teile sehen darf. Betreuende und eingeladene Personen können freigegebene Inhalte kommentieren und bewerten.
+Das ePortfolio ist das OpenOlat-Modul, mit dem Lernende ihre eigenen Lernprozesse dokumentieren, reflektieren und zur Rückmeldung freigeben. Jede Person sammelt ihre Arbeiten, Nachweise und Reflexionen in einer Mappe, gliedert sie in Bereiche und Einträge und entscheidet selbst, wer welche Teile sehen darf. Betreuende und eingeladene Personen können freigegebene Inhalte kommentieren und bewerten.
 
 [Allgemeines zum Portfolio >](../../manual_user/area_modules/Portfolio_General_Information.de.md)<br>
 
@@ -110,7 +110,7 @@ Die Erstellung findet jeweils im [Portfolio Editor](../../manual_user/area_modul
 
 Alle Benutzer:innen von OpenOlat finden ihr eigenes Portfolio im **persönlichen Menü**. Wenn sie dort **Portfolio 2.0** öffnen, erreicht jede Person ihre eigenen Portfolio-Inhalte:
 
-- **Meine Portfoliomappen**: die Liste aller eigenen Mappen. Hier entstehen neue Mappen: leer, aus einer Vorlage, aus einer Portfolioaufgabe eines Kurses oder aus bestehenden Einträgen.
+- **Meine Mappen**: die Liste aller eigenen Mappen. Hier entstehen neue Mappen: leer, aus einer Vorlage, aus einer Portfolioaufgabe eines Kurses oder aus bestehenden Einträgen.
 - **Meine Einträge**: alle eigenen Einträge in zeitlicher Reihenfolge, unabhängig von der Mappe, ergänzt um den **Zeitstrahl**.
 - **Media Center**: der persönliche Ablageort für Bilder, Videos, Dokumente und andere Medien, die sich in Einträge einbinden lassen.
 - **An mich freigegeben**: Mappen und Einträge, die andere Personen freigegeben haben. Betreuende finden hier die Mappen ihrer Lernenden.
@@ -124,7 +124,7 @@ Alle Benutzer:innen von OpenOlat finden ihr eigenes Portfolio im **persönlichen
 
 ### Wie und wo können andere Personen die Portfolio-Inhalte einsehen? {: #others}
 
-Über den Reiter **Freigabe** einer Mappe vergibt die besitzende Person Zugangsrechte. Sie wählt Kursmitglieder, Kursbetreuende oder Kursbesitzende aus oder lädt externe Personen per E-Mail ein und bestimmt die freigegebenen Bereiche und Einträge sowie die Stufe: **lesen**, **kommentieren** oder/und **bewerten**. Wer das Recht zur Bewertung bekommt, hat automatisch auch das Recht zum Kommentieren.
+Über den Reiter "Freigabe" einer Mappe vergibt die besitzende Person Zugangsrechte. Sie wählt Kursmitglieder, Kursbetreuende oder Kursbesitzende aus oder lädt externe Personen per E-Mail ein und bestimmt die freigegebenen Bereiche und Einträge sowie die Stufe: "lesen", "kommentieren" oder/und "bewerten". Wer das Recht zur Bewertung bekommt, hat automatisch auch das Recht zum Kommentieren.
 
 Freigegebene Mappen anderer Personen findet jede Person ebenfalls in ihrem persönlichen Menü unter:<br>
 `Portfolio 2.0 > An mich freigegeben`
@@ -184,7 +184,7 @@ Klickt eine Teilnehmer:in im Kursbaustein auf **Portfolioaufgabe abholen**, erze
 Teilnehmer:innen können auch in Eigeninitiative in ihrem persönlichen Menü unter "Portfolio 2.0" eine leere Mappe anlegen und frei strukturieren. Hier bereiten Sie als Kursbesitzer:in keine Vorlage vor, Sie geben nur in einer Anleitung den Rahmen vor. Das eignet sich für offene, selbstgesteuerte Aufgaben.
 
 ### Weg 3: Freies Portfolio mit Vorlage
-Alternativ können Teilnehmer:innen unter "Meine Portfoliomappen" über **Neue Mappe erstellen** auch eine Mappe basierend auf einer Vorlage, eine Mappe für eine Portfolioaufgabe aus einem Kurs oder eine Mappe aus Einträgen erstellen. Welche Arten von Mappen Teilnehmer:innen selbst erstellen dürfen, legt die System-Administration fest: `Administration > e-Assessment > ePortfolio`.
+Alternativ können Teilnehmer:innen unter "Meine Mappen" über **Neue Mappe erstellen** auch eine Mappe basierend auf einer Vorlage, eine Mappe für eine Portfolioaufgabe aus einem Kurs oder eine Mappe aus Einträgen erstellen. Welche Arten von Mappen Teilnehmer:innen selbst erstellen dürfen, legt die System-Administration fest: `Administration > e-Assessment > ePortfolio`.
 
 [Mehr zum freien Portfolio >](../../manual_user/area_modules/My_portfolio_binders.de.md#individuelle-portfoliomappen)<br>
 [Zum Seitenanfang ^](#portfolio)
@@ -232,7 +232,7 @@ Unter **Einstellungen zur Portfoliovorlage** legen Sie fest, was Teilnehmer:inne
 
 5. **So kommen die Teilnehmer:innen zur eigenen Mappe**<br>
 \- Die Teilnehmer:innen klicken im Kurs auf "Portfolioaufgabe abholen".<br>
-\- Dadurch wird eine persönliche Kopie erzeugt, die im persönlichen Menü unter `Portfolio 2.0 > Meine Portfoliomappen` erscheint (mit rotem Randstreifen und Kurshinweis).<br>
+\- Dadurch wird eine persönliche Kopie erzeugt, die im persönlichen Menü unter `Portfolio 2.0 > Meine Mappen` erscheint (mit rotem Randstreifen und Kurshinweis).<br>
 \- Dann befüllen sie die Aufgaben und veröffentlichen die Einträge.<br>
 [Mehr zum Kursbaustein Portfolioaufgabe >](../../manual_user/learningresources/Course_Element_Portfolio_Task.de.md)
 
@@ -246,7 +246,7 @@ Unter **Einstellungen zur Portfoliovorlage** legen Sie fest, was Teilnehmer:inne
 Fügen Sie einen neuen Kursbaustein "Portfolioaufgabe" wie gewohnt ein unter:<br>
 `Kurs > Administration > Kurseditor > Kursbausteine einfügen`
 
-Der Kursbaustein "Portfolioaufgabe" verteilt eine Portfoliovorlage an die Teilnehmenden. Mit dem Schritt **Portfolioaufgabe abholen** erzeugt jede teilnehmende Person daraus eine eigene Mappe, die unter **Meine Portfoliomappen** mit dem Kursnamen erscheint.
+Der Kursbaustein "Portfolioaufgabe" verteilt eine Portfoliovorlage an die Teilnehmenden. Mit dem Schritt **Portfolioaufgabe abholen** erzeugt jede teilnehmende Person daraus eine eigene Mappe, die unter **Meine Mappen** mit dem Kursnamen erscheint.
 
 !!! info "Wichtig"
 
@@ -369,13 +369,13 @@ Die Checkliste fasst die Vorbereitungsschritte dieser Anleitung zusammen.
 5\. Nutzung durch Teilnehmer:innen sicherstellen
 
 - [x] Teilnehmer:innen wissen, wie sie die **Portfolioaufgabe abholen**
-- [x] Persönliche Kopie erscheint im persönlichen Menü unter `Portfolio 2.0 > Meine Portfoliomappen`
+- [x] Persönliche Kopie erscheint im persönlichen Menü unter `Portfolio 2.0 > Meine Mappen`
 - [x] Teilnehmer:innen kennen den Ablauf: Aufgaben befüllen → Einträge als Entwurf schreiben → veröffentlichen
 
 6\. Freigabe und Bewertung
 
 - [x] Teilnehmer:innen wissen, dass sie Mappen/Bereiche über den Reiter **Freigabe** teilen müssen
-- [x] Zugangsstufen geklärt: **lesen**, **kommentieren**, **bewerten**
+- [x] Zugangsstufen geklärt: "lesen", "kommentieren", "bewerten"
 - [x] Beachtet: Ohne Freigabe sehen auch Betreuende die Mappe nicht (Veröffentlichen ≠ Freigeben)
 - [x] Betreuende wissen, wo bewertet wird (Kursbaustein, Bewertungswerkzeug oder im persönlichen Menü unter `Portfolio 2.0 > An mich freigegeben`)
 - [x] Beachtet: Bewertung erfolgt pro **Bereich** (Punkte und Bestanden); einzelne Einträge werden nur kommentiert
@@ -393,7 +393,7 @@ Die Checkliste fasst die Vorbereitungsschritte dieser Anleitung zusammen.
 [Bestandteile des Portfolios >](../../manual_user/area_modules/Components_of_the_portfolio.de.md)<br>
 [Der Portfolio Editor >](../../manual_user/area_modules/The_portfolio_editor_17_1.de.md)<br>
 [Persönliches Menü >](../../manual_user/personal_menu/index.de.md)<br>
-[Meine Portfolio Mappen >](../../manual_user/area_modules/My_portfolio_binders.de.md)<br>
+[Meine Mappen >](../../manual_user/area_modules/My_portfolio_binders.de.md)<br>
 [Portfoliovorlage: Erstellung >](../../manual_user/learningresources/Portfolio_template_Creation.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../../manual_user/learningresources/Course_Element_Portfolio_Task.de.md)<br>

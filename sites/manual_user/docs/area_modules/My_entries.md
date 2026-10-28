@@ -32,7 +32,7 @@ The timeline shows the last twelve months, with the most recent entries at the t
 [The Portfolio Editor >](The_portfolio_editor_17_1.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.md)<br>
-[My portfolio binders >](My_portfolio_binders.md)<br>
+[My binders >](My_portfolio_binders.md)<br>
 [Multiple use of entries >](Multiple_use_of_entries.md)
 
 [To the top of the page ^](#my_entries)

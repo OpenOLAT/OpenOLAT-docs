@@ -58,7 +58,7 @@ The displayed options for inserting content are adapted to the form, e.g. differ
 
 ### E-portfolio [:octicons-tag-16:{ title="from Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
 
-The Content Editor is also used for entries in [portfolio binders](../area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md).
+The Content Editor is also used for entries in [binders](../area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md).
 
 ![Selection of the layout templates with nine grids, opened via Insert new layout.](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" title="Layout templates of a portfolio binder" }
 
@@ -498,7 +498,7 @@ Click the button to open the files in your Media Center. Here, you select files,
 [Forms - Overview >](../learningresources/Form.md)<br>
 [The Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
-[My portfolio binders >](../area_modules/My_portfolio_binders.md)<br>
+[My binders >](../area_modules/My_portfolio_binders.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
 [The form editor >](../learningresources/Form_Editor.md)<br>

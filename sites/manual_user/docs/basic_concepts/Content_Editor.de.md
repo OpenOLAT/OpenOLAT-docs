@@ -60,7 +60,7 @@ Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst
 
 ### E-Portfolio [:octicons-tag-16:{ title="ab Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
 
-Auch für Einträge in [Portfolio-Mappen](../area_modules/My_portfolio_binders.de.md), die sowohl kursunabhängig als auch in Verbindung mit [Portfoliovorlagen](../learningresources/Portfolio_template_Creation.de.md) und [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md) verwendet werden können, wird der Content Editor verwendet.
+Auch für Einträge in [Mappen](../area_modules/My_portfolio_binders.de.md), die sowohl kursunabhängig als auch in Verbindung mit [Portfoliovorlagen](../learningresources/Portfolio_template_Creation.de.md) und [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md) verwendet werden können, wird der Content Editor verwendet.
 
 ![Auswahl der Layout-Vorlagen mit neun Rastern, geöffnet über Neues Layout einfügen.](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" title="Layout-Vorlagen einer Portfolio-Mappe" }
 
@@ -508,7 +508,7 @@ Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wähl
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>
 [Der Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
-[Meine Portfolio Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
+[Meine Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>

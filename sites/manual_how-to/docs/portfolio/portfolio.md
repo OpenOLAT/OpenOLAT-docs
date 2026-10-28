@@ -35,7 +35,7 @@
 
 ## What is a portfolio? {: #definition}
 
-The **ePortfolio** is the OpenOlat module with which learners document their own learning processes, reflect on them and share them for feedback. Each person collects their work, evidence and reflections in a **binder**, structures it into **sections** and **entries**, and decides for themselves who may see which parts. Coaches and invited persons can comment on and assess shared content.
+The ePortfolio is the OpenOlat module with which learners document their own learning processes, reflect on them and share them for feedback. Each person collects their work, evidence and reflections in a binder, structures it into sections and entries, and decides for themselves who may see which parts. Coaches and invited persons can comment on and assess shared content.
 
 [General information about the portfolio >](../../manual_user/area_modules/Portfolio_General_Information.md)<br>
 
@@ -110,7 +110,7 @@ Creation always takes place in the [portfolio editor](../../manual_user/area_mod
 
 All OpenOlat users find their own portfolio in the **personal menu**. When they open **Portfolio 2.0** there, each person reaches their own portfolio content:
 
-- **My portfolio binders**: the list of all your own binders. New binders are created here: empty, from a template, from a portfolio task of a course or from existing entries.
+- **My binders**: the list of all your own binders. New binders are created here: empty, from a template, from a portfolio task of a course or from existing entries.
 - **My entries**: all your own entries in chronological order, independent of the binder, supplemented by the **timeline**.
 - **Media Center**: the personal storage place for images, videos, documents and other media that can be embedded in entries.
 - **Shared with me**: binders and entries that other people have shared. Coaches find the binders of their learners here.
@@ -124,7 +124,7 @@ All OpenOlat users find their own portfolio in the **personal menu**. When they 
 
 ### How and where can other people view the portfolio content? {: #others}
 
-Via the **Sharing** tab of a binder, the owner grants access rights. They select course members, course coaches or course owners, or invite external people by email, and determine the shared sections and entries as well as the level: **read**, **comment** and/or **assess**. Whoever receives the right to assess automatically also has the right to comment.
+Via the "Sharing" tab of a binder, the owner grants access rights. They select course members, course coaches or course owners, or invite external people by email, and determine the shared sections and entries as well as the level: "read", "comment" and/or "assess". Whoever receives the right to assess automatically also has the right to comment.
 
 Shared binders of other people can likewise be found by everyone in their personal menu under:<br>
 `Portfolio 2.0 > Shared with me`
@@ -184,7 +184,7 @@ When a participant clicks **Collect portfolio task** in the course element, Open
 Participants can also, on their own initiative, create an empty binder in their personal menu under "Portfolio 2.0" and structure it freely. Here, as a course owner, you do not prepare a template; you only set the framework in a set of instructions. This is suitable for open, self-directed tasks.
 
 ### Way 3: Free portfolio with a template
-Alternatively, under "My portfolio binders", participants can also use **Create new binder** to create a binder based on a template, a binder for a portfolio task from a course or a binder from entries. Which kinds of binders participants may create themselves is defined by the system administration: `Administration > e-Assessment > ePortfolio`.
+Alternatively, under "My binders", participants can also use **Create new binder** to create a binder based on a template, a binder for a portfolio task from a course or a binder from entries. Which kinds of binders participants may create themselves is defined by the system administration: `Administration > e-Assessment > ePortfolio`.
 
 [More about the free portfolio >](../../manual_user/area_modules/My_portfolio_binders.md#individual-portfolio-binders)<br>
 [Back to top ^](#portfolio)
@@ -232,7 +232,7 @@ Under **Portfolio template's options** you define what participants can later do
 
 5. **How participants get to their own binder**<br>
 \- Participants click "Collect portfolio task" in the course.<br>
-\- This creates a personal copy that appears in the personal menu under `Portfolio 2.0 > My portfolio binders` (with a red margin stripe and course note).<br>
+\- This creates a personal copy that appears in the personal menu under `Portfolio 2.0 > My binders` (with a red margin stripe and course note).<br>
 \- Then they fill in the assignments and publish the entries.<br>
 [More about the Portfolio task course element >](../../manual_user/learningresources/Course_Element_Portfolio_Task.md)
 
@@ -246,7 +246,7 @@ Under **Portfolio template's options** you define what participants can later do
 Insert a new "Portfolio task" course element as usual under:<br>
 `Course > Administration > Course editor > Insert course elements`
 
-The "Portfolio task" course element distributes a portfolio template to the participants. With the **Collect portfolio task** step, each participant creates their own binder from it, which appears under **My portfolio binders** with the course name.
+The "Portfolio task" course element distributes a portfolio template to the participants. With the **Collect portfolio task** step, each participant creates their own binder from it, which appears under **My binders** with the course name.
 
 !!! info "Important"
 
@@ -369,13 +369,13 @@ The checklist summarises the preparation steps of this guide.
 5\. Ensure use by participants
 
 - [x] Participants know how to **collect the portfolio task**
-- [x] Personal copy appears in the personal menu under `Portfolio 2.0 > My portfolio binders`
+- [x] Personal copy appears in the personal menu under `Portfolio 2.0 > My binders`
 - [x] Participants know the process: fill in assignments → write entries as a draft → publish
 
 6\. Sharing and assessment
 
 - [x] Participants know that they must share binders/sections via the **Sharing** tab
-- [x] Access levels clarified: **read**, **comment**, **assess**
+- [x] Access levels clarified: "read", "comment", "assess"
 - [x] Noted: without sharing, even coaches cannot see the binder (publishing ≠ sharing)
 - [x] Coaches know where assessment happens (course element, assessment tool or in the personal menu under `Portfolio 2.0 > Shared with me`)
 - [x] Noted: assessment happens per **section** (points and pass/fail); individual entries are only commented on
@@ -393,7 +393,7 @@ The checklist summarises the preparation steps of this guide.
 [Components of the portfolio >](../../manual_user/area_modules/Components_of_the_portfolio.md)<br>
 [The Portfolio Editor >](../../manual_user/area_modules/The_portfolio_editor_17_1.md)<br>
 [Personal menu >](../../manual_user/personal_menu/index.md)<br>
-[My portfolio binders >](../../manual_user/area_modules/My_portfolio_binders.md)<br>
+[My binders >](../../manual_user/area_modules/My_portfolio_binders.md)<br>
 [Portfolio template: Creation >](../../manual_user/learningresources/Portfolio_template_Creation.md)<br>
 [Portfolio template: Administration and editing >](../../manual_user/learningresources/Portfolio_template_Administration_and_editing.md)<br>
 [Course Element "Portfolio Task" >](../../manual_user/learningresources/Course_Element_Portfolio_Task.md)<br>
@@ -409,4 +409,4 @@ The checklist summarises the preparation steps of this guide.
 [Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
 
-[Back to top ^](#portfolio)
+[To the top of the page ^](#portfolio)

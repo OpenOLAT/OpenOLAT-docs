@@ -8,12 +8,12 @@ To do this, you first have to call up the course in which the portfolio task is 
 
 Click the "Collect portfolio task" button.
 
-![Course element portfolio task with instructions and the "Collect portfolio task" button](assets/pf_course_collect_assigment_EN.png){ class="shadow lightbox" }
+![Course element portfolio task with instructions and the "Collect portfolio task" button](assets/pf_course_collect_assigment_EN.png){ class="shadow lightbox" title="Course element Portfolio Task in the course" }
 
 ## Find portfolio task
 
-The portfolio task is now collected and saved in the ["Portfolio 2.0"](../personal_menu/Personal_Tools.md#portfolio) under "[My
-portfolio binders](../area_modules/My_portfolio_binders.md)".
+The portfolio task is now collected and saved in the ["Portfolio 2.0"](../personal_menu/Personal_Tools.md#portfolio) under "[Go to my
+binders](../area_modules/My_portfolio_binders.md)".
 
 The next time the portfolio task is accessed, it can be opened either via the link in the course or directly in the personal portfolio.
 
@@ -28,7 +28,7 @@ Click on a section in either the "Overview" or "Entries" tab and "Select a task 
 You can now edit the tasks with the Portfolio Editor and add suitable content (texts, images, videos, etc.) and artifacts via the Portfolio
 Editor.
 
-![Entry in the Portfolio Editor with the assignment and the open "Add content" menu with the content element options](assets/Portfolioaufgabe_bearbeiten.jpg){ class="shadow lightbox" }
+![Entry in the Portfolio Editor with the assignment and the open "Add content" menu with the content element options](assets/Portfolioaufgabe_bearbeiten.jpg){ class="shadow lightbox" title="Entry in the Portfolio Editor" }
 
 If the portfolio task contains forms, these can also be filled in. If configured in the settings of the portfolio template, users may also add new entries or delete the entire collected binder.
 
@@ -42,7 +42,7 @@ In the "Entries" tab, all not yet selected tasks of the respective section are g
 
 While editing, the status of the entry is "Draft".
 
-![Entry with status "Draft" and the "Publish entry" button](assets/pf_entry_publish_EN.png){ class="shadow lightbox" }
+![Entry with status "Draft" and the "Publish entry" button](assets/pf_entry_publish_EN.png){ class="shadow lightbox" title="Entry with status Draft" }
 
 As soon as the entry or the task is complete, select "Publish entry". This makes the work visible to other people who have access to the portfolio, and feedback or comments become possible.
 
@@ -87,6 +87,6 @@ to complete the action.
 
 **Mentioned on this page**<br>
 [User tools >](../personal_menu/Personal_Tools.md)<br>
-[My portfolio binders >](../area_modules/My_portfolio_binders.md)
+[My binders >](../area_modules/My_portfolio_binders.md)
 
 [To the top of the page ^](#portfolio-task-collecting-and-editing)

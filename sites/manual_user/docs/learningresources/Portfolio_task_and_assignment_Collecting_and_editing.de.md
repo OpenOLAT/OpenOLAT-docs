@@ -10,7 +10,7 @@ Dafür muss zunächst der Kurs, in dem sich die Portfolioaufgabe befindet, aufge
 
 Klicken Sie einfach auf den Button "Portfolioaufgabe abholen".
 
-![Kursbaustein Portfolioaufgabe mit Hinweistext und Button "Portfolioaufgabe abholen"](assets/pf_aufgabeabholen_s1_DE.png){ class="shadow lightbox" }
+![Kursbaustein Portfolioaufgabe mit Hinweistext und Button "Portfolioaufgabe abholen"](assets/pf_aufgabeabholen_s1_DE.png){ class="shadow lightbox" title="Kursbaustein Portfolioaufgabe im Kurs" }
 
 ## Portfolioaufgabe finden
 
@@ -30,7 +30,7 @@ Klicken Sie entweder im Tab "Überblick" oder "Einträge" auf einen Bereich und 
 Nun können die Aufgaben mit dem Portfolio Editor bearbeitet und passende Inhalte (Texte, Bilder, Videos usw.) und Artefakte über den Portfolio
 Editor hinzugefügt werden.
 
-![Eintrag im Portfolio Editor mit Aufgabenstellung und geöffnetem Menü "Inhalt hinzufügen" mit den Optionen für Inhaltselemente](assets/Portfolioaufgabe_bearbeiten.jpg){ class="shadow lightbox" }
+![Eintrag im Portfolio Editor mit Aufgabenstellung und geöffnetem Menü "Inhalt hinzufügen" mit den Optionen für Inhaltselemente](assets/Portfolioaufgabe_bearbeiten.jpg){ class="shadow lightbox" title="Eintrag im Portfolio Editor" }
 
 Enthält die Portfolioaufgabe Formulare können diese ebenfalls ausgefüllt werden. Sofern in den Einstellungen der Portfoliovorlage konfiguriert, dürfen die Benutzer:innen auch neue Einträge ergänzen oder die gesamte abgeholte Mappe löschen.
 
@@ -44,7 +44,7 @@ In dem Tab "Einträge" werden alle noch nicht ausgewählte Aufgaben des jeweilig
 
 Während der Bearbeitung steht der Status des Eintrags auf Entwurf.
 
-![Eintrag mit Status "Entwurf" und Button "Eintrag publizieren"](assets/Portfolioaufgabe_publizieren.png){ class="shadow lightbox" }
+![Eintrag mit Status "Entwurf" und Button "Eintrag publizieren"](assets/Portfolioaufgabe_publizieren.png){ class="shadow lightbox" title="Eintrag im Status Entwurf" }
 
 Sobald der Eintrag respektive die Aufgabe abgeschlossen ist, "Eintrag publizieren" wählen. So wird die Bearbeitung für andere Personen, die Zugang zum Portfolio haben, sichtbar und Feedbacks bzw. Kommentierungen sind möglich.
 
@@ -89,7 +89,7 @@ auswählen um die Aktion zu finalisieren.
 
 **Auf dieser Seite erwähnt**<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
-[Meine Portfolio Mappen >](../area_modules/My_portfolio_binders.de.md)
+[Meine Mappen >](../area_modules/My_portfolio_binders.de.md)
 
 [Zum Seitenanfang ^](#portfolioaufgabe-abholen-und-bearbeiten)
 

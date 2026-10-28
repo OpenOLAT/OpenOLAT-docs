@@ -34,30 +34,30 @@ Spezialität / Hinweis |
 
 Wie bei allen Kursbausteinen, bestimmen Sie in diesem Tab den Seitentitel, den Titel links im Kursmenü und die Beschreibungen.
 
-![Tab "Titel und Beschreibung" des Kursbausteins Portfolioaufgabe im Kurseditor](assets/course_element_portfolio_task_tab_title_v1_de.png){ class="shadow lightbox" }
+![Tab "Titel und Beschreibung" des Kursbausteins Portfolioaufgabe im Kurseditor](assets/course_element_portfolio_task_tab_title_v1_de.png){ class="shadow lightbox" title="Tab Titel und Beschreibung im Kurseditor" }
 
 ### Tab Layout {: #tab_layout}
 
-![Tab "Layout" des Kursbausteins Portfolioaufgabe im Kurseditor](assets/course_element_portfolio_task_tab_layout_v1_de.png){ class="shadow lightbox" }
+![Tab "Layout" des Kursbausteins Portfolioaufgabe im Kurseditor](assets/course_element_portfolio_task_tab_layout_v1_de.png){ class="shadow lightbox" title="Tab Layout im Kurseditor" }
 
 ### Tab Lernpfad {: #tab_learning_path}
 
 In diesem Tab kann unter anderem das Erledigungskriterium für den Kursbaustein festgelegt werden. (Wann gilt die Portfolioaufgabe als "erledigt"?)
 
-![Erledigungskriterien im Tab "Lernpfad" des Kursbausteins Portfolioaufgabe](assets/course_element_portfolio_task_tab_learningpath_v1_de.png){ class="shadow lightbox" }
+![Erledigungskriterien im Tab "Lernpfad" des Kursbausteins Portfolioaufgabe](assets/course_element_portfolio_task_tab_learningpath_v1_de.png){ class="shadow lightbox" title="Tab Lernpfad im Kurseditor" }
 
 ### Tab Lerninhalt {: #tab_learning_content}
 
 Nachdem Sie dem Kurs einen Kursbaustein "Portfolioaufgabe" hinzugefügt haben,  verbinden Sie den Kursbaustein mit einer "Portfolio 2.0 Vorlage". Dafür gehen Sie im Kurseditor in den Tab "Lerninhalt" und ordnen dem Kursbaustein eine passende Lernressource ["Portfolio 2.0 Vorlage"](../learningresources/Portfolio_template_Creation.de.md) zu. 
 
-![Button "Portfoliovorlage wählen oder erstellen" im Tab "Lerninhalt" des Kursbausteins Portfolioaufgabe](assets/course_element_portfolio_task_tab_learning_content_v1_de.png){ class="shadow lightbox" }
+![Button "Portfoliovorlage wählen oder erstellen" im Tab "Lerninhalt" des Kursbausteins Portfolioaufgabe](assets/course_element_portfolio_task_tab_learning_content_v1_de.png){ class="shadow lightbox" title="Tab Lerninhalt im Kurseditor" }
 
 
 Sie können direkt im Kurs über "Portfoliovorlage wählen oder erstellen" eine neue Portfoliovorlage erstellen oder eine zuvor erstellte Vorlage verlinken. 
 
 Wenn Sie dem Kursbaustein eine Vorlage hinzugefügt haben, wird dies direkt im Tab "Lerninhalt" unter "Gewählte Portfoliovorlage" erkennbar. Über den Link "Editieren" kann die Vorlage bearbeitet werden. Über den Link "Portfoliovorlage auswechseln" können Sie eine andere Mappe hinterlegen. Ein Klick auf den Namen der Vorlage führt Sie direkt zur Vorlage-Mappe. 
 
-![Gewählte Portfoliovorlage mit den Links "Editieren" und "Portfoliovorlage auswechseln" im Tab "Lerninhalt"](assets/course_element_portfolio_task_tab_learning_content2_v1_de.png){ class="shadow lightbox" }
+![Gewählte Portfoliovorlage mit den Links "Editieren" und "Portfoliovorlage auswechseln" im Tab "Lerninhalt"](assets/course_element_portfolio_task_tab_learning_content2_v1_de.png){ class="shadow lightbox" title="Tab Lerninhalt mit gewählter Portfoliovorlage" }
 
 !!! info "Hinweis"
 
@@ -69,7 +69,7 @@ Wenn Sie dem Kursbaustein eine Vorlage hinzugefügt haben, wird dies direkt im T
 
 Damit ein Portfolio bewertet werden kann, muss im Kurseditor auch der Tab "Bewertung" konfiguriert werden. 
 
-![Konfiguration der Bewertung im Tab "Bewertung" des Kursbausteins Portfolioaufgabe](assets/course_element_portfolio_task_tab_assessment_v1_de.png){ class="shadow lightbox" }
+![Konfiguration der Bewertung im Tab "Bewertung" des Kursbausteins Portfolioaufgabe](assets/course_element_portfolio_task_tab_assessment_v1_de.png){ class="shadow lightbox" title="Tab Bewertung im Kurseditor" }
 
 
 Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel "[Portfolioaufgabe: kommentieren und bewerten](../learningresources/Portfolio_assignment_Grading.de.md)".
@@ -79,7 +79,7 @@ Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel "[P
 
 Dieser Tab wird erst aktiv, wenn im Tab "Bewertung" die Vergabe von Punkten eingeschaltet wurde. Dann können hier (berechnet anhand der Punkte) Siegertreppchen, eine Liste der besten Teilnehmer:innen u.a. aktiviert werden.
 
-![Einstellungen der Highscore-Übersicht im Tab "HighScore" des Kursbausteins Portfolioaufgabe](assets/course_element_portfolio_task_tab_highscore_v1_de.png){ class="shadow lightbox" }
+![Einstellungen der Highscore-Übersicht im Tab "HighScore" des Kursbausteins Portfolioaufgabe](assets/course_element_portfolio_task_tab_highscore_v1_de.png){ class="shadow lightbox" title="Tab HighScore im Kurseditor" }
 
 ### Tab Erinnerungen {: #tab_reminders}
 
@@ -90,7 +90,7 @@ Hier können Sie - wie bei anderen Kursbausteinen auch - das automatische Versen
 
 Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
 
-![Tab "Badges" des Kursbausteins Portfolioaufgabe mit dem Button "Neuen Badge erstellen"](assets/course_element_portfolio_task_tab_badges_v1_de.png){ class="shadow lightbox" }
+![Tab "Badges" des Kursbausteins Portfolioaufgabe mit dem Button "Neuen Badge erstellen"](assets/course_element_portfolio_task_tab_badges_v1_de.png){ class="shadow lightbox" title="Tab Badges im Kurseditor" }
 
 
 [Zum Seitenanfang ^](#course_element_portfolio)
@@ -105,7 +105,7 @@ Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab B
 
 Hat ein/eine OpenOlat-Autor:in einen Kursbaustein "Portfolioaufgabe" vorbereitet, dann rufen Sie als Kursteilnehmer:in diesen Kursbaustein im Kursmenü auf. Mit dem Button "Portfolioaufgabe abholen" laden Sie sich eine Kopie der Vorlage zur Bearbeitung in Ihr eigenes Portfolio.
 
-![Button "Portfolioaufgabe abholen" im Kursbaustein Portfolioaufgabe](assets/course_element_portfolio_task_get_task_v1_de.png){ class="shadow lightbox" }
+![Button "Portfolioaufgabe abholen" im Kursbaustein Portfolioaufgabe](assets/course_element_portfolio_task_get_task_v1_de.png){ class="shadow lightbox" title="Kursbaustein Portfolioaufgabe im Kurs" }
 
 
 [Zum Seitenanfang ^](#course_element_portfolio)
@@ -117,12 +117,12 @@ Hat ein/eine OpenOlat-Autor:in einen Kursbaustein "Portfolioaufgabe" vorbereitet
 
 Nachdem Sie die Portfolio-Mappe abgeholt haben, können Sie die Mappe zur Bearbeitung öffnen. Auf der Übersichtsseite werden Ihnen noch weitere Informationen zum Stand Ihrer Bearbeitung angezeigt. 
 
-![Leistungsübersicht und Button "Portfolio öffnen" der abgeholten Portfolioaufgabe](assets/course_element_portfolio_task_open_task_v1_de.png){ class="shadow lightbox" }
+![Leistungsübersicht und Button "Portfolio öffnen" der abgeholten Portfolioaufgabe](assets/course_element_portfolio_task_open_task_v1_de.png){ class="shadow lightbox" title="Abgeholte Portfolioaufgabe im Kurs" }
 
 
-Sobald die Portfolioaufgabe im Kurs abgeholt wurde, finden Sie als Kursteilnehmer:in diese Mappe auch in Ihrem [persönlichen Menü](../personal_menu/Personal_Tools.de.md) unter "Portfolio 2.0" - "Meine Portfolio Mappen". 
+Sobald die Portfolioaufgabe im Kurs abgeholt wurde, finden Sie als Kursteilnehmer:in diese Mappe auch in Ihrem [persönlichen Menü](../personal_menu/Personal_Tools.de.md) unter "Portfolio 2.0" - "Meine Mappen". 
 
-![Eintrag "Portfolio 2.0" im persönlichen Menü](assets/course_element_portfolio_task_pers_menu_v1_de.png){ class="shadow lightbox" }
+![Eintrag "Portfolio 2.0" im persönlichen Menü](assets/course_element_portfolio_task_pers_menu_v1_de.png){ class="shadow lightbox" title="Persönliches Menü" }
 
 !!! info "Hinweis"
 
@@ -150,63 +150,63 @@ Je nachdem, wie der/die Autor:in die Portfolioaufgabe vorbereitet hat, stehen Ih
 
 **Beispiel:**<br>
 
-![Abgeholte Portfolio-Mappe mit den Bereichen "Beurteilung Situation 1" und "Beurteilung Situation 2"](assets/course_element_portfolio_task_solve3a_de.png){ class="shadow lightbox" }
+![Abgeholte Portfolio-Mappe mit den Bereichen "Beurteilung Situation 1" und "Beurteilung Situation 2"](assets/course_element_portfolio_task_solve3a_de.png){ class="shadow lightbox" title="Abgeholte Mappe" }
 
 **Schritt 3b:** Klicken Sie auf einen Bereich oder auf den Tab "Einträge".
 
-![Tab "Einträge" der Portfolio-Mappe mit den verfügbaren Bereichen](assets/course_element_portfolio_task_solve3b_de.png){ class="shadow lightbox" }
+![Tab "Einträge" der Portfolio-Mappe mit den verfügbaren Bereichen](assets/course_element_portfolio_task_solve3b_de.png){ class="shadow lightbox" title="Tab Einträge einer Mappe" }
 
 **Schritt 3c:** Wählen Sie dort eine angezeigte Aufgabe oder suchen Sie die Aufgaben in den anderen Bereichen.
 
-![Aufgabe eines Bereichs in der Listenansicht der Portfolio-Mappe](assets/course_element_portfolio_task_solve3c_de.png){ class="shadow lightbox" }
+![Aufgabe eines Bereichs in der Listenansicht der Portfolio-Mappe](assets/course_element_portfolio_task_solve3c_de.png){ class="shadow lightbox" title="Listenansicht einer Mappe" }
 
 Wurde nicht die Listenansicht gewählt, sondern die Kachelansicht, kann die Aufgabe über einen Dropdown-Button gewählt werden.
 
-![Auswahl der Aufgabe über den Dropdown-Button in der Kachelansicht der Portfolio-Mappe](assets/course_element_portfolio_task_solve3c_var_de.png){ class="shadow lightbox" }
+![Auswahl der Aufgabe über den Dropdown-Button in der Kachelansicht der Portfolio-Mappe](assets/course_element_portfolio_task_solve3c_var_de.png){ class="shadow lightbox" title="Kachelansicht einer Mappe" }
 
 **Schritt 3d:** Folgen Sie den Anweisungen. Die Aufgabe kann von Kursautor:innen ganz unterschiedlich gestaltet worden sein. Im folgenden Beispiel können Sie ein Dokument herunterladen und Ihre Antwort ergänzen.
 
-![Aufgabenstellung mit angehängtem Dokument und den Buttons "Neues Layout einfügen" und "Inhalt referenzieren"](assets/course_element_portfolio_task_solve3d_de.png){ class="shadow lightbox" }
+![Aufgabenstellung mit angehängtem Dokument und den Buttons "Neues Layout einfügen" und "Inhalt referenzieren"](assets/course_element_portfolio_task_solve3d_de.png){ class="shadow lightbox" title="Eintrag mit Aufgabenstellung" }
 
 **Schritt 3e: Beispiel mit Antwort in einem Layout-Block** 
 
 Fügen Sie ein neues Layout-Element hinzu.
 
-![Auswahl eines Layouts für ein neues Layout-Element im Portfolio-Eintrag](assets/course_element_portfolio_task_solve3e_de.png){ class="shadow lightbox" }
+![Auswahl eines Layouts für ein neues Layout-Element im Portfolio-Eintrag](assets/course_element_portfolio_task_solve3e_de.png){ class="shadow lightbox" title="Layoutauswahl in einem Eintrag" }
 
 
 **Schritt 3f: Beispiel mit Antwort in einem Layout-Block** 
 
 Fügen Sie in die Layout-Felder Inhaltselemente hinzu.
 
-![Button "Inhalt hinzufügen" in den Feldern eines eingefügten Layout-Blocks](assets/course_element_portfolio_task_solve3f_de.png){ class="shadow lightbox" }
+![Button "Inhalt hinzufügen" in den Feldern eines eingefügten Layout-Blocks](assets/course_element_portfolio_task_solve3f_de.png){ class="shadow lightbox" title="Layout-Block in einem Eintrag" }
 
 
 **Schritt 3g: Beispiel mit Antwort in einem Layout-Block** 
 
 Es stehen Ihnen verschiedene Inhalte zur Auswahl.
 
-![Auswahl der Inhaltselemente im Dialog "Inhalt hinzufügen"](assets/course_element_portfolio_task_solve3g_de.png){ class="shadow lightbox" }
+![Auswahl der Inhaltselemente im Dialog "Inhalt hinzufügen"](assets/course_element_portfolio_task_solve3g_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen" }
 
 
 **Schritt 3h: Beispiel mit Antwort in einem Layout-Block** 
 
 Im nachstehend gezeigten Beispiel hat sich der/die Teilnehmer:in für eine Antwort in Form eines selbst aufgezeichneten Videos entschieden.
 
-![Option "Video aufzeichnen" im Media Center zum Erstellen einer Videoantwort](assets/course_element_portfolio_task_solve3h_de.png){ class="shadow lightbox" }
+![Option "Video aufzeichnen" im Media Center zum Erstellen einer Videoantwort](assets/course_element_portfolio_task_solve3h_de.png){ class="shadow lightbox" title="Media Center in einem Eintrag" }
 
 **Schritt 3: Beispiel Referenzierung**
 
 Haben Sie bereits anderweitig einen Inhalt erstellt, können Sie diesen auch referenzieren (einbinden durch Verlinkung).
 
-![Dialog "Inhalt referenzieren" zur Verlinkung eines bereits erstellten Eintrags](assets/course_element_portfolio_task_solve3i_de.png){ class="shadow lightbox" }
+![Dialog "Inhalt referenzieren" zur Verlinkung eines bereits erstellten Eintrags](assets/course_element_portfolio_task_solve3i_de.png){ class="shadow lightbox" title="Dialog Inhalt referenzieren" }
 
 
 **Schritt 3: Beispiel Formular**
 
 Enthält die Portfolioaufgabe Formulare (von dem/der Kursautor:in vorbereitet), können diese direkt online ausgefüllt werden. 
 
-![Ausgefülltes Formular als Aufgabentyp im Portfolio-Eintrag](assets/course_element_portfolio_task_solve3j_de.png){ class="shadow lightbox" }
+![Ausgefülltes Formular als Aufgabentyp im Portfolio-Eintrag](assets/course_element_portfolio_task_solve3j_de.png){ class="shadow lightbox" title="Formular in einem Eintrag" }
 
 <br>
 
@@ -214,7 +214,7 @@ Enthält die Portfolioaufgabe Formulare (von dem/der Kursautor:in vorbereitet), 
 
 Sowohl im Tab "Überblick" als auch im Tab "Einträge" helfen Ihnen die Symbole und Tags dabei, den Überblick über den Bearbeitungsstand der einzelnen Einträge zu behalten.
 
-![Status- und Bereichssymbole mit Legende in der Übersicht der Portfolio-Mappe](assets/course_element_portfolio_task_solve3l_de.png){ class="shadow lightbox" }  
+![Status- und Bereichssymbole mit Legende in der Übersicht der Portfolio-Mappe](assets/course_element_portfolio_task_solve3l_de.png){ class="shadow lightbox" title="Übersicht einer Mappe" }  
 
 
 [Zum Seitenanfang ^](#course_element_portfolio)
@@ -226,7 +226,7 @@ Sowohl im Tab "Überblick" als auch im Tab "Einträge" helfen Ihnen die Symbole 
 
 Ist eine Bearbeitung erledigt, muss der Eintrag noch publiziert werden. So wird die Bearbeitung für andere Personen, die Zugang zum Portfolio haben, sichtbar und Feedbacks bzw. Kommentierungen sind möglich. Solange noch nicht publiziert wurde, hat ein Eintrag den Status "Entwurf".
 
-![Button "Eintrag publizieren" im Tab "Einträge" des Portfolio-Eintrags](assets/course_element_portfolio_task_solve3k_de.png){ class="shadow lightbox" }
+![Button "Eintrag publizieren" im Tab "Einträge" des Portfolio-Eintrags](assets/course_element_portfolio_task_solve3k_de.png){ class="shadow lightbox" title="Eintrag vor dem Publizieren" }
 
 !!! warning "Achtung"
 
@@ -248,7 +248,7 @@ In der Regel sollen durch Teilnehmer:innen erstellte Portfolio-Mappen durch Betr
 
 Wenn Sie im Kurs den Kursbaustein mit der Portfolioaufgabe gewählt haben, finden Sie im unteren Bereich den Abschnitt "Portfolio Überprüfung". Dort finden Sie den Button "Zugangsrecht hinzufügen".
 
-![Abschnitt "Portfolio Überprüfung" mit dem Menü "Zugangsrecht hinzufügen" im Kursbaustein Portfolioaufgabe](assets/course_element_portfolio_task_give_access1_v1_de.png){ class="shadow lightbox" }
+![Abschnitt "Portfolio Überprüfung" mit dem Menü "Zugangsrecht hinzufügen" im Kursbaustein Portfolioaufgabe](assets/course_element_portfolio_task_give_access1_v1_de.png){ class="shadow lightbox" title="Abschnitt Portfolio Überprüfung im Kurs" }
 
 <br>
 
@@ -256,7 +256,7 @@ Wenn Sie im Kurs den Kursbaustein mit der Portfolioaufgabe gewählt haben, finde
 
 Öffnen Sie die Mappe und wählen Sie den Tab "Freigabe". Dort erscheint der Button "Zugangsrecht hinzufügen".
 
-![Menü "Zugangsrecht hinzufügen" im Tab "Freigabe" der Portfolio-Mappe](assets/course_element_portfolio_task_give_access2_v1_de.png){ class="shadow lightbox" }
+![Menü "Zugangsrecht hinzufügen" im Tab "Freigabe" der Portfolio-Mappe](assets/course_element_portfolio_task_give_access2_v1_de.png){ class="shadow lightbox" title="Tab Freigabe einer Mappe" }
 
 <br>
 
@@ -278,7 +278,7 @@ Die Konfiguration erfolgt über einen Wizard. Im Freigabe-Dialog definieren Sie,
 * ob eine E-Mail-Benachrichtigung mit Link zur entsprechenden Mappe verschickt werden soll.
 
 
-![Schritt "Benutzer:in wählen" im Wizard "Zugangsrecht hinzufügen"](assets/course_element_portfolio_task_give_access_wizard1_v1_de.png){ class="shadow lightbox" }
+![Schritt "Benutzer:in wählen" im Wizard "Zugangsrecht hinzufügen"](assets/course_element_portfolio_task_give_access_wizard1_v1_de.png){ class="shadow lightbox" title="Assistent Zugangsrecht hinzufügen" }
 
 
 
@@ -311,7 +311,7 @@ Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel "[P
 [Der Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.de.md)<br>
 [Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
 [Bestandteile des Portfolios >](../area_modules/Components_of_the_portfolio.de.md)<br>
-[Meine Portfolio Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
+[Meine Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
 [Meine Einträge >](../area_modules/My_entries.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](Portfolio_template_Administration_and_editing.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>

@@ -35,7 +35,7 @@ Schalten Sie in diesem Popup-Fenster "Abonnieren" ein, erhalten Sie alle Mitteil
 
 ![Das gerahmte Glockensymbol öffnet den Schalter Abonnieren, die Zeiträume Letzte 7 Tage, Letzte 4 Wochen und Letzte 6 Monate sowie die letzte Nachricht](assets/pers_menu_subscriptions_activate_v1_de.png){ class="shadow lightbox" title="Popup Abonnements im Kursbaustein Forum" }
 
-Bei einer **Portfoliomappe** steht das Glockensymbol nicht in einem Kursbaustein, sondern in der Mappe selbst: Öffnen Sie die Mappe, wechseln Sie in den Tab "Änderungsprotokoll" und klicken Sie rechts oben neben der Überschrift auf das Glockensymbol. Im Popup-Fenster schalten Sie "Abonnieren" ein. Mehr dazu unter [Meine Portfolio Mappen](../area_modules/My_portfolio_binders.de.md).
+Bei einer **Mappe** steht das Glockensymbol nicht in einem Kursbaustein, sondern in der Mappe selbst: Öffnen Sie die Mappe, wechseln Sie in den Tab "Änderungsprotokoll" und klicken Sie rechts oben neben der Überschrift auf das Glockensymbol. Im Popup-Fenster schalten Sie "Abonnieren" ein. Mehr dazu unter [Meine Mappen](../area_modules/My_portfolio_binders.de.md).
 
 [Zum Seitenanfang ^](#subscriptions)
 
@@ -65,7 +65,7 @@ Ist das **Portal** aktiviert, werden die Änderungsmeldungen auch dort unter "Me
 
 !!! note "Beispiel: Neue Testresultate"
 
-    Personen mit Zugriff auf das **Bewertungswerkzeug** (z.B. Betreuer:innen oder Kursbesitzer:innen) können sich benachrichtigen lassen, wenn **neue Testresultate** eingegangen sind. Benutzerverwalter:innen können sich benachrichtigen lassen, wenn sich **neue Benutzer:innen** registriert haben.
+    Personen mit Zugriff auf das Bewertungswerkzeug (z.B. Betreuer:innen oder Kursbesitzer:innen) können sich benachrichtigen lassen, wenn neue Testresultate eingegangen sind. Benutzerverwalter:innen können sich benachrichtigen lassen, wenn sich neue Benutzer:innen registriert haben.
 
 [Zum Seitenanfang ^](#subscriptions)
 
@@ -128,7 +128,7 @@ Wir empfehlen folgende Suchbegriffe: _RSS reader_, _RSS newsreader_, _feedreader
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Meine Portfolio Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
+[Meine Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](Settings.de.md)
 
 **Weiterführend**<br>

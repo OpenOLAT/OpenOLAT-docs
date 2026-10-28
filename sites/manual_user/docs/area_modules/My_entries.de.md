@@ -32,7 +32,7 @@ Der Zeitstrahl zeigt die letzten zwölf Monate, die jüngsten Einträge oben. Mi
 [Der Portfolio Editor >](The_portfolio_editor_17_1.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.de.md)<br>
-[Meine Portfolio Mappen >](My_portfolio_binders.de.md)<br>
+[Meine Mappen >](My_portfolio_binders.de.md)<br>
 [Mehrfachverwendung von Einträgen >](Multiple_use_of_entries.de.md)
 
 [Zum Seitenanfang ^](#my_entries)

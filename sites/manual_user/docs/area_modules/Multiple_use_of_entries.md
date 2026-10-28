@@ -6,15 +6,15 @@ To include the same portfolio entry in several binders, there are the following 
 
 **a) Creating a new portfolio binder from existing entries**
 
-When creating a new portfolio binder in the area ["Go to my binders"](../area_modules/My_portfolio_binders.md), the option "Create binder from entries" is available. The desired entries can then be filtered and selected from a list.
+When creating a new binder in the area ["Go to my binders"](../area_modules/My_portfolio_binders.md), the option "Create binder from entries" is available. The desired entries can then be filtered and selected from a list.
 
-![Button Create new binder with opened menu and highlighted option Create binder from entries, in the area My binders](assets/Mappe%20aus%20Eintraegen%20EN.png){ class="shadow lightbox" }
+![Button Create new binder with opened menu and highlighted option Create binder from entries, in the area My binders](assets/Mappe%20aus%20Eintraegen%20EN.png){ class="shadow lightbox" title="Area My binders" }
 
 **b) Importing an entry into an existing portfolio binder**
 
 If the portfolio binder already exists and entries from other contexts or other binders are to be transferred there, this is the way to go. Go to the specific (target) binder and select the "Entries" tab. Then click on the "Import entry" button. A window with all entries opens and you can select the entry or entries and insert them in a specific section.
 
-![Highlighted buttons Import entry in the toolbar and in the box Create a new portfolio entry, in the Entries tab of an opened binder](assets/Import%20Mappe%20EN.png){ class="shadow lightbox" }
+![Highlighted buttons Import entry in the toolbar and in the box Create a new portfolio entry, in the Entries tab of an opened binder](assets/Import%20Mappe%20EN.png){ class="shadow lightbox" title="Entries tab of a binder" }
 
 **c) Linking the content from another entry**
 
@@ -22,17 +22,17 @@ This procedure always applies when you have created a new entry. It does not mat
 
 The "Link content" button can then be used to select another entry, the content of which is transferred to the new entry and edited further.
 
-![Highlighted button Link content in a new entry with status Draft](assets/Eintrag%20Inhalt%20referenzieren%20EN.png){ class="shadow lightbox" }
+![Highlighted button Link content in a new entry with status Draft](assets/Eintrag%20Inhalt%20referenzieren%20EN.png){ class="shadow lightbox" title="New entry with status Draft" }
 
 The list of entries that can be linked or imported is displayed. If competences or categories are assigned to the individual entries, the list can be filtered by them. The results can be further refined with the search. Entries that are already referenced in binders are marked with a curved arrow.
 
-![Dialog Import entries with the list of entries, annotated: the competence and category badges above the list serve as filters, and the curved arrow in the Type column marks already referenced entries](assets/Import%20Dialog%20EN.png){ class="shadow lightbox" }
+![Dialog Import entries with the list of entries, annotated: the competence and category badges above the list serve as filters, and the curved arrow in the Type column marks already referenced entries](assets/Import%20Dialog%20EN.png){ class="shadow lightbox" title="Dialog Import entries" }
 
 ## Characteristics of referenced entries
 
 In the entry itself, messages about the referencing are displayed as well as a note below the title indicating in how many other entries the same content is used.
 
-![Message that the content of this page is linked to other pages, the note Content shared with 6 entries below the title and the box with the referencing notice in the entry](assets/Referenzierung_EN.png){ class="shadow lightbox" }
+![Message that the content of this page is linked to other pages, the note Content shared with 6 entries below the title and the box with the referencing notice in the entry](assets/Referenzierung_EN.png){ class="shadow lightbox" title="Referenced entry" }
 
 !!! warning "Attention"
 
@@ -42,10 +42,10 @@ If a referenced entry in a binder is already closed, the same entry in another b
 
 The metadata of an entry can always be edited. In the metadata editing screen, you select in the field "Edit mode" whether the changes should be applied to all referenced entries ("Global") or, e.g. in the sense of a specific context, only to the current entry ("Local").
 
-![Dialog Edit metadata with the field Edit mode and the options Local, only this entry will be edited, and Global, all selected entries will be edited](assets/Metadaten%20aendern%20Referenz%20EN.png){ class="shadow lightbox" }
+![Dialog Edit metadata with the field Edit mode and the options Local, only this entry will be edited, and Global, all selected entries will be edited](assets/Metadaten%20aendern%20Referenz%20EN.png){ class="shadow lightbox" title="Dialog Edit metadata" }
 
 ## Further information {: #further_information}
 
-[My portfolio binders >](My_portfolio_binders.md)
+[My binders >](My_portfolio_binders.md)
 
 [To the top of the page ^](#multiple_use_of_entries)

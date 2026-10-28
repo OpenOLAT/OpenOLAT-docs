@@ -35,7 +35,7 @@ If you switch on "Subscribe" in this pop-up window, you automatically receive al
 
 ![The framed bell icon opens the toggle Subscribe, the tabs Last 7 days, Last 4 weeks and Last 6 months, and the latest messages](assets/pers_menu_subscriptions_activate_v1_en.png){ class="shadow lightbox" title="Pop-up Subscriptions in the course element Forum · 2026.10.02" }
 
-For a **portfolio binder**, the bell icon is not in a course element but in the binder itself: open the binder, switch to the "History" tab and click the bell icon at the top right next to the heading. In the pop-up window, switch on "Subscribe". For more information, see [My portfolio binders](../area_modules/My_portfolio_binders.md).
+For a **binder**, the bell icon is not in a course element but in the binder itself: open the binder, switch to the "History" tab and click the bell icon at the top right next to the heading. In the pop-up window, switch on "Subscribe". For more information, see [My binders](../area_modules/My_portfolio_binders.md).
 
 [To the top of the page ^](#subscriptions)
 
@@ -65,7 +65,7 @@ If the **Portal** is activated, the change notifications are also displayed ther
 
 !!! note "Example: New test results"
 
-    Persons with access to the **assessment tool** (e.g. coaches or course owners) can be notified when **new test results** have been received. User managers can be notified when **new users** have registered.
+    Persons with access to the assessment tool (e.g. coaches or course owners) can be notified when new test results have been received. User managers can be notified when new users have registered.
 
 [To the top of the page ^](#subscriptions)
 
@@ -128,7 +128,7 @@ We recommend the following search terms: _RSS reader_, _RSS newsreader_, _feedre
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[My portfolio binders >](../area_modules/My_portfolio_binders.md)<br>
+[My binders >](../area_modules/My_portfolio_binders.md)<br>
 [Personal Configuration: Settings >](Settings.md)
 
 **Further reading**<br>
