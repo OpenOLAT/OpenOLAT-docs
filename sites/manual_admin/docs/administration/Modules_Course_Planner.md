@@ -6,7 +6,7 @@
 The Course Planner module is optionally available in OpenOlat instead of the Curriculum module and must be activated in Administration.
 
 !!! tip "frentix hosting customers"
-    For activation, please contact [contact@frentix.com](mailto:contact@frentix.com). <br> After activation, the products can also be displayed in the "Courses" area, see [Products in "Courses"](#product_in_my_courses).
+    For activation, please contact frentix. <br> After activation, the products can also be displayed in the "Courses" area, see [Products in "Courses"](#product_in_my_courses).
 
 
 [To the top of the page ^](#module_course_planner)
@@ -16,8 +16,6 @@ The Course Planner module is optionally available in OpenOlat instead of the Cur
 ## Tab Settings {: #tab_course_planner}
 
 In the "Settings" tab, administrators switch on the Course Planner and define the presets with which new courses and implementations start. You find it in the system administration under: `Administration > Modules > Course Planner`. Next to "Settings", the tabs "Course planner" and "Element types" appear as soon as the module is switched on.
-
-![Default settings with the usage for new courses, the options for the info page and the roles for Meet your teachers](assets/modules_course_planner_settings_v1_en.png){ class="shadow lightbox" title="Settings tab in the Course Planner module · 2026.10.09" }
 
 Five entry points open the same list of products and implementations:
 
@@ -53,18 +51,20 @@ From the taxonomies created in the "Taxonomy" module, you can select those that 
 
 ### Default settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"} {: #default_settings}
 
-If you create many courses and implementations, you define here once what they start with, instead of adjusting each one individually. The default values apply to courses and implementations that are newly created after the change.
+New courses and implementations start with the values you define here once. Whoever creates them does not have to adjust each one individually. The default values apply to courses and implementations that are newly created after the change.
+
+![Default settings with the usage for new courses, the options for the info page and the roles for Meet your teachers](assets/modules_course_planner_settings_v1_en.png){ class="shadow lightbox" title="Settings tab in the Course Planner module · 2026.10.09" }
 
 #### Usage for new courses {: #default_purpose_new_courses }
 
-Courses can be intended for stand-alone use or for integration into a product. As an administrator, you specify here which use is preset by default.
+A course is either standalone or intended for integration into a product. Here you define which usage is preselected for a new course.
 
-* **Standalone**: An independent course has a member administration. Access can be gained using the "Private" offer type by registering as a member (e.g. by course owners), by assigning an access code or by publication in the catalog.
-* **Use in Course Planner**: If the course is integrated into a product, memberships are assigned and managed by the Course Planner. The course then does not require a second, independent membership administration.
+* **Standalone**: An independent course has a member administration. Participants gain access by being registered as a member with the "Private" offer type (e.g. by course owners), via an access code or via publication in the catalog.
+* **Use in Course Planner**: If the course is integrated into a product, the Course Planner assigns and manages the memberships. The course then does not require a second, independent membership administration.
 
 !!! tip "Tip"
 
-    If Course Planner is used extensively, it is advisable to set the usage for new courses in the system administration under `Administration > Modules > Course Planner` to "Use in Course Planner".
+    If the Course Planner is used extensively, the setting "Use in Course Planner" is recommended here.
 
 #### Display on info page {: #default_display_on_info_page}
 
@@ -97,7 +97,7 @@ The "Course planner" tab contains the rights of the organisation role course pla
 The list shows the areas, with their individual entries indented below. Two rights determine which columns the [Booking orders report](../../manual_user/area_modules/Reports_BookingOrders.md) in the Course Planner contains:
 
 - **View course progress and status**: the columns from "Score" to "Last visit", including "Success status", "Progress" and "Certificate".
-- **View events and absence**: the columns "Units", "Attended", "Not excused", "Authorized" and "Dispensed".
+- **View events and absences**: the columns "Units", "Attended", "Not excused", "Authorized" and "Dispensed".
 
 If one of these two rights is not selected, its columns are missing in all reports of the category Booking orders.
 
@@ -160,7 +160,7 @@ Explanatory text for the element type.
 * **Progress**: Shows the learning progress in learning path courses as a pie chart. With several subelements, the average of the subelements is calculated.
 
 !!! note "CSS class"
-	Use the "CSS class" field to define your own layout for elements of this type. If you are interested in your own layouts, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com).
+	Use the "CSS class" field to define your own layout for elements of this type. If you are interested in your own layouts, please contact frentix.
 
 In the "Configuration" section you define the structure:
 
@@ -242,6 +242,7 @@ How the wizard checks the file step by step and what it creates or changes is de
 **Mentioned on this page**<br>
 [Module Course >](Modules_Course.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
 [Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
 [Course Planner: Import/Export - Reference >](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.md)
 

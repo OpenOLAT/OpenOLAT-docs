@@ -5,13 +5,11 @@ Die Angaben in der Kursadministration im Tab "Info" sind die wesentlichen Bestan
 
 ## Infoseite einrichten {: #configure_info}
 
-Die [Infoseite](../learningresources/General_Functions_Infopage.de.md) richten Sie unter `Kurs > Administration > Einstellungen` in den Tabs "Metadaten", "Info" und "Durchführung" ein. Je ausführlicher Sie die Lernressource beschreiben, umso einfacher kann diese gefunden werden und desto besser sind Interessierte und spätere Teilnehmer:innen informiert.
+Je ausführlicher Sie die Lernressource beschreiben, desto leichter finden Interessierte sie und desto besser sind sie und spätere Teilnehmer:innen informiert. Die [Infoseite](../learningresources/General_Functions_Infopage.de.md) richten Sie unter `Kurs > Administration > Einstellungen` in den Tabs "Metadaten", "Info" und "Durchführung" ein.
 
 Den **Titel** (Pflichtfeld, höchstens 100 Zeichen) und das **Kennzeichen**, z.B. die Bezeichnung aus dem Vorlesungsverzeichnis oder einem gedruckten Kurskatalog, legen Sie im [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md) fest.
 
 Je nach Lernressource steht nur ein Teil der Tabs zur Verfügung.
-
-![Die vier Optionen unter Auf Infoseite anzeigen und darunter die Rollen mit ihrer Personenzahl, die als Dozent:innen erscheinen](assets/course_settings_info_form_v1_de.png){ class="shadow lightbox" title="Tab Info der Kurseinstellungen · 2026.10.09" }
 
 Der Tab "Info" ist in vier Teile gegliedert, in dieser Reihenfolge: "Informationen" mit Titelbild, Teaser-Film, Teaser und Beschreibung, danach die Abschnitte "Fakten", "Anzeigeeinstellungen" und "Erweiterte Informationen". Die Anzeigeeinstellungen und die erweiterten Informationen gibt es nur bei Kursen. Bei anderen Lernressourcen, etwa einem Test oder einem Wiki, zeigt der Tab nur "Informationen" und "Fakten".
 
@@ -66,6 +64,8 @@ Der Aufwand, mit dem Teilnehmer:innen rechnen müssen. Das Beispiel unter dem Fe
 Mit den Anzeigeeinstellungen bestimmen Sie, welche Abschnitte die Infoseite Ihres Kurses zeigt und wer dort als Dozent:in erscheint. So zeigt die Infoseite genau das, was Interessierte für ihre Entscheidung brauchen.
 
 Ein neu erstellter Kurs startet mit den Standardwerten, die Administrator:innen im [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#default_settings) festlegen. Eine Kopie übernimmt die Anzeigeeinstellungen des Originals. Die Standardwerte im [Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md#default_settings) gelten nur für Durchführungen, nicht für Kurse. Durchführungen im Course Planner haben dieselben Anzeigeeinstellungen, die Unterschiede beschreibt [Course Planner: Durchführungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings_infos).
+
+![Die vier Optionen unter Auf Infoseite anzeigen und darunter die Rollen mit ihrer Personenzahl, die als Dozent:innen erscheinen](assets/course_settings_info_form_v1_de.png){ class="shadow lightbox" title="Tab Info der Kurseinstellungen · 2026.10.09" }
 
 #### Auf Infoseite anzeigen {: #display_on_info_page}
 

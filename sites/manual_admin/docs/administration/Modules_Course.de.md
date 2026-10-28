@@ -30,11 +30,11 @@ Hier legen Sie fest, welcher Durchführungszeitraum beim Erstellen eines neuen K
 
 !!! tip "Tipp"
 
-    Wenn als Durchführungszeitraum "Zeitabschnitt" gewählt wird, kann ein Zeitabschnitt als Standard (Default) festgelegt werden unter `Administration > Module > Zeitabschnitte`.
+    Ist "Zeitabschnitt" gewählt, bestimmen Sie in der System-Administration unter `Administration > Module > Zeitabschnitte` mit "Als Standard für Kurse festlegen", welcher Zeitabschnitt vorgewählt ist.
 
 #### Standard Kursdesign {: #default_course_design}
 
-Hier wird die Voreinstellung festgelegt, mit welchem Kursdesign das Erstellen eines neuen Kurses vorgeschlagen wird: "Mit Lernpfad", "Mit Lernfortschritt" oder "Klassisch".
+Hier legen Sie fest, welches Kursdesign beim Erstellen eines neuen Kurses vorgewählt ist: "Mit Lernpfad", "Mit Lernfortschritt" oder "Klassisch".
 
 #### Leistungsnachweis den Teilnehmer:innen anzeigen {: #efficiency_statement}
 

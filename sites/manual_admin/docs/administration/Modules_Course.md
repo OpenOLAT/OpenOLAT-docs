@@ -30,11 +30,11 @@ Here you define which execution period is preselected when a new course is creat
 
 !!! tip "Tip"
 
-    If "Time period" is selected as the execution period, a time period can be set as the default under `Administration > Modules > Time periods`.
+    If "Time period" is selected, you determine in the system administration under `Administration > Modules > Time periods` with "Set as default for courses" which time period is preselected.
 
 #### Default course design {: #default_course_design}
 
-The default setting for the course design with which the creation of a new course is suggested is defined here: "With learning path", "With learning progress" or "Classic".
+Here you define which course design is preselected when a new course is created: "With learning path", "With learning progress" or "Classic".
 
 #### Show evidence of achievement to participants {: #efficiency_statement}
 

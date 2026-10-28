@@ -6,7 +6,7 @@
 Das Modul Course Planner ist optional an Stelle des Moduls Curriculum in OpenOlat verfügbar und muss in der Administration aktiviert werden.
 
 !!! tip "Hosting-Kunden von frentix"
-	 Wenden Sie sich für die Aktivierung bitte an [contact@frentix.com](mailto:contact@frentix.com). <br> Nach der Aktivierung können die Produkte zusätzlich im Bereich «Kurse» angezeigt werden, siehe [Produkte in "Kurse"](#product_in_my_courses).
+	 Wenden Sie sich für die Aktivierung bitte an frentix. <br> Nach der Aktivierung können die Produkte zusätzlich im Bereich «Kurse» angezeigt werden, siehe [Produkte in "Kurse"](#product_in_my_courses).
 
 
 [Zum Seitenanfang ^](#module_course_planner)
@@ -16,8 +16,6 @@ Das Modul Course Planner ist optional an Stelle des Moduls Curriculum in OpenOla
 ## Tab Einstellungen {: #tab_course_planner}
 
 Im Tab "Einstellungen" schalten Administrator:innen den Course Planner ein und legen fest, mit welchen Voreinstellungen neue Kurse und Durchführungen starten. Sie finden ihn in der System-Administration unter: `Administration > Module > Course Planner`. Neben "Einstellungen" erscheinen die Tabs "Kursplaner:in" und "Elementtypen", sobald das Modul eingeschaltet ist.
-
-![Standardeinstellungen mit dem Verwendungszweck für neue Kurse, den Optionen für die Infoseite und den Rollen für Lernen Sie Ihre Dozent:innen kennen](assets/modules_course_planner_settings_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Course Planner · 2026.10.09" }
 
 Fünf Einstiege öffnen dieselbe Liste der Produkte und Durchführungen:
 
@@ -53,18 +51,20 @@ Von den im Modul "Taxonomie" erstellten Taxonomien können hier diejenigen ausge
 
 ### Standardeinstellungen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9756)" }](https://track.frentix.com/issue/OO-9756){:target="_blank"} {: #default_settings}
 
-Wer viele Kurse und Durchführungen anlegt, legt hier einmal fest, womit sie starten, statt jede einzeln nachzuziehen. Die Standardwerte gelten für Kurse und Durchführungen, die nach der Änderung neu angelegt werden.
+Neue Kurse und Durchführungen starten mit den Werten, die Sie hier einmal festlegen. Wer sie anlegt, muss sie nicht einzeln nachziehen. Die Standardwerte gelten für Kurse und Durchführungen, die nach der Änderung neu angelegt werden.
+
+![Standardeinstellungen mit dem Verwendungszweck für neue Kurse, den Optionen für die Infoseite und den Rollen für Lernen Sie Ihre Dozent:innen kennen](assets/modules_course_planner_settings_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Course Planner · 2026.10.09" }
 
 #### Verwendungszweck für neue Kurse {: #default_purpose_new_courses }
 
-Kurse können für eigenständige Verwendung oder zur Einbindung in ein Produkt vorgesehen werden. Als Administrator:in legen Sie hier fest, welche Verwendung standardmässig voreingestellt ist.
+Ein Kurs ist entweder eigenständig oder für die Einbindung in ein Produkt vorgesehen. Hier legen Sie fest, welcher Verwendungszweck für einen neuen Kurs vorgewählt ist.
 
-* **Eigenständig**: Ein eigenständiger Kurs besitzt eine Mitgliederverwaltung. Der Zugang kann mit der Angebotsart "Privat" durch Eintragung als Mitglied (z.B. durch Kursbesitzer:innen), durch Vergabe eines Zugangscodes oder über eine Veröffentlichung im Katalog erfolgen.
-* **Verwendung im Course Planner**: Wird der Kurs in ein Produkt eingebunden, werden die Mitgliedschaften durch den Course Planner vergeben und verwaltet. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
+* **Eigenständig**: Ein eigenständiger Kurs besitzt eine Mitgliederverwaltung. Teilnehmer:innen erhalten Zugang, indem sie mit der Angebotsart "Privat" als Mitglied eingetragen werden (z.B. durch Kursbesitzer:innen), über einen Zugangscode oder über eine Veröffentlichung im Katalog.
+* **Verwendung im Course Planner**: Wird der Kurs in ein Produkt eingebunden, vergibt und verwaltet der Course Planner die Mitgliedschaften. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
 
 !!! tip "Tipp"
 
-    Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Verwendungszweck für neue Kurse in der System-Administration unter `Administration > Module > Course Planner` auf "Verwendung im Course Planner" einzustellen.
+    Wird der Course Planner umfassend eingesetzt, empfiehlt sich hier die Einstellung "Verwendung im Course Planner".
 
 #### Auf Infoseite anzeigen {: #default_display_on_info_page}
 
@@ -159,7 +159,7 @@ Erklärender Text zum Elementtyp.
 * **Fortschritt**: Zeigt den Lernfortschritt in Lernpfadkursen als Kreisdiagramm. Bei mehreren Unterelementen wird der Durchschnitt der Unterelemente berechnet.
 
 !!! note "CSS class"
-	Über das Feld "CSS class" hinterlegen Sie ein eigenes Layout für Elemente dieses Typs. Bei Interesse an eigenen Layouts wenden Sie sich an frentix: [contact@frentix.com](mailto:contact@frentix.com).
+	Über das Feld "CSS class" hinterlegen Sie ein eigenes Layout für Elemente dieses Typs. Bei Interesse an eigenen Layouts wenden Sie sich an frentix.
 
 Im Abschnitt «Konfiguration» legen Sie die Struktur fest:
 
@@ -241,6 +241,7 @@ Wie der Assistent die Datei Schritt für Schritt prüft und was er anlegt oder �
 **Auf dieser Seite erwähnt**<br>
 [Modul Kurs >](Modules_Course.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Reports: Buchungsaufträge >](../../manual_user/area_modules/Reports_BookingOrders.de.md)<br>
 [Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
 [Course Planner: Import/Export - Referenz >](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.de.md)
 

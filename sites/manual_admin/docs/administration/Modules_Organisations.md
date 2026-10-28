@@ -132,7 +132,7 @@ By default, no right is set. You can only set an indented right once the right a
 
 * **View courses and CPL products**: The tab "Courses" appears in the detail view of a person.
     * **View course progress and status**: The people list and the tab "Courses" additionally show progress and success status.
-    * **View events and absence**: The tab "Events & Absences" appears if the module Events and Absences is also switched on.
+    * **View events and absences**: The tab "Events & Absences" appears if the module Events and Absences is also switched on.
         * **Absence report**: The reports of the category "Absences" are available under `Coaching > Reports`.
     * **View evidence of achievement**: The tabs "Efficiency statements" and "Certificates" appear.
         * **Upload external certificates**: In the tab "Certificates", line managers can upload external certificates for the person.

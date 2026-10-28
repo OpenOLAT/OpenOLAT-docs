@@ -7,13 +7,11 @@ The information in the course administration in the "Info" tab is the essential 
 
 ## Set up info page {: #configure_info}
 
-You set up the [info page](../learningresources/General_Functions_Infopage.md) under `Course > Administration > Settings` in the tabs "Metadata", "Info" and "Execution". The more detailed you describe the learning resource, the easier it can be found and the better informed interested parties and later participants are.
+The more thoroughly you describe the learning resource, the more easily interested parties find it and the better informed they and later participants are. You set up the [info page](../learningresources/General_Functions_Infopage.md) under `Course > Administration > Settings` in the tabs "Metadata", "Info" and "Execution".
 
 You define the **Title** (mandatory field, maximum 100 characters) and the **Reference**, for example the name from the course catalog or a printed course catalog, in the ["Metadata" tab](../learningresources/Course_Settings_Metadata.md).
 
 Depending on the learning resource, only some of the tabs are available.
-
-![The four options under Display on info page and below them the roles with their number of people who appear as teachers](assets/course_settings_info_form_v1_en.png){ class="shadow lightbox" title="Info tab of the course settings · 2026.10.09" }
 
 The "Info" tab is divided into four parts, in this order: "Information" with cover image, teaser movie, teaser and description, followed by the sections "Facts", "Display settings" and "Additional information". The display settings and the additional information only exist for courses. For other learning resources, such as a test or a wiki, the tab only shows "Information" and "Facts".
 
@@ -68,6 +66,8 @@ The workload that participants have to expect. The example below the field shows
 With the display settings you determine which sections the info page of your course shows and who appears there as teacher. This way the info page shows exactly what interested parties need for their decision.
 
 A newly created course starts with the default values that administrators define in the [Module Course](../../manual_admin/administration/Modules_Course.md#default_settings). A copy adopts the display settings of the original. The default values in the [Module Course Planner](../../manual_admin/administration/Modules_Course_Planner.md#default_settings) only apply to implementations, not to courses. Implementations in the Course Planner have the same display settings, the differences are described in [Course Planner: Implementations](../area_modules/Course_Planner_Implementations.md#tab_settings_infos).
+
+![The four options under Display on info page and below them the roles with their number of people who appear as teachers](assets/course_settings_info_form_v1_en.png){ class="shadow lightbox" title="Info tab of the course settings · 2026.10.09" }
 
 #### Display on info page {: #display_on_info_page}
 

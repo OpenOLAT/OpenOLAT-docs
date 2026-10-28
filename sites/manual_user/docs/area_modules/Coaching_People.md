@@ -106,7 +106,7 @@ Here you see how far the person has got in their courses. Depending on the right
 
 Here you see when the person attends a course. The first list shows the planned and the attended units per course (columns "Units" and "Attended") as well as the absences. If you click on a course, you see the individual events with "Date", "From", "To", "Event" and "Teachers". This is the only place in the detail view that shows the date and time of an event.
 
-The prerequisites are the activated [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md) and the right "View events and absence". As a line manager or education manager, you moreover only see courses that are assigned to an organisation unit in which you hold this role. The right alone is therefore not sufficient. This is the most frequent cause of an empty list although the right is set.
+The prerequisites are the activated [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md) and the right "View events and absences". As a line manager or education manager, you moreover only see courses that are assigned to an organisation unit in which you hold this role. The right alone is therefore not sufficient. This is the most frequent cause of an empty list although the right is set.
 
 ![Individual events of a course with Date, From and To, after clicking on the course.](assets/coaching_people_lectures_detail_v1_en.png){ class="shadow lightbox" title="Tab Events & Absences of a person" }
 
