@@ -61,7 +61,7 @@ The table shows what the info page consists of, from top to bottom. The column "
 
 Some elements only appear once administrators have switched on the corresponding module in the system administration. The button "Download as PDF" requires the [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator). Administrators switch on rating and comments in the [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md), licenses under [Licenses](../../manual_admin/administration/Licenses.md), subjects in the [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md). Events require the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md). Administrators set up credit points in the [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.md).
 
-The info page does not show technical details such as the ID, the external link and the responsible persons. They are in the window "About this course", see [Toolbar: Info page](../learningresources/Info_page.md#about).
+The info page does not show technical details such as the ID, the external link and the responsible persons. They are in the window "About this course", see [About this course: Open the window](../learningresources/Technical_Information_on_Resources_and_Usage.md#open).
 
 !!! note "Note"
 
@@ -260,7 +260,7 @@ If you have opened a course, select the link "Info page" with the info icon in t
 
 You open the info page of other learning resources in the same way as the info page of courses. In the authoring area, no link leads directly to the info page: open the learning resource and select "Info page" in the toolbar there.
 
-The details on usage, for example in which courses the learning resource is embedded, are not on the info page, but in the window "About this learning resource", see [Toolbar: Info page](../learningresources/Info_page.md#about).
+The details on usage, for example in which courses the learning resource is embedded, are not on the info page, but in the window named after the type of the learning resource, for example "About this test", see [Information on usage](../learningresources/Technical_Information_on_Resources_and_Usage.md#usage).
 
 [To the top of the page ^](#general_functions_info)
 
@@ -277,15 +277,15 @@ The details on usage, for example in which courses the learning resource is embe
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
-[Toolbar: Info page >](../learningresources/Info_page.md)<br>
+[About this course: Technical information and usage >](../learningresources/Technical_Information_on_Resources_and_Usage.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [User tools: Booking orders >](../personal_menu/Bookings.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
+[Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
+[Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Toolbar: My Course >](../learningresources/Toolbar_My_Course.md)<br>
-[Access configuration >](../learningresources/Access_configuration.md)<br>
-[Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
-[Offer concepts >](../basic_concepts/Offer_Concepts.md)
+[Access configuration >](../learningresources/Access_configuration.md)
 
 **Further reading**<br>
 [Course Settings >](../learningresources/Course_Settings.md)<br>

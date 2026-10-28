@@ -27,7 +27,7 @@ If the learning resource is managed by an external system, the reference is show
 
 The kind of learning resource, for example course or test. The type is fixed when the learning resource is created and cannot be changed.
 
-Next to the type, a button opens the window "About this course" with technical details such as the ID, the creator and the owners. For other learning resources, the button is named after their type, for example "About this test". More about this under [About this course](../learningresources/Info_page.md#about) [:octicons-tag-16:{ title="from Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"}.
+Next to the type, a button opens the window "About this course" with technical details such as the ID, the creator and the owners. For other learning resources, the button is named after their type, for example "About this test". More about this under [About this course: Open the window](../learningresources/Technical_Information_on_Resources_and_Usage.md#open) [:octicons-tag-16:{ title="from Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"}.
 
 #### Implementation format {: #educational_type}
 
@@ -72,7 +72,7 @@ In the list in Authoring, the "License" column shows the license of each learnin
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
-[Toolbar: Info page >](../learningresources/Info_page.md)<br>
+[About this course: Technical information and usage >](../learningresources/Technical_Information_on_Resources_and_Usage.md)<br>
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
 [Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
 [Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>

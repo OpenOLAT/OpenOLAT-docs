@@ -24,29 +24,10 @@ Was der Ausdruck enthält und was er weglässt: [Infoseite drucken oder als PDF 
 ---
 
 
-## Über diesen Kurs [:octicons-tag-16:{ title="ab Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"} {: #about}
-
-Wer einen Kurs verwaltet und die ID, den externen Link oder die Besitzer:innen nachschlagen möchte, findet diese Angaben nicht auf der Infoseite, sondern im Fenster "Über diesen Kurs". Sie öffnen es unter:<br>
-`Kurs > Administration > Über diesen Kurs`
-
-Dasselbe Fenster öffnet auch der Button neben dem Feld "Typ" unter `Kurs > Administration > Einstellungen > Tab "Metadaten"`.
-
-Bei anderen Lernressourcen heisst der Menüpunkt nach deren Typ, zum Beispiel "Über diesen Test" oder "Über dieses Formular", sonst "Über diese Lernressource". Den Menüpunkt sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen. Teilnehmende und Betreuer:innen sehen ihn nicht.
-
-![Bereiche Technische Informationen mit Id, Titel, Typ, Technischer Typ, Administrative Freigabe, Externer Link und Produkte sowie Verantwortliche mit Ersteller:in und Besitzer:innen](assets/info_page_about_dialog_v1_de.png){ class="shadow lightbox" title="Fenster Über diesen Kurs · 2026.09.29" }
-
-Was die einzelnen Angaben im Fenster bedeuten, beschreibt die Seite [Über diesen Kurs: Technische Informationen und Verwendung](../learningresources/Technical_Information_on_Resources_and_Usage.de.md).
-
-[Zum Seitenanfang ^](#toolbar_infopage)
-
----
-
-
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
-[Über diesen Kurs: Technische Informationen und Verwendung >](../learningresources/Technical_Information_on_Resources_and_Usage.de.md)
+[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
 
 **Weiterführend**<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>

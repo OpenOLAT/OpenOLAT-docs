@@ -24,29 +24,10 @@ What the printout contains and what it leaves out: [Print the info page or downl
 ---
 
 
-## About this course [:octicons-tag-16:{ title="from Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"} {: #about}
-
-Anyone managing a course who wants to look up the ID, the external link or the owners does not find these details on the info page, but in the window "About this course". You open it under:<br>
-`Course > Administration > About this course`
-
-The button next to the field "Type" under `Course > Administration > Settings > Tab "Metadata"` opens the same window.
-
-For other learning resources, the menu item is named after their type, for example "About this test" or "About this form", otherwise "About this learning resource". The menu item is visible to the owners of the learning resource, learning resource managers and administrators. Participants and coaches do not see it.
-
-![Sections Technical information with ID, title, type, technical type, administrative access, external link and products, and Responsible persons with creator and owners](assets/info_page_about_dialog_v1_en.png){ class="shadow lightbox" title="Window About this course · 2026.09.29" }
-
-The page [About this course: Technical information and usage](../learningresources/Technical_Information_on_Resources_and_Usage.md) describes what the individual details in the window mean.
-
-[To the top of the page ^](#toolbar_infopage)
-
----
-
-
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
-[About this course: Technical information and usage >](../learningresources/Technical_Information_on_Resources_and_Usage.md)
+[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
 
 **Further reading**<br>
 [Course Settings >](../learningresources/Course_Settings.md)<br>

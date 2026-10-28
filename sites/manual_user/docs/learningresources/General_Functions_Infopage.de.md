@@ -61,7 +61,7 @@ Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte
 
 Einige Elemente erscheinen erst, wenn Administrator:innen das zugehörige Modul in der System-Administration eingeschaltet haben. Die Schaltfläche "Als PDF herunterladen" braucht den [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator). Bewertung und Kommentare schalten Administrator:innen im [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md) ein, Lizenzen unter [Lizenzen](../../manual_admin/administration/Licenses.de.md), Fachbereiche im [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md). Termine setzen das [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md) voraus. Kreditpunkte richten Administrator:innen in der [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) ein.
 
-Technische Angaben wie die ID, den externen Link und die Verantwortlichen zeigt die Infoseite nicht. Sie stehen im Fenster "Über diesen Kurs", siehe [Toolbar: Infoseite](../learningresources/Info_page.de.md#about).
+Technische Angaben wie die ID, den externen Link und die Verantwortlichen zeigt die Infoseite nicht. Sie stehen im Fenster "Über diesen Kurs", siehe [Über diesen Kurs: Fenster öffnen](../learningresources/Technical_Information_on_Resources_and_Usage.de.md#open).
 
 !!! note "Hinweis"
 
@@ -260,7 +260,7 @@ Haben Sie einen Kurs geöffnet, wählen Sie den Link "Infoseite" mit dem Info-Sy
 
 Die Infoseite zu sonstigen Lernressourcen rufen Sie gleich auf wie die Infoseite der Kurse. Im Autorenbereich führt kein Link direkt zur Infoseite: Öffnen Sie die Lernressource und wählen Sie dort "Infoseite" in der Toolbar.
 
-Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden ist, stehen nicht auf der Infoseite, sondern im Fenster "Über diese Lernressource", siehe [Toolbar: Infoseite](../learningresources/Info_page.de.md#about).
+Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden ist, stehen nicht auf der Infoseite, sondern im Fenster, das nach dem Typ der Lernressource heisst, zum Beispiel "Über diesen Test", siehe [Information zur Verwendung](../learningresources/Technical_Information_on_Resources_and_Usage.de.md#usage).
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -277,15 +277,15 @@ Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
-[Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
+[Über diesen Kurs: Technische Informationen und Verwendung >](../learningresources/Technical_Information_on_Resources_and_Usage.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Persönliche Werkzeuge: Buchungsaufträge >](../personal_menu/Bookings.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Toolbar: Mein Kurs >](../learningresources/Toolbar_My_Course.de.md)<br>
-[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
-[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
-[Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 
 **Weiterführend**<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>

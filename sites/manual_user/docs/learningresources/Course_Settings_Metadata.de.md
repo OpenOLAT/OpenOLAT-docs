@@ -27,7 +27,7 @@ Wird die Lernressource von einem externen System verwaltet, steht das Kennzeiche
 
 Die Art der Lernressource, zum Beispiel Kurs oder Test. Der Typ ist mit dem Erstellen festgelegt und lässt sich nicht ändern.
 
-Neben dem Typ öffnet ein Button das Fenster "Über diesen Kurs" mit technischen Angaben wie der Id, der Ersteller:in und den Besitzer:innen. Bei anderen Lernressourcen heisst der Button nach deren Typ, zum Beispiel "Über diesen Test". Mehr dazu unter [Über diesen Kurs](../learningresources/Info_page.de.md#about) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"}.
+Neben dem Typ öffnet ein Button das Fenster "Über diesen Kurs" mit technischen Angaben wie der Id, der Ersteller:in und den Besitzer:innen. Bei anderen Lernressourcen heisst der Button nach deren Typ, zum Beispiel "Über diesen Test". Mehr dazu unter [Über diesen Kurs: Fenster öffnen](../learningresources/Technical_Information_on_Resources_and_Usage.de.md#open) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"}.
 
 #### Durchführungsformat {: #educational_type}
 
@@ -72,7 +72,7 @@ In der Liste des Autorenbereichs zeigt die Spalte "Lizenz" die Lizenz jeder Lern
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)<br>
-[Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
+[Über diesen Kurs: Technische Informationen und Verwendung >](../learningresources/Technical_Information_on_Resources_and_Usage.de.md)<br>
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
