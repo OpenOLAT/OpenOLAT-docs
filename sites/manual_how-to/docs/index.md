@@ -8,7 +8,7 @@ hide:
 # How-to guides {: #how_to}
 
 <p class="oo-mh-lede">Each guide leads you step by step through a complete task, from the first click to the result. Choose the task that is in front of you right now.</p>
-<p class="oo-mh-meta">Release 21.0 · Step by step</p>
+<p class="oo-mh-meta">Release 21.1 · Step by step</p>
 
 ## Start here {: #start}
 
@@ -31,7 +31,7 @@ After that:
 - [How do I create an essay question with AI grading?](ai_essay/ai_essay.md)
 - [How can I use the same files in several courses?](multiple_use/multiple_use.md)
 
-<p class="oo-mh-pcard__aside" markdown>Prefer to work together? frentix offers trainings and workshops for authors.<br>[support@frentix.com](mailto:support@frentix.com)</p>
+<p class="oo-mh-pcard__aside" markdown>Prefer to work together? For trainings and workshops for authors, contact frentix.</p>
 
 </div>
 

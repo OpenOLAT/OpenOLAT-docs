@@ -1,7 +1,7 @@
 ---
 ᴴₒᴴₒᴴₒ: true
 title: User manual
-description: The OpenOlat user manual with an entry by role, the introduction for authors and the new features of Release 21.0.
+description: The OpenOlat user manual with an entry by role, the introduction for authors and the new features of Release 21.1.
 hide:
   - toc
 ---
@@ -9,7 +9,7 @@ hide:
 # User manual {: #manual_user}
 
 <p class="oo-mh-lede">The user manual explains what OpenOlat can do and what it is for: courses, tests, groups, roles and the personal menu. The entry shows, per role, which pages to read first. Step-by-step guides are in the how-to.</p>
-<p class="oo-mh-meta">Release 21.0 · Reference</p>
+<p class="oo-mh-meta">Release 21.1 · Reference</p>
 
 <div class="oo-mh-roles" markdown>
 
@@ -97,7 +97,7 @@ The how-to «My first course» leads in ten steps from the Author role to the pu
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> How-to: My first course](../../manual_how-to/my_first_course/my_first_course.md){ .oo-mh-pcard__go }
 
-<p class="oo-mh-pcard__aside" markdown>Prefer to work together? frentix offers trainings and workshops for authors.<br>[support@frentix.com](mailto:support@frentix.com)</p>
+<p class="oo-mh-pcard__aside" markdown>Prefer to work together? For trainings and workshops for authors, contact frentix.</p>
 
 </div>
 
@@ -119,61 +119,63 @@ Once the first course is running: make full use of the settings, add further cou
 
 </div>
 
-## New in 21.0 {: #new_in_21}
+## New in 21.1 {: #new_in_21}
 
 <div class="oo-mh-news" markdown>
 
 <div class="oo-mh-new" markdown>
 
-[Coaching area](../area_modules/Coaching.md){ .oo-mh-new__title }
+[Booking order forms](../area_modules/Course_Planner_Implementations.md#booking_order_forms){ .oo-mh-new__title }
 
-Learning and coaching are two areas.
+Collect additional information when booking.
 
-[Release notes: Separation of learning and supervising/coaching](../../release_notes/Release_notes_21.0.md#separation-of-learning-and-supervisingcoaching){ .oo-mh-new__rn }
-
-</div>
-
-<div class="oo-mh-new" markdown>
-
-[Course grade in the learning path](../learningresources/Course_Settings_Assessment.md#evaluation_with_grades){ .oo-mh-new__title }
-
-Levels/grading at course level.
-
-[Release notes: Learning path: course grade/level at course level](../../release_notes/Release_notes_21.0.md#learning-path-course-gradelevel-at-course-level){ .oo-mh-new__rn }
+[Release notes: Booking forms in the Course Planner](../../release_notes/Release_notes_21.1.md#booking-forms-in-the-course-planner){ .oo-mh-new__rn }
 
 </div>
 
 <div class="oo-mh-new" markdown>
 
-[Gap mixed](../learningresources/Test_question_types.md#gap_mixed){ .oo-mh-new__title }
+[Info page as PDF](../learningresources/General_Functions_Infopage.md#print){ .oo-mh-new__title }
 
-New question type.
+Redesigned, as a flyer with QR code.
 
-[Release notes: «Gap mixed» question type](../../release_notes/Release_notes_21.0.md#gap-mixed-question-type){ .oo-mh-new__rn }
-
-</div>
-
-<div class="oo-mh-new" markdown>
-
-[AI grading](../area_modules/Question_Bank_Create_Questions.md#ai_grading){ .oo-mh-new__title }
-
-Grade free text questions with AI.
-
-[Release notes: Free-text questions with AI grading](../../release_notes/Release_notes_21.0.md#free-text-questions-with-ai-grading){ .oo-mh-new__rn }
+[Release notes: New Info page](../../release_notes/Release_notes_21.1.md#new-info-page){ .oo-mh-new__rn }
 
 </div>
 
 <div class="oo-mh-new" markdown>
 
-[Word and Markdown import](../basic_concepts/Content_Editor.md#markdown){ .oo-mh-new__title }
+[Meeting recording](../learningresources/Course_Element_Microsoft_Teams.md#meeting_recording){ .oo-mh-new__title }
 
-Pages from documents.
+Record and provide Teams meetings.
 
-[Release notes: Import Markdown/Word](../../release_notes/Release_notes_21.0.md#import-markdownword){ .oo-mh-new__rn }
+[Release notes: Recording of Teams online meetings](../../release_notes/Release_notes_21.1.md#recording-of-teams-online-meetings){ .oo-mh-new__rn }
+
+</div>
+
+<div class="oo-mh-new" markdown>
+
+[AI settings](../personal_menu/Settings.md#tab_ai_settings){ .oo-mh-new__title }
+
+Decide on automatic AI yourself.
+
+[Release notes: AI settings](../../release_notes/Release_notes_21.1.md#ai-settings-control-over-automatic-ai-features){ .oo-mh-new__rn }
+
+</div>
+
+<div class="oo-mh-new" markdown>
+
+[Adjusted points](../learningresources/Assessing_tests.md#adjust_score){ .oo-mh-new__title }
+
+Score changes visible in the test.
+
+[Release notes: Adjusted points visible in the test](../../release_notes/Release_notes_21.1.md#adjusted-points-visible-in-the-test){ .oo-mh-new__rn }
 
 </div>
 
 </div>
+
+The new features of release 21.0 are in the [release notes 21.0](../../release_notes/Release_notes_21.0.md).
 
 ## Look up {: #reference}
 

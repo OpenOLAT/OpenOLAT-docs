@@ -1,6 +1,6 @@
 ---
 title: Admin manual
-description: The OpenOlat admin manual with the introduction for administrators in the three phases knowledge, apply and deepen, and what is new in release 21.0.
+description: The OpenOlat admin manual with the introduction for administrators in the three phases knowledge, apply and deepen, and what is new in release 21.1.
 hide:
   - toc
 ---
@@ -8,7 +8,7 @@ hide:
 # Admin manual {: #admin_manual}
 
 <p class="oo-mh-lede">The admin manual explains how you configure, extend and operate an OpenOlat installation. Step-by-step guides are in the how-to.</p>
-<p class="oo-mh-meta">Release 21.0 · Reference</p>
+<p class="oo-mh-meta">Release 21.1 · Reference</p>
 
 !!! note "Installation chapter"
 
@@ -56,7 +56,7 @@ You operate OpenOlat yourself? The installation guide leads from the system user
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> Installation guide](installation/installGuide.md){ .oo-mh-pcard__go }
 
-<p class="oo-mh-pcard__aside" markdown>Rather a ready instance? frentix operates OpenOlat for you and offers training, workshops and coaching for the setup.<br>[support@frentix.com](mailto:support@frentix.com)</p>
+<p class="oo-mh-pcard__aside" markdown>Rather a ready instance? frentix operates OpenOlat for you and offers training, workshops and coaching for the setup. Contact frentix for this.</p>
 
 </div>
 
@@ -81,7 +81,7 @@ Once the installation is running: read reports, set up lifecycles, adapt the wor
 
 </div>
 
-## New in 21.0 {: #new_in_21}
+## New in 21.1 {: #new_in_21}
 
 These functions have to be activated or configured in the system administration after the update.
 
@@ -89,57 +89,57 @@ These functions have to be activated or configured in the system administration 
 
 <div class="oo-mh-new" markdown>
 
-[Coaching module mandatory](administration/e-Assessment_Administration.md#coaching){ .oo-mh-new__title }
+[Landing pages: rules by role](administration/Landing_pages.md#role_based){ .oo-mh-new__title }
 
-`Administration > e-Assessment > Coaching`
+`Administration > Core functions > Landing pages`
 
-[Release Notes: Separation of learning and supervising/coaching](../release_notes/Release_notes_21.0.md#separation-of-learning-and-supervisingcoaching){ .oo-mh-new__rn }
-
-</div>
-
-<div class="oo-mh-new" markdown>
-
-[Rooms module](administration/Modules_Rooms.md){ .oo-mh-new__title }
-
-`Administration > Modules > Rooms`
-
-[Release Notes: New «Rooms» module](../release_notes/Release_notes_21.0.md#new-rooms-module){ .oo-mh-new__rn }
+[Release Notes: Administrative / Technical](../release_notes/Release_notes_21.1.md#administrative-technical){ .oo-mh-new__rn }
 
 </div>
 
 <div class="oo-mh-new" markdown>
 
-[Course Planner: element types and automation](administration/Modules_Course_Planner.md#tab_element_types){ .oo-mh-new__title }
+[SSRF mitigation](administration/Login_Security.md#ssrf){ .oo-mh-new__title }
 
-`Administration > Modules > Course Planner > Tab "Element types"`
+`Administration > Login > Security`
 
-[Release Notes: Element types with automation](../release_notes/Release_notes_21.0.md#element-types-with-automation){ .oo-mh-new__rn }
-
-</div>
-
-<div class="oo-mh-new" markdown>
-
-[AI features](administration/External_Tools_AI.md){ .oo-mh-new__title }
-
-`Administration > External tools > AI module`
-
-[Release Notes: AI features](../release_notes/Release_notes_21.0.md#ai-features){ .oo-mh-new__rn }
+[Release Notes: Administrative / Technical](../release_notes/Release_notes_21.1.md#administrative-technical){ .oo-mh-new__rn }
 
 </div>
 
 <div class="oo-mh-new" markdown>
 
-[One time code (2FA)](administration/Login_Password_and_Authentication.md){ .oo-mh-new__title }
+[AI: Default for users](administration/External_Tools_AI.md#ai_user_default){ .oo-mh-new__title }
 
-`Administration > Login > Password and authentication > Tab "Authentication"`
+`Administration > External tools > AI module > Tab "AI features"`
 
-[Release Notes: Two-factor authentication with One Time Code](../release_notes/Release_notes_21.0.md#two-factor-authentication-with-one-time-code){ .oo-mh-new__rn }
+[Release Notes: AI settings](../release_notes/Release_notes_21.1.md#ai-settings-control-over-automatic-ai-features){ .oo-mh-new__rn }
+
+</div>
+
+<div class="oo-mh-new" markdown>
+
+[Microsoft Teams meeting recording](administration/Teams_module.md#meeting_recording){ .oo-mh-new__title }
+
+`Administration > External tools > Microsoft Teams`
+
+[Release Notes: Recording of Teams online meetings](../release_notes/Release_notes_21.1.md#recording-of-teams-online-meetings){ .oo-mh-new__rn }
+
+</div>
+
+<div class="oo-mh-new" markdown>
+
+[Customer number](administration/Modules_Organisations.md#customer_number){ .oo-mh-new__title }
+
+`Administration > Modules > Organisations > Tab "Configuration"`
+
+[Release Notes: Customer number](../release_notes/Release_notes_21.1.md#customer-number){ .oo-mh-new__rn }
 
 </div>
 
 </div>
 
-The full checklist after the update, with further items on learning resources and the Safe Exam Browser, is in the release notes: [Checklist after updating to 21.0](../release_notes/Release_notes_21.0.md#system-administrators-activate-configure-new-features)
+The full checklist after the update, with further items on the REST API, user properties, the Info page, the account lifecycle and certificates, is in the release notes: [Checklist after updating to 21.1](../release_notes/Release_notes_21.1.md#system-administrators-activate-configure-new-features)
 
 ## Reference {: #reference}
 

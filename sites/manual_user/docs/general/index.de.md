@@ -1,7 +1,7 @@
 ---
 ᴴₒᴴₒᴴₒ: true
 title: Benutzerhandbuch
-description: Das Benutzerhandbuch von OpenOlat mit dem Einstieg nach Rolle, der Einführung für Autor:innen und den Neuerungen in Release 21.0.
+description: Das Benutzerhandbuch von OpenOlat mit dem Einstieg nach Rolle, der Einführung für Autor:innen und den Neuerungen in Release 21.1.
 hide:
   - toc
 ---
@@ -9,7 +9,7 @@ hide:
 # Benutzerhandbuch {: #manual_user}
 
 <p class="oo-mh-lede">Das Benutzerhandbuch erklärt, was OpenOlat kann und wozu es dient: Kurse, Tests, Gruppen, Rollen und das persönliche Menü. Der Einstieg zeigt je Rolle, welche Seiten Sie zuerst lesen. Anleitungen Schritt für Schritt stehen im How-to.</p>
-<p class="oo-mh-meta">Release 21.0 · Nachschlagewerk</p>
+<p class="oo-mh-meta">Release 21.1 · Nachschlagewerk</p>
 
 <div class="oo-mh-roles" markdown>
 
@@ -97,7 +97,7 @@ Das How-to «Mein erster Kurs» führt in zehn Schritten von der Rolle Autor:in 
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> How-to: Mein erster Kurs](../../manual_how-to/my_first_course/my_first_course.de.md){ .oo-mh-pcard__go }
 
-<p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? frentix bietet Schulungen und Workshops für Autor:innen an.<br>[support@frentix.com](mailto:support@frentix.com)</p>
+<p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? Für Schulungen und Workshops für Autor:innen wenden Sie sich an frentix.</p>
 
 </div>
 
@@ -119,61 +119,63 @@ Wenn der erste Kurs läuft: Einstellungen ausreizen, weitere Kursbausteine einse
 
 </div>
 
-## Neu in 21.0 {: #new_in_21}
+## Neu in 21.1 {: #new_in_21}
 
 <div class="oo-mh-news" markdown>
 
 <div class="oo-mh-new" markdown>
 
-[Coaching-Bereich](../area_modules/Coaching.de.md){ .oo-mh-new__title }
+[Formulare für Buchungsaufträge](../area_modules/Course_Planner_Implementations.de.md#booking_order_forms){ .oo-mh-new__title }
 
-Lernen und Betreuen sind zwei Bereiche.
+Beim Buchen zusätzliche Angaben einholen.
 
-[Release Notes: Trennung von Lernen und Betreuen/Coaching](../../release_notes/Release_notes_21.0.de.md#trennung-von-lernen-und-betreuencoaching){ .oo-mh-new__rn }
-
-</div>
-
-<div class="oo-mh-new" markdown>
-
-[Kursnote im Lernpfad](../learningresources/Course_Settings_Assessment.de.md#evaluation_with_grades){ .oo-mh-new__title }
-
-Einstufung auf Kursebene.
-
-[Release Notes: Lernpfad: Kursnote/Einstufung auf Kursebene](../../release_notes/Release_notes_21.0.de.md#lernpfad-kursnoteeinstufung-auf-kursebene){ .oo-mh-new__rn }
+[Release Notes: Buchungsformulare im Course Planner](../../release_notes/Release_notes_21.1.de.md#buchungsformulare-im-course-planner){ .oo-mh-new__rn }
 
 </div>
 
 <div class="oo-mh-new" markdown>
 
-[Lückentext gemischt](../learningresources/Test_question_types.de.md#gap_mixed){ .oo-mh-new__title }
+[Infoseite als PDF](../learningresources/General_Functions_Infopage.de.md#print){ .oo-mh-new__title }
 
-Neuer Fragetyp.
+Neu gestaltet, als Flyer mit QR-Code.
 
-[Release Notes: Fragentyp «Lückentext gemischt»](../../release_notes/Release_notes_21.0.de.md#fragentyp-luckentext-gemischt){ .oo-mh-new__rn }
-
-</div>
-
-<div class="oo-mh-new" markdown>
-
-[KI-Korrektur](../area_modules/Question_Bank_Create_Questions.de.md#ai_grading){ .oo-mh-new__title }
-
-Freitextfragen mit KI bewerten.
-
-[Release Notes: Freitextfragen mit KI-Korrektur](../../release_notes/Release_notes_21.0.de.md#freitextfragen-mit-ki-korrektur){ .oo-mh-new__rn }
+[Release Notes: Neue Infoseite](../../release_notes/Release_notes_21.1.de.md#neue-infoseite){ .oo-mh-new__rn }
 
 </div>
 
 <div class="oo-mh-new" markdown>
 
-[Word- und Markdown-Import](../basic_concepts/Content_Editor.de.md#markdown){ .oo-mh-new__title }
+[Terminaufzeichnung](../learningresources/Course_Element_Microsoft_Teams.de.md#meeting_recording){ .oo-mh-new__title }
 
-Seiten aus Dokumenten.
+Teams-Termine aufzeichnen und bereitstellen.
 
-[Release Notes: Import Markdown/Word](../../release_notes/Release_notes_21.0.de.md#import-markdownword){ .oo-mh-new__rn }
+[Release Notes: Aufzeichnung von Teams-Terminen](../../release_notes/Release_notes_21.1.de.md#aufzeichnung-von-teams-terminen){ .oo-mh-new__rn }
+
+</div>
+
+<div class="oo-mh-new" markdown>
+
+[KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings){ .oo-mh-new__title }
+
+Selbst über automatische KI entscheiden.
+
+[Release Notes: KI-Einstellungen](../../release_notes/Release_notes_21.1.de.md#ki-einstellungen-kontrolle-uber-automatische-ki-funktionen){ .oo-mh-new__rn }
+
+</div>
+
+<div class="oo-mh-new" markdown>
+
+[Angepasste Punkte](../learningresources/Assessing_tests.de.md#adjust_score){ .oo-mh-new__title }
+
+Punkteänderungen im Test sichtbar.
+
+[Release Notes: Angepasste Punkte im Test sichtbar](../../release_notes/Release_notes_21.1.de.md#angepasste-punkte-im-test-sichtbar){ .oo-mh-new__rn }
 
 </div>
 
 </div>
+
+Die Neuerungen von Release 21.0 stehen in den [Release Notes 21.0](../../release_notes/Release_notes_21.0.de.md).
 
 ## Nachschlagen {: #reference}
 

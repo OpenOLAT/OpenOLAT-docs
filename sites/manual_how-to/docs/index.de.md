@@ -8,7 +8,7 @@ hide:
 # How-to-Anleitungen {: #how_to}
 
 <p class="oo-mh-lede">Jede Anleitung führt Schritt für Schritt durch eine ganze Aufgabe, vom ersten Klick bis zum Ergebnis. Wählen Sie die Aufgabe, die gerade vor Ihnen liegt.</p>
-<p class="oo-mh-meta">Release 21.0 · Schritt für Schritt</p>
+<p class="oo-mh-meta">Release 21.1 · Schritt für Schritt</p>
 
 ## Hier beginnen {: #start}
 
@@ -31,7 +31,7 @@ Danach:
 - [Wie erstelle ich eine Freitextfrage mit KI-Auswertung?](ai_essay/ai_essay.de.md)
 - [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](multiple_use/multiple_use.de.md)
 
-<p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? frentix bietet Schulungen und Workshops für Autor:innen an.<br>[support@frentix.com](mailto:support@frentix.com)</p>
+<p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? Für Schulungen und Workshops für Autor:innen wenden Sie sich an frentix.</p>
 
 </div>
 
