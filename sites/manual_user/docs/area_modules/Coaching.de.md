@@ -11,7 +11,8 @@ Verfügbar seit | Release 10.0 (2014)
 Das Coaching Tool dient der **kursübergreifenden** Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, sowie der Korrektur von Assessmentbausteinen, dem Absenzenmanagement und dem externen Korrektoren-Flow von OpenOlat Tests.
 
 Mit dem Coaching Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetreuer:innen, Ausbildungsverantwortliche und andere Berechtigte die Möglichkeit, alle ihnen zugewiesenen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
-![Einstiegsseite Coaching mit markiertem Hauptmenü-Eintrag, den Buttons Personen, Kurse, Bildungsprodukte, Gruppen, den Aufgaben Bewertungsaufträge und Reports, der Auftragsverwaltung und den Widgets.](assets/coaching_tools_v2_de.png){ class="shadow lightbox" }
+
+![Markierter Hauptmenü-Eintrag Coaching, darunter die Buttons Personen, Kurse, Bildungsprodukte und Gruppen, die Aufgaben Bewertungsaufträge und Reports, die Auftragsverwaltung und die Widgets](assets/coaching_tools_v2_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching" }
 
 ---
 
@@ -22,7 +23,9 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 
 * Personen
 * Kurse
+* Bildungsprodukte
 * Gruppen
+* Ausstehende Bestätigungen
 * Termine / Absenzen
 * Bewertungsaufträge
 * Reports
@@ -77,7 +80,7 @@ Sind Sie z.B. nur in einem Kurs direkt Betreuer:in, aber daneben Ausbildungsvera
 
 Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. Damit erhalten Sie eine Vorauswahl. In der Liste befinden sich dann nur noch von Ihnen betreute Personen, die Sie in dieser Rolle betreuen.
 
-![Gewählter Fokus Als Betreuer:in, daneben Als Kursbesitzer:in, die Rollen Untergebene:r und Zu Beurteilende sowie Linienvorgesetzte:r, markiert über der Personenliste im Coaching.](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" }
+![Markierte Fokus-Buttons über der Liste: gewählt ist Als Betreuer:in, daneben Als Kursbesitzer:in, Als Rolle Untergebene:r, Als Rolle Zu Beurteilende und Linienvorgesetzte:r](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" title="Personenliste im Coaching" }
 
 
 [Zum Seitenanfang ^](#coaching)
@@ -90,7 +93,8 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 ### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend beschriebenen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
-![Markierter Trennbereich Übersicht zwischen den Buttons und Aufgaben oben und den Widgets darunter, auf der Einstiegsseite Coaching.](assets/coaching_overview_v1_de.png){ class="shadow lightbox" }
+
+![Pfeil auf den Trennbereich Übersicht unter den Buttons der Bereiche Coaching und Aufgaben](assets/coaching_overview_v1_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching" }
 
 ---
 
@@ -104,7 +108,7 @@ Angezeigt werden nur Termine, in denen Sie selbst als Dozent:in eingetragen sind
 
     Das gleichnamige Widget **Termine** im Course Planner zeigt andere Termine: dort erscheinen Termine aus Bildungsprodukten, für die Sie als Administrator:in, Absenzenverwalter:in, Besitzer:in oder Betreuer:in zuständig sind. Siehe [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
 
-Das Widget erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
+Das Widget erscheint nur, wenn das Modul Termine und Absenzen systemweit eingeschaltet ist.
 
 #### Kopfbereich und Tagesanzeige
 
@@ -129,11 +133,11 @@ Pro Termin werden folgende Informationen angezeigt:
 !!! note "Hinweis"
     In der schmalen (mobilen) Ansicht entfällt die Ortsspalte. Es wird nur die Uhrzeit angezeigt.
 
-![Wochenleiste mit hervorgehobenem heutigem Tag, ein Termineintrag mit Beginn und Dauer sowie der Button Alle anzeigen, im markierten Termine-Widget der Coaching-Übersicht.](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" }
+![Markiertes Widget Termine mit Wochenleiste, hervorgehobenem heutigem Tag, einem Termin mit Beginn und Dauer und dem Button Alle anzeigen](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching" }
 
 #### Leerer Zustand
 
-Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **Keine Termine bis Ende der Woche**. Über die Schaltflächen **Vorheriger Termin** und **Nächster Termin** springen Sie zum nächstgelegenen Termin in der Vergangenheit oder Zukunft.
+Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis "Keine Termine bis Ende der Woche". Über die Schaltflächen "Vorheriger Termin" und "Nächster Termin" springen Sie zum nächstgelegenen Termin in der Vergangenheit oder Zukunft.
 
 !!! info "Wichtig"
     Das Widget fehlt ganz, wenn Sie auf keinem einzigen Termin als Dozent:in eingetragen und kein Master Coach sind. Liegt in der angezeigten Woche kein Termin, erscheint dagegen der Leerzustand.
@@ -153,7 +157,7 @@ Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis **K
 
 Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 
-![Kennzahlen Relevant, Favoriten, Veröffentlicht und Freigabe Betreuer:innen über der Kursliste mit Fortschrittsbalken und dem Button Alle anzeigen, im Kurs-Widget der Coaching-Übersicht.](assets/coaching_widget_courses_v1_de.png){ class="shadow lightbox" }
+![Markiertes Widget Kurse - Als Betreuer:in mit den Kennzahlen Relevant, Favoriten, Veröffentlicht und Freigabe Betreuer:innen, darunter ein Kurs mit Fortschrittsbalken und der Button Alle anzeigen](assets/coaching_widget_courses_v1_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching" }
 
 Über den definierten Filter **"Relevant"** (standardmässig ausgewählt) oder eine der weiteren Filtervarianten erhalten Sie eine entsprechende Vorauswahl [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
@@ -180,6 +184,7 @@ Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen S
 
 ## Weiterführende Informationen {: #further_information}
 
+**Weiterführend**<br>
 [Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
@@ -188,8 +193,6 @@ Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen S
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
-[Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
-[Course Planner: Dashboard >](../area_modules/Course_Planner_Dashboard.de.md)<br>
-[Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)
+[Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)
 
 [Zum Seitenanfang ^](#coaching)

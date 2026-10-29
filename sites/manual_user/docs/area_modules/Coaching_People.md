@@ -4,7 +4,7 @@
 ![Marked button People in the Coaching group leads to the list of all people you coach.](assets/coaching_people1_v2_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.10.26" }
 
 
-![Marked focus buttons As coach, As course owner and Line manager above the people list with courses, visits, progress and success status; which focus buttons appear depends on your roles](assets/coaching_people_who_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.10.26" }
+![Marked scope buttons As coach, As course owner and Line manager above the people list with courses, visits, progress and success status; which scope buttons appear depends on your roles](assets/coaching_people_who_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.10.26" }
 
 
 ## WHOM does the list show? [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374){:target="_blank"} {: #people_who}
@@ -12,7 +12,7 @@
 The menu item "People" in the Coaching Tool shows the list of **all participants you coach**.
 
   * The participants from **all** coached courses are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
-  * Each coach only sees the participants they coach.
+  * Coaches only see the participants they coach.
   * The participants you coach are **grouped and assigned to the roles** you have as coach in relation to them.<br>
   In the example shown above, the coach can access presorted lists that correspond to their roles:
     * as coach
@@ -84,9 +84,9 @@ To write an e-mail to several people, select the relevant people in the first co
 
 ## The detail view of a person {: #person_detail_view}
 
-If you want to know how far a coached person has got in their courses, when they attend a course or since when they have been booked into a course, you find the answer in their detail view. You open the detail view in the people list by clicking on the name or the username of the person. How the detail view is structured depends on the focus button under which you opened the person.
+If you want to know how far a coached person has got in their courses, when they attend a course or since when they have been booked into a course, you find the answer in their detail view. You open the detail view in the people list by clicking on the name or the username of the person. How the detail view is structured depends on the scope button under which you opened the person.
 
-### Under "As coach" and "As course owner" {: #person_detail_view_coach}
+### Under "As coach" and "As course owner" [:octicons-tag-16:{ title="from Release 20.1.2 (OO-8775)" }](https://track.frentix.com/issue/OO-8775){:target="_blank"} {: #person_detail_view_coach}
 
 If you coach a person in your courses, the detail view mainly shows you their courses, so that you can jump from there directly to the evidence of achievement and the assessment tool of a course. There are no tabs in this view. If the Course Planner module is switched on, the switches "All courses" and "Educational products" appear below the details of the person; "Educational products" shows the implementations of the person. In this role, you also see implementations in preparation there in a separate tab "Preparation", and the columns "Progress" and "Timetable" always appear.
 
@@ -184,11 +184,11 @@ Here you see when the account of the person was created and when they last logge
 
 Line managers and education managers find an additional button under People in the Coaching Tool, under which they find all people they are responsible for in their role.
 
-![Marked focus button Line manager next to As coach and As course owner; for education managers, the button Education manager appears in the same place](assets/coaching_people_line_manager1_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.10.26" }
+![Marked scope button Line manager next to As coach and As course owner; for education managers, the button Education manager appears in the same place](assets/coaching_people_line_manager1_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.10.26" }
 
 ### Extended people view [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9168)" }](https://track.frentix.com/issue/OO-9168){:target="_blank"} {: #linemanager_educationmanager_extended_view}
 
-In the people list under the focus "Line manager" or "Education manager", all users of the organisation are displayed, regardless of their role.
+In the people list under the scope "Line manager" or "Education manager", all users of the organisation are displayed, regardless of their role.
 
 If a person has additional roles (more than the author role), an info message with an icon appears in the detail view: **"Due to additional organisational roles, administration is restricted for this person."** In this case:
 
@@ -226,7 +226,7 @@ Whether this button is available is defined in the system administration:<br>
 
 An account created by line managers or education managers automatically contains an assignment of the newly registered person to the organisation unit of the line manager or education manager.
 
-![Marked button Create account at the top right, focus Line manager with the filter tabs All, Relevant, Without courses and To be confirmed.](assets/coaching_people_line_manager2_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.10.26" }
+![Marked button Create account at the top right, scope Line manager with the filter tabs All, Relevant, Without courses and To be confirmed.](assets/coaching_people_line_manager2_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.10.26" }
 
 ---
 
@@ -322,8 +322,8 @@ Open a person and switch to "Educational products". The list shows the implement
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Events and absences in the course >](../learningresources/Events_and_absences.md)<br>
-[e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)<br>
+[e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
 [Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>

@@ -12,7 +12,7 @@ Der Menüpunkt "Kurse" im Coaching Tool zeigt die Lernressourcen, für die Sie z
 * **Als Besitzer:in**: Kurse mit dem Verwendungszweck "Eigenständig" oder "Verwendung im Course Planner", die Sie besitzen.
 * **Weitere Ressourcen** [:octicons-tag-16:{ title="ab Release 20.1.5 (OO-8870)" }](https://track.frentix.com/issue/OO-8870){:target="_blank"}: Lernressourcen mit dem Verwendungszweck "Einbindung" oder "Template", die Sie besitzen, zum Beispiel ein Test, ein Wiki oder eine Kursvorlage.
 
-Ein Fokus erscheint nur, wenn Sie mindestens eine passende Lernressource im Status "Vorbereitung" bis "Beendet" besitzen. Die Fokus-Auswahl selbst wird sichtbar, sobald mehr als ein Fokus für Sie zutrifft. Im oben gezeigten Beispiel stehen alle drei Fokus-Einträge zur Verfügung, gewählt ist "Weitere Ressourcen".
+"Als Betreuer:in" steht immer zur Wahl. Die Fokus-Einträge "Als Besitzer:in" und "Weitere Ressourcen" erscheinen nur, wenn Sie mindestens eine passende Lernressource im Status "Vorbereitung" bis "Beendet" besitzen. Die Fokus-Auswahl selbst wird sichtbar, sobald mehr als ein Fokus für Sie zutrifft. Im oben gezeigten Beispiel stehen alle drei Fokus-Einträge zur Verfügung, gewählt ist "Weitere Ressourcen".
 
 * Es werden die Teilnehmenden aus allen von Ihnen betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
 * Betreuer:innen sehen nur die von ihnen betreuten Teilnehmenden.

@@ -12,7 +12,7 @@
 Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen betreuten** Teilnehmenden.
 
   * Es werden die Teilnehmenden aus **allen** betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
-  * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmenden.
+  * Betreuer:innen sehen nur die von ihnen betreuten Teilnehmenden.
   * Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br>
   Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren Rollen entsprechen:
     * als Betreuer:in
@@ -86,7 +86,7 @@ Um eine E-Mail an mehrere Personen zu schreiben, markieren Sie die betreffenden 
 
 Wollen Sie wissen, wie weit eine betreute Person in ihren Kursen ist, wann sie an einem Kurs teilnimmt oder seit wann sie in einen Kurs eingebucht ist, finden Sie die Antwort in ihrer Detailansicht. Sie öffnen die Detailansicht in der Personenliste mit einem Klick auf den Namen oder den Anmeldenamen der Person. Wie die Detailansicht aufgebaut ist, hängt vom Fokus-Button ab, unter dem Sie die Person geöffnet haben.
 
-### Unter "Als Betreuer:in" und "Als Kursbesitzer:in" {: #person_detail_view_coach}
+### Unter "Als Betreuer:in" und "Als Kursbesitzer:in" [:octicons-tag-16:{ title="ab Release 20.1.2 (OO-8775)" }](https://track.frentix.com/issue/OO-8775){:target="_blank"} {: #person_detail_view_coach}
 
 Betreuen Sie eine Person in Ihren Kursen, zeigt Ihnen die Detailansicht vor allem ihre Kurse, damit Sie von dort direkt in Leistungsnachweis und Bewertungswerkzeug eines Kurses springen. Tabs gibt es in dieser Ansicht nicht. Ist das Modul Course Planner eingeschaltet, stehen unter den Angaben zur Person die Umschalter "Alle Kurse" und "Bildungsprodukte"; "Bildungsprodukte" zeigt die Durchführungen der Person. In dieser Rolle sehen Sie dort auch Durchführungen in Vorbereitung im eigenen Tab "Vorbereitung", und die Spalten "Fortschritt" und "Stundenplan" erscheinen immer.
 
@@ -322,8 +322,8 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Termine und Absenzen im Kurs >](../learningresources/Events_and_absences.de.md)<br>
-[e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)<br>
+[e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
 [Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>

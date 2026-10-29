@@ -11,7 +11,8 @@ Available since | Release 10.0 (2014)
 The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the correction of assessment modules, the absence management and the external corrector flow of OpenOlat tests.
 
 With the Coaching Tool, course owners, course coaches, group coaches, education managers and other authorised persons have the possibility to see and manage all course or group participants assigned to them at a glance. They can then quickly go from these overviews to the assessment tool for individual participants in different ways.
-![Coaching entry page with the marked main menu entry, the buttons People, Courses, Educational products, Groups, the tasks Assessment orders and Reports, the Order management and the widgets.](assets/coaching_tools_v2_en.png){ class="shadow lightbox" }
+
+![Marked main menu entry Coaching, below it the buttons People, Courses, Educational products and Groups, the tasks Assessment orders and Reports, the Order management and the widgets](assets/coaching_tools_v2_en.png){ class="shadow lightbox" title="Coaching entry page" }
 
 ---
 
@@ -22,7 +23,9 @@ You can find access to the data of the persons you coach and the tools under the
 
 * People
 * Courses
+* Educational products
 * Groups
+* Pending confirmations
 * Events / Absences
 * Assessment orders
 * Reports
@@ -70,14 +73,14 @@ Additionally, administrative roles have access.
 ---
 
 
-## The focus elements {: #focus_elements}
+## The scopes {: #focus_elements}
 
 The Coaching Tool often displays a list of the people you are coaching.
 If, for example, you are only a direct coach in one course but also an education manager, you can access all other participants based on this role.
 
-You can select one of your roles using the focus elements above the list. This will give you a preselection. The list will then only contain people you are responsible for in this role.
+You can select one of your roles using the scopes above the list. This will give you a preselection. The list will then only contain people you are responsible for in this role.
 
-![Selected focus As coach, next to it As course owner, the roles Subordinate and To be assessed as well as Line manager, marked above the people list in Coaching.](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" }
+![Marked scope buttons above the list: As coach is selected, next to it As course owner, As role Subordinate, As role To be assessed and Line manager](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" title="People list in Coaching" }
 
 
 [To the top of the page ^](#coaching)
@@ -90,13 +93,14 @@ You can select one of your roles using the focus elements above the list. This w
 ### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
 A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
-![Marked separator area Overview between the buttons and tasks above and the widgets below, on the Coaching entry page.](assets/coaching_overview_v1_en.png){ class="shadow lightbox" }
+
+![Arrow pointing to the separator area Overview below the buttons of the sections Coaching and Tasks](assets/coaching_overview_v1_en.png){ class="shadow lightbox" title="Coaching entry page" }
 
 ---
 
-### The Event widget [:octicons-tag-16:{ title="from Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865) {: #widget_events}
+### The Events widget [:octicons-tag-16:{ title="from Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865) {: #widget_events}
 
-The **Event** widget appears as a tile on the Coaching overview and shows the upcoming events from today until the end of the current week at a glance.
+The **Events** widget appears as a tile on the Coaching overview and shows the upcoming events from today until the end of the current week at a glance.
 
 Displayed are only events in which you are entered as a lecturer yourself, and only from courses with their own event configuration. Events from educational products do not appear here.
 
@@ -104,7 +108,7 @@ Displayed are only events in which you are entered as a lecturer yourself, and o
 
     The widget with the same name **Events** in the Course Planner shows different events: there you see events from educational products for which you are administrator, absence manager, owner or coach. See [Course Planner: Dashboard](Course_Planner_Dashboard.md#widget_events).
 
-The widget only appears if the module **Events and absences** is active system-wide.
+The widget only appears if the module Events and absences is switched on system-wide.
 
 #### Header and day display
 
@@ -129,11 +133,11 @@ Each event shows the following information:
 !!! note "Note"
     In the narrow (mobile) view, the location column is omitted. Only the time is shown.
 
-![Week bar with today highlighted, one event entry with start time and duration and the Show all button, in the marked Event widget of the Coaching overview.](assets/coaching_widget_events_v1_en.png){ class="shadow lightbox" }
+![Marked widget Events with the week bar, today highlighted, one event with start time and duration and the Show all button](assets/coaching_widget_events_v1_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page" }
 
 #### Empty state
 
-If there are no events in the displayed week, the message **No events until the end of the week** appears. Use the **Previous event** and **Next event** buttons to jump to the nearest event in the past or future.
+If there are no events in the displayed week, the message "No events until the end of the week" appears. Use the "Previous event" and "Next event" buttons to jump to the nearest event in the past or future.
 
 !!! info "Important"
     The widget is absent entirely if you are not entered as a lecturer on a single event and are not a master coach. If the displayed week holds no event, the empty state appears instead.
@@ -153,7 +157,7 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-924
 
 The **Courses - As coach** widget shows the courses you coach.
 
-![Key figures Relevant, Favourites, Published and Access for coach, below them the course list with progress bars and the Show all button, in the marked Course widget of the Coaching overview.](assets/coaching_widget_courses_v1_en.png){ class="shadow lightbox" }
+![Marked widget Courses - As coach with the key figures Relevant, Favourites, Published and Access for coach, below them a course with a progress bar and the Show all button](assets/coaching_widget_courses_v1_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page" }
 
 Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
@@ -180,6 +184,7 @@ Below the widgets, the button **"Edit overview"** takes you to the edit mode. Us
 
 ## Further information {: #further_information}
 
+**Further reading**<br>
 [Coaching: User search >](../area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
@@ -188,8 +193,6 @@ Below the widgets, the button **"Edit overview"** takes you to the edit mode. Us
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
 [Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
-[Coaching: Order management >](../area_modules/Coaching_Order_Management.md)<br>
-[Course Planner: Dashboard >](../area_modules/Course_Planner_Dashboard.md)<br>
-[Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
+[Coaching: Order management >](../area_modules/Coaching_Order_Management.md)
 
 [To the top of the page ^](#coaching)
