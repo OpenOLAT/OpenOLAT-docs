@@ -6,14 +6,14 @@
 
 An evidence of achievement summarises all results of a person in a course: per assessable course element with score, status and date, e.g. for completed tests or submitted and assessed tasks.
 
-![Four courses with score, Passed, certificate and ePortfolio action, above them the selection by product or Individual Courses, in the tool Evidence of achievement](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox"}
+![Four courses with score, Passed, certificate and ePortfolio action, above them the selection by product or Individual Courses](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox" title="Tool Evidence of achievement in the personal menu" }
 
 A [PDF certificate](../learningresources/Course_Settings_Assessment_Certificate.md#certificate) can also be issued as confirmation that a course has been attended or that certain course-related activities have been completed. A certificate can also be issued without the use of an evidence of achievement.
 
 
 ## Who awards evidence of achievement? {: #who_awards}
 
-Course owners define in their courses whether participants see their evidence of achievement. They find the option "Show evidence of achievement to participants" under `Course > Administration > Settings > Assessment` (see [Course Settings - Tab Assessment](../learningresources/Course_Settings_Assessment.md)). OpenOlat creates the evidence of achievement regardless of this setting; course owners and coaches always see it in the assessment views, e.g. when resetting course data or during recertification. [:octicons-tag-16:{ title="from Release 19.1.7 (OO-8401)" }](https://track.frentix.com/issue/OO-8401)
+Course owners define in their courses whether participants see their evidence of achievement. They find the option "Show evidence of achievement to participants" under `Course > Administration > Settings > Tab "Assessment"` (see [Course Settings - Tab Assessment](../learningresources/Course_Settings_Assessment.md)). OpenOlat creates the evidence of achievement regardless of this setting; course owners and coaches always see it in the assessment views, e.g. when resetting course data or during recertification. [:octicons-tag-16:{ title="from Release 19.1.7 (OO-8401)" }](https://track.frentix.com/issue/OO-8401)
 
 [To the top of the page ^](#evidence_of_achievements)
 
@@ -29,7 +29,7 @@ Users find their evidence of achievement and, if activated, also their received 
 
 The display in the personal menu is suitable for obtaining a quick overview of all personal evidence of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidence of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Score, Passed, Certificate. If the grading module is active, the "Rating" column shows the achieved grade; it is displayed from the start. The "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
-![Opened column selection with the marked entries Reference and Rating, in the tool Evidence of achievement](assets/pers_menu_evid_of_achiev_columns_v1_en.png){ class="shadow lightbox"}
+![Opened column selection with the marked entries Reference and Rating](assets/pers_menu_evid_of_achiev_columns_v1_en.png){ class="shadow lightbox" title="Column selection in the tool Evidence of achievement" }
 
 If you are a member of a product in the Course Planner, select a product, "Individual Courses" or "All Evidence of Achievements" above the list. [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
 
@@ -42,7 +42,7 @@ In this way, compilations of evidence of achievement can be combined for differe
 
 **External certificates**
 
-You upload externally acquired certificates in the personal tool [Certificates](Certificates.md), provided the administration allows it. Uploaded certificates appear there and not in the list of evidence of achievement. [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
+You upload externally acquired certificates in the personal tool [Certificates](Certificates.md), provided administrators allow it in the system administration: `Administration > e-Assessment > Certificates > Certificates configuration`, option "User can upload external certificate". Uploaded certificates appear there and not in the list of evidence of achievement. [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
 
 [To the top of the page ^](#evidence_of_achievements)
 
@@ -51,13 +51,13 @@ You upload externally acquired certificates in the personal tool [Certificates](
 
 ### View evidence of achievement in the course {: #where_in_course}
 
-If the evidence of achievement is activated in a course, participants find the link "Evidence of achievement" in the toolbar under "My course". A click on it shows the assessable course elements of the course with their current assessment status.
+If the evidence of achievement is activated in a course, participants find the entry "Evidence of achievement" in the toolbar under "My course". A click on it shows the assessable course elements of the course with their current assessment status.
 
-![Entry Evidence of achievement at the top of the opened menu My course, below it To-dos, Notes, Bookmark and a group, in the toolbar of the course](../learningresources/assets/Mein_Kurs_menue_19en.jpg){ class="shadow lightbox" }
+![Entry Evidence of achievement at the top of the opened menu My course, below it To-dos, Notes, Bookmark, Consent, a group and Leave course](../learningresources/assets/additional_course_features_my_course_menu_v1_en.png){ class="shadow lightbox" title="Menu My course in the toolbar · 2026.10.29" }
 
 !!! info "Important"
 
-    The link to the evidence of achievement only appears in the course once at least one assessable course element exists and the participants themselves have received at least one assessment. This can be, for example, the attempted solution of a test or the assessment of a task.
+    The entry "Evidence of achievement" appears in the menu "My course" for participants if the option "Show evidence of achievement to participants" is switched on or the course issues a certificate. Guests do not see the entry, and while an exam in assessment mode is running in the course, it stays hidden.
 
 [To the top of the page ^](#evidence_of_achievements)
 

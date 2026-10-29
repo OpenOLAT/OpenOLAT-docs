@@ -1,11 +1,11 @@
 # Course Settings {: #course_settings}
 
-You can make the configurations that affect the course as a whole under:<br>
+You define the settings that affect the course as a whole under:<br>
 `Course > Administration > Settings`
 
 The "Settings" menu is available to owners of the course, learning resource managers and administrators, and also to persons who have been granted the "Course editor" right in the [Members management](../learningresources/Members_management.md).
 
-![Course settings opened via the Settings entry in the Administration menu, with one tab per settings area](assets/course_settings_menu_v3_en.png){ class="shadow lightbox" title="Administration menu in the course · 2026.10.02" }
+![Administration menu with the entry Settings highlighted; the course settings open with one tab per settings area, from Metadata to Options](assets/course_settings_menu_v4_en.png){ class="shadow lightbox" title="Administration menu in the course · 2026.10.29" }
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Configuring course elements](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
@@ -26,7 +26,7 @@ Available since | Release 13.0 (OO-3706)
 
 ## Tab Metadata {: #metadata}
 
-![Tab "Metadata" active, first in the tab bar](assets/course_settings_tab_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab in the course settings · 2026.10.02" }
+![Tab "Metadata" active, first in the tab bar](assets/course_settings_tab_metadata_v2_en.png){ class="shadow lightbox" title="Metadata tab in the course settings · 2026.10.29" }
 
 Metadata name the course and classify it. The metadata can be used to make your course easier to find, for example. Only the title is mandatory.
 
@@ -48,7 +48,7 @@ Metadata of a course are
 
 ## Tab Info {: #info}
 
-![Tab "Info" active, second in the tab bar](assets/course_settings_tab_info_v1_en.png){ class="shadow lightbox" title="Info tab in the course settings · 2026.10.02" }
+![Tab "Info" active, second in the tab bar](assets/course_settings_tab_info_v2_en.png){ class="shadow lightbox" title="Info tab in the course settings · 2026.10.29" }
 
 Here you define information about the course or learning resource. This includes:
 
@@ -68,8 +68,7 @@ This information is also visible to interested parties without course access on 
 
 ## Tab Execution {: #execution}
 
-![Tab "Execution" active, third in the tab bar](assets/course_settings_tab_execution_v1_en.png){ class="shadow lightbox" title="Execution tab in the course settings · 2026.10.02" }
-
+![Tab "Execution" active, third in the tab bar](assets/course_settings_tab_execution_v2_en.png){ class="shadow lightbox" title="Execution tab in the course settings · 2026.10.29" }
 
 Here you can
 
@@ -84,7 +83,7 @@ Here you can
 
 ## Tab Share {: #share}
 
-![Tab "Share" active, fourth in the tab bar](assets/course_settings_tab_share_v1_en.png){ class="shadow lightbox" title="Share tab in the course settings · 2026.10.02" }
+![Tab "Share" active, fourth in the tab bar](assets/course_settings_tab_share_v2_en.png){ class="shadow lightbox" title="Share tab in the course settings · 2026.10.29" }
 
 In the "Share" tab, you define how and for whom a course or learning resource is released.
 
@@ -116,7 +115,7 @@ Only enter your courses in the catalog once they have been completed and should 
 
 ## Tab Terms of use [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455){:target="_blank"} {: #disclaimer}
 
-![Tab "Disclaimer" active, fifth in the tab bar](assets/course_settings_tab_disclaimer_v1_en.png){ class="shadow lightbox" title="Terms of use tab in the course settings · 2026.10.02" }
+![Tab "Terms of use" active, fifth in the tab bar](assets/course_settings_tab_disclaimer_v2_en.png){ class="shadow lightbox" title="Terms of use tab in the course settings · 2026.10.29" }
 
 Here
 
@@ -128,14 +127,14 @@ can be activated and stored. If a person starts the course, they must first acce
 In the [Members management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions:<br>
 `Course > Administration > Members management > Consents`
 
-![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels](assets/disclaimer_course_v1_en.png){ class="shadow lightbox" title="Form Course related terms of use" }
+![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels; here the privacy policy is switched on](assets/disclaimer_course_v2_en.png){ class="shadow lightbox" title="Form Course related terms of use · 2026.10.29" }
 
 [To the top of the page ^](#course_settings)
 
 
 ## Tab Layout {: #layout}
 
-![Tab "Layout" active, sixth in the tab bar](assets/course_settings_tab_layout_v1_en.png){ class="shadow lightbox" title="Layout tab in the course settings · 2026.10.02" }
+![Tab "Layout" active, sixth in the tab bar](assets/course_settings_tab_layout_v2_en.png){ class="shadow lightbox" title="Layout tab in the course settings · 2026.10.29" }
 
 In the Layout tab you determine how the course looks and how participants move through it. Here you can
 
@@ -158,7 +157,7 @@ In the section "Course element default style" you can define the default present
 
 ## Tab Toolbar {: #toolbar}
 
-![Tab "Toolbar" active, seventh in the tab bar](assets/course_settings_tab_toolbar_v1_en.png){ class="shadow lightbox" title="Toolbar tab in the course settings · 2026.10.02" }
+![Tab "Toolbar" active, seventh in the tab bar](assets/course_settings_tab_toolbar_v2_en.png){ class="shadow lightbox" title="Toolbar tab in the course settings · 2026.10.29" }
 
 Here you can switch the toolbar in the course header on or off and define which specific individual tools are displayed to course participants in the toolbar.
 
@@ -168,7 +167,7 @@ Here you can switch the toolbar in the course header on or off and define which 
 
 ## Tab Assessment {: #assessment}
 
-![Tab "Assessment" active, eighth in the tab bar](assets/course_settings_tab_assessment_v1_en.png){ class="shadow lightbox" title="Assessment tab in the course settings · 2026.10.02" }
+![Tab "Assessment" active, eighth in the tab bar](assets/course_settings_tab_assessment_v2_en.png){ class="shadow lightbox" title="Assessment tab in the course settings · 2026.10.29" }
 
 In the Assessment tab, you can make settings for
 
@@ -183,7 +182,7 @@ In the Assessment tab, you can make settings for
 
 !!! info "Important"
 
-    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the Assessment tab. You set the requirements for passing in the course editor on the top course element in the "Score" tab:<br>
+    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the "Assessment" tab. You set the requirements for passing in the course editor on the top course element in the "Score" tab:<br>
     `Course > Administration > Course editor > top course element > Tab "Score"`
 
     There is no progression for conventional courses.
@@ -196,7 +195,7 @@ In the Assessment tab, you can make settings for
 
 ## Tab Options {: #options}
 
-![Tab "Options" active, last in the tab bar](assets/course_settings_tab_options_v1_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.10.02" }
+![Tab "Options" active, last in the tab bar](assets/course_settings_tab_options_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.10.29" }
 
 Here you activate as required
 

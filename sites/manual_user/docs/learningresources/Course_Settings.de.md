@@ -1,11 +1,11 @@
 # Kurseinstellungen {: #course_settings}
 
-Die Konfigurationen, die den Kurs als Ganzes betreffen, nehmen Sie vor unter:<br>
+Einstellungen, die den Kurs als Ganzes betreffen, legen Sie fest unter:<br>
 `Kurs > Administration > Einstellungen`
 
 Das Menü "Einstellungen" steht Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung, ausserdem Personen, denen in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) das Recht "Kurseditor" erteilt wurde.
 
-![Kurseinstellungen über den Eintrag Einstellungen im Menü Administration geöffnet, mit einem Tab je Einstellungsbereich](assets/course_settings_menu_v3_de.png){ class="shadow lightbox" title="Menü Administration im Kurs · 2026.10.02" }
+![Menü Administration mit markiertem Eintrag Einstellungen; die Kurseinstellungen öffnen mit einem Tab je Einstellungsbereich, von Metadaten bis Optionen](assets/course_settings_menu_v3_de.png){ class="shadow lightbox" title="Menü Administration im Kurs · 2026.10.02" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
@@ -183,7 +183,7 @@ Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 
 !!! info "Wichtig"
 
-    Bei herkömmlichen Kursen sind im Bewertungs-Tab nur die Einstellungen für Leistungsnachweise, Zertifikate und Badges verfügbar. Die Anforderungen für das Bestehen legen Sie im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" fest:<br>
+    Bei herkömmlichen Kursen sind im Tab "Bewertung" nur die Einstellungen für Leistungsnachweise, Zertifikate und Badges verfügbar. Die Anforderungen für das Bestehen legen Sie im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" fest:<br>
     `Kurs > Administration > Kurseditor > oberster Kursbaustein > Tab "Punkte"`
 
     Einen Fortschritt gibt es bei herkömmlichen Kursen nicht.
