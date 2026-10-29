@@ -1,21 +1,21 @@
 # Fragenpool: Fragen verwenden {: #using_the_questions}
 
-Wählen Sie in der Liste mehrere Fragen aus, können Sie die ausgewählten Fragen mit den Buttons am unteren Rand weiter verwenden.
+Sobald Sie in der Liste eine oder mehrere Fragen auswählen, erscheinen über der Liste die Buttons, mit denen Sie die ausgewählten Fragen weiter verwenden.
 
-![Zwei ausgewählte Fragen, darunter die Leiste mit den neun Aktionsbuttons für die Auswahl](assets/question_bank_use_questions_v1_de.png){ class="shadow lightbox" title="Buttons unter der Fragenliste" }
+![Zwei ausgewählte Fragen, darunter die Leiste mit den neun Aktionsbuttons für die Auswahl](assets/question_bank_use_questions_v1_de.png){ class="shadow lightbox" title="Buttons für die ausgewählten Fragen" }
 
 
 ## Listen {: #lists}
 
-Listen gestatten Ihnen die Sammlung von Frageitems nach Ihren persönlichen Kriterien. Wählen Sie dazu unter "Meine Fragen" oder einem Pool die entsprechenden Fragen aus, und klicken Sie im Anschluss auf die Schaltfläche "Listen" unterhalb der Tabelle. Erstellen Sie eine neue Liste oder fügen Sie die Frage einer bestehenden Liste hinzu.
+Listen gestatten Ihnen die Sammlung von Frageitems nach Ihren persönlichen Kriterien. Wählen Sie dazu unter "Meine Fragen" oder einem Pool die entsprechenden Fragen aus, und klicken Sie im Anschluss auf die Schaltfläche "Listen" oberhalb der Tabelle. Erstellen Sie eine neue Liste oder fügen Sie die Frage einer bestehenden Liste hinzu.
 
-![Geöffnetes Menü des Buttons Listen mit Liste erstellen und Zur Liste hinzufügen](assets/question_bank_use_questions_list1_v1_de.png){ class="shadow lightbox" title="Menü Listen unter der Fragenliste" }
+![Geöffnetes Menü des Buttons Listen mit Liste erstellen und Zur Liste hinzufügen](assets/question_bank_use_questions_list1_v1_de.png){ class="shadow lightbox" title="Menü des Buttons Listen" }
 
 Eine Liste ist nur für Sie sichtbar. Wenn Sie eine Frage zu einer Liste hinzufügen, wird diese nur referenziert und nicht kopiert. Änderungen an Fragen, die Sie in einer Liste vornehmen, werden dementsprechend auch im Original unter "Meine Fragen" vorgenommen. Ihre Liste finden Sie im Anschluss links im Menü unterhalb von "Meine Favoriten".
 
 ![Eigene Liste OpenOlat-Training 1 markiert unter Mein Fragenpool unterhalb von Meine Favoriten, rechts die zwei Fragen der Liste](assets/question_bank_use_questions_list2_v1_de.png){ class="shadow lightbox" title="Eigene Liste im Bereich Mein Fragenpool" }
 
-Ist eine Liste geöffnet, erlaubt diese Schaltfläche die entsprechende Liste zu löschen oder umzubenennen. Items werden nicht separat auf Listen gespeichert. Wenn Sie Items von Listen entfernen, werden diese Items nicht aus der Datenbank gelöscht.
+Ist eine Liste geöffnet, enthält das Menü des Buttons "Listen" zusätzlich "Liste umbenennen" und "Liste löschen". Items werden nicht separat auf Listen gespeichert. Wenn Sie Items von Listen entfernen, werden diese Items nicht aus der Datenbank gelöscht.
 
 [Zum Seitenanfang ^](#using_the_questions)
 
@@ -43,7 +43,7 @@ Markierte Fragen können Sie in verschiedene Formate exportieren. Folgende Mögl
 
 Vorab markierte Items können mit dieser Funktion zu Gruppen oder Pools hinzugefügt werden, auf die andere Benutzer:innen Zugriff haben.
 
-![Geöffnetes Menü des Buttons Freigeben mit In Pool freigeben und In Gruppe freigeben](assets/question_bank_use_questions_share1_v1_de.png){ class="shadow lightbox" title="Menü Freigeben unter der Fragenliste" }
+![Geöffnetes Menü des Buttons Freigeben mit In Pool freigeben und In Gruppe freigeben](assets/question_bank_use_questions_share1_v1_de.png){ class="shadow lightbox" title="Menü des Buttons Freigeben" }
 
 **In Gruppe freigeben**
 
@@ -94,7 +94,7 @@ Weitere Informationen zum Konvertieren finden Sie unter "[Von QTI 1.2 zu QTI 2.1
 
 ## Autor:innenrechte {: #rights}
 
-Mit diesem Button fügen Sie weitere Co-Autor:innen hinzu und erteilen ihnen damit Zugriffsrechte zu den selektierten Fragen.
+Mit dem Button "Autor:innenrechte" fügen Sie weitere Co-Autor:innen hinzu und erteilen ihnen damit Zugriffsrechte zu den selektierten Fragen.
 
 In der Detailansicht der Fragen werden die weiteren Autor:innen in den [Metadaten im Abschnitt "Rechte"](Item_Detailed_View.de.md#metadata_rights) angezeigt und können dort auch wieder entfernt werden.
 

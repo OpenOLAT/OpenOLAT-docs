@@ -6,13 +6,13 @@ All questions in the question bank can undergo a review process. This ensures qu
 
 The review process is activated in the system administration: `Administration > e-Assessment > Question bank`. You can find details on the page [e-Assessment Administration: Question bank](../../manual_admin/administration/eAssessment_Question_bank.md).
 
-In order to be able to work with the review process, it is also essential to define a so-called taxonomy structure (also known as subjects). All questions are assigned to a subject. The users of the question bank are given rights to certain subjects. The users have access to these subjects and these subjects are visible in the question bank. In the example below, this is the subject "Mathematics".
+In order to be able to work with the review process, it is also essential to define a so-called taxonomy structure (also known as subjects). All questions are assigned to a subject. The users of the question bank are given rights to certain subjects. The users have access to these subjects and these subjects are visible in the question bank. The figures below show an example subject.
 
-## Process
+## Process [:octicons-tag-16:{ title="from Release 12.3 (OO-3111)" }](https://track.frentix.com/issue/OO-3111){:target="_blank"}
 
 The following graphic shows an exemplary process flow.
 
-![Flow of the review process across the roles teacher, subject group and subject group leader from Draft to Final, on the right the use of the questions in the course.](assets/fragenpool_prozess.png){ class="shadow lightbox" }
+![Flow of the review process across the roles teacher, subject group and subject group leader from Draft to Final, on the right the use of the questions in the course.](assets/fragenpool_prozess.png){ class="shadow lightbox" title="Example flow of the review process" }
 
 The following process steps are therefore depicted in the review process of the question bank:
 
@@ -25,11 +25,11 @@ b) The star rating is sufficient. The defined number of persons has given a suff
 
 The following figure shows the different areas from the process on the left side.
 
-![Menu with the subject Mathematics under My question bank, Review and Final, numbered 1 to 3, above it the status bar from Draft to End of life. Question bank.](assets/fragenpool_bereiche_de.png){ class="shadow lightbox" }
+![Menu with the subject Ornithologie under My question bank, Review and Final, numbered 1 to 3, above it the status bar from Draft to End of life, so you see the three places of one subject](assets/fragenpool_bereiche_en.png){ class="shadow lightbox" title="Areas of a subject in the question bank menu · 2026.10.29" }
 
-1) The subject Mathematics is visible under "My question bank". All your own questions of this subject are shown here. All questions are listed here by status.
+1) The subject is visible under "My question bank". All your own questions of this subject are shown here. All questions are listed here by status.
 
-2) Under "Review" the subject Mathematics is shown again. Questions in the status "Review" are listed here. However, your own questions do not appear here, because you should not review your own questions yourself. The questions of other users with the right Mathematics are listed. Now the questions can be reviewed.
+2) Under "Review" the same subject appears a second time. Questions in the status "Review" are listed here. However, your own questions do not appear here, because you should not review your own questions yourself. Listed are the questions of other users who have rights to this subject. Now the questions can be reviewed.
 
 3) As soon as the review criteria are fulfilled, the question moves to the "Final" area. It is possible that you do not have sufficient rights and therefore do not see the "Final" area. Nevertheless, you can carry out the review as described under 2.
 
@@ -39,9 +39,9 @@ The following figure shows the different areas from the process on the left side
 
 ## Status
 
-If you select a subject under "My question bank", a process flow with different statuses is shown (marked in red). Here you get an overview of which of your questions is in which status.
+If you select a subject under "My question bank", a process flow with different statuses is shown (highlighted in the figure). Here you get an overview of which of your questions is in which status.
 
-![Status bar Draft, Review, Revision, Final and End of life marked in red with the number of questions per status. Subject Mathematics in the question bank.](assets/fragenpool_status_de.png){ class="shadow lightbox" }
+![Highlighted status bar Draft, Review, Revision, Final and End of life with the number of your questions per status in the subject Ornithologie, so you see where your questions stand](assets/fragenpool_status_en.png){ class="shadow lightbox" title="Status bar of a subject in the question bank · 2026.10.29" }
 
   * **Draft:** All questions that are still being edited and have not yet been submitted to the review process. As soon as a question from "My questions" is linked to the corresponding subject, it appears here in the status Draft.
   * **Review:** Here you see all your questions that are currently in the status Review. These questions must therefore be reviewed by the other persons in your subject group. You cannot review your own questions.
@@ -58,13 +58,13 @@ In the "Review" area you can now review the questions of the other persons in yo
 
 Start the review of the question with "Review question".
 
-![Notice box for the status Review with the marked button Review question above the read-only question editor, on the right the Ratings section. Detailed view of a question.](assets/Fragenpool_status_review.png){ class="shadow lightbox" }
+![Notice box for the status Review with the marked button Review question above the read-only question editor, on the right the Ratings section](assets/Fragenpool_status_review.png){ class="shadow lightbox" title="Question in the status Review" }
 
 A dialog then opens:
 
-![Dialog Review with the star rating, the comment field and the buttons Rate and Cancel.](assets/Review_process_rating_EN.png){ class="shadow lightbox" }
+![Dialog Review with the star rating, the comment field and the buttons Rate and Cancel.](assets/Review_process_rating_EN.png){ class="shadow lightbox" title="Dialog for rating a question" }
 
-Here you can now give the star rating and add a comment. Especially if the rating is below the threshold value, a comment is essential. This is the only way the creator of the question has the opportunity to improve the question based on your feedback. Click "Rate" to save your review.
+Here you rate the question with the stars and add a comment. Especially if the rating is below the threshold value, a comment is essential. This is the only way the creator of the question has the opportunity to improve the question based on your feedback. Click "Rate" to save your review.
 
 [To the top of the page ^](#review_process)
 

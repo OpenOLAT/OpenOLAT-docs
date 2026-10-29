@@ -18,7 +18,7 @@ The administration of the question bank comprises five areas for organizing the 
 
 ### Review Process [:octicons-tag-16:{ title="from Release 12.3 (OO-3111)" }](https://track.frentix.com/issue/OO-3111){:target="_blank"} {: #assessment_process}
 
-![Administration area with Review Process marked, on the right the settings decision method, number of reviews per question, star lower limit and visibility of final questions](assets/question_bank_administration_assessment_process_v1_de.png){ class="shadow lightbox" title="Review Process page in the Administration area" }
+![Page Review process with Decision method, Number of ratings per question, the stars as lower limit and Visibility of final questions, so you see where you define when a question is final](assets/question_bank_administration_assessment_process_v1_en.png){ class="shadow lightbox" title="Review Process page in the Administration area · 2026.10.29" }
 
 Here you define when a question receives the status "Final" if a review process has been started for it. If, with the decision method "Lower limit", a rating is below the lower limit specified here, OpenOlat sets the question to "Revision".
 
@@ -28,7 +28,7 @@ Here you define when a question receives the status "Final" if a review process 
 
 ### Subject {: #subject}
 
-![Subject page with the button Create new taxonomy level and the hierarchical table of taxonomy levels with display name, identifier, level type and count](assets/question_bank_administration_subject_v1_de.png){ class="shadow lightbox" title="Subject page in the Administration area" }
+![Subject page with the button Create new taxonomy level and the table of subjects with Level, Reference, External ID and Sublevels, partly expanded, so you see how subjects are nested](assets/question_bank_administration_subject_v1_en.png){ class="shadow lightbox" title="Subject page in the Administration area · 2026.10.29" }
 
 Subjects are used for the subject-related tagging of the questions (items) and are presented in a hierarchical structure. In educational organizations, for example, this represents possible courses of study, in the private sector possibly organizational units.
 
@@ -42,7 +42,7 @@ In order for a question to be submitted to the review process, a subject must be
 
 ### Pool administration {: #pool}
 
-![Pool administration page with the button Create pool and the table of two pools with the checkbox Public, name, Edit, Owners and Delete](assets/question_bank_administration_pool_admin_v1_de.png){ class="shadow lightbox" title="Pool administration page in the Administration area" }
+![Pool administration page with the button Create pool and the table of pools with the columns Public, Name, Edit, Owners and Delete, so you see where you create, edit and restrict the pools](assets/question_bank_administration_pool_admin_v1_en.png){ class="shadow lightbox" title="Pool administration page in the Administration area · 2026.10.29" }
 
 A pool is a question database that is available to authors for the exchange of test questions.
 
@@ -58,7 +58,7 @@ You add these persons to the pool via the "Owners" link. Pools appear in the "Pu
 
 Only administrators and question bank managers with the right for the pool administration create pools. For a group of people they choose themselves, authors instead share their questions with an OpenOlat group. Such group shares appear with the adjacent icon.
 
-![Public shares area with two pools and one group, the symbols for pool and group share are marked](assets/question_bank_administration_pool_type_v1_de.png){ class="shadow lightbox" title="Public shares area in the question bank" }
+![Public shares area with the pools and one group, a pool and the group are marked with their icons, so you tell a pool from a group share by the icon in front of the name](assets/question_bank_administration_pool_type_v1_en.png){ class="shadow lightbox" title="Public shares area in the question bank · 2026.10.29" }
 
 [To the top of the page ^](#question_bank_administration)
 
@@ -78,7 +78,7 @@ Only administrators and question bank managers with the right for the pool admin
 
 ### Type {: #type}
 
-![Type page with the button Create question type and the table of the 16 default question types with type key and translation](assets/question_bank_administration_question_types_v1_de.png){ class="shadow lightbox" title="Type page in the Administration area" }
+![Type page with the button Create type and the table of the question types with type key and translation, so you see which question types exist and where you add one](assets/question_bank_administration_question_types_v1_en.png){ class="shadow lightbox" title="Type page in the Administration area · 2026.10.29" }
 
 OpenOlat has various test [question types](../learningresources/Test_question_types.md) that can be created either in the test editor of the learning resource Test or in the item editor of the question bank. Create additional question types if the default question types of OpenOlat are not sufficient. The default question types cannot be deleted.
 
@@ -86,9 +86,9 @@ A question type deviating from the default cannot be created via the editor, but
 
 Newly created types must be translated per available language so that, for example, both German- and English-speaking users see the correct terms (and not the translation key visible here).
 
-**Create question type**
+**Create type**
 
-After you have created a new question type using the button "Create question type", it appears at the bottom of the table of types, in the column "Translation". The following naming convention is always applied:
+After you have created a new question type using the button "Create type", it appears at the bottom of the table of types, in the column "Translation". The following naming convention is always applied:
 
     item.type.[type name]
 
@@ -112,7 +112,7 @@ Repeat these steps for each language available in your instance.
 
 ### Level {: #level}
 
-![Level page with the button Create level and the three levels Grundstufe, Aufbaustufe and Expertenstufe with translation and Delete](assets/question_bank_administration_level_v1_de.png){ class="shadow lightbox" title="Level page in the Administration area" }
+![Level page with the button Create level and the table of levels with the columns Level, Translation and Delete, so you see where you create and translate the levels](assets/question_bank_administration_level_v1_en.png){ class="shadow lightbox" title="Level page in the Administration area · 2026.10.29" }
 
 Levels are a further categorization option and can be compared, for example, with a difficulty level. Here you create levels that correspond to the training levels available in your context.
 
@@ -137,7 +137,7 @@ In a corporate context, levels could look like this:
 
 You create new levels with the button "Create level" at the top right.
 
-Like question types, levels must also be translated per available language so that, for example, both German- and English-speaking users see the correct terms. To do this, proceed as described under "Create question type".
+Like question types, levels must also be translated per available language so that, for example, both German- and English-speaking users see the correct terms. To do this, proceed as described under "Create type".
 
 [To the top of the page ^](#question_bank_administration)
 

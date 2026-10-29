@@ -4,7 +4,7 @@
 
 ## Übersicht über vorhandene Fragen [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #question_list}
 
-Die Tabellenansicht der Fragen die im Fragenpool abgelegt sind bietet vielfältige Möglichkeiten. Achten Sie darauf, dass alle für Sie relevanten Spalten über das Zahnrad-Symbol ausgewählt sind.
+Die Tabellenansicht der Fragen, die im Fragenpool abgelegt sind, bietet vielfältige Möglichkeiten. Achten Sie darauf, dass alle für Sie relevanten Spalten über das Zahnrad-Symbol ausgewählt sind.
 
 Besonders relevante Fragen können Sie als Favorit markieren und so schnell wiederfinden. Eine weitere Möglichkeit ist, mehrere Fragen in Listen zu organisieren und so eine individuelle Ordnung für Ihre Fragen aufzubauen.
 
@@ -26,7 +26,7 @@ Im Dialog "Frage erstellen" geben Sie einen Titel ein und wählen anschliessend 
 
 ## Fragen mit Hilfe von KI (Künstlicher Intelligenz) erstellen [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #create_with_AI}
 
-Im Fragenpool können Fragen auch mit Hilfe von künstlicher Intelligenz erstellt werden. Über den Eintrag "KI Fragen" öffnen Sie den Generierungsdialog.
+Im Fragenpool können Fragen auch mit Hilfe von künstlicher Intelligenz erstellt werden. Über den Button "KI Fragen" öffnen Sie den Generierungsdialog.
 
 !!! info "Wichtig"
 

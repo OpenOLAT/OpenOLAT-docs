@@ -8,7 +8,7 @@ Die Fragen können mit anderen Personen, die auch Zugriff auf den Pool haben, ge
 
 Ziel ist die Wiederverwendung einmal erstellter Fragen: in Tests, als Quizfrage in einem interaktiven Video oder in einem Kursbaustein vom Typ "Seite", durch Sie selbst oder, nach einer Freigabe, durch andere Autor:innen.
 
-Zugriff auf den Fragenpool haben Autor:innen, Poolverwalter:innen und Administrator:innen. Ihnen zeigt OpenOlat den Fragenpool in der Hauptnavigation an.
+Den Fragenpool öffnen Sie in der Hauptnavigation. Welche Rollen ihn dort sehen, legt die System-Administration auf der Seite [Bereiche](../../manual_admin/administration/Customizing.de.md#sites) in der Spalte "Zugang" fest. In der Standardeinstellung "Autor:innen" sind das Autor:innen, Administrator:innen und Principals. Mit der Einstellung "Autor:innen, Poolmitglieder und Poolverwalter:innen" sehen ihn auch Poolverwalter:innen, die nicht zugleich Autor:innen sind. Passt die Hauptnavigation nicht in die Breite des Bildschirms, steht der Fragenpool im Menü "Mehr".
 
 ![Fragenpool als eigener Eintrag in der Hauptnavigation, links sein Menü mit vier Bereichen, rechts die Willkommensseite](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" title="Startseite des Fragenpools" }
 

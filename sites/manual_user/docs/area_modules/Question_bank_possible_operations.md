@@ -1,21 +1,21 @@
 # Question bank: Use questions {: #using_the_questions}
 
-If you select several questions in the list, you can continue to use the selected questions with the buttons at the bottom.
+As soon as you select one or more questions in the list, the buttons with which you continue to use the selected questions appear above the list.
 
-![Two selected questions, below them the bar with the nine action buttons for the selection](assets/question_bank_operations.png.jpg){ class="shadow lightbox" title="Buttons below the question list" }
+![Two selected questions, below them the bar with the nine action buttons for the selection](assets/question_bank_operations.png.jpg){ class="shadow lightbox" title="Buttons for the selected questions" }
 
 
 ## Lists {: #lists}
 
-Lists allow you to collect question items according to your personal criteria. To do this, select the corresponding questions under "My questions" or a pool and then click the "Lists" button below the table. Create a new list or add the question to an existing list.
+Lists allow you to collect question items according to your personal criteria. To do this, select the corresponding questions under "My questions" or a pool and then click the "Lists" button above the table. Create a new list or add the question to an existing list.
 
-![Open menu of the Lists button with Create list and Add to list](assets/question_bank_use_questions_list1_v1_de.png){ class="shadow lightbox" title="Lists menu below the question list" }
+![Two selected questions, above them the open menu of the Lists button with Create list and Add to list, so you find where you collect questions in a list](assets/question_bank_use_questions_list1_v1_en.png){ class="shadow lightbox" title="Lists menu above the question list · 2026.10.29" }
 
 A list is only visible to you. If you add a question to a list, it is only referenced and not copied. Changes to questions that you make in a list are therefore also made to the original under "My questions". You will then find your list on the left in the menu below "My favorites".
 
-![Own list OpenOlat-Training 1 marked under My question bank below My favorites, on the right the two questions of the list](assets/question_bank_use_questions_list2_v1_de.png){ class="shadow lightbox" title="Own list in the My question bank area" }
+![Own list Swiss geography highlighted under My question bank below My favorites, on the right the two questions of the list, so you find your list again](assets/question_bank_use_questions_list2_v1_en.png){ class="shadow lightbox" title="Own list in the My question bank area · 2026.10.29" }
 
-If a list is open, this button allows you to delete or rename the respective list. Items are not saved separately on lists. If you remove items from lists, these items are not deleted from the database.
+If a list is open, the menu of the "Lists" button additionally contains "Rename list" and "Delete list". Items are not saved separately on lists. If you remove items from lists, these items are not deleted from the database.
 
 [To the top of the page ^](#using_the_questions)
 
@@ -43,7 +43,7 @@ You can export marked questions to different formats. The following options are 
 
 Pre-selected items can be added to groups or pools with this function, to which other users have access.
 
-![Open menu of the Share button with Share with pool and Share with group](assets/question_bank_use_questions_share1_v1_de.png){ class="shadow lightbox" title="Share menu below the question list" }
+![Two selected questions, above them the open menu of the Share button with Share with pool and Share with group, so you find where you share questions](assets/question_bank_use_questions_share1_v1_en.png){ class="shadow lightbox" title="Share menu above the question list · 2026.10.29" }
 
 **Share with group**
 
@@ -51,7 +51,7 @@ Group members of the groups you have selected will then have access to the corre
 
 If one or more questions have been shared with one or more groups, the group names appear in the menu of the question bank under "Public shares".
 
-![Public shares area marked with two pools and the group Study group 2, with which questions have been shared](assets/question_bank_use_questions_share_in_group_v1_de.png){ class="shadow lightbox" title="Public shares area in the question bank" }
+![Highlighted area Public shares with its pools and the highlighted group Handbook 740 Calendar, so you find the groups with which questions have been shared](assets/question_bank_use_questions_share_in_group_v1_en.png){ class="shadow lightbox" title="Public shares area in the question bank · 2026.10.29" }
 
 **Share with pool**
 
@@ -94,7 +94,7 @@ For more information on converting, see "[Changing from QTI 1.2 to QTI 2.1](../l
 
 ## Author rights {: #rights}
 
-Use this button to add further co-authors and grant them access rights to the selected questions.
+Use the "Author rights" button to add further co-authors and grant them access rights to the selected questions.
 
 In the detailed view of the questions, the other authors are displayed in the [metadata in the "Rights" section](Item_Detailed_View.md#metadata_rights) and can also be removed there.
 
@@ -116,13 +116,13 @@ Meta information on questions can be adjusted here or in the [detailed view](Ite
 
 The "Change metadata" button can be used to adjust individual pieces of information for several items at the same time without opening the detailed view of the questions. However, these changes cannot be undone here.
 
-![Dialog Change metadata for 2 selected questions with a checkbox per metadata field in the sections General, Item analysis and Rights](assets/question_bank_use_questions_metadata1_v1_de.png){ class="shadow lightbox" title="Dialog Change metadata" }
+![Dialog Change metadata for 2 selected questions with a checkbox per field in General, Item analysis, Rights and Technical, so you see which fields you change at once](assets/question_bank_use_questions_metadata1_v1_en.png){ class="shadow lightbox" title="Dialog Change metadata · 2026.10.29" }
 
 For further adjustments, each question must be called up individually.
 
 Click on the "+" icon at the beginning of a row in the question list. The preview of this item and the menu for the metadata of this question open.
 
-![Row expanded via the plus icon with the preview of the question Zugangswege and the metadata sections on the right](assets/question_bank_use_questions_metadata2_v1_de.png){ class="shadow lightbox" title="Expanded row in the question list" }
+![Highlighted plus icons and a row expanded with them, with the preview of the question and the metadata sections on the right, so you check a question without opening it](assets/question_bank_use_questions_metadata2_v1_en.png){ class="shadow lightbox" title="Expanded row in the question list · 2026.10.29" }
 
 Further information on the individual metadata can be found in the chapter [Item Detailed View - Metadata](Item_Detailed_View.md#metadata).
 

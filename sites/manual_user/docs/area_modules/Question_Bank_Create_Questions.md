@@ -26,7 +26,7 @@ In the dialog "Create question" you enter a title and then select the question t
 
 ## Create questions with AI (Artificial Intelligence) [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #create_with_AI}
 
-In the question bank, questions can also be created with the help of artificial intelligence. The "AI questions" entry opens the generation dialog.
+In the question bank, questions can also be created with the help of artificial intelligence. The "AI questions" button opens the generation dialog.
 
 !!! info "Important"
 
@@ -82,7 +82,7 @@ Once the first version of a question has been created, it can be submitted to a 
 
 ## Share question in the pool [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share_in_pool}
 
-![Open Share menu with Export, Share with pool and Share with group](assets/question_create_share_in_pool_v1_de.png){ class="shadow lightbox" title="Share menu in the detail view of a question" }
+![Open menu Share in the detail view of a question with Export, Share with pool and Share with group, so you find where you share your question with a pool](assets/question_create_share_in_pool_v1_en.png){ class="shadow lightbox" title="Share menu in the detail view of a question · 2026.10.29" }
 
 Question bank managers can create several pools. As the author of a question, you decide in which pool you share your question: `Share > Share with pool`.
 

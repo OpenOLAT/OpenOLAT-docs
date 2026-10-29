@@ -8,9 +8,9 @@ The questions can be shared with other people who also have access to the pool.
 
 The goal is the reuse of questions that have already been created: in tests, as a quiz question in an interactive video or in a course element of the "Page" type, by yourself or, after sharing, by other authors.
 
-Authors, question bank managers and administrators have access to the question bank. OpenOlat shows them the question bank in the main navigation.
+You open the question bank in the main navigation. Which roles see it there is set by the system administration on the page [Sites](../../manual_admin/administration/Customizing.md#sites) in the column "Access". With the default setting "Authors only", these are authors, administrators and principals. With the setting "Authors, question bank admins and members", question bank managers who are not also authors see it too. If the main navigation does not fit the width of the screen, the question bank appears in the "More" menu.
 
-![Question bank as its own entry in the main navigation, on the left its menu with four areas, on the right the welcome page](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" title="Start page of the question bank" }
+![Open menu More of the main navigation with the entry Question bank, on the left the four areas of the question bank, so you know where you open it and which areas it offers](assets/question_bank_navigation1_v1_en.png){ class="shadow lightbox" title="Start page of the question bank · 2026.10.29" }
 
 ## Profile
 
@@ -77,7 +77,7 @@ The area "Questions" is shown to administrators and to question bank managers wh
 
 In the "Administration" area, administrators and [question bank managers](Question_Bank_Administration.md#pool_manager) set up the question bank, for example the pools, the subjects and the question types. Question bank managers only see the settings for which the system administration has granted them the right.
 
-![Expanded area Administration with Review Process, Subject, Pool administration, Type and Level, on the right the settings of the review process](assets/question_bank_navigation_administration_v1_de.png){ class="shadow lightbox" title="Administration area of the question bank" }
+![Highlighted area Administration with Review Process, Subject, Pool administration, Type and Level, so you find the five settings areas of the question bank](assets/question_bank_navigation_administration_v1_en.png){ class="shadow lightbox" title="Administration area of the question bank · 2026.10.29" }
 
 
 [See the details >](Question_Bank_Administration.md)<br>
