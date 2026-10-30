@@ -44,7 +44,7 @@ Auf der Infoseite eines Kurses können Benutzer:innen einen Kommentar schreiben.
 
 Dafür zeigt die Infoseite unten ein Eingabefeld.
 
-![Hervorgehobener Bereich Kommentar mit dem Eingabefeld "Schreiben Sie einen Kommentar..."](assets/modules_repository_course_comment_v2_de.png){ class="shadow lightbox" title="Infoseite eines Kurses" }
+![Hervorgehobener Bereich Kommentare mit dem Eingabefeld "Schreiben Sie einen Kommentar..."](assets/modules_repository_course_comment_v3_de.png){ class="shadow lightbox" title="Infoseite eines Kurses · 2026.10.30" }
 
 Ob das Eingabefeld erscheint, schalten Administrator:innen in diesem Modul mit dem Kontrollkästchen "Kommentar" systemweit ein oder aus.
 
@@ -57,7 +57,7 @@ Ob das Eingabefeld erscheint, schalten Administrator:innen in diesem Modul mit d
 
 Auf der Infoseite eines Kurses können Benutzer:innen den Kurs auch mit Sternen bewerten. Die Sterne stehen im Bereich "Bewertung".
 
-![Hervorgehobene Bewertung mit fünf anklickbaren Sternen](assets/modules_repository_course_review_v2_de.png){ class="shadow lightbox" title="Infoseite eines Kurses" }
+![Hervorgehobene Bewertung mit fünf anklickbaren Sternen](assets/modules_repository_course_review_v3_de.png){ class="shadow lightbox" title="Infoseite eines Kurses · 2026.10.30" }
 
 Ob die Sterne zur Bewertung eines Kurses erscheinen, schalten Administrator:innen in diesem Modul mit dem Kontrollkästchen "Bewertung" systemweit ein oder aus.
 

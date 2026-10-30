@@ -44,7 +44,7 @@ On the info page of a course, users can write a comment. They open the info page
 
 For this, the info page shows an input field at the bottom.
 
-![Input field for a comment highlighted](assets/modules_repository_course_comment_v1_en.png){ class="shadow lightbox" title="Info page of a course" }
+![Highlighted Comments area with the input field "Leave a comment..."](assets/modules_repository_course_comment_v2_en.png){ class="shadow lightbox" title="Info page of a course · 2026.10.30" }
 
 Whether the input field appears, administrators switch on or off system-wide in this module with the checkbox "Comment".
 
@@ -57,7 +57,7 @@ Whether the input field appears, administrators switch on or off system-wide in 
 
 On the info page of a course, users can also rate the course with stars. The stars are in the area "Rating".
 
-![Rating with five clickable stars highlighted](assets/modules_repository_course_review_v1_en.png){ class="shadow lightbox" title="Info page of a course" }
+![Highlighted Rating with five clickable stars](assets/modules_repository_course_review_v2_en.png){ class="shadow lightbox" title="Info page of a course · 2026.10.30" }
 
 Whether the stars for rating a course appear, administrators switch on or off system-wide in this module with the checkbox "Rating".
 
