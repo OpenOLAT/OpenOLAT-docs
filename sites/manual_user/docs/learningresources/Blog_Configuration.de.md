@@ -8,7 +8,7 @@ Nachdem Sie im Kurseditor einen Kursbaustein "Blog" eingefügt haben, finden Sie
 
 Die Einstellungen zur Darstellung sind je nach Kurstyp in den Tabs "Sichtbarkeit" und "Zugang" (herkömmliche Kurse) bzw. "Layout" und "Lernpfad" (Lernpfad-Kurse) möglich.
 
-![Tab Blog-Lerninhalt des Kursbausteins Blog, worin die Blog-Lernressource ausgewählt, ihre Metadaten übernommen und die Berechtigungen für Moderation und Beitragserstellung festgelegt werden](assets/blog_configuration_tab_content_v1_de.png){ class="shadow lightbox" }
+![Tab Blog-Lerninhalt des Kursbausteins Blog, worin die Blog-Lernressource ausgewählt, ihre Metadaten übernommen und die Berechtigungen für Moderation und Beitragserstellung festgelegt werden](assets/blog_configuration_tab_content_v1_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor" }
 
 
 
@@ -21,9 +21,11 @@ Wurde noch keine Blog-Lernressource eingefügt, besteht die Auswahl zwischen
 * einen externen Blog verlinken
 * einen als Datei vorhandenen Blog importieren
 
+Einen externen Blog binden Sie mit "Per URL einbinden" über die Adresse seines Feeds ein. Der Feed muss über das öffentliche Internet erreichbar sein, denn OpenOlat ruft ihn vom Server aus ab. Ist in der System-Administration unter `Administration > Login > Sicherheit` der Schutz "SSRF Mitigation" eingeschaltet, ruft OpenOlat keinen Feed aus dem lokalen Netz ab, etwa von einem Server im Netz Ihrer Organisation, siehe [Sicherheit](../../manual_admin/administration/Login_Security.de.md#ssrf). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310){:target="_blank"}
+
 Ist einmal eine Lernressource eingefügt, wird der Button "Ersetzen" angezeigt, um die Lernressource austauschen zu können. Ausserdem können Sie von hier aus die Blog-Lernressource auch direkt bearbeiten.
 
-![Button Ersetzen mit den Optionen Erstellen, Import und Per URL einbinden, dazu Link Lernressource bearbeiten im Bereich Blog auswählen](assets/blog_configuration_replace_v1_de.png){ class="shadow lightbox" }
+![Button Ersetzen mit den Optionen Erstellen, Import und Per URL einbinden, dazu Link Lernressource bearbeiten im Bereich Blog auswählen](assets/blog_configuration_replace_v1_de.png){ class="shadow lightbox" title="Bereich Blog auswählen im Tab Blog-Lerninhalt" }
 
 
 !!! info "Wichtig"
@@ -45,7 +47,7 @@ Auf Ebene des Kursbausteins kann bestimmt werden, ob neben dem/der Kursbesitzer:
 
 Schalten Sie den Toggle-Button "Erweiterte Konfiguration anzeigen" ein, besteht die Möglichkeit, die Moderatorenrolle auf bestimmte Zeiträume zu begrenzen. Ausserdem können Sie hier auch gezielt bestimmte Einzelpersonen (unabhängig von deren Rolle) als Moderator:in bestimmen.
 
-![Erweiterte Konfiguration der Moderatorenrolle mit Beginn und Ende je Eintrag, hier für die Rolle Betreuer:innen, im Bereich Berechtigungen](assets/blog_configuration_tab_content_moderator_v1_de.png){ class="shadow lightbox" }
+![Erweiterte Konfiguration der Moderatorenrolle mit Beginn und Ende je Eintrag, hier für die Rolle Betreuer:innen, im Bereich Berechtigungen](assets/blog_configuration_tab_content_moderator_v1_de.png){ class="shadow lightbox" title="Bereich Berechtigungen im Tab Blog-Lerninhalt" }
 
 **Beiträge erstellen**<br>
 
@@ -57,7 +59,7 @@ Hier wird definiert, welche Personengruppen des Kurses Blogbeiträge erstellen d
 
 Schalten Sie den Toggle-Button "Erweiterte Konfiguration anzeigen" ein, besteht auch hier die Möglichkeit, das Recht zum Erstellen von Beiträgen auf bestimmte Zeiträume zu begrenzen. 
 
-![Erweiterte Konfiguration für Beiträge erstellen mit Beginn und Ende je Rolle, hier für Betreuer:innen und Teilnehmer:innen, im Bereich Berechtigungen](assets/blog_configuration_tab_content_rights_v1_de.png){ class="shadow lightbox" }
+![Erweiterte Konfiguration für Beiträge erstellen mit Beginn und Ende je Rolle, hier für Betreuer:innen und Teilnehmer:innen, im Bereich Berechtigungen](assets/blog_configuration_tab_content_rights_v1_de.png){ class="shadow lightbox" title="Bereich Berechtigungen im Tab Blog-Lerninhalt" }
 
 
 ## Konfiguration der Lernressource "Blog" {: #blog_configuration_learningresource}
@@ -69,7 +71,7 @@ Zur Konfiguration der Blog-Lernressource können Sie
 
 Wählen Sie dann `Administration > Einstellungen`. In den hier angezeigten Tabs konfigurieren Sie die Blog-Lernressource. Die hier gemachten Einstellungen werden in alle Kurse bzw. Kursbausteine übernommen, in denen Sie die Blog-Lernressource einbinden.
 
-![Tabs Info, Metadaten, Freigabe, Quota und Optionen zur Konfiguration der Blog-Lernressource im Bereich Administration, Einstellungen](assets/blog_configuration_resource_tabs_v1_de.png){ class="shadow lightbox" }
+![Tabs Info, Metadaten, Freigabe, Quota und Optionen zur Konfiguration der Blog-Lernressource im Bereich Administration, Einstellungen](assets/blog_configuration_resource_tabs_v1_de.png){ class="shadow lightbox" title="Einstellungen der Blog-Lernressource" }
 
 **Info**<br>
 Hier machen Sie Angaben über Titel, Beschreibung oder Titelbild der Blog-Lernressource.
@@ -97,6 +99,7 @@ Sie können hier erlauben oder unterbinden, dass Blogbeiträge kommentiert und b
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Bloggen >](../learningresources/Blog_Blogging.de.md)<br>
 [Blog erstellen >](../learningresources/Blog_Create.de.md)<br>
 [Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>

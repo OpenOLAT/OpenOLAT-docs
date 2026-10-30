@@ -9,7 +9,7 @@ Wie viel Schutz eine Instanz braucht, hängt von den Anforderungen Ihrer Organis
 
 Im Tab "Konfiguration" schalten Sie die Sicherheitsfunktionen für die ganze Instanz ein oder aus. Mit "Speichern" übernehmen Sie die Änderungen.
 
-![Alle Sicherheitsfunktionen von Dateidownload bis Content Security Policy, hervorgehoben die Checkbox SSRF Mitigation mit dem Hinweis zu lokalen Adressen](assets/login_security_tab_config_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration auf der Seite Sicherheit · 2026.10.20" }
+![Der ganze Tab Konfiguration mit allen Sicherheitsfunktionen von Dateidownload über SSRF Mitigation bis Content Security Policy und den Eingabefeldern der Direktiven](assets/login_security_tab_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration auf der Seite Sicherheit · 2026.10.30" }
 
 
 ### Dateien in Ordnern {: #files}
@@ -49,7 +49,7 @@ An mehreren Stellen tragen Personen in OpenOlat eine Internetadresse ein, die da
 Der Schutz prüft die Adressen, die Personen selbst eingeben:
 
 - Kalender, die per URL importiert werden, und ihr regelmässiger Abgleich, siehe [Kalender](../../manual_user/personal_menu/Calendar.de.md#add_to_list)
-- externe Blogs und Podcasts, siehe [Vier Schritte zu Ihrem Blog](../../manual_user/resource_blog/Four_Steps_to_Your_Blog.de.md) und [Vier Schritte zu Ihrem Podcast](../../manual_user/resource_podcast/Four_Steps_to_Your_Podcast.de.md)
+- externe Blogs und Podcasts, siehe [Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md#external_blog) und [Wie erstelle ich einen Podcast?](../../manual_how-to/podcast/podcast.de.md)
 - den Kursbaustein "Externe Seite" in der Darstellung "Eingebettet (Quelle verborgen)", siehe [Kursbaustein "Externe Seite"](../../manual_user/learningresources/Course_Element_External_Page.de.md)
 - die Bereiche "Externe Seite n°1" und "Externe Seite n°2" mit gewählter Checkbox "iFrame", siehe [Customizing](Customizing.de.md#sites)
 - LTI, Videos aus einer URL, die Prüfung eines Badges und Bilder aus dem Netz beim Markdown-Import in den Content Editor
@@ -60,7 +60,7 @@ Dienste, deren Adresse die Administration hinterlegt hat, prüft der Schutz nich
 
 Läuft der ausgehende Verkehr des Servers über einen Proxy, löst der Proxy die Hostnamen auf, nicht OpenOlat. OpenOlat prüft dann nur noch das Protokoll und Adressen, die als IP-Adresse in der URL stehen. Die Prüfung der Hostnamen muss in diesem Fall der Proxy übernehmen. Adressen, die laut Serverkonfiguration am Proxy vorbeigehen, prüft OpenOlat vollständig.
 
-Einzelne IP-Adressen, Adressbereiche und Hostnamen lassen sich trotz eingeschaltetem Schutz freigeben, zum Beispiel ein Kalenderserver im Netz Ihrer Organisation. Diese Ausnahmen haben kein Eingabefeld in der Oberfläche. Sie sind Teil der Serverkonfiguration und gelten nach einer Änderung erst ab dem nächsten Neustart. Dorthin gehört auch der eigene Hostname, wenn der Server ihn auf eine lokale Adresse auflöst: sonst weist der Schutz auch das Abonnement eines Kalenders derselben Instanz ab. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Einzelne IP-Adressen, Adressbereiche und Hostnamen lassen sich trotz eingeschaltetem Schutz freigeben, zum Beispiel ein Kalenderserver im Netz Ihrer Organisation. Diese Ausnahmen haben kein Eingabefeld in der Oberfläche. Sie sind Teil der Serverkonfiguration und gelten nach einer Änderung erst ab dem nächsten Neustart. Dorthin gehört auch der eigene Hostname, wenn der Server ihn auf eine lokale Adresse auflöst: sonst weist der Schutz auch das Abonnement eines Kalenders derselben Instanz ab. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support.
 
 
 ### Content Security Policy [:octicons-tag-16:{ title="ab Release 12.4.1 (OO-3415)" }](https://track.frentix.com/issue/OO-3415) {: #csp}
@@ -118,8 +118,8 @@ Im Tab "Medien-Server" legen Sie fest, von welchen Plattformen Personen Videos �
 
 **Auf dieser Seite erwähnt**<br>
 [Persönliche Werkzeuge: Kalender >](../../manual_user/personal_menu/Calendar.de.md)<br>
-[Vier Schritte zu Ihrem Blog >](../../manual_user/resource_blog/Four_Steps_to_Your_Blog.de.md)<br>
-[Vier Schritte zu Ihrem Podcast >](../../manual_user/resource_podcast/Four_Steps_to_Your_Podcast.de.md)<br>
+[Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
+[Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
 [Kursbaustein "Externe Seite" >](../../manual_user/learningresources/Course_Element_External_Page.de.md)<br>
 [Customizing: Übersicht >](Customizing.de.md)
 

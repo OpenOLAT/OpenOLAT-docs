@@ -8,7 +8,7 @@ After you have inserted a course element "Blog" in the course editor, you will f
 
 Depending on the course type, the display settings are possible in the tabs "Visibility" and "Access" (conventional courses) or "Layout" and "Learning path" (learning path courses).
 
-!["Blog learning content" tab of the course element "Blog", where the blog learning resource is selected, its metadata is adopted, and the permissions for moderation and post creation are defined](assets/blog_configuration_tab_content_v1_de.png){ class="shadow lightbox" }
+!["Blog learning content" tab of the course element "Blog", where the blog learning resource is selected, its metadata is adopted, and the permissions for moderation and post creation are defined](assets/blog_configuration_tab_content_v1_de.png){ class="shadow lightbox" title="Blog learning content tab in the course editor" }
 
 
 
@@ -21,9 +21,11 @@ If no blog learning resource has been added yet, you can choose between
 * Linking an external blog
 * Importing an existing blog as a file
 
+You embed an external blog with "Embed via URL" through the address of its feed. The feed must be reachable via the public internet, because OpenOlat retrieves it from the server. If the "SSRF mitigation" protection is switched on in the system administration under `Administration > Login > Security`, OpenOlat does not retrieve a feed from the local network, for example from a server in the network of your organisation, see [Security](../../manual_admin/administration/Login_Security.md#ssrf). [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310){:target="_blank"}
+
 Once a learning resource has been inserted, the "Replace" button is displayed so that the learning resource can be replaced. You can also edit the blog learning resource directly from here.
 
-![Button "Replace" with the options "Create", "Import" and "Embed via URL", plus the link "Edit learning resource" in the "Select blog" section](assets/blog_configuration_replace_v1_de.png){ class="shadow lightbox" }
+![Button "Replace" with the options "Create", "Import" and "Embed via URL", plus the link "Edit learning resource" in the "Select blog" section](assets/blog_configuration_replace_v1_de.png){ class="shadow lightbox" title="Select blog section in the Blog learning content tab" }
 
 
 !!! info "Important"
@@ -45,7 +47,7 @@ At course element level, you can determine whether coaches can take on the [mode
 
 If you activate the toggle button "Show advanced configuration", you have the option of limiting the moderator role to certain time periods. You can also designate specific individuals (regardless of their role) as moderators.
 
-![Advanced configuration of the moderator role with start and end date per entry, here for the coach role, in the Permissions section](assets/blog_configuration_tab_content_moderator_v1_de.png){ class="shadow lightbox" }
+![Advanced configuration of the moderator role with start and end date per entry, here for the coach role, in the Permissions section](assets/blog_configuration_tab_content_moderator_v1_de.png){ class="shadow lightbox" title="Permissions section in the Blog learning content tab" }
 
 **Create posts**<br>
 
@@ -57,7 +59,7 @@ This defines which groups of people in the course are allowed to create blog pos
 
 If you activate the "Show advanced configuration" toggle button, you also have the option of limiting the right to create posts to certain time periods.
 
-![Advanced configuration for creating posts with start and end date per role, here for coaches and participants, in the Permissions section](assets/blog_configuration_tab_content_rights_v1_de.png){ class="shadow lightbox" }
+![Advanced configuration for creating posts with start and end date per role, here for coaches and participants, in the Permissions section](assets/blog_configuration_tab_content_rights_v1_de.png){ class="shadow lightbox" title="Permissions section in the Blog learning content tab" }
 
 
 ## Configuration of the "Blog" learning resource {: #blog_configuration_learningresource}
@@ -69,7 +71,7 @@ To configure the blog learning resource, you can
 
 Then select `Administration > Settings`. Configure the blog learning resource in the tabs displayed here. The settings made here are applied to all courses or course elements in which you integrate the blog learning resource.
 
-![Info, Metadata, Sharing, Quota and Options tabs for configuring the blog learning resource in the Administration, Settings section](assets/blog_configuration_resource_tabs_v1_de.png){ class="shadow lightbox" }
+![Info, Metadata, Sharing, Quota and Options tabs for configuring the blog learning resource in the Administration, Settings section](assets/blog_configuration_resource_tabs_v1_de.png){ class="shadow lightbox" title="Settings of the blog learning resource" }
 
 **Info**<br>
 Here you enter the title, description or cover image of the blog learning resource.
@@ -97,6 +99,7 @@ You can allow or prevent blog posts from being commented on and rated here.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Blogging >](../learningresources/Blog_Blogging.md)<br>
 [Create a blog >](../learningresources/Blog_Create.md)<br>
 [How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>

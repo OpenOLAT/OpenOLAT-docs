@@ -9,7 +9,7 @@ How much protection an instance needs depends on the requirements of your organi
 
 In the "Configuration" tab, you switch the security functions on or off for the whole instance. With "Save" you apply the changes.
 
-![All security functions from file download to Content Security Policy, highlighted the SSRF mitigation checkbox with the note on local addresses](assets/login_security_tab_config_v2_en.png){ class="shadow lightbox" title="Configuration tab on the Security page · 2026.10.20" }
+![The whole Configuration tab with all security functions from file download via SSRF mitigation to Content Security Policy and the input fields of the directives](assets/login_security_tab_config_v3_en.png){ class="shadow lightbox" title="Configuration tab on the Security page · 2026.10.30" }
 
 
 ### Files in folders {: #files}
@@ -49,7 +49,7 @@ In several places, people enter an internet address in OpenOlat that the server 
 The protection checks the addresses that people enter themselves:
 
 - calendars imported from a URL and their regular synchronisation, see [Calendar](../../manual_user/personal_menu/Calendar.md#add_to_list)
-- external blogs and podcasts, see [Four Steps to Your Blog](../../manual_user/resource_blog/Four_Steps_to_Your_Blog.md) and [Four Steps to Your Podcast](../../manual_user/resource_podcast/Four_Steps_to_Your_Podcast.md)
+- external blogs and podcasts, see [How do I create a blog?](../../manual_how-to/blog/blog.md#external_blog) and [How do I create a podcast?](../../manual_how-to/podcast/podcast.md)
 - the course element "External page" with the display "Embedded (source hidden)", see [Course Element "External Page"](../../manual_user/learningresources/Course_Element_External_Page.md)
 - the sites "External page n°1" and "External page n°2" with the "iFrame" checkbox selected, see [Customizing](Customizing.md#sites)
 - LTI, videos from a URL, the verification of a badge and images from the web during a Markdown import into the content editor
@@ -60,7 +60,7 @@ The protection does not check services whose address the administration has stor
 
 If the outgoing traffic of the server runs through a proxy, the proxy resolves the host names, not OpenOlat. OpenOlat then only checks the protocol and addresses that appear as an IP address in the URL. In this case, the proxy has to check the host names. Addresses that bypass the proxy according to the server configuration are checked by OpenOlat in full.
 
-Individual IP addresses, address ranges and host names can be allowed despite the protection, for example a calendar server in the network of your organisation. These exceptions have no input field in the user interface. They are part of the server configuration and only take effect after the next restart following a change. The instance's own host name also belongs there if the server resolves it to a local address: otherwise the protection also rejects the subscription to a calendar of the same instance. frentix customers contact frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+Individual IP addresses, address ranges and host names can be allowed despite the protection, for example a calendar server in the network of your organisation. These exceptions have no input field in the user interface. They are part of the server configuration and only take effect after the next restart following a change. The instance's own host name also belongs there if the server resolves it to a local address: otherwise the protection also rejects the subscription to a calendar of the same instance. frentix customers contact frentix support for a change.
 
 
 ### Content Security Policy [:octicons-tag-16:{ title="from Release 12.4.1 (OO-3415)" }](https://track.frentix.com/issue/OO-3415) {: #csp}
@@ -116,8 +116,8 @@ In the "Media server" tab, you define from which platforms people may embed vide
 
 **Mentioned on this page**<br>
 [User tools: Calendar >](../../manual_user/personal_menu/Calendar.md)<br>
-[Four Steps to Your Blog >](../../manual_user/resource_blog/Four_Steps_to_Your_Blog.md)<br>
-[Four Steps to Your Podcast >](../../manual_user/resource_podcast/Four_Steps_to_Your_Podcast.md)<br>
+[How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
+[How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
 [Course Element "External Page" >](../../manual_user/learningresources/Course_Element_External_Page.md)<br>
 [Customizing: Overview >](Customizing.md)
 

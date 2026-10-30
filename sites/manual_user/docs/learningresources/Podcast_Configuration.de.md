@@ -6,7 +6,7 @@ Die folgenden Ausführungen zur Konfiguration beziehen sich auf Podcasts in Kurs
 
 Die Basis-Einstellungen werden im Kurseditor im Tab "Podcast-Lerninhalt" vorgenommen. 
 
-![Auswahl, Erstellung oder Einbindung einer Podcast-Lernressource im Tab "Podcast-Lerninhalt" des Kurseditors](assets/Podcast-Lerninhalt1_20_3.jpg){ class="shadow lightbox" }
+![Auswahl, Erstellung oder Einbindung einer Podcast-Lernressource im Tab "Podcast-Lerninhalt" des Kurseditors](assets/Podcast-Lerninhalt1_20_3.jpg){ class="shadow lightbox" title="Tab Podcast-Lerninhalt im Kurseditor" }
 
 Wenn Sie einen neuen Kursbaustein Podcast Ihrem Kurs hinzugefügt haben, müssen Sie als erstes eine bereits erstellte Lernressource Podcast auswählen, eine neue Podcast Lernressource erstellen oder einen im Internet existierenden Podcast in eine neue Lernressource einbinden. 
 
@@ -30,18 +30,18 @@ Soll ein externer Podcast aus dem Internet über den Kursbaustein für den Kurs 
 
 Eine im Kursbaustein angelegte Podcast-Verknüpfung kann jederzeit wieder ausgewechselt oder editiert werden. 
 
-![Auswechseln der verknüpften Podcast-Lernressource über die Schaltfläche "Ersetzen" im Tab "Podcast-Lerninhalt"](assets/Podcast_ersetzen.png){ class="shadow lightbox" }
+![Auswechseln der verknüpften Podcast-Lernressource über die Schaltfläche "Ersetzen" im Tab "Podcast-Lerninhalt"](assets/Podcast_ersetzen.png){ class="shadow lightbox" title="Tab Podcast-Lerninhalt mit gewähltem Podcast" }
 
 
 ### Externen Podcast einbinden 
 
 Möchten Sie einen externen Podcast aus dem Internet in Ihren Kurs einbinden, benötigen Sie den RSS-Feed des Podcasts oder Vodcasts. Dieser Feed-Link endet häufig auf .xml. Beachten Sie: Der Link zum Podcast-Feed unterscheidet sich vom direkten Audio- oder Video-Link!
 
-Um einen externen Podcast in den Kurs einzufügen, wählen Sie im Kurseditor unter dem Tab "Podcast-Lerninhalt" die Option "Per URL einbinden". Im daraufhin erscheinenden Feld "URL" geben Sie den RSS-Feed-Link des externen Podcast ein.
+Um einen externen Podcast in den Kurs einzufügen, wählen Sie im Kurseditor unter dem Tab "Podcast-Lerninhalt" die Option "Per URL einbinden". Im daraufhin erscheinenden Feld "URL" geben Sie den RSS-Feed-Link des externen Podcast ein. Der Feed muss über das öffentliche Internet erreichbar sein, denn OpenOlat ruft ihn vom Server aus ab. Ist in der System-Administration unter `Administration > Login > Sicherheit` der Schutz "SSRF Mitigation" eingeschaltet, ruft OpenOlat keinen Feed aus dem lokalen Netz ab, etwa von einem Server im Netz Ihrer Organisation, siehe [Sicherheit](../../manual_admin/administration/Login_Security.de.md#ssrf). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310){:target="_blank"}
 
 Externe Podcast-Feeds enden häufig auf .xml oder .rss und enthalten meist die Begriffe "feed", "rss" oder "podcast" in der URL (nicht immer, aber oft). Sobald der Podcast eingebunden ist, werden im Kursbaustein die entsprechenden Episoden angezeigt.
 
-![Eingebundener externer Podcast mit Episodenliste, Filtern und Abonnement-Icons für RSS, iTunes und iOS](assets/Podcast_extern.png){ class="shadow lightbox" }
+![Eingebundener externer Podcast mit Episodenliste, Filtern und Abonnement-Icons für RSS, iTunes und iOS](assets/Podcast_extern.png){ class="shadow lightbox" title="Kursbaustein Podcast im Kurs" }
 
 ### Metadaten anzeigen 
 
@@ -77,6 +77,9 @@ Mit dem Recht "Beiträge erstellen" können auch Teilnehmende Episoden erstellen
 
 
 ## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>

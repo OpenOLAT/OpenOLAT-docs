@@ -6,7 +6,7 @@ The following information on configuration relates to podcasts in courses.
 
 The basic settings are made in the course editor in the "Podcast learning content" tab. 
 
-![Selecting, creating, or embedding a podcast learning resource in the "Podcast learning content" tab of the course editor](assets/Podcast-Lerninhalt1_20_3.jpg){ class="shadow lightbox" }
+![Selecting, creating, or embedding a podcast learning resource in the "Podcast learning content" tab of the course editor](assets/Podcast-Lerninhalt1_20_3.jpg){ class="shadow lightbox" title="Podcast learning content tab in the course editor" }
 
 Once you have added a new podcast course element to your course, you must first select an existing podcast learning resource, create a new podcast learning resource, or integrate an existing podcast from the internet into a new learning resource. 
 
@@ -30,18 +30,18 @@ If an external podcast from the Internet is to be made available for the course 
 
 A podcast link created in the course module can be replaced or edited at any time. 
 
-![Replacing the linked podcast learning resource via the "Replace" button in the "Podcast learning content" tab](assets/Podcast_ersetzen.png){ class="shadow lightbox" }
+![Replacing the linked podcast learning resource via the "Replace" button in the "Podcast learning content" tab](assets/Podcast_ersetzen.png){ class="shadow lightbox" title="Podcast learning content tab with a selected podcast" }
 
 
 ### Include external podcast
 
 If you would like to integrate an external podcast from the Internet, you need the link to the specific podcast or the RSS feed of the podcast or vodcast. This is usually a URL with the extension .xml. Attention: The link is not identical to a video or audio link!
 
-To add an external podcast to the course, select the "Embed via URL" option in the course editor under the "Podcast learning content" tab. Enter the RSS feed link of the external podcast in the "URL" field that appears.
+To add an external podcast to the course, select the "Embed via URL" option in the course editor under the "Podcast learning content" tab. Enter the RSS feed link of the external podcast in the "URL" field that appears. The feed must be reachable via the public internet, because OpenOlat retrieves it from the server. If the "SSRF mitigation" protection is switched on in the system administration under `Administration > Login > Security`, OpenOlat does not retrieve a feed from the local network, for example from a server in the network of your organisation, see [Security](../../manual_admin/administration/Login_Security.md#ssrf). [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310){:target="_blank"}
 
 External podcast feeds often end in .xml or .rss and usually contain the words "feed", "rss", or "podcast" in the URL (not always, but often). Once the podcast is embedded, the course element displays the corresponding episodes.
 
-![External podcast embedded in a course, with episode list, filters, and RSS, iTunes, and iOS subscription icons](assets/Podcast_extern.png){ class="shadow lightbox" }
+![External podcast embedded in a course, with episode list, filters, and RSS, iTunes, and iOS subscription icons](assets/Podcast_extern.png){ class="shadow lightbox" title="Podcast course element in the course" }
 
 
 ### Show metadata
@@ -77,6 +77,9 @@ Participants can...
 With the "Create contributions" right, participants can also create episodes and thus upload audio and videos. 
 
 ## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Security >](../../manual_admin/administration/Login_Security.md)
 
 **Further**<br>
 [How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
