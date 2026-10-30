@@ -8,7 +8,6 @@ hide:
 # Admin manual {: #admin_manual}
 
 <p class="oo-mh-lede">The admin manual explains how you configure, extend and operate an OpenOlat installation. Step-by-step guides are in the how-to.</p>
-<p class="oo-mh-meta">Release 21.1 · Reference</p>
 
 !!! note "Installation chapter"
 

@@ -9,7 +9,6 @@ hide:
 # Benutzerhandbuch {: #manual_user}
 
 <p class="oo-mh-lede">Das Benutzerhandbuch erklärt, was OpenOlat kann und wozu es dient: Kurse, Tests, Gruppen, Rollen und das persönliche Menü. Der Einstieg zeigt je Rolle, welche Seiten Sie zuerst lesen. Anleitungen Schritt für Schritt stehen im How-to.</p>
-<p class="oo-mh-meta">Release 21.1 · Nachschlagewerk</p>
 
 <div class="oo-mh-roles" markdown>
 

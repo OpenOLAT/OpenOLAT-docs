@@ -9,7 +9,6 @@ hide:
 # User manual {: #manual_user}
 
 <p class="oo-mh-lede">The user manual explains what OpenOlat can do and what it is for: courses, tests, groups, roles and the personal menu. The entry shows, per role, which pages to read first. Step-by-step guides are in the how-to.</p>
-<p class="oo-mh-meta">Release 21.1 · Reference</p>
 
 <div class="oo-mh-roles" markdown>
 

@@ -8,7 +8,6 @@ hide:
 # How-to-Anleitungen {: #how_to}
 
 <p class="oo-mh-lede">Jede Anleitung führt Schritt für Schritt durch eine ganze Aufgabe, vom ersten Klick bis zum Ergebnis. Wählen Sie die Aufgabe, die gerade vor Ihnen liegt.</p>
-<p class="oo-mh-meta">Release 21.1 · Schritt für Schritt</p>
 
 ## Hier beginnen {: #start}
 

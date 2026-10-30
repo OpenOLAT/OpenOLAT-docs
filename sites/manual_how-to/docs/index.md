@@ -8,7 +8,6 @@ hide:
 # How-to guides {: #how_to}
 
 <p class="oo-mh-lede">Each guide leads you step by step through a complete task, from the first click to the result. Choose the task that is in front of you right now.</p>
-<p class="oo-mh-meta">Release 21.1 · Step by step</p>
 
 ## Start here {: #start}
 

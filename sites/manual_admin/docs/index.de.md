@@ -8,7 +8,6 @@ hide:
 # Administrationshandbuch {: #admin_manual}
 
 <p class="oo-mh-lede">Das Administrationshandbuch erklärt, wie Sie eine OpenOlat-Installation konfigurieren, erweitern und betreiben. Anleitungen Schritt für Schritt stehen im How-to.</p>
-<p class="oo-mh-meta">Release 21.1 · Nachschlagewerk</p>
 
 !!! note "Kapitel Installation nur auf Englisch"
 
