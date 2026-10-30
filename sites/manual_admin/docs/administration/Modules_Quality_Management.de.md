@@ -7,6 +7,9 @@ Mit dem Qualitätsmanagement planen Qualitätsverwalter:innen Datenerhebungen, w
 
 ## Einstellungen Qualitätsmanagement {: #settings_qm}
 
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
+
 Die Checkbox "Qualitätsmanagement" schaltet das Modul ein.
 
 Die E-Mails des Qualitätsmanagements, etwa Einladungen und Erinnerungen zu einer Datenerhebung, verschickt OpenOlat mit der Standardadresse der Instanz (no-reply). An wen sie gehen, legen Sie in jeder Datenerhebung fest. Soll eine eigene Adresse als Absender erscheinen, tragen Sie sie im Feld "Absender E-Mail-Adresse" ein. Im Feld "Absender Name" legen Sie den angezeigten Namen des Absenders fest.

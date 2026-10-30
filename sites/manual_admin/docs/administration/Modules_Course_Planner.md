@@ -3,10 +3,10 @@
 
 ## Activation of the Course Planner {: #activation}
 
-The Course Planner module is optionally available in OpenOlat instead of the Curriculum module and must be activated in Administration.
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of the activation.
 
-!!! tip "frentix hosting customers"
-    For activation, please contact frentix. <br> After activation, the products can also be displayed in the "Courses" area, see [Products in "Courses"](#product_in_my_courses).
+The Course Planner module is available in OpenOlat as an option instead of the Curriculum module. Administrators switch it on in the administration with the switch [Module "Course Planner"](#enable_course_planner). After activation, the "Courses" area can also show the products, see [Products in "Courses"](#product_in_my_courses).
 
 
 [To the top of the page ^](#module_course_planner)
@@ -149,6 +149,13 @@ The name of the element type that is shown in the selection when an element is c
 
 A unique value that distinguishes elements with the same title. Appears as a selection option when a new curriculum element is created.
 
+#### CSS class {: #element_type_css_class }
+
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of creating custom layouts.
+
+Use the "CSS class" field to define your own layout for elements of this type.
+
 #### Description {: #element_type_description }
 
 Explanatory text for the element type.
@@ -158,9 +165,6 @@ Explanatory text for the element type.
 * **Absences**: Course planners get the "Absences" tab on elements of this type and can view the absences of all participants. Prerequisite: the Absence management module is activated.
 * **Timetable**: Combines all course calendar dates of the courses assigned to the product element.
 * **Progress**: Shows the learning progress in learning path courses as a pie chart. With several subelements, the average of the subelements is calculated.
-
-!!! note "CSS class"
-	Use the "CSS class" field to define your own layout for elements of this type. If you are interested in your own layouts, please contact frentix.
 
 In the "Configuration" section you define the structure:
 

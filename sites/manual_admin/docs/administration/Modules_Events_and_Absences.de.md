@@ -1,14 +1,12 @@
 # Modul Termine und Absenzen {: #module_events_and_absences}
 
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
 
-Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der System-Administration aktiviert werden. **Administrator:innen** finden die Konfiguration unter:<br>
+Das Modul "Termine und Absenzen" ist nutzbar, sobald es in der System-Administration aktiviert ist. Administrator:innen finden die Konfiguration unter:<br>
 `Administration > Module > Termine / Absenzen`
 
-!!! tip "Aktivierung"
-
-    Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com](mailto:contact@frentix.com). Sobald das Modul "Termine und Absenzen" aktiviert ist, können diverse zusätzliche Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung durch frentix vorgenommen.
-
-    **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
+Nach der Aktivierung stehen zusätzliche Einstellungen für die systemweite Konfiguration zur Verfügung. Läuft Ihr OpenOlat nicht bei frentix, wenden Sie sich für die Aktivierung an die Stelle, die Ihr System betreibt.
 
 
 [Zum Seitenanfang ^](#module_events_and_absences)

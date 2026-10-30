@@ -3,10 +3,10 @@
 
 ## Aktivierung des Course Planners {: #activation}
 
-Das Modul Course Planner ist optional an Stelle des Moduls Curriculum in OpenOlat verfügbar und muss in der Administration aktiviert werden.
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
 
-!!! tip "Hosting-Kunden von frentix"
-	 Wenden Sie sich für die Aktivierung bitte an frentix. <br> Nach der Aktivierung können die Produkte zusätzlich im Bereich «Kurse» angezeigt werden, siehe [Produkte in "Kurse"](#product_in_my_courses).
+Das Modul Course Planner steht in OpenOlat optional an Stelle des Moduls Curriculum zur Verfügung. Administrator:innen schalten es in der Administration mit dem Schalter [Modul "Course Planner"](#enable_course_planner) ein. Nach der Aktivierung zeigt der Bereich «Kurse» auf Wunsch auch die Produkte, siehe [Produkte in "Kurse"](#product_in_my_courses).
 
 
 [Zum Seitenanfang ^](#module_course_planner)
@@ -148,6 +148,13 @@ Der Name des Elementtyps, der bei der Auswahl beim Anlegen eines Elements angeze
 
 Ein eindeutiger Wert, der Elemente mit gleichem Titel unterscheidet. Erscheint bei der Erstellung eines neuen Curriculum-Elements als Auswahloption.
 
+#### CSS class {: #element_type_css_class }
+
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Erstellung eigener Layouts.
+
+Über das Feld "CSS class" hinterlegen Sie ein eigenes Layout für Elemente dieses Typs.
+
 #### Beschreibung {: #element_type_description }
 
 Erklärender Text zum Elementtyp.
@@ -157,9 +164,6 @@ Erklärender Text zum Elementtyp.
 * **Absenzmanagement**: Kursplaner:innen erhalten auf Elementen dieses Typs den Tab «Absenzen» und können die Absenzen aller Teilnehmer:innen einsehen. Voraussetzung: Modul Absenzenverwaltung ist aktiviert.
 * **Stundenplan**: Vereint alle Kurskalender-Termine der dem Produkt-Element zugeordneten Kurse.
 * **Fortschritt**: Zeigt den Lernfortschritt in Lernpfadkursen als Kreisdiagramm. Bei mehreren Unterelementen wird der Durchschnitt der Unterelemente berechnet.
-
-!!! note "CSS class"
-	Über das Feld "CSS class" hinterlegen Sie ein eigenes Layout für Elemente dieses Typs. Bei Interesse an eigenen Layouts wenden Sie sich an frentix.
 
 Im Abschnitt «Konfiguration» legen Sie die Struktur fest:
 

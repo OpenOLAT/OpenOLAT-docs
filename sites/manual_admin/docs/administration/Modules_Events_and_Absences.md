@@ -1,13 +1,12 @@
 # Module Events and Absences {: #module_events_and_absences}
 
-Before the event and absence management can be used it need to be activated in the system administration. **Administrators** find the configuration under:<br>
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of the activation.
+
+The module "Events and Absences" can be used as soon as it is activated in the system administration. Administrators find the configuration under:<br>
 `Administration > Modules > Events / Absences`
 
-!!! tip "Activation"
-
-    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for this. As soon as the event and absence management is activated some additional settings can be done for the systemwide configuration. For systems with a fx-release these adaptations are done by frentix.
-
-    **Not a frentix hosting-client?** Please ask your local system operator!
+After activation, additional settings for the system-wide configuration are available. If your OpenOlat is not operated by frentix, contact the party that operates your system for the activation.
 
 
 [To the top of the page ^](#module_events_and_absences)

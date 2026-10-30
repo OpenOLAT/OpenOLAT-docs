@@ -7,6 +7,9 @@ With quality management, quality managers plan data collections, analyse them an
 
 ## Configuration quality management {: #settings_qm}
 
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of the activation.
+
 The "Quality management" checkbox switches the module on.
 
 OpenOlat sends the emails of quality management, for example invitations and reminders for a data collection, with the standard address of the instance (no-reply). You define in each data collection to whom they go. If your own address is to appear as sender, enter it in the "Sender email address" field. The field "Sender email name" sets the name displayed for the sender.

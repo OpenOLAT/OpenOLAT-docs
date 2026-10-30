@@ -1,14 +1,11 @@
 # Modul Organisationen {: #organisations}
 
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
 
-Das Modul "Organisationen" ist optional in OpenOlat verfügbar. Es wird in der System-Administration unter `Administration > Module > Organisationen` aktiviert. Die System-Administration und damit alle Tabs auf dieser Seite öffnen Systemadministrator:innen.
+Das Modul "Organisationen" ist optional in OpenOlat verfügbar. Sie aktivieren es in der System-Administration unter `Administration > Module > Organisationen` mit dem Schalter "Organisationen einschalten". Die System-Administration und damit alle Tabs auf dieser Seite öffnen Systemadministrator:innen.
 
-!!! tip "Aktivierung"
-
-    frentix-Kund:innen kontaktieren für die Aktivierung bitte: [contact@frentix.com](mailto:contact@frentix.com). Nach der Aktivierung stehen zusätzliche Einstellungen für die systemweite Konfiguration zur Verfügung. Bei Systemen mit dem fx-Release übernimmt frentix diese Anpassungen.
-
-    **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
-
+Nach der Aktivierung stehen zusätzliche Einstellungen für die systemweite Konfiguration zur Verfügung. Läuft Ihr OpenOlat nicht bei frentix, wenden Sie sich für die Aktivierung an die Stelle, die Ihr System betreibt.
 
 
 ## Tab Konfiguration {: #tab_configuration}
@@ -58,6 +55,9 @@ Im Tab "Organisationsstruktur" finden sich die bereits erstellten Organisationen
 
 ### Neue Organisationen erstellen und bearbeiten [:octicons-tag-16:{ title="ab Release 13.0 (OO-3298)" }](https://track.frentix.com/issue/OO-3298){:target="_blank"} {: #create_and_edit}
 
+!!! info "frentix-Kund:innen"
+    Eine Organisation lässt sich nicht direkt in eine Organisation verschieben, die in der Baumstruktur über ihr liegt. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
 ![Baumstruktur der Organisationen, im Menü der 3 Punkte die Einträge Organisation verschieben und Unterorganisation erstellen](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" title="Tab Organisationsstruktur im Modul Organisationen" }
 
 Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation erstellen" hinzugefügt werden. Beide Dialoge enthalten dieselben Felder wie der Tab [Metadaten](#edit_metadata).
@@ -68,7 +68,7 @@ Eine bestehende Organisation verschieben Sie mit Klick auf die 3 Punkte und "Org
 
 !!! info "Nach oben verschieben Sie in zwei Schritten"
 
-    Eine Organisation lässt sich nicht direkt in eine Organisation verschieben, die in der Baumstruktur über ihr liegt. OpenOlat meldet dann "Eine Organisation kann nicht in eine ihr über- oder untergeordnete Organisation verschoben werden." Verschieben Sie die Organisation zuerst in eine Organisation, die weder über ihr noch unter der Zielorganisation liegt, und von dort in die Zielorganisation. frentix-Kund:innen können diesen Zwischenschritt nicht selbst ausführen und wenden sich an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+    Eine Organisation lässt sich nicht direkt in eine Organisation verschieben, die in der Baumstruktur über ihr liegt. OpenOlat meldet dann "Eine Organisation kann nicht in eine ihr über- oder untergeordnete Organisation verschoben werden." Verschieben Sie die Organisation zuerst in eine Organisation, die weder über ihr noch unter der Zielorganisation liegt, und von dort in die Zielorganisation.
 
 Wählen Sie in der Baumstruktur eine Organisation aus oder klicken Sie bei ihr unter den 3 Punkten auf "Bearbeiten", um ihre Metadaten und weiteren Zuordnungen anzupassen oder zu ergänzen.
 

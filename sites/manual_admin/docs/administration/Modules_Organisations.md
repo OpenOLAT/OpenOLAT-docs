@@ -1,12 +1,11 @@
 # Module Organisations {: #organisations}
 
-The "Organisations" module is optionally available in OpenOlat. It is activated in the system administration under `Administration > Modules > Organisations`. The system administration, and with it all tabs on this page, is opened by system administrators.
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of the activation.
 
-!!! tip "Activation"
+The "Organisations" module is optionally available in OpenOlat. You activate it in the system administration under `Administration > Modules > Organisations` with the switch "Enable organisations". The system administration, and with it all tabs on this page, is opened by system administrators.
 
-    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for the activation. After activation, additional settings for the system-wide configuration are available. For systems with the fx-Release, frentix takes care of these adjustments.
-
-    **Not a frentix hosting customer?** Please ask your system operator!
+After activation, additional settings for the system-wide configuration are available. If your OpenOlat is not operated by frentix, contact the party that operates your system for the activation.
 
 ## Tab Configuration {: #tab_configuration}
 
@@ -54,6 +53,9 @@ The "Organisations structures" tab shows the organisations already created, toge
 
 ### Creating and editing organisations [:octicons-tag-16:{ title="from Release 13.0 (OO-3298)" }](https://track.frentix.com/issue/OO-3298){:target="_blank"} {: #create_and_edit}
 
+!!! info "frentix customers"
+    An organisation cannot be moved directly into an organisation that is above it in the tree structure. For frentix customers, their customer advisor at frentix takes care of the change.
+
 ![Tree structure of the organisations, in the three-dot menu the entries Move organisation and Add new organisation under this one](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" title="Organisations structures tab of the Organisations module" }
 
 New organisations can be added using the "Create new organisation" button at the top right, or for existing organisations by clicking the three dots and "Add new organisation under this one". Both dialogs contain the same fields as the [Metadata](#edit_metadata) tab.
@@ -64,7 +66,7 @@ To move an existing organisation, click the three dots and "Move organisation". 
 
 !!! info "Moving upwards takes two steps"
 
-    An organisation cannot be moved directly into an organisation that is above it in the tree structure. OpenOlat then reports "An organisation cannot be moved into a parent or sub-organisation of itself." First move the organisation into an organisation that is neither above it nor below the target organisation, and from there into the target organisation. frentix customers cannot carry out this intermediate step themselves and contact frentix support: [support@frentix.com](mailto:support@frentix.com)
+    An organisation cannot be moved directly into an organisation that is above it in the tree structure. OpenOlat then reports "An organisation cannot be moved into a parent or sub-organisation of itself." First move the organisation into an organisation that is neither above it nor below the target organisation, and from there into the target organisation.
 
 Select an organisation in the tree structure, or click "Edit" under its three dots, to adjust or supplement its metadata and other assignments.
 
