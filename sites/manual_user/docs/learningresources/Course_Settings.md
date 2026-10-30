@@ -124,6 +124,8 @@ Here
 
 can be activated and stored. If a person starts the course, they must first accept the conditions, otherwise access to the course is not possible. For each text you switch on, you enter a title, the conditions and the label of the checkbox that is ticked to accept. A second checkbox is possible.
 
+You only see the tab if the option "Course related terms of use and data protection" is switched on in the system administration, under `Administration > Modules > Course` ([Module Course](../../manual_admin/administration/Modules_Course.md#enable_course_option)). If the tab is missing, contact the administration of your OpenOlat instance.
+
 In the [Members management](../learningresources/Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions:<br>
 `Course > Administration > Members management > Consents`
 

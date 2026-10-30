@@ -124,6 +124,8 @@ Hier können
 
 aktiviert und hinterlegt werden. Startet eine Person den Kurs, muss sie zunächst die Bedingungen akzeptieren, ansonsten ist ein Kurszugang nicht möglich. Für jeden eingeschalteten Text erfassen Sie einen Titel, die Bedingungen und die Beschriftung der Checkbox, die zum Akzeptieren angekreuzt wird. Eine zweite Checkbox ist möglich.
 
+Den Tab sehen Sie nur, wenn die Option "Kursbezogene Nutzungsbedingungen und Datenschutzerklärung" in der System-Administration eingeschaltet ist, unter `Administration > Module > Kurs` ([Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#enable_course_option)). Fehlt der Tab, wenden Sie sich an die Administration Ihrer OpenOlat-Instanz.
+
 In der [Mitgliederverwaltung](../learningresources/Members_management.de.md) sehen Sie im Bereich "Einwilligungen", welche Personen die Bedingungen bereits akzeptiert haben:<br>
 `Kurs > Administration > Mitgliederverwaltung > Einwilligungen`
 
