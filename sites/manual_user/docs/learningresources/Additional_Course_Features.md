@@ -16,6 +16,8 @@ Depending on the configuration of the course, not all of the following entries m
 
 * **Evidence of achievement**: Shows your assessments in the course and, if activated, gives access to the course [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate).
 * **To-dos**: Shows the current to-dos of the course.
+* **My badges**: Shows the badges you have received in this course. The entry appears if the course awards [badges](../personal_menu/OpenBadges.md).
+* **Awarded badges**: Only for course owners and for coaches who may award badges. Shows the badges that were awarded in the course.
 * **Notes**: Here you can enter course-specific notes that only you as a course participant can read.
 * **Bookmark**: Activate the bookmark, and the course appears in the "Courses" menu under the "Favourites" tab.
 * **Consent**: If there are specific terms of use and/or a course-related privacy policy in the course that you have agreed to, you can view them here and also revoke your consent.

@@ -33,7 +33,7 @@ A newly issued certificate is valid immediately; OpenOlat generates the PDF file
 
 **Upload external certificates**
 
-You upload externally acquired certificates with the button "Upload certificate", provided the administration allows this for users. Uploaded certificates carry the origin "Uploaded manually". [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
+You upload externally acquired certificates with the button "Upload certificate", provided administrators allow it in the system administration: `Administration > e-Assessment > Certificates > Certificates configuration`, option "User can upload external certificate". Uploaded certificates carry the origin "Uploaded manually". [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
 
 [To the top of the page ^](#certificates)
 

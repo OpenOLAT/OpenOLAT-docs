@@ -16,6 +16,8 @@ Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folge
 
 * **Leistungsnachweis**: Zeigt Ihre Bewertungen im Kurs und gibt, sofern aktiviert, Zugriff auf das [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) des Kurses.
 * **To-dos**: Zeigt die aktuellen To-dos des Kurses.
+* **Meine Badges**: Zeigt die Badges, die Sie in diesem Kurs erhalten haben. Der Eintrag erscheint, wenn der Kurs [Badges](../personal_menu/OpenBadges.de.md) vergibt.
+* **Vergebene Badges**: Nur für Kursbesitzer:innen und für Betreuer:innen, die Badges vergeben dürfen. Zeigt die Badges, die im Kurs vergeben wurden.
 * **Notizen**: Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer:in lesen können.
 * **Bookmark**: Aktivieren Sie den Bookmark, dann erscheint der Kurs im Menü "Kurse" im Tab "Favoriten".
 * **Einwilligung**: Sollte es im Kurs bestimmte Nutzungsbedingungen und/oder eine kursbezogene Datenschutzerklärung geben, denen Sie zugestimmt haben, können Sie diese hier einsehen und auch die Einwilligung widerrufen.

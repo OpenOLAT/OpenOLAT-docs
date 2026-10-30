@@ -33,7 +33,7 @@ Ein eben ausgestelltes Zertifikat ist sofort gültig, die PDF-Datei dazu erzeugt
 
 **Externe Zertifikate hochladen**
 
-Extern erworbene Zertifikate laden Sie mit dem Button "Zertifikat hochladen" hoch, sofern die Administration das für Benutzer:innen erlaubt. Hochgeladene Zertifikate tragen die Herkunft "Manuell hochgeladen". [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
+Extern erworbene Zertifikate laden Sie mit dem Button "Zertifikat hochladen" hoch, sofern Administrator:innen das in der System-Administration erlauben: `Administration > e-Assessment > Zertifikate > Zertifikate Konfiguration`, Option "Benutzer:innen können externe Zertifikate hochladen". Hochgeladene Zertifikate tragen die Herkunft "Manuell hochgeladen". [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
 
 [Zum Seitenanfang ^](#certificates)
 
