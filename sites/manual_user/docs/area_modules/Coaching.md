@@ -42,14 +42,21 @@ You can find access to the data of the persons you coach and the tools under the
 
 ## When is the Coaching Tool available? [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) {: #availability}
 
-The Coaching Tool is an integral part of OpenOlat and cannot be deactivated.
+You are looking for the "Coaching" entry in the main menu and cannot find it? OpenOlat shows it to everyone who coaches, corrects or manages other people. The Coaching Tool itself is an integral part of OpenOlat and cannot be switched off in the administration.
 
-Whether the "Coaching" menu option is displayed in the main menu for you depends on the following factors:
+The "Coaching" entry appears as soon as at least one of these points applies to you:
 
-* **System role**: Guests and external parties cannot provide coaching.
-* The **course role** must be coach or owner. Participants cannot provide coaching.
-* The **course status** must be "Published", "Access for coach" or "Finished".
-* Whether there are **participants** (at least 1 person) in a course or group.
+* **Coaching in a course**: You are a coach in a course with the status "Access for coach", "Published" or "Finished".
+* **Ownership of a learning resource**: You are the owner of a course or of another learning resource. The status does not matter; only learning resources in the trash are excluded.
+* **Organisation role**: You are a line manager or an education manager, and the Organisations module is switched on.
+* **Events**: You are entered as a teacher for an event or are a master coach in an implementation of the Course Planner, and the Events and absences module is switched on.
+* **User relation**: A user relation assigns another person to you, for example as a mentor.
+* **Correction workflow**: You are entered as a corrector for a test, and the correction workflow is switched on system-wide.
+* **Administrative role**: You are an administrator, principal, learning resource manager or absence manager.
+
+Guests never see the entry. Anyone who is only a participant in courses does not see it either.
+
+Which buttons Coaching then shows you is described in the section [The tools](#tools).
 
 
 [To the top of the page ^](#coaching)

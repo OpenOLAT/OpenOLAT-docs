@@ -42,14 +42,21 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 
 ## Wann ist das Coaching Tool verfügbar? [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) {: #availability}
 
-Das Coaching Tool ist fester Bestandteil von OpenOlat und kann nicht deaktiviert werden.
+Sie suchen im Hauptmenü den Eintrag "Coaching" und finden ihn nicht? OpenOlat zeigt ihn allen, die andere Personen betreuen, korrigieren oder verwalten. Das Coaching Tool selbst ist fester Bestandteil von OpenOlat und lässt sich in der Administration nicht ausschalten.
 
-Ob die Menüoption "Coaching" im Hauptmenü für Sie angezeigt wird, hängt von folgenden Faktoren ab:
+Der Eintrag "Coaching" erscheint, sobald mindestens einer dieser Punkte auf Sie zutrifft:
 
-* **Systemrolle**: Gäste und Externe können kein Coaching vornehmen.
-* Die **Kursrolle** muss Betreuer:in oder Besitzer:in sein. Teilnehmende können kein Coaching vornehmen.
-* Der **Kursstatus** muss "Veröffentlicht", "Freigabe Betreuer:innen" oder "Beendet" sein.
-* Ob es **Teilnehmende** (mind. 1 Person) in einem Kurs bzw. einer Gruppe hat.
+* **Betreuung im Kurs**: Sie sind Betreuer:in in einem Kurs mit dem Status "Freigabe Betreuer:innen", "Veröffentlicht" oder "Beendet".
+* **Besitz einer Lernressource**: Sie sind Besitzer:in eines Kurses oder einer anderen Lernressource. Der Status spielt keine Rolle, ausgenommen sind nur Lernressourcen im Papierkorb.
+* **Organisationsrolle**: Sie sind Linienvorgesetzte:r oder Ausbildungsverantwortliche:r, und das Modul Organisationen ist eingeschaltet.
+* **Termine**: Sie sind bei einem Termin als Dozent:in eingetragen oder in einer Durchführung des Course Planner Klassenlehrer:in, und das Modul Termine und Absenzen ist eingeschaltet.
+* **Personenbeziehung**: Ihnen ist über eine Personenbeziehung eine andere Person zugeordnet, zum Beispiel als Mentor:in.
+* **Korrektur-Workflow**: Sie sind bei einem Test als Korrektor:in eingetragen, und der Korrektur-Workflow ist systemweit eingeschaltet.
+* **Administrative Rolle**: Sie sind Administrator:in, Principal, Lernressourcenverwalter:in oder Absenzenverwalter:in.
+
+Gäste sehen den Eintrag nie. Wer in Kursen nur Teilnehmer:in ist, sieht ihn ebenfalls nicht.
+
+Welche Buttons das Coaching Ihnen danach zeigt, beschreibt der Abschnitt [Die Werkzeuge](#tools).
 
 
 [Zum Seitenanfang ^](#coaching)
