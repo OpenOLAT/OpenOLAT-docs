@@ -134,9 +134,11 @@ Gruppenverwalter:innen verfügen im Gruppenbereich zusätzlich über den Tab „
 
 ## 4d) Automatisch erstellte Gruppenmitgliedschaften - managed {: #add_groupmembers_automatically}
 
-Werden in einem anderen System (z.B. einer HR-Software) bereits bestimmte Personen in Gruppen zusammengefasst, können diese Gruppenmitgliedschaften auch in OpenOlat abgebildet werden. Dazu benötigt es allerdings eine Middleware (Syncher), die dann automatisiert Benutzer:innen bestimmten OpenOlat-Gruppen zuordnen kann.
+!!! info "Kontakt"
 
-Bei Fragen zu automatisch zugewiesener Gruppenmitgliedschaft wenden Sie sich bitte an frentix: [contact@frentix.com](mailto:contact@frentix.com)
+    Bei Fragen wenden Sie sich an Ihre Organisation.
+
+Werden in einem anderen System (z.B. einer HR-Software) bereits bestimmte Personen in Gruppen zusammengefasst, können diese Gruppenmitgliedschaften auch in OpenOlat abgebildet werden. Dazu benötigt es allerdings eine Middleware (Syncher), die dann automatisiert Benutzer:innen bestimmten OpenOlat-Gruppen zuordnen kann.
 
 [Zum Seitenanfang ^](#group_membership)
 

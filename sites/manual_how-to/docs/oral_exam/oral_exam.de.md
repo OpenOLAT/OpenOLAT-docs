@@ -180,13 +180,17 @@ Zur Erstellung eines Rubrik-Formulars finden Sie hier ausführliche Informatione
 
 ### Informationen im Kopfbereich {: #step_3_header}
 
+!!! info "Kontakt"
+
+    Die allgemeine Anzeige der Benutzer:in im Kopfbereich gilt für die ganze OpenOlat-Instanz. Für eine Änderung wenden Sie sich an Ihre Organisation.
+
 !!! note "Hinweis"
 
-    Teilnehmerdaten werden im Kopfbereich des Formulars angegeben und brauchen nicht als Feld im Formular enthalten sein (Sie würden sonst doppelt enthalten sein.)
+    Teilnehmerdaten werden im Kopfbereich des Formulars angegeben und brauchen nicht als Feld im Formular enthalten zu sein (sie wären sonst doppelt enthalten).
 
 
 Im Kopfbereich des Formulars wird die allgemeine Anzeige der Benutzer:in verwendet.
-Diese wird an ganz vielen anderen Stellen im OpenOlat verwendet (Termine, Coaching, Tests, Aufgabe, Lernpfadübersicht, Portfolio, Projekt, ...). Es ist nicht möglich, das nur im Formular zu ändern. Die allgemeine Anzeige gilt für die ganze OpenOlat-Instanz. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Diese wird an ganz vielen anderen Stellen im OpenOlat verwendet (Termine, Coaching, Tests, Aufgabe, Lernpfadübersicht, Portfolio, Projekt, ...). Es ist nicht möglich, das nur im Formular zu ändern.
 
 Fügen Sie im Formulareditor für
 

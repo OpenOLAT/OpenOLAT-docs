@@ -21,6 +21,10 @@ Tasks are recorded where they arise. In the personal menu they come together.
 
 ## The fields of a to-do [:octicons-tag-16:{ title="from Release 18.0 (OO-6852)" }](https://track.frentix.com/issue/OO-6852){:target="_blank"} {: #to_do_fields}
 
+!!! info "Contact"
+
+    How many hours make a day and how many days make a week for the expenditure of work is part of the server configuration. For a change, contact your organisation.
+
 Whoever creates a to-do finds the same fields in every module. Two entries exist in one module only.
 
 | Field | Meaning | Available |
@@ -41,8 +45,6 @@ Whoever creates a to-do finds the same fields in every module. Two entries exist
 | Relative dates | Start date and due date based on the implementation period instead of a fixed calendar date | [Course Planner](../area_modules/Course_Planner_Todos.md#relative_date) only |
 
 Tags you have created once are available for selection in other to-dos as well. They are not a hierarchically structured classification like the taxonomy that OpenOlat offers elsewhere.
-
-How many hours make a day and how many days make a week for the expenditure of work is part of the server configuration. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
 
 
 ## Status and quick actions [:octicons-tag-16:{ title="from Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"} {: #status_quick_actions}

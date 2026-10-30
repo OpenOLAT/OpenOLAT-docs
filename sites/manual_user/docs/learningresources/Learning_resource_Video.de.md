@@ -129,15 +129,15 @@ Hochgeladene Untertitel erscheinen in einer Tabelle, dort können Sie sie auch l
 
 #### Automatische Untertitelgenerierung [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"} {: #video_subtitles_auto}
 
+!!! info "Kontakt"
+
+    Die automatische Untertitelgenerierung ist Teil des frentix Cloud-Transcodingservice und nicht in der Standard-Distribution von OpenOlat enthalten. Wenden Sie sich dafür an Ihre Organisation.
+
 Ist der frentix Cloud-Transcodingservice für die OpenOlat-Instanz aktiviert, erstellt der Service beim Transcodieren eines hochgeladenen Videos automatisch eine Untertiteldatei (Transkript) im WebVTT-Format. Dabei gilt:
 
 * Die Sprache des Videos wird automatisch erkannt und dem Untertitel zugewiesen.
 * Existiert für die erkannte Sprache bereits eine Untertiteldatei, bleibt diese unverändert erhalten. Der automatisch generierte Untertitel überschreibt keine bestehenden Dateien.
 * Automatisch generierte Untertitel erscheinen wie manuell hochgeladene in der Untertitel-Tabelle und können dort auch wieder gelöscht werden.
-
-!!! info "Wichtig"
-
-    Die automatische Untertitelgenerierung ist Teil des frentix Cloud-Transcodingservice und nicht in der Standard-Distribution von OpenOlat enthalten. Bei Interesse wenden Sie sich an frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 #### Untertitel beim Ersetzen eines Videos [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9347)" }](https://track.frentix.com/issue/OO-9347){:target="_blank"}
 

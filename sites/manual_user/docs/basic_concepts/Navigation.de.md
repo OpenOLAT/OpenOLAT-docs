@@ -32,6 +32,10 @@ Im [persönlichen Menü](../personal_menu/index.de.md) finden Sie unter anderem 
 
 ## Teilen in der Fusszeile [:octicons-tag-16:{ title="ab Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"} {: #share}
 
+!!! info "Kontakt"
+
+    Ob die Aktion "Teilen" in der Fusszeile erscheint und welche Symbole sie zeigt, legt die Serverkonfiguration Ihrer OpenOlat-Instanz fest. Für eine Änderung wenden Sie sich an Ihre Organisation.
+
 Möchten Sie jemandem genau die Seite zeigen, die Sie gerade geöffnet haben, etwa einen Kursbaustein oder eine Liste, geben Sie den Link darauf weiter. Der Link führt direkt an diese Stelle in OpenOlat und nicht auf die Startseite. Alle Wege dafür finden Sie links unten in der Fusszeile unter der Aktion "Teilen". Die Aktion ist ein Symbol ohne Beschriftung. Das Wort "Teilen" erscheint, wenn Sie mit der Maus darauf zeigen.
 
 Ein Klick auf "Teilen" öffnet ein kleines Fenster mit einer Reihe von Symbolen. Auch hier erscheint der Name eines Symbols, wenn Sie mit der Maus darauf zeigen. Im Standard sind es diese:
@@ -55,7 +59,7 @@ Auf der Infoseite einer Lernressource oder einer Durchführung steht dieselbe Ak
 
 !!! note "Hinweis"
 
-    Sie sehen die Aktion "Teilen" in der Fusszeile nicht? Dann ist das Teilen in der Serverkonfiguration Ihrer OpenOlat-Instanz ausgeschaltet. In der Administration lässt es sich nicht einschalten. Auf der Infoseite bleibt die Schaltfläche "Teilen" trotzdem sichtbar. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+    Sie sehen die Aktion "Teilen" in der Fusszeile nicht? Dann ist das Teilen in der Serverkonfiguration Ihrer OpenOlat-Instanz ausgeschaltet. In der Administration lässt es sich nicht einschalten. Auf der Infoseite bleibt die Schaltfläche "Teilen" trotzdem sichtbar.
 
 ## Weiterführende Informationen {: #further_information}
 

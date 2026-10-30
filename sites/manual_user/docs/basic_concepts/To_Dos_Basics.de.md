@@ -21,6 +21,10 @@ Aufgaben werden dort erfasst, wo sie anfallen. Im persönlichen Menü laufen sie
 
 ## Die Felder eines To-dos [:octicons-tag-16:{ title="ab Release 18.0 (OO-6852)" }](https://track.frentix.com/issue/OO-6852){:target="_blank"} {: #to_do_fields}
 
+!!! info "Kontakt"
+
+    Wie viele Stunden ein Tag und wie viele Tage eine Woche beim Zeitaufwand zählen, ist Teil der Serverkonfiguration. Für eine Änderung wenden Sie sich an Ihre Organisation.
+
 Wer ein To-do anlegt, findet in jedem Modul dieselben Felder vor. Zwei Angaben gibt es nur in einem Modul.
 
 | Feld | Bedeutung | Verfügbar |
@@ -41,8 +45,6 @@ Wer ein To-do anlegt, findet in jedem Modul dieselben Felder vor. Zwei Angaben g
 | Relative Datumsangaben | Startdatum und Fälligkeitstermin bezogen auf den Durchführungszeitraum statt als festes Kalenderdatum | nur im [Course Planner](../area_modules/Course_Planner_Todos.de.md#relative_date) |
 
 Einmal erstellte Tags stehen auch in anderen To-dos zur Auswahl. Es handelt sich dabei nicht um eine hierarchisch strukturierte Verschlagwortung, wie sie die Taxonomie an anderen Stellen in OpenOlat bietet.
-
-Wie viele Stunden ein Tag und wie viele Tage eine Woche beim Zeitaufwand zählen, ist Teil der Serverkonfiguration. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
 
 
 ## Status und Schnellaktionen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9563)" }](https://track.frentix.com/issue/OO-9563){:target="_blank"} {: #status_quick_actions}

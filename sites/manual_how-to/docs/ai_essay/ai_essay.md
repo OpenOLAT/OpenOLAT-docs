@@ -37,14 +37,16 @@ For a graded assessment, continue to use the [Test course element](../../manual_
 
 ## Checking the requirements {: #requirements}
 
+!!! info "Contact"
+
+    For a change to the AI module, contact your organisation.
+
 The essay question in the Quiz only appears once the administration has enabled the matching AI feature.
 
 1. As a system administrator, open the system administration: `Administration > External tools > AI module`.
 2. Select the **"AI features"** tab.
 3. Check the **"Essay Grading"** feature: the "Enable feature" switch is set to "ON", and an AI provider and a language model are selected.
 4. For the import route, also check the **"Essay Question Generator"** feature.
-
-For frentix customers, frentix manages the AI module. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
 
 Two limits of this feature directly affect learners and authors:
 
@@ -182,9 +184,9 @@ Instead of writing the question by hand, you can have it generated from a subjec
 
 1. In the Content Editor, click **"Import"**.
 2. Select a Markdown, text or Word file, or paste the text directly.
-3. Enable the **"Add AI generated Quiz"** switch.
-4. In the **"Essay question with AI correction"** field, set how many essay questions are created. Up to five are allowed. The "MC question" field sets the number of multiple-choice questions and can stay at 0.
-5. Select the **Bloom levels** and the **Target difficulty**, and enter **Learning objectives** if needed, one objective per line.<br><br>
+3. Enable the "Add AI generated Quiz" switch.
+4. In the "Essay question with AI correction" field, set how many essay questions are created. Up to five are allowed. The "MC question" field sets the number of multiple-choice questions and can stay at 0.
+5. Select the "Bloom levels" and the "Target difficulty", and enter "Learning objectives" if needed, one objective per line.<br><br>
 ![Switch Add AI generated Quiz enabled, MC question 0, Essay question with AI correction 1, two Bloom levels and one learning objective selected](assets/ai_essay_import_dialog_v1_de.png){ class="shadow lightbox" title="Import dialog in the Content Editor" }
 
 6. Start the import. Generation runs in the background and may take a minute. OpenOlat appends the questions as a Quiz element at the end of the page.

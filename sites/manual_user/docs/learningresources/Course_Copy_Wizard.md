@@ -26,9 +26,13 @@ This function is only available for [learning path courses](Learning_path_course
 
 ## Events and room bookings [:octicons-tag-16:{ title="from Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #events_rooms}
 
+!!! info "Contact"
+
+    The default setting for events in the copy mode "Automatic" is part of the server configuration. For a change, contact your organisation.
+
 If you copy a course for the next run, you can copy the events along with it instead of recording them again. The "Events" selection appears if the course has events and you choose the copy mode "Custom" in the "General settings" step. The "Copy options" step then shows it under "Further options" with "Copy", "Customize" and "Don't copy". With "Customize", the "Events" step follows, in which you change the date and location of each event and reassign the teachers.
 
-In the copy mode "Automatic", the default setting of your OpenOlat instance applies; by default, no events are copied. The help at the "Copy mode" field shows which setting applies. The default setting is part of the server configuration. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+In the copy mode "Automatic", the default setting of your OpenOlat instance applies; by default, no events are copied. The help at the "Copy mode" field shows which setting applies.
 
 If the ["Rooms" module](../../manual_admin/administration/Modules_Rooms.md) is activated, every copied event also adopts the room bookings of the original event. The period of the room booking follows the copied event. The room booking always adopts the room from the original event, even if you change the "Location" field in the "Events" step. OpenOlat does not check during copying whether the room is still free in the new period. An overlap is shown as a warning in the [room scheduling in the Course Planner](../area_modules/Course_Planner_Rooms.md#warnings). [:octicons-tag-16:{ title="from Release 21.0 (OO-9459)" }](https://track.frentix.com/issue/OO-9459){:target="_blank"}
 

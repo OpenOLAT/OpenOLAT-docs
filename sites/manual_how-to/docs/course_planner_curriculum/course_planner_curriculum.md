@@ -46,9 +46,13 @@ The user manual explains the three types of planning with diagrams:<br>
 
 ## What must be set up? {: #requirements}
 
+!!! info "Contact"
+
+    The Course Planner is an additional module. To have it activated, contact your organisation.
+
 To carry out the steps, four conditions must be met:
 
-- **Course Planner switched on**: Administrators switch on the Course Planner in the system administration, with the switch Module "Course Planner" under `Administration > Modules > Course Planner > Tab "Settings"`. Hosting customers of frentix contact frentix for the activation: [contact@frentix.com](mailto:contact@frentix.com)
+- **Course Planner switched on**: Administrators switch on the Course Planner in the system administration, with the switch Module "Course Planner" under `Administration > Modules > Course Planner > Tab "Settings"`.
 - **Role**: You have the role Course planner or you are a product owner of the product. Authors have no access to the Course Planner, see [Who can use the Course Planner? >](../../manual_user/area_modules/Course_Planner.md#users)
 - **Element types**: Suitable element types exist for the implementation and its elements (step 1).
 - **Courses**: The courses have the usage "Use in Course Planner", course templates the usage "Template" (step 5).

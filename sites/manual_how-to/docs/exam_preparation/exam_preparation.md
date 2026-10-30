@@ -161,6 +161,10 @@ You can also conduct the exam as planned and also allow an automatic end by Open
 
 ## What do I do if technical problems occur? {: #technical_problems}
 
+!!! info "Contact"
+
+    If you have questions, contact your organisation. This also applies if it is clearly a problem in OpenOlat. For large numbers of participants, it is best to inform your organisation about the exam date before the exam.
+
 If technical problems occur, it is important to know the exact cause. A distinction must be made between errors in the infrastructure (outside of OpenOlat) and problems that could occur in OpenOlat itself.
 
 - **Power outage**<br>
@@ -173,9 +177,7 @@ In the event of network disruptions, the available exam time may have to be exte
 If access to OpenOlat is interrupted for all exam participants, try to see whether other websites are also unreachable. If so, this possibly points to a disruption at the internet provider. In this case, contact your on-site technician for further clarification.
 
 - **Problems in OpenOlat**<br>
-If it is clearly a problem in OpenOlat, frentix customers contact the frentix support: [support@frentix.com](mailto:support@frentix.com)<br>
-If OpenOlat is hosted by frentix, you are welcome to inform us about your exam in advance in the case of large numbers of participants, so that our technicians can keep a special eye on your OpenOlat instance during the running exam.<br>
-You can retrieve information about the operating status of our web servers at any time at [https://www.openolat.com/betriebsstatus/](https://www.openolat.com/betriebsstatus/).
+You can retrieve information about the operating status of the frentix web servers at any time at [https://www.openolat.com/betriebsstatus/](https://www.openolat.com/betriebsstatus/).
 
 [Go to the top of the page ^](#exam_preparation)
 
@@ -374,7 +376,7 @@ Coaches can then schedule inspections for individual participants in the assessm
 - [x] Mock exam conducted? With all exam participants?
 - [x] Assessment mode configured?
 - [x] Safe Exam Browser configured?
-- [x] For very large numbers of participants: frentix informed in advance about the exam date?
+- [x] For very large numbers of participants: your organisation informed in advance about the exam date?
 - [x] Is an exam inspection planned/set up after the exam?
 
 [Go to the top of the page ^](#exam_preparation)

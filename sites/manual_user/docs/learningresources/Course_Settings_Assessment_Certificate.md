@@ -46,6 +46,10 @@ To verify the validity of the certificate, the attribute "certificateVerificatio
 
 ### Create certificate template {: #certificate_template}
 
+!!! info "Contact"
+
+    frentix creates certificate templates to your specifications. Contact your organisation for this.
+
 By default, the supplied default template is used as the template for the certificate. Administrators also provide further system-wide templates for selection. If you want to use your own template, upload it under:<br>
 `Course > Administration > Settings > Assessment > "Certificate" section > Certificate template`
 
@@ -152,9 +156,6 @@ Signatures, logos, etc. can be integrated into the certificate as static graphic
       * $custom1
       * $custom2
       * $custom3
-
-
-If you would like a certificate template, please contact us at [contact@frentix.com](mailto:contact@frentix.com) for a quote for a template tailored to your individual requirements.
 
 [To the top of the page ^](#certificate_and_recertification)
 

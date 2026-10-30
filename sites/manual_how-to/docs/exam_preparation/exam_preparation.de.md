@@ -159,6 +159,10 @@ Sie können die Prüfung auch wie geplant durchführen und Sie lassen auch eine 
 
 ## Was tue ich, wenn technische Störungen auftreten? {: #technical_problems}
 
+!!! info "Kontakt"
+
+    Bei Fragen wenden Sie sich an Ihre Organisation. Das gilt auch, wenn es sich eindeutig um ein Problem in OpenOlat handelt. Bei grossen Teilnehmerzahlen informieren Sie Ihre Organisation am besten schon vor der Prüfung über den Termin.
+
 Wenn technische Störungen auftreten, ist es wichtig, die genaue Ursache zu kennen. Es ist zu unterscheiden zwischen Fehlern in der Infrastruktur (ausserhalb von OpenOlat) und Problemen, die in OpenOlat selbst auftreten könnten. 
 
 - **Stromausfall**<br>
@@ -171,9 +175,7 @@ Bei Netzwerkstörungen muss evtl. die verfügbare Prüfungszeit manuell verläng
 Ist für alle Prüfungsteilnehmer:innen der Zugriff auf OpenOlat unterbrochen, probieren Sie aus, ob auch andere Websites nicht erreichbar sind. Wenn ja, deutet das möglicherweise auf eine Störung beim Internet-Provider. Wenden Sie sich in diesem Fall für weitere Abklärungen an Ihren Techniker vor Ort.
 
 - **Probleme in OpenOlat**<br>
-Handelt es sich eindeutig um ein Problem in OpenOlat, wenden sich frentix-Kund:innen an den frentix Support: [support@frentix.com](mailto:support@frentix.com)<br>
-Ist OpenOlat bei frentix gehostet, können Sie uns bei grossen Teilnehmerzahlen gern auch vorher über Ihre Prüfung informieren, damit unsere Techniker während der laufenden Prüfung ein besonderes Auge auf Ihre OpenOlat-Instanz haben.<br>
-Informationen zum Betriebsstatus unserer Webserver können Sie jederzeit abrufen unter [https://www.openolat.com/betriebsstatus/](https://www.openolat.com/betriebsstatus/).
+Informationen zum Betriebsstatus der Webserver von frentix können Sie jederzeit abrufen unter [https://www.openolat.com/betriebsstatus/](https://www.openolat.com/betriebsstatus/).
 
 [zum Seitenanfang ^](#exam_preparation)
 
@@ -372,7 +374,7 @@ Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einze
 - [x] Probeklausur durchgeführt? Mit allen Prüfungsteilnehmer:innen?
 - [x] Prüfungsmodus konfiguriert?
 - [x] Safe Exam Browser konfiguriert?
-- [x] Bei sehr grosser Teilnehmerzahl: frentix vorab über den Prüfungstermin informiert?
+- [x] Bei sehr grosser Teilnehmerzahl: Ihre Organisation vorab über den Prüfungstermin informiert?
 - [x] Ist nach der Prüfung eine Prüfungseinsicht vorgesehen/eingerichtet?
 
 [zum Seitenanfang ^](#exam_preparation)

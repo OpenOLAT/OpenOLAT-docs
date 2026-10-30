@@ -37,14 +37,16 @@ Für eine bewertete Prüfung nutzen Sie weiterhin den [Kursbaustein Test](../../
 
 ## Voraussetzungen prüfen {: #requirements}
 
+!!! info "Kontakt"
+
+    Für eine Änderung am KI-Modul wenden Sie sich an Ihre Organisation.
+
 Die Freitextfrage im Quiz erscheint nur, wenn die Administration die passende KI-Funktion freigeschaltet hat.
 
 1. Öffnen Sie als Systemadministrator:in die System-Administration: `Administration > Externe Werkzeuge > KI-Modul`.
 2. Wählen Sie den Tab **"KI-Funktionen"**.
 3. Prüfen Sie die Funktion **"Essay Bewertung"**: Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI-Anbieter und ein Sprachmodell sind gewählt.
 4. Für den Weg über den Import prüfen Sie zusätzlich die Funktion **"Essay Fragen Generator"**.
-
-Bei frentix-Kund:innen verwaltet frentix das KI-Modul. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
 
 Zwei Grenzwerte dieser Funktion wirken direkt auf Lernende und Autor:innen:
 
@@ -182,9 +184,9 @@ Statt die Frage von Hand zu schreiben, lassen Sie sie aus einem Fachtext erzeuge
 
 1. Klicken Sie im Content Editor auf **"Importieren"**.
 2. Wählen Sie eine Markdown-, Text- oder Word-Datei, oder fügen Sie den Text direkt ein.
-3. Aktivieren Sie den Schalter **"KI-generiertes Quiz hinzufügen"**.
-4. Legen Sie im Feld **"Essay-Frage mit KI-Korrektur"** fest, wie viele Freitextfragen entstehen. Erlaubt sind bis zu fünf. Das Feld "MC-Fragen" steuert die Anzahl der Multiple-Choice-Fragen und kann auf 0 bleiben.
-5. Wählen Sie die **Bloom-Stufen** und die **Zielschwierigkeit**, und erfassen Sie bei Bedarf **Lernziele**, ein Ziel pro Zeile.<br><br>
+3. Aktivieren Sie den Schalter "KI-generiertes Quiz hinzufügen".
+4. Legen Sie im Feld "Essay-Frage mit KI-Korrektur" fest, wie viele Freitextfragen entstehen. Erlaubt sind bis zu fünf. Das Feld "MC-Fragen" steuert die Anzahl der Multiple-Choice-Fragen und kann auf 0 bleiben.
+5. Wählen Sie die "Bloom-Stufen" und die "Zielschwierigkeit", und erfassen Sie bei Bedarf "Lernziele", ein Ziel pro Zeile.<br><br>
 ![Schalter KI-generiertes Quiz hinzufügen eingeschaltet, MC-Fragen 0, Essay-Frage mit KI-Korrektur 1, zwei Bloom-Stufen und ein Lernziel gewählt](assets/ai_essay_import_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Importieren im Content Editor" }
 
 6. Starten Sie den Import. Die Generierung läuft im Hintergrund und kann eine Minute dauern. OpenOlat fügt die Fragen als Quiz-Element am Ende der Seite an.

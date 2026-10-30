@@ -44,6 +44,10 @@ Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Er
 
 ### Zertifikatsvorlage erstellen {: #certificate_template}
 
+!!! info "Kontakt"
+
+    frentix erstellt Zertifikatsvorlagen nach Ihren Vorgaben. Wenden Sie sich dafür an Ihre Organisation.
+
 Als Vorlage für das Zertifikat dient standardmässig die mitgelieferte Standardvorlage. Administrator:innen stellen darüber hinaus weitere systemweite Vorlagen zur Auswahl. Wenn Sie eine eigene Vorlage verwenden möchten, laden Sie diese hoch unter:<br>
 `Kurs > Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat" > Zertifikatvorlage`
 
@@ -150,8 +154,6 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
       * $custom1
       * $custom2
       * $custom3
-
-Sollten Sie eine Zertifikatsvorlage wünschen, kontaktieren Sie uns unter [contact@frentix.com](mailto:contact@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
 
 [Zum Seitenanfang ^](#certificate_and_recertification)
 

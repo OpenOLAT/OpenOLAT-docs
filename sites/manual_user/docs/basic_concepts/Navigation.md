@@ -32,6 +32,10 @@ In the [personal menu](../personal_menu/index.md) you find, among others, the se
 
 ## Share in the footer [:octicons-tag-16:{ title="from Release 21.1 (OO-9693)" }](https://track.frentix.com/issue/OO-9693){:target="_blank"} {: #share}
 
+!!! info "Contact"
+
+    The server configuration of your OpenOlat instance defines whether the action "Share" appears in the footer and which icons it shows. For a change, contact your organisation.
+
 If you want to show someone exactly the page you have open, for example a course element or a list, pass on the link to it. The link leads directly to this place in OpenOlat and not to the landing page. You find all ways to do this at the bottom left of the footer under the action "Share". The action is an icon without a label. The word "Share" appears when you point at it with the mouse.
 
 A click on "Share" opens a small window with a row of icons. Here too, the name of an icon appears when you point at it with the mouse. By default, these are:
@@ -55,7 +59,7 @@ On the info page of a learning resource or an implementation, the same action is
 
 !!! note "Note"
 
-    You do not see the action "Share" in the footer? Then sharing is switched off in the server configuration of your OpenOlat instance. It cannot be switched on in the administration. On the info page, the button "Share" remains visible anyway. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+    You do not see the action "Share" in the footer? Then sharing is switched off in the server configuration of your OpenOlat instance. It cannot be switched on in the administration. On the info page, the button "Share" remains visible anyway.
 
 ## Further information {: #further_information}
 

@@ -180,13 +180,17 @@ For detailed information on how to create a rubric form, see here:
 
 ### Information in the header {: #step_3_header}
 
+!!! info "Contact"
+
+    The general display of the user in the header applies to the whole OpenOlat instance. For a change, contact your organisation.
+
 !!! note "Note"
 
     Participant data is shown in the header of the form and does not need to be included as a field in the form (otherwise, it would appear twice).
 
 
 The header of the form uses the general display of the user.
-This display is used in many other places in OpenOlat (events, coaching, tests, task, learning path overview, portfolio, project, ...). It is not possible to change it for the form alone. The general display applies to the whole OpenOlat instance. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+This display is used in many other places in OpenOlat (events, coaching, tests, task, learning path overview, portfolio, project, ...). It is not possible to change it for the form alone.
 
 In the form editor, add information for
 

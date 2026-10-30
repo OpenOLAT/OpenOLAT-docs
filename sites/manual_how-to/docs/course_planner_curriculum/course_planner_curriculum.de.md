@@ -46,9 +46,13 @@ Die drei Planungen mit Grafiken erklärt das Benutzerhandbuch:<br>
 
 ## Was muss eingerichtet sein? {: #requirements}
 
+!!! info "Kontakt"
+
+    Der Course Planner ist ein Zusatzmodul. Für die Aktivierung wenden Sie sich an Ihre Organisation.
+
 Damit Sie die Schritte ausführen können, müssen vier Dinge erfüllt sein:
 
-- **Course Planner eingeschaltet**: Administrator:innen schalten den Course Planner in der System-Administration ein, mit dem Schalter Modul "Course Planner" unter `Administration > Module > Course Planner > Tab "Einstellungen"`. Hosting-Kund:innen von frentix wenden sich für die Aktivierung an frentix: [contact@frentix.com](mailto:contact@frentix.com)
+- **Course Planner eingeschaltet**: Administrator:innen schalten den Course Planner in der System-Administration ein, mit dem Schalter Modul "Course Planner" unter `Administration > Module > Course Planner > Tab "Einstellungen"`.
 - **Rolle**: Sie haben die Rolle Kursplaner:in oder sind Produktbesitzer:in des Produkts. Autor:innen haben keinen Zugang zum Course Planner, siehe [Wer kann den Course Planner nutzen? >](../../manual_user/area_modules/Course_Planner.de.md#users)
 - **Elementtypen**: Es gibt passende Elementtypen für die Durchführung und ihre Elemente (Schritt 1).
 - **Kurse**: Die Kurse tragen den Verwendungszweck "Verwendung im Course Planner", Kurstemplates den Verwendungszweck "Template" (Schritt 5).

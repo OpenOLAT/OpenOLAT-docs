@@ -36,9 +36,11 @@ Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungspr
 
 ## Wo und wie werden Produkte aktiviert? {: #activation}
 
-Der für die Erstellung von Produkten verwendete Course Planner ist ein Zusatzmodul in OpenOlat und muss zunächst freigeschaltet werden.<br>
-Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com](mailto:contact@frentix.com).<br>
-Sind Sie kein Hosting-Kunde von frentix, fragen Sie bitte Ihren Systembetreiber. 
+!!! info "Kontakt"
+
+    Für die Aktivierung wenden Sie sich an Ihre Organisation.
+
+Der für die Erstellung von Produkten verwendete Course Planner ist ein Zusatzmodul in OpenOlat und muss zunächst freigeschaltet werden.
 
 Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivieren und einrichten unter:<br>
 `Administration > Module > Course Planner`

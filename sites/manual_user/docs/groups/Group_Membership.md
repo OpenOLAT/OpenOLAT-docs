@@ -134,9 +134,11 @@ Group managers additionally have the "Group administration" tab in the group are
 
 ## 4d) Automatically created group memberships - managed {: #add_groupmembers_automatically}
 
-If certain people are already grouped together in another system (e.g. HR software), these group memberships can also be mapped in OpenOlat. However, this requires middleware (Syncher), which can then automatically assign users to specific OpenOlat groups.
+!!! info "Contact"
 
-If you have any questions about automatically assigned group membership, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com)
+    If you have questions, contact your organisation.
+
+If certain people are already grouped together in another system (e.g. HR software), these group memberships can also be mapped in OpenOlat. However, this requires middleware (Syncher), which can then automatically assign users to specific OpenOlat groups.
 
 [To the top of the page ^](#group_membership)
 

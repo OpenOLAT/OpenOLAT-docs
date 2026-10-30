@@ -27,9 +27,13 @@ Diese Funktion ist nur für [Lernpfadkurse](Learning_path_course.de.md) verfügb
 
 ## Termine und Raumbuchungen [:octicons-tag-16:{ title="ab Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #events_rooms}
 
+!!! info "Kontakt"
+
+    Die Voreinstellung für Termine im Kopiermodus «Automatisch» ist Teil der Serverkonfiguration. Für eine Änderung wenden Sie sich an Ihre Organisation.
+
 Wer einen Kurs für den nächsten Durchlauf kopiert, kann die Termine mitkopieren, statt sie neu zu erfassen. Die Auswahl «Termine» erscheint, wenn der Kurs Termine hat und Sie im Schritt «Allgemeine Einstellungen» den Kopiermodus «Benutzerdefiniert» wählen. Der Schritt «Kopieroptionen» zeigt sie dann unter «Weitere Optionen» mit «Kopieren», «Anpassen» und «Nicht kopieren». Mit «Anpassen» folgt der Schritt «Termine», in dem Sie je Termin Datum und Ort ändern und die Dozent:innen neu zuweisen.
 
-Im Kopiermodus «Automatisch» gilt die Voreinstellung Ihrer OpenOlat-Instanz, standardmässig werden dabei keine Termine kopiert. Welche Einstellung gilt, zeigt die Hilfe beim Feld «Kopiermodus». Die Voreinstellung ist Teil der Serverkonfiguration. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Im Kopiermodus «Automatisch» gilt die Voreinstellung Ihrer OpenOlat-Instanz, standardmässig werden dabei keine Termine kopiert. Welche Einstellung gilt, zeigt die Hilfe beim Feld «Kopiermodus».
 
 Ist das [Modul «Räume»](../../manual_admin/administration/Modules_Rooms.de.md) aktiviert, übernimmt jeder kopierte Termin auch die Raumbuchungen des ursprünglichen Termins. Der Zeitraum der Raumbuchung folgt dem kopierten Termin. Den Raum übernimmt die Raumbuchung immer vom ursprünglichen Termin, auch wenn Sie im Schritt «Termine» das Feld «Ort» ändern. OpenOlat prüft beim Kopieren nicht, ob der Raum im neuen Zeitraum noch frei ist. Eine Überschneidung zeigt die [Raumplanung im Course Planner](../area_modules/Course_Planner_Rooms.de.md#warnings) als Warnung an. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9459)" }](https://track.frentix.com/issue/OO-9459){:target="_blank"}
 
