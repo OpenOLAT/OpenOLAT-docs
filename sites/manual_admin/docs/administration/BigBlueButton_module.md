@@ -11,6 +11,10 @@ Instructions on how to configure individual online meetings for course owners ar
 
 ## Tab "Configuration" {: #tab_config}
 
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of the settings in the tab "Configuration".
+
   *  **Module "BigBlueButton":** Activation of the functionality
   *  **Activate for:** Activation of the functionality individually for course element "BigBlueButton", course events [:octicons-tag-16:{ title="from Release 20.0.1 (OO-8237)" }](https://track.frentix.com/issue/OO-8237), course element "Appointment scheduling", groups and supervisor chat
   *  **Online-Meetings without date:** Additional option to activate permanent reservations without a date in addition to online meetings. These are not visible in the calendar and count as booked at any time in the limits of the room template.
@@ -63,6 +67,10 @@ The "Capacity factor" field takes a value between 1 and 100 per server. The calc
 ---
 
 ## Tab "Room-templates" {: #tab_room-templates}
+
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of the settings in the tab "Room-templates".
 
 The room templates are available for selection when creating a new online meeting. The templates control:
 

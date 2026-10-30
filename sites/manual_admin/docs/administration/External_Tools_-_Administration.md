@@ -11,6 +11,10 @@ Available since | Release 10.5 (2016)
 
 ## BigBlueButton {: #bbb}
 
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of the settings in the tabs "Configuration" and "Room-templates".
+
 BigBlueButton is software for online conferences and virtual classrooms. To make web conferences with BigBlueButton possible in OpenOlat, activate and configure BigBlueButton in the system administration under `Administration > External tools > BigBlueButton`.
 
 [See the details >](BigBlueButton_module.md)<br>
@@ -50,12 +54,16 @@ You can activate and configure the tool if the required licenses are available.
 
 ## Microsoft Teams [:octicons-tag-16:{ title="from Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124){:target="_blank"} {: #_microsoft_teams}
 
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
 Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, it provides online meetings that participants join directly from OpenOlat. After activation, authors can use the [course element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md) in their courses.
 
 **Prerequisites for activation:**
 
 * A Microsoft 365 tenant (Microsoft Entra ID or Azure) with the required Microsoft Teams licenses.
-* The access data for the tenant ("Application (client) ID", "Client secret", "Tenant GUID") is stored at server level in the OpenOlat configuration. For hosted instances, this is done by the frentix support.
+* The access data for the tenant ("Application (client) ID", "Client secret", "Tenant GUID") is stored at server level in the OpenOlat configuration.
 
 **Prerequisites for use:**
 
@@ -176,6 +184,10 @@ The "More actions" menu (three-dot icon) at the end of each row offers these act
 
 ## card2brain [:octicons-tag-16:{ title="from Release 11.5 (OO-2699)" }](https://track.frentix.com/issue/OO-2699){:target="_blank"} {: #card2brain}
 
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
 card2brain is a software for learning with a flashcard system.
 
 You can activate and configure the tool if the required licenses are available.
@@ -273,6 +285,10 @@ You configure edu-sharing in four steps:
 
 ## Document editors [:octicons-tag-16:{ title="from Release 14.0 (OO-4009)" }](https://track.frentix.com/issue/OO-4009){:target="_blank"} {: #dokumenteneditoren}
 
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
 Various tools can be used in OpenOlat to edit Office documents, configured in the system administration under `Administration > External tools > Document editors`:
 
 * ONLYOFFICE
@@ -304,6 +320,10 @@ In the system administration under `Administration > External tools > Analytics`
 
 ## AI module [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
 
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of the settings in the tabs "AI providers", "AI features" and "AI processing pools".
+
 In the system administration under `Administration > External tools > AI module` you activate and configure the artificial intelligence tools that can be integrated into OpenOlat.
 
 [See the details >](External_Tools_AI.md)<br>
@@ -313,11 +333,13 @@ In the system administration under `Administration > External tools > AI module`
 
 ## ONNX embedding model [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #onnx_embedding_model}
 
+!!! info "frentix customers"
+
+    The model directory and the files in it are part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
+
 If Taxonomy Matching (Embeddings) is to run without an external AI provider, use an ONNX embedding model: OpenOlat loads it from a model directory on its own server, needs no API key, and no text leaves the server.
 
 As soon as a model is in the model directory, the system administration shows the section "ONNX embedding model" with the detected models under `Administration > External tools > AI module` in the tab "AI providers". There, "Rescan" detects newly placed models, and "Validate" checks whether each model loads correctly. Then, in the tab "AI features", select the provider "Local ONNX" and the embedding model for Taxonomy Matching (Embeddings), see [Module Taxonomy: Automatic assignment by AI](Modules_Taxonomy.md#ai_matching).
-
-The model directory and the files in it are part of the server configuration. frentix customers contact the frentix support for the setup: [support@frentix.com](mailto:support@frentix.com)
 
 [To the top of the page ^](#ext_tools)
 

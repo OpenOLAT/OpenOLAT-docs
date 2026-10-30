@@ -11,6 +11,10 @@ Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer:
 
 ## Tab "Konfiguration" {: #tab_config}
 
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen im Tab "Konfiguration".
+
   *  **Modul "BigBlueButton":** Aktivierung der Funktionalität
   *  **Aktivieren für:** Freischaltung der Funktionalität einzeln für Kursbaustein "BigBlueButton", Kurs Termine [:octicons-tag-16:{ title="ab Release 20.0.1 (OO-8237)" }](https://track.frentix.com/issue/OO-8237), Kursbaustein "Terminplanung", Gruppen und Betreuer:innen-Chat
   *  **Online-Termine ohne Datum:** Zusätzliche Möglichkeit neben Online-Terminen auch permanente Reservierungen ohne Datum freizuschalten. Diese sind im Kalender nicht ersichtlich und zählen zu jedem Zeitpunkt in den Limiten der Raumvorlage als belegt.
@@ -63,6 +67,10 @@ Das Feld "Capacity factor" nimmt je Server einen Wert zwischen 1 und 100 auf. Di
 ---
 
 ## Tab "Raumvorlagen" {: #tab_room-templates}
+
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen im Tab "Raumvorlagen".
 
 Die Raumvorlagen stehen bei der Erstellung eines neuen Online-Termins zur Auswahl. Die Vorlagen steuern:
 

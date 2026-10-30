@@ -1,13 +1,13 @@
 # SharePoint / OneDrive {: #sharepoint_onedrive}
 
+!!! info "frentix-Kund:innen"
 
-## SharePoint {: #sharepoint}
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
+
+
+## SharePoint [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #sharepoint}
 
 Für die Integration von SSO über Microsoft Entra ID, Microsoft Teams Online Meetings und die Microsoft SharePoint Integration wird nur eine einzige Microsoft Azure App eingerichtet.
-
-!!! info "Wichtig"
-
-    Für Unterstützung und Details wenden Sie sich bitte an frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 
 ### Voraussetzung
@@ -16,7 +16,7 @@ SSO über Microsoft Entra ID (ehemals Microsoft Azure AD Authentication) ist die
 
 !!! tip "Tipp"
 
-    Im Rahmen dieser Konfiguration kann auch **Office for the web** aktiviert werden. Diese Einstellung braucht jedoch nicht in der Microsoft Azure App konfiguriert werden, sondern ausschliesslich in der OpenOlat Administration. Diese Konfiguration muss von frentix vorgenommen werden.
+    Im Rahmen dieser Konfiguration kann auch **Office for the web** aktiviert werden. Diese Einstellung braucht jedoch nicht in der Microsoft Azure App konfiguriert werden, sondern ausschliesslich in der System-Administration unter `Administration > Externe Werkzeuge > Dokumenteneditoren`, Tab "Office for the web".
 
 
 ### Abfolge der Konfiguration
@@ -36,7 +36,7 @@ Sie finden die Konfiguration in der System-Administration unter:<br>
 **Beachten Sie:**<br>
 SharePoint und OneDrive können einzeln und unabhängig voneinander eingebunden werden.
 
-![Konfigurationsseite der Microsoft SharePoint / OneDrive Integration mit Modul-Aktivierung, Rollenauswahl sowie Listen der erlaubten und ausgeschlossenen Sites und Drives in der System-Administration](assets/sharepoint_config_v1_de.png){ class="shadow lightbox" }
+![Modul-Aktivierung, Rollenauswahl sowie Listen der erlaubten und ausgeschlossenen Sites und Drives der Microsoft SharePoint / OneDrive Integration](assets/sharepoint_config_v1_de.png){ class="shadow lightbox" title="Seite Microsoft SharePoint / OneDrive in der System-Administration" }
 
 ---
 

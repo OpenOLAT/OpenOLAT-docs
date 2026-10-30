@@ -1,16 +1,12 @@
 # External tools: AI module {: #ai}
 
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of the settings in the tabs "AI providers", "AI features" and "AI processing pools". frentix supports the choice of provider and model, the API key and the operation of a self-hosted model.
 
 In OpenOlat you are supported by AI at different points. For these points to work, you connect the AI providers you use in the AI module. The AI module supports multiple AI providers; you define per AI feature which provider and which model is used [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
 
 The AI module is part of the external tools, see [External Tools: Overview >](External_Tools_-_Administration.md). It is located in the system administration, system administrators configure it there. Only the role system administrator opens the system administration, administrators do not reach it without this role either. How roles are granted is described in [Assign roles >](../usermanagement/Assign_roles.md).
-
-!!! tip "Support by frentix"
-
-    Customers of frentix please contact [contact@frentix.com](mailto:contact@frentix.com) for connecting an AI provider. frentix supports the choice of provider and model, the API key and the operation of a self-hosted model. For systems with the fx-Release, frentix takes care of these adjustments.
-
-    **Not a frentix hosting-client?** Please ask your local system operator!
-
 
 ## Configuration {: #config}
 

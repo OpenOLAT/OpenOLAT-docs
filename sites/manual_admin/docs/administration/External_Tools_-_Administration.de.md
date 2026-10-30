@@ -11,6 +11,10 @@ Verfügbar seit | Release 10.5 (2016)
 
 ## BigBlueButton {: #bbb}
 
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen in den Tabs "Konfiguration" und "Raumvorlagen".
+
 BigBlueButton ist eine Software für Online-Konferenzen und virtuelle Klassenzimmer. Damit Webkonferenzen mit BigBlueButton in OpenOlat möglich sind, aktivieren und konfigurieren Sie BigBlueButton in der System-Administration unter `Administration > Externe Werkzeuge > BigBlueButton`.
 
 [Zu den Details >](BigBlueButton_module.de.md)<br>
@@ -51,12 +55,16 @@ Aktivieren und konfigurieren können Sie das Werkzeug, wenn die erforderlichen L
 
 ## Microsoft Teams [:octicons-tag-16:{ title="ab Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124){:target="_blank"} {: #_microsoft_teams}
 
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
 Microsoft Teams ist die Webkonferenz-Lösung von Microsoft: In Kursen und Gruppen entstehen damit Online-Termine, zu denen die Teilnehmenden direkt aus OpenOlat beitreten. Nach der Aktivierung können Autor:innen den [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md) in ihren Kursen einsetzen.
 
 **Voraussetzungen für die Aktivierung:**
 
 * Ein Microsoft 365 Tenant (Microsoft Entra ID bzw. Azure) mit den erforderlichen Microsoft Teams Lizenzen.
-* Die Zugangsdaten zum Tenant ("Anwendungs-ID (Client)", "Geheimer Clientschlüssel", "Tenant GUID") werden auf Serverebene in der OpenOlat-Konfiguration hinterlegt. Bei gehosteten Instanzen übernimmt dies der frentix Support.
+* Die Zugangsdaten zum Tenant ("Anwendungs-ID (Client)", "Geheimer Clientschlüssel", "Tenant GUID") werden auf Serverebene in der OpenOlat-Konfiguration hinterlegt.
 
 **Voraussetzungen für die Nutzung:**
 
@@ -186,6 +194,10 @@ Das Menü "Weitere Aktionen" (Symbol mit drei Punkten) am Ende jeder Zeile biete
 
 ## card2brain [:octicons-tag-16:{ title="ab Release 11.5 (OO-2699)" }](https://track.frentix.com/issue/OO-2699){:target="_blank"} {: #card2brain}
 
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
 card2brain ist eine Software für das Lernen mit einem Lernkartei-System.
 
 Aktivieren und konfigurieren können Sie das Werkzeug, wenn die erforderlichen Lizenzen vorhanden sind.
@@ -283,6 +295,10 @@ Sie konfigurieren edu-sharing in vier Schritten:
 
 ## Dokumenteneditoren [:octicons-tag-16:{ title="ab Release 14.0 (OO-4009)" }](https://track.frentix.com/issue/OO-4009){:target="_blank"} {: #dokumenteneditoren}
 
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
 Zur Bearbeitung von Office-Dokumenten können in OpenOlat verschiedene Werkzeuge verwendet werden, konfiguriert in der System-Administration unter `Administration > Externe Werkzeuge > Dokumenteneditoren`:
 
 * ONLYOFFICE
@@ -314,6 +330,10 @@ In der System-Administration unter `Administration > Externe Werkzeuge > Analyti
 
 ## KI-Modul [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
 
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen in den Tabs "KI-Anbieter", "KI-Funktionen" und "KI-Verarbeitungs-Pools".
+
 In der System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können.
 
 [Zu den Details >](External_Tools_AI.de.md)<br>
@@ -323,11 +343,13 @@ In der System-Administration unter `Administration > Externe Werkzeuge > KI-Modu
 
 ## ONNX Einbettungsmodell [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #onnx_embedding_model}
 
+!!! info "frentix-Kund:innen"
+
+    Das Modellverzeichnis und die Dateien darin sind Teil der Serverkonfiguration. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
 Soll die Taxonomie-Zuordnung (Embeddings) ohne externen KI-Anbieter laufen, setzen Sie ein ONNX Einbettungsmodell ein: OpenOlat lädt es aus einem Modellverzeichnis auf dem eigenen Server, braucht keinen API Schlüssel, und kein Text verlässt den Server.
 
 Sobald im Modellverzeichnis ein Modell liegt, zeigt die System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` im Tab "KI-Anbieter" den Abschnitt "ONNX Einbettungsmodell" mit den erkannten Modellen. Dort erkennt "Neu einlesen" neu abgelegte Modelle, und "Validieren" prüft, ob jedes Modell korrekt geladen wird. Im Tab "KI-Funktionen" wählen Sie danach bei der Taxonomie-Zuordnung (Embeddings) den Anbieter "Local ONNX" und das Einbettungsmodell, siehe [Modul Taxonomie: Automatische Zuordnung per KI](Modules_Taxonomy.de.md#ai_matching).
-
-Das Modellverzeichnis und die Dateien darin sind Teil der Serverkonfiguration. frentix-Kund:innen wenden sich für die Einrichtung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
 
 [Zum Seitenanfang ^](#ext_tools)
 

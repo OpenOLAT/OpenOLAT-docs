@@ -1,16 +1,12 @@
 # Externe Werkzeuge: KI-Modul {: #ai}
 
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen in den Tabs "KI-Anbieter", "KI-Funktionen" und "KI-Verarbeitungs-Pools". frentix unterstützt bei der Wahl von Anbieter und Modell, beim API-Schlüssel und beim Betrieb eines selbst gehosteten Modells.
 
 In OpenOlat werden Sie an verschiedenen Stellen durch KI unterstützt. Damit diese Stellen arbeiten, binden Sie im KI-Modul die KI-Anbieter an, die Sie verwenden. Das KI-Modul unterstützt mehrere KI-Anbieter; welcher Anbieter und welches Modell verwendet wird, legen Sie pro KI-Funktion fest [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
 
 Das KI-Modul ist Teil der externen Werkzeuge, siehe [Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md). Es liegt in der System-Administration, Systemadministrator:innen konfigurieren es dort. Nur die Rolle Systemadministrator:in öffnet die System-Administration, auch Administrator:innen erreichen sie ohne diese Rolle nicht. Wie Rollen vergeben werden, beschreibt [Rollen zuweisen >](../usermanagement/Assign_roles.de.md).
-
-!!! tip "Unterstützung durch frentix"
-
-    Kund:innen von frentix kontaktieren für die Anbindung eines KI-Anbieters bitte [contact@frentix.com](mailto:contact@frentix.com). frentix unterstützt bei der Wahl von Anbieter und Modell, beim API-Schlüssel und beim Betrieb eines selbst gehosteten Modells. Bei Systemen mit dem fx-Release übernimmt frentix diese Anpassungen.
-
-    **Nicht Hosting-Kund:in von frentix?** Fragen Sie Ihren Systembetreiber!
-
 
 ## Konfiguration {: #config}
 

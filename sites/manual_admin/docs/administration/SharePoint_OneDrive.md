@@ -1,12 +1,13 @@
 # SharePoint / OneDrive {: #sharepoint_onedrive}
 
-## SharePoint {: #sharepoint}
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of the activation.
+
+
+## SharePoint [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #sharepoint}
 
 Only a single Microsoft Azure app is set up for the integration of SSO via Microsoft Entra ID, Microsoft Teams Online Meetings and Microsoft SharePoint integration.
-
-!!! info "Important"
-
-    For support and details, please contact frentix: [contact@frentix.com](mailto:contact@frentix.com)
 
 ### Requirements
 
@@ -14,7 +15,7 @@ SSO via Microsoft Entra ID (formerly Microsoft Azure AD Authentication) is a pre
 
 !!! tip "Tip"
 
-    As part of this configuration, **Office for the web** can also be activated. However, this setting does not need to be configured in the Microsoft Azure App, but only in the OpenOlat Administration. This configuration must be carried out by frentix.
+    As part of this configuration, **Office for the web** can also be activated. However, this setting does not need to be configured in the Microsoft Azure App, but only in the system administration under `Administration > External tools > Document editors`, tab "Office for the web".
 
 
 ### Configuration sequence
@@ -34,7 +35,7 @@ You find the configuration in the system administration under:<br>
 **Please note:**<br>
 SharePoint and OneDrive can be integrated individually and independently of each other.
 
-![Configuration page of the Microsoft SharePoint / OneDrive integration with module activation, role selection and lists of allowed and excluded sites and drives in the system administration](assets/sharepoint_config_v1_de.png){ class="shadow lightbox" }
+![Module activation, role selection and lists of allowed and excluded sites and drives of the Microsoft SharePoint / OneDrive integration](assets/sharepoint_config_v1_de.png){ class="shadow lightbox" title="Microsoft SharePoint / OneDrive page in the system administration" }
 
 ---
 
