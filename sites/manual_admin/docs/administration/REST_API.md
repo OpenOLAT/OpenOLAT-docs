@@ -1,5 +1,8 @@
 # REST API {: #REST-API}
 
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
 Other systems such as a student administration, an external course administration or an external learning group administration exchange their data with OpenOlat via the REST API. The REST API is a programming interface following the Representational State Transfer architectural style. Through it, these systems manage users and learning groups, import courses, assemble catalogs or create many objects at once, without anyone carrying out these steps in the user interface.
 
 You switch the REST API on and off in the system administration with the "Access REST API" switch, under:<br>
@@ -140,7 +143,7 @@ A rejection because of too many simultaneous calls only carries the `Retry-After
 
 ### Settings {: #rate_limit_settings}
 
-Choose the values so that your third-party systems work without rejection in normal operation. All three fields accept whole numbers from 1. You apply your changes with "Save" at the end of the page; they take effect immediately, without a restart. The defaults of these settings can also be set in the server configuration. frentix customers contact the frentix support for this: [support@frentix.com](mailto:support@frentix.com)
+Choose the values so that your third-party systems work without rejection in normal operation. All three fields accept whole numbers from 1. You apply your changes with "Save" at the end of the page; they take effect immediately, without a restart. The defaults of these settings can also be set in the server configuration.
 
 #### Request limit {: #rate_limit_switch}
 
@@ -246,7 +249,7 @@ Passwords and other secret values never appear in plain text in the audit log. I
 You define what the audit log records and for how long in the system administration, under:<br>
 `Administration > Core functions > REST API > "Configuration" tab`
 
-The "Audit log" section appears as soon as the "Access REST API" switch is set to "On". You apply your changes with "Save" at the end of the page. The defaults of these settings can also be set in the server configuration. frentix customers contact the frentix support for this: [support@frentix.com](mailto:support@frentix.com)
+The "Audit log" section appears as soon as the "Access REST API" switch is set to "On". You apply your changes with "Save" at the end of the page. The defaults of these settings can also be set in the server configuration.
 
 ![Audit log switch on, read calls off, store request body on, maximum body size 16384 bytes and retention 365 days](assets/admin_core_config_rest_api_audit_log_settings_v1_en.png){ class="shadow lightbox" title="Audit log section in the Configuration tab · 2026.10.20" }
 

@@ -20,9 +20,12 @@ Available since | Release 8.0 (2011)
 
 ### Section Layout
 
+!!! info "frentix customers"
+    A new or individual theme is part of the installation on the server of your instance. For frentix customers, their customer advisor at frentix takes care of the change.
+
 Here you define how the whole instance looks: you choose one of the installed themes in the "System layout" list. The choice applies to all people of the instance, not only to your own view.
 
-You cannot create a new theme in the system administration. The "System layout" list only shows the themes that are installed on the server of your instance. The background image of the login page is also part of the theme. For a new or individual theme, contact the provider of your hosted instance. frentix customers contact frentix support for this: [support@frentix.com](mailto:support@frentix.com). If you run OpenOlat yourself, place the theme as a folder in the directory for custom themes on the server.
+You cannot create a new theme in the system administration. The "System layout" list only shows the themes that are installed on the server of your instance. The background image of the login page is also part of the theme. For a new or individual theme, contact the provider of your hosted instance. If you run OpenOlat yourself, place the theme as a folder in the directory for custom themes on the server.
 
 If a theme that is already loaded has been changed on the server, browsers often still show the old version from their cache. With the "Force reload of all static resources" button, all browsers load the files of the theme again. [:octicons-tag-16:{ title="from Release 12.3 (OO-3235)" }](https://track.frentix.com/issue/OO-3235)
 
@@ -77,6 +80,9 @@ The "Start" button opens the tool in a new window.
 
 ## System registration {: #system_registration}
 
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
 OpenOlat is open source and needs an active community of users. With the system registration, you register your installation with openolat.org. You will find the page in the system administration under:<br>
 `Administration > Customizing > System registration`
 
@@ -97,6 +103,9 @@ The portal is a site of the main navigation on which people arrange quick links,
 
 
 ## User properties {: #user_properties}
+
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
 
 Which details OpenOlat keeps about a person, what these details are called and where they appear is defined by administrators and system administrators for the whole instance. In one place you decide which data your organisation collects and which fields persons fill in in their profile, when an account is created or during self-registration. You will find the settings in the system administration under:<br>
 `Administration > Customizing > User Properties`

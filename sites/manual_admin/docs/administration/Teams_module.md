@@ -1,5 +1,8 @@
 # Microsoft Teams module {: #teams_module}
 
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
 Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, owners and coaches use it to create online meetings that participants join from within OpenOlat. Administrators define for the whole instance which types of online meetings are available, for example whether every meeting needs a date and therefore appears in the calendar.
 
 You configure the module in the system administration under:<br>
@@ -39,7 +42,7 @@ The BigBlueButton module has the same setting under the name "Online-Meetings wi
 
 #### Application (client) ID, Client secret, Tenant GUID {: #tenant_credentials}
 
-If access data for the Microsoft 365 tenant is stored in the server configuration, the tab shows it in these three fields for viewing. It can only be changed in the server configuration. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+If access data for the Microsoft 365 tenant is stored in the server configuration, the tab shows it in these three fields for viewing. It can only be changed in the server configuration.
 
 ### Meeting recording [:octicons-tag-16:{ title="from Release 21.1 (OO-9665)" }](https://track.frentix.com/issue/OO-9665) {: #meeting_recording}
 
@@ -53,7 +56,7 @@ The section only appears when the module is switched on. The four settings after
 
 Switches meeting recording on or off for the whole instance. If it is switched off, the recording settings are missing in every online meeting, and OpenOlat does not fetch any recording, also for online meetings that were saved earlier with meeting recording switched on.
 
-To switch it on, OpenOlat needs a key which protects the access tokens in the server configuration. If the key is missing, the section shows a warning, the switch cannot be switched on, and OpenOlat does not download any recordings. frentix customers contact the frentix support for the setup: [support@frentix.com](mailto:support@frentix.com)
+To switch it on, OpenOlat needs a key which protects the access tokens in the server configuration. If the key is missing, the section shows a warning, the switch cannot be switched on, and OpenOlat does not download any recordings.
 
 #### Meeting recording (default) {: #recording_default}
 

@@ -23,6 +23,9 @@ Im Abschnitt "Formate" legen Administrator:innen das "Zahlenformat" fest. Es bes
 
 ## REST API
 
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
 Andere Systeme wie eine Schülerverwaltung oder eine externe Kursverwaltung tauschen ihre Daten über die REST API (Representational State Transfer) mit OpenOlat aus. Hier schalten Administrator:innen die REST API ein und aus, bestimmen die extern verwalteten Objekte und werten im Tab "Audit-Log" die protokollierten Aufrufe aus.
 
 [Zu den Details >](../administration/REST_API.de.md)<br>
@@ -124,6 +127,9 @@ Wie viel Speicherplatz Ordner belegen dürfen, wie OpenOlat Dateiversionen aufbe
 
 ## Zugangskontrolle
 
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
 Über Angebote erhalten Personen Zugang zu Lernressourcen und Gruppen. Mit "Ressourcen Zugangskontrolle einschalten" schalten Administrator:innen die Zugangskontrolle für das ganze System ein. Unter "Verfügbare Angebotsart" wählen sie, welche Angebotsarten in Angeboten zur Wahl stehen.
 
 [Zum Seitenanfang ^](#core_config)
@@ -148,6 +154,9 @@ Damit die Volltextsuche auch Inhalte von Dateien findet, indexiert OpenOlat dies
 
 ## Benachrichtigungen {: #notifications}
 
+!!! info "frentix-Kund:innen"
+    Die Regel für den Versand ist Teil der Serverkonfiguration und gilt nach einer Änderung erst ab dem nächsten Neustart von OpenOlat. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
 Wer ein Forum, einen Ordner oder ein anderes Element abonniert hat, erhält die Neuigkeiten per E-Mail: OpenOlat verschickt je Person eine einzige E-Mail, die die Neuigkeiten aus allen ihren Abonnements auflistet. Hier sehen Sie, wann OpenOlat diese Benachrichtigungen verschickt, und können einen Versand sofort auslösen. Sie finden die Seite in der System-Administration unter:<br>
 `Administration > Core-Konfiguration > Benachrichtigungen`
 
@@ -155,7 +164,7 @@ Wer ein Forum, einen Ordner oder ein anderes Element abonniert hat, erhält die 
 
 Den Versand steuern drei Dinge:
 
-* **Zeitplan des Versands**: Die Seite zeigt an, ob die Benachrichtigungen eingeschaltet sind und nach welcher Regel in Cron-Syntax der Versand läuft. Im Standard läuft er alle zwei Stunden, jeweils zehn Minuten nach der vollen Stunde (00.10, 02.10, 04.10 Uhr usw.). In der Oberfläche lassen sich weder die Regel noch das Ein- und Ausschalten ändern. Die Regel ist Teil der Serverkonfiguration und gilt nach einer Änderung erst ab dem nächsten Neustart von OpenOlat. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+* **Zeitplan des Versands**: Die Seite zeigt an, ob die Benachrichtigungen eingeschaltet sind und nach welcher Regel in Cron-Syntax der Versand läuft. Im Standard läuft er alle zwei Stunden, jeweils zehn Minuten nach der vollen Stunde (00.10, 02.10, 04.10 Uhr usw.). In der Oberfläche lassen sich weder die Regel noch das Ein- und Ausschalten ändern.
 * **Sofortiger Versand**: Der Button "Benachrichtigungen auslösen" startet den Versand sofort, ohne den nächsten Termin abzuwarten. Auch dabei erhalten nur Benutzer:innen eine E-Mail, deren Intervall abgelaufen ist und für die es Neuigkeiten gibt.
 * **Intervall pro Person**: Wie oft eine Person höchstens eine E-Mail erhält, legt sie in ihren [Einstellungen](../../manual_user/personal_menu/Settings.de.md#notification_interval) unter "E-Mail-Benachrichtigung" selbst fest, von "alle zwei Stunden" bis "monatlich". Mit "ausgeschaltet" erhält sie keine Benachrichtigungen per E-Mail mehr. Wählt sie nichts, gilt "täglich". Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen ändern das Intervall einer Person auch in der Benutzerverwaltung unter `Benutzerverwaltung > "Benutzername" > Tab "Systemeinstellungen"`, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md).
 

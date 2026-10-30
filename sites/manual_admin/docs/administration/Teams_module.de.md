@@ -1,5 +1,8 @@
 # Modul Microsoft Teams {: #teams_module}
 
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
 Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. In Kursen und Gruppen legen Besitzer:innen und Betreuer:innen damit Online-Termine an, zu denen die Teilnehmenden aus OpenOlat heraus beitreten. Welche Arten von Online-Terminen dabei zur Wahl stehen, legen Administrator:innen für die ganze Instanz fest, zum Beispiel ob jeder Termin ein Datum braucht und damit im Kalender erscheint.
 
 Sie konfigurieren das Modul in der System-Administration unter:<br>
@@ -39,7 +42,7 @@ Das Modul BigBlueButton kennt dieselbe Einstellung unter dem Namen "Online-Termi
 
 #### Anwendungs-ID (Client), Geheimer Clientschlüssel, Tenant GUID {: #tenant_credentials}
 
-Sind in der Serverkonfiguration Zugangsdaten zum Microsoft 365 Tenant hinterlegt, zeigt der Tab sie in diesen drei Feldern zur Ansicht. Ändern lassen sie sich nur in der Serverkonfiguration. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Sind in der Serverkonfiguration Zugangsdaten zum Microsoft 365 Tenant hinterlegt, zeigt der Tab sie in diesen drei Feldern zur Ansicht. Ändern lassen sie sich nur in der Serverkonfiguration.
 
 ### Terminaufzeichnung [:octicons-tag-16:{ title="ab Release 21.1 (OO-9665)" }](https://track.frentix.com/issue/OO-9665) {: #meeting_recording}
 
@@ -53,7 +56,7 @@ Der Abschnitt erscheint erst, wenn das Modul eingeschaltet ist. Die vier Einstel
 
 Schaltet die Terminaufzeichnung für die ganze Instanz ein oder aus. Ist sie ausgeschaltet, fehlen die Einstellungen zur Aufzeichnung in jedem Online-Termin, und OpenOlat holt keine Aufzeichnung ab, auch für Online-Termine, die früher mit eingeschalteter Terminaufzeichnung gespeichert wurden.
 
-Zum Einschalten braucht OpenOlat in der Serverkonfiguration einen Schlüssel zum Schutz der Zugriffs-Token. Fehlt er, zeigt der Abschnitt eine Warnung, der Schalter lässt sich nicht einschalten, und OpenOlat lädt keine Aufzeichnungen herunter. frentix-Kund:innen wenden sich für die Einrichtung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Zum Einschalten braucht OpenOlat in der Serverkonfiguration einen Schlüssel zum Schutz der Zugriffs-Token. Fehlt er, zeigt der Abschnitt eine Warnung, der Schalter lässt sich nicht einschalten, und OpenOlat lädt keine Aufzeichnungen herunter.
 
 #### Terminaufzeichnung (Standard) {: #recording_default}
 

@@ -23,6 +23,9 @@ In the section "Formats" administrators define the "Number format". It determine
 
 ## REST API
 
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
 Other systems such as a student administration or an external course administration exchange their data with OpenOlat via the REST API (Representational State Transfer). Here administrators switch the REST API on and off, determine the externally managed objects and evaluate the logged calls in the tab "Audit log".
 
 [See the details >](../administration/REST_API.md)<br>
@@ -124,6 +127,9 @@ With WebDAV (Web-based Distributed Authoring and Versioning) users access their 
 
 ## Access control
 
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
 Through offers, persons get access to learning resources and groups. With "Enable resource access control" administrators switch access control on for the whole system. Under "Available offer types" they choose which offer types can be selected in offers.
 
 [To the top of the page ^](#core_config)
@@ -148,6 +154,9 @@ So that the full-text search also finds the content of files, OpenOlat indexes t
 
 ## Notifications {: #notifications}
 
+!!! info "frentix customers"
+    The rule for the sending is part of the server configuration and applies after a change only from the next restart of OpenOlat. For frentix customers, their customer advisor at frentix takes care of the change.
+
 Anyone who has subscribed to a forum, a folder or another element receives the news by e-mail: OpenOlat sends each person one single e-mail that lists the news from all their subscriptions. Here you see when OpenOlat sends these notifications, and you can trigger a sending immediately. You find the page in the system administration under:<br>
 `Administration > Core functions > Notifications`
 
@@ -155,7 +164,7 @@ Anyone who has subscribed to a forum, a folder or another element receives the n
 
 Three things control the sending:
 
-* **Schedule of the sending**: The page shows whether the notifications are switched on and by which rule in cron syntax the sending runs. By default it runs every two hours, ten minutes past the full hour (00:10, 02:10, 04:10 and so on). Neither the rule nor switching on and off can be changed in the user interface. The rule is part of the server configuration and applies after a change only from the next restart of OpenOlat. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+* **Schedule of the sending**: The page shows whether the notifications are switched on and by which rule in cron syntax the sending runs. By default it runs every two hours, ten minutes past the full hour (00:10, 02:10, 04:10 and so on). Neither the rule nor switching on and off can be changed in the user interface.
 * **Immediate sending**: The button "Trigger notifications" starts the sending immediately, without waiting for the next scheduled time. Here too, only users whose interval has expired and for whom there is news receive an e-mail.
 * **Interval per person**: How often a person receives an e-mail at most, they set themselves in their [Settings](../../manual_user/personal_menu/Settings.md#notification_interval) under "E-mail notification", from "Every two hours" to "Monthly". With "Never" they no longer receive notifications by e-mail. If they choose nothing, "Daily" applies. Administrators, user managers and role managers also change the interval of a person in the user management under `User management > "Username" > Tab "System settings"`, see [Manage user settings](../usermanagement/Configure_User.md).
 

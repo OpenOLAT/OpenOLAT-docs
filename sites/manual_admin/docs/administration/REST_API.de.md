@@ -1,5 +1,8 @@
 # REST API {: #REST-API}
 
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
 Andere Systeme wie eine Schülerverwaltung, eine externe Kursverwaltung oder eine externe Verwaltung von Lerngruppen tauschen ihre Daten über die REST API mit OpenOlat aus. Die REST API ist eine Programmierschnittstelle nach dem Architekturstil Representational State Transfer. Über sie verwalten diese Systeme Benutzer:innen und Lerngruppen, importieren Kurse, stellen Kataloge zusammen oder legen viele Objekte auf einmal an, ohne dass jemand diese Schritte in der Benutzeroberfläche ausführt.
 
 Die REST API schalten Sie in der System-Administration mit dem Schalter "REST API Zugang" ein und aus, unter:<br>
@@ -144,7 +147,7 @@ Eine Abweisung wegen zu vieler gleichzeitiger Aufrufe trägt nur den Header `Ret
 
 ### Einstellungen {: #rate_limit_settings}
 
-Wählen Sie die Werte so, dass Ihre Fremdsysteme im normalen Betrieb ohne Abweisung arbeiten. Erlaubt sind in allen drei Feldern ganze Zahlen ab 1. Ihre Änderungen übernehmen Sie mit "Speichern" am Ende der Seite; sie gelten sofort, ohne Neustart. Die Vorgaben dieser Einstellungen lassen sich auch in der Serverkonfiguration festlegen. frentix-Kund:innen wenden sich dafür an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Wählen Sie die Werte so, dass Ihre Fremdsysteme im normalen Betrieb ohne Abweisung arbeiten. Erlaubt sind in allen drei Feldern ganze Zahlen ab 1. Ihre Änderungen übernehmen Sie mit "Speichern" am Ende der Seite; sie gelten sofort, ohne Neustart. Die Vorgaben dieser Einstellungen lassen sich auch in der Serverkonfiguration festlegen.
 
 #### Limite für Anfragen {: #rate_limit_switch}
 
@@ -251,7 +254,7 @@ Passwörter und andere geheime Werte stehen nicht im Klartext im Audit-Log. Im R
 Was das Audit-Log festhält und wie lange, legen Sie in der System-Administration fest, unter:<br>
 `Administration > Core-Konfiguration > REST API > Tab "Konfiguration"`
 
-Der Abschnitt "Audit-Log" erscheint, sobald der Schalter "REST API Zugang" auf "Ein" steht. Ihre Änderungen übernehmen Sie mit "Speichern" am Ende der Seite. Die Vorgaben dieser Einstellungen lassen sich auch in der Serverkonfiguration festlegen. frentix-Kund:innen wenden sich dafür an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Der Abschnitt "Audit-Log" erscheint, sobald der Schalter "REST API Zugang" auf "Ein" steht. Ihre Änderungen übernehmen Sie mit "Speichern" am Ende der Seite. Die Vorgaben dieser Einstellungen lassen sich auch in der Serverkonfiguration festlegen.
 
 ![Schalter Audit-Log eingeschaltet, lesende Aufrufe aus, Request-Body speichern ein, maximale Body-Grösse 16384 Bytes und Aufbewahrung 365 Tage](assets/admin_core_config_rest_api_audit_log_settings_v1_de.png){ class="shadow lightbox" title="Abschnitt Audit-Log im Tab Konfiguration · 2026.10.20" }
 

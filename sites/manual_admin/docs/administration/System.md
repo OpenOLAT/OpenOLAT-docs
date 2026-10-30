@@ -1,4 +1,4 @@
-# System
+# System {: #system}
 
 ![Menu System in the System Administration with ten areas, including Info messages, Errors, Caches and Scheduler, for system information, maintenance and diagnostics](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
@@ -30,7 +30,23 @@ The currently logged in persons are displayed here.
 
 ## Errors {: #errors}
 
-Here you can search for error numbers and dates.
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of the setting "Log levels".
+
+In the "Errors" tab, administrators search for an error message by error number and date.
+
+In the "Log levels" tab, administrators define for each logger how detailed OpenOlat logs: "Error", "Warn", "Info" or "Debug".
+
+[To the top of the page ^](#system)
+
+
+
+## Log files {: #log_files}
+
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
+Here administrators find the files in the log directory of the server, each with file name and size. A click on a file name downloads the file. The files "olat.log", "catalina.out" and "syncher.log" are at the top, the other files follow by the date of their last change, the newest first.
 
 [To the top of the page ^](#system)
 
@@ -38,7 +54,10 @@ Here you can search for error numbers and dates.
 
 ## Caches {: #caches}
 
-Cache settings are listed here and OpenOlat caches can be emptied.
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
+Here administrators see the cache settings and empty the OpenOlat caches.
 
 [To the top of the page ^](#system)
 
@@ -46,7 +65,7 @@ Cache settings are listed here and OpenOlat caches can be emptied.
 
 ## Locks {: #locks}
 
-The objects locked by users are displayed here.
+Here administrators see the objects that users have locked.
 
 [To the top of the page ^](#system)
 
@@ -54,7 +73,10 @@ The objects locked by users are displayed here.
 
 ## Database ORM {: #database}
 
-The "Database ORM" tab provides statistical information and lists JPA queries and JPA entities.
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
+
+The "Database ORM" page provides statistical information and lists JPA queries and JPA entities.
 
 [To the top of the page ^](#system)
 
@@ -76,7 +98,10 @@ Administrators can find an overview of scheduler jobs here.
 
 
 
-## Configurations {: #system_config}
+## Configuration overview {: #system_config}
+
+!!! info "frentix customers"
+    For frentix customers, their customer advisor at frentix takes care of this configuration.
 
 Here administrators can find a list of all keys for the standard variables and the module configurations.
 

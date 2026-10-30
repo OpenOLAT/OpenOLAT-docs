@@ -30,7 +30,23 @@ Hier werden die aktuell eingeloggten Personen angezeigt.
 
 ## Errors {: #errors}
 
-Hier kann nach Fehlernummer und Datum gesucht werden.
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellung "Log levels".
+
+Im Tab "Fehler" suchen Administrator:innen eine Fehlermeldung nach Fehlernummer und Datum.
+
+Im Tab "Log levels" legen Administrator:innen für jeden Logger fest, wie ausführlich OpenOlat protokolliert: "Error", "Warn", "Info" oder "Debug".
+
+[Zum Seitenanfang ^](#system)
+
+
+
+## Log Dateien {: #log_files}
+
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
+Hier finden Administrator:innen die Dateien im Log-Verzeichnis des Servers, je mit Dateiname und Grösse. Ein Klick auf einen Dateinamen lädt die Datei herunter. Die Dateien "olat.log", "catalina.out" und "syncher.log" stehen zuoberst, die übrigen folgen nach dem Datum der letzten Änderung, die neueste zuerst.
 
 [Zum Seitenanfang ^](#system)
 
@@ -38,7 +54,10 @@ Hier kann nach Fehlernummer und Datum gesucht werden.
 
 ## Caches {: #caches}
 
-Hier werden Cache-Einstellungen aufgelistet und OpenOlat-Caches können geleert werden.
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
+Hier sehen Administrator:innen die Cache-Einstellungen und leeren die OpenOlat-Caches.
 
 [Zum Seitenanfang ^](#system)
 
@@ -46,7 +65,7 @@ Hier werden Cache-Einstellungen aufgelistet und OpenOlat-Caches können geleert 
 
 ## Locks {: #locks}
 
-Hier werden die durch Benutzer gesperrten Objekte angezeigt.
+Hier sehen Administrator:innen die Objekte, die Benutzer:innen gesperrt haben.
 
 [Zum Seitenanfang ^](#system)
 
@@ -54,7 +73,10 @@ Hier werden die durch Benutzer gesperrten Objekte angezeigt.
 
 ## Database ORM {: #database}
 
-Der Tab "Database ORM" liefert Statistik-Angaben und listet JPA Queries und JPA Entities.
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
+
+Die Seite "Database ORM" liefert Statistik-Angaben und listet JPA Queries und JPA Entities.
 
 [Zum Seitenanfang ^](#system)
 
@@ -77,6 +99,9 @@ Hier finden Administrator:innen eine Übersicht über Scheduler-Jobs.
 
 
 ## Konfigurationen {: #system_config}
+
+!!! info "frentix-Kund:innen"
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
 
 Hier finden Administrator:innen eine Auflistung aller Keys der Standard-Variablen und die Modul-Konfigurationen.
 
