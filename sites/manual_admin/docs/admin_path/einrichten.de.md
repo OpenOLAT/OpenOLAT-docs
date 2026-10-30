@@ -115,7 +115,7 @@ Die Seite, die eine Person nach der Anmeldung sieht.
 
 Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > Core-Konfiguration`<br>`Administration > Customizing`
 
-Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
+Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit Support und Coaching.
 
 </div>
 

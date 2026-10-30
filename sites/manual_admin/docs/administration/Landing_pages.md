@@ -80,12 +80,16 @@ A rule can also lead deeper than the entry page of an area. With `/CoachSite/0/C
 
 ## What takes precedence over the rules {: #precedence}
 
+!!! info "frentix customers"
+
+    The default value for "Resume last session" is part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
+
 The rules only determine the landing page if a person does not return to their last location after login and has not set their own landing page. Each person sets both of these in their [personal settings](../../manual_user/personal_menu/Settings.md#special):
 
 * **Resume last session:** With "No", OpenOlat opens the landing page that your rules determine for the person after each login. With "Yes, automatically", OpenOlat instead opens the location the person visited last. They then only see your landing page as long as there is no such location yet, for example at the first login. With "Yes, on request", OpenOlat asks after login "Do you want to resume your last session?". If the person clicks "Landing page", your landing page opens.
 * **Landing page:** In the field "Landing page", a person sets any page they are allowed to open as their personal landing page. It takes precedence over every rule.
 
-If a person has never saved anything for "Resume last session", the value from the server configuration of your OpenOlat instance applies. As delivered, this is "No": all persons without their own choice and without a personal landing page land on the landing page your rules determine after login, without a prompt [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}. If OpenOlat is to ask these persons after login whether they want to resume their last session, the value can be set to "Yes, on request". frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+If a person has never saved anything for "Resume last session", the value from the server configuration of your OpenOlat instance applies. As delivered, this is "No": all persons without their own choice and without a personal landing page land on the landing page your rules determine after login, without a prompt [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}. If OpenOlat is to ask these persons after login whether they want to resume their last session, the value can be set to "Yes, on request".
 
 Persons who log in via a link, e.g. from an e-mail, land at the target of this link. The rules do not apply to guests and invitees.
 

@@ -40,7 +40,10 @@ In the following steps, the "Preview of account data" shows which accounts are n
 
 ## Take over accounts from LDAP or Azure {: #import_external_users}
 
-If OpenOlat is connected to an LDAP directory or to Azure, you take over a person from there instead of creating their account by hand. The action "Import external users" is visible to the same roles as "Import accounts", but only if the search in the connected directory is switched on in the server configuration. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+!!! info "frentix customers"
+    The search in the connected directory is part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
+
+If OpenOlat is connected to an LDAP directory or to Azure, you take over a person from there instead of creating their account by hand. The action "Import external users" is visible to the same roles as "Import accounts", but only if the search in the connected directory is switched on in the server configuration.
 
 Search for the person by first name, last name or email address and select them. In the following form you complete the missing details. The person then logs in with their credentials from the connected directory.
 

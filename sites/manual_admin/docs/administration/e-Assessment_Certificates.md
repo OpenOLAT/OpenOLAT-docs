@@ -33,11 +33,14 @@ The default template itself does not appear in this list. It belongs to the inst
 
 ## Maintenance tab [:octicons-tag-16:{ title="from Release 20.3.7 (OO-9659)" }](https://track.frentix.com/issue/OO-9659) {: #tab_maintenance}
 
+!!! info "frentix customers"
+    The interval and the number of attempts with which OpenOlat generates the PDF files are part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
+
 When a person reports that their certificate cannot be downloaded or arrived as an empty PDF file, administrators find all affected certificates in the "Maintenance" tab and regenerate the PDF files.
 
 OpenOlat issues a certificate immediately and then generates the PDF file in the background. Until the file is available, the certificate has the status "Pending". If the PDF service does not respond, the certificate changes to "Error", and OpenOlat repeats the generation automatically. Only when all attempts have failed does it remain in the status "Error" for good and require the "Maintenance" tab. The notification reaches the person after the first attempt even if the PDF file is still missing; if a later attempt succeeds, a second email with the certificate follows. [:octicons-tag-16:{ title="from Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)
 
-The interval and the number of attempts are part of the server configuration and cannot be set in the user interface. In the default configuration, OpenOlat checks every five minutes whether PDF files need to be generated, and repeats a failed generation after one hour, at most ten times. If three certificates fail in a row, OpenOlat stops the run and starts again at the next scheduled time. A change only takes effect after the next restart. frentix customers contact the frentix support for a change: [support@frentix.com](mailto:support@frentix.com)
+The interval and the number of attempts are part of the server configuration and cannot be set in the user interface. In the default configuration, OpenOlat checks every five minutes whether PDF files need to be generated, and repeats a failed generation after one hour, at most ten times. If three certificates fail in a row, OpenOlat stops the run and starts again at the next scheduled time. A change only takes effect after the next restart.
 
 The regeneration only replaces the PDF file. The serial number, the issue date and the validity remain unchanged. In a recertification, the regenerated certificate also remains the current certificate of the person.
 
@@ -54,10 +57,10 @@ The search finds certificates whose PDF file is missing or empty, as well as all
 
 ### Regenerate PDF files {: #regenerate_certificates}
 
-If the search finds broken certificates, the checkbox "Resend email to recipient" and the button **Regenerate certificates** appear.
+If the search finds broken certificates, the checkbox "Resend email to recipient" and the button "Regenerate certificates" appear.
 
 1. Decide whether the persons are notified again. Without the checkmark, OpenOlat only replaces the PDF file and nobody receives an email. With the checkmark, OpenOlat sends the notification with the certificate to the person again. For certificates from single courses, the copies configured in the "Certificates configuration" tab are also sent. For certificates from certification programs, only the person receives the email.
-2. Click **Regenerate certificates**. The dialog states the number of certificates and, if selected, of emails. Confirm with **Regenerate** or **Regenerate and send**.
+2. Click "Regenerate certificates". The dialog states the number of certificates and, if selected, of emails. Confirm with "Regenerate" or "Regenerate and send".
 3. OpenOlat creates the PDF files in the background. Repeat the search to check the result: successfully regenerated certificates no longer appear in the result.
 
 [To the top of the page ^](#certificates)

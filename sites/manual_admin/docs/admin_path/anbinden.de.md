@@ -141,7 +141,7 @@ Programmierschnittstelle nach dem REST-Muster.
 
 Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > e-Assessment > Prüfungsverwaltung`<br>`Administration > Externe Werkzeuge`<br>`Administration > Core-Konfiguration > REST API`
 
-Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
+Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit Support und Coaching.
 
 </div>
 

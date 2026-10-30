@@ -80,12 +80,16 @@ Eine Regel kann auch tiefer führen als auf die Einstiegsseite eines Bereichs. M
 
 ## Was Vorrang vor den Regeln hat {: #precedence}
 
+!!! info "frentix-Kund:innen"
+
+    Der Standardwert für "Sitzung wiederherstellen" ist Teil der Serverkonfiguration. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
 Die Regeln bestimmen die Startseite nur, wenn eine Person nach dem Login nicht an ihren letzten Ort zurückkehrt und keine eigene Startseite festgelegt hat. Beides legt jede Person in ihren [persönlichen Einstellungen](../../manual_user/personal_menu/Settings.de.md#special) selbst fest:
 
 * **Sitzung wiederherstellen:** Mit "Nein" öffnet OpenOlat nach jedem Login die Startseite, die Ihre Regeln für die Person bestimmen. Mit "Ja, automatisch" öffnet OpenOlat stattdessen den Ort, den die Person zuletzt besucht hat. Dann sieht sie Ihre Startseite nur, solange es noch keinen solchen Ort gibt, etwa beim ersten Login. Mit "Ja, bei Bedarf" fragt OpenOlat nach dem Login "Wollen Sie Ihre letzte Sitzung wiederherstellen?". Klickt die Person auf "Startseite", öffnet sich Ihre Startseite.
 * **Startseite:** Im Feld "Startseite" legt eine Person jede Seite, die sie öffnen darf, als persönliche Startseite fest. Sie hat Vorrang vor jeder Regel.
 
-Hat eine Person für "Sitzung wiederherstellen" nie etwas gespeichert, gilt der Wert aus der Serverkonfiguration Ihrer OpenOlat-Instanz. Im Auslieferungszustand ist das "Nein": Alle Personen ohne eigene Wahl und ohne persönliche Startseite landen nach dem Login ohne Rückfrage auf der Startseite, die Ihre Regeln bestimmen [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}. Soll OpenOlat diese Personen nach dem Login fragen, ob sie ihre letzte Sitzung wiederherstellen wollen, lässt sich der Wert auf "Ja, bei Bedarf" setzen. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Hat eine Person für "Sitzung wiederherstellen" nie etwas gespeichert, gilt der Wert aus der Serverkonfiguration Ihrer OpenOlat-Instanz. Im Auslieferungszustand ist das "Nein": Alle Personen ohne eigene Wahl und ohne persönliche Startseite landen nach dem Login ohne Rückfrage auf der Startseite, die Ihre Regeln bestimmen [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}. Soll OpenOlat diese Personen nach dem Login fragen, ob sie ihre letzte Sitzung wiederherstellen wollen, lässt sich der Wert auf "Ja, bei Bedarf" setzen.
 
 Wer sich über einen Link anmeldet, z.B. aus einer E-Mail, landet beim Ziel dieses Links. Für Gäste und eingeladene Personen gelten die Regeln nicht.
 

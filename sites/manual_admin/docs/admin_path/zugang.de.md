@@ -161,7 +161,7 @@ Ein achtstelliger Bestätigungscode, den OpenOlat nach der Eingabe von Anmeldena
 
 Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > Login`
 
-Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
+Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit Support und Coaching.
 
 </div>
 

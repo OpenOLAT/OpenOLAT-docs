@@ -32,11 +32,14 @@ Die Standardvorlage selbst erscheint nicht in dieser Liste. Sie gehört zur Inst
 
 ## Tab Wartung [:octicons-tag-16:{ title="ab Release 20.3.7 (OO-9659)" }](https://track.frentix.com/issue/OO-9659) {: #tab_maintenance}
 
+!!! info "frentix-Kund:innen"
+    Takt und Anzahl der Versuche, mit denen OpenOlat die PDF-Dateien erzeugt, sind Teil der Serverkonfiguration. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
 Meldet eine Person, dass sich ihr Zertifikat nicht herunterladen lässt oder als leere PDF-Datei angekommen ist, finden Administrator:innen im Tab "Wartung" alle betroffenen Zertifikate und erzeugen die PDF-Dateien neu.
 
 OpenOlat stellt ein Zertifikat sofort aus und erzeugt die PDF-Datei danach im Hintergrund. Bis sie vorliegt, trägt das Zertifikat den Status "Hängig". Antwortet der PDF-Dienst nicht, wechselt das Zertifikat auf "Fehler", und OpenOlat wiederholt die Erzeugung automatisch. Erst wenn alle Versuche gescheitert sind, bleibt es endgültig im Status "Fehler" und braucht den Tab "Wartung". Die Benachrichtigung geht nach dem ersten Versuch auch dann an die Person, wenn die PDF-Datei noch fehlt; gelingt ein späterer Versuch, folgt eine zweite E-Mail mit dem Zertifikat. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)
 
-Takt und Anzahl der Versuche sind Teil der Serverkonfiguration und lassen sich in der Oberfläche nicht einstellen. In der Standardkonfiguration prüft OpenOlat alle fünf Minuten, ob PDF-Dateien zu erzeugen sind, und wiederholt eine gescheiterte Erzeugung nach einer Stunde, höchstens zehnmal. Scheitern drei Zertifikate hintereinander, bricht OpenOlat den Durchgang ab und setzt beim nächsten Termin neu an. Eine Änderung gilt erst ab dem nächsten Neustart. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+Takt und Anzahl der Versuche sind Teil der Serverkonfiguration und lassen sich in der Oberfläche nicht einstellen. In der Standardkonfiguration prüft OpenOlat alle fünf Minuten, ob PDF-Dateien zu erzeugen sind, und wiederholt eine gescheiterte Erzeugung nach einer Stunde, höchstens zehnmal. Scheitern drei Zertifikate hintereinander, bricht OpenOlat den Durchgang ab und setzt beim nächsten Termin neu an. Eine Änderung gilt erst ab dem nächsten Neustart.
 
 Die Neuerstellung ersetzt nur die PDF-Datei. Seriennummer, Ausstellungsdatum und Gültigkeitsdauer bleiben unverändert. Auch bei einer Rezertifizierung bleibt das neu erzeugte Zertifikat das aktuelle Zertifikat der Person.
 
@@ -53,10 +56,10 @@ Die Suche findet Zertifikate, deren PDF-Datei fehlt oder leer ist, sowie alle Ze
 
 ### PDF-Dateien neu erzeugen {: #regenerate_certificates}
 
-Findet die Suche fehlerhafte Zertifikate, erscheinen die Checkbox "E-Mail erneut an Empfänger senden" und die Schaltfläche **Zertifikate neu erzeugen**.
+Findet die Suche fehlerhafte Zertifikate, erscheinen die Checkbox "E-Mail erneut an Empfänger senden" und die Schaltfläche "Zertifikate neu erzeugen".
 
 1. Entscheiden Sie, ob die Personen erneut benachrichtigt werden. Ohne Häkchen ersetzt OpenOlat nur die PDF-Datei, und niemand erhält eine E-Mail. Mit Häkchen verschickt OpenOlat die Benachrichtigung mit dem Zertifikat erneut an die Person. Bei Zertifikaten aus Einzelkursen gehen zusätzlich die Kopien, die im Tab "Zertifikate Konfiguration" eingerichtet sind. Bei Zertifikaten aus Zertifikatsprogrammen erhält nur die Person die E-Mail.
-2. Klicken Sie **Zertifikate neu erzeugen**. Der Dialog nennt die Anzahl der Zertifikate und, falls gewählt, der E-Mails. Bestätigen Sie mit **Neu erzeugen** oder **Neu erzeugen und senden**.
+2. Klicken Sie "Zertifikate neu erzeugen". Der Dialog nennt die Anzahl der Zertifikate und, falls gewählt, der E-Mails. Bestätigen Sie mit "Neu erzeugen" oder "Neu erzeugen und senden".
 3. OpenOlat erzeugt die PDF-Dateien im Hintergrund. Wiederholen Sie die Suche, um das Resultat zu prüfen: Erfolgreich neu erzeugte Zertifikate erscheinen nicht mehr im Resultat.
 
 [Zum Seitenanfang ^](#certificates)

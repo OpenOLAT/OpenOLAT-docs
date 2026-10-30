@@ -147,7 +147,7 @@ A unit in the structure of the platform, for example a school, an institute or a
 
 After the installation, you create accounts and assign roles in user management. It is in the main navigation.
 
-frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
+Your customer advisor at frentix supports you with the setup through support and coaching.
 
 </div>
 

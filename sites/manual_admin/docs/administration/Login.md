@@ -1,11 +1,12 @@
 # Login: Overview {: #login}
 
+!!! info "frentix customers"
+    The entries "Shibboleth" and "LDAP" only appear in the menu if the respective integration is switched on in the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
+
 ![Configuration menu Login in the system administration with the areas Security, Password and authentication, Cloud login, Anonymous and external users, Self-registration and SMS](assets/admin_login_overview_v2_en.png){ class="shadow lightbox aside-left-lg" }
 
 Administrators and system administrators define how users log in to OpenOlat and register themselves in the adjacent menu of the system administration:<br>
 `Administration > Login`
-
-The entries "Shibboleth" and "LDAP" only appear in the menu if the respective integration is switched on in the server configuration. frentix customers contact the frentix support for this: [support@frentix.com](mailto:support@frentix.com)
 
 ## Profile
 

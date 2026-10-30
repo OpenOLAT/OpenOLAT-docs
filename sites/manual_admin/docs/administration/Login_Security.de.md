@@ -37,6 +37,9 @@ Im Tab "Konfiguration" schalten Sie die Sicherheitsfunktionen für die ganze Ins
 
 ### SSRF Mitigation [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310) {: #ssrf}
 
+!!! info "frentix-Kund:innen"
+    Ausnahmen vom Schutz für einzelne IP-Adressen, Adressbereiche und Hostnamen sind Teil der Serverkonfiguration. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
 An mehreren Stellen tragen Personen in OpenOlat eine Internetadresse ein, die danach der Server selbst abruft, etwa beim Import eines Kalenders per URL oder beim Einbinden eines externen Blogs. Die Checkbox "SSRF Mitigation" (Server-Side Request Forgery) verhindert, dass jemand über eine solche Adresse den Server dazu bringt, Dienste im internen Netz Ihrer Organisation abzurufen, die von aussen nicht erreichbar sind. Über der Checkbox steht der Hinweis "Lokale Adressen sind in Kalender-URLs, externen Seiten, LTI, Badges… nicht erlaubt."
 
 **Eingeschaltet**: OpenOlat löst jede eingegebene Adresse auf und ruft nur Adressen im öffentlichen Internet ab. Adressen des Servers selbst (Loopback), lokale und private Netzbereiche sowie ihre IPv6-Entsprechungen weist OpenOlat ab. Die Prüfung gilt für jede Weiterleitung, nicht nur für den ersten Aufruf. Zugelassen sind nur die Protokolle HTTP und HTTPS.
@@ -60,7 +63,7 @@ Dienste, deren Adresse die Administration hinterlegt hat, prüft der Schutz nich
 
 Läuft der ausgehende Verkehr des Servers über einen Proxy, löst der Proxy die Hostnamen auf, nicht OpenOlat. OpenOlat prüft dann nur noch das Protokoll und Adressen, die als IP-Adresse in der URL stehen. Die Prüfung der Hostnamen muss in diesem Fall der Proxy übernehmen. Adressen, die laut Serverkonfiguration am Proxy vorbeigehen, prüft OpenOlat vollständig.
 
-Einzelne IP-Adressen, Adressbereiche und Hostnamen lassen sich trotz eingeschaltetem Schutz freigeben, zum Beispiel ein Kalenderserver im Netz Ihrer Organisation. Diese Ausnahmen haben kein Eingabefeld in der Oberfläche. Sie sind Teil der Serverkonfiguration und gelten nach einer Änderung erst ab dem nächsten Neustart. Dorthin gehört auch der eigene Hostname, wenn der Server ihn auf eine lokale Adresse auflöst: sonst weist der Schutz auch das Abonnement eines Kalenders derselben Instanz ab. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support.
+Einzelne IP-Adressen, Adressbereiche und Hostnamen lassen sich trotz eingeschaltetem Schutz freigeben, zum Beispiel ein Kalenderserver im Netz Ihrer Organisation. Diese Ausnahmen haben kein Eingabefeld in der Oberfläche. Sie sind Teil der Serverkonfiguration und gelten nach einer Änderung erst ab dem nächsten Neustart. Dorthin gehört auch der eigene Hostname, wenn der Server ihn auf eine lokale Adresse auflöst: sonst weist der Schutz auch das Abonnement eines Kalenders derselben Instanz ab.
 
 
 ### Content Security Policy [:octicons-tag-16:{ title="ab Release 12.4.1 (OO-3415)" }](https://track.frentix.com/issue/OO-3415) {: #csp}

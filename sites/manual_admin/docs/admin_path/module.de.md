@@ -97,7 +97,7 @@ Das Modul, das die Planung des Bildungsangebots in OpenOlat einschaltet: Produkt
 
 Nach der Installation aktivieren und konfigurieren Systemadministrator:innen die Module einzeln. Alle Module stehen in der System-Administration unter:<br>`Administration > Module`
 
-Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
+Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit Support und Coaching.
 
 </div>
 

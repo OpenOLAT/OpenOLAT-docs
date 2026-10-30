@@ -97,7 +97,7 @@ The module that switches on the planning of the educational offering in OpenOlat
 
 After the installation, system administrators activate and configure the modules one by one. All modules are listed in the system administration under:<br>`Administration > Modules`
 
-frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
+Your customer advisor at frentix supports you with the setup through support and coaching.
 
 </div>
 

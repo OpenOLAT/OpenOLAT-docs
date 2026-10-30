@@ -159,7 +159,7 @@ Eine Einheit in der Struktur der Plattform, zum Beispiel eine Schule, ein Instit
 
 Nach der Installation erstellen Sie Konten und weisen Rollen in der Benutzerverwaltung zu. Sie steht in der Hauptnavigation.
 
-Für die Einrichtung begleitet Sie frentix mit Support und Coaching: [support@frentix.com](mailto:support@frentix.com)
+Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit Support und Coaching.
 
 </div>
 

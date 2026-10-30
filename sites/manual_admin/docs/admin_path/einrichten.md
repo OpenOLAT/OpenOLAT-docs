@@ -115,7 +115,7 @@ The page a person sees after signing in.
 
 After the installation, the settings are in the system administration under:<br>`Administration > Core functions`<br>`Administration > Customizing`
 
-frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
+Your customer advisor at frentix supports you with the setup through support and coaching.
 
 </div>
 

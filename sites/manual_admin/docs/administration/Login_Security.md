@@ -37,6 +37,9 @@ In the "Configuration" tab, you switch the security functions on or off for the 
 
 ### SSRF mitigation [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310) {: #ssrf}
 
+!!! info "frentix customers"
+    Exceptions from the protection for individual IP addresses, address ranges and host names are part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
+
 In several places, people enter an internet address in OpenOlat that the server then retrieves itself, for example when importing a calendar from a URL or when embedding an external blog. The "SSRF mitigation" checkbox (Server-Side Request Forgery) prevents anyone from using such an address to make the server retrieve services in the internal network of your organisation that cannot be reached from outside. Above the checkbox you see the note "Local addresses are not allowed in calendar URLs, external pages, LTI, badges…".
 
 **Switched on**: OpenOlat resolves every address entered and only retrieves addresses on the public internet. OpenOlat rejects addresses of the server itself (loopback), local and private network ranges and their IPv6 equivalents. The check applies to every redirect, not only to the first call. Only the protocols HTTP and HTTPS are permitted.
@@ -60,7 +63,7 @@ The protection does not check services whose address the administration has stor
 
 If the outgoing traffic of the server runs through a proxy, the proxy resolves the host names, not OpenOlat. OpenOlat then only checks the protocol and addresses that appear as an IP address in the URL. In this case, the proxy has to check the host names. Addresses that bypass the proxy according to the server configuration are checked by OpenOlat in full.
 
-Individual IP addresses, address ranges and host names can be allowed despite the protection, for example a calendar server in the network of your organisation. These exceptions have no input field in the user interface. They are part of the server configuration and only take effect after the next restart following a change. The instance's own host name also belongs there if the server resolves it to a local address: otherwise the protection also rejects the subscription to a calendar of the same instance. frentix customers contact frentix support for a change.
+Individual IP addresses, address ranges and host names can be allowed despite the protection, for example a calendar server in the network of your organisation. These exceptions have no input field in the user interface. They are part of the server configuration and only take effect after the next restart following a change. The instance's own host name also belongs there if the server resolves it to a local address: otherwise the protection also rejects the subscription to a calendar of the same instance.
 
 
 ### Content Security Policy [:octicons-tag-16:{ title="from Release 12.4.1 (OO-3415)" }](https://track.frentix.com/issue/OO-3415) {: #csp}

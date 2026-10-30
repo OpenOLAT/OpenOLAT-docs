@@ -40,7 +40,10 @@ In den folgenden Schritten sehen Sie in der "Vorschau der Kontodaten", welche Ko
 
 ## Konten aus LDAP oder Azure übernehmen {: #import_external_users}
 
-Ist OpenOlat an ein LDAP-Verzeichnis oder an Azure angebunden, übernehmen Sie eine Person von dort, statt ihr Konto von Hand anzulegen. Die Aktion "Externe Benutzer importieren" sehen dieselben Rollen wie "Konten importieren", aber nur, wenn die Suche im angebundenen Verzeichnis in der Serverkonfiguration eingeschaltet ist. frentix-Kund:innen wenden sich für eine Änderung an den frentix Support: [support@frentix.com](mailto:support@frentix.com)
+!!! info "frentix-Kund:innen"
+    Die Suche im angebundenen Verzeichnis ist Teil der Serverkonfiguration. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
+Ist OpenOlat an ein LDAP-Verzeichnis oder an Azure angebunden, übernehmen Sie eine Person von dort, statt ihr Konto von Hand anzulegen. Die Aktion "Externe Benutzer importieren" sehen dieselben Rollen wie "Konten importieren", aber nur, wenn die Suche im angebundenen Verzeichnis in der Serverkonfiguration eingeschaltet ist.
 
 Suchen Sie die Person mit Vorname, Nachname oder E-Mail-Adresse und wählen Sie sie aus. Im folgenden Formular ergänzen Sie die fehlenden Angaben. Die Person meldet sich danach mit ihren Zugangsdaten aus dem angebundenen Verzeichnis an.
 

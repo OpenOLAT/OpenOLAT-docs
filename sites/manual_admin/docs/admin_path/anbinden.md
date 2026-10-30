@@ -137,7 +137,7 @@ A programming interface following the REST pattern.
 
 After the installation, the settings are in the system administration under:<br>`Administration > e-Assessment > Assessment management`<br>`Administration > External tools`<br>`Administration > Core functions > REST API`
 
-frentix accompanies you in the setup with support and coaching: [support@frentix.com](mailto:support@frentix.com)
+Your customer advisor at frentix supports you with the setup through support and coaching.
 
 </div>
 
