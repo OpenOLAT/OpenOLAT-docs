@@ -80,6 +80,7 @@ Wenn die Installation läuft: Reports lesen, Lebenszyklen einrichten, Begriffe d
 
 </div>
 
+<!-- gen:news -->
 ## Neu in 21.1 {: #new_in_21}
 
 Diese Funktionen müssen nach dem Update in der System-Administration aktiviert oder konfiguriert werden.
@@ -139,6 +140,7 @@ Diese Funktionen müssen nach dem Update in der System-Administration aktiviert 
 </div>
 
 Die ganze Checkliste nach dem Update, mit weiteren Punkten zur REST API, zu den Benutzer:innen-Attributen, zur Infoseite, zum Kontolebenszyklus und zu den Zertifikaten, steht in den Release Notes: [Checkliste nach Update auf 21.1](../release_notes/Release_notes_21.1.de.md#systemadministratoren-neue-funktionen-aktivieren-konfigurieren)
+<!-- /gen:news -->
 
 ## Nachschlagen {: #reference}
 

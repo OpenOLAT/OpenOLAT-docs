@@ -118,6 +118,7 @@ Once the first course is running: make full use of the settings, add further cou
 
 </div>
 
+<!-- gen:news -->
 ## New in 21.1 {: #new_in_21}
 
 <div class="oo-mh-news" markdown>
@@ -175,6 +176,7 @@ Score changes visible in the test.
 </div>
 
 The new features of release 21.0 are in the [release notes 21.0](../../release_notes/Release_notes_21.0.md).
+<!-- /gen:news -->
 
 ## Look up {: #reference}
 

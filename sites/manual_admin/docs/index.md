@@ -80,6 +80,7 @@ Once the installation is running: read reports, set up lifecycles, adapt the wor
 
 </div>
 
+<!-- gen:news -->
 ## New in 21.1 {: #new_in_21}
 
 These functions have to be activated or configured in the system administration after the update.
@@ -139,6 +140,7 @@ These functions have to be activated or configured in the system administration 
 </div>
 
 The full checklist after the update, with further items on the REST API, user properties, the Info page, the account lifecycle and certificates, is in the release notes: [Checklist after updating to 21.1](../release_notes/Release_notes_21.1.md#system-administrators-activate-configure-new-features)
+<!-- /gen:news -->
 
 ## Reference {: #reference}
 

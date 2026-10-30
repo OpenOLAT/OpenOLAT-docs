@@ -100,6 +100,8 @@ extra_javascript:
   - javascripts/extra.js
   - javascripts/oo-map.js
 
+hooks:
+  - hooks/oo_news.py
 
 plugins:
   - monorepo
@@ -294,6 +296,7 @@ plugins:
           Deleting, Moving and Copying Course Elements : Löschen, Verschieben und Kopieren von Kursbausteinen
           Design : Design
           Design possibilities of courses and course elements : Gestalterische Möglichkeiten von Kursen und Kursbausteinen
+          Detailed view : Detailansicht
           Detailed View of Learning Resources : Detailansicht einer Lernressource
           Developer cookbook: Developer Cookbook
           Document : Dokument
@@ -397,6 +400,7 @@ plugins:
           HTML Page : HTML-Seite
           Implementation : Durchführung
           Implementations : Durchführungen
+          Import : Importieren
           Import questions : Fragen importieren
           Import templates : Importvorlagen
           Imprint: Impressum
@@ -553,6 +557,7 @@ plugins:
           Question Bank : Fragenpool
           Question Bank Administration : Fragenpool-Administration
           Question rules : Frageregeln
+          Questions : Fragen
           Record of Course Activities : Aufzeichnung der Kursaktivitäten
           Recording absences : Absenzen erfassen
           Reference glossary : Referenzglossar
@@ -652,6 +657,7 @@ plugins:
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
           Types of Course Element : Kursbausteine
           Usage : Verwendung
+          Use : Verwenden
           User management : Benutzerverwaltung
           User manual: Benutzerhandbuch
           User search : Personensuche

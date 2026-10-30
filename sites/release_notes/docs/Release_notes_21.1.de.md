@@ -24,6 +24,7 @@ Seit Release 21.0 wurden rund 80 neue Funktionen und Verbesserungen zu OpenOlat 
 * * *
 
 ## Buchungsformulare im Course Planner
+<!-- karte: Beim Buchen zusätzliche Angaben einholen. -->
 
 Bisher fragte der Buchungsprozess nur die Angaben ab, die für die Buchung nötig sind, etwa die Rechnungsadresse. Neu lassen sich beim Buchen eines Angebots zusätzliche Informationen einholen, zum Beispiel persönliche Angaben oder Essenswünsche für einen Kurstag mit Verpflegung.
 
@@ -44,6 +45,7 @@ Neu ist ausserdem die Einstellung **[Buchung](https://docs.openolat.org/de/manua
 * * *
 
 ## Neue Infoseite
+<!-- karte: Neu gestaltet, als Flyer mit QR-Code. -->
 
 Die **Infoseite** von Kursen und Durchführungen wurde neu gestaltet. Bisher wirkte sie in Aufbau und Darstellung veraltet, besonders beim Drucken. Neu ordnet ein zweispaltiges Layout die Inhalte in übersichtliche Boxen. Die Box **«Fakten»** zeigt die wichtigsten Eckdaten auf einen Blick, etwa Zeitraum, Ort, Sprache und Aufwand. **«Los geht's»** enthält die Buchungsinformationen, und Mitglieder sehen unter **«Mein Kurs»** ihren Lernfortschritt, ihre Bewertung und ihre Gruppen. Auf kleinen Bildschirmen stehen alle Inhalte in einer Spalte.
 
@@ -60,6 +62,7 @@ Der Name «Infoseite» gilt jetzt überall im System. Die technischen Informatio
 * * *
 
 ## Aufzeichnung von Teams-Terminen
+<!-- karte: Teams-Termine aufzeichnen und bereitstellen. -->
 
 Online-Termine mit Microsoft Teams liessen sich bisher aus OpenOlat heraus nicht aufzeichnen. Aufzeichnungen blieben im OneDrive der organisierenden Person, waren in OpenOlat nicht sichtbar und liefen dort nach kurzer Zeit ab. Mit der neuen **[Terminaufzeichnung](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_Microsoft_Teams/#meeting_recording){:target="_blank"}** wird die Aufzeichnung direkt am Online-Termin eingeschaltet, wahlweise mit automatischem Start zu Beginn des Termins.
 
@@ -74,6 +77,7 @@ Die Standardwerte für Aufzeichnung, Start und Veröffentlichung legt die Admini
 * * *
 
 ## KI-Einstellungen: Kontrolle über automatische KI-Funktionen
+<!-- karte: Selbst über automatische KI entscheiden. -->
 
 Zwei KI-Funktionen arbeiteten bisher ohne Rückfrage mit Inhalten von Personen: Beim Hochladen eines Bildes erzeugt die KI Metadaten wie Titel und Alternativtext, und Freitextantworten in einem Quiz des Content Editors erhalten eine **KI-Korrektur**. Im Sinne der Transparenz, die der EU AI Act verlangt, lässt sich das jetzt steuern.
 
@@ -86,6 +90,7 @@ Die Administration legt pro KI-Funktion eine **Vorgabe für Personen** fest. Jed
 ## Course Planner
 
 ### Debitorennummer
+<!-- karte: Buchungen direkt dem Debitorenkonto zuordnen. -->
 
 Organisationen, die Kurse in Rechnung stellen, brauchen für die Buchhaltung die Debitorennummer der zahlenden Stelle. Bisher gab es dafür in OpenOlat keinen Platz, und die Nummer musste für jede Buchung von Hand im Buchhaltungssystem nachgeschlagen werden. Neu lässt sich eine **[Debitorennummer](https://docs.openolat.org/de/manual_admin/administration/Modules_Organisations/#customer_number){:target="_blank"}** an Benutzerkonten, Organisationen und Rechnungsadressen von Organisationen hinterlegen. Der Course Planner zeigt sie bei Personen und bei Buchungen mit Rechnungsadresse, der Buchungsreport führt sie als eigene Spalten. So lassen sich Buchungen direkt dem richtigen Debitorenkonto zuordnen. Das Feld ist optional und wird in der Administration eingeschaltet.
 

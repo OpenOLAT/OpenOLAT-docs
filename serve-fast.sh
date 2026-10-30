@@ -109,6 +109,7 @@ cat > "$CONFIG" <<EOF
 INHERIT: mkdocs.yml
 
 hooks:
+  - hooks/oo_news.py
   - hooks/oo_diffmark.py
 
 plugins:

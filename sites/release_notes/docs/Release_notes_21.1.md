@@ -24,6 +24,7 @@ Since release 21.0, around 80 new features and improvements have been added to O
 * * *
 
 ## Booking forms in the Course Planner
+<!-- karte: Collect additional information when booking. -->
 
 Until now, the booking process only asked for the information required for the booking, such as the billing address. Now additional information can be collected when an offer is booked, for example personal details or meal preferences for a course day with catering.
 
@@ -44,6 +45,7 @@ Also new is the setting **[Booking](https://docs.openolat.org/en/manual_user/are
 * * *
 
 ## New Info page
+<!-- karte: Redesigned, as a flyer with QR code. -->
 
 The **Info page** of courses and implementations has been redesigned. Previously, its structure and presentation looked outdated, especially when printed. Now a two-column layout arranges the content in clear boxes. The **«Facts»** box shows the most important key data at a glance, such as period, location, language and workload. **«Get started»** contains the booking information, and members see their learning progress, their assessment and their groups under **«My course»**. On small screens, all content is shown in one column.
 
@@ -60,6 +62,7 @@ The name «Info page» now applies everywhere in the system. The technical infor
 * * *
 
 ## Recording of Teams online meetings
+<!-- karte: Record and provide Teams meetings. -->
 
 Until now, online meetings with Microsoft Teams could not be recorded from within OpenOlat. Recordings remained in the OneDrive of the organizer, were not visible in OpenOlat and expired there after a short time. With the new **[Meeting recording](https://docs.openolat.org/en/manual_user/learningresources/Course_Element_Microsoft_Teams/#meeting_recording){:target="_blank"}**, recording is switched on directly in the online meeting, optionally with an automatic start at the beginning of the online meeting.
 
@@ -74,6 +77,7 @@ The default values for recording, start and publishing are defined in the Admini
 * * *
 
 ## AI settings: Control over automatic AI features
+<!-- karte: Decide on automatic AI yourself. -->
 
 Until now, two AI features worked with the content of persons without asking: when an image is uploaded, the AI generates metadata such as title and alternative text, and free-text answers to essay questions in a quiz of the Content Editor receive an **AI correction**. In line with the transparency required by the EU AI Act, this can now be controlled.
 
@@ -86,6 +90,7 @@ The Administration defines a **Default for users** for each AI feature. Each per
 ## Course Planner
 
 ### Customer number
+<!-- karte: Assign bookings directly to the customer account. -->
 
 Organisations that invoice courses need the customer number of the paying party for their accounting. Until now, there was no place for it in OpenOlat, and the number had to be looked up manually in the accounting system for every booking. Now a **[customer number](https://docs.openolat.org/en/manual_admin/administration/Modules_Organisations/#customer_number){:target="_blank"}** can be stored on user accounts, organisations and billing addresses of organisations. The Course Planner shows it for users and for bookings with a billing address, and the booking report lists it in separate columns. This way, bookings can be assigned directly to the correct customer number. The field is optional and is switched on in the Administration.
 
