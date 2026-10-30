@@ -24,11 +24,11 @@ Haben Sie in der Übersicht des Course Planners den Button "Durchführungen" gew
 
 Die Liste öffnet mit dem Tab "Relevant". Der Tab "Ausstehende Mitgliedschaften" zeigt die Durchführungen mit ausstehenden Mitgliedschaften, die Tabs "Vorbereitung", "Provisorisch", "Bestätigt", "Abgebrochen" und "Beendet" je einen Status und der Tab "Alle" die ganze Liste. Mit Filtern wie "Produkt", "Typ", "Durchführungszeitraum" oder "Belegungsstatus" grenzen Sie die Auswahl weiter ein.
 
+![Geöffneter Filter Belegungsstatus mit den Werten Anzahl nicht festgelegt, Mindestanzahl nicht erreicht, Mindestanzahl erreicht, Freie Plätze verfügbar, Ausgebucht und Überbucht](assets/course_planner_implementations_list_v2_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner · 2026.09.30" }
+
 Durchführungen anlegen, bearbeiten und löschen können Administrator:innen und Kursplaner:innen sowie Produktbesitzer:innen in ihren eigenen Produkten. Principals sehen die Durchführungen nur lesend. Die vollständige Übersicht zeigt die [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
 
 Je nach Ihren Rechten bietet das Menü der 3 Punkte am Ende einer Zeile Aktionen wie "Element kopieren", "Mitgliederverwaltung", "Export" und "Löschen". Wie der Export funktioniert, beschreibt [Course Planner: Import / Export](Course_Planner_Import_Export.de.md#export_entry_points).
-
-![Die Liste der Durchführungen mit dem geöffneten Filter Belegungsstatus: Anzahl nicht festgelegt, Mindestanzahl nicht erreicht oder erreicht, Freie Plätze verfügbar, Ausgebucht, Überbucht](assets/course_planner_implementations_list_v2_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner · 2026.09.30" }
 
 Häufig verwendete Filterkombinationen speichern Sie mit "Filter speichern" als eigene Voreinstellung und verwenden sie wieder. [:octicons-tag-16:{ title="ab Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 

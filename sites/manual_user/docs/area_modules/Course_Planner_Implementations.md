@@ -23,11 +23,11 @@ If you have selected the "Implementations" button in the Course Planner overview
 
 The list opens with the "Relevant" tab. The "Pending memberships" tab shows the implementations with pending memberships, the tabs "Preparation", "Provisional", "Confirmed", "Cancelled" and "Finished" one status each and the "All" tab the whole list. Use filters such as "Product", "Type", "Execution period" or "Occupancy status" to narrow down the selection further.
 
+![Opened Occupancy status filter with the values Number not specified, Minimum number not reached, Minimum number reached, Free seats available, Fully booked and Overbooked](assets/course_planner_implementations_list_v2_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner · 2026.09.30" }
+
 Administrators and course planners, as well as product owners in their own products, can create, edit and delete implementations. Principals only see the implementations read-only. The complete overview is shown in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
 
 Depending on your rights, the menu of the 3 dots at the end of a row offers actions such as "Copy element", "Members management", "Export" and "Delete". How the export works is described in [Course Planner: Import / Export](Course_Planner_Import_Export.md#export_entry_points).
-
-![The list of implementations with the opened Occupancy status filter: Number not specified, Minimum number not reached or reached, Free seats available, Fully booked, Overbooked](assets/course_planner_implementations_list_v2_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner · 2026.09.30" }
 
 You save frequently used filter combinations with "Save filter" as your own preset and reuse them. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
