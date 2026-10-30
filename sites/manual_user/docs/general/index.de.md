@@ -96,7 +96,7 @@ Das How-to «Mein erster Kurs» führt in zehn Schritten von der Rolle Autor:in 
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> How-to: Mein erster Kurs](../../manual_how-to/my_first_course/my_first_course.de.md){ .oo-mh-pcard__go }
 
-<p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? Für Schulungen und Workshops für Autor:innen wenden Sie sich an frentix.</p>
+<p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? Für Schulungen und Workshops für Autor:innen wenden Sie sich an Ihre Organisation.</p>
 
 </div>
 

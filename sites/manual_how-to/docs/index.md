@@ -30,7 +30,7 @@ After that:
 - [How do I create an essay question with AI grading?](ai_essay/ai_essay.md)
 - [How can I use the same files in several courses?](multiple_use/multiple_use.md)
 
-<p class="oo-mh-pcard__aside" markdown>Prefer to work together? For trainings and workshops for authors, contact frentix.</p>
+<p class="oo-mh-pcard__aside" markdown>Prefer to work together? For trainings and workshops for authors, contact your organisation.</p>
 
 </div>
 

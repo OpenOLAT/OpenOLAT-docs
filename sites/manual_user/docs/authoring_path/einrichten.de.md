@@ -99,7 +99,7 @@ Ein Inhaltsobjekt, das im Autorenbereich verwaltet wird: Kurs, Test, Formular, V
 
 [How-to: Autorenrechte und Autorenbereich](../../manual_how-to/my_first_course/my_first_course.de.md#get_author_rights)
 
-Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich an Ihre Organisation.
 
 </div>
 

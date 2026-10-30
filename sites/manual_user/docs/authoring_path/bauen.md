@@ -215,7 +215,7 @@ The action that takes the changes from the course editor into the running course
 
 [How-to: Add course elements and publish](../../manual_how-to/my_first_course/my_first_course.md#add_course_elements)
 
-With frentix: we show you in the training. [support@frentix.com](mailto:support@frentix.com)
+With frentix: we show it in a training. For a training, contact your organisation.
 
 </div>
 

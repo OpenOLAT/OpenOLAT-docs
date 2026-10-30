@@ -95,7 +95,7 @@ A content object managed in the authoring area: course, test, form, video, wiki 
 
 [How-to: Author rights and Authoring](../../manual_how-to/my_first_course/my_first_course.md#get_author_rights)
 
-With frentix: we show you in the training. [support@frentix.com](mailto:support@frentix.com)
+With frentix: we show it in a training. For a training, contact your organisation.
 
 </div>
 

@@ -147,7 +147,7 @@ The rule that steers the visibility and access of a course element in the conven
 
 There is no how-to for this station yet.
 
-With frentix: we show you in the training. [support@frentix.com](mailto:support@frentix.com)
+With frentix: we show it in a training. For a training, contact your organisation.
 
 </div>
 

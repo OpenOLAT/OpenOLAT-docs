@@ -147,7 +147,7 @@ Die Regel, die im herkömmlichen Kurs Sichtbarkeit und Zugang eines Kursbaustein
 
 Zu dieser Station gibt es noch kein How-to.
 
-Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich an Ihre Organisation.
 
 </div>
 

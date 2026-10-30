@@ -223,7 +223,7 @@ Eine digitale Auszeichnung nach dem Standard Open Badges, mit Bild, Kriterien un
 
 [How-to: Wie gehe ich vor, wenn ich einen Test erstelle?](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
-Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich an Ihre Organisation.
 
 </div>
 

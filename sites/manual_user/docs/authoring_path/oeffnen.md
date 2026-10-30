@@ -185,7 +185,7 @@ A course role. Participants work through the course and see their own results on
 
 [How-to: Add members and publish the course](../../manual_how-to/my_first_course/my_first_course.md#add_members)
 
-With frentix: we show you in the training. [support@frentix.com](mailto:support@frentix.com)
+With frentix: we show it in a training. For a training, contact your organisation.
 
 </div>
 

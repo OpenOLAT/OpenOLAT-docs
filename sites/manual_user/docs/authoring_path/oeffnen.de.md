@@ -185,7 +185,7 @@ Kursrolle. Teilnehmende arbeiten den Kurs durch und sehen ausschliesslich die ei
 
 [How-to: Mitglieder hinzufügen und Kurs veröffentlichen](../../manual_how-to/my_first_course/my_first_course.de.md#add_members)
 
-Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich an Ihre Organisation.
 
 </div>
 

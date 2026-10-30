@@ -127,7 +127,7 @@ The state of a course in its lifecycle: Preparation, Review, Access for coach, P
 
 [How-to: Create and set up a new course](../../manual_how-to/my_first_course/my_first_course.md#create_course)
 
-With frentix: we show you in the training. [support@frentix.com](mailto:support@frentix.com)
+With frentix: we show it in a training. For a training, contact your organisation.
 
 </div>
 

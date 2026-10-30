@@ -30,7 +30,7 @@ Danach:
 - [Wie erstelle ich eine Freitextfrage mit KI-Auswertung?](ai_essay/ai_essay.de.md)
 - [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](multiple_use/multiple_use.de.md)
 
-<p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? Für Schulungen und Workshops für Autor:innen wenden Sie sich an frentix.</p>
+<p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? Für Schulungen und Workshops für Autor:innen wenden Sie sich an Ihre Organisation.</p>
 
 </div>
 

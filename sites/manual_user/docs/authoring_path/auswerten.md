@@ -97,7 +97,7 @@ Automatic e-mails to participants, fired by a condition in the course, for examp
 
 [How-to: Stay informed about learning progress](../../manual_how-to/progress_information/progress_information.md)
 
-With frentix: we show you in the training. [support@frentix.com](mailto:support@frentix.com)
+With frentix: we show it in a training. For a training, contact your organisation.
 
 </div>
 

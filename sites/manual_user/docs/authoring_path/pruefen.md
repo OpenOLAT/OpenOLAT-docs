@@ -221,7 +221,7 @@ A digital credential following the Open Badges standard, with an image, criteria
 
 [How-to: How do I proceed when I create a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
-With frentix: we show you in the training. [support@frentix.com](mailto:support@frentix.com)
+With frentix: we show it in a training. For a training, contact your organisation.
 
 </div>
 

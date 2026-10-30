@@ -229,7 +229,7 @@ Der Vorgang, mit dem die Änderungen aus dem Kurseditor in den laufenden Kurs ü
 
 [How-to: Kursbausteine hinzufügen und publizieren](../../manual_how-to/my_first_course/my_first_course.de.md#add_course_elements)
 
-Mit frentix: In der Schulung zeigen wir es. [support@frentix.com](mailto:support@frentix.com)
+Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich an Ihre Organisation.
 
 </div>
 
