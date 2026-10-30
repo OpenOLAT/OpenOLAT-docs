@@ -348,7 +348,7 @@ It is also possible for the candidates to add text via the text tool. The text s
 
 !!! tip "Import questions"
 
-    Besides creating questions directly, you can also import questions from the [question bank](../area_modules/Question_Bank.md) or via the [Excel import](../area_modules/Question_Bank_Import_Questions.md#excelimport) from a table in Excel.
+    Besides creating questions directly, you can also import questions from the [question bank](../area_modules/Question_Bank/index.md) or via the [Excel import](../area_modules/Question_Bank_Import_Questions.md#excelimport) from a table in Excel.
 
 ??? abstract "Digression: Writing essays"
 
@@ -365,7 +365,7 @@ It is also possible for the candidates to add text via the text tool. The text s
 
 ## Further information {: #further_information}
 
-[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Question Bank: Import Questions >](../area_modules/Question_Bank_Import_Questions.md)<br>
 [Question Bank: Create Questions >](../area_modules/Question_Bank_Create_Questions.md)
 

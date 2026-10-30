@@ -55,7 +55,7 @@ Neben den Kernbereichen gibt es weitere Menüpunkte und Bereiche, die erst mit d
 | Benutzerverwalter:in | [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md), Menüpunkt in der obersten Navigation |
 | Rollenverwalter:in | [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md), mit dem Recht zur Vergabe von Rollen |
 | Gruppenverwalter:in | Menüpunkt "Gruppen", zusätzlicher Tab [Gruppenverwaltung](../area_modules/Group_Management.de.md) |
-| Poolverwalter:in | [Fragenpool](../area_modules/Question_Bank.de.md), inklusive Bereich Administration |
+| Poolverwalter:in | [Fragenpool](../area_modules/Question_Bank/index.de.md), inklusive Bereich Administration |
 | Qualitätsverwalter:in | Menüpunkt [Qualitätsmanagement](../area_modules/Quality_Management.de.md) |
 | Absenzenverwalter:in | Menüpunkt [Absenzenverwaltung](../area_modules/Absence_Management.de.md) |
 | Projektverwalter:in | Menüpunkt "Projekte", zusätzlicher Tab [Administration](../area_modules/Project_Admin.de.md) |
@@ -82,7 +82,7 @@ Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte fin
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
-[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management.de.md)<br>
 [Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
 [Projekte - Administration >](../area_modules/Project_Admin.de.md)<br>

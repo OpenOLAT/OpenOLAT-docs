@@ -241,7 +241,7 @@ Administrators set up the launchers and filters of the catalog in the system adm
 [Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Catalog 2.0 - Management >](../area_modules/catalog2.0_mgmt.md)<br>
-[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Question Bank: Administration >](../area_modules/Question_Bank_Administration.md)<br>
 [Competences tags >](../area_modules/Competences_tags.md)<br>
 [Information and settings for items in the Media Center >](Media_Center_Items.md)<br>

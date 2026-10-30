@@ -136,16 +136,17 @@ nav:
        - Bulk actions: "area_modules/Authoring_BulkActions.md"
     - Video Collection:
         - Overview: "area_modules/Video_Collection.md" 
-    - Question Bank:
-      - Overview: "area_modules/Question_Bank.md"
-      - Create questions : "area_modules/Question_Bank_Create_Questions.md"
-      - Import questions: "area_modules/Question_Bank_Import_Questions.md"
-      - Item Detailed View: "area_modules/Item_Detailed_View.md"
-      - Using the questions: "area_modules/Question_bank_possible_operations.md"
+    - Question bank:
+      - "area_modules/Question_Bank/index.md"
+      - Questions:
+        - Create: "area_modules/Question_Bank_Create_Questions.md"
+        - Import: "area_modules/Question_Bank_Import_Questions.md"
+        - Detailed view: "area_modules/Item_Detailed_View.md"
+        - Use: "area_modules/Question_bank_possible_operations.md"
       - Search: "area_modules/Question_Pool_Search.md"
-      - Sharing Options: "area_modules/Question_Pool_Sharing_Options.md"
       - Review Process: "area_modules/Question_Bank_Review_Process.md"
-      - Question Bank Administration: "area_modules/Question_Bank_Administration.md"
+      - Sharing Options: "area_modules/Question_Pool_Sharing_Options.md"
+      - Administration: "area_modules/Question_Bank_Administration.md"
     - Projects:
       - Overview: "area_modules/Project_Overview.md"
       - Project member management: "area_modules/Project_Member_Management.md"

@@ -30,7 +30,7 @@ Welche Bereiche der Hauptnavigation eine Rolle öffnet, zeigt die Seite [Rollen 
 * **Rollenverwalter:in**: Rollenverwalter:innen verwalten die Rollen der Personen ihrer Organisation. Sie öffnen die Benutzerverwaltung über einen eigenen Menüpunkt in der Hauptnavigation und sehen dort alle Konten der eigenen Organisationen. Ausser den Rollen Principal, Administrator:in und Systemadministrator:in vergeben, ändern und entfernen sie alle Rollen.
 * **Administrator:in**: Administrator:innen verwalten Module und Funktionen und haben Zugriff auf alle Bereiche des Systems wie Benutzerverwaltung, Katalogverwaltung und Course Planner, ausser auf die System-Administration. Die Rolle kann auf eine Organisation beschränkt werden. Administrator:innen können Benutzer:innen löschen und zudem weiteren Personen das Recht für die Katalogverwaltung einräumen.
 * **Gruppenverwalter:in**: Gruppenverwalter:innen verwalten alle Gruppen. Im Menüpunkt "Gruppen" öffnen sie zusätzlich den Tab [Gruppenverwaltung](../area_modules/Group_Management.de.md). Die Rolle ist eine Systemrolle und gilt für das gesamte System.
-* **Poolverwalter:in**: Poolverwalter:innen verwalten den [Fragenpool](../area_modules/Question_Bank.de.md). Im Fragenpool öffnen sie den Bereich "Administration". Die Rolle ist eine Systemrolle und gilt für das gesamte System.
+* **Poolverwalter:in**: Poolverwalter:innen verwalten den [Fragenpool](../area_modules/Question_Bank/index.de.md). Im Fragenpool öffnen sie den Bereich "Administration". Die Rolle ist eine Systemrolle und gilt für das gesamte System.
 * **Systemadministrator:in**: Systemadministrator:innen konfigurieren und überwachen das System technisch. Dafür haben sie Zugriff auf die System-Administration. Die Rolle ist eine Systemrolle und an keine Organisation gebunden.
 
 !!! note "Hinweis"
@@ -353,7 +353,7 @@ Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf e
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
-[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Rollen und Rechte: Rollen zuweisen >](Assign_Roles.de.md)<br>
 [Rollen und Rechte: Gastzugang >](guest_access.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>

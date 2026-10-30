@@ -34,7 +34,7 @@ Sie kennen den Bereich und suchen die Seite, die ihn erklärt. Die Tabelle führ
 | 3 | Gruppen | [Gruppenverwaltung](Group_Management.de.md) |
 | 4 | Katalog | [Katalog 2.0](catalog2.0.de.md) |
 | 5 | Autorenbereich | [Autorenbereich](Authoring.de.md) |
-| 6 | Fragenpool | [Fragenpool](Question_Bank.de.md) |
+| 6 | Fragenpool | [Fragenpool](Question_Bank/index.de.md) |
 | 7 | Dokumentenpool | [Modul Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md), Administrationshandbuch |
 | 8 | Bibliothek | [Bibliothek](Library.de.md) |
 | 9 | Video Collection | [Video Collection](Video_Collection.de.md) |

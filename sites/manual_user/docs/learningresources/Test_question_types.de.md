@@ -349,7 +349,7 @@ Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe de
 
 !!! tip "Import von Fragen"
 
-    Neben dem direkten Erstellen können Sie Fragen auch aus dem [Fragenpool](../area_modules/Question_Bank.de.md) oder über den [Excelimport](../area_modules/Question_Bank_Import_Questions.de.md#excelimport) aus einer Tabelle in Excel importieren.
+    Neben dem direkten Erstellen können Sie Fragen auch aus dem [Fragenpool](../area_modules/Question_Bank/index.de.md) oder über den [Excelimport](../area_modules/Question_Bank_Import_Questions.de.md#excelimport) aus einer Tabelle in Excel importieren.
 
 ??? abstract "Exkurs: Aufsatz schreiben"
 
@@ -366,7 +366,7 @@ Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe de
 
 ## Weiterführende Informationen {: #further_information}
 
-[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Fragenpool: Fragen importieren >](../area_modules/Question_Bank_Import_Questions.de.md)<br>
 [Fragenpool: Fragen erstellen >](../area_modules/Question_Bank_Create_Questions.de.md)
 

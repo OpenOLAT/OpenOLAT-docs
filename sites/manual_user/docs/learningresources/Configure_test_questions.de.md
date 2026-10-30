@@ -96,14 +96,14 @@ Der Bereich "Technik" zeigt weitere Informationen an.
 !!! note "Metadaten und Fragenpool"
     Weitere Informationen zu diesen Einstellungen finden Sie auch im Fragenpool.<br>
     [Metadaten](../area_modules/Item_Detailed_View.de.md)<br>
-    [Fragenpool](../area_modules/Question_Bank.de.md)
+    [Fragenpool](../area_modules/Question_Bank/index.de.md)
 
 ## Weiterführende Informationen {: #further_information}
 
 [Test Fragetypen >](Test_question_types.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
 [Fragenpool: Detailansicht einer Frage >](../area_modules/Item_Detailed_View.de.md)<br>
-[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1.de.md)<br>
 [Tests erstellen >](Test.de.md)<br>
 [Kursbaustein "Selbsttest" >](Course_Element_Self_Test.de.md)

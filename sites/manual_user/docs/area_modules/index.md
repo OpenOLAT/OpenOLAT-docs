@@ -34,7 +34,7 @@ You know the site and are looking for the page that explains it. The table lists
 | 3 | Groups | [Group Management](Group_Management.md) |
 | 4 | Catalog | [Catalog 2.0](catalog2.0.md) |
 | 5 | Authoring | [Authoring](Authoring.md) |
-| 6 | Question bank | [Question Bank](Question_Bank.md) |
+| 6 | Question bank | [Question Bank](Question_Bank/index.md) |
 | 7 | Document pool | [Module Document Pool](../../manual_admin/administration/Modules_Document_pool.md), administration manual |
 | 8 | Library | [Library](Library.md) |
 | 9 | Video Collection | [Video Collection](Video_Collection.md) |

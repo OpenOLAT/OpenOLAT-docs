@@ -28,3 +28,15 @@ overrides:
     field: man
     value: manual_user/groups/Group_Administration/index
     register: 21
+  - key: testing.question_bank
+    field: man
+    value: manual_user/area_modules/Question_Bank/index
+    register: 29
+  - key: testing.item_sharing
+    field: man
+    value: manual_user/area_modules/Question_Bank/index
+    register: 29
+  - key: platform.area_qpool
+    field: man
+    value: manual_user/area_modules/Question_Bank/index
+    register: 29

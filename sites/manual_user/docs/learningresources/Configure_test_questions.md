@@ -96,14 +96,14 @@ The "Technical" section shows further information.
 !!! note "Metadata and Question Bank"
     Further information on these settings is also available in the question bank.<br>
     [Metadata](../area_modules/Item_Detailed_View.md)<br>
-    [Question bank](../area_modules/Question_Bank.md)
+    [Question bank](../area_modules/Question_Bank/index.md)
 
 ## Further information {: #further_information}
 
 [Test question types >](Test_question_types.md)<br>
 [Configure tests >](Configure_tests.md)<br>
 [Item Detailed View >](../area_modules/Item_Detailed_View.md)<br>
-[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Test editor >](Test_editor_QTI_2.1.md)<br>
 [Creating Tests >](Test.md)<br>
 [Course Element "Self-test" >](Course_Element_Self_Test.md)

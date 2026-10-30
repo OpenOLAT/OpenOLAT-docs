@@ -35,6 +35,6 @@ Standardmässig zeigt OpenOlat unter anderem die Filter "Titel", "Autor:in", "Ty
 
 **Weiterführend**<br>
 [Fragenpool: Fragen verwenden >](Question_bank_possible_operations.de.md)<br>
-[Fragenpool: Übersicht >](Question_Bank.de.md)
+[Fragenpool: Übersicht >](Question_Bank/index.de.md)
 
 [Zum Seitenanfang ^](#question_pool_search)

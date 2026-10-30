@@ -34,7 +34,7 @@ Depending on the teaching scenario, however, it also makes sense to use normal "
 
 ## How do the questions get into a test? {: #create_questions_in_tests}
 
-Questions can either be created directly in the learning resource Test or created in the [question bank](../area_modules/Question_Bank.md) and then integrated into the test. In the chapter [How do I proceed when I create a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md), you will learn how to create a test.
+Questions can either be created directly in the learning resource Test or created in the [question bank](../area_modules/Question_Bank/index.md) and then integrated into the test. In the chapter [How do I proceed when I create a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md), you will learn how to create a test.
 
 When importing a question from the question bank into a test, a copy of the question is made at that point in time. The question in the test is therefore independent of the original question in the question bank. If the original question in the question bank is modified, this does not affect the imported question in the test. It remains unchanged.
 

@@ -55,7 +55,7 @@ Besides the core areas, there are further menu items and areas that only become 
 | User manager | [User management](../../manual_admin/usermanagement/index.md), menu item in the top navigation |
 | Roles manager | [User management](../../manual_admin/usermanagement/index.md), with the right to assign roles |
 | Group manager | "Groups" menu item, additional tab [Group management](../area_modules/Group_Management.md) |
-| Question bank manager | [Question bank](../area_modules/Question_Bank.md), including the Administration area |
+| Question bank manager | [Question bank](../area_modules/Question_Bank/index.md), including the Administration area |
 | Quality manager | [Quality management](../area_modules/Quality_Management.md) menu item |
 | Absence manager | [Absence management](../area_modules/Absence_Management.md) menu item |
 | Project manager | "Projects" menu item, additional tab [Administration](../area_modules/Project_Admin.md) |
@@ -82,7 +82,7 @@ You find the complete description of all roles and the associated rights under [
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [User management >](../../manual_admin/usermanagement/index.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
-[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Quality Management: Overview >](../area_modules/Quality_Management.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)<br>
 [Projects - Administration >](../area_modules/Project_Admin.md)<br>

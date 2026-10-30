@@ -87,7 +87,7 @@ The area where questions are collected, tagged, released and reviewed independen
 
     **What users call it:** item bank, question pool, item pool
 
-    [Read in the manual](../area_modules/Question_Bank.md) · [Ask Sophia](?sophia=What%20is%20%22Question%20bank%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../area_modules/Question_Bank/index.md) · [Ask Sophia](?sophia=What%20is%20%22Question%20bank%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -240,7 +240,7 @@ With frentix: we show you in the training. [support@frentix.com](mailto:support@
 The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
 - **Test:** [Test part](../learningresources/Configure_tests.md), [Supervisor chat](../../manual_how-to/communication_during_exam/communication_during_exam.md), [Test run](../learningresources/Assessing_tests.md), [Additional sheet](../learningresources/Test_settings.md) and more. All settings are on the page [Course Element Test](../learningresources/Course_Element_Test.md).
-- **Question bank:** [Review process](../area_modules/Question_Bank_Review_Process.md), [Shares](../area_modules/Question_Bank.md), [List](../area_modules/Question_bank_possible_operations.md). All settings are on the page [Question Bank: Overview](../area_modules/Question_Bank.md).
+- **Question bank:** [Review process](../area_modules/Question_Bank_Review_Process.md), [Shares](../area_modules/Question_Bank/index.md), [List](../area_modules/Question_bank_possible_operations.md). All settings are on the page [Question Bank: Overview](../area_modules/Question_Bank/index.md).
 - **Assessment:** [Correction](../learningresources/Test_settings.md), [Assessment documents](../learningresources/The_assessment_form.md), [Release assessment](../learningresources/The_assessment_form.md), Change log and more. All settings are on the page [Assessment of learners](../learningresources/Assessment_of_learners.md).
 - **Assessment tool:** [Bulk assessment](../../manual_how-to/bulk_assessment/bulk_assessment.md), [Assessment form](../learningresources/The_assessment_form.md), [Reset data](../learningresources/Assessment_tool_reset_data.md).
 - **Certificate:** [Certificate template](../learningresources/Course_Settings_Assessment_Certificate.md), [Recertification](../learningresources/Course_Settings_Assessment_Certificate.md). All settings are on the page [Personal achievements/successes: Certificates](../personal_menu/Certificates.md).
@@ -251,7 +251,7 @@ The first course is running. Now the things that did not matter at the start pay
 **Mentioned on this page**<br>
 [Course Element Self-test >](../learningresources/Course_Element_Self_Test.md)<br>
 [Course Element Test >](../learningresources/Course_Element_Test.md)<br>
-[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Assessment of learners >](../learningresources/Assessment_of_learners.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Personal achievements/successes: Certificates >](../personal_menu/Certificates.md)<br>

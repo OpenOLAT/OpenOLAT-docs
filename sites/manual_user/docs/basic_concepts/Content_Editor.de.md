@@ -317,7 +317,7 @@ Umgekehrt ist das Quiz-Element der einzige Ort, an dem Lernende ein [KI-Feedback
 
 ![Ein Quiz als Startkarte, mit korrekt bewerteter Frage und mit falscher Antwort samt Lösung.](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" title="Quiz auf einer Seite" }
 
-Über das 3-Punkte-Menü des Quiz-Elements tauschen Sie Fragen mit dem [Fragenpool](../area_modules/Question_Bank.de.md) aus. "Fragen aus Pool importieren" übernimmt bestehende Fragen in das Quiz, "Alle Fragen zum Pool exportieren" schreibt umgekehrt sämtliche Fragen des Quiz in den Fragenpool. So lassen sich Fragen, die direkt auf der Seite entstanden sind, für andere Kurse und Tests weiterverwenden.
+Über das 3-Punkte-Menü des Quiz-Elements tauschen Sie Fragen mit dem [Fragenpool](../area_modules/Question_Bank/index.de.md) aus. "Fragen aus Pool importieren" übernimmt bestehende Fragen in das Quiz, "Alle Fragen zum Pool exportieren" schreibt umgekehrt sämtliche Fragen des Quiz in den Fragenpool. So lassen sich Fragen, die direkt auf der Seite entstanden sind, für andere Kurse und Tests weiterverwenden.
 
 ![Geöffnetes 3-Punkte-Menü mit Fragen aus Pool importieren und Alle Fragen zum Pool exportieren.](assets/content_editor_content_quiz_pool_v1_de.png){ class="shadow lightbox" title="3-Punkte-Menü eines Quiz" }
 
@@ -517,7 +517,7 @@ Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wähl
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)<br>
 [Kursbaustein "Selbsttest" >](../learningresources/Course_Element_Self_Test.de.md)<br>
-[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Fragenpool: Fragen erstellen >](../area_modules/Question_Bank_Create_Questions.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Media Center: Konzept >](Media_Center_Concept.de.md)

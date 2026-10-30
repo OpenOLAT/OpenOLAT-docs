@@ -11,7 +11,7 @@ Im Modul Taxonomie bauen Sie die Verschlagwortung auf, mit der Katalog, Fragenpo
     Eine Taxonomie lässt sich in mehreren OpenOlat-Bereichen aktivieren und einsetzen:
 
     * [Dokumentenpool](Modules_Document_pool.de.md)
-    * [Fragenpool](../../manual_user/area_modules/Question_Bank.de.md)
+    * [Fragenpool](../../manual_user/area_modules/Question_Bank/index.de.md)
     * [ePortfolio](eAssessment_ePortfolio.de.md)
     * [Katalog](Modules_Catalog_2.0.de.md)
 
@@ -243,7 +243,7 @@ Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung un
 
 **Auf dieser Seite erwähnt**<br>
 [Modul Dokumentenpool >](Modules_Document_pool.de.md)<br>
-[Fragenpool: Übersicht >](../../manual_user/area_modules/Question_Bank.de.md)<br>
+[Fragenpool: Übersicht >](../../manual_user/area_modules/Question_Bank/index.de.md)<br>
 [e-Assessment Administration: ePortfolio >](eAssessment_ePortfolio.de.md)<br>
 [Modul Katalog >](Modules_Catalog_2.0.de.md)<br>
 [Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>

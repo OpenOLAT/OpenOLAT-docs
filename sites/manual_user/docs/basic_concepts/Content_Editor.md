@@ -312,7 +312,7 @@ Conversely, the quiz element is the only place where learners receive [AI feedba
 
 ![A quiz as a start card, with a correctly graded question and with a wrong answer plus solution.](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" title="Quiz on a page" }
 
-Via the three-dot menu of the quiz element you exchange questions with the [question bank](../area_modules/Question_Bank.md). "Import questions from pool" adds existing questions to the quiz, "Export all questions to pool" writes all questions of the quiz to the question bank. This lets you reuse questions created directly on the page in other courses and tests.
+Via the three-dot menu of the quiz element you exchange questions with the [question bank](../area_modules/Question_Bank/index.md). "Import questions from pool" adds existing questions to the quiz, "Export all questions to pool" writes all questions of the quiz to the question bank. This lets you reuse questions created directly on the page in other courses and tests.
 
 ![Open 3-dot menu with Import questions from pool and Export all questions to pool.](assets/content_editor_content_quiz_pool_v1_en.png){ class="shadow lightbox" title="3-dot menu of a quiz" }
 
@@ -507,7 +507,7 @@ Click the button to open the files in your Media Center. Here, you select files,
 [Information and settings for items in the Media Center >](Media_Center_Items.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>
 [Course Element "Self-test" >](../learningresources/Course_Element_Self_Test.md)<br>
-[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Question Bank: Create Questions >](../area_modules/Question_Bank_Create_Questions.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Media Center Concept >](Media_Center_Concept.md)

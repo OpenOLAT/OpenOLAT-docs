@@ -241,7 +241,7 @@ Launcher und Filter des Katalogs richten Administrator:innen in der System-Admin
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Katalog 2.0 - Verwaltung >](../area_modules/catalog2.0_mgmt.de.md)<br>
-[Fragenpool: Übersicht >](../area_modules/Question_Bank.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Fragenpool: Administration >](../area_modules/Question_Bank_Administration.de.md)<br>
 [Kompetenzen verschlagworten >](../area_modules/Competences_tags.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>

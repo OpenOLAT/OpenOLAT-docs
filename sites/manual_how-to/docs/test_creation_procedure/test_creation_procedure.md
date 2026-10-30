@@ -442,7 +442,7 @@ Further information can be found in the chapter "[Assessing tests](../../manual_
 [Test editor >](../../manual_user/learningresources/Test_editor_QTI_2.1.md)<br>
 [Configure tests >](../../manual_user/learningresources/Configure_tests.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
-[Question Bank: Overview >](../../manual_user/area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../../manual_user/area_modules/Question_Bank/index.md)<br>
 [How do I exchange a test? >](../exchange_tests/exchange_tests.md)
 
 **youtube**<br>

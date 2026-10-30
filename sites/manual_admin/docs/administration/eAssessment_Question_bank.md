@@ -80,7 +80,7 @@ In the tab Levels, you use "Create level" to create the levels that are availabl
 [Question Bank Review Process >](../../manual_user/area_modules/Question_Bank_Review_Process.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Test question types >](../../manual_user/learningresources/Test_question_types.md)<br>
-[Question Bank: Overview >](../../manual_user/area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../../manual_user/area_modules/Question_Bank/index.md)<br>
 [Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)
 

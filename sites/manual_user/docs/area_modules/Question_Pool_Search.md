@@ -35,6 +35,6 @@ By default, OpenOlat shows among others the filters "Title", "Author", "Type", "
 
 **Further reading**<br>
 [Question bank: Use questions >](Question_bank_possible_operations.md)<br>
-[Question Bank: Overview >](Question_Bank.md)
+[Question Bank: Overview >](Question_Bank/index.md)
 
 [To the top of the page ^](#question_pool_search)

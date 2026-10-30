@@ -10,7 +10,7 @@ In the Taxonomy module you build the indexing that the catalog, question bank, d
     A taxonomy can be activated and used in several OpenOlat areas:
 
     * [Document pool](Modules_Document_pool.md)
-    * [Question bank](../../manual_user/area_modules/Question_Bank.md)
+    * [Question bank](../../manual_user/area_modules/Question_Bank/index.md)
     * [ePortfolio](eAssessment_ePortfolio.md)
     * [Catalog](Modules_Catalog_2.0.md)
 
@@ -239,7 +239,7 @@ If the field "Subjects" stays empty although the AI has generated title, descrip
 
 **Mentioned on this page**<br>
 [Module Document Pool >](Modules_Document_pool.md)<br>
-[Question Bank: Overview >](../../manual_user/area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../../manual_user/area_modules/Question_Bank/index.md)<br>
 [e-Assessment Administration: ePortfolio >](eAssessment_ePortfolio.md)<br>
 [Module Catalog >](Modules_Catalog_2.0.md)<br>
 [Taxonomy >](../../manual_user/basic_concepts/Taxonomy_Concept.md)<br>

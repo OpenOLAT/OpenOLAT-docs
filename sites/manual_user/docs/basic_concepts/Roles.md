@@ -30,7 +30,7 @@ Which areas of the main navigation a role opens is shown on the page [Roles and 
 * **Roles manager**: Roles managers manage the roles of the people in their organisation. They open the user management via a menu item of its own in the main navigation and see all accounts of their own organisations there. Except for the roles Principal, Administrator and System administrator, they assign, change and remove all roles.
 * **Administrator**: Administrators manage modules and functions and have access to all areas of the system such as user management, catalog management and Course Planner, except the system administration. This role can be limited to an organisation. Administrators can delete users and also grant other people the right to manage the catalog.
 * **Group manager**: Group managers manage all groups. In the "Groups" menu item they also open the tab [Group Management](../area_modules/Group_Management.md). The role is a system role and applies to the entire system.
-* **Question bank manager**: Question bank managers manage the [Question Bank](../area_modules/Question_Bank.md). In the question bank they open the "Administration" section. The role is a system role and applies to the entire system.
+* **Question bank manager**: Question bank managers manage the [Question Bank](../area_modules/Question_Bank/index.md). In the question bank they open the "Administration" section. The role is a system role and applies to the entire system.
 * **System administrator**: System administrators configure and monitor the system technically. For this they have access to the system administration. The role is a system role and is not tied to any organisation.
 
 !!! note "Note"
@@ -353,7 +353,7 @@ There, each role and its contra-role appear as separate entries. Clicking an ent
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [User management >](../../manual_admin/usermanagement/index.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
-[Question Bank: Overview >](../area_modules/Question_Bank.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Roles and Rights: Assign roles >](Assign_Roles.md)<br>
 [Roles and Rights: Guest access >](guest_access.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>

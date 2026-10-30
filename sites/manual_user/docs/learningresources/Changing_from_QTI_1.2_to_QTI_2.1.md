@@ -12,7 +12,7 @@
 
     To convert a QTI 1.2 test, open the test learning resource in the authoring area and select `Administration > Convert to QTI 2.1` from the menu. This will save a copy of the old test in the new format. Thus, both test versions are available under "My entries".
 
-    ![Export menu with the "Convert to QTI 2.1" menu item](assets/test12_export.png){ class="shadow lightbox" }
+    ![Export menu with the "Convert to QTI 2.1" menu item](assets/test12_export.png){ class="shadow lightbox" title="Convert a test to QTI 2.1" }
 
 4. Export the newly created QTI 2.1 test from OpenOlat 15.x.
 5. Import the QTI 2.1 test back into OpenOlat 16
@@ -21,11 +21,11 @@
 
 Beside tests, single questions can also be converted. Questions are converted in the question bank.
 
-1. Open the [question bank](../area_modules/Question_Bank.md)
+1. Open the [question bank](../area_modules/Question_Bank/index.md)
 2. Mark the questions (in the format IMS QTI 1.2) you want to convert
 3. Confirm with the button "Convert"
 
-![Selection of QTI 1.2 questions in the question bank with the "Convert" button highlighted](assets/EN_convert_question.png){ class="shadow lightbox" }
+![Selection of QTI 1.2 questions in the question bank with the "Convert" button highlighted](assets/EN_convert_question.png){ class="shadow lightbox" title="Convert questions in the question bank" }
 
 Converted questions will be saved under "My questions".
 
@@ -39,7 +39,7 @@ If you have put some questions to lists or shares as well, they will be found th
 
 The following points need to be considered when converting questions or tests from QTI 1.2 to QTI 2.1:
 
-* If a hint is added, it will be shown in QTI 2.1 anyway. It cannot be hidden. (Shown as a box which can be opened by the candidate.)
+* If a hint is added, it will be shown in QTI 2.1 anyway. It cannot be hidden. (Shown as a box that participants can open.)
 * If a feedback is filled in, it will be shown in QTI 2.1 anyway. It cannot be hidden.
 * The description on test level will not be converted. In QTI 2.1 no description can be added to the test level.
 * The section description is converted. In QTI 2.1 it will be shown above each question.
@@ -63,7 +63,7 @@ If you want to run the test in the new format QTI 2.1 you can:
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Question Bank: Overview >](../area_modules/Question_Bank.md)
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)
 
 **Further reading**<br>
 [Creating Tests >](Test.md)<br>

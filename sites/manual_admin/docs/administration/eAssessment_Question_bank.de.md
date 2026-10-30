@@ -80,7 +80,7 @@ Im Tab Stufen erstellen Sie mit "Stufe erstellen" die Stufen, die in den Metadat
 [Fragenpool: Beurteilungsprozess >](../../manual_user/area_modules/Question_Bank_Review_Process.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Test Fragetypen >](../../manual_user/learningresources/Test_question_types.de.md)<br>
-[Fragenpool: Übersicht >](../../manual_user/area_modules/Question_Bank.de.md)<br>
+[Fragenpool: Übersicht >](../../manual_user/area_modules/Question_Bank/index.de.md)<br>
 [Rollen und Rechte: Übersicht >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)
 
