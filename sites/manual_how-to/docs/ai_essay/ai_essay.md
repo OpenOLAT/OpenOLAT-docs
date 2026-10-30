@@ -37,16 +37,16 @@ For a graded assessment, continue to use the [Test course element](../../manual_
 
 ## Checking the requirements {: #requirements}
 
-!!! info "Contact"
+!!! info "frentix customers"
 
-    For a change to the AI module, contact your organisation.
+    For frentix customers, their customer advisor at frentix takes care of the settings in the tabs "AI providers", "AI features" and "AI processing pools".
 
-The essay question in the Quiz only appears once the administration has enabled the matching AI feature.
+The essay question in the Quiz only appears once the matching AI feature is enabled in the system administration.
 
 1. As a system administrator, open the system administration: `Administration > External tools > AI module`.
-2. Select the **"AI features"** tab.
-3. Check the **"Essay Grading"** feature: the "Enable feature" switch is set to "ON", and an AI provider and a language model are selected.
-4. For the import route, also check the **"Essay Question Generator"** feature.
+2. Select the "AI features" tab.
+3. Check the "Essay Grading" feature: the "Enable feature" switch is set to "ON", and an AI provider and a language model are selected.
+4. For the import route, also check the "Essay Question Generator" feature.
 
 Two limits of this feature directly affect learners and authors:
 

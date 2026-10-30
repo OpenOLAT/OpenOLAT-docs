@@ -46,9 +46,9 @@ The user manual explains the three types of planning with diagrams:<br>
 
 ## What must be set up? {: #requirements}
 
-!!! info "Contact"
+!!! info "frentix customers"
 
-    The Course Planner is an additional module. To have it activated, contact your organisation.
+    The Course Planner is an additional module. For frentix customers, their customer advisor at frentix takes care of the activation.
 
 To carry out the steps, four conditions must be met:
 

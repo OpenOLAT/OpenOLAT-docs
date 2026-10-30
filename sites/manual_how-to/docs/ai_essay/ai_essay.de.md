@@ -37,16 +37,16 @@ Für eine bewertete Prüfung nutzen Sie weiterhin den [Kursbaustein Test](../../
 
 ## Voraussetzungen prüfen {: #requirements}
 
-!!! info "Kontakt"
+!!! info "frentix-Kund:innen"
 
-    Für eine Änderung am KI-Modul wenden Sie sich an Ihre Organisation.
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen in den Tabs "KI-Anbieter", "KI-Funktionen" und "KI-Verarbeitungs-Pools".
 
-Die Freitextfrage im Quiz erscheint nur, wenn die Administration die passende KI-Funktion freigeschaltet hat.
+Die Freitextfrage im Quiz erscheint nur, wenn die passende KI-Funktion in der System-Administration aktiviert ist.
 
 1. Öffnen Sie als Systemadministrator:in die System-Administration: `Administration > Externe Werkzeuge > KI-Modul`.
-2. Wählen Sie den Tab **"KI-Funktionen"**.
-3. Prüfen Sie die Funktion **"Essay Bewertung"**: Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI-Anbieter und ein Sprachmodell sind gewählt.
-4. Für den Weg über den Import prüfen Sie zusätzlich die Funktion **"Essay Fragen Generator"**.
+2. Wählen Sie den Tab "KI-Funktionen".
+3. Prüfen Sie die Funktion "Essay Bewertung": Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI-Anbieter und ein Sprachmodell sind gewählt.
+4. Für den Weg über den Import prüfen Sie zusätzlich die Funktion "Essay Fragen Generator".
 
 Zwei Grenzwerte dieser Funktion wirken direkt auf Lernende und Autor:innen:
 

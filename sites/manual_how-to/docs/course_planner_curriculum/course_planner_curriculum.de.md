@@ -46,9 +46,9 @@ Die drei Planungen mit Grafiken erklärt das Benutzerhandbuch:<br>
 
 ## Was muss eingerichtet sein? {: #requirements}
 
-!!! info "Kontakt"
+!!! info "frentix-Kund:innen"
 
-    Der Course Planner ist ein Zusatzmodul. Für die Aktivierung wenden Sie sich an Ihre Organisation.
+    Der Course Planner ist ein Zusatzmodul. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
 
 Damit Sie die Schritte ausführen können, müssen vier Dinge erfüllt sein:
 
