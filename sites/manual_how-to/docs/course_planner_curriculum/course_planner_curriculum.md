@@ -52,7 +52,7 @@ The user manual explains the three types of planning with diagrams:<br>
 
 To carry out the steps, four conditions must be met:
 
-- **Course Planner switched on**: Administrators switch on the Course Planner in the system administration, with the switch Module "Course Planner" under `Administration > Modules > Course Planner > Tab "Settings"`.
+- **Course Planner switched on**: System administrators switch on the Course Planner in the system administration, with the switch Module "Course Planner" under `Administration > Modules > Course Planner > Tab "Settings"`.
 - **Role**: You have the role Course planner or you are a product owner of the product. Authors have no access to the Course Planner, see [Who can use the Course Planner? >](../../manual_user/area_modules/Course_Planner.md#users)
 - **Element types**: Suitable element types exist for the implementation and its elements (step 1).
 - **Courses**: The courses have the usage "Use in Course Planner", course templates the usage "Template" (step 5).
@@ -64,7 +64,7 @@ To carry out the steps, four conditions must be met:
 
 ## Step 1: Clarify the element types {: #element_types}
 
-The element types determine what you can build in an implementation: whether it contains semesters and modules, which element carries a course and where a course template is possible. Administrators create element types in the system administration. So before the first click, clarify with your administrator which types exist and which ones you need. The types are under:<br>
+The element types determine what you can build in an implementation: whether it contains semesters and modules, which element carries a course and where a course template is possible. System administrators create element types in the system administration. So before the first click, clarify with your system administrator which types exist and which ones you need. The types are under:<br>
 `Administration > Modules > Course Planner > Tab "Element types"`
 
 For a program with semesters and modules, three types are enough, for example:
@@ -77,10 +77,10 @@ For a program with semesters and modules, three types are enough, for example:
 
 Each setting takes effect later in the implementation:
 
-- **For use as**: A type for the implementation itself needs "Implementation", a type for semesters and modules "Element". The value results from the button the administrator uses to create the type: "Create type for implementation" or "Create type for element". It cannot be changed afterwards.
+- **For use as**: A type for the implementation itself needs "Implementation", a type for semesters and modules "Element". The value results from the button the system administrator uses to create the type: "Create type for implementation" or "Create type for element". It cannot be changed afterwards.
 - **Subelements**: Only with "Yes" does an implementation or an element show the "Structure" tab and accept sub-elements.
-- **Content**: "No content": the element carries no course and only serves to structure, its "Content" tab does not appear. This value only exists with "Subelements" = "Yes". "Single course" carries exactly one course, and only here is there the "Add course template" button. "Course bundle" carries several courses, but no course template.
-- **Parent elements and child elements**: Here the administrator determines which types may stand below which type. The field "Child elements" only appears with "Subelements" = "Yes", the field "Parent elements" only for types with "For use as" = "Element". The implementation later offers only the permitted types for creation (step 4).
+- **Content**: With "No content", the element carries no course and only serves to structure, its "Content" tab does not appear. This value only exists with "Subelements" = "Yes". An element with "Single course" carries exactly one course, and only there is the "Add course template" button available. An element with "Course bundle" carries several courses, but no course template.
+- **Parent elements and child elements**: Here the system administrator determines which types may stand below which type. The field "Child elements" only appears with "Subelements" = "Yes", the field "Parent elements" only for types with "For use as" = "Element". The implementation later offers only the permitted types for creation (step 4).
 
 The administration manual explains all fields of an element type:<br>
 [Create and edit element types >](../../manual_admin/administration/Modules_Course_Planner.md#create_element_types)

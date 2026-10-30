@@ -50,9 +50,9 @@ Die drei Planungen mit Grafiken erklärt das Benutzerhandbuch:<br>
 
     Der Course Planner ist ein Zusatzmodul. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
 
-Damit Sie die Schritte ausführen können, müssen vier Dinge erfüllt sein:
+Damit Sie die Schritte ausführen können, müssen vier Voraussetzungen erfüllt sein:
 
-- **Course Planner eingeschaltet**: Administrator:innen schalten den Course Planner in der System-Administration ein, mit dem Schalter Modul "Course Planner" unter `Administration > Module > Course Planner > Tab "Einstellungen"`.
+- **Course Planner eingeschaltet**: Systemadministrator:innen schalten den Course Planner in der System-Administration ein, mit dem Schalter Modul "Course Planner" unter `Administration > Module > Course Planner > Tab "Einstellungen"`.
 - **Rolle**: Sie haben die Rolle Kursplaner:in oder sind Produktbesitzer:in des Produkts. Autor:innen haben keinen Zugang zum Course Planner, siehe [Wer kann den Course Planner nutzen? >](../../manual_user/area_modules/Course_Planner.de.md#users)
 - **Elementtypen**: Es gibt passende Elementtypen für die Durchführung und ihre Elemente (Schritt 1).
 - **Kurse**: Die Kurse tragen den Verwendungszweck "Verwendung im Course Planner", Kurstemplates den Verwendungszweck "Template" (Schritt 5).
@@ -64,7 +64,7 @@ Damit Sie die Schritte ausführen können, müssen vier Dinge erfüllt sein:
 
 ## Schritt 1: Elementtypen klären {: #element_types}
 
-Die Elementtypen legen fest, was Sie in einer Durchführung bauen können: ob sie Semester und Module enthält, welches Element einen Kurs trägt und wo ein Kurstemplate möglich ist. Elementtypen legen Administrator:innen in der System-Administration an. Klären Sie deshalb vor dem ersten Klick mit Ihrer Administrator:in, welche Typen es gibt und welche Sie brauchen. Die Typen stehen unter:<br>
+Die Elementtypen legen fest, was Sie in einer Durchführung bauen können: ob sie Semester und Module enthält, welches Element einen Kurs trägt und wo ein Kurstemplate möglich ist. Elementtypen legen Systemadministrator:innen in der System-Administration an. Klären Sie deshalb vor dem ersten Klick mit Ihrer Systemadministrator:in, welche Typen es gibt und welche Sie brauchen. Die Typen stehen unter:<br>
 `Administration > Module > Course Planner > Tab "Elementtypen"`
 
 Für einen Lehrgang mit Semestern und Modulen genügen drei Typen, zum Beispiel:
@@ -77,10 +77,10 @@ Für einen Lehrgang mit Semestern und Modulen genügen drei Typen, zum Beispiel:
 
 Jede Einstellung wirkt später in der Durchführung:
 
-- **Verwendung als**: Ein Typ für die Durchführung selbst braucht "Durchführung", ein Typ für Semester und Module "Element". Der Wert ergibt sich aus dem Button, mit dem die Administrator:in den Typ anlegt: "Typ für Durchführung erstellen" oder "Typ für Element erstellen". Ändern lässt er sich danach nicht.
+- **Verwendung als**: Ein Typ für die Durchführung selbst braucht "Durchführung", ein Typ für Semester und Module "Element". Der Wert ergibt sich aus dem Button, mit dem die Systemadministrator:in den Typ anlegt: "Typ für Durchführung erstellen" oder "Typ für Element erstellen". Ändern lässt er sich danach nicht.
 - **Unterelemente**: Nur mit "Ja" zeigt eine Durchführung oder ein Element das Tab "Struktur" und nimmt Unterelemente auf.
-- **Inhalt**: "Kein Inhalt": Das Element trägt keinen Kurs und dient nur der Gliederung, sein Tab "Kursinhalt" erscheint nicht. Diesen Wert gibt es nur bei "Unterelemente" = "Ja". "Einzelkurs" trägt genau einen Kurs, und nur hier gibt es den Button "Kurstemplate hinzufügen". "Kurs-Bundle" trägt mehrere Kurse, aber kein Kurstemplate.
-- **Elternelemente und Kindelemente**: Hier legt die Administrator:in fest, welche Typen unter welchem Typ stehen dürfen. Das Feld "Kindelemente" erscheint nur bei "Unterelemente" = "Ja", das Feld "Elternelemente" nur bei Typen mit "Verwendung als" = "Element". Nur die erlaubten Typen bietet die Durchführung später zum Erstellen an (Schritt 4).
+- **Inhalt**: Mit "Kein Inhalt" trägt das Element keinen Kurs und dient nur der Gliederung, sein Tab "Kursinhalt" erscheint nicht. Diesen Wert gibt es nur bei "Unterelemente" = "Ja". Ein Element mit "Einzelkurs" trägt genau einen Kurs, und nur dort gibt es den Button "Kurstemplate hinzufügen". Ein Element mit "Kurs-Bundle" trägt mehrere Kurse, aber kein Kurstemplate.
+- **Elternelemente und Kindelemente**: Hier legt die Systemadministrator:in fest, welche Typen unter welchem Typ stehen dürfen. Das Feld "Kindelemente" erscheint nur bei "Unterelemente" = "Ja", das Feld "Elternelemente" nur bei Typen mit "Verwendung als" = "Element". Nur die erlaubten Typen bietet die Durchführung später zum Erstellen an (Schritt 4).
 
 Alle Felder eines Elementtyps erklärt das Administrationshandbuch:<br>
 [Elementtyp erstellen und bearbeiten >](../../manual_admin/administration/Modules_Course_Planner.de.md#create_element_types)
