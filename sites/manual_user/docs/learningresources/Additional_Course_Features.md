@@ -60,7 +60,7 @@ It only applies to participants, not to coaches or owners.
 ## Learning path in the toolbar [:octicons-tag-16:{ title="from Release 15.0 (OO-4300)" }](https://track.frentix.com/issue/OO-4300)
 Via the learning path icon in the toolbar, participants get an overview of their progress in all course elements. Depending on the columns selected, the table also shows information such as the type of implementation and dates. This way, participants keep track of their activities in the course.
 
-![Learning path table with course elements, progress in percent, status such as Started or Completed, mandatory flag and processing deadlines per element](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Learning path from the participant's view" }
+![My learning path with progress, status and date done per course element, so participants see at a glance what is finished and what is still open](assets/additional_course_features_my_learning_path_v1_en.png){ class="shadow lightbox" title="Learning path in the course toolbar, participant view · 2026.10.30" }
 
 Course owners and coaches first get an overview of all participants via the "Learning path" link and can then select a person to see their learning progress.
 

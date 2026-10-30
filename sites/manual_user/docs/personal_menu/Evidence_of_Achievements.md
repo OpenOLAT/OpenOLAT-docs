@@ -1,12 +1,12 @@
 # Personal achievements/successes: Evidence of Achievements {: #evidence_of_achievements}
 
-![Menu group Achievements/Successes with the entries Evidence of achievement, Certificates, Badges and Credit points, the entry Evidence of achievement is selected, in the personal menu](assets/pers_menu_evid_of_achiev_v4_de.png){ class="aside-right lightbox"}
+![Menu group Achievements/Successes in the personal menu with the entries Evidence of achievement, Certificates, Badges and Competences, so you find your evidence of achievement in the personal menu](assets/pers_menu_evid_of_achiev_v4_en.png){ width="244" class="aside-right lightbox" title="Personal menu, group Achievements/Successes · 2026.10.30" }
 
 ![Icon Evidence of achievement](assets/icon_evidence_of_achievements.png)
 
 An evidence of achievement summarises all results of a person in a course: per assessable course element with score, status and date, e.g. for completed tests or submitted and assessed tasks.
 
-![Four courses with score, Passed, certificate and ePortfolio action, above them the selection by product or Individual Courses](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox" title="Tool Evidence of achievement in the personal menu" }
+![Three courses with progress, score and Passed, above them the selection by product or Individual Courses, so you see the results of all your courses in one list](assets/pers_menu_evid_of_achiev_list_v1_en.png){ class="shadow lightbox" title="Tool Evidence of achievement in the personal menu · 2026.10.30" }
 
 A [PDF certificate](../learningresources/Course_Settings_Assessment_Certificate.md#certificate) can also be issued as confirmation that a course has been attended or that certain course-related activities have been completed. A certificate can also be issued without the use of an evidence of achievement.
 
