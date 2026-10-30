@@ -14,10 +14,8 @@ The menu item "Courses" in the Coaching Tool shows the learning resources you ar
 
 "As coach" is always available. The scopes "As owner" and "Other resources" only appear if you own at least one matching learning resource with a status from "Preparation" to "Finished". The scope selection itself becomes visible as soon as more than one scope applies to you. In the example shown above, all three scopes are available, "Other resources" is selected.
 
-* The participants from all courses you coach are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
-* Coaches only see the participants they coach.
-* The participants you coach are grouped and assigned to the roles you have as coach in relation to them.
-* In the list for coaches, you only see courses that are published, finished or at least accessible for coaches.
+* Under "As coach", the list only shows courses with the status "Access for coach", "Published" or "Finished".
+* Under "As owner", the list shows your courses in every status from "Preparation" to "Finished".
 
 !!! tip "This is where you find your embedded resources and your templates"
 

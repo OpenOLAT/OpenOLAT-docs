@@ -14,10 +14,8 @@ Der Menüpunkt "Kurse" im Coaching Tool zeigt die Lernressourcen, für die Sie z
 
 "Als Betreuer:in" steht immer zur Wahl. Die Fokus-Einträge "Als Besitzer:in" und "Weitere Ressourcen" erscheinen nur, wenn Sie mindestens eine passende Lernressource im Status "Vorbereitung" bis "Beendet" besitzen. Die Fokus-Auswahl selbst wird sichtbar, sobald mehr als ein Fokus für Sie zutrifft. Im oben gezeigten Beispiel stehen alle drei Fokus-Einträge zur Verfügung, gewählt ist "Weitere Ressourcen".
 
-* Es werden die Teilnehmenden aus allen von Ihnen betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
-* Betreuer:innen sehen nur die von ihnen betreuten Teilnehmenden.
-* Die betreuten Teilnehmenden sind gruppiert und den Rollen zugeordnet, die Sie als Betreuer:in gegenüber dieser Person haben.
-* In der Liste für Betreuer:innen sehen Sie nur Kurse, die veröffentlicht, beendet oder zumindest für Betreuer:innen zugänglich sind.
+* Unter "Als Betreuer:in" zeigt die Liste nur Kurse im Status "Freigabe Betreuer:innen", "Veröffentlicht" oder "Beendet".
+* Unter "Als Besitzer:in" zeigt die Liste Ihre Kurse in allen Status von "Vorbereitung" bis "Beendet".
 
 !!! tip "Hier finden Sie Ihre eingebundenen Ressourcen und Ihre Vorlagen"
 
