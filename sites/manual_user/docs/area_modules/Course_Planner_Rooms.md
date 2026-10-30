@@ -67,9 +67,9 @@ In the calendar, every booking appears as a calendar entry labelled with the ref
 
 The window is available in every calendar view of the room management: in the room scheduling, in the room list and in the calendar of a single room row. In the table view, the expanded row leads to the [details of a booking](#booking_details) instead.
 
-![The Booking window shows the room, the event with its reference, the date and the time of the clicked booking, plus the Open in Course Planner action](assets/course_planner_rooms_scheduling_callout_v3_en.png){ class="shadow lightbox" title="Year view in the calendar of Room management · 2026.10.27" }
+![The Booking window shows the room, the event with its reference, the date and the time of the clicked booking, plus the Open in Course Planner action](assets/course_planner_rooms_scheduling_callout_v4_en.png){ width="354" class="shadow lightbox" title="Month view in the calendar of the room scheduling · 2026.10.30" }
 
-![The switch between table and calendar with the views Month, Week, Day and Year, here the month view](assets/course_planner_rooms_scheduling_calendar_v2_en.png){ class="shadow lightbox" title="Calendar of the room scheduling · 2026.10.27" }
+![The switch between table and calendar with the views Month, Week, Day and Year, below it a section of the month view](assets/course_planner_rooms_scheduling_calendar_v3_en.png){ class="shadow lightbox" title="Calendar of the room scheduling · 2026.10.30" }
 
 ### Warnings {: #warnings}
 
