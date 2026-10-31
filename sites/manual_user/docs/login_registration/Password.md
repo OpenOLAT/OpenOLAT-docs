@@ -2,7 +2,7 @@
 
 !!! note "Note"
 
-    If [security level](Security_levels.md) 2 is selected (passkey only), then setting a password is no longer possible.
+    With [security level](Security_levels.md) 2 (passkey only), your account has no password. The link "Forgot password?" then does not give you a new password, see [Reset the password yourself](#reset_password).
 
 ## Change the password yourself
 
@@ -18,18 +18,20 @@ To do this, go to the personal menu.<br>
 
 If you have forgotten your password, you set a new one yourself, provided that your organisation allows this and an e-mail address is stored on your account. The way there is opened by the link "Forgot password?" in the area "Do you need help?" below the login on the [login page](Login_Page.md#forgot_password). If you do not see the area, click "Login with an OpenOlat account" first. The wizard is called "Set login credentials".
 
-![Four steps of the wizard, plus the two exits Contact support and account with passkey](assets/password_reset_wizard_v1_en.svg){ class="shadow lightbox" }
+![Four steps of the wizard, plus the two exits Contact support and account with passkey](assets/password_reset_wizard_v1_en.svg){ class="shadow lightbox" title="Flow of the Set login credentials wizard" }
 
 1. **Authentication**: Enter one of the two details in the field "E-mail address or username".
 2. **Select Validation Type**: Select "via E-Mail" or "via Sms". You only see this step if both an e-mail address and a mobile number are stored on your account and your organisation has released the reset by SMS. If only one of the two is stored, the wizard leads you on directly.
 3. **Validation**: Enter the 8-digit code in the field "Validation code". If no message arrives, use the button "Resend validation code" below "Did you not receive your validation code?". All previously sent codes then become invalid.
 4. **Set login credentials**: Assign the new password. The rules that apply are stated in the step itself.
 
-![Step Validation in the wizard Set login credentials with the field Validation code, highlighted the question Did you not receive your validation code? with the button Resend validation code](assets/password_reset_validation_v1_en.png){ class="shadow lightbox" }
+![Field Validation code, highlighted the question Did you not receive your validation code? with the button Resend validation code](assets/password_reset_validation_v1_en.png){ class="shadow lightbox" title="Validation step in the Set login credentials wizard" }
 
 Instead of steps 2 to 4, the wizard shows the step "Contact support" if your account does not allow a password to be set or if neither an e-mail address nor a usable mobile number (see step 2) is stored. The text there reads "To change your password, please contact the support team at your university." This means the body that gave you the access to OpenOlat: your school, university, company, public administration or training provider, or their IT and student administration.
 
 If you use a passkey for your account, the e-mail has the subject "Key for new OpenOlat password" and contains no validation code, but the note to use your recovery keys or to contact the support centre. Recovery keys are the replacement codes that OpenOlat showed you when you set up the passkey, see [Passkey](Passkey.md).
+
+If you have so far logged in with a passkey only and the login page now asks for a password, passkey is currently switched off in OpenOlat. You did not have a password so far, and the e-mail from the wizard contains no validation code. Contact [your organisation](Login_Page.md#contact_support): it creates new login credentials for you or sends you a link with which you set a password yourself. You change a password that you receive from your organisation after logging in under `Personal Menu > Password`.
 
 ## Password assignment by user managers
 
@@ -38,7 +40,7 @@ It often happens that someone has forgotten the password and asks for a new one.
 
 The tab shows the current security level of the account and offers two ways to a new password: With "Send password link" you send a link for setting a new password to the stored e-mail address (recommended). With "Reset password" you set the new password directly.
 
-![Buttons "Reset password" and "Send password link" below the local OpenOlat authentication, above them the security level of the account, tab Password in the user management](assets/password_admin_v2_en.png){ class="shadow lightbox" }
+![Highlighted the security level of the account and the buttons "Reset password" and "Send password link"](assets/password_admin_v3_en.png){ class="shadow lightbox" title="Password tab in the user management · 2026.10.31" }
 
 ## Further information {: #further_information}
 

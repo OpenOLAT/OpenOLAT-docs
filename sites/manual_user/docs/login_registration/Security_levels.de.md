@@ -15,11 +15,11 @@ Zusätzlich kann die Administration den [One Time Code](One_Time_Code.de.md) akt
 ## Durch Administrator:innen gesetzte Sicherheitsstufen {: #admin_levels}
 
 Für manche Rollen macht eine höhere Sicherheitsstufe Sinn, z.B. für Benutzerverwalter:innen oder Administrator:innen. In OpenOlat kann deshalb für jede Rolle separat eine minimal erforderliche Sicherheitsstufe eingestellt werden. Administrator:innen legen die Stufe pro Rolle in der System-Administration fest unter:<br>
-`Administration > Login > Password und Authentifizierung > Tab "Authentifizierung"`
+`Administration > Login > Passwort und Authentifizierung > Tab "Authentifizierung"`
 
-Mit dem Button "Alle Rolle auf Stufe… setzen" lässt sich eine Stufe für alle Rollen gleichzeitig übernehmen.
+Mit dem Button "Alle Rollen auf Stufe… setzen" lässt sich eine Stufe für alle Rollen gleichzeitig übernehmen.
 
-![Auswahl der Mindeststufe 1 bis 3 je Rolle und Option zum selbständigen Erhöhen der Sicherheitsstufe, Konfiguration Passkey in der System-Administration](assets/security_levels_v1_de.png){ class="shadow lightbox" }
+![Markiert die Tabelle mit der Mindeststufe 1 bis 3 je Rolle und den Button "Alle Rollen auf Stufe… setzen"](assets/security_levels_v2_de.png){ class="shadow lightbox" title="Tab Authentifizierung im Menü Passwort und Authentifizierung · 2026.10.31" }
 
 
 ## Sicherheitsstufen wechseln {: #change_level}
@@ -29,7 +29,7 @@ Administrator:innen können mit der Option "Sicherheitsstufe selbständig erhöh
 Die Umstellung erfolgt mit dem Button "Sicherheitsstufe wechseln" unter:<br>
 `Persönliches Menü > Passwort`
 
-![Aktuelle Sicherheitsstufe 2 - Passkey, daneben die Wahl zwischen Stufe 3 und Stufe 1 mit dem Button Sicherheitsstufe wechseln, Tab Passwort im persönlichen Menü](assets/security_levels_user_settings_v1_de.png){ class="shadow lightbox" }
+![Markiert den Button "Sicherheitsstufe wechseln" neben der aktuellen Stufe und den Stufen, zu denen das Konto wechseln kann](assets/security_levels_user_settings_v2_de.png){ class="shadow lightbox" title="Seite Passwort im persönlichen Menü · 2026.10.31" }
 
 Wird für das Höherstufen ein Passkey benötigt, können die Benutzer:innen den Passkey selbst generieren, ebenfalls unter `Persönliches Menü > Passwort`.
 

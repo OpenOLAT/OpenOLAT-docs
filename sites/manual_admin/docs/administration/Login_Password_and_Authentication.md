@@ -7,13 +7,13 @@ Administrators and system administrators define here how account holders log in 
 
 In the "Authentication" tab you determine how the login page offers the OpenOlat login and with which second factor account holders additionally identify themselves. The tab is divided into the sections "Configuration", "One time code" and "Security levels / Passkey". Every change in this tab takes effect immediately, there is no button for saving.
 
-![OpenOlat Login as input field or login button, Use one time code switch, passkey options and security level per role highlighted](assets/login_password_and_authentication_auth_v3_en.png){ class="shadow lightbox" title="Authentication tab in the Administration · 2026.10.02" }
+![OpenOlat Login as input field, one time code off, passkey on, level 1 for all roles except user managers with level 2](assets/login_password_and_authentication_auth_v4_en.png){ class="shadow lightbox" title="Authentication tab in the Administration · 2026.10.31" }
 
 ### Configuration [:octicons-tag-16:{ title="from Release 18.1.2 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) {: #configuration}
 
 #### OpenOlat Login {: #openolat_login}
 
-With the options "As input field" and "As login button" you define how the login page displays the OpenOlat login. With "As login button", a **button** is displayed on the login page **instead of the input field** for the user name, with which the input field can be called up.
+With the options "As input field" and "As login button" you define how the login page displays the OpenOlat login. With "As login button", the login page shows a button instead of the input field for the username, which opens the input field.
 
 **Purpose:**<br>
 If the primary login method is not the OpenOlat login, then the input field for the OpenOlat login should often not be displayed directly and prominently. An input field invites input, and users immediately enter their (incorrect) login name instead of considering the other login methods.<br>
@@ -44,7 +44,24 @@ How account holders change their security level is described on the page [Securi
 
 Switching on activates the option for level 2 and 3. Only then does the section show the settings "Increase security level independently" and "Required switch can be skipped", the menu "Set all roles at level…" and the table of roles.
 
-If account holders log in with a passkey only (level 2), OpenOlat asks for a confirmation in the "Disable passkey" dialog when you switch off. These accounts can no longer log in afterwards.
+!!! tip "Switching passkey off again"
+
+    If account holders log in with a passkey only (level 2), OpenOlat shows the "Disable passkey" dialog when you switch off. It names the number of these accounts, and you confirm with the "Disable passkey" button. If there are no such accounts, OpenOlat switches off without a dialog.
+
+    After switching off, the login page asks for username and password. Accounts with level 2 have no password. The link "Forgot password?" does not give these persons a password either: the e-mail refers to the recovery keys and the support centre and contains no validation code.
+
+    This is how all account holders keep their access:
+
+    1. In the table under [Role](#role), set the roles concerned to "Level 1 - Password".
+    2. Leave the option "Users can increase the security level themselves" switched on, see [Increase security level independently](#increase_security_level_independently). Only then does OpenOlat show the button "Change security level" under `Personal Menu > Password`.
+    3. Ask the persons with level 2 to switch to "Level 1 - Password" there. OpenOlat asks for a new password and then removes their passkeys.
+    4. Switch passkey off. If the dialog still names accounts, clear them up first.
+
+    If a person with level 2 gets in touch after switching off, you help them in the user management in the "Password" tab in one of three ways, see [Manage user settings](../usermanagement/Configure_User.md#password):
+
+    * **Create login credentials:** With "Create login credentials" you set a password. Pass it on to the person in a secure way. They change it after logging in under `Personal Menu > Password`.
+    * **Delete passkeys:** In the "Passkeys" section, delete all passkeys of the person. Then send them a link with "Send invitation link to set login credentials", with which they set their password themselves.
+    * **Switch passkey on temporarily:** The person logs in with their passkey or a recovery key and switches to "Level 1 - Password". You send them a recovery key with "Send recovery key". Then switch passkey off again.
 
 #### Increase security level independently {: #increase_security_level_independently}
 
@@ -60,13 +77,13 @@ The menu sets all roles of the table to the selected level in one step: "Level 1
 
 #### Role {: #role}
 
-The table lists each role in a row and the three security levels as columns. The selected level defines the **minimum requirement** for the respective role.
+The table lists each role in a row and the three security levels as columns. The selected level defines the minimum requirement for the respective role.
 
 ## Tab "Password syntax" {: #tab-password-syntax}
 
 As the administrator, you define here which criteria a password must fulfill. A minimum and maximum length must be defined. The rules apply as soon as you click "Save".
 
-![Required fields Minimum length and Maximum length highlighted, below them rules for letters, digits, special signs and forbidden values](assets/login_password_and_authentication_syntax_v3_en.png){ class="shadow lightbox" title="Password syntax tab in the Administration · 2026.10.02" }
+![Minimum length 4 and maximum length 128, at least 1 letter and 1 digit or special sign, no forbidden values](assets/login_password_and_authentication_syntax_v4_en.png){ class="shadow lightbox" title="Password syntax tab in the Administration · 2026.10.31" }
 
 #### Minimum length {: #minimum_length}
 
@@ -96,13 +113,13 @@ Defines from how many earlier passwords a new password must differ: "disabled" o
 
 The button opens the "Validation of password syntax" dialog. There you check a sample password with "Validate" against the rules set in the form, also before saving.
 
-## Tab "Password change policies" {: #tab-password-change-policy}
+## Tab "Password change policies" [:octicons-tag-16:{ title="from Release 12.4.1 (OO-3417)" }](https://track.frentix.com/issue/OO-3417) {: #tab-password-change-policy}
 
-Here you can define how often users have to change their password. The lifetime of the password can be defined for each role. Whether an earlier password can be reused is defined by the "Prevent reuse of previous passwords" field in the "Password syntax" tab, even though the hint above the form mentions reuse here.
+Here you define how often users have to change their password. The lifetime of the password can be defined for each role. Whether an earlier password can be reused is defined by the "Prevent reuse of previous passwords" field in the "Password syntax" tab.
 
 The policy concerns the OpenOlat password. Accounts that also log in via LDAP, Shibboleth or a cloud login are exempt from it.
 
-![Enforce new password after field highlighted, with a separate period in days per role from authors to system administrators](assets/login_password_and_authentication_pw_change_policies_v3_en.png){ class="shadow lightbox" title="Password change policies tab in the Administration · 2026.10.02" }
+![Validity period 30 minutes, password change on first login off, no period for a new password, also not per role](assets/login_password_and_authentication_pw_change_policies_v4_en.png){ class="shadow lightbox" title="Password change policies tab in the Administration · 2026.10.31" }
 
 #### Password change validity period in minutes {: #password_change_validity_period}
 
@@ -119,7 +136,8 @@ The number of days after which all accounts must set a new password. An empty fi
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Security Levels >](../../manual_user/login_registration/Security_levels.md)
+[Security Levels >](../../manual_user/login_registration/Security_levels.md)<br>
+[Manage user settings >](../usermanagement/Configure_User.md)
 
 **Further reading**<br>
 [One Time Code >](../../manual_user/login_registration/One_Time_Code.md)<br>

@@ -10,7 +10,7 @@ This is what a login page that only offers login with an OpenOlat account looks 
 
 Your organisation can set up further options, for example login through an identity provider, guest access or self-registration. Such a login page looks like this, for example:
 
-![Field Username and button Login, below identity providers, Guest access, Explore our offers, Register here and Forgot password?](assets/login_v2_de.png){ class="shadow lightbox" title="Example of a login page with further options" }
+![Field Username and button Login, below identity providers, Guest access, Explore our offers, Register here and Forgot password?](assets/login_v2_en.png){ class="shadow lightbox" title="Example of a login page with further options · 2026.10.31" }
 
 If your login page looks different from the login page at the top, your organisation has set it up. If the following explanations do not help you in that case, only your organisation can help you log in, not frentix. The section [None of this helps](#contact_support) explains how to reach it.
 
@@ -30,13 +30,13 @@ You are in front of the login and cannot get any further. Find the case below th
 
 If the login page shows "You have been logged out", the cause is not a login problem: your session has expired. Log in again, see [Session Timeout and Logout](../basic_concepts/Session_Timeout_and_Logout.md).
 
-![Six login problems, one way to try first for each, and if that does not help, your organisation as the responsible body](assets/login_problem_wegweiser_v1_en.svg){ class="shadow lightbox" }
+![Six login problems, one way to try first for each, and if that does not help, your organisation as the responsible body](assets/login_problem_wegweiser_v1_en.svg){ class="shadow lightbox" title="Guide for login problems" }
 
 ### I have forgotten my password {: #forgot_password}
 
 You set a new password yourself, provided that your organisation allows this and an e-mail address is stored on your account. The link "Forgot password?" is below the login in the area "Do you need help?", together with the link "Frequently asked questions". If you do not see the area, click "Login with an OpenOlat account" first. The link starts the wizard "Set login credentials", which identifies you by a validation code and then lets you set a new password. The page [Password](Password.md#reset_password) describes the steps.
 
-![Lower part of the login box with Guest access, Catalog and Register here, below it the highlighted area Do you need help? with the links Forgot password? and Frequently asked questions](assets/login_help_area_v1_en.png){ class="shadow lightbox" }
+![Guest access, Catalog and Register here, below it the highlighted area Do you need help? with the links Forgot password? and Frequently asked questions](assets/login_help_area_v1_en.png){ class="shadow lightbox" title="Lower part of the login box on the login page" }
 
 Your organisation has set up whether and where the link leads. It can open the OpenOlat wizard, open a page of your organisation in a new window, or be missing. If the link is missing, your password is not stored in OpenOlat. This is the case if you log in with one of the buttons below "Please select your identity provider.". Change the password where you also change it for your other services, or contact [your organisation](#contact_support).
 
@@ -51,7 +51,7 @@ Without the validation code you cannot get any further in the wizard "Set login 
 3. OpenOlat sends the e-mail to the address stored on your account. If an old address or no address at all is stored there, the e-mail does not reach you. You cannot change this address without logging in, only [the body that manages your account](#contact_support) can do that.
 4. If OpenOlat reports "User could not be identified clearly.", the e-mail address or the username you entered belongs to no account or to several accounts. Try the other entry instead.
 
-If you use a passkey for your account, the e-mail has the subject "Key for new OpenOlat password" and contains no code, but the note to use your recovery keys or to contact the support centre. Recovery keys are the replacement codes that OpenOlat showed you when you set up the passkey, see [Passkey](Passkey.md). If you no longer have a recovery key, only [your organisation](#contact_support) can help.
+If you use a passkey for your account, the e-mail has the subject "Key for new OpenOlat password" and contains no code, but the note to use your recovery keys or to contact the support centre. Recovery keys are the replacement codes that OpenOlat showed you when you set up the passkey, see [Passkey](Passkey.md). If you no longer have a recovery key, only [your organisation](#contact_support) can help. If the login page asks for a password although you have so far logged in with a passkey only, the page [Password](Password.md#reset_password) describes how your organisation helps you.
 
 ### I have not received any credentials from my institution {: #no_account}
 
@@ -63,7 +63,7 @@ If the login page shows the link "Register here", you can create an account your
 
 If the identity provider of your organisation throws you back, the message on the page "Authentication not successful" tells you whether you can do something yourself. This applies to identity providers such as Microsoft Azure AD or Keycloak. With Shibboleth the messages read differently, for example "You are not authorized to log in OpenOlat."; the way is the same: [your organisation](#contact_support).
 
-![Page "Authentication not successful" with the message access_denied, below it the marked box with the support address, then the button "Go to login page"](assets/login_auth_failed_v1_en.png){ class="shadow lightbox" }
+![Below the message access_denied, the marked box shows the support address that your organisation has stored; the button "Go to login page" leads back to the login](assets/login_auth_failed_v2_en.png){ class="shadow lightbox" title="Page Authentication not successful · 2026.10.31" }
 
 | Message | What it means | What you do |
 |---|---|---|
@@ -98,7 +98,7 @@ If none of the ways above gets you any further, you need a person who is allowed
 
 ## Guest Access {: #guest}
 
-Alternatively, you can also visit OpenOlat as a guest. The guest access provides an insight into OpenOlat with limited functionality: you only have access to learning content that is explicitly released for guests. In order to have access to other learning materials and activities, you have to register with OpenOlat. Further information on the guest access can be found [here](../basic_concepts/guest_access.md).
+Alternatively, you can also visit OpenOlat as a guest. The guest access provides an insight into OpenOlat with limited functionality: you only have access to learning content that is explicitly released for guests. In order to have access to other learning materials and activities, you have to register with OpenOlat. More on the guest access is on the page [Roles and Rights: Guest access](../basic_concepts/guest_access.md).
 
 ## Browser {: #browsercheck}
 
@@ -132,6 +132,7 @@ When you call up the catalog on the login page, the [web catalog](../area_module
 **Mentioned on this page**<br>
 [Passkey >](Passkey.md)<br>
 [One Time Code >](One_Time_Code.md)<br>
+[Session Timeout and Logout >](../basic_concepts/Session_Timeout_and_Logout.md)<br>
 [Password >](Password.md)<br>
 [Roles and Rights: Guest access >](../basic_concepts/guest_access.md)<br>
 [Apple Safari >](https://www.apple.com/safari/)<br>
@@ -142,7 +143,6 @@ When you call up the catalog on the login page, the [web catalog](../area_module
 [Externally available catalog >](../area_modules/catalog2.0_web.md)
 
 **Further reading**<br>
-[Session Timeout and Logout >](../basic_concepts/Session_Timeout_and_Logout.md)<br>
 [Security Levels >](Security_levels.md)<br>
 [Login Concept >](Login_Concept.md)
 

@@ -19,7 +19,7 @@ For some roles a higher security level makes sense, e.g. for user managers or ad
 
 With the button "Set all roles at level…" one level is applied to all roles at once.
 
-![Selection of the minimum level 1 to 3 per role and option to increase the security level independently, Passkey configuration in the system administration](assets/security_levels_v1_de.png){ class="shadow lightbox" }
+![Highlighted the table with the minimum level 1 to 3 per role and the button "Set all roles at level…"](assets/security_levels_v2_en.png){ class="shadow lightbox" title="Authentication tab in the Password and authentication menu · 2026.10.31" }
 
 
 ## Change of a security level {: #change_level}
@@ -29,7 +29,7 @@ With the option "Increase security level independently", administrators can allo
 The change is made with the button "Change security level" under:<br>
 `Personal Menu > Password`
 
-![Current security level 2 - Passkey, next to it the choice between level 3 and level 1 with the button Change security level, tab Password in the personal menu](assets/security_levels_user_settings_v1_de.png){ class="shadow lightbox" }
+![Highlighted the button "Change security level" next to the current level and the levels the account can switch to](assets/security_levels_user_settings_v2_en.png){ class="shadow lightbox" title="Password page in the personal menu · 2026.10.31" }
 
 If a passkey is required for upgrading, users can generate the passkey themselves, also under `Personal Menu > Password`.
 

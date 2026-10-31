@@ -129,7 +129,7 @@ All roles that open the user settings reach the tab. For invited accounts and gu
 [To the top of the page ^](#user_configuration)
 
 
-### Password [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
+### Password [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139) {: #password}
 
 If a person cannot log in because they lack login credentials or have forgotten their password, you help them in the "Password" tab: you send them an invitation link, set the login credentials yourself or reset an existing password.
 
@@ -137,7 +137,7 @@ Administrators, user managers and roles managers reach the "Password" tab. User 
 
 At the top, the tab shows the security level of the account, for an account without local authentication for example "Security: No local authentication available". If "Use security levels / Passkey" is switched on in the system administration, the line "Minimum requirement" below it names the level that applies at least to the role of the person.
 
-If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows two buttons. The button "Send invitation link to set login credentials" sends a link by mail; the person then sets their own login credentials. "Create login credentials" sets them directly.
+If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows the button "Create login credentials": with it you set the login credentials directly. The button "Send invitation link to set login credentials" sends a link by mail; the person then sets their own login credentials. OpenOlat does not show this button if the person logs in with a passkey only (level 2) or if the minimum level 2 applies to their role.
 
 ![Account without login credentials: marked buttons Send invitation link to set login credentials and Create login credentials](assets/user_management_password_tab_no_credentials_v1_en.png){ class="shadow lightbox" title="Password tab of an account without local authentication · 2026.10.31" }
 
@@ -150,7 +150,14 @@ You define how long an invitation link remains valid in the system administratio
 
 ![Six steps from sending the invitation link to the saved login credentials, split across the administrating role, OpenOlat and the person](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" title="Flow with the invitation link" }
 
-The "Passkeys" section is hidden if security level 1 (Password) applies as the minimum and no local authentication is available.
+The "Passkeys" section lists the passkeys of the person, even if passkey is switched off in the system administration. With "Delete" you remove a passkey. If the person has no passkey, the section is hidden if passkey is switched off or if security level 1 (Password) applies as the minimum. OpenOlat shows the "Recovery option" section with the button "Send recovery key" only when passkey is switched on.
+
+If the person has so far logged in with a passkey only (level 2) and passkey has since been switched off, the tab shows the warning "Login is not possible: The account only has passkeys, but the passkey feature is disabled." The person gets back into their account in one of two ways:
+
+* **Create login credentials:** With "Create login credentials" you set a password. Pass it on to the person in a secure way; they change it after logging in under `Personal Menu > Password`.
+* **Delete passkeys:** You delete all passkeys of the person in the "Passkeys" section. The warning then disappears, and the button "Send invitation link to set login credentials" appears. With the link, the person sets their password themselves.
+
+What to consider before switching passkey off is described under [Password and Authentication](../administration/Login_Password_and_Authentication.md#use_security_levels_passkey).
 
 [To the top of the page ^](#user_configuration)
 
@@ -377,6 +384,7 @@ OpenOlat only shows the tab when the correction workflow is switched on, and not
 [Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Assign roles >](Assign_roles.md)<br>
 [Self-registration >](../administration/Login_Self-Registration.md)<br>
+[Password and Authentication >](../administration/Login_Password_and_Authentication.md)<br>
 [Modules: Overview >](../administration/Modules.md)<br>
 [User roles >](index.md)<br>
 [Files and Folders >](../administration/Files_and_Folders.md)<br>

@@ -30,13 +30,13 @@ Sie stehen vor der Anmeldung und kommen nicht weiter. Suchen Sie unten den Fall,
 
 Zeigt die Login-Seite "Sie wurden abgemeldet", ist kein Anmeldeproblem die Ursache, sondern Ihre Sitzung ist abgelaufen. Melden Sie sich erneut an, siehe [Session-Timeout und Logout](../basic_concepts/Session_Timeout_and_Logout.de.md).
 
-![Sechs Anmeldeprobleme, je ein Weg zum Zuerst-Versuchen, und wenn das nicht hilft, Ihre Organisation als zuständige Stelle](assets/login_problem_wegweiser_v1_de.svg){ class="shadow lightbox" }
+![Sechs Anmeldeprobleme, je ein Weg zum Zuerst-Versuchen, und wenn das nicht hilft, Ihre Organisation als zuständige Stelle](assets/login_problem_wegweiser_v1_de.svg){ class="shadow lightbox" title="Wegweiser bei Anmeldeproblemen" }
 
 ### Ich habe mein Passwort vergessen {: #forgot_password}
 
 Ein neues Passwort setzen Sie sich selbst, sofern Ihre Organisation das erlaubt und an Ihrem Konto eine E-Mail-Adresse hinterlegt ist. Der Link "Passwort vergessen?" steht unterhalb der Anmeldung im Bereich "Brauchen Sie Hilfe?", zusammen mit dem Link "Häufig gestellte Fragen". Sehen Sie den Bereich nicht, klicken Sie zuerst auf "Mit OpenOlat Konto anmelden". Der Link startet den Assistenten "Zugangsdaten setzen", der Sie über einen Validierungscode ausweist und danach ein neues Passwort setzen lässt. Die Schritte beschreibt die Seite [Passwort](Password.de.md#reset_password).
 
-![Unterer Teil der Anmeldebox mit Gastzugang, Katalog und Hier registrieren, darunter markiert der Bereich Brauchen Sie Hilfe? mit den Links Passwort vergessen? und Häufig gestellte Fragen](assets/login_help_area_v1_de.png){ class="shadow lightbox" }
+![Gastzugang, Katalog und Hier registrieren, darunter markiert der Bereich Brauchen Sie Hilfe? mit den Links Passwort vergessen? und Häufig gestellte Fragen](assets/login_help_area_v1_de.png){ class="shadow lightbox" title="Unterer Teil der Anmeldebox auf der Login-Seite" }
 
 Ob und wohin der Link führt, hat Ihre Organisation eingerichtet. Er kann den OpenOlat-Assistenten öffnen, in einem neuen Fenster eine Seite Ihrer Organisation öffnen oder fehlen. Fehlt der Link, liegt Ihr Passwort nicht in OpenOlat. Das ist der Fall, wenn Sie sich mit einem der Buttons unter "Bitte wählen Sie Ihren Identitätsanbieter." anmelden. Ändern Sie das Passwort dann dort, wo Sie es auch für Ihre übrigen Dienste ändern, oder wenden Sie sich an [Ihre Organisation](#contact_support).
 
@@ -51,7 +51,7 @@ Ohne den Validierungscode kommen Sie im Assistenten "Zugangsdaten setzen" nicht 
 3. OpenOlat schickt die E-Mail an die Adresse, die an Ihrem Konto hinterlegt ist. Ist dort eine alte oder gar keine Adresse hinterlegt, erreicht Sie die E-Mail nicht. Diese Adresse können Sie ohne Anmeldung nicht ändern, das kann nur [die Stelle, die Ihr Konto verwaltet](#contact_support).
 4. Meldet OpenOlat "Konto konnte nicht eindeutig identifiziert werden", gehört die eingegebene E-Mail-Adresse oder der Anmeldename zu keinem oder zu mehreren Konten. Versuchen Sie es mit der jeweils anderen Angabe.
 
-Verwenden Sie für Ihr Konto einen Passkey, trägt die E-Mail den Betreff "Schlüssel für neues OpenOlat-Passwort" und enthält keinen Code, sondern den Hinweis, Ihre Recovery Keys zu verwenden oder die Supportstelle zu kontaktieren. Recovery Keys sind die Ersatzcodes, die OpenOlat Ihnen beim Einrichten des Passkeys angezeigt hat, siehe [Passkey](Passkey.de.md). Haben Sie keinen Recovery Key mehr, hilft nur [Ihre Organisation](#contact_support).
+Verwenden Sie für Ihr Konto einen Passkey, trägt die E-Mail den Betreff "Schlüssel für neues OpenOlat-Passwort" und enthält keinen Code, sondern den Hinweis, Ihre Recovery Keys zu verwenden oder die Supportstelle zu kontaktieren. Recovery Keys sind die Ersatzcodes, die OpenOlat Ihnen beim Einrichten des Passkeys angezeigt hat, siehe [Passkey](Passkey.de.md). Haben Sie keinen Recovery Key mehr, hilft nur [Ihre Organisation](#contact_support). Fragt die Login-Seite nach einem Passwort, obwohl Sie sich bisher nur mit Passkey angemeldet haben, steht auf der Seite [Passwort](Password.de.md#reset_password), wie Ihre Organisation Ihnen weiterhilft.
 
 ### Ich habe von meiner Institution keine Zugangsdaten erhalten {: #no_account}
 
@@ -63,7 +63,7 @@ Zeigt die Login-Seite den Link "Hier registrieren", können Sie sich selbst ein 
 
 Wirft Sie der Identitätsanbieter Ihrer Organisation zurück, sagt Ihnen die Meldung auf der Seite "Authentifizierung nicht erfolgreich", ob Sie selbst etwas tun können. Das gilt für Identitätsanbieter wie Microsoft Azure AD oder Keycloak. Bei Shibboleth lauten die Meldungen anders, zum Beispiel "Sie dürfen nicht auf OpenOlat einloggen."; der Weg ist derselbe: [Ihre Organisation](#contact_support).
 
-![Seite "Authentifizierung nicht erfolgreich" mit der Meldung access_denied, darunter markiert der Kasten mit der Support-Adresse, dann der Button "Zur Loginseite"](assets/login_auth_failed_v1_de.png){ class="shadow lightbox" }
+![Unter der Meldung access_denied steht markiert der Kasten mit der Support-Adresse, die Ihre Organisation hinterlegt hat; der Button "Zur Loginseite" führt zurück zur Anmeldung](assets/login_auth_failed_v2_de.png){ class="shadow lightbox" title="Seite Authentifizierung nicht erfolgreich · 2026.10.31" }
 
 | Meldung | Was sie bedeutet | Was Sie tun |
 |---|---|---|
@@ -98,7 +98,7 @@ Bringt Sie keiner der Wege oben weiter, brauchen Sie eine Person, die Ihr Konto 
 
 ## Gastzugang {: #guest}
 
-Alternativ können Sie OpenOlat auch als Gast besuchen. Der Gastzugang gewährt Ihnen einen Einblick in OpenOlat mit eingeschränkter Funktionalität: Sie haben nur Zugriff auf Lerninhalte, die ausdrücklich für Gäste freigegeben sind. Um Zugang zu weiteren Lernmaterialien und -aktivitäten zu erhalten, müssen Sie sich bei OpenOlat registrieren. Weitere Informationen zum Gastzugang finden Sie [hier](../basic_concepts/guest_access.de.md).
+Alternativ können Sie OpenOlat auch als Gast besuchen. Der Gastzugang gewährt Ihnen einen Einblick in OpenOlat mit eingeschränkter Funktionalität: Sie haben nur Zugriff auf Lerninhalte, die ausdrücklich für Gäste freigegeben sind. Um Zugang zu weiteren Lernmaterialien und -aktivitäten zu erhalten, müssen Sie sich bei OpenOlat registrieren. Mehr zum Gastzugang steht auf der Seite [Rollen und Rechte: Gastzugang](../basic_concepts/guest_access.de.md).
 
 ## Browser {: #browsercheck}
 
@@ -132,6 +132,7 @@ Beim Aufruf des Katalogs auf der Login-Seite wird der [Web-Katalog](../area_modu
 **Auf dieser Seite erwähnt**<br>
 [Passkey >](Passkey.de.md)<br>
 [One Time Code >](One_Time_Code.de.md)<br>
+[Session-Timeout und Logout >](../basic_concepts/Session_Timeout_and_Logout.de.md)<br>
 [Passwort >](Password.de.md)<br>
 [Rollen und Rechte: Gastzugang >](../basic_concepts/guest_access.de.md)<br>
 [Apple Safari >](https://www.apple.com/safari/)<br>
@@ -142,7 +143,6 @@ Beim Aufruf des Katalogs auf der Login-Seite wird der [Web-Katalog](../area_modu
 [Extern verfügbarer Katalog >](../area_modules/catalog2.0_web.de.md)
 
 **Weiterführend**<br>
-[Session-Timeout und Logout >](../basic_concepts/Session_Timeout_and_Logout.de.md)<br>
 [Sicherheitsstufen >](Security_levels.de.md)<br>
 [Login-Konzept >](Login_Concept.de.md)
 

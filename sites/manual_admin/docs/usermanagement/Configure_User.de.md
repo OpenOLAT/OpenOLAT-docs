@@ -129,7 +129,7 @@ Den Reiter erreichen alle Rollen, welche die Kontoeinstellungen öffnen. Bei ein
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Passwort [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
+### Passwort [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139) {: #password}
 
 Kann sich eine Person nicht anmelden, weil ihr die Zugangsdaten fehlen oder sie ihr Passwort vergessen hat, helfen Sie ihr im Reiter "Passwort": Sie senden ihr einen Einladungslink, legen die Zugangsdaten selbst fest oder setzen ein bestehendes Passwort neu.
 
@@ -137,7 +137,7 @@ Den Reiter "Passwort" erreichen Administrator:innen, Benutzerverwalter:innen und
 
 Oben im Reiter steht die Sicherheitsstufe des Kontos, bei einem Konto ohne lokale Authentifizierung zum Beispiel "Sicherheit: Keine lokale Authentifizierung vorhanden". Ist in der System-Administration "Sicherheitsstufen / Passkey verwenden" eingeschaltet, nennt die Zeile "Minimale Anforderung" darunter die Stufe, die für die Rolle der Person mindestens gilt.
 
-Verfügt die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons. Der Button "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. "Zugangsdaten erstellen" legt sie direkt fest.
+Verfügt die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" den Button "Zugangsdaten erstellen": Damit legen Sie die Zugangsdaten direkt fest. Der Button "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. Diesen Button zeigt OpenOlat nicht, wenn sich die Person nur mit Passkey anmeldet (Stufe 2) oder für ihre Rolle die Mindeststufe 2 gilt.
 
 ![Konto ohne Zugangsdaten: markiert die Buttons Einladungslink zum Setzen der Zugangsdaten senden und Zugangsdaten erstellen](assets/user_management_password_tab_no_credentials_v1_de.png){ class="shadow lightbox" title="Reiter Passwort eines Kontos ohne lokale Authentifizierung · 2026.10.31" }
 
@@ -150,7 +150,14 @@ Wie lange ein Einladungslink gültig bleibt, legen Sie in der System-Administrat
 
 ![Sechs Schritte vom Senden des Einladungslinks bis zu den gespeicherten Zugangsdaten, aufgeteilt auf die verwaltende Rolle, OpenOlat und die Person](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" title="Ablauf mit dem Einladungslink" }
 
-Der Abschnitt "Passkeys" wird ausgeblendet, sofern als Minimum die Sicherheitsstufe 1 (Passwort) gilt und keine lokale Authentifizierung vorhanden ist.
+Der Abschnitt "Passkeys" listet die Passkeys der Person, auch wenn Passkey in der System-Administration ausgeschaltet ist. Mit "Löschen" entfernen Sie einen Passkey. Hat die Person keinen Passkey, ist der Abschnitt ausgeblendet, wenn Passkey ausgeschaltet ist oder als Minimum die Sicherheitsstufe 1 (Passwort) gilt. Den Abschnitt "Wiederherstellungsoption" mit dem Button "Recovery Key senden" zeigt OpenOlat nur bei eingeschaltetem Passkey.
+
+Hat sich die Person bisher nur mit Passkey angemeldet (Stufe 2) und ist Passkey inzwischen ausgeschaltet, zeigt der Reiter die Warnung "Die Anmeldung ist nicht möglich: Das Konto verfügt nur über Passkeys, doch die Passkey-Funktion ist deaktiviert." Die Person kommt auf einem von zwei Wegen wieder in ihr Konto:
+
+* **Zugangsdaten erstellen:** Mit "Zugangsdaten erstellen" legen Sie ein Passwort fest. Teilen Sie es der Person auf sicherem Weg mit; sie ändert es nach der Anmeldung unter `Persönliches Menü > Passwort`.
+* **Passkeys löschen:** Sie löschen im Abschnitt "Passkeys" alle Passkeys der Person. Danach verschwindet die Warnung, und der Button "Einladungslink zum Setzen der Zugangsdaten senden" erscheint. Mit dem Link setzt die Person ihr Passwort selbst.
+
+Was Sie vor dem Ausschalten von Passkey beachten, steht unter [Passwort und Authentifizierung](../administration/Login_Password_and_Authentication.de.md#use_security_levels_passkey).
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -216,6 +223,7 @@ Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalt
 Der Reiter "Portfolio" zeigt alle Portfolio-Mappen, zu denen die Person eingeladen ist. Ihre eigenen Mappen stehen nicht in dieser Liste.
 
 Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
+
 [zum Seitenanfang ^](#user_configuration)
 
 
@@ -374,6 +382,7 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht b
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Rollen zuweisen >](Assign_roles.de.md)<br>
 [Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
+[Passwort und Authentifizierung >](../administration/Login_Password_and_Authentication.de.md)<br>
 [Module: Übersicht >](../administration/Modules.de.md)<br>
 [Benutzerrollen >](index.de.md)<br>
 [Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>

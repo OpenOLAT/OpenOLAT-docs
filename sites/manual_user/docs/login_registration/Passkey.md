@@ -8,7 +8,7 @@
 * However, Passkey is not a general key for all applications you want to log in to. Each account has its own Passkey.
 * When you log in, your device and the requested server contact each other and clarify (based on the Passkey) whether access can be granted. The actual key (private key) does not leave the device. This is why Passkey is considered particularly secure.
 
-!!! info "Further information"
+!!! note "Further information"
 
     On Passkey and how it works you can find many entries on the internet, e.g.
 
@@ -17,17 +17,17 @@
     * [loginwithfido.com](https://loginwithfido.com)
 
 
-## Activate Passkey {: #activate}
+## Activate Passkey [:octicons-tag-16:{ title="from Release 18.1 (OO-7180)" }](https://track.frentix.com/issue/OO-7180) {: #activate}
 
-The activation of Passkey in OpenOlat is done by the administrators. The activation determines whether Passkey can or must be used.
+Administrators switch Passkey on in OpenOlat and thereby define whether Passkey can or must be used.
 
-However, the **creation** of the passkey is then done by the users on their respective devices, in OpenOlat under `Personal Menu > Password`. Administrators can only remove passkeys.
+The users then create the passkey themselves on their devices, in OpenOlat under `Personal Menu > Password`. Administrators do not create passkeys, they can only delete them.
 
 Passkey can be configured role-based and is part of a three-level security concept in OpenOlat:
 
-**Level 1: password only**<br>
-**Level 2: passkey only**<br>
-**Level 3: passkey + password** (2-factor authentication)<br>
+**Level 1 - Password**<br>
+**Level 2 - Passkey**<br>
+**Level 3 - Password & Passkey (2FA)**
 
 Details on the [Security Levels](Security_levels.md) page.
 
@@ -36,16 +36,16 @@ If a security level with passkey is configured in OpenOlat, the users are prompt
 If the administration has additionally activated the one time code, account holders without a stored passkey can still log in with their password and a confirmation code by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) Details on the [One Time Code](One_Time_Code.md) page.
 
 
-!!! note "Note"
+!!! tip "Tip"
 
     Level 2 is recommended for certain roles (e.g. user managers and administrators).
 
 
 ## What are Recovery Keys?
 
-If there is no password any more, it can no longer be reset by administrators. If Passkey is activated in OpenOlat as the sole authentication method, passwords can no longer be assigned. (With 2-factor authentication, however, they can, in addition to Passkey.)
+If your passkey gets lost, you need a replacement key, a recovery key. It is not a copy of the original key (private key). Recovery keys are one-time passwords that cannot be used a second time.
 
-If the key is lost nevertheless, a replacement key is needed. With Passkey, however, the replacement key is not a copy of the original key (private key). Recovery keys are one-time passwords that cannot be used a second time.
+With level 2 you log in with a passkey only, and your account then has no password. You therefore do not use the link "Forgot password?" to get back into your account, but a recovery key. With level 3 you have a password in addition to the passkey. If your organisation switches passkey off, it helps you back into your account with new login credentials, see [Password](Password.md#reset_password).
 
 
 ## Request new Recovery Keys
@@ -88,10 +88,10 @@ Administrators can require passkeys for specific roles. Users can also increase 
 [Wikipedia on Fido/Passkey >](https://de.wikipedia.org/wiki/FIDO2#Passkey)<br>
 [loginwithfido.com >](https://loginwithfido.com)<br>
 [Security Levels >](Security_levels.md)<br>
-[One Time Code >](One_Time_Code.md)
+[One Time Code >](One_Time_Code.md)<br>
+[Password >](Password.md)
 
 **Further reading**<br>
-[Password >](Password.md)<br>
 [Personal Configuration: Password >](../personal_menu/Password.md)<br>
 [Login Concept >](Login_Concept.md)
 
