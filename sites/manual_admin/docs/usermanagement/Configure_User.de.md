@@ -1,10 +1,10 @@
 # Kontoeinstellungen verwalten {: #user_configuration}
 
-Wer das Recht zur Benutzerverwaltung besitzt, kann über die [Kontosuche](Search_Users.de.md) eine bestimmte Person suchen und ihre Kontoeinstellungen verwalten.
+Braucht eine Person Hilfe bei ihrem Konto, etwa ein neues Passwort, eine weitere Rolle oder mehr Speicherplatz, öffnen Sie ihre Kontoeinstellungen: Dort sehen Sie an einem Ort, was zu diesem Konto gehört, und ändern es. Die Person finden Sie über die [Kontosuche](Search_Users.de.md). Die Kontoeinstellungen erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
-Zu jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
+Administrator:innen sehen alle im Folgenden beschriebenen Reiter, sofern die zugehörigen Module eingeschaltet sind. Die übrigen Rollen sehen weniger Reiter; welche Rollen einen Reiter erreichen, steht im jeweiligen Abschnitt.
 
-![Kopfbereich mit Status, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge](assets/user_management_configure_user_v5_de.png){ class="shadow lightbox" title="Kontoeinstellungen eines Kontos in der Benutzerverwaltung" }
+![Kopfbereich mit Status, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge](assets/user_management_configure_user_v6_de.png){ class="shadow lightbox" title="Kontoeinstellungen eines Kontos in der Benutzerverwaltung · 2026.10.31" }
 
 Der Kopfbereich über den Reitern zeigt auf einen Blick, wem das Konto gehört, in welchen Organisationen die Person ist und welche Rollen sie hat. Neben dem Bild der Person steht der Status des Kontos, zum Beispiel "Aktiv". Unter dem Namen öffnen zwei Symbole die "Visitenkarte" der Person und ein Formular, mit dem Sie ihr eine "E-Mail" schreiben. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -19,7 +19,7 @@ Ein Klick auf die Organisationen oder auf die Rollen öffnet den Reiter "Rollen"
 
 In der Werkzeugleiste über dem Kopfbereich stehen zwei Aktionen. "Daten exportieren" startet den Export der Daten, die OpenOlat zu diesem Konto gespeichert hat, siehe [Datenschutz](Data_protection.de.md#export_user_data). "Löschen" löscht das Konto, siehe [Benutzer:in löschen](Delete_User.de.md). Die Aktion "Löschen" sehen nur Administrator:innen.
 
-Jedes Benutzerkonto wird eigenständig geführt; Konten werden nicht zusammengeführt. Was eine Person in OpenOlat erarbeitet hat, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem es entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
+OpenOlat führt jedes Benutzerkonto für sich; Konten lassen sich nicht zusammenführen. Was eine Person in OpenOlat erarbeitet hat, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem es entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
 
 Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen keine zwei Konten mit derselben E-Mail-Adresse. Sie finden die Option im Abschnitt "E-Mail Adresse" unter:<br>
 `Administration > Core-Konfiguration > E-Mail`, Segment "Einstellungen", siehe [E-Mail Einstellungen](../administration/E-Mail_Settings.de.md#email_address).
@@ -30,7 +30,9 @@ Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen kei
 
 ### Profil {: #profile}
 
-Im Benutzerprofil werden die Personalien, Angaben zur Person, Kontaktdaten und im Abschnitt "Institution" die Angaben zur Institution erfasst. Siehe: `Persönliches Menü > Konfiguration >` [Profil](../../manual_user/personal_menu/Profile.de.md). Ferner sind die von der Benutzer:in eingetragenen Informationen zur Person, sowie die jeweilige Visitenkarte und das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Soll der Versand von Mails an diese Adresse unterbunden werden, kann diese E-Mailadresse gesperrt werden.
+Stimmen Name, E-Mail-Adresse oder Kontaktdaten einer Person nicht mehr, korrigieren Sie sie im Reiter "Profil", ohne dass die Person selbst tätig werden muss. Der Reiter zeigt die Personalien, die Angaben zur Person, die Kontaktdaten und im Abschnitt "Institution" die Angaben zur Institution, dazu die Visitenkarte und das persönliche Bild der Person. Es sind dieselben Angaben, die die Person selbst unter `Persönliches Menü > Profil` pflegt, siehe [Profil](../../manual_user/personal_menu/Profile.de.md). Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Mit "E-Mail Versand sperren" verhindern Sie, dass OpenOlat Mails an diese Adresse versendet.
+
+Den Reiter erreichen alle Rollen, welche die Kontoeinstellungen öffnen. Ändern können die Angaben Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen; Principals sehen das Profil, ohne es zu bearbeiten.
 
 Ist die [Debitorennummer](../administration/Modules_Organisations.de.md#customer_number) im Modul Organisationen eingeschaltet, zeigt der Abschnitt "Institution" zusätzlich das Feld "Debitorennummer". Hier tragen Sie die Nummer ein, unter der Ihre Buchhaltung die Person führt. Die Person selbst sieht das Feld in ihrem eigenen Profil nicht. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9736)" }](https://track.frentix.com/issue/OO-9736)
 
@@ -39,8 +41,9 @@ Ist die [Debitorennummer](../administration/Modules_Organisations.de.md#customer
 
 ### Systemeinstellungen
 
-Hier werden die von der Benutzer:in vorgenommenen Systemeinstellungen angezeigt. Siehe: `Persönliches Menü > Konfiguration >` [Einstellungen](../../manual_user/personal_menu/Settings.de.md).<br>
-Dazu gehört z.B. die voreingestellte Sprache und ob E-Mails nur OpenOlat-intern oder auch an die Adresse im Profil verschickt werden. 
+Erhält eine Person OpenOlat in der falschen Sprache oder keine E-Mails an ihre Adresse, sehen Sie im Reiter "Systemeinstellungen" ihre eigenen Einstellungen, zum Beispiel die voreingestellte Sprache und ob E-Mails nur OpenOlat-intern oder auch an die Adresse im Profil gehen. Die Person selbst pflegt sie unter `Persönliches Menü > Einstellungen`, siehe [Einstellungen](../../manual_user/personal_menu/Settings.de.md).
+
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Bei eingeladenen Konten zeigt OpenOlat den Reiter allen Rollen, welche die Kontoeinstellungen öffnen.
 
 Trägt das Konto ein Ablaufdatum, zeigt der Reiter es unter "Kontoablauf" an. Eine Anzahl verbleibender Tage steht hier nicht; die Fristen führt der Reiter "Konto". Bei inaktiven Konten blendet OpenOlat die Angabe aus. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
 
@@ -51,7 +54,7 @@ Trägt das Konto ein Ablaufdatum, zeigt der Reiter es unter "Kontoablauf" an. Ei
 
 Der Reiter "Konto" zeigt den Zustand eines Kontos und den Punkt, an dem es im automatischen Kontolebenszyklus steht. Hier beurteilen Sie, ob und wann OpenOlat ein Konto automatisch deaktiviert oder löscht, und hier setzen Sie es manuell auf inaktiv.
 
-Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Welche Felder er zeigt, hängt von der Rolle des bearbeiteten Kontos und von den Schaltern des automatischen Kontolebenszyklus ab, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts).
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Principals sehen das Feld "Status" nicht. Welche Felder er zeigt, hängt von der Rolle des bearbeiteten Kontos und von den Schaltern des automatischen Kontolebenszyklus ab, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts).
 
 #### Kontotyp {: #account_type }
 
@@ -119,18 +122,28 @@ Bei einem inaktiven Konto treten Inaktivierungsdatum und "Tage bis Löschung" an
 
 ### Rollen
 
-In diesem Reiter werden die Rollen der Benutzer:in definiert. Bei aktiviertem Modul "Organisationen" können unterschiedliche Rollen pro Organisationseinheit vergeben werden. Siehe ["Rollen zuweisen"](Assign_roles.de.md). 
+Im Reiter "Rollen" legen Sie fest, welche Rollen die Person hat und was sie damit in OpenOlat tun darf. Bei eingeschaltetem Modul "Organisationen" vergeben Sie die Rollen je Organisation, siehe [Rollen zuweisen](Assign_roles.de.md).
+
+Den Reiter erreichen alle Rollen, welche die Kontoeinstellungen öffnen. Bei eingeladenen Konten und bei Gastkonten zeigt OpenOlat ihn nicht.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Passwort [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9139)" }](https://track.frentix.com/issue/OO-9139)
 
+Kann sich eine Person nicht anmelden, weil ihr die Zugangsdaten fehlen oder sie ihr Passwort vergessen hat, helfen Sie ihr im Reiter "Passwort": Sie senden ihr einen Einladungslink, legen die Zugangsdaten selbst fest oder setzen ein bestehendes Passwort neu.
+
+Den Reiter "Passwort" erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Benutzerverwalter:innen sehen den Reiter nicht bei Konten, die selbst Administrator:in oder Rollenverwalter:in sind.
+
+Oben im Reiter steht die Sicherheitsstufe des Kontos, bei einem Konto ohne lokale Authentifizierung zum Beispiel "Sicherheit: Keine lokale Authentifizierung vorhanden". Ist in der System-Administration "Sicherheitsstufen / Passkey verwenden" eingeschaltet, nennt die Zeile "Minimale Anforderung" darunter die Stufe, die für die Rolle der Person mindestens gilt.
+
 Verfügt die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" zwei Buttons. Der Button "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. "Zugangsdaten erstellen" legt sie direkt fest.
+
+![Konto ohne Zugangsdaten: markiert die Buttons Einladungslink zum Setzen der Zugangsdaten senden und Zugangsdaten erstellen](assets/user_management_password_tab_no_credentials_v1_de.png){ class="shadow lightbox" title="Reiter Passwort eines Kontos ohne lokale Authentifizierung · 2026.10.31" }
 
 Wurde ein Einladungslink bereits versendet, zeigt eine Meldung dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden. Nach Ablauf oder Deaktivierung führt der Link ins Leere; Sie können danach einen neuen Einladungslink senden.
 
-Den Reiter "Passwort" und seine Aktionen erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Benutzerverwalter:innen sehen den Reiter nicht bei Konten, die selbst Administrator:in oder Rollenverwalter:in sind.
+Hat die Person bereits ein Passwort, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" die Aktionen "Passwort neu setzen" und "Passwortlink senden". Mit "Passwort neu setzen" legen Sie ein neues Passwort direkt fest, "Passwortlink senden" schickt der Person einen Link, mit dem sie es selbst neu setzt. Diese beiden Aktionen stehen nur Administrator:innen und Benutzerverwalter:innen zur Verfügung. Rollenverwalter:innen senden den Einladungslink, deaktivieren ihn und erstellen Zugangsdaten; nur bei eingeladenen Konten setzen auch sie ein bestehendes Passwort neu oder senden einen Passwortlink.
 
 Wie lange ein Einladungslink gültig bleibt, legen Sie in der System-Administration im Abschnitt "Gültigkeitsdauer der Logindaten" fest:<br>
 `Administration > Login > Selbstregistration`, Reiter "Konfiguration", siehe [Selbstregistration](../administration/Login_Self-Registration.de.md#tab_configuration).
@@ -144,36 +157,45 @@ Der Abschnitt "Passkeys" wird ausgeblendet, sofern als Minimum die Sicherheitsst
 
 ### Authentifizierungen
 
-Hier kann der Anmeldename geändert, sowie Authentifizierungen ergänzt, editiert und gelöscht werden.  
+Meldet sich eine Person über einen weiteren Anmeldeweg an oder ändert sich ihr Anmeldename, passen Sie das im Reiter "Authentifizierungen" an. Hier ändern Sie den Anmeldenamen, fügen mit "Authentifizierung hinzufügen" eine Authentifizierung hinzu, bearbeiten und löschen bestehende Authentifizierungen und legen mit "API-Key hinzufügen" einen API-Key an.
+
+Den Reiter erreichen nur Administrator:innen.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Properties
 
-Hier können User Properties angezeigt und als Tabelle exportiert werden.
+Der Reiter "Properties" listet die technischen Einträge, die OpenOlat zu diesem Konto speichert, mit den Spalten "Kategorie", "Gruppe", "Ressource", "Name", "Wert", "Erstellt" und "Geändert". Die Tabelle laden Sie bei Bedarf herunter, einen einzelnen Eintrag löschen Sie mit "Löschen".
+
+Den Reiter erreichen nur Administrator:innen.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### GUI-Einstellungen
 
-Hier können die zu der Benutzer:in gespeicherten Einstellungen des GUI zurückgesetzt werden.
+Zeigt OpenOlat einer Person eine Liste oder Ansicht nicht mehr wie erwartet, setzen Sie im Reiter "GUI-Einstellungen" die gespeicherten Einstellungen der Oberfläche zurück. Jede Zeile hat den Button "Zurücksetzen", mehrere ausgewählte Einträge setzen Sie mit "Mehrere Einträge zurücksetzen" auf einmal zurück.
+
+Den Reiter erreichen nur Administrator:innen.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Gruppen
 
-Es wird eine Übersicht über alle Gruppen angezeigt, bei denen die Benutzer:in als Teilnehmer:in oder Betreuer:in dabei ist. Unter diesem Reiter kann die Benutzer:in auch weiteren Gruppen zugeordnet oder aus einer Gruppe ausgetragen werden.
+Der Reiter "Gruppen" zeigt alle Gruppen, in denen die Person Teilnehmer:in oder Betreuer:in ist. Hier tragen Sie die Person in weitere Gruppen ein oder aus einer Gruppe aus.
+
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals. Ein- und austragen können Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Lernressourcen [:octicons-tag-16:{ title="ab Release 9.1.0 (OO-788)" }](https://track.frentix.com/issue/OO-788)
 
-Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen der Benutzer:in.
-Benutzerverwalter:innen und Administrator:innen können die Benutzer:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann die Benutzer:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
+Der Reiter "Lernressourcen" zeigt alle Kurse und Lernressourcen der Person. Von hier aus öffnen Sie eine Lernressource, tragen die Person aus einer Lernressource aus oder tragen sie als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere Kurse ein.
+
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals. Ein- und austragen können Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
 
 Die Liste führt einzelne Lernressourcen mit den Kurs- und Gruppenrollen der Person. Durchführungen des Course Planners stehen dagegen im Reiter "Bildungsprodukte".
 
@@ -182,36 +204,42 @@ Die Liste führt einzelne Lernressourcen mit den Kurs- und Gruppenrollen der Per
 
 ### Projekte [:octicons-tag-16:{ title="ab Release 19.1.0 (OO-7417)" }](https://track.frentix.com/issue/OO-7417)
 
-Unter diesem Tab werden alle Projekte aufgelistet, in denen diese Benutzer:in Mitglied ist. 
+Der Reiter "Projekte" listet alle Projekte, in denen die Person Mitglied ist.
+
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Portfolio
 
-Hier werden alle Portfolio-Mappen angezeigt, zu welchen die Benutzer:in eingeladen ist. (Die eigenen Mappen dieser Benutzer:in werden hier nicht gelistet.)
+Der Reiter "Portfolio" zeigt alle Portfolio-Mappen, zu denen die Person eingeladen ist. Ihre eigenen Mappen stehen nicht in dieser Liste.
 
-
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Buchungen
 
-Hier werden die Buchungsaufträge und Vorbestellungen der Benutzer:in angezeigt. 
+Der Reiter "Buchungen" zeigt die Buchungsaufträge und Vorbestellungen der Person.
+
+Den Reiter erreichen Administrator:innen, Rollenverwalter:innen und Principals.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558)
 
-Hier sind die erworbenen Kreditpunkte der Benutzer:in angezeigt. 
+Der Reiter "Kreditpunkte" zeigt die Kreditpunkte, welche die Person erworben hat.
+
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Kreditpunkte". Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Leistungsnachweise
 
-Hier werden die Leistungsnachweise, Punkte und der Fortschritt einer Benutzer:in aus Kursen angezeigt. Die Tabelle führt pro Kurs "Fortschritt", "Punkte" und "Bestanden"; bei aktivem Notenmodul kommt die Spalte "Bewertung" mit der erreichten Note dazu. Über das Zahnrad "Spalten auswählen" blenden Sie weitere Spalten ein, darunter die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+Der Reiter "Leistungsnachweise" zeigt die Leistungsnachweise, Punkte und den Fortschritt der Person aus ihren Kursen. Die Tabelle führt pro Kurs "Fortschritt", "Punkte" und "Bestanden"; bei aktivem Notenmodul kommt die Spalte "Bewertung" mit der erreichten Note dazu. Über das Zahnrad "Spalten auswählen" blenden Sie weitere Spalten ein, darunter die standardmässig ausgeblendete Spalte "Kennzeichen". [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
 Den Reiter erreichen Administrator:innen, Principals, Benutzerverwalter:innen und Rollenverwalter:innen.
 
@@ -228,23 +256,29 @@ Einen Leistungsnachweis löschen Sie ausschliesslich hier in der Benutzerverwalt
 
 ### Zertifikate [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
 
-Dieser Reiter fasst alle Zertifikate der Person zusammen, sowohl die in Kursen erworbenen als auch die manuell hochgeladenen. Die Tabelle führt pro Zertifikat "Verliehen von", "Herkunft", "Ausgestellt am", "Gültig bis", "Rezertifizierung", "Widerrufen am", "#Ausgestellt" und "Status"; über die vordefinierten Filter "Alle", "Gültig" und "Abgelaufen" lässt sich die Liste eingrenzen. Rechts über der Tabelle wird zwischen Kachel- und Tabellenansicht umgeschaltet. Über "Zertifikat hochladen" werden extern erworbene Zertifikate erfasst, damit das Profil den gesamten Leistungsnachweis abbildet.
+Dieser Reiter fasst alle Zertifikate der Person zusammen, sowohl die in Kursen erworbenen als auch die manuell hochgeladenen. Die Tabelle führt pro Zertifikat "Verliehen von", "Herkunft", "Ausgestellt am", "Gültig bis", "Rezertifizierung", "Widerrufen am", "#Ausgestellt" und "Status"; mit den vordefinierten Filtern "Alle", "Gültig" und "Abgelaufen" grenzen Sie die Liste ein. Rechts über der Tabelle schalten Sie zwischen Kachel- und Tabellenansicht um. Mit "Zertifikat hochladen" erfassen Sie extern erworbene Zertifikate, damit das Profil den gesamten Leistungsnachweis abbildet.
 
-![Zertifikatsliste mit Herkunft, Ausstellungsdatum und Status, darüber der Button Zertifikat hochladen](assets/user_management_certificates_v1_de.png){ class="shadow lightbox" title="Reiter Zertifikate eines Kontos" }
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
+
+![Zertifikatsliste mit Herkunft, Ausstellungsdatum und Status, darüber der Button Zertifikat hochladen](assets/user_management_certificates_v2_de.png){ class="shadow lightbox" title="Reiter Zertifikate eines Kontos · 2026.10.31" }
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Badges
 
-Unter diesem Reiter werden alle erworbenen Badges angezeigt.
+Der Reiter "Badges" zeigt alle Badges, welche die Person erworben hat.
+
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Nachteilsausgleich [:octicons-tag-16:{ title="ab Release 15.3 (OO-4934)" }](https://track.frentix.com/issue/OO-4934)
 
-Ein Nachteilsausgleich berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer Einschränkung mehr Zeit zu verwenden. Unter diesem Reiter kann ein Nachteilsausgleich hinzugefügt und konfiguriert werden. Der Dialog "Nachteilsausgleich hinzufügen" verlangt "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und den Kurs. Das Feld "Kursbaustein" grenzt den Ausgleich auf einen einzelnen Test des Kurses ein.
+Braucht eine Person wegen einer Einschränkung mehr Zeit für einen Test, erfassen Sie im Reiter "Nachteilsausgleich" die zusätzliche Zeit. Der Dialog "Nachteilsausgleich hinzufügen" verlangt "Bewilligt von", "Bewilligungsdatum", "Zusatzzeit (Minuten)" und den Kurs. Das Feld "Kursbaustein" grenzt den Ausgleich auf einen einzelnen Test des Kurses ein.
+
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals. Einen Nachteilsausgleich erfassen und ändern können Administrator:innen und Rollenverwalter:innen.
 
 ![Vier mit Stern markierte Pflichtfelder, darunter das optionale Feld Kursbaustein](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" title="Dialog Nachteilsausgleich hinzufügen" }
 
@@ -253,20 +287,24 @@ Ein Nachteilsausgleich berechtigt Teilnehmende einer Prüfung für einen Test au
 
 ### Abonnements [:octicons-tag-16:{ title="ab Release 8.1.2 (OO-265)" }](https://track.frentix.com/issue/OO-265)
 
-Hier werden sämtliche Abonnements der Benutzer:in angezeigt. Sie können hier auch deaktiviert oder gelöscht werden.  
+Erhält eine Person zu viele oder die falschen Benachrichtigungen, sehen Sie im Reiter "Abonnements" alle ihre Abonnements. Hier deaktivieren oder löschen Sie einzelne Abonnements.
+
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Beziehungen [:octicons-tag-16:{ title="ab Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305)
 
-In diesem Reiter können Beziehungen zwischen der gewählten Benutzer:in und weiteren OpenOlat-Benutzer:innen definiert werden. Z.B. ob jemand Vorgesetzte:r, Elternteil, Ausbildungsverantwortliche:r oder Schüler:in einer Lehrer:in ist. Voraussetzung ist, dass in der System-Administration Rollen für Person zu Person definiert sind. Diese Rollen erteilen den verbundenen Personen die Rechte, die dort festgelegt sind. Sie finden die Rollen unter:<br>
-`Administration > Module > Rolle Person zu Person`, siehe [Rolle Person zu Person](../administration/Modules.de.md#role_user_to_user). (Vergl. [Benutzerrollen](index.de.md))
+Soll eine vorgesetzte Person, ein Elternteil oder eine ausbildungsverantwortliche Person Rechte gegenüber einer anderen Person erhalten, legen Sie im Reiter "Beziehungen" diese Beziehung zwischen den beiden Konten fest. Voraussetzung ist, dass in der System-Administration Rollen für Person zu Person definiert sind. Diese Rollen erteilen den verbundenen Personen die Rechte, die dort festgelegt sind. Sie finden die Rollen unter:<br>
+`Administration > Module > Rolle Person zu Person`, siehe [Rolle Person zu Person](../administration/Modules.de.md#role_user_to_user). Einen Überblick über die Rollen gibt [Benutzerrollen](index.de.md).
+
+Den Reiter zeigt OpenOlat nur, wenn Rollen für Person zu Person eingeschaltet sind. Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Beziehungen festlegen können Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Speicherplatz -> Quota {: #quota}
+### Quota {: #quota}
 
 Braucht eine Person mehr Speicherplatz, als der systemweite Standardwert vorsieht, etwa weil sie als Autor:in viele Videos in ihre Kurse einbindet, erhöhen Sie hier ihre Quota, ohne den Wert für alle anderen zu verändern. Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
 
@@ -281,23 +319,27 @@ Welcher Standardwert gilt, hängt von der Rolle ab: Autor:innen, Lernressourcenv
 
 ### Termine
 
-Hier finden Sie eine Übersicht über die Termine und Absenzen der Benutzer:in.
+Der Reiter "Termine" zeigt die Termine und Absenzen der Person, etwa um ihre Anwesenheit in einem Kurs nachzuvollziehen.
+
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Termine / Absenzen". Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Kompetenzen
 
-Hier können der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind kategorisiert nach "Verwalten", "Unterrichten" ("Dozieren"), "Haben" und "Ziel".
+Im Reiter "Kompetenzen" ordnen Sie der Person Kompetenzbereiche zu. Sie sind kategorisiert nach "Verwalten", "Unterrichten" ("Dozieren"), "Haben" und "Ziel".
+
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Taxonomie". Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Kompetenzen zuordnen können Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Bildungsprodukte [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Hier finden Sie die Durchführungen der Benutzer:in. Die Liste zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
+Der Reiter "Bildungsprodukte" zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
-Den Reiter zeigt OpenOlat nur bei aktivem Course Planner. Ohne dieses Modul erscheint er nicht.
+Den Reiter zeigt OpenOlat nur bei aktivem Course Planner. Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
 Die Liste führt Durchführungen, nicht einzelne Kurse. Ein Kurs erscheint hier als Teil der Durchführung, über die die Person gebucht wurde, und im Reiter "Lernressourcen" zusätzlich als einzelne Lernressource. Die beiden Reiter beantworten verschiedene Fragen: "Bildungsprodukte" zeigt, welche Bildungsangebote die Person durchläuft, "Lernressourcen" zeigt, in welchen Kursen sie eingetragen ist. Anders als dort tragen Sie die Person hier weder ein noch aus.
 
@@ -312,7 +354,9 @@ Was die einzelnen Tabs zeigen, beschreibt der Abschnitt [Die Liste filtern](../.
 
 ### Korrekturaufträge [:octicons-tag-16:{ title="ab Release 15.0 (OO-4447)" }](https://track.frentix.com/issue/OO-4447)
 
-Hier kann abgefragt werden, welche Korrekturaufträge der Benutzer:in zugeordnet wurden.
+Der Reiter "Korrekturaufträge" zeigt, welche Korrekturaufträge der Person als Korrektor:in zugewiesen sind.
+
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht bei eingeladenen Konten und Gastkonten. Ihn erreichen alle Rollen, welche die Kontoeinstellungen öffnen.
 
 [zum Seitenanfang ^](#user_configuration)
 
