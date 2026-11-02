@@ -30,9 +30,9 @@ Here you define when a question receives the status "Final" if a review process 
 
 ![Subject page with the button Create new taxonomy level and the table of subjects with Level, Reference, External ID and Sublevels, partly expanded, so you see how subjects are nested](assets/question_bank_administration_subject_v1_en.png){ class="shadow lightbox" title="Subject page in the Administration area · 2026.10.29" }
 
-Subjects are used for the subject-related tagging of the questions (items) and are presented in a hierarchical structure. In educational organizations, for example, this represents possible courses of study, in the private sector possibly organizational units.
+With subjects you tag questions (items) by their subject. OpenOlat shows the subjects in a hierarchical structure. In educational organizations, for example, this represents possible courses of study, in the private sector possibly organizational units.
 
-A [taxonomy](../../manual_admin/administration/Modules_Taxonomy.md) is behind the subjects. New subjects are added via the button "Create new taxonomy level" or via "Import taxonomy levels". Existing subjects can also be edited.
+A [taxonomy](../../manual_admin/administration/Modules_Taxonomy.md) is behind the subjects. You add new subjects with the button "Create new taxonomy level" or with "Import taxonomy levels". You also edit existing subjects here.
 
 In order for a question to be submitted to the review process, a subject must be specified. Subject experts who have expertise in this area take on the review. Because the experts are also assigned to a subject, question and expert can be matched in this way.
 
@@ -46,7 +46,7 @@ In order for a question to be submitted to the review process, a subject must be
 
 A pool is a question database that is available to authors for the exchange of test questions.
 
-New pools are added via the button "Create pool". Existing pools can be edited or deleted.
+You add new pools with the button "Create pool". You edit or delete existing pools in the table of pools.
 
 Pools can either be public (and are therefore automatically available to all authors) or non-public. With a non-public pool you restrict access to selected persons, for example to the employees of a department.
 
@@ -64,13 +64,13 @@ Only administrators and question bank managers with the right for the pool admin
 
 **Create pool**
 
-![Dialog Create pool with the fields Name and Public, below it the pool table with Edit and Owners, numbered 1 to 5](assets/qb_pool_EN.gif){ class="shadow lightbox" title="Dialog Create pool in the pool administration" }
+![Dialog Create pool with Name and Public, behind it the button Create pool and the columns Edit and Owners, so you see where you create and change a pool](assets/question_bank_administration_pool_create_v2_en.png){ class="shadow lightbox" title="Dialog Create pool in the pool administration · 2026.11.02" }
 
-  1. **"Create pool"**: The button opens the form "Create pool".
-  2. **"Name"**: Enter the name of the new pool.
-  3. **"Public"**: Define whether the pool should be public (visible to all authors) or private. With a private pool you define under "Owners" which users get access to the pool.
-  4. **"Edit"**: For existing pools you change the name and the visibility here.
-  5. **"Owners"**: Add or remove owners.
+* **"Create pool"**: The button opens the dialog "Create pool".
+* **"Name"**: Enter the name of the new pool.
+* **"Public"**: Define whether the pool should be public (visible to all authors) or private. With a private pool you define under "Owners" which users get access to the pool.
+* **"Edit"**: For existing pools you change the name and the visibility here.
+* **"Owners"**: Add or remove owners.
 
 [To the top of the page ^](#question_bank_administration)
 
@@ -80,31 +80,27 @@ Only administrators and question bank managers with the right for the pool admin
 
 ![Type page with the button Create type and the table of the question types with type key and translation, so you see which question types exist and where you add one](assets/question_bank_administration_question_types_v1_en.png){ class="shadow lightbox" title="Type page in the Administration area · 2026.10.29" }
 
-OpenOlat has various test [question types](../learningresources/Test_question_types.md) that can be created either in the test editor of the learning resource Test or in the item editor of the question bank. Create additional question types if the default question types of OpenOlat are not sufficient. The default question types cannot be deleted.
+OpenOlat offers various [question types](../learningresources/Test_question_types.md) for tests. You create questions of these types in the test editor of the learning resource Test or in the question bank. If the default question types are not sufficient, create additional question types here. The default question types cannot be deleted.
 
-A question type deviating from the default cannot be created via the editor, but must be assigned to an existing question of a default type in the detailed view using the metadata "Type" in the category "Item analysis". A question changed in this way will still correspond to the original question type, but the new type will now be displayed in the "Type" column in the question bank.
+In the test editor and in the question bank you only create questions of the default question types. In the detailed view of a question, the metadata "Type" in the category "Item analysis" shows the question type. You cannot change it there.
 
-Newly created types must be translated per available language so that, for example, both German- and English-speaking users see the correct terms (and not the translation key visible here).
+Translate a newly created question type into each language that is enabled in your OpenOlat instance. This way, for example, German- and English-speaking users see the type name in their language and not the translation key.
 
 **Create type**
 
-After you have created a new question type using the button "Create type", it appears at the bottom of the table of types, in the column "Translation". The following naming convention is always applied:
+You create a new question type with the button "Create type". It appears at the bottom of the table of types, in the column "Translation", following this pattern:
 
     item.type.[type name]
 
-This is the so-called translation key with which the type name is translated into the various languages available on your OpenOlat instance.
+This is the translation key. OpenOlat uses it to translate the type name into the languages of your OpenOlat instance.
 
 ![Two new question types at the end of the table, one already translated as My question type, the other still with the translation key item.type.myquestion](assets/qb_qtypes_EN.gif){ class="shadow lightbox" title="Table of question types" }
 
-Click on the corresponding row in the table column "Translation". The following form opens:
+Click on the corresponding row in the table column "Translation". The dialog "Translation" opens:
 
-![Translation form with package, translation key, comparative language with Activate and the adaptation field for English, numbered 1 to 3](assets/qb_translate_EN.gif){ class="shadow lightbox" title="Form for translating a question type" }
+![Dialog Translation with one field each for German, English, Italian, French and Spanish, so you see that you translate a type name for all languages in one step](assets/question_bank_administration_translation_v1_en.png){ class="shadow lightbox" title="Dialog Translation of a question type · 2026.11.02" }
 
-  1. **"Translation key"**: In the dropdown menu you see the type name as it still appears in the table. You cannot change anything here or in the "Package" menu above.
-  2. **"Adaptations: English"**: Enter the desired type name here. From now on, OpenOlat shows it in the table of types, in the type selection of the detailed view and for existing questions under "Type".
-  3. **"Comparative language"**: Activate the comparative language and select the language in the dropdown menu to compare and check the terms.
-
-Repeat these steps for each language available in your instance.
+The dialog shows one field for each language that is enabled in your OpenOlat instance. Enter the type name in each language and click "OK". From now on, OpenOlat shows the name in the table of types, in the filter "Type" of the question lists and in the detailed view of a question under "Type".
 
 [To the top of the page ^](#question_bank_administration)
 
@@ -114,9 +110,9 @@ Repeat these steps for each language available in your instance.
 
 ![Level page with the button Create level and the table of levels with the columns Level, Translation and Delete, so you see where you create and translate the levels](assets/question_bank_administration_level_v1_en.png){ class="shadow lightbox" title="Level page in the Administration area · 2026.10.29" }
 
-Levels are a further categorization option and can be compared, for example, with a difficulty level. Here you create levels that correspond to the training levels available in your context.
+With levels you categorize questions further, comparable to a difficulty level. Here you create the levels that correspond to the training levels in your context.
 
-The level of a question item can be assigned in the [detailed view](Item_Detailed_View.md#metadata_general) as the metadata "Level" under "General". For example, the difficulty of a question can be assigned to a level.
+You assign the level of a question in the [detailed view](Item_Detailed_View.md#metadata_general) with the metadata "Level" under "General". For example, you assign the difficulty of a question to a level.
 
 Examples of levels in a school context are:
 
@@ -137,7 +133,7 @@ In a corporate context, levels could look like this:
 
 You create new levels with the button "Create level" at the top right.
 
-Like question types, levels must also be translated per available language so that, for example, both German- and English-speaking users see the correct terms. To do this, proceed as described under "Create type".
+Like question types, you translate levels into each language that is enabled in your OpenOlat instance. To do this, click on the row of the level in the column "Translation" and proceed as described under "Create type".
 
 [To the top of the page ^](#question_bank_administration)
 

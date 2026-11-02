@@ -2,34 +2,34 @@
 
 As soon as you select one or more questions in the list, the buttons with which you continue to use the selected questions appear above the list.
 
-![Two selected questions, below them the bar with the nine action buttons for the selection](assets/question_bank_operations.png.jpg){ class="shadow lightbox" title="Buttons for the selected questions" }
+![Two selected questions, above them the nine buttons for the selection from Create test to Change metadata, so you see what you can do with selected questions](assets/question_bank_use_questions_v2_en.png){ class="shadow lightbox" title="Buttons above the question list · 2026.11.02" }
 
 
 ## Lists {: #lists}
 
-Lists allow you to collect question items according to your personal criteria. To do this, select the corresponding questions under "My questions" or a pool and then click the "Lists" button above the table. Create a new list or add the question to an existing list.
+With lists you collect questions according to your own criteria. To do this, select the corresponding questions under "My questions" or a pool and then click the "Lists" button above the table. Create a new list or add the question to an existing list.
 
 ![Two selected questions, above them the open menu of the Lists button with Create list and Add to list, so you find where you collect questions in a list](assets/question_bank_use_questions_list1_v1_en.png){ class="shadow lightbox" title="Lists menu above the question list · 2026.10.29" }
 
-A list is only visible to you. If you add a question to a list, it is only referenced and not copied. Changes to questions that you make in a list are therefore also made to the original under "My questions". You will then find your list on the left in the menu below "My favorites".
+A list is only visible to you. A question that you add to a list refers to the original, OpenOlat does not copy it. If you change a question in a list, you therefore also change the original under "My questions". You will then find your list on the left in the menu below "My favorites".
 
 ![Own list Swiss geography highlighted under My question bank below My favorites, on the right the two questions of the list, so you find your list again](assets/question_bank_use_questions_list2_v1_en.png){ class="shadow lightbox" title="Own list in the My question bank area · 2026.10.29" }
 
-If a list is open, the menu of the "Lists" button additionally contains "Rename list" and "Delete list". Items are not saved separately on lists. If you remove items from lists, these items are not deleted from the database.
+If a list is open, the menu of the "Lists" button additionally contains "Rename list" and "Delete list". If you remove a question from a list, the question itself is kept.
 
 [To the top of the page ^](#using_the_questions)
 
 
 ## Create test {: #learning_resource_test}
 
-With this option, a new [Learning resource Test](../learningresources/Test.md) is created directly from the selected questions. The title of the learning resource can then be entered immediately. This test can then be found in Authoring under "My entries".
+With the button "Create test" you create a new [Learning resource Test](../learningresources/Test.md) directly from the selected questions. In doing so, you enter the title of the learning resource right away. You then find the test in Authoring under "My entries".
 
 [To the top of the page ^](#using_the_questions)
 
 
 ## Export {: #export}
 
-You can export marked questions to different formats. The following options are available:
+With the button "Export" you export selected questions to different formats:
 
 * Word file for offline exams (incl. correction sheet)
 * QTI test file for exchange with other compatible LMS
@@ -41,7 +41,7 @@ You can export marked questions to different formats. The following options are 
 
 ## Share [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share}
 
-Pre-selected items can be added to groups or pools with this function, to which other users have access.
+With the button "Share" you share selected questions with groups or pools to which other users have access.
 
 ![Two selected questions, above them the open menu of the Share button with Share with pool and Share with group, so you find where you share questions](assets/question_bank_use_questions_share1_v1_en.png){ class="shadow lightbox" title="Share menu above the question list · 2026.10.29" }
 
@@ -55,26 +55,26 @@ If one or more questions have been shared with one or more groups, the group nam
 
 **Share with pool**
 
-When sharing with a pool, all users who also have access to this pool have access to the shared questions.
+If you share questions with a pool, all users with access to this pool also get access to the shared questions.
 
 !!! info "Important"
 
     Please note that even when sharing with a pool or a group, the respective persons must first have the right to access the question bank. For example, normal users do not have access rights to the question bank by default.
 
-[Question bank managers](Question_Bank_Administration.md) (a specific OpenOlat role) can create an unlimited number of pools. These can either be public, and therefore visible to all authorized users, or private. The number of pools displayed may therefore vary from user to user. Contact your question bank manager if you do not have access to a pool.
+Administrators and [question bank managers](Question_Bank_Administration.md) (a specific OpenOlat role) with the right for the pool administration create any number of pools. These can either be public, and therefore visible to all authorized users, or private. The number of pools displayed may therefore vary from user to user. Contact your question bank manager if you do not have access to a pool.
 
 When sharing, you define whether the question may be edited in the new location or not.
 
 !!! tip "Tip"
 
-    Items that may not be edited in the group or pool can be edited as soon as they have been copied to "My questions".
+    Questions that you may not edit in the group or pool can be edited after you have copied them to "My questions".
 
 [To the top of the page ^](#using_the_questions)
 
 
 ## Copy {: #copy}
 
-Copy items from pools to create a copy in your question database under "My questions". The title of a copy begins with "(Copy)".
+Copy questions from pools to create a copy in your question database under "My questions". The title of a copy begins with "(Copy)".
 
 The copy of questions created in lists or shares can also be saved under the respective list or share in addition to "My questions".
 
@@ -83,11 +83,11 @@ The copy of questions created in lists or shares can also be saved under the res
 
 ## Convert [:octicons-tag-16:{ title="from Release 11.1 (OO-2314)" }](https://track.frentix.com/issue/OO-2314){:target="_blank"} {: #convert}
 
-Questions in the QTI standard 1.2 should be converted to the QTI standard 2.1. To do this, select the desired questions in the list. Then click on "Convert". After you have confirmed the dialog, the converted questions are now available in the standard 1.2 and additionally in the standard 2.1.
+Convert questions in the QTI standard 1.2 to the QTI standard 2.1. To do this, select the desired questions in the list. Then click on "Convert". After you have confirmed the dialog, the converted questions are available in the standard 1.2 and additionally in the standard 2.1.
 
 The questions that are converted in lists or shares are also stored under the respective list or share in addition to "My questions". Questions that are already in QTI format 2.1 do not need to be converted.
 
-For more information on converting, see "[Changing from QTI 1.2 to QTI 2.1](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md)".
+For more information on converting, see [Changing from QTI 1.2 to QTI 2.1](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md).
 
 [To the top of the page ^](#using_the_questions)
 
@@ -103,7 +103,7 @@ In the detailed view of the questions, the other authors are displayed in the [m
 
 ## Delete (or remove) {: #delete}
 
-Items can be removed from lists, pools and group shares without deleting the original question under "My questions". The "Remove" button only removes the reference to the item, but does not delete the item itself. A question is always only removed from the respective context you are currently in. By removing a question from a list, a group or a pool, you do not change any other shares.
+You remove questions from lists, pools and group shares without deleting the original question under "My questions". The "Remove" button only removes the reference to the question, the question itself is kept. A question is always only removed from the respective context you are currently in. By removing a question from a list, a group or a pool, you do not change any other shares.
 
 In order to delete a question permanently from all lists, groups and pools, you have to delete the corresponding question in your question bank under "My questions". There it is permanently deleted and can no longer be restored.
 
@@ -112,15 +112,15 @@ In order to delete a question permanently from all lists, groups and pools, you 
 
 ## Change metadata {: #metadata}
 
-Meta information on questions can be adjusted here or in the [detailed view](Item_Detailed_View.md) of an item. 
+You change the metadata of questions here or in the [detailed view](Item_Detailed_View.md) of a question.
 
-The "Change metadata" button can be used to adjust individual pieces of information for several items at the same time without opening the detailed view of the questions. However, these changes cannot be undone here.
+With the button "Change metadata" you change individual pieces of information for several questions at the same time without opening the detailed view. These changes cannot be undone here.
 
 ![Dialog Change metadata for 2 selected questions with a checkbox per field in General, Item analysis, Rights and Technical, so you see which fields you change at once](assets/question_bank_use_questions_metadata1_v1_en.png){ class="shadow lightbox" title="Dialog Change metadata · 2026.10.29" }
 
-For further adjustments, each question must be called up individually.
+For further adjustments, open each question individually.
 
-Click on the "+" icon at the beginning of a row in the question list. The preview of this item and the menu for the metadata of this question open.
+Click on the "+" icon at the beginning of a row in the question list. The preview of the question and the sections of its metadata open.
 
 ![Highlighted plus icons and a row expanded with them, with the preview of the question and the metadata sections on the right, so you check a question without opening it](assets/question_bank_use_questions_metadata2_v1_en.png){ class="shadow lightbox" title="Expanded row in the question list · 2026.10.29" }
 

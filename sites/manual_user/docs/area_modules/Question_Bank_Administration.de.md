@@ -28,11 +28,11 @@ Hier legen Sie fest, wann eine Frage den Status "Final" erhält, falls für sie 
 
 ### Fachbereich {: #subject}
 
-![Seite Fachbereich mit dem Button Neue Taxonomieebene erstellen und der hierarchischen Tabelle der Taxonomieebenen mit Anzeigename, Kennzeichen, Ebenentyp und Anzahl](assets/question_bank_administration_subject_v1_de.png){ class="shadow lightbox" title="Seite Fachbereich im Bereich Administration" }
+![Seite Fachbereich mit dem Button Neue Taxonomieebene erstellen und der Tabelle mit Ebene, Kennzeichen, Externe ID und Unterebenen, so sehen Sie, wie Fachbereiche verschachtelt sind](assets/question_bank_administration_subject_v2_de.png){ class="shadow lightbox" title="Seite Fachbereich im Bereich Administration · 2026.11.02" }
 
-Fachbereiche dienen der fachlichen Verschlagwortung der Fragen (Items) und werden in einer hierarchischen Struktur dargestellt. Diese bildet z.B. in Ausbildungsorganisationen mögliche Studiengänge ab, in der Privatwirtschaft eventuell Organisationseinheiten.
+Mit Fachbereichen verschlagworten Sie Fragen (Items) nach ihrem Fach. OpenOlat zeigt die Fachbereiche in einer hierarchischen Struktur. Diese bildet z.B. in Ausbildungsorganisationen mögliche Studiengänge ab, in der Privatwirtschaft eventuell Organisationseinheiten.
 
-Hinter den Fachbereichen steht eine [Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md). Neue Fachbereiche werden über die Schaltfläche "Neue Taxonomieebene erstellen" oder über "Taxonomieebenen importieren" hinzugefügt. Bereits bestehende Fachbereiche können auch bearbeitet werden.
+Hinter den Fachbereichen steht eine [Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md). Neue Fachbereiche fügen Sie mit der Schaltfläche "Neue Taxonomieebene erstellen" oder mit "Taxonomieebenen importieren" hinzu. Bestehende Fachbereiche bearbeiten Sie ebenfalls hier.
 
 Damit eine Frage in den Beurteilungsprozess gegeben werden kann, muss ein Fachbereich angegeben werden. Die Beurteilung übernehmen Fachexpert:innen, die in diesem Bereich Kompetenz besitzen. Weil auch die Expert:innen einem Fachbereich zugeordnet sind, lassen sich Frage und Expert:in so einander zuordnen.
 
@@ -46,7 +46,7 @@ Damit eine Frage in den Beurteilungsprozess gegeben werden kann, muss ein Fachbe
 
 Ein Pool (engl. Sammelbecken, Reservoir etc.) ist eine Fragendatenbank, die Autor:innen für den Austausch von Testfragen zur Verfügung steht.
 
-Neue Pools werden über die Schaltfläche "Pool erstellen" hinzugefügt. Bereits bestehende Pools können bearbeitet oder gelöscht werden.
+Neue Pools fügen Sie mit der Schaltfläche "Pool erstellen" hinzu. Bestehende Pools bearbeiten oder löschen Sie in der Tabelle der Pools.
 
 Fragenpools können entweder öffentlich sein (und stehen damit automatisch allen Autor:innen zur Verfügung) oder nicht öffentlich. Bei einem nicht öffentlichen Pool beschränken Sie den Zugriff auf ausgesuchte Personen, zum Beispiel auf die Mitarbeiter:innen einer Abteilung.
 
@@ -64,13 +64,13 @@ Pools erstellen nur Administrator:innen und Poolverwalter:innen mit dem Recht f�
 
 **Pool erstellen**
 
-![Dialog Pool erstellen mit den Feldern Name und Öffentlich, darunter die Pool-Tabelle mit Bearbeiten und Besitzer:innen, nummeriert 1 bis 5](assets/question_bank_administration_pool_create_v1_de.png){ class="shadow lightbox" title="Dialog Pool erstellen in der Pool-Verwaltung" }
+![Dialog Pool erstellen mit Name und Öffentlich, dahinter der Button Pool erstellen und die Spalten Bearbeiten und Besitzer:innen, so sehen Sie, wo Sie einen Pool anlegen und ändern](assets/question_bank_administration_pool_create_v2_de.png){ class="shadow lightbox" title="Dialog Pool erstellen in der Pool-Verwaltung · 2026.11.02" }
 
-  1. **"Pool erstellen"**: Die Schaltfläche öffnet das Formular "Pool erstellen".
-  2. **"Name"**: Geben Sie den Namen des neuen Pools ein.
-  3. **"Öffentlich"**: Legen Sie fest, ob der Pool öffentlich (für alle Autor:innen sichtbar) oder privat sein soll. Bei einem privaten Pool legen Sie unter "Besitzer:innen" fest, welche Benutzer:innen Zugriff auf den Pool erhalten.
-  4. **"Bearbeiten"**: Für bestehende Pools ändern Sie hier den Namen und die Sichtbarkeit.
-  5. **"Besitzer:innen"**: Fügen Sie Besitzer:innen hinzu oder entfernen Sie diese.
+* **"Pool erstellen"**: Die Schaltfläche öffnet den Dialog "Pool erstellen".
+* **"Name"**: Geben Sie den Namen des neuen Pools ein.
+* **"Öffentlich"**: Legen Sie fest, ob der Pool öffentlich (für alle Autor:innen sichtbar) oder privat sein soll. Bei einem privaten Pool legen Sie unter "Besitzer:innen" fest, welche Benutzer:innen Zugriff auf den Pool erhalten.
+* **"Bearbeiten"**: Für bestehende Pools ändern Sie hier den Namen und die Sichtbarkeit.
+* **"Besitzer:innen"**: Fügen Sie Besitzer:innen hinzu oder entfernen Sie diese.
 
 [Zum Seitenanfang ^](#question_bank_administration)
 
@@ -80,31 +80,27 @@ Pools erstellen nur Administrator:innen und Poolverwalter:innen mit dem Recht f�
 
 ![Seite Fragetyp mit dem Button Fragetyp erstellen und der Tabelle der 16 Standard-Fragetypen mit Typ-Schlüssel und Übersetzung](assets/question_bank_administration_question_types_v1_de.png){ class="shadow lightbox" title="Seite Fragetyp im Bereich Administration" }
 
-OpenOlat verfügt über diverse Test [Fragetypen](../learningresources/Test_question_types.de.md), die entweder im Testeditor der Lernressource Test oder im Itemeditor des Fragenpools erstellt werden können. Erstellen Sie zusätzliche Fragetypen, wenn die Standard-Fragetypen von OpenOlat nicht genügen. Die Standard-Fragetypen können nicht gelöscht werden.
+OpenOlat bietet für Tests verschiedene [Fragetypen](../learningresources/Test_question_types.de.md). Fragen dieser Typen erstellen Sie im Testeditor der Lernressource Test oder im Fragenpool. Genügen Ihnen die Standard-Fragetypen nicht, erstellen Sie hier zusätzliche Fragetypen. Die Standard-Fragetypen lassen sich nicht löschen.
 
-Ein vom Standard abweichender Fragetyp kann nicht über den Editor erstellt werden, sondern muss einer bestehenden Frage eines Standard-Typs in der Detailansicht mit Hilfe des Metadatums "Typ" in der Kategorie "Itemanalyse" zugewiesen werden. Eine in diesem Stil geänderte Frage wird nach wie vor dem ursprünglichen Fragetyp entsprechen, allerdings wird nun im Fragenpool in der Spalte "Typ" der neue Typ angezeigt.
+Im Testeditor und im Fragenpool erstellen Sie nur Fragen der Standard-Fragetypen. In der Detailansicht einer Frage zeigt das Metadatum "Typ" in der Kategorie "Itemanalyse" den Fragetyp an. Ändern lässt er sich dort nicht.
 
-Neu erstellte Fragetypen müssen pro verfügbarer Sprache übersetzt werden, damit sowohl z.B. deutsch- als auch englischsprachige Benutzer:innen die korrekten Begriffe angezeigt bekommen (und nicht den hier sichtbaren Übersetzungsschlüssel).
+Übersetzen Sie einen neu erstellten Fragetyp in jede Sprache, die in Ihrer OpenOlat-Instanz eingeschaltet ist. So sehen zum Beispiel deutsch- und englischsprachige Benutzer:innen den Typennamen in ihrer Sprache und nicht den Übersetzungsschlüssel.
 
 **Fragetyp erstellen**
 
-Nachdem Sie mit Hilfe der Schaltfläche "Fragetyp erstellen" einen neuen Fragetyp erstellt haben, erscheint dieser zuunterst in der Tabelle der Typen, in der Spalte "Übersetzung". Dazu wird stets folgende Namenskonvention angewandt:
+Einen neuen Fragetyp erstellen Sie mit der Schaltfläche "Fragetyp erstellen". Er erscheint zuunterst in der Tabelle der Typen, in der Spalte "Übersetzung" nach diesem Muster:
 
     item.type.[Typenname]
 
-Dies ist der sogenannte Übersetzungsschlüssel, mit dem der Typenname in die verschiedenen, auf Ihrer OpenOlat-Instanz verfügbaren Sprachen übersetzt wird.
+Das ist der Übersetzungsschlüssel. Über ihn übersetzt OpenOlat den Typennamen in die Sprachen Ihrer OpenOlat-Instanz.
 
 ![Zwei neue Fragetypen am Tabellenende, einer bereits übersetzt als Mein Fragetyp, der andere noch mit dem Übersetzungsschlüssel item.type.myquestion](assets/qb_qtypes.gif){ class="shadow lightbox" title="Tabelle der Fragetypen" }
 
-Klicken Sie in der Tabellenspalte "Übersetzung" auf die entsprechende Zeile. Es öffnet sich das folgende Formular:
+Klicken Sie in der Tabellenspalte "Übersetzung" auf die entsprechende Zeile. Es öffnet sich der Dialog "Übersetzung":
 
-![Übersetzungsformular mit Paket, Übersetzungsschlüssel, Vergleichssprache mit Aktivieren und dem Feld Anpassungen Deutsch, nummeriert 1 bis 3](assets/qb_translate_DE.gif){ class="shadow lightbox" title="Formular zum Übersetzen eines Fragetyps" }
+![Dialog Übersetzung mit je einem Feld für Deutsch, Englisch, Italienisch, Französisch und Spanisch, so sehen Sie, dass Sie einen Typennamen für alle Sprachen in einem Schritt übersetzen](assets/question_bank_administration_translation_v1_de.png){ class="shadow lightbox" title="Dialog Übersetzung eines Fragetyps · 2026.11.02" }
 
-  1. **"Übersetzungsschlüssel"**: Im Dropdown-Menü sehen Sie den Typennamen, wie er noch in der Tabelle erscheint. Hier und im darüber liegenden Menü "Paket" können Sie nichts ändern.
-  2. **"Anpassungen: Deutsch"**: Tragen Sie hier den gewünschten Typennamen ein. OpenOlat zeigt ihn ab nun in der Tabelle der Typen, in der Typenauswahl der Detailansicht und bei bereits bestehenden Fragen unter "Typ" an.
-  3. **"Vergleichssprache"**: Aktivieren Sie die Vergleichssprache und wählen Sie die Sprache im Dropdown-Menü aus, um die Begriffe zu vergleichen und zu überprüfen.
-
-Wiederholen Sie diese Schritte für jede in Ihrer Instanz verfügbare Sprache.
+Der Dialog zeigt ein Feld für jede Sprache, die in Ihrer OpenOlat-Instanz eingeschaltet ist. Tragen Sie in jedem Feld den Typennamen in dieser Sprache ein und klicken Sie auf "OK". OpenOlat zeigt den Namen ab nun in der Tabelle der Typen, im Filter "Typ" der Fragenlisten und in der Detailansicht einer Frage unter "Typ" an.
 
 [Zum Seitenanfang ^](#question_bank_administration)
 
@@ -114,9 +110,9 @@ Wiederholen Sie diese Schritte für jede in Ihrer Instanz verfügbare Sprache.
 
 ![Seite Stufe mit dem Button Stufe erstellen und den drei Stufen Grundstufe, Aufbaustufe und Expertenstufe mit Übersetzung und Löschen](assets/question_bank_administration_level_v1_de.png){ class="shadow lightbox" title="Seite Stufe im Bereich Administration" }
 
-Stufen stellen eine weitere Kategorisierungsmöglichkeit dar und können z.B. mit einer Schwierigkeitsstufe verglichen werden. Hier erstellen Sie Stufen, die in Ihrem Kontext Ihren verfügbaren Ausbildungsleveln entsprechen.
+Mit Stufen ordnen Sie Fragen zusätzlich ein, vergleichbar mit einer Schwierigkeitsstufe. Hier erstellen Sie die Stufen, die den Ausbildungsleveln in Ihrem Kontext entsprechen.
 
-Die Stufe eines Frageitems kann in der [Detailansicht](Item_Detailed_View.de.md#metadata_general) als Metadatum "Stufe" unter "Allgemein" zugewiesen werden. So kann z.B. die Schwierigkeit einer Frage einer Stufe zugeordnet werden.
+Die Stufe einer Frage weisen Sie in der [Detailansicht](Item_Detailed_View.de.md#metadata_general) im Metadatum "Stufe" unter "Allgemein" zu. So ordnen Sie zum Beispiel die Schwierigkeit einer Frage einer Stufe zu.
 
 Beispiele für Stufen im schulischen Kontext sind:
 
@@ -137,7 +133,7 @@ In einem Unternehmenskontext könnten Stufen so aussehen:
 
 Neue Stufen erstellen Sie mit dem Button "Stufe erstellen" rechts oben.
 
-Wie Fragetypen müssen auch Stufen pro verfügbarer Sprache übersetzt werden, damit sowohl z.B. deutsch- als auch englischsprachige Benutzer:innen die korrekten Begriffe angezeigt bekommen. Gehen Sie dazu vor, wie unter "Fragetyp erstellen" beschrieben.
+Wie Fragetypen übersetzen Sie auch Stufen in jede Sprache, die in Ihrer OpenOlat-Instanz eingeschaltet ist. Klicken Sie dazu in der Spalte "Übersetzung" auf die Zeile der Stufe und gehen Sie vor wie unter "Fragetyp erstellen" beschrieben.
 
 [Zum Seitenanfang ^](#question_bank_administration)
 
