@@ -2,7 +2,7 @@
 
 ??? abstract "Objectives and content of this instruction"
 
-    There are various ways to create tests in OpenOlat. Here you will find an overview of the most common ways. Get to know the possibilities and then choose the procedure that suits you best.
+    There are various ways to create tests in OpenOlat. These instructions show the three common ways at a glance. Get to know the possibilities and then choose the procedure that suits you best.
 
     All three ways require the role Author. With this role, the main navigation shows Authoring and the question bank.
 
@@ -24,16 +24,16 @@
 
 **Course:**<br> It is assembled from course elements in the course editor.
 
-**Course element:** <br>Most course elements are containers into which a learning resource is inserted. E.g. a learning resource "Test" is inserted into the course element "Test". Please distinguish between these two "Tests"!
+**Course element:** <br>Most course elements are containers into which you insert a learning resource. For example, you insert a learning resource "Test" into the course element "Test". Distinguish between these two "Tests".
 
 **Questions:** <br>A test learning resource consists of several individual questions, e.g., single choice, multiple choice, etc.
 
-**Question bank:** <br>The individual questions can be collected in a question bank. When creating different test learning resources, the question bank can then be accessed. Existing questions from the question bank can be adopted (copied from there) and additional new questions can be created. <br>
-Questions can be created in the question bank or the learning resource. Questions created in the learning resource are only available in this test learning resource as long as they are not transferred to the question bank for multiple use.
+**Question bank:** <br>In the question bank you collect individual questions. When you create a test learning resource, you access the question bank: you adopt existing questions (OpenOlat copies them from there) and create additional new questions if required. <br>
+You create questions in the question bank or in the learning resource. A question created in the learning resource only exists in this test learning resource as long as you do not transfer it to the question bank for multiple use.
 
 <br>
 
-Settings (configurations) can be made for each of the elements. The configurations can therefore be made at different levels.
+Each of these elements has its own settings (configurations). You therefore configure a test on four levels.
 
 ![Four nested levels, each with its own configuration: course, course element Test, learning resource Test and question](assets/grafik_konfigurationsebenen_v1_de.png){ width=450px class="lightbox" title="Configuration levels of a test" }
 
@@ -86,16 +86,16 @@ If you are starting from scratch with the creation of a course, the following pr
 
 ![Create menu opened, entry Course highlighted](assets/testerstellung_1_1_v1_de.png){ class="lightbox" title="Authoring" }
 
-2\. Assign a title and make initial settings for the course. Decide on a design.
+2\. Assign a title and define initial settings of the course. Decide on a design.
 
 ![Title of the course entered and course design With learning path selected, below it the Create button](assets/testerstellung_1_2_v1_de.png){ class="lightbox" title="Dialog Create course" }
 
 3\. If you want to use a wizard (course wizard) for the further process of course creation, you will be asked if you want to create an exam course.<br>
-An exam course is a normal course (no matter if learning path course or conventional course) that already contains a certain configuration. So this option provides a later work relief.
+An exam course is a normal course (no matter if learning path course or conventional course) that already contains a certain configuration. This saves you work later.
 
 ![Button Create with course wizard opened, with the entries Simple course and Exam course](assets/testerstellung_1_3_v1_de.png){ class="lightbox" title="Dialog Create course with course wizard" }
 
-4\. The first screen after clicking the "Create" button is the settings overview (configuration of the course).
+4\. After clicking the "Create" button, you first see the settings overview (configuration of the course).
 
 !!! tip "Tip"
 
@@ -109,7 +109,7 @@ An exam course is a normal course (no matter if learning path course or conventi
 
 <br>
 
-5\. Open the **Course editor** via the "Administration". Select "Insert course elements" and click on the desired course element type "Test" or "Self-test" there. This will insert a course element of this type.
+5\. Open the "Course editor" via the "Administration". Select "Insert course elements" and click on the desired course element type "Test" or "Self-test" there. OpenOlat thereby inserts a course element of this type.
 
 ![Entry Course editor in the Administration menu and button Insert course elements highlighted](assets/testerstellung_1_5_v1_de.png){ class="lightbox" title="Course editor" }
 
@@ -153,7 +153,7 @@ An exam course is a normal course (no matter if learning path course or conventi
 
 13\. In the "Choice" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
 
-14\. In the "Points" tab you define the type and the sum of the points.
+14\. In the "Score" tab you define the type and the sum of the points.
 
 15\. If necessary, you define a feedback to the question. You can view the question via "Preview".
 
@@ -194,7 +194,7 @@ If you already have some experience as an author and a course already exists, yo
 
 ![Title of the learning resource E-Learning Grundlagen entered, below it the Create button](assets/testerstellung_2_2_v1_de.png){ class="shadow lightbox" title="Dialog for creating a test" }
 
-3\. A menu appears. Here you can make further settings in the different tabs if required.
+3\. A menu appears. Here you define further settings in the different tabs if required.
 
 The menu corresponds to the settings in the Administration section and can also be edited later.
 
@@ -216,7 +216,7 @@ The menu corresponds to the settings in the Administration section and can also 
 
 6\. In the "Choice" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
 
-7\. In the "Points" tab, define the type and the sum of the points.
+7\. In the "Score" tab, define the type and the sum of the points.
 
 8\. If needed, define a feedback to the question and preview it.
 
@@ -248,7 +248,7 @@ Add more questions according to the same principle. The details of the settings 
 
 10\. **Test configuration:** Define from how many points the test is passed and whether or what time limit there is.
 
-Define, if desired, a **general feedback:** in case of pass/fail (applies to automatic pass).
+Define, if desired, a general feedback for the case that the test is passed or failed (applies to automatic pass).
 
 11\. **Expert:** Configure further details of the test procedure, e.g. type of navigation or display of solutions.
 
@@ -287,7 +287,7 @@ A list with your test learning resources appears. Select the prepared test by cl
 
 ![Embedded test under Selected file with the buttons Change file, Edit and Show preview](assets/testerstellung_2_16_v1_de.png){ class="shadow lightbox" title="Tab Test configuration with selected test" }
 
-17\. If required, the other tabs of the course element can still be configured. You can partially override the settings of the test learning resource with the settings of the course element. This makes sense if the same test learning resource is used in different courses.
+17\. If required, the other tabs of the course element can still be configured. You can partially override the settings of the test learning resource with the settings of the course element. This is worthwhile if you use the same test learning resource in different courses.
 
 18\. In order for learners to be able to work on the test, the course must still be published. To do this, simply close the course editor, e.g. by clicking on the name of the course in the breadcrumb navigation, and select "Publish manually" or "Publish automatically" in the dialog that appears.
 
@@ -296,7 +296,7 @@ Alternatively, you can also use the "Publish" button in the editor on the right 
 19\. In order for learners to work on the test, the status of the course still needs to be changed to "Published".<br>
 In the members management of the course you decide which learners get access.
 
-20\. Once test results are available, coaches can make assessments in the assessment tool. (Does not apply to self-tests.)<br>
+20\. Once test results are available, coaches assess the participants in the assessment tool. (Does not apply to self-tests.)<br>
 Further information can be found in the chapter "[Assessing tests](../../manual_user/learningresources/Assessing_tests.md)".
 
 <br>
@@ -318,7 +318,7 @@ Then you can also start creating the individual questions in the question bank.
 
 <br>
 
-1\. If you have author rights, the question bank is displayed in the main navigation in addition to Authoring. Go to the question bank.
+1\. With the role Author, the main navigation shows the question bank in addition to Authoring. Go to the question bank.
 
 ![Question bank highlighted and opened, on the left the menu My question bank](assets/testerstellung_3_1_v1_de.png){ class="lightbox" title="Question bank in the main navigation" }
 
@@ -330,7 +330,7 @@ Then you can also start creating the individual questions in the question bank.
 
 ![Choice tab of a new multiple choice question in the question bank with the fields Title, Question and four answers, three of them ticked as correct](assets/testerstellung_3_3_v2_en.png){ class="lightbox" title="Question in the question bank · 2026.09.28" }
 
-4\. In the "Points" tab you define the type and the sum of the points.
+4\. In the "Score" tab you define the type and the sum of the points.
 
 5\. If necessary, you define a feedback to the question. You can view the question via "Preview".
 
@@ -345,6 +345,7 @@ Add more questions according to the same principle. The details of the settings 
 
     Copying questions is recommended when you have several questions with the same answer options, e.g. several questions with a value from a scale of 1-5.
 
+Maintain the metadata of every question in the question bank, for example subject, level and keywords. With them you find the questions again later via the search filters, and the course element "Practice" selects them automatically. The instructions [Benefits of metadata](../question_metadata/question_metadata.md) show how this works.
 
 <br>
 
@@ -361,11 +362,11 @@ Add more questions according to the same principle. The details of the settings 
     The new test learning resource is not listed under the "My courses" tab in Authoring, but under "My entries". It is recognizable by the icon for test learning resources.
     ![Tab My entries with the filter Type Test, test icon in the Type column highlighted](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" title="Tab My entries in Authoring" }
 
-7\. Open the editor by clicking **Administration** and then **"Test editor"**.
+7\. Open the editor via `Administration > Test editor`.
 
 ![Entry Test editor in the Administration menu highlighted](assets/testerstellung_3_7_v2_en.png){ class="lightbox" title="Administration menu of a test learning resource · 2026.09.28" }
 
-8\. In the test editor (recognizable by the shaded header) you can now add new questions under **"Add elements"**.
+8\. In the test editor (recognizable by the shaded header) you now add new questions under "Add elements".
 
 ![Opened menu Add elements with the question types](assets/testerstellung_3_8_v1_de.png){ class="lightbox" title="Test editor" }
 
@@ -375,7 +376,7 @@ Add more questions according to the same principle. The details of the settings 
 
 <br>
 
-9\. As an alternative to creating new questions, you can add existing questions under the same menu item with **"Import questions from pool"**.
+9\. Instead of creating new questions, you adopt existing questions under the same menu item with "Import questions from pool".
 
 ![Entry Import questions from pool in the Add elements menu highlighted](assets/testerstellung_3_9_v1_de.png){ class="lightbox" title="Menu Add elements in the test editor" }
 
@@ -400,7 +401,7 @@ A list with your test learning resources will appear. Select the prepared test b
 
 15\. If required, you can preview the included test in the "Test configuration" tab under "Selected file" and also edit it as long as it has not been used by participants.
 
-16\. The other tabs of the course element can be configured as required. You can partly override the settings of the test learning resource with the settings of the course element. This makes sense if the same test learning resource is used in different courses.
+16\. The other tabs of the course element can be configured as required. You can partly override the settings of the test learning resource with the settings of the course element. This is worthwhile if you use the same test learning resource in different courses.
 
 17\. In order for learners to be able to work on the test, the course must still be published. To do this, simply close the course editor, e.g. by clicking on the name of the course in the breadcrumb navigation, and select "Publish manually" or "Publish automatically" in the dialog that appears.
 
@@ -409,7 +410,7 @@ Alternatively, you can also use the "Publish" button in the editor on the right 
 18\. In order for learners to work on the test, the status of the course still has to be changed to "Published".<br>
 In the members management of the course you decide which learners get access.
 
-19\. Once test results are available, coaches can make assessments in the assessment tool. (Does not apply to self-tests.)<br>
+19\. Once test results are available, coaches assess the participants in the assessment tool. (Does not apply to self-tests.)<br>
 Further information can be found in the chapter "[Assessing tests](../../manual_user/learningresources/Assessing_tests.md)".
 
 
@@ -437,10 +438,14 @@ Further information can be found in the chapter "[Assessing tests](../../manual_
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
-[Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
-[Test editor >](../../manual_user/learningresources/Test_editor_QTI_2.1.md)<br>
 [Configure tests >](../../manual_user/learningresources/Configure_tests.md)<br>
+[Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
+[Benefits of metadata >](../question_metadata/question_metadata.md)
+
+**Further reading**<br>
+[Test editor >](../../manual_user/learningresources/Test_editor_QTI_2.1.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
 [Question Bank: Overview >](../../manual_user/area_modules/Question_Bank/index.md)<br>
 [How do I exchange a test? >](../exchange_tests/exchange_tests.md)

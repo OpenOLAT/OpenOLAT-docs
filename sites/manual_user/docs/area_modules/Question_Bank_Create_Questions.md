@@ -107,7 +107,7 @@ If you are developing questions together, for example, you can create a workgrou
 
 **Further reading**<br>
 [Question Bank: Import Questions >](Question_Bank_Import_Questions.md)<br>
-[Item Detailed View >](Item_Detailed_View.md)<br>
+[Question bank: Details of a question and metadata >](Item_Detailed_View.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
 [To the top of the page ^](#create_questions)

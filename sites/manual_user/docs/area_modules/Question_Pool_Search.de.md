@@ -24,14 +24,14 @@ Als Platzhalter für beliebige weitere Zeichen dient " * ". Beginnt oder endet d
 
 Die Suchfilter schränken die Fragenliste nach einzelnen Angaben ein. Sie sind beim Öffnen der Liste eingeblendet und lassen sich mit der Suche und untereinander kombinieren.
 
-Standardmässig zeigt OpenOlat unter anderem die Filter "Titel", "Autor:in", "Typ", "Testart", "Status" und "Max. Punkte", je nach Konfiguration auch "Fachbereich" und "Stufe". Weitere Filter wie "Thema", "Schlagworte", "Sprache" oder "Format" stehen zusätzlich zur Wahl. Die Filter entsprechen den Metadaten einer Frage, die die [Detailansicht einer Frage](Item_Detailed_View.de.md#metadata) beschreibt.
+Standardmässig zeigt OpenOlat unter anderem die Filter "Titel", "Autor:in", "Typ", "Testart", "Status" und "Max. Punkte", je nach Konfiguration auch "Fachbereich" und "Stufe". Weitere Filter wie "Thema", "Schlagworte", "Sprache" oder "Format" stehen zusätzlich zur Wahl. Die Filter entsprechen den Metadaten einer Frage, die die Seite [Fragenpool: Detailansicht einer Frage und Metadaten](Item_Detailed_View.de.md#metadata) beschreibt.
 
 [Zum Seitenanfang ^](#question_pool_search)
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)
+[Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)
 
 **Weiterführend**<br>
 [Fragenpool: Fragen verwenden >](Question_bank_possible_operations.de.md)<br>

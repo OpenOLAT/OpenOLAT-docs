@@ -124,7 +124,7 @@ Click on the "+" icon at the beginning of a row in the question list. The previe
 
 ![Highlighted plus icons and a row expanded with them, with the preview of the question and the metadata sections on the right, so you check a question without opening it](assets/question_bank_use_questions_metadata2_v1_en.png){ class="shadow lightbox" title="Expanded row in the question list · 2026.10.29" }
 
-Further information on the individual metadata can be found in the chapter [Item Detailed View - Metadata](Item_Detailed_View.md#metadata).
+Further information on the individual metadata can be found in the chapter [Question bank: Details of a question and metadata](Item_Detailed_View.md#metadata).
 
 [To the top of the page ^](#using_the_questions)
 
@@ -135,7 +135,7 @@ Further information on the individual metadata can be found in the chapter [Item
 [Creating Tests >](../learningresources/Test.md)<br>
 [Question Bank: Administration >](Question_Bank_Administration.md)<br>
 [Changing from QTI 1.2 to QTI 2.1 >](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md)<br>
-[Item Detailed View >](Item_Detailed_View.md)
+[Question bank: Details of a question and metadata >](Item_Detailed_View.md)
 
 **Further reading**<br>
 [Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>

@@ -74,7 +74,7 @@ Here you rate the question with the stars and add a comment. Especially if the r
 [e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
 [Create questions >](Question_Bank_Create_Questions.md)<br>
 [Import questions >](Question_Bank_Import_Questions.md)<br>
-[Item Detailed View >](Item_Detailed_View.md)<br>
+[Question bank: Details of a question and metadata >](Item_Detailed_View.md)<br>
 [Further possibilities to use questions >](Question_bank_possible_operations.md)<br>
 [Details about sharing >](Question_Pool_Sharing_Options.md)<br>
 [Instructions for creating the test >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)

@@ -144,7 +144,7 @@ Like question types, you translate levels into each language that is enabled in 
 [e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
-[Item Detailed View >](Item_Detailed_View.md)
+[Question bank: Details of a question and metadata >](Item_Detailed_View.md)
 
 **Further reading**<br>
 [Question Bank Review Process >](Question_Bank_Review_Process.md)<br>

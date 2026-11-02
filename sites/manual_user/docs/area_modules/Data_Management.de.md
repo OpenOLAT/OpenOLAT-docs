@@ -25,6 +25,6 @@ Wie Sie mit dem Button "Metadaten ändern" die Metadaten der ausgewählten Frage
 [Fragenpool: Fragen verwenden >](Question_bank_possible_operations.de.md)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
-[Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)
+[Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)
 
 [Zum Seitenanfang ^](#data_management)

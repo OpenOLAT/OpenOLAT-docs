@@ -124,7 +124,7 @@ Klicken Sie auf das "+"-Icon zu Beginn einer Zeile der Fragenliste. Es öffnen s
 
 ![Markierte Plus-Icons und eine damit aufgeklappte Zeile mit der Vorschau der Frage und rechts den Metadatenbereichen, so prüfen Sie eine Frage, ohne sie zu öffnen](assets/question_bank_use_questions_metadata2_v2_de.png){ class="shadow lightbox" title="Aufgeklappte Zeile in der Fragenliste · 2026.11.02" }
 
-Weitere Informationen zu den einzelnen Metadaten finden Sie im Kapitel [Detailansicht einer Frage - Metadaten](Item_Detailed_View.de.md#metadata).
+Weitere Informationen zu den einzelnen Metadaten finden Sie im Kapitel [Fragenpool: Detailansicht einer Frage und Metadaten](Item_Detailed_View.de.md#metadata).
 
 [Zum Seitenanfang ^](#using_the_questions)
 
@@ -135,7 +135,7 @@ Weitere Informationen zu den einzelnen Metadaten finden Sie im Kapitel [Detailan
 [Tests erstellen >](../learningresources/Test.de.md)<br>
 [Fragenpool: Administration >](Question_Bank_Administration.de.md)<br>
 [Von QTI 1.2 zu QTI 2.1 >](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.de.md)<br>
-[Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)
+[Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)
 
 **Weiterführend**<br>
 [Fragenpool: Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>

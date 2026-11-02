@@ -144,7 +144,7 @@ Wie Fragetypen übersetzen Sie auch Stufen in jede Sprache, die in Ihrer OpenOla
 [e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
-[Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)
+[Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)
 
 **Weiterführend**<br>
 [Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>

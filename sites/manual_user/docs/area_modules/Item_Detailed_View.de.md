@@ -1,24 +1,27 @@
-# Fragenpool: Detailansicht einer Frage {: #question_details}
+# Fragenpool: Detailansicht einer Frage und Metadaten {: #question_details}
 
-Wenn Sie eine Frage im Fragenpool auswählen, befinden Sie sich in ihrer Detailansicht und direkt im Editor der Frage.
-Sie können dort die Frage bearbeiten, sowie weitere Konfigurationen vornehmen, z.B. Metadaten zuordnen.
+Wenn Sie eine Frage im Fragenpool auswählen, öffnet sich ihre Detailansicht, und Sie arbeiten direkt im Editor der Frage. Dort bearbeiten Sie die Frage und ordnen ihr Metadaten zu: Angaben wie Fachbereich, Stufe oder Schlagworte, mit denen Sie Fragen später gezielt finden und automatisch auswählen lassen.
 
-![Detailansicht einer Frage mit Toolbar, dem Frage-Editor mit den Tabs Auswahl, Punkte, Feedback und Vorschau, rechts die eingeklappten Metadatenbereiche, unten Bewertung und Kommentare. Fragenpool.](assets/question_details_v1_de.png){ class="shadow lightbox" }
+![Detailansicht einer Frage: oben die Toolbar, links der Editor der Frage, rechts die eingeklappten Bereiche der Metadaten, unten Bewertung und Kommentare](assets/item_detailed_view_overview_v1_de.png){ class="shadow lightbox" title="Fragenpool, Detailansicht einer Frage · 2026.11.02" }
 
 
 ## Toolbar {: #toolbar}
 
-![Markierte Toolbar mit den Menüs Frage, Freigeben und Status Final, rechts die Navigation Vorherige und Nächste sowie der Schalter Metadaten. Detailansicht einer Frage.](assets/question_details_toolbar1_v1_de.png){ class="shadow lightbox" }
+![Toolbar mit den Menüs Frage, Freigeben und Status markiert, rechts Vorherige, Nächste und Metadaten, so sehen Sie, wo Sie die Frage kopieren, freigeben und ihren Status setzen](assets/item_detailed_view_toolbar_v1_de.png){ class="shadow lightbox" title="Fragenpool, Toolbar der Detailansicht einer Frage · 2026.11.02" }
 
-In der Toolbar können Sie über das Menü "**Frage**" die ausgewählte Frage kopieren oder löschen.
+In der Toolbar kopieren oder löschen Sie die Frage über das Menü "Frage".
 
-Unter "**Freigeben**" können Sie
+Über "Freigeben" können Sie
 
-* die Frage exportieren 
-* oder einem Pool 
-* oder einer Gruppe freigeben. 
+* die Frage exportieren
+* oder in einem Pool freigeben
+* oder in einer Gruppe freigeben.
 
-Auch der **Status** einer Frage kann definiert werden. So kann man schnell erkennen, ob es sich bei dieser Frage um einen Entwurf oder eine finale Frage handelt bzw. in welcher Stufe einer möglichen Revision sich die Frage befindet.
+Mit "Status" legen Sie fest, in welchem Stand die Frage ist. So sehen alle auf einen Blick, ob die Frage ein Entwurf ist, gerade überarbeitet wird oder fertig ist.
+
+Mit "Vorherige" und "Nächste" wechseln Sie zur vorherigen oder nächsten Frage der Liste, aus der Sie die Frage geöffnet haben. Die Zahl dazwischen zeigt, an welcher Stelle der Liste die Frage steht.
+
+Administrator:innen und Poolverwalter:innen sehen in der Toolbar zusätzlich "Log". Damit laden sie eine Excel-Datei herunter, die jede Änderung an der Frage mit "Datum", "Aktion" und "Geändert durch" auflistet.
 
 
 [Zum Seitenanfang ^](#question_details)
@@ -26,7 +29,7 @@ Auch der **Status** einer Frage kann definiert werden. So kann man schnell erken
 
 ## Editor
 
-Für die Erstellung und Bearbeitung der Fragen im Fragenpool wird der gleiche Editor verwendet, wie bei der Erstellung von Fragen in einer Test-Lernressource.
+Im Fragenpool erstellen und bearbeiten Sie Fragen mit demselben Editor wie in einer Test-Lernressource.
 
 [Zu den Details des Frage-Editors >](../learningresources/Configure_test_questions.de.md)<br>
 [Zum Seitenanfang ^](#question_details)
@@ -34,16 +37,18 @@ Für die Erstellung und Bearbeitung der Fragen im Fragenpool wird der gleiche Ed
 
 ## Metadaten {: #metadata}
 
-Im Fragenpool besteht eine Frage, respektive ein Item, nicht nur aus der Frage selbst. Zusätzlich können noch weitere Informationen über die Frage, sogenannte Metainformationen oder auch Metadaten, vorhanden sein. Sie beschreiben ein Frage-Item genauer und ermöglichen und vereinfachen Autor:innen die Auswahl und Zusammenstellung von Fragen zu einem Test. Der Grossteil der Metadaten wird von den Autor:innen erfasst.
-Insgesamt stehen im Fragenpool mehr als 20 Metadatenfelder gemäss den [Learning Objects Metadata](http://de.wikipedia.org/wiki/Learning_Objects_Metadata "Learning Objects Metadata") zur Beschreibung zur Verfügung. 
+Eine Frage im Fragenpool besteht nicht nur aus der Frage selbst. Dazu kommen beschreibende Angaben, die Metadaten. Mit ihnen finden Autor:innen Fragen für einen Test und stellen sie zusammen. Den grössten Teil der Metadaten erfassen die Autor:innen selbst.
+Insgesamt bietet der Fragenpool mehr als 20 Metadatenfelder nach dem Standard [Learning Objects Metadata](http://de.wikipedia.org/wiki/Learning_Objects_Metadata "Learning Objects Metadata").
 
-Die Metadaten können in der Detailansicht durch einen Toggle-Button rechts oben angezeigt werden.
+Die Suchfilter des Fragenpools und der Kursbaustein "Übung" wählen Fragen anhand ihrer Metadaten aus. Welche Angaben dafür zählen und wie Sie sie pflegen, zeigt die Anleitung [Nutzen von Metadaten](../../manual_how-to/question_metadata/question_metadata.de.md).
 
-![Schalter Metadaten rechts oben markiert, ein Pfeil zeigt auf die eingeblendeten Metadatenbereiche rechts neben dem Editor. Detailansicht einer Frage.](assets/question_details_metadata_v1_de.png){ class="shadow lightbox" }
+Die Metadaten blenden Sie mit dem Schalter "Metadaten" rechts oben in der Toolbar ein und aus.
+
+![Schalter Metadaten rechts oben und die eingeblendeten Bereiche der Metadaten neben dem Editor markiert, so sehen Sie, wo Sie die Metadaten ein- und ausblenden](assets/item_detailed_view_metadata_v1_de.png){ class="shadow lightbox" title="Fragenpool, Detailansicht einer Frage mit eingeblendeten Metadaten · 2026.11.02" }
 
 !!! info "Wichtig"
 
-    Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert, wird zusätzlich die Option ["Bewertungen"](#metadata_ratings) angezeigt.
+    Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) eingeschaltet, erscheint zusätzlich der Bereich ["Bewertungen"](#metadata_ratings).
 
 
 
@@ -52,35 +57,35 @@ Die Metadaten können in der Detailansicht durch einen Toggle-Button rechts oben
 
 ### Metadaten bearbeiten {: #metadata_edit}
 
-Sofern der Beurteilungsprozess aktiviert ist, können die Metadaten im Status "Draft" und "In Revision" bearbeitet werden. Benutzer:innen mit "Verwalten"-Recht, Poolverwalter:innen oder Systemadministrator:innen können die Metadaten zudem im Status "Review" und "Final" bearbeiten.
+Ist der Beurteilungsprozess eingeschaltet, bearbeiten Sie die Metadaten in den Status "Draft" und "Revision". Benutzer:innen mit "Verwalten"-Recht, Poolverwalter:innen und Systemadministrator:innen bearbeiten die Metadaten zusätzlich in den Status "Review" und "Final".
 
-Bearbeitbar sind die Metadaten unter den Punkten **Allgemein**, **Itemanalyse**, **Rechte** und **Technik**. Bitte beachten Sie jedoch, dass insbesondere Änderungen unter Itemanalyse nur mit diesbezüglichen Vorkenntnissen vorgenommen werden sollten.
-Die Eingaben müssen anschliessend noch mit "OK" gespeichert werden.
+Bearbeiten lassen sich die Bereiche "Allgemein", "Itemanalyse", "Rechte" und "Technik". Ändern Sie Werte im Bereich "Itemanalyse" nur, wenn Sie mit der Itemanalyse vertraut sind.
+Speichern Sie Ihre Eingaben anschliessend mit "OK".
 
 [Zum Seitenanfang ^](#question_details)
 
 
 ### Allgemein {: #metadata_general}
 
-![Aufgeklappter Bereich Allgemein mit den Feldern Thema, Fachbereich mit Taxonomiepfad, Stufe, Schlagworte, Zusatzinformationen, Abdeckung, Sprache und Testart. Metadaten einer Frage.](assets/question_details_general_v1_de.png){ class="aside-right lightbox"}
+![Bereich Allgemein mit ausgefüllten Angaben, darunter Fachbereich, Stufe, Schlagworte, Sprache und Testart, die als Suchfilter und als Kriterien der Übung dienen](assets/item_detailed_view_general_v1_de.png){ class="aside-right lightbox" title="Fragenpool, Metadaten einer Frage, Bereich Allgemein · 2026.11.02" }
 
-Dieser Einstellungsbereich enthält Informationen zur Kategorisierung der Frage. 
+Dieser Bereich ordnet die Frage inhaltlich ein. Die Angaben "Fachbereich", "Stufe", "Schlagworte", "Sprache" und "Testart" dienen zugleich als Suchfilter im Fragenpool und als Kriterien im Kursbaustein "Übung".
 
-Das **Thema** kann frei formuliert werden und sich am Inhalt der Frage orientieren.
+"Thema" formulieren Sie frei, passend zum Inhalt der Frage.
 
-Der **Fachbereich** bezieht sich auf die für den Fragenpool hinterlegte Taxonomie. Die angebotene Auswahl sollte die Bereiche Ihrer Institution abdecken. Sie können hier aus denjenigen Fachbereichen auswählen, die Ihnen zugeordnet worden sind. Nehmen Sie deshalb Kontakt mit Ihrer Poolverwalter:in oder Administrator:in auf, falls Fachbereiche fehlen.
+"Fachbereich" bezieht sich auf die Taxonomie des Fragenpools. Die Auswahl sollte die Bereiche Ihrer Organisation abdecken. Sie wählen aus den Fachbereichen, die Ihnen zugeordnet sind. Fehlen Fachbereiche, wenden Sie sich an Ihre Poolverwalter:in oder Administrator:in.
 
-Unter "**Stufe**" kann beispielsweise eine Schul- oder Hochschulstufe ausgewählt werden. Hier bieten sich auch Kompetenzstufen oder Schwierigkeitsgrade an. Auch diese werden zuvor durch die Poolverwalter:innen definiert.
+Unter "Stufe" wählen Sie zum Beispiel eine Schul- oder Hochschulstufe. Ebenso eignen sich Kompetenzstufen oder Schwierigkeitsgrade. Auch die Stufen legen die Poolverwalter:innen vorher fest.
 
-**Schlagworte** können frei vergeben werden. Sie sind im Unterschied zum Fachbereich nicht an eine Taxonomie gekoppelt.
+"Schlagworte" vergeben Sie frei. Anders als der Fachbereich hängen sie an keiner Taxonomie.
 
-Unter **Zusatzinformationen** können weitere Metadaten eingegeben werden. 
+Unter "Zusatzinformationen" tragen Sie weitere Angaben zur Frage ein.
 
-**Abdeckung** beschreibt das Themengebiet und grenzt dieses zusammen mit den Schlagworten ein.
+"Abdeckung" beschreibt das Themengebiet und grenzt es zusammen mit den Schlagworten ein.
 
-Bei der **Sprache** wird standardmässig Ihre OpenOlat-Sprache eingetragen.
+Bei "Sprache" trägt OpenOlat beim Erstellen einer Frage das Kürzel Ihrer OpenOlat-Sprache ein, zum Beispiel "de".
 
-Bei der **Testart** können Sie auswählen, ob die Frage für einen summativen (bewertenden) oder formativen (diagnostischen) Test oder für beide Varianten gedacht ist. 
+Bei "Testart" wählen Sie, ob die Frage für einen summativen (bewertenden) oder formativen (diagnostischen) Test gedacht ist oder für beide.
 
 
 [Zum Seitenanfang ^](#question_details)
@@ -88,30 +93,30 @@ Bei der **Testart** können Sie auswählen, ob die Frage für einen summativen (
 
 ### Itemanalyse {: #metadata_item_analysis}
 
-![Aufgeklappter Bereich Itemanalyse mit Typ, Bearbeitungszeit, Itemschwierigkeit, Standardabweichung, Trennschärfe, Distraktoren, Verwendung in Tests und Korrekturzeit. Metadaten einer Frage.](assets/question_details_item_analysis_v1_de.png){ class="aside-right lightbox"}
+![Bereich Itemanalyse mit Typ, Max. Punkte, Bearbeitungszeit, Itemschwierigkeit, Standardabweichung, Trennschärfe, Distraktoren und Korrekturzeit, so sehen Sie, welche Kennwerte Sie erfassen](assets/item_detailed_view_item_analysis_v1_de.png){ width="336" class="aside-right lightbox" title="Fragenpool, Metadaten einer Frage, Bereich Itemanalyse · 2026.11.02" }
 
-Enthält Informationen zur Itemanalyse und der Verwendung in Tests. 
+Dieser Bereich enthält Angaben zur Itemanalyse und zur Verwendung der Frage in Tests. "Typ" zeigt den Fragetyp, zum Beispiel Single Choice. "Max. Punkte" zeigt die höchste Punktzahl, die in der Frage erreichbar ist.
 
-Die Itemanalyse ist ein Satz an (statistischen) Verfahren, mit dem einzelne Fragen im Hinblick auf ihre Eignung zur Wissensmessung respektive Wissensabfrage des Untersuchungszieles bewertet und beurteilt werden. Typische Kennwerte sind die Itemschwierigkeit und die Trennschärfe.
+Die Itemanalyse ist ein Satz (statistischer) Verfahren. Sie bewertet einzelne Fragen danach, wie gut sie das Wissen messen, das ein Test abfragen soll. Typische Kennwerte sind die Itemschwierigkeit und die Trennschärfe.
 
-Geben Sie an, von welcher _**durchschnittlichen Bearbeitungszeit**_ Sie für die Bearbeitung der Frage ausgehen. So können Sie später Tests für eine bestimmten Bearbeitungsdauer leichter zusammenstellen.
+Unter "Durchschnittliche Bearbeitungszeit" geben Sie an, wie lange die Bearbeitung der Frage voraussichtlich dauert. So stellen Sie später leichter Tests für eine bestimmte Bearbeitungsdauer zusammen.
 
-Die  _**Itemschwierigkeit**_  drückt mit einem Wert zwischen 0 und 1 aus, wie schwer eine Frage zu beantworten ist und gibt damit an, wieviele Personen einer Kandidatengruppe die Frage korrekt lösen im Verhältnis zur maximal erreichbaren Punktzahl. Zweck des Schwierigkeitsindexes ist die Unterscheidung von Personen mit hoher Merkmalsausprägung und Personen mit niedriger Merkmalsausprägung. Unbrauchbar sind demzufolge alle Items, die von allen Personen, bzw. Items, die von keiner Person gelöst werden konnten oder bejaht wurden (Index-Wert nahe 1 bzw. 0). Items mit Werten nahe 1 sind zu einfach und unterscheiden nicht zwischen den Leistungen von Personen und Items mit Werten nahe 0 sind zu schwierig. Beachten Sie, dass bei einer Multiple Choice Frage mit 5 Antwortalternativen (4 Distraktoren) die Ratewahrscheinlichkeit bereits 20% beträgt. Für eine gute Leistungsdifferenzierung eignen sich Items im Bereich 0.4-0.9 oder 40-90%.
+Die "Itemschwierigkeit" drückt mit einem Wert zwischen 0 und 1 aus, wie schwer eine Frage zu beantworten ist. Sie gibt an, wie viele Personen einer Kandidatengruppe die Frage korrekt lösen, im Verhältnis zur maximal erreichbaren Punktzahl. Der Schwierigkeitsindex soll Personen mit hoher Merkmalsausprägung von Personen mit niedriger Merkmalsausprägung unterscheiden. Unbrauchbar sind deshalb Items, die alle Personen oder keine Person lösen konnten (Indexwert nahe 1 bzw. 0). Items mit Werten nahe 1 sind zu einfach und unterscheiden nicht zwischen den Leistungen der Personen, Items mit Werten nahe 0 sind zu schwierig. Beachten Sie, dass bei einer Multiple Choice Frage mit 5 Antwortalternativen (4 Distraktoren) die Ratewahrscheinlichkeit bereits 20% beträgt. Für eine gute Leistungsdifferenzierung eignen sich Items im Bereich 0.4-0.9 oder 40-90%.
 
-Die  _**Standardabweichung**_  (der Itemschwierigkeit) gibt mit einem Index- Wert zwischen 0 und 1 an, wie stark sich die Antworten auf eine Frage zwischen mehreren Personen unterscheiden, wie hoch die Antworten um den Mittelwert streuen (Schwankungsbreite). Eine Standardabweichung umfasst etwas mehr als 68% aller Werte um den Mittelwert, zwei Standardabweichungen umfassen knapp 95.5% aller Werte in der Werteverteilung. Je kleiner die Standardabweichung ist, desto "stabiler" ist die Itemschwierigkeit über eine oder auch mehrere Testkandidatenpopulationen, je grösser, desto "instabiler" ist sie. Items mit einer hohen Standardabweichung sind demzufolge mit etwas Vorsicht auszuwählen.
+Die "Standardabweichung Itemschwierigkeit" gibt mit einem Indexwert zwischen 0 und 1 an, wie stark sich die Antworten auf eine Frage zwischen mehreren Personen unterscheiden, also wie weit die Antworten um den Mittelwert streuen (Schwankungsbreite). Eine Standardabweichung umfasst etwas mehr als 68% aller Werte um den Mittelwert, zwei Standardabweichungen umfassen knapp 95.5% aller Werte der Verteilung. Je kleiner die Standardabweichung ist, desto "stabiler" ist die Itemschwierigkeit über eine oder mehrere Gruppen von Testkandidat:innen, je grösser, desto "instabiler". Wählen Sie Items mit einer hohen Standardabweichung deshalb mit etwas Vorsicht aus.
 
-Die  _**Trennschärfe**_  gibt mit einem Wert zwischen -1 und +1 die Fähigkeit eines Items an, Kandidaten mit guter und schlechter Leistung in der Gesamtprüfung zu trennen. Sie gibt an, ob eine Frage etwas Ähnliches abfragt wie der übrige Test. Die Trennschärfe ist daher der wichtigste Kennwert in der Itemselektion. Sie wird berechnet als Korrelationskoeffizient zwischen der erreichten Punktzahl in diesem Item und der Gesamtpunktzahl in der Prüfung ohne dieses Item. Für eine gute Leistungsdifferenzierung sind Items mit klar positiver Trennschärfe erforderlich, wenn möglich grösser oder gleich 0.2, sicher aber grösser als 0.1. Items mit Trennschärfen um 0 tragen nichts zur Differenzierung bei, solche mit negativer Trennschärfe laufen sogar dem Differenzierungsziel entgegen und sollten in Folgetests nicht mehr verwendet werden.
+Die "Trennschärfe" gibt mit einem Wert zwischen -1 und +1 an, wie gut ein Item Kandidat:innen mit guter und schlechter Leistung in der Gesamtprüfung trennt. Sie zeigt, ob eine Frage etwas Ähnliches abfragt wie der übrige Test. Die Trennschärfe ist deshalb der wichtigste Kennwert bei der Auswahl von Items. Sie wird berechnet als Korrelationskoeffizient zwischen der erreichten Punktzahl in diesem Item und der Gesamtpunktzahl der Prüfung ohne dieses Item. Für eine gute Leistungsdifferenzierung braucht es Items mit klar positiver Trennschärfe, wenn möglich grösser oder gleich 0.2, sicher aber grösser als 0.1. Items mit einer Trennschärfe um 0 tragen nichts zur Differenzierung bei. Items mit negativer Trennschärfe laufen dem Differenzierungsziel sogar entgegen und sollten in Folgetests nicht mehr vorkommen.
 
-Weiterhin können hier Angaben zu den _**Distraktoren**_ gemacht werden, also wieviele Antwortalternativen zur Verfügung stehen. 
+Unter "Anzahl Distraktoren" geben Sie an, wie viele falsche Antwortalternativen die Frage anbietet.
 
-Ob das Item bereits **in einem Test verwendet** wird, wird vom System automatisch festgelegt. Sie finden hier die genaue Anzahl. Bei Einbindung in einen Test wird sie automatisch erhöht.
+"Verwendung in Tests" setzt OpenOlat selbst: Das Feld zeigt, in wie vielen Tests die Frage eingebunden ist, und zählt bei jeder neuen Einbindung hoch.
 
-Auch die voraussichtliche **Korrekturzeit für eine manuelle Bewertung** kann dem Item zugeordnet werden.
+Unter "Benötigte manuelle Korrekturzeit (Minuten)" tragen Sie ein, wie lange die manuelle Bewertung der Frage voraussichtlich dauert.
 
 
-In der Teststatistik eines Tests wird für jedes Frageitem eine Itemanalyse durchgeführt und ausgegeben. Die Daten können anschliessend manuell von der Teststatistik in die Metadaten des Frageitems übertragen werden.
+Die Teststatistik eines Tests führt für jede Frage eine Itemanalyse durch und zeigt das Ergebnis an. Diese Werte übertragen Sie bei Bedarf von Hand aus der Teststatistik in die Metadaten der Frage.
 
-Alle anderen Parameter werden _nicht_ von OpenOlat berechnet. Wenn Daten dazu vorliegen (z.B. aus anderen Systemen oder nach manueller Berechnung) können diese _manuell_ am Frageitem eingetragen werden.
+Alle anderen Kennwerte berechnet OpenOlat _nicht_. Liegen Daten dazu vor, etwa aus anderen Systemen oder aus einer eigenen Berechnung, tragen Sie sie _von Hand_ an der Frage ein.
 
 [Zum Seitenanfang ^](#question_details)
 
@@ -119,13 +124,13 @@ Alle anderen Parameter werden _nicht_ von OpenOlat berechnet. Wenn Daten dazu vo
 
 ### Rechte {: #metadata_rights}
 
-![Aufgeklappter Bereich Rechte mit Autor:innen, Lizenz CC BY-NC-SA, Lizenzgeber und dem Link zum Lizenztext. Metadaten einer Frage.](assets/question_details_rights_v1_de.png){ class="aside-right lightbox"}
+![Aufgeklappter Bereich Rechte mit Autor:innen, Lizenz CC BY-SA, Lizenzgeber und dem Link zum Lizenztext, so sehen Sie, wo Sie Autor:innen und Lizenz einer Frage festlegen](assets/item_detailed_view_rights_v1_de.png){ width="336" class="aside-right lightbox" title="Fragenpool, Metadaten einer Frage, Bereich Rechte · 2026.11.02" }
 
-Dieser Abschnitt enthält Informationen über den Urheber bzw. den Verfasser des Frageitems. Alle Personen, welche die Frage erstellt oder editiert haben, werden als Autor:innen aufgelistet. Die Autor:innen können zudem manuell hinzugefügt oder entfernt werden. Der Urheber kann nur manuell hinzugefügt oder entfernt werden.
+Dieser Bereich enthält Angaben zu den Autor:innen und zur Lizenz der Frage. Alle Personen, die die Frage erstellt oder bearbeitet haben, stehen unter "Autor:innen". Mit "Bearbeiten" fügen Sie weitere Autor:innen hinzu oder entfernen sie.
 
-Weiter kann das Copyright definiert werden. Standardmässig stehen Creative Commons Lizenzen zur Auswahl. Informationen zu Creative Commons finden Sie in der [Wikipedia](http://de.wikipedia.org/wiki/Creative_Commons "Wikipedia") und unter [www.creativecommons.org](http://www.creativecommons.org/ "www.creativecommons.org"). Werden weitere zusätzliche Lizenzen benötigt, können diese von Systemadministrator:innen erstellt werden.
+Weiter legen Sie die Lizenz fest. Standardmässig stehen Creative-Commons-Lizenzen zur Auswahl. Informationen zu Creative Commons finden Sie in der [Wikipedia](http://de.wikipedia.org/wiki/Creative_Commons "Wikipedia") und unter [www.creativecommons.org](http://www.creativecommons.org/ "www.creativecommons.org"). Weitere Lizenzen erstellen Systemadministrator:innen in der System-Administration unter `Administration > Core-Konfiguration > Lizenzen`.
 
-Sowohl Lizenzgeber als auch Lizenz können manuell hinzugefügt werden und haben keine weiteren Auswirkungen. Ist eine initiale Lizenz bzw. ein initialer Lizenzgeber für den Fragenpool in der Administration konfiguriert, so werden diese automatisch beim Anlegen einer neuen Frage eingetragen. Sobald jemand die Rechte zur Bearbeitung eines Frageitems hat, kann diese Person aber die Lizenz und den Lizenzgeber anpassen.
+"Lizenzgeber" und "Lizenz" tragen Sie von Hand ein, sie haben keine weitere Wirkung. Sind in der System-Administration unter `Administration > Core-Konfiguration > Lizenzen` für den Fragenpool eine "Initiale Lizenz" und ein "Initialer Lizenzgeber" festgelegt, trägt OpenOlat sie beim Anlegen einer neuen Frage automatisch ein. Wer die Frage bearbeiten darf, kann Lizenz und Lizenzgeber danach anpassen.
 
 [Zum Seitenanfang ^](#question_details)
 
@@ -135,11 +140,11 @@ Sowohl Lizenzgeber als auch Lizenz können manuell hinzugefügt werden und haben
 
 ![Aufgeklappter Bereich Technik mit ID, Master ID, Editor, Editor Version, Format, Erstellt, Letzte Änderung, dem editierbaren Feld Version und Letzte Änderung Status. Metadaten einer Frage.](assets/question_details_technical_v1_de.png){ class="aside-right lightbox"}
 
-Unter "Technik" finden Sie Informationen zum **Editor**, in der die Frage erstellt wurde, sowie dessen **Version**. Das **Format** gibt an, welches technische Format die Frage hat. **Erstellt** und **letzte Änderung** geben an, wann die Frage erstellt bzw. importiert wurde und ob z.B. anschliessend noch Änderungen daran vorgenommen wurden.
+Unter "Technik" sehen Sie den "Editor", in dem die Frage erstellt wurde, und dessen "Editor Version". "Format" gibt an, welches technische Format die Frage hat. "Erstellt" und "Letzte Änderung" zeigen, wann die Frage erstellt oder importiert wurde und wann sie zuletzt geändert wurde.
 
-Sofern der Beurteilungsprozess aktiviert ist, wird die Version automatisch erstellt. Jedes Mal, wenn eine Frage in die Beurteilung und somit in den Status Review gegeben wird, wird die Version um einen Zähler erhöht. Ist der Beurteilungsprozess nicht aktiviert, kann die Version manuell eingetragen und angepasst werden.
+Ist der Beurteilungsprozess eingeschaltet, setzt OpenOlat die "Version" selbst. Jedes Mal, wenn eine Frage in die Beurteilung und damit in den Status "Review" geht, zählt die Version um eins hoch. Ist der Beurteilungsprozess ausgeschaltet, tragen Sie die Version von Hand ein und passen sie an.
 
-Alle anderen Attribute im Bereich Technik können nicht bearbeitet werden.
+Alle anderen Angaben im Bereich "Technik" lassen sich nicht bearbeiten.
 
 
 [Zum Seitenanfang ^](#question_details)
@@ -149,9 +154,9 @@ Alle anderen Attribute im Bereich Technik können nicht bearbeitet werden.
 
 ![Aufgeklappter Bereich Bewertungen mit einem Eintrag, bestehend aus Datum und einer Bewertung mit fünf Sternen. Metadaten einer Frage.](assets/question_details_ratings_v1_de.png){ class="aside-right lightbox"}
 
-Sofern der Beurteilungsprozess aktiviert ist, werden in diesem Abschnitt die Bewertungen der Frage im Zusammenhang mit dem Beurteilungsprozess angezeigt. Diese Bewertungen aus dem Beurteilungsprozess werden zusätzlich noch bei den [Kommentaren und Bewertungen](#comments) durch andere Personen am unteren Rand des Bildschirms angezeigt.
+Ist der Beurteilungsprozess eingeschaltet, zeigt dieser Bereich die Bewertungen der Frage aus dem Beurteilungsprozess. Dieselben Bewertungen erscheinen zusätzlich bei den [Kommentaren und Bewertungen](#comments) anderer Personen am unteren Rand der Detailansicht.
 
-Ist der Beurteilungsprozess nicht aktiviert, fehlt das Dropdown "Bewertungen" in den Metadaten.
+Ist der Beurteilungsprozess ausgeschaltet, fehlt der Bereich "Bewertungen" in den Metadaten.
 
 
 [Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
@@ -162,7 +167,7 @@ Ist der Beurteilungsprozess nicht aktiviert, fehlt das Dropdown "Bewertungen" in
 
 ### Pool {: #metadata_pool}
 
-Listet die Pools in welchen das Frageitem freigegeben wurde.
+Der Bereich "Pool" listet die Pools, in denen die Frage freigegeben ist.
 
 [Zum Seitenanfang ^](#question_details)
 
@@ -170,24 +175,24 @@ Listet die Pools in welchen das Frageitem freigegeben wurde.
 
 ### Gruppen {: #metadata_groups}
 
-Listet die Gruppen in welchen das Frageitem freigegeben wurde.
+Der Bereich "Gruppen" listet die Gruppen, in denen die Frage freigegeben ist.
 
 
 [Zum Seitenanfang ^](#question_details)
 
 
-!!! warning "Achtung"
+!!! note "Hinweis"
 
-    Wenn ein Frageitem aus einem Test im Standard QTI 2.1 in den Fragenpool importiert wird, verliert es alle Metadaten.
+    Wenn Sie Fragen aus einem Test im Standard QTI 2.1 in den Fragenpool importieren, übernimmt OpenOlat die Metadaten, die der Test zu jeder Frage gespeichert hat. Stammen die Fragen des Tests aus dem Fragenpool, behalten sie so unter anderem Thema, Fachbereich, Stufe, Schlagworte, Testart, die Werte der Itemanalyse und die Lizenz. Die "Sprache" übernimmt OpenOlat nicht: Nach dem Import steht dort das Kürzel der OpenOlat-Sprache der Person, die importiert hat.
 
 
 ## Kommentare {: #comments}
 
-![Bewertung der anderen mit fünf leeren Sternen und dem Durchschnitt 0.0 von 5, darunter 0 Kommentare und das Eingabefeld für einen Kommentar. Unterer Rand der Detailansicht einer Frage.](assets/question_details_comment_v1_de.png){ class="shadow lightbox" }
+![Bewertung der anderen mit 4.0 von 5 Sternen aus einer Bewertung, darunter ein Kommentar und das Eingabefeld für weitere Kommentare](assets/item_detailed_view_comments_v1_de.png){ class="shadow lightbox" title="Fragenpool, Detailansicht einer Frage, unterer Rand · 2026.11.02" }
 
-Die Kommentare und Bewertungen (Sterne), die hier am unteren Rand der Detailansicht zu einer Frage eingegeben werden, stammen von Autor:innen und Personen, die zur Administration Zugriff auf diese Frage haben. Jede Person mit Zugriff kann hier einen Kommentar abgeben. 
+Die Kommentare und Bewertungen (Sterne) am unteren Rand der Detailansicht stammen von Autor:innen und von Personen, die die Frage verwalten dürfen. Jede Person mit Zugriff auf die Frage kann hier einen Kommentar abgeben.
 
-Die Bewertungen im Zusammenhang mit einem Beurteilungsprozess (siehe Metadaten) werden zusätzlich darunter angezeigt.
+Die Bewertungen aus einem Beurteilungsprozess (siehe Metadaten) erscheinen zusätzlich darunter.
 
 [Zum Seitenanfang ^](#question_details)
 
@@ -195,17 +200,18 @@ Die Bewertungen im Zusammenhang mit einem Beurteilungsprozess (siehe Metadaten) 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Test Fragen konfigurieren >](../learningresources/Configure_test_questions.de.md)<br>
+[Testfragen konfigurieren >](../learningresources/Configure_test_questions.de.md)<br>
 [Learning Objects Metadata (Wikipedia) >](http://de.wikipedia.org/wiki/Learning_Objects_Metadata)<br>
-[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[Nutzen von Metadaten >](../../manual_how-to/question_metadata/question_metadata.de.md)<br>
+[Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Creative Commons (Wikipedia) >](http://de.wikipedia.org/wiki/Creative_Commons)<br>
 [www.creativecommons.org >](http://www.creativecommons.org/)<br>
 [e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)
 
 **Weiterführend**<br>
-[Frage erstellen >](Question_Bank_Create_Questions.de.md)<br>
-[Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
-[Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
-[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+[Fragenpool: Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
+[Fragenpool: Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
+[Fragenpool: Freigabemöglichkeiten >](Question_Pool_Sharing_Options.de.md)<br>
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 [Zum Seitenanfang ^](#question_details)

@@ -74,7 +74,7 @@ Hier bewerten Sie die Frage mit den Sternen und fügen einen Kommentar hinzu. Vo
 [e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
 [Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
 [Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
-[Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
+[Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)<br>
 [Weitere Möglichkeiten zur Verwendung der Fragen >](Question_bank_possible_operations.de.md)<br>
 [Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
 [Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)

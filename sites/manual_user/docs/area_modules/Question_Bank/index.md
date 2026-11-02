@@ -23,7 +23,7 @@ Available since | Release 9.0 (OO-533)
 
     * [Create questions](../Question_Bank_Create_Questions.md)
     * [Import questions](../Question_Bank_Import_Questions.md)
-    * [Item Detailed View](../Item_Detailed_View.md)
+    * [Details of a question and metadata](../Item_Detailed_View.md)
     * [Use questions](../Question_bank_possible_operations.md)
     * [Search in the question bank](../Question_Pool_Search.md)
     * [Sharing options in the question bank](../Question_Pool_Sharing_Options.md)

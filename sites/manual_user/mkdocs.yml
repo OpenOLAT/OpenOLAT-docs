@@ -141,7 +141,7 @@ nav:
       - Questions:
         - Create: "area_modules/Question_Bank_Create_Questions.md"
         - Import: "area_modules/Question_Bank_Import_Questions.md"
-        - Detailed view: "area_modules/Item_Detailed_View.md"
+        - Details and metadata: "area_modules/Item_Detailed_View.md"
         - Use: "area_modules/Question_bank_possible_operations.md"
       - Search: "area_modules/Question_Pool_Search.md"
       - Review Process: "area_modules/Question_Bank_Review_Process.md"

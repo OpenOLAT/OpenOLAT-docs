@@ -102,7 +102,7 @@ The "Technical" section shows further information.
 
 [Test question types >](Test_question_types.md)<br>
 [Configure tests >](Configure_tests.md)<br>
-[Item Detailed View >](../area_modules/Item_Detailed_View.md)<br>
+[Question bank: Details of a question and metadata >](../area_modules/Item_Detailed_View.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Test editor >](Test_editor_QTI_2.1.md)<br>
 [Creating Tests >](Test.md)<br>

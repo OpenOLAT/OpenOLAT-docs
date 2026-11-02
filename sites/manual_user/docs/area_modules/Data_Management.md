@@ -25,6 +25,6 @@ How you use the button "Change metadata" to adjust the metadata of the selected 
 [Question bank: Use questions >](Question_bank_possible_operations.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[Item Detailed View >](Item_Detailed_View.md)
+[Question bank: Details of a question and metadata >](Item_Detailed_View.md)
 
 [To the top of the page ^](#data_management)

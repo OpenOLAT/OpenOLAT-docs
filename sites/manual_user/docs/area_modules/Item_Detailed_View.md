@@ -1,24 +1,27 @@
-# Item Detailed View {: #question_details}
+# Question bank: Details of a question and metadata {: #question_details}
 
-When you select a question in the question bank, you are in its detailed view and directly in the question editor.
-You can edit the question there and make further configurations, e.g. assign metadata.
+When you select a question in the question bank, its detailed view opens and you work directly in the question editor. There you edit the question and assign metadata to it: entries such as subject, level or keywords, with which you later find questions specifically and have them selected automatically.
 
-![Detailed view of a question with toolbar, the question editor with the tabs Choice, Score, Feedback and Preview, on the right the collapsed metadata sections, below rating and comments. Question bank.](assets/question_details_v1_de.png){ class="shadow lightbox" }
+![Detailed view of a question: the toolbar at the top, the question editor on the left, the collapsed sections of the metadata on the right, rating and comments below](assets/item_detailed_view_overview_v1_en.png){ class="shadow lightbox" title="Question bank, detailed view of a question · 2026.11.02" }
 
 
 ## Toolbar {: #toolbar}
 
-![Marked toolbar with the menus Question, Share and status Final, on the right the navigation Previous and Next as well as the Metadata toggle. Detailed view of a question.](assets/question_details_toolbar1_v1_de.png){ class="shadow lightbox" }
+![Toolbar with the menus Question, Share and Status highlighted, on the right Previous, Next, Log and Metadata, so you see where you copy and share the question and set its status](assets/item_detailed_view_toolbar_v1_en.png){ class="shadow lightbox" title="Question bank, toolbar of the detailed view of a question · 2026.11.02" }
 
-In the toolbar, you can copy or delete the selected question via the "**Question**" menu.
+In the toolbar, you copy or delete the question via the "Question" menu.
 
-Under "**Share**" you can
+Via "Share" you can
 
 * export the question
 * or share it with a pool
 * or share it with a group.
 
-The **status** of a question can also be defined. This allows you to quickly see whether this question is a draft or a final question, or which stage of a possible revision the question is in.
+With "Status" you define the stage the question is in. This way everyone sees at a glance whether the question is a draft, is being revised or is finished.
+
+With "Previous" and "Next" you switch to the previous or next question of the list from which you opened the question. The number in between shows the position of the question in the list.
+
+Administrators and question bank managers also see "Log" in the toolbar. With it they download an Excel file that lists every change to the question with "Date", "Action" and "Changed by".
 
 
 [To the top of the page ^](#question_details)
@@ -26,7 +29,7 @@ The **status** of a question can also be defined. This allows you to quickly see
 
 ## Editor
 
-The same editor is used for creating and editing questions in the question bank as for creating questions in a test learning resource.
+In the question bank, you create and edit questions with the same editor as in a test learning resource.
 
 [To the details about the question editor >](../learningresources/Configure_test_questions.md)<br>
 [To the top of the page ^](#question_details)
@@ -34,16 +37,18 @@ The same editor is used for creating and editing questions in the question bank 
 
 ## Metadata {: #metadata}
 
-In the question bank, a question, or rather an item, does not only consist of the question itself. In addition, further information about the question, so-called meta information or metadata, can be available. They describe a question item more precisely and enable and simplify the selection and compilation of questions for a test for authors. The majority of the metadata is entered by the authors.
-All in all, more than 20 metadata fields according to the [Learning Objects Metadata](http://en.wikipedia.org/wiki/Learning_object_metadata "Learning Objects Metadata") are available for description in the question bank. 
+A question in the question bank does not only consist of the question itself. It also carries describing entries, the metadata. With them, authors find questions for a test and put them together. Authors enter most of the metadata themselves.
+All in all, the question bank offers more than 20 metadata fields according to the standard [Learning Objects Metadata](http://en.wikipedia.org/wiki/Learning_object_metadata "Learning Objects Metadata").
 
-The metadata can be displayed in the detailed view using a toggle button at the top right.
+The search filters of the question bank and the course element "Practice" select questions by their metadata. The instructions [Benefits of metadata](../../manual_how-to/question_metadata/question_metadata.md) show which entries count and how you maintain them.
 
-![Metadata toggle at the top right marked, an arrow points to the displayed metadata sections to the right of the editor. Detailed view of a question.](assets/question_details_metadata_v1_de.png){ class="shadow lightbox" }
+You show and hide the metadata with the "Metadata" toggle at the top right of the toolbar.
+
+![Metadata toggle at the top right and the displayed sections of the metadata next to the editor highlighted, so you see where you show and hide the metadata](assets/item_detailed_view_metadata_v1_en.png){ class="shadow lightbox" title="Question bank, detailed view of a question with displayed metadata · 2026.11.02" }
 
 !!! info "Important"
 
-    If the [review process](Question_Bank_Review_Process.md) is activated, the option ["Ratings"](#metadata_ratings) is also displayed.
+    If the [review process](Question_Bank_Review_Process.md) is switched on, the section ["Ratings"](#metadata_ratings) also appears.
 
 
 
@@ -52,35 +57,35 @@ The metadata can be displayed in the detailed view using a toggle button at the 
 
 ### Edit metadata {: #metadata_edit}
 
-If the review process is activated, the metadata can be edited in the "Draft" and "In revision" status. Users with "Manage" rights, question bank managers or system administrators can also edit the metadata in the "Review" and "Final" status.
+If the review process is switched on, you edit the metadata in the status "Draft" and "Revision". Users with "Manage" rights, question bank managers and system administrators can also edit the metadata in the status "Review" and "Final".
 
-The metadata can be edited under **General**, **Item analysis**, **Rights** and **Technical**. Please note, however, that changes under Item analysis in particular should only be made with prior knowledge in this area.
-The entries must then be saved with "OK".
+The sections "General", "Item analysis", "Rights" and "Technical" can be edited. Only change values in the "Item analysis" section if you are familiar with item analysis.
+Then save your entries with "OK".
 
 [To the top of the page ^](#question_details)
 
 
 ### General {: #metadata_general}
 
-![Expanded section General with the fields Topic, Subject with taxonomy path, Level, Keywords, Additional information, Coverage, Language and Assessment type. Metadata of a question.](assets/question_details_general_v1_de.png){ class="aside-right lightbox"}
+![Section General with filled-in entries, among them Subject, Level, Keywords, Language and Test type, which serve as search filters and as criteria of the practice](assets/item_detailed_view_general_v1_en.png){ class="aside-right lightbox" title="Question bank, metadata of a question, section General · 2026.11.02" }
 
-This settings area contains information on the categorization of the question. 
+This section classifies the content of the question. The entries "Subject", "Level", "Keywords", "Language" and "Test type" also serve as search filters in the question bank and as criteria in the course element "Practice".
 
-The **topic** can be freely formulated and based on the content of the question.
+You formulate the "Topic" freely, matching the content of the question.
 
-The **subject** refers to the taxonomy stored for the question bank. The offered selection should cover the areas of your institution. Here you can select from the subject areas that have been assigned to you. Contact your question bank manager or administrator if subject areas are missing.
+"Subject" refers to the taxonomy of the question bank. The selection should cover the areas of your organization. You select from the subjects that have been assigned to you. If subjects are missing, contact your question bank manager or administrator.
 
-Under "**Level**", for example, a school or university level can be selected. Competence levels or difficulty levels can also be selected here. These have also been defined beforehand by the question bank managers.
+Under "Level" you select, for example, a school or university level. Competence levels or difficulty levels are also suitable. The question bank managers also define the levels beforehand.
 
-**Keywords** can be freely assigned. In contrast to the subject, they are not linked to a taxonomy.
+You assign "Keywords" freely. In contrast to the subject, they are not linked to a taxonomy.
 
-Further metadata can be entered under **Additional information**. 
+Under "Add. information" you enter further details about the question.
 
-**Coverage** describes the subject area and narrows it down together with the keywords.
+"Coverage" describes the subject area and narrows it down together with the keywords.
 
-Your OpenOlat language is entered by default in **Language**.
+For "Language", OpenOlat enters the code of your OpenOlat language when a question is created, for example "en".
 
-Under **Assessment type** you can select whether the question is intended for a summative (evaluative) or formative (diagnostic) test or for both variants. 
+For "Test type" you select whether the question is intended for a summative (evaluative) or formative (diagnostic) test or for both.
 
 
 [To the top of the page ^](#question_details)
@@ -88,30 +93,30 @@ Under **Assessment type** you can select whether the question is intended for a 
 
 ### Item analysis {: #metadata_item_analysis}
 
-![Expanded section Item analysis with type, processing time, difficulty index, standard deviation, discrimination index, distractors, usage in tests and correction time. Metadata of a question.](assets/question_details_item_analysis_v1_de.png){ class="aside-right lightbox"}
+![Section Item analysis with type, max. score, learning time, difficulty index, standard deviation, discrimination index, distractors and grading time, so you see which parameters you record](assets/item_detailed_view_item_analysis_v1_en.png){ width="336" class="aside-right lightbox" title="Question bank, metadata of a question, section Item analysis · 2026.11.02" }
 
-Contains information on item analysis and the use in tests. 
+This section contains information on the item analysis and on the use of the question in tests. "Type" shows the question type, for example Single-Choice. "Max. score" shows the highest score that can be achieved in the question.
 
-The item analysis is a set of (statistical) methods with which individual questions are evaluated and assessed with regard to their suitability for measuring or querying knowledge of the object of investigation. Typical parameters are the difficulty index and the discrimination index.
+The item analysis is a set of (statistical) methods. It evaluates individual questions by how well they measure the knowledge that a test is meant to query. Typical parameters are the difficulty index and the discrimination index.
 
-Indicate what _**average processing time**_ you assume for processing the question. This will make it easier for you to compile tests for a specific processing time later on.
+Under "Typical learning time" you indicate how long answering the question is expected to take. This makes it easier for you to compile tests for a specific processing time later on.
 
-The _**difficulty index**_ expresses with a value between 0 and 1 how difficult it is to answer a question, and thus indicates how many individuals of a group of candidates correctly solve the question in relation to the maximum achievable score. The purpose of the difficulty index is to discriminate individuals with high characteristic values from those with low characteristic values. Therefore all items that could be solved by every individual or items that could not be solved by anyone are useless (index value close to 1 or 0). Items with values close to 1 are too simple and do not distinguish between the performance of individuals, and items with values close to 0 are too difficult. Please note that in a multiple choice question with 5 response options (4 distractors), there is already a 20% probability of guessing. Items in the range of 0.4-0.9 or 40-90% are suitable for a good performance differentiation.
+The "Difficulty index" expresses with a value between 0 and 1 how difficult it is to answer a question. It indicates how many individuals of a group of candidates correctly solve the question, in relation to the maximum achievable score. The difficulty index is meant to distinguish individuals with high characteristic values from individuals with low characteristic values. Items that all individuals or no individual could solve are therefore useless (index value close to 1 or 0). Items with values close to 1 are too simple and do not distinguish between the performance of individuals, items with values close to 0 are too difficult. Please note that in a multiple choice question with 5 response options (4 distractors), the probability of guessing is already 20%. Items in the range of 0.4-0.9 or 40-90% are suitable for a good performance differentiation.
 
-The _**standard deviation**_ (of the item difficulty) indicates with an index value between 0 and 1 how much the answers to a question differ between several individuals, how widely the answers are scattered around the mean (range of variation). One standard deviation comprises slightly more than 68% of all values around the mean, two standard deviations comprise almost 95.5% of all values in the value distribution. The smaller the standard deviation, the more "stable" the item difficulty across one or more test candidate populations, the larger, the more "unstable" it is. Items with a high standard deviation should therefore be selected with some caution.
+The "Standard deviation" (of the difficulty index) indicates with an index value between 0 and 1 how much the answers to a question differ between several individuals, i.e. how widely the answers are scattered around the mean (range of variation). One standard deviation comprises slightly more than 68% of all values around the mean, two standard deviations comprise almost 95.5% of all values of the distribution. The smaller the standard deviation, the more "stable" the difficulty index across one or more groups of test candidates, the larger, the more "unstable". Therefore select items with a high standard deviation with some caution.
 
-The _**discrimination index**_ indicates with a value between -1 and +1 the ability of an item to separate candidates with good and poor performance in the overall exam. It indicates whether a question asks something similar to the rest of the test. The discrimination index is therefore the most important parameter in item selection. It is calculated as the correlation coefficient between the score achieved in this item and the total score in the exam without this item. For a good performance differentiation, items with a clearly positive discrimination index are required, if possible greater than or equal to 0.2, but certainly greater than 0.1. Items with a discrimination index around 0 do not contribute to differentiation, those with a negative index even run counter to the differentiation goal and should no longer be used in follow-up tests.
+The "Discrimination index" indicates with a value between -1 and +1 how well an item separates candidates with good and poor performance in the overall exam. It shows whether a question asks something similar to the rest of the test. The discrimination index is therefore the most important parameter in the selection of items. It is calculated as the correlation coefficient between the score achieved in this item and the total score of the exam without this item. For a good performance differentiation, items with a clearly positive discrimination index are required, if possible greater than or equal to 0.2, but certainly greater than 0.1. Items with a discrimination index around 0 do not contribute to differentiation. Items with a negative discrimination index even run counter to the differentiation goal and should no longer appear in follow-up tests.
 
-Furthermore, information on the _**distractors**_ can be entered here, i.e. how many alternative answers are available. 
+Under "Distractors" you indicate how many wrong answer options the question offers.
 
-Whether the item is already **used in a test** is determined automatically by the system. You can find the exact number here. If it is included in a test, it is automatically increased.
+OpenOlat sets "Used in tests" itself: the field shows in how many tests the question is included and counts up with every new inclusion.
 
-The estimated **correction time for a manual assessment** can also be assigned to the item.
+Under "Required manual grading time (minutes)" you enter how long the manual assessment of the question is expected to take.
 
 
-In the test statistics of a test, an item analysis is carried out and output for each question item. The data can then be manually transferred from the test statistics to the metadata of the question item.
+The test statistics of a test carry out an item analysis for each question and display the result. If required, you transfer these values manually from the test statistics to the metadata of the question.
 
-All other parameters are _not_ calculated by OpenOlat. If data are available (e.g. from other systems or after manual calculation) they can be entered _manually_ at the question item.
+OpenOlat does _not_ calculate any of the other parameters. If data are available, for example from other systems or from your own calculation, you enter them _manually_ at the question.
 
 [To the top of the page ^](#question_details)
 
@@ -119,13 +124,13 @@ All other parameters are _not_ calculated by OpenOlat. If data are available (e.
 
 ### Rights {: #metadata_rights}
 
-![Expanded section Rights with authors, licence CC BY-NC-SA, licensor and the link to the licence text. Metadata of a question.](assets/question_details_rights_v1_de.png){ class="aside-right lightbox"}
+![Expanded section Rights with authors, license CC BY-SA, licensor and the link to the license text, so you see where you define the authors and the license of a question](assets/item_detailed_view_rights_v1_en.png){ width="336" class="aside-right lightbox" title="Question bank, metadata of a question, section Rights · 2026.11.02" }
 
-This section contains information about the creator or the author of the question item. All persons who have created or edited the question are listed as authors. The authors can also be added or removed manually. The creator can only be added or removed manually.
+This section contains information on the authors and the license of the question. All persons who have created or edited the question are listed under "Authors". With "Edit" you add further authors or remove them.
 
-Furthermore, the copyright can be defined. By default, Creative Commons licences are available. Information on Creative Commons can be found in the [Wikipedia](http://en.wikipedia.org/wiki/Creative_Commons "Wikipedia") and on [www.creativecommons.org](http://www.creativecommons.org/ "www.creativecommons.org"). If further additional licences are required, they can be created by system administrators.
+Furthermore, you define the license. By default, Creative Commons licenses are available. Information on Creative Commons can be found in the [Wikipedia](http://en.wikipedia.org/wiki/Creative_Commons "Wikipedia") and on [www.creativecommons.org](http://www.creativecommons.org/ "www.creativecommons.org"). System administrators create further licenses in the system administration under `Administration > Core functions > Licenses`.
 
-Both licensor and licence can be added manually and have no further effects. If an initial licence or an initial licensor is configured for the question bank in the administration, they are automatically entered when a new question is created. As soon as somebody has the rights to edit a question item, this person can adapt the licence and the licensor.
+You enter "Licensor" and "License" manually, they have no further effect. If an "Initial license" and an "Initial licensor" are defined for the question bank in the system administration under `Administration > Core functions > Licenses`, OpenOlat enters them automatically when a new question is created. Anyone who may edit the question can adjust license and licensor afterwards.
 
 [To the top of the page ^](#question_details)
 
@@ -133,13 +138,13 @@ Both licensor and licence can be added manually and have no further effects. If 
 
 ### Technical {: #metadata_technical}
 
-![Expanded section Technical with ID, Master ID, Editor, Editor version, Format, Created, Last change, the editable field Version and Last change status. Metadata of a question.](assets/question_details_technical_v1_de.png){ class="aside-right lightbox"}
+![Section Technical with ID, Master ID, Editor, Editor version, Format, Created, Last modified, the field Version and Status last modified, so you see which technical data OpenOlat records](assets/item_detailed_view_technical_v1_en.png){ width="336" class="aside-right lightbox" title="Question bank, metadata of a question, section Technical · 2026.11.02" }
 
-Under "Technical" you will find information on the **Editor** in which the question was created, as well as its **Version**. The **Format** indicates the technical format of the question. **Created** and **Last change** indicate when the question was created or imported and whether any changes were made to it afterwards, for example.
+Under "Technical" you see the "Editor" in which the question was created, and its "Editor Version". "Format" indicates the technical format of the question. "Created" and "Last modified" show when the question was created or imported and when it was last changed.
 
-If the review process is activated, the version is created automatically. Each time a question is put into review and thus into the Review status, the version is incremented by one. If the review process is not activated, the version can be entered and adjusted manually.
+If the review process is switched on, OpenOlat sets the "Version" itself. Each time a question goes into review and thus into the status "Review", the version counts up by one. If the review process is switched off, you enter and adjust the version manually.
 
-All other attributes in the Technical section cannot be edited.
+All other entries in the "Technical" section cannot be edited.
 
 
 [To the top of the page ^](#question_details)
@@ -149,9 +154,9 @@ All other attributes in the Technical section cannot be edited.
 
 ![Expanded section Ratings with one entry, consisting of date and a rating with five stars. Metadata of a question.](assets/question_details_ratings_v1_de.png){ class="aside-right lightbox"}
 
-If the review process is activated, the ratings of the question in connection with the review process are displayed in this section. These ratings from the review process are also displayed in the [comments and ratings](#comments) by other people at the bottom of the screen.
+If the review process is switched on, this section shows the ratings of the question from the review process. The same ratings also appear in the [comments and ratings](#comments) of other people at the bottom of the detailed view.
 
-If the review process is not activated, the "Ratings" dropdown in the metadata is missing.
+If the review process is switched off, the "Ratings" section is missing from the metadata.
 
 
 [Details about the review process >](Question_Bank_Review_Process.md)<br>
@@ -162,7 +167,7 @@ If the review process is not activated, the "Ratings" dropdown in the metadata i
 
 ### Pool {: #metadata_pool}
 
-Lists the pools in which the question item has been shared.
+The "Pool" section lists the pools in which the question is shared.
 
 [To the top of the page ^](#question_details)
 
@@ -170,24 +175,24 @@ Lists the pools in which the question item has been shared.
 
 ### Groups {: #metadata_groups}
 
-Lists the groups in which the question item has been shared.
+The "Groups" section lists the groups in which the question is shared.
 
 
 [To the top of the page ^](#question_details)
 
 
-!!! warning "Attention"
+!!! note "Note"
 
-    If a question item is imported from a test in the standard QTI 2.1 into the question bank, it loses all metadata.
+    If you import questions from a test in the standard QTI 2.1 into the question bank, OpenOlat takes over the metadata that the test has stored for each question. If the questions of the test come from the question bank, they thus keep, among other things, topic, subject, level, keywords, test type, the values of the item analysis and the license. OpenOlat does not take over the "Language": after the import, it contains the code of the OpenOlat language of the person who imported the questions.
 
 
 ## Comments {: #comments}
 
-![Rating of the others with five empty stars and the average 0.0 of 5, below it 0 comments and the input field for a comment. Bottom of the detailed view of a question.](assets/question_details_comment_v1_de.png){ class="shadow lightbox" }
+![Assessment of others with 4.0 of 5 stars from one assessment, below it one comment and the input field for further comments](assets/item_detailed_view_comments_v1_en.png){ class="shadow lightbox" title="Question bank, detailed view of a question, bottom · 2026.11.02" }
 
-The comments and ratings (stars) that are entered here at the bottom of the detailed view of a question come from authors and people who have administrative access to this question. Anyone with access can leave a comment here. 
+The comments and ratings (stars) at the bottom of the detailed view come from authors and from people who may manage the question. Anyone with access to the question can leave a comment here.
 
-The ratings in connection with a review process (see metadata) are also displayed below.
+The ratings from a review process (see metadata) also appear below.
 
 [To the top of the page ^](#question_details)
 
@@ -197,15 +202,16 @@ The ratings in connection with a review process (see metadata) are also displaye
 **Mentioned on this page**<br>
 [Configure test questions >](../learningresources/Configure_test_questions.md)<br>
 [Learning Objects Metadata (Wikipedia) >](http://en.wikipedia.org/wiki/Learning_object_metadata)<br>
-[Details about the review process >](Question_Bank_Review_Process.md)<br>
+[Benefits of metadata >](../../manual_how-to/question_metadata/question_metadata.md)<br>
+[Question Bank Review Process >](Question_Bank_Review_Process.md)<br>
 [Creative Commons (Wikipedia) >](http://en.wikipedia.org/wiki/Creative_Commons)<br>
 [www.creativecommons.org >](http://www.creativecommons.org/)<br>
 [e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)
 
 **Further reading**<br>
-[Create questions >](Question_Bank_Create_Questions.md)<br>
-[Import questions >](Question_Bank_Import_Questions.md)<br>
-[Details about sharing >](Question_Pool_Sharing_Options.md)<br>
-[Instructions for creating the test >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
+[Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
+[Question Bank: Import Questions >](Question_Bank_Import_Questions.md)<br>
+[Question Bank: Sharing Options >](Question_Pool_Sharing_Options.md)<br>
+[How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
 [To the top of the page ^](#question_details)

@@ -107,7 +107,7 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 
 **Weiterführend**<br>
 [Fragenpool: Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
-[Fragenpool: Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
+[Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 [Zum Seitenanfang ^](#create_questions)

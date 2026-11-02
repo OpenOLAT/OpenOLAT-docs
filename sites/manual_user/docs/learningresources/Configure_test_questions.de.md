@@ -102,7 +102,7 @@ Der Bereich "Technik" zeigt weitere Informationen an.
 
 [Test Fragetypen >](Test_question_types.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
-[Fragenpool: Detailansicht einer Frage >](../area_modules/Item_Detailed_View.de.md)<br>
+[Fragenpool: Detailansicht einer Frage und Metadaten >](../area_modules/Item_Detailed_View.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1.de.md)<br>
 [Tests erstellen >](Test.de.md)<br>

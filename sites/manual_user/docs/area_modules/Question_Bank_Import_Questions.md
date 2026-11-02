@@ -251,7 +251,7 @@ The answer with more than 0 points counts as correct.
 
 **Further reading**<br>
 [Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
-[Item Detailed View >](Item_Detailed_View.md)<br>
+[Question bank: Details of a question and metadata >](Item_Detailed_View.md)<br>
 [Question Bank Review Process >](Question_Bank_Review_Process.md)<br>
 [Question Bank: Sharing Options >](Question_Pool_Sharing_Options.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>

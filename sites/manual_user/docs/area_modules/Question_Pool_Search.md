@@ -24,14 +24,14 @@ With the input field above the question list you quickly find questions by a key
 
 The search filters narrow down the question list by individual pieces of information. They are shown when the list opens and can be combined with the search and with each other.
 
-By default, OpenOlat shows among others the filters "Title", "Author", "Type", "Test type", "Status" and "Max. score", depending on the configuration also "Subject" and "Level". Further filters such as "Topic", "Keywords", "Language" or "Format" are also available. The filters correspond to the metadata of a question that the [Item Detailed View](Item_Detailed_View.md#metadata) describes.
+By default, OpenOlat shows among others the filters "Title", "Author", "Type", "Test type", "Status" and "Max. score", depending on the configuration also "Subject" and "Level". Further filters such as "Topic", "Keywords", "Language" or "Format" are also available. The filters correspond to the metadata of a question that the page [Question bank: Details of a question and metadata](Item_Detailed_View.md#metadata) describes.
 
 [To the top of the page ^](#question_pool_search)
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Item Detailed View >](Item_Detailed_View.md)
+[Question bank: Details of a question and metadata >](Item_Detailed_View.md)
 
 **Further reading**<br>
 [Question bank: Use questions >](Question_bank_possible_operations.md)<br>
