@@ -73,15 +73,19 @@ Zu einem Kurs können Sie mehrere Angebote erstellen, etwa kostenlos für die ei
 
 Im Tab "Freigabe" steht jedes Angebot in einem eigenen Kasten. Ein Abzeichen zeigt seinen Status, zum Beispiel "Buchbar", "Geplant" oder "Nicht verfügbar". Darüber fasst eine Übersicht zusammen, ob die Angebote im internen oder im externen Katalog veröffentlicht sind.
 
-Im Feld "Freigegeben für" beschränken Sie ein Angebot auf Organisationen oder Unterorganisationen.
+Ist das [Modul Organisationen](../../manual_admin/administration/Modules_Organisations.de.md) eingeschaltet, legen Sie im Feld "Freigegeben für" fest, für welche Organisationen ein Angebot gilt. Ist es ausgeschaltet, gibt es dieses Feld nicht, und der Katalog unterscheidet nicht nach Organisationen. Die folgenden Regeln betreffen Sie dann nicht. Systemadministrator:innen schalten das Modul in der System-Administration mit dem Schalter "Organisationen einschalten" ein:<br>
+`Administration > Module > Organisationen`
 
 !!! info "Organisationszugehörigkeit"
 
-    Ist ein Angebot auf eine bestimmte Organisation oder Unterorganisation eingeschränkt, erscheint es im Katalog für Benutzer:innen dieser Organisation und ihrer Unterorganisationen. Benutzer:innen ausserhalb dieser Organisationen sehen das Angebot nicht, auch wenn der Kurs veröffentlicht ist.
+    Ist ein Angebot für eine Organisation freigegeben, erscheint es im Katalog für Benutzer:innen dieser Organisation und aller ihrer Unterorganisationen. Alle anderen Benutzer:innen sehen das Angebot nicht, auch wenn der Kurs veröffentlicht ist.
 
-    Die Einschränkung wirkt nur nach unten: Wer nur einer übergeordneten Organisation angehört, sieht ein Angebot für eine Unterorganisation nicht. Administrator:innen sind davon nicht ausgenommen, denn für den Katalog zählt allein, in welcher Organisation ein Konto die Rolle Benutzer:in hat. Soll ein Angebot für eine ganze Organisation mit allen Unterorganisationen gelten, wählen Sie die oberste dieser Organisationen.
+    Ein Beispiel: Die Organisation A hat die Unterorganisation B, und B hat die Unterorganisation C. Ein Angebot für A sehen die Benutzer:innen von A, B und C. Ein Angebot für B sehen die Benutzer:innen von B und C, nicht die von A. Ein Angebot für C sehen nur die Benutzer:innen von C. Soll ein Angebot für alle drei Organisationen gelten, muss die höchste Organisation gewählt sein, also A. Diese Regel ist fest vorgegeben und lässt sich nicht konfigurieren.
 
-    Die Organisationszugehörigkeit wird in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) gepflegt.
+    Massgebend ist allein die Rolle Benutzer:in. Auch Administrator:innen sehen ein Angebot nur, wenn ihr Konto in der freigegebenen Organisation oder in einer ihrer Unterorganisationen die Rolle Benutzer:in hat.
+
+    Die Organisationszugehörigkeit eines Kontos wird in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) im Tab "Rollen" gepflegt:<br>
+    `Benutzerverwaltung > "Benutzername" > Rollen`
 
 
 [Zum Seitenanfang ^](#offers)
@@ -210,6 +214,7 @@ Ein Klick auf die Kachel im Taxonomie-Launcher öffnet die Microsite des Fachber
 
 **Auf dieser Seite erwähnt**<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
+[Modul Organisationen (Administrationshandbuch) >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Benutzerverwaltung (Administrationshandbuch) >](../../manual_admin/usermanagement/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Coaching - Personen >](Coaching_People.de.md)<br>

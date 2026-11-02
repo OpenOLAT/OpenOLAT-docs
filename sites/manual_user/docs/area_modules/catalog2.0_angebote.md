@@ -73,15 +73,19 @@ You can create several offers for one course, for example free of charge for som
 
 In the tab "Share", each offer is in a box of its own. A badge shows its status, for example "Bookable", "Pending" or "Not available". Above it, an overview summarises whether the offers are published in the internal or in the external catalog.
 
-In the field "Released for", you restrict an offer to organisations or sub-organisations.
+If the [module Organisations](../../manual_admin/administration/Modules_Organisations.md) is enabled, you define in the field "Released for" which organisations an offer applies to. If it is disabled, this field does not exist, and the catalog does not distinguish between organisations. The following rules then do not concern you. System administrators enable the module in the system administration with the switch "Enable organisations":<br>
+`Administration > Modules > Organisations`
 
 !!! info "Organisation membership"
 
-    If an offer is restricted to a specific organisation or sub-organisation, it appears in the catalog for users of that organisation and of its sub-organisations. Users outside these organisations do not see the offer, even if the course is published.
+    If an offer is released for an organisation, it appears in the catalog for users of that organisation and of all its sub-organisations. Other users do not see the offer, even if the course is published.
 
-    The restriction only extends downwards: users who belong only to a parent organisation do not see an offer for a sub-organisation. Administrators are no exception, because for the catalog the only thing that counts is the organisation in which an account has the role User. If an offer is to apply to a whole organisation with all its sub-organisations, select the topmost of these organisations.
+    An example: organisation A has the sub-organisation B, and B has the sub-organisation C. The users of A, B and C see an offer for A. The users of B and C see an offer for B, not those of A. Only the users of C see an offer for C. If an offer is to apply to all three organisations, the highest organisation must be selected, that is A. This rule is predefined and cannot be configured.
 
-    Organisation membership is managed in the [user management](../../manual_admin/usermanagement/index.md).
+    Only the role User counts. Administrators also see an offer only if their account has the role User in the released organisation or in one of its sub-organisations.
+
+    The organisation membership of an account is managed in the [user management](../../manual_admin/usermanagement/index.md) in the tab "Roles":<br>
+    `User management > "Username" > Roles`
 
 
 [To the top of the page ^](#offers)
@@ -210,6 +214,7 @@ A click on the tile in the taxonomy launcher opens the microsite of the subject.
 
 **Mentioned on this page**<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
+[Module Organisations (administration manual) >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [User management (administration manual) >](../../manual_admin/usermanagement/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Coaching - People >](Coaching_People.md)<br>
