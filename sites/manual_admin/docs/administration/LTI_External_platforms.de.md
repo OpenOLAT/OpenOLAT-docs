@@ -21,7 +21,7 @@ Die Liste zeigt je Plattform den Namen, die Plattform-ID und die Client-ID. Die 
 
 ## Konfiguration {: #config}
 
-Ein Muster einer gesamten Konfiguration finden Sie unter [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md).
+Ein Muster einer gesamten Konfiguration finden Sie unter [Wie binde ich einen OpenOlat-Kurs in Moodle ein?](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md).
 
 In OpenOlat werden im Dialog "Neue externe Plattform" die folgenden Angaben der externen Plattform erfasst:
 
@@ -49,10 +49,11 @@ Tragen Sie nach Abschluss des Formulars den öffentlichen Schlüssel auf der ext
 
 **Auf dieser Seite erwähnt**<br>
 [LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)<br>
-[LTI-Zugang zu einem Kurs konfigurieren >](../../manual_user/learningresources/LTI_Share_courses.de.md)
+[Wie binde ich einen OpenOlat-Kurs in Moodle ein? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md)
 
 **Weiterführend**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
+[LTI-Zugang zu einem Kurs konfigurieren >](../../manual_user/learningresources/LTI_Share_courses.de.md)<br>
 [LTI - Externe Werkzeuge >](../administration/LTI_External_tools.de.md)<br>
 [LTI - Deep Linking >](../administration/LTI_Deeplinking.de.md)<br>
 [LTI - Rollen-Mapping >](../administration/LTI_Role_Mapping.de.md)<br>

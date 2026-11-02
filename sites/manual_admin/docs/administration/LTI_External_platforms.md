@@ -21,7 +21,7 @@ The list shows the name, the platform issuer and the client ID of each platform.
 
 ## Configuration {: #config}
 
-You can find a sample of an entire configuration under [Configure LTI access to a course](../../manual_user/learningresources/LTI_Share_courses.md).
+You can find a sample of an entire configuration under [How do I integrate an OpenOlat course into Moodle?](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md).
 
 In OpenOlat, the following details of the external platform are recorded in the "Add external platform" dialog:
 
@@ -49,10 +49,11 @@ After completing the form, enter the public key on the external platform in the 
 
 **Mentioned on this page**<br>
 [LTI 1.3 Integrations >](../administration/LTI_Integrations.md)<br>
-[Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)
+[How do I integrate an OpenOlat course into Moodle? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md)
 
 **Further reading**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
+[Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
 [LTI - External tools >](../administration/LTI_External_tools.md)<br>
 [LTI - Deep Linking >](../administration/LTI_Deeplinking.md)<br>
 [LTI - Role mapping >](../administration/LTI_Role_Mapping.md)<br>

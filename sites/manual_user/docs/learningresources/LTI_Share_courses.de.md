@@ -6,7 +6,7 @@ Mit der LTI-Freigabe bieten Sie einen OpenOlat-Kurs in einem anderen Lernmanagem
 
 Das ist nützlich, wenn eine Partnerorganisation mit einem anderen System arbeitet und Ihren Kurs nutzen soll. Sie pflegen den Kurs einmal in OpenOlat und geben ihn für eine oder mehrere Plattformen frei.
 
-Eine ausführliche Anleitung finden Sie [hier](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md).
+Wie Sie einen Kurs Schritt für Schritt in Moodle einbinden, zeigt die Anleitung [Wie binde ich einen OpenOlat-Kurs in Moodle ein?](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md).
 
 **Was die LTI-Freigabe bewirkt:**
 
@@ -122,13 +122,7 @@ Kopieren Sie den Kurs, wird die LTI-Gruppe nicht mitkopiert. Für die Kopie rich
 
 ## Ablauf der Konfiguration {: #config_process}
 
-1. Setup "External Tool" in Moodle
-2. Setup "externe Plattform" in OpenOlat
-3. LTI-Freigabe des Kurses in OpenOlat
-4. Einbinden des externen Tools (=OpenOlat) im Moodle-Kurs
-5. Verbindungstest
-
-Eine ausführliche Anleitung mit diesen 5 Schritten finden Sie [hier](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md).
+Die Konfiguration verlangt Schritte in Moodle und in OpenOlat. Die Anleitung [Wie binde ich einen OpenOlat-Kurs in Moodle ein?](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md) führt Sie durch den ganzen Ablauf, vom externen Tool in Moodle bis zum Verbindungstest.
 
 [Zum Seitenanfang ^](#LTI_share_course)
 

@@ -6,7 +6,7 @@ With LTI sharing, you can offer an OpenOlat course in another learning managemen
 
 This is useful when a partner organization uses a different system and needs to access your course. You maintain the course once in OpenOlat and publish it to one or more platforms.
 
-You can find detailed instructions [here](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md).
+For step-by-step instructions on integrating a course into Moodle, see [How do I integrate an OpenOlat course into Moodle?](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md).
 
 **What LTI integration does:**
 
@@ -121,13 +121,7 @@ If you copy the course, the LTI group is not copied along with it. You’ll need
 
 ## Configuration procedure {: #config_process}
 
-1. Setup "External Tool" in Moodle
-2. Setup "external platform" in OpenOlat
-3. LTI share of the course in OpenOlat
-4. Embedding the external tool (=OpenOlat) in the Moodle course
-5. Connection test
-
-You can find detailed instructions with these 5 steps [here](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md).
+The configuration requires steps in Moodle and in OpenOlat. The instructions [How do I integrate an OpenOlat course into Moodle?](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md) guide you through the whole procedure, from the external tool in Moodle to the connection test.
 
 [To the top of the page ^](#LTI_share_course)
 
