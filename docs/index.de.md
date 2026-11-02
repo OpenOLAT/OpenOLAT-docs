@@ -110,6 +110,35 @@ hide:
 ## Schnelleinstieg
 
 <div class="oo-home-qs">
+  <section class="oo-home-qs__col oo-home-qs--create">
+    <div class="oo-home-qs__head">
+      <span class="oo-home-qs__tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span>
+      <h3>Ich erstelle</h3>
+    </div>
+    <p>Einen Kurs bauen, den Zugang steuern und einen Test erstellen.</p>
+    <ol>
+      <li><a href="manual_user/authoring_path/">Einführung für Autor:innen</a></li>
+      <li><a href="manual_how-to/my_first_course/my_first_course/">Mein erster Kurs</a></li>
+      <li><a href="manual_user/learningresources/Creating_Course/">Kurs erstellen</a></li>
+      <li><a href="manual_user/learningresources/Learning_path_course/">Kursdesign: Lernpfadkurs</a></li>
+      <li><a href="manual_user/learningresources/Access_configuration/">Zugangskonfiguration</a></li>
+      <li><a href="manual_how-to/test_creation_procedure/test_creation_procedure/">Wie gehe ich vor, wenn ich einen Test erstelle?</a></li>
+    </ol>
+  </section>
+  <section class="oo-home-qs__col oo-home-qs--teach">
+    <div class="oo-home-qs__head">
+      <span class="oo-home-qs__tile"><i class="o_icon o_icon_coach size24" aria-hidden="true"></i></span>
+      <h3>Ich unterrichte</h3>
+    </div>
+    <p>Teilnehmende begleiten, bewerten und Nachweise ausstellen.</p>
+    <ol>
+      <li><a href="manual_user/area_modules/Coaching/">Coaching</a></li>
+      <li><a href="manual_user/learningresources/Assessment_tool_overview/">Bewertungswerkzeug</a></li>
+      <li><a href="manual_user/learningresources/Course_Reminders/">Kurserinnerungen</a></li>
+      <li><a href="manual_user/groups/">Gruppen betreuen</a></li>
+      <li><a href="manual_user/learningresources/Statistics_Course/">Kursstatistiken</a></li>
+    </ol>
+  </section>
   <section class="oo-home-qs__col oo-home-qs--learn">
     <div class="oo-home-qs__head">
       <span class="oo-home-qs__tile"><i class="o_icon o_icon_courserun size24" aria-hidden="true"></i></span>
@@ -125,21 +154,6 @@ hide:
       <li><a href="manual_user/help/Course_Problems_and_Error_Messages/">Probleme und Fehlermeldungen im Kurs</a></li>
     </ol>
   </section>
-  <section class="oo-home-qs__col oo-home-qs--teach">
-    <div class="oo-home-qs__head">
-      <span class="oo-home-qs__tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span>
-      <h3>Ich betreue/unterrichte</h3>
-    </div>
-    <p>Einen Kurs bauen, den Zugang steuern, einen Test durchführen und die Ergebnisse bewerten.</p>
-    <ol>
-      <li><a href="manual_how-to/my_first_course/my_first_course/">Mein erster Kurs</a></li>
-      <li><a href="manual_user/learningresources/Creating_Course/">Kurs erstellen</a></li>
-      <li><a href="manual_user/learningresources/Learning_path_course/">Kursdesign: Lernpfadkurs</a></li>
-      <li><a href="manual_user/learningresources/Access_configuration/">Zugangskonfiguration</a></li>
-      <li><a href="manual_how-to/test_creation_procedure/test_creation_procedure/">Wie gehe ich vor, wenn ich einen Test erstelle?</a></li>
-      <li><a href="manual_user/learningresources/Assessment_tool_overview/">Bewertungswerkzeug</a></li>
-    </ol>
-  </section>
   <section class="oo-home-qs__col oo-home-qs--admin">
     <div class="oo-home-qs__head">
       <span class="oo-home-qs__tile"><i class="o_icon o_icon_administrator size24" aria-hidden="true"></i></span>
@@ -147,11 +161,11 @@ hide:
     </div>
     <p>Die Plattform konfigurieren, Konten verwalten und Rollen zuweisen.</p>
     <ol>
+      <li><a href="manual_admin/admin_path/">Einführung für Administrator:innen</a></li>
       <li><a href="manual_admin/administration/System/">System</a></li>
-      <li><a href="manual_admin/administration/Modules/">Module</a></li>
-      <li><a href="manual_admin/usermanagement/Create_User/">Benutzer erstellen</a></li>
+      <li><a href="manual_admin/usermanagement/Create_User/">Konto erstellen</a></li>
       <li><a href="manual_admin/usermanagement/Assign_roles/">Rollen zuweisen</a></li>
-      <li><a href="manual_user/basic_concepts/Roles_Rights/">Rollen und Rechte</a></li>
+      <li><a href="manual_admin/administration/Modules/">Module</a></li>
       <li><a href="manual_admin/installation/installGuide/">Installationsanleitung (nur auf Englisch)</a></li>
     </ol>
   </section>

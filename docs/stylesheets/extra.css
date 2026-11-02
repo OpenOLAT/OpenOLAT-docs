@@ -426,6 +426,17 @@ i.o_icon.size64 {
   gap: 0.9em;
   margin: 0 0 1.6em;
 }
+.md-typeset {
+  /* four roles, two by two on a medium screen */
+}
+.md-typeset .oo-home-qs {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (min-width: 60em) and (max-width: 76.1875em) {
+  .md-typeset .oo-home-qs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .md-typeset .oo-home-card {
   display: flex;
   flex-direction: column;
@@ -585,7 +596,10 @@ i.o_icon.size64 {
 .md-typeset .oo-home-qs__col li {
   margin: 0.25em 0;
 }
-.md-typeset .oo-home-qs--learn {
+.md-typeset {
+  /* the same colour per role as on the start page of the user manual */
+}
+.md-typeset .oo-home-qs--create {
   --oo-accent: var(--oo-sea);
   --oo-accent-tint: rgba(18, 99, 101, 0.12);
 }
@@ -593,9 +607,13 @@ i.o_icon.size64 {
   --oo-accent: var(--oo-forest);
   --oo-accent-tint: rgba(17, 98, 79, 0.12);
 }
-.md-typeset .oo-home-qs--admin {
+.md-typeset .oo-home-qs--learn {
   --oo-accent: var(--oo-berry);
   --oo-accent-tint: rgba(143, 31, 64, 0.12);
+}
+.md-typeset .oo-home-qs--admin {
+  --oo-accent: var(--oo-peach-text);
+  --oo-accent-tint: rgba(242, 175, 64, 0.18);
 }
 .md-typeset .oo-home-foot {
   /* the eLearning Journal badge above floats left */
@@ -630,7 +648,7 @@ i.o_icon.size64 {
 [data-md-color-scheme=slate] .md-typeset .oo-home-card--howto .oo-home-card__links a {
   color: var(--md-typeset-a-color);
 }
-[data-md-color-scheme=slate] .md-typeset .oo-home-qs--learn {
+[data-md-color-scheme=slate] .md-typeset .oo-home-qs--create {
   --oo-accent: #6FC2C4;
   --oo-accent-tint: rgba(111, 194, 196, 0.14);
 }
@@ -638,9 +656,13 @@ i.o_icon.size64 {
   --oo-accent: #63C0A5;
   --oo-accent-tint: rgba(99, 192, 165, 0.14);
 }
-[data-md-color-scheme=slate] .md-typeset .oo-home-qs--admin {
+[data-md-color-scheme=slate] .md-typeset .oo-home-qs--learn {
   --oo-accent: #E495AC;
   --oo-accent-tint: rgba(228, 149, 172, 0.14);
+}
+[data-md-color-scheme=slate] .md-typeset .oo-home-qs--admin {
+  --oo-accent: var(--oo-peach);
+  --oo-accent-tint: rgba(242, 175, 64, 0.16);
 }
 
 /* the per-card link ink, light scheme only */

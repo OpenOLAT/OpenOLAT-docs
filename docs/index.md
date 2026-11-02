@@ -110,34 +110,48 @@ hide:
 ## Quick start
 
 <div class="oo-home-qs">
-  <section class="oo-home-qs__col oo-home-qs--learn">
+  <section class="oo-home-qs__col oo-home-qs--create">
     <div class="oo-home-qs__head">
-      <span class="oo-home-qs__tile"><i class="o_icon o_icon_courserun size24" aria-hidden="true"></i></span>
-      <h3>I am learning</h3>
+      <span class="oo-home-qs__tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span>
+      <h3>I create</h3>
     </div>
-    <p>Log in, find your course, and see what you have achieved.</p>
+    <p>Build a course, control who gets in and create a test.</p>
     <ol>
-      <li><a href="manual_user/login_registration/">Login and registration</a></li>
-      <li><a href="manual_user/basic_concepts/Navigation/">Navigation</a></li>
-      <li><a href="manual_user/area_modules/Courses/">Courses</a></li>
-      <li><a href="manual_user/groups/Group_Membership/">Become a group member</a></li>
-      <li><a href="manual_user/personal_menu/Evidence_of_Achievements/">Evidence of achievements</a></li>
-      <li><a href="manual_user/help/Course_Problems_and_Error_Messages/">Course problems and error messages</a></li>
+      <li><a href="manual_user/authoring_path/">Introduction for authors</a></li>
+      <li><a href="manual_how-to/my_first_course/my_first_course/">My first course</a></li>
+      <li><a href="manual_user/learningresources/Creating_Course/">Create course</a></li>
+      <li><a href="manual_user/learningresources/Learning_path_course/">Course design: learning path course</a></li>
+      <li><a href="manual_user/learningresources/Access_configuration/">Access configuration</a></li>
+      <li><a href="manual_how-to/test_creation_procedure/test_creation_procedure/">How do I proceed when I create a test?</a></li>
     </ol>
   </section>
   <section class="oo-home-qs__col oo-home-qs--teach">
     <div class="oo-home-qs__head">
-      <span class="oo-home-qs__tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span>
-      <h3>I am teaching</h3>
+      <span class="oo-home-qs__tile"><i class="o_icon o_icon_coach size24" aria-hidden="true"></i></span>
+      <h3>I teach</h3>
     </div>
-    <p>Build a course, control who gets in, run a test and assess the results.</p>
+    <p>Accompany participants, assess them and issue evidence.</p>
     <ol>
-      <li><a href="manual_how-to/my_first_course/my_first_course/">My first course</a></li>
-      <li><a href="manual_user/learningresources/Creating_Course/">Create course</a></li>
-      <li><a href="manual_user/learningresources/Learning_path_course/">Course design: learning path</a></li>
-      <li><a href="manual_user/learningresources/Access_configuration/">Access configuration</a></li>
-      <li><a href="manual_how-to/test_creation_procedure/test_creation_procedure/">How do I proceed when I create a test?</a></li>
+      <li><a href="manual_user/area_modules/Coaching/">Coaching</a></li>
       <li><a href="manual_user/learningresources/Assessment_tool_overview/">Assessment tool</a></li>
+      <li><a href="manual_user/learningresources/Course_Reminders/">Course reminders</a></li>
+      <li><a href="manual_user/groups/">Coach groups</a></li>
+      <li><a href="manual_user/learningresources/Statistics_Course/">Course statistics</a></li>
+    </ol>
+  </section>
+  <section class="oo-home-qs__col oo-home-qs--learn">
+    <div class="oo-home-qs__head">
+      <span class="oo-home-qs__tile"><i class="o_icon o_icon_courserun size24" aria-hidden="true"></i></span>
+      <h3>I learn</h3>
+    </div>
+    <p>Log in, find your own course and see your achievements.</p>
+    <ol>
+      <li><a href="manual_user/login_registration/">Login and registration</a></li>
+      <li><a href="manual_user/basic_concepts/Navigation/">Navigation</a></li>
+      <li><a href="manual_user/area_modules/Courses/">Finding courses</a></li>
+      <li><a href="manual_user/groups/Group_Membership/">Become a group member</a></li>
+      <li><a href="manual_user/personal_menu/Evidence_of_Achievements/">Evidence of achievement</a></li>
+      <li><a href="manual_user/help/Course_Problems_and_Error_Messages/">Course problems and error messages</a></li>
     </ol>
   </section>
   <section class="oo-home-qs__col oo-home-qs--admin">
@@ -147,11 +161,11 @@ hide:
     </div>
     <p>Configure the platform, manage accounts and assign roles.</p>
     <ol>
+      <li><a href="manual_admin/admin_path/">Introduction for administrators</a></li>
       <li><a href="manual_admin/administration/System/">System</a></li>
-      <li><a href="manual_admin/administration/Modules/">Modules</a></li>
-      <li><a href="manual_admin/usermanagement/Create_User/">Create user</a></li>
+      <li><a href="manual_admin/usermanagement/Create_User/">Create account</a></li>
       <li><a href="manual_admin/usermanagement/Assign_roles/">Assign roles</a></li>
-      <li><a href="manual_user/basic_concepts/Roles_Rights/">Roles and rights</a></li>
+      <li><a href="manual_admin/administration/Modules/">Modules</a></li>
       <li><a href="manual_admin/installation/installGuide/">Installation guide</a></li>
     </ol>
   </section>
