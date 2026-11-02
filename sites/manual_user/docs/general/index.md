@@ -14,7 +14,7 @@ hide:
 
 <section class="oo-mh-role oo-mh-role--develop" markdown>
 
-<div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span><h2>I develop</h2></div>
+<div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span><h2>I create</h2></div>
 
 <p class="oo-mh-role__text">The introduction for authors leads in seven stations from the Author role to the evaluation.</p>
 
@@ -45,7 +45,7 @@ hide:
 1. [Coaching](../area_modules/Coaching.md)
 1. [Assessment tool](../learningresources/Assessment_tool_overview.md)
 1. [Course reminders](../learningresources/Course_Reminders.md)
-1. [Coaching groups](../groups/index.md)
+1. [Coach groups](../groups/index.md)
 1. [Course statistics](../learningresources/Statistics_Course.md)
 
 </section>
@@ -57,10 +57,13 @@ hide:
 <p class="oo-mh-role__text">Log in, find your own course and see your achievements.</p>
 
 1. [Login and registration](../login_registration/index.md)
+1. [Navigation](../basic_concepts/Navigation.md)
 1. [Catalog: book courses](../area_modules/catalog2.0.md)
 1. [Finding courses](../area_modules/Courses.md)
+1. [Become a group member](../groups/Group_Membership.md)
 1. [User tools](../personal_menu/Personal_Tools.md)
 1. [Evidence of achievement](../personal_menu/Evidence_of_Achievements.md)
+1. [Course problems and error messages](../help/Course_Problems_and_Error_Messages.md)
 
 </section>
 

@@ -14,7 +14,7 @@ hide:
 
 <section class="oo-mh-role oo-mh-role--develop" markdown>
 
-<div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span><h2>Ich entwickle</h2></div>
+<div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span><h2>Ich erstelle</h2></div>
 
 <p class="oo-mh-role__text">Die Einführung für Autor:innen führt in sieben Stationen von der Rolle Autor:in bis zur Auswertung.</p>
 
@@ -57,10 +57,13 @@ hide:
 <p class="oo-mh-role__text">Anmelden, den eigenen Kurs finden und die erreichten Leistungen sehen.</p>
 
 1. [Login und Registrierung](../login_registration/index.de.md)
+1. [Navigation](../basic_concepts/Navigation.de.md)
 1. [Katalog: Kurse buchen](../area_modules/catalog2.0.de.md)
 1. [Kurse finden](../area_modules/Courses.de.md)
+1. [Gruppenmitglied werden](../groups/Group_Membership.de.md)
 1. [Persönliche Werkzeuge](../personal_menu/Personal_Tools.de.md)
 1. [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
+1. [Probleme und Fehlermeldungen im Kurs](../help/Course_Problems_and_Error_Messages.de.md)
 
 </section>
 
