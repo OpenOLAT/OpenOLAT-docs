@@ -90,6 +90,10 @@ In addition, the menu "Events and Absences" appears in the course administration
     Unlike owners, **coaches** can find the capture tool in the toolbar.<br>
     **Participants** find their absences in the [personal menu](../personal_menu/Absences.md).
 
+If you switch off the Event & absence management, the events and absences already entered remain saved. However, they no longer appear in any event list, neither in the course nor in Coaching nor in Absence management. The menu "Events and Absences" in the course administration and the "Events" tool in the toolbar disappear. In the Course Planner, the events stay visible at the implementation. When switching off, OpenOlat also resets "Override default configuration" to "No", and the values entered for this course are lost. If you switch the Event & absence management on again, the defaults of the administration apply at first.
+
+Which other conditions decide whether an event appears is described under [Which events (with additional options) are displayed?](../basic_concepts/Events_and_Absences.md#event_conditions)
+
 
 #### Override default configuration {: #config_override }
 
@@ -207,10 +211,10 @@ Traditional courses do not have the option "Calculation of learning progress".
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
 [User tools: Absences >](../personal_menu/Absences.md)<br>
+[Basic concept events and absences >](../basic_concepts/Events_and_Absences.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)
 
 **Further reading**<br>
-[Basic concept events and absences >](../basic_concepts/Events_and_Absences.md)<br>
 [Events and absences >](../learningresources/Events_and_absences.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>

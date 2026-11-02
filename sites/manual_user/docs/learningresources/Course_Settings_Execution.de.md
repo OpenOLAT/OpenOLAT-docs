@@ -92,6 +92,10 @@ Ausserdem erscheint in der Kurs-Administration das Menü "Termine und Absenzen".
     Im Unterschied zu Besitzer:innen finden **Betreuer:innen** das Tool zum Erfassen in der Werkzeugleiste.<br>
     **Teilnehmer:innen** finden ihre Absenzen im [persönlichen Menü](../personal_menu/Absences.de.md).
 
+Schalten Sie die Termin- und Absenzenverwaltung aus, bleiben die erfassten Termine und Absenzen gespeichert. Sie erscheinen aber in keiner Terminliste mehr, weder im Kurs noch im Coaching noch in der Absenzenverwaltung. Das Menü "Termine und Absenzen" in der Kurs-Administration und das Werkzeug "Termine" in der Werkzeugleiste fallen weg. Im Course Planner bleiben die Termine an der Durchführung sichtbar. Beim Ausschalten setzt OpenOlat ausserdem "Standardkonfiguration überschreiben" auf "Nein" zurück, die für diesen Kurs eingetragenen Werte gehen verloren. Schalten Sie die Termin- und Absenzenverwaltung wieder ein, gelten zuerst die Vorgaben der Administration.
+
+Welche Bedingungen sonst noch entscheiden, ob ein Termin erscheint, steht unter [Welche Termine (mit Zusatzoptionen) werden angezeigt?](../basic_concepts/Events_and_Absences.de.md#event_conditions)
+
 
 #### Standardkonfiguration überschreiben {: #config_override }
 
@@ -214,10 +218,10 @@ Herkömmliche Kurse haben die Option "Lernfortschritt berechnen" nicht.
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)<br>
 [Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)<br>
+[Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)
 
 **Weiterführend**<br>
-[Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
 [Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>

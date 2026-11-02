@@ -30,12 +30,22 @@ If you do not have the necessary permissions, your view of events may be restric
 
 ### Which events (with additional options) are displayed? {: #event_conditions}
 
-The visibility of events generally depends on
+If an event is missing although it has been entered, this list helps you find the cause. The order is the order of checking, from the overarching setting down to the individual role. The visibility of events depends on
 
-- whether the "Events / Absences" module is globally enabled in the system administration
+- whether the "Events / Absences" module is globally enabled in the system administration: `Administration > Modules > Events / Absences`
+- whether the [Event & absence management](../learningresources/Course_Settings_Execution.md#lecture_enabled) is switched on in the course concerned: `Course > Administration > Settings > Tab "Execution"`
 - whether the "Events" focus element is displayed
 - whether there are actually any relevant events
-- whether the event should be visible to the role
+- whether your own role may see the event
+
+!!! tip "An event is missing from the event lists?"
+
+    Check these causes, the most frequent one first:
+
+    - **Event & absence management switched off in the course**: The event appears in no event list, neither in the course nor in Coaching nor in Absence management. In the Course Planner, it stays visible at the implementation.
+    - **Implementation without a course**: The event belongs to an implementation, but to no course. It then only appears in the Course Planner.
+    - **Module switched off**: The "Events / Absences" module is switched off in the system administration.
+    - **Role without a view of the event**: Your own role may not see the event.
 
 [To the top of the page ^](#events_and_absences)
 
@@ -88,7 +98,7 @@ In the event lists, the status is shown in the "Status" column.
     In OpenOlat, absences are recorded as a matter of principle, not attendance.
 
 
-### Absences {: #absences_categories}
+### Absences [:octicons-tag-16:{ title="from Release 12.0 (OO-2637)" }](https://track.frentix.com/issue/OO-2637) {: #absences_categories}
 
 The presence or absence of participants can be recorded in the following categories:
 
@@ -103,7 +113,7 @@ Absences are usually recorded during attendance checks by the **coaches**.
 
 An **attendance rate** is calculated from the recorded absences. By comparing this with a specified permitted **absence rate** (e.g., 80%), it can be calculated whether a course can be considered attended.
 
-### Notices of absence {: #abcenses_cancellations}
+### Notices of absence [:octicons-tag-16:{ title="from Release 14.1 (OO-4217)" }](https://track.frentix.com/issue/OO-4217) {: #abcenses_cancellations}
 
 Participants can be allowed to give notice of absence in advance in the [personal menu](../personal_menu/Absences.md#tab_notices_dispensation).
 
@@ -134,18 +144,18 @@ A distinction must be made between
 
 
 2. the **configuration** of absence management in a **course**<br>
-    The configuration of the event and absence management for a specific course is done by the course owners in the course administration:<br>
+    Course owners configure the event and absence management for their course in the course administration:<br>
     `Course > Administration > Settings > Tab "Execution" > Section "Configuration event and absence management in course"`<br>
     [More about that >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)
 
 
-3. the **recording and management** of absences in a **course** by **course owners**<br>
-    Recording and administration is carried out in Run Mode (i.e., at runtime, not in the editor) by course owners at:<br>
+3. the **recording and management** of absences in a course by course owners<br>
+    Course owners record and manage the absences in Run Mode (i.e., at runtime, not in the editor) at:<br>
     `Course > Administration > Events and absences > Tab "Participants"`<br>
     [More about that >](../learningresources/Events_and_absences.md)
 
-4. the **recording and management** of absences in a **course** by **coaches**<br>
-    Recording and administration by coaches takes place at:<br>
+4. the **recording and management** of absences in a course by coaches<br>
+    Coaches record and manage the absences at:<br>
     `Toolbar > Events`<br>
     [More about that >](../learningresources/Toolbar_Events.md)
 
@@ -162,7 +172,7 @@ A distinction must be made between
 
 7. the **cross-course absence management** by authorised persons with the role absence manager.<br>
     Administration includes, for example, processing dispensations and appeals. This administrative task goes beyond simple recording and is therefore assigned to a separate role. Authorised persons find the tools in the main navigation under:<br>
-   **Absence management**<br>
+   `Absence management`<br>
    [More about that >](../area_modules/Absence_Management.md)
 
 [To the top of the page ^](#events_and_absences)
@@ -183,11 +193,15 @@ A distinction must be made between
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [BigBlueButton module >](../../manual_admin/administration/BigBlueButton_module.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
+[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [User tools: Absences >](../personal_menu/Absences.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)
+
+**Further reading**<br>
+[Coaching - Events and Absences >](../area_modules/Coaching_Events_Absences.md)<br>
+[Coaching - People >](../area_modules/Coaching_People.md)
 
 [To the top of the page ^](#events_and_absences)
 

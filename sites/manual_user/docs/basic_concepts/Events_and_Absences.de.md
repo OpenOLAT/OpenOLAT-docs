@@ -32,12 +32,22 @@ Besteht keine Berechtigung, kann die Sicht auf Termine auch eingeschränkt sein.
 
 ### Welche Termine (mit Zusatzoptionen) werden angezeigt? {: #event_conditions}
 
-Die Sichtbarkeit von Terminen hängt generell davon ab,
+Fehlt ein Termin, obwohl er erfasst ist, finden Sie die Ursache mit dieser Liste. Die Reihenfolge ist die Prüfreihenfolge, von der übergeordneten Einstellung bis zur einzelnen Rolle. Die Sichtbarkeit von Terminen hängt davon ab,
 
-- ob das Modul "Termine / Absenzen" in der System-Administration global aktiviert ist
+- ob das Modul "Termine / Absenzen" in der System-Administration global aktiviert ist: `Administration > Module > Termine / Absenzen`
+- ob im betroffenen Kurs die [Termin- und Absenzenverwaltung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled) eingeschaltet ist: `Kurs > Administration > Einstellungen > Tab "Durchführung"`
 - ob das Fokuselement "Termine" eingeblendet ist
 - ob es tatsächlich relevante Termine gibt
-- ob der Termin für die Rolle sichtbar sein soll 
+- ob die eigene Rolle den Termin sehen darf
+
+!!! tip "Ein Termin fehlt in den Terminlisten?"
+
+    Prüfen Sie diese Ursachen, die häufigste zuerst:
+
+    - **Termin- und Absenzenverwaltung im Kurs ausgeschaltet**: Der Termin erscheint in keiner Terminliste, weder im Kurs noch im Coaching noch in der Absenzenverwaltung. Im Course Planner bleibt er an der Durchführung sichtbar.
+    - **Durchführung ohne Kurs**: Der Termin hängt an einer Durchführung, aber an keinem Kurs. Er erscheint dann nur im Course Planner.
+    - **Modul ausgeschaltet**: Das Modul "Termine / Absenzen" ist in der System-Administration ausgeschaltet.
+    - **Rolle ohne Sicht auf den Termin**: Die eigene Rolle darf den Termin nicht sehen.
 
 [Zum Seitenanfang ^](#events_and_absences)
 
@@ -90,7 +100,7 @@ In den Terminlisten steht der Status in der Spalte "Status".
     In OpenOlat werden prinzipiell Absenzen (Abwesenheiten) erfasst, nicht Anwesenheiten.
 
 
-### Absenzen {: #absences_categories}
+### Absenzen [:octicons-tag-16:{ title="ab Release 12.0 (OO-2637)" }](https://track.frentix.com/issue/OO-2637) {: #absences_categories}
 
 Die Anwesenheit bzw. Absenz von Teilnehmenden kann in folgenden Kategorien erfasst werden:
 
@@ -105,7 +115,7 @@ Absenzen werden in der Regel bei einer Anwesenheitskontrolle durch die **Betreue
 
 Aus den erfassten Absenzen wird eine **Anwesenheitsrate** berechnet. Durch Abgleich mit einer vorgegebenen erlaubten **Absenzquote** (z.B. 80%) kann daraus berechnet werden, ob ein Kurs als besucht gelten kann.
 
-### Abmeldungen {: #abcenses_cancellations}
+### Abmeldungen [:octicons-tag-16:{ title="ab Release 14.1 (OO-4217)" }](https://track.frentix.com/issue/OO-4217) {: #abcenses_cancellations}
 
 Es kann den Teilnehmer:innen erlaubt werden, dass sie sich im [persönlichen Menü](../personal_menu/Absences.de.md#tab_notices_dispensation) im Voraus abmelden.
 
@@ -136,18 +146,18 @@ Es ist zu unterscheiden zwischen
 
 
 2. der **Konfiguration** der Absenzenverwaltung in einem **Kurs**<br>
-    Die Konfiguration der Termin- und Absenzenverwaltung für einen bestimmten Kurs erfolgt durch die Kursbesitzer:innen in der Kursadministration:<br>
+    Kursbesitzer:innen konfigurieren die Termin- und Absenzenverwaltung für ihren Kurs in der Kurs-Administration:<br>
     `Kurs > Administration > Einstellungen > Tab "Durchführung" > Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs"`<br>
     [Mehr dazu >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)
 
 
-3. der **Erfassung und Verwaltung** der Absenzen in einem **Kurs** durch **Kursbesitzer:innen**<br>
-    Die Erfassung und Verwaltung erfolgt im Run Mode (also zur Laufzeit, nicht im Editor) durch Kursbesitzer:innen unter:<br>
+3. der **Erfassung und Verwaltung** der Absenzen in einem Kurs durch Kursbesitzer:innen<br>
+    Kursbesitzer:innen erfassen und verwalten die Absenzen im Run Mode (also zur Laufzeit, nicht im Editor) unter:<br>
     `Kurs > Administration > Termine und Absenzen > Tab "Teilnehmer"`<br>
     [Mehr dazu >](../learningresources/Events_and_absences.de.md)
 
-4. der **Erfassung und Verwaltung** der Absenzen in einem **Kurs** durch **Betreuer:innen**<br>
-    Die Erfassung und Verwaltung durch Betreuer:innen erfolgt unter:<br>
+4. der **Erfassung und Verwaltung** der Absenzen in einem Kurs durch Betreuer:innen<br>
+    Betreuer:innen erfassen und verwalten die Absenzen unter:<br>
     `Toolbar > Termine`<br>
     [Mehr dazu >](../learningresources/Toolbar_Events.de.md)
 
@@ -164,7 +174,7 @@ Es ist zu unterscheiden zwischen
 
 7. der **kursübergreifenden Absenzenverwaltung** durch Berechtigte mit der Rolle Absenzenverwalter:in.<br>
     Zur Verwaltung gehört z.B. die Bearbeitung von Dispensen und Rekursen. Diese Verwaltungsaufgabe geht über die einfache Erfassung hinaus und ist deshalb einer gesonderten Rolle zugeordnet. Berechtigte finden die Werkzeuge in der Hauptnavigation unter:<br>
-   **Absenzenverwaltung**<br>
+   `Absenzenverwaltung`<br>
    [Mehr dazu >](../area_modules/Absence_Management.de.md)
 
 
@@ -186,11 +196,15 @@ Es ist zu unterscheiden zwischen
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
 [Modul BigBlueButton >](../../manual_admin/administration/BigBlueButton_module.de.md)<br>
 [Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
+[Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)
+
+**Weiterführend**<br>
+[Coaching - Termine und Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
+[Coaching - Personen >](../area_modules/Coaching_People.de.md)
 
 [Zum Seitenanfang ^](#events_and_absences)
 
