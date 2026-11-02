@@ -14,7 +14,7 @@ Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen bet
   * Es werden die Teilnehmenden aus **allen** betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
   * Betreuer:innen sehen nur die von ihnen betreuten Teilnehmenden.
   * Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br>
-  Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren Rollen entsprechen:
+  Je nach Ihren Rollen rufen Sie über die Fokus-Buttons vorsortierte Listen ab:
     * als Betreuer:in
     * als Kursbesitzer:in
     * als Linienvorgesetzte:r
@@ -45,7 +45,7 @@ Mit dem Suchfeld oberhalb der Liste grenzen Sie die Personen nach Namen und weit
 
 * **Status**
 * **Anmeldename**
-* **Nachname, Vorname**<br>Ein Klick auf den Anmeldenamen, Nachnamen oder Vornamen einer Person führt zur Übersicht aller Kurse dieser Teilnehmer:in. So erhält die/der Lehrende Zugriff auf die Assessmentbereiche eines Kurses der Person inklusive des Zugriffes auf den jeweiligen Leistungsnachweis, das Bewertungswerkzeug des Kurses sowie die jeweiligen Lektionen. Auch das Suchfeld über dieser Kursliste kennt den Stern `*` als Platzhalter.
+* **Nachname, Vorname**<br>Ein Klick auf den Anmeldenamen, Nachnamen oder Vornamen einer Person führt zur Übersicht aller Kurse dieser Teilnehmer:in. So erhalten Sie für jeden Kurs der Person Zugriff auf ihren Leistungsnachweis, auf das Bewertungswerkzeug des Kurses und, ist im Kurs "Termin- und Absenzenverwaltung" eingeschaltet, auf die Termine. Auch das Suchfeld über dieser Kursliste kennt den Stern `*` als Platzhalter.
 * **E-Mail**
 * **Geschlecht**
 * **Geburtsdatum**
@@ -53,17 +53,17 @@ Mit dem Suchfeld oberhalb der Liste grenzen Sie die Personen nach Namen und weit
 * **Kurse**<br> In wie vielen der von Ihnen betreuten Kurse ist ein:e Benutzer:in Mitglied?
 * **Nicht besucht**<br> In wie vielen der von Ihnen betreuten Kurse ist ein:e Benutzer:in Mitglied, hat den Kurs aber noch nie besucht?
 * **Letzter Besuch**<br> Vor wie vielen Tagen war der letzte Besuch in einem der von Ihnen betreuten Kurse?
-* **durchschnittlicher Fortschritt**<br> Durchschnitt über alle von Ihnen betreuten Kurse
+* **ø Fortschritt**<br> Durchschnitt über alle von Ihnen betreuten Kurse
 * **Erfolgsstatus**
-    * "Bestanden"/"Nicht bestanden"/"keine Angabe" in grafischer Darstellung
-    * "Bestanden"/"Nicht bestanden"/"keine Angabe" in Zahlen
+    * "Bestanden"/"Nicht bestanden"/"Keine Angabe" in grafischer Darstellung
+    * "Bestanden"/"Nicht bestanden"/"Keine Angabe" in Zahlen
 * **Zertifikate**<br> Anzahl der erhaltenen Zertifikate / Anzahl der möglichen Zertifikate
 * **Weitere Aktionen** _(Icon mit 3 Punkten)_<br>
     * Kontaktieren (per E-Mail)
 
 !!! tip "Genaue Zahlen zum Erfolgsstatus"
 
-    Fahren Sie mit der Maus über den grafischen Balken in der Spalte "Erfolgsstatus". Ein Tooltip zeigt die genauen Zahlen: "Bestanden: X / Nicht bestanden: Y / Keine Angabe: Z" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+    Fahren Sie mit der Maus über den grafischen Balken in der Spalte "Erfolgsstatus". Ein Tooltip zeigt die genauen Zahlen mit Anteil in Prozent, zum Beispiel "Bestanden: 12 (60%) | Nicht bestanden: 3 (15%) | Keine Angabe: 5 (25%)" [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
 
 [Zum Seitenanfang ^](#people)
 
@@ -226,7 +226,7 @@ Ob dieser Button zur Verfügung steht, wird in der System-Administration festgel
 
 Ein durch Linienvorgesetzte oder Ausbildungsverantwortliche angelegtes Konto enthält automatisch eine Zuordnung der neu registrierten Person zur Organisationseinheit der Linienvorgesetzten bzw. Ausbildungsverantwortlichen.
 
-![Markierter Button Konto erstellen rechts oben, Fokus Linienvorgesetzte:r mit den Filter-Tabs Alle, Relevant, Ohne Kurse und Noch zu bestätigen.](assets/coaching_people_line_manager2_v1_de.png){ class="shadow lightbox" title="Personenliste im Coaching" }
+![Markierter Button Konto erstellen rechts oben, Fokus Linienvorgesetzte:r mit den Filter-Tabs Alle, Relevant, Ohne Kurse und Noch zu bestätigen](assets/coaching_people_line_manager2_v2_de.png){ class="shadow lightbox" title="Personenliste im Coaching · 2026.11.02" }
 
 ---
 
@@ -248,7 +248,7 @@ Verwendet das Angebot Formulare, führt OpenOlat Sie durch den [Assistenten der 
 Eine neue Mitarbeiterin soll im nächsten Monat einige Einführungskurse absolvieren.
 
 **Beispiel 2:**<br>
-Ihre Mitarbeiter:innen sind verpflichtet, Sicherheitskurse oder Compliancekurse zu machen. Weil sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r verantwortlich sind, buchen Sie alle Personen selbst ein.
+Ihre Mitarbeiter:innen sind verpflichtet, Sicherheitskurse oder Compliancekurse zu absolvieren. Weil Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r verantwortlich sind, buchen Sie alle Personen selbst ein.
 
 
 ---
@@ -278,7 +278,7 @@ Alternativ benutzen Sie den Link in der Benachrichtigung. Sind das Modul Course 
 
 ### Kontrollaufgaben {: #linemanager_educationmanager_observe}
 
-Sind Sie Linienvorgesetzte:r oder Ausbildungsverantwortliche:r können Sie sich über die Lernfortschritte innerhalb Ihrer Organisationseinheit jederzeit im Coaching Tool informieren. Auch eine automatische Benachrichtigung über alle erhaltenen Zertifikate ist möglich.
+Sind Sie Linienvorgesetzte:r oder Ausbildungsverantwortliche:r, können Sie sich über die Lernfortschritte innerhalb Ihrer Organisationseinheit jederzeit im Coaching Tool informieren. Auch eine automatische Benachrichtigung über alle erhaltenen Zertifikate ist möglich.
 
 Grundsätzlich werden Ihnen als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r Leserechte gewährt, die Bearbeitung ist jedoch eingeschränkt und bleibt den Betreuenden und Kursbesitzer:innen vorbehalten.
 
@@ -286,7 +286,7 @@ Grundsätzlich werden Ihnen als Linienvorgesetzte:r oder Ausbildungsverantwortli
 
 * Sie sehen, wer welche Kurse besucht, können aber nicht auf Checklisten, Aufgaben usw. innerhalb der Kurse zugreifen, um die Eintragungen der Teilnehmenden zu sehen.
 * Sie können sich erhaltene Badges und andere Leistungsdaten anzeigen lassen, aber selbst keine Badges vergeben.
-* Sie können sich Absenzen anzeigen lassen, aber nicht selbst erfassen. Dies müssen die Kursbesitzer:innen/Betreuer:innen. Das Erstellen von Absenzenreports ist dagegen möglich.
+* Sie können sich Absenzen anzeigen lassen, aber nicht selbst erfassen. Das übernehmen die Kursbesitzer:innen und Betreuer:innen. Das Erstellen von Absenzenreports ist dagegen möglich.
 * Sie können das Kreditpunkteguthaben und die Transaktionen einer Person einsehen, aber keine Kreditpunkte gutschreiben, abziehen oder stornieren. So sehen Sie zum Beispiel, ob jemand genug Kreditpunkte für die Rezertifizierung in einem Zertifikatsprogramm gesammelt hat. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"}
 
 In der Detailansicht einer Person finden Sie diese Angaben in eigenen Tabs: die besuchten Kurse im Tab [Kurse](#tab_courses), die erhaltenen Badges im Tab [Badges](#tab_badges), die Absenzen im Tab [Termine & Abwesenheiten](#tab_lectures) und die Kreditpunkte im Tab [Kreditpunkte](#tab_credit_points). Welcher Tab zu welchem Recht gehört, beschreibt der Abschnitt [Die Detailansicht einer Person](#person_detail_view_tabs).
@@ -314,14 +314,14 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
-[Eigene Rollen und Beziehungen definieren >](../../manual_user/basic_concepts/Assign_Roles.de.md)<br>
+[Rollen und Rechte: Rollen zuweisen >](../../manual_user/basic_concepts/Assign_Roles.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
-[Termine und Absenzen im Kurs >](../learningresources/Events_and_absences.de.md)<br>
+[Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
@@ -336,6 +336,6 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
-[Rollen >](../../manual_user/basic_concepts/Roles.de.md)
+[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)
 
 [Zum Seitenanfang ^](#people)

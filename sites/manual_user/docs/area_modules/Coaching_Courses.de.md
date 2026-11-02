@@ -39,7 +39,7 @@ Oberhalb der Liste stehen vordefinierte Filter-Tabs zur Verfügung. Sie schränk
 
 Im Fokus "Weitere Ressourcen" stehen nur die drei Tabs "Favoriten", "Alle" und "Beendet" zur Verfügung. Standard beim Öffnen ist hier "Alle". Die Tabs "Relevant", "Veröffentlicht" und "Freigabe Betreuer:innen" stehen hier nicht zur Wahl, weil OpenOlat für eingebundene Ressourcen und Vorlagen keine Kursstatistiken lädt. Aus demselben Grund fehlen die Filter zu Besuchen, Bewertungen, Teilnehmendenzahl und Zertifikaten. Verfügbar sind hier die Filter "Favoriten", "Durchführungszeitraum", "Status", "Durchführungsformat" und "Typ". Gehören Ihre Ressourcen zu Bildungsprodukten, kommt der Filter "Produkte" dazu. Ein Durchführungsformat tragen nur Kurse, Kursvorlagen eingeschlossen. Tests, Wikis und andere Lernressourcen fallen bei aktivem Filter "Durchführungsformat" aus der Liste.
 
-Betreuen Sie viele Kurse, finden Sie mit dem Filter "Durchführungsformat" die Kurse mit ähnlichem Betreuungsaufwand zusammen, etwa die Kurse im Selbststudium, deren Fortschritt laufend zu prüfen ist. Der Filter steht in allen Fokus-Einträgen bereit und grenzt die Liste auf Kurse eines oder mehrerer Formate ein, zum Beispiel auf alle Präsenzveranstaltungen [:octicons-tag-16:{ title="ab Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. Zur Wahl stehen alle Formate, welche die System-Administration unter `Administration > Module > Kurs`, Tab "Durchführungsformate" definiert hat, siehe [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#implementation_formats). Das Format eines Kurses wird im Kurs unter `Kurs > Administration > Einstellungen`, Tab "Metadaten" gewählt, siehe [Durchführungsformat](../learningresources/Course_Settings_Metadata.de.md#educational_type). Kurse ohne gewähltes Format erscheinen bei aktivem Filter nicht.
+Betreuen Sie viele Kurse, finden Sie mit dem Filter "Durchführungsformat" die Kurse mit ähnlichem Betreuungsaufwand zusammen, etwa die Kurse im Selbststudium, deren Fortschritt laufend zu prüfen ist. Der Filter steht in allen Fokus-Einträgen bereit und grenzt die Liste auf Kurse eines oder mehrerer Formate ein, zum Beispiel auf alle Präsenzveranstaltungen [:octicons-tag-16:{ title="ab Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. Zur Wahl stehen alle Formate, die in der System-Administration unter `Administration > Module > Kurs`, Tab "Durchführungsformate" definiert sind, siehe [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#implementation_formats). Das Format eines Kurses wird im Kurs unter `Kurs > Administration > Einstellungen`, Tab "Metadaten" gewählt, siehe [Durchführungsformat](../learningresources/Course_Settings_Metadata.de.md#educational_type). Kurse ohne gewähltes Format erscheinen bei aktivem Filter nicht.
 
 ![Filter Durchführungsformat mit Blended Learning und Präsenzveranstaltung gewählt, die Liste zeigt nur Kurse dieser Formate, die Spalte Durchführungsformat nennt das Format je Kurs](assets/coaching_courses_educational_type_filter_v1_de.png){ class="shadow lightbox" title="Kurse im Coaching, Filter Durchführungsformat · 2026.10.27" }
 
@@ -71,7 +71,7 @@ Der Platzhalter verhält sich damit gleich wie im Bereich [Kurse](Courses.de.md)
 
     Mit Klick auf die kleinen Buttons rechts oben über der Liste können Sie jederzeit zwischen der Listenansicht und der Tabellenansicht wechseln.
 
-![Kursliste im Fokus Als Betreuer:in in der Tabellenansicht: je Kurs Teilnehmer:innen, Besuche, Fortschritt, Erfolgsstatus, Punkte und Zertifikate, rechts Symbole für Bewertungswerkzeug und Infoseite](assets/coaching_courses3_v3_de.png){ class="shadow lightbox" title="Kurse im Coaching in der Tabellenansicht · 2026.10.27" }
+![Kursliste in der Tabellenansicht: je Kurs Teilnehmer:innen, Besuche, Fortschritt, Erfolgsstatus, Punkte und Zertifikate, rechts Symbole für Bewertungswerkzeug und Infoseite](assets/coaching_courses3_v4_de.png){ class="shadow lightbox" title="Kurse im Coaching in der Tabellenansicht · 2026.11.02" }
 
 
 Sie sehen auf einen Blick zum Beispiel
@@ -96,7 +96,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Ende** (Ende des Durchführungszeitraums dieses Kurses)
 * **Durchführungsformat** (Format, das im Kurs unter `Kurs > Administration > Einstellungen`, Tab "Metadaten" gewählt ist, zum Beispiel "Präsenzveranstaltung"; standardmässig ausgeblendet)
 * **Ref.** (Anzahl der Referenzierungen, nur bei aktivem Course Planner)
-* **Status** ("in Review", "Veröffentlicht", "Beendet")
+* **Status** (Status der Lernressource, zum Beispiel "Freigabe Betreuer:innen", "Veröffentlicht" oder "Beendet")
 * **Teilnehmer:innen** (Anzahl aller Teilnehmenden)
 * **Besucht** (Anzahl der Teilnehmenden, die diesen Kurs schon einmal besucht haben)
 * **Nicht besucht** (Anzahl der Teilnehmenden, die diesen Kurs noch nie besucht haben)
@@ -128,15 +128,15 @@ Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Autorenbereich - Übersicht >](Authoring.de.md)<br>
-[Modul Kurs (Admin) >](../../manual_admin/administration/Modules_Course.de.md)<br>
-[Kurseinstellungen: Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
+[Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
+[Kurseinstellungen - Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Kurse finden >](Courses.de.md)
 
 **Weiterführend**<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
@@ -145,6 +145,6 @@ Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
-[Rollen >](../../manual_user/basic_concepts/Roles.de.md)
+[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)
 
 [Zum Seitenanfang ^](#courses)

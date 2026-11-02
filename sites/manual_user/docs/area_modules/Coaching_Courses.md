@@ -39,7 +39,7 @@ Predefined filter tabs are available above the list. They narrow down which cour
 
 In the scope "Other resources", only the three tabs "Favourites", "All" and "Finished" are available. The default when opening is "All" here. The tabs "Relevant", "Published" and "Access for coach" are not available here, because OpenOlat does not load course statistics for embedded resources and templates. For the same reason, the filters for visits, assessments, number of participants and certificates are missing. Available here are the filters "Favourites", "Execution period", "Status", "Implementation format" and "Type". If your resources belong to educational products, the filter "Products" is added. Only courses carry an implementation format, course templates included. Tests, wikis and other learning resources drop out of the list when the filter "Implementation format" is active.
 
-If you coach many courses, the filter "Implementation format" brings together the courses with a similar coaching effort, for example the self-study courses whose progress you check continuously. The filter is available in all scopes and narrows down the list to courses of one or more formats, for example to all lectures [:octicons-tag-16:{ title="from Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. All formats that the system administration has defined under `Administration > Modules > Course`, tab "Implementation formats" are available for selection, see [Module Course](../../manual_admin/administration/Modules_Course.md#implementation_formats). The format of a course is selected in the course under `Course > Administration > Settings`, tab "Metadata", see [Implementation format](../learningresources/Course_Settings_Metadata.md#educational_type). Courses without a selected format do not appear when the filter is active.
+If you coach many courses, the filter "Implementation format" brings together the courses with a similar coaching effort, for example the self-study courses whose progress you check continuously. The filter is available in all scopes and narrows down the list to courses of one or more formats, for example to all lectures [:octicons-tag-16:{ title="from Release 21.0.6 (OO-9879)" }](https://track.frentix.com/issue/OO-9879){:target="_blank"}. All formats that are defined in the system administration under `Administration > Modules > Course`, tab "Implementation formats" are available for selection, see [Module Course](../../manual_admin/administration/Modules_Course.md#implementation_formats). The format of a course is selected in the course under `Course > Administration > Settings`, tab "Metadata", see [Implementation format](../learningresources/Course_Settings_Metadata.md#educational_type). Courses without a selected format do not appear when the filter is active.
 
 ![Filter Implementation format with Blended-learning and Lecture selected, the list shows only courses of these formats, the column Implementation format names the format per course](assets/coaching_courses_educational_type_filter_v1_en.png){ class="shadow lightbox" title="Courses in Coaching, filter Implementation format · 2026.10.27" }
 
@@ -71,7 +71,7 @@ The wildcard thus behaves in the same way as in the [Courses](Courses.md) area.
 
     By clicking on the small buttons at the top right above the list, you can switch between list view and table view at any time.
 
-![Course list in the scope As coach in table view: per course participants, visits, progress, success status, score and certificates, at the right the icons for the Assessment tool and the Info page](assets/coaching_courses3_v3_en.png){ class="shadow lightbox" title="Courses in Coaching in table view · 2026.10.27" }
+![Course list in table view: per course participants, visits, progress, success status, score and certificates, at the right the icons for the Assessment tool and the Info page](assets/coaching_courses3_v4_en.png){ class="shadow lightbox" title="Courses in Coaching in table view · 2026.11.02" }
 
 
 You see at a glance, for example,
@@ -96,7 +96,7 @@ You can choose which columns are displayed by clicking on the gear icon at the t
 * **End** (end of the implementation period of this course)
 * **Implementation format** (format selected in the course under `Course > Administration > Settings`, tab "Metadata", for example "Lecture"; hidden by default)
 * **Ref.** (number of references, only with an active Course Planner)
-* **Status** ("Review", "Published", "Finished")
+* **Status** (status of the learning resource, for example "Access for coach", "Published" or "Finished")
 * **Participants** (number of all participants)
 * **Visited** (number of participants who have already visited this course)
 * **Not visited** (number of participants who have never visited this course)
@@ -128,15 +128,15 @@ In the scope "Other resources", the list shows no participant, progress and cert
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assessment tool - Overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Authoring - Overview >](Authoring.md)<br>
-[Module Course (Admin) >](../../manual_admin/administration/Modules_Course.md)<br>
-[Course Settings: Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
+[Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
+[Course Settings - Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Finding courses >](Courses.md)
 
 **Further reading**<br>
+[Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
@@ -145,6 +145,6 @@ In the scope "Other resources", the list shows no participant, progress and cert
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
-[Roles >](../../manual_user/basic_concepts/Roles.md)
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)
 
 [To the top of the page ^](#courses)

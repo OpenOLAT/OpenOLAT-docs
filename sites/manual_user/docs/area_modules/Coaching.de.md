@@ -8,18 +8,18 @@ Verfügbar seit | Release 10.0 (2014)
 
 ## Wozu dient das Coaching Tool? {: #purpose}
 
-Das Coaching Tool dient der **kursübergreifenden** Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, sowie der Korrektur von Assessmentbausteinen, dem Absenzenmanagement und dem externen Korrektoren-Flow von OpenOlat Tests.
+Das Coaching Tool dient der kursübergreifenden Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, der Korrektur von bewertbaren Kursbausteinen, der Verwaltung von Terminen und Absenzen und dem Korrektur-Workflow von OpenOlat-Tests.
 
 Mit dem Coaching Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetreuer:innen, Ausbildungsverantwortliche und andere Berechtigte die Möglichkeit, alle ihnen zugewiesenen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
 
-![Markierter Hauptmenü-Eintrag Coaching, darunter die Buttons Personen, Kurse, Bildungsprodukte und Gruppen, die Aufgaben Bewertungsaufträge und Reports, die Auftragsverwaltung und die Widgets](assets/coaching_tools_v2_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching" }
+![Einstiegsseite Coaching: Buttons von Personen bis Gruppen führen zu den Betreuten, die Aufgaben von Ausstehende Bestätigungen bis Reports zu den Werkzeugen, darunter die Widgets Kurse und Termine](assets/coaching_tools_v3_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.11.02" }
 
 ---
 
 
 ## Die Werkzeuge [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #tools}
 
-Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unter den Buttons
+Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unter den Buttons der Bereiche "Coaching", "Aufgaben" und "Administration":
 
 * Personen
 * Kurse
@@ -34,7 +34,7 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 
 !!! note "Hinweis"
 
-    Ihr Menü wird oft nicht alle hier gezeigten Optionen enthalten. Je nach aktivierten Modulen und Rollen wird eine andere Zusammensetzung angezeigt. Hier im Handbuch soll zur Erklärung die maximale Auswahl gezeigt werden.
+    Ihr Menü wird oft nicht alle hier gezeigten Optionen enthalten. Je nach aktivierten Modulen und Rollen wird eine andere Zusammensetzung angezeigt. Das Handbuch beschreibt zur Erklärung die maximale Auswahl.
 
 [Zum Seitenanfang ^](#coaching)
 
@@ -42,7 +42,7 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 
 ## Wann ist das Coaching Tool verfügbar? [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) {: #availability}
 
-Sie suchen im Hauptmenü den Eintrag "Coaching" und finden ihn nicht? OpenOlat zeigt ihn allen, die andere Personen betreuen, korrigieren oder verwalten. Das Coaching Tool selbst ist fester Bestandteil von OpenOlat und lässt sich in der Administration nicht ausschalten.
+Sie suchen im Hauptmenü den Eintrag "Coaching" und finden ihn nicht? OpenOlat zeigt ihn allen, die andere Personen betreuen, korrigieren oder verwalten. Das Coaching Tool selbst ist fester Bestandteil von OpenOlat und lässt sich in der System-Administration nicht ausschalten.
 
 Der Eintrag "Coaching" erscheint, sobald mindestens einer dieser Punkte auf Sie zutrifft:
 
@@ -87,7 +87,7 @@ Sind Sie z.B. nur in einem Kurs direkt Betreuer:in, aber daneben Ausbildungsvera
 
 Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. Damit erhalten Sie eine Vorauswahl. In der Liste befinden sich dann nur noch von Ihnen betreute Personen, die Sie in dieser Rolle betreuen.
 
-![Markierte Fokus-Buttons über der Liste: gewählt ist Als Betreuer:in, daneben Als Kursbesitzer:in, Als Rolle Untergebene:r, Als Rolle Zu Beurteilende und Linienvorgesetzte:r](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" title="Personenliste im Coaching" }
+![Markierte Fokus-Buttons über der Personenliste: gewählt ist Als Betreuer:in, daneben Linienvorgesetzte:r; welche Fokus-Buttons erscheinen, hängt von Ihren Rollen ab](assets/coaching_focus_elements_v2_de.png){ class="shadow lightbox" title="Personenliste im Coaching · 2026.11.02" }
 
 
 [Zum Seitenanfang ^](#coaching)
@@ -99,9 +99,9 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 ### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
-Ein Trennbereich mit der Bezeichnung **"Übersicht"** grenzt den nachfolgend beschriebenen Widget-Bereich optisch von den darüberliegenden Buttons/Launchern ab.
+Unter den Buttons grenzt ein Trennbereich mit der Bezeichnung "Übersicht" die nachfolgend beschriebenen Widgets optisch ab.
 
-![Pfeil auf den Trennbereich Übersicht unter den Buttons der Bereiche Coaching und Aufgaben](assets/coaching_overview_v1_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching" }
+![Markierter Trennbereich Übersicht: er trennt die Buttons der Bereiche Coaching und Aufgaben von den Widgets darunter](assets/coaching_overview_v2_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.11.02" }
 
 ---
 
@@ -140,14 +140,14 @@ Pro Termin werden folgende Informationen angezeigt:
 !!! note "Hinweis"
     In der schmalen (mobilen) Ansicht entfällt die Ortsspalte. Es wird nur die Uhrzeit angezeigt.
 
-![Markiertes Widget Termine mit Wochenleiste, hervorgehobenem heutigem Tag, einem Termin mit Beginn und Dauer und dem Button Alle anzeigen](assets/coaching_widget_events_v1_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching" }
+![Markiertes Widget Termine mit Wochenleiste, Kalenderwoche und hervorgehobenem heutigem Tag, zwei Termine mit Beginn und Dauer und der Button Alle anzeigen](assets/coaching_widget_events_v2_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching · 2026.11.02" }
 
 #### Leerer Zustand
 
 Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis "Keine Termine bis Ende der Woche". Über die Schaltflächen "Vorheriger Termin" und "Nächster Termin" springen Sie zum nächstgelegenen Termin in der Vergangenheit oder Zukunft.
 
 !!! info "Wichtig"
-    Das Widget fehlt ganz, wenn Sie auf keinem einzigen Termin als Dozent:in eingetragen und kein Master Coach sind. Liegt in der angezeigten Woche kein Termin, erscheint dagegen der Leerzustand.
+    Das Widget fehlt ganz, wenn Sie auf keinem einzigen Termin als Dozent:in eingetragen und nicht Klassenlehrer:in sind. Liegt in der angezeigten Woche kein Termin, erscheint dagegen der Leerzustand.
 
 #### Zur Vollansicht
 
@@ -164,7 +164,7 @@ Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis "Ke
 
 Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 
-![Markiertes Widget Kurse - Als Betreuer:in mit den Kennzahlen Relevant, Favoriten, Veröffentlicht und Freigabe Betreuer:innen, darunter ein Kurs mit Fortschrittsbalken und der Button Alle anzeigen](assets/coaching_widget_courses_v1_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching" }
+![Markiertes Widget Kurse mit den Kennzahlen Relevant, Favoriten, Veröffentlicht und Freigabe Betreuer:innen, darunter die betreuten Kurse mit Fortschrittsbalken und der Button Alle anzeigen](assets/coaching_widget_courses_v2_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching · 2026.11.02" }
 
 Über den definierten Filter **"Relevant"** (standardmässig ausgewählt) oder eine der weiteren Filtervarianten erhalten Sie eine entsprechende Vorauswahl [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 

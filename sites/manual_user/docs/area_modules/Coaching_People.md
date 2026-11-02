@@ -14,7 +14,7 @@ The menu item "People" in the Coaching Tool shows the list of **all participants
   * The participants from **all** coached courses are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
   * Coaches only see the participants they coach.
   * The participants you coach are **grouped and assigned to the roles** you have as coach in relation to them.<br>
-  In the example shown above, the coach can access presorted lists that correspond to their roles:
+  Depending on your roles, you call up presorted lists with the scope buttons:
     * as coach
     * as course owner
     * as line manager
@@ -45,7 +45,7 @@ With the search field above the list, you narrow down the people by name and fur
 
 * **Status**
 * **Username**
-* **Last name, First name**<br>Clicking on the username, last name or first name of a person leads to the overview of all courses of this participant. This gives the teacher access to the assessment areas of a course of this person, including access to the respective evidence of achievement, the assessment tool of the course and the respective lectures. The search field above this course list also knows the asterisk `*` as a wildcard.
+* **Last name, First name**<br>Clicking on the username, last name or first name of a person leads to the overview of all courses of this participant. This gives you access, for each course of the person, to their evidence of achievement, to the assessment tool of the course and, if "Event & absence management" is switched on in the course, to the events. The search field above this course list also knows the asterisk `*` as a wildcard.
 * **E-mail**
 * **Gender**
 * **Birth date**
@@ -53,17 +53,17 @@ With the search field above the list, you narrow down the people by name and fur
 * **Courses**<br> In how many of the courses you coach is a user a member?
 * **Not visited**<br> In how many of the courses you coach is a user a member but has never visited the course?
 * **Last visit**<br> How many days ago was the last visit to one of the courses you coach?
-* **Average progress**<br> Average across all courses you coach
+* **ø Progress**<br> Average across all courses you coach
 * **Success status**
-    * "Passed"/"Not passed"/"Not specified" in graphic depiction
-    * "Passed"/"Not passed"/"Not specified" in numbers
+    * "Passed"/"Not passed"/"Undefined" in graphic depiction
+    * "Passed"/"Not passed"/"Undefined" in numbers
 * **Certificates**<br> Number of certificates received / Number of possible certificates
 * **Further actions** _(icon with 3 dots)_<br>
     * Contact (by e-mail)
 
 !!! tip "Exact numbers for the success status"
 
-    Hover the mouse over the graphic bar in the "Success status" column. A tooltip shows the exact numbers: "Passed: X / Not passed: Y / Not specified: Z" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
+    Hover the mouse over the graphic bar in the "Success status" column. A tooltip shows the exact numbers with their share in percent, for example "Passed: 12 (60%) | Not passed: 3 (15%) | Undefined: 5 (25%)" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9229)" }](https://track.frentix.com/issue/OO-9229){:target="_blank"}.
 
 [To the top of the page ^](#people)
 
@@ -286,7 +286,7 @@ As a line manager or education manager, you are generally granted read access, b
 
 * You can see who is attending which courses, but you cannot access checklists, tasks etc. within the courses to view the entries of the participants.
 * You can view received badges and other performance data, but you cannot award badges yourself.
-* You can view absences, but you cannot record them yourself. This must be done by the course owners/coaches. Creating absence reports, however, is possible.
+* You can view absences, but you cannot record them yourself. The course owners and coaches do this. Creating absence reports, however, is possible.
 * You can view the credit point balance and the transactions of a person, but you cannot credit, remove or cancel credit points. This way you see, for example, whether someone has collected enough credit points for the recertification in a certification program. [:octicons-tag-16:{ title="from Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"}
 
 In the detail view of a person, you find this information in separate tabs: the courses attended in the tab [Courses](#tab_courses), the badges received in the tab [Badges](#tab_badges), the absences in the tab [Events & Absences](#tab_lectures) and the credit points in the tab [Credit points](#tab_credit_points). Which tab belongs to which right is described in the section [The detail view of a person](#person_detail_view_tabs).
@@ -314,14 +314,14 @@ Open a person and switch to "Educational products". The list shows the implement
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
-[Define own roles and relations >](../../manual_user/basic_concepts/Assign_Roles.md)<br>
+[Roles and Rights: Assign roles >](../../manual_user/basic_concepts/Assign_Roles.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
-[Events and absences in the course >](../learningresources/Events_and_absences.md)<br>
+[Events and absences >](../learningresources/Events_and_absences.md)<br>
 [Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
@@ -336,6 +336,6 @@ Open a person and switch to "Educational products". The list shows the implement
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
-[Roles >](../../manual_user/basic_concepts/Roles.md)
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)
 
 [To the top of the page ^](#people)

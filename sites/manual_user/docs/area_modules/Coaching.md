@@ -8,18 +8,18 @@ Available since | Release 10.0 (2014)
 
 ## What is the Coaching Tool for? {: #purpose}
 
-The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the correction of assessment modules, the absence management and the external corrector flow of OpenOlat tests.
+The Coaching Tool is used for the cross-course organisation and administration of courses, participants and groups, for the correction of assessable course elements, for the management of events and absences and for the correction workflow of OpenOlat tests.
 
 With the Coaching Tool, course owners, course coaches, group coaches, education managers and other authorised persons have the possibility to see and manage all course or group participants assigned to them at a glance. They can then quickly go from these overviews to the assessment tool for individual participants in different ways.
 
-![Marked main menu entry Coaching, below it the buttons People, Courses, Educational products and Groups, the tasks Assessment orders and Reports, the Order management and the widgets](assets/coaching_tools_v2_en.png){ class="shadow lightbox" title="Coaching entry page" }
+![Coaching entry page: buttons from People to Groups lead to the people you coach, the assignments from Pending confirmations to Reports to the tools, below them the widgets Courses and Events](assets/coaching_tools_v3_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.11.02" }
 
 ---
 
 
 ## The tools [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #tools}
 
-You can find access to the data of the persons you coach and the tools under the buttons
+You can find access to the data of the persons you coach and the tools under the buttons of the sections "Coaching", "Assignments" and "Administration":
 
 * People
 * Courses
@@ -34,7 +34,7 @@ You can find access to the data of the persons you coach and the tools under the
 
 !!! note "Note"
 
-    Your menu will often not contain all the options shown here. Depending on the activated modules and roles, a different composition is displayed. Here in the manual, the maximum selection is shown for explanation.
+    Your menu will often not contain all the options shown here. Depending on the activated modules and roles, a different composition is displayed. The manual describes the maximum selection for explanation.
 
 [To the top of the page ^](#coaching)
 
@@ -42,7 +42,7 @@ You can find access to the data of the persons you coach and the tools under the
 
 ## When is the Coaching Tool available? [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) {: #availability}
 
-You are looking for the "Coaching" entry in the main menu and cannot find it? OpenOlat shows it to everyone who coaches, corrects or manages other people. The Coaching Tool itself is an integral part of OpenOlat and cannot be switched off in the administration.
+You are looking for the "Coaching" entry in the main menu and cannot find it? OpenOlat shows it to everyone who coaches, corrects or manages other people. The Coaching Tool itself is an integral part of OpenOlat and cannot be switched off in the system administration.
 
 The "Coaching" entry appears as soon as at least one of these points applies to you:
 
@@ -87,7 +87,7 @@ If, for example, you are only a direct coach in one course but also an education
 
 You can select one of your roles using the scopes above the list. This will give you a preselection. The list will then only contain people you are responsible for in this role.
 
-![Marked scope buttons above the list: As coach is selected, next to it As course owner, As role Subordinate, As role To be assessed and Line manager](assets/coaching_focus_elements_v1_de.png){ class="shadow lightbox" title="People list in Coaching" }
+![Marked scope buttons above the people list: As coach is selected, next to it Line manager; which scope buttons appear depends on your roles](assets/coaching_focus_elements_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.11.02" }
 
 
 [To the top of the page ^](#coaching)
@@ -99,9 +99,9 @@ You can select one of your roles using the scopes above the list. This will give
 
 ### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
 
-A separator area labelled **"Overview"** visually separates the widget area described below from the buttons/launchers above it.
+Below the buttons, a separator area labelled "Overview" visually sets off the widgets described below.
 
-![Arrow pointing to the separator area Overview below the buttons of the sections Coaching and Tasks](assets/coaching_overview_v1_en.png){ class="shadow lightbox" title="Coaching entry page" }
+![Marked separator area Overview: it separates the buttons of the sections Coaching and Assignments from the widgets below](assets/coaching_overview_v2_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.11.02" }
 
 ---
 
@@ -140,7 +140,7 @@ Each event shows the following information:
 !!! note "Note"
     In the narrow (mobile) view, the location column is omitted. Only the time is shown.
 
-![Marked widget Events with the week bar, today highlighted, one event with start time and duration and the Show all button](assets/coaching_widget_events_v1_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page" }
+![Marked widget Events with the week bar, calendar week and today highlighted, two events with start time and duration and the Show all button](assets/coaching_widget_events_v2_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page · 2026.11.02" }
 
 #### Empty state
 
@@ -164,7 +164,7 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-924
 
 The **Courses - As coach** widget shows the courses you coach.
 
-![Marked widget Courses - As coach with the key figures Relevant, Favourites, Published and Access for coach, below them a course with a progress bar and the Show all button](assets/coaching_widget_courses_v1_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page" }
+![Marked widget Courses with the key figures Relevant, Favourites, Published and Access for coach, below them the coached courses with progress bars and the Show all button](assets/coaching_widget_courses_v2_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page · 2026.11.02" }
 
 Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
