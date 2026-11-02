@@ -37,7 +37,7 @@ Mit "Buchbare und offene Angebote" buchen Teilnehmende den Kurs oder die Lernres
 
 [Details zum Tab "Freigabe" >](../learningresources/Course_Settings_Share.de.md)
 
-### Lernressource verlassen {: #leave_learning_resource}
+### Lernressource verlassen [:octicons-tag-16:{ title="ab Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405) {: #leave_learning_resource}
 
 Wer einen Kurs freiwillig belegt hat, möchte ihn oft auch selbst wieder verlassen können. Mit der Einstellung "Teilnehmer:innen können austreten" im Tab "Freigabe" legen Sie fest, ob und wann Teilnehmende das dürfen. Die Einstellung erscheint beim Verwendungszweck "Eigenständig", siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#sections_by_usage). Zur Wahl stehen:
 
@@ -53,21 +53,21 @@ Dürfen Teilnehmende den Kurs verlassen, wählen sie in der Kurs-Toolbar im Men�
 
 ### Administrative Freigabe
 
-Im Abschnitt "Administrative Freigabe" wählen Sie die Organisation oder Unterorganisation, für die der Kurs den administrativen Rollen freigegeben ist. Dazu zählen andere Autor:innen (je nach Recht), Lernressourcenverwalter:innen, Principals und Administrator:innen. Den Abschnitt gibt es nur, wenn das Modul Organisationen eingeschaltet ist.
+Im Feld "Administrative Freigabe" ordnen Sie den Kurs einer oder mehreren Organisationen zu. Davon hängt ab, welche Personen mit einer administrativen Rolle auf den Kurs zugreifen und ihn im Autorenbereich finden. Was die einzelnen Rollen dürfen und welche Organisationen zur Auswahl stehen, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_share_admin_access).
 
-Ausserdem legen Sie im Tab "Freigabe" fest, welche Rechte andere Autor:innen an der Lernressource haben. Diese Rechte gelten für alle Autor:innen der OpenOlat-Instanz. Mit diesen Rechten sehen andere Autor:innen die Lernressource, sobald sie nicht mehr im Status "Vorbereitung" ist.
+Die Autor:innen der Organisationen, denen der Kurs zugeordnet ist, erhalten zusätzlich die Rechte, die Sie im Tab "Freigabe" unter "Autor:innen können" festlegen. Mit diesen Rechten sehen sie die Lernressource, sobald sie nicht mehr im Status "Vorbereitung" ist.
 
 Autor:innen können | Erklärung
 :-----|:------------------
-referenzieren | Lernressourcen wie zum Beispiel Glossar, Formular, Video oder Test können in Kurse anderer Autor:innen eingebunden werden. Komplette Kurse können auch in Gruppen eingebunden werden.
-kopieren | Die Lernressource kann von allen anderen Autor:innen kopiert und so weitergenutzt und in der kopierten Variante auch verändert werden.
-exportieren | Die Lernressource ist für alle anderen Autor:innen zum Download freigegeben und kann auch wieder in OpenOlat importiert werden.
+einbinden | Lernressourcen wie zum Beispiel Glossar, Formular, Video oder Test lassen sich in Kurse dieser Autor:innen einbinden. Bei Kursen heisst die Option "in Gruppen einbinden": Der Kurs lässt sich in Gruppen einbinden.
+kopieren | Die Autor:innen können die Lernressource kopieren und die Kopie weiterverwenden und verändern.
+Inhalt exportieren | Die Autor:innen können die Lernressource herunterladen und wieder in OpenOlat importieren.
 
 !!! warning "Achtung"
 
-    Die Optionen "referenzieren" und "kopieren" eignen sich, wenn Sie eine Lernressource anderen Autor:innen als Vorlage oder gutes Beispiel bereitstellen möchten. Bei Kursen ist eine Referenzierung selten sinnvoll, vermeiden Sie sie dort.
+    Die Optionen "einbinden" und "kopieren" eignen sich, wenn Sie eine Lernressource anderen Autor:innen als Vorlage oder gutes Beispiel bereitstellen möchten. Bei Kursen ist "in Gruppen einbinden" selten sinnvoll, vermeiden Sie es dort.
 
-    Jede dieser Freigaben gilt für alle anderen Autor:innen der OpenOlat-Instanz. Prüfen Sie deshalb vorher, ob Sie das wirklich wollen.
+    Jedes dieser Rechte gilt für alle Autor:innen der Organisationen, denen der Kurs zugeordnet ist. Prüfen Sie deshalb vorher, ob Sie das wirklich wollen.
 
 
 

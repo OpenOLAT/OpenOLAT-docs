@@ -37,7 +37,7 @@ With "Bookable and open offers", participants book the course or the learning re
 
 [Details on the tab "Share" >](../learningresources/Course_Settings_Share.md)
 
-### Leaving a learning resource {: #leave_learning_resource}
+### Leaving a learning resource [:octicons-tag-16:{ title="from Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405) {: #leave_learning_resource}
 
 Anyone who has taken a course voluntarily often wants to be able to leave it on their own again. With the setting "Participants can leave" in the tab "Share", you define whether and when participants may do so. The setting appears with the usage "Standalone", see [Course settings - Tab Share](Course_Settings_Share.md#sections_by_usage). The following options are available:
 
@@ -51,23 +51,23 @@ If participants may leave the course, they select the entry "Leave course" in th
 
 ![Entry Leave course in the opened menu My course of the course toolbar, set off below a separator](assets/toolbar_my_course_leave_menu_v1_en.png){ class="shadow lightbox" title="Menu My course in the course toolbar · 2026.10.20" }
 
-### Administrative release
+### Administrative access {: #administrative-release}
 
-In the section "Administrative release", you select the organisation or sub-organisation for which the course is released to the administrative roles. These include other authors (depending on rights), learning resource managers, principals and administrators. The section only exists if the module Organisations is switched on.
+In the field "Administrative access", you assign the course to one or more organisations. This determines which persons with an administrative role can access the course and find it in Authoring. What the individual roles may do and which organisations are available for selection is described on the page [Course settings - Tab Share](Course_Settings_Share.md#section_share_admin_access).
 
-In addition, you define in the tab "Share" which rights other authors have to the learning resource. These rights apply to all authors of the OpenOlat instance. With these rights, other authors see the learning resource as soon as it is no longer in the status "Preparation".
+The authors of the organisations to which the course is assigned additionally receive the rights that you define in the tab "Share" under "Authors can". With these rights, they see the learning resource as soon as it is no longer in the status "Preparation".
 
 Authors can | Description
 :-----|:------------------
-reference | Learning resources such as glossary, form, video or test can be embedded in courses of other authors. Complete courses can also be embedded in groups.
-copy | The learning resource can be copied by all other authors and thus reused and also modified in the copied variant.
-export | The learning resource is released for download by all other authors and can also be imported back into OpenOlat.
+embed | Learning resources such as glossary, form, video or test can be embedded in courses of these authors. For courses, the option is called "embed in groups": the course can be embedded in groups.
+copy | The authors can copy the learning resource and reuse and modify the copy.
+export content | The authors can download the learning resource and import it back into OpenOlat.
 
 !!! warning "Attention"
 
-    The options "reference" and "copy" are suitable if you want to provide a learning resource to other authors as a template or good example. For courses, referencing is rarely useful, so avoid it there.
+    The options "embed" and "copy" are suitable if you want to provide a learning resource to other authors as a template or good example. For courses, "embed in groups" is rarely useful, so avoid it there.
 
-    Each of these releases applies to all other authors of the OpenOlat instance. Therefore check beforehand whether you really want this.
+    Each of these rights applies to all authors of the organisations to which the course is assigned. Therefore check beforehand whether you really want this.
 
 
 

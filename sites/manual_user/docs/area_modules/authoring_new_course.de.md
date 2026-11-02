@@ -10,6 +10,10 @@ Einige Einträge zeigt das Menü nur, wenn die System-Administration die zugehö
 
 Die Buttons "Erstellen" und "Datei importieren" sehen Autor:innen, Lernressourcenverwalter:innen und Administrator:innen.
 
+Wählen Sie einen Eintrag, öffnet OpenOlat einen Dialog zum Erstellen. Pflichtfelder sind "Titel" und, wenn das Modul Organisationen eingeschaltet ist, "Administrative Freigabe".
+
+Unter "Administrative Freigabe" wählen Sie eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird. Davon hängt ab, welche Personen mit einer administrativen Rolle in diesen Organisationen auf die Lernressource zugreifen und sie im Autorenbereich finden. Zur Auswahl stehen die Organisationen, in denen Sie die Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in haben. Haben Sie diese Rollen nur in einer Organisation, lässt sich das Feld nicht ändern. Mehr dazu unter [Administrative Freigabe](../learningresources/Course_Settings_Share.de.md#section_share_admin_access).
+
 Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 
 * Kurs erstellen <br>
@@ -63,11 +67,11 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 ### Datei importieren
 Lernressourcen, die ausserhalb von OpenOlat erstellt oder aus einem anderen OpenOlat-System exportiert wurden, können in OpenOlat importiert werden: vorausgesetzt, sie liegen in einem kompatiblen Format vor. Importieren lassen sich aus OpenOlat exportierte Lernressourcen, Videos im Format MP4, die Standardformate IMS Content Packaging, IMS QTI 2.1 Test und SCORM 1.2 sowie beliebige Dateien.
 
-Im Dialog "Datei importieren" laden Sie die Datei im Feld "Datei" hoch und wählen unter "Administrative Freigabe" die Organisation, der die Lernressource zugeordnet wird. Nach dem Hochladen zeigt der Dialog den erkannten Typ und das Feld "Titel der Lernressource" mit dem Titel aus der Datei, den Sie anpassen können.
+Im Dialog "Datei importieren" laden Sie die Datei im Feld "Datei" hoch und wählen unter "Administrative Freigabe" eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird. Nach dem Hochladen zeigt der Dialog den erkannten Typ und das Feld "Titel der Lernressource" mit dem Titel aus der Datei, den Sie anpassen können.
 
 Verwendet die importierte Lernressource weitere Lernressourcen, zum Beispiel ein Kurs mit einem Wiki oder einem Test, zeigt der Dialog zusätzlich "Referenzierte Ressourcen". Die Option "importieren und verknüpfen" ist vorausgewählt: OpenOlat importiert die verwendeten Lernressourcen mit und verknüpft sie. Nach dem Import eines Kurses publizieren Sie ihn im Kurseditor, damit seine Inhalte für Sie und andere OpenOlat-Benutzer:innen sichtbar sind.
 
-Am Ende des Imports öffnet OpenOlat die Einstellungen der Lernressource auf dem [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md). Dort prüfen Sie Titel und Kennzeichen und nehmen weitere Konfigurationen vor, etwa die Lizenz.
+Am Ende des Imports öffnet OpenOlat die Einstellungen der Lernressource auf dem [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md). Dort prüfen Sie Titel und Kennzeichen und legen weitere Einstellungen fest, etwa die Lizenz.
 
 ### Per URL einbinden [:octicons-tag-16:{ title="ab Release 13.2 (OO-3859)" }](https://track.frentix.com/issue/OO-3859)
 Externe Medien lassen sich auch per URL einbinden, ohne die Datei nach OpenOlat hochzuladen. Öffnen Sie dazu im Autorenbereich das Auswahlmenü neben dem Button "Datei importieren" und wählen Sie "Per URL einbinden".
@@ -95,7 +99,7 @@ Der Dialog enthält folgende Felder:
 | **Typ** | Der erkannte Ressourcentyp. Passen mehrere Typen zur URL, wählen Sie hier den gewünschten aus. |
 | **Titel der Lernressource** | Pflichtfeld. Name der neuen Lernressource. Bei Videos wird der Titel aus der Quelle vorausgefüllt und kann angepasst werden. |
 | **Kennzeichen** | Optionale externe Kennung, die in der Kursübersicht angezeigt wird, siehe [Kennzeichen](../learningresources/Course_Settings_Metadata.de.md#externalref). |
-| **Administrative Freigabe** | Pflichtfeld. Organisation, der die Lernressource administrativ zugeordnet wird. |
+| **Administrative Freigabe** | Pflichtfeld. Eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird, siehe [Administrative Freigabe](../learningresources/Course_Settings_Share.de.md#section_share_admin_access). |
 
 Mit "Einbinden" erstellen Sie die Lernressource.
 
@@ -107,6 +111,7 @@ Mit "Einbinden" erstellen Sie die Lernressource.
 
 **Auf dieser Seite erwähnt**<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
 [Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Tests erstellen >](../learningresources/Test.de.md)<br>

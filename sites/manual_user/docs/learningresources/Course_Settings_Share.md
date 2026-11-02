@@ -45,7 +45,7 @@ The descriptions of the following sections assume the usage "Standalone".
 
 ---
 
-## Section usage [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9805)" }](https://track.frentix.com/issue/OO-9805){:target="_blank"} {: #section_usage}
+## Section Usage [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9805)" }](https://track.frentix.com/issue/OO-9805){:target="_blank"} {: #section_usage}
 
 The usage defines where the members of a learning resource come from: from its own member management, from the Course Planner or from the place where it is embedded. New courses are standalone as long as the Course Planner module is not activated.
 
@@ -112,8 +112,16 @@ Whoever receives this link opens the course directly with it. If the person is n
 
 #### Administrative access {: #section_share_admin_access}
 
-People with certain higher-level roles (e.g., administrators, learning resource managers) can also access this course from the organisations selected here. Because these roles exist per organisation (e.g., admin for department xy), you can determine here which organisations have administrative access to your course. The field only appears if the Organisations module is activated.<br>
-You can see how many people have administrative access in the [share overview >](#section_share_overview).
+With the administrative access, you assign the course to one or more organisations. This determines who besides the members can access the course: persons who have an administrative role in these organisations. Because these roles exist per organisation, for example learning resource manager of a department, you determine here which organisations have administrative access to your course. Per role:
+
+- **Administrators and learning resource managers** have full access and find the course in Authoring.
+- **Principals** read content and assessment data and also find the course in Authoring.
+- **Course planners** read the content and use the course in the Course Planner.
+- **Authors** of these organisations see the course from the status "Review" if you grant them at least one right under "Authors can".
+
+You can select the organisations in which you have the role author, learning resource manager or administrator. The field is mandatory and only appears if the Organisations module is activated. The roles are described on the page [Roles and Rights](../basic_concepts/Roles.md#org).
+
+You can see how many people have administrative access in the [share overview >](#section_share_overview)
 
 #### Authors can {: #section_share_authors}
 
@@ -126,14 +134,14 @@ To let external OER catalogues and search engines find your course, select the c
 This requires the OAI-PMH module, which your administration switches on. OpenOlat only passes the course on once it has the status "Published". If your administration requires specific licences, the course must also carry one of them. If the course is not published or lacks the required licence, a warning below the checkbox names the reason.
 
 Find out more about OER here:<br>
-How-to: [Release courses for indexing >](../../manual_how-to/oai_pmh/oai_pmh.md#wie-sehe-ich-im-autorenbereich-welche-kurselernressourcen-zur-indexierung-freigegeben-sind)<br>
+How-to: [Release courses for indexing >](../../manual_how-to/oai_pmh/oai_pmh.md#how-do-i-see-in-the-authoring-area-which-courseslearning-resources-are-enabled-for-indexing)<br>
 Admin Manual: [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.md)
 
 [To the top of the page ^](#tab_share)
 
 ---
 
-## Section offer [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
+## Section Offer [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
 
 ![As long as access for participants is set to Private, the Add offer button is inactive, and the section states the reason](assets/course_settings_share_offer_v2_en.png){ class="shadow lightbox" title="Offer section in the Share tab · 2026.10.09" }
 
@@ -163,7 +171,7 @@ You can find more information about sharing a course via LTI here:<br>
 
 ---
 
-## Section Share Overview {: #section_share_overview}
+## Share overview {: #section_share_overview}
 
 ![Member counts by role, assigned groups and products, plus the administratively authorised persons with their rights](assets/course_settings_share_overview_v1_en.png){ class="shadow lightbox" title="Share overview in the Share tab · 2026.10.09" }
 
@@ -186,6 +194,7 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 [How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Offer concepts: Cancellation policy for invoice offers >](../basic_concepts/Offer_Concepts.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Module OAI-PMH >](../../manual_admin/administration/Modules_OAI.md)<br>
 [Catalog 2.0 - Overview >](../area_modules/catalog2.0.md)<br>

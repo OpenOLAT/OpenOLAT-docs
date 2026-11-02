@@ -113,7 +113,15 @@ Wer diesen Link erhält, ruft den Kurs damit direkt auf. Ist die Person nicht in
 
 #### Administrative Freigabe {: #section_share_admin_access}
 
-Aus den hier ausgewählten Organisationen können Personen mit bestimmten übergeordneten Rollen (z.B. Administrator:innen, Lernressourcenverwalter:innen) ebenfalls auf diesen Kurs zugreifen. Weil es diese Rollen pro Organisation gibt (z.B. Admin für Abteilung xy), können Sie hier bestimmen, welche Organisationen administrativen Zugriff auf Ihren Kurs erhalten. Das Feld erscheint nur, wenn das Modul Organisationen aktiviert ist.<br>
+Mit der Administrativen Freigabe ordnen Sie den Kurs einer oder mehreren Organisationen zu. Davon hängt ab, wer ausser den Mitgliedern auf den Kurs zugreift: Personen, die in diesen Organisationen eine administrative Rolle haben. Weil es diese Rollen pro Organisation gibt, etwa Lernressourcenverwalter:in einer Abteilung, bestimmen Sie hier, welche Organisationen administrativen Zugriff auf Ihren Kurs erhalten. Je Rolle gilt:
+
+- **Administrator:innen und Lernressourcenverwalter:innen** haben Vollzugriff und finden den Kurs im Autorenbereich.
+- **Principals** lesen Inhalt und Bewertungsdaten und finden den Kurs ebenfalls im Autorenbereich.
+- **Kursplaner:innen** lesen den Inhalt und verwenden den Kurs im Course Planner.
+- **Autor:innen** dieser Organisationen sehen den Kurs ab dem Status "Review", wenn Sie ihnen unter "Autor:innen können" mindestens ein Recht geben.
+
+Zur Auswahl stehen die Organisationen, in denen Sie die Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in haben. Das Feld ist ein Pflichtfeld und erscheint nur, wenn das Modul Organisationen aktiviert ist. Die Rollen beschreibt die Seite [Rollen und Rechte](../basic_concepts/Roles.de.md#org).
+
 Wie viele Personen administrativ zugreifen können, sehen Sie in der [Freigabeübersicht >](#section_share_overview)
 
 #### Autor:innen können {: #section_share_authors}
@@ -189,6 +197,7 @@ Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produk
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../basic_concepts/Offer_Concepts.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>

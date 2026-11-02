@@ -10,6 +10,10 @@ Some entries only appear in the menu if the system administration has switched o
 
 The "Create" and "Import file" buttons are shown to authors, learning resource managers and administrators.
 
+When you select an entry, OpenOlat opens a dialog for creating it. Mandatory fields are "Title" and, if the Organisations module is switched on, "Administrative access".
+
+Under "Administrative access", you select one or more organisations to which the learning resource is assigned. This determines which persons with an administrative role in these organisations can access the learning resource and find it in Authoring. You can select the organisations in which you have the role author, learning resource manager or administrator. If you have these roles in only one organisation, the field cannot be changed. More on this under [Administrative access](../learningresources/Course_Settings_Share.md#section_share_admin_access).
+
 The specific creation process is described on the following pages:
 
 * Creating courses <br>
@@ -63,11 +67,11 @@ The specific creation process is described on the following pages:
 ### Import file
 Learning resources created outside OpenOlat or exported from another OpenOlat system can be imported into OpenOlat, provided they are in a compatible format. You can import learning resources exported from OpenOlat, videos in MP4 format, the standard formats IMS Content Packaging, IMS QTI 2.1 assessment and SCORM 1.2, as well as any files.
 
-In the "Import file" dialog, you upload the file in the "File" field and select under "Administrative access" the organisation to which the learning resource is assigned. After the upload, the dialog shows the detected type and the field "Title of learning resource" with the title from the file, which you can adjust.
+In the "Import file" dialog, you upload the file in the "File" field and select under "Administrative access" one or more organisations to which the learning resource is assigned. After the upload, the dialog shows the detected type and the field "Title of learning resource" with the title from the file, which you can adjust.
 
 If the imported learning resource uses other learning resources, for example a course with a wiki or a test, the dialog also shows "Referenced resources". The option "import and link" is preselected: OpenOlat also imports the learning resources used and links them. After importing a course, publish it in the course editor so that its content is visible to you and other OpenOlat users.
 
-At the end of the import, OpenOlat opens the settings of the learning resource on the ["Metadata" tab](../learningresources/Course_Settings_Metadata.md). There you check the title and reference and make further configurations, for example the license.
+At the end of the import, OpenOlat opens the settings of the learning resource on the ["Metadata" tab](../learningresources/Course_Settings_Metadata.md). There you check the title and reference and define further settings, for example the license.
 
 ### Embed via URL [:octicons-tag-16:{ title="from Release 13.2 (OO-3859)" }](https://track.frentix.com/issue/OO-3859)
 External media can also be embedded via URL without uploading the file to OpenOlat. To do so, open the selection menu next to the "Import file" button in Authoring and select "Embed via URL".
@@ -95,7 +99,7 @@ The dialog contains the following fields:
 | **Type** | The detected resource type. If several types match the URL, select the desired one here. |
 | **Title of learning resource** | Mandatory field. Name of the new learning resource. For videos, the title is prefilled from the source and can be adjusted. |
 | **Reference** | Optional external identifier, displayed on the course overview page, see [Reference](../learningresources/Course_Settings_Metadata.md#externalref). |
-| **Administrative access** | Mandatory field. Organisation to which the learning resource is administratively assigned. |
+| **Administrative access** | Mandatory field. One or more organisations to which the learning resource is assigned, see [Administrative access](../learningresources/Course_Settings_Share.md#section_share_admin_access). |
 
 Click "Embed" to create the learning resource.
 
@@ -107,6 +111,7 @@ Click "Embed" to create the learning resource.
 
 **Mentioned on this page**<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
 [Creating Courses >](../learningresources/Creating_Course.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Creating Tests >](../learningresources/Test.md)<br>
