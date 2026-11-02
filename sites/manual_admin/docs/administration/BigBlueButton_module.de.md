@@ -48,20 +48,39 @@ Mit Klick auf den Button "Server hinzufügen" im Tab "Konfiguration" öffnen Sie
 
 ## Tab "Server" {: #tab_server}
 
-Hier werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-Instanz angezeigt.
+Der Tab zeigt, wie stark die BigBlueButton-Server dieser OpenOlat-Instanz gerade ausgelastet sind und ob sie erreichbar sind. Je Server stehen Kapazität, laufende Meetings, Anzahl Personen nach Rolle und Medium sowie die Last. Die Spalte "Status" zeigt mit einem Haken "Verfügbar" oder mit einem Warnsymbol "Scheint offline zu sein".
 
-![Je Server Kapazität und aktuelle Last, der Filter trennt dieses OpenOlat von allen OpenOlats](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" title="Tab Server im Modul BigBlueButton" }
+![Spalte Status gerahmt: acht Server mit Warnsymbol, nur einer mit Haken trägt Meetings und Teilnehmende, der Filter wählt zwischen allen OpenOlats und diesem OpenOlat](assets/bigbluebutton_module_servers_v1_de.png){ class="shadow lightbox" title="Tab Server im Modul BigBlueButton · 2026.11.02" }
 
 
 ### Verteilung auf die Server [:octicons-tag-16:{ title="ab Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
 
-OpenOlat verteilt die Last gleichzeitiger Online-Termine selbst auf die verfügbaren BigBlueButton-Server. Dabei zählen die Anzahl Videos und die Anzahl Teilnehmende der laufenden Online-Termine. Beim Start eines Online-Termins wählt OpenOlat den Server mit der geringsten Auslastung. Den Start löst je nach Konfiguration die Moderator:in oder die erste teilnehmende Person aus. Die Auslastung ergibt sich aus diesen Werten, gewichtet mit dem Wert im Feld "Capacity factor".
+OpenOlat verteilt die Last gleichzeitiger Online-Termine selbst auf die verfügbaren BigBlueButton-Server. Dabei zählen die Anzahl Videos und die Anzahl Teilnehmende der laufenden Online-Termine. Beim Start eines Online-Termins wählt OpenOlat den Server mit der geringsten Auslastung. Den Start löst je nach Konfiguration eine moderierende Person oder die erste teilnehmende Person aus. Die Auslastung ergibt sich aus diesen Werten, gewichtet mit dem Wert im Feld "Capacity factor".
 
 Über den Filter zeigen Sie die Kennzahlen für alle OpenOlat-Instanzen auf dem BigBlueButton-Server ("Alle OpenOlats") oder nur für die Online-Termine dieser Instanz ("Dieses OpenOlat") an.
 
 ### Capacity factor {: #capacity_factor}
 
 Das Feld "Capacity factor" nimmt je Server einen Wert zwischen 1 und 100 auf. Die berechnete Anzahl Benutzer:innen auf dem Server wird mit diesem Wert multipliziert. Bei der Zählung wiegen Video-Benutzer:innen am stärksten, dann Audio-Benutzer:innen, dann Viewer. Somit gleicht sich ein Server mit stärkerer Performance (RAM/CPU/Disk) einem schwächeren an.
+
+### Server "Scheint offline zu sein" {: #server_offline}
+
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Pflege der Server.
+
+Zeigt ein Server in der Spalte "Status" das Warnsymbol "Scheint offline zu sein", hat er auf die Abfrage von OpenOlat nicht geantwortet. Im Bild oben antwortet nur einer von neun eingetragenen Servern. Sind mehrere Server aktiviert, verteilt OpenOlat neue Online-Termine nur auf die Server, die antworten. Ist nur ein Server aktiviert, nutzt OpenOlat ihn ohne diese Prüfung. Einen Server mit "Nur manuelle Auswahl" wählt die automatische Verteilung nie.
+
+So klären Sie einen Server mit Warnsymbol:
+
+1. Prüfen Sie, ob der Server läuft und unter der eingetragenen URL erreichbar ist. Im Tab "Konfiguration" öffnen Sie dazu den Server und klicken auf "Serververbindung testen".
+2. Ist der Server dauerhaft ausser Betrieb, entfernen Sie im selben Dialog das Häkchen "Server aktivieren". Die Spalte "Status" zeigt dann "Abgeschaltet", und OpenOlat verteilt keine neuen Online-Termine mehr auf diesen Server.
+
+Online-Termine, die einem abgeschalteten Server zugeordnet sind, zeigen in der Detailansicht die Meldung "Server ist momentan nicht verfügbar."
+
+!!! danger "Achtung"
+
+    Löschen Sie einen Server, löscht OpenOlat auch alle Online-Termine und Aufzeichnungen dieses Servers. Für einen Server ausser Betrieb genügt es, ihn abzuschalten.
 
 
 ---
@@ -80,7 +99,7 @@ Die Raumvorlagen stehen bei der Erstellung eines neuen Online-Termins zur Auswah
 
 Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die mitgelieferten Systemvorlagen (Spalte "System") lassen sich bearbeiten, aber nicht löschen.
 
-![Je Vorlage Räume, Teilnehmer:innen und Dauer, Systemvorlagen ohne Löschen-Link](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" title="Tab Raumvorlagen im Modul BigBlueButton" }
+![Je Raumvorlage Räume, Teilnehmer:innen und Dauer, Löschen nur bei eigenen Vorlagen, nicht bei Systemvorlagen](assets/bigbluebutton_module_room_templates_v1_de.png){ class="shadow lightbox" title="Tab Raumvorlagen im Modul BigBlueButton · 2026.11.02" }
 
 
 ### Konfiguration Raumvorlage {: #room_config}
@@ -103,10 +122,14 @@ Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die m
 
 ### Voreinstellungen der Raumvorlage
 
-![Je Verhalten eine Ja-Nein-Wahl, von Moderatorenkamera bis zum automatischen Sperren beim Eintritt](assets/bbb_admin_room-template_default_v1_de.png){ class="shadow lightbox" title="Voreinstellungen im Formular der Raumvorlage" }
+Diese Voreinstellungen bestimmen, wie sich ein Raum mit dieser Vorlage beim Start verhält: ob nur die Kamera der Moderation zu sehen ist, ob Mikrofone beim Eintritt stumm sind, ob Aufzeichnungen und Breakout-Räume zugelassen sind und ob Teilnehmer:innen beim Eintritt gesperrt werden. Jede Voreinstellung ist eine Wahl zwischen Ja und Nein. Die Zeilen "Aufzeichnung automatisch starten" und "Starten und Stoppen von Aufzeichnungen zulassen" erscheinen erst, wenn "Aufzeichnungen des Online-Termins zulassen" auf Ja steht. Die Zeile "Ausschalten der automatischen Sperre durch Moderator:in verhindern" erscheint erst, wenn "Teilnehmer:innen bei Eintritt automatisch sperren" auf Ja steht.
+
+![Je Verhalten eine Ja-Nein-Wahl, von "Nur Moderatorenkamera" bis zum Schutz der automatischen Sperre vor dem Ausschalten durch Moderator:innen](assets/bbb_admin_room-template_default_v1_de.png){ class="shadow lightbox" title="Voreinstellungen im Formular der Raumvorlage" }
 
 
 ### Voreinstellungen für gesperrte Teilnehmer:innen
+
+Im Abschnitt "Für gesperrte Teilnehmer:innen..." legen Sie fest, welche Funktionen eine Sperre im Raum abschaltet: Kamera, Mikrofon, öffentlicher und privater Chat, gemeinsame Notizen, die Liste der Teilnehmer:innen und die Layoutanpassung. Die Sperre gilt ab dem Eintritt, wenn "Teilnehmer:innen bei Eintritt automatisch sperren" auf Ja steht.
 
 ![Sieben Ja-Nein-Wahlen legen fest, was die Sperre abschaltet, von Kamera bis Layoutanpassung](assets/bbb_admin_room-template_default_locked_participants_v1_de.png){ class="shadow lightbox" title="Abschnitt Für gesperrte Teilnehmer:innen im Formular der Raumvorlage" }
 
@@ -115,9 +138,9 @@ Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die m
 
 ## Tab "Online-Termine" {: #tab_online-meetings}
 
-Übersicht der konfigurierten Online-Termine mit der Möglichkeit, direkt in den Kurs oder die Gruppe (Kontext) zu wechseln oder den Online-Termin zu löschen. Über die Suche finden Sie gezielt einzelne BigBlueButton-Räume, markieren sie und löschen sie bei Bedarf gesammelt.
+Übersicht der konfigurierten Online-Termine mit der Möglichkeit, direkt in den Kurs oder die Gruppe (Kontext) zu wechseln oder den Online-Termin zu löschen. Über die Suche und die Filter finden Sie gezielt einzelne BigBlueButton-Räume, markieren sie und löschen sie bei Bedarf gesammelt. Löscht OpenOlat Online-Termine automatisch, nennt die Spalte "Automatisch löschen" das Datum der Löschung.
 
-![Alle Online-Termine der Instanz mit Raumvorlage, Server und Kontext, Suchfeld und Mehrfachauswahl zum Löschen](assets/bbb_admin_online-meetings_v1_de.png){ class="shadow lightbox" title="Tab Online-Termine im Modul BigBlueButton" }
+![Online-Termine der Instanz mit Suchfeld und Filter, je Termin Beginn, Ende, Löschdatum, Raumvorlage, Server, Kontext und Link Löschen](assets/bigbluebutton_module_online_meetings_v1_de.png){ class="shadow lightbox" title="Tab Online-Termine im Modul BigBlueButton · 2026.11.02" }
 
 
 ---
@@ -126,7 +149,7 @@ Mit dem Button "Raumvorlage erstellen" legen Sie eine neue Raumvorlage an. Die m
 
 Kalenderübersicht über alle erfassten Online-Termine, um Zeiten mit hoher Belegung zu prüfen und Überschneidungen grafisch anzuzeigen.
 
-![Alle Online-Termine der Instanz in der Wochenansicht, umschaltbar auf Monat, Tag und Jahr](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" title="Tab Kalender im Modul BigBlueButton" }
+![Alle Online-Termine der Instanz in der Wochenansicht, umschaltbar auf Monat, Tag und Jahr](assets/bigbluebutton_module_calendar_v1_de.png){ class="shadow lightbox" title="Tab Kalender im Modul BigBlueButton · 2026.11.02" }
 
 
 ---

@@ -48,20 +48,39 @@ Click on the "Add server" button in the "Configuration" tab to open a pop-up for
 
 ## Tab "Servers" {: #tab_server}
 
-The available BigBlueButton servers per OpenOlat instance are displayed here.
+The tab shows how heavily the BigBlueButton servers of this OpenOlat instance are currently loaded and whether they can be reached. Per server it shows the capacity, running meetings, number of people by role and medium, and the load. The column "Status" shows "Available" with a check mark or "Seems to be offline" with a warning icon.
 
-![Per server capacity and current load, the filter separates this OpenOlat from all OpenOlats](assets/bbb_admin_server_v1_de.png){ class="shadow lightbox" title="Servers tab in the BigBlueButton module" }
+![Status column framed: eight servers with a warning icon, only the one with a check mark carries meetings and participants, the filter switches between all OpenOlats and this OpenOlat](assets/bigbluebutton_module_servers_v1_en.png){ class="shadow lightbox" title="Servers tab in the BigBlueButton module · 2026.11.02" }
 
 
 ### Distribution across the servers [:octicons-tag-16:{ title="from Release 14.2.7 (OO-4626)" }](https://track.frentix.com/issue/OO-4626) {: #load_balancing}
 
-OpenOlat distributes the load of simultaneous online meetings across the available BigBlueButton servers itself. It counts the number of videos and the number of participants in the running online meetings. At the start of an online meeting, OpenOlat selects the server with the lowest load. Depending on the configuration, the moderator or the first participant starts it. The load results from these values, weighted with the value in the "Capacity factor" field.
+OpenOlat distributes the load of simultaneous online meetings across the available BigBlueButton servers itself. It counts the number of videos and the number of participants in the running online meetings. At the start of an online meeting, OpenOlat selects the server with the lowest load. Depending on the configuration, a moderator or the first participant starts it. The load results from these values, weighted with the value in the "Capacity factor" field.
 
 Use the filter to show the key figures for all OpenOlat instances on the BigBlueButton server ("All OpenOlats") or only for the online meetings of this instance ("This OpenOlat").
 
 ### Capacity factor {: #capacity_factor}
 
 The "Capacity factor" field takes a value between 1 and 100 per server. The calculated number of users on the server is multiplied by this value. In this count, video users weigh most, then audio users, then viewers. This way, a server with stronger performance (RAM/CPU/disk) adapts to a weaker one.
+
+### Server "Seems to be offline" {: #server_offline}
+
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of maintaining the servers.
+
+If a server shows the warning icon "Seems to be offline" in the column "Status", it has not answered the query from OpenOlat. In the image above, only one of nine registered servers answers. If several servers are activated, OpenOlat distributes new online meetings only to the servers that answer. If only one server is activated, OpenOlat uses it without this check. Automatic distribution never chooses a server with "Manual selection only".
+
+How to clarify a server with a warning icon:
+
+1. Check whether the server is running and can be reached at the registered URL. To do so, open the server in the tab "Configuration" and click "Check server connection".
+2. If the server is permanently out of service, remove the checkmark "Activate server" in the same dialog. The column "Status" then shows "Disabled", and OpenOlat no longer distributes new online meetings to this server.
+
+Online meetings assigned to a disabled server show the message "Server is currently not available." in the detail view.
+
+!!! danger "Attention"
+
+    If you delete a server, OpenOlat also deletes all online meetings and recordings of this server. For a server out of service, disabling it is enough.
 
 
 ---
@@ -80,7 +99,7 @@ The room templates are available for selection when creating a new online meetin
 
 Use the "New room template" button to create a new room template. The system templates delivered with OpenOlat (column "System") can be edited but not deleted.
 
-![Per template rooms, participants and duration, system templates without Delete link](assets/bbb_admin_room-templates_v1_de.png){ class="shadow lightbox" title="Room-templates tab in the BigBlueButton module" }
+![Per room template rooms, participants and duration, Delete only for own templates, not for system templates](assets/bigbluebutton_module_room_templates_v1_en.png){ class="shadow lightbox" title="Room-templates tab in the BigBlueButton module · 2026.11.02" }
 
 
 ### Configuration of a room template {: #room_config}
@@ -98,26 +117,30 @@ Use the "New room template" button to create a new room template. The system tem
      * Only guests and external users (Only the entry of guests and external users must be confirmed.)
   *  **Room-template activated for:** Determines which roles can use the room template for new online meetings. If the "Group user" option is activated, the template can also be used and further configured in OpenOlat [groups](../../manual_user/groups/Using_Group_Tools.md).
 
-![Room name, participants and duration define the room, the list at the bottom releases the template per role](assets/bbb_room_template.png){ class="shadow lightbox" title="Room template form" }
+![Room name, participants and duration define the room, the list at the bottom releases the template per role](assets/bbb_admin_room-template_config_v1_en.png){ class="shadow lightbox" title="Room template form · 2026.11.02" }
 
 
 ### Default settings of the room template
 
-![Each behaviour is a yes-no choice, from webcams only for moderators to lock mode on join](assets/edit-room-template-2.png){ class="shadow lightbox" title="Default settings in the room template form" }
+These default settings determine how a room with this template behaves at the start: whether only the moderators' camera is visible, whether microphones are muted on entry, whether recordings and breakout rooms are allowed, and whether participants are locked on entry. Each default setting is a choice between Yes and No. The rows "Automatically start recording" and "Allow starting and stopping of recordings" only appear when "Allow meeting recording" is set to Yes. The row "Prevent disabling of the automatic locking by the moderator" only appears when "Put participants into lock mode on join" is set to Yes.
+
+![Each behaviour is a yes-no choice, from "Webcams only for moderators" to protecting the automatic lock from being disabled by moderators](assets/bbb_admin_room-template_default_v1_en.png){ class="shadow lightbox" title="Default settings in the room template form · 2026.11.02" }
 
 
 ### Default settings for locked participants
 
-![Seven yes-no choices set what the lock disables, from webcam to layout changes](assets/edit-room-template-3.png){ class="shadow lightbox" title="Section For locked participants in the room template form" }
+In the section "For locked participants..." you define which functions a lock disables in the room: camera, microphone, public and private chat, shared notes, the list of participants and the layout adjustment. The lock applies from entry when "Put participants into lock mode on join" is set to Yes.
+
+![Seven yes-no choices set what the lock disables, from webcam to layout changes](assets/bbb_admin_room-template_default_locked_participants_v1_en.png){ class="shadow lightbox" title="Section For locked participants in the room template form · 2026.11.02" }
 
 
 ---
 
 ## Tab "Online-meetings" {: #tab_online-meetings}
 
-Overview of the configured online meetings with the possibility to switch directly to the course or the group (context) or to delete the online meeting. Use the search to find specific BigBlueButton rooms, mark them and delete them in bulk if necessary.
+Overview of the configured online meetings with the possibility to switch directly to the course or the group (context) or to delete the online meeting. Use the search and the filters to find specific BigBlueButton rooms, mark them and delete them in bulk if necessary. If OpenOlat deletes online meetings automatically, the column "Auto delete" shows the date of deletion.
 
-![All online meetings of the instance with room template, server and context, search field and multiple selection for deletion](assets/bbb_administration_online-meetings.png){ class="shadow lightbox" title="Online-meetings tab in the BigBlueButton module" }
+![Online meetings of the instance with search field and filter, per meeting start, end, deletion date, room template, server, context and Delete link](assets/bigbluebutton_module_online_meetings_v1_en.png){ class="shadow lightbox" title="Online-meetings tab in the BigBlueButton module · 2026.11.02" }
 
 
 ---
@@ -126,7 +149,7 @@ Overview of the configured online meetings with the possibility to switch direct
 
 Calendar overview of all recorded online meetings to check times with high occupancy and to display overlaps graphically.
 
-![All online meetings of the instance in the week view, switchable to month, day and year](assets/bbb_admin_calendar_v1_de.png){ class="shadow lightbox" title="Calendar tab in the BigBlueButton module" }
+![All online meetings of the instance in the week view, switchable to month, day and year](assets/bigbluebutton_module_calendar_v1_en.png){ class="shadow lightbox" title="Calendar tab in the BigBlueButton module · 2026.11.02" }
 
 
 ---

@@ -1,4 +1,4 @@
-# Course Element "BigBlueButton"
+# Course Element "BigBlueButton" {: #bbb_course_element}
 
 
 ## Profile
@@ -6,14 +6,14 @@
 Name | BigBlueButton
 ---------|----------
 Icon | :o_icon_o_vc_icon:
-Available since | 
+Available since | Release 14.2.5 (2020)
 Functional group | Communication and collaboration
 Purpose | Integration of the BigBlueButton web conferencing software
 Assessable | no
 Specialty / Note | BigBlueButton is an open source software (LGPL license). To use the course element, a separate server hosting is required.
 
 
-## General [:octicons-tag-16:{ title="from Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
+## General
 
 !!! note "Note"
 
@@ -36,23 +36,26 @@ BigBlueButton enables virtual classrooms with the following functionalities:
 
 ### System requirements
 
-BigBlueButton is a browser-based software solution and requires no additional plug-ins or installations. For full functionality (for coaches and participants) Google Chrome or Mozilla Firefox is recommended. On Windows the new version of Edge with Chromium Engine can also be used. For sharing your own screen, **Google Chrome** is recommended.
+BigBlueButton is a browser-based software solution and requires no additional plug-ins or installations. For full functionality (for coaches and participants) Google Chrome or Mozilla Firefox is recommended. On Windows, Edge with Chromium Engine can also be used. For sharing your own screen, **Google Chrome** is recommended.
 
 ## Configuration in the course editor
 
-When integrating BigBlueButton into a course you can decide whether the online-meetings of the course element can be started by the moderators only or also by participants. Moderators are the owners and coaches of the course. The setting is located in `Course editor > BigBlueButton course element > Configuration` in the field "Access authorisation" as the option "Only moderators are allowed to open this virtual classroom". If the option is set, participants can only enter the online-meeting once the moderation has started it.
+When integrating BigBlueButton into a course you can decide whether the online-meetings of the course element can be started by the moderators only or also by participants. Moderators are the owners and coaches of the course. If the option "Only moderators are allowed to open this virtual classroom" is set in the field "Access authorisation", participants can only enter the online-meeting once the moderation has started it. The option is located under:<br>
+`Course > Administration > Course editor > Course element "BigBlueButton" > Tab "Configuration"`
 
-![Access restricted to moderators, option "Only moderators are allowed to open this virtual classroom" checked](../assets/image2020-4-14_11-19-9.png){ class="shadow lightbox" title="Tab Configuration in the course editor" }
+![Access restricted to moderators: in the field "Access authorisation" the option "Only moderators are allowed to open this virtual classroom" is checked](../assets/bigbluebutton_editor_access_v1_en.png){ class="shadow lightbox" title="Tab Configuration in the course editor · 2026.11.02" }
 
-## Create, configure and enter rooms [:octicons-tag-16:{ title="from Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
+## Create, configure and enter rooms
 
-The following settings are made with the editor closed.
+You create online-meetings in the course element itself, with the course editor closed.
 
 ### Tab "Meeting management"
 
 In the tab "Meeting management" the owners and coaches of the course create and configure new online-meetings. Online-meetings that already exist can also be copied or deleted here. The tab is missing as long as no enabled room template is released for their role. The administration sets the release in the room template in the field "Room-template activated for" ([BigBlueButton module](../../../manual_admin/administration/BigBlueButton_module.md#room_config)).
 
-![Button "Add online-meeting" above the still empty list of online-meetings](../assets/image2020-4-14_11-20-49.png){ class="shadow lightbox" title="Tab Meeting management in the course element BigBlueButton" }
+![Button "Add online-meeting" above the list of online-meetings, each row with start date, end date, room-template and the link "Edit" or "View"](../assets/bigbluebutton_meeting_management_v1_en.png){ class="shadow lightbox" title="Tab Meeting management in the course element BigBlueButton · 2026.11.02" }
+
+The list "Online-meetings" shows the name, start date, end date and room-template of each meeting. If OpenOlat deletes online-meetings automatically, the column "Auto delete" shows the date of deletion [:octicons-tag-16:{ title="from Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}. With "Edit" you open a meeting. Once the meeting has started, the link reads "View", because its settings can no longer be changed.
 
 The following variants can be created:
 
@@ -67,7 +70,7 @@ The following variants can be created:
 
 The variants only differ in the way the meetings are created. Separate online-meetings or reservations are created, which can then be edited individually. Depending on the configuration of the server, different options are available.
 
-![Fields of an online-meeting, mandatory fields Name, Room-template, Start date and End date marked with an asterisk](../assets/bbb_creating.png){ class="shadow lightbox" title="Dialog Add single meeting" }
+![Fields of an online-meeting from "Name" to "Follow-up (min.)", mandatory fields Name, Room-template, Start date and End date marked with an asterisk](../assets/bigbluebutton_add_meeting_v1_en.png){ class="shadow lightbox" title="Dialog Add single meeting · 2026.11.02" }
 
 The settings in detail:
 
@@ -78,15 +81,15 @@ The settings in detail:
 * **Description**: Description of the meeting. What is the content or the topic of the synchronous session?
 * **Welcome message**: The text is displayed in the BigBlueButton room as a welcome message in the chat area for all participants.
 * **Main presenter**: The name of a person can be entered here.
-* **Slides**: Upload your slides in advance of the meeting via "Upload slides" or delete slides that have already been uploaded.
+* **Upload slides**: Upload your slides before the meeting, by drag and drop or by selecting a file. Slides that have already been uploaded can also be deleted here.
 * **Room-template**: Selection of the configured room templates. The room template determines the number of participants and various default settings in the online meeting. The details depend on the configuration of the BigBlueButton server.
-* **Preferred server**: Usually selected automatically.
+* **Preferred server**: Set to "Automatically (best performance)". Only people with the role administrator can choose a specific server.
 * **Allow meeting recording**: yes or no
-* **Publish recording automatically for**: Select the roles to which you want to provide the recording later.
-* **Accept joining users**: Determines whether people first land in a waiting room and do not enter the meeting room immediately. With "Disabled" all people enter the meeting room directly. With "All users" everybody lands in the waiting room. With "Only guests and external users" the participants of the course enter the meeting room directly, everybody else lands in the waiting room.
+* **Publish recording automatically for**: Select the roles to which OpenOlat provides the recording after the meeting: "Owners and coaches", "Course / group participants", "All meeting's attendees (without guests)" and "Guests". If no role is selected, OpenOlat does not publish the recording automatically. It can then be published manually after the meeting.
 * **Layout**: standard or webcam meeting, depending on the configuration by the BigBlueButton administration
+* **Accept joining users**: Determines whether people first land in a waiting room and do not enter the meeting room immediately. With "Disabled" all people enter the meeting room directly. With "All users" everybody lands in the waiting room. With "Only guests and external users" the participants of the course enter the meeting room directly, everybody else lands in the waiting room.
 * **Guests**: With "allowed" you open the online-meeting for guests. The option only appears if the course itself has been activated for guests.
-* **Access external users**: If the administration has allowed this option, the URL that you send to external people can be adjusted here. The link then also appears for owners and coaches before they enter the room. Participants do not see the link.
+* **Access external users**: If the room template allows external users, enter an identifier for the online-meeting here, a unique word without special characters. OpenOlat suggests a number. Below the field you see the complete URL that you send to external people. The link then also appears for owners and coaches in the detail view of the online-meeting. Participants do not see the link.
 * **Password for external users**: Enter a password here that guests, i.e. people without an OpenOlat account, must enter to access the room.
 * **Show room bookings**: calendar view for checking occupied online-meetings
 
@@ -112,19 +115,19 @@ For recurring meetings, the meetings can be edited, deleted or supplemented with
 
 The tab "Online-meetings" gives you access to a specific online-meeting or room.
 
-Owners and coaches of the course can upload their presentations in advance so that they are available at the start of the meeting. The top document of the list is displayed directly. Slides cannot be uploaded to an online-meeting that is already running.
+In the detail view, owners and coaches of the course see on which day OpenOlat deletes the online-meeting, the link for external users and the slides. They upload slides before the meeting so that they are ready at the start. The top document of the list is displayed directly. The button "Upload slides" and the "Delete" buttons for each slide are only available until the start time of the online-meeting, for a permanent meeting room at any time. Each upload takes one file.
 
-![Three uploaded slides, each with a button to delete it, below them "Upload slides"](../assets/BBB_praesentation.png){ class="shadow lightbox" title="Online-meeting detail view in the tab Online-meetings" }
+![Three uploaded slides, each with a button "Delete", below them the button "Upload slides"](../assets/bigbluebutton_slides_v1_en.png){ class="shadow lightbox" title="Online-meeting detail view in the tab Online-meetings · 2026.11.02" }
 
 #### Recordings
 
-The recordings of a meeting can also be found in the tab "Online-meetings". Automatically published recordings are directly selectable here. If the publication is done manually, only owners and coaches see the recordings at first and define for which target group the recording should be provided. Depending on the server configuration, a download of a recording is also available. Depending on the server configuration, a note above the list of recordings says that recordings can only be viewed with Google Chrome or Firefox.
+The recordings of a meeting can also be found in the tab "Online-meetings". Automatically published recordings are directly selectable here. If no role is selected under "Publish recording automatically for" in the online-meeting, only owners and coaches see the recordings at first and define under "Publish" for which target group the recording should be provided. Depending on the server configuration, a download of a recording is also available. Depending on the server configuration, a note above the list of recordings says that recordings can only be viewed with Google Chrome or Firefox.
 
 !!! warning "Attention"
 
     The settings under "Publish" as well as under "Delete" apply to the recording as well as to the download. If you delete an entry, the whole recording is deleted.
 
-![Selection "publish to" with four target groups, all meeting's attendees without guests checked](../assets/bbb_recordings.png){ class="shadow lightbox" title="Recordings in the detail view of an online-meeting" }
+![Selection "publish to" with four roles, all meeting's attendees without guests checked](../assets/bigbluebutton_recordings_v1_en.png){ class="shadow lightbox" title="Recordings in the detail view of an online-meeting · 2026.11.02" }
 
 ## Calendar view
 
@@ -138,34 +141,56 @@ In addition, the online-meetings created in BigBlueButton automatically appear i
 
 ## View for participants
 
-When participants call up a BigBlueButton course element, they see the list "Current and upcoming online-meetings" and, if available, the list "Past online-meetings". Permanent reservations appear without a date in the first list. A click on "Select" leads to the detail view of the respective online-meeting.
+When participants call up a BigBlueButton course element, they see the list "Current and upcoming online-meetings" and, if available, the list "Past online-meetings". Both lists show the name, start date and end date of each meeting, and with automatic deletion also the date in the column "Auto delete". Permanent reservations appear without a date in the first list. A click on "Select" leads to the detail view of the respective online-meeting.
 
-![Online-meetings in two lists, current and past, each row with the link "Select"](../assets/BBB_Uebersicht.png){ class="shadow lightbox" title="Course element BigBlueButton from the participants' view" }
+![Online-meetings in two lists, current and upcoming as well as past, each row with start date, end date and the link "Select"](../assets/bigbluebutton_participant_list_v1_en.png){ class="shadow lightbox" title="Course element BigBlueButton from the participants' view · 2026.11.02" }
 
-You start current sessions with "Join the online-meeting". This takes you into the BigBlueButton room.
+You enter running online-meetings with "Join the online-meeting". This takes you into the BigBlueButton room. If the room template allows recordings, the notice "Meeting recording" appears above it: only with the checkbox "I agree" can you enter the meeting [:octicons-tag-16:{ title="from Release 15.3.2 (OO-5018)" }](https://track.frentix.com/issue/OO-5018){:target="_blank"}. If only moderators may open the room and nobody has started the meeting yet, the notice "The meeting has not yet been started by the coach. Participants are not able to enter the classroom." appears there.
 
-![Button "Join the online-meeting", below it the recordings of the meeting with a link to open them](../assets/BBB_Meeting_beitreten.png){ class="shadow lightbox" title="Detail view of an online-meeting for participants" }
+![Consent to the recording in the notice "Meeting recording" with the checkbox "I agree", below it the button "Join the online-meeting"](../assets/bigbluebutton_join_v1_en.png){ class="shadow lightbox" title="Detail view of an online-meeting for participants · 2026.11.02" }
 
 Past online-meetings can no longer be entered. The detail view still gives access to existing recordings of the meeting. Owners and coaches of the course can also delete recordings here.
 
 ## BigBlueButton Room
 
-![Areas of the conference room labelled in red, from the list of people on the left to the bar at the bottom](../assets/BBB-Raum.png){ class="shadow lightbox" title="Conference room in BigBlueButton" }
+Before you enter, BigBlueButton asks whether you join with microphone or listen only.
 
-The room is divided into the list of people with the shared notes, the chat area with the text input, the presentation area for slides and the webcam area. The whiteboard tools are located on the right-hand edge, the button to start the recording and the general settings at the top. The bar at the bottom controls audio, webcam and screen sharing as well as polls, upload and video sharing.
+![On the left chat, shared notes and user list, on the right the slide with the whiteboard tools, "Start recording" at the top, microphone, webcam, screen and reactions at the bottom](../assets/bigbluebutton_room_v1_en.png){ class="shadow lightbox" title="BigBlueButton room · 2026.11.02" }
 
-The welcome text displayed can be customized when setting up the room. If people have stored a profile picture, this also appears in the list of people.
+On the left of the room are the areas "Messages" with the public chat, "Notes" with the shared notes and "Users" with the people in the room. Next to them the selected area opens, for example the chat with the text input. On the right is the presentation area with the slides, with the whiteboard tools on the right-hand edge. The top bar carries the button "Start recording", the red button "Leave" and, behind the three dots, the options. The bottom bar controls microphone, webcam, screen sharing and reactions. On the left, the plus icon opens the "Actions", on the right is "Raise your hand".
+
+Moderators find the gear icon "Manage users" next to the heading "Users". Its menu contains, among other things, "Lock viewers". What the options there mean is described in [Frequently asked questions - BigBlueButton](faq.md).
+
+You set the welcome message in the chat in the online-meeting in the field "Welcome message". If people have stored a profile picture, this also appears in the list of people.
 
 Depending on the room settings, different options are available in the room.
 
-## BigBlueButton for guests [:octicons-tag-16:{ title="from Release 15.1 (OO-4733)" }](https://track.frentix.com/issue/OO-4733){:target="_blank"}
+## BigBlueButton for guests and external users [:octicons-tag-16:{ title="from Release 15.1 (OO-4733)" }](https://track.frentix.com/issue/OO-4733){:target="_blank"}
 
-Depending on the configuration of the BigBlueButton room template, conference rooms can also be made accessible to people without an OpenOlat account, i.e. to external people or guests.
+If you want to invite people without an OpenOlat account to an online-meeting, there are two ways: the guest access of the course and the link for external users. You open the guest access in the online-meeting with the field "Guests", the link with the field "Access external users".
 
 !!! note "Guest access"
 
     The prerequisite is a conventional course, not a learning path course, and the course itself must be activated for guests. Guests enter a name of their choice when dialling into the room. For more information see [guest access](../../basic_concepts/guest_access.md).
 
-The guest link also appears for owners and coaches of the course before they enter the room. In addition, a password for guests can be generated during the configuration of the room.
+OpenOlat offers the link for external users if the room template has the option "Open for external users". Owners and coaches of the course see it in the detail view of the online-meeting in the block "Link for external users", with one button for copying and one for the QR code. With the field "Password for external users" in the online-meeting you additionally protect access with a password.
 
-![URL for external users to pass on, below it the button "Join the online-meeting"](../assets/bbb_externe2.png){ class="shadow lightbox" title="Detail view of an online-meeting for moderators" }
+![Link for external users to pass on, next to it buttons for copying and for the QR code](../assets/bigbluebutton_external_link_v1_en.png){ class="shadow lightbox" title="Detail view of an online-meeting for moderators · 2026.11.02" }
+
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[BigBlueButton module >](../../../manual_admin/administration/BigBlueButton_module.md)<br>
+[Frequently asked questions - BigBlueButton >](faq.md)<br>
+[Roles and Rights: Guest access >](../../basic_concepts/guest_access.md)
+
+**Further reading**<br>
+[Virtual classrooms >](../../basic_concepts/Virtual_classrooms.md)<br>
+[Using Group Tools >](../../groups/Using_Group_Tools.md)<br>
+[Course Element "Appointment scheduling" >](../Course_Element_Appointment_Scheduling.md)
+
+**youtube**<br>
+[BigBlueButton](<https://www.youtube.com/embed/yVZ4V4rXUJQ>)
+
+[To the top of the page ^](#bbb_course_element)

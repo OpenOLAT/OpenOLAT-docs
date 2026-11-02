@@ -1,4 +1,4 @@
-# Kursbaustein "BigBlueButton"
+# Kursbaustein "BigBlueButton" {: #bbb_course_element}
 
 
 ## Steckbrief
@@ -6,14 +6,14 @@
 Name | BigBlueButton
 ---------|----------
 Icon | :o_icon_o_vc_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 14.2.5 (2020)
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software BigBlueButton
 Bewertbar | nein
 Spezialität / Hinweis | BigBlueButton ist eine Open-Source-Software (LGPL-Lizenz). Um den Kursbaustein zu nutzen, ist ein separates Serverhosting erforderlich.
 
 
-## Allgemeines [:octicons-tag-16:{ title="ab Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
+## Allgemeines
 
 !!! note "Hinweis"
 
@@ -36,23 +36,26 @@ BigBlueButton ermöglicht virtuelle Klassenräume mit folgenden Funktionalitäte
 
 ### Systemvoraussetzungen
 
-BigBlueButton ist eine browserbasierte Software-Lösung und benötigt keine zusätzlichen Plugins oder Installationen. Für den vollen Funktionsumfang (für Betreuer:innen und Teilnehmende) wird Google Chrome oder Mozilla Firefox empfohlen. Unter Windows lässt sich auch die neue Version von Edge mit Chromium Engine verwenden. Für das Teilen des eigenen Bildschirms empfiehlt sich **Google Chrome**.
+BigBlueButton ist eine browserbasierte Software-Lösung und benötigt keine zusätzlichen Plugins oder Installationen. Für den vollen Funktionsumfang (für Betreuer:innen und Teilnehmende) wird Google Chrome oder Mozilla Firefox empfohlen. Unter Windows lässt sich auch Edge mit Chromium Engine verwenden. Für das Teilen des eigenen Bildschirms empfiehlt sich **Google Chrome**.
 
 ## Konfiguration im Kurseditor
 
-Bei der Einbindung von BigBlueButton im Kurs lässt sich festlegen, ob die Online-Termine des Kursbausteins nur durch die Moderierenden oder auch durch Teilnehmende gestartet werden können. Moderierende sind die Besitzer:innen und Betreuer:innen des Kurses. Die Einstellung steht unter `Kurseditor > Kursbaustein BigBlueButton > Konfiguration` im Feld "Zugang" als Option "Nur Moderatoren dürfen diesen Raum eröffnen". Ist die Option gesetzt, können Teilnehmende den Online-Termin erst betreten, wenn die Moderation ihn gestartet hat.
+Bei der Einbindung von BigBlueButton im Kurs lässt sich festlegen, ob die Online-Termine des Kursbausteins nur durch die Moderierenden oder auch durch Teilnehmende gestartet werden können. Moderierende sind die Besitzer:innen und Betreuer:innen des Kurses. Ist im Feld "Zugang" die Option "Nur Moderatoren dürfen diesen Raum eröffnen" gesetzt, können Teilnehmende den Online-Termin erst betreten, wenn die Moderation ihn gestartet hat. Die Option steht unter:<br>
+`Kurs > Administration > Kurseditor > Kursbaustein "BigBlueButton" > Tab "Konfiguration"`
 
-![Zugang auf Moderierende beschränkt, Option "Nur Moderatoren dürfen diesen Raum eröffnen" angekreuzt](../assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor" }
+![Zugang auf Moderierende beschränkt: im Feld "Zugang" ist die Option "Nur Moderatoren dürfen diesen Raum eröffnen" angekreuzt](../assets/bigbluebutton_editor_access_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor · 2026.11.02" }
 
-## Räume erstellen, konfigurieren und betreten [:octicons-tag-16:{ title="ab Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}
+## Räume erstellen, konfigurieren und betreten
 
-Folgende Einstellungen erfolgen bei geschlossenem Editor.
+Online-Termine legen Sie im Kursbaustein selbst an, bei geschlossenem Kurseditor.
 
 ### Tab "Terminverwaltung"
 
 Im Tab "Terminverwaltung" legen die Besitzer:innen und Betreuer:innen des Kurses neue Online-Termine an und konfigurieren sie. Bereits angelegte Online-Termine lassen sich hier auch kopieren oder löschen. Der Tab fehlt, solange für ihre Rolle keine aktivierte Raumvorlage freigegeben ist. Die Freigabe setzt die Administration in der Raumvorlage im Feld "Raumvorlage aktiviert für" ([Modul BigBlueButton](../../../manual_admin/administration/BigBlueButton_module.de.md#room_config)).
 
-![Schaltfläche "Online-Termin hinzufügen" über der noch leeren Liste der Online-Termine](../assets/image2020-4-7_13-29-23.png){ class="shadow lightbox" title="Tab Terminverwaltung im Kursbaustein BigBlueButton" }
+![Schaltfläche "Online-Termin hinzufügen" über der Liste der Online-Termine, je Zeile mit Beginn, Ende, Raumvorlage und dem Link "Bearbeiten" oder "Ansehen"](../assets/bigbluebutton_meeting_management_v1_de.png){ class="shadow lightbox" title="Tab Terminverwaltung im Kursbaustein BigBlueButton · 2026.11.02" }
+
+Die Liste "Online-Termine" zeigt je Termin Name, Beginn, Ende und Raumvorlage. Löscht OpenOlat Online-Termine automatisch, nennt die Spalte "Automatisch löschen" das Datum der Löschung [:octicons-tag-16:{ title="ab Release 17.1 (OO-5191)" }](https://track.frentix.com/issue/OO-5191){:target="_blank"}. Mit "Bearbeiten" öffnen Sie einen Termin. Hat der Termin schon begonnen, steht dort "Ansehen", weil sich seine Einstellungen nicht mehr ändern lassen.
 
 Folgende Varianten lassen sich erstellen:
 
@@ -67,7 +70,7 @@ Folgende Varianten lassen sich erstellen:
 
 Die Varianten unterscheiden sich nur in der Erstellung der Termine. Es entstehen separate Online-Termine beziehungsweise Reservierungen, die sich anschliessend einzeln bearbeiten lassen. Je nach Konfiguration des Servers stehen unterschiedliche Auswahlmöglichkeiten bereit.
 
-![Felder eines Online-Termins, Pflichtfelder Name, Raumvorlage, Beginn und Ende mit Stern markiert](../assets/bbb_erstellen.png){ class="shadow lightbox" title="Dialog Einzelnen Online-Termin hinzufügen" }
+![Felder eines Online-Termins von "Name" bis "Nachlaufzeit (Min.)", Pflichtfelder Name, Raumvorlage, Beginn und Ende mit Stern markiert](../assets/bigbluebutton_add_meeting_v1_de.png){ class="shadow lightbox" title="Dialog Einzelnen Online-Termin hinzufügen · 2026.11.02" }
 
 Die Einstellungen im Detail:
 
@@ -78,15 +81,15 @@ Die Einstellungen im Detail:
 * **Beschreibung**: Beschreibung des Termins. Was ist der Inhalt beziehungsweise das Thema der synchronen Session?
 * **Begrüssungstext**: Der Text erscheint im BigBlueButton-Raum als Willkommensnachricht im Chatbereich für alle Teilnehmenden.
 * **Hauptmoderator:in**: Hier lässt sich der Name einer Person eintragen.
-* **Präsentationsfolien**: Laden Sie Ihre Folien bereits im Vorfeld des Meetings über "Präsentationsfolien hochladen" hoch oder löschen Sie bereits hochgeladene Folien.
+* **Präsentationsfolien hochladen**: Laden Sie Ihre Folien bereits vor dem Meeting hoch, per Ziehen und Ablegen oder über "Datei auswählen". Bereits hochgeladene Folien lassen sich hier auch löschen.
 * **Raumvorlage**: Auswahl der konfigurierten Raumvorlagen. Die Raumvorlage bestimmt die Anzahl Teilnehmende und diverse Voreinstellungen im Online-Meeting. Die Details hängen von der Konfiguration des BigBlueButton-Servers ab.
-* **Bevorzugter Server**: In der Regel automatisch gewählt.
+* **Bevorzugter Server**: Steht auf "Automatisch (beste Performance)". Einen bestimmten Server wählen nur Personen mit der Rolle Administrator:in.
 * **Aufzeichnungen des Online-Termins zulassen**: ja oder nein
-* **Aufnahme automatisch veröffentlichen für**: Wählen Sie hier die Rollen, denen Sie die Aufzeichnung später bereitstellen möchten.
-* **Benutzer:in bei Eintritt akzeptieren (Warteraum)**: Legt fest, ob Personen zunächst in einem Warteraum landen und nicht sofort in den Meeting-Raum gelangen. Mit "Abgeschaltet" gelangen alle Personen direkt in den Meeting-Raum. Mit "Alle Benutzer:innen" landen alle im Warteraum. Mit "Nur Gäste und externe Benutzer:innen" gelangen die Teilnehmenden des Kurses direkt in den Meeting-Raum, alle anderen in den Warteraum.
+* **Aufnahme automatisch veröffentlichen für**: Wählen Sie hier die Rollen, denen OpenOlat die Aufzeichnung nach dem Meeting bereitstellt: "Besitzer:innen / Betreuer:innen", "Kurs / Gruppe Teilnehmer:innen", "Alle Teilnehmer:innen des Meetings (ausser Gäste)" und "Gäste". Ist keine Rolle gewählt, veröffentlicht OpenOlat die Aufzeichnung nicht automatisch. Sie lässt sich dann nach dem Meeting von Hand veröffentlichen.
 * **Darstellung**: Standard oder Webcam-Termin, abhängig von der Konfiguration durch die BigBlueButton-Administration
+* **Benutzer:in bei Eintritt akzeptieren (Warteraum)**: Legt fest, ob Personen zunächst in einem Warteraum landen und nicht sofort in den Meeting-Raum gelangen. Mit "Abgeschaltet" gelangen alle Personen direkt in den Meeting-Raum. Mit "Alle Benutzer:innen" landen alle im Warteraum. Mit "Nur Gäste und externe Benutzer:innen" gelangen die Teilnehmenden des Kurses direkt in den Meeting-Raum, alle anderen in den Warteraum.
 * **Gäste**: Mit "erlauben" öffnen Sie den Online-Termin für Gäste. Die Option erscheint nur, wenn der Kurs selbst für Gäste freigeschaltet ist.
-* **Zugang externe Benutzer:innen**: Sofern die Administration diese Option erlaubt hat, lässt sich hier die URL anpassen, die Sie an externe Personen versenden. Der Link erscheint anschliessend auch für Besitzer:innen und Betreuer:innen, bevor sie den Raum betreten. Teilnehmende sehen den Link nicht.
+* **Zugang externe Benutzer:innen**: Sofern die Raumvorlage externe Benutzer:innen zulässt, tragen Sie hier ein Kennzeichen für den Online-Termin ein, ein eindeutiges Wort ohne Sonderzeichen. OpenOlat schlägt eine Zahl vor. Unter dem Feld steht die vollständige URL, die Sie an externe Personen versenden. Der Link erscheint anschliessend auch für Besitzer:innen und Betreuer:innen in der Detailansicht des Online-Termins. Teilnehmende sehen den Link nicht.
 * **Passwort für externe Benutzer:innen**: Hinterlegen Sie hier ein Passwort, das Gäste, also Personen ohne OpenOlat Account, für den Zutritt zum Raum eingeben müssen.
 * **Raumbuchungen anzeigen**: Kalenderansicht zur Prüfung von belegten Online-Meetings
 
@@ -112,19 +115,19 @@ Bei wiederkehrenden Terminen lassen sich die Termine im zweiten Prozessschritt "
 
 Über den Tab "Online-Termine" erhalten Sie Zugang zu einem bestimmten Online-Termin beziehungsweise Raum.
 
-Besitzer:innen und Betreuer:innen des Kurses können ihre Präsentationen bereits im Vorfeld hochladen, so dass sie bei Beginn des Meetings zur Verfügung stehen. Direkt angezeigt wird das oberste Dokument der Liste. In ein bereits laufendes Online-Meeting lassen sich keine Präsentationsfolien hochladen.
+In der Detailansicht sehen Besitzer:innen und Betreuer:innen des Kurses, an welchem Tag OpenOlat den Online-Termin löscht, den Link für externe Benutzer:innen und die Präsentationsfolien. Folien laden sie vor dem Meeting hoch, damit sie bei Beginn bereitstehen. Direkt angezeigt wird das oberste Dokument der Liste. Die Schaltfläche "Präsentationsfolien hochladen" und die Schaltflächen "Löschen" je Folie stehen nur bis zur Beginnzeit des Online-Termins bereit, bei einer permanenten Reservierung jederzeit. Der Upload nimmt je Durchgang eine Datei auf.
 
-![Drei hochgeladene Präsentationsfolien, je mit Schaltfläche zum Löschen, darunter "Präsentationsfolien hochladen"](../assets/BBB_praesentation.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins im Tab Online-Termine" }
+![Drei hochgeladene Präsentationsfolien mit je einer Schaltfläche "Löschen", darunter die Schaltfläche "Präsentationsfolien hochladen"](../assets/bigbluebutton_slides_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins im Tab Online-Termine · 2026.11.02" }
 
 #### Aufzeichnungen
 
-Die Aufzeichnungen eines Meetings finden Sie ebenfalls im Tab "Online-Termine". Automatisch veröffentlichte Aufzeichnungen sind hier direkt wählbar. Erfolgt die Veröffentlichung manuell, sehen zunächst nur Besitzer:innen und Betreuer:innen die Aufzeichnungen und legen fest, für welche Zielgruppe die Aufzeichnung bereitstehen soll. Je nach Serverkonfiguration steht auch ein Download einer Aufzeichnung zur Verfügung. Über der Liste der Aufzeichnungen erscheint je nach Serverkonfiguration der Hinweis, dass sich Aufzeichnungen nur mit Google Chrome oder Firefox ansehen lassen.
+Die Aufzeichnungen eines Meetings finden Sie ebenfalls im Tab "Online-Termine". Automatisch veröffentlichte Aufzeichnungen sind hier direkt wählbar. Ist im Online-Termin unter "Aufnahme automatisch veröffentlichen für" keine Rolle gewählt, sehen zunächst nur Besitzer:innen und Betreuer:innen die Aufzeichnungen und legen unter "Publizieren" fest, für welche Zielgruppe die Aufzeichnung bereitstehen soll. Je nach Serverkonfiguration steht auch ein Download einer Aufzeichnung zur Verfügung. Über der Liste der Aufzeichnungen erscheint je nach Serverkonfiguration der Hinweis, dass sich Aufzeichnungen nur mit Google Chrome oder Firefox ansehen lassen.
 
 !!! warning "Achtung"
 
     Die Einstellungen unter "Publizieren" wie auch unter "Löschen" gelten sowohl für die Aufzeichnung als auch für den Download. Löschen Sie einen Eintrag, wird die gesamte Aufzeichnung gelöscht.
 
-![Auswahl "Publizieren für" mit vier Zielgruppen, angekreuzt sind alle Teilnehmenden des Meetings ohne Gäste](../assets/bbb_manuell_publizieren.png){ class="shadow lightbox" title="Aufzeichnungen in der Detailansicht eines Online-Termins" }
+![Auswahl "Publizieren für" mit vier Rollen, angekreuzt sind alle Teilnehmer:innen des Meetings ausser Gäste](../assets/bigbluebutton_recordings_v1_de.png){ class="shadow lightbox" title="Aufzeichnungen in der Detailansicht eines Online-Termins · 2026.11.02" }
 
 ## Kalender Anzeige
 
@@ -138,34 +141,56 @@ Zusätzlich erscheinen die in BigBlueButton erstellten Online-Termine automatisc
 
 ## Teilnehmerperspektive
 
-Rufen Teilnehmende einen BigBlueButton-Kursbaustein auf, sehen sie die Liste "Aktuelle und zukünftige Online-Termine" und, sofern vorhanden, die Liste "Abgelaufene Online-Termine". Permanente Reservierungen stehen ohne Datum in der ersten Liste. Ein Klick auf "Auswählen" führt zur Detailansicht des jeweiligen Online-Termins.
+Rufen Teilnehmende einen BigBlueButton-Kursbaustein auf, sehen sie die Liste "Aktuelle und zukünftige Online-Termine" und, sofern vorhanden, die Liste "Abgelaufene Online-Termine". Beide Listen nennen je Termin Name, Beginn und Ende, bei automatischer Löschung zusätzlich das Datum in der Spalte "Automatisch löschen". Permanente Reservierungen stehen ohne Datum in der ersten Liste. Ein Klick auf "Auswählen" führt zur Detailansicht des jeweiligen Online-Termins.
 
-![Online-Termine in zwei Listen, aktuelle und abgelaufene, je Zeile mit dem Link "Auswählen"](../assets/BBB_Uebersicht.png){ class="shadow lightbox" title="Kursbaustein BigBlueButton aus Sicht der Teilnehmenden" }
+![Online-Termine in zwei Listen, aktuelle und zukünftige sowie abgelaufene, je Zeile mit Beginn, Ende und dem Link "Auswählen"](../assets/bigbluebutton_participant_list_v1_de.png){ class="shadow lightbox" title="Kursbaustein BigBlueButton aus Sicht der Teilnehmenden · 2026.11.02" }
 
-Aktuelle Sessions starten Sie mit "Meeting beitreten". Damit gelangen Sie in den BigBlueButton-Raum.
+Laufende Online-Termine betreten Sie mit "Meeting beitreten". Damit gelangen Sie in den BigBlueButton-Raum. Erlaubt die Raumvorlage Aufzeichnungen, steht darüber der Hinweis "Aufzeichnungen": Erst mit dem Häkchen "Ich bin einverstanden" lässt sich das Meeting betreten [:octicons-tag-16:{ title="ab Release 15.3.2 (OO-5018)" }](https://track.frentix.com/issue/OO-5018){:target="_blank"}. Dürfen nur Moderierende den Raum eröffnen und hat noch niemand den Termin gestartet, steht dort der Hinweis "Der Online-Termin wurde von der betreuenden Person noch nicht eröffnet. Teilnehmer:innen können den Raum noch nicht betreten."
 
-![Schaltfläche "Meeting beitreten", darunter die Aufzeichnungen des Meetings mit Link zum Öffnen](../assets/BBB_Meeting_beitreten.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins für Teilnehmende" }
+![Einwilligung zur Aufzeichnung im Hinweis "Aufzeichnungen" mit dem Häkchen "Ich bin einverstanden", darunter die Schaltfläche "Meeting beitreten"](../assets/bigbluebutton_join_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins für Teilnehmende · 2026.11.02" }
 
 Abgelaufene Online-Termine lassen sich nicht mehr betreten. Die Detailansicht gibt aber Zugriff auf vorhandene Aufzeichnungen des Meetings. Besitzer:innen und Betreuer:innen des Kurses können Aufzeichnungen hier auch löschen.
 
 ## BigBlueButton Meeting Raum
 
-![Rot beschriftete Bereiche des Konferenzraums, von der Personenliste links bis zur Leiste am unteren Rand](../assets/BBB-Raum.png){ class="shadow lightbox" title="Konferenzraum in BigBlueButton" }
+Vor dem Eintritt fragt BigBlueButton, ob Sie "Mit Mikrofon" teilnehmen oder "Nur zuhören".
 
-Der Raum gliedert sich in die Personenliste mit den geteilten Notizen, den Chat-Bereich mit der Texteingabe, den Präsentationsbereich für Folien und den Webcam-Bereich. Am rechten Rand stehen die Whiteboard-Werkzeuge, oben die Schaltfläche zum Start der Aufzeichnung und die allgemeinen Einstellungen. Die Leiste am unteren Rand steuert Audio, Webcam und Screensharing sowie Umfragen, den Upload und das Teilen von Videos.
+![Links Chat, geteilte Notizen und Teilnehmerliste, rechts die Folie mit den Whiteboard-Werkzeugen, oben "Aufzeichnung starten", unten Mikrofon, Webcam, Bildschirm und Reaktionen](../assets/bigbluebutton_room_v1_de.png){ class="shadow lightbox" title="BigBlueButton-Raum · 2026.11.02" }
 
-Der angezeigte Willkommenstext lässt sich bei der Einrichtung des Raums anpassen. Sofern Personen ein Profilbild hinterlegt haben, erscheint dieses auch in der Personenliste.
+Links im Raum stehen die Bereiche "Nachrichten" mit dem gemeinsamen Chat, "Notizen" mit den geteilten Notizen und "Teilnehmer" mit den Personen im Raum. Daneben öffnet sich der gewählte Bereich, zum Beispiel der Chat mit der Texteingabe. Rechts liegt der Präsentationsbereich mit den Folien, am rechten Rand die Whiteboard-Werkzeuge. Die obere Leiste trägt die Schaltfläche "Aufzeichnung starten", die rote Schaltfläche "Verlassen" und über die drei Punkte die Einstellungen. Die untere Leiste steuert Mikrofon, Webcam, Bildschirmfreigabe und Reaktionen. Links öffnet das Plus-Symbol die "Aktionen", rechts steht "Hand heben".
+
+Moderierende finden neben der Überschrift "Teilnehmer" das Zahnrad "Teilnehmende verwalten". Sein Menü enthält unter anderem "Rechte der Zuschauenden einschränken". Was die Optionen darin bedeuten, steht unter [Häufig gestellte Fragen - BigBlueButton](faq.de.md).
+
+Den Begrüssungstext im Chat legen Sie im Online-Termin im Feld "Begrüssungstext" fest. Sofern Personen ein Profilbild hinterlegt haben, erscheint dieses auch in der Personenliste.
 
 Je nach Raumeinstellung stehen unterschiedliche Möglichkeiten im Raum zur Verfügung.
 
-## BigBlueButton für Gäste [:octicons-tag-16:{ title="ab Release 15.1 (OO-4733)" }](https://track.frentix.com/issue/OO-4733){:target="_blank"}
+## BigBlueButton für Gäste und externe Benutzer:innen [:octicons-tag-16:{ title="ab Release 15.1 (OO-4733)" }](https://track.frentix.com/issue/OO-4733){:target="_blank"}
 
-Je nach Konfiguration der BigBlueButton-Raumvorlage lassen sich Konferenz-Räume auch für Personen ohne OpenOlat Account zugänglich machen, also für externe Personen beziehungsweise Gäste.
+Wer Personen ohne OpenOlat Account zu einem Online-Termin einladen will, hat zwei Wege: den Gastzugang des Kurses und den Link für externe Benutzer:innen. Den Gastzugang öffnen Sie im Online-Termin mit dem Feld "Gäste", den Link mit dem Feld "Zugang externe Benutzer:innen".
 
 !!! note "Gastzugang"
 
     Voraussetzung ist ein herkömmlicher Kurs, kein Lernpfad-Kurs, und der Kurs selbst muss für Gäste freigeschaltet sein. Gäste geben bei der Einwahl in den Raum einen beliebigen Namen ein. Mehr dazu unter [Gastzugang](../../basic_concepts/guest_access.de.md).
 
-Der Gästelink erscheint auch für Besitzer:innen und Betreuer:innen des Kurses, bevor sie den Raum betreten. Zusätzlich lässt sich während der Konfiguration des Raums ein Passwort für Gäste generieren.
+Den Link für externe Benutzer:innen bietet OpenOlat an, wenn die Raumvorlage die Option "Offen für externe Benutzer:innen" trägt. Besitzer:innen und Betreuer:innen des Kurses sehen ihn in der Detailansicht des Online-Termins im Block "Link für externe Benutzer:innen", mit einer Schaltfläche zum Kopieren und einer für den QR-Code. Mit dem Feld "Passwort für externe Benutzer:innen" im Online-Termin schützen Sie den Zutritt zusätzlich mit einem Passwort.
 
-![URL für externe Benutzer:innen zum Weitergeben, darunter die Schaltfläche "Meeting beitreten"](../assets/bbb_externe2.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins für Moderierende" }
+![Link für externe Benutzer:innen zum Weitergeben, daneben Schaltflächen zum Kopieren und für den QR-Code](../assets/bigbluebutton_external_link_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins für Moderierende · 2026.11.02" }
+
+
+## Weiterführende Informationen {: #further_information}
+
+**Auf dieser Seite erwähnt**<br>
+[Modul BigBlueButton >](../../../manual_admin/administration/BigBlueButton_module.de.md)<br>
+[Häufig gestellte Fragen - BigBlueButton >](faq.de.md)<br>
+[Rollen und Rechte: Gastzugang >](../../basic_concepts/guest_access.de.md)
+
+**Weiterführend**<br>
+[Virtuelle Klassenzimmer >](../../basic_concepts/Virtual_classrooms.de.md)<br>
+[Gruppenwerkzeuge nutzen >](../../groups/Using_Group_Tools.de.md)<br>
+[Kursbaustein "Terminplanung" >](../Course_Element_Appointment_Scheduling.de.md)
+
+**youtube**<br>
+[BigBlueButton](<https://www.youtube.com/embed/yVZ4V4rXUJQ>)
+
+[Zum Seitenanfang ^](#bbb_course_element)
