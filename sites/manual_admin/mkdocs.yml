@@ -56,7 +56,7 @@ nav:
     - Payment modules:
       - Overview: "administration/Payment_modules.md"
       - Invoice: "administration/Payment_Invoice.md"
-      - PayPal Configuration: "administration/Payment_PayPal.md"
+      - PayPal: "administration/Payment_PayPal.md"
     - Reports: "administration/Reports.md"
     - e-Assessment Administration:
       - Overview: "administration/e-Assessment_Administration.md"

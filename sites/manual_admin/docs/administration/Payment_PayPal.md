@@ -42,6 +42,13 @@ For OpenOlat to process payments to your account, you first set up the connectio
 
 ![Configure PayPal Checkout form with the currency, Client ID and Client secret framed: this is where you enter and save the two values from your PayPal business account](assets/payment_paypal_checkout_config_v1_en.png){ class="shadow lightbox" title="Configure PayPal Checkout form in the Account tab · 2026.11.02" }
 
+### Further settings in the form {: #further_settings}
+
+Two further fields in the form "Configure PayPal Checkout" are optional. With them you define when buyers get access and for which country PayPal shows the payment:
+
+* **Pending transactions**: PayPal reports some payments as pending at first, for example because PayPal is still checking them. With the checkbox "Accept per default (booking to course will be completed)", buyers get access to the course or group already in this state. Without the checkbox, they get access only when PayPal completes the payment. If a payment is cancelled in PayPal later, OpenOlat does not end the membership by itself.
+* **Preselected countries**: With "PayPal Smart Buttons", PayPal shows the payment for one language and one country. If the language setting of buyers contains no country, OpenOlat selects the first country from this list that matches the language. If no country is selected, OpenOlat derives the country from the language setting. [:octicons-tag-16:{ title="from Release 15.3.8 (OO-5200)" }](https://track.frentix.com/issue/OO-5200)
+
 [To the top of the page ^](#PayPal)
 
 ---
