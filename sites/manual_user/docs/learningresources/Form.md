@@ -23,7 +23,7 @@ Here you will find information on how forms are created and configured for the p
 [Forms in the form course element >](../learningresources/Course_Element_Form.md)<br>
 [Forms in the survey course element >](../learningresources/Course_Element_Survey.md)<br>
 [Forms as rubric assessment >](Forms_in_Rubric_Scoring.md)<br>
-[Forms in peer reviews >](Course_Element_Task.md#revisions)<br>
+[Forms in peer reviews >](Course_Element_Task/Task_Peer_Review.md#peer_review_rubric)<br>
 [Form in the Portfolio 2.0 template >](Forms_in_the_ePortfolio_template.md)<br>
 [Booking order forms in the Course Planner >](../area_modules/Course_Planner_Implementations.md#booking_order_forms)
 

@@ -216,7 +216,7 @@ Data is also exchanged between the connected platforms, subject to strict securi
 
 **Further reading**<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
-[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Checklist" >](../../manual_user/learningresources/Course_Element_Checklist.md)<br>
 [Course Element "External Page" >](../../manual_user/learningresources/Course_Element_External_Page.md)
 

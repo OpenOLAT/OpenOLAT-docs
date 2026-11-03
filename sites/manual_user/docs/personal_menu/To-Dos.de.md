@@ -46,7 +46,7 @@ Welche Aktionen das Menü **«Weitere Aktionen»** (drei Punkte) am Ende einer Z
 [Modul To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.de.md)<br>
 [To-dos im Kurs >](../learningresources/Course_todos.de.md)<br>
 [Projekte: To-dos >](../area_modules/Project_Todos.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Qualitätsmanagement: Massnahmen (To-dos) >](../area_modules/Quality_Management_To-dos.de.md)<br>
 [Course Planner: To-dos >](../area_modules/Course_Planner_Todos.de.md)
 

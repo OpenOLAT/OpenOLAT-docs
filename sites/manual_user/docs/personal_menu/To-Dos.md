@@ -46,7 +46,7 @@ Which actions the **"More actions"** menu (three dots) at the end of a row offer
 [Module To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>
 [Projects: To-dos >](../area_modules/Project_Todos.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Quality Management: Actions (To-dos) >](../area_modules/Quality_Management_To-dos.md)<br>
 [Course Planner: To-dos >](../area_modules/Course_Planner_Todos.md)
 

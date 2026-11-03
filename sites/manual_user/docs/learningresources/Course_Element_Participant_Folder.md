@@ -22,7 +22,7 @@ The course element "Participant folder" can also be included in the assessment v
 
 !!! info "Note"
 
-    A similar configuration for submitting and returning files via coaches can also be implemented with the course element ["Task"](Course_Element_Task.md), except that the possibilities of the task element are considerably more extensive and complex.
+    A similar configuration for submitting and returning files via coaches can also be implemented with the course element ["Task"](Course_Element_Task/index.md), except that the possibilities of the task element are considerably more extensive and complex.
 
 
 ## Tab "Folder settings"
@@ -42,7 +42,7 @@ In addition, the number of documents that can be submitted can be limited. Once 
 
     As for all upload areas, there is a storage limit for the participant folder. The limits set by the administrator for the file upload and for the entire folder are displayed when you try to upload a file.
 
-A similar configuration for submitting and returning files via coaches can also be implemented with the course element ["Task"](Course_Element_Task.md), except that the possibilities of the task element are considerably more comprehensive and complex.
+A similar configuration for submitting and returning files via coaches can also be implemented with the course element ["Task"](Course_Element_Task/index.md), except that the possibilities of the task element are considerably more comprehensive and complex.
 
 ## Tab "Template settings"
 
@@ -59,6 +59,6 @@ If the owner has activated the awarding of badges under `Course > Administration
 
 ## Further information {: #further_information}
 
-[Course element "Task" >](Course_Element_Task.md)<br>
+[Course element "Task" >](Course_Element_Task/index.md)<br>
 
 [To the top of the page ^](#participant_folder)

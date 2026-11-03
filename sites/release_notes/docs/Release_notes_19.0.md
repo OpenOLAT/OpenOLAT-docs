@@ -101,7 +101,7 @@ With the integration of quiz questions, smaller knowledge tests are possible. Au
 
 ## Peer review
 
-The review and evaluation of tasks submitted by participants could previously only be carried out by the respective coaches. With the implementation of the [peer review](../manual_user/learningresources/Course_Element_Task.md#revisions){:target="_blank”}, participants now also have the opportunity to give each other feedback on the tasks they have completed.
+The review and evaluation of tasks submitted by participants could previously only be carried out by the respective coaches. With the implementation of the [peer review](../manual_user/learningresources/Course_Element_Task/Task_Peer_Review.md){:target="_blank”}, participants now also have the opportunity to give each other feedback on the tasks they have completed.
 
 The peer review is designed as an optional workflow step in the 'Task' course element. A corresponding rubric form (learning resource 'Form') can be integrated for assessment and evaluation.
 

@@ -24,7 +24,7 @@ All files uploaded by the participant can be downloaded in the tab "Submissions"
 
 The zip file additionally contains an Excel report. It carries a separate date column for every activated workflow step, that is exactly for the steps that the overview table shows in the column "Step". If the assignment of coaches and participants is activated, the report also states the assigned coach. The individual columns are described under [Excel report of the results](Assessing_tasks_and_group_tasks.md#results_export).
 
-If the assignment of coaches and participants is activated, the column "Coach" of the overview table shows who supervises a person. The assignment itself is made by course owners via the [assignment table](Course_Element_Task.md#coach_assignment_table); coaches do not see this button.
+If the assignment of coaches and participants is activated, the column "Coach" of the overview table shows who supervises a person. The assignment itself is made by course owners via the [assignment table](Course_Element_Task/Task_Setup.md#coach_assignment_table); coaches do not see this button.
 
 If no file is uploaded until the submission deadline it is marked in the overview as "No submission".
 
@@ -65,7 +65,8 @@ To change the feedback documents of individual participants under "Return and fe
 
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)<br>
-[Course Element "Task" >](Course_Element_Task.md)<br>
+[Course Element "Task" >](Course_Element_Task/index.md)<br>
+[Supervise a task >](Course_Element_Task/Task_Coaching.md)<br>
 [Types of Course Elements >](../learningresources/Course_Elements.md)
 
 [To the top of the page ^](#assess_tasks)

@@ -40,7 +40,7 @@ The following course elements can be used in particular to test knowledge.
 <div class="grid cards" markdown>
 
 * [:o_icon_o_ms_icon: Assessment](Course_Element_Assessment.md)
-* [:o_icon_o_gta_icon: Task](Course_Element_Task.md)
+* [:o_icon_o_gta_icon: Task](Course_Element_Task/index.md)
 * [:o_icon_o_gta_icon: Group Task](Course_Element_Grouptask.md)
 * [:o_icon_o_ep_icon: Portfolio Task](Course_Element_Portfolio_Task.md)
 * [:o_icon_o_iqtest_icon: Test](Course_Element_Test.md)

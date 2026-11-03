@@ -36,7 +36,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt werden.
 
 * [:o_icon_o_ms_icon: Bewertung](Course_Element_Assessment.de.md)
-* [:o_icon_o_gta_icon: Aufgabe](Course_Element_Task.de.md)
+* [:o_icon_o_gta_icon: Aufgabe](Course_Element_Task/index.de.md)
 * [:o_icon_o_gta_icon: Gruppenaufgabe](Course_Element_Grouptask.de.md)
 * [:o_icon_o_ep_icon: Portfolioaufgabe](Course_Element_Portfolio_Task.de.md)
 * [:o_icon_o_iqtest_icon: Test](Course_Element_Test.de.md)

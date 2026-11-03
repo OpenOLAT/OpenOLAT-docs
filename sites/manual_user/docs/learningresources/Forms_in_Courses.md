@@ -9,7 +9,7 @@ These include:
 * [Course element Survey](../learningresources/Course_Element_Survey.md)
 * [Course element Form](../learningresources/Course_Element_Form.md)
 * [Course element Assessment](../learningresources/Course_Element_Assessment.md)
-* [Course element Task](../learningresources/Course_Element_Task.md)
+* [Course element Task](../learningresources/Course_Element_Task/index.md)
 * Part of the [Portfolio 2.0 Template](../learningresources/Forms_in_the_ePortfolio_template.md) about the [course element Portfolio task](../learningresources/Course_Element_Portfolio_Task.md)
 
 In general, forms can also be created directly in the course via the respective course element.
@@ -31,7 +31,7 @@ Please note that once a form has been integrated into a course and accessed, the
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
 [Course Element "Form" >](../learningresources/Course_Element_Form.md)<br>
 [Course Element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Form in the Portfolio 2.0 template >](../learningresources/Forms_in_the_ePortfolio_template.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>

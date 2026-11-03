@@ -16,7 +16,7 @@
 ??? abstract "Expected previous knowledge"
 
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
-    * [First experience with the course element "Task"](../../manual_user/learningresources/Course_Element_Task.md)
+    * [First experience with the course element "Task"](../../manual_user/learningresources/Course_Element_Task/index.md)
 
 
 ---
@@ -168,7 +168,8 @@ In the "Workflow" tab, the "Peer review" step gives you an overview of all peer 
 ## Further information {: #further_information}
 
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
-[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
+[Task with peer review >](../../manual_user/learningresources/Course_Element_Task/Task_Peer_Review.md)<br>
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Forms in Rubric Scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
 [The form element rubric >](../../manual_user/learningresources/Form_Element_Rubric.md)<br>

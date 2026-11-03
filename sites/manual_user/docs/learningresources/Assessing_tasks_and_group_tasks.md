@@ -97,7 +97,7 @@ The Excel files with test results contain the same sheet, see [Export tests](Tes
 
 ## Assessment workflow course element "Task"
 
-Which steps are available in the assessment workflow depends on the configuration of the course element. It is defined in the course element ["Task"](../learningresources/Course_Element_Task.md) or ["Group task"](../learningresources/Course_Element_Grouptask.md). In the assessment tool, the assessment options can no longer be changed.
+Which steps are available in the assessment workflow depends on the configuration of the course element. It is defined in the course element ["Task"](../learningresources/Course_Element_Task/index.md) or ["Group task"](../learningresources/Course_Element_Grouptask.md). In the assessment tool, the assessment options can no longer be changed.
 
 If configured accordingly, upload a return document, for example a detailed evaluation table or a corrected version of the submission. With the button "Needs revision" you return a submission to the participant and trigger a revision loop.
 
@@ -145,7 +145,7 @@ If not the whole group has passed or not all should receive the same score, "For
 [Assessment of learners >](Assessment_of_learners.md)<br>
 [The assessment form >](The_assessment_form.md)<br>
 [Export tests >](Test_export.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)
 
 **Further**<br>

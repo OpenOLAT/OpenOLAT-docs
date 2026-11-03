@@ -5,7 +5,7 @@ Eine Rubrik ist in OpenOlat ein Element der Lernressource "Formular". Rubriken b
 * [Kursbaustein Umfrage](../learningresources/Course_Element_Survey.de.md)
 * [Kursbaustein Formular](../learningresources/Course_Element_Form.de.md)
 * [Kursbaustein Bewertung](Forms_in_Rubric_Scoring.de.md)
-* [Kursbaustein Aufgabe mit Peer-Review](Course_Element_Task.de.md#revisions)
+* [Kursbaustein Aufgabe mit Peer-Review](Course_Element_Task/Task_Peer_Review.de.md#peer_review_rubric)
 * [Portfolio 2.0 Vorlage](Forms_in_the_ePortfolio_template.de.md)
 
 ## Einsatzbeispiele für Rubriken
@@ -63,7 +63,7 @@ Geben Sie im Bereich "Spaltenbeschriftung" für jede Spalte eine sinnvolle _Bewe
 Geben Sie im Bereich der Zeilen einzelne (Bewertungs-)Kriterien, Statements oder Fragestellungen ein. Weitere Zeilen werden über "Frage hinzufügen" ergänzt. Sie können die kurzen Statements auch formatieren. Einzelne Zeilen können mit Hilfe der oben/unten Doppelpfeile verschoben werden. Zusätzlich können Sie jede Zeile mit einer Gewichtung versehen und so einzelnen Kriterien besondere Bedeutung zuweisen, was sich auch bei der Punktevergabe widerspiegelt, z.B. durch doppelte oder dreifache Punkte.
 Ferner ist es möglich, den Wert auf 0 zu setzen, um einzelne Fragen aus den Reports auszuschliessen.
 
-Eine bearbeitete Rubrik kann, eingebunden in einen Kurs, automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung in den Kursbausteinen "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" oder für Peer-Review-Bewertungen im Kursbaustein ["Aufgabe"](../learningresources/Course_Element_Task.de.md) relevant ist.
+Eine bearbeitete Rubrik kann, eingebunden in einen Kurs, automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung in den Kursbausteinen "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" oder für Peer-Review-Bewertungen im Kursbaustein ["Aufgabe"](../learningresources/Course_Element_Task/index.de.md) relevant ist.
 
 Über den Quer-Doppelpfeil kann eine Rubrik mit zwei Enden erstellt werden.
 
@@ -132,7 +132,7 @@ Hier kann der Abstand des Rubrik-Elements zu anderen Formular-Elementen festgele
 [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md)<br>
 [Kursbaustein "Formular"](../learningresources/Course_Element_Form.de.md)<br>
 [Formular als Rubrik-Bewertung](Forms_in_Rubric_Scoring.de.md)<br>
-[Kursbaustein "Aufgabe"](Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe"](Course_Element_Task/index.de.md)<br>
 [Formular in der Portfolio 2.0 Vorlage](Forms_in_the_ePortfolio_template.de.md)<br>
 [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md)<br>
 [Frageregeln in Formularen](../learningresources/Form_Question_Rules.de.md)

@@ -156,7 +156,7 @@ The details are described on the page of the course element.
 | [Selection](../learningresources/Course_Element_Selection.md) | View the selection of the coached participants | on |
 | [Structure](../learningresources/Course_Element_Structure.md) | If the course element shows a page: edit the page with "Allow coaches to edit the page" | after release |
 | [Survey](../learningresources/Course_Element_Survey.md) | Right "Results visible for": view results | on, can be switched off |
-| [Task](../learningresources/Course_Element_Task.md) | Correct and assess submissions, extend deadlines, download documents | on |
+| [Task](../learningresources/Course_Element_Task/index.md) | Correct and assess submissions, extend deadlines, download documents | on |
 | [Test](../learningresources/Course_Element_Test.md) | Correct, pull the test, invalidate | on |
 | [Topic broker](../learningresources/Course_Element_Topic_Broker.md) | View participants, topics and activity log; with the rights "Edit topic" and "Edit participants" also edit | on; editing after release |
 | [Video live stream](../learningresources/Course_Element_Video_Livestream.md) | Tab "Statistic"; with "Coach is allowed to edit" also edit events | on; editing after release |
@@ -359,7 +359,7 @@ There, each role and its contra-role appear as separate entries. Clicking an ent
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Roles and Rights: Authorisation in courses >](Authorisation_Concept.md)<br>
 [Course Element "Adobe Connect" >](../learningresources/Course_Element_Adobe_Connect.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Selection" >](../learningresources/Course_Element_Selection.md)<br>
 [Course Element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>
 [Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>

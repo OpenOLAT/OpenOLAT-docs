@@ -14,7 +14,7 @@ Tasks are recorded where they arise. In the personal menu they come together.
 | [Personal menu](../personal_menu/To-Dos.md) | All your to-dos from all modules in one list, plus your own to-dos without a module reference |
 | [Project](../area_modules/Project_Todos.md) | Tasks within a project, linkable with files, dates and decisions |
 | [Course](../learningresources/Course_todos.md) | Tasks concerning the course, created under `Course > Administration > To-dos` |
-| [Course element Task](../learningresources/Course_Element_Task.md) | To-dos that the course element assigns automatically. They serve as information and cannot be edited or deleted |
+| [Course element Task](../learningresources/Course_Element_Task/index.md) | To-dos that the course element assigns automatically. They serve as information and cannot be edited or deleted |
 | [Course Planner](../area_modules/Course_Planner_Todos.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} | Tasks on every element of a product, plus a central overview across all products |
 | [Quality management](../area_modules/Quality_Management_To-dos.md) | Actions that result from a data collection |
 
@@ -100,7 +100,7 @@ There is no setting that switches off e-mails about to-dos. When copying an impl
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [Projects: To-dos >](../area_modules/Project_Todos.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Planner: To-dos >](../area_modules/Course_Planner_Todos.md)<br>
 [Quality Management: Actions (To-dos) >](../area_modules/Quality_Management_To-dos.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)

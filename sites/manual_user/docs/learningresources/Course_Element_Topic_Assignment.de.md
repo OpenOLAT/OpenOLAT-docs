@@ -241,6 +241,6 @@ Sind Sie als themenverantwortliche Person eingetragen, schreiben Sie selbst Them
 
 [Kursbausteine >](Course_Elements.de.md)<br>
 [Kursbaustein "Themenbörse" >](Course_Element_Topic_Broker.de.md)<br>
-[Kursbaustein "Aufgabe" >](Course_Element_Task.de.md)
+[Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)
 
 [Zum Seitenanfang ^](#topic_assignment)

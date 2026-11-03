@@ -128,7 +128,7 @@ Die Einzelheiten beschreibt die Seite des Kursbausteins.
 | Kursbaustein | Was Betreuer:innen mehr dürfen | Standard |
 |---|---|---|
 | [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.de.md) | Meetings moderieren | ein |
-| [Aufgabe](../learningresources/Course_Element_Task.de.md) | Abgaben korrigieren und bewerten, Fristen verlängern, Dokumente herunterladen | ein |
+| [Aufgabe](../learningresources/Course_Element_Task/index.de.md) | Abgaben korrigieren und bewerten, Fristen verlängern, Dokumente herunterladen | ein |
 | [Auswahl](../learningresources/Course_Element_Selection.de.md) | Auswahl der betreuten Teilnehmenden einsehen | ein |
 | [Bewertung](../learningresources/Course_Element_Assessment.de.md) | Betreute Teilnehmende bewerten | ein |
 | [BigBlueButton](../learningresources/bigbluebutton/index.de.md) | Meetings verwalten und moderieren | ein |
@@ -359,7 +359,7 @@ Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf e
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Rollen und Rechte: Rechte in Kursen >](Authorisation_Concept.de.md)<br>
 [Kursbaustein "Adobe Connect" >](../learningresources/Course_Element_Adobe_Connect.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Auswahl" >](../learningresources/Course_Element_Selection.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
 [Kursbaustein "BigBlueButton" >](../learningresources/bigbluebutton/index.de.md)<br>

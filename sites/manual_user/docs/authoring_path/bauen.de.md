@@ -123,7 +123,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Wie Nutzende es nennen:** Hausaufgabe, Auftrag, Arbeitsauftrag, Einsendeaufgabe, Übung, Lernaufgabe
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Task.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Aufgabe%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Task/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Aufgabe%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "Bewertung im Detail"
 
@@ -249,7 +249,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 
 - **Kurseditor:** Bearbeitungsmodus aktivieren.
 - **Kursbaustein:** [Externe Seite](../learningresources/Course_Element_External_Page.de.md), [Linkliste](../learningresources/Course_Element_Link_List.de.md), [CP-Lerninhalt](../learningresources/Course_Element_CP_Learning_Content.de.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbausteine](../learningresources/Course_Elements.de.md).
-- **Aufgabe:** [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md), [Workflow](../learningresources/Course_Element_Task.de.md).
+- **Aufgabe:** [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md), [Workflow](../learningresources/Course_Element_Task/Task_Setup.de.md#workflow).
 - **Content Editor:** [Inhaltselement](../basic_concepts/Content_Editor.de.md) (in der Oberfläche: **Inhalt hinzufügen**), [Importieren](../basic_concepts/Content_Editor.de.md), [Inspektor](../basic_concepts/Content_Editor.de.md).
 - **Media Center:** [Freigaben](../../manual_admin/administration/Modules_Media_Center.de.md). Alle Einstellungen stehen auf der Seite [Media Center: Konzept](../basic_concepts/Media_Center_Concept.de.md).
 
@@ -263,7 +263,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Kursbaustein HTML-Seite >](../learningresources/Course_Element_HTML_Page.de.md)<br>
 [Kursbaustein Ordner >](../learningresources/Course_Element_Folder.de.md)<br>
 [Kursbaustein Forum >](../learningresources/Course_Element_Forum.de.md)<br>
-[Kursbaustein Aufgabe >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein Aufgabe >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein Bewertung >](../learningresources/Course_Element_Assessment.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
 [Media Center: Konzept >](../basic_concepts/Media_Center_Concept.de.md)<br>
@@ -276,6 +276,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Kursbaustein CP-Lerninhalt >](../learningresources/Course_Element_CP_Learning_Content.de.md)<br>
 [Kursbaustein SCORM 1.2 >](../learningresources/Course_Element_SCORM_Learning_Content.de.md)<br>
 [Kursbaustein Gruppenaufgabe >](../learningresources/Course_Element_Grouptask.de.md)<br>
+[Aufgabe einrichten >](../learningresources/Course_Element_Task/Task_Setup.de.md)<br>
 [Modul Media Center >](../../manual_admin/administration/Modules_Media_Center.de.md)
 
 **Weiterführend**<br>

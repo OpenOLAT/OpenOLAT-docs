@@ -41,7 +41,7 @@ For certificates issued automatically after successfully completing a course, yo
 
 ### To-dos [:octicons-tag-16:{ title="from Release 18.2 (OO-7039)" }](https://track.frentix.com/issue/OO-7039)
 Here participants see all to-dos of the course that concern them.
-On the one hand, these can be to-dos generated automatically from the [task course elements](../learningresources/Course_Element_Task.md). They ask you to complete a certain step of the task, for example select a task or submit a solution.
+On the one hand, these can be to-dos generated automatically from the [task course elements](../learningresources/Course_Element_Task/index.md). They ask you to complete a certain step of the task, for example select a task or submit a solution.
 On the other hand, course owners and coaches can assign specific to-dos to all participants or to individual persons. Participants change the status of a to-do once they have completed the action.
 
 The to-dos serve participants as an orientation for what currently needs to be done in the course.
@@ -93,7 +93,7 @@ Further information on the tools can be found under ["Using Additional Course Fe
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [User tools >](../personal_menu/Personal_Tools.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [Search in a course >](../basic_concepts/Search_in_Course.md)<br>
 [Chat >](../basic_concepts/Chat.md)<br>

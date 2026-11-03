@@ -63,9 +63,9 @@ The [course element "Participant folder"](../learningresources/Course_Element_Pa
 
 ### Folder in the course element "Task" or "Group task" {: #course_element_task}
 
-Within the workflow of a [course element "Task"](../learningresources/Course_Element_Task.md) and ["Group task"](../learningresources/Course_Element_Grouptask.md), various documents are uploaded and downloaded by coaches or participants: assignment, submitted documents, returned documents, revised documents and sample solution. Folders are available for all files within the course element, which are only accessible within the course element.
+Within the workflow of a [course element "Task"](../learningresources/Course_Element_Task/index.md) and ["Group task"](../learningresources/Course_Element_Grouptask.md), various documents are uploaded and downloaded by coaches or participants: assignment, submitted documents, returned documents, revised documents and sample solution. Folders are available for all files within the course element, which are only accessible within the course element.
 
-[See the details >](../learningresources/Course_Element_Task.md#workflow)<br>
+[See the details >](../learningresources/Course_Element_Task/Task_Setup.md#workflow)<br>
 [To the top of the page ^](#folders)
 
 
@@ -207,7 +207,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 [Resource folder >](../learningresources/Resource_Folder.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
 [Course Element "Participant folder" >](../learningresources/Course_Element_Participant_Folder.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Course Settings - Tab Options >](../learningresources/Course_Settings_Options.md)<br>

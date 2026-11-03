@@ -397,7 +397,7 @@ Characteristics:
 [Course Element "Form" >](../../manual_user/learningresources/Course_Element_Form.md)<br>
 [Course Element "Survey" >](../../manual_user/learningresources/Course_Element_Survey.md)<br>
 [Forms in Rubric Scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
-[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Form in the Portfolio 2.0 template >](../../manual_user/learningresources/Forms_in_the_ePortfolio_template.md)<br>
 [How do I perform a peer review? >](../peer_review/peer_review.md)
 

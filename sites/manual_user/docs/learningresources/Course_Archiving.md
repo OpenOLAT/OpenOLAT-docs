@@ -119,7 +119,7 @@ The archive contains test results as PDF files if you select "Customised" for "C
 
 ### Course results
 
-The *final results* of all assessment modules integrated in the course, such as [tests](../learningresources/Course_Element_Test.md), [assessments](../learningresources/Course_Element_Assessment.md), [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), [checklists](../learningresources/Course_Element_Checklist.md), [tasks](../learningresources/Course_Element_Task.md), etc., are archived here as a ZIP file for all course participants. The ZIP file can be downloaded and saved directly. In addition, OpenOlat stores it in the [personal files](../personal_menu/File_Hub.md#personal_files) of the person who creates it, in the folder `private > archive > "Course title"`.
+The *final results* of all assessment modules integrated in the course, such as [tests](../learningresources/Course_Element_Test.md), [assessments](../learningresources/Course_Element_Assessment.md), [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), [checklists](../learningresources/Course_Element_Checklist.md), [tasks](../learningresources/Course_Element_Task/index.md), etc., are archived here as a ZIP file for all course participants. The ZIP file can be downloaded and saved directly. In addition, OpenOlat stores it in the [personal files](../personal_menu/File_Hub.md#personal_files) of the person who creates it, in the folder `private > archive > "Course title"`.
 
 The ZIP file contains an xlsx file with information on the course participants and any documents submitted by the participants. These documents are bundled per course element and contain subfolders with the names of the participants who have submitted documents.
 
@@ -173,7 +173,7 @@ The member list of the members management shows the same persons with one row pe
 
 ### Task and group tasks [:octicons-tag-16:{ title="from Release 14.0 (OO-3945)" }](https://track.frentix.com/issue/OO-3945)
 
-All [tasks](../learningresources/Course_Element_Task.md) and [group tasks](../learningresources/Course_Element_Grouptask.md) of the course are displayed. The desired tasks or group tasks to be archived can be selected and saved as a ZIP file.
+All [tasks](../learningresources/Course_Element_Task/index.md) and [group tasks](../learningresources/Course_Element_Grouptask.md) of the course are displayed. The desired tasks or group tasks to be archived can be selected and saved as a ZIP file.
 
 The ZIP file then contains the individual selected tasks/group tasks, each in a separate folder. This folder then contains the results of the individual learners as well as the overall overview as an Excel file. The Excel file is only created if the step "Grading" is activated in the course element. It contains the sheet "Export information". There, "Exported by" shows the person who created the archive, see [Excel report of the results](../learningresources/Assessing_tasks_and_group_tasks.md#results_export).
 
@@ -244,7 +244,7 @@ Here the chat history can be exported as an xlsx file and also deleted.
 [Course Element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
 [Course Element "Checklist" >](../learningresources/Course_Element_Checklist.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
 [Customizing: Overview >](../../manual_admin/administration/Customizing.md)<br>
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>

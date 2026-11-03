@@ -41,7 +41,7 @@ Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Ku
 
 ### To-dos [:octicons-tag-16:{ title="ab Release 18.2 (OO-7039)" }](https://track.frentix.com/issue/OO-7039)
 Hier sehen Teilnehmende alle To-dos des Kurses, die sie betreffen.
-Das können zum einen automatisch erzeugte To-dos aus den [Aufgaben-Kursbausteinen](../learningresources/Course_Element_Task.de.md) sein. Sie fordern dazu auf, einen bestimmten Schritt der Aufgabe zu erledigen, z.B. eine Aufgabe auszuwählen oder eine Lösung abzugeben.
+Das können zum einen automatisch erzeugte To-dos aus den [Aufgaben-Kursbausteinen](../learningresources/Course_Element_Task/index.de.md) sein. Sie fordern dazu auf, einen bestimmten Schritt der Aufgabe zu erledigen, z.B. eine Aufgabe auszuwählen oder eine Lösung abzugeben.
 Zum anderen können Kursbesitzer:innen und Betreuer:innen allen Teilnehmenden oder einzelnen Personen bestimmte To-dos zuweisen. Teilnehmende ändern den Status eines To-dos, wenn sie die Aktion erledigt haben.
 
 Die To-dos dienen den Teilnehmenden als Orientierung, was aktuell im Kurs zu tun ist.
@@ -93,7 +93,7 @@ Weitere Informationen zu den Werkzeugen finden Sie unter ["Einsatz weiterer Kurs
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
 [Suche in einem Kurs >](../basic_concepts/Search_in_Course.de.md)<br>
 [Chat >](../basic_concepts/Chat.de.md)<br>

@@ -24,7 +24,7 @@ Die von den Lernenden hochgeladenen Dokumente können auch gesammelt über "Resu
 
 Die ZIP-Datei enthält zusätzlich einen Excel-Report. Er führt für jeden aktivierten Workflow-Schritt eine eigene Datumsspalte, also genau für die Schritte, welche die Übersichtstabelle in der Spalte "Schritt" anzeigt. Ist die Zuweisung Betreuende/Teilnehmende aktiviert, weist der Report zudem die zugewiesene betreuende Person aus. Die einzelnen Spalten sind unter [Excel-Report der Resultate](Assessing_tasks_and_group_tasks.de.md#results_export) beschrieben.
 
-Ist die Zuweisung Betreuende/Teilnehmende aktiviert, zeigt die Spalte "Betreuer:in" der Übersichtstabelle, wer eine Person betreut. Die Zuordnung selbst nehmen Kursbesitzer:innen über die [Zuordnungstabelle](Course_Element_Task.de.md#coach_assignment_table) vor; Betreuende sehen diesen Button nicht.
+Ist die Zuweisung Betreuende/Teilnehmende aktiviert, zeigt die Spalte "Betreuer:in" der Übersichtstabelle, wer eine Person betreut. Die Zuordnung selbst nehmen Kursbesitzer:innen über die [Zuordnungstabelle](Course_Element_Task/Task_Setup.de.md#coach_assignment_table) vor; Betreuende sehen diesen Button nicht.
 
 Erfolgt bis zum gesetzten Abgabedatum keine Dateiabgabe wird dies entsprechend in der Übersicht in der Spalte "Abgabedatum" gekennzeichnet.
 
@@ -65,7 +65,8 @@ Um bei einer bereits abgeschlossenen Aufgabe die Feedback-Dokumente von einzelne
 
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
 [Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)<br>
-[Kursbaustein "Aufgabe" >](Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
+[Aufgabe betreuen >](Course_Element_Task/Task_Coaching.de.md)<br>
 [Kursbausteine >](../learningresources/Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#assess_tasks)

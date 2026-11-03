@@ -23,7 +23,7 @@ Hier erfahren Sie, wie Formulare für die genannten Zwecke erstellt und konfigur
 [Formulare im Kursbaustein Formular >](../learningresources/Course_Element_Form.de.md)<br>
 [Formulare im Kursbaustein Umfrage >](../learningresources/Course_Element_Survey.de.md)<br>
 [Formulare als Rubrik Bewertung >](Forms_in_Rubric_Scoring.de.md)<br>
-[Formulare in Peer-Reviews >](Course_Element_Task.de.md#revisions)<br>
+[Formulare in Peer-Reviews >](Course_Element_Task/Task_Peer_Review.de.md#peer_review_rubric)<br>
 [Formulare in der Portfolio 2.0 Vorlage >](Forms_in_the_ePortfolio_template.de.md)<br>
 [Formulare für Buchungsaufträge im Course Planner >](../area_modules/Course_Planner_Implementations.de.md#booking_order_forms)
 

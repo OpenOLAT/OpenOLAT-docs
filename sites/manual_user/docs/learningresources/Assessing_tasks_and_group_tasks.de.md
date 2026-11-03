@@ -96,7 +96,7 @@ Dasselbe Sheet enthalten die Excel-Dateien mit Testresultaten, siehe [Tests expo
 
 ## Bewertungsmöglichkeiten Kursbaustein "Aufgabe"
 
-Welche Schritte im Bewertungsflow zur Verfügung stehen, hängt von der Konfiguration des Kursbausteins ab. Sie wird im Kursbaustein ["Aufgabe"](../learningresources/Course_Element_Task.de.md) bzw. ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) festgelegt. Im Bewertungswerkzeug lassen sich die Bewertungsoptionen nicht mehr ändern.
+Welche Schritte im Bewertungsflow zur Verfügung stehen, hängt von der Konfiguration des Kursbausteins ab. Sie wird im Kursbaustein ["Aufgabe"](../learningresources/Course_Element_Task/index.de.md) bzw. ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) festgelegt. Im Bewertungswerkzeug lassen sich die Bewertungsoptionen nicht mehr ändern.
 
 Falls so konfiguriert, laden Sie ein Rückgabe-Dokument hoch, zum Beispiel eine ausführliche Bewertungstabelle oder eine korrigierte Version der Einreichung. Mit dem Button "Benötigt Überarbeitung" geben Sie eine Einreichung an die teilnehmende Person zurück und lösen eine Überarbeitungsschleife aus.
 
@@ -143,7 +143,7 @@ Wenn nicht die ganze Gruppe bestanden hat oder nicht alle dieselbe Punktzahl erh
 [Lernende bewerten >](Assessment_of_learners.de.md)<br>
 [Das Bewertungsformular >](The_assessment_form.de.md)<br>
 [Tests exportieren >](Test_export.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)
 
 **Weiterführend**<br>

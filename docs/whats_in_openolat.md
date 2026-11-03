@@ -111,7 +111,7 @@ How a performance is recorded, graded and proven.
 
     How an exam is built, run, corrected and analysed, and where the questions come from.
 
--   __[Tasks and practice](manual_user/learningresources/Course_Element_Task.md)__
+-   __[Tasks and practice](manual_user/learningresources/Course_Element_Task/index.md)__
     {: data-oo-cluster="assessment_and_evidence" data-oo-domain="tasks" }
 
     ---

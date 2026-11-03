@@ -111,7 +111,7 @@ Wie eine Leistung erfasst, bewertet und belegt wird.
 
     Wie eine Prüfung gebaut, durchgeführt, korrigiert und ausgewertet wird, und woher die Fragen kommen.
 
--   __[Aufgaben und Üben](manual_user/learningresources/Course_Element_Task.de.md)__
+-   __[Aufgaben und Üben](manual_user/learningresources/Course_Element_Task/index.de.md)__
     {: data-oo-cluster="assessment_and_evidence" data-oo-domain="tasks" }
 
     ---

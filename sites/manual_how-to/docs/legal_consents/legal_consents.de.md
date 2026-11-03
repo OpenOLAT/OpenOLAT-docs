@@ -216,7 +216,7 @@ Zwischen den verbundenen Plattformen werden, mit strengen Sicherheitsvorkehrunge
 
 **Weiterführend**<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)<br>
-[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Checkliste" >](../../manual_user/learningresources/Course_Element_Checklist.de.md)<br>
 [Kursbaustein "Externe Seite" >](../../manual_user/learningresources/Course_Element_External_Page.de.md)
 

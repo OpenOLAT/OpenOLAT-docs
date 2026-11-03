@@ -16,7 +16,7 @@
 ??? abstract "Erwartete Vorkenntnisse"
 
     * ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)
-    * [Erste Erfahrung mit dem Kursbaustein "Aufgabe"](../../manual_user/learningresources/Course_Element_Task.de.md)
+    * [Erste Erfahrung mit dem Kursbaustein "Aufgabe"](../../manual_user/learningresources/Course_Element_Task/index.de.md)
 
 
 ---
@@ -168,7 +168,8 @@ Im Tab "Workflow" erhalten Sie im Schritt "Peer-Review" eine Übersicht über al
 ## Weiterführende Informationen {: #further_information}
 
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
-[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
+[Aufgabe mit Peer-Review >](../../manual_user/learningresources/Course_Element_Task/Task_Peer_Review.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Formular als Rubrik-Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
 [Das Formular-Element Rubrik >](../../manual_user/learningresources/Form_Element_Rubric.de.md)<br>

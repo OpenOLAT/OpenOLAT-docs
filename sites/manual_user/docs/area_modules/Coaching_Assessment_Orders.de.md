@@ -37,7 +37,7 @@ Die Tabs "Offene Bewertungen", "Offene Einstufungen/Noten" und "Freizugebende Be
 
 Die Seiten, auf denen Besitzer:innen die jeweilige Einstellung setzen:
 
-* **Offene Bewertungen**: [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md#correction), [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md), [Kursbaustein Bewertung](../learningresources/Course_Element_Assessment.de.md)
+* **Offene Bewertungen**: [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md#correction), [Kursbaustein Aufgabe](../learningresources/Course_Element_Task/index.de.md), [Kursbaustein Bewertung](../learningresources/Course_Element_Assessment.de.md)
 * **Offene Einstufungen/Noten**: [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md)
 * **Freizugebende Bewertungen**: [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md#correction), [Kurseinstellungen, Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment.de.md#section_assessment_rights)
 * **Korrekturaufträge**: [Test Einstellungen](../learningresources/Test_settings.de.md#correction-workflow)
@@ -47,7 +47,7 @@ Der Kursbaustein muss dafür bewertbar und auf manuelle Bewertung gestellt sein,
 Zwei weitere Wege führen zu einem Bewertungsauftrag:
 
 * **Bewertung wieder eröffnen**: Mit der Schaltfläche "Bewertung wieder eröffnen" im [Bewertungsformular](../learningresources/The_assessment_form.de.md) geht der Status zurück auf "Korrigieren". Die Zeile steht danach erneut im Tab "Offene Bewertungen".
-* **Zuweisung Betreuende/Teilnehmende**: Beim [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md#coach_assignment_table) ordnen Kursbesitzer:innen jeder teilnehmenden Person eine betreuende Person zu. Diese wird benachrichtigt und findet ihre Aufträge über den Filter "Mir zugewiesen".
+* **Zuweisung Betreuende/Teilnehmende**: Beim [Kursbaustein Aufgabe](../learningresources/Course_Element_Task/Task_Setup.de.md#coach_assignment_table) ordnen Kursbesitzer:innen jeder teilnehmenden Person eine betreuende Person zu. Diese wird benachrichtigt und findet ihre Aufträge über den Filter "Mir zugewiesen".
 
 [Zum Seitenanfang ^](#assessment_orders)
 
@@ -57,7 +57,7 @@ Zwei weitere Wege führen zu einem Bewertungsauftrag:
 
 Hier haben Sie Zugriff auf alle Kursbausteine, die noch zu bewerten sind. Diese können entsprechend der Spalten sortiert und dann einzeln ausgewählt und bewertet werden. Mit Klick auf den Link "Bewerten" gelangt man in das entsprechende Bewertungsformular.
 
-Eine Zeile erscheint, sobald der Bewertungseintrag der teilnehmenden Person auf dem Status "Korrigieren" steht. Diesen Status erzeugen die manuelle Korrektur eines [Tests](../learningresources/Tests_at_course_level.de.md#correction), die Schritte "Feedback", "Korrektur", "Peer-Review" und "Bewertung" beim Kursbaustein [Aufgabe](../learningresources/Course_Element_Task.de.md) sowie der Schalter "Status Korrigieren setzen, wenn Zugriff gewährt" beim Kursbaustein [Bewertung](../learningresources/Course_Element_Assessment.de.md). Betreuende sehen diese Schritte in der Spalte "Schritt", wenn sie die Aufgabe im Kurs öffnen.
+Eine Zeile erscheint, sobald der Bewertungseintrag der teilnehmenden Person auf dem Status "Korrigieren" steht. Diesen Status erzeugen die manuelle Korrektur eines [Tests](../learningresources/Tests_at_course_level.de.md#correction), die Schritte "Feedback", "Korrektur", "Peer-Review" und "Bewertung" beim Kursbaustein [Aufgabe](../learningresources/Course_Element_Task/index.de.md) sowie der Schalter "Status Korrigieren setzen, wenn Zugriff gewährt" beim Kursbaustein [Bewertung](../learningresources/Course_Element_Assessment.de.md). Betreuende sehen diese Schritte in der Spalte "Schritt", wenn sie die Aufgabe im Kurs öffnen.
 
 Über den Filter "Mir zugewiesen" schränken Sie die Liste auf die Aufträge ein, die Ihnen persönlich zugewiesen sind.
 
@@ -139,7 +139,7 @@ Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [A
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Tests auf Kursebene >](../../manual_user/learningresources/Tests_at_course_level.de.md)<br>
-[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Bewertung" >](../../manual_user/learningresources/Course_Element_Assessment.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>

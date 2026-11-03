@@ -14,7 +14,7 @@ Aufgaben werden dort erfasst, wo sie anfallen. Im persönlichen Menü laufen sie
 | [Persönliches Menü](../personal_menu/To-Dos.de.md) | Alle Ihre To-dos aus allen Modulen in einer Liste, dazu eigene To-dos ohne Modulbezug |
 | [Projekt](../area_modules/Project_Todos.de.md) | Aufgaben innerhalb eines Projekts, verknüpfbar mit Dateien, Terminen und Entscheidungen |
 | [Kurs](../learningresources/Course_todos.de.md) | Aufgaben zum Kurs, erstellt unter `Kurs > Administration > To-dos` |
-| [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md) | To-dos, die der Kursbaustein automatisch zuweist. Sie dienen der Information und lassen sich nicht bearbeiten oder löschen |
+| [Kursbaustein Aufgabe](../learningresources/Course_Element_Task/index.de.md) | To-dos, die der Kursbaustein automatisch zuweist. Sie dienen der Information und lassen sich nicht bearbeiten oder löschen |
 | [Course Planner](../area_modules/Course_Planner_Todos.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} | Aufgaben auf jedem Element eines Produkts, dazu eine zentrale Übersicht über alle Produkte |
 | [Qualitätsmanagement](../area_modules/Quality_Management_To-dos.de.md) | Massnahmen, die aus einer Datenerhebung hervorgehen |
 
@@ -100,7 +100,7 @@ Eine Einstellung, die E-Mails zu To-dos abschaltet, gibt es nicht. Beim Kopieren
 [Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
 [Projekte: To-dos >](../area_modules/Project_Todos.de.md)<br>
 [To-dos im Kurs >](../learningresources/Course_todos.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Course Planner: To-dos >](../area_modules/Course_Planner_Todos.de.md)<br>
 [Qualitätsmanagement: Massnahmen (To-dos) >](../area_modules/Quality_Management_To-dos.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)

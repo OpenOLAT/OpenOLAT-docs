@@ -6,7 +6,7 @@ Course owners set up the rubric assessment in the course editor. Owners and coac
 
 !!! note "Note"
 
-    Assessments as part of a peer review also work with rubric forms. The [course element "Task"](../learningresources/Course_Element_Task.md) handles them.
+    Assessments as part of a peer review also work with rubric forms. The [course element "Task"](../learningresources/Course_Element_Task/index.md) handles them.
 
 ## In the course editor
 
@@ -74,7 +74,7 @@ With "Start new bulk assessment" you assess several persons in one go, see [Cour
 
 **Mentioned on this page**<br>
 [The form element rubric >](Form_Element_Rubric.md)<br>
-[Course Element "Task" >](Course_Element_Task.md)<br>
+[Course Element "Task" >](Course_Element_Task/index.md)<br>
 [Course Element "Assessment" >](Course_Element_Assessment.md)<br>
 [The form editor >](Form_Editor.md)<br>
 [Authoring - Overview >](../area_modules/Authoring.md)<br>

@@ -46,7 +46,7 @@ Fügen Sie bei Bedarf dem Formular eine Tabelle hinzu und konfigurieren Sie dies
 ## Rubrik {: #form_element_rubric}
 
 Ein Rubrik-Element besteht aus einem Gitter mit Zeilen und Spalten. In den Zeilen werden die Bewertungskategorien bzw. Statements aufgeführt während die Spaltenüberschriften die Bewertungsskalen wiedergeben. So können sich mehrere unterschiedliche Statements auf eine Bewertungsskala beziehen. 
-Je nach konkreter Konfiguration können dabei sehr unterschiedliche Rubrik-Varianten entstehen die in Kursen u.a. auch als Bewertungselement für Lehrende oder als [Peer-Reviews](../learningresources/Course_Element_Task.de.md) im Aufgabenbaustein verwendet werden können.
+Je nach konkreter Konfiguration können dabei sehr unterschiedliche Rubrik-Varianten entstehen die in Kursen u.a. auch als Bewertungselement für Lehrende oder als [Peer-Reviews](../learningresources/Course_Element_Task/index.de.md) im Aufgabenbaustein verwendet werden können.
 
 Mehr Information finden Sie in einer separaten Beschreibung des [Rubrik-Elements](Form_Element_Rubric.de.md).
 

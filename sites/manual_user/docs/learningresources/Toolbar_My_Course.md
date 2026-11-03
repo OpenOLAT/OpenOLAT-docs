@@ -68,7 +68,7 @@ For certificates issued automatically after successful completion of a course, y
 ### To-dos [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7039)" }](https://track.frentix.com/issue/OO-7039) {: #to-dos}
 
 Here, participants can see all the relevant to-dos for the course. 
-These may be automatically generated to-dos from the [task course elements](../learningresources/Course_Element_Task.md). You will then be asked to take a specific step in the task process, e.g., select a task, submit a solution, or similar. 
+These may be automatically generated to-dos from the [task course elements](../learningresources/Course_Element_Task/index.md). You will then be asked to take a specific step in the task process, e.g., select a task, submit a solution, or similar. 
 On the other hand, teachers can assign specific tasks to all course participants or just to individual people. Learners can change the status of a task once they have completed the action. 
 
 The to-dos serve as guidance for users on what currently needs to be done in the course. 
@@ -175,7 +175,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [User tools >](../personal_menu/Personal_Tools.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
-[Course Element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>

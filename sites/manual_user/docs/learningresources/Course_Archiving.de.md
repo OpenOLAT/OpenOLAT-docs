@@ -119,7 +119,7 @@ Testergebnisse als PDF-Dateien enthält das Archiv, wenn Sie im Wizard-Schritt "
 
 ### Kursresultate
 
-Hier werden die *Endresultate* von allen im Kurs integrierten Assessment Bausteinen wie [Tests](../learningresources/Course_Element_Test.de.md), [Bewertungen](../learningresources/Course_Element_Assessment.de.md), [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md), [Checklisten](../learningresources/Course_Element_Checklist.de.md), [Aufgaben](../learningresources/Course_Element_Task.de.md) usw. von allen Teilnehmenden gebündelt als ZIP-Datei archiviert. Die ZIP-Datei kann direkt heruntergeladen und gespeichert werden. Zusätzlich legt OpenOlat sie in den [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) der Person ab, die sie erstellt, im Ordner `private > archive > "Kurstitel"`.
+Hier werden die *Endresultate* von allen im Kurs integrierten Assessment Bausteinen wie [Tests](../learningresources/Course_Element_Test.de.md), [Bewertungen](../learningresources/Course_Element_Assessment.de.md), [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md), [Checklisten](../learningresources/Course_Element_Checklist.de.md), [Aufgaben](../learningresources/Course_Element_Task/index.de.md) usw. von allen Teilnehmenden gebündelt als ZIP-Datei archiviert. Die ZIP-Datei kann direkt heruntergeladen und gespeichert werden. Zusätzlich legt OpenOlat sie in den [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) der Person ab, die sie erstellt, im Ordner `private > archive > "Kurstitel"`.
 
 In der ZIP-Datei findet man eine xlsx-Datei mit Informationen zu den Teilnehmenden sowie eventuell von den Teilnehmenden abgegebene Dokumente. Diese Dokumente werden pro Kursbaustein gebündelt und enthalten Unterordner mit den Namen der Teilnehmenden, die Dokumente eingereicht haben.
 
@@ -172,7 +172,7 @@ Die Mitgliederliste der Mitgliederverwaltung zeigt dieselben Personen mit einer 
 
 ### Aufgabe und Gruppenaufgaben [:octicons-tag-16:{ title="ab Release 14.0 (OO-3945)" }](https://track.frentix.com/issue/OO-3945)
 
-Es werden alle [Aufgaben](../learningresources/Course_Element_Task.de.md) und [Gruppenaufgaben](../learningresources/Course_Element_Grouptask.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Aufgaben bzw. Gruppenaufgaben können ausgewählt und als ZIP-Datei gespeichert werden.
+Es werden alle [Aufgaben](../learningresources/Course_Element_Task/index.de.md) und [Gruppenaufgaben](../learningresources/Course_Element_Grouptask.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Aufgaben bzw. Gruppenaufgaben können ausgewählt und als ZIP-Datei gespeichert werden.
 
 In der ZIP-Datei liegen dann die einzelnen ausgewählten Aufgaben/Gruppenaufgaben in jeweils einem extra Ordner. In diesem befinden sich dann die Ergebnisse der einzelnen Lernenden sowie der Gesamtüberblick als Excel-Datei. Die Excel-Datei entsteht nur, wenn im Kursbaustein der Schritt "Bewertung" aktiviert ist. Sie enthält das Sheet "Exportinformationen". Dort steht unter "Exportiert von" die Person, die das Archiv erstellt hat, siehe [Excel-Report der Resultate](../learningresources/Assessing_tasks_and_group_tasks.de.md#results_export).
 
@@ -242,7 +242,7 @@ Hier kann der Chatverlauf als xlsx-Datei exportiert und auch gelöscht werden.
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Kursbaustein "Checkliste" >](../learningresources/Course_Element_Checklist.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [Customizing: Übersicht >](../../manual_admin/administration/Customizing.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>

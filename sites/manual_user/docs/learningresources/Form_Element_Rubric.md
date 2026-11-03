@@ -5,7 +5,7 @@ A rubric in OpenOlat is an element of the learning resource "Form". Rubrics are 
 * [Course element Survey](../learningresources/Course_Element_Survey.md)
 * [Course element Form](../learningresources/Course_Element_Form.md)
 * [Course element Assessment](Forms_in_Rubric_Scoring.md)
-* [Course element Task with Peer Review](Course_Element_Task.md#revisions)
+* [Course element Task with Peer Review](Course_Element_Task/Task_Peer_Review.md#peer_review_rubric)
 * [Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)
 
 ## Examples of use for Rubrics
@@ -66,7 +66,7 @@ In the "Column label" area, enter a meaningful _rating scale_ for each column, e
 Enter individual (assessment) criteria, statements or questions in the rows. Additional lines are added via "Add question". You can also format the short statements. Individual lines can be moved using the up/down double arrows. In addition, you can assign a weighting to each line and thus assign special importance to individual criteria, which is also reflected in the points awarded, e.g. by double or triple points. 
 It is also possible to set the value to 0 to exclude individual questions from the reports.
 
-An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Course_Element_Assessment.md)" or for peer review assessments in the course element ["Task"](../learningresources/Course_Element_Task.md).
+An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Course_Element_Assessment.md)" or for peer review assessments in the course element ["Task"](../learningresources/Course_Element_Task/index.md).
 
 The cross double arrow can be used to create a rubric with two ends.
 
@@ -133,7 +133,7 @@ The distance between the rubric element and other form elements can be defined h
 [Course Element "Survey"](../learningresources/Course_Element_Survey.md)<br>
 [Course Element "Form"](../learningresources/Course_Element_Form.md)<br>
 [Forms in Rubric Scoring](Forms_in_Rubric_Scoring.md)<br>
-[Course Element "Task"](Course_Element_Task.md)<br>
+[Course Element "Task"](Course_Element_Task/index.md)<br>
 [Form in the Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)<br>
 [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)<br>
 [Question rules in forms](../learningresources/Form_Question_Rules.md)

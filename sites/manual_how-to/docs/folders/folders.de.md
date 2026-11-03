@@ -199,7 +199,7 @@ Innerhalb der Bausteine "Aufgabe" und "Gruppenaufgabe" stehen mehrere Ordner fü
 - **Einrichten:** Im Kurseditor, Baustein "Aufgabe" / "Gruppenaufgabe".
 - **Wann:** Für komplexere Abgabe-Prozesse als beim Teilnehmer:innen-Ordner.
 
-Mehr zum [Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+Mehr zum [Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 Mehr zum [Kursbaustein Gruppenaufgabe >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)
 
 
@@ -357,7 +357,7 @@ Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspei
 [Ordnerkonzept >](../../manual_user/basic_concepts/Folder_Concept.de.md)<br>
 [Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
-[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](../../manual_user/learningresources/Course_Settings_Options.de.md)<br>
 [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>

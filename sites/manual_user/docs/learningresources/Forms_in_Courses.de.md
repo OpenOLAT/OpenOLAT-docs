@@ -9,7 +9,7 @@ Hierzu zählen:
 * [Kursbaustein Umfrage](../learningresources/Course_Element_Survey.de.md)
 * [Kursbaustein Formular](../learningresources/Course_Element_Form.de.md)
 * [Kursbaustein Bewertung](../learningresources/Course_Element_Assessment.de.md)
-* [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md)
+* [Kursbaustein Aufgabe](../learningresources/Course_Element_Task/index.de.md)
 * Teil der [Portfolio 2.0 Vorlage](../learningresources/Forms_in_the_ePortfolio_template.de.md) über den [Kursbaustein Portfolioaufgabe](../learningresources/Course_Element_Portfolio_Task.de.md)
 
 Grundsätzlich können Formulare auch direkt im Kurs über den jeweiligen Kursbaustein erstellt werden.
@@ -31,7 +31,7 @@ Zu beachten ist, dass sobald ein Formular im Kurs eingebunden und aufgerufen wur
 [Kursbaustein "Umfrage" >](../learningresources/Course_Element_Survey.de.md)<br>
 [Kursbaustein "Formular" >](../learningresources/Course_Element_Form.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Formular in der Portfolio 2.0 Vorlage >](../learningresources/Forms_in_the_ePortfolio_template.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>

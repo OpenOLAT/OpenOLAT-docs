@@ -199,7 +199,7 @@ Within the "Task" and "Grouptask" elements, several folders are available for th
 - **Set up:** In the course editor, "Task" / "Grouptask" element.
 - **When:** For more complex submission processes than with the Participant Folder.
 
-More on the [Task course element >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+More on the [Task course element >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 More on the [Grouptask course element >](../../manual_user/learningresources/Course_Element_Grouptask.md)
 
 
@@ -357,7 +357,7 @@ Also remember that the size of individual files and the total storage of a folde
 [Folder concept >](../../manual_user/basic_concepts/Folder_Concept.md)<br>
 [Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
 [Course Element "Participant folder" >](../../manual_user/learningresources/Course_Element_Participant_Folder.md)<br>
-[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Group Task" >](../../manual_user/learningresources/Course_Element_Grouptask.md)<br>
 [Course Settings - Tab Options >](../../manual_user/learningresources/Course_Settings_Options.md)<br>
 [Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>

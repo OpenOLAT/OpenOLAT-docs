@@ -63,9 +63,9 @@ Der [Kursbaustein "Teilnehmer:innen Ordner"](../learningresources/Course_Element
 
 ### Ordner im Kursbaustein "Aufgabe" bzw. "Gruppenaufgabe" {: #course_element_task}
 
-Innerhalb des Workflows eines [Kursbausteins "Aufgabe"](../learningresources/Course_Element_Task.de.md) und ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) werden verschiedene Dokumente von Betreuenden oder Teilnehmenden hoch- und heruntergeladen: Aufgabenstellung, abgegebene Dokumente, zurückgegebene Dokumente, überarbeitete Dokumente und Musterlösung. Für alle Dateien stehen innerhalb des Kursbausteins Ordner zur Verfügung, die nur innerhalb des Kursbausteins zugänglich sind.
+Innerhalb des Workflows eines [Kursbausteins "Aufgabe"](../learningresources/Course_Element_Task/index.de.md) und ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) werden verschiedene Dokumente von Betreuenden oder Teilnehmenden hoch- und heruntergeladen: Aufgabenstellung, abgegebene Dokumente, zurückgegebene Dokumente, überarbeitete Dokumente und Musterlösung. Für alle Dateien stehen innerhalb des Kursbausteins Ordner zur Verfügung, die nur innerhalb des Kursbausteins zugänglich sind.
 
-[Zu den Details >](../learningresources/Course_Element_Task.de.md#workflow)<br>
+[Zu den Details >](../learningresources/Course_Element_Task/Task_Setup.de.md#workflow)<br>
 [Zum Seitenanfang ^](#folders)
 
 
@@ -207,7 +207,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 [Ressourcenordner >](../learningresources/Resource_Folder.de.md)<br>
 [Kursbaustein "Ordner" >](../learningresources/Course_Element_Folder.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](../learningresources/Course_Element_Participant_Folder.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](../learningresources/Course_Settings_Options.de.md)<br>

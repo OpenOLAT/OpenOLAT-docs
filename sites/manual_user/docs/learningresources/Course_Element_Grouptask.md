@@ -14,7 +14,7 @@ Specialty / Note | similar to course element Task
 
 
 
-With the course element Group task, a group works on a task together and submits together. The course element works largely the same way as the course element ["Task"](Course_Element_Task.md), where you find the details. The following sections describe what is different for the group task.
+With the course element Group task, a group works on a task together and submits together. The course element works largely the same way as the course element ["Task"](Course_Element_Task/index.md), where you find the details. The following sections describe what is different for the group task.
 
 ## Tab Workflow {: #workflow}
 In the tab "Workflow" you define who works on the group task: with "Select groups" you select one or more groups, with "Select areas" one or more learning areas. Only these groups see and work on the task. As long as no group is selected, the course editor reports "You have not selected a group yet", and the course element is not visible when the editor is closed.
@@ -55,7 +55,7 @@ All decisions and submissions in the workflow apply to the whole group. Therefor
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Element "Task" >](Course_Element_Task.md)<br>
+[Course Element "Task" >](Course_Element_Task/index.md)<br>
 [Assessment >](Assessment.md)<br>
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)
 

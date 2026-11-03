@@ -37,7 +37,7 @@ The tabs "Open reviews", "Open levels/gradings" and "Reviews to release" are see
 
 The pages on which owners make the respective setting:
 
-* **Open reviews**: [Tests at course level](../learningresources/Tests_at_course_level.md#correction), [Course Element "Task"](../learningresources/Course_Element_Task.md), [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)
+* **Open reviews**: [Tests at course level](../learningresources/Tests_at_course_level.md#correction), [Course Element "Task"](../learningresources/Course_Element_Task/index.md), [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)
 * **Open levels/gradings**: [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md)
 * **Reviews to release**: [Tests at course level](../learningresources/Tests_at_course_level.md#correction), [Course settings, section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights)
 * **Grading assignments**: [Test settings](../learningresources/Test_settings.md#correction-workflow)
@@ -47,7 +47,7 @@ The course element must be assessable and set to manual assessment, which means 
 Two further ways lead to an assessment order:
 
 * **Reopen assessment**: With the button "Reopen assessment" in the [assessment form](../learningresources/The_assessment_form.md) the status returns to "To review". The row then appears again in the tab "Open reviews".
-* **Assignment coaches/participants**: In the [Course Element "Task"](../learningresources/Course_Element_Task.md#coach_assignment_table) course owners assign a coach to each participant. That person is notified and finds their orders via the filter "Assigned to me".
+* **Assignment coaches/participants**: In the [Course Element "Task"](../learningresources/Course_Element_Task/Task_Setup.md#coach_assignment_table) course owners assign a coach to each participant. That person is notified and finds their orders via the filter "Assigned to me".
 
 [To the top of the page ^](#assessment_orders)
 
@@ -57,7 +57,7 @@ Two further ways lead to an assessment order:
 
 Here you have access to all course elements that still need to be assessed. These can be sorted according to the columns and then selected and assessed individually. Clicking on the "Assess" link takes you to the corresponding assessment form.
 
-A row appears as soon as the assessment entry of the participant is in the status "To review". This status is created by the manual correction of a [test](../learningresources/Tests_at_course_level.md#correction), by the steps "Review", "Correction", "Peer review" and "Grading" in the course element [Task](../learningresources/Course_Element_Task.md), and by the switch "Set status To review if accessible" in the course element [Assessment](../learningresources/Course_Element_Assessment.md). Coaches see these steps in the column "Step" when they open the task in the course.
+A row appears as soon as the assessment entry of the participant is in the status "To review". This status is created by the manual correction of a [test](../learningresources/Tests_at_course_level.md#correction), by the steps "Review", "Correction", "Peer review" and "Grading" in the course element [Task](../learningresources/Course_Element_Task/index.md), and by the switch "Set status To review if accessible" in the course element [Assessment](../learningresources/Course_Element_Assessment.md). Coaches see these steps in the column "Step" when they open the task in the course.
 
 With the filter "Assigned to me" you limit the list to the orders that are assigned to you personally.
 
@@ -139,7 +139,7 @@ The management of all correctors and their assignments, on the other hand, is do
 [Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
 [Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 [Tests at course level >](../../manual_user/learningresources/Tests_at_course_level.md)<br>
-[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Assessment" >](../../manual_user/learningresources/Course_Element_Assessment.md)<br>
 [Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>

@@ -334,7 +334,12 @@ nav:
       - JupyterHub: "learningresources/Course_Element_JupyterHub.md"
       - Assessment overview: "learningresources/Assessment.md"
       - Assessment: "learningresources/Course_Element_Assessment.md"
-      - Task: "learningresources/Course_Element_Task.md"
+      - Task:
+        - "learningresources/Course_Element_Task/index.md"
+        - Set up: "learningresources/Course_Element_Task/Task_Setup.md"
+        - Work on (participants): "learningresources/Course_Element_Task/Task_Participants.md"
+        - Supervise: "learningresources/Course_Element_Task/Task_Coaching.md"
+        - Peer review: "learningresources/Course_Element_Task/Task_Peer_Review.md"
       - Grouptask: "learningresources/Course_Element_Grouptask.md"
       - Portfolio Task: "learningresources/Course_Element_Portfolio_Task.md"
       - Test: "learningresources/Course_Element_Test.md"

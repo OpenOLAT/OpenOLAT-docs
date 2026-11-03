@@ -101,7 +101,7 @@ Mit der Einbindung von Quizfragen sind kleinere Wissensüberprüfungen möglich.
 
 ## Peer Review
 
-Die Überprüfung und Bewertung von eingereichten Aufgaben von Teilnehmenden konnte bisher nur durch die jeweiligen Betreuenden erfolgen. Mit der Implementierung des [Peer Reviews](../manual_user/learningresources/Course_Element_Task.de.md#revisions){:target="_blank”} haben nun auch Teilnehmende die Möglichkeit, gegenseitig Feedback zu den gelösten Aufgaben abzugeben.
+Die Überprüfung und Bewertung von eingereichten Aufgaben von Teilnehmenden konnte bisher nur durch die jeweiligen Betreuenden erfolgen. Mit der Implementierung des [Peer Reviews](../manual_user/learningresources/Course_Element_Task/Task_Peer_Review.de.md){:target="_blank”} haben nun auch Teilnehmende die Möglichkeit, gegenseitig Feedback zu den gelösten Aufgaben abzugeben.
 
 Das Peer Review ist als optionaler Workflow-Schritt im Kursbaustein 'Aufgabe' konzipiert. Für die Beurteilung und Bewertung kann ein entsprechender Rubrik-Fragebogen (Lernressource 'Formular') eingebunden werden.
 

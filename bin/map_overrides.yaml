@@ -40,3 +40,11 @@ overrides:
     field: man
     value: manual_user/area_modules/Question_Bank/index
     register: 29
+  - key: tasks.task
+    field: man
+    value: manual_user/learningresources/Course_Element_Task/index
+    register: 36
+  - key: tasks.workflow
+    field: man
+    value: manual_user/learningresources/Course_Element_Task/Task_Setup#workflow
+    register: 36

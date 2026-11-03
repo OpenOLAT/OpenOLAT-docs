@@ -397,7 +397,7 @@ Merkmale:
 [Kursbaustein "Formular" >](../../manual_user/learningresources/Course_Element_Form.de.md)<br>
 [Kursbaustein "Umfrage" >](../../manual_user/learningresources/Course_Element_Survey.de.md)<br>
 [Formular als Rubrik-Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
-[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 [Formular in der Portfolio 2.0 Vorlage >](../../manual_user/learningresources/Forms_in_the_ePortfolio_template.de.md)<br>
 [Wie führe ich ein Peer-Review durch? >](../peer_review/peer_review.de.md)
 

@@ -23,7 +23,7 @@ Es gibt verschiedene Möglichkeiten, wo und wie Teilnehmende eine Datei (z.B. di
 
 * [Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md) (Ordner, auf den nur die einzelne Teilnehmer:in und die Betreuer:innen Zugriff haben)
 * [Kursbaustein Ordner >](../../manual_user/learningresources/Course_Element_Folder.de.md) (Ordnerinhalt für alle Teilnehmenden sichtbar. Upload durch Teilnehmende nur, falls dies im Abschnitt "Berechtigungen" erlaubt wurde: `Kurs > Administration > Kurseditor > Kursbaustein "Ordner" > Tab "Ordnerkonfiguration"`)
-* [Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task.de.md)
+* [Kursbaustein Aufgabe >](../../manual_user/learningresources/Course_Element_Task/index.de.md)
 * [Kursbaustein Gruppenaufgabe >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)
 * [Kursbaustein Portfolioaufgabe >](../../manual_user/learningresources/Course_Element_Portfolio_Task.de.md)
 * [Kursbaustein E-Mail >](../../manual_user/learningresources/Course_Element_EMail.de.md) (Z.B. als Empfänger zuständige Betreuer:innen konfiguriert, Datei als Anhang)
@@ -59,7 +59,7 @@ Es gibt verschiedene Möglichkeiten, wo und wie Teilnehmende eine Datei (z.B. di
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
 [Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
-[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../../manual_user/learningresources/Course_Element_Grouptask.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../../manual_user/learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Kursbaustein "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.de.md)<br>

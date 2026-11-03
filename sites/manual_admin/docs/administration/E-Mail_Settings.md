@@ -71,7 +71,7 @@ Several functions of OpenOlat come with their own mail text. You adapt this text
   * [Course reminders](../../manual_user/learningresources/Course_Reminders.md#text): subject and mail text of every reminder, with their own variables.
   * [Course Element "E-Mail"](../../manual_user/learningresources/Course_Element_EMail.md): subject and message as a template for the emails that the course element sends.
   * [Course Element "Test"](../../manual_user/learningresources/Course_Element_Test.md#tab_email_confirmation): subject and mail text of the confirmation after the test submission, either from the template or as your own text.
-  * [Course Element "Task"](../../manual_user/learningresources/Course_Element_Task.md#submission): pre-formulated text of the confirmation after the final submission, adaptable in the tab "Submission".
+  * [Course Element "Task"](../../manual_user/learningresources/Course_Element_Task/Task_Setup.md#submission): pre-formulated text of the confirmation after the final submission, adaptable in the tab "Submission".
   * [Correction workflow of a test](../../manual_user/learningresources/Test_settings.md#correction-workflow): mail text for the notification of the correctors, either as your own text or from a template.
   * [Certification program](../../manual_user/area_modules/Course_Planner_Certification_Programs.md#config_tab_messages): templates of the prepared notifications and of the reminders for the recertification, adaptable in the tab "Messages".
   * [Members management](../../manual_user/learningresources/Members_management.md#add_members): in the last step of the wizard "Add members" you formulate the email to the new members, likewise with variables.
@@ -132,7 +132,7 @@ We recommend switching on only "include" in this row. "Mandatory", "Admin only" 
 [Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
 [Course Element "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
-[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>

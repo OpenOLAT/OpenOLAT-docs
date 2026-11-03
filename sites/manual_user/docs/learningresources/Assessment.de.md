@@ -4,7 +4,7 @@ Mit den Kursbausteinen der Gruppe "Wissensüberprüfung" prüfen Sie, was Teilne
 
 ![Zwölf Kursbausteine der Wissensüberprüfung, von Bewertung und Test bis Umfrage und Mehrere Checklisten](assets/Wissensueberpruefung_172.png){ class="shadow lightbox" title="Gruppe Wissensüberprüfung im Kurseditor" }
 
-Im Zentrum stehen die drei Kursbausteine, die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden, und die beiden Kursbausteine für [Einsendeaufgaben](Course_Element_Task.de.md). Für weitere Szenarien stehen die [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md), die [Bewertung](Course_Element_Assessment.de.md) mit oder ohne Rubrik-Bewertung und die Checkliste zur Wahl.
+Im Zentrum stehen die drei Kursbausteine, die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden, und die beiden Kursbausteine für [Einsendeaufgaben](Course_Element_Task/index.de.md). Für weitere Szenarien stehen die [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md), die [Bewertung](Course_Element_Assessment.de.md) mit oder ohne Rubrik-Bewertung und die Checkliste zur Wahl.
 
 In den meisten Kursbausteinen dieser Gruppe können Sie Punkte vergeben. Der Kursbaustein erhält dann den Tab "HighScore" für die [Rangliste](#highscore). Die Punkte mehrerer Kursbausteine lassen sich zusammenzählen, und das Bestehen eines Kurses kann von den Bewertungen verschiedener Kursbausteine abhängen. In herkömmlichen Kursen übernimmt das ein Kursbaustein [Struktur](Course_Element_Structure.de.md).
 
@@ -44,7 +44,7 @@ Kursbaustein | Tab | Schreibgeschützt | Bleibt bearbeitbar
 ---------|----------|----------|----------
 [Test](Course_Element_Test.de.md#tab_configuration) | "Test-Konfiguration" | "Bewertung mit Einstufung/Noten" samt Bewertungsskala, "Bei Kurs-Bewertung berücksichtigen" | alle übrigen Einstellungen, zum Beispiel "Testzeitraum festlegen", "Korrektur" und "Report"
 [SCORM 1.2](Course_Element_SCORM_Learning_Content.de.md#editor_tab_learning_content) | "Lerninhalt" | die Einstellungen unter "Konfiguration Bewertung", zum Beispiel "Resultat aus SCORM übertragen", "Maximal erreichbare Punkte", "Notwendige Punktzahl für 'bestanden'" und "Bei Kurs-Bewertung berücksichtigen" | "Reduzieren von Punkten bei erneutem Versuch verhindern", "Lösungsversuche nur zählen, wenn Punkte übertragen werden", "Maximale Anzahl Lösungsversuche", die Bereiche "SCORM" und "Einstellungen"
-[Aufgabe](Course_Element_Task.de.md#grading) | "Bewertung" | "Rubrik-Bewertung", Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
+[Aufgabe](Course_Element_Task/Task_Setup.de.md#grading) | "Bewertung" | "Rubrik-Bewertung", Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
 [Gruppenaufgabe](Course_Element_Grouptask.de.md#tab_assessment) | "Bewertung" | Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
 [Videoaufgabe](Course_Element_Video_Task.de.md#tab_assessment) | "Bewertung" | alle Einstellungen unter "Konfiguration Bewertung", darunter Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
 [Portfolioaufgabe](Course_Element_Portfolio_Task.de.md#tab_assessment) | "Bewertung" | Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
@@ -80,7 +80,7 @@ Den Ablauf der Aufgabe legen Sie im Tab "Workflow" fest. Dort schalten Sie die f
 
 Ob die Aufgabe obligatorisch oder freiwillig ist, legen Sie in Lernpfadkursen im Tab "Lernpfad" fest, in herkömmlichen Kursen im Tab "Workflow". Obligatorische Aufgaben müssen bearbeitet werden. OpenOlat zieht sie nach Ablauf des Abgabetermins ein und übergibt sie den Betreuer:innen zur Bewertung. Bei freiwilligen Aufgaben entscheiden Teilnehmende selbst, ob sie sie bearbeiten. Freiwillige Aufgaben zieht OpenOlat nach dem Abgabetermin nicht ein.
 
-Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Aufgabe"](Course_Element_Task.de.md).
+Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Aufgabe"](Course_Element_Task/index.de.md).
 
 
 
@@ -109,7 +109,7 @@ Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Portfol
 ## Kursbaustein "Gruppenaufgabe" [:octicons-tag-16:{ title="ab Release 10.3 (OO-991)" }](https://track.frentix.com/issue/OO-991) {: #course_element_group_tasks}
 :fontawesome-solid-list-check:
 
-Der Kursbaustein "Gruppenaufgabe" funktioniert weitgehend wie der Kursbaustein ["Aufgabe"](Course_Element_Task.de.md). Eine Gruppe bearbeitet die Aufgabe gemeinsam und gibt eine gemeinsame Lösung ab. Punkte und Feedback gelten für die ganze Gruppe und lassen sich für einzelne Gruppenmitglieder anpassen.
+Der Kursbaustein "Gruppenaufgabe" funktioniert weitgehend wie der Kursbaustein ["Aufgabe"](Course_Element_Task/index.de.md). Eine Gruppe bearbeitet die Aufgabe gemeinsam und gibt eine gemeinsame Lösung ab. Punkte und Feedback gelten für die ganze Gruppe und lassen sich für einzelne Gruppenmitglieder anpassen.
 
 Gegenüber dem Kursbaustein "Aufgabe" gibt es zwei Unterschiede:
 
@@ -241,7 +241,7 @@ Danach wählen Sie, welche Elemente die Rangliste zeigt: "Gratulationstitel", "S
 
 **Auf dieser Seite erwähnt**<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
-[Kursbaustein "Aufgabe" >](Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
 [Portfolioaufgabe erstellen >](Creating_Portfolio_Tasks.de.md)<br>
 [Kursbaustein "Bewertung" >](Course_Element_Assessment.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>

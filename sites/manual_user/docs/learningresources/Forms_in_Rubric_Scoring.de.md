@@ -6,7 +6,7 @@ Besitzer:innen des Kurses richten die Rubrik-Bewertung im Kurseditor ein. Bewert
 
 !!! note "Hinweis"
 
-    Auch Bewertungen im Rahmen eines Peer-Reviews arbeiten mit Rubrik-Formularen. Dafür ist der [Kursbaustein "Aufgabe"](../learningresources/Course_Element_Task.de.md) zuständig.
+    Auch Bewertungen im Rahmen eines Peer-Reviews arbeiten mit Rubrik-Formularen. Dafür ist der [Kursbaustein "Aufgabe"](../learningresources/Course_Element_Task/index.de.md) zuständig.
 
 
 ## Im Kurseditor
@@ -75,7 +75,7 @@ Mit "Neue Massenbewertung starten" bewerten Sie mehrere Personen in einem Durchg
 
 **Auf dieser Seite erwähnt**<br>
 [Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
 [Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>

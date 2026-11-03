@@ -14,7 +14,7 @@ Spezialität / Hinweis | dem Kursbaustein Aufgabe ähnlich
 
 
 
-Mit dem Kursbaustein Gruppenaufgabe bearbeitet eine Gruppe eine Aufgabe gemeinsam und gibt gemeinsam ab. Der Kursbaustein funktioniert grösstenteils wie der Kursbaustein ["Aufgabe"](Course_Element_Task.de.md), die Details stehen dort. Die folgenden Abschnitte beschreiben, was bei der Gruppenaufgabe anders ist.
+Mit dem Kursbaustein Gruppenaufgabe bearbeitet eine Gruppe eine Aufgabe gemeinsam und gibt gemeinsam ab. Der Kursbaustein funktioniert grösstenteils wie der Kursbaustein ["Aufgabe"](Course_Element_Task/index.de.md), die Details stehen dort. Die folgenden Abschnitte beschreiben, was bei der Gruppenaufgabe anders ist.
 
 ## Tab Workflow {: #workflow}
 Im Tab "Workflow" legen Sie fest, wer die Gruppenaufgabe bearbeitet: Mit "Gruppe auswählen" wählen Sie eine oder mehrere Gruppen aus, mit "Lernbereich auswählen" einen oder mehrere Lernbereiche. Nur diese Gruppen sehen und bearbeiten die Aufgabe. Solange keine Gruppe gewählt ist, meldet der Kurseditor "Sie haben noch keine Gruppe gewählt", und der Kursbaustein ist bei geschlossenem Editor nicht sichtbar.
@@ -55,7 +55,7 @@ Alle Entscheidungen und Abgaben im Workflow gelten für die ganze Gruppe. Stimme
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kursbaustein "Aufgabe" >](Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
 [Wissensüberprüfung >](Assessment.de.md)<br>
 [Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)
 

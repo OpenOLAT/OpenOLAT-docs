@@ -72,7 +72,7 @@ Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Ku
 ### To-dos [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7039)" }](https://track.frentix.com/issue/OO-7039) {: #to-dos}
 
 Hier werden Teilnehmenden alle für sie relevanten To-dos des Kurses angezeigt. 
-Dabei kann es sich zum einen um automatisch generierte To-dos aus den [Aufgaben-Kursbausteinen](../learningresources/Course_Element_Task.de.md) handeln. Dann werden Sie aufgefordert, einen bestimmten Schritt im Aufgabenablauf zu gehen, z.B. eine Aufgabe auszuwählen, eine Lösung abzugeben o.ä. 
+Dabei kann es sich zum einen um automatisch generierte To-dos aus den [Aufgaben-Kursbausteinen](../learningresources/Course_Element_Task/index.de.md) handeln. Dann werden Sie aufgefordert, einen bestimmten Schritt im Aufgabenablauf zu gehen, z.B. eine Aufgabe auszuwählen, eine Lösung abzugeben o.ä. 
 Zum anderen können Lehrende allen Teilnehmenden oder auch nur einzelnen Personen bestimmte konkrete To-dos zuweisen. Lernende können den Status eines To-dos ändern, wenn sie die Aktion erledigt haben. 
 
 Die To-dos dienen den Teilnehmenden als Orientierung, was aktuell im Kurs zu tun ist. 
@@ -184,7 +184,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
-[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
 [To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
 [To-dos im Kurs >](../learningresources/Course_todos.de.md)<br>

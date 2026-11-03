@@ -4,7 +4,7 @@ With the course elements of the group "Assessment" you check what participants h
 
 ![Twelve assessment course elements, from Assessment and Test to Survey and Multiple checklists](assets/Wissensueberpruefung_172_en.png){ class="shadow lightbox" title="Group Assessment in the course editor" }
 
-At the centre are the three course elements that use OpenOlat [tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task.md). For further scenarios, the [portfolio task](../learningresources/Creating_Portfolio_Tasks.md), the [assessment](Course_Element_Assessment.md) with or without rubric assessment, and the check list are available.
+At the centre are the three course elements that use OpenOlat [tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task/index.md). For further scenarios, the [portfolio task](../learningresources/Creating_Portfolio_Tasks.md), the [assessment](Course_Element_Assessment.md) with or without rubric assessment, and the check list are available.
 
 In most course elements of this group you can award points. The course element then receives the tab "HighScore" for the [highscore](#highscore). The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](Course_Element_Structure.md) takes care of this.
 
@@ -44,7 +44,7 @@ Course element | Tab | Read-only | Remains editable
 ---------|----------|----------|----------
 [Test](Course_Element_Test.md#tab_configuration) | "Test configuration" | "Levels/Grading" including the grading scale, "Include in course assessment" | all other settings, for example "Set assessment period", "Correction" and "Report"
 [SCORM 1.2](Course_Element_SCORM_Learning_Content.md#editor_tab_learning_content) | "Learning content" | the settings under "Grading configuration", for example "Transfer score from SCORM", "Maximum score", "Score needed to pass" and "Include in course assessment" | "Prevent the score from decreasing on subsequent attempts", "Count attempts only if score is transferred", "Maximum number of attempts", the areas "SCORM" and "Settings"
-[Task](Course_Element_Task.md#grading) | "Grading" | "Rubric assessment", score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
+[Task](Course_Element_Task/Task_Setup.md#grading) | "Grading" | "Rubric assessment", score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
 [Grouptask](Course_Element_Grouptask.md#tab_assessment) | "Grading" | score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
 [Video task](Course_Element_Video_Task.md#tab_assessment) | "Assessment" | all settings under "Grading configuration", among them score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
 [Portfolio task](Course_Element_Portfolio_Task.md#tab_assessment) | "Assessment" | score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
@@ -81,7 +81,7 @@ You define the sequence of the task in the tab "Workflow". There you switch the 
 
 Whether the task is mandatory or optional is defined in the tab "Learning path" in learning path courses, and in the tab "Workflow" in conventional courses. Mandatory tasks have to be completed. OpenOlat collects them after the deadline and hands them over to the coaches for assessment. With optional tasks, participants decide themselves whether to work on them. OpenOlat does not collect optional tasks after the deadline.
 
-All settings of the course element are described on the page [Course Element "Task"](Course_Element_Task.md).
+All settings of the course element are described on the page [Course Element "Task"](Course_Element_Task/index.md).
 
 ## Course Element: Portfolio Task {: #course_element_portfolio}
 
@@ -109,7 +109,7 @@ All settings of the course element are described on the page [Course Element "Po
 
 :fontawesome-solid-list-check:
 
-The course element "Group task" works largely like the course element ["Task"](Course_Element_Task.md). A group works on the task together and submits a joint solution. Points and feedback apply to the whole group and can be adjusted for individual group members.
+The course element "Group task" works largely like the course element ["Task"](Course_Element_Task/index.md). A group works on the task together and submits a joint solution. Points and feedback apply to the whole group and can be adjusted for individual group members.
 
 There are two differences compared with the course element "Task":
 
@@ -243,7 +243,7 @@ Then you choose which elements the highscore shows: "Congratulations title", "Po
 
 **Mentioned on this page**<br>
 [Configure tests >](Configure_tests.md)<br>
-[Course Element "Task" >](Course_Element_Task.md)<br>
+[Course Element "Task" >](Course_Element_Task/index.md)<br>
 [Creating Portfolio Tasks >](Creating_Portfolio_Tasks.md)<br>
 [Course Element "Assessment" >](Course_Element_Assessment.md)<br>
 [Course Element "Structure" >](Course_Element_Structure.md)<br>

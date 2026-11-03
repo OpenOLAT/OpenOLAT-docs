@@ -21,7 +21,7 @@ Der Kursbaustein Teilnehmer:innen Ordner kann im Bewertungswerkzeug auch in die 
 
 !!! info "Hinweis"
 
-    Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch Betreuer:innen kann auch mit dem Kursbaustein ["Aufgabe"](Course_Element_Task.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfangreicher und komplexer sind.
+    Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch Betreuer:innen kann auch mit dem Kursbaustein ["Aufgabe"](Course_Element_Task/index.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfangreicher und komplexer sind.
 
 ## Tab "Ordner Einstellungen"
 
@@ -40,7 +40,7 @@ Zudem kann die Anzahl Dokumente, welche abgegeben werden können, eingeschränkt
 
     Für den Teilnehmer:innen Ordner existiert wie für alle Upload Bereiche eine Speicherbegrenzung. Die von der/dem Administrator:in eingestellten Begrenzungen für den Upload der Datei und die Begrenzung des gesamten Ordners werden angezeigt, wenn man versucht, eine Datei hochzuladen.
 
-Eine ähnliche Konfiguration der Abgabe von Dateien und Dateirückgabe durch Betreuer:innen kann auch mit dem Kursbaustein ["Aufgabe"](Course_Element_Task.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfassender und komplexer sind.
+Eine ähnliche Konfiguration der Abgabe von Dateien und Dateirückgabe durch Betreuer:innen kann auch mit dem Kursbaustein ["Aufgabe"](Course_Element_Task/index.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfassender und komplexer sind.
 
 ## Tab "Template Einstellungen"
 
@@ -57,6 +57,6 @@ Wurde von dem/der Kursbesitzer:in unter `Kurs > Administration > Einstellungen >
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbaustein "Aufgabe" >](Course_Element_Task.de.md)<br>
+[Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
 
 [Zum Seitenanfang ^](#participant_folder)

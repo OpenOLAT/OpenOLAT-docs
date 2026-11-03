@@ -46,7 +46,7 @@ If required, add a table to the form and configure it.
 ## Rubric {: #form_element_rubric}
 
 A rubric element consists of a grid with rows and columns. The assessment categories or statements are listed in the rows, while the column headings reflect the assessment scales. In this way, several different statements can refer to one rating scale.
-Depending on the specific configuration, very different rubric variants can be created which can also be used in courses as an assessment element for teachers or as [Peer-Reviews](../learningresources/Course_Element_Task.md) in the task module.
+Depending on the specific configuration, very different rubric variants can be created which can also be used in courses as an assessment element for teachers or as [Peer-Reviews](../learningresources/Course_Element_Task/index.md) in the task module.
 
 ![Rubric element with statements in the rows and a five-level rating scale in the columns, in the form editor with the inspector open](assets/Rubrik.jpg){ class="shadow lightbox" }
 

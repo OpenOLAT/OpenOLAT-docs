@@ -521,6 +521,7 @@ plugins:
           Password : Passwort
           Password and Authentication : Passwort und Authentifizierung
           Payment modules : Bezahlungsmodule
+          Peer review : Peer-Review
           People : Personen
           Performance assessment : Leistungsbewertung
           Personal folders : Persönliche Ordner
@@ -592,6 +593,7 @@ plugins:
           Self-registration : Selbstregistration
           Self-test : Selbsttest
           Session Timeout and Logout : Session-Timeout und Logout
+          Set up : Einrichten
           Set up info page : Infoseite einrichten
           Settings : Einstellungen
           Share : Freigabe
@@ -608,6 +610,7 @@ plugins:
           Structuring a program (elements) : Lehrgang gliedern (Elemente)
           Subscriptions : Abonnements
           Suggestion for improvement : Verbesserungsvorschlag
+          Supervise : Betreuen
           Supported Technologies : Unterstützende Technologien
           Survey : Umfrage
           Surveys : Umfragen
@@ -688,6 +691,7 @@ plugins:
           Which folders can I use to share documents? : Mit welchen Ordnern kann ich Dokumente anbieten?
           Whiteboard : Whiteboard
           Wiki : Wiki
+          Work on (participants) : Bearbeiten (Teilnehmende)
           Working areas : Arbeitsbereiche
           Working Processes : Allgemeine Arbeitsweisen
           Working With Course Elements : Arbeiten mit Kursbausteinen

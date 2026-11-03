@@ -23,7 +23,7 @@ There are various options for where and how participants can upload a file (e.g.
 
 * [Course Element Participant Folder >](../../manual_user/learningresources/Course_Element_Participant_Folder.md) (Folder accessible only to the individual participant and the coaches)
 * [Course Element Folder >](../../manual_user/learningresources/Course_Element_Folder.md) (Folder contents visible to all participants. Upload by participants only if this has been permitted in the "User rights" section: `Course > Administration > Course editor > Course element "Folder" > Tab "Folder configuration"`)
-* [Course Element Task >](../../manual_user/learningresources/Course_Element_Task.md)
+* [Course Element Task >](../../manual_user/learningresources/Course_Element_Task/index.md)
 * [Course Element Grouptask >](../../manual_user/learningresources/Course_Element_Grouptask.md)
 * [Course Element Portfolio Task >](../../manual_user/learningresources/Course_Element_Portfolio_Task.md)
 * [Course Element E-mail >](../../manual_user/learningresources/Course_Element_EMail.md) (E.g. responsible coaches configured as recipients, file as attachment)
@@ -59,7 +59,7 @@ There are various options for where and how participants can upload a file (e.g.
 **Mentioned on this page**<br>
 [Course Element "Participant folder" >](../../manual_user/learningresources/Course_Element_Participant_Folder.md)<br>
 [Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
-[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Group Task" >](../../manual_user/learningresources/Course_Element_Grouptask.md)<br>
 [Course Element "Portfolio Task" >](../../manual_user/learningresources/Course_Element_Portfolio_Task.md)<br>
 [Course Element "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.md)<br>
