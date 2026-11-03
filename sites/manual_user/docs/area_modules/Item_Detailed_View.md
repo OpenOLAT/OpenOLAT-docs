@@ -57,7 +57,7 @@ You show and hide the metadata with the "Metadata" toggle at the top right of th
 
 ### Edit metadata {: #metadata_edit}
 
-If the review process is switched on, you edit the metadata in the status "Draft" and "Revision". Users with "Manage" rights, question bank managers and system administrators can also edit the metadata in the status "Review" and "Final".
+If the review process is switched on, editing the metadata does not depend on the status of the question. The authors of the question, persons with the "Manage" competence in the subject of the question and system administrators edit the metadata in every status from "Draft" to "Final". Question bank managers edit them if the system administration has granted them the right "see all questions and edit the metadata" in the section "Rights question bank manager": `Administration > e-Assessment > Question bank`. Anyone who only sees a question through a pool or a share sees the metadata read-only.
 
 The sections "General", "Item analysis", "Rights" and "Technical" can be edited. Only change values in the "Item analysis" section if you are familiar with item analysis.
 Then save your entries with "OK".

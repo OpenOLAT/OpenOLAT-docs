@@ -57,7 +57,7 @@ Die Metadaten blenden Sie mit dem Schalter "Metadaten" rechts oben in der Toolba
 
 ### Metadaten bearbeiten {: #metadata_edit}
 
-Ist der Beurteilungsprozess eingeschaltet, bearbeiten Sie die Metadaten in den Status "Draft" und "Revision". Benutzer:innen mit "Verwalten"-Recht, Poolverwalter:innen und Systemadministrator:innen bearbeiten die Metadaten zusätzlich in den Status "Review" und "Final".
+Ist der Beurteilungsprozess eingeschaltet, hängt das Bearbeiten der Metadaten nicht vom Status der Frage ab. Die Metadaten bearbeiten die Autor:innen der Frage, Personen mit der Kompetenz "Verwalten" im Fachbereich der Frage und Systemadministrator:innen, in jedem Status von "Draft" bis "Final". Poolverwalter:innen bearbeiten sie, wenn ihnen die System-Administration im Abschnitt "Rechte Poolverwalter:in" das Recht "alle Fragen sehen und die Metadaten bearbeiten" erteilt hat: `Administration > e-Assessment > Fragenpool`. Wer eine Frage nur über einen Pool oder eine Freigabe sieht, sieht die Metadaten schreibgeschützt.
 
 Bearbeiten lassen sich die Bereiche "Allgemein", "Itemanalyse", "Rechte" und "Technik". Ändern Sie Werte im Bereich "Itemanalyse" nur, wenn Sie mit der Itemanalyse vertraut sind.
 Speichern Sie Ihre Eingaben anschliessend mit "OK".

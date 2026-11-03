@@ -139,6 +139,7 @@ If the guide you need is not above, find it here by role. Each card collects the
 <p class="oo-mh-role__text">Create tests, prepare and run exams, assess the results.</p>
 
 - [How do I proceed when I create a test?](test_creation_procedure/test_creation_procedure.md)
+- [Benefits of metadata](question_metadata/question_metadata.md)
 - [How do I prepare an online exam?](exam_preparation/exam_preparation.md)
 - [How do I prepare an exam with the Safe Exam Browser (SEB)?](SEB/SEB.md)
 - [Communication during an exam](communication_during_exam/communication_during_exam.md)

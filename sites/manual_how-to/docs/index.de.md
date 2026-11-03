@@ -139,6 +139,7 @@ Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle.
 <p class="oo-mh-role__text">Tests erstellen, Prüfungen vorbereiten und durchführen, Ergebnisse bewerten.</p>
 
 - [Wie gehe ich vor, wenn ich einen Test erstelle?](test_creation_procedure/test_creation_procedure.de.md)
+- [Nutzen von Metadaten](question_metadata/question_metadata.de.md)
 - [Wie bereite ich eine Online-Prüfung vor?](exam_preparation/exam_preparation.de.md)
 - [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor?](SEB/SEB.de.md)
 - [Kommunikation während einer Prüfung](communication_during_exam/communication_during_exam.de.md)
