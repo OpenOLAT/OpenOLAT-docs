@@ -5,6 +5,13 @@ As soon as you select one or more questions in the list, the buttons with which 
 ![Two selected questions, above them the nine buttons for the selection from Create test to Change metadata, so you see what you can do with selected questions](assets/question_bank_use_questions_v2_en.png){ class="shadow lightbox" title="Buttons above the question list · 2026.11.02" }
 
 
+## Create test {: #learning_resource_test}
+
+With the button "Create test" you create a new [Learning resource Test](../learningresources/Test.md) directly from the selected questions. In doing so, you enter the title of the learning resource right away. You then find the test in Authoring under "My entries".
+
+[To the top of the page ^](#using_the_questions)
+
+
 ## Lists {: #lists}
 
 With lists you collect questions according to your own criteria. To do this, select the corresponding questions under "My questions" or a pool and then click the "Lists" button above the table. Create a new list or add the question to an existing list.
@@ -20,13 +27,6 @@ If a list is open, the menu of the "Lists" button additionally contains "Rename 
 [To the top of the page ^](#using_the_questions)
 
 
-## Create test {: #learning_resource_test}
-
-With the button "Create test" you create a new [Learning resource Test](../learningresources/Test.md) directly from the selected questions. In doing so, you enter the title of the learning resource right away. You then find the test in Authoring under "My entries".
-
-[To the top of the page ^](#using_the_questions)
-
-
 ## Export {: #export}
 
 With the button "Export" you export selected questions to different formats:
@@ -36,7 +36,6 @@ With the button "Export" you export selected questions to different formats:
 * ZIP file for exchange with other OpenOlat systems or for archiving
 
 [To the top of the page ^](#using_the_questions)
-
 
 
 ## Share [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share}
@@ -92,20 +91,20 @@ For more information on converting, see [Changing from QTI 1.2 to QTI 2.1](../le
 [To the top of the page ^](#using_the_questions)
 
 
-## Author rights {: #rights}
-
-Use the "Author rights" button to add further co-authors and grant them access rights to the selected questions.
-
-In the detailed view of the questions, the other authors are displayed in the [metadata in the "Rights" section](Item_Detailed_View.md#metadata_rights) and can also be removed there.
-
-[To the top of the page ^](#using_the_questions)
-
-
 ## Delete (or remove) {: #delete}
 
 You remove questions from lists, pools and group shares without deleting the original question under "My questions". The "Remove" button only removes the reference to the question, the question itself is kept. A question is always only removed from the respective context you are currently in. By removing a question from a list, a group or a pool, you do not change any other shares.
 
 In order to delete a question permanently from all lists, groups and pools, you have to delete the corresponding question in your question bank under "My questions". There it is permanently deleted and can no longer be restored.
+
+[To the top of the page ^](#using_the_questions)
+
+
+## Author rights {: #rights}
+
+Use the "Author rights" button to add further co-authors and grant them access rights to the selected questions.
+
+In the detailed view of the questions, the other authors are displayed in the [metadata in the "Rights" section](Item_Detailed_View.md#metadata_rights) and can also be removed there.
 
 [To the top of the page ^](#using_the_questions)
 

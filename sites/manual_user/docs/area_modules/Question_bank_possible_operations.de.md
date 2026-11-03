@@ -5,6 +5,13 @@ Sobald Sie in der Liste eine oder mehrere Fragen auswählen, erscheinen über de
 ![Zwei ausgewählte Fragen, darüber die neun Buttons für die Auswahl von Test erstellen bis Metadaten ändern, so sehen Sie, womit Sie ausgewählte Fragen weiter verwenden](assets/question_bank_use_questions_v2_de.png){ class="shadow lightbox" title="Buttons über der Fragenliste · 2026.11.02" }
 
 
+## Test erstellen {: #learning_resource_test}
+
+Mit dem Button "Test erstellen" erstellen Sie aus den ausgewählten Fragen direkt eine neue [Lernressource Test](../learningresources/Test.de.md). Dabei tragen Sie gleich den Titel der Lernressource ein. Den Test finden Sie danach im Autorenbereich unter "Meine Einträge".
+
+[Zum Seitenanfang ^](#using_the_questions)
+
+
 ## Listen {: #lists}
 
 Mit Listen sammeln Sie Fragen nach Ihren eigenen Kriterien. Wählen Sie dazu unter "Meine Fragen" oder einem Pool die entsprechenden Fragen aus, und klicken Sie im Anschluss auf die Schaltfläche "Listen" oberhalb der Tabelle. Erstellen Sie eine neue Liste oder fügen Sie die Frage einer bestehenden Liste hinzu.
@@ -20,13 +27,6 @@ Ist eine Liste geöffnet, enthält das Menü des Buttons "Listen" zusätzlich "L
 [Zum Seitenanfang ^](#using_the_questions)
 
 
-## Test erstellen {: #learning_resource_test}
-
-Mit dem Button "Test erstellen" erstellen Sie aus den ausgewählten Fragen direkt eine neue [Lernressource Test](../learningresources/Test.de.md). Dabei tragen Sie gleich den Titel der Lernressource ein. Den Test finden Sie danach im Autorenbereich unter "Meine Einträge".
-
-[Zum Seitenanfang ^](#using_the_questions)
-
-
 ## Export {: #export}
 
 Ausgewählte Fragen exportieren Sie mit dem Button "Export" in verschiedene Formate:
@@ -36,7 +36,6 @@ Ausgewählte Fragen exportieren Sie mit dem Button "Export" in verschiedene Form
 * ZIP Datei für Austausch mit anderen OpenOlat Systemen oder Archivierung
 
 [Zum Seitenanfang ^](#using_the_questions)
-
 
 
 ## Freigeben [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #share}
@@ -92,20 +91,20 @@ Weitere Informationen zum Konvertieren finden Sie unter [Von QTI 1.2 zu QTI 2.1]
 [Zum Seitenanfang ^](#using_the_questions)
 
 
-## Autor:innenrechte {: #rights}
-
-Mit dem Button "Autor:innenrechte" fügen Sie weitere Co-Autor:innen hinzu und erteilen ihnen damit Zugriffsrechte zu den ausgewählten Fragen.
-
-In der Detailansicht der Fragen werden die weiteren Autor:innen in den [Metadaten im Abschnitt "Rechte"](Item_Detailed_View.de.md#metadata_rights) angezeigt und können dort auch wieder entfernt werden.
-
-[Zum Seitenanfang ^](#using_the_questions)
-
-
 ## Löschen (bzw. Entfernen) {: #delete}
 
 Aus Listen, Pools und Gruppenfreigaben entfernen Sie Fragen, ohne die Originalfrage unter "Meine Fragen" zu löschen. Die Schaltfläche "Entfernen" entfernt nur den Verweis auf die Frage, die Frage selbst bleibt erhalten. Eine Frage wird immer nur aus dem jeweiligen Kontext entfernt, in dem Sie sich gerade befinden. Indem Sie eine Frage von einer Liste, aus einer Gruppe oder einem Pool entfernen, ändern Sie nichts an eventuellen anderen Freigaben.
 
 Um eine Frage endgültig von allen Listen, Gruppen und Pools zu löschen, müssen Sie die entsprechende Frage in Ihrem Fragenpool unter "Meine Fragen" löschen. Dort wird sie endgültig gelöscht und kann nicht mehr wiederhergestellt werden.
+
+[Zum Seitenanfang ^](#using_the_questions)
+
+
+## Autor:innenrechte {: #rights}
+
+Mit dem Button "Autor:innenrechte" fügen Sie weitere Co-Autor:innen hinzu und erteilen ihnen damit Zugriffsrechte zu den ausgewählten Fragen.
+
+In der Detailansicht der Fragen werden die weiteren Autor:innen in den [Metadaten im Abschnitt "Rechte"](Item_Detailed_View.de.md#metadata_rights) angezeigt und können dort auch wieder entfernt werden.
 
 [Zum Seitenanfang ^](#using_the_questions)
 
@@ -145,4 +144,3 @@ Weitere Informationen zu den einzelnen Metadaten finden Sie im Kapitel [Fragenpo
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 [Zum Seitenanfang ^](#using_the_questions)
-
