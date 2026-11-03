@@ -16,9 +16,9 @@
 
 ??? abstract "Expected previous knowledge"
 
-    * Experience as administrator
+    * Experience as administrator and/or system administrator
 
-OpenOlat knows four life cycles. Administrators set up three of them in the system administration under `Administration > Life cycles`:
+OpenOlat knows four life cycles. System administrators set up three of them in the system administration under `Administration > Life cycles`:
 
 * **Group life cycle**
 * **Course life cycle**
@@ -58,7 +58,7 @@ When a group is permanently deleted, it is completely removed.
 
 ### General activation and setting {: #lifecycle_activation}
 
-The general activation and the definition of the automatically executed reminders or deletions is done by the administration. You find the settings in the system administration under:<br>
+System administrators activate the life cycles and define which reminders and deletions run automatically. You find the settings in the system administration under:<br>
 `Administration > Life cycles`
 
 These presets apply to the whole system. Group coaches exclude individual groups with "Exclude from the automatic methods", and the status "Active and not deletable" protects individual accounts from deletion.
@@ -119,7 +119,7 @@ The basis is the administrator's default settings:
 
 ![Tab Deleted with courses in the status Trash, the buttons Restore and Delete permanently and the same actions in the menu with the three dots](assets/lifecycle_course_authoring_v1_en.png){ class="shadow lightbox" title="Tab Deleted in the authoring area" }
 
-How administrators configure the periods, check the impacts in the confirmation dialog and follow the running process is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
+How system administrators configure the periods, check the impacts in the confirmation dialog and follow the running process is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
 
 [To the top of the page ^](#lifecycles)
 
@@ -163,7 +163,7 @@ How far a single account has progressed through these phases is shown in the "Ac
 
 Anyone who plans implementations in the Course Planner wants an implementation to start and finish at the right time without setting every status change by hand. For this, an implementation passes through the status values "Preparation", "Provisional" and "Confirmed" to "Finished" or "Cancelled". For its elements, for example semesters or modules, the status "Active" is available instead of "Provisional" and "Confirmed". If you change the status of an implementation, you can change the contained elements in the same step. "Confirmed" then becomes "Active" for the elements. Both sequences together are the implementation life cycle. Unlike the other three life cycles, it does not delete anything, and it is not under `Administration > Life cycles`.
 
-You can set the status values manually or via the automation. Time-controlled rules of the automation refer to the begin or the end of the execution period, other rules take effect on a status change. Administrators store the rules per element type in the system administration under:<br>
+You can set the status values manually or via the automation. Time-controlled rules of the automation refer to the begin or the end of the execution period, other rules take effect on a status change. System administrators store the rules per element type in the system administration under:<br>
 `Administration > Modules > Course Planner > Tab Element types` [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
 Each implementation takes over the rules of its element type or overrides them, see [Configure automation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation). [:octicons-tag-16:{ title="from Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578)
@@ -204,25 +204,25 @@ It can be configured so that owners are notified of status changes.
 
 **Group life cycle**
 
-- [x] By administrators: general activation and configuration in the system administration under `Administration > Life cycles > Groups`
+- [x] By system administrators: general activation and configuration in the system administration under `Administration > Life cycles > Groups`
 - [x] By group managers: settings under `Groups > Tab "Group management"`
 - [x] Configure the notification of the affected persons
 
 **Course life cycle**
 
-- [x] By administrators: general activation and configuration in the system administration under `Administration > Life cycles > Courses`
-- [x] By anyone who has access to the authoring area: mark courses under `Authoring > Tab "Deleted"` and delete them
+- [x] By system administrators: general activation and configuration in the system administration under `Administration > Life cycles > Courses`
+- [x] By administrators and learning resource managers: mark courses under `Authoring > Tab "Deleted"` and delete them permanently
 - [x] Configure the notification of the affected persons
 
 **Automatic user lifecycle**
 
-- [x] By administrators: general activation and configuration in the system administration under `Administration > Life cycles > User`
+- [x] By system administrators: general activation and configuration in the system administration under `Administration > Life cycles > User`
 - [x] By anyone who has access to the user management: deactivate recognised inactive accounts manually under `User management > "Account of the person" > Tab "Account"`, delete them manually under `User management > Delete user`
 - [x] Configure the notification of the affected persons
 
 **Implementation life cycle**
 
-- [x] By administrators: rules of the automation per element type in the system administration under `Administration > Modules > Course Planner > Tab Element types`
+- [x] By system administrators: rules of the automation per element type in the system administration under `Administration > Modules > Course Planner > Tab Element types`
 - [x] Per implementation: take over or override the rules of the element type under `Tab Settings > Automation`
 
 [To the top of the page ^](#lifecycles)

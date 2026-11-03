@@ -13,7 +13,7 @@
 
 ??? abstract "Expected previous knowledge"
 
-    * Experience as administrator
+    * Experience as administrator and/or system administrator
 
 
 ### A) Limit storage consumption at creation
@@ -79,7 +79,7 @@ The course elements "Forum", "File dialog", "Task", "Group task", "Page" and "To
 
 <br>
 
-Most quotas are set up by administrators and system administrators, the default values only by system administrators. Both take place in the system administration under:<br>
+System administrators set up the default values and the other quotas in the system administration, under:<br>
 `Administration > Core functions > Files and folders`
 
 You can find more about this in the administration manual under:<br>
@@ -110,7 +110,7 @@ Versioning is available in all folders of the system:
 
 <h3> b) Where and by whom is the versioning set up?</h3>
 
-Administrators set up versioning in the system administration, under:<br>
+System administrators set up versioning in the system administration, under:<br>
 `Administration > Core functions > Files and folders`, tab "Configuration"
 
 <br>
@@ -144,23 +144,25 @@ The storage space is still required for files "in the trash". Only the permanent
 
 <h3> Delete courses/learning resources</h3>
 
-If courses or learning resources are deleted in the authoring area, they no longer appear under "My entries" but in the "Deleted" tab. (This corresponds to the trash and the step before permanent deletion.)
-They are now only visible there to their respective owners and can only be restored by them.
-The permanent deletion can also be done in this tab by selecting it and clicking on the **button "Delete permanently"**.
+If courses or learning resources are deleted in the authoring area, they no longer appear under "My entries" but in the "Deleted" tab:<br>
+`Authoring > Tab "Deleted"`<br>
+This tab corresponds to the trash and the step before permanent deletion.
+There they are visible to their respective owners as well as to learning resource managers and administrators. These persons can bring them back with the button "Restore".
+Only administrators and learning resource managers can delete them permanently. They select the learning resources in this tab and click the button "Delete permanently".
 
 ![Delete permanently button for a selected course](assets/course_deleted_v1_en.png){ class="shadow lightbox" title="Deleted tab in the authoring area" }
 
 <br>
 
-<h3> Permanent deletion by administrators</h3>
+<h3> Permanent deletion by system administrators</h3>
 
-Administrators can permanently delete individual files in the trash. This means that the whole "trash" does not have to be emptied at once. You find the files in the system administration under:<br>
+System administrators can permanently delete individual files in the trash. This means that the whole "trash" does not have to be emptied at once. You find the files in the system administration under:<br>
 `Administration > Core functions > Files and folders > Tab "Trash"`<br>
 For a single file, click "Delete" at the end of the row. For several files, select the rows and click the button "Delete permanently". Both actions delete the files permanently.
 
 ![Deleted files with size, deletion date and Delete action per row, above them the Delete permanently button for the selected rows](assets/trash_final_delete_v1_en.png){ class="shadow lightbox" title="Trash tab under Files and folders" }
 
-So that the trash does not fill up unnoticed, OpenOlat automatically deletes files permanently from the trash after a set number of days. Administrators set this period in the field "Delete from trash after x days", under:<br>
+So that the trash does not fill up unnoticed, OpenOlat automatically deletes files permanently from the trash after a set number of days. System administrators set this period in the field "Delete from trash after x days", in the system administration under:<br>
 `Administration > Core functions > Files and folders > Tab "Configuration"`
 
 <br>
@@ -175,7 +177,7 @@ Every person is responsible for the final deletion of files in the "Personal fil
 
 Some file formats (e.g. videos) generally require more storage space. Therefore, it is particularly worthwhile here to delete versions that are no longer needed. OpenOlat offers a tool for this:
 
-Administrators can search specifically for large files in the system administration and view further details about these files, under:<br>
+System administrators can search specifically for large files in the system administration and view further details about these files, under:<br>
 `Administration > Core functions > Files and folders > Tab "Large files"`
 
 This overview is very helpful and helps when cleaning up or deciding which files should be deleted.

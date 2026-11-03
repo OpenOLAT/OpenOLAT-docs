@@ -16,9 +16,9 @@
 
 ??? abstract "Erwartete Vorkenntnisse"
 
-    * Erfahrung als Administrator:in
+    * Erfahrung als Administrator:in und/oder Systemadministrator:in
 
-OpenOlat kennt vier Lebenszyklen. Drei davon richten Administrator:innen in der System-Administration unter `Administration > Lebenszyklen` ein:
+OpenOlat kennt vier Lebenszyklen. Drei davon richten Systemadministrator:innen in der System-Administration unter `Administration > Lebenszyklen` ein:
 
 * **Gruppen-Lebenszyklus**
 * **Kurs-Lebenszyklus**
@@ -59,7 +59,7 @@ Beim unwiderruflichen Löschen wird die Gruppe vollständig entfernt.
 
 ### Generelle Aktivierung und Einstellung {: #lifecycle_activation}
 
-Die generelle Aktivierung und die Festlegung der automatisch ausgeführten Erinnerungen oder Löschungen nimmt die Administration vor. Sie finden die Einstellungen in der System-Administration unter:<br>
+Systemadministrator:innen aktivieren die Lebenszyklen und legen fest, welche Erinnerungen und Löschungen automatisch ausgeführt werden. Sie finden die Einstellungen in der System-Administration unter:<br>
 `Administration > Lebenszyklen`
 
 Diese Voreinstellungen gelten für das ganze System. Einzelne Gruppen nehmen ihre Betreuer:innen mit "Von den automatischen Methoden ausschliessen" davon aus, einzelne Konten schützt der Status "Aktiv und nicht löschbar" vor der Löschung.
@@ -120,7 +120,7 @@ Grundlage sind die Voreinstellungen der Administration:
 
 ![Reiter Gelöscht mit Kursen im Status Papierkorb, die Buttons Wiederherstellen und Dauerhaft löschen sowie dieselben Aktionen im Menü mit den drei Punkten](assets/lifecycle_kurs_autorenbereich_v1_de.png){ class="shadow lightbox" title="Reiter Gelöscht im Autorenbereich" }
 
-Wie Administrator:innen die Fristen konfigurieren, die Auswirkungen im Bestätigungsdialog prüfen und den laufenden Prozess verfolgen, beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
+Wie Systemadministrator:innen die Fristen konfigurieren, die Auswirkungen im Bestätigungsdialog prüfen und den laufenden Prozess verfolgen, beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -164,7 +164,7 @@ Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Rei
 
 Wer im Course Planner Durchführungen plant, möchte, dass eine Durchführung zum richtigen Zeitpunkt startet und abschliesst, ohne jeden Statuswechsel von Hand zu setzen. Eine Durchführung durchläuft dafür die Status "Vorbereitung", "Provisorisch" und "Bestätigt" bis "Beendet" oder "Abgebrochen". Bei ihren Elementen, zum Beispiel Semestern oder Modulen, steht statt "Provisorisch" und "Bestätigt" der Status "Aktiv" zur Wahl. Ändern Sie den Status einer Durchführung, können Sie die enthaltenen Elemente im selben Schritt mitändern. Aus "Bestätigt" wird dabei bei den Elementen "Aktiv". Beide Abläufe zusammen sind der Durchführungs-Lebenszyklus. Anders als die drei anderen Lebenszyklen löscht er nichts, und er steht nicht unter `Administration > Lebenszyklen`.
 
-Die Status lassen sich von Hand setzen oder über die Automatisierung. Zeitgesteuerte Regeln der Automatisierung beziehen sich auf den Beginn oder das Ende des Durchführungszeitraums, andere greifen bei einem Statuswechsel. Administrator:innen hinterlegen die Regeln je Elementtyp in der System-Administration unter:<br>
+Die Status lassen sich von Hand setzen oder über die Automatisierung. Zeitgesteuerte Regeln der Automatisierung beziehen sich auf den Beginn oder das Ende des Durchführungszeitraums, andere greifen bei einem Statuswechsel. Systemadministrator:innen hinterlegen die Regeln je Elementtyp in der System-Administration unter:<br>
 `Administration > Module > Course Planner > Tab Elementtypen` [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
 Jede Durchführung übernimmt die Regeln ihres Elementtyps oder überschreibt sie, siehe [Automatisierung konfigurieren](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9578)" }](https://track.frentix.com/issue/OO-9578)
@@ -205,25 +205,25 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 
 **Gruppen-Lebenszyklus**
 
-- [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Gruppen`
+- [x] durch Systemadministrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Gruppen`
 - [x] durch Gruppenverwalter:innen: Einrichtung unter `Gruppen > Tab "Gruppenverwaltung"`
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
 
 **Kurs-Lebenszyklus**
 
-- [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Kurse`
-- [x] durch alle Personen, die Zugriff auf den Autorenbereich haben: unter `Autorenbereich > Tab "Gelöscht"` Kurse markieren und löschen
+- [x] durch Systemadministrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Kurse`
+- [x] durch Administrator:innen und Lernressourcenverwalter:innen: unter `Autorenbereich > Tab "Gelöscht"` Kurse markieren und endgültig löschen
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
 
 **Automatischer Kontolebenszyklus**
 
-- [x] durch Administrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Konto`
+- [x] durch Systemadministrator:innen: generelle Aktivierung und Konfiguration in der System-Administration unter `Administration > Lebenszyklen > Konto`
 - [x] durch alle Personen, die Zugriff auf die Benutzerverwaltung haben: erkannte inaktive Konten manuell deaktivieren unter `Benutzerverwaltung > "Konto der Person" > Reiter "Konto"`, manuell löschen unter `Benutzerverwaltung > Konten löschen`
 - [x] Benachrichtigung der betroffenen Personen konfigurieren
 
 **Durchführungs-Lebenszyklus**
 
-- [x] durch Administrator:innen: Regeln der Automatisierung je Elementtyp in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`
+- [x] durch Systemadministrator:innen: Regeln der Automatisierung je Elementtyp in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`
 - [x] je Durchführung: Regeln des Elementtyps übernehmen oder überschreiben unter `Tab Einstellungen > Automatisierung`
 
 [Zum Seitenanfang ^](#lifecycles)

@@ -13,7 +13,7 @@
 
 ??? abstract "Erwartete Vorkenntnisse"
 
-    * Erfahrung als Administrator:in
+    * Erfahrung als Administrator:in und/oder Systemadministrator:in
 
 
 ### A) Speicherverbrauch bei der Entstehung einschränken
@@ -79,7 +79,7 @@ Keine eigene Quota haben die Kursbausteine "Forum", "Dateidiskussion", "Aufgabe"
 
 <br>
 
-Die meisten Quotas richten Administrator:innen und Systemadministrator:innen ein, die Standardwerte nur Systemadministrator:innen. Beides geschieht in der System-Administration unter:<br>
+Die Standardwerte und die übrigen Quotas richten Systemadministrator:innen in der System-Administration ein, unter:<br>
 `Administration > Core-Konfiguration > Dateien und Ordner`
 
 Mehr dazu finden Sie im Administrationshandbuch unter:<br>
@@ -110,7 +110,7 @@ Die Versionierung ist in allen Ordnern des Systems vorhanden:
 
 <h3> b) Wo und durch wen wird die Versionierung eingerichtet?</h3>
 
-Die Versionierung stellen Administrator:innen in der System-Administration ein, unter:<br>
+Die Versionierung stellen Systemadministrator:innen in der System-Administration ein, unter:<br>
 `Administration > Core-Konfiguration > Dateien und Ordner`, Tab "Konfiguration"
 
 <br>
@@ -144,23 +144,25 @@ Der Speicherplatz wird bei Dateien "im Papierkorb" weiterhin benötigt. Erst das
 
 <h3> Löschen von Kursen/Lernressourcen</h3>
 
-Werden im Autorenbereich Kurse oder Lernressourcen gelöscht, erscheinen sie nicht mehr unter "Meine Einträge", sondern im Tab "Gelöscht". (Dies entspricht dem Papierkorb und dem Schritt vor dem endgültigen Löschen.)
-Sie sind dort nur noch für die jeweiligen Besitzer:innen sichtbar und können nur durch sie wieder hergestellt werden.
-Auch das endgültige Löschen kann in diesem Tab durch Markieren und Klick auf den **Button "Dauerhaft löschen"** vorgenommen werden.
+Werden im Autorenbereich Kurse oder Lernressourcen gelöscht, erscheinen sie nicht mehr unter "Meine Einträge", sondern im Tab "Gelöscht":<br>
+`Autorenbereich > Tab "Gelöscht"`<br>
+Dieser Tab entspricht dem Papierkorb und dem Schritt vor dem endgültigen Löschen.
+Dort sehen die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen die gelöschten Lernressourcen. Diese Personen können sie mit dem Button "Wiederherstellen" zurückholen.
+Endgültig löschen können nur Administrator:innen und Lernressourcenverwalter:innen. Sie markieren die Lernressourcen in diesem Tab und klicken auf den Button "Dauerhaft löschen".
 
 ![Button Dauerhaft löschen für einen markierten Kurs](assets/kurs_geloescht_v1_de.png){ class="shadow lightbox" title="Tab Gelöscht im Autorenbereich" }
 
 <br>
 
-<h3> Endgültiges Löschen durch Administrator:innen</h3>
+<h3> Endgültiges Löschen durch Systemadministrator:innen</h3>
 
-Administrator:innen können einzelne Dateien im Papierkorb gezielt endgültig löschen. Es muss also nicht der gesamte "Papierkorb" auf einmal geleert werden. Sie finden die Dateien in der System-Administration unter:<br>
+Systemadministrator:innen können einzelne Dateien im Papierkorb gezielt endgültig löschen. Es muss also nicht der gesamte "Papierkorb" auf einmal geleert werden. Sie finden die Dateien in der System-Administration unter:<br>
 `Administration > Core-Konfiguration > Dateien und Ordner > Tab "Papierkorb"`<br>
 Für eine einzelne Datei klicken Sie auf "Löschen" am Ende der Zeile. Für mehrere Dateien markieren Sie die Zeilen und klicken auf den Button "Endgültig löschen". Beide Aktionen löschen die Dateien endgültig.
 
 ![Gelöschte Dateien mit Grösse, Löschdatum und Aktion Löschen je Zeile, darüber der Button Endgültig löschen für die markierten Zeilen](assets/trash_final_delete_v1_de.png){ class="shadow lightbox" title="Tab Papierkorb unter Dateien und Ordner" }
 
-Damit sich der Papierkorb nicht unbemerkt füllt, löscht OpenOlat Dateien nach einer festgelegten Anzahl Tage automatisch endgültig aus dem Papierkorb. Die Frist legen Administrator:innen im Feld "Nach x Tagen aus dem Papierkorb löschen" fest, unter:<br>
+Damit sich der Papierkorb nicht unbemerkt füllt, löscht OpenOlat Dateien nach einer festgelegten Anzahl Tage automatisch endgültig aus dem Papierkorb. Die Frist legen Systemadministrator:innen im Feld "Nach x Tagen aus dem Papierkorb löschen" fest, in der System-Administration unter:<br>
 `Administration > Core-Konfiguration > Dateien und Ordner > Tab "Konfiguration"`
 
 <br>
@@ -175,7 +177,7 @@ Für das endgültige Löschen von Dateien in den "Persönlichen Dateien" im File
 
 Manche Dateiformate (z.B. Videos) benötigen generell mehr Speicherplatz. Deshalb ist es hier besonders lohnend, wenn nicht mehr benötigte Versionen gelöscht werden. OpenOlat bietet ein Hilfsmittel dazu an:
 
-Administrator:innen können in der System-Administration gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen, unter:<br>
+Systemadministrator:innen können in der System-Administration gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen, unter:<br>
 `Administration > Core-Konfiguration > Dateien und Ordner > Tab "Grosse Dateien"`
 
 Dieser Überblick ist sehr hilfreich und hilft beim Aufräumen, bzw. beim Entscheiden, welche Dateien gelöscht werden sollten.
