@@ -221,7 +221,7 @@ stations:
       de: Wie gehe ich vor, wenn ich einen Test erstelle?
       en: How do I proceed when I create a test?
     read:
-      path: manual_user/docs/learningresources/Course_Element_Test
+      path: manual_user/docs/learningresources/Course_Element_Test/index
       de: Kursbaustein Test
       en: Course element Test
     further:

@@ -91,7 +91,7 @@ You can also fill in the assessment form for the course element "SCORM 1.2". For
 `Course > Administration > Course editor > Course element "SCORM 1.2" > Tab "Learning content"`<br>
 The page [Course Element "SCORM 1.2"](Course_Element_SCORM_Learning_Content.md#transfer_score) describes what the two options transfer.
 
-The result from SCORM reflects the learning status. Use the [Course Element "Test"](Course_Element_Test.md) for exams and certifications.
+The result from SCORM reflects the learning status. Use the [Course Element "Test"](Course_Element_Test/index.md) for exams and certifications.
 
 ### Details of a SCORM course element [:octicons-tag-16:{ title="from Release 20.3.11 / 21.0.6 / 21.1.1 (OO-9935)" }](https://track.frentix.com/issue/OO-9935) {: #scorm_details}
 
@@ -148,7 +148,7 @@ When the switch is on, the fields "Scaling factor" and "Score needed to pass" al
 [Creating Portfolio Tasks >](Creating_Portfolio_Tasks.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Course Element "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.md)<br>
-[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment of learners >](Assessment_of_learners.md)<br>
 [Course administration - Archiving & Reports >](Course_Archiving.md)<br>
 [Course Element "LTI Page" >](Course_Element_LTI_Page.md)

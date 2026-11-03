@@ -29,7 +29,7 @@ Drei Punkte bestimmen den Einsatz:
 * Die Frage lebt im **Inhaltselement "Quiz"** des Content Editors, also auf einer Seite im Kursbaustein "Seite" oder im Media Center. In den Kursbausteinen "Test" und "Selbsttest" gibt es kein KI-Feedback.
 * Lernende rufen das Feedback selbst ab und können ihre Antwort danach überarbeiten.
 
-Für eine bewertete Prüfung nutzen Sie weiterhin den [Kursbaustein Test](../../manual_user/learningresources/Course_Element_Test.de.md) mit manueller Korrektur.
+Für eine bewertete Prüfung nutzen Sie weiterhin den [Kursbaustein Test](../../manual_user/learningresources/Course_Element_Test/index.de.md) mit manueller Korrektur.
 
 [Zum Seitenanfang ^](#ai_essay)
 
@@ -217,7 +217,7 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 ["Wie erstelle ich meinen ersten OpenOlat-Kurs?" >](../my_first_course/my_first_course.de.md)<br>
 [Kursbaustein "Seite" >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
-[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
 

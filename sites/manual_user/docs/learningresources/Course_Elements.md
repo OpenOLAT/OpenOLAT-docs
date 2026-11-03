@@ -43,7 +43,7 @@ The following course elements can be used in particular to test knowledge.
 * [:o_icon_o_gta_icon: Task](Course_Element_Task/index.md)
 * [:o_icon_o_gta_icon: Group Task](Course_Element_Grouptask.md)
 * [:o_icon_o_ep_icon: Portfolio Task](Course_Element_Portfolio_Task.md)
-* [:o_icon_o_iqtest_icon: Test](Course_Element_Test.md)
+* [:o_icon_o_iqtest_icon: Test](Course_Element_Test/index.md)
 * [:o_icon_o_iqself_icon: Self-test](Course_Element_Self_Test.md)
 * [:o_icon_o_practice_icon: Practice](Course_Element_Practice.md)
 * [:octicons-arrow-right-24: Video task](Course_Element_Video_Task.md)

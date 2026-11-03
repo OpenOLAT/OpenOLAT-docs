@@ -155,7 +155,7 @@ Die Einzelheiten beschreibt die Seite des Kursbausteins.
 | [Struktur](../learningresources/Course_Element_Structure.de.md) | Zeigt der Kursbaustein eine Seite an: Seite bearbeiten mit "Betreuer:innen erlauben Seite zu editieren" | nach Freigabe |
 | [Teilnehmer:innen Ordner](../learningresources/Course_Element_Participant_Folder.de.md) | Abgabe- und Rückgabeordner der betreuten Teilnehmenden | ein |
 | [Terminplanung](../learningresources/Course_Element_Appointment_Scheduling.de.md) | Rechte "Anlass bearbeiten" und "Termine bearbeiten" für Anlässe, bei denen sie als Organisator:in eingetragen sind | ein, abschaltbar |
-| [Test](../learningresources/Course_Element_Test.de.md) | Korrigieren, Test einziehen, annullieren | ein |
+| [Test](../learningresources/Course_Element_Test/index.de.md) | Korrigieren, Test einziehen, annullieren | ein |
 | [Themenbörse](../learningresources/Course_Element_Topic_Broker.de.md) | Teilnehmer:innen, Themen und Aktivitätslog einsehen; mit den Rechten "Thema bearbeiten" und "Teilnehmer:innen bearbeiten" auch bearbeiten | ein; Bearbeiten nach Freigabe |
 | [Übung](../learningresources/Course_Element_Practice.de.md) | Ergebnisse der betreuten Teilnehmenden einsehen | ein |
 | [Umfrage](../learningresources/Course_Element_Survey.de.md) | Recht "Resultate sichtbar für": Resultate einsehen | ein, abschaltbar |
@@ -386,7 +386,7 @@ Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf e
 [Kursbaustein "Struktur" >](../learningresources/Course_Element_Structure.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](../learningresources/Course_Element_Participant_Folder.de.md)<br>
 [Kursbaustein "Terminplanung" >](../learningresources/Course_Element_Appointment_Scheduling.de.md)<br>
-[Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Kursbaustein "Themenbörse" >](../learningresources/Course_Element_Topic_Broker.de.md)<br>
 [Kursbaustein "Übung" >](../learningresources/Course_Element_Practice.de.md)<br>
 [Kursbaustein "Umfrage" >](../learningresources/Course_Element_Survey.de.md)<br>

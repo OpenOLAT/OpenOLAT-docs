@@ -39,7 +39,7 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 * [:o_icon_o_gta_icon: Aufgabe](Course_Element_Task/index.de.md)
 * [:o_icon_o_gta_icon: Gruppenaufgabe](Course_Element_Grouptask.de.md)
 * [:o_icon_o_ep_icon: Portfolioaufgabe](Course_Element_Portfolio_Task.de.md)
-* [:o_icon_o_iqtest_icon: Test](Course_Element_Test.de.md)
+* [:o_icon_o_iqtest_icon: Test](Course_Element_Test/index.de.md)
 * [:o_icon_o_iqself_icon: Selbsttest](Course_Element_Self_Test.de.md)
 * [:o_icon_o_practice_icon: Übung](Course_Element_Practice.de.md)
 * [:octicons-arrow-right-24: Videoaufgabe](Course_Element_Video_Task.de.md)

@@ -42,7 +42,7 @@ The assessable course elements structure their assessment rules in the same way:
 
 Course element | Tab | Read-only | Remains editable
 ---------|----------|----------|----------
-[Test](Course_Element_Test.md#tab_configuration) | "Test configuration" | "Levels/Grading" including the grading scale, "Include in course assessment" | all other settings, for example "Set assessment period", "Correction" and "Report"
+[Test](Course_Element_Test/Test_Setup.md#tab_configuration) | "Test configuration" | "Levels/Grading" including the grading scale, "Include in course assessment" | all other settings, for example "Set assessment period", "Correction" and "Report"
 [SCORM 1.2](Course_Element_SCORM_Learning_Content.md#editor_tab_learning_content) | "Learning content" | the settings under "Grading configuration", for example "Transfer score from SCORM", "Maximum score", "Score needed to pass" and "Include in course assessment" | "Prevent the score from decreasing on subsequent attempts", "Count attempts only if score is transferred", "Maximum number of attempts", the areas "SCORM" and "Settings"
 [Task](Course_Element_Task/Task_Setup.md#grading) | "Grading" | "Rubric assessment", score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
 [Grouptask](Course_Element_Grouptask.md#tab_assessment) | "Grading" | score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
@@ -127,7 +127,7 @@ With the course element "Test" you integrate a learning resource "Test" into you
 
 If no test is linked yet, the tab "Test configuration" shows the notice "No test learning resource has been selected for this course element yet." There you select an existing test with "Select", create a new one with "Create" or import a test. Once a test is linked, the tab shows its title. "Preview" starts the preview of the test. Further information can be found on the page [Creating Tests](../learningresources/Test.md).
 
-You define the settings of the test in the course mainly in the tabs "Test configuration" and "Options", see [Tests at course level](../learningresources/Tests_at_course_level.md). All settings of the course element are described on the page [Course Element "Test"](Course_Element_Test.md).
+You define the settings of the test in the course mainly in the tabs "Test configuration" and "Options", see [Tests at course level](../learningresources/Tests_at_course_level.md). All settings of the course element are described on the page [Course Element "Test"](Course_Element_Test/index.md).
 
 OpenOlat initially takes the settings in the tab "Options" from the learning resource. If you want to change them for this course, select the setting "Adjust configuration" in the tab "Options". You can then, for example, set a time limit, limit the number of attempts, allow guests to take part or choose display options. If "Show question title" is switched off and "Allow menu navigation" is switched on, the navigation shows anonymised titles instead of the question titles.
 
@@ -249,7 +249,8 @@ Then you choose which elements the highscore shows: "Congratulations title", "Po
 [Course Element "Structure" >](Course_Element_Structure.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [The form editor >](Form_Editor.md)<br>
-[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course Element "Test" >](Course_Element_Test/index.md)<br>
+[Set up a test >](Course_Element_Test/Test_Setup.md)<br>
 [Course Element "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.md)<br>
 [Course Element "Group Task" >](Course_Element_Grouptask.md)<br>
 [Course Element "Video task" >](Course_Element_Video_Task.md)<br>

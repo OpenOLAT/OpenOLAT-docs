@@ -300,7 +300,7 @@ The "Preview" tab shows the test from the participants' point of view. The "Comm
 
 **Further**<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
-[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment tool: Tab Participants >](Assessment_tool_tab_Users.md)
 
 [To the top of the page ^](#assessing_tests)

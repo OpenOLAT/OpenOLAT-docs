@@ -70,7 +70,7 @@ Mehrere Funktionen von OpenOlat bringen einen eigenen Mailtext mit. Diesen Text 
 
   * [Erinnerungen im Kurs](../../manual_user/learningresources/Course_Reminders.de.md#text): Betreff und Mailtext jeder Erinnerung, mit eigenen Variablen.
   * [Kursbaustein "E-Mail"](../../manual_user/learningresources/Course_Element_EMail.de.md): Betreff und Nachricht als Vorlage für die E-Mails, die der Kursbaustein versendet.
-  * [Kursbaustein "Test"](../../manual_user/learningresources/Course_Element_Test.de.md#tab_email_confirmation): Betreff und Mailtext der Bestätigung nach der Testabgabe, wahlweise aus der Vorlage oder als eigener Text.
+  * [Kursbaustein "Test"](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md#tab_email_confirmation): Betreff und Mailtext der Bestätigung nach der Testabgabe, wahlweise aus der Vorlage oder als eigener Text.
   * [Kursbaustein "Aufgabe"](../../manual_user/learningresources/Course_Element_Task/Task_Setup.de.md#submission): vorformulierter Text der Bestätigung nach der endgültigen Abgabe, im Tab "Abgabe" anpassbar.
   * [Korrektur-Workflow eines Tests](../../manual_user/learningresources/Test_settings.de.md#correction-workflow): Mailtext für die Benachrichtigung der Korrektor:innen, wahlweise als eigener Text oder aus einer Vorlage.
   * [Zertifikatsprogramm](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md#config_tab_messages): Vorlagen der vorbereiteten Benachrichtigungen und der Erinnerungen zur Rezertifizierung, im Tab "Meldungen" anpassbar.
@@ -131,7 +131,7 @@ Empfohlen ist, in dieser Zeile nur "Verwenden" einzuschalten. "Zwingend", "Nur A
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Erinnerungen >](../../manual_user/learningresources/Course_Reminders.de.md)<br>
 [Kursbaustein "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.de.md)<br>
-[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
+[Test einrichten >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md)<br>
 [Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>

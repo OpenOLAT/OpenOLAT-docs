@@ -188,7 +188,7 @@ If the course element has never been published, OpenOlat replaces the test learn
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
 [Assessment tool - reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)<br>
 [Creating Tests >](../../manual_user/learningresources/Test.md)<br>
-[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
+[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 ["How do I prepare an online exam?" >](../exam_preparation/exam_preparation.md)
 
 [To the top of the page ^](#exchange_tests)

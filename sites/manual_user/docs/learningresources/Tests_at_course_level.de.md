@@ -131,7 +131,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
 Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Teilnehmenden die gleichen Voraussetzungen antreffen. Andererseits könnten bereits Resultate gespeichert worden sein, die nach der Änderung nicht eindeutig einer Version der Testdatei zugewiesen werden können. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
 
-Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fälschlicherweise eine Antwort als korrekt markiert wurde, kopieren Sie die Lernressource Test im Autorenbereich und speichern den Test so neu. Bearbeiten und korrigieren Sie den Test und binden Sie den Test anschliessend in dem gewünschten Kurs ein. Wechseln Sie dafür in den Kurseditor, öffnen Sie im Kursbaustein des gewünschten Tests den Tab "Test-Konfiguration" und klicken Sie auf "Ersetzen". Im Dialog "Test ersetzen" wählen Sie zwischen den Austauschoptionen "Kontrollierter Austausch" und "Nur ersetzen". Was die beiden Optionen mit bisherigen Testläufen und Bewertungen tun, beschreibt die Seite [Kursbaustein "Test"](Course_Element_Test.de.md#tab_replace_tests).
+Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fälschlicherweise eine Antwort als korrekt markiert wurde, kopieren Sie die Lernressource Test im Autorenbereich und speichern den Test so neu. Bearbeiten und korrigieren Sie den Test und binden Sie den Test anschliessend in dem gewünschten Kurs ein. Wechseln Sie dafür in den Kurseditor, öffnen Sie im Kursbaustein des gewünschten Tests den Tab "Test-Konfiguration" und klicken Sie auf "Ersetzen". Im Dialog "Test ersetzen" wählen Sie zwischen den Austauschoptionen "Kontrollierter Austausch" und "Nur ersetzen". Was die beiden Optionen mit bisherigen Testläufen und Bewertungen tun, beschreibt die Seite [Tests auswerten und verwalten](Course_Element_Test/Test_Results.de.md#tab_replace_tests).
 
 ## Tests einsehen und bewerten
 
@@ -165,12 +165,14 @@ Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttes
 [Testeditor >](Test_editor_QTI_2.1.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
 [Teststatistiken >](../learningresources/Statistics_Test.de.md)<br>
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Tests auswerten und verwalten >](Course_Element_Test/Test_Results.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)
 
 **Weiterführend**<br>
 [Kursbaustein "Selbsttest" >](Course_Element_Self_Test.de.md)<br>
-[Tests bewerten >](Assessing_tests.de.md)
+[Tests bewerten >](Assessing_tests.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
+[Test einrichten >](Course_Element_Test/Test_Setup.de.md)
 
 [Zum Seitenanfang ^](#tests-auf-kursebene)

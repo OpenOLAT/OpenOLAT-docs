@@ -45,7 +45,7 @@ Kursbaustein, der eine Test-Lernressource in den Kurs einbindet.
 
     **Nicht verwechseln mit «[Selbsttest](../learningresources/Course_Element_Self_Test.de.md)»:** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
 
-    [Im Handbuch lesen](../learningresources/Course_Element_Test.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Test%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../learningresources/Course_Element_Test/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Test%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -65,7 +65,7 @@ Kursbaustein, der eine Test-Lernressource zur Selbstkontrolle einbindet.
 
     **Wie Nutzende es nennen:** Übungstest, Probetest, Lernkontrolle
 
-    **Nicht verwechseln mit «[Test](../learningresources/Course_Element_Test.de.md)»:** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
+    **Nicht verwechseln mit «[Test](../learningresources/Course_Element_Test/index.de.md)»:** Der Test wird bewertet und zählt. Der Selbsttest dient der Selbstkontrolle und geht nicht in die Kursbewertung ein.
 
     [Im Handbuch lesen](../learningresources/Course_Element_Self_Test.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Selbsttest%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
@@ -231,7 +231,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 
 <p class="oo-mh-kicker">Nachlesen</p>
 
-[Kursbaustein Test](../learningresources/Course_Element_Test.de.md)
+[Kursbaustein Test](../learningresources/Course_Element_Test/index.de.md)
 
 </div>
 
@@ -241,7 +241,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 
 Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
-- **Test:** [Test-Part](../learningresources/Configure_tests.de.md), [Betreuer:innen-Chat](../../manual_how-to/communication_during_exam/communication_during_exam.de.md), [Testversuch](../learningresources/Assessing_tests.de.md), [Zusätzliche Seite](../learningresources/Test_settings.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbaustein Test](../learningresources/Course_Element_Test.de.md).
+- **Test:** [Test-Part](../learningresources/Configure_tests.de.md), [Betreuer:innen-Chat](../../manual_how-to/communication_during_exam/communication_during_exam.de.md), [Testversuch](../learningresources/Assessing_tests.de.md), [Zusätzliche Seite](../learningresources/Test_settings.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbaustein Test](../learningresources/Course_Element_Test/index.de.md).
 - **Fragenpool:** [Beurteilungsprozess](../area_modules/Question_Bank_Review_Process.de.md), [Freigaben](../area_modules/Question_Bank/index.de.md), [Liste](../area_modules/Question_bank_possible_operations.de.md). Alle Einstellungen stehen auf der Seite [Fragenpool: Übersicht](../area_modules/Question_Bank/index.de.md).
 - **Bewertung:** [Korrektur](../learningresources/Test_settings.de.md), [Bewertungsdokumente](../learningresources/The_assessment_form.de.md), [Freigabe Bewertung](../learningresources/The_assessment_form.de.md), Änderungsverlauf und weitere. Alle Einstellungen stehen auf der Seite [Lernende bewerten](../learningresources/Assessment_of_learners.de.md).
 - **Bewertungswerkzeug:** [Massenbewertung](../../manual_how-to/bulk_assessment/bulk_assessment.de.md), [Bewertungsformular](../learningresources/The_assessment_form.de.md), [Daten zurücksetzen](../learningresources/Assessment_tool_reset_data.de.md).
@@ -252,7 +252,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein Selbsttest >](../learningresources/Course_Element_Self_Test.de.md)<br>
-[Kursbaustein Test >](../learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein Test >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Lernende bewerten >](../learningresources/Assessment_of_learners.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>

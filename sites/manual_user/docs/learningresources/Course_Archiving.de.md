@@ -109,17 +109,17 @@ Es werden alle [Umfragen](../learningresources/Course_Element_Survey.de.md) des 
 
 ### Tests
 
-Es werden alle [Tests](../learningresources/Course_Element_Test.de.md) des Kurses angezeigt. Kursbausteine "Selbsttest" sind in der Kursarchivierung nicht enthalten. Die gewünschten zu archivierenden Elemente können ausgewählt und als ZIP-Datei gespeichert werden. In der ZIP-Datei liegen dann die einzelnen ausgewählten Tests in jeweils einem extra Ordner.
+Es werden alle [Tests](../learningresources/Course_Element_Test/index.de.md) des Kurses angezeigt. Kursbausteine "Selbsttest" sind in der Kursarchivierung nicht enthalten. Die gewünschten zu archivierenden Elemente können ausgewählt und als ZIP-Datei gespeichert werden. In der ZIP-Datei liegen dann die einzelnen ausgewählten Tests in jeweils einem extra Ordner.
 
 Archivierte Tests werden personalisiert gespeichert und enthalten alle Testergebnisse. Jede Excel-Datei mit Testresultaten im Archiv enthält das Sheet "Exportinformationen" mit Kurs, Kursbaustein, Zeitpunkt und der Person, die das Archiv erstellt hat, siehe [Tests exportieren](../learningresources/Test_export.de.md#export_information). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
 
-Testergebnisse als PDF-Dateien enthält das Archiv, wenn Sie im Wizard-Schritt "Einstellungen" bei "Kursbausteine" die Option "Benutzerspezifisch" und beim Kursbaustein Test die Option "Erweitert – mit PDF" wählen. Die Auswahl erscheint nur, wenn in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist. Die Option "Alle PDF-Dateien in einem Ordner" bietet nur der Export im Kursbaustein Test über den Button "Resultate exportieren". Mehr dazu unter [Testergebnisse archivieren](../learningresources/Course_Element_Test.de.md#archive) und [Tests exportieren](../learningresources/Test_export.de.md#pdf_files). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
+Testergebnisse als PDF-Dateien enthält das Archiv, wenn Sie im Wizard-Schritt "Einstellungen" bei "Kursbausteine" die Option "Benutzerspezifisch" und beim Kursbaustein Test die Option "Erweitert – mit PDF" wählen. Die Auswahl erscheint nur, wenn in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist. Die Option "Alle PDF-Dateien in einem Ordner" bietet nur der Export im Kursbaustein Test über den Button "Resultate exportieren". Mehr dazu unter [Testergebnisse archivieren](../learningresources/Course_Element_Test/Test_Results.de.md#archive) und [Tests exportieren](../learningresources/Test_export.de.md#pdf_files). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
 ![Den Export der Testresultate finden: Kursbaustein Test im Kursmenü, Tab Teilnehmer:innen und Button Resultate exportieren markiert](assets/test_export_results1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Kursbaustein Test · 2026.10.22" }
 
 ### Kursresultate
 
-Hier werden die *Endresultate* von allen im Kurs integrierten Assessment Bausteinen wie [Tests](../learningresources/Course_Element_Test.de.md), [Bewertungen](../learningresources/Course_Element_Assessment.de.md), [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md), [Checklisten](../learningresources/Course_Element_Checklist.de.md), [Aufgaben](../learningresources/Course_Element_Task/index.de.md) usw. von allen Teilnehmenden gebündelt als ZIP-Datei archiviert. Die ZIP-Datei kann direkt heruntergeladen und gespeichert werden. Zusätzlich legt OpenOlat sie in den [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) der Person ab, die sie erstellt, im Ordner `private > archive > "Kurstitel"`.
+Hier werden die *Endresultate* von allen im Kurs integrierten Assessment Bausteinen wie [Tests](../learningresources/Course_Element_Test/index.de.md), [Bewertungen](../learningresources/Course_Element_Assessment.de.md), [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md), [Checklisten](../learningresources/Course_Element_Checklist.de.md), [Aufgaben](../learningresources/Course_Element_Task/index.de.md) usw. von allen Teilnehmenden gebündelt als ZIP-Datei archiviert. Die ZIP-Datei kann direkt heruntergeladen und gespeichert werden. Zusätzlich legt OpenOlat sie in den [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) der Person ab, die sie erstellt, im Ordner `private > archive > "Kurstitel"`.
 
 In der ZIP-Datei findet man eine xlsx-Datei mit Informationen zu den Teilnehmenden sowie eventuell von den Teilnehmenden abgegebene Dokumente. Diese Dokumente werden pro Kursbaustein gebündelt und enthalten Unterordner mit den Namen der Teilnehmenden, die Dokumente eingereicht haben.
 
@@ -236,7 +236,8 @@ Hier kann der Chatverlauf als xlsx-Datei exportiert und auch gelöscht werden.
 [Mitgliederverwaltung >](Members_management.de.md)<br>
 [Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
 [Kursbaustein "Umfrage" >](../learningresources/Course_Element_Survey.de.md)<br>
-[Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
+[Tests auswerten und verwalten >](../learningresources/Course_Element_Test/Test_Results.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Tests exportieren >](../learningresources/Test_export.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>

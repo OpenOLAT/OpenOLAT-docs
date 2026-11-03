@@ -30,7 +30,7 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 
 * **Maximal erreichbare Punktzahl:** Diese Punktzahl wird von den Punkten der einzelnen Fragen im Test automatisch berechnet.
 * **Bestanden / Nicht bestanden ausgegeben:** Aktivieren Sie das Feld, wenn für den Test ein "bestanden" bzw. "nicht bestanden" angezeigt werden soll.
-* **Art der Ausgabe:** Ist "Bestanden / Nicht bestanden ausgegeben" aktiviert, legen Sie hier fest, wie das Ergebnis zustande kommt: "Automatisch durch Punkteschwelle" oder "Manuell durch Betreuer:in". Diese Einstellung und die Punkteschwelle gelten auch, wenn Sie den Test in einen Kurs einbinden. Ausnahme: Aktivieren Sie dort die Option "Bewertung mit Einstufung/Noten", rechnet die Bewertungsskala die erreichten Punkte in eine Note oder Stufe um, zum Beispiel 0 bis 100 Punkte in Schweizer Noten von 1 bis 6. Ob der Test bestanden ist, entscheidet dann die Note: Die Bewertungsskala legt mit "Bestanden mit" fest, ab welcher Note der Test bestanden ist, zum Beispiel ab Note 4. Die Punkteschwelle des Tests wird dabei nicht umgerechnet und zählt nicht mehr, siehe [Kursbaustein "Test"](Course_Element_Test.de.md#section_test) und [Einstufung/Noten](Assessment_translate_points_in_grades.de.md).
+* **Art der Ausgabe:** Ist "Bestanden / Nicht bestanden ausgegeben" aktiviert, legen Sie hier fest, wie das Ergebnis zustande kommt: "Automatisch durch Punkteschwelle" oder "Manuell durch Betreuer:in". Diese Einstellung und die Punkteschwelle gelten auch, wenn Sie den Test in einen Kurs einbinden. Ausnahme: Aktivieren Sie dort die Option "Bewertung mit Einstufung/Noten", rechnet die Bewertungsskala die erreichten Punkte in eine Note oder Stufe um, zum Beispiel 0 bis 100 Punkte in Schweizer Noten von 1 bis 6. Ob der Test bestanden ist, entscheidet dann die Note: Die Bewertungsskala legt mit "Bestanden mit" fest, ab welcher Note der Test bestanden ist, zum Beispiel ab Note 4. Die Punkteschwelle des Tests wird dabei nicht umgerechnet und zählt nicht mehr, siehe [Test einrichten](Course_Element_Test/Test_Setup.de.md#section_test) und [Einstufung/Noten](Assessment_translate_points_in_grades.de.md).
 
     ![Bestanden im Kurs: ohne Einstufung/Noten entscheidet die Punkteschwelle des Tests, mit Einstufung/Noten die umgerechnete Note](assets/test_passed_decision_v1_de.svg){ class="shadow lightbox" title="Bestanden im Kurs mit und ohne Einstufung/Noten" }
 * **Punkteschwelle für Bestanden:** Geben Sie hier die Punktzahl ein, die mindestens notwendig ist, damit der Test als bestanden gilt.
@@ -104,7 +104,7 @@ Eine Zeitbeschränkung gibt es nur für den ganzen Test (Tab "Test Konfiguration
 
     Ein Test aus einem anderen Werkzeug als OpenOlat kann beim Import mehrere Test-Parts mitbringen. Für einen solchen Test meldet der Testeditor "Dieser Test kann nicht mit dem OpenOlat-Editor bearbeitet werden." Im Formular "Test part" lässt sich nur "Navigation" ändern, die übrigen Einstellungen sind gesperrt. Die Fragen öffnen sich im Tab "Unbekannt", über "Konvertieren" wandeln Sie eine Frage in einen Fragetyp des Testeditors um. Ein Test, den Sie aus OpenOlat exportiert und wieder importiert haben, bleibt vollständig bearbeitbar.
 
-Was Teilnehmende während der Durchführung sehen, beschreibt die Seite [Kursbaustein "Test"](Course_Element_Test.de.md#participate_as_learner).
+Was Teilnehmende während der Durchführung sehen, beschreibt die Seite [Kursbaustein "Test"](Course_Element_Test/index.de.md#participate_as_learner).
 
 ## Sektion Ebene {: #section}
 
@@ -122,7 +122,8 @@ Ist die Sichtbarkeit des Sektionstitels im Tab "Expert" aktiviert, so wird auch 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
+[Test einrichten >](Course_Element_Test/Test_Setup.de.md)<br>
 [Einstufung/Noten >](Assessment_translate_points_in_grades.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1.de.md)<br>

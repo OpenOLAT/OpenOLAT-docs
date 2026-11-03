@@ -14,7 +14,7 @@ Specialty / Note | Pre-configured course element "Test"
 
 With the course element "Self-test", participants practise the content of the course and check for themselves where they stand. They take a self-test as often as they like.
 
-Like the [course element "Test"](Course_Element_Test.md), the self-test embeds a learning resource of the type Test and is configured similarly. Unlike the test, there is no tab "HighScore", and the course element does not appear in the assessment tool. If the embedded test has a cut value, the self-test still shows the success status "passed" or "failed", in the results after submission and in the performance summary of the course element. If you export the results via the [archiving](Course_Archiving.md) of the course, they appear anonymised.
+Like the [course element "Test"](Course_Element_Test/index.md), the self-test embeds a learning resource of the type Test and is configured similarly. Unlike the test, there is no tab "HighScore", and the course element does not appear in the assessment tool. If the embedded test has a cut value, the self-test still shows the success status "passed" or "failed", in the results after submission and in the performance summary of the course element. If you export the results via the [archiving](Course_Archiving.md) of the course, they appear anonymised.
 
 If you have not yet created a test, follow the instructions [How do I proceed when I create a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
@@ -24,7 +24,7 @@ A more extensive alternative to the self-test is the [course element "Practice"]
 
 ## Further information {: #further_information}
 
-[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Course administration - Archiving & Reports >](Course_Archiving.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [Configure tests >](../learningresources/Configure_tests.md)<br>

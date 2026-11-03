@@ -108,18 +108,18 @@ All [surveys](../learningresources/Course_Element_Survey.md) of the course are d
 
 ### Tests
 
-All [tests](../learningresources/Course_Element_Test.md) of the course are displayed. Course elements "Self-test" are not included in the course archiving. The desired elements to be archived can be selected and saved as a ZIP file. The individual selected tests are then stored in a separate folder in the ZIP file.
+All [tests](../learningresources/Course_Element_Test/index.md) of the course are displayed. Course elements "Self-test" are not included in the course archiving. The desired elements to be archived can be selected and saved as a ZIP file. The individual selected tests are then stored in a separate folder in the ZIP file.
 
 Archived tests are saved on a personalized basis and contain all test results. Every Excel file with test results in the archive contains the sheet "Export information" with course, course element, time and the person who created the archive, see [Export tests](../learningresources/Test_export.md#export_information). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
 
-The archive contains test results as PDF files if you select "Customised" for "Course elements" in the wizard step "Settings" and "Advanced – with PDF" for the course element Test. The selection only appears if the [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is switched on in the system administration under `Administration > External tools > PDF generator`. The option "All PDF files in one folder" is only offered by the export in the course element Test via the button "Export results". More on this under [Archiving test results](../learningresources/Course_Element_Test.md#archive) and [Export tests](../learningresources/Test_export.md#pdf_files). [:octicons-tag-16:{ title="from Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
+The archive contains test results as PDF files if you select "Customised" for "Course elements" in the wizard step "Settings" and "Advanced – with PDF" for the course element Test. The selection only appears if the [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is switched on in the system administration under `Administration > External tools > PDF generator`. The option "All PDF files in one folder" is only offered by the export in the course element Test via the button "Export results". More on this under [Archiving test results](../learningresources/Course_Element_Test/Test_Results.md#archive) and [Export tests](../learningresources/Test_export.md#pdf_files). [:octicons-tag-16:{ title="from Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
 ![Finding the export of test results: course element Test in the course menu, tab Participants and button Export results marked](assets/test_export_results1_v2_en.png){ class="shadow lightbox" title="Participants tab in the course element Test · 2026.10.22" }
 
 
 ### Course results
 
-The *final results* of all assessment modules integrated in the course, such as [tests](../learningresources/Course_Element_Test.md), [assessments](../learningresources/Course_Element_Assessment.md), [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), [checklists](../learningresources/Course_Element_Checklist.md), [tasks](../learningresources/Course_Element_Task/index.md), etc., are archived here as a ZIP file for all course participants. The ZIP file can be downloaded and saved directly. In addition, OpenOlat stores it in the [personal files](../personal_menu/File_Hub.md#personal_files) of the person who creates it, in the folder `private > archive > "Course title"`.
+The *final results* of all assessment modules integrated in the course, such as [tests](../learningresources/Course_Element_Test/index.md), [assessments](../learningresources/Course_Element_Assessment.md), [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), [checklists](../learningresources/Course_Element_Checklist.md), [tasks](../learningresources/Course_Element_Task/index.md), etc., are archived here as a ZIP file for all course participants. The ZIP file can be downloaded and saved directly. In addition, OpenOlat stores it in the [personal files](../personal_menu/File_Hub.md#personal_files) of the person who creates it, in the folder `private > archive > "Course title"`.
 
 The ZIP file contains an xlsx file with information on the course participants and any documents submitted by the participants. These documents are bundled per course element and contain subfolders with the names of the participants who have submitted documents.
 
@@ -238,7 +238,8 @@ Here the chat history can be exported as an xlsx file and also deleted.
 [Members management >](Members_management.md)<br>
 [User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
-[Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>
+[Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
+[Evaluate and manage tests >](../learningresources/Course_Element_Test/Test_Results.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Export tests >](../learningresources/Test_export.md)<br>
 [Course Element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>

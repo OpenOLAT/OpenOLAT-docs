@@ -326,7 +326,7 @@ Liegt eine Quizfrage bei 00:00 und sind beide Optionen ausgeschaltet, erscheint 
 
 !!! note "Hinweis"
 
-    Die Quizfragen dienen in erster Linie zur Aktivierung und kurzen Reflexion. Sie eignen sich nicht für komplexe Prüfverfahren. Für eine bewertete Prüfung setzen Sie den [Kursbaustein "Test"](Course_Element_Test.de.md) ein.
+    Die Quizfragen dienen in erster Linie zur Aktivierung und kurzen Reflexion. Sie eignen sich nicht für komplexe Prüfverfahren. Für eine bewertete Prüfung setzen Sie den [Kursbaustein "Test"](Course_Element_Test/index.de.md) ein.
 
 
 [Zum Seitenanfang ^](#learning_resource_video)
@@ -349,7 +349,7 @@ Liegt eine Quizfrage bei 00:00 und sind beide Optionen ausgeschaltet, erscheint 
 [WebVTT (Wikipedia) >](https://en.wikipedia.org/wiki/WebVTT)<br>
 [Untertitel (Wikipedia) >](https://de.wikipedia.org/wiki/Untertitel)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
-[Kursbaustein "Test" >](Course_Element_Test.de.md)
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)
 
 **Weiterführend**<br>
 [Kursbaustein "Videoaufgabe" >](Course_Element_Video_Task.de.md)<br>

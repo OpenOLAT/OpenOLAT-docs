@@ -14,7 +14,7 @@ Spezialität / Hinweis |  vorkonfigurierter Kursbaustein "Test"
 
 Mit dem Kursbaustein "Selbsttest" üben Teilnehmende den Stoff des Kurses und prüfen selbst, wo sie stehen. Einen Selbsttest bearbeiten sie so oft, wie sie möchten.
 
-Der Selbsttest bindet wie der [Kursbaustein "Test"](Course_Element_Test.de.md) eine Lernressource vom Typ Test ein und wird ähnlich konfiguriert. Anders als beim Test gibt es keinen Tab "HighScore", und der Kursbaustein erscheint nicht im Bewertungswerkzeug. Hat der eingebundene Test eine Punkteschwelle, zeigt der Selbsttest den Erfolgsstatus "Bestanden" oder "Nicht bestanden" trotzdem an, in den Resultaten nach der Abgabe und in der Leistungsübersicht des Kursbausteins. Exportieren Sie die Resultate über die [Archivierung](Course_Archiving.de.md) des Kurses, erscheinen sie anonymisiert.
+Der Selbsttest bindet wie der [Kursbaustein "Test"](Course_Element_Test/index.de.md) eine Lernressource vom Typ Test ein und wird ähnlich konfiguriert. Anders als beim Test gibt es keinen Tab "HighScore", und der Kursbaustein erscheint nicht im Bewertungswerkzeug. Hat der eingebundene Test eine Punkteschwelle, zeigt der Selbsttest den Erfolgsstatus "Bestanden" oder "Nicht bestanden" trotzdem an, in den Resultaten nach der Abgabe und in der Leistungsübersicht des Kursbausteins. Exportieren Sie die Resultate über die [Archivierung](Course_Archiving.de.md) des Kurses, erscheinen sie anonymisiert.
 
 Wenn Sie noch keinen Test erstellt haben, folgen Sie der Anleitung [Wie gehe ich vor, wenn ich einen Test erstelle?](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
@@ -24,7 +24,7 @@ Eine umfangreichere Alternative zum Selbsttest ist der [Kursbaustein "Übung"](C
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Test konfigurieren >](../learningresources/Configure_tests.de.md)<br>

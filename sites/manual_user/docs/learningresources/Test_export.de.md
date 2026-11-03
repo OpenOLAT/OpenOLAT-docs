@@ -231,7 +231,7 @@ Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigen
 
 !!! note "Hinweis"
 
-    Auch in der Kurs-Administration unter `Kurs > Administration > Archivierung & Reports` gibt es eine Option zum Exportieren bzw. Archivieren von Testergebnissen. Mehr dazu unter [Testergebnisse archivieren](../learningresources/Course_Element_Test.de.md#archive).
+    Auch in der Kurs-Administration unter `Kurs > Administration > Archivierung & Reports` gibt es eine Option zum Exportieren bzw. Archivieren von Testergebnissen. Mehr dazu unter [Testergebnisse archivieren](../learningresources/Course_Element_Test/Test_Results.de.md#archive).
 
 [Zum Seitenanfang ^](#test_export)
 
@@ -246,9 +246,10 @@ Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigen
 [Teststatistiken >](Statistics_Test.de.md)<br>
 [Tests bewerten >](../learningresources/Assessing_tests.de.md)<br>
 [Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
-[Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)
+[Tests auswerten und verwalten >](../learningresources/Course_Element_Test/Test_Results.de.md)
 
 **Weiterführend**<br>
+[Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Tests erstellen >](../learningresources/Test.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1.de.md)<br>

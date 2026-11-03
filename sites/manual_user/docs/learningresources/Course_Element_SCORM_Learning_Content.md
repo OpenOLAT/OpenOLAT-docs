@@ -14,7 +14,7 @@ Specialty / Note |
 With the course element "SCORM 1.2", you embed interactive learning content in a course that was created with another authoring tool. SCORM stands for "Sharable Content Object Reference Model" and is a standardized format for interactive e-learning modules. OpenOlat supports the version SCORM 1.2. You create the SCORM package outside of OpenOlat. The learning resource with the learning content is also called "SCORM 1.2". [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"}
 
 !!! warning "SCORM for learning, the Test course element for exams"
-    SCORM is suited for knowledge transfer and for exercises that participants work on alone. The result from SCORM, that is the score or "Passed", reflects the learning status. The SCORM package runs entirely in the participants' browser, so the answers and the transferred result are technically accessible there. We therefore recommend conducting exams and certifications exclusively with the [Course Element "Test"](Course_Element_Test.md).
+    SCORM is suited for knowledge transfer and for exercises that participants work on alone. The result from SCORM, that is the score or "Passed", reflects the learning status. The SCORM package runs entirely in the participants' browser, so the answers and the transferred result are technically accessible there. We therefore recommend conducting exams and certifications exclusively with the [Course Element "Test"](Course_Element_Test/index.md).
 
 ## Coach view {: #coach_view}
 
@@ -220,7 +220,7 @@ If the awarding of badges is enabled in the course settings, the course editor s
 
 ## Further information {: #further_information}
 
-[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)<br>
 [Assessment >](Assessment.md)<br>
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>

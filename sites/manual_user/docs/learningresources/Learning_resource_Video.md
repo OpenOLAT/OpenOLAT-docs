@@ -324,7 +324,7 @@ If a quiz question is at 00:00 and both options are switched off, no button appe
 
 !!! note "Note"
 
-    The quiz questions are primarily intended to engage participants and encourage brief reflection. They are not suitable for complex assessment procedures. For a graded assessment, use the [Course Element "Test"](Course_Element_Test.md).
+    The quiz questions are primarily intended to engage participants and encourage brief reflection. They are not suitable for complex assessment procedures. For a graded assessment, use the [Course Element "Test"](Course_Element_Test/index.md).
 
 
 [To the top of the page ^](#learning_resource_video)
@@ -348,7 +348,7 @@ If a quiz question is at 00:00 and both options are switched off, no button appe
 [WebVTT (Wikipedia) >](https://en.wikipedia.org/wiki/WebVTT)<br>
 [Untertitel (Wikipedia) >](https://de.wikipedia.org/wiki/Untertitel)<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
-[Course Element "Test" >](Course_Element_Test.md)
+[Course Element "Test" >](Course_Element_Test/index.md)
 
 **Further reading**<br>
 [Course Element "Video task" >](Course_Element_Video_Task.md)<br>

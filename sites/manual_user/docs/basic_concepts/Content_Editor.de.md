@@ -311,7 +311,7 @@ Es können bereits vorhandene Diagramme aus dem Media Center geladen werden oder
 
 Mit diesem Inhaltselement können automatisiert auswertbare Quizfragen in eine Seite eingebunden werden. Sie haben die Möglichkeit, neue Fragen zu erstellen oder bestehende Fragen aus dem Fragenpool hinzuzufügen. Zu jeder Frage lassen sich zudem Feedbacks ergänzen, auch mit Bildern und Videos.
 
-Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern, vergeben jedoch keine Punkte. Für bewertbare Quizfragen nutzen Sie bitte die Kursbausteine ["Test"](../learningresources/Course_Element_Test.de.md) oder ["Selbsttest"](../learningresources/Course_Element_Self_Test.de.md).
+Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern, vergeben jedoch keine Punkte. Für bewertbare Quizfragen nutzen Sie bitte die Kursbausteine ["Test"](../learningresources/Course_Element_Test/index.de.md) oder ["Selbsttest"](../learningresources/Course_Element_Self_Test.de.md).
 
 Umgekehrt ist das Quiz-Element der einzige Ort, an dem Lernende ein [KI-Feedback zu Freitextantworten](#ai_feedback) erhalten.
 
@@ -515,7 +515,7 @@ Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wähl
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>
-[Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Kursbaustein "Selbsttest" >](../learningresources/Course_Element_Self_Test.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Fragenpool: Fragen erstellen >](../area_modules/Question_Bank_Create_Questions.de.md)<br>

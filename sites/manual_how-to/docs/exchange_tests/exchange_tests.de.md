@@ -188,7 +188,7 @@ Ist der Kursbaustein noch nie publiziert worden, ersetzt OpenOlat die Test-Lernr
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
 [Bewertungswerkzeug - Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)<br>
 [Tests erstellen >](../../manual_user/learningresources/Test.de.md)<br>
-[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 ["Wie bereite ich eine Online-Prüfung vor?" >](../exam_preparation/exam_preparation.de.md)
 
 [Zum Seitenanfang ^](#exchange_tests)

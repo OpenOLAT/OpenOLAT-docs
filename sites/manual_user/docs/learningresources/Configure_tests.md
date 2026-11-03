@@ -30,7 +30,7 @@ At test level, you define the title that appears in the navigation. The followin
 
 * **Max. score:** This score is calculated automatically out of the single questions of the test.
 * **Display passed / not passed:** Check the box if you want a "passed" or "not passed" to be displayed for the test.
-* **Type of display:** If "Display passed / not passed" is activated, you define here how the result is determined: "Using cut value" or "Manually by coach". This setting and the cut value also apply when you embed the test in a course. Exception: if you activate the option "Levels/Grading" there, the rating scale converts the points reached into a grade or level, for example 0 to 100 points into Swiss grades from 1 to 6. The grade then decides whether the test is passed: with "Passed with", the rating scale defines from which grade the test is passed, for example from grade 4. The cut value of the test is not converted and no longer counts, see [Course element "Test"](Course_Element_Test.md#section_test) and [Levels/Grading](Assessment_translate_points_in_grades.md).
+* **Type of display:** If "Display passed / not passed" is activated, you define here how the result is determined: "Using cut value" or "Manually by coach". This setting and the cut value also apply when you embed the test in a course. Exception: if you activate the option "Levels/Grading" there, the rating scale converts the points reached into a grade or level, for example 0 to 100 points into Swiss grades from 1 to 6. The grade then decides whether the test is passed: with "Passed with", the rating scale defines from which grade the test is passed, for example from grade 4. The cut value of the test is not converted and no longer counts, see [Set up a test](Course_Element_Test/Test_Setup.md#section_test) and [Levels/Grading](Assessment_translate_points_in_grades.md).
 
     ![Passed in the course: without Levels/Grading the cut value of the test decides, with Levels/Grading the converted grade](assets/test_passed_decision_v1_en.svg){ class="shadow lightbox" title="Passed in the course with and without Levels/Grading" }
 * **Passed cut value:** Enter the minimum score required to pass the test.
@@ -104,7 +104,7 @@ A time limit exists only for the whole test ("Test configuration" tab), not per 
 
     A test from a tool other than OpenOlat can bring several test parts with it when imported. For such a test, the test editor reports "This test cannot be processed with the OpenOlat editor." In the "Test part" form, only "Navigation mode" can be changed, the other settings are locked. The questions open in the "Unknown" tab, with "Convert" you change a question into a question type of the test editor. A test that you exported from OpenOlat and imported again remains fully editable.
 
-What participants see while taking the test is described on the page [Course element "Test"](Course_Element_Test.md#participate_as_learner).
+What participants see while taking the test is described on the page [Course element "Test"](Course_Element_Test/index.md#participate_as_learner).
 
 ## Section level {: #section}
 
@@ -122,7 +122,8 @@ If the visibility of the section title in the "Expert" tab is activated, the res
 
 ## Further information {: #further_information}
 
-[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course Element "Test" >](Course_Element_Test/index.md)<br>
+[Set up a test >](Course_Element_Test/Test_Setup.md)<br>
 [Levels/Grading >](Assessment_translate_points_in_grades.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
 [Test editor >](Test_editor_QTI_2.1.md)<br>

@@ -239,7 +239,7 @@ Die übrigen Einstellungen der beiden Module beschreiben die Seiten [Modul BigBl
 [Modul Microsoft Teams >](../../manual_admin/administration/Teams_module.de.md)
 
 **Weiterführend**<br>
-[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 [Wie bereite ich eine Online-Prüfung vor? >](../exam_preparation/exam_preparation.de.md)<br>
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../SEB/SEB.de.md)
 

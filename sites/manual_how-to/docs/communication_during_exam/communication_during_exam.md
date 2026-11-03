@@ -239,7 +239,7 @@ The other settings of the two modules are described on the pages [BigBlueButton 
 [Microsoft Teams module >](../../manual_admin/administration/Teams_module.md)
 
 **Further reading**<br>
-[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
+[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 [How do I prepare an online exam? >](../exam_preparation/exam_preparation.md)<br>
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../SEB/SEB.md)
 

@@ -227,7 +227,7 @@ Den Button "Prüfung starten" und danach "Prüfung beenden" sehen im Bewertungsw
 * Mitglieder mit dem Recht "Bewertungs-Werkzeug"
 * Betreuer:innen, die beim Termin der Prüfung als Dozent:in eingetragen sind (siehe [Prüfungsmodus aus einem Termin](#exam_from_event))
 
-Mitglieder mit dem Recht "Bewertungs-Werkzeug" und Dozent:innen des Termins finden denselben Button auch im [Kursbaustein "Test"](Course_Element_Test.de.md) im Tab "Prüfungsmodus".
+Mitglieder mit dem Recht "Bewertungs-Werkzeug" und Dozent:innen des Termins finden denselben Button auch im [Kursbaustein "Test"](Course_Element_Test/index.de.md) im Tab "Prüfungsmodus".
 
 In der Prüfungsverwaltung starten und beenden Personen mit Besitzerrechten und Mitglieder mit dem Recht "Prüfungsmodus" oder "Kurseditor" die Prüfung, mit den Buttons "Starten" und "Beenden" in der Liste der Prüfungen:<br>
 `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"`
@@ -266,7 +266,7 @@ Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder g
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Mitgliederverwaltung >](Members_management.de.md)
 
 **Weiterführend**<br>

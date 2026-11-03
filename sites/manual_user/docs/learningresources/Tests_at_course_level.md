@@ -131,7 +131,7 @@ Feature | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
 Why is that? Assuming you could add questions to an integrated test or mark other answers as correct, not all participants would meet the same requirements. On the other hand, results may already have been saved that cannot be unambiguously assigned to a version of the test file after the change. Therefore the editing of already integrated tests and self-tests is strongly restricted.
 
-For example, if you want to add a new question to a test or if an answer was incorrectly marked as correct, copy the learning resource Test in the Author Area and save the test again. Edit and correct the test and then include the test in the course. To do this, switch to the course editor, open the "Test configuration" tab in the course element of the desired test and click "Replace". In the "Replace test" dialog you choose between the replacement options "Controlled replacement" and "Replace only". What the two options do with previous test runs and assessments is described on the page [Course Element "Test"](Course_Element_Test.md#tab_replace_tests).
+For example, if you want to add a new question to a test or if an answer was incorrectly marked as correct, copy the learning resource Test in the Author Area and save the test again. Edit and correct the test and then include the test in the course. To do this, switch to the course editor, open the "Test configuration" tab in the course element of the desired test and click "Replace". In the "Replace test" dialog you choose between the replacement options "Controlled replacement" and "Replace only". What the two options do with previous test runs and assessments is described on the page [Evaluate and manage tests](Course_Element_Test/Test_Results.md#tab_replace_tests).
 
 ## View and grade tests
 
@@ -165,12 +165,14 @@ Via `Course > Administration > Test statistics` ([Test statistics](../learningre
 [Test editor >](Test_editor_QTI_2.1.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
 [Test statistics >](../learningresources/Statistics_Test.md)<br>
-[Course Element "Test" >](Course_Element_Test.md)<br>
+[Evaluate and manage tests >](Course_Element_Test/Test_Results.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)
 
 **Further reading**<br>
 [Course Element "Self-test" >](Course_Element_Self_Test.md)<br>
-[Assessing tests >](Assessing_tests.md)
+[Assessing tests >](Assessing_tests.md)<br>
+[Course Element "Test" >](Course_Element_Test/index.md)<br>
+[Set up a test >](Course_Element_Test/Test_Setup.md)
 
 [To the top of the page ^](#tests-at-course-level)

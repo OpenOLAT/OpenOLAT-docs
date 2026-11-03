@@ -93,7 +93,7 @@ Auch für den Kursbaustein "SCORM 1.2" können Sie das Bewertungsformular ausfü
 `Kurs > Administration > Kurseditor > Kursbaustein "SCORM 1.2" > Tab "Lerninhalt"`<br>
 Was die beiden Optionen übernehmen, beschreibt die Seite [Kursbaustein "SCORM 1.2"](Course_Element_SCORM_Learning_Content.de.md#transfer_score).
 
-Das Resultat aus SCORM bildet den Lernstand ab. Für Prüfungen und Zertifizierungen ist der [Kursbaustein "Test"](Course_Element_Test.de.md) vorgesehen.
+Das Resultat aus SCORM bildet den Lernstand ab. Für Prüfungen und Zertifizierungen ist der [Kursbaustein "Test"](Course_Element_Test/index.de.md) vorgesehen.
 
 ### Details eines SCORM-Kursbausteins [:octicons-tag-16:{ title="ab Release 20.3.11 / 21.0.6 / 21.1.1 (OO-9935)" }](https://track.frentix.com/issue/OO-9935) {: #scorm_details}
 
@@ -150,7 +150,7 @@ Ist der Schalter eingeschaltet, erscheinen dort zusätzlich die Felder "Skalieru
 [Portfolioaufgabe erstellen >](Creating_Portfolio_Tasks.de.md)<br>
 [Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
 [Kursbaustein "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.de.md)<br>
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Lernende bewerten >](Assessment_of_learners.de.md)<br>
 [Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
 [Kursbaustein "LTI-Seite" >](Course_Element_LTI_Page.de.md)

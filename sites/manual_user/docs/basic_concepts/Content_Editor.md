@@ -306,7 +306,7 @@ Existing diagrams can be loaded from the Media Center or new diagrams can be cre
 
 This content element allows you to embed quiz questions that can be automatically graded into a page. You can create new questions or add existing ones from the question bank. You can also add feedback to each question, including images and videos.
 
-These short quiz questions are intended to encourage engagement with the course content, but they do not award points. For graded quizzes, please use the course elements ["Test"](../learningresources/Course_Element_Test.md) or ["Self-test"](../learningresources/Course_Element_Self_Test.md).
+These short quiz questions are intended to encourage engagement with the course content, but they do not award points. For graded quizzes, please use the course elements ["Test"](../learningresources/Course_Element_Test/index.md) or ["Self-test"](../learningresources/Course_Element_Self_Test.md).
 
 Conversely, the quiz element is the only place where learners receive [AI feedback on free-text answers](#ai_feedback).
 
@@ -505,7 +505,7 @@ Click the button to open the files in your Media Center. Here, you select files,
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Information and settings for items in the Media Center >](Media_Center_Items.md)<br>
-[Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>
+[Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [Course Element "Self-test" >](../learningresources/Course_Element_Self_Test.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Question Bank: Create Questions >](../area_modules/Question_Bank_Create_Questions.md)<br>

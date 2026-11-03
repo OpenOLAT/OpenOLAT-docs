@@ -48,3 +48,11 @@ overrides:
     field: man
     value: manual_user/learningresources/Course_Element_Task/Task_Setup#workflow
     register: 36
+  - key: testing.test
+    field: man
+    value: manual_user/learningresources/Course_Element_Test/index
+    register: 37
+  - key: resources.res_test
+    field: man
+    value: manual_user/learningresources/Course_Element_Test/index
+    register: 37

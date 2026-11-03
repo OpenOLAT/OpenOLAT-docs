@@ -29,7 +29,7 @@ Three points govern its use:
 * The question lives in the **"Quiz" content element** of the Content Editor, that is, on a page in the "Page" course element or in the Media Center. The "Test" and "Self-test" course elements have no AI feedback.
 * Learners request the feedback themselves and can revise their answer afterwards.
 
-For a graded assessment, continue to use the [Test course element](../../manual_user/learningresources/Course_Element_Test.md) with manual correction.
+For a graded assessment, continue to use the [Test course element](../../manual_user/learningresources/Course_Element_Test/index.md) with manual correction.
 
 [To the top of the page ^](#ai_essay)
 
@@ -217,7 +217,7 @@ The same path exists in the [Question bank](../../manual_user/area_modules/Quest
 ["How do I create my first OpenOlat course?" >](../my_first_course/my_first_course.md)<br>
 [Course Element "Page" >](../../manual_user/learningresources/Course_Element_Page.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
-[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
+[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Question bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
 

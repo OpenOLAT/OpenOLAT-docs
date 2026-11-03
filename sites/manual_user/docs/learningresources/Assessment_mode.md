@@ -226,7 +226,7 @@ The buttons "Start exam" and then "Finish exam" in the assessment tool are shown
 * members with the right "Assessment tool"
 * coaches who are entered as teacher in the event of the exam (see [Assessment mode from an event](#exam_from_event))
 
-Members with the right "Assessment tool" and teachers of the event also find the same button in the [course element "Test"](Course_Element_Test.md) in the tab "Assessment mode".
+Members with the right "Assessment tool" and teachers of the event also find the same button in the [course element "Test"](Course_Element_Test/index.md) in the tab "Assessment mode".
 
 In the assessment management, persons with owner rights and members with the right "Assessment mode" or "Course editor" start and finish the exam with the buttons "Start" and "Finish" in the list of exams:<br>
 `Course > Administration > Assessment management > Tab "Configuration assessment mode"`
@@ -266,7 +266,7 @@ The assessment mode is also ended when the corresponding course is ended or dele
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
-[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Members management >](Members_management.md)
 
 **Further reading**<br>

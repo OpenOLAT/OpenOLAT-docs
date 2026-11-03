@@ -229,7 +229,7 @@ If the test does not belong to a course, for example in the test statistics of a
 
 !!! note "Note"
 
-    There is also an option in the course administration under `Course > Administration > Archiving & Reporting` to export or archive test results. For more information, see [Archiving test results](../learningresources/Course_Element_Test.md#archive).
+    There is also an option in the course administration under `Course > Administration > Archiving & Reporting` to export or archive test results. For more information, see [Archiving test results](../learningresources/Course_Element_Test/Test_Results.md#archive).
 
 
 [To the top of the page ^](#test_export)
@@ -245,9 +245,10 @@ If the test does not belong to a course, for example in the test statistics of a
 [Test statistics >](Statistics_Test.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
 [Course administration - Archiving & Reports >](Course_Archiving.md)<br>
-[Course Element "Test" >](../learningresources/Course_Element_Test.md)
+[Evaluate and manage tests >](../learningresources/Course_Element_Test/Test_Results.md)
 
 **Further**<br>
+[Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [Creating Tests >](../learningresources/Test.md)<br>
 [Test editor >](Test_editor_QTI_2.1.md)<br>

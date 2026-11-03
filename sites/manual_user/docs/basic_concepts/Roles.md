@@ -157,7 +157,7 @@ The details are described on the page of the course element.
 | [Structure](../learningresources/Course_Element_Structure.md) | If the course element shows a page: edit the page with "Allow coaches to edit the page" | after release |
 | [Survey](../learningresources/Course_Element_Survey.md) | Right "Results visible for": view results | on, can be switched off |
 | [Task](../learningresources/Course_Element_Task/index.md) | Correct and assess submissions, extend deadlines, download documents | on |
-| [Test](../learningresources/Course_Element_Test.md) | Correct, pull the test, invalidate | on |
+| [Test](../learningresources/Course_Element_Test/index.md) | Correct, pull the test, invalidate | on |
 | [Topic broker](../learningresources/Course_Element_Topic_Broker.md) | View participants, topics and activity log; with the rights "Edit topic" and "Edit participants" also edit | on; editing after release |
 | [Video live stream](../learningresources/Course_Element_Video_Livestream.md) | Tab "Statistic"; with "Coach is allowed to edit" also edit events | on; editing after release |
 | [Video task](../learningresources/Course_Element_Video_Task.md) | Play and assess all attempts | on |
@@ -386,7 +386,7 @@ There, each role and its contra-role appear as separate entries. Clicking an ent
 [Course Element "Structure" >](../learningresources/Course_Element_Structure.md)<br>
 [Course Element "Participant folder" >](../learningresources/Course_Element_Participant_Folder.md)<br>
 [Course Element "Appointment scheduling" >](../learningresources/Course_Element_Appointment_Scheduling.md)<br>
-[Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>
+[Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [Course Element "Topic Broker" >](../learningresources/Course_Element_Topic_Broker.md)<br>
 [Course Element "Practice" >](../learningresources/Course_Element_Practice.md)<br>
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>

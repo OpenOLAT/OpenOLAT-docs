@@ -121,7 +121,7 @@ A course role with full responsibility for a learning resource.
 
     **What users call it:** owner, course owner
 
-    **Not to be confused with [Coach](../basic_concepts/coach.md):** Owners manage the learning resource, coaches manage the learners in it.
+    **Not to be confused with [Coach](../basic_concepts/Roles.md#coach):** Owners manage the learning resource, coaches manage the learners in it.
 
     [Read in the manual](../basic_concepts/Roles.md) · [Ask Sophia](?sophia=What%20is%20%22Owner%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
@@ -145,7 +145,7 @@ A course role. Coaches accompany the participants of a course or a group, see al
 
     **Not to be confused with [Owner](../basic_concepts/Roles.md):** Owners manage the learning resource, coaches manage the learners in it.
 
-    [Read in the manual](../basic_concepts/coach.md) · [Ask Sophia](?sophia=What%20is%20%22Coach%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../basic_concepts/Roles.md#coach) · [Ask Sophia](?sophia=What%20is%20%22Coach%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -214,7 +214,6 @@ The first course is running. Now the things that did not matter at the start pay
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>
 [Groups >](../groups/index.md)<br>
-[Roles and Rights: The role of a coach >](../basic_concepts/coach.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>

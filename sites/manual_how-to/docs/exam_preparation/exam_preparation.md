@@ -399,7 +399,7 @@ Coaches can then schedule inspections for individual participants in the assessm
 [Assessment management: assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)
 
 **Further reading**<br>
-[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test.md)<br>
+[Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
 
 [Go to the top of the page ^](#exam_preparation)

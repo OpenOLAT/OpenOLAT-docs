@@ -397,7 +397,7 @@ Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einze
 [Prüfungsverwaltung: Prüfungseinsicht >](../../manual_user/learningresources/Assessment_inspection.de.md)
 
 **Weiterführend**<br>
-[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
 
 [zum Seitenanfang ^](#exam_preparation)

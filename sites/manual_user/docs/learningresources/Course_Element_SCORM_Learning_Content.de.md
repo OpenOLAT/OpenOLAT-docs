@@ -14,7 +14,7 @@ Spezialität / Hinweis |
 Mit dem Kursbaustein "SCORM 1.2" binden Sie interaktive Lerninhalte in einen Kurs ein, die mit einem anderen Autorenwerkzeug erstellt sind. SCORM steht für "Sharable Content Object Reference Model" und ist ein standardisiertes Format für interaktive E-Learning-Module. OpenOlat unterstützt die Version SCORM 1.2. Das SCORM-Paket erstellen Sie ausserhalb von OpenOlat. Die Lernressource mit dem Lerninhalt heisst ebenfalls "SCORM 1.2". [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9345)" }](https://track.frentix.com/issue/OO-9345){:target="_blank"}
 
 !!! warning "SCORM für das Lernen, der Kursbaustein Test für Prüfungen"
-    SCORM eignet sich für die Wissensvermittlung und für Übungen, die Teilnehmende allein bearbeiten. Das Resultat aus SCORM, also Punkte oder "Bestanden", bildet den Lernstand ab. Das SCORM-Paket läuft vollständig im Browser der Teilnehmenden: Die Antworten und das übertragene Resultat sind dort technisch zugänglich. Wir empfehlen deshalb, Prüfungen und Zertifizierungen ausschliesslich mit dem [Kursbaustein "Test"](Course_Element_Test.de.md) durchzuführen.
+    SCORM eignet sich für die Wissensvermittlung und für Übungen, die Teilnehmende allein bearbeiten. Das Resultat aus SCORM, also Punkte oder "Bestanden", bildet den Lernstand ab. Das SCORM-Paket läuft vollständig im Browser der Teilnehmenden: Die Antworten und das übertragene Resultat sind dort technisch zugänglich. Wir empfehlen deshalb, Prüfungen und Zertifizierungen ausschliesslich mit dem [Kursbaustein "Test"](Course_Element_Test/index.de.md) durchzuführen.
 
 ## Ansicht als Betreuer:in {: #coach_view}
 
@@ -219,7 +219,7 @@ Ist in den Kurseinstellungen die Vergabe von Badges aktiviert, zeigt der Kursedi
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
 [Wissensüberprüfung >](Assessment.de.md)<br>
 [Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>

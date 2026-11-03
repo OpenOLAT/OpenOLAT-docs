@@ -42,7 +42,7 @@ Die bewertbaren Kursbausteine gliedern ihre Bewertungsregeln gleich: Oben stehen
 
 Kursbaustein | Tab | Schreibgeschützt | Bleibt bearbeitbar
 ---------|----------|----------|----------
-[Test](Course_Element_Test.de.md#tab_configuration) | "Test-Konfiguration" | "Bewertung mit Einstufung/Noten" samt Bewertungsskala, "Bei Kurs-Bewertung berücksichtigen" | alle übrigen Einstellungen, zum Beispiel "Testzeitraum festlegen", "Korrektur" und "Report"
+[Test](Course_Element_Test/Test_Setup.de.md#tab_configuration) | "Test-Konfiguration" | "Bewertung mit Einstufung/Noten" samt Bewertungsskala, "Bei Kurs-Bewertung berücksichtigen" | alle übrigen Einstellungen, zum Beispiel "Testzeitraum festlegen", "Korrektur" und "Report"
 [SCORM 1.2](Course_Element_SCORM_Learning_Content.de.md#editor_tab_learning_content) | "Lerninhalt" | die Einstellungen unter "Konfiguration Bewertung", zum Beispiel "Resultat aus SCORM übertragen", "Maximal erreichbare Punkte", "Notwendige Punktzahl für 'bestanden'" und "Bei Kurs-Bewertung berücksichtigen" | "Reduzieren von Punkten bei erneutem Versuch verhindern", "Lösungsversuche nur zählen, wenn Punkte übertragen werden", "Maximale Anzahl Lösungsversuche", die Bereiche "SCORM" und "Einstellungen"
 [Aufgabe](Course_Element_Task/Task_Setup.de.md#grading) | "Bewertung" | "Rubrik-Bewertung", Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
 [Gruppenaufgabe](Course_Element_Grouptask.de.md#tab_assessment) | "Bewertung" | Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
@@ -126,7 +126,7 @@ Mit dem Kursbaustein "Test" binden Sie eine Lernressource "Test" in Ihren Kurs e
 
 Ist noch kein Test verknüpft, zeigt der Tab "Test-Konfiguration" den Hinweis "Für diesen Kursbaustein wurde noch keine Test-Lernressource ausgewählt." Dort wählen Sie mit "Auswählen" einen bestehenden Test aus, erstellen mit "Erstellen" einen neuen oder importieren einen Test. Ist ein Test verknüpft, zeigt der Tab seinen Titel. "Vorschau" startet die Vorschau des Tests. Weitere Informationen finden Sie auf der Seite [Tests erstellen](../learningresources/Test.de.md).
 
-Die Einstellungen des Tests im Kurs legen Sie vor allem in den Tabs "Test-Konfiguration" und "Optionen" fest, siehe [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md). Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Test"](Course_Element_Test.de.md).
+Die Einstellungen des Tests im Kurs legen Sie vor allem in den Tabs "Test-Konfiguration" und "Optionen" fest, siehe [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md). Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Test"](Course_Element_Test/index.de.md).
 
 Die Einstellungen im Tab "Optionen" übernimmt OpenOlat zunächst aus der Lernressource. Möchten Sie sie für diesen Kurs ändern, wählen Sie im Tab "Optionen" die Einstellung "Konfiguration anpassen". Danach setzen Sie zum Beispiel eine Zeitbeschränkung, begrenzen die Anzahl der Lösungsversuche, erlauben Gästen die Teilnahme oder wählen Darstellungsoptionen. Ist "Fragetitel anzeigen" ausgeschaltet und "Menü-Navigation anzeigen" eingeschaltet, zeigt die Navigation anonymisierte Titel statt der Fragetitel.
 
@@ -247,7 +247,8 @@ Danach wählen Sie, welche Elemente die Rangliste zeigt: "Gratulationstitel", "S
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Der Formulareditor >](Form_Editor.de.md)<br>
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
+[Test einrichten >](Course_Element_Test/Test_Setup.de.md)<br>
 [Kursbaustein "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](Course_Element_Grouptask.de.md)<br>
 [Kursbaustein "Videoaufgabe" >](Course_Element_Video_Task.de.md)<br>

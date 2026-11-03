@@ -342,7 +342,10 @@ nav:
         - Peer review: "learningresources/Course_Element_Task/Task_Peer_Review.md"
       - Grouptask: "learningresources/Course_Element_Grouptask.md"
       - Portfolio Task: "learningresources/Course_Element_Portfolio_Task.md"
-      - Test: "learningresources/Course_Element_Test.md"
+      - Test:
+        - "learningresources/Course_Element_Test/index.md"
+        - Set up: "learningresources/Course_Element_Test/Test_Setup.md"
+        - Evaluate and manage: "learningresources/Course_Element_Test/Test_Results.md"
       - Self-test: "learningresources/Course_Element_Self_Test.md"
       - Practice: "learningresources/Course_Element_Practice.md"
       - Video task: "learningresources/Course_Element_Video_Task.md"

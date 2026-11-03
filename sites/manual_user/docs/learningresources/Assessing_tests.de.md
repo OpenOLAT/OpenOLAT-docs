@@ -300,7 +300,7 @@ Der Tab "Vorschau" zeigt den Test aus Sicht der Teilnehmenden. Der Tab "Kommunik
 
 **Weiterführend**<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Bewertungswerkzeug: Tab Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)
 
 [Zum Seitenanfang ^](#assessing_tests)

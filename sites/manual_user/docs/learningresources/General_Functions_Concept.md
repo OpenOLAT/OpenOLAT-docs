@@ -17,7 +17,7 @@ OpenOlat offers course authors many course element types, and each type has diff
 A [course element "Video"](../learningresources/Course_Element_Video.md) must be able to handle the additional functions for videos (annotations, quizzes, chapters, comments, segments).
 
 **Example 2:**<br>
-A [course element "Test"](../learningresources/Course_Element_Test.md) must be able to handle points and the evaluation of questions. A course element "BigBlueButton" (video conference), for example, does not need these capabilities.
+A [course element "Test"](../learningresources/Course_Element_Test/index.md) must be able to handle points and the evaluation of questions. A course element "BigBlueButton" (video conference), for example, does not need these capabilities.
 
 **Example 3:**<br>
 A [checklist](../learningresources/Course_Element_Checklist.md) is an example of a course element without a learning resource. All functions of the checklist are built into the course element itself.
@@ -113,7 +113,7 @@ A course cannot be embedded in another course. If the Course Planner is enabled,
 
 **Mentioned on this page**<br>
 [Course Element "Video" >](../learningresources/Course_Element_Video.md)<br>
-[Course Element "Test" >](../learningresources/Course_Element_Test.md)<br>
+[Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [Course Element "Checklist" >](../learningresources/Course_Element_Checklist.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>

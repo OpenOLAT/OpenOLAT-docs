@@ -17,7 +17,7 @@ OpenOlat bietet Kursautor:innen viele Kursbausteintypen an, und jeder Typ hat an
 Ein [Kursbaustein "Video"](../learningresources/Course_Element_Video.de.md) muss mit den Zusatzfunktionen für Videos (Annotationen, Quizzes, Kapitel, Kommentare, Segmente) umgehen können.
 
 **Beispiel 2:**<br>
-Ein [Kursbaustein "Test"](../learningresources/Course_Element_Test.de.md) muss mit Punkten und Auswertung von Fragen umgehen können. Diese Fähigkeiten benötigt z.B. ein Kursbaustein "BigBlueButton" (Videokonferenz) nicht.
+Ein [Kursbaustein "Test"](../learningresources/Course_Element_Test/index.de.md) muss mit Punkten und Auswertung von Fragen umgehen können. Diese Fähigkeiten benötigt z.B. ein Kursbaustein "BigBlueButton" (Videokonferenz) nicht.
 
 **Beispiel 3:**<br>
 Eine [Checkliste](../learningresources/Course_Element_Checklist.de.md) ist ein Beispiel für einen Kursbaustein ohne Lernressource. Alle Funktionen der Checkliste sind im Kursbaustein selbst eingebaut.
@@ -113,7 +113,7 @@ Ein Kurs lässt sich nicht in einen anderen Kurs einbinden. Ist der Course Plann
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Video" >](../learningresources/Course_Element_Video.de.md)<br>
-[Kursbaustein "Test" >](../learningresources/Course_Element_Test.de.md)<br>
+[Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Kursbaustein "Checkliste" >](../learningresources/Course_Element_Checklist.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
