@@ -237,7 +237,10 @@ If the mode "Test: Identify situations" is selected for the video task, the tabs
 
 ![Tabs Overview and Reminders marked, Overview tab open with pass rate and score distribution](assets/course_element_video_task_test_coach_tabs_v1_en.png){ class="shadow lightbox" title="Coach view of a video task in test mode · 2026.11.02" }
 
-In the tab "Participants", owners and coaches of the course see the results of each person in detail.
+In the tab "Participants", owners and coaches of the course see the results of each person in detail. Instead of the button "Play all attempts", the test mode shows two other buttons above the list:
+
+* **Export results** downloads an Excel file with all attempts in this video task.
+* **Video task statistics** opens the evaluation of the test: the area "Key figures" with, among other things, the number of participants, passed and not passed, arithmetic average, median, standard deviation and average completion time, below it the area "Attempts".
 
 [To the top of the page ^](#video_task)
 

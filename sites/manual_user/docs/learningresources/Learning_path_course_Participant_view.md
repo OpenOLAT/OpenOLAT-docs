@@ -6,7 +6,7 @@ The visualized display and the information provided give learners a quick and co
 
 ## Typical elements of a learning path course from the learners' point of view {: #typical_elements}
 
-![Four highlighted areas in the course view: progress bar in the course menu, link Learning path in the toolbar, progress graphic with 14 percent and the arrow navigation with the button Element done](assets/Lernpfad_Bereiche_19.png){ class="shadow lightbox" }
+![Four highlighted areas in the course view: progress bar in the course menu, link Learning path in the toolbar, progress graphic with 14 percent and the arrow navigation with the button Element done](assets/Lernpfad_Bereiche_19.png){ class="shadow lightbox" title="Course view of a learning path course from the participants' view" }
 
 1. **Progress bar** in the course menu
 
@@ -20,7 +20,7 @@ The visualized display and the information provided give learners a quick and co
 
     Course owners and coaches see the completion status of *all* participants here and can make adjustments, for example switch the execution of a course element from mandatory to optional for individual participants.
 
-    ![Learning path overview of a participant with the course elements, her progress, status and the execution; an open dialog overrides the execution of a course element to Optional](assets/learning_path_overview.png){ class="shadow lightbox" }
+    ![Learning path overview of a participant with the course elements, her progress, status and the execution; an open dialog overrides the execution of a course element to Optional](assets/learning_path_overview.png){ class="shadow lightbox" title="Learning path overview of a participant" }
 
 3. Visualized display of the **progress in percent**
 
@@ -28,7 +28,7 @@ The visualized display and the information provided give learners a quick and co
 
     If activated under `Course > Administration > Settings`, tab "Assessment", the graphic also displays the total score achieved.
 
-    ![Progress graphic with 17 percent and 3 points next to the menu My course in the course toolbar](assets/Lernpfad_Prozent_Punkte.png){ class="shadow lightbox" }
+    ![Progress graphic with 17 percent and 3 points next to the menu My course in the course toolbar](assets/Lernpfad_Prozent_Punkte.png){ class="shadow lightbox" title="Course toolbar of a learning path course from the participants' view" }
 
     If course elements are added or deleted in a running course, OpenOlat takes this into account in the total and recalculates the learners' previous percentage.
 
@@ -40,7 +40,7 @@ The visualized display and the information provided give learners a quick and co
 
     If "Confirmation by participant" is selected as the completion criterion, the toggle button "Mark as done" appears next to the arrow navigation. With it learners confirm that they have worked on the course element.
 
-    ![Toggle button Mark as done next to the arrow navigation, in the course toolbar of the participant view](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
+    ![Toggle button Mark as done next to the arrow navigation](assets/learning_path_mark_as_done_v1_en.png){ class="shadow lightbox" title="Course toolbar in the participant view of a learning path course · 2026.11.03" }
 
 !!! note "Note"
 

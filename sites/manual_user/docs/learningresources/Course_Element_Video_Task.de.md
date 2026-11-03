@@ -237,7 +237,10 @@ Ist für die Videoaufgabe der Modus "Test: Situationen erkennen" gewählt, ersch
 
 ![Tabs Übersicht und Erinnerungen markiert, Tab Übersicht geöffnet mit Bestehensquote und Punkteverteilung](assets/course_element_video_task_test_coach_tabs_v1_de.png){ class="shadow lightbox" title="Betreuer:innen-Ansicht einer Videoaufgabe im Testmodus · 2026.11.02" }
 
-Im Tab "Teilnehmer:innen" sehen Besitzer:innen und Betreuer:innen des Kurses die Resultate jeder Person im Detail.
+Im Tab "Teilnehmer:innen" sehen Besitzer:innen und Betreuer:innen des Kurses die Resultate jeder Person im Detail. Statt des Buttons "Alle Versuche abspielen" stehen im Testmodus zwei andere Buttons über der Liste:
+
+* **Resultate exportieren** lädt eine Excel-Datei mit allen Versuchen in dieser Videoaufgabe herunter.
+* **Videoaufgabe Statistiken** öffnet die Auswertung des Tests: den Bereich "Kennzahlen" unter anderem mit der Anzahl Teilnehmer:innen, Bestanden und Nicht bestanden, Mittelwert, Median, Standardabweichung und durchschnittlicher Bearbeitungsdauer, darunter den Bereich "Versuche".
 
 [Zum Seitenanfang ^](#video_task)
 

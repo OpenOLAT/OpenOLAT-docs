@@ -63,11 +63,11 @@ In addition, the course elements "Survey" and "Form" are assigned to the categor
 
 All assessable course elements except "Practice" and "Video task" additionally receive the configuration tab "HighScore", and so does the course element "Structure". The tab can be used as soon as points are awarded at the element. There you set up the highscore. It enables a playful comparison of the participants and can be understood as a motivational factor.
 
-First, "Show Highscore" must be activated. Optionally, a start date can be added from which the highscore will be displayed. Without specifying the date, the highscore will be displayed immediately after the test is finished.
+First, "Show Highscore" must be activated. Optionally, a start date can be added from which the highscore will be displayed. Without specifying the date, the highscore appears as soon as the assessment of the person is released: for a test directly after finishing it, for other course elements such as "Assessment" only when coaches complete and release the assessment.
 
 It can be defined whether the user data is displayed anonymously or with first and last name and which elements of the highscore should be displayed. You can choose between the congratulations title, the podium, the histogram and the top results listing. For the list it is also possible to define whether all participants or only a certain number of the best participants should appear. At least one of these options must be selected.
 
-![Congratulations title with your own position, podium with three ranks, histogram of the score distribution and top results listing, in the highscore area of a course element](assets/Highscore_EN.png){ class="shadow lightbox" }
+![Congratulations title with your own position, podium with three ranks, histogram of the score distribution and top results listing](assets/course_elements_highscore_v1_en.png){ class="shadow lightbox" title="Highscore of a course element from the participants' view · 2026.11.02" }
 
 ### Communication and Collaboration
 
@@ -155,7 +155,7 @@ A number of course elements can be used either for summative or formative assess
 
 [Learning path courses](../learningresources/Learning_path_course.md) control the progress with the completion criterion, which you set in the course editor for each course element in the tab "Learning path". With the criterion "Confirmation by participant", the participants confirm the completion themselves with the toggle button "Mark as done".
 
-![Toggle button Mark as done next to the arrow navigation, in the course toolbar of the participant view](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
+![Toggle button Mark as done next to the arrow navigation](assets/learning_path_mark_as_done_v1_en.png){ class="shadow lightbox" title="Course toolbar in the participant view of a learning path course · 2026.11.03" }
 
 An overview of all criteria can be found on the page [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md#completion_criterion).
 

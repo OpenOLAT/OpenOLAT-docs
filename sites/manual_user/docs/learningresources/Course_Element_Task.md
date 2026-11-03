@@ -365,15 +365,15 @@ If the automatic review assignment is triggered, coaches will only see their gro
 In order for coaches as well as course owners to be able to trigger the automatic review assignment, select the option "Coach" under "Trigger of automatic review assignment".
 
 
-There is a **Participant Review** and an **Expert Review**, each with its own form. However, the participant review can also (additionally) be completed by coaches. 
+The peer review uses the rubric form under "Rubric assessment - Peer review". Coaches can additionally fill out this form themselves, with "Create your own review". Independently of this, they assess the task with the "Rubric assessment" if you switch it on in the "Grading" tab. The rubric assessment can use a different rubric form.
 
-* Coaches can do a participant review, for example, if a participant has received too few reviews. 
-* Even if a participant review has been marked as "not valid", coaches can fill out a form as a replacement if necessary.
-* An expert form for coaches may contain different criteria than the form for participants. In this case, it may also make sense for coaches to be able to use both forms.
+* Coaches can create a review, for example, if a participant has received too few reviews.
+* Even if a review has been marked as "not valid", coaches can fill out a form as a replacement if necessary.
+* The form of the rubric assessment may contain different criteria than the form of the peer review. In this case, it is also useful for coaches to use both forms.
 
 !!! info "Important"
 
-    Course owners can configure which review counts. (Only that of the participants, only that of the experts or both.) This configuration should be taken into account when planning a peer review. See also [How do I perform a peer review? >](../../manual_how-to/peer_review/peer_review.md) 
+    Course owners define in the "Grading" tab under "Total score from" which points count: "Rubric assessment", "Rubric peer review", "Submitted reviews" or a combination of these. Take this setting into account when you plan a peer review. See also [How do I perform a peer review? >](../../manual_how-to/peer_review/peer_review.md) 
 
 
 **Further information**
@@ -657,7 +657,7 @@ The step "Grading" shows the performance summary with status, score and classifi
     * [Automatic assignment of peer reviewers](#coach_task_peer_review_assign_automatically)
     * [Close peer review](#coach_task_peer_review_close)
     * [Coach participates in peer review](#coach_task_peer_review_reviewer_participates)
-    * [Expert review](#coach_task_peer_review_expert)
+    * [Rubric assessment by coaches](#coach_task_peer_review_expert)
     * [Task assessment](#coach_task_peer_review_evaluate)
 
 
@@ -705,7 +705,7 @@ A review is only possible if the participant has submitted.
 
 A review is also possible if it has already been submitted before the deadline.
 
-If a time period has been set for the review (by the owner), the review cannot be carried out.
+The "Peer review time period" that owners set in the "Workflow" tab does not apply to coaches: they create their own review also before the start and after the end of the period. To do so, open the person, in the step "Peer review" the tab "Ratings received", and in the row of the person under "More actions" the entry "Create your own review".
 
 [Up (Coach perspective) ^](#coach_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -809,17 +809,17 @@ One reviewer is absent due to illness and the coach steps in as reviewer. This e
 A coach sees that a reviewer has performed a review incorrectly or poorly. The coach then marks this review as invalid and makes a review themselves so that this person has received the same number of reviews again.
 
 **Example 3:**<br>
-There are two completely contradictory reviews from the peer review. The coach therefore provides a mediating or corrective review. (In contrast to an expert review, the same assessment grid is used here).
+There are two completely contradictory reviews from the peer review. The coach therefore provides a mediating or corrective review. (In contrast to the rubric assessment, the same assessment grid is used here).
 
 [Up (Coach perspective) ^](#coach_task)<br>
 [To the top of the page ^](#course_element_task)
 
 
-### Expert review {: #coach_task_peer_review_expert}
+### Rubric assessment by coaches {: #coach_task_peer_review_expert}
 
-An expert review is carried out by coaches after a peer review has taken place.
+If the "Rubric assessment" is switched on in the "Grading" tab, coaches assess the task in addition to the peer review with a rubric form of their own.
 
-It is analogous to the [course element "Assessment"](../learningresources/Course_Element_Assessment.md#rubric-assessment), with a stored [rubric form](../learningresources/Forms_in_Rubric_Scoring.md). (In other words, a different questionnaire than the peer reviewers used).
+It works as in the [course element "Assessment"](../learningresources/Course_Element_Assessment.md#rubric-assessment), with a stored [rubric form](../learningresources/Forms_in_Rubric_Scoring.md). This form can differ from the form of the peer reviewers.
 
 [Up (Coach perspective) ^](#coach_task)<br>
 [To the top of the page ^](#course_element_task)
@@ -827,11 +827,13 @@ It is analogous to the [course element "Assessment"](../learningresources/Course
 
 ### Task assessment {: #coach_task_peer_review_evaluate}
 
-If a peer review has been carried out, the results do not necessarily have to be included in the **assessment**. Reviews and peer reviews without an assessment are also possible. You can choose, 
+If a peer review has been carried out, the results do not necessarily have to be included in the assessment. Reviews and peer reviews without an assessment are also possible. Course owners define in the "Grading" tab under ["Total score from"](#grading) which points count:
 
-* whether the reviews from a peer review are included in the assessment,
-* are not included in the assessment,
-* or only the expert review counts.
+* "Rubric assessment": the points from the rubric assessment by coaches,
+* "Rubric peer review": the points from the peer reviews the person has received,
+* "Submitted reviews": points for the reviews the person has submitted.
+
+Combinations are possible. If only "Rubric assessment" is selected, the peer reviews are not included in the assessment.
 
 [Up (Coach perspective) ^](#coach_task)<br>
 [To the top of the page ^](#course_element_task)

@@ -6,7 +6,7 @@ Durch die visualisierte Anzeige und die bereitgestellten Informationen erhalten 
 
 ## Typische Elemente eines Lernpfadkurses aus Sicht der Lernenden {: #typical_elements}
 
-![Vier markierte Bereiche in der Kursansicht: Fortschrittsleiste im Kursmenü, Link Lernpfad in der Toolbar, Fortschrittsgrafik mit 14 Prozent und die Pfeilnavigation mit dem Button Element erledigt](assets/Lernpfad_Bereiche_19.png){ class="shadow lightbox" }
+![Vier markierte Bereiche in der Kursansicht: Fortschrittsleiste im Kursmenü, Link Lernpfad in der Toolbar, Fortschrittsgrafik mit 14 Prozent und die Pfeilnavigation mit dem Button Element erledigt](assets/Lernpfad_Bereiche_19.png){ class="shadow lightbox" title="Kursansicht eines Lernpfadkurses aus Sicht der Teilnehmenden" }
 
 1. **Fortschrittsleiste** im Kursmenü
 
@@ -20,7 +20,7 @@ Durch die visualisierte Anzeige und die bereitgestellten Informationen erhalten 
 
     Kursbesitzer:innen und Betreuer:innen sehen hier den Bearbeitungsstand *aller* Teilnehmenden und können Anpassungen vornehmen, zum Beispiel für einzelne Teilnehmende die Durchführung eines Kursbausteins von obligatorisch auf freiwillig umstellen.
 
-    ![Lernpfad-Übersicht einer Teilnehmerin mit Fortschritt, Status und Durchführung je Kursbaustein; ein Dialog überschreibt die Durchführung eines Kursbausteins auf Freiwillig](assets/Lernpfad_uebersicht.png){ class="shadow lightbox" }
+    ![Lernpfad-Übersicht einer Teilnehmerin mit Fortschritt, Status und Durchführung je Kursbaustein; ein Dialog überschreibt die Durchführung eines Kursbausteins auf Freiwillig](assets/Lernpfad_uebersicht.png){ class="shadow lightbox" title="Lernpfad-Übersicht einer teilnehmenden Person" }
 
 3. Visualisierte Anzeige des **prozentualen Fortschritts**
 
@@ -28,7 +28,7 @@ Durch die visualisierte Anzeige und die bereitgestellten Informationen erhalten 
 
     Sofern unter `Kurs > Administration > Einstellungen`, Tab "Bewertung", aktiviert, zeigt die Grafik auch die erreichten Gesamtpunkte an.
 
-    ![Fortschrittsgrafik mit 17 Prozent und 3 Punkten neben dem Menü Mein Kurs in der Kurs-Toolbar](assets/Lernpfad_Prozent_Punkte.png){ class="shadow lightbox" }
+    ![Fortschrittsgrafik mit 17 Prozent und 3 Punkten neben dem Menü Mein Kurs in der Kurs-Toolbar](assets/Lernpfad_Prozent_Punkte.png){ class="shadow lightbox" title="Kurs-Toolbar eines Lernpfadkurses aus Sicht der Teilnehmenden" }
 
     Werden im laufenden Kurs Kursbausteine hinzugefügt oder gelöscht, berücksichtigt OpenOlat dies in der Gesamtsumme und berechnet den bisherigen Prozentwert der Lernenden neu.
 
@@ -40,7 +40,7 @@ Durch die visualisierte Anzeige und die bereitgestellten Informationen erhalten 
 
     Ist als Erledigungskriterium "Bestätigung durch Benutzer:in" gewählt, erscheint neben der Pfeilnavigation der Toggle-Button "Als erledigt markieren". Damit bestätigen die Lernenden, dass sie den Kursbaustein bearbeitet haben.
 
-    ![Toggle-Button Als erledigt markieren neben der Pfeilnavigation, in der Kurs-Toolbar der Teilnehmer:innenansicht](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
+    ![Toggle-Button Als erledigt markieren neben der Pfeilnavigation](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Teilnehmer:innenansicht eines Lernpfadkurses" }
 
 !!! note "Hinweis"
 

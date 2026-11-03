@@ -229,7 +229,7 @@ Vergeben Sie in einem Kursbaustein Punkte, können Sie den Teilnehmenden eine Ra
 
 Die Rangliste richten Sie im Tab "HighScore" ein. Den Tab haben alle bewertbaren Kursbausteine ausser Übung und Videoaufgabe, dazu der Kursbaustein "Struktur". Voraussetzung ist, dass der Kursbaustein Punkte vergibt, zum Beispiel ein Test, eine Aufgabe oder eine Bewertung.
 
-Schalten Sie zuerst "Highscore anzeigen" ein. Unter "Anfangsdatum (optional)" legen Sie fest, ab wann OpenOlat die Rangliste zeigt. Ohne Anfangsdatum zeigt OpenOlat die Rangliste direkt nach Beenden des Tests. Mit "Daten der Benutzer:innen anonymisieren" zeigt die Rangliste die Personen anonymisiert statt mit Vor- und Nachnamen.
+Schalten Sie zuerst "Highscore anzeigen" ein. Unter "Anfangsdatum (optional)" legen Sie fest, ab wann OpenOlat die Rangliste zeigt. Ohne Anfangsdatum zeigt OpenOlat die Rangliste, sobald die Bewertung der Person freigegeben ist: beim Test direkt nach dem Beenden, beim Kursbaustein "Bewertung" erst, wenn Betreuer:innen die Bewertung abschliessen und freigeben. Zwischengespeicherte Punkte genügen nicht. Mit "Daten der Benutzer:innen anonymisieren" zeigt die Rangliste die Personen anonymisiert statt mit Vor- und Nachnamen.
 
 Danach wählen Sie, welche Elemente die Rangliste zeigt: "Gratulationstitel", "Siegertreppchen", "Histogramm" und "Liste der besten Teilnehmer:innen". Bei der Liste legen Sie fest, ob sie alle Teilnehmenden oder nur eine bestimmte Anzahl der besten zeigt. Mindestens eine dieser Optionen muss gewählt sein.
 

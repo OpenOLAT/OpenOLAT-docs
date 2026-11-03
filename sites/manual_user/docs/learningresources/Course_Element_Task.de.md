@@ -369,15 +369,15 @@ Wird die automatische Review-Zuweisung ausgelöst, sehen Betreuer:innen zwar jew
 Damit neben Kursbesitzer:innen auch Betreuer:innen die automatische Review-Zuweisung auslösen können, wählen Sie unter "Auslösung automatische Review-Zuweisung" die Option "Betreuer:innen".
 
 
-Es gibt ein **Teilnehmer:innen-Review** und ein **Expert:innen-Review** mit je einem eigenen Formular. Das Teilnehmer:innen-Review kann aber auch (zusätzlich) von Betreuer:innen ausgefüllt werden.
+Das Peer-Review nutzt das Rubrik-Formular unter "Rubrik-Beurteilung - Peer-Review". Betreuer:innen können dieses Formular zusätzlich selbst ausfüllen, mit "Eigenes Review erstellen". Unabhängig davon bewerten sie die Aufgabe mit der "Rubrik-Bewertung", wenn Sie diese im Tab "Bewertung" einschalten. Die Rubrik-Bewertung kann ein anderes Rubrik-Formular verwenden.
 
-* Betreuer:innen können so z.B. ein Teilnehmer:innen-Review machen, falls ein/eine Teilnehmer:in zu wenig Reviews erhalten hat.
-* Auch wenn ein Teilnehmer:innen-Review als "nicht gültig" markiert wurde, können Betreuer:innen so ggf. ein Formular als Ersatz ausfüllen.
-* Ein Expert:innen-Formular für Betreuer:innen kann andere Kriterien enthalten als das Formular für Teilnehmer:innen. Auch in diesem Fall kann es Sinn machen, wenn Betreuer:innen beide Formulare verwenden können.
+* Betreuer:innen können so z.B. ein Review erstellen, falls ein/eine Teilnehmer:in zu wenig Reviews erhalten hat.
+* Auch wenn ein Review als "nicht gültig" markiert wurde, können Betreuer:innen so ggf. ein Formular als Ersatz ausfüllen.
+* Das Formular der Rubrik-Bewertung kann andere Kriterien enthalten als das Formular des Peer-Reviews. Auch in diesem Fall ist es sinnvoll, wenn Betreuer:innen beide Formulare verwenden.
 
 !!! info "Wichtig"
 
-    Kursbesitzer:innen können konfigurieren, welches Review zählt. (Nur das der Teilnehmer:innen, nur das der Expert:innen oder beide.) Diese Konfiguration sollte beim Planen eines Peer-Reviews berücksichtigt werden. Siehe auch [Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md)
+    Kursbesitzer:innen legen im Tab "Bewertung" unter "Gesamtpunkte aus" fest, welche Punkte zählen: "Rubrik-Bewertung", "Rubrik-Peer-Review", "Abgegebene Reviews" oder eine Kombination davon. Berücksichtigen Sie diese Einstellung beim Planen eines Peer-Reviews. Siehe auch [Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md)
 
 
 **Weitere Informationen**
@@ -670,7 +670,7 @@ Der Schritt "Bewertung" zeigt die Leistungsübersicht mit Status, Punktestand un
     * [Automatische Zuweisung von Peer-Reviewer:innen](#coach_task_peer_review_assign_automatically)
     * [Peer-Reviews abschliessen](#coach_task_peer_review_close)
     * [Betreuer:in nimmt an Peer-Review teil](#coach_task_peer_review_reviewer_participates)
-    * [Experten-Review](#coach_task_peer_review_expert)
+    * [Rubrik-Bewertung durch Betreuer:innen](#coach_task_peer_review_expert)
     * [Bewertung der Aufgabe](#coach_task_peer_review_evaluate)
 
 ### Zuweisung der Aufgaben kontrollieren {: #coach_task_peer_review_check_assingment}
@@ -714,7 +714,7 @@ Ein Review ist nur möglich, wenn der oder die Teilnehmer:in abgegeben hat.
 
 Ein Review ist auch schon möglich, wenn bereits vor Ablauf der Abgabefrist abgegeben wurde.
 
-Wenn für das Review ein Zeitraum (durch den/die Besitzer:in) gesetzt wurde, kann das Review nicht durchgeführt werden.
+Der "Peer-Review-Zeitraum", den Besitzer:innen im Tab "Workflow" setzen, gilt nicht für Betreuer:innen: Sie erstellen ein eigenes Review auch vor Beginn und nach Ende des Zeitraums. Dazu öffnen Sie die Person, im Schritt "Peer-Review" den Reiter "Erhaltene Beurteilungen" und in der Zeile der Person unter "Weitere Aktionen" den Eintrag "Eigenes Review erstellen".
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -819,18 +819,18 @@ Ein/e Reviewer:in fällt wegen Krankheit aus und der/die Betreuer:in springt als
 Ein/eine Betreuer:in sieht, dass ein/e Reviewer:in ein Review falsch oder schlecht ausgeführt hat. Der/die Betreuer:in markiert darauf hin dieses Review als ungültig und macht selbst ein Review, damit diese Person wieder gleich viele Reviews erhalten hat.
 
 **Beispiel 3:**<br>
-Es liegen aus dem Peer-Review zwei völlig gegensätzliche Reviews vor. Der/die Betreuer:in gibt deshalb ein vermittelndes oder korrigierendes Review dazu. (Im Unterschied zu einem Experten-Review wird hier das gleiche Bewertungsraster verwendet.)
+Es liegen aus dem Peer-Review zwei völlig gegensätzliche Reviews vor. Der/die Betreuer:in gibt deshalb ein vermittelndes oder korrigierendes Review dazu. (Im Unterschied zur Rubrik-Bewertung wird hier das gleiche Bewertungsraster verwendet.)
 
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
 
-### Experten-Review {: #coach_task_peer_review_expert}
+### Rubrik-Bewertung durch Betreuer:innen {: #coach_task_peer_review_expert}
 
-Ein Experten-Review findet durch Betreuer:innen statt, nachdem ein Peer-Review stattgefunden hat.
+Ist im Tab "Bewertung" die "Rubrik-Bewertung" eingeschaltet, bewerten Betreuer:innen die Aufgabe zusätzlich zum Peer-Review mit einem eigenen Rubrik-Formular.
 
-Es erfolgt analog dem [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md#rubrik-bewertung), mit einem hinterlegten [Rubrik-Formular](../learningresources/Forms_in_Rubric_Scoring.de.md). (Also einem anderen Fragebogen, als die Peer-Reviewer:innen verwendet haben.)
+Sie funktioniert wie beim [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md#rubrik-bewertung), mit einem hinterlegten [Rubrik-Formular](../learningresources/Forms_in_Rubric_Scoring.de.md). Dieses Formular kann sich vom Formular der Peer-Reviewer:innen unterscheiden.
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -838,11 +838,13 @@ Es erfolgt analog dem [Kursbaustein "Bewertung"](../learningresources/Course_Ele
 
 ### Bewertung der Aufgabe {: #coach_task_peer_review_evaluate}
 
-Wenn ein Peer-Review durchgeführt wurde, müssen die Ergebnisse nicht zwangsläufig in die **Bewertung** einfliessen. Es sind auch Reviews und Peer-Reviews ohne Bewertung möglich. Es kann gewählt werden,
+Wenn ein Peer-Review durchgeführt wurde, müssen die Ergebnisse nicht zwangsläufig in die Bewertung einfliessen. Es sind auch Reviews und Peer-Reviews ohne Bewertung möglich. Kursbesitzer:innen legen im Tab "Bewertung" unter ["Gesamtpunkte aus"](#grading) fest, welche Punkte zählen:
 
-* ob die Reviews aus einem Peer-Review in die Bewertung einfliessen,
-* nicht in die Bewertung einfliessen,
-* oder ausschliesslich das Experten-Review zählt.
+* "Rubrik-Bewertung": die Punkte aus der Rubrik-Bewertung durch Betreuer:innen,
+* "Rubrik-Peer-Review": die Punkte aus den Peer-Reviews, welche die Person erhalten hat,
+* "Abgegebene Reviews": Punkte für die Reviews, welche die Person selbst abgegeben hat.
+
+Kombinationen sind möglich. Ist nur "Rubrik-Bewertung" gewählt, fliessen die Peer-Reviews nicht in die Bewertung ein.
 
 
 

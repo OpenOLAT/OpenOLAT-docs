@@ -231,7 +231,7 @@ If you award points in a course element, you can show the participants a highsco
 
 You set up the highscore in the tab "HighScore". All assessable course elements have this tab except Practice and Video task, and in addition the course element "Structure". The prerequisite is that the course element awards points, for example a test, a task or an assessment.
 
-First switch on "Show Highscore". Under "Starting Date (optional)" you define from when OpenOlat shows the highscore. Without a starting date, OpenOlat shows the highscore directly after finishing the test. With "Anonymize usernames" the highscore shows the persons anonymised instead of with first and last name.
+First switch on "Show Highscore". Under "Starting Date (optional)" you define from when OpenOlat shows the highscore. Without a starting date, OpenOlat shows the highscore as soon as the assessment of the person is released: for a test directly after finishing it, for the course element "Assessment" only when coaches complete and release the assessment. Points that are only saved temporarily are not enough. With "Anonymize usernames" the highscore shows the persons anonymised instead of with first and last name.
 
 Then you choose which elements the highscore shows: "Congratulations title", "Podium", "Histogram" and "Top results listing". For the listing you define whether it shows all participants or only a certain number of the top participants. At least one of these options must be selected.
 

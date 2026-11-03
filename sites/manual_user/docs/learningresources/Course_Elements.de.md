@@ -57,11 +57,11 @@ Unter der Kategorie Wissensüberprüfung sind ausserdem die Kursbausteine "Umfra
 
 Alle bewertbaren Kursbausteine ausser "Übung" und "Videoaufgabe" erhalten zusätzlich das Konfigurationstab "HighScore", ebenso der Kursbaustein "Struktur". Nutzbar ist der Tab, sobald am Baustein Punkte vergeben werden. Dort richten Sie die Rangliste ein. Sie ermöglicht einen spielerischen Vergleich der Teilnehmenden und kann als Motivationsfaktor verstanden werden.
 
-Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein Anfangsdatum hinzugefügt werden, ab welchem die Rangliste angezeigt wird. Ohne Angabe des Datums wird die Rangliste direkt nach Beenden des Tests angezeigt.
+Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein Anfangsdatum hinzugefügt werden, ab welchem die Rangliste angezeigt wird. Ohne Angabe des Datums erscheint die Rangliste, sobald die Bewertung der Person freigegeben ist: beim Test direkt nach dem Beenden, bei anderen Kursbausteinen wie "Bewertung" erst, wenn Betreuer:innen die Bewertung abschliessen und freigeben.
 
 Es kann definiert werden, ob die Benutzerdaten anonymisiert oder mit Vor- und Nachnamen dargestellt werden und welche Elemente der Rangliste angezeigt werden sollen. Zur Auswahl stehen der Gratulationstitel, das Siegertreppchen, das Histogramm und die Liste der besten Teilnehmer:innen. Für die Liste kann zudem definiert werden, ob alle Teilnehmenden oder nur eine gewisse Anzahl der besten Teilnehmenden erscheinen sollen. Es muss mindestens eine dieser Optionen ausgewählt werden.
 
-![Gratulationstitel mit dem eigenen Platz, Siegertreppchen mit drei Rängen, Histogramm der Punkteverteilung und Liste der besten Teilnehmer:innen, im Bereich Rangliste eines Kursbausteins](assets/Highscore.png){ class="shadow lightbox" }
+![Gratulationstitel mit dem eigenen Platz, Siegertreppchen mit drei Rängen, Histogramm der Punkteverteilung und Liste der besten Teilnehmer:innen](assets/course_elements_highscore_v1_de.png){ class="shadow lightbox" title="Rangliste eines Kursbausteins aus Sicht der Teilnehmenden · 2026.11.02" }
 
 ### Kommunikation und Kollaboration
 
@@ -135,7 +135,7 @@ Eine Reihe an Kursbausteinen kann entweder zur summativen bzw. formativen Bewert
 
 Die Fortschrittskontrolle steuern [Lernpfadkurse](../learningresources/Learning_path_course.de.md) über das Erledigungskriterium, das Sie im Kurseditor pro Kursbaustein im Tab "Lernpfad" festlegen. Mit dem Kriterium "Bestätigung durch Benutzer:in" bestätigen die Teilnehmenden die Bearbeitung selbst über den Toggle-Button "Als erledigt markieren".
 
-![Toggle-Button Als erledigt markieren neben der Pfeilnavigation, in der Kurs-Toolbar der Teilnehmer:innenansicht](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" }
+![Toggle-Button Als erledigt markieren neben der Pfeilnavigation](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Teilnehmer:innenansicht eines Lernpfadkurses" }
 
 Eine Übersicht aller Kriterien finden Sie auf der Seite [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md#completion_criterion).
 
