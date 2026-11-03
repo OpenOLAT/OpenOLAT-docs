@@ -6,7 +6,7 @@
 Name | edu-sharing
 ---------|----------
 Icon | ![edu-sharing Icon](assets/course_element_edu-sharing_icon.png){ class=size24 }
-Available since | 
+Available since | Release 15.1 (OO-4676)
 Functional group | Knowledge transfer
 Purpose | Use of content from the education cloud edu-sharing
 Assessable | no
@@ -14,9 +14,13 @@ Specialty / Note |
 
 
 
-Edu-sharing is a software for networking learning platforms, exchanging learning content, metadata and tools and making them findable in an education cloud and usable in all connected systems. In the system administration, the module can generally be activated and the use of edu-sharing as a course element can be enabled, under: `Administration > External tools > edu-sharing`.
+With the course element "edu-sharing", you embed learning content from the education cloud edu-sharing in your course. edu-sharing connects learning platforms: learning content, metadata and tools become findable there and usable in all connected systems.
 
-Further information can be found on the website of [edu-sharing](https://edu-sharing.com/).
+As an author, you select the content in the course editor in the tab "edu-sharing" with "Select". Under "Version", you define whether the course shows the version at the time of embedding ("Selected") or always the latest version ("Latest").
+
+In the system administration, the module can generally be activated and the use of edu-sharing as a course element can be enabled, under: `Administration > External tools > edu-sharing`.
+
+You can find further information on the website of [edu-sharing](https://edu-sharing.com/).
 
 ## Further information {: #further_information}
 

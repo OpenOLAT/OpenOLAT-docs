@@ -5,7 +5,7 @@
 Name | Calendar
 ---------|----------
 Icon | :o_icon_o_cal_icon:
-Available since | 
+Available since | Release 7.1 or earlier
 Functional group | Administration and organisation
 Purpose | Embedding the course calendar into the course structure (course menu)
 Assessable | no
@@ -13,17 +13,17 @@ Specialty / Note |
 
 
 
-By means of the course element "[Calendar](../learningresources/Using_Additional_Course_Features.md#course-calendar)" you can embed a course calendar in the course structure. It is also possible to add several instances of the same calendar to the course.
+With the course element "Calendar" you show the [course calendar](../learningresources/Using_Additional_Course_Features.md#course-calendar) directly in the course structure, for example at the place where the participants find the materials of a week. You can also insert the course element several times. Every course element "Calendar" shows the same course calendar.
 
-This course element offers an alternative view on the course calendar to be found in the course toolbar (see "[Using additional course features](../learningresources/Using_Additional_Course_Features.md)").
+The course element is an alternative to the calendar in the toolbar of the course, see [Using additional course features](../learningresources/Using_Additional_Course_Features.md).
 
-Only course authors and moderators are allowed to create calendar entries by default. However, all course participants are able to read entries. In the tab "Calendar configuration" you can define whether participants and tutors of a course may also set and edit calendar entries. Also, you can decide which date should be displayed when a course calendar is activated from the course structure. Course calendars will automatically be added to the [personal calendars](../personal_menu/Calendar.md) of the course members.
+By default, the owners and the coaches of the course create and edit events. All participants read the events. In the tab "Calendar configuration", under "Edit events", you define whether coaches and participants may create and edit events in addition to the owners. Under "Date displayed" you choose between "Current date" and "Select fixed date": the calendar then opens at today's date or at the date you set. The members of the course automatically also see the course calendar in their [personal calendar](../personal_menu/Calendar.md).
 
-When displaying a certain semester week in your calendar and inserting links on course elements, that calendar will serve as a kind of overview showing all events and tasks of that week.
+If the calendar shows a fixed semester week and the events contain links to course elements, it serves as an overview of the events and tasks of that week.
 
-Check whether the course element "Calendar" is really the optimal choice for you. In many cases, especially with [learning path courses](../learningresources/Learning_path_course.md), it makes more sense to activate the calendar in the [toolbar](../learningresources/Course_Settings.md#toolbar) in the settings.
+In many courses, especially in [learning path courses](../learningresources/Learning_path_course.md), the calendar in the [toolbar](../learningresources/Course_Settings.md#toolbar) is the simpler choice. You switch it on under `Course > Administration > Settings > Toolbar`.
 
-!!! tip "Hint"
+!!! tip "Tip"
 
     If you can't find the "Calendar" course element in the course editor, it was disabled by a system administrator.
 
@@ -34,5 +34,9 @@ Check whether the course element "Calendar" is really the optimal choice for you
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)
+
+**Further reading**<br>
+[Course Element "Appointment scheduling" >](../learningresources/Course_Element_Appointment_Scheduling.md)<br>
+[Types of Course Elements >](../learningresources/Course_Elements.md)
 
 [To the top of the page ^](#cal)

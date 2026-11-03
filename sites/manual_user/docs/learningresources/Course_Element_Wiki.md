@@ -5,24 +5,24 @@
 Name | Wiki
 ---------|----------
 Icon | :o_icon_o_wiki_icon:
-Available since | 
+Available since | Release 7.1 or earlier
 Functional group | Communication and collaboration
 Purpose | Collaborative content creation
 Assessable | no
 Specialty / Note |
 
-Use a Wiki to easily create learning content together with participants. A wiki can be used for group work, as a documentation tool and generally for the cooperative creation of texts. The individual pages are implemented in the form of hypertext with linked pages.
+Use a Wiki to easily create content together with participants. A wiki is suitable for group work, as a documentation tool and generally for writing texts together. The individual pages are linked to each other as hypertext.
 
 ## In the course editor
 
 With the "Wiki" course element, you integrate a wiki learning resource into your course. You will find the settings under:<br>
 `Course > Administration > Course editor > Course element "Wiki" > Tab "Wiki learning content"`
 
-Click on "Choose, create or import Wiki" in the tab "Wiki learning content" to assign an already existing Wiki or to create a new one.
+Click on "Choose, create or import Wiki" in the tab "Wiki learning content". Then assign an existing Wiki or create a new one.
 
-If you have already added a wiki learning resource, its name will appear. In order to change the assignment of a Wiki, click on "Replace Wiki" in the tab "Wiki learning content" and then select another Wiki or create a new one.
+If a wiki learning resource is already assigned, its name appears. To change the assignment later, click on "Replace Wiki" in the tab "Wiki learning content". Then select another Wiki or create a new one.
 
-In the "Wiki learning content" tab, you also define who may edit the wiki. Under "Edit Material" you allow coaches and participants, in addition to the owners, to edit wiki articles. By default all participants have read and write permission in a Wiki. A wiki page can be deleted by the person who created it, by the course owners and by the owners of the wiki learning resource.
+In the "Wiki learning content" tab, you also define who may edit the wiki. Under "Edit Material" you allow coaches and participants, in addition to the owners, to edit wiki articles. By default all participants have read and write permission in a Wiki. A wiki page can be deleted by the person who created it, by the owners of the course and by the owners of the wiki learning resource. [:octicons-tag-16:{ title="from Release 15.0 (OO-4551)" }](https://track.frentix.com/issue/OO-4551)
 
 !!! info "Important"
 
@@ -32,17 +32,17 @@ In the "Wiki learning content" tab, you also define who may edit the wiki. Under
 
 ![Wiki navigation with page list and editor toolbar while editing the wiki page "Index"](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" title="Edit page tab in the Wiki course element" }
 
-If a Wiki is used in an OpenOlat course, the Wiki menu and other Wiki links automatically appear in the left course navigation. Use the "From A-Z" link to call up the table of contents with the display of all Wiki pages. This way you can see at a glance which pages have already been created.
+If a Wiki is embedded in a course, the "Wiki menu" and other Wiki links appear in the left course navigation. Use the "From A-Z" link to call up the table of contents with all Wiki pages. This way you see at a glance which pages already exist.
 
-In the main area, you can see the respective Wiki contributions (tab "Article"), edit the wiki pages (tab "Edit page"), hold discussions on the individual Wiki pages (tab "Discussion") and view the editing history (tab "Versions/authors"). You can also export a Wiki as a content package (CP) and be informed about changes.
+In the main area, you read the Wiki contributions (tab "Article"), edit the wiki pages (tab "Edit page"), hold discussions on the individual Wiki pages (tab "Discussion") and view the editing history (tab "Versions/authors"). You can also export the Wiki as a content package (CP) and be informed about changes.
 
 ### Creating new Wiki pages
 
-A new Wiki page can be easily created using the "Create" button and then filled with content. It should be noted, however, that the page created in this way does not yet have a connection to the overall wiki structure. In order to establish a connection, appropriate links should be created in the "Wiki menu" and/or on the "Index" page of the Wiki.
+You create a new Wiki page with the "Create" button and then fill it with content. The page created in this way is not yet connected to any other page of the Wiki. So that readers find it, link the page in the "Wiki menu" or on the "Index" page of the Wiki.
 
-Another way to create a new Wiki page is to create a matching internal link on the page where the link to the new Wiki page should appear. For this purpose, you can either use the corresponding button of the Wiki Editor or enter the appropriate syntax directly. The Wiki syntax for new internal links is two opening square brackets + page name + two closing square brackets. So for example: `[[link name]]`.
+Alternatively, create an internal link on the page where the link to the new Wiki page should appear. Use the "Internal link" button of the Wiki editor or enter the syntax directly: two opening square brackets, the page name and two closing square brackets, for example `[[link name]]`.
 
-The corresponding page will then be created automatically the first time the link is called.
+OpenOlat creates the page automatically the first time the link is called.
 
 ![Button "Interner link" in the toolbar, with the inserted placeholder for the link in the editor below](assets/interner_Link.png){ class="shadow lightbox" title="Toolbar in the Edit page tab" }
 
@@ -51,9 +51,7 @@ The corresponding page will then be created automatically the first time the lin
 To edit the content of a wiki page, select the "Edit page" tab of the desired wiki page:<br>
 `Course > Course element "Wiki" > "Page name" > Tab "Edit page"`
 
-The Wiki Editor appears with various formatting options. Here you can also include images, media links, mathematical formulas, internal and external links in your wiki. In addition to the buttons in the editor, there are other formatting options that you can insert directly in the text as syntax elements.
-
-The wiki syntax is explained in more detail below.
+The Wiki editor appears with various formatting options. Here you also include images, media links, mathematical formulas as well as internal and external links in your wiki. In addition to the buttons in the editor, there are other formatting options that you insert directly in the text as syntax elements. The following section explains the wiki syntax.
 
 ## Wiki Syntax
 
@@ -82,7 +80,7 @@ Syntax | Result (Formatting)
 External link [[http://www.openolat.org](http://www.openolat.org/)] | [http://www.openolat.org](http://www.openolat.org/)
 [[http://www.openolat.org](http://www.openolat.org/) The Website of OpenOlat] | [The website of OpenOlat](http://www.openolat.org/)
 
-External addresses are automatically converted to a link if you provide the full address: [http://www.openolat.org](http://www.openolat.org/). If you want to specify a different term instead of the link, put the URL and the term together in square brackets, separated by a space.
+OpenOlat automatically converts external addresses to a link if you provide the full address: [http://www.openolat.org](http://www.openolat.org/). If you want to specify a different term instead of the link, put the URL and the term together in square brackets, separated by a space.
 
 ### Tables
 
@@ -142,7 +140,7 @@ External addresses are automatically converted to a link if you provide the full
 
 ### Pictures and other files
 
-For example, to add images to the wiki, you must first upload them to OpenOlat (via the "Upload file" button). As soon as there is at least one file in the wiki, the drop-down menu "Insert file" appears, with which images etc. can be conveniently inserted.
+For example, to add images to the wiki, first upload them to OpenOlat with the "Upload file" button. As soon as the wiki contains at least one file, the drop-down menu "Insert file" appears, with which you insert images and other files.
 
 === "Syntax"
 
@@ -221,12 +219,11 @@ Multiple formatting options can also be used simultaneously.
 
 === "Result"
 
-    [any.pdf](https://testing.frentix.com/test8/help/RepositoryEntry/82673665#pdf)
+    Link to the file any.pdf
 
 ### Mathematical formulas (LaTeX)
 
-To make OpenOlat display the formulas faster and nicer, you can install jsMath fonts on your computer. You can find the download area and instructions at:<br>
-[http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html](http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html)
+OpenOlat displays the formulas in the browser with MathJax.
 
 The syntax of the mathematical notation used in OpenOlat can be found at: [http://meta.wikimedia.org/wiki/Help:Formula](http://meta.wikimedia.org/wiki/Help:Formula)
 
@@ -264,11 +261,11 @@ The syntax of the mathematical notation used in OpenOlat can be found at: [http:
 
 ## Attachments, links to files, export
 
-To attach a file, first upload it via "Upload file". Navigate to the location on the wiki page where you want the file to appear. Then select the file via "Insert file" and confirm with "Save". Links to other wiki pages are created using the "Insert link" button. Further formatting options can be found one line above.
+To attach a file, first upload it via "Upload file". Navigate to the location on the wiki page where you want the file to appear. Then select the file via "Insert file" and confirm with "Save". You create links to other wiki pages with "Insert link". The toolbar of the editor offers further formatting options.
 
-You create links to files in the "Folder" course element by clicking on the metadata icon ![Metadata symbol](assets/metadata_64_0_434343_none.png){ class=size16 } and then copying the link under "External link to this resource". Please note that you can only link to files that are inside a subfolder in a "Folder" course element.
+You create links to files in the "Folder" course element by clicking on the metadata icon ![Metadata symbol](assets/metadata_64_0_434343_none.png){ class=size16 } and then copying the link under "External link to this resource". You can only link to files that are in a subfolder of a "Folder" course element.
 
-The wiki can be exported and saved as IMS content packaging by all participants via the corresponding link. Authors can also re-import an exported CP into OpenOlat.
+With the link "Export as CP", all participants export the wiki as an IMS content package and save it. Authors can import an exported CP into OpenOlat as a CP learning resource, but not as a wiki.
 
 !!! info "Important"
 
@@ -276,12 +273,11 @@ The wiki can be exported and saved as IMS content packaging by all participants 
 
 !!! danger "Attention"
 
-    When you delete pages, all versions are also deleted. So you cannot restore deleted pages.
+    If you delete a page, OpenOlat also deletes all its versions. Deleted pages cannot be restored.
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[jsMath fonts (download)](http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html)<br>
 [MediaWiki: Help on formulas](http://meta.wikimedia.org/wiki/Help:Formula)<br>
 [MediaWiki: Help on formatting](https://www.mediawiki.org/wiki/Help:Formatting)
 

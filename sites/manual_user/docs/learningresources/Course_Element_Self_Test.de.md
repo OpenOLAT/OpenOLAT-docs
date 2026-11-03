@@ -6,26 +6,30 @@
 Name | Selbsttest
 ---------|----------
 Icon | :o_icon_o_iqself_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs
 Bewertbar | ja
 Spezialität / Hinweis |  vorkonfigurierter Kursbaustein "Test"
 
-Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein Test. Bei Selbsttests gibt es allerdings keine Option "bestanden/nicht bestanden", der Tab "Highscore" entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.
+Mit dem Kursbaustein "Selbsttest" üben Teilnehmende den Stoff des Kurses und prüfen selbst, wo sie stehen. Einen Selbsttest bearbeiten sie so oft, wie sie möchten.
 
-Im Gegensatz zum Kursbaustein "Test" dienen Selbsttests Übungszwecken, d.h. die Resultate der Teilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden.
+Der Selbsttest bindet wie der [Kursbaustein "Test"](Course_Element_Test.de.md) eine Lernressource vom Typ Test ein und wird ähnlich konfiguriert. Anders als beim Test gibt es keinen Tab "HighScore", und der Kursbaustein erscheint nicht im Bewertungswerkzeug. Hat der eingebundene Test eine Punkteschwelle, zeigt der Selbsttest den Erfolgsstatus "Bestanden" oder "Nicht bestanden" trotzdem an, in den Resultaten nach der Abgabe und in der Leistungsübersicht des Kursbausteins. Exportieren Sie die Resultate über die [Archivierung](Course_Archiving.de.md) des Kurses, erscheinen sie anonymisiert.
 
-Im Kursbaustein "Selbsttest" werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den Anweisungen im Kapitel "[Wie gehe ich vor, wenn ich einen Test erstelle](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)".
+Wenn Sie noch keinen Test erstellt haben, folgen Sie der Anleitung [Wie gehe ich vor, wenn ich einen Test erstelle?](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
-Weitere Informationen zu Tests finden Sie im Kapitel "[Tests erstellen](../learningresources/Configure_tests.de.md)". Relevant ist hier vor allem das Unterkapitel "[Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md)".
+Weitere Informationen zu Tests finden Sie auf der Seite [Test konfigurieren](../learningresources/Configure_tests.de.md). Für den Einsatz im Kurs ist vor allem die Seite [Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md) wichtig.
 
-Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar.
+Eine umfangreichere Alternative zum Selbsttest ist der [Kursbaustein "Übung"](Course_Element_Practice.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
+[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Test konfigurieren >](../learningresources/Configure_tests.de.md)<br>
-[Tests auf Kursebene >](../learningresources/Tests_at_course_level.de.md)
+[Tests auf Kursebene >](../learningresources/Tests_at_course_level.de.md)<br>
+[Kursbaustein "Übung" >](Course_Element_Practice.de.md)<br>
+[Kursbausteine >](Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#course_element_self_test)

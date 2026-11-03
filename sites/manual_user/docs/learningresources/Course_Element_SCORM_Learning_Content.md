@@ -5,6 +5,7 @@
 Name | SCORM 1.2
 ---------|----------
 Icon | :o_icon_o_scorm_icon:
+Available since | Release 7.1 or earlier
 Functional group | Knowledge transfer
 Purpose | Integration of SCORM packages, created with other authoring tools
 Assessable | yes
@@ -39,7 +40,7 @@ If you open the course element in the course as an owner, you also have the tab 
 
 ## Editing in the editor {: #editor}
 
-As a course owner, you can create and edit the "SCORM 1.2" course element just like any other course element in the course editor: `Course > Administration > Course editor`. You then configure it in the tabs.
+As an owner of the course, you create and edit the "SCORM 1.2" course element just like any other course element in the course editor: `Course > Administration > Course editor`. You then configure it in the tabs.
 
 
 ### Tab "Learning content" {: #editor_tab_learning_content}
@@ -52,7 +53,7 @@ If assessments already exist for the course element, OpenOlat displays the setti
 
 #### SCORM {: #scorm }
 
-Select or import SCORM content. Click "Select or import" to upload a new SCORM package, or select an existing SCORM package from your entries. SCORM packages can be imported not only in the course editor but also under "Authoring". If you haven't yet selected a ZIP file as SCORM learning content, the message _No SCORM 1.2 selected_ will appear next to the field "SCORM".
+Select or import SCORM content. Click "Select or import" to upload a new SCORM package, or select an existing SCORM package from your entries. You import SCORM packages not only in the course editor but also in the authoring area. If you haven't yet selected a ZIP file as SCORM learning content, the message _No SCORM 1.2 selected_ will appear next to the field "SCORM".
 
 !!! note "Import"
     Description of importing learning resources in Authoring.<br>
@@ -65,10 +66,10 @@ If you have already added SCORM learning content, its name will appear as a link
 You have 4 options to choose from:
 
 **Show module within OpenOlat:**<br>
-In addition to the SCORM module, the main navigation is displayed at the top.
+OpenOlat shows the main navigation at the top in addition to the SCORM module.
 
 **Show only module:**<br>
-If this variant is selected, the main navigation will be hidden when the course element opens. Instead, the SCORM module will be displayed in the entire browser window.
+OpenOlat hides the main navigation when the course element opens and shows the SCORM module in the entire browser window.
 
 **Show module in full screen mode:**<br>
 \- The module takes up the entire space<br>
@@ -85,7 +86,7 @@ With the two full screen variants, OpenOlat hides the fields "Show module menu" 
 
 #### Show module menu {: #show_module_menu }
 
-If this checkbox is selected, OpenOlat displays the menu of the SCORM package on the left. This menu lists the chapters of the package, the "Sharable Content Objects" (SCO), and replaces the course menu while the SCORM content is open. Many SCORM contents come with their own navigation. In this case, you can hide the module menu to give the SCORM content more room. When you exit the SCORM content (by clicking "Back"), the course menu reappears.
+If this checkbox is selected, OpenOlat displays the menu of the SCORM package on the left. This menu lists the chapters of the package, the "Sharable Content Objects" (SCO), and replaces the course menu while the SCORM content is open. Many SCORM contents come with their own navigation. In this case, you can hide the module menu to give the SCORM content more room. When participants leave the SCORM content with "Back", the course menu reappears.
 
 #### Show module navigation buttons {: #show_module_navigation_buttons }
 
@@ -93,7 +94,7 @@ If a SCORM learning content consists of multiple SCOs, this option makes OpenOla
 
 #### Skip launch page {: #skip_launch_page }
 
-With this option, the SCORM content launches immediately when the course element containing the SCORM content is selected from the course menu. If you do not enable this option, a launch page will be displayed instead.
+With this option, the SCORM content launches immediately as soon as participants select the course element in the course menu. Without this option, OpenOlat first shows a launch page.
 
 #### Close module automatically on finish {: #close_module_on_finish }
 
@@ -102,21 +103,21 @@ OpenOlat closes the SCORM learning content automatically once it is completed, a
 #### Transfer score from SCORM {: #transfer_score }
 
 Properly created SCORM packages can transfer certain parameters (points, pass/fail status, etc.) to the LMS. With this option, OpenOlat takes over the results from the SCORM package into the assessment.<br>
-**Don't transfer scoring information:** Any values passed from the SCORM package are not taken into account in OpenOlat.<br>
-**Transfer score value:** The scores provided by the SCORM package are imported into OpenOlat's scoring system.<br>
-**Transfer passed value:** OpenOlat only adopts the "Passed" or "Failed" status reported by the SCORM package; the underlying score is irrelevant. The fields for the maximum and the required score therefore do not appear with this option.
+**Don't transfer scoring information:** OpenOlat does not take any values from the SCORM package into account.<br>
+**Transfer score value:** OpenOlat takes the points from the SCORM package into its scoring.<br>
+**Transfer passed value:** OpenOlat only adopts the "Passed" or "Failed" status reported by the SCORM package; the underlying score does not count. The fields for the maximum and the required score therefore do not appear with this option.
 
 #### Maximum score {: #maximum_score }
 
-If a score is transferred to OpenOlat, a maximum score can be specified here. This limit is necessary if, for example, the SCORM learning content awards significantly more points than the OpenOlat course. If the option "Include in course assessment" is selected, the "SCORM 1.2" course element could be given disproportionately high weight.
+If the SCORM package transfers a score to OpenOlat, you specify a maximum here. This limit is needed if, for example, the SCORM learning content awards significantly more points than the other course elements of the course. If the option "Include in course assessment" is then selected, the "SCORM 1.2" course element would otherwise get a disproportionately high weight.
 
 #### Score needed to pass {: #score_needed_to_pass }
 
-When a score is submitted to OpenOlat, you can use an integer value here to specify the minimum number of points required for the course element to be considered passed.
+If the SCORM package transfers a score to OpenOlat, you define here with an integer value how many points are needed to pass the course element.
 
 #### Prevent the score from decreasing on subsequent attempts {: #prevent_decreasing_score }
 
-If the course element is accessed multiple times, points earned in a previous attempt are not reset if fewer points are earned on a subsequent attempt. Therefore, a subsequent attempt cannot result in a lower score than the one already achieved. The field only appears if the option "Transfer score value" is selected under "Transfer score from SCORM".
+If a person opens the course element multiple times, OpenOlat does not reset points already earned if the person earns fewer points on a subsequent attempt. A subsequent attempt therefore does not worsen an existing result. The field only appears if the option "Transfer score value" is selected under "Transfer score from SCORM".
 
 #### Include in course assessment {: #include_in_course_assessment }
 
@@ -124,11 +125,11 @@ This switch determines whether passing the course element and any points earned 
 
 #### Count attempts only if score is transferred {: #count_attempts_if_score_transferred }
 
-Attempts are only counted for users if points are also transferred from the SCORM package to OpenOlat. Depending on when the SCORM learning content provides the points (e.g., regularly or only at the end of the session), the option takes effect either when users have completed a section of the SCORM learning content or only when the SCORM learning content is closed.
+OpenOlat only counts the attempts of users if the SCORM package also transfers points to OpenOlat. Depending on when the SCORM learning content provides the points (e.g., regularly or only at the end of the session), the option takes effect either when users have completed a section of the SCORM learning content or only when the SCORM learning content is closed.
 
 #### Maximum number of attempts {: #max_attempts }
 
-You can use a drop-down menu to specify how many attempts are allowed for this SCORM course element (unlimited or a number between 1 and 20).
+In the drop-down menu, you define how many attempts are allowed for this SCORM course element (unlimited or a number between 1 and 20).
 
 [To the top of the page ^](#course_element_scorm)
 
@@ -160,7 +161,7 @@ Select this option so that OpenOlat can highlight glossary terms in the content 
 
 #### Display height {: #display_height }
 
-Use this drop-down menu to set the height of the content display area. You can either select "Automatic" to adjust it to the current window height, or you can specify a specific value. The setting "Automatic" works better when Javascript is embedded.
+In this drop-down menu, you set the height of the content display area: "Automatic" adjusts it to the current window height, or you select a fixed value. The setting "Automatic" works better when Javascript is embedded.
 
 #### Adapt layout {: #adapt_layout }
 
@@ -168,15 +169,15 @@ Select the "OpenOlat stylesheets" option to apply the layout defined in OpenOlat
 
 #### Content character set {: #content_character_set }
 
-OpenOlat attempts to automatically detect the character set. If the "Automatically" option does not produce the desired display, the encoding of the content can be configured using a predefined character set. (If no encoding is specified, the ISO-8859-1 character set is used by default.)
+OpenOlat attempts to automatically detect the character set. If the "Automatically" option does not produce the desired display, select a predefined character set for the content. If no encoding is specified, OpenOlat uses the ISO-8859-1 character set by default.
 
 #### Javascript character set {: #javascript_character_set }
 
-Allows you to encode JavaScript code using a predefined character set (by default, the same character set is used for content and JavaScript).
+Here you select a predefined character set for the JavaScript code. By default, the same character set applies as for the content.
 
 !!! note "Note"
 
-    SCORM learning content is usually displayed with a launch page. If the SCORM learning content includes assignments and tests, this launch page shows the score achieved and the remaining attempts to complete the learning content successfully.
+    OpenOlat usually shows SCORM learning content with a launch page. If the SCORM learning content includes assignments and tests, this launch page shows the score achieved and the remaining attempts to complete the learning content successfully.
 
 [To the top of the page ^](#course_element_scorm)
 
@@ -197,7 +198,7 @@ In the "HighScore" tab, you activate and configure the highscore for this course
 
 ### Tab "Reminders" [:octicons-tag-16:{ title="from Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447) {: #editor_tab_reminders}
 
-Course owners create reminders in the course editor or directly in the course: if they open the course element outside of the editor, the tab "Reminders" is available there as well.
+Owners of the course create reminders in the course editor or directly in the course: if they open the course element outside of the editor, the tab "Reminders" is available there as well.
 
 Both ways also show a preview and all sent reminders. Created reminders appear in a list. A click on the plus sign at the start of a row shows the rules of the reminder. In the expanded row, "Show e-mail message" shows the e-mail that is sent. With "Send reminders now" you trigger the dispatch by hand, without waiting for the next regular dispatch.
 
@@ -210,7 +211,7 @@ Both ways also show a preview and all sent reminders. Created reminders appear i
 
 ### Tab "Badges" [:octicons-tag-16:{ title="from Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #badges}
 
-If the awarding of badges is enabled in the course settings, the course editor shows the tab "Badges" for this course element. There you create a badge specifically for this course element. Course owners enable the awarding under:<br>
+If the awarding of badges is enabled in the course settings, the course editor shows the tab "Badges" for this course element. There you create a badge specifically for this course element. Owners of the course enable the awarding under:<br>
 `Course > Administration > Settings > Tab "Assessment" > Section "Badges"`
 
 [To the top of the page ^](#course_element_scorm)

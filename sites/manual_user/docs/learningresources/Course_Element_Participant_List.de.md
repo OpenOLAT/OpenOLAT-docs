@@ -1,4 +1,4 @@
-# Kursbaustein "Liste der Teilnehmer:innen"  {: #participant_list}
+# Kursbaustein "Liste der Teilnehmer:innen" {: #participant_list}
 
 
 ## Steckbrief
@@ -6,7 +6,7 @@
 Name | Liste der Teilnehmer:innen
 ---------|----------
 Icon | :o_icon_o_cmembers_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 8.0 (2012)
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Liste aller Kursmitglieder, gruppiert nach Rollen
 Bewertbar | nein
@@ -44,6 +44,11 @@ Mit der "Downloadfunktion" legen Sie fest, wer die Liste als Excel-Datei herunte
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Mitgliederverwaltung](../learningresources/Members_management.de.md)
+[Mitgliederverwaltung >](../learningresources/Members_management.de.md)
+
+**Weiterführend**<br>
+[Kursbausteine >](Course_Elements.de.md)<br>
+[Toolbar: Übersicht >](Toolbar.de.md)<br>
+[Persönliche Konfiguration: Profil >](../personal_menu/Profile.de.md)
 
 [Zum Seitenanfang ^](#participant_list)

@@ -6,7 +6,7 @@
 Name | Blog
 ---------|----------
 Icon | :o_icon_o_blog_icon:
-Available since | 
+Available since | Release 7.1 or earlier
 Functional group | Knowledge transfer
 Purpose | Information of participants about current topics
 Assessable | no
@@ -14,32 +14,29 @@ Specialty / Note |
 
 
 
-Similar to the podcast, the blog also serves to provide the latest new content. In addition to text, posts can also include images or films and files can also be attached (uploaded) in comments.
+With the course element "Blog" you keep the participants of your course up to date on current topics, similar to a podcast. In addition to text, posts contain images or videos, and files can be attached to comments.
 
-As the course owner / coach of a course, you can, for example, inform the participants of your course about current topics in a blog. You can also keep a more or less regular content blog and thus inform participants about new aspects of the course topic.
+As an owner or coach of a course, you can, for example, keep a blog on the topic of the course and inform the participants about new aspects.
 
 ## Course element and learning resource {: #course_element_learning_resources}
 
-A blog learning resource must be integrated into each blog course element.
+A course element "Blog" always shows a blog learning resource. After inserting the course element, you choose one of four ways in the tab "Blog learning content":
 
-Once the course element has been inserted, the **"Blog learning content"** tab can be used to
+* **Select:** You select an existing blog learning resource from the authoring area.
+* **Create:** You create a new blog learning resource directly in the course element. OpenOlat stores it in the authoring area, from where you can also use it in other course elements.
+* **Embed via URL:** You embed an external blog via its URL.
+* **Import:** You import a blog that is available as a file. You find the entry in the menu next to "Embed via URL".
 
-* **1:** select an **already existing blog learning resource** from the authoring area.
-* **2:** create a **new blog learning resource** directly in the course element. (The blog learning resource will be stored in the authoring area. Then, it can also be used in other course elements.)
-* **3:** integrate an **external blog** as a learning resource **via URL**.
-* **4:** import a **blog, which is available as a file**.
-
-![Blog learning content tab in the course editor with the options Select, Create, Integrate via URL and Import](assets/course_element_blog_content_v1_de.png){ class="shadow lightbox" }
-
-!!! info "Important"
-
-    A blog learning resource can also be created in the authoring area under the "Create" button. If it is created in this way, it can then be integrated into a "Blog" course element in the course editor.<br><br>
-    ![Create menu in the authoring area with the Blog entry highlighted](assets/course_element_blog_create_learningresource_v1_de.png){ class="shadow lightbox" }
+![Blog learning content tab in the course editor with the options Select, Create, Embed via URL and Import](assets/course_element_blog_content_v1_de.png){ class="shadow lightbox" title="Tab Blog learning content in the course editor" }
 
 !!! tip "Tip"
 
-    Subscribe to the blog's RSS feed to make sure you don't miss any new entries.
-    You can find instructions here (German): [Set up subscriptions (video instruction)](https://www.youtube.com/embed/h9gOqt7TR7Q)
+    You can also create a blog learning resource in the authoring area via "Create". Afterwards, you integrate it into a course element "Blog" in the course editor.<br><br>
+    ![Create menu in the authoring area with the Blog entry highlighted](assets/course_element_blog_create_learningresource_v1_de.png){ class="shadow lightbox" title="Menu Create in the authoring area" }
+
+!!! tip "Tip"
+
+    Subscribe to the blog's RSS feed to make sure you don't miss any new entries. You can find instructions here: [Set up subscriptions (video introduction, German)](https://www.youtube.com/embed/h9gOqt7TR7Q)
 
 ## Further information {: #further_information}
 

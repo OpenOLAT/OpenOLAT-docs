@@ -5,34 +5,41 @@
 Name | Einschreibung
 ---------|----------
 Icon | :o_icon_o_en_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | eigenständige Eintragung der Teilnehmer:innen in Gruppen
 Bewertbar | nein
 Spezialität / Hinweis |
 
 
-Der Kursbaustein "Einschreibung" wird verwendet, damit sich Teilnehmende in eine oder mehrere OpenOlat Gruppen eintragen können. Definieren Sie dazu im Tab "Konfiguration", in welche und wie viele **Gruppen** sich Teilnehmende einschreiben können. Sie können auch die Reihenfolge der Gruppen in der Auswahlliste definieren. Sollten Sie noch keine Gruppen erstellt haben oder weitere benötigen, so können Sie dies mit einem Klick auf "Auswählen" und "Erstellen" direkt im Tab "Konfiguration" tun. Bestehende und neu erstellte Gruppen können in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) bearbeitet werden.
+Mit dem Kursbaustein "Einschreibung" tragen sich die Teilnehmenden selbst in eine oder mehrere Gruppen des Kurses ein, zum Beispiel in eine Übungsgruppe. Sie müssen die Personen dann nicht von Hand auf die Gruppen verteilen.
 
-Mittels "**Mehrere Eintragungen erlauben**" legen Sie optional fest, ob Teilnehmende sich in mehrere Gruppen eintragen dürfen, und falls ja, in wie viele.
+Im Tab "Konfiguration" legen Sie unter "Lerngruppen" fest, zwischen welchen Gruppen die Teilnehmenden wählen. Mit "Auswählen" nehmen Sie bestehende Gruppen auf, mit "Erstellen" legen Sie direkt im Tab neue Gruppen an. Mit "Eigene Sortierung" bestimmen Sie die Reihenfolge der Gruppen in der Liste. Bestehende und neu erstellte Gruppen bearbeiten Sie in der [Mitgliederverwaltung](../learningresources/Members_management.de.md).
 
-Im Feld "**Austragen erlaubt**" bestimmen Sie optional, ob eine einmal eingeschriebene teilnehmende Person die Möglichkeit hat, sich wieder aus einer Gruppe auszutragen. In der Gruppenverwaltung können Sie beim Editieren der Gruppe festlegen, ob es eine Warteliste und ob es ein automatisches Nachrücken geben soll.
+Mit "Mehrere Eintragungen erlauben" legen Sie fest, ob sich Teilnehmende in mehrere Gruppen eintragen dürfen. Unter "Anzahl der Gruppen" geben Sie dann an, in wie viele.
 
-!!! info "Wichtig"
+Mit "Austragen erlaubt" legen Sie fest, ob sich eingeschriebene Teilnehmende wieder aus einer Gruppe austragen können. Ob eine Gruppe eine Warteliste führt und ob Personen von der Warteliste automatisch nachrücken, legen Sie bei der Gruppe selbst fest: `Gruppe > Administration > Beschreibung`, Optionen "Warteliste" und "Automatisches Nachrücken".
 
-    Sofern Sie zuvor einen oder mehrere Lernbereiche unter `Kurs > Administration > Lernbereich` angelegt und hier Gruppen zugeordnet haben, können Sie auf diese Lernbereiche auch im Tab "Konfiguration" des Einschreibebausteins zugreifen.
+!!! tip "Tipp"
 
-## Teilnehmer-Sicht
+    Haben Sie unter `Kurs > Administration > Lernbereich` Lernbereiche angelegt und ihnen Gruppen zugeordnet, wählen Sie im Tab "Konfiguration" unter "Lernbereiche" auch diese Lernbereiche aus.
 
-Wählen Sie den Link "Einschreiben", um Mitglied einer Gruppe zu werden. Abhängig von der Konfiguration können Sie sich entweder nur in eine Gruppe einschreiben, oder in mehrere gleichzeitig. Die Einschreibung bewirkt, dass nun rechts im Dropdown-Menü "Mein Kurs" die Links zu den entsprechenden Gruppen in denen Sie Mitglied sind, sichtbar werden.
+## Sicht der Teilnehmenden
 
-Bei einigen Gruppen ist die Anzahl Mitglieder limitiert. Ist die Gruppe voll, gibt eventuell eine Warteliste, je nach Konfiguration. Wenn der Gruppenadministrator das so eingestellt hat, rücken Sie automatisch nach, sobald sich ein Gruppenmitglied aus der Gruppe austrägt.
+Mit "Einschreiben" werden Sie Mitglied einer Gruppe. Je nach Konfiguration schreiben Sie sich in nur eine Gruppe oder in mehrere Gruppen ein. Nach der Einschreibung finden Sie Ihre Gruppen rechts im Menü "Mein Kurs".
 
-Oft können Sie sich am selben Ort, wo Sie sich eingeschrieben haben, wieder aus der Gruppe austragen. Sollte dies nicht der Fall sein, so hat der Gruppenadministrator das Austragen untersagt und Sie müssen ihn kontaktieren, wenn Sie sich aus Versehen eingeschrieben haben.
+Ist eine Gruppe voll, tragen Sie sich je nach Konfiguration der Gruppe auf die Warteliste ein. Ist bei der Gruppe das automatische Nachrücken eingeschaltet, rücken Sie in die Gruppe nach, sobald ein Mitglied die Gruppe verlässt.
+
+Ist das Austragen im Kursbaustein erlaubt, tragen Sie sich am selben Ort mit "Austragen" wieder aus. Fehlt "Austragen" und haben Sie sich versehentlich eingeschrieben, wenden Sie sich an die Besitzer:innen oder Betreuer:innen des Kurses.
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)
+
+**Weiterführend**<br>
+[Gruppen erstellen >](../groups/Create_Groups.de.md)<br>
+[Gruppenmitglied werden >](../groups/Group_Membership.de.md)<br>
+[Gruppe verlassen >](../groups/Leave_a_Group.de.md)
 
 [Zum Seitenanfang ^](#enrolment)

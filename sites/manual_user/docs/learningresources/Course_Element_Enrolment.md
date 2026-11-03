@@ -5,34 +5,41 @@
 Name | Enrolment
 ---------|----------
 Icon | :o_icon_o_en_icon:
-Available since | 
+Available since | Release 7.1 or earlier
 Functional group | Administration and organisation
 Purpose | self registration of participants in groups
 Assessable | no
 Specialty / Note |
 
 
-The course element "Enrolment" is used to let participants enrol in one or more OpenOlat groups. To do this, define in the "Configuration" tab in which and how many **groups** participants can enrol. You can also define the order of the groups in the selection list. If you have not yet created any groups or need more, you can do so directly in the "Configuration" tab by clicking on "Select" and "Create". Existing and newly created groups can be edited in the [member management](../learningresources/Members_management.md).
+With the course element "Enrolment" the participants enrol themselves in one or more groups of the course, for example in an exercise group. You then do not have to distribute the persons to the groups by hand.
 
-Use the field "**Allow multiple enrolments**" to optionally define whether participants can enrol in more than one group and, if so, how many.
+In the tab "Configuration", under "Learning groups", you define between which groups the participants choose. With "Select" you add existing groups, with "Create" you create new groups directly in the tab. With "Allow custom order" you determine the order of the groups in the list. You edit existing and newly created groups in the [member management](../learningresources/Members_management.md).
 
-In the field "**Delisting permitted**" you optionally define whether a participant who has already enrolled has the possibility to delist from a group again. In the group management you can determine while editing a group if there should be a waiting list and if automatic moving up from that list should be possible.
+With "Allow multiple enrolments" you define whether participants may enrol in several groups. Under "Number of groups" you then enter how many.
 
-!!! info "Important"
+With "Delisting permitted" you define whether enrolled participants can delist from a group again. Whether a group keeps a waiting list and whether persons move up from the waiting list automatically, you define in the group itself: `Group > Administration > Description`, options "Waiting list" and "Moving up automatically".
 
-    If you have previously created one or more learning areas under `Course > Administration > Learning areas` and assigned groups to them, you can also access these learning areas in the "Configuration" tab of the enrolment course element.
+!!! tip "Tip"
+
+    If you have created learning areas under `Course > Administration > Learning areas` and assigned groups to them, you can also select these learning areas in the tab "Configuration" under "Learning areas".
 
 ## Participant view
 
-Select the "Enrol" link to become a member of a group. Depending on the configuration, you can either enrol in only one group, or in several at the same time. Enrolling causes the links to the corresponding groups you are a member of to become visible in the "My Course" drop-down menu on the right.
+With "Enrol" you become a member of a group. Depending on the configuration, you enrol in only one group or in several groups. After enrolling, you find your groups on the right in the menu "My course".
 
-For some groups the number of members is limited. If the group is full, there may be a waiting list, depending on the configuration. If the group administrator has set it this way, you automatically move up as soon as a group member unsubscribes from the group.
+If a group is full, you put yourself on the waiting list, depending on the configuration of the group. If moving up automatically is switched on for the group, you move up into the group as soon as a member leaves the group.
 
-Often you can delist from the group at the same place where you enrolled. If this is not the case, the group administrator has prohibited delisting and you must contact them if you have enrolled by mistake.
+If delisting is permitted in the course element, you delist at the same place with "Delist". If "Delist" is missing and you have enrolled by mistake, contact the owners or coaches of the course.
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
 [Member management >](../learningresources/Members_management.md)
+
+**Further reading**<br>
+[Create Groups >](../groups/Create_Groups.md)<br>
+[Become a group member >](../groups/Group_Membership.md)<br>
+[Leave a group >](../groups/Leave_a_Group.md)
 
 [To the top of the page ^](#enrolment)

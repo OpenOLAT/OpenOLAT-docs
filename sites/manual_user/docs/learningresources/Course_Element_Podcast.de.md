@@ -6,37 +6,39 @@
 Name | Podcast
 ---------|----------
 Icon | :o_icon_o_podcast_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Bereitstellung von abonnierbaren Audio- und Video-Episoden
 Bewertbar | nein
 Spezialität / Hinweis |
 
-Der Kursbaustein "Podcast" kann entweder dazu verwendet werden selbst erstellte Audio- und Videodateien chronologisch zu veröffentlichen und in einem Kursbaustein bereitzustellen oder externe Podcast-Episoden einfach in OpenOlat einzubinden. 
+Mit dem Kursbaustein "Podcast" stellen Sie Ihren Teilnehmenden Audio- und Videobeiträge im Kurs bereit. Sie veröffentlichen damit selbst erstellte Audio- und Videodateien in chronologischer Reihenfolge oder binden die Episoden eines externen Podcasts in OpenOlat ein.
 
-Ein Podcast stellt Informationen in Form von Audio- oder Videodateien bereit. Diese so genannten Episoden können  einerseits direkt in OpenOlat angehört oder betrachtet werden, andererseits können Lernende Podcasts abonnieren, die Episoden in lokale Portale wie iTunes laden und auf Ihr mobiles Endgerät kopieren. Alle Episoden können von allen kommentiert werden.
+Die einzelnen Audio- oder Videodateien eines Podcasts heissen Episoden. Teilnehmende hören oder sehen die Episoden direkt in OpenOlat an. Sie können den Podcast auch abonnieren, etwa über RSS oder iTunes, und die Episoden auf ihr mobiles Endgerät laden.
 
-Auch ist es möglich den Kursbaustein so zu konfigurieren, dass Teilnehmende gemeinsam den Podcast mit Episoden ausgestalten können.
+Sie können den Kursbaustein auch so konfigurieren, dass Teilnehmende gemeinsam Episoden zum Podcast beitragen.
 
 ## Episode erstellen oder bearbeiten
 
-Personen die berechtigt sind neue Episoden zu erstellen (vergl. [Podcast konfigurieren](../learningresources/Podcast_Configuration.de.md)) sehen den Button "Episode hinzufügen" und können so ihren Audio- oder Videobeitrag in den Podcast hochladen. 
+Wer neue Episoden erstellen darf, legen Sie in der Konfiguration des Podcasts fest, siehe [Podcast konfigurieren](../learningresources/Podcast_Configuration.de.md). Personen mit diesem Recht sehen den Button "Episode hinzufügen" und laden damit ihren Audio- oder Videobeitrag in den Podcast hoch.
 
-Eine Episode enthält immer genau _eine_ Audio- oder Video-Datei. Wählen Sie diese auf ihrem Computer aus, damit sie danach hochgeladen werden kann. Dies kann je nach Grösse der Datei eine gewisse Zeit dauern. Beachten Sie, dass nur die Formate FLV, MP3, MP4, M4V, M4A und AAC erlaubt sind.
+Eine Episode enthält immer genau _eine_ Audio- oder Videodatei. Wählen Sie die Datei auf Ihrem Computer aus, OpenOlat lädt sie danach hoch. Je nach Grösse der Datei dauert das eine Weile. Erlaubt sind die Formate FLV, MP3, MP4, M4V, M4A und AAC.
 
-Das genaue Vorgehen wird in Schritt 4 der Seite [Wie erstelle ich einen Podcast?](../../manual_how-to/podcast/podcast.de.md) beschrieben. 
+Das genaue Vorgehen beschreibt Schritt 4 der Anleitung [Wie erstelle ich einen Podcast?](../../manual_how-to/podcast/podcast.de.md)
 
 ## Episoden kommentieren
 
-Alle Teilnehmenden haben das Recht Episoden zu kommentieren und mit 1-5 Sternen bewerten. Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare".
+Alle angemeldeten Personen, die den Podcast sehen, kommentieren die Episoden und bewerten sie mit 1 bis 5 Sternen. Gäste lesen die Kommentare nur. Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare".
 
 !!! tip "Tipp"
 
-    Abonnieren Sie den RSS-Feed des Podcast, um keine neuen Episoden zu verpassen.
+    Abonnieren Sie den Podcast, um keine neuen Episoden zu verpassen.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Podcast konfigurieren (als Kursbesitzer:in/Autor:in) >](../learningresources/Podcast_Configuration.de.md)<br>
-[Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)
+[Podcast konfigurieren >](../learningresources/Podcast_Configuration.de.md)<br>
+[Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
+[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbaustein "Blog" >](Course_Element_Blog.de.md)
 
 [Zum Seitenanfang ^](#podcast)

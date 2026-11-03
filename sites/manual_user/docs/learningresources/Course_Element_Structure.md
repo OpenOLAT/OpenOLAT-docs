@@ -5,17 +5,17 @@
 Name | Structure
 ---------|----------
 Icon | :o_icon_o_st_icon:
-Available since | Release 1
+Available since | Release 7.1 or earlier
 Functional group | Knowledge transfer
 Purpose | Structuring of the menu into chapters, summary of the assessments of freely selected assessable course elements of the course
 Assessable | yes
 Specialty / Note | Generation of automatic overviews
 
-Use this course element to organize and structure your course elements and/or to clearly separate areas. For example, create an area for communication, one for course activities and one for content.
+Use this course element to organize and structure your course elements and/or to clearly separate areas. For example, create one area each for communication, for course activities and for content.
 
-The course element Structure offers, among other things, an automatic overview of course elements subordinate to it with their short titles, titles and descriptions. The automatic overview is also linked to an automatically generated performance overview with points, status and link to the performance record, provided these have been activated for the course element or the course in general. 
+The course element Structure offers, among other things, an automatic overview of all course elements subordinate to it with their short titles, titles and descriptions. The automatic overview also includes a performance overview with points, status and link to the evidence of achievement, provided these are activated for the course element or the course.
 
-The owners of the course define the settings of the course element in the course editor: `Course > Administration > Course editor`. Coaches only reach the course editor if they have been granted the "Course editor" right in the course.
+The owners of the course define the settings of the course element in the course editor: `Course > Administration > Course editor`. Coaches only reach the course editor if they are granted the "Course editor" right in the course.
 
 ![Performance overview with the score achieved and a link to the evidence of achievement, below it the status per course element](assets/Leistungsuebersicht_Struktur_Lernpfad1.png){ class="shadow lightbox" title="Automatic overview of the structure element in the learning path course" }
 
@@ -46,11 +46,11 @@ In the course editor, the tabs of the structure element appear in this order:
 
 #### Tab Overview {: #overview}
 
-You define the central settings in the "Overview" tab. You choose between four display modes for the element: an overview generated automatically by OpenOlat, your own HTML page or the first subordinate course element.
+You define the central settings in the "Overview" tab. You choose between four display modes for the element: the automatic overview, the automatic overview with preview, your own HTML page or the first visible subordinate course element.
 
-* **Automatic overview** generates a list of the subordinate course elements. You can additionally select whether all or only certain course elements are displayed and whether the display should be in one or two columns.
-* **Automatically generated overview incl. preview**  also generates a directory of the subordinate course elements, but also displays a preview for some course elements. The exact preview varies depending on the course element. The configuration options for this setting are similar to those for the automatic overview. Furthermore, it can be set whether the preview refers to all course elements or only to structure elements. However, the user does not see a preview for course elements to which he does not (yet) have access.
-* **Custom HTML page** allows you to create your own information page instead of the automatically generated overview. Therefore, you can select an HTML page from the storage folder, create a new HTML file or import a suitable file. You then add text, images etc. in the OpenOlat HTML editor in a similar way to the HTML page course element. In addition, the "Display content" tab appears, where you define further settings for HTML pages.
+* **Automatic overview** generates a list of the subordinate course elements. You additionally select whether all or only certain course elements appear and whether the display is in one or two columns.
+* **Automatic overview incl. preview** also generates a directory of the subordinate course elements, but additionally shows a preview for some course elements. What the preview looks like depends on the course element. The settings are similar to those of the automatic overview. You also define whether the preview applies to all course elements or only to structure elements. However, participants do not see a preview for course elements to which they do not (yet) have access.
+* **Your HTML page** allows you to create your own information page instead of the automatically generated overview. Therefore, you can select an HTML page from the storage folder, create a new HTML file or import a suitable file. You then add text, images etc. in the OpenOlat HTML editor in a similar way to the HTML page course element. In addition, the "Display content" tab appears, where you define further settings for HTML pages.
 * **No overview, activate first visible child node** displays the first visible subordinate course element instead of an overview.
 
 !!! info "Important"
@@ -97,7 +97,7 @@ Under "Configuration" you define what the structure element outputs: "Score", "P
 
 ##### Score calculation {: #score_calculation}
 
-With "Sum", OpenOlat adds up the points of the selected course elements, with "Average" it calculates the average value. The average makes sense, for example, if all course elements have the same maximum number of points. Under "Total score of", an overview of all assessable course elements of your course appears. Select all or specific course elements. Course elements that do not (yet) contain an assessment are not taken into account in the calculation. The calculated value is displayed to the participants after the assessment under "Score".
+With "Sum", OpenOlat adds up the points of the selected course elements, with "Average" it calculates the average value. The average makes sense, for example, if all course elements have the same maximum number of points. Under "Total score of", an overview of all assessable course elements of your course appears. Select all or specific course elements. Course elements that do not (yet) contain an assessment are not taken into account in the calculation. OpenOlat shows the calculated value to the participants after the assessment under "Score".
 
 ##### Calculation "Passed" {: #passed_calculation}
 
@@ -118,10 +118,10 @@ It is also possible to calculate "Not passed". The selection list offers two var
 
 ![Selection list Calculation "Not passed" under "Passed", the variant after the end date of the course is selected](assets/course_element_structure_failed_calculation_v1_en.png){ class="shadow lightbox" title="Tab Score of the structure element, area Passed · 2026.11.02" }
 
-  * As long as the conditions for passed are not reached, the structure is shown as "Failed". 
-  * As long as the conditions for passed are not reached _and_ the end date of the course is reached, the structure is shown as "Failed". If the conditions for "passed" have already been fulfilled before the end of the course, passed is already displayed during the course duration.
+  * OpenOlat shows "Failed" until the requirements for passing are fulfilled.
+  * OpenOlat only shows "Failed" when the requirements for passing are not fulfilled _and_ the end date of the course is reached. If the conditions for "Passed" are already fulfilled before the end of the course, OpenOlat already shows "Passed" during the course duration.
 
-If certificates of achievement are to be issued for a course, it is necessary to adjust the settings in the "Score" tab accordingly.
+If certificates of achievement are to be issued for a course, adjust the settings in the "Score" tab.
 
 For participants, the performance overview is as follows:
 
@@ -154,7 +154,7 @@ Coaches therefore see a consistent state directly after publishing. The particip
 
 #### Tab Access {: #access}
 
-The course element "Structure" and thus its subordinate course elements can be protected with a password in conventional courses. To do so, tick the box "Password" and enter the code you want.
+In conventional courses, you protect the course element "Structure" and thus its subordinate course elements with a password. To do so, tick the box "Password" and enter the code you want.
 
 !!! info "Important"
 

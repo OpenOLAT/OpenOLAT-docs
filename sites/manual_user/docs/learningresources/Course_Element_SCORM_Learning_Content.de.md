@@ -5,6 +5,7 @@
 Name | SCORM 1.2
 ---------|----------
 Icon | :o_icon_o_scorm_icon:
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Integration von SCORM-Paketen, die mit anderen Autorenwerkzeugen erstellt wurden
 Bewertbar | ja
@@ -39,7 +40,7 @@ Rufen Sie den Kursbaustein im Kurs als Besitzer:in auf, haben Sie im Vergleich z
 
 ## Bearbeitung im Editor {: #editor}
 
-Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM 1.2" wie alle anderen Kursbausteine im Kurseditor: `Kurs > Administration > Kurseditor`. Anschliessend konfigurieren Sie ihn in den Tabs.
+Als Besitzer:in des Kurses erstellen und bearbeiten Sie den Kursbaustein "SCORM 1.2" wie alle anderen Kursbausteine im Kurseditor: `Kurs > Administration > Kurseditor`. Anschliessend konfigurieren Sie ihn in den Tabs.
 
 ### Tab "Lerninhalt" {: #editor_tab_learning_content}
 
@@ -51,7 +52,7 @@ Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Ein
 
 #### SCORM {: #scorm }
 
-Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Auswählen oder importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im "Autorenbereich" importiert werden. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Feld "SCORM" die Meldung _Kein SCORM 1.2 ausgewählt_.
+Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Auswählen oder importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete importieren Sie nicht nur im Kurseditor, sondern auch im Autorenbereich. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Feld "SCORM" die Meldung _Kein SCORM 1.2 ausgewählt_.
 
 !!! note "Importieren"
     Beschreibung des Imports von Lernressourcen im Autorenbereich.<br>
@@ -64,10 +65,10 @@ Wenn Sie schon einen SCORM-Lerninhalt hinzugefügt haben, erscheint dessen Name 
 Sie haben 4 Varianten zur Auswahl:
 
 **Modul innerhalb OpenOlat anzeigen:**<br>
-Zusätzlich zum SCORM-Modul wird oben die Hauptnavigation angezeigt.
+OpenOlat zeigt zusätzlich zum SCORM-Modul oben die Hauptnavigation an.
 
 **Nur Modul anzeigen:**<br>
-Ist diese Variante gewählt, wird die Hauptnavigation mit dem Öffnen des Kursbausteins ausgeblendet. Stattdessen wird das SCORM Modul im ganzen Browserfenster dargestellt.
+OpenOlat blendet beim Öffnen des Kursbausteins die Hauptnavigation aus und zeigt das SCORM-Modul im ganzen Browserfenster.
 
 **Modul im Vollbildmodus anzeigen:**<br>
 \- Das Modul nimmt den gesamten Platz ein<br>
@@ -84,7 +85,7 @@ Bei den beiden Vollbild-Varianten blendet OpenOlat die Felder "Modul-Menü anzei
 
 #### Modul-Menü anzeigen {: #show_module_menu }
 
-Ist diese Checkbox markiert, zeigt OpenOlat links das Menü des SCORM-Pakets an. Dieses Menü listet die Kapitel des Pakets, die "Sharable Content Objects" (SCO), und ersetzt das Kursmenü, solange der SCORM-Inhalt geöffnet ist. Viele SCORM-Inhalte bringen eine eigene Navigation mit. In diesem Fall können Sie das Modul-Menü ausblenden, damit der SCORM-Inhalt mehr Platz erhält. Wird der SCORM-Inhalt verlassen (Klick auf "Zurück"), erscheint wieder das Kursmenü.
+Ist diese Checkbox markiert, zeigt OpenOlat links das Menü des SCORM-Pakets an. Dieses Menü listet die Kapitel des Pakets, die "Sharable Content Objects" (SCO), und ersetzt das Kursmenü, solange der SCORM-Inhalt geöffnet ist. Viele SCORM-Inhalte bringen eine eigene Navigation mit. In diesem Fall können Sie das Modul-Menü ausblenden, damit der SCORM-Inhalt mehr Platz erhält. Verlassen die Teilnehmenden den SCORM-Inhalt mit "Zurück", erscheint wieder das Kursmenü.
 
 #### Modul-Navigationsbuttons anzeigen {: #show_module_navigation_buttons }
 
@@ -92,7 +93,7 @@ Besteht ein SCORM-Lerninhalt aus mehreren SCO, zeigt OpenOlat mit dieser Option 
 
 #### Inhalt automatisch starten {: #skip_launch_page }
 
-Mit dieser Option startet der SCORM-Inhalt sofort, sobald im Kursmenü der Kursbaustein mit dem SCORM-Inhalt ausgewählt wird. Wenn Sie diese Option nicht aktivieren, wird stattdessen eine Startseite angezeigt.
+Mit dieser Option startet der SCORM-Inhalt sofort, sobald Teilnehmende den Kursbaustein im Kursmenü wählen. Ohne diese Option zeigt OpenOlat zuerst eine Startseite.
 
 #### Modul automatisch schliessen wenn beendet {: #close_module_on_finish }
 
@@ -101,21 +102,21 @@ OpenOlat schliesst den SCORM-Lerninhalt automatisch, sobald er beendet ist, und 
 #### Resultat aus SCORM übertragen {: #transfer_score }
 
 Korrekt erstellte SCORM-Pakete können bestimmte Parameter (Punkte, Bestanden, ...) an das LMS übergeben. Mit dieser Option übernimmt das OpenOlat-Bewertungssystem die Resultate aus dem SCORM-Paket.<br>
-**Nicht übertragen:** Evtl. übergebene Werte aus dem SCORM-Paket werden in OpenOlat nicht berücksichtigt.<br>
-**Score übertragen:** Die vom SCORM-Paket übergebenen Punkte werden in die Punkteauswertung von OpenOlat übernommen.<br>
-**Passed übertragen:** Es wird nur ein vom SCORM-Paket gemeldetes "Bestanden" oder "Nicht bestanden" von OpenOlat übernommen, eine dafür zugrunde liegende Punktezahl ist nicht relevant. Die Felder für die maximale und die notwendige Punktzahl erscheinen bei dieser Option deshalb nicht.
+**Nicht übertragen:** OpenOlat berücksichtigt keine Werte aus dem SCORM-Paket.<br>
+**Score übertragen:** OpenOlat übernimmt die Punkte aus dem SCORM-Paket in seine Punkteauswertung.<br>
+**Passed übertragen:** OpenOlat übernimmt nur das vom SCORM-Paket gemeldete "Bestanden" oder "Nicht bestanden", die Punktzahl dahinter zählt nicht. Die Felder für die maximale und die notwendige Punktzahl erscheinen bei dieser Option deshalb nicht.
 
 #### Maximal erreichbare Punkte {: #maximum_score }
 
-Wird ein Score (eine Punktzahl) an OpenOlat übertragen, kann hier ein Maximum angegeben werden. Diese Begrenzung ist erforderlich, wenn im SCORM-Lerninhalt z.B. sehr viel mehr Punkte vergeben werden, als im OpenOlat-Kurs. Wenn dann die Option "Bei Kurs-Bewertung berücksichtigen" gewählt ist, könnte der Kursbaustein "SCORM 1.2" unverhältnismässig hohes Gewicht bekommen.
+Überträgt das SCORM-Paket einen Score (eine Punktzahl) an OpenOlat, geben Sie hier ein Maximum an. Diese Begrenzung braucht es, wenn der SCORM-Lerninhalt zum Beispiel sehr viel mehr Punkte vergibt als die übrigen Kursbausteine des Kurses. Ist dann die Option "Bei Kurs-Bewertung berücksichtigen" gewählt, bekäme der Kursbaustein "SCORM 1.2" sonst ein unverhältnismässig hohes Gewicht.
 
 #### Notwendige Punktzahl für 'bestanden' {: #score_needed_to_pass }
 
-Wird ein Score (eine Punktzahl) an OpenOlat übertragen, kann hier mit einem ganzzahligen Wert festgelegt werden, wie viele Punkte erreicht sein müssen, damit der Kursbaustein als bestanden gilt.
+Überträgt das SCORM-Paket einen Score (eine Punktzahl) an OpenOlat, legen Sie hier mit einem ganzzahligen Wert fest, wie viele Punkte für das Bestehen des Kursbausteins nötig sind.
 
 #### Reduzieren von Punkten bei erneutem Versuch verhindern {: #prevent_decreasing_score }
 
-Wird der Kursbaustein mehrfach aufgerufen, werden einmal dort erreichte Punkte nicht zurückgesetzt, wenn bei einem neuen Versuch weniger Punkte erreicht werden. Ein erneuter Versuch kann also ein bereits bestehendes Resultat nicht verschlechtern. Das Feld erscheint nur, wenn unter "Resultat aus SCORM übertragen" die Option "Score übertragen" gewählt ist.
+Ruft eine Person den Kursbaustein mehrfach auf, setzt OpenOlat einmal erreichte Punkte nicht zurück, wenn sie bei einem neuen Versuch weniger Punkte erreicht. Ein erneuter Versuch verschlechtert also ein bestehendes Resultat nicht. Das Feld erscheint nur, wenn unter "Resultat aus SCORM übertragen" die Option "Score übertragen" gewählt ist.
 
 #### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment }
 
@@ -123,11 +124,11 @@ Dieser Schalter bestimmt, ob das Bestehen des Kursbausteins und die eventuell hi
 
 #### Lösungsversuche nur zählen, wenn Punkte übertragen werden {: #count_attempts_if_score_transferred }
 
-Die Lösungsversuche werden für Benutzer:innen nur dann gezählt, wenn auch Punkte vom SCORM-Paket an OpenOlat übertragen werden. Je nachdem, wann der SCORM-Lerninhalt die Punkte liefert (z.B. regelmässig oder nur am Ende der Bearbeitung), greift die Option bereits, wenn Benutzer:innen einen Teil im SCORM-Lerninhalt bearbeitet haben, oder erst wenn der SCORM-Lerninhalt geschlossen wird.
+OpenOlat zählt die Lösungsversuche von Benutzer:innen nur dann, wenn das SCORM-Paket auch Punkte an OpenOlat überträgt. Je nachdem, wann der SCORM-Lerninhalt die Punkte liefert (z.B. regelmässig oder nur am Ende der Bearbeitung), greift die Option bereits, wenn Benutzer:innen einen Teil im SCORM-Lerninhalt bearbeitet haben, oder erst wenn der SCORM-Lerninhalt geschlossen wird.
 
 #### Maximale Anzahl Lösungsversuche {: #max_attempts }
 
-Sie können in einem Drop-Down-Menü angeben, wie viele Lösungsversuche für diesen SCORM-Kursbaustein zugelassen sind (unbegrenzt oder Werte zwischen 1 und 20).
+Im Drop-down-Menü legen Sie fest, wie viele Lösungsversuche für diesen SCORM-Kursbaustein zugelassen sind (unbegrenzt oder Werte zwischen 1 und 20).
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -159,7 +160,7 @@ Wählen Sie diese Option, damit OpenOlat Glossarbegriffe im Inhalt hervorheben k
 
 #### Höhe Anzeigefläche {: #display_height }
 
-Mit diesem Drop-Down-Menü können Sie die Höhe der Fläche zur Inhaltsanzeige bestimmen. Sie haben die Möglichkeit, sie via "Automatisch" auf die jeweilige Fensterhöhe zu setzen oder Sie weisen einen bestimmten Wert zu. Die Einstellung "Automatisch" funktioniert besser, wenn JavaScript eingebunden ist.
+In diesem Drop-down-Menü bestimmen Sie die Höhe der Fläche zur Inhaltsanzeige: "Automatisch" passt sie an die jeweilige Fensterhöhe an, oder Sie wählen einen festen Wert. Die Einstellung "Automatisch" funktioniert besser, wenn JavaScript eingebunden ist.
 
 #### Layout anpassen {: #adapt_layout }
 
@@ -167,15 +168,15 @@ Wählen Sie die Option "OpenOlat Stylesheets", um das in OpenOlat und im Kurs de
 
 #### Zeichensatz Inhalt {: #content_character_set }
 
-OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Wenn die Option "Automatisch" nicht zu der gewünschten Anzeige führt, kann die Kodierung des Inhalts anhand eines vordefinierten Zeichensatzes konfiguriert werden. (Ist keine Kodierung vorhanden, wird per Default der Zeichensatz ISO-8859-1 verwendet).
+OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Führt die Option "Automatisch" nicht zur gewünschten Anzeige, wählen Sie für den Inhalt einen vordefinierten Zeichensatz. Ist keine Kodierung angegeben, verwendet OpenOlat standardmässig den Zeichensatz ISO-8859-1.
 
 #### Zeichensatz Javascript {: #javascript_character_set }
 
-Erlaubt die Kodierung des Javascript-Codes anhand eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz für Inhalt und Javascript verwendet).
+Hier wählen Sie einen vordefinierten Zeichensatz für den Javascript-Code. Standardmässig gilt derselbe Zeichensatz wie für den Inhalt.
 
 !!! note "Hinweis"
 
-    SCORM-Lerninhalte werden normalerweise mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, zeigt diese Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren.
+    OpenOlat zeigt SCORM-Lerninhalte normalerweise mit einer Startseite an. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, zeigt diese Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren.
 
 [Zum Seitenanfang ^](#course_element_scorm)
 
@@ -195,7 +196,7 @@ Im Tab "HighScore" aktivieren und konfigurieren Sie die Rangliste für diesen Ku
 
 ### Tab "Erinnerungen" [:octicons-tag-16:{ title="ab Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447) {: #editor_tab_reminders}
 
-Kursbesitzer:innen erstellen Erinnerungen im Kurseditor oder direkt im Kurs: Rufen sie den Kursbaustein ausserhalb des Editors auf, steht dort ebenfalls der Tab "Erinnerungen" zur Verfügung.
+Besitzer:innen des Kurses erstellen Erinnerungen im Kurseditor oder direkt im Kurs: Rufen sie den Kursbaustein ausserhalb des Editors auf, steht dort ebenfalls der Tab "Erinnerungen" zur Verfügung.
 
 Über beide Wege zeigen Sie ausserdem eine Vorschau und alle versendeten Erinnerungen an. Erfasste Erinnerungen erscheinen in einer Liste. Ein Klick auf das Plus-Zeichen am Anfang einer Zeile zeigt die Bedingungen der Erinnerung. In der aufgeklappten Zeile zeigt "E-Mail-Benachrichtigung anzeigen" die E-Mail, die versendet wird. Mit "Erinnerung jetzt senden" lösen Sie den Versand von Hand aus, ohne auf den nächsten regulären Versand zu warten.
 
@@ -209,7 +210,7 @@ Kursbesitzer:innen erstellen Erinnerungen im Kurseditor oder direkt im Kurs: Ruf
 
 ### Tab "Badges" [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #badges}
 
-Ist in den Kurseinstellungen die Vergabe von Badges aktiviert, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein. Die Vergabe aktivieren Kursbesitzer:innen unter:<br>
+Ist in den Kurseinstellungen die Vergabe von Badges aktiviert, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein. Die Vergabe aktivieren Besitzer:innen des Kurses unter:<br>
 `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"`
 
 [Zum Seitenanfang ^](#course_element_scorm)

@@ -5,7 +5,7 @@
 Name | vitero
 ---------|----------
 Icon | :o_icon_o_vitero_icon:
-Available since | 
+Available since | Release 8.0 (2012)
 Functional group | Communication and collaboration
 Purpose | Integration of the vitero web conferencing software
 Assessable | no
@@ -15,9 +15,9 @@ Specialty / Note | Commercial software, licence and server hosting required
 
 ## Tool-specific
 
-With the course element "vitero" you can integrate the vitero system for web conferencing, e-collaboration, live e-learning and language learning into your course. vitero (virtual team room) enables you to create appointments for up to 12 participants plus moderator.
+With the course element "vitero", you integrate the vitero system for web conferencing, e-collaboration, live e-learning and language learning into your course. vitero (virtual team room) provides virtual team rooms for which you create meetings in the course. The licence of the connected vitero server determines which room sizes are available.
 
-The virtual meeting room allows participants to communicate via text chat, audio and video as well as document and desktop sharing. The vitero system can be used for virtual team sessions as well as for frontal lectures. It supports a role model with the three temporary roles moderator, co-moderator and participant, and reflects the OpenOlat roles course administrator, coach and participant.
+In the virtual meeting room, participants communicate via text chat, audio and video and share documents and the desktop. The vitero system is suitable for virtual team sessions, but also, for example, for frontal lectures. Owners and coaches of the course whom you enter in a meeting receive the role "Team leader" in vitero.
 
 !!! note "Link to further information"
 
@@ -28,28 +28,29 @@ The virtual meeting room allows participants to communicate via text chat, audio
 
 ![Meeting administration with the buttons Create meeting and Team room utilisation](assets/Vitero_EN.png){ class="shadow lightbox" title="Configuration tab in the course editor" }
 
-You can enter your vitero dates in the course editor or in the course view. Select the button "**Create meeting**". Before you do this, you can use the "**Team room utilization**" button to view the current utilization of the available team rooms in order to find a free appointment.
+You create your vitero meetings in the course editor in the tab "Configuration" or in the course view. With "Team room utilisation", you first see how busy the available team rooms are and thus find a free slot. Then click on "Create meeting".
 
-## Configuration in the course view {: #configuration-in-the-course-run-closed-editor}
+## Create meeting {: #configuration-in-the-course-run-closed-editor}
 
 ![Meeting fields, start and end buffer, room size and option "User can sign in themselves"](assets/Vitero_1_EN.png){ class="shadow lightbox" title="Edit dialog in the course element vitero" }
 
-Now enter the start and end date of the appointment and select the size of the room. With "**Start buffer**" you can define how many minutes before the start date the room can be entered. With "**End buffer**" you define how many minutes after end of appointment the meeting will be closed definitively.
+Under "Start" and "End", enter the start and end date of the meeting and select the "Room size". Under "Start buffer (minutes)", you define how many minutes before the start the room can be entered. Under "End buffer (minutes)", you define how many minutes after the end vitero closes the meeting definitively.
 
-With the option "**User can sign in themselves**" you enable all participants who have access to the course element to enter themselves in this appointment independently. This is possible as long as there are still places available. If this option is switched off, only course owners can enter participants in the meetings.
+With the option "User can sign in themselves", all participants with access to the course element enter themselves in the meeting, as long as places are available. If the option is switched off, only owners of the course enter participants in the meetings.
 
 !!! info "Important"
 
-    For participants, meetings are only visible if they are entered in this appointment, or if the appointment has been configured for free registration.
+    For participants, meetings are only visible if they are entered in this meeting or if the meeting carries the option "User can sign in themselves".
 
 !!! warning "Attention"
 
-    If a meeting has been created, it cannot be changed after saving the form.
+    Once a meeting has been created, it cannot be changed after saving the form.
 
 ## Further information {: #further_information}
 
-**Mentioned on this page**<br>
-[vitero GmbH](http://www.vitero.de/)
+[vitero GmbH](http://www.vitero.de/)<br>
+[Types of Course Elements >](Course_Elements.md)<br>
+[Course Element "BigBlueButton" >](bigbluebutton/index.md)
 
 [To the top of the page ^](#vitero)
 

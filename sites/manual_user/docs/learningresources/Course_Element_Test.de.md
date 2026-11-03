@@ -6,6 +6,7 @@
 Name | Test
 ---------|----------
 Icon | :o_icon_o_iqtest_icon:
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs
 Bewertbar | ja
@@ -13,29 +14,29 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz verwendet und umfasst diverse Frage-Typen. 
+Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in Ihren Kurs ein. Ein Test dient im Kurs der Leistungsüberprüfung oder als Quiz und umfasst verschiedene Fragetypen.
 
-Je nach Fragetyp können eine oder mehrere Antworten angekreuzt, Elemente per drag & drop verschoben, Texte und/oder Zahlen eingefügt, Dateien hinzugefügt, Markierungen oder (sehr einfache) Zeichnungen erstellt werden. Je nach Fragetyp wertet OpenOlat die Antworten automatisch aus, oder Betreuer:innen korrigieren sie manuell.
+Je nach Fragetyp kreuzen Teilnehmende eine oder mehrere Antworten an, verschieben Elemente per Drag-and-drop, geben Texte oder Zahlen ein, fügen Dateien hinzu oder erstellen Markierungen und einfache Zeichnungen. Je nach Fragetyp wertet OpenOlat die Antworten automatisch aus, oder Betreuer:innen korrigieren sie manuell.
 
 !!! note "Fragetypen"
     Übersicht aller verfügbaren Fragetypen.<br>
     [Fragetypen](../learningresources/Test_question_types.de.md)
 
-Pro OpenOlat Kurs können auch mehrere Tests für unterschiedliche Zwecke zum Einsatz kommen. Die Resultate der Teilnehmenden werden personalisiert aufgezeichnet.
+Ein Kurs kann auch mehrere Tests für unterschiedliche Zwecke enthalten. OpenOlat zeichnet die Resultate der Teilnehmenden personalisiert auf.
 
-OpenOlat verwendet das IMS-QTI 2.1 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt. 
+OpenOlat verwendet für Tests das Format IMS QTI 2.1. Damit lassen sich Tests mit anderen Test-Systemen und Learning Management Systemen austauschen, die diesen Standard ebenfalls unterstützen.
 
 Die zwei zentralen Tabs, in denen Sie die Einstellungen für Ihren Test festlegen, sind "Test-Konfiguration" und "Optionen".
 
 
 !!! warning "Achtung"
 
-    Tauschen Sie den Test im Kursbaustein aus, werden laufende und pausierte Testläufe der Teilnehmenden eingezogen und als ungültig markiert. Was mit beendeten Testläufen und bestehenden Bewertungen geschieht, beschreibt der Abschnitt [Änderungen an Tests und Selbsttests](#changes).
+    Tauschen Sie den Test im Kursbaustein aus, zieht OpenOlat laufende und pausierte Testläufe der Teilnehmenden ein und markiert sie als ungültig. Was mit beendeten Testläufen und bestehenden Bewertungen geschieht, beschreibt der Abschnitt [Änderungen an Tests und Selbsttests](#changes).
 
 
 !!! note "Hinweis"
 
-    In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: "Tests" und ["Selbsttests"](../learningresources/Course_Element_Self_Test.de.md). Im Gegensatz zum Test speichert der Selbsttest die Testresultate anonymisiert. Selbsttests eignen sich für Übungszwecke und können unlimitiert absolviert werden. Auch werden bei Selbsttests die Ergebnisse nach Beenden des Tests automatisch angezeigt.
+    In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: "Test" und ["Selbsttest"](../learningresources/Course_Element_Self_Test.de.md). Im Gegensatz zum Test speichert der Selbsttest die Testresultate anonymisiert. Selbsttests eignen sich für Übungszwecke, und Teilnehmende absolvieren sie beliebig oft. Zudem zeigt OpenOlat bei Selbsttests die Ergebnisse nach dem Beenden automatisch an.
 
     Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der Tests.
 
@@ -49,7 +50,7 @@ Weitere Informationen zur Lernressource Test: [Tests erstellen](../learningresou
 
 ## Testkonfiguration {: #config}
 
-Den Kurseditor öffnen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen sowie Personen mit dem Recht "Kurseditor". Öffnen Sie den Kurs, gehen Sie in den Kurseditor und fügen Sie einen Kursbaustein "Test" hinzu bzw. wählen Sie einen bereits hinzugefügten Kursbaustein Test. Sie sehen nun die folgenden Tabs:
+Den Kurseditor öffnen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen sowie Personen mit dem Recht "Kurseditor". Öffnen Sie den Kurs, gehen Sie in den Kurseditor und fügen Sie einen Kursbaustein "Test" hinzu oder wählen Sie einen bereits hinzugefügten Kursbaustein "Test". Sie sehen nun die folgenden Tabs:
 
 ![Zehn Tabs zur Konfiguration eines Kursbausteins Test, von Titel und Beschreibung bis Erinnerungen, der Tab Korrektor:innen ausgegraut](assets/course_element_test_editor_tabs_v1_de.png){ class="shadow lightbox" title="Kursbaustein Test im Kurseditor · 2026.10.01" }
 
@@ -59,13 +60,13 @@ Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen g
 
 ### Tab "Lernpfad" [:octicons-tag-16:{ title="ab Release 15.0 (OO-4206)" }](https://track.frentix.com/issue/OO-4206) {: #tab_learning_path}
 
-Im Tab Lernpfad legen Sie unter "Durchführung" fest, ob der Test im Lernpfad Kurs "Obligatorisch" oder "Freiwillig" ist oder ob der Kursbaustein gar nicht angezeigt werden soll ("Ausgenommen"). Mit "Ausnahmen einschalten" gilt für bestimmte Personen oder Gruppen eine andere Durchführung. Ferner können ein "Freigabedatum", ein Datum unter "Zu bearbeiten bis" sowie die voraussichtliche "Bearbeitungszeit (Minuten)" definiert werden, mit "Relatives Datum" auch relativ zu einem Ereignis wie dem ersten Kursbesuch. Die Felder dieses Tabs beschreibt die Seite [Lernpfadkurs - Kurseditor](Learning_path_course_Course_editor.de.md).
+Im Tab Lernpfad legen Sie unter "Durchführung" fest, ob der Test im Lernpfadkurs "Obligatorisch" oder "Freiwillig" ist oder ob der Kursbaustein gar nicht erscheint ("Ausgenommen"). Mit "Ausnahmen einschalten" gilt für bestimmte Personen oder Gruppen eine andere Durchführung. Zudem legen Sie ein "Freigabedatum", ein Datum unter "Zu bearbeiten bis" sowie die voraussichtliche "Bearbeitungszeit (Minuten)" fest, mit "Relatives Datum" auch relativ zu einem Ereignis wie dem ersten Kursbesuch. Die Felder dieses Tabs beschreibt die Seite [Lernpfadkurs - Kurseditor](Learning_path_course_Course_editor.de.md).
 
 Des Weiteren stehen für Tests unter "Erledigungskriterium" folgende Optionen zur Verfügung: "Kursbaustein öffnen", "Bestätigung durch Benutzer:in", "Punkte", "Bestanden" und "Test beendet".
 
 ![Feld Erledigungskriterium mit fünf Optionen markiert, gewählt ist Test beendet](assets/course_element_test_completion_criterion_v1_de.png){ class="shadow lightbox" title="Tab Lernpfad des Kursbausteins Test · 2026.10.01" }
 
-Nur wenn die gewählte Bedingung erfüllt ist, wird den Teilnehmenden der Fortschritt in der Lernpfadanzeige und in der Fortschrittsprozentzahl angezeigt.
+Erst wenn die gewählte Bedingung erfüllt ist, zeigt OpenOlat den Teilnehmenden den Fortschritt in der Lernpfadanzeige und in der Fortschrittsprozentzahl an.
 
 [Zum Anfang des Abschnitts Testkonfiguration ^](#config)<br>
 [Zum Seitenanfang ^](#course_element_test)
@@ -78,22 +79,22 @@ Sind für den Test bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab d
 
 Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab "Test-Konfiguration" ein entsprechender Hinweis. Sie können nun einen vorhandenen Test "Auswählen" oder "Importieren" oder einen neuen Test "Erstellen".<br>
 
-!!! tip "bestehende Lernressource"
-    Wurde bereits eine Test-Lernressource eingefügt und wollen Sie diese austauschen, beachten Sie bitte die Hinweise im Abschnitt [Änderungen an Tests und Selbsttests](#changes).
+!!! tip "Bestehende Lernressource"
+    Ist bereits eine Test-Lernressource eingefügt und wollen Sie diese austauschen, beachten Sie die Hinweise im Abschnitt [Änderungen an Tests und Selbsttests](#changes).
 
-Klicken Sie auf "Auswählen", um einen Test dem Kursbaustein zuzuordnen. Auch die Optionen zum Erstellen und Importieren erhalten Sie anschliessend noch einmal. Hier wählen oder erstellen Sie den Test, den Sie einsetzen und dem Kursbaustein Test zuordnen möchten. Anschliessend legen Sie weitere Einstellungen fest, zum Beispiel die Art der Korrektur oder die Darstellung der Testresultate.
+Klicken Sie auf "Auswählen", um dem Kursbaustein einen Test zuzuordnen. Im folgenden Dialog stehen auch die Optionen zum Erstellen und Importieren zur Wahl. Hier wählen oder erstellen Sie den Test, den Sie dem Kursbaustein "Test" zuordnen. Anschliessend legen Sie weitere Einstellungen fest, zum Beispiel die Art der Korrektur oder die Darstellung der Testresultate.
 
-Falls Sie bereits einen Test mit dem Kursbaustein Test verbunden haben wird im Tab "Test-Konfiguration" der Name des Tests sowie weitere Infos dazu angezeigt und Sie können den Test mit Klick auf "Lernressource bearbeiten" bearbeiten. 
+Ist der Kursbaustein bereits mit einem Test verbunden, zeigt der Tab "Test-Konfiguration" den Namen des Tests und weitere Angaben dazu. Mit "Lernressource bearbeiten" bearbeiten Sie den Test.
 
-Über den Button "Vorschau" erhalten Sie eine Test-Vorschau und über den Button "Ersetzen" können Sie den Test austauschen indem Sie einen neuen Test erstellen oder importieren. Falls Sie einen Test austauschen möchten für den schon Testresultate vorliegen, erhalten Sie einen entsprechenden Hinweis und eine Archivdatei wird erstellt und kann gespeichert werden.
+Über den Button "Vorschau" öffnen Sie eine Vorschau des Tests, über den Button "Ersetzen" tauschen Sie den Test aus, indem Sie einen anderen Test wählen, erstellen oder importieren. Liegen für den Test bereits Testresultate vor, erhalten Sie beim Austauschen einen Hinweis, und OpenOlat erstellt eine Archivdatei, die Sie speichern können.
 
-Ein hinzugefügter Test kann wie folgt konkreter konfiguriert werden. Der Tab zeigt die Einstellungen in dieser Reihenfolge: zuoberst "Relatives Datum" und "Testzeitraum festlegen", darunter die Legende "Konfiguration Bewertung", darunter "Korrektur" und zuletzt die Legende "Report".
+Einen hinzugefügten Test konfigurieren Sie wie folgt genauer. Der Tab zeigt die Einstellungen in dieser Reihenfolge: zuoberst "Relatives Datum" und "Testzeitraum festlegen", darunter die Legende "Konfiguration Bewertung", darunter "Korrektur" und zuletzt die Legende "Report".
 
 #### Testzeitraum festlegen {: #assessment_period}
 
-Während des Testzeitraums kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Zeitbeschränkung noch nicht abgelaufen ist. Ist "Relatives Datum" eingeschaltet, legen Sie statt eines fixen Datums ein relatives Datum fest, z.B. x Tage nach dem ersten Kursbesuch. Wie Testzeitraum und Prüfungsmodus zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
+Während des Testzeitraums lässt sich der Test starten. Sobald die "bis-Zeit" erreicht ist, beendet OpenOlat den Test automatisch, auch wenn die definierte Zeitbeschränkung noch nicht abgelaufen ist. Ist "Relatives Datum" eingeschaltet, legen Sie statt eines fixen Datums ein relatives Datum fest, zum Beispiel x Tage nach dem ersten Kursbesuch. Wie Testzeitraum und Prüfungsmodus zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
 
-Wird hier nichts aktiviert ist der Test jederzeit zugänglich, sofern keine Einschränkungen an anderer Stelle z.B. unter "Sichtbarkeit" bei herkömmlichen Kursen oder aufgrund einer seriellen Reihenfolge bei Lernpfad Kursen definiert wurde. 
+Ist hier nichts aktiviert, ist der Test jederzeit zugänglich, sofern an anderer Stelle keine Einschränkung besteht, zum Beispiel unter "Sichtbarkeit" bei herkömmlichen Kursen oder durch eine sequenzielle Reihenfolge bei Lernpfadkursen.
 
 #### Abschnitt Konfiguration Bewertung {: #section_test}
 
@@ -105,11 +106,11 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen, zum Beispiel Noten, Niveaust
 
 ##### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment}
 
-Schalten Sie diesen Schalter aus, bleibt der Test bei der Kurs-Bewertung in einem Lernpfad Kurs unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
+Schalten Sie diesen Schalter aus, bleibt der Test bei der Kurs-Bewertung in einem Lernpfadkurs unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
 
-!!! note "Lernpfad Kurs"
-    Konzept und Fortschrittsberechnung im Lernpfad Kurs.<br>
-    [Lernpfad Kurs](../learningresources/Learning_path_course.de.md)
+!!! note "Lernpfadkurs"
+    Konzept und Fortschrittsberechnung im Lernpfadkurs.<br>
+    [Lernpfadkurs](../learningresources/Learning_path_course.de.md)
 
 ##### Skalierungsfaktor für Kurs-Bewertung {: #score_scaling}
 
@@ -128,13 +129,13 @@ Die Korrektur läuft entweder automatisch oder manuell. Sobald der Test einen ma
     Übersicht aller verfügbaren Fragetypen, inkl. manuell auszuwertender Typen.<br>
     [Fragetypen](Test_question_types.de.md)
 
-Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränkt und die Betreuer:in bzw. Korrektor:in muss die Korrektur manuell ergänzen. Zu den manuell zu bearbeitenden Fragen gehören Freitext, Datei hochladen und Zeichnen. Eine manuelle Korrektur kann bei Bedarf aber auch eingestellt werden, wenn der Test nur aus automatisch auswertbaren Fragetypen besteht.
+Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränkt, und die Betreuer:in oder Korrektor:in ergänzt die Korrektur manuell. Zu den manuell zu bearbeitenden Fragen gehören Freitext, Datei hochladen und Zeichnen. Eine manuelle Korrektur stellen Sie bei Bedarf auch ein, wenn der Test nur aus automatisch auswertbaren Fragetypen besteht.
 
 Drei Optionen stehen zur Auswahl:
 
 * **Automatisch**: OpenOlat korrigiert alle Fragen direkt.
 * **Manuell durch Kursbetreuer:in oder -besitzer:in**: Die Korrektur übernehmen die Betreuer:innen oder Besitzer:innen des Kurses.
-* **Manuell durch Korrektor:innen**: Die Korrektur übernehmen die Korrektor:innen aus dem Korrektur-Workflow der Lernressource Test. Sie können einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer:in des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektor:innen" aktiviert, und man erkennt, wer als Korrektor:in dem Test zugeordnet ist.
+* **Manuell durch Korrektor:innen**: Die Korrektur übernehmen die Korrektor:innen aus dem Korrektur-Workflow der Lernressource Test. Sie korrigieren einen Test, ohne Mitglied oder Betreuer:in des Kurses zu sein. Mit dieser Wahl aktiviert OpenOlat auch den Tab "Korrektor:innen", der zeigt, wer dem Test als Korrektor:in zugeordnet ist.
 
 !!! info "Wichtig"
 
@@ -156,11 +157,11 @@ Hier legen Sie fest, ob und in welcher Form die Teilnehmenden ihre Testergebniss
 
 Wenn diese Option angewählt ist, sehen die Teilnehmenden auf der Startseite des Tests die Punkte und weitere Leistungsinformationen wie Erfolgsstatus, Anzahl der Lösungsversuche und die erreichte Stufe der Bewertungsskala.
 
-Neben der Leistungsübersicht kann den Teilnehmenden auch die konkrete Testauswertung angezeigt werden, dauerhaft auf der Test-Startseite und direkt nach der Bearbeitung.
+Neben der Leistungsübersicht zeigt OpenOlat den Teilnehmenden auf Wunsch auch die konkrete Testauswertung an, dauerhaft auf der Test-Startseite und direkt nach der Bearbeitung.
 
 ##### Resultate auf Test-Startseite anzeigen {: #show_results_on_homepage}
 
-In dieser Auswahlliste legen Sie fest, ob und unter welchen Bedingungen die Testauswertung auf der Startseite des Tests erscheint. Bei "Immer" stehen die Resultate direkt nach Beenden des Tests zur Verfügung, bei "Nein" werden sie gar nicht angezeigt. Bei den übrigen Optionen legen Sie mit "Von" und "Bis" fest, in welchem Zeitraum die Resultate erscheinen: nur bei nicht bestandenem Test, nur bei bestandenem Test, mit verschiedenen Zeiträumen für beide Fälle oder mit einem gemeinsamen Zeitraum.
+In dieser Auswahlliste legen Sie fest, ob und unter welchen Bedingungen die Testauswertung auf der Startseite des Tests erscheint. Bei "Immer" stehen die Resultate direkt nach Beenden des Tests zur Verfügung, bei "Nein" erscheinen sie gar nicht. Bei den übrigen Optionen legen Sie mit "Von" und "Bis" fest, in welchem Zeitraum die Resultate erscheinen: nur bei nicht bestandenem Test, nur bei bestandenem Test, mit verschiedenen Zeiträumen für beide Fälle oder mit einem gemeinsamen Zeitraum.
 
 ![Auswahlliste Resultate auf Test-Startseite anzeigen mit sechs Optionen von Nein bis Wenn nicht bestanden oder bestanden](assets/Test_Report_config.png){ class="shadow lightbox" title="Abschnitt Report im Tab Test-Konfiguration" }
 
@@ -176,8 +177,8 @@ Hier wählen Sie, in welcher Form die Ergebnisse erscheinen. Die Auswahl gilt f�
 
 * **Testzusammenfassung**: zeigt unter anderem die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen, die erreichte Punktzahl und den Status.
 * **Sektionszusammenfassung**: ist nur relevant, wenn ein Test auch Sektionen enthält.
-* **Fragezusammenfassung**: zeigt den Titel der Frage und die jeweils erreichten Punkte bzw. den passenden Prozentwert, aber nicht die Fragestellung selbst.
-* **Antwort, von Teilnehmer:in abgegeben**: zeigt die Frage, alle Antwortoptionen und die Wahl der Teilnehmenden, allerdings keine Bewertung, ob die Frage richtig oder falsch beantwortet wurde. Ist dies gewünscht, kombinieren Sie die Option mit weiteren Feedback-Optionen.
+* **Fragezusammenfassung**: zeigt den Titel der Frage und die jeweils erreichten Punkte oder den passenden Prozentwert, aber nicht die Fragestellung selbst.
+* **Antwort, von Teilnehmer:in abgegeben**: zeigt die Frage, alle Antwortoptionen und die Wahl der Teilnehmenden, allerdings keine Bewertung, ob die Antwort richtig oder falsch ist. Ist dies gewünscht, kombinieren Sie die Option mit weiteren Feedback-Optionen.
 * **Lösung**: enthält die korrekten Antworten.
 
 !!! note "Sektion Ebene"
@@ -193,19 +194,19 @@ Je nach Kombination der Anzeigeoptionen erhalten die Teilnehmenden unterschiedli
 
 ### Tab "Optionen" {: #tab_options}
 
-Bindet man einen Test in einen Kurs ein, werden die Einstellungen aus der Konfiguration der Lernressource Test (siehe  "[Test Einstellungen](Test_settings.de.md)" und "[Test konfigurieren](Configure_tests.de.md)") standardmässig übernommen. Im Tab "Optionen" ist deshalb "Konfiguration von Lernressource übernehmen" vorausgewählt, und der Tab zeigt die Einstellungen der Lernressource Test an.
+Binden Sie einen Test in einen Kurs ein, übernimmt OpenOlat standardmässig die Einstellungen aus der Konfiguration der Lernressource Test (siehe "[Test Einstellungen](Test_settings.de.md)" und "[Test konfigurieren](Configure_tests.de.md)"). Im Tab "Optionen" ist deshalb "Konfiguration von Lernressource übernehmen" vorausgewählt, und der Tab zeigt die Einstellungen der Lernressource Test an.
 
-Wollen Sie die Einstellungen für den im Kurs eingebundenen Test ändern, wählen Sie "Konfiguration anpassen" und passen die Einstellungen an. Beispielsweise definieren Sie eine Zeitbeschränkung, schränken die Anzahl der Lösungsversuche ein oder erlauben Gästen, den Test zu absolvieren. Darüber hinaus konfigurieren Sie diverse Darstellungsoptionen.
+Wollen Sie die Einstellungen für den im Kurs eingebundenen Test ändern, wählen Sie "Konfiguration anpassen" und passen die Einstellungen an. Beispielsweise definieren Sie eine Zeitbeschränkung, schränken die Anzahl der Lösungsversuche ein oder erlauben Gästen, den Test zu absolvieren. Darüber hinaus konfigurieren Sie verschiedene Darstellungsoptionen.
 
-Ist die Option "Fragetitel anzeigen" nicht markiert aber gleichzeitig die Menü-Navigation erlaubt, werden statt der wirklichen Titel lediglich anonymisierte Titel in der Navigation angezeigt. 
+Ist die Option "Fragetitel anzeigen" nicht markiert, die Menü-Navigation aber erlaubt, zeigt die Navigation statt der wirklichen Titel nur anonymisierte Titel.
 
 !!! info "Wichtig"
 
     Diese Anpassungen im Test haben keine Auswirkungen auf die Konfiguration der Lernressource Test selbst.
 
-Zusätzlich kann auch ein Informationstext (HTML-Seite) für den Test eingerichtet werden, der den Teilnehmenden auf der Startseite des Tests oberhalb der Start-Schaltfläche angezeigt wird. Klicken Sie hierfür im Tab "Optionen" im Bereich "Informationstext (HTML) auf "Erstellen", "Auswählen" oder "Import".
+Zusätzlich richten Sie für den Test einen Informationstext (HTML-Seite) ein, den die Teilnehmenden auf der Startseite des Tests oberhalb der Start-Schaltfläche sehen. Klicken Sie dafür im Tab "Optionen" im Bereich "Informationstext (HTML)" auf "Erstellen", "Auswählen" oder "Import".
 
-Aktivieren Sie "Verlinkung im gesamten Ablageordner zulassen", wenn Sie z.B. auf andere HTML-Dateien oder Grafiken im Informationstext verlinken möchten. Diese Einstellung bewirkt aber auch, dass versierte Teilnehmer:innen Einsicht in den gesamten Ablageordner des Kurses erlangen können.
+Aktivieren Sie "Verlinkung in gesamtem Ablageordner zulassen", wenn Sie im Informationstext zum Beispiel auf andere HTML-Dateien oder Grafiken verlinken möchten. Mit dieser Einstellung können versierte Teilnehmer:innen aber auch Einsicht in den gesamten Ablageordner des Kurses erhalten.
 
 
 [Zum Anfang des Abschnitts Testkonfiguration ^](#config)<br>
@@ -214,7 +215,7 @@ Aktivieren Sie "Verlinkung im gesamten Ablageordner zulassen", wenn Sie z.B. auf
 
 ### Tab "Kommunikation" [:octicons-tag-16:{ title="ab Release 16.2.0 (OO-5966)" }](https://track.frentix.com/issue/OO-5966) {: #tab_communication}
 
-Hier kann eingestellt werden ob während der Durchführung des Tests Teilnehmende live Anfragen per Chat an die Betreuer:innen bzw. Besitzer:innen des Kurses senden dürfen. Das macht natürlich nur dann Sinn, wenn während eines definierten Test-Zeitraums auch reale betreuende Personen die Testdurchführung beobachten. Dieses Vorgehen ist z.B. bei der Durchführung von Online-Prüfungen oder synchronen Zulassungsprüfungen per Test hilfreich. 
+Hier legen Sie fest, ob Teilnehmende während des Tests live Anfragen per Chat an die Betreuer:innen oder Besitzer:innen des Kurses senden dürfen. Das ist nur sinnvoll, wenn während eines definierten Testzeitraums auch betreuende Personen die Testdurchführung beobachten, zum Beispiel bei Online-Prüfungen oder synchronen Zulassungsprüfungen per Test.
 
 
 [Zum Anfang des Abschnitts Testkonfiguration ^](#config)<br>
@@ -223,7 +224,7 @@ Hier kann eingestellt werden ob während der Durchführung des Tests Teilnehmend
 
 ### Tab "HighScore" [:octicons-tag-16:{ title="ab Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #tab_highscore}
 
-Hier kann für einen Test eine Highscore Übersicht aktiviert und weiter konfiguriert werden. Diese Übersicht vergleicht die Test-Ergebnisse der Teilnehmenden und ordnet das individuelle Ergebnis im Vergleich ein. 
+Hier aktivieren und konfigurieren Sie für einen Test eine Highscore-Übersicht. Diese Übersicht vergleicht die Testergebnisse der Teilnehmenden und ordnet das individuelle Ergebnis im Vergleich ein.
 
 ![Highscore anzeigen mit relativem Datum, Anfangsdatum und Anonymisierung, darunter vier Anzeigeoptionen](assets/course_element_test_highscore_v1_de.png){ class="shadow lightbox" title="Tab HighScore des Kursbausteins Test · 2026.10.01" }
 
@@ -252,11 +253,11 @@ Der Tab ist aktiv, wenn im Abschnitt "Korrektur" die Option "Manuell durch Korre
 
 ### Tab "E-Mail Bestätigung" [:octicons-tag-16:{ title="ab Release 17.2.0 (OO-6672)" }](https://track.frentix.com/issue/OO-6672) {: #tab_email_confirmation}
 
-Aktivieren Sie die E-Mail Bestätigung, wenn die Lernenden nach Abgabe des Tests eine Bestätigung erhalten sollen. Eine Kopie der Mail kann auch an die Kursbesitzer:innen, zuständige Betreuer:innen oder externe E-Mail-Adressen verschickt werden.
+Aktivieren Sie die E-Mail Bestätigung, wenn die Teilnehmenden nach Abgabe des Tests eine Bestätigung erhalten sollen. Eine Kopie der E-Mail geht auf Wunsch auch an die Besitzer:innen des Kurses, die zuständigen Betreuer:innen oder an externe E-Mail-Adressen.
 
-Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Titel des Test-Kursbausteins verwendet werden. Alternativ kann beides auch geändert werden. Wählen Sie in diesem Fall bei "Vorlage" die Option "Eigener Text", um den Mailtext zu bearbeiten oder komplett zu ändern.
+Für den Text der E-Mail verwenden Sie die Vorlage und einen voreingestellten Betreff mit dem Titel des Kursbausteins. Alternativ ändern Sie beides: Wählen Sie dazu bei "Vorlage" die Option "Eigener Text", um den Text zu bearbeiten oder komplett zu ändern.
 
-Sie können in dem Mailtext auch auf verschiedene Variablen wie Name oder Punktezahl zurückgreifen.
+Im Text der E-Mail verwenden Sie auch Variablen wie Name oder Punktezahl.
 
 !!! note "Variablen in Mailing-Texten"
     Weitere Informationen zur Verwendung von Variablen in Mailing-Texten.<br>
@@ -269,7 +270,7 @@ Sie können in dem Mailtext auch auf verschiedene Variablen wie Name oder Punkte
 
 ### Tab "Erinnerungen" [:octicons-tag-16:{ title="ab Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447) {: #tab_reminders}
 
-Hier können Erinnerungsmails nach bestimmten Kriterien konfiguriert werden.
+Hier konfigurieren Sie Erinnerungen per E-Mail nach bestimmten Kriterien.
 
 !!! note "Erinnerungen"
     Weitere Informationen zum Versand von Erinnerungen.<br>
@@ -282,7 +283,7 @@ Hier können Erinnerungsmails nach bestimmten Kriterien konfiguriert werden.
 
 ### Tab "Badges" [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #tab_badges}
 
-Haben Kursbesitzer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` die Vergabe von Badges aktiviert, zeigt der Kurseditor zu diesem Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein.
+Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` die Vergabe von Badges aktiviert, zeigt der Kurseditor zu diesem Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein.
 
 !!! note "Badges"
     Weitere Informationen zum Thema Badges und wie sie vergeben werden.<br>
@@ -310,7 +311,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
 !!! tip "Tipp"
 
-    Manchmal ist es sinnvoll, den Typ "Test" zu verwenden, auch wenn man den Lernenden eigentlich einen Selbsttest zur Verfügung stellen möchte. Tests ermöglichen bei Bedarf die Lernenden individuell zu unterstützen und auch Feedback zu manuell bewertbaren Fragetypen bereitzustellen und können Lehrenden ein Feedback zur Qualität und Effektivität ihrer Fragen geben. 
+    Manchmal ist es sinnvoll, den Typ "Test" zu verwenden, auch wenn Sie den Teilnehmenden eigentlich einen Selbsttest zur Verfügung stellen möchten. Mit einem Test unterstützen Sie die Teilnehmenden bei Bedarf individuell und geben auch Feedback zu manuell bewertbaren Fragetypen. Zudem erhalten Lehrende Rückmeldung zur Qualität und Wirkung ihrer Fragen.
 
 
 [Zum Seitenanfang ^](#course_element_test)
@@ -324,23 +325,23 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
     Sobald ein Test oder Selbsttest in einen Kurs eingebunden ist, lässt er sich unter "Lernressource bearbeiten" nur noch sehr eingeschränkt ändern. Binden Sie einen Test deshalb möglichst erst in einen Kurs ein, wenn er vollständig fertiggestellt ist.
 
-Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Teilnehmenden die gleichen Voraussetzungen antreffen. Andererseits könnten bereits gespeicherte Resultate nicht mehr eindeutig einer Version der Testdatei zugewiesen werden. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
+Warum ist das so? Könnten Sie in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, hätten nicht alle Teilnehmenden die gleichen Voraussetzungen. Zudem liessen sich bereits gespeicherte Resultate nicht mehr eindeutig einer Version der Testdatei zuordnen. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
 
-Die Frage ist also was man tun kann, wenn man doch mal einen Test aus triftigen Gründen ändern muss. Hierfür haben Sie folgende Möglichkeit:
+Müssen Sie einen Test aus triftigen Gründen trotzdem ändern, haben Sie folgende Möglichkeit:
 
 ### Bereits bearbeitete Tests austauschen [:octicons-tag-16:{ title="ab Release 19.1.10 (OO-8400)" }](https://track.frentix.com/issue/OO-8400) {: #tab_replace_tests}
 
-Wenn Sie einen Test nachträglich ändern möchten (z. B. neue Fragen hinzufügen oder fehlerhafte Antworten korrigieren), kopieren Sie zunächst die Lernressource Test im Autorenbereich und bearbeiten Sie die Kopie. Binden Sie diese anschliessend im gewünschten Kurs ein.
+Wollen Sie einen Test nachträglich ändern, zum Beispiel neue Fragen hinzufügen oder fehlerhafte Antworten korrigieren, kopieren Sie zunächst die Lernressource Test im Autorenbereich und bearbeiten die Kopie. Binden Sie diese anschliessend im gewünschten Kurs ein.
 
-Dazu öffnen Sie im Kurseditor den betreffenden Kursbaustein, wechseln in den Tab Test-Konfiguration und klicken auf Ersetzen. Wählen Sie die vorbereitete Test-Kopie aus.
+Öffnen Sie dazu im Kurseditor den betreffenden Kursbaustein, wechseln Sie in den Tab "Test-Konfiguration" und klicken Sie auf "Ersetzen". Wählen Sie die vorbereitete Kopie des Tests aus.
 
-Im nächsten Schritt stehen zwei Optionen zur Verfügung:
+Im nächsten Schritt stehen zwei Optionen zur Wahl:
 
-* **Kontrollierter Austausch**: Alle bisherigen Durchläufe und Bewertungen werden ungültig, das Bewertungsformular wird zurückgesetzt. Die bisherigen Ergebnisse erhalten Sie zusätzlich als ZIP-Download.
+* **Kontrollierter Austausch**: Alle bisherigen Durchläufe und Bewertungen werden ungültig, OpenOlat setzt das Bewertungsformular zurück. Die bisherigen Ergebnisse erhalten Sie zusätzlich als ZIP-Download.
 
-* **Nur ersetzen**: Der Test wird ausgetauscht. Beendete Testläufe bleiben gültig, bestehende Bewertungen bleiben unverändert. Laufende und pausierte Testläufe werden eingezogen und als ungültig markiert.
+* **Nur ersetzen**: OpenOlat tauscht den Test aus. Beendete Testläufe bleiben gültig, bestehende Bewertungen bleiben unverändert. Laufende und pausierte Testläufe zieht OpenOlat ein und markiert sie als ungültig.
 
-Vor dem Austausch informiert Sie ein Dialog über die Auswirkungen. Diese müssen Sie ausdrücklich bestätigen.
+Vor dem Austausch informiert Sie ein Dialog über die Auswirkungen, die Sie ausdrücklich bestätigen.
 
 **Beispiel:**
 ![Austauschoptionen und Vergleich der Eigenschaften von aktuellem und neuem Test mit Meldungen zu Fragetypen, Punkten und Erfolgsstatus](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow lightbox" title="Dialog Test ersetzen" }
@@ -358,13 +359,13 @@ Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzei
 
 ## Tests einsehen und bewerten {: #assess}
 
-Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des Kurses im Bewertungswerkzeug. Zugriff darauf haben Betreuer:innen und Kursbesitzer:innen: `Kurs > Administration > Bewertungswerkzeug`. Navigieren Sie zum gewünschten Kursbaustein Test. Im Tab  "Teilnehmer:innen" werden alle Teilnehmenden mit dem jeweiligen Bearbeitungsstand zu diesem Kursbaustein angezeigt und Sie erkennen in der Spalte "Status" ob eine Bewertung erforderlich ist. Auch werden offene Bewertungen bereits in der Übersicht unter "Offene Bewertungen" angezeigt.
+Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des Kurses im Bewertungswerkzeug. Zugriff darauf haben Betreuer:innen und Besitzer:innen des Kurses: `Kurs > Administration > Bewertungswerkzeug`. Navigieren Sie zum gewünschten Kursbaustein "Test". Der Tab "Teilnehmer:innen" zeigt alle Teilnehmenden mit ihrem Bearbeitungsstand zu diesem Kursbaustein, und in der Spalte "Status" erkennen Sie, ob eine Bewertung erforderlich ist. Offene Bewertungen zeigt bereits die Übersicht unter "Offene Bewertungen".
 
 !!! note "Bewertungswerkzeug"
     Zentrale Oberfläche zur Bewertung, Benotung und Verwaltung der Bewertungen der Teilnehmenden.<br>
     [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)
 
-Alternativ können die Ergebnisse eines spezifischen Tests auch im Kurs bei geschlossenem Kurseditor direkt beim jeweiligen Test-Kursbaustein eingesehen und verwaltet werden. Wechseln Sie hierfür in den Tab "Teilnehmer:innen". Zusätzlich stehen Ihnen als Kursbesitzer:in im Kurs noch weitere Tabs wie Vorschau, Kommunikation, Erinnerungen und Badges zur Verfügung. Auch Betreuer:innen verfügen teilweise über diese Tabs.
+Alternativ sehen und verwalten Sie die Ergebnisse eines bestimmten Tests auch im Kurs bei geschlossenem Kurseditor direkt beim jeweiligen Kursbaustein "Test". Wechseln Sie dafür in den Tab "Teilnehmer:innen". Als Besitzer:in des Kurses stehen Ihnen dort weitere Tabs wie "Vorschau", "Kommunikation", "Erinnerungen" und "Badges" zur Verfügung. Auch Betreuer:innen verfügen teilweise über diese Tabs.
 
 ![Teilnehmende mit Versuchen, Punkten und Status sowie geöffnetem Zeilenmenü mit den Aktionen zur Bewertung](assets/course_element_test_run_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.11.02" }
 
@@ -384,9 +385,9 @@ Sind für einen Test Korrektor:innen eingetragen, bewerten diese die Testläufe 
 
 Wer die Test-Lernressource eines Kursbausteins ausgetauscht hat, behält die früheren Ergebnisse, sieht den Verlauf der Zuweisungen und kann die Statistik jeder verwendeten Test-Lernressource weiterhin aufrufen.
 
-**A)** Wird die Test-Lernressource kontrolliert ausgetauscht, werden die bisher mit diesem Kursbaustein erzielten Testergebnisse (die Testergebnisse mit der bisherigen Lernressource) automatisch gespeichert und als zip-Datei exportiert. Auch eine Excel-Datei ist im Export enthalten, in der die Testergebnisse der einzelnen Teilnehmer:innen nachvollzogen werden können.
+**A)** Tauschen Sie die Test-Lernressource kontrolliert aus, speichert OpenOlat die bisher mit diesem Kursbaustein erzielten Testergebnisse (die Testergebnisse mit der bisherigen Lernressource) automatisch und exportiert sie als ZIP-Datei. Der Export enthält auch eine Excel-Datei mit den Testergebnissen der einzelnen Teilnehmer:innen.
 
-**B)** Wenn Sie nachsehen möchten, wann welche Test-Lernressource im Kursbaustein ausgetauscht wurde, finden Sie eine Übersicht beim Button "Ersetzen". Klicken Sie auf den kleinen Pfeil neben dem Button und dann auf "Verlauf anzeigen".
+**B)** Wann welche Test-Lernressource im Kursbaustein ausgetauscht wurde, zeigt eine Übersicht beim Button "Ersetzen". Klicken Sie auf den kleinen Pfeil neben dem Button und dann auf "Verlauf anzeigen".
 
 ![Link "Verlauf anzeigen" im Dropdown-Menü des Buttons "Ersetzen"](assets/course_element_test_replace_resource2_v1_de.png){ class="shadow lightbox" title="Tab Test-Konfiguration im Kurseditor" }
 
@@ -400,7 +401,7 @@ Der Dialog "Verlauf der Test-Ressourcen" zeigt je Test-Lernressource:
 ![Spalten Zugewiesen am, Zugewiesen von und Durchläufe in diesem Kurs markiert, eine Zeile je Zuweisung einer Test-Lernressource](assets/course_element_test_replace_resource3_v2_de.png){ class="shadow lightbox" title="Dialog Verlauf der Test-Ressourcen · 2026.10.01" }
 
 
-**C)** Wird die Test-Lernressource ausgewechselt, wird auch eine neue Teststatistik mit der neuen Test-Lernressource angelegt. Als Betreuer:in wählen Sie wie gewohnt den Test-Kursbaustein und den Tab "Teilnehmer:innen". Hier wird der Button "Teststatistiken" angezeigt. 
+**C)** Tauschen Sie die Test-Lernressource aus, legt OpenOlat auch eine neue Teststatistik mit der neuen Test-Lernressource an. Als Betreuer:in wählen Sie wie gewohnt den Kursbaustein "Test" und den Tab "Teilnehmer:innen". Dort steht der Button "Teststatistiken".
 
 ![Kursbaustein Test im Kursmenü, Tab Teilnehmer:innen und Button "Teststatistiken" über der Liste der Teilnehmenden markiert](assets/course_element_test_replace_statistic1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.10.07" }
 
@@ -411,7 +412,7 @@ Haben Teilnehmende in diesem Kurs mehr als eine der verwendeten Test-Lernressour
 
 !!! note "Hinweis"
 
-    Wurde "Nur ersetzen" gewählt, bleiben die bestehenden Bewertungen unverändert. Diese Variante ist mit Vorsicht zu verwenden. Wenn z.B. neu 12 Punkte erreicht werden können und bisher nur 10, sind immer noch maximal 10 Punkte im Kurs eingetragen. Solche Angaben können dann zu Verwirrung führen und müssen manuell korrigiert werden.
+    Mit "Nur ersetzen" bleiben die bestehenden Bewertungen unverändert. Verwenden Sie diese Variante mit Vorsicht. Sind zum Beispiel neu 12 Punkte erreichbar und bisher nur 10, sind im Kurs weiterhin maximal 10 Punkte eingetragen. Solche Angaben führen zu Verwirrung und müssen manuell korrigiert werden.
 
 
 [Zum Seitenanfang ^](#course_element_test)
@@ -427,14 +428,14 @@ Wer die Testergebnisse eines Kurses gesammelt sichern will, etwa zusammen mit de
     Kursweite Archivierungsfunktion für alle bewertbaren Kursbausteine.<br>
     [Archivierung & Reports](../learningresources/Course_Archiving.de.md)
 
-Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür `Kurs > Administration > Archivierung & Reports > Kursarchivierung > Archiv erstellen`. Wählen Sie im Wizard die Archivart "Teilarchiv" und markieren Sie im Schritt "Kursbausteine auswählen" den oder die gewünschten Test-Bausteine. Im Schritt "Einstellungen" wählen Sie bei "Kursbausteine" entweder "Standard-Einstellungen" oder "Benutzerspezifisch", um die Archivierungsoptionen anzupassen.
+Dort laden Sie die Kursresultate aller bewertbaren Kursbausteine (unter anderem Tests) herunter. Alternativ wählen Sie nur die Ergebnisse bestimmter Tests aus und speichern nur diese. Wählen Sie dafür `Kurs > Administration > Archivierung & Reports > Kursarchivierung > Archiv erstellen`. Wählen Sie im Wizard die Archivart "Teilarchiv" und markieren Sie im Schritt "Kursbausteine auswählen" den oder die gewünschten Test-Bausteine. Im Schritt "Einstellungen" wählen Sie bei "Kursbausteine" entweder "Standard-Einstellungen" oder "Benutzerspezifisch", um die Archivierungsoptionen anzupassen.
 
-Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Im Wizard-Schritt "Einstellungen" gibt es bei der Auswahl "Benutzerspezifisch" beim Kursbaustein Test unter "Export" 2 Varianten:
+OpenOlat erstellt eine ZIP-Datei, die im Bereich Kursarchivierung für eine bestimmte Zeit bereitliegt, zum Beispiel 10 Tage. Dort kopieren, laden Sie sie herunter oder löschen sie. Im Wizard-Schritt "Einstellungen" gibt es bei der Auswahl "Benutzerspezifisch" beim Kursbaustein "Test" unter "Export" zwei Varianten:
 
 * **Standard**: Der Export enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
-* **"Erweitert – mit PDF"**: Die Option erzeugt die gleiche zip-Datei und ergänzt zusätzlich PDF-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen PDF-Dateien evtl. einige Zeit dauern.
+* **"Erweitert – mit PDF"**: Die Option erzeugt die gleiche ZIP-Datei und ergänzt zusätzlich PDF-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in.<br>Achtung: Je nach Anzahl der PDF-Dateien kann die Erstellung dieser ZIP-Datei einige Zeit dauern.
 
-Enthält der Test Freitextfragen und ist die Option "Erweitert – mit PDF" gewählt, können Sie darunter unter "Zusätzliche Option" die Einstellung "Separate PDF-Datei für jede Freitextfrage" aktivieren. Die Antwort jeder Freitextfrage wird dann als eigene PDF-Datei im Archiv abgelegt. [:octicons-tag-16:{ title="ab Release 19.1.27 (OO-8964)" }](https://track.frentix.com/issue/OO-8964)
+Enthält der Test Freitextfragen und ist die Option "Erweitert – mit PDF" gewählt, können Sie darunter unter "Zusätzliche Option" die Einstellung "Separate PDF-Datei für jede Freitextfrage" aktivieren. OpenOlat legt dann die Antwort jeder Freitextfrage als eigene PDF-Datei im Archiv ab. [:octicons-tag-16:{ title="ab Release 19.1.27 (OO-8964)" }](https://track.frentix.com/issue/OO-8964)
 
 ![Export als Standard oder erweitert mit PDF, dazu separate PDF-Datei je Freitextfrage](assets/course_element_test_archive_export_v1_de.png){ class="shadow lightbox" title="Schritt Einstellungen im Dialog Kurs archivieren" }
 
@@ -455,7 +456,8 @@ Die Rohdaten von Tests können Sie zudem über die Teststatistiken herunterladen
 
 
 ### Einsatzbeispiele
-Tests können unter anderem in folgenden Szenarien eingesetzt werden:
+
+Tests eignen sich unter anderem für folgende Szenarien:
 
 * **Abschluss-Assessment**: Überprüfung des erworbenen Wissens nach einer Lern- oder Trainingsphase oder eines Online-Kurses
 
@@ -465,24 +467,24 @@ Tests können unter anderem in folgenden Szenarien eingesetzt werden:
 
 * **Antwortspezifisches Feedback**: Tests als individuelle Feedbackgeber bei intensiver Nutzung der OpenOlat-Feedbackfunktionen
 
-* **Quiz-Game**: Spielerische Wissensüberprüfung in Form von Quiz, Quests, Storytelling u.ä.
+* **Quiz-Game**: Spielerische Wissensüberprüfung in Form von Quiz, Quests, Storytelling und Ähnlichem
 
 * **Online-Klausur**: Durchführung von prüfungsrelevanten Online- oder E-Klausuren
 
 
 ### So bearbeiten Sie einen Test (Lernendenperspektive) [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321) {: #participate_as_learner}
 
-Als Lernende bearbeiten Sie einen Test Frage für Frage und sehen dabei jederzeit, was schon beantwortet ist. Um mit der Bearbeitung eines Tests zu beginnen drücken Sie "Test starten". Beantworten Sie die angezeigten Fragen und klicken Sie anschliessend bei jeder Frage auf "Antwort speichern". Sofern generell sichtbar, kann man in der linken Navigation sehen, welche Fragen bereits beantwortet wurden (ausgefüllter Punkt), welche Fragen nur angeschaut wurden (hervorgehobener Kreis) und welche noch gar nicht angeklickt wurden (grauer Kreis). Über das Symbol rechts neben einer Frage fügen Sie eine private Markierung hinzu, als Erinnerung, die Frage später noch einmal anzuschauen.
+Als Lernende bearbeiten Sie einen Test Frage für Frage und sehen dabei jederzeit, was schon beantwortet ist. Klicken Sie auf "Test starten", um mit der Bearbeitung zu beginnen. Beantworten Sie die angezeigten Fragen und klicken Sie anschliessend bei jeder Frage auf "Antwort speichern". Ist die linke Navigation sichtbar, zeigt sie, welche Fragen Sie bereits beantwortet haben (ausgefüllter Punkt), welche Sie nur angeschaut haben (hervorgehobener Kreis) und welche Sie noch gar nicht geöffnet haben (grauer Kreis). Über das Symbol rechts neben einer Frage fügen Sie eine private Markierung hinzu, als Erinnerung, die Frage später noch einmal anzuschauen.
 
 ![Fragenübersicht markiert mit beantworteter, angezeigter und noch nicht angeschauter Frage, je mit Zahl der Versuche](assets/test_show_answeroverview_v2_de.png){ class="shadow lightbox" title="Test aus Sicht der Teilnehmenden · 2026.10.01" }
 
-Je nach Einstellung können Sie über den Button "Nächste Frage" und/oder einem Link in der linken Navigation weiter navigieren oder es wird automatisch die nächste Frage angezeigt. Ob Sie Fragen überspringen können oder Sie einen Beantwortungsfortschritt sehen, ist ebenfalls von der Konfiguration des Lehrenden abhängig. Je nach Konfiguration dürfen Sie den Test unterbrechen und zu einem späteren Zeitpunkt fortfahren oder generell abbrechen ohne dass Resultate gespeichert werden.
+Je nach Einstellung navigieren Sie über den Button "Nächste Frage" oder einen Link in der linken Navigation weiter, oder OpenOlat zeigt automatisch die nächste Frage an. Ob Sie Fragen überspringen können oder einen Beantwortungsfortschritt sehen, hängt ebenfalls von der Konfiguration durch die Lehrenden ab. Je nach Konfiguration unterbrechen Sie den Test und fahren später fort, oder Sie brechen ihn ganz ab, ohne dass Resultate gespeichert werden.
 
 Bearbeiten Sie einen Test in nur einem Browserfenster. Wird der Test in einem anderen Fenster unterbrochen oder beendet, meldet das noch offene Fenster bei der nächsten Eingabe "Test unterbrochen" beziehungsweise "Test beendet" mit dem Text "Eingaben in diesem Fenster werden nicht mehr gespeichert, da der Test bereits beendet oder unterbrochen wurde. Bitte schliessen Sie es jetzt." [:octicons-tag-16:{ title="ab Release 21.0.3 (OO-9707)" }](https://track.frentix.com/issue/OO-9707)
 
-Ist die Anzahl Lösungsversuche für eine Frage, eine Sektion oder den gesamten Test eingeschränkt, wird die verbleibende Anzahl direkt bei der Frage angezeigt, zum Beispiel „Noch 2 Versuche (1/3)“. In der linken Navigation steht bei jeder Frage die Zahl der genutzten und der möglichen Versuche, zum Beispiel "1 / 2"; die verbleibende Anzahl erscheint dort als Tooltip.
+Ist die Anzahl Lösungsversuche für eine Frage, eine Sektion oder den gesamten Test eingeschränkt, zeigt OpenOlat die verbleibende Anzahl direkt bei der Frage an, zum Beispiel "Noch 2 Versuche (1/3)". In der linken Navigation steht bei jeder Frage die Zahl der genutzten und der möglichen Versuche, zum Beispiel "1 / 2"; die verbleibende Anzahl erscheint dort als Tooltip.
 
-Wenn Sie fertig sind mit der Bearbeitung und den Test abschliessen wollen, klicken Sie auf den Button "Test beenden". OpenOlat fragt noch einmal nach. Bestätigen Sie, wird der Test gespeichert und ist für die Lehrenden sichtbar.
+Wenn Sie fertig sind mit der Bearbeitung und den Test abschliessen wollen, klicken Sie auf den Button "Test beenden". OpenOlat fragt noch einmal nach. Bestätigen Sie, speichert OpenOlat den Test, und er ist für die Lehrenden sichtbar.
 
 Besteht ein Test aus mehreren [Test-Parts](Configure_tests.de.md#testpart), bearbeiten Sie diese nacheinander und schliessen jeden einzeln ab. Ein beendeter Test-Part ist abgegeben: Seine Antworten sind gespeichert, und Sie kehren nicht mehr dorthin zurück. Zu Beginn zeigt OpenOlat die Seite "Testbeginn" mit der Anzahl Teile, zum Beispiel "Der Test hat bis 2 Teile.", und dem Button "Test starten".
 
@@ -497,7 +499,7 @@ Besteht ein Test aus mehreren [Test-Parts](Configure_tests.de.md#testpart), bear
 
 ![Seite Test Part abgeschlossen mit der Liste der Fragen zum Überprüfen und dem Button Test Part schliessen](assets/test_run_testpart_complete_v1_de.png){ class="shadow lightbox" title="Seite Test Part abgeschlossen · 2026.10.07" }
 
-Ob, wie und wann Sie die Resultate und die Leistungsübersicht sehen ist von der Test-Konfiguration abhängig.
+Ob, wie und wann Sie die Resultate und die Leistungsübersicht sehen, hängt von der Test-Konfiguration ab.
 
 ![Erfolgsstatus, Bewertung, Punkte und Lösungsversuche, darunter die Testresultate mit Dauer und erreichter Punktzahl](assets/Leistungsuebersicht_Test1.jpg){ class="shadow lightbox" title="Leistungsübersicht eines Tests aus Sicht der Teilnehmenden" }
 

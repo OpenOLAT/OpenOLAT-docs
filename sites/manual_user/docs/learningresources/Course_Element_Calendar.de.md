@@ -6,7 +6,7 @@
 Name | Kalender
 ---------|----------
 Icon | :o_icon_o_cal_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Einbettung des Kurskalenders in die Kursstruktur (Kursmenü)
 Bewertbar | nein
@@ -14,15 +14,15 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein ["Kalender"](Using_Additional_Course_Features.de.md#kurskalender) können Sie den Kurskalender in die Kursstruktur einbetten. Es ist auch möglich mehrere Instanzen desselben Kalenders dem Kurs hinzuzufügen.
+Mit dem Kursbaustein "Kalender" zeigen Sie den [Kurskalender](Using_Additional_Course_Features.de.md#kurskalender) direkt in der Kursstruktur an, zum Beispiel an der Stelle, an der die Teilnehmenden die Unterlagen einer Woche finden. Sie können den Kursbaustein auch mehrmals einfügen. Jeder Kursbaustein "Kalender" zeigt denselben Kurskalender.
 
-Diese Einbindung ist eine Alternative gegenüber der Einbindung des Kalenders in der Kurstoolbar (vergl. "[Einsatz weiterer Kursfunktionen der Toolbar](../learningresources/Using_Additional_Course_Features.de.md)").
+Der Kursbaustein ist eine Alternative zum Kalender in der Toolbar des Kurses, siehe [Einsatz weiterer Kursfunktionen der Toolbar](../learningresources/Using_Additional_Course_Features.de.md).
 
-Standardmässig dürfen nur Besitzer und Betreuer Termine erstellen. Alle Kursteilnehmer dürfen jedoch Kalendereinträge lesen. Im Tab "Kalender-Konfiguration" können Sie definieren, ob neben den Kursbesitzern auch Teilnehmer und Betreuer des Kurses Kalendereinträge einstellen und bearbeiten dürfen. Ferner können Sie hier konfigurieren, welches Datum angezeigt wird, wenn der Kurskalender aus der Kursstruktur aufgerufen wird. Kurskalender werden automatisch den [persönlichen Kalendern](../personal_menu/Calendar.de.md) der Kursteilnehmer hinzugefügt.
+Termine erstellen und bearbeiten dürfen standardmässig die Besitzer:innen und die Betreuer:innen des Kurses. Alle Teilnehmenden lesen die Termine. Im Tab "Kalender-Konfiguration" legen Sie unter "Termine bearbeiten" fest, ob neben den Besitzer:innen auch Betreuer:innen und Teilnehmende Termine erstellen und bearbeiten dürfen. Unter "Angezeigtes Datum" wählen Sie zwischen "Aktuelles Datum" und "Datum fest wählen": Der Kalender öffnet dann beim heutigen Datum oder bei dem Datum, das Sie festlegen. Den Kurskalender sehen die Mitglieder des Kurses automatisch auch in ihrem [persönlichen Kalender](../personal_menu/Calendar.de.md).
 
-Wenn Sie im Kalender jeweils eine Semesterwoche anzeigen und Links auf Kursbausteine einfügen, dient der Kalender als Übersichtsseite auf die Termine und Aufgaben der Woche.
+Zeigt der Kalender eine fest gewählte Semesterwoche und enthalten die Termine Links auf Kursbausteine, dient er als Übersicht über die Termine und Aufgaben dieser Woche.
 
-Prüfen Sie, ob der _Kursbaustein_ "Kalender" wirklich für Sie die optimale Wahl darstellt. In vielen Fällen, insbesondere bei [Lernpfad Kursen](../learningresources/Learning_path_course.de.md), ist es sinnvoller in den Einstellungen den Kalender in der [Toolbar](../learningresources/Course_Settings.de.md#toolbar) zu aktivieren.
+In vielen Kursen, besonders in [Lernpfadkursen](../learningresources/Learning_path_course.de.md), ist der Kalender in der [Toolbar](../learningresources/Course_Settings.de.md#toolbar) die einfachere Wahl. Sie schalten ihn unter `Kurs > Administration > Einstellungen > Toolbar` ein.
 
 !!! tip "Tipp"
 
@@ -35,5 +35,9 @@ Prüfen Sie, ob der _Kursbaustein_ "Kalender" wirklich für Sie die optimale Wah
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+
+**Weiterführend**<br>
+[Kursbaustein "Terminplanung" >](../learningresources/Course_Element_Appointment_Scheduling.de.md)<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#cal)

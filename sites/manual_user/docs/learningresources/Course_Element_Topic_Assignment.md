@@ -6,6 +6,7 @@
 Name | Topic Assignment
 ---------|----------
 Icon | :o_icon_o_projectbroker_icon:
+Available since | Release 7.1 or earlier
 Functional group | Others
 Purpose | Invitation to tender, selection and coaching of topics to be worked on by the course participants
 Assessable | no
@@ -13,47 +14,43 @@ Specialty / Note |
 
 
 
-The course element "Topic assignment" is useful if you want to announce e.g. topics for term papers in your course before having them supervised. Course authors determine the detailed configuration of their topic assignment. This comprises e.g. who has the right to announce and supervise topics, how topics have to be described, or how many topics can be selected by one course participant. What makes this course element so special is the fact that not course authors but topic authors will announce and supervise such topics.
+The course element "Topic assignment" is suitable if you want to announce topics such as term papers in your course and have them supervised. As an owner of the course, you determine the configuration of the topic assignment. This includes, among other things, who may announce and supervise topics, how the topics are described and how many topics participants can select. What makes the course element "Topic assignment" special is that not you as an owner of the course, but topic authors announce and supervise the topics.
 
 ## Editor view
 
 ###  How to configure topic assignments
 
-In the tab "Configuration" you determine first how many topics can be selected by one participant, if this selection is definite or if it has to be accepted by the topic author first. Furthermore you can add additional fields to describe a topic in more detail. This description will then be displayed in the table containing all topics announced. Here you can also determine if registrations and submissions shall only be possible within a certain period of time. Partial elements are the parts of a course element that you switch on individually. In the tab "Partial elements" you can choose if there should be a drop box as well as a return box in your topic assignment. Only the folders that are switched on are available in the course element. Course participants will then upload their files to that drop box while topic authors will return those files by means of a return box.
+In the tab "Configuration", you first determine how many topics participants can select and whether their selection applies immediately or must first be accepted by the topic authors. Furthermore, you add additional fields that describe the topics and appear in the table with all announced topics. Here you also define whether registration and submission are only possible within a certain period. Partial elements are the parts of a course element that you switch on individually. In the tab "Partial elements", you choose whether your topic assignment has a drop box and a return box. Only the folders that are switched on are available in the course element. Participants upload their files to the drop box, and topic authors return files via the return box.
 
+**Do you want to limit the number of topics per participant?:**
+If you select this option, a field appears for the number of topics participants may select at most in this course element.
 
-**Do you want to limit the number of topics per participant?:** 
-When selecting this option a field will pop up to indicate the number of Topics a participant may choose from the course element Topic assignment
+**Topic authors have to accept participants:**
+With this option, participants only register temporarily for a topic. The topic authors then select the definitive participants from the candidates and accept them. Without this option, OpenOlat automatically accepts all participants who have registered for the topic. The topic authors can define the maximum number of places beforehand.
 
-**Topic authors have to accept participants:** 
-When selecting this option, participants can only register for a topic temporarily. Topic authors will then have to select their candidates before finally accepting them. When deselecting this option, all participants already registered for this topic will be accepted automatically. However, topic authors are able to define the maximum number of participants first.
-
-**Only one Topic allowed (participants accepted will be signed out automatically from other topics):** 
-When selecting this option all users accepted as participants will be automatically signed out of all other topics selected before. This means that participants may be registered for only one Topic.
+**Only one Topic allowed (participants accepted will be signed out automatically from other Topics):**<br>
+With this option, OpenOlat automatically signs participants accepted by topic authors out of all other selected topics. Participants are therefore definitively registered for one topic at most.
 
 **Add additional fields:**
-By means of "Add field" you can create fields according to your needs. You can create up to five additional fields for further details.
+Via "Add field", you add up to five fields of your own for a more detailed description of the topics.
 
-In the field "Name" you can indicate a favored field name.
+In the field "Name", you enter the desired field name.
 
-You can offer your topic authors a selection of predefined values displayed in a pull-down menu. Please indicate the corresponding options in the field "Value" separated by semicolons or line breaks. When using a free-text field you can leave the field "Value" blank. Topic authors can then fill in a value of their own choice.
+You can offer the topic authors predefined values or texts for selection, which appear in a drop-down menu. To do so, enter the options separated by semicolons or line breaks in the field "Value". For a free-text field, leave the field "Value" empty. The topic authors then enter any value.
 
-When selecting "**Appears in table**" this field will be displayed in the overview as requested. Apart from that, this information will appear in the detailed topic description.
+If you select "Appears in table", OpenOlat shows the field in the topic overview. Otherwise, the information only appears in the detailed topic description.
 
-By means of "**Delete field**" you can delete additional fields.
+Via "Delete field", you delete additional fields again.
 
-![Three example fields: additional information, a "Prerequisites" selection list and a free text field, each with an "Appears in table" checkbox: tab Configuration in the course editor](assets/Themenvergabe_Zusatz_EN.png){ class="shadow lightbox" }
+![Three example fields: additional information, a "Prerequisites" selection list and a free text field, each with an "Appears in table" checkbox](assets/Themenvergabe_Zusatz_EN.png){ class="shadow lightbox" title="Additional fields in the tab Configuration in the course editor" }
 
-**Manage dates:**
-You can choose which dates should be at the disposal of topic authors.
+**Registration date:**
+Topic authors define a registration deadline for a topic. After this deadline, participants can neither select nor deselect the topic. Topic authors can still sign participants in and out afterwards.
 
-**Registration date:** 
-A topic author can determine a registration deadline for a Topic. After this deadline participants will no longer be able to select or deselect that Topic . However, a topic author still has the option to sign participants in or out.
+**Due date:**
+Once the due date has passed, OpenOlat closes the drop box, and participants can no longer upload documents.
 
-**Deadline:** 
-After a deadline the drop box will be closed. Participants will then no longer be able to upload documents to that drop box.
-
-When selecting **"Appears in table"**, your event will be displayed in the overview.
+If you select "Appears in table", OpenOlat shows the date in the topic overview.
 
 ----
 
@@ -61,182 +58,191 @@ When selecting **"Appears in table"**, your event will be displayed in the overv
 
 **How to appoint topic authors - Tab "Persons in charge"**
 
-  In the tab "Persons in charge" you add those OpenOlat users who should be able to announce and supervise topics. These persons do not necessarily have to hold author rights.
+  In the tab "Persons in charge", you add the persons who may announce and supervise topics. These persons do not need author rights.
 
-  The added persons are listed in the group **"Responsible for the topic"**. Use the **"Add user"** :o_icon_o_icon_add_member: action to open the dialog for adding another person [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}.
+  The added persons appear in the group "Responsible for the topic". Use the "Add user" :o_icon_o_icon_add_member: action to open the dialog for adding another person [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"}.
 
-  If you remove a topic author who has already announced a topic he will still be able to supervise it. However, this person will no longer be able to announce new topics.
+  If you remove topic authors who have already announced topics, they continue to supervise them but cannot announce new topics.
 
-  If the course element "Topic assignment" is imported from another course, the person performing the import is automatically entered as topic author for the imported topics, provided they are a member of the target course. If the importing person is not a member of the target course, no person in charge is entered for the imported topics [:octicons-tag-16:{ title="from Release 20.2.2 (OO-9184)" }](https://track.frentix.com/issue/OO-9184){:target="_blank"}.
+  If you import the course element "Topic assignment" from another course, OpenOlat automatically enters the importing person as the person in charge of the imported topics, provided they are a member of the target course. If the importing person is not a member of the target course, the imported topics have no person in charge [:octicons-tag-16:{ title="from Release 20.2.2 (OO-9184)" }](https://track.frentix.com/issue/OO-9184){:target="_blank"}.
 
-**Role of topic authors**
+* **Role of topic authors**
 
-  When being authorized by a course author to act as topic author, you can announce as well as supervise topics. Just open the course view and navigate to your topic assignment. As a person responsible for a topic you can edit that topic, administer its participants or add more persons responsible for that topic.
+  If the owner of the course enters you in the tab "Persons in charge", you announce and supervise topics yourself. Open the course view and navigate to the topic assignment. As a person in charge, you have access to the associated folders. You also edit the topic, manage the participants of the topic and add further topic authors.
 
-**Folders - Tab "Partial elements"**
+* **Folders - Tab "Partial elements"**
 
-  In the submission folder, participants can upload files that are then accessible to the topic owners. Topic owners can place files in the return folder. The prerequisite is that the folders are activated in the configuration in the course editor.
+  In the drop box, participants upload files that are then accessible to the topic authors. The topic authors place files in the return box. The prerequisite is that the folders are activated in the configuration in the course editor.
 
-**Confirmation of submission - "Submission"**
+* **Confirmation of submission - Tab "Due date"**
 
-  You can optionally enter a text to be presented to the user in a new window after successfully handing in a file. If you do not enter a text, the following message (or similar) will appear: This is to confirm that John Miller (jmiller) has sent the file "test.html" on 21-09-04 at 00:14:42.
+  Optionally, you enter a text that OpenOlat shows the participant in a window after successfully handing in a file. Without your own text, OpenOlat shows something like: This is to confirm that John Miller (jmiller) has sent the file "test.html" on 21-09-04 at 00:14:42.
 
-  By selecting the option _Send text additionally as e-mail_ the user will get an e-mail with the above mentioned confirmation after successfully handing in a file.
+  If you select the option _Send text additionally as e-mail_, OpenOlat additionally sends the participant an e-mail with the confirmation text after a successful submission.
 
 ##  Course view {: #topic_assignment_runtime}
 
-### **How to create a new topic**
+### Create topic
 
-As a course owner or topic manager, you can set up new topics. If you give the learner the right to set a topic (suggestion) within a course, you can help determine how a course is to be structured, for example, or submit suggestions for potential homework or presentations.
+As an owner of the course or as a topic author, you set up new topics. If you enter participants as topic authors, they put topic suggestions in the course themselves, for example for the further design of the course or for potential term papers and presentations.
 
-Click on "**Create new topic**" and enter the topic title and description. Depending on the configuration of the topic assignment, you can describe the topic with further details, set the enrolment and submission deadlines, determine how many course participants may choose your topic and upload additional files as attachments if required. In addition, you determine whether participants are allowed to deselect topics and whether those responsible for the topic should be notified by e-mail when topics are selected or deselected.
+Click on "Create Topic" and enter the title and description of the topic. Depending on the configuration of the topic assignment, you describe the topic with further details, set the registration and due dates, determine how many participants may select your topic and upload files as attachments if required. You also define whether participants may deselect a topic again and whether the topic authors receive an e-mail on selection and deselection.
 
 !!! tip "Hint"
 
-    If you want to change the configuration at a later time, click on the topic title. Now you can edit the topic, change the topic status from "free" to "occupied" or vice versa or delete the topic.
+    If you want to change the configuration later, click on the title of the topic. There you edit the topic, change the topic status from "Vacancies" to "Filled" or vice versa, or delete the topic.
 
-### **Create and edit topic in detail**
+### Create and edit topic in detail
 
-* **Topic:** 
+* **Topic:**
 
-  Via Topic you will find the topics title, which can be edited by the person responsible.
+  Here is the title of the topic. Topic authors can change it.
 
-* **In charge:** 
+* **In charge:**
 
-  Here you have a list of topic authors. When clicking on these authors' names you will get to their visiting cards to contact them.
+  Here are the topic authors. A click on a name opens the visiting card of the person, via which you contact them.
 
 !!! info "Important"
 
-    When creating a Topic you will automatically be the person responsible for this topic. However, you can put others in charge of that role in the tab "Administration of users" or appoint other users to persons responsible for your topic.
+    If you create a topic, you automatically appear as the person in charge. In the tab "Administration of users", you transfer this role to another person or appoint further topic authors.
 
-* **Description:** 
+* **Description:**
 
-  The field "Description" contains more detailed information on this Topic.
+  In the field "Description", you enter detailed information about the topic.
 
 * **Topic status:**
 
-  This field automatically displays the topic status.
+  In this field, OpenOlat automatically shows the topic status.
 
-  If you are the topic manager or course author and no participants have registered for your topic yet, the topic status is set to "No participants to check". If participants have already registered, the status is set to "Check participants". If you have already selected participants from the possible candidates, the status "Participant accepted" is displayed.
+  For topic authors and owners of the course, the topic status is "No participants to check" as long as nobody has registered for the topic yet. If participants have registered, the status is "Check participants". If you have accepted participants from the candidates, OpenOlat shows the status "Participants accepted".
 
-* **Number of vacancies (filled/total):**
+* **Limit number of candidates?:**
 
-  Topic authors can limit the number of vacancies.
+  Here the topic authors limit the available number of places.
 
-* **Allow unsubscribe from topic:** 
-  If activated, participants may also unsubscribe from a topic.
+* **Allow deselection of topic?:**
 
-* **Additional fields:** 
+  If the option is activated, participants may also sign out of a topic again.
 
-  If set up by the course owner in the course editor (see above), further additional fields are available to topic owners. Depending on the implementation, one or more selection elements are available here in a drop-down list or the topic owners can insert text themselves.
+* **Additional fields:**
 
-* **Registration deadline:** 
+  If the owner of the course has set up additional fields in the course editor (see above), they are available to the topic authors here. Depending on the field, the topic authors select a value from a drop-down menu or enter text themselves.
 
-  If topic authors define a registration deadline, you will only be able to select or deselect a topic within a certain period. Before and after that deadline the links "Select" and "Deselect" will be deactivated; users will not be able to sign in or out of your Topic . The person responsible for that topic can nevertheless sign users in or out manually.
+* **Registration date:**
+
+  If the date is set up in the editor, topic authors define a registration deadline here. Only within this period can a topic be selected or deselected. Before and after the deadline, the links "Select" and "Deselect" are deactivated, and participants cannot sign in or out of your topic. Topic authors can sign participants in or out manually before and after the deadline.
 
 * **Due date:**
 
-  If topic authors define a deadline, you will only be able to upload documents to the drop box within a certain period of time. Please indicate either a start date or a deadline or both.
+  If the date is set up in the editor, topic authors define a due date. Only within this period can documents be uploaded to the drop box.
 
-* **Attachment:** 
+* **Attachment:**
 
-  In the field Attachment topic authors can upload a file. Several files can be uploaded as single ZIP file. This makes sense if you want to add extensive documents to a topic. Multiple files can be uploaded as a ZIP file.
+  In the field "Attachment", the topic authors upload a file, for example an extensive document on the topic. You upload multiple files as a ZIP file.
 
-* **E-mail notification when selecting/deselecting Topics:** 
+* **E-mail notification when selecting/deselecting Topics:**
 
-  When choosing this option you will get an e-mail notification in case a course participant selects or deselects your Topic.
+  With this option, you receive an e-mail when participants select or deselect your topic.
 
-![Topic status "Check participant" with the buttons Edit Topic, Delete Topic and Topic set status on "Filled": tab Description of a topic](assets/Themen_belegt.jpg){ class="shadow lightbox" }
+![Topic status "Check participant" with the buttons Edit Topic, Delete Topic and Topic set status on "Filled"](assets/Themen_belegt.jpg){ class="shadow lightbox" title="Tab Description of a topic" }
 
-Via "**Edit Topic**" you will get to the editing mode.
+Via "Edit Topic", you get to the editing mode and change the listed fields.
 
-Click on "**Delete Topic**" to delete your topic from the Topic assignment.
+Click on "Delete Topic" to remove your topic from the topic assignment.
 
-Choose "**Topic set status on "Filled"**" if no further participants should be able to select a Topic . 
+Select "Topic set status on "Filled"" if no further participants should select the topic.
 
-Via "**Reset Topic status to "Vacancies"**" you can open a Topic anew - even if there are participants that are registered and accepted already. 
+Via "Reset Topic status to "Vacancies"", you open a topic for selection again, even if participants have already registered and you have accepted them.
 
 !!! info "Important"
 
-    Please keep in mind that the last two buttons will only be visible if the course author has provided the Topic assignment with the option to accept participants manually.
+    The last two buttons only appear if the owner of the course has configured the topic assignment so that topic authors accept the participants manually.
 
 ## "Folder" and "Administration of users" tabs [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9307)" }](https://track.frentix.com/issue/OO-9307){:target="_blank"} {: #folder_user_management}
 
 ###  Managing participants
 
-If the configuration of your topic assignment requires that course participants have to be accepted by the topic author you will see on the home page of topic assignments the note "Check participant" in a table as soon as somebody has applied for your topic.
+If the configuration of the topic assignment requires topic authors to accept the selection of participants, you see the note "Check participants" in the table on the home page of the topic assignment as soon as somebody has registered for your topic.
 
-![Table with the columns Topic, In charge and Topic status, the entry "Check participants" highlighted: home page of the topic assignment](assets/Topic_Assignement_TN_EN.png){ class="shadow lightbox" }
+![Table with the columns Topic, In charge and Topic status, the entry "Check participants" highlighted](assets/Topic_Assignement_TN_EN.png){ class="shadow lightbox" title="Home page of the topic assignment" }
 
-![Groups "Responsible for the topic" and "Participants accepted" with a table of username, first name, last name, e-mail and a Remove button: tab Administration of users](assets/topic_assignment_user_managementv2_en.png){ class="shadow lightbox" }
+![Groups "Responsible for the topic" and "Participants accepted" with a table of username, first name, last name, e-mail and a Remove button](assets/topic_assignment_user_managementv2_en.png){ class="shadow lightbox" title="Tab Administration of users of a topic" }
 
-Now open the tab "**Administration of users**" and accept the application of your candidate(s).
+Open the tab "Administration of users" and accept the candidates.
 
-Candidates are course participants applying for your topic. By means of "**Accept participant as**" you can decide to whom your topic should be assigned. All participants accepted will be added to the group "Participants accepted" and can be notified via e-mail if you wish. Just highlight those candidates you do not accept and click on "Delete." If you wish, those candidates will be notified via e-mail as well.
+Via "Accept participant as", you select to whom you assign the topic. OpenOlat adds the accepted persons to the group "Participants accepted" and notifies them by e-mail if you wish. Select the candidates you do not accept and click on "Remove". If you wish, OpenOlat also notifies the rejected candidates by e-mail.
 
-If you have not limited the number of vacancies you can repeat this procedure several times. Please remember to select "Topic set status on "Filled"" in the tab "Description" to avoid further applications for your topic.
+If you have not limited the number of places, you repeat the procedure as often as you like. Then select "Topic set status on "Filled"" in the tab "Description" so that no further participants apply for your topic.
 
-In the group "Participants accepted" you can also manually add a person via the **"Add participant"** :o_icon_o_icon_add_member: action, without that person going through the application process. Similarly, in the group "Responsible for the topic" you can use **"Add user"** to add or remove additional topic authors. Participants will not be allowed to edit their topic.
+In the group "Participants accepted", you can also add a person manually via the "Add participant" :o_icon_o_icon_add_member: action, without that person going through the application process. Similarly, in the group "Responsible for the topic", you add or remove further topic authors via "Add user". Participants have no right to edit the topic.
 
 ### How to upload and return files
 
-In the tab "Folder", section "Drop box", you will find all those files course participants have submitted. In the section "Return box" you can put files already corrected. There will be one sub-folder for each course participant.
+In the tab "Folder", section "Drop box", you find all files that participants have submitted. In the section "Return box", you return corrected files. There is one subfolder for each participant.
 
-Subscribe to the drop box of your topic so that you are notified about newly submitted files instead of having to check yourself.
+Subscribe to the drop box of your topic so that OpenOlat notifies you about newly submitted files and you do not have to check yourself. [:octicons-tag-16:{ title="from Release 10.3 (OO-1404)" }](https://track.frentix.com/issue/OO-1404)
 
 ## From the user's perspective
 
-If the topic status is set to "Free", users can register for a topic, as long as they have not exceeded the maximum possible topic selection. If the topic status is set to "Occupied", no further users can register. If you have already selected a topic, the topic status is either "Provisionally assigned" if the person responsible for the topic has to accept you as a participant, or "Assigned" if the registration is automatic. As soon as the topic owner accepts you as a participant, the topic status is set to "Definitively assigned".
+If the topic status is "Vacancies", participants register for a topic, as long as they have not yet selected the maximum possible number of topics. If the topic status is "Filled", no further participants can register. If you have already selected a topic, the topic status is either "Temporary assignment" if the topic authors still have to accept you, or "Assigned" if the registration applies automatically. As soon as the topic authors accept you, the topic status changes to "Definite assignment".
 
 ## Managing Topics of Topic Assignments
 
-The course element "Topic assignment" is used within an OpenOlat course. A course author can configure this element as needed and appoint persons responsible for a topic. Persons responsible for topics can offer their course participants a variety of topics before managing these participants along with their topics. Course participants will be able to submit expositions via drop boxes. Corrections can then be returned via return boxes.
+The course element "Topic assignment" is used within an OpenOlat course. The owner of a course configures the course element as needed and determines the topic authors. As a person in charge, you offer the participants topics to choose from and manage the participants of your topics. The participants submit written work via the drop box, and you return the corrected work to them via the return box.
 
 ## :o_icon_o_projectbroker_icon: Working with topic assignment
 
 ### Select topic {: #select}
 
-In the topic assignment, topic owners provide topics from, for example, term papers, papers, webinar topics, or projects. Depending on the configuration, you can select one or more topics, upload files, and view the files returned by the topic owner.
+In the topic assignment, topic authors provide topics, for example for term papers, presentations, webinars or projects. Depending on the configuration, you select one or more topics, upload files and see the files that the topic authors have returned to you.
 
 ### Table overview Topic assignment
 
-As a course participant, you will see the advertised topics in the table, as well as other information such as the names of the responsible persons, the enrollment and submission period or the number of free places, and you can "choose" your desired topic. Depending on the configuration, you can select one or more themes.
+As a participant, you see the announced topics in the table and further information, such as the names of the persons in charge, the registration and submission period or the number of free places. You select your desired topic with "Select". Depending on the configuration, you select one or more topics.
 
-**Topic status**: If the topic status is "Free", you can sign up for a topic. This is possible until the maximum number of participants or an end date is reached. If the topic status is set to "Occupied", no other users can register for this topic. If you have already selected a topic, the topic status is either set to "Provisionally assigned" when the topic owner must accept you as a participant. As soon as the person responsible for the topic accepts you as a participant, the topic status is set to "Definitely assigned". Alternatively, automatic acceptance is also possible.
+**Topic status**: If the topic status is "Vacancies", you sign up for a topic. This is possible until the maximum number of places or the end of the registration deadline is reached. If the topic status is "Filled", no further participants can sign up for this topic. If you have already selected a topic and the topic authors still have to accept you, the topic status is "Temporary assignment". As soon as the topic authors accept you, the topic status changes to "Definite assignment". If the topic assignment is configured without manual acceptance, your selection applies immediately.
 
-As soon as your choice is final you will see the corresponding entry in the table and find the link to the group with the title of your topic in the upper right corner (possibly the entry will appear only after the next OLAT login). You can deselect a topic only if the topic owner allows it for the affected topic. If there is an enrollment period, you will not be able to unsubscribe after this period in any case.
+As soon as your selection is final, you see the entry in the table and find the link to the group with the title of your topic in the upper right corner (the entry may only appear after your next login). You can only deselect a topic if the topic authors allow it for this topic. If there is a registration deadline, you can no longer sign out after it has passed.
 
-You may not see all of the things listed because your instructor is not using all of the features.
+You may not see all of the listed information, because the topic authors do not use all functions.
 
-Click on a topic to get more information about it:
+Click on a topic to get more information about it.
 
 ### Topic details
 
-**Topic**: In the title the name of the subject is listed.
+**Topic**: Here is the name of the topic.
 
-**Responsible**: The people responsible for the topics are listed here. If you click on the name of the person responsible for the topic, you will get to his business card and you can contact him.
+**In charge**: Here are the topic authors. A click on a name opens the visiting card of the person, via which you contact them.
 
-**Description**: In the Description field, you will find detailed information about the topic, if specified.
+**Description**: In the field "Description", you find detailed information about the topic, if specified.
 
-**Additional fields**: You may be provided with further information in additional fields.
+**Additional fields**: You may find further information in additional fields.
 
-**Enrollment date**: If the topic owners have defined an enrollment period, you can only select or deselect a topic during the corresponding period. Before and after the enrollment deadline, the topic manager can manually enroll or disenroll you.
+**Registration date**: If the topic authors have defined a registration deadline, you only select or deselect a topic within this period. Before and after the registration deadline, the topic authors can sign you in or out manually.
 
-**Deadline**: Files can be submitted in the topic assignment folder until this date.
+**Due date**: Until this date, you submit files in the folder of the topic assignment.
 
-**Attachment**: In the Attachment field, topic owners can provide a file.
+**Attachment**: In the field "Attachment", the topic authors provide a file.
 
 ### Submission process
 
-Optionally, submissions can also be managed when assigning topics.
+Optionally, the topic assignment also manages submissions.
 
 **Upload files to the submission folder of the topic assignment**
 
-Click on the title of the topic. In the "Folder" tab you will find the delivery folder. Depending on the configuration, the submission is deadline-bound and you can only upload files within the submission deadline. You can find detailed information about the dates in the tab "Description".
+Click on the title of the topic. In the "Folder" tab, you find the drop box. Depending on the configuration, the submission is bound to a deadline, and you only upload files within the due date. You find detailed information about the dates in the tab "Description".
 
 **Download files from the return folder**
 
-In the "Folder" tab, in the "Return folder" section, you will find the files that the topic owner has returned to you.
+In the "Folder" tab, in the "Return box" section, you find the files that the topic authors have returned to you.
 
-If you are assigned as a topic owner, you can post topics. You can read more about this under [Further settings for topic assignment](#persons), and about accepting and coaching participants under ["Folder" and "Administration of users" tabs](#folder_user_management).
+If you are entered as a person in charge, you announce topics yourself. You can read more about this under [Further settings for topic assignment](#persons), and about accepting and coaching participants under ["Folder" and "Administration of users" tabs](#folder_user_management).
+
+## Further information {: #further_information}
+
+[Types of Course Elements >](Course_Elements.md)<br>
+[Course Element "Topic Broker" >](Course_Element_Topic_Broker.md)<br>
+[Course Element "Task" >](Course_Element_Task.md)
+
+[To the top of the page ^](#topic_assignment)
 

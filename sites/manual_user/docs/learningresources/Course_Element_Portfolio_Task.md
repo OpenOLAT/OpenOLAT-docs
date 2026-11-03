@@ -1,12 +1,12 @@
-# Course Element "Portfolio Task" {: #course_element_portfolio}
+# Course Element "Portfolio task" {: #course_element_portfolio}
 
 
 ## Profile
 
-Name | Portfolio Task
+Name | Portfolio task
 ---------|----------
 Icon | :o_icon_o_ep_icon:
-Available since | 
+Available since | Release 7.1 or earlier
 Functional group | Assessment
 Purpose | Provision of a portfolio binder for each participant to work on
 Assessable | yes
@@ -15,7 +15,7 @@ Specialty / Note |
 
 ### Functionality
 
-* Authors use the "Portfolio Task" course element to provide a prepared binder for all participants.
+* Authors use the "Portfolio task" course element to provide a prepared binder for all participants.
 * Participants collect the portfolio task in the course and receive their own binder in their portfolio.
 * In this binder, they work on the assignments with content in different formats.
 * If they wish, they share the binder with their coaches or other persons. Depending on the access right, these persons comment on or assess the binder.
@@ -47,12 +47,12 @@ In this tab you define how the course element appears in the course. Under "Disp
 
 In this tab you define, among other things, the completion criterion, that is, when the portfolio task is considered completed.
 
-![Completion criterion in the tab "Learning path" of the course element Portfolio Task with the options from "Visit course element" to "Execution done"](assets/course_element_portfolio_task_tab_learningpath_v2_en.png){ class="shadow lightbox" title="Tab Learning path of the portfolio task in the course editor · 2026.11.02" }
+![Completion criterion in the tab "Learning path" of the course element Portfolio task with the options from "Visit course element" to "Execution done"](assets/course_element_portfolio_task_tab_learningpath_v2_en.png){ class="shadow lightbox" title="Tab Learning path of the portfolio task in the course editor · 2026.11.02" }
 
 
 ### Tab Learning content {: #tab_learning_content}
 
-Once you have added a "Portfolio Task" course element to the course, link it to a learning resource ["Portfolio 2.0 template"](../learningresources/Portfolio_template_Creation.md). To do this, open the "Learning content" tab in the course editor.
+Once you have added a "Portfolio task" course element to the course, link it to a learning resource ["Portfolio 2.0 template"](../learningresources/Portfolio_template_Creation.md). To do this, open the "Learning content" tab in the course editor.
 
 ![Message "No portfolio learning resource has been selected yet." with the buttons "Select" and "Create" in the tab "Learning content"](assets/course_element_portfolio_task_tab_learning_content_v2_en.png){ class="shadow lightbox" title="Tab Learning content of the portfolio task without template · 2026.11.02" }
 
@@ -116,7 +116,7 @@ If an author has prepared a portfolio task in the course, open the course elemen
 
 ---
 
-### Step 2: Overview and access after collection
+### Step 2: Overview and access after collection [:octicons-tag-16:{ title="from Release 19.0 (OO-7482)" }](https://track.frentix.com/issue/OO-7482)
 
 After collecting, the course element shows the status of your work in the "Performance summary": success status, score and the date of collection. With "Open portfolio" you open the binder for editing.
 
@@ -239,7 +239,7 @@ So that your coaches can assess your binder, give them an access right. The same
 
 In the course element of the portfolio task, the section "Portfolio review" with the button "Add access rights" is at the bottom.
 
-![Section "Portfolio review" in the course element Portfolio Task with the open menu "Add access rights", from "Choose owner of course" to "Add invitation"](assets/course_element_portfolio_task_give_access1_v2_en.png){ class="shadow lightbox" title="Section Portfolio review in the course element Portfolio Task · 2026.11.02" }
+![Section "Portfolio review" in the course element Portfolio task with the open menu "Add access rights", from "Choose owner of course" to "Add invitation"](assets/course_element_portfolio_task_give_access1_v2_en.png){ class="shadow lightbox" title="Section Portfolio review in the course element Portfolio task · 2026.11.02" }
 
 <br>
 
@@ -247,7 +247,7 @@ In the course element of the portfolio task, the section "Portfolio review" with
 
 Open the binder and select the "Access control" tab. The "Add access rights" button appears there.
 
-![Tab "Access control" of the portfolio folder with the open menu "Add access rights"](assets/course_element_portfolio_task_give_access2_v2_en.png){ class="shadow lightbox" title="Tab Access control of a binder · 2026.11.02" }
+![Tab "Access control" of the portfolio binder with the open menu "Add access rights"](assets/course_element_portfolio_task_give_access2_v2_en.png){ class="shadow lightbox" title="Tab Access control of a binder · 2026.11.02" }
 
 <br>
 

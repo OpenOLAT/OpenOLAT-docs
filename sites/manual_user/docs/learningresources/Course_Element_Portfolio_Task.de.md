@@ -6,7 +6,7 @@
 Name | Portfolioaufgabe
 ---------|----------
 Icon | :o_icon_o_ep_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Bereitstellung einer Portfolio-Mappe für jede Teilnehmer:in zur Bearbeitung
 Bewertbar | ja
@@ -119,7 +119,7 @@ Hat eine Autor:in im Kurs eine Portfolioaufgabe vorbereitet, öffnen Sie als Tei
 ---
 
 
-### Schritt 2: Übersicht und Zugriff nach Abholung
+### Schritt 2: Übersicht und Zugriff nach Abholung [:octicons-tag-16:{ title="ab Release 19.0 (OO-7482)" }](https://track.frentix.com/issue/OO-7482)
 
 Nach dem Abholen zeigt der Kursbaustein in der "Leistungsübersicht" den Stand Ihrer Bearbeitung: Erfolgsstatus, Punkte und das Datum der Abholung. Mit "Portfolio öffnen" öffnen Sie die Mappe zur Bearbeitung.
 
@@ -146,12 +146,12 @@ Nach dem Abholen öffnen Sie die Mappe also im Kurs oder über Ihr persönliches
 
 **Schritt 3a:** Öffnen Sie die Mappe.
 
-Je nachdem, wie der/die Autor:in die Portfolioaufgabe vorbereitet hat, stehen Ihnen als Teilnehmer:in unterschiedliche Bereiche mit Aufgabenstellungen zur Verfügung:
+Je nachdem, wie die Autor:in die Portfolioaufgabe vorbereitet hat, stehen Ihnen als Teilnehmer:in unterschiedliche Bereiche mit Aufgabenstellungen zur Verfügung:
 
-* Hat der/die Autor:in eine Anleitung und weitere Unterlagen zum Herunterladen angehängt?
-* Hat der/die Autor:in vorgesehen, dass Sie neue Einträge erstellen? Dann bearbeiten Sie die Aufgaben mit dem [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.de.md) und fügen passende Inhalte hinzu, etwa Texte, Bilder oder Videos. Die Autor:in erlaubt das in der Vorlage mit der Option "Benutzer:innen dürfen neue Einträge erstellen" unter `Portfolio 2.0 Vorlage > Administration > Einstellungen > Einstellungen`, siehe [Portfoliovorlage: Administration und Bearbeitung](Portfolio_template_Administration_and_editing.de.md).
-* Hat der/die Autor:in vorgesehen, dass Sie eine Mappe auch wieder löschen dürfen? Dann steht Ihnen in der Mappe links oben die Schaltfläche "Mappe löschen" zur Verfügung.
-* Hat der/die Autor:in vorgesehen, dass Sie ein Formular ausfüllen? Dann finden Sie es in den angezeigten Bereichen.
+* Hat die Autor:in eine Anleitung und weitere Unterlagen zum Herunterladen angehängt?
+* Hat die Autor:in vorgesehen, dass Sie neue Einträge erstellen? Dann bearbeiten Sie die Aufgaben mit dem [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.de.md) und fügen passende Inhalte hinzu, etwa Texte, Bilder oder Videos. Die Autor:in erlaubt das in der Vorlage mit der Option "Benutzer:innen dürfen neue Einträge erstellen" unter `Portfolio 2.0 Vorlage > Administration > Einstellungen > Einstellungen`, siehe [Portfoliovorlage: Administration und Bearbeitung](Portfolio_template_Administration_and_editing.de.md).
+* Hat die Autor:in vorgesehen, dass Sie eine Mappe auch wieder löschen dürfen? Dann steht Ihnen in der Mappe links oben die Schaltfläche "Mappe löschen" zur Verfügung.
+* Hat die Autor:in vorgesehen, dass Sie ein Formular ausfüllen? Dann finden Sie es in den angezeigten Bereichen.
 
 
 **Beispiel:**<br>

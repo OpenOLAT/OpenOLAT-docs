@@ -1,46 +1,46 @@
-#  Kursbaustein "Video Livestream"  {: #livestream}
+# Kursbaustein "Video Livestream" {: #livestream}
 
 ## Steckbrief
 
 Name | Video Livestream
 ---------|----------
 Icon | :o_icon_o_livestream_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 14.0 (OO-4043)
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Anzeige eines Video-Livestreams (von dem/der Administrator:in eingerichtet)
 Bewertbar | nein
 Spezialität / Hinweis |
 
 
-Der Kursbaustein Video Livestream ermöglicht die gleichzeitige Anzeige von 2 Livestreams. Die Videos werden während eines vordefinierten Zeitfensters einzeln oder nebeneinander angezeigt.
-
-Beispiel: Youtube-Livestream
-
+Mit dem Kursbaustein "Video Livestream" zeigen Sie Ihren Teilnehmenden Livestreams direkt im Kurs, zum Beispiel einen Livestream von YouTube. Während eines festgelegten Zeitfensters zeigt der Kursbaustein bis zu zwei Livestreams gleichzeitig, einzeln oder nebeneinander.
 
 **Anwendungsbeispiele:**
 
-* Übertragung einer Vorlesung mit 2 Live-Kameras (1. Kamera vortragende Person, 2. Kamera Präsentation)
-* Regelmässige Beobachtungen von Wetter-Webcams mit Auswertungsauftrag im folgenden Kursbaustein, (z.B. Kursbaustein Checkliste)
-* Regelmässige Tierbeobachtung via Webcam, mit Protokoll-Auftrag (z.B. in Kursbaustein Dokument)  
+* Übertragung einer Vorlesung mit zwei Live-Kameras (erste Kamera auf die vortragende Person, zweite Kamera auf die Präsentation)
+* Regelmässige Beobachtung von Wetter-Webcams mit einem Auswertungsauftrag im folgenden Kursbaustein (zum Beispiel im Kursbaustein "Checkliste")
+* Regelmässige Tierbeobachtung per Webcam mit einem Protokollauftrag (zum Beispiel im Kursbaustein "Dokument")
 
 ## Vorbereitung durch den/die Administrator:in
 
 Die Administrator:innen finden die Konfiguration in der System-Administration unter: `Administration > Module > Livestream`.<br>
 Dort aktivieren sie den Kursbaustein und bei Bedarf die Option Multistream für zwei gleichzeitige Livestreams; bei aktiviertem Multistream legen sie zusätzlich das Trennzeichen für mehrere URLs eines Termins fest. Unter Initialwerte hinterlegen sie die Vor- und Nachlaufzeit in Minuten, das Bearbeitungsrecht für Betreuer:innen sowie den anzuzeigenden Stream als Vorgabe für neue Kursbausteine.
 
-![Einstellungen des Kursbausteins Livestream mit Initialwerten für Vor-/Nachlaufzeit und Streamauswahl, Seite Livestream im Menü Module](assets/course_element_livestream_admin_settings_v1_de.png){ class="shadow lightbox" }
+![Einstellungen des Kursbausteins Livestream mit Initialwerten für Vor- und Nachlaufzeit und der Auswahl des Streams](assets/course_element_livestream_admin_settings_v1_de.png){ class="shadow lightbox" title="Seite Livestream im Menü Module" }
 
 
 
 ## Tab Konfiguration
 
-Sind die Livestreams vorbereitet, finden die Kursautor:innen nach dem Einfügen des Kursbausteins im Kurseditor den Tab "Konfiguration".<br>
-Dort stellen sie die Vor- und Nachlaufzeit in Minuten ein, legen fest, ob Betreuer:innen die Termine bearbeiten dürfen, und wählen bei aktiviertem Multistream, ob beide Livestreams oder nur einer angezeigt wird.
+Wie lange vor und nach einem Termin der Livestream sichtbar ist und wer die Termine pflegt, legen Sie als Autor:in im Kurseditor fest. Nach dem Einfügen des Kursbausteins öffnen Sie dafür den Tab "Konfiguration":<br>
+`Kurs > Administration > Kurseditor > Kursbaustein wählen > Tab "Konfiguration"`
+
+Dort stellen Sie "Vorlaufzeit (in Minuten)" und "Nachlaufzeit (in Minuten)" ein und legen mit "Betreuer:in darf Termine bearbeiten" fest, ob Betreuer:innen die Termine bearbeiten dürfen. Ist Multistream eingeschaltet, wählen Sie unter "Stream", ob beide Livestreams oder nur einer angezeigt wird.
 
 ## Weiterführende Informationen {: #further_information}
 
 [Kursbausteine >](Course_Elements.de.md)<br>
-[Kursbaustein "Opencast" >](Course_Element_Opencast.de.md)
+[Kursbaustein "Opencast" >](Course_Element_Opencast.de.md)<br>
+[Kursbaustein "Kalender" >](Course_Element_Calendar.de.md)
 
 [Zum Seitenanfang ^](#livestream)
 

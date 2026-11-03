@@ -6,7 +6,7 @@
 Name | edu-sharing
 ---------|----------
 Icon | ![edu-sharing Icon](assets/course_element_edu-sharing_icon.png){ class=size24  }
-Verfügbar seit | 
+Verfügbar seit | Release 15.1 (OO-4676)
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Nutzung von Inhalten der Bildungscloud edu-sharing
 Bewertbar | nein
@@ -14,9 +14,13 @@ Spezialität / Hinweis |
 
 
 
-Edu-sharing ist eine Software, um Lernplattformen miteinander zu vernetzen, um Lerninhalte, Metadaten und Werkzeuge auszutauschen und in einer Bildungscloud auffindbar und in allen angeschlossenen Systemen nutzbar zu machen. In der System-Administration kann das Modul generell aktiviert und die Nutzung von edu-sharing als Kursbaustein freigeschaltet werden, unter: `Administration > Externe Werkzeuge > edu-sharing`.
+Mit dem Kursbaustein "edu-sharing" binden Sie Lerninhalte aus der Bildungscloud edu-sharing in Ihren Kurs ein. edu-sharing vernetzt Lernplattformen: Lerninhalte, Metadaten und Werkzeuge sind darüber auffindbar und in allen angeschlossenen Systemen nutzbar.
 
-Weitere Informationen sind auf der Webseite von [edu-sharing](https://edu-sharing.com/) zu finden.
+Als Autor:in wählen Sie im Kurseditor im Tab "edu-sharing" mit "Auswählen" den Inhalt aus. Unter "Version" legen Sie fest, ob der Kurs die Version zum Zeitpunkt der Einbindung zeigt ("Gewählte") oder immer die aktuellste Version ("Aktuellste").
+
+In der System-Administration kann das Modul generell aktiviert und die Nutzung von edu-sharing als Kursbaustein freigeschaltet werden, unter: `Administration > Externe Werkzeuge > edu-sharing`.
+
+Weitere Informationen finden Sie auf der Webseite von [edu-sharing](https://edu-sharing.com/).
 
 ## Weiterführende Informationen {: #further_information}
 

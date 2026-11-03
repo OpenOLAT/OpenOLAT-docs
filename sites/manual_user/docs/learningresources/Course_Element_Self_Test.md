@@ -6,26 +6,30 @@
 Name | Self-test
 ---------|----------
 Icon | :o_icon_o_iqself_icon:
-Available since | 
+Available since | Release 7.1 or earlier
 Functional group | Assessment
 Purpose | Course element for integration of a learning resource "test" into a course
 Assessable | yes
 Specialty / Note | Pre-configured course element "Test"
 
-Like the "Test", the course element "Self-test" uses the learning resource Test and is configured and set up similarly. The main difference is that there is no option "passed/failed" and the tab "Highscore" is omitted.
+With the course element "Self-test", participants practise the content of the course and check for themselves where they stand. They take a self-test as often as they like.
 
-In contrast to the course element "Test" self-tests are suitable to get practice; results of self-tests will be saved anonymously. Self-tests can be taken as often as needed.
+Like the [course element "Test"](Course_Element_Test.md), the self-test embeds a learning resource of the type Test and is configured similarly. Unlike the test, there is no tab "HighScore", and the course element does not appear in the assessment tool. If the embedded test has a cut value, the self-test still shows the success status "passed" or "failed", in the results after submission and in the performance summary of the course element. If you export the results via the [archiving](Course_Archiving.md) of the course, they appear anonymised.
 
-The course element "Self-test" contains learning resources of the type "Test." If you have not generated a test before please follow the instructions in the chapter "[How do I proceed when I create a test](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)".
+If you have not yet created a test, follow the instructions [How do I proceed when I create a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
-For more information on tests, refer to the chapter "[Configure tests](../learningresources/Configure_tests.md)". The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
+For more information on tests, see the page [Configure tests](../learningresources/Configure_tests.md). For the use in a course, the page [Tests at course level](../learningresources/Tests_at_course_level.md) is particularly important.
 
-A more complex alternative to the self-test is the course element "Practice".
+A more extensive alternative to the self-test is the [course element "Practice"](Course_Element_Practice.md).
 
 ## Further information {: #further_information}
 
+[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course administration - Archiving & Reports >](Course_Archiving.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [Configure tests >](../learningresources/Configure_tests.md)<br>
-[Tests at course level >](../learningresources/Tests_at_course_level.md)
+[Tests at course level >](../learningresources/Tests_at_course_level.md)<br>
+[Course Element "Practice" >](Course_Element_Practice.md)<br>
+[Types of Course Elements >](Course_Elements.md)
 
 [To the top of the page ^](#course_element_self_test)

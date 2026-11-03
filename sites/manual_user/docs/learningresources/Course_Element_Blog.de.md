@@ -5,7 +5,7 @@
 Name | Blog
 ---------|----------
 Icon | :o_icon_o_blog_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Information von Teilnehmenden über aktuelle Themen
 Bewertbar | nein
@@ -13,28 +13,26 @@ Spezialität / Hinweis |
 
 
 
-Ähnlich wie der Podcast dient auch der Blog dazu, aktuelle neue Inhalte zur Verfügung zu stellen. In den Beiträgen können neben Text auch Bilder oder Filme eingebunden sein und in Kommentaren können auch Dateien angehängt (hochgeladen) werden. 
+Mit dem Kursbaustein "Blog" halten Sie die Teilnehmenden Ihres Kurses über aktuelle Themen auf dem Laufenden, ähnlich wie mit einem Podcast. Beiträge enthalten neben Text auch Bilder oder Videos, und an Kommentare lassen sich Dateien anhängen.
 
-Als Kursbesitzer:innen / Betreuer:innen eines Kurses können Sie so z.B. in einem Blog die Teilnehmenden Ihres Kurses über aktuelle Themen informieren. Sie können auch mehr oder weniger regelmässig einen inhaltlichen Blog führen und so die Teilnehmenden über neue Aspekte zum Veranstaltungsthema informieren.
+Als Besitzer:in oder Betreuer:in eines Kurses führen Sie so zum Beispiel einen Blog zum Thema der Veranstaltung und informieren die Teilnehmenden über neue Aspekte.
 
 
 ## Kursbaustein und Lernressource {: #course_element_learning_resources}
 
-In einen Blog-Kursbaustein muss jeweils eine Blog-Lernressource eingebunden werden.
+Ein Kursbaustein "Blog" zeigt immer eine Blog-Lernressource an. Nach dem Einfügen des Kursbausteins wählen Sie im Tab "Blog-Lerninhalt" einen der vier Wege:
 
-Wurde der Kursbaustein eingefügt, kann im **Tab "Blog-Lerninhalt"**
+* **Auswählen:** Sie wählen eine vorhandene Blog-Lernressource aus dem Autorenbereich.
+* **Erstellen:** Sie erstellen direkt im Kursbaustein eine neue Blog-Lernressource. OpenOlat legt sie im Autorenbereich ab, von dort verwenden Sie sie auch in anderen Kursbausteinen.
+* **Per URL einbinden:** Sie binden einen externen Blog über seine URL ein.
+* **Import:** Sie importieren einen Blog, der als Datei vorliegt. Den Eintrag finden Sie im Menü neben "Per URL einbinden".
 
-* **1:** eine bereits **vorhandene Blog-Lernressource** aus dem Autorenbereich ausgewählt werden.
-* **2:** eine **neue Blog-Lernressource** direkt vom Kursbaustein aus erstellt werden. (Die Blog-Lernressource wird im Autorenbereich abgelegt und kann danach von dort auch in anderen Kursbausteinen verwendet werden.)
-* **3:** ein **externer Blog** als Lernressource **via URL** eingebunden werden.
-* **4:** ein **als Datei vorhandener Blog importiert** werden.
+![Tab Blog-Lerninhalt im Kurseditor mit den Optionen Auswählen, Erstellen, Per URL einbinden und Import](assets/course_element_blog_content_v1_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor" }
 
-![Tab Blog-Lerninhalt im Kurseditor mit den Optionen Auswählen, Erstellen, Per URL einbinden und Import](assets/course_element_blog_content_v1_de.png){ class="shadow lightbox" }
+!!! tip "Tipp"
 
-!!! info "Wichtig"
-
-    Eine Blog-Lernressource kann auch im Autorenbereich unter dem Button "Erstellen" neu erstellt werden. Wird sie so erstellt, kann sie anschliessend im Kurseditor in einen Kursbaustein "Blog" eingebunden werden.<br><br>
-    ![Menü Erstellen im Autorenbereich mit hervorgehobenem Eintrag Blog](assets/course_element_blog_create_learningresource_v1_de.png){ class="shadow lightbox" }
+    Eine Blog-Lernressource erstellen Sie auch im Autorenbereich über "Erstellen". Anschliessend binden Sie sie im Kurseditor in einen Kursbaustein "Blog" ein.<br><br>
+    ![Menü Erstellen im Autorenbereich mit hervorgehobenem Eintrag Blog](assets/course_element_blog_create_learningresource_v1_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich" }
 
 !!! tip "Tipp"
 

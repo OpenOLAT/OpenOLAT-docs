@@ -5,7 +5,7 @@
 Name | vitero
 ---------|----------
 Icon | :o_icon_o_vitero_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 8.0 (2012)
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software vitero
 Bewertbar | nein
@@ -15,42 +15,43 @@ Spezialität / Hinweis | Kommerzielle Software, Lizenz und Serverhosting erforde
 
 ## Tool Spezifisches
 
-Mit dem Kursbaustein "vitero" können Sie das vitero System für Web Conferencing, E-Collaboration, Live-E-Learning und Language Learning in ihren Kurs einbinden. vitero (virtual team room) ermöglicht Ihnen, Termine für bis zu 12 Teilnehmer plus Moderator zu erstellen.
+Mit dem Kursbaustein "vitero" binden Sie das vitero System für Web Conferencing, E-Collaboration, Live-E-Learning und Language Learning in Ihren Kurs ein. vitero (virtual team room) stellt virtuelle Teamräume bereit, für die Sie im Kurs Termine anlegen. Welche Raumgrössen zur Wahl stehen, bestimmt die Lizenz des angebundenen vitero Servers.
 
-Der virtuelle Sitzungsraum gestattet den Teilnehmern die Kommunikation über Textchat, Audio und Video sowie Dokument- und Desktopsharing. Das vitero System kann für virtuelle Teamsitzungen, aber auch z.B. für Frontalvorlesungen verwendet werden. Es unterstützt ein Rollenmodell mit den drei temporären Rollen Moderator, Co-Moderator und Teilnehmer, und spiegelt darin die OpenOlat-Rollen Kursadministrator, Betreuer und Teilnehmer wider.  
+Im virtuellen Sitzungsraum kommunizieren die Teilnehmenden über Textchat, Audio und Video und teilen Dokumente und den Desktop. Das vitero System eignet sich für virtuelle Teamsitzungen, aber auch zum Beispiel für Frontalvorlesungen. Besitzer:innen und Betreuer:innen des Kurses, die Sie in einen Termin eintragen, erhalten in vitero die Rolle "Gruppenleiter:in".
 
 !!! note "Link zu weiteren Infos"
 
     Mehr zu den Funktionen des vitero Systems erfahren Sie auf der Homepage der vitero GmbH:<br>
-    [http://www.vitero.de](http://www.vitero.de/)  
+    [http://www.vitero.de](http://www.vitero.de/)
 
 
 ## Konfiguration im Kurseditor
 
 ![Terminverwaltung mit den Schaltflächen Termin anlegen und Auslastung Teamräume](assets/vitero_Kurseditor.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor" }
 
-Im Kurseditor oder in der Kursansicht können Sie Ihre vitero Termine erfassen. Wählen Sie dazu die Schaltfläche "**Termin anlegen**". Zuvor können Sie mit der Schaltfläche "**Auslastung Teamräume**" die aktuelle Auslastung der verfügbaren Teamräume ansehen um einen freien Termin zu finden.
+Ihre vitero Termine legen Sie im Kurseditor im Tab "Konfiguration" oder in der Kursansicht an. Mit "Auslastung Teamräume" sehen Sie zuerst, wie stark die verfügbaren Teamräume belegt sind, und finden so einen freien Termin. Klicken Sie dann auf "Termin anlegen".
 
-## Konfiguration in der Kursansicht {: #konfiguration-im-kursrun-geschlossener-editor}
+## Termin anlegen {: #konfiguration-im-kursrun-geschlossener-editor}
 
-![Terminfelder, Zeitpuffer vor Terminbeginn und nach Terminende, Raumgrösse und Option "Einschreibung durch Benutzer"](assets/Vitero_Konfiguration.png){ class="shadow lightbox" title="Dialog Editieren im Kursbaustein vitero" }
+![Terminfelder, Zeitpuffer vor Terminbeginn und nach Terminende, Raumgrösse und Option "Einschreibung durch Benutzer:innen"](assets/Vitero_Konfiguration.png){ class="shadow lightbox" title="Dialog Editieren im Kursbaustein vitero" }
 
-Geben Sie nun das Start- und das Enddatum des Termins ein und wählen Sie die Grösse des Raums. Mit "**Zeitpuffer vor Terminbeginn**" können Sie festlegen wie viele Minuten vor dem Startdatum der Raum betreten werden kann. Mit "**Zeitpuffer nach Terminende**" legen Sie fest, wie viele Minuten nach Terminende der Termin definitiv geschlossen wird.
+Geben Sie unter "Beginn" und "Ende" das Start- und Enddatum des Termins ein und wählen Sie die "Raumgrösse". Unter "Zeitpuffer vor Terminbeginn" legen Sie fest, wie viele Minuten vor Beginn sich der Raum betreten lässt. Unter "Zeitpuffer nach Terminende" legen Sie fest, wie viele Minuten nach dem Ende vitero den Termin endgültig schliesst.
 
-Mit der Option "**Einschreibung durch Benutzer**" ermöglichen Sie es allen Teilnehmenden, welche Zugriff auf den Kursbaustein haben, sich selbständig in diesen Termin einzutragen. Dies ist so lange möglich wie es noch freie Plätze hat. Ist diese Option ausgeschaltet, können nur Kursbesitzer Teilnehmende in die Termine eintragen.
+Mit der Option "Einschreibung durch Benutzer:innen" tragen sich alle Teilnehmenden mit Zugriff auf den Kursbaustein selbst in den Termin ein, solange freie Plätze vorhanden sind. Ist die Option ausgeschaltet, tragen nur Besitzer:innen des Kurses Teilnehmende in die Termine ein.
 
 !!! info "Wichtig"
 
-    Für Teilnehmende sind Termine nur dann sichtbar, wenn sie in diesem Termin eingetragen sind, oder der Termin zur freien Einschreibung konfiguriert wurde.
+    Für Teilnehmende sind Termine nur dann sichtbar, wenn sie in diesem Termin eingetragen sind oder der Termin die Option "Einschreibung durch Benutzer:innen" trägt.
 
 !!! warning "Achtung"
 
-    Ist ein Termin angelegt, kann er nach Speichern des Formulars nicht mehr verändert werden.
+    Ist ein Termin angelegt, lässt er sich nach dem Speichern des Formulars nicht mehr verändern.
 
 ## Weiterführende Informationen {: #further_information}
 
-**Auf dieser Seite erwähnt**<br>
-[vitero GmbH](http://www.vitero.de/)
+[vitero GmbH](http://www.vitero.de/)<br>
+[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbaustein "BigBlueButton" >](bigbluebutton/index.de.md)
 
 [Zum Seitenanfang ^](#vitero)
 

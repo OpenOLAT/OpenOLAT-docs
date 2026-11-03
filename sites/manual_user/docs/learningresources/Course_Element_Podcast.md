@@ -6,37 +6,39 @@
 Name | Podcast
 ---------|----------
 Icon | :o_icon_o_podcast_icon:
-Available since | 
+Available since | Release 7.1 or earlier
 Functional group | Knowledge transfer
 Purpose | Provision of subscribable audio and video episodes
 Assessable | no
 Specialty / Note | 
 
-The course element "Podcast" can either be used to publish self-created audio and video files chronologically and make them available in a course element or to simply integrate external podcast episodes into OpenOlat.
+With the course element "Podcast" you provide audio and video contributions to your participants in the course. You use it to publish self-created audio and video files in chronological order or to integrate the episodes of an external podcast into OpenOlat.
 
-A podcast provides information in the form of audio or video files. On the one hand, you can listen to or view these so-called episodes directly in OpenOlat; on the other hand, you can subscribe to podcasts, download the episodes to local portals such as iTunes and copy them to your mobile device.
+The individual audio or video files of a podcast are called episodes. Participants listen to or watch the episodes directly in OpenOlat. They can also subscribe to the podcast, for example via RSS or iTunes, and load the episodes onto their mobile device.
 
-It is also possible to configure the course element so that course participants can create episodes of the podcast together.
+You can also configure the course element so that participants contribute episodes to the podcast together.
 
 ## Create or edit episode
 
-People who are authorized to create new episodes (see [Configure podcast](../learningresources/Podcast_Configuration.md)) will see the "Add episode" button and can upload their audio or video contribution to the podcast.
+You define who may create new episodes in the configuration of the podcast, see [Podcast - Configurations](../learningresources/Podcast_Configuration.md). Persons with this right see the button "Add episode" and use it to upload their audio or video contribution to the podcast.
 
-An episode always contains exactly one audio or video file. Select it on your computer so that it can be uploaded afterwards. This may take some time depending on the size of the file. Note that only the formats FLV, MP3, MP4, M4V, M4A and AAC are allowed.
+An episode always contains exactly _one_ audio or video file. Select the file on your computer, OpenOlat then uploads it. Depending on the size of the file, this takes a while. The formats FLV, MP3, MP4, M4V, M4A and AAC are allowed.
 
-The exact procedure is described in step 4 of the page [How do I create a podcast?](../../manual_how-to/podcast/podcast.md).
+Step 4 of the instructions [How do I create a podcast?](../../manual_how-to/podcast/podcast.md) describes the exact procedure.
 
 ## Comment on episodes
 
-All course participants have the right to comment on episodes and rate them with 1-5 stars. To post a comment or read existing comments, click on the "Comments" link.
+All logged-in persons who see the podcast comment on the episodes and rate them with 1 to 5 stars. Guests only read the comments. To post a comment or read existing comments, click on the link "Comments".
 
 !!! tip "Tip"
 
-    Subscribe to the podcast's RSS feed to never miss new episodes.
+    Subscribe to the podcast to never miss new episodes.
 
 ## Further information {: #further_information}
 
-[Configure podcast (as course owner/author) >](../learningresources/Podcast_Configuration.md)<br>
-[How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)
+[Podcast - Configurations >](../learningresources/Podcast_Configuration.md)<br>
+[How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
+[Types of Course Elements >](Course_Elements.md)<br>
+[Course Element "Blog" >](Course_Element_Blog.md)
 
 [To the top of the page ^](#podcast)

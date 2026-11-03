@@ -6,7 +6,7 @@
 Name | Bewertung
 ---------|----------
 Icon | :o_icon_o_ms_icon:
-Verfügbar seit | 
+Verfügbar seit | Release 7.1 oder früher
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Bewertung von Leistungen, auch wenn sie ausserhalb von OpenOlat erbracht wurden (z.B. Präsenz-Referate, praktische Arbeiten)
 Bewertbar | ja
@@ -55,9 +55,9 @@ Ist zusätzlich die Rubrik-Bewertung eingeschaltet, kann OpenOlat die Punkte aus
 
 ### Bewertung mit Einstufung/Noten [:octicons-tag-16:{ title="ab Release 16.2 (OO-6009)" }](https://track.frentix.com/issue/OO-6009)
 
-Sobald "Punkte vergeben" eingeschaltet ist, kann auch die Option "Bewertung mit Einstufung/Noten" eingeschaltet und weiter konfiguriert werden. OpenOlat rechnet die Punkte dann in eine Note um.
+Sobald "Punkte vergeben" eingeschaltet ist, können Sie auch die Option "Bewertung mit Einstufung/Noten" einschalten. OpenOlat rechnet die Punkte dann in eine Note um.
 
-Mit "Bewertungsskala bearbeiten" wählen Sie eine Skala und legen bei Bedarf weitere Einstellungen fest. Die Skala legt auch fest, ob und ab wann eine Bewertung als bestanden gilt. Mit eingeschalteter Option bestimmt die Bewertungsskala das Bestehen: Die Option "Bestanden/Nicht bestanden ausgeben" entfällt, und das Formular zeigt stattdessen das "Erfolgskriterium" der Skala, sofern sie eines festlegt.
+Mit "Bewertungsskala bearbeiten" wählen Sie eine Skala und legen bei Bedarf weitere Einstellungen fest. Die Skala legt auch fest, ob und ab wann eine Bewertung als bestanden gilt. Mit eingeschalteter Option bestimmt die Bewertungsskala das Bestehen: Die Option "Bestanden/Nicht bestanden ausgeben" erscheint nicht, und das Formular zeigt stattdessen das "Erfolgskriterium" der Skala, sofern sie eines festlegt.
 
 Unter "Zuweisung" legen Sie fest, ob die Betreuenden die Note manuell zuweisen ("Manuell") oder ob OpenOlat sie automatisch zuweist ("Automatisch bei Punktänderungen"). Mehr dazu auf der Seite [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md).
 
@@ -76,7 +76,7 @@ In Lernpfadkursen erscheint die Option "Bei Kurs-Bewertung berücksichtigen", so
 
 In herkömmlichen Kursen legen Sie das im Tab "Punkte" des obersten Kursbausteins fest.
 
-### Skalierungsfaktor für Kurs-Bewertung {: #score_scaling}
+### Skalierungsfaktor für Kurs-Bewertung [:octicons-tag-16:{ title="ab Release 18.2 (OO-7378)" }](https://track.frentix.com/issue/OO-7378) {: #score_scaling}
 
 Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Punkte vergeben" sowie "Bei Kurs-Bewertung berücksichtigen" eingeschaltet sind. OpenOlat multipliziert die Punkte des Kursbausteins für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](Course_Settings_Assessment.de.md#evaluation_with_points_weighting).
 

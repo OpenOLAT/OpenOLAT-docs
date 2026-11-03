@@ -6,7 +6,7 @@
 Name | Assessment
 ---------|----------
 Icon | :o_icon_o_ms_icon:
-Available since | 
+Available since | Release 7.1 or earlier
 Functional group | Assessment
 Purpose | Assessment of performances, even if they were performed outside OpenOlat (e.g. presence presentations, practical work)
 Assessable | yes
@@ -56,7 +56,7 @@ If the rubric assessment is also switched on, OpenOlat can transfer the points f
 
 ### Levels/Grading [:octicons-tag-16:{ title="from Release 16.2 (OO-6009)" }](https://track.frentix.com/issue/OO-6009)
 
-As soon as "Score granted" is switched on, the option "Levels/Grading" can also be switched on and further configured. OpenOlat then converts the points into a grade.
+As soon as "Score granted" is switched on, you can also switch on the option "Levels/Grading". OpenOlat then converts the points into a grade.
 
 With "Edit rating scale" you select a scale and define further settings if needed. The scale also defines whether and from when an assessment counts as passed. With the option switched on, the rating scale determines the passing: the option "Display passed / not passed" is not shown, and the form instead shows the "Success criterion" of the scale, provided it defines one.
 
@@ -77,7 +77,7 @@ In learning path courses, the option "Include in course assessment" appears as s
 
 In conventional courses, you define this in the tab "Score" of the top course element.
 
-### Scaling factor for course assessment {: #score_scaling}
+### Scaling factor for course assessment [:octicons-tag-16:{ title="from Release 18.2 (OO-7378)" }](https://track.frentix.com/issue/OO-7378) {: #score_scaling}
 
 The field appears if the course assessment adds up the points with weighting and "Score granted" as well as "Include in course assessment" are switched on. OpenOlat multiplies the points of the course element by this factor for the course assessment. More about this under [Course assessment with points: Sum with weighting](Course_Settings_Assessment.md#evaluation_with_points_weighting).
 
