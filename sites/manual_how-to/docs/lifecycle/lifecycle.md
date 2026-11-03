@@ -117,6 +117,10 @@ The basis is the administrator's default settings:
 * As soon as you have selected a course and marked the checkbox at the beginning of the line, further buttons appear above the list. Here you can restore a course. Administrators and learning resource managers can delete it permanently.
 * Also by clicking on the 3 dots at the end of a line you will get to the options for restoring or permanently deleting.
 
+!!! warning "Attention"
+
+    "Restore" brings back the course with its content, with the status "Finished". Already when the course is moved to the trash, OpenOlat removes the members other than the owners, the links to groups and to elements in the Course Planner, the catalog entries, the "Offer for guests" and the offers "Without booking". These do not come back. The details are listed under [What deleting removes](../../manual_user/learningresources/Course_Delete.md#removed_on_delete).
+
 ![Tab Deleted with courses in the status Trash, the buttons Restore and Delete permanently and the same actions in the menu with the three dots](assets/lifecycle_course_authoring_v1_en.png){ class="shadow lightbox" title="Tab Deleted in the authoring area" }
 
 How system administrators configure the periods, check the impacts in the confirmation dialog and follow the running process is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
@@ -230,6 +234,7 @@ It can be configured so that owners are notified of status changes.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Delete (a course or learning resource) >](../../manual_user/learningresources/Course_Delete.md)<br>
 [Automatic Course Life Cycle >](../../manual_admin/administration/Automatic_Course_Lifecycle.md)<br>
 [Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Life cycles - Overview >](../../manual_admin/administration/Life_cycles_-_Administration.md)<br>

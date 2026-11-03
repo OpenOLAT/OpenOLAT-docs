@@ -118,6 +118,10 @@ Grundlage sind die Voreinstellungen der Administration:
 * Sobald Sie einen Kurs ausgewählt und die Checkbox am Beginn der Zeile markiert haben, erscheinen über der Liste weitere Buttons. Sie können hier einen Kurs wiederherstellen. Endgültig löschen können ihn Administrator:innen und Lernressourcenverwalter:innen.
 * Auch durch Klick auf die 3 Punkte am Ende einer Zeile gelangen Sie zu den Optionen für das Wiederherstellen oder dauerhafte Löschen.
 
+!!! warning "Achtung"
+
+    "Wiederherstellen" holt den Kurs mit seinem Inhalt zurück, mit dem Status "Beendet". Schon beim Verschieben in den Papierkorb entfernt OpenOlat die Mitglieder ausser den Besitzer:innen, die Verknüpfungen mit Gruppen und mit Elementen im Course Planner, die Katalogeinträge, das "Angebot für Gäste" und die Angebote "Ohne Buchung". Diese kommen nicht zurück. Was genau entfällt, steht unter [Was beim Löschen entfernt wird](../../manual_user/learningresources/Course_Delete.de.md#removed_on_delete).
+
 ![Reiter Gelöscht mit Kursen im Status Papierkorb, die Buttons Wiederherstellen und Dauerhaft löschen sowie dieselben Aktionen im Menü mit den drei Punkten](assets/lifecycle_kurs_autorenbereich_v1_de.png){ class="shadow lightbox" title="Reiter Gelöscht im Autorenbereich" }
 
 Wie Systemadministrator:innen die Fristen konfigurieren, die Auswirkungen im Bestätigungsdialog prüfen und den laufenden Prozess verfolgen, beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
@@ -231,6 +235,7 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Löschen (eines Kurses/einer Lernressource) >](../../manual_user/learningresources/Course_Delete.de.md)<br>
 [Automatischer Kurs-Lebenszyklus >](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md)<br>
 [Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>

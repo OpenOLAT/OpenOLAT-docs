@@ -150,6 +150,10 @@ This tab corresponds to the trash and the step before permanent deletion.
 There they are visible to their respective owners as well as to learning resource managers and administrators. These persons can bring them back with the button "Restore".
 Only administrators and learning resource managers can delete them permanently. They select the learning resources in this tab and click the button "Delete permanently".
 
+!!! warning "Attention"
+
+    "Restore" brings back the learning resource with its content. Already when the resource is moved to the trash, OpenOlat removes the members other than the owners, the links to groups and to elements in the Course Planner, the catalog entries, the "Offer for guests" and the offers "Without booking". These do not come back. The details are listed under [What deleting removes](../../manual_user/learningresources/Course_Delete.md#removed_on_delete).
+
 ![Delete permanently button for a selected course](assets/course_deleted_v1_en.png){ class="shadow lightbox" title="Deleted tab in the authoring area" }
 
 <br>
@@ -221,6 +225,7 @@ Detailed information on the life cycles can be found at<br>
 [Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Course Administration: Overview >](../../manual_user/learningresources/Administration.md)<br>
 [Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
+[Delete (a course or learning resource) >](../../manual_user/learningresources/Course_Delete.md)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../lifecycle/lifecycle.md)
 
 **Further reading**<br>

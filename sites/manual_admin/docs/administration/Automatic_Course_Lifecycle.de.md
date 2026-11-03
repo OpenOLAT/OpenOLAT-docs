@@ -5,7 +5,7 @@ Wer viele Kurse betreibt, möchte alte Kurse nach dem Kursende geordnet beenden,
 Die Konfiguration nehmen Administrator:innen in der System-Administration vor unter:<br>
 `Administration > Lebenszyklen > Kurse`
 
-![Kurse nach dem Kursende automatisch beenden, in den Papierkorb verschieben und endgültig löschen, je nach Frist; vor dem Speichern zeigt eine Bestätigung die Anzahl betroffener Kurse](assets/automatic_course_lifecycle_stages_v1_de.svg){ class="lightbox" }
+![Kurse nach dem Kursende automatisch beenden, in den Papierkorb verschieben und endgültig löschen, je nach Frist; vor dem Speichern zeigt eine Bestätigung die Anzahl betroffener Kurse](assets/automatic_course_lifecycle_stages_v1_de.svg){ class="lightbox" title="Lebenszyklus eines Kurses" }
 
 
 ## Die drei Schritte {: #steps}
@@ -16,7 +16,7 @@ Ein Kurs verlässt den Betrieb in drei Schritten, damit sich ein Fehlgriff bis z
   "Beendet" ist ein Status des Kurses: Die Durchführung ist abgeschlossen, der Kurs bleibt aber mit seinen Mitgliedern bestehen. Welchen Zugriff Teilnehmende auf einen beendeten Kurs haben, legt eine systemweite Einstellung im [Modul Lernressource, Tab Zugang](Modules_Learning_Resource.de.md#tab_accesss) fest: Nur-Lese-Zugriff oder Kein Zugriff. Pro Kurs lässt sie sich überschreiben. Ein beendeter Kurs lässt sich wieder auf einen aktiven Status setzen.
 
 * **2 Papierkorb**<br>
-  Im Papierkorb ist der Kurs gelöscht, aber noch vorhanden. OpenOlat entfernt die Teilnehmer:innen, die Besitzer:innen bleiben eingetragen. Der Kurs steht im Autorenbereich im Tab "Gelöscht" mit dem Status "Papierkorb" und lässt sich von dort wiederherstellen. Im Abschnitt "Lebenszyklus-Prozess" heisst dieser Schritt "Gelöscht".
+  Im Papierkorb ist der Kurs gelöscht, aber noch vorhanden. OpenOlat trägt Betreuer:innen, Teilnehmer:innen und Personen auf der Warteliste aus, die Besitzer:innen bleiben eingetragen. Der Kurs steht im Autorenbereich im Tab "Gelöscht" mit dem Status "Papierkorb" und lässt sich von dort wiederherstellen. Im Abschnitt "Lebenszyklus-Prozess" heisst dieser Schritt "Gelöscht".
 
 * **3 Endgültig gelöscht**<br>
   Der letzte Schritt löscht den Kurs inklusive seiner Daten. Danach lässt er sich nicht wiederherstellen.
@@ -26,7 +26,7 @@ Ein Kurs verlässt den Betrieb in drei Schritten, damit sich ein Fehlgriff bis z
 
 Mit der Konfiguration legen Sie fest, welche Schritte der tägliche Lauf ausführt und wie lange ein Kurs vor jedem Schritt wartet. Das Formular "Automatische Verwaltung des Lebenszyklus" enthält dafür drei Kontrollkästchen, eines pro Schritt. Sobald Sie ein Kontrollkästchen wählen, erscheinen dahinter eine ganze Zahl als Pflichtfeld und eine Einheit: Tag, Woche, Monat oder Jahr.
 
-![Markierte Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen, je mit Kontrollkästchen und Frist aus Zahl und Einheit, Formular Automatische Verwaltung des Lebenszyklus](assets/automatic_course_lifecycle_config_v1_de.png){ class="shadow lightbox" }
+![Markierte Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen, je mit Kontrollkästchen und Frist aus Zahl und Einheit](assets/automatic_course_lifecycle_config_v1_de.png){ class="shadow lightbox" title="Formular Automatische Verwaltung des Lebenszyklus" }
 
 * **1 Beendet**<br>
   Das Kontrollkästchen trägt den Text "wechselt zu beenden (Benutzer:innen behalten den Zugriff, Lesemodus)". Die Frist zählt ab dem Kursende ("nach Kursende").
@@ -50,7 +50,7 @@ Eine neue Konfiguration kann beim ersten Lauf viele Kurse auf einmal erfassen. D
 
 Unter "Auswirkungen" steht für jeden eingeschalteten Schritt eine Zeile mit der Anzahl der betroffenen Kurse, zum Beispiel "12 Kurse werden in den Papierkorb verschoben. Teilnehmer:innen werden entfernt. Kurse können wiederhergestellt werden." OpenOlat berechnet die Anzahlen für die eben eingegebene Konfiguration, bevor sie gespeichert ist.
 
-![Markierte Liste Auswirkungen je Schritt (5 Kurse Beendet, 9 Papierkorb, 182 endgültig gelöscht), darunter Bestätigung und Speichern und starten, Dialog Lebenszyklus-Konfiguration speichern](assets/automatic_course_lifecycle_confirmation_v2_de.png){ class="shadow lightbox" }
+![Markierte Liste Auswirkungen je Schritt (5 Kurse Beendet, 9 Papierkorb, 182 endgültig gelöscht), darunter Bestätigung und Speichern und starten](assets/automatic_course_lifecycle_confirmation_v2_de.png){ class="shadow lightbox" title="Dialog Lebenszyklus-Konfiguration speichern" }
 
 !!! warning "Achtung"
     Der Prozess startet unmittelbar nach dem Bestätigen und verarbeitet im ersten Lauf alle Kurse, deren Frist bereits abgelaufen ist. Auf einer Instanz mit vielen alten Kursen landen so auf einen Schlag hunderte Kurse im Papierkorb oder werden endgültig gelöscht, und die Teilnehmenden verlieren ihren Zugang. Prüfen Sie die Anzahlen unter "Auswirkungen", bevor Sie bestätigen. Schalten Sie im Zweifel zuerst nur den Schritt "Beendet" ein und ergänzen Sie die weiteren Schritte, sobald das Ergebnis stimmt.
@@ -64,7 +64,7 @@ Mit "Abbrechen" oder durch Schliessen des Dialogs speichert OpenOlat nichts. Das
 
 Nach dem Speichern möchten Sie wissen, ob der Prozess läuft, wie weit er ist und was in den nächsten Tagen auf die Kurse zukommt. Diese Angaben stehen oberhalb des Formulars im Abschnitt "Lebenszyklus-Prozess", aufgeteilt in drei Teile.
 
-![Markierte Anzeigen je Schritt mit Zähler x von N und aufgeklappte Vorschau-Tabelle mit steigenden Anzahlen für Nächster Lauf, 7 und 30 Tage, Abschnitt Lebenszyklus-Prozess im Zustand Geplant](assets/automatic_course_lifecycle_status_v2_de.png){ class="shadow lightbox" }
+![Markierte Anzeigen je Schritt mit Zähler x von N und aufgeklappte Vorschau-Tabelle mit steigenden Anzahlen für Nächster Lauf, 7 und 30 Tage, Prozess im Zustand Geplant](assets/automatic_course_lifecycle_status_v2_de.png){ class="shadow lightbox" title="Abschnitt Lebenszyklus-Prozess" }
 
 * **Konfiguration Übersicht**<br>
   "Aktive Unterprozesse" nennt die eingeschalteten Schritte, zum Beispiel "Beendet | Gelöscht | Endgültig löschen". "Durchführungszeit" nennt die tägliche Startzeit des Laufs, standardmässig "Jeden Tag am 05:45". Eine Instanz kann eine andere Zeit konfigurieren, verbindlich ist die Anzeige. "Nächster Lauf" nennt Datum und Zeit des nächsten Laufs und dahinter die Anzahl der Kurse, die er betrifft. "Letzter Lauf" nennt den vorangegangenen Lauf.
@@ -85,6 +85,10 @@ Mit dem Button **"Prozess stoppen"** im Teil "Prozesslauf" halten Sie einen lauf
 ## Lebenszyklus im Autorenbereich {: #authoring}
 
 Wer einen Kurs zurückholen möchte, den der Lauf in den Papierkorb verschoben hat, findet ihn im Autorenbereich. Er steht dort im Tab "Gelöscht" mit dem Status "Papierkorb" und lässt sich wiederherstellen. Endgültig löschen können ihn dort Administrator:innen und Lernressourcenverwalter:innen. Die einzelnen Schritte beschreiben die Seite [Löschen (eines Kurses/einer Lernressource)](../../manual_user/learningresources/Course_Delete.de.md) und die Anleitung [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](../../manual_how-to/lifecycle/lifecycle.de.md#course_lifecycle).
+
+!!! warning "Achtung"
+
+    "Wiederherstellen" holt den Kurs mit seinem Inhalt zurück, mit dem Status "Beendet". Schon beim Verschieben in den Papierkorb entfernt OpenOlat die Mitglieder ausser den Besitzer:innen, die Verknüpfungen mit Gruppen und mit Elementen im Course Planner, die Katalogeinträge, das "Angebot für Gäste" und die Angebote "Ohne Buchung". Diese kommen nicht zurück. Was genau entfällt, steht unter [Was beim Löschen entfernt wird](../../manual_user/learningresources/Course_Delete.de.md#removed_on_delete).
 
 
 ## Weiterführende Informationen {: #further_information}

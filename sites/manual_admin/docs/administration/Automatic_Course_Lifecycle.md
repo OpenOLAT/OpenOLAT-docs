@@ -5,7 +5,7 @@ Anyone who runs many courses wants to finish old courses in an orderly way after
 Administrators configure it in the system administration under:<br>
 `Administration > Life cycles > Courses`
 
-![Courses are automatically finished, moved to the trash and permanently deleted after the course end, depending on the period; before saving, a confirmation shows the number of affected courses](assets/automatic_course_lifecycle_stages_v1_en.svg){ class="lightbox" }
+![Courses are automatically finished, moved to the trash and permanently deleted after the course end, depending on the period; before saving, a confirmation shows the number of affected courses](assets/automatic_course_lifecycle_stages_v1_en.svg){ class="lightbox" title="Life cycle of a course" }
 
 
 ## The three steps {: #steps}
@@ -16,7 +16,7 @@ A course leaves operation in three steps, so that a mistake can be undone up to 
   "Finished" is a status of the course: the execution is completed, but the course remains in place with its members. Which access participants have to a finished course is defined by a system-wide setting in the [Module Learning resource, Access tab](Modules_Learning_Resource.md#tab_accesss): Read-only or No access. It can be overridden per course. A finished course can be set back to an active status.
 
 * **2 Trash**<br>
-  In the trash, the course is deleted but still present. OpenOlat removes the participants, the owners remain registered. The course appears in the authoring area in the "Deleted" tab with the status "Trash" and can be restored from there. In the section "Life cycle process", this step is called "Deleted".
+  In the trash, the course is deleted but still present. OpenOlat removes the coaches, participants and persons on the waiting list, the owners remain registered. The course appears in the authoring area in the "Deleted" tab with the status "Trash" and can be restored from there. In the section "Life cycle process", this step is called "Deleted".
 
 * **3 Permanently deleted**<br>
   The last step deletes the course including its data. Afterwards it cannot be restored.
@@ -26,7 +26,7 @@ A course leaves operation in three steps, so that a mistake can be undone up to 
 
 With the configuration you define which steps the daily run carries out and how long a course waits before each step. The form "Automatic Life-cycle management" contains three checkboxes for this, one per step. As soon as you select a checkbox, a whole number as a mandatory field and a unit appear behind it: Day, Week, Month or Year.
 
-![Marked steps Finish, Delete (Trash) and Definitely deleted, each with a checkbox and a period made of number and unit, form Automatic Life-cycle management](assets/automatic_course_lifecycle_config_v1_en.png){ class="shadow lightbox" }
+![Marked steps Finish, Delete (Trash) and Definitely deleted, each with a checkbox and a period made of number and unit](assets/automatic_course_lifecycle_config_v1_en.png){ class="shadow lightbox" title="Form Automatic Life-cycle management" }
 
 * **1 Finish**<br>
   The checkbox carries the text "change to finished (read only, keep user access)". The period counts from the course end ("after the course ends").
@@ -50,7 +50,7 @@ A new configuration can include many courses at once in its first run. That is w
 
 Under "Impacts", there is one line for each step switched on, with the number of affected courses, for example "12 courses are moved to the trash. Participants are removed. Courses can be restored." OpenOlat calculates the numbers for the configuration you have just entered, before it is saved.
 
-![Marked list Impacts with the number of courses per step (5 Finished, 9 trash, 182 permanently deleted), below it Confirmation and Save and start, dialog Save the lifecycle configuration](assets/automatic_course_lifecycle_confirmation_v2_en.png){ class="shadow lightbox" }
+![Marked list Impacts with the number of courses per step (5 Finished, 9 trash, 182 permanently deleted), below it Confirmation and Save and start](assets/automatic_course_lifecycle_confirmation_v2_en.png){ class="shadow lightbox" title="Dialog Save the lifecycle configuration" }
 
 !!! warning "Attention"
     The process starts immediately after you confirm, and in its first run it processes all courses whose period has already passed. On an instance with many old courses, hundreds of courses can land in the trash or be permanently deleted in one go, and the participants lose their access. Check the numbers under "Impacts" before you confirm. If in doubt, switch on only the step "Finish" first and add the other steps once the result is correct.
@@ -64,7 +64,7 @@ With "Cancel" or by closing the dialog, OpenOlat saves nothing. The form keeps y
 
 After saving, you want to know whether the process is running, how far it has got and what lies ahead for the courses in the coming days. This information appears above the form in the section "Life cycle process", divided into three parts.
 
-![Marked displays per step with counter x of N and expanded preview table with rising numbers for Next run, 7 and 30 days, section Life cycle process in the state Scheduled](assets/automatic_course_lifecycle_status_v2_en.png){ class="shadow lightbox" }
+![Marked displays per step with counter x of N and expanded preview table with rising numbers for Next run, 7 and 30 days, process in the state Scheduled](assets/automatic_course_lifecycle_status_v2_en.png){ class="shadow lightbox" title="Section Life cycle process" }
 
 * **Configuration overview**<br>
   "Active sub-process" names the steps switched on, for example "Finished | Deleted | Definitely deleted". "Execution" names the daily start time of the run, by default "Every day at 5:45 AM". An instance can configure a different time; the display is authoritative. "Next run" names the date and time of the next run, followed by the number of courses it affects. "Last completed run" names the previous run.
@@ -85,6 +85,10 @@ Using the button **"Stop process"** in the part "Process run", you stop a runnin
 ## Life cycle in the authoring area {: #authoring}
 
 Anyone who wants to get back a course that the run has moved to the trash finds it in the authoring area. It appears there in the "Deleted" tab with the status "Trash" and can be restored. Administrators and learning resource managers can delete it permanently there. The individual steps are described on the page [Delete (a course or learning resource)](../../manual_user/learningresources/Course_Delete.md) and in the guide [How do I manage lifecycles of groups, courses or user accounts?](../../manual_how-to/lifecycle/lifecycle.md#course_lifecycle).
+
+!!! warning "Attention"
+
+    "Restore" brings back the course with its content, with the status "Finished". Already when the course is moved to the trash, OpenOlat removes the members other than the owners, the links to groups and to elements in the Course Planner, the catalog entries, the "Offer for guests" and the offers "Without booking". These do not come back. The details are listed under [What deleting removes](../../manual_user/learningresources/Course_Delete.md#removed_on_delete).
 
 
 ## Further information {: #further_information}

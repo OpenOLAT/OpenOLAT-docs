@@ -150,6 +150,10 @@ Dieser Tab entspricht dem Papierkorb und dem Schritt vor dem endgültigen Lösch
 Dort sehen die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen die gelöschten Lernressourcen. Diese Personen können sie mit dem Button "Wiederherstellen" zurückholen.
 Endgültig löschen können nur Administrator:innen und Lernressourcenverwalter:innen. Sie markieren die Lernressourcen in diesem Tab und klicken auf den Button "Dauerhaft löschen".
 
+!!! warning "Achtung"
+
+    "Wiederherstellen" holt die Lernressource mit ihrem Inhalt zurück. Schon beim Löschen in den Papierkorb entfernt OpenOlat die Mitglieder ausser den Besitzer:innen, die Verknüpfungen mit Gruppen und mit Elementen im Course Planner, die Katalogeinträge, das "Angebot für Gäste" und die Angebote "Ohne Buchung". Diese kommen nicht zurück. Was genau entfällt, steht unter [Was beim Löschen entfernt wird](../../manual_user/learningresources/Course_Delete.de.md#removed_on_delete).
+
 ![Button Dauerhaft löschen für einen markierten Kurs](assets/kurs_geloescht_v1_de.png){ class="shadow lightbox" title="Tab Gelöscht im Autorenbereich" }
 
 <br>
@@ -221,6 +225,7 @@ Ausführliche Informationen zu den Lebenszyklen finden Sie unter<br>
 [Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Kurs-Administration: Übersicht >](../../manual_user/learningresources/Administration.de.md)<br>
 [Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
+[Löschen (eines Kurses/einer Lernressource) >](../../manual_user/learningresources/Course_Delete.de.md)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../lifecycle/lifecycle.de.md)
 
 **Weiterführend**<br>
