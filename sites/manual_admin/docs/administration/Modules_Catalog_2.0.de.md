@@ -78,16 +78,16 @@ Die Angebote sind nach Veröffentlichungsdatum geordnet.
 
 #### Launchertyp "Zufallsgenerator"
 
-In diesem Launcher angezeigte Angebote werden in zufälliger Reihenfolge angezeigt.
+Die Angebote dieses Launchers erscheinen in zufälliger Reihenfolge.
 
 
 #### Launchertyp "Taxonomieebene"
 
-Taxonomie-Launcher nutzen die Fachbereiche des Katalogs, um die verschiedenen Taxonomieebenen anzuzeigen. In einem Taxonomie-Launcher werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomieebenen entsprechen vielmehr Ordnern, in denen dann erst die Lernressourcen zu finden sind.
+Taxonomie-Launcher nutzen die Fachbereiche des Katalogs und zeigen Taxonomieebenen statt einzelner Kurse und Lernressourcen. Jede Taxonomieebene wirkt wie ein Ordner, in dem die Lernressourcen liegen.
 
-Klickt man in einem Taxonomie-Launcher auf eine der angezeigten Kategorien (Taxonomieebene), gelangt man auf eine Microsite. Hier werden alle Kurse angezeigt, die unter dieser Taxonomieebene eingeordnet wurden. Hat die Taxonomie darunter weitere Ebenen, werden auch diese angezeigt.
+Ein Klick auf eine Taxonomieebene im Launcher öffnet ihre Microsite. Dort stehen alle Kurse, die unter dieser Taxonomieebene eingeordnet sind, und darunter liegende Ebenen der Taxonomie.
 
-Die Angebote werden entsprechend der definierten Taxonomieebene automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
+OpenOlat wählt die Angebote nach der Taxonomieebene automatisch aus und ordnet sie alphabetisch.
 
 Beim Konfigurieren dieses Launchers wählen Sie über das Feld "Typ" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"}, worauf sich der Launcher bezieht:
 
@@ -111,15 +111,16 @@ Die manuell hinzugefügten Durchführungen können durch Klick auf Doppelpfeile 
 
 ### Tab Filter [:octicons-tag-16:{ title="ab Release 17.2 (OO-6326)" }](https://track.frentix.com/issue/OO-6326) {: #tab_filter}
 
-Damit Personen in einer langen Angebotsliste schnell das Passende finden, verfeinern sie die Liste mit Filtern oder der Suche. Im Tab "Filter" legen Sie fest, welche Filter auf den Microsites und der Suchergebnisseite zur Wahl stehen. Filter können z.B. Fachbereiche, Taxonomieebene, Angebotsart, Durchführungsformat, Semester, Lizenz, Hauptsprache, Lernressourcentyp, Autor usw. sein.
+Damit Personen in einer langen Angebotsliste schnell das Passende finden, verfeinern sie die Liste mit Filtern oder der Suche. Im Tab "Filter" legen Sie fest, welche Filter auf den Microsites und der Suchergebnisseite zur Wahl stehen. Je nach Konfiguration von OpenOlat stehen diese Filter zur Verfügung: "Fachbereiche", "Taxonomieebene", "Angebotsart", "Durchführungsformat", "Zeitabschnitt", "Durchführungszeitraum", "Durchführungsort", "Lizenz", "Hauptsprache", "Lernressourcen Typ", "Autor:in" und "Zeitaufwand".
 
 ### Tab Layout {: #tab_layout}
 
-Dieser Tab beinhaltet alles, was das Erscheinungsbild des Katalogs V2 angeht. Man kann den Anzeigetitel des Katalogs anpassen und ein Hintergrundbild für den Header der Startseite auswählen.
+Im Tab "Layout" bestimmen Sie das Erscheinungsbild des Katalogs V2. Im Abschnitt "Header" passen Sie den "Titel Katalog" an und laden das "Hintergrundbild" für den Header der Startseite hoch.
 
 Unter "Kacheln Taxonomieebenen Launcher" wählen Sie die Form der Kacheln der Microsites.
 
-Unter "Angezeigte Informationen in Karte" wählen Sie, welche Angaben aus den Metadaten auf den Karten der Startseite erscheinen. Die Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
+Unter "Angezeigte Informationen in Karte" wählen Sie, welche Angaben aus den Metadaten auf den Karten der Startseite erscheinen. Die Metadaten füllen Sie in der jeweiligen Lernressource aus:<br>
+`Lernressource > Administration > Einstellungen > Tab "Metadaten"`
 
 
 ![Header mit Titel Katalog und Hintergrundbild-Upload (1324 x 240 px, maximal 2.0 MB), Formwahl der Taxonomiekacheln und Checkliste der Karteninformationen](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" title="Tab Layout im Modul Katalog" }
@@ -137,7 +138,7 @@ Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Ler
 
 !!! warning "Achtung"
 
-    Die Fachbereiche, Verschlagwortung, Taxonomie die man als Lernressourcenverwalter:in bearbeiten kann, kann auch andere Bereiche betreffen, in denen die Taxonomie benutzt wird. Diese können sein: ePortfolio Einträge, Curriculum Einträge, Dokumentenpool.
+    Was Sie als Lernressourcenverwalter:in an Fachbereichen, Verschlagwortung und Taxonomie ändern, kann auch andere Bereiche betreffen, in denen die Taxonomie benutzt wird, zum Beispiel ePortfolio-Einträge, Curriculum-Einträge und den Dokumentenpool.
 
 ![Liste der Fachbereiche mit Kennzeichen, Erstelldatum und Anzahl Unterebenen](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" title="Seite Katalog-Verwaltung" }
 
@@ -157,7 +158,7 @@ Benutzer:innen mit diesem Recht können nicht:
 
 - Taxonomien erstellen / bearbeiten / löschen
 - Ebenentypen erstellen / bearbeiten / löschen
-- Ziel-, Kredit- und Dozentenkompetenzen erstellen / bearbeiten / löschen
+- Kompetenzen erstellen / bearbeiten / löschen
 
 [Zum Seitenanfang ^](#modul_catalog)
 
@@ -170,11 +171,9 @@ Damit Bilder im Katalog nicht an der falschen Stelle beschnitten werden, wählen
 
 #### Hintergrundbilder
 
-Für die Hintergründe der Taxonomieunterseiten sowie der Startseite werden Bilddimensionen von 1324 x 240 px empfohlen, die maximale Dateigrösse für den Upload beträgt 2.0 MB. Ist das Bild höher als 240 px, nimmt OpenOlat einen passenden Ausschnitt aus der Mitte. Das Hintergrundbild einer Taxonomieebene laden Sie in der Katalog-Verwaltung bei der Ebene im Tab "Metadaten" im Feld "Hintergrund Bild" hoch. Das Hintergrundbild für die Startseite finden Sie im Tab "Layout".
+Für die Hintergründe der Taxonomieunterseiten sowie der Startseite werden Bilddimensionen von 1324 x 240 px empfohlen. Die maximale Dateigrösse für den Upload beträgt 2.0 MB für die Startseite und 5.0 MB für eine Taxonomieebene. Ist das Bild höher als 240 px, nimmt OpenOlat einen passenden Ausschnitt aus der Mitte. Das Hintergrundbild einer Taxonomieebene laden Sie in der Katalog-Verwaltung bei der Ebene im Tab "Metadaten" im Feld "Hintergrund Bild" hoch. Das Hintergrundbild für die Startseite finden Sie im Tab "Layout".
 
-So wählt OpenOlat den Ausschnitt bei kleineren Bildgrössen:
-
-![Vergleich der Kachelgrössen auf Mobile und Laptop: Teaser-Bilder 240x120 px, Kursbilder 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" title="Bildausschnitte im Katalog auf Mobile und Laptop" }
+Die Schnittmasken zeigen, welchen Ausschnitt des Bildes OpenOlat auf dem Handy und auf dem Laptop anzeigt:
 
 **Hintergrund für den Start**
 
@@ -190,11 +189,11 @@ Ob die Kacheln eines Taxonomie-Launchers rechteckig oder quadratisch sind, legen
 
 **Rechteckig**
 
-![Schema des rechteckigen Teasers mit halbtransparentem Textbalken am unteren Rand](assets/catalog_taxteaser.png){ class="shadow lightbox" title="Rechteckige Kachel einer Taxonomieebene" }
+![Schema der rechteckigen Kachel: Teaserbild 240 x 100 px, am unteren Rand ein halbtransparenter Titelbalken von ca. 36 px](assets/catalog_taxteaser_de.png){ class="shadow lightbox" title="Rechteckige Kachel einer Taxonomieebene · 2026.11.03" }
 
 **Quadratisch**
 
-![Schema des quadratischen Teasers mit halbtransparentem Textbalken am unteren Rand](assets/catalog_taxteaser_square.png){ class="shadow lightbox" title="Quadratische Kachel einer Taxonomieebene" }
+![Schema der quadratischen Kachel mit halbtransparentem Titelbalken am unteren Rand](assets/catalog_taxteaser_square.png){ class="shadow lightbox" title="Quadratische Kachel einer Taxonomieebene" }
 
 #### Kursbilder
 
@@ -208,13 +207,13 @@ Kursbilder legen Sie direkt im Kurs fest. Sie sollten die Dimensionen 570 x 380 
 
 ## Konfiguration des Web-Katalogs [:octicons-tag-16:{ title="ab Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002) {: #config_web-catalog}
 
-Wurde im Tab "Einstellungen" der Katalog V2 gewählt, steht als weitere Option die Aktivierung des Web-Katalogs zur Auswahl.
+Der Web-Katalog ist ein nach aussen gespiegelter Katalog, auf den auch Personen zugreifen können, die noch nicht in OpenOlat registriert sind. Erst bei der Buchung eines Kurses führt OpenOlat die Besucher:innen durch den Registrierungsprozess.
 
-Der Web-Katalog ist ein nach aussen gespiegelter Katalog, auf den auch Personen zugreifen können, die noch nicht in OpenOlat registriert sind. Deshalb kann auch ein Link auf der Login-Seite eingerichtet werden, so dass der Web-Katalog ohne Login aufgerufen werden kann. Erst bei Buchung eines Kurses werden die Besucher:innen dann durch den Registrierungsprozess geführt.
+Sie schalten den Web-Katalog im Tab "Einstellungen" mit dem Schalter "Web-Katalog" ein. Der Schalter erscheint, wenn dort der Katalog V2 gewählt ist. Mit dem Schalter "Link auf Login-Seite" erscheint auf der Login-Seite ein Link, über den der Web-Katalog ohne Login erreichbar ist.
 
-Der Web-Katalog kann auch vorübergehend deaktiviert werden.
+Mit dem Schalter "Web-Katalog vorübergehend deaktiviert" schalten Sie den Web-Katalog vorübergehend ab. Besucher:innen sehen dann statt der Angebote die Meldung "Katalog temporär nicht verfügbar".
 
-![Markierte Schalter Web-Katalog, Web-Katalog vorübergehend deaktiviert und Link auf Login-Seite bei aktiviertem Katalog V2](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" title="Tab Einstellungen im Modul Katalog" }
+![Bei gewähltem Katalog V2 markiert: die Schalter Web-Katalog, Web-Katalog vorübergehend deaktiviert und Link auf Login-Seite](assets/modules_catalog_web-catalog_v2_de.png){ class="shadow lightbox" title="Web-Katalog im Tab Einstellungen · 2026.11.03" }
 
 [Zum Seitenanfang ^](#modul_catalog)
 

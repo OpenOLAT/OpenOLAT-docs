@@ -51,7 +51,7 @@ Whoever works with Catalog V1 sets in the "Configuration" tab where the catalog 
 
 ## Configuration of Catalog V2 {: #config_catalog_v2}
 
-### Tab "Launch page" {: #tab_start_page}
+### Tab Launch page {: #tab_start_page}
 
 What people see first on the launch page of the catalog, you put together from launchers in the "Launch page" tab. Launchers are the configurable sections of the launch page, for example a row with the most recently published courses. With "Add launcher" you choose the launcher type.
 
@@ -76,16 +76,15 @@ The offers are sorted by publication date.
 
 #### Launcher type "Random generator"
 
-The offers displayed in this launcher are shown in random order.
+The offers of this launcher appear in random order.
 
 #### Launcher type "Taxonomy level"
 
-Taxonomy launchers use the subjects of the catalog to display the various taxonomy levels.
-In a taxonomy launcher, courses and learning resources are not displayed directly; instead, the taxonomy levels shown correspond to folders where the learning resources can be found.
+Taxonomy launchers use the subjects of the catalog and show taxonomy levels instead of individual courses and learning resources. Each taxonomy level works like a folder that holds the learning resources.
 
-Clicking on one of the categories (taxonomy level) displayed in a taxonomy launcher takes you to a microsite. All courses classified under this taxonomy level are displayed here. If the taxonomy has further levels below it, these are displayed as well.
+A click on a taxonomy level in the launcher opens its microsite. It lists all courses classified under this taxonomy level, and the levels of the taxonomy below it.
 
-The offers are automatically selected according to the defined taxonomy level and then displayed in alphabetical order.
+OpenOlat selects the offers automatically according to the taxonomy level and sorts them alphabetically.
 
 When configuring this launcher, you use the "Type" field [:octicons-tag-16:{ title="from Release 21.0 (OO-9431)" }](https://track.frentix.com/issue/OO-9431){:target="_blank"} to define what the launcher refers to:
 
@@ -107,17 +106,18 @@ The manually added implementations can be sorted by clicking on the double arrow
 
 ### Tab Filters [:octicons-tag-16:{ title="from Release 17.2 (OO-6326)" }](https://track.frentix.com/issue/OO-6326) {: #tab_filter}
 
-So that people quickly find the right offer in a long list, they refine the list with filters or the search. In the "Filters" tab you define which filters are available on the microsites and the search results page. Filters can be, for example, subject areas, taxonomy level, offer type, implementation format, semester, license, main language, learning resource type, author, etc.
+So that people quickly find the right offer in a long list, they refine the list with filters or the search. In the "Filters" tab you define which filters are available on the microsites and the search results page. Depending on the configuration of OpenOlat, these filters are available: "Taxonomy sublevel", "Taxonomy level", "Offer type", "Implementation format", "Time period", "Execution period", "Location", "License", "Main language", "Learning resource type", "Author" and "Expenditure of work".
 
 ### Tab Layout {: #tab_layout}
 
-This tab contains everything concerning the appearance of the catalog V2. You can customize the display title of the catalog and select a background image for the header of the launch page.
+In the "Layout" tab you set the appearance of Catalog V2. In the "Header" section you adjust the "Title catalog" and upload the "Background image" for the header of the launch page.
 
 Under "Style taxonomy level launchers" you choose the shape of the tiles of the microsites.
 
-Under "Information displayed in card" you choose which details from the metadata appear on the cards of the launch page. This metadata must be filled in in the respective learning resource under `Settings > Metadata`.
+Under "Information displayed in card" you choose which details from the metadata appear on the cards of the launch page. You fill in the metadata in the respective learning resource:<br>
+`Learning resource > Administration > Settings > Tab "Metadata"`
 
-![Header with catalog title and background image upload (1324 x 240 px, maximum 2.0 MB), below the shape choice for the taxonomy tiles and the checklist of card information](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" title="Layout tab in the Catalog module" }
+![Header with catalog title and background image upload (1324 x 240 px, maximum 2.0 MB), below the shape choice for the taxonomy tiles and the checklist of card information](assets/modules_catalog_tab_layout_v1_en.png){ class="shadow lightbox" title="Layout tab in the Catalog module · 2026.11.03" }
 
 [To the top of the page ^](#modul_catalog)
 
@@ -131,14 +131,13 @@ Deleting levels only deletes the keywording, not any linked learning resources. 
 
 !!! warning "Attention"
 
-    The subjects, keywording, taxonomy that can be edited as a Learning resource manager can also affect other areas in which the taxonomy is used. These can be: ePortfolio entries, curriculum entries, document pool.
+    What you change as a Learning resource manager in subjects, keywording and taxonomy can also affect other areas in which the taxonomy is used, for example ePortfolio entries, curriculum entries and the document pool.
 
-
-![List of subject areas with reference code, creation date and number of sub-levels](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" title="Catalog management page" }
+![List of subjects with reference, creation date and number of sublevels](assets/modules_catalog_management2_v1_en.png){ class="shadow lightbox" title="Catalog management page · 2026.11.03" }
 
 The right to manage a catalog or subject area section can be granted to different persons. Initially, administrators assign this right. Select the desired subject area section and then the "Management" tab. [:octicons-tag-16:{ title="from Release 20.1 (OO-8544)" }](https://track.frentix.com/issue/OO-8544)
 
-![Management tab and Add manager button highlighted, no managers registered yet](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" title="Taxonomy level Ski Jumping in the catalog management" }
+![Management tab and Add manager button highlighted, no managers entered yet](assets/modules_catalog_management4_v1_en.png){ class="shadow lightbox" title="Taxonomy level Ski Jumping in the catalog management · 2026.11.03" }
 
 The following applies to users with this right:
 
@@ -151,8 +150,8 @@ Example: An administrator gives a person the rights for a taxonomy level below (
 Users with this right cannot:
 
 - Create / edit / delete taxonomies
-- Create / edit / delete layer types
-- Create / edit / delete target, credit and lecturer competencies
+- Create / edit / delete level types
+- Create / edit / delete competences
 
 [To the top of the page ^](#modul_catalog)
 
@@ -165,11 +164,9 @@ So that images in the catalog are not cropped in the wrong place, choose size an
 
 #### Background images
 
-Image dimensions of 1324 x 240 px are recommended for the backgrounds of the taxonomy subpages and the launch page, the maximum file size for the upload is 2.0 MB. If the image is higher than 240 px, OpenOlat takes a suitable section from the centre. You upload the background image of a taxonomy level in the catalog management at the level in the "Metadata" tab in the "Background image" field. The background image for the launch page is in the "Layout" tab.
+Image dimensions of 1324 x 240 px are recommended for the backgrounds of the taxonomy subpages and the launch page. The maximum file size for the upload is 2.0 MB for the launch page and 5.0 MB for a taxonomy level. If the image is higher than 240 px, OpenOlat takes a suitable section from the centre. You upload the background image of a taxonomy level in the catalog management at the level in the "Metadata" tab in the "Background image" field. The background image for the launch page is in the "Layout" tab.
 
-This is how OpenOlat chooses the section for smaller image sizes:
-
-![Comparison of tile sizes on mobile and laptop: teaser images 240x120 px, course images 570x380 px](assets/catalog_cropping.png){ class="shadow lightbox" title="Image crops in the catalog on mobile and laptop" }
+The crop guides show which section of the image OpenOlat displays on a mobile phone and on a laptop:
 
 **Background for the launch page**
 
@@ -183,13 +180,13 @@ This is how OpenOlat chooses the section for smaller image sizes:
 
 Whether the tiles of a taxonomy launcher are rectangular or square, you define in the "Layout" tab under "Style taxonomy level launchers". Rectangular tiles have an aspect ratio of 2.4 to 1, an image of 240 x 100 px gives the best results. Square tiles have an aspect ratio of 1 to 1. You upload the image of a taxonomy level in the catalog management at the level in the "Metadata" tab in the "Teaser image" field. A semi-transparent bar with the title of the level lies over the bottom edge of the image.
 
-**Rectangular**
+**Rectangle**
 
-![Schema of the rectangular teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser.png){ class="shadow lightbox" title="Rectangular tile of a taxonomy level" }
+![Schema of the rectangular tile: teaser image 240 x 100 px, at the bottom a semi-transparent title bar of approx. 36 px](assets/catalog_taxteaser_en.png){ class="shadow lightbox" title="Rectangular tile of a taxonomy level · 2026.11.03" }
 
 **Square**
 
-![Schema of the square teaser with semi-transparent text bar at the bottom](assets/catalog_taxteaser_square.png){ class="shadow lightbox" title="Square tile of a taxonomy level" }
+![Schema of the square tile with semi-transparent title bar at the bottom](assets/catalog_taxteaser_square.png){ class="shadow lightbox" title="Square tile of a taxonomy level" }
 
 #### Course images
 
@@ -203,13 +200,13 @@ You set course images directly in the course. They should not exceed the dimensi
 
 ## Configuration of the Web catalog [:octicons-tag-16:{ title="from Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002) {: #config_web-catalog}
 
-If Catalog V2 is selected in the "Settings" tab, activating the web catalog is available as a further option.
+The web catalog is a catalog mirrored to the outside, which can also be accessed by persons who are not yet registered in OpenOlat. OpenOlat only guides visitors through the registration process when they book a course.
 
-The web catalog is a catalog mirrored to the outside, which can also be accessed by persons who are not yet registered in OpenOlat. A link can therefore also be set up on the login page, so that the web catalog can be opened without logging in. Visitors are only guided through the registration process when booking a course.
+You switch on the web catalog in the "Settings" tab with the switch "Web catalog". The switch appears when Catalog V2 is selected there. With the switch "Link on login site", a link appears on the login page through which the web catalog can be reached without logging in.
 
-The web catalog can also be deactivated temporarily.
+With the switch "Web catalog temporarily disabled" you switch off the web catalog temporarily. Visitors then see the message "Catalog temporarily not available" instead of the offers.
 
-![Highlighted switches Web catalog, Web catalog temporarily disabled and Link on login site with Catalog V2 activated](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" title="Settings tab in the Catalog module" }
+![With Catalog V2 selected, highlighted: the switches Web catalog, Web catalog temporarily disabled and Link on login site](assets/modules_catalog_web-catalog_v2_en.png){ class="shadow lightbox" title="Web catalog in the Settings tab · 2026.11.03" }
 
 [To the top of the page ^](#modul_catalog)
 
