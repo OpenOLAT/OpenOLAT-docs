@@ -37,7 +37,7 @@ OpenOlat ensures that participants fill in the survey only once. OpenOlat stores
 
 Add the course element "Survey" in the course editor. The following tabs are then available in the course editor:
 
-![Tabs Title and description, Layout, Learning path and Survey, with the tab Title and description open](assets/Umfrage_Kurseditor.png){ class="shadow lightbox" title="Course element Survey in the course editor" }
+![The tabs Title and description, Layout, Learning path and Survey of the course element, with the tab Title and description open](assets/course_element_survey_course_editor_v1_en.png){ class="shadow lightbox" title="Course element Survey in the course editor · 2026.11.03" }
 
 In the tabs "Title and description" and "Layout" you store general descriptions and information about the course element and define its presentation. In the [Tab Learning path](../learningresources/Learning_path_course_Course_editor.md) you define the settings for learning path courses, for example the completion criterion "Survey finished".
 
@@ -45,19 +45,21 @@ Conventional courses have the tabs "Visibility" and "Access" instead. There you 
 
 #### Tab "Survey" {: #survey}
 
-In the tab "Survey" you configure the survey. In the first step, you create a new form or select an existing one. Under "My entries", the list shows all forms you own. With a click on the checkmark in the column "Select" you add a form to the course.
+In the tab "Survey" you configure the survey. In the first step, you select an existing form or create a new one. As long as no form is selected, the tab offers three options:
 
-![Three own forms under My entries with checkmarks in the column Select, buttons Create and Import at the top right](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" title="Dialog Choose form" }
+* **Select**: You connect the course element with a form that already exists as a learning resource. Under "My entries", the dialog "Choose form" shows all forms you own. With a click on the checkmark in the column "Select" you add a form to the course.
+* **Create**: You create a new learning resource "Form", which OpenOlat connects with the course element right away.
+* **Import**: You import a form that exists as a file.
 
-If you do not have a form yet, create a new learning resource "Form" with the button "Create" or import a form that exists as a file with "Import". Afterwards, the new or imported form also appears in the list, and you select it.
+![Two own forms under My entries, the column Select with the checkmark per form is marked](assets/course_element_survey_choose_form_v1_en.png){ class="shadow lightbox" title="Dialog Choose form · 2026.11.03" }
 
-A newly created form does not yet contain any elements, questions or text fields. You add them in the course via "Edit" or directly in the learning resource in the [form editor](../learningresources/Form_Editor.md).
+A newly created form does not yet contain any elements, questions or text fields. You add them in the [form editor](../learningresources/Form_Editor.md).
 
 OpenOlat creates a form that you create directly in the course editor as a new learning resource "Form". You also find it in the [Authoring area](../area_modules/Authoring.md) under "My entries" and include it in further courses.
 
-You design a selected form with the button "Edit". If the form has already been set up appropriately, no editing is necessary.
+Once a form is selected, the tab shows its title and the number of "Responses in this course". With "Preview" you see the form the way participants fill it in. With the button "Edit learning resource" you open the learning resource "Form" and design the form in the form editor. If the form has already been set up appropriately, no editing is necessary. Owners of the form, learning resource managers and administrators see the button. With "Replace" you select a different form, with the arrow next to it you import one with "Import".
 
-![Form Kursbefragung selected with buttons Replace and Edit](assets/Umfrage_Tab.png){ class="shadow lightbox" title="Tab Survey in the course editor" }
+![Selected form with the number of responses in this course, the buttons Replace and Edit learning resource are highlighted](assets/course_element_survey_tab_survey_v1_en.png){ class="shadow lightbox" title="Tab Survey in the course editor · 2026.11.03" }
 
 !!! warning "Attention"
 
@@ -78,17 +80,17 @@ You also release the results to these roles, groups and users and link the relea
 
     For a group of persons to be able to fill in the survey, the course must also be released for this group of persons. For example, if external persons (guests) are also to fill in the survey, the course needs an offer for guests, see [Access configuration](../learningresources/Access_configuration.md). A release for guests only exists for conventional courses, not for learning path courses.
 
-As soon as someone has opened the form, you can only change the form in the course to a limited extent with the button "Edit": texts can be changed, but blocks can no longer be moved, added or deleted. The form then shows the message "The resource is already used. Editing is limited."
+As soon as someone has opened the form, you can only change the form in the course to a limited extent with the button "Edit learning resource": texts can be changed, but blocks can no longer be moved, added or deleted. The form then shows the message "The resource is already used. Editing is limited."
 
 ### View {: #view}
 
 What owners, coaches and participants see when the editor is closed depends on the user rights in the tab "Survey". If a group of persons may fill in the questionnaire ("Participation by"), it first sees the questionnaire. Once the person has filled in the questionnaire, the course element shows the evaluation of the survey, provided that the results are visible for their group of persons.
 
-![Tab Overview with key figures and bar chart Total rubrics, buttons Print, Export PDF and Export Excel](assets/Umfrage_Kurs.jpg){ class="shadow lightbox" title="Evaluation in the course element Survey" }
+![Tab Overview with figures and a bar chart with the average per question, above it the buttons Print, Export PDF and Export Excel](assets/course_element_survey_results_v1_en.png){ class="shadow lightbox" title="Evaluation in the course element Survey · 2026.11.03" }
 
 If a group of persons (for example participants) may fill in the survey but may not see the results, this message appears *after* filling it in:
 
-![Message "Survey finished, You have already finished this survey. Thank you for your participation."](assets/Umfrage_ausgefuellt.jpg){ class="shadow lightbox" title="Course element Survey after filling in" }
+![Message "Survey finished, You have already finished this survey. Thank you for your participation."](assets/course_element_survey_completed_v1_en.png){ class="shadow lightbox" title="Course element Survey after filling in · 2026.11.03" }
 
 Each person fills in a survey only once. After submitting, the answers can no longer be changed, OpenOlat points this out. If you do not want to submit the questionnaire yet, save your answers with "Quick save".
 
@@ -118,7 +120,7 @@ You also save the results via the [course archiving](../learningresources/Course
 
 Owners of the course reset a survey with "Reset" in the menu with the three dots of the course element. OpenOlat then deletes all answers of this survey. Individual questionnaires cannot be reset because the submission is anonymous.
 
-![Menu with the three dots open, the option Reset highlighted](assets/Umfrage_zuruecksetzen20.jpg){ class="shadow lightbox" title="Evaluation in the course element Survey, owner view" }
+![Menu with the three dots open, the option Reset highlighted](assets/course_element_survey_reset_v1_en.png){ class="shadow lightbox" title="Evaluation in the course element Survey, owner view · 2026.11.03" }
 
 ## Further information {: #further_information}
 

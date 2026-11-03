@@ -25,7 +25,7 @@ With the course element "Video live stream" you show live streams to your partic
 The administrators find the configuration in the system administration under: `Administration > Modules > Live stream`.<br>
 There, they activate the course element and, if needed, the Multi stream option for two simultaneous live streams; with multi stream active, they also set the separator for multiple URLs of a single event. Under Default values, they set the buffer time before start and after end in minutes, whether coaches are allowed to edit, and the stream to display as the default for new course elements.
 
-![Settings of the Live stream course element with default values for the buffer times and the selection of the stream](assets/course_element_livestream_admin_settings_v1_de.png){ class="shadow lightbox" title="Live stream page in the Modules menu" }
+![Settings of the Live stream course element with default values for the buffer times and the selection of the stream](assets/course_element_livestream_admin_settings_v1_en.png){ class="shadow lightbox" title="Live stream page in the Modules menu · 2026.11.03" }
 
 
 

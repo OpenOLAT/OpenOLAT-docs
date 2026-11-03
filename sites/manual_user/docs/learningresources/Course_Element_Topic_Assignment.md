@@ -144,7 +144,7 @@ Click on "Create Topic" and enter the title and description of the topic. Depend
 
   With this option, you receive an e-mail when participants select or deselect your topic.
 
-![Topic status "Check participant" with the buttons Edit Topic, Delete Topic and Topic set status on "Filled"](assets/Themen_belegt.jpg){ class="shadow lightbox" title="Tab Description of a topic" }
+![Topic status "Check participants", below it the buttons Edit Topic, Delete Topic and Topic set status on "Filled" marked](assets/course_element_topic_assignment_topic_description_v1_en.png){ class="shadow lightbox" title="Tab Description of a topic · 2026.11.03" }
 
 Via "Edit Topic", you get to the editing mode and change the listed fields.
 

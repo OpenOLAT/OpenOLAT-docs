@@ -24,15 +24,15 @@ A course element "Blog" always shows a blog learning resource. After inserting t
 
 * **Select:** You select an existing blog learning resource from the authoring area.
 * **Create:** You create a new blog learning resource directly in the course element. OpenOlat stores it in the authoring area, from where you can also use it in other course elements.
+* **Import:** You import a blog that is available as a file.
 * **Embed via URL:** You embed an external blog via its URL.
-* **Import:** You import a blog that is available as a file. You find the entry in the menu next to "Embed via URL".
 
-![Blog learning content tab in the course editor with the options Select, Create, Embed via URL and Import](assets/course_element_blog_content_v1_de.png){ class="shadow lightbox" title="Tab Blog learning content in the course editor" }
+![The four buttons Select, Create, Import and Embed via URL show the ways to assign a blog to the course element](assets/course_element_blog_content_v2_en.png){ class="shadow lightbox" title="Tab Blog learning content in the course editor · 2026.11.03" }
 
 !!! tip "Tip"
 
     You can also create a blog learning resource in the authoring area via "Create". Afterwards, you integrate it into a course element "Blog" in the course editor.<br><br>
-    ![Create menu in the authoring area with the Blog entry highlighted](assets/course_element_blog_create_learningresource_v1_de.png){ class="shadow lightbox" title="Menu Create in the authoring area" }
+    ![In the open Create menu of the authoring area the entry Blog is highlighted, which you use to set up a new blog learning resource](assets/course_element_blog_create_learningresource_v1_en.png){ class="shadow lightbox" title="Menu Create in the authoring area · 2026.11.03" }
 
 !!! tip "Tip"
 

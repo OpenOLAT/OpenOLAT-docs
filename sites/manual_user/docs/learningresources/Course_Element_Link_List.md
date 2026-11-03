@@ -25,7 +25,7 @@ For each link, you fill in one row:
 
 With the plus icon you add another link, with the trash icon you remove a link.
 
-![Link entries with URL, window mode, title and description, plus buttons to remove and add entries, in the Configuration tab of the link list](assets/Linklist_EN.png){ class="shadow lightbox" title="Tab Configuration of the link list in the course editor" }
+![Three filled-in link rows show where URL, window mode, title and description go and where you remove or add links](assets/course_element_link_list_configuration_v1_en.png){ class="shadow lightbox" title="Tab Configuration of the link list in the course editor · 2026.11.03" }
 
 ## Further information {: #further_information}
 

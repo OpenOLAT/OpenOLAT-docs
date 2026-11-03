@@ -18,9 +18,9 @@ Verwenden Sie ein Wiki, um auf einfache Weise mit Teilnehmenden gemeinsam Inhalt
 Mit dem Kursbaustein "Wiki" binden Sie eine Lernressource Wiki in Ihren Kurs ein. Die Einstellungen dazu finden Sie unter:<br>
 `Kurs > Administration > Kurseditor > Kursbaustein "Wiki" > Tab "Wiki-Lerninhalt"`
 
-Klicken Sie im Tab "Wiki-Lerninhalt" auf "Wiki wählen, erstellen oder importieren". Ordnen Sie dann ein bestehendes Wiki zu oder erstellen Sie ein neues.
+Solange kein Wiki zugeordnet ist, bietet der Tab "Wiki-Lerninhalt" drei Wege an: Mit "Auswählen" ordnen Sie ein bestehendes Wiki zu, mit "Erstellen" legen Sie ein neues an, und mit "Import" importieren Sie ein Wiki aus einer Datei.
 
-Ist schon eine Lernressource Wiki zugeordnet, erscheint deren Name. Um die Zuordnung nachträglich zu ändern, klicken Sie im Tab "Wiki-Lerninhalt" auf "Wiki auswechseln". Wählen Sie anschliessend ein anderes Wiki oder erstellen Sie ein neues.
+Ist schon eine Lernressource Wiki zugeordnet, erscheint deren Name. Um die Zuordnung nachträglich zu ändern, klicken Sie im Tab "Wiki-Lerninhalt" auf "Ersetzen" und wählen ein anderes Wiki. Über den Pfeil neben "Ersetzen" erstellen oder importieren Sie stattdessen ein neues.
 
 Im Tab "Wiki-Lerninhalt" legen Sie auch fest, wer das Wiki bearbeiten darf. Unter "Artikel bearbeiten" erlauben Sie neben den Besitzer:innen auch Betreuer:innen und Teilnehmenden, Wiki-Artikel zu bearbeiten. Standardmässig haben alle Teilnehmenden Lese- und Schreibrechte in einem Wiki. Eine Wiki-Seite löschen dürfen die Person, die sie erstellt hat, die Besitzer:innen des Kurses und die Besitzer:innen der Lernressource Wiki. [:octicons-tag-16:{ title="ab Release 15.0 (OO-4551)" }](https://track.frentix.com/issue/OO-4551)
 
@@ -30,7 +30,7 @@ Im Tab "Wiki-Lerninhalt" legen Sie auch fest, wer das Wiki bearbeiten darf. Unte
 
 ## Arbeiten mit Wiki (geschlossener Kurseditor)
 
-![Wiki-Navigation mit Seitenliste und Editor-Werkzeugleiste beim Bearbeiten der Wiki-Seite "Index"](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" title="Tab Seite bearbeiten im Kursbaustein Wiki" }
+![Im Kursmenü das aufgeklappte Wiki-Menu mit allen Seiten des Wikis, daneben der Editor der Seite Index mit den Tabs Artikel, Diskussion, Seite bearbeiten und Versionen / Autor:in](assets/course_element_wiki_edit_page_v1_de.png){ class="shadow lightbox" title="Tab Seite bearbeiten im Kursbaustein Wiki · 2026.11.03" }
 
 Ist ein Wiki in einem Kurs eingebunden, erscheinen in der linken Kursnavigation das "Wiki-Menu" und weitere Wiki-Links. Über den Link "Von A-Z" rufen Sie das Inhaltsverzeichnis mit allen Wiki-Seiten auf. So sehen Sie auf einen Blick, welche Seiten es bereits gibt.
 
@@ -44,7 +44,7 @@ Alternativ legen Sie auf der Seite, auf der der Link zur neuen Wiki-Seite ersche
 
 Beim ersten Aufruf des Links legt OpenOlat die Seite automatisch an.
 
-![Button "Interner link" in der Werkzeugleiste, im Editor darunter der eingefügte Platzhalter für den Link](assets/interner_Link.png){ class="shadow lightbox" title="Werkzeugleiste im Tab Seite bearbeiten" }
+![Button "Interner link" in der Werkzeugleiste markiert, im Editor darunter der eingefügte Platzhalter [[Linktext]], den Sie durch den Namen der neuen Seite ersetzen](assets/course_element_wiki_internal_link_v1_de.png){ class="shadow lightbox" title="Werkzeugleiste im Tab Seite bearbeiten · 2026.11.03" }
 
 ### Inhalte einer Wiki-Seite ändern
 

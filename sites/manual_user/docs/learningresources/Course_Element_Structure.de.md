@@ -79,7 +79,7 @@ Alle bisher beschriebenen Tabs verhalten sich in beiden Kurstypen gleich. Die Un
 
 Die Einstellungen im Tab "Lernpfad" unterscheiden sich grundsätzlich von den Einstellungen der anderen Kursbausteine in Lernpfadkursen. Unter "Abfolge der Lernschritte" legen Sie im Kursbaustein Struktur fest, ob die Teilnehmenden die untergeordneten Kursbausteine nacheinander bearbeiten ("Sequenziell") oder in beliebiger Reihenfolge ("Ohne Reihenfolge"). Unter "Durchführung" legen Sie zudem fest, ob der Strukturbaustein "Teil des Lernpfades" ist oder "Ausgenommen" wird. Bei Strukturbausteinen gibt es kein spezifisches Erledigungskriterium.
 
-![Die Abfolge der Lernschritte steht auf "Ohne Reihenfolge", die Durchführung auf "Teil des Lernpfades"](assets/Tab_Lernpfad.png){ class="shadow lightbox" title="Tab Lernpfad des Kurshauptknotens im Kurseditor" }
+![Markiert sind Abfolge der Lernschritte mit "Ohne Reihenfolge" und Durchführung mit "Teil des Lernpfades", rechts daneben der Schalter "Ausnahmen einschalten"](assets/course_element_structure_tab_learning_path_v1_de.png){ class="shadow lightbox" title="Tab Lernpfad des Kurshauptknotens im Kurseditor · 2026.11.03" }
 
 Die übrigen Einstellungen des Tabs beschreibt die Seite [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md).
 

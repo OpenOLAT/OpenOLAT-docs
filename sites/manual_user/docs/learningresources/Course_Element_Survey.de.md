@@ -37,7 +37,7 @@ OpenOlat stellt sicher, dass Teilnehmende die Umfrage nur einmal ausfüllen. Die
 
 Fügen Sie im Kurseditor den Kursbaustein "Umfrage" hinzu. Danach stehen Ihnen im Kurseditor folgende Tabs zur Verfügung:
 
-![Tabs Titel und Beschreibung, Layout, Lernpfad und Umfrage, geöffnet ist der Tab Titel und Beschreibung](assets/Umfrage_Kurseditor.png){ class="shadow lightbox" title="Kursbaustein Umfrage im Kurseditor" }
+![Die Tabs Titel und Beschreibung, Layout, Lernpfad und Umfrage des Kursbausteins, geöffnet ist der Tab Titel und Beschreibung](assets/course_element_survey_course_editor_v1_de.png){ class="shadow lightbox" title="Kursbaustein Umfrage im Kurseditor · 2026.11.03" }
 
 In den Tabs "Titel und Beschreibung" und "Layout" hinterlegen Sie allgemeine Beschreibungen und Informationen zum Kursbaustein und legen seine Darstellung fest. Im [Tab Lernpfad](../learningresources/Learning_path_course_Course_editor.de.md) legen Sie die Einstellungen für Lernpfadkurse fest, zum Beispiel das Erledigungskriterium "Umfrage teilgenommen".
 
@@ -45,19 +45,21 @@ Herkömmliche Kurse haben stattdessen die Tabs "Sichtbarkeit" und "Zugang". Dort
 
 #### Tab "Umfrage" {: #survey}
 
-Im Tab "Umfrage" konfigurieren Sie die Umfrage. Im ersten Schritt erstellen Sie ein neues Formular oder wählen ein bestehendes aus. Die Liste zeigt unter "Meine Einträge" alle Formulare, deren Besitzer:in Sie sind. Mit einem Klick auf den Haken in der Spalte "Auswählen" fügen Sie ein Formular dem Kurs hinzu.
+Im Tab "Umfrage" konfigurieren Sie die Umfrage. Im ersten Schritt wählen Sie ein bestehendes Formular aus oder legen ein neues an. Solange kein Formular gewählt ist, bietet der Tab drei Wege an:
 
-![Drei eigene Formulare unter Meine Einträge mit Häkchen in der Spalte Auswählen, Buttons Erstellen und Importieren oben rechts](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" title="Dialog Formular auswählen" }
+* **Auswählen**: Sie verbinden den Kursbaustein mit einem Formular, das bereits als Lernressource besteht. Der Dialog "Formular auswählen" zeigt unter "Meine Einträge" alle Formulare, deren Besitzer:in Sie sind. Mit einem Klick auf den Haken in der Spalte "Auswählen" fügen Sie ein Formular dem Kurs hinzu.
+* **Erstellen**: Sie legen eine neue Lernressource "Formular" an, die OpenOlat gleich mit dem Kursbaustein verbindet.
+* **Import**: Sie importieren ein Formular, das als Datei vorliegt.
 
-Haben Sie noch kein Formular, erstellen Sie mit dem Button "Erstellen" eine neue Lernressource "Formular" oder importieren mit "Importieren" ein Formular, das als Datei vorliegt. Anschliessend erscheint das neue oder importierte Formular ebenfalls in der Liste, und Sie wählen es aus.
+![Zwei eigene Formulare unter Meine Einträge, markiert ist die Spalte Auswählen mit dem Haken je Formular](assets/course_element_survey_choose_form_v1_de.png){ class="shadow lightbox" title="Dialog Formular auswählen · 2026.11.03" }
 
-Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im Kurs über "Bearbeiten" hinzu oder direkt in der Lernressource im [Formulareditor](../learningresources/Form_Editor.de.md).
+Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im [Formulareditor](../learningresources/Form_Editor.de.md) hinzu.
 
 Ein Formular, das Sie direkt im Kurseditor erstellen, legt OpenOlat als neue Lernressource "Formular" an. Sie finden es auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" und binden es in weiteren Kursen ein.
 
-Ein ausgewähltes Formular gestalten Sie mit dem Button "Bearbeiten". Ist das Formular schon passend eingerichtet, ist keine Bearbeitung nötig.
+Ist ein Formular gewählt, zeigt der Tab seinen Titel und die Zahl der "Antworten in diesem Kurs". Mit "Vorschau" sehen Sie das Formular so, wie Teilnehmende es ausfüllen. Mit dem Button "Lernressource bearbeiten" öffnen Sie die Lernressource "Formular" und gestalten das Formular im Formulareditor. Ist das Formular schon passend eingerichtet, ist keine Bearbeitung nötig. Den Button sehen Besitzer:innen des Formulars, Lernressourcenverwalter:innen und Administrator:innen. Mit "Ersetzen" wählen Sie ein anderes Formular, über den Pfeil daneben importieren Sie eines mit "Import".
 
-![Formular Kursbefragung ausgewählt mit Buttons Ersetzen und Bearbeiten](assets/Umfrage_Tab.png){ class="shadow lightbox" title="Tab Umfrage im Kurseditor" }
+![Gewähltes Formular mit der Anzahl Antworten in diesem Kurs, die Buttons Ersetzen und Lernressource bearbeiten sind markiert](assets/course_element_survey_tab_survey_v1_de.png){ class="shadow lightbox" title="Tab Umfrage im Kurseditor · 2026.11.03" }
 
 !!! warning "Achtung"
 
@@ -78,18 +80,18 @@ Auch die Resultate geben Sie für diese Rollen, Gruppen und Benutzer:innen frei 
 
     Damit eine Personengruppe die Umfrage ausfüllen kann, muss auch der Kurs für diese Personengruppe freigegeben sein. Sollen zum Beispiel auch externe Personen (Gäste) die Umfrage ausfüllen, braucht der Kurs ein Angebot für Gäste, siehe [Zugangskonfiguration / Freigabe](../learningresources/Access_configuration.de.md). Eine Freigabe für Gäste gibt es nur bei herkömmlichen Kursen, nicht bei Lernpfadkursen.
 
-Sobald jemand das Formular aufgerufen hat, ändern Sie das Formular im Kurs mit dem Button "Bearbeiten" nur noch eingeschränkt: Texte lassen sich ändern, Blöcke aber nicht mehr verschieben, hinzufügen oder löschen. Im Formular erscheint dann die Meldung "Die Ressource wird bereits verwendet. Die Bearbeitung ist beschränkt."
+Sobald jemand das Formular aufgerufen hat, ändern Sie das Formular im Kurs mit dem Button "Lernressource bearbeiten" nur noch eingeschränkt: Texte lassen sich ändern, Blöcke aber nicht mehr verschieben, hinzufügen oder löschen. Im Formular erscheint dann die Meldung "Die Ressource wird bereits verwendet. Die Bearbeitung ist beschränkt."
 
 
 ### Ansicht {: #view}
 
 Was Besitzer:innen, Betreuer:innen und Teilnehmende bei geschlossenem Editor sehen, hängt von den Berechtigungen im Tab "Umfrage" ab. Darf eine Personengruppe den Fragebogen ausfüllen ("Teilnahme durch"), sieht sie zuerst den Fragebogen. Hat die Person den Fragebogen ausgefüllt, zeigt der Kursbaustein die Auswertung der Umfrage, sofern die Resultate für ihre Personengruppe sichtbar sind.
 
-![Tab Übersicht mit Kennzahlen und Balkendiagramm Gesamttotal Rubriken, Buttons Drucken, Export PDF und Export Excel](assets/Umfrage_Kurs.jpg){ class="shadow lightbox" title="Auswertung im Kursbaustein Umfrage" }
+![Tab Übersicht mit Kennzahlen und einem Balkendiagramm mit dem Durchschnitt je Frage, darüber die Buttons Drucken, Export PDF und Export Excel](assets/course_element_survey_results_v1_de.png){ class="shadow lightbox" title="Auswertung im Kursbaustein Umfrage · 2026.11.03" }
 
 Darf eine Personengruppe (zum Beispiel Teilnehmende) die Umfrage ausfüllen, aber die Resultate nicht sehen, erscheint *nach* dem Ausfüllen diese Meldung:
 
-![Meldung "Formular ausgefüllt, Sie haben das Formular bereits ausgefüllt. Vielen Dank für Ihre Teilnahme."](assets/Umfrage_ausgefuellt.jpg){ class="shadow lightbox" title="Kursbaustein Umfrage nach dem Ausfüllen" }
+![Meldung "Formular ausgefüllt, Sie haben das Formular bereits ausgefüllt. Vielen Dank für Ihre Teilnahme."](assets/course_element_survey_completed_v1_de.png){ class="shadow lightbox" title="Kursbaustein Umfrage nach dem Ausfüllen · 2026.11.03" }
 
 Eine Umfrage füllt jede Person nur einmal aus. Nach dem Abschicken lassen sich die Antworten nicht mehr ändern, darauf weist OpenOlat hin. Wollen Sie den Fragebogen noch nicht abschicken, sichern Sie Ihre Antworten mit "Zwischenspeichern".
 
@@ -119,7 +121,7 @@ Die Ergebnisse speichern Sie auch über die [Kursarchivierung](../learningresour
 
 Besitzer:innen des Kurses setzen eine Umfrage im Menü mit den drei Punkten des Kursbausteins mit "Zurücksetzen" zurück. Dabei löscht OpenOlat alle Antworten dieser Umfrage. Einzelne Fragebögen lassen sich nicht zurücksetzen, weil die Abgabe anonym erfolgt.
 
-![Menü mit den drei Punkten geöffnet, die Option Zurücksetzen markiert](assets/Umfrage_zuruecksetzen20.jpg){ class="shadow lightbox" title="Auswertung im Kursbaustein Umfrage, Sicht der Besitzer:innen" }
+![Menü mit den drei Punkten geöffnet, die Option Zurücksetzen markiert](assets/course_element_survey_reset_v1_de.png){ class="shadow lightbox" title="Auswertung im Kursbaustein Umfrage, Sicht der Besitzer:innen · 2026.11.03" }
 
 ## Weiterführende Informationen {: #further_information}
 

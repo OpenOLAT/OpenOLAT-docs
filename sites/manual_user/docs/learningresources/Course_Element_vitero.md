@@ -26,15 +26,17 @@ In the virtual meeting room, participants communicate via text chat, audio and v
 
 ## Configuration in the course editor
 
-![Meeting administration with the buttons Create meeting and Team room utilisation](assets/Vitero_EN.png){ class="shadow lightbox" title="Configuration tab in the course editor" }
+![In the meeting administration the buttons Create meeting and Team room utilisation are highlighted, which you use to find a free slot and create a meeting](assets/course_element_vitero_configuration_v1_en.png){ class="shadow lightbox" title="Configuration tab in the course editor · 2026.11.03" }
 
 You create your vitero meetings in the course editor in the tab "Configuration" or in the course view. With "Team room utilisation", you first see how busy the available team rooms are and thus find a free slot. Then click on "Create meeting".
 
 ## Create meeting {: #configuration-in-the-course-run-closed-editor}
 
-![Meeting fields, start and end buffer, room size and option "User can sign in themselves"](assets/Vitero_1_EN.png){ class="shadow lightbox" title="Edit dialog in the course element vitero" }
+![Fields of a new meeting, above them the notice that the details can no longer be modified after saving](assets/course_element_vitero_create_meeting_v1_en.png){ class="shadow lightbox" title="Edit dialog in the course element vitero · 2026.11.03" }
 
-Under "Start" and "End", enter the start and end date of the meeting and select the "Room size". Under "Start buffer (minutes)", you define how many minutes before the start the room can be entered. Under "End buffer (minutes)", you define how many minutes after the end vitero closes the meeting definitively.
+Under "Title", enter the name of the meeting. Under "Start" and "End", enter the start and end date of the meeting and select the "Room size". Under "Start buffer (minutes)", you define how many minutes before the start the room can be entered. Under "End buffer (minutes)", you define how many minutes after the end vitero closes the meeting definitively.
+
+With the option "Inspire" client you define that the meeting takes place in the vitero client "Inspire". The option only appears if it is switched on in the system administration under `Administration > External tools > vitero`.
 
 With the option "User can sign in themselves", all participants with access to the course element enter themselves in the meeting, as long as places are available. If the option is switched off, only owners of the course enter participants in the meetings.
 
@@ -44,7 +46,7 @@ With the option "User can sign in themselves", all participants with access to t
 
 !!! warning "Attention"
 
-    Once a meeting has been created, it cannot be changed after saving the form.
+    Check the details before you save. As the notice "The meeting settings are final and can not be modified later!" in the dialog says, you cannot change them afterwards. Only the option "User can sign in themselves" can still be switched on or off later.
 
 ## Further information {: #further_information}
 

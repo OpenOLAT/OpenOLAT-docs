@@ -26,7 +26,7 @@ For coaches and participants, you also choose who exactly appears in the list:
 
 If the course is integrated in the Course Planner, the option "All coaches of the selected product" or "All participants of the selected product" is also available.
 
-![Configuration tab of the participant list course element: checkboxes for course administrator, coaches and participants with visibility scopes, plus e-mail and download function toggles](assets/participant_list_config.png){ class="shadow lightbox" title="Configuration of the course element Participant list in the course editor" }
+![Checkboxes for three roles define who appears in the list; below, unlock the e-mail and download function](assets/course_element_participant_list_configuration_v1_en.png){ class="shadow lightbox" title="Configuration of the course element Participant list in the course editor · 2026.11.03" }
 
 From the list you reach the visiting card of the persons shown. Which details it contains depends on what the persons have stored in their profile. If the configuration allows it, you send an e-mail to all or selected members or download the list and print it.
 

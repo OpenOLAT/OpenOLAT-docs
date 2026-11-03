@@ -25,7 +25,7 @@ Mit dem Kursbaustein "Video Livestream" zeigen Sie Ihren Teilnehmenden Livestrea
 Die Administrator:innen finden die Konfiguration in der System-Administration unter: `Administration > Module > Livestream`.<br>
 Dort aktivieren sie den Kursbaustein und bei Bedarf die Option Multistream für zwei gleichzeitige Livestreams; bei aktiviertem Multistream legen sie zusätzlich das Trennzeichen für mehrere URLs eines Termins fest. Unter Initialwerte hinterlegen sie die Vor- und Nachlaufzeit in Minuten, das Bearbeitungsrecht für Betreuer:innen sowie den anzuzeigenden Stream als Vorgabe für neue Kursbausteine.
 
-![Einstellungen des Kursbausteins Livestream mit Initialwerten für Vor- und Nachlaufzeit und der Auswahl des Streams](assets/course_element_livestream_admin_settings_v1_de.png){ class="shadow lightbox" title="Seite Livestream im Menü Module" }
+![Einstellungen des Kursbausteins Livestream mit Initialwerten für Vor- und Nachlaufzeit und der Auswahl des Streams](assets/course_element_livestream_admin_settings_v2_de.png){ class="shadow lightbox" title="Seite Livestream im Menü Module · 2026.11.03" }
 
 
 

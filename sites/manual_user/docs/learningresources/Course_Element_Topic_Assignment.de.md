@@ -143,7 +143,7 @@ Klicken Sie auf "Thema erstellen" und geben Sie Titel und Beschreibung des Thema
 
   Mit dieser Option erhalten Sie eine E-Mail, wenn Teilnehmende Ihr Thema wählen oder abwählen.
 
-![Themenstatus "Teilnehmer prüfen" mit den Buttons Thema editieren, Thema löschen und Themenstatus auf "Belegt" setzen](assets/Themen_belegt.jpg){ class="shadow lightbox" title="Tab Beschreibung eines Themas" }
+![Themenstatus "Teilnehmer:in prüfen", darunter markiert die Buttons Thema editieren, Thema löschen und Themenstatus auf "Belegt" setzen](assets/course_element_topic_assignment_topic_description_v1_de.png){ class="shadow lightbox" title="Tab Beschreibung eines Themas · 2026.11.03" }
 
 Über "Thema editieren" gelangen Sie in den Bearbeitungsmodus und ändern die aufgeführten Felder.
 
@@ -163,7 +163,7 @@ Wählen Sie "Themenstatus auf "Belegt" setzen", wenn keine weiteren Teilnehmende
 
 Sieht die Konfiguration der Themenvergabe vor, dass Themenverantwortliche die Wahl der Teilnehmenden akzeptieren, sehen Sie auf der Startseite der Themenvergabe in der Tabelle den Vermerk "Teilnehmer:in prüfen", sobald sich jemand für Ihr Thema eingeschrieben hat.
 
-![Tabelle mit den Spalten Thema, Verantwortlich und Themenstatus, die Einträge "Teilnehmer prüfen" hervorgehoben](assets/Themen_Teilnehmer_pruefen.png){ class="shadow lightbox" title="Startseite der Themenvergabe" }
+![Markierte Spalte Themenstatus: zwei Themen mit "Teilnehmer:in prüfen", ein Thema ohne Bewerbung mit "Keine Teilnehmer:innen zu prüfen"](assets/course_element_topic_assignment_check_participants_v1_de.png){ class="shadow lightbox" title="Startseite der Themenvergabe · 2026.11.03" }
 
 ![Gruppen "Zuständig für dieses Thema" und "Akzeptierte Teilnehmer:innen" mit Tabelle Anmeldename, Vorname, Nachname, E-Mail und Button Entfernen](assets/topic_assignment_user_managementv2_de.png){ class="shadow lightbox" title="Tab Verwaltung Benutzer:innen eines Themas" }
 

@@ -13,11 +13,11 @@ Specialty / Note | Generation of automatic overviews
 
 Use this course element to organize and structure your course elements and/or to clearly separate areas. For example, create one area each for communication, for course activities and for content.
 
-The course element Structure offers, among other things, an automatic overview of all course elements subordinate to it with their short titles, titles and descriptions. The automatic overview also includes a performance overview with points, status and link to the evidence of achievement, provided these are activated for the course element or the course.
+The course element Structure offers, among other things, an automatic overview of all course elements subordinate to it with their short titles, titles and descriptions. The automatic overview also includes a performance summary with score, status and link to the evidence of achievement, provided these are activated for the course element or the course.
 
 The owners of the course define the settings of the course element in the course editor: `Course > Administration > Course editor`. Coaches only reach the course editor if they are granted the "Course editor" right in the course.
 
-![Performance overview with the score achieved and a link to the evidence of achievement, below it the status per course element](assets/Leistungsuebersicht_Struktur_Lernpfad1.png){ class="shadow lightbox" title="Automatic overview of the structure element in the learning path course" }
+![Performance summary with the score achieved and the link Show evidence of achievement, below it the table of contents with the status per course element](assets/course_element_structure_overview_learning_path_v1_en.png){ class="shadow lightbox" title="Automatic overview of the structure element in the learning path course · 2026.11.03" }
 
 ### The chosen course format
 
@@ -77,7 +77,7 @@ All tabs described so far behave identically in both course formats. The differe
 
 The settings in the tab "Learning path" basically differ from the settings of the other course elements in learning path courses. Under "Sequence of steps" you define in the course element Structure whether participants work through the subordinate course elements one after the other ("Sequential") or in any order ("No sequence"). Under "Execution" you additionally define whether the structure element is "Part of learning path" or "Excluded". There is no specific completion criterion for structure elements.
 
-![The sequence of steps is set to "No sequence", the execution to "Part of learning path"](assets/Tab_Lernpfad.png){ class="shadow lightbox" title="Tab Learning path of the course root node in the course editor" }
+![Marked are Sequence of steps with "No sequence" and Execution with "Part of learning path", on the right the toggle "Enable exceptions"](assets/course_element_structure_tab_learning_path_v1_en.png){ class="shadow lightbox" title="Tab Learning path of the course root node in the course editor · 2026.11.03" }
 
 The page [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md) describes the other settings of the tab.
 
@@ -123,9 +123,9 @@ It is also possible to calculate "Not passed". The selection list offers two var
 
 If certificates of achievement are to be issued for a course, adjust the settings in the "Score" tab.
 
-For participants, the performance overview is as follows:
+For participants, the performance summary is as follows:
 
-![Performance overview with the success status "Passed", score and a link to the evidence of achievement, the course menu on the left](assets/Leistungsuebersicht_Struktur_herkoemmlich.png){ class="shadow lightbox" title="Structure element in the running conventional course" }
+![Performance summary with the success status "Passed", the score and the link Show evidence of achievement, the course menu on the left](assets/course_element_structure_overview_conventional_v1_en.png){ class="shadow lightbox" title="Structure element in the running conventional course · 2026.11.03" }
 
 !!! tip "Tip"
 

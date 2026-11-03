@@ -16,7 +16,7 @@ Spezialität / Hinweis |
 
 Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kurs hinzufügen. Das Formular funktioniert ähnlich wie der [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md) und kann ebenfalls nur einmal ausgefüllt werden. Allerdings sind die Bearbeitungen des Formulars nicht anonym (zumindest in der Standardeinstellung).
 
-Für das Ausfüllen des Kursbausteins kann im Tab "Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) kann ebenfalls ergänzend verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im Anhang.
+Für das Ausfüllen des Kursbausteins kann im Tab "Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) kann ebenfalls ergänzend verknüpft werden. Anders als beim Umfragebaustein können die Teilnehmenden bei Abgabe des ausgefüllten Formulars eine Bestätigungsmail mit Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im Anhang erhalten, wenn die [E-Mail Bestätigung](#confirmation_email) für sie eingeschaltet ist.
 
 Betreuende sehen im Kurs in der Übersichtstabelle, welche Teilnehmenden das Formular schon ausgefüllt haben und welche nicht. Bereits abgegebene Formulare können zur weiteren Bearbeitung durch den Teilnehmenden von der Betreuer:in wieder geöffnet oder auch komplett zurückgesetzt werden. Mit Klick auf die Teilnehmenden kann das ausgefüllte Formular angesehen werden. Die Formulardaten aller Teilnehmenden stehen als Excel-Export zur Verfügung.
 
@@ -32,39 +32,43 @@ Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie im [How-to Berei
 
 Nachdem Sie den Kursbaustein Formular dem Kurs hinzugefügt haben stehen Ihnen im Kurseditor folgende Tabs zur Verfügung:
 
-![Tabs Titel und Beschreibung, Layout, Lernpfad, Formular und Erinnerungen des Kursbausteins Formular im Kurseditor](assets/Formular_Tabs1.jpg){ class="shadow lightbox" title="Kursbaustein Formular im Kurseditor" }
+![Markiert sind die Tabs Titel und Beschreibung, Layout, Lernpfad, Formular und Erinnerungen: Sie enthalten alle Einstellungen des Kursbausteins Formular](assets/course_element_form_tabs_v1_de.png){ class="shadow lightbox" title="Kursbaustein Formular im Kurseditor · 2026.11.03" }
 
 Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine Beschreibungen und Informationen zum jeweiligen Kursbaustein hinterlegt und die optische Darstellung definiert werden. Im [Tab Lernpfad](../learningresources/Learning_path_course_Course_editor.de.md) werden spezielle Einstellungen die für Lernpfad Kurse gelten definiert. Herkömmliche Kurse verfügen dagegen über die Tabs Sichtbarkeit und Zugang. Hier wird definiert, wer diesen Kursbaustein sehen bzw. bearbeiten kann.
 
 ### Tab "Formular"
 
-Die zentrale Konfiguration erfolgt im Tab "Formular". Hier wird im ersten Schritt entweder ein neues Formular erstellt oder ein existierendes ausgewählt.
+Die zentrale Konfiguration erfolgt im Tab "Formular". Im ersten Schritt wählen Sie ein bestehendes Formular aus oder legen ein neues an. Solange kein Formular gewählt ist, bietet der Tab drei Wege an:
 
-![Button Wählen, erstellen oder importieren, solange kein Formular gewählt ist, im Tab Formular des Kurseditors](assets/Formular_waehlen.jpg){ class="shadow lightbox" title="Tab Formular im Kurseditor" }
+* **Auswählen**: Sie verbinden den Kursbaustein mit einem Formular, das bereits als Lernressource besteht.
+* **Erstellen**: Sie legen eine neue Lernressource "Formular" an, die OpenOlat gleich mit dem Kursbaustein verbindet.
+* **Import**: Sie importieren ein Formular, das als Datei vorliegt.
 
-Nach Klick auf den Button werden alle Formulare, bei denen man Besitzer:in ist, angezeigt und können einfach per Klick auf den Haken ausgewählt werden.
+![Markiert sind die Buttons Auswählen, Erstellen und Import, solange dem Kursbaustein noch kein Formular zugeordnet ist](assets/course_element_form_empty_state_v1_de.png){ class="shadow lightbox" title="Tab Formular im Kurseditor · 2026.11.03" }
 
-![Drei eigene Formulare unter Meine Einträge mit Häkchen in der Spalte Auswählen, Buttons Erstellen und Importieren oben rechts, im Dialog Formular auswählen](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" title="Dialog Formular auswählen" }
+Mit "Auswählen" öffnet sich der Dialog "Formular auswählen". Er zeigt unter "Meine Einträge" alle Formulare, deren Besitzer:in Sie sind. Mit einem Klick auf den Haken in der Spalte "Auswählen" fügen Sie ein Formular dem Kurs hinzu.
 
-Hat man noch kein Formular erstellt, kann eine neue Lernressource Formular über den Button "Erstellen" erstellt oder ein extern vorliegendes Formular über den Button "Importieren" hinzugefügt werden. Anschliessend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
+![Eigene Formulare unter Meine Einträge, markiert ist die Spalte Auswählen mit dem Haken je Formular](assets/course_element_form_select_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Formular auswählen · 2026.11.03" }
 
-Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](../learningresources/Form_Editor.de.md) hinzugefügt werden.
+Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im [Formulareditor](../learningresources/Form_Editor.de.md) hinzu.
 
 Wenn ein Formular im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen und Kursbausteinen eingebunden werden kann.
 
-![Schalter Mehrfaches Ausfüllen des Formulars eingeschaltet, Feld Teilnahme bis mit Option Relatives Datum und vier Empfängergruppen der E-Mail Bestätigung, im Tab Formular des Kurseditors](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" title="Tab Formular im Kurseditor" }
+Ist ein Formular gewählt, zeigt der Tab seinen Titel und die Zahl der "Antworten in diesem Kurs". Mit "Vorschau" sehen Sie das Formular so, wie Teilnehmende es ausfüllen. Mit dem Button "Lernressource bearbeiten" öffnen Sie die Lernressource "Formular" und gestalten das Formular im Formulareditor. Den Button sehen Besitzer:innen des Formulars, Lernressourcenverwalter:innen und Administrator:innen. Mit "Ersetzen" wählen Sie ein anderes Formular, über den Pfeil daneben importieren Sie eines mit "Import".
 
-**Mehrfaches Ausfüllen des Formulars**
+![Markiert sind Mehrfaches Ausfüllen des Formulars, Relatives Datum, Teilnahme bis und E-Mail Bestätigung, darüber das zugeordnete Formular mit Vorschau, Ersetzen und Lernressource bearbeiten](assets/course_element_form_tab_form_v2_de.png){ class="shadow lightbox" title="Tab Formular im Kurseditor · 2026.11.03" }
+
+#### Mehrfaches Ausfüllen des Formulars {: #multiple_execution}
 
 Für manche Anwendungsfälle soll das Formular von jedem/jeder Teilnehmer:in nur einmal verwendet werden können, z.B. für das Feedback zu einem Kurs. In anderen Anwendungsfällen soll ein Formular mehrfach von den gleichen Teilnehmer:innen verwendet werden können, z.B. soll eine Person mit dem gleichen Formular mehrfach Bestellungen machen können. Im Kursbaustein "Formular" kann deshalb mit einem Toggle-Button die Mehrfachverwendung erlaubt werden.
 
-**Teilnahme bis...**
+#### Teilnahme bis ... {: #completion_deadline}
 
 Zusätzlich kann im Tab "Formular" definiert werden bis wann das Formular von den Lernenden ausgefüllt werden kann. Hierfür kann ein festes oder ein relatives Datum verwendet werden, z.B. x Tage nach dem ersten Kursbesuch. Sobald ein Enddatum definiert wurde wird auch der Tab "[Erinnerungen](../learningresources/Course_Reminders.de.md)" aktiviert. Zum Beispiel könnte man eine Erinnerung erstellen, die die Lernenden wenige Tage vor der Abgabedeadline noch einmal per Mail an das Ausfüllen des Formulars erinnert.
 
-**E-Mail Bestätigung**
+#### E-Mail Bestätigung {: #confirmation_email}
 
-Wird die E-Mail Bestätigung aktiviert erhalten die Teilnehmenden eine Bestätigungs-E-Mail und das von ihnen ausgefüllte Formular als PDF Anhang. Zusätzlich können auch E-Mail Bestätigungen an Besitzer:innen, Betreuer:innen und Externe verschickt werden.
+Unter "E-Mail Bestätigung" wählen Sie, wer nach einer Abgabe eine Bestätigung per E-Mail erhält: "Besitzer:innen", "Betreuer:innen", "Teilnehmer:innen" und "Externe E-Mail-Adressen". Teilnehmende erhalten ihr ausgefülltes Formular als PDF im Anhang, die übrigen Empfänger:innen nach jeder Abgabe das jeweils ausgefüllte Formular, ebenfalls als PDF.
 
 !!! warning "Achtung"
 
@@ -82,7 +86,7 @@ Bei geschlossenem Kurseditor sehen Besitzer:innen und Betreuer:innen eine Übers
 
 Besitzer:innen verfügen zusätzlich noch über den Tab "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen](../learningresources/Course_Reminders.de.md) schon versandt wurden.
 
-![Button Daten exportieren und Mehr-Menü einer Zeile mit Formular als PDF, Wieder öffnen und Daten zurücksetzen, in der Teilnehmerliste für Besitzer:innen und Betreuer:innen](assets/Formular_kursrun.png){ class="shadow lightbox" title="Teilnehmerliste des Kursbausteins Formular" }
+![Markiert sind Daten exportieren oben rechts, Daten exportieren für ausgewählte Personen und das Mehr-Menü einer Zeile mit Formular als PDF, Wieder öffnen und Daten zurücksetzen](assets/course_element_form_participant_list_v1_de.png){ class="shadow lightbox" title="Teilnehmerliste des Kursbausteins Formular · 2026.11.03" }
 
 ## Ansicht: Teilnehmende
 

@@ -53,15 +53,16 @@ e) Assign a suitable title in the tab "Title and description" and save the cours
 
 ## Step 2: Create the blog (learning resource)
 
-a) Switch to the tab "Blog learning content". As long as no blog is selected, the tab offers three options:
+a) Switch to the tab "Blog learning content". As long as no blog is selected, the tab offers four options:
 
-![As long as no blog is selected, the tab offers the three options Select, Create and Embed via URL](assets/blog_learning_content_v2_en.png){ class="shadow lightbox" title="Tab Blog learning content in the course editor · 2026.10.20" }
+![As long as no blog is selected, the tab offers the four options Select, Create, Import and Embed via URL](assets/blog_learning_content_v3_en.png){ class="shadow lightbox" title="Tab Blog learning content in the course editor · 2026.11.03" }
 
 * **Select**: You connect the course element with a blog that already exists as a learning resource.
 * **Create**: You create a new OpenOlat blog in which you and the authorised people write entries.
+* **Import**: You upload a blog that you have as a file, for example from an export.
 * **Embed via URL**: You embed an external blog via its RSS feed, see [Embed an external blog](#external_blog).
 
-A blog that you have as a file, for example from an export, you upload with "Import" via the arrow next to "Embed via URL". Whether a blog is an OpenOlat blog or an external blog is fixed when it is created and cannot be changed later.
+Whether a blog is an OpenOlat blog or an external blog is fixed when it is created and cannot be changed later.
 
 In the following, you create a new OpenOlat blog.
 

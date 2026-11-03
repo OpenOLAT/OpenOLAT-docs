@@ -15,7 +15,7 @@ Specialty / Note |
 
 Using the course element "Form" you can add the learning resource form to a course. The form works similar to the [course element "Survey"](../learningresources/Course_Element_Survey.md) and can also be filled out only once. However, in contrast to the survey (at least in the standard setting), filling in the form is not anonymous. 
 
-For the completion of the course element, a last deadline can be defined in the tab "Form". A [Course Reminder](../learningresources/Course_Reminders.md) can also be linked in addition. In contrast to the survey module, participants automatically receive a confirmation e-mail with the date and time of submission as well as their completed form as a PDF attachment when they submit the completed form.
+For the completion of the course element, a last deadline can be defined in the tab "Form". A [Course Reminder](../learningresources/Course_Reminders.md) can also be linked in addition. In contrast to the survey module, participants can receive a confirmation e-mail with the date and time of submission as well as their completed form as a PDF attachment when they submit the completed form, if the [confirmation e-mail](#confirmation_email) is switched on for them.
 
 In the course, coaches see in the overview table which participants have already completed the form and which have not. Forms that have already been submitted can be reopened by the coach for further processing by the participant, or they can be completely reset. By clicking on the participant, the completed form can be viewed. The form data of all participants are available as Excel export.
 
@@ -32,43 +32,47 @@ You can find out how to create forms and integrate them into courses in the [How
 
 After you have added the course element Form to the course, the following tabs are available in the course editor:
 
-![Tabs Title and description, Layout, Learning path, Form and Reminders of the course element Form in the course editor](assets/Formular_Tabs1.jpg){ class="shadow lightbox" title="Course element Form in the course editor" }
+![The tabs Title and description, Layout, Learning path, Form and Reminders are marked: they hold all settings of the course element Form](assets/course_element_form_tabs_v1_en.png){ class="shadow lightbox" title="Course element Form in the course editor · 2026.11.03" }
 
 In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [tab Learning path](../learningresources/Learning_path_course_Course_editor.md) special settings are defined which are valid for learning path courses. Conventional courses, on the other hand, have the Visibility and Access tabs. Here you define who can see or edit this course element.
 
 ### Tab "Form"
 
-The central configuration is done in the "Form" tab. Here, in the first step, either a new form is created or an existing one is selected.
+The central configuration is done in the "Form" tab. In the first step, you select an existing form or create a new one. As long as no form is selected, the tab offers three ways:
 
-![Button Select, create or import while no form is selected, in the tab Form of the course editor](assets/Formular_waehlen.jpg){ class="shadow lightbox" title="Form tab in the course editor" }
+* **Select**: You connect the course element with a form that already exists as a learning resource.
+* **Create**: You create a new learning resource "Form", which OpenOlat connects with the course element right away.
+* **Import**: You import a form that is available as a file.
 
-After clicking the button, all the forms for which you are the owner will be displayed and you can select them simply by clicking the checkmark.
+![Marked are the buttons Select, Create and Import, as long as no form is assigned to the course element yet](assets/course_element_form_empty_state_v1_en.png){ class="shadow lightbox" title="Form tab in the course editor · 2026.11.03" }
 
-![Three own forms under My entries with checkmarks in the column Select, buttons Create and Import at the top right, in the dialog Select form](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" title="Select form dialog" }
+"Select" opens the dialog "Choose form". Under "My entries" it shows all forms you own. Click the checkmark in the column "Select" to add a form to the course.
 
-If you have not yet created a form, you can create a new learning resource form using the "Create" button or add an existing external form using the "Import" button. Subsequently, the form just created or imported also appears in the list and can be selected.
+![Own forms under My entries, the column Select with the checkmark per form is marked](assets/course_element_form_select_dialog_v1_en.png){ class="shadow lightbox" title="Choose form dialog · 2026.11.03" }
 
-A newly created form does not yet contain any elements, questions or text fields. These must be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_Editor.md).
+A newly created form does not yet contain any elements, questions or text fields. You add them in the [form editor](../learningresources/Form_Editor.md).
 
 When a form is created in the course editor, a new learning resource Form is automatically created which can also be found in the [Authoring area](../area_modules/Authoring.md) under "My entries" and can be included in further courses and course elements.
 
-![Toggle Fill out the form multiple times switched on, field Participation until with option Relative date and four recipient groups of the e-mail confirmation, in the tab Form of the course editor](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" title="Form tab in the course editor" }
+Once a form is selected, the tab shows its title and the number of "Responses in this course". With "Preview" you see the form the way participants fill it in. With the button "Edit learning resource" you open the learning resource "Form" and design the form in the form editor. Owners of the form, learning resource managers and administrators see the button. With "Replace" you select a different form, with the arrow next to it you import one with "Import".
 
-**Fill out the form multiple times**
+![Marked are Filling out the form multiple times, Relative dates, Completion deadline and Confirmation e-mail, above them the assigned form with Preview, Replace and Edit learning resource](assets/course_element_form_tab_form_v2_en.png){ class="shadow lightbox" title="Form tab in the course editor · 2026.11.03" }
+
+#### Filling out the form multiple times {: #multiple_execution}
 
 For some use cases, the form should only be able to be used once by each participant, e.g. for feedback on a course. In other use cases, a form should be able to be used multiple times by the same participant, e.g. a person should be able to place multiple orders using the same form. Multiple use can therefore be permitted in the "Form" course element using a toggle button.
 
-**Participation until...**
+#### Completion deadline {: #completion_deadline}
 
 In addition, you can define in the tab until when the form can be filled out by the learners. For this purpose, a fixed or a relative date can be used, e.g. x days after the first course attendance. As soon as an end date has been defined, the tab "[Reminders](../learningresources/Course_Reminders.md)" is also activated. For example, you could create a reminder to email learners again a few days before the submission deadline to remind them to complete the form.
 
-**E-Mail confirmation**
+#### Confirmation e-mail {: #confirmation_email}
 
-If the e-mail confirmation is activated, the participants will receive a confirmation e-mail and the form they filled out as a PDF attachment. In addition, email confirmations can also be sent to owners, coaches and externals.
+Under "Confirmation e-mail" you choose who receives a confirmation by e-mail after a submission: "Owners", "Coaches", "Participant" and "External e-mail addresses". Participants receive their completed form as a PDF attachment, the other recipients receive the respective completed form after each submission, also as a PDF.
 
 !!! warning "Attention"
 
-    Once a form has been viewed by at least one participant, it cannot be replaced or even rudimentarily edited.
+    Once a form has been viewed by at least one participant, it can no longer be replaced and can only be edited to a limited extent.
 
 
 ## View: Owners and Coaches
@@ -83,13 +87,13 @@ Via the three-dot menu at the end of a row, a submitted form can also be reopene
 
 Owners additionally have the tab "Reminders" if the form submission has a deadline. Here you can create new reminders and see which [reminders](../learningresources/Course_Reminders.md) have already been sent.
 
-![Button Export data and three-dot menu of a row with Form as PDF, Reopen and Reset data, in the participant list for owners and coaches](assets/Formular_kursrun.png){ class="shadow lightbox" title="Participant list of the course element Form" }
+![Marked are the button Export data at the top right, the button Export data for the selected persons and the three-dot menu of a row with Form as PDF, Reopen and Reset data](assets/course_element_form_participant_list_v1_en.png){ class="shadow lightbox" title="Participant list of the course element Form · 2026.11.03" }
 
 ## View: Participants
 
 Participants, on the other hand, are shown the specific form directly when they click on it and can fill it out. It is also possible to save the form temporarily.
 
-![Form with a choice question, sliders and text fields plus the buttons Save and finish and Save temporarily, in the view of the participants in the course](assets/Formular_Beispiel_Kurs.jpg){ class="shadow lightbox" title="Course element Form in the course view" }
+![Form with a choice question and a text field, below them the buttons Save and finish and Quick save: participants fill in the form directly in the course](assets/course_element_form_participant_view_v1_en.png){ class="shadow lightbox" title="Course element Form in the course view · 2026.11.03" }
 
 The completed form must finally be saved and can then no longer be edited by the participants, only displayed.
 

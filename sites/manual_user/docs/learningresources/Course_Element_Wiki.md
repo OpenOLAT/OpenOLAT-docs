@@ -18,9 +18,9 @@ Use a Wiki to easily create content together with participants. A wiki is suitab
 With the "Wiki" course element, you integrate a wiki learning resource into your course. You will find the settings under:<br>
 `Course > Administration > Course editor > Course element "Wiki" > Tab "Wiki learning content"`
 
-Click on "Choose, create or import Wiki" in the tab "Wiki learning content". Then assign an existing Wiki or create a new one.
+As long as no wiki is assigned, the tab "Wiki learning content" offers three ways: With "Select" you assign an existing wiki, with "Create" you create a new one, and with "Import" you import a wiki from a file.
 
-If a wiki learning resource is already assigned, its name appears. To change the assignment later, click on "Replace Wiki" in the tab "Wiki learning content". Then select another Wiki or create a new one.
+If a wiki learning resource is already assigned, its name appears. To change the assignment later, click on "Replace" in the tab "Wiki learning content" and select another wiki. With the arrow next to "Replace" you create or import a new one instead.
 
 In the "Wiki learning content" tab, you also define who may edit the wiki. Under "Edit Material" you allow coaches and participants, in addition to the owners, to edit wiki articles. By default all participants have read and write permission in a Wiki. A wiki page can be deleted by the person who created it, by the owners of the course and by the owners of the wiki learning resource. [:octicons-tag-16:{ title="from Release 15.0 (OO-4551)" }](https://track.frentix.com/issue/OO-4551)
 
@@ -30,7 +30,7 @@ In the "Wiki learning content" tab, you also define who may edit the wiki. Under
 
 ## Working with Wiki (closed course editor)
 
-![Wiki navigation with page list and editor toolbar while editing the wiki page "Index"](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" title="Edit page tab in the Wiki course element" }
+![In the course menu the expanded Wiki menu with all pages of the wiki, next to it the editor of the page Index with the tabs Article, Discussion, Edit page and Versions/authors](assets/course_element_wiki_edit_page_v1_en.png){ class="shadow lightbox" title="Edit page tab in the Wiki course element · 2026.11.03" }
 
 If a Wiki is embedded in a course, the "Wiki menu" and other Wiki links appear in the left course navigation. Use the "From A-Z" link to call up the table of contents with all Wiki pages. This way you see at a glance which pages already exist.
 
@@ -44,7 +44,7 @@ Alternatively, create an internal link on the page where the link to the new Wik
 
 OpenOlat creates the page automatically the first time the link is called.
 
-![Button "Interner link" in the toolbar, with the inserted placeholder for the link in the editor below](assets/interner_Link.png){ class="shadow lightbox" title="Toolbar in the Edit page tab" }
+![Button "Internal link" in the toolbar marked, in the editor below the inserted placeholder [[Link text]], which you replace with the name of the new page](assets/course_element_wiki_internal_link_v1_en.png){ class="shadow lightbox" title="Toolbar in the Edit page tab · 2026.11.03" }
 
 ### Change contents of a wiki page
 

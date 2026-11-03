@@ -26,7 +26,9 @@ With the course element "Edubase" you integrate e-books from [Edubase](https://w
 
 If the option "Multi-User-PAK" is activated there, you can also activate it in the course element and enter several activation codes (PAK) with concurrent read rights [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7229)" }](https://track.frentix.com/issue/OO-7229){:target="_blank"}. Participants open an embedded e-book in a separate window [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7230)" }](https://track.frentix.com/issue/OO-7230){:target="_blank"}.
 
-![Book sections with Edubase ID, page range, book title and reading order per excerpt in the course element Edubase](assets/Edubase_EN.png){ class="shadow lightbox" title="Tab Book sections in the course editor" }
+In the tab "Book sections" you enter the "Edubase ID", the page range with "Page from" and "Page to" and the "Book title" for each book excerpt. With "Details" you open the "Book details" from Edubase, where "Use title" inserts the title of the book as book title. The field "Reading order" appears if the option "Reading order" is switched on in the tab "Configuration". With the plus and minus icons you add or remove book sections, with the arrows you change their order.
+
+![Two book sections with Edubase ID, page range, book title and reading order show how you enter a reading order per excerpt](assets/course_element_edubase_book_sections_v1_en.png){ class="shadow lightbox" title="Tab Book sections in the course editor · 2026.11.03" }
 
 ## Further information {: #further_information}
 

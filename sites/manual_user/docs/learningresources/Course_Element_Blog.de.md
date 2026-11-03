@@ -24,15 +24,15 @@ Ein Kursbaustein "Blog" zeigt immer eine Blog-Lernressource an. Nach dem Einfüg
 
 * **Auswählen:** Sie wählen eine vorhandene Blog-Lernressource aus dem Autorenbereich.
 * **Erstellen:** Sie erstellen direkt im Kursbaustein eine neue Blog-Lernressource. OpenOlat legt sie im Autorenbereich ab, von dort verwenden Sie sie auch in anderen Kursbausteinen.
+* **Import:** Sie importieren einen Blog, der als Datei vorliegt.
 * **Per URL einbinden:** Sie binden einen externen Blog über seine URL ein.
-* **Import:** Sie importieren einen Blog, der als Datei vorliegt. Den Eintrag finden Sie im Menü neben "Per URL einbinden".
 
-![Tab Blog-Lerninhalt im Kurseditor mit den Optionen Auswählen, Erstellen, Per URL einbinden und Import](assets/course_element_blog_content_v1_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor" }
+![Die vier Schaltflächen Auswählen, Erstellen, Import und Per URL einbinden zeigen die Wege, dem Kursbaustein einen Blog zuzuweisen](assets/course_element_blog_content_v2_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor · 2026.11.03" }
 
 !!! tip "Tipp"
 
     Eine Blog-Lernressource erstellen Sie auch im Autorenbereich über "Erstellen". Anschliessend binden Sie sie im Kurseditor in einen Kursbaustein "Blog" ein.<br><br>
-    ![Menü Erstellen im Autorenbereich mit hervorgehobenem Eintrag Blog](assets/course_element_blog_create_learningresource_v1_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich" }
+    ![Im geöffneten Menü Erstellen des Autorenbereichs ist der Eintrag Blog hervorgehoben, über den Sie eine neue Blog-Lernressource anlegen](assets/course_element_blog_create_learningresource_v2_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.03" }
 
 !!! tip "Tipp"
 

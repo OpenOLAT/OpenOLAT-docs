@@ -27,15 +27,17 @@ Im virtuellen Sitzungsraum kommunizieren die Teilnehmenden über Textchat, Audio
 
 ## Konfiguration im Kurseditor
 
-![Terminverwaltung mit den Schaltflächen Termin anlegen und Auslastung Teamräume](assets/vitero_Kurseditor.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor" }
+![In der Terminverwaltung sind die Schaltflächen Termin anlegen und Auslastung Teamräume hervorgehoben, mit denen Sie einen freien Termin finden und anlegen](assets/course_element_vitero_configuration_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor · 2026.11.03" }
 
 Ihre vitero Termine legen Sie im Kurseditor im Tab "Konfiguration" oder in der Kursansicht an. Mit "Auslastung Teamräume" sehen Sie zuerst, wie stark die verfügbaren Teamräume belegt sind, und finden so einen freien Termin. Klicken Sie dann auf "Termin anlegen".
 
 ## Termin anlegen {: #konfiguration-im-kursrun-geschlossener-editor}
 
-![Terminfelder, Zeitpuffer vor Terminbeginn und nach Terminende, Raumgrösse und Option "Einschreibung durch Benutzer:innen"](assets/Vitero_Konfiguration.png){ class="shadow lightbox" title="Dialog Editieren im Kursbaustein vitero" }
+![Felder eines neuen Termins, darüber der Hinweis, dass sich die Angaben nach dem Speichern nicht mehr verändern lassen](assets/course_element_vitero_create_meeting_v1_de.png){ class="shadow lightbox" title="Dialog Bearbeiten im Kursbaustein vitero · 2026.11.03" }
 
-Geben Sie unter "Beginn" und "Ende" das Start- und Enddatum des Termins ein und wählen Sie die "Raumgrösse". Unter "Zeitpuffer vor Terminbeginn" legen Sie fest, wie viele Minuten vor Beginn sich der Raum betreten lässt. Unter "Zeitpuffer nach Terminende" legen Sie fest, wie viele Minuten nach dem Ende vitero den Termin endgültig schliesst.
+Tragen Sie unter "Title" den Namen des Termins ein. Geben Sie unter "Beginn" und "Ende" das Start- und Enddatum des Termins ein und wählen Sie die "Raumgrösse". Unter "Zeitpuffer vor Terminbeginn" legen Sie fest, wie viele Minuten vor Beginn sich der Raum betreten lässt. Unter "Zeitpuffer nach Terminende" legen Sie fest, wie viele Minuten nach dem Ende vitero den Termin endgültig schliesst.
+
+Mit der Option "Inspire" Client legen Sie fest, dass der Termin im vitero Client "Inspire" stattfindet. Die Option erscheint nur, wenn sie in der System-Administration unter `Administration > Externe Werkzeuge > vitero` eingeschaltet ist.
 
 Mit der Option "Einschreibung durch Benutzer:innen" tragen sich alle Teilnehmenden mit Zugriff auf den Kursbaustein selbst in den Termin ein, solange freie Plätze vorhanden sind. Ist die Option ausgeschaltet, tragen nur Besitzer:innen des Kurses Teilnehmende in die Termine ein.
 
@@ -45,7 +47,7 @@ Mit der Option "Einschreibung durch Benutzer:innen" tragen sich alle Teilnehmend
 
 !!! warning "Achtung"
 
-    Ist ein Termin angelegt, lässt er sich nach dem Speichern des Formulars nicht mehr verändern.
+    Prüfen Sie die Angaben vor dem Speichern. Wie der Hinweis "Die Angaben können nicht mehr verändert werden!" im Dialog sagt, lassen sie sich danach nicht mehr ändern. Nur die Option "Einschreibung durch Benutzer:innen" schalten Sie auch später noch ein oder aus.
 
 ## Weiterführende Informationen {: #further_information}
 

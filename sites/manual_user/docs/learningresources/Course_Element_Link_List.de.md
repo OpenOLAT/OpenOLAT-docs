@@ -25,7 +25,7 @@ Je Link füllen Sie eine Zeile aus:
 
 Mit dem Plus-Symbol fügen Sie einen weiteren Link hinzu, mit dem Papierkorb-Symbol entfernen Sie einen Link.
 
-![Linkeinträge mit URL, Fenstermodus, Titel und Beschreibung sowie Schaltflächen zum Löschen und Hinzufügen im Tab Konfiguration der Linkliste](assets/Linkliste.jpg){ class="shadow lightbox" title="Tab Konfiguration der Linkliste im Kurseditor" }
+![Drei ausgefüllte Linkzeilen zeigen, wo URL, Fenstermodus, Titel und Beschreibung hingehören und wo Sie Links entfernen oder hinzufügen](assets/course_element_link_list_configuration_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration der Linkliste im Kurseditor · 2026.11.03" }
 
 ## Weiterführende Informationen {: #further_information}
 

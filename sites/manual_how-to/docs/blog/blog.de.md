@@ -53,15 +53,16 @@ e) Vergeben Sie im Tab "Titel und Beschreibung" einen passenden Titel und speich
 
 ## Schritt 2: Blog (Lernressource) erstellen
 
-a) Wechseln Sie in den Tab "Blog-Lerninhalt". Solange kein Blog gewählt ist, bietet der Tab drei Wege an:
+a) Wechseln Sie in den Tab "Blog-Lerninhalt". Solange kein Blog gewählt ist, bietet der Tab vier Wege an:
 
-![Solange kein Blog gewählt ist, bietet der Tab die drei Wege Auswählen, Erstellen und Per URL einbinden](assets/blog_learning_content_v2_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor · 2026.10.20" }
+![Solange kein Blog gewählt ist, bietet der Tab die vier Wege Auswählen, Erstellen, Import und Per URL einbinden](assets/blog_learning_content_v3_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor · 2026.11.03" }
 
 * **Auswählen**: Sie verbinden den Kursbaustein mit einem Blog, der bereits als Lernressource besteht.
 * **Erstellen**: Sie legen einen neuen OpenOlat-Blog an, in dem Sie und die berechtigten Personen Einträge schreiben.
+* **Import**: Sie laden einen Blog hoch, der Ihnen als Datei vorliegt, zum Beispiel aus einem Export.
 * **Per URL einbinden**: Sie binden einen externen Blog über seinen RSS-Feed ein, siehe [Externen Blog einbinden](#external_blog).
 
-Einen Blog, der Ihnen als Datei vorliegt, zum Beispiel aus einem Export, laden Sie über den Pfeil neben "Per URL einbinden" mit "Import" hoch. Ob ein Blog ein OpenOlat-Blog oder ein externer Blog ist, steht beim Anlegen fest und lässt sich später nicht mehr ändern.
+Ob ein Blog ein OpenOlat-Blog oder ein externer Blog ist, steht beim Anlegen fest und lässt sich später nicht mehr ändern.
 
 Im Folgenden erstellen Sie einen neuen OpenOlat-Blog.
 

@@ -26,7 +26,9 @@ Mit dem Kursbaustein "Edubase" binden Sie eBooks von [Edubase](https://www.eduba
 
 Ist dort die Option "Multi-User-PAK" aktiviert, können Sie diese auch im Kursbaustein aktivieren und mehrere Aktivierungscodes (PAK) mit gleichzeitigen Leserechten hinterlegen [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7229)" }](https://track.frentix.com/issue/OO-7229){:target="_blank"}. Teilnehmende öffnen ein eingebundenes eBook in einem eigenen Fenster [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7230)" }](https://track.frentix.com/issue/OO-7230){:target="_blank"}.
 
-![Buchpassagen mit Edubase-ID, Seitenbereich, Buchtitel und Leseauftrag je Ausschnitt im Kursbaustein Edubase](assets/Edubase_DE.png){ class="shadow lightbox" title="Tab Buchpassagen im Kurseditor" }
+Im Tab "Buchpassagen" erfassen Sie je Buchausschnitt die "Edubase ID", den Seitenbereich mit "Seite von" und "Seite bis" sowie den "Buchtitel". Mit "Details" öffnen Sie die "Buchdetails" aus Edubase, dort setzen Sie mit "Titel übernehmen" den Titel des Buches als Buchtitel ein. Das Feld "Leseauftrag" erscheint, wenn im Tab "Konfiguration" die Option "Leseauftrag" eingeschaltet ist. Mit dem Plus- und dem Minus-Symbol fügen Sie Buchpassagen hinzu oder entfernen sie, mit den Pfeilen ändern Sie ihre Reihenfolge.
+
+![Zwei Buchpassagen mit Edubase ID, Seitenbereich, Buchtitel und Leseauftrag zeigen, wie Sie je Ausschnitt einen Leseauftrag erfassen](assets/course_element_edubase_book_sections_v1_de.png){ class="shadow lightbox" title="Tab Buchpassagen im Kurseditor · 2026.11.03" }
 
 ## Weiterführende Informationen {: #further_information}
 
