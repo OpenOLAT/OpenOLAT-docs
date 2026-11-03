@@ -8,17 +8,17 @@ Name | Checkliste
 Icon | :o_icon_o_cl_icon:
 Verfügbar seit | Release 9.4
 Funktionsgruppe | Wissensüberprüfung
-Verwendungszweck | Checkliste mit Funktionen wie z.B. Sperrung der Bearbeitungsmöglichkeit nach Abgabedatum, ausgegraute Checkboxen die nur Betreuer abhaken können, usw.
+Verwendungszweck | Checkliste mit Funktionen wie z.B. Sperrung der Bearbeitungsmöglichkeit nach Abgabedatum, ausgegraute Checkboxen, die nur Betreuer:innen abhaken können, usw.
 Bewertbar | ja
 Spezialität / Hinweis | 
 
 
 
-Erreichte Ziele, fehlende Aufgaben, richtige oder falsche Lösungen - Checklisten machen dies sichtbar und dadurch für den Betreuer auch bewertbar.
+Erreichte Ziele, fehlende Aufgaben, richtige oder falsche Lösungen - Checklisten machen dies sichtbar und dadurch für Betreuer:innen auch bewertbar.
 
 Als informationelle Arbeitshilfe, die Teilnehmende dabei unterstützt z.B. kleinere Aufgaben zu erledigen oder Informationen gesichert zu behalten, erlaubt die Checkliste das Führen von z.B. To Do- oder Prüflisten. So können z.B. auch Aufgaben ausserhalb von OpenOlat dokumentiert werden. Sollte dies der Fall sein, finden Sie eventuell Informationen zur Bewertung auf der Startseite der Checkliste.
 
-Wenn eine Checkliste mit einem Abgabedatum versehen wurde, kann diese im Anschluss nicht mehr bearbeitet werden. Unterhalb des Abgabedatums und der Bewertungsinformation befindet sich die tatsächliche Liste mit allen Checkboxen, inklusive eventueller Informationen und Dateien zum Download. Erscheint eine Checkbox ausgegraut, so kann sie entweder nur vom Betreuer abgehakt werden, oder das Abgabedatum ist bereits abgelaufen.
+Wenn eine Checkliste mit einem Abgabedatum versehen wurde, kann diese im Anschluss nicht mehr bearbeitet werden. Unterhalb des Abgabedatums und der Bewertungsinformation steht die eigentliche Liste mit allen Checkboxen, inklusive eventueller Informationen und Dateien zum Download. Erscheint eine Checkbox ausgegraut, können sie entweder nur Betreuer:innen abhaken, oder das Abgabedatum ist bereits abgelaufen.
 
 Es können auch mehrere Checklisten auf einmal hinzugefügt werden. Dieses Vorgehen ist sinnvoll, wenn Sie mehrere identische Checklisten benötigen. Dabei werden mehrere (maximal 12) Bausteine mit denselben Checkelementen erstellt und mit einem Strukturbaustein gebündelt. Für jeden Baustein wird dabei automatisch ein Titel angelegt, Änderungen sind aber möglich. Jeder Baustein kann dann noch mit einem spezifischen Abgabedatum versehen werden.
 
@@ -28,52 +28,106 @@ So können relativ schnell mehrere Checklisten mit identischen Check-Kriterien a
 
 Mit dem Kursbaustein "Checkliste" fügen Sie eine Checkliste in Ihren Kurs ein. Pro Kursbaustein erstellen Sie eine Checkliste mit so vielen Checkboxen wie Sie benötigen. Erstellen Sie die einzelnen Checkboxen der Liste im Tab "Checkboxen" über die Schaltfläche "Checkbox hinzufügen". Den Checkboxen können auch Punkte zugeordnet und Dateien zum Download hinzugefügt werden.
 
-## Tab Konfiguration [:octicons-tag-16:{ title="ab Release 17.0 (OO-6458)" }](https://track.frentix.com/issue/OO-6458){:target="_blank"}
+## Tab Konfiguration [:octicons-tag-16:{ title="ab Release 17.0 (OO-6458)" }](https://track.frentix.com/issue/OO-6458){:target="_blank"} {: #tab_configuration}
 
-In diesem Tab bestimmen Sie, ob ein Abgabedatum für die Checkliste wirksam sein soll und ob und wie die Teilnehmenden bewertet werden. Je nach gewählten Einstellungen stehen Ihnen unterschiedliche Bewertungsoptionen zur Verfügung. Später bewerten Sie entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) des Kurses. Sobald Sie eine teilnehmende Person bewertet haben, sollten Sie die Konfiguration nicht mehr verändern.
+In diesem Tab bestimmen Sie, ob ein Abgabedatum für die Checkliste wirksam sein soll und ob und wie die Teilnehmenden bewertet werden. Je nach gewählten Einstellungen stehen Ihnen unterschiedliche Bewertungsoptionen zur Verfügung. Später bewerten Sie entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) des Kurses.
 
-### Detail Einstellungen des Tabs "Konfiguration"
+Der Tab gliedert sich in die Bereiche "Konfiguration der Checkliste", "Konfiguration Bewertung" und "Bewertungsformular". Sind für die Checkliste bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben das Abgabedatum unter "Konfiguration der Checkliste" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Assessment.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
-**Checkliste bei Abgabedatum für Benutzer sperren**: Wenn diese Checkbox gewählt ist, kann die Checkliste nach Erreichen des Abgabedatums nicht mehr vom Lernenden bearbeitet werden.
+### Konfiguration der Checkliste {: #checklist_configuration}
 
-**Abgabedatum**: Wählen Sie hier ob die Checkliste zu einem bestimmten Datum ausgefüllt sein muss. Sie können die Liste nach Ablauf der Deadline für die Kursteilnehmer sperren.
+#### Checkliste bei Abgabedatum für Benutzer:innen sperren {: #lock_checklist}
 
-**Punktevergabe**: Wenn Sie im Checkboxen-Tab den einzelnen Checkboxen Punkte zuweisen, können manuell oder automatisch jeder teilnehmenden Person Punkte bei Auswahl einer Checkbox vergeben werden. Wenn Sie diese Checkbox nicht markieren, werden keine Punkte vergeben.
+Wenn dieser Schalter eingeschaltet ist, können Teilnehmende die Checkliste nach Erreichen des Abgabedatums nicht mehr bearbeiten.
 
-**Minimal erreichbare Punkte**: Geben Sie hier die Anzahl Punkte ein, die ein Kursteilnehmer minimal erreichen kann. Diese Eingabe können Sie nicht machen, wenn Sie die Checkbox Punkte vergeben nicht markiert haben.
+#### Abgabedatum {: #deadline}
 
-**Maximal erreichbare Punkte**: Geben Sie hier die Anzahl Punkte ein, die ein Kursteilnehmer maximal erreichen kann. Diese Eingabe können Sie nicht machen, wenn Sie die Checkbox "Punkte vergeben" nicht markiert haben.
+Das Feld erscheint, wenn "Checkliste bei Abgabedatum für Benutzer:innen sperren" eingeschaltet ist. Legen Sie hier das Datum fest, bis zu dem die Teilnehmenden die Checkliste ausgefüllt haben müssen.
 
-**Bestanden / Nicht bestanden ausgeben**: Wenn Sie die Checkbox markieren, wird dem Kursteilnehmer ein Bestanden resp. Nicht bestanden angezeigt. Wenn Sie diese Checkbox nicht ankreuzen, wird nichts angezeigt.
+### Konfiguration Bewertung {: #grading_configuration}
 
-**Art der Ausgabe**: Sie haben die Möglichkeit, mit «Automatisch durch Punkteschwelle», «Automatisch bei Anzahl Checkboxen» oder «Manuell durch Betreuer:in» zu bestimmen, ob das Bestanden resp. Nicht bestanden aufgrund einer Punkteschwelle resp. einer bestimmten Anzahl markierter Checkboxen automatisch vergeben wird oder ob der Betreuer dies manuell für die zu bewertenden Teilnehmenden vergeben soll. Diese Auswahl können Sie nicht machen, wenn Sie die Checkbox Bestanden/Nicht bestanden ausgeben nicht markiert haben.
+#### Punkte vergeben {: #score_granted}
 
-**Punkteschwelle für Bestanden**: Geben Sie hier die Anzahl Punkte ein, die minimal notwendig ist, damit ein Kursteilnehmer ein Bestanden erhält. Unterhalb dieser Schwelle erhält der Teilnehmer ein Nicht bestanden. Diese Eingabe können Sie nicht machen, wenn Sie im Feld Art der Ausgabe: «Manuell durch Betreuer:in» oder «Automatisch bei Anzahl Checkboxen» gewählt haben.
+Wenn Sie im Tab "Checkboxen" den einzelnen Checkboxen Punkte zuweisen, erhalten Teilnehmende für jede markierte Checkbox diese Punkte, manuell oder automatisch vergeben. Ist der Schalter ausgeschaltet, vergibt OpenOlat keine Punkte.
 
-**Anzahl Checkboxen für Bestanden**: Geben Sie hier die Anzahl Checkboxen an, die minimal markiert sein müssen, damit ein Kursteilnehmer ein Bestanden erhält. Diese Eingabe können Sie nicht machen, wenn Sie im Feld Art der Ausgabe: «Manuell durch Betreuer:in» oder «Automatisch durch Punkteschwelle» gewählt haben.
+#### Minimal erreichbare Punkte {: #min_score}
 
-**Individueller Kommentar**: Wenn Sie diese Checkbox markieren, haben Sie bei der Bewertung die Möglichkeit, jeder teilnehmenden Person einen individuellen Kommentar zu geben.
+Geben Sie hier die Anzahl Punkte ein, die Teilnehmende minimal erreichen können. Das Feld erscheint, wenn "Punkte vergeben" eingeschaltet ist.
 
-## Tab Checkboxen [:octicons-tag-16:{ title="ab Release 15.1 (OO-4758)" }](https://track.frentix.com/issue/OO-4758){:target="_blank"}
+#### Maximal erreichbare Punkte {: #max_score}
 
-In diesem Tab erstellen und bearbeiten Sie die Checkboxen, die anschliessend abgehakt werden können. Klicken Sie mit der Maus auf die Schaltfläche "Checkbox hinzufügen" um eine neue Checkbox zu erstellen. Es öffnet sich eine neue Eingabemaske.
+Geben Sie hier die Anzahl Punkte ein, die Teilnehmende maximal erreichen können. Das Feld erscheint, wenn "Punkte vergeben" eingeschaltet ist.
 
-**Titel**: Geben Sie hier einen aussagekräftigen kurzen Titel für die Checkbox ein.
+#### Bewertung mit Einstufung/Noten {: #grading}
 
-**Freigabe**: Mit der Freigabeeinstellung bestimmen Sie wer die Checkbox markieren kann. «Benutzer:innen und Betreuer:innen» gestattet sowohl dem Kursteilnehmer wie auch dem Betreuer die Selektion der Checkbox. Wählen Sie jedoch «Nur Betreuer:innen», kann der Kursteilnehmer die Checkbox zwar sehen, sie aber nicht auswählen.
+Ist "Punkte vergeben" eingeschaltet, können Sie zusätzlich eine Bewertungsskala wählen. OpenOlat rechnet die Punkte dann in eine Note um. Mehr dazu auf der Seite [Einstufung/Noten](Assessment_translate_points_in_grades.de.md).
 
-**Beschriftung**: Sie können zwischen 11 verschiedenen Checkbox-Arten auswählen: Erreicht, Erledigt, Bearbeitet, Erfüllt, Bestanden, Vorgeführt, Kontrolliert, Anwesend, Gelesen, Gesehen und Bestätigt. Wählen Sie die passendste aus.
+#### Bestanden / Nicht bestanden ausgeben {: #display_passed}
 
-**Punkte**: Legen Sie fest ob Punkte für markierte Checkboxen vergeben werden und wie viele.
+Wenn Sie den Schalter einschalten, sehen die Teilnehmenden "Bestanden" oder "Nicht bestanden". Ist er ausgeschaltet, zeigt OpenOlat keinen Bestanden-Status an. Ist "Bewertung mit Einstufung/Noten" eingeschaltet, erscheint der Schalter nicht: Den Bestanden-Status bestimmt dann die Bewertungsskala.
 
-Die **Beschreibung** wird in der Checkliste zusammen mit dem Titel, der Anzahl Punkte (falls ausgewählt) sowie der gegebenenfalls hochgeladenen Datei rechts von der Checkbox angezeigt.
+#### Art der Ausgabe {: #output_type}
 
-Falls benötigt, können Sie für die Kursteilnehmer noch eine **Datei** zum Download hinzufügen.
+Das Feld erscheint, wenn "Bestanden / Nicht bestanden ausgeben" eingeschaltet ist. Mit "Automatisch durch Punkteschwelle" oder "Automatisch bei Anzahl Checkboxen" vergibt OpenOlat den Bestanden-Status automatisch, aufgrund einer Punkteschwelle oder einer bestimmten Anzahl markierter Checkboxen. Mit "Manuell durch Betreuer:in" vergeben Betreuer:innen den Status selbst.
 
-In der Tabelle werden Ihnen anschliessend die erstellten Checkboxen im Überblick angezeigt. Hier kann auch die Reihenfolge verändert werden.
+#### Punkteschwelle für Bestanden {: #cut_value}
+
+Geben Sie hier die Anzahl Punkte ein, die Teilnehmende mindestens brauchen, um "Bestanden" zu erhalten. Unterhalb dieser Schwelle erhalten sie "Nicht bestanden". Das Feld erscheint, wenn unter "Art der Ausgabe" die Option "Automatisch durch Punkteschwelle" gewählt ist.
+
+#### Anzahl Checkboxen für Bestanden {: #checks_to_pass}
+
+Geben Sie hier die Anzahl Checkboxen an, die Teilnehmende mindestens markiert haben müssen, um "Bestanden" zu erhalten. Das Feld erscheint, wenn unter "Art der Ausgabe" die Option "Automatisch bei Anzahl Checkboxen" gewählt ist.
+
+#### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment}
+
+In Lernpfadkursen erscheint die Option, sobald "Punkte vergeben" oder "Bestanden / Nicht bestanden ausgeben" eingeschaltet ist. Ist sie ausgeschaltet, bleibt die Checkliste bei der Kurs-Bewertung unberücksichtigt.
+
+#### Skalierungsfaktor für Kurs-Bewertung {: #score_scaling}
+
+Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Punkte vergeben" sowie "Bei Kurs-Bewertung berücksichtigen" eingeschaltet sind. OpenOlat multipliziert die Punkte der Checkliste für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](Course_Settings_Assessment.de.md#evaluation_with_points_weighting).
+
+### Bewertungsformular {: #assessment_form}
+
+#### Individueller Kommentar {: #individual_comment}
+
+Wenn Sie diese Checkbox markieren, haben Sie bei der Bewertung die Möglichkeit, jeder teilnehmenden Person einen individuellen Kommentar zu geben.
+
+#### Individuelle Bewertungsdokumente {: #individual_assessment_documents}
+
+Wenn Sie diese Checkbox markieren, können Sie bei der Bewertung jeder teilnehmenden Person Dokumente bereitstellen, zum Beispiel als Feedback.
+
+## Tab Checkboxen [:octicons-tag-16:{ title="ab Release 15.1 (OO-4758)" }](https://track.frentix.com/issue/OO-4758){:target="_blank"} {: #tab_checkboxes}
+
+In diesem Tab erstellen und bearbeiten Sie die Checkboxen, die Teilnehmende oder Betreuer:innen anschliessend abhaken. Klicken Sie auf die Schaltfläche "Checkbox hinzufügen", um eine neue Checkbox zu erstellen. Es öffnet sich ein Formular mit den folgenden Feldern.
+
+### Titel {: #checkbox_title}
+
+Geben Sie hier einen aussagekräftigen kurzen Titel für die Checkbox ein.
+
+### Freigabe {: #checkbox_release}
+
+Mit der Freigabeeinstellung bestimmen Sie, wer die Checkbox markieren kann. "Benutzer:innen und Betreuer:innen" erlaubt sowohl Teilnehmenden als auch Betreuer:innen, die Checkbox zu markieren. Wählen Sie "Nur Betreuer:innen", sehen Teilnehmende die Checkbox, können sie aber nicht markieren.
+
+### Beschriftung {: #checkbox_label}
+
+Sie können zwischen 11 verschiedenen Checkbox-Arten auswählen: Erreicht, Erledigt, Bearbeitet, Erfüllt, Bestanden, Vorgeführt, Kontrolliert, Anwesend, Gelesen, Gesehen und Bestätigt. Wählen Sie die passendste aus.
+
+### Punkte {: #checkbox_points}
+
+Legen Sie fest, ob Punkte für markierte Checkboxen vergeben werden und wie viele.
+
+### Beschreibung {: #checkbox_description}
+
+Die Beschreibung erscheint in der Checkliste zusammen mit dem Titel, der Anzahl Punkte (falls ausgewählt) sowie der gegebenenfalls hochgeladenen Datei rechts von der Checkbox.
+
+### Datei {: #checkbox_file}
+
+Falls benötigt, fügen Sie hier für die Teilnehmenden eine Datei zum Download hinzu.
+
+In der Tabelle des Tabs sehen Sie anschliessend die erstellten Checkboxen im Überblick. Hier ändern Sie auch ihre Reihenfolge.
 
 ## Tab Badges [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003){:target="_blank"}
-Wurde von dem/der Kursbesitzer:in unter `Administration > Einstellungen > Tab Bewertung > Abschnitt Badges` die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+Haben Kursbesitzer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` die Vergabe von Badges aktiviert, zeigt der Kurseditor zu diesem Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein.
 
 [Zum Seitenanfang ^](#course_element_checklist)
 
@@ -84,27 +138,27 @@ Im Kurs sehen Kursbesitzer:innen und Betreuer:innen beim Kursbaustein die Tabs "
 
 Der Tab "Teilnehmer:innen" bietet Ihnen als Kursbesitzer:in oder Betreuer:in eine Übersicht über alle Checklisten der von Ihnen betreuten Teilnehmenden. Falls Sie mehrere Gruppen betreuen, können Sie die Übersichtstabelle nach Gruppen filtern. Im selben Tab bewerten Sie die Checklisten der einzelnen Lernenden, entweder per Person oder über den Button "Per Box Bewertung".
 
-Zusätzlich können Sie mit Hilfe der Schaltfläche **Übersicht als PDF** den aktuellen Stand der Checkliste über alle Teilnehmer als PDF ausdrucken. Im PDF finden Sie noch die Spalte Unterschrift, mit der Sie den Teilnehmer die Richtigkeit des Dokuments bestätigen lassen können.
+Zusätzlich drucken Sie mit der Schaltfläche "Übersicht als PDF" den aktuellen Stand der Checkliste über alle Teilnehmenden als PDF aus. Im PDF finden Sie die Spalte "Unterschrift", mit der Teilnehmende die Richtigkeit des Dokuments bestätigen.
 
-**Erledigte Checkboxen als PDF** erstellt ein PDF, das pro Checkbox eine Tabelle mit jenen Teilnehmern enthält, die die entsprechende Checkbox bereits markiert haben.
+Die Schaltfläche "Erledigte Checkboxen als PDF" erstellt ein PDF, das pro Checkbox eine Tabelle mit den Teilnehmenden enthält, die diese Checkbox bereits markiert haben.
 
 !!! warning "Achtung"
 
-    Änderungen an den Checkboxen sollten erst nach Ablauf des Abgabedatums vorgenommen werden.
+    Ändern Sie die Checkboxen möglichst erst nach Ablauf des Abgabedatums.
 
-Insgesamt stehen Ihnen vier Möglichkeiten zur Bearbeitung von Teilnehmern zur Verfügung.
+Insgesamt stehen Ihnen vier Wege zur Verfügung, die Checklisten der Teilnehmenden zu bearbeiten.
 
-  1. Zum einen über den **Bearbeiten**-Link in der Tabelle, von wo aus Sie auch direkten Zugriff auf das Bewertungswerkzeug haben. Es öffnet sich eine nutzerspezifische Checkliste, die Ihnen erlaubt einzelne Checkboxen zu markieren. Öffnen Sie den Tab **Bewertung**, um direkten Zugriff auf das Bewertungsformular zu erhalten. Änderungen an der Bewertung können Sie ebenfalls im Bewertungswerkzeug vornehmen.
-  2. Wählen Sie hingegen die Schaltfläche **Per Box Bewertung**, erhalten Sie den Zugriff auf eine Liste aller Kursteilnehmer sortiert nach Checkbox. Über eine Dropdown-Liste wählen Sie dann die entsprechende Checkbox aus. Dies reduziert die Fehleranfälligkeit gerade bei grossen Checklisten mit vielen Checkboxen.
+  1. **Bearbeiten**: Der Link in der Tabelle öffnet die Checkliste der einzelnen Person, in der Sie einzelne Checkboxen markieren. Von dort haben Sie auch direkten Zugriff auf das Bewertungswerkzeug: Öffnen Sie den Tab "Bewertung", um das Bewertungsformular zu erreichen. Die Bewertung ändern Sie ebenfalls im Bewertungswerkzeug.
+  2. **Per Box Bewertung**: Die Schaltfläche öffnet eine Liste aller Teilnehmenden, sortiert nach Checkbox. Über eine Dropdown-Liste wählen Sie die gewünschte Checkbox aus. Das senkt die Fehleranfälligkeit gerade bei grossen Checklisten mit vielen Checkboxen.
 
-      Die Gruppenvorsortierung nehmen Sie in der Tabelle der Checklistenverwaltung vor. Sie können die Tabelle nach Vornamen oder Nachnamen sortieren, um einen einfacheren Abgleich zwischen Teilnehmerliste und Checkliste zu ermöglichen.
+      Nach Gruppen filtern Sie vorher in der Tabelle der Checklistenverwaltung. Sie können die Tabelle nach Vornamen oder Nachnamen sortieren, um Teilnehmerliste und Checkliste einfacher abzugleichen.
 
-  3. Die Schaltfläche **Editieren** öffnet die Übersichtstabelle im Bearbeitungsmodus, was Ihnen gestattet alle Checkboxen aller Teilnehmer zu bearbeiten.
-  4. Zu guter Letzt können Sie Checkboxen einzelner Teilnehmer auch im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) aus- oder abwählen.
+  3. **Editieren**: Die Schaltfläche öffnet die Übersichtstabelle im Bearbeitungsmodus, in dem Sie alle Checkboxen aller Teilnehmenden bearbeiten.
+  4. **Bewertungswerkzeug**: Zu guter Letzt wählen Sie Checkboxen einzelner Teilnehmender auch im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) aus oder ab.
 
 ## Kursbaustein "Mehrere Checklisten" [:octicons-tag-16:{ title="ab Release 9.4 (OO-937)" }](https://track.frentix.com/issue/OO-937){:target="_blank"} {: #multi}
 
-![Mehrere Checklisten Icon](assets/wizard_434343_64.png)
+![Symbol des Kursbausteins Mehrere Checklisten](assets/wizard_434343_64.png)
 
 Sofern vom OpenOlat Admin aktiviert, steht Ihnen auch die Option "Mehrere Checklisten" zur Verfügung.  Mit Hilfe eines Checklisten-Wizards können Sie mehrere Listen derselben Art gleichzeitig erstellen. Sie werden zusammen mit einem Struktur-Kursbaustein als Gruppe am Ende Ihres Kurses hinzugefügt. Den Strukturbaustein und die einzelnen Checklisten können Sie im Anschluss mittels Drag & Drop an die jeweils gewünschte Stelle im Kurs verschieben.
 
@@ -112,17 +166,25 @@ Erstellen Sie im **ersten** Schritt eine Vorlage für die zu erstellende Gruppe 
 
 Im **zweiten** Schritt bestimmen Sie wie viele Checklisten anhand der im ersten Schritt definierten Vorlage erstellt werden sollen. Legen Sie einen Titel fest. Die Checklisten erhalten alle diesen Titel und werden durchnummeriert. Den Titel für jede einzelne Checkliste können Sie im nächsten Schritt anpassen. Hier definieren Sie auch, ob und wie Punkte vergeben oder das Attribut Bestanden vergeben werden soll.
 
-Informationen zu den weiteren Einstellungen finden Sie in der Checklisten - Konfiguration. Wenn Sie die Checklisten mit einem Abgabedatum versehen, können Sie dieses im nächsten Schritt definieren.
+Informationen zu den weiteren Einstellungen finden Sie unter [Tab Konfiguration](#tab_configuration). Wenn Sie die Checklisten mit einem Abgabedatum versehen, können Sie dieses im nächsten Schritt definieren.
 
 Im **dritten** Schritt der Checklisten Sammelfunktion können Sie die Titel der einzelnen Checklisten gemäss Ihren Wünschen anpassen. Hier kann nun das Abgabedatum pro Checkliste definiert werden. Möchten Sie bei einer oder mehreren Checklisten ohne Abgabedatum arbeiten, lassen Sie das Datumsfeld leer.
 
 Im **vierten** Schritt definieren Sie Titel und Beschreibung des übergeordneten Struktur-Kursbausteins. Kurztitel und Titel werden wie gewohnt in der Navigation und der Kurselement-Übersicht angezeigt.
 
-Im unteren Teil des Formulars legen Sie fest ob Bewertungsinformationen aus den Checklisten im Strukturbaustein angezeigt werden sollen, und wie die Bewertung vorgenommen wird. Informationen zum Struktur-Kursbaustein und der Bewertung weiterer Kursbausteine finden Sie im Kapitel Wissensvermittlung - [Strukturbaustein: Punkte](Course_Element_Structure.de.md#score).
+Im unteren Teil des Formulars legen Sie fest, ob der Strukturbaustein Bewertungsinformationen aus den Checklisten anzeigt und wie er sie zusammenfasst. Informationen zum Struktur-Kursbaustein und der Bewertung weiterer Kursbausteine finden Sie im Kapitel Wissensvermittlung - [Strukturbaustein: Punkte](Course_Element_Structure.de.md#score).
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Bewertung von Kursbausteinen >](../learningresources/Assessment_of_course_modules.de.md)<br>
+[Wissensüberprüfung >](../learningresources/Assessment.de.md)<br>
+[Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)
+
+**Weiterführend**<br>
+[Badges >](../learningresources/OpenBadges.de.md)<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#course_element_checklist)

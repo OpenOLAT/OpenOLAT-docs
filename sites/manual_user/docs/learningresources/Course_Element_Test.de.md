@@ -15,7 +15,7 @@ Spezialität / Hinweis |
 
 Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz verwendet und umfasst diverse Frage-Typen. 
 
-Je nach Fragetyp können eine oder mehrere Antworten angekreuzt, Elemente per drag & drop verschoben, Texte und/oder Zahlen eingefügt, Dateien hinzugefügt, Markierungen oder (sehr einfache) Zeichnungen erstellt werden. Die Auswertung erfolgt dann abhängig vom Fragetyp manuell oder automatisch.
+Je nach Fragetyp können eine oder mehrere Antworten angekreuzt, Elemente per drag & drop verschoben, Texte und/oder Zahlen eingefügt, Dateien hinzugefügt, Markierungen oder (sehr einfache) Zeichnungen erstellt werden. Je nach Fragetyp wertet OpenOlat die Antworten automatisch aus, oder Betreuer:innen korrigieren sie manuell.
 
 !!! note "Fragetypen"
     Übersicht aller verfügbaren Fragetypen.<br>
@@ -25,7 +25,7 @@ Pro OpenOlat Kurs können auch mehrere Tests für unterschiedliche Zwecke zum Ei
 
 OpenOlat verwendet das IMS-QTI 2.1 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt. 
 
-Die zwei zentralen Tabs, in denen Sie Einstellungen für Ihren Test vornehmen, sind "Test-Konfiguration" und "Optionen".
+Die zwei zentralen Tabs, in denen Sie die Einstellungen für Ihren Test festlegen, sind "Test-Konfiguration" und "Optionen".
 
 
 !!! warning "Achtung"
@@ -35,7 +35,7 @@ Die zwei zentralen Tabs, in denen Sie Einstellungen für Ihren Test vornehmen, s
 
 !!! note "Hinweis"
 
-    In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: "Tests" und ["Selbsttests"](../learningresources/Course_Element_Self_Test.de.md). Im Gegensatz zum Test werden im **Selbsttest die Testresultate anonymisiert** gespeichert. Selbsttests eignen sich für Übungszwecke und können unlimitiert absolviert werden. Auch werden bei Selbsttests die Ergebnisse nach Beenden des Tests automatisch angezeigt.
+    In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: "Tests" und ["Selbsttests"](../learningresources/Course_Element_Self_Test.de.md). Im Gegensatz zum Test speichert der Selbsttest die Testresultate anonymisiert. Selbsttests eignen sich für Übungszwecke und können unlimitiert absolviert werden. Auch werden bei Selbsttests die Ergebnisse nach Beenden des Tests automatisch angezeigt.
 
     Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der Tests.
 
@@ -57,7 +57,7 @@ Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen g
 
 
 
-### Tab "Lernpfad" {: #tab_learning_path}
+### Tab "Lernpfad" [:octicons-tag-16:{ title="ab Release 15.0 (OO-4206)" }](https://track.frentix.com/issue/OO-4206) {: #tab_learning_path}
 
 Im Tab Lernpfad legen Sie unter "Durchführung" fest, ob der Test im Lernpfad Kurs "Obligatorisch" oder "Freiwillig" ist oder ob der Kursbaustein gar nicht angezeigt werden soll ("Ausgenommen"). Mit "Ausnahmen einschalten" gilt für bestimmte Personen oder Gruppen eine andere Durchführung. Ferner können ein "Freigabedatum", ein Datum unter "Zu bearbeiten bis" sowie die voraussichtliche "Bearbeitungszeit (Minuten)" definiert werden, mit "Relatives Datum" auch relativ zu einem Ereignis wie dem ersten Kursbesuch. Die Felder dieses Tabs beschreibt die Seite [Lernpfadkurs - Kurseditor](Learning_path_course_Course_editor.de.md).
 
@@ -74,37 +74,55 @@ Nur wenn die gewählte Bedingung erfüllt ist, wird den Teilnehmenden der Fortsc
 
 ### Tab "Test-Konfiguration" {: #tab_configuration}
 
+Sind für den Test bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an: "Bewertung mit Einstufung/Noten" und "Bei Kurs-Bewertung berücksichtigen". Mit "Bearbeitungsmodus aktivieren" machen Sie sie wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Assessment.de.md#assessment_config_read_only). Den Schreibschutz gibt es nur im Kursbaustein "Test", nicht im Selbsttest und nicht im Fragebogen. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+
 Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab "Test-Konfiguration" ein entsprechender Hinweis. Sie können nun einen vorhandenen Test "Auswählen" oder "Importieren" oder einen neuen Test "Erstellen".<br>
 
 !!! tip "bestehende Lernressource"
     Wurde bereits eine Test-Lernressource eingefügt und wollen Sie diese austauschen, beachten Sie bitte die Hinweise im Abschnitt [Änderungen an Tests und Selbsttests](#changes).
 
-Klicken Sie auf "Auswählen", um einen Test dem Kursbaustein zuzuordnen. Auch die Optionen zum Erstellen und Importieren erhalten Sie anschliessend noch einmal. Hier wählen oder erstellen Sie den Test, den Sie einsetzen und dem Kursbaustein Test zuordnen möchten. Anschliessend können weitere Einstellungen vorgenommen werden, z.B. die Art der Korrektur oder die Art der Darstellung der Testresultate definiert werden.
+Klicken Sie auf "Auswählen", um einen Test dem Kursbaustein zuzuordnen. Auch die Optionen zum Erstellen und Importieren erhalten Sie anschliessend noch einmal. Hier wählen oder erstellen Sie den Test, den Sie einsetzen und dem Kursbaustein Test zuordnen möchten. Anschliessend legen Sie weitere Einstellungen fest, zum Beispiel die Art der Korrektur oder die Darstellung der Testresultate.
 
 Falls Sie bereits einen Test mit dem Kursbaustein Test verbunden haben wird im Tab "Test-Konfiguration" der Name des Tests sowie weitere Infos dazu angezeigt und Sie können den Test mit Klick auf "Lernressource bearbeiten" bearbeiten. 
 
 Über den Button "Vorschau" erhalten Sie eine Test-Vorschau und über den Button "Ersetzen" können Sie den Test austauschen indem Sie einen neuen Test erstellen oder importieren. Falls Sie einen Test austauschen möchten für den schon Testresultate vorliegen, erhalten Sie einen entsprechenden Hinweis und eine Archivdatei wird erstellt und kann gespeichert werden.
 
-Ein hinzugefügter Test kann wie folgt konkreter konfiguriert werden:
+Ein hinzugefügter Test kann wie folgt konkreter konfiguriert werden. Der Tab zeigt die Einstellungen in dieser Reihenfolge: zuoberst "Relatives Datum" und "Testzeitraum festlegen", darunter die Legende "Konfiguration Bewertung", darunter "Korrektur" und zuletzt die Legende "Report".
 
-#### Abschnitt Test {: #section_test}
+#### Testzeitraum festlegen {: #assessment_period}
 
-**Bewertung mit Einstufung/Noten**: Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder Emojis aus und passen Sie bei Bedarf die Details an. Entscheiden Sie auch ob die Stufenzuordnung automatisch für die Teilnehmenden sichtbar sein soll oder ob die Zuordnung manuell durch die Betreuer:in bereitgestellt werden soll.
+Während des Testzeitraums kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Zeitbeschränkung noch nicht abgelaufen ist. Ist "Relatives Datum" eingeschaltet, legen Sie statt eines fixen Datums ein relatives Datum fest, z.B. x Tage nach dem ersten Kursbesuch. Wie Testzeitraum und Prüfungsmodus zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
 
-**Bei Kurs-Bewertung berücksichtigen**: Schalten Sie diesen Schalter aus, bleibt der Test bei der Kurs-Bewertung in einem Lernpfad Kurs unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
+Wird hier nichts aktiviert ist der Test jederzeit zugänglich, sofern keine Einschränkungen an anderer Stelle z.B. unter "Sichtbarkeit" bei herkömmlichen Kursen oder aufgrund einer seriellen Reihenfolge bei Lernpfad Kursen definiert wurde. 
+
+#### Abschnitt Konfiguration Bewertung {: #section_test}
+
+Unter der Legende "Konfiguration Bewertung" legen Sie fest, ob OpenOlat den Test mit Einstufung/Noten bewertet und ob er in die Kurs-Bewertung einfliesst. Sind bereits Bewertungen vorhanden, steht hier der Hinweis mit der Schaltfläche "Bearbeitungsmodus aktivieren".
+
+##### Bewertung mit Einstufung/Noten {: #grading}
+
+Wählen Sie eine der vorgegebenen Bewertungsskalen, zum Beispiel Noten, Niveaustufen oder Emojis, und passen Sie bei Bedarf die Details an. Entscheiden Sie auch, ob OpenOlat die Stufe automatisch zuordnet und den Teilnehmenden anzeigt oder ob Betreuer:innen sie manuell zuordnen.
+
+##### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment}
+
+Schalten Sie diesen Schalter aus, bleibt der Test bei der Kurs-Bewertung in einem Lernpfad Kurs unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
 
 !!! note "Lernpfad Kurs"
     Konzept und Fortschrittsberechnung im Lernpfad Kurs.<br>
     [Lernpfad Kurs](../learningresources/Learning_path_course.de.md)
 
-**Testzeitraum festlegen**: Während des Testzeitraums kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Zeitbeschränkung noch nicht abgelaufen ist. Statt eines fixen Datums kann auch ein relatives Datum gewählt werden, z.B. x Tage nach dem ersten Kursbesuch. Wie Testzeitraum und Prüfungsmodus zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
+##### Skalierungsfaktor für Kurs-Bewertung {: #score_scaling}
 
-Wird hier nichts aktiviert ist der Test jederzeit zugänglich, sofern keine Einschränkungen an anderer Stelle z.B. unter "Sichtbarkeit" bei herkömmlichen Kursen oder aufgrund einer seriellen Reihenfolge bei Lernpfad Kursen definiert wurde. 
+Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Bei Kurs-Bewertung berücksichtigen" eingeschaltet ist. OpenOlat multipliziert die Punkte des Tests für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](Course_Settings_Assessment.de.md#evaluation_with_points_weighting).
 
 
 #### Abschnitt Korrektur {: #section_correction}
 
-**Korrektur**: Die Korrektur wird entweder **automatisch oder manuell** durchgeführt. Sobald ein manuell auszuwertender Fragetyp, z.B. Freitext vorhanden ist, muss zwingend eine manuelle Auswertung erfolgen. Bei der automatischen Korrektur werden alle Fragen automatisch und direkt korrigiert, das Resultat ist sofort für die Teilnehmenden sichtbar.
+Unter "Korrektur" legen Sie fest, wer die Testläufe korrigiert und wann die Teilnehmenden ihre Bewertung sehen.
+
+##### Korrektur {: #correction_mode}
+
+Die Korrektur läuft entweder automatisch oder manuell. Sobald der Test einen manuell auszuwertenden Fragetyp enthält, zum Beispiel Freitext, ist eine manuelle Korrektur zwingend. Bei der automatischen Korrektur korrigiert OpenOlat alle Fragen direkt, das Resultat ist sofort für die Teilnehmenden sichtbar.
 
 !!! note "Fragetypen"
     Übersicht aller verfügbaren Fragetypen, inkl. manuell auszuwertender Typen.<br>
@@ -122,7 +140,9 @@ Drei Optionen stehen zur Auswahl:
 
     Die Option "Manuell durch Korrektor:innen" steht zur Auswahl, wenn in der Lernressource Test der [Korrektur-Workflow](Test_settings.de.md#correction-workflow) eingeschaltet ist. Korrektor:innen werden unabhängig vom Kursbaustein direkt an der Lernressource Test verwaltet und gelten kursübergreifend. Ist der Korrektur-Workflow eingeschaltet und eine andere Option gewählt, zeigt der Abschnitt "Korrektur" einen Hinweis: Mit dieser Einstellung entstehen keine Korrekturaufträge, empfohlen ist "Manuell durch Korrektor:innen".
 
-**Freigabe Bewertung**: Das Feld erscheint bei den beiden manuellen Optionen. Mit "Freigegeben" sehen die Teilnehmenden die Bewertung direkt nach der manuellen Korrektur, mit "Nicht freigegeben" erst, wenn Sie die Bewertung freigeben.
+##### Freigabe Bewertung {: #release_assessment}
+
+Das Feld erscheint bei den beiden manuellen Optionen. Mit "Freigegeben" sehen die Teilnehmenden die Bewertung direkt nach der manuellen Korrektur, mit "Nicht freigegeben" erst, wenn Sie die Bewertung freigeben.
 
 ![Feld Korrektur mit drei Optionen markiert, gewählt ist die manuelle Korrektur durch Kursbetreuer:in oder -besitzer:in, darunter Freigabe Bewertung](assets/course_element_test_correction_v1_de.png){ class="shadow lightbox" title="Abschnitt Korrektur im Tab Test-Konfiguration · 2026.10.01" }
 
@@ -130,37 +150,41 @@ Die Korrektur-Optionen und die Freigabe beschreibt auch die Seite [Tests auf Kur
 
 #### Abschnitt Report {: #section_report}
 
-Hier wird definiert, ob und in welcher Form den Lernenden die Testergebnisse und der Leistungsstatus angezeigt werden sollen. Wird hier gar nichts ausgewählt erhalten die Lernenden auch keinerlei Informationen.
+Hier legen Sie fest, ob und in welcher Form die Teilnehmenden ihre Testergebnisse und ihren Leistungsstatus sehen. Wählen Sie hier nichts aus, erhalten die Teilnehmenden keinerlei Informationen.
 
-**Leistungsübersicht auf Test-Startseite anzeigen**: Wenn diese Option angewählt ist, werden den Teilnehmenden die Punkte und eventuelle weitere Leistungsinformationen wie Erfolgsstatus, Anzahl der Lösungsversuche und die erreichte Stufe der Bewertungsskala auf der Startseite des Tests angezeigt.
+##### Leistungsübersicht auf Test-Startseite anzeigen {: #show_score_info}
+
+Wenn diese Option angewählt ist, sehen die Teilnehmenden auf der Startseite des Tests die Punkte und weitere Leistungsinformationen wie Erfolgsstatus, Anzahl der Lösungsversuche und die erreichte Stufe der Bewertungsskala.
 
 Neben der Leistungsübersicht kann den Teilnehmenden auch die konkrete Testauswertung angezeigt werden, dauerhaft auf der Test-Startseite und direkt nach der Bearbeitung.
 
-**Resultate auf Test-Startseite anzeigen**: In dieser Auswahlliste legen Sie fest, ob und unter welchen Bedingungen die Testauswertung auf der Startseite des Tests erscheint. Bei "Immer" stehen die Resultate direkt nach Beenden des Tests zur Verfügung, bei "Nein" werden sie gar nicht angezeigt. Bei den übrigen Optionen legen Sie mit "Von" und "Bis" fest, in welchem Zeitraum die Resultate erscheinen: nur bei nicht bestandenem Test, nur bei bestandenem Test, mit verschiedenen Zeiträumen für beide Fälle oder mit einem gemeinsamen Zeitraum.
+##### Resultate auf Test-Startseite anzeigen {: #show_results_on_homepage}
+
+In dieser Auswahlliste legen Sie fest, ob und unter welchen Bedingungen die Testauswertung auf der Startseite des Tests erscheint. Bei "Immer" stehen die Resultate direkt nach Beenden des Tests zur Verfügung, bei "Nein" werden sie gar nicht angezeigt. Bei den übrigen Optionen legen Sie mit "Von" und "Bis" fest, in welchem Zeitraum die Resultate erscheinen: nur bei nicht bestandenem Test, nur bei bestandenem Test, mit verschiedenen Zeiträumen für beide Fälle oder mit einem gemeinsamen Zeitraum.
 
 ![Auswahlliste Resultate auf Test-Startseite anzeigen mit sechs Optionen von Nein bis Wenn nicht bestanden oder bestanden](assets/Test_Report_config.png){ class="shadow lightbox" title="Abschnitt Report im Tab Test-Konfiguration" }
 
-**Resultate nach Abgabe des Tests anzeigen**: Ist dieses Kontrollkästchen aktiviert, sehen die Teilnehmenden die Testauswertung direkt nach der Abgabe.
+##### Resultate nach Abgabe des Tests anzeigen {: #show_results_on_finish}
 
-Wichtig ist, dass Sie unter **"Übersicht Resultate"** auswählen, in welcher Form die Ergebnisse angezeigt werden sollen. Die Auswahl gilt für beide Anzeigen. Das Feld erscheint, sobald "Resultate nach Abgabe des Tests anzeigen" aktiviert oder unter "Resultate auf Test-Startseite anzeigen" eine andere Option als "Nein" gewählt ist.
+Ist dieses Kontrollkästchen aktiviert, sehen die Teilnehmenden die Testauswertung direkt nach der Abgabe.
+
+##### Übersicht Resultate {: #results_overview}
+
+Hier wählen Sie, in welcher Form die Ergebnisse erscheinen. Die Auswahl gilt für beide Anzeigen. Das Feld erscheint, sobald "Resultate nach Abgabe des Tests anzeigen" aktiviert oder unter "Resultate auf Test-Startseite anzeigen" eine andere Option als "Nein" gewählt ist.
 
 ![Fünf Kontrollkästchen unter Übersicht Resultate markiert, von Testzusammenfassung bis Lösung](assets/course_element_test_report_summary_v1_de.png){ class="shadow lightbox" title="Abschnitt Report im Tab Test-Konfiguration · 2026.10.01" }
 
-Bei der **Testzusammenfassung** wird u.a. die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte Punktzahl sowie der Status angezeigt.
-
-Die **Sektionszusammenfassung** ist nur relevant, wenn ein Test auch Sektionen enthält.
+* **Testzusammenfassung**: zeigt unter anderem die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen, die erreichte Punktzahl und den Status.
+* **Sektionszusammenfassung**: ist nur relevant, wenn ein Test auch Sektionen enthält.
+* **Fragezusammenfassung**: zeigt den Titel der Frage und die jeweils erreichten Punkte bzw. den passenden Prozentwert, aber nicht die Fragestellung selbst.
+* **Antwort, von Teilnehmer:in abgegeben**: zeigt die Frage, alle Antwortoptionen und die Wahl der Teilnehmenden, allerdings keine Bewertung, ob die Frage richtig oder falsch beantwortet wurde. Ist dies gewünscht, kombinieren Sie die Option mit weiteren Feedback-Optionen.
+* **Lösung**: enthält die korrekten Antworten.
 
 !!! note "Sektion Ebene"
     Beschreibung der Sektionen-Konfiguration im Testeditor.<br>
     [Sektion Ebene](Configure_tests.de.md#section)
 
-Bei der **Fragezusammenfassung** wird der Titel der Frage, die jeweils erreichte Punkte bzw. der passende Prozentwert angezeigt aber nicht die Fragestellung selbst.
-
-Bei der Option **Antwort, von Teilnehmer:in abgegeben** wird die Frage, alle Antwortoptionen sowie die Wahl der Teilnehmenden angezeigt, allerdings keine Bewertung ob die Frage richtig oder falsch beantwortet wurde. Ist dies gewünscht muss die Option mit weiteren Feedback-Optionen kombiniert werden.
-
-Die **Lösung** beinhaltet die korrekten Antworten.
-
-Je nach Kombination der Anzeige Optionen können den Teilnehmenden somit unterschiedliche Arten von Feedback hinterlassen werden.
+Je nach Kombination der Anzeigeoptionen erhalten die Teilnehmenden unterschiedliche Arten von Feedback.
 
 
 [Zum Anfang des Abschnitts Testkonfiguration ^](#config)<br>
@@ -169,9 +193,9 @@ Je nach Kombination der Anzeige Optionen können den Teilnehmenden somit untersc
 
 ### Tab "Optionen" {: #tab_options}
 
-Bindet man einen Test in einen Kurs ein, werden die Einstellungen aus der Konfiguration der Lernressource Test (siehe  "[Test Einstellungen](Test_settings.de.md)" und "[Test konfigurieren](Configure_tests.de.md)") standardmässig übernommen. Im Tab "Optionen" ist deshalb "Konfiguration von Lernressource übernehmen" vorausgewählt und die entsprechenden Einstellungen, die in der Lernressource Test vorgenommen wurden, werden hier angezeigt. 
+Bindet man einen Test in einen Kurs ein, werden die Einstellungen aus der Konfiguration der Lernressource Test (siehe  "[Test Einstellungen](Test_settings.de.md)" und "[Test konfigurieren](Configure_tests.de.md)") standardmässig übernommen. Im Tab "Optionen" ist deshalb "Konfiguration von Lernressource übernehmen" vorausgewählt, und der Tab zeigt die Einstellungen der Lernressource Test an.
 
-Wenn die Einstellungen für einen im Kurs eingebundenen Test geändert werden sollen, kann "Konfiguration anpassen" ausgewählt und die gewünschten Änderungen vorgenommen werden. Beispielsweise können eine Zeitbeschränkung definiert, die Anzahl der Lösungsversuche eingeschränkt oder Gästen erlaubt werden den Test durchzuführen. Darüber hinaus können diverse Darstellungsoptionen konfiguriert werden. 
+Wollen Sie die Einstellungen für den im Kurs eingebundenen Test ändern, wählen Sie "Konfiguration anpassen" und passen die Einstellungen an. Beispielsweise definieren Sie eine Zeitbeschränkung, schränken die Anzahl der Lösungsversuche ein oder erlauben Gästen, den Test zu absolvieren. Darüber hinaus konfigurieren Sie diverse Darstellungsoptionen.
 
 Ist die Option "Fragetitel anzeigen" nicht markiert aber gleichzeitig die Menü-Navigation erlaubt, werden statt der wirklichen Titel lediglich anonymisierte Titel in der Navigation angezeigt. 
 
@@ -218,7 +242,7 @@ Darunter wählen Sie, was angezeigt wird: "Gratulationstitel", "Siegertreppchen"
 
 ### Tab "Korrektor:innen" [:octicons-tag-16:{ title="ab Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442) {: #tab_correctors}
 
-Der Tab ist aktiv, wenn im Abschnitt "Korrektur" die Option "Manuell durch Korrektor:innen" gewählt ist, sonst ist er ausgegraut. Er zeigt die Konfiguration des Korrektur-Workflows und die Korrektor:innen, die in der Lernressource Test eingetragen sind. Per Link zur Lernressource des Tests können Änderungen vorgenommen werden.
+Der Tab ist aktiv, wenn im Abschnitt "Korrektur" die Option "Manuell durch Korrektor:innen" gewählt ist, sonst ist er ausgegraut. Er zeigt die Konfiguration des Korrektur-Workflows und die Korrektor:innen, die in der Lernressource Test eingetragen sind. Über den Link zur Lernressource des Tests ändern Sie diese Angaben.
 
 
 [Zum Anfang des Abschnitts Testkonfiguration ^](#config)<br>
@@ -256,9 +280,9 @@ Hier können Erinnerungsmails nach bestimmten Kriterien konfiguriert werden.
 [Zum Seitenanfang ^](#course_element_test)
 
 
-### Tab "Badges" {: #tab_badges}
+### Tab "Badges" [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #tab_badges}
 
-Wurde von der Kursbesitzer:in unter `Kurs > Administration > Einstellungen > Tab Bewertung > Abschnitt Badges` die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+Haben Kursbesitzer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` die Vergabe von Badges aktiviert, zeigt der Kurseditor zu diesem Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein.
 
 !!! note "Badges"
     Weitere Informationen zum Thema Badges und wie sie vergeben werden.<br>
@@ -298,7 +322,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
 
 !!! warning "Achtung"
 
-    Sobald ein Test oder Selbsttest in einen Kurs eingebunden wird, können nur noch sehr eingeschränkt Änderungen unter "Lernressource bearbeiten" vorgenommen werden. Deshalb sollte ein Test möglichst erst in einen Kurs eingebunden werden, wenn er vollständig fertiggestellt ist.
+    Sobald ein Test oder Selbsttest in einen Kurs eingebunden ist, lässt er sich unter "Lernressource bearbeiten" nur noch sehr eingeschränkt ändern. Binden Sie einen Test deshalb möglichst erst in einen Kurs ein, wenn er vollständig fertiggestellt ist.
 
 Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Teilnehmenden die gleichen Voraussetzungen antreffen. Andererseits könnten bereits gespeicherte Resultate nicht mehr eindeutig einer Version der Testdatei zugewiesen werden. Deshalb ist das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
 
@@ -342,9 +366,9 @@ Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des 
 
 Alternativ können die Ergebnisse eines spezifischen Tests auch im Kurs bei geschlossenem Kurseditor direkt beim jeweiligen Test-Kursbaustein eingesehen und verwaltet werden. Wechseln Sie hierfür in den Tab "Teilnehmer:innen". Zusätzlich stehen Ihnen als Kursbesitzer:in im Kurs noch weitere Tabs wie Vorschau, Kommunikation, Erinnerungen und Badges zur Verfügung. Auch Betreuer:innen verfügen teilweise über diese Tabs.
 
-![Teilnehmende mit Versuchen, Punkten und Status sowie geöffnetem Zeilenmenü mit den Aktionen zur Bewertung](assets/Test_Kursrun_20a.jpg){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test" }
+![Teilnehmende mit Versuchen, Punkten und Status sowie geöffnetem Zeilenmenü mit den Aktionen zur Bewertung](assets/course_element_test_run_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.11.02" }
 
-Sofern für einen Test auch Korrektor:innen aktiviert wurden, können diese die Bewertungen über das Coaching Tool vornehmen.
+Sind für einen Test Korrektor:innen eingetragen, bewerten diese die Testläufe über das Coaching Tool.
 
 !!! note "Coaching Tool"
     Kursübergreifende Bewertung durch Korrektor:innen.<br>
@@ -405,12 +429,12 @@ Wer die Testergebnisse eines Kurses gesammelt sichern will, etwa zusammen mit de
 
 Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür `Kurs > Administration > Archivierung & Reports > Kursarchivierung > Archiv erstellen`. Wählen Sie im Wizard die Archivart "Teilarchiv" und markieren Sie im Schritt "Kursbausteine auswählen" den oder die gewünschten Test-Bausteine. Im Schritt "Einstellungen" wählen Sie bei "Kursbausteine" entweder "Standard-Einstellungen" oder "Benutzerspezifisch", um die Archivierungsoptionen anzupassen.
 
-Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Im Wizard-Schritt "Einstellungen" gibt es bei der Auswahl "Benutzerspezifisch" beim Kursbaustein Test unter **"Export"** 2 Varianten:
+Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Im Wizard-Schritt "Einstellungen" gibt es bei der Auswahl "Benutzerspezifisch" beim Kursbaustein Test unter "Export" 2 Varianten:
 
-* Der Export **Standard** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
-* Die Option **"Erweitert – mit PDF"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch PDF-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in ergänzt.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen PDF-Dateien evtl. einige Zeit dauern.
+* **Standard**: Der Export enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
+* **"Erweitert – mit PDF"**: Die Option erzeugt die gleiche zip-Datei und ergänzt zusätzlich PDF-Dateien mit den detaillierten Ergebnissen für jede:n Teilnehmer:in.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen PDF-Dateien evtl. einige Zeit dauern.
 
-Enthält der Test Freitextfragen und wurde die Option **"Erweitert – mit PDF"** gewählt, kann darunter unter **"Zusätzliche Option"** zusätzlich **"Separate PDF-Datei für jede Freitextfrage"** aktiviert werden. Die Antwort jeder Freitextfrage wird dann als eigene PDF-Datei im Archiv abgelegt. [:octicons-tag-16:{ title="ab Release 19.1.27 (OO-8964)" }](https://track.frentix.com/issue/OO-8964)
+Enthält der Test Freitextfragen und ist die Option "Erweitert – mit PDF" gewählt, können Sie darunter unter "Zusätzliche Option" die Einstellung "Separate PDF-Datei für jede Freitextfrage" aktivieren. Die Antwort jeder Freitextfrage wird dann als eigene PDF-Datei im Archiv abgelegt. [:octicons-tag-16:{ title="ab Release 19.1.27 (OO-8964)" }](https://track.frentix.com/issue/OO-8964)
 
 ![Export als Standard oder erweitert mit PDF, dazu separate PDF-Datei je Freitextfrage](assets/course_element_test_archive_export_v1_de.png){ class="shadow lightbox" title="Schritt Einstellungen im Dialog Kurs archivieren" }
 
@@ -458,7 +482,7 @@ Bearbeiten Sie einen Test in nur einem Browserfenster. Wird der Test in einem an
 
 Ist die Anzahl Lösungsversuche für eine Frage, eine Sektion oder den gesamten Test eingeschränkt, wird die verbleibende Anzahl direkt bei der Frage angezeigt, zum Beispiel „Noch 2 Versuche (1/3)“. In der linken Navigation steht bei jeder Frage die Zahl der genutzten und der möglichen Versuche, zum Beispiel "1 / 2"; die verbleibende Anzahl erscheint dort als Tooltip.
 
-Wenn Sie fertig sind mit der Bearbeitung und den Test abschliessen wollen, klicken Sie auf den Button "Test beenden". Es erfolgt noch einmal eine Sicherheitsabfrage und wenn Sie diese bestätigen, wird der Test gespeichert und ist für die Lehrenden sichtbar.
+Wenn Sie fertig sind mit der Bearbeitung und den Test abschliessen wollen, klicken Sie auf den Button "Test beenden". OpenOlat fragt noch einmal nach. Bestätigen Sie, wird der Test gespeichert und ist für die Lehrenden sichtbar.
 
 Besteht ein Test aus mehreren [Test-Parts](Configure_tests.de.md#testpart), bearbeiten Sie diese nacheinander und schliessen jeden einzeln ab. Ein beendeter Test-Part ist abgegeben: Seine Antworten sind gespeichert, und Sie kehren nicht mehr dorthin zurück. Zu Beginn zeigt OpenOlat die Seite "Testbeginn" mit der Anzahl Teile, zum Beispiel "Der Test hat bis 2 Teile.", und dem Button "Test starten".
 
@@ -492,8 +516,10 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 [Kursbaustein "Selbsttest" >](Course_Element_Self_Test.de.md)<br>
 [Tests erstellen >](Test.de.md)<br>
 [Lernpfadkurs - Kurseditor >](Learning_path_course_Course_editor.de.md)<br>
-[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Wissensüberprüfung >](Assessment.de.md)<br>
 [Wie bereite ich eine Online-Prüfung vor? >](../../manual_how-to/exam_preparation/exam_preparation.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
 [Test Einstellungen - Administration >](Test_settings.de.md)<br>
 [Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>

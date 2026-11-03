@@ -13,18 +13,18 @@ Assessable | yes
 Specialty / Note | Additional quizzes included in the video are not assessable
 
 
-With the course element "Video task" OpenOlat video learning resources can be reused for interactive (formative) exercises or tasks with assessments (summative). Participants have to identify relevant situations in a video and assign them to a category. The necessary placeholders in the video (= segments) and the categories are defined in the learning resource "Video" (see Video Editor). A practice mode and a sharp test mode are available.
+With the course element "Video task" you use learning resources "Video" for interactive exercises (formative) or for tasks with assessment (summative). Participants identify relevant situations in the video and assign terms to them. You define the sections in the video (segments) and the terms in the video editor of the learning resource "Video". Two practices and one test are available. Only the test can be assessed.
 
 [To the top of the page ^](#video_task)
 
 ---
 
 
-## Tasks
+## Tasks [:octicons-tag-16:{ title="from Release 17.2 (OO-6643)" }](https://track.frentix.com/issue/OO-6643)
 
-### Exercise: Matching terms
+### Practice: Assign terms
 
-![Info box in the exercise mode Matching terms: terms must be assigned to the matching video sections](assets/video_task_modus_uebung_begriffe_zuordnen_v1_de.png){ class="shadow lightbox" title="Mode Practice: Assign terms in the Configuration tab" }
+![Mode Practice: Assign terms selected, terms must be assigned to the video segments](assets/course_element_video_task_mode_practice_assign_terms_v1_en.png){ width="272" class="shadow lightbox" title="Mode Practice: Assign terms in the Configuration tab · 2026.11.02" }
 
 In this mode, the segments (video sections) in the video are marked.
 
@@ -32,15 +32,15 @@ In this mode, the segments (video sections) in the video are marked.
 
 * The video shows the process of a medical care treatment.
 * In the lower area of the video, steps of the treatment are shown.
-* While the video is playing, the appropriate name of the measure (category term) must be clicked on during the recognised step.
-* Feedback is given immediately after a term is selected.
-* Manual assessment by coaches is not possible. (=> Practicing should be possible without control).
+* While the video is playing, participants click the appropriate name of the measure (term) during the recognised step.
+* Participants receive the feedback directly after selecting a term.
+* There is no manual assessment by coaches, so that participants practise without control.
 
 ---
 
-### Exercise: Recognizing situations
+### Practice: Identify situations
 
-![Info box in the exercise mode Recognizing situations: identify situations in which the matching term occurs](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" title="Mode Practice: Identify situations in the Configuration tab" }
+![Mode Practice: Identify situations selected, participants identify the video segments in which the matching term occurs](assets/course_element_video_task_mode_practice_identify_situations_v1_en.png){ width="272" class="shadow lightbox" title="Mode Practice: Identify situations in the Configuration tab · 2026.11.02" }
 
 In this mode, the segments (video sections) in the video are **not marked**.
 
@@ -49,14 +49,14 @@ In this mode, the segments (video sections) in the video are **not marked**.
 * The video shows a counselling session.
 * No segments (video sections) are marked in the lower area of the video.
 * While the video is playing, the student has to identify which phase of the conversation it is.
-* The feedback is given immediately after the selection of a term.
-* Manual assessment by coaches is not possible. (=> Practicing should be possible without control).
+* Participants receive the feedback directly after selecting a term.
+* There is no manual assessment by coaches, so that participants practise without control.
 
 ---
 
-### Test: Recognizing situations
+### Test: Identify situations [:octicons-tag-16:{ title="from Release 17.2 (OO-6686)" }](https://track.frentix.com/issue/OO-6686)
 
-![Info box in the test mode Recognizing situations: identify situations in which the matching term occurs, assessable](assets/video_task_modus_test_situationen_erkennen_v1_de.png){ class="shadow lightbox" title="Mode Test: Identify situations in the Configuration tab" }
+![Mode Test: Identify situations selected, as in the practice but assessable](assets/course_element_video_task_mode_test_identify_situations_v1_en.png){ width="272" class="shadow lightbox" title="Mode Test: Identify situations in the Configuration tab · 2026.11.02" }
 
 In this mode, the segments (video sections) in the video are **not marked**.<br> Unlike the exercise, the test is **assessable**.
 
@@ -66,12 +66,12 @@ In this mode, the segments (video sections) in the video are **not marked**.<br>
 * No segments (video sections) are marked in the lower part of the video.
 * While the video is playing, the learner has to identify which phase of the conversation it is.
 * During a test, the participants do not receive any feedback.
-* At the end, it is only indicated that an automatic assessment has been made. However, the detailed evaluation result is only visible to the coach or owner.
+* At the end, the performance summary shows the status "Assessed" and, depending on the settings in the "Assessment" tab, also the score and the success status. Only owners and coaches see the detailed evaluation result.
 
 
-!!! info "Note"
+!!! info "Important"
 
-    In addition to the 3 tasks with segments, quiz questions can also be displayed at different times in the video. However, they are currently not taken into account in the assessment.
+    In addition to the three tasks with segments, the video can also show quiz questions at different times. The evaluation does not take them into account.
 
 [To the top of the page ^](#video_task)
 
@@ -79,23 +79,23 @@ In this mode, the segments (video sections) in the video are **not marked**.<br>
 
 ## Practice mode - Test mode
 
-When practicing, the results should remain anonymous. Coaches therefore only see anonymously presented results. In tests, on the other hand, the entries are assessed by the coaches.
+When practicing, the results should remain anonymous. Coaches therefore only see anonymously presented results. In the test, owners and coaches see the results of each person.
 
-The number of solution attempts can be limited (1-9999).
+With "Limit the number of attempts" you limit the number of attempts to 1 to 9999.
 
-In the exercise mode "Assign terms", the number of answer attempts per segment can also be limited (1-5).
+In the practice "Assign terms" you can additionally limit the "Number of answer attempts per segment" to 1 to 5.
 
 ---
 
 ## Required Learning Resource
 
-A video learning resource must be inserted into each course element "Video task".
+Each course element "Video task" needs a learning resource "Video".
 
-This is an mp4 file uploaded to the authoring area or a link to an online resource (e.g. Youtube).
+This is an MP4 file that you upload in the authoring area, or a link to a video on the internet, for example on YouTube.
 
-The following elements can be added to an mp4 file in OpenOlat. The mp4 file together with these elements forms the OpenOlat video learning resource. It is listed in the authoring area.
+In OpenOlat you add the elements in the table to the MP4 file. The file together with these elements forms the learning resource "Video", which is listed in the authoring area.
 
-In order to be able to assign segments (video sections), a video task necessarily requires a video learning resource in which segments have been created.
+In order to assign segments (video sections), the video task needs a learning resource "Video" in which segments have been created.
 
 | Elements of the Learning resource:                  |                                    |
 | ----------------- | ---------------------------------- |
@@ -108,7 +108,7 @@ In order to be able to assign segments (video sections), a video task necessaril
 
 !!! tip "Tip"
 
-    If a link (e.g. YouTube) is used for the video learning resource, it should be considered that if the link is no longer valid, the video task becomes unusable. We therefore recommend uploading an mp4 file to OpenOlat if possible.
+    If the learning resource "Video" refers to a link, for example on YouTube, the video task becomes unusable as soon as the link is no longer valid. Upload an MP4 file to OpenOlat if possible.
 
 [To the top of the page ^](#video_task)
 
@@ -118,29 +118,41 @@ In order to be able to assign segments (video sections), a video task necessaril
 ## Create Video task
 
 ### Step 1
-Create a video learning resource in the authoring area.
-Open the video editor and add segments and terms.
-[Find out more >](../../manual_user/learningresources/Learning_resource_Video.md#video_segments)<br>
+
+Create a learning resource "Video" in the authoring area. Open the video editor and add segments and terms. [Find out more >](../../manual_user/learningresources/Learning_resource_Video.md#video_segments)
 
 ### Step 2
-Add a "Video Assignment" course block to the course.
+
+Add a course element "Video task" to the course.
 
 ### Step 3
-In the course element, "Configuration" tab 
-a) Insert the video learning resource that has been divided into segments,
-and 
-b) Select the desired mode.
+
+In the tab "Configuration" of the course element:
+
+1. Select the learning resource "Video" with the prepared segments.
+2. Select the desired task under "Modes".
 
 ### Step 4
-Make sure that in the "Configuration" tab 
 
-* Segments are displayed as video elements
-* The correct terms are used
-* The order of the terms in the video assignment is correct
+Check in the tab "Configuration":
+
+* Under "Terms used" the correct terms are selected.
+* Under "Order of terms in the video task" the order is correct.
+
+Under "Display video elements", "Segments" is always selected and cannot be deselected.
 
 !!! tip "Tip"
 
-    * Click "Edit Learning Resource" to open the video editor and continue editing the segment assignments.
+    With "Edit learning resource" you open the video editor and continue editing the segments.
+
+### Tab "Assessment" [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647){:target="_blank"} {: #tab_assessment}
+
+You can only open the tab "Assessment" in the mode "Test: Identify situations", because only the test is assessed. The tab is divided into two areas:
+
+* **Grading configuration**: Here you define how OpenOlat assesses the test. With "Score granted", "Minimum score", "Maximum score", "Digits after comma" and "Weighting wrong answer" appear. "Minimum score" is always 0 and cannot be changed. In addition there are "Levels/Grading", "Display passed / not passed" with "Display success status" and "Passed cut value" as well as, in learning path courses, "Include in course assessment".
+* **Assessment form**: With "Individual comment" and "Individual assessment documents", coaches provide participants with comments or documents during the assessment.
+
+If assessments already exist for the video task, OpenOlat displays all settings under "Grading configuration" as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Assessment.md#assessment_config_read_only).
 
 
 [To the top of the page ^](#video_task)
@@ -151,37 +163,37 @@ Make sure that in the "Configuration" tab
 
 ### Principles
 
-* For exercises, the assessment is automatic. It cannot be changed by the coach.
-* Tests are also assessed automatically. Coaches can view all solution attempts in the assessment tool and decide whether to approve the assessment.
-* Quiz questions contained in a video learning resource are currently not included in the evaluation. In the course element video task the evaluation refers exclusively to the segments.
+* OpenOlat assesses exercises automatically. Coaches cannot change this assessment.
+* OpenOlat also assesses tests automatically. Coaches see all solution attempts in the assessment tool and decide on the release of the assessment.
+* Quiz questions of the learning resource "Video" do not count towards the evaluation. In the course element "Video task" the evaluation refers exclusively to the segments.
 * In exercises, the results should remain anonymous. Coaches therefore only see anonymously presented results.
-* Incorrect answers are weighted using the following formula:<br>
-    t = total number of segments<br>
+* OpenOlat weights incorrect answers using this formula:<br>
+    t = number of segments with the terms used<br>
     c = number of correctly identified segments<br>
-    w = wrong clicks<br>
-    g = Weighting wrong clicks<br>
-    Result % = (c / t) - (w / t * g)  -> However, it cannot be less than 0%<br> 
-    Score = max. score * result
+    w = number of wrong clicks<br>
+    g = "Weighting wrong answer"<br>
+    Result in % = (c / t) - (w / t * g)<br>
+    Score = "Maximum score" * result, at least 0 points
 
 
 ### Result for participants
 
-In **exercises**, participants receive immediate feedback while solving the task.
+In exercises, participants receive feedback directly while solving the task.
 
-In addition, a summary is displayed at the end of the exercise and the solution can be viewed.
+At the end of the exercise, OpenOlat shows a summary, and with "Show solution" participants see the solution.
 
-![Result after an exercise attempt with the number of correctly matched video sections per answer attempt, buttons for another attempt, showing the solution and ending the task](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" title="Result of a practice attempt" }
+![Result after an exercise attempt with the number of correctly matched video segments per answer attempt, buttons for another attempt, showing the solution and finishing the task](assets/course_element_video_task_practice_result_v1_en.png){ class="shadow lightbox" title="Result of a practice attempt · 2026.11.02" }
 
-During a **test**, on the other hand, the participants do not receive any feedback. At the end, only the number of attempts to solve the problem is displayed. (If further attempts are allowed, the task definition and the button for starting the video task will also appear again.)
+During a **test**, on the other hand, the participants do not receive any feedback. At the end, the performance summary shows the number of attempts and, depending on the settings in the "Assessment" tab, also the score and the success status. (If further attempts are allowed, the task definition and the button for starting the video task will also appear again.)
 
-![After a test attempt only the number of solution attempts is visible, no feedback, further attempts show the task definition again with a start button](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" title="Final view of the video task in test mode" }
+![Performance summary after a test attempt with success status, score and attempts, below it the task definition again with the button Start video task](assets/course_element_video_task_test_result_v1_en.png){ class="shadow lightbox" title="Final view of the video task in test mode · 2026.11.02" }
 
 ### Results for coaches in exercises
 
-If in exercises coaches open a course element with a video task in the course menu, they will see the two **tabs "Participants" and "Preview"**.
+If coaches open the course element of an exercise in the course, they see the tabs "Participants" and "Preview".
 
-* In the tab **"Participants"** the processing status of the coached course participants is displayed in a list.
-* In the **"Preview"** tab, the video is displayed as seen by participants.
+* **Participants**: A list shows the processing status of the coached participants.
+* **Preview**: The video appears as participants see it.
 
 In the menu with three dots in the row of a participant, coaches find these entries, depending on the status of the assessment and on the course settings:
 
@@ -197,15 +209,15 @@ You delete the data of all participants with the entry "Delete all data", see be
 
 ### "Play all attempts" button
 
-As the experiments are to remain anonymous during exercises, coaches cannot see any results that can be attributed to specific persons. Instead, the attempts of all participants are shown as strokes in a common display. 
+So that the attempts in exercises remain anonymous, coaches do not see any results that can be attributed to specific persons. Instead, a common display shows the attempts of all participants as strokes.
 
 To do this, click the button "Play all attempts".
 
-![Button Play all attempts marked](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" title="Participants tab of the coach view of a video task" }
+![Button Play all attempts marked, next to it the menu with three dots](assets/course_element_video_task_play_all_attempts_v1_en.png){ class="shadow lightbox" title="Participants tab of the coach view of a video task · 2026.11.02" }
 
-In the timeline of the video, all successful answers are shown as green lines, the wrong answers as red lines. Coaches can thus draw conclusions about widespread knowledge gaps among the participants. However, the results presented in this way may also indicate that the task should perhaps be adapted.
+In the timeline of the video, correct answers appear as green lines, wrong answers as red lines. In this way coaches recognise, for example, knowledge gaps that many participants share, or a task that should be adapted.
 
-![Timeline with green lines for correct and red lines for wrong answers of all participants](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" title="Play all attempts view of a video task" }
+![Timeline with green lines for correct and red lines for wrong answers of all participants](assets/course_element_video_task_play_all_timeline_v1_en.png){ class="shadow lightbox" title="Play all attempts view of a video task · 2026.11.02" }
 
 
 ### "Delete all data"
@@ -221,11 +233,11 @@ After clicking on the entry, the dialog "Delete data of video task" appears. It 
 
 ### Results for test coaches
 
-If the mode "Test" was selected for the video task, the **Tabs "Participants" and "Preview"** as well as the **Tabs "Overview" and "Reminders"** appear. In the "Reminders" tab, coaches can set up automatic e-mails to course members that are sent as soon as the configured rules apply, for example one day before a test that has not yet been completed.
+If the mode "Test: Identify situations" is selected for the video task, the tabs "Overview" and "Reminders" appear in addition to the tabs "Participants" and "Preview". In the tab "Reminders", coaches set up automatic emails to course members. OpenOlat sends them as soon as the configured rules apply, for example one day before a test that has not yet been completed.
 
-![Tabs Overview and Reminders marked, Reminders tab open](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" title="Coach view of a video task in test mode" }
+![Tabs Overview and Reminders marked, Overview tab open with pass rate and score distribution](assets/course_element_video_task_test_coach_tabs_v1_en.png){ class="shadow lightbox" title="Coach view of a video task in test mode · 2026.11.02" }
 
-All results can be viewed by the owners and coaches of this course in detail for each participant in the **tab "Participants"**.
+In the tab "Participants", owners and coaches of the course see the results of each person in detail.
 
 [To the top of the page ^](#video_task)
 
@@ -234,8 +246,10 @@ All results can be viewed by the owners and coaches of this course in detail for
 
 ## Further information {: #further_information}
 
-[Learning Resource Video >](../../manual_user/learningresources/Learning_resource_Video.md)<br>
-[Course element Video >](../../manual_user/learningresources/Course_Element_Video.md)
+[Learning resource: Video >](../../manual_user/learningresources/Learning_resource_Video.md)<br>
+[Assessment >](Assessment.md)<br>
+[Course Element "Video" >](../../manual_user/learningresources/Course_Element_Video.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview.md)
 
 [To the top of the page ^](#video_task)
 

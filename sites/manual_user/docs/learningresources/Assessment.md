@@ -12,6 +12,48 @@ All course elements of this group except Self-test, Practice and Survey have the
 
 The group also includes the course elements "Survey" and "Form". With them, you build OpenOlat [forms](../learningresources/Form_Editor.md) for surveys and similar purposes into a course.
 
+## Read-only assessment configuration [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647){:target="_blank"} {: #assessment_config_read_only}
+
+As soon as assessments exist for an assessable course element, OpenOlat displays the settings that change the assessment result as read-only in the course editor. A lock symbol in front of the label shows which settings these are. The other settings in the same tab remain editable.
+
+The reason: every change to the assessment rules triggers a recalculation of all existing assessments when you publish. The recalculation cannot be undone. The read-only mode makes sure that you trigger this intervention deliberately.
+
+An assessment counts as existing as soon as at least one person has a score, a passed status or a grade for this course element. A status alone is not enough: if a person has only started the course element, the configuration remains editable. The check applies per course element. Assessments in another course element of the course do not trigger the read-only mode.
+
+The read-only mode applies in learning path courses and in conventional courses. The course elements "Self-test" and "Questionnaire" do not have it.
+
+### Editing read-only settings {: #enable_edit_mode}
+
+In the read-only state, the message below the legend "Grading configuration" reads: "**Assessments already exist**, certain settings are displayed as **read-only**. To make changes, you must enable edit mode - when changes are made, all existing assessments will be recalculated."
+
+![Message with the button "Enable edit mode" below "Grading configuration", a lock in front of every read-only setting, "Assessment form" without lock](assets/assessment_read_only_info_v1_en.png){ class="shadow lightbox" title="Tab Configuration of a checklist with existing assessments · 2026.11.02" }
+
+The message contains the button "Enable edit mode" with the symbol of an open lock. After the click, the read-only settings are editable, and in place of the message the warning appears: "You are currently editing the assessment configuration, even though assessments already exist. Saving and publishing your changes will cause all existing assessments to be **recalculated**. This action **cannot be undone**."
+
+![Warning about the recalculation in place of the message, the settings under "Grading configuration" without lock and editable](assets/assessment_read_only_warning_v1_en.png){ class="shadow lightbox" title="Tab Configuration of a checklist in edit mode · 2026.11.02" }
+
+If no assessments exist yet, neither message nor warning appears. The tab is then directly editable.
+
+The edit mode only applies while you are editing the course element in the course editor. If you open the course element in the course editor again later, the read-only mode is active again. There is no setting that lifts the read-only mode permanently.
+
+### Affected course elements {: #read_only_course_elements}
+
+The assessable course elements structure their assessment rules in the same way: at the top, below the legend "Grading configuration", are the message and the settings covered by the read-only mode. Below that, under "Assessment form", are the settings "Individual comment" and "Individual assessment documents", which remain editable. The table shows in which tab you encounter the read-only mode and what it covers.
+
+Course element | Tab | Read-only | Remains editable
+---------|----------|----------|----------
+[Test](Course_Element_Test.md#tab_configuration) | "Test configuration" | "Levels/Grading" including the grading scale, "Include in course assessment" | all other settings, for example "Set assessment period", "Correction" and "Report"
+[SCORM 1.2](Course_Element_SCORM_Learning_Content.md#editor_tab_learning_content) | "Learning content" | the settings under "Grading configuration", for example "Transfer score from SCORM", "Maximum score", "Score needed to pass" and "Include in course assessment" | "Prevent the score from decreasing on subsequent attempts", "Count attempts only if score is transferred", "Maximum number of attempts", the areas "SCORM" and "Settings"
+[Task](Course_Element_Task.md#grading) | "Grading" | "Rubric assessment", score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
+[Grouptask](Course_Element_Grouptask.md#tab_assessment) | "Grading" | score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
+[Video task](Course_Element_Video_Task.md#tab_assessment) | "Assessment" | all settings under "Grading configuration", among them score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
+[Portfolio task](Course_Element_Portfolio_Task.md#tab_assessment) | "Assessment" | score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
+[Assessment](Course_Element_Assessment.md#tab_assessment) | "Assessment" | "Rubric assessment", "Score granted", "Levels/Grading", "Display passed / not passed", "Include in course assessment" | "Set status "To review" if accessible", "Assessment form"
+[Check list](Course_Element_Checklist.md#tab_configuration) | "Configuration" | score, levels/grading, passed/failed including "Type of display" and thresholds, "Include in course assessment" | "Checklist configuration" with the deadline, "Assessment form"
+[Structure](Course_Element_Structure.md#score), only in the conventional course | "Score" | the whole legend "Combined assessment" | none
+
+Settings that are not editable anyway remain so in the edit mode, for example "Minimum score" for the video task.
+
 ## Course Element: Assessment {: #course_element_assessment}
 
 :fontawesome-regular-thumbs-up:
@@ -122,9 +164,9 @@ A more complex alternative to the self-test is the course element "Practice".
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [The course element Practice](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank"}
 
-The course element with flashcard logic is used for individual self-testing of participants. For this purpose, the teacher combines several OpenOlat tests or question sets from the question bank, which the participants work on independently in series and challenges. The number of questions per practice series can be defined, as can the number of challenges. For example, if a series comprises 10 questions, 10 questions are shown. Afterwards, participants decide whether to answer incorrectly answered questions again or skip them. The number of levels reflects the intensity of the practice and indicates how often a question has to be answered correctly repeatedly.
+The course element with flashcard logic is used for individual self-testing of participants. For this purpose, the teacher combines several OpenOlat tests or question sets from the question bank, which the participants work on independently in series and challenges. The number of questions per practice series can be defined, as can the number of challenges. For example, if a series comprises 10 questions, OpenOlat shows 10 questions. Afterwards, participants decide whether to answer incorrectly answered questions again or skip them. The number of levels reflects the intensity of the practice and indicates how often a question has to be answered correctly repeatedly.
 
-![Practice series with challenge, individual practice by subject, personal statistics and learning progress per level](assets/KB_Uebung_en.png){ class="shadow lightbox" title="Course element Practice from the participant view" }
+![Practice series with the status of the current challenge, the practice modes under Individual practice, the questions per taxonomy subject, the personal statistics and the learning status per level](assets/assessment_practice_participant_v1_en.png){ class="shadow lightbox" title="Course element Practice from the participant view · 2026.11.02" }
 
 Besides the "Practice series" that OpenOlat compiles according to the teacher's settings, participants choose their own practice mode under "Individual practice": "New questions" practises questions they have never answered, "My errors" practises incorrectly answered questions, and under "Own series" they compile questions themselves, for example filtered by level or subject. In the section "Per taxonomy subject" they practise questions from a specific subject.
 
@@ -134,9 +176,11 @@ After completion of a challenge, detailed statistics on the learning status as w
 
     Only automatically evaluable test questions can be used for this course element.
 
-## Course Element: Video task [:octicons-tag-16:{ title="from Release 17.2 (OO-6643)" }](https://track.frentix.com/issue/OO-6643)
+## Course Element: Video task [:octicons-tag-16:{ title="from Release 17.2 (OO-6643)" }](https://track.frentix.com/issue/OO-6643) {: #course_element_video_task}
 
 With the course element "Video task" you use learning resources "Video" for interactive exercises (formative) or for tasks with assessment (summative). Participants identify relevant situations in the video and assign terms to them. You define the sections in the video (segments) and the terms in the learning resource "Video". The modes "Practice: Assign terms", "Practice: Identify situations" and "Test: Identify situations" are available. Only the test can be assessed.
+
+All settings of the course element are described on the page [Course Element "Video task"](Course_Element_Video_Task.md).
 
 ## Course Element: Form [:octicons-tag-16:{ title="from Release 15.5 (OO-5338)" }](https://track.frentix.com/issue/OO-5338) {: #course_element_form}
 
@@ -183,22 +227,15 @@ All settings of the course element are described on the page [Course Element "Ch
 
 ## Highscore [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
 
-If you award points in a course element, you can show the participants a highscore. The highscore makes a playful comparison between participants possible and can be seen as motivational factor.
+If you award points in a course element, you can show the participants a highscore. The highscore makes a playful comparison possible and can motivate the participants.
 
-The highscore is set up in the tab "HighScore". This tab is available in all assessable course elements except for the course elements Practice and Video task, and additionally in the course element "Structure". The prerequisite for using the
-"HighScore" tab is that points are awarded in the selected course element (e.g. test,
-task, assessment).
+You set up the highscore in the tab "HighScore". All assessable course elements have this tab except Practice and Video task, and in addition the course element "Structure". The prerequisite is that the course element awards points, for example a test, a task or an assessment.
 
-First "Show Highscore" needs to be enabled. Optionally, a starting date can be
-added. From this date on the highscore is shown. Otherwise the highscore is
-shown directly after finishing the test. With "Anonymize usernames" the highscore shows the persons anonymised instead of with first and last name. In the next part you
-choose which elements of the highscore are shown. You can choose between the congratulations title, the podium, the histogram and the top results listing.
-For the listing you can additionally define whether all participants or only a certain
-number of top participants are shown. At least one of these options needs to be selected.
+First switch on "Show Highscore". Under "Starting Date (optional)" you define from when OpenOlat shows the highscore. Without a starting date, OpenOlat shows the highscore directly after finishing the test. With "Anonymize usernames" the highscore shows the persons anonymised instead of with first and last name.
 
+Then you choose which elements the highscore shows: "Congratulations title", "Podium", "Histogram" and "Top results listing". For the listing you define whether it shows all participants or only a certain number of the top participants. At least one of these options must be selected.
 
-
-![Congratulation title, podium, points histogram and top results listing](assets/Highscore_EN.png){ class="shadow lightbox" title="Highscore of a course element" }
+![Congratulation title, podium, points histogram and top results listing](assets/assessment_highscore_v1_en.png){ class="shadow lightbox" title="Highscore of a course element from the participants' view · 2026.11.02" }
 
 ---
 
@@ -212,19 +249,21 @@ number of top participants are shown. At least one of these options needs to be 
 [Course Element "Structure" >](Course_Element_Structure.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [The form editor >](Form_Editor.md)<br>
+[Course Element "Test" >](Course_Element_Test.md)<br>
+[Course Element "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.md)<br>
+[Course Element "Group Task" >](Course_Element_Grouptask.md)<br>
+[Course Element "Video task" >](Course_Element_Video_Task.md)<br>
+[Course Element "Portfolio Task" >](Course_Element_Portfolio_Task.md)<br>
+[Course Element "Checklist" >](Course_Element_Checklist.md)<br>
 [Portfolio task: collecting and editing >](Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
-[Course Element "Portfolio Task" >](Course_Element_Portfolio_Task.md)<br>
-[Course Element "Group Task" >](Course_Element_Grouptask.md)<br>
 [Test question types >](Test_question_types.md)<br>
 [Creating Tests >](Test.md)<br>
 [Tests at course level >](Tests_at_course_level.md)<br>
-[Course Element "Test" >](Course_Element_Test.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
-[Forms - Overview >](Form.md)<br>
-[Course Element "Checklist" >](Course_Element_Checklist.md)
+[Forms - Overview >](Form.md)
 
 **Further reading**<br>
 [Types of Course Elements >](Course_Elements.md)<br>

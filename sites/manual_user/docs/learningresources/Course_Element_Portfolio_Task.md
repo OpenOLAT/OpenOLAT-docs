@@ -8,21 +8,21 @@ Name | Portfolio Task
 Icon | :o_icon_o_ep_icon:
 Available since | 
 Functional group | Assessment
-Purpose | Provision of a portfolio folder for each course participant to work on
+Purpose | Provision of a portfolio binder for each participant to work on
 Assessable | yes
 Specialty / Note |
 
 
 ### Functionality
 
-* Predefined portfolio folders are made available to learners by the teacher via the "Portfolio task" course element. 
-* Course participants can collect the portfolio assignment in the course and are then forwarded to their individual portfolio area. 
-* The portfolio collected in this way can then be filled by learners with content and artifacts in different formats.
-* If desired, the portfolio can be made accessible to other people or the course coaches. Depending on the configuration, these people can also rate and comment on the portfolio.
+* Authors use the "Portfolio Task" course element to provide a prepared binder for all participants.
+* Participants collect the portfolio task in the course and receive their own binder in their portfolio.
+* In this binder, they work on the assignments with content in different formats.
+* If they wish, they share the binder with their coaches or other persons. Depending on the access right, these persons comment on or assess the binder.
 
- !!! info "Note"
+!!! tip "Tip"
 
-    A learning resource ["Portfolio 2.0 Template"](../learningresources/Portfolio_template_Creation.md) is required for the portfolio assignment. This can either be created in the course element Portfolio assignment in the [tab "Learning content"](#tab_learning_content) or centrally in the authoring area.    
+    For the portfolio task you need a learning resource ["Portfolio 2.0 template"](../learningresources/Portfolio_template_Creation.md). You create the template directly in the course element in the [tab "Learning content"](#tab_learning_content) or beforehand in the authoring area.
 
 ---
 
@@ -31,67 +31,73 @@ Specialty / Note |
 
 ### Tab title and description {: #tab_title}
 
-As with all course elements, you determine the page title, the title on the left in the course menu and the descriptions in this tab.
+As with all course elements, you determine the page title, the title on the left in the course menu and the description in this tab.
 
-![Tab "Title and description" of the course element Portfolio Task in the course editor](assets/course_element_portfolio_task_tab_title_v1_de.png){ class="shadow lightbox" title="Tab Title and description in the course editor" }
+![Tab "Title and description" of the portfolio task with the fields "Title", "Title in course menu" and "Description"](assets/course_element_portfolio_task_tab_title_v2_en.png){ class="shadow lightbox" title="Tab Title and description of the portfolio task in the course editor · 2026.11.02" }
 
 
 ### Tab Layout {: #tab_layout}
 
-![Tab "Layout" of the course element Portfolio Task in the course editor](assets/course_element_portfolio_task_tab_layout_v1_de.png){ class="shadow lightbox" title="Tab Layout in the course editor" }
+In this tab you define how the course element appears in the course. Under "Display" you choose whether the title and description are visible. With "Teaser image", "Teaser image style" and "Color category" you design the header of the course element. The "Preview" shows the result.
+
+![Tab "Layout" of the portfolio task with the settings for display, teaser image and color category and the preview of the header](assets/course_element_portfolio_task_tab_layout_v2_en.png){ class="shadow lightbox" title="Tab Layout of the portfolio task in the course editor · 2026.11.02" }
 
 
 ### Tab Learning path {: #tab_learning_path}
 
-Among other things, the completion criterion for the course element can be defined in this tab. (When is the portfolio task considered "completed"?)
+In this tab you define, among other things, the completion criterion, that is, when the portfolio task is considered completed.
 
-![Completion criterion in the tab "Learning path" of the course element Portfolio Task](assets/course_element_portfolio_task_tab_learningpath_v1_de.png){ class="shadow lightbox" title="Tab Learning path in the course editor" }
+![Completion criterion in the tab "Learning path" of the course element Portfolio Task with the options from "Visit course element" to "Execution done"](assets/course_element_portfolio_task_tab_learningpath_v2_en.png){ class="shadow lightbox" title="Tab Learning path of the portfolio task in the course editor · 2026.11.02" }
 
 
 ### Tab Learning content {: #tab_learning_content}
 
-Once you have added a "Portfolio task" course element to the course, link the course element to a "Portfolio 2.0 template". To do this, go to the "Learning content" tab in the course editor and assign a suitable learning resource ["Portfolio 2.0 template"](../learningresources/Portfolio_template_Creation.md) to the course element. 
+Once you have added a "Portfolio Task" course element to the course, link it to a learning resource ["Portfolio 2.0 template"](../learningresources/Portfolio_template_Creation.md). To do this, open the "Learning content" tab in the course editor.
 
-![Button "Select or create portfolio template" in the tab "Learning content" of the course element Portfolio Task](assets/course_element_portfolio_task_tab_learning_content_v1_de.png){ class="shadow lightbox" title="Tab Learning content in the course editor" }
+![Message "No portfolio learning resource has been selected yet." with the buttons "Select" and "Create" in the tab "Learning content"](assets/course_element_portfolio_task_tab_learning_content_v2_en.png){ class="shadow lightbox" title="Tab Learning content of the portfolio task without template · 2026.11.02" }
 
-You can create a new portfolio template directly in the course via "Select or create portfolio template" or link a previously created template. 
+With "Create" you create a new portfolio template directly in the course. With "Select" you link a previously created template.
 
-If you have added a template to the course element, this can be seen directly in the "Learning content" tab under "Selected portfolio template". The template can be edited via the "Edit" link. You can use the "Change portfolio template" link to add a different portfolio. Clicking on the name of the template will take you directly to the template folder. 
+If the template is to contain a form, create the form as a learning resource "Form", not as a course element "Form". The instructions [How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md) show how.
 
-![Selected portfolio template with the links "Edit" and "Change portfolio template" in the tab "Learning content"](assets/course_element_portfolio_task_tab_learning_content2_v1_de.png){ class="shadow lightbox" title="Tab Learning content with the selected portfolio template" }
+If you have added a template to the course element, the "Learning content" tab shows its name and, under "Collected", how often the template has already been collected. With "Edit learning resource" you edit the template. With "Preview" you view the template. With "Replace" you link a different template.
 
-
-!!! info "Note"
-
-    If a portfolio template has already been downloaded and edited by participants, this template can no longer be changed. This would result in participants receiving different requirements.
+![Selected portfolio template with the number "Collected", the buttons "Preview" and "Replace" and the link "Edit learning resource"](assets/course_element_portfolio_task_tab_learning_content2_v2_en.png){ class="shadow lightbox" title="Tab Learning content with the selected portfolio template · 2026.11.02" }
 
 
-### Tab assessment {: #tab_assessment}
+!!! info "Important"
 
-In order for a portfolio to be assessed, the "Assessment" tab must also be configured in the course editor. 
-
-![Assessment configuration in the tab "Assessment" of the course element Portfolio Task](assets/course_element_portfolio_task_tab_assessment_v1_de.png){ class="shadow lightbox" title="Tab Assessment in the course editor" }
-
-You can find out how teachers can grade a portfolio assignment in the chapter "[Portfolio assignment: commenting and grading](../learningresources/Portfolio_assignment_Grading.md)".
+    As soon as a participant has collected the portfolio task, the template can no longer be replaced. This way, all participants work with the same template.
 
 
-### Tab Highscore {: #tab_highscore}
+### Tab Assessment {: #tab_assessment}
 
-This tab only becomes active once the awarding of points has been activated in the "Rating" tab. You can then activate winners' podiums, a list of the best participants, etc. (calculated based on the points).
+If the portfolio task is to be assessed, also configure the "Assessment" tab in the course editor.
 
-![Highscore overview settings in the tab "Highscore" of the course element Portfolio Task](assets/course_element_portfolio_task_tab_highscore_v1_de.png){ class="shadow lightbox" title="Tab Highscore in the course editor" }
+If assessments already exist for the portfolio task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Assessment.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+
+![Under "Grading configuration" a score from 0 to 10, levels with the rating scale Emojis and "Include in course assessment", below it the area "Assessment form"](assets/course_element_portfolio_task_tab_assessment_v2_en.png){ class="shadow lightbox" title="Tab Assessment of the portfolio task in the course editor · 2026.11.02" }
+
+You can find out how coaches comment on and assess a portfolio task on the page [Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md).
+
+
+### Tab HighScore [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #tab_highscore}
+
+With the "HighScore" tab you show participants how their points compare with those of the others. The tab only becomes active once the awarding of points has been switched on in the "Assessment" tab. You then switch on one by one what the participants see, for example the podium or the "Top results listing".
+
+![Tab "HighScore" of the portfolio task, where you show the congratulations title, podium, histogram and "Top results listing" one by one](assets/course_element_portfolio_task_tab_highscore_v2_en.png){ class="shadow lightbox" title="Tab HighScore of the portfolio task in the course editor · 2026.11.02" }
 
 
 ### Tab Reminders {: #tab_reminders}
 
-As with other course elements, you can set up the automatic sending of [reminder emails](../learningresources/Course_Reminders.md) here. For example, triggered by a set condition "Participant has not yet started 2 weeks before the deadline". 
+As with other course elements, you set up the automatic sending of [reminders](../learningresources/Course_Reminders.md) here. As a condition on the course element, "Score" and "Passed" are available, provided you have switched on score or passed/failed in the "Assessment" tab.
 
 
 ### Tab Badges {: #tab_badges}
 
-If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges** section, the "Badges" tab will be displayed in the course editor for this course element and a specific badge can be created for this course element.
+If the owners of the course have switched on the awarding of badges under [`Course > Administration > Settings > Assessment > Badges`](../learningresources/Course_Settings_Assessment.md#section_badges), the course editor shows the tab "Badges" for this course element. There, the owners of the course create a badge specifically for this course element with "Create a new badge".
 
-![Tab "Badges" of the course element Portfolio Task with the button "Create new badge"](assets/course_element_portfolio_task_tab_badges_v1_de.png){ class="shadow lightbox" title="Tab Badges in the course editor" }
+![Tab "Badges" of the portfolio task with the button "Create a new badge"](assets/course_element_portfolio_task_tab_badges_v2_en.png){ class="shadow lightbox" title="Tab Badges of the portfolio task in the course editor · 2026.11.02" }
 
 [To the top of the page ^](#course_element_portfolio)
 
@@ -99,11 +105,11 @@ If the course owner has activated the assignment of badges under **Administratio
 
 ## Participant perspective {: #view_participant}
 
-### Step 1: Pick up portfolio task
+### Step 1: Collect portfolio task
 
-If an OpenOlat author has prepared a "Portfolio assignment" course element, you as a course participant can call up this course element in the course menu. Use the "Get portfolio assignment" button to download a copy of the template for editing in your own portfolio.
+If an author has prepared a portfolio task in the course, open the course element in the course menu as a participant. With the "Collect portfolio task" button you receive a copy of the template for editing in your own portfolio.
 
-![Button "Get portfolio assignment" in the course element Portfolio Task](assets/course_element_portfolio_task_get_task_v1_de.png){ class="shadow lightbox" title="Course element Portfolio Task in the course" }
+![Button "Collect portfolio task" below the information on the maximum score and the portfolio template](assets/course_element_portfolio_task_get_task_v2_en.png){ class="shadow lightbox" title="Course element Portfolio Task in the course · 2026.11.02" }
 
 
 [To the top of the page ^](#course_element_portfolio)
@@ -112,149 +118,142 @@ If an OpenOlat author has prepared a "Portfolio assignment" course element, you 
 
 ### Step 2: Overview and access after collection
 
-Once you have collected the portfolio folder, you can open it for editing. The overview page will show you further information on the status of your work. 
+After collecting, the course element shows the status of your work in the "Performance summary": success status, score and the date of collection. With "Open portfolio" you open the binder for editing.
 
-![Performance overview and "Open portfolio" button of the collected portfolio task](assets/course_element_portfolio_task_open_task_v1_de.png){ class="shadow lightbox" title="Collected portfolio task in the course" }
+![Performance summary with success status, score and collection date, below it the button "Open portfolio" of the collected portfolio task](assets/course_element_portfolio_task_open_task_v2_en.png){ class="shadow lightbox" title="Collected portfolio task in the course · 2026.11.02" }
 
-As soon as the portfolio assignment has been collected in the course, you as a course participant will also find this binder in your [personal menu](../personal_menu/Personal_Tools.md) under "Portfolio 2.0" - "My binders".
+You also find the collected binder in your [personal menu](../personal_menu/Personal_Tools.md) under:<br>
+`Portfolio 2.0 > Go to my binders`
 
-![Entry "Portfolio 2.0" in the personal menu](assets/course_element_portfolio_task_pers_menu_v1_de.png){ class="shadow lightbox" title="Personal menu" }
+![Entry "Portfolio 2.0" under "User tools" in the personal menu](assets/course_element_portfolio_task_pers_menu_v2_en.png){ width="250" class="shadow lightbox" title="Personal menu · 2026.11.02" }
 
-!!! info "Note"
+!!! note "Note"
 
-    Your other portfolios are also visible in your personal portfolio. All portfolio tasks collected from a course are marked with a red line in the left-hand margin and contain a reference to the associated course (below the title). 
+    Your other binders are also visible in your personal portfolio. All portfolio tasks collected from a course are marked with a red line in the left-hand margin and show the associated course below the title.
 
-After collection, access is possible both from the course and from the personal area. 
+After collecting, you therefore open the binder in the course or via your personal menu.
 
 [To the top of the page ^](#course_element_portfolio)
 
 ---
 
-### Step 3: Edit portfolio task 
+### Step 3: Edit portfolio task
 
-**Schritt 3a:** Open the portfolio.
+**Step 3a:** Open the binder.
 
-Depending on how the author has prepared the portfolio task, different areas with tasks are available to you as a participant:
+Depending on how the author has prepared the portfolio task, different sections with assignments are available to you as a participant:
 
-* Has the author attached instructions and other documents for download? 
-* Did the author intend for you to create new entries?
-(Must have been allowed under Select portfolio template > Administration > Settings > Settings tab) In this case, you can edit the tasks with the [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.md) and add suitable content (texts, images, videos, etc.).
-* Has the author provided for you to be able to delete a folder? (If so, the corresponding button is available at the top left).
-* Did the author intend for you to fill out a form? (If so, you will find it in the areas shown).
+* Has the author attached instructions and other documents for download?
+* Did the author intend for you to create new entries? If so, you edit the assignments with the [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.md) and add suitable content, such as texts, images or videos. The author allows this in the template with the option "Users are allowed to create new entries" under `Portfolio 2.0 template > Administration > Settings > Options`, see [Portfolio template: Administration and editing](Portfolio_template_Administration_and_editing.md).
+* Did the author intend for you to be able to delete a binder? If so, the button "Delete binder" is available at the top left of the binder.
+* Did the author intend for you to fill out a form? If so, you will find it in the sections shown.
 
 
 **Example:**<br>
 
-![Collected portfolio folder with the example areas "Beurteilung Situation 1" and "Beurteilung Situation 2"](assets/course_element_portfolio_task_solve3a_de.png){ class="shadow lightbox" title="Collected binder" }
+![Tab "Overview" of a collected binder with the sections "Beurteilung Situation 1" and "Beurteilung Situation 2" and one assignment below each](assets/course_element_portfolio_task_solve3a_v2_en.png){ class="shadow lightbox" title="Portfolio binder, tab Overview · 2026.11.02" }
 
 **Step 3b:** Click on an area or on the "Entries" tab.
 
-![Tab "Entries" of the portfolio folder with the available areas](assets/course_element_portfolio_task_solve3b_de.png){ class="shadow lightbox" title="Entries tab of a binder" }
+![Tab "Entries" and the two section titles that take you to the assignments of the binder](assets/course_element_portfolio_task_solve3b_v2_en.png){ class="shadow lightbox" title="Portfolio binder, tab Overview · 2026.11.02" }
 
-**Step 3c:** Select a displayed task or search for the tasks in the other areas.
+**Step 3c:** Select a displayed task or search for the tasks in the other areas. In the table view, click the assignment directly.
 
-![Task of an area in the list view of the portfolio folder](assets/course_element_portfolio_task_solve3c_de.png){ class="shadow lightbox" title="List view of a binder" }
+![Table view in the tab "Entries" with the assignment of the section and the buttons to go to the next section](assets/course_element_portfolio_task_solve3c_v2_en.png){ class="shadow lightbox" title="Portfolio binder, tab Entries · 2026.11.02" }
 
-If the tile view has been selected instead of the list view, the task can be selected via a drop-down button.
+In the list view, select the assignment in the selection field "Choose an assignment for editing".
 
-![Selecting the task via the drop-down button in the tile view of the portfolio folder](assets/course_element_portfolio_task_solve3c_var_de.png){ class="shadow lightbox" title="Tile view of a binder" }
+![List view in the tab "Entries" with the selection field "Choose an assignment for editing" in the section](assets/course_element_portfolio_task_solve3c_var_v2_en.png){ class="shadow lightbox" title="Portfolio binder, tab Entries · 2026.11.02" }
 
-**Step 3d:** Follow the instructions. The task can be designed very differently by course authors. In the following example, you can download a document and complete your answer.
+**Step 3d:** Follow the instructions. Authors design assignments very differently. In the following example, you can download a document and complete your answer.
 
-![Task description with attached document and the buttons "Add new layout" and "Reference content"](assets/course_element_portfolio_task_solve3d_de.png){ class="shadow lightbox" title="Entry with the assignment" }
+![Assignment with the attached document for download, below it the buttons "Add a new layout", "Link content" and "Import" for the answer](assets/course_element_portfolio_task_solve3d_v2_en.png){ class="shadow lightbox" title="Portfolio binder, entry of the assignment · 2026.11.02" }
 
-**Step 3e: Example with answer in a layout block** 
+#### Example: Answer in a layout block {: #answer_layout_block}
 
-Add a new layout element.
+In the following example, you answer the assignment in a layout block that you fill with your own content.
 
-![Selecting a layout for a new layout element in the portfolio entry](assets/course_element_portfolio_task_solve3e_de.png){ class="shadow lightbox" title="Layout selection in an entry" }
+**Step 3e:** With "Add a new layout" add a layout block and select the columns.
 
-
-**Step 3f: Example with answer in a layout block** 
-
-Add content elements to the layout fields.
-
-![Button "Add content" in the fields of an inserted layout block](assets/course_element_portfolio_task_solve3f_de.png){ class="shadow lightbox" title="Layout block in an entry" }
+![Button "Add a new layout" with the selection "Select a layout" for the columns of the new layout block](assets/course_element_portfolio_task_solve3e_v2_en.png){ class="shadow lightbox" title="Portfolio binder, entry of the assignment · 2026.11.02" }
 
 
-**Step 3g: Example with answer in a layout block** 
+**Step 3f:** With "Add content" insert content into the columns of the layout block.
 
-You can choose from various contents.
-
-![Selection of content elements in the "Add content" dialog](assets/course_element_portfolio_task_solve3g_de.png){ class="shadow lightbox" title="Dialog Add content" }
+![Inserted layout block with two columns, each with the button "Add content"](assets/course_element_portfolio_task_solve3f_v2_en.png){ class="shadow lightbox" title="Portfolio binder, entry of the assignment · 2026.11.02" }
 
 
-**Step 3h: Example with answer in a layout block** 
+**Step 3g:** In the dialog "Add content", select the suitable type of content.
 
-In the example shown below, the participant has opted for an answer in the form of a self-recorded video.
-
-![Option "Record video" in the Media Center for creating a video answer](assets/course_element_portfolio_task_solve3h_de.png){ class="shadow lightbox" title="Media Center in an entry" }
-
-**Step 3: Referencing example**
-
-If you have already created content elsewhere, you can also reference it (integrate it by linking).
-
-![Dialog "Reference content" for linking to an entry already created](assets/course_element_portfolio_task_solve3i_de.png){ class="shadow lightbox" title="Dialog Reference content" }
+![Dialog "Add content" with the content elements for text, media and design](assets/course_element_portfolio_task_solve3g_v2_en.png){ class="shadow lightbox" title="Portfolio binder, dialog Add content · 2026.11.02" }
 
 
-**Step 3: Form example**
+**Step 3h:** Here, the participant answers with a self-recorded video.
 
-If the portfolio task contains forms (prepared by the course author), these can be completed directly online. 
+![Dialog "Media Center" with "Choose video" and the open menu next to "Add video", where "Record video" lets you record your answer directly](assets/course_element_portfolio_task_solve3h_v2_en.png){ class="shadow lightbox" title="Media Center in an entry · 2026.11.02" }
 
-![Completed form as a task type in the portfolio entry](assets/course_element_portfolio_task_solve3j_de.png){ class="shadow lightbox" title="Form in an entry" }
+#### Example: Link content {: #reference_content}
 
-<br>
+If you have already created suitable content in another entry, reference it instead of creating it again. The entry then includes the content as a link. The button "Link content" is shown below the assignment as long as the entry has no content yet.
 
-**How do I keep track of the processing status?**
+![Dialog "Link content" with your previous entries, one of which you add to the empty entry with "Select"](assets/course_element_portfolio_task_solve3i_v2_en.png){ class="shadow lightbox" title="Dialog Link content · 2026.11.02" }
 
-In both the "Overview" tab and the "Entries" tab, the symbols and tags help you to keep track of the editing status of the individual entries.
 
-![Status and area icons with legend in the overview of the portfolio folder](assets/course_element_portfolio_task_solve3l_de.png){ class="shadow lightbox" title="Overview of a binder" }
+#### Example: Fill in a form {: #fill_in_form}
+
+If the portfolio task contains a form prepared by the author, fill it in directly in the entry. Click "Save" to keep your answers. The entry stays in the status "Draft" until you publish it.
+
+![Completed form in an entry of the type "Form", with one rating per statement, below it the button "Save"](assets/course_element_portfolio_task_solve3j_v2_en.png){ class="shadow lightbox" title="Form in an entry · 2026.11.02" }
+
+#### How do I keep track of the editing status? {: #editing_status}
+
+In both the "Overview" tab and the "Entries" tab, symbols and status show you how far you have got with the individual sections and entries.
+
+![Tab "Overview" of a binder with the section status "in progress" and "not started" and the status "Draft" of an entry, below it the legend of the icons](assets/course_element_portfolio_task_solve3l_v2_en.png){ class="shadow lightbox" title="Portfolio binder, tab Overview · 2026.11.02" }
 
 
 [To the top of the page ^](#course_element_portfolio)
 
 ---
 
-### Step 4: Publish portfolio  {: #publish} 
+### Step 4: Publish entry {: #publish}
 
-Once an edit has been completed, the entry must still be published. This makes the edit visible to other people who have access to the portfolio and feedback or comments are possible. As long as it has not yet been published, an entry has the status "Draft".
+Once an entry is finished, publish it with "Publish entry". Only then can the persons who have access to your binder see it and comment on it. Until then, the entry has the status "Draft".
 
-![Button "Publish entry" in the tab "Entries" of the portfolio entry](assets/course_element_portfolio_task_solve3k_de.png){ class="shadow lightbox" title="Entry before publishing" }
+![Entry with an answer in the status "Draft" and the button "Publish entry" next to the status](assets/course_element_portfolio_task_solve3k_v2_en.png){ class="shadow lightbox" title="Portfolio binder, entry before publishing · 2026.11.02" }
 
 !!! warning "Attention"
 
-    Once an entry has been published, it can no longer be changed, only commented on. Learners should therefore make sure that they only publish an entry or an edited task when it is completely finished!
+    You can no longer change a published entry; the persons with access can only comment on it. It only becomes editable again when a coach returns it to you with "Revision", see [Portfolio assignment: Grading](Portfolio_assignment_Grading.md#rework_request_rework). Therefore only publish an entry once it is finished.
 
 
 [To the top of the page ^](#course_element_portfolio)
 
 ---
 
-### Step 5: Assign access rights for the portfolio folder
+### Step 5: Assign access rights for the portfolio binder
 
-As a rule, portfolios created by participants should be assessed by coaches (teachers). For this purpose, these or other persons must be granted access rights. They can do this as the creator of the portfolio in 2 places:
+So that your coaches can assess your binder, give them an access right. The same applies to all other persons who are to see your binder. You assign access rights in two places:
 
+**A) Release of your portfolio binder in the course**
 
-**A) Release of your portfolio folder in the course**
+In the course element of the portfolio task, the section "Portfolio review" with the button "Add access rights" is at the bottom.
 
-If you have selected the course element with the portfolio task in the course, you will find the "Portfolio review" section at the bottom. There you will find the "Add access right" button.
-
-![Section "Portfolio review" with the menu "Add access right" in the course element Portfolio Task](assets/course_element_portfolio_task_give_access1_v1_de.png){ class="shadow lightbox" title="Section Portfolio review in the course" }
+![Section "Portfolio review" in the course element Portfolio Task with the open menu "Add access rights", from "Choose owner of course" to "Add invitation"](assets/course_element_portfolio_task_give_access1_v2_en.png){ class="shadow lightbox" title="Section Portfolio review in the course element Portfolio Task · 2026.11.02" }
 
 <br>
 
-**B) Release your portfolio folder in the folder settings**
+**B) Release your portfolio binder in the binder settings**
 
-Open the folder and select the "Sharing" tab. The "Add access right" button appears there.
+Open the binder and select the "Access control" tab. The "Add access rights" button appears there.
 
-![Menu "Add access right" in the tab "Sharing" of the portfolio folder](assets/course_element_portfolio_task_give_access2_v1_de.png){ class="shadow lightbox" title="Access control tab of a binder" }
+![Tab "Access control" of the portfolio folder with the open menu "Add access rights"](assets/course_element_portfolio_task_give_access2_v2_en.png){ class="shadow lightbox" title="Tab Access control of a binder · 2026.11.02" }
 
 <br>
 
 **Release to external users**
 
-To share with **external persons** (without a full OpenOlat account), select **"Add invitation"**. Invitations will then be sent by e-mail. External persons are released for a maximum of 180 days.
+To share with external persons without their own OpenOlat account, select "Add invitation". OpenOlat then sends an invitation by e-mail. External persons receive access for a maximum of 180 days.
 
 [To the top of the page ^](#course_element_portfolio)
 
@@ -263,18 +262,18 @@ To share with **external persons** (without a full OpenOlat account), select **"
 
 **The wizard for setting up the release**
 
-The configuration is carried out via a wizard. In the release dialog, you define,
+"Add access rights" guides you through a wizard. In it you define
 
-* to whom your portfolio should be released.
-* whether the persons are allowed to rate and/or comment, broken down by areas of your portfolio. External persons can only comment, but not rate.
-* whether an e-mail notification with a link to the corresponding folder should be sent.
+* to whom you release your binder.
+* whether the persons may comment, assess or both, separately for the sections of your binder. External persons can only comment, but not assess.
+* whether OpenOlat sends an e-mail with the link to the binder.
 
-![Step "Select user" in the wizard "Add access right"](assets/course_element_portfolio_task_give_access_wizard1_v1_de.png){ class="shadow lightbox" title="Wizard Add access right" }
+![First step "Choose a user" in the wizard "Add access rights" with the user search, followed by "Overview", "Access rights" and "Send mail"](assets/course_element_portfolio_task_give_access_wizard1_v2_en.png){ class="shadow lightbox" title="Wizard Add access rights · 2026.11.02" }
 
 
-!!! info "Note"
+!!! tip "Tip"
 
-    If you, as a course participant, set up the release for the coach at the beginning of your work, the coach can already see the development of the portfolio and accompany the ongoing process, provided that you, as a course participant, publish individual intermediate steps. However, it is then no longer possible to edit the solution!
+    If you set up the release for your coaches at the beginning of your work, they accompany your work from the start: the coaches see every entry you publish. However, you can only edit a published entry again once a coach requests a revision.
 
 
 [To the top of the page ^](#course_element_portfolio)
@@ -282,9 +281,9 @@ The configuration is carried out via a wizard. In the release dialog, you define
 ---
 
 
-## View Coach {: #view_coach}
+## Coach perspective {: #view_coach}
 
-You can find out how teachers can grade a portfolio assignment in the chapter "[Portfolio assignment: commenting and grading](../learningresources/Portfolio_assignment_Grading.md)".
+You can find out how coaches comment on and assess a portfolio task on the page [Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md).
 
 [To the top of the page ^](#course_element_portfolio)
 
@@ -295,26 +294,24 @@ You can find out how teachers can grade a portfolio assignment in the chapter "[
 
 **Mentioned on this page**<br>
 [Portfolio template: Creation >](Portfolio_template_Creation.md)<br>
+[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
+[Assessment >](Assessment.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
 [User tools >](../personal_menu/Personal_Tools.md)<br>
 [The Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.md)<br>
+[Portfolio template: Administration and editing >](Portfolio_template_Administration_and_editing.md)
+
+**Further reading**<br>
 [Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
 [Components of the portfolio >](../area_modules/Components_of_the_portfolio.md)<br>
 [My binders >](../area_modules/My_portfolio_binders.md)<br>
 [My entries >](../area_modules/My_entries.md)<br>
-[Portfolio template: Administration and editing >](Portfolio_template_Administration_and_editing.md)<br>
-[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Forms - Overview >](Form.md)<br>
 [Form in the Portfolio 2.0 template >](Forms_in_the_ePortfolio_template.md)<br>
-[The Form Editor >](Form_Editor.md)<br>
-[Form elements >](Form_Elements.md)
-
-!!! info "Note for authors"
-
-    If you use forms in the portfolio: <br>There is a form **learning resource** and a form **course element**. Please differentiate between the two. The concept behind this is explained in the instructions [How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md).<br>
-
-**Further reading**<br>
+[The form editor >](Form_Editor.md)<br>
+[Form elements >](Form_Elements.md)<br>
 [Badges >](OpenBadges.md)<br>
 [Access configuration >](Access_configuration.md)
 

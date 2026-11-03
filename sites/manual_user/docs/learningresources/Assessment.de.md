@@ -12,6 +12,48 @@ Alle Kursbausteine dieser Gruppe ausser Selbsttest, Übung und Umfrage haben den
 
 Zur Gruppe gehören auch die Kursbausteine "Umfrage" und "Formular". Mit ihnen binden Sie OpenOlat [Formulare](../learningresources/Form_Editor.de.md) für Befragungen und ähnliche Zwecke in einen Kurs ein.
 
+## Schreibschutz der Bewertungskonfiguration [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647){:target="_blank"} {: #assessment_config_read_only}
+
+Sobald für einen bewertbaren Kursbaustein Bewertungen vorhanden sind, zeigt OpenOlat im Kurseditor die Einstellungen schreibgeschützt an, die das Bewertungsergebnis verändern. Ein Schloss-Symbol vor der Beschriftung zeigt, welche Einstellungen das sind. Die übrigen Einstellungen im selben Tab bleiben bearbeitbar.
+
+Der Grund: Jede Änderung an den Bewertungsregeln löst beim Publizieren eine Neuberechnung aller bestehenden Bewertungen aus. Die Neuberechnung lässt sich nicht rückgängig machen. Der Schreibschutz stellt sicher, dass Sie diesen Eingriff bewusst auslösen.
+
+Als vorhanden gilt eine Bewertung, sobald mindestens eine Person für diesen Kursbaustein eine Punktzahl, einen Bestanden-Status oder eine Note hat. Ein Status allein genügt nicht: Hat eine Person den Kursbaustein nur gestartet, bleibt die Konfiguration bearbeitbar. Die Prüfung gilt je Kursbaustein. Bewertungen in einem anderen Kursbaustein des Kurses lösen den Schreibschutz nicht aus.
+
+Der Schreibschutz gilt in Lernpfadkursen und in herkömmlichen Kursen. Die Kursbausteine "Selbsttest" und "Fragebogen" kennen ihn nicht.
+
+### Schreibgeschützte Einstellungen bearbeiten {: #enable_edit_mode}
+
+Im schreibgeschützten Zustand steht unter der Legende "Konfiguration Bewertung" der Hinweis: "Da bereits **Bewertungen vorhanden** sind, werden bestimmte Einstellungen als **schreibgeschützt** angezeigt. Um Änderungen vorzunehmen, müssen Sie den Bearbeitungsmodus aktivieren - bei Änderungen werden alle vorhandenen Bewertungen neu berechnet."
+
+![Hinweis mit der Schaltfläche "Bearbeitungsmodus aktivieren" unter "Konfiguration Bewertung", davor ein Schloss an jeder schreibgeschützten Einstellung, "Bewertungsformular" ohne Schloss](assets/assessment_read_only_info_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration einer Checkliste mit vorhandenen Bewertungen · 2026.11.02" }
+
+Im Hinweis steht die Schaltfläche "Bearbeitungsmodus aktivieren" mit dem Symbol eines offenen Schlosses. Nach dem Klick sind die schreibgeschützten Einstellungen bearbeitbar, und an der Stelle des Hinweises steht die Warnung: "Sie bearbeiten derzeit die Konfiguration der Bewertung, obwohl bereits Bewertungen vorhanden sind. Wenn Sie die Änderungen speichern und veröffentlichen, werden alle vorhandenen Bewertungen **neu berechnet**. Dieser Vorgang kann **nicht rückgängig** gemacht werden."
+
+![Warnung zur Neuberechnung an der Stelle des Hinweises, die Einstellungen unter "Konfiguration Bewertung" ohne Schloss und bearbeitbar](assets/assessment_read_only_warning_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration einer Checkliste im Bearbeitungsmodus · 2026.11.02" }
+
+Sind noch keine Bewertungen vorhanden, erscheinen weder Hinweis noch Warnung. Der Tab ist dann direkt bearbeitbar.
+
+Der Bearbeitungsmodus gilt nur, solange Sie den Kursbaustein im Kurseditor bearbeiten. Öffnen Sie den Kursbaustein später wieder im Kurseditor, ist der Schreibschutz wieder aktiv. Eine Einstellung, die den Schreibschutz dauerhaft aufhebt, gibt es nicht.
+
+### Betroffene Kursbausteine {: #read_only_course_elements}
+
+Die bewertbaren Kursbausteine gliedern ihre Bewertungsregeln gleich: Oben stehen unter der Legende "Konfiguration Bewertung" der Hinweis und die Einstellungen, die der Schreibschutz erfasst. Darunter stehen unter "Bewertungsformular" die Einstellungen "Individueller Kommentar" und "Individuelle Bewertungsdokumente", die bearbeitbar bleiben. Die Tabelle zeigt, in welchem Tab Sie den Schreibschutz antreffen und was er erfasst.
+
+Kursbaustein | Tab | Schreibgeschützt | Bleibt bearbeitbar
+---------|----------|----------|----------
+[Test](Course_Element_Test.de.md#tab_configuration) | "Test-Konfiguration" | "Bewertung mit Einstufung/Noten" samt Bewertungsskala, "Bei Kurs-Bewertung berücksichtigen" | alle übrigen Einstellungen, zum Beispiel "Testzeitraum festlegen", "Korrektur" und "Report"
+[SCORM 1.2](Course_Element_SCORM_Learning_Content.de.md#editor_tab_learning_content) | "Lerninhalt" | die Einstellungen unter "Konfiguration Bewertung", zum Beispiel "Resultat aus SCORM übertragen", "Maximal erreichbare Punkte", "Notwendige Punktzahl für 'bestanden'" und "Bei Kurs-Bewertung berücksichtigen" | "Reduzieren von Punkten bei erneutem Versuch verhindern", "Lösungsversuche nur zählen, wenn Punkte übertragen werden", "Maximale Anzahl Lösungsversuche", die Bereiche "SCORM" und "Einstellungen"
+[Aufgabe](Course_Element_Task.de.md#grading) | "Bewertung" | "Rubrik-Bewertung", Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
+[Gruppenaufgabe](Course_Element_Grouptask.de.md#tab_assessment) | "Bewertung" | Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
+[Videoaufgabe](Course_Element_Video_Task.de.md#tab_assessment) | "Bewertung" | alle Einstellungen unter "Konfiguration Bewertung", darunter Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
+[Portfolioaufgabe](Course_Element_Portfolio_Task.de.md#tab_assessment) | "Bewertung" | Punkte, Einstufung/Noten, Bestanden/Nicht bestanden, "Bei Kurs-Bewertung berücksichtigen" | "Bewertungsformular"
+[Bewertung](Course_Element_Assessment.de.md#tab_assessment) | "Bewertung" | "Rubrik-Bewertung", "Punkte vergeben", "Bewertung mit Einstufung/Noten", "Bestanden/Nicht bestanden ausgeben", "Bei Kurs-Bewertung berücksichtigen" | "Status "Korrigieren" setzen, wenn Zugriff gewährt", "Bewertungsformular"
+[Checkliste](Course_Element_Checklist.de.md#tab_configuration) | "Konfiguration" | Punkte, Einstufung/Noten, Bestanden/Nicht bestanden samt "Art der Ausgabe" und Schwellen, "Bei Kurs-Bewertung berücksichtigen" | "Konfiguration der Checkliste" mit dem Abgabedatum, "Bewertungsformular"
+[Struktur](Course_Element_Structure.de.md#score), nur im herkömmlichen Kurs | "Punkte" | die ganze Legende "Zusammengefasste Bewertung" | keine
+
+Einstellungen, die ohnehin nicht bearbeitbar sind, bleiben es auch im Bearbeitungsmodus, zum Beispiel "Minimal erreichbare Punkte" bei der Videoaufgabe.
+
 ## Kursbaustein "Bewertung" {: #course_element_assessment}
 :fontawesome-regular-thumbs-up:
 
@@ -120,9 +162,9 @@ Eine komplexere Alternative zum Selbsttest ist der Kursbaustein "Übung".
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank"}
 
-Der Kursbaustein mit Lernkarten-Logik dient der individuellen Selbstüberprüfung der Teilnehmenden. Dafür kombiniert die Lehrperson mehrere OpenOlat Tests oder Fragen-Sets aus dem Fragenpool, die die Teilnehmenden selbständig in Serien und Challenges bearbeiten. Die Anzahl der Fragen pro Übungsserie lässt sich genau wie die Anzahl der Challenges festlegen. Umfasst eine Serie beispielsweise 10 Fragen, werden 10 Fragen eingeblendet. Danach entscheiden Teilnehmende, ob sie falsch beantwortete Fragen nochmals beantworten oder überspringen. Die Anzahl der Level spiegelt die Intensität der Übung wider und gibt an, wie häufig eine Frage wiederholt korrekt beantwortet werden muss.
+Der Kursbaustein mit Lernkarten-Logik dient der individuellen Selbstüberprüfung der Teilnehmenden. Dafür kombiniert die Lehrperson mehrere OpenOlat Tests oder Fragen-Sets aus dem Fragenpool, die die Teilnehmenden selbständig in Serien und Challenges bearbeiten. Die Anzahl der Fragen pro Übungsserie lässt sich genau wie die Anzahl der Challenges festlegen. Umfasst eine Serie zum Beispiel 10 Fragen, zeigt OpenOlat 10 Fragen an. Danach entscheiden Teilnehmende, ob sie falsch beantwortete Fragen nochmals beantworten oder überspringen. Die Anzahl der Level spiegelt die Intensität der Übung wider und gibt an, wie häufig eine Frage wiederholt korrekt beantwortet werden muss.
 
-![Übungsserie mit Challenge, individuelles Üben nach Fachbereich, persönliche Statistik und Lernstand pro Level](assets/KB_Uebung_de.png){ class="shadow lightbox" title="Kursbaustein Übung aus Sicht der Teilnehmenden" }
+![Übungsserie mit dem Stand der aktuellen Challenge, die Übungsmodi unter Individuelles Üben, die Fragen nach Fachbereich, die persönliche Statistik und der Lernstand pro Level](assets/assessment_practice_participant_v1_de.png){ class="shadow lightbox" title="Kursbaustein Übung aus Sicht der Teilnehmenden · 2026.11.02" }
 
 Neben der "Übungsserie", die OpenOlat nach den Einstellungen der Lehrperson zusammenstellt, wählen Teilnehmende unter "Individuelles Üben" einen eigenen Übungsmodus: "Neue Fragen" übt Fragen, die sie noch nie beantwortet haben, "Meine Fehler" übt falsch beantwortete Fragen, und unter "Eigene Serie" stellen sie Fragen selbst zusammen, zum Beispiel gefiltert nach Level oder Fachbereich. Im Bereich "Nach Fachbereich" üben sie Fragen aus einem bestimmten Fachbereich.
 
@@ -132,19 +174,21 @@ Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillie
 
     Für diesen Kursbaustein können nur automatisch auswertbare Testfragen verwendet werden.
 
-## Kursbaustein "Videoaufgabe" [:octicons-tag-16:{ title="ab Release 17.2 (OO-6643)" }](https://track.frentix.com/issue/OO-6643)
+## Kursbaustein "Videoaufgabe" [:octicons-tag-16:{ title="ab Release 17.2 (OO-6643)" }](https://track.frentix.com/issue/OO-6643) {: #course_element_video_task}
 
 Mit dem Kursbaustein "Videoaufgabe" verwenden Sie Lernressourcen "Video" für interaktive Übungen (formativ) oder für Aufgaben mit Bewertung (summativ). Teilnehmende erkennen im Video relevante Situationen und ordnen ihnen Begriffe zu. Die Abschnitte im Video (Segmente) und die Begriffe legen Sie in der Lernressource "Video" fest. Zur Wahl stehen die Modi "Übung: Begriffe zuordnen", "Übung: Situationen erkennen" und "Test: Situationen erkennen". Bewertbar ist nur der Test.
+
+Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Videoaufgabe"](Course_Element_Video_Task.de.md).
 
 ## Kursbaustein "Formular" [:octicons-tag-16:{ title="ab Release 15.5 (OO-5338)" }](https://track.frentix.com/issue/OO-5338) {: #course_element_form}
 
 ![Symbol Kursbaustein Formular](assets/Forular_icon.png)
 
-Mit dem Kursbaustein "Formular" fügen Sie einem Kurs eine Lernressource "Formular" hinzu. Das Formular funktioniert ähnlich wie der Kursbaustein "Umfrage". Teilnehmende füllen es einmal aus, mit der Option "Mehrfaches Ausfüllen des Formulars" auch mehrmals. Anders als bei der Umfrage sind die Antworten nicht anonym: Betreuende sehen, wer das Formular wie ausgefüllt hat.
+Mit dem Kursbaustein "Formular" fügen Sie einem Kurs eine Lernressource "Formular" hinzu. Das Formular funktioniert ähnlich wie der Kursbaustein "Umfrage". Teilnehmende füllen es einmal aus, mit der Option "Mehrfaches Ausfüllen des Formulars" auch mehrmals. Anders als bei der Umfrage sind die Antworten nicht anonym: Betreuer:innen sehen, wer das Formular wie ausgefüllt hat.
 
 Im Tab "Formular" legen Sie unter "Teilnahme bis ..." einen Abgabetermin fest. Ergänzend können Sie eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) verknüpfen. Ist die Option "E-Mail Bestätigung" für Teilnehmende gewählt, erhalten sie nach der Abgabe eine Bestätigung mit Datum und Uhrzeit sowie ihrem ausgefüllten Formular als PDF. Die Bestätigung lässt sich auch an Besitzer:innen, Betreuer:innen und externe E-Mail-Adressen senden.
 
-Betreuende sehen im Kurs in einer Übersichtstabelle, welche Teilnehmenden das Formular schon ausgefüllt haben und welche nicht. Ein abgegebenes Formular öffnen sie mit "Wieder öffnen" zur weiteren Bearbeitung oder setzen es mit "Daten zurücksetzen" ganz zurück. Ein Klick auf eine teilnehmende Person zeigt ihr ausgefülltes Formular. Die Formulardaten aller Teilnehmenden stehen als Excel-Export zur Verfügung.
+Betreuer:innen sehen im Kurs in einer Übersichtstabelle, welche Teilnehmenden das Formular schon ausgefüllt haben und welche nicht. Ein abgegebenes Formular öffnen sie mit "Wieder öffnen" zur weiteren Bearbeitung oder setzen es mit "Daten zurücksetzen" ganz zurück. Ein Klick auf eine teilnehmende Person zeigt ihr ausgefülltes Formular. Die Formulardaten aller Teilnehmenden stehen als Excel-Export zur Verfügung.
 
 Der Kursbaustein hilft zum Beispiel, wenn Teilnehmende bestimmte Formulare verpflichtend ausfüllen müssen, etwa vor einem Laborpraktikum oder als Bestätigung, dass sie eine Leistung eigenständig erbracht haben.
 
@@ -181,25 +225,15 @@ Alle Einstellungen des Kursbausteins beschreibt die Seite [Kursbaustein "Checkli
 
 ## Rangliste [:octicons-tag-16:{ title="ab Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
 
-Vergeben Sie in einem Kursbaustein Punkte, können Sie den Teilnehmenden eine Rangliste anzeigen. Die Rangliste ermöglicht einen spielerischen Vergleich der Teilnehmenden und kann als Motivationsfaktor verstanden werden.
+Vergeben Sie in einem Kursbaustein Punkte, können Sie den Teilnehmenden eine Rangliste anzeigen. Die Rangliste ermöglicht einen spielerischen Vergleich und kann die Teilnehmenden motivieren.
 
-Eingerichtet wird die Rangliste im Tab "HighScore". Über diesen Tab verfügen alle bewertbaren Kursbausteine mit Ausnahme der Kursbausteine Übung und Videoaufgabe, zusätzlich der Kursbaustein "Struktur". Voraussetzung
-für die Nutzung des Tabs "HighScore" ist, dass für den gewählten Baustein
-(z.B. Test, Aufgabe, Bewertung) Punkte vergeben werden.
+Die Rangliste richten Sie im Tab "HighScore" ein. Den Tab haben alle bewertbaren Kursbausteine ausser Übung und Videoaufgabe, dazu der Kursbaustein "Struktur". Voraussetzung ist, dass der Kursbaustein Punkte vergibt, zum Beispiel ein Test, eine Aufgabe oder eine Bewertung.
 
-Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein
-Anfangsdatum hinzugefügt werden. Ab diesem Datum wird die Rangliste angezeigt.
-Andernfalls wird die Rangliste direkt nach Beenden des Tests angezeigt.
-Mit "Daten der Benutzer:innen anonymisieren" zeigt die Rangliste die Personen anonymisiert statt mit Vor- und Nachnamen. Im nächsten Abschnitt können Sie
-wählen, welche Elemente der Rangliste angezeigt werden sollen. Zur Auswahl
-stehen der Gratulationstitel, das Siegertreppchen, das Histogramm und die Liste
-der besten Teilnehmer:innen. Bei der Liste kann zudem definiert werden, ob alle
-Teilnehmenden oder nur eine gewisse Anzahl der besten Teilnehmenden angezeigt werden
-soll. Mindestens eine dieser Optionen muss ausgewählt werden.
+Schalten Sie zuerst "Highscore anzeigen" ein. Unter "Anfangsdatum (optional)" legen Sie fest, ab wann OpenOlat die Rangliste zeigt. Ohne Anfangsdatum zeigt OpenOlat die Rangliste direkt nach Beenden des Tests. Mit "Daten der Benutzer:innen anonymisieren" zeigt die Rangliste die Personen anonymisiert statt mit Vor- und Nachnamen.
 
+Danach wählen Sie, welche Elemente die Rangliste zeigt: "Gratulationstitel", "Siegertreppchen", "Histogramm" und "Liste der besten Teilnehmer:innen". Bei der Liste legen Sie fest, ob sie alle Teilnehmenden oder nur eine bestimmte Anzahl der besten zeigt. Mindestens eine dieser Optionen muss gewählt sein.
 
-
-![Gratulationstitel, Siegertreppchen, Punktehistogramm und Liste der besten Teilnehmer:innen](assets/Highscore.png){ class="shadow lightbox" title="Rangliste eines Kursbausteins" }
+![Gratulationstitel, Siegertreppchen, Punktehistogramm und Liste der besten Teilnehmer:innen](assets/assessment_highscore_v1_de.png){ class="shadow lightbox" title="Rangliste eines Kursbausteins aus Sicht der Teilnehmenden · 2026.11.02" }
 
 ---
 
@@ -213,19 +247,21 @@ soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Der Formulareditor >](Form_Editor.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
+[Kursbaustein "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.de.md)<br>
+[Kursbaustein "Gruppenaufgabe" >](Course_Element_Grouptask.de.md)<br>
+[Kursbaustein "Videoaufgabe" >](Course_Element_Video_Task.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](Course_Element_Portfolio_Task.de.md)<br>
+[Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>
 [Portfolioaufgabe: abholen und bearbeiten >](Portfolio_task_and_assignment_Collecting_and_editing.de.md)<br>
 [Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
 [Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
-[Kursbaustein "Portfolioaufgabe" >](Course_Element_Portfolio_Task.de.md)<br>
-[Kursbaustein "Gruppenaufgabe" >](Course_Element_Grouptask.de.md)<br>
 [Test Fragetypen >](Test_question_types.de.md)<br>
 [Tests erstellen >](Test.de.md)<br>
 [Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
-[Kursbaustein "Test" >](Course_Element_Test.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
-[Formulare - Übersicht >](Form.de.md)<br>
-[Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)
+[Formulare - Übersicht >](Form.de.md)
 
 **Weiterführend**<br>
 [Kursbausteine >](Course_Elements.de.md)<br>
