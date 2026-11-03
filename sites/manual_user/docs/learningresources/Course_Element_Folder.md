@@ -12,8 +12,7 @@ Assessable | no
 Specialty / Note | A similar course element is the course element "Participant folder".
 
 
-In the course element "Folder" you can offer files to be downloaded. Often folders are used to provide course participants with scripts or slides regarding your course. 
-The "folder" can also be configured as a collaborative tool for learners to upload files.
+With the course element "Folder" you provide the participants of your course with files to download, for example slides or scripts. If the participants also get the right to upload, you collect files from all course members in the same folder.
 
 ---
 
@@ -24,36 +23,34 @@ The "folder" can also be configured as a collaborative tool for learners to uplo
 
 === "Learning path tab with fixed times"
 
-    ![Release date and Due date with fixed date and time fields, completion criterion Visit course element](assets/course_element_folder_tab_learning_path_v1_de.png){ class="shadow lightbox" title="Learning path tab with fixed times in the course editor" }
+    ![Release date and Due date with fixed date and time fields, completion criterion Visit course element](assets/course_element_folder_tab_learning_path_v1_en.png){ class="shadow lightbox" title="Learning path tab with fixed times in the course editor · 2026.11.03" }
 
 
 === "Learning path tab with relative times"
 
-    ![Relative dates enabled, Release date and Due date set as days after the first course visit of the participant](assets/course_element_folder_tab_learning_path_relativ_v1_de.png){ class="shadow lightbox" title="Learning path tab with relative times in the course editor" }
+    ![Relative dates enabled, Release date and Due date set as days after First course launch](assets/course_element_folder_tab_learning_path_relativ_v1_en.png){ class="shadow lightbox" title="Learning path tab with relative times in the course editor · 2026.11.03" }
 
 
 #### Execution {: #execution}
 
-As with other course elements, you can specify that a "folder" must be opened at least once for it to be considered "completed". 
-As a voluntary course element, it does not count towards the calculation of learning progress.
-If it is excluded, it will not appear in the menu unless you specify that certain course members are to see this course element in the course menu when exceptions are activated.
+With "Execution" you define the role the folder plays in the learning path. If it is "Mandatory", participants must open it at least once for it to be considered "completed". A folder set to "Optional" does not count towards the calculation of learning progress. A folder set to "Excluded" does not appear in the course menu, unless you switch on the exceptions and define which course members still see it.
 
 #### Relative dates {: #relative_date}
 
-This entry refers to the two following entries. If no relative date is required, fixed dates can (optionally) be entered for "Release date" and "Due date". If relative dates are required, reference points such as "x days after first course visit" can be selected instead of fixed dates.
+With "Relative dates" you choose how you specify "Release date" and "Due date". Without relative dates, you enter fixed dates if needed. With relative dates, you choose a reference point instead of fixed dates, for example a number of days after the first course launch of the participants.
 
 #### Release date {: #release_date}
 
-The course element is visible but not accessible before the release date. It can be opened and worked in from the specified date. If no entry is made, the folder remains permanently available from the release date, provided you have access to the course.
+Before the release date, participants see the folder but cannot open it. From the specified date, they open it and work in it. Without an entry, the folder is accessible without time restriction, provided you have access to the course.
 
 #### Due date {: #due_date}
 
-The course element can be opened and edited up to the specified date. 
-If no entry is made, the folder remains permanently available from the release date, provided you have access to the course.
+Participants can open and edit the folder up to the specified date.
+Without an entry, the folder remains permanently available from the release date, provided you have access to the course.
 
 #### Learning time {: #learning_time}
 
-Here you can enter how long authors estimate the learning time for the course element. The learning time specified here is independent of how much time is actually required. However, the estimated time can be used to calculate the learning progress.
+Here you enter how many minutes, by your estimate, participants need for the course element. The entry is independent of how much time participants actually spend. The estimated time can be included in the calculation of learning progress.
 
 #### Completion criterion {: #completion_criterion}
 
@@ -64,49 +61,51 @@ Here you determine how the course element is marked as "completed" in the course
 
 ### Tab folder configuration {: #tab_folder_config}
 
-![Sections Select folder, Transfer files and User rights, numbered 1 to 3; storage location automatically generated, full access enabled for coaches, not for participants](assets/course_element_folder_tab_folder_config_v1_de.png){ class="shadow lightbox" title="Folder configuration tab in the course editor" }
+![Folder configuration tab with the sections Select folder, Transfer files and User rights; button Open folder, full access enabled for coaches](assets/course_element_folder_tab_folder_config_v2_en.png){ class="shadow lightbox" title="Folder configuration tab in the course editor · 2026.11.03" }
 
 #### Select folder {: #select_folder}
 
-In the tab "Folder configuration" of the course element you define *where* exactly the files of this folder should be stored in the storage folder of the course. For this, OpenOlat can either generate a new folder automatically, or you select an existing folder in the storage folder of the course.
+In the tab "Folder configuration" you define under "File destination" *where* the files of this folder are stored in the storage folder of the course. OpenOlat either creates a new folder automatically, or you select an existing folder in the storage folder of the course.
 
-If the option "Automatically generated folder" is selected, OpenOlat creates the subfolder "_courselementdata" in the storage folder of the course, including a subfolder with the name of the respective course element "folder" along the navigation structure. All files of the course element are now saved here. You open the storage folder via `Course > Administration > Files > Storage folder`.
+With the option "Automatically generated folder", OpenOlat creates the subfolder "_courseelementdata" in the storage folder of the course and in it a subfolder with the name of the course element, along the course structure. OpenOlat saves all files of the course element there. You open the storage folder via `Course > Administration > Files > Storage folder`.
 
-If you select "Choose folder from course storage", you can select an existing folder from the storage folder of the course. This is especially useful if you have already uploaded the files you want to make available in a structured way in the storage folder of the course. Alternatively, you can also create a new folder in the storage folder. If a resource folder is linked to the course in the [Course settings](../learningresources/Course_Settings.md), this can also be selected. In this case, select "_sharedfolder" from the folders displayed in the storage folder.
+With the option "Choose folder from course storage", you select an existing folder from the storage folder of the course. This is worthwhile if you have already uploaded the files to the storage folder in an orderly structure. At this point you can also create a new folder in the storage folder. If a resource folder is linked to the course in the [Course settings](../learningresources/Course_Settings.md), you also select it here: it appears among the folders of the storage folder as "_sharedfolder".
 
 #### Transfer files {: #transfer_files}
 
-Once you have selected the specific storage location, you can upload or create your files using the "Open folder" button in the "Transfer files" area. 
+As soon as the storage location is selected, you upload your files or create new ones using the "Open folder" button in the "Transfer files" area.
 
-![Expanded Upload files menu with five options from Add from file hub to Record audio](assets/KB_Ordner_Datei_upload.png){ class="shadow lightbox" title="Preview of the folder course element" }
+![Marked menu at the arrow next to Upload files with Create folder, Add files, Create document, Create Word, Excel and PowerPoint as well as Record video and Record audio](assets/course_element_folder_upload_menu_v1_en.png){ class="shadow lightbox" title="Preview of the folder course element in the course editor · 2026.11.03" }
 
-Access to this file area is also possible when the course editor is closed (see below).
+You also work on the same files when the course editor is closed (see [View with closed course editor](#view_with_editor_closed)).
 
 #### User rights {: #user_rights}
 
-Under "User rights" you can define who can upload and create files in the course element folder. By default, coaches are allowed to upload files in addition to the owners, but not the participants.
+Under "User rights" you define who may upload and create files in the folder. By default, the coaches have "Full access" in addition to the owners, the participants do not.
 
-The extended configuration can also be used to define the provision of files for specific groups, e.g. for assistants or support staff, or for individual persons only. 
+With "Show advanced configuration" you also grant the right to specific groups or to individual persons.
 
 ---
 
 
 ## View with closed course editor [:octicons-tag-16:{ title="from Release 19.0 (OO-7490)" }](https://track.frentix.com/issue/OO-7490) {: #view_with_editor_closed}
 
-![File list with actions like Download and Zip, columns for file status and license](assets/Kursbasutein_Ordner_191a.jpg){ class="shadow lightbox" title="Folder course element with closed course editor" }
+![File list with one selected file and the actions Download, Zip, Copy to, Move to, Send e-mail and Delete](assets/course_element_folder_view_editor_closed_v1_en.png){ class="shadow lightbox" title="Folder course element with closed course editor · 2026.11.03" }
 
-The following options are available to course owners and persons with the appropriate authorization:
+Even with the course editor closed, you work directly with the files of the folder in the course. The following options are available to course owners and persons with the appropriate authorization:
 
 
 ### Add files
 
-**Upload files:** Select a file from your hard disk. Click on the small down arrow to see additional options (see screenshot "Upload files"):
-
- * **Add from file hub:** Access the [File Hub](../personal_menu/File_Hub.md) and your folders and files. You can also access your [Media Center](../personal_menu/Media_Center.md) and upload files directly to the File Hub.
-
-* **Create Document:** Depending on the editors activated (e.g. Word, Excel, PowerPoint, diagrams, whiteboard, text, HTML, CSS, XML), you can create new documents here and add a description, license and other metadata to them.
+**Upload files:** Select a file from your hard disk. Click on the small arrow next to "Upload files" to see further options (see image in the section [Transfer files](#transfer_files)):
 
 * **Create folder:** Creates a new subfolder in the course element.
+
+* **Add files:** Access the [File Hub](../personal_menu/File_Hub.md) and your folders and files. You can also access your [Media Center](../personal_menu/Media_Center.md) and upload files directly to the File Hub.
+
+* **Create document:** Depending on the editors activated (e.g. Word, Excel, PowerPoint, diagrams, whiteboard, text, HTML, CSS, XML), you can create new documents here and add a description, license and other metadata to them.
+
+* **Create Word, Create Excel, Create PowerPoint:** Creates an empty document in the selected format in the folder and opens it in the editor in a new window. The entries only appear if an editor is enabled for the format.
 
 * **Record video:** Record a video with your webcam.
 
@@ -117,19 +116,18 @@ The following options are available to course owners and persons with the approp
 
 ## Further options and adjustments to the course element {: #further_options}
 
-Users can subscribe to changes in the folder. The view can also be customized by switching between the visual tile view and the detailed table view. In the table view, the displayed columns can be selected to show more details than in the tile view. The search function makes it possible to find files quickly. Deleted documents are moved to the "trash can".
+Anyone who wants to be informed about new files in the folder subscribes to the changes in the folder. You adjust the view by switching between the tile view and the table view. In the table view, you select the displayed columns and thus see more details than in the tile view. With the search you find files quickly. OpenOlat moves deleted files to the "Trash".
 
-You can display the [WebDAV link](../basic_concepts/Using_WebDAV.md) and update metadata in the 3-dot menu of the course element. 
-
+In the 3-dot menu of the course element, you display the [WebDAV link](../basic_concepts/Using_WebDAV.md) and select "Update metadata".
 
 
 ### Metadata  {: #metadata}
 
-Course owners can edit the specific [metadata](../basic_concepts/Search_General.md#metadata) of a file via the 3-dot menu of a specific file. 
+With the [metadata](../basic_concepts/Search_General.md#metadata) you describe a file in more detail. Course owners edit it via the 3-dot menu of the file.
 
-In addition to the description and lock properties, the license information is particularly relevant. You can use the license information to define a specific license for the document, for example, use one of the existing Creative Commons licenses, enter the licensor, and leave additional information about the publisher, source, publication date, and so on. The license is displayed in a separate column in the folder module. By clicking on the license, the user receives the stored information on the respective license.
+In addition to the description and the lock, the license information is particularly important. There you define a license for the document, for example one of the Creative Commons licenses, enter the licensor and add information about the publisher, the source or the publication date. The folder shows the license in a separate column. A click on the license shows the stored information.
 
-The metadata also shows how often a file was called up. There is also a link with which you can directly link the respective file. Whether external persons can also access the file depends on the access settings of the course.
+The field "Number of views" in the metadata shows how often a file was downloaded. What exactly counts is described under [Metadata](../basic_concepts/Search_General.md#metadata). There is also a link with which you can directly link the respective file. Whether external persons can also access the file depends on the access settings of the course.
 
 ### Edit files [:octicons-tag-16:{ title="from Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}
 

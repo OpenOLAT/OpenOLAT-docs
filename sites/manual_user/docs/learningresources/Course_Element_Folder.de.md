@@ -12,7 +12,7 @@ Bewertbar | nein
 Spezialität / Hinweis | Ein ähnlicher Kursbaustein ist der Kursbaustein "Teilnehmer:innen Ordner". 
 
 
-Der Kursbaustein "Ordner" ermöglicht es Lehrenden, Dateien zum Download bereitzustellen. Häufig werden hier Kursmaterialien wie Folien oder Skripte hinterlegt. Der "Ordner" kann aber auch als kollaboratives Werkzeug für den Dateiupload durch Lernende konfiguriert werden.
+Mit dem Kursbaustein "Ordner" stellen Sie den Teilnehmenden Ihres Kurses Dateien zum Herunterladen bereit, zum Beispiel Folien oder Skripte. Erhalten auch die Teilnehmenden das Recht zum Hochladen, sammeln Sie im selben Ordner Dateien aller Kursmitglieder.
 
 ---
 
@@ -32,26 +32,24 @@ Der Kursbaustein "Ordner" ermöglicht es Lehrenden, Dateien zum Download bereitz
 
 #### Durchführung {: #execution}
 
-Wie bei anderen Kursbausteinen auch, kann für einen "Ordner" bestimmt werden, dass er obligatorisch mindestens einmal geöffnet werden muss, damit er als "erledigt" gilt. 
-Als freiwilliger Kursbaustein zählt er nicht bei der Berechnung des Lernfortschritts mit.
-Wird er ausgenommen, erscheint er nicht im Menü, es sei denn, dass bei eingeschalteten Ausnahmen bestimmt wird, dass bestimmte Kursmitglieder diesen Kursbaustein im Kursmenü angezeigt bekommen.
+Mit "Durchführung" legen Sie fest, welche Rolle der Ordner im Lernpfad spielt. Ist er "Obligatorisch", müssen die Teilnehmenden ihn mindestens einmal öffnen, damit er als "erledigt" gilt. Ein "Freiwillig" gesetzter Ordner zählt bei der Berechnung des Lernfortschritts nicht mit. Ein "Ausgenommen" gesetzter Ordner erscheint nicht im Kursmenü, ausser Sie schalten die Ausnahmen ein und bestimmen, welche Kursmitglieder ihn trotzdem sehen.
 
 #### Relatives Datum {: #relative_date}
 
-Diese Angabe bezieht sich auf die beiden folgenden Angaben. Wird kein relatives Datum gewünscht, können (optional) für "Freigabedatum" und "Zu bearbeiten bis" fixe Zeitpunkte eingegeben werden. Werden relative Daten gewünscht, können statt fixen Daten Bezugspunkte wie "x Tage nach erstem Kursbesuch" ausgewählt werden.
+Mit "Relatives Datum" wählen Sie, wie Sie "Freigabedatum" und "Zu bearbeiten bis" angeben. Ohne relatives Datum tragen Sie bei Bedarf feste Zeitpunkte ein. Mit relativem Datum wählen Sie statt fester Zeitpunkte einen Bezugspunkt, zum Beispiel eine Anzahl Tage nach dem ersten Kursbesuch der Teilnehmenden.
 
 #### Freigabedatum {: #release_date}
 
-Der Kursbaustein ist vor dem Freigabedatum zwar sichtbar, aber nicht zugänglich. Ab dem angegebenen Zeitpunkt ist das Öffnen und Arbeiten darin möglich. Wird keine Angabe gemacht, bleibt der Ordner ab dem Freigabedatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
+Vor dem Freigabedatum sehen die Teilnehmenden den Ordner, können ihn aber nicht öffnen. Ab dem angegebenen Zeitpunkt öffnen sie ihn und arbeiten darin. Ohne Angabe ist der Ordner ohne zeitliche Einschränkung zugänglich, sofern man Zutritt zum Kurs hat.
 
 #### Zu bearbeiten bis {: #due_date}
 
-Der Baustein kann bis zum angegebenen Zeitpunkt geöffnet und bearbeitet werden. 
-Wird keine Angabe gemacht, bleibt der Ordner ab dem Freigabedatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat. 
+Bis zum angegebenen Zeitpunkt können die Teilnehmenden den Ordner öffnen und bearbeiten.
+Ohne Angabe bleibt der Ordner ab dem Freigabedatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
 
 #### Bearbeitungszeit {: #learning_time}
 
-Hier kann eingetragen werden, wie lange Autor:innen die Bearbeitungszeit für den Kursbaustein einschätzen. Die hier angegebene Bearbeitungszeit ist unabhängig davon, wie viel Zeit wirklich benötigt wird. Die geschätzte Zeitangabe kann jedoch für die Berechnung des Lernfortschritts verwendet werden.
+Hier tragen Sie ein, wie viele Minuten die Teilnehmenden nach Ihrer Schätzung für den Kursbaustein brauchen. Die Angabe ist unabhängig davon, wie viel Zeit die Teilnehmenden tatsächlich aufwenden. Die geschätzte Zeit kann in die Berechnung des Lernfortschritts einfliessen.
 
 #### Erledigungskriterium {: #completion_criterion}
 
@@ -61,47 +59,49 @@ Hier bestimmen Sie, wodurch der Kursbaustein im Kursmenü als "erledigt" markier
 
 ### Tab Ordnerkonfiguration {: #tab_folder_config}
 
-![Abschnitte Ordner wählen, Dateien hochladen und Berechtigungen, mit 1 bis 3 nummeriert; Ablageort automatisch generiert, Vollzugriff für Betreuer:innen aktiv, für Teilnehmer:innen nicht](assets/course_element_folder_tab_folder_config_v1_de.png){ class="shadow lightbox" title="Tab Ordnerkonfiguration im Kurseditor" }
+![Tab Ordnerkonfiguration mit den Abschnitten Ordner wählen, Dateien hochladen und Berechtigungen; Button Ordner verwalten, Vollzugriff für Betreuer:innen eingeschaltet](assets/course_element_folder_tab_folder_config_v2_de.png){ class="shadow lightbox" title="Tab Ordnerkonfiguration im Kurseditor · 2026.11.03" }
 
 #### Ordner wählen {: #select_folder}
 
-Im Tab "Ordnerkonfiguration" legen Sie fest, *wo* die Dateien dieses Ordners im Ablageordner des Kurses gespeichert werden sollen. OpenOlat kann dafür entweder automatisch einen neuen Ordner erstellen, oder Sie wählen einen bereits vorhandenen Ordner im Ablagebereich des Kurses aus.
+Im Tab "Ordnerkonfiguration" legen Sie unter "Ablageort" fest, *wo* die Dateien dieses Ordners im Ablageordner des Kurses liegen. OpenOlat erstellt dafür entweder automatisch einen neuen Ordner, oder Sie wählen einen vorhandenen Ordner im Ablageordner des Kurses.
 
-Wird die Option "Automatisch generierter Ordner" gewählt, legt OpenOlat im Ablageordner des Kurses den Unterordner "_courselementdata" an inklusive eines Unterordners mit dem Namen des jeweiligen Kursbaustein "Ordners" entlang der Navigationsstruktur. Alle Dateien des Kursbausteins werden nun hier gespeichert. Den Ablageordner öffnen Sie über `Kurs > Administration > Dateien > Ablageordner`.
+Mit der Option "Automatisch generierter Ordner" legt OpenOlat im Ablageordner des Kurses den Unterordner "_courseelementdata" an und darin einen Unterordner mit dem Namen des Kursbausteins, entlang der Kursstruktur. Dort speichert OpenOlat alle Dateien des Kursbausteins. Den Ablageordner öffnen Sie über `Kurs > Administration > Dateien > Ablageordner`.
 
-Wählt man "Ordner aus Ablageordner des Kurses verwenden" kann ein bereits existierender Ordner aus dem Ablageordner des Kurses ausgewählt werden. Das bietet sich besonders an, wenn Sie die Dateien, die Sie bereitstellen wollen, bereits sinnvoll im Ablageordner des Kurses strukturiert hochgeladen haben. Alternativ kann auch gezielt ein neuer Ordner im Ablageordner erstellt werden. Wenn mit dem Kurs in den [Kurseinstellungen](../learningresources/Course_Settings.de.md) ein Ressourcenordner verknüpft ist, kann dieser ebenfalls ausgewählt werden. Wählen Sie in diesem Fall bei den angezeigten Ordnern des Ablageordners den "_sharedfolder" aus.
+Mit der Option "Ordner aus Ablageordner des Kurses verwenden" wählen Sie einen vorhandenen Ordner aus dem Ablageordner des Kurses. Das lohnt sich, wenn Sie die Dateien bereits geordnet in den Ablageordner hochgeladen haben. Sie können an dieser Stelle auch einen neuen Ordner im Ablageordner erstellen. Ist mit dem Kurs in den [Kurseinstellungen](../learningresources/Course_Settings.de.md) ein Ressourcenordner verknüpft, wählen Sie ihn ebenfalls hier: Er erscheint unter den Ordnern des Ablageordners als "_sharedfolder".
 
 #### Dateien hochladen {: #transfer_files}
 
-Nachdem der konkrete Ablageort gewählt ist können Sie über den Button "Ordner verwalten" im Bereich "Dateien hochladen" Ihre Dateien hochladen oder erstellen. 
+Sobald der Ablageort gewählt ist, laden Sie über den Button "Ordner verwalten" im Bereich "Dateien hochladen" Ihre Dateien hoch oder erstellen neue.
 
-![Aufgeklapptes Menü Dateien hochladen mit fünf Optionen von Aus File Hub hinzufügen bis Audio aufzeichnen](assets/KB_Ordner_Datei_upload.png){ class="shadow lightbox" title="Vorschau des Kursbausteins Ordner" }
+![Markiertes Menü am Pfeil neben Dateien hochladen mit Ordner erstellen, Dateien hinzufügen, Dokument erstellen, Word, Excel und PowerPoint erstellen sowie Video und Audio aufzeichnen](assets/course_element_folder_upload_menu_v1_de.png){ class="shadow lightbox" title="Vorschau des Kursbausteins Ordner im Kurseditor · 2026.11.03" }
 
-Ein Zugriff auf diesen Dateibereich ist auch bei geschlossenem Kurseditor möglich (siehe unten).
+Dieselben Dateien bearbeiten Sie auch bei geschlossenem Kurseditor (siehe [Ansicht bei geschlossenem Kurseditor](#view_with_editor_closed)).
 
 #### Berechtigungen {: #user_rights}
 
-Unter "Berechtigungen" kann definiert werden, wer Dateien in dem Kursbaustein Ordner hochladen und erstellen darf. Standardmässig dürfen neben den Besitzer:innen auch Betreuer:innen, aber nicht die Teilnehmer:innen Dateien hochladen.
+Unter "Berechtigungen" bestimmen Sie, wer im Ordner Dateien hochladen und erstellen darf. Standardmässig haben neben den Besitzer:innen auch die Betreuer:innen "Vollzugriff", die Teilnehmer:innen nicht.
 
-Über die erweiterte Konfiguration kann ferner die Bereitstellung von Dateien auch für bestimmte Gruppen, z.B. für Assistenten oder Hiwis oder auch nur für einzelne Personen definiert werden. 
+Mit "Erweiterte Konfiguration anzeigen" vergeben Sie das Recht auch an bestimmte Gruppen oder an einzelne Personen.
 
 ---
 
 ## Ansicht bei geschlossenem Kurseditor [:octicons-tag-16:{ title="ab Release 19.0 (OO-7490)" }](https://track.frentix.com/issue/OO-7490) {: #view_with_editor_closed}
 
-![Dateiliste mit Aktionen wie Herunterladen und Zippen, Spalten für Dateistatus und Lizenz](assets/Kursbasutein_Ordner_191a.jpg){ class="shadow lightbox" title="Kursbaustein Ordner bei geschlossenem Kurseditor" }
+![Dateiliste mit einer ausgewählten Datei und den Aktionen Herunterladen, Zippen, Kopieren nach, Verschieben nach, E-Mail versenden und Löschen](assets/course_element_folder_view_editor_closed_v1_de.png){ class="shadow lightbox" title="Kursbaustein Ordner bei geschlossenem Kurseditor · 2026.11.03" }
 
-Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprechenden Berechtigung zur Verfügung:
+Auch bei geschlossenem Kurseditor arbeiten Sie im Kurs direkt mit den Dateien des Ordners. Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprechenden Berechtigung zur Verfügung:
 
 ### Dateien hinzufügen
 
-**Dateien hochladen:** Wählen Sie eine Datei von Ihrer Festplatte aus. Klicken Sie auf den kleinen Pfeil nach unten, um zusätzliche Optionen zu sehen (vgl. Screenshot "Dateien hochladen"):
+**Dateien hochladen:** Wählen Sie eine Datei von Ihrer Festplatte aus. Klicken Sie auf den kleinen Pfeil neben "Dateien hochladen", um weitere Optionen zu sehen (siehe Bild im Abschnitt [Dateien hochladen](#transfer_files)):
 
- * **Aus File Hub hinzufügen:** Greifen Sie auf den [File Hub](../personal_menu/File_Hub.de.md) sowie auf Ihre Ordner und Dateien zu. Sie können auch auf Ihr [Media Center](../personal_menu/Media_Center.de.md) zugreifen und Dateien direkt in den File Hub hochladen.
+* **Ordner erstellen:** Erstellt einen neuen Unterordner im Kursbaustein.
+
+* **Dateien hinzufügen:** Greifen Sie auf den [File Hub](../personal_menu/File_Hub.de.md) sowie auf Ihre Ordner und Dateien zu. Sie können auch auf Ihr [Media Center](../personal_menu/Media_Center.de.md) zugreifen und Dateien direkt in den File Hub hochladen.
 
 * **Dokument erstellen:** Je nach aktivierten Editoren (z.B. Word, Excel, PowerPoint, Diagramme, Whiteboard, Text, HTML, CSS, XML) können Sie hier neue Dokumente erstellen und diese mit einer Beschreibung, Lizenz und weiteren Metadaten versehen.
 
-* **Ordner erstellen:** Erstellt einen neuen Unterordner im Kursbaustein.
+* **Word erstellen, Excel erstellen, PowerPoint erstellen:** Legt ein leeres Dokument im gewählten Format im Ordner an und öffnet es in einem neuen Fenster im Editor. Die Einträge erscheinen nur, wenn für das Format ein Editor aktiviert ist.
 
 * **Video aufzeichnen:** Zeichnen Sie ein Video mit der Webcam auf.
 
@@ -111,18 +111,18 @@ Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprech
 
 ## Weitere Optionen und Anpassungen des Kursbausteins {: #further_options}
 
-User können Änderungen im Ordner abonnieren. Zudem lässt sich die Ansicht individuell anpassen, indem zwischen der visuellen Kachelansicht und der detaillierten Tabellenansicht gewechselt wird. In der Tabellenansicht können die angezeigten Spalten ausgewählt werden, um mehr Details als in der Kachelansicht anzuzeigen. Die Suchfunktion ermöglicht es, Dateien schnell zu finden. Gelöschte Dokumente werden in den "Papierkorb" verschoben.
+Wer über neue Dateien im Ordner informiert sein will, abonniert die Änderungen im Ordner. Die Ansicht passen Sie an, indem Sie zwischen der Kachelansicht und der Tabellenansicht wechseln. In der Tabellenansicht wählen Sie die angezeigten Spalten und sehen so mehr Details als in der Kachelansicht. Mit der Suche finden Sie Dateien schnell. Gelöschte Dateien verschiebt OpenOlat in den "Papierkorb".
 
-Im 3-Punkte-Menü des Kursbausteins können Sie den [WebDAV-Link](../basic_concepts/Using_WebDAV.de.md) anzeigen lassen und Metadaten aktualisieren. 
+Im 3-Punkte-Menü des Kursbausteins lassen Sie sich den [WebDAV-Link](../basic_concepts/Using_WebDAV.de.md) anzeigen und wählen "Metadaten aktualisieren".
 
 
 ### Metadaten {: #metadata}
 
-Die konkreten [Metadaten](../basic_concepts/Search_General.de.md#metadata) einer Datei können Kursbesitzer:innen über das 3-Punkte-Menü einer konkreten Datei bearbeiten. 
+Mit den [Metadaten](../basic_concepts/Search_General.de.md#metadata) beschreiben Sie eine Datei genauer. Kursbesitzer:innen bearbeiten sie über das 3-Punkte-Menü der Datei.
 
-Neben der Beschreibung und Sperreigenschaften sind besonders die Lizenzangaben relevant. Über die Lizenzangaben können Sie eine konkrete Lizenz für das Dokument hinterlegen, z.B. eine der Creative Commons Lizenzen verwenden, den Lizenzgeber eintragen, sowie weitere Informationen zum Herausgeber, zur Quelle, zum Erscheinungsdatum usw. hinterlassen. Die Lizenz wird im Ordnerbaustein in einer separaten Spalte angezeigt. Mit Klick auf die Lizenz erhält der User die hinterlegten Informationen zur jeweiligen Lizenz.
+Neben der Beschreibung und der Sperre sind besonders die Lizenzangaben wichtig. Dort hinterlegen Sie eine Lizenz für das Dokument, zum Beispiel eine der Creative-Commons-Lizenzen, tragen den Lizenzgeber ein und ergänzen Angaben zum Herausgeber, zur Quelle oder zum Erscheinungsdatum. Der Ordner zeigt die Lizenz in einer eigenen Spalte. Ein Klick auf die Lizenz zeigt die hinterlegten Angaben.
 
-In den Metadaten wird auch angezeigt, wie häufig eine Datei aufgerufen wurde. Ferner gibt es einen Link, mit dem Sie die jeweilige Datei direkt verlinken können. Ob auch externe Personen auf die Datei zugreifen können, ist von den Zugangseinstellungen des Kurses abhängig.
+Das Feld "Anzahl Ansichten" in den Metadaten zeigt, wie oft eine Datei heruntergeladen wurde. Was genau zählt, steht unter [Metadaten](../basic_concepts/Search_General.de.md#metadata). Ferner gibt es einen Link, mit dem Sie die jeweilige Datei direkt verlinken können. Ob auch externe Personen auf die Datei zugreifen können, ist von den Zugangseinstellungen des Kurses abhängig.
 
 
 ### Dateien bearbeiten [:octicons-tag-16:{ title="ab Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}

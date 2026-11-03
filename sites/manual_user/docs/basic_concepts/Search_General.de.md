@@ -105,11 +105,21 @@ Sie können jede Datei und auch ganze Lernressourcen mit Metadaten versehen. Die
 
 Die Volltextsuche indexiert die Metadaten. Sie finden Dokumente deshalb auch über die Begriffe, die in ihren Metadaten stehen.
 
-**Datei sperren:** Wählen Sie in den Metadaten einer Datei beim Feld "Gesperrt" die Option "Gesperrt", damit andere Benutzer:innen die Datei weder überschreiben noch löschen oder verschieben können. Gesperrte Dateien tragen in der Dateiliste ein Schloss. Für Ordner gibt es diese Option nicht.
+**Datei sperren:** Wählen Sie in den Metadaten einer Datei beim Feld "Gesperrt" die Option "Gesperrt", damit andere Benutzer:innen die Datei weder überschreiben noch löschen oder verschieben können. Gesperrte Dateien tragen in der Dateiliste in der Spalte "Dateistatus" die Markierung "Gesperrt" mit einem Schloss. Für Ordner gibt es diese Option nicht.
 
-![Gesperrte Datei mit rot umrahmtem Schloss-Symbol in der Spalte Gesperrt](assets/Datei_gesperrt_DE_Detail.png){ class="shadow lightbox" title="Dateiliste eines Ordners" }
+![Dateiliste eines Ordners, bei der gesperrten Datei ist in der Spalte Dateistatus die Markierung Gesperrt mit Schloss markiert](assets/search_general_folder_locked_file_v1_de.png){ class="shadow lightbox" title="Dateiliste eines Ordners · 2026.11.03" }
 
 Das Feld "Externer Link zu dieser Ressource" in den Metadaten zeigt einen Link, mit dem Sie auch ausserhalb von OpenOlat direkt auf die Datei verlinken.
+
+**Anzahl Ansichten:** Das Feld "Anzahl Ansichten" zeigt, wie oft eine Datei aus einem Ordner heruntergeladen wurde. Trotz des Namens zählt OpenOlat Downloads, nicht die Anzeige im Browser. Die Zahl steigt um 1, wenn jemand die Datei mit "Herunterladen" speichert, sie in einer ZIP-Datei mit anderen Dateien herunterlädt, sie über WebDAV öffnet oder auf den Dateinamen klickt und die Datei dabei heruntergeladen wird. Öffnet sich die Datei beim Klick dagegen im Browser oder in einem Editor, zum Beispiel ein PDF oder ein Word-Dokument, bleibt die Zahl gleich.
+
+OpenOlat zählt jeden Abruf, nicht jede Person: Lädt dieselbe Person eine Datei dreimal herunter, steigt die Zahl um drei, und auch Downloads von Besitzer:innen und Betreuer:innen zählen mit. Wann und von wem eine Datei heruntergeladen wurde, zeigt das Feld nicht. Lesen Sie die Zahl deshalb als groben Hinweis, nicht als Nutzungsauswertung. Das Feld sehen alle, die die Metadaten einer Datei öffnen können, auch Teilnehmer:innen; sie erhalten die Metadaten in einer Nur-Lese-Ansicht. Wie oft Teilnehmende einen Kursbaustein aufgerufen haben, zeigen die [Kursstatistiken](../learningresources/Statistics_Course.de.md).
+
+![Vier Wege erhöhen die Anzahl Ansichten um 1: Herunterladen, als ZIP herunterladen, Abruf über WebDAV, Klick auf einen Dateinamen, der herunterlädt; Öffnen im Viewer zählt nicht](assets/folder_metadata_number_of_views_v1_de.svg){ class="shadow lightbox" title="Was die Anzahl Ansichten erhöht · 2026.11.03" }
+
+!!! info "Wichtig"
+
+    Ob ein Klick auf den Dateinamen die Datei herunterlädt, hängt vom Dateiformat und von der Konfiguration der Instanz ab. HTML-Dateien werden zum Beispiel heruntergeladen, wenn die Sicherheitsfunktion ["Dateidownload in Ordner erzwingen"](../../manual_admin/administration/Login_Security.de.md#files) eingeschaltet ist.
 
 [zum Seitenanfang ^](#search_general)
 
@@ -123,7 +133,9 @@ Das Feld "Externer Link zu dieser Ressource" in den Metadaten zeigt einen Link, 
 [Personensuche >](Search_Person.de.md)<br>
 [Suche in einem Kurs >](Search_in_Course.de.md)<br>
 [Suche im File Hub >](Search_in_FileHub.de.md)<br>
-[Dublin Core (Wikipedia) >](https://de.wikipedia.org/wiki/Dublin_Core)
+[Dublin Core (Wikipedia) >](https://de.wikipedia.org/wiki/Dublin_Core)<br>
+[Kursstatistiken >](../learningresources/Statistics_Course.de.md)<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
 
 **Weiterführend**<br>
 [Kontosuche >](../../manual_admin/usermanagement/Search_Users.de.md)<br>

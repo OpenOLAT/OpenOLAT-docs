@@ -10,7 +10,7 @@ The personal folder can be found in the user tools in the [personal menu](../per
 
 It offers the option of storing individual files independently of courses or resource folders.
 
-Within the personal folder, a distinction is made between a **private** and a **public** area. Files in the private folder are only visible to the respective person, while files in the public area can be read and downloaded by all users in the system via the visiting card.
+The personal folder has a private and a public area. Files in the private folder are only visible to the respective person, while files in the public area can be read and downloaded by all users in the system via the visiting card.
 
 !!! tip "Tip"
 
@@ -23,11 +23,11 @@ Within the personal folder, a distinction is made between a **private** and a **
 
 ### Storage folder {: #storage_folder}
 
-Files used in a course can be stored in the storage folder of this course.
+In the storage folder of a course, you store the files you use in the course.
 
-You access it in the course via `Course > Administration > Files > Storage folder` or in the personal area via the [File Hub](../personal_menu/File_Hub.md) under "Courses". Select the appropriate course there.
+You open it in the course via `Course > Administration > Files > Storage folder` or via the [File Hub](../personal_menu/File_Hub.md) under "Courses". Select the appropriate course there.
 
-Files can be uploaded to the storage folder, for example, which are to be linked and accessed later within the course from a page.
+To the storage folder you upload, for example, files that you later link from a page in the course.
 
 [See the details >](../learningresources/Storage_folder.md)<br>
 [To the top of the page ^](#folders)
@@ -35,9 +35,9 @@ Files can be uploaded to the storage folder, for example, which are to be linked
 
 ### Resource folder {: #resource_folder}
 
-Files that are to be used in several courses can be uploaded to a resource folder. This allows them to be edited centrally and in one place only.
+If you use the same files in several courses, upload them to a resource folder. This way you edit them in one single place.
 
-To use the resource folder within a course, it must be integrated via `Course > Administration > Settings > Tab "Options"`. You will then find the new folder "shared folder" in the storage folder of the course and have access to the files of the resource folder there. Only one resource folder can be used per course.
+To use the resource folder in a course, integrate it in the course via `Course > Administration > Settings > Tab "Options"`. You then find the folder "_sharedfolder" with the files of the resource folder in the storage folder of the course. One resource folder is possible per course.
 
 The cross-course resource folder is a learning resource. It is therefore also listed in Authoring and can be edited there.
 
@@ -89,7 +89,7 @@ This folder is set up under `Course > Administration > Settings > Tab "Options" 
 
 The folder can then be opened under `Course > Administration > Coach files`. The folder can also be accessed via the [File Hub](../personal_menu/File_Hub.md) by selecting the course.
 
-[See the details >](../learningresources/Course_Settings_Options.md#enable-coach-folder)<br>
+[See the details >](../learningresources/Course_Settings_Options.md#coach-settings)<br>
 [To the top of the page ^](#folders)
 
 
@@ -115,18 +115,18 @@ Use the buttons "Folder" and "Files" above the list to switch between the hierar
 
 === "Hierarchical view with folders"
 
-    ![Active button Folder, the list shows subfolders and files with type, size and file status, course element Folder in the course](assets/folder_concept_view_folder_v1_de.png){ class="shadow lightbox" title=" " }
+    ![Marked button Folder, the list shows subfolders and files with type, size and file status, course element Folder in the course](assets/folder_concept_view_folder_v2_en.png){ class="shadow lightbox" title="Course element Folder in the course · 2026.11.03" }
 
 === "Only files in the view"
 
-    ![Active button Files, the list shows all files of the subfolders without folder structure with the filter tabs All, From me and For me, course element Folder in the course](assets/folder_concept_view_files_v1_de.png){ class="shadow lightbox" title=" " }
+    ![Marked button Files and marked filter tabs All, From me and For me, the list shows all files of the subfolders without folder structure, course element Folder in the course](assets/folder_concept_view_files_v2_en.png){ class="shadow lightbox" title="Course element Folder in the course · 2026.11.03" }
 
 !!! tip "Tip"
 
     In the breadcrumb below the buttons, you can always see which folder you are currently in. Click on a section in the breadcrumb to jump directly to this level.
 
 
-## Search {: #search}
+## Search [:octicons-tag-16:{ title="from Release 19.0 (OO-7552)" }](https://track.frentix.com/issue/OO-7552) {: #search}
 
 The search function in folders searches for
 
@@ -139,28 +139,28 @@ in the current folder and its subfolders. It is not a full-text search, i.e. no 
 
 ## File status {: #status}
 
-The file status can be found in the **column "File status"**. If the column is not visible, it can be displayed using the gear icon.
+Whether someone is currently editing a file or whether it is locked, you see in the column "File status". If the column is not visible, show it using the gear icon.
 
-If a file is currently being edited, it receives the **status "Currently being edited"**.
+If someone is currently editing a file, it has the status "Currently being edited".
 
-The **status "Locked"** can be set in the metadata. You edit the metadata under the three dots at the end of a line.
+You set the status "Locked" in the [metadata](Search_General.md#metadata). You edit the metadata under the three dots at the end of a line.
 
-When a file is uploaded, it is first marked with a **label "New"**. This helps with immediate further processing, such as moving or copying. The label is only displayed to the person who uploaded the file. It disappears as soon as the folder has been left once.
+A newly uploaded file first has the label "New". This way you find it again immediately, for example to move or copy it. Only the person who uploaded the file sees the label. It disappears as soon as this person has left the folder once.
 
 
 ## Working with files {: #work_with_files}
 
 ### Actions via menu
 
-To move, copy, download, pack (zip) or delete files, you will find selection options **under the three dots** at the end of a line (right-hand edge of a list).
+To move, copy, download, pack (zip) or delete files, open the menu under the three dots at the end of a line (right-hand edge of a list).
 
-### Drag & Drop
+### Drag & Drop [:octicons-tag-16:{ title="from Release 19.0 (OO-7491)" }](https://track.frentix.com/issue/OO-7491)
 
-Files can also be moved to a highlighted target field using **Drag & Drop** with the mouse.
+You also drag files with the mouse onto a highlighted target field using Drag & Drop.
 
 ### Multi-file upload
 
-It is also possible to select several files and move them together to the target field.
+You can also select several files and drag them together onto the target field.
 
 ### Mass actions
 
@@ -180,7 +180,7 @@ The preview in the lightbox delivers the file through a separate content domain,
 The preview in the lightbox requires a content domain set up by administrators. Without a content domain, an HTML file opens in a new browser window even with read-only access. How to set up the content domain is described in the [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
 
 
-## Trash {: #paper_basket}
+## Trash [:octicons-tag-16:{ title="from Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #paper_basket}
 
 The files in the trash can be deleted automatically after a certain period of time. The retention period in the trash and the automatic deletion are set up by administrators.
 
@@ -213,6 +213,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 [Course Settings - Tab Options >](../learningresources/Course_Settings_Options.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
 [File Hub Concept >](File_Hub_Concept.md)<br>
+[General information on the search >](Search_General.md)<br>
 [Installation guide >](../../manual_admin/installation/installGuide.md)
 
 **Further reading**<br>

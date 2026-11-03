@@ -48,7 +48,7 @@ Each folder type belongs to a context:
 | Folder | Purpose | Where to set up / open | Visible to | Upload by participants | Cross-course |
 |--------|---------|------------------------|------------|------------------------|--------------|
 | **Course element "Folder"** | Provide files for download; optional bulk upload | Course editor, "Folder" element | all participants | optional | no |
-| **Participant Folder** | Submission & return of files per participant | Course editor, "Participant Folder" element | each participant only their own folder + coaches | yes | no |
+| **Participant Folder** | Submission & return of files per participant | Course editor, "Participant Folder" element | each participant only their own folder, plus the coaches | yes | no |
 | **Folder in the "Task" element** | Files in the task workflow (submission, return, solution …) | Course editor, "Task"/"Grouptask" element | only within the element | yes | no |
 | **Coach folder** | Storage area accessible only to coaches/owners | `Course > Administration > Settings > Options` | only coaches & owners | no | no |
 | **Storage folder** | Background storage of all files used in the course | `Course > Administration > Files` | only course owners (participants only indirectly) | no | no |
@@ -65,7 +65,7 @@ Each folder type belongs to a context:
 
 ## Access paths {: #access_path}
 
-The folders can be accessed from various places. Consider what makes sense for your participants given the planned folder content.
+You reach the folders from various places. Consider which way is useful for the planned folder content and your participants.
 
 Course-specific access path:
 
@@ -89,7 +89,7 @@ The Coach folder is found in the course administration, which is shown only to c
 
 ### Opening via an icon in the toolbar
 
-Authors can display a document folder for a course as an icon at the top of the toolbar.
+Authors can switch on the tool "Documents" in the toolbar of the course. It opens a folder with documents for the course via an icon.
 
 ### Opening via the personal menu
 
@@ -134,7 +134,7 @@ All folders use the same component. You will find these features in the Storage 
 - **Drag & drop + multi-upload:** Drag several files at once with the mouse onto the target area.
 - **Bulk actions:** Select multiple entries via checkboxes and process them together.
 - **Create within the folder:** Documents (OnlyOffice: Word/Excel/PowerPoint, diagrams, whiteboard, HTML …), subfolders, video and audio recordings.
-- **Metadata & licenses:** Description, lock, license details (e.g. Creative Commons), view counter and direct link per file.
+- **Metadata & licenses:** Description, lock, license details (e.g. Creative Commons), Number of views (counts downloads) and direct link per file.
 - **Trash can:** Deleted items go to the trash can; administrators set the automatic deletion period.
 - **Quota / storage limit:** Limit per file and per folder (admin). Also applies to WebDAV upload.
 
@@ -166,10 +166,10 @@ See also [Folder concept >](../../manual_user/basic_concepts/Folder_Concept.md)
 
 *Course · Knowledge transfer*
 
-The classic way to provide material for download (slides, scripts). Optionally collaborative too, with upload rights for learners.
+The classic way to provide material for download (slides, scripts). Optionally collaborative too, with upload rights for participants.
 
 - **Location:** "Folder configuration" tab: automatically generated folder under `_courseelementdata` or a folder from the storage or resource folder.
-- **Permissions:** Default: owners + coaches may upload; extendable to groups or individuals.
+- **Permissions:** Default: owners and coaches may upload; extendable to groups or individuals.
 - **Visible:** Content for all participants.
 - **Extras:** Create documents, metadata/licenses, subscription, WebDAV link in the 3-dot menu.
 
@@ -325,7 +325,7 @@ More on the [Course archiving >](../../manual_user/learningresources/Course_Arch
 
 * The trash can contents also count towards the quota.
 
-* Please also do not confuse the Structure element with a Folder course element ("Folder" element instead of "Structure" element).
+* Do not confuse the course element "Structure" with the course element "Folder".
 
 [To the top of the page ^](#folders)
 

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="480" viewBox="0 0 940 480" role="img" aria-labelledby="t d">
+  <title id="t">Was die Anzahl Ansichten erhöht</title>
+  <desc id="d">Vier Aktionen erhöhen das Feld Anzahl Ansichten in den Metadaten einer Datei um 1: Herunterladen, Herunterladen als ZIP, Abruf über WebDAV und ein Klick auf den Dateinamen, der die Datei herunterlädt. Das Öffnen im Viewer oder Editor erhöht die Zahl nicht. Jeder Abruf zählt, nicht jede Person.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="940" height="480" fill="#FFFFFF"/>
+
+  <!-- Titel -->
+  <text x="30" y="42" font-family="'Roboto', sans-serif" font-size="22" font-weight="700" fill="#342C24">Was die "Anzahl Ansichten" erhöht</text>
+  <text x="30" y="66" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">Feld in den Metadaten einer Datei im Ordner. Technisch ein Download-Zähler.</text>
+
+  <!-- Spaltentitel -->
+  <text x="30" y="104" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#11624F">Erhöht die Zahl um 1</text>
+  <text x="640" y="104" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#8F1F40">Erhöht die Zahl nicht</text>
+
+  <!-- Linke Karten: zählt -->
+  <g font-family="'Roboto', sans-serif">
+    <rect x="30" y="116" width="320" height="56" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+    <text x="46" y="140" font-size="15" font-weight="700" fill="#2D2926">Herunterladen</text>
+    <text x="46" y="160" font-size="12" fill="#2D2926">3-Punkte-Menü, Spalte oder Auswahl</text>
+    <rect x="300" y="131" width="38" height="26" rx="6" fill="#B2CF42"/>
+    <text x="319" y="149" font-size="13" font-weight="700" fill="#2D2926" text-anchor="middle">+1</text>
+
+    <rect x="30" y="182" width="320" height="56" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+    <text x="46" y="206" font-size="15" font-weight="700" fill="#2D2926">Als ZIP herunterladen</text>
+    <text x="46" y="226" font-size="12" fill="#2D2926">jede enthaltene Datei zählt</text>
+    <rect x="300" y="197" width="38" height="26" rx="6" fill="#B2CF42"/>
+    <text x="319" y="215" font-size="13" font-weight="700" fill="#2D2926" text-anchor="middle">+1</text>
+
+    <rect x="30" y="248" width="320" height="56" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+    <text x="46" y="272" font-size="15" font-weight="700" fill="#2D2926">Abruf über WebDAV</text>
+    <text x="46" y="292" font-size="12" fill="#2D2926">Datei über WebDAV geöffnet oder kopiert</text>
+    <rect x="300" y="263" width="38" height="26" rx="6" fill="#B2CF42"/>
+    <text x="319" y="281" font-size="13" font-weight="700" fill="#2D2926" text-anchor="middle">+1</text>
+
+    <rect x="30" y="314" width="320" height="56" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+    <text x="46" y="338" font-size="15" font-weight="700" fill="#2D2926">Klick auf Dateinamen lädt herunter</text>
+    <text x="46" y="358" font-size="12" fill="#2D2926">ohne Viewer oder bei erzwungenem Download</text>
+    <rect x="300" y="329" width="38" height="26" rx="6" fill="#B2CF42"/>
+    <text x="319" y="347" font-size="13" font-weight="700" fill="#2D2926" text-anchor="middle">+1</text>
+  </g>
+
+  <!-- Pfeile zum Zähler -->
+  <g stroke="#0F5456" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M350,144 C382,144 382,205 406,205"/>
+    <path d="M350,210 C380,210 382,230 406,230"/>
+    <path d="M350,276 C380,276 382,256 406,256"/>
+    <path d="M350,342 C382,342 382,281 406,281"/>
+  </g>
+
+  <!-- Zähler -->
+  <rect x="410" y="182" width="170" height="122" rx="10" fill="#126365"/>
+  <text x="495" y="228" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">Anzahl Ansichten</text>
+  <text x="495" y="252" font-family="'Roboto', sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Dialog "Metadaten"</text>
+  <text x="495" y="270" font-family="'Roboto', sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">einer Datei</text>
+
+  <!-- Rechte Karte: zählt nicht -->
+  <rect x="640" y="194" width="270" height="98" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="656" y="220" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">Öffnen im Viewer oder Editor</text>
+  <text x="656" y="242" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">Klick auf den Dateinamen zeigt die Datei</text>
+  <text x="656" y="260" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">im Browser oder Editor an,</text>
+  <text x="656" y="278" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">z. B. ein PDF oder ein Word-Dokument</text>
+
+  <!-- Unterbrochene Verbindung -->
+  <line x1="640" y1="243" x2="584" y2="243" stroke="#8F1F40" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="612" cy="243" r="11" fill="#FFFFFF" stroke="#8F1F40" stroke-width="2"/>
+  <path d="M606,237 L618,249 M618,237 L606,249" stroke="#8F1F40" stroke-width="2"/>
+
+  <!-- Hinweis unten -->
+  <rect x="30" y="392" width="880" height="64" rx="10" fill="#F2AF40"/>
+  <text x="50" y="418" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#2D2926">Jeder Abruf zählt, nicht jede Person.</text>
+  <text x="50" y="440" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Mehrfache Downloads derselben Person und Downloads von Besitzer:innen und Betreuer:innen zählen mit. Kein Datum, keine Namen.</text>
+</svg>

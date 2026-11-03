@@ -105,11 +105,21 @@ You can add metadata to each file and also to complete learning resources. The m
 
 The full-text search indexes the metadata. You therefore also find documents via the terms in their metadata.
 
-**Lock file:** In the metadata of a file, select the option "Locked" in the field "Locked" so that other users can neither overwrite, delete nor move the file. Locked files show a lock in the file list. This option does not exist for folders.
+**Lock file:** In the metadata of a file, select the option "Locked" in the field "Locked" so that other users can neither overwrite, delete nor move the file. Locked files show the label "Locked" with a lock in the column "File status" of the file list. This option does not exist for folders.
 
-![Locked file with the lock icon framed in red in the column Locked](assets/Datei_sperren_EN_detail.png){ class="shadow lightbox" title="File list of a folder" }
+![File list of a folder, for the locked file the label Locked with a lock is marked in the column File status](assets/search_general_folder_locked_file_v1_en.png){ class="shadow lightbox" title="File list of a folder · 2026.11.03" }
 
 The field "External link to this resource" in the metadata shows a link with which you can also link directly to the file from outside OpenOlat.
+
+**Number of views:** The field "Number of views" shows how often a file was downloaded from a folder. Despite its name, OpenOlat counts downloads, not the display in the browser. The number goes up by 1 when someone saves the file with "Download", downloads it in a ZIP file together with other files, opens it via WebDAV, or clicks the file name and the file is downloaded. If the file opens in the browser or in an editor on click instead, for example a PDF or a Word document, the number stays the same.
+
+OpenOlat counts every access, not every person: if the same person downloads a file three times, the number goes up by three, and downloads by owners and coaches count too. The field does not show when or by whom a file was downloaded. Read the number as a rough indication, not as a usage evaluation. Everyone who can open the metadata of a file sees the field, including participants, who get a read-only view of the metadata. How often participants opened a course element is shown in the [course statistics](../learningresources/Statistics_Course.md).
+
+![Four ways increase the number of views by 1: download, download as ZIP, access via WebDAV and a click on the file name that downloads. Opening in a viewer or editor does not count.](assets/folder_metadata_number_of_views_v1_en.svg){ class="shadow lightbox" title="What increases the number of views · 2026.11.03" }
+
+!!! info "Important"
+
+    Whether a click on the file name downloads the file depends on the file format and on the configuration of the instance. HTML files, for example, are downloaded when the security function ["Force file download in folders"](../../manual_admin/administration/Login_Security.md#files) is switched on.
 
 [To the top of the page ^](#search_general)
 
@@ -123,7 +133,9 @@ The field "External link to this resource" in the metadata shows a link with whi
 [Search other users >](Search_Person.md)<br>
 [Search in a course >](Search_in_Course.md)<br>
 [Search in the File Hub >](Search_in_FileHub.md)<br>
-[Dublin Core (Wikipedia) >](https://en.wikipedia.org/wiki/Dublin_Core)
+[Dublin Core (Wikipedia) >](https://en.wikipedia.org/wiki/Dublin_Core)<br>
+[Course statistics >](../learningresources/Statistics_Course.md)<br>
+[Security >](../../manual_admin/administration/Login_Security.md)
 
 **Further reading**<br>
 [Account search >](../../manual_admin/usermanagement/Search_Users.md)<br>

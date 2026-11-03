@@ -8,7 +8,7 @@ OpenOlat administrator directly.
 
 The box for the full-text search is at the top right of the status bar. The full-text search helps you to look for search terms in the course or group content, in a forum or even in PDF and Word files. Furthermore you can look for participants, portfolio folders, artefacts, and documents in the [personal files](../personal_menu/File_Hub.md#personal_files). The only exceptions are private folders since they will not be indexed.
 
-![Search results list for the search term e-learning with highlighted matches and each hit's location shown, in the Full-text search dialog](assets/generelle_Suche.en.png){ class="shadow lightbox" }
+![Search results list for the search term e-learning with highlighted matches and each hit's location shown, in the Full-text search dialog](assets/generelle_Suche.en.png){ class="shadow lightbox" title="Dialog Full-text search" }
 
 You will only get search results of the course contents you have access to.
 
@@ -16,9 +16,9 @@ You will only get search results of the course contents you have access to.
 
 In order to search in more detail please use the advanced search.
 
-![Advanced search link below the search field, in the Full-text search dialog](assets/full_text_search_advanced_link_EN.png){ class="shadow lightbox" }
+![Advanced search link below the search field, in the Full-text search dialog](assets/full_text_search_advanced_link_EN.png){ class="shadow lightbox" title="Dialog Full-text search" }
 
-![Advanced search form with the fields Full-text search, Author, Title, Description, Creation date, Last modified, Document type, License and Metadata, in the Full-text search dialog](assets/full_text_search_advanced.png){ class="shadow lightbox" }
+![Advanced search form with the fields Full-text search, Author, Title, Description, Creation date, Last modified, Document type, License and Metadata, in the Full-text search dialog](assets/full_text_search_advanced.png){ class="shadow lightbox" title="Advanced search in the dialog Full-text search" }
 
 The mode _Advanced search_ enables you to refine your search. Please note that these different fields have to be linked by the Boolean AND operator. This means that e.g. by filling in the fields _Title_ and _Author_ you will find documents containing the respective terms in all indicated fields.
 
@@ -57,7 +57,7 @@ Metadata are indexed by the full-text search. Therefore you can search for metad
 
 **Lock a file:** Within the meta data you can mark a file as locked. Locked files are marked with a lock and other participants can no longer change, delete or move it. This option is not available for folders.
 
-![Locked file with a red-framed lock icon in the Locked column, in a folder's file list](assets/Datei_sperren_EN_detail.png){ class="shadow lightbox" }
+![File list of a folder, for the locked file the label Locked with a lock is marked in the column File status](assets/search_general_folder_locked_file_v1_en.png){ class="shadow lightbox" title="File list of a folder · 2026.11.03" }
 
 Using the external link, you can link directly to a specific file from outside of OpenOlat.
 

@@ -10,7 +10,7 @@ Den persönlichen Ordner finden Sie bei den persönlichen Werkzeugen im [persön
 
 Er bietet die Möglichkeit, individuelle Dateien unabhängig von Kursen oder Ressourcenordnern abzulegen.
 
-Innerhalb des persönlichen Ordners wird zwischen einem **privaten** und einem **öffentlichen** Bereich unterschieden. Dateien im privaten Ordner sind nur für die jeweilige Person sichtbar, während Dateien im öffentlichen Bereich über die Visitenkarte von allen Benutzer:innen im System gelesen und heruntergeladen werden können.
+Der persönliche Ordner hat einen privaten und einen öffentlichen Bereich. Dateien im privaten Ordner sind nur für die jeweilige Person sichtbar, während Dateien im öffentlichen Bereich über die Visitenkarte von allen Benutzer:innen im System gelesen und heruntergeladen werden können.
 
 !!! tip "Tipp"
 
@@ -23,11 +23,11 @@ Innerhalb des persönlichen Ordners wird zwischen einem **privaten** und einem *
 
 ### Ablageordner {: #storage_folder}
 
-In einem Kurs verwendete Dateien können im Ablageordner dieses Kurses hinterlegt werden.
+Im Ablageordner eines Kurses legen Sie die Dateien ab, die Sie im Kurs verwenden.
 
-Der Zugriff erfolgt im Kurs über `Kurs > Administration > Dateien > Ablageordner` oder im persönlichen Bereich über den [File Hub](../personal_menu/File_Hub.de.md) unter "Kurse". Wählen Sie dort den passenden Kurs aus.
+Sie öffnen ihn im Kurs über `Kurs > Administration > Dateien > Ablageordner` oder über den [File Hub](../personal_menu/File_Hub.de.md) unter "Kurse". Wählen Sie dort den passenden Kurs aus.
 
-Im Ablageordner können z.B. Dateien hochgeladen werden, die später innerhalb des Kurses von einer Seite aus verlinkt und aufgerufen werden sollen.
+In den Ablageordner laden Sie zum Beispiel Dateien hoch, die Sie später im Kurs von einer Seite aus verlinken.
 
 [Zu den Details >](../learningresources/Storage_folder.de.md)<br>
 [Zum Seitenanfang ^](#folders)
@@ -35,9 +35,9 @@ Im Ablageordner können z.B. Dateien hochgeladen werden, die später innerhalb d
 
 ### Ressourcenordner {: #resource_folder}
 
-In einen Ressourcenordner können Dateien hochgeladen werden, die in mehreren Kursen verwendet werden sollen. So können diese zentral und nur an einer Stelle bearbeitet werden.
+Verwenden Sie dieselben Dateien in mehreren Kursen, laden Sie sie in einen Ressourcenordner hoch. So bearbeiten Sie sie an einer einzigen Stelle.
 
-Um den Ressourcenordner innerhalb eines Kurses zu nutzen, muss er im Kurs über `Kurs > Administration > Einstellungen > Tab "Optionen"` eingebunden werden. Anschliessend finden Sie im Ablageordner des Kurses den neuen Ordner "shared folder" und haben dort Zugriff auf die Dateien des Ressourcenordners. Pro Kurs kann nur ein Ressourcenordner verwendet werden.
+Um den Ressourcenordner in einem Kurs zu nutzen, binden Sie ihn im Kurs über `Kurs > Administration > Einstellungen > Tab "Optionen"` ein. Anschliessend finden Sie im Ablageordner des Kurses den Ordner "_sharedfolder" mit den Dateien des Ressourcenordners. Pro Kurs ist ein Ressourcenordner möglich.
 
 Der kursübergreifende Ressourcenordner ist eine Lernressource. Er ist deshalb auch im Autorenbereich aufgelistet und kann dort bearbeitet werden.
 
@@ -115,18 +115,18 @@ Mit den Buttons "Ordner" und "Dateien" über der Liste schalten Sie um zwischen 
 
 === "Hierarchische Ansicht mit Ordnern"
 
-    ![Aktiver Button Ordner, die Liste zeigt Unterordner und Dateien mit Typ, Grösse und Dateistatus, Kursbaustein Ordner im Kurs](assets/folder_concept_view_folder_v1_de.png){ class="shadow lightbox" title=" " }
+    ![Markierter Button Ordner, die Liste zeigt Unterordner und Dateien mit Typ, Grösse und Dateistatus, Kursbaustein Ordner im Kurs](assets/folder_concept_view_folder_v2_de.png){ class="shadow lightbox" title="Kursbaustein Ordner im Kurs · 2026.11.03" }
 
 === "Nur Dateien in der Ansicht"
 
-    ![Aktiver Button Dateien, die Liste zeigt alle Dateien der Unterordner ohne Ordnerstruktur mit den Filter-Tabs Alle, Von mir und Für mich, Kursbaustein Ordner im Kurs](assets/folder_concept_view_files_v1_de.png){ class="shadow lightbox" title=" " }
+    ![Markierter Button Dateien und markierte Filter-Tabs Alle, Von mir und Für mich, die Liste zeigt alle Dateien der Unterordner ohne Ordnerstruktur, Kursbaustein Ordner im Kurs](assets/folder_concept_view_files_v2_de.png){ class="shadow lightbox" title="Kursbaustein Ordner im Kurs · 2026.11.03" }
 
 !!! tip "Tipp"
 
     Im Krümelpfad unter den Buttons ist jederzeit ersichtlich, in welchem Ordner Sie sich gerade befinden. Durch Klick auf einen Abschnitt im Krümelpfad springen Sie direkt zu dieser Ebene.
 
 
-## Suche {: #search}
+## Suche [:octicons-tag-16:{ title="ab Release 19.0 (OO-7552)" }](https://track.frentix.com/issue/OO-7552) {: #search}
 
 Die Suchfunktion in Ordnern sucht nach
 
@@ -139,28 +139,28 @@ im aktuellen Ordner mit seinen Unterordnern. Es ist keine Volltextsuche, also ke
 
 ## Dateistatus {: #status}
 
-Den Dateistatus entnehmen Sie der **Spalte "Dateistatus"**. Sollte die Spalte nicht sichtbar sein, kann sie über das Zahnrad-Icon eingeblendet werden.
+Ob jemand eine Datei gerade bearbeitet oder ob sie gesperrt ist, sehen Sie in der Spalte "Dateistatus". Ist die Spalte nicht sichtbar, blenden Sie sie über das Zahnrad-Icon ein.
 
-Wenn eine Datei aktuell bearbeitet wird, erhält sie den **Status "Wird gerade bearbeitet"**.
+Bearbeitet jemand eine Datei gerade, trägt sie den Status "Wird gerade bearbeitet".
 
-Der **Status "Gesperrt"** kann in den Metadaten gesetzt werden. Sie bearbeiten die Metadaten unter den drei Punkten am Ende einer Zeile.
+Den Status "Gesperrt" setzen Sie in den [Metadaten](Search_General.de.md#metadata). Die Metadaten bearbeiten Sie unter den drei Punkten am Ende einer Zeile.
 
-Wenn eine Datei hochgeladen wird, wird sie zunächst mit einem **Label "Neu"** gekennzeichnet. Dies hilft beim sofortigen Weiterbearbeiten, wie Verschieben oder Kopieren. Das Label wird nur der Person angezeigt, die die Datei hochgeladen hat. Es verschwindet, sobald der Ordner einmal verlassen wurde.
+Eine neu hochgeladene Datei trägt zunächst das Label "Neu". So finden Sie sie sofort wieder, um sie zum Beispiel zu verschieben oder zu kopieren. Das Label sieht nur die Person, die die Datei hochgeladen hat. Es verschwindet, sobald sie den Ordner einmal verlassen hat.
 
 
 ## Mit Dateien arbeiten {: #work_with_files}
 
 ### Aktionen via Menü
 
-Um Dateien zu verschieben, zu kopieren, herunterzuladen, zu packen (zippen) oder zu löschen, finden Sie Auswahloptionen **unter den drei Punkten** am Ende einer Zeile (rechter Rand einer Liste).
+Um Dateien zu verschieben, zu kopieren, herunterzuladen, zu packen (zippen) oder zu löschen, öffnen Sie das Menü unter den drei Punkten am Ende einer Zeile (rechter Rand einer Liste).
 
-### Drag & Drop
+### Drag & Drop [:octicons-tag-16:{ title="ab Release 19.0 (OO-7491)" }](https://track.frentix.com/issue/OO-7491)
 
-Dateien können auch per **Drag & Drop** mit der Maus auf ein markiertes Zielfeld geschoben werden.
+Dateien ziehen Sie auch per Drag & Drop mit der Maus auf ein markiertes Zielfeld.
 
 ### Multi-File-Upload
 
-Es ist auch möglich, mehrere Dateien zu selektieren und gemeinsam auf das Zielfeld zu schieben.
+Sie können auch mehrere Dateien auswählen und gemeinsam auf das Zielfeld ziehen.
 
 ### Massenaktionen
 
@@ -180,7 +180,7 @@ Die Vorschau in der Lightbox liefert die Datei über eine eigene Inhaltsdomäne 
 Die Vorschau in der Lightbox setzt eine Inhaltsdomäne voraus, die Administrator:innen eingerichtet haben. Ohne Inhaltsdomäne öffnet sich eine HTML-Datei auch bei reinem Leserecht in einem neuen Browserfenster. Wie die Inhaltsdomäne eingerichtet wird, beschreibt der englischsprachige [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
 
 
-## Papierkorb {: #paper_basket}
+## Papierkorb [:octicons-tag-16:{ title="ab Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #paper_basket}
 
 Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelöscht werden. Die Verbleibdauer im Papierkorb und das automatische Löschen wird von Administrator:innen eingerichtet.
 
@@ -213,6 +213,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 [Kurseinstellungen - Tab Optionen >](../learningresources/Course_Settings_Options.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
 [Konzept des File Hub >](File_Hub_Concept.de.md)<br>
+[Allgemeines zur Suche >](Search_General.de.md)<br>
 [Installation guide >](../../manual_admin/installation/installGuide.md)
 
 **Weiterführend**<br>

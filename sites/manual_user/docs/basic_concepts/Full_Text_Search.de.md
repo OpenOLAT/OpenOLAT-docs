@@ -6,7 +6,7 @@ Die Suche ist nur dann sichtbar und nutzbar, wenn sie in der Administration akti
 
 Das Suchfeld für die Volltextsuche ist oben rechts in der Menüzeile platziert. Die Volltextsuche sucht in verschiedenen Kurs- und Gruppeninhalten nach Suchbegriffen, beispielsweise auch in Forumsbeiträgen, PDF- und Word-Dateien. Weiter können Sie auch nach Teilnehmenden, nach Portfoliomappen und Artefakten sowie nach Dokumenten in den [persönlichen Dateien](../personal_menu/File_Hub.de.md#personal_files) suchen. Eine Ausnahme ist der private Ordner, welcher nicht indexiert wird.
 
-![Trefferliste zum Suchbegriff e-learning mit hervorgehobenen Fundstellen und Angabe des Fundorts je Treffer, im Dialog Volltextsuche](assets/generelle_Suche.png){ class="shadow lightbox" }
+![Trefferliste zum Suchbegriff e-learning mit hervorgehobenen Fundstellen und Angabe des Fundorts je Treffer, im Dialog Volltextsuche](assets/generelle_Suche.png){ class="shadow lightbox" title="Dialog Volltextsuche" }
 
 Sie finden über die Volltextsuche immer nur diejenigen Kursinhalte, auf die Sie Zugriff haben.
 
@@ -14,9 +14,9 @@ Sie finden über die Volltextsuche immer nur diejenigen Kursinhalte, auf die Sie
 
 Um die Suche zu verfeinern, benutzen Sie die erweiterte Suche.
 
-![Link Erweiterte Suche unterhalb des Suchfelds, im Dialog Volltextsuche](assets/full_text_search_advanced_link_DE.png){ class="shadow lightbox" }
+![Link Erweiterte Suche unterhalb des Suchfelds, im Dialog Volltextsuche](assets/full_text_search_advanced_link_DE.png){ class="shadow lightbox" title="Dialog Volltextsuche" }
 
-![Formular der erweiterten Suche mit den Feldern Volltextsuche, Autor, Titel, Beschreibung, Erstellungsdatum, Letzte Änderung, Dokumententyp, Lizenz und Metadaten, im Dialog Volltextsuche](assets/full_text_search_advanced_DE.png){ class="shadow lightbox" }
+![Formular der erweiterten Suche mit den Feldern Volltextsuche, Autor, Titel, Beschreibung, Erstellungsdatum, Letzte Änderung, Dokumententyp, Lizenz und Metadaten, im Dialog Volltextsuche](assets/full_text_search_advanced_DE.png){ class="shadow lightbox" title="Erweiterte Suche im Dialog Volltextsuche" }
 
 Im Modus _Erweiterte Suche_ können Sie Ihre Sucheingabe verfeinern. Beachten Sie, dass die verschiedenen Suchfelder mit dem booleschen AND-Operator verknüpft werden. D.h. wenn Sie zum Beispiel die Felder _Titel_ und _Autor_ ausfüllen, werden nur Dokumente gefunden, bei denen die Begriffe in den jeweiligen Feldern gleichzeitig vorkommen.
 
@@ -56,7 +56,7 @@ Die Metadaten werden von der Volltextsuche indexiert. Dies bedeutet, dass man in
 **Datei sperren:** In den Metadaten können Sie eine Datei als gesperrt
 markieren. Gesperrte Dateien sind mit einem Schloss versehen und können von anderen Teilnehmenden nicht mehr überschrieben, gelöscht oder verschoben werden. Diese Option ist für Ordner nicht vorhanden.
 
-![Gesperrte Datei mit rot umrahmtem Schloss-Symbol in der Spalte Gesperrt, in der Dateiliste eines Ordners](assets/Datei_gesperrt_DE_Detail.png){ class="shadow lightbox" }
+![Dateiliste eines Ordners, bei der gesperrten Datei ist in der Spalte Dateistatus die Markierung Gesperrt mit Schloss markiert](assets/search_general_folder_locked_file_v1_de.png){ class="shadow lightbox" title="Dateiliste eines Ordners · 2026.11.03" }
 
 Mit Hilfe des verfügbaren externen Links können Sie auch ausserhalb von
 OpenOlat direkt auf eine bestimmte Datei verlinken.
