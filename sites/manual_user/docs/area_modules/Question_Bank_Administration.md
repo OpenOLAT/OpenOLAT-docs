@@ -44,7 +44,7 @@ In order for a question to be submitted to the review process, a subject must be
 
 ![Pool administration page with the button Create pool and the table of pools with the columns Public, Name, Edit, Owners and Delete, so you see where you create, edit and restrict the pools](assets/question_bank_administration_pool_admin_v1_en.png){ class="shadow lightbox" title="Pool administration page in the Administration area · 2026.10.29" }
 
-A pool is a question database that is available to authors for the exchange of test questions.
+A pool is a collection of questions in the question bank through which authors exchange test questions with each other.
 
 You add new pools with the button "Create pool". You edit or delete existing pools in the table of pools.
 

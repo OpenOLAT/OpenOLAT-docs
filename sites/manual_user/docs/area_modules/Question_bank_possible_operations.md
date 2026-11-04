@@ -73,9 +73,9 @@ When sharing, you define whether the question may be edited in the new location 
 
 ## Copy {: #copy}
 
-Copy questions from pools to create a copy in your question database under "My questions". The title of a copy begins with "(Copy)".
+Copy a question from a pool if you want to edit it independently of the original. You are the owner of the copy, and it is listed under `My question bank > My questions`. The title of a copy begins with "(Copy)".
 
-The copy of questions created in lists or shares can also be saved under the respective list or share in addition to "My questions".
+If you copy questions in a list or share, you can also place the copy there in the dialog "Copy".
 
 [To the top of the page ^](#using_the_questions)
 

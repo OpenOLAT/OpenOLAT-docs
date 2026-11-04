@@ -44,11 +44,11 @@ Damit eine Frage in den Beurteilungsprozess gegeben werden kann, muss ein Fachbe
 
 ![Seite Pool-Verwaltung mit dem Button Pool erstellen und der Tabelle zweier Pools mit der Checkbox Öffentlich, Name, Bearbeiten, Besitzer:innen und Löschen](assets/question_bank_administration_pool_admin_v1_de.png){ class="shadow lightbox" title="Seite Pool-Verwaltung im Bereich Administration" }
 
-Ein Pool (engl. Sammelbecken, Reservoir etc.) ist eine Fragendatenbank, die Autor:innen für den Austausch von Testfragen zur Verfügung steht.
+Ein Pool ist eine Sammlung von Fragen im Fragenpool, über die Autor:innen Testfragen untereinander austauschen.
 
 Neue Pools fügen Sie mit der Schaltfläche "Pool erstellen" hinzu. Bestehende Pools bearbeiten oder löschen Sie in der Tabelle der Pools.
 
-Fragenpools können entweder öffentlich sein (und stehen damit automatisch allen Autor:innen zur Verfügung) oder nicht öffentlich. Bei einem nicht öffentlichen Pool beschränken Sie den Zugriff auf ausgesuchte Personen, zum Beispiel auf die Mitarbeiter:innen einer Abteilung.
+Pools können entweder öffentlich sein (und stehen damit automatisch allen Autor:innen zur Verfügung) oder nicht öffentlich. Bei einem nicht öffentlichen Pool beschränken Sie den Zugriff auf ausgesuchte Personen, zum Beispiel auf die Mitarbeiter:innen einer Abteilung.
 
 ![Symbol Pool](assets/share_pool_64_0_434343_none.png){ class="aside-right lightbox" }
 

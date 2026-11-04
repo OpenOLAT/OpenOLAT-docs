@@ -58,7 +58,7 @@ Geben Sie Fragen in einen Pool frei, erhalten alle Benutzer:innen mit Zugriff au
 
 !!! info "Wichtig"
 
-    Beachten Sie, dass auch bei der Freigabe in einen Pool oder für eine Gruppe die jeweiligen Personen grundsätzlich zunächst das Recht auf den Zugriff zum Fragenpool besitzen müssen. Beispielsweise besitzen normale Benutzer:innen standardmässig nicht das Zugriffsrecht auf die Fragenpools.
+    Beachten Sie, dass auch bei der Freigabe in einen Pool oder für eine Gruppe die jeweiligen Personen grundsätzlich zunächst das Recht auf den Zugriff zum Fragenpool besitzen müssen. Beispielsweise besitzen normale Benutzer:innen standardmässig nicht das Zugriffsrecht auf den Fragenpool.
 
 Administrator:innen und [Poolverwalter:innen](Question_Bank_Administration.de.md) (eine spezifische OpenOlat-Rolle) mit dem Recht für die Pool-Verwaltung legen beliebig viele Pools an. Diese können entweder öffentlich, und damit für alle zugriffsberechtigten Benutzer:innen sichtbar sein, oder privat. Die Anzahl der angezeigten Pools kann daher von Benutzer:in zu Benutzer:in unterschiedlich sein. Wenden Sie sich an Ihre Poolverwalter:innen, falls Sie auf einen Pool keinen Zugriff haben.
 
@@ -73,9 +73,9 @@ Bei der Freigabe legen Sie fest, ob die Frage am neuen Ort bearbeitet werden dar
 
 ## Kopieren {: #copy}
 
-Kopieren Sie Fragen aus Pools, um eine Kopie in Ihrer Fragendatenbank unter "Meine Fragen" zu erstellen. Der Titel einer Kopie beginnt mit "(Copy)".
+Kopieren Sie eine Frage aus einem Pool, wenn Sie sie unabhängig vom Original bearbeiten möchten. Sie sind Besitzer:in der Kopie, sie liegt unter `Mein Fragenpool > Meine Fragen`. Der Titel einer Kopie beginnt mit "(Copy)".
 
-Die Kopie von Fragen, welche in Listen oder Freigaben erstellt wird, kann zusätzlich zu "Meine Fragen" auch unter der jeweiligen Liste oder Freigabe abgespeichert werden.
+Kopieren Sie Fragen in einer Liste oder Freigabe, können Sie die Kopie im Dialog "Kopieren" zusätzlich dort ablegen.
 
 [Zum Seitenanfang ^](#using_the_questions)
 
