@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 30.09.2026 • Letztes Update: 21.10.2026**
+:material-calendar-month-outline: **Releasedatum: 30.09.2026 • Letztes Update: 04.11.2026**
 
 * * *
 
@@ -105,6 +105,7 @@ Beim Kopieren einer Durchführung verschickte OpenOlat bisher für jedes kopiert
 * **[Kommentar Teilnehmer:in](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/#tab_members){:target="_blank"}:** Kommentare aus der Buchung zeigt die Mitgliedertabelle direkt mit einem Notizsymbol, ohne dass jede Person einzeln geöffnet werden muss.
 * **Termine kopieren:** Kopien übernehmen alle Angaben wie Ort, Online-Termin, Raum, Dozierende und Themen. Einzel- und Sammelaktion verhalten sich gleich.
 * **[Termine und Absenzen](https://docs.openolat.org/de/manual_user/learningresources/Course_Settings_Execution/#lecture_enabled){:target="_blank"}:** Wird im Course Planner ein Termin für einen Kurs erstellt oder zugewiesen, schaltet OpenOlat die Funktion im Kurs automatisch ein.
+* **Stornierung:** Angebote «Frei verfügbar» und «Zugangscode» von Durchführungen lassen sich als «Stornierbar» einstellen, jederzeit oder bis zum Beginndatum. Bisher nur bei «Rechnung» (:octicons-tag-24: Release 21.1.2)
 
 * * *
 
@@ -175,9 +176,11 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 * **Barrierefreie Menüs:** Popup-Menüs an rund 240 Stellen kündigen sich beim Screenreader an, öffnen mit der Leertaste und geben den Fokus nach dem Schliessen zurück.
 * **Suche:** Suchfelder sind einheitlich gestaltet und lassen sich mit «Suche zurücksetzen» leeren.
 * **Teilen:** Eine Aktion vereint «Link kopieren», «QR-Code anzeigen» und den Versand per E-Mail.
+* **Link-Felder:** Links, etwa unter «Über diesen Kurs» oder in der Visitenkarte, lassen sich einheitlich kopieren, als QR-Code anzeigen und als PNG herunterladen (:octicons-tag-24: Release 21.1.2)
 * **Course Planner:** Der Kopfbereich der Elemente passt sich kleinen Bildschirmen an.
 * **Fragetyp Reihenfolge:** Neutrale Anleitungstexte passen zu jeder Anordnung und Verwendung der Frage.
 * **Formulareditor:** Wie die anderen Editoren zeigt er eine gelbe Schraffur als Kennzeichen der Bearbeitung.
+* **Infomeldungen:** erscheinen vor geöffneten Dialogen und sind nicht mehr verdeckt (:octicons-tag-24: Release 21.1.2)
 
 * * *
 
@@ -201,6 +204,7 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 * **REST API, Audit-Log:** Protokoll über jeden schreibenden und abgelehnten Aufruf, inklusive der übermittelten Daten mit maskierten Passwörtern, auch als Excel-Export verfügbar.
 * **REST API, Limite für Anfragen (Rate Limiting):** Begrenzt die Anfragen pro Benutzer:in und Minute sowie die parallelen Anfragen. Abgewiesene Anfragen erhalten den HTTP-Status 429 und erscheinen im Audit-Log.
 * **REST API, Räume von Terminen (Breaking Change):** `.../lectureblocks/{key}/room` liefert und erwartet alle Raumbuchungen eines Termins als Array statt als Objekt; ohne Buchung antwortet `GET` mit `200` und leerem Array statt `204`. Der neue Endpunkt `GET /rm/bookings?lectureBlockKeys=` liefert die Buchungen für bis zu 500 Termine in einer Anfrage.
+* **REST API, Nutzungsbedingungen und Datenschutzerklärung:** lassen sich pro Kurs lesen und konfigurieren (:octicons-tag-24: Release 21.1.2)
 * **SSRF Mitigation:** Erfasste URLs, etwa von Kalendern oder Feeds, dürfen nicht mehr auf lokale oder interne Adressen zeigen. Neuinstallationen aktiv, bestehende per Opt-in.
 * **[Benutzer:innen-Attribute](https://docs.openolat.org/de/manual_admin/administration/Customizing/#user_properties){:target="_blank"}:**
     * «Zurücksetzen» bietet nur noch «Default» und «Minimal», berechnet aus der Systemkonfiguration. Neuinstallationen und «Default» schalten Skype, XING, LinkedIn und ICQ aus (:octicons-tag-24: Release 21.1.1)
@@ -209,6 +213,7 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 * **Öffentliche Seiten ohne Session:** Sitemaps und Fehlerseiten erzeugen keine Session mehr, das Impressum hat eine feste URL für Suchmaschinen (:octicons-tag-24: Release 21.1.1)
 * **Antwortadresse der System-Mails:** Die neue Property `adminemailname` legt einen Anzeigenamen für die Antwortadresse fest (:octicons-tag-24: Release 21.1.1)
 * Aktualisierung der Bibliotheken von Drittanbietern
+* **[Tomcat ab 10.1.61](https://docs.openolat.org/de/manual_admin/installation/updateGuide/#tomcat-10161-and-greater){:target="_blank"}:** Bei mehr als 10 Browsersprachen erscheint wieder die Login-Seite statt einer Fehlerseite. Empfohlen: `maxLocaleCount="-1"` auf allen Connectors in `server.xml` (:octicons-tag-24: Release 21.1.2)
 
 * * *
 
@@ -239,5 +244,6 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 21.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.2&title=Release%20Notes%2021.1.2){:target="_blank"}
 * [YouTrack Release Notes 21.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.1&title=Release%20Notes%2021.1.1){:target="_blank"}
 * [YouTrack Release Notes 21.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.0&title=Release%20Notes%2021.1.0){:target="_blank"}

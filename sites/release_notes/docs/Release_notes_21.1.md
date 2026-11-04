@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 09/30/2026 • Last update: 10/21/2026**
+:material-calendar-month-outline: **Release date: 09/30/2026 • Last update: 11/04/2026**
 
 * * *
 
@@ -105,6 +105,7 @@ Until now, when an implementation was copied, OpenOlat sent a separate mail for 
 * **[Participant comment](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Implementations/#tab_members){:target="_blank"}:** The members table shows comments from the booking directly with a note icon, without each person having to be opened individually.
 * **Copy events:** Copies take over all details such as location, online meeting, room, teachers and topics. Single and bulk actions behave the same.
 * **[Events and absences](https://docs.openolat.org/en/manual_user/learningresources/Course_Settings_Execution/#lecture_enabled){:target="_blank"}:** If an event for a course is created or assigned in the Course Planner, OpenOlat automatically switches the function on in the course.
+* **Cancellation:** «Freely available» and «Access code» offers of implementations can be set as «Cancelable», at any time or until the begin date. Previously only for «Invoice» (:octicons-tag-24: Release 21.1.2)
 
 * * *
 
@@ -175,9 +176,11 @@ Until now, when all test results were exported, the PDF files only had a number 
 * **Accessible menus:** Pop-up menus in around 240 places announce themselves to screen readers, open with the space bar and return the focus after closing.
 * **Search:** Search fields have a uniform design and can be cleared with «Reset search».
 * **Share:** One action combines «Copy link», «Show QR code» and sending by email.
+* **Link fields:** Links, for example under «About this course» or on the visiting card, can be copied, shown as QR code and downloaded as PNG in a uniform way (:octicons-tag-24: Release 21.1.2)
 * **Course Planner:** The header area of the elements adapts to small screens.
 * **Question type Order:** Neutral instruction texts fit every arrangement and use of the question.
 * **Form editor:** Like the other editors, it shows yellow hatching as an indicator of editing.
+* **Info messages:** appear in front of open dialogs and are no longer hidden (:octicons-tag-24: Release 21.1.2)
 
 * * *
 
@@ -201,6 +204,7 @@ Until now, when all test results were exported, the PDF files only had a number 
 * **REST API, audit log:** Log of every writing and rejected call, including the transmitted data with masked passwords, also available as an Excel export.
 * **REST API, rate limits:** Limits the requests per user and minute as well as the parallel requests. Rejected requests receive the HTTP status 429 and appear in the audit log.
 * **REST API, rooms of events (Breaking Change):** `.../lectureblocks/{key}/room` returns and expects all room bookings of an event as an array instead of an object; without a booking, `GET` responds with `200` and an empty array instead of `204`. The new endpoint `GET /rm/bookings?lectureBlockKeys=` returns the bookings for up to 500 events in one request.
+* **REST API, terms of use and privacy policy:** can be read and configured per course (:octicons-tag-24: Release 21.1.2)
 * **SSRF Mitigation:** Entered URLs, for example of calendars or feeds, may no longer point to local or internal addresses. Active for new installations, opt-in for existing ones.
 * **[User properties](https://docs.openolat.org/en/manual_admin/administration/Customizing/#user_properties){:target="_blank"}:**
     * «Reset» only offers «Default» and «Minimal», calculated from the system configuration. New installations and «Default» switch off Skype, XING, LinkedIn and ICQ (:octicons-tag-24: Release 21.1.1)
@@ -209,6 +213,7 @@ Until now, when all test results were exported, the PDF files only had a number 
 * **Public pages without session:** Sitemaps and error pages no longer create a session, and the imprint has a fixed URL for search engines (:octicons-tag-24: Release 21.1.1)
 * **Reply-to address of system mails:** The new property `adminemailname` defines a display name for the reply-to address (:octicons-tag-24: Release 21.1.1)
 * Update of third-party libraries
+* **[Tomcat 10.1.61 and greater](https://docs.openolat.org/en/manual_admin/installation/updateGuide/#tomcat-10161-and-greater){:target="_blank"}:** With more than 10 browser languages, the login page appears again instead of an error page. Recommended: `maxLocaleCount="-1"` on all connectors in `server.xml` (:octicons-tag-24: Release 21.1.2)
 
 * * *
 
@@ -239,5 +244,6 @@ Until now, when all test results were exported, the PDF files only had a number 
 
 ## Further information
 
+* [YouTrack Release notes 21.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.2&title=Release%20Notes%2021.1.2){:target="_blank"}
 * [YouTrack Release notes 21.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.1&title=Release%20Notes%2021.1.1){:target="_blank"}
 * [YouTrack Release notes 21.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.0&title=Release%20Notes%2021.1.0){:target="_blank"}
