@@ -54,7 +54,7 @@ Wer mit dem Katalog V1 arbeitet, legt im Tab "Konfiguration" fest, wo der Katalo
 
 Was Personen auf der Startseite des Katalogs zuerst sehen, stellen Sie im Tab "Startseite" aus Launchern zusammen. Launcher sind die konfigurierbaren Abschnitte der Startseite, zum Beispiel eine Reihe mit den zuletzt veröffentlichten Kursen. Mit "Launcher hinzufügen" wählen Sie den Launchertyp.
 
-Welche Inhalte ein Launcher zeigt, wählt OpenOlat automatisch nach dem Launchertyp aus. Die verfügbaren Launchertypen sind nachstehend beschrieben. Standardmässig ist ein Launcher vom Typ "Zuletzt veröffentlicht" aktiviert.
+Welche Inhalte ein Launcher zeigt, wählt OpenOlat automatisch nach dem Launchertyp aus. Die verfügbaren Launchertypen sind nachstehend beschrieben. Standardmässig ist ein Launcher vom Typ "Zuletzt veröffentlicht" aktiviert. Die Launchertypen "Beliebte Kurse", "Zuletzt veröffentlicht" und "Zufallsgenerator" gibt es nur einmal. Ist einer davon schon angelegt, fehlt er im Menü "Launcher hinzufügen".
 
 Allen Launchern kann ein Name in verschiedenen Sprachen gegeben werden. Der Name erscheint dann als Kopfzeile über den Kacheln. Launcher können auch nur für spezifische Organisationen freigegeben werden. Wählen Sie dazu "Einschränkung auf Organisationen". Ausserdem kann separat bestimmt werden, ob ein Launcher im internen und/oder externen Katalog angezeigt wird.
 
@@ -68,7 +68,7 @@ In diesem Launcher kann manuell statischer Text hinzugefügt werden.
 
 #### Launchertyp "Beliebte Kurse"
 
-Die Reihenfolge der Angebote in diesem Launcher wird durch die Anzahl der Klicks auf Kursbausteine während der letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status "Publiziert" berücksichtigt.
+Die Reihenfolge der Angebote in diesem Launcher wird durch die Anzahl der Klicks auf Kursbausteine während der letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status "Veröffentlicht" berücksichtigt.
 
 
 #### Launchertyp "Zuletzt veröffentlicht"

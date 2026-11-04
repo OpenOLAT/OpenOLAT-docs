@@ -55,7 +55,7 @@ Whoever works with Catalog V1 sets in the "Configuration" tab where the catalog 
 
 What people see first on the launch page of the catalog, you put together from launchers in the "Launch page" tab. Launchers are the configurable sections of the launch page, for example a row with the most recently published courses. With "Add launcher" you choose the launcher type.
 
-OpenOlat selects the content of a launcher automatically according to the launcher type. The available launcher types are described below. By default, a launcher of the type "Recently published" is activated.
+OpenOlat selects the content of a launcher automatically according to the launcher type. The available launcher types are described below. By default, a launcher of the type "Recently published" is activated. The launcher types "Popular courses", "Recently published" and "Random" exist only once. If one of them has already been created, it is missing from the menu "Add launcher".
 
 All launchers can be given a name in different languages. The name then appears as a header above the tiles. Launchers can also be released only for specific organizations. To do this, select "Restriction to organizations". In addition, you can specify separately whether a launcher is displayed in the internal and/or external catalog.
 
@@ -74,7 +74,7 @@ The order of the offers in this launcher is determined by the number of clicks o
 
 The offers are sorted by publication date.
 
-#### Launcher type "Random generator"
+#### Launcher type "Random"
 
 The offers of this launcher appear in random order.
 
