@@ -1,6 +1,6 @@
 # Fragenpool: Fragen erstellen {: #create_questions}
 
-![Die als Favorit markierten Frageitems mit Typ, Format und Status, darunter die Aktionen für Listen, Test, Export und Freigabe](assets/Fragenpool_favoriten.png){ class="shadow lightbox" title="Bereich Meine Favoriten im Fragenpool" }
+![Die als Favorit markierten Frageitems mit Fachbereich, Typ und Format, darüber die Filter und die Aktionen für Test, Listen, Export und Freigabe, so finden Sie markierte Fragen schnell wieder](assets/question_create_favorites_v1_de.png){ class="shadow lightbox" title="Bereich Meine Favoriten im Fragenpool · 2026.11.04" }
 
 ## Übersicht über vorhandene Fragen [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #question_list}
 
@@ -18,9 +18,9 @@ Eine Übersicht der Fragetypen, die erstellt und importiert werden können, find
 
 Frageitems können im Fragenpool über den Button "Frage erstellen" im QTI 2.1 Format erstellt und direkt zur weiteren Nutzung gespeichert werden.
 
-![Geöffnete Auswahlliste der QTI 2.1 Fragetypen, von Single Choice bis Lückentext mit Dropdown](assets/Frage_erstellen_typen.png){ class="shadow lightbox" title="Dialog Frage erstellen" }
+![Dialog Frage erstellen mit den Feldern Titel, Fragetyp und Fachbereich, so sehen Sie, welche Angaben eine neue Frage braucht](assets/question_create_types_v1_de.png){ class="shadow lightbox" title="Dialog Frage erstellen im Fragenpool · 2026.11.04" }
 
-Im Dialog "Frage erstellen" geben Sie einen Titel ein und wählen anschliessend den Fragetyp und, falls vorhanden, den Fachbereich. Die so erstellten Fragen können dann in die OpenOlat Lernressource Test importiert und verwendet werden.
+Im Dialog "Frage erstellen" geben Sie einen Titel ein und wählen anschliessend den Fragetyp und, falls vorhanden, den Fachbereich. Im Feld "Fragetyp" stehen 16 Fragetypen im Format QTI 2.1 zur Wahl, in dieser Reihenfolge: "Single Choice", "Multiple Choice", "Kprim", "Matrix", "Drag and Drop", "True/false", "Lückentext", "Lückentext numerisch", "Lückentext mit Dropdown", "Lückentext gemischt", "Hotspot", "Freitext", "Datei hochladen", "Zeichnen", "Hottext" und "Reihenfolge". Die so erstellten Fragen können dann in die OpenOlat Lernressource Test importiert und verwendet werden.
 
 [Zum Seitenanfang ^](#create_questions)
 
@@ -49,21 +49,24 @@ Bitte beachten Sie, dass die Fragen in jedem Einzelfall auf inhaltliche Korrekth
 
 ## KI-Bewertung einer Freitextfrage bearbeiten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
-Bei Freitextfragen mit KI-Korrektur legt ein Bewertungskit fest, wie die KI die Antworten einschätzt. Die KI füllt dieses Kit bei der Generierung vor; Sie können es im Reiter "KI-Feedback" der Frage von Hand anpassen. Der Reiter erscheint auch bei einer selbst erstellten Freitextfrage. So bauen Sie das Bewertungskit von Anfang an selbst auf.
+Bei Freitextfragen mit KI-Korrektur legt ein Bewertungskit fest, wie die KI die Antworten einschätzt. Die KI füllt dieses Kit bei der Generierung vor; Sie können es im Tab "KI-Feedback" der Frage von Hand anpassen. Der Tab erscheint auch bei einer selbst erstellten Freitextfrage. So bauen Sie das Bewertungskit von Anfang an selbst auf. OpenOlat zeigt den Tab, sobald in der System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Essay Bewertung" aktiviert und mit einem KI-Anbieter und Modell konfiguriert ist.
 
-Folgende Angaben stehen zur Verfügung:
+Fünf Angaben sind Pflicht und tragen einen Stern: "Lernziel", "Quelltext-Auszug", "Musterantwort", "Bloom-Stufe" und "Sprache (BCP-47)". Alle übrigen Angaben sind optional, auch die Schlüsselpunkte und die Bewertungskriterien.
 
-* **"Lernziel"**: das Lernziel, das die Frage prüft. Pflichtfeld.
-* **"Quelltext-Auszug"**: der Fachtext, auf den sich die Frage bezieht. Pflichtfeld.
-* **"Musterantwort"**: die erwartete Referenzantwort. Pflichtfeld.
+* **"Lernziel"**: das Lernziel, das die Frage prüft.
+* **"Quelltext-Auszug"**: der Fachtext, auf den sich die Frage bezieht.
+* **"Musterantwort"**: die erwartete Referenzantwort.
 * **"Korrekturhinweise"**: zusätzliche Vorgaben an die KI.
-* **"Bloom-Stufe"** und **"Sprache (BCP-47)"**: die kognitive Stufe der Frage und die Sprache des Feedbacks. Beides Pflichtfelder.
+* **"Bloom-Stufe"**: die kognitive Stufe der Frage.
+* **"Sprache (BCP-47)"**: die Sprache, in der Lernende antworten sollen, als Sprach-Tag wie `de`, `en` oder `fr`. Tragen Sie den Sprach-Tag ohne Region ein, etwa `en`. OpenOlat belegt das leere Feld mit der Sprache Ihrer Benutzeroberfläche vor. Antworten Lernende in einer anderen Sprache, weist das KI-Feedback darauf hin. Das Feedback selbst schreibt die KI in der Sprache, die die lernende Person in ihren [persönlichen Einstellungen](../personal_menu/Settings.de.md#language) gewählt hat.
 * **"Schwierigkeitsgrad"**: ein Wert von 1 bis 5 zur weiteren Steuerung.
-* **"Schlüsselpunkte"**: die abzudeckenden Kernaspekte, je mit einer Beschreibung und einem Gewicht von 0.0 bis 1.0.
-* **"Bewertungskriterien"**: benannte Kriterien mit "Name", "Beschreibung", einem "Bereich" ("Inhalt" oder "Sprache") und einem Gewicht.
+* **"Schlüsselpunkte"**: was eine gute Antwort enthalten muss, je mit einer Beschreibung, einem Gewicht von 0.0 bis 1.0 und der Markierung "erforderlich".
+* **"Bewertungskriterien"**: nach welchen Gesichtspunkten die KI die Antwort beurteilt, je mit "Name", "Beschreibung", einem "Bereich" ("Inhalt" oder "Sprache") und einem Gewicht.
 * **"Häufige Missverständnisse"**: typische Fehlannahmen, die im Feedback berücksichtigt werden.
 
-Sind bei den Schlüsselpunkten oder den Bewertungskriterien Zeilen ausgefüllt, muss die Summe aller Gewichte 1.0 ergeben.
+Eine Zeile gilt als ausgefüllt, sobald ihre Beschreibung, bei Bewertungskriterien ihr Name, eingetragen ist. Sind bei den Schlüsselpunkten oder den Bewertungskriterien Zeilen ausgefüllt, muss die Summe aller Gewichte 1.0 ergeben. Den Hinweis dazu zeigt OpenOlat unter beiden Tabellen.
+
+Lässt sich das Bewertungskit nicht speichern, zeigt OpenOlat den Fehler direkt am Feld oder an der Zeile der Tabelle. Ergeben die Gewichte nicht 1.0, steht die Meldung "Summe der Gewichte muss 1.0 ergeben (±0.01)." beim Gewicht der ersten Zeile.
 
 Mit dem Button "Feedback testen" geben Sie eine Beispielantwort ein und sehen in der Vorschau, welches KI-Feedback Lernende erhalten würden. So lässt sich das Bewertungskit vor dem Einsatz feinjustieren.
 
@@ -101,6 +104,7 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 **Auf dieser Seite erwähnt**<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
 [Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Fragenpool: Freigabemöglichkeiten >](Question_Pool_Sharing_Options.de.md)

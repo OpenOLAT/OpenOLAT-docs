@@ -26,7 +26,7 @@ Eine Freitextfrage mit KI-Auswertung gibt Lernenden ein **formatives Feedback** 
 Drei Punkte bestimmen den Einsatz:
 
 * Das Feedback **vergibt keine Punkte**. Es dient der Selbsteinschätzung und ersetzt keine Bewertung durch die Kursbetreuung.
-* Die Frage lebt im **Inhaltselement "Quiz"** des Content Editors, also auf einer Seite im Kursbaustein "Seite" oder im Media Center. In den Kursbausteinen "Test" und "Selbsttest" gibt es kein KI-Feedback.
+* Sie legen die Frage im **Inhaltselement "Quiz"** des Content Editors an, also auf einer Seite im Kursbaustein "Seite" oder im Media Center. In den Kursbausteinen "Test" und "Selbsttest" gibt es kein KI-Feedback.
 * Lernende rufen das Feedback selbst ab und können ihre Antwort danach überarbeiten.
 
 Für eine bewertete Prüfung nutzen Sie weiterhin den [Kursbaustein Test](../../manual_user/learningresources/Course_Element_Test/index.de.md) mit manueller Korrektur.
@@ -93,22 +93,28 @@ Fünf Angaben sind Pflicht und mit einem Stern markiert:
 | "Quelltext-Auszug" | Der Fachinhalt, auf dem die Frage beruht. Die KI nutzt ihn als Referenz. |
 | "Musterantwort" | Die erwartete Antwort in der Länge und Sprache, die Sie von Lernenden erwarten. |
 | "Bloom-Stufe" | Die kognitive Stufe der Frage: "Erinnern", "Verstehen", "Anwenden", "Analysieren", "Bewerten" oder "Erschaffen". |
-| "Sprache (BCP-47)" | Die erwartete Antwortsprache, zum Beispiel `de` oder `en-US`. |
+| "Sprache (BCP-47)" | Die Sprache, in der Lernende antworten sollen, als Sprach-Tag wie `de`, `en` oder `fr`. Tragen Sie den Sprach-Tag ohne Region ein, etwa `en`. OpenOlat belegt das leere Feld mit der Sprache Ihrer Benutzeroberfläche vor. Antworten Lernende in einer anderen Sprache, weist das KI-Feedback darauf hin. |
 
 ![Die fünf Pflichtfelder Lernziel, Quelltext-Auszug, Musterantwort, Bloom-Stufe und Sprache tragen einen Stern, die Korrekturhinweise nicht](assets/ai_essay_grading_kit_top_v1_de.png){ class="shadow lightbox" title="Tab KI-Feedback einer Freitextfrage im Quiz" }
 
-Die übrigen Felder schärfen das Feedback:
+Das Feedback an Lernende schreibt die KI in der Sprache, die die lernende Person in ihren [persönlichen Einstellungen](../../manual_user/personal_menu/Settings.de.md#language) gewählt hat. Die Vorschau "Feedback testen" in Schritt 3 schreibt es in der Sprache aus dem Feld "Sprache (BCP-47)".
+
+Die übrigen Felder sind optional und schärfen das Feedback:
 
 * **"Korrekturhinweise"**: Regeln für die Beurteilung, etwa dass Fachbegriffe nicht zwingend sind.
 * **"Schwierigkeitsgrad (1–5)"**: Der Anspruch, den die KI beim Beurteilen anlegt.
 * **"Schlüsselpunkte"**: Die Kernaspekte, die eine gute Antwort abdeckt. Jeder Punkt erhält eine Beschreibung, ein Gewicht von 0.0 bis 1.0 und die Markierung "erforderlich". Sind Zeilen ausgefüllt, muss die Summe der Gewichte 1.0 ergeben (Toleranz 0.01).
 ![Drei Schlüsselpunkte mit den Gewichten 0.4, 0.3 und 0.3, alle erforderlich, darunter der Hinweis zur Gewichtssumme 1.0](assets/ai_essay_grading_kit_keypoints_v1_de.png){ class="shadow lightbox" title="Abschnitt Schlüsselpunkte im Tab KI-Feedback" }
 
-* **"Bewertungskriterien"**: Benannte Kriterien mit Beschreibung, Gewicht und dem Bereich "Inhalt" oder "Sprache". Auch hier ergibt die Summe der Gewichte 1.0.
+* **"Bewertungskriterien"**: Benannte Kriterien mit Beschreibung, Gewicht und dem Bereich "Inhalt" oder "Sprache". Sind Zeilen ausgefüllt, muss auch hier die Summe der Gewichte 1.0 ergeben.
 ![Zwei Bewertungskriterien: Fachliche Richtigkeit mit Gewicht 0.7 im Bereich Inhalt und Klare Sprache mit Gewicht 0.3 im Bereich Sprache](assets/ai_essay_grading_kit_rubric_v1_de.png){ class="shadow lightbox" title="Abschnitt Bewertungskriterien im Tab KI-Feedback" }
 
 * **"Häufige Missverständnisse"**: Typische Falsch-Annahmen. Die KI achtet gezielt darauf und spricht sie im Feedback an.
 ![Zwei Falsch-Annahmen erfasst, darüber ein einzelner Schlüsselpunkt mit Gewicht 1.0 und Schwierigkeitsgrad 5](assets/ai_essay_grading_kit_misconceptions_v1_de.png){ class="shadow lightbox" title="Abschnitt Häufige Missverständnisse im Tab KI-Feedback" }
+
+Eine weitere Zeile fügen Sie mit "Schlüsselpunkt hinzufügen", "Kriterium hinzufügen" oder "Typischen Fehler hinzufügen" an, "Entfernen" löscht eine Zeile.
+
+Lässt sich das Bewertungskit nicht speichern, zeigt OpenOlat den Fehler direkt am Feld oder an der Zeile der Tabelle. Ergeben die Gewichte nicht 1.0, steht die Meldung "Summe der Gewichte muss 1.0 ergeben (±0.01)." beim Gewicht der ersten Zeile.
 
 [Zum Seitenanfang ^](#ai_essay)
 
@@ -157,7 +163,7 @@ Je offener die Frage, desto wichtiger sind Korrekturhinweise und Missverständni
 
 ## Die Ansicht der Lernenden {: #learner_view}
 
-1. Lernende starten das Quiz auf der Seite und beantworten die Freitextfrage im Eingabefeld. Über dem Feld stehen "Hinweise zur Bearbeitung": die erwartete Länge, die Anzahl der Schlüsselkonzepte und die Bereiche, nach denen bewertet wird. Der Zähler zeigt die Anzahl Wörter und das erlaubte Maximum.
+1. Lernende starten das Quiz auf der Seite und beantworten die Freitextfrage im Eingabefeld. Hat die KI die Frage erzeugt, über den Import oder über "KI Fragen" im Fragenpool, endet der Fragetext mit "Hinweise zur Bearbeitung": die erwartete Länge, die Anzahl der Schlüsselkonzepte und die Bereiche, nach denen bewertet wird. Eine von Hand erstellte Frage hat diesen Block nicht. Der Block ist Teil des Fragetexts, Sie können ihn also im Feld "Frage" anpassen oder entfernen. Der Zähler zeigt die Anzahl Wörter und, falls ein Maximum gesetzt ist, das erlaubte Maximum.
 2. Mit **"Überprüfen"** senden die Lernenden die Antwort ab. Während die KI arbeitet, erscheint der Hinweis "Wartet auf KI-Korrektur". Dauert es länger, bittet OpenOlat darum, die Seite offen zu lassen.
 
 ![Die Freitextfrage mit Hinweisen zur Bearbeitung, Eingabefeld, Wortzähler und dem Button Überprüfen](assets/ai_essay_ai_review_v1_de.png){ class="shadow lightbox" title="Lernendenansicht des Quiz auf einer Kursseite" }
@@ -167,6 +173,8 @@ Je offener die Frage, desto wichtiger sind Korrekturhinweise und Missverständni
 ![Beurteilung falsch mit 15 Prozent, Feedbacktext, Verlässlichkeit hoch und der zugeklappte Bereich Detailliertes Feedback](assets/ai_essay_ai_feedback_v1_de.png){ class="shadow lightbox" title="Block KI-Feedback im Quiz nach dem Überprüfen" }
 
 Der Block beginnt mit der **"Beurteilung"** in fünf Stufen: "sehr gut", "gut", "mittelmässig", "ungenügend" und "falsch". Daneben steht die **"Verlässlichkeit Feedback"** mit "hoch", "mittel" oder "niedrig". Sie zeigt, wie sicher die KI ihre eigene Einschätzung einstuft.
+
+OpenOlat erkennt die Sprache der Antwort und vergleicht sie mit dem Feld "Sprache (BCP-47)" im Bewertungskit. Weicht sie ab, zeigt der Block "KI-Feedback" den Hinweis "Die Sprache deiner Antwort scheint nicht der erwarteten Sprache zu entsprechen." Die KI bewertet die Antwort trotzdem.
 
 Unter **"Detailliertes Feedback"** lassen sich weitere Abschnitte aufklappen: "Was gut gelungen ist", "Was fehlt noch" und "Nächster Schritt", dazu die abgedeckten und fehlenden Punkte sowie Rückmeldungen zu Grammatik und Rechtschreibung.
 
@@ -184,7 +192,7 @@ Statt die Frage von Hand zu schreiben, lassen Sie sie aus einem Fachtext erzeuge
 
 1. Klicken Sie im Content Editor auf **"Importieren"**.
 2. Wählen Sie eine Markdown-, Text- oder Word-Datei, oder fügen Sie den Text direkt ein.
-3. Aktivieren Sie den Schalter "KI-generiertes Quiz hinzufügen".
+3. Lassen Sie den Schalter "KI-generiertes Quiz hinzufügen" eingeschaltet, so ist er beim Öffnen des Dialogs gesetzt. Der Schalter "Bild-Metadaten mit KI generieren" betrifft nur die Bilder der importierten Datei: OpenOlat erzeugt dafür Titel, Beschreibung, Alternativtext und Tags.
 4. Legen Sie im Feld "Essay-Frage mit KI-Korrektur" fest, wie viele Freitextfragen entstehen. Erlaubt sind bis zu fünf. Das Feld "MC-Fragen" steuert die Anzahl der Multiple-Choice-Fragen und kann auf 0 bleiben.
 5. Wählen Sie die "Bloom-Stufen" und die "Zielschwierigkeit", und erfassen Sie bei Bedarf "Lernziele", ein Ziel pro Zeile.<br><br>
 ![Schalter KI-generiertes Quiz hinzufügen eingeschaltet, MC-Fragen 0, Essay-Frage mit KI-Korrektur 1, zwei Bloom-Stufen und ein Lernziel gewählt](assets/ai_essay_import_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Importieren im Content Editor" }
@@ -204,7 +212,7 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 - [x] Ist im KI-Modul die Funktion "Essay Bewertung" aktiv und mit einem Modell verbunden?
 - [x] Erscheint im Quiz unter "Hinzufügen" der Eintrag "Freitext"?
 - [x] Sind Lernziel, Quelltext-Auszug, Musterantwort, Bloom-Stufe und Sprache erfasst?
-- [x] Ergeben die Gewichte der Schlüsselpunkte und der Bewertungskriterien je 1.0?
+- [x] Ergeben die Gewichte ausgefüllter Schlüsselpunkte und Bewertungskriterien je 1.0?
 - [x] Wurde das Feedback mit einer Beispielantwort getestet?
 - [x] Passt das erwartete Antwortmass zur Grenze für Eingabewörter im KI-Modul?
 - [x] Ist den Lernenden klar, dass das KI-Feedback keine Punkte vergibt?
@@ -219,6 +227,7 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
 
 **Weiterführend**<br>

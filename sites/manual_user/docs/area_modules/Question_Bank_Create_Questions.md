@@ -1,6 +1,6 @@
 # Question Bank: Create Questions {: #create_questions}
 
-![The question items marked as favorites with type, format and status, below them the actions for lists, test, export and sharing](assets/Fragenpool_favoriten.png){ class="shadow lightbox" title="My favorites area in the question bank" }
+![The question items marked as favorites with type, format and status, above them the filters and the actions for test, lists, export and sharing, so you find marked questions again quickly](assets/question_create_favorites_v1_en.png){ class="shadow lightbox" title="My favorites area in the question bank · 2026.11.04" }
 
 ## Overview of available questions [:octicons-tag-16:{ title="from Release 9.0.0 (OO-533)" }](https://track.frentix.com/issue/OO-533){:target="_blank"} {: #question_list}
 
@@ -18,9 +18,9 @@ An overview of the question types that can be created and imported can be found 
 
 Question items can be created in the question bank using the "Create question" button in QTI 2.1 format and saved directly for further use.
 
-![Open selection list of the QTI 2.1 question types, from Single choice to Gap with dropdown](assets/Frage_erstellen_typen_en.png){ class="shadow lightbox" title="Dialog Create question" }
+![Create question dialog with the fields Title, Type and Subject, so you see what a new question needs](assets/question_create_types_v1_en.png){ class="shadow lightbox" title="Create question dialog in the question bank · 2026.11.04" }
 
-In the dialog "Create question" you enter a title and then select the question type and, if available, the subject. The questions created in this way can then be imported and used in the OpenOlat learning resource "Test".
+In the dialog "Create question" you enter a title and then select the question type and, if available, the subject. The "Type" field offers 16 question types in QTI 2.1 format, in this order: "Single choice", "Multiple choice", "Kprim", "Match", "Drag and Drop", "True/false", "Gap FIB text", "Gap FIB numerical", "Gap with dropdown", "Gap mixed", "Hotspot", "Essay", "Upload file", "Drawing", "Hottext" and "Order". The questions created in this way can then be imported and used in the OpenOlat learning resource "Test".
 
 [To the top of the page ^](#create_questions)
 
@@ -49,21 +49,24 @@ Please note that the questions must be checked for correctness in each individua
 
 ## Edit the AI grading of an essay question [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
-For essay questions with AI correction, a grading kit defines how the AI assesses the answers. The AI prefills this kit during generation; you can adjust it by hand in the question's "AI feedback" tab. The tab also appears on an essay question you created yourself. This lets you build the grading kit from the start.
+For essay questions with AI correction, a grading kit defines how the AI assesses the answers. The AI prefills this kit during generation; you can adjust it by hand in the question's "AI feedback" tab. The tab also appears on an essay question you created yourself. This lets you build the grading kit from the start. OpenOlat shows the tab as soon as the AI feature "Essay Grading" is enabled and configured with an AI provider and model in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration.
 
-The following entries are available:
+Five entries are mandatory and carry an asterisk: "Learning objective", "Reference excerpt", "Model answer", "Bloom level" and "Language (BCP-47)". All other entries are optional, including the key points and the rubric criteria.
 
-* **"Learning objective"**: the learning objective the question tests. Mandatory field.
-* **"Reference excerpt"**: the subject text the question refers to. Mandatory field.
-* **"Model answer"**: the expected reference answer. Mandatory field.
+* **"Learning objective"**: the learning objective the question tests.
+* **"Reference excerpt"**: the subject text the question refers to.
+* **"Model answer"**: the expected reference answer.
 * **"Grading hints"**: additional instructions for the AI.
-* **"Bloom level"** and **"Language (BCP-47)"**: the cognitive level of the question and the language of the feedback. Both are mandatory fields.
+* **"Bloom level"**: the cognitive level of the question.
+* **"Language (BCP-47)"**: the language in which learners are to answer, as a language tag such as `de`, `en` or `fr`. Enter the language tag without region, for example `en`. OpenOlat prefills the empty field with the language of your user interface. If learners answer in a different language, the AI feedback points this out. The AI writes the feedback itself in the language the learner has selected in their [personal settings](../personal_menu/Settings.md#language).
 * **"Difficulty"**: a value from 1 to 5 for further control.
-* **"Key points"**: the core aspects to cover, each with a description and a weight from 0.0 to 1.0.
-* **"Rubric criteria"**: named criteria with "Name", "Descriptor", a "Scope" ("Content" or "Language") and a weight.
+* **"Key points"**: what a good answer must contain, each with a description, a weight from 0.0 to 1.0 and the "required" marker.
+* **"Rubric criteria"**: the aspects by which the AI assesses the answer, each with "Name", "Descriptor", a "Scope" ("Content" or "Language") and a weight.
 * **"Common misconceptions"**: typical false assumptions that are taken into account in the feedback.
 
-If rows are filled in under the key points or the rubric criteria, the sum of all weights must be 1.0.
+A row counts as filled in as soon as its description, or for rubric criteria its name, is entered. If rows are filled in under the key points or the rubric criteria, the sum of all weights must be 1.0. OpenOlat shows the note on this below both tables.
+
+If the grading kit cannot be saved, OpenOlat shows the error directly at the field or at the row of the table. If the weights do not add up to 1.0, the message "Weights must sum to 1.0 (±0.01)." appears at the weight of the first row.
 
 With the "Test feedback" button you enter a sample answer and see in the preview which AI feedback learners would receive. This lets you fine-tune the grading kit before use.
 
@@ -101,6 +104,7 @@ If you are developing questions together, for example, you can create a workgrou
 **Mentioned on this page**<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
+[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
 [Question Bank Review Process >](Question_Bank_Review_Process.md)<br>
 [Question Bank: Sharing Options >](Question_Pool_Sharing_Options.md)

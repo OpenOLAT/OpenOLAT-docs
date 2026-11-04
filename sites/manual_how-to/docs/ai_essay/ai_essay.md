@@ -26,7 +26,7 @@ An essay question with AI grading gives learners **formative feedback** on their
 Three points govern its use:
 
 * The feedback **does not award any points**. It serves self-assessment and does not replace an assessment by the course coaches.
-* The question lives in the **"Quiz" content element** of the Content Editor, that is, on a page in the "Page" course element or in the Media Center. The "Test" and "Self-test" course elements have no AI feedback.
+* You create the question in the **"Quiz" content element** of the Content Editor, that is, on a page in the "Page" course element or in the Media Center. The "Test" and "Self-test" course elements have no AI feedback.
 * Learners request the feedback themselves and can revise their answer afterwards.
 
 For a graded assessment, continue to use the [Test course element](../../manual_user/learningresources/Course_Element_Test/index.md) with manual correction.
@@ -67,7 +67,7 @@ For details on these fields, see [External tools: AI module](../../manual_admin/
 2. Click **"Edit page"**.
 3. Select **"Add content"** and, in the "Knowledge" area, the **"Quiz"** element.
 4. In the Quiz, click **"Add"** at the top right and select **"Essay"**.<br><br>
-![The Add menu in the Quiz ends with the entry Essay, above it Single Choice, Multiple Choice and three gap text variants](assets/ai_essay_quiz_add_question_v1_de.png){ class="shadow lightbox" title="Quiz element in the Content Editor of a page" }
+![The Add menu in the Quiz ends with the entry Essay, above it Single choice, Multiple choice and three gap text variants, so you find where to create the essay question](assets/ai_essay_quiz_add_question_v1_en.png){ class="shadow lightbox" title="Quiz element in the Content Editor of a page · 2026.11.04" }
 
 5. In the "Essay" tab, enter the **Title** and the **Question**.
 6. If needed, set **"Min. words"** and **"Max. words"**. The counter below the input field shows learners their progress and the maximum.
@@ -93,22 +93,28 @@ Five entries are mandatory and marked with an asterisk:
 | "Reference excerpt" | The subject content the question is based on. The AI uses it as a reference. |
 | "Model answer" | The expected answer in the length and language you expect from learners. |
 | "Bloom level" | The cognitive level of the question: "Remember", "Understand", "Apply", "Analyse", "Evaluate" or "Create". |
-| "Language (BCP-47)" | The expected answer language, for example `de` or `en-US`. |
+| "Language (BCP-47)" | The language in which learners are to answer, as a language tag such as `de`, `en` or `fr`. Enter the language tag without region, for example `en`. OpenOlat prefills the empty field with the language of your user interface. If learners answer in a different language, the AI feedback points this out. |
 
-![The five mandatory fields learning objective, reference excerpt, model answer, Bloom level and language carry a star, the grading hints do not](assets/ai_essay_grading_kit_top_v1_de.png){ class="shadow lightbox" title="AI feedback tab of an essay question in the Quiz" }
+![The five mandatory fields Learning objective, Reference excerpt, Model answer, Bloom level and Language carry an asterisk, Language is prefilled with en, so you see what you must fill in](assets/ai_essay_grading_kit_top_v1_en.png){ class="shadow lightbox" title="AI feedback tab of an essay question in the Quiz · 2026.11.04" }
 
-The remaining fields sharpen the feedback:
+The AI writes the feedback to learners in the language the learner has selected in their [personal settings](../../manual_user/personal_menu/Settings.md#language). The "Test feedback" preview in step 3 writes it in the language from the "Language (BCP-47)" field.
+
+The remaining fields are optional and sharpen the feedback:
 
 * **"Grading hints"**: rules for the assessment, for example that technical terms are not mandatory.
 * **"Difficulty (1–5)"**: the standard the AI applies when assessing.
 * **"Key points"**: the core aspects a good answer covers. Each point gets a description, a weight from 0.0 to 1.0 and the "required" marker. If rows are filled in, the weights must sum to 1.0 (tolerance 0.01).
-![Three key points with the weights 0.4, 0.3 and 0.3, all required, below them the note on the weight sum 1.0](assets/ai_essay_grading_kit_keypoints_v1_de.png){ class="shadow lightbox" title="Key points section in the AI feedback tab" }
+![Three key points with the weights 0.4, 0.3 and 0.3, all required, below them the note on the weight sum 1.0, so you see how to distribute the weights](assets/ai_essay_grading_kit_keypoints_v1_en.png){ class="shadow lightbox" title="Key points section in the AI feedback tab · 2026.11.04" }
 
-* **"Rubric criteria"**: named criteria with a description, weight and the scope "Content" or "Language". Here too the weights sum to 1.0.
-![Two rubric criteria: Factual accuracy with weight 0.7 in the scope Content and Clear language with weight 0.3 in the scope Language](assets/ai_essay_grading_kit_rubric_v1_de.png){ class="shadow lightbox" title="Rubric criteria section in the AI feedback tab" }
+* **"Rubric criteria"**: named criteria with a descriptor, weight and the scope "Content" or "Language". If rows are filled in, the weights must sum to 1.0 here too.
+![Two rubric criteria: Technical accuracy with weight 0.7 in the scope Content and Clear language with weight 0.3 in the scope Language, so you see how content and language are weighted separately](assets/ai_essay_grading_kit_rubric_v1_en.png){ class="shadow lightbox" title="Rubric criteria section in the AI feedback tab · 2026.11.04" }
 
 * **"Common misconceptions"**: typical false assumptions. The AI watches for them specifically and addresses them in the feedback.
-![Two misconceptions entered, above them a single key point with weight 1.0 and difficulty 5](assets/ai_essay_grading_kit_misconceptions_v1_de.png){ class="shadow lightbox" title="Common misconceptions section in the AI feedback tab" }
+![Two misconceptions entered, above them a single key point with weight 1.0 and difficulty 5, so you see how to name the false assumptions the AI is to watch for](assets/ai_essay_grading_kit_misconceptions_v1_en.png){ class="shadow lightbox" title="Common misconceptions section in the AI feedback tab · 2026.11.04" }
+
+You add another row with "Add key point", "Add criterion" or "Add misconception"; "Remove" deletes a row.
+
+If the grading kit cannot be saved, OpenOlat shows the error directly at the field or at the row of the table. If the weights do not add up to 1.0, the message "Weights must sum to 1.0 (±0.01)." appears at the weight of the first row.
 
 [To the top of the page ^](#ai_essay)
 
@@ -124,14 +130,14 @@ Check the grading kit before learners see the question.
 
 Under "Grading signals", the preview shows how the AI reads the answer.
 
-![Grading kit, sample answer and the content signals: three key points hit, none missed, coherence, argument and relevance](assets/ai_essay_test_feedback_v1_de.png){ class="shadow lightbox" title="Test AI feedback dialog" }
+![Grading kit, sample answer and the content signals: three key points hit, none missed, coherence, argument and relevance, so you check how the AI reads an answer before learners see the question](assets/ai_essay_test_feedback_v1_en.png){ class="shadow lightbox" title="Test AI feedback dialog · 2026.11.04" }
 
 * **"Content signals"**: key points hit and missing, plus "Coherence", "Argument" and "Relevance".
 * **"Language signals"**: "Grammar issues" and "Spelling issues".
 * **"Feedback to student"**: the text learners see later.
 * **"Overall"**: "Overall assessment", "Estimated score", "Off-topic flag", "Confidence" and "Feedback to coach".
 
-![Feedback to student in three sections, below it the block Overall with estimated score 85 percent and feedback to coach](assets/ai_essay_test_feedback_overall_v1_de.png){ class="shadow lightbox" title="Lower part of the Test AI feedback dialog" }
+![Feedback to student with What went well, What is missing and Next step, below it the block Overall with estimated score 85 percent and confidence, so you see what learners and coaches receive](assets/ai_essay_test_feedback_overall_v1_en.png){ class="shadow lightbox" title="Lower part of the Test AI feedback dialog · 2026.11.04" }
 
 If the feedback differs from your expectation, refine the model answer, the key points or the grading hints and test again.
 
@@ -157,22 +163,24 @@ The more open the question, the more important grading hints and misconceptions 
 
 ## The learner's view {: #learner_view}
 
-1. Learners start the Quiz on the page and answer the essay question in the input field. Above the field, "Notes for your answer" state the expected length, the number of key concepts and the scopes the answer is graded by. The counter shows the number of words and the permitted maximum.
+1. Learners start the Quiz on the page and answer the essay question in the input field. If the AI generated the question, via the import or via "AI questions" in the question bank, the question text ends with "Notes for your answer": the expected length, the number of key concepts and the scopes the answer is graded by. A question you create by hand has no such block. The block is part of the question text, so you can change or remove it in the "Question" field. The counter shows the number of words and, if a maximum is set, the permitted maximum.
 2. With **"Check"** they submit the answer. While the AI is working, the message "Waiting for AI correction" appears. If it takes longer, OpenOlat asks you to keep the page open.
 
-![The essay question with notes for the answer, input field, word counter and the Check button](assets/ai_essay_ai_review_v1_de.png){ class="shadow lightbox" title="Learner view of the Quiz on a course page" }
+![A generated essay question with the notes for your answer, the input field, the word counter and the Check button, so you see what learners see before they submit](assets/ai_essay_ai_review_v1_en.png){ class="shadow lightbox" title="Learner view of the Quiz on a course page · 2026.11.04" }
 
 3. The result appears in the **"AI feedback"** block.
 
-![Assessment wrong with 15 percent, feedback text, feedback reliability high and the collapsed section Detailed feedback](assets/ai_essay_ai_feedback_v1_de.png){ class="shadow lightbox" title="AI feedback block in the Quiz after checking" }
+![Assessment very good with 95 percent, feedback text, feedback reliability high and the collapsed section Detailed feedback, so you see how learners receive the result](assets/ai_essay_ai_feedback_v1_en.png){ class="shadow lightbox" title="AI feedback block in the Quiz after checking · 2026.11.04" }
 
 The block begins with the **"Assessment"** in five levels: "very good", "good", "mediocre", "insufficient" and "wrong". Next to it is the **"Feedback reliability"** with "high", "medium" or "low". It shows how confident the AI is in its own assessment.
 
+OpenOlat detects the language of the answer and compares it with the "Language (BCP-47)" field in the grading kit. If it differs, the "AI feedback" block shows the note "The language of your answer does not appear to match the expected language." The AI grades the answer nevertheless.
+
 Under **"Detailed feedback"** further sections can be expanded: "What went well", "What is missing" and "Next step", plus the covered and missing points as well as feedback on grammar and spelling.
 
-![The link Detailed feedback at the end of the AI feedback block opens the further sections](assets/ai_essay_ai_feedback_details1_v1_de.png){ class="shadow lightbox" title="AI feedback block, collapsed" }
+![The link Detailed feedback at the end of the AI feedback block opens the further sections, so you know where learners find the details](assets/ai_essay_ai_feedback_details1_v1_en.png){ class="shadow lightbox" title="AI feedback block, collapsed · 2026.11.04" }
 
-![The expanded detailed feedback with the sections What went well, What is missing, Next step and the list of missing points](assets/ai_essay_ai_feedback_details2_v1_de.png){ class="shadow lightbox" title="AI feedback block, expanded" }
+![The expanded detailed feedback with the sections What went well, What is missing, Next step and the list of covered points, so you see the full feedback learners can open](assets/ai_essay_ai_feedback_details2_v1_en.png){ class="shadow lightbox" title="AI feedback block, expanded · 2026.11.04" }
 
 [To the top of the page ^](#ai_essay)
 
@@ -184,10 +192,10 @@ Instead of writing the question by hand, you can have it generated from a subjec
 
 1. In the Content Editor, click **"Import"**.
 2. Select a Markdown, text or Word file, or paste the text directly.
-3. Enable the "Add AI generated Quiz" switch.
+3. Leave the "Add AI generated Quiz" switch on, it is on when the dialog opens. The "Generate image metadata with AI" switch only concerns the images in the imported file: OpenOlat generates a title, description, alternative text and tags for them.
 4. In the "Essay question with AI correction" field, set how many essay questions are created. Up to five are allowed. The "MC question" field sets the number of multiple-choice questions and can stay at 0.
 5. Select the "Bloom levels" and the "Target difficulty", and enter "Learning objectives" if needed, one objective per line.<br><br>
-![Switch Add AI generated Quiz enabled, MC question 0, Essay question with AI correction 1, two Bloom levels and one learning objective selected](assets/ai_essay_import_dialog_v1_de.png){ class="shadow lightbox" title="Import dialog in the Content Editor" }
+![Switch Add AI generated Quiz enabled, MC question 0, Essay question with AI correction 1, two Bloom levels and one learning objective, so you see how to set up the generation](assets/ai_essay_import_dialog_v1_en.png){ class="shadow lightbox" title="Import dialog in the Content Editor · 2026.11.04" }
 
 6. Start the import. Generation runs in the background and may take a minute. OpenOlat appends the questions as a Quiz element at the end of the page.
 
@@ -204,7 +212,7 @@ The same path exists in the [Question bank](../../manual_user/area_modules/Quest
 - [x] Is the "Essay Grading" feature active in the AI module and connected to a model?
 - [x] Does the "Essay" entry appear under "Add" in the Quiz?
 - [x] Are the learning objective, reference excerpt, model answer, Bloom level and language filled in?
-- [x] Do the weights of the key points and the rubric criteria each sum to 1.0?
+- [x] Do the weights of filled-in key points and rubric criteria each sum to 1.0?
 - [x] Has the feedback been tested with a sample answer?
 - [x] Does the expected answer length match the input-word limit in the AI module?
 - [x] Is it clear to learners that the AI feedback does not award any points?
@@ -219,6 +227,7 @@ The same path exists in the [Question bank](../../manual_user/area_modules/Quest
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
+[Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Question bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
 
 **Further reading**<br>
