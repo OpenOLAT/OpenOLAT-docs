@@ -88,6 +88,8 @@ On every call, the platform sends the person's first name, last name, e-mail add
 
 OpenOlat transfers results to the platform only from a course with an LTI share, not from a group. OpenOlat does not query the LTI service for names and roles (Names and Role Provisioning Service, NRPS). A person therefore only joins the group when they call the group themselves.
 
+Which LTI services OpenOlat supports as a tool and as a platform is shown in the overview [Supported LTI services](../../manual_admin/administration/LTI_Integrations.md#supported_services).
+
 [To the top of the page ^](#LTI_access_to_a_group)
 
 ---

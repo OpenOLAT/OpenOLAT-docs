@@ -62,7 +62,7 @@ Anschliessend können die dabei erzeugten Parameter Client-ID und Deployment-ID 
 
     Damit die Deployment-ID erzeugt wird, muss eine Änderung im Tab "Seiteninhalt" zuerst gespeichert werden. Das gilt besonders dann, wenn unter "LTI Version" ein vorkonfigurierter Link ausgewählt wurde.
 
-Der Button "Inhalt auswählen" erscheint nur, wenn Deep Linking für das externe Tool aktiviert ist. Nutzbar wird er, sobald Client-ID und Deployment-ID vorliegen. Er öffnet die Inhaltsauswahl des externen Tools. Die dort gewählten Inhalte erscheinen anschliessend im Feld "Ressourcen". [:octicons-tag-16:{ title="ab Release 18.1 (OO-7173)" }](https://track.frentix.com/issue/OO-7173)
+Der Button "Inhalt auswählen" erscheint bei "LTI 1.3" und bei einem vorkonfigurierten Tool, bei dem "Deep-Linking aktivieren" eingeschaltet ist. Nutzbar wird er, sobald Client-ID und Deployment-ID vorliegen. Er öffnet die Inhaltsauswahl des externen Tools. Die dort gewählten Inhalte erscheinen anschliessend im Feld "Ressourcen". [:octicons-tag-16:{ title="ab Release 18.1 (OO-7173)" }](https://track.frentix.com/issue/OO-7173)
 
 
 ### Seitenaufruf

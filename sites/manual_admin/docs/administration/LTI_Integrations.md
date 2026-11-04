@@ -9,7 +9,21 @@ Important terms in LTI terminology:
 
 OpenOlat can take on both roles: As a tool, OpenOlat provides a course or a group to another LMS. As a platform, OpenOlat displays the content of an external tool in the course, through the course element "LTI Page".
 
-![OpenOlat as tool provides a course to the platform of another LMS, OpenOlat as platform displays the content of a tool from another LMS](assets/LTI_platform_tool_v1_de.png){ class="lightbox" title="Tool and platform roles between two systems" }
+![OpenOlat as tool provides a course to the platform of another LMS, OpenOlat as platform uses the content of a tool from another LMS](assets/lti_platform_tool_v1_en.svg){ class="shadow lightbox" title="Tool and platform roles between two systems · 2026.11.04" }
+
+## Supported LTI services {: #supported_services}
+
+If you want to connect an external tool or another platform to OpenOlat, you see here at a glance whether OpenOlat supports the LTI service you need and in which direction. Which services OpenOlat supports depends on whether OpenOlat embeds an external tool (platform) or provides a course or a group for another platform (tool). The standard groups the services for scores, member list and content selection under the name LTI Advantage.
+
+![Launch and score in both directions, member list and content selection only with OpenOlat as platform](assets/lti_supported_services_v1_en.svg){ class="shadow lightbox" title="LTI services in both directions · 2026.11.04" }
+
+| Service | OpenOlat as platform (course element "LTI page") | OpenOlat as tool (LTI share of a course or a group) |
+|---|---|---|
+| Tool launch (LTI 1.3, Resource Link Launch) | yes, through the [course element "LTI page"](../../manual_user/learningresources/Course_Element_LTI_Page.md) | yes, for [courses](../../manual_user/learningresources/LTI_Share_courses.md) and [groups](../../manual_user/groups/LTI_Share_groups.md). OpenOlat creates an account on the first call. |
+| Grade service (Assignment and Grade Services, AGS) | yes, if "Transfer score" is switched on in the course element. The tool reads the grade column of the course element and the results, and sends scores to OpenOlat. | yes, from courses. OpenOlat sends the result of the whole course to the platform, with every change of the score and only for participants. OpenOlat sends no results from groups. |
+| LTI service for names and roles (Names and Role Provisioning Service, NRPS 2.0) | yes. OpenOlat provides the tool with the list of the participants of the course, with first name, last name, e-mail address and the LTI role "Learner". No setting is needed for this. | no. OpenOlat stores the address of this service of the platform, but does not query the member list. |
+| Deep Linking 2.0 (content selection) | yes, with the button "Select content" in the course element. It appears with "LTI 1.3" and with a preconfigured tool for which "Activate Deep-Linking" is switched on: [LTI - Deep Linking](LTI_Deeplinking.md) [:octicons-tag-16:{ title="from Release 18.1 (OO-7173)" }](https://track.frentix.com/issue/OO-7173) | no. OpenOlat offers the platform no content selection. |
+| LTI 1.0 / 1.1 (launch with "Key" and "Password", scores through Basic Outcomes) | yes. The tool sends scores as a value from 0 to 1. | no |
 
 ## Activate LTI {: #activate_lti}
 
@@ -41,7 +55,7 @@ On the tool side, the counterpart is called LTI share: if OpenOlat is the tool, 
 
 **Does one deployment ID apply to several courses?** [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
-Yes, if OpenOlat is the tool. An external platform often sends the same deployment ID for several courses, namely when it runs the tool as a shared deployment. OpenOlat itself does this as a platform with the option "With shared deployment" and when an "LTI page" course element is copied, see [Global or local deployment](LTI_External_tools.md#deployment_scope). Enter this deployment ID in the LTI share of every course and every group the platform should reach. It only has to be unique per platform and course, or per platform and group. OpenOlat recognizes which course to open from the address the platform sends with the call: [One deployment ID for several courses](../../manual_user/learningresources/LTI_Share_courses.md#deployment_id_several_courses)
+Yes, if OpenOlat is the tool. An external platform often sends the same deployment ID for several courses, namely when it runs the tool as a shared deployment. As a platform, OpenOlat itself uses a shared deployment ID with the option "With shared deployment" and when an "LTI page" course element is copied, see [Global or local deployment](LTI_External_tools.md#deployment_scope). Enter this deployment ID in the LTI share of every course and every group the platform should reach. It only has to be unique per platform and course, or per platform and group. OpenOlat recognizes which course to open from the address the platform sends with the call: [One deployment ID for several courses](../../manual_user/learningresources/LTI_Share_courses.md#deployment_id_several_courses)
 
 **Who can add deployments?** [:octicons-tag-16:{ title="from Release 17.0 (OO-6300)" }](https://track.frentix.com/issue/OO-6300)
 
@@ -62,15 +76,15 @@ Administrators determine in the tab "Configuration" under `Administration > Exte
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[LTI - External tools >](../administration/LTI_External_tools.md)<br>
-[Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)
+[Course element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
+[Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
+[Configure LTI access to a group >](../../manual_user/groups/LTI_Share_groups.md)<br>
+[LTI - Deep Linking >](../administration/LTI_Deeplinking.md)<br>
+[LTI - External tools >](../administration/LTI_External_tools.md)
 
 **Further reading**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
 [LTI - External Platforms >](../administration/LTI_External_platforms.md)<br>
-[LTI - Deep Linking >](../administration/LTI_Deeplinking.md)<br>
-[LTI - Role mapping >](../administration/LTI_Role_Mapping.md)<br>
-[Course element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
-[Configure LTI access to a group >](../../manual_user/groups/LTI_Share_groups.md)
+[LTI - Role mapping >](../administration/LTI_Role_Mapping.md)
 
 [To the top of the page ^](#LTI_integrations)

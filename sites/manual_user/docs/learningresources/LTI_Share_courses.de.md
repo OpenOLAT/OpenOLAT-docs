@@ -13,10 +13,10 @@ Wie Sie einen Kurs Schritt für Schritt in Moodle einbinden, zeigt die Anleitung
 * Der Kurs bleibt in OpenOlat. Die Personen bearbeiten Inhalte und Tests in OpenOlat, das sich dafür in einem neuen Fenster öffnet.
 * Beim ersten Aufruf legt OpenOlat für jede Person ein LTI-Konto an. Die Person wird Mitglied der LTI-Gruppe des Kurses, als Teilnehmer:in oder als Betreuer:in.
 * OpenOlat meldet das Kursergebnis an das andere System zurück, wenn dort eine Bewertungsspalte dafür vorgesehen ist.
-* Die LTI-Freigabe gilt nur für diesen einen Kurs und nur für die Plattform, die Sie auswählen. In der Oberfläche heisst sie «Deployment». Alle anderen Kurse bleiben für die Plattform gesperrt.
+* Die LTI-Freigabe gilt nur für diesen einen Kurs und nur für die Plattform, die Sie auswählen. In der Oberfläche heisst sie "Deployment". Alle anderen Kurse bleiben für die Plattform gesperrt.
 * Löschen Sie die LTI-Freigabe, kann die Plattform nicht mehr auf den Kurs zugreifen.
 
-Die Plattform muss vorher in der Administration als externe Plattform eingerichtet sein. Ob Sie die LTI-Freigabe selbst hinzufügen oder über den Button «Neues Deployment anfragen» beim Support beantragen, hängt von Ihrer Rolle ab. Mehr dazu unter [Voraussetzungen](#conditions).
+Die Plattform muss vorher in der System-Administration als externe Plattform eingerichtet sein, unter `Administration > Externe Werkzeuge > LTI > Tab "Externe Plattformen"`. Ob Sie die LTI-Freigabe selbst hinzufügen oder über den Button "Neues Deployment anfragen" beim Support beantragen, hängt von Ihrer Rolle ab. Mehr dazu unter [Voraussetzungen](#conditions).
 
 [Zum Seitenanfang ^](#LTI_share_course)
 
@@ -27,7 +27,8 @@ Die Plattform muss vorher in der Administration als externe Plattform eingericht
 
 ### Voraussetzungen in der Systemadministration {: #conditions_admin}
 
-Die externe Plattform wird in der System-Administration von OpenOlat erfasst, dafür braucht es einen Administrator-Zugang (in OpenOlat kann dies auch die Rolle Systemadministrator:in sein). Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe eines Kurses vornehmen darf, legt die System-Administration fest: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations.de.md#deployments) Vorzugsweise erfolgt die Konfiguration auf beiden Systemen gleichzeitig, da bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
+Die externe Plattform wird in der System-Administration von OpenOlat erfasst, dafür braucht es einen Administrator-Zugang (in OpenOlat kann dies auch die Rolle Systemadministrator:in sein). Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe eines Kurses vornehmen darf, legt die System-Administration fest: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations.de.md#deployments)<br>
+Richten Sie am besten beide Systeme gleichzeitig ein, weil bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
 
 ### Voraussetzungen in der LTI-Freigabe eines Kurses [:octicons-tag-16:{ title="ab Release 15.5 (OO-5206)" }](https://track.frentix.com/issue/OO-5206) {: #conditions_share}
 
@@ -51,6 +52,8 @@ Ein kopierter OpenOlat-Kurs übernimmt die LTI-Freigabe des Originals nicht. Er 
 ## Welche Angaben werden zwischen den beiden Systemen ausgetauscht? {: #data_exchange}
 
 Moodle schickt bei jedem Aufruf Angaben zur Person und zum Kurskontext an OpenOlat. OpenOlat schickt nur eine Sache zurück: das Kursergebnis der Person.
+
+Welche LTI-Dienste OpenOlat als Tool und als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations.de.md#supported_services).
 
 
 ### Von Moodle zu OpenOlat {: #data_exchange_from_moodle}
@@ -80,6 +83,8 @@ Moodle schickt ein signiertes Token (LTI 1.3 Launch). OpenOlat liest daraus dies
 * der Zeitpunkt
 
 Das Ergebnis wird nur gesendet, wenn Moodle beim Aufruf die Adresse einer einzelnen Bewertungsspalte mitgeschickt hat. Es geht an die Moodle-Plattform, über die die Person angemeldet ist.
+
+OpenOlat sendet das Ergebnis bei jeder Änderung der Punkte, nicht erst am Ende des Kurses. Ergebnisse sendet OpenOlat nur für Teilnehmer:innen des Kurses. Wer aus Moodle als Instructor oder Mentor kommt, wird Betreuer:in der LTI-Gruppe und erhält kein Ergebnis: [Welche Rolle erhalten Personen, die einen OpenOlat Kurs von Moodle aus aufrufen?](#roles_for_externals)
 
 
 ### Was nicht ausgetauscht wird {: #data_exchange_non}
@@ -111,7 +116,7 @@ Kursbesitzer:in wird über LTI niemand.
 
 ### Wo sehen Sie die Personen aus der anderen Plattform? {: #roles_members_management}
 
-Sobald Sie die LTI-Freigabe hinzugefügt haben, legt OpenOlat im Kurs die Gruppe «LTI: Name der Plattform» an. Sie finden sie in der Mitgliederverwaltung unter den Gruppen. Die Gruppe ist zunächst leer. Eine Person erscheint darin erst, wenn sie den Kurs zum ersten Mal aus der anderen Plattform startet. In der Mitgliederliste steht sie dann als Gruppenbetreuer:in oder Gruppenteilnehmer:in.
+Sobald Sie die LTI-Freigabe hinzugefügt haben, legt OpenOlat im Kurs die Gruppe "LTI: Name der Plattform" an. Sie finden sie in der Mitgliederverwaltung unter den Gruppen. Die Gruppe ist zunächst leer. Eine Person erscheint darin erst, wenn sie den Kurs zum ersten Mal aus der anderen Plattform startet. In der Mitgliederliste steht sie dann als Gruppenbetreuer:in oder Gruppenteilnehmer:in.
 
 Kopieren Sie den Kurs, wird die LTI-Gruppe nicht mitkopiert. Für die Kopie richten Sie eine eigene LTI-Freigabe ein.
 
@@ -133,7 +138,7 @@ Die Konfiguration verlangt Schritte in Moodle und in OpenOlat. Die Anleitung [Wi
 
 ### Externe Kurse im Bewertungswerkzeug {: #results_assessment_tool}
 
-Auch für den Kursbaustein LTI kann das Bewertungsformular ausgefüllt und angepasst werden. Wählen Sie im Kurseditor den Kursbaustein. Unter dem Tab "Seiteninhalt" muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss auch ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../../manual_user/learningresources/Course_Element_LTI_Page.de.md).
+Auch für den Kursbaustein "LTI-Seite" kann das Bewertungsformular ausgefüllt und angepasst werden. Wählen Sie im Kurseditor den Kursbaustein. Im Tab "Seiteninhalt" muss "Punkte übertragen" eingeschaltet sein. Je nachdem muss auch ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden: [Kursbaustein "LTI-Seite"](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
 [Zum Seitenanfang ^](#LTI_share_course)
 

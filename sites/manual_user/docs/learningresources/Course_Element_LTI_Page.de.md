@@ -14,82 +14,86 @@ Spezialität / Hinweis |
 
 
 
-Mit Hilfe des Kursbausteins "LTI-Seite" können Sie externe Lernapplikationen in Ihren Kurs integrieren und den Inhalt im OpenOlat-Fenster anzeigen lassen. LTI steht für "Learning Tool Interoperability" und ist ein IMS Standard zur Einbindung von externen Lernapplikationen wie zum Beispiel einem Chat, einem Mediawiki, einem Testeditor oder einem virtuellen Labor. Weitere Informationen zu LTI finden Sie auf der LTI Projekthomepage: [http://www.imsglobal.org/lti/](http://www.imsglobal.org/lti/)
+Mit Hilfe des Kursbausteins "LTI-Seite" können Sie externe Lernapplikationen in Ihren Kurs integrieren und den Inhalt im OpenOlat-Fenster anzeigen lassen. LTI steht für "Learning Tools Interoperability" und ist ein IMS Standard zur Einbindung von externen Lernapplikationen wie zum Beispiel einem Chat, einem Mediawiki, einem Testeditor oder einem virtuellen Labor. Weitere Informationen zu LTI finden Sie auf der LTI Projekthomepage: [http://www.imsglobal.org/lti/](http://www.imsglobal.org/lti/)
 
 ## Prozess
 
-* Geben Sie im Tab "Seiteninhalt" die zu referenzierende URL sowie den Schlüssel und das zugehörige Passwort an. 
+* Geben Sie im Tab "Seiteninhalt" die zu referenzierende URL sowie den Schlüssel und das zugehörige Passwort an.
 * Wenn eine teilnehmende Person in der Kursnavigation die LTI-Seite auswählt, muss sie aus Datenschutzgründen zuerst der Datenübertragung zustimmen, bevor im Hintergrund die Benutzerdaten und Kursinformationen sowie der Schlüssel geschützt an die eingebundene Lernapplikation übermittelt werden.
-* Die Lernapplikation überprüft die Zugangsrechte und erlaubt bei gültigem Schlüssel den Zugriff. 
-* Eine erneute Abfrage zur Datenübermittlung erfolgt später nur wieder, wenn sich die Konfiguration des Bausteins in Bezug auf übermittelte Daten ändert.
-* Wenn die teilnehmende Person die LTI-Seite in der Navigation auswählt, erscheint die eingebundene Lernapplikation im OLAT-Kurs.
+* Die Lernapplikation überprüft die Zugangsrechte und erlaubt bei gültigem Schlüssel den Zugriff.
+* OpenOlat fragt später nur dann erneut nach der Zustimmung, wenn sich die Konfiguration des Bausteins in Bezug auf die übermittelten Daten ändert.
+* Wenn die teilnehmende Person die LTI-Seite in der Navigation auswählt, erscheint die eingebundene Lernapplikation im OpenOlat-Kurs.
 
 ## LTI im Kursbaustein konfigurieren
 
-!!! info "Hinweis"
+!!! tip "Tipp"
 
     Voraussetzung ist die von einem/einer Administrator:in vorgenommene Aktivierung und generelle Einrichtung von LTI.
 
 Die folgenden Parameter können im Kursbaustein konfiguriert werden:
 
-![URL, Schlüssel und Passwort, OpenOlat Rollen mit LTI-Rollen-Mapping, Punkte übertragen mit Skalierungsfaktor sowie die drei Anzeigeoptionen: Tab Seiteninhalt im Kurseditor](assets/course_element_lti_page_content_v2_de.png){ class="shadow lightbox" }
+![LTI Version LTI 1.3 mit Button Inhalt auswählen und den Angaben zur Verbindung, unten der Bereich Konfiguration Bewertung mit Punkte übertragen und Skalierungsfaktor](assets/course_element_lti_page_content_v3_de.png){ class="shadow lightbox" title="Tab Seiteninhalt im Kurseditor · 2026.11.04" }
 
-**LTI Version:** Wir empfehlen die aktuelle Version LTI 1.3. Aus Kompatibilitätsgründen kann jedoch auch die ältere Version gewählt werden.
+**LTI Version:** Hier wählen Sie, wie OpenOlat die externe Lernapplikation anbindet. Zur Wahl stehen "LTI 1.0 / 1.1", "LTI 1.3" und die Tools, die Administrator:innen für alle Kurse vorkonfiguriert haben. Wir empfehlen "LTI 1.3", die ältere Version bleibt aus Kompatibilitätsgründen wählbar. "LTI 1.3" und die vorkonfigurierten Tools stehen zur Wahl, sobald das Modul "LTI 1.3" eingeschaltet ist: [LTI aktivieren](../../manual_admin/administration/LTI_Integrations.de.md#activate_lti)
 
-Wurden von Ihren Administrator:innen Deep Links eingerichtet, können Sie unter diesem Punkt vorkonfigurierte Deep Links auswählen. Die nachfolgenden Eintragungen sind dann teilweise bereits automatisch gemacht.
+Wählen Sie ein vorkonfiguriertes Tool, übernimmt OpenOlat die URL und die Angaben zur Verbindung aus dessen Konfiguration.
 
-**URL:** In diesem Eingabefeld geben Sie die Adresse der externen Lernapplikation ein.<br> Das Format ist z.B. "https://tools.< Firma xyz >.de/lti_quiz/lti_quizwand.php".
+Mit dem Button "Inhalt auswählen" wählen Sie einen bestimmten Inhalt des Tools aus, statt nur dessen Startadresse einzutragen (Deep Linking). Der Button erscheint bei "LTI 1.3" und bei einem vorkonfigurierten Tool, bei dem "Deep-Linking aktivieren" eingeschaltet ist. Nutzbar ist er, sobald Sie die Konfiguration gespeichert haben. Die gewählten Inhalte erscheinen danach im Feld "Ressourcen": [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md) [:octicons-tag-16:{ title="ab Release 18.1 (OO-7173)" }](https://track.frentix.com/issue/OO-7173)
+
+Welche LTI-Dienste OpenOlat als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations.de.md#supported_services).
+
+**URL:** In diesem Eingabefeld geben Sie die Adresse der externen Lernapplikation ein.<br> Das Format ist zum Beispiel "https://tools.< Firma xyz >.de/lti_quiz/lti_quizwand.php".
 
 **Schlüssel:** Hier geben Sie den Schlüssel ein, den Sie vom Anbieter der externen Lernapplikation erhalten haben ("lti_quiz" im obigen Beispiel).
 
 **Passwort:** Hier geben Sie das zum Schlüssel passende Passwort ein, das Sie ebenfalls vom Anbieter der externen Lernapplikation erhalten haben ("weeHoo1w" im obigen Beispiel).
 
-**Inhalt automatisch starten:** Ist diese Option aktiviert wird die verbundene Applikation direkt, ohne Zwischenseite "LTI-Lerninhalt anzeigen" dargestellt. Der Administrator kann diese Option abschalten.
+**Inhalt automatisch starten:** Ist diese Option aktiviert, wird die verbundene Applikation direkt, ohne Zwischenseite "LTI-Lerninhalt anzeigen" dargestellt. Der Administrator kann diese Option abschalten.
 
 * * *
 
 **Vorname/Name übertragen:** Wenn Sie diese Checkbox ankreuzen, wird der Vor- und Nachname der teilnehmenden Person an die externe Lernapplikation weitergegeben. Ansonsten kann die teilnehmende Person die externe Lernapplikation anonym nutzen.
 
-**E-Mailadresse übertragen:** Markieren Sie die Checkbox, wird die E-Mailadresse der teilnehmenden Person an die externe Lernapplikation weitergegeben.
+**E-Mail-Adresse übertragen:** Markieren Sie die Checkbox, wird die E-Mailadresse der teilnehmenden Person an die externe Lernapplikation weitergegeben.
 
-**Zusätzliche Attribute:** In dieses Eingabefeld können Sie weitere Parameter eingeben, die an die Lernapplikation übermittelt werden sollen. So kann der Lernapplikation beispielsweise mitgeteilt werden, dass die Anfrage von der Lernplattform OLAT übermittelt wird. (Die externe Lernapplikation muss die weitergegebenen Informationen verarbeiten können, weshalb eine Absprache mit dem Anbieter nötig ist). Sie haben die Wahl von statischen Text-Attributen (Wert ist für alle teilnehmenden Personen identisch) oder zusätzlichen dynamischen Benutzerattributen (Wert ist pro teilnehmender Person unterschiedlich). Sie können beliebig viele Zusatzattribute definieren, die LTI Ressource muss allerdings wissen, dass es diese Attribute gibt da diese nicht im Standard definiert sind.
+**Zusätzliche Attribute:** In dieses Eingabefeld können Sie weitere Parameter eingeben, die an die Lernapplikation übermittelt werden sollen. So kann der Lernapplikation beispielsweise mitgeteilt werden, dass die Anfrage von der Lernplattform OpenOlat übermittelt wird. (Die externe Lernapplikation muss die weitergegebenen Informationen verarbeiten können, weshalb eine Absprache mit dem Anbieter nötig ist). Sie haben die Wahl von statischen Text-Attributen (Wert ist für alle teilnehmenden Personen identisch) oder zusätzlichen dynamischen Benutzerattributen (Wert ist pro teilnehmender Person unterschiedlich). Sie können beliebig viele Zusatzattribute definieren, die LTI-Ressource muss allerdings wissen, dass es diese Attribute gibt, da sie nicht im Standard definiert sind.
 
 * * *
 
-**OpenOlat Rollen:** In diesem Bereich können Sie definieren, welche Rolle die einzelnen teilnehmenden Personen einnehmen, wenn Sie die LTI Ressource starten. Es werden dabei die drei OpenOlat Rollen Besitzer, Betreuer und Teilnehmer unterstützt. Für jede Rolle kann genau definiert werden, welche Rolle dafür auf Seiten der LTI Ressource angewendet werden soll. Die folgenden LTI Rollen können konfiguriert werden: Lerner, Instruktur, Administrator, Assistent Lehrperson, Inhaltersteller und Mentor.
+**OpenOlat Rollen:** In diesem Bereich legen Sie fest, welche LTI-Rolle eine Person erhält, wenn sie die LTI-Ressource startet. Für jede der drei OpenOlat-Rollen "Besitzer:innen", "Betreuer:innen" und "Teilnehmer:in" wählen Sie die passenden LTI-Rollen: "Lerner", "Instruktor", "Administrator:in", "Assistent Lehrperson", "Inhaltsersteller" und "Mentor".
 
 Welche dieser LTI-Rollen Sie als Kursbesitzer:in zuweisen dürfen, legt die System-Administration fest. Nicht freigegebene LTI-Rollen sind ausgegraut. Administrator:innen und Lernressourcenverwalter:innen der Organisation, der der Kurs zugeordnet ist, können immer alle LTI-Rollen zuweisen [:octicons-tag-16:{ title="ab Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003){:target="_blank"}.
 
-**Punkte übertragen:** Wählen Sie diese Checkbox, wenn die LTI Ressource Punkte erzeugen und mit dem LTI 1.1 Standard an OpenOlat übermitteln soll. Dies ist optional. Übermittelte Punkte erscheinen bei der teilnehmenden Person auf der Startseite des LTI Bausteins sowie auf dem Leistungsnachweis. Bitte beachten Sie, dass LTI gemäss Standard nur einen Wert zwischen 0 und 1 liefern kann.
+**Punkte übertragen:** Mit diesem Schalter im Bereich "Konfiguration Bewertung" wird die LTI-Seite zum bewertbaren Kursbaustein: Die externe Lernapplikation sendet Punkte an OpenOlat. Die Punkte erscheinen im Bewertungswerkzeug, bei der teilnehmenden Person auf der Startseite des Kursbausteins und im Leistungsnachweis. Wie die Lernapplikation die Punkte sendet, hängt von der "LTI Version" ab:
 
+* **LTI 1.3:** über den Bewertungsdienst (Assignment and Grade Services). OpenOlat bietet ihn der Lernapplikation an, sobald "Punkte übertragen" eingeschaltet ist. Die Lernapplikation kann darüber auch die Bewertungsspalte des Kursbausteins und die Resultate lesen.
+* **LTI 1.0 / 1.1:** über Basic Outcomes, nach dem Standard als Wert von 0 bis 1.
 
-!!! info "Hinweis"
+**Skalierungsfaktor:** Der Skalierungsfaktor rechnet den Wert, den die Lernapplikation sendet, in die Punkte des Kurses um. OpenOlat multipliziert den gesendeten Wert mit dem Faktor. Der Standard ist "1".
 
-    Wird die Option "Punkte übertragen" aktiviert, kann die LTI-Seite als bewertbares Kurselement zum Kurs hinzugefügt werden, und erscheint dann im Bewertungswerkzeug. Zusätzlich erscheinen die übermittelten Punkte bei der teilnehmenden Person auf der Startseite des LTI-Bausteins.
+* **LTI 1.0 / 1.1:** Die Lernapplikation sendet einen Wert von 0 bis 1. Möchten Sie in OpenOlat maximal 10 Punkte vergeben, tragen Sie als Skalierungsfaktor "10" ein.
+* **LTI 1.3:** OpenOlat übernimmt den Punktwert, den die Lernapplikation sendet, und multipliziert ihn mit dem Faktor. Die maximale Punktzahl, die die Lernapplikation mitsendet, verwendet OpenOlat dabei nicht. Sendet die Lernapplikation 7 von 10 Punkten, ergibt der Faktor "1" in OpenOlat 7 Punkte.
 
+**Notwendige Punktzahl für 'bestanden':** Geben Sie hier den optionalen Schwellenwert an, ab dem der Kursbaustein als bestanden gilt. Der Schwellenwert bezieht sich auf die skalierten Punkte, nicht auf den Wert, den die Lernapplikation sendet. Im Beispiel mit dem Skalierungsfaktor "10" entspricht ein Schwellenwert von "5" der Hälfte der Punkte.
 
-**Skalierungsfaktor:** Mit dem Skalierungsfaktor können Sie die LTI Resultate, die gemäss Standard einen Wert zwischen 0 und 1 einnehmen müssen, auf einen im OpenOlat Kurs praktischeren Wert skalieren. Möchten Sie beispielsweise in OpenOlat maximal 10 Punkte für eine LTI Aufgabe vergeben, so müssen Sie als Skalierungsfaktor den Wert "10" eintragen. Möchten Sie die Punkte unverändert übernehmen, wählen Sie den Wert "1".
-
-**Notwendige Punktzahl für 'bestanden':** Geben Sie hier den optionalen Schwellenwert an, ab wann das LTI Element als bestanden gilt. Dieser Schwellenwert bezieht sich auf das skalierte Endresultat und nicht auf die von LTI übermittelten Rohdaten! Im obigen Beispiel wäre ein Schwellwert von "5" gleichbedeutend mit "50%".
-
-**Bei Kurs-Bewertung ausschliessen:** Aktivieren Sie diese Option, damit die Punkte und der Status dieses Kursbausteins nicht in die Gesamtbewertung des Kurses einfliessen.
+**Bei Kurs-Bewertung berücksichtigen:** Ist dieser Schalter eingeschaltet, fliessen die Punkte und der Status dieses Kursbausteins in die Gesamtbewertung des Kurses ein. Schalten Sie ihn aus, damit der Kursbaustein nicht in die Gesamtbewertung einfliesst.
 
 * * *
 
 **Anzeige:** Wählen Sie die Option "Eingebettet in Kurs (iFrame)" um die LTI Ressource eingebettet im Kurslayout anzuzeigen. Mit der Option "Nur Modul anzeigen, LMS ausblenden (iFrame)" wird OpenOlat vollständig ausgeblendet, solange die LTI Ressource aktiv ist. Mit der Option "Neues Fenster öffnen" wird die LTI Ressource hingegen in einem neuen Fenster geöffnet. Dies ist sinnvoll, wenn die Ressource viel Platz braucht oder parallel mit anderen Kurselementen verwendet werden soll.
 
-**Höhe Anzeigefläche:** Wählen Sie "automatisch" oder eine explizite Grösse aus, wenn die automatische Funktion ungenügend ist.
+**Höhe Anzeigefläche:** Wählen Sie "Automatisch" oder eine explizite Grösse aus, wenn die automatische Funktion ungenügend ist.
 
-**Breite Anzeigefläche:** Wählen Sie "automatisch" oder eine explizite Grösse aus, wenn die automatische Funktion ungenügend ist.
+**Breite Anzeigefläche:** Wählen Sie "Automatisch" oder eine explizite Grösse aus, wenn die automatische Funktion ungenügend ist.
 
 * * *
 
-**Alle beim Start gesendete Information anzeigen (Debug):** Wenn Sie diese Checkbox ankreuzen, werden den teilnehmenden Personen die gesendeten Informationen angezeigt. Diese Informationen beinhalten Parameter, wie zum Beispiel die Benutzeridentifikation, den Kursnamen, den Kursbaustein etc. Wenn Sie in der Kursansicht auf die Schaltfläche "Launch Endpoint with BasicLTI Data" oberhalb der Anzeige der gesendeten Daten drücken, gelangen Sie zur Startseite der Lernapplikation.
+**Alle beim Start gesendeten Informationen anzeigen (Debug):** Wenn Sie diese Checkbox ankreuzen, werden den teilnehmenden Personen die gesendeten Informationen angezeigt. Diese Informationen beinhalten Parameter, wie zum Beispiel die Benutzeridentifikation, den Kursnamen, den Kursbaustein etc. Wenn Sie in der Kursansicht auf die Schaltfläche "Launch Endpoint with BasicLTI Data" oberhalb der Anzeige der gesendeten Daten klicken, gelangen Sie zur Startseite der Lernapplikation.
 
 
-## Tab Badges
+## Tab Badges [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003)
 
-Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+Haben Kursbesitzer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` die Vergabe von Badges aktiviert, zeigt der Kurseditor zu diesem Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein.
 
 [Zum Seitenanfang ^](#lti)
 
@@ -97,12 +101,18 @@ Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab B
 
 ## Weiterführende Informationen {: #further_information}
 
-Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren >](../groups/LTI_Share_groups.de.md)<br>
-Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
-Administrationshandbuch: [LTI - Externe Werkzeuge >](../../manual_admin/administration/LTI_External_tools.de.md)<br>
-Administrationshandbuch: [LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)<br>
-Administrationshandbuch: [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.de.md)<br>
-Administrationshandbuch: [LTI - Rollen-Mapping >](../../manual_admin/administration/LTI_Role_Mapping.de.md)
+**Auf dieser Seite erwähnt**<br>
+[LTI Projekthomepage (IMS Global Learning Consortium) >](http://www.imsglobal.org/lti/)<br>
+[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
+[LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.de.md)
+
+**Weiterführend**<br>
+[LTI-Zugang zu einer Gruppe konfigurieren >](../groups/LTI_Share_groups.de.md)<br>
+[LTI-Zugang zu einem Kurs konfigurieren >](LTI_Share_courses.de.md)<br>
+[LTI - Externe Werkzeuge >](../../manual_admin/administration/LTI_External_tools.de.md)<br>
+[LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)<br>
+[LTI - Rollen-Mapping >](../../manual_admin/administration/LTI_Role_Mapping.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
 
 
 [Zum Seitenanfang ^](#lti)

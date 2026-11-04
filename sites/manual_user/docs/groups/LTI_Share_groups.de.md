@@ -88,6 +88,8 @@ Die Plattform schickt bei jedem Aufruf Vorname, Nachname, E-Mail-Adresse, Sprach
 
 Ergebnisse überträgt OpenOlat nur aus einem Kurs mit LTI-Freigabe an die Plattform, nicht aus einer Gruppe. Den LTI-Dienst für Namen und Rollen (Names and Role Provisioning Service, NRPS) fragt OpenOlat nicht ab. Eine Person kommt deshalb erst in die Gruppe, wenn sie die Gruppe selbst aufruft.
 
+Welche LTI-Dienste OpenOlat als Tool und als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations.de.md#supported_services).
+
 [Zum Seitenanfang ^](#LTI_access_to_a_group)
 
 ---

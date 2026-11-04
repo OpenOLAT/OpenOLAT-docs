@@ -61,7 +61,7 @@ The Client ID and Deployment ID parameters generated in the process can then be 
 
     In order for the Deployment ID to be generated, a change in the tab "Page content" must first be saved. This applies in particular when a preconfigured link has been selected under "LTI Version".
 
-The button "Select content" only appears if deep linking is activated for the external tool. It becomes usable as soon as the Client ID and the Deployment ID are available. It opens the content selection of the external tool. The content selected there then appears in the field "Resources". [:octicons-tag-16:{ title="from Release 18.1 (OO-7173)" }](https://track.frentix.com/issue/OO-7173)
+The button "Select content" appears with "LTI 1.3" and with a preconfigured tool for which "Activate Deep-Linking" is switched on. It becomes usable as soon as the Client ID and the Deployment ID are available. It opens the content selection of the external tool. The content selected there then appears in the field "Resources". [:octicons-tag-16:{ title="from Release 18.1 (OO-7173)" }](https://track.frentix.com/issue/OO-7173)
 
 
 ### Page view
