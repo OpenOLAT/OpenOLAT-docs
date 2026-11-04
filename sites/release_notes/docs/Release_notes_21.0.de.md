@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 16.07.2026 • Letztes Update: 21.10.2026**
+:material-calendar-month-outline: **Releasedatum: 16.07.2026 • Letztes Update: 04.11.2026**
 
 * * *
 
@@ -289,6 +289,7 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 * **UX, Usability, Accessibility**:
     * Optimierungen von Checkbox-Buttons, Objekt-Selektor, Button-Styling sowie im Bereich Barrierefreiheit
     * Der Katalog 1.0 zeigt auch auf Tablet und Smartphone ein sauberes Layout (:octicons-tag-24: Release 21.0.4)
+    * Infomeldungen erscheinen vor geöffneten Dialogen und sind nicht mehr verdeckt (:octicons-tag-24: Release 21.0.7)
 * **Mediasite-Integration via LTI 1.3:**
     * Das [Mediasite-Modul](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_Mediasite/){:target="_blank"} lässt sich neu wahlweise über LTI 1.1 oder LTI 1.3 mit dem Mediasite-Server verbinden
     * Mit LTI 1.3 lassen sich Inhalte per [Deep Linking](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_Mediasite/#choose_content){:target="_blank"} direkt auf dem Mediasite-Server auswählen, zusätzlich zur Eingabe der ID (:octicons-tag-24: Release 21.0.3)
@@ -313,9 +314,12 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
     * Über die zweite Domäne ausgelieferte Inhalte öffnen auch in einem neuen Tab, nach dem Neuladen und bei mehreren Personen gleichzeitig (:octicons-tag-24: Release 21.0.4)
 * Aktualisierung der Bibliotheken von Drittanbietern
 * fxSyncher: eigene Site im Hauptmenü mit konfigurierbarem Zugriff (:octicons-tag-24: Release 21.0.1 - nur frentix-Release)
-* **REST API:** Termine von Elementen im Course Planner lassen sich anlegen, ändern und abrufen (:octicons-tag-24: Release 21.0.1)
+* **REST API:**
+    * Termine von Elementen im Course Planner lassen sich anlegen, ändern und abrufen (:octicons-tag-24: Release 21.0.1)
+    * Nutzungsbedingungen und Datenschutzerklärung eines Kurses lassen sich lesen und konfigurieren (:octicons-tag-24: Release 21.0.7)
 * [Wartungstool](https://docs.openolat.org/de/manual_admin/administration/e-Assessment_Certificates/#tab_maintenance){:target="_blank"} zum Auffinden und Wiederherstellen beschädigter Zertifikat-PDFs (:octicons-tag-24: Release 21.0.1)
 * Paella player: mp4-Streams werden im CORS-Modus geladen, der Stream-Server muss `Access-Control-Allow-Origin` senden (:octicons-tag-24: Release 21.0.4)
+* [Tomcat ab 10.1.61](https://docs.openolat.org/de/manual_admin/installation/updateGuide/#tomcat-10161-and-greater){:target="_blank"}: Bei mehr als 10 Browsersprachen erscheint wieder die Login-Seite statt einer Fehlerseite. Empfohlen: `maxLocaleCount="-1"` auf allen Connectors in `server.xml` (:octicons-tag-24: Release 21.0.7)
 
 * * *
 
@@ -343,6 +347,7 @@ Voraussetzung ist eine gültige E-Mail-Adresse am Konto sowie ein funktionsfähi
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 21.0.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.7&title=Release%20Notes%2021.0.7){:target="_blank"}
 * [YouTrack Release Notes 21.0.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.6&title=Release%20Notes%2021.0.6){:target="_blank"}
 * [YouTrack Release Notes 21.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.5&title=Release%20Notes%2021.0.5){:target="_blank"}
 * [YouTrack Release Notes 21.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.0.4&title=Release%20Notes%2021.0.4){:target="_blank"}
