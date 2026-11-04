@@ -87,9 +87,21 @@ Hier können mehrere Taxonomien für unterschiedliche Bereiche in OpenOlat erste
 
 
 
-## Livestream {: #livestream}
+## Video Livestream [:octicons-tag-16:{ title="ab Release 14.0 (OO-4043)" }](https://track.frentix.com/issue/OO-4043){:target="_blank"} {: #livestream}
 
-Hier kann der Kursbaustein "Livestream" verfügbar gemacht und konfiguriert werden (Paella Player).
+Hier kann der Kursbaustein "Video Livestream" verfügbar gemacht und konfiguriert werden. Die Seite `Administration > Module > Livestream` hat drei Tabs. Im Tab "Einstellungen" schalten Sie den Kursbaustein und die Option "Multistream" ein und legen die Initialwerte für neue Kursbausteine fest. Die Einstellungen im Einzelnen beschreibt die Seite [Kursbaustein "Video Livestream"](../../manual_user/learningresources/Course_Element_Video_Livestream.de.md).
+
+### URL Vorlagen [:octicons-tag-16:{ title="ab Release 15.3 (OO-5163)" }](https://track.frentix.com/issue/OO-5163){:target="_blank"} {: #livestream_url_templates}
+
+Läuft ein Livestream immer unter derselben Adresse, etwa aus einem Hörsaal, hinterlegen Sie die Adresse hier als Vorlage. Wer im Kursbaustein einen Termin erfasst, wählt die Vorlage dann nach ihrem Namen aus und muss die Adresse nicht kennen.
+
+Mit "URL Vorlage erstellen" legen Sie eine Vorlage an. "Name" ist der Eintrag in der Auswahlliste des Termins, "URL 1" und "URL 2" sind die Adressen der beiden Streams. Mindestens eine der beiden URLs ist nötig. Mit "Bearbeiten" und "Löschen" in der Tabelle ändern oder entfernen Sie eine Vorlage.
+
+Ändern Sie die Adresse einer Vorlage, zeigen laufende Livestreams die neue Adresse auch bei Terminen, die schon mit dieser Vorlage erfasst sind. Löschen Sie eine Vorlage, behalten die Termine die zuletzt gespeicherte Adresse. Die Auswahl der Vorlagen erscheint im Termin nur, wenn mindestens eine Vorlage besteht.
+
+### Paella player [:octicons-tag-16:{ title="ab Release 15.5 (OO-5786)" }](https://track.frentix.com/issue/OO-5786){:target="_blank"} {: #livestream_paella}
+
+OpenOlat spielt die Livestreams im Paella Player ab. Im Feld "Player config (JSON)" passen Sie die Konfiguration des Players an, zum Beispiel das Layout und die Plugins. Die Variable `$profilePlayerPluginConfig` setzt die Auswahl unter "Stream" aus dem Kursbaustein in die Konfiguration ein: "Beide Streams anzeigen", "Stream 1 anzeigen" oder "Stream 2 anzeigen". Eine Änderung gilt nach dem Speichern, ohne Neustart.
 
 [Zum Seitenanfang ^](#modules)
 
@@ -199,9 +211,43 @@ gelöscht werden.
 
 
 
-## Kursbausteine {: #course_elements}
+## Kursbausteine [:octicons-tag-16:{ title="ab Release 18.2 (OO-7031)" }](https://track.frentix.com/issue/OO-7031){:target="_blank"} {: #course_elements}
 
-Hier wird festgelegt, welche Kursbaustein-Typen OpenOlat-Autor:innen für ihre Kurserstellung zur Verfügung haben.
+Für die Kursbausteine "Aufgabe", "Gruppenaufgabe", "Teilnehmer:innen Ordner", "Test" und "Umfrage" legen Sie hier fest, mit welchen Werten sie starten, wenn Autor:innen sie neu in einen Kurs einfügen. So müssen Autor:innen die Einstellungen, die in Ihrer Organisation üblich sind, nicht in jedem Kursbaustein selbst setzen. Bestehende Kursbausteine behalten ihre Werte.
+
+Die Liste unter `Administration > Module > Kursbausteine` zeigt die Kursbausteine mit ihrer Funktionsgruppe. Die Spalte "Aktiviert" zeigt nur an, ob ein Kursbaustein eingeschaltet ist. Hat ein Kursbaustein einstellbare Vorgaben, öffnet die Spalte "Info" seine Handbuchseite, und in der Spalte "Einstellungen" steht der Link "Bearbeiten". In jeder Vorgabe stellt "Alle Werte auf Default zurücksetzen" die Werte ab Werk wieder her.
+
+### Kursbausteine "Aufgabe" und "Gruppenaufgabe" {: #course_element_task}
+
+Wer einen Kursbaustein "Aufgabe" oder "Gruppenaufgabe" neu einfügt, findet im Tab "Workflow" die Werte vor, die Sie hier festlegen. Die Gruppenaufgabe hat in der Liste keine eigene Zeile, sie übernimmt die Vorgaben der Aufgabe. Sie öffnen die Vorgaben in der Zeile "Aufgabe" mit "Bearbeiten".
+
+Unter "Abschnitte" legen Sie mit "Pflicht" fest, ob der Kursbaustein "obligatorisch" oder "freiwillig" ist. Das Feld "Pflicht" zeigt der Tab "Workflow" nur in herkömmlichen Kursen. Darunter schalten Sie die Abschnitte des Workflows ein: "Aufgabenstellung", "Abgabe", "Rückgabe und Feedback", "Überarbeitung", "Musterlösungen" und "Bewertung". "Überarbeitung" steht nur zur Wahl, wenn "Rückgabe und Feedback" eingeschaltet ist. Mindestens ein Abschnitt muss eingeschaltet sein. Unter "Dokumente Konfiguration" legen Sie fest, ob "Betreuer:innen können Dokumente hinzufügen und bearbeiten" gilt. Unter "Betreuung" schalten Sie "Zuweisung Betreuende/Teilnehmende" mit "Zuweisung aktivieren" ein. Diese Vorgabe wirkt nur in der Aufgabe.
+
+Ab Werk steht "Pflicht" auf "obligatorisch", und alle Abschnitte sind eingeschaltet. Die beiden Optionen für Betreuer:innen sind ausgeschaltet. Die Einstellungen im Einzelnen beschreibt [Aufgabe einrichten, Tab "Workflow"](../../manual_user/learningresources/Course_Element_Task/Task_Setup.de.md#workflow).
+
+### Kursbaustein "Teilnehmer:innen Ordner" {: #course_element_participant_folder}
+
+Wer einen Kursbaustein "Teilnehmer:innen Ordner" neu einfügt, findet im Tab "Ordner Einstellungen" die Werte vor, die Sie hier festlegen. Sie öffnen die Vorgaben in der Zeile "Teilnehmer:innen Ordner" mit "Bearbeiten".
+
+Unter "Konfiguration des Abgabe- und Rückgabeordners" stehen "Betreuer:innen Rückgabeordner aktivieren", "Teilnehmer:innen Abgabeordner aktivieren", "Löschen und Überschreiben von Dokumenten erlauben" und "Anzahl der einstellbaren Dokumente einschränken" mit der Zahl im Feld "Limite". Mindestens einer der beiden Ordner muss eingeschaltet sein.
+
+Ab Werk sind beide Ordner eingeschaltet, und Löschen und Überschreiben ist erlaubt. Die Anzahl der Dokumente ist nicht eingeschränkt. Die Einstellungen im Einzelnen beschreibt [Kursbaustein "Teilnehmer:innen Ordner"](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md).
+
+### Kursbaustein "Test" {: #course_element_test}
+
+Wer einen Kursbaustein "Test" neu einfügt, findet im Tab "Test-Konfiguration" im Abschnitt "Report" die Werte vor, die Sie hier festlegen. Sie öffnen die Vorgaben in der Zeile "Test" mit "Bearbeiten".
+
+Zur Wahl stehen "Leistungsübersicht auf Test-Startseite anzeigen", "Resultate auf Test-Startseite anzeigen" mit "Nein" oder "Immer" und "Resultate nach Abgabe des Tests anzeigen". Unter "Übersicht Resultate" wählen Sie, welche Teile die Resultate zeigen: "Testzusammenfassung", "Sektionszusammenfassung", "Fragezusammenfassung", "Antwort, von Teilnehmer:in abgegeben" und "Lösung".
+
+Ab Werk ist nur "Leistungsübersicht auf Test-Startseite anzeigen" eingeschaltet. "Resultate auf Test-Startseite anzeigen" steht auf "Nein", und unter "Übersicht Resultate" ist nichts gewählt. Die Einstellungen im Einzelnen beschreibt [Test einrichten, Abschnitt Report](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md#section_report).
+
+### Kursbaustein "Umfrage" [:octicons-tag-16:{ title="ab Release 18.2 (OO-7529)" }](https://track.frentix.com/issue/OO-7529){:target="_blank"} {: #course_element_survey}
+
+Wer einen Kursbaustein "Umfrage" neu einfügt, findet im Tab "Umfrage" unter "Berechtigungen" die Rollen vorgewählt, die Sie hier festlegen. So passt die Vorgabe zu Ihrer Organisation, etwa wenn Teilnehmende die Resultate von Umfragen in der Regel sehen sollen. Sie öffnen die Vorgaben in der Zeile "Umfrage" mit "Bearbeiten".
+
+Unter "Teilnahme durch" wählen Sie, welche Rollen an der Umfrage teilnehmen, unter "Resultate sichtbar für", welche Rollen die Resultate sehen. Zur Wahl stehen jeweils "Besitzer:innen", "Betreuer:innen", "Teilnehmer:innen" und "Gast". Ab Werk nehmen die Teilnehmer:innen teil, und die Resultate sehen die Besitzer:innen und Betreuer:innen. Mit "Alle Werte auf Default zurücksetzen" stellen Sie diese Ausgangswerte wieder her.
+
+Kursbesitzer:innen ändern die Berechtigungen danach in jedem Kursbaustein einzeln, siehe [Kursbaustein "Umfrage", Tab "Umfrage"](../../manual_user/learningresources/Course_Element_Survey.de.md#survey).
 
 [Zum Seitenanfang ^](#modules)
 

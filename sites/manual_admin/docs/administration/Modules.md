@@ -87,9 +87,21 @@ Several taxonomies can be created and edited for different areas in OpenOlat.
 
 
 
-## Livestream {: #livestream}
+## Video live stream [:octicons-tag-16:{ title="from Release 14.0 (OO-4043)" }](https://track.frentix.com/issue/OO-4043){:target="_blank"} {: #livestream}
 
-The course element "Livestream" can be made available and configured here (Paella Player).
+The course element "Video live stream" can be made available and configured here. The page `Administration > Modules > Live stream` has three tabs. In the tab "Settings", you switch on the course element and the option "Multi stream" and set the default values for new course elements. The page [Course Element "Video live stream"](../../manual_user/learningresources/Course_Element_Video_Livestream.md) describes the settings in detail.
+
+### URL templates [:octicons-tag-16:{ title="from Release 15.3 (OO-5163)" }](https://track.frentix.com/issue/OO-5163){:target="_blank"} {: #livestream_url_templates}
+
+If a live stream always runs under the same address, for example from a lecture hall, store the address here as a template. Whoever enters an event in the course element then selects the template by its name and does not need to know the address.
+
+With "Add URL template" you create a template. "Name" is the entry in the selection list of the event, "URL 1" and "URL 2" are the addresses of the two streams. At least one of the two URLs is required. With "Edit" and "Delete" in the table you change or remove a template.
+
+If you change the address of a template, running live streams show the new address also for events that were already entered with this template. If you delete a template, the events keep the address saved last. The selection of templates appears in the event only if at least one template exists.
+
+### Paella player [:octicons-tag-16:{ title="from Release 15.5 (OO-5786)" }](https://track.frentix.com/issue/OO-5786){:target="_blank"} {: #livestream_paella}
+
+OpenOlat plays the live streams in the Paella Player. In the field "Player config (JSON)" you adjust the configuration of the player, for example the layout and the plugins. The variable `$profilePlayerPluginConfig` inserts the selection under "Stream" from the course element into the configuration: "Show both streams", "Show stream 1" or "Show stream 2". A change applies after saving, without a restart.
 
 [To the top of the page ^](#modules)
 
@@ -199,9 +211,43 @@ When authors create new courses, they will find default settings that are define
 
 
 
-## Course elements {: #course_elements}
+## Course elements [:octicons-tag-16:{ title="from Release 18.2 (OO-7031)" }](https://track.frentix.com/issue/OO-7031){:target="_blank"} {: #course_elements}
 
-Here you can define which course element types OpenOlat authors have available for their course creation.
+For the course elements "Task", "Grouptask", "Participant Folder", "Test" and "Survey", you define here the values with which they start when authors newly insert them into a course. This way authors do not have to set the settings that are usual in your organisation in each course element themselves. Existing course elements keep their values.
+
+The list under `Administration > Modules > Course elements` shows the course elements with their functional group. The column "Enabled" only shows whether a course element is switched on. If a course element has adjustable defaults, the column "Info" opens its manual page, and the column "Settings" contains the link "Edit". In each set of defaults, "Reset all values to default" restores the values set by default.
+
+### Course elements "Task" and "Grouptask" {: #course_element_task}
+
+Whoever inserts a new course element "Task" or "Grouptask" finds the values you define here in the tab "Workflow". The group task has no row of its own in the list, it takes over the defaults of the task. You open the defaults in the row "Task" with "Edit".
+
+Under "Workflow steps" you use "Obligation" to define whether the course element is "mandatory" or "optional". The tab "Workflow" shows the field "Obligation" only in conventional courses. Below, you switch on the steps of the workflow: "Task assignment", "Submission", "Return and feedback", "Revision", "Sample solution" and "Grading". "Revision" is only available if "Return and feedback" is switched on. At least one step must be switched on. Under "Documents configuration" you define whether "Coaches can add and edit documents" applies. Under "Coaching" you switch on "Assignment coaches/participants" with "Activate assignment". This default only takes effect in the task.
+
+By default, "Obligation" is set to "mandatory", and all steps are switched on. The two options for coaches are switched off. The page [Set up a task, tab "Workflow"](../../manual_user/learningresources/Course_Element_Task/Task_Setup.md#workflow) describes the settings in detail.
+
+### Course element "Participant Folder" {: #course_element_participant_folder}
+
+Whoever inserts a new course element "Participant Folder" finds the values you define here in the tab "Folder settings". You open the defaults in the row "Participant Folder" with "Edit".
+
+Under "Drop Box and Return Box configuration" you find "Enable Coach Return Box", "Enable Participant Drop Box", "Enable overwrite/delete of uploaded documents" and "Limit number of uploadable documents" with the number in the field "Limit". At least one of the two boxes must be switched on.
+
+By default, both boxes are switched on, and overwriting and deleting documents is allowed. The number of documents is not limited. The page [Course Element "Participant folder"](../../manual_user/learningresources/Course_Element_Participant_Folder.md) describes the settings in detail.
+
+### Course element "Test" {: #course_element_test}
+
+Whoever inserts a new course element "Test" finds the values you define here in the tab "Test configuration" in the section "Report". You open the defaults in the row "Test" with "Edit".
+
+The options are "Show performance summary on test homepage", "Show assessment on test homepage" with "No" or "Always", and "Show results after test has been submitted". Under "Overview results" you select which parts the results show: "Test summary", "Section summary", "Question summary", "Answer, submitted by participant" and "Solution".
+
+By default, only "Show performance summary on test homepage" is switched on. "Show assessment on test homepage" is set to "No", and nothing is selected under "Overview results". The page [Set up a test, section Report](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md#section_report) describes the settings in detail.
+
+### Course element "Survey" [:octicons-tag-16:{ title="from Release 18.2 (OO-7529)" }](https://track.frentix.com/issue/OO-7529){:target="_blank"} {: #course_element_survey}
+
+Whoever inserts a new course element "Survey" finds the roles you define here preselected in the tab "Survey" under "User rights". This way the default fits your organisation, for example if participants should usually see the results of surveys. You open the defaults in the row "Survey" with "Edit".
+
+Under "Participation by" you select which roles take part in the survey, under "Results visible for" which roles see the results. The options are "Owner", "Coach", "Participant" and "Guest" in each case. By default, the participants take part, and the owners and coaches see the results. With "Reset all values to default" you restore these initial values.
+
+Course owners then change the user rights in each course element individually, see [Course Element "Survey", Tab "Survey"](../../manual_user/learningresources/Course_Element_Survey.md#survey).
 
 [To the top of the page ^](#modules)
 

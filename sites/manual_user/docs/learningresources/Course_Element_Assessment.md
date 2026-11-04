@@ -85,6 +85,10 @@ The field appears if the course assessment adds up the points with weighting and
 
 Activate under "Assessment form" the checkbox "Individual comment" or "Individual assessment documents" to provide participants with individual comments or documents, for example as feedback.
 
+## Tab Badges [:octicons-tag-16:{ title="from Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003)
+
+If the owners of the course have switched on the awarding of badges under [`Course > Administration > Settings > Assessment > Badges`](../learningresources/Course_Settings_Assessment.md#section_badges), the course editor shows the tab "Badges" for this course element. There you create a badge for this course element.
+
 ## Perform assessment in the course view {: #bewertung-im-kursrun-durchfuhren}
 
 Owners and coaches assess the participants either in the course with the course editor closed or in the [assessment tool](../learningresources/Assessment_tool_overview.md).
@@ -100,11 +104,6 @@ To assess a person, select them and fill in the displayed fields, for a rubric a
 After release, the participants have access to their assessment, including the assessment rubric and any other feedback.
 
 The tab "Reminders" shows the [reminders](../learningresources/Course_Reminders.md) created for the course element in the course editor. Here you also create new reminders or edit and delete existing ones.
-
-
-### Tab Badges
-
-If the owners of the course have switched on the awarding of badges under [`Course > Administration > Settings > Assessment > Badges`](../learningresources/Course_Settings_Assessment.md#section_badges), the course editor shows the tab "Badges" for this course element. There you create a badge for this course element.
 
 ## Further information {: #further_information}
 

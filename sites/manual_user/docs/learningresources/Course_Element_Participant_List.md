@@ -5,7 +5,7 @@
 Name | Participant list
 ---------|----------
 Icon | :o_icon_o_cmembers_icon:
-Available since | Release 8.0 (2012)
+Available since | Release 8.0
 Functional group | Communication and collaboration
 Purpose | List of all course participants, grouped by roles
 Assessable | no

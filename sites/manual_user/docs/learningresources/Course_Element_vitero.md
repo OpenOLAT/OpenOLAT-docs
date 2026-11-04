@@ -5,7 +5,7 @@
 Name | vitero
 ---------|----------
 Icon | :o_icon_o_vitero_icon:
-Available since | Release 8.0 (2012)
+Available since | Release 8.0
 Functional group | Communication and collaboration
 Purpose | Integration of the vitero web conferencing software
 Assessable | no
@@ -17,12 +17,7 @@ Specialty / Note | Commercial software, licence and server hosting required
 
 With the course element "vitero", you integrate the vitero system for web conferencing, e-collaboration, live e-learning and language learning into your course. vitero (virtual team room) provides virtual team rooms for which you create meetings in the course. The licence of the connected vitero server determines which room sizes are available.
 
-In the virtual meeting room, participants communicate via text chat, audio and video and share documents and the desktop. The vitero system is suitable for virtual team sessions, but also, for example, for frontal lectures. Owners and coaches of the course whom you enter in a meeting receive the role "Team leader" in vitero.
-
-!!! note "Link to further information"
-
-    You can find out more about the functions of the vitero system on the homepage of vitero GmbH:<br>
-    [http://www.vitero.de](http://www.vitero.de/)
+In the virtual meeting room, participants communicate via text chat, audio and video and share documents and the desktop. The vitero system is suitable for virtual team sessions, but also, for example, for frontal lectures. Owners and coaches of the course whom you enter in a meeting receive the role "Team leader" in vitero. You can find out more about the functions of the vitero system on the [homepage of vitero GmbH](http://www.vitero.de/).
 
 ## Configuration in the course editor
 

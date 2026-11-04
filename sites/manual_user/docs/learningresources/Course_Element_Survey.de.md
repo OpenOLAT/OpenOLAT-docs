@@ -76,6 +76,8 @@ Mit "Erweiterte Konfiguration anzeigen" legen Sie zusätzlich fest, welche Grupp
 
 Auch die Resultate geben Sie für diese Rollen, Gruppen und Benutzer:innen frei und verbinden die Freigabe in der erweiterten Konfiguration mit einem Beginn und einem Ende.
 
+Welche Rollen in einem neu eingefügten Kursbaustein vorgewählt sind, gibt die System-Administration unter `Administration > Module > Kursbausteine` vor, siehe [Modul Kursbausteine](../../manual_admin/administration/Modules.de.md#course_element_survey) [:octicons-tag-16:{ title="ab Release 18.2 (OO-7529)" }](https://track.frentix.com/issue/OO-7529){:target="_blank"}.
+
 !!! tip "Tipp"
 
     Damit eine Personengruppe die Umfrage ausfüllen kann, muss auch der Kurs für diese Personengruppe freigegeben sein. Sollen zum Beispiel auch externe Personen (Gäste) die Umfrage ausfüllen, braucht der Kurs ein Angebot für Gäste, siehe [Zugangskonfiguration / Freigabe](../learningresources/Access_configuration.de.md). Eine Freigabe für Gäste gibt es nur bei herkömmlichen Kursen, nicht bei Lernpfadkursen.
@@ -131,6 +133,7 @@ Besitzer:innen des Kurses setzen eine Umfrage im Menü mit den drei Punkten des 
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Module: Übersicht >](../../manual_admin/administration/Modules.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)
 

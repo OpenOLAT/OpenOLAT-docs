@@ -5,7 +5,7 @@
 Name | vitero
 ---------|----------
 Icon | :o_icon_o_vitero_icon:
-Verfügbar seit | Release 8.0 (2012)
+Verfügbar seit | Release 8.0
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software vitero
 Bewertbar | nein
@@ -17,13 +17,7 @@ Spezialität / Hinweis | Kommerzielle Software, Lizenz und Serverhosting erforde
 
 Mit dem Kursbaustein "vitero" binden Sie das vitero System für Web Conferencing, E-Collaboration, Live-E-Learning und Language Learning in Ihren Kurs ein. vitero (virtual team room) stellt virtuelle Teamräume bereit, für die Sie im Kurs Termine anlegen. Welche Raumgrössen zur Wahl stehen, bestimmt die Lizenz des angebundenen vitero Servers.
 
-Im virtuellen Sitzungsraum kommunizieren die Teilnehmenden über Textchat, Audio und Video und teilen Dokumente und den Desktop. Das vitero System eignet sich für virtuelle Teamsitzungen, aber auch zum Beispiel für Frontalvorlesungen. Besitzer:innen und Betreuer:innen des Kurses, die Sie in einen Termin eintragen, erhalten in vitero die Rolle "Gruppenleiter:in".
-
-!!! note "Link zu weiteren Infos"
-
-    Mehr zu den Funktionen des vitero Systems erfahren Sie auf der Homepage der vitero GmbH:<br>
-    [http://www.vitero.de](http://www.vitero.de/)
-
+Im virtuellen Sitzungsraum kommunizieren die Teilnehmenden über Textchat, Audio und Video und teilen Dokumente und den Desktop. Das vitero System eignet sich für virtuelle Teamsitzungen, aber auch zum Beispiel für Frontalvorlesungen. Besitzer:innen und Betreuer:innen des Kurses, die Sie in einen Termin eintragen, erhalten in vitero die Rolle "Gruppenleiter:in". Mehr zu den Funktionen des vitero Systems erfahren Sie auf der [Homepage der vitero GmbH](http://www.vitero.de/).
 
 ## Konfiguration im Kurseditor
 

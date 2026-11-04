@@ -84,6 +84,10 @@ Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenz�
 
 Aktivieren Sie unter "Bewertungsformular" die Checkbox "Individueller Kommentar" oder "Individuelle Bewertungsdokumente", um den Teilnehmenden individuelle Kommentare oder Dokumente bereitzustellen, zum Beispiel als Feedback.
 
+## Tab Badges [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003)
+
+Haben Besitzer:innen des Kurses unter [`Kurs > Administration > Einstellungen > Bewertung > Badges`](../learningresources/Course_Settings_Assessment.de.md#section_badges) die Vergabe von Badges eingeschaltet, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge für diesen Kursbaustein.
+
 ## Bewertung in der Kursansicht durchführen {: #bewertung-im-kursrun-durchfuhren}
 
 Besitzer:innen und Betreuer:innen bewerten die Teilnehmenden entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md).
@@ -99,11 +103,6 @@ Um eine Person zu bewerten, wählen Sie sie aus und füllen die angezeigten Feld
 Die Teilnehmenden haben nach der Freigabe Zugriff auf ihre Bewertung inklusive Bewertungsrubrik und sonstiger Feedbacks.
 
 Der Tab "Erinnerungen" zeigt die [Erinnerungen](../learningresources/Course_Reminders.de.md), die für den Kursbaustein im Kurseditor angelegt sind. Hier erstellen Sie auch neue Erinnerungen oder bearbeiten und löschen bestehende.
-
-
-### Tab Badges
-
-Haben Besitzer:innen des Kurses unter [`Kurs > Administration > Einstellungen > Bewertung > Badges`](../learningresources/Course_Settings_Assessment.de.md#section_badges) die Vergabe von Badges eingeschaltet, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge für diesen Kursbaustein.
 
 ## Weiterführende Informationen {: #further_information}
 

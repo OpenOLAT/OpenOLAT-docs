@@ -76,6 +76,8 @@ With "Show advanced configuration" you also define which groups or individual us
 
 You also release the results to these roles, groups and users and link the release to a start and an end in the advanced configuration.
 
+Which roles are preselected in a newly inserted course element is defined in the system administration under `Administration > Modules > Course elements`, see [Module Course elements](../../manual_admin/administration/Modules.md#course_element_survey) [:octicons-tag-16:{ title="from Release 18.2 (OO-7529)" }](https://track.frentix.com/issue/OO-7529){:target="_blank"}.
+
 !!! tip "Tip"
 
     For a group of persons to be able to fill in the survey, the course must also be released for this group of persons. For example, if external persons (guests) are also to fill in the survey, the course needs an offer for guests, see [Access configuration](../learningresources/Access_configuration.md). A release for guests only exists for conventional courses, not for learning path courses.
@@ -130,6 +132,7 @@ Owners of the course reset a survey with "Reset" in the menu with the three dots
 [Forms - Overview >](../learningresources/Form.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Modules: Overview >](../../manual_admin/administration/Modules.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)
 

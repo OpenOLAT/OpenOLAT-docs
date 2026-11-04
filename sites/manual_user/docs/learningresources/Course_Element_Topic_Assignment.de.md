@@ -181,10 +181,6 @@ Im Tab "Ordner" finden Sie im Abschnitt "Abgabeordner" alle Dateien, die Teilneh
 
 Abonnieren Sie den Abgabeordner Ihres Themas, damit OpenOlat Sie über neu eingereichte Dateien benachrichtigt und Sie nicht selbst nachsehen müssen. [:octicons-tag-16:{ title="ab Release 10.3 (OO-1404)" }](https://track.frentix.com/issue/OO-1404)
 
-## Nutzerperspektive
-
-Steht der Themenstatus auf "Frei", schreiben sich Teilnehmende für ein Thema ein, sofern sie die maximal mögliche Anzahl Themen noch nicht gewählt haben. Steht der Themenstatus auf "Belegt", können sich keine weiteren Teilnehmenden einschreiben. Haben Sie bereits ein Thema gewählt, steht der Themenstatus entweder auf "Provisorisch zugewiesen", wenn die Themenverantwortlichen Sie noch akzeptieren müssen, oder auf "Zugewiesen", wenn die Einschreibung automatisch gilt. Sobald die Themenverantwortlichen Sie akzeptieren, wechselt der Themenstatus auf "Definitiv zugewiesen".
-
 ## Themen einer Themenvergabe verwalten
 
 Der Kursbaustein "Themenvergabe" kommt innerhalb eines OpenOlat-Kurses zum Einsatz. Die Besitzer:in eines Kurses konfiguriert den Kursbaustein nach Bedarf und bestimmt die Themenverantwortlichen. Als themenverantwortliche Person bieten Sie den Teilnehmenden Themen zur Auswahl an und verwalten die Teilnehmenden Ihrer Themen. Die Teilnehmenden reichen schriftliche Arbeiten über den Abgabeordner ein, und Sie geben ihnen die korrigierten Arbeiten über den Rückgabeordner zurück.
@@ -199,7 +195,7 @@ In der Themenvergabe stellen Themenverantwortliche Themen zur Verfügung, zum Be
 
 Als Teilnehmer:in sehen Sie in der Tabelle die ausgeschriebenen Themen und weitere Informationen, etwa die Namen der Verantwortlichen, den Einschreibe- und Abgabezeitraum oder die Anzahl der freien Plätze. Ihr gewünschtes Thema wählen Sie mit "Wählen". Je nach Konfiguration wählen Sie ein oder mehrere Themen aus.
 
-**Themenstatus**: Steht der Themenstatus auf "Frei", tragen Sie sich für ein Thema ein. Das ist möglich, bis die maximale Anzahl Plätze oder das Ende der Einschreibefrist erreicht ist. Steht der Themenstatus auf "Belegt", können sich bei diesem Thema keine weiteren Teilnehmenden eintragen. Haben Sie bereits ein Thema gewählt und müssen die Themenverantwortlichen Sie noch akzeptieren, steht der Themenstatus auf "Provisorisch zugewiesen". Sobald die Themenverantwortlichen Sie akzeptieren, wechselt der Themenstatus auf "Definitiv zugewiesen". Ist die Themenvergabe ohne manuelle Akzeptanz konfiguriert, gilt Ihre Wahl sofort.
+**Themenstatus**: Steht der Themenstatus auf "Frei", tragen Sie sich für ein Thema ein, sofern Sie die maximal mögliche Anzahl Themen noch nicht gewählt haben. Das ist möglich, bis die maximale Anzahl Plätze oder das Ende der Einschreibefrist erreicht ist. Steht der Themenstatus auf "Belegt", können sich bei diesem Thema keine weiteren Teilnehmenden eintragen. Haben Sie bereits ein Thema gewählt und müssen die Themenverantwortlichen Sie noch akzeptieren, steht der Themenstatus auf "Provisorisch zugewiesen". Sobald die Themenverantwortlichen Sie akzeptieren, wechselt der Themenstatus auf "Definitiv zugewiesen". Ist die Themenvergabe ohne manuelle Akzeptanz konfiguriert, gilt Ihre Wahl sofort, und der Themenstatus steht auf "Zugewiesen".
 
 Sobald Ihre Wahl definitiv ist, sehen Sie den Eintrag in der Tabelle und finden rechts oben den Link zur Gruppe mit dem Titel Ihres Themas (eventuell erscheint der Eintrag erst nach dem nächsten Login). Sie können ein Thema nur abwählen, wenn die Themenverantwortlichen es für dieses Thema erlauben. Besteht eine Einschreibefrist, können Sie sich nach deren Ablauf nicht mehr austragen.
 

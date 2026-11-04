@@ -182,10 +182,6 @@ In the tab "Folder", section "Drop box", you find all files that participants ha
 
 Subscribe to the drop box of your topic so that OpenOlat notifies you about newly submitted files and you do not have to check yourself. [:octicons-tag-16:{ title="from Release 10.3 (OO-1404)" }](https://track.frentix.com/issue/OO-1404)
 
-## From the user's perspective
-
-If the topic status is "Vacancies", participants register for a topic, as long as they have not yet selected the maximum possible number of topics. If the topic status is "Filled", no further participants can register. If you have already selected a topic, the topic status is either "Temporary assignment" if the topic authors still have to accept you, or "Assigned" if the registration applies automatically. As soon as the topic authors accept you, the topic status changes to "Definite assignment".
-
 ## Managing Topics of Topic Assignments
 
 The course element "Topic assignment" is used within an OpenOlat course. The owner of a course configures the course element as needed and determines the topic authors. As a person in charge, you offer the participants topics to choose from and manage the participants of your topics. The participants submit written work via the drop box, and you return the corrected work to them via the return box.
@@ -200,7 +196,7 @@ In the topic assignment, topic authors provide topics, for example for term pape
 
 As a participant, you see the announced topics in the table and further information, such as the names of the persons in charge, the registration and submission period or the number of free places. You select your desired topic with "Select". Depending on the configuration, you select one or more topics.
 
-**Topic status**: If the topic status is "Vacancies", you sign up for a topic. This is possible until the maximum number of places or the end of the registration deadline is reached. If the topic status is "Filled", no further participants can sign up for this topic. If you have already selected a topic and the topic authors still have to accept you, the topic status is "Temporary assignment". As soon as the topic authors accept you, the topic status changes to "Definite assignment". If the topic assignment is configured without manual acceptance, your selection applies immediately.
+**Topic status**: If the topic status is "Vacancies", you sign up for a topic, as long as you have not yet selected the maximum possible number of topics. This is possible until the maximum number of places or the end of the registration deadline is reached. If the topic status is "Filled", no further participants can sign up for this topic. If you have already selected a topic and the topic authors still have to accept you, the topic status is "Temporary assignment". As soon as the topic authors accept you, the topic status changes to "Definite assignment". If the topic assignment is configured without manual acceptance, your selection applies immediately and the topic status is "Assigned".
 
 As soon as your selection is final, you see the entry in the table and find the link to the group with the title of your topic in the upper right corner (the entry may only appear after your next login). You can only deselect a topic if the topic authors allow it for this topic. If there is a registration deadline, you can no longer sign out after it has passed.
 

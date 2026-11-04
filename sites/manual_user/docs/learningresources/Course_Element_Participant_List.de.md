@@ -6,7 +6,7 @@
 Name | Liste der Teilnehmer:innen
 ---------|----------
 Icon | :o_icon_o_cmembers_icon:
-Verfügbar seit | Release 8.0 (2012)
+Verfügbar seit | Release 8.0
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Liste aller Kursmitglieder, gruppiert nach Rollen
 Bewertbar | nein
