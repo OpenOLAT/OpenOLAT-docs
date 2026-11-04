@@ -42,7 +42,7 @@ Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unte
 
 ## Wann ist das Coaching Tool verfügbar? [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) {: #availability}
 
-Sie suchen im Hauptmenü den Eintrag "Coaching" und finden ihn nicht? OpenOlat zeigt ihn allen, die andere Personen betreuen, korrigieren oder verwalten. Das Coaching Tool selbst ist fester Bestandteil von OpenOlat und lässt sich in der System-Administration nicht ausschalten.
+Sie suchen im Hauptmenü den Eintrag "Coaching" und finden ihn nicht? OpenOlat zeigt ihn allen, die andere Personen betreuen, korrigieren oder verwalten. Das Coaching Tool selbst ist fester Bestandteil von OpenOlat.
 
 Der Eintrag "Coaching" erscheint, sobald mindestens einer dieser Punkte auf Sie zutrifft:
 

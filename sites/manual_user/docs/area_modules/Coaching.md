@@ -42,7 +42,7 @@ You can find access to the data of the persons you coach and the tools under the
 
 ## When is the Coaching Tool available? [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661) {: #availability}
 
-You are looking for the "Coaching" entry in the main menu and cannot find it? OpenOlat shows it to everyone who coaches, corrects or manages other people. The Coaching Tool itself is an integral part of OpenOlat and cannot be switched off in the system administration.
+You are looking for the "Coaching" entry in the main menu and cannot find it? OpenOlat shows it to everyone who coaches, corrects or manages other people. The Coaching Tool itself is an integral part of OpenOlat.
 
 The "Coaching" entry appears as soon as at least one of these points applies to you:
 
