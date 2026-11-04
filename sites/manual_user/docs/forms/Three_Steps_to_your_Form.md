@@ -40,7 +40,7 @@ For more details on how to use the form editor, see the "[Form editor](../learni
 
 2. Open the ["Course editor"](../../manual_how-to/my_first_course/my_first_course.md) via "Administration".
 
-    Select "Insert course elements" and click on the desired [course element](../learningresources/Assessment.md) form, survey or [assessment](../learningresources/Course_Element_Assessment.md), depending on your scenario.
+    Select "Insert course elements" and click on the desired [course element](../learningresources/Course_Elements.md) form, survey or [assessment](../learningresources/Course_Element_Assessment.md), depending on your scenario.
 
 3. Go to the respective tab Form or Survey of the course element and add a suitable form here → "Choose, create or import".
 
@@ -73,7 +73,7 @@ For more details on how to use the form editor, see the "[Form editor](../learni
 [Forms in courses](../learningresources/Forms_in_Courses.md)<br>
 [The form editor](../learningresources/Form_Editor.md)<br>
 [How do I create my first OpenOlat course?](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Assessment](../learningresources/Assessment.md)<br>
+[Types of Course Elements](../learningresources/Course_Elements.md)<br>
 [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)<br>
 [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md)
 

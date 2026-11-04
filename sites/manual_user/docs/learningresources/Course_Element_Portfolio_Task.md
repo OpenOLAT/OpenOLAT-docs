@@ -74,7 +74,7 @@ If you have added a template to the course element, the "Learning content" tab s
 
 If the portfolio task is to be assessed, also configure the "Assessment" tab in the course editor.
 
-If assessments already exist for the portfolio task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Assessment.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the portfolio task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ![Under "Grading configuration" a score from 0 to 10, levels with the rating scale Emojis and "Include in course assessment", below it the area "Assessment form"](assets/course_element_portfolio_task_tab_assessment_v2_en.png){ class="shadow lightbox" title="Tab Assessment of the portfolio task in the course editor · 2026.11.02" }
 
@@ -295,7 +295,7 @@ You can find out how coaches comment on and assess a portfolio task on the page 
 **Mentioned on this page**<br>
 [Portfolio template: Creation >](Portfolio_template_Creation.md)<br>
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
-[Assessment >](Assessment.md)<br>
+[Types of Course Elements >](Course_Elements.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>

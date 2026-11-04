@@ -35,7 +35,7 @@ For the group task, each group selects _one_ task. As soon as a group member has
 If the option "Confirmation e-mail" is enabled, all participants of the group receive a confirmation by e-mail, regardless of who created, uploaded or submitted the files.
 
 ## Tab Grading {: #tab_assessment}
-If assessments already exist for the group task, OpenOlat displays the settings under "Grading configuration" in the tab "Grading" as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Assessment.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the group task, OpenOlat displays the settings under "Grading configuration" in the tab "Grading" as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 Points and feedback apply to the whole group and can be adjusted for individual group members.
 
@@ -56,7 +56,7 @@ All decisions and submissions in the workflow apply to the whole group. Therefor
 
 **Mentioned on this page**<br>
 [Course Element "Task" >](Course_Element_Task/index.md)<br>
-[Assessment >](Assessment.md)<br>
+[Types of Course Elements >](Course_Elements.md)<br>
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)
 
 **Further reading**<br>

@@ -36,7 +36,7 @@ The settings influence the subsequent assessment options and the information the
 
 In learning path courses, the tab is divided into three areas. At the top, under the legend "Assessment configuration", is the option "Set status "To review" if accessible". Below that follows the legend "Grading configuration" with the settings from "Rubric assessment" to "Include in course assessment". Finally follows the area "Assessment form". In conventional courses, the top area is missing.
 
-If assessments already exist for the course element, OpenOlat displays the settings under the legend "Grading configuration" as read-only. The option "Set status "To review" if accessible" and the area "Assessment form" remain editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Assessment.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the course element, OpenOlat displays the settings under the legend "Grading configuration" as read-only. The option "Set status "To review" if accessible" and the area "Assessment form" remain editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ### Set status "To review" [:octicons-tag-16:{ title="from Release 16.0 (OO-5564)" }](https://track.frentix.com/issue/OO-5564)
 
@@ -110,12 +110,12 @@ If the owners of the course have switched on the awarding of badges under [`Cour
 
 **Mentioned on this page**<br>
 [The form element rubric >](../learningresources/Form_Element_Rubric.md)<br>
-[Assessment >](../learningresources/Assessment.md)<br>
+[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
 [Forms in Rubric Scoring >](../learningresources/Forms_in_Rubric_Scoring.md)<br>
 [Levels/Grading >](../learningresources/Assessment_translate_points_in_grades.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
-[Course Reminders >](../learningresources/Course_Reminders.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)
+[Course Reminders >](../learningresources/Course_Reminders.md)
 
 **Further reading**<br>
 [The assessment form >](../learningresources/The_assessment_form.md)<br>

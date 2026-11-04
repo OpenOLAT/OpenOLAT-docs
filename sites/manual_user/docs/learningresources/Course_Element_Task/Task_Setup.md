@@ -298,7 +298,7 @@ If the option "With peer review" was selected, the page [Task with peer review](
 
 Here you define _how_ the participants are assessed. Should there be points? Should there be a passed/not passed for the course element? Should the point evaluation be linked to a rating scale, and if so, with which? Should coaches be able to provide further individual comments or documents? Decide in each case what suits your scenario.
 
-If assessments already exist for the task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](../Assessment.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](../Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 A form with a rubric can also be used for the assessment. The points can then be taken from the rubric form for the assessment of the course element. The rubric form included here in the "Grading" tab is to be distinguished from the rubric form used in the "Revisions and feedback" tab for peer reviews.
 
@@ -411,7 +411,6 @@ If "Award badges" is switched on in the course settings, the course editor shows
 [Task with peer review >](Task_Peer_Review.md)<br>
 [Course Element "Group Task" >](../Course_Element_Grouptask.md)<br>
 [Assessment tool - overview >](../Assessment_tool_overview.md)<br>
-[Assessment >](../Assessment.md)<br>
 [Types of Course Elements >](../Course_Elements.md)<br>
 [Course Reminders >](../Course_Reminders.md)<br>
 [To-dos in the course >](../Course_todos.md)<br>

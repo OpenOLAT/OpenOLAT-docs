@@ -46,7 +46,7 @@ Als Besitzer:in des Kurses erstellen und bearbeiten Sie den Kursbaustein "SCORM 
 
 Im Tab "Lerninhalt" wählen Sie das SCORM-Paket aus und bestimmen, wie es sich den Teilnehmenden zeigt und ob seine Resultate in die Bewertung einfliessen. Der Tab gliedert sich in die Bereiche "SCORM", "Einstellungen" und "Konfiguration Bewertung".
 
-Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an, die das Bewertungsergebnis verändern. Bearbeitbar bleiben "Reduzieren von Punkten bei erneutem Versuch verhindern", "Lösungsversuche nur zählen, wenn Punkte übertragen werden" und "Maximale Anzahl Lösungsversuche" sowie die Bereiche "SCORM" und "Einstellungen". Mit "Bearbeitungsmodus aktivieren" machen Sie die übrigen Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Assessment.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an, die das Bewertungsergebnis verändern. Bearbeitbar bleiben "Reduzieren von Punkten bei erneutem Versuch verhindern", "Lösungsversuche nur zählen, wenn Punkte übertragen werden" und "Maximale Anzahl Lösungsversuche" sowie die Bereiche "SCORM" und "Einstellungen". Mit "Bearbeitungsmodus aktivieren" machen Sie die übrigen Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ![Feld SCORM mit dem gewählten Paket und Button Ersetzen, darunter die Bereiche Einstellungen und Konfiguration Bewertung mit allen Feldern](assets/course_element_scorm_tab_learning_content_v3_de.png){ class="shadow lightbox" title="Tab Lerninhalt im Kurseditor · 2026.10.08" }
 
@@ -221,9 +221,8 @@ Ist in den Kurseinstellungen die Vergabe von Badges aktiviert, zeigt der Kursedi
 
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
-[Wissensüberprüfung >](Assessment.de.md)<br>
-[Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
 [Kursbausteine >](Course_Elements.de.md)<br>
+[Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Badges >](OpenBadges.de.md)
 

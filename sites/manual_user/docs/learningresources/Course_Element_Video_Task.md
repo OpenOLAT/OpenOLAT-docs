@@ -152,7 +152,7 @@ You can only open the tab "Assessment" in the mode "Test: Identify situations", 
 * **Grading configuration**: Here you define how OpenOlat assesses the test. With "Score granted", "Minimum score", "Maximum score", "Digits after comma" and "Weighting wrong answer" appear. "Minimum score" is always 0 and cannot be changed. In addition there are "Levels/Grading", "Display passed / not passed" with "Display success status" and "Passed cut value" as well as, in learning path courses, "Include in course assessment".
 * **Assessment form**: With "Individual comment" and "Individual assessment documents", coaches provide participants with comments or documents during the assessment.
 
-If assessments already exist for the video task, OpenOlat displays all settings under "Grading configuration" as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Assessment.md#assessment_config_read_only).
+If assessments already exist for the video task, OpenOlat displays all settings under "Grading configuration" as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only).
 
 
 [To the top of the page ^](#video_task)
@@ -250,7 +250,7 @@ In the tab "Participants", owners and coaches of the course see the results of e
 ## Further information {: #further_information}
 
 [Learning resource: Video >](../../manual_user/learningresources/Learning_resource_Video.md)<br>
-[Assessment >](Assessment.md)<br>
+[Types of Course Elements >](Course_Elements.md)<br>
 [Course Element "Video" >](../../manual_user/learningresources/Course_Element_Video.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)
 

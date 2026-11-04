@@ -303,7 +303,7 @@ Wurde die Option "Mit Peer-Review" gewählt, beschreibt die Seite [Aufgabe mit P
 
 Hier legen Sie fest, _wie_ die Teilnehmenden bewertet werden. Soll es Punkte geben? Soll es ein Bestanden/Nicht bestanden für den Kursbaustein geben? Soll die Punktebewertung mit einer Bewertungsskala verbunden werden, und wenn ja, mit welcher? Sollen Betreuende weitere individuelle Kommentare oder Dokumente bereitstellen können? Entscheiden Sie jeweils, was zu Ihrem Szenario passt.
 
-Sind für die Aufgabe bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](../Assessment.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für die Aufgabe bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](../Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 Für die Bewertung kann auch ein Formular mit Rubrik verwendet werden. Die Punkte können dann aus dem Rubrik-Formular für die Bewertung des Kursbausteins übernommen werden. Das hier im Tab "Bewertung" eingebundene Rubrik-Formular ist zu unterscheiden von dem Rubrik-Formular, das im Tab "Rückgabe und Feedback" für Peer-Reviews verwendet wird.
 
@@ -420,7 +420,6 @@ Ist in den Kurseinstellungen "Badges vergeben" eingeschaltet, zeigt der Kursedit
 [Aufgabe mit Peer-Review >](Task_Peer_Review.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../Course_Element_Grouptask.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
-[Wissensüberprüfung >](../Assessment.de.md)<br>
 [Kursbausteine >](../Course_Elements.de.md)<br>
 [Erinnerungen >](../Course_Reminders.de.md)<br>
 [To-dos im Kurs >](../Course_todos.de.md)<br>

@@ -141,7 +141,7 @@ Für Teilnehmende zeigt sich die Leistungsübersicht wie folgt:
 
 Die Konfiguration im Tab "Punkte" lässt sich nicht immer sofort ändern. Sobald für den Strukturbaustein Bewertungen vorhanden sind, zeigt OpenOlat die ganze Legende "Zusammengefasste Bewertung" schreibgeschützt an, also die Berechnung der Punkte und des Bestanden-Status. [:octicons-tag-16:{ title="ab Release 20.3.7 / 21.0.1 (OO-9646)" }](https://track.frentix.com/issue/OO-9646) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
-Mit der Schaltfläche "Bearbeitungsmodus aktivieren" im Hinweis über der Legende machen Sie die Einstellungen wieder bearbeitbar. Der Schreibschutz gilt so in allen bewertbaren Kursbausteinen. Wann er greift, welche Meldungen OpenOlat zeigt und wie lange der Bearbeitungsmodus gilt, beschreibt der Abschnitt [Schreibschutz der Bewertungskonfiguration](Assessment.de.md#assessment_config_read_only).
+Mit der Schaltfläche "Bearbeitungsmodus aktivieren" im Hinweis über der Legende machen Sie die Einstellungen wieder bearbeitbar. Der Schreibschutz gilt so in allen bewertbaren Kursbausteinen. Wann er greift, welche Meldungen OpenOlat zeigt und wie lange der Bearbeitungsmodus gilt, beschreibt der Abschnitt [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only).
 
 !!! info "Wichtig"
 
@@ -169,10 +169,9 @@ In herkömmlichen Kursen schützen Sie den Kursbaustein "Struktur" und damit sei
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
-[Wissensüberprüfung >](../learningresources/Assessment.de.md)
+[Kursbausteine >](../learningresources/Course_Elements.de.md)
 
 **Weiterführend**<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)
 

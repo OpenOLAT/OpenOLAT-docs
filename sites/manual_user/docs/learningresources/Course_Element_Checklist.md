@@ -32,7 +32,7 @@ By means of the course element "Checklist" you add a checklist to your course. F
 
 In this tab, you determine whether a deadline should be effective for the checklist and if and how participants are assessed. Depending on the selected settings, you have different assessment options at your disposal. Later, you assess either in the course with the course editor closed or in the [Assessment tool](../learningresources/Assessment_of_course_modules.md) of the course.
 
-The tab is divided into the areas "Checklist configuration", "Grading configuration" and "Assessment form". If assessments already exist for the checklist, OpenOlat displays the settings under "Grading configuration" as read-only. The deadline under "Checklist configuration" and the area "Assessment form" remain editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Assessment.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+The tab is divided into the areas "Checklist configuration", "Grading configuration" and "Assessment form". If assessments already exist for the checklist, OpenOlat displays the settings under "Grading configuration" as read-only. The deadline under "Checklist configuration" and the area "Assessment form" remain editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ### Checklist configuration {: #checklist_configuration}
 
@@ -179,14 +179,13 @@ In the lower part of the form, you determine whether the course element "Structu
 
 **Mentioned on this page**<br>
 [Assessment of course modules >](../learningresources/Assessment_of_course_modules.md)<br>
-[Assessment >](../learningresources/Assessment.md)<br>
+[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
 [Levels/Grading >](../learningresources/Assessment_translate_points_in_grades.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Course Element "Structure" >](Course_Element_Structure.md)
 
 **Further reading**<br>
-[Badges >](../learningresources/OpenBadges.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)
+[Badges >](../learningresources/OpenBadges.md)
 
 [To the top of the page ^](#course_element_checklist)
 

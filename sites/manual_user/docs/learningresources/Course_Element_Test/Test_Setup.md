@@ -27,7 +27,7 @@ Only when the selected condition is met does OpenOlat show the participants the 
 
 ## Tab "Test configuration" {: #tab_configuration}
 
-If assessments already exist for the test, OpenOlat displays the settings under "Grading configuration" in this tab as read-only: "Levels/Grading" and "Include in course assessment". With "Enable edit mode" you make them editable again, see [Read-only assessment configuration](../Assessment.md#assessment_config_read_only). The read-only mode only exists in the course element "Test", not in the self-test and not in the questionnaire. [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the test, OpenOlat displays the settings under "Grading configuration" in this tab as read-only: "Levels/Grading" and "Include in course assessment". With "Enable edit mode" you make them editable again, see [Read-only assessment configuration](../Course_Elements.md#assessment_config_read_only). The read-only mode only exists in the course element "Test", not in the self-test and not in the questionnaire. [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 If you have not yet selected a test, a corresponding message will appear in the "Test configuration" tab. You can now "Select" or "Import" an existing test or "Create" a new test.
 
@@ -247,7 +247,7 @@ If owners of the course have activated the awarding of badges under `Course > Ad
 [Course Element "Test" >](index.md)<br>
 [Evaluate and manage tests >](Test_Results.md)<br>
 [Learning path course - Course editor >](../Learning_path_course_Course_editor.md)<br>
-[Assessment >](../Assessment.md)<br>
+[Types of Course Elements >](../Course_Elements.md)<br>
 [How do I prepare an online exam? >](../../../manual_how-to/exam_preparation/exam_preparation.md)<br>
 [Learning path course - Overview >](../Learning_path_course.md)<br>
 [Course Settings - Tab Assessment >](../Course_Settings_Assessment.md)<br>
@@ -255,7 +255,6 @@ If owners of the course have activated the awarding of badges under `Course > Ad
 [Test settings - Administration >](../Test_settings.md)<br>
 [Tests at course level >](../Tests_at_course_level.md)<br>
 [Configure tests >](../Configure_tests.md)<br>
-[Types of Course Elements >](../Course_Elements.md)<br>
 [Course Element "E-Mail" >](../Course_Element_EMail.md)<br>
 [Course Reminders >](../Course_Reminders.md)<br>
 [Badges >](../OpenBadges.md)

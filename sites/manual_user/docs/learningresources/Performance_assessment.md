@@ -2,16 +2,16 @@
 
 ## Assessment
 
-A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The following course elements can be viewed and assessed in the [assessment tool](../learningresources/Assessment_tool_overview.md). Further information on these modules can be found, among other things, in the chapter ["Assessment"](../learningresources/Assessment.md):
+A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The following course elements can be viewed and assessed in the [assessment tool](../learningresources/Assessment_tool_overview.md). All settings are described on the page of the respective course element:
 
-* [Task](../learningresources/Course_Element_Assessment.md) (manual assessment)
-* [Group task](../learningresources/Assessment.md) (manual assessment)
-* [Portfolio task](../learningresources/Assessment.md) (manual assessment)
-* [Checklist](../learningresources/Assessment.md) (manual & automatic assessment)
-* [Assessment](../learningresources/Assessment.md) (manual assessment)
+* [Task](../learningresources/Course_Element_Task/index.md) (manual assessment)
+* [Group task](../learningresources/Course_Element_Grouptask.md) (manual assessment)
+* [Portfolio task](../learningresources/Course_Element_Portfolio_Task.md) (manual assessment)
+* [Checklist](../learningresources/Course_Element_Checklist.md) (manual & automatic assessment)
+* [Assessment](../learningresources/Course_Element_Assessment.md) (manual assessment)
 * [LTI](../learningresources/Course_Element_LTI_Page.md) (automatic assessment, transferred from LTI page)
 * [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.md) (automatic assessment, transferred from SCORM module)
-* [Test](../learningresources/Assessment.md) (automatic & manual assessment)
+* [Test](../learningresources/Course_Element_Test/index.md) (automatic & manual assessment)
 
 Refer to the chapter ["Test"](../learningresources/Test.md) for more information on creating and configuring tests.
 
@@ -25,9 +25,14 @@ An evidence of achievement is a confirmation of an existing efficiency control a
 
 **Mentioned on this page**<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
-[Assessment >](../learningresources/Assessment.md)<br>
+[Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
+[Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
+[Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
+[Course Element "Checklist" >](../learningresources/Course_Element_Checklist.md)<br>
 [Course Element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>
 [Course Element "LTI Page" >](../learningresources/Course_Element_LTI_Page.md)<br>
+[Course Element "SCORM 1.2" >](../learningresources/Course_Element_SCORM_Learning_Content.md)<br>
+[Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [Types of Course Elements >](../learningresources/Course_Elements.md)<br>
 [Creating Tests >](../learningresources/Test.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>

@@ -47,7 +47,7 @@ As an owner of the course, you create and edit the "SCORM 1.2" course element ju
 
 In the "Learning content" tab, you select the SCORM package and determine how it appears to participants and whether its results count towards the assessment. The tab is divided into the areas "SCORM", "Settings" and "Grading configuration".
 
-If assessments already exist for the course element, OpenOlat displays the settings under "Grading configuration" that change the assessment result as read-only. "Prevent the score from decreasing on subsequent attempts", "Count attempts only if score is transferred" and "Maximum number of attempts" remain editable, as do the areas "SCORM" and "Settings". With "Enable edit mode" you make the other settings editable again, see [Read-only assessment configuration](Assessment.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the course element, OpenOlat displays the settings under "Grading configuration" that change the assessment result as read-only. "Prevent the score from decreasing on subsequent attempts", "Count attempts only if score is transferred" and "Maximum number of attempts" remain editable, as do the areas "SCORM" and "Settings". With "Enable edit mode" you make the other settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ![Field SCORM with the selected package and button Replace, below it the areas Settings and Grading configuration with all fields](assets/course_element_scorm_tab_learning_content_v3_en.png){ class="shadow lightbox" title="Tab Learning content in the course editor · 2026.10.08" }
 
@@ -222,9 +222,8 @@ If the awarding of badges is enabled in the course settings, the course editor s
 
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)<br>
-[Assessment >](Assessment.md)<br>
-[Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
 [Types of Course Elements >](Course_Elements.md)<br>
+[Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Badges >](OpenBadges.md)
 

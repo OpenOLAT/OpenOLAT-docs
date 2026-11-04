@@ -139,7 +139,7 @@ For participants, the performance summary is as follows:
 
 The configuration in the tab "Score" cannot always be changed right away. As soon as assessments exist for the structure element, OpenOlat displays the whole legend "Combined assessment" as read-only, that is the calculation of the score and of the passed status. [:octicons-tag-16:{ title="from Release 20.3.7 / 21.0.1 (OO-9646)" }](https://track.frentix.com/issue/OO-9646) [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
-With the button "Enable edit mode" in the message above the legend, you make the settings editable again. The read-only mode works this way in all assessable course elements. When it applies, which messages OpenOlat displays and how long the edit mode lasts is described in the section [Read-only assessment configuration](Assessment.md#assessment_config_read_only).
+With the button "Enable edit mode" in the message above the legend, you make the settings editable again. The read-only mode works this way in all assessable course elements. When it applies, which messages OpenOlat displays and how long the edit mode lasts is described in the section [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only).
 
 !!! info "Important"
 
@@ -167,10 +167,9 @@ In conventional courses, you protect the course element "Structure" and thus its
 [Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
-[Assessment >](../learningresources/Assessment.md)
+[Types of Course Elements >](../learningresources/Course_Elements.md)
 
 **Further reading**<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
 [Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)
 

@@ -35,7 +35,7 @@ Die Einstellungen haben Einfluss auf die späteren Bewertungsoptionen und auf di
 
 In Lernpfadkursen gliedert sich der Tab in drei Bereiche. Zuoberst steht unter der Legende "Konfiguration Bewertung" die Option "Status "Korrigieren" setzen, wenn Zugriff gewährt". Darunter folgt eine zweite Legende "Konfiguration Bewertung" mit den Einstellungen von "Rubrik-Bewertung" bis "Bei Kurs-Bewertung berücksichtigen". Zuletzt folgt der Bereich "Bewertungsformular". In herkömmlichen Kursen fehlt der oberste Bereich.
 
-Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter der zweiten Legende "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben die Option "Status "Korrigieren" setzen, wenn Zugriff gewährt" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Assessment.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter der zweiten Legende "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben die Option "Status "Korrigieren" setzen, wenn Zugriff gewährt" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ### Status "Korrigieren" setzen [:octicons-tag-16:{ title="ab Release 16.0 (OO-5564)" }](https://track.frentix.com/issue/OO-5564)
 
@@ -109,12 +109,12 @@ Haben Besitzer:innen des Kurses unter [`Kurs > Administration > Einstellungen > 
 
 **Auf dieser Seite erwähnt**<br>
 [Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
-[Wissensüberprüfung >](../learningresources/Assessment.de.md)<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
 [Formular als Rubrik-Bewertung >](../learningresources/Forms_in_Rubric_Scoring.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
-[Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)
+[Erinnerungen >](../learningresources/Course_Reminders.de.md)
 
 **Weiterführend**<br>
 [Das Bewertungsformular >](../learningresources/The_assessment_form.de.md)<br>

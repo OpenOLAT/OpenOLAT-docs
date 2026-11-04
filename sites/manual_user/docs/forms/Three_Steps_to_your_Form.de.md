@@ -39,7 +39,7 @@ Weitere Einzelheiten zur Verwendung des Formulareditors finden Sie im Kapitel "[
 1. Gehen Sie in den [Autorenbereich](../area_modules/Authoring.de.md). Im Bereich "Meine Kurse" sowie unter "Meine Einträge" und gegebenenfalls unter "Favoriten" finden Sie Ihre Kurse. Starten Sie den Kurs, in dem das Formular eingebunden werden soll.
 2. Öffnen Sie über die "Administration" den ["Kurseditor"](../../manual_how-to/my_first_course/my_first_course.de.md).
 
-    Wählen sie "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](../learningresources/Assessment.de.md) Formular, Umfrage oder [Bewertung](../learningresources/Course_Element_Assessment.de.md), je nach Ihrem Szenario.
+    Wählen sie "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](../learningresources/Course_Elements.de.md) Formular, Umfrage oder [Bewertung](../learningresources/Course_Element_Assessment.de.md), je nach Ihrem Szenario.
 
 3. Gehen Sie in den jeweiligen Tab Formular oder Umfrage des Kursbausteins und fügen Sie hier ein passendes Formular hinzu → "Wählen, erstellen oder importieren". 
 
@@ -72,7 +72,7 @@ Weitere Einzelheiten zur Verwendung des Formulareditors finden Sie im Kapitel "[
 [Formulare in Kursen](../learningresources/Forms_in_Courses.de.md)<br>
 [Der Formulareditor](../learningresources/Form_Editor.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs?](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Wissensüberprüfung](../learningresources/Assessment.de.md)<br>
+[Kursbausteine](../learningresources/Course_Elements.de.md)<br>
 [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md)<br>
 [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md)
 

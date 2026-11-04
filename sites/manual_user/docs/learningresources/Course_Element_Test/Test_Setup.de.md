@@ -27,7 +27,7 @@ Erst wenn die gewählte Bedingung erfüllt ist, zeigt OpenOlat den Teilnehmenden
 
 ## Tab "Test-Konfiguration" {: #tab_configuration}
 
-Sind für den Test bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an: "Bewertung mit Einstufung/Noten" und "Bei Kurs-Bewertung berücksichtigen". Mit "Bearbeitungsmodus aktivieren" machen Sie sie wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](../Assessment.de.md#assessment_config_read_only). Den Schreibschutz gibt es nur im Kursbaustein "Test", nicht im Selbsttest und nicht im Fragebogen. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für den Test bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an: "Bewertung mit Einstufung/Noten" und "Bei Kurs-Bewertung berücksichtigen". Mit "Bearbeitungsmodus aktivieren" machen Sie sie wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](../Course_Elements.de.md#assessment_config_read_only). Den Schreibschutz gibt es nur im Kursbaustein "Test", nicht im Selbsttest und nicht im Fragebogen. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab "Test-Konfiguration" ein entsprechender Hinweis. Sie können nun einen vorhandenen Test "Auswählen" oder "Importieren" oder einen neuen Test "Erstellen".
 
@@ -247,7 +247,7 @@ Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > T
 [Kursbaustein "Test" >](index.de.md)<br>
 [Tests auswerten und verwalten >](Test_Results.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../Learning_path_course_Course_editor.de.md)<br>
-[Wissensüberprüfung >](../Assessment.de.md)<br>
+[Kursbausteine >](../Course_Elements.de.md)<br>
 [Wie bereite ich eine Online-Prüfung vor? >](../../../manual_how-to/exam_preparation/exam_preparation.de.md)<br>
 [Lernpfadkurs - Überblick >](../Learning_path_course.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment.de.md)<br>
@@ -255,7 +255,6 @@ Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > T
 [Test Einstellungen - Administration >](../Test_settings.de.md)<br>
 [Tests auf Kursebene >](../Tests_at_course_level.de.md)<br>
 [Test konfigurieren >](../Configure_tests.de.md)<br>
-[Kursbausteine >](../Course_Elements.de.md)<br>
 [Kursbaustein "E-Mail" >](../Course_Element_EMail.de.md)<br>
 [Erinnerungen >](../Course_Reminders.de.md)<br>
 [Badges >](../OpenBadges.de.md)

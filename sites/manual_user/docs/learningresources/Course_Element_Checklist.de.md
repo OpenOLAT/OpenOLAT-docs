@@ -32,7 +32,7 @@ Mit dem Kursbaustein "Checkliste" fügen Sie eine Checkliste in Ihren Kurs ein. 
 
 In diesem Tab bestimmen Sie, ob ein Abgabedatum für die Checkliste wirksam sein soll und ob und wie die Teilnehmenden bewertet werden. Je nach gewählten Einstellungen stehen Ihnen unterschiedliche Bewertungsoptionen zur Verfügung. Später bewerten Sie entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) des Kurses.
 
-Der Tab gliedert sich in die Bereiche "Konfiguration der Checkliste", "Konfiguration Bewertung" und "Bewertungsformular". Sind für die Checkliste bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben das Abgabedatum unter "Konfiguration der Checkliste" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Assessment.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Der Tab gliedert sich in die Bereiche "Konfiguration der Checkliste", "Konfiguration Bewertung" und "Bewertungsformular". Sind für die Checkliste bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben das Abgabedatum unter "Konfiguration der Checkliste" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ### Konfiguration der Checkliste {: #checklist_configuration}
 
@@ -178,13 +178,12 @@ Im unteren Teil des Formulars legen Sie fest, ob der Strukturbaustein Bewertungs
 
 **Auf dieser Seite erwähnt**<br>
 [Bewertung von Kursbausteinen >](../learningresources/Assessment_of_course_modules.de.md)<br>
-[Wissensüberprüfung >](../learningresources/Assessment.de.md)<br>
+[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)
 
 **Weiterführend**<br>
-[Badges >](../learningresources/OpenBadges.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)
+[Badges >](../learningresources/OpenBadges.de.md)
 
 [Zum Seitenanfang ^](#course_element_checklist)

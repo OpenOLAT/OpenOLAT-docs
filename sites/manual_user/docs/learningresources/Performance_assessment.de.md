@@ -3,16 +3,16 @@
 ## Bewertung
 
 Eine Reihe an Kursbausteinen kann entweder zur summativen oder formativen Bewertung genutzt werden, oder dient der Fortschrittskontrolle. Folgende Kursbausteine können im
-[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) eingesehen und bearbeitet werden. Weitere Informationen zu diesen Bausteinen finden Sie u.a. im Kapitel [Wissensüberprüfung](../learningresources/Assessment.de.md):
+[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) eingesehen und bearbeitet werden. Alle Einstellungen beschreibt die Seite des jeweiligen Kursbausteins:
 
-* [Aufgabe](../learningresources/Course_Element_Assessment.de.md) (manuelle Bewertung)
-* [Gruppenaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
-* [Portfolioaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
-* [Checkliste](../learningresources/Assessment.de.md) (manuelle & automatische Bewertung)
-* [Bewertung](../learningresources/Assessment.de.md) (manuelle Bewertung)
+* [Aufgabe](../learningresources/Course_Element_Task/index.de.md) (manuelle Bewertung)
+* [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md) (manuelle Bewertung)
+* [Portfolioaufgabe](../learningresources/Course_Element_Portfolio_Task.de.md) (manuelle Bewertung)
+* [Checkliste](../learningresources/Course_Element_Checklist.de.md) (manuelle & automatische Bewertung)
+* [Bewertung](../learningresources/Course_Element_Assessment.de.md) (manuelle Bewertung)
 * [LTI](../learningresources/Course_Element_LTI_Page.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
 * [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
-* [Test](../learningresources/Assessment.de.md) (automatische & manuelle Bewertung)
+* [Test](../learningresources/Course_Element_Test/index.de.md) (automatische & manuelle Bewertung)
 
 Im Kapitel "[Tests erstellen](../learningresources/Test.de.md)" finden Sie weitere Informationen zur Erstellung und Konfiguration von Tests.
 
@@ -26,9 +26,14 @@ Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle u
 
 **Auf dieser Seite erwähnt**<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
-[Wissensüberprüfung >](../learningresources/Assessment.de.md)<br>
+[Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
+[Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
+[Kursbaustein "Checkliste" >](../learningresources/Course_Element_Checklist.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
 [Kursbaustein "LTI-Seite" >](../learningresources/Course_Element_LTI_Page.de.md)<br>
+[Kursbaustein "SCORM 1.2" >](../learningresources/Course_Element_SCORM_Learning_Content.de.md)<br>
+[Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
 [Tests erstellen >](../learningresources/Test.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
