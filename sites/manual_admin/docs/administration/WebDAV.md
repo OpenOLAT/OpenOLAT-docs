@@ -13,7 +13,7 @@ Enable or disable the WebDAV access. When enabled, all system users can access t
 
 #### Show WebDAV links {: #webdav_links}
 
-Decide if the WebDAV URL is displayed in the folder component or not. This is independent of the WebDAV access. When disabled, WebDAV can still be used but the WebDAV link must be known by users as it is not displayed in the web interface.
+Decide if the WebDAV URL is displayed in the folders or not. This is independent of the WebDAV access. When disabled, WebDAV can still be used but the WebDAV link must be known by users as it is not displayed in the web interface.
 
 #### Digest Authentication {: #digest_authentication}
 

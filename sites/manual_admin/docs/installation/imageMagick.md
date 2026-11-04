@@ -2,7 +2,7 @@
 
 ## Image Thumbnail Service
 
-OpenOlat can generate preview thumbnail images for PDFs etc. The preview images are shown in various places, for example in the folder component. 
+OpenOlat can generate preview thumbnail images for PDFs etc. The preview images are shown in various places, for example in folders. 
 
 The thumbnail service works out-of-the box in a vanilla OpenOlat installation using a java based implementation. 
 However, this default installation has its limits: for example, it can not create thumbails for PDF files and when resizing images that uses alpha transparency, the transparency is lost. And after all, the java implementation is slow. 
@@ -52,3 +52,11 @@ Adjust the path `/usr/bin` to wherever you installed imageMagick.
 
 !!! tip
 	Don't forget to restart OpenOlat to activate the service. 
+
+
+## Further information {: #further_information}
+
+[imageMagick](https://imagemagick.org)<br>
+[ghostscript](https://www.ghostscript.com)
+
+[To the top of the page ^](#install-imagemagick)

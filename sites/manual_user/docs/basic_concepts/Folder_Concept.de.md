@@ -1,6 +1,6 @@
 # Ordnerkonzept {: #folders}
 
-Die Ordnerkomponente ist überall in OpenOlat im Einsatz, wo Dateien abgelegt werden. Diese Seite zeigt die verschiedenen Ordner und die Arbeit mit Dateien. [:octicons-tag-16:{ title="ab Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700){:target="_blank"}
+Überall, wo in OpenOlat Dateien abgelegt werden, sehen Ordner gleich aus und funktionieren gleich. Diese Seite zeigt die verschiedenen Ordner und die Arbeit mit Dateien. [:octicons-tag-16:{ title="ab Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700){:target="_blank"}
 
 ## Die verschiedenen Ordner {: #folder_types}
 
@@ -186,7 +186,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 
 !!! note "Hinweis"
 
-    Die Ordnerkomponente wird in folgenden OpenOlat-Bereichen verwendet:
+    Ordner wie hier beschrieben gibt es in folgenden Bereichen von OpenOlat:
 
     - Ressourcenordner (shared folder)
     - Ablageordner des Kurses

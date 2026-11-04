@@ -14,7 +14,7 @@ Im Tab "Konfiguration" schalten Sie die Sicherheitsfunktionen für die ganze Ins
 
 ### Dateien in Ordnern {: #files}
 
-**Dateidownload in Ordner erzwingen**: Wählen Sie diese Sicherheitsfunktion, um in der Ordnerkomponente Dateien immer herunterzuladen und nie direkt im Browser zu öffnen. Damit verhindern Sie Cross-Site-Scripting (XSS). Ist diese Funktion eingeschaltet, werden auch in Ordnern abgelegte HTML-Seiten als Dateien heruntergeladen und nicht mehr direkt im Browser geöffnet. Der Kursbaustein "HTML-Seite" ist von diesem Mechanismus nicht betroffen.
+**Dateidownload in Ordner erzwingen**: Setzen Sie das Häkchen bei "Dateidownload in Ordner erzwingen", damit OpenOlat Dateien aus Ordnern herunterlädt, statt sie direkt im Browser zu öffnen. Damit verhindern Sie Cross-Site-Scripting (XSS). Das gilt für HTML-Seiten, JavaScript- und SVG-Dateien sowie für Dateien, deren Typ OpenOlat nicht erkennt. Der Kursbaustein "HTML-Seite" ist von diesem Mechanismus nicht betroffen.
 
 
 ### HTTP-Header {: #headers}

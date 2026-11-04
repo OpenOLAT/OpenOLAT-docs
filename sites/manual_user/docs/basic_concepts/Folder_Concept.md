@@ -1,6 +1,6 @@
 # Folder concept {: #folders}
 
-The folder component is used everywhere in OpenOlat where files are stored. This page shows the different folders and how to work with files. [:octicons-tag-16:{ title="from Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700){:target="_blank"}
+Wherever files are stored in OpenOlat, folders look the same and work the same way. This page shows the different folders and how to work with files. [:octicons-tag-16:{ title="from Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700){:target="_blank"}
 
 ## Different folder types {: #folder_types}
 
@@ -186,7 +186,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 
 !!! note "Note"
 
-    The folder component is used in the following OpenOlat areas:
+    Folders as described here are available in the following areas of OpenOlat:
 
     - Resource folder (shared folder)
     - Storage folder of the course

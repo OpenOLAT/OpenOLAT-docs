@@ -14,7 +14,7 @@ In the "Configuration" tab, you switch the security functions on or off for the 
 
 ### Files in folders {: #files}
 
-**Force file download in folders**: Select this security function to always download files in the folder component and never open them directly in the browser. This prevents cross-site scripting (XSS). If this function is activated, HTML pages stored in folders are also downloaded as files and no longer opened directly in the browser. The course element “HTML page” is not affected by this mechanism.
+**Force file download in folders**: Select the checkbox "Force file download in folders" so that OpenOlat downloads files from folders instead of opening them directly in the browser. This prevents cross-site scripting (XSS). This applies to HTML pages, JavaScript and SVG files, and files whose type OpenOlat does not recognise. The course element "HTML page" is not affected by this mechanism.
 
 
 ### HTTP headers {: #headers}

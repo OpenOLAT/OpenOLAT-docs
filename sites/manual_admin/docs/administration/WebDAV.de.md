@@ -14,7 +14,7 @@ Schalten Sie den WebDAV Zugang systemweit ein oder aus. Wenn das Modul eingescha
 
 #### WebDAV Links anzeigen {: #webdav_links}
 
-Unabhängig von der WebDAV Funktion können Sie entscheiden, ob die WebDAV URL in der Ordnerkomponente angezeigt werden soll oder nicht. Wenn diese Funktion ausgeschaltet ist, kann WebDAV immer noch verwendet werden, es wird lediglich der Link nicht angezeigt.
+Unabhängig von der WebDAV Funktion können Sie entscheiden, ob die WebDAV URL in den Ordnern angezeigt werden soll oder nicht. Wenn diese Funktion ausgeschaltet ist, kann WebDAV immer noch verwendet werden, es wird lediglich der Link nicht angezeigt.
 
 #### Digest Authentication {: #digest_authentication}
 
