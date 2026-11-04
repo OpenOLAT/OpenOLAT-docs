@@ -486,7 +486,7 @@ def render_station(ctx, s, idx, lang):
         out += ['<div class="oo-mh-door" markdown>', "",
                 f'<p class="oo-mh-kicker">{U["try"]}</p>', "",
                 try_line, "",
-                f'{U["frentix"]} [{U["frentix_mail"]}](mailto:{U["frentix_mail"]})', "",
+                U["frentix"], "",
                 "</div>", ""]
     out += ['<div class="oo-mh-door" markdown>', "",
             f'<p class="oo-mh-kicker">{U["read"]}</p>', "",
@@ -496,7 +496,7 @@ def render_station(ctx, s, idx, lang):
     if s.get("menu_" + lang):
         out += [s["menu_" + lang], ""]
     if "try" not in doors:
-        out += [f'{U["frentix"]} [{U["frentix_mail"]}](mailto:{U["frentix_mail"]})', ""]
+        out += [U["frentix"], ""]
     out += ["</div>", "", "</div>", ""]
     # deepen
     out += [f"## {U['deepen_h']} {{: #deepen}}", "", U["deepen_lead"], ""]

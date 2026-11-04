@@ -271,8 +271,7 @@ ui:
     read: Nachlesen
     howto_prefix: "How-to:"
     no_howto: Zu dieser Station gibt es kein How-to.
-    frentix: "Für die Einrichtung begleitet Sie frentix mit Support und Coaching:"
-    frentix_mail: support@frentix.com
+    frentix: "Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit Support und Coaching."
     deepen_h: Vertiefen, wenn die Installation läuft
     deepen_lead: >-
       Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die
@@ -304,8 +303,7 @@ ui:
     read: Read up
     howto_prefix: "How-to:"
     no_howto: There is no how-to for this station.
-    frentix: "frentix accompanies you in the setup with support and coaching:"
-    frentix_mail: support@frentix.com
+    frentix: "Your customer advisor at frentix supports you with the setup through support and coaching."
     deepen_h: Deepen once the installation is running
     deepen_lead: >-
       The installation is running. Now the things that did not matter at the start pay off:

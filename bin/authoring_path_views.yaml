@@ -309,8 +309,7 @@ ui:
     read: Nachlesen
     howto_prefix: "How-to:"
     no_howto: Zu dieser Station gibt es noch kein How-to.
-    frentix: "Mit frentix: In der Schulung zeigen wir es."
-    frentix_mail: support@frentix.com
+    frentix: "Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich an Ihre Organisation."
     deepen_h: Vertiefen, wenn der erste Kurs läuft
     deepen_lead: >-
       Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die
@@ -342,8 +341,7 @@ ui:
     read: Read up
     howto_prefix: "How-to:"
     no_howto: There is no how-to for this station yet.
-    frentix: "With frentix: we show you in the training."
-    frentix_mail: support@frentix.com
+    frentix: "With frentix: we show it in a training. For a training, contact your organisation."
     deepen_h: Deepen once the first course is running
     deepen_lead: >-
       The first course is running. Now the things that did not matter at the start pay off:
