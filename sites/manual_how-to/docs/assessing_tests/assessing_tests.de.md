@@ -151,7 +151,7 @@ Daneben gibt es Fragetypen, die zwingend manuell bewertet werden müssen, weil s
 
 Ob automatisch oder grundsätzlich alles manuell korrigiert und bewertet werden soll, legen die Besitzer:innen des Kurses im Kurseditor am Kursbaustein Test fest:<br>
 `Kurs > Administration > Kurseditor > Kursbaustein Test > Tab "Test-Konfiguration" > Abschnitt "Korrektur"`<br>
-Was die drei Varianten bewirken, steht auf der Seite [Tests auf Kursebene](../../manual_user/learningresources/Tests_at_course_level.de.md#correction).
+Was die drei Varianten bewirken, steht auf der Seite [Test einrichten](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md#section_correction).
 
 [Zum Seitenanfang ^](#assessing_tests)
 
@@ -196,7 +196,7 @@ Mit dem **Bewertungswerkzeug** können verschiedene **bewertbare Kursbausteine**
 * Aufgabe und Gruppenaufgabe
 * Tests
 
-Für **Tests** ist zusätzlich ein **Korrekturwerkzeug** verfügbar, in dem die Tests auch **fragenweise** korrigiert werden können. Sie gelangen z.B. über das Bewertungswerkzeug dorthin.
+Für Tests ist zusätzlich ein Korrekturwerkzeug verfügbar, in dem die Tests auch fragenweise korrigiert werden können. Sie gelangen z.B. über das Bewertungswerkzeug dorthin.
 
 `Kurs > Administration > Bewertungswerkzeug > Kursbaustein wählen > Tab "Teilnehmer:innen" > Button "Korrekturwerkzeug"`
 
@@ -288,7 +288,7 @@ Welche Sammelaktionen erscheinen, hängt von der Konfiguration des Kursbausteins
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Tests auf Kursebene >](../../manual_user/learningresources/Tests_at_course_level.de.md)<br>
+[Test einrichten >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.de.md)<br>
 [Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
@@ -298,6 +298,7 @@ Welche Sammelaktionen erscheinen, hängt von der Konfiguration des Kursbausteins
 [Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
 [Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>
 [Tests erstellen >](../../manual_user/learningresources/Test.de.md)<br>
+[Tests auf Kursebene >](../../manual_user/learningresources/Tests_at_course_level.de.md)<br>
 [Test konfigurieren >](../../manual_user/learningresources/Configure_tests.de.md)<br>
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
 [Das Bewertungsformular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>

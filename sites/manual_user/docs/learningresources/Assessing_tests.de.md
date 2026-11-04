@@ -45,7 +45,7 @@ Im Korrekturwerkzeug korrigieren Sie einen Test Frage für Frage oder Person fü
 
 Von Hand korrigiert werden die Fragetypen Freitext, Zeichnen und Datei hochladen. Alle übrigen Fragetypen korrigiert OpenOlat automatisch.
 
-Der Button "Korrekturwerkzeug" erscheint, wenn die Einstellung "Korrektur" des Kursbausteins auf "Manuell durch Kursbetreuer:in oder -besitzer:in" steht oder der Test Fragen enthält, die von Hand korrigiert werden. Steht die Einstellung auf "Manuell durch Korrektor:innen", fehlt der Button. Die Korrektur läuft dann über den [Korrektur-Workflow](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments) im Coaching. Die Einstellung selbst ist auf der Seite [Tests auf Kursebene](Tests_at_course_level.de.md#correction) beschrieben.
+Der Button "Korrekturwerkzeug" erscheint, wenn die Einstellung "Korrektur" des Kursbausteins auf "Manuell durch Kursbetreuer:in oder -besitzer:in" steht oder der Test Fragen enthält, die von Hand korrigiert werden. Steht die Einstellung auf "Manuell durch Korrektor:innen", fehlt der Button. Die Korrektur läuft dann über den [Korrektur-Workflow](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments) im Coaching. Die Einstellung selbst ist auf der Seite [Test einrichten](Course_Element_Test/Test_Setup.de.md#section_correction) beschrieben.
 
 Sind Bewertungen bereits abgeschlossen, fragt OpenOlat vor dem Öffnen im Dialog "Abgeschlossene Bewertungen wieder öffnen" nach. Mit "Bewertung wiederöffnen" setzen Sie die abgeschlossenen Bewertungen zurück auf den Status "Korrigieren" und können erneut korrigieren. Mit "Korrektur nur sehen" öffnen Sie das Korrekturwerkzeug, ohne die Bewertungen wieder zu öffnen. Die Antworten dieser Personen sind dann schreibgeschützt, der Button "Punkte anpassen" fehlt.
 
@@ -116,7 +116,7 @@ Die Spalten "#Manuell" und "#Zu korrigieren" erscheinen nur, wenn der Test Frage
 
 Klicken Sie auf den Titel der Frage, die Sie korrigieren möchten. Es erscheint die Antwort der ersten Person. Hier können Sie Punkte und Kommentare hinterlassen und bei Bedarf die Korrektur auch "Zur Überprüfung markieren". Für automatisch korrigierte Fragen können Sie sich auch die Lösung anzeigen lassen ("Lösung ansehen", "Korrekte Lösung ansehen") und die [Punkte anpassen](#adjust_score). Im Feld "Bewertungsdokument" laden Sie bei Bedarf eine Datei zur Antwort hoch, etwa eine korrigierte Fassung. Teilnehmende finden sie in ihren Testresultaten bei der Frage, dort wo auch der Kommentar steht.
 
-Kommentare sind für Korrigierende immer sichtbar. Teilnehmende sehen sie nur, wenn die Testresultate für sie sichtbar sind und die Fragezusammenfassung angezeigt wird, siehe [Tests auf Kursebene](Tests_at_course_level.de.md#report). Das gilt für jeden Kommentar zu einer Frage, auch für den Kommentar aus "Punkte anpassen" und aus den Aktionen für alle Teilnehmenden.
+Kommentare sind für Korrigierende immer sichtbar. Teilnehmende sehen sie nur, wenn die Testresultate für sie sichtbar sind und die Fragezusammenfassung angezeigt wird, siehe Abschnitt Report auf der Seite [Test einrichten](Course_Element_Test/Test_Setup.de.md#section_report). Das gilt für jeden Kommentar zu einer Frage, auch für den Kommentar aus "Punkte anpassen" und aus den Aktionen für alle Teilnehmenden.
 
 Mehrere Korrektor:innen können einen Test gleichzeitig bewerten. Bearbeitet jemand gerade die Antwort einer Person auf eine Frage, sperrt OpenOlat diese Antwort für alle anderen. In der System-Administration legen Administrator:innen unter `Administration > e-Assessment > Test` im Abschnitt "Konfiguration Korrektur" fest, ob die Teilnehmenden im Korrekturwerkzeug anonym aufgeführt werden. Statt des Namens erscheint dann die "Teilnehmendenkennung".
 
@@ -293,13 +293,14 @@ Der Tab "Vorschau" zeigt den Test aus Sicht der Teilnehmenden. Der Tab "Kommunik
 [Teststatistiken >](Statistics_Test.de.md)<br>
 [Tests exportieren >](Test_export.de.md)<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
+[Test einrichten >](Course_Element_Test/Test_Setup.de.md)<br>
 [Mitgliederverwaltung >](Members_management.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)
 
 **Weiterführend**<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Bewertungswerkzeug: Tab Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)
 

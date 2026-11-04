@@ -45,7 +45,7 @@ In the correction tool you correct a test question by question or person by pers
 
 The question types Essay, Drawing and File upload are corrected by hand. OpenOlat corrects all other question types automatically.
 
-The "Correction tool" button appears if the "Correction" setting of the course element is set to "Manual by course coach/owner" or if the test contains questions that are corrected by hand. If the setting is "Manual by correctors", the button is missing. The correction then runs through the [correction workflow](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments) in Coaching. The setting itself is described on the page [Tests at course level](Tests_at_course_level.md#correction).
+The "Correction tool" button appears if the "Correction" setting of the course element is set to "Manual by course coach/owner" or if the test contains questions that are corrected by hand. If the setting is "Manual by correctors", the button is missing. The correction then runs through the [correction workflow](../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments) in Coaching. The setting itself is described on the page [Set up a test](Course_Element_Test/Test_Setup.md#section_correction).
 
 If assessments are already closed, OpenOlat asks first in the dialog "Reopen closed assessments". With "Reopen assessment" you set the closed assessments back to the status "To review" and can correct them again. With "See correction read only" you open the correction tool without reopening the assessments. The answers of these persons are then read-only, and the "Adjust score" button is missing.
 
@@ -116,7 +116,7 @@ The columns "#Manual" and "#To correct" only appear if the test contains questio
 
 Click the title of the question you want to correct. The answer of the first person appears. Here you can leave points and comments, and if necessary also "Mark for review" the correction. For automatically corrected questions, you can also display the solution ("View solution", "View correct solution") and [adjust the score](#adjust_score). In the "Assessment documents" field you upload a file for the answer if needed, for example a corrected version. Participants find it in their test results for the question, where the comment is also shown.
 
-Comments are always visible to correctors. Participants see them only if the test results are visible to them and the question summary is shown, see [Tests at course level](Tests_at_course_level.md#report). This applies to every comment on a question, including the comment from "Adjust score" and from the actions for all participants.
+Comments are always visible to correctors. Participants see them only if the test results are visible to them and the question summary is shown, see section Report on the page [Set up a test](Course_Element_Test/Test_Setup.md#section_report). This applies to every comment on a question, including the comment from "Adjust score" and from the actions for all participants.
 
 Several correctors can assess a test at the same time. If someone is currently working on a person's answer to a question, OpenOlat locks this answer for everyone else. In the system administration, administrators define under `Administration > e-Assessment > Test` in the section "Configuration of correction" whether the participants are listed anonymously in the correction tool. The "Participant identifier" then appears instead of the name.
 
@@ -293,13 +293,14 @@ The "Preview" tab shows the test from the participants' point of view. The "Comm
 [Test statistics >](Statistics_Test.md)<br>
 [Export tests >](Test_export.md)<br>
 [Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Tests at course level >](Tests_at_course_level.md)<br>
+[Set up a test >](Course_Element_Test/Test_Setup.md)<br>
 [Members management >](Members_management.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Course Reminders >](Course_Reminders.md)
 
 **Further**<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Tests at course level >](Tests_at_course_level.md)<br>
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment tool: Tab Participants >](Assessment_tool_tab_Users.md)
 

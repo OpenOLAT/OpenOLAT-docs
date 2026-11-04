@@ -14,13 +14,9 @@ Specialty / Note |
 
 
 
-With the course element "Test" you integrate an OpenOlat learning resource "Test" into your course. In a course, a test serves to assess performance or as a quiz and includes various question types.
+With the course element "Test" you integrate an OpenOlat learning resource "Test" into your course. In a course, a test serves to assess performance or as a quiz and includes various [question types](../Test_question_types.md).
 
 Depending on the question type, participants tick one or more answers, move elements by drag and drop, enter texts or numbers, add files or create markers and simple drawings. Depending on the question type, OpenOlat evaluates the answers automatically, or coaches correct them manually.
-
-!!! note "Question Types"
-    Overview of all available question types.<br>
-    [Question types](../Test_question_types.md)
 
 A course can also contain several tests for different purposes. OpenOlat records the results of the participants on a personalized basis.
 
@@ -68,7 +64,7 @@ Attribute | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen:
  Question types QTI 2.1 | All [Question types](../Test_question_types.md) possible | All [Question types](../Test_question_types.md) possible, but only automatically assessable question types can be used for points.
  Integration with course element | Test | Self-test
  Number of views by course participants | configurable | unlimited
- Results | appear in the [Assessment tool](../Assessment_tool_overview.md) as well as in the test statistics and can be viewed by coaches | do _not_ appear in the [Assessment tool](../Assessment_tool_overview.md) and in the test statistics and are not personalized for coaches and owners to view
+ Results | appear in the [Assessment tool](../Assessment_tool_overview.md) as well as in the [test statistics](../Statistics_Test.md) and can be viewed by coaches | do _not_ appear in the [Assessment tool](../Assessment_tool_overview.md) and in the [test statistics](../Statistics_Test.md) and are not personalized for coaches and owners to view
  Data archiving | Yes, personalized | Yes, anonymized. However, personal allocation or feedback is not possible.
 
 !!! tip "Tip"
@@ -161,6 +157,7 @@ If you have more attempts available to process the test, you can run through the
 [Creating Tests >](../Test.md)<br>
 [Test editor >](../Test_editor_QTI_2.1.md)<br>
 [Assessment tool - overview >](../Assessment_tool_overview.md)<br>
+[Test statistics >](../Statistics_Test.md)<br>
 [Configure tests >](../Configure_tests.md)
 
 **Further reading**<br>

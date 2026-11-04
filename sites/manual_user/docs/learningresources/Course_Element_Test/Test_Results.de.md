@@ -25,16 +25,16 @@ Im nächsten Schritt stehen zwei Optionen zur Wahl:
 
 * **Nur ersetzen**: OpenOlat tauscht den Test aus. Beendete Testläufe bleiben gültig, bestehende Bewertungen bleiben unverändert. Laufende und pausierte Testläufe zieht OpenOlat ein und markiert sie als ungültig.
 
+!!! warning "Achtung"
+
+    Mit "Nur ersetzen" bleiben die bestehenden Bewertungen unverändert. Verwenden Sie diese Variante mit Vorsicht. Sind zum Beispiel neu 12 Punkte erreichbar und bisher nur 10, sind im Kurs weiterhin maximal 10 Punkte eingetragen. Solche Angaben führen zu Verwirrung und müssen manuell korrigiert werden.
+
 Vor dem Austausch informiert Sie ein Dialog über die Auswirkungen, die Sie ausdrücklich bestätigen.
 
 **Beispiel:**
 ![Auswirkungen des kontrollierten Austauschs und Vergleich von aktuellem und neuem Test mit Meldungen zu Fragetypen und Punkten](../assets/course_element_test_replace_resource1_v2_de.png){ class="shadow lightbox" title="Dialog Test ersetzen im Kurseditor, Tab Test-Konfiguration · 2026.11.03" }
 
-Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzeigen".
-
-!!! note "Test-Historie"
-    Details zum Verlauf ausgetauschter Test-Lernressourcen.<br>
-    [Test-Historie](#history)
+Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzeigen". Was er zeigt, beschreibt der Abschnitt [Test-Historie](#history).
 
 [Zum Seitenanfang ^](#test_results)
 
@@ -43,21 +43,13 @@ Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzei
 
 ## Tests einsehen und bewerten {: #assess}
 
-Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des Kurses im Bewertungswerkzeug. Zugriff darauf haben Betreuer:innen und Besitzer:innen des Kurses: `Kurs > Administration > Bewertungswerkzeug`. Navigieren Sie zum gewünschten Kursbaustein "Test". Der Tab "Teilnehmer:innen" zeigt alle Teilnehmenden mit ihrem Bearbeitungsstand zu diesem Kursbaustein, und in der Spalte "Status" erkennen Sie, ob eine Bewertung erforderlich ist. Offene Bewertungen zeigt bereits die Übersicht unter "Offene Bewertungen".
-
-!!! note "Bewertungswerkzeug"
-    Zentrale Oberfläche zur Bewertung, Benotung und Verwaltung der Bewertungen der Teilnehmenden.<br>
-    [Bewertungswerkzeug](../Assessment_tool_overview.de.md)
+Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des Kurses im [Bewertungswerkzeug](../Assessment_tool_overview.de.md). Zugriff darauf haben Betreuer:innen und Besitzer:innen des Kurses: `Kurs > Administration > Bewertungswerkzeug`. Navigieren Sie zum gewünschten Kursbaustein "Test". Der Tab "Teilnehmer:innen" zeigt alle Teilnehmenden mit ihrem Bearbeitungsstand zu diesem Kursbaustein, und in der Spalte "Status" erkennen Sie, ob eine Bewertung erforderlich ist. Offene Bewertungen zeigt bereits die Übersicht unter "Offene Bewertungen".
 
 Alternativ sehen und verwalten Sie die Ergebnisse eines bestimmten Tests auch im Kurs bei geschlossenem Kurseditor direkt beim jeweiligen Kursbaustein "Test". Wechseln Sie dafür in den Tab "Teilnehmer:innen". Als Besitzer:in des Kurses stehen Ihnen dort weitere Tabs wie "Vorschau", "Kommunikation", "Erinnerungen" und "Badges" zur Verfügung. Betreuer:innen sehen ebenfalls "Vorschau" und "Kommunikation", den Tab "Erinnerungen" nicht und den Tab "Badges" nur, wenn der Kurs Betreuer:innen die Vergabe von Badges erlaubt.
 
 ![Teilnehmende mit Versuchen, Punkten und Status sowie geöffnetem Zeilenmenü mit den Aktionen zur Bewertung](../assets/course_element_test_run_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.11.02" }
 
-Sind für einen Test Korrektor:innen eingetragen, bewerten diese die Testläufe im Coaching unter "Bewertungsaufträge".
-
-!!! note "Coaching"
-    Kursübergreifende Bewertung durch Korrektor:innen.<br>
-    [Coaching](../../area_modules/Coaching.de.md)
+Sind für einen Test Korrektor:innen eingetragen, bewerten diese die Testläufe kursübergreifend im [Coaching](../../area_modules/Coaching.de.md) unter "Bewertungsaufträge".
 
 
 [Zum Seitenanfang ^](#test_results)
@@ -94,11 +86,6 @@ Haben Teilnehmende in diesem Kurs mehr als eine der verwendeten Test-Lernressour
 ![Geöffnete Auswahl der Testversion rechts oben in den Teststatistiken, mit der aktuellen und der früher verwendeten Test-Lernressource](../assets/course_element_test_replace_statistic2_v3_de.png){ class="shadow lightbox" title="Teststatistiken im Kursbaustein Test · 2026.11.03" }
 
 
-!!! warning "Achtung"
-
-    Mit "Nur ersetzen" bleiben die bestehenden Bewertungen unverändert. Verwenden Sie diese Variante mit Vorsicht. Sind zum Beispiel neu 12 Punkte erreichbar und bisher nur 10, sind im Kurs weiterhin maximal 10 Punkte eingetragen. Solche Angaben führen zu Verwirrung und müssen manuell korrigiert werden.
-
-
 [Zum Seitenanfang ^](#test_results)
 
 ---
@@ -106,11 +93,7 @@ Haben Teilnehmende in diesem Kurs mehr als eine der verwendeten Test-Lernressour
 
 ## Testergebnisse archivieren [:octicons-tag-16:{ title="ab Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466) {: #archive}
 
-Wer die Testergebnisse eines Kurses gesammelt sichern will, etwa zusammen mit den Resultaten anderer bewertbarer Kursbausteine, archiviert sie in der Kursarchivierung: `Kurs > Administration > Archivierung & Reports`.
-
-!!! note "Archivierung & Reports"
-    Kursweite Archivierungsfunktion für alle bewertbaren Kursbausteine.<br>
-    [Archivierung & Reports](../Course_Archiving.de.md)
+Wer die Testergebnisse eines Kurses gesammelt sichern will, etwa zusammen mit den Resultaten anderer bewertbarer Kursbausteine, archiviert sie in der [Kursarchivierung](../Course_Archiving.de.md): `Kurs > Administration > Archivierung & Reports`.
 
 Dort laden Sie die Kursresultate aller bewertbaren Kursbausteine (unter anderem Tests) herunter. Alternativ wählen Sie nur die Ergebnisse bestimmter Tests aus und speichern nur diese. Wählen Sie dafür `Kurs > Administration > Archivierung & Reports > Kursarchivierung > Archiv erstellen`. Wählen Sie im Wizard die Archivart "Teilarchiv" und markieren Sie im Schritt "Kursbausteine auswählen" den oder die gewünschten Test-Bausteine. Im Schritt "Einstellungen" wählen Sie bei "Kursbausteine" entweder "Standard-Einstellungen" oder "Benutzerspezifisch", um die Archivierungsoptionen anzupassen.
 
@@ -125,11 +108,7 @@ Enthält der Test Freitextfragen und ist die Option "Erweitert – mit PDF" gew�
 
 Die Option "Alle PDF-Dateien in einem Ordner" bietet die Kursarchivierung nicht an. Im Archiv liegt jede PDF-Datei im Ordner der Teilnehmer:in, benannt nach Person, Kursbaustein und Test. Gesammelt in einem Ordner erhalten Sie die PDF-Dateien über den Button "Resultate exportieren" im Tab "Teilnehmer:innen" des Kursbausteins. Wie die Dateien dort heissen und abgelegt werden, steht auf der Seite [Tests exportieren](../Test_export.de.md#pdf_files). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
-Die Rohdaten von Tests können Sie zudem über die Teststatistiken herunterladen: `Kurs > Administration > Teststatistiken`. Dort finden Sie auch die grafische Auswertung.
-
-!!! note "Teststatistiken"
-    Rohdaten und grafische Auswertung von Testergebnissen.<br>
-    [Teststatistiken](../Statistics_Test.de.md)
+Die Rohdaten von Tests können Sie zudem über die [Teststatistiken](../Statistics_Test.de.md) herunterladen: `Kurs > Administration > Teststatistiken`. Dort finden Sie auch die grafische Auswertung.
 
 [Zum Seitenanfang ^](#test_results)
 

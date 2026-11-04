@@ -14,13 +14,9 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in Ihren Kurs ein. Ein Test dient im Kurs der Leistungsüberprüfung oder als Quiz und umfasst verschiedene Fragetypen.
+Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in Ihren Kurs ein. Ein Test dient im Kurs der Leistungsüberprüfung oder als Quiz und umfasst verschiedene [Fragetypen](../Test_question_types.de.md).
 
 Je nach Fragetyp kreuzen Teilnehmende eine oder mehrere Antworten an, verschieben Elemente per Drag-and-drop, geben Texte oder Zahlen ein, fügen Dateien hinzu oder erstellen Markierungen und einfache Zeichnungen. Je nach Fragetyp wertet OpenOlat die Antworten automatisch aus, oder Betreuer:innen korrigieren sie manuell.
-
-!!! note "Fragetypen"
-    Übersicht aller verfügbaren Fragetypen.<br>
-    [Fragetypen](../Test_question_types.de.md)
 
 Ein Kurs kann auch mehrere Tests für unterschiedliche Zwecke enthalten. OpenOlat zeichnet die Resultate der Teilnehmenden personalisiert auf.
 
@@ -68,7 +64,7 @@ Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: S
  Fragetypen QTI 2.1 | Alle [Fragetypen](../Test_question_types.de.md) möglich | Alle [Fragetypen](../Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Teilnehmende | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../Assessment_tool_overview.de.md) sowie in den Teststatistiken und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../Assessment_tool_overview.de.md) und in den Teststatistiken und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../Assessment_tool_overview.de.md) sowie in den [Teststatistiken](../Statistics_Test.de.md) und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../Assessment_tool_overview.de.md) und in den [Teststatistiken](../Statistics_Test.de.md) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -161,6 +157,7 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 [Tests erstellen >](../Test.de.md)<br>
 [Testeditor >](../Test_editor_QTI_2.1.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
+[Teststatistiken >](../Statistics_Test.de.md)<br>
 [Test konfigurieren >](../Configure_tests.de.md)
 
 **Weiterführend**<br>

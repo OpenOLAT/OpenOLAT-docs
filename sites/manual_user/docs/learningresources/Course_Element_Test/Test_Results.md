@@ -25,16 +25,16 @@ In the next step, two options are available:
 
 * **Replace only**: OpenOlat replaces the test. Finished test runs remain valid, existing assessments remain unchanged. OpenOlat collects ongoing and suspended test runs and marks them as invalid.
 
+!!! warning "Attention"
+
+    With "Replace only", the existing assessments remain unchanged. Use this option with caution. If, for example, 12 points can now be achieved and previously only 10, a maximum of 10 points is still entered in the course. Such entries lead to confusion and must be corrected manually.
+
 Before the replacement, a dialog informs you of the effects, which you explicitly confirm.
 
 **Example:**
 ![Impact of the controlled replacement and comparison of the current and the new test with messages on question types and score](../assets/course_element_test_replace_resource1_v2_en.png){ class="shadow lightbox" title="Replace test dialog in the course editor, Test configuration tab · 2026.11.03" }
 
-After the replacement, the link "Show history" also appears next to the "Replace" button.
-
-!!! note "Test History"
-    Details on the history of replaced test learning resources.<br>
-    [Test history](#history)
+After the replacement, the link "Show history" also appears next to the "Replace" button. What it shows is described in the section [Test history](#history).
 
 [To the top of the page ^](#test_results)
 
@@ -43,21 +43,13 @@ After the replacement, the link "Show history" also appears next to the "Replace
 
 ## View and assess tests {: #assess}
 
-Anyone who wants to correct and assess completed tests finds all test runs of the course in the assessment tool. Coaches and owners of the course have access to it: `Course > Administration > Assessment tool`. Navigate to the desired course element "Test". The "Participants" tab shows all participants with their processing status for this course element, and in the "Status" column you see whether an assessment is required. The overview already shows open assessments under "Open reviews".
-
-!!! note "Assessment Tool"
-    Central interface for assessing, grading and managing the assessments of the participants.<br>
-    [Assessment tool](../Assessment_tool_overview.md)
+Anyone who wants to correct and assess completed tests finds all test runs of the course in the [assessment tool](../Assessment_tool_overview.md). Coaches and owners of the course have access to it: `Course > Administration > Assessment tool`. Navigate to the desired course element "Test". The "Participants" tab shows all participants with their processing status for this course element, and in the "Status" column you see whether an assessment is required. The overview already shows open assessments under "Open reviews".
 
 Alternatively, you view and manage the results of a specific test in the course with the course editor closed, directly at the respective course element "Test". To do this, switch to the "Participants" tab. As an owner of the course, you have access to further tabs there, such as "Preview", "Communication", "Reminders" and "Badges". Coaches also see "Preview" and "Communication", but not the "Reminders" tab, and the "Badges" tab only if the course allows coaches to award badges.
 
 ![Participants with attempts, score and status as well as an open row menu with the assessment actions](../assets/course_element_test_run_participants_v1_en.png){ class="shadow lightbox" title="Participants tab of the course element Test · 2026.10.01" }
 
-If correctors are entered for a test, they assess the test runs in Coaching under "Assessment orders".
-
-!!! note "Coaching"
-    Cross-course assessment by correctors.<br>
-    [Coaching](../../area_modules/Coaching.md)
+If correctors are entered for a test, they assess the test runs across courses in [Coaching](../../area_modules/Coaching.md) under "Assessment orders".
 
 
 [To the top of the page ^](#test_results)
@@ -94,11 +86,6 @@ If participants in this course have worked on more than one of the test learning
 ![Open selection of the test version at the top right of the test statistics, with the current and the previously used test learning resource](../assets/course_element_test_replace_statistic2_v2_en.png){ class="shadow lightbox" title="Test statistics in the course element Test · 2026.11.03" }
 
 
-!!! warning "Attention"
-
-    With "Replace only", the existing assessments remain unchanged. Use this option with caution. If, for example, 12 points can now be achieved and previously only 10, a maximum of 10 points is still entered in the course. Such entries lead to confusion and must be corrected manually.
-
-
 [To the top of the page ^](#test_results)
 
 ---
@@ -106,11 +93,7 @@ If participants in this course have worked on more than one of the test learning
 
 ## Archiving test results [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466) {: #archive}
 
-Anyone who wants to back up the test results of a course collectively, for example together with the results of other assessable course elements, archives them in the course archiving: `Course > Administration > Archiving & Reporting`.
-
-!!! note "Archiving & Reporting"
-    Course-wide archiving function for all assessable course elements.<br>
-    [Archiving & Reporting](../Course_Archiving.md)
+Anyone who wants to back up the test results of a course collectively, for example together with the results of other assessable course elements, archives them in the [course archiving](../Course_Archiving.md): `Course > Administration > Archiving & Reporting`.
 
 There you download the course results of all assessable course elements (including tests). Alternatively, you select only the results of specific tests and save only those. To do this, select `Course > Administration > Archiving & Reporting > Course archiving > Create archive`. In the wizard, select the archive type "Partial archive" and select the desired test elements in the step "Select course elements". In the step "Settings", choose either "Standard settings" or "Customised" for "Course elements" to adjust the archiving options.
 
@@ -125,11 +108,7 @@ If the test contains essay questions and the option "Advanced – with PDF" is s
 
 Course archiving does not offer the option "All PDF files in one folder". In the archive, each PDF file is located in the folder of the participant, named after the person, course element and test. You get the PDF files collected in one folder via the "Export results" button in the "Participants" tab of the course element. How the files are named and stored there is described on the page [Export tests](../Test_export.md#pdf_files). [:octicons-tag-16:{ title="from Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
-You can also download the raw data of tests via the test statistics: `Course > Administration > Test statistics`. There you will also find the graphical evaluation.
-
-!!! note "Test Statistics"
-    Raw data and graphical evaluation of test results.<br>
-    [Test Statistics](../Statistics_Test.md)
+You can also download the raw data of tests via the [test statistics](../Statistics_Test.md): `Course > Administration > Test statistics`. There you will also find the graphical evaluation.
 
 [To the top of the page ^](#test_results)
 

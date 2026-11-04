@@ -31,14 +31,11 @@ If assessments already exist for the test, OpenOlat displays the settings under 
 
 If you have not yet selected a test, a corresponding message will appear in the "Test configuration" tab. You can now "Select" or "Import" an existing test or "Create" a new test.
 
-!!! tip "Existing Learning Resource"
-    If a test learning resource is already inserted and you want to replace it, follow the instructions on the page [Evaluate and manage tests](Test_Results.md#changes) in the section "Changes to tests and self-tests".
-
 Click on "Select" to assign a test to the course element. The following dialog also offers the options for creating and importing. Here you select or create the test that you assign to the course element "Test". You then define further settings, for example the type of correction or the display of the test results.
 
 If the course element is already linked to a test, the tab "Test configuration" shows the name of the test and further information. With "Edit learning resource", you edit the test.
 
-Via the "Preview" button, you open a preview of the test; via the "Replace" button, you replace the test by selecting, creating or importing another test. If test results already exist for the test, you receive a message when replacing it, and OpenOlat creates an archive file that you can save.
+Via the "Preview" button, you open a preview of the test; via the "Replace" button, you replace the test by selecting, creating or importing another test. If test results already exist for the test, you receive a message when replacing it, and OpenOlat creates an archive file that you can save. What happens to previous test runs and assessments when you replace a test is described in the section [Replacing tests that have already been edited](Test_Results.md#tab_replace_tests).
 
 You configure an added test in more detail as follows. The tab shows the settings in this order: at the top "Relative dates" and "Set assessment period", below that the legend "Grading configuration", below that "Correction" and finally the legend "Report".
 
@@ -54,15 +51,11 @@ Under the legend "Grading configuration" you define whether OpenOlat assesses th
 
 #### Levels/Grading {: #grading}
 
-Select one of the given rating scales, for example grades, levels or emojis, and adjust the details if required. Also decide whether OpenOlat assigns the level automatically and shows it to the participants or whether coaches assign it manually.
+Select one of the given rating scales, for example grades, levels or emojis, and adjust the details if required, for example the "Score lower bound" of a level. Also decide whether OpenOlat assigns the level automatically and shows it to the participants or whether coaches assign it manually.
 
 #### Include in course assessment {: #include_in_course_assessment}
 
-If you switch off this toggle, the test is not taken into account in the course assessment of a learning path course. This setting is not available for a conventional course.
-
-!!! note "Learning Path Course"
-    Concept and progress calculation in the learning path course.<br>
-    [Learning path course](../Learning_path_course.md)
+If you switch off this toggle, the test is not taken into account in the course assessment of a [learning path course](../Learning_path_course.md). This setting is not available for a conventional course.
 
 #### Scaling factor for course assessment {: #score_scaling}
 
@@ -71,23 +64,19 @@ The field appears if the course assessment adds up the points with weighting and
 
 ### Section Correction {: #section_correction}
 
-Under "Correction" you define who corrects the test runs and when the participants see their assessment.
+Under "Correction" you define who corrects the test runs and when the participants see their assessment. The correction is a step of the assessment: whoever corrects awards the points, and the assessment of the test results from them. The difference between assessment, correction and levels/grading is explained under [Assessment, correction and levels/grading](../../area_modules/Coaching_Assessment_Orders.md#assessment_terms).
 
 #### Correction {: #correction_mode}
 
-The correction is either automatic or manual. As soon as the test contains a question type to be evaluated manually, for example free text, a manual correction is mandatory. With automatic correction, OpenOlat corrects all questions directly, the result is visible to the participants immediately.
-
-!!! note "Question Types"
-    Overview of all available question types, including manually evaluated types.<br>
-    [Question types](../Test_question_types.md)
+The correction is either automatic or manual. As soon as the test contains a [question type](../Test_question_types.md) to be evaluated manually, for example free text, a manual correction is mandatory. With automatic correction, OpenOlat corrects all questions directly, the result is visible to the participants immediately.
 
 In case of manual correction, the visibility of the result is limited and the coach or corrector has to complete the correction manually. Questions to be edited manually include free text, upload file and draw. However, manual correction can also be set if required when the test consists only of automatically evaluable question types.
 
 Three options are available:
 
 * **Automatic**: OpenOlat corrects all questions directly.
-* **Manual by course coach/owner**: The coaches or owners of the course do the correction.
-* **Manual by correctors**: The correctors from the correction workflow of the learning resource Test do the correction. They can correct a test without being a member or even a coach of the course. This selection also activates the "Correctors" tab, and you can see who is assigned to the test as a corrector.
+* **Manual by course coach/owner**: The coaches or owners of the course do the correction. For each completed attempt an order is created in the coaching under [Assessment orders](../../area_modules/Coaching_Assessment_Orders.md#tab_open_assessments), in the tab "Open reviews".
+* **Manual by correctors**: The correctors from the correction workflow of the learning resource Test do the correction. They can correct a test without being a member or even a coach of the course. Their orders appear in the coaching in the tab [Grading assignments](../../area_modules/Coaching_Assessment_Orders.md#tab_grading_assignments). This selection also activates the "Correctors" tab, and you can see who is assigned to the test as a corrector.
 
 !!! info "Important"
 
@@ -95,11 +84,9 @@ Three options are available:
 
 #### Release assessment {: #release_assessment}
 
-The field appears with the two manual options. With "Released", the participants see the assessment directly after the manual correction; with "Not released", only once you release the assessment.
+The field appears with the two manual options. With "Released", the participants see the assessment directly after the manual correction; with "Not released", only once you release the assessment. Until then the entry is in the coaching in the tab [Reviews to release](../../area_modules/Coaching_Assessment_Orders.md#tab_assessments_to_be_released).
 
 ![Field Correction with three options marked, manual correction by course coach/owner selected, below it Release assessment](../assets/course_element_test_correction_v2_en.png){ class="shadow lightbox" title="Correction section in the Test configuration tab · 2026.10.02" }
-
-The correction options and the release are also described on the page [Tests at course level](../Tests_at_course_level.md#correction).
 
 ### Section Report {: #section_report}
 
@@ -128,14 +115,10 @@ Here you select in which form the results appear. The selection applies to both 
 ![Five checkboxes under Overview results marked, from Test summary to Solution](../assets/course_element_test_report_summary_v1_en.png){ class="shadow lightbox" title="Report section in the Test configuration tab · 2026.10.01" }
 
 * **Test summary**: shows, among other things, the percentage achieved, the time taken to complete the test, the number of questions worked on, the score achieved and the status.
-* **Section summary**: is only relevant if a test also contains sections.
+* **Section summary**: is only relevant if a test also contains [sections](../Configure_tests.md#section).
 * **Question summary**: shows the title of the question and the points achieved in each case or the matching percentage value, but not the question itself.
 * **Answer, submitted by participant**: shows the question, all answer options and the choice of the participants, but no rating of whether the answer is correct or incorrect. If this is desired, combine the option with other feedback options.
 * **Solution**: contains the correct answers.
-
-!!! note "Section Level"
-    Description of the section configuration in the test editor.<br>
-    [Section level](../Configure_tests.md#section)
 
 Depending on the combination of display options, the participants receive different types of feedback.
 
@@ -179,11 +162,7 @@ Here you activate and configure a highscore overview for a test. This overview c
 
 First activate "Show Highscore". Under "Starting Date (optional)" you define from when the highscore appears. With "Relative dates" you specify this date relative to an event, for example the first course visit. With "Anonymize usernames", the participants appear in the highscore without first and last names.
 
-Below, you select what is displayed: "Congratulations title", "Podium", "Histogram" and "Top results listing". At least one display option must be activated. For the listing, you also define whether all or only the top users appear and how many.
-
-!!! note "Highscore"
-    More information on the topic of high scores.<br>
-    [Learn more](../Course_Elements.md#highscore)
+Below, you select what is displayed: "Congratulations title", "Podium", "Histogram" and "Top results listing". At least one display option must be activated. For the listing, you also define whether all or only the top users appear and how many. How the highscore works in course elements and when it appears is described on the page [Types of Course Elements](../Course_Elements.md#highscore).
 
 
 [To the top of the page ^](#config)
@@ -204,11 +183,7 @@ Activate the "Confirmation e-mail" if the participants should receive a confirma
 
 For the e-mail text, you use the template and a preset subject with the title of the course element. Alternatively, you change both: select the option "Own text" under "Template" to edit or completely change the text.
 
-In the e-mail text, you also use variables such as name or score.
-
-!!! note "Variables in mailing texts"
-    More information on using variables in mailing texts.<br>
-    [Learn more](../Course_Element_EMail.md#use-of-variables)
+In the e-mail text, you also use variables such as name or score. The variables available are listed in the tooltip of the help icon next to the field "Text e-mail", once "Own text" is selected: `$firstName`, `$lastName`, `$fullName`, `$email`, `$username`, `$courseName`, `$courseDescription`, `$courseUrl`, `$courseElementName`, `$attempt`, `$score`, `$maxScore`, `$passed` and `$grading`. How variables work in e-mail texts is described at the [course element "E-Mail"](../Course_Element_EMail.md#use-of-variables).
 
 
 [To the top of the page ^](#config)
@@ -216,11 +191,7 @@ In the e-mail text, you also use variables such as name or score.
 
 ## Tab "Reminders" [:octicons-tag-16:{ title="from Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447) {: #tab_reminders}
 
-Here you configure reminders by e-mail according to certain criteria.
-
-!!! note "Reminders"
-    More information about sending reminders.<br>
-    [Learn more](../Course_Reminders.md)
+Here you configure reminders by e-mail according to certain criteria. How you set up and send reminders is described on the page [Course Reminders](../Course_Reminders.md).
 
 
 [To the top of the page ^](#config)
@@ -228,11 +199,7 @@ Here you configure reminders by e-mail according to certain criteria.
 
 ## Tab "Badges" [:octicons-tag-16:{ title="from Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #tab_badges}
 
-If owners of the course have activated the awarding of badges under `Course > Administration > Settings > Tab "Assessment" > Section "Badges"`, the course editor shows the tab "Badges" for this course element. There you create a badge specifically for this course element.
-
-!!! note "Badges"
-    More information on the topic of badges and how they are awarded.<br>
-    [Badges](../OpenBadges.md)
+If owners of the course have activated the awarding of badges under `Course > Administration > Settings > Tab "Assessment" > Section "Badges"`, the course editor shows the tab "Badges" for this course element. There you create a badge specifically for this course element. How badges are created and awarded is described on the page [Badges](../OpenBadges.md).
 
 
 [To the top of the page ^](#config)
@@ -252,14 +219,15 @@ If owners of the course have activated the awarding of badges under `Course > Ad
 [Learning path course - Overview >](../Learning_path_course.md)<br>
 [Course Settings - Tab Assessment >](../Course_Settings_Assessment.md)<br>
 [Test question types >](../Test_question_types.md)<br>
+[Coaching - Assessment Orders >](../../area_modules/Coaching_Assessment_Orders.md)<br>
 [Test settings - Administration >](../Test_settings.md)<br>
-[Tests at course level >](../Tests_at_course_level.md)<br>
 [Configure tests >](../Configure_tests.md)<br>
 [Course Element "E-Mail" >](../Course_Element_EMail.md)<br>
 [Course Reminders >](../Course_Reminders.md)<br>
 [Badges >](../OpenBadges.md)
 
 **Further reading**<br>
+[Tests at course level >](../Tests_at_course_level.md)<br>
 [Course Element "Self-test" >](../Course_Element_Self_Test.md)<br>
 [Configure test questions >](../Configure_test_questions.md)
 

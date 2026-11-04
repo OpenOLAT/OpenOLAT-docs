@@ -31,14 +31,11 @@ Sind für den Test bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab d
 
 Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab "Test-Konfiguration" ein entsprechender Hinweis. Sie können nun einen vorhandenen Test "Auswählen" oder "Importieren" oder einen neuen Test "Erstellen".
 
-!!! tip "Bestehende Lernressource"
-    Ist bereits eine Test-Lernressource eingefügt und wollen Sie diese austauschen, beachten Sie die Hinweise auf der Seite [Tests auswerten und verwalten](Test_Results.de.md#changes) im Abschnitt "Änderungen an Tests und Selbsttests".
-
 Klicken Sie auf "Auswählen", um dem Kursbaustein einen Test zuzuordnen. Im folgenden Dialog stehen auch die Optionen zum Erstellen und Importieren zur Wahl. Hier wählen oder erstellen Sie den Test, den Sie dem Kursbaustein "Test" zuordnen. Anschliessend legen Sie weitere Einstellungen fest, zum Beispiel die Art der Korrektur oder die Darstellung der Testresultate.
 
 Ist der Kursbaustein bereits mit einem Test verbunden, zeigt der Tab "Test-Konfiguration" den Namen des Tests und weitere Angaben dazu. Mit "Lernressource bearbeiten" bearbeiten Sie den Test.
 
-Über den Button "Vorschau" öffnen Sie eine Vorschau des Tests, über den Button "Ersetzen" tauschen Sie den Test aus, indem Sie einen anderen Test wählen, erstellen oder importieren. Liegen für den Test bereits Testresultate vor, erhalten Sie beim Austauschen einen Hinweis, und OpenOlat erstellt eine Archivdatei, die Sie speichern können.
+Über den Button "Vorschau" öffnen Sie eine Vorschau des Tests, über den Button "Ersetzen" tauschen Sie den Test aus, indem Sie einen anderen Test wählen, erstellen oder importieren. Liegen für den Test bereits Testresultate vor, erhalten Sie beim Austauschen einen Hinweis, und OpenOlat erstellt eine Archivdatei, die Sie speichern können. Was beim Austauschen mit bisherigen Testläufen und Bewertungen geschieht, beschreibt der Abschnitt [Bereits bearbeitete Tests austauschen](Test_Results.de.md#tab_replace_tests).
 
 Einen hinzugefügten Test konfigurieren Sie wie folgt genauer. Der Tab zeigt die Einstellungen in dieser Reihenfolge: zuoberst "Relatives Datum" und "Testzeitraum festlegen", darunter die Legende "Konfiguration Bewertung", darunter "Korrektur" und zuletzt die Legende "Report".
 
@@ -54,15 +51,11 @@ Unter der Legende "Konfiguration Bewertung" legen Sie fest, ob OpenOlat den Test
 
 #### Bewertung mit Einstufung/Noten {: #grading}
 
-Wählen Sie eine der vorgegebenen Bewertungsskalen, zum Beispiel Noten, Niveaustufen oder Emojis, und passen Sie bei Bedarf die Details an. Entscheiden Sie auch, ob OpenOlat die Stufe automatisch zuordnet und den Teilnehmenden anzeigt oder ob Betreuer:innen sie manuell zuordnen.
+Wählen Sie eine der vorgegebenen Bewertungsskalen, zum Beispiel Noten, Niveaustufen oder Emojis, und passen Sie bei Bedarf die Details an, zum Beispiel die "Punkte Untergrenze" einer Stufe. Entscheiden Sie auch, ob OpenOlat die Stufe automatisch zuordnet und den Teilnehmenden anzeigt oder ob Betreuer:innen sie manuell zuordnen.
 
 #### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment}
 
-Schalten Sie diesen Schalter aus, bleibt der Test bei der Kurs-Bewertung in einem Lernpfadkurs unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
-
-!!! note "Lernpfadkurs"
-    Konzept und Fortschrittsberechnung im Lernpfadkurs.<br>
-    [Lernpfadkurs](../Learning_path_course.de.md)
+Schalten Sie diesen Schalter aus, bleibt der Test bei der Kurs-Bewertung in einem [Lernpfadkurs](../Learning_path_course.de.md) unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
 
 #### Skalierungsfaktor für Kurs-Bewertung {: #score_scaling}
 
@@ -71,23 +64,19 @@ Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenz�
 
 ### Abschnitt Korrektur {: #section_correction}
 
-Unter "Korrektur" legen Sie fest, wer die Testläufe korrigiert und wann die Teilnehmenden ihre Bewertung sehen.
+Unter "Korrektur" legen Sie fest, wer die Testläufe korrigiert und wann die Teilnehmenden ihre Bewertung sehen. Die Korrektur ist ein Schritt der Bewertung: Wer korrigiert, vergibt die Punkte, daraus entsteht die Bewertung des Tests. Was Bewertung, Korrektur und Einstufung unterscheidet, steht unter [Bewertung, Korrektur und Einstufung](../../area_modules/Coaching_Assessment_Orders.de.md#assessment_terms).
 
 #### Korrektur {: #correction_mode}
 
-Die Korrektur läuft entweder automatisch oder manuell. Sobald der Test einen manuell auszuwertenden Fragetyp enthält, zum Beispiel Freitext, ist eine manuelle Korrektur zwingend. Bei der automatischen Korrektur korrigiert OpenOlat alle Fragen direkt, das Resultat ist sofort für die Teilnehmenden sichtbar.
-
-!!! note "Fragetypen"
-    Übersicht aller verfügbaren Fragetypen, inkl. manuell auszuwertender Typen.<br>
-    [Fragetypen](../Test_question_types.de.md)
+Die Korrektur läuft entweder automatisch oder manuell. Sobald der Test einen manuell auszuwertenden [Fragetyp](../Test_question_types.de.md) enthält, zum Beispiel Freitext, ist eine manuelle Korrektur zwingend. Bei der automatischen Korrektur korrigiert OpenOlat alle Fragen direkt, das Resultat ist sofort für die Teilnehmenden sichtbar.
 
 Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränkt, und die Betreuer:in oder Korrektor:in ergänzt die Korrektur manuell. Zu den manuell zu bearbeitenden Fragen gehören Freitext, Datei hochladen und Zeichnen. Eine manuelle Korrektur stellen Sie bei Bedarf auch ein, wenn der Test nur aus automatisch auswertbaren Fragetypen besteht.
 
 Drei Optionen stehen zur Auswahl:
 
 * **Automatisch**: OpenOlat korrigiert alle Fragen direkt.
-* **Manuell durch Kursbetreuer:in oder -besitzer:in**: Die Korrektur übernehmen die Betreuer:innen oder Besitzer:innen des Kurses.
-* **Manuell durch Korrektor:innen**: Die Korrektur übernehmen die Korrektor:innen aus dem Korrektur-Workflow der Lernressource Test. Sie korrigieren einen Test, ohne Mitglied oder Betreuer:in des Kurses zu sein. Mit dieser Wahl aktiviert OpenOlat auch den Tab "Korrektor:innen", der zeigt, wer dem Test als Korrektor:in zugeordnet ist.
+* **Manuell durch Kursbetreuer:in oder -besitzer:in**: Die Korrektur übernehmen die Betreuer:innen oder Besitzer:innen des Kurses. Für jede abgeschlossene Bearbeitung entsteht ein Auftrag im Coaching unter [Bewertungsaufträge](../../area_modules/Coaching_Assessment_Orders.de.md#tab_open_assessments), im Tab "Offene Bewertungen".
+* **Manuell durch Korrektor:innen**: Die Korrektur übernehmen die Korrektor:innen aus dem Korrektur-Workflow der Lernressource Test. Sie korrigieren einen Test, ohne Mitglied oder Betreuer:in des Kurses zu sein. Ihre Aufträge erscheinen im Coaching im Tab [Korrekturaufträge](../../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments). Mit dieser Wahl aktiviert OpenOlat auch den Tab "Korrektor:innen", der zeigt, wer dem Test als Korrektor:in zugeordnet ist.
 
 !!! info "Wichtig"
 
@@ -95,11 +84,9 @@ Drei Optionen stehen zur Auswahl:
 
 #### Freigabe Bewertung {: #release_assessment}
 
-Das Feld erscheint bei den beiden manuellen Optionen. Mit "Freigegeben" sehen die Teilnehmenden die Bewertung direkt nach der manuellen Korrektur, mit "Nicht freigegeben" erst, wenn Sie die Bewertung freigeben.
+Das Feld erscheint bei den beiden manuellen Optionen. Mit "Freigegeben" sehen die Teilnehmenden die Bewertung direkt nach der manuellen Korrektur, mit "Nicht freigegeben" erst, wenn Sie die Bewertung freigeben. Bis dahin steht der Eintrag im Coaching im Tab [Freizugebende Bewertungen](../../area_modules/Coaching_Assessment_Orders.de.md#tab_assessments_to_be_released).
 
 ![Feld Korrektur mit drei Optionen markiert, gewählt ist die manuelle Korrektur durch Kursbetreuer:in oder -besitzer:in, darunter Freigabe Bewertung](../assets/course_element_test_correction_v1_de.png){ class="shadow lightbox" title="Abschnitt Korrektur im Tab Test-Konfiguration · 2026.10.01" }
-
-Die Korrektur-Optionen und die Freigabe beschreibt auch die Seite [Tests auf Kursebene](../Tests_at_course_level.de.md#correction).
 
 ### Abschnitt Report {: #section_report}
 
@@ -128,14 +115,10 @@ Hier wählen Sie, in welcher Form die Ergebnisse erscheinen. Die Auswahl gilt f�
 ![Fünf Kontrollkästchen unter Übersicht Resultate markiert, von Testzusammenfassung bis Lösung](../assets/course_element_test_report_summary_v1_de.png){ class="shadow lightbox" title="Abschnitt Report im Tab Test-Konfiguration · 2026.10.01" }
 
 * **Testzusammenfassung**: zeigt unter anderem die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen, die erreichte Punktzahl und den Status.
-* **Sektionszusammenfassung**: ist nur relevant, wenn ein Test auch Sektionen enthält.
+* **Sektionszusammenfassung**: ist nur relevant, wenn ein Test auch [Sektionen](../Configure_tests.de.md#section) enthält.
 * **Fragezusammenfassung**: zeigt den Titel der Frage und die jeweils erreichten Punkte oder den passenden Prozentwert, aber nicht die Fragestellung selbst.
 * **Antwort, von Teilnehmer:in abgegeben**: zeigt die Frage, alle Antwortoptionen und die Wahl der Teilnehmenden, allerdings keine Bewertung, ob die Antwort richtig oder falsch ist. Ist dies gewünscht, kombinieren Sie die Option mit weiteren Feedback-Optionen.
 * **Lösung**: enthält die korrekten Antworten.
-
-!!! note "Sektion Ebene"
-    Beschreibung der Sektionen-Konfiguration im Testeditor.<br>
-    [Sektion Ebene](../Configure_tests.de.md#section)
 
 Je nach Kombination der Anzeigeoptionen erhalten die Teilnehmenden unterschiedliche Arten von Feedback.
 
@@ -179,11 +162,7 @@ Hier aktivieren und konfigurieren Sie für einen Test eine Highscore-Übersicht.
 
 Aktivieren Sie zuerst "Highscore anzeigen". Unter "Anfangsdatum (optional)" legen Sie fest, ab wann die Rangliste erscheint. Mit "Relatives Datum" geben Sie dieses Datum relativ zu einem Ereignis an, zum Beispiel zum ersten Kursbesuch. Mit "Daten der Benutzer:innen anonymisieren" erscheinen die Teilnehmenden in der Rangliste ohne Vor- und Nachnamen.
 
-Darunter wählen Sie, was angezeigt wird: "Gratulationstitel", "Siegertreppchen", "Histogramm" und "Liste der besten Teilnehmer:innen". Mindestens eine Anzeigeoption muss aktiviert sein. Für die Liste legen Sie zusätzlich fest, ob alle oder nur die besten Teilnehmer:innen erscheinen und wie viele.
-
-!!! note "Highscore"
-    Weitere Informationen zum Thema Highscore.<br>
-    [Mehr erfahren](../Course_Elements.de.md#highscore)
+Darunter wählen Sie, was angezeigt wird: "Gratulationstitel", "Siegertreppchen", "Histogramm" und "Liste der besten Teilnehmer:innen". Mindestens eine Anzeigeoption muss aktiviert sein. Für die Liste legen Sie zusätzlich fest, ob alle oder nur die besten Teilnehmer:innen erscheinen und wie viele. Wie die Rangliste in Kursbausteinen funktioniert und wann sie erscheint, beschreibt die Seite [Kursbausteine](../Course_Elements.de.md#highscore).
 
 
 [Zum Seitenanfang ^](#config)
@@ -204,11 +183,7 @@ Aktivieren Sie die E-Mail Bestätigung, wenn die Teilnehmenden nach Abgabe des T
 
 Für den Text der E-Mail verwenden Sie die Vorlage und einen voreingestellten Betreff mit dem Titel des Kursbausteins. Alternativ ändern Sie beides: Wählen Sie dazu bei "Vorlage" die Option "Eigener Text", um den Text zu bearbeiten oder komplett zu ändern.
 
-Im Text der E-Mail verwenden Sie auch Variablen wie Name oder Punktezahl.
-
-!!! note "Variablen in Mailing-Texten"
-    Weitere Informationen zur Verwendung von Variablen in Mailing-Texten.<br>
-    [Mehr erfahren](../Course_Element_EMail.de.md#einsatz-von-variablen)
+Im Text der E-Mail verwenden Sie auch Variablen wie Name oder Punktezahl. Welche Variablen zur Verfügung stehen, zeigt nach der Wahl von "Eigener Text" der Tooltip am Hilfe-Symbol neben dem Feld "E-Mail Text": `$firstName`, `$lastName`, `$fullName`, `$email`, `$username`, `$courseName`, `$courseDescription`, `$courseUrl`, `$courseElementName`, `$attempt`, `$score`, `$maxScore`, `$passed` und `$grading`. Wie Variablen in E-Mail-Texten wirken, beschreibt der [Kursbaustein "E-Mail"](../Course_Element_EMail.de.md#einsatz-von-variablen).
 
 
 [Zum Seitenanfang ^](#config)
@@ -216,11 +191,7 @@ Im Text der E-Mail verwenden Sie auch Variablen wie Name oder Punktezahl.
 
 ## Tab "Erinnerungen" [:octicons-tag-16:{ title="ab Release 16.0.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447) {: #tab_reminders}
 
-Hier konfigurieren Sie Erinnerungen per E-Mail nach bestimmten Kriterien.
-
-!!! note "Erinnerungen"
-    Weitere Informationen zum Versand von Erinnerungen.<br>
-    [Mehr erfahren](../Course_Reminders.de.md)
+Hier konfigurieren Sie Erinnerungen per E-Mail nach bestimmten Kriterien. Wie Sie Erinnerungen einrichten und versenden, beschreibt die Seite [Erinnerungen](../Course_Reminders.de.md).
 
 
 [Zum Seitenanfang ^](#config)
@@ -228,11 +199,7 @@ Hier konfigurieren Sie Erinnerungen per E-Mail nach bestimmten Kriterien.
 
 ## Tab "Badges" [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #tab_badges}
 
-Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` die Vergabe von Badges aktiviert, zeigt der Kurseditor zu diesem Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein.
-
-!!! note "Badges"
-    Weitere Informationen zum Thema Badges und wie sie vergeben werden.<br>
-    [Badges](../OpenBadges.de.md)
+Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` die Vergabe von Badges aktiviert, zeigt der Kurseditor zu diesem Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge eigens für diesen Kursbaustein. Wie Badges entstehen und vergeben werden, beschreibt die Seite [Badges](../OpenBadges.de.md).
 
 
 [Zum Seitenanfang ^](#config)
@@ -252,14 +219,15 @@ Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > T
 [Lernpfadkurs - Überblick >](../Learning_path_course.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment.de.md)<br>
 [Test Fragetypen >](../Test_question_types.de.md)<br>
+[Coaching - Bewertungsaufträge >](../../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Test Einstellungen - Administration >](../Test_settings.de.md)<br>
-[Tests auf Kursebene >](../Tests_at_course_level.de.md)<br>
 [Test konfigurieren >](../Configure_tests.de.md)<br>
 [Kursbaustein "E-Mail" >](../Course_Element_EMail.de.md)<br>
 [Erinnerungen >](../Course_Reminders.de.md)<br>
 [Badges >](../OpenBadges.de.md)
 
 **Weiterführend**<br>
+[Tests auf Kursebene >](../Tests_at_course_level.de.md)<br>
 [Kursbaustein "Selbsttest" >](../Course_Element_Self_Test.de.md)<br>
 [Testfragen konfigurieren >](../Configure_test_questions.de.md)
 

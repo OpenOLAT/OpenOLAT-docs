@@ -150,7 +150,7 @@ In addition, there are question types that must be graded manually because they 
 
 Whether corrections and grading should be done automatically or manually is determined by the course owners in the course editor at the course element Test:<br>
 `Course > Administration > Course editor > Course element Test > Tab "Test configuration" > Section "Correction"`<br>
-What the three variants do is described on the page [Tests at course level](../../manual_user/learningresources/Tests_at_course_level.md#correction).
+What the three variants do is described on the page [Set up a test](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md#section_correction).
 
 [To the top of the page ^](#assessing_tests)
 
@@ -195,7 +195,7 @@ The **assessment tool** can be used to assess various **assessable course elemen
 * Task and group task
 * Tests
 
-For **tests**, a **correction tool** is also available, which allows you to grade tests **question by question**. You can access it, for example, via the assessment tool.
+For tests, a correction tool is also available, which allows you to grade tests question by question. You can access it, for example, via the assessment tool.
 
 `Course > Administration > Assessment tool > Select course element > Tab "Participants" > Button "Correction tool"`
 
@@ -287,7 +287,7 @@ Which bulk actions appear depends on the configuration of the course element and
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
 [Coaching - Assessment Orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
-[Tests at course level >](../../manual_user/learningresources/Tests_at_course_level.md)<br>
+[Set up a test >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.md)<br>
 [How do I correct a test anonymously in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
 [Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
@@ -297,6 +297,7 @@ Which bulk actions appear depends on the configuration of the course element and
 [Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
 [Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)<br>
 [Creating Tests >](../../manual_user/learningresources/Test.md)<br>
+[Tests at course level >](../../manual_user/learningresources/Tests_at_course_level.md)<br>
 [Configure tests >](../../manual_user/learningresources/Configure_tests.md)<br>
 [Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
 [The assessment form >](../../manual_user/learningresources/The_assessment_form.md)<br>

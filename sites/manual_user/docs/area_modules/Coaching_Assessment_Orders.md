@@ -37,9 +37,9 @@ The tabs "Open reviews", "Open levels/gradings" and "Reviews to release" are see
 
 The pages on which owners make the respective setting:
 
-* **Open reviews**: [Tests at course level](../learningresources/Tests_at_course_level.md#correction), [Course Element "Task"](../learningresources/Course_Element_Task/index.md), [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)
+* **Open reviews**: [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction), [Course Element "Task"](../learningresources/Course_Element_Task/index.md), [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)
 * **Open levels/gradings**: [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md)
-* **Reviews to release**: [Tests at course level](../learningresources/Tests_at_course_level.md#correction), [Course settings, section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights)
+* **Reviews to release**: [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction), [Course settings, section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights)
 * **Grading assignments**: [Test settings](../learningresources/Test_settings.md#correction-workflow)
 
 The course element must be assessable and set to manual assessment, which means points or "Passed" are set at the course element. If the correction of a test is set to "Automatic", OpenOlat evaluates the test itself and releases the result immediately; the same applies to the assignment "Automatically on score change" for levels and grading.
@@ -57,7 +57,7 @@ Two further ways lead to an assessment order:
 
 Here you have access to all course elements that still need to be assessed. These can be sorted according to the columns and then selected and assessed individually. Clicking on the "Assess" link takes you to the corresponding assessment form.
 
-A row appears as soon as the assessment entry of the participant is in the status "To review". This status is created by the manual correction of a [test](../learningresources/Tests_at_course_level.md#correction), by the steps "Review", "Correction", "Peer review" and "Grading" in the course element [Task](../learningresources/Course_Element_Task/index.md), and by the switch "Set status To review if accessible" in the course element [Assessment](../learningresources/Course_Element_Assessment.md). Coaches see these steps in the column "Step" when they open the task in the course.
+A row appears as soon as the assessment entry of the participant is in the status "To review". This status is created by the manual correction of a [test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction), by the steps "Review", "Correction", "Peer review" and "Grading" in the course element [Task](../learningresources/Course_Element_Task/index.md), and by the switch "Set status To review if accessible" in the course element [Assessment](../learningresources/Course_Element_Assessment.md). Coaches see these steps in the column "Step" when they open the task in the course.
 
 With the filter "Assigned to me" you limit the list to the orders that are assigned to you personally.
 
@@ -83,7 +83,7 @@ Here you find all assessments that are not yet visible to the participants and s
 
 In this tab, it is also possible to select all course elements and release them all at once.
 
-For a test, the field "Release assessment" in the [section Correction](../learningresources/Tests_at_course_level.md#correction) controls whether OpenOlat releases the assessment itself once the correction is completed. For all other manually assessed course elements, the course option "release assessment" decides. The same option gives coaches without ownership access to this tab. It is switched on by default. In learning path courses, course owners switch it off or on in the [section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights); conventional courses do not have this section.
+For a test, the field "Release assessment" in the [section Correction](../learningresources/Course_Element_Test/Test_Setup.md#section_correction) controls whether OpenOlat releases the assessment itself once the correction is completed. For all other manually assessed course elements, the course option "release assessment" decides. The same option gives coaches without ownership access to this tab. It is switched on by default. In learning path courses, course owners switch it off or on in the [section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights); conventional courses do not have this section.
 
 [To the top of the page ^](#assessment_orders)
 
@@ -113,7 +113,7 @@ A grading assignment is created in five steps. Three roles set it up, the submis
 1. Administrators switch on the correction workflow in the system administration: `Administration > e-Assessment > Test`.
 2. Owners of the test switch on the correction workflow in the learning resource Test: `Test > Administration > Correction workflow > Tab "Configuration"`.
 3. Owners of the test enter the correcting people in the tab "Correctors". Their role in OpenOlat does not matter.
-4. Course owners set the correction at the course element Test to "Manual by correctors". This option becomes available as soon as step 2 is set. More about this on the page [Tests at course level](../learningresources/Tests_at_course_level.md#correction).
+4. Course owners set the correction at the course element Test to "Manual by correctors". This option becomes available as soon as step 2 is set. More about this on the page [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction).
 5. A participant completes the test.
 
 If no corrector is available at that moment, the assignment carries the status "Unassigned" and waits in the [Order management](Coaching_Order_Management.md). There, owners of the test, learning resource managers or administrators assign it to a person. The assignment then appears in that person's list.
@@ -138,7 +138,7 @@ The management of all correctors and their assignments, on the other hand, is do
 [Assessment tool - Overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
 [Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
 [Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
-[Tests at course level >](../../manual_user/learningresources/Tests_at_course_level.md)<br>
+[Set up a test >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md)<br>
 [Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Assessment" >](../../manual_user/learningresources/Course_Element_Assessment.md)<br>
 [Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
