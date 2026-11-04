@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 21.10.2026**
+:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 04.11.2026**
 
 * * *
 
@@ -198,7 +198,9 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 - **Framework & Usability:** Der Login-Screen wurde visuell modernisiert und sorgt für einen zeitgemässen ersten Eindruck. Zudem wurde veralteter Code entfernt, um Stabilität und Wartbarkeit zu verbessern. Die Oberfläche wurde durchgehend für ein konsistenteres Nutzungserlebnis verfeinert.
 
-- **Barrierefreiheit:** Die Navigation per Tab in Dialogen mit Datumsauswahl sowie die Anzeige der Datumsauswahl wurden verbessert.
+- **Barrierefreiheit:**
+    - Die Navigation per Tab in Dialogen mit Datumsauswahl sowie die Anzeige der Datumsauswahl wurden verbessert.
+    - Infomeldungen erscheinen vor geöffneten Dialogen und sind nicht mehr verdeckt (:octicons-tag-24: Release 20.3.12)
 
 - **Internes Sicherheitsaudit:** Im Rahmen der Qualitätssicherung für Release 20.3 wurde ein internes Sicherheitsaudit durchgeführt und gezielte Verbesserungen im Bereich Sicherheit umgesetzt.
 
@@ -249,12 +251,14 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
     - Kreditpunktesystem (Transaktionen, Systeme, Guthaben) (:octicons-tag-24: Release 20.3.2)
     - URL zur Aufzeichnung bei Terminen (:octicons-tag-24: Release 20.3.2)
     - Absenzmeldungen eines Kurses abrufen (:octicons-tag-24: Release 20.3.5)
+    - Nutzungsbedingungen und Datenschutzerklärung eines Kurses lesen und konfigurieren (:octicons-tag-24: Release 20.3.12)
 - Wartungstool zum Auffinden und Wiederherstellen beschädigter Zertifikat-PDFs (:octicons-tag-24: Release 20.3.7)
 - Lernressourcen mit dem Verwendungszweck «Template» sind vom automatischen Lebenszyklus ausgenommen und werden nicht mehr automatisch beendet oder gelöscht (:octicons-tag-24: Release 20.3.2)
 - fxSyncher: Konfiguration in der Administration lesend einsehbar (:octicons-tag-24: Release 20.3.2 - nur frentix-Release)
 - [KI Modul](https://docs.openolat.org/de/manual_admin/administration/External_Tools_AI/#ai_properties){:target="_blank"}: Anbieter und Funktionen lassen sich über `olat.properties` vorbelegen (`ai.*`) (:octicons-tag-24: Release 20.3.4)
 - Paella player: mp4-Streams werden im CORS-Modus geladen, der Stream-Server muss `Access-Control-Allow-Origin` senden (:octicons-tag-24: Release 20.3.10)
 - Aktualisierung der Bibliotheken von Drittanbietern (:octicons-tag-24: Release 20.3.10)
+- [Tomcat ab 10.1.61](https://docs.openolat.org/de/manual_admin/installation/updateGuide/#tomcat-10161-and-greater){:target="_blank"}: Bei mehr als 10 Browsersprachen erscheint wieder die Login-Seite statt einer Fehlerseite. Empfohlen: `maxLocaleCount="-1"` auf allen Connectors in `server.xml` (:octicons-tag-24: Release 20.3.12)
 
 * * *
 
@@ -276,6 +280,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 ## Weitere Informationen
 
+- [YouTrack Release Notes 20.3.12](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.12&title=Release%20Notes%2020.3.12){:target="_blank"}
 - [YouTrack Release Notes 20.3.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.11&title=Release%20Notes%2020.3.11){:target="_blank"}
 - [YouTrack Release Notes 20.3.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.10&title=Release%20Notes%2020.3.10){:target="_blank"}
 - [YouTrack Release Notes 20.3.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.9&title=Release%20Notes%2020.3.9){:target="_blank"}
