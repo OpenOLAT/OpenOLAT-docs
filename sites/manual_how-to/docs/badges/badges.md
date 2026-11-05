@@ -109,7 +109,7 @@ Under "Criteria description", enter what the person has achieved. Under "Award p
 When badges are created with the wizard, the rules for awarding them are also defined. Criteria/conditions can be
 
 * a course has been passed
-* a certain course score has been reached (prerequisite: score is switched on)
+* a certain course score has been reached (prerequisite: the course is assessed with points)
 * the completion criterion was fulfilled for a specific course element
 * a certain progress in the learning path has been achieved
 * another badge has already been earned
@@ -117,6 +117,8 @@ When badges are created with the wizard, the rules for awarding them are also de
 * a certain score was achieved in a certain course element
 
 Several conditions can be combined with each other.
+
+The criteria "Course is passed" and "Course score" need an assessment of the course, "Course element passed" and "Course element score" an assessment of the course element. How the assessment builds up from the course element to the course is shown in the graphic in the how-to [How do I make successes and achievements visible?](../achievements/achievements.md#assessment_flow)
 
 
 ### Details & validity period {: #create_details}
@@ -165,7 +167,7 @@ c) **in the badge list**<br>
 
 Course owners set up automatic awarding in the wizard during creation: with the award procedure "Award automatically" and one or more conditions.
 
-As soon as a change occurs in one of the assessable course elements, the fulfillment of the conditions for awarding a badge is checked again for all participants.
+If an assessment changes in one of the assessable course elements, OpenOlat checks the conditions for awarding a badge again for all participants.
 
 
 ### Examples {: #examples}
@@ -267,12 +269,18 @@ In the dialog, you confirm with a checkbox that you want to delete the badge per
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [Working with tables >](../../manual_user/basic_concepts/Table_Concept.md)<br>
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
+[How do I make successes and achievements visible? >](../achievements/achievements.md)<br>
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-[Personal achievements/successes: Badges >](../../manual_user/personal_menu/OpenBadges.md)<br>
-[Badges >](../../manual_user/learningresources/OpenBadges.md)
+[Personal achievements/successes: Badges >](../../manual_user/personal_menu/OpenBadges.md)
+
+**Further reading**<br>
+[Badges >](../../manual_user/learningresources/OpenBadges.md)<br>
+[Course elements at a glance >](../../manual_user/learningresources/Course_Elements.md)<br>
+[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)
 
 [To the top of the page ^](#badges)

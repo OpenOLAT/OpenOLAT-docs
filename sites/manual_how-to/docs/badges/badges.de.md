@@ -106,10 +106,10 @@ Geben Sie unter "Kriterien-Beschreibung" an, was die Person erreicht hat. Unter 
 
 ![Pflichtfeld Kriterien-Beschreibung, Vergabeverfahren Automatisch vergeben oder Nur manuell vergeben, darunter die Bedingung Kurs bestanden](assets/badges_create_wizard_step3_v1_de.png){ class="shadow lightbox" title="Schritt Vergabekriterien im Wizard" }
 
-Während der Erstellung von Badges mit dem Wizard, werden auch die Regeln für die Vergabe festgelegt. Kriterien/Bedingungen können sein
+Während der Erstellung von Badges mit dem Wizard werden auch die Regeln für die Vergabe festgelegt. Kriterien/Bedingungen können sein
 
 * ein Kurs ist bestanden
-* ein bestimmter Kurs-Score wurde erreicht (Voraussetzung: Score ist eingeschaltet)
+* ein bestimmter Kurs-Score wurde erreicht (Voraussetzung: der Kurs wird mit Punkten bewertet)
 * für einen bestimmten Kursbaustein wurde das Erledigungskriterium erfüllt
 * ein bestimmter Fortschritt im Lernpfad wurde erreicht
 * ein anderer Badge wurde bereits erworben
@@ -117,6 +117,8 @@ Während der Erstellung von Badges mit dem Wizard, werden auch die Regeln für d
 * ein bestimmter Score wurde in einem bestimmten Kursbaustein erreicht
 
 Es können mehrere Bedingungen miteinander kombiniert werden.
+
+Für die Kriterien "Kurs bestanden" und "Kurs-Score" braucht der Kurs eine Bewertung, für "Kursbaustein bestanden" und "Kursbaustein-Score" der Kursbaustein. Wie die Bewertung vom Kursbaustein bis zum Kurs aufeinander aufbaut, zeigt die Grafik im How-to [Wie mache ich Erfolge und Leistungen sichtbar?](../achievements/achievements.de.md#assessment_flow)
 
 
 ### Details & Gültigkeitsdauer {: #create_details}
@@ -165,7 +167,7 @@ c) **in der Badge-Liste**<br>
 
 Die automatische Vergabe richten Kursbesitzer:innen beim Erstellen im Wizard ein: mit dem Vergabeverfahren "Automatisch vergeben" und einer oder mehreren Bedingungen.
 
-Sobald eine Veränderung in einem der bewertbaren Kursbausteine stattfindet, wird die Erfüllung der Bedingungen für die Vergabe eines Badges für alle Teilnehmer:innen erneut überprüft.
+Ändert sich eine Bewertung in einem der bewertbaren Kursbausteine, prüft OpenOlat die Bedingungen für die Vergabe eines Badges für alle Teilnehmer:innen erneut.
 
 
 ### Beispiele {: #examples}
@@ -271,12 +273,18 @@ Im Dialog bestätigen Sie mit einem Häkchen, dass Sie den Badge dauerhaft lösc
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Mit Tabellen arbeiten >](../../manual_user/basic_concepts/Table_Concept.de.md)<br>
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
+[Wie mache ich Erfolge und Leistungen sichtbar? >](../achievements/achievements.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Persönliche Erfolge/Leistungen: Badges >](../../manual_user/personal_menu/OpenBadges.de.md)<br>
-[Badges >](../../manual_user/learningresources/OpenBadges.de.md)
+[Persönliche Erfolge/Leistungen: Badges >](../../manual_user/personal_menu/OpenBadges.de.md)
+
+**Weiterführend**<br>
+[Badges >](../../manual_user/learningresources/OpenBadges.de.md)<br>
+[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements.de.md)<br>
+[Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)
 
 [Zum Seitenanfang ^](#badges)
