@@ -4,7 +4,10 @@ When an external tool is launched, OpenOlat sends the LTI roles of the launching
 
 ## Mapping in the course editor {: #course_editor}
 
-In the tab "Page content", course owners assign one or more of the six LTI roles to each of the three course roles "Author", "Coach" and "Participant": "Learner", "Instructor", "Administrator", "Teaching assistant", "Content developer" and "Mentor". A newly created course element takes over the default values from the system administration. When a course element or a course is copied, the existing mapping is retained.
+Course owners assign the LTI roles in the course editor:<br>
+`Course > Course editor > Course element "LTI page" > Tab "Page content"`
+
+There, each of the three course roles "Author", "Coach" and "Participant" receives one or more of the six LTI roles: "Learner", "Instructor", "Administrator", "Teaching assistant", "Content developer" and "Mentor". A newly created course element takes over the default values from the system administration. When a course element or a course is copied, the existing mapping is retained.
 
 LTI roles that the system administration has not released are greyed out for course owners. Administrators and learning resource managers of the organisation to which the course is assigned can assign all LTI roles. In the following example, the LTI role "Administrator" is locked for all three course roles:
 
@@ -25,6 +28,8 @@ System administrators define the limits and default values in the system adminis
 | Default settings for owners | The LTI roles that a new course element "LTI Page" preselects for the course role owner. |
 | Default settings for coaches | The preselection for the course role coach. |
 | Default settings for participants | The preselection for the course role participant. |
+
+The following image shows an instance with adjusted default settings, not the standard configuration.
 
 ![Configurable by course owner without the LTI role Administrator, below it the default settings per course role, in the tab Role mapping on the page LTI in the system administration](assets/LTI_role_mapping_admin_v1_en.png){ class="shadow lightbox" title="Tab Role mapping on the page LTI" }
 

@@ -8,7 +8,7 @@
 
 ??? abstract "Zielgruppe"
 
-    [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen
+    [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen [ ] Administrator:innen [x] Systemadministrator:innen
 
     [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
@@ -28,7 +28,7 @@ Damit die Benutzer:innen der Moodle-Plattform von ihrem System aus auf den OpenO
 
 ## Voraussetzungen {: #conditions}
 
-Für die Konfiguration muss ein Administrator-Zugang in beiden Systemen gewährleistet sein. In OpenOlat öffnet die Rolle Systemadministrator:in die System-Administration, in der die externe Plattform erfasst wird. Wer die LTI-Freigabe eines Kurses vornehmen darf, legt die System-Administration im Tab "Konfiguration" unter `Administration > Externe Werkzeuge > LTI` fest. Vorzugsweise erfolgt die Konfiguration auf beiden Systemen gleichzeitig, da bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
+Für die Konfiguration muss ein Administrator-Zugang in beiden Systemen gewährleistet sein. In OpenOlat öffnet die Rolle Systemadministrator:in die System-Administration, in der die externe Plattform erfasst wird. Wer einen Kurs über LTI freigeben darf, legt die System-Administration im Tab "Konfiguration" unter `Administration > Externe Werkzeuge > LTI` fest. Konfigurieren Sie am besten beide Systeme gleichzeitig, weil bestimmte Dialoge in beiden Systemen direkt nacheinander auszufüllen sind.
 
 [Zum Seitenanfang ^](#LTI_integrate_course_into_moodle)
 
@@ -46,12 +46,12 @@ Für die Konfiguration muss ein Administrator-Zugang in beiden Systemen gewährl
 
 ## 1. Setup "External Tool" in Moodle  {: #setup_step1}
 
-Die Administration der externen Tools in Moodle befindet sich unter folgendem Pfad:<br>
+Die externen Tools verwalten Sie in Moodle unter folgendem Pfad:<br>
 `Site administration > Plugins > External Tool > Manage Tools`
 
 ![Markierter Eintrag External tool mit Manage tools im Tab Plugins](assets/LTI_integrate_course_into_moodle-setup1_v1_en.png){ class="shadow lightbox" title="Site administration in Moodle" }
 
-Für die Konfiguration mit OpenOlat ist die Option "**configure a tool manually**" zu wählen.
+Für die Konfiguration mit OpenOlat ist die Option "configure a tool manually" zu wählen.
 
 ![Markierter Link configure a tool manually zum manuellen Anlegen eines externen Tools](assets/LTI_integrate_course_into_moodle-setup2_v1_en.png){ class="shadow lightbox" title="Seite Manage tools in Moodle" }
 
@@ -84,7 +84,7 @@ Nach dem Speichern können Sie weitere Details in der Übersicht über den Detai
 
 ## 2. Setup "Externe Plattform" in OpenOlat {: #setup_step2}
 
-Die Administration von LTI 1.3 befindet sich in der System-Administration von OpenOlat unter folgendem Pfad:<br>
+LTI 1.3 verwalten Sie in der System-Administration von OpenOlat unter folgendem Pfad:<br>
 `Administration > Externe Werkzeuge > LTI`
 
 ![Eingeschaltetes Modul LTI 1.3 mit Plattform-ID und Organisation, darunter die Rollen, die ein Deployment hinzufügen dürfen](assets/LTI_integrate_course_into_moodle-setup5_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration der LTI-Administration" }
@@ -102,9 +102,9 @@ Im Tab "Externe Plattformen" erfassen Sie die Moodle-Instanz mit dem Button "Neu
 | URL des öffentlichen Schlüsselbundes | Aus Moodle: Public Keyset URL |
 
 
-Tragen Sie nach Abschluss des Formulars den Öffentlichen Schlüssel auf Moodle in der Tool-Konfiguration ein.
+Tragen Sie nach Abschluss des Formulars den öffentlichen Schlüssel auf Moodle in der Tool-Konfiguration ein.
 
-![Ausgefülltes Formular mit Name, Plattform-ID, Client-ID, öffentlichem Schlüssel und den drei URLs aus Moodle](assets/LTI_integrate_course_into_moodle-setup6_v2_en.png){ class="shadow lightbox" title="Dialog Plattform editieren in OpenOlat" }
+![Ausgefülltes Formular mit Name, Plattform-ID, Client-ID, öffentlichem Schlüssel und den drei URLs aus Moodle](assets/LTI_integrate_course_into_moodle-setup6_v2_de.png){ class="shadow lightbox" title="Dialog Plattform editieren in OpenOlat" }
 
 [Zum Seitenanfang ^](#LTI_integrate_course_into_moodle)
 
@@ -113,10 +113,10 @@ Tragen Sie nach Abschluss des Formulars den Öffentlichen Schlüssel auf Moodle 
 
 ## 3. LTI-Freigabe des Kurses in OpenOlat {: #setup_step3}
 
-Die Freigabe eines OpenOlat-Kurses (oder einer OpenOlat-Gruppe) erfolgt in den Einstellungen unter folgendem Pfad:<br>
+Einen OpenOlat-Kurs (oder eine OpenOlat-Gruppe) geben Sie in den Einstellungen unter folgendem Pfad frei:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "LTI 1.3 Zugangskonfiguration"`
 
-![Abschnitt LTI 1.3 Zugangskonfiguration mit dem Button Neues Deployment hinzufügen und dem eingerichteten Deployment](assets/LTI_integrate_course_into_moodle-setup7_v2_en.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen" }
+![Abschnitt LTI 1.3 Zugangskonfiguration mit dem Button Neues Deployment hinzufügen und dem eingerichteten Deployment](assets/LTI_integrate_course_into_moodle-setup7_v2_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen" }
 
 Ergänzen Sie mit dem Button "Neues Deployment hinzufügen" ein Deployment für den Kurs (oder die Gruppe):
 
@@ -171,7 +171,7 @@ Der Link in Moodle sollte den gewünschten OpenOlat-Kurs in einem neuen Fenster 
 
 Im OpenOlat-Kurs können Sie den Test-Aufruf in der Mitgliederverwaltung verifizieren: Der LTI-Aufruf hat ein neues Konto angelegt und der Gruppe "LTI: Name der Plattform" hinzugefügt.
 
-![Neu angelegtes Konto mit der Rolle Gruppenbetreuer:in in der Gruppe LTI: fxTest Moodle](assets/LTI_integrate_course_into_moodle-setup12_v1_en.png){ class="shadow lightbox" title="Mitgliederverwaltung des Kurses" }
+![Neu angelegtes Konto mit der Rolle Gruppenbetreuer:in in der Gruppe LTI: fxTest Moodle](assets/LTI_integrate_course_into_moodle-setup12_v1_de.png){ class="shadow lightbox" title="Mitgliederverwaltung des Kurses" }
 
 [Zum Seitenanfang ^](#LTI_integrate_course_into_moodle)
 

@@ -3,9 +3,9 @@
 
 ## OpenOlat als "Tool" {: #openolat_tool}
 
-Wird OpenOlat im Sinn der LTI-Terminologie als "Tool" eingesetzt, werden in OpenOlat vorhandene Kurse auf einem anderen LMS dargestellt. Seitens OpenOlat müssen für die reibungslose Kommunikation der beiden Systeme Angaben zur empfangenden Plattform (consumer) gemacht werden.
+Wird OpenOlat im Sinn der LTI-Terminologie als "Tool" eingesetzt, werden in OpenOlat vorhandene Kurse auf einem anderen LMS dargestellt. Damit beide Systeme reibungslos miteinander kommunizieren, erfassen Sie in OpenOlat Angaben zur empfangenden Plattform (consumer).
 
-Systemadministrator:innen konfigurieren das Zusammenspiel mit den anderen Plattformen (auch "platform" im Sinn der LTI-Terminologie) in der System-Administration unter: `Administration > Externe Werkzeuge > LTI`, Tab "Externe Plattformen". OpenOlat ist dann das **Tool**, in das der Kurs von den hier definierten Plattformen eingebunden wird.
+Systemadministrator:innen konfigurieren das Zusammenspiel mit den anderen Plattformen (auch "platform" im Sinn der LTI-Terminologie) in der System-Administration unter: `Administration > Externe Werkzeuge > LTI`, Tab "Externe Plattformen". OpenOlat ist dann das "Tool", in das der Kurs von den hier definierten Plattformen eingebunden wird.
 
 ![Liste der externen Plattformen mit Name, Plattform-ID, Client-ID und Anzahl Deployments, markiert der Button Neue externe Plattform](assets/LTI_admin_platform_v3_de.png){ class="shadow lightbox" title="Tab Externe Plattformen der Seite LTI in der System-Administration · 2026.10.07" }
 
@@ -16,7 +16,7 @@ Die Liste zeigt je Plattform den Namen, die Plattform-ID und die Client-ID. Die 
 
 !!! info "Wichtig"
 
-    Werden mehrere verschiedene OpenOlat-Kurse von der gleichen externen Plattform genutzt, genügt es, die externe Plattform in der System-Administration nur einmal zu konfigurieren. Die LTI-Freigabe pro Kurs erfolgt in den Einstellungen des jeweiligen Kurses: `Kurs > Administration > Einstellungen > Freigabe`, Abschnitt "LTI 1.3 Zugangskonfiguration". Für Gruppen gilt dasselbe im Tab "Freigabe" der Gruppe. Wer sie vornehmen darf, steht unter [Wer kann Deployments hinzufügen?](LTI_Integrations.de.md#deployments) Sendet die Plattform für mehrere Kurse dieselbe Deployment-ID, erhält jeder dieser Kurse seine eigene LTI-Freigabe mit dieser Deployment-ID. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
+    Werden mehrere verschiedene OpenOlat-Kurse von der gleichen externen Plattform genutzt, genügt es, die externe Plattform in der System-Administration nur einmal zu konfigurieren. Die LTI-Freigabe richten Sie je Kurs in dessen Einstellungen ein: `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "LTI 1.3 Zugangskonfiguration"`. Für Gruppen gilt dasselbe im Tab "Freigabe" der Gruppe. Wer sie einrichten darf, steht unter [Wer kann Deployments hinzufügen?](LTI_Integrations.de.md#deployments) Sendet die Plattform für mehrere Kurse dieselbe Deployment-ID, erhält jeder dieser Kurse seine eigene LTI-Freigabe mit dieser Deployment-ID. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
 
 ## Konfiguration {: #config}

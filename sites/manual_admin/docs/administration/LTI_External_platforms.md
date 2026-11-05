@@ -3,9 +3,9 @@
 
 ## OpenOlat as "Tool" {: #openolat_tool}
 
-If OpenOlat is used as a "tool" in the sense of the LTI terminology, existing courses in OpenOlat are displayed on another LMS. OpenOlat must provide information on the receiving platform (consumer) to ensure smooth communication between the two systems.
+If OpenOlat is used as a "tool" in the sense of the LTI terminology, existing courses in OpenOlat are displayed on another LMS. So that both systems communicate smoothly with each other, you enter information on the receiving platform (consumer) in OpenOlat.
 
-System administrators configure the interaction with the other platforms (also "platform" in the sense of LTI terminology) in the system administration under: `Administration > External tools > LTI`, tab "External platforms". OpenOlat is then the **tool** into which the course from the platforms defined here is integrated.
+System administrators configure the interaction with the other platforms (also "platform" in the sense of LTI terminology) in the system administration under: `Administration > External tools > LTI`, tab "External platforms". OpenOlat is then the "tool" into which the course from the platforms defined here is integrated.
 
 ![List of external platforms with name, platform issuer, client ID and number of deployments, the Add external platform button marked](assets/LTI_admin_platform_v3_en.png){ class="shadow lightbox" title="Tab External platforms of the page LTI in the system administration · 2026.10.07" }
 
@@ -16,7 +16,7 @@ The list shows the name, the platform issuer and the client ID of each platform.
 
 !!! info "Important"
 
-    If several different OpenOlat courses are used from the same external platform, it is sufficient to configure the external platform only once in the system administration. The LTI share per course is created in the settings of the respective course: `Course > Administration > Settings > Share`, section "LTI 1.3 access configuration". The same applies to groups in the "Share" tab of the group. Who may create it is described under [Who can add deployments?](LTI_Integrations.md#deployments) If the platform sends the same deployment ID for several courses, each of these courses gets its own LTI share with this deployment ID. [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
+    If several different OpenOlat courses are used from the same external platform, it is sufficient to configure the external platform only once in the system administration. You set up the LTI share per course in its settings: `Course > Administration > Settings > Tab "Share" > Section "LTI 1.3 access configuration"`. The same applies to groups in the "Share" tab of the group. Who may set it up is described under [Who can add deployments?](LTI_Integrations.md#deployments) If the platform sends the same deployment ID for several courses, each of these courses gets its own LTI share with this deployment ID. [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
 
 ## Configuration {: #config}
@@ -42,7 +42,7 @@ In OpenOlat, the following details of the external platform are recorded in the 
 
 After completing the form, enter the public key on the external platform in the tool configuration there.
 
-![Six mandatory fields for the details of the external platform, plus the initiate login URL and redirection URL provided by OpenOlat and the generated public key](assets/LTI_admin_platform_config_v2_de.png){ class="lightbox" title="Dialog Add external platform" }
+![Six mandatory fields for the details of the external platform, plus the initiate login URL and redirection URL provided by OpenOlat and the generated public key](assets/LTI_admin_platform_config_v2_en.png){ class="lightbox" title="Dialog Add external platform · 2026.11.06" }
 
 
 ## Further information {: #further_information}
