@@ -214,7 +214,7 @@ If owners of the course have activated the awarding of badges under `Course > Ad
 [Course Element "Test" >](index.md)<br>
 [Evaluate and manage tests >](Test_Results.md)<br>
 [Learning path course - Course editor >](../Learning_path_course_Course_editor.md)<br>
-[Types of Course Elements >](../Course_Elements.md)<br>
+[Course elements at a glance >](../Course_Elements.md)<br>
 [How do I prepare an online exam? >](../../../manual_how-to/exam_preparation/exam_preparation.md)<br>
 [Learning path course - Overview >](../Learning_path_course.md)<br>
 [Course Settings - Tab Assessment >](../Course_Settings_Assessment.md)<br>

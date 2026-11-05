@@ -272,7 +272,7 @@ Ausserdem muss ein Angebot für den Katalog erstellt und der Kurs buchbar gemach
 [Kurse und Lernressourcen erstellen >](../../manual_user/area_modules/authoring_new_course.de.md)<br>
 [Lernpfadkurse >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
 [Lernpfadkurse erstellen >](../../manual_user/learningresources/Creating_learning_path_courses.de.md)<br>
-[Kursbausteine >](../../manual_user/learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements.de.md)<br>
 [Kursbausteine im Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Kurseinstellungen >](../../manual_user/learningresources/Course_Settings.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](../../manual_user/learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md)<br>

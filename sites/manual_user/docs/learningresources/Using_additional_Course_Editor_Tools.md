@@ -99,7 +99,7 @@ There may still be some notes that are displayed. A specific entry in the catalo
 
 **Mentioned on this page**<br>
 [Course Administration: Overview >](../learningresources/Administration.md)<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Elements >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Access configuration >](Access_configuration.md)<br>
 [Access Restrictions in the Expert Mode >](Access_Restrictions_in_the_Expert_Mode.md)<br>

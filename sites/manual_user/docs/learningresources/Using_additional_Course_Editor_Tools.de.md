@@ -99,7 +99,7 @@ Eventuell gibt es noch Hinweise, die angezeigt werden. Auch ein gezielter Eintra
 
 **Auf dieser Seite erwähnt**<br>
 [Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Zugangskonfiguration / Freigabe >](Access_configuration.de.md)<br>
 [Zugriffsbeschränkungen im Expertenmodus >](Access_Restrictions_in_the_Expert_Mode.de.md)<br>

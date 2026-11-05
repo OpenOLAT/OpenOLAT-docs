@@ -148,7 +148,7 @@ Der Upload der Medien ins Media Center erfolgt im persönlichen Menü oder im Co
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)
 
 **Weiterführend**<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)
 
 [Zum Seitenanfang ^](#course_element_page)

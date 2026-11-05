@@ -270,7 +270,7 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
 [Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
 [Aufgaben bewerten >](../../manual_user/learningresources/Assess_tasks.de.md)<br>
 [Formular als Rubrik-Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
-[Kursbausteine >](../../manual_user/learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](../../manual_user/personal_menu/Certificates.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../../manual_user/personal_menu/Credit_Points.de.md)
 

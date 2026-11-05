@@ -38,7 +38,7 @@ All logged-in persons who see the podcast comment on the episodes and rate them 
 
 [Podcast - Configurations >](../learningresources/Podcast_Configuration.md)<br>
 [How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Course Element "Blog" >](Course_Element_Blog.md)
 
 [To the top of the page ^](#podcast)

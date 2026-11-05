@@ -161,7 +161,7 @@ If you have more attempts available to process the test, you can run through the
 [Configure tests >](../Configure_tests.md)
 
 **Further reading**<br>
-[Types of Course Elements >](../Course_Elements.md)<br>
+[Course elements at a glance >](../Course_Elements.md)<br>
 [Configure test questions >](../Configure_test_questions.md)<br>
 [Assessing tests >](../Assessing_tests.md)
 

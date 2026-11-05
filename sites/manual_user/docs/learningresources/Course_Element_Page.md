@@ -147,7 +147,7 @@ Uploading media to the Media Center is done in the personal menu or in the Conte
 [User tools: Media Center >](../personal_menu/Media_Center.md)
 
 **Further reading**<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)
 
 [To the top of the page ^](#course_element_page)

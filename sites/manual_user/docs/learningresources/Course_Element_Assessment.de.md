@@ -108,7 +108,7 @@ Der Tab "Erinnerungen" zeigt die [Erinnerungen](../learningresources/Course_Remi
 
 **Auf dieser Seite erwähnt**<br>
 [Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
 [Formular als Rubrik-Bewertung >](../learningresources/Forms_in_Rubric_Scoring.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>

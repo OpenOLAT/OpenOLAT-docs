@@ -47,7 +47,7 @@ Mit der "Downloadfunktion" legen Sie fest, wer die Liste als Excel-Datei herunte
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 
 **Weiterführend**<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Toolbar: Übersicht >](Toolbar.de.md)<br>
 [Persönliche Konfiguration: Profil >](../personal_menu/Profile.de.md)
 

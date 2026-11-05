@@ -55,7 +55,7 @@ On the top course node and all structure course elements, further display settin
 ## Further information {: #further_information}
 
 **Further reading**<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)<br>
 
 **youtube**<br>

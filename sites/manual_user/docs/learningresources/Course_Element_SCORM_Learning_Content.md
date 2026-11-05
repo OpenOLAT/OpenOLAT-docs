@@ -222,7 +222,7 @@ If the awarding of badges is enabled in the course settings, the course editor s
 
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Badges >](OpenBadges.md)

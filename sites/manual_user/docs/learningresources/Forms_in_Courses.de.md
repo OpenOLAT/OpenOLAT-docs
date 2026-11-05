@@ -27,7 +27,7 @@ Zu beachten ist, dass sobald ein Formular im Kurs eingebunden und aufgerufen wur
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
 [Kursbaustein "Umfrage" >](../learningresources/Course_Element_Survey.de.md)<br>
 [Kursbaustein "Formular" >](../learningresources/Course_Element_Form.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>

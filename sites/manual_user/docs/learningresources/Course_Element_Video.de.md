@@ -71,7 +71,7 @@ Ein Video, das Sie mit dem Kursbaustein "Video" einbinden, ermöglicht im Gegens
 [Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
 [Videos im Kursbaustein "HTML-Seite" >](../basic_concepts/Video_in_HTML_Pages.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
 [Kursbaustein "Videoaufgabe" >](../learningresources/Course_Element_Video_Task.de.md)<br>
 [Video Collection >](../area_modules/Video_Collection.de.md)
 

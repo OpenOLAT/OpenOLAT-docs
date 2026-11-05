@@ -30,6 +30,6 @@ A more extensive alternative to the self-test is the [course element "Practice"]
 [Configure tests >](../learningresources/Configure_tests.md)<br>
 [Tests at course level >](../learningresources/Tests_at_course_level.md)<br>
 [Course Element "Practice" >](Course_Element_Practice.md)<br>
-[Types of Course Elements >](Course_Elements.md)
+[Course elements at a glance >](Course_Elements.md)
 
 [To the top of the page ^](#course_element_self_test)

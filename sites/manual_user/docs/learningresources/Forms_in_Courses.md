@@ -27,7 +27,7 @@ Please note that once a form has been integrated into a course and accessed, the
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
 [Course Element "Form" >](../learningresources/Course_Element_Form.md)<br>
 [Course Element "Assessment" >](../learningresources/Course_Element_Assessment.md)<br>

@@ -1,14 +1,14 @@
-# Kursbausteine {: #course_elements}
+# Kursbausteine im Überblick {: #course_elements}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Was sind Kursbausteine?](<https://www.youtube.com/embed/JM6iSrfkHog>){:target="_blank"}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
-In OpenOlat stehen verschiedene Kursbausteine zur Verfügung, mit denen ein Kurs sehr flexibel und modular nach den gewünschten Bedürfnissen aufgebaut werden kann. So können Kursinhalte strukturiert und Inhalte bereitgestellt, kollaboratives Arbeiten und Austausch gefördert, der Wissensstand der Teilnehmenden geprüft sowie organisatorische Belange abgedeckt werden.
+Aus Kursbausteinen bauen Sie Ihren Kurs auf. Mit ihnen stellen Sie Inhalte bereit und strukturieren sie, fördern Zusammenarbeit und Austausch, prüfen den Wissensstand der Teilnehmenden und regeln Organisatorisches.
 
-## Kursbausteine im Überblick
+Die Übersicht ordnet die Kursbausteine in dieselben Gruppen wie der Dialog "Kursbausteine einfügen" im Kurseditor.
 
-### Wissensvermittlung
+## Wissensvermittlung
 
 Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturierung von Kursinhalten. Je nach Baustein können auch bestimmte, extern erstellte Inhalte eingebunden werden.
 
@@ -31,7 +31,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 * [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
 * [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.de.md)
 
-### Wissensüberprüfung
+## Wissensüberprüfung
 
 Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt werden.
 
@@ -47,27 +47,15 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 * [:o_icon_o_survey_icon: Umfrage](Course_Element_Survey.de.md)
 * [:o_icon_o_cl_icon: Checkliste](Course_Element_Checklist.de.md)
 
-In den meisten Kursbausteinen dieser Gruppe können Sie Punkte vergeben. Dann richten Sie im Tab "HighScore" eine [Rangliste](#highscore) ein. Die Punkte mehrerer Kursbausteine lassen sich zusammenzählen, und das Bestehen eines Kurses kann von den Bewertungen verschiedener Kursbausteine abhängen. In herkömmlichen Kursen übernimmt das ein Kursbaustein [Struktur](Course_Element_Structure.de.md).
+In den meisten Kursbausteinen dieser Gruppe können Sie Punkte vergeben. Dann können Sie im Tab "HighScore" eine [Rangliste](#highscore) einrichten. Die Punkte mehrerer Kursbausteine lassen sich zusammenzählen, und das Bestehen eines Kurses kann von den Bewertungen verschiedener Kursbausteine abhängen. In herkömmlichen Kursen übernimmt das ein Kursbaustein [Struktur](Course_Element_Structure.de.md).
 
 Alle Kursbausteine dieser Gruppe ausser Selbsttest, Übung und Umfrage haben den Tab "Erinnerungen", bei Aufgabe und Gruppenaufgabe in Lernpfadkursen heisst er "Erinnerungen & To-dos". Dort richten Sie E-Mails ein, die OpenOlat abhängig vom Bearbeitungsstand des Kursbausteins verschickt, zum Beispiel wenn eine Aufgabe oder ein Test zu einem bestimmten Datum noch nicht bearbeitet ist. Die Möglichkeiten gleichen denen im Menü "Erinnerung" des Kurses: `Kurs > Administration > Erinnerung`. Mehr dazu: [Erinnerungen](../learningresources/Course_Reminders.de.md)
 
 Zur Gruppe gehören auch die Kursbausteine "Umfrage" und "Formular". Mit ihnen binden Sie OpenOlat [Formulare](../learningresources/Form_Editor.de.md) für Befragungen und ähnliche Zwecke in einen Kurs ein.
 
-### Rangliste [:octicons-tag-16:{ title="ab Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
+## Kommunikation und Kollaboration
 
-Vergeben Sie in einem Kursbaustein Punkte, können Sie den Teilnehmenden eine Rangliste anzeigen. Die Rangliste ermöglicht einen spielerischen Vergleich und kann die Teilnehmenden motivieren.
-
-Die Rangliste richten Sie im Tab "HighScore" ein. Den Tab haben alle bewertbaren Kursbausteine ausser Übung und Videoaufgabe, dazu der Kursbaustein "Struktur". Voraussetzung ist, dass der Kursbaustein Punkte vergibt, zum Beispiel ein Test, eine Aufgabe oder eine Bewertung.
-
-Schalten Sie zuerst "Highscore anzeigen" ein. Unter "Anfangsdatum (optional)" legen Sie fest, ab wann OpenOlat die Rangliste zeigt. Ohne Anfangsdatum zeigt OpenOlat die Rangliste, sobald die Bewertung der Person freigegeben ist: beim Test direkt nach dem Beenden, beim Kursbaustein "Bewertung" erst, wenn Betreuer:innen die Bewertung abschliessen und freigeben. Zwischengespeicherte Punkte genügen nicht. Mit "Daten der Benutzer:innen anonymisieren" zeigt die Rangliste die Personen anonymisiert statt mit Vor- und Nachnamen.
-
-Danach wählen Sie, welche Elemente die Rangliste zeigt: "Gratulationstitel", "Siegertreppchen", "Histogramm" und "Liste der besten Teilnehmer:innen". Bei der Liste legen Sie fest, ob sie alle Teilnehmenden oder nur eine bestimmte Anzahl der besten zeigt. Mindestens eine dieser Optionen muss gewählt sein.
-
-![Gratulationstitel mit dem eigenen Platz, Siegertreppchen mit drei Rängen, Histogramm der Punkteverteilung und Liste der besten Teilnehmer:innen](assets/course_elements_highscore_v1_de.png){ class="shadow lightbox" title="Rangliste eines Kursbausteins aus Sicht der Teilnehmenden · 2026.11.02" }
-
-### Kommunikation und Kollaboration
-
-Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und den Austausch untereinander eingesetzt. Zur selben Kategorie gehören die Kursbausteine für [virtuelle Klassenzimmer](#virtual_classrooms).
+Kursbausteine dieser Gruppe werden vor allem für kollaboratives Arbeiten und den Austausch untereinander eingesetzt. Zur selben Gruppe gehören die Kursbausteine für [virtuelle Klassenzimmer](#virtual_classrooms).
 
 * [:o_icon_o_wiki_icon: Wiki](Course_Element_Wiki.de.md)
 * [:o_icon_o_fo_icon: Forum](Course_Element_Forum.de.md)
@@ -93,7 +81,7 @@ Ein virtuelles Klassenzimmer ermöglicht es, gleichzeitig (synchron) online mit 
 
 Damit Sie alle Funktionalitäten benutzen können, benötigen Sie ein Headset und eine angeschlossene Kamera. Unter Umständen muss, abhängig vom eingesetzten System, noch weitere Software temporär heruntergeladen werden.
 
-### Verwaltung und Organisation
+## Verwaltung und Organisation
 
 Für organisatorische Belange und zur Verteilung von Informationen eignen sich besonders die nachfolgenden Kursbausteine.
 
@@ -104,9 +92,9 @@ Für organisatorische Belange und zur Verteilung von Informationen eignen sich b
 * [:o_icon_o_cal_icon: Kalender](Course_Element_Calendar.de.md)
 * [:o_icon_o_appointment_icon: Terminplanung](Course_Element_Appointment_Scheduling.de.md)
 
-### Andere
+## Andere
 
-Zusätzliche Bausteine finden Sie in der Kategorie "Andere".
+Zusätzliche Kursbausteine finden Sie in der Gruppe "Andere".
 
 * [:o_icon_o_lti_icon: LTI-Seite](Course_Element_LTI_Page.de.md)
 * [:o_icon_o_sp_icon: HTML-Seite](Course_Element_HTML_Page.de.md)
@@ -123,8 +111,7 @@ Neben den Kursbausteinen gibt es in OpenOlat Kursen noch weitere Tools und Lernr
 
 ## Leistungsbewertung
 
-Eine Reihe an Kursbausteinen kann entweder zur summativen bzw. formativen Bewertung genutzt werden, oder dient der Fortschrittskontrolle. Die bewertbaren Kursbausteine können im
-[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) eingesehen und bearbeitet werden. Alle Einstellungen beschreibt die Seite des jeweiligen Kursbausteins:
+Viele Kursbausteine können Sie zur summativen oder formativen Bewertung nutzen oder zur Fortschrittskontrolle. Die Bewertungen der bewertbaren Kursbausteine sehen und bearbeiten Sie im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md). Alle Einstellungen beschreibt die Seite des jeweiligen Kursbausteins:
 
 * [Aufgabe](Course_Element_Task/index.de.md) (manuelle Bewertung)
 * [Gruppenaufgabe](Course_Element_Grouptask.de.md) (manuelle Bewertung)
@@ -134,12 +121,25 @@ Eine Reihe an Kursbausteinen kann entweder zur summativen bzw. formativen Bewert
 * [LTI](../learningresources/Course_Element_LTI_Page.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
 * [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
 * [Test](Course_Element_Test/index.de.md) (automatische & manuelle Bewertung)
+* [Videoaufgabe](Course_Element_Video_Task.de.md#tab_assessment) (automatische & manuelle Bewertung, nur im Modus "Test: Situationen erkennen")
 
 Die Fortschrittskontrolle steuern [Lernpfadkurse](../learningresources/Learning_path_course.de.md) über das Erledigungskriterium, das Sie im Kurseditor pro Kursbaustein im Tab "Lernpfad" festlegen. Mit dem Kriterium "Bestätigung durch Benutzer:in" bestätigen die Teilnehmenden die Bearbeitung selbst über den Toggle-Button "Als erledigt markieren".
 
 ![Toggle-Button Als erledigt markieren neben der Pfeilnavigation](assets/learning_path_mark_as_done_v1_de.png){ class="shadow lightbox" title="Kurs-Toolbar in der Teilnehmer:innenansicht eines Lernpfadkurses" }
 
 Eine Übersicht aller Kriterien finden Sie auf der Seite [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md#completion_criterion).
+
+### Rangliste [:octicons-tag-16:{ title="ab Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
+
+Vergeben Sie in einem Kursbaustein Punkte, können Sie den Teilnehmenden eine Rangliste anzeigen. Die Rangliste ermöglicht einen spielerischen Vergleich und kann die Teilnehmenden motivieren.
+
+Die Rangliste richten Sie im Tab "HighScore" ein. Den Tab haben alle bewertbaren Kursbausteine ausser Übung und Videoaufgabe, dazu der Kursbaustein "Struktur". Voraussetzung ist, dass der Kursbaustein Punkte vergibt, zum Beispiel ein Test, eine Aufgabe oder eine Bewertung.
+
+Schalten Sie zuerst "Highscore anzeigen" ein. Unter "Anfangsdatum (optional)" legen Sie fest, ab wann OpenOlat die Rangliste zeigt. Ohne Anfangsdatum zeigt OpenOlat die Rangliste, sobald die Bewertung der Person freigegeben ist: beim Test direkt nach dem Beenden, beim Kursbaustein "Bewertung" erst, wenn Betreuer:innen die Bewertung abschliessen und freigeben. Zwischengespeicherte Punkte genügen nicht. Mit "Daten der Benutzer:innen anonymisieren" zeigt die Rangliste die Personen anonymisiert statt mit Vor- und Nachnamen.
+
+Danach wählen Sie, welche Elemente die Rangliste zeigt: "Gratulationstitel", "Siegertreppchen", "Histogramm" und "Liste der besten Teilnehmer:innen". Bei der Liste legen Sie fest, ob sie alle Teilnehmenden oder nur eine bestimmte Anzahl der besten zeigt. Mindestens eine dieser Optionen muss gewählt sein.
+
+![Gratulationstitel mit dem eigenen Platz, Siegertreppchen mit drei Rängen, Histogramm der Punkteverteilung und Liste der besten Teilnehmer:innen](assets/course_elements_highscore_v1_de.png){ class="shadow lightbox" title="Rangliste eines Kursbausteins aus Sicht der Teilnehmenden · 2026.11.02" }
 
 ## Schreibschutz der Bewertungskonfiguration [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647){:target="_blank"} {: #assessment_config_read_only}
 

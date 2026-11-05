@@ -257,7 +257,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 
 **Auf dieser Seite erwähnt**<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
 [Kursbaustein Struktur >](../learningresources/Course_Element_Structure.de.md)<br>
 [Kursbaustein Seite >](../learningresources/Course_Element_Page.de.md)<br>
 [Kursbaustein HTML-Seite >](../learningresources/Course_Element_HTML_Page.de.md)<br>

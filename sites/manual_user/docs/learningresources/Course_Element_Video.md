@@ -71,7 +71,7 @@ A video that you embed with the course element "Video" enables, in contrast to a
 [Authoring - Overview >](../area_modules/Authoring.md)<br>
 [Videos in course element "HTML page" >](../basic_concepts/Video_in_HTML_Pages.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)<br>
 [Video Collection >](../area_modules/Video_Collection.md)
 

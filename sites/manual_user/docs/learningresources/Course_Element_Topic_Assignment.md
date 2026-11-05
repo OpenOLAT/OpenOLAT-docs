@@ -236,7 +236,7 @@ If you are entered as a person in charge, you announce topics yourself. You can 
 
 ## Further information {: #further_information}
 
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Course Element "Topic Broker" >](Course_Element_Topic_Broker.md)<br>
 [Course Element "Task" >](Course_Element_Task/index.md)
 

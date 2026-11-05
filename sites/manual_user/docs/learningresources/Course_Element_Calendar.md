@@ -37,6 +37,6 @@ In many courses, especially in [learning path courses](../learningresources/Lear
 
 **Further reading**<br>
 [Course Element "Appointment scheduling" >](../learningresources/Course_Element_Appointment_Scheduling.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)
+[Course elements at a glance >](../learningresources/Course_Elements.md)
 
 [To the top of the page ^](#cal)

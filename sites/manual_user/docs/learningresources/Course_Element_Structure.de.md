@@ -169,7 +169,7 @@ In herkömmlichen Kursen schützen Sie den Kursbaustein "Struktur" und damit sei
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)
 
 **Weiterführend**<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>

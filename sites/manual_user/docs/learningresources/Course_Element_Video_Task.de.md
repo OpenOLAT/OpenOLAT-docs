@@ -249,7 +249,7 @@ Im Tab "Teilnehmer:innen" sehen Besitzer:innen und Betreuer:innen des Kurses die
 ## Weiterführende Informationen {: #further_information}
 
 [Lernressource: Video >](../../manual_user/learningresources/Learning_resource_Video.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Kursbaustein "Video" >](../../manual_user/learningresources/Course_Element_Video.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
 

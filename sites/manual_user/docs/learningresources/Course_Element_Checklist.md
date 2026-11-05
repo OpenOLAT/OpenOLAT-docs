@@ -179,7 +179,7 @@ In the lower part of the form, you determine whether the course element "Structu
 
 **Mentioned on this page**<br>
 [Assessment of course modules >](../learningresources/Assessment_of_course_modules.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Levels/Grading >](../learningresources/Assessment_translate_points_in_grades.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Course Element "Structure" >](Course_Element_Structure.md)

@@ -210,7 +210,7 @@ Nach Durchführung der Schritte des Assistenten erscheinen die vorgenommenen Än
 
 **Auf dieser Seite erwähnt**<br>
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Kursbausteine >](../../manual_user/learningresources/Course_Elements.de.md)
+[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements.de.md)
 
 **Weiterführend**<br>
 [Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>

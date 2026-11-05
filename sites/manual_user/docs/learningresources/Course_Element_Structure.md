@@ -167,7 +167,7 @@ In conventional courses, you protect the course element "Structure" and thus its
 [Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)
+[Course elements at a glance >](../learningresources/Course_Elements.md)
 
 **Further reading**<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>

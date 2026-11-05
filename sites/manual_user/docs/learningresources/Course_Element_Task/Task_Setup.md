@@ -411,7 +411,7 @@ If "Award badges" is switched on in the course settings, the course editor shows
 [Task with peer review >](Task_Peer_Review.md)<br>
 [Course Element "Group Task" >](../Course_Element_Grouptask.md)<br>
 [Assessment tool - overview >](../Assessment_tool_overview.md)<br>
-[Types of Course Elements >](../Course_Elements.md)<br>
+[Course elements at a glance >](../Course_Elements.md)<br>
 [Course Reminders >](../Course_Reminders.md)<br>
 [To-dos in the course >](../Course_todos.md)<br>
 [User tools: To-dos >](../../personal_menu/To-Dos.md)<br>

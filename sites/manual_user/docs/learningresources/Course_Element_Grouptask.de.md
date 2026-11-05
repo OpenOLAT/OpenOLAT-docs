@@ -56,7 +56,7 @@ Alle Entscheidungen und Abgaben im Workflow gelten für die ganze Gruppe. Stimme
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)
 
 **Weiterführend**<br>

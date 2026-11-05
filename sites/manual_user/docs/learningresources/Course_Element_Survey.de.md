@@ -139,6 +139,6 @@ Besitzer:innen des Kurses setzen eine Umfrage im Menü mit den drei Punkten des 
 
 **Weiterführend**<br>
 [Formular-Elemente >](Form_Elements.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#course_element_survey)

@@ -221,7 +221,7 @@ Ist in den Kurseinstellungen die Vergabe von Badges aktiviert, zeigt der Kursedi
 
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Badges >](OpenBadges.de.md)

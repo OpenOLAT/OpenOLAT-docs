@@ -54,6 +54,6 @@ Sie entscheiden über den Zeitpunkt, an dem die Änderungen im laufenden Kurs er
 
 **Weiterführend**<br>
 [Kursbausteine im Kurseditor >](General_Configuration_of_Course_Elements.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#loschen-verschieben-und-kopieren-von-kursbausteinen)

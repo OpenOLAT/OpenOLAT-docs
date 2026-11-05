@@ -295,7 +295,7 @@ You can find out how coaches comment on and assess a portfolio task on the page 
 **Mentioned on this page**<br>
 [Portfolio template: Creation >](Portfolio_template_Creation.md)<br>
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>

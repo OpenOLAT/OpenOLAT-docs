@@ -161,7 +161,7 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 [Test konfigurieren >](../Configure_tests.de.md)
 
 **Weiterführend**<br>
-[Kursbausteine >](../Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../Course_Elements.de.md)<br>
 [Testfragen konfigurieren >](../Configure_test_questions.de.md)<br>
 [Tests bewerten >](../Assessing_tests.de.md)
 

@@ -38,6 +38,6 @@ In vielen Kursen, besonders in [Lernpfadkursen](../learningresources/Learning_pa
 
 **Weiterführend**<br>
 [Kursbaustein "Terminplanung" >](../learningresources/Course_Element_Appointment_Scheduling.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#cal)

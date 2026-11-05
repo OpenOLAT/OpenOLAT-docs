@@ -270,7 +270,7 @@ Points earned in a course element or course are also displayed on the course ele
 [Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
 [Assess tasks >](../../manual_user/learningresources/Assess_tasks.md)<br>
 [Forms in Rubric Scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
-[Types of Course Elements >](../../manual_user/learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../../manual_user/learningresources/Course_Elements.md)<br>
 [Personal achievements/successes: Certificates >](../../manual_user/personal_menu/Certificates.md)<br>
 [Personal achievements/successes: Credit points >](../../manual_user/personal_menu/Credit_Points.md)
 

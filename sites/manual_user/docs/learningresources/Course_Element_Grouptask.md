@@ -56,7 +56,7 @@ All decisions and submissions in the workflow apply to the whole group. Therefor
 
 **Mentioned on this page**<br>
 [Course Element "Task" >](Course_Element_Task/index.md)<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)
 
 **Further reading**<br>

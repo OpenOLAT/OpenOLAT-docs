@@ -109,7 +109,7 @@ The tab "Reminders" shows the [reminders](../learningresources/Course_Reminders.
 
 **Mentioned on this page**<br>
 [The form element rubric >](../learningresources/Form_Element_Rubric.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Forms in Rubric Scoring >](../learningresources/Forms_in_Rubric_Scoring.md)<br>
 [Levels/Grading >](../learningresources/Assessment_translate_points_in_grades.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>

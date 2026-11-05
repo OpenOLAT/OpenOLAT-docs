@@ -207,7 +207,7 @@ After performing the steps of the wizard, the changes made appear in the assessm
 
 **Mentioned on this page**<br>
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-[Types of Course Elements >](../../manual_user/learningresources/Course_Elements.md)
+[Course elements at a glance >](../../manual_user/learningresources/Course_Elements.md)
 
 **Further reading**<br>
 [Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)<br>

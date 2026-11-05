@@ -40,7 +40,7 @@ Im Kurs bei geschlossenem Kurseditor erstellen Sie im Bereich "Konfiguration" ei
 [GoToMeeting (Anbieter-Website)](https://www.goto.com/meeting)
 
 **Weiterführend**<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Kursbaustein "Adobe Connect" >](Course_Element_Adobe_Connect.de.md)<br>
 [Virtuelle Klassenzimmer >](../basic_concepts/Virtual_classrooms.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)

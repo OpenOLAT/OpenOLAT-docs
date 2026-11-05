@@ -178,7 +178,7 @@ Im unteren Teil des Formulars legen Sie fest, ob der Strukturbaustein Bewertungs
 
 **Auf dieser Seite erwähnt**<br>
 [Bewertung von Kursbausteinen >](../learningresources/Assessment_of_course_modules.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)

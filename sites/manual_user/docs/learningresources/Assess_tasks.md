@@ -67,6 +67,6 @@ To change the feedback documents of individual participants under "Return and fe
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)<br>
 [Course Element "Task" >](Course_Element_Task/index.md)<br>
 [Supervise a task >](Course_Element_Task/Task_Coaching.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)
+[Course elements at a glance >](../learningresources/Course_Elements.md)
 
 [To the top of the page ^](#assess_tasks)

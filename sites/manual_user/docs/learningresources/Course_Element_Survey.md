@@ -138,6 +138,6 @@ Owners of the course reset a survey with "Reset" in the menu with the three dots
 
 **Further reading**<br>
 [Form elements >](Form_Elements.md)<br>
-[Types of Course Elements >](Course_Elements.md)
+[Course elements at a glance >](Course_Elements.md)
 
 [To the top of the page ^](#course_element_survey)

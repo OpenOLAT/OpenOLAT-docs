@@ -37,6 +37,6 @@ Im Tab "Buchpassagen" erfassen Sie je Buchausschnitt die "Edubase ID", den Seite
 
 **Weiterführend**<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#edubase)

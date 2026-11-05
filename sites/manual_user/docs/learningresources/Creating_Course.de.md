@@ -74,7 +74,7 @@ Unabhängig vom Wechsel des Verwendungszwecks lässt sich über das Werkzeuge-Me
 [Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
 [Lernpfadkurs - Teilnehmeransicht >](Learning_path_course_Participant_view.de.md)<br>
 [Allgemeines >](General_Information.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Lernpfadkurse erstellen >](Creating_learning_path_courses.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Speichern (eines Kurses) als Template >](Course_Copy_Template.de.md)

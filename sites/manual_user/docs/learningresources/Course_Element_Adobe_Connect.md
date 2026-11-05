@@ -62,7 +62,7 @@ In the "Meetings" tab, the overview of the virtual rooms set up is displayed in 
 [DFN server](https://www.conf.dfn.de/anleitungen-und-dokumentation/adobe-connect)
 
 **Further reading**<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Course Element "GoToMeeting" >](Course_Element_GoToMeeting.md)<br>
 [Virtual classrooms >](../basic_concepts/Virtual_classrooms.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)

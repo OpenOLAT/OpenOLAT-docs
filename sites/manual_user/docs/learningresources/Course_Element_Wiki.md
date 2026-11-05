@@ -283,7 +283,7 @@ With the link "Export as CP", all participants export the wiki as an IMS content
 
 **Further reading**<br>
 [Creating Wikis >](Wiki.md)<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)
 
 [To the top of the page ^](#wiki)

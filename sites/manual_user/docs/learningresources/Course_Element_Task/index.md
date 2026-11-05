@@ -69,7 +69,7 @@ For all three roles: The page describes the rules of a peer review, the settings
 
 ## Further information {: #further_information}
 
-[Types of Course Elements >](../Course_Elements.md)<br>
+[Course elements at a glance >](../Course_Elements.md)<br>
 [Assessing tasks and group tasks >](../Assessing_tasks_and_group_tasks.md)<br>
 [Course Element "Portfolio task" >](../Course_Element_Portfolio_Task.md)<br>
 [Course Element "Video task" >](../Course_Element_Video_Task.md)

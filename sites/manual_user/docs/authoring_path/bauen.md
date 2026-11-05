@@ -243,7 +243,7 @@ The first course is running. Now the things that did not matter at the start pay
 
 **Mentioned on this page**<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Course Element Structure >](../learningresources/Course_Element_Structure.md)<br>
 [Course Element Page >](../learningresources/Course_Element_Page.md)<br>
 [Course Element HTML page >](../learningresources/Course_Element_HTML_Page.md)<br>

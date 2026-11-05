@@ -470,6 +470,6 @@ Für weitere Informationen zu Werten oder der Anwendung von AAI-Attributen, wend
 
 **Weiterführend**<br>
 [Kursbausteine im Kurseditor >](General_Configuration_of_Course_Elements.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#zugriffsbeschrankungen-im-expertenmodus)

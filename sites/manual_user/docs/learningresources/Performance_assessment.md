@@ -33,7 +33,7 @@ An evidence of achievement is a confirmation of an existing efficiency control a
 [Course Element "LTI Page" >](../learningresources/Course_Element_LTI_Page.md)<br>
 [Course Element "SCORM 1.2" >](../learningresources/Course_Element_SCORM_Learning_Content.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Creating Tests >](../learningresources/Test.md)<br>
 [Coaching - Overview >](../area_modules/Coaching.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)

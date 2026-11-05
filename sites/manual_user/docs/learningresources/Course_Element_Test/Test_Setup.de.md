@@ -214,7 +214,7 @@ Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > T
 [Kursbaustein "Test" >](index.de.md)<br>
 [Tests auswerten und verwalten >](Test_Results.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../Learning_path_course_Course_editor.de.md)<br>
-[Kursbausteine >](../Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../Course_Elements.de.md)<br>
 [Wie bereite ich eine Online-Prüfung vor? >](../../../manual_how-to/exam_preparation/exam_preparation.de.md)<br>
 [Lernpfadkurs - Überblick >](../Learning_path_course.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment.de.md)<br>

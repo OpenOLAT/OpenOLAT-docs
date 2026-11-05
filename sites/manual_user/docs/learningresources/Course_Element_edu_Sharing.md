@@ -26,7 +26,7 @@ You can find further information on the website of [edu-sharing](https://edu-sha
 
 [edu-sharing >](https://edu-sharing.com/)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
-[Types of Course Elements >](Course_Elements.md)
+[Course elements at a glance >](Course_Elements.md)
 
 [To the top of the page ^](#edusharing)
 

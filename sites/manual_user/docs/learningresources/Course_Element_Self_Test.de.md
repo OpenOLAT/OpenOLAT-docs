@@ -30,6 +30,6 @@ Eine umfangreichere Alternative zum Selbsttest ist der [Kursbaustein "Übung"](C
 [Test konfigurieren >](../learningresources/Configure_tests.de.md)<br>
 [Tests auf Kursebene >](../learningresources/Tests_at_course_level.de.md)<br>
 [Kursbaustein "Übung" >](Course_Element_Practice.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#course_element_self_test)

@@ -67,6 +67,6 @@ Um bei einer bereits abgeschlossenen Aufgabe die Feedback-Dokumente von einzelne
 [Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)<br>
 [Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
 [Aufgabe betreuen >](Course_Element_Task/Task_Coaching.de.md)<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)
 
 [Zum Seitenanfang ^](#assess_tasks)

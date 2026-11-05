@@ -1,14 +1,14 @@
-# Types of Course Elements {: #course_elements}
+# Course elements at a glance {: #course_elements}
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [What are course elements?](<https://www.youtube.com/embed/JM6iSrfkHog>){:target="_blank"}
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Configuring course elements](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
-In OpenOlat, various course elements are available with which a course can be structured very flexibly and modularly according to the desired needs. In this way, course content can be structured and provided, collaborative work and exchange can be promoted, the knowledge level of the participants can be checked, and organizational concerns can be covered.
+You build your course from course elements. With them, you provide and structure content, promote collaboration and exchange, check the participants' level of knowledge and handle organizational matters.
 
-## Course elements at a glance
+This overview sorts the course elements into the same groups as the dialog "Insert course elements" in the course editor.
 
-### Knowledge Transfer
+## Knowledge transfer
 
 The following course elements serve in particular to provide and structure course content. Depending on the module, certain externally created content can also be integrated.
 
@@ -33,7 +33,7 @@ The following course elements serve in particular to provide and structure cours
 
 </div>
 
-### Assessment
+## Assessment
 
 The following course elements can be used in particular to test knowledge.
 
@@ -53,27 +53,15 @@ The following course elements can be used in particular to test knowledge.
 
 </div>
 
-In most course elements of this group you can award points. You then set up a [highscore](#highscore) in the tab "HighScore". The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](Course_Element_Structure.md) takes care of this.
+In most course elements of this group you can award points. You can then set up a [highscore](#highscore) in the tab "HighScore". The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](Course_Element_Structure.md) takes care of this.
 
-All course elements of this group except Self-test, Practice and Survey have the tab "Reminders"; for Task and Grouptask in learning path courses it is called "Reminders & to-dos". There you set up emails that OpenOlat sends depending on the progress of the course element, for example if a task or a test has not been worked on by a certain date. The options are similar to those in the menu "Reminders" of the course: `Course > Administration > Reminders`. More about this: [Course Reminders](../learningresources/Course_Reminders.md)
+All course elements of this group except Self-test, Practice and Survey have the tab "Reminders"; for Task and Group task in learning path courses it is called "Reminders & to-dos". There you set up emails that OpenOlat sends depending on the progress of the course element, for example if a task or a test has not been worked on by a certain date. The options are similar to those in the menu "Reminders" of the course: `Course > Administration > Reminders`. More about this: [Course Reminders](../learningresources/Course_Reminders.md)
 
 The group also includes the course elements "Survey" and "Form". With them, you build OpenOlat [forms](../learningresources/Form_Editor.md) for surveys and similar purposes into a course.
 
-### Highscore [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
+## Communication and collaboration
 
-If you award points in a course element, you can show the participants a highscore. The highscore makes a playful comparison possible and can motivate the participants.
-
-You set up the highscore in the tab "HighScore". All assessable course elements have this tab except Practice and Video task, and in addition the course element "Structure". The prerequisite is that the course element awards points, for example a test, a task or an assessment.
-
-First switch on "Show Highscore". Under "Starting Date (optional)" you define from when OpenOlat shows the highscore. Without a starting date, OpenOlat shows the highscore as soon as the assessment of the person is released: for a test directly after finishing it, for the course element "Assessment" only when coaches complete and release the assessment. Points that are only saved temporarily are not enough. With "Anonymize usernames" the highscore shows the persons anonymised instead of with first and last name.
-
-Then you choose which elements the highscore shows: "Congratulations title", "Podium", "Histogram" and "Top results listing". For the listing you define whether it shows all participants or only a certain number of the top participants. At least one of these options must be selected.
-
-![Congratulations title with your own position, podium with three ranks, histogram of the score distribution and top results listing](assets/course_elements_highscore_v1_en.png){ class="shadow lightbox" title="Highscore of a course element from the participants' view · 2026.11.02" }
-
-### Communication and Collaboration
-
-Course elements in this category are mainly used for collaborative work and exchange among each other. The course elements for [virtual classrooms](#virtual_classrooms) belong to the same category.
+Course elements in this group are mainly used for collaborative work and exchange among each other. The course elements for [virtual classrooms](#virtual_classrooms) belong to the same group.
 
 <div class="grid cards" markdown>
 
@@ -107,7 +95,7 @@ A virtual classroom allows you to work online (synchronously) with several peopl
 
 To be able to use all functionalities you will need a headset and a connected camera. Depending on your system you might have to download additional software temporarily.
 
-### Administration and Organization
+## Administration and Organisation
 
 The following course elements are particularly suitable for organizational matters and for the distribution of information.
 
@@ -122,9 +110,9 @@ The following course elements are particularly suitable for organizational matte
 
 </div>
 
-### Other
+## Other
 
-Additional building blocks can be found in the category "Other".
+Additional course elements can be found in the group "Other".
 
 <div class="grid cards" markdown>
 
@@ -145,7 +133,7 @@ In addition to the course elements, there are other tools and learning resources
 
 ## Performance assessment
 
-A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The assessable course elements can be viewed in the [assessment tool](../learningresources/Assessment_tool_overview.md). All settings are described on the page of the respective course element:
+You can use many course elements for summative or formative assessment or for progress control. You view and edit the assessments of the assessable course elements in the [assessment tool](../learningresources/Assessment_tool_overview.md). The page of the respective course element describes all settings:
 
 * [Task](Course_Element_Task/index.md) (manual assessment)
 * [Group task](Course_Element_Grouptask.md) (manual assessment)
@@ -155,12 +143,25 @@ A number of course elements can be used either for summative or formative assess
 * [LTI](../learningresources/Course_Element_LTI_Page.md) (automatic assessment, transferred from LTI page)
 * [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.md) (automatic assessment, transferred from SCORM module)
 * [Test](Course_Element_Test/index.md) (automatic & manual assessment)
+* [Video task](Course_Element_Video_Task.md#tab_assessment) (automatic & manual assessment, only in the mode "Test: Identify situations")
 
 [Learning path courses](../learningresources/Learning_path_course.md) control the progress with the completion criterion, which you set in the course editor for each course element in the tab "Learning path". With the criterion "Confirmation by participant", the participants confirm the completion themselves with the toggle button "Mark as done".
 
 ![Toggle button Mark as done next to the arrow navigation](assets/learning_path_mark_as_done_v1_en.png){ class="shadow lightbox" title="Course toolbar in the participant view of a learning path course · 2026.11.03" }
 
 An overview of all criteria can be found on the page [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md#completion_criterion).
+
+### Highscore [:octicons-tag-16:{ title="from Release 11.3 (OO-2133)" }](https://track.frentix.com/issue/OO-2133) {: #highscore}
+
+If you award points in a course element, you can show the participants a highscore. The highscore makes a playful comparison possible and can motivate the participants.
+
+You set up the highscore in the tab "HighScore". All assessable course elements have this tab except Practice and Video task, and in addition the course element "Structure". The prerequisite is that the course element awards points, for example a test, a task or an assessment.
+
+First switch on "Show Highscore". Under "Starting Date (optional)" you define from when OpenOlat shows the highscore. Without a starting date, OpenOlat shows the highscore as soon as the assessment of the person is released: for a test directly after finishing it, for the course element "Assessment" only when coaches complete and release the assessment. Points that are only saved temporarily are not enough. With "Anonymize usernames" the highscore shows the persons anonymised instead of with first and last name.
+
+Then you choose which elements the highscore shows: "Congratulations title", "Podium", "Histogram" and "Top results listing". For the listing you define whether it shows all participants or only a certain number of the top participants. At least one of these options must be selected.
+
+![Congratulations title with your own position, podium with three ranks, histogram of the score distribution and top results listing](assets/course_elements_highscore_v1_en.png){ class="shadow lightbox" title="Highscore of a course element from the participants' view · 2026.11.02" }
 
 ## Read-only assessment configuration [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647){:target="_blank"} {: #assessment_config_read_only}
 
@@ -195,7 +196,7 @@ Course element | Tab | Read-only | Remains editable
 [Test](Course_Element_Test/Test_Setup.md#tab_configuration) | "Test configuration" | "Levels/Grading" including the grading scale, "Include in course assessment" | all other settings, for example "Set assessment period", "Correction" and "Report"
 [SCORM 1.2](Course_Element_SCORM_Learning_Content.md#editor_tab_learning_content) | "Learning content" | the settings under "Grading configuration", for example "Transfer score from SCORM", "Maximum score", "Score needed to pass" and "Include in course assessment" | "Prevent the score from decreasing on subsequent attempts", "Count attempts only if score is transferred", "Maximum number of attempts", the areas "SCORM" and "Settings"
 [Task](Course_Element_Task/Task_Setup.md#grading) | "Grading" | "Rubric assessment", score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
-[Grouptask](Course_Element_Grouptask.md#tab_assessment) | "Grading" | score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
+[Group task](Course_Element_Grouptask.md#tab_assessment) | "Grading" | score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
 [Video task](Course_Element_Video_Task.md#tab_assessment) | "Assessment" | all settings under "Grading configuration", among them score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
 [Portfolio task](Course_Element_Portfolio_Task.md#tab_assessment) | "Assessment" | score, levels/grading, passed/failed, "Include in course assessment" | "Assessment form"
 [Assessment](Course_Element_Assessment.md#tab_assessment) | "Assessment" | "Rubric assessment", "Score granted", "Levels/Grading", "Display passed / not passed", "Include in course assessment" | "Set status "To review" if accessible", "Assessment form"

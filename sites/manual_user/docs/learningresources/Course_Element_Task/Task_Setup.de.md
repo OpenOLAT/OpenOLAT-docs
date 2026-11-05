@@ -420,7 +420,7 @@ Ist in den Kurseinstellungen "Badges vergeben" eingeschaltet, zeigt der Kursedit
 [Aufgabe mit Peer-Review >](Task_Peer_Review.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../Course_Element_Grouptask.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
-[Kursbausteine >](../Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../Course_Elements.de.md)<br>
 [Erinnerungen >](../Course_Reminders.de.md)<br>
 [To-dos im Kurs >](../Course_todos.de.md)<br>
 [Persönliche Werkzeuge: To-dos >](../../personal_menu/To-Dos.de.md)<br>

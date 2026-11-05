@@ -306,7 +306,7 @@ Wie Betreuer:innen eine Portfolioaufgabe kommentieren und bewerten, erfahren Sie
 **Auf dieser Seite erwähnt**<br>
 [Portfoliovorlage: Erstellung >](Portfolio_template_Creation.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>

@@ -60,7 +60,7 @@ Auf dem obersten Kursknoten und allen Struktur-Kursbausteinen können im Tab "Ü
 ## Weiterführende Informationen {: #further_information}
 
 **Weiterführend**<br>
-[Kursbausteine >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
 
 **youtube**<br>

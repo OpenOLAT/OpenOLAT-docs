@@ -455,6 +455,6 @@ Forschungsnetz](https://www.aai.dfn.de/en/ "Deutsches Forschungsnetz").
 
 **Further information**<br>
 [Course elements in the Course editor >](General_Configuration_of_Course_Elements.md)<br>
-[Types of Course Elements >](Course_Elements.md)
+[Course elements at a glance >](Course_Elements.md)
 
 [To the top of the page ^](#access-restrictions-in-the-expert-mode)

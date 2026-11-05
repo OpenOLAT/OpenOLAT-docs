@@ -283,7 +283,7 @@ Mit dem Link "Als CP exportieren" exportieren alle Beteiligten das Wiki als IMS-
 
 **Weiterführend**<br>
 [Wiki erstellen >](Wiki.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)
 
 [Zum Seitenanfang ^](#wiki)

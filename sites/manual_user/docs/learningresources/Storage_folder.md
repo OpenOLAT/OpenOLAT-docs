@@ -34,7 +34,7 @@ As soon as the checkbox is activated, the path for other files of the storage fo
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [What measures can I take to reduce storage space consumption? >](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.md)<br>
 [Course Element "Folder" >](Course_Element_Folder.md)<br>

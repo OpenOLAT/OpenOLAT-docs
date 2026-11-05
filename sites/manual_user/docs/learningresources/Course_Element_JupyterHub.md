@@ -33,7 +33,7 @@ Depending on how the hub is set up, the tab also shows an "Info text", the butto
 
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Jupyter.org >](https://jupyter.org/hub)<br>
-[Types of Course Elements >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Course Element "LTI Page" >](../learningresources/Course_Element_LTI_Page.md)
 
 [To the top of the page ^](#jupyterhub)

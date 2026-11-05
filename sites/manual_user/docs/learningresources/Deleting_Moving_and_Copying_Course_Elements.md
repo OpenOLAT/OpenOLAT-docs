@@ -56,7 +56,7 @@ You decide the time when the changes appear in the current course. All users who
 
 **Further information**<br>
 [Course elements in the Course editor >](General_Configuration_of_Course_Elements.md)<br>
-[Types of Course Elements >](Course_Elements.md)
+[Course elements at a glance >](Course_Elements.md)
 
 [To the top of the page ^](#deleting-moving-and-copying-course-elements)
 

@@ -72,7 +72,7 @@ Independently of changing the usage, you can use the course's tools menu to crea
 [Learning path course - Overview >](Learning_path_course.md)<br>
 [Learning path course - Participant view >](Learning_path_course_Participant_view.md)<br>
 [General Information >](General_Information.md)<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Creating learning path courses >](Creating_learning_path_courses.md)<br>
 [Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Save (a course) as template >](Course_Copy_Template.md)

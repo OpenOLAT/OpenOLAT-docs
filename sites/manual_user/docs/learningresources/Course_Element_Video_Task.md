@@ -250,7 +250,7 @@ In the tab "Participants", owners and coaches of the course see the results of e
 ## Further information {: #further_information}
 
 [Learning resource: Video >](../../manual_user/learningresources/Learning_resource_Video.md)<br>
-[Types of Course Elements >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements.md)<br>
 [Course Element "Video" >](../../manual_user/learningresources/Course_Element_Video.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)
 

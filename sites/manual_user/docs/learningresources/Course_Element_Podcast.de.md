@@ -38,7 +38,7 @@ Alle angemeldeten Personen, die den Podcast sehen, kommentieren die Episoden und
 
 [Podcast konfigurieren >](../learningresources/Podcast_Configuration.de.md)<br>
 [Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
-[Kursbausteine >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Kursbaustein "Blog" >](Course_Element_Blog.de.md)
 
 [Zum Seitenanfang ^](#podcast)
