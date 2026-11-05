@@ -6,6 +6,7 @@ Weitere Informationen zum Standard finden Sie [hier](https://www.imsglobal.org/a
 ## Tab "Konfiguration" {: #tab_config}
 
 * Hier schalten Sie Badges für die gesamte Instanz Ihres OpenOlat ein/aus.
+* Unter "Verifizierung" legen Sie fest, wie sich die Echtheit der Badges Ihrer Instanz prüfen lässt. Bei "Hosted" holt die Prüfung die Angaben des Badges von Ihrer OpenOlat-Instanz ab. Bei "Signed" trägt jeder vergebene Badge zusätzlich eine digitale Signatur, die belegt, dass er von Ihrer Instanz stammt und unverändert ist. Voreingestellt ist "Hosted". Die Einstellung gilt für Badges, die Sie danach erstellen. Bestehende Badges behalten ihre Methode, auch in neuen Versionen. [:octicons-tag-16:{ title="ab Release 20.1 (OO-8288)" }](https://track.frentix.com/issue/OO-8288)
 * Ausserdem können LinkedIn-Organisationen, die Badges verwenden, hier hinzugefügt werden.
 
 ![OpenBadges eingeschaltet, darunter die noch leere Liste der LinkedIn-Organisationen und der Button LinkedIn-Organisation hinzufügen](assets/badges_global_config_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration in der Administration OpenBadges" }
@@ -14,7 +15,7 @@ Weitere Informationen zum Standard finden Sie [hier](https://www.imsglobal.org/a
 
 ---
 
-## Tab "Vorlagen" {: #tab_templates}
+## Tab "Vorlagen" {: #tab-templates}
 
 Ein Standardset von Vorlagen ist bereits auf der OpenOlat Instanz vorbereitet. 
 
@@ -44,16 +45,16 @@ Der Anwendungsbereich legt fest, ob ein Badge global (für das Ausstellen in der
 
 ---
 
-## Tab "Globale Badges" {: #tab_global_badges}
+## Tab "Globale Badges" {: #global_badges}
 
-Globale Badges können in einem separaten Tab eingesehen werden, ebenso ihr Status (aktiv / in Vorbereitung) und ob sie bereits vergeben wurden. Sie können auch bearbeitet und gelöscht werden. Globale Badges sind nicht an einen Kurs gebunden.
+Globale Badges können in einem separaten Tab eingesehen werden, ebenso ihr Status ("Vorbereitung", "Aktiv" oder "Widerrufen") und ob sie bereits vergeben wurden. Sie können auch bearbeitet und gelöscht werden. Globale Badges sind nicht an einen Kurs gebunden.
 
 ![Liste der globalen Badges mit Bild, Name, Status und Anzahl Vergaben, darunter der Button Globalen Badge hinzufügen](assets/badges_global_tab_globalBadges_v2_de.png){ class="shadow lightbox" title="Tab Globale Badges in der Administration OpenBadges" }
 
 
 ### Erstellen und Bearbeiten eines globalen Badges
 
-Im Tab "Globale Badges" befindet sich auch der Button "Globalen Badge hinzufügen". Er startet den Wizard mit den folgenden Schritten:
+Mit dem Button "Einen neuen Badge erstellen" über der Tabelle im Tab "Globale Badges" starten Sie den Wizard mit den folgenden Schritten:
 
 1. **Bild**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. OpenOlat unterstützt die Bildformate SVG und PNG. Für ein eigenes Bild wählen Sie "Eigener Badge" und laden die Datei hoch.
 ![Eigener Badge gewählt, darunter das Feld zum Hochladen der Datei, daneben die Vorlagen der Kategorie Motivation](assets/badges-wizard_step1_v2_de.png){ class="shadow lightbox" title="Schritt Bild im Wizard für globale Badges" }
@@ -91,7 +92,7 @@ Die automatische Vergabe wird während des Erstellens im Wizard eingerichtet.
 
 ---
 
-## Tab "Vergebene globale Badges" {: #tab_awarded}
+## Tab "Vergebene globale Badges" {: #tab-awarded-global-badges}
 
 In diesem Tab werden vergebene **globale Badges** aufgelistet. (Die Kurs-Badges sind hier nicht enthalten.)
 
@@ -113,7 +114,7 @@ In diesem Tab werden vergebene **globale Badges** aufgelistet. (Die Kurs-Badges 
 
 ## Tab "Verifizierung" {: #verification}
 
-Im Tab "Verifizierung" kann eine Badge-Datei hochgeladen werden. (Sie kann einfach per Drag&drop in ein Feld gezogen werden.) Nach Klick auf den Button "Badge verifizieren" prüft OpenOlat, ob es sich um einen rechtmässig ausgestellen Badge handelt.
+Im Tab "Verifizierung" kann eine Badge-Datei hochgeladen werden. (Sie kann einfach per Drag&drop in ein Feld gezogen werden.) Nach Klick auf den Button "Verify badge" prüft OpenOlat, ob es sich um einen rechtmässig ausgestellten Badge handelt.
 
 [Zum Seitenanfang ^](#badges)
 
