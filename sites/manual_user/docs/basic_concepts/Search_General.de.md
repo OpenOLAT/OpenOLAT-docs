@@ -22,13 +22,19 @@ Was eine Suche findet, hängt davon ab, wo Sie sie starten. Je nach Ausgangspunk
 
 ## Volltextsuche [:octicons-tag-16:{ title="ab Release 20.1 (OO-8767)" }](https://track.frentix.com/issue/OO-8767) {: #full_text_search}
 
-Die globale Suche arbeitet mit der Volltextsuche. Mit ihr suchen Sie in den Inhalten von Kursen, Gruppen und Lernressourcen nach Ihren Suchbegriffen, beispielsweise in Forumsbeiträgen, Wiki-Seiten und in Dateien aus Ordnern. Die Volltextsuche erfasst die Dateiformate PDF, HTML, TXT, Word, PowerPoint und Excel. Personendaten wie Profile oder Visitenkarten indexiert sie nicht.
+Mit der Volltextsuche finden Sie einen Begriff in ganz OpenOlat, auch im Text von Dokumenten. Sie sucht in den Inhalten von Kursen, Gruppen und Lernressourcen, beispielsweise in Forumsbeiträgen, Wiki-Seiten und in Dateien aus Ordnern. Die globale Suche arbeitet mit der Volltextsuche: Klicken Sie oben rechts in der Hauptnavigation auf das Lupen-Symbol, geben Sie einen Suchbegriff ein und bestätigen Sie mit der Eingabetaste. Die Treffer erscheinen im Dialog "Volltextsuche". Die Volltextsuche erfasst die Dateiformate PDF, HTML, TXT, Word, PowerPoint und Excel. Personendaten wie Profile oder Visitenkarten indexiert sie nicht.
 
-![Trefferliste zum Suchbegriff e-learning mit hervorgehobenen Fundstellen, Angabe des Fundorts je Treffer und dem Link Erweiterte Suche](assets/generelle_Suche.png){ class="shadow lightbox" title="Dialog Volltextsuche" }
+Das Lupen-Symbol erscheint, wenn die Suche für Ihre OpenOlat-Instanz eingeschaltet ist, siehe [Globale Suche](Search_Global.de.md#activation).
+
+Liegt ein Treffer in einem Kurs, nennt die Zeile "in:" unter seinem Titel den Kurs als Fundort. Mit "mehr Details..." unter einem Treffer klappen Sie weitere Angaben auf, etwa Autor:in, letzte Änderung, Typ und Beschreibung. Über der Trefferliste blendet der Link "Ohne Suchbegriffe" die Textausschnitte mit den hervorgehobenen Suchbegriffen aus, der Link "Mit Suchbegriffen" blendet sie wieder ein.
+
+![Trefferliste im Dialog Volltextsuche zum Suchbegriff Handbuch, markiert ist ein Treffer, dessen Zeile in: den Kurs als Fundort nennt](assets/search_general_full_text_results_v1_de.png){ class="shadow lightbox" title="Dialog Volltextsuche · 2026.11.06" }
 
 !!! info "Wichtig"
 
     Sie finden über die Volltextsuche immer nur diejenigen Kursinhalte, auf die Sie eine Zugriffsberechtigung haben.
+
+Nur innerhalb eines Kurses suchen Sie mit der Kurssuche in der Toolbar des Kurses, siehe [Suche in einem Kurs](Search_in_Course.de.md).
 
 [zum Seitenanfang ^](#search_general)
 
@@ -38,15 +44,19 @@ Die globale Suche arbeitet mit der Volltextsuche. Mit ihr suchen Sie in den Inha
 
 Liefert die Volltextsuche zu viele Treffer, verfeinern Sie die Suche mit der erweiterten Suche. Sie öffnen sie im Dialog "Volltextsuche" mit dem Link "Erweiterte Suche" unter dem Suchfeld.
 
-![Link Erweiterte Suche unterhalb des Suchfelds](assets/full_text_search_advanced_link_DE.png){ class="shadow lightbox" title="Dialog Volltextsuche" }
+![Suchfeld im Dialog Volltextsuche und direkt darunter der Link Erweiterte Suche, beide markiert](assets/search_general_advanced_search_link_v1_de.png){ class="shadow lightbox" title="Dialog Volltextsuche · 2026.11.06" }
 
-![Formular der erweiterten Suche mit den Feldern Volltextsuche, Autor, Titel, Beschreibung, Erstellungsdatum, Letzte Änderung, Dokumententyp, Lizenz und Metadaten](assets/full_text_search_advanced_DE.png){ class="shadow lightbox" title="Erweiterte Suche im Dialog Volltextsuche" }
+![Formular der erweiterten Suche mit allen Feldern von Volltextsuche bis Metadaten, ausgefüllt sind Volltextsuche und Titel](assets/search_general_advanced_search_form_v1_de.png){ class="shadow lightbox" title="Erweiterte Suche im Dialog Volltextsuche · 2026.11.06" }
 
-In der erweiterten Suche stehen die Felder Volltextsuche, Autor:in, Titel, Beschreibung, Erstellungsdatum, Letzte Änderung, Dokumententyp, Lizenz und Metadaten zur Verfügung. Die Suchfelder sind mit dem booleschen AND-Operator verknüpft. Füllen Sie zum Beispiel die Felder "Titel" und "Autor:in" aus, findet die Suche nur Dokumente, die beide Begriffe im jeweiligen Feld enthalten.
+In der erweiterten Suche stehen die Felder "Volltextsuche", "Autor:in", "Titel", "Beschreibung", "Erstellungsdatum", "Letzte Änderung", "Dokumententyp", "Lizenz" und "Metadaten" zur Verfügung. Das Feld "Lizenz" erscheint, wenn auf Ihrer OpenOlat-Instanz Lizenzen eingeschaltet sind. Im Feld "Dokumententyp" wählen Sie einen oder mehrere Typen aus, zum Beispiel "PDF-Datei" oder "Forum". Steht dort "alle", sucht die erweiterte Suche in allen Typen.
+
+Die Suchfelder sind mit dem booleschen AND-Operator verknüpft. Füllen Sie zum Beispiel die Felder "Titel" und "Autor:in" aus, findet die Suche nur Dokumente, die beide Begriffe im jeweiligen Feld enthalten.
 
 Ausnahme: Das Feld "Volltextsuche" sucht über alle Felder.
 
 Aus der Ergebnisliste können Sie direkt auf den Lerninhalt mit dem gefundenen Suchbegriff springen.
+
+Mit dem Link "Einfache Suche" unter dem Formular wechseln Sie zurück zum einzelnen Suchfeld.
 
 [zum Seitenanfang ^](#search_general)
 

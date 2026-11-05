@@ -22,13 +22,19 @@ What a search finds depends on where you start it. Depending on the starting poi
 
 ## Full-text search [:octicons-tag-16:{ title="from Release 20.1 (OO-8767)" }](https://track.frentix.com/issue/OO-8767) {: #full_text_search}
 
-The global search works with the full-text search. With it, you search the content of courses, groups and learning resources for your search terms, for example in forum posts, wiki pages and in files from folders. The full-text search covers the file formats PDF, HTML, TXT, Word, PowerPoint and Excel. It does not index personal data such as profiles or visiting cards.
+With the full-text search, you find a term anywhere in OpenOlat, including the text of documents. It searches the content of courses, groups and learning resources, for example forum posts, wiki pages and files from folders. The global search works with the full-text search: click the magnifying glass icon at the top right of the main navigation, enter a search term and confirm with the Enter key. The hits appear in the dialog "Full-text search". The full-text search covers the file formats PDF, HTML, TXT, Word, PowerPoint and Excel. It does not index personal data such as profiles or visiting cards.
 
-![Result list for the search term e-learning with highlighted hits, the location of each hit and the link Advanced search](assets/generelle_Suche.en.png){ class="shadow lightbox" title="Dialog Full-text search" }
+The magnifying glass icon appears when the search is switched on for your OpenOlat instance, see [Global search](Search_Global.md#activation).
+
+If a hit lies in a course, the line "in:" below its title names the course as the location. With "more details..." below a hit, you expand further information, such as author, last modification, type and description. Above the result list, the link "Without search keys" hides the text excerpts with the highlighted search terms, and the link "With search keys" shows them again.
+
+![Result list in the dialog Full-text search for the search term Handbuch, marked is a hit whose line in: names the course as the location](assets/search_general_full_text_results_v1_en.png){ class="shadow lightbox" title="Dialog Full-text search · 2026.11.06" }
 
 !!! info "Important"
 
     Using the full-text search, you will only ever find the course content to which you have access.
+
+To search only within one course, use the course search in the toolbar of the course, see [Search in a course](Search_in_Course.md).
 
 [To the top of the page ^](#search_general)
 
@@ -38,15 +44,19 @@ The global search works with the full-text search. With it, you search the conte
 
 If the full-text search returns too many hits, refine it with the advanced search. You open it in the dialog "Full-text search" with the link "Advanced search" below the search field.
 
-![Link Advanced search below the search field](assets/full_text_search_advanced_link_EN.png){ class="shadow lightbox" title="Dialog Full-text search" }
+![Search field in the dialog Full-text search and directly below it the link Advanced search, both marked](assets/search_general_advanced_search_link_v1_en.png){ class="shadow lightbox" title="Dialog Full-text search · 2026.11.06" }
 
-![Form of the advanced search with the fields Full-text search, Author, Title, Description, Creation date, Last modification, Document type, License and Meta data](assets/full_text_search_advanced.png){ class="shadow lightbox" title="Advanced search in the dialog Full-text search" }
+![Form of the advanced search with all fields from Full-text search to Meta data, with Full-text search and Title filled in](assets/search_general_advanced_search_form_v1_en.png){ class="shadow lightbox" title="Advanced search in the dialog Full-text search · 2026.11.06" }
 
-The advanced search offers the fields Full-text search, Author, Title, Description, Creation date, Last modification, Document type, License and Meta data. The search fields are linked with the Boolean AND operator. If you fill in the fields "Title" and "Author", for example, the search only finds documents that contain both terms in the respective field.
+The advanced search offers the fields "Full-text search", "Author", "Title", "Description", "Creation date", "Last modification", "Document type", "License" and "Meta data". The field "License" appears when licenses are switched on for your OpenOlat instance. In the field "Document type", you select one or more types, for example "PDF file" or "Forum". If it shows "all", the advanced search covers all types.
+
+The search fields are linked with the Boolean AND operator. If you fill in the fields "Title" and "Author", for example, the search only finds documents that contain both terms in the respective field.
 
 Exception: The field "Full-text search" searches across all fields.
 
 From the result list, you can jump directly to the learning content with the search term found.
+
+With the link "Simple search" below the form, you switch back to the single search field.
 
 [To the top of the page ^](#search_general)
 

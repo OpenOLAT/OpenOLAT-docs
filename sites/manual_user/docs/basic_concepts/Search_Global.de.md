@@ -15,6 +15,8 @@ In den Suchergebnissen der globalen Suche erscheinen:
 
 * Daten / Dokumente aus Kursen, in denen man selbst Mitglied ist und auf die man als Kursmitglied auch Zugriff hat
 * Daten / Dokumente aus Kursen, die unter `Kurs > Administration > Einstellungen > Freigabe` wie folgt konfiguriert sind: "Ohne Buchung" oder "Frei verfügbar"
+* Daten / Dokumente aus Gruppen, in denen man selbst Mitglied ist
+* Dokumente aus dem Dokumentenpool und der Bibliothek, auf die man Zugriff hat
 
 Personendaten wie Profile, Visitenkarten oder persönliche Ordner werden nicht indexiert und erscheinen nicht in den Suchergebnissen.
 

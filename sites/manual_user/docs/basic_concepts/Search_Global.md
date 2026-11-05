@@ -15,6 +15,8 @@ The search results of the global search contain:
 
 * Data / documents from courses in which you are a member and to which you also have access as a course member
 * Data / documents from courses that are configured as follows under `Course > Administration > Settings > Share`: "Without booking" or "Freely available"
+* Data / documents from groups in which you are a member
+* Documents from the document pool and the library to which you have access
 
 Personal data such as profiles, visiting cards or personal folders is not indexed and does not appear in the search results.
 
