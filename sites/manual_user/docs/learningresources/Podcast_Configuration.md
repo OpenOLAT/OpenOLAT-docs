@@ -61,7 +61,7 @@ The advanced permission configuration allows you to further differentiate the se
 
 !!! warning "Attention"
 
-        Please observe the upload and storage limits set by the OpenOlat administrators and upload files that are as small as possible.
+    Please observe the upload and storage limits (quota) that system administrators set for podcasts, and upload files that are as small as possible.
 
 When the course editor is closed, the podcast episodes provided and, if activated in the course editor, the information stored in the learning resource (title, description, image) are displayed.
 

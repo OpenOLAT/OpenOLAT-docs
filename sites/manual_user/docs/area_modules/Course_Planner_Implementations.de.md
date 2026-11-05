@@ -34,7 +34,7 @@ Häufig verwendete Filterkombinationen speichern Sie mit "Filter speichern" als 
 
 ![Das Menü der drei Punkte rechts neben den Filtern enthält die Aktion Filter speichern, mit der eine Filterkombination als eigene Voreinstellung erhalten bleibt](assets/course_planner_implementations_list_filter_v2_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner · 2026.10.09" }
 
-Über "Spalten auswählen" blenden Sie zusätzlich die standardmässig ausgeblendeten Spalten "Fachbereiche" und "Fachbereich Pfade" ein, zwischen den Spalten "Status" und "Kalender". Die Fachbereiche selbst pflegen Administrator:innen in der System-Administration unter `Administration > Module > Taxonomie`. [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
+Über "Spalten auswählen" blenden Sie zusätzlich die standardmässig ausgeblendeten Spalten "Fachbereiche" und "Fachbereich Pfade" ein, zwischen den Spalten "Status" und "Kalender". Die Fachbereiche selbst pflegen Systemadministrator:innen in der System-Administration unter `Administration > Module > Taxonomie`. [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
 ### Sammelaktion "Typ ändern" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
@@ -290,7 +290,7 @@ Im Kursbereich, im Gruppenbereich sowie direkt auf der Infoseite des Kurses oder
 
     Ob eine Bestätigung durch die eingeladenen Personen erforderlich ist, hängt von der Konfiguration der Reservierungspflicht ab. Details dazu finden Sie im Abschnitt zur Bestätigung der Mitgliedschaft weiter unten.
 
-Für Administrator:innen: [Systemweite Konfiguration der Einladung >](../../manual_admin/administration/Modules_Groups.de.md#accept_membership)
+Für Systemadministrator:innen: [Systemweite Konfiguration der Einladung >](../../manual_admin/administration/Modules_Groups.de.md#accept_membership)
 
 <br>
 
@@ -447,7 +447,7 @@ Mit den Angaben im Tab "Infos" bestimmen Sie, wie sich die Durchführung im Kata
 In den Anzeigeeinstellungen unterscheidet sich die Durchführung in drei Punkten vom Kurs:
 
 - **Gliederung**: Die Option zeigt auf der Infoseite den Aufbau der Durchführung mit ihren Elementen. Sie steht zur Wahl, wenn der Elementtyp Unterelemente zulässt. Ein Kurs hat diese Option nicht.
-- **Kreditpunkte**: Die Option steht zur Wahl, sobald Administrator:innen die [Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) eingeschaltet haben; "Termine" und "Zertifikat" stehen immer zur Wahl. Ist "Kreditpunkte" gewählt, erscheint darunter das Pflichtfeld "Kreditpunkte": Dort geben Sie die Anzahl ein und wählen das Kreditpunktesystem.
+- **Kreditpunkte**: Die Option steht zur Wahl, sobald Systemadministrator:innen die [Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) eingeschaltet haben; "Termine" und "Zertifikat" stehen immer zur Wahl. Ist "Kreditpunkte" gewählt, erscheint darunter das Pflichtfeld "Kreditpunkte": Dort geben Sie die Anzahl ein und wählen das Kreditpunktesystem.
 - **Standardeinstellungen**: Eine neue Durchführung startet mit den [Standardeinstellungen aus dem Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md#default_settings). Wählen Sie "Lernen Sie Ihre Dozent:innen kennen" neu aus, sind die dort festgelegten Rollen vorgewählt.
 
 ![Fünf Optionen von Gliederung bis Kreditpunkte, die Rollen mit ihrer Personenzahl und das Feld Kreditpunkte mit Anzahl und Kreditpunktesystem](assets/course_planner_implementations_tab_settings_infos_v3_de.png){ class="shadow lightbox" title="Unter-Tab Infos der Einstellungen einer Durchführung · 2026.10.09" }
@@ -479,12 +479,12 @@ Der Unter-Tab erscheint bei Elementen, deren Elementtyp die Verwendung "Durchfü
 
 Automatisierungsregeln werden auf zwei Ebenen definiert:
 
-* **Elementtyp-Ebene** in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`: Administrator:innen hinterlegen Standardregeln für jeden Elementtyp. Diese Regeln gelten als Vorlage für alle Elemente dieses Typs.
+* **Elementtyp-Ebene** in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`: Systemadministrator:innen hinterlegen Standardregeln für jeden Elementtyp. Diese Regeln gelten als Vorlage für alle Elemente dieses Typs.
 * **Element-Ebene** unter `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Einstellungen > Automatisierung`: Für jedes einzelne Element entscheiden Sie, ob die Regeln des Elementtyps übernommen oder individuell überschrieben werden sollen.
 
 Für das einzelne Element stehen zwei Modi zur Wahl:
 
-* **Vom Typ "Elementtyp" übernehmen**: Das Element verwendet die Standardregeln des Elementtyps. Die Beschriftung nennt den Namen des Typs und ob dort Regeln aktiv sind. Passen Administrator:innen die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
+* **Vom Typ "Elementtyp" übernehmen**: Das Element verwendet die Standardregeln des Elementtyps. Die Beschriftung nennt den Namen des Typs und ob dort Regeln aktiv sind. Passen Systemadministrator:innen die Vorlage an, wirkt sich das automatisch auf alle Elemente aus, die diesen Modus verwenden.
 * **Überschreiben**: Das Element verwendet abweichende, individuell konfigurierte Regeln, unabhängig vom Elementtyp.
 
 **Typen von Automatisierungsregeln:**

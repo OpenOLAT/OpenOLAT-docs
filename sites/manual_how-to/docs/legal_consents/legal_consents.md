@@ -80,14 +80,14 @@ Information about the OpenOlat platform's Terms of Use and Privacy Policy, as we
 
 ## Clarification 3: Rights within OpenOlat {: #rights}
 
-Within OpenOlat, you collaborate with many different people. These include administrative roles such as user administrators, learning resource administrators, and administrators, among others, who may have access to your course content and to information about the participants due to their roles.
+Within OpenOlat, you collaborate with many different people. These include administrative roles such as user managers, learning resource managers, and administrators, among others, who may have access to your course content and to information about the participants due to their roles.
 
 For part of this information, restrictions can be set in the system administration:<br>
 `Administration > Modules > Privacy`
 
 There you specify which system roles are allowed to view the administrative user properties, for example during account searches or in lists. Which user properties are considered administrative is configured in the user properties.
 
-If you have any questions, please contact your administrators.<br>
+If you have any questions, please contact your system administrators.<br>
 You can find more information here: [Data Protection Module (Administration) >](../../manual_admin/administration/Modules.md#data_privacy)
 
 [To the top of the page ^](#legal_consents)
@@ -157,11 +157,11 @@ When filling out a form, the information entered may require participants to acc
 If external tools are used, that is, programs that are not part of OpenOlat itself but are integrated into it, OpenOlat has no way of verifying whether data transmitted to these tools is stored elsewhere or used for other purposes.
 
 **Example: Office Programs**<br>
-For example, if Microsoft products such as Word, Excel, and PowerPoint are to be used and have been set up by administrators after obtaining the necessary licenses, users can collaborate on the same document. While collaborating, the files are stored on Microsoft servers and not in OpenOlat. You should simply be aware that this may have implications under data protection laws.
+For example, if Microsoft products such as Word, Excel, and PowerPoint are to be used and have been set up by system administrators after obtaining the necessary licenses, users can collaborate on the same document. While collaborating, the files are stored on Microsoft servers and not in OpenOlat. You should simply be aware that this may have implications under data protection laws.
 
 **Example: Course element External Page**<br>
 The course element "External Page" can transmit data about the current account to the external system via the HTTP header of the request in order to implement certain learning scenarios (username, email, first name, last name, and the user's current IP address).
-Administrators specify whether this data should be transmitted or not in the system administration under:<br>
+System administrators specify whether this data should be transmitted or not in the system administration under:<br>
 `Administration > Modules > External page`<br>
 Alternatively, this setting can also be configured under `Administration > Modules > Privacy`, in the section Data transmission within course element "external page".<br>
 However, OpenOlat has no control over what happens to this data on the external site.

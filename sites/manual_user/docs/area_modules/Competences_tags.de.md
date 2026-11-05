@@ -4,15 +4,15 @@ Mithilfe von Taxonomien können Kompetenzstrukturen aufgebaut werden, die zur Ve
 
 !!! info "Wichtig"
 
-    Damit die Taxonomie(n) im ePortfolio verfügbar sind, müssen diese von der OpenOlat [Administrator:in aktiviert](../../manual_admin/administration/eAssessment_ePortfolio.de.md) werden.
+    Damit die Taxonomie(n) im ePortfolio verfügbar sind, müssen Systemadministrator:innen sie in der System-Administration [aktivieren](../../manual_admin/administration/eAssessment_ePortfolio.de.md).
 
 In einem Portfolioeintrag stehen den Lernenden die aktivierten Taxonomien als Kompetenzen zur Verfügung und können über eine Vorschlagsliste ausgewählt werden.
 
-![Eingabefeld Kompetenzen in einem Portfolioeintrag mit den gewählten Kompetenzen Biologie, Flora und Gemüse und der Vorschlagsliste aus der Taxonomie, die zu jeder Ebene den Pfad anzeigt](assets/eP%20Kompetenz%20DE.png){ class="shadow lightbox" }
+![Eingabefeld Kompetenzen in einem Portfolioeintrag mit den gewählten Kompetenzen Biologie, Flora und Gemüse und der Vorschlagsliste aus der Taxonomie, die zu jeder Ebene den Pfad anzeigt](assets/eP%20Kompetenz%20DE.png){ class="shadow lightbox" title="Feld Kompetenzen in einem Portfolioeintrag" }
 
 Eine Übersicht über alle vergebenen Kompetenzen erhalten Lernende im persönlichen Menü unter `Persönliche Werkzeuge > Kompetenzen`.
 
-![Seite Meine Kompetenzen mit der Tabelle aller Kompetenzen nach Taxonomie, Anzeigename und Ebenentyp, rechts das persönliche Menü mit markiertem Eintrag Kompetenzen](assets/Kompetenz_uebersicht_de.png){ class="shadow lightbox" }
+![Seite Meine Kompetenzen mit der Tabelle aller Kompetenzen nach Taxonomie, Anzeigename und Ebenentyp, rechts das persönliche Menü mit markiertem Eintrag Kompetenzen](assets/Kompetenz_uebersicht_de.png){ class="shadow lightbox" title="Seite Meine Kompetenzen" }
 
 ## Weiterführende Informationen {: #further_information}
 

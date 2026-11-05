@@ -27,7 +27,7 @@ Wer ein externes Tool oder eine andere Plattform an OpenOlat anbinden will, sieh
 
 ## LTI aktivieren {: #activate_lti}
 
-Administrator:innen aktivieren LTI in der System-Administration unter `Administration > Externe Werkzeuge > LTI`, Tab "Konfiguration". Die Checkbox "Eingeschaltet" beim Feld Modul "LTI 1.3" steht an oberster Stelle. Erst danach lassen sich LTI-Verbindungen einrichten.
+Systemadministrator:innen aktivieren LTI in der System-Administration unter `Administration > Externe Werkzeuge > LTI`, Tab "Konfiguration". Die Checkbox "Eingeschaltet" beim Feld Modul "LTI 1.3" steht an oberster Stelle. Erst danach lassen sich LTI-Verbindungen einrichten.
 
 ![Markierter Menüeintrag LTI unter Externe Werkzeuge und markierte Checkbox Eingeschaltet beim Modul LTI 1.3](assets/LTI_admin_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration der Seite LTI in der System-Administration · 2026.10.07" }
 
@@ -59,7 +59,7 @@ Ja, wenn OpenOlat das Tool ist. Eine externe Plattform sendet oft für mehrere K
 
 **Wer kann Deployments hinzufügen?** [:octicons-tag-16:{ title="ab Release 17.0 (OO-6300)" }](https://track.frentix.com/issue/OO-6300)
 
-Administrator:innen bestimmen im Tab "Konfiguration" unter `Administration > Externe Werkzeuge > LTI`, wer Deployments hinzufügen darf. Die Einstellung gibt es getrennt für Kurse und für Gruppen.
+Systemadministrator:innen bestimmen in der System-Administration im Tab "Konfiguration" unter `Administration > Externe Werkzeuge > LTI`, wer Deployments hinzufügen darf. Die Einstellung gibt es getrennt für Kurse und für Gruppen.
 
 **Kurs**
 

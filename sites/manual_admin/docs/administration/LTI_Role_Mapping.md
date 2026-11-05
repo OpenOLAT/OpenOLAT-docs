@@ -1,6 +1,6 @@
 # LTI - Role mapping [:octicons-tag-16:{ title="from Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003) {: #LTI_role_mapping}
 
-When an external tool is launched, OpenOlat sends the LTI roles of the launching person along. Which LTI roles a person receives depends on their course role. Course owners define this mapping in the course editor, in the [course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md), tab "Page content". Administrators limit in the system administration which LTI roles course owners can choose from, and set the default values for new course elements.
+When an external tool is launched, OpenOlat sends the LTI roles of the launching person along. Which LTI roles a person receives depends on their course role. Course owners define this mapping in the course editor, in the [course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md), tab "Page content". System administrators limit in the system administration which LTI roles course owners can choose from, and set the default values for new course elements.
 
 ## Mapping in the course editor {: #course_editor}
 
@@ -8,13 +8,16 @@ In the tab "Page content", course owners assign one or more of the six LTI roles
 
 LTI roles that the system administration has not released are greyed out for course owners. Administrators and learning resource managers of the organisation to which the course is assigned can assign all LTI roles. In the following example, the LTI role "Administrator" is locked for all three course roles:
 
-![Column Administrator greyed out and highlighted for the three course roles, the other five LTI roles remain selectable, in the tab Page content of the course element LTI Page in the course editor](assets/LTI_role_mapping_course_element_editor_admin_disabled_v1_en.png){ class="shadow lightbox" }
+![Column Administrator greyed out and highlighted for the three course roles, the other five LTI roles remain selectable, in the tab Page content of the course element LTI Page in the course editor](assets/LTI_role_mapping_course_element_editor_admin_disabled_v1_en.png){ class="shadow lightbox" title="Tab Page content of the course element LTI Page" }
 
 When the course element is launched, OpenOlat sends the LTI roles to the tool together with the deployment ID and the other configured attributes, for example the e-mail address.
 
 ## Settings in the system administration {: #administration}
 
-Administrators define the limits and default values in the system administration under `Administration > External tools > LTI`, tab "Role mapping":
+!!! info "frentix customers"
+    The default values for the role mapping are part of the server configuration and apply after a change only from the next restart of OpenOlat. For frentix customers, their customer advisor at frentix takes care of the change.
+
+System administrators define the limits and default values in the system administration under `Administration > External tools > LTI`, tab "Role mapping":
 
 | Field | Note |
 |---|---|
@@ -23,27 +26,11 @@ Administrators define the limits and default values in the system administration
 | Default settings for coaches | The preselection for the course role coach. |
 | Default settings for participants | The preselection for the course role participant. |
 
-![Configurable by course owner without Administrator, below it the default settings per course role, in the tab Role mapping on the page LTI in the system administration](assets/LTI_role_mapping_admin_v1_en.png){ class="shadow lightbox" }
+![Configurable by course owner without the LTI role Administrator, below it the default settings per course role, in the tab Role mapping on the page LTI in the system administration](assets/LTI_role_mapping_admin_v1_en.png){ class="shadow lightbox" title="Tab Role mapping on the page LTI" }
 
-The default values are stored in the file `olat.properties`:
+The default values come from the server configuration. In the standard configuration, course owners may assign all LTI roles except "Administrator". A new course element preselects "Instructor", "Administrator", "Teaching assistant", "Content developer" and "Mentor" for the course role owner, "Instructor", "Teaching assistant" and "Mentor" for the course role coach, and "Learner" for the course role participant.
 
-```
-# LTI roles (capitalized) that can be assigned to users based on their OpenOlat roles in the course editor by the course owner.
-lti13.roles.configurable.by.course.owner=LEARNER,INSTRUCTOR,TEACHING_ASSISTANT,CONTENT_DEVELOPER,MENTOR
-
-# The following is an exhaustive list of possible values for the field above:
-lti13.roles.configurable.by.course.owner.values=LEARNER,INSTRUCTOR,ADMINISTRATOR,TEACHING_ASSISTANT,CONTENT_DEVELOPER,MENTOR
-
-# Default LTI roles for given OpenOlat roles in courses:
-lti13.default.role.settings.for.owners=INSTRUCTOR,ADMINISTRATOR,TEACHING_ASSISTANT,CONTENT_DEVELOPER,MENTOR
-lti13.default.role.settings.for.coaches=INSTRUCTOR,TEACHING_ASSISTANT,MENTOR
-lti13.default.role.settings.for.participants=LEARNER
-
-# The following is an exhaustive list of possible values for the fields above:
-lti13.default.role.settings.for.xxx.values=LEARNER,INSTRUCTOR,ADMINISTRATOR,TEACHING_ASSISTANT,CONTENT_DEVELOPER,MENTOR
-```
-
-To change the default values, enter the corresponding properties in the file `olat.local.properties` or adjust the values directly in the tab "Role mapping". The values in `olat.local.properties` override `olat.properties`, and the settings in the tab "Role mapping" override `olat.local.properties`.
+What you save in the tab "Role mapping" takes precedence over the server configuration. The tab is therefore sufficient for the adjustment.
 
 ## Further information {: #further_information}
 

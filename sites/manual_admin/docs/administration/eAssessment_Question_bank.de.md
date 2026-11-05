@@ -1,6 +1,6 @@
 # e-Assessment Administration: Fragenpool {: #question_bank}
 
-Mit den Einstellungen des Fragenpools bestimmen Administrator:innen, welche Funktionen Autor:innen im Fragenpool nutzen: Listen, Pools, Gruppen, Fachbereiche, Stufen und auf Wunsch einen Beurteilungsprozess für Fragen. Die Einstellungen gelten für die ganze Plattform und liegen in der System-Administration unter:<br>
+Mit den Einstellungen des Fragenpools bestimmen Systemadministrator:innen, welche Funktionen Autor:innen im Fragenpool nutzen: Listen, Pools, Gruppen, Fachbereiche, Stufen und auf Wunsch einen Beurteilungsprozess für Fragen. Die Einstellungen gelten für die ganze Plattform und liegen in der System-Administration unter:<br>
 `Administration > e-Assessment > Fragenpool`
 
 Einige der Einstellungen bearbeiten auch Poolverwalter:innen in der [Administration der Poolverwalter:innen](../../manual_user/area_modules/Question_Bank_Administration.de.md).

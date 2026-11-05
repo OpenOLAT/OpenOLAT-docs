@@ -177,12 +177,12 @@ Wenn Sie in einem Ordner auf eine HTML-Datei klicken, öffnet OpenOlat sie je na
 
 Die Vorschau in der Lightbox liefert die Datei über eine eigene Inhaltsdomäne aus, also über eine zweite Webadresse neben der Adresse, unter der Sie OpenOlat aufrufen. HTML-Code und Skripte aus der Datei erhalten so keinen Zugriff auf die OpenOlat-Sitzung (Session) der Person, die die Datei ansieht.
 
-Die Vorschau in der Lightbox setzt eine Inhaltsdomäne voraus, die Administrator:innen eingerichtet haben. Ohne Inhaltsdomäne öffnet sich eine HTML-Datei auch bei reinem Leserecht in einem neuen Browserfenster. Wie die Inhaltsdomäne eingerichtet wird, beschreibt der englischsprachige [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
+Die Vorschau in der Lightbox setzt eine Inhaltsdomäne voraus. Die Inhaltsdomäne ist Teil der Serverkonfiguration; für die Einrichtung wenden Sie sich an Ihre Organisation. Ohne Inhaltsdomäne öffnet sich eine HTML-Datei auch bei reinem Leserecht in einem neuen Browserfenster. Wie die Inhaltsdomäne eingerichtet wird, beschreibt der englischsprachige [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
 
 
 ## Papierkorb [:octicons-tag-16:{ title="ab Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #paper_basket}
 
-Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelöscht werden. Die Verbleibdauer im Papierkorb und das automatische Löschen wird von Administrator:innen eingerichtet.
+Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelöscht werden. Die Verbleibdauer im Papierkorb und das automatische Löschen legen Systemadministrator:innen in der System-Administration fest: `Administration > Core-Konfiguration > Dateien und Ordner`.
 
 !!! note "Hinweis"
 

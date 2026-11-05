@@ -23,7 +23,7 @@ Basically 3 categories of badges can be acquired:
 
 * **Badges for a course**<br> (for passing the course or fulfilling the conditions set out there)
 * **Badges for a specific course element**<br> (like course badges, with a condition for a specific course element, [see list of course elements with badges](#create_for_course_elements))
-* and **global badges**<br> (cross-course, can only be created by administrators) 
+* and **global badges**<br> (cross-course, can only be created by system administrators) 
 
 Global badges are independent of courses. Other badges relate to a specific course element or course. The same badge cannot be awarded in different places, e.g. for different course elements.
 
@@ -73,16 +73,16 @@ The selection for "Course element passed" and "Course element score" contains th
 ## How are global badges awarded? [:octicons-tag-16:{ title="from Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #award_a_global-badge}
 
 Global badges can also be assigned manually or automatically based on defined rules.
-However, both manual assignment and the definition of rules for the automatic assignment of global badges can only be carried out by [administrators](../../manual_admin/administration/e-Assessment_openBadges.md).
+However, both manual assignment and the definition of rules for the automatic assignment of global badges can only be carried out by [system administrators](../../manual_admin/administration/e-Assessment_openBadges.md).
 
 ### Assign global badges manually
 
-Global badges can be assigned manually by administrators in the system administration under<br>
+Global badges can be assigned manually by system administrators in the system administration under<br>
 `Administration > e-Assessment > OpenBadges > "Global Badges" tab > Button "Award manually"`
 
 ### Global badges assigned automatically
 
-Administrators can set up the rules for automatic assignment in the system administration under<br>
+System administrators can set up the rules for automatic assignment in the system administration under<br>
 `Administration > e-Assessment > OpenBadges > "Global Badges" tab`<br>
 If the badge tool for creating a global badge is called up there, the rules can be specified in the wizard.
 
@@ -224,7 +224,7 @@ LinkedIn allows you to display certificates and badges in your personal profile.
 
 ## Verify the authenticity of a badge {: #verification}
 
-Administrators can upload a badge file, and OpenOlat will then verify whether it is a validly issued badge.
+System administrators can upload a badge file in the system administration, and OpenOlat will then verify whether it is a validly issued badge.
 
 In addition to host-based verification, badges can also be digitally signed. A digitally signed badge shows a "Verified" label in the badge view. [:octicons-tag-16:{ title="from Release 20.1 (OO-8288)" }](https://track.frentix.com/issue/OO-8288)
 

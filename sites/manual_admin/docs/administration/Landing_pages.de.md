@@ -1,6 +1,6 @@
 # Startseite {: #landing_pages}
 
-Nach dem Login öffnet OpenOlat jeder Person eine Startseite. Mit Regeln legen Administrator:innen fest, welche Startseite das für welche Benutzer:innen ist, damit jede Person dort beginnt, wo sie arbeitet. Sie finden die Einstellung in der System-Administration unter:<br>
+Nach dem Login öffnet OpenOlat jeder Person eine Startseite. Mit Regeln legen Systemadministrator:innen fest, welche Startseite das für welche Benutzer:innen ist, damit jede Person dort beginnt, wo sie arbeitet. Sie finden die Einstellung in der System-Administration unter:<br>
 `Administration > Core-Konfiguration > Startseite`
 
 Sie grenzen die Benutzer:innen anhand der Rolle, eines Benutzer:innen-Attributs oder beider ein und weisen ihnen dann über die Spalten "Startseite" und "Auswahl" die passende Startseite zu. Sie können so viele Regeln wie nötig erstellen. OpenOlat wendet immer die zuerst zutreffende Regel an. Die Regeln sind voneinander unabhängig und müssen nicht alle zutreffen, nur die Reihenfolge entscheidet.

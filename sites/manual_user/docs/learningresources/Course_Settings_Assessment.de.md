@@ -182,7 +182,7 @@ Wenn Sie die Funktion ausschalten, sehen Ihre Teilnehmenden keine Leistungsnachw
 
 ![Eingeschalteter Schalter Kreditpunkte ausstellen mit Kreditpunktesystem, vergebenen Kreditpunkten und überschriebener Gültigkeitsdauer](assets/course_settings_assessment_credit_points_v3_de.png){ class="shadow lightbox" title="Abschnitt Kreditpunkte · 2026.10.09" }
 
-Ist "Kreditpunkte ausstellen" eingeschaltet, werden den Teilnehmer:innen nach Bestehen des Kurses automatisch Kreditpunkte gutgeschrieben. Dazu können verschiedene (von Administrator:innen definierte) Kreditpunktesysteme gewählt werden.
+Ist "Kreditpunkte ausstellen" eingeschaltet, werden den Teilnehmer:innen nach Bestehen des Kurses automatisch Kreditpunkte gutgeschrieben. Dazu wählen Sie ein Kreditpunktesystem. Die Kreditpunktesysteme legen Systemadministrator:innen in der System-Administration an, unter `Administration > e-Assessment > Kreditpunkte`.
 
 Als Kursbesitzer:in bestimmen Sie, wie viele Kreditpunkte vergeben werden, wenn dieser Kurs bestanden wird.<br>
 Hat das gewählte Kreditpunktesystem eine Gültigkeitsdauer, übernimmt der Kurs sie mit der Option "Vom Kreditpunktesystem übernehmen". Mit "Überschreiben" legen Sie für diesen Kurs eine eigene Gültigkeitsdauer fest.
@@ -227,7 +227,7 @@ Eine manuelle Vergabe von Badges durch Kursbesitzer:innen ist immer möglich, Be
 Weitere Infos zu Badges finden Sie hier:<br> 
 [Infos für Kursbesitzer:innen (Erstellen und Bearbeiten von Badges) >](../learningresources/OpenBadges.de.md)<br>
 [Infos für Benutzer:innen (Badges bei den "Persönlichen Werkzeugen") >](../personal_menu/OpenBadges.de.md)<br> 
-[Infos für OpenOlat Administrator:innen >](../../manual_admin/administration/e-Assessment_openBadges.de.md)
+[Infos für Systemadministrator:innen >](../../manual_admin/administration/e-Assessment_openBadges.de.md)
 
 [Zum Seitenanfang ^](#tab_assessment)
 

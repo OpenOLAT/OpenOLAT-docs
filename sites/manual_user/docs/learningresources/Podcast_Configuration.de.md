@@ -60,7 +60,7 @@ Das **Recht zum Erstellen von Beiträgen** gilt nur für interne OpenOlat Podcas
 
 !!! warning "Achtung"
 
-    Beachten Sie die von den OpenOlat Administrator:innen festgelegten Upload- und Speichergrenzen und laden Sie möglichst kleine Dateien hoch.
+    Beachten Sie die Upload- und Speichergrenzen (Quota), die Systemadministrator:innen für Podcasts festlegen, und laden Sie möglichst kleine Dateien hoch.
 
 Ist der Kurseditor geschlossen, werden die bereitgestellten Podcast-Episoden sowie, sofern im Kurseditor aktiviert, die in der Lernressource hinterlegten Informationen (Titel, Beschreibung, Bild) angezeigt.
 

@@ -2,7 +2,7 @@
 
 ![Aufgeklapptes Menü Module in der System-Administration, jeder Eintrag der Liste entspricht einem Abschnitt dieser Seite](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
-In diesem Bereich haben Administrator:innen Zugriff auf die Module:
+In diesem Bereich haben Systemadministrator:innen Zugriff auf die Module:
 
 
 
@@ -165,7 +165,7 @@ Hier kann definiert werden, ob Autor:innen und Benutzer:innen ohne zusätzliche 
 
 Um den **Datenschutzanforderungen** gerecht zu werden, kann festgelegt werden, ob bei einer Einladung von Benutzer:innen in Kurse und Gruppen **eine E-Mail versendet werden muss, ob die Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch die eingeladenen Benutzer:innen *bestätigt* werden muss**.
 
-Administrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
+Systemadministrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
 
 [Zu den Details >](Modules_Groups.de.md)<br>
 [Zum Seitenanfang ^](#modules)
@@ -191,7 +191,7 @@ Hier nehmen Sie die Aktivierung des Menüs "Bibliothek" und Wahl des zugehörige
 
 ## Forum {: #forum}
 
-Administrator:innen können hier definieren, ob pseudonymisierte Forenbeiträge erlaubt sind und auch die passende Standardkonfiguration für Foren festlegen.
+Systemadministrator:innen können hier definieren, ob pseudonymisierte Forenbeiträge erlaubt sind und auch die passende Standardkonfiguration für Foren festlegen.
 
 [Zum Seitenanfang ^](#modules)
 
@@ -199,7 +199,7 @@ Administrator:innen können hier definieren, ob pseudonymisierte Forenbeiträge 
 
 ## Kurs {: #course}
 
-Wenn Autor:innen neue Kurse erstellen, finden Sie Voreinstellungen vor, die durch Administrator:innen hier festgelegt werden.
+Wenn Autor:innen neue Kurse erstellen, finden sie Voreinstellungen vor, die Systemadministrator:innen hier festlegen.
 
 * Im Tab "Einstellungen" legen Sie fest, welcher Kurstyp bei neuen Kursen voreingestellt ist, Lernpfad oder herkömmlicher Kurs. Auch Einstellungen für bewertbare Kursbausteine können hier vorgenommen werden. 
 * Im Tab "Durchführungsformate" können neue Durchführungsformate definiert und vorhandene bearbeitet oder

@@ -21,7 +21,7 @@ The toolbar above the header area holds two actions. "Export data" starts the ex
 
 OpenOlat keeps each user account on its own; accounts cannot be merged. What a person has achieved in OpenOlat, that is course memberships, test results, evidence of achievements, certificates and badges, remains permanently linked to the account on which it was created. This keeps every record unambiguously assigned to one login and verifiable later on, and personal data stays limited to a single account.
 
-If the option "Unique" is activated in the system administration, no two accounts with the same email address are created. You find the option in the section "User email address" under:<br>
+If the option "Unique" is activated in the system administration, no two accounts with the same email address are created. System administrators find the option in the section "User email address" under:<br>
 `Administration > Core functions > E-mail`, segment "Settings", see [Email Settings](../administration/E-Mail_Settings.md#email_address).
 
 !!! tip "Two accounts of the same person"
@@ -100,7 +100,7 @@ This section shows how the system-wide automatic user lifecycle affects this acc
 
 Besides the number of days, both periods also name the date on which the step falls due.
 
-"Days until inactivation" only appears when the toggle "Deactivate user after inactivity" is active, "Days until deletion" only when the toggle "Delete inactive user" is active. You find both toggles in the system administration under:<br>
+"Days until inactivation" only appears when the toggle "Deactivate user after inactivity" is active, "Days until deletion" only when the toggle "Delete inactive user" is active. System administrators find both toggles in the system administration under:<br>
 `Administration > Life cycles > User`
 
 If the toggles are off, no automatic process takes effect and the periods are omitted.
@@ -145,7 +145,7 @@ If an invitation link has already been sent, a message shows its validity period
 
 If the person already has a password, the "Local OpenOlat Authentication" section shows the actions "Reset password" and "Send password link". With "Reset password" you set a new password directly, "Send password link" sends the person a link with which they reset it themselves. These two actions are available only to administrators and user managers. Roles managers send the invitation link, deactivate it and create login credentials; only for invited accounts do they also reset an existing password or send a password link.
 
-You define how long an invitation link remains valid in the system administration in the section "Validity period of the login data":<br>
+System administrators define how long an invitation link remains valid in the system administration in the section "Validity period of the login data":<br>
 `Administration > Login > Self-registration`, tab "Configuration", see [Self-registration](../administration/Login_Self-Registration.md#tab_configuration).
 
 ![Six steps from sending the invitation link to the saved login credentials, split across the administrating role, OpenOlat and the person](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" title="Flow with the invitation link" }

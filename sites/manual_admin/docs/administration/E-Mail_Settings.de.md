@@ -37,7 +37,7 @@ OpenOlat verfügt über ein internes Postfach, das alle in OpenOlat gesendeten u
   * Ist das OpenOlat Postfach ausgeschaltet, so werden alle in OpenOlat erstellten E-Mails ausschliesslich an die persönliche E-Mail-Adresse versandt. Das OpenOlat Postfach ist in den persönlichen Werkzeugen nicht sichtbar.
   * Ist das OpenOlat Postfach eingeschaltet, so werden alle empfangenen und gesendeten E-Mails im persönlichen Postfach jeder Person aufgelistet.
 
-Unter "Standardeinstellung für E-Mail Versand" legen Sie als Administrator:in das Standardverhalten fest:
+Unter "Standardeinstellung für E-Mail Versand" legen Sie als Systemadministrator:in das Standardverhalten fest:
 
   * "E-Mails an das interne OpenOlat Postfach zustellen"
   * "E-Mails an das interne OpenOlat Postfach und die persönliche E-Mail Adresse zustellen"

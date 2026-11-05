@@ -182,7 +182,7 @@ The button appears only for the course element Task and only if the assignment o
 
 !!! info "Note"
 
-    The options displayed in the Workflow tab and selectable by the author can be preconfigured by the administrator. See Admin manual, `Modules > Course elements`
+    System administrators can preconfigure the options displayed in the Workflow tab and selectable by the author in the system administration: `Administration > Modules > Course elements`
 
 
 [To the top of the page ^](#create_task)
@@ -203,7 +203,7 @@ In general, each task file should have a suitable title and possibly a short des
 
 **b) Create files in different formats**
 
-Create files directly in OpenOlat. Exactly which formats are available depends on which have been activated by the OpenOlat administration. In most cases, at least one HTML editor is available. But it is also possible to create Word, Excel, PowerPoint and diagrams or whiteboards. In addition, a specific video task or an audio task can also be created.
+Create files directly in OpenOlat. Exactly which formats are available depends on which editors system administrators have activated in the system administration. In most cases, at least one HTML editor is available. But it is also possible to create Word, Excel, PowerPoint and diagrams or whiteboards. In addition, a specific video task or an audio task can also be created.
 
 If a task is created with the internal OpenOlat HTML editor, multiple files such as images or PDF files can be provided by first uploading them in the HTML editor and then linking them in the corresponding html page. Such a task will then be downloaded in .zip file format as well. If the HTML editor is used, the stored title is automatically used as the file name. However, this can be changed at any time.
 
@@ -255,7 +255,7 @@ The following options are available in the "Submission" tab:
 
 **"Submit with OpenOlat editor"**: Participants create documents directly in the course element. By default, an HTML editor is available for this. If other document editors are integrated in OpenOlat, they can also create documents in other formats such as Word or Excel, as well as draw.io diagrams.
 
-Activate "Task is template for submission" if learners are to use the stored task file as the basis for their work, for example if the task contains a pre-structured table to be filled in. The prerequisite is that this option has been enabled by the OpenOlat administrators.
+Activate "Assignment is template for submission" if learners are to use the stored task file as the basis for their work, for example if the task contains a pre-structured table to be filled in.
 
 ![In the step Task submission, the task file is already provided as a document; participants edit it and transmit it with "Final task submission": course element Task in the participants' view](../assets/course_element_task_submission_template_v1_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
 
@@ -308,7 +308,7 @@ A form with a rubric can also be used for the assessment. The points can then be
 
 In the field "Scoring" you define whether OpenOlat calculates the points "Automatic" from the selected sources or whether they are entered "Manually by coaches".
 
-If scoring has been activated, the minimum and maximum number of points must be specified. You can then also select the "Assessment with grading/marks" option and configure it further. The respective points can be assigned specific evaluation scales such as levels, grades, (competence) levels or labels. The available rating scales are defined by the OpenOlat administrator and can be selected via the "Edit rating scale" button and the points can be adjusted in detail. You also define whether coaches assign the calculated classification manually or whether OpenOlat displays it automatically when the points change.
+If scoring has been activated, the minimum and maximum number of points must be specified. You can then also select the "Assessment with grading/marks" option and configure it further. The respective points can be assigned specific evaluation scales such as levels, grades, (competence) levels or labels. System administrators define the available rating systems in the system administration: `Administration > e-Assessment > Levels/Grading`. Via the "Edit rating scale" button you select a rating system and adjust the points in detail. You also define whether coaches assign the calculated classification manually or whether OpenOlat displays it automatically when the points change.
 
 ### Total score from ...
 

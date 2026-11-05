@@ -5,7 +5,7 @@ Ein Bildungsprodukt fasst mehrere Kurse und/oder Kursdurchführungen zu einem ü
 
 Als Betreuer:in können Sie auch für Bildungsprodukte zuständig sein, die aus mehreren Kursen und/oder aus mehreren Durchführungen bestehen. Eine Übersicht über alle Bildungsprodukte, in denen Sie Betreuer:in sind, erhalten Sie im Coaching Tool über den Button "Bildungsprodukte".
 
-![Markierter Button Bildungsprodukte in der Gruppe Coaching führt zu den Durchführungen, die Sie betreuen, auf der Einstiegsseite Coaching.](assets/coaching_educational_products1_v1_de.png){ class="shadow lightbox" }
+![Markierter Button Bildungsprodukte in der Gruppe Coaching führt zu den Durchführungen, die Sie betreuen, auf der Einstiegsseite Coaching.](assets/coaching_educational_products1_v1_de.png){ class="shadow lightbox" title="Einstiegsseite des Coachings" }
 
 
 ## Woher kommt ein Bildungsprodukt? {: #origin}
@@ -27,7 +27,7 @@ Im Coaching Tool arbeiten Sie mit dem Ergebnis dieser Planung. Sie sehen die Dur
 
 Der Button erscheint, wenn beide Bedingungen erfüllt sind:
 
-* Administrator:innen haben das [Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md) aktiviert.
+* Systemadministrator:innen haben das [Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md) aktiviert.
 * Sie sind in mindestens einem Kurs Betreuer:in oder Besitzer:in.
 
 Welche Bedingungen den Zugang zum Coaching Tool insgesamt steuern, zeigt der Abschnitt [Wann ist das Coaching Tool verfügbar?](../area_modules/Coaching.de.md#availability).
@@ -40,7 +40,7 @@ Welche Bedingungen den Zugang zum Coaching Tool insgesamt steuern, zeigt der Abs
 
 Die Liste zeigt Ihre Durchführungen. Die Spalte "Produkt" nennt zu jeder Durchführung das Bildungsprodukt, zu dem sie gehört. Wählen Sie im ersten Schritt eine Durchführung aus.
 
-![Fünf Filter-Tabs über der Liste, je Zeile eine Durchführung mit Kennzeichen, Produkt, Beginn und Ende, in den Bildungsprodukten des Coaching Tools.](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" }
+![Fünf Filter-Tabs über der Liste, je Zeile eine Durchführung mit Kennzeichen, Produkt, Beginn und Ende, in den Bildungsprodukten des Coaching Tools.](assets/coaching_educational_products2_v1_de.png){ class="shadow lightbox" title="Liste der Bildungsprodukte im Coaching" }
 
 Als Betreuer:in oder Kursbesitzer:in begegnet Ihnen dieselbe Liste an einer zweiten Stelle: unter `Coaching > Personen > "Person" > Bildungsprodukte` sehen Sie die Durchführungen einer einzelnen Person. Diese Liste arbeitet mit derselben Filterlogik. Der Tab "Favoriten" fehlt dort, weil Sie eine Durchführung nur in Ihrer eigenen Liste markieren können.
 
@@ -67,7 +67,7 @@ Mit dem Menü "Filter" grenzen Sie zusätzlich nach Produkt, Status und Durchfü
 
 Welche Spalten die Liste zeigt, bestimmen Sie über das Zahnrad-Icon rechts über der Liste. Ihre Auswahl bleibt für Ihr Konto gespeichert.
 
-![Nur die Spalten ID und Status sind nicht angekreuzt, im geöffneten Dialog Spalten auswählen in den Bildungsprodukten des Coaching Tools.](assets/coaching_educational_products_columns_v1_de.png){ class="shadow lightbox" }
+![Nur die Spalten ID und Status sind nicht angekreuzt, im geöffneten Dialog Spalten auswählen in den Bildungsprodukten des Coaching Tools.](assets/coaching_educational_products_columns_v1_de.png){ class="shadow lightbox" title="Dialog Spalten auswählen der Bildungsprodukte" }
 
 * **Favorit**<br>Die Flagge, mit der Sie eine Durchführung markieren. Markierte Durchführungen erreichen Sie über den Tab "Favoriten".
 * **ID**<br>Die Nummer, unter der OpenOlat die Durchführung führt. Nützlich für Rückfragen an den Support. Diese Spalte ist zu Beginn ausgeblendet.
@@ -88,7 +88,7 @@ In den anderen Bereichen weicht die Spaltenwahl ab. Die Benutzerverwaltung zeigt
 
 Durch Klick auf einen Namen öffnen Sie die Baumstruktur dieser Durchführung.
 
-![Baumstruktur der enthaltenen Kurse mit den Spalten Infoseite und Öffnen, darüber der Button Mehr erfahren, in einer geöffneten Durchführung.](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" }
+![Baumstruktur der enthaltenen Kurse mit den Spalten Infoseite und Öffnen, darüber der Button Mehr erfahren, in einer geöffneten Durchführung.](assets/coaching_educational_products3_v1_de.png){ class="shadow lightbox" title="Struktur einer Durchführung im Coaching" }
 
 Sie können nun durch Klick auf eines der Elemente im Produkt dieses **direkt öffnen** und von dort weiter navigieren. Der Link "Öffnen" startet den Kurs, der Link "Infoseite" zeigt die [Infoseite des Kurses](../learningresources/Info_page.de.md).
 
@@ -106,7 +106,7 @@ Zwei der Tabs heissen fast gleich, beantworten aber verschiedene Fragen:
 * **"Vorbereitung" in der Liste der Durchführungen**<br>Was kommt auf mich zu? Sie sehen die Durchführungen, die noch nicht laufen, und können sie vorbereiten, bevor Teilnehmende dazukommen.
 * **"In Vorbereitung" in der Struktur**<br>Ist diese Durchführung startbereit? Sie sehen, welche Teile noch nicht freigegeben sind. Was hier erscheint, sehen Teilnehmende noch nicht.
 
-![Zwei Filterleisten untereinander, je mit Menüpfad: oben die Tabs der Durchführungsliste mit Vorbereitung, unten die Tabs der Struktur mit In Vorbereitung.](assets/coaching_educational_products_filter_levels_v1_de.png){ class="shadow lightbox" }
+![Zwei Filterleisten untereinander, je mit Menüpfad: oben die Tabs der Durchführungsliste mit Vorbereitung, unten die Tabs der Struktur mit In Vorbereitung.](assets/coaching_educational_products_filter_levels_v1_de.png){ class="shadow lightbox" title="Filter-Tabs der Liste und der Struktur" }
 
 Das Bild zeigt nur die beiden Filterleisten. Die vollständigen Ansichten finden Sie weiter oben: die Durchführungsliste im Abschnitt [Was zeigt die Liste?](#list), die geöffnete Durchführung im Abschnitt [Die Struktur einer Durchführung](#structure).
 

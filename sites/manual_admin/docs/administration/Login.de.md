@@ -5,7 +5,7 @@
 
 ![Konfigurationsmenü Login in der System-Administration mit den Bereichen Sicherheit, Passwort und Authentifizierung, Cloud-Login, Anonyme und externe Benutzer:innen, Selbstregistration und SMS](assets/admin_login_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
-Wie sich Benutzer:innen bei OpenOlat anmelden und selbst registrieren, legen Administrator:innen und Systemadministrator:innen im nebenstehenden Menü der System-Administration fest:<br>
+Wie sich Benutzer:innen bei OpenOlat anmelden und selbst registrieren, legen Systemadministrator:innen im nebenstehenden Menü der System-Administration fest:<br>
 `Administration > Login`
 
 ## Steckbrief
@@ -38,7 +38,7 @@ Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte nich
 
 ## Cloud-Login [:octicons-tag-16:{ title="ab Release 10.1 (OO-729)" }](https://track.frentix.com/issue/OO-729) {: #cloud_login}
 
-Damit sich Benutzer:innen mit dem Konto eines anderen Dienstes anmelden können, verbinden Sie OpenOlat hier mit sozialen Netzwerken wie LinkedIn, X, Google und Facebook oder mit Microsoft Azure AD, Microsoft ADFS, Keycloak, Switch edu-ID und Datenlotsen. Weitere Provider binden Sie mit "OAuth 2.0 Provider hinzufügen" oder "OAuth 2.0 Provider mit Discovery URL hinzufügen" an. Diese Anbindungen konfigurieren Administrator:innen und Systemadministrator:innen in der System-Administration unter:<br>
+Damit sich Benutzer:innen mit dem Konto eines anderen Dienstes anmelden können, verbinden Sie OpenOlat hier mit sozialen Netzwerken wie LinkedIn, X, Google und Facebook oder mit Microsoft Azure AD, Microsoft ADFS, Keycloak, Switch edu-ID und Datenlotsen. Weitere Provider binden Sie mit "OAuth 2.0 Provider hinzufügen" oder "OAuth 2.0 Provider mit Discovery URL hinzufügen" an. Diese Anbindungen konfigurieren Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Login > Cloud-Login`
 
 ### OAuth 2.0 und OpenID Connect [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9287)" }](https://track.frentix.com/issue/OO-9287)
@@ -51,7 +51,7 @@ Aus Sicherheitsgründen unterstützt OpenOlat für OpenID-Connect- und OAuth-2.0
 
 ## Anonyme und externe Benutzer:innen [:octicons-tag-16:{ title="ab Release 10.2 (OO-1362)" }](https://track.frentix.com/issue/OO-1362) {: #anonymous_and_external}
 
-Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat von anonymen Gästen und externen Benutzer:innen genutzt werden kann.
+Systemadministrator:innen können festlegen, ob und in welchem Umfang OpenOlat von anonymen Gästen und externen Benutzer:innen genutzt werden kann.
 
 [Zu den Details >](../administration/Guest_and_invitation.de.md)<br>
 [Zum Seitenanfang ^](#login)
@@ -60,7 +60,7 @@ Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat von ano
 
 ## Selbstregistration [:octicons-tag-16:{ title="ab Release 8.1.1 (OO-226)" }](https://track.frentix.com/issue/OO-226) {: #self-registration}
 
-Hier können Administrator:innen die Selbstregistration aktivieren, sowie weitere Detaileinstellungen in diesem Kontext vornehmen. Login-Formulare können auch in externe Webseiten eingebaut werden. Ferner kann z.B. über das Feld "Gültigkeitsdauer der Logindaten" eingeschränkt werden, wie lange ein Konto aus der Selbstregistrierung gültig bleibt.
+Hier können Systemadministrator:innen die Selbstregistration aktivieren sowie weitere Detaileinstellungen in diesem Kontext vornehmen. Login-Formulare können auch in externe Webseiten eingebaut werden. Ferner kann z.B. über das Feld "Gültigkeitsdauer der Logindaten" eingeschränkt werden, wie lange ein Konto aus der Selbstregistrierung gültig bleibt.
 
 [Zu den Details >](../administration/Login_Self-Registration.de.md)<br>
 [Zum Seitenanfang ^](#login)

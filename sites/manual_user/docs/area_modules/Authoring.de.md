@@ -90,7 +90,7 @@ Die Spalte "Status" wird immer in folgender fester Reihenfolge sortiert: Vorbere
 
 ![Spalte Zeitabschnitt aufsteigend sortiert, zuerst nach Beginndatum, dann Einträge nur mit Enddatum, Einträge ohne Zeitabschnitt am Listenende](assets/authoring_sort_time_period_v1_de.png){ class="shadow lightbox" title="Spalte Zeitabschnitt in der Tabelle des Autorenbereichs · 2026.10.08" }
 
-Die verfügbaren Zeitabschnitte stellt die System-Administration bereit. Wie Administrator:innen Zeitabschnitte verwalten, beschreibt die Seite [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md).
+Die verfügbaren Zeitabschnitte stellt die System-Administration bereit. Wie Systemadministrator:innen Zeitabschnitte verwalten, beschreibt die Seite [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md).
 
 [Zum Seitenanfang ^](#authoring)
 

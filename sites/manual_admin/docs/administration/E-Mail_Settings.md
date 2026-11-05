@@ -37,7 +37,7 @@ OpenOlat has an internal inbox that lists all emails sent and received in OpenOl
   * If the OpenOlat inbox is switched off, all emails created in OpenOlat are sent exclusively to the personal email address. The OpenOlat inbox is not visible in the user tools.
   * If the OpenOlat inbox is switched on, all received and sent emails are listed in the personal inbox of each person.
 
-Under "Standard settings for e-mail sending" you define the default behaviour as an administrator:
+Under "Standard settings for e-mail sending" you define the default behaviour as a system administrator:
 
   * "Send e-mails to the internal OLAT inbox"
   * "Send e-Mails to the internal OLAT inbox and the personal e-mail address"

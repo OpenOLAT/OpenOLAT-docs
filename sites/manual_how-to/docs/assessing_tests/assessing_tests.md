@@ -218,7 +218,7 @@ In the assessment form for the individual question, you assign the points, write
 
 ![Answer to an essay question and below it its assessment form with score, comment and Mark for review](assets/assessing_tests_correction_tool_process2_v2_en.png){ class="shadow lightbox" title="Assessment form of a single question in the correction tool · 2026.10.02" }
 
-Whether the correction tool shows the names of the participants or the "Participant identifier" instead is set by administrators in the system administration: `Administration > e-Assessment > Test > Tab "Correction"`. The anonymous display with the participant identifier is preset. Find out more: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.md#tab_correction)
+Whether the correction tool shows the names of the participants or the "Participant identifier" instead is set by system administrators in the system administration: `Administration > e-Assessment > Test > Tab "Correction"`. The anonymous display with the participant identifier is preset. Find out more: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.md#tab_correction)
 
 It is also possible to have tests graded anonymously in OpenOlat. You can learn more about this in the how-to guide [How do I correct a test anonymously in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)
 

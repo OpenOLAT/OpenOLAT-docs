@@ -16,7 +16,7 @@ Use the download icon to the right of the cogwheel to download all booking order
 
 You cannot cancel a booking or leave a course here. You cancel a booking on the info page of the implementation, which you open via the catalog: `Catalog > "Your implementation" > Learn more > Box "Get started" > Cancel booking`. When the button appears is described in [Info page: Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking). You leave a course in the box "My course" of its info page, see [Info page: Leave course](../learningresources/General_Functions_Infopage.md#leave_course).
 
-If the offer type "Invoice" is enabled, the additional tab "Billing addresses" appears. There you see the billing addresses stored for your bookings. [Administrators](../../manual_admin/administration/Modules_Organisations.md) maintain the billing addresses of organisations.
+If the offer type "Invoice" is enabled, the additional tab "Billing addresses" appears. There you see the billing addresses stored for your bookings. [System administrators](../../manual_admin/administration/Modules_Organisations.md) maintain the billing addresses of organisations.
 
 The option to book also appears in the [catalog](../area_modules/catalog2.0_angebote.md#offers_create), provided that the corresponding offer has been published there. The booking process is described in [Catalog 2.0 - Offers](../area_modules/catalog2.0_angebote.md#offer_booking).
 

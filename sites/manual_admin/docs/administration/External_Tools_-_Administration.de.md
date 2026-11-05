@@ -1,6 +1,6 @@
 # Externe Werkzeuge: Übersicht {: #ext_tools}
 
-Im Menü "Externe Werkzeuge" schalten die OpenOlat-Administrator:innen diverse externe Werkzeuge ein und aus (z.B. mehrere virtuelle Klassenzimmer) und richten je nach Werkzeug bestimmte Basiseinstellungen ein, die systemweit gelten. Das Menü liegt in der System-Administration unter: `Administration > Externe Werkzeuge`
+Im Menü "Externe Werkzeuge" schalten Systemadministrator:innen diverse externe Werkzeuge ein und aus (z.B. mehrere virtuelle Klassenzimmer) und richten je nach Werkzeug bestimmte Basiseinstellungen ein, die systemweit gelten. Das Menü liegt in der System-Administration unter: `Administration > Externe Werkzeuge`
 
 ## Steckbrief
 
@@ -36,7 +36,7 @@ Wenn das Modul eingeschaltet und die Zugangsdaten zum OpenMeetings-Server korrek
   * In Kursen mit dem Kursbaustein OpenMeetings. Jeder Kursbaustein erzeugt einen entsprechenden Raum auf dem OpenMeetings-Server.
   * In Gruppen mit dem Gruppenwerkzeug OpenMeetings. Jede Gruppe hat ihren eigenen OpenMeetings-Raum zur Verfügung der wie alle anderen Gruppenwerkzeuge verwendet werden kann.
 
-Im Tab "Räume" erhalten Administrator:innen einen Überblick über die in OpenOlat
+Im Tab "Räume" erhalten Systemadministrator:innen einen Überblick über die in OpenOlat
 angelegten OpenMeetings-Räume.
 
 [Zum Seitenanfang ^](#ext_tools)
@@ -133,8 +133,7 @@ Lizenz verfügen und in der System-Administration die Zugangsdaten für das Web
 Service API eintragen, unter:<br>
 `Administration > Externe Werkzeuge > vitero`
 
-Die folgenden Angaben erhalten Sie von Ihren vitero- oder
-OpenOlat-Administrator:innen: "URL vitero Server", "Web Service Anmeldename",
+Die folgenden Angaben erhalten Sie von vitero: "URL vitero Server", "Web Service Anmeldename",
 "Web Service Passwort" und "Kundenidentifikator".
 
 Unter "Zeitzone OLAT Server" stellen Sie die Zeitzone Ihres OpenOlat-Systems

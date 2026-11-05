@@ -1,8 +1,8 @@
 # Taxonomy {: #taxonomy_concept}
 
-Many organisations sort their offering by disciplines, topics or competences: courses in the catalog, questions in the question bank, media in the Media Center. Without a shared order, every area keeps its own keywords, and the same thing has a different name in every place. A taxonomy defines this order once, centrally. Administrators then decide in the system administration for each area which taxonomy applies there.
+Many organisations sort their offering by disciplines, topics or competences: courses in the catalog, questions in the question bank, media in the Media Center. Without a shared order, every area keeps its own keywords, and the same thing has a different name in every place. A taxonomy defines this order once, centrally. System administrators then decide in the system administration for each area which taxonomy applies there.
 
-This page explains how a taxonomy is structured and how it takes effect: on courses, implementations, questions and media as a subject, in the catalog as launcher and filter, on people as a competence. How you use a taxonomy in a single area is described on the pages of that area. Administrators set up taxonomies in the system administration.
+This page explains how a taxonomy is structured and how it takes effect: on courses, implementations, questions and media as a subject, in the catalog as launcher and filter, on people as a competence. How you use a taxonomy in a single area is described on the pages of that area. System administrators set up taxonomies in the system administration.
 
 
 ## What is a taxonomy? {: #what_is_a_taxonomy}
@@ -38,7 +38,7 @@ Anyone who sets up a taxonomy or uses it in an area comes across four terms that
 
     If a taxonomy level is attached to a learning resource, an implementation, a question or a media item, it is called a subject there. A subject is therefore not a separate structure, but a taxonomy level on an object.
 
-![Administrators create taxonomy levels, authors select them on the object as a subject](assets/taxonomy_concept_subject_flow_v1_en.svg){ class="shadow lightbox" title="From creating the taxonomy level to the subject · 2026.10.08" }
+![System administrators create taxonomy levels, authors select them on the object as a subject](assets/taxonomy_concept_subject_flow_v2_en.svg){ class="shadow lightbox" title="From creating the taxonomy level to the subject · 2026.11.05" }
 
 [To the top of the page ^](#taxonomy_concept)
 
@@ -50,9 +50,9 @@ Anyone who maintains a taxonomy once uses each of its taxonomy levels in two pla
 - **On objects** it is called a subject. Authors assign courses, questions and media to subjects, course planners the implementations. Through the subjects, people find offers in the catalog, narrow down lists with filters and evaluate results.
 - **On people** it is called a competence. A competence shows whether a person aims for, masters, teaches or manages a discipline. In the question bank, it opens the access to the subjects.
 
-In which areas a taxonomy takes effect is defined by administrators per area, see [Where taxonomy takes effect](#areas). Regardless of this, a person sees their competences in the user tools under "Competences", from all taxonomies.
+In which areas a taxonomy takes effect is defined by system administrators per area, see [Where taxonomy takes effect](#areas). Regardless of this, a person sees their competences in the user tools under "Competences", from all taxonomies.
 
-![A taxonomy level takes effect on objects as a subject and on people as a competence](assets/taxonomy_concept_how_it_works_v1_en.svg){ class="shadow lightbox" title="Subject and competence · 2026.10.08" }
+![A taxonomy level takes effect on objects as a subject and on people as a competence](assets/taxonomy_concept_how_it_works_v2_en.svg){ class="shadow lightbox" title="Subject and competence · 2026.11.05" }
 
 [To the top of the page ^](#taxonomy_concept)
 
@@ -64,9 +64,9 @@ For subjects to be available for selection in an area, two steps are needed in t
 1. Create a taxonomy and create taxonomy levels in it, under `Administration > Modules > Taxonomy`. The question bank is the exception: for it, OpenOlat has already created the taxonomy "Question pool", initially without taxonomy levels, see [Question bank](#question_pool).
 2. Select the taxonomy in each area in which it is to take effect. Each area has its own setting for this, see table.
 
-If you see no subjects for selection in an area, administrators have not yet selected a taxonomy there. Which taxonomy is selected in which areas is shown in the overview in the system administration under `Administration > Modules > Taxonomy`, for example for the areas "Learning resources / Catalog" and "Course Planner". [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+If you see no subjects for selection in an area, system administrators have not yet selected a taxonomy there. Which taxonomy is selected in which areas is shown in the overview in the system administration under `Administration > Modules > Taxonomy`, for example for the areas "Learning resources / Catalog" and "Course Planner". [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
-| Area | What the taxonomy is used for | Where administrators select it in the system administration |
+| Area | What the taxonomy is used for | Where system administrators select it in the system administration |
 |---|---|---|
 | Learning resources / Catalog | Subjects of learning resources; launchers (sections of the catalog start page) and filters in the catalog | `Administration > Modules > Learning resource`, field "Taxonomy", several taxonomies possible |
 | Course Planner | Subjects of implementations and elements | `Administration > Modules > Course Planner`, field "Linked taxonomies", several taxonomies possible |
@@ -80,13 +80,13 @@ Three further functions have no setting of their own. They use the taxonomy of a
 - **Course element "Practice"**: It uses the taxonomy of the question bank.
 - **Quality management**: A data collection takes over the subjects of the course or of the element in the Course Planner it belongs to.
 
-![Five areas with their own taxonomy setting and three areas that take over their taxonomies](assets/taxonomy_concept_areas_v1_en.svg){ class="shadow lightbox" title="Areas in which a taxonomy takes effect · 2026.10.08" }
+![Five areas with their own taxonomy setting and three areas that take over their taxonomies](assets/taxonomy_concept_areas_v2_en.svg){ class="shadow lightbox" title="Areas in which a taxonomy takes effect · 2026.11.05" }
 
 The areas do not share their selection. What is selected for Learning resources / Catalog is not automatically available in the Course Planner. Anyone who wants to sort courses, implementations and media by the same disciplines selects the same taxonomy in each of these areas.
 
 Two areas behave differently:
 
-- <a id="question_pool"></a>**Question bank**: OpenOlat creates the taxonomy "Question pool" for the question bank. It is initially empty and cannot be replaced by another one. Its taxonomy levels are called subjects in the question bank. Administrators create them with "Create new taxonomy level" in three places: in the system administration under `Administration > Modules > Taxonomy` in the taxonomy "Question pool" and under `Administration > e-Assessment > Question bank` in the tab "Subjects", as well as in the question bank under `Question bank > Administration > Subject`. In the question bank, question bank managers may also do this if administrators allow them to edit the settings "Subjects". You can add new subjects at any time. In the other areas, the taxonomy "Question pool" is available for selection like any other taxonomy.
+- <a id="question_pool"></a>**Question bank**: OpenOlat creates the taxonomy "Question pool" for the question bank. It is initially empty and cannot be replaced by another one. Its taxonomy levels are called subjects in the question bank. With "Create new taxonomy level" they are created in three places: system administrators create them in the system administration under `Administration > Modules > Taxonomy` in the taxonomy "Question pool" and under `Administration > e-Assessment > Question bank` in the tab "Subjects", administrators in the question bank under `Question bank > Administration > Subject`. In the question bank, question bank managers may also do this if system administrators allow them to edit the settings "Subjects". You can add new subjects at any time. In the other areas, the taxonomy "Question pool" is available for selection like any other taxonomy.
 - **Media Center**: If the overview in the system administration under `Administration > Modules > Taxonomy` shows "disabled" for the Media Center, but media still receive subjects, no taxonomy is linked for the Media Center. It then uses the taxonomies of Learning resources / Catalog.
 
 [To the top of the page ^](#taxonomy_concept)
@@ -107,7 +107,7 @@ For an image in the Media Center, the AI can suggest the subject, see [automatic
 
 ## Launcher and microsite in the catalog [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6146)" }](https://track.frentix.com/issue/OO-6146){:target="_blank"} {: #launcher}
 
-In the catalog, the taxonomy becomes a navigation through which people find offers by discipline. The start page of the catalog consists of sections, the launchers. A launcher of the type "Taxonomy level" shows taxonomy levels as tiles. In the field "Type", administrators choose whether the launcher refers to a whole taxonomy or to a single taxonomy level. The launcher shows their direct sublevels, see [Module Catalog: Tab Launch page](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page).
+In the catalog, the taxonomy becomes a navigation through which people find offers by discipline. The start page of the catalog consists of sections, the launchers. A launcher of the type "Taxonomy level" shows taxonomy levels as tiles. In the field "Type", system administrators choose whether the launcher refers to a whole taxonomy or to a single taxonomy level. The launcher shows their direct sublevels, see [Module Catalog: Tab Launch page](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page).
 
 Clicking a tile opens the microsite of this taxonomy level. Its header shows the background image, the title of the level and, if the level has one, its level type. Below follow the description of the level, the tiles of its sublevels and the offers with this subject.
 
@@ -144,10 +144,10 @@ With subjects, you narrow long lists down to one discipline: in the catalog, in 
 
 ### Catalog [:octicons-tag-16:{ title="from Release 17.2.0 (OO-6326)" }](https://track.frentix.com/issue/OO-6326){:target="_blank"} {: #filters_catalog}
 
-In the catalog, people narrow the offers down to a subject with filters. Which filters the catalog shows is defined by administrators in the system administration under `Administration > Modules > Catalog` in the tab "Filters". For taxonomies, there are two filter types:
+In the catalog, people narrow the offers down to a subject with filters. Which filters the catalog shows is defined by system administrators in the system administration under `Administration > Modules > Catalog` in the tab "Filters". For taxonomies, there are two filter types:
 
 - **Taxonomy level**: The filter carries the title of a selected taxonomy level and offers all its sublevels for selection, including sublevels without an offer.
-- **Taxonomy sublevel**: The filter appears on a microsite as "Subjects" as soon as a sublevel of the opened taxonomy level has an offer. It offers the opened taxonomy level and the sublevels to which at least one offer is assigned. With the option "Show learning resource of taxonomy sublevels" in the field "Default", administrators define whether the microsite shows the offers of the sublevels from the start.
+- **Taxonomy sublevel**: The filter appears on a microsite as "Subjects" as soon as a sublevel of the opened taxonomy level has an offer. It offers the opened taxonomy level and the sublevels to which at least one offer is assigned. With the option "Show learning resource of taxonomy sublevels" in the field "Default", system administrators define whether the microsite shows the offers of the sublevels from the start.
 
 ![On the microsite Languages, the filter Subjects is open and offers Languages, English and German, next to it is the filter Languages of the type Taxonomy level](assets/taxonomy_concept_filter_catalog_v1_en.png){ class="shadow lightbox" title="Microsite of the taxonomy level Languages in the catalog · 2026.10.09" }
 
@@ -185,7 +185,7 @@ Which subjects a person sees in the question bank is determined by their Teach a
 
 Competences come about in three ways:
 
-- Administrators assign them in the system administration on a taxonomy level, the Manage competence in the tab "Management", the others in the tab "Competences": `Administration > Modules > Taxonomy > "Taxonomy title" > "Taxonomy level"`.
+- System administrators assign them in the system administration on a taxonomy level, the Manage competence in the tab "Management", the others in the tab "Competences": `Administration > Modules > Taxonomy > "Taxonomy title" > "Taxonomy level"`. For the taxonomies of the catalog, administrators also do this in the [catalog management](../area_modules/catalog2.0_mgmt.md), in the same tabs.
 - User managers, roles managers and administrators assign them to a person in the user management: `User management > "Person" > Tab "Competences"`.
 - The Have competence comes about in the ePortfolio as soon as a person assigns a competence to one of their entries.
 
@@ -195,7 +195,7 @@ Each person sees their own competences in the user tools under [Competences](../
 
 ### Competences in the ePortfolio [:octicons-tag-16:{ title="from Release 15.5.0 (OO-5178)" }](https://track.frentix.com/issue/OO-5178){:target="_blank"} {: #eportfolio}
 
-Anyone who wants to record in the ePortfolio which competences an entry belongs to assigns competences to it: in the header of the entry next to "Competences" via "Add" or "Edit", or under "Edit metadata" in the field "Competences". The selection list shows the taxonomy and the path of each taxonomy level. Available for selection from the linked taxonomies are the taxonomy levels whose level type carries the setting "Competences", as well as levels without a level type. The linking only takes effect once administrators activate the switch "Enable taxonomy linking" in the system administration under `Administration > e-Assessment > ePortfolio` and select at least one taxonomy. If competences disappear from portfolio entries, administrators have switched off the setting "Competences" on their level type. OpenOlat then removes all levels of this type from the entries.
+Anyone who wants to record in the ePortfolio which competences an entry belongs to assigns competences to it: in the header of the entry next to "Competences" via "Add" or "Edit", or under "Edit metadata" in the field "Competences". The selection list shows the taxonomy and the path of each taxonomy level. Available for selection from the linked taxonomies are the taxonomy levels whose level type carries the setting "Competences", as well as levels without a level type. The linking only takes effect once system administrators activate the switch "Enable taxonomy linking" in the system administration under `Administration > e-Assessment > ePortfolio` and select at least one taxonomy. If competences disappear from portfolio entries, administrators have switched off the setting "Competences" on their level type. OpenOlat then removes all levels of this type from the entries.
 
 ![In the dialog Edit metadata of a portfolio entry, English is selected in the field Competences, the selection list shows the taxonomy level under the taxonomy Fächer with the path SPRACHEN / ENGLISCH](assets/taxonomy_concept_eportfolio_v1_en.png){ class="shadow lightbox" title="ePortfolio, metadata of an entry · 2026.10.09" }
 
@@ -210,14 +210,14 @@ So that evidence of achievement from the Course Planner can be found sorted by d
 
 ## Setup {: #setup}
 
-How administrators create a taxonomy, create level types and taxonomy levels, assign competences and import taxonomies is described on the page [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md) in the administration manual. The selection of the taxonomy per area is described on the pages of the individual modules:
+How system administrators create a taxonomy, create level types and taxonomy levels, assign competences and import taxonomies is described on the page [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md) in the administration manual. The selection of the taxonomy per area is described on the pages of the individual modules:
 
 - [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md)
 - [Module Course Planner](../../manual_admin/administration/Modules_Course_Planner.md#linked_taxonomies)
 - [e-Assessment Administration: ePortfolio](../../manual_admin/administration/eAssessment_ePortfolio.md#taxonomy_linking)
 - [Module Media Center](../../manual_admin/administration/Modules_Media_Center.md#taxonomy)
 
-Administrators set up the launchers and filters of the catalog in the system administration under `Administration > Modules > Catalog`, see [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md).
+System administrators set up the launchers and filters of the catalog in the system administration under `Administration > Modules > Catalog`, see [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md).
 
 [To the top of the page ^](#taxonomy_concept)
 

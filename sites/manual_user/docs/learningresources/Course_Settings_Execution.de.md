@@ -15,7 +15,7 @@ Mit dem Durchführungszeitraum legen Sie fest, wann der Kurs stattfindet. Teilne
 
 * **Jederzeit**: Der Kurs ist an keinen Zeitraum gebunden. Die Infoseite zeigt keinen Durchführungszeitraum, und zeitabhängige Funktionen haben keinen Bezugspunkt.
 
-* **Zeitabschnitt**: Sie wählen einen vordefinierten Zeitabschnitt, zum Beispiel ein Semester, siehe den Abschnitt [Zeitabschnitt](#lifecycle). Die Option erscheint nur, wenn die Administration das Modul "Zeitabschnitte" eingeschaltet hat.
+* **Zeitabschnitt**: Sie wählen einen vordefinierten Zeitabschnitt, zum Beispiel ein Semester, siehe den Abschnitt [Zeitabschnitt](#lifecycle). Die Option erscheint nur, wenn Systemadministrator:innen das Modul "Zeitabschnitte" in der System-Administration eingeschaltet haben.
 
 * **Beginn- und Enddatum**: Im Feld "Zeitraum" tragen Sie das Beginn- und das Enddatum des Kurses ein. Der Endtag gehört zum Zeitraum. Bleibt eines der beiden Daten leer, zeigt die Infoseite "Ab" mit dem Beginndatum oder "Bis" mit dem Enddatum.
 
@@ -23,7 +23,7 @@ Mit dem Durchführungszeitraum legen Sie fest, wann der Kurs stattfindet. Teilne
 
 Der gewählte Durchführungszeitraum erscheint auf der Infoseite des Kurses unter "Fakten". 
 
-Dieselben Optionen bietet OpenOlat beim [Erstellen eines Kurses](Creating_Course.de.md) an, auch beim Erstellen aus einem Template, ausserdem im Assistenten ["Kopieren mit Wizard"](Course_Copy_Wizard.de.md) und für mehrere Kurse gleichzeitig in der Sammelaktion ["Metadaten und Einstellungen"](../area_modules/Authoring_BulkActions.de.md#metadata_settings) des Autorenbereichs. Welche Option beim Erstellen eines Kurses vorgewählt ist, legt die Administration fest, siehe [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#execution_period).
+Dieselben Optionen bietet OpenOlat beim [Erstellen eines Kurses](Creating_Course.de.md) an, auch beim Erstellen aus einem Template, ausserdem im Assistenten ["Kopieren mit Wizard"](Course_Copy_Wizard.de.md) und für mehrere Kurse gleichzeitig in der Sammelaktion ["Metadaten und Einstellungen"](../area_modules/Authoring_BulkActions.de.md#metadata_settings) des Autorenbereichs. Welche Option beim Erstellen eines Kurses vorgewählt ist, legen Systemadministrator:innen in der System-Administration fest, siehe [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#execution_period).
 
 !!! info "Wichtig"
 
@@ -33,7 +33,7 @@ Auf andere Funktionen im Kurs wirkt der Durchführungszeitraum dagegen:
 
 Wird "Beginn- und Enddatum" oder "Eintägig" gewählt, gelten die hier eingetragenen Daten auch für verschiedene zeitabhängige Funktionen im Kurs, zum Beispiel für Erinnerungen oder im Aufgabenbaustein beim automatischen Einziehen von Aufgaben. Bei "Eintägig" ist der Kurstag zugleich Beginn und Ende. 
 
-Das Enddatum des Durchführungszeitraums steuert auch den Kurs-Lebenszyklus. Was nach dem Enddatum geschieht, legen die OpenOlat-Administrator:innen fest. Zum Beispiel kann OpenOlat den Kurs 2 Tage nach dem Enddatum auf "Beendet" setzen oder ihn 4 Wochen danach löschen. Erkundigen Sie sich am besten, welche Einstellungen in Ihrer OpenOlat-Instanz für den Kurs-Lebenszyklus gelten. Die Konfiguration beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
+Das Enddatum des Durchführungszeitraums steuert auch den Kurs-Lebenszyklus. Was nach dem Enddatum geschieht, legen Systemadministrator:innen in der System-Administration fest. Zum Beispiel kann OpenOlat den Kurs 2 Tage nach dem Enddatum auf "Beendet" setzen oder ihn 4 Wochen danach löschen. Erkundigen Sie sich am besten, welche Einstellungen in Ihrer OpenOlat-Instanz für den Kurs-Lebenszyklus gelten. Die Konfiguration beschreibt das Administrationshandbuch unter [Automatischer Kurs-Lebenszyklus](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md).
 
 In herkömmlichen Kursen wird bei der Berechnung von "Bestanden" berücksichtigt, ob das Ergebnis innerhalb des Durchführungszeitraums erreicht wurde. Wird bis zum Ende des Endtags (23:59 Uhr) kein "Bestanden" erzielt, erscheint automatisch "Nicht bestanden".
 
@@ -44,7 +44,7 @@ In herkömmlichen Kursen wird bei der Berechnung von "Bestanden" berücksichtigt
 
 #### Zeitabschnitt {: #lifecycle }
 
-Plant Ihre Organisation in festen Zeitabschnitten wie Semestern, ordnen Sie den Kurs einem dieser Zeitabschnitte zu, statt Daten einzutragen. Wählen Sie dazu beim Durchführungszeitraum "Zeitabschnitt" und darunter im Feld "Zeitabschnitt" einen Eintrag. Zur Wahl stehen laufende und künftige Zeitabschnitte, die Administrator:innen in der System-Administration angelegt haben: `Administration > Module > Zeitabschnitte`, beschrieben unter [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md).
+Plant Ihre Organisation in festen Zeitabschnitten wie Semestern, ordnen Sie den Kurs einem dieser Zeitabschnitte zu, statt Daten einzutragen. Wählen Sie dazu beim Durchführungszeitraum "Zeitabschnitt" und darunter im Feld "Zeitabschnitt" einen Eintrag. Zur Wahl stehen laufende und künftige Zeitabschnitte, die Systemadministrator:innen in der System-Administration angelegt haben: `Administration > Module > Zeitabschnitte`, beschrieben unter [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md).
 
 Der Zeitabschnitt erscheint auf der Infoseite des Kurses unter "Fakten". Er ist unabhängig vom Kursstatus und von der [Zugangskonfiguration](../learningresources/Access_configuration.de.md) und hat keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
@@ -92,27 +92,27 @@ Ausserdem erscheint in der Kurs-Administration das Menü "Termine und Absenzen".
     Im Unterschied zu Besitzer:innen finden **Betreuer:innen** das Tool zum Erfassen in der Werkzeugleiste.<br>
     **Teilnehmer:innen** finden ihre Absenzen im [persönlichen Menü](../personal_menu/Absences.de.md).
 
-Schalten Sie die Termin- und Absenzenverwaltung aus, bleiben die erfassten Termine und Absenzen gespeichert. Sie erscheinen aber in keiner Terminliste mehr, weder im Kurs noch im Coaching noch in der Absenzenverwaltung. Das Menü "Termine und Absenzen" in der Kurs-Administration und das Werkzeug "Termine" in der Werkzeugleiste fallen weg. Im Course Planner bleiben die Termine an der Durchführung sichtbar. Beim Ausschalten setzt OpenOlat ausserdem "Standardkonfiguration überschreiben" auf "Nein" zurück, die für diesen Kurs eingetragenen Werte gehen verloren. Schalten Sie die Termin- und Absenzenverwaltung wieder ein, gelten zuerst die Vorgaben der Administration.
+Schalten Sie die Termin- und Absenzenverwaltung aus, bleiben die erfassten Termine und Absenzen gespeichert. Sie erscheinen aber in keiner Terminliste mehr, weder im Kurs noch im Coaching noch in der Absenzenverwaltung. Das Menü "Termine und Absenzen" in der Kurs-Administration und das Werkzeug "Termine" in der Werkzeugleiste fallen weg. Im Course Planner bleiben die Termine an der Durchführung sichtbar. Beim Ausschalten setzt OpenOlat ausserdem "Standardkonfiguration überschreiben" auf "Nein" zurück, die für diesen Kurs eingetragenen Werte gehen verloren. Schalten Sie die Termin- und Absenzenverwaltung wieder ein, gelten zuerst die Vorgaben der System-Administration.
 
 Welche Bedingungen sonst noch entscheiden, ob ein Termin erscheint, steht unter [Welche Termine (mit Zusatzoptionen) werden angezeigt?](../basic_concepts/Events_and_Absences.de.md#event_conditions)
 
 
 #### Standardkonfiguration überschreiben {: #config_override }
 
-Soll dieser Kurs anders arbeiten als die Vorgabe der Administration, setzen Sie "Standardkonfiguration überschreiben" auf "Ja". Die Checkboxen und Eingabefelder darunter werden dann bearbeitbar, und Sie konfigurieren die Termin- und Absenzenverwaltung für diesen Kurs.
+Soll dieser Kurs anders arbeiten als die Vorgabe der System-Administration, setzen Sie "Standardkonfiguration überschreiben" auf "Ja". Die Checkboxen und Eingabefelder darunter werden dann bearbeitbar, und Sie konfigurieren die Termin- und Absenzenverwaltung für diesen Kurs.
 
-Steht die Option auf "Nein", gilt die Voreinstellung der Administration. Die Checkboxen und Eingabefelder darunter bleiben inaktiv und zeigen den voreingestellten Wert. Die voreingestellten Funktionen wirken im Kurs trotzdem.
+Steht die Option auf "Nein", gilt die Voreinstellung der System-Administration. Die Checkboxen und Eingabefelder darunter bleiben inaktiv und zeigen den voreingestellten Wert. Die voreingestellten Funktionen wirken im Kurs trotzdem.
 
-Ob Sie das Überschreiben überhaupt einschalten können, legen Administrator:innen in der System-Administration mit der Einstellung "Standardkonfiguration" fest: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration", Abschnitt "Konfiguration auf Kursebene". Bei der Auswahlkarte "Überschreibbar" können Sie diesen Punkt frei wählen. Bei "Schreibgeschützt" bleibt er auf "Nein" und ist ausgegraut, sofern das Überschreiben in diesem Kurs nicht schon vorher eingeschaltet war.
+Ob Sie das Überschreiben überhaupt einschalten können, legen Systemadministrator:innen in der System-Administration mit der Einstellung "Standardkonfiguration" fest: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration", Abschnitt "Konfiguration auf Kursebene". Bei der Auswahlkarte "Überschreibbar" können Sie diesen Punkt frei wählen. Bei "Schreibgeschützt" bleibt er auf "Nein" und ist ausgegraut, sofern das Überschreiben in diesem Kurs nicht schon vorher eingeschaltet war.
 
 !!! note "Sie können die Einstellungen in Ihrem Kurs nicht bearbeiten?"
 
     Ausgegraute Felder haben zwei mögliche Ursachen. Schauen Sie auf das Feld "Standardkonfiguration überschreiben" selbst:
 
     - **Es ist anklickbar und steht auf "Nein"**: Setzen Sie es auf "Ja", dann werden die Felder darunter editierbar.
-    - **Es ist selbst ausgegraut**: Die Administration hat "Standardkonfiguration" auf "Schreibgeschützt" gesetzt. Für eine Freigabe wenden Sie sich an die OpenOlat-Administration.
+    - **Es ist selbst ausgegraut**: Systemadministrator:innen haben "Standardkonfiguration" in der System-Administration auf "Schreibgeschützt" gesetzt. Für eine Freigabe wenden Sie sich an Ihre Systemadministrator:innen.
 
-    In beiden Fällen sind die angezeigten Vorgabewerte der Administration im Kurs wirksam.
+    In beiden Fällen sind die angezeigten Vorgabewerte der System-Administration im Kurs wirksam.
 
 
 #### Anwesenheitskontrolle einschalten {: #roll_call_enabled }
@@ -147,7 +147,7 @@ Das Hilfe-Symbol neben der Option zeigt den Text "Wenn diese Option aktiviert is
 
 Ist die Option eingeschaltet, steht bei Terminen im 3-Punkte-Menü "Als Prüfung markieren" zur Wahl. Wer einen Termin so markiert, erstellt dazu einen Prüfungsmodus. Ausserdem erscheinen die nachfolgenden Felder "Vorlaufzeit", "Nachlaufzeit", "Erlaubte IP-Adressen" und "Safe Exam Browser Key" mit den kursweiten Vorgabewerten für diese Prüfungsmodi. Die Vorgabewerte werden beim Markieren übernommen; bereits erstellte Prüfungsmodi bleiben bei späteren Änderungen unverändert.
 
-Die Option erscheint nur, wenn der Prüfungsmodus systemweit eingeschaltet ist. Zum Ändern der Option im Kurs ist "Standardkonfiguration überschreiben" auf "Ja" nötig. Steht das Überschreiben auf "Nein" und ist die Option in der System-Administration eingeschaltet, erscheint dieses Feld angehakt und inaktiv, und "Als Prüfung markieren" arbeitet mit den Vorgabewerten der Administration.
+Die Option erscheint nur, wenn der Prüfungsmodus systemweit eingeschaltet ist. Zum Ändern der Option im Kurs ist "Standardkonfiguration überschreiben" auf "Ja" nötig. Steht das Überschreiben auf "Nein" und ist die Option in der System-Administration eingeschaltet, erscheint dieses Feld angehakt und inaktiv, und "Als Prüfung markieren" arbeitet mit den Vorgabewerten der System-Administration.
 
 #### Vorlaufzeit {: #lead_time }
 
@@ -168,12 +168,12 @@ Die hier erfassten IP-Adressen werden in den Prüfungsmodus übernommen, wenn ei
 
 Dieses Feld ist der kursweite Vorgabewert für die Art "Mit manuellen Keys". Der hinterlegte Key wird übernommen, wenn ein Termin "als Prüfung markiert" wird und im Prüfungsmodus des Termins der Schalter "Safe Exam Browser verwenden" eingeschaltet ist. Dort wird der Key zur Information angezeigt und nicht bearbeitet.
 
-Das Feld erscheint nur, wenn die Administration bei "Safe Exam Browser - Art der Benutzung" die Art "Mit manuellen Keys" gewählt hat. Diese Art gilt für alle Kurse und lässt sich im Kurs nicht überschreiben. Sie finden die Einstellung in der System-Administration unter:<br>
+Das Feld erscheint nur, wenn Systemadministrator:innen bei "Safe Exam Browser - Art der Benutzung" die Art "Mit manuellen Keys" gewählt haben. Diese Art gilt für alle Kurse und lässt sich im Kurs nicht überschreiben. Sie finden die Einstellung in der System-Administration unter:<br>
 `Administration > Module > Termine / Absenzen`, Tab "Konfiguration".
 
-Bleibt das Feld bei zugelassenem Überschreiben leer, erhalten die Prüfungsmodi dieses Kurses keinen Key; der Key aus der Administration wird in diesem Fall nicht verwendet.
+Bleibt das Feld bei zugelassenem Überschreiben leer, erhalten die Prüfungsmodi dieses Kurses keinen Key; der Key aus der System-Administration wird in diesem Fall nicht verwendet.
 
-Ist "Aus Vorlage (empfohlen)" aktiv, wird der Safe Exam Browser pro Prüfung über [Konfigurationsvorlagen](../learningresources/Assessment_mode.de.md) konfiguriert und dieses Feld wird nicht angezeigt. Beim Markieren als Prüfung steht im Prüfungsmodus des Termins das Feld "Konfiguration" mit den aktiven Vorlagen zur Verfügung, wobei die Standardvorlage vorausgewählt ist. Ob die Konfigurationsdatei heruntergeladen werden kann, legt in diesem Fall die Administration fest.
+Ist "Aus Vorlage (empfohlen)" aktiv, wird der Safe Exam Browser pro Prüfung über [Konfigurationsvorlagen](../learningresources/Assessment_mode.de.md) konfiguriert und dieses Feld wird nicht angezeigt. Beim Markieren als Prüfung steht im Prüfungsmodus des Termins das Feld "Konfiguration" mit den aktiven Vorlagen zur Verfügung, wobei die Standardvorlage vorausgewählt ist. Ob die Konfigurationsdatei heruntergeladen werden kann, legen in diesem Fall Systemadministrator:innen in der System-Administration mit der Option "Herunterladbare Konfigurationsdatei" fest: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration".
 
 Prüfungsmodi, die direkt über die [Prüfungsverwaltung](../learningresources/Assessment_mode.de.md) erstellt werden, verwenden diesen kursweiten Key nicht. Dort wird die Art pro Prüfungsmodus im Feld "SEB-Konfiguration" gewählt.
 

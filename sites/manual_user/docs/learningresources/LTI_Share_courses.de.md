@@ -25,9 +25,9 @@ Die Plattform muss vorher in der System-Administration als externe Plattform ein
 
 ## Voraussetzungen {: #conditions}
 
-### Voraussetzungen in der Systemadministration {: #conditions_admin}
+### Voraussetzungen in der System-Administration {: #conditions_admin}
 
-Die externe Plattform wird in der System-Administration von OpenOlat erfasst, dafür braucht es einen Administrator-Zugang (in OpenOlat kann dies auch die Rolle Systemadministrator:in sein). Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe eines Kurses vornehmen darf, legt die System-Administration fest: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations.de.md#deployments)<br>
+Die externe Plattform erfassen Systemadministrator:innen in der System-Administration von OpenOlat unter `Administration > Externe Werkzeuge > LTI > Tab "Externe Plattformen"`. Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe eines Kurses vornehmen darf, legt die System-Administration fest: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations.de.md#deployments)<br>
 Richten Sie am besten beide Systeme gleichzeitig ein, weil bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
 
 ### Voraussetzungen in der LTI-Freigabe eines Kurses [:octicons-tag-16:{ title="ab Release 15.5 (OO-5206)" }](https://track.frentix.com/issue/OO-5206) {: #conditions_share}

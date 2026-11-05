@@ -219,7 +219,7 @@ Im Bewertungsformular der Einzelfrage vergeben Sie die Punkte, schreiben einen K
 
 ![Antwort auf eine Freitextfrage und darunter ihr Bewertungsformular mit Punkten, Kommentar und Zur Überprüfung markieren](assets/assessing_tests_correction_tool_process2_v2_de.png){ class="shadow lightbox" title="Bewertungsformular einer Einzelfrage im Korrekturwerkzeug · 2026.10.02" }
 
-Ob das Korrekturwerkzeug die Namen der Teilnehmenden zeigt oder stattdessen die "Teilnehmendenkennung", legen Administrator:innen in der System-Administration fest: `Administration > e-Assessment > Test > Tab "Korrektur"`. Voreingestellt ist die anonyme Anzeige mit der Teilnehmendenkennung. Mehr dazu: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.de.md#tab_correction)
+Ob das Korrekturwerkzeug die Namen der Teilnehmenden zeigt oder stattdessen die "Teilnehmendenkennung", legen Systemadministrator:innen in der System-Administration fest: `Administration > e-Assessment > Test > Tab "Korrektur"`. Voreingestellt ist die anonyme Anzeige mit der Teilnehmendenkennung. Mehr dazu: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.de.md#tab_correction)
 
 Es ist möglich, Tests in OpenOlat auch anonym korrigieren zu lassen. Mehr darüber erfahren Sie im How-to [Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)
 

@@ -1,4 +1,4 @@
-# Häufig gestellte Fragen (FAQ) - Zoom
+# Häufig gestellte Fragen (FAQ) - Zoom {: #zoom_faq}
 
 !!! note "Zoom in OpenOlat"
 
@@ -6,7 +6,7 @@
 
     * Informationen des Herstellers finden Sie auf der [Zoom-Homepage](https://zoom.us){target=_blank}.
     * Die Verwendung als Kursbaustein ist unter [Kursbaustein "Zoom"](index.de.md) beschrieben.
-    * Die Einrichtung durch Administrator:innen ist im [OpenOlat-Administrationshandbuch](https://docs.openolat.org/de/manual_admin/administration/Zoom/){target=_blank} beschrieben.
+    * Die Einrichtung durch Systemadministrator:innen ist im [OpenOlat-Administrationshandbuch](../../../manual_admin/administration/Zoom.de.md) beschrieben.
 
 
 ## :material-map-marker-question: Zoom finden und konfigurieren
@@ -19,13 +19,13 @@ Zoom kann an drei Stellen zur Verfügung stehen:
 * als Kurswerkzeug in der Toolbar eines Kurses,
 * als Gruppenwerkzeug in einer Gruppe.
 
-Welche dieser Varianten verfügbar sind, entscheidet Ihre Administratorin oder Ihr Administrator. Sehen Sie Zoom an einer erwarteten Stelle nicht, ist die Variante auf Ihrer Instanz möglicherweise nicht freigeschaltet.
+Welche dieser Varianten verfügbar sind, entscheiden Ihre Systemadministrator:innen in der System-Administration unter `Administration > Externe Werkzeuge > Zoom`. Sehen Sie Zoom an einer erwarteten Stelle nicht, ist die Variante auf Ihrer Instanz möglicherweise nicht freigeschaltet.
 
 **Was muss ich als Autor:in oder Betreuer:in konfigurieren?**
 
 Sehr wenig. Für Zoom wählen Sie lediglich das vordefinierte Zoom-Profil aus. Beim Kursbaustein geschieht dies im Kurseditor im Tab "Zoom-Konfiguration", beim Kurs- und beim Gruppenwerkzeug im Dialog "Zoom konfigurieren". Alle weiteren Einstellungen (Meeting anlegen, Termin, Aufzeichnung und so weiter) nehmen Sie direkt in der eingebetteten Zoom-Oberfläche vor.
 
-![Zoom-Profil auswählen als einzige Einstellung des Kursbausteins, mit Auswahlfeld Zoom-Profil und Schaltfläche Speichern: Tab Zoom-Konfiguration des Kursbausteins Zoom im Kurseditor](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
+![Zoom-Profil auswählen als einzige Einstellung des Kursbausteins, mit Auswahlfeld Zoom-Profil und Schaltfläche Speichern](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" title="Tab Zoom-Konfiguration im Kurseditor" }
 
 **Warum erscheint die Meldung "Zoom ist noch nicht konfiguriert"?**
 
@@ -37,7 +37,7 @@ Es ist noch kein Zoom-Profil ausgewählt. Wählen Sie das Profil an der passende
 
 **Warum ist mein Zoom-Profil inaktiv?**
 
-Erscheint der Hinweis, dass das gewählte Zoom-Profil momentan inaktiv ist, wurde das Profil auf Instanzebene deaktiviert. Ein inaktives Profil kann keine Meetings starten. Wenden Sie sich in diesem Fall an Ihre Administratorin oder Ihren Administrator.
+Erscheint der Hinweis, dass das gewählte Zoom-Profil momentan inaktiv ist, wurde das Profil auf Instanzebene deaktiviert. Ein inaktives Profil kann keine Meetings starten. Wenden Sie sich in diesem Fall an Ihre Systemadministrator:innen.
 
 
 ## :material-account-key: Rollen, Identität und Datenschutz
@@ -66,7 +66,7 @@ Bei einigen Browser-Konfigurationen, insbesondere wenn Cookies von Drittanbieter
 
 **Teilnehmende erhalten beim Beitritt eine 401-Fehlermeldung.**
 
-Erhalten Teilnehmende beim Beitritt eine Fehlermeldung mit einer Correlation ID (401-artig), während Betreuende das Meeting normal starten können, liegt dies in der Regel an abweichenden Zeitzonen zwischen dem Zoom LTI Pro Credential und dem OpenOlat-Server. Die Behebung erfolgt administrativ. Melden Sie das Problem Ihrer Administratorin oder Ihrem Administrator. Details finden sich im [OpenOlat-Administrationshandbuch](https://docs.openolat.org/de/manual_admin/administration/Zoom/){target=_blank}.
+Erhalten Teilnehmende beim Beitritt eine Fehlermeldung mit einer Correlation ID (401-artig), während Betreuende das Meeting normal starten können, liegt dies in der Regel an abweichenden Zeitzonen zwischen dem Zoom LTI Pro Credential und dem OpenOlat-Server. Die Behebung erfolgt administrativ. Melden Sie das Problem Ihren Systemadministrator:innen. Details finden sich im [OpenOlat-Administrationshandbuch](../../../manual_admin/administration/Zoom.de.md).
 
 
 ## :material-feature-search-outline: Aufzeichnungen, Teilnehmende und Kalender
@@ -81,4 +81,13 @@ Nein. Die Zoom-Integration erfasst keine Anwesenheit und stellt in OpenOlat kein
 
 **Werden Zoom-Meetings im Kalender angezeigt?**
 
-Nur wenn Ihre Administratorin oder Ihr Administrator die Kalenderfunktion aktiviert hat. Ist sie aktiv, trägt Zoom Meetings in den Kurs- oder Gruppenkalender ein. Dabei gelten zwei Einschränkungen: Bei einer Meeting-Serie wird nur das erste Meeting eingetragen, und beim Löschen eines Meetings in Zoom wird der zugehörige Kalendereintrag nicht automatisch entfernt.
+Nur wenn Ihre Systemadministrator:innen in der System-Administration die Option "Zoom kann Kalendereinträge setzen" eingeschaltet haben. Ist sie aktiv, trägt Zoom Meetings in den Kurs- oder Gruppenkalender ein. Dabei gelten zwei Einschränkungen: Bei einer Meeting-Serie wird nur das erste Meeting eingetragen, und beim Löschen eines Meetings in Zoom wird der zugehörige Kalendereintrag nicht automatisch entfernt.
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Zoom-Homepage](https://zoom.us){target=_blank}<br>
+[Kursbaustein "Zoom" >](index.de.md)<br>
+[Zoom (Administrationshandbuch) >](../../../manual_admin/administration/Zoom.de.md)
+
+[Zum Seitenanfang ^](#zoom_faq)

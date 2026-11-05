@@ -28,7 +28,7 @@ As an author or course owner, you have added a "Test" course element to your cou
 OpenOlat offers two ways to do this. Which one applies depends on the "Correction" setting of the course element Test:
 
 * "Manual by correctors": The correctors from the correction workflow of the test learning resource correct their grading assignments in Coaching. Whether they see the names is defined by the owners of the test with the "Anonymous" option in the correction workflow.
-* "Manual by course coach/owner": Coaches and owners of the course correct in the correction tool of the course element. Whether the correction tool shows names is defined by administrators for the whole OpenOlat instance.
+* "Manual by course coach/owner": Coaches and owners of the course correct in the correction tool of the course element. Whether the correction tool shows names is defined by system administrators for the whole OpenOlat instance.
 
 
 [To the top of the page ^](#assessing_tests_anonymously)
@@ -107,7 +107,7 @@ Only with "Manual by correctors" does OpenOlat create a grading assignment after
 
 If the correction of the course element Test is set to "Manual by course coach/owner", or if the test contains questions that a person has to correct, coaches and owners of the course correct the tests themselves. They work in the course, in the course element Test, with the correction tool. With "Manual by correctors", the course element shows no "Correction tool" button, and the correction runs through the [grading assignments](#correction_by_correctors).
 
-Whether the correction tool shows the names of the participants is defined by administrators in the system administration for the whole OpenOlat instance: `Administration > e-Assessment > Test > Tab "Correction"`, field "Correction tool" with the option "Anonymous". The anonymous display is preset. The "Anonymous" option in the correction workflow of the test learning resource has no effect here. Find out more: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.md#tab_correction)
+Whether the correction tool shows the names of the participants is defined by system administrators in the system administration for the whole OpenOlat instance: `Administration > e-Assessment > Test > Tab "Correction"`, field "Correction tool" with the option "Anonymous". The anonymous display is preset. The "Anonymous" option in the correction workflow of the test learning resource has no effect here. Find out more: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.md#tab_correction)
 
 You open the correction tool in the course element:<br>
 `Course > Course element Test > Tab "Participants" > Button "Correction tool"`

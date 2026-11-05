@@ -1,22 +1,22 @@
 # e-Assessment Administration: Zertifikate {: #certificates}
 
-Administrator:innen legen hier fest, wer externe Zertifikate hochladen darf, welche Zertifikatsvorlagen zur Auswahl stehen und wie fehlerhafte Zertifikate repariert werden. Sie finden die Einstellungen in der System-Administration unter:<br>
+Systemadministrator:innen legen hier fest, wer externe Zertifikate hochladen darf, welche Zertifikatsvorlagen zur Auswahl stehen und wie fehlerhafte Zertifikate repariert werden. Sie finden die Einstellungen in der System-Administration unter:<br>
 `Administration > e-Assessment > Zertifikate`
 
-## Tab Zertifikate Konfiguration  {: #tab_config}
+## Tab Zertifikate Konfiguration {: #tab_config}
 
 In OpenOlat können auch anderweitig erworbene Zertifikate hochgeladen werden. Im Tab "Zertifikate Konfiguration" wird bestimmt, welchen Rollen dies erlaubt ist. Ob Linienvorgesetzte und Betreuer:innen externe Zertifikate für andere Personen hochladen dürfen, regelt das Recht "Externe Zertifikate hochladen": für Linienvorgesetzte bei der Organisation, für Betreuer:innen in den Person-zu-Person-Einstellungen.
 
-Administrator:innen können ebenfalls einrichten, dass beim Ausstellen eines Zertifikates eine Kopie auch an Linienvorgesetzte oder an eine andere E-Mail-Adresse (z.B. die Personalabteilung) verschickt wird. Betreuer:innen erhalten eine Kopie über das Recht "Kopie Zertifikate per E-Mail" in den Person-zu-Person-Einstellungen.
+Systemadministrator:innen können ebenfalls einrichten, dass beim Ausstellen eines Zertifikates eine Kopie auch an Linienvorgesetzte oder an eine andere E-Mail-Adresse (z.B. die Personalabteilung) verschickt wird. Betreuer:innen erhalten eine Kopie über das Recht "Kopie Zertifikate per E-Mail" in den Person-zu-Person-Einstellungen.
 
 
 [Zum Seitenanfang ^](#certificates)
 
 ---
 
-## Tab Zertifikate Vorlage  {: #tab_templates}
+## Tab Zertifikate Vorlage {: #tab_templates}
 
-Wenn Kursbesitzer:innen ein Zertifikat für ihren Kurs ausstellen wollen, nehmen sie dazu eine Einstellung vor unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im Abschnitt "Zertifikat". Dort kann auch die zu verwendende Zertifikatsvorlage ausgewählt werden. Als Administrator:in können Sie die zur Auswahl stehenden Zertifikatsvorlagen bestimmen.
+Wenn Kursbesitzer:innen ein Zertifikat für ihren Kurs ausstellen wollen, nehmen sie dazu eine Einstellung vor unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im Abschnitt "Zertifikat". Dort kann auch die zu verwendende Zertifikatsvorlage ausgewählt werden. Als Systemadministrator:in können Sie die zur Auswahl stehenden Zertifikatsvorlagen bestimmen.
 
 Die gleiche Auswahl der Zertifikatsvorlagen steht auch in Zertifikatsprogrammen zur Verfügung.
 
@@ -35,7 +35,7 @@ Die Standardvorlage selbst erscheint nicht in dieser Liste. Sie gehört zur Inst
 !!! info "frentix-Kund:innen"
     Takt und Anzahl der Versuche, mit denen OpenOlat die PDF-Dateien erzeugt, sind Teil der Serverkonfiguration. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
 
-Meldet eine Person, dass sich ihr Zertifikat nicht herunterladen lässt oder als leere PDF-Datei angekommen ist, finden Administrator:innen im Tab "Wartung" alle betroffenen Zertifikate und erzeugen die PDF-Dateien neu.
+Meldet eine Person, dass sich ihr Zertifikat nicht herunterladen lässt oder als leere PDF-Datei angekommen ist, finden Systemadministrator:innen im Tab "Wartung" alle betroffenen Zertifikate und erzeugen die PDF-Dateien neu.
 
 OpenOlat stellt ein Zertifikat sofort aus und erzeugt die PDF-Datei danach im Hintergrund. Bis sie vorliegt, trägt das Zertifikat den Status "Hängig". Antwortet der PDF-Dienst nicht, wechselt das Zertifikat auf "Fehler", und OpenOlat wiederholt die Erzeugung automatisch. Erst wenn alle Versuche gescheitert sind, bleibt es endgültig im Status "Fehler" und braucht den Tab "Wartung". Die Benachrichtigung geht nach dem ersten Versuch auch dann an die Person, wenn die PDF-Datei noch fehlt; gelingt ein späterer Versuch, folgt eine zweite E-Mail mit dem Zertifikat. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)
 

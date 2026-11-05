@@ -27,7 +27,7 @@ Als Autor:in/Kursbesitzer:in haben Sie einen Kursbaustein "Test" in Ihren Kurs e
 OpenOlat kennt dafür zwei Wege. Welcher gilt, entscheidet die Einstellung "Korrektur" am Kursbaustein Test:
 
 * "Manuell durch Korrektor:innen": Die Korrektor:innen aus dem Korrektur-Workflow der Test-Lernressource korrigieren ihre Korrekturaufträge im Coaching. Ob sie die Namen sehen, legen Besitzer:innen des Tests mit der Option "Anonym" im Korrektur-Workflow fest.
-* "Manuell durch Kursbetreuer:in oder -besitzer:in": Betreuer:innen und Besitzer:innen des Kurses korrigieren im Korrekturwerkzeug des Kursbausteins. Ob das Korrekturwerkzeug Namen zeigt, legen Administrator:innen für die ganze OpenOlat-Instanz fest.
+* "Manuell durch Kursbetreuer:in oder -besitzer:in": Betreuer:innen und Besitzer:innen des Kurses korrigieren im Korrekturwerkzeug des Kursbausteins. Ob das Korrekturwerkzeug Namen zeigt, legen Systemadministrator:innen für die ganze OpenOlat-Instanz fest.
 
 
 [zum Seitenanfang ^](#assessing_tests_anonymously)
@@ -107,7 +107,7 @@ Nur mit "Manuell durch Korrektor:innen" erstellt OpenOlat nach jedem abgeschloss
 
 Steht die Korrektur am Kursbaustein Test auf "Manuell durch Kursbetreuer:in oder -besitzer:in" oder enthält der Test Fragen, die eine Person korrigieren muss, korrigieren Betreuer:innen und Besitzer:innen des Kurses die Tests selbst. Sie arbeiten dazu im Kurs, im Kursbaustein Test, mit dem Korrekturwerkzeug. Bei "Manuell durch Korrektor:innen" zeigt der Kursbaustein keinen Button "Korrekturwerkzeug", die Korrektur läuft dann über die [Korrekturaufträge](#correction_by_correctors).
 
-Ob das Korrekturwerkzeug die Namen der Teilnehmenden zeigt, legen Administrator:innen in der System-Administration für die ganze OpenOlat-Instanz fest: `Administration > e-Assessment > Test > Tab "Korrektur"`, Feld "Korrekturwerkzeug" mit der Option "Anonym". Voreingestellt ist die anonyme Anzeige. Die Option "Anonym" im Korrektur-Workflow der Test-Lernressource wirkt hier nicht. Mehr dazu: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.de.md#tab_correction)
+Ob das Korrekturwerkzeug die Namen der Teilnehmenden zeigt, legen Systemadministrator:innen in der System-Administration für die ganze OpenOlat-Instanz fest: `Administration > e-Assessment > Test > Tab "Korrektur"`, Feld "Korrekturwerkzeug" mit der Option "Anonym". Voreingestellt ist die anonyme Anzeige. Die Option "Anonym" im Korrektur-Workflow der Test-Lernressource wirkt hier nicht. Mehr dazu: [e-Assessment Administration: Test](../../manual_admin/administration/e-Assessment_Test.de.md#tab_correction)
 
 Das Korrekturwerkzeug öffnen Sie im Kursbaustein:<br>
 `Kurs > Kursbaustein Test > Tab "Teilnehmer:innen" > Button "Korrekturwerkzeug"`

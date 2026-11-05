@@ -185,7 +185,7 @@ Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle.
 
 <p class="oo-mh-role__text">Die Plattform einrichten, anpassen und aufräumen.</p>
 
-- [Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein?](SEB_Admin/SEB_Admin.de.md)
+- [Wie richte ich als Systemadministrator:in den Safe Exam Browser (SEB) systemweit ein?](SEB_Admin/SEB_Admin.de.md)
 - [Wie setze ich rechtliche Zustimmungspflichten um?](legal_consents/legal_consents.de.md)
 - [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?](reduce_storage_consumption/reduce_storage_consumption.de.md)
 - [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](lifecycle/lifecycle.de.md)

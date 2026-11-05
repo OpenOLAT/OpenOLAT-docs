@@ -27,7 +27,7 @@ OpenOlat stores the data in accordance with data protection regulations and dele
 
 ## Activation of the module {: #module_activation}
 
-Administrators and system administrators open the "Contact tracing" module in the system administration under:<br>
+System administrators open the "Contact tracing" module in the system administration under:<br>
 `Administration > Modules > Contact tracing`
 
 In the tab "Configuration" you activate the module with "Contact tracing enabled" and set the "Retention period" and the "Default duration of stay". In the section "Questionnaire" you define the optional and mandatory fields, in the section "Messages and texts" the texts "Registration intro", "Registration confirmation mail" and "QR code instructions".

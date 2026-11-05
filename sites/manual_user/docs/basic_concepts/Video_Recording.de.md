@@ -10,7 +10,7 @@
   `System Settings > Privacy & Security > Microphone` und<br>
   `System Settings > Privacy & Security > Camera`
 
-* Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Videoaufnahmen** durch den/die Administrator:in in der System-Administration aktiviert worden sein:<br>
+* Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Videoaufnahmen** durch Systemadministrator:innen in der System-Administration aktiviert worden sein:<br>
 `Administration > Module > Audio/Video-Aufnahme`
 
 * Die Einstellungen für das **Transcoding** der Aufnahmen (Einstellungen zu Dateigrösse und Bildqualität) werden ebenfalls in der System-Administration gemacht unter:<br>
@@ -26,25 +26,25 @@
 
 Unter den Möglichkeiten zum Hinzufügen neuer Mediendateien befindet sich auch **"Video aufzeichnen"**.
 
-![Eintrag Video aufzeichnen im Menü des Buttons Mediendatei hinzufügen, im Media Center](assets/video_recording_mediacenter_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Video aufzeichnen im Menü des Buttons Mediendatei hinzufügen, im Media Center](assets/video_recording_mediacenter_v1_de.png){ class=" shadow lightbox" title="Button Mediendatei hinzufügen im Media Center" }
 
 
 ### Aufnahme im Kursbaustein Seite
 
 Im Kursbaustein Seite kann innerhalb eines Layout-Elements auch ein Video eingefügt werden.
 
-![Inhaltstyp Video in der Auswahl Inhalt hinzufügen eines Layout-Elements, im Kursbaustein Seite](assets/video_recording_page_v1_de.png){ class=" shadow lightbox" }
+![Inhaltstyp Video in der Auswahl Inhalt hinzufügen eines Layout-Elements, im Kursbaustein Seite](assets/video_recording_page_v1_de.png){ class=" shadow lightbox" title="Inhalt hinzufügen im Kursbaustein Seite" }
 
 Hat man sich dafür entschieden, erscheint ein Popup zur Auswahl eines vorhandenen Videos. Im Popup befindet sich zusätzlich ein Button zur Aufnahme eines eigenen Videos.
 
-![Buttons Video aufnehmen und Video hinzufügen im Dialog Video auswählen, im Kursbaustein Seite](assets/video_recording_page_add_v1_de.png){ class=" shadow lightbox" }
+![Buttons Video aufnehmen und Video hinzufügen im Dialog Video auswählen, im Kursbaustein Seite](assets/video_recording_page_add_v1_de.png){ class=" shadow lightbox" title="Dialog Video auswählen im Kursbaustein Seite" }
 
 
 ### Aufnahme im Kursbaustein HTML-Seite
 
 Der in OpenOlat verwendete HTML-Editor (Tiny) wird auch für das Einfügen und Aufzeichnen von Videos verwendet. Die Option zum Aufzeichnen eines Videos befindet sich unter den Werkzeugen, die auch zum Einfügen bereits vorhandener Medien verwendet werden.
 
-![Symbol zum Einfügen von Medien in der Werkzeugleiste des HTML-Editors, im Kursbaustein HTML-Seite](assets/video_recording_html_editor_v1_de.png){ class=" shadow lightbox" }
+![Symbol zum Einfügen von Medien in der Werkzeugleiste des HTML-Editors, im Kursbaustein HTML-Seite](assets/video_recording_html_editor_v1_de.png){ class=" shadow lightbox" title="Werkzeugleiste des HTML-Editors" }
 
 
 !!! note "Hinweis"
@@ -57,9 +57,9 @@ Der in OpenOlat verwendete HTML-Editor (Tiny) wird auch für das Einfügen und A
 
 Die Möglichkeit zu Videoaufnahmen in einer Aufgabe ist in den Workflow eingebettet. Sie finden die Recording-Funktion im Arbeitsschritt, wo das Video als Aufgabenstellung oder Musterlösung eingefügt werden soll.
 
-![Eintrag Video aufnehmen im Menü des Buttons Aufgabe erstellen, Tab Aufgabenstellung des Kursbausteins Aufgabe im Kurseditor](assets/video_recording_task_create_task_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Video aufnehmen im Menü des Buttons Aufgabe erstellen, Tab Aufgabenstellung des Kursbausteins Aufgabe im Kurseditor](assets/video_recording_task_create_task_v1_de.png){ class=" shadow lightbox" title="Tab Aufgabenstellung im Kurseditor" }
 
-![Eintrag Video aufnehmen im Menü des Buttons Musterlösung erstellen, Tab Musterlösung des Kursbausteins Aufgabe im Kurseditor](assets/video_recording_task_create_solution_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Video aufnehmen im Menü des Buttons Musterlösung erstellen, Tab Musterlösung des Kursbausteins Aufgabe im Kurseditor](assets/video_recording_task_create_solution_v1_de.png){ class=" shadow lightbox" title="Tab Musterlösung im Kurseditor" }
 
 Für Videoaufnahmen, die im Kursbaustein "Aufgabe" aufgezeichnet werden, besteht aktuell keine Möglichkeit zur Speicherung und Verlinkung im Media Center.
 
@@ -75,7 +75,7 @@ Die Videoaufnahme im Kursbaustein "Gruppenaufgabe" funktioniert wie im Kursbaust
 **Innerhalb eines Kursbausteins aufgenommene Videos** werden auch bei diesem Kursbaustein gespeichert.
 Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Media Center aufgeführt (Ausnahme: Kursbaustein Seite).
 
-![Aufgenommene mp4-Datei in der Spalte Datei der Aufgabenliste, Tab Verwalten im Kursbaustein Aufgabe](assets/video_recording_task_storage_v1_de.png){ class=" shadow lightbox" }
+![Aufgenommene mp4-Datei in der Spalte Datei der Aufgabenliste, Tab Verwalten im Kursbaustein Aufgabe](assets/video_recording_task_storage_v1_de.png){ class=" shadow lightbox" title="Tab Verwalten im Kursbaustein Aufgabe" }
 
 Wird dagegen die **Videoaufnahme im Media Center** gestartet, wird das Video auch im Media Center gespeichert.
 
@@ -97,7 +97,7 @@ Um den Speicherverbrauch durch Videos der Teilnehmer:innen etwas zu steuern, kan
     Bei einer kleinen Auflösung ist zwar die Dateigrösse optimiert, jedoch kann die Qualität des Bildes ungenügend werden. Berücksichtigen Sie in jedem Fall das aufgenommene Motiv. Wenn Details scharf abgebildet werden müssen, ist eine höhere Auflösung berechtigt. Bei grossen einheitlichen Flächen im Bild reduziert eine geringe Auflösung die Qualität so gut wie nicht.
 
 
-![Auswahl der Aufnahmequalität mit den Stufen Lower, Standard und Higher quality, Aufnahmefenster Record video mit der Bildgrösse 640 x 480 links oben](assets/video_recording_quality_v1_en.png){ class=" shadow lightbox" }
+![Auswahl der Aufnahmequalität mit den Stufen Lower, Standard und Higher quality, Aufnahmefenster Record video mit der Bildgrösse 640 x 480 links oben](assets/video_recording_quality_v1_en.png){ class=" shadow lightbox" title="Aufnahmefenster Record video" }
 
 Nachdem ein Video aufgenommen wurde, passt es OpenOlat in Bildgrösse, Auflösung und Qualität den voreingestellten Standards an. Dieses **Transcoding** wird automatisch von OpenOlat ausgeführt und die Videos werden dann gemäss den Voreinstellungen gespeichert. Das gewährleistet, dass die Videos bei der Anzeige in einem passenden Seitenverhältnis angezeigt werden und die Dateigrösse für die Speicherung optimiert wird.
 
@@ -107,7 +107,7 @@ Nachdem ein Video aufgenommen wurde, passt es OpenOlat in Bildgrösse, Auflösun
 Bsp.: Media Center<br>
 In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das gesamte Media Center) und wieviel davon bereits belegt ist. Der verfügbare Platz kann von den Administrator:innen bestimmt werden.
 
-![Anzeige 0 B von 102.4 MB belegt in der linken unteren Ecke, im Media Center](assets/video_recording_space_v1_de.png){ class=" shadow lightbox" }
+![Anzeige 0 B von 102.4 MB belegt in der linken unteren Ecke, im Media Center](assets/video_recording_space_v1_de.png){ class=" shadow lightbox" title="Linke untere Ecke im Media Center" }
 
 
 ## Wie lassen sich Videoaufnahmen exportieren?
@@ -117,14 +117,14 @@ In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das ge
 
 Sowohl Videoaufnahmen aus Aufgabenstellung als auch Videoaufnahmen in der Musterlösung können direkt im Kursbaustein heruntergeladen werden. Verwenden Sie dazu die Option unter den 3 Punkten am Ende einer Zeile.
 
-![Eintrag Datei herunterladen im Drei-Punkte-Menü einer Aufgabenzeile, Tab Verwalten im Kursbaustein Aufgabe](assets/video_recording_task_download_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Datei herunterladen im Drei-Punkte-Menü einer Aufgabenzeile, Tab Verwalten im Kursbaustein Aufgabe](assets/video_recording_task_download_v1_de.png){ class=" shadow lightbox" title="Tab Verwalten im Kursbaustein Aufgabe" }
 
 
 ### Download aus dem Media Center
 
 Wählen und öffnen Sie im Media Center das gewünschte Video. Unter dem Button mit den 3 Punkten finden Sie die Option zum Herunterladen.
 
-![Eintrag Herunterladen im Drei-Punkte-Menü der Detailansicht eines Videos, im Media Center](assets/video_recording_mediacenter_download_v1_de.png){ class=" shadow lightbox" }
+![Eintrag Herunterladen im Drei-Punkte-Menü der Detailansicht eines Videos, im Media Center](assets/video_recording_mediacenter_download_v1_de.png){ class=" shadow lightbox" title="Detailansicht eines Videos im Media Center" }
 
 !!! info "Wichtig"
 

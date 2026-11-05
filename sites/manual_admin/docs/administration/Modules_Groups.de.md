@@ -1,6 +1,6 @@
 # Modul Gruppen {: #groups}
 
-Im Modul Gruppen legen Administrator:innen systemweit fest, wer Gruppen erstellen darf, welche Rechte Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext erhalten, und welche Datenschutz-Einstellungen beim Hinzufügen von Mitgliedern in Gruppen und Kursen gelten.
+Im Modul Gruppen legen Systemadministrator:innen systemweit fest, wer Gruppen erstellen darf, welche Rechte Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext erhalten, und welche Datenschutz-Einstellungen beim Hinzufügen von Mitgliedern in Gruppen und Kursen gelten.
 
 !!! note "Navigation"
     `Administration > Module > Gruppen`

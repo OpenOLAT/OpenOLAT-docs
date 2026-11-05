@@ -26,7 +26,7 @@ Im Tab "Wiki-Lerninhalt" legen Sie auch fest, wer das Wiki bearbeiten darf. Unte
 
 !!! info "Wichtig"
 
-    Finden Sie in Ihrer OpenOlat-Instanz keinen Kursbaustein "Wiki", ist die Wikiressource systemweit ausgeschaltet. Administrator:innen schalten sie in der System-Administration ein: `Administration > Module > Wiki`, Option "Wikiressource einschalten".
+    Finden Sie in Ihrer OpenOlat-Instanz keinen Kursbaustein "Wiki", ist die Wikiressource systemweit ausgeschaltet. Systemadministrator:innen schalten sie in der System-Administration ein: `Administration > Module > Wiki`, Option "Wikiressource einschalten".
 
 ## Arbeiten mit Wiki (geschlossener Kurseditor)
 

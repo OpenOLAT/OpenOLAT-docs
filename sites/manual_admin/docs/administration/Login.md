@@ -5,7 +5,7 @@
 
 ![Configuration menu Login in the system administration with the areas Security, Password and authentication, Cloud login, Anonymous and external users, Self-registration and SMS](assets/admin_login_overview_v2_en.png){ class="shadow lightbox aside-left-lg" }
 
-Administrators and system administrators define how users log in to OpenOlat and register themselves in the adjacent menu of the system administration:<br>
+System administrators define how users log in to OpenOlat and register themselves in the adjacent menu of the system administration:<br>
 `Administration > Login`
 
 ## Profile
@@ -35,7 +35,7 @@ A minimum and a maximum length must be defined as a minimum. In addition, furthe
 
 ## Cloud login [:octicons-tag-16:{ title="from Release 10.1 (OO-729)" }](https://track.frentix.com/issue/OO-729) {: #cloud_login}
 
-So that users can log in with the account of another service, you connect OpenOlat here with social networks such as LinkedIn, X, Google and Facebook or with Microsoft Azure AD, Microsoft ADFS, Keycloak, Switch edu-ID and Datenlotsen. You connect further providers with "Add OAuth 2.0 provider" or "Add OAuth 2.0 provider with discovery URL". Administrators and system administrators configure these integrations in the system administration under:<br>
+So that users can log in with the account of another service, you connect OpenOlat here with social networks such as LinkedIn, X, Google and Facebook or with Microsoft Azure AD, Microsoft ADFS, Keycloak, Switch edu-ID and Datenlotsen. You connect further providers with "Add OAuth 2.0 provider" or "Add OAuth 2.0 provider with discovery URL". System administrators configure these integrations in the system administration under:<br>
 `Administration > Login > Cloud login`
 
 ### OAuth 2.0 and OpenID Connect [:octicons-tag-16:{ title="from Release 20.2.6 (OO-9287)" }](https://track.frentix.com/issue/OO-9287)
@@ -47,7 +47,7 @@ For security reasons, OpenOlat supports only the secure authorization code flow 
 
 ## Anonymous and external users [:octicons-tag-16:{ title="from Release 10.2 (OO-1362)" }](https://track.frentix.com/issue/OO-1362) {: #anonymous_and_external}
 
-Administrators can define whether and to what extent OpenOlat can be used by anonymous guests and external users.
+System administrators can define whether and to what extent OpenOlat can be used by anonymous guests and external users.
 
 [See the details >](../administration/Guest_and_invitation.md)<br>
 [To the top of the page ^](#login)
@@ -55,7 +55,7 @@ Administrators can define whether and to what extent OpenOlat can be used by ano
 
 ## Self-registration [:octicons-tag-16:{ title="from Release 8.1.1 (OO-226)" }](https://track.frentix.com/issue/OO-226) {: #self-registration}
 
-Here, administrators can activate self-registration and configure additional detailed settings in this context. Login forms can also be integrated into external websites. Furthermore, the field "Validity period of the login data" restricts, for example, how long an account from self-registration stays valid.
+Here, system administrators can activate self-registration and configure additional detailed settings in this context. Login forms can also be integrated into external websites. Furthermore, the field "Validity period of the login data" restricts, for example, how long an account from self-registration stays valid.
 
 [See the details >](../administration/Login_Self-Registration.md)<br>
 [To the top of the page ^](#login)

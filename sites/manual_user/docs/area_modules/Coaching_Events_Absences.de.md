@@ -4,7 +4,7 @@
 
 !!! info "Voraussetzungen"
 
-    Dieses Werkzeug erscheint im Coaching, wenn Administrator:innen das [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md) aktiviert haben und in mindestens einem Kurs die [Termin- und Absenzenverwaltung eingeschaltet](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management) ist.
+    Dieses Werkzeug erscheint im Coaching, wenn Systemadministrator:innen das [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md) aktiviert haben und in mindestens einem Kurs die [Termin- und Absenzenverwaltung eingeschaltet](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management) ist.
 
 Die anstehenden Termine der laufenden Woche sehen Sie schon auf der Einstiegsseite des Coachings im Widget "Termine". Über den Button "Termine / Absenzen" öffnen Sie die ganze Verwaltung mit den Tabs "Cockpit", "Termine", "Absenzen", "Meldungen", "Rekurse" und "Personensuche".
 
@@ -100,7 +100,7 @@ Mit den Feldern über der Liste grenzen Sie die Meldungen ein:
 
 * **Suche**: nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen.
 * **Art der Meldung**: "Ohne Abmeldung", "Abgemeldet" oder "Dispensiert", dazu ein Häkchen bei "Entschuldigt", "Unentschuldigt" oder beiden.
-* **Grund**: die Absenzenbegründungen, die Administrator:innen vorgegeben haben, zum Beispiel Krankheit.
+* **Grund**: die Absenzenbegründungen, die Systemadministrator:innen vorgegeben haben, zum Beispiel Krankheit.
 * **Datum**: der Zeitraum, in dem die Meldungen liegen.
 * **Anzeige**: "Alle" oder nur "Unentschuldigt".
 
@@ -114,7 +114,7 @@ Eine neue Meldung erfassen Sie mit den Buttons "Neue Absenzmeldung erfassen", "N
 
 ## Tab Rekurse {: #tab_appeals}
 
-In diesem Tab sehen Sie die eingereichten Rekurse zu Ihren Terminen. Den Tab gibt es nur, wenn Administrator:innen die [Rekursmöglichkeit gewährt](../../manual_admin/administration/Modules_Events_and_Absences.de.md#appeal_enabled) haben und Ihre Rolle Rekurse einsehen darf: als Betreuer:in mit der Option ["Dozenten dürfen Rekurse einsehen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#teacher_see_appeal), als Klassenlehrer:in mit ["Klassenlehrer dürfen Rekurse einsehen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#mastercoach_see_appeal). In der Regel bearbeiten Absenzenverwalter:innen die Rekurse in der kursübergreifenden [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
+In diesem Tab sehen Sie die eingereichten Rekurse zu Ihren Terminen. Den Tab gibt es nur, wenn Systemadministrator:innen die [Rekursmöglichkeit gewährt](../../manual_admin/administration/Modules_Events_and_Absences.de.md#appeal_enabled) haben und Ihre Rolle Rekurse einsehen darf: als Betreuer:in mit der Option ["Dozenten dürfen Rekurse einsehen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#teacher_see_appeal), als Klassenlehrer:in mit ["Klassenlehrer dürfen Rekurse einsehen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#mastercoach_see_appeal). In der Regel bearbeiten Absenzenverwalter:innen die Rekurse in der kursübergreifenden [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
 
 Mit den Feldern über der Liste grenzen Sie die Rekurse ein:
 

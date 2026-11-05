@@ -59,7 +59,7 @@ The table shows what the info page consists of, from top to bottom. The column "
 | Rating | yes | automatic | Rating |
 | Comments | yes | automatic | Comment |
 
-Some elements only appear once administrators have switched on the corresponding module in the system administration. The button "Download as PDF" requires the [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator). Administrators switch on rating and comments in the [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md), licenses under [Licenses](../../manual_admin/administration/Licenses.md), subjects in the [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md). Events require the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md). Administrators set up credit points in the [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.md).
+Some elements only appear once system administrators have switched on the corresponding module in the system administration. The button "Download as PDF" requires the [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator). System administrators switch on rating and comments in the [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md), licenses under [Licenses](../../manual_admin/administration/Licenses.md), subjects in the [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md). Events require the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md). System administrators set up credit points in the [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.md).
 
 The info page does not show technical details such as the ID, the external link and the responsible persons. They are in the window "About this course", see [About this course: Open the window](../learningresources/Technical_Information_on_Resources_and_Usage.md#open).
 
@@ -86,15 +86,15 @@ You also leave again on the info page. Which button you see for this depends on 
 
 | You are a member | Button on the info page | Who allows leaving |
 |---|---|---|
-| of a single course, booked or enrolled | [Leave Course](#leave_course) in the box "My course" of the course | Owners of the course, default by administrators |
-| of another learning resource, for example a wiki | "Leave Wiki" in the box "My course", see [Leave course](#leave_course) | Owners of the learning resource, default by administrators |
+| of a single course, booked or enrolled | [Leave Course](#leave_course) in the box "My course" of the course | Owners of the course, default by system administrators |
+| of another learning resource, for example a wiki | "Leave Wiki" in the box "My course", see [Leave course](#leave_course) | Owners of the learning resource, default by system administrators |
 | of an implementation that you booked or in which you were enrolled with an offer | [Cancel booking](#cancel_booking) in the box "Get started" of the implementation | Course planners, product owners and element owners |
 | of an implementation without a booking order for you | none | nobody; whoever enrolled you removes you on request |
 
 An implementation is the concrete run of an educational offering, with a period, a location, members and one or more courses. If you are a member of an implementation, you are also a member of its courses. You then leave via the implementation, not via the single course. How you recognise an implementation:
 
 - **Info page without "My course":** The info page of an implementation never shows the box "My course", even if you are a member. The info page of a course shows it as soon as there are details for you.
-- **Scope under "Courses":** Under `Courses`, the scope "Educational products" with your implementations is listed next to "My courses". An implementation that you have marked as a favourite is also listed next to it with its name as a scope of its own. An implementation that consists of only a single course appears in none of these scopes. The scopes only appear if administrators have switched them on, see [Products in "Courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses).
+- **Scope under "Courses":** Under `Courses`, the scope "Educational products" with your implementations is listed next to "My courses". An implementation that you have marked as a favourite is also listed next to it with its name as a scope of its own. An implementation that consists of only a single course appears in none of these scopes. The scopes only appear if system administrators have switched them on in the system administration, see [Products in "Courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses).
 - **Booking order:** Whether a booking order exists for you is shown in your booking orders: `Personal menu > User tools > Booking orders`, see [Booking orders](../personal_menu/Bookings.md). If there is no entry for the implementation, you were enrolled without a booking order.
 
 ### Get started {: #get_started}
@@ -117,7 +117,7 @@ If you cannot take part in a booked implementation after all, you cancel the boo
 
 Confirm in the dialog with "Cancel booking". If a cancellation fee applies, the button is called "Cancel booking for a fee", and the confirmation dialog states the fee. After the cancellation, you receive an e-mail whose subject ends with "Confirmation of your cancellation".
 
-If administrators have switched on the scope "In preparation" under "Courses" in the system administration at `Administration > Modules > Learning resource`, you also reach the same info page under `Courses > In preparation > Learn more`. An implementation is listed there only as long as it is not running yet. The administration manual describes the setting under [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md).
+If system administrators have switched on the scope "In preparation" under "Courses" in the system administration at `Administration > Modules > Learning resource`, you also reach the same info page under `Courses > In preparation > Learn more`. An implementation is listed there only as long as it is not running yet. The administration manual describes the setting under [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md).
 
 !!! info "Important"
 
@@ -135,7 +135,7 @@ The button only appears if the implementation allows cancellation and your booki
 As a member, you see your own progress in the box "My course" without opening the course. The box only shows the details that exist for you:
 
 - **Progress:** your progress in percent. Only in a learning path course and only once OpenOlat has recorded progress.
-- **Status, score and grade:** your result in the course. For this, the switch "Show evidence of achievement to participants" must be switched on under `Course > Administration > Settings > Tab "Assessment"`, see [Course Settings - Tab Assessment](Course_Settings_Assessment.md#section_evidence_of_achievements). The status appears if the course assesses "Passed" or "Not passed", the score if it awards points. The grade additionally requires administrators to have switched on grades in the system administration: `Administration > e-Assessment > Levels/Grading`.
+- **Status, score and grade:** your result in the course. For this, the switch "Show evidence of achievement to participants" must be switched on under `Course > Administration > Settings > Tab "Assessment"`, see [Course Settings - Tab Assessment](Course_Settings_Assessment.md#section_evidence_of_achievements). The status appears if the course assesses "Passed" or "Not passed", the score if it awards points. The grade additionally requires system administrators to have switched on grades in the system administration: `Administration > e-Assessment > Levels/Grading`.
 - **Groups:** the groups of the course in which you are a member. A click on the name opens the group.
 
 At the bottom of the box is the button "Leave Course", see [Leave course](#leave_course).
@@ -152,7 +152,7 @@ In the opened course, the link "Info page" in the toolbar leads to the same page
 The button only appears for participants and only if the owners of the course allow leaving. They set it under:<br>
 `Course > Administration > Settings > Tab "Share" > Participants can leave`
 
-If the setting is "Never", the button is missing. If it is "After course end date or status "Finished"", the button is greyed out until the course end date has passed or the course has the status "Finished". The options are described in [Access configuration](Access_configuration.md#leave_learning_resource). Which option a new course has is preset by administrators in the system administration: `Administration > Modules > Learning resource`, see [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md#allow_leaving_courses).
+If the setting is "Never", the button is missing. If it is "After course end date or status "Finished"", the button is greyed out until the course end date has passed or the course has the status "Finished". The options are described in [Access configuration](Access_configuration.md#leave_learning_resource). Which option a new course has is preset by system administrators in the system administration: `Administration > Modules > Learning resource`, see [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md#allow_leaving_courses).
 
 The button is also missing in these cases:
 
@@ -186,7 +186,7 @@ The printout leaves out what only makes sense on screen: Set bookmark, Share and
 
 !!! note "Note"
 
-    The button "Download as PDF" only appears if administrators have set up a PDF service, see [External Tools: PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator). Without a PDF service, print the info page via the browser.
+    The button "Download as PDF" only appears if system administrators have set up a PDF service in the system administration, see [External Tools: PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator). Without a PDF service, print the info page via the browser.
 
 [To the top of the page ^](#general_functions_info)
 

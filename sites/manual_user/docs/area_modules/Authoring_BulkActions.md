@@ -87,7 +87,7 @@ An organisation that you add in the same run does not count here. If you select 
 1. In the first run, select the new organisation under "Add organisation" and complete the wizard.
 2. In the second run, select the previous organisation under "Remove organisation".
 
-Administrators can also assign courses to an organisation in the system administration in the "Learning resources" tab, described under [Module Organisations](../../manual_admin/administration/Modules_Organisations.md#edit_learning_resources).
+System administrators can also assign courses to an organisation in the system administration in the "Learning resources" tab, described under [Module Organisations](../../manual_admin/administration/Modules_Organisations.md#edit_learning_resources).
 
 #### Step "Overview" {: #bulk_overview}
 

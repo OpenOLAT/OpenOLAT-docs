@@ -15,7 +15,7 @@ Welche Elemente die Infoseite zeigt und wo Sie sie einstellen, beschreibt [Allge
 
 ## Infoseite drucken [:octicons-tag-16:{ title="ab Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"} {: #print}
 
-Die Infoseite lässt sich drucken, etwa um eine Kursbuchung von der vorgesetzten Person bewilligen zu lassen. Klicken Sie im Kopf der Infoseite auf **Als PDF herunterladen**. OpenOlat erzeugt einen einspaltigen Flyer ohne Schaltflächen, mit einem QR-Code, der zum Angebot führt. Den gleichen Ausdruck erhalten Sie über den Befehl "Drucken" Ihres Browsers. Die Schaltfläche erscheint nur, wenn Administrator:innen einen PDF-Dienst eingerichtet haben; das Drucken über den Browser funktioniert immer.
+Die Infoseite lässt sich drucken, etwa um eine Kursbuchung von der vorgesetzten Person bewilligen zu lassen. Klicken Sie im Kopf der Infoseite auf **Als PDF herunterladen**. OpenOlat erzeugt einen einspaltigen Flyer ohne Schaltflächen, mit einem QR-Code, der zum Angebot führt. Den gleichen Ausdruck erhalten Sie über den Befehl "Drucken" Ihres Browsers. Die Schaltfläche erscheint nur, wenn Systemadministrator:innen in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` einen PDF-Dienst eingerichtet haben; das Drucken über den Browser funktioniert immer.
 
 Was der Ausdruck enthält und was er weglässt: [Infoseite drucken oder als PDF herunterladen](../learningresources/General_Functions_Infopage.de.md#print)
 

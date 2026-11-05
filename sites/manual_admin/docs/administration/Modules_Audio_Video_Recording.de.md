@@ -12,7 +12,7 @@ Wenn Sie die Audioaufzeichnung aktivieren, können Benutzer:innen an vielen Stel
 
 ### Lokale Videokonvertierung aktivieren
 
-In Webbrowsern aufgezeichnete Videodateien liegen oft nicht in einem Format vor, das in anderen Browsern verwendet werden kann. Dies erfordert die Konvertierung von Videos aus dem Originalformat in ein Format, das in allen Browsern funktioniert. **mp4** mit dem **h264** Codec für Video und dem **aac** Codec für Audio ist ein Format, das diese Anforderung erfüllt.
+In Webbrowsern aufgezeichnete Videodateien liegen oft nicht in einem Format vor, das in anderen Browsern verwendet werden kann. Dies erfordert die Konvertierung von Videos aus dem Originalformat in ein Format, das in allen Browsern funktioniert. MP4 mit dem Codec H.264 für Video und dem Codec AAC für Audio ist ein Format, das diese Anforderung erfüllt.
 
 Es ist möglich, diese Konvertierung mit dem Tool **HandBrakeCLI** direkt auf dem Server durchzuführen, auf dem OpenOlat läuft. Sie können diese Option nur aktivieren, wenn HandBrakeCLI auf dem Server installiert und über den Standardpfad verfügbar ist.
 
@@ -38,6 +38,6 @@ Dieser Bereich enthält Audio- und Videodateien, die auf eine Konvertierung wart
 
 **Weiterführend**<br>
 [Modul Video](Modules_Video.de.md)<br>
-[Video aufnehmen](../basic_concepts/Video_Recording.de.md)
+[Video aufnehmen](../../manual_user/basic_concepts/Video_Recording.de.md)
 
 [Zum Seitenanfang ^](#module_audio_video_recording)

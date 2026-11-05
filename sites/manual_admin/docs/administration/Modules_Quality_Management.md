@@ -1,6 +1,6 @@
 # Module Quality Management {: #Modules_Quality_Management}
 
-With quality management, quality managers plan data collections, analyse them and derive measures. The module is switched off by default. Administrators switch it on in the system administration and set the related options there:<br>
+With quality management, quality managers plan data collections, analyse them and derive measures. The module is switched off by default. System administrators switch it on in the system administration and set the related options there:<br>
 `Administration > Modules > Quality management`
 
 ![Switches for module, suggestion for improvement, data collection preview and action to-dos, plus email fields for sender and recipient](assets/modules_quality_management_v1_de.png){ class="shadow lightbox" title="Quality management module in the system administration" }

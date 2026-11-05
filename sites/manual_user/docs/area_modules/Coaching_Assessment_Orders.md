@@ -108,9 +108,9 @@ You work in the same interface as the correction tool of the course. The status 
 
 A grading assignment is created in five steps. Three roles set it up, the submission of a participant triggers it. It reaches the corrector as soon as all five steps have taken place.
 
-![Five steps from the module to the grading assignment, plus the assignment in the order management](assets/coaching_assessment_orders_grading_chain_v1_en.svg){ class="shadow lightbox" title="Who sets up a grading assignment" }
+![Five steps from the module to the grading assignment, plus the assignment in the order management](assets/coaching_assessment_orders_grading_chain_v2_en.svg){ class="shadow lightbox" title="Who sets up a grading assignment · 2026.11.05" }
 
-1. Administrators switch on the correction workflow in the system administration: `Administration > e-Assessment > Test`.
+1. System administrators switch on the correction workflow in the system administration: `Administration > e-Assessment > Test`.
 2. Owners of the test switch on the correction workflow in the learning resource Test: `Test > Administration > Correction workflow > Tab "Configuration"`.
 3. Owners of the test enter the correcting people in the tab "Correctors". Their role in OpenOlat does not matter.
 4. Course owners set the correction at the course element Test to "Manual by correctors". This option becomes available as soon as step 2 is set. More about this on the page [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction).

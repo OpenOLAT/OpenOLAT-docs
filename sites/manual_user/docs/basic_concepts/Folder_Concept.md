@@ -177,12 +177,12 @@ When you click an HTML file in a folder, OpenOlat opens it for editing or for vi
 
 The preview in the lightbox delivers the file through a separate content domain, that is, a second web address next to the address under which you call up OpenOlat. HTML code and scripts from the file therefore have no access to the OpenOlat session of the person viewing the file.
 
-The preview in the lightbox requires a content domain set up by administrators. Without a content domain, an HTML file opens in a new browser window even with read-only access. How to set up the content domain is described in the [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
+The preview in the lightbox requires a content domain. The content domain is part of the server configuration; to have it set up, contact your organisation. Without a content domain, an HTML file opens in a new browser window even with read-only access. How to set up the content domain is described in the [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
 
 
 ## Trash [:octicons-tag-16:{ title="from Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #paper_basket}
 
-The files in the trash can be deleted automatically after a certain period of time. The retention period in the trash and the automatic deletion are set up by administrators.
+The files in the trash can be deleted automatically after a certain period of time. System administrators define the retention period in the trash and the automatic deletion in the system administration: `Administration > Core functions > Files and folders`.
 
 !!! note "Note"
 

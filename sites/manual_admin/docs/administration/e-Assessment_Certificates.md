@@ -1,13 +1,13 @@
 # e-Assessment Administration: Certificates {: #certificates}
 
-Administrators define here who may upload external certificates, which certificate templates are available for selection and how broken certificates are repaired. You find the settings in the system administration under:<br>
+System administrators define here who may upload external certificates, which certificate templates are available for selection and how broken certificates are repaired. You find the settings in the system administration under:<br>
 `Administration > e-Assessment > Certificates`
 
-## Certificates configuration tab  {: #tab_config}
+## Certificates configuration tab {: #tab_config}
 
 In OpenOlat, certificates obtained from other sources can also be uploaded. The "Certificates configuration" tab is used to specify which roles are permitted to do so. Whether line managers and coaches may upload external certificates for other persons is set by the right "Upload external certificates": for line managers in the organisation, for coaches in the user to user settings.
 
-Administrators can also configure the system so that when a certificate is issued, a copy is sent to the employee’s line manager or to another email address (e.g., the HR department). Coaches receive a copy through the right "Copy of certificates per E-Mail" in the user to user settings.
+System administrators can also configure the system so that when a certificate is issued, a copy is sent to the employee’s line manager or to another email address (e.g., the HR department). Coaches receive a copy through the right "Copy of certificates per E-Mail" in the user to user settings.
 
 
 [To the top of the page ^](#certificates)
@@ -15,9 +15,9 @@ Administrators can also configure the system so that when a certificate is issue
 ---
 
 
-## Templates for certificates tab  {: #tab_templates}
+## Templates for certificates tab {: #tab_templates}
 
-If course owners want to issue a certificate for their course, they can do so under `Course > Administration > Settings > Tab "Assessment"` in the "Certificate" section. You can also select the certificate template to use there. As an administrator, you can specify which certificate templates are available for selection.
+If course owners want to issue a certificate for their course, they can do so under `Course > Administration > Settings > Tab "Assessment"` in the "Certificate" section. You can also select the certificate template to use there. As a system administrator, you can specify which certificate templates are available for selection.
 
 The same selection of certificate templates is also available in certificate programs.
 
@@ -36,7 +36,7 @@ The default template itself does not appear in this list. It belongs to the inst
 !!! info "frentix customers"
     The interval and the number of attempts with which OpenOlat generates the PDF files are part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
 
-When a person reports that their certificate cannot be downloaded or arrived as an empty PDF file, administrators find all affected certificates in the "Maintenance" tab and regenerate the PDF files.
+When a person reports that their certificate cannot be downloaded or arrived as an empty PDF file, system administrators find all affected certificates in the "Maintenance" tab and regenerate the PDF files.
 
 OpenOlat issues a certificate immediately and then generates the PDF file in the background. Until the file is available, the certificate has the status "Pending". If the PDF service does not respond, the certificate changes to "Error", and OpenOlat repeats the generation automatically. Only when all attempts have failed does it remain in the status "Error" for good and require the "Maintenance" tab. The notification reaches the person after the first attempt even if the PDF file is still missing; if a later attempt succeeds, a second email with the certificate follows. [:octicons-tag-16:{ title="from Release 21.1 (OO-9128)" }](https://track.frentix.com/issue/OO-9128)
 

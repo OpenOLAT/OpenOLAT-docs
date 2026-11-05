@@ -10,7 +10,7 @@ Der File Hub ist der **globale Dateibrowser** von OpenOlat. Er listet **alle in 
 
 Der File Hub zeigt nur Ordner an, auf die die eingeloggte Person Zugriffsberechtigung hat.
 
-![Sechs Ablageorte auf der Startseite des File Hub: Persönliche Dateien, Gruppen, Kurse, Dokumentenpool, Kursarchiv und Ressourcenordner, darüber das Suchfeld; File Hub in den persönlichen Werkzeugen](assets/pers_menu_file_hub_storage_locations_v1_de.png){ class="shadow lightbox"}
+![Sechs Ablageorte auf der Startseite des File Hub: Persönliche Dateien, Gruppen, Kurse, Dokumentenpool, Kursarchiv und Ressourcenordner, darüber das Suchfeld](assets/pers_menu_file_hub_storage_locations_v1_de.png){ class="shadow lightbox" title="File Hub in den persönlichen Werkzeugen" }
 
 [Zum Seitenanfang ^](#file_hub)
 
@@ -48,9 +48,9 @@ Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der 
 
 Die Ansicht des File Hubs können Sie zwischen Kachel- und Listenansicht umschalten. In beiden Ansichten finden Sie die weiteren Optionen (Datei öffnen, Datei herunterladen) im Menü mit den drei Punkten.
 
-![Kachelansicht eines Kursordners im File Hub mit markiertem Umschalter für die Kachelansicht und geöffnetem Drei-Punkte-Menü mit den Optionen Öffnen und Herunterladen](assets/pers_menu_file_hub_tiles_v1_de.png){ class="shadow lightbox" }
+![Kachelansicht eines Kursordners mit markiertem Umschalter für die Kachelansicht und geöffnetem Drei-Punkte-Menü mit den Optionen Öffnen und Herunterladen](assets/pers_menu_file_hub_tiles_v1_de.png){ class="shadow lightbox" title="Kursordner im File Hub" }
 
-![Listenansicht desselben Ordners mit markiertem Umschalter für die Listenansicht und markiertem Drei-Punkte-Menü am Zeilenende; Spalten Titel, Erstellt von, Typ, Grösse und Dateistatus](assets/pers_menu_file_hub_list_v1_de.png){ class="shadow lightbox" }
+![Listenansicht desselben Ordners mit markiertem Umschalter für die Listenansicht und markiertem Drei-Punkte-Menü am Zeilenende; Spalten Titel, Erstellt von, Typ, Grösse und Dateistatus](assets/pers_menu_file_hub_list_v1_de.png){ class="shadow lightbox" title="Kursordner im File Hub" }
 
 [Zum Seitenanfang ^](#file_hub)
 
@@ -73,7 +73,7 @@ Zum einen können Sie Ihre Dateien auf Ihrem Rechner zippen, die ZIP-Datei hochl
 
 !!! info "Wichtig"
 
-    Damit der Zugriff via WebDAV auf OpenOlat funktioniert, muss WebDAV von Ihren OpenOlat-Administrator:innen aktiviert werden.
+    Damit der Zugriff via WebDAV auf OpenOlat funktioniert, muss WebDAV von Ihren Systemadministrator:innen aktiviert werden.
 
 [Zum Seitenanfang ^](#file_hub)
 
@@ -82,7 +82,7 @@ Zum einen können Sie Ihre Dateien auf Ihrem Rechner zippen, die ZIP-Datei hochl
 
 ## Quota {: #quota}
 
-Der Speicherplatz pro Ordner ist begrenzt. Administrator:innen legen den zur Verfügung stehenden Speicherplatz fest. Die Grundeinstellung für den privaten und öffentlichen Ordner liegt bei 200 MB. Für die Erhöhung dieser Quota ist Ihre jeweilige OpenOlat-Supportstelle zuständig. Wenden Sie sich gegebenenfalls an die zuständigen Ansprechpersonen.
+Der Speicherplatz pro Ordner ist begrenzt. Die Grundeinstellung für den privaten und öffentlichen Ordner liegt bei 200 MB. Diesen Standardwert legen Systemadministrator:innen fest. Den Speicherplatz einer einzelnen Person ändern Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen in der Benutzerverwaltung im Tab "Quota". Für die Erhöhung dieser Quota ist Ihre jeweilige OpenOlat-Supportstelle zuständig. Wenden Sie sich gegebenenfalls an die zuständigen Ansprechpersonen.
 
 [Zum Seitenanfang ^](#file_hub)
 

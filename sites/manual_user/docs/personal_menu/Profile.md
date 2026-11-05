@@ -23,7 +23,7 @@ You change your e-mail address with the button "Edit" next to the field "E-mail"
 
 <details>
     <summary>E-mail signature</summary>
-    If the option to enter your e-mail signature is not displayed, please contact your administrator.
+    If the option to enter your e-mail signature is not displayed, please contact your system administrators.
     <img src="../assets/configuration_profile_signature_v1_de.png" alt="Field E-Mail Signatur with text editor in the tab Profile, marked, to the right the entry Profile in the personal menu" />
 
 </details>

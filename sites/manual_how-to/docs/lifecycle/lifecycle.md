@@ -9,7 +9,7 @@
 
 ??? abstract "Target group"
 
-    [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators
+    [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators [x] System administrators
 
     [ ] Beginners [x] Advanced users  [x] Experts
 

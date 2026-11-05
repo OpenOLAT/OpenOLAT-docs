@@ -1,6 +1,6 @@
 # Modul Lernressource [:octicons-tag-16:{ title="ab Release 20.3 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"} {: #learning_resource}
 
-Im Modul Lernressource legen Administrator:innen systemweite Einstellungen und Vorgaben für Kurse und andere Lernressourcen fest. Sie finden das Modul in der System-Administration unter:<br>
+Im Modul Lernressource legen Systemadministrator:innen systemweite Einstellungen und Vorgaben für Kurse und andere Lernressourcen fest. Sie finden das Modul in der System-Administration unter:<br>
 `Administration > Module > Lernressource`
 
 ![Kontrollkästchen für Kommentar, Bewertung und Mitgliedschaft beantragen, Standardeinstellung zum Austreten und Rollenpriorität](assets/modules_learning_resource_tab_settings_v2_de.png){ class="shadow lightbox" title="Seite Lernressource im Menü Module" }
@@ -16,7 +16,7 @@ Der Tab "Einstellungen" enthält die Abschnitte Einstellungen, Standardeinstellu
 
 ### Abschnitt Einstellungen
 
-Mit dem ersten Kontrollkästchen machen Administrator:innen für Teilnehmer:innen die Vorauswahl "In Vorbereitung" im Menü "Kurse" sichtbar.
+Mit dem ersten Kontrollkästchen machen Systemadministrator:innen für Teilnehmer:innen die Vorauswahl "In Vorbereitung" im Menü "Kurse" sichtbar.
 
 #### Bereich "In Vorbereitung" unter "Kurse"
 
@@ -46,7 +46,7 @@ Dafür zeigt die Infoseite unten ein Eingabefeld.
 
 ![Hervorgehobener Bereich Kommentare mit dem Eingabefeld "Schreiben Sie einen Kommentar..."](assets/modules_repository_course_comment_v3_de.png){ class="shadow lightbox" title="Infoseite eines Kurses · 2026.10.30" }
 
-Ob das Eingabefeld erscheint, schalten Administrator:innen in diesem Modul mit dem Kontrollkästchen "Kommentar" systemweit ein oder aus.
+Ob das Eingabefeld erscheint, schalten Systemadministrator:innen in diesem Modul mit dem Kontrollkästchen "Kommentar" systemweit ein oder aus.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -59,7 +59,7 @@ Auf der Infoseite eines Kurses können Benutzer:innen den Kurs auch mit Sternen 
 
 ![Hervorgehobene Bewertung mit fünf anklickbaren Sternen](assets/modules_repository_course_review_v3_de.png){ class="shadow lightbox" title="Infoseite eines Kurses · 2026.10.30" }
 
-Ob die Sterne zur Bewertung eines Kurses erscheinen, schalten Administrator:innen in diesem Modul mit dem Kontrollkästchen "Bewertung" systemweit ein oder aus.
+Ob die Sterne zur Bewertung eines Kurses erscheinen, schalten Systemadministrator:innen in diesem Modul mit dem Kontrollkästchen "Bewertung" systemweit ein oder aus.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -71,7 +71,7 @@ Ob die Sterne zur Bewertung eines Kurses erscheinen, schalten Administrator:inne
 
 ![Button Mitgliedschaft beantragen neben Zurück](assets/modules_repository_request_membership_v2_de.png){ class="shadow lightbox" title="Hinweisseite für Personen ohne Mitgliedschaft" }
 
-Ob der Button erscheint, schalten Administrator:innen in diesem Modul mit dem Kontrollkästchen "Mitgliedschaft beantragen" systemweit ein oder aus.
+Ob der Button erscheint, schalten Systemadministrator:innen in diesem Modul mit dem Kontrollkästchen "Mitgliedschaft beantragen" systemweit ein oder aus.
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -173,7 +173,7 @@ Ob die Bereiche "Meine Kurse" und "Coaching Werkzeug" in der Hauptnavigation ers
 Dort legen Sie die Reihenfolge der Bereiche in der Hauptnavigation fest und bestimmen, für welche Rollen sie sichtbar sind. Den Bereich "Meine Kurse" können Sie dort auch deaktivieren. Das Coaching Werkzeug lässt sich in der Standardkonfiguration nicht deaktivieren, weil Besitzer:innen und Betreuer:innen ihre Lernressourcen nur dort finden. Mehr dazu: [Customizing: Bereiche >](Customizing.de.md#sites)
 
 !!! note "Zugang zur Einstellung"
-    Nur Administrator:innen können diese Seite aufrufen und ändern.
+    Nur Systemadministrator:innen können diese Seite aufrufen und ändern.
 
 [Zum Seitenanfang ^](#learning_resource)
 

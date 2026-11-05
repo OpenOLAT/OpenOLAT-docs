@@ -10,7 +10,7 @@ Reminders are a feature of the course. Groups and individual tools such as the f
 
 Under `Course > Administration > Reminders`, all reminders of a course are displayed, and you can also create new ones there.
 
-![Menu entry "Reminders" and button "Create reminder" highlighted in the administration menu of a course](assets/course_reminder_access1_v1_de.png){ class="shadow lightbox" }
+![Highlighted menu entry "Reminders" and highlighted button "Add reminder"](assets/course_reminder_access1_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
 
 
 ### Course elements with reminder function
@@ -18,17 +18,17 @@ Under `Course > Administration > Reminders`, all reminders of a course are displ
 In addition, there are course elements that can be linked to the reminder function. They have their own "Reminders" tab right on the element.
 
 **Call in the course editor:**
-![Tab "Reminders" of a course element highlighted in the course editor](assets/course_reminder_access3_v1_de.png){ class="shadow lightbox" }
+![Highlighted tab "Reminders" of a course element](assets/course_reminder_access3_v1_de.png){ class="shadow lightbox" title="Course element in the course editor" }
 
 **Call outside the course editor (run mode), for course owners only:**
-![Tab "Reminders" of a course element and the role indicator "Owner" highlighted outside the course editor](assets/course_reminder_access2_v1_de.png){ class="shadow lightbox" }
+![Highlighted tab "Reminders" of a course element and highlighted role indicator "Owner"](assets/course_reminder_access2_v1_de.png){ class="shadow lightbox" title="Course element outside the course editor" }
 
 
 ### Course title (top-level course node)
 
 Reminders that are not linked to a specific course element can also be found in the course editor at the top-level course element/course title: also in the "Reminders" tab.
 
-![Course node "Musterkurs A" and tab "Reminders" highlighted in the course editor](assets/course_reminder_access4_v1_de.png){ class="shadow lightbox" }
+![Highlighted course node "Musterkurs A" and highlighted tab "Reminders"](assets/course_reminder_access4_v1_de.png){ class="shadow lightbox" title="Top course node in the course editor" }
 
 [To the top of the page ^](#course_reminders)
 
@@ -42,9 +42,9 @@ As the course owner, you define
 * the **mail text**
 * to **whom** the reminder should be sent
 
-To create a reminder, click the **"Create reminder"** button. A wizard appears that guides you step by step through the creation process.
+To create a reminder, click the "Add reminder" button. A wizard appears that guides you step by step through the creation process.
 
-![First step "Edit conditions" of the wizard for creating a reminder](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" }
+![First step "Edit rules" with description, condition and additional conditions](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" title="New reminder dialog" }
 
 **Step 1: Edit description and conditions**
 
@@ -60,7 +60,7 @@ In the last step, you enter the e-mail text to be sent. You can select whether t
 
 Alternatively, the created reminder can also be sent only to the owners, responsible coaches or external e-mail addresses. This option is particularly suitable for test reminders or specific reminders for teachers.
 
-As soon as the conditions for a reminder are met, the e-mails are automatically released for dispatch. The exact sending time and frequency is defined system-wide by your system administrator.
+As soon as the conditions for a reminder are met, the e-mails are automatically released for dispatch. The exact sending time and frequency is defined system-wide by your system administrators.
 
 
 [To the top of the page ^](#course_reminders)
@@ -71,11 +71,11 @@ As soon as the conditions for a reminder are met, the e-mails are automatically 
 
 The specific conditions are decisive for the reminders to be sent. OpenOlat offers a wide range of options here. The conditions can be selected from a drop-down menu. Depending on the condition, a further input field appears to the right for more detailed information.
 
-![Drop-down list of the selectable conditions for a reminder, e.g. date of registration or course status](assets/course_reminder_conditions1_v1_de.png){ class="shadow lightbox" }
+![Drop-down list of the selectable conditions for a reminder, e.g. date of registration or course status](assets/course_reminder_conditions1_v1_de.png){ class="shadow lightbox" title="Edit rules step" }
 
 Several conditions can be combined as required. This allows reminders to be triggered that are tailored to individual requirements. However, at least one criterion must be selected for a dispatch to be triggered.
 
-![Three combined conditions (start date, course execution number and organizational unit) of a reminder](assets/course_reminder_condition2_v1_de.png){ class="shadow lightbox" }
+![Three combined conditions of a reminder: start date, course execution number and organizational unit](assets/course_reminder_condition2_v1_de.png){ class="shadow lightbox" title="Edit rules step" }
 
 !!! info "Note"
 
@@ -231,7 +231,7 @@ _Example_: A reminder is sent 2 days before the deadline for completing the form
 
 !!! info "When is the e-mail sent, if I enter a date here?"
 
-    Course reminders are not sent immediately. All reminder e-mails are sent together, e.g. daily at 9.00 a.m. This is a default setting and can be changed by administrators in the system administration and adjusted up to "hourly": `Administration > Modules > Course reminders`.
+    Course reminders are not sent immediately. All reminder e-mails are sent together, e.g. daily at 9.00 a.m. This is a default setting and can be changed by system administrators in the system administration and adjusted up to "hourly": `Administration > Modules > Course reminders`.
     At the time of sending, OpenOlat checks which conditions are met and sends the e-mails accordingly. All course reminders that meet the conditions at, for example, 9.00 a.m. ("are in the outbox") are then sent.
 
     If **"Until date"** is checked, the condition may already be fulfilled at the time the reminder is created, and e-mails are sent. This setting is particularly useful in combination with another condition, e.g. if "until date" is "the test has been passed", an e-mail is sent: "You have qualified on time and will receive ...".
@@ -247,7 +247,7 @@ _Example_: A reminder is sent 2 days before the deadline for completing the form
 !!! info "Option before/after"
 
     For conditions that require a "before" or "after" specification for a date, this is provided as a selection list.
-    ![Selection list "before" and "after" for time-related conditions of a reminder](assets/reminder_option_before_after_DE.png){ class="shadow lightbox" }
+    ![Selection list "before" and "after" for time-related conditions of a reminder](assets/reminder_option_before_after_DE.png){ class="shadow lightbox" title="Edit rules step" }
 
 
 !!! info "Date"
@@ -281,7 +281,7 @@ _Example_: A reminder is sent 2 days before the deadline for completing the form
     In our conditions, in this case for example, the result of a test (a) is compared with the value entered in the condition rule (b). If the logical return value is "True", i.e. the condition is met, the reminder is triggered.
 
     _Example_: A reminder should be sent when participants have achieved a maximum of 5 points in a test. In OpenOlat, the condition looks like this:
-    ![Example condition "Points less than or equal to 5" for a test, with operator selection](assets/reminder_operator_DE.png){ class="shadow lightbox" }
+    ![Example condition "Points less than or equal to 5" for a test, with operator selection](assets/reminder_operator_DE.png){ class="shadow lightbox" title="Edit rules step" }
 
 
 [To the top of the page ^](#course_reminders)
@@ -296,7 +296,7 @@ With the help of the e-mail text, which can be customized as needed, you create 
 
     Moving the mouse pointer over the small question mark symbol shows you the available variables.
 
-    ![Tooltip with the available mail variables in the wizard step "E-mail notification" of a reminder](assets/course_reminders_variables_v1_de.png){ class="shadow lightbox" }
+    ![Tooltip with the available mail variables at the question mark icons of the e-mail subject and e-mail fields](assets/course_reminders_variables_v1_de.png){ class="shadow lightbox" title="E-mail message step in the New reminder dialog" }
 
 
 ### Variables available in the subject
@@ -341,7 +341,7 @@ Existing reminders with `$recipientFirstName` and `$recipientLastName` continue 
 
 Here is an example:
 
-![Marked variables $firstName, $lastName, $courseName, $courseUrl and $email in a sample text, field E-mail in the step E-mail message of the reminder](assets/course_reminders_mail_text_v1_en.png){ class="shadow lightbox" }
+![Marked variables $firstName, $lastName, $courseName, $courseUrl and $email in a sample text in the E-mail field](assets/course_reminders_mail_text_v1_en.png){ class="shadow lightbox" title="E-mail message step in the New reminder dialog" }
 
 
 [To the top of the page ^](#course_reminders)
@@ -364,7 +364,7 @@ Reminders can also be sent **exclusively to course owners**.
 **Example:**<br>
 Sometimes authors forget to publish their course because things were still unclear when they last worked on the course creation. In this case, the course status can be used in combination with the role as a dispatch criterion.
 
-![Combined conditions course status, course role "Owners" and start date for a reminder to course owners](assets/course_reminder_condition_status_v1_de.png){ class="shadow lightbox" }
+![Combined conditions course status, course role "Owners" and start date for a reminder to course owners](assets/course_reminder_condition_status_v1_de.png){ class="shadow lightbox" title="Edit rules step" }
 
 For special cases, reminders can also be sent **exclusively to certain external e-mail addresses**.
 
@@ -377,7 +377,7 @@ For special cases, reminders can also be sent **exclusively to certain external 
 If reminders have already been created, they are listed under `Course > Administration > Reminders`.
 On the overview page you can see all the reminders already created for this course and can also view reminders that have already been sent. The list of reminders already sent contains information about the recipients and the sending time. Individual reminders from this list can easily be sent again via the "Resend" link.
 
-![Action menu of a reminder with edit, duplicate, send reminder now, show sent reminders and delete](assets/reminder_DE.png){ class="shadow lightbox" }
+![Action menu of a reminder with edit, duplicate, send reminder now, show sent reminders and delete](assets/reminder_DE.png){ class="shadow lightbox" title="List of reminders of a course" }
 
 New reminders can be created at any time.
 

@@ -11,7 +11,7 @@ Certificates for a **single course** are activated and configured in `Course > A
 
 ![Learning phase in the status in preparation, after the certificate the practice phase in the status certified](assets/course_planner_certification_programs_process1_v1_de.png){ class="shadow lightbox" title="Learning phase and practice phase of a certificate" }
 
-A certificate for **attending an implementation** or **attending several courses**, on the other hand, can be issued using the **certification program**. Such certificates are awarded within the **Course Planner** (implementation). Persons can be admitted to a certification program, and any required recertifications can be managed there: `Course Planner > Certification programs`
+A certificate for attending an implementation or attending several courses, on the other hand, can be issued using the certification program. Such certificates are awarded within the Course Planner (implementation). Persons can be admitted to a certification program, and any required recertifications can be managed there: `Course Planner > Certification programs`
 
 ![Admission to the program with the certificate, recertification 1 passed, membership continues](assets/course_planner_certification_programs_process2_v1_de.png){ class="shadow lightbox" title="Membership with passed recertification" }
 
@@ -128,7 +128,7 @@ You see the certificate file status in the detail view of a member, which you ex
 
 * **Pending**: The PDF file is being generated. It is usually available after a short time, later if many certificates were issued at the same time.
 * **Error** with the tooltip "Error, retry scheduled": The generation failed, and OpenOlat tries again automatically. You do not need to do anything.
-* **Error** without tooltip: All automatic attempts are used up. Administrators regenerate the PDF file in the system administration: [Maintenance tab >](../../manual_admin/administration/e-Assessment_Certificates.md#tab_maintenance)
+* **Error** without tooltip: All automatic attempts are used up. System administrators regenerate the PDF file in the system administration: [Maintenance tab >](../../manual_admin/administration/e-Assessment_Certificates.md#tab_maintenance)
 
 With the filter "Certificate file status" you narrow the list of active members down to the persons whose PDF file is still missing. The filter is not shown from the start; you add it in the filters of the table. The selection contains "Pending" and "Error" twice: the first entry "Error" stands for the certificates that OpenOlat tries again, the second for the certificates without further attempts.
 
@@ -163,7 +163,7 @@ Implementations of type single course can also be linked to the certification pr
 
 For each implementation, the list shows among others the columns "#Participants" and "#Passed": you see how many persons participate and how many of them have passed. With the tabs "All", "Relevant", "Canceled" and "Finished" you narrow the list down.
 
-By **clicking on the plus sign** in front of a list entry, you can display the details of this implementation. (You can close the details by clicking on the minus sign.) The **Course** area shows the linked course as a tile; if several courses are linked, the area is called **Courses**. The tile shows the title and the technical type of the course, the period and the status of the participants: the average progress, how many persons have passed, not passed or are undefined, the average points and the number of participants.
+By clicking on the plus sign in front of a list entry, you can display the details of this implementation. (You can close the details by clicking on the minus sign.) The "Course" area shows the linked course as a tile; if several courses are linked, the area is called "Courses". The tile shows the title and the technical type of the course, the period and the status of the participants: the average progress, how many persons have passed, not passed or are undefined, the average points and the number of participants.
 
 ![The linked course as a tile with period, status of the participants and the Learn more and Open buttons](assets/course_planner_certification_programs_config_implementations_details1_v1_en.png){ class="shadow lightbox" title="Details of an implementation in the Implementations tab" }
 
@@ -231,11 +231,11 @@ The "Preview" button next to the template generates the PDF file "Certificate_pr
 
 **Serial number**<br>
 
-With the **"With serial number"** option, each issued certificate is automatically assigned a sequential, human-readable serial number [:octicons-tag-16:{ title="from Release 21.0 (OO-9567)" }](https://track.frentix.com/issue/OO-9567). You define the **format** using variables: `${counter}` or `${counter:N}` (counter, optionally with leading zeros for N digits) as well as optional `${year}`, `${month}`, and `${day}`, e.g. `REF-${year}-${counter:5}`. The **counter start value** determines the number at which counting begins. Format and counter start value are mandatory as soon as the option is switched on; after saving, the "Next serial number (preview)" field shows the number that will be assigned next. The serial number is assigned anew on each issuance, including a recertification, and it is part of the PDF file name. It appears on the certificate as soon as the template used contains the `$certificateSerialNumber` variable. In the "Members" tab and in the detail view of a person, the "Serial number" column can be shown; by default it is hidden.
+With the "With serial number" option, each issued certificate is automatically assigned a sequential, human-readable serial number [:octicons-tag-16:{ title="from Release 21.0 (OO-9567)" }](https://track.frentix.com/issue/OO-9567). You define the "Format" using variables: `${counter}` or `${counter:N}` (counter, optionally with leading zeros for N digits) as well as optional `${year}`, `${month}`, and `${day}`, e.g. `REF-${year}-${counter:5}`. The "Counter start value" determines the number at which counting begins. Format and counter start value are mandatory as soon as the option is switched on; after saving, the "Next serial number (preview)" field shows the number that will be assigned next. The serial number is assigned anew on each issuance, including a recertification, and it is part of the PDF file name. It appears on the certificate as soon as the template used contains the `$certificateSerialNumber` variable. In the "Members" tab and in the detail view of a person, the "Serial number" column can be shown; by default it is hidden.
 
 <h4>Print version for pre-printed paper</h4>
 
-With the **"With print version"** option, you activate an additional **print template** for pre-printed paper [:octicons-tag-16:{ title="from Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Owners of the certification program can thus export a **print certificate** alongside the standard certificate. The action is available in the "Members" tab: for a single person under the 3 dots at the end of the list row or in the detail view, for several persons after selecting the rows, and for all persons in the list in the drop-down menu next to the "Export certificate" button. Participants continue to receive only the standard certificate.
+With the "With print version" option, you activate an additional "Print template" for pre-printed paper [:octicons-tag-16:{ title="from Release 21.0 (OO-9568)" }](https://track.frentix.com/issue/OO-9568). Owners of the certification program can thus export a print certificate alongside the standard certificate. The action "Export print certificate" is available in the "Members" tab: for a single person under the 3 dots at the end of the list row or in the detail view, for several persons after selecting the rows, and for all persons in the list in the drop-down menu next to the "Export certificate" button. Participants continue to receive only the standard certificate.
 
 [To the top of the page ^](#certification_programs)
 

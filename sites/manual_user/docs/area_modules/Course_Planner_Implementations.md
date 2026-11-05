@@ -33,7 +33,7 @@ You save frequently used filter combinations with "Save filter" as your own pres
 
 ![The menu of the three dots to the right of the filters contains the Save filter action, which keeps a filter combination as your own preset](assets/course_planner_implementations_list_filter_v2_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner · 2026.10.09" }
 
-Via "Displayed columns" you additionally show the columns "Subjects" and "Subject paths", which are hidden by default, between the columns "Status" and "Calendar". Administrators maintain the subjects themselves in the system administration under `Administration > Modules > Taxonomy`. [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
+Via "Displayed columns" you additionally show the columns "Subjects" and "Subject paths", which are hidden by default, between the columns "Status" and "Calendar". System administrators maintain the subjects themselves in the system administration under `Administration > Modules > Taxonomy`. [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9392)" }](https://track.frentix.com/issue/OO-9392){:target="_blank"}
 
 ### Bulk action "Change type" [:octicons-tag-16:{ title="from Release 21.0 (OO-9583)" }](https://track.frentix.com/issue/OO-9583){:target="_blank"} {: #change_type}
 
@@ -280,7 +280,7 @@ The notification box "Accept membership requests" appears in the course area, in
 
     Whether confirmation by the invited persons is required depends on the reservation requirement configuration. Details on this can be found in the section on confirming membership below.
 
-For administrators: [System-wide configuration of the invitation >](../../manual_admin/administration/Modules_Groups.md#accept_membership)
+For system administrators: [System-wide configuration of the invitation >](../../manual_admin/administration/Modules_Groups.md#accept_membership)
 
 <br>
 
@@ -435,7 +435,7 @@ With the details in the "Infos" tab you determine how the implementation appears
 In the display settings, the implementation differs from the course in three points:
 
 - **Outline**: The option shows the structure of the implementation with its elements on the info page. It is available if the element type allows sub-elements. A course does not have this option.
-- **Credit points**: The option is available as soon as administrators have switched on the [credit points](../../manual_admin/administration/e-Assessment_Credit_Points.md); "Events" and "Certificate" are always available. If "Credit points" is selected, the mandatory field "Credit points" appears below it: there you enter the number and choose the credit point system.
+- **Credit points**: The option is available as soon as system administrators have switched on the [credit points](../../manual_admin/administration/e-Assessment_Credit_Points.md); "Events" and "Certificate" are always available. If "Credit points" is selected, the mandatory field "Credit points" appears below it: there you enter the number and choose the credit point system.
 - **Default settings**: A new implementation starts with the [default settings from the Module Course Planner](../../manual_admin/administration/Modules_Course_Planner.md#default_settings). If you select "Meet your teachers" again, the roles defined there are preselected.
 
 ![Five options from Outline to Credit points, the roles with their number of people and the Credit points field with amount and credit point system](assets/course_planner_implementations_tab_settings_infos_v3_en.png){ class="shadow lightbox" title="Infos sub-tab of the settings of an implementation · 2026.10.09" }
@@ -468,12 +468,12 @@ The sub-tab appears for elements whose element type has the use "Implementation"
 
 Automation rules are defined at two levels:
 
-* **Element type level** in the system administration under `Administration > Modules > Course Planner > Tab Element types`: Administrators define default rules for each element type. These rules serve as a template for all elements of this type.
+* **Element type level** in the system administration under `Administration > Modules > Course Planner > Tab Element types`: System administrators define default rules for each element type. These rules serve as a template for all elements of this type.
 * **Element level** under `Course Planner > Implementations > "your implementation" > Tab Settings > Automation`: For each individual element, you decide whether the rules of the element type are adopted or overridden individually.
 
 Two modes are available for the individual element:
 
-* **Adopt from type "Element type"**: The element uses the default rules of the element type. The label names the type and whether rules are active there. If administrators adjust the template, this automatically affects all elements that use this mode.
+* **Adopt from type "Element type"**: The element uses the default rules of the element type. The label names the type and whether rules are active there. If system administrators adjust the template, this automatically affects all elements that use this mode.
 * **Override**: The element uses deviating, individually configured rules, independent of the element type.
 
 **Types of automation rules:**

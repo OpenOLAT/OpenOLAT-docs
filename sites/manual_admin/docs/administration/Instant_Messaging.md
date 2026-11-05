@@ -5,7 +5,7 @@ define who can contact whom. You find these settings in the system
 administration under:<br>
 `Administration > Modules > Instant Messaging`
 
-Administrators and system administrators have access to the system
+System administrators have access to the system
 administration. How roles are assigned is described in
 [Assign roles](../usermanagement/Assign_roles.md).
 

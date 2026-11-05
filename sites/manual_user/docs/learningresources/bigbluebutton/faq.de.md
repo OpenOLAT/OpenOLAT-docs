@@ -90,7 +90,7 @@ Zeigt der Dialog bei dieser Option den Status "Gesperrt", sehen Teilnehmende nur
 
 Die Raumvorlage legt fest, welchen Status die Option zu Beginn des Meetings hat. Dort heisst dieselbe Einstellung "Nur Moderatorenkamera". Mit "Ja" hat sie zu Beginn den Status "Gesperrt". Moderierende können die Sperre während des Meetings im Dialog jederzeit aufheben und wieder setzen.
 
-Raumvorlagen bearbeiten Administrator:innen und Systemadministrator:innen in der System-Administration unter: `Administration > Externe Werkzeuge > BigBlueButton > Tab "Raumvorlagen"`. Mehr dazu unter [Modul BigBlueButton](../../../manual_admin/administration/BigBlueButton_module.de.md#tab_room-templates). Besitzer:innen und Betreuer:innen des Kurses können die Einstellung nicht ändern. Sie wählen nur die Raumvorlage aus, wenn sie im laufenden Kurs einen Online-Termin anlegen: `Kursbaustein "BigBlueButton" > Terminverwaltung > Online-Termin hinzufügen`.
+Raumvorlagen bearbeiten Systemadministrator:innen in der System-Administration unter: `Administration > Externe Werkzeuge > BigBlueButton > Tab "Raumvorlagen"`. Mehr dazu unter [Modul BigBlueButton](../../../manual_admin/administration/BigBlueButton_module.de.md#tab_room-templates). Besitzer:innen und Betreuer:innen des Kurses können die Einstellung nicht ändern. Sie wählen nur die Raumvorlage aus, wenn sie im laufenden Kurs einen Online-Termin anlegen: `Kursbaustein "BigBlueButton" > Terminverwaltung > Online-Termin hinzufügen`.
 
 
 **Die Präsentation ist zu klein und die Videos der Teilnehmenden und Moderierenden sind sehr gross. Wie kann ich das verändern?**

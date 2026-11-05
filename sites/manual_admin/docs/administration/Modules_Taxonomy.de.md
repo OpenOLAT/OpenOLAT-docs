@@ -1,6 +1,6 @@
 # Modul Taxonomie {: #module_taxonomy}
 
-Im Modul Taxonomie bauen Sie die Verschlagwortung auf, mit der Katalog, Fragenpool, Dokumentenpool, ePortfolio, Course Planner und Media Center ihre Inhalte ordnen. Das Modul öffnen Administrator:innen und Systemadministrator:innen in der System-Administration unter:<br>
+Im Modul Taxonomie bauen Sie die Verschlagwortung auf, mit der Katalog, Fragenpool, Dokumentenpool, ePortfolio, Course Planner und Media Center ihre Inhalte ordnen. Das Modul öffnen Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Module > Taxonomie`
 
 !!! note "Was ist eine Taxonomie?"

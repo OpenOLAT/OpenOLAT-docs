@@ -2,7 +2,7 @@
 
 Der Gruppen-Lebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Schritte: Erstellung, Status "Aktiv", Inaktivierung, Löschung und unwiderrufliche Löschung. Der Prozess gleicht dem [automatischen Kontolebenszyklus](Life_cycles_-_Administration.de.md#lifecycle_accounts) und dem [Kurs-Lebenszyklus](Automatic_Course_Lifecycle.de.md).
 
-![Fünf Schritte des Gruppen-Lebenszyklus, von der Erstellung bis zur unwiderruflichen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
+![Fünf Schritte des Gruppen-Lebenszyklus, von der Erstellung bis zur unwiderruflichen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" title="Lebenszyklus einer Gruppe" }
 
 
 
@@ -10,7 +10,7 @@ Der Gruppen-Lebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bes
 
 Berechtigte Personen (Gruppenverwalter:innen, Administrator:innen) erhalten bei Klick auf "Gruppen" in der Hauptnavigation ein zusätzliches Tab "**Gruppenverwaltung**".
 
-![Drei Statuspfeile mit ihren Fristen und die Filterzeile darunter, Tab Gruppenverwaltung im Bereich Gruppen](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" }
+![Drei Statuspfeile mit ihren Fristen und die Filterzeile darunter, Tab Gruppenverwaltung im Bereich Gruppen](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" title="Tab Gruppenverwaltung im Bereich Gruppen" }
 
 Durch Klick auf einen der 3 Pfeile werden alle vorhandenen Gruppen sortiert in 3 Kategorien aufgelistet:
 
@@ -20,21 +20,21 @@ Durch Klick auf einen der 3 Pfeile werden alle vorhandenen Gruppen sortiert in 3
 
 Unterhalb der Pfeile grenzen Filter die Liste weiter ein, bei aktiven Gruppen zum Beispiel "Länger ohne Aktivität", "Zu inaktivieren" oder "Innerhalb Reaktionsfrist".
 
-Die Zusatzinformationen in den 3 Pfeilen beschreiben die Konfiguration, die Administrator:innen für diesen Schritt eingerichtet haben.
+Die Zusatzinformationen in den 3 Pfeilen beschreiben die Konfiguration, die Systemadministrator:innen für diesen Schritt eingerichtet haben.
 
 
 ## Konfiguration
 
-Administrator:innen können den Verlauf des Gruppen-Lebenszyklus in der System-Administration konfigurieren unter:<br>
+Systemadministrator:innen können den Verlauf des Gruppen-Lebenszyklus in der System-Administration konfigurieren unter:<br>
 `Administration > Lebenszyklen > Gruppen`
 
-![Menüpunkt Gruppen unter Lebenszyklen markiert, rechts die Statuspfeile und der erste Konfigurationsabschnitt, System-Administration](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
+![Menüpunkt Gruppen unter Lebenszyklen markiert, rechts die Statuspfeile und der erste Konfigurationsabschnitt, System-Administration](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" title="Menü Lebenszyklen der System-Administration" }
 
-Das Resultat der gemachten Einstellungen ist sowohl in den 3 Pfeilen im oberen Teil des Konfigurationsscreens (für Administrator:innen) zusammengefasst, als auch in den Pfeilen im Tab "Gruppenverwaltung", das Gruppenverwalter:innen und Administrator:innen unter der Hauptnavigation in "Gruppen" sehen.
+Das Resultat der gemachten Einstellungen ist sowohl in den 3 Pfeilen im oberen Teil des Konfigurationsscreens (für Systemadministrator:innen) zusammengefasst, als auch in den Pfeilen im Tab "Gruppenverwaltung", das Gruppenverwalter:innen und Administrator:innen unter der Hauptnavigation in "Gruppen" sehen.
 
 **Beispiel: Ansicht für Gruppenverwalter:innen**
 
-![Markierte Beispielwerte der drei Statuspfeile: 660, 6 und 2 Tage Frist, automatisch, Tab Gruppenverwaltung](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" }
+![Markierte Beispielwerte der drei Statuspfeile: 660, 6 und 2 Tage Frist, automatisch, Tab Gruppenverwaltung](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" title="Tab Gruppenverwaltung mit Beispielwerten" }
 
   *  **aktiv:** Die Gruppe wird benutzt und es hat sie jemand innerhalb der eingestellten Frist noch besucht. (Standardwert: 400 Tage ohne Besuch).
 
@@ -91,7 +91,7 @@ Beim unwiderruflichen Löschen wird die Gruppe vollständig entfernt.
 
 Die vier Beispiele zeigen den Statuswechsel automatisch oder manuell, jeweils ohne und mit Reaktionsfrist. Mit Reaktionsfrist geht eine Benachrichtigung zu Beginn der Frist hinaus, in allen Fällen eine beim Statuswechsel, sofern konfiguriert.
 
-![Vier Zeitverläufe eines Statuswechsels: automatisch oder manuell, jeweils ohne und mit Reaktionsfrist, mit Fokusphase und Benachrichtigungen](assets/Beispielkonfiguration.jpg){ class="lightbox" }
+![Vier Zeitverläufe eines Statuswechsels: automatisch oder manuell, jeweils ohne und mit Reaktionsfrist, mit Fokusphase und Benachrichtigungen](assets/Beispielkonfiguration.jpg){ class="lightbox" title="Zeitverläufe eines Statuswechsels" }
 
 
 
@@ -100,7 +100,7 @@ Die vier Beispiele zeigen den Statuswechsel automatisch oder manuell, jeweils oh
 Gruppenbetreuer:innen haben die Möglichkeit, ihre Gruppe aus den automatischen Methoden explizit auszuschliessen. Das heisst, dass alle Aktionen im Gruppen-Lebenszyklus manuell angestossen werden müssen. Sie finden die Option unter:<br>
 `Gruppe > Administration > Gruppen-Lebenszyklus`
 
-![Markierte Checkbox Von den automatischen Methoden ausschliessen, darunter Status und Inaktivierungstermin, Tab Gruppen-Lebenszyklus](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" }
+![Markierte Checkbox Von den automatischen Methoden ausschliessen, darunter Status und Inaktivierungstermin, Tab Gruppen-Lebenszyklus](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" title="Tab Gruppen-Lebenszyklus einer Gruppe" }
 
 !!! info "Wichtig"
 
@@ -117,7 +117,7 @@ Sobald durch die eingestellten Bedingungen eine automatische Benachrichtigung au
 3. Trifft beides nicht zu, wird niemand benachrichtigt.
 
 
-![Entscheidungsbaum der Benachrichtigung: Gruppenbetreuer:innen, sonst Besitzer:innen der Kurse, sonst niemand](assets/automatic_group_lifecycle_mailcascade_v2_de.svg){ class="lightbox" }
+![Entscheidungsbaum der Benachrichtigung: Gruppenbetreuer:innen, sonst Besitzer:innen der Kurse, sonst niemand](assets/automatic_group_lifecycle_mailcascade_v2_de.svg){ class="lightbox" title="Empfänger:innen der Benachrichtigung" }
 
 ## Weiterführende Informationen {: #further_information}
 

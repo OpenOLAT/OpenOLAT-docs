@@ -23,7 +23,7 @@ OpenOlat unterstützt in diesem Fall das Pseudo-Streaming mittels Progressive Do
 
 ### Freigegebene Medien-Server [:octicons-tag-16:{ title="ab Release 19.1 (OO-7955)" }](https://track.frentix.com/issue/OO-7955) {: #media_server}
 
-Welche externen Videoplattformen OpenOlat per Link einbetten darf, legen Administrator:innen in der System-Administration fest: `Administration > Login > Sicherheit`, Tab "Medien-Server". Ein Video von einer nicht freigegebenen Domäne wird in der HTML-Seite nicht abgespielt. An seiner Stelle erscheint die Meldung "Die Medienressource stammt aus einer eingeschränkten Domäne." Details finden Sie im Administrationshandbuch unter [Sicherheit](../../manual_admin/administration/Login_Security.de.md#tab_mediaserver).
+Welche externen Videoplattformen OpenOlat per Link einbetten darf, legen Systemadministrator:innen in der System-Administration fest: `Administration > Login > Sicherheit`, Tab "Medien-Server". Ein Video von einer nicht freigegebenen Domäne wird in der HTML-Seite nicht abgespielt. An seiner Stelle erscheint die Meldung "Die Medienressource stammt aus einer eingeschränkten Domäne." Details finden Sie im Administrationshandbuch unter [Sicherheit](../../manual_admin/administration/Login_Security.de.md#tab_mediaserver).
 
 
 ## Video hinzufügen / editieren

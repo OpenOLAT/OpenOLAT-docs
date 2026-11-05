@@ -13,7 +13,7 @@ Course owners can activate the function in the course editor and configure it th
 
 !!! tip "Prerequisite"
 
-    The Levels/Grading module has been switched on by the OpenOlat administrators, and at least one rating system is enabled.
+    System administrators have switched on the Levels/Grading module in the system administration under `Administration > e-Assessment > Levels/Grading`, and at least one rating system is enabled.
 
 1. **Activate Levels/Grading for a course element**<br>
 Go to the course editor and select the course element for which the levels should be activated. In the "Assessment" tab you can set up the details
@@ -22,7 +22,7 @@ Go to the course editor and select the course element for which the levels shoul
 You can choose between manual and automatic assignment. With the assignment "Manually by coach", the coach triggers the assignment and makes it visible to the participants. The open cases are collected by the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_classifications_scores) in the tab "Open levels/gradings". Coaches without ownership assign there as long as the option "assign Levels/Grading" is switched on. The option is switched on by default. In learning path courses, course owners switch it off or on under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](Course_Settings_Assessment.md#section_assessment_rights); conventional courses do not have this section. With the assignment "Automatically on score change" OpenOlat assigns the grade itself.
 
 3. **Select and customize the rating scale**<br>
-Define the minimum and maximum points (save) and click "Edit rating scale". The window "Edit rating scale" opens. When you open it for the first time, the field "Rating system" contains the [default rating system](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md#default_rating_system) that the administrators set for the instance. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596) With "Change" you select another enabled rating system. Then you further customize the rating scale. Changes of the rating scale take effect immediately, even without publishing the course.
+Define the minimum and maximum points (save) and click "Edit rating scale". The window "Edit rating scale" opens. When you open it for the first time, the field "Rating system" contains the [default rating system](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md#default_rating_system) that system administrators set for the instance in the system administration. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596) With "Change" you select another enabled rating system. Then you further customize the rating scale. Changes of the rating scale take effect immediately, even without publishing the course.
 
     ![When opened for the first time, the default rating system is preselected, here grades.german with Passed with 4, below it the score ranges per grade and the graph that maps score to grade](assets/assessment_translate_points_in_grades_rating_scale_v1_en.png){ class="shadow lightbox" title="Dialog Edit rating scale · 2026.10.22" }
 

@@ -2,7 +2,7 @@
 
 ![Erscheinungsbild und Hauptnavigation der ganzen Instanz in sieben Menüpunkten, von Darstellung bis Bereiche, im aufgeklappten Menü Customizing der System-Administration](assets/admin_customizing_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
-Im Menü "Customizing" passen Administrator:innen und Systemadministrator:innen das Erscheinungsbild und die Hauptnavigation der ganzen Instanz an. Sie finden diese Einstellungen in der System-Administration unter:<br>
+Im Menü "Customizing" passen Systemadministrator:innen das Erscheinungsbild und die Hauptnavigation der ganzen Instanz an. Sie finden diese Einstellungen in der System-Administration unter:<br>
 `Administration > Customizing`
 
 ## Steckbrief
@@ -112,7 +112,7 @@ Das Portal ist ein Bereich der Hauptnavigation, auf dem Personen Schnellzugänge
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
 
-Welche Angaben OpenOlat zu einer Person führt, wie diese Angaben heissen und wo sie erscheinen, legen Administrator:innen und Systemadministrator:innen für die ganze Instanz fest. So bestimmen Sie an einer Stelle, welche Daten Ihre Organisation erhebt und welche Felder Personen im Profil, beim Erstellen eines Kontos oder bei der Selbstregistrierung ausfüllen. Sie finden die Einstellungen in der System-Administration unter:<br>
+Welche Angaben OpenOlat zu einer Person führt, wie diese Angaben heissen und wo sie erscheinen, legen Systemadministrator:innen für die ganze Instanz fest. So bestimmen Sie an einer Stelle, welche Daten Ihre Organisation erhebt und welche Felder Personen im Profil, beim Erstellen eines Kontos oder bei der Selbstregistrierung ausfüllen. Sie finden die Einstellungen in der System-Administration unter:<br>
 `Administration > Customizing > Benutzer:innen-Attribute`
 
 Die Seite hat drei Tabs: "Attribute" für die einzelnen Angaben, "Verwendungskontexte" für die Stellen, an denen die Angaben erscheinen, und "Zurücksetzen" für die ganze Konfiguration auf einmal.
@@ -185,7 +185,7 @@ Auf einer bestehenden Installation hängt es davon ab, ob die Einstellungen dies
 
 ## Bereiche {: #sites}
 
-Auf der Seite "Bereiche" legen Administrator:innen fest, welche Bereiche die Hauptnavigation in der obersten Zeile anbietet, in welcher Reihenfolge und für welche Rollen. Sie finden die Seite in der System-Administration unter:<br>
+Auf der Seite "Bereiche" legen Systemadministrator:innen fest, welche Bereiche die Hauptnavigation in der obersten Zeile anbietet, in welcher Reihenfolge und für welche Rollen. Sie finden die Seite in der System-Administration unter:<br>
 `Administration > Customizing > Bereiche`
 
 Was ein Bereich ist und wovon abhängt, ob eine Person ihn sieht, erklärt das Benutzerhandbuch auf der Seite [Bereiche und Module](../../manual_user/area_modules/index.de.md#conditions).

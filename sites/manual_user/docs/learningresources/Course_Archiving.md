@@ -90,7 +90,7 @@ As in the course, each of these complete archives also contains the file "Member
 
 !!! info "Important"
 
-    This tab is only available for OpenOlat administrators and learning resource managers, not for authors.
+    This tab is only available for administrators and learning resource managers, not for authors.
 
 All course archives are listed in the "Course archive management" tab.
 

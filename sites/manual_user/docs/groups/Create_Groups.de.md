@@ -2,7 +2,7 @@
 
 Es gibt verschiedene Orte, an denen Sie Gruppen erstellen können. In der Regel ist der Einstiegspunkt die Hauptnavigation mit dem Menüpunkt "Gruppen". Sofern Sie berechtigt sind, Gruppen zu erstellen, finden Sie hier den Button "Gruppe erstellen".
 
-![Button "Gruppe erstellen" oben rechts im Bereich Gruppen der Hauptnavigation](assets/group_membership_create_group_v1_de.png){ class="shadow lightbox" }
+![Markierter Menüpunkt "Gruppen" in der Hauptnavigation und markierter Button "Gruppe erstellen" oben rechts](assets/group_membership_create_group_v1_de.png){ class="shadow lightbox" title="Tab Meine Gruppen im Bereich Gruppen" }
 
 
 ## Gruppe anlegen 
@@ -44,7 +44,7 @@ Aktivieren Sie bei Bedarf die gewünschten Optionen. Sofern Sie die Anzahl der T
 
 ## Wer kann eine Gruppe erstellen? {: #found_a_group}
 
-Sofern von OpenOlat Administrator:innen aktiviert unter `Administration > Module > Gruppen`, kann jede OpenOlat-Benutzer:in, nicht nur Autor:innen, selbständig Gruppen erstellen, den Gruppen vielfältige
+Sofern von Systemadministrator:innen aktiviert unter `Administration > Module > Gruppen`, kann jede OpenOlat-Benutzer:in, nicht nur Autor:innen, selbständig Gruppen erstellen, den Gruppen vielfältige
 [Werkzeuge](Using_Group_Tools.de.md) zuordnen und beliebig viele andere OpenOlat-Benutzer:innen in die Gruppe einladen oder direkt hinzufügen.
 
 Wird eine Gruppe durch Sie erstellt, werden Sie automatisch **Gruppenbetreuer:in**. In dieser Rolle erhalten Sie für Ihre Gruppe die Menüoption "Administration". Dort können Sie im Tab "Mitglieder" weitere Personen hinzufügen (zu Gruppenmitgliedern machen) und Rechte der Gruppenmitglieder konfigurieren. Weitere Infos zum Hinzufügen von Mitgliedern finden Sie [hier](../groups/Group_Membership.de.md).

@@ -20,7 +20,7 @@ Die Raumverwaltung im Course Planner steht zwei Rollen zur Verfügung:
 
 Alle übrigen Rollen sehen den Bereich nicht, auch Produktbesitzer:in, Elementbesitzer:in und Principal. Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in arbeiten an der Durchführung des Kurses, nicht an dessen organisatorischer Planung.
 
-Beide Rollen lesen die Angaben. Räume und Gebäude legen Sie in der System-Administration an und ändern sie dort, auch wenn Sie die Rolle Administrator:in haben: `Administration > Module > Räume`. Die vollständige Übersicht der Rechte finden Sie in der [Rechte-Matrix](../area_modules/Course_Planner.de.md#rights_matrix) des Course Planners.
+Beide Rollen lesen die Angaben. Räume und Gebäude legen Systemadministrator:innen in der System-Administration an und ändern sie dort: `Administration > Module > Räume`. Die vollständige Übersicht der Rechte finden Sie in der [Rechte-Matrix](../area_modules/Course_Planner.de.md#rights_matrix) des Course Planners.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -111,7 +111,7 @@ Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung da
 
 !!! info "Bearbeitung nur in der Administration"
 
-    Anlegen, Bearbeiten und Löschen von Räumen und Gebäuden erfolgt in der System-Administration unter `Administration > Module > Räume` und erfordert administrative Rechte. Dort finden Sie «Einstellungen», «Raumplanung», «Räume» und «Gebäude». [Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)
+    Räume und Gebäude legen Systemadministrator:innen in der System-Administration an, bearbeiten und löschen sie dort: `Administration > Module > Räume`. Dort finden Sie «Einstellungen», «Raumplanung», «Räume» und «Gebäude». [Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)
 
 [zum Seitenanfang ^](#course_planner_rooms)
 

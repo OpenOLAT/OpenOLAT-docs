@@ -63,7 +63,7 @@ Der Aufwand, mit dem Teilnehmer:innen rechnen müssen. Das Beispiel unter dem Fe
 
 Mit den Anzeigeeinstellungen bestimmen Sie, welche Abschnitte die Infoseite Ihres Kurses zeigt und wer dort als Dozent:in erscheint. So zeigt die Infoseite genau das, was Interessierte für ihre Entscheidung brauchen.
 
-Ein neu erstellter Kurs startet mit den Standardwerten, die Administrator:innen im [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#default_settings) festlegen. Eine Kopie übernimmt die Anzeigeeinstellungen des Originals. Die Standardwerte im [Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md#default_settings) gelten nur für Durchführungen, nicht für Kurse. Durchführungen im Course Planner haben dieselben Anzeigeeinstellungen, die Unterschiede beschreibt [Course Planner: Durchführungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings_infos).
+Ein neu erstellter Kurs startet mit den Standardwerten, die Systemadministrator:innen in der System-Administration im [Modul Kurs](../../manual_admin/administration/Modules_Course.de.md#default_settings) festlegen. Eine Kopie übernimmt die Anzeigeeinstellungen des Originals. Die Standardwerte im [Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md#default_settings) gelten nur für Durchführungen, nicht für Kurse. Durchführungen im Course Planner haben dieselben Anzeigeeinstellungen, die Unterschiede beschreibt [Course Planner: Durchführungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings_infos).
 
 ![Die vier Optionen unter Auf Infoseite anzeigen und darunter die Rollen mit ihrer Personenzahl, die als Dozent:innen erscheinen](assets/course_settings_info_form_v1_de.png){ class="shadow lightbox" title="Tab Info der Kurseinstellungen · 2026.10.09" }
 
@@ -80,7 +80,7 @@ Wird der Kurs von einem externen System verwaltet, können einzelne Optionen aus
 
 #### Als Dozenten angezeigte Mitglieder {: #taught_by}
 
-Diese Auswahl erscheint erst, wenn "Lernen Sie Ihre Dozent:innen kennen" gewählt ist. Dann ist mindestens eine Rolle Pflicht: Ohne Auswahl lässt sich das Formular nicht speichern, und unter dem Feld steht "Bitte füllen Sie dieses Feld aus." Wählen Sie "Lernen Sie Ihre Dozent:innen kennen" neu aus, sind die Rollen vorgewählt, die Administrator:innen im Modul Kurs als Standard festlegen.
+Diese Auswahl erscheint erst, wenn "Lernen Sie Ihre Dozent:innen kennen" gewählt ist. Dann ist mindestens eine Rolle Pflicht: Ohne Auswahl lässt sich das Formular nicht speichern, und unter dem Feld steht "Bitte füllen Sie dieses Feld aus." Wählen Sie "Lernen Sie Ihre Dozent:innen kennen" neu aus, sind die Rollen vorgewählt, die Systemadministrator:innen in der System-Administration unter `Administration > Module > Kurs` als Standard festlegen.
 
 - **Dozierende der Termine**: die Personen, die in den Terminen des Kurses als Dozent:in eingetragen sind.
 - **Betreuer:innen**: die Mitglieder mit der Rolle Betreuer:in.

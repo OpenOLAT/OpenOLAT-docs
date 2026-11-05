@@ -5,7 +5,7 @@
 
 If you plan courses in semesters, school years or quarters, set up these periods once, centrally, as time periods. Authors then choose a time period as the execution period of their course instead of entering the begin and end one by one, and the course lists can be sorted by the time period.
 
-Administrators switch on the "Time periods" module and set up the time periods there. You find it in the system administration under:<br>
+System administrators switch on the "Time periods" module and set up the time periods there. You find it in the system administration under:<br>
 `Administration > Modules > Time periods`
 
 ![Switch Module Time periods set to On, button Add time period, tabs All, Relevant, Default and Past, list with begin, end, default mark and number of uses](assets/Modules_Time_Period_v2_de.png){ class="shadow lightbox" title="Time periods page in the Modules menu" }

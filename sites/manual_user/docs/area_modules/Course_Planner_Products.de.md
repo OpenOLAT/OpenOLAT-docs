@@ -73,7 +73,7 @@ Ist bei Ihnen das Modul "Organisationen" aktiviert, ist die Organisation ein Pfl
 
 #### Absenzmanagement {: #create_product_absence_management}
 
-Mit der Auswahl "Ein" oder "Aus" bestimmen Sie, ob das Absenzmanagement für dieses Produkt verwendet werden soll. Voraussetzung ist, dass Administrator:innen das Modul aktiviert und für die Kursautor:innen verfügbar gemacht haben, unter:<br>
+Mit der Auswahl "Ein" oder "Aus" bestimmen Sie, ob das Absenzmanagement für dieses Produkt verwendet werden soll. Voraussetzung ist, dass Systemadministrator:innen das Modul aktiviert und für die Kursautor:innen verfügbar gemacht haben, unter:<br>
 `Administration > Module > Termine / Absenzen`
 
 #### Beschreibung {: #create_product_description}

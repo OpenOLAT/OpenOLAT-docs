@@ -27,7 +27,7 @@ The platform must first be set up as an external platform in the system administ
 
 ### Requirements in system administration {: #conditions_admin}
 
-The external platform is registered in the system administration of OpenOlat, which requires administrator access (in OpenOlat, this can also be the System administrator role). On the other side, administrator access to the other LMS is required as well. Who may create the LTI share of a course is set in the system administration: [Who can add deployments?](../../manual_admin/administration/LTI_Integrations.md#deployments)<br>
+System administrators register the external platform in the system administration of OpenOlat under `Administration > External tools > LTI > Tab "External platforms"`. On the other side, administrator access to the other LMS is required as well. Who may create the LTI share of a course is set in the system administration: [Who can add deployments?](../../manual_admin/administration/LTI_Integrations.md#deployments)<br>
 Ideally, set up both systems at the same time, because certain dialogs in both systems must be configured directly one after the other.
 
 ### Requirements in the LTI share of a course [:octicons-tag-16:{ title="from Release 15.5 (OO-5206)" }](https://track.frentix.com/issue/OO-5206) {: #conditions_share}

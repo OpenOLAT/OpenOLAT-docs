@@ -9,12 +9,12 @@
 **Stufe 2 - Passkey**: Anmeldung nur mit Passkey<br>
 **Stufe 3 - Passwort & Passkey (2FA)**: Anmeldung mit Passwort und Passkey (2-Faktor-Authentifizierung)
 
-Zusätzlich kann die Administration den [One Time Code](One_Time_Code.de.md) aktivieren. Benutzer:innen ohne hinterlegten Passkey bestätigen ihre Anmeldung dann mit einem Bestätigungscode per E-Mail. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
+Zusätzlich können Systemadministrator:innen den [One Time Code](One_Time_Code.de.md) aktivieren. Benutzer:innen ohne hinterlegten Passkey bestätigen ihre Anmeldung dann mit einem Bestätigungscode per E-Mail. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
 
 
-## Durch Administrator:innen gesetzte Sicherheitsstufen {: #admin_levels}
+## Durch Systemadministrator:innen gesetzte Sicherheitsstufen {: #admin_levels}
 
-Für manche Rollen macht eine höhere Sicherheitsstufe Sinn, z.B. für Benutzerverwalter:innen oder Administrator:innen. In OpenOlat kann deshalb für jede Rolle separat eine minimal erforderliche Sicherheitsstufe eingestellt werden. Administrator:innen legen die Stufe pro Rolle in der System-Administration fest unter:<br>
+Für manche Rollen macht eine höhere Sicherheitsstufe Sinn, z.B. für Benutzerverwalter:innen oder Administrator:innen. In OpenOlat kann deshalb für jede Rolle separat eine minimal erforderliche Sicherheitsstufe eingestellt werden. Systemadministrator:innen legen die Stufe pro Rolle in der System-Administration fest unter:<br>
 `Administration > Login > Passwort und Authentifizierung > Tab "Authentifizierung"`
 
 Mit dem Button "Alle Rollen auf Stufe… setzen" lässt sich eine Stufe für alle Rollen gleichzeitig übernehmen.
@@ -24,7 +24,7 @@ Mit dem Button "Alle Rollen auf Stufe… setzen" lässt sich eine Stufe für all
 
 ## Sicherheitsstufen wechseln {: #change_level}
 
-Administrator:innen können mit der Option "Sicherheitsstufe selbständig erhöhen" die Erlaubnis erteilen, dass Benutzer:innen ihre Sicherheitsstufe selbst bestimmen.
+Systemadministrator:innen können mit der Option "Sicherheitsstufe selbständig erhöhen" die Erlaubnis erteilen, dass Benutzer:innen ihre Sicherheitsstufe selbst bestimmen.
 
 Die Umstellung erfolgt mit dem Button "Sicherheitsstufe wechseln" unter:<br>
 `Persönliches Menü > Passwort`
@@ -33,9 +33,9 @@ Die Umstellung erfolgt mit dem Button "Sicherheitsstufe wechseln" unter:<br>
 
 Wird für das Höherstufen ein Passkey benötigt, können die Benutzer:innen den Passkey selbst generieren, ebenfalls unter `Persönliches Menü > Passwort`.
 
-Wenn Benutzer:innen ihre Sicherheitsstufe selbst ändern dürfen, ist prinzipiell ein Erhöhen oder Herunterstufen möglich. Ob ein Herunterstufen möglich ist, hängt aber von der Vorgabe der Administrator:innen ab.
+Wenn Benutzer:innen ihre Sicherheitsstufe selbst ändern dürfen, ist prinzipiell ein Erhöhen oder Herunterstufen möglich. Ob ein Herunterstufen möglich ist, hängt aber von der Vorgabe der Systemadministrator:innen ab.
 
-Die minimale Stufe wird von Administrator:innen gesetzt. Wenn z.B. Stufe 2 für die Rolle Benutzerverwalter:in vorgeschrieben wird, kann eine Benutzerverwalter:in nicht auf Stufe 1 (nur Passwort) herunterstufen, sondern nur zwischen Stufe 2 (nur Passkey) und Stufe 3 (2-Faktor-Authentifizierung) wählen.
+Die minimale Stufe wird von Systemadministrator:innen gesetzt. Wenn z.B. Stufe 2 für die Rolle Benutzerverwalter:in vorgeschrieben wird, kann eine Benutzerverwalter:in nicht auf Stufe 1 (nur Passwort) herunterstufen, sondern nur zwischen Stufe 2 (nur Passkey) und Stufe 3 (2-Faktor-Authentifizierung) wählen.
 
 
 ## Weiterführende Informationen {: #further_information}

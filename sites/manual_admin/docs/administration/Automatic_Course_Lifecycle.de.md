@@ -2,7 +2,7 @@
 
 Wer viele Kurse betreibt, möchte alte Kurse nach dem Kursende geordnet beenden, in den Papierkorb verschieben und zuletzt endgültig löschen, ohne jeden Kurs einzeln anzufassen. Der automatische Kurs-Lebenszyklus erledigt das in einem täglichen Lauf nach den Fristen, die Sie festlegen. Bevor Sie eine Konfiguration speichern, zeigt OpenOlat, wie viele Kurse sie auf welchen Schritt setzt. Danach sehen Sie im Abschnitt "Lebenszyklus-Prozess", was gerade läuft und was in den nächsten Tagen ansteht.
 
-Die Konfiguration nehmen Administrator:innen in der System-Administration vor unter:<br>
+Die Konfiguration nehmen Systemadministrator:innen in der System-Administration vor unter:<br>
 `Administration > Lebenszyklen > Kurse`
 
 ![Kurse nach dem Kursende automatisch beenden, in den Papierkorb verschieben und endgültig löschen, je nach Frist; vor dem Speichern zeigt eine Bestätigung die Anzahl betroffener Kurse](assets/automatic_course_lifecycle_stages_v1_de.svg){ class="lightbox" title="Lebenszyklus eines Kurses" }

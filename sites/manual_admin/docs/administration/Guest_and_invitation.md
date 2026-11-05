@@ -5,12 +5,12 @@ In addition to registered users, OpenOlat can also be used by
 * **Guests** (anonymous, can only use the offers available to guests)
 * **External users** (at least known by email, are only invited by email to a very specific course/group/portfolio/project, maximum usage period: default setting 180 days)
 
-Administrators can determine whether and to what extent OpenOlat can be used in this way. You find these settings in the system administration under:<br>
+System administrators can determine whether and to what extent OpenOlat can be used in this way. You find these settings in the system administration under:<br>
 `Administration > Login > Anonymous and external user`
 
 ## Anonymous guests {: #guests}
 
-![Guest login and Links for guests activated, Full-text search for guest switched off, in the tab Anonymous user (guest)](assets/login_anonymous_external_user_tab1_v1_de.png){ class="shadow lightbox" }
+![Guest login and Links for guests activated, Full-text search for guest switched off, in the tab Anonymous user (guest)](assets/login_anonymous_external_user_tab1_v1_de.png){ class="shadow lightbox" title="Anonymous user (guest) tab in the Login menu" }
 
 * **"Guest login on login page":**<br>
 Means that the guest access can be chosen on the login page.
@@ -28,7 +28,7 @@ Allows guests to search system-wide for courses that are available to them.
 
 ## External users {: #externals}
 
-![Invitation can be activated separately for each area, for course and groups additionally role and activation mode, tab External user](assets/login_anonymous_external_user_tab2_v1_de.png){ class="shadow lightbox" }
+![Invitation can be activated separately for each area, for course and groups additionally role and activation mode, tab External user](assets/login_anonymous_external_user_tab2_v1_de.png){ class="shadow lightbox" title="External user tab in the Login menu" }
 
 ### Course
 

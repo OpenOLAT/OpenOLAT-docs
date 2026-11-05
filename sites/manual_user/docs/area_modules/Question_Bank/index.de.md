@@ -60,14 +60,14 @@ Das Symbol vor jedem Eintrag zeigt die Art der Freigabe: :o_icon_o_icon_pool_poo
 
 Die Fragen können Sie mit anderen Personen teilen, die entsprechend der Konfiguration in der [System-Administration](../../../manual_admin/administration/eAssessment_Question_bank.de.md) Zugriff auf den Pool haben.
 
-Listen, Pools und Gruppen können Administrator:innen in der System-Administration deaktivieren, sie sind deshalb eventuell nicht sichtbar: `Administration > e-Assessment > Fragenpool`
+Listen, Pools und Gruppen können Systemadministrator:innen in der System-Administration deaktivieren, sie sind deshalb eventuell nicht sichtbar: `Administration > e-Assessment > Fragenpool`
 
 [Zum Seitenanfang ^](#question_bank)
 
 
 ## Fragen {: #questions}
 
-Den Bereich "Fragen" sehen Administrator:innen sowie Poolverwalter:innen, wenn ihnen in der System-Administration das Recht "alle Fragen sehen und die Metadaten bearbeiten" erteilt ist. Im Unterschied zu "Meine Fragen" listet der Eintrag "Alle Fragen" sämtliche Fragen des Fragenpools auf, auch Fragen anderer Autor:innen. Die Einträge "Ohne Fachbereich" und "Ohne Autor:in" zeigen Fragen, denen diese Angaben fehlen.
+Den Bereich "Fragen" sehen Administrator:innen und die Poolverwalter:innen, denen Systemadministrator:innen in der System-Administration das Recht "alle Fragen sehen und die Metadaten bearbeiten" erteilt haben. Im Unterschied zu "Meine Fragen" listet der Eintrag "Alle Fragen" sämtliche Fragen des Fragenpools auf, auch Fragen anderer Autor:innen. Die Einträge "Ohne Fachbereich" und "Ohne Autor:in" zeigen Fragen, denen diese Angaben fehlen.
 
 
 [Zum Seitenanfang ^](#question_bank)

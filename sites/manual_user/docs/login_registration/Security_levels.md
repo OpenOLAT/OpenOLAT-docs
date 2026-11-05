@@ -9,12 +9,12 @@
 **Level 2 - Passkey**: login with passkey only<br>
 **Level 3 - Password & Passkey (2FA)**: login with password and passkey (2-factor authentication)
 
-In addition, the administration can activate the [One Time Code](One_Time_Code.md). Users without a stored passkey then confirm their login with a confirmation code sent by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
+In addition, system administrators can activate the [One Time Code](One_Time_Code.md). Users without a stored passkey then confirm their login with a confirmation code sent by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
 
 
-## Security levels set by administrators {: #admin_levels}
+## Security levels set by system administrators {: #admin_levels}
 
-For some roles a higher security level makes sense, e.g. for user managers or administrators. In OpenOlat, a minimum required security level can therefore be set separately for each role. Administrators set the level per role in the system administration under:<br>
+For some roles a higher security level makes sense, e.g. for user managers or administrators. In OpenOlat, a minimum required security level can therefore be set separately for each role. System administrators set the level per role in the system administration under:<br>
 `Administration > Login > Password and authentication > Tab "Authentication"`
 
 With the button "Set all roles at level…" one level is applied to all roles at once.
@@ -24,7 +24,7 @@ With the button "Set all roles at level…" one level is applied to all roles at
 
 ## Change of a security level {: #change_level}
 
-With the option "Increase security level independently", administrators can allow users to set their security level themselves.
+With the option "Increase security level independently", system administrators can allow users to set their security level themselves.
 
 The change is made with the button "Change security level" under:<br>
 `Personal Menu > Password`
@@ -33,9 +33,9 @@ The change is made with the button "Change security level" under:<br>
 
 If a passkey is required for upgrading, users can generate the passkey themselves, also under `Personal Menu > Password`.
 
-If users are allowed to change their security level themselves, upgrading and downgrading are possible in principle. Whether a downgrade is possible, however, depends on the default set by the administrators.
+If users are allowed to change their security level themselves, upgrading and downgrading are possible in principle. Whether a downgrade is possible, however, depends on the default set by the system administrators.
 
-The minimum level is set by administrators. If, for example, level 2 is specified for the role of user manager, a user manager cannot downgrade to level 1 (password only), but can only choose between level 2 (passkey only) and level 3 (2-factor authentication).
+The minimum level is set by system administrators. If, for example, level 2 is specified for the role of user manager, a user manager cannot downgrade to level 1 (password only), but can only choose between level 2 (passkey only) and level 3 (2-factor authentication).
 
 
 ## Further information {: #further_information}

@@ -1,5 +1,5 @@
 <svg width="940" height="420" viewBox="0 0 940 420" xmlns="http://www.w3.org/2000/svg" font-family="'Roboto', Arial, sans-serif">
-  <title>Administrator:innen erstellen Taxonomieebenen, Autor:innen wählen sie am Objekt als Fachbereich</title>
+  <title>Systemadministrator:innen erstellen Taxonomieebenen, Autor:innen wählen sie am Objekt als Fachbereich</title>
   <defs>
     <marker id="arSea" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#126365"/></marker>
   </defs>
@@ -10,7 +10,7 @@
   <rect x="20" y="56" width="400" height="290" rx="8" fill="#FFFFFF" stroke="#342C24" stroke-width="1.5"/>
   <rect x="20" y="56" width="400" height="36" rx="8" fill="#342C24"/>
   <rect x="20" y="78" width="400" height="14" fill="#342C24"/>
-  <text x="220" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#FFFFFF">Administrator:innen, in der System-Administration</text>
+  <text x="220" y="80" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">Systemadministrator:innen, in der System-Administration</text>
 
   <g font-size="14" fill="#2D2926">
     <circle cx="50" cy="124" r="13" fill="#342C24"/>

@@ -13,7 +13,7 @@
 
     Further information can be found in the chapter [taxonomy](../administration/Modules_Taxonomy.md).
 
-Administrators configure the document pool in the system administration under:<br>
+System administrators configure the document pool in the system administration under:<br>
 `Administration > Modules > Document pool`
 
 The document pool appears as a separate [site](../../manual_user/area_modules/index.md) in the main navigation.

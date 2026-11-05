@@ -33,6 +33,6 @@ You can change your password here.
 
 ## COVID certificate {: #covid_certificate}
 
-During the COVID pandemic, frentix integrated functions for uploading and managing COVID certificates in OpenOlat. If administrators have activated these functions, you also find them in the section "Configuration".
+During the COVID pandemic, frentix integrated functions for uploading and managing COVID certificates in OpenOlat. If system administrators have activated these functions, you also find them in the section "Configuration".
 
 [View the details >](COVID_certificate.md)

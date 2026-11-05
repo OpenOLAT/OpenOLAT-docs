@@ -29,14 +29,14 @@ By means of the course element "LTI page" it is possible to integrate external l
 
 !!! tip "Tip"
 
-    The prerequisite is the activation and general setup of LTI by an administrator.
+    The prerequisite is that system administrators have activated and set up LTI in the system administration.
 
 
 The following parameters can be configured:
 
 ![LTI Version LTI 1.3 with the button Select content and the connection details, at the bottom the area Configuration assessment with Transfer score and Scaling factor](assets/course_element_lti_page_content_v3_en.png){ class="shadow lightbox" title="Page content tab in the course editor · 2026.11.04" }
 
-**LTI Version:** Here you choose how OpenOlat connects the external learning application. The options are "LTI 1.0 / 1.1", "LTI 1.3" and the tools that administrators have preconfigured for all courses. We recommend "LTI 1.3", the older version remains selectable for compatibility reasons. "LTI 1.3" and the preconfigured tools are available as soon as the module "LTI 1.3" is switched on: [Activate LTI](../../manual_admin/administration/LTI_Integrations.md#activate_lti)
+**LTI Version:** Here you choose how OpenOlat connects the external learning application. The options are "LTI 1.0 / 1.1", "LTI 1.3" and the tools that system administrators have preconfigured for all courses in the system administration. We recommend "LTI 1.3", the older version remains selectable for compatibility reasons. "LTI 1.3" and the preconfigured tools are available as soon as the module "LTI 1.3" is switched on: [Activate LTI](../../manual_admin/administration/LTI_Integrations.md#activate_lti)
 
 If you choose a preconfigured tool, OpenOlat takes the URL and the connection details from its configuration.
 
@@ -50,7 +50,11 @@ Which LTI services OpenOlat supports as a platform is shown in the overview [Sup
 
 **Password:** Enter the password matching the key, also provided by the supplier of your external learning application ("weeHoo1w" in the example above).
 
-**Skip launch page:** If this option is activated, the connected application is displayed directly, without the "Display LTI Learning Content" intermediate page. The administrator can disable this option.
+**Skip launch page:** If this option is activated, the connected application is displayed directly, without the "Display LTI Learning Content" intermediate page. If the option is greyed out, the server configuration of your OpenOlat instance prescribes the intermediate page for all courses. OpenOlat then always shows the intermediate page.
+
+!!! info "Contact"
+
+    Whether the intermediate page is prescribed for all courses is defined by the server configuration. For a change, contact your organisation.
 
 * * *
 
@@ -64,7 +68,7 @@ Which LTI services OpenOlat supports as a platform is shown in the overview [Sup
 
 **OpenOlat roles:** In this area you define which LTI role a person receives when they launch the LTI resource. For each of the three OpenOlat roles "Author", "Coach" and "Participant" you select the matching LTI roles: "Learner", "Instructor", "Administrator", "Teaching assistant", "Content developer" and "Mentor".
 
-Which of these LTI roles you may assign as a course owner is determined by the system administration. LTI roles that are not released are greyed out. Administrators and learning resource managers of the organisation the course belongs to can always assign all LTI roles [:octicons-tag-16:{ title="from Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003){:target="_blank"}.
+Which of these LTI roles you may assign as a course owner is defined by system administrators in the system administration: `Administration > External tools > LTI`, tab "Role mapping", see [LTI - Role mapping](../../manual_admin/administration/LTI_Role_Mapping.md#administration). LTI roles that are not released are greyed out. Administrators and learning resource managers of the organisation the course belongs to can always assign all LTI roles [:octicons-tag-16:{ title="from Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003){:target="_blank"}.
 
 **Transfer score:** With this switch in the area "Configuration assessment", the LTI page becomes an assessable course element: the external learning application sends scores to OpenOlat. The scores appear in the assessment tool, on the start page of the course element for the participant and in the evidence of achievement. How the learning application sends the scores depends on the "LTI Version":
 

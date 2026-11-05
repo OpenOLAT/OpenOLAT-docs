@@ -4,15 +4,15 @@ With the help of taxonomies, competence structures can be built up which can be 
 
 !!! info "Important"
 
-    In order for the taxonomies to be available in the ePortfolio, they must be [activated by the OpenOlat administrator](../../manual_admin/administration/eAssessment_ePortfolio.md).
+    In order for the taxonomies to be available in the ePortfolio, system administrators must [activate](../../manual_admin/administration/eAssessment_ePortfolio.md) them in the system administration.
 
 In a portfolio entry, the activated taxonomies are available to learners as competences and can be selected via a suggestion list.
 
-![Input field Competences in a portfolio entry with the selected competences Biologie, Flora and Gemüse and the suggestion list from the taxonomy, which shows the path for each level](assets/eP%20Kompetenz%20EN.png){ class="shadow lightbox" }
+![Input field Competences in a portfolio entry with the selected competences Biologie, Flora and Gemüse and the suggestion list from the taxonomy, which shows the path for each level](assets/eP%20Kompetenz%20EN.png){ class="shadow lightbox" title="Field Competences in a portfolio entry" }
 
 Learners get an overview of all assigned competences in the personal menu under `User tools > Competences`.
 
-![Page My competences with the table of all competences by taxonomy, level and level type, on the right the personal menu with the highlighted entry Competences](assets/Kompetenz_uebersicht_en.png){ class="shadow lightbox" }
+![Page My competences with the table of all competences by taxonomy, level and level type, on the right the personal menu with the highlighted entry Competences](assets/Kompetenz_uebersicht_en.png){ class="shadow lightbox" title="Page My competences" }
 
 ## Further information {: #further_information}
 

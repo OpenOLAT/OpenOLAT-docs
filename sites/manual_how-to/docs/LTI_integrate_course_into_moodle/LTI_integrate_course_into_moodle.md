@@ -28,7 +28,7 @@ So that the users of the Moodle platform can access the OpenOlat course from the
 
 ## Requirements {: #conditions}
 
-Administrator access must be ensured in both systems for the configuration. In OpenOlat, the System administrator role opens the system administration, where the external platform is entered. Who may release a course via LTI is defined by the system administration in the "Configuration" tab under `Administration > External tools > LTI`. Preferably, the configuration is done on both systems at the same time, since certain dialogs have to be configured in both systems in direct succession.
+Administrator access must be ensured in both systems for the configuration. In OpenOlat, the system administrator role opens the system administration, where the external platform is entered. Who may release a course via LTI is defined by the system administration in the "Configuration" tab under `Administration > External tools > LTI`. Preferably, the configuration is done on both systems at the same time, since certain dialogs have to be configured in both systems in direct succession.
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
 

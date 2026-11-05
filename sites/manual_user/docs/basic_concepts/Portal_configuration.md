@@ -1,6 +1,6 @@
 # Portal configuration {: #portal_configuration}
 
-The portal is disabled by default. If administrators have enabled the portal function, OpenOlat users can configure their portal page. The sections on the portal consist of various shortcuts, for example to personal groups, learning resources, the calendar, the notifications and to information about OpenOlat. You can choose which sections are displayed in which arrangement.
+The portal is disabled by default. If system administrators have enabled the site "Portal" in the system administration under `Administration > Customizing > Sites`, OpenOlat users can configure their portal page. The sections on the portal consist of various shortcuts, for example to personal groups, learning resources, the calendar, the notifications and to information about OpenOlat. You can choose which sections are displayed in which arrangement.
 
 If, for example, you mainly work with groups and therefore want to position the section "My groups" more prominently, click on "Configure page" at the top right. Move the section "My groups" to the desired place by means of the arrows.
 

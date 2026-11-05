@@ -2,7 +2,7 @@
 
 Mit einer Lizenz geben Sie bei Dateien, Fragen, Lernressourcen und Medien an,
 wie andere sie nutzen dürfen. Lizenzen sind in OpenOlat optional.
-Administrator:innen konfigurieren sie in der System-Administration unter:<br>
+Systemadministrator:innen konfigurieren sie in der System-Administration unter:<br>
 `Administration > Core-Konfiguration > Lizenzen`
 
 ## Lizenzen in Bereichen aktivieren [:octicons-tag-16:{ title="ab Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170) {: #licences_activation}

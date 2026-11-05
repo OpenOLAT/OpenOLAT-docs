@@ -1,6 +1,6 @@
 # e-Assessment Administration: Prüfungsverwaltung {: #assessment_mgmt}
 
-Wer Prüfungen für die ganze Instanz betreut, schaltet hier Prüfungsmodus und Prüfungseinsicht ein, behält alle Prüfungsmodi im Blick und stellt die Vorlagen für den Safe Exam Browser bereit. Administrator:innen und Systemadministrator:innen finden die Prüfungsverwaltung in der System-Administration unter:<br>
+Wer Prüfungen für die ganze Instanz betreut, schaltet hier Prüfungsmodus und Prüfungseinsicht ein, behält alle Prüfungsmodi im Blick und stellt die Vorlagen für den Safe Exam Browser bereit. Systemadministrator:innen finden die Prüfungsverwaltung in der System-Administration unter:<br>
 `Administration > e-Assessment > Prüfungsverwaltung`
 
 
@@ -19,7 +19,7 @@ Die übrigen Tabs hängen von diesen beiden Schaltern ab: Der Tab "Prüfungsmodu
 
 ## Tab Prüfungsmodus  {: #tab_mode}
 
-Als Administrator:in können Sie sich einen Überblick über alle in Ihrer OpenOlat-Instanz angelegten Prüfungsmodi verschaffen.
+Als Systemadministrator:in können Sie sich einen Überblick über alle in Ihrer OpenOlat-Instanz angelegten Prüfungsmodi verschaffen.
 
 Die Suche filtert nach "ID", "Name", "Beginn Datum" und "End Datum". Die Tabelle zeigt je Prüfungsmodus die Spalten "Status", "Kurs", "Titel", "Beginn", "Ende", "Vorlauf", "Nachlauf" und "Für".
 
@@ -133,7 +133,7 @@ Startet ein:e Teilnehmer:in eine Prüfung mit einer älteren Version, wird die P
 [Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Prüfungsverwaltung: Prüfungseinsicht >](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
-[Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein? >](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
+[Wie richte ich als Systemadministrator:in den Safe Exam Browser (SEB) systemweit ein? >](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
 [Modul Termine und Absenzen >](Modules_Events_and_Absences.de.md)
 
 [Zum Seitenanfang ^](#assessment_mgmt)

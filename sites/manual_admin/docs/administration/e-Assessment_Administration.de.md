@@ -2,12 +2,12 @@
 
 ![Neun Einträge im Menü e-Assessment der System-Administration, von Coaching bis ePortfolio, jeder mit eigenem Abschnitt auf dieser Seite](assets/admin_e-assessment_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
-Administrator:innen richten im Menü e-Assessment der System-Administration die Werkzeuge rund um Bewertung und Prüfungen für die ganze Instanz ein. Jeder Abschnitt dieser Seite gehört zu einem Eintrag des Menüs und führt zu dessen Detailseite.
+Systemadministrator:innen richten im Menü e-Assessment der System-Administration die Werkzeuge rund um Bewertung und Prüfungen für die ganze Instanz ein. Jeder Abschnitt dieser Seite gehört zu einem Eintrag des Menüs und führt zu dessen Detailseite.
 
 
 ## Coaching {: #coaching}
 
-Unter "Coaching" sehen Administrator:innen, dass das Coaching auf der Instanz eingeschaltet ist. Die Checkbox "Coaching Zugang" ist ausgegraut, weil Betreuer:innen und Besitzer:innen ihre Lernressourcen über das Coaching erreichen. [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
+Unter "Coaching" sehen Systemadministrator:innen, dass das Coaching auf der Instanz eingeschaltet ist. Die Checkbox "Coaching Zugang" ist ausgegraut, weil Betreuer:innen und Besitzer:innen ihre Lernressourcen über das Coaching erreichen. [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
 [Zu den Details >](../../manual_user/area_modules/Coaching.de.md#availability)<br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -30,7 +30,7 @@ An dieser Stelle wird die Testquittung konfiguriert und werden Einstellungen fü
 
 ## Einstufung/Noten [:octicons-tag-16:{ title="ab Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007) {: #grading_levels}
 
-Neben der Bewertung mit Punkten lässt sich das Modul "Einstufung/Noten" einschalten. Dort ergänzen und konfigurieren Administrator:innen Bewertungssysteme und legen das Standard-Bewertungssystem fest, das in neuen Bewertungsskalen vorausgewählt ist. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596)
+Neben der Bewertung mit Punkten lässt sich das Modul "Einstufung/Noten" einschalten. Dort ergänzen und konfigurieren Systemadministrator:innen Bewertungssysteme und legen das Standard-Bewertungssystem fest, das in neuen Bewertungsskalen vorausgewählt ist. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596)
 
 [Zu den Details >](../administration/Assessment_translate_points_in_grades_admin.de.md) <br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -38,7 +38,7 @@ Neben der Bewertung mit Punkten lässt sich das Modul "Einstufung/Noten" einscha
 
 ## Prüfungsverwaltung {: #exam_admin}
 
-An dieser Stelle können Administrator:innen Prüfungsmodus und Prüfungseinsicht für die OpenOlat Instanz grundsätzlich aktivieren und nach Prüfungen suchen. Ausserdem können Konfigurationsvorlagen für den Safe Exam Browser hinzugefügt und verwaltet werden.
+An dieser Stelle können Systemadministrator:innen Prüfungsmodus und Prüfungseinsicht für die OpenOlat Instanz grundsätzlich aktivieren und nach Prüfungen suchen. Ausserdem können Konfigurationsvorlagen für den Safe Exam Browser hinzugefügt und verwaltet werden.
 
 [Zu den Details >](../administration/e-Assessment_AssessmentMgmt.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -58,7 +58,7 @@ Zusätzlich ist diese Funktion auch für Benutzerverwalter:innen, Linienvorgeset
 
 ## OpenBadges [:octicons-tag-16:{ title="ab Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #openbadges}
 
-Hier schalten Administrator:innen die Badges ein. Ausserdem erstellen und verwalten sie hier die globalen Badges.
+Hier schalten Systemadministrator:innen die Badges ein. Ausserdem erstellen und verwalten sie hier die globalen Badges.
 
 [Zu den Details >](../administration/e-Assessment_openBadges.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -74,7 +74,7 @@ Sind die Kreditpunkte hier eingeschaltet, vergeben Kursbesitzer:innen ihren Teil
 
 ## ePortfolio {: #portfolio}
 
-Das ePortfolio kann von Administrator:innen ein- oder ausgeschaltet werden. Ist es aktiviert, können verschiedene Einstellungen zu den Nutzungsmöglichkeiten festgelegt werden.
+Das ePortfolio kann von Systemadministrator:innen ein- oder ausgeschaltet werden. Ist es aktiviert, können verschiedene Einstellungen zu den Nutzungsmöglichkeiten festgelegt werden.
 
 [Zu den Details >](eAssessment_ePortfolio.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
@@ -84,7 +84,7 @@ Das ePortfolio kann von Administrator:innen ein- oder ausgeschaltet werden. Ist 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein? >](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
+[Wie richte ich als Systemadministrator:in den Safe Exam Browser (SEB) systemweit ein? >](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
 [Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management.de.md)
 
 [Zum Seitenanfang ^](#e-assessments)

@@ -21,7 +21,7 @@ Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 !!! info "Wichtig"
 
-    Wenn Sie in der Liste Ihrer persönlichen Werkzeuge keinen Kalender finden, haben Administrator:innen ihn in der System-Administration ausgeschaltet:<br>
+    Wenn Sie in der Liste Ihrer persönlichen Werkzeuge keinen Kalender finden, haben Systemadministrator:innen ihn in der System-Administration ausgeschaltet:<br>
     `Administration > Core-Konfiguration > Kalender`
 
 

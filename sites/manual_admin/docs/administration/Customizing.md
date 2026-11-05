@@ -2,7 +2,7 @@
 
 ![Appearance and main navigation of the whole instance in seven menu items, from Layout to Sites, in the expanded Customizing menu of the system administration](assets/admin_customizing_overview_v2_en.png){ class="shadow lightbox aside-left-lg" }
 
-In the "Customizing" menu, administrators and system administrators adapt the appearance and the main navigation of the whole instance. You will find these settings in the system administration under:<br>
+In the "Customizing" menu, system administrators adapt the appearance and the main navigation of the whole instance. You will find these settings in the system administration under:<br>
 `Administration > Customizing`
 
 ## Profile
@@ -107,7 +107,7 @@ The portal is a site of the main navigation on which people arrange quick links,
 !!! info "frentix customers"
     For frentix customers, their customer advisor at frentix takes care of this configuration.
 
-Which details OpenOlat keeps about a person, what these details are called and where they appear is defined by administrators and system administrators for the whole instance. In one place you decide which data your organisation collects and which fields persons fill in in their profile, when an account is created or during self-registration. You will find the settings in the system administration under:<br>
+Which details OpenOlat keeps about a person, what these details are called and where they appear is defined by system administrators for the whole instance. In one place you decide which data your organisation collects and which fields persons fill in in their profile, when an account is created or during self-registration. You will find the settings in the system administration under:<br>
 `Administration > Customizing > User Properties`
 
 The page has three tabs: "Properties" for the individual details, "Contexts" for the places where the details appear, and "Reset" for the whole configuration at once.
@@ -179,7 +179,7 @@ On an existing installation it depends on whether the settings of this page have
 
 ## Sites {: #sites}
 
-On the "Sites" page, administrators define which sites the main navigation in the top row offers, in which order and for which roles. You will find the page in the system administration under:<br>
+On the "Sites" page, system administrators define which sites the main navigation in the top row offers, in which order and for which roles. You will find the page in the system administration under:<br>
 `Administration > Customizing > Sites`
 
 What a site is and what decides whether a person sees it is explained in the user manual on the page [Sites and modules](../../manual_user/area_modules/index.md#conditions).

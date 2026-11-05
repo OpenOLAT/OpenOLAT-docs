@@ -50,7 +50,7 @@ To verify the validity of the certificate, the attribute "certificateVerificatio
 
     frentix creates certificate templates to your specifications. Contact your organisation for this.
 
-By default, the supplied default template is used as the template for the certificate. Administrators also provide further system-wide templates for selection. If you want to use your own template, upload it under:<br>
+By default, the supplied default template is used as the template for the certificate. System administrators also provide further system-wide templates for selection, in the system administration under `Administration > e-Assessment > Certificates`. If you want to use your own template, upload it under:<br>
 `Course > Administration > Settings > Assessment > "Certificate" section > Certificate template`
 
 !!! note "Note"

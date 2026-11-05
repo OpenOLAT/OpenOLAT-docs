@@ -5,7 +5,7 @@
 You find the reports in the system administration under:<br>
 `Administration > Reports`
 
-Administrators can request reports on the following areas:
+System administrators can request reports on the following areas:
 
 ---
 
@@ -22,7 +22,7 @@ Here it is possible to search for specific certificates, e.g. all certificates f
 
 ## Questions to tests {: #questions_in_tests}
 
-In the Reports section, administrators can search for specific test questions.
+In the Reports section, system administrators can search for specific test questions.
 For example, all questions by an author or a specific title can be displayed.
 
 [To the top of the page ^](#reports)
@@ -31,7 +31,7 @@ For example, all questions by an author or a specific title can be displayed.
 
 ## Course memberships {: #course_memberships}
 
-Administrators can export Excel tables here that summarize who is a member of which courses. Tables can be created for participants, coaches and owners (in a summarized table or individually).
+System administrators can export Excel tables here that summarize who is a member of which courses. Tables can be created for participants, coaches and owners (in a summarized table or individually).
 
 [To the top of the page ^](#reports)
 

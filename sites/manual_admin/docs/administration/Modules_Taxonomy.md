@@ -1,6 +1,6 @@
 # Module Taxonomy {: #module_taxonomy}
 
-In the Taxonomy module you build the indexing that the catalog, question bank, document pool, ePortfolio, Course Planner and Media Center use to organise their content. Administrators and system administrators open the module in the system administration under:<br>
+In the Taxonomy module you build the indexing that the catalog, question bank, document pool, ePortfolio, Course Planner and Media Center use to organise their content. System administrators open the module in the system administration under:<br>
 `Administration > Modules > Taxonomy`
 
 !!! note "What is a taxonomy?"

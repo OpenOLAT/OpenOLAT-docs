@@ -2,17 +2,17 @@
 
 ![Menü System in der System-Administration mit zehn Bereichen, darunter Info messages, Errors, Caches und Scheduler, für Systeminformationen, Wartung und Diagnose](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-Im Bereich "System" der OpenOlat-Administration erhalten Administrator:innen allgemeine Informationen zur Runtime, wie genutzter Speicher, aktuelle Klickzahlen oder Verzeichnisse. 
+Im Bereich "System" der OpenOlat-Administration erhalten Systemadministrator:innen allgemeine Informationen zur Runtime, wie genutzter Speicher, aktuelle Klickzahlen oder Verzeichnisse.
 
-Die Administrator:innen haben hier Zugriff auf das nebenstehende Menü.
+Die Systemadministrator:innen haben hier Zugriff auf das nebenstehende Menü.
 
 ---
 
 ## Info messages {: #info_message}
 
-Hier kann im OpenOlat HTML Editor eine Info Message erstellt werden, die auf der **Login-Seite** neben dem eigentlichen Login Zugangsbereich erscheint. 
+Hier kann im OpenOlat HTML Editor eine Info Message erstellt werden, die auf der **Login-Seite** neben dem eigentlichen Login Zugangsbereich erscheint.
 
-Auch für Meldungen bezüglich **Wartungsarbeiten** gibt es einen eigenen Bereich. Diese Information erscheint auf allen OpenOlat-Seiten und kann ebenfalls im OpenOlat-Editor erstellt werden. 
+Auch für Meldungen bezüglich **Wartungsarbeiten** gibt es einen eigenen Bereich. Diese Information erscheint auf allen OpenOlat-Seiten und kann ebenfalls im OpenOlat-Editor erstellt werden.
 
 Zusätzlich können Dokumente (z.B. weitere Infos in pdf-Form) verlinkt werden. Hierfür steht ein "Static Ordner" zur Verfügung.
 
@@ -33,9 +33,9 @@ Hier werden die aktuell eingeloggten Personen angezeigt.
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellung "Log levels".
 
-Im Tab "Fehler" suchen Administrator:innen eine Fehlermeldung nach Fehlernummer und Datum.
+Im Tab "Fehler" suchen Systemadministrator:innen eine Fehlermeldung nach Fehlernummer und Datum.
 
-Im Tab "Log levels" legen Administrator:innen für jeden Logger fest, wie ausführlich OpenOlat protokolliert: "Error", "Warn", "Info" oder "Debug".
+Im Tab "Log levels" legen Systemadministrator:innen für jeden Logger fest, wie ausführlich OpenOlat protokolliert: "Error", "Warn", "Info" oder "Debug".
 
 [Zum Seitenanfang ^](#system)
 
@@ -46,7 +46,7 @@ Im Tab "Log levels" legen Administrator:innen für jeden Logger fest, wie ausfü
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
 
-Hier finden Administrator:innen die Dateien im Log-Verzeichnis des Servers, je mit Dateiname und Grösse. Ein Klick auf einen Dateinamen lädt die Datei herunter. Die Dateien "olat.log", "catalina.out" und "syncher.log" stehen zuoberst, die übrigen folgen nach dem Datum der letzten Änderung, die neueste zuerst.
+Hier finden Systemadministrator:innen die Dateien im Log-Verzeichnis des Servers, je mit Dateiname und Grösse. Ein Klick auf einen Dateinamen lädt die Datei herunter. Die Dateien "olat.log", "catalina.out" und "syncher.log" stehen zuoberst, die übrigen folgen nach dem Datum der letzten Änderung, die neueste zuerst.
 
 [Zum Seitenanfang ^](#system)
 
@@ -57,7 +57,7 @@ Hier finden Administrator:innen die Dateien im Log-Verzeichnis des Servers, je m
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
 
-Hier sehen Administrator:innen die Cache-Einstellungen und leeren die OpenOlat-Caches.
+Hier sehen Systemadministrator:innen die Cache-Einstellungen und leeren die OpenOlat-Caches.
 
 [Zum Seitenanfang ^](#system)
 
@@ -65,7 +65,7 @@ Hier sehen Administrator:innen die Cache-Einstellungen und leeren die OpenOlat-C
 
 ## Locks {: #locks}
 
-Hier sehen Administrator:innen die Objekte, die Benutzer:innen gesperrt haben.
+Hier sehen Systemadministrator:innen die Objekte, die Benutzer:innen gesperrt haben.
 
 [Zum Seitenanfang ^](#system)
 
@@ -84,7 +84,7 @@ Die Seite "Database ORM" liefert Statistik-Angaben und listet JPA Queries und JP
 
 ## Java VM Infos {: #java}
 
-Hier finden Administrator:innen Informationen zum Java Speicher, zu Threads und Umgebungsvariablen und können die Java Garbage Collection starten.
+Hier finden Systemadministrator:innen Informationen zum Java Speicher, zu Threads und Umgebungsvariablen und können die Java Garbage Collection starten.
 
 [Zum Seitenanfang ^](#system)
 
@@ -92,7 +92,7 @@ Hier finden Administrator:innen Informationen zum Java Speicher, zu Threads und 
 
 ## Scheduler {: #scheduler}
 
-Hier finden Administrator:innen eine Übersicht über Scheduler-Jobs.
+Hier finden Systemadministrator:innen eine Übersicht über Scheduler-Jobs.
 
 [Zum Seitenanfang ^](#system)
 
@@ -103,6 +103,6 @@ Hier finden Administrator:innen eine Übersicht über Scheduler-Jobs.
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
 
-Hier finden Administrator:innen eine Auflistung aller Keys der Standard-Variablen und die Modul-Konfigurationen.
+Hier finden Systemadministrator:innen eine Auflistung aller Keys der Standard-Variablen und die Modul-Konfigurationen.
 
 [Zum Seitenanfang ^](#system)

@@ -19,7 +19,7 @@ Course Planner (Startseite/Dashboard)
 
 ## Zusammenhänge
 
-Die Widgets (Durchführungen, Termine, Teilnehmer:innen, To-dos) bündeln Kennzahlen und verlinken in die jeweiligen Bereiche. Eine persönliche Konfiguration überschreibt den Systemstandard, den Administrator:innen für alle festlegen können.
+Die Widgets (Durchführungen, Termine, Teilnehmer:innen, To-dos) bündeln Kennzahlen und verlinken in die jeweiligen Bereiche. Eine persönliche Konfiguration überschreibt den Systemstandard, den Systemadministrator:innen für alle festlegen können.
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -28,3 +28,5 @@ Die Widgets (Durchführungen, Termine, Teilnehmer:innen, To-dos) bündeln Kennza
 [Course Planner: Dashboard >](../Course_Planner_Dashboard.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.de.md)
+
+[Zum Seitenanfang ^](#dashboard)

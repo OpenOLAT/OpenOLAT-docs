@@ -1,6 +1,6 @@
 # External Tools: Overview {: #ext_tools}
 
-In the menu "External tools", the OpenOlat administrators switch various external tools on and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide. The menu is located in the system administration under: `Administration > External tools`
+In the menu "External tools", system administrators switch various external tools on and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide. The menu is located in the system administration under: `Administration > External tools`
 
 ## Profile
 
@@ -36,7 +36,7 @@ If the module is switched on and the credentials for the OpenMeetings server are
   * In courses with the course element OpenMeetings. Each course element creates a corresponding room on the OpenMeetings server.
   * In groups with the OpenMeetings group tool. Each group has its own OpenMeetings room that can be used like any other group tool.
 
-In the tab "Rooms", administrators get an overview of the OpenMeetings rooms created in OpenOlat.
+In the tab "Rooms", system administrators get an overview of the OpenMeetings rooms created in OpenOlat.
 
 [To the top of the page ^](#ext_tools)
 
@@ -131,7 +131,7 @@ To use the vitero connection, you must have a valid vitero license and enter the
 access data for the Web Service API in the system administration, under:<br>
 `Administration > External tools > vitero`
 
-You receive the following information from your vitero or OpenOlat administrators: "URL vitero server", "Web service username", "Web service password" and "Client identifier".
+You receive the following information from vitero: "URL vitero server", "Web service username", "Web service password" and "Client identifier".
 
 Under "Time Zone OLAT server" you set the time zone of your OpenOlat system. This is necessary to synchronize the times of the appointments with the vitero system.
 

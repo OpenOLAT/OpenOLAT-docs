@@ -3,7 +3,7 @@
 !!! info "frentix customers"
     For frentix customers, their customer advisor at frentix takes care of this configuration.
 
-Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, owners and coaches use it to create online meetings that participants join from within OpenOlat. Administrators define for the whole instance which types of online meetings are available, for example whether every meeting needs a date and therefore appears in the calendar.
+Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, owners and coaches use it to create online meetings that participants join from within OpenOlat. System administrators define for the whole instance which types of online meetings are available, for example whether every meeting needs a date and therefore appears in the calendar.
 
 You configure the module in the system administration under:<br>
 `Administration > External tools > Microsoft Teams`

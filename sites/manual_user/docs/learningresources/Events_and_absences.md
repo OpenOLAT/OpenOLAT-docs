@@ -302,7 +302,7 @@ Units for which the person is marked as not excused.
 Units for which the person is marked as authorized. A reason can be specified.
 
 **Dispensed**<br>
-Units for which the person is dispensed. Administrators define in the system administration whether dispensations count as attended, with the option "Count dispensation as attendant":<br>
+Units for which the person is dispensed. System administrators define in the system administration whether dispensations count as attended, with the option "Count dispensation as attendant":<br>
 `Administration > Modules > Events / Absences > Tab Configuration`
 
 **Progress**<br>

@@ -4,9 +4,9 @@
 
 ![Icon Profile](assets/icon_profile.png)
 
-If administrators have enabled the COVID certificate in the system administration under `Administration > Modules > COVID certificate`, users will find the tab "COVID certificate" under "Profile" in the personal menu. Here you add a new personal COVID certificate or view the status of your existing certificate. The tab appears only in your own profile.
+If system administrators have enabled the COVID certificate in the system administration under `Administration > Modules > COVID certificate`, users will find the tab "COVID certificate" under "Profile" in the personal menu. Here you add a new personal COVID certificate or view the status of your existing certificate. The tab appears only in your own profile.
 
-![Turquoise-highlighted tab COVID certificate to the right of the tabs Profile and My visiting card, in the profile of the personal menu](assets/pers_menu_profile_covid_v1_de.png){ class="shadow lightbox" }
+![Turquoise-highlighted tab COVID certificate to the right of the tabs Profile and My visiting card](assets/pers_menu_profile_covid_v1_de.png){ class="shadow lightbox" title="Profile in the personal menu" }
 
 !!! info "Important"
 
@@ -18,13 +18,13 @@ If administrators have enabled the COVID certificate in the system administratio
 
 Click on "Add new COVID certificate".
 
-Under "Automatically", you scan the QR code of your certificate with "Scan QR code" or upload the certificate with "Upload certificate" as an image or PDF (maximum 10 MB). The validation is done automatically, see [Validation status](#validation_status). The option "Automatically" is only available if administrators have enabled the scanning of COVID certificates.
+Under "Automatically", you scan the QR code of your certificate with "Scan QR code" or upload the certificate with "Upload certificate" as an image or PDF (maximum 10 MB). The validation is done automatically, see [Validation status](#validation_status). The option "Automatically" is only available if system administrators have enabled the scanning of COVID certificates in the system administration under `Administration > Modules > COVID certificate`.
 
 If automatic adding does **not** work, select "Manually". There you specify the type of certificate (Vaccination, Recovery, PCR test, Antigen Test or Medical Certificate) and the corresponding date. Manually entered data is not validated automatically, see [Validation status](#validation_status).
 
 In both cases you confirm that all the information provided is true. With the option "Send email before certificate expiration", OpenOlat notifies you by email before your certificate expires.
 
-![Card COVID certificate with name and user name, red 3G status display with cross and current time, and the button Add new COVID certificate, in the tab COVID certificate of the profile](assets/Bildschirmfoto 2021-10-01 um 17.01.19.png){ class="shadow lightbox" }
+![Card COVID certificate with name and user name, red 3G status display with cross and current time, and the button Add new COVID certificate](assets/Bildschirmfoto 2021-10-01 um 17.01.19.png){ class="shadow lightbox" title="COVID certificate tab in the profile" }
 
 ## Validation status {: #validation_status}
 
@@ -32,13 +32,13 @@ In addition to the colour, the status display shows the current time.
 
 ### Green
 
-![Green 3G status display with check mark and current time: validated certificate](assets/Bildschirmfoto%202021-10-01%20um%2017.05.13.png){ class="shadow lightbox" }
+![Green 3G status display with check mark and current time: validated certificate](assets/Bildschirmfoto%202021-10-01%20um%2017.05.13.png){ class="shadow lightbox" title="COVID certificate tab in the profile" }
 
 Your certificate is validated and valid.
 
 ### Orange
 
-![Orange 3G status display with question mark and current time: certificate recorded but not yet validated](assets/Bildschirmfoto%202021-10-01%20um%2017.03.01.png){ class="shadow lightbox" }
+![Orange 3G status display with question mark and current time: certificate recorded but not yet validated](assets/Bildschirmfoto%202021-10-01%20um%2017.03.01.png){ class="shadow lightbox" title="COVID certificate tab in the profile" }
 
 You have recorded data, but it has not yet been validated.
 
@@ -48,7 +48,7 @@ Contact the COVID commissioners of your organisation to have your certificate va
 
 ### Red
 
-![Red 3G status display with cross and current time: no valid certificate recorded](assets/Bildschirmfoto%202021-10-01%20um%2017.02.23.png){ class="shadow lightbox" }
+![Red 3G status display with cross and current time: no valid certificate recorded](assets/Bildschirmfoto%202021-10-01%20um%2017.02.23.png){ class="shadow lightbox" title="COVID certificate tab in the profile" }
 
 No certificate has been recorded, the certificate has expired or the automatic capture of the certificate could not be completed.
 

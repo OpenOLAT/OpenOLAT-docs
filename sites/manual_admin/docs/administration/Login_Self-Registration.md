@@ -1,6 +1,6 @@
 # Self-registration {: #self-registration}
 
-With self-registration, persons create their account themselves on the login page, without the user management creating it. Administrators define whether and how this is possible in the system administration, under:<br>
+With self-registration, persons create their account themselves on the login page, without the user management creating it. System administrators define whether and how this is possible in the system administration, under:<br>
 `Administration > Login > Self-registration`
 
 If "Use security levels / Passkey" is switched on and the minimum level "Level 2 - Passkey" applies to the role user, persons create a passkey instead of a password during self-registration. Their account then has no password. What to consider before switching passkey off is described under [Password and Authentication](Login_Password_and_Authentication.md#use_security_levels_passkey).

@@ -23,7 +23,7 @@ The menu item "People" in the Coaching Tool shows the list of **all participants
 
 !!! info "Note on the roles line manager and education manager"
 
-    These roles are only displayed in the Coaching Tool if administrators have activated the [Module Organisations](../../manual_admin/administration/Modules_Organisations.md) in the system administration.
+    These roles are only displayed in the Coaching Tool if system administrators have activated the [Module Organisations](../../manual_admin/administration/Modules_Organisations.md) in the system administration.
 
 
 
@@ -94,7 +94,7 @@ In this role, you find the events and absences of the people you coach in the to
 
 ### Under "Line manager", "Education manager" and own roles [:octicons-tag-16:{ title="from Release 20.0.4 (OO-8687)" }](https://track.frentix.com/issue/OO-8687){:target="_blank"} {: #person_detail_view_tabs}
 
-If you are responsible for a person as line manager, as education manager or in an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations), the detail view arranges all information about the person by topic in tabs. This way you find the learning progress, events and bookings of the person without switching to the individual courses. Each tab only appears if administrators have granted your role the corresponding right; the rights are shown in the section [Observational tasks](#linemanager_educationmanager_observe). The tabs are located below the details of the person in the following order.
+If you are responsible for a person as line manager, as education manager or in an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations), the detail view arranges all information about the person by topic in tabs. This way you find the learning progress, events and bookings of the person without switching to the individual courses. Each tab only appears if system administrators have granted your role the corresponding right; the rights are shown in the section [Observational tasks](#linemanager_educationmanager_observe). The tabs are located below the details of the person in the following order.
 
 ![The tabs from Courses to Account are arranged in a bar below the details of the person.](assets/coaching_people_detail_tabs_v1_en.png){ class="shadow lightbox" title="Detail view of a person in Coaching" }
 
@@ -140,7 +140,7 @@ Here you see how many credit points the person has in each credit point system a
 
 The tab is read-only. The buttons "Add credit points" and "Remove credit points" are missing, and the menu of a transaction only contains "Transaction detail". Administrators can credit, remove or cancel credit points in the user management. If a credit point system is restricted to organisations, you only see it if you belong to one of these organisations yourself.
 
-The prerequisites are the activated [credit points module](../../manual_admin/administration/e-Assessment_Credit_Points.md) and the right "View credit points", which administrators set [on the organisation](../../manual_admin/administration/Modules_Organisations.md#edit_linemanager) or on an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations). By default, the right is off. If one of the two prerequisites is missing, the tab is missing completely, without a notice.
+The prerequisites are the activated [credit points module](../../manual_admin/administration/e-Assessment_Credit_Points.md) and the right "View credit points", which system administrators set [on the organisation](../../manual_admin/administration/Modules_Organisations.md#edit_linemanager) or on an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations). By default, the right is off. If one of the two prerequisites is missing, the tab is missing completely, without a notice.
 
 #### Bookings {: #tab_bookings}
 
@@ -152,7 +152,7 @@ Here you see in which groups the person is a member. The prerequisite is the rig
 
 #### Calendar {: #tab_calendar}
 
-Here you see at a glance when the person is scheduled. The calendar combines their personal calendar, the course calendars of the courses in which they are a participant, and the calendars of their groups with the tool Calendar. Which of these appear depends on which calendars administrators have switched on in the [Core functions](../../manual_admin/administration/Core_functions.md#calendar_administration). An event from the event and absence management only appears if it is linked to a course and the course synchronises its events with the course calendar. The prerequisite for the tab is the right "View course calendar".
+Here you see at a glance when the person is scheduled. The calendar combines their personal calendar, the course calendars of the courses in which they are a participant, and the calendars of their groups with the tool Calendar. Which of these appear depends on which calendars system administrators have switched on in the [Core functions](../../manual_admin/administration/Core_functions.md#calendar_administration). An event from the event and absence management only appears if it is linked to a course and the course synchronises its events with the course calendar. The prerequisite for the tab is the right "View course calendar".
 
 !!! tip "Why is a course missing in the calendar?"
 
@@ -211,7 +211,7 @@ The module "Organisations" must be activated in the system administration.<br> `
 The person in question must have been assigned the role.<br> `User management > Select person > Tab Roles`
 
 **Requirement 3:**
-Administrators grant your role the rights you need in the system administration. Without a right, the corresponding tab or button is missing. To confirm pending memberships, your role needs the right "View bookings" and the right "Pending course booking orders" indented below it. The second can only be set once the first is set:<br>
+System administrators grant your role the rights you need in the system administration. Without a right, the corresponding tab or button is missing. To confirm pending memberships, your role needs the right "View bookings" and the right "Pending course booking orders" indented below it. The second can only be set once the first is set:<br>
 `Administration > Modules > Organisations > Tab Organisations structures > "Organisation unit (top level)" > Tab Line managers or Education managers > Options "View bookings" and "Pending course booking orders"`<br>
 What each right does is described in [Module Organisations: The rights in detail](../../manual_admin/administration/Modules_Organisations.md#rights_linemanager).
 
@@ -291,7 +291,7 @@ As a line manager or education manager, you are generally granted read access, b
 
 In the detail view of a person, you find this information in separate tabs: the courses attended in the tab [Courses](#tab_courses), the badges received in the tab [Badges](#tab_badges), the absences in the tab [Events & Absences](#tab_lectures) and the credit points in the tab [Credit points](#tab_credit_points). Which tab belongs to which right is described in the section [The detail view of a person](#person_detail_view_tabs).
 
-If you, as a line manager or education manager, want certain rights, you can have them set up by administrators. The screenshot below shows which options administrators can configure. (The same options exist for education managers.)
+If you, as a line manager or education manager, want certain rights, you can have them set up by system administrators. The screenshot below shows which options system administrators can set there. (The same options exist for education managers.)
 
 ![Rights of the role Line manager as a checkbox list, from View courses and CPL products to View "Reset password" action, all set](assets/coaching_people_line_manager5_v2_en.png){ class="shadow lightbox" title="Tab Line managers of an organisation · 2026.10.26" }
 
@@ -304,7 +304,7 @@ Open a person and switch to "Educational products". The list shows the implement
 * The filter tabs available are "All", "Relevant" and "Finished". "Relevant" is preselected.
 * The tabs "Favourites" and "Preparation" do not exist here. Only coaches and course owners see implementations in preparation.
 * There is no column "Status". Cancelled implementations appear in the tab "Finished", but cannot be filtered out separately there.
-* The columns "Progress" and "Timetable" only appear if administrators granted your role the corresponding rights.
+* The columns "Progress" and "Timetable" only appear if system administrators granted your role the corresponding rights.
 
 [To the top of the page ^](#people)
 

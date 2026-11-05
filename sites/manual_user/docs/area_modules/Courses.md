@@ -28,9 +28,9 @@ The filter "Execution period" shows the courses whose execution period is "Curre
 !!! info "Important"
     Sorted by execution period, the list is chronological by the begin date and not alphabetical by the label. With the same begin date, it sorts alphabetically by the title. Courses without a begin date, including courses without an execution period, always appear at the end of the list.
 
-A time period is not another word for the execution period, but a span such as a semester or quarter that administrators set up centrally. Authors can choose it as the execution period of a course instead of entering a "Begin and end date". How administrators manage the time periods is described on the page [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md). How you filter your view is described under [Working with tables](../basic_concepts/Table_Concept.md).
+A time period is not another word for the execution period, but a span such as a semester or quarter that system administrators set up centrally. Authors can choose it as the execution period of a course instead of entering a "Begin and end date". How system administrators manage the time periods is described on the page [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md). How you filter your view is described under [Working with tables](../basic_concepts/Table_Concept.md).
 
-The courses can be displayed in the table view or in the list view. In the table view, the columns "Begin" and "End" show when a course takes place. Via the gear "Customize columns" you show or hide the two columns, also if your organisation does not use the "Time periods" module. The columns "Time period" and "Time period desc.", in contrast, only appear when administrators have switched the module on. [:octicons-tag-16:{ title="from Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}
+The courses can be displayed in the table view or in the list view. In the table view, the columns "Begin" and "End" show when a course takes place. Via the gear "Customize columns" you show or hide the two columns, also if your organisation does not use the "Time periods" module. The columns "Time period" and "Time period desc.", in contrast, only appear when system administrators have switched the module on. [:octicons-tag-16:{ title="from Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}
 
 ### Search
 
@@ -50,7 +50,7 @@ Once you have found the course, you can also mark it as a favourite. To do this,
 
 The "Educational products" area appears when three conditions are met:
 
-* Administrators have activated the [Course Planner](../area_modules/Course_Planner.md) in the system administration: `Administration > Modules > Course Planner`.
+* System administrators have activated the [Course Planner](../area_modules/Course_Planner.md) in the system administration: `Administration > Modules > Course Planner`.
 * In this module, the setting [Product in "My courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses) is switched on.
 * You are entered in at least one implementation.
 

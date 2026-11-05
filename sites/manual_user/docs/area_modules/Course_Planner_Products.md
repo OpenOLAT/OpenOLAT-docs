@@ -70,7 +70,7 @@ If the "Organisations" module is activated, the organisation is a mandatory fiel
 
 #### Absences {: #create_product_absence_management}
 
-With the selection "On" or "Off", you determine whether absence management should be used for this product. The prerequisite is that administrators have activated the module and made it available to the course authors, at:<br>
+With the selection "On" or "Off", you determine whether absence management should be used for this product. The prerequisite is that system administrators have activated the module and made it available to the course authors, at:<br>
 `Administration > Modules > Events / Absences`
 
 #### Description {: #create_product_description}

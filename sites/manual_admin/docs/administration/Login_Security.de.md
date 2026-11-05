@@ -1,7 +1,7 @@
 # Sicherheit {: #security}
 
 
-Wie viel Schutz eine Instanz braucht, hängt von den Anforderungen Ihrer Organisation ab. In den Sicherheitseinstellungen wägen Administrator:innen und Systemadministrator:innen jede Schutzfunktion gegen ihre Wirkung auf eingebundene Inhalte ab. Die höchste Sicherheitsstufe erreichen Sie, wenn sämtliche Sicherheitsfunktionen eingeschaltet sind. Sie finden die Einstellungen in der System-Administration unter:<br>
+Wie viel Schutz eine Instanz braucht, hängt von den Anforderungen Ihrer Organisation ab. In den Sicherheitseinstellungen wägen Systemadministrator:innen jede Schutzfunktion gegen ihre Wirkung auf eingebundene Inhalte ab. Die höchste Sicherheitsstufe erreichen Sie, wenn sämtliche Sicherheitsfunktionen eingeschaltet sind. Sie finden die Einstellungen in der System-Administration unter:<br>
 `Administration > Login > Sicherheit`
 
 

@@ -12,9 +12,9 @@ If a course element has been added to a course in order to record the quality, t
 
 The data collection preview shows the **course owners** which surveys are planned.
 
-![Menu item "Data collection preview" marked in the "Administration" course menu](assets/data_collection_preview_menu_v1_de.png){ class="shadow lightbox" }
+![Menu item "Data collection preview" marked](assets/data_collection_preview_menu_v1_de.png){ class="shadow lightbox" title="Administration menu in the course" }
 
-![Time span tabs 1 month, 3 months and Custom, and tabs All and Negative list, Data collection preview page](assets/data_collection_preview_v1_de.png){ class="shadow lightbox" }
+![Time span tabs 1 month, 3 months and Custom, and tabs All and Negative list](assets/data_collection_preview_v1_de.png){ class="shadow lightbox" title="Data collection preview page" }
 
 !!! info "Important"
 
@@ -25,9 +25,9 @@ If a data collection has been prepared, it usually relates to several courses an
 
 ## Activation
 
-The "Quality management" module must be integrated by an administrator so that data can be collected for quality management purposes.
+So that data can be collected for quality management purposes, system administrators switch on the "Quality management" module in the system administration.
 
-The "Data collection preview" option must then be activated within the module configuration under `Administration > Modules > Quality Management`. Only then will the option appear for course owners and coaches in the "Administration" course menu.
+In the module configuration, they also switch on the option "Data collections previews", in the system administration under `Administration > Modules > Quality management`. Only then will the option appear for course owners and coaches in the "Administration" course menu.
 
 See [Module Quality Management](../../manual_admin/administration/Modules_Quality_Management.md).
 

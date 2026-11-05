@@ -1,6 +1,6 @@
 # Password and Authentication {: #password_and_authentication}
 
-Administrators and system administrators define here how account holders log in to OpenOlat, which rules a password must meet and when it has to be changed. The settings are located in the system administration under:<br>
+System administrators define here how account holders log in to OpenOlat, which rules a password must meet and when it has to be changed. The settings are located in the system administration under:<br>
 `Administration > Login > Password and authentication`
 
 ## Tab "Authentication" [:octicons-tag-16:{ title="from Release 18.1.2 (OO-7418)" }](https://track.frentix.com/issue/OO-7418) {: #tab-authentication}
@@ -57,7 +57,7 @@ Switching on activates the option for level 2 and 3. Only then does the section 
     3. Ask the persons with level 2 to switch to "Level 1 - Password" there. OpenOlat asks for a new password and then removes their passkeys.
     4. Switch passkey off. If the dialog still names accounts, clear them up first.
 
-    If a person with level 2 gets in touch after switching off, you help them in the user management in the "Password" tab in one of three ways, see [Manage user settings](../usermanagement/Configure_User.md#password):
+    If a person with level 2 gets in touch after switching off, administrators or user managers help them in the user management in the "Password" tab in one of three ways, see [Manage user settings](../usermanagement/Configure_User.md#password):
 
     * **Create login credentials:** With "Create login credentials" you set a password. Pass it on to the person in a secure way. They change it after logging in under `Personal Menu > Password`.
     * **Delete passkeys:** In the "Passkeys" section, delete all passkeys of the person. Then send them a link with "Send invitation link to set login credentials", with which they set their password themselves.
@@ -65,11 +65,11 @@ Switching on activates the option for level 2 and 3. Only then does the section 
 
 #### Increase security level independently {: #increase_security_level_independently}
 
-With the "Users can increase the security level themselves" option, account holders can decide for themselves whether they want to switch to a higher security level. It is not possible to downgrade below the minimum level set by the administrator.
+With the "Users can increase the security level themselves" option, account holders can decide for themselves whether they want to switch to a higher security level. It is not possible to downgrade below the minimum level set by system administrators.
 
 #### Required switch can be skipped {: #required_switch_can_be_skipped}
 
-If the security level has been increased by an administrator, the persons concerned will be asked to set up a passkey when they log in. This setting determines how often the persons concerned can skip this prompt: "Never", "5 times", "10 times" or "Unlimited".
+If a system administrator has increased the security level, the persons concerned will be asked to set up a passkey when they log in. This setting determines how often the persons concerned can skip this prompt: "Never", "5 times", "10 times" or "Unlimited".
 
 #### Set all roles at level… {: #set_all_roles_at_level}
 
@@ -81,7 +81,7 @@ The table lists each role in a row and the three security levels as columns. The
 
 ## Tab "Password syntax" {: #tab-password-syntax}
 
-As the administrator, you define here which criteria a password must fulfill. A minimum and maximum length must be defined. The rules apply as soon as you click "Save".
+As a system administrator, you define here which criteria a password must fulfill. A minimum and maximum length must be defined. The rules apply as soon as you click "Save".
 
 ![Minimum length 4 and maximum length 128, at least 1 letter and 1 digit or special sign, no forbidden values](assets/login_password_and_authentication_syntax_v4_en.png){ class="shadow lightbox" title="Password syntax tab in the Administration · 2026.10.31" }
 

@@ -4,7 +4,7 @@ Virtuelle Klassenzimmer bieten die Möglichkeit voice- und videobasiert synchron
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Virtuelle Klassenzimmer im Überblick](<https://www.youtube.com/embed/tTAujHOKnRs>){:target="_blank"}
 
-In OpenOlat können verschiedene virtuelle Klassenzimmer, auch als Web-Conferencing-Tools bezeichnet, eingebunden werden. In der Regel wird für die Nutzung dieser Systeme eine OpenOlat-weite Lizenz und ein entsprechender Hosting Server benötigt. Ist dies gegeben, schalten Administrator:innen die gewünschte Software in der System-Administration frei, unter:<br>
+In OpenOlat können verschiedene virtuelle Klassenzimmer, auch als Web-Conferencing-Tools bezeichnet, eingebunden werden. In der Regel wird für die Nutzung dieser Systeme eine OpenOlat-weite Lizenz und ein entsprechender Hosting Server benötigt. Ist dies gegeben, schalten Systemadministrator:innen die gewünschte Software in der System-Administration frei, unter:<br>
 `Administration > Externe Werkzeuge`
 
 Anschliessend können OpenOlat Autor:innen entsprechende virtuelle Klassenzimmer als Kursbaustein in Kursen einsetzen.

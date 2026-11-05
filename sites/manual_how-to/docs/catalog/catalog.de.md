@@ -23,7 +23,7 @@
 
 ### a) Als registrierte:r Benutzer:in {: #catalog_where_reg}
 
-OpenOlat-Benutzer:innen sehen in der Hauptnavigation meistens "Kurse" und "Gruppen", wenn sie Teilnehmer:innen sind. Autor:innen sehen zusätzlich den "Autorenbereich". Aber die Bereiche in der Hauptnavigation können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Bereiche in der Hauptnavigation dazu kommen. So z.B. auch der Katalog. Haben Administrator:innen den [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Bereich "Katalog" in der Hauptnavigation. Wird kein Katalog in der Hauptnavigation angezeigt, wenden Sie sich bitte an die Administrator:innen Ihrer OpenOlat-Instanz.
+OpenOlat-Benutzer:innen sehen in der Hauptnavigation meistens "Kurse" und "Gruppen", wenn sie Teilnehmer:innen sind. Autor:innen sehen zusätzlich den "Autorenbereich". Aber die Bereiche in der Hauptnavigation können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Bereiche in der Hauptnavigation dazu kommen. So z.B. auch der Katalog. Haben Systemadministrator:innen den [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) in der System-Administration aktiviert, finden Sie den Bereich "Katalog" in der Hauptnavigation. Wird kein Katalog in der Hauptnavigation angezeigt, wenden Sie sich bitte an die Systemadministrator:innen Ihrer OpenOlat-Instanz.
 
 ![Markierter Eintrag Katalog neben Kurse und Gruppen, darunter der Katalog mit Suchfeld](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" title="Katalog in der Hauptnavigation" }
 
@@ -63,11 +63,11 @@ Der OpenOlat-Katalog listet Kurzbeschreibungen zu Kursen und Lernressourcen auf.
 
 Die Angaben in den Kurzbeschreibungen stammen aus den Angaben, die Autor:innen beim Erstellen eines Kurses oder einer Lernressource in den [Einstellungen](../../manual_user/learningresources/Course_Settings.de.md) machen (Tab "Info" und Tab "Metadaten"). Meistens sind es Angaben, die Teilnehmende auch auf der Infoseite zu einem Kurs finden.
 
-Die **Gestaltung** des Katalogs legen [Administrator:innen](../../manual_admin/administration/Modules_Catalog_2.0.de.md) fest. Wurde z.B. bestimmt, dass in den Katalogeinträgen eine Angabe zum Durchführungsformat angezeigt werden soll, holt sich OpenOlat diese Information aus den Angaben der Autor:innen unter "Einstellungen" und zeigt sie an der vorgesehenen Stelle auf der Katalogkachel an.
+Die **Gestaltung** des Katalogs legen [Systemadministrator:innen](../../manual_admin/administration/Modules_Catalog_2.0.de.md) fest. Wurde z.B. bestimmt, dass in den Katalogeinträgen eine Angabe zum Durchführungsformat angezeigt werden soll, holt sich OpenOlat diese Information aus den Angaben der Autor:innen unter "Einstellungen" und zeigt sie an der vorgesehenen Stelle auf der Katalogkachel an.
 
 ![Feld Durchführungsformat mit dem Wert Zertifizierung, der als Abzeichen auf der Katalogkachel des Kurses erscheint](assets/kurs_einstellungen_v1_de.png){ class="shadow lightbox" title="Tab Metadaten in den Kurseinstellungen" }
 
-Angaben, die im Katalog-Layout nicht vorgesehen sind, können also beim Katalog 2.0 nicht von den Autor:innen völlig frei ergänzt werden. Das garantiert aber andererseits ein einheitliches geordnetes Aussehen des Katalogs. Wenden Sie sich an die Administrator:innen, wenn Sie Wünsche zur Gestaltung der Katalog-Kacheln haben.
+Angaben, die im Katalog-Layout nicht vorgesehen sind, können also beim Katalog 2.0 nicht von den Autor:innen völlig frei ergänzt werden. Das garantiert aber andererseits ein einheitliches geordnetes Aussehen des Katalogs. Wenden Sie sich an die Systemadministrator:innen, wenn Sie Wünsche zur Gestaltung der Katalog-Kacheln haben.
 
 
 [zum Seitenanfang ^](#catalog)
@@ -138,7 +138,7 @@ Sie können mehrere Angebote erstellen. Sie können z.B. für eine bestimmte Org
 
 ## Der Katalogaufbau {: #catalog_structure}
 
-Die Gestaltung des Katalogs wird einerseits durch die Angebote der Besitzer:innen bestimmt und andererseits durch die Vorgaben der Administrator:innen.
+Die Gestaltung des Katalogs wird einerseits durch die Angebote der Besitzer:innen bestimmt und andererseits durch die Vorgaben der Systemadministrator:innen.
 
 Besitzer:innen des Kurses:
 
@@ -149,7 +149,7 @@ Besitzer:innen des Kurses:
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Button "Angebot hinzufügen"`
 4. Bei Bedarf im Angebot unter "Freigegeben für" die Organisationen wählen, für die es gilt.
 
-Administrator:innen in der System-Administration:
+Systemadministrator:innen in der System-Administration:
 
 1. Die [Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md) anlegen:<br>
 `Administration > Module > Taxonomie`
@@ -185,12 +185,12 @@ Alle Angebote, die die Kriterien für einen bestimmten Launcher erfüllen, werde
 
 **Beispiel 1:**
 
-Ein Launcher ist (von den Administrator:innen) nur für Mitglieder einer bestimmten Organisationseinheit vorgesehen und wird nur diesen angezeigt. Erstellen Sie als Autor:in ein Angebot, das nur für diese bestimmte Organisationseinheit gilt, erscheint es in diesem Launcher.
+Ein Launcher ist (von den Systemadministrator:innen) nur für Mitglieder einer bestimmten Organisationseinheit vorgesehen und wird nur diesen angezeigt. Erstellen Sie als Autor:in ein Angebot, das nur für diese bestimmte Organisationseinheit gilt, erscheint es in diesem Launcher.
 
 
 **Beispiel 2:**
 
-In einem Launcher werden (von den Administrator:innen so festgelegt) nur Angebote angezeigt, die ein bestimmtes Stichwort der Taxonomie enthalten. Als Autor:in tragen Sie in den Metadaten Ihres Kurses den Taxonomiebegriff ein. Beim Erstellen eines Angebots sehen Sie, dass dieser Taxonomiebegriff zugeordnet ist. Das Angebot erscheint also automatisch in Launchern, die für Kurse mit diesem Taxonomiebegriff vorgesehen sind.
+In einem Launcher werden (von den Systemadministrator:innen so festgelegt) nur Angebote angezeigt, die ein bestimmtes Stichwort der Taxonomie enthalten. Als Autor:in tragen Sie in den Metadaten Ihres Kurses den Taxonomiebegriff ein. Beim Erstellen eines Angebots sehen Sie, dass dieser Taxonomiebegriff zugeordnet ist. Das Angebot erscheint also automatisch in Launchern, die für Kurse mit diesem Taxonomiebegriff vorgesehen sind.
 
 [zum Seitenanfang ^](#catalog)
 
@@ -199,7 +199,7 @@ In einem Launcher werden (von den Administrator:innen so festgelegt) nur Angebot
 
 ## Checkliste {: #checklist}
 
-- [x] Sind interner und/oder externer Katalog generell von den Administrator:innen instanzweit aktiviert?
+- [x] Sind interner und/oder externer Katalog generell von den Systemadministrator:innen instanzweit aktiviert?
 - [x] Wurden Launcher eingerichtet, in denen Angebote gezeigt werden?
 - [x] Wurden in den Kursen jeweils mindestens 1 Angebot erstellt?
 - [x] Wurden den Kursen Taxonomiebegriffe zugeordnet?

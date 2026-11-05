@@ -5,8 +5,8 @@ Mit dem Instant-Messaging schalten Sie die Funktionen "Chat" und
 Einstellungen dazu finden Sie in der System-Administration unter:<br>
 `Administration > Module > Instant-Messaging`
 
-Die System-Administration erreichen Administrator:innen und
-Systemadministrator:innen. Wie Rollen vergeben werden, beschreibt
+Die System-Administration erreichen Systemadministrator:innen. Wie Rollen
+vergeben werden, beschreibt
 [Rollen zuweisen](../usermanagement/Assign_roles.de.md).
 
 ### Instant-Messaging Modul [:octicons-tag-16:{ title="ab Release 8.4 (OO-448)" }](https://track.frentix.com/issue/OO-448) {: #im_module }

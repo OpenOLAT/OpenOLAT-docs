@@ -23,7 +23,7 @@ Ihre E-Mail-Adresse ändern Sie über den Button "Bearbeiten" beim Feld "E-Mail"
 
 <details>
     <summary>E-Mail-Signatur</summary>
-    Sollte die Möglichkeit zur Eingabe Ihrer E-Mail-Signatur nicht angezeigt werden, wenden Sie sich bitte an Ihre Administrator:in.
+    Sollte die Möglichkeit zur Eingabe Ihrer E-Mail-Signatur nicht angezeigt werden, wenden Sie sich bitte an Ihre Systemadministrator:innen.
     <img src="../assets/configuration_profile_signature_v1_de.png" alt="Feld E-Mail Signatur mit Texteditor im Tab Profil, markiert, rechts daneben der Eintrag Profil im persönlichen Menü" />
 
 </details>

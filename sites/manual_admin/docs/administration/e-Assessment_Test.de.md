@@ -8,18 +8,18 @@ Auf diesem Tab kann eine digital signierte Testquittung der Testergebnisse aktiv
 
 Unter Erweiterungen kann die QtiWorks Math extension aktiviert werden. Sie benötigt eine Maxima-Installation auf dem Server.
 
-![Checkbox Testquittung der Testergebnisse mit Zertifikats-Upload und Certificat password, darunter Checkbox QtiWorks Math extension, Tab QTI auf der Seite Test](assets/e-assessment_test_tab_QTI_v1_de.png){ class="shadow lightbox" }
+![Checkbox Testquittung der Testergebnisse mit Zertifikats-Upload und Certificat password, darunter Checkbox QtiWorks Math extension](assets/e-assessment_test_tab_QTI_v1_de.png){ class="shadow lightbox" title="Tab QTI auf der Seite Test" }
 
 
 ---
 
 ## Tab Korrektur  {: #tab_correction}
 
-Administrator:innen können festlegen, ob das Korrekturwerkzeug für anonyme Korrekturen eingerichtet werden soll.
+Systemadministrator:innen können festlegen, ob das Korrekturwerkzeug für anonyme Korrekturen eingerichtet werden soll.
 
 Ausserdem können sie grundsätzlich festlegen, ob eine Bewertung nach der manuellen Korrektur freigegeben und von Teilnehmer:innen eingesehen werden kann.
 
-![Checkbox Korrekturwerkzeug Anonym aktiviert und Option Nicht freigegeben gewählt, Tab Korrektur auf der Seite Test](assets/e-assessment_test_tab_correction_v1_de.png){ class="shadow lightbox" }
+![Checkbox Korrekturwerkzeug Anonym aktiviert und Option Nicht freigegeben gewählt](assets/e-assessment_test_tab_correction_v1_de.png){ class="shadow lightbox" title="Tab Korrektur auf der Seite Test" }
 
 
 [Zum Seitenanfang ^](#test)
@@ -35,7 +35,7 @@ Für das Management der Korrekturen durch mehrere verschiedene Korrektor:innen b
 Die angefallene Korrekturzeit kann verschiedenen Rollen zugänglich gemacht werden.
 
 
-![Korrektur-Workflow eingeschaltet, Sichtbarkeit der echten Korrekturminuten für vier Rollen, Liste der Mail-Vorlagen mit Übersetzen-Link, Tab Korrektur-Workflow auf der Seite Test](assets/e-assessment_test_tab_correction_workflow_v1_de.png){ class="shadow lightbox" }
+![Korrektur-Workflow eingeschaltet, Sichtbarkeit der echten Korrekturminuten für vier Rollen, Liste der Mail-Vorlagen mit Übersetzen-Link](assets/e-assessment_test_tab_correction_workflow_v1_de.png){ class="shadow lightbox" title="Tab Korrektur-Workflow auf der Seite Test" }
 
 
 [Zum Seitenanfang ^](#test)
@@ -46,7 +46,7 @@ Die angefallene Korrekturzeit kann verschiedenen Rollen zugänglich gemacht werd
 
 Werden OpenOlat-Prüfungen als handschriftliche Prüfungen ausgegeben, kann eine zusätzliche Seite angehängt werden, die hier definiert wird.
 
-![Feld Zusätzliche Seite mit Button Bearbeiten zum Definieren des Zusatztexts, Tab Prüfungsexport auf der Seite Test](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" }
+![Feld Zusätzliche Seite mit Button Bearbeiten zum Definieren des Zusatztexts](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" title="Tab Prüfungsexport auf der Seite Test" }
 
 
 [Zum Seitenanfang ^](#test)

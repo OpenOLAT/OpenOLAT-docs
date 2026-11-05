@@ -131,7 +131,7 @@ Normally, you would have to reply in all 1:1 chats and close each chat individua
 
 ### Video chat
 
-Sometimes it is helpful if the exam supervision and the exam participant can see each other briefly in a 1:1 video chat. BigBlueButton or Microsoft Teams is available for the video chat as soon as administrators have enabled one of them for the Supervisor chat, see [Activate video chat as administrator](#admin).
+Sometimes it is helpful if the exam supervision and the exam participant can see each other briefly in a 1:1 video chat. BigBlueButton or Microsoft Teams is available for the video chat as soon as system administrators have enabled one of them for the Supervisor chat, see [Activate video chat as system administrator](#admin).
 
 Only **coaches can start** a video chat, with "Start video conference" in the chat window below the input field.<br>
 Exam participants will then receive an invitation and can accept it.
@@ -201,9 +201,13 @@ If the course owner has allowed requests from participants, a speech bubble icon
 
 ---
 
-## 4. Activate video chat as administrator {: #admin}
+## 4. Activate video chat as system administrator {: #admin}
 
-So that coaches can start a video conference from the Supervisor chat, administrators enable BigBlueButton or Microsoft Teams for the Supervisor chat. One of the two modules is sufficient, and it must be switched on itself. To do this, activate the option "Supervisor chat" under "Activate for" in the system administration:<br>
+!!! info "frentix customers"
+
+    For frentix customers, their customer advisor at frentix takes care of the setting "Supervisor chat".
+
+So that coaches can start a video conference from the Supervisor chat, system administrators enable BigBlueButton or Microsoft Teams for the Supervisor chat. One of the two modules is sufficient, and it must be switched on itself. To do this, activate the option "Supervisor chat" under "Activate for" in the system administration:<br>
 `Administration > External tools > BigBlueButton > Tab "Configuration"`<br>
 `Administration > External tools > Microsoft Teams > Tab "Configuration"`
 
@@ -211,7 +215,7 @@ So that coaches can start a video conference from the Supervisor chat, administr
 
 The other settings of the two modules are described on the pages [BigBlueButton module](../../manual_admin/administration/BigBlueButton_module.md#tab_config) and [Microsoft Teams module](../../manual_admin/administration/Teams_module.md#activate_for).
 
-[Up (Admin section) ^](#admin)<br>
+[Up (System administrator section) ^](#admin)<br>
 [To the top of the page ^](#communication_during_exam)
 
 

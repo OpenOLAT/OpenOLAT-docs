@@ -14,7 +14,7 @@ Spezialität / Hinweis |
 
 Der Kursbaustein "Teilnehmer:innen Ordner" ermöglicht einen Dateiaustausch zwischen einzelnen Teilnehmenden und Betreuenden. Dafür stehen zwei Ordner zur Verfügung. Zum einen ist dies der "Teilnehmer:innen Abgabeordner", über den Teilnehmende Dateien an Betreuer:innen abgeben können. Zum anderen der "Betreuer:innen Rückgabeordner", in welchem die Betreuer:innen Dateien an alle Teilnehmer:innen gleichzeitig oder individuell zurückgeben können. Im Prinzip verbergen sich hinter diesem Kursbaustein zwei (Kursbaustein-) Ordner einmal mit Schreibberechtigung und einmal ohne, die jedoch nur für Betreuende und einen/eine einzelne(n) Teilnehmer:in sichtbar sind.
 
-Sofern von dem/der Administrator:in ein entsprechender Dokumenteneditor aktiviert wurde, ist auch die Erstellung von unterschiedlichen Dateiformaten wie Word, Excel oder PowerPoint Dateien direkt in OpenOlat möglich. Jeder/jede Kursteilnehmer:in sieht hier nur den eigenen individuellen Ordner. Einreichungen von anderen Lernenden sind im Teilnehmer:innen Ordner, im Gegensatz zum Kursbaustein "Ordner", nicht sichtbar.
+Sofern Systemadministrator:innen in der System-Administration unter `Administration > Externe Werkzeuge > Dokumenteneditoren` einen entsprechenden Dokumenteneditor aktiviert haben, ist auch die Erstellung von unterschiedlichen Dateiformaten wie Word, Excel oder PowerPoint Dateien direkt in OpenOlat möglich. Jeder/jede Kursteilnehmer:in sieht hier nur den eigenen individuellen Ordner. Einreichungen von anderen Lernenden sind im Teilnehmer:innen Ordner, im Gegensatz zum Kursbaustein "Ordner", nicht sichtbar.
 
 Der Kursbaustein Teilnehmer:innen Ordner kann im Bewertungswerkzeug auch in die Bewertung mit einbezogen werden.
 
@@ -29,7 +29,7 @@ Im Tab "Ordner Einstellungen" im Kurseditor können Konfigurationen zum Abgabe- 
 
 ![Tab "Ordner Einstellungen": Abgabe- und Rückgabeordner aktivieren, Löschen und Überschreiben erlauben, Zeitfenster und Dokumentenzahl einschränken](assets/course_element_participant_folder_settings_v1_de.png){ class="shadow lightbox" title="Tab Ordner Einstellungen im Kurseditor" }
 
-Ist der Teilnehmer:innen Abgabeordner aktiviert, können die Teilnehmenden Dateien hochladen oder direkt in OpenOlat erstellen. Wurden von dem/der Administrator:in der OpenOlat Instanz weitere Dokumenteneditoren aktiviert, ist auch die Erstellung von weiteren Dateiformaten wie Word, Excel oder PowerPoint Dateien möglich.
+Ist der Teilnehmer:innen Abgabeordner aktiviert, können die Teilnehmenden Dateien hochladen oder direkt in OpenOlat erstellen. Haben Systemadministrator:innen in der System-Administration weitere Dokumenteneditoren aktiviert, ist auch die Erstellung von weiteren Dateiformaten wie Word, Excel oder PowerPoint Dateien möglich.
 
 Für den Teilnehmer:innen Abgabeordner können auch weitere Konfigurationen vorgenommen werden. So können das Löschen und Überschreiben deaktiviert werden. Dies bedeutet, dass die Teilnehmenden keine Dokumente mehr löschen können, sobald sie diese hochgeladen bzw. erstellt haben. Alle Dokumente bleiben zwingend im Abgabeordner. Weiter kann ein Zeitfenster für die Abgabe festgelegt werden. Die Abgabe ist nur in diesem Zeitraum möglich. Ausserhalb des Zeitraumes können Dokumente nur heruntergeladen werden.
 

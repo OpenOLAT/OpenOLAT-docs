@@ -6,7 +6,7 @@
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
 
-Das Modul Course Planner steht in OpenOlat optional an Stelle des Moduls Curriculum zur Verfügung. Administrator:innen schalten es in der Administration mit dem Schalter [Modul "Course Planner"](#enable_course_planner) ein. Nach der Aktivierung zeigt der Bereich «Kurse» auf Wunsch auch die Produkte, siehe [Produkte in "Kurse"](#product_in_my_courses).
+Das Modul Course Planner steht in OpenOlat optional an Stelle des Moduls Curriculum zur Verfügung. Systemadministrator:innen schalten es in der Administration mit dem Schalter [Modul "Course Planner"](#enable_course_planner) ein. Nach der Aktivierung zeigt der Bereich «Kurse» auf Wunsch auch die Produkte, siehe [Produkte in "Kurse"](#product_in_my_courses).
 
 
 [Zum Seitenanfang ^](#module_course_planner)
@@ -15,7 +15,7 @@ Das Modul Course Planner steht in OpenOlat optional an Stelle des Moduls Curricu
 
 ## Tab Einstellungen {: #tab_course_planner}
 
-Im Tab "Einstellungen" schalten Administrator:innen den Course Planner ein und legen fest, mit welchen Voreinstellungen neue Kurse und Durchführungen starten. Sie finden ihn in der System-Administration unter: `Administration > Module > Course Planner`. Neben "Einstellungen" erscheinen die Tabs "Kursplaner:in" und "Elementtypen", sobald das Modul eingeschaltet ist.
+Im Tab "Einstellungen" schalten Systemadministrator:innen den Course Planner ein und legen fest, mit welchen Voreinstellungen neue Kurse und Durchführungen starten. Sie finden ihn in der System-Administration unter: `Administration > Module > Course Planner`. Neben "Einstellungen" erscheinen die Tabs "Kursplaner:in" und "Elementtypen", sobald das Modul eingeschaltet ist.
 
 Fünf Einstiege öffnen dieselbe Liste der Produkte und Durchführungen:
 

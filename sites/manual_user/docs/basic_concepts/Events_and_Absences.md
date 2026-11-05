@@ -91,7 +91,7 @@ In the event lists, the status is shown in the "Status" column.
 
 !!! info "General note"
 
-    Administrators can configure the settings in [Absence Management](../area_modules/Absence_Management.md) in great detail. If any of the options described are not available to you, please contact your administrator.
+    Which of these options are available is defined by system administrators in the system administration: `Administration > Modules > Events / Absences`, tab "Configuration". More on this in [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md). If any of the options described are not available to you, please contact your system administrators.
 
 !!! info "General note"
 
@@ -138,7 +138,7 @@ Participants have the opportunity to appeal against a decision made by coaches, 
 
 A distinction must be made between
 
-1. the **general activation and configuration** of absence management by administrators in the system administration at:<br>
+1. the **general activation and configuration** of absence management by system administrators in the system administration at:<br>
    `Administration > Modules > Events / Absences`<br>
    [More about that >](../../manual_admin/administration/Modules_Events_and_Absences.md)
 

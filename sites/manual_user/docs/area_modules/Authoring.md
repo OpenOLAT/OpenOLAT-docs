@@ -89,7 +89,7 @@ The "Status" column is always sorted in the following fixed order: Preparation, 
 
 ![Time period column sorted in ascending order, first by begin date, then entries with an end date only, entries without a time period at the end of the list](assets/authoring_sort_time_period_v1_en.png){ class="shadow lightbox" title="Time period column in the Authoring table · 2026.10.08" }
 
-The available time periods are provided by the system administration. The page [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md) describes how administrators manage time periods.
+The available time periods are provided by the system administration. The page [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md) describes how system administrators manage time periods.
 
 [To the top of the page ^](#authoring)
 

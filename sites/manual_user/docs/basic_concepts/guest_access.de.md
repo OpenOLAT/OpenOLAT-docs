@@ -44,7 +44,7 @@ Wenn Sie einem Gast direkten Zugriff auf einen Kurs geben möchten, schicken Sie
 
 !!! note "Hinweis"
 
-    OpenOlat-Administrator:innen finden auf den Seiten "[Anonyme Gäste und externe Benutzer:innen](../../manual_admin/administration/Guest_and_invitation.de.md)" sowie unter "[Customizing](../../manual_admin/administration/Customizing.de.md)" weitere Informationen zur Konfiguration von OpenOlat für Gäste.
+    Systemadministrator:innen finden auf den Seiten "[Anonyme Gäste und externe Benutzer:innen](../../manual_admin/administration/Guest_and_invitation.de.md)" sowie unter "[Customizing](../../manual_admin/administration/Customizing.de.md)" weitere Informationen zur Konfiguration von OpenOlat für Gäste.
 
 ## Weiterführende Informationen {: #further_information}
 

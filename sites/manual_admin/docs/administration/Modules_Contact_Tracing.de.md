@@ -26,7 +26,7 @@ OpenOlat speichert die Daten datenschutzkonform und löscht sie nach der Aufbewa
 
 ## Aktivierung des Moduls {: #module_activation}
 
-Das Modul "Kontaktverfolgung" öffnen Administrator:innen und Systemadministrator:innen in der System-Administration unter:<br>
+Das Modul "Kontaktverfolgung" öffnen Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Module > Kontaktverfolgung`
 
 Im Tab "Konfiguration" aktivieren Sie das Modul mit "Kontaktverfolgung aktiviert" und legen die "Aufbewahrungsfrist" sowie die "Standardaufhaltedauer" fest. Im Bereich "Fragebogen" bestimmen Sie die optionalen und verbindlichen Felder, im Bereich "Nachrichten und Texte" die Texte "Einleitung zur Registrierung", "Bestätigungsmail zur Registrierung" und "QR Code Anweisungen".

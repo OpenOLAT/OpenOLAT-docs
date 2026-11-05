@@ -20,7 +20,7 @@ Room management in the Course Planner is available to two roles:
 
 All other roles do not see the area, including Product owner, Element owner and Principal. Course owner, Master coach, Coach and Participant work on running the course, not on its organisational planning.
 
-Both roles read the information. You create and change rooms and buildings in the system administration, also if you have the Administrator role: `Administration > Modules > Rooms`. The complete overview of rights can be found in the [rights matrix](../area_modules/Course_Planner.md#rights_matrix) of the Course Planner.
+Both roles read the information. System administrators create and change rooms and buildings in the system administration: `Administration > Modules > Rooms`. The complete overview of rights can be found in the [rights matrix](../area_modules/Course_Planner.md#rights_matrix) of the Course Planner.
 
 [To the top of the page ^](#course_planner_rooms)
 
@@ -111,7 +111,7 @@ In the calendar of a single room row, too, a click on a booking opens the ["Book
 
 !!! info "Editing only in the administration"
 
-    Creating, editing and deleting rooms and buildings takes place in the system administration under `Administration > Modules > Rooms` and requires administrative rights. There you find "Settings", "Room Scheduling", "Rooms" and "Buildings". [Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md)
+    System administrators create, edit and delete rooms and buildings in the system administration: `Administration > Modules > Rooms`. There you find "Settings", "Room Scheduling", "Rooms" and "Buildings". [Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md)
 
 [To the top of the page ^](#course_planner_rooms)
 

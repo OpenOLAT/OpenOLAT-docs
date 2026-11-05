@@ -20,7 +20,7 @@ The area contains the following tabs:
 
 ## Tab Overview [:octicons-tag-16:{ title="from Release 14.2 (OO-4375)" }](https://track.frentix.com/issue/OO-4375) {: #files_and_folders_overview}
 
-In the Overview tab, administrators get a quick overall view of the number and size of OpenOlat files, versions, deleted files and thumbnails.
+In the Overview tab, system administrators get a quick overall view of the number and size of OpenOlat files, versions, deleted files and thumbnails.
 
 From the overview, links lead directly to the corresponding views: "Show large files", "Show trash" and "Show version settings". "Reset thumbnails" resets the status of thumbnails that could not be created. The "Recalculate" button determines the key figures anew.
 
@@ -61,7 +61,7 @@ You can see the current contents of the trash in the separate "Trash" tab.
 
 To keep the storage space of the instance plannable, you define in the "Quotas" tab how much storage the folders and the Media Center may occupy at most. Two values apply per path: "Quota (KB)" limits the whole folder, "Upload limit (KB)" a single uploaded file.
 
-Administrators and system administrators see the "Add quota" button and the actions for editing and deleting a quota. Only system administrators change the default values whose path starts with "::DEFAULT::".
+System administrators see the "Add quota" button and the actions for editing and deleting a quota. Here they also change the default values whose path starts with "::DEFAULT::".
 
 The following default values apply system-wide:
 
@@ -109,7 +109,7 @@ You create the quotas for the personal files and the Media Center of a person mo
 
 ## Tab Large files {: #files_and_folders_large_files}
 
-In the "Large files" tab, administrators can search specifically for large files and view more details about them.
+In the "Large files" tab, system administrators can search specifically for large files and view more details about them.
 
 With the **"Clean up metadata"** button, OpenOlat compares the files in the file system with the metadata in the OpenOlat database. If there are any differences, OpenOlat updates the metadata in the database.<br>
 The thumbnails are also updated in this context:
@@ -139,7 +139,7 @@ The result list shows the name, size and context of each file. In the last colum
 
 ## Tab Trash [:octicons-tag-16:{ title="from Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #files_and_folders_trash}
 
-All deleted files in the instance are first moved to the trash. They are automatically deleted there after a certain period of time or can be specifically selected by administrators and permanently deleted immediately.
+All deleted files in the instance are first moved to the trash. They are automatically deleted there after a certain period of time or can be specifically selected by system administrators and permanently deleted immediately.
 
 Restoring files in the trash is left to the people who moved ("deleted") the file to the trash. These people can retrieve a file from the trash themselves.
 

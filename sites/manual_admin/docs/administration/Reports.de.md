@@ -5,7 +5,7 @@
 Sie finden die Reports in der System-Administration unter:<br>
 `Administration > Reports`
 
-Administrator:innen können Reports zu folgenden Bereichen abfragen:
+Systemadministrator:innen können Reports zu folgenden Bereichen abfragen:
 
 ---
 
@@ -21,7 +21,7 @@ Hier kann nach bestimmten Zertifikaten gesucht werden, z.B. alle Zertifikate fü
 
 ## Fragen in Tests {: #questions_in_tests}
 
-Im Bereich Reports können Administrator:innen nach bestimmten Test-Fragen suchen.
+Im Bereich Reports können Systemadministrator:innen nach bestimmten Test-Fragen suchen.
 Zum Beispiel können alle Fragen bestimmter Autor:innen oder mit einem bestimmten Titel selektiert werden.
 
 [Zum Seitenanfang ^](#reports)
@@ -30,7 +30,7 @@ Zum Beispiel können alle Fragen bestimmter Autor:innen oder mit einem bestimmte
 
 ## Kurs Mitgliedschaften {: #course_memberships}
 
-Administrator:innen können hier Excel-Tabellen exportieren, in denen zusammengestellt ist, wer in welchen Kursen Mitglied ist. Es können Tabellen für Teilnehmer:innen, Betreuer:innen und Besitzer:innen erstellt werden (in einer zusammengefassten Tabelle oder einzeln). 
+Systemadministrator:innen können hier Excel-Tabellen exportieren, in denen zusammengestellt ist, wer in welchen Kursen Mitglied ist. Es können Tabellen für Teilnehmer:innen, Betreuer:innen und Besitzer:innen erstellt werden (in einer zusammengefassten Tabelle oder einzeln).
 
 [Zum Seitenanfang ^](#reports)
 

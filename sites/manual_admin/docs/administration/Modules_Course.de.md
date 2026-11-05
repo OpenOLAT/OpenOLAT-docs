@@ -1,7 +1,7 @@
 # Modul Kurs {: #course}
 
 
-Im Modul Kurs legen Sie als Administrator:in fest, welche Kursoptionen systemweit zur Verfügung stehen und mit welchen Voreinstellungen neue Kurse starten. Sie finden es in der System-Administration unter: `Administration > Module > Kurs`.
+Im Modul Kurs legen Sie als Systemadministrator:in fest, welche Kursoptionen systemweit zur Verfügung stehen und mit welchen Voreinstellungen neue Kurse starten. Sie finden es in der System-Administration unter: `Administration > Module > Kurs`.
 
 ## Tab Einstellungen {: #settings}
 

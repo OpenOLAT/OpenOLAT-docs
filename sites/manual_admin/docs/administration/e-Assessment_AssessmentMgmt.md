@@ -1,6 +1,6 @@
 # e-Assessment Administration: Assessment management {: #assessment_mgmt}
 
-Whoever looks after exams for the whole instance switches on assessment mode and assessment inspection here, keeps an eye on all assessment modes and provides the templates for the Safe Exam Browser. Administrators and system administrators find the assessment management in the system administration under:<br>
+Whoever looks after exams for the whole instance switches on assessment mode and assessment inspection here, keeps an eye on all assessment modes and provides the templates for the Safe Exam Browser. System administrators find the assessment management in the system administration under:<br>
 `Administration > e-Assessment > Assessment management`
 
 
@@ -18,7 +18,7 @@ The other tabs depend on these two switches: The tab "Assessment modes" only app
 
 ## Assessment modes tab  {: #tab_mode}
 
-As an administrator, you can view an overview of all assessment modes created in your OpenOlat instance.
+As a system administrator, you can view an overview of all assessment modes created in your OpenOlat instance.
 
 The search filters by "ID", "Name", "Start date" and "End date". For each assessment mode, the table shows the columns "Status", "Course", "Title", "Start", "End", "Prep time", "Follow-up" and "For".
 
@@ -130,7 +130,7 @@ If a participant starts an exam with an older version, the exam is not released;
 [Assessment management: Overview >](../../manual_user/learningresources/Assessment_Management.md)<br>
 [Assessment management: Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
 [Assessment management: Assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)<br>
-[As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
+[As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
 [Module Events and Absences >](Modules_Events_and_Absences.md)
 
 

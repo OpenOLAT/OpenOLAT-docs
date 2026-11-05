@@ -13,7 +13,7 @@ With the execution period, you specify when the course takes place. Participants
 
 * **Anytime**: The course is not bound to a period. The info page shows no execution period, and time-dependent functions have no reference point.
 
-* **Time period**: You select a predefined time period, for example a semester, see the section [Time period](#lifecycle). The option only appears if the administration has switched on the module "Time periods".
+* **Time period**: You select a predefined time period, for example a semester, see the section [Time period](#lifecycle). The option only appears if system administrators have switched on the module "Time periods" in the system administration.
 
 * **Begin and end date**: In the field "Dates", you enter the begin date and the end date of the course. The end day belongs to the period. If one of the two dates stays empty, the info page shows "From" with the begin date or "Until" with the end date.
 
@@ -21,7 +21,7 @@ With the execution period, you specify when the course takes place. Participants
 
 The selected execution period appears on the info page of the course under "Facts". 
 
-OpenOlat offers the same options when you [create a course](Creating_Course.md), also when you create it from a template, in the wizard ["Copy with wizard"](Course_Copy_Wizard.md), and for several courses at once in the bulk action ["Metadata and settings"](../area_modules/Authoring_BulkActions.md#metadata_settings) in Authoring. Which option is preselected when a course is created is set by the administration, see [Module Course](../../manual_admin/administration/Modules_Course.md#execution_period).
+OpenOlat offers the same options when you [create a course](Creating_Course.md), also when you create it from a template, in the wizard ["Copy with wizard"](Course_Copy_Wizard.md), and for several courses at once in the bulk action ["Metadata and settings"](../area_modules/Authoring_BulkActions.md#metadata_settings) in Authoring. Which option is preselected when a course is created is set by system administrators in the system administration, see [Module Course](../../manual_admin/administration/Modules_Course.md#execution_period).
 
 !!! info "Important"
 
@@ -31,7 +31,7 @@ On other functions in the course, however, the execution period does have an eff
 
 If "Begin and end date" or "One-day" is selected, the dates entered here will also apply to various time-dependent functions in the course, such as reminders or the automatic submission of assignments in the assignment module. With "One-day", the course day is both the begin and the end. 
 
-The end date of the execution period also controls the course life cycle. What happens after the end date is determined by the OpenOlat administrators. For example, OpenOlat can set the course to "Finished" two days after the end date or delete it four weeks later. It is best to check which settings apply to the course lifecycle in your OpenOlat instance. The configuration is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
+The end date of the execution period also controls the course life cycle. What happens after the end date is determined by system administrators in the system administration. For example, OpenOlat can set the course to "Finished" two days after the end date or delete it four weeks later. It is best to check which settings apply to the course lifecycle in your OpenOlat instance. The configuration is described in the administration manual under [Automatic Course Life Cycle](../../manual_admin/administration/Automatic_Course_Lifecycle.md).
 
 In traditional courses, the "Pass" status is determined based on whether the result was achieved within the course period. If a "Pass" is not achieved by the end of the end day (11:59 p.m.), "Fail" is automatically displayed.
 
@@ -42,7 +42,7 @@ In traditional courses, the "Pass" status is determined based on whether the res
 
 #### Time period {: #lifecycle }
 
-If your organisation plans in fixed time periods such as semesters, assign the course to one of these time periods instead of entering dates. To do so, select "Time period" for the execution period and then choose an entry in the field "Time period" below. Current and upcoming time periods are available that administrators have created in the system administration: `Administration > Modules > Time periods`, described under [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md).
+If your organisation plans in fixed time periods such as semesters, assign the course to one of these time periods instead of entering dates. To do so, select "Time period" for the execution period and then choose an entry in the field "Time period" below. Current and upcoming time periods are available that system administrators have created in the system administration: `Administration > Modules > Time periods`, described under [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md).
 
 The time period appears on the info page of the course under "Facts". It is independent of the course status and of the [access configuration](../learningresources/Access_configuration.md) and has no effect on visibility or access for course members.
 
@@ -90,27 +90,27 @@ In addition, the menu "Events and Absences" appears in the course administration
     Unlike owners, **coaches** can find the capture tool in the toolbar.<br>
     **Participants** find their absences in the [personal menu](../personal_menu/Absences.md).
 
-If you switch off the Event & absence management, the events and absences already entered remain saved. However, they no longer appear in any event list, neither in the course nor in Coaching nor in Absence management. The menu "Events and Absences" in the course administration and the "Events" tool in the toolbar disappear. In the Course Planner, the events stay visible at the implementation. When switching off, OpenOlat also resets "Override default configuration" to "No", and the values entered for this course are lost. If you switch the Event & absence management on again, the defaults of the administration apply at first.
+If you switch off the Event & absence management, the events and absences already entered remain saved. However, they no longer appear in any event list, neither in the course nor in Coaching nor in Absence management. The menu "Events and Absences" in the course administration and the "Events" tool in the toolbar disappear. In the Course Planner, the events stay visible at the implementation. When switching off, OpenOlat also resets "Override default configuration" to "No", and the values entered for this course are lost. If you switch the Event & absence management on again, the defaults of the system administration apply at first.
 
 Which other conditions decide whether an event appears is described under [Which events (with additional options) are displayed?](../basic_concepts/Events_and_Absences.md#event_conditions)
 
 
 #### Override default configuration {: #config_override }
 
-If this course is to work differently from the default of the administration, set "Override default configuration" to "Yes". The checkboxes and input fields below then become editable, and you configure the event and absence management for this course.
+If this course is to work differently from the default of the system administration, set "Override default configuration" to "Yes". The checkboxes and input fields below then become editable, and you configure the event and absence management for this course.
 
-If the option is set to "No", the default setting of the administration applies. The checkboxes and input fields below remain inactive and show the default value. The preset functions are nevertheless effective in the course.
+If the option is set to "No", the default setting of the system administration applies. The checkboxes and input fields below remain inactive and show the default value. The preset functions are nevertheless effective in the course.
 
-Whether you can switch on overwriting at all is set by administrators in the system administration with the setting "Default configuration": `Administration > Modules > Events / Absences`, tab "Configuration", section "Course-level configuration". With the selection card "Overridable" you can choose this option freely. With "Read-only" it stays on "No" and is greyed out, unless overwriting was already switched on in this course before.
+Whether you can switch on overwriting at all is set by system administrators in the system administration with the setting "Default configuration": `Administration > Modules > Events / Absences`, tab "Configuration", section "Course-level configuration". With the selection card "Overridable" you can choose this option freely. With "Read-only" it stays on "No" and is greyed out, unless overwriting was already switched on in this course before.
 
 !!! note "You cannot edit the settings in your course?"
 
     Greyed-out fields have two possible causes. Look at the field "Override default configuration" itself:
 
     - **It is clickable and set to "No"**: Set it to "Yes", then the fields below become editable.
-    - **It is greyed out itself**: The administration has set "Default configuration" to "Read-only". Please contact the OpenOlat administration for a release.
+    - **It is greyed out itself**: System administrators have set "Default configuration" to "Read-only" in the system administration. For a release, contact your system administrators.
 
-    In both cases the default values shown are effective in the course.
+    In both cases the default values of the system administration shown are effective in the course.
 
 #### Roll call enabled {: #roll_call_enabled }
 
@@ -142,7 +142,7 @@ The help icon next to the option shows the text "If this option is enabled, the 
 
 If the option is switched on, "Mark as exam" is available for events in the 3-dot menu. Marking an event in this way creates an assessment mode for it. In addition, the following fields "Prep time", "Follow-up", "Admissible IP addresses" and "Safe Exam Browser Keys" appear with the course-wide default values for these assessment modes. The default values are applied when marking; assessment modes already created remain unchanged by later modifications.
 
-The option only appears if the assessment mode is enabled system-wide. To change the option in the course, "Override default configuration" must be set to "Yes". If overwriting is set to "No" and the option is switched on in the system administration, this field appears checked and inactive, and "Mark as exam" works with the default values from the administration.
+The option only appears if the assessment mode is enabled system-wide. To change the option in the course, "Override default configuration" must be set to "Yes". If overwriting is set to "No" and the option is switched on in the system administration, this field appears checked and inactive, and "Mark as exam" works with the default values from the system administration.
 
 #### Prep time {: #lead_time }
 
@@ -163,12 +163,12 @@ The IP addresses entered here are applied to the assessment mode when an event i
 
 This field is the course-wide default value for the type "With manual keys". The stored key is applied when an event is "marked as exam" and the switch "Use Safe Exam Browser" is enabled in the assessment mode of the event. There, the key is displayed for information and cannot be edited.
 
-The field only appears if the administration has selected the type "With manual keys" for "Safe Exam Browser - Type of use". This type applies to all courses and cannot be overridden in the course. You find the setting in the system administration under:<br>
+The field only appears if system administrators have selected the type "With manual keys" for "Safe Exam Browser - Type of use". This type applies to all courses and cannot be overridden in the course. You find the setting in the system administration under:<br>
 `Administration > Modules > Events / Absences`, tab "Configuration".
 
-If the field is left empty while overwriting is permitted, the assessment modes of this course receive no key; the key from the administration is not used in that case.
+If the field is left empty while overwriting is permitted, the assessment modes of this course receive no key; the key from the system administration is not used in that case.
 
-If "From template (recommended)" is active, the Safe Exam Browser is configured per exam via [configuration templates](../learningresources/Assessment_mode.md) and this field is not shown. When marking an event as an exam, the field "Configuration" with the active templates is available in the assessment mode of the event, with the default template preselected. Whether the configuration file can be downloaded is determined by the administration in this case.
+If "From template (recommended)" is active, the Safe Exam Browser is configured per exam via [configuration templates](../learningresources/Assessment_mode.md) and this field is not shown. When marking an event as an exam, the field "Configuration" with the active templates is available in the assessment mode of the event, with the default template preselected. Whether the configuration file can be downloaded is defined in this case by system administrators in the system administration with the option "Downloadable configuration file": `Administration > Modules > Events / Absences`, tab "Configuration".
 
 Assessment modes created directly via the [assessment management](../learningresources/Assessment_mode.md) do not use this course-wide key. There, the type is chosen per assessment mode in the field "SEB configuration".
 

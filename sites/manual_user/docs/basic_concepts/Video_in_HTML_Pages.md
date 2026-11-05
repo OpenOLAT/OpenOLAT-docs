@@ -23,7 +23,7 @@ In this case, OpenOlat supports pseudo-streaming by means of progressive downloa
 
 ### Released media servers [:octicons-tag-16:{ title="from Release 19.1 (OO-7955)" }](https://track.frentix.com/issue/OO-7955) {: #media_server}
 
-Administrators define in the system administration which external video platforms OpenOlat may embed via link: `Administration > Login > Security`, tab "Media server". A video from a domain that has not been released is not played in the HTML page. Instead, the message "The media resource is from a restricted domain." is displayed. Details can be found in the administration manual under [Security](../../manual_admin/administration/Login_Security.md#tab_mediaserver).
+System administrators define in the system administration which external video platforms OpenOlat may embed via link: `Administration > Login > Security`, tab "Media server". A video from a domain that has not been released is not played in the HTML page. Instead, the message "The media resource is from a restricted domain." is displayed. Details can be found in the administration manual under [Security](../../manual_admin/administration/Login_Security.md#tab_mediaserver).
 
 
 ## Add/edit video

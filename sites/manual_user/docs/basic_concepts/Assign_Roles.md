@@ -110,7 +110,7 @@ If, for example, an external person is to be given access to a binder in the Por
 
 ## Define own roles and relations {: #role_assignment_relations} 
 
-Administrators switch on and define own roles in the system administration:<br>
+System administrators switch on and define own roles in the system administration:<br>
 `Administration > Modules > Role user to user`<br>
 E.g. superior, subordinate, expert, appraisee, parent, education manager, student, mentor, learning guide, etc.
 
@@ -118,9 +118,9 @@ Subsequently, user managers can specify under<br>
 `User management > Select user > Tab "Relations"`<br>
 new relations between the selected person and other OpenOlat users (e.g. superior - subordinate).
 
-Only the roles that administrators have set up are available.
+Only the roles that system administrators have set up are available.
 
-With the user-to-user relation, you set up cross-course support functions in the administration or in the user management, for example for mentors, learning guides and superiors. Coaches then access the people they coach in Coaching and view their learning progress. They cannot assess via the relation.
+With the user-to-user relation, you set up cross-course support functions in the system administration or in the user management, for example for mentors, learning guides and superiors. Coaches then access the people they coach in Coaching and view their learning progress. They cannot assess via the relation.
 
 Specific rights can be defined for each user-to-user relation and thus access can be granted to explicitly released contents of the coached persons, such as course list, calendar, absence overview, efficiency statements, certificates and credit points [:octicons-tag-16:{ title="from Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"}. What the individual rights do is described in [Module Organisations: The rights in detail](../../manual_admin/administration/Modules_Organisations.md#rights_linemanager). Similarly, the role "Line manager" is also mapped in Coaching. Here, too, defined contents of users of the own organisation unit can be accessed.
 

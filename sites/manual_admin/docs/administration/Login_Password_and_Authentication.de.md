@@ -1,6 +1,6 @@
 # Passwort und Authentifizierung {: #password_and_authentication}
 
-Administrator:innen und Systemadministrator:innen legen hier fest, wie sich Kontoinhaber:innen bei OpenOlat anmelden, welche Regeln ein Passwort erfüllen muss und wann es zu ändern ist. Die Einstellungen liegen in der System-Administration unter:<br>
+Systemadministrator:innen legen hier fest, wie sich Kontoinhaber:innen bei OpenOlat anmelden, welche Regeln ein Passwort erfüllen muss und wann es zu ändern ist. Die Einstellungen liegen in der System-Administration unter:<br>
 `Administration > Login > Passwort und Authentifizierung`
 
 ## Tab "Authentifizierung" [:octicons-tag-16:{ title="ab Release 18.1.2 (OO-7418)" }](https://track.frentix.com/issue/OO-7418) {: #tab-authentication}
@@ -57,7 +57,7 @@ Durch das Einschalten wird die Option für Stufe 2 und 3 aktiviert. Erst dann ze
     3. Bitten Sie die Personen mit Stufe 2, dort zu "Stufe 1 - Passwort" zu wechseln. OpenOlat verlangt dabei ein neues Passwort und entfernt danach ihre Passkeys.
     4. Schalten Sie Passkey aus. Nennt der Dialog noch Konten, klären Sie diese zuerst.
 
-    Meldet sich nach dem Ausschalten eine Person mit Stufe 2, helfen Sie ihr in der Benutzerverwaltung im Reiter "Passwort" auf einem von drei Wegen weiter, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md#password):
+    Meldet sich nach dem Ausschalten eine Person mit Stufe 2, helfen ihr Administrator:innen oder Benutzerverwalter:innen in der Benutzerverwaltung im Reiter "Passwort" auf einem von drei Wegen weiter, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md#password):
 
     * **Zugangsdaten erstellen:** Mit "Zugangsdaten erstellen" legen Sie ein Passwort fest. Teilen Sie es der Person auf sicherem Weg mit. Sie ändert es nach der Anmeldung unter `Persönliches Menü > Passwort`.
     * **Passkeys löschen:** Löschen Sie im Abschnitt "Passkeys" alle Passkeys der Person. Danach schicken Sie ihr mit "Einladungslink zum Setzen der Zugangsdaten senden" einen Link, mit dem sie ihr Passwort selbst setzt.
@@ -65,11 +65,11 @@ Durch das Einschalten wird die Option für Stufe 2 und 3 aktiviert. Erst dann ze
 
 #### Sicherheitsstufe selbständig erhöhen {: #increase_security_level_independently}
 
-Mit der Option "Kontoinhaber:innen können die Sicherheitsstufe selber erhöhen" können die Kontoinhaber:innen selbst entscheiden, ob sie zu einer höheren Sicherheitsstufe wechseln wollen. Eine Herabstufung unter die von Administrator:innen gesetzte Mindeststufe ist nicht möglich.
+Mit der Option "Kontoinhaber:innen können die Sicherheitsstufe selber erhöhen" können die Kontoinhaber:innen selbst entscheiden, ob sie zu einer höheren Sicherheitsstufe wechseln wollen. Eine Herabstufung unter die von Systemadministrator:innen gesetzte Mindeststufe ist nicht möglich.
 
 #### Erforderlicher Wechsel kann übersprungen werden {: #required_switch_can_be_skipped}
 
-Wenn eine Administrator:in die Sicherheitsstufe erhöht hat, werden die betroffenen Personen bei der Anmeldung aufgefordert, Passkey einzurichten. Diese Einstellung bestimmt, wie oft die betroffenen Personen diese Aufforderung übergehen können: "Nie", "5 Mal", "10 Mal" oder "Unbeschränkt".
+Wenn eine Systemadministrator:in die Sicherheitsstufe erhöht hat, werden die betroffenen Personen bei der Anmeldung aufgefordert, Passkey einzurichten. Diese Einstellung bestimmt, wie oft die betroffenen Personen diese Aufforderung übergehen können: "Nie", "5 Mal", "10 Mal" oder "Unbeschränkt".
 
 #### Alle Rollen auf Stufe… setzen {: #set_all_roles_at_level}
 
@@ -81,7 +81,7 @@ Die Tabelle führt jede Rolle in einer Zeile und die drei Sicherheitsstufen als 
 
 ## Tab "Passwort-Syntax" {: #tab-password-syntax}
 
-Hier legen Sie als Administrator:in fest, welche Kriterien ein Passwort erfüllen muss. Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Die Regeln gelten, sobald Sie auf "Speichern" klicken.
+Hier legen Sie als Systemadministrator:in fest, welche Kriterien ein Passwort erfüllen muss. Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Die Regeln gelten, sobald Sie auf "Speichern" klicken.
 
 ![Minimallänge 4 und Maximallänge 128, mindestens 1 Buchstabe und 1 Ziffer oder Sonderzeichen, keine nicht erlaubten Werte](assets/login_password_and_authentication_syntax_v4_de.png){ class="shadow lightbox" title="Tab Passwort-Syntax in der Administration · 2026.10.31" }
 

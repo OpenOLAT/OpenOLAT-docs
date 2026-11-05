@@ -59,7 +59,7 @@ Nur mit "Buchbare und offene Angebote" können Sie Angebote erstellen.
 
 Ein Angebot enthält die Bedingungen, zu denen der Kurs oder die Lernressource genutzt werden kann.
 
-Ein Angebot legt fest, wer den Kurs oder die Lernressource unter welchen Bedingungen buchen kann. Möglich ist eine Buchung mit Zugangscode, eine freie Buchung oder eine kostenpflichtige Buchung mit PayPal Checkout, sofern Administrator:innen diese eingerichtet haben. Auch ein Zugang ohne Buchungsauftrag oder als Gast lässt sich einrichten. Buchen steht dabei für belegen, einschreiben oder einkaufen. Klicken Sie auf "Angebot hinzufügen", um ein Angebot zu erstellen.
+Ein Angebot legt fest, wer den Kurs oder die Lernressource unter welchen Bedingungen buchen kann. Möglich ist eine Buchung mit Zugangscode, eine freie Buchung oder eine kostenpflichtige Buchung mit PayPal Checkout, sofern Systemadministrator:innen diese eingerichtet haben. Auch ein Zugang ohne Buchungsauftrag oder als Gast lässt sich einrichten. Buchen steht dabei für belegen, einschreiben oder einkaufen. Klicken Sie auf "Angebot hinzufügen", um ein Angebot zu erstellen.
 
 Bei Angeboten einer Durchführung im Course Planner kann ein Angebot zusätzlich Formulare verlangen, die beim Buchen als Schritte ausgefüllt werden. Bei Angeboten eines Kurses oder einer anderen Lernressource ist das nicht möglich. [Formulare für Buchungsaufträge >](Course_Planner_Implementations.de.md#booking_order_forms) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
 

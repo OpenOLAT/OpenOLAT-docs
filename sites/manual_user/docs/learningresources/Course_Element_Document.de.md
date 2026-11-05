@@ -16,7 +16,7 @@ Mit dem Kursbaustein "Dokument" können verschiedene Dokumentformate in den Kurs
 
 ### Für welche Dateitypen ist der Kursbaustein gedacht? [:octicons-tag-16:{ title="ab Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
-Der Kursbaustein ist gut geeignet für die Anzeige von PDF- und auch JPG- und PNG-Dateien. Darüber hinaus können auch, sofern vom OpenOlat Administrator aktiviert, Office-Dokumente (Word, Excel, PowerPoint) und draw.io Diagramme [:octicons-tag-16:{ title="ab Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} eingebunden werden.
+Der Kursbaustein ist gut geeignet für die Anzeige von PDF- und auch JPG- und PNG-Dateien. Darüber hinaus können auch Office-Dokumente (Word, Excel, PowerPoint) und draw.io Diagramme [:octicons-tag-16:{ title="ab Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} eingebunden werden, sofern Systemadministrator:innen die passenden Editoren in der System-Administration aktiviert haben.
 
 OpenOlat verwendet für PDF-Dateien einen integrierten PDF-Viewer (pdf.js) [:octicons-tag-16:{ title="ab Release 18.1 (OO-6996)" }](https://track.frentix.com/issue/OO-6996){:target="_blank"}, der eine klare Darstellung bietet. Grosse PDF-Dateien werden dabei stufenweise geladen, sofern die Datei dies unterstützt. Der PDF-Viewer ist schreibgeschützt: zum Bearbeiten wird ein separater Editor benötigt.
 
@@ -28,7 +28,7 @@ OpenOlat verwendet für PDF-Dateien einen integrierten PDF-Viewer (pdf.js) [:oct
 
 Die Konfiguration erfolgt im Kurseditor im Tab "Dokument". Es gibt viele Möglichkeiten, wie die Dateien in den Kursbaustein gelangen können. Sie können grundsätzlich hochgeladen, verknüpft oder neu erstellt werden.
 
-![Drei Wege, einen Inhalt hinzuzufügen: Datei hochladen, aus Ablageordner oder Lernressourcenverwaltung verknüpfen, oder neu erstellen](assets/KB_Dokument.png){ class="lightbox" }
+![Drei Wege, einen Inhalt hinzuzufügen: Datei hochladen, aus Ablageordner oder Lernressourcenverwaltung verknüpfen, oder neu erstellen](assets/KB_Dokument.png){ class="lightbox" title="Tab Dokument im Kurseditor" }
 
 
 #### Datei hochladen [:octicons-tag-16:{ title="ab Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
@@ -49,11 +49,11 @@ Es kann ...
 
 Um eine Datei für den Kursbaustein neu zu erstellen wählen Sie **"Dokument erstellen"** und markieren das gewünschte Datei-Format.
 
-![Dateiformat Word, Excel oder PowerPoint wählbar, Pflichtfeld Dateiname, dazu Beschreibung und Lizenz: Dialog Dokument erstellen](assets/Dokument_erstellen.png){ class="lightbox" }
+![Dateiformat Word, Excel oder PowerPoint wählbar, Pflichtfeld Dateiname, dazu Beschreibung und Lizenz](assets/Dokument_erstellen.png){ class="lightbox" title="Dialog Dokument erstellen" }
 
 Alternativ kann auch eine neue Datei als Lernressource erstellt werden. Wählen Sie hierfür: **"Aus Lernressourcenverwaltung" → "Erstellen"**.
 
-Sofern **draw.io Diagramme** [:octicons-tag-16:{ title="ab Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} von den OpenOlat Administrator:innen aktiviert wurde, können im Kursbaustein Dokument auch draw.io Diagramme erstellt und für die User bereitgestellt werden. Wählen Sie hierfür die Option "Dokument erstellen" → "Mehr Formate anzeigen" → "Diagramm" oder "Whiteboard".
+Sofern Systemadministrator:innen **draw.io Diagramme** [:octicons-tag-16:{ title="ab Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} in der System-Administration unter `Administration > Externe Werkzeuge > draw.io` aktiviert haben, können im Kursbaustein Dokument auch draw.io Diagramme erstellt und für die Benutzer:innen bereitgestellt werden. Wählen Sie hierfür die Option "Dokument erstellen" → "Mehr Formate anzeigen" → "Diagramm" oder "Whiteboard".
 
 draw.io Diagramme unterstützen das gleichzeitige Bearbeiten durch mehrere Personen [:octicons-tag-16:{ title="ab Release 18.1 (OO-7091)" }](https://track.frentix.com/issue/OO-7091){:target="_blank"}. Mehrere Teilnehmende können ein Diagramm gleichzeitig öffnen und bearbeiten. Änderungen werden in Echtzeit synchronisiert. Damit eignet sich der Kursbaustein Dokument mit draw.io für kollaborative Gruppenarbeiten.
 
@@ -73,7 +73,7 @@ Dokumente, Bilder und Videos werden standardmässig im **Lightbox-Modus** angeze
 
 Eingebundene Dokumente können bei Bedarf später auch bearbeitet und Metadaten geändert werden. Auch ein kompletter Austausch des Dokuments ist möglich. Was genau möglich ist, ist vom Dateityp abhängig.
 
-![Menü Bearbeiten mit Metadaten bearbeiten, Dokument bearbeiten, anderes Dokument wählen und in Lernressourcenverwaltung speichern: Detailansicht eines Dokuments](assets/Dokument_bearbeiten.png){ class="lightbox" }
+![Menü Bearbeiten mit Metadaten bearbeiten, Dokument bearbeiten, anderes Dokument wählen und in Lernressourcenverwaltung speichern](assets/Dokument_bearbeiten.png){ class="lightbox" title="Detailansicht eines Dokuments" }
 
 ### Dokument entfernen
 

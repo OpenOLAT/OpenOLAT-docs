@@ -65,7 +65,7 @@ The workload that participants have to expect. The example below the field shows
 
 With the display settings you determine which sections the info page of your course shows and who appears there as teacher. This way the info page shows exactly what interested parties need for their decision.
 
-A newly created course starts with the default values that administrators define in the [Module Course](../../manual_admin/administration/Modules_Course.md#default_settings). A copy adopts the display settings of the original. The default values in the [Module Course Planner](../../manual_admin/administration/Modules_Course_Planner.md#default_settings) only apply to implementations, not to courses. Implementations in the Course Planner have the same display settings, the differences are described in [Course Planner: Implementations](../area_modules/Course_Planner_Implementations.md#tab_settings_infos).
+A newly created course starts with the default values that system administrators define in the system administration in the [Module Course](../../manual_admin/administration/Modules_Course.md#default_settings). A copy adopts the display settings of the original. The default values in the [Module Course Planner](../../manual_admin/administration/Modules_Course_Planner.md#default_settings) only apply to implementations, not to courses. Implementations in the Course Planner have the same display settings, the differences are described in [Course Planner: Implementations](../area_modules/Course_Planner_Implementations.md#tab_settings_infos).
 
 ![The four options under Display on info page and below them the roles with their number of people who appear as teachers](assets/course_settings_info_form_v1_en.png){ class="shadow lightbox" title="Info tab of the course settings · 2026.10.09" }
 
@@ -82,7 +82,7 @@ If the course is managed by an external system, individual options can be greyed
 
 #### Members displayed as teacher {: #taught_by}
 
-This selection only appears once "Meet your teachers" is selected. At least one role is then mandatory: without a selection the form cannot be saved, and "Please fill in this field." appears below the field. If you select "Meet your teachers" again, the roles that administrators define as default in the Module Course are preselected.
+This selection only appears once "Meet your teachers" is selected. At least one role is then mandatory: without a selection the form cannot be saved, and "Please fill in this field." appears below the field. If you select "Meet your teachers" again, the roles that system administrators define as default in the system administration under `Administration > Modules > Course` are preselected.
 
 - **Teachers in events**: the persons who are entered as teachers in the events of the course.
 - **Coaches**: the members with the role coach.

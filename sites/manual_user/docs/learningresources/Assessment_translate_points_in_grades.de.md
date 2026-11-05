@@ -13,7 +13,7 @@ Kursbesitzer:innen können die Funktion im Kurseditor aktivieren und dort konfig
 
 !!! tip "Voraussetzung"
 
-    Das Modul Einstufung/Noten wurde von den OpenOlat Administrator:innen eingeschaltet und mindestens ein Bewertungssystem ist aktiviert.
+    Systemadministrator:innen haben das Modul Einstufung/Noten in der System-Administration unter `Administration > e-Assessment > Einstufung/Noten` eingeschaltet, und mindestens ein Bewertungssystem ist aktiviert.
 
 1. **Einstufung/Noten für einen Kursbaustein aktivieren**<br>
 Gehen Sie in den Kurseditor und wählen Sie den Kursbaustein, für den die Einstufung aktiviert werden soll. Im Tab "Bewertung" können Sie die Einzelheiten einrichten
@@ -22,7 +22,7 @@ Gehen Sie in den Kurseditor und wählen Sie den Kursbaustein, für den die Einst
 Sie können zwischen manueller und automatischer Zuweisung wählen. Bei der Zuweisung "Manuell" löst die betreuende Person die Zuordnung aus und macht sie für die Teilnehmenden sichtbar. Die offenen Fälle sammelt das Coaching unter [Bewertungsaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_open_classifications_scores) im Tab "Offene Einstufungen/Noten". Betreuende ohne Besitzrecht weisen dort zu, solange die Option "Einstufung/Noten zuweisen" eingeschaltet ist. Die Option ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](Course_Settings_Assessment.de.md#section_assessment_rights) aus oder ein, herkömmliche Kurse haben diesen Abschnitt nicht. Bei der Zuweisung "Automatisch bei Punktänderungen" vergibt OpenOlat die Note selbst.
 
 3. **Bewertungsskala auswählen und anpassen**<br>
-Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie auf "Bewertungsskala bearbeiten". Es öffnet sich das Fenster "Bewertungsskala bearbeiten". Beim ersten Öffnen steht im Feld "Bewertungssystem" das [Standard-Bewertungssystem](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md#default_rating_system), das die Administrator:innen für die Instanz festlegen. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596) Mit "Ändern" wählen Sie ein anderes aktiviertes Bewertungssystem. Anschliessend passen Sie die Bewertungsskala weiter an. Änderungen an der Bewertungsskala gelten sofort, auch ohne Publikation des Kurses.
+Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie auf "Bewertungsskala bearbeiten". Es öffnet sich das Fenster "Bewertungsskala bearbeiten". Beim ersten Öffnen steht im Feld "Bewertungssystem" das [Standard-Bewertungssystem](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md#default_rating_system), das Systemadministrator:innen in der System-Administration für die Instanz festlegen. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596) Mit "Ändern" wählen Sie ein anderes aktiviertes Bewertungssystem. Anschliessend passen Sie die Bewertungsskala weiter an. Änderungen an der Bewertungsskala gelten sofort, auch ohne Publikation des Kurses.
 
     ![Beim ersten Öffnen ist das Standard-Bewertungssystem vorausgewählt, hier noten.de mit Bestanden mit 4, darunter Punktebereiche je Note und das Diagramm, das Punkte und Noten zuordnet](assets/assessment_translate_points_in_grades_rating_scale_v1_de.png){ class="shadow lightbox" title="Dialog Bewertungsskala bearbeiten · 2026.10.22" }
 

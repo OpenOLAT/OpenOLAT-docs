@@ -1,7 +1,7 @@
 # Licenses {: #licences}
 
 With a license, you state for files, questions, learning resources and media
-how others may use them. Licenses are optional in OpenOlat. Administrators
+how others may use them. Licenses are optional in OpenOlat. System administrators
 configure them in the system administration under:<br>
 `Administration > Core functions > Licenses`
 

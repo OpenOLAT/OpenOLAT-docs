@@ -7,7 +7,7 @@ Name | Video Livestream
 Icon | :o_icon_o_livestream_icon:
 Verfügbar seit | Release 14.0 (OO-4043)
 Funktionsgruppe | Wissensvermittlung
-Verwendungszweck | Anzeige eines Video-Livestreams (von dem/der Administrator:in eingerichtet)
+Verwendungszweck | Anzeige eines Video-Livestreams (von Systemadministrator:innen eingerichtet)
 Bewertbar | nein
 Spezialität / Hinweis |
 
@@ -20,9 +20,9 @@ Mit dem Kursbaustein "Video Livestream" zeigen Sie Ihren Teilnehmenden Livestrea
 * Regelmässige Beobachtung von Wetter-Webcams mit einem Auswertungsauftrag im folgenden Kursbaustein (zum Beispiel im Kursbaustein "Checkliste")
 * Regelmässige Tierbeobachtung per Webcam mit einem Protokollauftrag (zum Beispiel im Kursbaustein "Dokument")
 
-## Vorbereitung durch den/die Administrator:in
+## Vorbereitung durch Systemadministrator:innen
 
-Die Administrator:innen finden die Konfiguration in der System-Administration unter: `Administration > Module > Livestream`.<br>
+Systemadministrator:innen finden die Konfiguration in der System-Administration unter: `Administration > Module > Livestream`.<br>
 Dort aktivieren sie den Kursbaustein und bei Bedarf die Option Multistream für zwei gleichzeitige Livestreams; bei aktiviertem Multistream legen sie zusätzlich das Trennzeichen für mehrere URLs eines Termins fest. Unter Initialwerte hinterlegen sie die Vor- und Nachlaufzeit in Minuten, das Bearbeitungsrecht für Betreuer:innen sowie den anzuzeigenden Stream als Vorgabe für neue Kursbausteine.
 
 ![Einstellungen des Kursbausteins Video Livestream mit Initialwerten für Vor- und Nachlaufzeit und der Auswahl des Streams](assets/course_element_livestream_admin_settings_v2_de.png){ class="shadow lightbox" title="Seite Livestream im Menü Module · 2026.11.03" }

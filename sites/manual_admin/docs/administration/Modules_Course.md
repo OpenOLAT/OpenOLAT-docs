@@ -1,7 +1,7 @@
 # Module Course {: #course}
 
 
-In the Module Course, you as an administrator define which course options are available system-wide and with which presets new courses start. You find it in the system administration under: `Administration > Modules > Course`.
+In the Module Course, you as a system administrator define which course options are available system-wide and with which presets new courses start. You find it in the system administration under: `Administration > Modules > Course`.
 
 ## Tab Settings {: #settings}
 

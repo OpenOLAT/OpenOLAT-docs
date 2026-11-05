@@ -160,7 +160,7 @@ If the review process is switched off, the "Ratings" section is missing from the
 
 
 [Details about the review process >](Question_Bank_Review_Process.md)<br>
-[Activation of the review process by administrators >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
+[Activation of the review process by system administrators >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
 [To the top of the page ^](#question_details)
 
 

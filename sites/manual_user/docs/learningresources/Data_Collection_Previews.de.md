@@ -13,9 +13,9 @@ Wurde in einen Kurs ein Kursbaustein eingefügt, mit dem die Qualität erfasst w
 
 Mit der Datenerhebungsvorschau wird den **Kursbesitzer:innen** angezeigt, welche Erhebungen geplant sind.
 
-![Menüpunkt "Datenerhebungsvorschau" markiert im Kursmenü "Administration"](assets/data_collection_preview_menu_v1_de.png){ class="shadow lightbox" }
+![Menüpunkt "Datenerhebungsvorschau" markiert](assets/data_collection_preview_menu_v1_de.png){ class="shadow lightbox" title="Menü Administration im Kurs" }
 
-![Zeitspannen-Tabs 1 Monat, 3 Monate und Individuell sowie Tabs Alle und Negativliste, Seite Datenerhebungsvorschau](assets/data_collection_preview_v1_de.png){ class="shadow lightbox" }
+![Zeitspannen-Tabs 1 Monat, 3 Monate und Individuell sowie Tabs Alle und Negativliste](assets/data_collection_preview_v1_de.png){ class="shadow lightbox" title="Seite Datenerhebungsvorschau" }
 
 !!! info "Wichtig"
 
@@ -27,9 +27,9 @@ Wurde eine Datenerhebung vorbereitet, bezieht sie sich in aller Regel auf mehrer
 
 ## Aktivierung
 
-Damit Datenerhebungen zur Qualitätssicherung durchgeführt werden können, muss das Modul "Qualitätsmanagement" von einem/einer Administrator:in eingebunden worden sein.
+Damit Datenerhebungen zur Qualitätssicherung durchgeführt werden können, schalten Systemadministrator:innen das Modul "Qualitätsmanagement" in der System-Administration ein.
 
-Innerhalb der Konfiguration des Moduls unter `Administration > Module > Qualitätsmanagement` muss dann die Option "Datenerhebungsvorschau" aktiviert werden. Erst dann erscheint für Kursbesitzer:innen und Betreuer:innen die Option im Kursmenü "Administration".
+In der Konfiguration des Moduls schalten sie zusätzlich die Option "Datenerhebungsvorschau" ein, in der System-Administration unter `Administration > Module > Qualitätsmanagement`. Erst dann erscheint für Kursbesitzer:innen und Betreuer:innen die Option im Kursmenü "Administration".
 
 Siehe [Modul Qualitätsmanagement](../../manual_admin/administration/Modules_Quality_Management.de.md).
 

@@ -2,9 +2,9 @@
 
 ![Menu System in the System Administration with ten areas, including Info messages, Errors, Caches and Scheduler, for system information, maintenance and diagnostics](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-In the "System" area of the OpenOlat administration, administrators receive general information about the runtime, such as memory used, current click counts or directories. 
+In the "System" area of the OpenOlat administration, system administrators receive general information about the runtime, such as memory used, current click counts or directories.
 
-Administrators have access to the adjacent menu here.
+System administrators have access to the adjacent menu here.
 
 ---
 
@@ -33,9 +33,9 @@ The currently logged in persons are displayed here.
 !!! info "frentix customers"
     For frentix customers, their customer advisor at frentix takes care of the setting "Log levels".
 
-In the "Errors" tab, administrators search for an error message by error number and date.
+In the "Errors" tab, system administrators search for an error message by error number and date.
 
-In the "Log levels" tab, administrators define for each logger how detailed OpenOlat logs: "Error", "Warn", "Info" or "Debug".
+In the "Log levels" tab, system administrators define for each logger how detailed OpenOlat logs: "Error", "Warn", "Info" or "Debug".
 
 [To the top of the page ^](#system)
 
@@ -46,7 +46,7 @@ In the "Log levels" tab, administrators define for each logger how detailed Open
 !!! info "frentix customers"
     For frentix customers, their customer advisor at frentix takes care of this configuration.
 
-Here administrators find the files in the log directory of the server, each with file name and size. A click on a file name downloads the file. The files "olat.log", "catalina.out" and "syncher.log" are at the top, the other files follow by the date of their last change, the newest first.
+Here system administrators find the files in the log directory of the server, each with file name and size. A click on a file name downloads the file. The files "olat.log", "catalina.out" and "syncher.log" are at the top, the other files follow by the date of their last change, the newest first.
 
 [To the top of the page ^](#system)
 
@@ -57,7 +57,7 @@ Here administrators find the files in the log directory of the server, each with
 !!! info "frentix customers"
     For frentix customers, their customer advisor at frentix takes care of this configuration.
 
-Here administrators see the cache settings and empty the OpenOlat caches.
+Here system administrators see the cache settings and empty the OpenOlat caches.
 
 [To the top of the page ^](#system)
 
@@ -65,7 +65,7 @@ Here administrators see the cache settings and empty the OpenOlat caches.
 
 ## Locks {: #locks}
 
-Here administrators see the objects that users have locked.
+Here system administrators see the objects that users have locked.
 
 [To the top of the page ^](#system)
 
@@ -84,7 +84,7 @@ The "Database ORM" page provides statistical information and lists JPA queries a
 
 ## Java VM Info {: #java}
 
-Here, administrators can find information about Java memory, threads, and environment variables and can start the Java Garbage Collection.
+Here, system administrators can find information about Java memory, threads, and environment variables and can start the Java Garbage Collection.
 
 [To the top of the page ^](#system)
 
@@ -92,7 +92,7 @@ Here, administrators can find information about Java memory, threads, and enviro
 
 ## Scheduler {: #scheduler}
 
-Administrators can find an overview of scheduler jobs here.
+System administrators can find an overview of scheduler jobs here.
 
 [To the top of the page ^](#system)
 
@@ -103,7 +103,7 @@ Administrators can find an overview of scheduler jobs here.
 !!! info "frentix customers"
     For frentix customers, their customer advisor at frentix takes care of this configuration.
 
-Here administrators can find a list of all keys for the standard variables and the module configurations.
+Here system administrators can find a list of all keys for the standard variables and the module configurations.
 
 [To the top of the page ^](#system)
 

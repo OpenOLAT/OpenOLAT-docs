@@ -87,7 +87,7 @@ Für einen Teil dieser Angaben lassen sich in der System-Administration Einschr�
 
 Dort wird festgelegt, welche Systemrollen die administrativen Benutzer:innen-Properties z.B. bei der Kontensuche oder in Listen sehen dürfen. Welche Benutzer:innen-Properties als administrativ gelten, wird bei den Benutzer:innen-Properties konfiguriert.
 
-Wenden Sie sich bei Fragen an Ihre Administrator:innen.<br>
+Wenden Sie sich bei Fragen an Ihre Systemadministrator:innen.<br>
 Informationen finden Sie hier: [Modul Datenschutz (Administration) >](../../manual_admin/administration/Modules.de.md#data_privacy)
 
 [Zum Seitenanfang ^](#legal_consents)
@@ -157,11 +157,11 @@ Auch beim Ausfüllen eines Formulars kann der erfasste Inhalt es erforderlich ma
 Werden externe Tools verwendet, also Programme, die nicht Bestandteil von OpenOlat selbst sind, sondern dort eingebunden, besteht keine Kontrollmöglichkeit seitens OpenOlat, dass an diese Tools übergebene Daten irgendwo sonst gespeichert und weiter verwendet werden.
 
 **Beispiel: Office-Programme**<br>
-Sollen z.B. die Microsoft-Produkte Word, Excel und PowerPoint verwendet werden und sie sind von den Administrator:innen nach entsprechender Lizenzbeschaffung eingebunden worden, kann damit z.B. gemeinsam am gleichen Dokument gearbeitet werden. Während des gemeinsamen Bearbeitens liegen die Dateien auf Servern von Microsoft und nicht in OpenOlat. Dass dies datenschutzrechtlich von Bedeutung sein kann, sollte Ihnen einfach bewusst sein.
+Sollen z.B. die Microsoft-Produkte Word, Excel und PowerPoint verwendet werden und sie sind von den Systemadministrator:innen nach entsprechender Lizenzbeschaffung eingebunden worden, kann damit z.B. gemeinsam am gleichen Dokument gearbeitet werden. Während des gemeinsamen Bearbeitens liegen die Dateien auf Servern von Microsoft und nicht in OpenOlat. Dass dies datenschutzrechtlich von Bedeutung sein kann, sollte Ihnen einfach bewusst sein.
 
 **Beispiel: Kursbaustein Externe Seite**<br>
 Der Kursbaustein "Externe Seite" kann im HTTP-Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln, um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen).
-Ob diese Daten übermittelt werden sollen oder nicht, definieren Administrator:innen in der System-Administration unter:<br>
+Ob diese Daten übermittelt werden sollen oder nicht, definieren Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Module > Externe Seite`<br>
 Alternativ kann die Einstellung auch vorgenommen werden unter `Administration > Module > Datenschutz`, im Abschnitt Datenübermittlung bei Kursbaustein "Externe Seite".<br>
 Was dann jedoch auf der externen Seite mit diesen Daten gemacht wird, kann von OpenOlat nicht mehr gesteuert werden.

@@ -51,7 +51,7 @@ The absence management displayed in the main navigation and described below is a
 
 ## Activation of the "Events and absences" module {: #activation}
 
-As with all modules, general activation is carried out by administrators. For absence management to be available in the main navigation, the "Events and absences" module must be switched on in the system administration:<br>
+As with all modules, system administrators switch this module on. For absence management to be available in the main navigation, the "Events and absences" module must be switched on in the system administration:<br>
 `Administration > Modules > Events / Absences`<br>
 Find out more under [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md).
 
@@ -85,7 +85,7 @@ After opening the absence management, the main functions are displayed as tabs:
 
 The cockpit displays the **absences** and **notices** of a day in two sections below each other. The current day is displayed by default, but any other day can be selected in the top right corner.
 
-In both sections, under **Display** you choose whether the list shows all entries (**All**) or only the unauthorized ones (**Unauthorized**). This switch is available if the option [Authorized absences](../../manual_admin/administration/Modules_Events_and_Absences.md#authorized_absences) is switched on in the system administration: `Administration > Modules > Events / Absences`, tab "Configuration". This also applies to the tabs Absences and Notices.
+In both sections, under "Display" you choose whether the list shows all entries ("All") or only the unauthorized ones ("Unauthorized"). This switch is available if the option [Authorized absences](../../manual_admin/administration/Modules_Events_and_Absences.md#authorized_absences) is switched on in the system administration: `Administration > Modules > Events / Absences`, tab "Configuration". This also applies to the tabs Absences and Notices.
 
 ![Daily overview with two absences and an empty Notices section, each with the Display switch, date selection in the top right corner](assets/absence_mgmt_cockpit1_v1_de.png){ class="shadow lightbox" title="Tab Cockpit of the absence management" }
 
@@ -111,7 +111,7 @@ At the top right, absence managers and administrators see the "Add event" button
 
 ![Search field and date range above the list of absences with the columns course, event, absent and authorized](assets/absence_mgmt_absences1_v1_de.png){ class="shadow lightbox" title="Tab Absences of the absence management" }
 
-You can use the search field to search for users, teachers, course titles and events. You narrow down the period with the date range. Under **Display** you choose whether the list shows all absences (**All**) or only the unauthorized ones (**Unauthorized**).
+You can use the search field to search for users, teachers, course titles and events. You narrow down the period with the date range. Under "Display" you choose whether the list shows all absences ("All") or only the unauthorized ones ("Unauthorized").
 
 [To the top of the page ^](#absence_management)
 
@@ -120,11 +120,11 @@ You can use the search field to search for users, teachers, course titles and ev
 
 ## Tab Notices {: #tab_notices}
 
-The tab Notices lists the notices of absence and dispensations. Use the buttons **Record new absence**, **Record new dispensation** and **Record new notice of absence** to record a notice for a person.
+The tab Notices lists the notices of absence and dispensations. Use the buttons "Record new absence", "Record new dispensation" and "Record new notice of absence" to record a notice for a person.
 
 ![Notices of absence and dispensations with filters by type of notice, reason and date as well as three buttons for new notices](assets/absence_mgmt_notices1_v1_de.png){ class="shadow lightbox" title="Tab Notices of the absence management" }
 
-You can use the search field to search for users, teachers, course titles and events. The filters **Type of notice**, **Reason** and **Date** narrow down the list further. If authorized absences are switched on, you use the checkboxes **Authorized** and **Not authorized** to set which notices the search finds. Under **Display** you choose between **All** and **Unauthorized**.
+You can use the search field to search for users, teachers, course titles and events. The filters "Type of notice", "Reason" and "Date" narrow down the list further. If authorized absences are switched on, you use the checkboxes "Authorized" and "Not authorized" to set which notices the search finds. Under "Display" you choose between "All" and "Unauthorized".
 
 [To the top of the page ^](#absence_management)
 
@@ -135,7 +135,7 @@ You can use the search field to search for users, teachers, course titles and ev
 
 ![List of appeals with the status filter pending, rejected and accepted and one accepted appeal](assets/absence_mgmt_appeals1_v1_de.png){ class="shadow lightbox" title="Tab Appeals of the absence management" }
 
-An appeal must be lodged within the specified **appeal period**. Administrators set the appeal period system-wide in the system administration: `Administration > Modules > Events / Absences`, tab "Configuration".
+An appeal must be lodged within the specified **appeal period**. System administrators set the appeal period system-wide in the system administration: `Administration > Modules > Events / Absences`, tab "Configuration".
 
 You can use the search field to search for users, teachers and events. The **Status** filter shows the appeals by their state: pending, rejected or accepted. Use **Date** to narrow down the period.
 
@@ -158,7 +158,7 @@ The user search finds participants. Use the links next to the title to switch to
 
 ## Tab Report {: #report}
 
-The report summarizes the attendances per person: as an **Aggregated list** across all courses or as a **Detailed list** per course. The tab first opens a search form; the lists appear after the search. Use **Export** to download the result. The report only takes into account courses with the status "Published" or "Finished".
+The report summarizes the attendances per person: as an "Aggregated list" across all courses or as a "Detailed list" per course. The tab first opens a search form; the lists appear after the search. Use "Export" to download the result. The report only takes into account courses with the status "Published" or "Finished".
 
 ![Per person across all courses the units, attended, not excused, authorized, dispensed and % attended, plus Export](assets/absence_management_report_aggregated_v2_en.png){ class="shadow lightbox" title="Aggregated list in the tab Report · 2026.10.07" }
 

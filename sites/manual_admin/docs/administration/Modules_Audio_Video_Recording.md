@@ -12,7 +12,7 @@ When you enable the audio recording, users can record their own audio in many pl
 
 ### Enable local video conversion
 
-Video files recorded in web browsers are often not in a format that can be used on other browsers. This requires the conversion of videos from the original format to a format that works on all browsers. **mp4** using the **h264** codec for video and the **aac** codec for audio is a format that satisfies this requirement.
+Video files recorded in web browsers are often not in a format that can be used on other browsers. This requires the conversion of videos from the original format to a format that works on all browsers. MP4 using the H.264 codec for video and the AAC codec for audio is a format that satisfies this requirement.
 
 It is possible to perform this conversion directly on the server running OpenOlat using the tool **HandBrakeCLI**. You can only enable this option if HandBrakeCLI is installed on the server and available via the default path.
 
@@ -38,6 +38,6 @@ This section contains audio and video files that are waiting to be converted or 
 
 **Further reading**<br>
 [Module Video](Modules_Video.md)<br>
-[Video Recording](../basic_concepts/Video_Recording.md)
+[Video Recording](../../manual_user/basic_concepts/Video_Recording.md)
 
 [To the top of the page ^](#module_audio_video_recording)

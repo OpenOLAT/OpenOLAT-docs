@@ -7,20 +7,20 @@
 
 ??? abstract "Zielgruppe"
 
-    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
+    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [ ] Administrator:innen [x] Systemadministrator:innen
 
     [ ] Anfänger:innen [ ] Fortgeschrittene  [x] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
 
-    * Erfahrung als Administrator:in
+    * Erfahrung als Systemadministrator:in
     * Erfahrung mit der Verwendung von Variablen in Programmierumgebungen
 
 
 ## Was ist möglich? {: #possibilities}
 
-Oft verwendet eine Organisation eine eigene, interne Ausdrucksweise. Es ist dann erwünscht, dass diese Ausdrucksweise auch in der Lernplattform verwendet wird. Wenn es die **Inhalte** betrifft, können die **Autor:innen** es berücksichtigen. Für spezifische **Anpassungen der OpenOlat-Oberfläche** selbst, kann das **Sprachanpassungswerkzeug** verwendet werden.
+Oft verwendet eine Organisation eine eigene, interne Ausdrucksweise. Es ist dann erwünscht, dass diese Ausdrucksweise auch in der Lernplattform verwendet wird. Wenn es die Inhalte betrifft, können die Autor:innen es berücksichtigen. Für Anpassungen der OpenOlat-Oberfläche selbst gibt es das **Sprachanpassungswerkzeug**.
 
 **Beispiel:**<br>
 Im Titel des Suchfeldes zum Katalog soll nicht "Katalog" stehen, sondern "Unsere Produkte".
@@ -53,7 +53,7 @@ Eingebundene externe Tools können selbstverständlich nicht angepasst werden. W
 
 ## Welche Voraussetzungen muss ich mitbringen? {: #requirements}
 
-  * Sie müssen in OpenOlat die Rolle als **Administrator:in** haben.
+  * Sie müssen in OpenOlat die Rolle Systemadministrator:in haben.
   * Es ist hilfreich, wenn Sie etwas Erfahrung im Umgang mit Variablen in Programmierumgebungen mitbringen.
 
 

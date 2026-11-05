@@ -1,6 +1,6 @@
 # Module Media Center {: #module_media_center}
 
-Administrators configure the Media Center in the System Administration under:<br>
+System administrators configure the Media Center in the System Administration under:<br>
 `Administration > Modules > Media Center`
 
 ![All settings of the Media Center module on one page, opened via the highlighted entry Media Center in the Modules menu of the System Administration](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" title="Modules menu of the System Administration" }
@@ -25,7 +25,7 @@ If every new medium in the Media Center must carry licence information, make the
 
 ## Taxonomy {: #taxonomy}
 
-To sort and filter media in the Media Center by subject, you assign them subjects from a taxonomy. In the metadata of a media item, the field for this is called "Subjects". Since OpenOlat can manage multiple taxonomies at the same time, administrators define under "Linked taxonomies" which taxonomies are used in the Media Center. If no taxonomy is selected there, the Media Center uses the taxonomies that are selected in the system administration under `Administration > Modules > Learning resource`.
+To sort and filter media in the Media Center by subject, you assign them subjects from a taxonomy. In the metadata of a media item, the field for this is called "Subjects". Since OpenOlat can manage multiple taxonomies at the same time, system administrators define under "Linked taxonomies" which taxonomies are used in the Media Center. If no taxonomy is selected there, the Media Center uses the taxonomies that are selected in the system administration under `Administration > Modules > Learning resource`.
 
 Further information can be found on the page [Module Taxonomy](Modules_Taxonomy.md). How the areas choose their taxonomy is explained on the page [Taxonomy](../../manual_user/basic_concepts/Taxonomy_Concept.md) in the user manual.
 
@@ -36,7 +36,7 @@ Further information can be found on the page [Module Taxonomy](Modules_Taxonomy.
 
 ## Shares [:octicons-tag-16:{ title="from Release 18.1 (OO-7274)" }](https://track.frentix.com/issue/OO-7274) {: #shares}
 
-If contents are deposited in the media center, they can be shared for others to use. Administrators define in the section "Shares" which sharing options are available to authors and other roles.
+If contents are deposited in the media center, they can be shared for others to use. System administrators define in the section "Shares" which sharing options are available to authors and other roles.
 
 For "With user", "With group" and "With course" you choose "All" or "Specific roles" in each case. With "All", all users may share this way, even without an additional role. With "Specific roles", you select the roles author, learning resource manager and administrator individually. "With organisation" is only open to the roles learning resource manager and administrator, which you select there individually.
 

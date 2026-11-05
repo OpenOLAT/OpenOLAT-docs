@@ -44,7 +44,7 @@ If you want to give a guest direct access to a course, send them the link from t
 
 !!! note "Note"
 
-    OpenOlat administrators find further information on configuring OpenOlat for guests on the pages "[Anonymous guests and external users](../../manual_admin/administration/Guest_and_invitation.md)" and "[Customizing](../../manual_admin/administration/Customizing.md)".
+    System administrators find further information on configuring OpenOlat for guests on the pages "[Anonymous guests and external users](../../manual_admin/administration/Guest_and_invitation.md)" and "[Customizing](../../manual_admin/administration/Customizing.md)".
 
 ## Further information {: #further_information}
 

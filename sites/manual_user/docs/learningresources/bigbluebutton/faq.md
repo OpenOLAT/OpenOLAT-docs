@@ -90,7 +90,7 @@ If the dialog shows the status "Locked" for this option, participants only see t
 
 The room template defines which status the option has when the meeting starts. There, the same setting is called "Webcams only for moderators". With "Yes", it has the status "Locked" at the start. During the meeting, moderators can lift the lock and set it again in the dialog at any time.
 
-Administrators and system administrators edit room templates in the system administration under: `Administration > External tools > BigBlueButton > Tab "Room-templates"`. For more information see [BigBlueButton module](../../../manual_admin/administration/BigBlueButton_module.md#tab_room-templates). Course owners and coaches cannot change the setting. They only select the room template when they create an online meeting in the running course: `Course element "BigBlueButton" > Meeting management > Add online-meeting`.
+System administrators edit room templates in the system administration under: `Administration > External tools > BigBlueButton > Tab "Room-templates"`. For more information see [BigBlueButton module](../../../manual_admin/administration/BigBlueButton_module.md#tab_room-templates). Course owners and coaches cannot change the setting. They only select the room template when they create an online meeting in the running course: `Course element "BigBlueButton" > Meeting management > Add online-meeting`.
 
 
 **The presentation is too small and the videos of the participants and moderators are very large. How can I change this?**

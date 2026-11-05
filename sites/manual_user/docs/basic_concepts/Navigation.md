@@ -12,7 +12,7 @@ The page [Roles and their working areas](Roles_Home_Areas.md) shows which site o
 
 !!! info "Important"
 
-    The site "Portal" is switched off by default. If it is missing in your main navigation, the administrators of your OpenOlat instance have not enabled it. They enable sites in the system administration: `Administration > Customizing > Sites`. More about this: [Customizing: Sites](../../manual_admin/administration/Customizing.md#sites)
+    The site "Portal" is switched off by default. If it is missing in your main navigation, the system administrators of your OpenOlat instance have not enabled it. They enable sites in the system administration: `Administration > Customizing > Sites`. More about this: [Customizing: Sites](../../manual_admin/administration/Customizing.md#sites)
 
 ## Global navigation {: #global_navigation}
 

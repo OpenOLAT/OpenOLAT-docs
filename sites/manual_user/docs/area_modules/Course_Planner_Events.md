@@ -124,8 +124,8 @@ If a room is double-booked during the period of the event, the warning "The room
 
 ![Two booked rooms as room cards with building and address, one with the double booking warning](assets/course_planner_events_room_booking_v2_en.png){ class="shadow lightbox" title="Detail view of an event · 2026.10.09" }
 
-!!! note "Admin. rights required"
-    Rooms and buildings are managed in the system administration under `Administration > Modules > Rooms`; this requires administrative rights. If you do not have these rights, contact a person with an administrative role if you need new rooms or want to have the details of a room adjusted.
+!!! note "System administrator role required"
+    System administrators manage rooms and buildings in the system administration under `Administration > Modules > Rooms`. If you need new rooms or want to have the details of a room adjusted, contact your system administrators.
 
 [To the top of the page ^](#events)
 

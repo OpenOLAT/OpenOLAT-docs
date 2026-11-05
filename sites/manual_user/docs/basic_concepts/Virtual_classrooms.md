@@ -4,7 +4,7 @@ Virtual classrooms offer the possibility of voice- and video-based synchronous c
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Virtual classrooms at a glance](<https://www.youtube.com/embed/tTAujHOKnRs>){:target="_blank"}
 
-In OpenOlat, different virtual classrooms, also known as web conferencing tools, can be integrated. As a rule, an OpenOlat-wide license and an appropriate hosting server are required to use these systems. If this is the case, administrators activate the desired software in the system administration, under:<br>
+In OpenOlat, different virtual classrooms, also known as web conferencing tools, can be integrated. As a rule, an OpenOlat-wide license and an appropriate hosting server are required to use these systems. If this is the case, system administrators activate the desired software in the system administration, under:<br>
 `Administration > External tools`
 
 Afterwards, OpenOlat authors can use the corresponding virtual classrooms as course elements in courses.

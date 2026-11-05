@@ -41,8 +41,8 @@ An [Assessment mode](../../manual_user/learningresources/Assessment_mode.md) can
 
 ## As an OpenOlat author, how do I set up an exam with the SEB? {: #SEB_setup}
 
-!!! tip "Prerequisite: Pre-configuration by the administration"
-    Before you can use the Safe Exam Browser in an assessment mode, the administration must enable the assessment mode system-wide. So that you can select a template from the system in the assessment mode, the administration also creates at least one [SEB configuration template](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md#tab_seb) or imports a `.seb` file as a template. This pre-configuration is only available to administrators. As an author, you then select a provided template in the assessment mode, upload your own SEB-File or create your own configuration (see [Step 4: Configuration](#SEB_configuration)).
+!!! tip "Prerequisite: Pre-configuration in the system administration"
+    Before you can use the Safe Exam Browser in an assessment mode, system administrators must enable the assessment mode system-wide in the system administration. So that you can select a template from the system in the assessment mode, they also create at least one [SEB configuration template](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md#tab_seb) or import a `.seb` file as a template. This pre-configuration is only available to system administrators. As an author, you then select a provided template in the assessment mode, upload your own SEB-File or create your own configuration (see [Step 4: Configuration](#SEB_configuration)).
 
 
 ### Step 1: SEB installation {: #SEB_installation} 
@@ -52,7 +52,7 @@ The installation file can be found on the [Web site of the manufacturer](https:/
 Also ask all exam participants to install the SEB on their computer. Or, if separate computers are provided for the exam, prepare these computers accordingly.
 
 !!! info "Note"
-    Administrators can specify that at least a certain version of SEB must be used. 
+    System administrators can specify in the system administration that at least a certain version of SEB must be used.
     [See details > ](../../manual_how-to/SEB_Admin/SEB_Admin.md#SEB_min_version)
 
 [To the top of the page ^](#SEB)
@@ -93,7 +93,7 @@ The use of the SEB is optional in an assessment mode. If desired, activate this 
 As soon as the SEB has been activated, the configuration options are displayed. The options and their effects on the participants' view are briefly described below.
 
 For configuration in OpenOlat applies:<br>
-The suggested settings can be set in the OpenOlat system administration. They can therefore be regarded as a recommendation from your administrator to adopt them.
+The suggested settings can be set in the system administration. They can therefore be regarded as a recommendation from your system administrators to adopt them.
 
 ![Marked choice SEB configuration with From template (recommended), Customised and With manual keys, below it Template, Template type and assessment mode-specific configuration](assets/SEB_config_fields_v2_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser in the exam dialog · 2026.10.02" }
 
@@ -101,20 +101,20 @@ The suggested settings can be set in the OpenOlat system administration. They ca
 
 Define where the SEB takes its settings for this exam from:
 
-- **From template (recommended)**: The settings come from a template of the administration or from your own SEB-File. OpenOlat checks the validity via the config key.
+- **From template (recommended)**: The settings come from a template of the system administration or from your own SEB-File. OpenOlat checks the validity via the config key.
 - **Customised**: You put together the settings for this exam yourself. They are prefilled with the values of the default template if this is a form.
 - **With manual keys**: You use your own SEB-File that is maintained outside of OpenOlat and enter its Safe Exam Browser Keys in OpenOlat. (More about this on the [manufacturer's website](http://www.safeexambrowser.org).) In this case, apart from the information text, the configuration options listed below are unnecessary.
 
-Complete `.seb configuration files` can also be imported as templates in the administration, see [Assessment management](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md#tab_seb).
+Complete `.seb configuration files` can also be imported as templates in the system administration, see [Assessment management](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md#tab_seb).
 
 !!! note "Note"
-    The import of a `.seb` file as a template for all courses takes place in the administration area and is only available to administrators. As an author or course owner, you upload a SEB-File for a single exam yourself, see [Template](#template).
+    The import of a `.seb` file as a template for all courses takes place in the system administration and is only available to system administrators. As an author or course owner, you upload a SEB-File for a single exam yourself, see [Template](#template).
 
 #### Template {: #template}
 
 With "From template (recommended)", you choose the source with two buttons:
 
-- **System**: Select one of the SEB configuration templates provided by the administration from the dropdown. The template marked as default is preselected.
+- **System**: Select one of the SEB configuration templates provided in the system administration from the dropdown. The template marked as default is preselected.
 - **Custom**: Upload your own unencrypted SEB-File with "Upload". OpenOlat displays its settings read-only.
 
 #### Template type {: #configuration}
@@ -448,7 +448,7 @@ You activate the SEB for an inspection in the inspection schedule of the assessm
 [Download the Safe Exam Browser >](https://www.safeexambrowser.org/download_en.html)<br>
 [Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
 [e-Assessment Administration: Assessment management >](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md)<br>
-[As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../SEB_Admin/SEB_Admin.md)<br>
+[As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../SEB_Admin/SEB_Admin.md)<br>
 [Communication during an exam >](../communication_during_exam/communication_during_exam.md)<br>
 [Assessment management: assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)
 

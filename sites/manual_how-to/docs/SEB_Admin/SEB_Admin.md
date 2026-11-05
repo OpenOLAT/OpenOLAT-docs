@@ -1,13 +1,13 @@
-# As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide? {: #SEB_admin}
+# As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? {: #SEB_admin}
 
 
 ??? abstract "Aim and content of these instructions"
 
-    The following instructions show you how to set up the SEB as an administrator.
+    The following instructions show you how to set up the SEB as a system administrator.
 
 ??? abstract "Target group"
 
-    [x] Authors [ ] Coaches  [ ] Participants [x] Administrators
+    [x] Authors [ ] Coaches  [ ] Participants [ ] Administrators [x] System administrators
 
     [ ] Beginners [x] Advanced users  [x] Experts
 
@@ -25,7 +25,7 @@
 
 Instead of running an online exam with browsers such as Edge, Firefox, Safari or Chrome, the [Safe Exam Browser](http://www.safeexambrowser.org) can be made mandatory for accessing the OpenOlat online exam. This special browser makes it possible to disable the option to open other websites or functions such as copy & paste during the exam period (kiosk mode). This prevents the use of unauthorised sources during an exam. 
 
-In a course under `Course administration > Assessment management`, an [assessment mode](../../manual_user/learningresources/Assessment_mode.md) can be configured that defines the conditions (time window, etc.) of an exam. Within an [assessment mode](../../manual_user/learningresources/Assessment_mode.md) you can also determine whether the SEB should be used. If this option is activated, the SEB can be configured directly there in OpenOlat and a configuration file can be generated for sending to the participants. 
+In a course under `Course > Administration > Assessment management`, an [assessment mode](../../manual_user/learningresources/Assessment_mode.md) can be configured that defines the conditions (time window, etc.) of an exam. Within an [assessment mode](../../manual_user/learningresources/Assessment_mode.md) you can also determine whether the SEB should be used. If this option is activated, the SEB can be configured directly there in OpenOlat and a configuration file can be generated for sending to the participants. 
 
 !!! info "The SEB is an external tool"
 
@@ -37,13 +37,13 @@ In a course under `Course administration > Assessment management`, an [assessmen
 ---
 
 
-## Where and how do I set up the SEB as an OpenOlat administrator? {: #SEB_setup}
+## Where and how do I set up the SEB in OpenOlat as a system administrator? {: #SEB_setup}
 
-Before authors and coaches can use the Safe Exam Browser in an assessment mode, the administration must activate the SEB system-wide in OpenOlat.
+Before authors and coaches can use the Safe Exam Browser in an assessment mode, system administrators must activate the SEB system-wide in OpenOlat.
 
-This pre-configuration can only be carried out with administration rights (role System administrator). 
+This pre-configuration is located in the system administration, and only the role system administrator opens the system administration.
 
-All computers on which exams are to be carried out with the SEB must also have the SEB installed. As an administrator, you may have an advisory and supporting role here.
+All computers on which exams are to be carried out with the SEB must also have the SEB installed. As a system administrator, you may have an advisory and supporting role here.
 
 [To the top of the page ^](#SEB_admin)
 
@@ -53,7 +53,7 @@ All computers on which exams are to be carried out with the SEB must also have t
 
 !!! note "Note"
 
-    It is not strictly necessary for you as an administrator to have the Safe Exam Browser installed on your own computer. Only everyone involved in an exam needs this browser. For testing and advisory purposes, however, it may be helpful if you as an administrator also have the SEB installed. 
+    It is not strictly necessary for you as a system administrator to have the Safe Exam Browser installed on your own computer. Only everyone involved in an exam needs this browser. For testing and advisory purposes, however, it may be helpful if you as a system administrator also have the SEB installed.
 
 There is a separate Safe Exam Browser for each operating system (Windows, macOS, iOS).
 
@@ -70,7 +70,7 @@ Download the browser from the [manufacturer's website (ETH Zurich)](http://www.s
 
 ### Step 2: Switch on the assessment mode {: #activate_assessment_mode}
 
-The Safe Exam Browser is always used within an assessment mode. Activating the assessment mode is therefore a prerequisite. You do this under:<br>
+The Safe Exam Browser is always used within an assessment mode. Activating the assessment mode is therefore a prerequisite. You do this in the system administration under:<br>
 `Administration > e-Assessment > Assessment management > Tab "Assessment management configuration"`
 
 ![Switch "Enable assessment mode" turned on in the tab Assessment Management Configuration](assets/SEB_Admin_step2_v1_en.png){ class="shadow lightbox" title="Assessment management in the system administration" }
@@ -82,11 +82,11 @@ The Safe Exam Browser is always used within an assessment mode. Activating the a
 
 ### Step 3: Define the minimum version of the SEB {: #SEB_min_version} 
 
-As an administrator, you can enforce the use of a specific minimum version of the Safe Exam Browser system-wide. Exam participants with an older SEB version are then not admitted.
+As a system administrator, you can enforce the use of a specific minimum version of the Safe Exam Browser system-wide. Exam participants with an older SEB version are then not admitted.
 
 A separate minimum version can be defined for each operating system.
 
-You make this setting under<br>
+You make this setting in the system administration under:<br>
 `Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser versions"`
 
 ![Switch "Enforce minimal SEB version" turned on, with the minimal versions for Windows, Mac and iOS](assets/SEB_Admin_step3_v1_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser versions" }
@@ -114,9 +114,9 @@ Find out about the available functions on the [manufacturer's website (ETH Zuric
 The SEB can be configured
 
 - completely manually in the course (by authors)
-- with a template (provided by administrators)
+- with a template (provided by system administrators)
 
-As an administrator, clarify with those responsible for the exams whether and which templates are needed.
+As a system administrator, clarify with those responsible for the exams whether and which templates are needed.
 
 [To the top of the page ^](#SEB_admin)
 
@@ -125,7 +125,7 @@ As an administrator, clarify with those responsible for the exams whether and wh
 
 ### Step 6: Provide an SEB configuration template {: #SEB_config_file} 
 
-If configuration templates are to be used (clarification in step 5), the clarifications made in step 4 can now be described and stored in various configuration templates. Under
+If configuration templates are to be used (clarification in step 5), the clarifications made in step 4 can now be described and stored in various configuration templates. In the system administration under
 `Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser configuration"` you can provide a configuration template in 2 ways:
 
 - by creating a template directly in OpenOlat
@@ -145,7 +145,7 @@ Open the SEB and create/save/export the SEB configuration file there.
 
 #### List of templates
 
-All created or imported configuration templates are listed under the "Safe Exam Browser configuration" tab and can be edited, activated/deactivated or set as default by administrators.
+All created or imported configuration templates are listed under the "Safe Exam Browser configuration" tab and can be edited, activated/deactivated or set as default by system administrators.
 
 ![Template list with the columns Name, Type, Status, Default and #Uses](assets/SEB_Admin_step6_list_v1_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser configuration" }
 
@@ -184,11 +184,11 @@ Clicking on a three-dot icon shows the options
 For anyone working with the [“Events and Absences” module](../../manual_admin/administration/Modules_Events_and_Absences.md):<br>
 Exam mode and SEB configuration can also be set directly on an event.
 
-As an administrator, you can enable the “Events and Absences Management” module under: `Administration > Modules > Events/Absences > Configuration tab`.<br>
+As a system administrator, you enable the module "Events / Absences" in the system administration under: `Administration > Modules > Events / Absences > Configuration tab`.<br>
 In this tab, in the section "Course-level configuration", you use the setting ["Safe Exam Browser - Type of use"](../../manual_admin/administration/Modules_Events_and_Absences.md#seb_type_of_use) to define where exams from events take the Safe Exam Browser settings from: "With manual keys" or "From template (recommended)". You also specify there whether a downloadable configuration file is available.
 
 Course owners typically activate or create the SEB configuration under<br>
-`Course Administration > Exam Management > “Exam Mode Configuration” tab > Select mode and click the edit icon > “Safe Exam Browser” tab`<br> See [Creating the Configuration File >](#create_config_file)<br>
+`Course > Administration > Assessment management > Tab "Assessment mode configuration" > Select mode and click the edit icon > Tab "Safe Exam Browser"`<br> See [Creating the Configuration File >](#create_config_file)<br>
 Via `Course > Administration > Events and Absences > Tab Events`, an assessment mode is created from an event. Its dialog is shorter and has no choice "SEB configuration": [Assessment mode from an event](../../manual_user/learningresources/Assessment_mode.md#exam_from_event)
 
 - After you've created an event, select the “Mark as Exam” option from the three-dot menu.
@@ -215,15 +215,15 @@ Via `Course > Administration > Events and Absences > Tab Events`, an assessment 
 
 
 
-## Support knowledge for administrators {: #SEB_support} 
+## Support knowledge for system administrators {: #SEB_support}
 
-As an administrator, you may need to answer questions from authors. The following therefore describes some process steps that you as an administrator do not have to carry out yourself, but rather the authors. As a contact person and expert for OpenOlat, however, you should also have this background knowledge. Also consult the guide for authors:<br>
+As a system administrator, you may need to answer questions from authors. The following therefore describes some process steps that you as a system administrator do not have to carry out yourself, but rather the authors. As a contact person and expert for OpenOlat, however, you should also have this background knowledge. Also consult the guide for authors:<br>
 [How do I prepare an exam with the SEB?](../../manual_how-to/SEB/SEB.md)
 
 ### (by the course owner) Create an assessment mode {: #create_assessment_mode}
 
 As the author of the OpenOlat exam course, you create an assessment mode under<br> 
-`Course administration > Assessment management > Tab "Assessment mode configuration" > "Add assessment mode" button`
+`Course > Administration > Assessment management > Tab "Assessment mode configuration" > "Add assessment mode" button`
 
 [To the top of the page ^](#SEB_admin)
 
@@ -232,7 +232,7 @@ As the author of the OpenOlat exam course, you create an assessment mode under<b
 ### (by the course owner) Creating the configuration file {: #create_config_file}
 
 Authors create a configuration file in the course (if necessary with the help of the configuration template) 
-under `Course administration > Assessment management > Tab "Assessment mode configuration" > Select/edit mode > Tab "Safe Exam Browser"`
+under `Course > Administration > Assessment management > Tab "Assessment mode configuration" > Select/edit mode > Tab "Safe Exam Browser"`
 
 See [Step 4: Configuration (for course owners) >](../../manual_how-to/SEB/SEB.md#SEB_configuration)
 
@@ -280,7 +280,7 @@ If downloading by participants is prohibited, the download option is no longer a
 See [Step 6: Download configuration (for course owners) >](../../manual_how-to/SEB/SEB.md#download_SEB_configfile)
 
 
-!!! note "Attention"
+!!! warning "Attention"
 
     Whenever changes are made to the configuration, a new configuration key is generated. If this is distributed to the exam participants with the configuration file, the configuration file must be redistributed each time. It is therefore not advisable to change the configuration a few minutes before the exam. 
 
@@ -294,13 +294,13 @@ To ensure that only the correct, locked-down browser can access the exam, proof 
 
 **Option A, "With manual keys":**<br>
 A key is entered manually. This is a type of password or checksum. Only those who know this key can access the exam.<br>
-A system-wide default value can be entered under `(System) Administration > Modules > Events / Absences > Configuration tab > in the “Safe Exam Browser Key” field`. (This field appears as soon as “manual keys” is selected as the usage type.)<br>
-Course owners can then find this key in the course under `(Course) Administration > Settings > Execution tab > in the “Safe Exam Browser Key”` field. (This field appears as soon as a manual key has been specified system-wide.)<br>
+A system-wide default value can be entered in the system administration under `Administration > Modules > Events / Absences > Configuration tab > in the “Safe Exam Browser Key” field`. (This field appears as soon as “manual keys” is selected as the usage type.)<br>
+Course owners can then find this key in the course under `Course > Administration > Settings > Execution tab > in the "Safe Exam Browser Key" field`. (This field appears as soon as a manual key has been specified system-wide.)<br>
 
 
 **Option B, "From template (recommended)":**<br>
 A configuration template can also include the key. Instead of a manually entered key, a key contained in a pre-built configuration template is used. This is the more convenient method recommended by OpenOlat.<br>
-Whether the key should be included in the template is specified under `(System) Administration > Modules > Events / Absences > Configuration tab > “Safe Exam Browser - Type of use”`
+Whether the key should be included in the template is specified in the system administration under `Administration > Modules > Events / Absences > Configuration tab > “Safe Exam Browser - Type of use”`
 
 [See Step 7 ^](#SEB_module_events)
 

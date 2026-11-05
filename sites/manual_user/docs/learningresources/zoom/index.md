@@ -17,7 +17,7 @@ Specialty / Note | Zoom is commercial software. To use the course element, a sep
 In order to use the course element "Zoom" for web conferencing,
 
 * you must be able to use a Zoom Education or Enterprise license.
-* Zoom must have been configured by your administrator.
+* Zoom must have been configured by system administrators in the system administration: `Administration > External tools > Zoom`.
 
 Information from the manufacturer can be found on the [Zoom homepage](https://zoom.us).
 
@@ -26,12 +26,12 @@ Information from the manufacturer can be found on the [Zoom homepage](https://zo
 
 As author you simply add a course element "Zoom" in the course editor and select only the predefined profile in the tab "Zoom configuration".
 
-![Tab Zoom configuration with field Zoom profile and button Save, in the course editor of the Zoom course element](../assets/course_element_zoom_config_v1_de.png){ class="shadow lightbox" }
+![Field Zoom profile and button Save](../assets/course_element_zoom_config_v1_de.png){ class="shadow lightbox" title="Tab Zoom configuration in the course editor" }
 
 You configure the other tabs as you are used to from other course elements.
 
 
-## Zoom configuration by administrator
+## Zoom configuration by system administrators
 
 The integration of Zoom into OpenOlat via LTI is described in the [OpenOlat Administration Manual](../../../manual_admin/administration/Zoom.md).
 

@@ -11,7 +11,7 @@ Im Abschnitt "Dateien" werden die sechs zuletzt hinzugefügten Dateien angezeigt
 
 Am schnellsten lassen sich Dateien im Bereich "Schnellzugriff" hochladen.
 
-![Eintrag Datei hochladen im aufgeklappten Pulldown neben dem Button Notiz erstellen im Schnellzugriff des Cockpits](assets/Projekte_a.jpg){ class="shadow lightbox" }
+![Eintrag Datei hochladen im aufgeklappten Pulldown neben dem Button Notiz erstellen im Schnellzugriff des Cockpits](assets/Projekte_a.jpg){ class="shadow lightbox" title="Schnellzugriff im Cockpit eines Projekts" }
 
 Die hochgeladenen Dateien können je nach Format direkt geöffnet werden.<br>
 Es gelten folgende Grundsätze:
@@ -42,7 +42,7 @@ Es gelten folgende Grundsätze:
 
 Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende Dokument-Formate stehen dabei zur Verfügung:
 
-![Dialog Dokument erstellen mit dem Feld Dateiname und der Auswahl des Dokumenttyps, geöffnet über Dokument erstellen im Pulldown des Schnellzugriffs](assets/projekte_dateien_dokument_erstellen_v1_de.png){ class="shadow lightbox" }
+![Dialog Dokument erstellen mit dem Feld Dateiname und der Auswahl des Dokumenttyps, geöffnet über Dokument erstellen im Pulldown des Schnellzugriffs](assets/projekte_dateien_dokument_erstellen_v1_de.png){ class="shadow lightbox" title="Dialog Dokument erstellen" }
 
 * .docx (Word, Lizenz erforderlich)
 * .xlsx (Excel, Lizenz erforderlich)
@@ -57,7 +57,7 @@ Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende
 
 !!! info "Erstellen von Office-Dokumenten"
 
-    Ob Microsoft-Dateiformate erstellt werden können, hängt davon ab, ob Lizenzen verfügbar sind. Wenden Sie sich dafür an Ihre Administratorin / Ihren Administrator.
+    Ob Microsoft-Dateiformate erstellt werden können, hängt davon ab, ob Lizenzen verfügbar sind. Wenden Sie sich dafür an Ihre Systemadministrator:innen.
 
     Ohne Lizenzen werden die Optionen zum Erstellen der Formate docx, pptx und xlsx nicht angezeigt. (Eine Anzeige und Bearbeitung vorhandener Dokumente mit OnlyOffice ist jedoch in der Regel möglich.)
 
@@ -70,7 +70,7 @@ Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende
 
 Um Video- oder Audiodateien per Webcam aufzunehmen, wechseln Sie in den Bereich "Dateien". Wählen Sie hier "Video oder Audio aufzeichnen" und erlauben Sie den Zugriff auf Ihre Webcam bzw. Ihr Mikrofon, um die Aufnahme vorzunehmen.
 
-![Markierter Button Video oder Audio aufzeichnen neben Hochladen und Dokument erstellen im Bereich Dateien eines Projekts](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" }
+![Markierter Button Video oder Audio aufzeichnen neben Hochladen und Dokument erstellen im Bereich Dateien eines Projekts](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" title="Bereich Dateien eines Projekts" }
 
 Neu aufgenommene Videos werden als mp4-Dateien gespeichert, Audios als m4a-Dateien. Die Dateien stehen dann im Bereich "Dateien" für alle Projektmitglieder zur Verfügung.
 
@@ -89,15 +89,15 @@ b) Titel im Abschnitt "Dateien" anklicken
 
 c) im Abschnitt "Alle Dateien anzeigen" klicken
 
-![Drei markierte Wege zum Bereich Dateien im Cockpit: Schnellzugriff-Button Dateien, Titel des Abschnitts Dateien und Link Alle Dateien anzeigen](assets/Projekte_Dateien_abc.jpg){ class="shadow lightbox" }
+![Drei markierte Wege zum Bereich Dateien im Cockpit: Schnellzugriff-Button Dateien, Titel des Abschnitts Dateien und Link Alle Dateien anzeigen](assets/Projekte_Dateien_abc.jpg){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 Beachten Sie, dass Sie auf der Übersichtsseite aller Dateien zwischen der Ansicht der Karten und der Listenansicht wechseln können.
 
-![Markierte Umschalt-Buttons für Karten- und Listenansicht rechts oberhalb der Dateien im Bereich Dateien](assets/projekte_dateien_kartenansicht_v1_de.png){ class="shadow lightbox" }
+![Markierte Umschalt-Buttons für Karten- und Listenansicht rechts oberhalb der Dateien im Bereich Dateien](assets/projekte_dateien_kartenansicht_v1_de.png){ class="shadow lightbox" title="Kartenansicht im Bereich Dateien" }
 
 Unter den 3 Punkten am Ende jedes Listeneintrags finden Sie weitere Optionen.
 
-![3-Punkte-Menü am Zeilenende einer Datei in der Listenansicht mit den Optionen zum Öffnen, Bearbeiten, Herunterladen und Löschen](assets/projekte_dateien_liste_v1_de.png){ class="shadow lightbox" }
+![3-Punkte-Menü am Zeilenende einer Datei in der Listenansicht mit den Optionen zum Öffnen, Bearbeiten, Herunterladen und Löschen](assets/projekte_dateien_liste_v1_de.png){ class="shadow lightbox" title="Listenansicht im Bereich Dateien" }
 
 Zum Ausklappen der Buttons zum Filtern klicken Sie auf den kleinen Pfeil in der Mitte oberhalb der Liste.
 
@@ -111,7 +111,7 @@ Zum Ausklappen der Buttons zum Filtern klicken Sie auf den kleinen Pfeil in der 
 
 Im Bereich "Dateien" können auch Dateien, die sich an anderen Stellen in OpenOlat befinden, hinzugefügt werden. Dabei hat man Zugriff auf alle Elemente des File-Hubs und des Media Centers.
 
-![Button Dateien hinzufügen im Bereich Dateien eines Projekts, der den Dateiauswahl-Dialog mit File-Hub und Media Center öffnet](assets/Projekt_Dateien_hinzufuegen.jpg){ class="shadow lightbox" }
+![Button Dateien hinzufügen im Bereich Dateien eines Projekts, der den Dateiauswahl-Dialog mit File-Hub und Media Center öffnet](assets/Projekt_Dateien_hinzufuegen.jpg){ class="shadow lightbox" title="Button Dateien hinzufügen im Bereich Dateien" }
 
 [Zum Seitenanfang ^](#files)
 
@@ -125,7 +125,7 @@ Die Integration von Dokumenten-Editoren ermöglicht kollaboratives Arbeiten.
 * Die vorhandenen Dateien können alle Projektmitglieder bearbeiten, deren Rolle Objekte im Projekt bearbeiten darf. Welche Rollen das sind, zeigt die [Rollenübersicht der Mitgliederverwaltung](Project_Member_Management.de.md#roles).
 * Auch ein **gleichzeitiges Bearbeiten** (z.B. einer Word-Datei während einer Online-Besprechung) ist möglich, wenn die entsprechenden Lizenzen für den Dokumenteneditor vorhanden sind.
 
-Wenden Sie sich ggf. an Ihre Administratorin / Ihren Administrator.
+Wenden Sie sich ggf. an Ihre Systemadministrator:innen.
 
 [Zum Seitenanfang ^](#files)
 
@@ -136,11 +136,11 @@ Wenden Sie sich ggf. an Ihre Administratorin / Ihren Administrator.
 
 Zum Löschen einer Datei klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf "Löschen". Die Datei erscheint dann nur noch unter dem Tab "Gelöscht". Sie kann innerhalb eines gewissen Zeitraums wieder hergestellt werden.
 
-![Eintrag Löschen im 3-Punkte-Menü am Zeilenende einer Datei in der Listenansicht des Bereichs Dateien](assets/project_files_delete_v1_de.png){ class="shadow lightbox" }
+![Eintrag Löschen im 3-Punkte-Menü am Zeilenende einer Datei in der Listenansicht des Bereichs Dateien](assets/project_files_delete_v1_de.png){ class="shadow lightbox" title="3-Punkte-Menü einer Datei im Bereich Dateien" }
 
 Wollen Sie mehrere Dateien auf einmal löschen (Sammelaktion), dann wählen Sie die Listenansicht und markieren die gewünschten Checkboxen am Anfang der Zeilen. Dadurch wird ein Button "Löschen" oberhalb der Liste eingeblendet.
 
-![Button Löschen oberhalb der Dateiliste, nachdem Dateien über die Checkboxen am Zeilenanfang ausgewählt wurden](assets/project_files_delete_several_v1_de.png){ class="shadow lightbox" }
+![Button Löschen oberhalb der Dateiliste, nachdem Dateien über die Checkboxen am Zeilenanfang ausgewählt wurden](assets/project_files_delete_several_v1_de.png){ class="shadow lightbox" title="Sammelaktion Löschen im Bereich Dateien" }
 
 [Zum Seitenanfang ^](#files)
 

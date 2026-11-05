@@ -93,7 +93,7 @@ In den Terminlisten steht der Status in der Spalte "Status".
 
 !!! info "Allgemeiner Hinweis"
 
-    Administrator:innen können die Möglichkeiten in der [Absenzenverwaltung](../area_modules/Absence_Management.de.md) sehr detailliert einrichten. Sollte eine der beschriebenen Möglichkeiten bei Ihnen nicht zur Verfügung stehen, wenden Sie sich bitte an Ihre:n zuständige:n Administrator:in.
+    Welche dieser Möglichkeiten zur Verfügung stehen, legen Systemadministrator:innen in der System-Administration fest: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration". Mehr dazu im [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md). Sollte eine der beschriebenen Möglichkeiten bei Ihnen nicht zur Verfügung stehen, wenden Sie sich bitte an Ihre Systemadministrator:innen.
 
 !!! info "Allgemeiner Hinweis"
 
@@ -140,7 +140,7 @@ Teilnehmer:innen haben die Möglichkeit, gegen eine von Betreuer:innen z.B. verm
 
 Es ist zu unterscheiden zwischen 
 
-1. der **generellen Aktivierung und Konfiguration** des Absenzenmanagements durch Administrator:innen in der System-Administration unter:<br>
+1. der **generellen Aktivierung und Konfiguration** des Absenzenmanagements durch Systemadministrator:innen in der System-Administration unter:<br>
    `Administration > Module > Termine / Absenzen`<br>
    [Mehr dazu >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)
 

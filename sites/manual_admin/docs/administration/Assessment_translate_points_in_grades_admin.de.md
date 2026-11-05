@@ -2,7 +2,7 @@
 
 [:octicons-tag-16:{ title="ab Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007)
 
-Administrator:innen schalten das Modul "Einstufung/Noten" ein und erstellen die Bewertungssysteme, mit denen sich Punkte in Noten umwandeln lassen. Sie finden das Modul in der System-Administration unter:<br>
+Systemadministrator:innen schalten das Modul "Einstufung/Noten" ein und erstellen die Bewertungssysteme, mit denen sich Punkte in Noten umwandeln lassen. Sie finden das Modul in der System-Administration unter:<br>
 `Administration > e-Assessment > Einstufung/Noten`
 
 ![Schalter Modul Einstufung/Noten auf Ein, darunter die Tabelle Bewertungssysteme mit Sprachsymbol vor Name und Label, den Spalten #Verwendung und Aktiviert und der Markierung Standard bei noten.de](assets/assessment_translate_points_in_grades_admin_systems_v1_de.png){ class="shadow lightbox" title="Seite Einstufung/Noten im Bereich e-Assessment · 2026.10.22" }

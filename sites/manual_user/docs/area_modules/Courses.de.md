@@ -28,9 +28,9 @@ Der Filter "Durchführungszeitraum" zeigt die Kurse, deren Durchführungszeitrau
 !!! info "Wichtig"
     Nach dem Durchführungszeitraum sortiert die Liste chronologisch nach dem Beginndatum und nicht alphabetisch nach der Bezeichnung. Bei gleichem Beginndatum sortiert sie alphabetisch nach dem Titel. Kurse ohne Beginndatum, also auch Kurse ohne Durchführungszeitraum, erscheinen immer am Ende der Liste.
 
-Ein Zeitabschnitt ist kein zweiter Begriff für den Durchführungszeitraum, sondern ein Zeitraum wie ein Semester oder Quartal, den Administrator:innen zentral anlegen. Autor:innen können ihn als Durchführungszeitraum eines Kurses wählen, statt "Beginn- und Enddatum" einzutragen. Wie Administrator:innen die Zeitabschnitte verwalten, beschreibt die Seite [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md). Wie Sie Ihre Ansicht filtern, lesen Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
+Ein Zeitabschnitt ist kein zweiter Begriff für den Durchführungszeitraum, sondern ein Zeitraum wie ein Semester oder Quartal, den Systemadministrator:innen zentral anlegen. Autor:innen können ihn als Durchführungszeitraum eines Kurses wählen, statt "Beginn- und Enddatum" einzutragen. Wie Systemadministrator:innen die Zeitabschnitte verwalten, beschreibt die Seite [Modul Zeitabschnitte](../../manual_admin/administration/Modules_Time_Period.de.md). Wie Sie Ihre Ansicht filtern, lesen Sie unter [Mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md).
 
-Die Kurse lassen sich in der Tabellen- oder in der Listenansicht anzeigen. In der Tabellenansicht zeigen die Spalten "Beginn" und "Ende", wann ein Kurs stattfindet. Über das Zahnrad "Spalten auswählen" blenden Sie die beiden Spalten ein oder aus, auch wenn Ihre Organisation das Modul "Zeitabschnitte" nicht nutzt. Die Spalten "Zeitabschnitt" und "Zeitabschnitt Beschr." erscheinen dagegen nur, wenn Administrator:innen das Modul eingeschaltet haben. [:octicons-tag-16:{ title="ab Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}
+Die Kurse lassen sich in der Tabellen- oder in der Listenansicht anzeigen. In der Tabellenansicht zeigen die Spalten "Beginn" und "Ende", wann ein Kurs stattfindet. Über das Zahnrad "Spalten auswählen" blenden Sie die beiden Spalten ein oder aus, auch wenn Ihre Organisation das Modul "Zeitabschnitte" nicht nutzt. Die Spalten "Zeitabschnitt" und "Zeitabschnitt Beschr." erscheinen dagegen nur, wenn Systemadministrator:innen das Modul eingeschaltet haben. [:octicons-tag-16:{ title="ab Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}
 
 ### Suchen
 
@@ -50,7 +50,7 @@ Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. 
 
 Der Bereich "Bildungsprodukte" erscheint, wenn drei Bedingungen erfüllt sind:
 
-* Administrator:innen haben den [Course Planner](../area_modules/Course_Planner.de.md) in der System-Administration aktiviert: `Administration > Module > Course Planner`.
+* Systemadministrator:innen haben den [Course Planner](../area_modules/Course_Planner.de.md) in der System-Administration aktiviert: `Administration > Module > Course Planner`.
 * In diesem Modul ist die Einstellung [Produkt in "Meine Kurse"](../../manual_admin/administration/Modules_Course_Planner.de.md#product_in_my_courses) eingeschaltet.
 * Sie sind in mindestens einer Durchführung eingetragen.
 

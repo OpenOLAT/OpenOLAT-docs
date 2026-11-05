@@ -12,7 +12,7 @@ Die Seite [Rollen und ihre Arbeitsbereiche](Roles_Home_Areas.de.md) zeigt, in we
 
 !!! info "Wichtig"
 
-    Der Bereich "Portal" ist im Standard ausgeschaltet. Fehlt er in Ihrer Hauptnavigation, haben ihn die Administrator:innen Ihrer OpenOlat-Instanz nicht freigegeben. Bereiche geben sie in der System-Administration frei: `Administration > Customizing > Bereiche`. Mehr dazu: [Customizing: Bereiche](../../manual_admin/administration/Customizing.de.md#sites)
+    Der Bereich "Portal" ist im Standard ausgeschaltet. Fehlt er in Ihrer Hauptnavigation, haben ihn die Systemadministrator:innen Ihrer OpenOlat-Instanz nicht freigegeben. Bereiche geben sie in der System-Administration frei: `Administration > Customizing > Bereiche`. Mehr dazu: [Customizing: Bereiche](../../manual_admin/administration/Customizing.de.md#sites)
 
 ## Globale Navigation {: #global_navigation}
 

@@ -42,7 +42,7 @@ So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwec
 
 **Externe Zertifikate**
 
-Extern erworbene Zertifikate laden Sie im persönlichen Werkzeug [Zertifikate](Certificates.de.md) hoch, sofern Administrator:innen das in der System-Administration erlauben: `Administration > e-Assessment > Zertifikate > Zertifikate Konfiguration`, Option "Benutzer:innen können externe Zertifikate hochladen". Hochgeladene Zertifikate erscheinen dort und nicht in der Liste der Leistungsnachweise. [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
+Extern erworbene Zertifikate laden Sie im persönlichen Werkzeug [Zertifikate](Certificates.de.md) hoch, sofern Systemadministrator:innen das in der System-Administration erlauben: `Administration > e-Assessment > Zertifikate > Zertifikate Konfiguration`, Option "Benutzer:innen können externe Zertifikate hochladen". Hochgeladene Zertifikate erscheinen dort und nicht in der Liste der Leistungsnachweise. [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
 
 [Zum Seitenanfang ^](#evidence_of_achievements)
 

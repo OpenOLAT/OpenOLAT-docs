@@ -26,7 +26,7 @@ In the "Wiki learning content" tab, you also define who may edit the wiki. Under
 
 !!! info "Important"
 
-    If you can't find the "Wiki" course element in your OpenOlat instance, the wiki resource is disabled system-wide. Administrators enable it in the system administration: `Administration > Modules > Wiki`, option "Enable wiki resource".
+    If you can't find the "Wiki" course element in your OpenOlat instance, the wiki resource is disabled system-wide. System administrators enable it in the system administration: `Administration > Modules > Wiki`, option "Enable wiki resource".
 
 ## Working with Wiki (closed course editor)
 

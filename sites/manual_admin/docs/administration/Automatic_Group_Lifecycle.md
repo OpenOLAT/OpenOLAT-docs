@@ -2,7 +2,7 @@
 
 The group life cycle makes it easy to **automatically** inactivate and then delete unused groups after a certain period of time. A group passes through five steps: creation, "Active" status, inactivation, deletion, and permanent deletion. The process is similar to the [automatic user lifecycle](Life_cycles_-_Administration.md#lifecycle_accounts) and the [course life cycle](Automatic_Course_Lifecycle.md).
 
-![Five steps of the group life cycle, from creation to permanent deletion](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" }
+![Five steps of the group life cycle, from creation to permanent deletion](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" title="Life cycle of a group" }
 
 
 
@@ -10,7 +10,7 @@ The group life cycle makes it easy to **automatically** inactivate and then dele
 
 Authorized persons (group managers, administrators) receive the additional tab "**Group management**" when they click on "Groups" in the main navigation.
 
-![Three status arrows with their deadlines and the filter row below, Group management tab in the Groups area](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" }
+![Three status arrows with their deadlines and the filter row below, Group management tab in the Groups area](assets/automatic_group_lifecycle_groupmanagement_v1_de.png){ class="shadow lightbox" title="Group management tab in the Groups area" }
 
 By clicking on one of the 3 arrows, all existing groups are listed sorted into 3 categories:
 
@@ -20,21 +20,21 @@ By clicking on one of the 3 arrows, all existing groups are listed sorted into 3
 
 Below the arrows, filters narrow the list down further, for active groups for example "Longer without activity", "To inactivate" or "Within reaction time".
 
-The additional information in the 3 arrows describes the configuration set up by the administrators for this step.
+The additional information in the 3 arrows describes the configuration set up by the system administrators for this step.
 
 
 ## Configuration
 
-Administrators can configure the progress of the group life cycle in the system administration under:<br>
+System administrators can configure the progress of the group life cycle in the system administration under:<br>
 `Administration > Life cycles > Groups`
 
-![Menu item Groups under Life cycles highlighted, on the right the status arrows and the first configuration section, system administration](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" }
+![Menu item Groups under Life cycles highlighted, on the right the status arrows and the first configuration section, system administration](assets/automatic_group_lifecycle_admin_v1_de.png){ class="shadow lightbox" title="Life cycles menu of the system administration" }
 
-The result of the settings made is summarized both in the 3 arrows in the upper part of the configuration screen (for administrators) and in the arrows in the "Group management" tab, which group managers and administrators see under the main navigation in "Groups".
+The result of the settings made is summarized both in the 3 arrows in the upper part of the configuration screen (for system administrators) and in the arrows in the "Group management" tab, which group managers and administrators see under the main navigation in "Groups".
 
 **Example: View for group managers**
 
-![Highlighted example values of the three status arrows: 660, 6 and 2 days, automatic, Group management tab](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" }
+![Highlighted example values of the three status arrows: 660, 6 and 2 days, automatic, Group management tab](assets/automatic_group_lifecycle_example1_v1_de.png){ class="shadow lightbox" title="Group management tab with example values" }
 
   *  **active:** The group is used and someone has visited it within the set period. (Default value: 400 days without a visit).
 
@@ -91,7 +91,7 @@ Permanent deletion removes the group completely.
 
 The four examples show the status change automatically or manually, each without and with a reaction time. With a reaction time, a notification is sent at the start of the period; in all cases one is sent at the status change, if configured.
 
-![Four timelines of a status change: automatic or manual, each without and with a reaction time, with focus phase and notifications](assets/Beispielkonfiguration.jpg){ class="lightbox" }
+![Four timelines of a status change: automatic or manual, each without and with a reaction time, with focus phase and notifications](assets/Beispielkonfiguration.jpg){ class="lightbox" title="Timelines of a status change" }
 
 
 
@@ -100,7 +100,7 @@ The four examples show the status change automatically or manually, each without
 Group coaches have the option of explicitly excluding their group from the automatic methods. This means that all actions in the group life cycle must be triggered manually. You will find the option under:<br>
 `Group > Administration > Group Life Cycle`
 
-![Highlighted checkbox Exclude from the automatic methods, below it status and inactivation date, Group Life Cycle tab](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" }
+![Highlighted checkbox Exclude from the automatic methods, below it status and inactivation date, Group Life Cycle tab](assets/automatic_group_lifecycle_groupcoach_v1_de.png){ class="shadow lightbox" title="Group life cycle tab of a group" }
 
 !!! info "Important"
 
@@ -117,7 +117,7 @@ As soon as an automatic notification is triggered by the set conditions, OpenOla
 3. If neither applies, nobody is notified.
 
 
-![Decision tree of the notification: group coaches, otherwise owners of the courses, otherwise nobody](assets/automatic_group_lifecycle_mailcascade_v2_en.svg){ class="lightbox" }
+![Decision tree of the notification: group coaches, otherwise owners of the courses, otherwise nobody](assets/automatic_group_lifecycle_mailcascade_v2_en.svg){ class="lightbox" title="Recipients of the notification" }
 
 ## Further information {: #further_information}
 

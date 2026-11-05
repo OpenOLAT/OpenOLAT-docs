@@ -302,7 +302,7 @@ Einheiten, bei denen die Person als unentschuldigt gekennzeichnet ist.
 Einheiten, bei denen die Person als entschuldigt gekennzeichnet ist. Ein Grund lässt sich angeben.
 
 **Dispensiert**<br>
-Einheiten, für die die Person dispensiert ist. Ob Dispense als anwesend zählen, legen Administrator:innen in der System-Administration mit der Option "Dispense als anwesend zählen" fest:<br>
+Einheiten, für die die Person dispensiert ist. Ob Dispense als anwesend zählen, legen Systemadministrator:innen in der System-Administration mit der Option "Dispense als anwesend zählen" fest:<br>
 `Administration > Module > Termine / Absenzen > Tab Konfiguration`
 
 **Fortschritt**<br>

@@ -116,7 +116,7 @@ Mounts OpenOlat folders as a network drive on your own computer. This is ideal f
 - **Folders:** `coursefolders`, `groupfolders`, `home`, `sharedfolders`.
 - **Access:** WebDAV link + username/email + (WebDAV) password.
 - **WebDAV-capable:** Personal files, group, storage and "Folder" element folders, resource folders.
-- **Limits:** quota set by OpenOlat administrators; file names max. 100 characters long; avoid umlauts in folder names; > 50 MB is tricky under Windows.
+- **Limits:** the quota of the folder, see [Storage space (quota)](#quota); file names max. 100 characters long; avoid umlauts in folder names; > 50 MB is tricky under Windows.
 
 [To the top of the page ^](#folders)
 
@@ -135,8 +135,8 @@ All folders use the same component. You will find these features in the Storage 
 - **Bulk actions:** Select multiple entries via checkboxes and process them together.
 - **Create within the folder:** Documents (OnlyOffice: Word/Excel/PowerPoint, diagrams, whiteboard, HTML …), subfolders, video and audio recordings.
 - **Metadata & licenses:** Description, lock, license details (e.g. Creative Commons), Number of views (counts downloads) and direct link per file.
-- **Trash can:** Deleted items go to the trash can; administrators set the automatic deletion period.
-- **Quota / storage limit:** Limit per file and per folder (admin). Also applies to WebDAV upload.
+- **Trash can:** Deleted items go to the trash can; system administrators set the automatic deletion period.
+- **Quota / storage limit:** Limit per file and per folder, see [Storage space (quota)](#quota). Also applies to WebDAV upload.
 
 [To the top of the page ^](#folders)
 
@@ -145,11 +145,11 @@ All folders use the same component. You will find these features in the Storage 
 
 ## Storage space (quota) {: #quota}
 
-Every folder into which files are uploaded is subject to a quota (per file and per folder, set by administrators). It also applies to WebDAV upload.
+Every folder into which files are uploaded is subject to a quota (per file and per folder). It also applies to WebDAV upload.
 
 The **trash can contents** also count towards the quota. If storage space runs out, please empty the trash can first.
 
-An **adjustment of the available storage space** can be made by administrators. The quota can be set both for specific roles (e.g. all authors get more storage space) and for individuals (e.g. a particular person needs to store many videos).
+An **adjustment of the available storage space** is possible for specific roles and for individuals. System administrators change the default values for roles (e.g. all authors get more storage space) in the system administration under `Administration > Core functions > Files and folders > Tab "Quotas"`. Administrators, user managers and role managers set the quota of an individual person (e.g. a particular person needs to store many videos) in the user management. Who changes the quota of which folder is described in the instruction [What measures can I take to reduce storage space consumption?](../reduce_storage_consumption/reduce_storage_consumption.md)
 
 Use **resource folders** for files that are used multiple times instead of copying them into each course. This saves storage space and keeps content consistent.
 
@@ -341,7 +341,7 @@ Once the desired folders exist, you can do the following there:
 
 Which people (OpenOlat roles) may upload or create documents in which folder depends on the respective configurations (permissions granted) by authors or administrators.
 
-Which document formats can be created directly depends on which tools are installed, for example whether licenses for Microsoft Word and Excel are available for use in OpenOlat. If necessary, contact your administrators.
+Which document formats can be created directly depends on which tools are installed, for example whether licenses for Microsoft Word and Excel are available for use in OpenOlat. If necessary, contact your system administrators.
 
 Also remember that the size of individual files and the total storage of a folder are set by quotas.
 
@@ -367,7 +367,8 @@ Also remember that the size of individual files and the total storage of a folde
 [User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Document Pool >](../../manual_admin/administration/Modules_Document_pool.md)<br>
-[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)
+[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)<br>
+[What measures can I take to reduce storage space consumption? >](../reduce_storage_consumption/reduce_storage_consumption.md)
 
 **Further reading**<br>
 [File Hub Concept >](../../manual_user/basic_concepts/File_Hub_Concept.md)<br>

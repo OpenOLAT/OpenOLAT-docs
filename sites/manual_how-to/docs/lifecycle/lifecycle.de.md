@@ -9,7 +9,7 @@
 
 ??? abstract "Zielgruppe"
 
-    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
+    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen [x] Systemadministrator:innen
 
     [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 

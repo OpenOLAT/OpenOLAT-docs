@@ -110,7 +110,7 @@ Zur Auswahl stehen "Relevanz" sowie alle sortierbaren Spalten der Liste, darunte
     Der Sortier-Button erscheint nur, wenn die "Sortierung nach Priorität" aktiviert ist. Ohne diese Einstellung ist die Liste fest nach dem Titel aufsteigend sortiert und lässt sich nur über die Spaltentitel umsortieren. Die Aktivierung beschreibt der Abschnitt [Sortierung nach Priorität](#sorting_microsites_by_priority).
 
 !!! info "Modul Zeitabschnitte"
-    Die Spalten "Zeitabschnitt" und "Zeitabschnitt Beschr." erscheinen in der Liste, sobald Administrator:innen das Modul "Zeitabschnitte" eingeschaltet haben. Die Spalten "Beginn" und "Ende" stehen unabhängig davon zur Verfügung. [:octicons-tag-16:{ title="ab Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}<br>
+    Die Spalten "Zeitabschnitt" und "Zeitabschnitt Beschr." erscheinen in der Liste, sobald Systemadministrator:innen das Modul "Zeitabschnitte" eingeschaltet haben. Die Spalten "Beginn" und "Ende" stehen unabhängig davon zur Verfügung. [:octicons-tag-16:{ title="ab Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}<br>
     [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)
 
 [Zum Seitenanfang ^](#catalog_sort)
@@ -134,7 +134,7 @@ Wie in allen Listen in OpenOlat, können auch die Angebote des Katalogs durch Kl
 
 ### Sortierung nach Priorität [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-9039)" }](https://track.frentix.com/issue/OO-9039){:target="_blank"} {: #sorting_microsites_by_priority}
 
-Die "Sortierung nach Priorität" aktivieren Administrator:innen in der System-Administration unter:<br>
+Die "Sortierung nach Priorität" aktivieren Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Module > Katalog > Tab "Einstellungen" > Toggle-Button "Sortierung nach Priorität"`
 
 Danach erscheint der Sortier-Button rechts oben über einer Auflistung. Sein Standardkriterium ist "Relevanz".

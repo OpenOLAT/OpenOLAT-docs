@@ -15,7 +15,7 @@
 
 ## Struktur der Bibliothek einrichten {: #structure}
 
-Wenn Administrator:innen das Modul aktivieren, muss ein zugehöriger Ressourcenordner angegeben werden.
+Wenn Systemadministrator:innen das Modul aktivieren, muss ein zugehöriger Ressourcenordner angegeben werden.
 Um die Struktur der Bibliothek einzurichten, können Besitzer:innen diesen zugeordneten Ressourcenordner im Autorenbereich editieren.
 
 [Zum Seitenanfang ^](#library)
@@ -26,7 +26,7 @@ Um die Struktur der Bibliothek einzurichten, können Besitzer:innen diesen zugeo
 
 **Wer kann Dokumente in die Bibliothek hochladen?**<br>
 
-Wenn Administrator:innen das Hochladen erlaubt haben, können alle Benutzer:innen Dokumente in die Bibliothek hochladen. Die Einstellung liegt in der System-Administration unter:<br>
+Wenn Systemadministrator:innen das Hochladen erlaubt haben, können alle Benutzer:innen Dokumente in die Bibliothek hochladen. Die Einstellung liegt in der System-Administration unter:<br>
 `Administration > Module > Bibliothek`<br>
 Allerdings werden die Dokumente erst in die Bibliothek aufgenommen, nachdem eine Prüfung stattgefunden hat.
 
@@ -49,9 +49,9 @@ Nach dem Hochladen eines Dokuments erfolgt zunächst standardmässig eine Prüfu
 
 Besitzer:innen des mit der Bibliothek verknüpften Ressourcenordners werden über einen neuen Upload informiert und müssen das Dokument freigeben.
 
-Alternativ kann eine andere Person für die Prüfung bestimmt werden. Administrator:innen tragen dazu in der System-Administration unter `Administration > Module > Bibliothek` eine Mailadresse ein. Ist dort keine Adresse eingetragen, erhalten die Besitzer:innen der Lernressource den Prüfauftrag.
+Alternativ kann eine andere Person für die Prüfung bestimmt werden. Systemadministrator:innen tragen dazu in der System-Administration unter `Administration > Module > Bibliothek` eine Mailadresse ein. Ist dort keine Adresse eingetragen, erhalten die Besitzer:innen der Lernressource den Prüfauftrag.
 
-Administrator:innen können diesen Prüfprozess unter `Administration > Module > Bibliothek` auch deaktivieren. Wenn Sie die Prüfung deaktivieren, sollten Sie sich allerdings bewusst sein, dass so jede Person, die auf die Bibliothek zugreifen kann, Dokumente dort ungeprüft hochladen kann. [:octicons-tag-16:{ title="ab Release 19.1 (OO-8309)" }](https://track.frentix.com/issue/OO-8309)
+Systemadministrator:innen können diesen Prüfprozess unter `Administration > Module > Bibliothek` auch deaktivieren. Wenn Sie die Prüfung deaktivieren, sollten Sie sich allerdings bewusst sein, dass so jede Person, die auf die Bibliothek zugreifen kann, Dokumente dort ungeprüft hochladen kann. [:octicons-tag-16:{ title="ab Release 19.1 (OO-8309)" }](https://track.frentix.com/issue/OO-8309)
 
 
 [Zum Seitenanfang ^](#library)

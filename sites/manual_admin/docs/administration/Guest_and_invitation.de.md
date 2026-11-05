@@ -5,12 +5,12 @@ OpenOlat kann neben registrierten Benutzer:innen auch genutzt werden von
 * **Gästen** (anonym, können nur die für Gäste frei gegebenen Angebote nutzen)
 * **externen Benutzer:innen** (sind mindestens mit Mail bekannt, sind per Mail nur in einzelne, ganz bestimmte Kurse/Gruppen/Portfolios/Projekte eingeladen, maximale Nutzungsdauer: Voreinstellung 180 Tage)
 
-Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat so genutzt werden kann. Die Einstellungen dazu finden Sie in der System-Administration unter:<br>
+Systemadministrator:innen können festlegen, ob und in welchem Umfang OpenOlat so genutzt werden kann. Die Einstellungen dazu finden Sie in der System-Administration unter:<br>
 `Administration > Login > Anonyme und externe Benutzer:innen`
 
 ## Anonyme Gäste {: #guests}
 
-![Gastlogin und Links für Gast aktiviert, Volltextsuche für Gast ausgeschaltet, im Tab Anonyme Benutzer:in (Gast)](assets/login_anonymous_external_user_tab1_v1_de.png){ class="shadow lightbox" }
+![Gastlogin und Links für Gast aktiviert, Volltextsuche für Gast ausgeschaltet, im Tab Anonyme Benutzer:in (Gast)](assets/login_anonymous_external_user_tab1_v1_de.png){ class="shadow lightbox" title="Tab Anonyme Benutzer:in (Gast) im Menü Login" }
 
 * **"Gastlogin auf Login Seite":**<br>
 Bedeutet, dass der Gastzugang auf der Login-Seite ausgewählt werden kann.
@@ -28,7 +28,7 @@ Ermöglicht es Gästen, für sie freigeschaltete Kurse systemweit zu durchsuchen
 
 ## Externe Benutzer:innen {: #externals}
 
-![Einladung je Bereich einzeln aktivierbar, bei Kurs und Gruppen zusätzlich Rolle und Aktivierungsart, Tab Externe Benutzer:innen](assets/login_anonymous_external_user_tab2_v1_de.png){ class="shadow lightbox" }
+![Einladung je Bereich einzeln aktivierbar, bei Kurs und Gruppen zusätzlich Rolle und Aktivierungsart, Tab Externe Benutzer:innen](assets/login_anonymous_external_user_tab2_v1_de.png){ class="shadow lightbox" title="Tab Externe Benutzer:innen im Menü Login" }
 
 ### Kurs
 

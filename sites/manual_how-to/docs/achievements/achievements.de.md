@@ -58,7 +58,7 @@
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ----------------- | ------------------- | -------------- | ----------- | ------------ |
-| Automatisch in bewertbaren Kursbausteinen (z.B. Tests) und durch Betreuer:innen | Automatisch oder manuell durch Betreuer:innen, basierend auf den erreichten Punkten und der Bewertungsskala des Kursbausteins | Anzeige wird durch Kursbesitzer:innen in den Einstellungen aktiviert | Automatisch nach den Vergabekriterien oder manuell durch Kursbesitzer:innen und berechtigte Betreuer:innen | Automatisch nach den Vergabekriterien oder manuell durch Administrator:innen in der System-Administration | Automatisch nach Bestehen des Kurses oder manuell durch Betreuer:innen | Automatisch nach Bestehen eines Kurses, manuell durch Administrator:innen in der Benutzerverwaltung |
+| Automatisch in bewertbaren Kursbausteinen (z.B. Tests) und durch Betreuer:innen | Automatisch oder manuell durch Betreuer:innen, basierend auf den erreichten Punkten und der Bewertungsskala des Kursbausteins | Anzeige wird durch Kursbesitzer:innen in den Einstellungen aktiviert | Automatisch nach den Vergabekriterien oder manuell durch Kursbesitzer:innen und berechtigte Betreuer:innen | Automatisch nach den Vergabekriterien oder manuell durch Systemadministrator:innen in der System-Administration | Automatisch nach Bestehen des Kurses oder manuell durch Betreuer:innen | Automatisch nach Bestehen eines Kurses, manuell durch Administrator:innen in der Benutzerverwaltung |
 
 
 **Inhalt**
@@ -167,7 +167,7 @@ Mit einem Zertifikatsprogramm kann ein Zertifikat für den Besuch einer Durchfü
 ## Kreditpunkte {: #credit_points}
 
 Die Kreditpunkte können als eine Art Zahlungsmittel innerhalb OpenOlat betrachtet werden.
-Administrator:innen definieren in der System-Administration verschiedene Kreditpunktesysteme ("Währungen"), wobei die Gültigkeitsdauer der Kreditpunkte auch begrenzt werden kann.
+Systemadministrator:innen definieren in der System-Administration unter `Administration > e-Assessment > Kreditpunkte` verschiedene Kreditpunktesysteme ("Währungen"), wobei die Gültigkeitsdauer der Kreditpunkte auch begrenzt werden kann.
 
 Teilnehmer:innen können nach Bestehen eines Kurses automatisch Kreditpunkte gutgeschrieben werden. Wie viele Kreditpunkte vergeben werden, bestimmen die Kursbesitzer:innen in den Kurseinstellungen im Tab "Bewertung".
 
@@ -190,7 +190,7 @@ Es können grundsätzlich 3 Kategorien von Badges vergeben werden:
 
 * **Badges für einen Kurs**<br> (für das Bestehen des Kurses, bzw. das Erfüllen der dort gestellten Bedingungen)
 * **Badges für einen bestimmten Kursbaustein**<br> (wie Kursbadges, mit einer Bedingung für einen bestimmten Kursbaustein)
-* und **globale Badges**<br> (kursübergreifend, können nur von Administrator:innen erstellt werden)
+* und **globale Badges**<br> (kursübergreifend, können nur von Systemadministrator:innen erstellt werden)
 
 [Mehr zu Badges >](../../manual_user/learningresources/OpenBadges.de.md)<br>
 [Zum Seitenanfang ^](#achievements)
@@ -202,7 +202,7 @@ Es können grundsätzlich 3 Kategorien von Badges vergeben werden:
 
 Eine Testquittung ist eine digital signierte Bestätigung über einen abgeschlossenen Testversuch. Sie belegt später, was die teilnehmende Person zu welchem Zeitpunkt abgegeben hat. Autor:innen aktivieren sie in den Testeinstellungen mit der Option "Testquittung erstellen". Nach Beenden des Tests können die Teilnehmenden die Testquittung herunterladen, mit der Option "Testquittung per Mail schicken" erhalten sie sie zusätzlich per E-Mail. Betreuer:innen prüfen eine Testquittung im Bewertungswerkzeug mit "Testquittung validieren".
 
-Voraussetzung ist, dass Administrator:innen die Testquittung in der System-Administration unter `Administration > e-Assessment > Test` im Tab "QTI" eingerichtet haben.
+Voraussetzung ist, dass Systemadministrator:innen die Testquittung in der System-Administration unter `Administration > e-Assessment > Test` im Tab "QTI" eingerichtet haben.
 
 [Mehr zur Testquittung >](../../manual_user/learningresources/Test_settings.de.md#digital_signature)<br>
 [Mehr zum Validieren der Testquittung >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
@@ -231,7 +231,7 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
 - [x] Sollen neben Punkten auch Noten oder andere Bewertungen/grafische Symbole vergeben werden?
 - [x] Sind die benötigten Bewertungssysteme eingerichtet?
 - [x] Sind Leistungsnachweise in der Kurs-Administration aktiviert?
-- [x] Sind Badges generell von Administrator:innen instanzweit aktiviert?
+- [x] Sind Badges generell von Systemadministrator:innen instanzweit aktiviert?
 - [x] Wurde im Kurs die Badge-Vergabe aktiviert?
 - [x] Soll ein Zertifikat ausgestellt werden?
 - [x] Wurde eine Zertifikatsvorlage bereitgestellt?

@@ -2,7 +2,7 @@
 
 Anyone who runs many courses wants to finish old courses in an orderly way after the course end, move them to the trash and finally delete them permanently, without handling each course individually. The automatic course life cycle does this in a daily run according to the periods you define. Before you save a configuration, OpenOlat shows how many courses it sets to which step. Afterwards you see in the section "Life cycle process" what is running at the moment and what is due in the coming days.
 
-Administrators configure it in the system administration under:<br>
+System administrators configure it in the system administration under:<br>
 `Administration > Life cycles > Courses`
 
 ![Courses are automatically finished, moved to the trash and permanently deleted after the course end, depending on the period; before saving, a confirmation shows the number of affected courses](assets/automatic_course_lifecycle_stages_v1_en.svg){ class="lightbox" title="Life cycle of a course" }

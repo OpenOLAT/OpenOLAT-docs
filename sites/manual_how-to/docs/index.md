@@ -185,7 +185,7 @@ If the guide you need is not above, find it here by role. Each card collects the
 
 <p class="oo-mh-role__text">Set up, adapt and clean up the platform.</p>
 
-- [As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide?](SEB_Admin/SEB_Admin.md)
+- [As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide?](SEB_Admin/SEB_Admin.md)
 - [How do I comply with legal consent requirements?](legal_consents/legal_consents.md)
 - [What measures can I take to reduce storage space consumption?](reduce_storage_consumption/reduce_storage_consumption.md)
 - [How do I manage lifecycles of groups, courses or user accounts?](lifecycle/lifecycle.md)

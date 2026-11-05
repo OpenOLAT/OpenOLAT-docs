@@ -23,7 +23,7 @@
   <text x="666" y="116" text-anchor="middle" font-size="13" font-weight="bold" fill="#2D2926">Competence</text>
   <text x="470" y="140" text-anchor="middle" font-size="12" fill="#2D2926">several taxonomies side by side possible</text>
   <line x1="470" y1="152" x2="470" y2="190" stroke="#126365" stroke-width="1.5" marker-end="url(#arSea)"/>
-  <text x="482" y="176" text-anchor="start" font-size="12" fill="#2D2926">takes effect only once administrators select it in the area</text>
+  <text x="482" y="176" text-anchor="start" font-size="12" fill="#2D2926">takes effect only once system administrators select it in the area</text>
   <!-- Bereiche in der Übersicht des Moduls Taxonomie -->
   <rect x="20" y="192" width="900" height="142" rx="8" fill="#E6F0F0" stroke="#126365" stroke-width="1.5"/>
   <text x="36" y="214" text-anchor="start" font-size="13" font-weight="bold" fill="#126365">In the overview of the module Taxonomy, with its own setting per area</text>

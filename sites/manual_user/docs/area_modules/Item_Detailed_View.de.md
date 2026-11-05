@@ -160,7 +160,7 @@ Ist der Beurteilungsprozess ausgeschaltet, fehlt der Bereich "Bewertungen" in de
 
 
 [Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
-[Aktivierung des Beurteilungsprozesses durch Administrator:innen >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
+[Aktivierung des Beurteilungsprozesses durch Systemadministrator:innen >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
 [Zum Seitenanfang ^](#question_details)
 
 

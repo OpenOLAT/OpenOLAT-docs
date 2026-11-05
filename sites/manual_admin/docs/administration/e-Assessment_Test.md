@@ -8,17 +8,17 @@ On this tab, a digitally signed test receipt of the test results can be enabled.
 
 Under Extensions, the QtiWorks Math extension can be enabled. It requires a Maxima installation on the server.
 
-![Checkbox Test receipt of the test results with certificate upload and Certificat password, below it checkbox QtiWorks Math extension, QTI tab on the Test page](assets/e-assessment_test_tab_QTI_v1_de.png){ class="shadow lightbox" }
+![Checkbox Test receipt of the test results with certificate upload and Certificat password, below it checkbox QtiWorks Math extension](assets/e-assessment_test_tab_QTI_v1_de.png){ class="shadow lightbox" title="QTI tab on the Test page" }
 
 ---
 
 ## Tab Correction  {: #tab_correction}
 
-Administrators can choose whether to enable the grading tool for anonymous grading.
+System administrators can choose whether to enable the grading tool for anonymous grading.
 
 In addition, you can generally specify whether a grade will be released and made visible to participants after a manual correction.
 
-![Checkbox Correction tool Anonymous enabled and option Not released selected, Correction tab on the Test page](assets/e-assessment_test_tab_correction_v1_de.png){ class="shadow lightbox" }
+![Checkbox Correction tool Anonymous enabled and option Not released selected](assets/e-assessment_test_tab_correction_v1_de.png){ class="shadow lightbox" title="Correction tab on the Test page" }
 
 [To the top of the page ^](#test)
 
@@ -32,7 +32,7 @@ Emails are needed to coordinate corrections made by several different correctors
 
 The minutes used for correction can be made available to various roles.
 
-![Correction workflow enabled, visibility of the actual correction minutes for four roles, list of mail templates with a translate link, Correction workflow tab on the Test page](assets/e-assessment_test_tab_correction_workflow_v1_de.png){ class="shadow lightbox" }
+![Correction workflow enabled, visibility of the actual correction minutes for four roles, list of mail templates with a translate link](assets/e-assessment_test_tab_correction_workflow_v1_de.png){ class="shadow lightbox" title="Correction workflow tab on the Test page" }
 
 [To the top of the page ^](#test)
 
@@ -42,7 +42,7 @@ The minutes used for correction can be made available to various roles.
 
 If OpenOlat exams are printed as handwritten exams, an additional page can be attached, which is defined here.
 
-![Field Additional sheet with Edit button to define the additional text, Test export tab on the Test page](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" }
+![Field Additional sheet with Edit button to define the additional text](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" title="Test export tab on the Test page" }
 
 [To the top of the page ^](#test)
 

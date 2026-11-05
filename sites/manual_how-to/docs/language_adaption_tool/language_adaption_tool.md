@@ -7,20 +7,20 @@
 
 ??? abstract "Target group"
 
-    [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators
+    [ ] Authors [ ] Coaches  [ ] Participants  [ ] Administrators [x] System administrators
 
     [ ] Beginners [ ] Advanced users  [x] Experts
 
 
 ??? abstract "Expected prior knowledge"
 
-    * Experience as administrator
+    * Experience as system administrator
     * Experience with the use of variables in programming environments
 
 
 ## What is possible? {: #possibilities}
 
-An organization often uses its own internal terminology. It is then desirable that this terminology is also used in the learning platform. If it concerns the **content**, the **authors** can take it into account. For specific **customizations of the OpenOlat interface** itself, the **language adaptation tool** can be used.
+An organization often uses its own internal terminology. It is then desirable that this terminology is also used in the learning platform. If it concerns the content, the authors can take it into account. For customizations of the OpenOlat interface itself, there is the **language adaptation tool**.
 
 **Example:**<br>
 The title of the search field for the catalog should not say "Catalog", but "Our products".
@@ -53,7 +53,7 @@ Of course, integrated external tools cannot be customized. If, for example, Micr
 
 ## Which requirements should I bring? {: #requirements}
 
-  * You must have the role of **administrator** in OpenOlat.
+  * You must have the role of system administrator in OpenOlat.
   * It is helpful if you have some experience in dealing with variables in programming environments.
 
 

@@ -1,6 +1,6 @@
 # Modul Qualitätsmanagement {: #Modules_Quality_Management}
 
-Mit dem Qualitätsmanagement planen Qualitätsverwalter:innen Datenerhebungen, werten sie aus und leiten Massnahmen ab. Das Modul ist standardmässig ausgeschaltet. Administrator:innen schalten es in der System-Administration ein und legen dort die zugehörigen Optionen fest:<br>
+Mit dem Qualitätsmanagement planen Qualitätsverwalter:innen Datenerhebungen, werten sie aus und leiten Massnahmen ab. Das Modul ist standardmässig ausgeschaltet. Systemadministrator:innen schalten es in der System-Administration ein und legen dort die zugehörigen Optionen fest:<br>
 `Administration > Module > Qualitätsmanagement`
 
 ![Schalter für Modul, Verbesserungsvorschlag, Datenerhebungsvorschau und Massnahmen To-Dos, dazu E-Mail-Felder für Absender und Empfänger](assets/modules_quality_management_v1_de.png){ class="shadow lightbox" title="Modul Qualitätsmanagement in der System-Administration" }

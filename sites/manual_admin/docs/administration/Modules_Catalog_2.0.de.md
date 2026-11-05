@@ -2,7 +2,7 @@
 
 ## Tab Einstellungen [:octicons-tag-16:{ title="ab Release 17.0 (OO-6145)" }](https://track.frentix.com/issue/OO-6145) {: #tab_settings}
 
-Administrator:innen legen hier fest, ob Benutzer:innen einen Katalog sehen und welchen. Sie finden die Einstellung in der System-Administration unter:<br>
+Systemadministrator:innen legen hier fest, ob Benutzer:innen einen Katalog sehen und welchen. Sie finden die Einstellung in der System-Administration unter:<br>
 `Administration > Module > Katalog > Tab "Einstellungen"`
 
 Unter Modul "Katalog" stehen drei Optionen zur Wahl: "Kein Katalog", "Katalog V1" und "Katalog V2". Je nach Wahl erscheinen unterschiedliche weitere Tabs.

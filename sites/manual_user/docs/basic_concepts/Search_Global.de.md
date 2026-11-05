@@ -21,7 +21,7 @@ Personendaten wie Profile, Visitenkarten oder persönliche Ordner werden nicht i
 
 ## Aktivierung {: #activation}
 
-Die globale Suche ist nur dann sichtbar und nutzbar, wenn der Suchdienst für Ihre OpenOlat Instanz eingeschaltet ist. Diese Einstellung nehmen Administrator:innen in der Server-Konfiguration vor (Eigenschaft `search.service`). Die Einstellungen zur Indexierung finden sich in der System-Administration unter `Administration > Core-Konfiguration > Volltextsuche`, siehe [Core-Konfiguration: Übersicht](../../manual_admin/administration/Core_functions.de.md). Ist die Suche bei Ihnen nicht sichtbar, wenden Sie sich an den oder die Administrator:in Ihrer OpenOlat Instanz.
+Die globale Suche ist nur dann sichtbar und nutzbar, wenn der Suchdienst für Ihre OpenOlat-Instanz eingeschaltet ist. Der Suchdienst ist Teil der Serverkonfiguration. Die Einstellungen zur Indexierung nehmen Systemadministrator:innen in der System-Administration vor, unter `Administration > Core-Konfiguration > Volltextsuche`, siehe [Core-Konfiguration: Übersicht](../../manual_admin/administration/Core_functions.de.md). Ist die Suche bei Ihnen nicht sichtbar, wenden Sie sich an Ihre Organisation.
 
 
 ## Weiterführende Informationen {: #further_information}

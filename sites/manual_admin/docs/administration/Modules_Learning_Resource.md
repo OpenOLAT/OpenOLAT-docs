@@ -1,6 +1,6 @@
 # Module Learning resource [:octicons-tag-16:{ title="from Release 20.3 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"} {: #learning_resource}
 
-In the module Learning resource, administrators define system-wide settings and defaults for courses and other learning resources. You find the module in the system administration under:<br>
+In the module Learning resource, system administrators define system-wide settings and defaults for courses and other learning resources. You find the module in the system administration under:<br>
 `Administration > Modules > Learning resource`
 
 ![Checkboxes for Comment, Rating and Request membership, plus the default setting for leaving and the role priority](assets/modules_learning_resource_tab_settings_v2_en.png){ class="shadow lightbox" title="Learning resource page in the Modules menu" }
@@ -16,7 +16,7 @@ The "Settings" tab contains the sections Settings, Default setting, Notification
 
 ### Settings section
 
-With the first checkbox, administrators make the pre-selection "In preparation" visible for participants in the "Courses" menu.
+With the first checkbox, system administrators make the pre-selection "In preparation" visible for participants in the "Courses" menu.
 
 #### Scope "In preparation" under "Courses"
 
@@ -46,7 +46,7 @@ For this, the info page shows an input field at the bottom.
 
 ![Highlighted Comments area with the input field "Leave a comment..."](assets/modules_repository_course_comment_v2_en.png){ class="shadow lightbox" title="Info page of a course · 2026.10.30" }
 
-Whether the input field appears, administrators switch on or off system-wide in this module with the checkbox "Comment".
+Whether the input field appears, system administrators switch on or off system-wide in this module with the checkbox "Comment".
 
 [To the top of the page ^](#learning_resource)
 
@@ -59,7 +59,7 @@ On the info page of a course, users can also rate the course with stars. The sta
 
 ![Highlighted Rating with five clickable stars](assets/modules_repository_course_review_v2_en.png){ class="shadow lightbox" title="Info page of a course · 2026.10.30" }
 
-Whether the stars for rating a course appear, administrators switch on or off system-wide in this module with the checkbox "Rating".
+Whether the stars for rating a course appear, system administrators switch on or off system-wide in this module with the checkbox "Rating".
 
 [To the top of the page ^](#learning_resource)
 
@@ -71,7 +71,7 @@ If someone opens a course to which they do not have access, a notice appears wit
 
 ![Request membership button next to Back](assets/modules_repository_request_membership_v1_en.png){ class="shadow lightbox" title="Notice page for people without membership" }
 
-Whether the button appears, administrators switch on or off system-wide in this module with the checkbox "Request membership".
+Whether the button appears, system administrators switch on or off system-wide in this module with the checkbox "Request membership".
 
 [To the top of the page ^](#learning_resource)
 
@@ -173,7 +173,7 @@ Via the button "Open site settings" you go directly to the "Sites" page of the s
 There you define the order of the sites in the main navigation and for which roles they are visible. You can also deactivate the site "My courses" there. The Coaching tool cannot be deactivated in the standard configuration, because owners and coaches find their learning resources only there. More on this: [Customizing: Sites >](Customizing.md#sites)
 
 !!! note "Access to the setting"
-    Only administrators can open and change this page.
+    Only system administrators can open and change this page.
 
 [To the top of the page ^](#learning_resource)
 

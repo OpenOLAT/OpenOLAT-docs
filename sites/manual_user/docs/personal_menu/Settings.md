@@ -163,7 +163,7 @@ In the tab "Instant Messaging" you define the settings for the [chat function](.
 
 ## Tab Terms of use {: #tab_terms_of_use}
 
-Here you read the terms of use you agreed to the first time you logged in. The administrators of your OpenOlat instance define their content.
+Here you read the terms of use you agreed to the first time you logged in. The system administrators of your OpenOlat instance define their content.
 
 If you no longer agree to the terms of use, you request the deletion of your OpenOlat account here with "Ask to delete your account". The request is sent as an email to an address configured by the system administration; the deletion itself is carried out by the user management. More about this: [Data protection](../../manual_admin/usermanagement/Data_protection.md#request_account_deletion)
 

@@ -10,7 +10,7 @@ Deep Linking ist ein Service des LTI 1.3, der es Autor:innen ermöglicht, in den
 **Beispiel:**<br>
 Statt im Kursbaustein einen Link zu einem Buch anzugeben und die Lernenden ein empfohlenes Kapitel selbst suchen zu lassen (Scrollen), kann direkt ein bestimmtes Kapitel angezeigt werden.
 
-Damit die OpenOlat-Autor:innen die Deep Links zum externen Tool in den Kursbausteinen ermöglichen können, ohne immer wieder Angaben zu Anmeldung und Parametern machen zu müssen, kann die Deep Linking Funktion von den Administrator:innen der OpenOlat-Instanz aktiviert werden. Dies vereinfacht die Arbeit der Autor:innen bei der Konfiguration eines LTI-Kursbausteins.
+Damit die OpenOlat-Autor:innen die Deep Links zum externen Tool in den Kursbausteinen ermöglichen können, ohne immer wieder Angaben zu Anmeldung und Parametern machen zu müssen, können Systemadministrator:innen die Deep Linking Funktion aktivieren. Dies vereinfacht die Arbeit der Autor:innen bei der Konfiguration eines LTI-Kursbausteins.
 
 ## Verfügbare Features {: #available_features}
 
@@ -36,13 +36,13 @@ Zwischen OpenOlat und dem eingebundenen Tool können verschiedene Informationen 
 
 ### Globale Konfiguration
 
-Wenn von Administrator:innen auf globaler Ebene ein LTI-Tool eingerichtet wird, kann dabei auch eine Option für Deep Links aktiviert werden.
+Richten Systemadministrator:innen auf globaler Ebene ein LTI-Tool ein, können sie dabei auch eine Option für Deep Links aktivieren.
 Die Aktivierung bewirkt, dass alle gemachten Einstellungen für das Tool (Ermöglichung der Nutzung ohne erneute separate Anmeldung) auch für Deep Links gelten, die Kursautor:innen im LTI-Kursbaustein angeben.
 
 Den Toggle-Button "Deep-Linking aktivieren" finden Sie in der System-Administration unter:<br>
 `Administration > Externe Werkzeuge > LTI > Tab "Externe Tools" > Button "Bearbeiten"`
 
-![Toggle Deep-Linking aktivieren auf EIN, im Dialog für ein LTI-Tool unter Externe Werkzeuge](assets/LTI_admin_deeplinking_activate_v1_de.png){ class="shadow lightbox" }
+![Toggle Deep-Linking aktivieren auf EIN](assets/LTI_admin_deeplinking_activate_v1_de.png){ class="shadow lightbox" title="Dialog eines LTI-Tools unter Externe Werkzeuge" }
 
 ### Konfiguration im Kurs
 
@@ -51,9 +51,9 @@ Wurde Deep Linking für Autor:innen gestattet, können sie bei der Konfiguration
 
 Wird einer der vorkonfigurierten Links ausgewählt, wird die benötigte URL gleich eingetragen und als Autor:in muss man sich nicht mehr darum kümmern.
 
-![Auswahlliste LTI Version mit dem Wert LTI 1.3, im Tab Seiteninhalt des Kursbausteins LTI-Seite](assets/LTI_page_content_version_v1_de.png){ class="shadow lightbox" }
+![Auswahlliste LTI Version mit dem Wert LTI 1.3](assets/LTI_page_content_version_v1_de.png){ class="shadow lightbox" title="Tab Seiteninhalt des Kursbausteins LTI-Seite" }
 
-![Geöffnete Auswahlliste LTI Version mit den beiden LTI-Versionen und darunter den vorkonfigurierten Tools](assets/LTI_page_content_version_select_v1_de.png){ class="shadow lightbox" }
+![Geöffnete Auswahlliste LTI Version mit den beiden LTI-Versionen und darunter den vorkonfigurierten Tools](assets/LTI_page_content_version_select_v1_de.png){ class="shadow lightbox" title="Auswahlliste LTI Version im Tab Seiteninhalt" }
 
 
 Anschliessend können die dabei erzeugten Parameter Client-ID und Deployment-ID verwendet werden, um damit auf Seite des eingebundenen Tools den Abschluss vorzunehmen.
@@ -69,7 +69,7 @@ Der Button "Inhalt auswählen" erscheint bei "LTI 1.3" und bei einem vorkonfigur
 
 Wenn im Kursbaustein "LTI-Seite" der externe Inhalt sofort gestartet werden soll, muss im Kurseditor im Tab "Seiteninhalt" die Option "Inhalt automatisch starten" angewählt sein. Andernfalls erscheint ein Button, mit dem von den Lernenden explizit die eingebundene Seite gestartet werden muss.
 
-![Checkbox Inhalt automatisch starten, darüber die ausgefüllten Felder URL, Client-ID und Deployment-ID](assets/LTI_page_content_launch_v1_de.png){ class="shadow lightbox" }
+![Checkbox Inhalt automatisch starten, darüber die ausgefüllten Felder URL, Client-ID und Deployment-ID](assets/LTI_page_content_launch_v1_de.png){ class="shadow lightbox" title="Tab Seiteninhalt des Kursbausteins LTI-Seite" }
 
 
 

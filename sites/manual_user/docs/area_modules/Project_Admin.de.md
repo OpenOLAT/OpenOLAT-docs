@@ -20,11 +20,11 @@ Zur Administration eines Projektes gehören
 
 Mit "Projekt bearbeiten" ist nicht die inhaltliche Bearbeitung gemeint (Termine eintragen, To-dos erstellen, usw.), sondern die **Bearbeitung der Startseite** des Projektes. Öffnen Sie dazu im Cockpit des Projekts rechts oben das 3-Punkte-Menü und wählen Sie "Projekt bearbeiten".
 
-![Eintrag Projekt bearbeiten im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
+![Eintrag Projekt bearbeiten im 3-Punkte-Menü rechts oben](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 Es öffnet sich der Dialog "Projekt bearbeiten". Die Nummern im Bild zeigen, wo die Angaben aus dem Dialog auf der Startseite des Projekts erscheinen.
 
-![Dialog Projekt bearbeiten, die Nummern 1 bis 4 verbinden die Felder Titel, Teaser, Avatar und Hintergrund Bild mit ihrer Stelle auf der Startseite des Projekts dahinter](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" }
+![Die Nummern 1 bis 4 verbinden die Felder Titel, Teaser, Avatar und Hintergrund Bild mit ihrer Stelle auf der Startseite des Projekts dahinter](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" title="Dialog Projekt bearbeiten" }
 
 * ![1](assets/1_green_24.png) **Titel**: Pflichtfeld. Der Titel steht als Überschrift auf der Startseite und bezeichnet das Projekt in der Projektliste.
 * ![2](assets/2_green_24.png) **Teaser**: Kurztext, der auf der Startseite direkt unter dem Titel erscheint.
@@ -40,7 +40,7 @@ Drei weitere Felder erscheinen nicht oder nur klein auf der Startseite:
 
 ## Projekt kopieren [:octicons-tag-16:{ title="ab Release 18.0 (OO-6840)" }](https://track.frentix.com/issue/OO-6840)
 
-![Eintrag Projekt kopieren im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" }
+![Eintrag Projekt kopieren im 3-Punkte-Menü rechts oben](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 Kopiert werden:
 
@@ -64,20 +64,20 @@ Wenn Sie ähnliche Projekte wiederholt anlegen, sparen Sie mit einer Vorlage die
 
 Ein angelegtes Projekt kann als Vorlage gespeichert werden. Wählen Sie hierfür im 3-Punkte-Menü die Option "Als Vorlage speichern".
 
-![Eintrag Als Vorlage speichern im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" }
+![Eintrag Als Vorlage speichern im 3-Punkte-Menü rechts oben](assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 Es öffnet sich der Dialog "Als Vorlage speichern". Eine private Vorlage steht nur Ihnen zur Verfügung. Eine organisationsweite Vorlage steht allen Mitgliedern der gewählten Organisationen zur Verfügung. Die Auswahl "Sichtbarkeit" mit den Optionen "Nur für mich" und "Für alle Mitglieder der Organisation" sehen nur Personen mit der Organisationsrolle Administrator:in oder Projektverwalter:in. Erlaubt die System-Administration unter `Administration > Module > Projekte` auch Autor:innen, Projekte und Vorlagen hinzuzufügen, sehen auch Autor:innen diese Auswahl. Alle übrigen Personen erstellen immer eine private Vorlage. Bei der Option "Für alle Mitglieder der Organisation" wählen Sie im Feld "Vorlage Organisationen" die Organisationen aus, in denen Sie eine dieser Rollen haben. :octicons-tag-16:{ title="ab Release 21.0.3 (OO-9719)" }
 
-![Auswahl Sichtbarkeit mit den Optionen Nur für mich und Für alle Mitglieder der Organisation, darunter das Pflichtfeld Vorlage Organisationen, im Dialog Leere Vorlage erstellen](assets/projekte_admin_vorlage_sichtbarkeit_v1_de.png){ class="shadow lightbox" }
+![Auswahl Sichtbarkeit mit den Optionen Nur für mich und Für alle Mitglieder der Organisation, darunter das Pflichtfeld Vorlage Organisationen](assets/projekte_admin_vorlage_sichtbarkeit_v1_de.png){ class="shadow lightbox" title="Dialog Leere Vorlage erstellen" }
 
 Darüber hinaus kann eine leere Vorlage im Tab "Projektvorlagen" erstellt werden, was häufig ein sinnvollerer Weg ist: `Projekte > Tab "Projektvorlagen" > Button "Leere Vorlage erstellen"`. Für die Sichtbarkeit gilt dort dieselbe Regel wie beim Speichern eines Projekts als Vorlage.
 
-![Button Leere Vorlage erstellen im Tab Projektvorlagen des Bereichs Projekte](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
+![Button Leere Vorlage erstellen](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" title="Tab Projektvorlagen im Bereich Projekte" }
 
 
 ## Projekte abschliessen
 
-![Eintrag Projekt abschliessen im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
+![Eintrag Projekt abschliessen im 3-Punkte-Menü rechts oben](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 Wird ein Projekt abgeschlossen, haben alle Projektmitglieder anschliessend nur noch schreibgeschützten Zugriff.
 
@@ -96,7 +96,7 @@ Abgeschlossen werden kann ein Projekt nur durch
 
 ## Projekt löschen
 
-![Eintrag Projekt löschen im 3-Punkte-Menü rechts oben im Cockpit eines Projekts](assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
+![Eintrag Projekt löschen im 3-Punkte-Menü rechts oben](assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 Gelöscht werden können Projekte nur durch
 
@@ -112,9 +112,9 @@ Gelöscht werden können Projekte nur durch
 
 ## Tab Projektadministration [:octicons-tag-16:{ title="ab Release 18.0 (OO-6845)" }](https://track.frentix.com/issue/OO-6845)
 
-OpenOlat-Administrator:innen und Projektverwalter:innen haben unter dem Menüpunkt "Projekte" einen weiteren Tab: `Projekte > Tab "Administration"`.
+Administrator:innen und Projektverwalter:innen haben unter dem Menüpunkt "Projekte" einen weiteren Tab: `Projekte > Tab "Administration"`.
 
-![Tab Administration im Bereich Projekte mit den Filtern Ohne kürzliche Aktivität, Zu löschen, Abgeschlossen und Gelöschte oberhalb der Projektliste](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
+![Filter Ohne kürzliche Aktivität, Zu löschen, Abgeschlossen und Gelöschte oberhalb der Projektliste](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" title="Tab Administration im Bereich Projekte" }
 
 Für Ihre Verwaltungsaufgaben stehen dort folgende (Filter-)Funktionen zur Verfügung:
 

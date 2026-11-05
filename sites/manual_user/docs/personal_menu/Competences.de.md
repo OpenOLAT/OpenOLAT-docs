@@ -10,11 +10,11 @@ In den persönlichen Werkzeugen erhalten Lernende eine Übersicht über alle Kom
 Die Zuordnung von Kompetenzen kann z.B. in ePortfolio-Einträgen erfolgt sein oder manuell von Benutzerverwalter:innen im Benutzerprofil eingetragen worden sein.
 
 
-![Liste Meine Kompetenzen, gegliedert nach Taxonomie und Taxonomieebene, mit den Spalten Kompetenz, Ressource, Zusätzliche Informationen und Typ; Typen sind Verwalten oder Haben](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox"}
+![Liste Meine Kompetenzen, gegliedert nach Taxonomie und Taxonomieebene, mit den Spalten Kompetenz, Ressource, Zusätzliche Informationen und Typ; Typen sind Verwalten oder Haben](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox" title="Kompetenzen in den persönlichen Werkzeugen" }
 
 !!! info "Wichtig"
 
-    Voraussetzung für die Anzeige der Kompetenzen ist die Verwendung des Moduls Taxonomie und der Aufbau von Taxonomie-Strukturen durch OpenOlat-Administrator:innen.
+    Voraussetzung für die Anzeige der Kompetenzen ist die Verwendung des Moduls Taxonomie und der Aufbau von Taxonomie-Strukturen. Beides richten Systemadministrator:innen in der System-Administration ein: `Administration > Module > Taxonomie`.
 
 [Zum Seitenanfang ^](#competences)
 

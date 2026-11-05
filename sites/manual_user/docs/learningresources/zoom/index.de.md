@@ -17,7 +17,7 @@ Spezialität / Hinweis | Zoom ist eine kommerzielle Software. Um den Kursbaustei
 Um den Kursbaustein "Zoom" für Webkonferenzen verwenden zu können,
 
 * müssen Sie eine Zoom Education- oder Enterprise-Lizenz benutzen können.
-* muss Zoom von Ihrem/Ihrer Administrator:in konfiguriert worden sein.
+* muss Zoom in der System-Administration von Systemadministrator:innen konfiguriert worden sein: `Administration > Externe Werkzeuge > Zoom`.
 
 Informationen des Herstellers finden Sie auf der [Zoom-Homepage](https://zoom.us).
 
@@ -27,12 +27,12 @@ Informationen des Herstellers finden Sie auf der [Zoom-Homepage](https://zoom.us
 
 Als Autor:in fügen Sie im Kurseditor einfach einen Kursbaustein "Zoom" ein und wählen im Tab "Zoom-Konfiguration" lediglich das vordefinierte Profil.
 
-![Tab Zoom-Konfiguration mit Feld Zoom-Profil und Button Speichern, im Kurseditor des Kursbausteins Zoom](../assets/course_element_zoom_config_v1_de.png){ class="shadow lightbox" }
+![Feld Zoom-Profil und Button Speichern](../assets/course_element_zoom_config_v1_de.png){ class="shadow lightbox" title="Tab Zoom-Konfiguration im Kurseditor" }
 
 Die anderen Tabs konfigurieren Sie, wie Sie es von anderen Kursbausteinen gewohnt sind.
 
 
-## Zoom Konfiguration durch Administrator:innen
+## Zoom Konfiguration durch Systemadministrator:innen
 
 Die Einbindung von Zoom in OpenOlat via LTI ist im [OpenOlat-Administrationshandbuch](../../../manual_admin/administration/Zoom.de.md) beschrieben.
 

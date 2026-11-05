@@ -9,18 +9,18 @@ Welche Bereiche Sie sehen, steuern drei Dinge: das Modul, die Freischaltung in d
 
 ## Was über einen Bereich entscheidet {: #conditions}
 
-Sie suchen einen Bereich und finden ihn nicht, eine Kollegin sieht ihn dagegen sehr wohl. Vier Bedingungen entscheiden darüber. Wer sie der Reihe nach durchgeht, findet die Ursache und weiss, wen er fragen muss.
+Sie suchen einen Bereich und finden ihn nicht, eine Kollegin sieht ihn dagegen sehr wohl. Vier Bedingungen entscheiden darüber. Gehen Sie sie der Reihe nach durch, finden Sie die Ursache und wissen, wen Sie fragen müssen.
 
-1. **Das Modul ist aktiviert.** Ohne aktives Modul erscheint der Bereich nicht, auch wenn er in der Liste der Bereiche aktiviert ist. Den Katalog schalten Administrator:innen zum Beispiel in der System-Administration ein, im [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md): `Administration > Module > Katalog`
-2. **Der Bereich ist aktiviert und einsortiert.** Administrator:innen führen alle Bereiche in einer Liste, in der System-Administration unter `Administration > Customizing > Bereiche`, Tab "Reihenfolge". Das Kontrollkästchen "Aktiviert" gibt einen Eintrag frei, die Pfeile "Hoch" und "Runter" legen die Reihenfolge fest.
+1. **Das Modul ist aktiviert.** Ohne aktives Modul erscheint der Bereich nicht, auch wenn er in der Liste der Bereiche aktiviert ist. Den Katalog schalten Systemadministrator:innen zum Beispiel in der System-Administration ein, im [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md): `Administration > Module > Katalog`
+2. **Der Bereich ist aktiviert und einsortiert.** Systemadministrator:innen führen alle Bereiche in einer Liste, in der System-Administration unter `Administration > Customizing > Bereiche`, Tab "Reihenfolge". Das Kontrollkästchen "Aktiviert" gibt einen Eintrag frei, die Pfeile "Hoch" und "Runter" legen die Reihenfolge fest.
 3. **Die Rolle hat Zugang.** Die Spalte "Zugang" derselben Liste bestimmt, welche Rollen den Bereich sehen, zum Beispiel "Registrierte Konten ohne Gäste/externe Benutzer:innen" oder "Autor:innen und Lernressourcenverwalter:innen". Zwei Personen mit verschiedenen Rollen sehen deshalb eine verschiedene Hauptnavigation.
 4. **In der Hauptnavigation ist Platz.** Was nicht mehr hineinpasst, sammelt OpenOlat im Menü "Mehr" am rechten Rand. Das hängt von der Breite des Bildschirms ab, nicht von einer Einstellung.
 
 Einzelne Einträge der Liste heissen anders als der Bereich, den sie erzeugen: der Eintrag "Meine Kurse" erscheint als "Kurse".
 
-Neben den Bereichen der Tabelle unten lassen sich vier Infoseiten und zwei externe Seiten als eigener Bereich einhängen. Administrator:innen belegen eine Infoseite mit einem Kurs, eine externe Seite mit einer URL.
+Neben den Bereichen der Tabelle unten lassen sich vier Infoseiten und zwei externe Seiten als eigener Bereich einhängen. Systemadministrator:innen belegen eine Infoseite mit einem Kurs, eine externe Seite mit einer URL.
 
-Wie Administrator:innen diese Liste bedienen, beschreibt das Administrationshandbuch: [Customizing: Bereiche](../../manual_admin/administration/Customizing.de.md#sites).
+Wie Systemadministrator:innen diese Liste bedienen, beschreibt das Administrationshandbuch: [Customizing: Bereiche](../../manual_admin/administration/Customizing.de.md#sites).
 
 
 ## Wo die Bereiche beschrieben sind {: #areas}

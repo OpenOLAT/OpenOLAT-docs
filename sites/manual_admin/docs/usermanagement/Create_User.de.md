@@ -65,7 +65,7 @@ Der Schritt "Übersicht" listet die Konten auf, die entstehen. Ein Konto mit ein
 
 ## Selbstregistrierung [:octicons-tag-16:{ title="ab Release 8.1.1 (OO-226)" }](https://track.frentix.com/issue/OO-226) {: #self_registration}
 
-Sollen sich Personen ohne Zutun der Benutzerverwaltung ein Konto anlegen, schalten Sie die Selbstregistrierung ein. Administrator:innen schalten "Selbstregistration aktivieren" in der System-Administration ein unter:<br>
+Sollen sich Personen ohne Zutun der Benutzerverwaltung ein Konto anlegen, schalten Sie die Selbstregistrierung ein. Systemadministrator:innen schalten "Selbstregistration aktivieren" in der System-Administration ein unter:<br>
 `Administration > Login > Selbstregistration`
 
 Dort schränken Sie die Selbstregistrierung bei Bedarf weiter ein, etwa auf bestimmte E-Mail-Domänen, siehe [Selbstregistration](../administration/Login_Self-Registration.de.md).

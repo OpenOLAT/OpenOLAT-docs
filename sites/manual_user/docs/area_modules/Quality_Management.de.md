@@ -18,7 +18,7 @@ Je nach Konfiguration, sind für die Teilnehmer:innen die Resultate des Reports 
 
 Der Report ist Bestandteil des Kursbausteines und fasst deshalb nur die Antworten der Mitglieder des jeweiligen Kurses zusammen. Die Reports stehen also nur kursweise zur Verfügung.
 
-![Ein Formular in zwei Kursen mit Kursbaustein Umfrage, je Kurs ein eigener Report, Befragungszeitraum gleich Kursdauer](assets/quality_management_case1_v1_de.png){ class="lightbox" }
+![Ein Formular in zwei Kursen mit Kursbaustein Umfrage, je Kurs ein eigener Report, Befragungszeitraum gleich Kursdauer](assets/quality_management_case1_v1_de.png){ class="lightbox" title="Einzelbefragung mit einem Formular in mehreren Kursen" }
 
 ## Fall 2: Ad-hoc-Datenerhebung (Mehrfachbefragungen in mehreren Kursen oder kursunabhängig)
 
@@ -32,7 +32,7 @@ Auf der Ebene dieser Datenerhebung werden dann Teilnehmer:innen, Befragungsgegen
 
 Im Modul "Qualitätsmanagement" steht dann ein kursübergreifender Report zur Verfügung.
 
-![Eine Datenerhebung im Modul Qualitätsmanagement verknüpft ein Formular mit Kursen, Betreuer:innen und Curricula und liefert einen Report für den Befragungszeitraum](assets/quality_management_case2_v1_de.png){ class="lightbox" }
+![Eine Datenerhebung im Modul Qualitätsmanagement verknüpft ein Formular mit Kursen, Betreuer:innen und Curricula und liefert einen Report für den Befragungszeitraum](assets/quality_management_case2_v1_de.png){ class="lightbox" title="Ad-hoc-Datenerhebung im Modul Qualitätsmanagement" }
 
 ## Fall 3: Automatisierte Datenerhebung (in mehreren Kursen/Curricula oder kursunabhängig)
 
@@ -41,7 +41,7 @@ Die Beschreibung und Einrichtung dieser Regeln geschieht in sogenannten **Datene
 
 Der kursübergreifende Report baut dann auf mehreren Datenerhebungen auf.
 
-![Ein Generator erzeugt periodisch Datenerhebungen mit je einem Report, die Analyse fasst alle Reports eines Formulars zusammen](assets/quality_management_case3_v1_de.png){ class="lightbox" }
+![Ein Generator erzeugt periodisch Datenerhebungen mit je einem Report, die Analyse fasst alle Reports eines Formulars zusammen](assets/quality_management_case3_v1_de.png){ class="lightbox" title="Automatisierte Datenerhebung mit einem Generator" }
 
 ## Das Modul "Qualitätsmanagement"
 
@@ -53,7 +53,7 @@ Die Resultate können für definierbare Empfänger:innen freigeschaltet werden.
 
 Qualitätsmanager:innen finden die Option "Qualitätsmanagement" in der Hauptnavigation.
 
-![Eintrag Qualitätsmanagement im Menü Mehr der Hauptnavigation markiert, darunter die Startseite des Qualitätsmanagements mit ihren sieben Abschnitten von Meine Umfragen bis Analyse](assets/quality_management_access_v1_de.png){ class="shadow lightbox" }
+![Eintrag Qualitätsmanagement im Menü Mehr der Hauptnavigation markiert, darunter die Startseite des Qualitätsmanagements mit ihren sieben Abschnitten von Meine Umfragen bis Analyse](assets/quality_management_access_v1_de.png){ class="shadow lightbox" title="Startseite des Qualitätsmanagements" }
 
 ## Die Rolle "Qualitätsmanager:in"
 
@@ -72,5 +72,5 @@ Das Modul "Qualitätsmanagement" in OpenOlat baut im Wesentlichen auf sechs Infr
 
 ## Aktivierung des Moduls
 
-Die Aktivierung des Moduls "Qualitätsmanagement" muss durch Administrator:innen in der System-Administration vorgenommen werden:<br>
+Das Modul "Qualitätsmanagement" schalten Systemadministrator:innen in der System-Administration ein:<br>
 `Administration > Module > Qualitätsmanagement`

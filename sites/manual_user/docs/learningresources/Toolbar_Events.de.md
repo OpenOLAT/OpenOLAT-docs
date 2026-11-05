@@ -113,7 +113,7 @@ Nach dem Speichern zeigt die Spalte "Prüfung" der Terminliste ein Symbol, und i
 
 Der Eintrag erscheint nur, wenn alle folgenden Bedingungen erfüllt sind. Fehlt er, liegt die Ursache meist ausserhalb der Terminliste:
 
-- **Der Prüfungsmodus ist systemweit eingeschaltet.** Ist er ausgeschaltet, fehlen auch "Prüfung editieren", "Prüfung löschen" und die Spalte "Prüfung". Den Schalter "Prüfungsmodus einschalten" setzen Administrator:innen in der System-Administration unter `Administration > e-Assessment > Prüfungsverwaltung`.
+- **Der Prüfungsmodus ist systemweit eingeschaltet.** Ist er ausgeschaltet, fehlen auch "Prüfung editieren", "Prüfung löschen" und die Spalte "Prüfung". Den Schalter "Prüfungsmodus einschalten" setzen Systemadministrator:innen in der System-Administration unter `Administration > e-Assessment > Prüfungsverwaltung`.
 - **Im Kurs können Termine als Prüfung markiert werden.** Massgebend ist die Option "Termin kann als Prüfung markiert werden". Überschreibt der Kurs die Standardkonfiguration, gilt die [Einstellung des Kurses](../learningresources/Course_Settings_Execution.de.md#event_as_exam), die Kursbesitzer:innen ändern. Sonst gilt die [Vorgabe der System-Administration](../../manual_admin/administration/Modules_Events_and_Absences.de.md#event_as_exam) für alle Kurse.
 - **Der Termin hat kein Online Meeting mit BigBlueButton oder Microsoft Teams.** Ein Sitzungs-Link zu einem anderen Anbieter verhindert den Eintrag nicht. Ist der Termin bereits als Prüfung markiert, spielt das Online Meeting keine Rolle mehr: "Prüfung editieren" und "Prüfung löschen" bleiben verfügbar.
 - **Die Rolle erlaubt das Markieren.** Principals erhalten den Eintrag nie, siehe oben.

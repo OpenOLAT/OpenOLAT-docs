@@ -2,27 +2,27 @@
 
 [:octicons-tag-16:{ title="ab Release 18.0 (OO-6845)" }](https://track.frentix.com/issue/OO-6845)
 
-Administrator:innen können
+In der System-Administration unter `Administration > Module > Projekte` können Systemadministrator:innen
 
 * das Modul "Projekte" **aktivieren**
 * **Berechtigungen** für die projektübergreifenden Rollen vergeben (Organisationsrollen)
 
-![Aktivierung des Moduls Projekte und Berechtigungsvergabe für die projektübergreifenden Rollen](assets/projects_admin_v1_de.png){ class="shadow lightbox" }
+![Aktivierung des Moduls Projekte und Berechtigungsvergabe für die projektübergreifenden Rollen](assets/projects_admin_v1_de.png){ class="shadow lightbox" title="Modul Projekte in der System-Administration" }
 
 
 ## Einstellungen (Aktivierung des Moduls) {: #settings}
 
-Projekte können erst erstellt werden, wenn das Modul "Projekte" durch einen/eine Administrator:in eingeschaltet wurde.
+Projekte können erst erstellt werden, wenn Systemadministrator:innen das Modul "Projekte" eingeschaltet haben.
 
 ## Berechtigungen {: #authorization}
 
-Als Administrator:in bestimmen Sie, ob **alle registrierten OpenOlat-Benutzer:innen** oder nur **bestimmte Rollen** neue Projekte und Projektvorlagen erstellen dürfen. 
+Als Systemadministrator:in bestimmen Sie, ob **alle registrierten OpenOlat-Benutzer:innen** oder nur **bestimmte Rollen** neue Projekte und Projektvorlagen erstellen dürfen. 
 
 Sollen nur bestimmte Rollen dieses Recht erhalten, können diese genauer spezifiziert werden.
 
 ## Rollen {: #roles}
 
-Als Administrator:in sehen Sie hier neben den **Autor:innen** nur die beiden Systemrollen **Projektverwalter:in** und **Administrator:in**, weil es Rollen sind, die über mehrere Projekte hinweg agieren können (Organisationsrollen).
+Als Systemadministrator:in sehen Sie hier neben den Autor:innen nur die beiden Systemrollen Projektverwalter:in und Administrator:in, weil es Rollen sind, die über mehrere Projekte hinweg agieren können (Organisationsrollen).
 
 Die übrigen Rollen und ihre Rechte werden im jeweiligen Projekt bestimmt.
 
@@ -33,7 +33,7 @@ Die übrigen Rollen und ihre Rechte werden im jeweiligen Projekt bestimmt.
 
 * Projektverwalter:innen können alle Projekte sehen, aktualisieren und verwalten, inklusive deren Mitglieder. 
 * Sie sehen aber nicht den "Inhalt" der Projekte (Termine, Dateien, To-dos, usw.). 
-* Sie sind neben den Besitzer:innen und den Administrator:innnen diejenigen Personen, die die Leitungsrolle an andere vergeben können. 
+* Sie sind neben den Besitzer:innen und den Administrator:innen diejenigen Personen, die die Leitungsrolle an andere vergeben können. 
 * Sie haben Zugriff auf den Tab "Administration" im Bereich Projekte.
 
 **Administrator:in**
@@ -46,7 +46,7 @@ Die übrigen Rollen und ihre Rechte werden im jeweiligen Projekt bestimmt.
 
 Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur für das jeweilige Projekt gelten.
 
-![Mitgliederliste mit Rollen und Rollen-Berechtigungsmatrix im Tab Mitgliederverwaltung eines Projekts](assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" }
+![Mitgliederliste mit Rollen und Rollen-Berechtigungsmatrix](assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" title="Mitgliederverwaltung eines Projekts" }
 
 **Besitzer:in (Projektbesitzer:in)**
 
@@ -90,16 +90,16 @@ Die Projektmitglieder werden in der Regel durch die Leiter:innen zu Projektmitgl
 
 Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des Links führt ein Wizard das neue Projektmitglied durch Anmeldung und Registration.
 
-![Aufruf der Mitgliederverwaltung über das Mehr-Menü eines Projekts](assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" }
+![Markierter Eintrag Mitgliederverwaltung im geöffneten 3-Punkte-Menü](assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" title="3-Punkte-Menü eines Projekts" }
 
-![Mitgliederliste mit Button "Mitglieder hinzufügen" im Tab Mitgliederverwaltung](assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
+![Mitgliederliste mit Button "Mitglieder hinzufügen"](assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" title="Mitgliederverwaltung eines Projekts" }
 
 
 ## Externe Mitglieder  {: #external_members}
 
-Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer registriert sind, können sie als externe Mitglieder eingeladen werden. Die Nutzungsdauer ist für sie auf 180 Tage begrenzt.
+Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer:innen registriert sind, können sie als externe Mitglieder eingeladen werden. Die Nutzungsdauer ist für sie auf 180 Tage begrenzt.
 
-![Option "Externe Mitglieder einladen" im Menü des Buttons "Mitglieder hinzufügen"](assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" }
+![Markierte Option "Externe Mitglieder einladen" im Pfeil-Menü neben dem Button "Mitglieder hinzufügen"](assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" title="Mitgliederverwaltung eines Projekts" }
 
 
 

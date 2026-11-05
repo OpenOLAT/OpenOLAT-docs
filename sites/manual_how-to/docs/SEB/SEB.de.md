@@ -39,8 +39,8 @@ Unter `Kurs > Administration > Prüfungsverwaltung` kann ein [Prüfungsmodus](..
 
 ## Wie richte ich als OpenOlat Autor:in eine Prüfung mit dem SEB ein? {: #SEB_setup}
 
-!!! tip "Voraussetzung: Vorkonfiguration durch die Administration"
-    Bevor Sie den Safe Exam Browser in einem Prüfungsmodus verwenden können, muss die Administration den Prüfungsmodus systemweit einschalten. Damit Sie im Prüfungsmodus eine Vorlage aus dem System wählen können, legt die Administration zudem mindestens eine [SEB-Konfigurationsvorlage](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md#tab_seb) an oder importiert eine `.seb`-Datei als Vorlage. Diese Vorkonfiguration steht nur Administrator:innen zur Verfügung. Als Autor:in wählen Sie anschliessend im Prüfungsmodus eine bereitgestellte Vorlage aus, laden eine eigene SEB-Datei hoch oder erstellen eine eigene Konfiguration (siehe [Schritt 4: Konfigurieren](#SEB_configuration)).
+!!! tip "Voraussetzung: Vorkonfiguration in der System-Administration"
+    Bevor Sie den Safe Exam Browser in einem Prüfungsmodus verwenden können, müssen Systemadministrator:innen den Prüfungsmodus in der System-Administration systemweit einschalten. Damit Sie im Prüfungsmodus eine Vorlage aus dem System wählen können, legen sie zudem mindestens eine [SEB-Konfigurationsvorlage](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md#tab_seb) an oder importieren eine `.seb`-Datei als Vorlage. Diese Vorkonfiguration steht nur Systemadministrator:innen zur Verfügung. Als Autor:in wählen Sie anschliessend im Prüfungsmodus eine bereitgestellte Vorlage aus, laden eine eigene SEB-Datei hoch oder erstellen eine eigene Konfiguration (siehe [Schritt 4: Konfigurieren](#SEB_configuration)).
 
 
 ### Schritt 1: SEB installieren {: #SEB_installation} 
@@ -50,7 +50,7 @@ Die Installationsdatei finden Sie auf der [Web Site des Herstellers](http://www.
 Fordern Sie auch alle Prüfungsteilnehmer:innen auf, den SEB auf ihrem Rechner zu installieren. Bzw. wenn für die Prüfung gesonderte Rechner zur Verfügung gestellt werden, bereiten Sie diese Rechner alle entsprechend vor.
 
 !!! info "Hinweis"
-    Von Administrator:innen kann festgelegt werden, dass mindestens eine bestimmte SEB-Version benutzt werden muss. 
+    Systemadministrator:innen können in der System-Administration festlegen, dass mindestens eine bestimmte SEB-Version benutzt werden muss.
     [Mehr dazu > ](../../manual_how-to/SEB_Admin/SEB_Admin.de.md#SEB_min_version)
 
 [zum Seitenanfang ^](#SEB)
@@ -91,7 +91,7 @@ In einem Prüfungsmodus ist die Verwendung des SEB optional. Wird es gewünscht,
 Sobald der SEB aktiviert wurde, werden die Konfigurationsoptionen angezeigt. Nachstehend sind die Optionen und ihre Auswirkungen auf die Teilnehmersicht kurz beschrieben.
 
 Bei Konfiguration in OpenOlat gilt:<br>
-Die vorgeschlagenen Einstellungen können in der OpenOlat-Systemadministration so gesetzt werden. Sie können also als Empfehlung Ihres/Ihrer Administrator:in zum Übernehmen betrachtet werden.
+Die vorgeschlagenen Einstellungen können in der System-Administration so gesetzt werden. Sie können also als Empfehlung Ihrer Systemadministrator:innen zum Übernehmen betrachtet werden.
 
 ![Markierte Auswahl SEB-Konfiguration mit Aus Vorlage (empfohlen), Benutzerdefiniert und Mit manuellen Keys, darunter Vorlage, Vorlage Typ und Prüfungsmodus-spezifische Konfiguration](assets/SEB_config_fields_v2_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser im Dialog einer Prüfung · 2026.10.02" }
 
@@ -99,20 +99,20 @@ Die vorgeschlagenen Einstellungen können in der OpenOlat-Systemadministration s
 
 Legen Sie fest, woher der SEB seine Einstellungen für diese Prüfung bezieht:
 
-- **Aus Vorlage (empfohlen)**: Die Einstellungen kommen aus einer Vorlage der Administration oder aus einer eigenen SEB-Datei. Die Gültigkeit prüft OpenOlat über den Konfigurationsschlüssel.
+- **Aus Vorlage (empfohlen)**: Die Einstellungen kommen aus einer Vorlage der System-Administration oder aus einer eigenen SEB-Datei. Die Gültigkeit prüft OpenOlat über den Konfigurationsschlüssel.
 - **Benutzerdefiniert**: Sie stellen die Einstellungen für diese Prüfung selbst zusammen. Vorbelegt sind die Werte der Standardvorlage, wenn diese ein Formular ist.
 - **Mit manuellen Keys**: Sie verwenden eine eigene SEB-Datei, die ausserhalb von OpenOlat gepflegt wird, und tragen deren Safe Exam Browser Keys in OpenOlat ein. (Mehr dazu auf der [Web Site des Herstellers](http://www.safeexambrowser.org).) In diesem Fall erübrigen sich bis auf den Hinweistext die nachfolgend aufgelisteten Konfigurationsoptionen.
 
-Vollständige `.seb-Konfigurationsdateien` lassen sich zudem in der Administration als Vorlage importieren, siehe [Prüfungsverwaltung](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md#tab_seb).
+Vollständige `.seb-Konfigurationsdateien` lassen sich zudem in der System-Administration als Vorlage importieren, siehe [Prüfungsverwaltung](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md#tab_seb).
 
 !!! note "Hinweis"
-    Der Import einer `.seb`-Datei als Vorlage für alle Kurse erfolgt im Administrationsbereich und steht nur Administrator:innen zur Verfügung. Eine SEB-Datei für eine einzelne Prüfung laden Sie als Autor:in bzw. Kursbesitzer:in selbst hoch, siehe [Vorlage](#template).
+    Der Import einer `.seb`-Datei als Vorlage für alle Kurse erfolgt in der System-Administration und steht nur Systemadministrator:innen zur Verfügung. Eine SEB-Datei für eine einzelne Prüfung laden Sie als Autor:in bzw. Kursbesitzer:in selbst hoch, siehe [Vorlage](#template).
 
 #### Vorlage {: #template}
 
 Bei "Aus Vorlage (empfohlen)" wählen Sie mit zwei Schaltflächen die Quelle:
 
-- **System**: Wählen Sie aus dem Dropdown eine der von der Administration bereitgestellten SEB-Konfigurationsvorlagen. Die als Standard markierte Vorlage ist vorausgewählt.
+- **System**: Wählen Sie aus dem Dropdown eine der in der System-Administration bereitgestellten SEB-Konfigurationsvorlagen. Die als Standard markierte Vorlage ist vorausgewählt.
 - **Eigenes**: Laden Sie mit "Hochladen" eine eigene, unverschlüsselte SEB-Datei hoch. OpenOlat zeigt deren Einstellungen schreibgeschützt an.
 
 #### Vorlage Typ {: #configuration}
@@ -445,7 +445,7 @@ Sie aktivieren den SEB für eine Einsichtnahme im Ablaufschema der Prüfungseins
 [Safe Exam Browser herunterladen >](http://www.safeexambrowser.org/download_de.html)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [e-Assessment Administration: Prüfungsverwaltung >](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md)<br>
-[Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein? >](../SEB_Admin/SEB_Admin.de.md)<br>
+[Wie richte ich als Systemadministrator:in den Safe Exam Browser (SEB) systemweit ein? >](../SEB_Admin/SEB_Admin.de.md)<br>
 [Kommunikation während einer Prüfung >](../communication_during_exam/communication_during_exam.de.md)<br>
 [Prüfungsverwaltung: Prüfungseinsicht >](../../manual_user/learningresources/Assessment_inspection.de.md)
 

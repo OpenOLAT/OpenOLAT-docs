@@ -1,7 +1,7 @@
 # Security {: #security}
 
 
-How much protection an instance needs depends on the requirements of your organisation. In the security settings, administrators and system administrators weigh each protective function against its effect on embedded content. You reach the highest level of security when all security functions are switched on. You will find the settings in the system administration under:<br>
+How much protection an instance needs depends on the requirements of your organisation. In the security settings, system administrators weigh each protective function against its effect on embedded content. You reach the highest level of security when all security functions are switched on. You will find the settings in the system administration under:<br>
 `Administration > Login > Security`
 
 

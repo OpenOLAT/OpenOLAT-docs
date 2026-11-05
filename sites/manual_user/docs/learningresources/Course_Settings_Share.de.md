@@ -80,7 +80,7 @@ Hat ein Kurs bereits Mitglieder, ist eine Kopie der einfachste Weg in den Course
 
 !!! tip "Tipp"
 
-    Achten Sie beim Erstellen neuer Kurse darauf, welcher Verwendungszweck voreingestellt ist. Administrator:innen stellen den Verwendungszweck für neue Kurse in der System-Administration ein, im Feld "Verwendungszweck für neue Kurse" unter:<br>
+    Achten Sie beim Erstellen neuer Kurse darauf, welcher Verwendungszweck voreingestellt ist. Systemadministrator:innen stellen den Verwendungszweck für neue Kurse in der System-Administration ein, im Feld "Verwendungszweck für neue Kurse" unter:<br>
     `Administration > Module > Course Planner > Tab "Einstellungen"`
 
 [Zum Seitenanfang ^](#tab_share)

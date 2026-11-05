@@ -116,7 +116,7 @@ Bindet OpenOlat-Ordner als Netzlaufwerk auf dem eigenen Rechner ein. Dies ist id
 - **Ordner:** `coursefolders`, `groupfolders`, `home`, `sharedfolders`.
 - **Zugang:** WebDAV-Link + Benutzername/E-Mail + (WebDAV-)Passwort.
 - **WebDAV-fähig:** Persönliche Dateien, Gruppen-, Ablage-, Baustein-"Ordner", Ressourcenordner.
-- **Grenzen:** von OpenOlat-Administrator:innen eingestellte Quota; Dateinamen max. 100 Zeichen Länge; Umlaute in Ordnernamen sind zu meiden; > 50 MB sind unter Windows heikel.
+- **Grenzen:** die Quota des Ordners, siehe [Speicherplatz (Quota)](#quota); Dateinamen max. 100 Zeichen Länge; Umlaute in Ordnernamen sind zu meiden; > 50 MB sind unter Windows heikel.
 
 [zum Seitenanfang ^](#folders)
 
@@ -135,8 +135,8 @@ Alle Ordner nutzen dieselbe Komponente. Diese Funktionen finden Sie im Ablageord
 - **Massen-Aktionen:** Über Checkboxen mehrere Einträge auswählen und gemeinsam bearbeiten.
 - **Erstellen im Ordner:** Dokumente (OnlyOffice: Word/Excel/PowerPoint, Diagramme, Whiteboard, HTML …), Unterordner, Video- und Audioaufnahmen.
 - **Metadaten & Lizenzen:** Beschreibung, Sperre, Lizenzangaben (z. B. Creative Commons), Anzahl Ansichten (zählt Downloads) und Direktlink je Datei.
-- **Papierkorb:** Gelöschtes wandert in den Papierkorb; die automatische Löschfrist setzen Administrator:innen.
-- **Quota / Speicherlimit:** Begrenzung pro Datei und pro Ordner (Admin). Gilt auch bei WebDAV-Upload.
+- **Papierkorb:** Gelöschtes wandert in den Papierkorb; die automatische Löschfrist setzen Systemadministrator:innen.
+- **Quota / Speicherlimit:** Begrenzung pro Datei und pro Ordner, siehe [Speicherplatz (Quota)](#quota). Gilt auch bei WebDAV-Upload.
 
 [zum Seitenanfang ^](#folders)
 
@@ -145,11 +145,11 @@ Alle Ordner nutzen dieselbe Komponente. Diese Funktionen finden Sie im Ablageord
 
 ## Speicherplatz (Quota) {: #quota}
 
-Jeder Ordner, in den Dateien hochgeladen werden, unterliegt einer Quota (pro Datei und pro Ordner, durch Administrator:innen festgelegt). Sie gilt auch bei WebDAV-Upload.
+Jeder Ordner, in den Dateien hochgeladen werden, unterliegt einer Quota (pro Datei und pro Ordner). Sie gilt auch bei WebDAV-Upload.
 
 Der **Papierkorbinhalt** zählt ebenfalls zur Quota. Fehlt einmal Speicherplatz, löschen Sie bitte zuerst den Papierkorb.
 
-Eine **Anpassung des verfügbaren Speicherplatzes** kann durch Administrator:innen vorgenommen werden. Die Quota kann sowohl für bestimmte Rollen (z.B. alle Autor:innen bekommen mehr Speicherplatz) als auch für Einzelpersonen eingestellt werden (z.B. eine bestimmte Person muss viele Videos speichern).
+Eine **Anpassung des verfügbaren Speicherplatzes** ist für bestimmte Rollen und für Einzelpersonen möglich. Die Standardwerte für Rollen (z.B. alle Autor:innen bekommen mehr Speicherplatz) ändern Systemadministrator:innen in der System-Administration unter `Administration > Core-Konfiguration > Dateien und Ordner > Tab "Quotas"`. Die Quota einer einzelnen Person (z.B. eine bestimmte Person muss viele Videos speichern) setzen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen in der Benutzerverwaltung. Wer die Quota welcher Ordner ändert, steht in der Anleitung [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?](../reduce_storage_consumption/reduce_storage_consumption.de.md)
 
 Nutzen Sie **Ressourcenordner** für mehrfach verwendete Dateien, statt sie in jeden Kurs zu kopieren. Das spart Speicherplatz und hält Inhalte konsistent.
 
@@ -341,7 +341,7 @@ Sind die gewünschten Ordner vorhanden, können Sie dort:
 
 Welche Personen (OpenOlat-Rollen) in welchem Ordner Dokumente hochladen oder erstellen dürfen, hängt von den jeweiligen Konfigurationen (vergebenen Berechtigungen) durch Autor:innen oder Administrator:innen ab.
 
-Welche Dokument-Formate direkt erstellt werden können, hängt davon ab, welche Tools installiert sind. Z.B. ob Lizenzen für Microsoft Word und Excel für die Nutzung in OpenOlat vorhanden sind. Wenden Sie sich gegebenenfalls an Ihre Administrator:innen.
+Welche Dokument-Formate direkt erstellt werden können, hängt davon ab, welche Tools installiert sind. Z.B. ob Lizenzen für Microsoft Word und Excel für die Nutzung in OpenOlat vorhanden sind. Wenden Sie sich gegebenenfalls an Ihre Systemadministrator:innen.
 
 Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspeicher eines Ordners durch Quotas festgelegt sind.
 
@@ -367,7 +367,8 @@ Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspei
 [Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
 [Modul Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving.de.md)
+[Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving.de.md)<br>
+[Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? >](../reduce_storage_consumption/reduce_storage_consumption.de.md)
 
 **Weiterführend**<br>
 [Konzept des File Hub >](../../manual_user/basic_concepts/File_Hub_Concept.de.md)<br>

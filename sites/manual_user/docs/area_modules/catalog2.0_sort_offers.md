@@ -110,7 +110,7 @@ The sort button sits at the top right above the list of a category. It always ca
     The sort button only appears when "Sorting by priority" is activated. Without this setting the list is sorted by title in ascending order and can only be re-sorted through the column titles. The section [Sorting by priority](#sorting_microsites_by_priority) describes the activation.
 
 !!! info "Module Time periods"
-    The columns "Time period" and "Time period desc." appear in the list as soon as administrators have switched on the "Time periods" module. The columns "Begin" and "End" are available regardless of it. [:octicons-tag-16:{ title="from Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}<br>
+    The columns "Time period" and "Time period desc." appear in the list as soon as system administrators have switched on the "Time periods" module. The columns "Begin" and "End" are available regardless of it. [:octicons-tag-16:{ title="from Release 20.3.9 / 21.0.3 (OO-9295)" }](https://track.frentix.com/issue/OO-9295){:target="_blank"}<br>
     [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)
 
 [To the top of the page ^](#catalog_sort)
@@ -134,7 +134,7 @@ As with all lists in OpenOlat, the offerings in the catalog can also be sorted b
 
 ### Sorting by priority [:octicons-tag-16:{ title="from Release 20.2.0 (OO-9039)" }](https://track.frentix.com/issue/OO-9039){:target="_blank"} {: #sorting_microsites_by_priority}
 
-An administrator activates "Sorting by priority" in the system administration under:<br>
+System administrators activate "Sorting by priority" in the system administration under:<br>
 `Administration > Modules > Catalog > "Settings" tab > "Sorting by priority" toggle button`
 
 The sort button then appears at the top right above a list. Its default criterion is "Relevance".

@@ -14,10 +14,10 @@ Spezialität / Hinweis | Eine Dokumentation finden Sie auf [mediasite.com](https
 
 Mediasite ist eine automatisierte Videoplattform für Videoaufzeichnung, Videomanagement und Untertitelung. Mit dem Kursbaustein "Mediasite" zeigen Sie eine einzelne Aufzeichnung oder einen ganzen Kanal des Mediasite-Servers direkt im Kurs an. Weitere Informationen finden Sie in der Dokumentation von [mediasite.com](https://mediasite.com).
 
-Voraussetzung ist, dass Ihre Administrator:innen das Mediasite-Modul in der System-Administration aktiviert und die Verbindung zum Mediasite-Server eingerichtet haben, unter:<br>
+Voraussetzung ist, dass Ihre Systemadministrator:innen das Mediasite-Modul in der System-Administration aktiviert und die Verbindung zum Mediasite-Server eingerichtet haben, unter:<br>
 `Administration > Externe Werkzeuge > Mediasite`
 
-Die Einrichtung ist im Administrationshandbuch beschrieben: [Externe Werkzeuge: Übersicht](../../manual_admin/administration/External_Tools_-_Administration.de.md). Die Verbindung nutzt LTI (Learning Tools Interoperability) in der Version 1.1 oder 1.3. Welche Version gilt, legen Ihre Administrator:innen dort fest [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Inhaltsauswahl im Kurseditor steht nur mit LTI 1.3 zur Verfügung.
+Die Einrichtung ist im Administrationshandbuch beschrieben: [Externe Werkzeuge: Übersicht](../../manual_admin/administration/External_Tools_-_Administration.de.md). Die Verbindung nutzt LTI (Learning Tools Interoperability) in der Version 1.1 oder 1.3. Welche Version gilt, legen Ihre Systemadministrator:innen dort fest [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Inhaltsauswahl im Kurseditor steht nur mit LTI 1.3 zur Verfügung.
 
 ## Konfiguration im Kurseditor {: #configuration}
 
@@ -32,7 +32,7 @@ Betreuer:innen erreichen den Kurseditor nur, wenn sie im Kurs das Recht "Kursedi
 
 Unter "Konfiguration" wählen Sie, welche Verbindung der Kursbaustein verwendet:
 
-**Vorkonfigurierter Mediasite Server:** Der Kursbaustein verwendet den Server, den Ihre Administrator:innen in der System-Administration eingerichtet haben. Die Karte zeigt den Servernamen und die LTI-Version an. Diese Option erscheint nur, wenn in der System-Administration die Option "Vorkonfigurierter Server" aktiviert ist, unter:<br>
+**Vorkonfigurierter Mediasite Server:** Der Kursbaustein verwendet den Server, den Ihre Systemadministrator:innen in der System-Administration eingerichtet haben. Die Karte zeigt den Servernamen und die LTI-Version an. Diese Option erscheint nur, wenn in der System-Administration die Option "Vorkonfigurierter Server" aktiviert ist, unter:<br>
 `Administration > Externe Werkzeuge > Mediasite`
 
 **Eigener Mediasite Server:** Der Kursbaustein verwendet eine eigene LTI-Verbindung, die nur für diesen Kursbaustein gilt. Sie wählen die "LTI-Version" und tragen die Angaben ein, die Sie von der Betreiberin Ihres Mediasite-Servers erhalten. Bei LTI 1.1 sind das "LTI Key", "LTI Secret", "LTI URL", "My Mediasite - Administration URL" und "Username Property Key". Bei LTI 1.3 sind das "LTI 1.3 Initiate Login URL", "LTI 1.3 Redirect URL", "LTI 1.3 JWKS URL" und "LTI URL", optional die "My Mediasite - Administration URL". Die "LTI 1.3 Client ID" und die "LTI 1.3 Deployment ID" erzeugt OpenOlat beim ersten Speichern. Angezeigt werden sie, sobald Sie den Kursbaustein im Kurseditor erneut öffnen. Diese beiden Werte benötigt die Betreiberin des Mediasite-Servers, um OpenOlat auf ihrer Seite zu registrieren.
@@ -52,7 +52,7 @@ Mit der Inhaltsauswahl bestimmen Sie, welcher Kanal oder welche einzelne Aufzeic
 Je nach Mediasite-Server bietet der Dialog auch das Hochladen einer neuen Aufzeichnung an. Dann laden Sie ein Video direkt aus dem Kurseditor hoch und wählen es anschliessend aus, ohne die Mediasite-Oberfläche in einem eigenen Fenster zu öffnen.
 
 !!! tip "Die Schaltfläche Inhalt auswählen erscheint bei einer vollständigen LTI-1.3-Verbindung"
-    Die Inhaltsauswahl setzt LTI 1.3 voraus. Beim vorkonfigurierten Server legen Ihre Administrator:innen die LTI-Version fest. Beim eigenen Server wählen Sie LTI 1.3 und speichern den Kursbaustein einmal, damit die Verbindung aufgebaut wird. Öffnen Sie den Kursbaustein danach erneut, erscheint die Schaltfläche. Bei LTI 1.1 geben Sie die Modul-ID von Hand ein.
+    Die Inhaltsauswahl setzt LTI 1.3 voraus. Beim vorkonfigurierten Server legen Ihre Systemadministrator:innen die LTI-Version fest. Beim eigenen Server wählen Sie LTI 1.3 und speichern den Kursbaustein einmal, damit die Verbindung aufgebaut wird. Öffnen Sie den Kursbaustein danach erneut, erscheint die Schaltfläche. Bei LTI 1.1 geben Sie die Modul-ID von Hand ein.
 
 ### Modul-ID von Hand eingeben {: #module_id}
 
@@ -65,8 +65,8 @@ Mit "Vorschau anzeigen" prüfen Sie, wie der gewählte Inhalt für Teilnehmende 
 Der Kurseditor prüft die Konfiguration des Kursbausteins und zeigt Fehler direkt in der Statusanzeige des Kursbausteins an. Ein Klick auf die Meldung öffnet den Tab "Mediasite Konfiguration".
 
 * **Keine Modul-ID bereitgestellt:** Das Feld "Modul ID oder Präsentationslink" ist leer. Wählen Sie einen Inhalt aus oder tragen Sie die ID ein.
-* **Die Zugangsdaten sind unvollständig:** Es ist kein vorkonfigurierter Server aktiviert, und der Kursbaustein verwendet keinen eigenen Server. Wählen Sie "Eigener Mediasite Server" und tragen Sie die Zugangsdaten ein, oder wenden Sie sich an Ihre Administrator:innen.
-* **Die LTI-1.3-Verbindung ist nicht vollständig konfiguriert:** Beim gewählten Server sind die Angaben zu LTI 1.3 unvollständig, zum Beispiel fehlt die LTI URL. Vervollständigen Sie die Angaben beim eigenen Server oder wenden Sie sich an Ihre Administrator:innen.
+* **Die Zugangsdaten sind unvollständig:** Es ist kein vorkonfigurierter Server aktiviert, und der Kursbaustein verwendet keinen eigenen Server. Wählen Sie "Eigener Mediasite Server" und tragen Sie die Zugangsdaten ein, oder wenden Sie sich an Ihre Systemadministrator:innen.
+* **Die LTI-1.3-Verbindung ist nicht vollständig konfiguriert:** Beim gewählten Server sind die Angaben zu LTI 1.3 unvollständig, zum Beispiel fehlt die LTI URL. Vervollständigen Sie die Angaben beim eigenen Server oder wenden Sie sich an Ihre Systemadministrator:innen.
 
 Solange ein Fehler besteht, lässt sich der Kursbaustein nicht publizieren.
 
@@ -74,7 +74,7 @@ Solange ein Fehler besteht, lässt sich der Kursbaustein nicht publizieren.
 
 Teilnehmende öffnen den Kursbaustein und sehen die gewählte Aufzeichnung oder den Kanal direkt im Kurs. Beim ersten Öffnen erscheint die Seite "Zustimmung Datenübertragung". Sie zeigt, welche persönlichen Daten OpenOlat an den Mediasite-Server übermittelt, und verlangt die Bestätigung mit "Ich stimme der Datenübertragung zu". Die Zustimmung gilt für diesen Kursbaustein, solange sich die übermittelten Daten nicht ändern.
 
-Ist die Zustimmung unterdrückt, öffnet sich der Inhalt ohne diese Seite. Beim eigenen Server legen Sie das selbst im Kursbaustein fest. Beim vorkonfigurierten Server legen es Ihre Administrator:innen in der System-Administration fest, unter:<br>
+Ist die Zustimmung unterdrückt, öffnet sich der Inhalt ohne diese Seite. Beim eigenen Server legen Sie das selbst im Kursbaustein fest. Beim vorkonfigurierten Server legen es Ihre Systemadministrator:innen in der System-Administration fest, unter:<br>
 `Administration > Externe Werkzeuge > Mediasite`
 
 ## Kurs kopieren oder importieren {: #copy}

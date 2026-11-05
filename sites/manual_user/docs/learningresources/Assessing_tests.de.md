@@ -118,7 +118,7 @@ Klicken Sie auf den Titel der Frage, die Sie korrigieren möchten. Es erscheint 
 
 Kommentare sind für Korrigierende immer sichtbar. Teilnehmende sehen sie nur, wenn die Testresultate für sie sichtbar sind und die Fragezusammenfassung angezeigt wird, siehe Abschnitt Report auf der Seite [Test einrichten](Course_Element_Test/Test_Setup.de.md#section_report). Das gilt für jeden Kommentar zu einer Frage, auch für den Kommentar aus "Punkte anpassen" und aus den Aktionen für alle Teilnehmenden.
 
-Mehrere Korrektor:innen können einen Test gleichzeitig bewerten. Bearbeitet jemand gerade die Antwort einer Person auf eine Frage, sperrt OpenOlat diese Antwort für alle anderen. In der System-Administration legen Administrator:innen unter `Administration > e-Assessment > Test` im Abschnitt "Konfiguration Korrektur" fest, ob die Teilnehmenden im Korrekturwerkzeug anonym aufgeführt werden. Statt des Namens erscheint dann die "Teilnehmendenkennung".
+Mehrere Korrektor:innen können einen Test gleichzeitig bewerten. Bearbeitet jemand gerade die Antwort einer Person auf eine Frage, sperrt OpenOlat diese Antwort für alle anderen. In der System-Administration legen Systemadministrator:innen unter `Administration > e-Assessment > Test` im Abschnitt "Konfiguration Korrektur" fest, ob die Teilnehmenden im Korrekturwerkzeug anonym aufgeführt werden. Statt des Namens erscheint dann die "Teilnehmendenkennung".
 
 Abschliessend speichern Sie die Eingaben mit "Speichern", "Speichern und weiter" oder "Speichern und zur Übersicht". Sie können zur nächsten Person wechseln oder zurück in die Fragenübersicht des Korrekturwerkzeugs gehen und die nächste Frage auswählen.
 

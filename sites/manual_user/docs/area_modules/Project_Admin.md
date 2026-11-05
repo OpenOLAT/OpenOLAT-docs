@@ -20,11 +20,11 @@ The administration of a project includes
 
 "Edit project" does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project. To do this, open the 3-dot menu at the top right of the project cockpit and select "Edit project".
 
-![Entry Edit project in the 3-dot menu at the top right of the cockpit of a project](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
+![Entry Edit project in the 3-dot menu at the top right](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" title="Cockpit of a project" }
 
 The dialog "Edit project" opens. The numbers in the image show where the entries from the dialog appear on the start page of the project.
 
-![Dialog Edit project, the numbers 1 to 4 connect the fields Title, Teaser, Avatar and Background image with their place on the start page of the project behind](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" }
+![The numbers 1 to 4 connect the fields Title, Teaser, Avatar and Background image with their place on the start page of the project behind](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" title="Dialog Edit project" }
 
 * ![1](assets/1_green_24.png) **Title**: Mandatory field. The title is the heading of the start page and names the project in the project list.
 * ![2](assets/2_green_24.png) **Teaser**: Short text that appears on the start page directly below the title.
@@ -40,7 +40,7 @@ Three further fields do not appear on the start page, or only in small print:
 
 ## Copy project [:octicons-tag-16:{ title="from Release 18.0 (OO-6840)" }](https://track.frentix.com/issue/OO-6840)
 
-![Entry Copy project in the 3-dot menu at the top right of the cockpit of a project](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" }
+![Entry Copy project in the 3-dot menu at the top right](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" title="Cockpit of a project" }
 
 The following are copied:
 
@@ -64,20 +64,20 @@ If you repeatedly create similar projects, a template saves you the setup of eac
 
 A created project can be saved as a template. To do this, select the option "Save as template" in the 3-dot menu.
 
-![Entry Save as template in the 3-dot menu at the top right of the cockpit of a project](assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" }
+![Entry Save as template in the 3-dot menu at the top right](assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" title="Cockpit of a project" }
 
 The dialog "Save as template" opens. A private template is available only to you. An organisation-wide template is available to all members of the selected organisations. The selection "Visibility" with the options "Only for me" and "All organisation members" is shown only to people with the organisation role administrator or project manager. If the system administration under `Administration > Modules > Projects` also allows authors to create projects and templates, authors see this selection as well. All other people always create a private template. With the option "All organisation members", select in the field "Template organisations" the organisations in which you hold one of these roles. :octicons-tag-16:{ title="from Release 21.0.3 (OO-9719)" }
 
-![Selection Visibility with the options Only for me and All organisation members, below it the mandatory field Template organisations, in the dialog Create empty template](assets/projekte_admin_vorlage_sichtbarkeit_v1_de.png){ class="shadow lightbox" }
+![Selection Visibility with the options Only for me and All organisation members, below it the mandatory field Template organisations](assets/projekte_admin_vorlage_sichtbarkeit_v1_de.png){ class="shadow lightbox" title="Dialog Create empty template" }
 
 You can also create an empty template in the tab "Project templates", which is often a more useful option: `Projects > Tab "Project templates" > Button "Create empty template"`. The same rule for visibility applies there as when saving a project as a template.
 
-![Button Create empty template in the tab Project templates of the Projects area](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
+![Button Create empty template](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" title="Tab Project templates in the Projects area" }
 
 
 ## Close projects
 
-![Entry Close project in the 3-dot menu at the top right of the cockpit of a project](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
+![Entry Close project in the 3-dot menu at the top right](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" title="Cockpit of a project" }
 
 If a project is closed, all project members subsequently have read-only access.
 
@@ -96,7 +96,7 @@ A project can only be closed by
 
 ## Delete project
 
-![Entry Delete project in the 3-dot menu at the top right of the cockpit of a project](assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
+![Entry Delete project in the 3-dot menu at the top right](assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" title="Cockpit of a project" }
 
 Projects can only be deleted by
 
@@ -112,9 +112,9 @@ Projects can only be deleted by
 
 ## Tab Project administration [:octicons-tag-16:{ title="from Release 18.0 (OO-6845)" }](https://track.frentix.com/issue/OO-6845)
 
-OpenOlat administrators and project managers have another tab under the menu item "Projects": `Projects > Tab "Administration"`.
+Administrators and project managers have another tab under the menu item "Projects": `Projects > Tab "Administration"`.
 
-![Tab Administration in the Projects area with the filters No activity recently, To delete, Closed and Deleted above the project list](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
+![Filters No activity recently, To delete, Closed and Deleted above the project list](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" title="Tab Administration in the Projects area" }
 
 The following (filter) functions are available there for your administrative tasks:
 

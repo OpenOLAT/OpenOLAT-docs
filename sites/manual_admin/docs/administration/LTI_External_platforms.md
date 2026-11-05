@@ -5,7 +5,7 @@
 
 If OpenOlat is used as a "tool" in the sense of the LTI terminology, existing courses in OpenOlat are displayed on another LMS. OpenOlat must provide information on the receiving platform (consumer) to ensure smooth communication between the two systems.
 
-Administrators configure the interaction with the other platforms (also "platform" in the sense of LTI terminology) in the system administration under: `Administration > External tools > LTI`, tab "External platforms". OpenOlat is then the **tool** into which the course from the platforms defined here is integrated.
+System administrators configure the interaction with the other platforms (also "platform" in the sense of LTI terminology) in the system administration under: `Administration > External tools > LTI`, tab "External platforms". OpenOlat is then the **tool** into which the course from the platforms defined here is integrated.
 
 ![List of external platforms with name, platform issuer, client ID and number of deployments, the Add external platform button marked](assets/LTI_admin_platform_v3_en.png){ class="shadow lightbox" title="Tab External platforms of the page LTI in the system administration · 2026.10.07" }
 

@@ -19,7 +19,7 @@
 
 ## Activate Passkey [:octicons-tag-16:{ title="from Release 18.1 (OO-7180)" }](https://track.frentix.com/issue/OO-7180) {: #activate}
 
-Administrators switch Passkey on in OpenOlat and thereby define whether Passkey can or must be used.
+System administrators switch Passkey on in OpenOlat and thereby define whether Passkey can or must be used.
 
 The users then create the passkey themselves on their devices, in OpenOlat under `Personal Menu > Password`. Administrators do not create passkeys, they can only delete them.
 
@@ -33,7 +33,7 @@ Details on the [Security Levels](Security_levels.md) page.
 
 If a security level with passkey is configured in OpenOlat, the users are prompted at the next login to create a passkey and to use it for logging in from then on. Depending on the configuration, this step can be skipped a few times; OpenOlat shows how often this is still possible.
 
-If the administration has additionally activated the one time code, account holders without a stored passkey can still log in with their password and a confirmation code by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) Details on the [One Time Code](One_Time_Code.md) page.
+If system administrators have additionally activated the one time code, account holders without a stored passkey can still log in with their password and a confirmation code by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) Details on the [One Time Code](One_Time_Code.md) page.
 
 
 !!! tip "Tip"
@@ -64,7 +64,7 @@ User managers and administrators can additionally send you a temporary recovery 
 Proceed as follows:
 
 1. Set up Passkey on the main device<br>
-Administrators can require passkeys for specific roles. Users can also increase the security level themselves if the administration allows it.<br>`Personal Menu > Password`
+System administrators can require passkeys for specific roles. Users can also increase the security level themselves if system administrators allow it.<br>`Personal Menu > Password`
 
 2. Save the recovery keys<br>(for single use only)
 

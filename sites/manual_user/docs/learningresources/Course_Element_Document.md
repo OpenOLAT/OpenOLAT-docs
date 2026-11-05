@@ -14,66 +14,66 @@ Specialty / Note | For office documents, appropriate licenses are required for e
 
 By means of the course element "Document" different document formats can be integrated into the course. Documents in this course element are typically displayed *directly* to users.
 
-### For which file types is the course element intended? [:octicons-tag-16:{ title="since Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
+### For which file types is the course element intended? [:octicons-tag-16:{ title="from Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
-The course element is well suited for displaying PDF, JPG and PNG files. In addition, if activated by the OpenOlat administrator, Office documents (Word, Excel, PowerPoint) and draw.io diagrams [:octicons-tag-16:{ title="since Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} can also be integrated.
+The course element is well suited for displaying PDF, JPG and PNG files. In addition, Office documents (Word, Excel, PowerPoint) and draw.io diagrams [:octicons-tag-16:{ title="from Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} can also be integrated if system administrators have activated the corresponding editors in the system administration.
 
-OpenOlat uses an integrated PDF viewer (pdf.js) [:octicons-tag-16:{ title="since Release 18.1 (OO-6996)" }](https://track.frentix.com/issue/OO-6996){:target="_blank"} which provides clear rendering. Large PDF files are loaded progressively if the file supports this. The PDF viewer is read-only: a separate editor is required for editing.
+OpenOlat uses an integrated PDF viewer (pdf.js) [:octicons-tag-16:{ title="from Release 18.1 (OO-6996)" }](https://track.frentix.com/issue/OO-6996){:target="_blank"} which provides clear rendering. Large PDF files are loaded progressively if the file supports this. The PDF viewer is read-only: a separate editor is required for editing.
 
 !!! tip "Tip"
 
     For video files the course element ["Video"](../learningresources/Course_Element_Video.md) should be used, and for HTML pages the course element ["Single page"](../learningresources/Course_Element_HTML_Page.md), instead of the course element "Document".
 
-### How do files get into the course element? [:octicons-tag-16:{ title="since Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
+### How do files get into the course element? [:octicons-tag-16:{ title="from Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
 Configuration takes place in the "Document" tab of the course editor. There are many ways for files to get into the course element. Files can generally be uploaded, linked, or newly created.
 
-![Three ways to add content: upload a file, link it from the storage folder or learning resource management, or create it new](assets/KB_Dokument.png){ class="lightbox" }
+![Three ways to add content: upload a file, link it from the storage folder or learning resource management, or create it new](assets/KB_Dokument.png){ class="lightbox" title="Tab Document in the course editor" }
 
 
-#### Upload a file [:octicons-tag-16:{ title="since Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
+#### Upload a file [:octicons-tag-16:{ title="from Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
 You can ...
 
 * **"Transfer from local computer"** a file. Select "Choose file" or drag and drop the file.
 * upload a file as a learning resource and import it into the course: → **"From learning resource management" → "Import file"**.
 
-#### Link a file [:octicons-tag-16:{ title="since Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
+#### Link a file [:octicons-tag-16:{ title="from Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
 You can ...
 
 * select a file already placed in the course's storage folder beforehand: → **"From storage folder"**.
 * select a file already uploaded as a learning resource: → **"From learning resource management"**
 
-#### Create a file [:octicons-tag-16:{ title="since Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
+#### Create a file [:octicons-tag-16:{ title="from Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
 To newly create a file for the course element, select **"Create document"** and choose the desired file format.
 
-![File format Word, Excel or PowerPoint selectable, required field file name, plus description and license: Create document dialog](assets/Dokument_erstellen.png){ class="lightbox" }
+![File format Word, Excel or PowerPoint selectable, required field file name, plus description and license](assets/Dokument_erstellen.png){ class="lightbox" title="Dialog Create document" }
 
 Alternatively, a new file can also be created as a learning resource. To do this, select: **"From learning resource management" → "Create"**.
 
-If **draw.io diagrams** [:octicons-tag-16:{ title="since Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} have been activated by the OpenOlat administrators, draw.io diagrams can also be created in the Document course element and made available to users. To do this, select the option "Create document" → "Show more formats" → "Diagram" or "Whiteboard".
+If system administrators have activated **draw.io diagrams** [:octicons-tag-16:{ title="from Release 18.1 (OO-7090)" }](https://track.frentix.com/issue/OO-7090){:target="_blank"} in the system administration under `Administration > External tools > draw.io`, draw.io diagrams can also be created in the Document course element and made available to users. To do this, select the option "Create document" → "Show more formats" → "Diagram" or "Whiteboard".
 
-draw.io diagrams support simultaneous editing by multiple users [:octicons-tag-16:{ title="since Release 18.1 (OO-7091)" }](https://track.frentix.com/issue/OO-7091){:target="_blank"}. Multiple participants can open and edit a diagram at the same time. Changes are synchronized in real time. This makes the Document course element with draw.io suitable for collaborative group work.
+draw.io diagrams support simultaneous editing by multiple users [:octicons-tag-16:{ title="from Release 18.1 (OO-7091)" }](https://track.frentix.com/issue/OO-7091){:target="_blank"}. Multiple participants can open and edit a diagram at the same time. Changes are synchronized in real time. This makes the Document course element with draw.io suitable for collaborative group work.
 
 !!! info "Important"
 
     Under heavy simultaneous use, synchronization may be briefly interrupted. Reloading the document restores the connection.
 
-### Configure preview height [:octicons-tag-16:{ title="since Release 15.4 (OO-5116)" }](https://track.frentix.com/issue/OO-5116){:target="_blank"}
+### Configure preview height [:octicons-tag-16:{ title="from Release 15.4 (OO-5116)" }](https://track.frentix.com/issue/OO-5116){:target="_blank"}
 
 In the "Document" tab of the course editor, the height of the document preview can be set. By default, **"Automatic"** is selected: the document uses the available page space. For certain formats (e.g. PowerPoint) this may result in black borders. A fixed height allows for precise adjustment of the display.
 
-### Document display in Lightbox mode [:octicons-tag-16:{ title="since Release 18.1 (OO-6957)" }](https://track.frentix.com/issue/OO-6957){:target="_blank"}
+### Document display in Lightbox mode [:octicons-tag-16:{ title="from Release 18.1 (OO-6957)" }](https://track.frentix.com/issue/OO-6957){:target="_blank"}
 
 Documents, images and videos are displayed by default in **Lightbox mode**: as an overlay on the current page, without opening a new browser window. When switching to editing mode, the document continues to open in a separate window.
 
-### Make changes [:octicons-tag-16:{ title="since Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
+### Make changes [:octicons-tag-16:{ title="from Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
 Integrated documents can also be edited later if needed, and their metadata can be changed. It is also possible to replace the document completely. What exactly is possible depends on the file type.
 
-![Menu Edit with Edit metadata, Edit document, Choose another document and Save to learning resource management: detail view of a document](assets/Dokument_bearbeiten.png){ class="lightbox" }
+![Menu Edit with Edit metadata, Edit document, Choose another document and Save to learning resource management](assets/Dokument_bearbeiten.png){ class="lightbox" title="Detail view of a document" }
 
 ### Remove a document
 
@@ -89,7 +89,7 @@ The file itself is kept. Where it is stored is shown by the "Storage location" b
     Delete the file only when no course element shows it any more. Otherwise participants see the message "No document" in the course element.
 
 
-### Configure permissions [:octicons-tag-16:{ title="since Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
+### Configure permissions [:octicons-tag-16:{ title="from Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
 After a document has been linked to the course element, it can be defined which roles are allowed to edit or download the document. After downloading a corresponding document, the metadata shows who last edited the document.
 

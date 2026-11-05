@@ -113,7 +113,7 @@ After saving, the column "Exam" of the event list shows a symbol, and the 3-dot 
 
 The entry only appears if all of the following conditions are met. If it is missing, the cause usually lies outside the event list:
 
-- **The assessment mode is enabled system-wide.** If it is switched off, "Edit exam", "Delete exam" and the column "Exam" are missing as well. Administrators set the switch "Enable assessment mode" in the system administration under `Administration > e-Assessment > Assessment management`.
+- **The assessment mode is enabled system-wide.** If it is switched off, "Edit exam", "Delete exam" and the column "Exam" are missing as well. System administrators set the switch "Enable assessment mode" in the system administration under `Administration > e-Assessment > Assessment management`.
 - **Events can be marked as an exam in the course.** The option "Event can be marked as an exam" is decisive. If the course overrides the default configuration, the [setting of the course](../learningresources/Course_Settings_Execution.md#event_as_exam) applies, which course owners change. Otherwise the [default of the system administration](../../manual_admin/administration/Modules_Events_and_Absences.md#event_as_exam) applies to all courses.
 - **The event has no online meeting with BigBlueButton or Microsoft Teams.** A meeting link to another provider does not prevent the entry. If the event is already marked as an exam, the online meeting no longer matters: "Edit exam" and "Delete exam" remain available.
 - **The role allows marking.** Principals never receive the entry, see above.

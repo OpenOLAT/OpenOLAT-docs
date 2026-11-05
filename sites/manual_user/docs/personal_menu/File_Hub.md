@@ -10,7 +10,7 @@ The File Hub is the **global file browser** of OpenOlat. It lists **all folders 
 
 The File Hub only displays folders to which the logged-in person has access permission.
 
-![Six storage locations on the start page of the File Hub: Personal files, Groups, Courses, Document pool, Course archive and Resource folder, with the search field above; File Hub in the user tools](assets/pers_menu_file_hub_storage_locations_v1_de.png){ class="shadow lightbox"}
+![Six storage locations on the start page of the File Hub: Personal files, Groups, Courses, Document pool, Course archive and Resource folder, with the search field above](assets/pers_menu_file_hub_storage_locations_v1_de.png){ class="shadow lightbox" title="File Hub in the user tools" }
 
 [To the top of the page ^](#file_hub)
 
@@ -48,9 +48,9 @@ To **display the contents of a folder**, you can find the File Hub, for example,
 
 You can switch the view of the File Hub between tile and list view. In both views, you will find the other options (open file, download file) in the menu with the three dots.
 
-![Tile view of a course folder in the File Hub with the highlighted toggle for the tile view and the opened three-dot menu with the options Open and Download](assets/pers_menu_file_hub_tiles_v1_de.png){ class="shadow lightbox" }
+![Tile view of a course folder with the highlighted toggle for the tile view and the opened three-dot menu with the options Open and Download](assets/pers_menu_file_hub_tiles_v1_de.png){ class="shadow lightbox" title="Course folder in the File Hub" }
 
-![List view of the same folder with the highlighted toggle for the list view and the highlighted three-dot menu at the end of the row; columns Title, Created by, Type, Size and File status](assets/pers_menu_file_hub_list_v1_de.png){ class="shadow lightbox" }
+![List view of the same folder with the highlighted toggle for the list view and the highlighted three-dot menu at the end of the row; columns Title, Created by, Type, Size and File status](assets/pers_menu_file_hub_list_v1_de.png){ class="shadow lightbox" title="Course folder in the File Hub" }
 
 [To the top of the page ^](#file_hub)
 
@@ -73,7 +73,7 @@ On the one hand, you can zip your files on your computer, upload the ZIP file an
 
 !!! info "Important"
 
-    In order for the WebDAV access to OpenOlat to work, WebDAV must be activated by your OpenOlat administrators.
+    In order for the WebDAV access to OpenOlat to work, WebDAV must be activated by your system administrators.
 
 [To the top of the page ^](#file_hub)
 
@@ -82,7 +82,7 @@ On the one hand, you can zip your files on your computer, upload the ZIP file an
 
 ## Quota {: #quota}
 
-The storage space per folder is limited. Administrators determine the available storage space. The default setting for the private and public folder is 200 MB. To increase this quota, contact your respective OpenOlat support center. Please contact the responsible contact persons if necessary.
+The storage space per folder is limited. The default setting for the private and public folder is 200 MB. System administrators define this default value. Administrators, user managers and roles managers change the storage space of an individual person in the user management in the tab "Quota". To increase this quota, contact your respective OpenOlat support center. Please contact the responsible contact persons if necessary.
 
 [To the top of the page ^](#file_hub)
 

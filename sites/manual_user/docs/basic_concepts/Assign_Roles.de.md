@@ -110,7 +110,7 @@ Soll z.B. im Portfolio eine externe Person Einsicht in eine Mappe erhalten, wird
 
 ## Eigene Rollen und Beziehungen definieren {: #role_assignment_relations} 
 
-Eigene Rollen schalten Administrator:innen in der System-Administration ein und legen sie dort fest:<br>
+Eigene Rollen schalten Systemadministrator:innen in der System-Administration ein und legen sie dort fest:<br>
 `Administration > Module > Rolle Person zu Person`<br>
 Z.B. Vorgesetzte:r, Untergebene:r, Expert:in, Zu Beurteilende:r, Elternteil, Ausbildungsverantwortliche:r, Schüler:in, Mentor:in, Lernbegleiter:in, usw.
 
@@ -118,9 +118,9 @@ Anschliessend können Benutzerverwalter:innen unter<br>
 `Benutzerverwaltung > Benutzer:in auswählen > Tab "Beziehungen"`<br>
 neue Beziehungen zwischen der gewählten Person und anderen OpenOlat-Benutzer:innen angeben (z.B. Vorgesetzte:r - Untergebene:r).
 
-Zur Wahl stehen nur die Rollen, die Administrator:innen eingerichtet haben.
+Zur Wahl stehen nur die Rollen, die Systemadministrator:innen eingerichtet haben.
 
-Mit der Person-zu-Person-Beziehung richten Sie in der Administration bzw. in der Benutzerverwaltung kursübergreifende Betreuungsfunktionen ein, zum Beispiel für Mentor:innen, Lernbegleiter:innen und Vorgesetzte. Betreuende greifen dann im Coaching auf die Personen zu, die sie betreuen, und sehen deren Lernstand ein. Bewerten können sie über die Beziehung nicht.
+Mit der Person-zu-Person-Beziehung richten Sie in der System-Administration bzw. in der Benutzerverwaltung kursübergreifende Betreuungsfunktionen ein, zum Beispiel für Mentor:innen, Lernbegleiter:innen und Vorgesetzte. Betreuende greifen dann im Coaching auf die Personen zu, die sie betreuen, und sehen deren Lernstand ein. Bewerten können sie über die Beziehung nicht.
 
 Für jede Person-zu-Person-Beziehung können spezifische Rechte definiert und somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise, Zertifikate und Kreditpunkte [:octicons-tag-16:{ title="ab Release 21.1 (OO-9490)" }](https://track.frentix.com/issue/OO-9490){:target="_blank"}. Was die einzelnen Rechte bewirken, beschreibt [Modul Organisationen: Die Rechte im Einzelnen](../../manual_admin/administration/Modules_Organisations.de.md#rights_linemanager). Analog wird auch die Rolle "Linienvorgesetzte:r" im Coaching abgebildet. Hier kann ebenfalls auf definierte Inhalte von Benutzer:innen der eigenen Organisationseinheit zugegriffen werden.
 

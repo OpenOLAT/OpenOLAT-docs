@@ -5,7 +5,7 @@
 
 Planen Sie Kurse in Semestern, Schuljahren oder Quartalen, legen Sie diese Zeiträume einmal zentral als Zeitabschnitte an. Autor:innen wählen dann einen Zeitabschnitt als Durchführungszeitraum ihres Kurses, statt Beginn und Ende einzeln einzutragen, und die Kurslisten lassen sich nach dem Zeitabschnitt sortieren.
 
-Administrator:innen schalten das Modul "Zeitabschnitte" ein und legen dort die Zeitabschnitte an. Sie finden es in der System-Administration unter:<br>
+Systemadministrator:innen schalten das Modul "Zeitabschnitte" ein und legen dort die Zeitabschnitte an. Sie finden es in der System-Administration unter:<br>
 `Administration > Module > Zeitabschnitte`
 
 ![Schalter Modul Zeitabschnitte auf Ein, Button Zeitabschnitt hinzufügen, Tabs Alle, Relevante, Standard und Vergangene, Liste mit Beginn, Ende, Standard-Markierung und Anzahl Verwendungen](assets/Modules_Time_Period_v2_de.png){ class="shadow lightbox" title="Seite Zeitabschnitte im Menü Module" }

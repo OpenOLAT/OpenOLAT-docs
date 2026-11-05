@@ -23,7 +23,7 @@ Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen bet
 
 !!! info "Hinweis zu den Rollen Linienvorgesetzte:r und Ausbildungsverantwortliche:r"
 
-    Diese Rollen werden im Coaching Tool nur angezeigt, wenn Administrator:innen in der System-Administration das [Modul Organisationen](../../manual_admin/administration/Modules_Organisations.de.md) aktiviert haben.
+    Diese Rollen werden im Coaching Tool nur angezeigt, wenn Systemadministrator:innen in der System-Administration das [Modul Organisationen](../../manual_admin/administration/Modules_Organisations.de.md) aktiviert haben.
 
 
 
@@ -94,7 +94,7 @@ Termine und Absenzen der Personen, die Sie betreuen, finden Sie in dieser Rolle 
 
 ### Unter "Linienvorgesetzte:r", "Ausbildungsverantwortliche:r" und eigenen Rollen [:octicons-tag-16:{ title="ab Release 20.0.4 (OO-8687)" }](https://track.frentix.com/issue/OO-8687){:target="_blank"} {: #person_detail_view_tabs}
 
-Sind Sie für eine Person als Linienvorgesetzte:r, als Ausbildungsverantwortliche:r oder in einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) zuständig, ordnet die Detailansicht alle Auskünfte über die Person nach Themen in Tabs. So finden Sie Lernstand, Termine und Buchungen der Person, ohne in die einzelnen Kurse zu wechseln. Jeder Tab erscheint nur, wenn Administrator:innen Ihrer Rolle das zugehörige Recht erteilt haben; die Rechte zeigt der Abschnitt [Kontrollaufgaben](#linemanager_educationmanager_observe). Die Tabs stehen unter den Angaben zur Person in der folgenden Reihenfolge.
+Sind Sie für eine Person als Linienvorgesetzte:r, als Ausbildungsverantwortliche:r oder in einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) zuständig, ordnet die Detailansicht alle Auskünfte über die Person nach Themen in Tabs. So finden Sie Lernstand, Termine und Buchungen der Person, ohne in die einzelnen Kurse zu wechseln. Jeder Tab erscheint nur, wenn Systemadministrator:innen Ihrer Rolle das zugehörige Recht erteilt haben; die Rechte zeigt der Abschnitt [Kontrollaufgaben](#linemanager_educationmanager_observe). Die Tabs stehen unter den Angaben zur Person in der folgenden Reihenfolge.
 
 ![Die Tabs von Kurse bis Konto stehen in einer Leiste unter den Angaben zur Person.](assets/coaching_people_detail_tabs_v1_de.png){ class="shadow lightbox" title="Detailansicht einer Person im Coaching" }
 
@@ -140,7 +140,7 @@ Hier sehen Sie, wie viele Kreditpunkte die Person in jedem Kreditpunktesystem ha
 
 Der Tab ist nur lesend. Die Buttons "Kreditpunkte hinzufügen" und "Kreditpunkte entfernen" fehlen, und im Menü einer Transaktion steht nur "Detail der Transaktion". Kreditpunkte gutschreiben, abziehen oder stornieren können Administrator:innen in der Benutzerverwaltung. Ist ein Kreditpunktesystem auf Organisationen beschränkt, sehen Sie es nur, wenn Sie selbst einer dieser Organisationen angehören.
 
-Voraussetzung sind das eingeschaltete [Modul Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) und das Recht "Kreditpunkte anzeigen", das Administrator:innen [an der Organisation](../../manual_admin/administration/Modules_Organisations.de.md#edit_linemanager) oder an einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) setzen. Ab Werk ist das Recht aus. Fehlt eine der beiden Voraussetzungen, fehlt der Tab ganz, ohne Hinweis.
+Voraussetzung sind das eingeschaltete [Modul Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) und das Recht "Kreditpunkte anzeigen", das Systemadministrator:innen [an der Organisation](../../manual_admin/administration/Modules_Organisations.de.md#edit_linemanager) oder an einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) setzen. Ab Werk ist das Recht aus. Fehlt eine der beiden Voraussetzungen, fehlt der Tab ganz, ohne Hinweis.
 
 #### Buchungen {: #tab_bookings}
 
@@ -152,7 +152,7 @@ Hier sehen Sie, in welchen Gruppen die Person Mitglied ist. Voraussetzung ist da
 
 #### Kalender {: #tab_calendar}
 
-Hier sehen Sie auf einen Blick, wann die Person verplant ist. Der Kalender führt ihren persönlichen Kalender, die Kurskalender der Kurse, in denen sie Teilnehmer:in ist, und die Kalender ihrer Gruppen mit dem Werkzeug Kalender zusammen. Welche davon erscheinen, hängt davon ab, welche Kalender Administrator:innen in der [Core-Konfiguration](../../manual_admin/administration/Core_functions.de.md#calendar_administration) eingeschaltet haben. Ein Termin aus der Termin- und Absenzenverwaltung erscheint nur, wenn er an einem Kurs hängt und der Kurs seine Termine mit dem Kurskalender synchronisiert. Voraussetzung für den Tab ist das Recht "Kurskalender anzeigen".
+Hier sehen Sie auf einen Blick, wann die Person verplant ist. Der Kalender führt ihren persönlichen Kalender, die Kurskalender der Kurse, in denen sie Teilnehmer:in ist, und die Kalender ihrer Gruppen mit dem Werkzeug Kalender zusammen. Welche davon erscheinen, hängt davon ab, welche Kalender Systemadministrator:innen in der [Core-Konfiguration](../../manual_admin/administration/Core_functions.de.md#calendar_administration) eingeschaltet haben. Ein Termin aus der Termin- und Absenzenverwaltung erscheint nur, wenn er an einem Kurs hängt und der Kurs seine Termine mit dem Kurskalender synchronisiert. Voraussetzung für den Tab ist das Recht "Kurskalender anzeigen".
 
 !!! tip "Warum fehlt ein Kurs im Kalender?"
 
@@ -211,7 +211,7 @@ Das Modul "Organisationen" muss in der System-Administration aktiviert sein.<br>
 Die betreffende Person muss die Rolle zugewiesen bekommen haben.<br> `Benutzerverwaltung > Person auswählen > Tab Rollen`
 
 **Voraussetzung 3:**
-Administrator:innen erteilen Ihrer Rolle in der System-Administration die Rechte, die Sie brauchen. Ohne Recht fehlt der zugehörige Tab oder Button. Um ausstehende Mitgliedschaften zu genehmigen, braucht Ihre Rolle das Recht "Buchungen anzeigen" und das darunter eingerückte Recht "Ausstehende Kursbuchungen". Das zweite lässt sich erst setzen, wenn das erste gesetzt ist:<br>
+Systemadministrator:innen erteilen Ihrer Rolle in der System-Administration die Rechte, die Sie brauchen. Ohne Recht fehlt der zugehörige Tab oder Button. Um ausstehende Mitgliedschaften zu genehmigen, braucht Ihre Rolle das Recht "Buchungen anzeigen" und das darunter eingerückte Recht "Ausstehende Kursbuchungen". Das zweite lässt sich erst setzen, wenn das erste gesetzt ist:<br>
 `Administration > Module > Organisationen > Tab Organisationsstruktur > "Organisationseinheit (oberste Ebene)" > Tab Linienvorgesetzte:r bzw. Ausbildungsverantwortliche > Optionen "Buchungen anzeigen" und "Ausstehende Kursbuchungen"`<br>
 Was jedes Recht bewirkt, beschreibt [Modul Organisationen: Die Rechte im Einzelnen](../../manual_admin/administration/Modules_Organisations.de.md#rights_linemanager).
 
@@ -291,7 +291,7 @@ Grundsätzlich werden Ihnen als Linienvorgesetzte:r oder Ausbildungsverantwortli
 
 In der Detailansicht einer Person finden Sie diese Angaben in eigenen Tabs: die besuchten Kurse im Tab [Kurse](#tab_courses), die erhaltenen Badges im Tab [Badges](#tab_badges), die Absenzen im Tab [Termine & Abwesenheiten](#tab_lectures) und die Kreditpunkte im Tab [Kreditpunkte](#tab_credit_points). Welcher Tab zu welchem Recht gehört, beschreibt der Abschnitt [Die Detailansicht einer Person](#person_detail_view_tabs).
 
-Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte Rechte, können Sie diese von Administrator:innen einrichten lassen. Der nachstehende Screenshot zeigt, welche Optionen von Administrator:innen konfiguriert werden können. (Für Ausbildungsverantwortliche bestehen die gleichen Optionen.)
+Möchten Sie als Linienvorgesetzte:r oder Ausbildungsverantwortliche:r bestimmte Rechte, können Sie diese von Systemadministrator:innen einrichten lassen. Der nachstehende Screenshot zeigt, welche Optionen Systemadministrator:innen dort setzen können. (Für Ausbildungsverantwortliche bestehen die gleichen Optionen.)
 
 ![Rechte der Rolle Linienvorgesetzte:r als Checkbox-Liste, von Kurse und CPL-Produkte anzeigen bis "Passwort zurücksetzen" Aktion anzeigen, alle gesetzt](assets/coaching_people_line_manager5_v2_de.png){ class="shadow lightbox" title="Tab Linienvorgesetzte:r einer Organisation · 2026.10.26" }
 
@@ -304,7 +304,7 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 * Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung. "Relevant" ist vorausgewählt.
 * Die Tabs "Favoriten" und "Vorbereitung" gibt es hier nicht. Durchführungen in Vorbereitung sehen nur Betreuer:innen und Kursbesitzer:innen.
 * Eine Spalte "Status" gibt es nicht. Abgebrochene Durchführungen erscheinen im Tab "Beendet", lassen sich dort aber nicht einzeln herausfiltern.
-* Die Spalten "Fortschritt" und "Stundenplan" erscheinen nur, wenn Administrator:innen Ihrer Rolle die entsprechenden Rechte erteilt haben.
+* Die Spalten "Fortschritt" und "Stundenplan" erscheinen nur, wenn Systemadministrator:innen Ihrer Rolle die entsprechenden Rechte erteilt haben.
 
 [Zum Seitenanfang ^](#people)
 

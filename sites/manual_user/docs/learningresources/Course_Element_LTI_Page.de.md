@@ -28,13 +28,13 @@ Mit Hilfe des Kursbausteins "LTI-Seite" können Sie externe Lernapplikationen in
 
 !!! tip "Tipp"
 
-    Voraussetzung ist die von einem/einer Administrator:in vorgenommene Aktivierung und generelle Einrichtung von LTI.
+    Voraussetzung ist, dass Systemadministrator:innen LTI in der System-Administration aktiviert und eingerichtet haben.
 
 Die folgenden Parameter können im Kursbaustein konfiguriert werden:
 
 ![LTI Version LTI 1.3 mit Button Inhalt auswählen und den Angaben zur Verbindung, unten der Bereich Konfiguration Bewertung mit Punkte übertragen und Skalierungsfaktor](assets/course_element_lti_page_content_v3_de.png){ class="shadow lightbox" title="Tab Seiteninhalt im Kurseditor · 2026.11.04" }
 
-**LTI Version:** Hier wählen Sie, wie OpenOlat die externe Lernapplikation anbindet. Zur Wahl stehen "LTI 1.0 / 1.1", "LTI 1.3" und die Tools, die Administrator:innen für alle Kurse vorkonfiguriert haben. Wir empfehlen "LTI 1.3", die ältere Version bleibt aus Kompatibilitätsgründen wählbar. "LTI 1.3" und die vorkonfigurierten Tools stehen zur Wahl, sobald das Modul "LTI 1.3" eingeschaltet ist: [LTI aktivieren](../../manual_admin/administration/LTI_Integrations.de.md#activate_lti)
+**LTI Version:** Hier wählen Sie, wie OpenOlat die externe Lernapplikation anbindet. Zur Wahl stehen "LTI 1.0 / 1.1", "LTI 1.3" und die Tools, die Systemadministrator:innen in der System-Administration für alle Kurse vorkonfiguriert haben. Wir empfehlen "LTI 1.3", die ältere Version bleibt aus Kompatibilitätsgründen wählbar. "LTI 1.3" und die vorkonfigurierten Tools stehen zur Wahl, sobald das Modul "LTI 1.3" eingeschaltet ist: [LTI aktivieren](../../manual_admin/administration/LTI_Integrations.de.md#activate_lti)
 
 Wählen Sie ein vorkonfiguriertes Tool, übernimmt OpenOlat die URL und die Angaben zur Verbindung aus dessen Konfiguration.
 
@@ -48,7 +48,11 @@ Welche LTI-Dienste OpenOlat als Plattform unterstützt, zeigt die Übersicht [Un
 
 **Passwort:** Hier geben Sie das zum Schlüssel passende Passwort ein, das Sie ebenfalls vom Anbieter der externen Lernapplikation erhalten haben ("weeHoo1w" im obigen Beispiel).
 
-**Inhalt automatisch starten:** Ist diese Option aktiviert, wird die verbundene Applikation direkt, ohne Zwischenseite "LTI-Lerninhalt anzeigen" dargestellt. Der Administrator kann diese Option abschalten.
+**Inhalt automatisch starten:** Ist diese Option aktiviert, wird die verbundene Applikation direkt, ohne Zwischenseite "LTI-Lerninhalt anzeigen" dargestellt. Ist die Option ausgegraut, schreibt die Serverkonfiguration Ihrer OpenOlat-Instanz die Zwischenseite für alle Kurse vor. OpenOlat zeigt die Zwischenseite dann immer.
+
+!!! info "Kontakt"
+
+    Ob die Zwischenseite für alle Kurse vorgeschrieben ist, legt die Serverkonfiguration fest. Für eine Änderung wenden Sie sich an Ihre Organisation.
 
 * * *
 
@@ -62,7 +66,7 @@ Welche LTI-Dienste OpenOlat als Plattform unterstützt, zeigt die Übersicht [Un
 
 **OpenOlat Rollen:** In diesem Bereich legen Sie fest, welche LTI-Rolle eine Person erhält, wenn sie die LTI-Ressource startet. Für jede der drei OpenOlat-Rollen "Besitzer:innen", "Betreuer:innen" und "Teilnehmer:in" wählen Sie die passenden LTI-Rollen: "Lerner", "Instruktor", "Administrator:in", "Assistent Lehrperson", "Inhaltsersteller" und "Mentor".
 
-Welche dieser LTI-Rollen Sie als Kursbesitzer:in zuweisen dürfen, legt die System-Administration fest. Nicht freigegebene LTI-Rollen sind ausgegraut. Administrator:innen und Lernressourcenverwalter:innen der Organisation, der der Kurs zugeordnet ist, können immer alle LTI-Rollen zuweisen [:octicons-tag-16:{ title="ab Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003){:target="_blank"}.
+Welche dieser LTI-Rollen Sie als Kursbesitzer:in zuweisen dürfen, legen Systemadministrator:innen in der System-Administration fest: `Administration > Externe Werkzeuge > LTI`, Tab "Rollen-Mapping", siehe [LTI - Rollen-Mapping](../../manual_admin/administration/LTI_Role_Mapping.de.md#administration). Nicht freigegebene LTI-Rollen sind ausgegraut. Administrator:innen und Lernressourcenverwalter:innen der Organisation, der der Kurs zugeordnet ist, können immer alle LTI-Rollen zuweisen [:octicons-tag-16:{ title="ab Release 20.2 (OO-9003)" }](https://track.frentix.com/issue/OO-9003){:target="_blank"}.
 
 **Punkte übertragen:** Mit diesem Schalter im Bereich "Konfiguration Bewertung" wird die LTI-Seite zum bewertbaren Kursbaustein: Die externe Lernapplikation sendet Punkte an OpenOlat. Die Punkte erscheinen im Bewertungswerkzeug, bei der teilnehmenden Person auf der Startseite des Kursbausteins und im Leistungsnachweis. Wie die Lernapplikation die Punkte sendet, hängt von der "LTI Version" ab:
 

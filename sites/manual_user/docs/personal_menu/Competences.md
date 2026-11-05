@@ -10,11 +10,11 @@ In the user tools, learners get an overview of all competences that have been as
 Competences may have been assigned in ePortfolio entries, for example, or entered manually by user managers in the user profile.
 
 
-![List My competences, structured by taxonomy and taxonomy level, with the columns Competence, Resource, Additional information and Type; types are Manage or Have](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox"}
+![List My competences, structured by taxonomy and taxonomy level, with the columns Competence, Resource, Additional information and Type; types are Manage or Have](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox" title="Competences in the user tools" }
 
 !!! info "Important"
 
-    A prerequisite for the display of competences is the use of the module Taxonomy and the creation of taxonomy structures by OpenOlat administrators.
+    A prerequisite for the display of competences is the use of the module Taxonomy and the creation of taxonomy structures. System administrators set up both in the system administration: `Administration > Modules > Taxonomy`.
 
 [To the top of the page ^](#competences)
 

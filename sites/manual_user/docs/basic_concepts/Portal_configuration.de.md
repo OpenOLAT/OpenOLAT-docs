@@ -1,6 +1,6 @@
 # Portal konfigurieren {: #portal_configuration}
 
-Das Portal ist standardmässig ausgeschaltet. Haben Administrator:innen die Portalfunktion eingeschaltet, können OpenOlat-Benutzer:innen ihre Portalseite konfigurieren. Die Abschnitte auf dem Portal bestehen aus verschiedenen Schnellzugängen, beispielsweise zu persönlichen Gruppen, Lernressourcen, zum Kalender, zu den Benachrichtigungen und zu Informationen rund um OpenOlat. Sie können selber bestimmen, welche Abschnitte in welcher Anordnung angezeigt werden sollen.
+Das Portal ist standardmässig ausgeschaltet. Haben Systemadministrator:innen den Bereich "Portal" in der System-Administration unter `Administration > Customizing > Bereiche` freigegeben, können OpenOlat-Benutzer:innen ihre Portalseite konfigurieren. Die Abschnitte auf dem Portal bestehen aus verschiedenen Schnellzugängen, beispielsweise zu persönlichen Gruppen, Lernressourcen, zum Kalender, zu den Benachrichtigungen und zu Informationen rund um OpenOlat. Sie können selber bestimmen, welche Abschnitte in welcher Anordnung angezeigt werden sollen.
 
 Wenn Sie beispielsweise vorwiegend mit Gruppen arbeiten und deshalb den Abschnitt "Meine Gruppen" prominenter platzieren möchten, klicken Sie oben rechts auf "Seite konfigurieren". Verschieben Sie den Abschnitt "Meine Gruppen" mit Hilfe der Pfeile an den gewünschten Ort.
 

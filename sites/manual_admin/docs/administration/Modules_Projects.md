@@ -2,26 +2,26 @@
 
 [:octicons-tag-16:{ title="from Release 18.0 (OO-6845)" }](https://track.frentix.com/issue/OO-6845)
 
-Administrators can
+In the system administration under `Administration > Modules > Projects`, system administrators can
 
 * **activate** the "Projects" module
 * assign **authorizations** for the cross-project roles (organizational roles)
 
-![Activation of the Projects module and assignment of authorizations for the cross-project roles](assets/projects_admin_v1_de.png){ class="shadow lightbox" }
+![Activation of the Projects module and assignment of authorizations for the cross-project roles](assets/projects_admin_v1_de.png){ class="shadow lightbox" title="Projects module in the system administration" }
 
 ## Settings (activation of the module) {: #settings}
 
-Projects can only be created once the "Projects" module has been switched on by an administrator.
+Projects can only be created once system administrators have switched on the "Projects" module.
 
 ## Authorizations {: #authorization}
 
-As an administrator, you determine whether **all registered OpenOlat users** or only **specific roles** are allowed to create new projects and project templates.
+As a system administrator, you determine whether **all registered OpenOlat users** or only **specific roles** are allowed to create new projects and project templates.
 
 If only specific roles are to receive this right, they can be specified in more detail.
 
 ## Roles {: #roles}
 
-As an administrator, you see here, besides the **authors**, only the two system roles **Project manager** and **Administrator**, because these are roles that can act across several projects (organizational roles).
+As a system administrator, you see here, besides the authors, only the two system roles project manager and administrator, because these are roles that can act across several projects (organizational roles).
 
 The other roles and their rights are determined in the respective project.
 
@@ -43,7 +43,7 @@ The other roles and their rights are determined in the respective project.
 
 Within a project, various roles can be assigned that only apply to the respective project.
 
-![Member list with roles and role permission matrix in the Member management tab of a project](assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" }
+![Member list with roles and role permission matrix](assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" title="Member management of a project" }
 
 **Owner (Project owner)**
 
@@ -87,15 +87,15 @@ Project members are usually made project members by the leaders. (As a rule, the
 
 As soon as a project member is registered, they receive a link. After opening the link, a wizard guides the new project member through login and registration.
 
-![Opening member management from the "More" menu of a project](assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" }
+![Marked entry Member management in the opened 3-dot menu](assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" title="3-dot menu of a project" }
 
-![Member list with the "Add members" button in the Member management tab](assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
+![Member list with the "Add members" button](assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" title="Member management of a project" }
 
 ## External members {: #external_members}
 
 If people who are not registered as users in OpenOlat are also to work on the project, they can be invited as external members. Their usage period is limited to 180 days.
 
-![Option "Invite external members" in the menu of the "Add members" button](assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" }
+![Marked option "Invite external members" in the arrow menu next to the "Add members" button](assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" title="Member management of a project" }
 
 !!! info "Note"
 

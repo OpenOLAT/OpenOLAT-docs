@@ -1,8 +1,8 @@
 # Taxonomie {: #taxonomy_concept}
 
-Viele Organisationen ordnen ihr Angebot nach Fächern, Themen oder Kompetenzen: Kurse im Katalog, Fragen im Fragenpool, Medien im Media Center. Ohne gemeinsame Ordnung führt jeder Bereich eigene Schlagworte, und dieselbe Sache heisst an jeder Stelle anders. Eine Taxonomie legt diese Ordnung einmal zentral fest. Für jeden Bereich bestimmen danach Administrator:innen in der System-Administration, welche Taxonomie dort gilt.
+Viele Organisationen ordnen ihr Angebot nach Fächern, Themen oder Kompetenzen: Kurse im Katalog, Fragen im Fragenpool, Medien im Media Center. Ohne gemeinsame Ordnung führt jeder Bereich eigene Schlagworte, und dieselbe Sache heisst an jeder Stelle anders. Eine Taxonomie legt diese Ordnung einmal zentral fest. Für jeden Bereich bestimmen danach Systemadministrator:innen in der System-Administration, welche Taxonomie dort gilt.
 
-Diese Seite erklärt, wie eine Taxonomie aufgebaut ist und wie sie wirkt: an Kursen, Durchführungen, Fragen und Medien als Fachbereich, im Katalog als Launcher und Filter, bei Personen als Kompetenz. Wie Sie eine Taxonomie in einem einzelnen Bereich nutzen, beschreiben die Seiten dieses Bereichs. Taxonomien richten Administrator:innen in der System-Administration ein.
+Diese Seite erklärt, wie eine Taxonomie aufgebaut ist und wie sie wirkt: an Kursen, Durchführungen, Fragen und Medien als Fachbereich, im Katalog als Launcher und Filter, bei Personen als Kompetenz. Wie Sie eine Taxonomie in einem einzelnen Bereich nutzen, beschreiben die Seiten dieses Bereichs. Taxonomien richten Systemadministrator:innen in der System-Administration ein.
 
 
 ## Was ist eine Taxonomie? {: #what_is_a_taxonomy}
@@ -38,7 +38,7 @@ Wer eine Taxonomie einrichtet oder in einem Bereich nutzt, trifft auf vier Begri
 
     Hängt eine Taxonomieebene an einer Lernressource, einer Durchführung, einer Frage oder einem Medium, heisst sie dort Fachbereich. Ein Fachbereich ist also keine eigene Struktur, sondern eine Taxonomieebene an einem Objekt.
 
-![Administrator:innen erstellen Taxonomieebenen, Autor:innen wählen sie am Objekt als Fachbereich](assets/taxonomy_concept_subject_flow_v1_de.svg){ class="shadow lightbox" title="Vom Erstellen der Taxonomieebene zum Fachbereich · 2026.10.08" }
+![Systemadministrator:innen erstellen Taxonomieebenen, Autor:innen wählen sie am Objekt als Fachbereich](assets/taxonomy_concept_subject_flow_v2_de.svg){ class="shadow lightbox" title="Vom Erstellen der Taxonomieebene zum Fachbereich · 2026.11.05" }
 
 [Zum Seitenanfang ^](#taxonomy_concept)
 
@@ -50,9 +50,9 @@ Wer eine Taxonomie einmal pflegt, nutzt jede ihrer Taxonomieebenen an zwei Stell
 - **An Objekten** heisst sie Fachbereich. Autor:innen ordnen Kurse, Fragen und Medien Fachbereichen zu, Kursplaner:innen die Durchführungen. Über die Fachbereiche finden Personen Angebote im Katalog, grenzen Listen mit Filtern ein und werten Ergebnisse aus.
 - **An Personen** heisst sie Kompetenz. Eine Kompetenz zeigt, ob eine Person ein Fach anstrebt, beherrscht, unterrichtet oder verwaltet. Im Fragenpool öffnet sie den Zugang zu den Fachbereichen.
 
-In welchen Bereichen eine Taxonomie wirkt, legen Administrator:innen je Bereich fest, siehe [Wo Taxonomie wirkt](#areas). Ihre Kompetenzen sieht eine Person unabhängig davon in den persönlichen Werkzeugen unter "Kompetenzen", aus allen Taxonomien.
+In welchen Bereichen eine Taxonomie wirkt, legen Systemadministrator:innen je Bereich fest, siehe [Wo Taxonomie wirkt](#areas). Ihre Kompetenzen sieht eine Person unabhängig davon in den persönlichen Werkzeugen unter "Kompetenzen", aus allen Taxonomien.
 
-![Eine Taxonomieebene wirkt an Objekten als Fachbereich und an Personen als Kompetenz](assets/taxonomy_concept_how_it_works_v1_de.svg){ class="shadow lightbox" title="Fachbereich und Kompetenz · 2026.10.08" }
+![Eine Taxonomieebene wirkt an Objekten als Fachbereich und an Personen als Kompetenz](assets/taxonomy_concept_how_it_works_v2_de.svg){ class="shadow lightbox" title="Fachbereich und Kompetenz · 2026.11.05" }
 
 [Zum Seitenanfang ^](#taxonomy_concept)
 
@@ -64,9 +64,9 @@ Damit in einem Bereich Fachbereiche zur Auswahl stehen, sind in der System-Admin
 1. Eine Taxonomie anlegen und darin Taxonomieebenen erstellen, unter `Administration > Module > Taxonomie`. Der Fragenpool ist die Ausnahme: Für ihn hat OpenOlat die Taxonomie "Question pool" schon angelegt, zunächst ohne Taxonomieebenen, siehe [Fragenpool](#question_pool).
 2. Die Taxonomie in jedem Bereich auswählen, in dem sie wirken soll. Jeder Bereich hat dafür eine eigene Einstellung, siehe Tabelle.
 
-Wenn Sie in einem Bereich keine Fachbereiche zur Auswahl sehen, haben Administrator:innen dort noch keine Taxonomie ausgewählt. Welche Taxonomie in welchen Bereichen ausgewählt ist, zeigt die Übersicht in der System-Administration unter `Administration > Module > Taxonomie`, etwa für die Bereiche "Lernressourcen / Katalog" und "Course Planner". [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
+Wenn Sie in einem Bereich keine Fachbereiche zur Auswahl sehen, haben Systemadministrator:innen dort noch keine Taxonomie ausgewählt. Welche Taxonomie in welchen Bereichen ausgewählt ist, zeigt die Übersicht in der System-Administration unter `Administration > Module > Taxonomie`, etwa für die Bereiche "Lernressourcen / Katalog" und "Course Planner". [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9185)" }](https://track.frentix.com/issue/OO-9185){:target="_blank"}
 
-| Bereich | Wozu die Taxonomie dient | Wo Administrator:innen sie in der System-Administration auswählen |
+| Bereich | Wozu die Taxonomie dient | Wo Systemadministrator:innen sie in der System-Administration auswählen |
 |---|---|---|
 | Lernressourcen / Katalog | Fachbereiche von Lernressourcen; Launcher (Abschnitte der Katalog-Startseite) und Filter im Katalog | `Administration > Module > Lernressource`, Feld "Taxonomie", mehrere Taxonomien möglich |
 | Course Planner | Fachbereiche von Durchführungen und Elementen | `Administration > Module > Course Planner`, Feld "Verknüpfte Taxonomien", mehrere Taxonomien möglich |
@@ -80,13 +80,13 @@ Drei weitere Funktionen haben keine eigene Einstellung. Sie verwenden die Taxono
 - **Kursbaustein "Übung"**: Er verwendet die Taxonomie des Fragenpools.
 - **Qualitätsmanagement**: Eine Datenerhebung übernimmt die Fachbereiche des Kurses oder des Elements im Course Planner, zu dem sie gehört.
 
-![Fünf Bereiche mit eigener Taxonomie-Einstellung und drei Bereiche, die deren Taxonomien übernehmen](assets/taxonomy_concept_areas_v1_de.svg){ class="shadow lightbox" title="Bereiche, in denen eine Taxonomie wirkt · 2026.10.08" }
+![Fünf Bereiche mit eigener Taxonomie-Einstellung und drei Bereiche, die deren Taxonomien übernehmen](assets/taxonomy_concept_areas_v2_de.svg){ class="shadow lightbox" title="Bereiche, in denen eine Taxonomie wirkt · 2026.11.05" }
 
 Die Bereiche teilen ihre Auswahl nicht. Was für Lernressourcen / Katalog ausgewählt ist, steht im Course Planner nicht automatisch zur Verfügung. Wer Kurse, Durchführungen und Medien nach denselben Fächern ordnen will, wählt dieselbe Taxonomie in jedem dieser Bereiche aus.
 
 Zwei Bereiche verhalten sich anders:
 
-- <a id="question_pool"></a>**Fragenpool**: OpenOlat legt für den Fragenpool die Taxonomie "Question pool" an. Sie ist zunächst leer und lässt sich nicht gegen eine andere austauschen. Ihre Taxonomieebenen heissen im Fragenpool Fachbereiche. Administrator:innen erstellen sie mit "Neue Taxonomieebene erstellen" an drei Orten: in der System-Administration unter `Administration > Module > Taxonomie` in der Taxonomie "Question pool" und unter `Administration > e-Assessment > Fragenpool` im Tab "Fachbereiche" sowie im Fragenpool unter `Fragenpool > Administration > Fachbereich`. Im Fragenpool dürfen das auch Poolverwalter:innen, wenn Administrator:innen ihnen erlauben, die Einstellungen "Fachbereiche" zu bearbeiten. Neue Fachbereiche können Sie jederzeit hinzufügen. In den anderen Bereichen steht die Taxonomie "Question pool" wie jede andere Taxonomie zur Auswahl.
+- <a id="question_pool"></a>**Fragenpool**: OpenOlat legt für den Fragenpool die Taxonomie "Question pool" an. Sie ist zunächst leer und lässt sich nicht gegen eine andere austauschen. Ihre Taxonomieebenen heissen im Fragenpool Fachbereiche. Mit "Neue Taxonomieebene erstellen" entstehen sie an drei Orten: Systemadministrator:innen erstellen sie in der System-Administration unter `Administration > Module > Taxonomie` in der Taxonomie "Question pool" und unter `Administration > e-Assessment > Fragenpool` im Tab "Fachbereiche", Administrator:innen im Fragenpool unter `Fragenpool > Administration > Fachbereich`. Im Fragenpool dürfen das auch Poolverwalter:innen, wenn Systemadministrator:innen ihnen erlauben, die Einstellungen "Fachbereiche" zu bearbeiten. Neue Fachbereiche können Sie jederzeit hinzufügen. In den anderen Bereichen steht die Taxonomie "Question pool" wie jede andere Taxonomie zur Auswahl.
 - **Media Center**: Wenn die Übersicht in der System-Administration unter `Administration > Module > Taxonomie` beim Media Center "nicht aktiviert" zeigt, Medien aber trotzdem Fachbereiche erhalten, ist für das Media Center keine Taxonomie verknüpft. Es nutzt dann die Taxonomien von Lernressourcen / Katalog.
 
 [Zum Seitenanfang ^](#taxonomy_concept)
@@ -107,7 +107,7 @@ Bei einem Bild im Media Center kann die KI den Fachbereich vorschlagen, siehe [a
 
 ## Launcher und Microsite im Katalog [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6146)" }](https://track.frentix.com/issue/OO-6146){:target="_blank"} {: #launcher}
 
-Im Katalog wird aus der Taxonomie eine Navigation, über die Personen Angebote nach Fächern finden. Die Startseite des Katalogs besteht aus Abschnitten, den Launchern. Ein Launcher vom Typ "Taxonomieebene" zeigt Taxonomieebenen als Kacheln. Im Feld "Typ" wählen Administrator:innen, ob sich der Launcher auf eine ganze Taxonomie oder auf eine einzelne Taxonomieebene bezieht. Der Launcher zeigt deren direkte Unterebenen, siehe [Modul Katalog: Tab Startseite](../../manual_admin/administration/Modules_Catalog_2.0.de.md#tab_start_page).
+Im Katalog wird aus der Taxonomie eine Navigation, über die Personen Angebote nach Fächern finden. Die Startseite des Katalogs besteht aus Abschnitten, den Launchern. Ein Launcher vom Typ "Taxonomieebene" zeigt Taxonomieebenen als Kacheln. Im Feld "Typ" wählen Systemadministrator:innen, ob sich der Launcher auf eine ganze Taxonomie oder auf eine einzelne Taxonomieebene bezieht. Der Launcher zeigt deren direkte Unterebenen, siehe [Modul Katalog: Tab Startseite](../../manual_admin/administration/Modules_Catalog_2.0.de.md#tab_start_page).
 
 Ein Klick auf eine Kachel öffnet die Microsite dieser Taxonomieebene. Ihr Kopf zeigt das Hintergrund Bild, den Titel der Ebene und, wenn die Ebene einen hat, ihren Ebenentyp. Darunter folgen die Beschreibung der Ebene, die Kacheln ihrer Unterebenen und die Angebote mit diesem Fachbereich.
 
@@ -144,10 +144,10 @@ Mit Fachbereichen grenzen Sie lange Listen auf ein Fach ein: im Katalog, im Medi
 
 ### Katalog [:octicons-tag-16:{ title="ab Release 17.2.0 (OO-6326)" }](https://track.frentix.com/issue/OO-6326){:target="_blank"} {: #filters_catalog}
 
-Im Katalog grenzen Personen die Angebote mit Filtern auf einen Fachbereich ein. Welche Filter der Katalog zeigt, legen Administrator:innen in der System-Administration unter `Administration > Module > Katalog` im Tab "Filter" fest. Für Taxonomien gibt es zwei Filtertypen:
+Im Katalog grenzen Personen die Angebote mit Filtern auf einen Fachbereich ein. Welche Filter der Katalog zeigt, legen Systemadministrator:innen in der System-Administration unter `Administration > Module > Katalog` im Tab "Filter" fest. Für Taxonomien gibt es zwei Filtertypen:
 
 - **Taxonomieebene**: Der Filter trägt den Titel einer gewählten Taxonomieebene und bietet alle ihre Unterebenen zur Auswahl an, auch Unterebenen ohne Angebot.
-- **Fachbereiche**: Der Filter erscheint auf einer Microsite als "Taxonomieunterebenen", sobald eine Unterebene der geöffneten Taxonomieebene ein Angebot hat. Er bietet die geöffnete Taxonomieebene an und die Unterebenen, denen mindestens ein Angebot zugeordnet ist. Mit der Option "Lernressourcen der Taxonomieunterebenen anzeigen" im Feld "Default" legen Administrator:innen fest, ob die Microsite die Angebote der Unterebenen von Anfang an zeigt.
+- **Fachbereiche**: Der Filter erscheint auf einer Microsite als "Taxonomieunterebenen", sobald eine Unterebene der geöffneten Taxonomieebene ein Angebot hat. Er bietet die geöffnete Taxonomieebene an und die Unterebenen, denen mindestens ein Angebot zugeordnet ist. Mit der Option "Lernressourcen der Taxonomieunterebenen anzeigen" im Feld "Default" legen Systemadministrator:innen fest, ob die Microsite die Angebote der Unterebenen von Anfang an zeigt.
 
 ![Auf der Microsite Sprachen ist der Filter Taxonomieunterebenen geöffnet und bietet Sprachen, Deutsch und Englisch an, daneben steht der Filter Sprachen vom Typ Taxonomieebene](assets/taxonomy_concept_filter_catalog_v1_de.png){ class="shadow lightbox" title="Microsite der Taxonomieebene Sprachen im Katalog · 2026.10.09" }
 
@@ -185,7 +185,7 @@ Welche Fachbereiche eine Person im Fragenpool sieht, bestimmen ihre Kompetenzen 
 
 Kompetenzen entstehen auf drei Wegen:
 
-- Administrator:innen weisen sie in der System-Administration an einer Taxonomieebene zu, die Kompetenz Verwalten im Tab "Verwaltung", die übrigen im Tab "Kompetenzen": `Administration > Module > Taxonomie > "Taxonomietitel" > "Taxonomieebene"`.
+- Systemadministrator:innen weisen sie in der System-Administration an einer Taxonomieebene zu, die Kompetenz Verwalten im Tab "Verwaltung", die übrigen im Tab "Kompetenzen": `Administration > Module > Taxonomie > "Taxonomietitel" > "Taxonomieebene"`. Für die Taxonomien des Katalogs tun das Administrator:innen auch in der [Katalog-Verwaltung](../area_modules/catalog2.0_mgmt.de.md), in denselben Tabs.
 - Benutzerverwalter:innen, Rollenverwalter:innen und Administrator:innen weisen sie in der Benutzerverwaltung einer Person zu: `Benutzerverwaltung > "Person" > Tab "Kompetenzen"`.
 - Die Kompetenz Haben entsteht im ePortfolio, sobald eine Person einem ihrer Einträge eine Kompetenz zuordnet.
 
@@ -195,7 +195,7 @@ Jede Person sieht ihre eigenen Kompetenzen in den persönlichen Werkzeugen unter
 
 ### Kompetenzen im ePortfolio [:octicons-tag-16:{ title="ab Release 15.5.0 (OO-5178)" }](https://track.frentix.com/issue/OO-5178){:target="_blank"} {: #eportfolio}
 
-Wer im ePortfolio festhalten will, zu welchen Kompetenzen ein Eintrag gehört, ordnet ihm Kompetenzen zu: im Kopf des Eintrags neben "Kompetenzen" über "Hinzufügen" oder "Bearbeiten", oder unter "Metadaten bearbeiten" im Feld "Kompetenzen". Die Auswahlliste zeigt zu jeder Taxonomieebene ihre Taxonomie und ihren Pfad. Zur Auswahl stehen aus den verknüpften Taxonomien die Taxonomieebenen, deren Ebenentyp die Einstellung "Kompetenzen" trägt, sowie Ebenen ohne Ebenentyp. Die Verknüpfung wirkt erst, wenn Administrator:innen in der System-Administration unter `Administration > e-Assessment > ePortfolio` den Schalter "Taxonomieverknüpfung einschalten" aktivieren und mindestens eine Taxonomie auswählen. Wenn Kompetenzen aus Portfolioeinträgen verschwinden, haben Administrator:innen an ihrem Ebenentyp die Einstellung "Kompetenzen" ausgeschaltet. OpenOlat entfernt dann alle Ebenen dieses Typs aus den Einträgen.
+Wer im ePortfolio festhalten will, zu welchen Kompetenzen ein Eintrag gehört, ordnet ihm Kompetenzen zu: im Kopf des Eintrags neben "Kompetenzen" über "Hinzufügen" oder "Bearbeiten", oder unter "Metadaten bearbeiten" im Feld "Kompetenzen". Die Auswahlliste zeigt zu jeder Taxonomieebene ihre Taxonomie und ihren Pfad. Zur Auswahl stehen aus den verknüpften Taxonomien die Taxonomieebenen, deren Ebenentyp die Einstellung "Kompetenzen" trägt, sowie Ebenen ohne Ebenentyp. Die Verknüpfung wirkt erst, wenn Systemadministrator:innen in der System-Administration unter `Administration > e-Assessment > ePortfolio` den Schalter "Taxonomieverknüpfung einschalten" aktivieren und mindestens eine Taxonomie auswählen. Wenn Kompetenzen aus Portfolioeinträgen verschwinden, haben Administrator:innen an ihrem Ebenentyp die Einstellung "Kompetenzen" ausgeschaltet. OpenOlat entfernt dann alle Ebenen dieses Typs aus den Einträgen.
 
 ![Im Dialog Metadaten bearbeiten eines Portfolioeintrags ist im Feld Kompetenzen Englisch gewählt, die Auswahlliste zeigt die Taxonomieebene unter der Taxonomie Fächer mit dem Pfad SPRACHEN / ENGLISCH](assets/taxonomy_concept_eportfolio_v1_de.png){ class="shadow lightbox" title="ePortfolio, Metadaten eines Eintrags · 2026.10.09" }
 
@@ -210,14 +210,14 @@ Damit sich Leistungsnachweise aus dem Course Planner nach Fächern geordnet find
 
 ## Einrichtung {: #setup}
 
-Wie Administrator:innen eine Taxonomie anlegen, Ebenentypen und Taxonomieebenen erstellen, Kompetenzen zuweisen und Taxonomien importieren, beschreibt die Seite [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md) im Administrationshandbuch. Die Auswahl der Taxonomie je Bereich steht auf den Seiten der einzelnen Module:
+Wie Systemadministrator:innen eine Taxonomie anlegen, Ebenentypen und Taxonomieebenen erstellen, Kompetenzen zuweisen und Taxonomien importieren, beschreibt die Seite [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md) im Administrationshandbuch. Die Auswahl der Taxonomie je Bereich steht auf den Seiten der einzelnen Module:
 
 - [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md)
 - [Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md#linked_taxonomies)
 - [e-Assessment Administration: ePortfolio](../../manual_admin/administration/eAssessment_ePortfolio.de.md#taxonomy_linking)
 - [Modul Media Center](../../manual_admin/administration/Modules_Media_Center.de.md#taxonomy)
 
-Launcher und Filter des Katalogs richten Administrator:innen in der System-Administration unter `Administration > Module > Katalog` ein, siehe [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md).
+Launcher und Filter des Katalogs richten Systemadministrator:innen in der System-Administration unter `Administration > Module > Katalog` ein, siehe [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md).
 
 [Zum Seitenanfang ^](#taxonomy_concept)
 

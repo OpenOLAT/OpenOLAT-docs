@@ -21,7 +21,7 @@ Personal data such as profiles, visiting cards or personal folders is not indexe
 
 ## Activation {: #activation}
 
-The global search is only visible and usable if the search service is switched on for your OpenOlat instance. Administrators make this setting in the server configuration (property `search.service`). The settings for indexing are located in the system administration under `Administration > Core functions > Full-text search`, see [Core functions: Overview](../../manual_admin/administration/Core_functions.md). If the search is not visible for you, please contact the administrator of your OpenOlat instance.
+The global search is only visible and usable if the search service is switched on for your OpenOlat instance. The search service is part of the server configuration. System administrators make the settings for indexing in the system administration, under `Administration > Core functions > Full-text search`, see [Core functions: Overview](../../manual_admin/administration/Core_functions.md). If the search is not visible for you, contact your organisation.
 
 
 ## Further information {: #further_information}

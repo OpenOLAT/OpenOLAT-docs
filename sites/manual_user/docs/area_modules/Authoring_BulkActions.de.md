@@ -87,7 +87,7 @@ Eine Organisation, die Sie im selben Durchlauf hinzufügen, zählt dabei nicht m
 1. Wählen Sie im ersten Durchlauf unter "Organisation hinzufügen" die neue Organisation und schliessen Sie den Assistenten ab.
 2. Wählen Sie im zweiten Durchlauf unter "Organisation entfernen" die bisherige Organisation.
 
-Administrator:innen ordnen Kurse zudem in der System-Administration im Tab "Lernressourcen" einer Organisation zu, beschrieben unter [Modul Organisationen](../../manual_admin/administration/Modules_Organisations.de.md#edit_learning_resources).
+Systemadministrator:innen ordnen Kurse zudem in der System-Administration im Tab "Lernressourcen" einer Organisation zu, beschrieben unter [Modul Organisationen](../../manual_admin/administration/Modules_Organisations.de.md#edit_learning_resources).
 
 #### Schritt "Übersicht" {: #bulk_overview}
 

@@ -183,7 +183,7 @@ Der Button erscheint nur beim Kursbaustein Aufgabe und nur, wenn die Zuweisung B
 
 !!! info "Hinweis"
 
-    Die im Tab Workflow angezeigten und durch die Autor:innen wählbaren Optionen können durch Administrator:innen vorkonfiguriert werden. Siehe Administrationshandbuch, `Module > Kursbausteine`
+    Die im Tab Workflow angezeigten und durch die Autor:innen wählbaren Optionen können Systemadministrator:innen in der System-Administration vorkonfigurieren: `Administration > Module > Kursbausteine`
 
 
 [zum Seitenanfang ^](#create_task)
@@ -207,7 +207,7 @@ Generell sollte jede Aufgaben-Datei einen passenden Titel und eventuell eine kur
 
 **b) Dateien unterschiedlicher Formate erstellen**
 
-Neben dem Upload können Dateien auch direkt in OpenOlat erstellt werden. Welche Formate genau zur Verfügung stehen hängt davon ab welche von der OpenOlat Administration aktiviert wurden. In der Regel steht mindestens ein HTML-Editor zur Verfügung. Aber auch die Erstellung von Word, Excel, PowerPoint sowie Diagrammen oder Whiteboards ist möglich. Zusätzlich können eine spezifische Video- und auch eine Audio-Aufgabe erstellt werden.
+Neben dem Upload können Dateien auch direkt in OpenOlat erstellt werden. Welche Formate genau zur Verfügung stehen, hängt davon ab, welche Editoren Systemadministrator:innen in der System-Administration aktiviert haben. In der Regel steht mindestens ein HTML-Editor zur Verfügung. Aber auch die Erstellung von Word, Excel, PowerPoint sowie Diagrammen oder Whiteboards ist möglich. Zusätzlich können eine spezifische Video- und auch eine Audio-Aufgabe erstellt werden.
 
 Wird eine Aufgabe mit dem internen HTML-Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Teilnehmenden dann im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann aber jederzeit wieder geändert werden.
 
@@ -260,7 +260,7 @@ Im Tab "Abgabe" stehen folgende Optionen zur Wahl:
 
 **"Abgabe mit OpenOlat Editor"**: Teilnehmende erstellen Dokumente direkt im Kursbaustein. Standardmässig steht dafür ein HTML-Editor zur Verfügung. Sind weitere Dokument-Editoren in OpenOlat eingebunden, können sie auch Dokumente in weiteren Formaten wie Word oder Excel erstellen, ebenso draw.io-Diagramme.
 
-Aktivieren Sie "Aufgabe ist Vorlage für die Abgabe", wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet. Voraussetzung ist, dass diese Option von den OpenOlat Administrationen freigeschaltet wurde.
+Aktivieren Sie "Aufgabe ist Vorlage für die Abgabe", wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet.
 
 ![Im Schritt Abgabe liegt die Aufgabendatei schon als Dokument bereit; Teilnehmende bearbeiten sie und übermitteln sie mit "Endgültige Abgabe": Kursbaustein Aufgabe in der Sicht der Teilnehmenden](../assets/course_element_task_submission_template_v1_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
 
@@ -314,7 +314,7 @@ Für die Bewertung kann auch ein Formular mit Rubrik verwendet werden. Die Punkt
 
 Im Feld "Art der Vergabe" legen Sie fest, ob OpenOlat die Punkte "Automatisch" aus den gewählten Quellen berechnet oder ob sie "Manuell durch Betreuende" eingetragen werden.
 
-Wenn die Punktevergabe aktiviert wurde, müssen die minimale und die maximale Punktzahl angegeben werden. Zusätzlich können Sie dann auch die Option "Bewertung mit Einstufung/Noten" wählen und weiter konfigurieren. So können den jeweiligen Punkten bestimmte Bewertungsskalen wie Level, Noten, (Kompetenz-)Stufen oder Label zugeordnet werden. Die zur Verfügung stehenden Bewertungsskalen werden vom OpenOlat Administrator definiert und können über den Button "Bewertungsskala bearbeiten" ausgewählt sowie die Punkte im Detail angepasst werden. Ferner legen Sie fest, ob Betreuer:innen die berechnete Einstufung manuell zuordnen oder ob OpenOlat sie bei einer Punkteänderung automatisch anzeigt.
+Wenn die Punktevergabe aktiviert wurde, müssen die minimale und die maximale Punktzahl angegeben werden. Zusätzlich können Sie dann auch die Option "Bewertung mit Einstufung/Noten" wählen und weiter konfigurieren. So können den jeweiligen Punkten bestimmte Bewertungsskalen wie Level, Noten, (Kompetenz-)Stufen oder Label zugeordnet werden. Die zur Verfügung stehenden Bewertungssysteme legen Systemadministrator:innen in der System-Administration fest: `Administration > e-Assessment > Einstufung/Noten`. Über den Button "Bewertungsskala bearbeiten" wählen Sie ein Bewertungssystem aus und passen die Punkte im Detail an. Ferner legen Sie fest, ob Betreuer:innen die berechnete Einstufung manuell zuordnen oder ob OpenOlat sie bei einer Punkteänderung automatisch anzeigt.
 
 ### Gesamtpunkte aus ...
 

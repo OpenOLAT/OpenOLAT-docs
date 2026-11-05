@@ -3,7 +3,7 @@
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
 
-Das Modul "Termine und Absenzen" ist nutzbar, sobald es in der System-Administration aktiviert ist. Administrator:innen finden die Konfiguration unter:<br>
+Das Modul "Termine und Absenzen" ist nutzbar, sobald es in der System-Administration aktiviert ist. Systemadministrator:innen finden die Konfiguration unter:<br>
 `Administration > Module > Termine / Absenzen`
 
 Nach der Aktivierung stehen zusätzliche Einstellungen für die systemweite Konfiguration zur Verfügung. Läuft Ihr OpenOlat nicht bei frentix, wenden Sie sich für die Aktivierung an die Stelle, die Ihr System betreibt.
@@ -238,7 +238,7 @@ Teilnehmende können sich selbst von einem Termin abmelden.
 
 Termine können automatisch oder manuell beendet werden. Wird ein Termin z.B. früher beendet, soll dafür ein Grund angegeben werden. Der **Grund für einen abweichenden Terminabschluss** kann aus einer Liste ausgewählt werden.
 
-Die zur Auswahl stehenden Begriffe und Beschreibungen für diese Begründungen können hier durch Administrator:innen definiert werden.
+Die zur Auswahl stehenden Begriffe und Beschreibungen für diese Begründungen können hier durch Systemadministrator:innen definiert werden.
 
 Werden hier keine Begründungen hinterlegt, erscheint die Begründungsauswahl beim Schliessen des Termins nicht.
 

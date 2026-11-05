@@ -42,7 +42,7 @@ In this way, compilations of evidence of achievement can be combined for differe
 
 **External certificates**
 
-You upload externally acquired certificates in the personal tool [Certificates](Certificates.md), provided administrators allow it in the system administration: `Administration > e-Assessment > Certificates > Certificates configuration`, option "User can upload external certificate". Uploaded certificates appear there and not in the list of evidence of achievement. [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
+You upload externally acquired certificates in the personal tool [Certificates](Certificates.md), provided system administrators allow it in the system administration: `Administration > e-Assessment > Certificates > Certificates configuration`, option "User can upload external certificate". Uploaded certificates appear there and not in the list of evidence of achievement. [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8984)" }](https://track.frentix.com/issue/OO-8984)
 
 [To the top of the page ^](#evidence_of_achievements)
 

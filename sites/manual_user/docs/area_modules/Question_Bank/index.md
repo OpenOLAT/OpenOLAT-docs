@@ -60,14 +60,14 @@ The icon in front of each entry shows the type of share: :o_icon_o_icon_pool_poo
 
 You can share the questions with other people who have access to the pool according to the configuration in the [system administration](../../../manual_admin/administration/eAssessment_Question_bank.md).
 
-Administrators can deactivate lists, pools and groups in the system administration, so they may not be visible: `Administration > e-Assessment > Question bank`
+System administrators can deactivate lists, pools and groups in the system administration, so they may not be visible: `Administration > e-Assessment > Question bank`
 
 [To the top of the page ^](#question_bank)
 
 
 ## Questions {: #questions}
 
-The area "Questions" is shown to administrators and to question bank managers who have been given the right "see all questions and edit the metadata" in the system administration. In contrast to "My questions", the entry "All questions" lists every question of the question bank, including questions of other authors. The entries "Without subject" and "Without author" show questions that lack this information.
+The area "Questions" is shown to administrators and to question bank managers who have been given the right "see all questions and edit the metadata" by system administrators in the system administration. In contrast to "My questions", the entry "All questions" lists every question of the question bank, including questions of other authors. The entries "Without subject" and "Without author" show questions that lack this information.
 
 
 [To the top of the page ^](#question_bank)

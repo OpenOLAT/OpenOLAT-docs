@@ -26,7 +26,7 @@ Angebote können auch nur für bestimmte Organisationseinheiten im Katalog angez
 Der sichtbare Teil des Angebots wird als Karte im Katalog sichtbar (bzw. in der Listenansicht).
 (Der unsichtbare Teil eines Angebots umfasst die Regeln: Wann wird das Angebot wo angezeigt?)
 
-Was auf einer Karte im Katalog angezeigt wird, kann (für alle Karten einheitlich) von Administrator:innen in der System-Administration festgelegt werden unter<br>
+Was auf einer Karte im Katalog angezeigt wird, kann (für alle Karten einheitlich) von Systemadministrator:innen in der System-Administration festgelegt werden unter<br>
 `Administration > Module > Katalog > Tab Layout > Abschnitt Launchers`
 
 * Durchführungsformat

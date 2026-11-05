@@ -163,7 +163,7 @@ Im Tab "Instant-Messaging" legen Sie die Einstellungen für die [Chat-Funktion](
 
 ## Tab Nutzungsbedingungen {: #tab_terms_of_use}
 
-Hier lesen Sie die Nutzungsbedingungen nach, denen Sie beim ersten Login zugestimmt haben. Ihren Inhalt legen die Administrator:innen Ihrer OpenOlat-Instanz fest.
+Hier lesen Sie die Nutzungsbedingungen nach, denen Sie beim ersten Login zugestimmt haben. Ihren Inhalt legen die Systemadministrator:innen Ihrer OpenOlat-Instanz fest.
 
 Stimmen Sie den Nutzungsbedingungen nicht mehr zu, beantragen Sie hier mit "Konto löschen beantragen" die Löschung Ihres OpenOlat-Kontos. Der Antrag geht als E-Mail an eine von der System-Administration hinterlegte Adresse; die Löschung selbst führt die Benutzerverwaltung aus. Mehr dazu: [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#request_account_deletion)
 

@@ -108,9 +108,9 @@ Sie arbeiten dabei in derselben Oberfläche wie das Korrekturwerkzeug des Kurses
 
 Ein Korrekturauftrag entsteht in fünf Schritten. Drei Rollen richten ihn ein, die Abgabe einer teilnehmenden Person löst ihn aus. Er erreicht die Korrektor:in, sobald alle fünf Schritte erfolgt sind.
 
-![Fünf Schritte vom Modul bis zum Korrekturauftrag, dazu die Zuweisung in der Auftragsverwaltung](assets/coaching_assessment_orders_grading_chain_v1_de.svg){ class="shadow lightbox" title="Wer einen Korrekturauftrag einrichtet" }
+![Fünf Schritte vom Modul bis zum Korrekturauftrag, dazu die Zuweisung in der Auftragsverwaltung](assets/coaching_assessment_orders_grading_chain_v2_de.svg){ class="shadow lightbox" title="Wer einen Korrekturauftrag einrichtet · 2026.11.05" }
 
-1. Administrator:innen schalten in der System-Administration den Korrektur-Workflow ein: `Administration > e-Assessment > Test`.
+1. Systemadministrator:innen schalten in der System-Administration den Korrektur-Workflow ein: `Administration > e-Assessment > Test`.
 2. Besitzer:innen des Tests schalten in der Lernressource Test den Korrektur-Workflow ein: `Test > Administration > Korrektur-Workflow > Tab "Konfiguration"`.
 3. Besitzer:innen des Tests tragen im Tab "Korrektor:innen" die korrigierenden Personen ein. Deren Rolle in OpenOlat spielt dabei keine Rolle.
 4. Kursbesitzer:innen stellen am Kursbaustein Test die Korrektur auf "Manuell durch Korrektor:innen". Diese Option steht zur Auswahl, sobald Schritt 2 gesetzt ist. Mehr dazu auf der Seite [Test einrichten](../learningresources/Course_Element_Test/Test_Setup.de.md#section_correction).

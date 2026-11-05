@@ -2,12 +2,12 @@
 
 ![Nine entries in the e-Assessment menu of the system administration, from Coaching to ePortfolio, each with its own section on this page](assets/admin_e-assessment_overview_v2_en.png){ width="204" class="shadow lightbox aside-left-lg" }
 
-In the e-Assessment menu of the system administration, administrators set up the tools for assessment and exams for the whole instance. Each section of this page belongs to an entry of the menu and leads to its detail page.
+In the e-Assessment menu of the system administration, system administrators set up the tools for assessment and exams for the whole instance. Each section of this page belongs to an entry of the menu and leads to its detail page.
 
 
 ## Coaching {: #coaching}
 
-Under "Coaching", administrators see that coaching is switched on for the instance. The checkbox "Coaching enabled" is greyed out, because coaches and owners reach their learning resources through coaching. [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
+Under "Coaching", system administrators see that coaching is switched on for the instance. The checkbox "Coaching enabled" is greyed out, because coaches and owners reach their learning resources through coaching. [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
 [See the details >](../../manual_user/area_modules/Coaching.md#availability)<br>
 [To the top of the page ^](#e-assessments)
@@ -31,7 +31,7 @@ This is where the test receipt is configured and settings for the correction flo
 
 ## Levels/Grading [:octicons-tag-16:{ title="from Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007) {: #grading_levels}
 
-In addition to the assessment with points, the module "Levels/Grading" can be switched on. There, administrators add and configure rating systems and set the default rating system that is preselected in new rating scales. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596)
+In addition to the assessment with points, the module "Levels/Grading" can be switched on. There, system administrators add and configure rating systems and set the default rating system that is preselected in new rating scales. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596)
 
 [See the details >](../administration/Assessment_translate_points_in_grades_admin.md) <br>
 [To the top of the page ^](#e-assessments)
@@ -39,7 +39,7 @@ In addition to the assessment with points, the module "Levels/Grading" can be sw
 
 ## Assessment management {: #exam_admin}
 
-Here, administrators can enable exam mode and exam viewing for the OpenOlat instance and search for exams. They can also add and manage configuration templates for the Safe Exam Browser.
+Here, system administrators can enable exam mode and exam viewing for the OpenOlat instance and search for exams. They can also add and manage configuration templates for the Safe Exam Browser.
 
 [See the details >](../administration/e-Assessment_AssessmentMgmt.md)<br>
 [To the top of the page ^](#e-assessments)
@@ -59,7 +59,7 @@ In addition, this function is also available for user administrators, line manag
 
 ## OpenBadges [:octicons-tag-16:{ title="from Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #openbadges}
 
-Here, administrators switch on badges. They also create and manage the global badges here.
+Here, system administrators switch on badges. They also create and manage the global badges here.
 
 [See the details >](../administration/e-Assessment_openBadges.md)<br>
 [To the top of the page ^](#e-assessments)
@@ -75,7 +75,7 @@ When credit points are switched on here, course owners award credit points to th
 
 ## ePortfolio {: #portfolio}
 
-The ePortfolio can be switched on or off by administrators. If it is activated, various settings can be defined for the usage options.
+The ePortfolio can be switched on or off by system administrators. If it is activated, various settings can be defined for the usage options.
 
 [See the details >](eAssessment_ePortfolio.md)<br>
 [To the top of the page ^](#e-assessments)
@@ -85,7 +85,7 @@ The ePortfolio can be switched on or off by administrators. If it is activated, 
 
 ## Further information {: #further_information}
 
-[As an administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
+[As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
 [Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management.md)
 
 [To the top of the page ^](#e-assessments)

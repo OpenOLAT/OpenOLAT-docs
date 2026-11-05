@@ -48,7 +48,7 @@ Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Er
 
     frentix erstellt Zertifikatsvorlagen nach Ihren Vorgaben. Wenden Sie sich dafür an Ihre Organisation.
 
-Als Vorlage für das Zertifikat dient standardmässig die mitgelieferte Standardvorlage. Administrator:innen stellen darüber hinaus weitere systemweite Vorlagen zur Auswahl. Wenn Sie eine eigene Vorlage verwenden möchten, laden Sie diese hoch unter:<br>
+Als Vorlage für das Zertifikat dient standardmässig die mitgelieferte Standardvorlage. Systemadministrator:innen stellen darüber hinaus weitere systemweite Vorlagen zur Auswahl, in der System-Administration unter `Administration > e-Assessment > Zertifikate`. Wenn Sie eine eigene Vorlage verwenden möchten, laden Sie diese hoch unter:<br>
 `Kurs > Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat" > Zertifikatvorlage`
 
 !!! note "Hinweis"

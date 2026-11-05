@@ -131,7 +131,7 @@ Normalerweise müssten Sie in allen 1:1-Chats antworten und jeden Chat einzeln s
 
 ### Video-Chat
 
-Manchmal ist es hilfreich, wenn Prüfungsaufsicht und Prüfungsteilnehmer:in sich kurz in einem 1:1-Video-Chat sehen können. Für den Video-Chat steht BigBlueButton oder Microsoft Teams zur Verfügung, sobald Administrator:innen eines davon für den Betreuer:innen-Chat freigegeben haben, siehe [Als Administrator:in Video-Chat aktivieren](#admin).
+Manchmal ist es hilfreich, wenn Prüfungsaufsicht und Prüfungsteilnehmer:in sich kurz in einem 1:1-Video-Chat sehen können. Für den Video-Chat steht BigBlueButton oder Microsoft Teams zur Verfügung, sobald Systemadministrator:innen eines davon für den Betreuer:innen-Chat freigegeben haben, siehe [Als Systemadministrator:in Video-Chat aktivieren](#admin).
 
 Einen Video-Chat können **nur Betreuer:innen starten**, mit "Videokonferenz starten" im Chatfenster unter dem Eingabefeld.<br>
 Prüfungsteilnehmer:innen erhalten dann eine Einladung und können diese annehmen.
@@ -201,9 +201,13 @@ Hat die Kursbesitzer:in Anfragen von Teilnehmer:innen zugelassen, erscheint bei 
 
 ---
 
-## 4. Als Administrator:in Video-Chat aktivieren {: #admin}
+## 4. Als Systemadministrator:in Video-Chat aktivieren {: #admin}
 
-Damit Betreuer:innen aus dem Betreuer:innen-Chat eine Videokonferenz starten können, geben Administrator:innen BigBlueButton oder Microsoft Teams für den Betreuer:innen-Chat frei. Eines der beiden Module genügt, es muss dabei selbst eingeschaltet sein. Aktivieren Sie dafür in der System-Administration unter "Aktivieren für" die Option "Betreuer:innen-Chat":<br>
+!!! info "frentix-Kund:innen"
+
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellung "Betreuer:innen-Chat".
+
+Damit Betreuer:innen aus dem Betreuer:innen-Chat eine Videokonferenz starten können, geben Systemadministrator:innen BigBlueButton oder Microsoft Teams für den Betreuer:innen-Chat frei. Eines der beiden Module genügt, es muss dabei selbst eingeschaltet sein. Aktivieren Sie dafür in der System-Administration unter "Aktivieren für" die Option "Betreuer:innen-Chat":<br>
 `Administration > Externe Werkzeuge > BigBlueButton > Tab "Konfiguration"`<br>
 `Administration > Externe Werkzeuge > Microsoft Teams > Tab "Konfiguration"`
 
@@ -211,7 +215,7 @@ Damit Betreuer:innen aus dem Betreuer:innen-Chat eine Videokonferenz starten kö
 
 Die übrigen Einstellungen der beiden Module beschreiben die Seiten [Modul BigBlueButton](../../manual_admin/administration/BigBlueButton_module.de.md#tab_config) und [Modul Microsoft Teams](../../manual_admin/administration/Teams_module.de.md#activate_for).
 
-[nach oben (Abschnitt Administrator:in) ^](#admin)<br>
+[nach oben (Abschnitt Systemadministrator:in) ^](#admin)<br>
 [zum Seitenanfang ^](#communication_during_exam)
 
 

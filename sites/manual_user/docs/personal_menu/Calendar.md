@@ -21,7 +21,7 @@ The calendar function is available in various places:
 
 !!! info "Important"
 
-    If you cannot find a calendar in the list of your user tools, administrators have switched it off in the system administration:<br>
+    If you cannot find a calendar in the list of your user tools, system administrators have switched it off in the system administration:<br>
     `Administration > Core functions > Calendar`
 
 

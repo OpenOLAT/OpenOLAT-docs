@@ -26,7 +26,7 @@ Offers can also be displayed in the catalog for specific organizational units on
 The visible part of the offer is displayed as a card in the catalog (or in the list view).
 (The invisible part of an offer includes the rules: When and where is the offer displayed?)
 
-What is displayed on a card in the catalog can be specified (uniformly for all cards) by administrators in the system administration under<br>
+What is displayed on a card in the catalog can be specified (uniformly for all cards) by system administrators in the system administration under<br>
 `Administration > Modules > Catalog > Tab Layout > Section Launchers`
 
 * Implementation format

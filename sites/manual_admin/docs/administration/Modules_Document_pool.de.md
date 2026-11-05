@@ -15,7 +15,7 @@
     Weitere Informationen finden Sie im Kapitel
     [Taxonomie](Modules_Taxonomy.de.md).
 
-Administrator:innen konfigurieren den Dokumentenpool in der System-Administration unter:<br>
+Systemadministrator:innen konfigurieren den Dokumentenpool in der System-Administration unter:<br>
 `Administration > Module > Dokumentenpool`
 
 Der Dokumentenpool erscheint als eigener [Bereich](../../manual_user/area_modules/index.de.md) in der Hauptnavigation.

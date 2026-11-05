@@ -13,7 +13,7 @@ Benutzer:innen finden die Projekte **in der Hauptnavigation**.
 
     Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Hauptnavigation angezeigt werden, kann es auch sein, dass "Projekte" unter "Mehr" ganz rechts enthalten ist.
 
-![Eintrag Projekte im aufgeklappten Menü Mehr der Hauptnavigation, darunter der Bereich Projekte mit dem Tab Meine Projekte](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
+![Eintrag Projekte im aufgeklappten Menü Mehr der Hauptnavigation, darunter der Bereich Projekte mit dem Tab Meine Projekte](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" title="Bereich Projekte in der Hauptnavigation" }
 
 !!! info "Wichtig"
 
@@ -53,7 +53,7 @@ Nach dem Aufruf eines Projektes werden Ihnen im Cockpit die Hauptfunktionen ange
 7. Timeline
 8. Verwaltungsfunktionen
 
-![Cockpit eines Projekts mit den nummerierten Hauptfunktionen Terminplan, To-dos, Entscheide, Notizen, Dateien, Whiteboard und Timeline sowie dem 3-Punkte-Menü mit den Verwaltungsfunktionen](assets/projekte_overview_v1_de.png){ class="shadow lightbox" }
+![Cockpit eines Projekts mit den nummerierten Hauptfunktionen Terminplan, To-dos, Entscheide, Notizen, Dateien, Whiteboard und Timeline sowie dem 3-Punkte-Menü mit den Verwaltungsfunktionen](assets/projekte_overview_v1_de.png){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 [Zum Seitenanfang ^](#overviews)
 
@@ -62,7 +62,7 @@ Nach dem Aufruf eines Projektes werden Ihnen im Cockpit die Hauptfunktionen ange
 
 ## Aktivierung des Moduls "Projekte"
 
-Damit die Projekte in der Hauptnavigation verfügbar sind, muss das Modul von einem/einer Administrator:in aktiviert worden sein. Weitere Informationen dazu finden Sie [hier](../../manual_admin/administration/Modules_Projects.de.md).
+Damit die Projekte in der Hauptnavigation verfügbar sind, müssen Systemadministrator:innen das Modul in der System-Administration aktiviert haben. Weitere Informationen dazu finden Sie [hier](../../manual_admin/administration/Modules_Projects.de.md).
 
 [Zum Seitenanfang ^](#overviews)
 

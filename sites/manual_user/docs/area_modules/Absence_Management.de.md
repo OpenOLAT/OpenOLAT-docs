@@ -51,7 +51,7 @@ Die in der Hauptnavigation angezeigte und nachstehend beschriebene Absenzenverwa
 
 ## Aktivierung des Moduls "Termine und Absenzen" {: #activation}
 
-Wie bei allen Modulen erfolgt die generelle Aktivierung durch Administrator:innen. Damit die Absenzenverwaltung in der Hauptnavigation verfügbar ist, muss das Modul "Termine und Absenzen" in der System-Administration eingeschaltet sein:<br>
+Wie alle Module schalten Systemadministrator:innen auch dieses Modul ein. Damit die Absenzenverwaltung in der Hauptnavigation verfügbar ist, muss das Modul "Termine und Absenzen" in der System-Administration eingeschaltet sein:<br>
 `Administration > Module > Termine / Absenzen`<br>
 Mehr dazu finden Sie unter [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md).
 
@@ -85,7 +85,7 @@ Nach dem Aufruf der Absenzenverwaltung werden Ihnen die Hauptfunktionen als Tabs
 
 Im Cockpit werden in zwei untereinanderliegenden Abschnitten die **Absenzen** und die **Meldungen** eines Tages angezeigt. Standardmässig wird der aktuelle Tag angezeigt, es kann jedoch rechts oben ein beliebiger anderer Tag gewählt werden.
 
-In beiden Abschnitten wählen Sie unter **Anzeige**, ob die Liste alle Einträge zeigt (**Alle**) oder nur die unentschuldigten (**Unentschuldigt**). Diesen Umschalter gibt es, wenn in der System-Administration die Option [Entschuldigte Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md#authorized_absences) eingeschaltet ist: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration". Das gilt auch für die Tabs Absenzen und Meldungen.
+In beiden Abschnitten wählen Sie unter "Anzeige", ob die Liste alle Einträge zeigt ("Alle") oder nur die unentschuldigten ("Unentschuldigt"). Diesen Umschalter gibt es, wenn in der System-Administration die Option [Entschuldigte Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md#authorized_absences) eingeschaltet ist: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration". Das gilt auch für die Tabs Absenzen und Meldungen.
 
 ![Tagesübersicht mit zwei Absenzen und leerem Abschnitt Meldungen, je mit dem Umschalter Anzeige, rechts oben die Datumswahl](assets/absence_mgmt_cockpit1_v1_de.png){ class="shadow lightbox" title="Tab Cockpit der Absenzenverwaltung" }
 
@@ -111,7 +111,7 @@ Rechts oben steht für Absenzenverwalter:innen und Administrator:innen der Butto
 
 ![Suchfeld und Datumsbereich über der Absenzenliste mit den Spalten Kurs, Termin, Abwesend und Entschuldigt](assets/absence_mgmt_absences1_v1_de.png){ class="shadow lightbox" title="Tab Absenzen der Absenzenverwaltung" }
 
-Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen. Den Zeitraum grenzen Sie mit dem Datumsbereich ein. Unter **Anzeige** wählen Sie, ob die Liste alle Absenzen zeigt (**Alle**) oder nur die unentschuldigten (**Unentschuldigt**).
+Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen. Den Zeitraum grenzen Sie mit dem Datumsbereich ein. Unter "Anzeige" wählen Sie, ob die Liste alle Absenzen zeigt ("Alle") oder nur die unentschuldigten ("Unentschuldigt").
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -120,11 +120,11 @@ Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und T
 
 ## Tab Meldungen {: #tab_notices}
 
-Der Tab Meldungen listet die Abmeldungen und Dispense auf. Mit den Schaltflächen **Neue Absenzmeldung erfassen**, **Neue Dispens erfassen** und **Abmeldung** erfassen Sie eine Meldung für eine Person.
+Der Tab Meldungen listet die Abmeldungen und Dispense auf. Mit den Schaltflächen "Neue Absenzmeldung erfassen", "Neue Dispens erfassen" und "Abmeldung" erfassen Sie eine Meldung für eine Person.
 
 ![Abmeldungen und Dispense mit Filtern nach Art der Meldung, Grund und Datum sowie drei Schaltflächen für neue Meldungen](assets/absence_mgmt_notices1_v1_de.png){ class="shadow lightbox" title="Tab Meldungen der Absenzenverwaltung" }
 
-Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen. Die Filter **Art der Meldung**, **Grund** und **Datum** grenzen die Liste weiter ein. Sind entschuldigte Absenzen eingeschaltet, legen Sie mit den Kontrollkästchen **Entschuldigt** und **Unentschuldigt** fest, welche Meldungen die Suche findet. Unter **Anzeige** wählen Sie zwischen **Alle** und **Unentschuldigt**.
+Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen. Die Filter "Art der Meldung", "Grund" und "Datum" grenzen die Liste weiter ein. Sind entschuldigte Absenzen eingeschaltet, legen Sie mit den Kontrollkästchen "Entschuldigt" und "Unentschuldigt" fest, welche Meldungen die Suche findet. Unter "Anzeige" wählen Sie zwischen "Alle" und "Unentschuldigt".
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -135,7 +135,7 @@ Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und T
 
 ![Rekursliste mit dem Statusfilter Pendent, Abgelehnt und Angenommen und einem angenommenen Rekurs](assets/absence_mgmt_appeals1_v1_de.png){ class="shadow lightbox" title="Tab Rekurse der Absenzenverwaltung" }
 
-Ein Rekurs muss innerhalb der vorgegebenen **Rekursfrist** erfolgen. Die Rekursfrist legen Administrator:innen systemweit in der System-Administration fest: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration".
+Ein Rekurs muss innerhalb der vorgegebenen **Rekursfrist** erfolgen. Die Rekursfrist legen Systemadministrator:innen systemweit in der System-Administration fest: `Administration > Module > Termine / Absenzen`, Tab "Konfiguration".
 
 Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen und Terminen suchen. Der Filter **Status** zeigt die Rekurse nach ihrem Stand: pendent, abgelehnt oder angenommen. Mit **Datum** grenzen Sie den Zeitraum ein.
 
@@ -158,7 +158,7 @@ Die Personensuche findet Teilnehmer:innen. Über die Links neben dem Titel wechs
 
 ## Tab Report {: #report}
 
-Der Report fasst die Anwesenheiten je Person zusammen: als **Aggregierte Liste** über alle Kurse oder als **Detaillierte Liste** je Kurs. Der Tab öffnet zuerst ein Suchformular; die Listen erscheinen nach der Suche. Mit **Export** laden Sie das Ergebnis herunter. Der Report berücksichtigt nur Kurse mit dem Status "Veröffentlicht" oder "Beendet".
+Der Report fasst die Anwesenheiten je Person zusammen: als "Aggregierte Liste" über alle Kurse oder als "Detaillierte Liste" je Kurs. Der Tab öffnet zuerst ein Suchformular; die Listen erscheinen nach der Suche. Mit "Export" laden Sie das Ergebnis herunter. Der Report berücksichtigt nur Kurse mit dem Status "Veröffentlicht" oder "Beendet".
 
 ![Je Person über alle Kurse die Einheiten, Anwesend, Unentschuldigt, Entschuldigt, Dispensiert und % Anwesend, dazu Export](assets/absence_management_report_aggregated_v2_de.png){ class="shadow lightbox" title="Aggregierte Liste im Tab Report · 2026.10.07" }
 

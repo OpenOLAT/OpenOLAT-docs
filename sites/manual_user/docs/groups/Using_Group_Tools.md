@@ -26,7 +26,7 @@ Group participants will then see the following items in the group menu on the le
 
 !!! info "Virtual classrooms"
 
-    Depending on the configuration by the OpenOlat [administrators](../../manual_admin/administration/External_Tools_-_Administration.md), different virtual classrooms such as OpenMeetings, BigBlueButton or Microsoft Teams are available as group tools.
+    Depending on the configuration by the [system administrators](../../manual_admin/administration/External_Tools_-_Administration.md), different virtual classrooms such as OpenMeetings, BigBlueButton or Microsoft Teams are available as group tools.
 
 
 

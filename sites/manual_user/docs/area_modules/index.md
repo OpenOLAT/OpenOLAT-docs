@@ -11,16 +11,16 @@ Which sites you see is controlled by three things: the module, the activation in
 
 You are looking for a site and cannot find it, while a colleague sees it. Four conditions decide about this. Going through them one by one leads to the cause and tells you whom to ask.
 
-1. **The module is activated.** Without an active module the site does not appear, even if it is activated in the list of sites. Administrators switch on the catalog in the system administration, for example, in the [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md): `Administration > Modules > Catalog`
-2. **The site is activated and sorted in.** Administrators keep all sites in one list, in the system administration under `Administration > Customizing > Sites`, tab "Order". The "Enabled" checkbox releases an entry, the "Up" and "Down" arrows set the order.
+1. **The module is activated.** Without an active module the site does not appear, even if it is activated in the list of sites. System administrators switch on the catalog in the system administration, for example, in the [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md): `Administration > Modules > Catalog`
+2. **The site is activated and sorted in.** System administrators keep all sites in one list, in the system administration under `Administration > Customizing > Sites`, tab "Order". The "Enabled" checkbox releases an entry, the "Up" and "Down" arrows set the order.
 3. **The role has access.** The "Access" column of that same list determines which roles see the site, for example "Registered users without guests/external users" or "Learning resource managers and authors only". Two people with different roles therefore see a different main navigation.
 4. **There is space in the main navigation.** What no longer fits in is collected by OpenOlat in the "More" menu on the right. This depends on the width of the screen, not on a setting.
 
 Some entries in the list are named differently from the site they create: the entry "My courses" appears as "Courses".
 
-Besides the sites of the table below, four info pages and two external sites can be added as sites of their own. Administrators fill an info page with a course, an external site with a URL.
+Besides the sites of the table below, four info pages and two external sites can be added as sites of their own. System administrators fill an info page with a course, an external site with a URL.
 
-How administrators operate this list is described in the administration manual: [Customizing: Sites](../../manual_admin/administration/Customizing.md#sites).
+How system administrators operate this list is described in the administration manual: [Customizing: Sites](../../manual_admin/administration/Customizing.md#sites).
 
 
 ## Where the sites are described {: #areas}

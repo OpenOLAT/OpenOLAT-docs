@@ -3,7 +3,7 @@
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
 
-Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. In Kursen und Gruppen legen Besitzer:innen und Betreuer:innen damit Online-Termine an, zu denen die Teilnehmenden aus OpenOlat heraus beitreten. Welche Arten von Online-Terminen dabei zur Wahl stehen, legen Administrator:innen für die ganze Instanz fest, zum Beispiel ob jeder Termin ein Datum braucht und damit im Kalender erscheint.
+Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. In Kursen und Gruppen legen Besitzer:innen und Betreuer:innen damit Online-Termine an, zu denen die Teilnehmenden aus OpenOlat heraus beitreten. Welche Arten von Online-Terminen dabei zur Wahl stehen, legen Systemadministrator:innen für die ganze Instanz fest, zum Beispiel ob jeder Termin ein Datum braucht und damit im Kalender erscheint.
 
 Sie konfigurieren das Modul in der System-Administration unter:<br>
 `Administration > Externe Werkzeuge > Microsoft Teams`

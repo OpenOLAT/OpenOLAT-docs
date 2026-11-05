@@ -4,7 +4,7 @@
 
 !!! info "Prerequisites"
 
-    This tool appears in Coaching if administrators have activated the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md) and if ["Event & absence management" is switched on](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management) in at least one course.
+    This tool appears in Coaching if system administrators have activated the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md) and if ["Event & absence management" is switched on](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management) in at least one course.
 
 You already see the upcoming events of the current week on the Coaching entry page in the "Events" widget. The "Events / Absences" button opens the complete management with the tabs "Cockpit", "Events", "Absences", "Notices", "Appeals" and "User search".
 
@@ -100,7 +100,7 @@ Use the fields above the list to narrow down the notices:
 
 * **Search**: for users, teachers, course titles and events.
 * **Type of notice**: "Without notification", "Notice of absence" or "Dispensation", plus a tick at "Authorized", "Not authorized" or both.
-* **Reason**: the reasons of absence predefined by administrators, for example illness.
+* **Reason**: the reasons of absence predefined by system administrators, for example illness.
 * **Date**: the period the notices fall in.
 * **Display**: "All" or only "Unauthorized".
 
@@ -114,7 +114,7 @@ You record a new notice with the buttons "Record new absence", "Record new dispe
 
 ## Tab Appeals {: #tab_appeals}
 
-In this tab you see the appeals submitted for your events. The tab only exists if administrators have [enabled appeals](../../manual_admin/administration/Modules_Events_and_Absences.md#appeal_enabled) and your role may see appeals: as coach with the option ["Teachers can see appeals"](../../manual_admin/administration/Modules_Events_and_Absences.md#teacher_see_appeal), as master coach with ["Master coaches can see appeals"](../../manual_admin/administration/Modules_Events_and_Absences.md#mastercoach_see_appeal). As a rule, absence managers process the appeals in the cross-course [Absence management](../area_modules/Absence_Management.md).
+In this tab you see the appeals submitted for your events. The tab only exists if system administrators have [enabled appeals](../../manual_admin/administration/Modules_Events_and_Absences.md#appeal_enabled) and your role may see appeals: as coach with the option ["Teachers can see appeals"](../../manual_admin/administration/Modules_Events_and_Absences.md#teacher_see_appeal), as master coach with ["Master coaches can see appeals"](../../manual_admin/administration/Modules_Events_and_Absences.md#mastercoach_see_appeal). As a rule, absence managers process the appeals in the cross-course [Absence management](../area_modules/Absence_Management.md).
 
 Use the fields above the list to narrow down the appeals:
 

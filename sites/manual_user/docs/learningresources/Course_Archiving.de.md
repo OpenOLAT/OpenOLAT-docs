@@ -91,7 +91,7 @@ Jedes dieser Gesamtarchive enthält wie im Kurs auch die Datei "Mitgliedschaften
 
 !!! info "Wichtig"
 
-    Dieser Tab ist nur für OpenOlat Administrator:innen und Lernressourcenverwalter:innen verfügbar, nicht für Autor:innen.
+    Dieser Tab ist nur für Administrator:innen und Lernressourcenverwalter:innen verfügbar, nicht für Autor:innen.
 
 Im Tab "Kursarchivmanagement" sind alle Kursarchive aufgelistet.
 

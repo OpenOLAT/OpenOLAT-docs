@@ -11,7 +11,7 @@ The six most recently added files are displayed in the "Files" section and can a
 
 The quickest way to upload files is in the "Quick start" area.
 
-![Entry Upload file in the expanded pulldown next to the button Create note in the Quick start of the cockpit](assets/Projekte_a.jpg){ class="shadow lightbox" }
+![Entry Upload file in the expanded pulldown next to the button Create note in the Quick start of the cockpit](assets/Projekte_a.jpg){ class="shadow lightbox" title="Quick start in the cockpit of a project" }
 
 The uploaded files can be opened directly depending on the format.<br>
 The following principles apply:
@@ -42,7 +42,7 @@ The following principles apply:
 
 Files can also be created quickly in the Quick start. The following document formats are available:
 
-![Dialog Create document with the field Filename and the selection of the document type, opened via Create document in the pulldown of the Quick start](assets/projekte_dateien_dokument_erstellen_v1_de.png){ class="shadow lightbox" }
+![Dialog Create document with the field Filename and the selection of the document type, opened via Create document in the pulldown of the Quick start](assets/projekte_dateien_dokument_erstellen_v1_de.png){ class="shadow lightbox" title="Dialog Create document" }
 
 * .docx (Word, licence required)
 * .xlsx (Excel, licence required)
@@ -57,7 +57,7 @@ Files can also be created quickly in the Quick start. The following document for
 
 !!! info "Create office documents"
 
-    Whether Microsoft file formats can be created depends on whether licences are available. Contact your administrator for this.
+    Whether Microsoft file formats can be created depends on whether licences are available. Contact your system administrators for this.
 
     Without licences, the options for creating docx, pptx and xlsx formats are not displayed. (However, displaying and editing existing documents with OnlyOffice is usually possible.)
 
@@ -70,7 +70,7 @@ Files can also be created quickly in the Quick start. The following document for
 
 To record video or audio files via webcam, switch to the "Files" area. Select "Record video or audio" there and allow access to your webcam or microphone to make the recording.
 
-![Marked button Record video or audio next to Upload and Create document in the Files area of a project](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" }
+![Marked button Record video or audio next to Upload and Create document in the Files area of a project](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" title="Files area of a project" }
 
 Newly recorded videos are saved as mp4 files, audio as m4a files. The files are then available to all project members in the "Files" area.
 
@@ -89,15 +89,15 @@ b) Click on the title in the section "Files"
 
 c) Click on "Show all files" in the section
 
-![Three marked ways to the Files area in the cockpit: Quick start button Files, title of the section Files and link Show all files](assets/Projekte_Dateien_abc.jpg){ class="shadow lightbox" }
+![Three marked ways to the Files area in the cockpit: Quick start button Files, title of the section Files and link Show all files](assets/Projekte_Dateien_abc.jpg){ class="shadow lightbox" title="Cockpit of a project" }
 
 Note that you can switch between the card view and the list view on the overview page of all files.
 
-![Marked toggle buttons for card view and list view at the top right above the files in the Files area](assets/projekte_dateien_kartenansicht_v1_de.png){ class="shadow lightbox" }
+![Marked toggle buttons for card view and list view at the top right above the files in the Files area](assets/projekte_dateien_kartenansicht_v1_de.png){ class="shadow lightbox" title="Card view in the Files area" }
 
 You will find more options under the 3 dots at the end of each list entry.
 
-![3-dot menu at the end of the line of a file in the list view with the options for opening, editing, downloading and deleting](assets/projekte_dateien_liste_v1_de.png){ class="shadow lightbox" }
+![3-dot menu at the end of the line of a file in the list view with the options for opening, editing, downloading and deleting](assets/projekte_dateien_liste_v1_de.png){ class="shadow lightbox" title="List view in the Files area" }
 
 To expand the filter buttons, click on the small arrow in the centre above the list.
 
@@ -111,7 +111,7 @@ To expand the filter buttons, click on the small arrow in the centre above the l
 
 Files located elsewhere in OpenOlat can also be added in the "Files" area. This gives you access to all elements of the File Hub and the Media Center.
 
-![Button Add files in the Files area of a project, which opens the file selection dialog with File Hub and Media Center](assets/Projekt_Dateien_hinzufuegen.jpg){ class="shadow lightbox" }
+![Button Add files in the Files area of a project, which opens the file selection dialog with File Hub and Media Center](assets/Projekt_Dateien_hinzufuegen.jpg){ class="shadow lightbox" title="Button Add files in the Files area" }
 
 [To the top of the page ^](#files)
 
@@ -125,7 +125,7 @@ The integration of document editors enables collaborative work.
 * All project members whose role is allowed to edit objects in the project can edit the existing files. The [role overview in the member management](Project_Member_Management.md#roles) shows which roles these are.
 * Even **simultaneous editing** (e.g. of a Word file during an online meeting) is possible if the corresponding licences for the document editor are available.
 
-If necessary, contact your administrator.
+If necessary, contact your system administrators.
 
 [To the top of the page ^](#files)
 
@@ -136,11 +136,11 @@ If necessary, contact your administrator.
 
 To delete a file, click on the 3 dots at the end of a line and then on "Delete". The file then only appears under the tab "Deleted". It can be restored within a certain period of time.
 
-![Entry Delete in the 3-dot menu at the end of the line of a file in the list view of the Files area](assets/project_files_delete_v1_de.png){ class="shadow lightbox" }
+![Entry Delete in the 3-dot menu at the end of the line of a file in the list view of the Files area](assets/project_files_delete_v1_de.png){ class="shadow lightbox" title="3-dot menu of a file in the Files area" }
 
 If you want to delete several files at once (bulk action), select the list view and tick the desired checkboxes at the beginning of the lines. This will display a "Delete" button above the list.
 
-![Button Delete above the file list after files have been selected via the checkboxes at the beginning of the lines](assets/project_files_delete_several_v1_de.png){ class="shadow lightbox" }
+![Button Delete above the file list after files have been selected via the checkboxes at the beginning of the lines](assets/project_files_delete_several_v1_de.png){ class="shadow lightbox" title="Bulk action Delete in the Files area" }
 
 [To the top of the page ^](#files)
 

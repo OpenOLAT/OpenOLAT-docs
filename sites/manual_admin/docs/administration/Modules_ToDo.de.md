@@ -3,9 +3,9 @@
 
 ## Aktivierung des Moduls {: #activation}
 
-Das Modul "To-do" als persönliches Werkzeug muss durch einen/eine Administrator:in vorgenommen werden.
+Das Modul "To-do" als persönliches Werkzeug schalten Systemadministrator:innen ein.
 
-![Modul To-do in der Modulliste einschalten und die Einstellungen für persönliche To-dos festlegen; Administration > Module > To-do](assets/todo_v1_de.png){ class="shadow lightbox" }
+![Modul To-do in der Modulliste einschalten und die Einstellungen für persönliche To-dos festlegen; Administration > Module > To-do](assets/todo_v1_de.png){ class="shadow lightbox" title="Seite To-do im Menü Module" }
 
 ### Persönliches Werkzeug {: #personal_tool}
 

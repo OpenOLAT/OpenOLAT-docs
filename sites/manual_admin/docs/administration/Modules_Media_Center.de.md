@@ -1,7 +1,7 @@
 # Modul Media Center {: #module_media_center}
 
 
-Administrator:innen konfigurieren das Media Center in der System-Administration unter:<br>
+Systemadministrator:innen konfigurieren das Media Center in der System-Administration unter:<br>
 `Administration > Module > Media Center`
 
 ![Alle Einstellungen des Moduls Media Center auf einer Seite, geöffnet über den markierten Eintrag Media Center im Menü Module der System-Administration](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" title="Menü Module der System-Administration" }
@@ -27,7 +27,7 @@ Wer sicherstellen will, dass jedes neue Medium im Media Center eine Lizenzangabe
 
 ## Taxonomie {: #taxonomy}
 
-Damit sich Medien im Media Center nach Fächern ordnen und filtern lassen, ordnen Sie ihnen Fachbereiche aus einer Taxonomie zu. Das Feld dafür heisst in den Metadaten eines Mediums "Themen/Fachbereiche". Da OpenOlat mehrere Taxonomien nebeneinander verwalten kann, legen Administrator:innen unter "Verknüpfte Taxonomien" fest, welche Taxonomien im Media Center verwendet werden. Ist dort keine Taxonomie ausgewählt, verwendet das Media Center die Taxonomien, die in der System-Administration unter `Administration > Module > Lernressource` ausgewählt sind.
+Damit sich Medien im Media Center nach Fächern ordnen und filtern lassen, ordnen Sie ihnen Fachbereiche aus einer Taxonomie zu. Das Feld dafür heisst in den Metadaten eines Mediums "Themen/Fachbereiche". Da OpenOlat mehrere Taxonomien nebeneinander verwalten kann, legen Systemadministrator:innen unter "Verknüpfte Taxonomien" fest, welche Taxonomien im Media Center verwendet werden. Ist dort keine Taxonomie ausgewählt, verwendet das Media Center die Taxonomien, die in der System-Administration unter `Administration > Module > Lernressource` ausgewählt sind.
 
 Weitere Informationen finden Sie auf der Seite [Modul Taxonomie](Modules_Taxonomy.de.md). Wie die Bereiche ihre Taxonomie wählen, erklärt die Seite [Taxonomie](../../manual_user/basic_concepts/Taxonomy_Concept.de.md) im Benutzerhandbuch.
 
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie auf der Seite [Modul Taxonomie](Modules_Taxonom
 
 ## Freigaben [:octicons-tag-16:{ title="ab Release 18.1 (OO-7274)" }](https://track.frentix.com/issue/OO-7274) {: #shares}
 
-Werden Inhalte im Media Center abgelegt, können sie zur Verwendung durch andere freigegeben werden. Welche Freigabemöglichkeiten den Autor:innen und anderen Rollen zur Verfügung stehen, legen Administrator:innen im Abschnitt "Freigaben" fest.
+Werden Inhalte im Media Center abgelegt, können sie zur Verwendung durch andere freigegeben werden. Welche Freigabemöglichkeiten den Autor:innen und anderen Rollen zur Verfügung stehen, legen Systemadministrator:innen im Abschnitt "Freigaben" fest.
 
 Für "Mit Benutzer:in", "Mit Gruppe" und "Mit Kurs" wählen Sie jeweils "Alle" oder "Rollenspezifisch". Mit "Alle" dürfen alle Benutzer:innen auf diesem Weg freigeben, auch ohne zusätzliche Rolle. Mit "Rollenspezifisch" wählen Sie die Rollen Autor:in, Lernressourcenverwalter:in und Administrator:in einzeln aus. "Mit Organisation" steht nur den Rollen Lernressourcenverwalter:in und Administrator:in offen, die Sie dort einzeln auswählen.
 

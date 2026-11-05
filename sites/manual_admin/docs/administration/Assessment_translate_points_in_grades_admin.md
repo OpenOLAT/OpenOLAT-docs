@@ -2,7 +2,7 @@
 
 [:octicons-tag-16:{ title="from Release 16.2 (OO-6007)" }](https://track.frentix.com/issue/OO-6007)
 
-Administrators enable the module "Levels/Grading" and create the rating systems that convert points into grades. You find the module in the system administration under:<br>
+System administrators enable the module "Levels/Grading" and create the rating systems that convert points into grades. You find the module in the system administration under:<br>
 `Administration > e-Assessment > Levels/Grading`
 
 ![Switch Module Levels/Grading set to On, below it the table Rating systems with a language icon in front of Name and Label, the columns #Usage and Enabled and the Default mark on grades.german](assets/assessment_translate_points_in_grades_admin_systems_v1_en.png){ class="shadow lightbox" title="Levels/Grading page in the e-Assessment area · 2026.10.22" }

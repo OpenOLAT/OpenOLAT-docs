@@ -26,7 +26,7 @@ Basically 3 categories of badges can be awarded:
 
 * **Badges for a course**<br> (for passing the course or fulfilling the conditions set there)
 * **Badges for a specific course element**<br> (like course badges, with a condition for a specific course element)
-* and **global badges**<br> (cross-course, can only be created by administrators)
+* and **global badges**<br> (cross-course, can only be created by system administrators)
 
 
 [To the top of the page ^](#badges)
@@ -40,7 +40,7 @@ Basically 3 categories of badges can be awarded:
 
 As a general prerequisite for the availability of badges
 
-* the assignment option for the entire instance must have been activated by administrators, in the system administration under `Administration > e-Assessment > OpenBadges` (see [e-Assessment Administration: OpenBadges](../../manual_admin/administration/e-Assessment_openBadges.md))
+* the assignment option for the entire instance must have been activated by system administrators, in the system administration under `Administration > e-Assessment > OpenBadges` (see [e-Assessment Administration: OpenBadges](../../manual_admin/administration/e-Assessment_openBadges.md))
 * and a [matching badge created](#create).
 
 
@@ -61,12 +61,12 @@ Under "Allow manual awarding of badges" you specify who may award badges by hand
 
 ## How do I create a badge? {: #create}
 
-(Course owners create the badges of a course. Administrators create global badges in the system administration.)
+(Course owners create the badges of a course. System administrators create global badges in the system administration.)
 
 The following options are available for the image of a new badge:
 
 * upload your own image (SVG or PNG, created with an external graphics program)
-* use a template that administrators provide in the system administration
+* use a template that system administrators provide in the system administration
 * take an existing badge as the starting point and copy its details. In addition, the action "Copy" in the badge list copies an existing badge.
 
 As soon as awarding badges has been activated in a course, the course administration shows the entry "Badges":<br>
@@ -251,7 +251,7 @@ In the dialog, you confirm with a checkbox that you want to delete the badge per
 
 ## Checklist {: #checklist}
 
-- [x] Are badges generally activated instance-wide by administrators?
+- [x] Are badges generally activated instance-wide by system administrators?
 - [x] Has awarding badges been activated in the course?
 - [x] Should a self-designed image be used for a badge? Is it available as SVG or PNG?
 - [x] Was a badge created with the wizard?

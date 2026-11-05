@@ -4,7 +4,7 @@
 
 Im persönlichen Werkzeug «To-dos» sehen Sie alle To-dos, bei denen Sie zugewiesen oder delegiert sind, gleich aus welchem Modul sie stammen: aus Kursen und aus dem Kursbaustein «Aufgabe», aus Projekten, aus dem Qualitätsmanagement und aus dem Course Planner. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} Dazu kommen Ihre persönlichen To-dos, die Sie hier selbst erstellen. Das Werkzeug steht allen Benutzer:innen zur Verfügung, Gäste ausgenommen. Was für alle To-dos gilt, steht unter [To-dos: Grundlagen](../basic_concepts/To_Dos_Basics.de.md).
 
-Ob das Werkzeug im persönlichen Menü erscheint, wer persönliche To-dos erstellen darf und ob sie sich anderen Personen zuweisen lassen, legen Administrator:innen in der System-Administration fest: `Administration > Module > To-do` (siehe [Modul To-do](../../manual_admin/administration/Modules_ToDo.de.md)).
+Ob das Werkzeug im persönlichen Menü erscheint, wer persönliche To-dos erstellen darf und ob sie sich anderen Personen zuweisen lassen, legen Systemadministrator:innen in der System-Administration fest: `Administration > Module > To-do` (siehe [Modul To-do](../../manual_admin/administration/Modules_ToDo.de.md)).
 
 ![Persönliche To-dos mit Priorität, Fälligkeitstermin, Fälligkeit und Status je Zeile, mit Rahmen markiert die Tabs Alle bis Gelöscht und der Button To-do erstellen](assets/pers_menu_todos_list_v1_de.png){ class="shadow lightbox" title="Seite To-dos im Menü Persönliche Werkzeuge · 2026.10.02" }
 

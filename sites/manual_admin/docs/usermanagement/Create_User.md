@@ -65,7 +65,7 @@ The step "Overview" lists the accounts that will be created. OpenOlat does not c
 
 ## Self-registration [:octicons-tag-16:{ title="from Release 8.1.1 (OO-226)" }](https://track.frentix.com/issue/OO-226) {: #self_registration}
 
-If people are to create an account without the help of the user management, switch on self-registration. Administrators switch on "Activate self-registration" in the system administration under:<br>
+If people are to create an account without the help of the user management, switch on self-registration. System administrators switch on "Activate self-registration" in the system administration under:<br>
 `Administration > Login > Self-registration`
 
 There you restrict self-registration further if required, for example to certain email domains, see [Self-registration](../administration/Login_Self-Registration.md).

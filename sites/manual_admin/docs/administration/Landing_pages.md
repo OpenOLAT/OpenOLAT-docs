@@ -1,6 +1,6 @@
 # Landing pages {: #landing_pages}
 
-After login, OpenOlat opens a landing page for every person. With rules, administrators define which landing page that is for which users, so that every person starts where they work. You find the setting in the system administration under:<br>
+After login, OpenOlat opens a landing page for every person. With rules, system administrators define which landing page that is for which users, so that every person starts where they work. You find the setting in the system administration under:<br>
 `Administration > Core functions > Landing pages`
 
 You narrow down the users by role, by a user attribute or by both, and then assign them the appropriate landing page via the columns "Landing page" and "Selection". You can create as many rules as necessary. OpenOlat always applies the first matching rule. The rules are independent of each other and do not all have to match; only the order decides.

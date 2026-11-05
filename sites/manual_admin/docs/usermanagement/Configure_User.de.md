@@ -21,7 +21,7 @@ In der Werkzeugleiste über dem Kopfbereich stehen zwei Aktionen. "Daten exporti
 
 OpenOlat führt jedes Benutzerkonto für sich; Konten lassen sich nicht zusammenführen. Was eine Person in OpenOlat erarbeitet hat, also Kursmitgliedschaften, Testresultate, Leistungsnachweise, Zertifikate und Badges, bleibt dauerhaft mit dem Konto verbunden, auf dem es entstanden ist. So bleibt jeder Nachweis eindeutig einer Anmeldung zugeordnet und später überprüfbar, und die personenbezogenen Daten bleiben auf ein Konto begrenzt.
 
-Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen keine zwei Konten mit derselben E-Mail-Adresse. Sie finden die Option im Abschnitt "E-Mail Adresse" unter:<br>
+Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen keine zwei Konten mit derselben E-Mail-Adresse. Systemadministrator:innen finden die Option im Abschnitt "E-Mail Adresse" unter:<br>
 `Administration > Core-Konfiguration > E-Mail`, Segment "Einstellungen", siehe [E-Mail Einstellungen](../administration/E-Mail_Settings.de.md#email_address).
 
 !!! tip "Zwei Konten derselben Person"
@@ -100,7 +100,7 @@ Dieser Abschnitt zeigt, wie der systemweite automatische Kontolebenszyklus auf d
 
 Beide Fristen nennen neben der Anzahl Tage auch das Datum, an dem der Schritt fällig wird.
 
-"Tage bis Inaktivierung" erscheint nur bei aktivem Schalter "Konten nach Inaktivität deaktivieren", "Tage bis Löschung" nur bei aktivem Schalter "Inaktive Konten löschen". Beide Schalter finden Sie in der System-Administration unter:<br>
+"Tage bis Inaktivierung" erscheint nur bei aktivem Schalter "Konten nach Inaktivität deaktivieren", "Tage bis Löschung" nur bei aktivem Schalter "Inaktive Konten löschen". Beide Schalter finden Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Lebenszyklen > Konto`
 
 Sind die Schalter aus, greift kein automatischer Prozess, und die Fristen entfallen.
@@ -145,7 +145,7 @@ Wurde ein Einladungslink bereits versendet, zeigt eine Meldung dessen Gültigkei
 
 Hat die Person bereits ein Passwort, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" die Aktionen "Passwort neu setzen" und "Passwortlink senden". Mit "Passwort neu setzen" legen Sie ein neues Passwort direkt fest, "Passwortlink senden" schickt der Person einen Link, mit dem sie es selbst neu setzt. Diese beiden Aktionen stehen nur Administrator:innen und Benutzerverwalter:innen zur Verfügung. Rollenverwalter:innen senden den Einladungslink, deaktivieren ihn und erstellen Zugangsdaten; nur bei eingeladenen Konten setzen auch sie ein bestehendes Passwort neu oder senden einen Passwortlink.
 
-Wie lange ein Einladungslink gültig bleibt, legen Sie in der System-Administration im Abschnitt "Gültigkeitsdauer der Logindaten" fest:<br>
+Wie lange ein Einladungslink gültig bleibt, legen Systemadministrator:innen in der System-Administration im Abschnitt "Gültigkeitsdauer der Logindaten" fest:<br>
 `Administration > Login > Selbstregistration`, Reiter "Konfiguration", siehe [Selbstregistration](../administration/Login_Self-Registration.de.md#tab_configuration).
 
 ![Sechs Schritte vom Senden des Einladungslinks bis zu den gespeicherten Zugangsdaten, aufgeteilt auf die verwaltende Rolle, OpenOlat und die Person](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" title="Ablauf mit dem Einladungslink" }

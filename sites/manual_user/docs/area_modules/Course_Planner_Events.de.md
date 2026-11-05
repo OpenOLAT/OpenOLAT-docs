@@ -128,8 +128,8 @@ Ist ein Raum im Zeitraum des Termins doppelt gebucht, steht die Warnung "Der Rau
 
 ![Zwei gebuchte Räume als Raumkarten mit Gebäude und Adresse, einer mit der Warnung zur Doppelbuchung](assets/course_planner_events_room_booking_v2_de.png){ class="shadow lightbox" title="Detailansicht eines Termins · 2026.10.09" }
 
-!!! note "Admin. Rechte erforderlich"
-    Räume und Gebäude werden in der System-Administration unter `Administration > Module > Räume` verwaltet; dafür sind administrative Rechte erforderlich. Fehlen Ihnen diese Rechte, wenden Sie sich an eine Person mit administrativer Rolle, wenn Sie neue Räume benötigen oder Angaben zu einem Raum anpassen lassen möchten.
+!!! note "Rolle Systemadministrator:in erforderlich"
+    Räume und Gebäude verwalten Systemadministrator:innen in der System-Administration unter `Administration > Module > Räume`. Brauchen Sie neue Räume oder sollen Angaben zu einem Raum angepasst werden, wenden Sie sich an Ihre Systemadministrator:innen.
 
 [zum Seitenanfang ^](#events)
 

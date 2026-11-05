@@ -26,7 +26,7 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration treffen Gruppenbet
 
 !!! info "Virtuelle Klassenräume"
 
-    Je nach Konfiguration durch die OpenOlat-[Administrator:innen](../../manual_admin/administration/External_Tools_-_Administration.de.md) stehen unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton oder Microsoft Teams als Gruppenwerkzeug zur Verfügung.
+    Je nach Konfiguration durch die [Systemadministrator:innen](../../manual_admin/administration/External_Tools_-_Administration.de.md) stehen unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton oder Microsoft Teams als Gruppenwerkzeug zur Verfügung.
 
 
 

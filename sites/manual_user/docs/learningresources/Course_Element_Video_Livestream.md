@@ -7,7 +7,7 @@ Name | Video live stream
 Icon | :o_icon_o_livestream_icon:
 Available since | Release 14.0 (OO-4043)
 Functional group | Knowledge transfer
-Purpose | Display of a live video stream (set up by the administrator)
+Purpose | Display of a live video stream (set up by system administrators)
 Assessable | no
 Specialty / Note | 
 
@@ -20,9 +20,9 @@ With the course element "Video live stream" you show live streams to your partic
 * Regular observation of weather webcams with an evaluation assignment in the following course element (for example in the course element "Checklist")
 * Regular animal observation via webcam with a protocol assignment (for example in the course element "Document")
 
-## Preparation by the administrator
+## Preparation by system administrators
 
-The administrators find the configuration in the system administration under: `Administration > Modules > Live stream`.<br>
+System administrators find the configuration in the system administration under: `Administration > Modules > Live stream`.<br>
 There, they activate the course element and, if needed, the Multi stream option for two simultaneous live streams; with multi stream active, they also set the separator for multiple URLs of a single event. Under Default values, they set the buffer time before start and after end in minutes, whether coaches are allowed to edit, and the stream to display as the default for new course elements.
 
 ![Settings of the Video live stream course element with default values for the buffer times and the selection of the stream](assets/course_element_livestream_admin_settings_v1_en.png){ class="shadow lightbox" title="Live stream page in the Modules menu · 2026.11.03" }

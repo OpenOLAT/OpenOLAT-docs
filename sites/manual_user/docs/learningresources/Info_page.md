@@ -15,7 +15,7 @@ Which elements the info page shows and where you set them is described in [Gener
 
 ## Print the info page [:octicons-tag-16:{ title="from Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"} {: #print}
 
-The info page can be printed, for example to have a course booking approved by a supervisor. Click **Download as PDF** in the header of the info page. OpenOlat creates a flyer in one column without buttons, with a QR code that leads to the offer. You get the same printout with the "Print" command of your browser. The button only appears if administrators have set up a PDF service; printing via the browser always works.
+The info page can be printed, for example to have a course booking approved by a supervisor. Click **Download as PDF** in the header of the info page. OpenOlat creates a flyer in one column without buttons, with a QR code that leads to the offer. You get the same printout with the "Print" command of your browser. The button only appears if system administrators have set up a PDF service in the system administration under `Administration > External tools > PDF generator`; printing via the browser always works.
 
 What the printout contains and what it leaves out: [Print the info page or download it as PDF](../learningresources/General_Functions_Infopage.md#print)
 

@@ -4,7 +4,7 @@
 
 Under "To-dos" in the User tools you see all to-dos for which you are assigned or delegated, regardless of the module they come from: from courses and from the course element "Task", from projects, from quality management and from the Course Planner. [:octicons-tag-16:{ title="from Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} In addition, there are your personal to-dos, which you create here yourself. The tool is available to all users except guests. What applies to all to-dos is described under [To-dos: basics](../basic_concepts/To_Dos_Basics.md).
 
-Whether the tool appears in the personal menu, who may create personal to-dos and whether they can be assigned to other persons is set by administrators in the system administration: `Administration > Modules > To-do` (see [Module To-do](../../manual_admin/administration/Modules_ToDo.md)).
+Whether the tool appears in the personal menu, who may create personal to-dos and whether they can be assigned to other persons is set by system administrators in the system administration: `Administration > Modules > To-do` (see [Module To-do](../../manual_admin/administration/Modules_ToDo.md)).
 
 ![Personal to-dos with priority, due date, due and status per row, marked with a frame the tabs All to Deleted and the Create to-do button](assets/pers_menu_todos_list_v1_en.png){ class="shadow lightbox" title="To-dos page in the User tools menu · 2026.10.02" }
 

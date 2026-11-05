@@ -4,7 +4,7 @@
 
 If OpenOlat is used as a "platform" in the sense of LTI terminology, OpenOlat displays courses from other LMSs or other applications (tools). The course element "LTI page" serves this purpose in OpenOlat.
 
-Administrators enable the integration of external tools in the system administration under `Administration > External tools > LTI`, tab "Configuration". They then set up the communication and the secure connection to each tool in the "External tools" tab.
+System administrators enable the integration of external tools in the system administration under `Administration > External tools > LTI`, tab "Configuration". They then set up the communication and the secure connection to each tool in the "External tools" tab.
 
 ![List of external tools with name, tool URL and client ID, the Create a new tool button marked](assets/LTI_admin_tools_v3_en.png){ class="shadow lightbox" title="Tab External tools of the page LTI in the system administration · 2026.10.07" }
 

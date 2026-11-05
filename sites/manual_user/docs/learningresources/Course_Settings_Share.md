@@ -80,7 +80,7 @@ If a course already has members, a copy is the simplest way into the Course Plan
 
 !!! tip "Tip"
 
-    When creating new courses, pay attention to the default usage setting. Administrators set the usage for new courses in the system administration, in the field "Usage for new courses" under:<br>
+    When creating new courses, pay attention to the default usage setting. System administrators set the usage for new courses in the system administration, in the field "Usage for new courses" under:<br>
     `Administration > Modules > Course Planner > Tab "Settings"`
 
 [To the top of the page ^](#tab_share)

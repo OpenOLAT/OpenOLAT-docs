@@ -25,7 +25,7 @@ Es können grundsätzlich 3 Kategorien von Badges erworben werden:
 
 * **Badges für einen Kurs**<br> (für das Bestehen des Kurses, bzw. das Erfüllen der dort gestellten Bedingungen)
 * **Badges für einen bestimmten Kursbaustein**<br> (wie Kursbadges, mit einer Bedingung für einen bestimmten Kursbaustein, [siehe Liste der Kursbausteine mit Badges](#create_for_course_elements))
-* und **globale Badges**<br> (kursübergreifend, können nur von Administrator:innen erstellt werden) 
+* und **globale Badges**<br> (kursübergreifend, können nur von Systemadministrator:innen erstellt werden) 
 
 Globale Badges sind unabhängig von Kursen. Andere Badges beziehen sich auf einen spezifischen Kursbaustein oder Kurs. Der gleiche Badge kann nicht an unterschiedlichen Stellen, z.B. für unterschiedliche Kursbausteine vergeben werden.
 
@@ -73,16 +73,16 @@ Die Auswahl für "Kursbaustein bestanden" und "Kursbaustein-Score" enthält die 
 ## Wie werden globale Badges vergeben? [:octicons-tag-16:{ title="ab Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #award_a_global-badge}
 
 Auch globale Badges können manuell oder automatisch anhand definierter Regeln vergeben werden.
-Sowohl manuelle Vergabe, wie auch die Definition der Regeln für eine automatische Vergabe globaler Badges können jedoch nur durch [Administrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md) erfolgen.
+Sowohl manuelle Vergabe, wie auch die Definition der Regeln für eine automatische Vergabe globaler Badges können jedoch nur durch [Systemadministrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md) erfolgen.
 
 ### Globale Badges manuell vergeben
 
-Globale Badges können durch Administrator:innen in der System-Administration manuell vergeben werden unter<br>
+Globale Badges können durch Systemadministrator:innen in der System-Administration manuell vergeben werden unter<br>
 `Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button "Manuell vergeben"`
 
 ### Globale Badges automatisch vergeben
 
-Administrator:innen können die Regeln für eine automatische Vergabe in der System-Administration einrichten unter<br>
+Systemadministrator:innen können die Regeln für eine automatische Vergabe in der System-Administration einrichten unter<br>
 `Administration > e-Assessment > OpenBadges > Tab "Globale Badges"`<br>
 Wenn dort das Badge-Tool zur Erstellung eines globalen Badges aufgerufen wird, können im Wizard die Regeln angegeben werden.
 
@@ -226,7 +226,7 @@ LinkedIn ermöglicht es Ihnen, Zertifikate und Badges in Ihrem persönlichen Pro
 
 ## Echtheit eines Badges überprüfen {: #verification}
 
-Administrator:innen können eine Badge-Datei hochladen und OpenOlat prüft dann, ob es sich um einen rechtmässig ausgestellten Badge handelt.
+Systemadministrator:innen können in der System-Administration eine Badge-Datei hochladen und OpenOlat prüft dann, ob es sich um einen rechtmässig ausgestellten Badge handelt.
 
 Zusätzlich zur host-basierten Prüfung können Badges auch digital signiert werden. Ein digital signierter Badge zeigt in der Badge-Ansicht das Abzeichen "Verifiziert". [:octicons-tag-16:{ title="ab Release 20.1 (OO-8288)" }](https://track.frentix.com/issue/OO-8288)
 

@@ -19,7 +19,7 @@
 
 ## Passkey aktivieren [:octicons-tag-16:{ title="ab Release 18.1 (OO-7180)" }](https://track.frentix.com/issue/OO-7180) {: #activate}
 
-Administrator:innen schalten Passkey in OpenOlat ein und legen damit fest, ob Passkey verwendet werden kann oder muss.
+Systemadministrator:innen schalten Passkey in OpenOlat ein und legen damit fest, ob Passkey verwendet werden kann oder muss.
 
 Den Passkey erstellen die Benutzer:innen danach selbst auf ihren Geräten, in OpenOlat unter `Persönliches Menü > Passwort`. Administrator:innen erstellen keine Passkeys, sie können Passkeys nur löschen.
 
@@ -33,7 +33,7 @@ Details dazu auf der Seite [Sicherheitsstufen](Security_levels.de.md).
 
 Ist in OpenOlat eine Sicherheitsstufe mit Passkey konfiguriert, werden die Benutzer:innen bei der nächsten Anmeldung angehalten, einen Passkey zu erstellen und diesen zukünftig für die Anmeldung zu verwenden. Je nach Konfiguration lässt sich dieser Schritt einige Male überspringen; OpenOlat zeigt an, wie oft das noch möglich ist.
 
-Hat die Administration zusätzlich den One Time Code aktiviert, können sich Kontoinhaber:innen ohne hinterlegten Passkey weiterhin mit Passwort und einem Bestätigungscode per E-Mail anmelden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) Details dazu auf der Seite [One Time Code](One_Time_Code.de.md).
+Haben Systemadministrator:innen zusätzlich den One Time Code aktiviert, können sich Kontoinhaber:innen ohne hinterlegten Passkey weiterhin mit Passwort und einem Bestätigungscode per E-Mail anmelden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509) Details dazu auf der Seite [One Time Code](One_Time_Code.de.md).
 
 
 !!! tip "Tipp"
@@ -64,7 +64,7 @@ Benutzerverwalter:innen und Administrator:innen können Ihnen zudem einen tempor
 Gehen Sie dazu in folgenden Schritten vor:
 
 1. Einrichten von Passkey auf dem Hauptgerät<br>
-Administrator:innen können rollenspezifisch Passkeys verlangen. Benutzer:innen können die Sicherheitsstufe auch selbst erhöhen, wenn die Administration das erlaubt.<br>`Persönliches Menü > Passwort`
+Systemadministrator:innen können rollenspezifisch Passkeys verlangen. Benutzer:innen können die Sicherheitsstufe auch selbst erhöhen, wenn Systemadministrator:innen das erlauben.<br>`Persönliches Menü > Passwort`
 
 2. Recovery Keys speichern<br>(nur zur einmaligen Verwendung)
 

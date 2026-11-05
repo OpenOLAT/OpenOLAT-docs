@@ -81,5 +81,5 @@
 
   <!-- Voraussetzung -->
   <rect x="20" y="350" width="900" height="44" rx="8" fill="#EDEDED"/>
-  <text x="470" y="377" text-anchor="middle" font-size="14" fill="#36464E">Administrators define for each area whether a taxonomy takes effect there.</text>
+  <text x="470" y="377" text-anchor="middle" font-size="14" fill="#36464E">System administrators define for each area whether a taxonomy takes effect there.</text>
 </svg>

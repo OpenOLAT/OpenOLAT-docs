@@ -8,7 +8,7 @@
 
 If credit points are awarded in courses, you are credited with credit points after successfully completing a course.
 
-The credit points can be credited to you in different "currencies". Administrators define which "currencies" (credit point systems) are available in the system.
+The credit points can be credited to you in different "currencies". System administrators define which "currencies" (credit point systems) are available in the system.
 
 In the personal menu under "Credit points" you find your current credit point balance.
 
@@ -30,7 +30,7 @@ In the second case, the table "Transactions" is empty and shows "No transactions
 Apart from you, only people to whom OpenOlat gives a role or a right for this can see your credit points:
 
 * **In the user management**, administrators, principals, user managers and roles managers of your organisation see your credit points. Only administrators can credit, remove and cancel credit points there.
-* **In the Coaching Tool**, line managers and education managers of your organisation as well as people who are responsible for you via an own role see your credit points in the tab [Credit points](../area_modules/Coaching_People.md#tab_credit_points). This only applies if administrators have granted their role the right "View credit points"; by default, it is off. These people only view, they do not change anything.
+* **In the Coaching Tool**, line managers and education managers of your organisation as well as people who are responsible for you via an own role see your credit points in the tab [Credit points](../area_modules/Coaching_People.md#tab_credit_points). This only applies if system administrators have granted their role the right "View credit points"; by default, it is off. These people only view, they do not change anything.
 
 If a credit point system is restricted to organisations, another person only sees it if they belong to one of these organisations themselves.
 

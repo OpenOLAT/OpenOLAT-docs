@@ -15,7 +15,7 @@ Specialty / Note |
 
 The course element "Participant folder" enables a file exchange between individual participants and coaches. Two folders are available for this. One is the "Participant drop box", through which participants can submit files to coaches. The other is the "Coach return box", in which coaches can return files to all participants at once or individually. In principle, this course element hides two (course element) folders, one with write permission and one without, which are visible only to coaches and one individual participant.
 
-Provided that a corresponding document editor has been activated by the administrator, it is also possible to create different file formats such as Word, Excel or PowerPoint files directly in OpenOlat. Each course participant sees only their own individual folder here. Unlike in the course element "Folder", submissions from other learners are not visible in the participant folder.
+Provided that system administrators have activated a corresponding document editor in the system administration under `Administration > External tools > Document editors`, it is also possible to create different file formats such as Word, Excel or PowerPoint files directly in OpenOlat. Each course participant sees only their own individual folder here. Unlike in the course element "Folder", submissions from other learners are not visible in the participant folder.
 
 The course element "Participant folder" can also be included in the assessment via the assessment tool.
 
@@ -31,7 +31,7 @@ In the course editor, the "Folder settings" tab is used to configure the drop bo
 
 !["Folder settings" tab: activate the drop box and return box, allow deleting and overwriting, limit the time frame and number of documents](assets/course_element_participant_folder_settings_v1_de.png){ class="shadow lightbox" title="Folder settings tab in the course editor" }
 
-If the participant drop box is activated, participants can upload files or create them directly in OpenOlat. If the administrator of the OpenOlat instance has activated further document editors, it is also possible to create further file formats such as Word, Excel or PowerPoint files.
+If the participant drop box is activated, participants can upload files or create them directly in OpenOlat. If system administrators have activated further document editors in the system administration, it is also possible to create further file formats such as Word, Excel or PowerPoint files.
 
 Further configurations can also be made for the participant drop box. For example, deleting and overwriting can be deactivated. This means that participants can no longer delete documents once they have uploaded or created them. All documents then stay in the drop box. A time frame can also be defined for submission. Submission is only possible within this time frame. Outside this time frame, documents can only be downloaded.
 

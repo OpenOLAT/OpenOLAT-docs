@@ -19,7 +19,7 @@ Course Planner (start page/dashboard)
 
 ## Connections
 
-The widgets (implementations, events, participants, to-dos) bundle key figures and link to the respective areas. A personal configuration overrides the system default, which administrators can define for everyone.
+The widgets (implementations, events, participants, to-dos) bundle key figures and link to the respective areas. A personal configuration overrides the system default, which system administrators can define for everyone.
 
 ## Further information {: #further_information}
 
@@ -28,3 +28,5 @@ The widgets (implementations, events, participants, to-dos) bundle key figures a
 [Course Planner: Dashboard >](../Course_Planner_Dashboard.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.md)
+
+[To the top of the page ^](#dashboard)

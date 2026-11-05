@@ -1,4 +1,4 @@
-# Frequently asked questions - Zoom
+# Frequently asked questions - Zoom {: #zoom_faq}
 
 !!! note "Zoom in OpenOlat"
 
@@ -6,7 +6,7 @@
 
     * Information from the manufacturer can be found on the [Zoom homepage](https://zoom.us){target=_blank}.
     * The use as a course element is described in [Course element "Zoom"](index.md).
-    * The setup by administrators is described in the [OpenOlat Administration Manual](https://docs.openolat.org/en/manual_admin/administration/Zoom/){target=_blank}.
+    * The setup by system administrators is described in the [OpenOlat Administration Manual](../../../manual_admin/administration/Zoom.md).
 
 
 ## :material-map-marker-question: Finding and configuring Zoom
@@ -19,13 +19,13 @@ Zoom can be available in three places:
 * as a course tool in the toolbar of a course,
 * as a group tool in a group.
 
-Which of these variants are available is decided by your administrator. If you do not see Zoom in an expected place, the variant may not be enabled on your instance.
+Which of these variants are available is decided by your system administrators in the system administration under `Administration > External tools > Zoom`. If you do not see Zoom in an expected place, the variant may not be enabled on your instance.
 
 **What do I have to configure as an author or coach?**
 
 Very little. For Zoom you only select the predefined Zoom profile. For the course element this is done in the course editor in the "Zoom configuration" tab, for the course tool and the group tool in the "Configure Zoom" dialog. All further settings (creating a meeting, scheduling, recording and so on) are made directly in the embedded Zoom interface.
 
-![Selecting the Zoom profile as the only setting of the course element, with the Zoom profile selector and the Save button: Zoom configuration tab of the Zoom course element in the course editor](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" }
+![Selecting the Zoom profile as the only setting of the course element, with the Zoom profile selector and the Save button](../assets/faq_zoom_config_v1_de.png){ class="shadow lightbox" title="Tab Zoom configuration in the course editor" }
 
 **Why does the message "Zoom is not configured yet" appear?**
 
@@ -37,7 +37,7 @@ No Zoom profile is selected yet. Select the profile in the appropriate place:
 
 **Why is my Zoom profile inactive?**
 
-If the message appears that the selected Zoom profile is currently inactive, the profile has been deactivated at instance level. An inactive profile cannot start any meetings. In this case, please contact your administrator.
+If the message appears that the selected Zoom profile is currently inactive, the profile has been deactivated at instance level. An inactive profile cannot start any meetings. In this case, please contact your system administrators.
 
 
 ## :material-account-key: Roles, identity and data protection
@@ -66,7 +66,7 @@ With some browser configurations, especially when third-party cookies are blocke
 
 **Participants receive a 401 error message when joining.**
 
-If participants receive an error message with a Correlation ID (401-type) when joining, while coaches can start the meeting normally, this is usually due to differing time zones between the Zoom LTI Pro credential and the OpenOlat server. The fix is administrative. Report the problem to your administrator. Details can be found in the [OpenOlat Administration Manual](https://docs.openolat.org/en/manual_admin/administration/Zoom/){target=_blank}.
+If participants receive an error message with a Correlation ID (401-type) when joining, while coaches can start the meeting normally, this is usually due to differing time zones between the Zoom LTI Pro credential and the OpenOlat server. The fix is administrative. Report the problem to your system administrators. Details can be found in the [OpenOlat Administration Manual](../../../manual_admin/administration/Zoom.md).
 
 
 ## :material-feature-search-outline: Recordings, participants and calendar
@@ -81,4 +81,13 @@ No. The Zoom integration does not record attendance and does not provide a list 
 
 **Are Zoom meetings shown in the calendar?**
 
-Only if your administrator has enabled the calendar function. If it is active, Zoom enters meetings into the course or group calendar. Two restrictions apply here: for a meeting series only the first meeting is entered, and when a meeting is deleted in Zoom the corresponding calendar entry is not removed automatically.
+Only if your system administrators have switched on the option "Zoom can set calendar entries" in the system administration. If it is active, Zoom enters meetings into the course or group calendar. Two restrictions apply here: for a meeting series only the first meeting is entered, and when a meeting is deleted in Zoom the corresponding calendar entry is not removed automatically.
+
+
+## Further information {: #further_information}
+
+[Zoom homepage](https://zoom.us){target=_blank}<br>
+[Course Element "Zoom" >](index.md)<br>
+[Zoom (Administration manual) >](../../../manual_admin/administration/Zoom.md)
+
+[To the top of the page ^](#zoom_faq)

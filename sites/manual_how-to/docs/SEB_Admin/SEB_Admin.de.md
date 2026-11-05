@@ -1,13 +1,13 @@
-# Wie richte ich als Administrator:in den Safe Exam Browser (SEB) systemweit ein? {: #SEB_admin}
+# Wie richte ich als Systemadministrator:in den Safe Exam Browser (SEB) systemweit ein? {: #SEB_admin}
 
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    Die folgende Anleitung zeigt Ihnen, wie Sie als Administrator:in den SEB einrichten.
+    Die folgende Anleitung zeigt Ihnen, wie Sie als Systemadministrator:in den SEB einrichten.
 
 ??? abstract "Zielgruppe"
 
-    [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen [x] Administrator:innen
+    [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen [ ] Administrator:innen [x] Systemadministrator:innen
 
     [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
@@ -25,7 +25,7 @@
 
 Statt eine Online-Prüfung mit Browsern wie Edge, Firefox, Safari oder Chrome durchzuführen, kann zum Aufruf der OpenOlat-Online-Prüfung der [Safe Exam Browser](http://www.safeexambrowser.org) zur Pflicht gemacht werden. Dieser spezielle Browser ermöglicht es, dass während des Prüfungszeitraums die Möglichkeit andere Websites aufzurufen oder Funktionen wie Copy&Paste deaktiviert sind (Kioskmodus). Dadurch wird die Verwendung unerlaubter Quellen während einer Prüfung unterbunden. 
 
-In einem Kurs unter `Kurs-Administration > Prüfungsverwaltung` kann ein [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) konfiguriert werden, der Bedingungen (Zeitfenster usw.) einer Prüfung festlegt. Im Rahmen eines [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) kann auch bestimmt werden, ob der SEB verwendet werden soll. Wird diese Option aktiviert, kann direkt dort in OpenOlat eine Konfiguration des SEB vorgenommen und eine Konfigurationsdatei zum Versand an die Teilnehmer:innen erzeugt werden. 
+In einem Kurs unter `Kurs > Administration > Prüfungsverwaltung` kann ein [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) konfiguriert werden, der Bedingungen (Zeitfenster usw.) einer Prüfung festlegt. Im Rahmen eines [Prüfungsmodus](../../manual_user/learningresources/Assessment_mode.de.md) kann auch bestimmt werden, ob der SEB verwendet werden soll. Wird diese Option aktiviert, kann direkt dort in OpenOlat eine Konfiguration des SEB vorgenommen und eine Konfigurationsdatei zum Versand an die Teilnehmer:innen erzeugt werden. 
 
 !!! info "Der SEB ist ein externes Tool"
 
@@ -37,13 +37,13 @@ In einem Kurs unter `Kurs-Administration > Prüfungsverwaltung` kann ein [Prüfu
 ---
 
 
-## Wo und wie richte ich als OpenOlat Administrator:in den SEB ein? {: #SEB_setup}
+## Wo und wie richte ich als Systemadministrator:in den SEB in OpenOlat ein? {: #SEB_setup}
 
-Bevor Autor:innen und Betreuer:innen den Safe Exam Browser in einem Prüfungsmodus verwenden können, muss die Administration den SEB in OpenOlat systemweit aktivieren.
+Bevor Autor:innen und Betreuer:innen den Safe Exam Browser in einem Prüfungsmodus verwenden können, müssen Systemadministrator:innen den SEB in OpenOlat systemweit aktivieren.
 
-Diese Vorkonfiguration kann nur mit Administrationsrechten (Rolle Systemadministrator:in) vorgenommen werden. 
+Diese Vorkonfiguration liegt in der System-Administration, und die System-Administration öffnet nur die Rolle Systemadministrator:in.
 
-Auch alle Rechner, auf denen Prüfungen mit dem SEB durchgeführt werden sollen, müssen den SEB installiert haben. Hier fällt Ihnen als Administrator:in ggf. eine beratende und unterstützende Aufgabe zu.
+Auch alle Rechner, auf denen Prüfungen mit dem SEB durchgeführt werden sollen, müssen den SEB installiert haben. Hier fällt Ihnen als Systemadministrator:in ggf. eine beratende und unterstützende Aufgabe zu.
 
 [zum Seitenanfang ^](#SEB_admin)
 
@@ -53,7 +53,7 @@ Auch alle Rechner, auf denen Prüfungen mit dem SEB durchgeführt werden sollen,
 
 !!! note "Hinweis"
 
-    Es ist nicht zwingend erforderlich, dass Sie als Administrator:in selbst den Safe Exam Browser auf Ihrem Rechner installiert haben. Lediglich alle an einer Prüfung Beteiligten benötigen diesen Browser. Für Testzwecke und Beratung ist es jedoch eventuell hilfreich, wenn auch Sie als Administrator:in den SEB installiert haben. 
+    Es ist nicht zwingend erforderlich, dass Sie als Systemadministrator:in selbst den Safe Exam Browser auf Ihrem Rechner installiert haben. Lediglich alle an einer Prüfung Beteiligten benötigen diesen Browser. Für Testzwecke und Beratung ist es jedoch eventuell hilfreich, wenn auch Sie als Systemadministrator:in den SEB installiert haben.
 
 Für jedes Betriebssystem gibt es einen eigenen Safe Exam Browser (Windows, macOS, iOS).
 
@@ -70,7 +70,7 @@ Laden Sie den Browser auf der [Website des Herstellers (ETH Zürich)](http://www
 
 ### Schritt 2: Prüfungsmodus einschalten {: #activate_assessment_mode}
 
-Der Safe Exam Browser wird immer im Rahmen eines Prüfungsmodus verwendet. Deshalb ist die Aktivierung des Prüfungsmodus Voraussetzung. Sie nehmen diese vor unter:<br>
+Der Safe Exam Browser wird immer im Rahmen eines Prüfungsmodus verwendet. Deshalb ist die Aktivierung des Prüfungsmodus Voraussetzung. Sie nehmen diese in der System-Administration vor unter:<br>
 `Administration > e-Assessment > Prüfungsverwaltung > Tab "Prüfungsverwaltung Konfiguration"`
 
 ![Schalter "Prüfungsmodus einschalten" eingeschaltet im Tab Prüfungsverwaltung Konfiguration](assets/SEB_Admin_step2_v1_de.png){ class="shadow lightbox" title="Prüfungsverwaltung in der System-Administration" }
@@ -82,11 +82,11 @@ Der Safe Exam Browser wird immer im Rahmen eines Prüfungsmodus verwendet. Desha
 
 ### Schritt 3: Mindestversion des SEB festlegen {: #SEB_min_version} 
 
-Als Administrator:in können Sie systemweit die Verwendung einer bestimmte Mindestversion des Safe Exam Browsers erzwingen. Prüfungsteilnehmende mit einer älteren SEB-Version werden dann nicht zugelassen.
+Als Systemadministrator:in können Sie systemweit die Verwendung einer bestimmten Mindestversion des Safe Exam Browsers erzwingen. Prüfungsteilnehmende mit einer älteren SEB-Version werden dann nicht zugelassen.
 
 Es kann pro Betriebssystem eine eigene Mindestversion festgelegt werden.
 
-Die Einstellung nehmen Sie vor unter<br>
+Die Einstellung nehmen Sie in der System-Administration vor unter:<br>
 `Administration > e-Assessment > Prüfungsverwaltung > Tab "Safe Exam Browser Versionen"`
 
 ![Schalter "Mindest SEB Version erzwingen" eingeschaltet, mit den Mindestversionen für Windows, Mac und iOS](assets/SEB_Admin_step3_v1_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser Versionen" }
@@ -114,9 +114,9 @@ Informieren Sie sich auf der [Website des Herstellers (ETH Zürich)](http://www.
 Die Konfiguration des SEB kann gemacht werden
 
 - vollständig manuell im Kurs (durch Autor:innen)
-- mit Vorlage (bereitgestellt durch Administrator:innen)
+- mit Vorlage (bereitgestellt durch Systemadministrator:innen)
 
-Klären Sie als Administrator:in mit den Prüfungsverantwortlichen ab, ob und welche Vorlagen benötigt werden.
+Klären Sie als Systemadministrator:in mit den Prüfungsverantwortlichen ab, ob und welche Vorlagen benötigt werden.
 
 [zum Seitenanfang ^](#SEB_admin)
 
@@ -125,7 +125,7 @@ Klären Sie als Administrator:in mit den Prüfungsverantwortlichen ab, ob und we
 
 ### Schritt 6: SEB-Konfigurationsvorlage bereitstellen {: #SEB_config_file} 
 
-Sollen Konfigurationsvorlagen verwendet werden (Abklärung Schritt 5), können nun die in Schritt 4 gemachten Abklärungen in verschiedenen Konfigurationsvorlagen beschrieben und abgelegt werden. Unter
+Sollen Konfigurationsvorlagen verwendet werden (Abklärung Schritt 5), können nun die in Schritt 4 gemachten Abklärungen in verschiedenen Konfigurationsvorlagen beschrieben und abgelegt werden. In der System-Administration unter
 `Administration > e-Assessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` können Sie auf 2 Arten eine Konfigurationsvorlage bereitstellen:
 
 - durch Erstellen einer Vorlage direkt in OpenOlat
@@ -145,7 +145,7 @@ Alternativ können Sie auch eine unverschlüsselte .seb-Datei als Vorlage import
 
 #### Liste der Vorlagen
 
-Alle erstellten oder importierten Konfigurationsvorlagen werden unter dem Tab "Safe Exam Browser Konfiguration" aufgelistet und können durch Administrator:innen bearbeitet, aktiviert/deaktiviert oder als Standard gesetzt werden.
+Alle erstellten oder importierten Konfigurationsvorlagen werden unter dem Tab "Safe Exam Browser Konfiguration" aufgelistet und können durch Systemadministrator:innen bearbeitet, aktiviert/deaktiviert oder als Standard gesetzt werden.
 
 ![Vorlagenliste mit den Spalten Name, Typ, Status, Standard und #Verwendungen](assets/SEB_Admin_step6_list_v1_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser Konfiguration" }
 
@@ -184,11 +184,11 @@ Der Klick auf ein 3-Punkte-Icon zeigt die Optionen
 Für alle, die mit dem [Modul "Termine und Absenzen"](../../manual_admin/administration/Modules_Events_and_Absences.de.md) arbeiten:<br>
 Der Prüfungsmodus und die SEB-Konfiguration können auch direkt auf einem Termin konfiguriert werden.
 
-Als Administrator:in nehmen Sie die grundsätzliche Aktivierung des Moduls Termin- und Absenzenverwaltung" vor unter: `Administration > Module > Termine/Absenzen > Tab Konfiguration`.<br>
+Als Systemadministrator:in nehmen Sie die grundsätzliche Aktivierung des Moduls "Termine / Absenzen" in der System-Administration vor unter: `Administration > Module > Termine / Absenzen > Tab Konfiguration`.<br>
 In diesem Tab legen Sie im Abschnitt "Konfiguration auf Kursebene" mit der Einstellung ["Safe Exam Browser - Art der Benutzung"](../../manual_admin/administration/Modules_Events_and_Absences.de.md#seb_type_of_use) fest, woher Prüfungen aus Terminen die Einstellungen des Safe Exam Browser beziehen: "Mit manuellen Keys" oder "Aus Vorlage (empfohlen)". Ausserdem bestimmen Sie dort, ob es eine herunterladbare Konfigurationsdatei gibt.
 
 Kursbesitzer:innen aktivieren/erstellen normalerweise die SEB-Konfiguration unter<br> 
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Modus auswählen und Icon zum bearbeiten klicken > Tab "Safe Exam Browser"`<br> Siehe [Erstellung der Konfigurationsdatei >](#create_config_file)<br>
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Modus auswählen und Icon zum Bearbeiten klicken > Tab "Safe Exam Browser"`<br> Siehe [Erstellung der Konfigurationsdatei >](#create_config_file)<br>
 Über `Kurs > Administration > Termine und Absenzen > Tab Termine` entsteht ein Prüfungsmodus aus einem Termin. Dessen Dialog ist kürzer und hat keine Auswahl "SEB-Konfiguration": [Prüfungsmodus aus einem Termin](../../manual_user/learningresources/Assessment_mode.de.md#exam_from_event)
 
 - Nachdem Sie einen Termin erstellt haben, wählen Sie bei diesem unter den 3 Punkten die Option "Als Prüfung markieren".
@@ -215,15 +215,15 @@ Kursbesitzer:innen aktivieren/erstellen normalerweise die SEB-Konfiguration unte
 
 
 
-## Support-Wissen für Administrator:innen {: #SEB_support} 
+## Support-Wissen für Systemadministrator:innen {: #SEB_support}
 
-Als Administrator:in sollen Sie möglicherweise Fragen von Autor:innen beantworten. Deshalb sind nachstehend einige Prozesschritte beschrieben, die Sie als Administrator:in nicht selbst ausführen müssen, sondern die Autor:innen. Als Ansprechpartner:in und Expert:in für OpenOlat sollten Sie jedoch auch dieses Hintergrundwissen haben. Informieren Sie sich auch in der Anleitung für Autor:innen:<br>
+Als Systemadministrator:in sollen Sie möglicherweise Fragen von Autor:innen beantworten. Deshalb sind nachstehend einige Prozessschritte beschrieben, die Sie als Systemadministrator:in nicht selbst ausführen müssen, sondern die Autor:innen. Als Ansprechpartner:in und Expert:in für OpenOlat sollten Sie jedoch auch dieses Hintergrundwissen haben. Informieren Sie sich auch in der Anleitung für Autor:innen:<br>
 [Wie bereite ich eine Prüfung mit dem SEB vor?](../../manual_how-to/SEB/SEB.de.md)
 
 ### (durch Kursbesitzer:in) Prüfungsmodus erstellen {: #create_assessment_mode}
 
 Als Autor:in des OpenOlat-Prüfungskurses erstellen Sie einen Prüfungsmodus unter<br> 
-`Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Button "Prüfungsmodus hinzufügen"`
+`Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Button "Prüfungsmodus hinzufügen"`
 
 [zum Seitenanfang ^](#SEB_admin)
 
@@ -232,7 +232,7 @@ Als Autor:in des OpenOlat-Prüfungskurses erstellen Sie einen Prüfungsmodus unt
 ### (durch Kursbesitzer:in) Erstellung der Konfigurationsdatei {: #create_config_file}
 
 Autor:innen erstellen im Kurs (ggf. mit Hilfe der Konfigurationsvorlage) eine Konfigurationsdatei 
-unter `Kurs-Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Modus auswählen/bearbeiten > Tab "Safe Exam Browser"`
+unter `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus" > Modus auswählen/bearbeiten > Tab "Safe Exam Browser"`
 
 Siehe [Schritt 4: Konfiguration (für Kursbesitzer:innen) >](../../manual_how-to/SEB/SEB.de.md#SEB_configuration)
 
@@ -266,10 +266,6 @@ Die vollständige Beschreibung steht im Benutzerhandbuch: [Wenn "Als Prüfung ma
 
     Betreuer:innen können Termine weder erstellen noch bearbeiten, das können nur Besitzer:innen. Das Markieren als Prüfung ist ein eigenes Recht und steht ihnen trotzdem zur Verfügung.
 
-!!! note "Hinweis"
-
-    Betreuer:innen können zwar keine Termine anlegen oder bearbeiten (das können nur die Besitzer:innen), das Markieren als Prüfung ist aber ein eigenes Recht und steht ihnen trotzdem zur Verfügung.
-
 [zum Seitenanfang ^](#SEB_admin)
 
 ---
@@ -284,7 +280,7 @@ Wird das Herunterladen durch die Teilnehmer:innen untersagt, besteht die Downloa
 Siehe [Schritt 6: Konfiguration herunterladen (für Kursbesitzer:innen) >](../../manual_how-to/SEB/SEB.de.md#download_SEB_configfile)
 
 
-!!! note "Achtung"
+!!! warning "Achtung"
 
     Immer wenn Änderungen an der Konfiguration vorgenommen werden, wird ein neuer Konfigurationskey erzeugt. Wird dieser mit der Konfigurationsdatei an die Prüfungsteilnehmenden verteilt, ist jedes mal die Konfigurationsdatei neu zu verteilen. Es ist also nicht ratsam, wenige Minuten vor der Prüfung noch die Konfiguration zu verändern. 
 
@@ -298,13 +294,13 @@ Damit nur der richtige abgeriegelte Browser auf die Prüfung zugreifen darf, bra
 
 **Variante A, "Mit manuellen Keys":**<br>
 Es wird von Hand ein Schlüssel (Key) hinterlegt. Das ist eine Art Passwort/Prüfsumme. Nur wer diesen Schlüssel kennt, kommt in die Prüfung.<br>
-Die Eingabe eines systemweiten Vorgabewertes ist möglich unter `(System-)Administration > Module > Termine / Absenzen > Tab Konfiguration > im Feld "Safe Exam Browser Key"`. (Das Feld wird angezeigt, sobald als Art der Benutzung "manuelle Keys" gewählt wurde.)<br> 
-Kursbesitzer:innen finden diesen Schlüssel dann im Kurs unter `(Kurs-)Administration > Einstellungen > Tab Durchführung > im Feld "Safe Exam Browser Key"`. (Das Feld wird angezeigt, sobald systemweit ein manueller Key vorgegeben wurde.)<br>
+Die Eingabe eines systemweiten Vorgabewertes ist in der System-Administration möglich unter `Administration > Module > Termine / Absenzen > Tab Konfiguration > im Feld "Safe Exam Browser Key"`. (Das Feld wird angezeigt, sobald als Art der Benutzung "manuelle Keys" gewählt wurde.)<br> 
+Kursbesitzer:innen finden diesen Schlüssel dann im Kurs unter `Kurs > Administration > Einstellungen > Tab Durchführung > im Feld "Safe Exam Browser Key"`. (Das Feld wird angezeigt, sobald systemweit ein manueller Key vorgegeben wurde.)<br>
 
 
 **Variante B, "Aus Vorlage (empfohlen)":**<br>
 Eine Konfigurationsvorlage kann den Schlüssel auch mitbringen. Statt eines manuell hinterlegten Schlüssels wird ein Schlüssel benutzt, der in einer fertigen Konfigurationsvorlage enthalten ist. Das ist die von OpenOlat empfohlene, komfortablere Methode.<br>
-Ob der Key in der Vorlage enthalten sein soll, wird festgelegt unter `(System-)Administration > Module > Termine / Absenzen > Tab Konfiguration > "Safe Exam Browser - Art der Benutzung"`
+Ob der Key in der Vorlage enthalten sein soll, wird in der System-Administration festgelegt unter `Administration > Module > Termine / Absenzen > Tab Konfiguration > "Safe Exam Browser - Art der Benutzung"`
 
 [Siehe Schritt 7 ^](#SEB_module_events)
 

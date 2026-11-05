@@ -2,7 +2,7 @@
 
 There are several places where you can create groups. As a rule, the entry point is the main navigation with the menu item "Groups". If you are authorized to create groups, you will find the "Create Group" button here.
 
-![Pop-up window to create a new group, with fields for name, description and maximum number of participants](assets/create_group.png){ class="shadow lightbox" }
+![Fields for group name, description and maximum number of participants, with the options Waiting list and Moving up automatically](assets/create_group.png){ class="shadow lightbox" title="Dialog Create a new group" }
 
 ## Create a group
 
@@ -36,7 +36,7 @@ Activate the desired options as needed. If you have limited the number of partic
 
 ## Who can create a group? {: #found_a_group}
 
-If activated by OpenOlat administrators under `Administration > Modules > Groups`, any OpenOlat user, not only authors, can independently create groups, assign the groups a variety of [tools](Using_Group_Tools.md), and invite or directly add any number of other OpenOlat users to the group.
+If activated by system administrators under `Administration > Modules > Groups`, any OpenOlat user, not only authors, can independently create groups, assign the groups a variety of [tools](Using_Group_Tools.md), and invite or directly add any number of other OpenOlat users to the group.
 
 If you create a group, you automatically become the group coach. In this role, you get the "Administration" menu option for your group. There, in the "Members" tab, you can add further people (make them group members) and configure the rights of group members. For more information on adding members, see [here](../groups/Group_Membership.md).
 

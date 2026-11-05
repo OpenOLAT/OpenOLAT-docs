@@ -2,7 +2,7 @@
 
 ![Expanded Modules menu in the System Administration, each list entry corresponds to a section on this page](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
-Administrators have access to the modules in this area:
+System administrators have access to the modules in this area:
 
 
 
@@ -163,7 +163,7 @@ Here you can define if authors and users with no additional role are allowed to 
 
 In order to meet **data protection requirements**, it can be defined whether an email must be sent when inviting users to courses and groups and whether the invitation results in direct membership or must first be *confirmed* by the invited user.
 
-Administrators can also purge course and group members here.
+System administrators can also purge course and group members here.
 
 [See the details >](Modules_Groups.md)<br>
 [To the top of the page ^](#modules)
@@ -191,7 +191,7 @@ Here you can activate the "Library" menu and select the corresponding resource f
 
 ## Forum {: #forum}
 
-Administrators can define here whether pseudonymized forum posts are permitted and also specify the appropriate default configuration for forums.
+System administrators can define here whether pseudonymized forum posts are permitted and also specify the appropriate default configuration for forums.
 
 [To the top of the page ^](#modules)
 
@@ -199,7 +199,7 @@ Administrators can define here whether pseudonymized forum posts are permitted a
 
 ## Course {: #course}
 
-When authors create new courses, they will find default settings that are defined here by administrators.
+When authors create new courses, they will find default settings that system administrators define here.
 
 * In the "Settings" tab you define which course type is preset for new courses, learning path or conventional course. Settings for assessable course elements can also be made here.
 * In the "Implementation formats" tab, new implementation formats can be defined and existing ones edited or deleted.

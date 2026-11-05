@@ -23,7 +23,7 @@
 
 ### a) As a registered user {: #catalog_where_reg}
 
-OpenOlat users mostly see "Courses" and "Groups" in the main navigation if they are participants. Authors additionally see "Authoring". But the sites in the main navigation can vary. Depending on the role or activated modules, more sites can be added to the main navigation, for example, the catalog. If administrators have activated the [catalog (version 2.0)](../../manual_user/area_modules/catalog2.0.md), you will find the site "Catalog" in the main navigation. If no catalog is displayed in the main navigation, please contact the administrators of your OpenOlat instance.
+OpenOlat users mostly see "Courses" and "Groups" in the main navigation if they are participants. Authors additionally see "Authoring". But the sites in the main navigation can vary. Depending on the role or activated modules, more sites can be added to the main navigation, for example, the catalog. If system administrators have activated the [catalog (version 2.0)](../../manual_user/area_modules/catalog2.0.md) in the system administration, you will find the site "Catalog" in the main navigation. If no catalog is displayed in the main navigation, please contact the system administrators of your OpenOlat instance.
 
 ![Marked entry Catalog next to Courses and Groups, below it the catalog with search field](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" title="Catalog in the main navigation" }
 
@@ -63,11 +63,11 @@ The OpenOlat catalog lists short descriptions of courses and learning resources.
 
 The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the [settings](../../manual_user/learningresources/Course_Settings.md) (tab "Info" and tab "Metadata"). In most cases, it is the same information that participants find on the info page of a course.
 
-The **layout** of the catalog is determined by the [administrators](../../manual_admin/administration/Modules_Catalog_2.0.md). If, for example, it has been determined that an indication of the implementation format should be displayed in the catalog entries, OpenOlat retrieves this information from the authors' details under "Settings" and displays it in the designated place on the catalog tile.
+The **layout** of the catalog is determined by the [system administrators](../../manual_admin/administration/Modules_Catalog_2.0.md). If, for example, it has been determined that an indication of the implementation format should be displayed in the catalog entries, OpenOlat retrieves this information from the authors' details under "Settings" and displays it in the designated place on the catalog tile.
 
 ![Field Implementation format with the value Certification, which appears as a badge on the catalog tile of the course](assets/course_settings_v1_en.png){ class="shadow lightbox" title="Metadata tab in the course settings" }
 
-Information that is not provided for in the catalog layout can therefore not be added completely freely by the authors in catalog 2.0. On the other hand, this guarantees a uniform, orderly appearance of the catalog. Please contact the administrators if you have any wishes regarding the layout of the catalog tiles.
+Information that is not provided for in the catalog layout can therefore not be added completely freely by the authors in catalog 2.0. On the other hand, this guarantees a uniform, orderly appearance of the catalog. Please contact the system administrators if you have any wishes regarding the layout of the catalog tiles.
 
 
 [To the top of the page ^](#catalog)
@@ -138,7 +138,7 @@ You can create multiple offers. For example, you can make a course freely availa
 
 ## The catalog structure {: #catalog_structure}
 
-The design of the catalog is determined on the one hand by the offers of the owners and on the other hand by the specifications of the administrators.
+The design of the catalog is determined on the one hand by the offers of the owners and on the other hand by the specifications of the system administrators.
 
 Owners of the course:
 
@@ -149,7 +149,7 @@ Owners of the course:
 `Course > Administration > Settings > Tab "Share" > Button "Add offer"`
 4. If necessary, select the organisations for which the offer applies under "Released for" in the offer.
 
-Administrators in the system administration:
+System administrators in the system administration:
 
 1. Create the [taxonomy](../../manual_admin/administration/Modules_Taxonomy.md):<br>
 `Administration > Modules > Taxonomy`
@@ -185,12 +185,12 @@ All offers that meet the criteria for a particular launcher are displayed in tha
 
 **Example 1:**
 
-A launcher is intended (by the administrators) only for members of a specific organizational unit and is displayed only to them. If you as author create an offer that is only valid for this specific organizational unit, it will appear in this launcher.
+A launcher is intended (by the system administrators) only for members of a specific organizational unit and is displayed only to them. If you as author create an offer that is only valid for this specific organizational unit, it will appear in this launcher.
 
 
 **Example 2:**
 
-In a launcher, only offers that contain a specific taxonomy keyword are displayed (set this way by the administrators). As an author, you enter the taxonomy term in the metadata of your course. When you create an offer, you will see that this taxonomy term is assigned. Thus, the offer automatically appears in launchers that are intended for courses with this taxonomy term.
+In a launcher, only offers that contain a specific taxonomy keyword are displayed (set this way by the system administrators). As an author, you enter the taxonomy term in the metadata of your course. When you create an offer, you will see that this taxonomy term is assigned. Thus, the offer automatically appears in launchers that are intended for courses with this taxonomy term.
 
 [To the top of the page ^](#catalog)
 
@@ -199,7 +199,7 @@ In a launcher, only offers that contain a specific taxonomy keyword are displaye
 
 ## Checklist {: #checklist}
 
-- [x] Are internal and/or external catalogs generally activated system-wide by the administrators?
+- [x] Are internal and/or external catalogs generally activated system-wide by the system administrators?
 - [x] Have launchers been set up in which offers are shown?
 - [x] Has at least 1 offer been created in each course?
 - [x] Have taxonomy terms been assigned to the courses?

@@ -59,7 +59,7 @@ Only with "Bookable and open offers" can you create offers.
 
 An offer contains the conditions under which the course or learning resource can be used.
 
-An offer defines who can book the course or the learning resource under which conditions. A booking with an access code, a free booking or a booking for a fee with PayPal Checkout is possible, provided administrators have set it up. Access without a booking order or as a guest can also be set up. Booking stands for enrolling, registering or purchasing. Click "Add offer" to create an offer.
+An offer defines who can book the course or the learning resource under which conditions. A booking with an access code, a free booking or a booking for a fee with PayPal Checkout is possible, provided system administrators have set it up. Access without a booking order or as a guest can also be set up. Booking stands for enrolling, registering or purchasing. Click "Add offer" to create an offer.
 
 For offers of an implementation in the Course Planner, an offer can additionally require forms that are filled in as steps when booking. This is not possible for offers of a course or another learning resource. [Booking order forms >](Course_Planner_Implementations.md#booking_order_forms) [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
 

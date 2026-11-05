@@ -5,7 +5,7 @@ An educational product groups several courses and/or course implementations into
 
 As a coach, you may also be responsible for educational products that consist of several courses and/or several implementations. You can find an overview of all educational products for which you are a coach in the Coaching Tool via the "Educational products" button.
 
-![Marked button Educational products in the Coaching group leads to the implementations you coach, on the Coaching entry page.](assets/coaching_educational_products1_v1_en.png){ class="shadow lightbox" }
+![Marked button Educational products in the Coaching group leads to the implementations you coach, on the Coaching entry page.](assets/coaching_educational_products1_v1_en.png){ class="shadow lightbox" title="Coaching entry page" }
 
 
 ## Where does an educational product come from? {: #origin}
@@ -27,7 +27,7 @@ In the Coaching Tool you work with the result of this planning. You see the impl
 
 The button appears when both conditions are met:
 
-* Administrators have activated the [Course Planner module](../../manual_admin/administration/Modules_Course_Planner.md).
+* System administrators have activated the [Course Planner module](../../manual_admin/administration/Modules_Course_Planner.md).
 * You are a coach or an owner in at least one course.
 
 The section [When is the Coaching Tool available?](../area_modules/Coaching.md#availability) shows which conditions govern access to the Coaching Tool as a whole.
@@ -40,7 +40,7 @@ The section [When is the Coaching Tool available?](../area_modules/Coaching.md#a
 
 The list shows your implementations. The "Product" column names the educational product each implementation belongs to. In the first step, select an implementation.
 
-![Five filter tabs above the list, one implementation per row with reference, product, begin and end, in the Educational products of the Coaching Tool.](assets/coaching_educational_products2_v1_en.png){ class="shadow lightbox" }
+![Five filter tabs above the list, one implementation per row with reference, product, begin and end, in the Educational products of the Coaching Tool.](assets/coaching_educational_products2_v1_en.png){ class="shadow lightbox" title="List of educational products in Coaching" }
 
 As a coach or a course owner, you meet the same list in a second place: under `Coaching > People > "Person" > Educational products` you see the implementations of a single person. This list works with the same filter logic. The tab "Favourites" is missing there, because you can only mark an implementation in your own list.
 
@@ -68,7 +68,7 @@ With the "Filter" menu you additionally narrow the list by product, status and e
 
 Which columns the list shows, you determine with the gear icon to the right above the list. Your selection is stored for your account.
 
-![Only the columns ID and Status are not ticked, in the opened dialog Select columns in the Educational products of the Coaching Tool.](assets/coaching_educational_products_columns_v1_en.png){ class="shadow lightbox" }
+![Only the columns ID and Status are not ticked, in the opened dialog Select columns in the Educational products of the Coaching Tool.](assets/coaching_educational_products_columns_v1_en.png){ class="shadow lightbox" title="Dialog Select columns of the educational products" }
 
 * **Favourite**<br>The flag with which you mark an implementation. You reach marked implementations through the tab "Favourites".
 * **ID**<br>The number under which OpenOlat keeps the implementation. Useful for enquiries to the support. This column is hidden at the start.
@@ -89,7 +89,7 @@ In the other areas the choice of columns differs. The user management additional
 
 Clicking on a name opens the tree structure of that implementation.
 
-![Tree structure of the contained courses with the columns Info page and Open, above it the button Learn more, in an opened implementation.](assets/coaching_educational_products3_v1_en.png){ class="shadow lightbox" }
+![Tree structure of the contained courses with the columns Info page and Open, above it the button Learn more, in an opened implementation.](assets/coaching_educational_products3_v1_en.png){ class="shadow lightbox" title="Structure of an implementation in Coaching" }
 
 You can now **open** an item in the product **directly** by clicking on it and navigate further from there. The "Open" link launches the course, the "Info page" link shows the [info page of the course](../learningresources/Info_page.md).
 
@@ -107,7 +107,7 @@ Two of the tabs have almost the same name, but they answer different questions:
 * **"Preparation" in the list of implementations**<br>What is coming up for me? You see the implementations that do not run yet, and you can prepare them before participants join.
 * **"In preparation" in the structure**<br>Is this implementation ready to start? You see which parts are not yet released. What appears here, participants do not see yet.
 
-![Two filter bars one below the other, each with its menu path: above the tabs of the implementation list with Preparation, below the tabs of the structure with In preparation.](assets/coaching_educational_products_filter_levels_v1_en.png){ class="shadow lightbox" }
+![Two filter bars one below the other, each with its menu path: above the tabs of the implementation list with Preparation, below the tabs of the structure with In preparation.](assets/coaching_educational_products_filter_levels_v1_en.png){ class="shadow lightbox" title="Filter tabs of the list and of the structure" }
 
 The picture shows only the two filter bars. You find the complete views further up: the list of implementations in the section [What does the list show?](#list), the opened implementation in the section [The structure of an implementation](#structure).
 

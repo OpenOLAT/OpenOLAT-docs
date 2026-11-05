@@ -26,7 +26,7 @@ Es können grundsätzlich 3 Kategorien von Badges vergeben werden:
 
 * **Badges für einen Kurs**<br> (für das Bestehen des Kurses, bzw. das Erfüllen der dort gestellten Bedingungen)
 * **Badges für einen bestimmten Kursbaustein**<br> (wie Kursbadges, mit einer Bedingung für einen bestimmten Kursbaustein)
-* und **globale Badges**<br> (kursübergreifend, können nur von Administrator:innen erstellt werden)
+* und **globale Badges**<br> (kursübergreifend, können nur von Systemadministrator:innen erstellt werden)
 
 
 [Zum Seitenanfang ^](#badges)
@@ -40,7 +40,7 @@ Es können grundsätzlich 3 Kategorien von Badges vergeben werden:
 
 Als generelle Voraussetzung für die Verfügbarkeit von Badges muss
 
-* die Vergabemöglichkeit für die gesamte Instanz durch Administrator:innen aktiviert worden sein, in der System-Administration unter `Administration > e-Assessment > OpenBadges` (siehe [e-Assessment Administration: OpenBadges](../../manual_admin/administration/e-Assessment_openBadges.de.md))
+* die Vergabemöglichkeit für die gesamte Instanz durch Systemadministrator:innen aktiviert worden sein, in der System-Administration unter `Administration > e-Assessment > OpenBadges` (siehe [e-Assessment Administration: OpenBadges](../../manual_admin/administration/e-Assessment_openBadges.de.md))
 * und ein [passender Badge erstellt](#create) worden sein.
 
 
@@ -61,12 +61,12 @@ Unter "Manuelle Vergabe von Badges ermöglichen" bestimmen Sie, wer Badges von H
 
 ## Wie erstelle ich einen Badge? {: #create}
 
-(Badges eines Kurses erstellen Kursbesitzer:innen. Globale Badges erstellen Administrator:innen in der System-Administration.)
+(Badges eines Kurses erstellen Kursbesitzer:innen. Globale Badges erstellen Systemadministrator:innen in der System-Administration.)
 
 Für das Bild eines neuen Badges bestehen folgende Möglichkeiten:
 
 * ein eigenes Bild hochladen (SVG oder PNG, mit einem externen Grafikprogramm erstellt)
-* eine Vorlage verwenden, die Administrator:innen in der System-Administration bereitstellen
+* eine Vorlage verwenden, die Systemadministrator:innen in der System-Administration bereitstellen
 * einen vorhandenen Badge als Ausgangspunkt nehmen und dessen Details übernehmen. Zusätzlich kopiert die Aktion "Kopieren" in der Badge-Liste einen bestehenden Badge.
 
 Sobald die Badge-Vergabe in einem Kurs aktiviert wurde, zeigt die Kurs-Administration den Eintrag "Badges":<br>
@@ -255,7 +255,7 @@ Im Dialog bestätigen Sie mit einem Häkchen, dass Sie den Badge dauerhaft lösc
 
 ## Checkliste {: #checklist}
 
-- [x] Sind Badges generell von Administrator:innen instanzweit aktiviert?
+- [x] Sind Badges generell von Systemadministrator:innen instanzweit aktiviert?
 - [x] Wurde im Kurs die Badge-Vergabe aktiviert?
 - [x] Soll für einen Badge ein selbst gestaltetes Bild verwendet werden? Liegt es als SVG oder PNG bereit?
 - [x] Wurde mit dem Wizard ein Badge erstellt?

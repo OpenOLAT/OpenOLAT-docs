@@ -3,7 +3,7 @@
 !!! info "frentix customers"
     For frentix customers, their customer advisor at frentix takes care of the activation.
 
-The module "Events and Absences" can be used as soon as it is activated in the system administration. Administrators find the configuration under:<br>
+The module "Events and Absences" can be used as soon as it is activated in the system administration. System administrators find the configuration under:<br>
 `Administration > Modules > Events / Absences`
 
 After activation, additional settings for the system-wide configuration are available. If your OpenOlat is not operated by frentix, contact the party that operates your system for the activation.
@@ -237,7 +237,7 @@ Participants can notify an absence for an event themselves.
 
 Events can be ended automatically or manually. If an event is ended earlier, for example, a reason should be given. The **reason for ending an event differently** can be selected from a list.
 
-The available terms and descriptions for these reasons can be defined here by administrators.
+The available terms and descriptions for these reasons can be defined here by system administrators.
 
 If no reasons are entered here, the reason selection does not appear when the event is closed.
 

@@ -58,7 +58,7 @@
 
 | Points | Grades | Evidence of achievement | Badges, course related | Global badges | Certificates | Credit points |
 | -------| ----- | ----------------- | ------------------- | -------------- | ----------- | ------------ |
-| Automatically in assessable course elements (e.g., tests) and by coaches | Automatically or manually by coaches, based on the points earned and the rating scale of the course element | Display is activated by course owners in the settings | Automatically according to the award criteria or manually by course owners and authorized coaches | Automatically according to the award criteria or manually by administrators in the system administration | Automatically after passing the course or manually by coaches | Automatically after passing a course, manually by administrators in the user management |
+| Automatically in assessable course elements (e.g., tests) and by coaches | Automatically or manually by coaches, based on the points earned and the rating scale of the course element | Display is activated by course owners in the settings | Automatically according to the award criteria or manually by course owners and authorized coaches | Automatically according to the award criteria or manually by system administrators in the system administration | Automatically after passing the course or manually by coaches | Automatically after passing a course, manually by administrators in the user management |
 
 
 **Content**
@@ -167,7 +167,7 @@ A certification program can be used to issue a certificate for attending an impl
 ## Credit points {: #credit_points}
 
 Credit points can be regarded as a kind of currency within OpenOlat.
-Administrators define different credit point systems ("currencies") in the system administration, whereby the validity period of the credit points can also be limited.
+System administrators define different credit point systems ("currencies") in the system administration under `Administration > e-Assessment > Credit points`, whereby the validity period of the credit points can also be limited.
 
 Participants can automatically be awarded credit points after passing a course. The course owners determine how many credit points are awarded in the course settings in the "Assessment" tab.
 
@@ -190,7 +190,7 @@ There are basically three categories of badges that can be awarded:
 
 * **Badges for a course**<br> (for passing the course or fulfilling the conditions set therein)
 * **Badges for a specific course element**<br> (like course badges, with a condition for a specific course element)
-* and **global badges**<br> (cross-course, can only be created by administrators)
+* and **global badges**<br> (cross-course, can only be created by system administrators)
 
 [More about badges >](../../manual_user/learningresources/OpenBadges.md)<br>
 [To the top of the page ^](#achievements)
@@ -202,7 +202,7 @@ There are basically three categories of badges that can be awarded:
 
 A test receipt is a digitally signed confirmation of a completed test attempt. It proves later what the participant submitted at what time. Authors activate it in the test settings with the option "Generate a test receipt". After finishing the test, participants can download the test receipt; with the option "Send the test receipt per mail" they also receive it by e-mail. Coaches check a test receipt in the assessment tool with "Validate test receipt".
 
-The prerequisite is that administrators have set up the test receipt in the system administration under `Administration > e-Assessment > Test` in the "QTI" tab.
+The prerequisite is that system administrators have set up the test receipt in the system administration under `Administration > e-Assessment > Test` in the "QTI" tab.
 
 [More about the test receipt >](../../manual_user/learningresources/Test_settings.md#digital_signature)<br>
 [More about validating the test receipt >](../../manual_user/learningresources/Assessing_tests.md)<br>
@@ -231,7 +231,7 @@ Points earned in a course element or course are also displayed on the course ele
 - [x] Should grades or other assessments/graphical symbols be awarded in addition to points?
 - [x] Have the necessary rating systems been set up?
 - [x] Is the evidence of achievement activated in the course administration?
-- [x] Are badges generally enabled by administrators across the entire instance?
+- [x] Are badges generally enabled by system administrators across the entire instance?
 - [x] Has badge awarding been activated in the course?
 - [x] Should a certificate be issued?
 - [x] Has a certificate template been provided?

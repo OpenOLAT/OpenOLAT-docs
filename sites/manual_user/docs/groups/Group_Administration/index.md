@@ -44,7 +44,7 @@ Tool | | Description
 :o_icon_o_icon_news: | Information for members| If "Information for members" is switched on, you define whether only coaches or also participants create messages. Every person can edit their own messages. As a coach, you edit and delete all messages.
 :o_icon_o_co_icon:| E-mail| If "E-mail" is switched on, participants can also send messages to selected coaches, participants or to all.
 :o_icon_o_calendar_icon: | Calendar| With a calendar you enter common dates of the group. You define whether only coaches or all members create entries. General information about the calendar is on the page [User tools: Calendar](../../personal_menu/Calendar.md).
-:o_icon_o_bc_icon: | Folder| With a folder the members exchange files. Depending on the configuration by the administrators, they can also edit office documents together. Once the folder is switched on and saved, you define who can upload and create files.
+:o_icon_o_bc_icon: | Folder| With a folder the members exchange files. Depending on the configuration by the system administrators, they can also edit office documents together. Once the folder is switched on and saved, you define who can upload and create files.
 :o_icon_o_fo_icon:| Forum| With the forum all members exchange ideas at different times. As coach of the group, you edit and delete posts and write new ones.
 :o_icon_o_icon_chat: | Chat| With the chat the members write to each other in real time. There you also see which other members are currently logged in to OpenOlat.
 :o_icon_o_wiki_icon: | Wiki| With a wiki the members create content together. How to work with a wiki is described on the page [Creating Wikis](../../learningresources/Wiki.md).

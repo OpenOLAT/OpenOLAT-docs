@@ -328,9 +328,9 @@ With this right, "Course DB" is available in the "Administration" menu of the co
 
 ## Self-defined roles and relations [:octicons-tag-16:{ title="from Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305) {: #relations} 
 
-If one person supports another beyond individual courses, for example as mentor, learning guide or superior, you map this with a relation between the two accounts. Administrators create the roles for this themselves in the system administration:<br>
+If one person supports another beyond individual courses, for example as mentor, learning guide or superior, you map this with a relation between the two accounts. System administrators create the roles for this themselves in the system administration:<br>
 `Administration > Modules > Role user to user`<br>
-Each of these roles has a contra-role that names the other side of the relation. Administrators equip the roles with rights of their own. How supporters accompany their people in Coaching is described on the page [Coaching - People](../area_modules/Coaching_People.md).
+Each of these roles has a contra-role that names the other side of the relation. System administrators equip the roles with rights of their own. How supporters accompany their people in Coaching is described on the page [Coaching - People](../area_modules/Coaching_People.md).
 
 Once the roles are set up, you connect two accounts in the user management via one of these roles. How to do this is described on the page [Define relations](Assign_Roles.md#role_assignment_relations).
 

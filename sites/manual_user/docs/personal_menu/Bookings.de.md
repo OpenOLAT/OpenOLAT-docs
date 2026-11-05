@@ -16,7 +16,7 @@ Wählen Sie über das Zahnrad die Spalten aus, die Sie sehen möchten, z.B. den 
 
 Stornieren oder einen Kurs verlassen können Sie hier nicht. Eine Buchung stornieren Sie auf der Infoseite der Durchführung, die Sie über den Katalog öffnen: `Katalog > "Ihre Durchführung" > Mehr erfahren > Kasten "Los geht's" > Buchung stornieren`. Wann die Schaltfläche erscheint, beschreibt [Infoseite: Buchung stornieren](../learningresources/General_Functions_Infopage.de.md#cancel_booking). Einen Kurs verlassen Sie im Kasten "Mein Kurs" seiner Infoseite, siehe [Infoseite: Kurs verlassen](../learningresources/General_Functions_Infopage.de.md#leave_course).
 
-Ist die Angebotsart "Rechnung" eingeschaltet, erscheint zusätzlich der Tab "Rechnungsadressen". Dort sehen Sie die Rechnungsadressen, die für Ihre Buchungen hinterlegt sind. Rechnungsadressen von Organisationen pflegen [Administrator:innen](../../manual_admin/administration/Modules_Organisations.de.md).
+Ist die Angebotsart "Rechnung" eingeschaltet, erscheint zusätzlich der Tab "Rechnungsadressen". Dort sehen Sie die Rechnungsadressen, die für Ihre Buchungen hinterlegt sind. Rechnungsadressen von Organisationen pflegen [Systemadministrator:innen](../../manual_admin/administration/Modules_Organisations.de.md).
 
 Die Möglichkeit zur Buchung erscheint ferner im [Katalog](../area_modules/catalog2.0_angebote.de.md#offers_create), sofern das entsprechende Angebot dort veröffentlicht wurde. Den Ablauf der Buchung beschreibt [Katalog 2.0 - Angebote](../area_modules/catalog2.0_angebote.de.md#offer_booking).
 

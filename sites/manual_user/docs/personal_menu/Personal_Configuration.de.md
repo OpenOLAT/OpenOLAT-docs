@@ -33,6 +33,6 @@ Hier können Sie Ihr Passwort ändern.
 
 ## COVID-Zertifikat {: #covid_certificate}
 
-Während der COVID-Pandemie hat frentix Funktionen zum Hochladen und Verwalten von COVID-Zertifikaten in OpenOlat integriert. Falls Administrator:innen diese Funktionen aktiviert haben, finden Sie sie ebenfalls im Abschnitt "Konfiguration".
+Während der COVID-Pandemie hat frentix Funktionen zum Hochladen und Verwalten von COVID-Zertifikaten in OpenOlat integriert. Falls Systemadministrator:innen diese Funktionen aktiviert haben, finden Sie sie ebenfalls im Abschnitt "Konfiguration".
 
 [Zu den Details >](COVID_certificate.de.md)

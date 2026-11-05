@@ -20,7 +20,7 @@ Der Bereich enthält folgende Tabs:
 
 ## Tab Überblick [:octicons-tag-16:{ title="ab Release 14.2 (OO-4375)" }](https://track.frentix.com/issue/OO-4375) {: #files_and_folders_overview}
 
-Im Tab Überblick erhalten Administrator:innen einen schnellen Gesamtüberblick über die Anzahl und die Grösse von OpenOlat Dateien, Versionen, gelöschten Dateien und Miniaturansichten.
+Im Tab Überblick erhalten Systemadministrator:innen einen schnellen Gesamtüberblick über die Anzahl und die Grösse von OpenOlat Dateien, Versionen, gelöschten Dateien und Miniaturansichten.
 
 Aus dem Überblick führen Links direkt in die zugehörigen Ansichten: "Zeige grosse Dateien", "Zeige gelöschte Dateien" und "Zeige Versionseinstellungen". Mit "Miniaturansichten zurücksetzen" wird der Status nicht erzeugter Miniaturansichten zurückgesetzt. Der Button "Neu berechnen" ermittelt die Kennzahlen neu.
 
@@ -61,7 +61,7 @@ Den aktuellen Inhalt des Papierkorbs sehen Sie im separaten Tab "Papierkorb".
 
 Damit der Platz der Instanz planbar bleibt, legen Sie im Tab "Quotas" fest, wie viel Speicher die Ordner und das Media Center höchstens belegen dürfen. Je Pfad gelten zwei Werte: "Quota (KB)" begrenzt den ganzen Ordner, "Upload Limite (KB)" eine einzelne hochgeladene Datei.
 
-Den Button "Quota hinzufügen" und die Aktionen zum Bearbeiten und Löschen einer Quota sehen Administrator:innen und Systemadministrator:innen. Die Standardwerte, deren Pfad mit "::DEFAULT::" beginnt, ändern nur Systemadministrator:innen.
+Den Button "Quota hinzufügen" und die Aktionen zum Bearbeiten und Löschen einer Quota sehen Systemadministrator:innen. Sie ändern hier auch die Standardwerte, deren Pfad mit "::DEFAULT::" beginnt.
 
 Folgende Standardwerte gelten systemweit:
 
@@ -108,7 +108,7 @@ Die Quotas für die persönlichen Dateien und das Media Center einer Person lege
 
 ## Tab Grosse Dateien {: #files_and_folders_large_files}
 
-Im Tab "Grosse Dateien" können Administrator:innen gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen.
+Im Tab "Grosse Dateien" können Systemadministrator:innen gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen.
 
 Mit dem **Button "Metadaten aufräumen"** gleicht OpenOlat die Dateien im Dateisystem mit den Metadaten in der OpenOlat-Datenbank ab. Bei Unterschieden aktualisiert OpenOlat die Metadaten in der Datenbank.<br>
 In diesem Zusammenhang werden auch die Miniaturansichten aktualisiert:
@@ -138,7 +138,7 @@ Die Trefferliste zeigt Name, Grösse und Kontext jeder Datei. In der letzten Spa
 
 ## Tab Papierkorb [:octicons-tag-16:{ title="ab Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #files_and_folders_trash}
 
-Alle gelöschten Dateien der Instanz gelangen zunächst in den Papierkorb. Dort werden sie nach einer bestimmten Zeit automatisch gelöscht oder können von Administrator:innen gezielt ausgewählt und sofort endgültig gelöscht werden.
+Alle gelöschten Dateien der Instanz gelangen zunächst in den Papierkorb. Dort werden sie nach einer bestimmten Zeit automatisch gelöscht oder können von Systemadministrator:innen gezielt ausgewählt und sofort endgültig gelöscht werden.
 
 Das Wiederherstellen von Dateien im Papierkorb ist den Personen überlassen, die die Datei in den Papierkorb verschoben ("gelöscht") haben. Diese Personen können eine Datei selbst aus dem Papierkorb zurückholen.
 

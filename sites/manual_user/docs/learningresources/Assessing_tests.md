@@ -118,7 +118,7 @@ Click the title of the question you want to correct. The answer of the first per
 
 Comments are always visible to correctors. Participants see them only if the test results are visible to them and the question summary is shown, see section Report on the page [Set up a test](Course_Element_Test/Test_Setup.md#section_report). This applies to every comment on a question, including the comment from "Adjust score" and from the actions for all participants.
 
-Several correctors can assess a test at the same time. If someone is currently working on a person's answer to a question, OpenOlat locks this answer for everyone else. In the system administration, administrators define under `Administration > e-Assessment > Test` in the section "Configuration of correction" whether the participants are listed anonymously in the correction tool. The "Participant identifier" then appears instead of the name.
+Several correctors can assess a test at the same time. If someone is currently working on a person's answer to a question, OpenOlat locks this answer for everyone else. In the system administration, system administrators define under `Administration > e-Assessment > Test` in the section "Configuration of correction" whether the participants are listed anonymously in the correction tool. The "Participant identifier" then appears instead of the name.
 
 Finally, save the entries with "Save", "Save and next" or "Save and back to overview". You can switch to the next person or go back to the question overview of the correction tool and select the next question.
 

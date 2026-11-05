@@ -3,10 +3,10 @@
 
 ## Activation {: #activation}
 
-The module "To-do" as a personal tool must be activated by an administrator.
+System administrators switch on the module "To-do" as a personal tool.
 
 
-![Enable the To-do module in the module list and configure the personal to-do settings; Administration > Modules > To-do](assets/todo_v1_de.png){ class="shadow lightbox" }
+![Enable the To-do module in the module list and configure the personal to-do settings; Administration > Modules > To-do](assets/todo_v1_de.png){ class="shadow lightbox" title="To-do page in the Modules menu" }
 
 ### User tool {: #personal_tool}
 

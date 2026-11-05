@@ -1,6 +1,6 @@
 # Selbstregistration {: #self-registration}
 
-Mit der Selbstregistrierung legen Personen ihr Konto auf der Login-Seite selbst an, ohne dass die Benutzerverwaltung es erstellt. Ob und wie das möglich ist, legen Administrator:innen in der System-Administration fest, unter:<br>
+Mit der Selbstregistrierung legen Personen ihr Konto auf der Login-Seite selbst an, ohne dass die Benutzerverwaltung es erstellt. Ob und wie das möglich ist, legen Systemadministrator:innen in der System-Administration fest, unter:<br>
 `Administration > Login > Selbstregistration`
 
 Ist "Sicherheitsstufen / Passkey verwenden" eingeschaltet und gilt für die Rolle Benutzer:in die Mindeststufe "Stufe 2 - Passkey", erstellen Personen bei der Selbstregistrierung einen Passkey statt eines Passworts. Ihr Konto hat dann kein Passwort. Was Sie vor dem Ausschalten von Passkey beachten, steht unter [Passwort und Authentifizierung](Login_Password_and_Authentication.de.md#use_security_levels_passkey).

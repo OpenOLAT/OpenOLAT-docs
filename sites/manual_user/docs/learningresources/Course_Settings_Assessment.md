@@ -179,7 +179,7 @@ If you deactivate this function, your participants will no longer see any eviden
 
 ![Enabled switch Issue credit points with credit point system, awarded credit points and overridden validity period](assets/course_settings_assessment_credit_points_v2_en.png){ class="shadow lightbox" title="Credit points section · 2026.10.08" }
 
-If "Issue credit points" is switched on, participants are automatically credited with credit points after passing the course. Various credit point systems (defined by administrators) can be selected for this purpose.
+If "Issue credit points" is switched on, participants are automatically credited with credit points after passing the course. For this purpose, you select a credit point system. System administrators create the credit point systems in the system administration, under `Administration > e-Assessment > Credit points`.
 
 As the course owner, you determine how many credit points are awarded when this course is passed.<br>
 If the selected credit point system has a validity period, the course adopts it with the option "Adopt from credit point system". With "Override" you set a validity period of your own for this course.
@@ -222,7 +222,7 @@ Course owners can always award badges manually, and coaches can also be authoriz
 Further information about badges can be found here:<br> 
 [Infos for course owners (Creation and editing of badges) >](../learningresources/OpenBadges.md)<br>
 [Infos for users (Badges in "User tools") >](../personal_menu/OpenBadges.md)<br>
-[Infos for OpenOlat administrators >](../../manual_admin/administration/e-Assessment_openBadges.md)
+[Infos for system administrators >](../../manual_admin/administration/e-Assessment_openBadges.md)
 
 [To the top of the page ^](#tab_assessment)
 

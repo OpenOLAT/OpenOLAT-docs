@@ -2,7 +2,7 @@
 
 ## Tab Settings [:octicons-tag-16:{ title="from Release 17.0 (OO-6145)" }](https://track.frentix.com/issue/OO-6145) {: #tab_settings}
 
-Administrators define here whether users see a catalog and which one. The setting is located in the system administration under:<br>
+System administrators define here whether users see a catalog and which one. The setting is located in the system administration under:<br>
 `Administration > Modules > Catalog > Tab "Settings"`
 
 Under Module "Catalog" three options are available: "No catalog", "Catalog V1" and "Catalog V2". Depending on the choice, different additional tabs appear.

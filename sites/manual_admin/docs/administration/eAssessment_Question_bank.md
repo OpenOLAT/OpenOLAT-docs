@@ -1,6 +1,6 @@
 # e-Assessment Administration: Question bank {: #question_bank}
 
-With the question bank settings, administrators decide which functions authors use in the question bank: lists, pools, groups, subjects, levels and, if required, a review process for questions. The settings apply to the whole platform and are located in the system administration under:<br>
+With the question bank settings, system administrators decide which functions authors use in the question bank: lists, pools, groups, subjects, levels and, if required, a review process for questions. The settings apply to the whole platform and are located in the system administration under:<br>
 `Administration > e-Assessment > Question bank`
 
 Question bank managers also edit some of the settings in the [administration of the question bank managers](../../manual_user/area_modules/Question_Bank_Administration.md).
