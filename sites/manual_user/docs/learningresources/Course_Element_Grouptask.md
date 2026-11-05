@@ -23,7 +23,7 @@ In the tab "Workflow" you define who works on the group task: with "Select group
 
     For the group task, the option "Assignment coaches/participants" is missing in the area "Coaching" of the tab "Workflow". Coaches of a group automatically coach its group task, course owners see all groups of the group task.
 
-When changes are made to the workflow, e.g., removing the task, this component of the workflow is removed for all groups in the course. The information about tasks that have already been selected will then no longer be visible. However, if the component is reinserted into the workflow, this information will be accessible again. However, if, for example, the task is added later and a group has already progressed further in its workflow, no task needs to be selected retrospectively.
+If you remove a component of the workflow, for example the task assignment, it is missing for all groups of the course. Tasks already selected are then no longer visible. If you add the component again, they are accessible again. If you add the task assignment only later, a group that is already further along in the workflow does not have to select a task any more.
 
 Subsequent changes to the workflow affect all groups, even if they have already started the workflow.
 
@@ -41,6 +41,8 @@ Points and feedback apply to the whole group and can be adjusted for individual 
 
 When the editor is closed, the course element shows the assigned _groups_ under "Participants", which you select and assess. When assessing, you use the option "For the whole group" to define whether the assessment applies to all group members or only to a single member.
 
+The list shows the columns "Step" and "Submission date" per group. After row selection, "Extend", "Export results" and "E-Mail" are available depending on the configuration. What the columns show and how you check assignment and submission is described on the page [Supervise a task](Course_Element_Task/Task_Coaching.md#coach_overview). The tab "Workflow" with the editor closed only exists for the course element "Task".
+
 ### Column "Group" in the result export [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9601)" }](https://track.frentix.com/issue/OO-9601) {: #results_export}
 
 For the group task, the Excel report from "Export results" carries an additional column "Group" with the name of the group that submitted the solution. This keeps it traceable in the report which submission belongs to which group. The remaining columns are described under [Excel report of the results](Assessing_tasks_and_group_tasks.md#results_export).
@@ -57,6 +59,7 @@ All decisions and submissions in the workflow apply to the whole group. Therefor
 **Mentioned on this page**<br>
 [Course Element "Task" >](Course_Element_Task/index.md)<br>
 [Course elements at a glance >](Course_Elements.md)<br>
+[Supervise a task >](Course_Element_Task/Task_Coaching.md)<br>
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)
 
 **Further reading**<br>

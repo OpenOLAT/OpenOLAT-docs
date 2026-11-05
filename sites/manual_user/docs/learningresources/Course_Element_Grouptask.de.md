@@ -1,4 +1,4 @@
-# Kursbaustein "Gruppenaufgabe"  {: #course_element_group_tasks}
+# Kursbaustein "Gruppenaufgabe" {: #course_element_group_tasks}
 
 
 ## Steckbrief
@@ -23,7 +23,7 @@ Im Tab "Workflow" legen Sie fest, wer die Gruppenaufgabe bearbeitet: Mit "Gruppe
 
     Bei der Gruppenaufgabe fehlt im Tab "Workflow" im Bereich "Betreuung" die Option "Zuweisung Betreuende/Teilnehmende". Betreuer:innen einer Gruppe betreuen automatisch deren Gruppenaufgabe, Kursbesitzer:innen sehen alle Gruppen der Gruppenaufgabe.
 
-Bei Änderungen am Workflow, z.B. dem Entfernen der Aufgabenstellung, wird allen Gruppen des Kurses dieser Bestandteil des Workflows entfernt. Die Information über bereits gewählte Aufgaben ist dann nicht mehr sichtbar. Wird der Bestandteil des Workflows wieder eingefügt, ist diese Information aber wieder zugänglich. Wird jedoch z.B. die Aufgabenstellung nachträglich hinzugefügt und eine Gruppe ist in ihrem Workflow bereits weiter fortgeschritten, so muss nachträglich keine Aufgabe mehr ausgewählt werden.
+Entfernen Sie einen Bestandteil des Workflows, zum Beispiel die Aufgabenstellung, fehlt er bei allen Gruppen des Kurses. Bereits gewählte Aufgaben sind dann nicht mehr sichtbar. Fügen Sie den Bestandteil wieder ein, sind sie wieder zugänglich. Fügen Sie die Aufgabenstellung erst nachträglich hinzu, muss eine Gruppe, die im Workflow schon weiter ist, keine Aufgabe mehr wählen.
 
 Nachträgliche Änderungen am Workflow wirken sich auf alle Gruppen aus, auch wenn diese den Workflow bereits begonnen haben.
 
@@ -41,6 +41,8 @@ Punkte und Feedback gelten für die ganze Gruppe und lassen sich für einzelne G
 
 Bei geschlossenem Editor zeigt der Kursbaustein unter "Teilnehmer:innen" die zugeordneten _Gruppen_, die Sie auswählen und bewerten. Beim Bewerten legen Sie mit der Option "Für die ganze Gruppe" fest, ob die Bewertung für alle Gruppenmitglieder gilt oder nur für ein einzelnes Mitglied.
 
+Die Liste zeigt je Gruppe die Spalten "Schritt" und "Abgabedatum". Nach Zeilenauswahl stehen je nach Konfiguration "Verlängern", "Resultate exportieren" und "E-Mail" bereit. Was die Spalten zeigen und wie Sie Zuweisung und Abgabe kontrollieren, beschreibt die Seite [Aufgabe betreuen](Course_Element_Task/Task_Coaching.de.md#coach_overview). Den Tab "Workflow" bei geschlossenem Editor gibt es nur beim Kursbaustein "Aufgabe".
+
 ### Spalte "Gruppe" im Resultat-Export [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9601)" }](https://track.frentix.com/issue/OO-9601) {: #results_export}
 
 Der Excel-Report aus "Resultate exportieren" führt bei der Gruppenaufgabe zusätzlich die Spalte "Gruppe" mit dem Namen der Gruppe, welche die Lösung abgegeben hat. Damit bleibt im Report nachvollziehbar, welche Abgabe zu welcher Gruppe gehört. Die übrigen Spalten sind unter [Excel-Report der Resultate](Assessing_tasks_and_group_tasks.de.md#results_export) beschrieben.
@@ -57,6 +59,7 @@ Alle Entscheidungen und Abgaben im Workflow gelten für die ganze Gruppe. Stimme
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Aufgabe betreuen >](Course_Element_Task/Task_Coaching.de.md)<br>
 [Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)
 
 **Weiterführend**<br>
@@ -64,4 +67,3 @@ Alle Entscheidungen und Abgaben im Workflow gelten für die ganze Gruppe. Stimme
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)
 
 [Zum Seitenanfang ^](#course_element_group_tasks)
-
