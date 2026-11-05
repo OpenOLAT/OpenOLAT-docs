@@ -2,7 +2,7 @@
 
 ## Welche Nutzungsbedingungen müssen akzeptiert werden?
 
-Wenn Sie OpenOlat oder bestimmte Elemente darin zum ersten Mal nutzen, kann eine Zustimmung zu den Nutzungsbedingungen erforderlich sein. Wird dies von der betreibenden Institution oder von Besitzer:innen eines Kurses oder sonstigen Elements verlangt, können verschiedene Nutzungsbedingungen zur Bestätigung eingeblendet werden.
+Wenn Sie OpenOlat oder bestimmte Elemente darin zum ersten Mal nutzen, kann eine Zustimmung zu den Nutzungsbedingungen erforderlich sein. Wird dies von der betreibenden Organisation oder von Besitzer:innen eines Kurses oder sonstigen Elements verlangt, können verschiedene Nutzungsbedingungen zur Bestätigung eingeblendet werden.
 
 [Nutzungsbedingungen der OpenOlat-Plattform >](#terms_of_use_platform)
 
@@ -42,7 +42,7 @@ Alle Benutzer:innen können die Nutzungsbedingungen, denen sie einmal zugestimmt
 [Zum Seitenanfang ^](#terms_of_use)
 
 
-## Nutzungsbedingungen in den Kurseinstellungen {: #terms_of_use_course}
+## Nutzungsbedingungen in den Kurseinstellungen [:octicons-tag-16:{ title="ab Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use_course}
 
 ### Bestätigung durch Lernende im Kurs
 
@@ -66,7 +66,7 @@ Zusätzlich kann im Feld "Beschriftung Checkbox 2" eine zweite Checkbox mit eine
 
 ### Bestätigungsaufforderung für einen Kurs aktivieren
 
-Damit die Nutzungsbedingungen angezeigt werden, müssen sie durch die Kursbesitzer:in eingeschaltet werden. Wurde ein Text für die Nutzungsbedingungen erfasst, bleibt er nach dem Speichern erhalten, unabhängig davon, ob die Anzeige aktiviert ist. Sie können eingefügte Nutzungsbedingungen also z.B. bearbeiten und dann so lange deaktivieren, bis die finale Version erstellt ist.
+Damit die Nutzungsbedingungen angezeigt werden, müssen die Kursbesitzer:innen sie einschalten. Wurde ein Text für die Nutzungsbedingungen erfasst, bleibt er nach dem Speichern erhalten, unabhängig davon, ob die Anzeige aktiviert ist. Sie können eingefügte Nutzungsbedingungen also z.B. bearbeiten und dann so lange deaktivieren, bis die finale Version erstellt ist.
 
 ![Checkbox Eingeschaltet neben Nutzungsbedingungen angehakt, im Tab Nutzungsbedingungen der Kurseinstellungen](assets/terms_of_use_course_activate_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Kurseinstellungen" }
 
@@ -123,7 +123,7 @@ draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat a
 ## Weiterführende Informationen {: #further_information}
 
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Lernpfad Kurse erstellen >](../learningresources/Creating_learning_path_courses.de.md)<br>
+[Lernpfadkurse erstellen >](../learningresources/Creating_learning_path_courses.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
 [Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)<br>

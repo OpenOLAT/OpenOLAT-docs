@@ -1,6 +1,6 @@
 # Roles and Rights: Which roles are available? {: #roles} 
 
-A person's roles determine which areas and functions they use in OpenOlat. Each role applies in a particular area:
+A person's roles determine which areas and functions they use in OpenOlat. If you know what each role allows, you give every person exactly the rights they need for their work. Each role applies in a particular area:
 
 ![Four areas in which roles apply: organisation, course with group, Course Planner and relations, each with the place where the role is assigned](assets/roles_areas_overview_v1_en.svg){ class="shadow lightbox" title="Roles by area" }
 
@@ -8,7 +8,7 @@ The Course Planner also has the roles Product owner (assigned at the product), E
 
 ## Organisation roles {: #org} 
 
-Organisation roles give a person rights that apply throughout their organisation, for example to create courses or to manage accounts. They are assigned in the user management:<br>
+Organisation roles give a person rights that apply throughout their organisation, for example to create courses or to manage accounts. You assign them in the user management:<br>
 `User management > "Name of the person" > Roles`<br>
 There you tick the roles in the field "Roles for "Name of the organisation"".
 
@@ -16,19 +16,19 @@ Which areas of the main navigation a role opens is shown on the page [Roles and 
 
 ![The field Roles for an organisation with the selection list of the roles you tick there, from Author to System administrator](assets/roles_rights_system_roles_v3_en.png){ class="shadow lightbox" title="Roles tab in the user management · 2026.10.21" }
 
-* **Author**: Authors create courses and other learning resources such as tests, videos and portfolio templates. For this they open Authoring in the main navigation. There they find all courses and learning resources they have access to. The role is often given to teachers or e-learning managers.
-* **Learning resource manager**: Learning resource managers manage the courses and learning resources of their organisation, even without being entered there as owner. They automatically have owner rights (full access) for all courses and learning resources belonging to their own organisation (see [Administrative access](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" the access is read-only. In Authoring they find these courses and learning resources and can copy and export them.
-* **Line manager**: Line managers can, for example, be informed automatically when a person of their organisation receives a certificate.
+* **Author**: Authors create courses and other learning resources such as tests, videos and portfolio templates. For this they open Authoring in the main navigation. There they find all courses and learning resources they have access to. Teachers or e-learning managers often receive this role.
+* **Learning resource manager**: Learning resource managers manage the courses and learning resources of their organisation, even without being entered there as owner. They automatically have owner rights (full access) for all courses and learning resources belonging to their own organisation (see [Administrative access](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" they only have read access. In Authoring they find these courses and learning resources and can copy and export them.
+* **Line manager**: OpenOlat can, for example, notify line managers automatically when a person of their organisation receives a certificate.
 * **Education manager**: Education managers have rights for their organisation and all organisations below it. They have rights in Coaching, even if they are not entered there as coach, and take on administrative tasks, for example checking booking orders or blocking accounts.
 * **Principal**: Principals see many areas of the system, but read-only. They cannot change anything and cannot edit objects.
-* **Absence manager**: Absence managers manage the absences of their organisation. For this, the menu item "Absence management" is available to them in the main navigation.
+* **Absence manager**: Absence managers manage the absences of their organisation. For this they open the menu item "Absence management" in the main navigation.
 * **Course planner**: Course planners work in the [Course Planner](../area_modules/Course_Planner.md). If course planners are assigned to an organisation, they only have access to that organisation's Course Planner.
 * **Project manager**: Project managers manage all projects. In the "Projects" menu item they also open the "Administration" tab and reach all projects there, including member management and configuration.
 * **Quality manager**: Quality managers steer quality management. In the "Quality management" menu item they manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
 * **Selectus manager**: Selectus managers manage the appointment procedures of their organisation. In the "Selectus" menu item they create, edit, copy and archive positions and put together the committees. The role only takes effect if the "Selectus" module is switched on.
-* **User manager**: User managers manage the accounts of their organisation in the [User management](../../manual_admin/usermanagement/index.md), which is available to them as a menu item in the main navigation. They create accounts, edit them and set them to inactive. They assign the roles User and Author.
+* **User manager**: User managers manage the accounts of their organisation in the [User management](../../manual_admin/usermanagement/index.md), which they open as a menu item in the main navigation. They create accounts, edit them and set them to inactive. They assign the roles User and Author.
 * **Roles manager**: Roles managers manage the roles of the people in their organisation. They open the user management via a menu item of its own in the main navigation and see all accounts of their own organisations there. Except for the roles Principal, Administrator and System administrator, they assign, change and remove all roles.
-* **Administrator**: Administrators manage modules and functions and have access to all areas of the system such as user management, catalog management and Course Planner, except the system administration. This role can be limited to an organisation. Administrators can delete users and also grant other people the right to manage the catalog.
+* **Administrator**: Administrators manage modules and functions and have access to all areas of the system such as user management, catalog management and Course Planner, except the system administration. The role can be limited to an organisation. Administrators can delete users and also grant other people the right to manage the catalog.
 * **Group manager**: Group managers manage all groups. In the "Groups" menu item they also open the tab [Group Management](../area_modules/Group_Management.md). The role is a system role and applies to the entire system.
 * **Question bank manager**: Question bank managers manage the [Question Bank](../area_modules/Question_Bank/index.md). In the question bank they open the "Administration" section. The role is a system role and applies to the entire system.
 * **System administrator**: System administrators configure and monitor the system technically. For this they have access to the system administration. The role is a system role and is not tied to any organisation.
@@ -260,7 +260,7 @@ With this right, members manage the groups of the course under `Course > Adminis
 
 #### Members management {: #members_management}
 
-With this right, the members management is available in the "Administration" menu of the course, with the same options as for course owners, except the sections "Rights" and "Course Planner". When adding new members, the members with this right see all registered users.
+With this right, members open the members management in the "Administration" menu of the course, with the same options as course owners, except the sections "Rights" and "Course Planner". When adding new members, the members with this right see all registered users.
 
 The right "Members management" includes group management, even if the right "Group management" is not set.
 
@@ -273,7 +273,7 @@ The right "Members management" includes group management, even if the right "Gro
 
 #### Course editor {: #course_editor}
 
-With this right, the course editor is available in the "Administration" menu of the course. Course members such as coaches use it to edit the course and to configure or add course elements. They cannot create new courses or learning resources with it. In the same menu they also open "Settings", "Files", "Learning areas", "Assessment management", "Reminders" and "Events and Absences", the last three only if the respective function is switched on.
+With this right, members open the course editor in the "Administration" menu of the course. Course members such as coaches use it to edit the course and to configure or add course elements. They cannot create new courses or learning resources with it. In the same menu they also open "Settings", "Files", "Learning areas", "Assessment management", "Reminders" and "Events and Absences", the last three only if the respective function is switched on.
 
 A course that a person edits via this right without being its owner does not appear in their Authoring, even if they otherwise have author rights. Instead, they open the course in the main navigation under "Courses" and find the course editor in the "Administration" menu. In this case, too, coaches and participants only see the course once the owners have published it.
 
@@ -282,14 +282,14 @@ A course that a person edits via this right without being its owner does not app
 
 #### Archive tool {: #archive_tool}
 
-With this right, "Archiving & Reporting" is available in the "Administration" menu of the course, with the same options as for course owners.
+With this right, members open "Archiving & Reporting" in the "Administration" menu of the course, with the same options as course owners.
 
 [More about Archiving & Reports >](../learningresources/Course_Archiving.md)
 
 
 #### Assessment tool {: #assessment_tool}
 
-The assessment tool is part of the basic equipment of all coaches. With this right, it is also available to other members in the "Administration" menu of the course. Whoever has the right sees all participants of the course there and can reset and delete data, also as coach. The person with this right also starts and finishes an exam with manual start in the assessment tool.
+The assessment tool is part of the basic equipment of all coaches. With this right, other members also open it in the "Administration" menu of the course. Whoever has the right sees all participants of the course there and can reset and delete data, also as coach. The person with this right also starts and finishes an exam with manual start in the assessment tool.
 
 [More about the assessment tool >](../learningresources/Assessment_tool_overview.md)
 
@@ -305,21 +305,21 @@ If no glossary has been created yet, the glossary icon is not visible, and the r
 
 #### Statistics {: #statistics}
 
-With this right, "Course statistics" is available in the "Administration" menu of the course, with the same options as for course owners.
+With this right, members open "Course statistics" in the "Administration" menu of the course, with the same options as course owners.
 
 [More about course statistics >](../learningresources/Statistics_Course.md)
 
 
 #### Assessment mode {: #assessment_mode}
 
-With this right, "Assessment management" is available in the "Administration" menu of the course, with the same options as for course owners. The members create, edit and delete assessment modes there and start and finish an exam with manual start.
+With this right, members open "Assessment management" in the "Administration" menu of the course, with the same options as course owners. The members create, edit and delete assessment modes there and start and finish an exam with manual start.
 
 [More about assessment management >](../learningresources/Assessment_Management.md)
 
 
 #### Course database {: #course_database}
 
-With this right, "Course DB" is available in the "Administration" menu of the course if course databases are switched on for the instance, with the same options as for course owners. The members create course databases, reset, delete and export them.
+With this right, members open "Course DB" in the "Administration" menu of the course if course databases are switched on for the instance, with the same options as course owners. The members create course databases, reset, delete and export them.
 
 [To the top of the page ^](#roles)
 

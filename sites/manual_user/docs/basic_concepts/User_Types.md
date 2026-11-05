@@ -4,7 +4,7 @@
 
 OpenOlat works with a roles and rights management system. At the top level, a distinction is made between 3 basic user types. These are:
 
-![Guest and external user access OpenOlat from outside, the registered users are inside the system itself](assets/roles_rights_user_types_v1_de.png){ class="shadow lightbox" }
+![Guest and external user access OpenOlat from outside, the registered users are inside the system itself](assets/roles_rights_user_types_v1_de.png){ class="shadow lightbox" title="Three user types in OpenOlat" }
 
 
 ### Registered Users (Standard) {: #registered_users} 
@@ -49,7 +49,7 @@ Guests have limited access to OpenOlat without registering. They can view learni
 | Identification | anonymous | email address known | Data per profile (with various mandatory fields) |
 | Time limit | no (access possible while course is open) | Default: max. 180 days | unlimited or time-limited (with account expiration date)|
 | in conventional courses | yes | yes | yes |
-| in learning path courses | yes | yes | yes |
+| in learning path courses | no | yes | yes |
 | Activation by administrator required | yes | yes | no |
 | specific offers | yes, offer "Guest access"  | no | no (standard) |
 | Bulk invitation| no  | yes (email list) | yes |
@@ -59,9 +59,9 @@ Guests have limited access to OpenOlat without registering. They can view learni
 | Group membership | not possible, as user is unknown | yes (possibly restricted by administrator in general) | yes |
 
 
-!!! info "Note"
+!!! info "Important"
 
-    It goes without saying that almost all roles can only be assigned to registered users. Anonymous guests and external users (known only by email address) cannot take on tasks (such as coach or administrator) within OpenOlat.
+    Almost all roles can only be assigned to registered users. Anonymous guests and external users (known only by email address) cannot take on tasks (such as coach or administrator) within OpenOlat.
 
 [To the top of the page ^](#user_types)
 

@@ -57,7 +57,7 @@ Typical uses of the survey include
 !!! note "Alternatives to the ‘Survey’ course element"
 
     The following explains how to use the “Survey” course block for these purposes. Depending on your needs, you can also use other course blocks in a similar way. For example
-    
+
     * Course element "Form": Feedback is assigned by name here.
     * Course element "Checklist": When participants are asked to check predefined answers.
     * Course element “Participant Folder”: Feedback forms and other files can be stored here. Participants cannot see each other’s feedback.
@@ -76,16 +76,16 @@ We assume that you have already created a course. There you can insert another c
 
     Even when using the course element "Survey" (anonymized survey), OpenOlat ensures that participants can only fill out the survey once.
 
-In the course administration, open the **course editor** and insert the course element **"Survey"**. Place it at the end of the course structure so that it appears as a final survey.
+Open the course editor under `Course > Administration > Course editor` and insert the course element "Survey". Place it at the end of the course structure so that it appears as a final survey.
 
 After inserting it, the following tabs are available in the course editor for setting up/configuring:
 
 * **Title and description**: general information about the course element
 * **Layout**: visual presentation
-* **Learning path** (for learning path courses) or **Visibility** and **Access** (for classic courses)
+* **Learning path, Visibility and Access**: in learning path courses the tab "Learning path", in conventional courses the tabs "Visibility" and "Access"
 * **Survey**: the central configuration, in which you also integrate the learning resource (see Step 2)
 
-Make the desired settings.
+Define the desired settings in these tabs.
 
 [To the top of the page ^](#survey)
 
@@ -152,23 +152,23 @@ All these questions have to do with access rights, which you control
 
 a) via the **tab "Survey"**<br>
 b) via the **tab "Learning path"** (in learning path courses)<br>
-c) via the **tabs "Visibility"** and **"Access"** (in classic courses)
+c) via the **tabs "Visibility"** and **"Access"** (in conventional courses)
 
 
 ### Step 4 a): Define permissions in the tab "Survey" {: #step4a}
 
-In the **"User rights"** area of the "Survey" tab, you define **who may fill out the survey** and **who may view the results**: with the fields **"Participation by"** and **"Results visible for"**. Available in each case are:
+In the "User rights" area of the "Survey" tab, you define who may fill out the survey and who may view the results: with the fields "Participation by" and "Results visible for". Available in each case are:
 
 * the **owners** of the course
 * the **coaches** of the course
 * the **participants** of the course (all persons in the role "Participant")
 * **Guests** (persons without an OpenOlat account)
 
-If you switch on **"Show advanced configuration"**, you can make additional settings, e.g. define certain **periods** of participation for certain roles or restrict participation to certain groups. The release of the results can also be linked to a start and end date.
+If you switch on **"Show advanced configuration"**, you can define additional settings, e.g. define certain **periods** of participation for certain roles or restrict participation to certain groups. The release of the results can also be linked to a start and end date.
 
 !!! tip "Tip"
 
-    A prerequisite for participation is that the **entire course** is released for the respective group of people. If, for example, the final survey is also to be fillable by guests, the course must include an access offer for guests. Please note: A course release for guests is only possible for classic courses, not for learning path courses.
+    A prerequisite for participation is that the **entire course** is released for the respective group of people. If, for example, the final survey is also to be fillable by guests, the course must include an access offer for guests. Please note: A course release for guests is only possible for conventional courses, not for learning path courses.
 
 
 ### Step 4 b): Define permissions in the tab "Learning path" (in learning path courses) {: #step4b}
@@ -183,9 +183,9 @@ So that the survey actually acts as a **conclusion**, you may want the survey to
 `Course > Administration > Settings > Assessment`
 
 
-### Step 4 c): Define permissions in the tabs "Visibility" and "Access" (in classic courses) {: #step4c}
+### Step 4 c): Define permissions in the tabs "Visibility" and "Access" (in conventional courses) {: #step4c}
 
-In **classic/conventional courses**, you define via the tabs **"Visibility"** and **"Access"** who may see or edit the course element "Survey" and when. Via date-dependent rules, the survey can, for example, only be made visible or accessible towards the end of the course.
+In conventional courses, you define via the tabs "Visibility" and "Access" who may see or edit the course element "Survey" and when. Via date-dependent rules, the survey can, for example, only be made visible or accessible towards the end of the course.
 
 The procedure for setting the visibility in the conventional course is as follows:<br>
 On the Survey element, a rule must be stored in the Visibility tab to define when the element should be visible. In the simple configuration mode this is only possible with absolute dates. To work with relative dates, you have to switch to expert mode. This makes it possible to control that the survey is, for example, only displayed for one week at the end of the course.
@@ -198,13 +198,13 @@ On the Survey element, a rule must be stored in the Visibility tab to define whe
 
 2. Variant a): Create an expert rule: duration after course start
 
-- Add the following expert rule: (getCourseBeginDate(0) <= today) & (getCourseBeginDate(0) + 7d >= today)<br>
+- Add the following expert rule: `(getCourseBeginDate(0) <= today) & (getCourseBeginDate(0) + 7d >= today)`<br>
 This expert rule states that the survey should be visible for 7 days from the course start.
 The number of days can be adjusted as desired.
 
 2. Variant b): Create an expert rule: duration after course end
 
-- Add the following expert rule: (getCourseEndDate(0) <= today) & (getCourseEndDate(0) + 7d >= today)<br>
+- Add the following expert rule: `(getCourseEndDate(0) <= today) & (getCourseEndDate(0) + 7d >= today)`<br>
 This expert rule states that the survey should be visible for 7 days from the course end.
 The number of days can be adjusted as desired.
 
@@ -248,7 +248,7 @@ Add a reminder:
 What the participants see depends on the permissions set in the tab "Survey":
 
 * If a person has the right to fill out the form, they first see the **form**.
-* The survey can be filled out **only once** and can **no longer be changed** after submission. If the form is not yet to be submitted, the **"Quick save"** option is available.
+* The survey can be filled out only once and can no longer be changed after submission. If the form is not yet to be submitted, the "Quick save" option is available.
 * If the person is authorized to fill out but **not** to see the results, the message appears after filling out: *"You have already finished this survey. Thank you for your participation."*
 * If the person is also authorized to see the results, the **statistics overview** appears directly at the Survey element after filling out.
 * If a person is authorized neither to fill out nor to view the results, the message **"No access"** appears.
@@ -271,7 +271,7 @@ Whoever is authorized in the field "Results visible for", by default the owners 
 * **Diagrams**: Graphical representation of the individual questions as bar charts with statistical data such as median, variance, and standard deviation.
 * **Individual forms**: Access to each individual (anonymously) filled-out form.
 
-The contents of all tabs can be **printed** or downloaded as an **Excel table** or **PDF**.
+The contents of all tabs can be printed or downloaded as an Excel table or PDF.
 
 !!! info "Further ways to access the evaluation"
 
@@ -295,7 +295,7 @@ Therefore, plan the content of the final survey as completely as possible before
 
 ## Reset the survey {: #reset}
 
-Course owners can delete already filled-out forms via the **3-point menu** of the course element with **"Reset"**. In doing so, **all** already submitted forms of this survey are deleted.
+Course owners can delete already filled-out forms via the 3-point menu of the course element with "Reset". In doing so, all already submitted forms of this survey are deleted.
 
 Resetting **individual** forms is **not** possible in the course element "Survey", since submission is anonymous.
 

@@ -4,7 +4,7 @@
 
 OpenOlat arbeitet mit einem Rollen- und Rechte-Management. Auf oberster Ebene wird zwischen 3 grundsätzlichen Benutzertypen unterschieden. Dies sind:
 
-![Gast und externe Benutzer:in greifen von aussen auf OpenOlat zu, die registrierten Benutzer:innen stehen im System selbst](assets/roles_rights_user_types_v1_de.png){ class="shadow lightbox" }
+![Gast und externe Benutzer:in greifen von aussen auf OpenOlat zu, die registrierten Benutzer:innen stehen im System selbst](assets/roles_rights_user_types_v1_de.png){ class="shadow lightbox" title="Drei Benutzertypen in OpenOlat" }
 
 
 ### Registrierte Benutzer:innen (Standard) {: #registered_users} 
@@ -49,7 +49,7 @@ Gäste haben, ohne sich zu registrieren, beschränkten Zugang zu OpenOlat. Sie k
 | Identifikation | anonym | E-Mail bekannt | Daten gemäss Profil (mit verschiedenen Pflichtfeldern) |
 | Zeitbegrenzung | nein (Zugriff möglich, solange Kurs offen) | Voreinstellung: max. 180 Tage | unbegrenzt oder zeitlich begrenzt (mit Kontoablaufdatum)|
 | in herkömmlichen Kursen | ja | ja | ja |
-| in Lernpfad-Kursen | ja | ja | ja |
+| in Lernpfadkursen | nein | ja | ja |
 | Aktivierung durch Administrator:in nötig | ja | ja | nein |
 | spezifische Angebote | ja, Angebot "Gastzugang"  | nein | nein (Standard) |
 | Sammeleinladung| nein  | ja (E-Mail-Liste) | ja |
@@ -59,9 +59,9 @@ Gäste haben, ohne sich zu registrieren, beschränkten Zugang zu OpenOlat. Sie k
 | Gruppenmitgliedschaft | nicht möglich, da Benutzer:in unbekannt | ja (evtl. durch Administrator:in generell eingeschränkt) | ja |
 
 
-!!! info "Hinweis"
+!!! info "Wichtig"
 
-    Es versteht sich, dass nahezu alle Rollen nur an registrierte Benutzer:innen vergeben werden können. Anonyme Gäste und externe Benutzer:innen (nur mit E-Mail bekannt) können keine Aufgaben (wie z.B. Betreuer:in oder Administrator:in) innerhalb OpenOlat übernehmen.
+    Nahezu alle Rollen können nur an registrierte Benutzer:innen vergeben werden. Anonyme Gäste und externe Benutzer:innen (nur mit E-Mail bekannt) können keine Aufgaben (wie z.B. Betreuer:in oder Administrator:in) innerhalb OpenOlat übernehmen.
 
 [zum Seitenanfang ^](#user_types)
 

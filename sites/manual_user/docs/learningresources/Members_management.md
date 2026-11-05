@@ -41,7 +41,7 @@ In the extended filter panel (arrow icon), the selection can also be modified by
 
 The cogwheel menu can also be used to show the "Origin" column. It shows the way a person became a member of the course (course, group, or Course Planner). The "Joined" and "Last visit" columns can also be added here.
 
-**Detail view:** Click on a row to open the detail view of a person. It shows a user info card (account type, join date, last visit if applicable) with the **Edit** action and, where applicable, up to three origin sections:
+**Detail view:** Click on a row to open the detail view of a person. It shows a user info card (account type, join date, last visit if applicable) with the "Edit" action and, where applicable, up to three origin sections:
 
 * **Origin: Course**: columns Role, Created
 * **Origin: Group**: columns Role, Group, Created
@@ -79,7 +79,7 @@ A course member can hold multiple roles in a course at the same time. In this ca
 
 ![Role switch menu in the toolbar with the available roles Owner, Coach, and Course planner](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" title="Role switch menu in the toolbar" }
 
-If the user has additional [system roles](../basic_concepts/Roles_Rights.md), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
+If the person has additional [system roles](../basic_concepts/Roles_Rights.md), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
 
 
 ### Adding members {: #add_members}
@@ -208,11 +208,11 @@ All actions of the Members, Groups, Booking Orders, and Consents areas of the me
 
 For the activated group of people, the "Administration" menu of the course also appears.
 
-When this rights group is activated, even non-authors can use the course editor with all its associated functionalities. In addition, the group also has access to further menus such as "Files", "Reminder", "Assessment management", "Learning area", and others. In the assessment management, members with this right also start and finish an exam with manual start.
+When this rights group is activated, even persons without the author role can use the course editor with all its associated functionalities. In addition, the group also has access to further menus such as "Files", "Reminder", "Assessment management", "Learning area", and others. In the assessment management, members with this right also start and finish an exam with manual start.
 
 #### Archive tool {: #right_archiving}
 
-For the activated group, the course administration menu with the "Archiving & Reports" submenu also appears. Members have access to all areas of [Archiving](../learningresources/Course_Archiving.md) and thus to all course data. They can archive course content such as forum posts or test results of all participants.
+For the activated group of people, the "Administration" menu of the course also appears, with the entry "Archiving & Reporting": `Course > Administration > Archiving & Reporting`. Members have access to all areas of [Archiving](../learningresources/Course_Archiving.md) and thus to all course data. They can archive course content such as forum posts or test results of all participants.
 
 The granting of this permission should be carefully weighed for data protection reasons.
 
@@ -237,7 +237,7 @@ This right allows members to edit the glossary of the course. This only makes se
 
 For the activated group of people, the "Administration" menu of the course also appears.
 
-Members with this right get access to all statistics areas available for this course, i.e. course statistics, questionnaire statistics, and test statistics. The data can be displayed and downloaded.
+Members with this right get access to all statistics areas available for this course, i.e. course statistics, survey statistics, and test statistics. The data can be displayed and downloaded.
 
 #### Assessment mode {: #right_assessment_mode}
 
@@ -279,8 +279,8 @@ If course-related terms of use or the course-related privacy policy are [activat
 [Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
-[Glossary >](../learningresources/Glossary.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>
+[Glossary >](../learningresources/Glossary.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)
 
 **Further reading**<br>

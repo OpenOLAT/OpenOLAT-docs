@@ -54,11 +54,11 @@ Typische Verwendungen der Umfrage sind
 * Feedbacks der Kursteilnehmer:innen zur Verbesserung des Kurses
 * Umfragen für Verkaufsauswertung und Marketing
 
-!!! note "Alternativen zum Kursbaustein "Umfrage"
+!!! note "Alternativen zum Kursbaustein «Umfrage»"
 
     Nachstehend wird erklärt, wie ein Kursbaustein "Umfrage" für diese Zwecke verwendet wird. Je nach Ihren Bedürfnissen, können Sie auf ähnliche Weise aber auch andere Kursbausteine verwenden. Zum Beispiel
-    
-    * Kursbaustein Formular: Dort werden die Rückmeldung namentlich zugeordnet.
+
+    * Kursbaustein Formular: Dort werden die Rückmeldungen namentlich zugeordnet.
     * Kursbaustein Checkliste: Wenn die Teilnehmer:innen vordefinierte Antworten ankreuzen sollen.
     * Kursbaustein Teilnehmer:innenordner: In ihm können Feedbackbögen und weitere Dateien abgelegt werden. Die Teilnehmer:innen können dabei ihre Feedbacks nicht gegenseitig sehen.
     * Kursbaustein Forum: Legen Sie als Betreuer:in verschiedene Themen an, zu denen die Teilnehmer:innen Stellung nehmen können. Die Antworten sind hier für alle sichtbar und können gegenseitig kommentiert werden.
@@ -75,16 +75,16 @@ Wir gehen davon aus, dass Sie bereits einen Kurs erstellt haben. Dort können Si
 
     Auch bei Verwendung des Kursbausteins "Umfrage" (anonymisierte Umfrage) stellt OpenOlat sicher, dass Teilnehmende die Umfrage nur einmal ausfüllen können.
 
-Öffnen Sie in der Kurs-Administration den **Kurseditor** und fügen Sie den Kursbaustein **"Umfrage"** ein. Platzieren Sie ihn an das Ende der Kursstruktur, damit er als Abschlussbefragung erscheint.
+Öffnen Sie den Kurseditor unter `Kurs > Administration > Kurseditor` und fügen Sie den Kursbaustein "Umfrage" ein. Platzieren Sie ihn an das Ende der Kursstruktur, damit er als Abschlussbefragung erscheint.
 
 Nach dem Einfügen stehen Ihnen im Kurseditor die folgenden Tabs zum Einrichten/Konfigurieren zur Verfügung:
 
 * **Titel und Beschreibung**: allgemeine Angaben zum Kursbaustein
 * **Layout**: optische Darstellung
-* **Lernpfad** (bei Lernpfadkursen) bzw. **Sichtbarkeit** und **Zugang** (bei klassischen Kursen)
+* **Lernpfad, Sichtbarkeit und Zugang**: in Lernpfadkursen der Tab "Lernpfad", in herkömmlichen Kursen die Tabs "Sichtbarkeit" und "Zugang"
 * **Umfrage**: die zentrale Konfiguration, in der Sie auch die Lernressource einbinden (siehe Schritt 2)
 
-Nehmen Sie die gewünschten Einstellungen vor.
+Legen Sie in diesen Tabs die gewünschten Einstellungen fest.
 
 [Zum Seitenanfang ^](#survey)
 
@@ -150,27 +150,27 @@ Wer soll die Umfrageresultate einsehen und auswerten können?
 All diese Fragen haben mit Zugriffsrechten zu tun, die Sie steuern
 
 a) über den **Tab "Umfrage"**<br>
-b) über den **Tab "Lernpfad"** (in Lernpfad-Kursen)<br>
+b) über den **Tab "Lernpfad"** (in Lernpfadkursen)<br>
 c) über die **Tabs "Sichtbarkeit"** und **"Zugang"** (in herkömmlichen Kursen)
 
 
 ### Schritt 4 a): Berechtigungen festlegen im Tab "Umfrage" {: #step4a}
 
-Im Bereich **"Berechtigungen"** des Tabs "Umfrage" legen Sie fest, **wer die Umfrage ausfüllen** und **wer die Ergebnisse einsehen** darf: mit den Feldern **"Teilnahme durch"** und **"Resultate sichtbar für"**. Zur Auswahl stehen jeweils:
+Im Bereich "Berechtigungen" des Tabs "Umfrage" legen Sie fest, wer die Umfrage ausfüllen und wer die Ergebnisse einsehen darf: mit den Feldern "Teilnahme durch" und "Resultate sichtbar für". Zur Auswahl stehen jeweils:
 
 * die **Besitzer:innen** des Kurses
 * die **Betreuer:innen** des Kurses
 * die **Teilnehmer:innen** des Kurses (alle Personen in der Rolle "Teilnehmer:in")
 * **Gäste** (Personen ohne OpenOlat-Account)
 
-Schalten Sie **"Erweiterte Konfiguration anzeigen"** ein, können Sie zusätzliche Einstellungen vornehmen, z.B. bestimmte **Zeiträume** der Teilnahme für bestimmte Rollen definieren oder die Teilnahme auf bestimmte Gruppen festlegen. Auch die Freigabe der Ergebnisse lässt sich mit einem Beginn- und Enddatum verbinden.
+Schalten Sie **"Erweiterte Konfiguration anzeigen"** ein, legen Sie zusätzliche Einstellungen fest, z.B. bestimmte **Zeiträume** der Teilnahme für bestimmte Rollen definieren oder die Teilnahme auf bestimmte Gruppen festlegen. Auch die Freigabe der Ergebnisse lässt sich mit einem Beginn- und Enddatum verbinden.
 
 !!! tip "Tipp"
 
-    Voraussetzung für die Teilnahme ist, dass der **gesamte Kurs** für die jeweilige Personengruppe freigegeben ist. Soll die Abschlussumfrage z.B. auch von Gästen ausfüllbar sein, muss der Kurs ein Zugangs-Angebot für Gäste beinhalten. Beachten Sie: Eine Kursfreigabe für Gäste ist nur bei klassischen Kursen möglich, nicht bei Lernpfad-Kursen.
+    Voraussetzung für die Teilnahme ist, dass der **gesamte Kurs** für die jeweilige Personengruppe freigegeben ist. Soll die Abschlussumfrage z.B. auch von Gästen ausfüllbar sein, muss der Kurs ein Zugangs-Angebot für Gäste beinhalten. Beachten Sie: Eine Kursfreigabe für Gäste ist nur bei herkömmlichen Kursen möglich, nicht bei Lernpfadkursen.
 
 
-### Schritt 4 b): Berechtigungen festlegen im Tab "Lernpfad" (in Lernpfad-Kursen) {: #step4b}
+### Schritt 4 b): Berechtigungen festlegen im Tab "Lernpfad" (in Lernpfadkursen) {: #step4b}
 
 Damit die Umfrage tatsächlich als **Abschluss** wirkt, möchten Sie vielleicht, dass die Umfrage erst erscheint oder ausfüllbar ist, wenn der Rest des Kurses bereits bearbeitet wurde.
 
@@ -184,7 +184,7 @@ Damit die Umfrage tatsächlich als **Abschluss** wirkt, möchten Sie vielleicht,
 
 ### Schritt 4 c): Berechtigungen festlegen in den Tabs "Sichtbarkeit" und "Zugang" (in herkömmlichen Kursen) {: #step4c}
 
-In **klassischen/herkömmlichen Kursen** definieren Sie über die Tabs **"Sichtbarkeit"** und **"Zugang"**, wer den Kursbaustein "Umfrage" wann sehen bzw. bearbeiten darf. Über datumsabhängige Regeln kann die Umfrage z.B. erst gegen Kursende sichtbar oder zugänglich gemacht werden.
+In herkömmlichen Kursen legen Sie über die Tabs "Sichtbarkeit" und "Zugang" fest, wer den Kursbaustein "Umfrage" wann sehen bzw. bearbeiten darf. Über datumsabhängige Regeln kann die Umfrage z.B. erst gegen Kursende sichtbar oder zugänglich gemacht werden.
 
 Die Vorgehensweise zur Einstellung der Sichtbarkeit im herkömmlichen Kurs ist folgende:<br>
 Auf dem Umfrage-Baustein muss im Tab Sichtbarkeit eine Regel hinterlegt sein, um festzulegen, wann der Baustein sichtbar sein soll. Dies ist im einfachen Konfigurationsmodus nur mit absoluten Daten machbar. Um mit relativen Daten zu arbeiten, muss in den Expertenmodus gewechselt werden. Damit kann gesteuert werden, dass die Umfrage z.B. erst bei Kursende z.B. für eine Woche angezeigt wird.
@@ -197,13 +197,13 @@ Auf dem Umfrage-Baustein muss im Tab Sichtbarkeit eine Regel hinterlegt sein, um
 
 2. Variante a): Expertenregel anlegen: Dauer nach Kursbeginn
 
-- Fügen Sie folgende Expertenregel hinzu: (getCourseBeginDate(0) <= today) & (getCourseBeginDate(0) + 7d >= today)<br>
+- Fügen Sie folgende Expertenregel hinzu: `(getCourseBeginDate(0) <= today) & (getCourseBeginDate(0) + 7d >= today)`<br>
 Diese Expertenregel besagt, dass die Umfrage ab dem Kursbeginn 7 Tage lang sichtbar sein soll.
 Die Anzahl Tage kann nach Wunsch angepasst werden.
 
 2. Variante b): Expertenregel anlegen: Dauer nach Kursende
 
-- Fügen Sie folgende Expertenregel hinzu: (getCourseEndDate(0) <= today) & (getCourseEndDate(0) + 7d >= today)<br>
+- Fügen Sie folgende Expertenregel hinzu: `(getCourseEndDate(0) <= today) & (getCourseEndDate(0) + 7d >= today)`<br>
 Diese Expertenregel besagt, dass die Umfrage ab dem Kursende 7 Tage lang sichtbar sein soll.
 Die Anzahl Tage kann nach Wunsch angepasst werden.
 
@@ -247,7 +247,7 @@ Erinnerung hinzufügen:
 Was die Teilnehmenden sehen, hängt von den im Tab "Umfrage" gesetzten Berechtigungen ab:
 
 * Hat eine Person das Recht, das Formular auszufüllen, sieht sie zunächst das **Formular**.
-* Die Umfrage kann **nur einmal** ausgefüllt und nach dem Abschicken **nicht mehr geändert** werden. Soll das Formular noch nicht abgeschickt werden, steht die Option **"Zwischenspeichern"** zur Verfügung.
+* Die Umfrage kann nur einmal ausgefüllt und nach dem Abschicken nicht mehr geändert werden. Soll das Formular noch nicht abgeschickt werden, steht die Option "Zwischenspeichern" zur Verfügung.
 * Ist die Person berechtigt auszufüllen, aber **nicht** die Ergebnisse zu sehen, erscheint nach dem Ausfüllen die Meldung: *"Sie haben das Formular bereits ausgefüllt. Vielen Dank für Ihre Teilnahme."*
 * Ist die Person auch berechtigt, die Ergebnisse zu sehen, erscheint nach dem Ausfüllen direkt die **Statistik-Übersicht** beim Umfrage-Baustein.
 * Ist eine Person weder zum Ausfüllen noch zum Einsehen der Resultate berechtigt, erscheint die Meldung **"Kein Zugang"**.
@@ -270,7 +270,7 @@ Wer im Feld "Resultate sichtbar für" berechtigt ist, in der Standardeinstellung
 * **Diagramme**: Grafische Darstellung der einzelnen Fragen als Balkendiagramme mit statistischen Daten wie Median, Varianz und Standardabweichung.
 * **Einzelne Formulare**: Zugriff auf jedes einzelne (anonym) ausgefüllte Formular.
 
-Die Inhalte aller Tabs können **ausgedruckt** oder als **Excel-Tabelle** bzw. **PDF** heruntergeladen werden.
+Die Inhalte aller Tabs können ausgedruckt oder als Excel-Tabelle bzw. PDF heruntergeladen werden.
 
 !!! info "Weitere Zugriffswege auf die Auswertung"
 
@@ -294,7 +294,7 @@ Planen Sie den Inhalt der Abschlussumfrage daher möglichst vollständig, bevor 
 
 ## Umfrage zurücksetzen {: #reset}
 
-Kursbesitzer:innen können bereits ausgefüllte Formulare über das **3-Punkte-Menü** des Kursbausteins mit **"Zurücksetzen"** löschen. Dabei werden **alle** bereits eingereichten Formulare dieser Umfrage gelöscht.
+Kursbesitzer:innen können bereits ausgefüllte Formulare über das 3-Punkte-Menü des Kursbausteins mit "Zurücksetzen" löschen. Dabei werden alle bereits eingereichten Formulare dieser Umfrage gelöscht.
 
 Ein Zurücksetzen **einzelner** Formulare ist im Kursbaustein "Umfrage" **nicht** möglich, da die Abgabe anonym erfolgt.
 

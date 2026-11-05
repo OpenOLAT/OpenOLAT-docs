@@ -10,8 +10,7 @@ A badge is online proof that a goal has been achieved. It consists of
 * meta information (description of the goal achieved, period of validity of the badge, issuer of the badge, date of issue, etc.)
 * a link
 
-The difference between a paper certificate and an online badge is that the badge can be shared online via links. For example, it can be included in a CV or portfolio.
-For example, a badge recipient can also include the badges on their LinkedIn profile.
+Unlike a paper certificate, an online badge can be shared via a link, e.g. in a CV or a portfolio. Anyone who has earned a badge can also show it on their own LinkedIn profile, for example.
 
 In contrast to a formal certificate, the idea of the badge is more playful (gamification, to loosen up and motivate, the learners gain something).
 
@@ -73,7 +72,7 @@ The selection for "Course element passed" and "Course element score" contains th
 ## How are global badges awarded? [:octicons-tag-16:{ title="from Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #award_a_global-badge}
 
 Global badges can also be assigned manually or automatically based on defined rules.
-However, both manual assignment and the definition of rules for the automatic assignment of global badges can only be carried out by [system administrators](../../manual_admin/administration/e-Assessment_openBadges.md).
+However, only [system administrators](../../manual_admin/administration/e-Assessment_openBadges.md) can assign global badges manually and define the rules for their automatic assignment.
 
 ### Assign global badges manually
 
@@ -84,7 +83,7 @@ Global badges can be assigned manually by system administrators in the system ad
 
 System administrators can set up the rules for automatic assignment in the system administration under<br>
 `Administration > e-Assessment > OpenBadges > "Global Badges" tab`<br>
-If the badge tool for creating a global badge is called up there, the rules can be specified in the wizard.
+When creating a global badge, they define the rules in the wizard.
 
 The following criteria are available for global badges:
 
@@ -129,7 +128,7 @@ If you click on the top "node", the course title in the course menu, a "Badges" 
 **In the course administration:**<br>
 Under `Course > Administration > Badges` a list of all badges that can be acquired in this course appears. The "Create a new badge" button can be used to create additional badges for the course and/or individual course elements.
 
-You can find a step-by-step instruction for **course badges** [here](../../manual_how-to/badges/badges.md)
+You can find a step-by-step instruction for **course badges** [here](../../manual_how-to/badges/badges.md).
 
 [To the top of the page ^](#badges)
 
@@ -187,7 +186,7 @@ As long as a badge has not yet been acquired by anyone, the "Edit" option is ava
 If the badge has already been acquired, the "Create a new version and edit" action replaces editing. The image and the description can be changed. The award criteria and the validity period remain unchanged, and badges already awarded keep their previous version. The badge table shows the version in a separate column. [:octicons-tag-16:{ title="from Release 20.1 (OO-8287)" }](https://track.frentix.com/issue/OO-8287)
 
 **In the course administration:**<br>
-`Course > Administration > Badges` > Click on the 3 dots at the end of a row > Option "Edit"
+`Course > Administration > Badges`, then click the three dots at the end of a row and select "Edit".
 
 If coaches have also been granted the right to assign badges manually under `Course > Administration > Settings > "Assessment" tab > "Badges" section`, then an overview is also available for coaches in the "Administration" menu under "Badges". However, coaches cannot create new badges, only assign them manually.
 
@@ -213,7 +212,7 @@ If badges have been acquired by participants, they can be seen in the **performa
 
 ### View awarded badges in LinkedIn and other websites {: #assigned_badges_LinkedIn}
 
-The display of OpenOlat badges on other websites can be done manually by exporting and importing.
+OpenOlat badges can be displayed on other websites by exporting them and importing them there.
 
 LinkedIn allows you to display certificates and badges in your personal profile. For this, the "Add to LinkedIn" button is available on the detail page of an acquired badge. OpenOlat passes the name, issuer, date of issue, validity period and the URL of the public badge page to LinkedIn, prefilled. The badge is checked there with a host-based verification. [:octicons-tag-16:{ title="from Release 19.0 (OO-7741)" }](https://track.frentix.com/issue/OO-7741)
 

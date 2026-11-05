@@ -2,9 +2,9 @@
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [OpenOlat Funktionsprinzipien](<https://www.youtube.com/embed/M-JkSAFN298>){:target="_blank"}
 
-OpenOlat courses enable the mapping of various event formats e.g. lectures, seminars, online tutorials or group puzzles, as well as the implementation of different types of learning, e.g. problem-based learning, cooperative learning, self-organized learning etc. A maximum of flexibility is guaranteed by using any number of [course elements](Course_Elements.md) in any order of your choice; therefore it is easy to realize your didactic concept.
+With OpenOlat courses you map different event formats, for example lectures, seminars, online tutorials or group puzzles. You also implement different types of learning, for example problem-based, cooperative or self-organized learning. For this you use any number of [course elements](Course_Elements.md) in any order and align the course with your didactic concept.
 
-Apply for author rights at your OpenOlat support center or the administrators of your OpenOlat instance and get started!
+To create courses, you need author rights. You get them from your OpenOlat support center or from the administrators of your OpenOlat instance.
 
 ## The course cycle at a glance {: #course_lifecycle}
 
@@ -12,7 +12,7 @@ Apply for author rights at your OpenOlat support center or the administrators of
 
 Create the learning resource Course via `Authoring > Create > Course` and choose the desired course design: "With learning path" or "With learning progress" for a learning path course, "Classic" for a conventional course.
 
-![Entry Course in the opened Create menu, top right in the Authoring area](assets/create_course_16_DE.png){ class="shadow lightbox" }
+![Entry Course in the opened Create menu, top right](assets/create_course_16_DE.png){ class="shadow lightbox" title="Authoring area" }
 
 !!! note "Further Information"
     * [Creating Courses](../learningresources/Creating_Course.md)
@@ -21,9 +21,9 @@ Create the learning resource Course via `Authoring > Create > Course` and choose
 
 ### 2. Set up, design, publish course {: #stage2}
 
-You implement your course in the course editor by selecting suitable course elements, creating learning resources if necessary, and configuring everything as desired.
+You implement your course in the course editor: you select the suitable course elements, create learning resources if necessary and configure everything as desired. You open the course editor via `Course > Administration > Course editor`.
 
-![Entry Course editor in the opened Administration menu of the course toolbar](assets/course_editor.png){ class="shadow lightbox" }
+![Entry Course editor in the opened Administration menu](assets/course_editor.png){ class="shadow lightbox" title="Course toolbar" }
 
 !!! note "Further Information"
     * [Course elements](Course_Elements.md)
@@ -35,9 +35,9 @@ You implement your course in the course editor by selecting suitable course elem
 
 ### 3. Set up access {: #stage3}
 
-You make the access settings in the course administration: `Course > Administration > Settings`. The "Share" tab is particularly important here.
+You define the access in the course administration: `Course > Administration > Settings`. The "Share" tab is particularly important here.
 
-![Entry Settings in the opened Administration menu of the course toolbar, next to it the status Published](assets/course_settings.png){ class="shadow lightbox" }
+![Entry Settings in the opened Administration menu, next to it the status Published](assets/course_settings.png){ class="shadow lightbox" title="Course toolbar" }
 
 !!! note "Further Information"
     * [Access configuration](Access_configuration.md)
@@ -45,33 +45,33 @@ You make the access settings in the course administration: `Course > Administrat
 
 In learning path courses, it is partially possible to grant participants time-limited access to a course:
 
-* At the course element level: yes, via `Course editor > Tab "Learning path"` with a relative date
+* At the course element level: yes, via `Course > Administration > Course editor > Tab "Learning path"` with a relative date
 * At the structure element level: no
 * At the top-level node (overall course): no
 
-### 4. Publish course status {: #stage4}
+### 4. Publish course {: #stage4}
 
-In the course toolbar set the status to "Published" in order for learners to see the course.
+Set the status to "Published" in the course toolbar. This makes the course visible to the participants.
 
-![Opened status menu of the course toolbar with the values Preparation, Review, Access for coach and Finished, current status Published](assets/course_state.png){ class="shadow lightbox" }
+![Opened status menu with the values Preparation, Review, Access for coach and Finished, current status Published](assets/course_state.png){ class="shadow lightbox" title="Course toolbar" }
 
 !!! note "Further Information"
     * [Access configuration](Access_configuration.md)
 
-### 5. Execute course and evaluate assessment modules {: #stage5}
+### 5. Run and assess the course {: #stage5}
 
-Use the assessment tool for assessment and feedback. Post in the forum, organise the absences and carry out further coaching actions.
+In the assessment tool you assess the participants and give feedback. In addition, you coach the course, for example with posts in the forum or by organising the absences.
 
-![Entry Assessment tool in the opened Administration menu of the course toolbar](assets/course_assessment_tool.png){ class="shadow lightbox" }
+![Entry Assessment tool in the opened Administration menu](assets/course_assessment_tool.png){ class="shadow lightbox" title="Course toolbar" }
 
 !!! note "Further Information"
     * [Course Operation](../learningresources/Administration.md)
 
 ### 6. End course {: #stage6}
 
-If the course has expired, you should set the status to "Finished".
+Once the course is over, set the status to "Finished".
 
-![Status Finished as a brown badge in the course toolbar](assets/course_finish.png){ class="shadow lightbox" }
+![Status Finished as a brown badge](assets/course_finish.png){ class="shadow lightbox" title="Course toolbar" }
 
 !!! note "Further Information"
     * [Access configuration](Access_configuration.md)
@@ -80,7 +80,7 @@ If the course has expired, you should set the status to "Finished".
 
 The course is deleted via `Course > Administration > Delete`. Deleted courses are in the "Deleted" tab of the authoring area. In the other tabs, the "Status" filter with the option "Trash" shows or hides them.
 
-![Option Trash in the opened Status filter, together with the Deleted tab, in the My courses tab of the authoring area](assets/authoring_filter_status_trash_v1_en.png){ class="shadow lightbox" }
+![Option Trash in the opened Status filter, together with the Deleted tab](assets/authoring_filter_status_trash_v1_en.png){ class="shadow lightbox" title="My courses tab in the authoring area" }
 
 !!! note "Further Information"
     * [Access configuration](Access_configuration.md)
@@ -91,9 +91,9 @@ The course is deleted via `Course > Administration > Delete`. Deleted courses ar
 
     First think about what you want to achieve with the course.
 
-    What the course looks like depends on your didactic concept, the goals and the overall framework. On this basis, you can decide whether a conventional course or a learning path course is the right choice for you. If in doubt, opt for the conventional course, as you can convert it into a learning path course later, provided that all course elements it contains are supported in the learning path course. The other way around is not possible.
+    The structure of your course depends on your didactic concept, the goals and the framework conditions. On this basis, you decide whether a conventional course or a learning path course is the right choice for you. If in doubt, choose the conventional course: via `Course > Administration > Duplicate as learning path` you later create a copy of it as a learning path course, provided that the learning path course supports all course elements it contains. The conventional course remains unchanged. This conversion only leads from the conventional course to the learning path course.
 
-    After the decision on the course design, choose the optimal and most effective course elements and try to bundle things that belong together in a meaningful way to achieve optimal usability. When the structure is clear, prepare the learning content, additional files ([HTML pages, PDF files, CPs](../learningresources/index.md), etc.) and everything you need for use in the learning platform.
+    After deciding on a course design, choose the course elements with which you reach your goal and implement your course concept. Bundle content that belongs together so that participants find their way around the course easily. When the structure is clear, prepare the learning content, additional files ([HTML pages, PDF files, CP learning content](../learningresources/index.md), etc.) and everything else you need for use in the learning platform.
 
 [To the top of the page ^](#general_information)
 
@@ -101,9 +101,9 @@ The course is deleted via `Course > Administration > Delete`. Deleted courses ar
 
 ## Role change {: #role_change}
 
-The toolbar shows you in which role you are currently viewing the course. As author of a course, this will be as a rule the "Owner" role. However, you can switch to the participant role at any time via the drop-down menu.
+The toolbar shows you in which role you are currently viewing the course. As author of a course, this will be as a rule the "Owner" role. Via the role menu you can switch to the "Participant view" at any time.
 
-![Role menu Owner in the course toolbar, opened with the entry Switch to participant view](assets/Besitzer_TN.jpg){ class="shadow lightbox" }
+![Role menu Owner, opened with the entry Switch to participant view](assets/Besitzer_TN.jpg){ class="shadow lightbox" title="Course toolbar" }
 
 If you have other roles in the course, these are also displayed and you can switch to the corresponding view.
 
@@ -121,7 +121,7 @@ This does not apply to course owners or coaches. For these roles, it makes sense
 
 
 <details>
-    <summary>Special case: Behaviour when enrolling in a group (course element 'enrolment')</summary>
+    <summary>Special case: Behaviour when enrolling in a group (course element "Enrolment")</summary>
 
     <b>Situation:</b> <br>
     - You create a course with the course element "Enrolment".<br>
@@ -140,5 +140,12 @@ This does not apply to course owners or coaches. For these roles, it makes sense
     - If you unsubscribe from the group (and reload the course), the "Participant" role is removed and the participant view is available again instead.<br><br>
 
 </details>
+
+## Further information {: #further_information}
+
+**Further reading**<br>
+[Learning path course - Overview >](Learning_path_course.md)<br>
+[Members management >](Members_management.md)<br>
+[Course Administration: Overview >](Administration.md)
 
 [To the top of the page ^](#general_information)

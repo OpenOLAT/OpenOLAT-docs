@@ -51,7 +51,7 @@ Online-Termine legen Sie im Kursbaustein selbst an, bei geschlossenem Kurseditor
 
 ### Tab "Terminverwaltung"
 
-Im Tab "Terminverwaltung" legen die Besitzer:innen und Betreuer:innen des Kurses neue Online-Termine an und konfigurieren sie. Bereits angelegte Online-Termine lassen sich hier auch kopieren oder löschen. Der Tab fehlt, solange für ihre Rolle keine aktivierte Raumvorlage freigegeben ist. Die Freigabe setzt die Administration in der Raumvorlage im Feld "Raumvorlage aktiviert für" ([Modul BigBlueButton](../../../manual_admin/administration/BigBlueButton_module.de.md#room_config)).
+Im Tab "Terminverwaltung" legen die Besitzer:innen und Betreuer:innen des Kurses neue Online-Termine an und konfigurieren sie. Bereits angelegte Online-Termine lassen sich hier auch kopieren oder löschen. Der Tab fehlt, solange für ihre Rolle keine aktivierte Raumvorlage freigegeben ist. Die Freigabe setzen Systemadministrator:innen in der Raumvorlage im Feld "Raumvorlage aktiviert für" ([Modul BigBlueButton](../../../manual_admin/administration/BigBlueButton_module.de.md#room_config)).
 
 ![Schaltfläche "Online-Termin hinzufügen" über der Liste der Online-Termine, je Zeile mit Beginn, Ende, Raumvorlage und dem Link "Bearbeiten" oder "Ansehen"](../assets/bigbluebutton_meeting_management_v1_de.png){ class="shadow lightbox" title="Tab Terminverwaltung im Kursbaustein BigBlueButton · 2026.11.02" }
 
@@ -59,13 +59,13 @@ Die Liste "Online-Termine" zeigt je Termin Name, Beginn, Ende und Raumvorlage. L
 
 Folgende Varianten lassen sich erstellen:
 
-* **Einzelnen Online-Termin hinzufügen**
+* **Einzelnen Online-Termin hinzufügen**<br>
   Bietet sich an, wenn es nur einen konkreten Termin für den Kursbaustein geben soll.
-* **Permanente Reservierung hinzufügen**
+* **Permanente Reservierung hinzufügen**<br>
   Eignet sich für einen BigBlueButton-Raum, der permanent zur Verfügung steht und mehrfach genutzt wird.
-* **Täglich wiederkehrende Online-Termine hinzufügen**
+* **Täglich wiederkehrende Online-Termine hinzufügen**<br>
   Erstellt rasch tägliche Termine.
-* **Wöchentlich wiederkehrende Online-Termine hinzufügen**
+* **Wöchentlich wiederkehrende Online-Termine hinzufügen**<br>
   Erstellt rasch wöchentliche Termine, zum Beispiel für Webinar-Serien oder ein Semester.
 
 Die Varianten unterscheiden sich nur in der Erstellung der Termine. Es entstehen separate Online-Termine beziehungsweise Reservierungen, die sich anschliessend einzeln bearbeiten lassen. Je nach Konfiguration des Servers stehen unterschiedliche Auswahlmöglichkeiten bereit.
@@ -129,7 +129,7 @@ Die Aufzeichnungen eines Meetings finden Sie ebenfalls im Tab "Online-Termine". 
 
 ![Auswahl "Publizieren für" mit vier Rollen, angekreuzt sind alle Teilnehmer:innen des Meetings ausser Gäste](../assets/bigbluebutton_recordings_v1_de.png){ class="shadow lightbox" title="Aufzeichnungen in der Detailansicht eines Online-Termins · 2026.11.02" }
 
-## Kalender Anzeige
+## Kalenderanzeige
 
 Sofern es einen Kalender im Kurs gibt, erscheinen die BigBlueButton-Termine ebenfalls im Kalender.
 
@@ -139,7 +139,7 @@ Zusätzlich erscheinen die in BigBlueButton erstellten Online-Termine automatisc
 
 ![Belegte Zeiten aller BigBlueButton-Räume als Wochenkalender, Buchungen der Raumvorlage Cafe am Donnerstag und am Freitag](../assets/bigbluebutton_room_bookings_v1_de.png){ class="shadow lightbox" title="Dialog Raumbuchungen anzeigen · 2026.10.27" }
 
-## Teilnehmerperspektive
+## Ansicht für Teilnehmende
 
 Rufen Teilnehmende einen BigBlueButton-Kursbaustein auf, sehen sie die Liste "Aktuelle und zukünftige Online-Termine" und, sofern vorhanden, die Liste "Abgelaufene Online-Termine". Beide Listen nennen je Termin Name, Beginn und Ende, bei automatischer Löschung zusätzlich das Datum in der Spalte "Automatisch löschen". Permanente Reservierungen stehen ohne Datum in der ersten Liste. Ein Klick auf "Auswählen" führt zur Detailansicht des jeweiligen Online-Termins.
 
@@ -151,7 +151,7 @@ Laufende Online-Termine betreten Sie mit "Meeting beitreten". Damit gelangen Sie
 
 Abgelaufene Online-Termine lassen sich nicht mehr betreten. Die Detailansicht gibt aber Zugriff auf vorhandene Aufzeichnungen des Meetings. Besitzer:innen und Betreuer:innen des Kurses können Aufzeichnungen hier auch löschen.
 
-## BigBlueButton Meeting Raum
+## BigBlueButton-Raum
 
 Vor dem Eintritt fragt BigBlueButton, ob Sie "Mit Mikrofon" teilnehmen oder "Nur zuhören".
 
@@ -171,7 +171,7 @@ Wer Personen ohne OpenOlat Account zu einem Online-Termin einladen will, hat zwe
 
 !!! note "Gastzugang"
 
-    Voraussetzung ist ein herkömmlicher Kurs, kein Lernpfad-Kurs, und der Kurs selbst muss für Gäste freigeschaltet sein. Gäste geben bei der Einwahl in den Raum einen beliebigen Namen ein. Mehr dazu unter [Gastzugang](../../basic_concepts/guest_access.de.md).
+    Voraussetzung ist ein herkömmlicher Kurs, kein Lernpfadkurs, und der Kurs selbst muss für Gäste freigeschaltet sein. Gäste geben bei der Einwahl in den Raum einen beliebigen Namen ein. Mehr dazu unter [Gastzugang](../../basic_concepts/guest_access.de.md).
 
 Den Link für externe Benutzer:innen bietet OpenOlat an, wenn die Raumvorlage die Option "Offen für externe Benutzer:innen" trägt. Besitzer:innen und Betreuer:innen des Kurses sehen ihn in der Detailansicht des Online-Termins im Block "Link für externe Benutzer:innen", mit einer Schaltfläche zum Kopieren und einer für den QR-Code. Mit dem Feld "Passwort für externe Benutzer:innen" im Online-Termin schützen Sie den Zutritt zusätzlich mit einem Passwort.
 

@@ -10,10 +10,9 @@ Ein Badge ist ein Online-Beweis für ein erreichtes Ziel. Er besteht aus
 * Metainformation (Beschreibung des erreichten Ziels, Gültigkeitsdauer des Badges, Aussteller des Badges, Datum der Ausstellung, usw.)
 * einem Link
 
-Der Unterschied zwischen einem Papier-Zertifikat und einem Online-Badge besteht darin, dass der Badge online über Links geteilt werden kann. So kann er z.B. in Lebenslauf, Portfolio mitgegeben werden.
-Ein Badge-Erwerber kann z.B. auch auf seinem LinkedIn-Profil die Badges einbinden.
+Anders als ein Papier-Zertifikat lässt sich ein Online-Badge über einen Link teilen, z.B. in einem Lebenslauf oder einem Portfolio. Wer einen Badge erworben hat, kann ihn z.B. auch im eigenen LinkedIn-Profil zeigen.
 
-Im Unterschied zu einem formalen Zertifikat, ist die Idee des Badges eher spielerisch (Gamifikation, zur Auflockerung und Motivation, die Lerner:innen gewinnen etwas).
+Im Unterschied zu einem formalen Zertifikat, ist die Idee des Badges eher spielerisch (Gamifikation, zur Auflockerung und Motivation, die Lernenden gewinnen etwas).
 
 
 
@@ -59,7 +58,7 @@ Folgende Kriterien stehen für Kurs-Badges zur Auswahl:
 * **Kursbaustein-Score**: Die Punktzahl eines bewertbaren Kursbausteins erreicht einen definierten Vergleichswert.
 * **Ein anderer Badge wurde bereits erworben**: Ein weiterer Badge dieses Kurses wurde bereits erworben.
 
-In Lernpfad-Kursen stehen zusätzlich zur Auswahl:
+In Lernpfadkursen stehen zusätzlich zur Auswahl:
 
 * **Kursbaustein-Erledigungskriterium erfüllt** [:octicons-tag-16:{ title="ab Release 19.1 (OO-8046)" }](https://track.frentix.com/issue/OO-8046): Das Erledigungskriterium des gewählten Kursbausteins ist erfüllt.
 * **Lernpfad-Fortschritt**: Der Kursfortschritt erreicht einen definierten Prozentwert.
@@ -73,7 +72,7 @@ Die Auswahl für "Kursbaustein bestanden" und "Kursbaustein-Score" enthält die 
 ## Wie werden globale Badges vergeben? [:octicons-tag-16:{ title="ab Release 18.0 (OO-6999)" }](https://track.frentix.com/issue/OO-6999) {: #award_a_global-badge}
 
 Auch globale Badges können manuell oder automatisch anhand definierter Regeln vergeben werden.
-Sowohl manuelle Vergabe, wie auch die Definition der Regeln für eine automatische Vergabe globaler Badges können jedoch nur durch [Systemadministrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md) erfolgen.
+Globale Badges manuell vergeben und die Regeln für ihre automatische Vergabe festlegen können jedoch nur [Systemadministrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md).
 
 ### Globale Badges manuell vergeben
 
@@ -84,7 +83,7 @@ Globale Badges können durch Systemadministrator:innen in der System-Administrat
 
 Systemadministrator:innen können die Regeln für eine automatische Vergabe in der System-Administration einrichten unter<br>
 `Administration > e-Assessment > OpenBadges > Tab "Globale Badges"`<br>
-Wenn dort das Badge-Tool zur Erstellung eines globalen Badges aufgerufen wird, können im Wizard die Regeln angegeben werden.
+Beim Erstellen eines globalen Badges legen sie die Regeln im Wizard fest.
 
 Folgende Kriterien stehen für globale Badges zur Auswahl:
 
@@ -124,7 +123,7 @@ Der Tab ist vorhanden bei den Kursbausteinen:
 ### Wo können Badges für den _Kurs_ erstellt werden?
 
 **Im Kurseditor:**<br>
-Auch bei Klick auf dem obersten "Knoten", den Kurstitel im Kursmenü, erscheint rechts ein Tab "Badges". Sie erstellen dort wie bei den Kursbausteinen einen Badge durch Klick auf den Button "Einen neuen Badge erstellen". Hier bezieht sich der Badge jedoch auf den Kurs als Ganzes. 
+Auch bei Klick auf den obersten "Knoten", den Kurstitel im Kursmenü, erscheint rechts ein Tab "Badges". Sie erstellen dort wie bei den Kursbausteinen einen Badge durch Klick auf den Button "Einen neuen Badge erstellen". Hier bezieht sich der Badge jedoch auf den Kurs als Ganzes. 
 
 **In der Kursadministration:**<br>
 Unter `Kurs > Administration > Badges` erscheint eine Liste aller Badges, die in diesem Kurs erworben werden können. Mit dem Button "Einen neuen Badge erstellen" können weitere Badges für den Kurs und/oder einzelne Kursbausteine erstellt werden.
@@ -188,7 +187,7 @@ Solange ein Badge noch von niemandem erworben wurde, steht die Option "Bearbeite
 Wurde der Badge bereits erworben, ersetzt die Aktion "Neue Version erstellen und bearbeiten" das Bearbeiten. Dabei können das Bild und die Beschreibung angepasst werden. Die Vergabekriterien und die Gültigkeitsdauer bleiben unverändert, und bereits vergebene Badges behalten ihre bisherige Version. Die Badge-Tabelle zeigt die Version in einer eigenen Spalte. [:octicons-tag-16:{ title="ab Release 20.1 (OO-8287)" }](https://track.frentix.com/issue/OO-8287)
 
 **In der Kursadministration:**<br>
-`Kurs > Administration > Badges` > Klick auf die 3 Punkte am Ende einer Zeile > Option "Bearbeiten"
+`Kurs > Administration > Badges`, dann am Ende einer Zeile auf die drei Punkte klicken und "Bearbeiten" wählen.
 
 Wurde Betreuer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` auch das Recht zum manuellen Vergeben von Badges erteilt, dann ist auch für Betreuer:innen im Menü "Administration" eine Übersicht unter "Badges" abrufbar. Allerdings können Betreuer:innen keine Badges neu erstellen, sondern lediglich manuell vergeben.
 
@@ -209,13 +208,13 @@ ermöglicht. Das Recht zur manuellen Vergabe kann hier auch Betreuer:innen gegeb
 
 Wurden Badges aktiviert, ist nach dem nächsten Login in der **Kursadministration** die Option **Badges** vorhanden. Hier können die Vergaberegeln der Badges für den Kurs eingerichtet werden.
 
-Wurden durch Teilnehmer:innen Badges erworben, sind sie ersichtlich in der **Leistungsübersicht** des betreffenden Teilnehmers / der Teilnehmerin.
+Wurden durch Teilnehmer:innen Badges erworben, sind sie ersichtlich in der **Leistungsübersicht** der betreffenden Teilnehmer:in.
 
 
 
 ### Ansicht vergebener Badges in LinkedIn und anderen Websites {: #assigned_badges_LinkedIn}
 
-Die Anzeige von OpenOlat-Badges auf anderen Websites kann manuell durch Export und Import gemacht werden.
+OpenOlat-Badges lassen sich auf anderen Websites anzeigen, indem Sie sie exportieren und dort importieren.
 
 LinkedIn ermöglicht es Ihnen, Zertifikate und Badges in Ihrem persönlichen Profil anzuzeigen. Auf der Detailseite eines erworbenen Badges steht dafür der Button "Zu LinkedIn hinzufügen" zur Verfügung. OpenOlat übergibt Name, Aussteller, Ausstellungsdatum, Gültigkeitsdauer und die URL der öffentlichen Badge-Seite vorausgefüllt an LinkedIn. Der Badge wird dort mit einer hostbasierten Verifizierung überprüft. [:octicons-tag-16:{ title="ab Release 19.0 (OO-7741)" }](https://track.frentix.com/issue/OO-7741)
 

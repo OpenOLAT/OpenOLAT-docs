@@ -6,7 +6,7 @@ The configuration of a blog takes place in two places: **in the course element**
 
 After you have inserted a course element "Blog" in the course editor, you will find the configurations for the learning resource and authorizations in the **"Blog learning content"** tab of the course element.
 
-Depending on the course type, the display settings are possible in the tabs "Visibility" and "Access" (conventional courses) or "Layout" and "Learning path" (learning path courses).
+You define the display of the course element in the tab "Layout". Who sees and can open the course element when is controlled, depending on the course type, in the tabs "Visibility" and "Access" (conventional courses) or in the tab "Learning path" (learning path courses).
 
 !["Blog learning content" tab of the course element "Blog", where the blog learning resource is selected, its metadata is adopted, and the permissions for moderation and post creation are defined](assets/blog_configuration_tab_content_v1_de.png){ class="shadow lightbox" title="Blog learning content tab in the course editor" }
 
@@ -37,19 +37,20 @@ Once a learning resource has been inserted, the "Replace" button is displayed so
 
 ### ![2](assets/2_green_24.png) Metadata configuration
 
-Here you can determine whether the information entered in the blog **learning resource** under `Administration > Settings > Info tab` is adopted and displayed.
+Here you can determine whether the information entered in the blog **learning resource** under `Blog > Administration > Settings > Info` is adopted and displayed.
 
 
-### ![3](assets/3_green_24.png) Permissions
+### ![3](assets/3_green_24.png) Permissions [:octicons-tag-16:{ title="from Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417)
 
-**Moderator**<br>
-At course element level, you can determine whether coaches can take on the [moderator role](../learningresources/Blog_Blogging.md#blog_blogging_moderate) in addition to the course owner. Since the same learning resource can be used in different courses and course elements, the learning resource can be configured with moderator rights for coaches in one course and without moderator rights for coaches in another course.
+#### Moderator {: #moderator}
+
+At course element level, you can determine whether coaches can take on the [moderator role](../learningresources/Blog_Blogging.md#blog_blogging_moderate) in addition to the course owners. Since the same learning resource can be used in different courses and course elements, the learning resource can be configured with moderator rights for coaches in one course and without moderator rights for coaches in another course.
 
 If you activate the toggle button "Show advanced configuration", you have the option of limiting the moderator role to certain time periods. You can also designate specific individuals (regardless of their role) as moderators.
 
 ![Advanced configuration of the moderator role with start and end date per entry, here for the coach role, in the Permissions section](assets/blog_configuration_tab_content_moderator_v1_de.png){ class="shadow lightbox" title="Permissions section in the Blog learning content tab" }
 
-**Create posts**<br>
+#### Create items {: #create_entries}
 
 This defines which groups of people in the course are allowed to create blog posts. In addition to the course owners, this can be all coaches and all participants.
 
@@ -69,7 +70,7 @@ To configure the blog learning resource, you can
 * select the learning resource in the authoring area or
 * Click on "Edit learning resource" directly from the blog course element in the "Blog learning content" tab.
 
-Then select `Administration > Settings`. Configure the blog learning resource in the tabs displayed here. The settings made here are applied to all courses or course elements in which you integrate the blog learning resource.
+Then select `Blog > Administration > Settings`. Configure the blog learning resource in the tabs displayed here. The settings made here are applied to all courses or course elements in which you integrate the blog learning resource.
 
 ![Info, Metadata, Sharing, Quota and Options tabs for configuring the blog learning resource in the Administration, Settings section](assets/blog_configuration_resource_tabs_v1_de.png){ class="shadow lightbox" title="Settings of the blog learning resource" }
 
@@ -100,12 +101,12 @@ You can allow or prevent blog posts from being commented on and rated here.
 
 **Mentioned on this page**<br>
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
-[Blogging >](../learningresources/Blog_Blogging.md)<br>
-[Create a blog >](../learningresources/Blog_Create.md)<br>
-[How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
-[Course Element "Blog" >](../learningresources/Course_Element_Blog.md)
+[Blogging >](../learningresources/Blog_Blogging.md)
 
 **Further**<br>
+[Create a blog >](../learningresources/Blog_Create.md)<br>
+[How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
+[Course Element "Blog" >](../learningresources/Course_Element_Blog.md)<br>
 [Blog: Overview >](../learningresources/Blog.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Members management >](../learningresources/Members_management.md)

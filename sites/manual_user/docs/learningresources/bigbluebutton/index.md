@@ -51,7 +51,7 @@ You create online-meetings in the course element itself, with the course editor 
 
 ### Tab "Meeting management"
 
-In the tab "Meeting management" the owners and coaches of the course create and configure new online-meetings. Online-meetings that already exist can also be copied or deleted here. The tab is missing as long as no enabled room template is released for their role. The administration sets the release in the room template in the field "Room-template activated for" ([BigBlueButton module](../../../manual_admin/administration/BigBlueButton_module.md#room_config)).
+In the tab "Meeting management" the owners and coaches of the course create and configure new online-meetings. Online-meetings that already exist can also be copied or deleted here. The tab is missing as long as no enabled room template is released for their role. System administrators set the release in the room template in the field "Room-template activated for" ([BigBlueButton module](../../../manual_admin/administration/BigBlueButton_module.md#room_config)).
 
 ![Button "Add online-meeting" above the list of online-meetings, each row with start date, end date, room-template and the link "Edit" or "View"](../assets/bigbluebutton_meeting_management_v1_en.png){ class="shadow lightbox" title="Tab Meeting management in the course element BigBlueButton · 2026.11.02" }
 
@@ -59,13 +59,13 @@ The list "Online-meetings" shows the name, start date, end date and room-templat
 
 The following variants can be created:
 
-* **Add single meeting**
+* **Add single meeting**<br>
   Useful if there is to be only one specific date for the course element.
-* **Add permanent meeting room**
+* **Add permanent meeting room**<br>
   Suitable for a BigBlueButton room that is permanently available and used several times.
-* **Add daily recurring meeting**
+* **Add daily recurring meeting**<br>
   Creates daily meetings quickly.
-* **Add weekly recurring meeting**
+* **Add weekly recurring meeting**<br>
   Creates weekly meetings quickly, for example for webinar series or a semester.
 
 The variants only differ in the way the meetings are created. Separate online-meetings or reservations are created, which can then be edited individually. Depending on the configuration of the server, different options are available.

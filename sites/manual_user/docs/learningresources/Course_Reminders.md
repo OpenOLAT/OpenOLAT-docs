@@ -1,6 +1,6 @@
 # Course Reminders {: #course_reminders}
 
-The reminder feature is used to manage the automatic sending of emails. Reminders can be created, viewed, edited, and their status checked in various places.
+With reminders, OpenOlat automatically sends e-mails to course members as soon as the conditions you defined apply, for example one day before a submission deadline. You no longer have to remind anyone of deadlines, open tasks or the next step by hand. You create, edit and check reminders and their dispatch in several places in the course.
 
 Reminders are a feature of the course. Groups and individual tools such as the forum have no reminders. A group can only be selected as a recipient group of a course reminder. Anyone who wants to be informed about changes in a group or in a forum subscribes to the tool: [Group tools](../groups/Using_Group_Tools.md), [Subscribe to forums](Course_Element_Forum.md#abo), [Subscriptions](../personal_menu/Subscriptions.md).
 
@@ -13,14 +13,16 @@ Under `Course > Administration > Reminders`, all reminders of a course are displ
 ![Highlighted menu entry "Reminders" and highlighted button "Add reminder"](assets/course_reminder_access1_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
 
 
-### Course elements with reminder function
+### Course elements with reminder function [:octicons-tag-16:{ title="from Release 16.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447)
 
 In addition, there are course elements that can be linked to the reminder function. They have their own "Reminders" tab right on the element.
 
 **Call in the course editor:**
+
 ![Highlighted tab "Reminders" of a course element](assets/course_reminder_access3_v1_de.png){ class="shadow lightbox" title="Course element in the course editor" }
 
-**Call outside the course editor (run mode), for course owners only:**
+**Call outside the course editor, for course owners only:**
+
 ![Highlighted tab "Reminders" of a course element and highlighted role indicator "Owner"](assets/course_reminder_access2_v1_de.png){ class="shadow lightbox" title="Course element outside the course editor" }
 
 
@@ -46,19 +48,19 @@ To create a reminder, click the "Add reminder" button. A wizard appears that gui
 
 ![First step "Edit rules" with description, condition and additional conditions](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" title="New reminder dialog" }
 
-**Step 1: Edit description and conditions**
+**Step 1: Edit rules**
 
 First enter the description for the reminder. This description is only visible to the authors and is used for the clear and informative presentation of the reminders of a course. Then select the conditions for the dispatch. More on this below.
 
-**Step 2: Check conditions**
+**Step 2: Rules overview**
 
 In the second step of the wizard, the conditions are checked and it is shown again to whom the reminder would be sent according to the configuration.
 
-**Step 3: E-mail notification**
+**Step 3: E-mail message**
 
-In the last step, you enter the e-mail text to be sent. You can select whether the reminders should be sent to all persons in the course to whom the defined rules apply. Optionally, a copy can also be sent to course owners, coaches or persons with an external e-mail address.
+In the last step, you enter the e-mail text to be sent. Under "To", select "According to the rules" if the reminder is to go to all persons in the course to whom the conditions apply. Optionally, a copy goes to course owners, coaches or persons with an external e-mail address.
 
-Alternatively, the created reminder can also be sent only to the owners, responsible coaches or external e-mail addresses. This option is particularly suitable for test reminders or specific reminders for teachers.
+With "Only to specific recipients", the reminder goes only to the owners, the responsible coaches or to external e-mail addresses. This option is particularly suitable for test reminders or specific reminders for teachers.
 
 As soon as the conditions for a reminder are met, the e-mails are automatically released for dispatch. The exact sending time and frequency is defined system-wide by your system administrators.
 
@@ -69,7 +71,7 @@ As soon as the conditions for a reminder are met, the e-mails are automatically 
 
 ## Conditions for sending reminders {: #conditions}
 
-The specific conditions are decisive for the reminders to be sent. OpenOlat offers a wide range of options here. The conditions can be selected from a drop-down menu. Depending on the condition, a further input field appears to the right for more detailed information.
+The conditions determine when a reminder goes to whom. You select each condition from a drop-down menu. Depending on the condition, a further input field appears to the right for more detailed information.
 
 ![Drop-down list of the selectable conditions for a reminder, e.g. date of registration or course status](assets/course_reminder_conditions1_v1_de.png){ class="shadow lightbox" title="Edit rules step" }
 
@@ -77,41 +79,41 @@ Several conditions can be combined as required. This allows reminders to be trig
 
 ![Three combined conditions of a reminder: start date, course execution number and organizational unit](assets/course_reminder_condition2_v1_de.png){ class="shadow lightbox" title="Edit rules step" }
 
-!!! info "Note"
+!!! info "Important"
 
-    The link is an "and" link. This means that only if **all** conditions are met, the reminder e-mail will be triggered.
+    The conditions are linked with "and". OpenOlat triggers the reminder only if all conditions are met.
 
 The following criteria can be configured as a condition:
 
-* **Date of registration**<br>
+* **Enrollment date**<br>
 Dispatch x days, weeks, months or years later<br>
 _Example_: Participants receive additional information about the course 2 days after enrolment.
 
 * **Course status**<br>
-Select the status the course must be in for a reminder to be sent.
+Select the status the course must have for a reminder to be sent.
 
     * Preparation
     * Review
-    * Release from coach
+    * Access for coach
     * Published
     * Not preparation
     * Not review
-    * Not release from coach
+    * Not access for coach
     * Not published
 
-    _Example_: Only if the course has the status "Release from coach" will all coaches receive an info e-mail about their coaching task.
+    _Example_: Only if the course has the status "Access for coach" will all coaches receive an info e-mail about their coaching task.
 
 
-* **Start date implementation period of the course**<br>
+* **Begin date execution period of course**<br>
 x days, weeks, months or years before or after
 
-* **End date implementation period of the course**<br>
+* **End date execution period of course**<br>
 x days, weeks, months or years before or after
 
-* **First course visit**<br>
+* **Initial course launch date**<br>
 x days, weeks, months or years after
 
-* **Last course visit**<br>
+* **Recent course launch date**<br>
 x days, weeks, months or years after
 
 * **Participant is in the course execution number**<br>
@@ -119,22 +121,22 @@ This concerns the initial run or course repetition for recertification.
 
     _Example_: Participants who complete the course for the second time receive a reminder e-mail.
 
-* **Certificate date of issue**<br>
+* **Issue date certificate**<br>
 This option is only displayed if certificate allocation is activated: `Course > Administration > Settings > Tab "Assessment"`.<br>
 _Example_: The mail is sent 1 day after a certificate has been issued.
 
 * **Progress**<br>
 This option is only available for [learning path courses](../learningresources/Learning_path_course.md).
-The dispatch is based on the percentage course progress of the participants, as configured in the settings of the course administration.<br>
+OpenOlat sends the reminder depending on the percentage course progress of the participants, as configured in the settings of the course administration.<br>
 _Example_: Participants who have successfully completed at least 80% of a course will receive a motivational e-mail to complete the last 20% soon.
 
-* **Certificate date of expiry**<br>
+* **Expiration date certificate**<br>
 This option is only displayed if certificate allocation is activated: `Course > Administration > Settings > Tab "Assessment"`.<br>
 _Example_: The e-mail is sent 2 weeks before the certificate expires, so that participants are reminded to carry out the activities required for the certificate before it expires.
 
 <br>
 
-* **Group members**<br>
+* **Group member**<br>
 Selection of a specific group. Only the members of this group will receive the e-mail.
 
 * **Course role**<br>
@@ -152,15 +154,15 @@ The reminder recipients must have one of the following roles:
 * **User property**<br>
 The reminder recipients must have a certain value for one of the following characteristics:
 
-    * Postal code
-    * Region / canton
+    * Zip code
+    * Region/canton
     * City
     * Country
     * Institution
-    * Institution number (matriculation number)
-    * Institution e-mail
-    * Organizational unit / study group
-    * Study subject
+    * Institution identifier (registration number)
+    * Institutional e-mail
+    * Organizational unit/study group
+    * Field of studies
 
     _Example_: Reminder recipients from the city of Zurich.
 
@@ -175,7 +177,7 @@ Input fields for date and time, with a button as input aid for displaying the ca
 Input fields for date and time, with a button as input aid for displaying the calendar. This condition is often suitable for combining with other conditions, e.g. if a certain course progress has not been reached by a certain date.
 
 
-* **Date of the last attempt**<br>
+* **Date of last attempt**<br>
 This option relates to assessable course elements.
     * The drop-down list shows the possible course elements that can be taken into account.
     * x days, weeks, months or years after<br>
@@ -199,26 +201,26 @@ _Example_: A test course element was assessed as "Passed".
         _Example "Reminder to participant"_: A course element checklist has not yet been processed at time x or has been completed by the coach with "Undefined".
 
 
-* **Points**<br>
-This option only affects assessable course elements for which a number of points has been defined. The dispatch can then depend on a score.<br>
+* **Score**<br>
+This option only affects assessable course elements for which a number of points has been defined. OpenOlat then sends the reminder depending on the score achieved.<br>
 _Example_: Less than 3 points were achieved in a checklist.
 
 
 
-* **Schedule: Task assignment**<br>
+* **Deadline: Task assignment**<br>
 This option only affects course elements of the type "Task" for which the task has also been stored in the course element and a date has been assigned for the assignment. The reminder e-mail is then sent based on the date stored in the course editor, e.g. x days, weeks, months before.
 
-* **Schedule: Task submit documents**<br>
+* **Deadline: Task documents submission**<br>
 This option only affects course elements of the type "Task" for which "Submission" has been activated in the workflow configuration. A reminder e-mail can then be sent x days, weeks or months before the submission deadline.
 
-* **Schedule: Task submit peer review**<br>
-This option only affects course elements of the type "Task" for which the peer review function has been activated in the workflow and an "until" date has been linked to the review.
+* **Deadline: Task peer review submission**<br>
+This option only affects course elements of the type "Task" for which the peer review function has been activated in the workflow and an "until" date has been linked to the review.<br>
 _Example_: A reminder is sent 3 days before the final peer review deadline.
 
 <br>
 
-* **Schedule: Fill out form**<br>
-This option only affects course elements of the type "Form" for which an end date for completion has been defined in the course editor.
+* **Deadline: Form completion**<br>
+This option only affects course elements of the type "Form" for which an end date for completion has been defined in the course editor.<br>
 _Example_: A reminder is sent 2 days before the deadline for completing the form.
 
 [To the top of the page ^](#course_reminders)
@@ -234,9 +236,9 @@ _Example_: A reminder is sent 2 days before the deadline for completing the form
     Course reminders are not sent immediately. All reminder e-mails are sent together, e.g. daily at 9.00 a.m. This is a default setting and can be changed by system administrators in the system administration and adjusted up to "hourly": `Administration > Modules > Course reminders`.
     At the time of sending, OpenOlat checks which conditions are met and sends the e-mails accordingly. All course reminders that meet the conditions at, for example, 9.00 a.m. ("are in the outbox") are then sent.
 
-    If **"Until date"** is checked, the condition may already be fulfilled at the time the reminder is created, and e-mails are sent. This setting is particularly useful in combination with another condition, e.g. if "until date" is "the test has been passed", an e-mail is sent: "You have qualified on time and will receive ...".
+    With "Until date", the condition may already be met when the reminder is created, and OpenOlat sends the e-mails. This condition is particularly useful in combination with another condition, e.g. if "until date" is "the test has been passed", an e-mail is sent: "You have qualified on time and will receive ...".
 
-    If **"After date"** is used with a date after the time the reminder was created, the e-mails in the "outbox" are sent at the first possible sending date once the "after date" has been reached.
+    If "After date" is used with a date after the time the reminder was created, the e-mails in the "outbox" are sent at the first possible sending date once the "after date" has been reached.
 
     Please note:<br>
     An execution period begins at 0:00 a.m. on the start date and ends at 11:59 p.m. on the end date.<br>
@@ -267,7 +269,7 @@ _Example_: A reminder is sent 2 days before the deadline for completing the form
 
 !!! info "Operators"
 
-    Operators are required for the conditions "Participant is in the course execution number", "Attempts" and "Points" to correctly represent the different states "more than, less than, less or equal, more or equal, equal" and "not equal". They are used to compare expressions with each other and to generate a logical return value depending on this.
+    Operators are required for the conditions "Participant is in the course execution number", "Attempts" and "Score" to correctly represent the different states "more than, less than, less or equal, more or equal, equal" and "not equal". They are used to compare expressions with each other and to generate a logical return value depending on this.
 
     Operator | Description | Explanation
     ---------|----------|---------
@@ -392,8 +394,14 @@ Reminders can also be triggered specifically and repeatedly. However, reminders 
 
 ## Further information {: #further_information}
 
-Other OpenOlat tools that can also be used for reminders in other ways:
+**Mentioned on this page**<br>
+[Using Group Tools >](../groups/Using_Group_Tools.md)<br>
+[Course Element "Forum" >](Course_Element_Forum.md)<br>
+[User tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[How can coaches be informed about the learning progress of course participants? >](../../manual_how-to/progress_information/progress_information.md)
 
+**Further reading**<br>
 [User tools: E-Mail >](../personal_menu/E-Mail.md)<br>
 [Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
 [Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)

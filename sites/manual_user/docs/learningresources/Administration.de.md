@@ -1,6 +1,6 @@
 # Kurs-Administration: Übersicht {: #course_administration}
 
-![Menü "Administration" eines Lernpfad-Kurses mit seinen Optionen, von Einstellungen und Mitgliederverwaltung über Kursstatistiken und Kopieren bis Über diesen Kurs und Löschen](assets/course_administration_v5_de.png){ class="shadow lightbox aside-left-lg" }
+![Menü "Administration" eines Lernpfadkurses mit seinen Optionen, von Einstellungen und Mitgliederverwaltung über Kursstatistiken und Kopieren bis Über diesen Kurs und Löschen](assets/course_administration_v5_de.png){ class="shadow lightbox aside-left-lg" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank"}
 
@@ -218,7 +218,7 @@ Beim Kopieren eines Kurses werden die komplette Struktur, Ordnerinhalte, HTML-Se
 
 ## Kopieren mit Wizard [:octicons-tag-16:{ title="ab Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_wizard}
 
-Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierenden Elemente auswählen. Der Menüpunkt erscheint nur in Lernpfad-Kursen.
+Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierenden Elemente auswählen. Der Menüpunkt erscheint nur in Lernpfadkursen.
 
 [Zu den Details >](Course_Copy_Wizard.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -244,7 +244,7 @@ Den Menüpunkt gibt es nur in Kursen mit dem Verwendungszweck "Template". Dort s
 
 ## Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
-Herkömmliche Kurse (und damit u.a. alle Kurse, die vor der OpenOlat Version 15 erstellt wurden) können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Der ursprüngliche herkömmliche Kurs bleibt erhalten und es wird eine Kopie erzeugt, in der die zusätzlichen Eigenschaften eines Lernpfadkurses ergänzt werden. Beim Konvertieren muss als erstes entschieden werden, ob der Kurs "Mit Lernpfad" oder "Mit Lernfortschritt" erstellt werden soll.
+Herkömmliche Kurse (und damit u.a. alle Kurse, die vor der OpenOlat Version 15 erstellt wurden) können über dieses Werkzeug in einen Lernpfadkurs konvertiert werden. Der ursprüngliche herkömmliche Kurs bleibt erhalten und es wird eine Kopie erzeugt, in der die zusätzlichen Eigenschaften eines Lernpfadkurses ergänzt werden. Beim Konvertieren muss als erstes entschieden werden, ob der Kurs "Mit Lernpfad" oder "Mit Lernfortschritt" erstellt werden soll.
 
 Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
@@ -252,7 +252,7 @@ Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
     Wenn der Kurs lediglich in das aktuelle Format übertragen werden soll, ist in den meisten Fällen die Option "Mit Lernfortschritt" die bessere Wahl. Hier muss die Kursstruktur nicht in einer festen Reihenfolge bearbeitet werden, was der Hypermedia-Struktur des Ausgangskurses eher entspricht. Diese Einstellung kann bei Bedarf auch nachträglich im Kurseditor des kopierten Kurses am obersten Kursbaustein angepasst werden.
 
-    Beachten Sie, dass grundsätzlich Gäste keinen Zugang zu Lernpfad-Kursen haben.
+    Beachten Sie, dass grundsätzlich Gäste keinen Zugang zu Lernpfadkursen haben.
 
 
 

@@ -2,7 +2,7 @@
 
 ## Which terms of use must be accepted?
 
-When you use OpenOlat or certain elements of it for the first time, you may be required to agree to the terms of use. If this is required by the operating institution or by the owners of a course or other element, various terms of use may be displayed for confirmation.
+When you use OpenOlat or certain elements of it for the first time, you may be required to agree to the terms of use. If this is required by the operating organisation or by the owners of a course or other element, various terms of use may be displayed for confirmation.
 
 [Terms of use of the OpenOlat platform >](#terms_of_use_platform)
 
@@ -42,7 +42,7 @@ All users can read the terms of use that they have agreed to at any time in thei
 [To the top of the page ^](#terms_of_use)
 
 
-## Terms of use in the course settings {: #terms_of_use_course}
+## Terms of use in the course settings [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use_course}
 
 ### Confirmation by learners in the course
 
@@ -66,7 +66,7 @@ In addition, a second checkbox with any descriptive text can be defined for conf
 
 ### Activate confirmation request for a course
 
-In order for the terms of use to be displayed, they must be enabled by the course owner. If a text has been entered for the terms of use, it is retained after saving, regardless of whether the display is activated. You can therefore edit inserted terms of use, for example, and then deactivate them until the final version has been created.
+In order for the terms of use to be displayed, the course owners must enable them. If a text has been entered for the terms of use, it is retained after saving, regardless of whether the display is activated. You can therefore edit inserted terms of use, for example, and then deactivate them until the final version has been created.
 
 ![Checkbox Enabled next to Terms of use ticked, in the Disclaimer tab of the course settings](assets/terms_of_use_course_activate_v1_de.png){ class="shadow lightbox" title="Disclaimer tab of the course settings" }
 

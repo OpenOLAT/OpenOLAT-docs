@@ -8,7 +8,7 @@ In der Mitgliederverwaltung sehen Kursbesitzer:innen alle Benutzer:innen und Gru
 
 ## Bereich "Mitglieder" {: #section_members}
 
-Wenn Sie die Mitgliederverwaltung öffnen, befinden Sie sich im Bereich „Mitglieder”. Dort sehen Sie eine tabellarische Übersicht aller Personen, die Zugriff auf den Kurs oder die Lernressource haben. Über verschiedene Tabs können Sie alle oder ausgewählte Kursmitglieder anzeigen lassen, zum Beispiel nur Betreuer:innen oder ausschliesslich Teilnehmende. Zudem ist eine Filterung nach Kursrolle oder Kontotyp möglich.
+Wenn Sie die Mitgliederverwaltung öffnen, befinden Sie sich im Bereich "Mitglieder". Dort sehen Sie eine tabellarische Übersicht aller Personen, die Zugriff auf den Kurs oder die Lernressource haben. Über verschiedene Tabs können Sie alle oder ausgewählte Kursmitglieder anzeigen lassen, zum Beispiel nur Betreuer:innen oder ausschliesslich Teilnehmende. Zudem ist eine Filterung nach Kursrolle oder Kontotyp möglich.
 
 Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail senden. Ausserdem können Sie die Mitgliederdaten als Excel-Tabelle exportieren.
 
@@ -42,7 +42,7 @@ Im erweiterten Filterpanel (Pfeil-Symbol) lässt sich die Auswahl zusätzlich mo
 
 Über das Zahnrad-Menü lässt sich zusätzlich die Spalte "Herkunft" einblenden. Sie zeigt an, über welchen Weg eine Person Mitglied des Kurses wurde (Kurs, Gruppe oder Course Planner). Auch die Spalten "Beitritt" und "Letzter Besuch" können hier ergänzt werden.
 
-**Detailansicht:** Klicken Sie auf eine Zeile, um die Detailansicht einer Person zu öffnen. Sie zeigt eine Benutzerinfo-Karte (Kontotyp, Beitrittsdatum, ggf. letzter Besuch) mit der Aktion **Bearbeiten** sowie, sofern zutreffend, bis zu drei Herkunfts-Abschnitte:
+**Detailansicht:** Klicken Sie auf eine Zeile, um die Detailansicht einer Person zu öffnen. Sie zeigt eine Benutzerinfo-Karte (Kontotyp, Beitrittsdatum, ggf. letzter Besuch) mit der Aktion "Bearbeiten" sowie, sofern zutreffend, bis zu drei Herkunfts-Abschnitte:
 
 * **Herkunft: Kurs**: Spalten Rolle, Erstellt
 * **Herkunft: Gruppe**: Spalten Rolle, Gruppe, Erstellt
@@ -64,23 +64,23 @@ Wenn Sie eine Person aus der Liste auswählen, erhalten Sie weitere Informatione
 
 ![Dialog Mitglied bearbeiten mit Kontoinformationen, Kursrollen-Checkboxen und Tabelle der Gruppenmitgliedschaften](assets/Benutzerinfos_20.png){ class="shadow lightbox" title="Dialog Mitglied bearbeiten" }
 
-Es gibt drei spezifische Kurs-Rollen:  
+Es gibt drei spezifische Kursrollen:
 
   * **Besitzer:in**<br>
-Besitzer:innen haben alle Rechte innerhalb eines Kurses und können auf alle Menüs der [Kurs-Administration](../learningresources/Administration.de.md) zugreifen. Sie legen die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person, die einen Kurs anlegt ist automatisch Kurs-Besitzer:in. Kurs-Besitzer:innen können auch weitere Besitzer:innen dem Kurs hinzufügen.
+Besitzer:innen haben alle Rechte innerhalb eines Kurses und können auf alle Menüs der [Kurs-Administration](../learningresources/Administration.de.md) zugreifen. Sie legen die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person, die einen Kurs anlegt, ist automatisch Kursbesitzer:in. Kursbesitzer:innen können dem Kurs auch weitere Besitzer:innen hinzufügen.
 
   *  **Betreuer:in**<br>
-Betreuende begleiten in der Regel den laufenden Kurs, sind jedoch bei der Erstellung nicht involviert. Kurs-Betreuer:innen haben Zugriff auf das Bewertungswerkzeug, die To-dos, die Datenerhebungsvorschau und die Statistiken. Sofern ein Unterlagenordner für Betreuende aktiviert wurde, sehen sie diesen ebenfalls in der Administration. Betreuende bewerten auch direkt im Kurs. Je nach Konfiguration im Kurseditor haben sie eventuell auch Zugriff auf weitere Optionen und Funktionen bestimmter Kursbausteine.
+Betreuende begleiten in der Regel den laufenden Kurs, sind jedoch bei der Erstellung nicht involviert. Kursbetreuer:innen haben Zugriff auf das Bewertungswerkzeug, die To-dos, die Datenerhebungsvorschau und die Statistiken. Sofern ein Unterlagenordner für Betreuende aktiviert wurde, sehen sie diesen ebenfalls in der Administration. Betreuende bewerten auch direkt im Kurs. Je nach Konfiguration im Kurseditor haben sie eventuell auch Zugriff auf weitere Optionen und Funktionen bestimmter Kursbausteine.
 
   *  **Teilnehmer:in**<br>
-Teilnehmer:innen sind in der Regel die Lernenden bzw. Personen, die an einem Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der von den Besitzer:innen bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen Zugriff auf die Kurs Administration und die darin enthaltenen Menüs. 
-In [Lernpfad Kursen](../learningresources/Learning_path_course.de.md) sehen nur die Teilnehmenden die visualisierte Prozentanzeige rechts oben in der [Toolbar](../learningresources/Toolbar.de.md).
+Teilnehmer:innen sind in der Regel die Lernenden bzw. Personen, die an einem Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der von den Besitzer:innen bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen Zugriff auf die Kurs-Administration und die darin enthaltenen Menüs.
+In [Lernpfadkursen](../learningresources/Learning_path_course.de.md) sehen nur die Teilnehmenden die visualisierte Prozentanzeige rechts oben in der [Toolbar](../learningresources/Toolbar.de.md).
 
 Ein Kursmitglied kann in einem Kurs mehrere Rollen gleichzeitig besitzen. In diesem Fall erscheint in der Toolbar des Kurses bei der betreffenden Person die Option, die Rolle zu wechseln und den Kurs aus der Perspektive der jeweiligen Kursrolle zu betrachten.
 
 ![Rollenwechsel-Menü in der Toolbar mit den verfügbaren Rollen Besitzer:in, Betreuer:in und Kursplaner:in](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" title="Rollenwechsel-Menü in der Toolbar" }
 
-Besitzt der User noch darüberhinausgehende [System-Rollen](../basic_concepts/Roles_Rights.de.md), wie Lernressourcenverwalter:in oder Administrator:in, werden diese ebenfalls als Auswahlelement für die entsprechende Perspektive angezeigt.
+Besitzt die Person noch darüber hinausgehende [System-Rollen](../basic_concepts/Roles_Rights.de.md), wie Lernressourcenverwalter:in oder Administrator:in, werden diese ebenfalls als Auswahlelement für die entsprechende Perspektive angezeigt.
 
 
 ### Mitglieder hinzufügen {: #add_members}
@@ -94,11 +94,11 @@ Personen können auf verschiedene Arten einem Kurs hinzugefügt werden:
 * über den Course Planner im Rahmen eines übergeordneten Bildungsprodukts (CPL-Mitgliedschaft)
 
 
-#### Manuelles Eintragen durch Kurs-Besitzer:innen {: #add_members_manually}
+#### Manuelles Eintragen durch Kursbesitzer:innen {: #add_members_manually}
 
 Über den Link "Mitglied hinzufügen" kann nach bestimmten Personen mit OpenOlat Account gesucht werden oder die Massensuche verwendet werden. Ein Wizard führt Sie durch die Schritte zum Hinzufügen neuer Kursmitglieder.
 
-Die Massensuche bietet sich an, wenn der Anmeldename, die vom User verwendete E-Mail-Adresse oder die Institutionsnummer bekannt ist. Auf diesen Weg können auch viele Personen auf einmal dem Kurs hinzugefügt werden. 
+Die Massensuche bietet sich an, wenn der Anmeldename, die von der Person verwendete E-Mail-Adresse oder die Institutionsnummer bekannt ist. Auf diesem Weg können auch viele Personen auf einmal dem Kurs hinzugefügt werden.
 
 Alternativ kann die Option "Externe Mitglieder einladen" verwendet werden. Auf diesem Weg können auch Personen ohne OpenOlat Account für eine Dauer von maximal 180 Tagen der Lernressource hinzugefügt werden.
 
@@ -120,7 +120,7 @@ Für Administrator:innen: [Systemweite Konfiguration der Einladung (E-Mail, Mitg
 
 Hier sehen Sie die Gruppen des Kurses und können sich schnell einen Überblick über bestimmte Aspekte wie Teilnehmerzahl, Warteliste oder Zugang machen. Sie können dem Kurs bereits bestehende OpenOlat-Gruppen hinzufügen oder neue Gruppen erstellen. Vorhandene Gruppen können auch wieder aus dem Kurs entfernt werden.
 
-Wenn Sie auf einen Gruppennamen oder auf „Ändern“ klicken, öffnet sich die jeweilige Gruppe. Sie gelangen damit als Gruppenbetreuer:in direkt in die Gruppenadministration und können dort Änderungen vornehmen. 
+Wenn Sie auf einen Gruppennamen oder auf "Ändern" klicken, öffnet sich die jeweilige Gruppe. Sie gelangen damit als Gruppenbetreuer:in direkt in die Gruppenadministration und können dort Änderungen vornehmen.
 
 Gruppen können in einem OpenOlat Kurs unterschiedliche Funktionen besitzen.
 Typische Beispiele sind:
@@ -151,7 +151,7 @@ Sofern ein Kurs mit dem [Course Planner](../area_modules/Course_Planner.de.md) v
 
 ## Bereich "Buchungsaufträge" {: #section_booking_orders}
 
-Sofern für einen Kurs [Angebote](../learningresources/Access_configuration.de.md) eingerichtet wurden, werden unter „Buchungsaufträge“ alle Buchungsaufträge für diesen Kurs nach Status sortiert angezeigt.  
+Sofern für einen Kurs [Angebote](../learningresources/Access_configuration.de.md) eingerichtet wurden, werden unter "Buchungsaufträge" alle Buchungsaufträge für diesen Kurs nach Status sortiert angezeigt.
 
 Ein hier angezeigter Buchungsauftrag bedeutet, dass der Kurs eigenständig und buchbar ist und somit ein Angebot (zum Beispiel über einen Zugangscode) enthält.
 
@@ -199,24 +199,24 @@ Folgende Kursrechte können an Kursbetreuer:innen, Kursteilnehmer:innen und an d
 
 #### Gruppen-Verwaltung {: #right_group_management}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration" und es stehen zusätzlich alle Aktionen aus dem Bereich "Gruppen" der Mitgliederverwaltung also z.B. Gruppen erstellen, zum Kurs hinzufügen oder entfernen, Mails an Gruppen verschicken sowie die Aktionen aus dem Bereich "Einwilligungen" zur Verfügung.
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses und es stehen zusätzlich alle Aktionen aus dem Bereich "Gruppen" der Mitgliederverwaltung also z.B. Gruppen erstellen, zum Kurs hinzufügen oder entfernen, Mails an Gruppen verschicken sowie die Aktionen aus dem Bereich "Einwilligungen" zur Verfügung.
 
 #### Mitglieder-Verwaltung {: #right_members_management}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses.
 Es stehen alle Aktionen der Bereiche Mitglieder, Gruppen, Buchungsaufträge und Einwilligungen der Mitgliederverwaltung zur Verfügung, jedoch kein Rechtemanagement und kein Course-Planner-Bereich.
 
 #### Kurseditor {: #right_course_editor}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses.
 
-Bei Aktivierung dieser Rechte-Gruppe können auch Nicht-Autoren den Kurseditor mit allen dazu gehörenden Funktionalitäten verwenden. Darüber stehen der Gruppe noch weitere Menüs wie "Dateien", "Erinnerung", "Prüfungsverwaltung", "Lernbereich" u.a. zur Verfügung. In der Prüfungsverwaltung starten und beenden Mitglieder mit diesem Recht auch eine Prüfung mit manuellem Start.
+Bei Aktivierung dieser Rechte-Gruppe können auch Personen ohne Autorenrolle den Kurseditor mit allen dazu gehörenden Funktionalitäten verwenden. Darüber hinaus stehen der Gruppe noch weitere Menüs wie "Dateien", "Erinnerung", "Prüfungsverwaltung", "Lernbereich" u.a. zur Verfügung. In der Prüfungsverwaltung starten und beenden Mitglieder mit diesem Recht auch eine Prüfung mit manuellem Start.
 
 #### Datenarchivierung {: #right_archiving}
 
-Für die aktivierte Gruppe erscheint zusätzlich das Menü Kurs-Administration mit dem Untermenü Archivierung & Reports. Mitglieder haben Zugriff auf alle Bereiche der [Archivierung](../learningresources/Course_Archiving.de.md) und damit auf sämtliche Kursdaten. Sie können Kursinhalte wie Forenbeiträge oder Testergebnisse aller Teilnehmenden archivieren.  
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses mit dem Eintrag "Archivierung & Reports": `Kurs > Administration > Archivierung & Reports`. Mitglieder haben Zugriff auf alle Bereiche der [Archivierung](../learningresources/Course_Archiving.de.md) und damit auf sämtliche Kursdaten. Sie können Kursinhalte wie Forenbeiträge oder Testergebnisse aller Teilnehmenden archivieren.
 
-Die Vergabe dieser Berechtigung sollte aus Datenschutzgründen sorgfältig abgewogen werden.  
+Die Vergabe dieser Berechtigung sollte aus Datenschutzgründen sorgfältig abgewogen werden.
 
 
 #### Bewertungs-Werkzeug {: #right_assessment_tool}
@@ -237,19 +237,19 @@ Dieses Recht erlaubt es den Mitgliedern, das Glossar des Kurses zu bearbeiten. D
 
 #### Statistiken {: #right_statistics}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses.
 
 Mitglieder mit diesem Recht erhalten Zugriff auf alle für diesen Kurs zur Verfügung stehenden Statistikbereiche, also Kursstatistiken, Fragebogen Statistiken und Teststatistiken. Die Daten können angezeigt und heruntergeladen werden.
 
 #### Prüfungsmodus {: #right_assessment_mode}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration" mit der Prüfungsverwaltung.
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses mit der Prüfungsverwaltung.
 
 Mitglieder dürfen neue [Prüfungskonfigurationen](../learningresources/Assessment_mode.de.md) einrichten, bearbeiten und löschen. In der Prüfungsverwaltung starten und beenden sie auch eine Prüfung mit manuellem Start, siehe [Wer eine Prüfung manuell starten und beenden kann](../learningresources/Assessment_mode.de.md#start_stop_rights).
 
 #### Kurs Datenbank {: #right_course_db}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses.
 
 Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und exportieren.
 
@@ -260,7 +260,7 @@ Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und e
 
 ##  Bereich "Einwilligungen"  {: #section_consent}
 
-Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer:innen hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird ein User in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen entfernt.
+Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer:innen hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird eine Benutzer:in in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen entfernt.
 
 [Zum Seitenanfang ^](#members_management)
 
@@ -281,8 +281,8 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 [Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
-[Glossar >](../learningresources/Glossary.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>
+[Glossar >](../learningresources/Glossary.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)
 
 **Weiterführend**<br>
