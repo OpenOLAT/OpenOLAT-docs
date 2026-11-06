@@ -144,6 +144,7 @@ Folgende Einstellungen bzw. Einschränkungen sind in beiden Tabs möglich:
 * Datumsabhängig
 * Gruppenabhängig
 * Bewertungsabhängig
+* Attributsabhängig
 * Nur in Prüfungsmodus
 
 **Für Teilnehmende gesperrt**: Alle Personen, die ausschliesslich als Kurs- oder
@@ -168,6 +169,20 @@ Dabei kann sowohl auf eine bestimmte Mindestpunktzahl oder auf ein "bestanden"
 eines anderen Kursbausteins geprüft werden. Beispielsweise können bestimmte
 Bereiche des Kurses erst freigeschaltet werden, wenn ein bestimmter Test
 bestanden wurde.
+
+**Attributsabhängig**: Auf diesem Weg stellen Sie einen Baustein nur Personen
+mit bestimmten Merkmalen ihrer Hochschule oder Institution zur Verfügung, zum
+Beispiel nur Angehörigen einer bestimmten Universität oder Studienrichtung.
+Jede Regel besteht aus einem "Attribut", einem "Operator" wie "hat exakt den
+Wert" oder "enthält den Wert" und einem "Wert". Mit "+" fügen Sie weitere
+Regeln hinzu. Unter "Regeln verknüpft mit" legen Sie fest, ob alle Regeln
+zutreffen müssen ("UND") oder ob eine genügt ("ODER"). Die Attribute übermittelt
+die Hochschule oder Institution, wenn sich die Person über Shibboleth (AAI)
+anmeldet. Die Regel greift deshalb nur bei Personen, die sich über Shibboleth
+anmelden. Die Option erscheint nur, wenn Ihre OpenOlat-Instanz die Anmeldung
+über Shibboleth anbietet und Attribute dafür eingerichtet sind. Für die
+Einrichtung wenden Sie sich an Ihre Organisation. Mehr zu den Attributen finden
+Sie im Abschnitt [Einsatz von AAI-Attributen](Access_Restrictions_in_the_Expert_Mode.de.md#einsatz-von-aai-attributen).
 
 **Nur in Prüfungsmodus**: Sollen bestimmte Kursbausteine nur während einer
 OpenOlat Prüfungssituation angezeigt werden bzw. zugänglich sein, wählen Sie
@@ -229,8 +244,8 @@ Informationen zum Tab "Lernpfad" von Lernpfadkursen finden Sie auf der Seite
 [Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
-[Prüfungsverwaltung: Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Zugriffsbeschränkungen im Expertenmodus >](Access_Restrictions_in_the_Expert_Mode.de.md)<br>
+[Prüfungsverwaltung: Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
 [Lernpfadkurs - Kurseditor >](Learning_path_course_Course_editor.de.md)
 

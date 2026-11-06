@@ -131,6 +131,7 @@ The following settings and restrictions are possible in both tabs:
 * Depending on date
 * Depending on group
 * Depending on assessment
+* Depending on attribute
 * Only in assessment mode
 
 **Blocked for participants**: All persons who are exclusively registered as
@@ -154,6 +155,19 @@ tasks, portfolio tasks, checklists or assessments. You can check for a certain
 minimum score or for a "passed" of another course element. For example,
 certain areas of the course can only be activated once a certain test has been
 passed.
+
+**Depending on attribute**: In this way you make a course element available
+only to persons with certain characteristics of their university or
+institution, for example only to members of a certain university or field of
+study. Each rule consists of an "Attribute", an "Operator" such as "has exactly
+the value" or "contains the value", and a "Value". Click "+" to add further
+rules. Under "Rules connected with" you define whether all rules must apply
+("AND") or whether one is enough ("OR"). The university or institution
+transmits the attributes when the person logs in via Shibboleth (AAI). The rule
+therefore only applies to persons who log in via Shibboleth. The option only
+appears if your OpenOlat instance offers login via Shibboleth and attributes
+are set up for it. For the setup, contact your organization. For more
+information on the attributes, see the section [Use of AAI Attributes](Access_Restrictions_in_the_Expert_Mode.md#use-of-aai-attributes).
 
 **Only in assessment mode**: If you want certain course elements to be
 displayed or accessible only during an OpenOlat assessment situation, select
@@ -210,8 +224,8 @@ You can find information about the tab "Learning path" of learning path courses 
 [Course elements at a glance >](Course_Elements.md)<br>
 [Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Learning path course - Overview >](Learning_path_course.md)<br>
-[Assessment management: Assessment mode >](Assessment_mode.md)<br>
 [Access Restrictions in the Expert Mode >](Access_Restrictions_in_the_Expert_Mode.md)<br>
+[Assessment management: Assessment mode >](Assessment_mode.md)<br>
 [Course Element "Structure" >](Course_Element_Structure.md)<br>
 [Learning path course - Course editor >](Learning_path_course_Course_editor.md)
 
