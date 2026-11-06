@@ -134,7 +134,7 @@ Sie laden die Datei direkt herunter, mit dem Button "Start" unter:<br>
 
 ![Die Datei Mitgliedschaften herunterladen: im aufgeklappten Menü Reports der Eintrag Mitgliedschaften markiert, rechts der Hinweistext und der markierte Button Start](assets/course_archiving_reports_memberships_v1_de.png){ class="shadow lightbox" title="Archivierung & Reports eines Kurses · 2026.10.22" }
 
-Der Dateiname setzt sich aus dem Kurstitel, dem Wort "Mitgliedschaften" sowie Datum und Uhrzeit des Downloads zusammen. OpenOlat legt diese Datei nicht im Kursarchiv ab. Zusätzlich ist sie Teil jedes Gesamtarchivs, und beim Teilarchiv steht sie als Archivobjekt zur Wahl, siehe [Ein Teilarchiv erstellen](#partial_archive).
+Der Dateiname setzt sich aus dem Kurstitel, dem Wort "Mitgliedschaften" sowie Datum und Uhrzeit des Downloads zusammen. Der Button "Start" lädt nur diese Excel-Datei herunter, eine Kursarchiv-Datei entsteht dabei nicht. Unter "Kursarchiv" im Autorenbereich kommt deshalb kein Eintrag dazu. Als Teil einer Kursarchiv-Datei erhalten Sie die Mitgliedschaften, wenn Sie den Kurs archivieren: Jedes Gesamtarchiv enthält sie als `course_memberships.xlsx`, beim Teilarchiv stehen sie als Archivobjekt zur Wahl, siehe [Ein Teilarchiv erstellen](#partial_archive).
 
 **Aufbau der Datei**<br>
 Die Datei hat vier Blätter:

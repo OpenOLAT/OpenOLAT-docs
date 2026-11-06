@@ -134,7 +134,7 @@ You download the file directly, with the button "Start" under:<br>
 
 ![Download the file Memberships: in the expanded Reports menu the entry Memberships is highlighted, on the right the hint text and the highlighted Start button](assets/course_archiving_reports_memberships_v1_en.png){ class="shadow lightbox" title="Archiving & Reporting of a course · 2026.10.22" }
 
-The file name consists of the course title, the word "Memberships" and the date and time of the download. OpenOlat does not store this file in the course archive. In addition, the file is part of every complete archive, and it can be selected as an archive object for a partial archive, see [Create a partial archive](#partial_archive).
+The file name consists of the course title, the word "Memberships" and the date and time of the download. The button "Start" only downloads this Excel file, no course archive file is created. Therefore no entry is added under "Course archive" in the author area. You get the memberships as part of a course archive file when you archive the course: every complete archive contains them as `course_memberships.xlsx`, and for a partial archive they can be selected as an archive object, see [Create a partial archive](#partial_archive).
 
 **Structure of the file**<br>
 The file has four sheets:
