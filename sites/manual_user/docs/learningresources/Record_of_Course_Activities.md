@@ -1,6 +1,6 @@
 # Record of Course Activities {: #record_of_course_activities}
 
-OpenOlat records course activities of participants and course authors in log files.
+If you want to understand how a course is used, evaluate the log files: OpenOlat records the course activities of the participants and the course authors in them.
 
 Within a course, you archive the log files in the [Archiving & Reporting](../learningresources/Course_Archiving.md) tool [:octicons-tag-16:{ title="from Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620) under:<br>
 `Course > Administration > Archiving & Reporting > Log files`
@@ -13,7 +13,7 @@ The following log files are available:
 
 Owners of the course as well as learning resource managers and administrators of the organisation the course belongs to can archive log files. Owners and learning resource managers choose between the admin log file and the statistics log file. The course right "Archive tool" opens the Archiving & Reporting tool, but not the log files. Persons who only have this course right see the message "You have no rights to archive log files." under Log files.
 
-Use the fields "from" and "to" to limit the log files to a period; both fields are optional. The period includes the day in the "to" field. With **Archive**, OpenOlat creates the selected log files and notifies you by e-mail as soon as the ZIP file is ready. The image shows the selection as owners see it.
+Use the fields "from" and "to" to limit the log files to a period; both fields are optional. The period includes the day in the "to" field. With "Archive", OpenOlat creates the selected log files and notifies you by e-mail as soon as the ZIP file is ready. The image shows the selection as owners see it.
 
 ![Choice between the admin log file and the statistics log file, statistics log file selected, period from and to set](assets/course_archive_reports_logfiles_v2_en.png){ class="shadow lightbox" title="Log files in the Archiving & Reporting tool · 2026.10.02" }
 
@@ -25,7 +25,7 @@ OpenOlat stores the selected log files as a ZIP file (e.g. _CourseLogFiles_2010-
 
 In the file _course_statistic_log.xlsx_, each participant receives an identifier of 32 characters instead of their name (e.g. `e1c7eafdebc3c103fb8959e186326363`), which remains the same within a course. This allows you to track the activities of participant X in course Y, but not to compare them with their activities in course Z, since participant X receives a different identifier in course Z. The identifier is a pseudonym: combined with other information, such as the time of a forum post, it can be linked to a person. Therefore, treat the file as personal data.
 
-Possible entries in the log file columns **actionCrudType** (database operation), **actionVerb** (action) and **actionObject** (course object handled) (grouped alphabetically):
+The table groups the possible entries of the log file columns "actionCrudType" (database operation), "actionVerb" (action) and "actionObject" (course object handled) alphabetically:
 
 actionCrudType| actionVerb| actionObject
 ---|---|---
@@ -44,25 +44,23 @@ e | edit | help
 |  | view | testattempts, testcomment, testid, testscore, testsuccess, tools, toolsempty
 |  |  | waitingperson
 
-The column **actionCrudType** summarizes the actions performed in basic database operations. Since these are further broken down in the actionVerb column, actionCrudType is not further relevant.
+The column "actionCrudType" groups the actions into basic database operations. For an evaluation, the column "actionVerb" is usually sufficient, as it breaks these operations down further. The values of the column "actionCrudType" mean:
 
-Nevertheless, here is the key:
+* c = create
+* r = retrieve
+* u = update
+* d = delete
+* e = exit
 
-* C=Create
-* R=Read / Retrieve
-* U=Update / Modify
-* D=Delete
-* E=Exit
+The column "actionVerb" shows which action the person from the column "userName" performed on the course object. The column "actionObject" names this course object, that is, the object that was changed from the database perspective. The columns "parentResName" and "targetResName" name the parent object and the object the action is aimed at.
 
-The column **actionVerb** then examines in more detail which action the users under "userName" performed on the course object from the actionObject column. The entry in the **actionObject** column is thus the object that was "changed", at least from a database perspective.
+![Sample entries with the columns creationDate, userName, actionCrudType, actionVerb, actionObject, parentResName and targetResName](assets/course_statistic_log.gif){ class="shadow lightbox" title="Statistics log file course_statistic_log.xlsx" }
 
-![Sample entries of the statistics log file with the columns creationDate, userName, actionCrudType, actionVerb and actionObject](assets/course_statistic_log.gif){ class="shadow lightbox" title="Statistics log file course_statistic_log.xlsx" }
-
-The third row
+An example is the third row in the image:
 
 `u / add / participant / [group name] / [username]`
 
-is read as follows (database operation: update / modify):
+It means, with the database operation update:
 
 `Add user [username] to [group]`
 

@@ -2,49 +2,59 @@
 
 [:octicons-tag-16:{ title="ab Release 18.2 (OO-7039)" }](https://track.frentix.com/issue/OO-7039)
 
+Mit einem To-do im Kurs geben Sie Kursteilnehmer:innen einen Auftrag, etwa eine Vorbereitung bis zu einem bestimmten Termin. Die zugewiesenen Personen finden das To-do im Kurs und in ihren persönlichen To-dos und behalten so den Überblick über ihre Aufgaben. To-dos gibt es auch in Projekten, im Kursbaustein "Aufgabe" und im Qualitätsmanagement; was für alle To-dos gilt, steht unter [To-dos: Grundlagen](../basic_concepts/To_Dos_Basics.de.md).
+
 ## Wo erstelle ich im Kurs To-dos?
 
-Die To-dos, die einen bestimmten Kurs betreffen, können direkt im Kurs unter `Kurs > Administration > To-dos` erstellt werden.  
+Die To-dos eines Kurses erstellen und verwalten Sie direkt im Kurs unter:<br>
+`Kurs > Administration > To-dos`
 
-![Menüpunkt "To-dos" hervorgehoben im aufgeklappten Menü "Administration" des Kurses](assets/course_todos_menu_v1_de.png){ class="shadow lightbox" }
+![Geöffnetes Menü Administration eines Kurses mit dem hervorgehobenen Eintrag "To-dos" zwischen "Bewertungswerkzeug" und "Erinnerung", über den Sie die To-dos des Kurses öffnen](assets/course_todos_menu_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.11.06" }
 
 ## Wer kann im Kurs To-dos erstellen?
 
-In einem Kurs können To-dos von **Kursbesitzer:innen** und **Betreuer:innen** erstellt werden. Daneben auch von allen Systemrollen, die **administrativen Zugriff** auf den Kurs haben (Lernressourcenverwalter:innen, Administrator:innen, usw.).
+To-dos im Kurs erstellen Kursbesitzer:innen und Betreuer:innen. Dazu kommen alle Rollen mit administrativem Zugriff auf den Kurs, etwa Lernressourcenverwalter:innen und Administrator:innen.
 
-## To-dos für alle Kursteilnehmer 
+Betreuer:innen erstellen To-dos, solange in den Kurseinstellungen die Option "To-dos bearbeiten" eingeschaltet ist. Das ist die Voreinstellung. Die Option steht im Abschnitt "Einstellungen Betreuer:innen" unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Optionen"`<br>
+Mehr dazu unter [Kurseinstellungen - Tab Optionen](Course_Settings_Options.de.md). In der Liste der To-dos sehen Betreuer:innen die To-dos der Teilnehmer:innen, die sie betreuen.
 
-Es ist häufig der Fall, dass Kursbesitzer oder Betreuer einen Auftrag (To-do) an alle Kursteilnehmer vergeben möchten. Deshalb besteht im Kurs die Möglichkeit, To-dos an alle Kursteilnehmer zu vergeben oder an Einzelpersonen. Den Button zum Erstellen eines neuen To-dos finden Sie rechts oben über der Liste.  
+## To-dos für alle Kursteilnehmer:innen
 
-![Button "To-do hinzufügen" oben rechts, auf der Seite "To-Dos" des Kurses](assets/course_todos_create_v2_de.png){ class="shadow lightbox" }
+Oft gilt ein Auftrag für alle Teilnehmer:innen eines Kurses. Den Button "To-do hinzufügen" finden Sie rechts oben über der Liste der To-dos.
 
-Im zweiten Schritt des Wizards können Sie entscheiden, ob das To-do für alle Kursteilnehmer oder nur für eine Einzelperson gelten soll. 
+![Seite To-dos im Kurs mit dem hervorgehobenen Button "To-do hinzufügen" rechts oben, darunter ein To-do für drei Teilnehmer:innen mit seinen drei Einzel-To-dos](assets/course_todos_create_v3_de.png){ class="shadow lightbox" title="Seite To-dos im Kurs · 2026.11.06" }
 
-![Wizard-Schritt "Zuweisung" mit der Wahl zwischen allen und einzelnen Kursteilnehmer:innen](assets/course_todos_create_to_all_v1_de.png){ class="shadow lightbox" }
+Der Button öffnet einen Wizard mit drei Schritten:
 
+- **To-do**: Sie erfassen Titel, Fälligkeitstermin und die weiteren Angaben. Die Felder beschreibt der Abschnitt [Die Felder eines To-dos](../basic_concepts/To_Dos_Basics.de.md#to_do_fields).
+- **Zuweisung**: Sie wählen zwischen "Alle Kursteilnehmer:innen" und "Einzelne Kursteilnehmer:in".
+- **Übersicht**: Sie sehen das To-do und die zugewiesenen Personen, bevor Sie mit "Fertigstellen" abschliessen.
+
+![Schritt Zuweisung im Wizard To-do hinzufügen, in dem Sie das To-do mit "Alle Kursteilnehmer:innen" allen zuweisen oder mit "Einzelne Kursteilnehmer:in" Personen auswählen](assets/course_todos_create_to_all_v2_de.png){ class="shadow lightbox" title="Schritt Zuweisung im Wizard To-do hinzufügen · 2026.11.06" }
 
 ## To-dos für Einzelpersonen
 
-Neben der vorstehend gezeigten Option, können Sie zum Erstellen eines To-dos für eine Einzelperson auch auf den kleinen Pfeil neben dem Button "To-do hinzufügen" klicken. Dann zeigt sich ein Drop-Down, das ebenfalls zur Erstellungsmaske führt.
+Gilt ein To-do nur für eine Person, klicken Sie auf den kleinen Pfeil neben dem Button "To-do hinzufügen" und wählen "To-do für einzelne:n Teilnehmer:in hinzufügen". Es öffnet sich der Dialog "To-do bearbeiten".
 
-![Dropdown-Pfeil neben dem Button "To-do hinzufügen" geöffnet mit der Option "To-do für einzelnen Teilnehmer hinzufügen"](assets/course_todos_create_single_v1_de.png){ class="shadow lightbox" }
+![Geöffneter Pfeil neben dem Button "To-do hinzufügen" mit der Option "To-do für einzelne:n Teilnehmer:in hinzufügen", über die Sie ein To-do für eine Person erstellen](assets/course_todos_create_single_v2_de.png){ class="shadow lightbox" title="Seite To-dos im Kurs · 2026.11.06" }
 
-## Wie wird über die To-dos informiert?  
+## Wie wird über die To-dos informiert?
 
-Wurde von Betreuer:innen oder Kursbesitzer:innen ein To-do erstellt, erscheint es bei den Empfängern **im persönlichen Menü** unter der Option **"To-dos"**.
+Ein To-do aus dem Kurs erscheint bei den zugewiesenen Personen im Kurs unter `Mein Kurs > To-dos` und in den [persönlichen To-dos](../personal_menu/To-Dos.de.md):<br>
+`Persönliches Menü > To-dos`
 
-![Menüpunkt "To-Dos" hervorgehoben im persönlichen Menü](assets/course_todos_pers_menu_v1_de.png){ class="shadow lightbox" }
+![Geöffnetes persönliches Menü mit dem hervorgehobenen Eintrag "To-dos" in der Gruppe "Persönliche Werkzeuge", über den Teilnehmer:innen ihre To-dos aus allen Kursen finden](assets/course_todos_pers_menu_v2_de.png){ class="shadow lightbox" title="Persönliches Menü · 2026.11.06" }
 
-Klicken Sie auf die grossen Plus-Symbole am Anfang der Zeile um die Details zu sehen.
+Über das Pluszeichen am Zeilenanfang klappen Sie die Details eines To-dos auf. Wann OpenOlat zusätzlich E-Mails verschickt, steht unter [Wann OpenOlat E-Mails zu To-dos verschickt](../basic_concepts/To_Dos_Basics.de.md#notifications).
 
 ## Weiterführende Informationen {: #further_information}
 
-To-dos können an mehreren Stellen in OpenOlat erstellt werden. Weitere Information finden Sie auch hier:
-
-[Allgemeines zu To-dos](../basic_concepts/To_Dos_Basics.de.md)<br>
-[To-dos im persönlichen Menü](../personal_menu/To-Dos.de.md)<br>
-[To-dos innerhalb eines Projektes](../area_modules/Project_Todos.de.md)<br>
-[To-dos im Kursbaustein Aufgabe](../learningresources/Course_Element_Task/index.de.md)<br>
-[Massnahmen To-dos im Qualitätsmanagement](../area_modules/Quality_Management_To-dos.de.md)
+[To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
+[Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)<br>
+[Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
+[Projekte: To-dos >](../area_modules/Project_Todos.de.md)<br>
+[Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
+[Qualitätsmanagement: Massnahmen (To-dos) >](../area_modules/Quality_Management_To-dos.de.md)
 
 [Zum Seitenanfang ^](#to-dos-im-kurs)
