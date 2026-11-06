@@ -1,17 +1,17 @@
-# Wie erstelle ich ein Content Package?
+# Wie erstelle ich ein Content Package? {: #content_package}
 
-Die folgende Anleitung zeigt Ihnen, wie Sie importierte oder selbst erstellte Content Packages erstellen und in Ihren OpenOlat-Kurs einbinden.
+Die folgende Anleitung zeigt Ihnen, wie Sie ein Content Package in OpenOlat erstellen oder importieren und in Ihren OpenOlat-Kurs einbinden.
 
 
 ---
 
 ## Was ist ein Content Package (CP)?
 
-Ein Content Package (CP) wird im E-Learning genutzt, um Lerninhalte oder Tests als **in sich geschlossene Pakete** zu erstellen. 
+Ein Content Package (CP) wird im E-Learning genutzt, um Lerninhalte oder Tests als in sich geschlossene Pakete zu erstellen.
 
-Es ist ein **standardisiertes Format**. Dadurch können auch CP's von anderen Lernplattformen in OpenOlat importiert werden. Umgekehrt können Sie in OpenOlat erstellte CP's auch in anderen Lernplattformen verwenden, die das CP-Format unterstützen.
+Es ist ein standardisiertes Format. Dadurch können auch CPs von anderen Lernplattformen in OpenOlat importiert werden. Umgekehrt können Sie in OpenOlat erstellte CPs auch in anderen Lernplattformen verwenden, die das CP-Format unterstützen.
 
-Das am weitesten verbreitete Format wurde von IMS Global definiert. Es wird eine XML-Manifestdatei namens imsmanifest.xml verwendet, die den Aufbau des Content Packages beschreibt. Diese Datei zur Strukturbeschreibung ist zusammen mit den Lerninhalten (HTML-Dateien, Bild-Dateien) in eine **ZIP-Datei** gepackt.
+Das am weitesten verbreitete Format wurde von IMS Global definiert. Es wird eine XML-Manifestdatei namens imsmanifest.xml verwendet, die den Aufbau des Content Packages beschreibt. Diese Datei zur Strukturbeschreibung ist zusammen mit den Lerninhalten (HTML-Dateien, Bild-Dateien) in eine ZIP-Datei gepackt.
 
 ---
 
@@ -39,21 +39,21 @@ Es gibt grundsätzlich zwei Möglichkeiten:
 
 ## Schritt 1: Kurseditor öffnen und Kursbaustein "CP-Lerninhalt" einfügen  
 
-a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der CP-Lerninhalt eingefügt werden soll.
-  
-![cp_autorenbereich_v1_de.png](assets/cp_autorenbereich_v1_de.png){ class="shadow lightbox" }  
+a) Gehen Sie in den Autorenbereich und suchen Sie dort den Kurs, in den der CP-Lerninhalt eingefügt werden soll.
 
-b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration" befindet.
+![Suchbegriff Content Package im Suchfeld, darunter der gefundene Kurs, in den der CP-Lerninhalt kommt, Suchfeld und Kurszeile hervorgehoben](assets/content_package_authoring_v1_de.png){ class="shadow lightbox" title="Tab Meine Einträge im Autorenbereich · 2026.11.06" }
+
+b) Öffnen Sie den gewünschten Kurs im Kurseditor: `Kurs > Administration > Kurseditor`.
 
 c) Wählen Sie die Stelle im Kursmenü, an der der Baustein hinzugefügt werden soll. Kursbausteine werden immer unterhalb des aktuell ausgewählten Kursbausteins eingefügt. 
 
-d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** oder nutzen Sie die Quick-Add Funktion und wählen Sie im Popup mit der Auswahlliste "CP-Lerninhalt".
+d) Klicken Sie in der Kopfzeile des Editors auf "Kursbausteine einfügen" und wählen Sie in der Auswahlliste "CP-Lerninhalt". Alternativ tippen Sie den Namen des Kursbausteins in das Feld "Quick-Add".
 
-Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
+Damit ist der Kursbaustein dem Kurs hinzugefügt.
 
-e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibung" und speichern Sie den Kursbaustein.  
+e) Vergeben Sie nun im Tab "Titel und Beschreibung" einen passenden Titel und speichern Sie den Kursbaustein.
 
-!!! tip "Hinweis"
+!!! info "Wichtig"
 
     Wenn Sie den Kurseditor bereits jetzt schliessen, wird im Menü kein Kursbaustein mit Content Package angezeigt, denn der Kursbaustein ist noch unvollständig. Es fehlt noch die Lernressource, das CP.
 
@@ -61,62 +61,64 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibun
 
 ## Schritt 2: Content Package (Lernressource) erstellen  
 
-a) Gehen Sie in den **Tab "Lerninhalt"** und klicken Sie auf „CP-Lerninhalt wählen, erstellen oder importieren“.
+a) Wechseln Sie in den Tab "Lerninhalt" und klicken Sie auf "CP-Lerninhalt wählen, erstellen oder importieren".
 
-![cp_erstellen_v1_de.png](assets/cp_erstellen_v1_de.png){ class="shadow lightbox" }  
+![Neuer Kursbaustein ohne CP-Lerninhalt, der Tab Lerninhalt und der Button CP-Lerninhalt wählen, erstellen oder importieren hervorgehoben, über den das Content Package in den Kursbaustein kommt](assets/content_package_learning_content_tab_v1_de.png){ class="shadow lightbox" title="Kursbaustein CP-Lerninhalt im Kurseditor · 2026.11.06" }
 
-b) Hier können Sie nun 
+b) Im Dialog, der sich öffnet, können Sie
 
-* ein **neues** Content Package erstellen, 
-* ein Content Package **hochladen**, das als Lernressource in OpenOlat bereits vorhanden ist
-* oder ein Content Package **hochladen**, das Ihnen als zip-Datei vorliegt (z.B. durch einen Export aus einem anderen System).
+* ein neues Content Package erstellen,
+* ein Content Package wählen, das als Lernressource in OpenOlat bereits vorhanden ist,
+* oder ein Content Package importieren, das Ihnen als ZIP-Datei vorliegt (z.B. durch einen Export aus einem anderen System).
 
-Wir gehen im Folgenden davon aus, dass Sie ein **neues** Content Package erstellen möchten.
-  
-c) Klicken Sie auf den **Button "Erstellen"**. 
+Wir gehen im Folgenden davon aus, dass Sie ein neues Content Package erstellen möchten.
 
-![cp_erstellen_importieren_v1_de.png](assets/cp_erstellen_importieren_v1_de.png){ class="shadow lightbox" }  
+c) Klicken Sie auf den Button "Erstellen".
 
-d) Geben Sie einen **Titel** für Ihre CP-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
+![Dialog mit dem Button Erstellen für ein neues Content Package, daneben Datei importieren für eine ZIP-Datei und darunter die Liste vorhandener CP-Lerninhalte zur Auswahl, Erstellen hervorgehoben](assets/content_package_select_create_import_v1_de.png){ class="shadow lightbox" title="Dialog CP-Lerninhalt wählen, erstellen oder importieren · 2026.11.06" }
 
-![cp_titel_v1_de.png](assets/cp_titel_v1_de.png){ class="shadow lightbox" } 
+d) Geben Sie einen Titel für Ihre CP-Lernressource ein und bestätigen Sie mit "Erstellen".
 
-Fertig. Damit ist eine neue Lernressource angelegt und weitere Einstellungen sowie die konkrete Ausgestaltung können vorgenommen werden.
+![Pflichtfeld Titel mit dem Eintrag Mein erstes Content Package, darunter Kennzeichen, Fachbereiche / Katalog und Administrative Freigabe](assets/cp_titel_v1_de.png){ class="shadow lightbox" title="Dialog CP-Lerninhalt erstellen" }
+
+Fertig. Damit ist eine neue Lernressource angelegt. Sie können nun weitere Einstellungen festlegen und den Inhalt gestalten.
 
 !!! tip "Tipp"
 
     Alternativ kann ein CP-Lerninhalt (so wie alle anderen Lernressourcen) auch im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Lerninhalt" in den gewünschten Kurs eingebunden werden. 
-    
+
     Bei diesem Vorgehen wird deutlich, dass Lernressourcen kursübergreifende Elemente sind und die Einbindung im gewählten Kurs nur eine der Verwendungsmöglichkeiten darstellt. 
-    
+
     Das gleiche Content Package kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
 
 ---
 
 ## Schritt 3: Content Package bearbeiten
- 
-!!! tip "Hinweis"
+
+!!! note "Hinweis"
 
     In OpenOlat ist ein eigener Editor für Content Packages im IMS-Standard vorhanden. 
     Weitere Informationen zu IMS CP finden Sie unter der folgenden Adresse: http://www.imsglobal.org/content/packaging/
-    
+
     Sie können zur Erstellung aber auch einen anderen Editor verwenden und dann die dort erstellte zip-Datei importieren.
 
 
-<h3> a) Lernressource editieren (Vorschau öffnen)</h3>
+<h3> a) Lernressource bearbeiten (Vorschau öffnen)</h3>
 
-Öffnen Sie den Kurseditor und klicken Sie im Tab "Lerninhalt" auf "Editieren".
+Öffnen Sie den Kurseditor und klicken Sie im Tab "Lerninhalt" auf "Bearbeiten". Der Button "CP-Lerninhalt auswechseln" daneben bindet stattdessen ein anderes Content Package in den Kursbaustein ein.
 
-![cp_editieren_v1_de.png](assets/cp_editieren_v1_de.png){ class="shadow lightbox" } 
+![Tab Lerninhalt mit dem gewählten CP-Lerninhalt Mein erstes Content Package, der Button Bearbeiten für die Vorschau hervorgehoben](assets/content_package_edit_button_v1_de.png){ class="shadow lightbox" title="Kursbaustein CP-Lerninhalt im Kurseditor · 2026.11.06" }
 
-Sie gelangen damit auf die Vorschau Ihres Content Packages. Da es neu erstellt wurde, enthält es aktuell noch keine Seiten.
+Mit "Bearbeiten" gelangen Sie auf die Vorschau Ihres Content Packages. Ein neu erstelltes Content Package enthält eine erste Seite mit Platzhaltertext.
 
-![cp_gesamtvorschau_v1_de.png](assets/cp_gesamtvorschau_v1_de.png){ class="shadow lightbox" } 
+![Neu erstellter CP-Lerninhalt mit der ersten Seite Lorem Ipsum, darüber die Toolbar mit Administration, Status und Infoseite](assets/cp_gesamtvorschau_v1_de.png){ class="shadow lightbox" title="Vorschau des CP-Lerninhalts" }
 
 
 <h3> b) CP-Editor öffnen</h3>
 
-Durch Klick auf **"Administration"** und dann **"Inhalt editieren"** gelangen Sie in den Bearbeitungs-Modus des CP-Editor. Die schraffierte Kopfzeile zeigt es Ihnen an. (Sie bearbeiten hier jedoch nicht einen Kurs, sondern eine Lernressource.)
+Über `CP-Lerninhalt > Administration > Inhalt editieren` gelangen Sie in den Bearbeitungsmodus des CP-Editors. Die schraffierte Kopfzeile zeigt ihn an. (Sie bearbeiten hier jedoch nicht einen Kurs, sondern eine Lernressource.)
+
+![Geöffnetes Menü Administration der Lernressource, der Eintrag Inhalt editieren für den CP-Editor hervorgehoben](assets/content_package_admin_menu_v1_de.png){ class="shadow lightbox" title="Vorschau des CP-Lerninhalts · 2026.11.06" }
 
 Sie finden hier alle Werkzeuge zum Ergänzen von Inhalt in der CP-Lernressource:
 
@@ -126,34 +128,31 @@ Sie finden hier alle Werkzeuge zum Ergänzen von Inhalt in der CP-Lernressource:
 * ergänzen Sie Videos,
 * ...
 
+![Seitenbaum mit der Seite Neue Seite, daneben der Texteditor und oben die Werkzeuge Seite importieren, hinzufügen, kopieren und löschen](assets/cp_editor_offen_v1_de.png){ class="shadow lightbox" title="CP-Editor" }
 
-![cp_editor_oeffnen_v1_de.png](assets/cp_editor_oeffnen_v1_de.png){ class="shadow lightbox" } 
+!!! tip "Tipp"
 
-![cp_editor_offen_v1_de.png](assets/cp_editor_offen_v1_de.png){ class="shadow lightbox" } 
-
-!!! tip "Hinweis"
-
-    Vergessen Sie nicht, am unteren Rand des Editors auf **"Speichern"** zu klicken!
+    Vergessen Sie nicht, am unteren Rand des Editors auf "Speichern" zu klicken!
 
 
 <h3> c) Editieren der Lernressource abschliessen</h3>
 
 Haben Sie alle Inhalte in das Content Package eingefügt, verlassen Sie den Bearbeitungsmodus (schraffierte Kopfzeile), damit die Änderungen sichtbar werden. Klicken Sie dazu
 
-* entweder auf **das kleine rote Kreuz** rechts oben
-* oder auf die **Breadcrumb**.
+* entweder auf das kleine rote Kreuz rechts oben
+* oder auf den Titel der Lernressource in der Breadcrumb.
 
 Sie gelangen dann wieder zur Ansicht der Lernressource.
 
-![cp_editor_verlassen_v1_de.png](assets/cp_editor_verlassen_v1_de.png){ class="shadow lightbox" } 
+![CP-Editor mit dem Titel der Lernressource in der Breadcrumb und dem roten Kreuz rechts oben, beide hervorgehoben](assets/cp_editor_verlassen_v1_de.png){ class="shadow lightbox" title="CP-Editor" }
 
 <h3> d) Weitere Einstellungen der CP-Lernressource </h3>
 
-Sie befinden sich immer noch in der Lernressource. Zum **Kurs** und dem **Kursbaustein** CP-Lerninhalt ist es nochmals eine Stufe weiter zurück.
+Sie befinden sich immer noch in der Lernressource. Zum Kurs und zum Kursbaustein CP-Lerninhalt ist es nochmals eine Stufe weiter zurück.
 
-Bevor Sie auf diese Ebene zurück gehen, empfiehlt es sich, in der Lernressource zuerst noch weitere Einstellungen vorzunehmen. (Sie können die Einstellungen zur Lernressource aber auch später jederzeit wieder aufrufen.)
+Bevor Sie auf diese Ebene zurückgehen, empfiehlt es sich, in der Lernressource zuerst weitere Einstellungen festzulegen: `CP-Lerninhalt > Administration > Einstellungen`. Sie können die Einstellungen zur Lernressource auch später jederzeit wieder aufrufen. Wer in der Organisation der Lernressource die Rolle Systemadministrator:in, Administrator:in, Rollenverwalter:in, Benutzerverwalter:in oder Lernressourcenverwalter:in hat, sieht zusätzlich den Tab "Quota".
 
-![cp_weitere_einstellungen_v1_de.png](assets/cp_weitere_einstellungen_v1_de.png){ class="shadow lightbox" } 
+![Menü Administration mit dem Eintrag Einstellungen, daneben die Tabs Metadaten, Info, Freigabe und Layout, in denen die Einstellungen der Lernressource liegen, alle hervorgehoben](assets/content_package_settings_v1_de.png){ class="shadow lightbox" title="Einstellungen des CP-Lerninhalts · 2026.11.06" }
 
 
 <h3> e) Navigation ins Kursmenü übernehmen</h3>
@@ -162,14 +161,25 @@ Innerhalb eines Content Packages existieren normalerweise verschiedene Seiten un
 
 Diese Navigation innerhalb des Content Packages kann in das Menü des OpenOlat-Kurses übernommen werden. So wird die Navigation für die Lernenden vereinfacht.
 
-Gehen Sie dazu zurück zum **Kurseditor** und selektieren Sie den  Kursbaustein. Wählen Sie dort im Tab **"Lerninhalt"** die Option **"CP Navigation im Kurs Menu integrieren"**.
+Bei einem neuen Kursbaustein ist die Option "CP Navigation im Kurs Menu integrieren" bereits aktiviert. Sie finden die Option im Kurseditor im Tab "Lerninhalt" des Kursbausteins. Möchten Sie die Navigation nicht im Kursmenü zeigen, deaktivieren Sie die Option und speichern Sie.
 
-![cp_navigation_v1_de.png](assets/cp_navigation_v1_de.png){ class="shadow lightbox" } 
+![Tab Lerninhalt mit dem Abschnitt Darstellung, die aktivierte Option CP Navigation im Kurs Menu integrieren hervorgehoben, die die Seiten des Content Packages ins Kursmenü übernimmt](assets/content_package_navigation_option_v1_de.png){ class="shadow lightbox" title="Kursbaustein CP-Lerninhalt im Kurseditor · 2026.11.06" }
 
 ---
 
 ## Schritt 4: Kurs publizieren und Status auf "Veröffentlicht" ändern  
-  
+
 Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
-Das Content Package ist nun eingebunden und Kursteilnehmende können den Inhalt lesen.
+Das Content Package ist nun eingebunden und Teilnehmende können den Inhalt lesen.
+
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
+[Kursbaustein "CP-Lerninhalt" >](../../manual_user/learningresources/Course_Element_CP_Learning_Content.de.md)<br>
+[CP-Lerninhalt erstellen >](../../manual_user/learningresources/CP_Editor.de.md)
+
+[Zum Seitenanfang ^](#content_package)
