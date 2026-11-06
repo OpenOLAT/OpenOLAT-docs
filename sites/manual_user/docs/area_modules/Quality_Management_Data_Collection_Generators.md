@@ -10,7 +10,7 @@
 
 If you run the same survey in many courses, for example a feedback at the end of every course, you do not have to create the data collections one by one. A data collection generator creates them automatically in the Quality management module, according to rules you define once.
 
-![A data collection generator creates several data collections from one form learning resource, each with its own group of people and submission deadline](assets/quality_management_scheme_generator_v1_de.png){ class="lightbox" title="Scheme of a data collection generator" }
+![A data collection generator creates several data collections from one form learning resource, each with its own group of people and submission deadline](assets/quality_management_scheme_generator_v1_en.png){ class="lightbox" title="Scheme of a data collection generator" }
 
 
 ## How is a data collection generator created? {: #create_QMgenerator}
