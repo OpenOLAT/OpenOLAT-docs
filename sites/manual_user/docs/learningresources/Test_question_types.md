@@ -4,6 +4,10 @@ The following question types can be used in OpenOlat tests:
 
 The question types marked with an * must be evaluated manually.
 
+!!! tip "Import questions"
+
+    Besides creating questions directly, you can also import questions from the [question bank](../area_modules/Question_Bank/index.md) or via the [Excel import](../area_modules/Question_Bank_Import_Questions.md#excelimport) from a table in Excel.
+
 ## :o_icon_o_mi_qtisc: Single Choice {: #sc}
 
 A single-choice question consists of a question and answers, of which only one can be selected. In a test only one answer is correct.
@@ -312,7 +316,18 @@ Essay questions come with a pre-defined width and a tab function. Hence, answers
 
 !!! info "Autosave"
 
-	As the name already says, with this question type essays are often written. Thus this question type has got an autosave feature, which saves written text every minute. Further information about the configuration of essays can be found in the excursion below this table.
+    As the name already says, with this question type essays are often written. Thus this question type has got an autosave feature, which saves written text every minute. Further information about the configuration of essays can be found in the following digression "Writing essays".
+
+??? abstract "Digression: Writing essays"
+
+    With the learning resource test and the question type essay, candidates can write essays in OpenOlat. So that no text is lost, consider the following points:
+
+    * The autosave feature saves the written text every minute. After the first save, "Last saved at" with the time is shown on the left below the answer field. Autosave prevents the candidates from losing written text, for e.g. if the internet connection is broken or a session time out is reached. If a candidate has not submitted the answer with the "Submit answer" button, OpenOlat shows the content saved via autosave during the correction, with a note to this effect.
+    * If it comes to an interruption, the candidates should be able to start the test again. So the following settings need to be met:
+        * The number of attempts for the whole test is not limited ("Max. number of attempts"). To make sure that the test is not started again at a later point (after finishing the current test), it is either carried out in the Safe Exam Browser, or the visibility is restricted to the assessment mode.
+        * The option "Allow to suspend" is switched on. So after an interruption the candidates come back to where they left. The text is stored until the last saving. There can be some small text losses.
+        * The number of attempts for the essay question is not limited ("Limit number of attempts"). This allows candidates to submit the written text over and over again and continue writing. The regular submitting of the written text gives security to the candidates.
+    * If the test has a time limit, the state of the last automatic save is kept when the time runs out. Text written after that is lost if the candidates have not submitted the answer with "Submit answer" before the time runs out. Remind your candidates shortly before the end to submit the answer once more and not to write anything afterwards.
 
 ---
 
@@ -330,38 +345,18 @@ No correct answer can be marked, as the assessment of this question type is only
 
 ## :o_icon_o_mi_qtidrawing: Drawing* {: #draw}
 
-For the questions type drawing the candidate gets the task to edit a given picture with the available drawing tools.
+With the question type Drawing, candidates edit a given picture with the available drawing tools. The answer is the edited drawing, therefore you assess this question type manually.
 
-First a short title and a question, or more an edit instruction are inserted.
+First enter a short title under "Title" and the question or the editing instruction under "Question". Then upload the picture that the candidates edit under "Background". Title and background are mandatory fields. You do not define a correct answer.
 
-Afterward a picture for the background is uploaded. This picture needs to be edited by the candidates. No answer needs to be added, as the
-assessment of this question type is done manually.
-
-It is also possible for the candidates to add text via the text tool. The text size can be customized using the brush size.
+With the tool "Text", candidates can also write text into the drawing. With the slider "Brush size" they set the line width and the text size, with the slider "Opacity" the transparency.
 
 !!! info "Note: Restriction to mobile devices"
 
     This question type is operated by freehand drawing and is not optimized for touch operation. It is best suited for tests that candidates work on at a desktop computer or laptop.
 
 
-![Drawing question with drawing tools and a background image of a connector](assets/Zeichnen_Beispiel.png){ class="shadow lightbox" title="Drawing as seen by candidates" }
-
-!!! tip "Import questions"
-
-    Besides creating questions directly, you can also import questions from the [question bank](../area_modules/Question_Bank/index.md) or via the [Excel import](../area_modules/Question_Bank_Import_Questions.md#excelimport) from a table in Excel.
-
-??? abstract "Digression: Writing essays"
-
-    With the learning resource test and the question type essay, essays can be written in OpenOlat. The following points need to be considered:
-
-    * The autosave feature for the question type essay saves the written text every minute. The time of the last storage is visible on the bottom right. Autosave prevents the candidates from losing written text, for e.g. if the internet connection is broken or a session time out is reached. If a candidate has not actively submitted the answer to the question via the "Submit answer" button, the content already saved via autosave is displayed in the correction workflow with a note to this effect.
-    * If it comes to an interruption, the candidates should be able to start the test again. So the following settings need to be met:
-        * The number of attempts for the whole test should not be limited. To make sure that the test is not started again at a later point (after the actual test time), it can be done with the Safe Exam Browser or in the assessment mode.
-        * Suspending the test is allowed. So after an interruption the candidate comes back to where they left. The text is stored until the last saving. There can be some small text losses.
-        * The number of attempts for the essay question is not limited. This allows candidates to submit the written text over and over again and continue writing. The regular submitting of the written text gives security to the candidates.
-    * If a test has a time limit, the text is saved at the very end only if it is submitted right before the time is running out. Please remind your candidates shortly before test end to submit the question one more time and not writing anything anymore afterward.
-
-    If considering these recommendations an essay can be written in OpenOlat.
+![Toolbar with shapes, text, brush and colours, below it the sliders Brush size and Opacity, a connector as background picture](assets/Zeichnen_Beispiel.png){ class="shadow lightbox" title="Drawing as seen by candidates" }
 
 ## Further information {: #further_information}
 

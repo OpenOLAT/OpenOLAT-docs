@@ -4,6 +4,10 @@ Folgende Fragetypen können in OpenOlat Tests verwendet werden:
 
 Die mit einem * versehenen Fragetypen müssen manuell ausgewertet werden.
 
+!!! tip "Import von Fragen"
+
+    Neben dem direkten Erstellen können Sie Fragen auch aus dem [Fragenpool](../area_modules/Question_Bank/index.de.md) oder über den [Excelimport](../area_modules/Question_Bank_Import_Questions.de.md#excelimport) aus einer Tabelle in Excel importieren.
+
 ## :o_icon_o_mi_qtisc: Single Choice {: #sc}
 
 Eine Single-Choice-Frage besteht aus einer Frage und Antworten, von denen nur eine ausgewählt werden kann. Im Test ist nur eine Antwort richtig.
@@ -314,7 +318,18 @@ Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion a
 
 !!! info "Autosave"
 
-	Mit dem Fragetyp Freitext werden oft Aufsätze geschrieben. Dieser Fragetyp hat deshalb eine Autosave-Funktion, welche den geschriebenen Text jede Minute speichert. Weitere Informationen zur Konfiguration von Aufsätzen finden Sie im Exkurs unterhalb dieser Tabelle.
+    Mit dem Fragetyp Freitext werden oft Aufsätze geschrieben. Dieser Fragetyp hat deshalb eine Autosave-Funktion, welche den geschriebenen Text jede Minute speichert. Weitere Informationen zur Konfiguration von Aufsätzen finden Sie im folgenden Exkurs "Aufsatz schreiben".
+
+??? abstract "Exkurs: Aufsatz schreiben"
+
+    Mit der Lernressource Test und dem Fragetyp Freitext können Teilnehmende in OpenOlat Aufsätze schreiben. Damit dabei kein Text verloren geht, beachten Sie folgende Punkte:
+
+    * Die Autosave-Funktion speichert den geschriebenen Text jede Minute. Nach der ersten Speicherung steht links unter dem Antwortfeld "Zuletzt gespeichert um" mit der Uhrzeit. Der Autosave verhindert, dass geschriebener Text verloren geht, wenn beispielsweise die Internetverbindung unterbrochen oder ein Session Timeout erreicht wird. Haben Teilnehmende die Antwort nicht mit dem Button "Antwort speichern" abgegeben, zeigt OpenOlat bei der Korrektur den per Autosave gespeicherten Inhalt mit einem entsprechenden Hinweis an.
+    * Falls es zu einem Unterbruch kommt, sollen die Teilnehmenden den Test nochmals starten können. Dies setzt folgende Einstellungen voraus:
+        * Die Anzahl Versuche für den gesamten Test ist nicht eingeschränkt ("Max. Anzahl Versuche"). Damit der Test später (nach Beenden des aktuellen Tests) nicht nochmals gestartet werden kann, wird er entweder im Safe Exam Browser durchgeführt, oder die Sichtbarkeit ist auf den Prüfungsmodus beschränkt.
+        * Die Option "Unterbrechen erlauben" ist eingeschaltet. So kommen die Teilnehmenden nach einem Unterbruch wieder dorthin zurück, wo sie herausgeworfen worden sind. Der Text ist bis zur letzten Speicherung gespeichert. Es kann also zu kleinen Textverlusten kommen.
+        * Die Anzahl Versuche für die Freitext-Frage ist nicht eingeschränkt ("Anzahl Versuche einschränken"). Dies erlaubt es Teilnehmenden, den geschriebenen Text immer wieder abzuschicken und dann weiterzuschreiben. Das regelmässige Abschicken des geschriebenen Textes gibt den Teilnehmenden Sicherheit.
+    * Hat der Test eine Zeitbeschränkung, bleibt beim Ablauf der Zeit der Stand der letzten automatischen Speicherung erhalten. Text, der danach geschrieben wurde, geht verloren, wenn die Teilnehmenden die Antwort nicht vor Ablauf der Zeit mit "Antwort speichern" abgegeben haben. Erinnern Sie die Teilnehmenden kurz vor Schluss daran, die Antwort nochmals abzugeben und anschliessend nichts mehr zu schreiben.
 
 ---
 
@@ -332,37 +347,18 @@ Eine korrekte Antwort kann nicht markiert, da die Auswertung dieses Fragetyps au
 
 ## :o_icon_o_mi_qtidrawing: Zeichnen* {: #draw}
 
-Die Teilnehmenden haben beim Fragetyp Zeichnen die Aufgabe, ein vorgegebenes Bild mit den zur Verfügung stehenden Zeichnungsinstrumenten zu bearbeiten.
+Beim Fragetyp Zeichnen bearbeiten die Teilnehmenden ein vorgegebenes Bild mit den verfügbaren Zeichenwerkzeugen. Die Antwort ist die bearbeitete Zeichnung, deshalb bewerten Sie diesen Fragetyp manuell.
 
-Zuerst wird ein kurzer Titel und die Frage, respektive die Bearbeitungsanweisung eingegeben.
+Geben Sie zuerst unter "Titel" einen kurzen Titel und unter "Frage" die Frage oder die Bearbeitungsanweisung ein. Laden Sie danach unter "Hintergrund" das Bild hoch, das die Teilnehmenden bearbeiten. Titel und Hintergrund sind Pflichtfelder. Eine richtige Antwort legen Sie nicht fest.
 
-Anschliessend wird ein Bild als Hintergrund hochgeladen. Dieses Bild muss dann von den Teilnehmenden bearbeitet werden. Es muss keine Antwort angegeben werden, da die Auswertung dieses Fragetyps ausschliesslich manuell erfolgt.
-
-Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe der Pinselgrösse steuern.
+Die Teilnehmenden können mit dem Werkzeug "Text" auch Text in die Zeichnung schreiben. Mit dem Regler "Pinselgrösse" bestimmen sie die Strichbreite und die Textgrösse, mit dem Regler "Deckkraft" die Transparenz.
 
 !!! info "Hinweis: Einschränkung auf mobile Geräte"
 
     Dieser Fragetyp wird durch freihändiges Zeichnen bedient und ist für die Touch-Bedienung nicht optimiert. Er eignet sich am besten für Tests, welche die Teilnehmenden an einem Desktop-Gerät oder Laptop bearbeiten.
 
 
-![Zeichnen-Frage mit Zeichenwerkzeugen und einem Hintergrundbild eines Steckers](assets/Zeichnen_Beispiel_DE.png){ class="shadow lightbox" title="Zeichnen aus Sicht der Teilnehmenden" }
-
-!!! tip "Import von Fragen"
-
-    Neben dem direkten Erstellen können Sie Fragen auch aus dem [Fragenpool](../area_modules/Question_Bank/index.de.md) oder über den [Excelimport](../area_modules/Question_Bank_Import_Questions.de.md#excelimport) aus einer Tabelle in Excel importieren.
-
-??? abstract "Exkurs: Aufsatz schreiben"
-
-    Mit der Lernressource Test und dem Fragetyp Freitext können im OpenOlat Aufsätze geschrieben werden. Dazu sind folgende Punkte zu beachten:
-
-    * Die Autosave Funktion für den Fragetyp Freitext speichert den geschriebenen Text jede Minute. Die Uhrzeit der letzten Speicherung ist unten rechts sichtbar. Der Autosave verhindert, dass geschriebener Text verloren geht, wenn beispielsweise die Internetverbindung unterbrochen oder ein Session Timeout erreicht wird. Haben Teilnehmende die Antwort zur Frage nicht aktiv über den Button "Antwort speichern" abgegeben, wird der bereits per Autosave gespeicherte Inhalt im Korrektur-Workflow mit einem entsprechenden Hinweis angezeigt.
-    * Falls es zu einem Unterbruch kommt, sollen die Teilnehmenden den Test nochmals starten können. Dies setzt folgende Einstellungen voraus:
-        * Die Anzahl Versuche für den gesamten Test ist nicht eingeschränkt. Damit der Test später (nach Beenden des aktuellen Tests) nicht nochmals gestartet werden kann, wird er entweder im Safe Exam Browser durchgeführt, oder die Sichtbarkeit ist auf den Prüfungsmodus beschränkt.
-        * Das Unterbrechen des Tests ist erlaubt. So kommen die Teilnehmenden nach einem Unterbruch wieder dorthin zurück, wo sie herausgeworfen worden sind. Der Text ist bis zur letzten Speicherung gespeichert. Es kann also zu kleinen Textverlusten kommen.
-        * Die Anzahl Versuche für die Freitext Frage ist nicht eingeschränkt. Dies erlaubt es Teilnehmenden, den geschriebenen Text immer wieder abzuschicken und dann weiterzuschreiben. Das regelmässige Abschicken des geschriebenen Textes gibt den Teilnehmenden Sicherheit.
-    * Falls der Test eine Zeitbeschränkung hat, wird der Text ganz am Schluss nur dann gespeichert, wenn er vor Ablauf der Zeit nochmals abgeschickt worden ist. Erinnern Sie die Teilnehmenden kurz vor Schluss daran, die Frage nochmals abzuschicken und anschliessend nichts mehr zu schreiben.
-
-    Bei Beachtung dieser Empfehlungen kann ein Aufsatz im OpenOlat geschrieben werden.
+![Werkzeugleiste mit Formen, Text, Pinsel und Farben, darunter die Regler Pinselgrösse und Deckkraft, ein Stecker als Hintergrundbild](assets/Zeichnen_Beispiel_DE.png){ class="shadow lightbox" title="Zeichnen aus Sicht der Teilnehmenden" }
 
 ## Weiterführende Informationen {: #further_information}
 
