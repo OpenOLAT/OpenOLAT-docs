@@ -68,7 +68,7 @@ Im Tab Pool-Verwaltung erstellen, bearbeiten und löschen Sie Pools. Pools wie a
 
 ## Tab Fragetypen
 
-Der Tab Fragetypen listet alle Fragetypen auf, die im Fragenpool vorkommen. Das sind zum einen die [Fragetypen](../../manual_user/learningresources/Test_question_types.de.md), die Sie in OpenOlat erstellen. Zum anderen sind es Fragetypen aus Fragen, die aus externen Systemen importiert wurden. Reichen die Standard-Fragetypen von OpenOlat nicht aus, erstellen Sie mit "Fragetyp erstellen" weitere. Die Standard-Fragetypen lassen sich nicht löschen.
+Der Tab Fragetypen listet die [Fragetypen](../../manual_user/learningresources/Test_question_types.de.md) von OpenOlat auf. Den Fragetyp einer Frage legt ihr Aufbau fest. Ändern lässt er sich nicht. Mehr dazu, auch zum Fragetyp beim Import, unter [Fragenpool: Administration](../../manual_user/area_modules/Question_Bank_Administration.de.md#type).
 
 ## Tab Stufen
 

@@ -78,29 +78,15 @@ Only administrators and question bank managers with the right for the pool admin
 
 ### Type {: #type}
 
-![Type page with the button Create type and the table of the question types with type key and translation, so you see which question types exist and where you add one](assets/question_bank_administration_question_types_v1_en.png){ class="shadow lightbox" title="Type page in the Administration area · 2026.10.29" }
+The question type indicates how a question is built and how participants answer it, for example Single Choice, Gap text or Hotspot. The page [Test question types](../learningresources/Test_question_types.md) describes which question types OpenOlat offers.
 
-OpenOlat offers various [question types](../learningresources/Test_question_types.md) for tests. You create questions of these types in the test editor of the learning resource Test or in the question bank. If the default question types are not sufficient, create additional question types here. The default question types cannot be deleted.
+When you create a question, you choose its question type. When you edit or import the question, OpenOlat determines the question type itself from the way the question is built. You cannot change it. The [detailed view](Item_Detailed_View.md#metadata_item_analysis) of a question shows it in the metadata "Type" in the section "Item analysis". In the question lists, you find the questions of a type with the filter "Type".
 
-In the test editor and in the question bank you only create questions of the default question types. In the detailed view of a question, the metadata "Type" in the category "Item analysis" shows the question type. You cannot change it there.
+**Question type in the import**
 
-Translate a newly created question type into each language that is enabled in your OpenOlat instance. This way, for example, German- and English-speaking users see the type name in their language and not the translation key.
+When you import a ZIP file or a test from Authoring, OpenOlat recognizes the question type of each question from its content. You do not have to specify anything.
 
-**Create type**
-
-You create a new question type with the button "Create type". It appears at the bottom of the table of types, in the column "Translation", following this pattern:
-
-    item.type.[type name]
-
-This is the translation key. OpenOlat uses it to translate the type name into the languages of your OpenOlat instance.
-
-![Two new question types at the end of the table, one already translated as My question type, the other still with the translation key item.type.myquestion](assets/qb_qtypes_EN.gif){ class="shadow lightbox" title="Table of question types" }
-
-Click on the corresponding row in the table column "Translation". The dialog "Translation" opens:
-
-![Dialog Translation with one field each for German, English, Italian, French and Spanish, so you see that you translate a type name for all languages in one step](assets/question_bank_administration_translation_v1_en.png){ class="shadow lightbox" title="Dialog Translation of a question type · 2026.11.02" }
-
-The dialog shows one field for each language that is enabled in your OpenOlat instance. Enter the type name in each language and click "OK". From now on, OpenOlat shows the name in the table of types, in the filter "Type" of the question lists and in the detailed view of a question under "Type".
+In the [Excel import](Question_Bank_Import_Questions.md#excelimport), the row "Type" sets the question type. Without this row and one of the ten values from the template, OpenOlat does not import the question as a separate question. Therefore check before the import that each question starts with the row "Type". The step "Overview" of the import shows which questions OpenOlat recognized with which question type.
 
 [To the top of the page ^](#question_bank_administration)
 
@@ -133,7 +119,7 @@ In a corporate context, levels could look like this:
 
 You create new levels with the button "Create level" at the top right.
 
-Like question types, you translate levels into each language that is enabled in your OpenOlat instance. To do this, click on the row of the level in the column "Translation" and proceed as described under "Create type".
+Translate each level into each language that is enabled in your OpenOlat instance. To do this, click on the row of the level in the column "Translation". The dialog "Translation" shows one field for each enabled language. Enter the name of the level in each language and click "OK".
 
 [To the top of the page ^](#question_bank_administration)
 
@@ -144,7 +130,8 @@ Like question types, you translate levels into each language that is enabled in 
 [e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
-[Question bank: Details of a question and metadata >](Item_Detailed_View.md)
+[Question bank: Details of a question and metadata >](Item_Detailed_View.md)<br>
+[Question Bank: Import Questions >](Question_Bank_Import_Questions.md)
 
 **Further reading**<br>
 [Question Bank Review Process >](Question_Bank_Review_Process.md)<br>

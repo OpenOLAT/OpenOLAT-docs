@@ -78,29 +78,15 @@ Pools erstellen nur Administrator:innen und Poolverwalter:innen mit dem Recht f�
 
 ### Fragetyp {: #type}
 
-![Seite Fragetyp mit dem Button Fragetyp erstellen und der Tabelle der 16 Standard-Fragetypen mit Typ-Schlüssel und Übersetzung](assets/question_bank_administration_question_types_v1_de.png){ class="shadow lightbox" title="Seite Fragetyp im Bereich Administration" }
+Der Fragetyp gibt an, wie eine Frage aufgebaut ist und wie Teilnehmende sie beantworten, zum Beispiel Single Choice, Lückentext oder Hotspot. Welche Fragetypen OpenOlat bietet, beschreibt die Seite [Test Fragetypen](../learningresources/Test_question_types.de.md).
 
-OpenOlat bietet für Tests verschiedene [Fragetypen](../learningresources/Test_question_types.de.md). Fragen dieser Typen erstellen Sie im Testeditor der Lernressource Test oder im Fragenpool. Genügen Ihnen die Standard-Fragetypen nicht, erstellen Sie hier zusätzliche Fragetypen. Die Standard-Fragetypen lassen sich nicht löschen.
+Beim Erstellen einer Frage wählen Sie ihren Fragetyp. Beim Bearbeiten und beim Import bestimmt OpenOlat ihn selbst aus dem Aufbau der Frage. Ändern lässt er sich nicht. Die [Detailansicht](Item_Detailed_View.de.md#metadata_item_analysis) einer Frage zeigt ihn im Metadatum "Typ" im Bereich "Itemanalyse". In den Fragenlisten finden Sie die Fragen eines Typs mit dem Filter "Typ".
 
-Im Testeditor und im Fragenpool erstellen Sie nur Fragen der Standard-Fragetypen. In der Detailansicht einer Frage zeigt das Metadatum "Typ" in der Kategorie "Itemanalyse" den Fragetyp an. Ändern lässt er sich dort nicht.
+**Fragetyp beim Import**
 
-Übersetzen Sie einen neu erstellten Fragetyp in jede Sprache, die in Ihrer OpenOlat-Instanz eingeschaltet ist. So sehen zum Beispiel deutsch- und englischsprachige Benutzer:innen den Typennamen in ihrer Sprache und nicht den Übersetzungsschlüssel.
+Beim Import einer ZIP-Datei oder eines Tests aus dem Autorenbereich erkennt OpenOlat den Fragetyp jeder Frage aus ihrem Inhalt. Sie müssen nichts angeben.
 
-**Fragetyp erstellen**
-
-Einen neuen Fragetyp erstellen Sie mit der Schaltfläche "Fragetyp erstellen". Er erscheint zuunterst in der Tabelle der Typen, in der Spalte "Übersetzung" nach diesem Muster:
-
-    item.type.[Typenname]
-
-Das ist der Übersetzungsschlüssel. Über ihn übersetzt OpenOlat den Typennamen in die Sprachen Ihrer OpenOlat-Instanz.
-
-![Zwei neue Fragetypen am Tabellenende, einer bereits übersetzt als Mein Fragetyp, der andere noch mit dem Übersetzungsschlüssel item.type.myquestion](assets/qb_qtypes.gif){ class="shadow lightbox" title="Tabelle der Fragetypen" }
-
-Klicken Sie in der Tabellenspalte "Übersetzung" auf die entsprechende Zeile. Es öffnet sich der Dialog "Übersetzung":
-
-![Dialog Übersetzung mit je einem Feld für Deutsch, Englisch, Italienisch, Französisch und Spanisch, so sehen Sie, dass Sie einen Typennamen für alle Sprachen in einem Schritt übersetzen](assets/question_bank_administration_translation_v1_de.png){ class="shadow lightbox" title="Dialog Übersetzung eines Fragetyps · 2026.11.02" }
-
-Der Dialog zeigt ein Feld für jede Sprache, die in Ihrer OpenOlat-Instanz eingeschaltet ist. Tragen Sie in jedem Feld den Typennamen in dieser Sprache ein und klicken Sie auf "OK". OpenOlat zeigt den Namen ab nun in der Tabelle der Typen, im Filter "Typ" der Fragenlisten und in der Detailansicht einer Frage unter "Typ" an.
+Beim [Excelimport](Question_Bank_Import_Questions.de.md#excelimport) legt die Zeile "Type" den Fragetyp fest. Ohne diese Zeile und einen der zehn Werte aus der Vorlage übernimmt OpenOlat die Frage nicht als eigene Frage. Prüfen Sie deshalb vor dem Import, dass jede Frage mit der Zeile "Type" beginnt. Der Schritt "Übersicht" des Imports zeigt, welche Fragen OpenOlat mit welchem Fragetyp erkannt hat.
 
 [Zum Seitenanfang ^](#question_bank_administration)
 
@@ -133,7 +119,7 @@ In einem Unternehmenskontext könnten Stufen so aussehen:
 
 Neue Stufen erstellen Sie mit dem Button "Stufe erstellen" rechts oben.
 
-Wie Fragetypen übersetzen Sie auch Stufen in jede Sprache, die in Ihrer OpenOlat-Instanz eingeschaltet ist. Klicken Sie dazu in der Spalte "Übersetzung" auf die Zeile der Stufe und gehen Sie vor wie unter "Fragetyp erstellen" beschrieben.
+Übersetzen Sie jede Stufe in jede Sprache, die in Ihrer OpenOlat-Instanz eingeschaltet ist. Klicken Sie dazu in der Spalte "Übersetzung" auf die Zeile der Stufe. Der Dialog "Übersetzung" zeigt ein Feld für jede eingeschaltete Sprache. Tragen Sie den Namen der Stufe in jeder Sprache ein und klicken Sie auf "OK".
 
 [Zum Seitenanfang ^](#question_bank_administration)
 
@@ -144,7 +130,8 @@ Wie Fragetypen übersetzen Sie auch Stufen in jede Sprache, die in Ihrer OpenOla
 [e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
-[Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)
+[Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)<br>
+[Fragenpool: Fragen importieren >](Question_Bank_Import_Questions.de.md)
 
 **Weiterführend**<br>
 [Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>

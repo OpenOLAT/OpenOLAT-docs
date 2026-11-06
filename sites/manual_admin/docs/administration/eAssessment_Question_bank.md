@@ -68,7 +68,7 @@ In the tab Pools, you create, edit and delete pools. Pools as well as groups all
 
 ## Tab Question types
 
-The tab Question types lists all question types that occur in the question bank. On the one hand, these are the [question types](../../manual_user/learningresources/Test_question_types.md) that you create in OpenOlat. On the other hand, these are question types from questions that were imported from external systems. If the standard question types of OpenOlat are not sufficient, create more with "Create type". The standard question types cannot be deleted.
+The tab Question types lists the [question types](../../manual_user/learningresources/Test_question_types.md) of OpenOlat. The way a question is built sets its question type. You cannot change it. For more information, also on the question type in the import, see [Question Bank: Administration](../../manual_user/area_modules/Question_Bank_Administration.md#type).
 
 ## Tab Levels
 
