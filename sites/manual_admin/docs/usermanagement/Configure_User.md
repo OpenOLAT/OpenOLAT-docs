@@ -338,9 +338,13 @@ OpenOlat only shows the tab when the "Events / Absences" module is switched on. 
 
 ### Competences
 
-In the "Competences" tab you assign areas of competence to the person. They are categorized according to "Manage", "Teach", "Have" and "Target".
+In the "Competences" tab you assign areas of competence to the person. They are categorized according to "Manage", "Teach", "Have" and "Target". What each competence type does is explained on the page [Taxonomy](../../manual_user/basic_concepts/Taxonomy_Concept.md#competences) in the user manual.
 
 OpenOlat only shows the tab when the "Taxonomy" module is switched on. Administrators, user managers, roles managers and principals reach it; administrators, user managers and roles managers can assign competences.
+
+Administrators assign the same competence to several people in one step, in the system administration via the taxonomy level:<br>
+`Administration > Modules > Taxonomy > "Title of the taxonomy" > Tab "Levels" > "Title of the level" > Tab "Competences"`<br>
+They assign the competence type "Manage" in the same level in the "Management" tab.
 
 [To the top of the page ^](#user_configuration)
 
@@ -388,6 +392,7 @@ OpenOlat only shows the tab when the correction workflow is switched on, and not
 [Modules: Overview >](../administration/Modules.md)<br>
 [User roles >](index.md)<br>
 [Files and Folders >](../administration/Files_and_Folders.md)<br>
+[Taxonomy >](../../manual_user/basic_concepts/Taxonomy_Concept.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)
 
 **Further reading**<br>

@@ -100,7 +100,7 @@ Der Tab "Teilnehmer:innen" listet alle Teilnehmenden. Je nach gewählten Spalten
 
 Um eine Person zu bewerten, wählen Sie sie aus und füllen die angezeigten Felder aus, bei einer Rubrik-Bewertung die Felder der Rubrik. Sie können die Bewertung zwischenspeichern oder direkt abschliessen und freigeben.
 
-Die Teilnehmenden haben nach der Freigabe Zugriff auf ihre Bewertung inklusive Bewertungsrubrik und sonstiger Feedbacks.
+Die Teilnehmenden sehen ihre Bewertung erst nach der Freigabe. Die Freigabe gilt immer für die ganze Bewertung: Mit dem Ergebnis sehen die Teilnehmenden auch Ihren Kommentar und die Bewertungsdokumente, sofern Sie sie erfasst haben, und bei einer Rubrik-Bewertung das ausgefüllte "Beurteilungsformular".
 
 Der Tab "Erinnerungen" zeigt die [Erinnerungen](../learningresources/Course_Reminders.de.md), die für den Kursbaustein im Kurseditor angelegt sind. Hier erstellen Sie auch neue Erinnerungen oder bearbeiten und löschen bestehende.
 

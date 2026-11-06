@@ -336,9 +336,13 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Termine / Absenzen". Ih
 
 ### Kompetenzen
 
-Im Reiter "Kompetenzen" ordnen Sie der Person Kompetenzbereiche zu. Sie sind kategorisiert nach "Verwalten", "Unterrichten" ("Dozieren"), "Haben" und "Ziel".
+Im Reiter "Kompetenzen" ordnen Sie der Person Kompetenzbereiche zu. Sie sind kategorisiert nach "Verwalten", "Unterrichten" ("Dozieren"), "Haben" und "Ziel". Was die einzelnen Kompetenztypen bewirken, erklärt die Seite [Taxonomie](../../manual_user/basic_concepts/Taxonomy_Concept.de.md#competences) im Benutzerhandbuch.
 
 Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Taxonomie". Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Kompetenzen zuordnen können Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
+
+Dieselbe Kompetenz weisen Administrator:innen mehreren Personen in einem Schritt zu, in der System-Administration über die Taxonomieebene:<br>
+`Administration > Module > Taxonomie > "Titel der Taxonomie" > Tab "Ebenen" > "Titel der Ebene" > Tab "Kompetenzen"`<br>
+Den Kompetenztyp "Verwalten" vergeben sie in derselben Ebene im Tab "Verwaltung".
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -386,6 +390,7 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht b
 [Module: Übersicht >](../administration/Modules.de.md)<br>
 [Benutzerrollen >](index.de.md)<br>
 [Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>
+[Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
 
 **Weiterführend**<br>

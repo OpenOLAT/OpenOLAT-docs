@@ -101,7 +101,7 @@ The tab "Participants" lists all participants. Depending on the selected columns
 
 To assess a person, select them and fill in the displayed fields, for a rubric assessment the fields of the rubric. You can save the assessment temporarily or complete and release it directly.
 
-After release, the participants have access to their assessment, including the assessment rubric and any other feedback.
+The participants see their assessment only after release. The release always applies to the whole assessment: together with the result, the participants also see your comment and the assessment documents, if you have provided them, and with a rubric assessment the completed "Assessment form".
 
 The tab "Reminders" shows the [reminders](../learningresources/Course_Reminders.md) created for the course element in the course editor. Here you also create new reminders or edit and delete existing ones.
 
