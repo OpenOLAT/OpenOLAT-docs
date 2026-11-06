@@ -3,9 +3,9 @@
 This page is intended for course owners. It describes how you set up the [course element "Task"](index.md) in the course editor, tab by tab in the order of the user interface.
 
 
-You create and configure the task in the course editor, like all course elements.
+You create and configure the task in the course editor, like all course elements. In a learning path course, the course element has eleven tabs there, from "Title and description" to "Reminders & to-dos"; in a conventional course, the tabs "Visibility" and "Access" take the place of "Learning path". Which tabs you can edit depends on the steps you switch on in the tab "Workflow". The course editor additionally shows the tab "Badges" if badges are awarded in the course.
 
-![Eleven tabs configure the course element Task, from Title and description to Reminders & to-dos: tab bar in the course editor](../assets/course_element_task_tabs_v1_en.png){ class="shadow lightbox" title="Course editor, course element Task · 2026.11.02" }
+![Eleven tabs configure the course element Task, from Title and description to Reminders & to-dos](../assets/course_element_task_tabs_v1_en.png){ class="shadow lightbox" title="Course editor, course element Task · 2026.11.02" }
 
 !!! note "Quick Links: Set up a task"
 
@@ -56,7 +56,7 @@ Under "Learning time (minutes)" you enter how long participants are expected to 
 
 The "Learning Path" tab also defines which criterion must be met for the task to be considered "completed". The following options are available:
 
-![Five completion criteria are available, selected is "Execution done": field Completion criterion in the tab Learning path of the course editor](../assets/course_element_task_completion_criterion_v1_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Learning path · 2026.11.02" }
+![Five completion criteria are available, selected is "Execution done"](../assets/course_element_task_completion_criterion_v1_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Learning path · 2026.11.02" }
 
 * **Visit course element**: The person has opened the course element.
 * **Confirmation by participant**: The person has clicked on the confirmation of reading.
@@ -87,7 +87,7 @@ In the "Workflow" tab, you define which steps the task consists of. Should a spe
 
 The following options are available to you:
 
-![The tab Workflow switches the components of the task from "Task assignment" to "Grading" on individually and takes a due date per step: tab Workflow in the course editor](../assets/course_element_task_workflow_elements_v3_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Workflow · 2026.11.02" }
+![The tab Workflow switches the components of the task from "Task assignment" to "Grading" on individually and takes a due date per step](../assets/course_element_task_workflow_elements_v3_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Workflow · 2026.11.02" }
 
 ### Relative dates {: #workflow_relative_dates}
 
@@ -95,11 +95,11 @@ Instead of entering calendar dates, you can also work with _relative dates_. Spe
 
 === "With fixed date"
 
-    ![With the checkbox "Relative dates" switched off, the field "Assignment deadline" takes a calendar date with a time: section Task assignment in the tab Workflow of the course editor](../assets/course_element_task_workflow_fix_dates_v2_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Workflow · 2026.11.02" }
+    ![With the checkbox "Relative dates" switched off, the field "Assignment deadline" takes a calendar date with a time](../assets/course_element_task_workflow_fix_dates_v2_en.png){ class="shadow lightbox" title="Tab Workflow, section Task assignment · 2026.11.02" }
 
 === "With relative date"
 
-    ![With "Relative dates" activated, "Assignment deadline" takes a number of days after the first course launch or the enrollment: section Task assignment in the tab Workflow of the course editor](../assets/course_element_task_workflow_relative_dates_v2_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Workflow · 2026.11.02" }
+    ![With "Relative dates" activated, "Assignment deadline" takes a number of days after the first course launch or the enrollment](../assets/course_element_task_workflow_relative_dates_v2_en.png){ class="shadow lightbox" title="Tab Workflow, section Task assignment · 2026.11.02" }
 
 The changeover to relative dates affects the input fields for "Task assignment", "Submission" and "Sample solution".
 
@@ -137,7 +137,7 @@ This area only appears if "Task assignment" or "Sample solution" is switched on,
 
 In the area "Coaching" you activate participant-dependent coaching: each participant is then assigned a specific coach.
 
-![The section Coaching bundles five settings for assignment and notification of coaches and participants: section Coaching in the tab Workflow of the course editor](../assets/course_element_task_workflow_assign_coaches_v1_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Workflow · 2026.11.02" }
+![The section Coaching bundles five settings for assignment and notification of coaches and participants](../assets/course_element_task_workflow_assign_coaches_v1_en.png){ class="shadow lightbox" title="Tab Workflow, section Coaching · 2026.11.02" }
 
 * **Assignment coaches/participants**<br>
 With "Activate assignment" you display the other options for coaching. You then assign the persons when the course editor is closed, see [table "Assignment coaches/participants"](#coach_assignment_table).
@@ -149,7 +149,7 @@ Here you choose between "Coach" and "Coach and owner". With the second option, c
 Here you define whether you assign the coaches "Manual" or OpenOlat assigns them "Automatic".
 
 * **Notification coaches**<br>
-Select here in which cases coaches receive a notification by e-mail: "Assignment", "New order" and "Unassignment".
+Select here in which cases coaches receive a notification by e-mail: "Assignment", "Unassignment" and "New order".
 
 * **Notification participants**<br>
 Select here whether participants should be informed by e-mail about the assignment to a coach.
@@ -160,13 +160,13 @@ Select here whether participants should be informed by e-mail about the assignme
 
 ### Table "Assignment coaches/participants" [:octicons-tag-16:{ title="from Release 17.2.1 (OO-6698)" }](https://track.frentix.com/issue/OO-6698) {: #coach_assignment_table}
 
-The actual assignment is made by course owners when the course editor is closed: `Course > "Title of the course element" > Tab "Participants" > Button "Assignment coaches/participants"`.
+Course owners assign the persons when the course editor is closed: `Course > "Title of the course element" > Tab "Participants" > Button "Assignment coaches/participants"`.
 
 The table is a matrix: each row is a participant, each column a coach available for selection, plus the column "Not assigned". You set the assignment by choosing the radio button in the desired column of the row. Behind every name, brackets state how many people are currently assigned to that coach. This makes an uneven distribution visible at a glance. The assignment is only saved with "Apply assignment".
 
 Via "Randomly assign unassigned", OpenOlat distributes all people still open automatically. The tabs "All" and "Not assigned" as well as the filters "Participants" and "Coach" narrow down the list. If the course has groups or curriculum elements, the filter "Groups" is added.
 
-![A matrix assigns each participant to a coach, in brackets the number of assignments; "Apply assignment" saves the choice: page Assignment coaches/participants](../assets/course_element_task_coach_assignment_table_v2_en.png){ class="shadow lightbox" title="Course element Task, tab Participants, Assignment coaches/participants · 2026.11.03" }
+![A matrix assigns each participant to a coach, in brackets the number of assignments; "Apply assignment" saves the choice](../assets/course_element_task_coach_assignment_table_v2_en.png){ class="shadow lightbox" title="Course element Task, tab Participants, Assignment coaches/participants · 2026.11.03" }
 
 !!! note "Note"
 
@@ -224,11 +224,11 @@ In the field "Message for users" you provide general information for all partici
 If a participant chooses the wrong task by mistake during manual selection, course owners can allow them to reset it in the [assessment tool](../Assessment_tool_overview.md) with "Reset data of task":<br>
 `Course > Administration > Assessment tool > "Title of the course element" > "Name of the person"`
 
-![The button "Reset data of task" below the workflow of a person allows them to reset the chosen task: assessment workflow of a person in the assessment tool](../assets/course_element_task_reset_assessment_tool_v1_en.png){ class="shadow lightbox" title="Assessment tool, course element Task, person · 2026.11.03" }
+![The button "Reset data of task" below the workflow of a person allows them to reset the chosen task](../assets/course_element_task_reset_assessment_tool_v1_en.png){ class="shadow lightbox" title="Assessment tool, course element Task, person · 2026.11.03" }
 
 The choice does _not change automatically_. The participant gets the opportunity to undo their previous steps with "Reset task".
 
-![In the step "Task assignment" the button "Reset task" undoes the participant's previous choice: course element Task in the participants' view](../assets/course_element_task_reset_participant_v1_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
+![In the step "Task assignment" the button "Reset task" undoes the participant's previous choice](../assets/course_element_task_reset_participant_v1_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
 
 [To the top of the page ^](#create_task)
 
@@ -245,7 +245,7 @@ Here you define the type and scope of the submission options for the participant
 
     * "Submission" must be activated so that you can set it up now.
 
-    ![The switched-on section Submission releases the field "Submission deadline" and the checkbox "Allow submission after deadline": section Submission in the tab Workflow of the course editor](../assets/course_element_task_workflow_activate_submission_v2_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Workflow · 2026.11.02" }
+    ![The switched-on section Submission releases the field "Submission deadline" and the checkbox "Allow submission after deadline"](../assets/course_element_task_workflow_activate_submission_v2_en.png){ class="shadow lightbox" title="Tab Workflow, section Submission · 2026.11.02" }
 
 Then activate at least one of the two options: uploading documents or using the OpenOlat editor for the submission.
 
@@ -255,9 +255,9 @@ The following options are available in the "Submission" tab:
 
 **"Submit with OpenOlat editor"**: Participants create documents directly in the course element. By default, an HTML editor is available for this. If other document editors are integrated in OpenOlat, they can also create documents in other formats such as Word or Excel, as well as draw.io diagrams.
 
-Activate "Assignment is template for submission" if learners are to use the stored task file as the basis for their work, for example if the task contains a pre-structured table to be filled in.
+Activate "Assignment is template for submission" if participants are to use the stored task file as the basis for their work, for example if the task contains a pre-structured table to be filled in.
 
-![In the step Task submission, the task file is already provided as a document; participants edit it and transmit it with "Final task submission": course element Task in the participants' view](../assets/course_element_task_submission_template_v1_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
+![In the step Task submission, the task file is already provided as a document; participants edit it and transmit it with "Final task submission"](../assets/course_element_task_submission_template_v1_en.png){ class="shadow lightbox" title="Step Task submission, participants' view · 2026.11.03" }
 
 **"Allow video recordings"**: Participants additionally record videos via webcam and submit them. Under "Max. length of recording (in sec)" you limit the duration, under "Video quality" you choose the quality level.
 
@@ -279,7 +279,7 @@ Activate the e-mail confirmation so that people who have submitted a task receiv
     In the tab "Workflow"
 
     * "Feedback" must be switched on.
-    ![Under "Type" you choose "By coaches" or "With peer review", with peer review plus the peer review time period: section Feedback in the tab Workflow of the course editor](../assets/course_element_task_workflow_activate_fb_v2_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Workflow · 2026.11.02" }
+    ![Under "Type" you choose "By coaches" or "With peer review", with peer review plus the peer review time period](../assets/course_element_task_workflow_activate_fb_v2_en.png){ class="shadow lightbox" title="Tab Workflow, section Feedback · 2026.11.02" }
     * Depending on who is providing the feedback, different options appear in the tab "Revisions and feedback".
 
 
@@ -347,7 +347,7 @@ To offer all participants a sample solution for the tasks set, you either create
 
     * "Sample solutions" must be activated in order to be configurated.
 
-    ![With a calendar date under "Visible after…", "Visible for …" governs whether all or only persons with a submission see the sample solution: section Sample solution in the tab Workflow](../assets/course_element_task_workflow_activate_sample_v2_en.png){ class="shadow lightbox" title="Course editor, course element Task, tab Workflow · 2026.11.02" }
+    ![With a calendar date under "Visible after…", "Visible for …" governs whether all or only persons with a submission see the sample solution](../assets/course_element_task_workflow_activate_sample_v2_en.png){ class="shadow lightbox" title="Tab Workflow, section Sample solution · 2026.11.02" }
 
 By default, participants only see the sample solution once they have completed the previous steps. If there is feedback by coaches, this is after their submission has been accepted. If you choose visibility for all in the tab "Workflow" under "Visible for …", persons without a submission also see the sample solution from the date entered.
 
@@ -381,9 +381,9 @@ For more information on this tab, which is available in most assessable course e
 
 With the reminder function, you can send [Reminders](../Course_Reminders.md) to course members in the form of an e-mail and generate automatic [To-dos](../Course_todos.md) for the task. To-dos are stored for participants in the personal menu under "[To-dos](../../personal_menu/To-Dos.md)".
 
-If the automatic creation of to-dos is activated, learners can see the current status (step) of the workflow of the corresponding task under `My course > To-dos` and thus quickly recognize whether or which actions currently need to be taken by them. In addition, these to-dos also appear among the personal to-dos in the user tools.
+If the automatic creation of to-dos is activated, participants can see the current status (step) of the workflow of the corresponding task under `My course > To-dos` and thus quickly recognize whether and which step is currently expected of them. In addition, these to-dos also appear among the personal to-dos in the user tools.
 
-With the to-dos, learners keep track of their tasks. Further information can be found on the page [To-dos: basics](../../basic_concepts/To_Dos_Basics.md).
+With the to-dos, participants keep track of their tasks. Further information can be found on the page [To-dos: basics](../../basic_concepts/To_Dos_Basics.md).
 
 !!! note "Note"
 

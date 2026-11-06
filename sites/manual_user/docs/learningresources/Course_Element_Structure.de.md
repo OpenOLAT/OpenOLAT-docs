@@ -18,7 +18,7 @@ Der Kursbaustein Struktur bietet unter anderem eine automatische Übersicht übe
 
 Die Einstellungen des Kursbausteins legen Besitzer:innen des Kurses im Kurseditor fest: `Kurs > Administration > Kurseditor`. Betreuer:innen erreichen den Kurseditor nur, wenn ihnen im Kurs das Recht "Kurseditor" erteilt ist.
 
-![Leistungsübersicht mit erreichten Punkten und Link zum Leistungsnachweis, darunter Status je Kursbaustein](assets/Leistungsuebersicht_Struktur_Lernpfad1.png){ class="shadow lightbox" title="Automatische Übersicht des Strukturbausteins im Lernpfadkurs" }
+![Leistungsübersicht mit erreichten Punkten und Link zum Leistungsnachweis, darunter die Inhaltsübersicht mit dem Status je Kursbaustein](assets/course_element_structure_overview_learning_path_v1_de.png){ class="shadow lightbox" title="Automatische Übersicht des Strukturbausteins im Lernpfadkurs · 2026.11.06" }
 
 ### Das gewählte Kursformat
 
@@ -85,7 +85,7 @@ Die übrigen Einstellungen des Tabs beschreibt die Seite [Lernpfadkurs - Kursedi
 
 ### Abweichungen im herkömmlichen Kurs {: #conventional_course_settings}
 
-Der herkömmliche Kurs kennt am Strukturbaustein zwei Tabs, die es im Lernpfadkurs nicht gibt: "Punkte" und "Zugang".
+Der herkömmliche Kurs kennt am Strukturbaustein drei Tabs, die es im Lernpfadkurs nicht gibt: "Sichtbarkeit", "Zugang" und "Punkte". Den Tab "Sichtbarkeit" erklärt die Seite [Kursbausteine im Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md#access), die Tabs "Punkte" und "Zugang" erklärt dieser Abschnitt.
 
 #### Tab Punkte {: #score}
 
@@ -127,7 +127,7 @@ Sollen für einen Kurs Leistungsnachweise ausgestellt werden, passen Sie die Ein
 
 Für Teilnehmende zeigt sich die Leistungsübersicht wie folgt:
 
-![Leistungsübersicht mit Erfolgsstatus "Bestanden", Punkten und Link zum Leistungsnachweis, links das Kursmenü](assets/Leistungsuebersicht_Struktur_herkoemmlich.png){ class="shadow lightbox" title="Strukturbaustein im laufenden herkömmlichen Kurs" }
+![Leistungsübersicht mit Erfolgsstatus "Bestanden", Punkten und Link zum Leistungsnachweis, links das Kursmenü](assets/course_element_structure_overview_conventional_v1_de.png){ class="shadow lightbox" title="Strukturbaustein im laufenden herkömmlichen Kurs · 2026.11.06" }
 
 !!! tip "Tipp"
 

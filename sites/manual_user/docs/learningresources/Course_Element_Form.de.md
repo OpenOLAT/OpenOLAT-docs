@@ -92,7 +92,7 @@ Besitzer:innen verfügen zusätzlich noch über den Tab "Erinnerungen", wenn die
 
 Teilnehmende sehen das Formular direkt, wenn sie den Kursbaustein öffnen, und füllen es dort aus. Mit "Zwischenspeichern" sichern sie ihre Angaben, bevor sie fertig sind.
 
-![Formular mit Auswahlfrage, Schiebereglern und Textfeldern sowie den Buttons Speichern und abschliessen und Zwischenspeichern, in der Ansicht der Teilnehmenden im Kurs](assets/Formular_Beispiel_Kurs.jpg){ class="shadow lightbox" title="Kursbaustein Formular in der Kursansicht" }
+![Formular mit Auswahlfrage und Textfeld, darunter die Buttons Speichern und abschliessen und Zwischenspeichern: Teilnehmende füllen das Formular direkt im Kurs aus](assets/course_element_form_participant_view_v1_de.png){ class="shadow lightbox" title="Kursbaustein Formular in der Kursansicht · 2026.11.06" }
 
 Mit "Speichern und abschliessen" geben Teilnehmende das fertig ausgefüllte Formular ab. Danach können sie es nur noch ansehen, nicht mehr bearbeiten.
 

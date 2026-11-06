@@ -5,7 +5,7 @@ Diese Seite richtet sich an Kursteilnehmer:innen. Sie beschreibt die Schritte, m
 
 Im Kursbaustein sehen Sie alle Schritte der Aufgabe (Workflow) untereinander, je nach Konfiguration des Kursbausteins. Sobald Sie einen Schritt erledigt haben, öffnet sich der nächste.
 
-![Die Schritte der Aufgabe stehen untereinander; nur "Zuweisung Aufgabenstellung" ist offen und verlangt die Wahl einer Aufgabe: Kursbaustein Aufgabe in der Sicht der Teilnehmenden](../assets/course_element_task_participant_view1_v2_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
+![Die Schritte der Aufgabe stehen untereinander; nur "Zuweisung Aufgabenstellung" ist offen und verlangt die Wahl einer Aufgabe](../assets/course_element_task_participant_view1_v2_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
 
 
 !!! note "Quick Links: Aufgabe bearbeiten"
@@ -40,13 +40,13 @@ Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kur
 [zum Seitenanfang ^](#process_task)
 
 
-## Von wem werde ich betreut? {: #process_task_my_coach}
+## Von wem werde ich betreut? [:octicons-tag-16:{ title="ab Release 17.2.1 (OO-6698)" }](https://track.frentix.com/issue/OO-6698) {: #process_task_my_coach}
 
 In Kursen mit sehr vielen Teilnehmenden betreuen häufig mehrere Lehrpersonen die Aufgabe. Ist die Zuweisung Betreuende/Teilnehmende aktiviert, ist Ihnen als Teilnehmer:in eine betreuende Person zugewiesen.
 
 Sie sehen die Ihnen zugewiesene betreuende Person oberhalb der Aufgabe. Wird keine betreuende Person angezeigt, wurde Ihnen noch niemand zugeteilt.
 
-![Über dem Workflow zeigt der Block "Sie werden betreut durch" Profilbild, Name und Kontaktangaben der zugewiesenen betreuenden Person: Kursbaustein Aufgabe in der Sicht der Teilnehmenden](../assets/course_element_task_participant_view_mycoach_v2_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
+![Über dem Workflow zeigt der Block "Sie werden betreut durch" Profilbild, Name und Kontaktangaben der zugewiesenen betreuenden Person](../assets/course_element_task_participant_view_mycoach_v2_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
 
 Ist für die Aufgabe ein Peer-Review eingerichtet, geben sich die Teilnehmenden gegenseitig Feedback zu ihren Abgaben, siehe [Aufgabe mit Peer-Review](Task_Peer_Review.de.md).
 
@@ -57,7 +57,7 @@ Ist für die Aufgabe ein Peer-Review eingerichtet, geben sich die Teilnehmenden 
 
 Im Schritt "Abgabe" reichen Sie Ihre Lösung ein. Je nach Konfiguration laden Sie Dokumente hoch, erstellen Dateien mit dem OpenOlat Editor oder nehmen kurze Audio- und Video-Aufnahmen direkt in OpenOlat auf.
 
-![Im Schritt Abgabe listet die Tabelle die vorbereiteten Dokumente, darunter die Wege zum Hochladen, Erstellen sowie Video- und Audioaufnahme: Kursbaustein Aufgabe in der Sicht der Teilnehmenden](../assets/course_element_task_participant_submission_v1_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
+![Im Schritt Abgabe listet die Tabelle die vorbereiteten Dokumente, darunter die Wege zum Hochladen, Erstellen sowie Video- und Audioaufnahme](../assets/course_element_task_participant_submission_v1_de.png){ class="shadow lightbox" title="Schritt Abgabe, Sicht der Teilnehmenden · 2026.11.03" }
 
 In der Regel stehen Ihnen nur einige dieser vier Wege zur Verfügung. Laden Sie Ihre Lösung hoch oder erstellen Sie sie direkt in OpenOlat, dann speichert OpenOlat das Dokument zwischen. Die Dokumente bleiben für Sie bearbeitbar, bis Sie Ihre Aufgabe mit der Schaltfläche "Endgültige Abgabe" einreichen. Sie erhalten eine Bestätigung, dass Sie Dokumente abgegeben haben.
 
@@ -70,9 +70,9 @@ Danach markiert ein grünes Häkchen den Schritt "Abgabe" als erledigt, und er z
 
 Solange Sie noch _nichts_ eingereicht haben und keine Rückmeldung der betreuenden Person vorliegt, ist dieser Bereich leer.
 
-Haben Sie eine Lösung eingereicht und die betreuende Person hat noch keine Rückmeldung erstellt, erscheint ein entsprechender Hinweis.
+Haben Sie eine Lösung eingereicht und die betreuende Person hat noch keine Rückmeldung erstellt, trägt der Schritt "Rückgabe und Feedback" den Status "Review". Darunter steht der Hinweis "Ihr:e Betreuer:in begutachtet nun die abgegebene Arbeit. Sie werden benachrichtigt, sobald eine begutachtete oder korrigierte Version verfügbar ist."
 
-![Der Schritt trägt den Status "Review" und meldet, dass die betreuende Person die Arbeit begutachtet und eine Benachrichtigung folgt: Schritt Rückgabe und Feedback in der Sicht der Teilnehmenden](../assets/Aufgabe_Rueckgabe_Feedback_offen.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden" }
+![Markiert sind der Status "Review" und der Hinweis, dass die betreuende Person die abgegebene Arbeit begutachtet: Teilnehmende sehen so, dass ihre Abgabe angekommen ist und eine Rückmeldung folgt](../assets/course_element_task_participant_feedback_open_v1_de.png){ class="shadow lightbox" title="Schritt Rückgabe und Feedback, Sicht der Teilnehmenden · 2026.11.06" }
 
 Sobald die betreuende Person ein Feedback erstellt hat, finden Sie es im Schritt "Rückgabe und Feedback". Hat sie Ihre Abgabe akzeptiert, meldet der Schritt "Ihr:e Betreuer:in hat die eingereichte Arbeit für die Bewertung akzeptiert.".
 
@@ -105,7 +105,7 @@ Ihre Lehrperson kann der Aufgabe eine Musterlösung anfügen, die ab einem festg
 
 Der Schritt "Bewertung" zeigt die Leistungsübersicht mit Status, Punktestand und Einstufung der gewählten Bewertungsskala, je nach Konfiguration des Kursbausteins. Darunter stehen der Kommentar und die Bewertungsdokumente, die die betreuende Person hinterlegt hat.
 
-![Die Leistungsübersicht zeigt Erfolgsstatus und Lösungsversuche, darunter den Kommentar der betreuenden Person und die Bewertungsdokumente: Schritt Bewertung in der Sicht der Teilnehmenden](../assets/course_element_task_participant_grading_v1_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
+![Die Leistungsübersicht zeigt Erfolgsstatus und Lösungsversuche, darunter den Kommentar der betreuenden Person und die Bewertungsdokumente](../assets/course_element_task_participant_grading_v1_de.png){ class="shadow lightbox" title="Schritt Bewertung, Sicht der Teilnehmenden · 2026.11.03" }
 
 [zum Seitenanfang ^](#process_task)
 

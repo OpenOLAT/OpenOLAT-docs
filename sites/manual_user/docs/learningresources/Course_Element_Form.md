@@ -93,7 +93,7 @@ Owners additionally have the tab "Reminders" if the form submission has a deadli
 
 Participants see the form directly when they open the course element and fill it out there. With "Quick save" they save their entries before they are finished.
 
-![Form with a choice question and a text field, below them the buttons Save and finish and Quick save: participants fill in the form directly in the course](assets/course_element_form_participant_view_v1_en.png){ class="shadow lightbox" title="Course element Form in the course view · 2026.11.03" }
+![Form with a choice question and a text field, below them the buttons Save and finish and Quick save: participants fill in the form directly in the course](assets/course_element_form_participant_view_v2_en.png){ class="shadow lightbox" title="Course element Form in the course view · 2026.11.06" }
 
 With "Save and finish" participants submit the completed form. After that they can only view it, not edit it.
 

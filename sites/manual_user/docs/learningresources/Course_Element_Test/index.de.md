@@ -108,9 +108,9 @@ Tests eignen sich unter anderem für folgende Szenarien:
 * **Online-Klausur**: Durchführung von prüfungsrelevanten Online- oder E-Klausuren
 
 
-### So bearbeiten Sie einen Test (Lernendenperspektive) [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321) {: #participate_as_learner}
+### So bearbeiten Sie einen Test (Teilnehmende) [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321) {: #participate_as_learner}
 
-Als Lernende bearbeiten Sie einen Test Frage für Frage und sehen dabei jederzeit, was schon beantwortet ist. Klicken Sie auf "Test starten", um mit der Bearbeitung zu beginnen. Beantworten Sie die angezeigten Fragen und klicken Sie anschliessend bei jeder Frage auf "Antwort speichern". Ist die linke Navigation sichtbar, zeigt sie, welche Fragen Sie bereits beantwortet haben (ausgefüllter Punkt), welche Sie nur angeschaut haben (hervorgehobener Kreis) und welche Sie noch gar nicht geöffnet haben (grauer Kreis). Über das Symbol rechts neben einer Frage fügen Sie eine private Markierung hinzu, als Erinnerung, die Frage später noch einmal anzuschauen.
+Als Teilnehmer:in bearbeiten Sie einen Test Frage für Frage und sehen dabei jederzeit, was schon beantwortet ist. Klicken Sie auf "Test starten", um mit der Bearbeitung zu beginnen. Beantworten Sie die angezeigten Fragen und klicken Sie anschliessend bei jeder Frage auf "Antwort speichern". Ist die linke Navigation sichtbar, zeigt sie, welche Fragen Sie bereits beantwortet haben (ausgefüllter Punkt), welche Sie nur angeschaut haben (hervorgehobener Kreis) und welche Sie noch gar nicht geöffnet haben (grauer Kreis). Über das Symbol rechts neben einer Frage fügen Sie eine private Markierung hinzu, als Erinnerung, die Frage später noch einmal anzuschauen.
 
 ![Fragenübersicht markiert mit beantworteter, angezeigter und noch nicht angeschauter Frage, je mit Zahl der Versuche](../assets/test_show_answeroverview_v2_de.png){ class="shadow lightbox" title="Test aus Sicht der Teilnehmenden · 2026.10.01" }
 
@@ -135,9 +135,9 @@ Besteht ein Test aus mehreren [Test-Parts](../Configure_tests.de.md#testpart), b
 
 ![Seite Test Part abgeschlossen mit der Liste der Fragen zum Überprüfen und dem Button Test Part schliessen](../assets/test_run_testpart_complete_v1_de.png){ class="shadow lightbox" title="Seite Test Part abgeschlossen · 2026.10.07" }
 
-Ob, wie und wann Sie die Resultate und die Leistungsübersicht sehen, hängt von der Test-Konfiguration ab.
+Ob, wie und wann Sie die Resultate und die Leistungsübersicht sehen, hängt von der Test-Konfiguration ab. Die Leistungsübersicht zeigt Ihren Erfolgsstatus, Ihre Punkte und die Zahl Ihrer Lösungsversuche. Darunter zeigt der Bereich "Resultate" Ihre Testresultate mit Dauer, Zahl der beantworteten Fragen und erreichter Punktzahl.
 
-![Erfolgsstatus, Bewertung, Punkte und Lösungsversuche, darunter die Testresultate mit Dauer und erreichter Punktzahl](../assets/Leistungsuebersicht_Test1.jpg){ class="shadow lightbox" title="Leistungsübersicht eines Tests aus Sicht der Teilnehmenden" }
+![Erfolgsstatus, Punkte und Lösungsversuche, darunter die Testresultate mit Dauer, beantworteten Fragen und erreichter Punktzahl: Teilnehmende sehen das Testergebnis auf einen Blick](../assets/course_element_test_assessment_overview_v1_de.png){ class="shadow lightbox" title="Leistungsübersicht eines Tests aus Sicht der Teilnehmenden · 2026.11.06" }
 
 Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, können Sie mit "Test starten" den Test noch einmal durchlaufen. Bisherige Durchläufe bleiben dabei erhalten.
 

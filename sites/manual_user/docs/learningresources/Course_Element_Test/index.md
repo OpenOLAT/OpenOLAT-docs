@@ -108,9 +108,9 @@ Tests are suitable for the following scenarios, among others:
 * **Online exam**: Conducting exam-relevant online or e-exams
 
 
-### How to edit a test (Learners perspective) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321) {: #participate_as_learner}
+### How to work on a test (participants) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321) {: #participate_as_learner}
 
-As a learner, you work through a test question by question and can see at any time what has already been answered. Click on "Start test" to begin. Answer the questions displayed and then click "Submit answer" for each question. If the left navigation is visible, it shows which questions you have already answered (filled dot), which you have only looked at (highlighted circle) and which you have not opened at all (grey circle). Using the icon to the right of a question, you add a personal marking as a reminder to review the question later.
+As a participant, you work through a test question by question and can see at any time what has already been answered. Click on "Start test" to begin. Answer the questions displayed and then click "Submit answer" for each question. If the left navigation is visible, it shows which questions you have already answered (filled dot), which you have only looked at (highlighted circle) and which you have not opened at all (grey circle). Using the icon to the right of a question, you add a personal marking as a reminder to review the question later.
 
 ![Question overview marked with an answered, a displayed and a not yet viewed question, each with the number of attempts](../assets/test_show_answeroverview_v2_en.png){ class="shadow lightbox" title="Test from the participants' view · 2026.10.01" }
 
@@ -135,9 +135,9 @@ If a test consists of several [test parts](../Configure_tests.md#testpart), you 
 
 ![Page Test part complete with the list of questions to review and the Close test part button](../assets/test_run_testpart_complete_v1_en.png){ class="shadow lightbox" title="Page Test part complete · 2026.10.07" }
 
-Whether, how and when you see the results and the performance summary depends on the test configuration.
+Whether, how and when you see the results and the performance summary depends on the test configuration. The performance summary shows your success status, your score and the number of your attempts. Below it, the area "Results" shows your test results with duration, number of answered questions and score achieved.
 
-![Success status, score and attempts, below them the test results with duration and score achieved](../assets/course_element_test_assessment_overview_v1_en.png){ class="shadow lightbox" title="Performance summary of a test from the participants' view · 2026.10.01" }
+![Success status, score and attempts, below them the test results with duration, answered questions and score achieved: participants see the test result at a glance](../assets/course_element_test_assessment_overview_v2_en.png){ class="shadow lightbox" title="Performance summary of a test from the participants' view · 2026.11.06" }
 
 If you have more attempts available to process the test, you can run through the test again with "Start test". Previous runs will be retained.
 

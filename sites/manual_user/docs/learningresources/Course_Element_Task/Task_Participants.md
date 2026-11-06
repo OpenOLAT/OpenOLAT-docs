@@ -5,7 +5,7 @@ This page is intended for course participants. It describes the steps with which
 
 In the course element you see all steps of the task (workflow) one below the other, depending on the configuration of the course element. As soon as you have completed a step, the next one opens.
 
-![The steps of the task stand one below the other; only "Task assignment" is open and requires choosing a task: course element Task in the participants' view](../assets/course_element_task_participant_view1_v2_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
+![The steps of the task stand one below the other; only "Task assignment" is open and requires choosing a task](../assets/course_element_task_participant_view1_v2_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
 
 !!! note "Quick Links: Work on a task"
 
@@ -37,13 +37,13 @@ It is also possible that your teacher has not stored the task in the course elem
 [To the top of the page ^](#process_task)
 
 
-## Who coaches me? {: #process_task_my_coach}
+## Who coaches me? [:octicons-tag-16:{ title="from Release 17.2.1 (OO-6698)" }](https://track.frentix.com/issue/OO-6698) {: #process_task_my_coach}
 
 In courses with a large number of participants, several teachers often coach the task. If the assignment of coaches and participants is activated, a coach is assigned to you as a participant.
 
 You see the coach assigned to you above the task. If no coach is displayed, no one has been assigned to you yet.
 
-![Above the workflow, the block "You will be supervised by" shows profile picture, name and contact details of the assigned coach: course element Task in the participants' view](../assets/course_element_task_participant_view_mycoach_v2_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
+![Above the workflow, the block "You will be supervised by" shows profile picture, name and contact details of the assigned coach](../assets/course_element_task_participant_view_mycoach_v2_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
 
 If a peer review is set up for the task, the participants give each other feedback on their submissions, see [Task with peer review](Task_Peer_Review.md).
 
@@ -54,7 +54,7 @@ If a peer review is set up for the task, the participants give each other feedba
 
 In the step "Task submission" you submit your solution. Depending on the configuration, you upload documents, create files with the OpenOlat editor or record short audio and video recordings directly in OpenOlat.
 
-![In the step Task submission, the table lists the prepared documents, below it the ways to upload, create, and record video or audio: course element Task in the participants' view](../assets/course_element_task_participant_submission_v1_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
+![In the step Task submission, the table lists the prepared documents, below it the ways to upload, create, and record video or audio](../assets/course_element_task_participant_submission_v1_en.png){ class="shadow lightbox" title="Step Task submission, participants' view · 2026.11.03" }
 
 As a rule, only some of these four ways are available to you. Upload your solution or create it directly in OpenOlat, then OpenOlat saves the document temporarily. The documents remain editable for you until you submit your task with the button "Final task submission". You will receive confirmation that you have submitted documents.
 
@@ -67,9 +67,9 @@ Afterwards, a green tick marks the submission step as completed, and it shows an
 
 As long as you have _not_ submitted anything yet and there is no feedback from the coach, this area is empty.
 
-If you have submitted a solution and the coach has not yet created feedback, a corresponding note appears.
+If you have submitted a solution and the coach has not yet created feedback, the step "Return and feedback" carries the status "Review". Below it is the note "Your coach is now reviewing the submitted work. You will get notified when a reviewed or corrected version is available."
 
-![The step carries the status "Review" and reports that the coach is assessing the work and that a notification will follow: step Return and feedback in the participants' view](../assets/course_element_task_participant_feedback_open_v1_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
+![Marked are the status "Review" and the note that the coach is reviewing the submitted work: participants see that their submission has arrived and that feedback will follow](../assets/course_element_task_participant_feedback_open_v2_en.png){ class="shadow lightbox" title="Step Return and feedback, participants' view · 2026.11.06" }
 
 As soon as the coach has created feedback, you find it in the step "Return and feedback". If the coach has accepted your submission, the step reports "Your coach has accepted the submitted work for grading.".
 
@@ -101,7 +101,7 @@ Your teacher can attach a sample solution to the task, which becomes visible fro
 
 The step "Grading" shows the performance summary with status, score and classification of the selected rating scale, depending on the configuration of the course element. Below it are the comment and the assessment documents that the coach has stored.
 
-![The performance summary shows the success status and the attempts, below it the coach's comment and the assessment documents: step Grading in the participants' view](../assets/course_element_task_participant_grading_v1_en.png){ class="shadow lightbox" title="Course element Task, participants' view · 2026.11.03" }
+![The performance summary shows the success status and the attempts, below it the coach's comment and the assessment documents](../assets/course_element_task_participant_grading_v1_en.png){ class="shadow lightbox" title="Step Grading, participants' view · 2026.11.03" }
 
 [To the top of the page ^](#process_task)
 

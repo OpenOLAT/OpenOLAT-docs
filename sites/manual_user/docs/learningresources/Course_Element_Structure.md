@@ -83,7 +83,7 @@ The page [Learning path course - Course editor](../learningresources/Learning_pa
 
 ### Deviations in the conventional course {: #conventional_course_settings}
 
-The conventional course has two tabs on the structure element that do not exist in the learning path course: "Score" and "Access".
+The conventional course has three tabs on the structure element that do not exist in the learning path course: "Visibility", "Access" and "Score". The page [Course elements in the course editor](../learningresources/General_Configuration_of_Course_Elements.md#access) explains the tab "Visibility", this section explains the tabs "Score" and "Access".
 
 #### Tab Score  {: #score}
 

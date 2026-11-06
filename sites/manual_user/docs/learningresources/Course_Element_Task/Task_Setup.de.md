@@ -3,9 +3,9 @@
 Diese Seite richtet sich an Kursbesitzer:innen. Sie beschreibt, wie Sie den [Kursbaustein "Aufgabe"](index.de.md) im Kurseditor einrichten, Tab für Tab in der Reihenfolge der Oberfläche.
 
 
-Sie erstellen und konfigurieren die Aufgabe wie alle Kursbausteine im Kurseditor.
+Sie erstellen und konfigurieren die Aufgabe wie alle Kursbausteine im Kurseditor. Im Lernpfadkurs hat der Kursbaustein dort elf Tabs, von "Titel und Beschreibung" bis "Erinnerungen & To-dos"; im herkömmlichen Kurs stehen an der Stelle von "Lernpfad" die Tabs "Sichtbarkeit" und "Zugang". Welche Tabs Sie bearbeiten können, bestimmen die Schritte, die Sie im Tab "Workflow" einschalten. Den Tab "Badges" zeigt der Kurseditor zusätzlich, wenn im Kurs Badges vergeben werden.
 
-![Elf Tabs konfigurieren den Kursbaustein Aufgabe, von Titel und Beschreibung bis Erinnerungen & To-dos: Tableiste im Kurseditor](../assets/course_element_task_tabs_v1_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe" }
+![Elf Tabs konfigurieren den Kursbaustein Aufgabe, von Titel und Beschreibung bis Erinnerungen & To-dos](../assets/course_element_task_tabs_v2_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe · 2026.11.06" }
 
 !!! note "Quick Links: Aufgabe einrichten"
 
@@ -57,7 +57,7 @@ Unter "Bearbeitungszeit (Minuten)" tragen Sie ein, wie lange Teilnehmende für d
 
 Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, damit die Aufgabe als "erledigt" gilt. Folgende Optionen stehen zur Wahl:
 
-![Fünf Erledigungskriterien stehen zur Wahl, gewählt ist "Durchführung erledigt": Feld Erledigungskriterium im Tab Lernpfad des Kurseditors](../assets/course_element_task_completion_criterion_v1_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Lernpfad · 2026.11.02" }
+![Fünf Erledigungskriterien stehen zur Wahl, gewählt ist "Durchführung erledigt"](../assets/course_element_task_completion_criterion_v1_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Lernpfad · 2026.11.02" }
 
 * **Kursbaustein öffnen**: Die Person hat den Kursbaustein geöffnet.
 * **Bestätigung durch Benutzer:in**: Die Person hat die Lesebestätigung angeklickt.
@@ -87,7 +87,7 @@ Im Tab "Workflow" legen Sie fest, aus welchen Schritten die Aufgabe besteht. Sol
 
 Folgende Optionen stehen Ihnen zur Verfügung:
 
-![Der Tab Workflow schaltet die Bestandteile der Aufgabe von "Aufgabenstellung" bis "Bewertung" einzeln ein und nimmt je Schritt ein Fälligkeitsdatum auf: Tab Workflow im Kurseditor](../assets/course_element_task_workflow_elements_v3_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Workflow · 2026.11.02" }
+![Der Tab Workflow schaltet die Bestandteile der Aufgabe von "Aufgabenstellung" bis "Bewertung" einzeln ein und nimmt je Schritt ein Fälligkeitsdatum auf](../assets/course_element_task_workflow_elements_v3_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Workflow · 2026.11.02" }
 
 ### Relatives Datum {: #workflow_relative_dates}
 
@@ -95,11 +95,11 @@ Statt Kalenderdaten einzutragen, können Sie auch mit _relativen Daten_ arbeiten
 
 === "Mit fixem Datum"
 
-    ![Bei ausgeschalteter Checkbox "Relatives Datum" nimmt das Feld "Zuweisung bis" ein Kalenderdatum mit Uhrzeit auf: Abschnitt Aufgabenstellung im Tab Workflow des Kurseditors](../assets/course_element_task_workflow_fix_dates_v2_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Workflow · 2026.11.02" }
+    ![Bei ausgeschalteter Checkbox "Relatives Datum" nimmt das Feld "Zuweisung bis" ein Kalenderdatum mit Uhrzeit auf](../assets/course_element_task_workflow_fix_dates_v2_de.png){ class="shadow lightbox" title="Tab Workflow, Abschnitt Aufgabenstellung · 2026.11.02" }
 
 === "Mit relativem Datum"
 
-    ![Bei aktiviertem "Relatives Datum" nimmt "Zuweisung bis …" eine Anzahl Tage nach dem ersten Kursbesuch oder der Einschreibung / Buchung auf: Abschnitt Aufgabenstellung im Tab Workflow des Kurseditors](../assets/course_element_task_workflow_relative_dates_v2_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Workflow · 2026.11.02" }
+    ![Bei aktiviertem "Relatives Datum" nimmt "Zuweisung bis …" eine Anzahl Tage nach dem ersten Kursbesuch oder der Einschreibung / Buchung auf](../assets/course_element_task_workflow_relative_dates_v2_de.png){ class="shadow lightbox" title="Tab Workflow, Abschnitt Aufgabenstellung · 2026.11.02" }
 
 Die Umstellung auf relative Daten betrifft die Eingabefelder für "Aufgabenstellung", "Abgabe" und "Musterlösungen".
 
@@ -138,7 +138,7 @@ Dieser Bereich erscheint nur, wenn "Aufgabenstellung" oder "Musterlösungen" ein
 
 Im Bereich "Betreuung" aktivieren Sie eine teilnehmerabhängige Betreuung: Jeder teilnehmenden Person ist dann eine bestimmte betreuende Person zugewiesen.
 
-![Der Abschnitt Betreuung bündelt fünf Einstellungen zur Zuweisung sowie zur Benachrichtigung von Betreuenden und Teilnehmenden: Abschnitt Betreuung im Tab Workflow des Kurseditors](../assets/course_element_task_workflow_assign_coaches_v1_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Workflow" }
+![Der Abschnitt Betreuung bündelt fünf Einstellungen zur Zuweisung sowie zur Benachrichtigung von Betreuenden und Teilnehmenden](../assets/course_element_task_workflow_assign_coaches_v2_de.png){ class="shadow lightbox" title="Tab Workflow, Abschnitt Betreuung · 2026.11.06" }
 
 * **Zuweisung Betreuende/Teilnehmende**<br>
 Mit "Zuweisung aktivieren" blenden Sie die weiteren Optionen zur Betreuung ein. Die Personen ordnen Sie danach bei geschlossenem Kurseditor zu, siehe [Tabelle "Zuweisung Betreuende/Teilnehmende"](#coach_assignment_table).
@@ -150,7 +150,7 @@ Hier wählen Sie zwischen "Betreuer:in" und "Betreuer:in und Kursbesitzer:in". B
 Hier legen Sie fest, ob Sie die betreuenden Personen "Manuell" zuweisen oder OpenOlat sie "Automatisch" zuweist.
 
 * **Benachrichtigung Betreuende**<br>
-Wählen Sie hier, in welchen Fällen Betreuende eine Benachrichtigung per Mail erhalten: "Zuweisung", "Neuer Auftrag" und "Aufhebung Zuweisung".
+Wählen Sie hier, in welchen Fällen Betreuende eine Benachrichtigung per Mail erhalten: "Zuweisung", "Aufhebung Zuweisung" und "Neuer Auftrag".
 
 * **Benachrichtigung Teilnehmende**<br>
 Wählen Sie hier, ob Teilnehmende über die Zuweisung zu einer betreuenden Person per Mail informiert werden.
@@ -161,13 +161,13 @@ Wählen Sie hier, ob Teilnehmende über die Zuweisung zu einer betreuenden Perso
 
 ### Tabelle "Zuweisung Betreuende/Teilnehmende" [:octicons-tag-16:{ title="ab Release 17.2.1 (OO-6698)" }](https://track.frentix.com/issue/OO-6698) {: #coach_assignment_table}
 
-Die eigentliche Zuordnung nehmen Kursbesitzer:innen bei geschlossenem Kurseditor vor: `Kurs > "Titel des Kursbausteins" > Tab "Teilnehmer:innen" > Button "Zuweisung Betreuende/Teilnehmende"`.
+Die Personen ordnen Kursbesitzer:innen bei geschlossenem Kurseditor zu: `Kurs > "Titel des Kursbausteins" > Tab "Teilnehmer:innen" > Button "Zuweisung Betreuende/Teilnehmende"`.
 
 Die Tabelle ist eine Matrix: Jede Zeile ist eine teilnehmende Person, jede Spalte eine zur Auswahl stehende betreuende Person, dazu die Spalte "Nicht zugewiesen". Sie setzen die Zuordnung, indem Sie in der Zeile den Punkt in der gewünschten Spalte wählen. Hinter jedem Namen steht in Klammern, wie viele Personen dieser Betreuerin oder diesem Betreuer aktuell zugewiesen sind. So erkennen Sie eine ungleiche Verteilung auf einen Blick. Gespeichert ist die Zuordnung erst mit "Zuweisung übernehmen".
 
 Über "Nicht zugewiesene zufällig zuweisen" verteilt OpenOlat alle noch offenen Personen automatisch. Die Reiter "Alle" und "Nicht zugewiesen" sowie die Filter "Teilnehmer:innen" und "Betreuer:in" grenzen die Liste ein. Gehören dem Kurs Gruppen oder Curriculum-Elemente an, kommt der Filter "Gruppen" hinzu.
 
-![Eine Matrix ordnet jede teilnehmende Person einer betreuenden Person zu, in Klammern die Anzahl Zuweisungen; "Zuweisung übernehmen" speichert die Wahl: Seite Zuweisung Betreuende/Teilnehmende](../assets/course_element_task_coach_assignment_table_v2_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Tab Teilnehmer:innen, Zuweisung Betreuende/Teilnehmende · 2026.11.03" }
+![Eine Matrix ordnet jede teilnehmende Person einer betreuenden Person zu, in Klammern die Anzahl Zuweisungen; "Zuweisung übernehmen" speichert die Wahl](../assets/course_element_task_coach_assignment_table_v2_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Tab Teilnehmer:innen, Zuweisung Betreuende/Teilnehmende · 2026.11.03" }
 
 !!! note "Hinweis"
 
@@ -228,11 +228,11 @@ Im Feld "Mitteilung an Benutzer:in" hinterlegen Sie für alle Teilnehmenden allg
 Wählt eine teilnehmende Person bei der manuellen Auswahl aus Versehen die falsche Aufgabenstellung, können Kursbesitzer:innen ihr im [Bewertungswerkzeug](../Assessment_tool_overview.de.md) mit "Daten von Aufgabe zurücksetzen" das Zurücksetzen erlauben:<br>
 `Kurs > Administration > Bewertungswerkzeug > "Titel des Kursbausteins" > "Name der Person"`
 
-![Der Button "Daten von Aufgabe zurücksetzen" unter dem Workflow einer Person erlaubt ihr, die gewählte Aufgabe zurückzusetzen: Bewertungsflow einer Person im Bewertungswerkzeug](../assets/course_element_task_reset_assessment_tool_v1_de.png){ class="shadow lightbox" title="Bewertungswerkzeug, Kursbaustein Aufgabe, Person · 2026.11.03" }
+![Der Button "Daten von Aufgabe zurücksetzen" unter dem Workflow einer Person erlaubt ihr, die gewählte Aufgabe zurückzusetzen](../assets/course_element_task_reset_assessment_tool_v1_de.png){ class="shadow lightbox" title="Bewertungswerkzeug, Kursbaustein Aufgabe, Person · 2026.11.03" }
 
 Die Wahl ändert sich dabei _nicht automatisch_. Die teilnehmende Person erhält aber die Möglichkeit, ihre bisherigen Schritte mit "Daten zurücksetzen" rückgängig zu machen.
 
-![Im Schritt "Zuweisung Aufgabenstellung" macht der Button "Daten zurücksetzen" die bisherige Wahl der teilnehmenden Person rückgängig: Kursbaustein Aufgabe in der Sicht der Teilnehmenden](../assets/course_element_task_reset_participant_v1_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
+![Im Schritt "Zuweisung Aufgabenstellung" macht der Button "Daten zurücksetzen" die bisherige Wahl der teilnehmenden Person rückgängig](../assets/course_element_task_reset_participant_v1_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
 
 [zum Seitenanfang ^](#create_task)
 
@@ -249,7 +249,7 @@ Hier definieren Sie Art und Umfang der Einsendemöglichkeiten für die Teilnehme
 
     * "Abgabe" aktiviert worden sein, damit Sie diese nun einrichten können.
 
-    ![Der eingeschaltete Abschnitt Abgabe gibt das Feld "Abgabe bis …" und die Checkbox "Abgabe nach Abgabefrist zulassen" frei: Abschnitt Abgabe im Tab Workflow des Kurseditors](../assets/course_element_task_workflow_activate_submission_v2_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Workflow · 2026.11.02" }
+    ![Der eingeschaltete Abschnitt Abgabe gibt das Feld "Abgabe bis …" und die Checkbox "Abgabe nach Abgabefrist zulassen" frei](../assets/course_element_task_workflow_activate_submission_v2_de.png){ class="shadow lightbox" title="Tab Workflow, Abschnitt Abgabe · 2026.11.02" }
 
 
 Danach aktivieren Sie mindestens eine der beiden Möglichkeiten: Dokumente hochladen oder den OpenOlat Editor für die Abgabe nutzen.
@@ -260,9 +260,9 @@ Im Tab "Abgabe" stehen folgende Optionen zur Wahl:
 
 **"Abgabe mit OpenOlat Editor"**: Teilnehmende erstellen Dokumente direkt im Kursbaustein. Standardmässig steht dafür ein HTML-Editor zur Verfügung. Sind weitere Dokument-Editoren in OpenOlat eingebunden, können sie auch Dokumente in weiteren Formaten wie Word oder Excel erstellen, ebenso draw.io-Diagramme.
 
-Aktivieren Sie "Aufgabe ist Vorlage für die Abgabe", wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet.
+Aktivieren Sie "Aufgabe ist Vorlage für die Abgabe", wenn die Teilnehmenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet.
 
-![Im Schritt Abgabe liegt die Aufgabendatei schon als Dokument bereit; Teilnehmende bearbeiten sie und übermitteln sie mit "Endgültige Abgabe": Kursbaustein Aufgabe in der Sicht der Teilnehmenden](../assets/course_element_task_submission_template_v1_de.png){ class="shadow lightbox" title="Kursbaustein Aufgabe, Sicht der Teilnehmenden · 2026.11.03" }
+![Im Schritt Abgabe liegt die Aufgabendatei schon als Dokument bereit; Teilnehmende bearbeiten sie und übermitteln sie mit "Endgültige Abgabe"](../assets/course_element_task_submission_template_v1_de.png){ class="shadow lightbox" title="Schritt Abgabe, Sicht der Teilnehmenden · 2026.11.03" }
 
 **"Videoaufnahmen zulassen"**: Teilnehmende nehmen zusätzlich Videos per Webcam auf und reichen sie ein. Unter "Max. Länge der Aufzeichnung (in Sek.)" begrenzen Sie die Dauer, unter "Videoqualität" wählen Sie die Qualitätsstufe.
 
@@ -284,7 +284,7 @@ Aktivieren Sie die E-Mail-Bestätigung, damit Personen, die eine Aufgabe abgegeb
     Im Tab "Workflow" muss
 
     * das Feedback eingeschaltet sein.
-    ![Unter "Art" wählen Sie "Durch Betreuende" oder "Mit Peer-Review", beim Peer-Review mit Peer-Review-Zeitraum: Abschnitt Feedback im Tab Workflow des Kurseditors](../assets/course_element_task_workflow_activate_fb_v2_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Workflow · 2026.11.02" }
+    ![Unter "Art" wählen Sie "Durch Betreuende" oder "Mit Peer-Review", beim Peer-Review mit Peer-Review-Zeitraum](../assets/course_element_task_workflow_activate_fb_v2_de.png){ class="shadow lightbox" title="Tab Workflow, Abschnitt Feedback · 2026.11.02" }
     * Je nach Wahl wer das Feedback geben soll, erscheinen im Tab "Rückgabe und Feedback" unterschiedliche Optionen
 
 
@@ -354,7 +354,7 @@ Um allen Teilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubieten,
 
     * "Musterlösungen" aktiviert worden sein, damit Sie diese nun einrichten können.
 
-    ![Mit Kalenderdatum unter "Sichtbar nach …" regelt "Sichtbar für …", ob alle oder nur Personen mit Abgabe die Musterlösung sehen: Abschnitt Musterlösungen im Tab Workflow](../assets/course_element_task_workflow_activate_sample_v2_de.png){ class="shadow lightbox" title="Kurseditor, Kursbaustein Aufgabe, Tab Workflow · 2026.11.02" }
+    ![Mit Kalenderdatum unter "Sichtbar nach …" regelt "Sichtbar für …", ob alle oder nur Personen mit Abgabe die Musterlösung sehen](../assets/course_element_task_workflow_activate_sample_v2_de.png){ class="shadow lightbox" title="Tab Workflow, Abschnitt Musterlösungen · 2026.11.02" }
 
 
 Standardmässig sehen Teilnehmende die Musterlösung erst, wenn sie die vorherigen Schritte abgeschlossen haben. Gibt es ein Feedback durch Betreuende, ist das nach der Annahme ihrer Abgabe. Wählen Sie im Tab "Workflow" unter "Sichtbar für …" die Sichtbarkeit für alle, sehen auch Personen ohne Abgabe die Musterlösung ab dem eingetragenen Datum.
@@ -390,9 +390,9 @@ Weitere Informationen zu diesem Tab, der in den meisten bewertbaren Kursbaustein
 Mit der Erinnerungsfunktion können Sie [Erinnerungen](../Course_Reminders.de.md) in Form einer E-Mail an Kursmitglieder versenden und automatische [To-dos](../Course_todos.de.md) für die Aufgabe generieren. To-dos werden den Teilnehmenden im persönlichen Menü unter "[To-dos](../../personal_menu/To-Dos.de.md)" hinterlegt.
 
 
-Wird die automatische Erstellung von To-dos aktiviert, sehen die Lernenden unter `Mein Kurs > To-dos` den aktuellen Stand (Schritt) des Workflows der entsprechenden Aufgabe und erkennen so rasch, ob bzw. welche Aktionen aktuell von ihnen vorgenommen werden müssen. Darüber hinaus erscheinen diese To-dos auch bei den persönlichen To-dos in den persönlichen Werkzeugen.
+Wird die automatische Erstellung von To-dos aktiviert, sehen die Teilnehmenden unter `Mein Kurs > To-dos` den aktuellen Stand (Schritt) des Workflows der entsprechenden Aufgabe und erkennen so rasch, ob und welcher Schritt gerade von ihnen erwartet wird. Darüber hinaus erscheinen diese To-dos auch bei den persönlichen To-dos in den persönlichen Werkzeugen.
 
-Mit den To-dos behalten die Lernenden den Überblick über ihre Aufgaben. Weitere Informationen finden Sie auf der Seite [To-dos: Grundlagen](../../basic_concepts/To_Dos_Basics.de.md).
+Mit den To-dos behalten die Teilnehmenden den Überblick über ihre Aufgaben. Weitere Informationen finden Sie auf der Seite [To-dos: Grundlagen](../../basic_concepts/To_Dos_Basics.de.md).
 
 !!! note "Hinweis"
 
