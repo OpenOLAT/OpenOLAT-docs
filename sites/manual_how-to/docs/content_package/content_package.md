@@ -114,8 +114,6 @@ Open the course editor and click "Edit" in the "Learning content" tab. The "Repl
 
 "Edit" takes you to the preview of your content package. A newly created content package contains a first page with placeholder text.
 
-![Newly created CP learning content with the first page Lorem Ipsum, above it the toolbar with Administration, Status and Info page](assets/cp_preview_complete_v1_en.png){ class="shadow lightbox" title="Preview of the CP learning content" }
-
 
 <h3> b) Open the CP editor</h3>
 

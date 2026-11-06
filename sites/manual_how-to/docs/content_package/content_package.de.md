@@ -111,8 +111,6 @@ Fertig. Damit ist eine neue Lernressource angelegt. Sie können nun weitere Eins
 
 Mit "Bearbeiten" gelangen Sie auf die Vorschau Ihres Content Packages. Ein neu erstelltes Content Package enthält eine erste Seite mit Platzhaltertext.
 
-![Neu erstellter CP-Lerninhalt mit der ersten Seite Lorem Ipsum, darüber die Toolbar mit Administration, Status und Infoseite](assets/cp_gesamtvorschau_v1_de.png){ class="shadow lightbox" title="Vorschau des CP-Lerninhalts" }
-
 
 <h3> b) CP-Editor öffnen</h3>
 
