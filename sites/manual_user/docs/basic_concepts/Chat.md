@@ -6,7 +6,7 @@
 
 Instant Messaging (IM) allows the exchange of messages with persons in real time, commonly known as "chat". Information on the availability of potential chat partners is important. This information is provided by the list of group peers. To start a chat with one of the available contacts, click on that contact. The chat is started in a chat window. If a person is not available at the moment, the messages are saved and displayed to the user at the next login.
 
-![List Group peers with the online members of your own groups and the toggles for offline contacts and groups, opened via the digits in the main navigation](assets/chat_group.gif){ class="shadow lightbox" }
+![List Group peers with the online members of your own groups and the toggles for offline contacts and groups, opened via the digits in the main navigation](assets/chat_group.gif){ class="shadow lightbox" title="List Group peers in the chat" }
 
 ## Messaging Status {: #status}
 
@@ -70,7 +70,7 @@ To view chat logs, open the chat window of the desired chat partner. Then select
 [User tools: Other users >](../personal_menu/Other_users.md)<br>
 [Group Administration >](../groups/Group_Administration/index.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Additional Course Features >](../learningresources/Additional_Course_Features.md)<br>
+[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)
 
 **youtube**<br>

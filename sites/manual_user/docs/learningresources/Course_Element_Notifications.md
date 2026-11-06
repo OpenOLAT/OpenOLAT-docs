@@ -40,7 +40,7 @@ The members of the course also see subscribed info messages in the personal menu
 
 !!! tip "Tip"
 
-    For an announcement to the entire course that needs no place in the course menu, the tool of the same name "[Info messages](../learningresources/Using_Additional_Course_Features.md)" in the toolbar is suitable. It cannot be configured: owners and coaches create info messages there, participants subscribe to them themselves if needed. Use the course element if the info messages should appear at a specific place in the course menu or if you want to define display, user rights, automatic subscription and access yourself.
+    For an announcement to the entire course that needs no place in the course menu, the tool of the same name "[Info messages](../learningresources/Toolbar.md#notifications)" in the toolbar is suitable. It cannot be configured: owners and coaches create info messages there, participants subscribe to them themselves if needed. Use the course element if the info messages should appear at a specific place in the course menu or if you want to define display, user rights, automatic subscription and access yourself.
 
 ## Writing and sending an info message [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9594)" }](https://track.frentix.com/issue/OO-9594) {: #create_notification}
 
@@ -72,7 +72,7 @@ This way, an announcement that only concerns the course goes with "All course pa
 
 **Mentioned on this page**<br>
 [Subscriptions >](../personal_menu/Subscriptions.md)<br>
-[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)
+[Toolbar: Overview >](../learningresources/Toolbar.md)
 
 **Further reading**<br>
 [Members management >](../learningresources/Members_management.md)<br>

@@ -30,7 +30,7 @@ The [course search](../../manual_user/basic_concepts/Search_in_Course.md) is con
 
 ![Course search checkbox activated and highlighted](assets/modules_learning_resource_course_search_setting_v1_en.png){ class="shadow lightbox" title="Toolbar tab of the course settings" }
 
-How course owners activate the course search and the other toolbar tools is described on the page [Using Additional Course Features](../../manual_user/learningresources/Using_Additional_Course_Features.md).
+How course owners activate the course search and the other toolbar tools is described on the page [Toolbar: Overview](../../manual_user/learningresources/Toolbar.md#show_icons).
 
 [To the top of the page ^](#learning_resource)
 
@@ -197,7 +197,7 @@ Course owners overwrite the setting for their course under:<br>
 
 **Mentioned on this page**<br>
 [Search in a course >](../../manual_user/basic_concepts/Search_in_Course.md)<br>
-[Using Additional Course Features >](../../manual_user/learningresources/Using_Additional_Course_Features.md)<br>
+[Toolbar: Overview >](../../manual_user/learningresources/Toolbar.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Access configuration >](../../manual_user/learningresources/Access_configuration.md)<br>
 [General Information >](../../manual_user/learningresources/General_Information.md)<br>

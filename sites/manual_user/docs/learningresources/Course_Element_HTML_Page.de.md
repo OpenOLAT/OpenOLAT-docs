@@ -81,7 +81,7 @@ Laden Sie mit "Import" eine ZIP-Datei hoch, entpackt OpenOlat sie und zeigt Ihne
 
 ## Tab Anzeige Inhalt {: #layout}
 
-Im Tab "Anzeige Inhalt" legen Sie fest, wie OpenOlat die Seite im Kurs anzeigt: unverändert oder optimiert für OpenOlat. Der Anzeigemodus "Optimiert für OpenOlat" gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden, oder ein in den Kurs eingebundenes [Glossar](../learningresources/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
+Im Tab "Anzeige Inhalt" legen Sie fest, wie OpenOlat die Seite im Kurs anzeigt: unverändert oder optimiert für OpenOlat. Der Anzeigemodus "Optimiert für OpenOlat" gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden, oder ein in den Kurs eingebundenes [Glossar](../learningresources/Glossary_usage.de.md#glossary_call_in_HTML) für die Seite zu aktivieren.
 
 ![Einstellungen für Anzeigemodus, JavaScript mit Keine oder jQuery, Glossarbegriffe, Höhe, Layout und Zeichensatz](assets/course_element_html_page_tab_displaycontent_v2_de.png){ class="shadow lightbox" title="Tab Anzeige Inhalt im Kurseditor · 2026.10.08" }
 
@@ -251,7 +251,7 @@ Wählen Sie Emoticons, wie Sie es von Social Media her gewohnt sind.
 ### Hyperlinks
 
 Es können Links ins Internet und innerhalb OpenOlat (bestimmte Kursbausteine, auch in anderen Kursen) eingefügt werden.<br>
-Die Links können auf Bilder, Videos oder auch die Tools in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) zeigen.<br>
+Die Links können auf Bilder, Videos oder auch die Tools in der [Toolbar](../learningresources/Toolbar.de.md#available_icons) zeigen.<br>
 Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster angezeigt werden soll.
 
 ![Vier Linkarten als Tabs hervorgehoben: Dateiverlinkung, Kursknotenverlinkung, Kurswerkzeugverlinkung und Bibliothek](assets/course_element_html_page_editor_links_v2_de.png){ class="shadow lightbox" title="Dialog Verlinkung auswählen im HTML-Editor · 2026.10.08" }
@@ -298,7 +298,7 @@ Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster ange
 **Auf dieser Seite erwähnt**<br>
 [Ablageordner >](../learningresources/Storage_folder.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
+[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
 [tiny.cloud](https://www.tiny.cloud)<br>
 [Videos im Kursbaustein "HTML-Seite" >](../basic_concepts/Video_in_HTML_Pages.de.md)<br>
 [Video aufnehmen >](../basic_concepts/Video_Recording.de.md)<br>

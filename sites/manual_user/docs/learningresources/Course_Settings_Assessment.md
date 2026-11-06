@@ -165,7 +165,7 @@ The option for the manual success status only appears if at least one criterion 
 
 ![Entry Evidence of achievement in first position in the My course menu, below it To-dos, My badges, Notes and Bookmark](assets/course_settings_assessment_evidence_of_achievements_my_cours_v1_en.png){ class="aside-right shadow lightbox" }
 
-If you activate the option "Show evidence of achievement to participants", the option "Evidence of achievement" appears in the course in the toolbar menu ["My course"](../learningresources/Additional_Course_Features.md) and the participants see an overview of the assessable course elements with their current assessment status.
+If you activate the option "Show evidence of achievement to participants", the option "Evidence of achievement" appears in the course in the toolbar menu ["My course"](../learningresources/Toolbar_My_Course.md#evidence_of_achievement) and the participants see an overview of the assessable course elements with their current assessment status.
 
 The entry "Evidence of achievement" appears in the "My course" menu for participants as soon as this option is switched on. It also appears with the option switched off if "Issue certificate" is switched on in the [Certificate section](#section_certificate). Guests do not see the entry, and as long as an exam is running in the course in [assessment mode](Assessment_mode.md), it stays hidden.
 
@@ -234,7 +234,7 @@ Further information about badges can be found here:<br>
 [Course Settings >](Course_Settings.md)<br>
 [Learning path course - Overview >](Learning_path_course.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
-[Additional Course Features >](Additional_Course_Features.md)<br>
+[Toolbar: Overview >](Toolbar.md)<br>
 [Assessment management: Assessment mode >](Assessment_mode.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>

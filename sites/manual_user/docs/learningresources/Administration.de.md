@@ -291,7 +291,7 @@ Liegt der Kurs im Papierkorb, steht an dieser Stelle der Menüpunkt "Wiederherst
 
 ## Weiterführende Informationen {: #further_information}
 
-[Einsatz weiterer Kursfunktionen der Toolbar >](Using_Additional_Course_Features.de.md)<br>
+[Toolbar: Übersicht >](Toolbar.de.md)<br>
 [Toolbar: Infoseite >](Info_page.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)
 

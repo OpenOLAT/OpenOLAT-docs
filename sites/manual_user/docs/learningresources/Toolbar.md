@@ -94,7 +94,7 @@ By default, only owners of a course have write access to the calendar. Course pa
 
 ![Tool Participant list with the people icon highlighted in the toolbar, to its left Info page, Learning path and Calendar, to its right Info messages and the other tools](assets/toolbar_participant_list_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
-The participant list can also include contact options in the list of all course members.<br>
+The participant list can also include contact options in the list of all course members. In contrast to the course element of the same name, the tool cannot be configured.<br>
 [More >](../learningresources/Course_Element_Participant_List.md)
 
 ---
@@ -103,7 +103,9 @@ The participant list can also include contact options in the list of all course 
 
 ![Tool Info messages with the megaphone icon highlighted in the toolbar](assets/toolbar_notifications_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-In the info messages, teachers can store information about the entire course centrally.<br>
+With the tool "Info messages", you address an announcement to the entire course without placing a course element in the course menu. Owners and coaches create the info messages. Participants subscribe to the tool themselves if needed and are then notified when a new info message appears.
+
+In contrast to the course element "Info messages", the tool cannot be configured. Display, user rights, automatic subscription and access are defined in the course element only. Use the course element if the info messages should appear at a specific place in the course menu or if you need these settings.<br>
 [More >](../learningresources/Course_Element_Notifications.md)
 
 ---

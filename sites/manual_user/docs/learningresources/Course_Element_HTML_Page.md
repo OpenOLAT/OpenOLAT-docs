@@ -79,7 +79,7 @@ If you upload a ZIP file with "Import", OpenOlat unpacks it and then offers the 
 
 ## Tab Display content {: #layout}
 
-In the "Display content" tab you determine how OpenOlat displays the page in the course: unaltered or optimized for OpenOlat. The display mode "Optimized for OpenOlat" allows you to e.g. apply the course layout to the page content, or to enable the course [Glossary](../learningresources/Using_Additional_Course_Features.md#glossary).
+In the "Display content" tab you determine how OpenOlat displays the page in the course: unaltered or optimized for OpenOlat. The display mode "Optimized for OpenOlat" allows you to e.g. apply the course layout to the page content, or to enable the course [Glossary](../learningresources/Glossary_usage.md#glossary_call_in_HTML).
 
 ![Settings for display mode, JavaScript with None or jQuery, glossary terms, height, layout and character set](assets/course_element_html_page_tab_displaycontent_v2_en.png){ class="shadow lightbox" title="Display content tab in the course editor · 2026.10.08" }
 
@@ -250,7 +250,7 @@ Choose emoticons as you are used to from social media.
 ### Hyper links
 
 Links to the Internet and within OpenOlat (certain course elements, also in other courses) can be inserted.<br>
-The links can point to images, videos or the tools in the [Toolbar](../learningresources/Using_Additional_Course_Features.md).<br>
+The links can point to images, videos or the tools in the [Toolbar](../learningresources/Toolbar.md#available_icons).<br>
 Select whether the link should be displayed in the OpenOlat course content or in a new window.
 
 ![Four link types highlighted as tabs: File link, Link of course node, Link of course tool and Library](assets/course_element_html_page_editor_links_v2_en.png){ class="shadow lightbox" title="Select link dialog in the HTML editor · 2026.10.08" }
@@ -295,7 +295,7 @@ Select whether the link should be displayed in the OpenOlat course content or in
 **Mentioned on this page**<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
-[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
+[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
 [tiny.cloud](https://www.tiny.cloud)<br>
 [Videos in course element "HTML page" >](../basic_concepts/Video_in_HTML_Pages.md)<br>
 [Video Recording >](../basic_concepts/Video_Recording.md)<br>

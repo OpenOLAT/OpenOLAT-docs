@@ -30,7 +30,7 @@ Die [Kurssuche](../../manual_user/basic_concepts/Search_in_Course.de.md) wird pr
 
 ![Checkbox Kurssuche aktiviert und hervorgehoben](assets/modules_learning_resource_course_search_setting_v1_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen" }
 
-Wie Kursbesitzer:innen die Kurssuche und die weiteren Werkzeuge der Toolbar aktivieren, beschreibt die Seite [Einsatz weiterer Kursfunktionen der Toolbar](../../manual_user/learningresources/Using_Additional_Course_Features.de.md).
+Wie Kursbesitzer:innen die Kurssuche und die weiteren Werkzeuge der Toolbar aktivieren, beschreibt die Seite [Toolbar: Übersicht](../../manual_user/learningresources/Toolbar.de.md#show_icons).
 
 [Zum Seitenanfang ^](#learning_resource)
 
@@ -197,7 +197,7 @@ Kursbesitzer:innen überschreiben die Einstellung für ihren Kurs unter:<br>
 
 **Auf dieser Seite erwähnt**<br>
 [Suche in einem Kurs >](../../manual_user/basic_concepts/Search_in_Course.de.md)<br>
-[Einsatz weiterer Kursfunktionen der Toolbar >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md)<br>
+[Toolbar: Übersicht >](../../manual_user/learningresources/Toolbar.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../../manual_user/learningresources/Access_configuration.de.md)<br>
 [Allgemeines >](../../manual_user/learningresources/General_Information.de.md)<br>

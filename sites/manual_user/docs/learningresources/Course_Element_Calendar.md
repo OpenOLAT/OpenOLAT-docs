@@ -13,9 +13,9 @@ Specialty / Note |
 
 
 
-With the course element "Calendar" you show the [course calendar](../learningresources/Using_Additional_Course_Features.md#course-calendar) directly in the course structure, for example at the place where the participants find the materials of a week. You can also insert the course element several times. Every course element "Calendar" shows the same course calendar.
+With the course element "Calendar" you show the [course calendar](../learningresources/Toolbar.md#calendar) directly in the course structure, for example at the place where the participants find the materials of a week. You can also insert the course element several times. Every course element "Calendar" shows the same course calendar.
 
-The course element is an alternative to the calendar in the toolbar of the course, see [Using additional course features](../learningresources/Using_Additional_Course_Features.md).
+The course element is an alternative to the calendar in the toolbar of the course, see [Toolbar: Overview](../learningresources/Toolbar.md#calendar).
 
 By default, the owners and the coaches of the course create and edit events. All participants read the events. In the tab "Calendar configuration", under "Edit events", you define whether coaches and participants may create and edit events in addition to the owners. Under "Date displayed" you choose between "Current date" and "Select fixed date": the calendar then opens at today's date or at the date you set. The members of the course automatically also see the course calendar in their [personal calendar](../personal_menu/Calendar.md).
 
@@ -30,7 +30,7 @@ In many courses, especially in [learning path courses](../learningresources/Lear
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
+[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)

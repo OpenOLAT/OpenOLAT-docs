@@ -167,7 +167,7 @@ Die Option für den manuellen Erfolgsstatus erscheint nur, wenn im [Abschnitt Ei
 
 ![Eintrag Leistungsnachweis an erster Stelle im Menü Mein Kurs, darunter To-dos, Meine Badges, Notizen und Bookmark](assets/course_settings_assessment_evidence_of_achievements_my_cours_v1_de.png){ class="aside-right lightbox" }
 
-Wenn Sie die Option "Leistungsnachweis den Teilnehmer:innen anzeigen" aktivieren, erscheint im Kurs im Toolbar Menü ["Mein Kurs"](../learningresources/Additional_Course_Features.de.md) die Option "Leistungsnachweis" und die Teilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
+Wenn Sie die Option "Leistungsnachweis den Teilnehmer:innen anzeigen" aktivieren, erscheint im Kurs im Toolbar Menü ["Mein Kurs"](../learningresources/Toolbar_My_Course.de.md#evidence_of_achievement) die Option "Leistungsnachweis" und die Teilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
 
 Der Eintrag "Leistungsnachweis" erscheint im Menü "Mein Kurs" für Teilnehmende, sobald diese Option eingeschaltet ist. Er erscheint auch bei ausgeschalteter Option, wenn im [Abschnitt Zertifikat](#section_certificate) "Zertifikat ausstellen" eingeschaltet ist. Gäste sehen den Eintrag nicht, und solange im Kurs eine Prüfung im [Prüfungsmodus](Assessment_mode.de.md) läuft, bleibt er ausgeblendet.
 
@@ -239,7 +239,7 @@ Weitere Infos zu Badges finden Sie hier:<br>
 [Kurseinstellungen >](Course_Settings.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
-[Zusätzliche Kursfunktionen >](Additional_Course_Features.de.md)<br>
+[Toolbar: Übersicht >](Toolbar.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>

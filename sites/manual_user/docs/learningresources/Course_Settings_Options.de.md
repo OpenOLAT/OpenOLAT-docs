@@ -2,13 +2,13 @@
 
 Unter `Kurs > Administration > Einstellungen > Optionen` können Sie
 
-* ein kurspezifisches [Glossar](../learningresources/Using_Additional_Course_Features.de.md) 
+* ein kurspezifisches [Glossar](../learningresources/Glossary_create.de.md#integrate) 
 * einen [Ressourcenordner](../learningresources/index.de.md) 
 * und einen speziellen Ordner für Betreuer:innen
 
 einrichten, sowie (mit entsprechender Berechtigung) ein paar spezielle Konfigurationen aktivieren. 
 
-![Tab Optionen der Kurseinstellungen mit Glossar- und Ressourcenordner-Auswahl, Einstellungen für den Betreuer:innen-Ordner und Konfigurationsoptionen für administrative Rollen](assets/course_settings_options_v1_de.png){ class="shadow lightbox" }
+![Tab Optionen der Kurseinstellungen mit Glossar- und Ressourcenordner-Auswahl, Einstellungen für den Betreuer:innen-Ordner und Konfigurationsoptionen für administrative Rollen](assets/course_settings_options_v1_de.png){ class="shadow lightbox" title="Tab Optionen der Kurseinstellungen" }
 
 
 ## Glossar einbinden
@@ -39,7 +39,7 @@ Als Ort für den Ordner kann entweder ein bereits existierender Ordner aus dem A
 
 Im Menü Administration erscheint sowohl für Betreuer:innen als auch für Besitzer:innen des Kurses das neue Untermenü "Unterlagen Betreuer:innen".
 
-![Neuer Menüeintrag "Unterlagen Betreuer" im Menü Administration eines Kurses](assets/coach_folder_menu_DE.png){ class="shadow lightbox" }
+![Neuer Menüeintrag "Unterlagen Betreuer" im Menü Administration eines Kurses](assets/coach_folder_menu_DE.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
 
 Sollen Betreuer:innen kurspezifische **To-dos** verwenden können, aktivieren Sie diese Option ebenfalls in diesem Abschnitt.
 
@@ -55,7 +55,7 @@ Mit **"Systemstandard übernehmen"** gilt die von der Administration vorgegebene
 * **Nur-Lese-Zugriff:** Der Kursinhalt steht den Teilnehmenden weiterhin im Lesemodus zur Verfügung.
 * **Kein Zugriff:** Die Teilnehmenden haben keinen Zugriff mehr auf die Inhalte. Beim Öffnen erscheint eine Hinweisseite mit Verweis auf die zuständige Ansprechperson.
 
-![Abschnitt Zugriff im Tab Optionen mit gewählter Option Überschreiben und den beiden Auswahlkarten Nur-Lese-Zugriff und Kein Zugriff](assets/course_settings_options_finished_access_v1_de.png){ class="shadow lightbox" }
+![Abschnitt Zugriff im Tab Optionen mit gewählter Option Überschreiben und den beiden Auswahlkarten Nur-Lese-Zugriff und Kein Zugriff](assets/course_settings_options_finished_access_v1_de.png){ class="shadow lightbox" title="Tab Optionen der Kurseinstellungen" }
 
 [Zum Seitenanfang ^](#course_settings_options)
 
@@ -74,7 +74,7 @@ Benutzer:innen mit administrativen Rollen (Lernressourcenverwalter:in, Administr
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)<br>
+[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
 [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../manual_how-to/multiple_use/multiple_use.de.md)<br>
 [Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)

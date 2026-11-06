@@ -6,7 +6,7 @@
 
 Instant-Messaging (IM) erlaubt den Austausch von Nachrichten mit Personen in Echtzeit, das sogenannte "Chatten". Wichtig ist dabei die Information über die Verfügbarkeit von potentiellen Chatpartner:innen. Diese Information liefert die Liste der Gruppenkontakte. Um mit einem der verfügbaren Kontakte einen Chat zu starten, klicken Sie auf den gewünschten Kontakt. Der Chat wird in einem Chatfenster gestartet. Ist eine Person im Moment nicht erreichbar, so werden die Nachrichten gespeichert und der Benutzer:in beim nächsten Login angezeigt.
 
-![Liste Gruppenkontakte mit den online angemeldeten Mitgliedern der eigenen Gruppen sowie den Schaltern für offline Kontakte und Gruppen, geöffnet über die Ziffern in der Hauptnavigation](assets/chat_group_DE.gif){ class="shadow lightbox" }
+![Liste Gruppenkontakte mit den online angemeldeten Mitgliedern der eigenen Gruppen sowie den Schaltern für offline Kontakte und Gruppen, geöffnet über die Ziffern in der Hauptnavigation](assets/chat_group_DE.gif){ class="shadow lightbox" title="Liste Gruppenkontakte im Chat" }
 
 ## Messaging Status {: #status}
 
@@ -70,7 +70,7 @@ Um Chat-Protokolle einzusehen, öffnen Sie das Chatfenster der gewünschten Chat
 [Persönliche Werkzeuge: Personensuche >](../personal_menu/Other_users.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
-[Zusätzliche Kursfunktionen >](../learningresources/Additional_Course_Features.de.md)<br>
+[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)
 
 **youtube**<br>

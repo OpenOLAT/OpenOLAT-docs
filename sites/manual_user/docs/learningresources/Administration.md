@@ -289,7 +289,7 @@ If the course is in the trash, the menu item "Restore" appears in this place.
 
 ## Further information {: #further_information}
 
-[Using Additional Course Features >](Using_Additional_Course_Features.md)<br>
+[Toolbar: Overview >](Toolbar.md)<br>
 [Toolbar: Info page >](Info_page.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)
 

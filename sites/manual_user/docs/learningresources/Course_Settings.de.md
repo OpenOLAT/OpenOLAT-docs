@@ -203,7 +203,7 @@ Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 
 Hier aktivieren Sie je nach Bedarf
 
-* ein kursspezifisches [Glossar](../learningresources/Using_Additional_Course_Features.de.md) 
+* ein kursspezifisches [Glossar](../learningresources/Glossary_create.de.md#integrate) 
 * einen [Ressourcenordner](../learningresources/index.de.md) zu Ihrem Kurs
 * einen speziellen Ordner für Betreuer:innen
 * To-dos für Betreuer:innen

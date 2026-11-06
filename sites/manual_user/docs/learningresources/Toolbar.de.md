@@ -94,7 +94,7 @@ Standardmässig haben nur Besitzer:innen eines Kurses Schreibrechte im Kalender.
 
 ![Werkzeug Liste der Teilnehmer:innen mit dem Personen-Symbol in der Toolbar markiert, links daneben Infoseite, Lernpfad und Kalender, rechts Mitteilungen und die weiteren Werkzeuge](assets/toolbar_participant_list_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
-Die Liste der Teilnehmer:innen kann in der Auflistung aller Kursmitglieder auch Kontaktmöglichkeiten enthalten.<br>
+Die Liste der Teilnehmer:innen kann in der Auflistung aller Kursmitglieder auch Kontaktmöglichkeiten enthalten. Anders als der gleichnamige Kursbaustein lässt sich das Werkzeug nicht konfigurieren.<br>
 [Mehr dazu >](../learningresources/Course_Element_Participant_List.de.md)
 
 ---
@@ -103,7 +103,9 @@ Die Liste der Teilnehmer:innen kann in der Auflistung aller Kursmitglieder auch 
 
 ![Werkzeug Mitteilungen mit dem Megafon-Symbol in der Toolbar markiert](assets/toolbar_notifications_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-In den Mitteilungen können Lehrende zentral Informationen zum Gesamtkurs hinterlegen.<br>
+Mit dem Werkzeug "Mitteilungen" richten Sie eine Ankündigung an den ganzen Kurs, ohne dafür einen Kursbaustein ins Kursmenü zu setzen. Besitzende und Betreuende verfassen die Mitteilungen. Teilnehmende abonnieren das Werkzeug bei Bedarf selbst und werden dann benachrichtigt, wenn eine neue Mitteilung erscheint.
+
+Anders als der Kursbaustein "Mitteilungen" lässt sich das Werkzeug nicht konfigurieren. Anzeige, Berechtigungen, automatisches Abonnieren und Zugang legen Sie nur im Kursbaustein fest. Den Kursbaustein nehmen Sie deshalb, wenn die Mitteilungen an einer bestimmten Stelle im Kursmenü stehen sollen oder wenn Sie diese Einstellungen brauchen.<br>
 [Mehr dazu >](../learningresources/Course_Element_Notifications.de.md)
 
 ---

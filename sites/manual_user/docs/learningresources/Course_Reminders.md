@@ -410,6 +410,6 @@ With "Send reminders now", you trigger a reminder immediately, without waiting f
 **Further reading**<br>
 [User tools: E-Mail >](../personal_menu/E-Mail.md)<br>
 [Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
-[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)
+[Toolbar: Overview >](../learningresources/Toolbar.md)
 
 [To the top of the page ^](#course_reminders)

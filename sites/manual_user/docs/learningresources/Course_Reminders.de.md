@@ -414,7 +414,7 @@ Mit "Erinnerung jetzt senden" lösen Sie eine Erinnerung sofort aus, ohne auf di
 **Weiterführend**<br>
 [Persönliche Werkzeuge: E-Mail >](../personal_menu/E-Mail.de.md)<br>
 [Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
-[Einsatz weiterer Kursfunktionen der Toolbar >](../learningresources/Using_Additional_Course_Features.de.md)
+[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)
 
 [Zum Seitenanfang ^](#course_reminders)
 

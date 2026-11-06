@@ -201,7 +201,7 @@ In the Assessment tab, you can make settings for
 
 Here you activate as required
 
-* a course-specific [glossary](../learningresources/Using_Additional_Course_Features.md)
+* a course-specific [glossary](../learningresources/Glossary_create.md#integrate)
 * a [resource folder](../learningresources/index.md) for your course
 * a special folder for coaches
 * to-dos for coaches

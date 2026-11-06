@@ -2,13 +2,13 @@
 
 Under `Course > Administration > Settings > Options` you can set up
 
-* a course-specific [glossary](../learningresources/Using_Additional_Course_Features.md)
+* a course-specific [glossary](../learningresources/Glossary_create.md#integrate)
 * a [resource folder](../learningresources/index.md)
 * and a special folder for coaches
 
 and, with the appropriate authorization, activate a few special configurations.
 
-![Options tab of the course settings with glossary and resource folder selection, coach folder settings, and configuration options for administrative roles](assets/course_settings_options_v1_de.png){ class="shadow lightbox" }
+![Options tab of the course settings with glossary and resource folder selection, coach folder settings, and configuration options for administrative roles](assets/course_settings_options_v1_de.png){ class="shadow lightbox" title="Options tab of the course settings" }
 
 
 ## Include glossary
@@ -39,7 +39,7 @@ As the location for the folder, you can either choose an already existing folder
 
 In the Administration menu, the new "Coach documents" submenu appears both for coaches and for owners of the course.
 
-![New "Coach documents" menu entry in the Administration menu of a course](assets/coach_folder_menu.png){ class="shadow lightbox" }
+![New "Coach documents" menu entry in the Administration menu of a course](assets/coach_folder_menu.png){ class="shadow lightbox" title="Administration menu of a course" }
 
 If coaches should be able to use course-specific **to-dos**, activate this option in this section as well.
 
@@ -55,7 +55,7 @@ With **"Adopt system default"**, the default specified by the administration app
 * **Read-only:** The course content remains available to participants in read mode.
 * **No access:** Participants no longer have access to the content. When they open it, a notice page appears referring them to the responsible contact person.
 
-![Access section in the Options tab with the option Override selected and the two choice cards Read-only and No access](assets/course_settings_options_finished_access_v1_en.png){ class="shadow lightbox" }
+![Access section in the Options tab with the option Override selected and the two choice cards Read-only and No access](assets/course_settings_options_finished_access_v1_en.png){ class="shadow lightbox" title="Options tab of the course settings" }
 
 [To the top of the page ^](#course_settings_options)
 
@@ -74,7 +74,7 @@ Users with administrative roles (learning resource manager, administrator) are a
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Using Additional Course Features >](../learningresources/Using_Additional_Course_Features.md)<br>
+[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
 [How can I use the same files in several courses? >](../../manual_how-to/multiple_use/multiple_use.md)<br>
 [Course Settings - Tab Share: Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)
