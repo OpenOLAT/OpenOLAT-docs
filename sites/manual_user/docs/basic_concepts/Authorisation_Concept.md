@@ -2,7 +2,7 @@
 
 The access options to courses for the different roles are listed below.
 
-The rights the roles have within the Course Planner (for products, implementations, elements and events) are described under [Roles and rights in the Course Planner](../area_modules/Course_Planner.md#roles_rights).
+The rights the roles have within the Course Planner (for products, implementations, elements and events) are described under [Roles and rights in the Course Planner](../area_modules/Course_Planner/index.md#roles_rights).
 
 
 Legend
@@ -146,7 +146,7 @@ For owners, Copy and Delete additionally require the organisation role Author, L
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)
 
 **Further reading**<br>
 [Which roles are available? >](Roles.md)<br>

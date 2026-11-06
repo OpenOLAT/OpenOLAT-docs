@@ -14,7 +14,7 @@ If you haven't created a form yet, you can create a new "Form" learning resource
 
 A newly created form does not yet contain any elements, questions or text fields. These have to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_Editor.md).
 
-If a form is created directly in the course editor, a new "Form" learning resource is created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md) under "My entries" and can be included in further courses and course elements.
+If a form is created directly in the course editor, a new "Form" learning resource is created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring/index.md) under "My entries" and can be included in further courses and course elements.
 
 After a form has been selected, it can be designed via the link "Edit". If the form has already been set up appropriately, editing is no longer necessary.
 
@@ -34,7 +34,7 @@ The Portfolio 2.0 template can then also be integrated into a course via the cou
 [Portfolio template: Creation >](Portfolio_template_Creation.md)<br>
 [Portfolio template: Administration and editing >](../learningresources/Portfolio_template_Administration_and_editing.md)<br>
 [The Form Editor >](../learningresources/Form_Editor.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Creating Portfolio Tasks >](../learningresources/Creating_Portfolio_Tasks.md)
 
 [To the top of the page ^](#eportfolio_template_forms)

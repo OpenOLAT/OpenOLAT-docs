@@ -6,9 +6,9 @@ In "Authoring" OpenOlat authors will find all the tools to create, import and ed
 
 All existing courses and learning resources are displayed in a table.
 
-![List of your own learning resources, highlighted the buttons Import file, Create and Help & instructions, the filter tabs with the filters and the row with search field, cogwheel and download](assets/authoring_overview_v1_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.10.08" }
+![List of your own learning resources, highlighted the buttons Import file, Create and Help & instructions, the filter tabs with the filters and the row with search field, cogwheel and download](../assets/authoring_overview_v1_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.10.08" }
 
-With the buttons "Import file" and "Create" at the top right, you add new courses and learning resources, see [Authoring - Create courses and learning resources](authoring_new_course.md). Under "Help & instructions" you find the help offers set up for Authoring.
+With the buttons "Import file" and "Create" at the top right, you add new courses and learning resources, see [Authoring - Create courses and learning resources](../authoring_new_course.md). Under "Help & instructions" you find the help offers set up for Authoring.
 
 ### Favourites {: #favourites}
 In the filter tab "Favourites", you will find all the learning resources you have marked as favourites. This view is displayed by default when you open Authoring. If you have not marked any learning resource as a favourite yet, OpenOlat opens the filter tab "My entries" instead.
@@ -29,7 +29,7 @@ In the filter tab "Deleted", you have access to your deleted learning resources 
 ### Create your own filter tabs [:octicons-tag-16:{ title="from Release 16.0 (OO-5482)" }](https://track.frentix.com/issue/OO-5482){:target="_blank"} {: #custom_filter_tabs}
 You can also completely recreate a frequently needed filter query in the line with the filter tabs "Favourites" to "Deleted".<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way.
 
-![Menu with three dots opened at the right above the filter row, the entry Save filter is highlighted](assets/authoring_save_filter_v1_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.09.29" }
+![Menu with three dots opened at the right above the filter row, the entry Save filter is highlighted](../assets/authoring_save_filter_v1_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.09.29" }
 
 ### Filter buttons {: #filter_buttons}
 The second line already shows several buttons with filter options, for example "Technical Type", "Implementation format", "Status" and "Type". By pressing "More...", additional buttons will be displayed. For further filtering, click on the small arrow pointing downwards and the filter options will be displayed for selection.<br>
@@ -38,7 +38,7 @@ The "Author / owner" filter searches across the owner's first name, last name, u
 ### Search field {: #search_field}
 In the search field you can search directly for the title. Even parts of the title already provide a search result.
 
-You can find more details on the filter options and the table concept on the page [Working with tables](../basic_concepts/Table_Concept.md).
+You can find more details on the filter options and the table concept on the page [Working with tables](../../basic_concepts/Table_Concept.md).
 
 !!! tip "Tip"
 
@@ -48,12 +48,12 @@ You can find more details on the filter options and the table concept on the pag
 
 The cogwheel icon can be used to select which columns are displayed in the table. This allows you to compile the relevant information individually.
 
-![The cogwheel opens the Displayed columns list, highlighted the entries Settings, Members management and Edit content at the end of the list](assets/authoring_select_columns_v1_en.png){ class="shadow lightbox" title="Displayed columns list in Authoring · 2026.10.08" }
+![The cogwheel opens the Displayed columns list, highlighted the entries Settings, Members management and Edit content at the end of the list](../assets/authoring_select_columns_v1_en.png){ class="shadow lightbox" title="Displayed columns list in Authoring · 2026.10.08" }
 
 **Example:**<br>
 The column "Ref." shows whether or how often a learning resource has been referenced in OpenOlat courses. Click on this number and the courses will be displayed by name. You can then jump directly to the desired course.
 
-![The number in the Ref. column opens the list Used in the following courses with the course that uses the test](assets/autorenbereich_spalten_auswaehlen2_v2_en.png){ class="shadow lightbox" title="Ref. column in the Authoring table · 2026.09.28" }
+![The number in the Ref. column opens the list Used in the following courses with the course that uses the test](../assets/autorenbereich_spalten_auswaehlen2_v2_en.png){ class="shadow lightbox" title="Ref. column in the Authoring table · 2026.09.28" }
 
 #### Columns for frequent actions [:octicons-tag-16:{ title="from Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"} {: #action_columns}
 
@@ -87,9 +87,9 @@ The "Status" column is always sorted in the following fixed order: Preparation, 
 
     Entries without a time period always appear at the end of the list.
 
-![Time period column sorted in ascending order, first by begin date, then entries with an end date only, entries without a time period at the end of the list](assets/authoring_sort_time_period_v1_en.png){ class="shadow lightbox" title="Time period column in the Authoring table · 2026.10.08" }
+![Time period column sorted in ascending order, first by begin date, then entries with an end date only, entries without a time period at the end of the list](../assets/authoring_sort_time_period_v1_en.png){ class="shadow lightbox" title="Time period column in the Authoring table · 2026.10.08" }
 
-The available time periods are provided by the system administration. The page [Module Time periods](../../manual_admin/administration/Modules_Time_Period.md) describes how system administrators manage time periods.
+The available time periods are provided by the system administration. The page [Module Time periods](../../../manual_admin/administration/Modules_Time_Period.md) describes how system administrators manage time periods.
 
 [To the top of the page ^](#authoring)
 
@@ -106,13 +106,13 @@ The "Type" filter offers, among others, the following labels: "Audio" as well as
 
 ## Further information {: #further_information}
 
-[Authoring - Create courses and learning resources >](authoring_new_course.md)<br>
-[Working with tables >](../basic_concepts/Table_Concept.md)<br>
-[Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
-[Creating Courses >](../../manual_user/learningresources/Creating_Course.md)<br>
-[How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Course elements in the Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
-[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)
+[Authoring - Create courses and learning resources >](../authoring_new_course.md)<br>
+[Working with tables >](../../basic_concepts/Table_Concept.md)<br>
+[Module Time periods >](../../../manual_admin/administration/Modules_Time_Period.md)<br>
+[Creating Courses >](../../../manual_user/learningresources/Creating_Course.md)<br>
+[How do I create my first OpenOlat course? >](../../../manual_how-to/my_first_course/my_first_course.md)<br>
+[Course elements in the Course editor >](../../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Learning path course - Overview >](../../../manual_user/learningresources/Learning_path_course.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)

@@ -20,7 +20,7 @@ A survey in quality management is based on a form learning resource. You do not 
 
 ## Where are the forms created?
 
-You create the form learning resources for quality management [in the authoring area](../area_modules/Authoring.md), just like all other learning resources.
+You create the form learning resources for quality management [in the authoring area](../area_modules/Authoring/index.md), just like all other learning resources.
 
 When creating a data collection or a data collection generator, it is also possible to switch to the authoring area and create a form learning resource there.
 
@@ -65,9 +65,9 @@ If you want to work with new form learning resources, you can copy the previous 
 
 [Course Element "Form" >](../learningresources/Course_Element_Form.md)<br>
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [The form editor >](../learningresources/Form_Editor.md)<br>
-[Quality Management: Overview >](../area_modules/Quality_Management.md)<br>
+[Quality Management: Overview >](../area_modules/Quality_Management/index.md)<br>
 [Quality Management: Data collections >](../area_modules/Quality_Management_Data_Collections.md)<br>
 [Quality Management: Data Collection Generators >](../area_modules/Quality_Management_Data_Collection_Generators.md)
 

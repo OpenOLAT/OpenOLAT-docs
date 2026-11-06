@@ -89,7 +89,7 @@ What you build, and what learners work through.
 
     The Content Editor with its content elements, and the Media Center where the media sit across courses.
 
--   __[Course Planner](manual_user/area_modules/Course_Planner.md)__
+-   __[Course Planner](manual_user/area_modules/Course_Planner/index.md)__
     {: data-oo-cluster="teaching_and_courses" data-oo-domain="curriculum" }
 
     ---
@@ -147,7 +147,7 @@ Where people work together, and who looks after whom.
 
     Groups and the tools people work with inside them: forum, wiki, chat, calendar, projects and notifications.
 
--   __[Coaching](manual_user/area_modules/Coaching.md)__
+-   __[Coaching](manual_user/area_modules/Coaching/index.md)__
     {: data-oo-cluster="collaboration_and_people" data-oo-domain="coaching" }
 
     ---
@@ -190,14 +190,14 @@ The frame everything else runs in.
 
     46 roles in eight scopes, and the rights an administration can grant to a role.
 
--   __[Catalogue, booking and payment](manual_user/area_modules/catalog2.0.md)__
+-   __[Catalogue, booking and payment](manual_user/area_modules/catalog2.0/index.md)__
     {: data-oo-cluster="platform_and_administration" data-oo-domain="catalog" }
 
     ---
 
     From the catalog entry via the offer and the booking to price, invoice and credit points.
 
--   __[Quality management and forms](manual_user/area_modules/Quality_Management.md)__
+-   __[Quality management and forms](manual_user/area_modules/Quality_Management/index.md)__
     {: data-oo-cluster="platform_and_administration" data-oo-domain="quality" }
 
     ---

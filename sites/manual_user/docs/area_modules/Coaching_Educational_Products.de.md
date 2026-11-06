@@ -10,7 +10,7 @@ Als Betreuer:in können Sie auch für Bildungsprodukte zuständig sein, die aus 
 
 ## Woher kommt ein Bildungsprodukt? {: #origin}
 
-Bildungsprodukte entstehen im [Course Planner](../area_modules/Course_Planner.de.md), nicht im Coaching Tool. Kursplaner:innen legen zuerst das [Produkt](../area_modules/Course_Planner_Products.de.md#create_product) an unter:<br>
+Bildungsprodukte entstehen im [Course Planner](../area_modules/Course_Planner/index.de.md), nicht im Coaching Tool. Kursplaner:innen legen zuerst das [Produkt](../area_modules/Course_Planner_Products.de.md#create_product) an unter:<br>
 `Course Planner > Produkte`
 
 Danach planen sie zu diesem Produkt eine oder mehrere [Durchführungen](../area_modules/Course_Planner_Implementations.de.md).
@@ -30,7 +30,7 @@ Der Button erscheint, wenn beide Bedingungen erfüllt sind:
 * Systemadministrator:innen haben das [Modul Course Planner](../../manual_admin/administration/Modules_Course_Planner.de.md) aktiviert.
 * Sie sind in mindestens einem Kurs Betreuer:in oder Besitzer:in.
 
-Welche Bedingungen den Zugang zum Coaching Tool insgesamt steuern, zeigt der Abschnitt [Wann ist das Coaching Tool verfügbar?](../area_modules/Coaching.de.md#availability).
+Welche Bedingungen den Zugang zum Coaching Tool insgesamt steuern, zeigt der Abschnitt [Wann ist das Coaching Tool verfügbar?](../area_modules/Coaching/index.de.md#availability).
 
 [Zum Seitenanfang ^](#educational_products)
 
@@ -119,11 +119,11 @@ Wo ein Teil im Tab "In Vorbereitung" landet, hängt davon ab, was in der Zeile s
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
-[Coaching: Übersicht >](../../manual_user/area_modules/Coaching.de.md)<br>
+[Coaching: Übersicht >](../../manual_user/area_modules/Coaching/index.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)
 
@@ -133,7 +133,7 @@ Wo ein Teil im Tab "In Vorbereitung" landet, hängt davon ab, was in der Zeile s
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../../manual_user/basic_concepts/Roles.de.md)

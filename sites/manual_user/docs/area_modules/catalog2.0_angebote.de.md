@@ -224,6 +224,6 @@ Ein Klick auf die Kachel im Taxonomie-Launcher öffnet die Microsite des Fachber
 
 **Weiterführend**<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
-[Katalog 2.0: Übersicht >](catalog2.0.de.md)
+[Katalog 2.0: Übersicht >](catalog2.0/index.de.md)
 
 [Zum Seitenanfang ^](#offers)

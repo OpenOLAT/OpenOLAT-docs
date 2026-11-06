@@ -205,7 +205,7 @@ Kursbesitzer:innen überschreiben die Einstellung für ihren Kurs unter:<br>
 [Customizing: Übersicht >](Customizing.de.md)
 
 **Weiterführend**<br>
-[Coaching - Übersicht >](../../manual_user/area_modules/Coaching.de.md)<br>
+[Coaching - Übersicht >](../../manual_user/area_modules/Coaching/index.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](../../manual_user/learningresources/Course_Settings_Options.de.md)
 
 [Zum Seitenanfang ^](#learning_resource)

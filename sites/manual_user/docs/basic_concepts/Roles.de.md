@@ -4,7 +4,7 @@ Welche Bereiche und Funktionen eine Person in OpenOlat nutzt, bestimmen ihre Rol
 
 ![Vier Bereiche, in denen Rollen gelten: Organisation, Kurs mit Gruppe, Course Planner und Beziehungen, je mit dem Ort, an dem die Rolle vergeben wird](assets/roles_areas_overview_v1_de.svg){ class="shadow lightbox" title="Rollen nach Bereich" }
 
-Im Course Planner gelten zusätzlich die Rollen Produktbesitzer:in (vergeben beim Produkt), Elementbesitzer:in und Klassenlehrer:in (beide vergeben beim Element). Ihre Rechte beschreibt die Seite [Course Planner: Übersicht](../area_modules/Course_Planner.de.md#roles_rights).
+Im Course Planner gelten zusätzlich die Rollen Produktbesitzer:in (vergeben beim Produkt), Elementbesitzer:in und Klassenlehrer:in (beide vergeben beim Element). Ihre Rechte beschreibt die Seite [Course Planner: Übersicht](../area_modules/Course_Planner/index.de.md#roles_rights).
 
 ## Organisationsrollen {: #org} 
 
@@ -22,7 +22,7 @@ Welche Bereiche der Hauptnavigation eine Rolle öffnet, zeigt die Seite [Rollen 
 * **Ausbildungsverantwortliche:r**: Ausbildungsverantwortliche haben Rechte für ihre Organisation und alle Organisationen darunter. Sie haben Rechte im Coaching, auch wenn sie dort nicht als Betreuer:in eingetragen sind, und übernehmen administrative Aufgaben, zum Beispiel Buchungsaufträge kontrollieren oder Konten sperren.
 * **Principal**: Principals sehen viele Bereiche des Systems, aber nur lesend. Sie können nichts ändern und keine Objekte bearbeiten.
 * **Absenzenverwalter:in**: Absenzenverwalter:innen verwalten die Absenzen ihrer Organisation. Dafür öffnen sie in der Hauptnavigation den Menüpunkt "Absenzenverwaltung".
-* **Kursplaner:in**: Kursplaner:innen arbeiten im [Course Planner](../area_modules/Course_Planner.de.md). Sind Kursplaner:innen einer Organisation zugeordnet, haben sie nur Zugang zum Course Planner dieser Organisation.
+* **Kursplaner:in**: Kursplaner:innen arbeiten im [Course Planner](../area_modules/Course_Planner/index.de.md). Sind Kursplaner:innen einer Organisation zugeordnet, haben sie nur Zugang zum Course Planner dieser Organisation.
 * **Projektverwalter:in**: Projektverwalter:innen verwalten alle Projekte. Im Menüpunkt "Projekte" öffnen sie zusätzlich den Tab "Administration" und erreichen dort alle Projekte mit Mitgliederverwaltung und Konfiguration.
 * **Qualitätsverwalter:in**: Qualitätsverwalter:innen steuern das Qualitätsmanagement. Im Menüpunkt "Qualitätsmanagement" verwalten sie sämtliche Einstellungen und Objekte wie Fragebögen, Datenerhebungsgeneratoren und das Analysewerkzeug.
 * **Selectusverwalter:in**: Selectusverwalter:innen verwalten die Berufungsverfahren ihrer Organisation. Im Menüpunkt "Selectus" legen sie Ausschreibungen an, bearbeiten, kopieren und archivieren sie und stellen die Kommissionen zusammen. Die Rolle wirkt nur, wenn das Modul "Selectus" eingeschaltet ist.
@@ -35,7 +35,7 @@ Welche Bereiche der Hauptnavigation eine Rolle öffnet, zeigt die Seite [Rollen 
 
 !!! note "Hinweis"
 
-    Nicht jede Instanz nutzt alle Rollen. Meist genügt eine Kombination aus Benutzer:in, Autor:in und Administrator:in oder Systemadministrator:in. Weitere Rollen kommen hinzu, wenn die Organisation entsprechend gegliedert ist oder bestimmte Werkzeuge wie den [Course Planner](../area_modules/Course_Planner.de.md) nutzt.
+    Nicht jede Instanz nutzt alle Rollen. Meist genügt eine Kombination aus Benutzer:in, Autor:in und Administrator:in oder Systemadministrator:in. Weitere Rollen kommen hinzu, wenn die Organisation entsprechend gegliedert ist oder bestimmte Werkzeuge wie den [Course Planner](../area_modules/Course_Planner/index.de.md) nutzt.
 
     Bei Fragen zur Rollenvergabe wenden Sie sich an den Support Ihrer OpenOlat-Instanz.
 
@@ -348,7 +348,7 @@ Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf e
 ## Weiterführende Informationen {: #further_information} 
 
 **Auf dieser Seite erwähnt**<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>

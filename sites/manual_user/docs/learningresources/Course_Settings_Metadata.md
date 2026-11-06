@@ -19,7 +19,7 @@ The learning resource appears under its title in lists, in the catalog and in th
 
 #### Reference {: #externalref}
 
-The reference is an identifier that you assign yourself, for example the designation from the university course directory or from a printed course catalog. The ID, in contrast, is assigned automatically by OpenOlat. The reference appears in the course overview, and the list in Authoring shows it as a separate column that you can sort by. The import into the Course Planner recognizes courses and templates by their reference, see [Course Planner: Import / Export](../area_modules/Course_Planner_Import_Export.md#identifier_matching).
+The reference is an identifier that you assign yourself, for example the designation from the university course directory or from a printed course catalog. The ID, in contrast, is assigned automatically by OpenOlat. The reference appears in the course overview, and the list in Authoring shows it as a separate column that you can sort by. The import into the Course Planner recognizes courses and templates by their reference, see [Course Planner: Import / Export](../area_modules/Course_Planner_Import_Export/index.md#identifier_matching).
 
 If the learning resource is managed by an external system, the reference is shown as text and cannot be changed.
 
@@ -35,7 +35,7 @@ With the implementation format, you assign a course to a format, for example Ble
 
 #### Subjects {: #taxonomy_levels}
 
-With the subjects you classify the learning resource by topic. If the [catalog](../area_modules/catalog2.0.md) is switched on, the field is called "Subjects / Catalog". The subjects then also determine in which microsite of the catalog the learning resource appears.
+With the subjects you classify the learning resource by topic. If the [catalog](../area_modules/catalog2.0/index.md) is switched on, the field is called "Subjects / Catalog". The subjects then also determine in which microsite of the catalog the learning resource appears.
 
 The field appears if the system administration has switched on the [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md) and selected at least one taxonomy under `Administration > Modules > Learning resource`, see [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md#tab_settings).
 
@@ -71,11 +71,11 @@ In the list in Authoring, the "License" column shows the license of each learnin
 **Mentioned on this page**<br>
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
-[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export/index.md)<br>
 [About this course: Technical information and usage >](../learningresources/Technical_Information_on_Resources_and_Usage.md)<br>
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
 [Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
-[Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>
+[Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
 [Licenses >](../../manual_admin/administration/Licenses.md)<br>

@@ -23,8 +23,8 @@ Creates the next implementation from an existing one. The link to the certificat
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Events >](../Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../Course_Planner_Certification_Programs.md)

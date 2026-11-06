@@ -226,7 +226,7 @@ Ist "Mit Versatz" eingeschaltet, zeigt das Fenster unter "Berechnetes Datum" das
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](Course_Planner/index.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
 [To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>

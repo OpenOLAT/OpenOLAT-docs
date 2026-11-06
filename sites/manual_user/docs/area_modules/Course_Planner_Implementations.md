@@ -25,9 +25,9 @@ The list opens with the "Relevant" tab. The "Pending memberships" tab shows the 
 
 ![Opened Occupancy status filter with the values Number not specified, Minimum number not reached, Minimum number reached, Free seats available, Fully booked and Overbooked](assets/course_planner_implementations_list_v2_en.png){ class="shadow lightbox" title="Implementations page in the Course Planner · 2026.09.30" }
 
-Administrators and course planners, as well as product owners in their own products, can create, edit and delete implementations. Principals only see the implementations read-only. The complete overview is shown in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
+Administrators and course planners, as well as product owners in their own products, can create, edit and delete implementations. Principals only see the implementations read-only. The complete overview is shown in the [rights matrix](Course_Planner/index.md#rights_matrix) of the Course Planner.
 
-Depending on your rights, the menu of the 3 dots at the end of a row offers actions such as "Copy element", "Members management", "Export" and "Delete". How the export works is described in [Course Planner: Import / Export](Course_Planner_Import_Export.md#export_entry_points).
+Depending on your rights, the menu of the 3 dots at the end of a row offers actions such as "Copy element", "Members management", "Export" and "Delete". How the export works is described in [Course Planner: Import / Export](Course_Planner_Import_Export/index.md#export_entry_points).
 
 You save frequently used filter combinations with "Save filter" as your own preset and reuse them. [:octicons-tag-16:{ title="from Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
@@ -328,7 +328,7 @@ In the "Settings" section below the overview, you define whether every participa
 
 If an implementation needs more than a name and a billing address at booking, for example dietary requirements, prior knowledge or a membership number, forms collect the information needed when booking an offer. For each offer, you define which forms are used and in what order. An offer for working professionals can thus ask different questions than an offer of the same implementation for students. The answers are then available in three places: with the form in the implementation, with the booking order and with the membership of the person.
 
-A [form learning resource](../learningresources/Form.md) serves as the form. The section only exists for implementations in the Course Planner, not for offers of a course or another learning resource. Offers of the offer type PayPal Checkout do not use forms. Everyone who may edit the implementation can add, use and remove forms; the roles are listed in the [rights matrix](Course_Planner.md#rights_matrix).
+A [form learning resource](../learningresources/Form.md) serves as the form. The section only exists for implementations in the Course Planner, not for offers of a course or another learning resource. Offers of the offer type PayPal Checkout do not use forms. Everyone who may edit the implementation can add, use and remove forms; the roles are listed in the [rights matrix](Course_Planner/index.md#rights_matrix).
 
 A form is used in two stages. First you add it to the implementation, then you switch it on in the individual offer. A form that has only been added is not yet required at booking.
 
@@ -560,7 +560,7 @@ You switch on the absences in the settings of the implementation:<br>
 
 The reports in this tab relate to the open implementation.
 
-The reports you create in the [Overview](../../manual_user/area_modules/Course_Planner_Reports.md) of the Course Planner, in contrast, cover all implementations. The columns of the Excel files and the procedure are the same for both.
+The reports you create in the [Overview](../../manual_user/area_modules/Course_Planner_Reports/index.md) of the Course Planner, in contrast, cover all implementations. The columns of the Excel files and the procedure are the same for both.
 
 ![The report templates with the Run column and below them a generated report as an Excel file with Info, Copy to, Delete and Download](assets/course_planner_implementations_tab_reports1_v2_en.png){ class="shadow lightbox" title="Reports tab of an implementation · 2026.09.30" }
 
@@ -635,7 +635,7 @@ The copy takes over the room of the original booking. The period of the booking 
 
 In the "Overview elements" step, the "#Rooms" column additionally appears if the module is active and the "Copy" option is selected; expand an element and the "Events" table there also lists the "Rooms" column with the booked rooms. With "Don't copy", both columns are missing.
 
-The "Copy element" action is available to administrators, course planners and product owners. You will find the complete overview in the [rights matrix](Course_Planner.md#rights_matrix) of the Course Planner.
+The "Copy element" action is available to administrators, course planners and product owners. You will find the complete overview in the [rights matrix](Course_Planner/index.md#rights_matrix) of the Course Planner.
 
 You copy individual events in the event list of an implementation instead, with the "Copy" action. If you mark several events there and copy them together, OpenOlat takes over the room bookings immediately. If you copy a single event, the dialog "Edit event" opens with the rooms of the source event in the "Rooms" field; with "Save" OpenOlat books them. More on this under [Copying events](Course_Planner_Events.md#copy_events).
 
@@ -660,8 +660,8 @@ If you have already opened an implementation, you will also find the option to d
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Planner: Overview >](Course_Planner.md)<br>
-[Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
+[Course Planner: Overview >](Course_Planner/index.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export/index.md)<br>
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.md)<br>
@@ -679,7 +679,7 @@ If you have already opened an implementation, you will also find the option to d
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Certification programs >](Course_Planner_Certification_Programs.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.md)<br>
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
 [Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](Course_Planner_Rooms.md)

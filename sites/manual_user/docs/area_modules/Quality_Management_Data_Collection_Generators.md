@@ -315,7 +315,7 @@ Click "Enable" to enable the generator. With "Cancel", it remains disabled.
 [Quality Management: Data Collection Preview >](Quality_Management_Data_Collection_Preview.md)
 
 **Further reading**<br>
-[Quality Management: Overview >](Quality_Management.md)<br>
+[Quality Management: Overview >](Quality_Management/index.md)<br>
 [Quality Management: Analysis >](Quality_Management_Analysis.md)
 
 [To the top of the page ^](#Quality_Management_Data_Collection_Generators)

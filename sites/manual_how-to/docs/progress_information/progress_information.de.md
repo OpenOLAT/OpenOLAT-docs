@@ -109,7 +109,7 @@ Z.B. könnte eine Erinnerung an diejenigen Teilnehmer:innen verschickt werden, d
 [Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
 [Erinnerungen >](../../manual_user/learningresources/Course_Reminders.de.md)<br>
 [Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
-[Coaching - Übersicht >](../../manual_user/area_modules/Coaching.de.md)
+[Coaching - Übersicht >](../../manual_user/area_modules/Coaching/index.de.md)
 
 **youtube**<br>
 [Wie sehe ich den Lernfortschritt von mir betreuter Teilnehmer:innen?](<https://www.youtube.com/embed/VO7TyxN9EOA>)

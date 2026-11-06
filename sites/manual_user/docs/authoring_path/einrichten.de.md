@@ -63,7 +63,7 @@ Der Bereich, in dem Lernressourcen erstellt, bearbeitet, kopiert und verwaltet w
 
     **Wie Nutzende es nennen:** Content-Erstellung, Kurserstellungsbereich, Autorentool, Inhaltsverwaltung, Kurserstellung, Autorensystem
 
-    [Im Handbuch lesen](../area_modules/Authoring.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Autorenbereich%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../area_modules/Authoring/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Autorenbereich%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -107,7 +107,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 
 <p class="oo-mh-kicker">Nachlesen</p>
 
-[Autorenbereich](../area_modules/Authoring.de.md)
+[Autorenbereich](../area_modules/Authoring/index.de.md)
 
 </div>
 
@@ -123,7 +123,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 
 **Auf dieser Seite erwähnt**<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>

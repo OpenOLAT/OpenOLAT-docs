@@ -54,7 +54,7 @@ Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle u
 
 ![Fortschritt, erreichte Punkte und die Tabelle der bewerteten Kursbausteine, darunter der Bereich Zertifikate](assets/Leistungsnachweis_19.png){ class="shadow lightbox" title="Leistungsnachweis eines Kurses" }
 
-Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) ausgestellt wurde, finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
+Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) ausgestellt wurde, finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching/index.de.md) einsehen.
 
 Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
 
@@ -181,7 +181,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 
 **Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>

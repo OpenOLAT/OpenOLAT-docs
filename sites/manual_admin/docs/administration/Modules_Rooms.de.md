@@ -112,7 +112,7 @@ Dieselbe Ansicht erreichen Kursplaner:innen im Course Planner unter `Course Plan
 [Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)
 
 **Weiterführend**<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)
 

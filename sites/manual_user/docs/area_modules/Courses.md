@@ -50,7 +50,7 @@ Once you have found the course, you can also mark it as a favourite. To do this,
 
 The "Educational products" area appears when three conditions are met:
 
-* System administrators have activated the [Course Planner](../area_modules/Course_Planner.md) in the system administration: `Administration > Modules > Course Planner`.
+* System administrators have activated the [Course Planner](../area_modules/Course_Planner/index.md) in the system administration: `Administration > Modules > Course Planner`.
 * In this module, the setting [Product in "My courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses) is switched on.
 * You are entered in at least one implementation.
 
@@ -79,9 +79,11 @@ Owners open the course already in the status "Preparation", coaches from the sta
 
 [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
-[Coaching - Educational products >](../area_modules/Coaching_Educational_Products.md)
+[Coaching - Educational products >](../area_modules/Coaching_Educational_Products.md)<br>
+[Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)
 
 **youtube**<br>
 [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>)

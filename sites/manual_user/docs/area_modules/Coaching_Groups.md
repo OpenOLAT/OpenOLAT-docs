@@ -46,7 +46,7 @@ When you then click on a username, the assessment tool for that person opens and
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
+[Coaching: Reports >](../area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Order management >](../area_modules/Coaching_Order_Management.md)<br>
 [Roles >](../basic_concepts/Roles.md)<br>
 [Assessment tool >](../learningresources/Assessment_tool_overview.md)

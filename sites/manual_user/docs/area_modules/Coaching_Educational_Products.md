@@ -10,7 +10,7 @@ As a coach, you may also be responsible for educational products that consist of
 
 ## Where does an educational product come from? {: #origin}
 
-Educational products are created in the [Course Planner](../area_modules/Course_Planner.md), not in the Coaching Tool. Course planners first create the [product](../area_modules/Course_Planner_Products.md#create_product) in:<br>
+Educational products are created in the [Course Planner](../area_modules/Course_Planner/index.md), not in the Coaching Tool. Course planners first create the [product](../area_modules/Course_Planner_Products.md#create_product) in:<br>
 `Course Planner > Products`
 
 They then plan one or more [implementations](../area_modules/Course_Planner_Implementations.md) for this product.
@@ -30,7 +30,7 @@ The button appears when both conditions are met:
 * System administrators have activated the [Course Planner module](../../manual_admin/administration/Modules_Course_Planner.md).
 * You are a coach or an owner in at least one course.
 
-The section [When is the Coaching Tool available?](../area_modules/Coaching.md#availability) shows which conditions govern access to the Coaching Tool as a whole.
+The section [When is the Coaching Tool available?](../area_modules/Coaching/index.md#availability) shows which conditions govern access to the Coaching Tool as a whole.
 
 [To the top of the page ^](#educational_products)
 
@@ -120,11 +120,11 @@ Where a part lands in the tab "In preparation" depends on what stands in the row
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
-[Coaching: Overview >](../../manual_user/area_modules/Coaching.md)<br>
+[Coaching: Overview >](../../manual_user/area_modules/Coaching/index.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
 [Info page >](../learningresources/Info_page.md)
 
@@ -134,7 +134,7 @@ Where a part lands in the tab "In preparation" depends on what stands in the row
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [Roles >](../../manual_user/basic_concepts/Roles.md)

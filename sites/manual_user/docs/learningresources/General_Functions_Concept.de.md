@@ -121,6 +121,6 @@ Ein Kurs lässt sich nicht in einen anderen Kurs einbinden. Ist der Course Plann
 
 **Weiterführend**<br>
 [Detailansicht einer Lernressource >](../learningresources/Detailed_View_of_Learning_Resources.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)
 
 [Zum Seitenanfang ^](#General_Functions_Concept)

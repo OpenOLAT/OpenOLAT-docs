@@ -18,7 +18,7 @@ Refer to the chapter ["Test"](../learningresources/Test.md) for more information
 ## Evidence of Achievement & Certificate
 
 An evidence of achievement is a confirmation of an existing efficiency control and shows e.g. taken tests or assessed tasks per course. Certificates of achievement must be activated for each course and can be retrieved if there are assessable course elements in the course and one such course element has already been completed and assessed. Evidence of achievement is available to participants in the personal menu and in the course, while coaches can access it in the
-[Coaching](../area_modules/Coaching.md) tool. Printable certificates can be issued with the course setting
+[Coaching](../area_modules/Coaching/index.md) tool. Printable certificates can be issued with the course setting
 ["Evidence of achievement"](../learningresources/Course_Settings.md).
 
 ## Further information {: #further_information}
@@ -35,7 +35,7 @@ An evidence of achievement is a confirmation of an existing efficiency control a
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [Course elements at a glance >](../learningresources/Course_Elements.md)<br>
 [Creating Tests >](../learningresources/Test.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)
 
 **Further reading**<br>

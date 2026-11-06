@@ -102,6 +102,6 @@ Anyone who wants to get back a course that the run has moved to the trash finds 
 **Further reading**<br>
 [Life cycles - Overview >](Life_cycles_-_Administration.md)<br>
 [Automatic Group Life Cycle >](Automatic_Group_Lifecycle.md)<br>
-[Authoring - Overview >](../../manual_user/area_modules/Authoring.md)
+[Authoring - Overview >](../../manual_user/area_modules/Authoring/index.md)
 
 [To the top of the page ^](#course_lifecycle)

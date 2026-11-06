@@ -67,7 +67,7 @@ If you disagree with a recorded absence, you can lodge an appeal. After the end 
 [Events and absences (course) >](../learningresources/Events_and_absences.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
 [Coaching - Events and Absences >](../area_modules/Coaching_Events_Absences.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)
 
 [To the top of the page ^](#pers_tools_absences)

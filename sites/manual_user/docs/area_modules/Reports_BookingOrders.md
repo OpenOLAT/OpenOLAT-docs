@@ -66,7 +66,7 @@ The Booking orders report lists the following columns for each booking order. It
 ## Further information {: #further_information}
 
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
-[Course Planner: Reports >](Course_Planner_Reports.md)<br>
+[Course Planner: Reports >](Course_Planner_Reports/index.md)<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [Payment modules: Invoice >](../../manual_admin/administration/Payment_Invoice.md)
 

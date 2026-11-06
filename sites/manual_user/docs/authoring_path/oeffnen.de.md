@@ -81,7 +81,7 @@ Das Modul, das Lernressourcen und Durchführungen mit einem Angebot zum Buchen a
 
     **Wie Nutzende es nennen:** Kursangebot, Angebotsübersicht, Kurskatalog, Programm, Kursverzeichnis, Marktplatz, Kursportal, Angebotsverzeichnis, Kursdatenbank, Kurspool, Angebotskatalog, Buchbarer Kurskatalog, Bildungskatalog
 
-    [Im Handbuch lesen](../area_modules/catalog2.0.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Katalog%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../area_modules/catalog2.0/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Katalog%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -204,7 +204,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
 - **Angebot:** [Zugangscode](../basic_concepts/Offer_Concepts.de.md), Formulare für Buchungsaufträge. Alle Einstellungen stehen auf der Seite [Katalog 2.0 - Angebote](../area_modules/catalog2.0_angebote.de.md).
-- **Katalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../area_modules/catalog2.0_web.de.md). Alle Einstellungen stehen auf der Seite [Katalog 2.0: Übersicht](../area_modules/catalog2.0.de.md).
+- **Katalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../area_modules/catalog2.0_web.de.md). Alle Einstellungen stehen auf der Seite [Katalog 2.0: Übersicht](../area_modules/catalog2.0/index.de.md).
 - **Gruppe:** [Lerngruppen](../learningresources/Members_management.de.md), [Lernbereich](../learningresources/Learning_Areas.de.md), [Mitglieder](../learningresources/Members_management.de.md), [Kollaborative Werkzeuge](../groups/Group_Administration/index.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Gruppen](../groups/index.de.md).
 
 ## Weiterführende Informationen {: #further_information}
@@ -212,7 +212,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 **Auf dieser Seite erwähnt**<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
-[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>

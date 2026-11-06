@@ -2,7 +2,7 @@
 
 !!! warning "Catalog 2.0 replaces Catalog 1.0"
 
-    Catalog 1.0 is deprecated. It is no longer developed further and will be removed completely in one of the next versions. Set up new catalogs with [Catalog 2.0](catalog2.0.md).
+    Catalog 1.0 is deprecated. It is no longer developed further and will be removed completely in one of the next versions. Set up new catalogs with [Catalog 2.0](catalog2.0/index.md).
 
     You still use Catalog 1.0 if the course settings show the "Catalog" tab with the "Add to catalog" button. The [image in the section "Enter a course in the Catalog 1.0"](#enter_course) shows both. Catalog 2.0 instead opens with a search field in the header. The administration decides which version is active: `Administration > Modules > Catalog > Tab "Settings"`.
 
@@ -100,7 +100,7 @@ The display is possible both as a list view and as a table view. In each case, f
 
 !!! warning "Catalog 2.0 replaces Catalog 1.0"
 
-    Catalog 1.0 is no longer developed further and will be removed completely in one of the next versions. Set up new catalogs with [Catalog 2.0](catalog2.0.md). The page [Catalog 2.0: Offers](catalog2.0_angebote.md) describes how to create offers there.
+    Catalog 1.0 is no longer developed further and will be removed completely in one of the next versions. Set up new catalogs with [Catalog 2.0](catalog2.0/index.md). The page [Catalog 2.0: Offers](catalog2.0_angebote.md) describes how to create offers there.
 
 [To the top of the page ^](#catalog_1)
 
@@ -109,7 +109,7 @@ The display is possible both as a list view and as a table view. In each case, f
 
 ## Further information {: #further_information}
 
-[Catalog 2.0: Overview >](catalog2.0.md)<br>
+[Catalog 2.0: Overview >](catalog2.0/index.md)<br>
 [Catalog 2.0: Offers >](catalog2.0_angebote.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)

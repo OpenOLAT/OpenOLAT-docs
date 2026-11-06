@@ -1,6 +1,6 @@
 # Course Planner: Import/Export - Referenz {: #import_export_reference}
 
-Diese Seite listet alle Fehler- und Warnungsmeldungen sowie die detaillierten Feldregeln des [Import-Assistenten](Course_Planner_Import_Export.de.md) auf. Sie richtet sich an Personen, die grössere oder komplexere Importe vorbereiten.
+Diese Seite listet alle Fehler- und Warnungsmeldungen sowie die detaillierten Feldregeln des [Import-Assistenten](Course_Planner_Import_Export/index.de.md) auf. Sie richtet sich an Personen, die grössere oder komplexere Importe vorbereiten.
 
 ## Objekttypen und Rollen {: #enum_reference}
 
@@ -154,6 +154,6 @@ Konten können nur neu angelegt, nicht aktualisiert werden.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export/index.de.md)<br>
 
 [zum Seitenanfang ^](#import_export_reference)

@@ -136,7 +136,7 @@ Click "Embed" to create the learning resource.
 [Security >](../../manual_admin/administration/Login_Security.md)
 
 **Further reading**<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)
 
 **youtube**<br>

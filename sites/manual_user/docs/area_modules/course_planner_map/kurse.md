@@ -23,8 +23,8 @@ Embedded courses have no standalone member management: this runs via the impleme
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
 [How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>

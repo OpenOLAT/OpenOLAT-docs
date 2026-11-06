@@ -23,8 +23,8 @@ Products and implementations can be created or updated; users and memberships ca
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
-[Course Planner: Import / Export >](../Course_Planner_Import_Export.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export/index.md)<br>
 [Course Planner: Import/Export - Reference >](../Course_Planner_Import_Export_Reference.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)

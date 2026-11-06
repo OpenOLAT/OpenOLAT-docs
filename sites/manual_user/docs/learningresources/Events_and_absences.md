@@ -362,7 +362,7 @@ As a rule, absence managers process the appeals, for all courses together in the
 **Further reading**<br>
 [Events and Absences (basic concept) >](../basic_concepts/Events_and_Absences.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [Coaching - Events and Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Module Rooms >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Import templates >](../basic_concepts/Import_Templates.md)

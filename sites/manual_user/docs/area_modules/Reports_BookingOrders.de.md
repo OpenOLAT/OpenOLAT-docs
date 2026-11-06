@@ -66,7 +66,7 @@ Der Report Buchungsaufträge führt je Buchungsauftrag die folgenden Spalten. Di
 ## Weiterführende Informationen {: #further_information}
 
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
-[Course Planner: Reports >](Course_Planner_Reports.de.md)<br>
+[Course Planner: Reports >](Course_Planner_Reports/index.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Bezahlungsmodule: Rechnung >](../../manual_admin/administration/Payment_Invoice.de.md)
 

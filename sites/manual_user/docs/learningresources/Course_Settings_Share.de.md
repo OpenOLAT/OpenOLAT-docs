@@ -152,7 +152,7 @@ Damit ein Angebot für den Katalog erstellt werden kann, muss im Abschnitt "Frei
 
 
 Mehr über Angebote und den Katalog finden Sie hier:<br>
-[Katalog >](../area_modules/catalog2.0.de.md)<br>
+[Katalog >](../area_modules/catalog2.0/index.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Angebote erstellen >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Anbieten von Durchführungen im Katalog >](../area_modules/Course_Planner_Implementations.de.md#tab_catalog)
@@ -200,7 +200,7 @@ Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produk
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.de.md)<br>
-[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>

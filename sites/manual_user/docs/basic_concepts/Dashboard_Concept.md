@@ -19,7 +19,7 @@ Overview pages with widgets exist in five places:
 | Course Planner, start page | Implementations, Events, To-do | [Course Planner: Dashboard >](../area_modules/Course_Planner_Dashboard.md) |
 | Product, Overview tab | Implementations, Events, To-do | [Course Planner: Products >](../area_modules/Course_Planner_Products.md) |
 | Implementation, Overview tab | Members, Events, Content, To-do, Catalog | [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md) |
-| Coaching, overview | Courses - As coach, Events | [Coaching - Overview >](../area_modules/Coaching.md) |
+| Coaching, overview | Courses - As coach, Events | [Coaching - Overview >](../area_modules/Coaching/index.md) |
 | Certification program, overview | Active members | [Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md) |
 
 Which widgets you actually see depends on your roles and on the activated modules. The widget "Events", for example, only appears if the module "Event & absence management" is active system-wide.
@@ -101,7 +101,7 @@ As a system administrator you define the system default in the edit mode with "S
 [Course Planner: Dashboard >](../area_modules/Course_Planner_Dashboard.md)<br>
 [Course Planner: Products >](../area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
 [User tools: Absences >](../personal_menu/Absences.md)
 

@@ -120,11 +120,11 @@ Wie eine Übersichtsseite aufgebaut ist, welche Bedienelemente die Kacheln gemei
 
 Produkte, Durchführungen und Mitgliedschaften lassen sich auch über eine Excel-Datei importieren oder exportieren. Der Import-Assistent prüft die Daten in mehreren Schritten und zeigt vor der Ausführung genau an, was neu erstellt, geändert oder ignoriert wird [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"}.
 
-Eine Beispieldatei mit einem Produkt und zwei Durchführungen laden Sie im ersten Schritt des Import-Assistenten unter "Importbeispiel" über den Link "Excel Vorlage" herunter, siehe [Schritt 1: Datei auswählen](Course_Planner_Import_Export.de.md#step1).
+Eine Beispieldatei mit einem Produkt und zwei Durchführungen laden Sie im ersten Schritt des Import-Assistenten unter "Importbeispiel" über den Link "Excel Vorlage" herunter, siehe [Schritt 1: Datei auswählen](Course_Planner_Import_Export/index.de.md#step1).
 
 !!! note "Import / Export"
 
-    Eine ausführliche Beschreibung finden Sie unter [Course Planner: Import / Export](Course_Planner_Import_Export.de.md).
+    Eine ausführliche Beschreibung finden Sie unter [Course Planner: Import / Export](Course_Planner_Import_Export/index.de.md).
 
 [zum Seitenanfang ^](#products)
 
@@ -163,15 +163,15 @@ Hat ein Kurs schon Betreuer:innen oder Teilnehmer:innen, lässt sich der Verwend
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
-[Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export/index.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.de.md)<br>
 [Course Planner: Dashboard >](../../manual_user/area_modules/Course_Planner_Dashboard.de.md)<br>
 [Course Planner: To-dos >](../../manual_user/area_modules/Course_Planner_Todos.de.md)<br>
 [Coaching - Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>

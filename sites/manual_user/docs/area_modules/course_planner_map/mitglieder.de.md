@@ -23,11 +23,11 @@ Die Mitgliedschaft besteht auf Durchführungsebene, nicht auf Kurs- oder Produkt
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
-[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
-[Course Planner: Import / Export >](../Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export/index.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)
 
 [Zum Seitenanfang ^](#members)

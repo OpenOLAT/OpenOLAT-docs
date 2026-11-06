@@ -32,18 +32,18 @@ Sie kennen den Bereich und suchen die Seite, die ihn erklärt. Die Tabelle führ
 | 1 | Portal | [Portal konfigurieren](../basic_concepts/Portal_configuration.de.md) |
 | 2 | Kurse | [Kurse](Courses.de.md) |
 | 3 | Gruppen | [Gruppenverwaltung](Group_Management.de.md) |
-| 4 | Katalog | [Katalog 2.0](catalog2.0.de.md) |
-| 5 | Autorenbereich | [Autorenbereich](Authoring.de.md) |
+| 4 | Katalog | [Katalog 2.0](catalog2.0/index.de.md) |
+| 5 | Autorenbereich | [Autorenbereich](Authoring/index.de.md) |
 | 6 | Fragenpool | [Fragenpool](Question_Bank/index.de.md) |
 | 7 | Dokumentenpool | [Modul Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md), Administrationshandbuch |
 | 8 | Bibliothek | [Bibliothek](Library.de.md) |
 | 9 | Video Collection | [Video Collection](Video_Collection.de.md) |
-| 10 | Projekte | [Projekte](Project_Overview.de.md) |
-| 11 | Course Planner | [Course Planner](Course_Planner.de.md) |
+| 10 | Projekte | [Projekte](Project_Overview/index.de.md) |
+| 11 | Course Planner | [Course Planner](Course_Planner/index.de.md) |
 | 12 | Benutzerverwaltung | [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md), Administrationshandbuch |
-| 13 | Coaching | [Coaching](Coaching.de.md) |
+| 13 | Coaching | [Coaching](Coaching/index.de.md) |
 | 14 | Absenzenverwaltung | [Absenzenverwaltung](Absence_Management.de.md) |
-| 15 | Qualitätsmanagement | [Qualitätsmanagement](Quality_Management.de.md) |
+| 15 | Qualitätsmanagement | [Qualitätsmanagement](Quality_Management/index.de.md) |
 | 16 | Administration | [System](../../manual_admin/administration/System.de.md), Administrationshandbuch |
 
 Das Portfolio erscheint nicht als Bereich in der Hauptnavigation. Sie öffnen es über die Persönlichen Werkzeuge als "Portfolio 2.0", beschrieben ist es unter [Portfolio erstellen](Portfolio.de.md).

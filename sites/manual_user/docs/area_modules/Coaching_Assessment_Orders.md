@@ -152,7 +152,7 @@ The management of all correctors and their assignments, on the other hand, is do
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Roles >](../../manual_user/basic_concepts/Roles.md)
 

@@ -238,7 +238,7 @@ System administrators set up the launchers and filters of the catalog in the sys
 [Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)
 
 **Further reading**<br>
-[Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>
+[Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Catalog 2.0 - Management >](../area_modules/catalog2.0_mgmt.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>

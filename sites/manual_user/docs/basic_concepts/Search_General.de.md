@@ -150,8 +150,8 @@ OpenOlat zählt jeden Abruf, nicht jede Person: Lädt dieselbe Person eine Datei
 **Weiterführend**<br>
 [Kontosuche >](../../manual_admin/usermanagement/Search_Users.de.md)<br>
 [Coaching - Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
-[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)
 
 **youtube**<br>
 [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>)

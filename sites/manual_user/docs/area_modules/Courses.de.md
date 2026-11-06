@@ -50,7 +50,7 @@ Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. 
 
 Der Bereich "Bildungsprodukte" erscheint, wenn drei Bedingungen erfüllt sind:
 
-* Systemadministrator:innen haben den [Course Planner](../area_modules/Course_Planner.de.md) in der System-Administration aktiviert: `Administration > Module > Course Planner`.
+* Systemadministrator:innen haben den [Course Planner](../area_modules/Course_Planner/index.de.md) in der System-Administration aktiviert: `Administration > Module > Course Planner`.
 * In diesem Modul ist die Einstellung [Produkt in "Meine Kurse"](../../manual_admin/administration/Modules_Course_Planner.de.md#product_in_my_courses) eingeschaltet.
 * Sie sind in mindestens einer Durchführung eingetragen.
 
@@ -79,9 +79,11 @@ Besitzer:innen öffnen den Kurs bereits im Status "Vorbereitung", Betreuer:innen
 
 [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
-[Coaching - Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)
+[Coaching - Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)
 
 **youtube**<br>
 [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>)

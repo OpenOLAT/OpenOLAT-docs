@@ -315,7 +315,7 @@ Mit "Einschalten" schalten Sie den Generator ein. Mit "Abbrechen" bleibt er ausg
 [Qualitätsmanagement: Datenerhebungsvorschau >](Quality_Management_Data_Collection_Preview.de.md)
 
 **Weiterführend**<br>
-[Qualitätsmanagement: Übersicht >](Quality_Management.de.md)<br>
+[Qualitätsmanagement: Übersicht >](Quality_Management/index.de.md)<br>
 [Qualitätsmanagement: Analyse >](Quality_Management_Analysis.de.md)
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collection_Generators)

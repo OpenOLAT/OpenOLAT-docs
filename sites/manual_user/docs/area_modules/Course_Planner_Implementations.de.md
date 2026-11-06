@@ -26,9 +26,9 @@ Die Liste öffnet mit dem Tab "Relevant". Der Tab "Ausstehende Mitgliedschaften"
 
 ![Geöffneter Filter Belegungsstatus mit den Werten Anzahl nicht festgelegt, Mindestanzahl nicht erreicht, Mindestanzahl erreicht, Freie Plätze verfügbar, Ausgebucht und Überbucht](assets/course_planner_implementations_list_v2_de.png){ class="shadow lightbox" title="Seite Durchführungen im Course Planner · 2026.09.30" }
 
-Durchführungen anlegen, bearbeiten und löschen können Administrator:innen und Kursplaner:innen sowie Produktbesitzer:innen in ihren eigenen Produkten. Principals sehen die Durchführungen nur lesend. Die vollständige Übersicht zeigt die [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
+Durchführungen anlegen, bearbeiten und löschen können Administrator:innen und Kursplaner:innen sowie Produktbesitzer:innen in ihren eigenen Produkten. Principals sehen die Durchführungen nur lesend. Die vollständige Übersicht zeigt die [Rechte-Matrix](Course_Planner/index.de.md#rights_matrix) des Course Planners.
 
-Je nach Ihren Rechten bietet das Menü der 3 Punkte am Ende einer Zeile Aktionen wie "Element kopieren", "Mitgliederverwaltung", "Export" und "Löschen". Wie der Export funktioniert, beschreibt [Course Planner: Import / Export](Course_Planner_Import_Export.de.md#export_entry_points).
+Je nach Ihren Rechten bietet das Menü der 3 Punkte am Ende einer Zeile Aktionen wie "Element kopieren", "Mitgliederverwaltung", "Export" und "Löschen". Wie der Export funktioniert, beschreibt [Course Planner: Import / Export](Course_Planner_Import_Export/index.de.md#export_entry_points).
 
 Häufig verwendete Filterkombinationen speichern Sie mit "Filter speichern" als eigene Voreinstellung und verwenden sie wieder. [:octicons-tag-16:{ title="ab Release 20.3 (OO-9223)" }](https://track.frentix.com/issue/OO-9223){:target="_blank"}
 
@@ -339,7 +339,7 @@ Im Abschnitt "Einstellungen" unter der Übersicht legen Sie fest, ob jede Teilna
 
 Braucht eine Durchführung beim Buchen mehr als Name und Rechnungsadresse, etwa Essenswünsche, Vorkenntnisse oder eine Mitgliedernummer, holen Formulare diese Informationen beim Buchen eines Angebots ein. Pro Angebot legen Sie fest, welche Formulare zum Einsatz kommen und in welcher Reihenfolge. So kann ein Angebot für Berufstätige andere Fragen stellen als ein Angebot derselben Durchführung für Studierende. Die Antworten liegen danach an drei Orten: beim Formular in der Durchführung, beim Buchungsauftrag und bei der Mitgliedschaft der Person.
 
-Als Formular dient eine [Formular-Lernressource](../learningresources/Form.de.md). Den Abschnitt gibt es nur bei Durchführungen im Course Planner, nicht bei Angeboten eines Kurses oder einer anderen Lernressource. Angebote der Angebotsart PayPal Checkout verwenden keine Formulare. Formulare hinzufügen, verwenden und entfernen können alle, die die Durchführung bearbeiten dürfen; die Rollen nennt die [Rechte-Matrix](Course_Planner.de.md#rights_matrix).
+Als Formular dient eine [Formular-Lernressource](../learningresources/Form.de.md). Den Abschnitt gibt es nur bei Durchführungen im Course Planner, nicht bei Angeboten eines Kurses oder einer anderen Lernressource. Angebote der Angebotsart PayPal Checkout verwenden keine Formulare. Formulare hinzufügen, verwenden und entfernen können alle, die die Durchführung bearbeiten dürfen; die Rollen nennt die [Rechte-Matrix](Course_Planner/index.de.md#rights_matrix).
 
 Ein Formular kommt in zwei Stufen zum Einsatz. Zuerst fügen Sie es der Durchführung hinzu, danach schalten Sie es im einzelnen Angebot ein. Ein hinzugefügtes Formular allein wird beim Buchen noch nicht verlangt.
 
@@ -573,7 +573,7 @@ Sie schalten die Absenzen in den Einstellungen der Durchführung ein:<br>
 
 Die Reports in diesem Tab beziehen sich auf die geöffnete Durchführung.
 
-Die Reports, die Sie in der [Übersicht](../../manual_user/area_modules/Course_Planner_Reports.de.md) des Course Planners erstellen, umfassen dagegen alle Durchführungen. Die Spalten der Excel-Dateien und das Vorgehen sind bei beiden gleich.
+Die Reports, die Sie in der [Übersicht](../../manual_user/area_modules/Course_Planner_Reports/index.de.md) des Course Planners erstellen, umfassen dagegen alle Durchführungen. Die Spalten der Excel-Dateien und das Vorgehen sind bei beiden gleich.
 
 ![Die Reportvorlagen mit der Spalte Ausführen und darunter ein generierter Report als Excel-Datei mit Info, Kopieren nach, Löschen und Herunterladen](assets/course_planner_implementations_tab_reports1_v2_de.png){ class="shadow lightbox" title="Tab Reports einer Durchführung · 2026.09.30" }
 
@@ -649,7 +649,7 @@ Die Kopie übernimmt den Raum der ursprünglichen Buchung. Der Zeitraum der Buch
 
 Im Schritt "Übersicht Elemente" erscheint bei aktivem Modul und gewählter Option "Kopieren" zusätzlich die Spalte "#Räume"; klappen Sie ein Element auf, führt die Tabelle "Termine" dort auch die Spalte "Räume" mit den gebuchten Räumen. Mit "Nicht kopieren" fehlen beide Spalten.
 
-Die Aktion "Element kopieren" steht Administrator:innen, Kursplaner:innen und Produktbesitzer:innen zur Verfügung. Die vollständige Übersicht finden Sie in der [Rechte-Matrix](Course_Planner.de.md#rights_matrix) des Course Planners.
+Die Aktion "Element kopieren" steht Administrator:innen, Kursplaner:innen und Produktbesitzer:innen zur Verfügung. Die vollständige Übersicht finden Sie in der [Rechte-Matrix](Course_Planner/index.de.md#rights_matrix) des Course Planners.
 
 Einzelne Termine kopieren Sie stattdessen in der Terminliste einer Durchführung mit der Aktion "Kopieren". Markieren Sie dort mehrere Termine und kopieren Sie diese gemeinsam, übernimmt OpenOlat die Raumbuchungen sofort. Kopieren Sie einen einzelnen Termin, öffnet sich der Dialog "Termin bearbeiten" mit den Räumen des Ausgangstermins im Feld "Räume"; mit "Speichern" bucht OpenOlat sie. Mehr dazu unter [Termine kopieren](Course_Planner_Events.de.md#copy_events).
 
@@ -677,8 +677,8 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Course Planner: Übersicht >](Course_Planner.de.md)<br>
-[Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Übersicht >](Course_Planner/index.de.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export/index.de.md)<br>
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Course Planner: Dashboard >](Course_Planner_Dashboard.de.md)<br>
 [Course Planner: To-dos >](Course_Planner_Todos.de.md)<br>
@@ -696,7 +696,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](Course_Planner_Certification_Programs.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.de.md)<br>
 [To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
 [Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)

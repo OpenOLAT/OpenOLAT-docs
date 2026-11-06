@@ -52,7 +52,7 @@ You configure the course element in the "Form" tab. In the first step, you selec
 
 A newly created form does not yet contain any elements, questions or text fields. You add them in the [form editor](../learningresources/Form_Editor.md).
 
-If you create a form in the course editor, OpenOlat automatically creates a new learning resource "Form". You also find it in the [Authoring area](../area_modules/Authoring.md) under "My entries" and can include it in further courses and course elements.
+If you create a form in the course editor, OpenOlat automatically creates a new learning resource "Form". You also find it in the [Authoring area](../area_modules/Authoring/index.md) under "My entries" and can include it in further courses and course elements.
 
 Once a form is selected, the tab shows its title and the number of "Responses in this course". With "Preview" you see the form the way participants fill it in. With the button "Edit learning resource" you open the learning resource "Form" and design the form in the form editor. Owners of the form, learning resource managers and administrators see the button. With "Replace" you select a different form, with the arrow next to it you import one with "Import".
 
@@ -105,7 +105,7 @@ With "Save and finish" participants submit the completed form. After that they c
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [The form editor >](../learningresources/Form_Editor.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Members management >](../learningresources/Members_management.md)
 
 **Further reading**<br>

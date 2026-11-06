@@ -139,7 +139,7 @@ If the anonymous display is switched on, you see no names in the correction tool
 
 !!! note "Note"
 
-    For information on **cross-course** correction, see also [Coaching Tool >](../../manual_user/area_modules/Coaching.md)
+    For information on **cross-course** correction, see also [Coaching Tool >](../../manual_user/area_modules/Coaching/index.md)
 
 
 [To the top of the page ^](#assessing_tests_anonymously)
@@ -199,7 +199,7 @@ Find out more about grading assignments in Coaching: [Coaching - Assessment Orde
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.md)<br>
-[Coaching Tool >](../../manual_user/area_modules/Coaching.md)<br>
+[Coaching Tool >](../../manual_user/area_modules/Coaching/index.md)<br>
 [Coaching - Assessment Orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
 [How do I assess a test? >](../../manual_how-to/assessing_tests/assessing_tests.md)<br>
 [Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)

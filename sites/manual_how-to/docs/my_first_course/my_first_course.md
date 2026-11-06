@@ -267,7 +267,7 @@ Furthermore, an offer must be created for the catalog and the course must be mad
 
 ## Further information {: #further_information}
 
-[Overview authoring area >](../../manual_user/area_modules/Authoring.md)<br>
+[Overview authoring area >](../../manual_user/area_modules/Authoring/index.md)<br>
 [General information on courses >](../../manual_user/learningresources/General_Information.md)<br>
 [Creating courses >](../../manual_user/learningresources/Creating_Course.md)<br>
 [Create courses and learning resources >](../../manual_user/area_modules/authoring_new_course.md)<br>

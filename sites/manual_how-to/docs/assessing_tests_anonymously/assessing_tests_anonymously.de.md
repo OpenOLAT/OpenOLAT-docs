@@ -139,7 +139,7 @@ Ist die anonyme Anzeige eingeschaltet, sehen Sie im Korrekturwerkzeug keine Name
 
 !!! note "Hinweis"
 
-    Informationen zur **kursübergreifenden** Korrektur finden Sie im [Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)
+    Informationen zur **kursübergreifenden** Korrektur finden Sie im [Coaching Tool >](../../manual_user/area_modules/Coaching/index.de.md)
 
 
 [zum Seitenanfang ^](#assessing_tests_anonymously)
@@ -199,7 +199,7 @@ Mehr zu den Korrekturaufträgen im Coaching: [Coaching - Bewertungsaufträge](..
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.de.md)<br>
-[Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)<br>
+[Coaching Tool >](../../manual_user/area_modules/Coaching/index.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)

@@ -7,9 +7,9 @@ When you open the Course Planner, you are taken to the overview page with the ac
 
 The access buttons are divided into the three areas "Products", "Productivity" and "Tools" [:octicons-tag-16:{ title="from Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"}. The section [Where can I find the Course Planner?](#access) describes them in this order.
 
-![The Course Planner start page with the access buttons in the three areas Products, Productivity and Tools and the Implementations and To-do widgets in the Overview section](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
+![The Course Planner start page with the access buttons in the three areas Products, Productivity and Tools and the Implementations and To-do widgets in the Overview section](../assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Dashboard.md)
+[See the details >](../../area_modules/Course_Planner_Dashboard.md)
 
 ---
 
@@ -65,13 +65,13 @@ With the Course Planner, several implementations can be created for a course and
 
 This administrative planning work can be done by a course planner even if the course has not yet been created or is not yet available in its final version.
 
-![Three implementations of a product, each with its own offer in the catalog, its own event and the shared course A](assets/course_planner_planning_single_course1_v2_de.png){ class="shadow lightbox" title="Planning for single courses" }
+![Three implementations of a product, each with its own offer in the catalog, its own event and the shared course A](../assets/course_planner_planning_single_course1_v2_de.png){ class="shadow lightbox" title="Planning for single courses" }
 
 Independently of these administrative tasks (carried out by a course planner), a course can be created by authors as a template and then integrated into all implementations.
 
 The courses can also be instantiated automatically on a definable date.
 
-![The template course A from content creation is instantiated into each of the three implementations](assets/course_planner_planning_single_course2_v2_de.png){ class="shadow lightbox" title="Planning for single courses" }
+![The template course A from content creation is instantiated into each of the three implementations](../assets/course_planner_planning_single_course2_v2_de.png){ class="shadow lightbox" title="Planning for single courses" }
 
 For example, members can be added directly to the individual implementations by booking an offer themselves in the catalog.
 
@@ -79,7 +79,7 @@ For example, members can be added directly to the individual implementations by 
 
     Course members in the template course are then only the course owners with the author role.
 
-![Bookings from the catalog offers make the bookers members of the respective implementation, not of the template course](assets/course_planner_planning_single_course3_v2_de.png){ class="shadow lightbox" title="Planning for single courses" }
+![Bookings from the catalog offers make the bookers members of the respective implementation, not of the template course](../assets/course_planner_planning_single_course3_v2_de.png){ class="shadow lightbox" title="Planning for single courses" }
 
 [To the top of the page ^](#course_planner)
 
@@ -91,7 +91,7 @@ Just as several implementations can be created for a single course, implementati
 
 If desired, the combination of courses/learning resources can also be modified in the individual implementations and deviate from the standard implementation ("copy template").
 
-![Three implementations with several courses each from content creation, implementation 2 with the deviating course 1](assets/course_planner_planning_course_bundles_v1_de.png){ class="shadow lightbox" title="Planning for course bundles" }
+![Three implementations with several courses each from content creation, implementation 2 with the deviating course 1](../assets/course_planner_planning_course_bundles_v1_de.png){ class="shadow lightbox" title="Planning for course bundles" }
 
 [To the top of the page ^](#course_planner)
 
@@ -104,11 +104,11 @@ Structured products/educational programs have an additional tree structure compa
 
 Even if participants are to complete an educational product, they are made members of a specific implementation. (Not members of individual courses or members of the educational product template.)
 
-![An implementation with structural elements in a tree structure whose sub-elements each contain a course](assets/course_planner_planning_structured_product1_v1_de.png){ class="shadow lightbox" title="Structured product" }
+![An implementation with structural elements in a tree structure whose sub-elements each contain a course](../assets/course_planner_planning_structured_product1_v1_de.png){ class="shadow lightbox" title="Structured product" }
 
 In addition, a billing system can also be set up for the implementation.
 
-![Membership in the implementation individually via catalog booking with billing or as a whole group](assets/course_planner_planning_structured_product2_v1_de.png){ class="shadow lightbox" title="Structured product" }
+![Membership in the implementation individually via catalog booking with billing or as a whole group](../assets/course_planner_planning_structured_product2_v1_de.png){ class="shadow lightbox" title="Structured product" }
 
 [To the top of the page ^](#course_planner)
 
@@ -203,27 +203,27 @@ An educational product is an inwardly or outwardly directed learning offer with 
 
 Curricula/products often consist of several courses and have a certain structure/sequence in which the included courses are combined.
 
-![The product list with reference, organisation and number of implementations, the tabs All, Active and Deleted and the Create product button](assets/course_planner_products_v4_en.png){ class="shadow lightbox" title="Products area in the Course Planner" }
+![The product list with reference, organisation and number of implementations, the tabs All, Active and Deleted and the Create product button](../assets/course_planner_products_v4_en.png){ class="shadow lightbox" title="Products area in the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Products.md)<br>
+[See the details >](../../area_modules/Course_Planner_Products.md)<br>
 [To the top of the page ^](#course_planner)
 
 #### Implementations {: #implementations}
 
 An (educational) product can be offered and implemented several times. For example, a single course can be repeated each semester, as can a structured educational program consisting of several courses.
 
-![All implementations with reference, product, begin, end, type, counters and status, with status filters and the Create button](assets/course_planner_implementations_v5_en.png){ class="shadow lightbox" title="Implementations area in the Course Planner" }
+![All implementations with reference, product, begin, end, type, counters and status, with status filters and the Create button](../assets/course_planner_implementations_v5_en.png){ class="shadow lightbox" title="Implementations area in the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Implementations.md)<br>
+[See the details >](../../area_modules/Course_Planner_Implementations.md)<br>
 [To the top of the page ^](#course_planner)
 
 #### Events {: #events}
 
 The events specified here refer to an implementation or a part of it.
 
-![All events with date, time, units, element, status, course and lecturers, with period tiles and filters](assets/course_planner_events_v4_en.png){ class="shadow lightbox" title="Events area in the Course Planner" }
+![All events with date, time, units, element, status, course and lecturers, with period tiles and filters](../assets/course_planner_events_v4_en.png){ class="shadow lightbox" title="Events area in the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Events.md)<br>
+[See the details >](../../area_modules/Course_Planner_Events.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
@@ -236,18 +236,18 @@ The **Productivity** area contains the tools for day-to-day work: task tracking 
 
 In the Course Planner, every to-do belongs to an element, for example to an implementation or to one of its subordinate elements. You create to-dos in the "To-dos" tab of an element or with a bulk action for several implementations at once. The central overview and the "To-dos" tab of a product bring the to-dos together. The to-do widget on the Course Planner start page shows open and overdue to-dos at a glance.
 
-![All to-dos with priority, due date, status, product, element, assignment and tags, overdue entries in red](assets/course_planner_todos_v1_en.png){ class="shadow lightbox" title="To-dos area in the Course Planner" }
+![All to-dos with priority, due date, status, product, element, assignment and tags, overdue entries in red](../assets/course_planner_todos_v1_en.png){ class="shadow lightbox" title="To-dos area in the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Todos.md)<br>
+[See the details >](../../area_modules/Course_Planner_Todos.md)<br>
 [To the top of the page ^](#course_planner)
 
 #### Reports [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8387)" }](https://track.frentix.com/issue/OO-8387){:target="_blank"} {: #reports}
 
 Various reports can be generated using report templates.
 
-![The six report templates for booking orders with the Execute column and below a generated report with download](assets/course_planner_reports1_v4_en.png){ class="shadow lightbox" title="Reports area in the Course Planner" }
+![The six report templates for booking orders with the Execute column and below a generated report with download](../assets/course_planner_reports1_v4_en.png){ class="shadow lightbox" title="Reports area in the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Reports.md)<br>
+[See the details >](../../area_modules/Course_Planner_Reports/index.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
@@ -260,18 +260,18 @@ The **Tools** area contains the cross-product tools that are not tied to a singl
 
 Certification programs are used when a certificate is only awarded after completing several courses.
 
-![The list of certification programs with validity period, recertification, required credit points and the counters Active, Candidates and Alumni](assets/course_planner_certification_programs_v3_en.png){ class="shadow lightbox" title="Certification programs area in the Course Planner" }
+![The list of certification programs with validity period, recertification, required credit points and the counters Active, Candidates and Alumni](../assets/course_planner_certification_programs_v3_en.png){ class="shadow lightbox" title="Certification programs area in the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Certification_Programs.md)<br>
+[See the details >](../../area_modules/Course_Planner_Certification_Programs.md)<br>
 [To the top of the page ^](#course_planner)
 
 #### Room management [:octicons-tag-16:{ title="from Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
 
 Course planners receive the "Room management" area under "Tools", with a read-only overview of the room scheduling and the rooms they have access to through their organisational affiliation. Rooms and buildings themselves are maintained in the system administration, under `Administration > Modules > Rooms`.
 
-![An expanded room booking with event, the note No teachers assigned yet, room card and the Open in Course Planner button](assets/course_planner_rooms_scheduling_table_v2_en.png){ class="shadow lightbox" title="Room scheduling of Room management in the Course Planner" }
+![An expanded room booking with event, the note No teachers assigned yet, room card and the Open in Course Planner button](../assets/course_planner_rooms_scheduling_table_v2_en.png){ class="shadow lightbox" title="Room scheduling of Room management in the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Rooms.md)<br>
+[See the details >](../../area_modules/Course_Planner_Rooms.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
@@ -282,13 +282,13 @@ Products, implementations and memberships can be exported as an Excel file, edit
 
 You start the **export** in the lists "Products", "Implementations" and "Events": select the entries, then click **Export**.
 
-![A selected product and the Export button next to Delete above the list, highlighted](assets/course_planner_export_action_v1_en.png){ class="shadow lightbox" title="Product list of the Course Planner" }
+![A selected product and the Export button next to Delete above the list, highlighted](../assets/course_planner_export_action_v1_en.png){ class="shadow lightbox" title="Product list of the Course Planner" }
 
 You start the **import** via the more menu (⋮) at the top right of the overview page with the entry **Import**.
 
-![The Import entry in the more menu at the top right, highlighted](assets/course_planner_import_action_v1_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
+![The Import entry in the more menu at the top right, highlighted](../assets/course_planner_import_action_v1_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
-[See the details >](../area_modules/Course_Planner_Import_Export.md)<br>
+[See the details >](../../area_modules/Course_Planner_Import_Export/index.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
@@ -296,10 +296,10 @@ You start the **import** via the more menu (⋮) at the top right of the overvie
 
 ## Further information {: #further_information}
 
-[How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
-[How do I plan and run a product with several courses with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
-[What rights do the roles have within a course? >](../basic_concepts/Authorisation_Concept.md)
+[How do I create my first OpenOlat course? >](../../../manual_how-to/my_first_course/my_first_course.md)<br>
+[How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[How do I plan and run a product with several courses with the Course Planner? >](../../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
+[Activate Course Planner (Admin) >](../../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[What rights do the roles have within a course? >](../../basic_concepts/Authorisation_Concept.md)
 
 [To the top of the page ^](#course_planner)

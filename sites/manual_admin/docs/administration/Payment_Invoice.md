@@ -36,7 +36,7 @@ If the [customer number](Modules_Organisations.md#customer_number) is switched o
 
 [Module Organisations >](Modules_Organisations.md)<br>
 [Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 [To the top of the page ^](#invoice)

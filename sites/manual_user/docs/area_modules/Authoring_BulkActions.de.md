@@ -107,7 +107,7 @@ Mit dem Button "Löschen" über der Tabelle löschen Sie mehrere Lernressourcen 
 
 Zur Sicherheit bestätigen Sie die Aktion noch einmal. Die Besitzer:innen der Lernressource werden, sofern konfiguriert, per E-Mail benachrichtigt.
 
-Nach dem Löschen erscheinen die Lernressourcen nur noch im [Tab "Gelöscht"](../area_modules/Authoring.de.md#authoring-deleted) (Papierkorb-Funktion) für die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen.
+Nach dem Löschen erscheinen die Lernressourcen nur noch im [Tab "Gelöscht"](../area_modules/Authoring/index.de.md#authoring-deleted) (Papierkorb-Funktion) für die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen.
 
 Als Besitzer:in können Sie gelöschte Lernressourcen wiederherstellen. Das dauerhafte Löschen der Lernressourcen ist nur durch Administrator:innen oder Lernressourcenverwalter:innen möglich.
 
@@ -129,7 +129,7 @@ Um den Inhalt einer Lernressource zu bearbeiten, öffnen Sie ihren Editor direkt
 
 Den Eintrag sehen Sie nur bei Lernressourcen, die sich bearbeiten lassen und die weder im Status "Beendet" noch im Papierkorb sind.
 
-Denselben Editor öffnet das Stiftsymbol in der Spalte "Inhalt editieren". Diese Spalte blenden Sie bei Bedarf selbst ein, siehe [Spalten konfigurieren](Authoring.de.md#configure_columns). Der Tooltip des Symbols nennt den Editor beim Namen.
+Denselben Editor öffnet das Stiftsymbol in der Spalte "Inhalt editieren". Diese Spalte blenden Sie bei Bedarf selbst ein, siehe [Spalten konfigurieren](Authoring/index.de.md#configure_columns). Der Tooltip des Symbols nennt den Editor beim Namen.
 
 ### Weitere Optionen für einzelne Lernressourcen {: #row_menu}
 
@@ -171,7 +171,7 @@ Handelt es sich in der Tabellenzeile um einen Lernpfadkurs, zeigt das Menü zus�
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
-[Autorenbereich - Übersicht >](Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](Authoring/index.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
 [Kopieren eines Kurses mit Wizard >](../learningresources/Course_Copy_Wizard.de.md)

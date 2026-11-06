@@ -28,7 +28,7 @@ If you have not yet assigned a video, the message "No video selected" appears at
 
 A new menu appears. Under "All entries" you can see all videos of the system that you can embed. Under "My entries" you can see the video learning resources you are an owner of. Select the video you want. A search is also possible.
 
-Click "Import" or "Import URL" to upload or link to a *new* video. Alternatively, you can create a new video learning resource in the [Authoring Area](../area_modules/Authoring.md).
+Click "Import" or "Import URL" to upload or link to a *new* video. Alternatively, you can create a new video learning resource in the [Authoring Area](../area_modules/Authoring/index.md).
 
 ## Configure added video
 
@@ -68,7 +68,7 @@ A video that you embed with the course element "Video" enables, in contrast to a
 ## Further information {: #further_information}
 
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Videos in course element "HTML page" >](../basic_concepts/Video_in_HTML_Pages.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
 [Course elements at a glance >](../learningresources/Course_Elements.md)<br>

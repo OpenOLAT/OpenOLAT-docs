@@ -22,9 +22,9 @@ Zwei Personen können deshalb nach dem Login unterschiedliche Menüs sehen. Fehl
 | Wer | Arbeitsbereich | Typische Tätigkeiten |
 |---|---|---|
 | **Lernende**<br>Kursrolle Teilnehmer:in | [Kurse](../area_modules/Courses.de.md) | Kurse aufrufen und absolvieren, Favoriten verwalten, den eigenen Lernstand verfolgen |
-| **Betreuende**<br>Kursrolle Betreuer:in oder Besitzer:in, Gruppenbetreuer:in, Ausbildungsverantwortliche:r | [Coaching](../area_modules/Coaching.de.md) | betreute Personen, Kurse und Gruppen kursübergreifend begleiten, bewerten und verwalten |
-| **Kursersteller:innen**<br>Organisationsrolle Autor:in | [Autorenbereich](../area_modules/Authoring.de.md) | Kurse und weitere Lernressourcen erstellen, importieren und pflegen |
-| **Kursplanende**<br>Organisationsrolle Kursplaner:in | [Course Planner](../area_modules/Course_Planner.de.md) | Produkte, Durchführungen und Termine des Bildungsangebots planen und verwalten |
+| **Betreuende**<br>Kursrolle Betreuer:in oder Besitzer:in, Gruppenbetreuer:in, Ausbildungsverantwortliche:r | [Coaching](../area_modules/Coaching/index.de.md) | betreute Personen, Kurse und Gruppen kursübergreifend begleiten, bewerten und verwalten |
+| **Kursersteller:innen**<br>Organisationsrolle Autor:in | [Autorenbereich](../area_modules/Authoring/index.de.md) | Kurse und weitere Lernressourcen erstellen, importieren und pflegen |
+| **Kursplanende**<br>Organisationsrolle Kursplaner:in | [Course Planner](../area_modules/Course_Planner/index.de.md) | Produkte, Durchführungen und Termine des Bildungsangebots planen und verwalten |
 | **Systemverantwortliche**<br>Rolle Systemadministrator:in | [Administration](../../manual_admin/administration/System.de.md) | die OpenOlat-Instanz technisch konfigurieren und überwachen |
 
 Die Arbeitsbereiche ergänzen sich, ohne sich zu überschneiden. So bleibt jeder Bereich auf seine Aufgabe fokussiert: Wer einen Kurs absolviert, wird nicht von Verwaltungsfunktionen abgelenkt; wer betreut oder plant, findet alle dafür nötigen Werkzeuge an einem Ort.
@@ -56,10 +56,10 @@ Neben den Kernbereichen gibt es weitere Menüpunkte und Bereiche, die erst mit d
 | Rollenverwalter:in | [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md), mit dem Recht zur Vergabe von Rollen |
 | Gruppenverwalter:in | Menüpunkt "Gruppen", zusätzlicher Tab [Gruppenverwaltung](../area_modules/Group_Management.de.md) |
 | Poolverwalter:in | [Fragenpool](../area_modules/Question_Bank/index.de.md), inklusive Bereich Administration |
-| Qualitätsverwalter:in | Menüpunkt [Qualitätsmanagement](../area_modules/Quality_Management.de.md) |
+| Qualitätsverwalter:in | Menüpunkt [Qualitätsmanagement](../area_modules/Quality_Management/index.de.md) |
 | Absenzenverwalter:in | Menüpunkt [Absenzenverwaltung](../area_modules/Absence_Management.de.md) |
 | Projektverwalter:in | Menüpunkt "Projekte", zusätzlicher Tab [Administration](../area_modules/Project_Admin.de.md) |
-| Lernressourcenverwalter:in | [Autorenbereich](../area_modules/Authoring.de.md), mit Besitzerrechten für die Kurse und Lernressourcen der eigenen Organisation |
+| Lernressourcenverwalter:in | [Autorenbereich](../area_modules/Authoring/index.de.md), mit Besitzerrechten für die Kurse und Lernressourcen der eigenen Organisation |
 | Administrator:in | Modul- und Funktionsverwaltung: Zugriff auf viele Bereiche wie Benutzerverwaltung, Katalog-Verwaltung und Course Planner, jedoch nicht auf die Administrationsseite |
 | Principal | Lesender Zugriff auf viele Bereiche des Systems |
 
@@ -74,16 +74,16 @@ Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte fin
 **Auf dieser Seite erwähnt**<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](Roles.de.md)<br>
 [Kurse finden >](../area_modules/Courses.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [System >](../../manual_admin/administration/System.de.md)<br>
 [Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
-[Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management.de.md)<br>
+[Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management/index.de.md)<br>
 [Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
 [Projekte - Administration >](../area_modules/Project_Admin.de.md)<br>
 [Bereiche und Module >](../area_modules/index.de.md)

@@ -1,6 +1,6 @@
 # Coaching - Reports: Zertifikate {: #certificate_reports}
 
-Diese Seite beschreibt den Aufbau der Excel-Dateien, die mit den [Reportvorlagen der Kategorie Zertifikate](../area_modules/Coaching_Reports.de.md) erzeugt werden. Jede Datei enthält das Worksheet "Einzelkurse" und, falls das Modul Course Planner aktiv ist, zusätzlich das Worksheet "Produkte".
+Diese Seite beschreibt den Aufbau der Excel-Dateien, die mit den [Reportvorlagen der Kategorie Zertifikate](../area_modules/Coaching_Reports/index.de.md) erzeugt werden. Jede Datei enthält das Worksheet "Einzelkurse" und, falls das Modul Course Planner aktiv ist, zusätzlich das Worksheet "Produkte".
 
 ## Worksheet "Einzelkurse" [:octicons-tag-16:{ title="ab Release 20.0 (OO-8371)" }](https://track.frentix.com/issue/OO-8371) {: #individual_courses}
 
@@ -33,6 +33,6 @@ Ist ein Kurs mehreren Curriculum-Elementen zugeordnet, werden die Werte in der Z
 
 ## Weiterführende Informationen {: #further_information}
 
-[Coaching: Reports >](../area_modules/Coaching_Reports.de.md)
+[Coaching: Reports >](../area_modules/Coaching_Reports/index.de.md)
 
 [Zum Seitenanfang ^](#certificate_reports)

@@ -40,7 +40,7 @@ Siehe [Modul Qualitätsmanagement](../../manual_admin/administration/Modules_Qua
 
 **Weiterführend**<br>
 [Qualitätsmanagement: Datenerhebungsvorschau >](../area_modules/Quality_Management_Data_Collection_Preview.de.md)<br>
-[Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management.de.md)<br>
+[Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management/index.de.md)<br>
 [Qualitätsmanagement: Datenerhebung >](../area_modules/Quality_Management_Data_Collections.de.md)
 
 [Zum Seitenanfang ^](#Data_Collection_Preview)

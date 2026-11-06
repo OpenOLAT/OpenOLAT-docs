@@ -49,7 +49,7 @@ The following Offer types can be created:
 
 ## Further information {: #further_information}
 
-[See the catalog >](../../manual_user/area_modules/catalog2.0.md)<br>
+[See the catalog >](../../manual_user/area_modules/catalog2.0/index.md)<br>
 [See the offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Offer implementations in the catalog >](../../manual_user/area_modules/Course_Planner_Implementations.md)
 

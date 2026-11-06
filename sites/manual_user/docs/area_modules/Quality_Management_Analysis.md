@@ -237,7 +237,7 @@ If quality managers have permissions and access to several or all organisations,
 
 [Quality Management: Data collections >](Quality_Management_Data_Collections.md)<br>
 [The form editor >](../learningresources/Form_Editor.md)<br>
-[Quality Management: Overview >](Quality_Management.md)<br>
+[Quality Management: Overview >](Quality_Management/index.md)<br>
 [The form element rubric >](../learningresources/Form_Element_Rubric.md)<br>
 [Quality Management: Data Collection Generators >](Quality_Management_Data_Collection_Generators.md)
 

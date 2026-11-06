@@ -139,7 +139,7 @@ Deleted projects can still be viewed, but no longer edited.
 [Projects - Project report >](../area_modules/Project_Report.md)
 
 **Further reading**<br>
-[Projects: Overview >](../area_modules/Project_Overview.md)<br>
+[Projects: Overview >](../area_modules/Project_Overview/index.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [Module Projects >](../../manual_admin/administration/Modules_Projects.md)
 

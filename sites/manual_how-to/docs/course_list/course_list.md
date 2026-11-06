@@ -74,7 +74,7 @@ Click on the "Download" button (icon with an arrow pointing down) at the top rig
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)
 
 **Further reading**<br>
-[Authoring - Overview >](../../manual_user/area_modules/Authoring.md)<br>
+[Authoring - Overview >](../../manual_user/area_modules/Authoring/index.md)<br>
 [Working with tables >](../../manual_user/basic_concepts/Table_Concept.md)<br>
 [Delete (a course or learning resource) >](../../manual_user/learningresources/Course_Delete.md)
 

@@ -52,7 +52,7 @@ Es können die folgenden Angebotsarten/-typen erstellt werden:
 
 ## Weiterführende Informationen {: #further_information}
 
-[Zum Katalog >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Zum Katalog >](../../manual_user/area_modules/catalog2.0/index.de.md)<br>
 [Zu Angeboten >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Anbieten von Durchführungen im Katalog >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)
 

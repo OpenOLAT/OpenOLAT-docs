@@ -23,8 +23,8 @@ Elemente gliedern die Durchführung hierarchisch. Elemente «Mit Kursinhalt» tr
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
-[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Modul Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)

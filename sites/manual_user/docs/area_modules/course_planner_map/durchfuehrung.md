@@ -23,11 +23,11 @@ Participants become members of an implementation (not of the product or of indiv
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)<br>
 [Course Planner: Events >](../Course_Planner_Events.md)<br>
-[Course Planner: Import / Export >](../Course_Planner_Import_Export.md)
+[Course Planner: Import / Export >](../Course_Planner_Import_Export/index.md)
 
 [To the top of the page ^](#implementation)

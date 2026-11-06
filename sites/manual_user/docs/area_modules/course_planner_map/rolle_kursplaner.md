@@ -11,9 +11,9 @@ Organisation role with full (write) access to the whole Course Planner; when ass
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
-[Course Planner: Import / Export >](../Course_Planner_Import_Export.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export/index.md)<br>
 [Roles and Rights: Which roles are available? >](../../basic_concepts/Roles.md)
 
 [To the top of the page ^](#role_course_planner)

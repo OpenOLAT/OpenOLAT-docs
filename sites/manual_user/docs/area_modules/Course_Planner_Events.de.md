@@ -100,7 +100,7 @@ Im Bereich "Termine" des Course Planners ist "Termin hinzufügen" ausgegraut, we
 
 Viele Termine auf einmal übernehmen Sie im Tab Termine einer Durchführung aus einer Excel-Datei: Klicken Sie auf den kleinen Pfeil neben dem Button "Termin hinzufügen" und wählen Sie "Termine importieren".
 
-Erstellen Sie mit "Termin hinzufügen" einen Termin für einen Kurs, schaltet OpenOlat im Kurs die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist. Der Termin steht danach auch im Kurs zur Verfügung, ohne dass jemand die Kurseinstellungen anpassen muss. Importierte Termine schalten sie nicht ein, weder aus "Termine importieren" noch aus dem [Import-Assistenten des Course Planners](Course_Planner_Import_Export.de.md#import_wizard). Mehr dazu unter [Kurseinstellungen - Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled). [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+Erstellen Sie mit "Termin hinzufügen" einen Termin für einen Kurs, schaltet OpenOlat im Kurs die Termin- und Absenzenverwaltung ein, falls sie noch ausgeschaltet ist. Der Termin steht danach auch im Kurs zur Verfügung, ohne dass jemand die Kurseinstellungen anpassen muss. Importierte Termine schalten sie nicht ein, weder aus "Termine importieren" noch aus dem [Import-Assistenten des Course Planners](Course_Planner_Import_Export/index.de.md#import_wizard). Mehr dazu unter [Kurseinstellungen - Tab Durchführung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled). [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
 ![Der Button Termin hinzufügen mit dem aufgeklappten Eintrag Termine importieren](assets/course_planner_events_create_v2_de.png){ class="shadow lightbox" title="Tab Termine einer Durchführung · 2026.10.07" }
 
@@ -175,18 +175,18 @@ Die Termine, die die Liste gerade zeigt, laden Sie mit dem Download-Button recht
 
 **Auf dieser Seite erwähnt**<br>
 [Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
 [Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)<br>
 [Termine und Absenzen >](../../manual_user/learningresources/Events_and_absences.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>

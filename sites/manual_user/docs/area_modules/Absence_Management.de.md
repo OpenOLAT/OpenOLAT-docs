@@ -182,7 +182,7 @@ Der Report fasst die Anwesenheiten je Person zusammen: als "Aggregierte Liste" �
 **Weiterführend**<br>
 [Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)
 
 
 [Zum Seitenanfang ^](#absence_management)

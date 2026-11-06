@@ -151,7 +151,7 @@ Wollen Sie mehrere Dateien auf einmal löschen (Sammelaktion), dann wählen Sie 
 
 [Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md)<br>
 [Projekte: Mitgliederverwaltung >](Project_Member_Management.de.md)<br>
-[Projekte: Überblick >](Project_Overview.de.md)<br>
+[Projekte: Überblick >](Project_Overview/index.de.md)<br>
 [Projekte - Cockpit >](Project_Cockpit.de.md)
 
 [Zum Seitenanfang ^](#files)

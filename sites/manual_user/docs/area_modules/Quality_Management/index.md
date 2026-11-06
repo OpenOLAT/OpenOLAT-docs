@@ -18,7 +18,7 @@ Depending on the configuration, the results of the report may or may not be visi
 
 The report is part of the course element and therefore only summarizes the answers of the members of the respective course. The reports are therefore only available on a course-by-course basis.
 
-![One form in two courses with the course element Survey, a separate report per course, survey period equals course duration](assets/quality_management_case1_v1_de.png){ class="lightbox" title="Individual survey with one form in several courses" }
+![One form in two courses with the course element Survey, a separate report per course, survey period equals course duration](../assets/quality_management_case1_v1_de.png){ class="lightbox" title="Individual survey with one form in several courses" }
 
 ## Case 2: Ad hoc data collection (multiple surveys in several courses or course-independent)
 
@@ -32,7 +32,7 @@ The participants, survey topic and data collection period are then defined at th
 
 A cross-course report is then available in the "Quality management" module.
 
-![A data collection in the Quality management module links one form to courses, coaches and curricula and delivers a report for the survey period](assets/quality_management_case2_v1_de.png){ class="lightbox" title="Ad hoc data collection in the Quality management module" }
+![A data collection in the Quality management module links one form to courses, coaches and curricula and delivers a report for the survey period](../assets/quality_management_case2_v1_de.png){ class="lightbox" title="Ad hoc data collection in the Quality management module" }
 
 ## Case 3: Automated data collection (in several courses/curricula or independent of courses)
 
@@ -41,7 +41,7 @@ These rules are described and set up in so-called **data collection generators**
 
 The cross-course report is then based on several data collections.
 
-![A generator periodically creates data collections with one report each, the analysis combines all reports of one form](assets/quality_management_case3_v1_de.png){ class="lightbox" title="Automated data collection with a generator" }
+![A generator periodically creates data collections with one report each, the analysis combines all reports of one form](../assets/quality_management_case3_v1_de.png){ class="lightbox" title="Automated data collection with a generator" }
 
 ## The module "Quality management"
 
@@ -53,7 +53,7 @@ The results can be released for definable recipients.
 
 Quality managers can find the "Quality management" option in the main navigation.
 
-![Entry Quality management in the More menu of the main navigation highlighted, below it the start page of the quality management with its seven sections from My surveys to Analysis](assets/quality_management_access_v1_de.png){ class="shadow lightbox" title="Start page of the quality management" }
+![Entry Quality management in the More menu of the main navigation highlighted, below it the start page of the quality management with its seven sections from My surveys to Analysis](../assets/quality_management_access_v1_de.png){ class="shadow lightbox" title="Start page of the quality management" }
 
 ## The role "Quality manager"
 

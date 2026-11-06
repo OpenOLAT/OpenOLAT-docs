@@ -10,7 +10,7 @@ The overview shows, for example:
 
 ![The Course Planner dashboard with search, the access buttons in three areas and the Implementations and To-do widgets with their key figures](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Dashboard of the Course Planner" }
 
-Course planners and administrators also see the more menu (⋮) at the top right with the entry "Import". It starts the [import wizard](Course_Planner_Import_Export.md#import_wizard), which reads products, implementations, users and memberships from an Excel file.
+Course planners and administrators also see the more menu (⋮) at the top right with the entry "Import". It starts the [import wizard](Course_Planner_Import_Export/index.md#import_wizard), which reads products, implementations, users and memberships from an Excel file.
 
 Use the search field to find implementations, courses and events.<br>
 As with other searches, you narrow down the search result with filters.
@@ -47,7 +47,7 @@ Displayed are events from products for which you are administrator, absence mana
 
 !!! info "Important"
 
-    The widget with the same name "Events" in Coaching shows different events: there you only see events in which you are entered as a lecturer yourself, and no events from products. See [Coaching - Overview](Coaching.md#widget_events).
+    The widget with the same name "Events" in Coaching shows different events: there you only see events in which you are entered as a lecturer yourself, and no events from products. See [Coaching - Overview](Coaching/index.md#widget_events).
 
 ### Week bar and event list {: #widget_events_week}
 
@@ -98,16 +98,16 @@ The button "Edit overview" is below the widgets. Use it to rearrange the tiles, 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export/index.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
 **Further reading**<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Course Planner: Products >](../area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
-[Course Planner: Reports >](../area_modules/Course_Planner_Reports.md)
+[Course Planner: Reports >](../area_modules/Course_Planner_Reports/index.md)
 
 [To the top of the page ^](#dashboard)

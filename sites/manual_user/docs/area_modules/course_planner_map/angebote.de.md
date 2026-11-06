@@ -23,8 +23,8 @@ Das Angebot platziert die Durchführung im Katalog, ermöglicht damit die Buchun
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
-[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
 [Katalog 2.0 - Angebote >](../catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Reports: Buchungsaufträge >](../Reports_BookingOrders.de.md)<br>

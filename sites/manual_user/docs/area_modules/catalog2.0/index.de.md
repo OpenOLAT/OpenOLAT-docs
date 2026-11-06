@@ -19,9 +19,9 @@ Der Katalog kann sowohl registrierten wie auch nicht registrierten Personen zug�
 
 Die **registrierten OpenOlat-Benutzer:innen** finden den Katalog in der **Hauptnavigation**.
 
-![Bereich Katalog in der Hauptnavigation markiert, darunter der Katalog-Header mit dem Suchfeld, Ansicht für angemeldete Benutzer:innen](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
+![Bereich Katalog in der Hauptnavigation markiert, darunter der Katalog-Header mit dem Suchfeld, Ansicht für angemeldete Benutzer:innen](../assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" title="Katalog für angemeldete Benutzer:innen" }
 
-Voraussetzung: Der Katalog muss in der System-Administration aktiviert sein: `Administration > Module > Katalog > Tab "Einstellungen"`. Die Einrichtung beschreibt das [Administrationshandbuch](../../manual_admin/administration/Modules_Catalog_2.0.de.md).
+Voraussetzung: Der Katalog muss in der System-Administration aktiviert sein: `Administration > Module > Katalog > Tab "Einstellungen"`. Die Einrichtung beschreibt das [Administrationshandbuch](../../../manual_admin/administration/Modules_Catalog_2.0.de.md).
 
 !!! tip "Tipp"
 
@@ -29,9 +29,9 @@ Voraussetzung: Der Katalog muss in der System-Administration aktiviert sein: `Ad
 
 **Nicht registrierte Personen** können auf eine von aussen zugängliche, gespiegelte Version des Katalogs zugreifen, sofern dieser sogenannte Web-Katalog aktiviert ist. Der Zugriff ist direkt vom Login-Screen aus möglich. Der Link zum Web-Katalog kann aber auch an anderer Stelle in eine Website eingebaut sein. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002)
 
-![Abschnitt Katalog mit dem Button Entdecken Sie unsere Angebote unterhalb des Gastzugangs, Login-Seite von OpenOlat](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
+![Abschnitt Katalog mit dem Button Entdecken Sie unsere Angebote unterhalb des Gastzugangs, Login-Seite von OpenOlat](../assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" title="Login-Seite von OpenOlat" }
 
-[Weitere Informationen zum externen Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
+[Weitere Informationen zum externen Katalog >](../../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Zum Seitenanfang ^](#catalog_overview)
 
 ---
@@ -44,9 +44,9 @@ Der Katalog 2.0 enthält die folgenden Bestandteile:
 - Suchfeld (innerhalb Header)
 - Filter für eine gezielte Suche z.B. nach Durchführungsformat, Typ der Lernressource, usw.
 - Launcher: Abschnitte im Katalog, in denen Katalogeinträge nach bestimmten Kriterien zusammengestellt werden z.B. zuletzt veröffentlichte Kurse (je nach Launchertyp und Launcherkonfiguration)
-- Kacheln/Karten mit Beschreibung eines Kurses oder einer Lernressource (entspricht der [Infoseite](../learningresources/Info_page.de.md))
+- Kacheln/Karten mit Beschreibung eines Kurses oder einer Lernressource (entspricht der [Infoseite](../../learningresources/Info_page.de.md))
 
-![Header mit Suchfeld, der Launcher Beliebte Kurse und eine Kachel als beschriftete Bestandteile hervorgehoben, Startseite des Katalogs](assets/catalog20_bestandteile_v1_de.png){ class="shadow lightbox" }
+![Header mit Suchfeld, der Launcher Beliebte Kurse und eine Kachel als beschriftete Bestandteile hervorgehoben, Startseite des Katalogs](../assets/catalog20_bestandteile_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
 
 [Zum Seitenanfang ^](#catalog_overview)
 
@@ -57,7 +57,7 @@ Der Katalog 2.0 enthält die folgenden Bestandteile:
 **Seite/Ansicht 1:**<br>
 Wird in der Hauptnavigation der Katalog (2.0) aufgerufen, dann gelangt man zunächst auf die Startseite (Landing page) mit den Launchern.
 
-![Bereich Katalog markiert, Startseite mit Begrüssungstext und den Launchern Kategorien, Beliebte Kurse und Zuletzt veröffentlichte Ressourcen](assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" }
+![Bereich Katalog markiert, Startseite mit Begrüssungstext und den Launchern Kategorien, Beliebte Kurse und Zuletzt veröffentlichte Ressourcen](../assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
 
 Im Suchfeld kann direkt nach bestimmten Lernressourcen gesucht werden. Indexiert sind dafür der Titel, der Teaser-Text und die Taxonomie. Sie können aber auch die angezeigten Kacheln/Karten anklicken, die in den Launchern gruppiert sind.
 
@@ -66,14 +66,14 @@ Bei Klick auf eine Karte/Kachel in einem Launcher vom Typ "Taxonomielevel" (Kate
 
 In einem Launcher vom Typ "Taxonomielevel" werden also keine Kurse und Lernressourcen direkt angezeigt, sondern Unterordner (Taxonomielevel), in denen dann die Kurse und Lernressourcen enthalten sind.
 
-![Launcher Kategorien mit neun Kacheln, die Kachel OpenOlat Akademie markiert, Startseite des Katalogs](assets/catalog20_categorielauncher_v1_de.png){ class="shadow lightbox" }
+![Launcher Kategorien mit neun Kacheln, die Kachel OpenOlat Akademie markiert, Startseite des Katalogs](../assets/catalog20_categorielauncher_v1_de.png){ class="shadow lightbox" title="Launcher Kategorien auf der Startseite des Katalogs" }
 
 Erfolgt der Klick auf eine Karte/Kachel in einem anderen Launcher (nicht vom Typ Taxonomie-Launcher) oder in einer Microsite öffnet sich die Infoseite oder sofort der Kurs.
 
 **Seite/Ansicht 3:**<br>
-Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](../learningresources/Info_page.de.md) anzeigen lassen oder den Kurs bzw. die Lernressource gleich starten.
+Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](../../learningresources/Info_page.de.md) anzeigen lassen oder den Kurs bzw. die Lernressource gleich starten.
 
-![Liste der Kurse einer Kategorie mit dem Filter Taxonomieunterebenen und den Buttons Infoseite und starten je Eintrag, Microsite OpenOlat Akademie im Katalog](assets/catalog20_microsite_v1_de.png){ class="shadow lightbox" }
+![Liste der Kurse einer Kategorie mit dem Filter Taxonomieunterebenen und den Buttons Infoseite und starten je Eintrag, Microsite OpenOlat Akademie im Katalog](../assets/catalog20_microsite_v1_de.png){ class="shadow lightbox" title="Microsite einer Kategorie im Katalog" }
 
 !!! note "Hinweis"
 
@@ -91,9 +91,9 @@ Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](
 
 ## Weiterführende Informationen {: #further_information}
 
-[Angebote erstellen >](../area_modules/catalog2.0_angebote.de.md)<br>
-[Katalog-Design >](../area_modules/catalog2.0_design.de.md)<br>
-[Der Web-Katalog >](../area_modules/catalog2.0_web.de.md)<br>
-[Katalog einrichten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)
+[Angebote erstellen >](../../area_modules/catalog2.0_angebote.de.md)<br>
+[Katalog-Design >](../../area_modules/catalog2.0_design.de.md)<br>
+[Der Web-Katalog >](../../area_modules/catalog2.0_web.de.md)<br>
+[Katalog einrichten (Administrationshandbuch) >](../../../manual_admin/administration/Modules_Catalog_2.0.de.md)
 
 [Zum Seitenanfang ^](#catalog_overview)

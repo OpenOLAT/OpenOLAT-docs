@@ -39,7 +39,7 @@ Das Modul, das Lernressourcen und Durchführungen mit einem Angebot zum Buchen a
 
     **Wie Nutzende es nennen:** Kursangebot, Angebotsübersicht, Kurskatalog, Programm, Kursverzeichnis, Marktplatz, Kursportal, Angebotsverzeichnis, Kursdatenbank, Kurspool, Angebotskatalog, Buchbarer Kurskatalog, Bildungskatalog
 
-    [Im Handbuch lesen](../../manual_user/area_modules/catalog2.0.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Katalog%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/area_modules/catalog2.0/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Katalog%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -77,7 +77,7 @@ Das Modul, das die Planung des Bildungsangebots in OpenOlat einschaltet: Produkt
 
     **Wie Nutzende es nennen:** Kursplanung, Curriculumverwaltung, Kursplaner, Kursverwaltungssystem, Bildungsplanverwaltung, Kursverwaltung, Kursmanagement, Bildungsplanung, Curriculum-Verwaltung
 
-    **Nicht verwechseln mit «[Course Planner](../../manual_user/area_modules/Course_Planner.de.md)»:** Das Modul ist der Schalter in der Administration, der Bereich ist der Eintrag Course Planner in der Hauptnavigation, den das Modul freischaltet.
+    **Nicht verwechseln mit «[Course Planner](../../manual_user/area_modules/Course_Planner/index.de.md)»:** Das Modul ist der Schalter in der Administration, der Bereich ist der Eintrag Course Planner in der Hauptnavigation, den das Modul freischaltet.
 
     [Im Handbuch lesen](../administration/Modules_Course_Planner.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Course%20Planner%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
@@ -107,24 +107,24 @@ Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit
 
 Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
-- **Katalog:** [Launcher](../administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../../manual_user/area_modules/catalog2.0_web.de.md). Mehr dazu auf der Seite [Katalog 2.0: Übersicht](../../manual_user/area_modules/catalog2.0.de.md).
+- **Katalog:** [Launcher](../administration/Modules_Catalog_2.0.de.md), [Web-Katalog](../../manual_user/area_modules/catalog2.0_web.de.md). Mehr dazu auf der Seite [Katalog 2.0: Übersicht](../../manual_user/area_modules/catalog2.0/index.de.md).
 - **Räume:** [Gebäude](../administration/Modules_Rooms.de.md), [Raumplanung](../../manual_user/area_modules/Course_Planner_Rooms.de.md).
-- **Course Planner:** [Produkt](../../manual_user/area_modules/Course_Planner_Products.de.md), [Elementtyp](../administration/Modules_Course_Planner.de.md), [Kurstemplate](../../manual_user/area_modules/Course_Planner_Implementations.de.md), [Reports](../../manual_user/area_modules/Course_Planner_Reports.de.md). Mehr dazu auf der Seite [Modul Course Planner](../administration/Modules_Course_Planner.de.md).
+- **Course Planner:** [Produkt](../../manual_user/area_modules/Course_Planner_Products.de.md), [Elementtyp](../administration/Modules_Course_Planner.de.md), [Kurstemplate](../../manual_user/area_modules/Course_Planner_Implementations.de.md), [Reports](../../manual_user/area_modules/Course_Planner_Reports/index.de.md). Mehr dazu auf der Seite [Modul Course Planner](../administration/Modules_Course_Planner.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0/index.de.md)<br>
 [Course Planner: Raumverwaltung >](../../manual_user/area_modules/Course_Planner_Rooms.de.md)<br>
 [Modul Räume >](../administration/Modules_Rooms.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Modul Course Planner >](../administration/Modules_Course_Planner.de.md)<br>
 [Module: Übersicht >](../administration/Modules.de.md)<br>
 [Modul Katalog >](../administration/Modules_Catalog_2.0.de.md)<br>
 [Extern verfügbarer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.de.md)
 
 **Weiterführend**<br>
 [Modul Lernressource >](../administration/Modules_Learning_Resource.de.md)<br>

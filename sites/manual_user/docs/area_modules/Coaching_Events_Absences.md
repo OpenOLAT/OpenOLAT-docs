@@ -20,7 +20,7 @@ If you are a teacher of events and at the same time master coach of an implement
 * **As coach** shows the events where you are entered as teacher.
 * **As master coach** shows the events and absences of your classes, that is, of the implementations where you are master coach.
 
-If you have only one of the two roles, the buttons are missing and you see the events of this role directly. Who is master coach is set in the [Course Planner](../../manual_user/area_modules/Course_Planner.md) for each implementation separately. This requires the Course Planner module to be switched on.
+If you have only one of the two roles, the buttons are missing and you see the events of this role directly. Who is master coach is set in the [Course Planner](../../manual_user/area_modules/Course_Planner/index.md) for each implementation separately. This requires the Course Planner module to be switched on.
 
 [To the top of the page ^](#events)
 
@@ -154,7 +154,7 @@ With the link "Search by participants" you return to the person search. In the r
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Coaching - People >](../../manual_user/area_modules/Coaching_People.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)
 
 **Further reading**<br>
@@ -163,7 +163,7 @@ With the link "Search by participants" you return to the person search. In the r
 [Coaching - Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching - Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching - Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
+[Coaching - Reports >](../../manual_user/area_modules/Coaching_Reports/index.md)<br>
 [Coaching - Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching - Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)<br>

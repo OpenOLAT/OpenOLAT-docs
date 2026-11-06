@@ -121,6 +121,6 @@ A course cannot be embedded in another course. If the Course Planner is enabled,
 
 **Further reading**<br>
 [Detailed View of Learning Resources >](../learningresources/Detailed_View_of_Learning_Resources.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)
+[Authoring - Overview >](../area_modules/Authoring/index.md)
 
 [To the top of the page ^](#General_Functions_Concept)

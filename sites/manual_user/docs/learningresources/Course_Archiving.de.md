@@ -127,7 +127,7 @@ Kursresultate beinhalten die zusammengefasste Gesamtauswertung eines Kurses, _ni
 
 ### Mitgliedschaften [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9787)" }](https://track.frentix.com/issue/OO-9787) {: #memberships}
 
-Wer Resultat-Exporte eines Kurses ausserhalb von OpenOlat auswertet oder den Einsatz der Betreuer:innen abrechnet, braucht die Übersicht, wer in welcher Gruppe welche Rolle hat. Die Excel-Datei "Mitgliedschaften" liefert diese Übersicht für den ganzen Kurs in einer Datei: alle Teilnehmer:innen, Betreuer:innen und Besitzer:innen mit ihrer Rolle im Kurs, in jeder Gruppe des Kurses und in jedem Element des [Course Planner](../area_modules/Course_Planner.de.md), mit dem der Kurs verknüpft ist. Sie lässt sich direkt filtern und mit anderen Exporten zusammenführen.
+Wer Resultat-Exporte eines Kurses ausserhalb von OpenOlat auswertet oder den Einsatz der Betreuer:innen abrechnet, braucht die Übersicht, wer in welcher Gruppe welche Rolle hat. Die Excel-Datei "Mitgliedschaften" liefert diese Übersicht für den ganzen Kurs in einer Datei: alle Teilnehmer:innen, Betreuer:innen und Besitzer:innen mit ihrer Rolle im Kurs, in jeder Gruppe des Kurses und in jedem Element des [Course Planner](../area_modules/Course_Planner/index.de.md), mit dem der Kurs verknüpft ist. Sie lässt sich direkt filtern und mit anderen Exporten zusammenführen.
 
 Sie laden die Datei direkt herunter, mit dem Button "Start" unter:<br>
 `Kurs > Administration > Archivierung & Reports > Reports > Mitgliedschaften`
@@ -244,7 +244,7 @@ Hier kann der Chatverlauf als xlsx-Datei exportiert und auch gelöscht werden.
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Kursbaustein "Checkliste" >](../learningresources/Course_Element_Checklist.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Customizing: Übersicht >](../../manual_admin/administration/Customizing.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
 [Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)<br>

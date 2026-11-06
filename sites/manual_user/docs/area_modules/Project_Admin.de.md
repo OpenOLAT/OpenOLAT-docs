@@ -139,7 +139,7 @@ Gelöschte Projekte können nur noch angesehen, aber nicht mehr bearbeitet werde
 [Projekte - Projektreport >](../area_modules/Project_Report.de.md)
 
 **Weiterführend**<br>
-[Projekte: Überblick >](../area_modules/Project_Overview.de.md)<br>
+[Projekte: Überblick >](../area_modules/Project_Overview/index.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Modul Projekte >](../../manual_admin/administration/Modules_Projects.de.md)
 

@@ -19,7 +19,7 @@ The menu item "Courses" in the Coaching Tool shows the learning resources you ar
 
 !!! tip "This is where you find your embedded resources and your templates"
 
-    The scope "Other resources" is intended for people without author rights. You see it if you have neither the role Author nor Learning resource manager nor Administrator. With one of these roles, you manage the same resources in [Authoring](Authoring.md); the scope is then not offered to you. For all other owners, it is the only way to a learning resource that is embedded in someone else's course.
+    The scope "Other resources" is intended for people without author rights. You see it if you have neither the role Author nor Learning resource manager nor Administrator. With one of these roles, you manage the same resources in [Authoring](Authoring/index.md); the scope is then not offered to you. For all other owners, it is the only way to a learning resource that is embedded in someone else's course.
 
 
 [To the top of the page ^](#courses)
@@ -128,7 +128,7 @@ In the scope "Other resources", the list shows no participant, progress and cert
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Authoring - Overview >](Authoring.md)<br>
+[Authoring - Overview >](Authoring/index.md)<br>
 [Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
 [Course Settings - Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
@@ -142,7 +142,7 @@ In the scope "Other resources", the list shows no participant, progress and cert
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)

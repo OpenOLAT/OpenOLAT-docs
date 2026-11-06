@@ -205,7 +205,7 @@ Course owners overwrite the setting for their course under:<br>
 [Customizing: Overview >](Customizing.md)
 
 **Further reading**<br>
-[Coaching - Overview >](../../manual_user/area_modules/Coaching.md)<br>
+[Coaching - Overview >](../../manual_user/area_modules/Coaching/index.md)<br>
 [Course Settings - Tab Options >](../../manual_user/learningresources/Course_Settings_Options.md)
 
 [To the top of the page ^](#learning_resource)

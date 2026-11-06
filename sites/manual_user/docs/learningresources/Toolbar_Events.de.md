@@ -164,7 +164,7 @@ Hier arbeiten Sie mit den Terminen selbst: Sie legen Termine an und erfassen Abs
 [Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
 [Termine und Absenzen (Basiskonzept) >](../basic_concepts/Events_and_Absences.de.md)<br>
 [Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)
 
 [Zum Seitenanfang ^](#toolbar_events)
 

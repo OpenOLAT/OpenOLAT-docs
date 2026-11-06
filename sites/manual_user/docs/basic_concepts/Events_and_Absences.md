@@ -5,7 +5,7 @@
 There are basically two types of events in OpenOlat:
 
 - Basic events (entries in calendars)
-- Events with additional options: They appear in [Courses](../learningresources/Events_and_absences.md), in the [Course Planner](../area_modules/Course_Planner.md), and in [Absence Management](../area_modules/Absence_Management.md).
+- Events with additional options: They appear in [Courses](../learningresources/Events_and_absences.md), in the [Course Planner](../area_modules/Course_Planner/index.md), and in [Absence Management](../area_modules/Absence_Management.md).
 These events can be linked to online meetings, and it is possible to record absences. Teachers can also be booked for these events. (Note: Only coaches can be made teachers.)<br>
 Events with additional options can have the status "Scheduled", "Running", "Done" or "Cancelled".<br>
 If you do not have the necessary permissions, your view of events may be restricted. 
@@ -167,7 +167,7 @@ A distinction must be made between
 6. the **cross-course absence recording** by coaches<br>
     Coaches find the option to record absences in various courses under:<br>
     `Coaching > Events / Absences`<br>
-    [More about that >](../area_modules/Coaching.md)
+    [More about that >](../area_modules/Coaching/index.md)
 
 
 7. the **cross-course absence management** by authorised persons with the role absence manager.<br>
@@ -184,7 +184,7 @@ A distinction must be made between
 
 **Mentioned on this page**<br>
 [Events and absences >](../learningresources/Events_and_absences.md)<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)<br>
 [Course Element "Appointment scheduling" >](../learningresources/Course_Element_Appointment_Scheduling.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
@@ -197,7 +197,7 @@ A distinction must be made between
 [User tools: Absences >](../personal_menu/Absences.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)
+[Coaching - Overview >](../area_modules/Coaching/index.md)
 
 **Further reading**<br>
 [Coaching - Events and Absences >](../area_modules/Coaching_Events_Absences.md)<br>

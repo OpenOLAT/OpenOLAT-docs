@@ -33,7 +33,7 @@ Since release 18.0, over 120 new features and improvements have been added to Op
 
 ## Project-Tool
 
-The new "[Projects](../manual_user/area_modules/Project_Overview.md)" module provides a tool to support project work in OpenOlat. The focus of the tool is on documenting a project using documents and files, appointments, task management and a timeline for visualizing decisions and events during the project.
+The new "[Projects](../manual_user/area_modules/Project_Overview/index.md)" module provides a tool to support project work in OpenOlat. The focus of the tool is on documenting a project using documents and files, appointments, task management and a timeline for visualizing decisions and events during the project.
 
 The access restrictions - and therefore the responsibilities in the project - can be controlled by the different roles of the project members.
 

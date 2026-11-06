@@ -1,6 +1,6 @@
 # Course Planner: Import/Export - Reference {: #import_export_reference}
 
-This page lists all error and warning messages as well as the detailed field rules of the [import wizard](Course_Planner_Import_Export.md). It is intended for people preparing larger or more complex imports.
+This page lists all error and warning messages as well as the detailed field rules of the [import wizard](Course_Planner_Import_Export/index.md). It is intended for people preparing larger or more complex imports.
 
 ## Object types and roles {: #enum_reference}
 
@@ -152,6 +152,6 @@ Accounts can only be newly created, not updated.
 
 ## Further information {: #further_information}
 
-[Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export/index.md)<br>
 
 [To the top of the page ^](#import_export_reference)

@@ -9,7 +9,7 @@ In the e-Assessment menu of the system administration, system administrators set
 
 Under "Coaching", system administrators see that coaching is switched on for the instance. The checkbox "Coaching enabled" is greyed out, because coaches and owners reach their learning resources through coaching. [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
-[See the details >](../../manual_user/area_modules/Coaching.md#availability)<br>
+[See the details >](../../manual_user/area_modules/Coaching/index.md#availability)<br>
 [To the top of the page ^](#e-assessments)
 
 

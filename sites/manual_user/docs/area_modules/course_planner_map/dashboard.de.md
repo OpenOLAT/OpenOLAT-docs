@@ -23,8 +23,8 @@ Die Widgets (Durchführungen, Termine, Teilnehmer:innen, To-dos) bündeln Kennza
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
-[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
 [Course Planner: Dashboard >](../Course_Planner_Dashboard.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.de.md)

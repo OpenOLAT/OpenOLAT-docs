@@ -12,7 +12,7 @@ Systemadministrator:innen schalten das Modul "Zeitabschnitte" ein und legen dort
 
 Die Spalte "#Verwendungen" zeigt, wie viele Lernressourcen den Zeitabschnitt nutzen. Über die Tabs "Alle", "Relevante", "Standard" und "Vergangene" schränken Sie die Liste ein.
 
-Die Zeitabschnitte erscheinen in den Kurslisten als Spalte "Zeitabschnitt" und lassen sich dort sortieren, zum Beispiel im [Autorenbereich](../../manual_user/area_modules/Authoring.de.md):
+Die Zeitabschnitte erscheinen in den Kurslisten als Spalte "Zeitabschnitt" und lassen sich dort sortieren, zum Beispiel im [Autorenbereich](../../manual_user/area_modules/Authoring/index.de.md):
 
 ![Spalte Zeitabschnitt aufsteigend sortiert, der Sortier-Button trägt dasselbe Kriterium, daneben die Spalten Beginn und Ende](assets/Modules_Time_Period_authoring_filter_v1_de.png){ class="shadow lightbox" title="Tab Suche im Autorenbereich" }
 
@@ -64,7 +64,7 @@ Als Standard für Kurse festlegen | Der Zeitabschnitt ist beim Erstellen einer L
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring/index.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
 [Kurse finden >](../../manual_user/area_modules/Courses.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](../../manual_user/area_modules/catalog2.0_sort_offers.de.md)

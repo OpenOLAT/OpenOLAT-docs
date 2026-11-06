@@ -58,7 +58,7 @@ Topics of the topic broker | `Course > Administration > Course editor > Course e
 Files of the topics | as for topics of the topic broker<br>Section "Files", next to "Template" the link "files_import_template.zip" | created by OpenOlat for your instance | files_import_template.zip | [Import topics](../learningresources/Course_Element_Topic_Broker.md#topic_broker_import_topics)
 Questions (QTI 2.1 Excel import) | `Question bank > My question bank > My questions > Import > QTI 2.1 Excel import via copy&paste`<br>or `Test > Administration > Test editor > Add elements > Import questions from Excel`<br>Step "Data input", link "Template excel import"<br>In the question bank for authors, question bank managers and administrators | delivered with OpenOlat | ImportExample.xlsx | [Usage of the file "Excel Import Template"](../area_modules/Question_Bank_Import_Questions.md#excelimport)
 Events | `Course > Administration > Events and Absences > Tab Events > Arrow next to "Add event" > Import events`<br>or `Course Planner > Implementations > "your implementation" > Tab Events > Arrow next to "Add event" > Import events`<br>Step "Data input", link "Template excel import"<br>In the course for course owners, in the Course Planner among others for course planners | delivered with OpenOlat | ImportLectureBlockExample.xlsx | [Import events](../learningresources/Events_and_absences.md#import_events)<br>[How do I create new events?](../area_modules/Course_Planner_Events.md#create_events)
-Products, implementations and memberships in the Course Planner | `Course Planner > More-menu (⋮) > Import`<br>Step "Select file", under "Import example" the link "Excel template"<br>For course planners and administrators | delivered with OpenOlat | ProductsExample.xlsx | [Step 1: Select file](../area_modules/Course_Planner_Import_Export.md#step1)
+Products, implementations and memberships in the Course Planner | `Course Planner > More-menu (⋮) > Import`<br>Step "Select file", under "Import example" the link "Excel template"<br>For course planners and administrators | delivered with OpenOlat | ProductsExample.xlsx | [Step 1: Select file](../area_modules/Course_Planner_Import_Export/index.md#step1)
 
 [To the top of the page ^](#import_templates)
 
@@ -73,7 +73,7 @@ Products, implementations and memberships in the Course Planner | `Course Planne
 [Question Bank: Import Questions >](../area_modules/Question_Bank_Import_Questions.md)<br>
 [Events and absences >](../learningresources/Events_and_absences.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
-[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export/index.md)
 
 **Further reading**<br>
 [Course Planner: Import/Export - Reference >](../area_modules/Course_Planner_Import_Export_Reference.md)<br>

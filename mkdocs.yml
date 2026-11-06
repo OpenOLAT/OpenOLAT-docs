@@ -121,14 +121,14 @@ plugins:
           About this manual: Über dieses Handbuch
           About us: Über uns
           Absences : Absenzen
-          Absence Management : Absenzenverwaltung
+          Absence management : Absenzenverwaltung
           Access configuration : Zugangskonfiguration
           Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
           Accessibility : Barrierefreiheit
           Access, Roles and Rights : Zugriff, Rollen und Rechte
           Account : Konto
           Achievements/Successes : Erfolge/Leistungen
-          Actions (To-dos) : Massnahmen (To-dos)
+          Action to-dos : Massnahmen To-dos
           Actions in the Authoring section : Aktionen im Autorenbereich
           Additional Course Features : Zusätzliche Kursfunktionen
           Adjust OpenOlat : OpenOlat anpassen
@@ -185,7 +185,6 @@ plugins:
           Blog : Blog
           Blogging : Bloggen
           Bookings : Buchungen
-          Booking order reports : Buchungsauftrags-Reports
           Booking orders : Buchungsaufträge
           Bulk actions : Sammelaktionen
           Bulk assessment : Massenbewertung
@@ -194,7 +193,6 @@ plugins:
           Catalog : Katalog
           Catalog 1.0: Katalog 1.0
           Catalog 2.0 : Katalog 2.0
-          Certificate reports : Zertifikats-Reports
           Certificates : Zertifikate
           Certification programs : Zertifikatsprogramme       
           Chat : Chat
@@ -285,7 +283,7 @@ plugins:
           Customizing : Customizing
           Dashboard : Dashboard
           Data archiving : Datenarchivierung
-          Data collection : Datenerhebung
+          Data collections : Datenerhebungen
           Data collection generators : Datenerhebungsgeneratoren
           Data collection previews : Datenerhebungsvorschau
           Data Management : Handhabung der Daten
@@ -317,6 +315,7 @@ plugins:
           Evaluate and manage : Auswerten und verwalten
           Events : Termine
           Events and absences : Termine und Absenzen
+          Events / Absences : Termine / Absenzen
           Events, teachers and rooms : Termine, Dozent:innen und Räume
           Evidence of Achievements: Leistungsnachweise
           Exams : Prüfungen
@@ -333,7 +332,7 @@ plugins:
           File Hub: File Hub
           Files and Folders : Dateien und Ordner
           Finding courses : Kurse finden
-          Finishing an implementation : Durchführung beenden
+          Finish : Beenden
           Folder: Ordner
           Folder concept: Ordnerkonzept
           Form : Formular
@@ -361,7 +360,7 @@ plugins:
           Glossary alphabetical : Glossar alphabetisch
           GoToMeeting : GoToMeeting
           Grading / Evaluation Scale : Noten / Bewertungskala
-          Group Management : Gruppenverwaltung
+          Group management : Gruppenverwaltung
           Group Scenarios : Gruppenszenarien
           Groups : Gruppen
           Grouptask : Gruppenaufgabe
@@ -411,7 +410,6 @@ plugins:
           Information on learning progress : Informationen zum Lernfortschritt
           Information on OpenOlat : Informationen zu OpenOlat
           Instant Messaging : Instant Messaging
-          Introduction : Einführung
           Introduction for authors : Einführung für Autor:innen
           Introduction for administrators : Einführung für Administrator:innen
           Invoice : Rechnung
@@ -529,7 +527,7 @@ plugins:
           Personal menu : Persönliches Menü
           Personal menu and general components: Persönliches Menü und allgemeine Funktionen
           Planning :  Planung
-          Planning an implementation : Durchführung planen
+          Plan : Planen
           Planning tasks (to-dos) : Planungsaufgaben (To-dos)
           Platform-wide features : Übergreifende Funktionen
           Podcast : Podcast
@@ -547,16 +545,13 @@ plugins:
           Product owner : Produktbesitzer:in
           Products : Produkte
           Import / Export : Import / Export
-          Import / Export reference : Import / Export - Referenz
+          Reference : Referenz
           Profile : Profil
           Profile COVID certificate : Profil COVID Zertifikat
-          Project member management : Projektmitgliederverwaltung 
           Project report : Projektreport
           Projects : Projekte
-          Quality Management : Qualitätsmanagement
+          Quality management : Qualitätsmanagement
           Question bank : Fragenpool
-          Question Bank : Fragenpool
-          Question Bank Administration : Fragenpool-Administration
           Question rules : Frageregeln
           Questions : Fragen
           Record of Course Activities : Aufzeichnung der Kursaktivitäten
@@ -578,7 +573,7 @@ plugins:
           Roles : Rollen
           Roles and Rights : Rollen und Rechte
           Role user to user : Rolle Person zu Person
-          Rooms : Raumverwaltung
+          Room management : Raumverwaltung
           Rubric : Rubrik
           Save as template : Als Template speichern
           Schedule : Terminplan 
@@ -602,12 +597,12 @@ plugins:
           SharePoint / OneDrive : SharePoint / OneDrive
           Sharing Options : Freigabemöglichkeiten
           Single Page : Einzelne Seite
-          Sort offers : Angebote sortieren 
+          Sorting/order : Sortierung/Reihenfolge
           Start: Start
           Start screen : Startscreen
           Structure: Struktur
           Storage folder : Ablageordner
-          Structuring a program (elements) : Lehrgang gliedern (Elemente)
+          Structuring a program : Lehrgang gliedern
           Subscriptions : Abonnements
           Suggestion for improvement : Verbesserungsvorschlag
           Supervise : Betreuen

@@ -238,7 +238,7 @@ Launcher und Filter des Katalogs richten Systemadministrator:innen in der System
 [Modul Media Center >](../../manual_admin/administration/Modules_Media_Center.de.md)
 
 **Weiterführend**<br>
-[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Katalog 2.0 - Verwaltung >](../area_modules/catalog2.0_mgmt.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>

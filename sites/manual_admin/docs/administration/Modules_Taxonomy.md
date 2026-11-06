@@ -129,7 +129,7 @@ OpenOlat distinguishes four competences:
 
 ### Export taxonomy [:octicons-tag-16:{ title="from Release 17.2.0 (OO-6417)" }](https://track.frentix.com/issue/OO-6417){:target="_blank"} {: #export}
 
-With the export you back up a taxonomy or edit many taxonomy levels in Excel. In the tab "Levels", open the three-dot menu and select "Export taxonomy levels". OpenOlat downloads a ZIP archive. It contains an Excel table with the hierarchical structure of the taxonomy levels and the folder "media". In it, each level has a folder with the subfolders "background" and "teaser" and the existing background and teaser images. The [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md) shows the images with the respective taxonomy level.
+With the export you back up a taxonomy or edit many taxonomy levels in Excel. In the tab "Levels", open the three-dot menu and select "Export taxonomy levels". OpenOlat downloads a ZIP archive. It contains an Excel table with the hierarchical structure of the taxonomy levels and the folder "media". In it, each level has a folder with the subfolders "background" and "teaser" and the existing background and teaser images. The [Catalog 2.0](../../manual_user/area_modules/catalog2.0/index.md) shows the images with the respective taxonomy level.
 
 ![Opened three-dot menu with the entries Export taxonomy levels and Import taxonomy levels, on the right above the list of taxonomy levels](assets/Taxonomie_exportieren.png){ class="shadow lightbox" title="Three-dot menu in the Levels tab" }
 
@@ -166,7 +166,7 @@ Here you decide with the checkmark at "Update taxonomies" whether OpenOlat overw
 
 2. Add new levels in the Excel table or change existing ones. Enter the complete path, otherwise OpenOlat marks the row with an error message. A parent level must already exist or be in a row before its sublevel.
 
-    If you have activated several languages in OpenOlat and use the [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md), it is best to maintain title and description in every language. For a further language, copy the columns "Language", "Title" and "Description", append them at the end and enter for each taxonomy level the code of an activated language, such as "EN", with title and description.
+    If you have activated several languages in OpenOlat and use the [Catalog 2.0](../../manual_user/area_modules/catalog2.0/index.md), it is best to maintain title and description in every language. For a further language, copy the columns "Language", "Title" and "Description", append them at the end and enter for each taxonomy level the code of an activated language, such as "EN", with title and description.
 
 3. Select the modified table _without_ the header row, copy it and paste it into the field "Import taxonomy levels". With "Next", OpenOlat checks the cells. Error messages appear directly at the field.
 
@@ -244,7 +244,7 @@ If the field "Subjects" stays empty although the AI has generated title, descrip
 [Module Catalog >](Modules_Catalog_2.0.md)<br>
 [Taxonomy >](../../manual_user/basic_concepts/Taxonomy_Concept.md)<br>
 [Portfolio - General Information >](../../manual_user/area_modules/Portfolio_General_Information.md)<br>
-[Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0.md)<br>
+[Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0/index.md)<br>
 [Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
 [Module Media Center >](Modules_Media_Center.md)<br>

@@ -49,7 +49,7 @@ Alternativ sehen und verwalten Sie die Ergebnisse eines bestimmten Tests auch im
 
 ![Teilnehmende mit Versuchen, Punkten und Status sowie geöffnetem Zeilenmenü mit den Aktionen zur Bewertung](../assets/course_element_test_run_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.11.02" }
 
-Sind für einen Test Korrektor:innen eingetragen, bewerten diese die Testläufe kursübergreifend im [Coaching](../../area_modules/Coaching.de.md) unter "Bewertungsaufträge".
+Sind für einen Test Korrektor:innen eingetragen, bewerten diese die Testläufe kursübergreifend im [Coaching](../../area_modules/Coaching/index.de.md) unter "Bewertungsaufträge".
 
 
 [Zum Seitenanfang ^](#test_results)
@@ -121,7 +121,7 @@ Die Rohdaten von Tests können Sie zudem über die [Teststatistiken](../Statisti
 [Kursbaustein "Test" >](index.de.md)<br>
 [Test einrichten >](Test_Setup.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
-[Coaching - Übersicht >](../../area_modules/Coaching.de.md)<br>
+[Coaching - Übersicht >](../../area_modules/Coaching/index.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../Course_Archiving.de.md)<br>
 [Tests exportieren >](../Test_export.de.md)<br>
 [Teststatistiken >](../Statistics_Test.de.md)

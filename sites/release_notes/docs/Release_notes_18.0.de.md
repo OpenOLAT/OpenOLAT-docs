@@ -33,7 +33,7 @@ Seit Release 18.0 wurden über 120 neue Funktionen und Verbesserungen zu OpenOla
 
 ## Projekt-Tool
 
-Der neue Bereich "[Projekte](../manual_user/area_modules/Project_Overview.de.md)" bietet ein Werkzeug zur Unterstützung von Projektarbeit in OpenOlat. Der Schwerpunkt des Tools liegt auf der Dokumentation eines Projektes mit Hilfe von Dokumenten und Dateien, Terminen, Aufgabenmanagement und einer Timeline zur Visualisierung der Entscheidungen und Ereignisse während der Projektlaufzeit.
+Der neue Bereich "[Projekte](../manual_user/area_modules/Project_Overview/index.de.md)" bietet ein Werkzeug zur Unterstützung von Projektarbeit in OpenOlat. Der Schwerpunkt des Tools liegt auf der Dokumentation eines Projektes mit Hilfe von Dokumenten und Dateien, Terminen, Aufgabenmanagement und einer Timeline zur Visualisierung der Entscheidungen und Ereignisse während der Projektlaufzeit.
 
 Die Zugriffsbeschränkungen - und somit auch die Verantwortlichkeiten im Projekt - können über die verschiedenen Rollen der Projektmitglieder gesteuert werden.
 

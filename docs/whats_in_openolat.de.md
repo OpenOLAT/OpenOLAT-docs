@@ -89,7 +89,7 @@ Was Sie bauen, und was Lernende bearbeiten.
 
     Der Content Editor mit seinen Inhaltselementen und das Media Center, in dem die Medien kursübergreifend liegen.
 
--   __[Course Planner](manual_user/area_modules/Course_Planner.de.md)__
+-   __[Course Planner](manual_user/area_modules/Course_Planner/index.de.md)__
     {: data-oo-cluster="teaching_and_courses" data-oo-domain="curriculum" }
 
     ---
@@ -147,7 +147,7 @@ Wo Menschen zusammenarbeiten, und wer wen betreut.
 
     Gruppen und die Werkzeuge, mit denen darin gearbeitet wird: Forum, Wiki, Chat, Kalender, Projekte und Benachrichtigungen.
 
--   __[Coaching](manual_user/area_modules/Coaching.de.md)__
+-   __[Coaching](manual_user/area_modules/Coaching/index.de.md)__
     {: data-oo-cluster="collaboration_and_people" data-oo-domain="coaching" }
 
     ---
@@ -190,14 +190,14 @@ Der Rahmen, in dem alles andere läuft.
 
     46 Rollen in acht Geltungsbereichen und die Rechte, die eine Administration einer Rolle geben kann.
 
--   __[Katalog, Buchung und Bezahlung](manual_user/area_modules/catalog2.0.de.md)__
+-   __[Katalog, Buchung und Bezahlung](manual_user/area_modules/catalog2.0/index.de.md)__
     {: data-oo-cluster="platform_and_administration" data-oo-domain="catalog" }
 
     ---
 
     Vom Katalogeintrag über das Angebot und die Buchung bis zu Preis, Rechnung und Kreditpunkten.
 
--   __[Qualitätsmanagement und Formulare](manual_user/area_modules/Quality_Management.de.md)__
+-   __[Qualitätsmanagement und Formulare](manual_user/area_modules/Quality_Management/index.de.md)__
     {: data-oo-cluster="platform_and_administration" data-oo-domain="quality" }
 
     ---

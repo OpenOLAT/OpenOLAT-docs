@@ -56,3 +56,15 @@ overrides:
     field: man
     value: manual_user/learningresources/Course_Element_Test/index
     register: 37
+  - key: catalog.catalog
+    field: man
+    value: manual_user/area_modules/catalog2.0/index
+    register: 44
+  - key: platform.area_authoring
+    field: man
+    value: manual_user/area_modules/Authoring/index
+    register: 45
+  - key: platform.area_courseplanner
+    field: man
+    value: manual_user/area_modules/Course_Planner/index
+    register: 46

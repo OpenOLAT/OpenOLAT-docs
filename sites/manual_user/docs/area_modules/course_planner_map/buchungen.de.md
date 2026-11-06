@@ -23,9 +23,9 @@ Buchungsaufträge entstehen aus Katalogbuchungen; der Angebotstyp «Rechnung» l
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
-[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
 [Reports: Buchungsaufträge >](../Reports_BookingOrders.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
 [Katalog 2.0 - Angebote >](../catalog2.0_angebote.de.md)<br>
-[Course Planner: Reports >](../Course_Planner_Reports.de.md)
+[Course Planner: Reports >](../Course_Planner_Reports/index.de.md)

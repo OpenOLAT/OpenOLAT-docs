@@ -51,7 +51,7 @@ An evidence of achievement is a confirmation of a completed assessment and must 
 
 ![Progress, points achieved and the table of assessed course elements, plus the Certificates area](assets/Leistungsnachweis_19.png){ class="shadow lightbox" title="Evidence of achievement of a course" }
 
-If a [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) has been issued for the course, you will also find it under "Evidence of achievement" for download. Course coaches can view the certificates in the [Coaching Tool](../area_modules/Coaching.md).
+If a [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) has been issued for the course, you will also find it under "Evidence of achievement" for download. Course coaches can view the certificates in the [Coaching Tool](../area_modules/Coaching/index.md).
 
 For certificates issued automatically after successful completion of a course, you will receive an automatically generated notification by email.
 
@@ -172,7 +172,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 
 **Mentioned on this page**<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [User tools >](../personal_menu/Personal_Tools.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>

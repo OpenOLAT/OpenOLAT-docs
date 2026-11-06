@@ -336,7 +336,7 @@ Ein Zurücksetzen **einzelner** Formulare ist im Kursbaustein "Umfrage" **nicht*
 [Erinnerungen >](../../manual_user/learningresources/Course_Reminders.de.md)<br>
 [Formulare in Kursen >](../../manual_user/learningresources/Forms_in_Courses.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md)<br>
-[Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring/index.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving.de.md)
 
 

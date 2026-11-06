@@ -59,7 +59,7 @@ The area where learning resources are created, edited, copied and managed.
 
     **German:** Autorenbereich
 
-    [Read in the manual](../area_modules/Authoring.md) · [Ask Sophia](?sophia=What%20is%20%22Authoring%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../area_modules/Authoring/index.md) · [Ask Sophia](?sophia=What%20is%20%22Authoring%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -103,7 +103,7 @@ With frentix: we show it in a training. For a training, contact your organisatio
 
 <p class="oo-mh-kicker">Read up</p>
 
-[Authoring](../area_modules/Authoring.md)
+[Authoring](../area_modules/Authoring/index.md)
 
 </div>
 
@@ -119,7 +119,7 @@ The first course is running. Now the things that did not matter at the start pay
 
 **Mentioned on this page**<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Forms - Overview >](../learningresources/Form.md)<br>

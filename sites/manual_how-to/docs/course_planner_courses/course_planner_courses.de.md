@@ -439,8 +439,8 @@ Mehr zur Automatisierung finden Sie im Benutzerhandbuch unter:<br>
 [Kopieren (eines Kurses) >](../../manual_user/learningresources/Course_Copy.de.md)
 
 **Weiterführend**<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.de.md)
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
 

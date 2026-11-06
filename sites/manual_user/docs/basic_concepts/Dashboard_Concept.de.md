@@ -19,7 +19,7 @@ Jedes Widget lässt sich persönlich ein- und ausblenden und in der Reihenfolge 
 | Course Planner, Startseite | Durchführungen, Termine, To-do | [Course Planner: Dashboard >](../area_modules/Course_Planner_Dashboard.de.md) |
 | Produkt, Tab Übersicht | Durchführungen, Termine, To-do | [Course Planner: Produkte >](../area_modules/Course_Planner_Products.de.md) |
 | Durchführung, Tab Übersicht | Mitglieder, Termine, Kursinhalt, To-do, Katalog | [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md) |
-| Coaching, Übersicht | Kurse - Als Betreuer:in, Termine | [Coaching - Übersicht >](../area_modules/Coaching.de.md) |
+| Coaching, Übersicht | Kurse - Als Betreuer:in, Termine | [Coaching - Übersicht >](../area_modules/Coaching/index.de.md) |
 | Zertifikatsprogramm, Übersicht | Aktive Mitglieder | [Course Planner: Zertifikatsprogramme >](../area_modules/Course_Planner_Certification_Programs.de.md) |
 
 Welche Widgets Sie tatsächlich sehen, hängt von Ihren Rollen und von den aktivierten Modulen ab. Das Widget "Termine" zum Beispiel erscheint nur, wenn das Modul "Termin- und Absenzenverwaltung" systemweit aktiv ist.
@@ -101,7 +101,7 @@ Als Systemadministrator:in legen Sie den Systemstandard im Bearbeitungsmodus üb
 [Course Planner: Dashboard >](../area_modules/Course_Planner_Dashboard.de.md)<br>
 [Course Planner: Produkte >](../area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)
 

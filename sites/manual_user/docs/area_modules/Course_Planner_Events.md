@@ -96,7 +96,7 @@ In the "Events" area of the Course Planner, "Add event" is greyed out because ne
 
 To take over many events at once from an Excel file, use the Events tab of an implementation: click the small arrow next to the "Add event" button and choose "Import events".
 
-If you create an event for a course with "Add event", OpenOlat switches on the Event & absence management in the course if it is still switched off. The event is then also available in the course without anyone having to adjust the course settings. Imported events do not switch it on, neither from "Import events" nor from the [import wizard of the Course Planner](Course_Planner_Import_Export.md#import_wizard). More on this under [Course Settings - Tab Execution](../learningresources/Course_Settings_Execution.md#lecture_enabled). [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
+If you create an event for a course with "Add event", OpenOlat switches on the Event & absence management in the course if it is still switched off. The event is then also available in the course without anyone having to adjust the course settings. Imported events do not switch it on, neither from "Import events" nor from the [import wizard of the Course Planner](Course_Planner_Import_Export/index.md#import_wizard). More on this under [Course Settings - Tab Execution](../learningresources/Course_Settings_Execution.md#lecture_enabled). [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9711)" }](https://track.frentix.com/issue/OO-9711){:target="_blank"}
 
 ![The Add event button with the expanded Import events entry](assets/course_planner_events_create_v2_en.png){ class="shadow lightbox" title="Events tab of an implementation · 2026.10.07" }
 
@@ -170,18 +170,18 @@ Use the download button at the top right above the list to download the events t
 
 **Mentioned on this page**<br>
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.md)<br>
 [Course Settings - Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
 [Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)<br>
 [Events and absences >](../../manual_user/learningresources/Events_and_absences.md)
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.md)<br>
 [How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How do I plan and run a product with several courses with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>

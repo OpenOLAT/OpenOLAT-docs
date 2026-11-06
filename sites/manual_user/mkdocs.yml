@@ -105,37 +105,36 @@ nav:
        
   - Sites and modules:
     - area_modules/index.md
-    - Courses:
-      - Overview: "area_modules/Courses.md"
-      - Catalog 1.0: "area_modules/catalog1.0.md"
+    - Courses: "area_modules/Courses.md"
+    - Groups:
+      - Group management: "area_modules/Group_Management.md"
     - Catalog:
-      - Overview: "area_modules/catalog2.0.md"
+      - "area_modules/catalog2.0/index.md"
       - Offers: "area_modules/catalog2.0_angebote.md"
-      - Sort offers: "area_modules/catalog2.0_sort_offers.md"
+      - Sorting/order: "area_modules/catalog2.0_sort_offers.md"
       - Management: "area_modules/catalog2.0_mgmt.md"
       - Design: "area_modules/catalog2.0_design.md"
       - External catalog: "area_modules/catalog2.0_web.md"
-    - Groups:
-       - Group Management: "area_modules/Group_Management.md"
+      - Catalog 1.0: "area_modules/catalog1.0.md"
+    - Video Collection: "area_modules/Video_Collection.md"
+    - Library: "area_modules/Library.md"
     - Coaching:
-      - Overview: "area_modules/Coaching.md"
+      - "area_modules/Coaching/index.md"
       - User search: "area_modules/Coaching_User_Search.md"
       - People: "area_modules/Coaching_People.md"
       - Courses: "area_modules/Coaching_Courses.md"
       - Educational products: "area_modules/Coaching_Educational_Products.md"
-      - Events and absences: "area_modules/Coaching_Events_Absences.md"
+      - Groups: "area_modules/Coaching_Groups.md"
+      - Events / Absences: "area_modules/Coaching_Events_Absences.md"
       - Assessment orders: "area_modules/Coaching_Assessment_Orders.md"
       - Reports:
-        - Overview: "area_modules/Coaching_Reports.md"
-        - Certificate reports: "area_modules/Reports_Certficates.md"
-      - Groups: "area_modules/Coaching_Groups.md"
+        - "area_modules/Coaching_Reports/index.md"
+        - Certificates: "area_modules/Reports_Certficates.md"
       - Order management: "area_modules/Coaching_Order_Management.md"
     - Authoring:
-       - Overview: "area_modules/Authoring.md"
-       - Create courses and learning resources: "area_modules/authoring_new_course.md"
-       - Bulk actions: "area_modules/Authoring_BulkActions.md"
-    - Video Collection:
-        - Overview: "area_modules/Video_Collection.md" 
+      - "area_modules/Authoring/index.md"
+      - Create courses and learning resources: "area_modules/authoring_new_course.md"
+      - Bulk actions: "area_modules/Authoring_BulkActions.md"
     - Question bank:
       - "area_modules/Question_Bank/index.md"
       - Questions:
@@ -147,20 +146,75 @@ nav:
       - Review Process: "area_modules/Question_Bank_Review_Process.md"
       - Sharing Options: "area_modules/Question_Pool_Sharing_Options.md"
       - Administration: "area_modules/Question_Bank_Administration.md"
+    - Course Planner:
+      - "area_modules/Course_Planner/index.md"
+      - Application map (concept study):
+        - "area_modules/course_planner_map/index.md"
+        - Roles:
+          - Course planner: "area_modules/course_planner_map/rolle_kursplaner.md"
+          - Product owner: "area_modules/course_planner_map/rolle_produktbesitzer.md"
+          - Element owner: "area_modules/course_planner_map/rolle_elementbesitzer.md"
+          - Owner: "area_modules/course_planner_map/rolle_besitzer.md"
+          - Coach: "area_modules/course_planner_map/rolle_betreuer.md"
+          - Master coach: "area_modules/course_planner_map/rolle_klassenlehrer.md"
+          - Participant: "area_modules/course_planner_map/rolle_teilnehmer.md"
+        - Cockpit and widgets: "area_modules/course_planner_map/dashboard.md"
+        - Product: "area_modules/course_planner_map/produkt.md"
+        - Implementation:
+          - Plan: "area_modules/course_planner_map/durchfuehrung.md"
+          - Defining structure rules (element types): "area_modules/course_planner_map/elementtypen.md"
+          - Copying instead of rebuilding: "area_modules/course_planner_map/kopieren.md"
+          - Excel import and export: "area_modules/course_planner_map/import.md"
+          - Reports and evaluations: "area_modules/course_planner_map/reports.md"
+          - Finish: "area_modules/course_planner_map/abschliessen.md"
+        - Element:
+          - Structuring a program: "area_modules/course_planner_map/element.md"
+          - Offering in the catalog: "area_modules/course_planner_map/angebote.md"
+          - Bookings and invoices: "area_modules/course_planner_map/buchungen.md"
+          - Certificates and credit points: "area_modules/course_planner_map/zertifikate.md"
+        - Course:
+          - Embedding courses and course templates: "area_modules/course_planner_map/kurse.md"
+          - Events, teachers and rooms: "area_modules/course_planner_map/termine.md"
+          - Planning tasks (to-dos): "area_modules/course_planner_map/todos.md"
+          - Recording absences: "area_modules/course_planner_map/absenzen.md"
+          - Managing members: "area_modules/course_planner_map/mitglieder.md"
+      - Import / Export:
+        - "area_modules/Course_Planner_Import_Export/index.md"
+        - Reference: "area_modules/Course_Planner_Import_Export_Reference.md"
+      - Products: "area_modules/Course_Planner_Products.md"
+      - Implementations: "area_modules/Course_Planner_Implementations.md"
+      - Events: "area_modules/Course_Planner_Events.md"
+      - To-dos: "area_modules/Course_Planner_Todos.md"
+      - Reports:
+        - "area_modules/Course_Planner_Reports/index.md"
+        - Booking orders: "area_modules/Reports_BookingOrders.md"
+      - Certification programs: "area_modules/Course_Planner_Certification_Programs.md"
+      - Room management: "area_modules/Course_Planner_Rooms.md"
+      - Dashboard: "area_modules/Course_Planner_Dashboard.md"
+    - Absence management: "area_modules/Absence_Management.md"
+    - Quality management:
+      - "area_modules/Quality_Management/index.md"
+      - Surveys: "area_modules/Quality_Management_Surveys.md"
+      - Suggestion for improvement: "area_modules/Quality_Management_Improvement.md"
+      - Data collections: "area_modules/Quality_Management_Data_Collections.md"
+      - Data collection generators: "area_modules/Quality_Management_Data_Collection_Generators.md"
+      - Data collection previews: "area_modules/Quality_Management_Data_Collection_Preview.md"
+      - Action to-dos: "area_modules/Quality_Management_To-dos.md"
+      - Analysis: "area_modules/Quality_Management_Analysis.md"
     - Projects:
-      - Overview: "area_modules/Project_Overview.md"
-      - Project member management: "area_modules/Project_Member_Management.md"
+      - "area_modules/Project_Overview/index.md"
       - Cockpit: "area_modules/Project_Cockpit.md"
-      - Whiteboard: "area_modules/Project_Whiteboard.md"
-      - Timeline: "area_modules/Project_Timeline.md"
+      - Administration: "area_modules/Project_Admin.md"
+      - Members management: "area_modules/Project_Member_Management.md"
+      - Project report: "area_modules/Project_Report.md"
       - Schedule: "area_modules/Project_Schedule.md"
       - To-dos: "area_modules/Project_Todos.md"
       - Decisions: "area_modules/Project_Decisions.md"
       - Notes: "area_modules/Project_Notes.md"
       - Files: "area_modules/Project_Files.md"
       - Video/Audio: "area_modules/Project_VideoAudio.md"
-      - Administration: "area_modules/Project_Admin.md"
-      - Project report: "area_modules/Project_Report.md"
+      - Whiteboard: "area_modules/Project_Whiteboard.md"
+      - Timeline: "area_modules/Project_Timeline.md"
     - Portfolio:
       - Overview: "area_modules/Portfolio.md"
       - Portfolio - General Information: "area_modules/Portfolio_General_Information.md"
@@ -173,65 +227,6 @@ nav:
         - Multiple use of entries: "area_modules/Multiple_use_of_entries.md"
         - Competences tags: "area_modules/Competences_tags.md"
         - The portfolio editor: "area_modules/The_portfolio_editor_17_1.md"
-    - Course Planner:
-        - Overview:
-          - Introduction: "area_modules/Course_Planner.md"
-          - Application map (concept study):
-            - Overview: "area_modules/Course_Planner_Map.md"
-            - Roles:
-              - Course planner: "area_modules/course_planner_map/rolle_kursplaner.md"
-              - Product owner: "area_modules/course_planner_map/rolle_produktbesitzer.md"
-              - Element owner: "area_modules/course_planner_map/rolle_elementbesitzer.md"
-              - Owner: "area_modules/course_planner_map/rolle_besitzer.md"
-              - Coach: "area_modules/course_planner_map/rolle_betreuer.md"
-              - Master coach: "area_modules/course_planner_map/rolle_klassenlehrer.md"
-              - Participant: "area_modules/course_planner_map/rolle_teilnehmer.md"
-            - Cockpit and widgets: "area_modules/course_planner_map/dashboard.md"
-            - Product: "area_modules/course_planner_map/produkt.md"
-            - Implementation:
-              - Planning an implementation: "area_modules/course_planner_map/durchfuehrung.md"
-              - Defining structure rules (element types): "area_modules/course_planner_map/elementtypen.md"
-              - Copying instead of rebuilding: "area_modules/course_planner_map/kopieren.md"
-              - Excel import and export: "area_modules/course_planner_map/import.md"
-              - Reports and evaluations: "area_modules/course_planner_map/reports.md"
-              - Finishing an implementation: "area_modules/course_planner_map/abschliessen.md"
-            - Element:
-              - Structuring a program (elements): "area_modules/course_planner_map/element.md"
-              - Offering in the catalog: "area_modules/course_planner_map/angebote.md"
-              - Bookings and invoices: "area_modules/course_planner_map/buchungen.md"
-              - Certificates and credit points: "area_modules/course_planner_map/zertifikate.md"
-            - Course:
-              - Embedding courses and course templates: "area_modules/course_planner_map/kurse.md"
-              - Events, teachers and rooms: "area_modules/course_planner_map/termine.md"
-              - Planning tasks (to-dos): "area_modules/course_planner_map/todos.md"
-              - Recording absences: "area_modules/course_planner_map/absenzen.md"
-              - Managing members: "area_modules/course_planner_map/mitglieder.md"
-        - Dashboard: "area_modules/Course_Planner_Dashboard.md"
-        - Products: "area_modules/Course_Planner_Products.md"
-        - Import / Export:
-          - Overview:
-            - Introduction: "area_modules/Course_Planner_Import_Export.md"
-            - Import / Export reference: "area_modules/Course_Planner_Import_Export_Reference.md"
-        - Implementations: "area_modules/Course_Planner_Implementations.md"
-        - Events: "area_modules/Course_Planner_Events.md"
-        - Certification programs: "area_modules/Course_Planner_Certification_Programs.md"
-        - Reports:
-          - Overview:
-            - Introduction: "area_modules/Course_Planner_Reports.md"
-            - Booking order reports: "area_modules/Reports_BookingOrders.md"
-        - To-dos: "area_modules/Course_Planner_Todos.md"
-        - Rooms: "area_modules/Course_Planner_Rooms.md"
-    - Absence Management: "area_modules/Absence_Management.md"
-    - Quality Management:
-      - Overview: "area_modules/Quality_Management.md"
-      - Surveys: "area_modules/Quality_Management_Surveys.md"
-      - Data collection: "area_modules/Quality_Management_Data_Collections.md"
-      - Data collection generators: "area_modules/Quality_Management_Data_Collection_Generators.md"
-      - Data collection previews: "area_modules/Quality_Management_Data_Collection_Preview.md"
-      - Analysis: "area_modules/Quality_Management_Analysis.md"
-      - Actions (To-dos): "area_modules/Quality_Management_To-dos.md"   
-      - Suggestion for improvement: "area_modules/Quality_Management_Improvement.md" 
-    - Library: "area_modules/Library.md"
     - AI features:
       - Application map (concept study): "area_modules/AI_Features_Map.md"
 

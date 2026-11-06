@@ -23,7 +23,7 @@
 
 ### a) Als registrierte:r Benutzer:in {: #catalog_where_reg}
 
-OpenOlat-Benutzer:innen sehen in der Hauptnavigation meistens "Kurse" und "Gruppen", wenn sie Teilnehmer:innen sind. Autor:innen sehen zusätzlich den "Autorenbereich". Aber die Bereiche in der Hauptnavigation können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Bereiche in der Hauptnavigation dazu kommen. So z.B. auch der Katalog. Haben Systemadministrator:innen den [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) in der System-Administration aktiviert, finden Sie den Bereich "Katalog" in der Hauptnavigation. Wird kein Katalog in der Hauptnavigation angezeigt, wenden Sie sich bitte an die Systemadministrator:innen Ihrer OpenOlat-Instanz.
+OpenOlat-Benutzer:innen sehen in der Hauptnavigation meistens "Kurse" und "Gruppen", wenn sie Teilnehmer:innen sind. Autor:innen sehen zusätzlich den "Autorenbereich". Aber die Bereiche in der Hauptnavigation können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Bereiche in der Hauptnavigation dazu kommen. So z.B. auch der Katalog. Haben Systemadministrator:innen den [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0/index.de.md) in der System-Administration aktiviert, finden Sie den Bereich "Katalog" in der Hauptnavigation. Wird kein Katalog in der Hauptnavigation angezeigt, wenden Sie sich bitte an die Systemadministrator:innen Ihrer OpenOlat-Instanz.
 
 ![Markierter Eintrag Katalog neben Kurse und Gruppen, darunter der Katalog mit Suchfeld](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" title="Katalog in der Hauptnavigation" }
 
@@ -46,7 +46,7 @@ Auch [direkte Links zu einem bestimmten Angebot](../../manual_user/area_modules/
 
 !!! info "Wichtig"
 
-    In OpenOlat gibt es 2 Versionen des Katalogs: [Katalog 1.0](../../manual_user/area_modules/catalog1.0.de.md) und [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md).
+    In OpenOlat gibt es 2 Versionen des Katalogs: [Katalog 1.0](../../manual_user/area_modules/catalog1.0.de.md) und [Katalog 2.0](../../manual_user/area_modules/catalog2.0/index.de.md).
     Die nachstehenden Ausführungen beschreiben das Vorgehen im **Katalog 2.0**.
 
 
@@ -226,7 +226,7 @@ In einem Launcher werden (von den Systemadministrator:innen so festgelegt) nur A
 
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
-[Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0/index.de.md)<br>
 [Extern verfügbarer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Katalog 1.0 >](../../manual_user/area_modules/catalog1.0.de.md)<br>
 [Kurseinstellungen >](../../manual_user/learningresources/Course_Settings.de.md)<br>

@@ -337,7 +337,7 @@ Resetting **individual** forms is **not** possible in the course element "Survey
 [Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
 [Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>
 [Learning path course - Course editor >](../../manual_user/learningresources/Learning_path_course_Course_editor.md)<br>
-[Authoring - Overview >](../../manual_user/area_modules/Authoring.md)<br>
+[Authoring - Overview >](../../manual_user/area_modules/Authoring/index.md)<br>
 [Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)
 
 

@@ -20,7 +20,7 @@ Room management in the Course Planner is available to two roles:
 
 All other roles do not see the area, including Product owner, Element owner and Principal. Course owner, Master coach, Coach and Participant work on running the course, not on its organisational planning.
 
-Both roles read the information. System administrators create and change rooms and buildings in the system administration: `Administration > Modules > Rooms`. The complete overview of rights can be found in the [rights matrix](../area_modules/Course_Planner.md#rights_matrix) of the Course Planner.
+Both roles read the information. System administrators create and change rooms and buildings in the system administration: `Administration > Modules > Rooms`. The complete overview of rights can be found in the [rights matrix](../area_modules/Course_Planner/index.md#rights_matrix) of the Course Planner.
 
 [To the top of the page ^](#course_planner_rooms)
 
@@ -119,11 +119,11 @@ In the calendar of a single room row, too, a click on a booking opens the ["Book
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [Copy a course with wizard >](../learningresources/Course_Copy_Wizard.md)<br>
 [Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
-[Course Planner: Import / Export >](Course_Planner_Import_Export.md)
+[Course Planner: Import / Export >](Course_Planner_Import_Export/index.md)
 
 [To the top of the page ^](#course_planner_rooms)

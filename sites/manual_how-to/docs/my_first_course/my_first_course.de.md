@@ -266,7 +266,7 @@ Ausserdem muss ein Angebot für den Katalog erstellt und der Kurs buchbar gemach
 
 ## Weiterführende Informationen {: #further_information}
 
-[Überblick über den Autorenbereich >](../../manual_user/area_modules/Authoring.de.md)<br>
+[Überblick über den Autorenbereich >](../../manual_user/area_modules/Authoring/index.de.md)<br>
 [Allgemeines über Kurse >](../../manual_user/learningresources/General_Information.de.md)<br>
 [Kurs erstellen >](../../manual_user/learningresources/Creating_Course.de.md)<br>
 [Kurse und Lernressourcen erstellen >](../../manual_user/area_modules/authoring_new_course.de.md)<br>

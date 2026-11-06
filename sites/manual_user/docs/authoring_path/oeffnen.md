@@ -81,7 +81,7 @@ The module that puts learning resources and implementations with an offer on dis
 
     **What users call it:** catalogue, course catalog, offering
 
-    [Read in the manual](../area_modules/catalog2.0.md) · [Ask Sophia](?sophia=What%20is%20%22Catalog%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../area_modules/catalog2.0/index.md) · [Ask Sophia](?sophia=What%20is%20%22Catalog%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -204,7 +204,7 @@ With frentix: we show it in a training. For a training, contact your organisatio
 The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
 - **Offer:** [Access code](../basic_concepts/Offer_Concepts.md), Booking order forms. All settings are on the page [Catalog 2.0 - Offers](../area_modules/catalog2.0_angebote.md).
-- **Catalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.md), [Web catalog](../area_modules/catalog2.0_web.md). All settings are on the page [Catalog 2.0: Overview](../area_modules/catalog2.0.md).
+- **Catalog:** [Launcher](../../manual_admin/administration/Modules_Catalog_2.0.md), [Web catalog](../area_modules/catalog2.0_web.md). All settings are on the page [Catalog 2.0: Overview](../area_modules/catalog2.0/index.md).
 - **Group:** [Learning groups](../learningresources/Members_management.md), [Learning area](../learningresources/Learning_Areas.md), [Members](../learningresources/Members_management.md), [Collaborative tools](../groups/Group_Administration/index.md) and more. All settings are on the page [Groups](../groups/index.md).
 
 ## Further information {: #further_information}
@@ -212,7 +212,7 @@ The first course is running. Now the things that did not matter at the start pay
 **Mentioned on this page**<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
-[Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>
+[Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
 [Groups >](../groups/index.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>

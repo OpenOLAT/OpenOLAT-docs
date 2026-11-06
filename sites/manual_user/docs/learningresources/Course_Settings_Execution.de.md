@@ -75,7 +75,7 @@ Den Schalter müssen Sie nicht in jedem Fall selbst setzen. In drei Fällen scha
 
 In den folgenden Fällen bleibt der Schalter unverändert:
 
-- Termine werden über "Termine importieren" oder über den [Import-Assistenten des Course Planners](../area_modules/Course_Planner_Import_Export.de.md#import_wizard) angelegt,
+- Termine werden über "Termine importieren" oder über den [Import-Assistenten des Course Planners](../area_modules/Course_Planner_Import_Export/index.de.md#import_wizard) angelegt,
 - ein Termin wird im Tab "Termine" einer Durchführung bearbeitet und gespeichert oder kopiert.
 
 Schalten Sie die Termin- und Absenzenverwaltung in diesen Fällen von Hand ein.
@@ -216,7 +216,7 @@ Herkömmliche Kurse haben die Option "Lernfortschritt berechnen" nicht.
 [Modul Zeitabschnitte >](../../manual_admin/administration/Modules_Time_Period.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export/index.de.md)<br>
 [Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)<br>
 [Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)
@@ -224,7 +224,7 @@ Herkömmliche Kurse haben die Option "Lernfortschritt berechnen" nicht.
 **Weiterführend**<br>
 [Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Absenzenverwaltung >](../area_modules/Absence_Management.de.md)
 
 [Zum Seitenanfang ^](#tab_execution)

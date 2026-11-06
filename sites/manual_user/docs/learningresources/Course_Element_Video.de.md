@@ -28,7 +28,7 @@ Wenn Sie noch kein Video zugewiesen haben, erscheint beim Titel "Gewähltes Vide
 
 Es erscheint ein neues Menü. Unter "Alle Einträge" sehen Sie alle Videos des Systems die Sie einbinden können. Unter "Meine Einträge" sehen Sie die Video Lernressourcen bei denen Sie Besitzer sind. Wählen sie das gewünschte Video aus. Eine Suche ist ebenfalls möglich.
 
-Klicken Sie auf "Importieren" bzw. "Importieren URL", um ein *neues* Video hochzuladen bzw. zu verlinken. Alternativ können Sie eine neue Video Lernressource auch im [Autorenbereich](../area_modules/Authoring.de.md) anlegen.
+Klicken Sie auf "Importieren" bzw. "Importieren URL", um ein *neues* Video hochzuladen bzw. zu verlinken. Alternativ können Sie eine neue Video Lernressource auch im [Autorenbereich](../area_modules/Authoring/index.de.md) anlegen.
 
 ## Hinzugefügtes Video konfigurieren
 
@@ -68,7 +68,7 @@ Ein Video, das Sie mit dem Kursbaustein "Video" einbinden, ermöglicht im Gegens
 ## Weiterführende Informationen {: #further_information}
 
 [Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Videos im Kursbaustein "HTML-Seite" >](../basic_concepts/Video_in_HTML_Pages.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
 [Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>

@@ -9,7 +9,7 @@ Systemadministrator:innen richten im Menü e-Assessment der System-Administratio
 
 Unter "Coaching" sehen Systemadministrator:innen, dass das Coaching auf der Instanz eingeschaltet ist. Die Checkbox "Coaching Zugang" ist ausgegraut, weil Betreuer:innen und Besitzer:innen ihre Lernressourcen über das Coaching erreichen. [:octicons-tag-16:{ title="ab Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
-[Zu den Details >](../../manual_user/area_modules/Coaching.de.md#availability)<br>
+[Zu den Details >](../../manual_user/area_modules/Coaching/index.de.md#availability)<br>
 [Zum Seitenanfang ^](#e-assessments)
 
 

@@ -19,7 +19,7 @@ Unter dem Titel erscheint die Lernressource in Listen, im Katalog und in der Suc
 
 #### Kennzeichen {: #externalref}
 
-Das Kennzeichen ist eine Kennung, die Sie selbst vergeben, zum Beispiel die Bezeichnung aus dem Vorlesungsverzeichnis oder aus einem gedruckten Kurskatalog. Die Id dagegen vergibt OpenOlat automatisch. Das Kennzeichen erscheint in der Kursübersicht, und die Liste im Autorenbereich führt es als eigene Spalte, nach der Sie sortieren können. Der Import in den Course Planner erkennt Kurse und Templates an ihrem Kennzeichen, siehe [Course Planner: Import / Export](../area_modules/Course_Planner_Import_Export.de.md#identifier_matching).
+Das Kennzeichen ist eine Kennung, die Sie selbst vergeben, zum Beispiel die Bezeichnung aus dem Vorlesungsverzeichnis oder aus einem gedruckten Kurskatalog. Die Id dagegen vergibt OpenOlat automatisch. Das Kennzeichen erscheint in der Kursübersicht, und die Liste im Autorenbereich führt es als eigene Spalte, nach der Sie sortieren können. Der Import in den Course Planner erkennt Kurse und Templates an ihrem Kennzeichen, siehe [Course Planner: Import / Export](../area_modules/Course_Planner_Import_Export/index.de.md#identifier_matching).
 
 Wird die Lernressource von einem externen System verwaltet, steht das Kennzeichen als Text da und lässt sich nicht ändern.
 
@@ -35,7 +35,7 @@ Mit dem Durchführungsformat ordnen Sie einen Kurs einem Format zu, zum Beispiel
 
 #### Fachbereiche {: #taxonomy_levels}
 
-Mit den Fachbereichen ordnen Sie die Lernressource thematisch ein. Ist der [Katalog](../area_modules/catalog2.0.de.md) eingeschaltet, heisst das Feld "Fachbereiche / Katalog": Die Fachbereiche bestimmen dann auch, in welcher Microsite des Katalogs die Lernressource erscheint.
+Mit den Fachbereichen ordnen Sie die Lernressource thematisch ein. Ist der [Katalog](../area_modules/catalog2.0/index.de.md) eingeschaltet, heisst das Feld "Fachbereiche / Katalog": Die Fachbereiche bestimmen dann auch, in welcher Microsite des Katalogs die Lernressource erscheint.
 
 Das Feld erscheint, wenn die System-Administration das [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md) eingeschaltet und unter `Administration > Module > Lernressource` mindestens eine Taxonomie ausgewählt hat, siehe [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md#tab_settings).
 
@@ -71,11 +71,11 @@ In der Liste des Autorenbereichs zeigt die Spalte "Lizenz" die Lizenz jeder Lern
 **Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export/index.de.md)<br>
 [Über diesen Kurs: Technische Informationen und Verwendung >](../learningresources/Technical_Information_on_Resources_and_Usage.de.md)<br>
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
-[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
 [Lizenzen >](../../manual_admin/administration/Licenses.de.md)<br>

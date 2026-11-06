@@ -235,7 +235,7 @@ Context, automation and target status of a rule are fixed, in the dialog you onl
 
 Anyone who sets up a Course Planner with many products and implementations or updates them in large numbers does not have to record them one by one: course planners and administrators read products, implementations, users and memberships from an Excel file with the import wizard. The import is not a setting of the system administration. You start the wizard on the Course Planner start page via the more menu (⋮) at the top right with the entry "Import".
 
-How the wizard checks the file step by step and what it creates or changes is described in the user manual on the page [Course Planner: Import / Export](../../manual_user/area_modules/Course_Planner_Import_Export.md). All error and warning messages as well as the field rules of the Excel file are listed in the [Course Planner: Import/Export - Reference](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.md).
+How the wizard checks the file step by step and what it creates or changes is described in the user manual on the page [Course Planner: Import / Export](../../manual_user/area_modules/Course_Planner_Import_Export/index.md). All error and warning messages as well as the field rules of the Excel file are listed in the [Course Planner: Import/Export - Reference](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.md).
 
 [To the top of the page ^](#module_course_planner)
 
@@ -247,16 +247,16 @@ How the wizard checks the file step by step and what it creates or changes is de
 [Module Course >](Modules_Course.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.md)<br>
 [Course Planner: Import/Export - Reference >](../../manual_user/area_modules/Course_Planner_Import_Export_Reference.md)
 
 **Further reading**<br>
 [How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How do I plan and run a product with several courses with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.md)
 
 [To the top of the page ^](#module_course_planner)
 

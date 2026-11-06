@@ -91,7 +91,7 @@ Angezeigt werden die Kursbausteine "Aufgabe", bei denen die "Zuweisung Betreuend
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
-[Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Reports >](../area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
 [Rollen >](../basic_concepts/Roles.de.md)<br>
 [Bewertungswerkzeug >](../learningresources/Assessment_tool_overview.de.md)

@@ -93,7 +93,7 @@ Step 1 - Select course elements: Select all course elements that you have modifi
 
 Step 2 - Modification of course access: Here you get access to the general publishing options of a course. Determine which OpenOlat users should have access to your course. Read the chapter "[Course Settings](Course_Settings.md)" to learn which options are available here. After this step, the publishing process can already be completed. Click on "Finish".
 
-There may still be some notes that are displayed. A specific entry in the catalog is also possible when using the [Catalog 1.0](../area_modules/catalog1.0.md). When using the [Catalog 2.0](../area_modules/catalog2.0.md), the entry is made automatically according to the taxonomy configuration.
+There may still be some notes that are displayed. A specific entry in the catalog is also possible when using the [Catalog 1.0](../area_modules/catalog1.0.md). When using the [Catalog 2.0](../area_modules/catalog2.0/index.md), the entry is made automatically according to the taxonomy configuration.
 
 ## Further information {: #further_information}
 
@@ -106,6 +106,6 @@ There may still be some notes that are displayed. A specific entry in the catalo
 [Switch AAI >](http://www.switch.ch/aai/)<br>
 [Course Settings >](Course_Settings.md)<br>
 [Catalog 1.0 >](../area_modules/catalog1.0.md)<br>
-[Catalog 2.0: Overview >](../area_modules/catalog2.0.md)
+[Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)
 
 [To the top of the page ^](#course_editor_tools)

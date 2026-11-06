@@ -42,7 +42,7 @@ hide:
 
 <p class="oo-mh-role__text">Teilnehmende begleiten, bewerten und Nachweise ausstellen.</p>
 
-1. [Coaching](../area_modules/Coaching.de.md)
+1. [Coaching](../area_modules/Coaching/index.de.md)
 1. [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)
 1. [Kurserinnerungen](../learningresources/Course_Reminders.de.md)
 1. [Gruppen betreuen](../groups/index.de.md)
@@ -58,7 +58,7 @@ hide:
 
 1. [Login und Registrierung](../login_registration/index.de.md)
 1. [Navigation](../basic_concepts/Navigation.de.md)
-1. [Katalog: Kurse buchen](../area_modules/catalog2.0.de.md)
+1. [Katalog: Kurse buchen](../area_modules/catalog2.0/index.de.md)
 1. [Kurse finden](../area_modules/Courses.de.md)
 1. [Gruppenmitglied werden](../groups/Group_Membership.de.md)
 1. [Persönliche Werkzeuge](../personal_menu/Personal_Tools.de.md)

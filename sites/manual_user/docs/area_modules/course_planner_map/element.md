@@ -23,8 +23,8 @@ Elements structure the implementation hierarchically. Elements "With content" ca
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Module Course Planner >](../../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Products >](../Course_Planner_Products.md)

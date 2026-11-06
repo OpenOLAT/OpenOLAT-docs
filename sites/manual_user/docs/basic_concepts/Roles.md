@@ -4,7 +4,7 @@ A person's roles determine which areas and functions they use in OpenOlat. If yo
 
 ![Four areas in which roles apply: organisation, course with group, Course Planner and relations, each with the place where the role is assigned](assets/roles_areas_overview_v1_en.svg){ class="shadow lightbox" title="Roles by area" }
 
-The Course Planner also has the roles Product owner (assigned at the product), Element owner and Master coach (both assigned at the element). Their rights are described on the page [Course Planner: Overview](../area_modules/Course_Planner.md#roles_rights).
+The Course Planner also has the roles Product owner (assigned at the product), Element owner and Master coach (both assigned at the element). Their rights are described on the page [Course Planner: Overview](../area_modules/Course_Planner/index.md#roles_rights).
 
 ## Organisation roles {: #org} 
 
@@ -22,7 +22,7 @@ Which areas of the main navigation a role opens is shown on the page [Roles and 
 * **Education manager**: Education managers have rights for their organisation and all organisations below it. They have rights in Coaching, even if they are not entered there as coach, and take on administrative tasks, for example checking booking orders or blocking accounts.
 * **Principal**: Principals see many areas of the system, but read-only. They cannot change anything and cannot edit objects.
 * **Absence manager**: Absence managers manage the absences of their organisation. For this they open the menu item "Absence management" in the main navigation.
-* **Course planner**: Course planners work in the [Course Planner](../area_modules/Course_Planner.md). If course planners are assigned to an organisation, they only have access to that organisation's Course Planner.
+* **Course planner**: Course planners work in the [Course Planner](../area_modules/Course_Planner/index.md). If course planners are assigned to an organisation, they only have access to that organisation's Course Planner.
 * **Project manager**: Project managers manage all projects. In the "Projects" menu item they also open the "Administration" tab and reach all projects there, including member management and configuration.
 * **Quality manager**: Quality managers steer quality management. In the "Quality management" menu item they manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
 * **Selectus manager**: Selectus managers manage the appointment procedures of their organisation. In the "Selectus" menu item they create, edit, copy and archive positions and put together the committees. The role only takes effect if the "Selectus" module is switched on.
@@ -35,7 +35,7 @@ Which areas of the main navigation a role opens is shown on the page [Roles and 
 
 !!! note "Note"
 
-    Not every instance uses all roles. Usually a combination of User, Author and Administrator or System administrator is sufficient. Further roles are added if the organisation is structured accordingly or uses certain tools such as the [Course Planner](../area_modules/Course_Planner.md).
+    Not every instance uses all roles. Usually a combination of User, Author and Administrator or System administrator is sufficient. Further roles are added if the organisation is structured accordingly or uses certain tools such as the [Course Planner](../area_modules/Course_Planner/index.md).
 
     If you have questions about the role assignment, please contact the support of your OpenOlat instance.
 
@@ -348,7 +348,7 @@ There, each role and its contra-role appear as separate entries. Clicking an ent
 ## Further information {: #further_information} 
 
 **Mentioned on this page**<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Roles and their working areas >](Roles_Home_Areas.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [User management >](../../manual_admin/usermanagement/index.md)<br>

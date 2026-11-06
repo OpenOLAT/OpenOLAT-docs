@@ -42,7 +42,7 @@ hide:
 
 <p class="oo-mh-role__text">Accompany participants, assess them and issue evidence.</p>
 
-1. [Coaching](../area_modules/Coaching.md)
+1. [Coaching](../area_modules/Coaching/index.md)
 1. [Assessment tool](../learningresources/Assessment_tool_overview.md)
 1. [Course reminders](../learningresources/Course_Reminders.md)
 1. [Coach groups](../groups/index.md)
@@ -58,7 +58,7 @@ hide:
 
 1. [Login and registration](../login_registration/index.md)
 1. [Navigation](../basic_concepts/Navigation.md)
-1. [Catalog: book courses](../area_modules/catalog2.0.md)
+1. [Catalog: book courses](../area_modules/catalog2.0/index.md)
 1. [Finding courses](../area_modules/Courses.md)
 1. [Become a group member](../groups/Group_Membership.md)
 1. [User tools](../personal_menu/Personal_Tools.md)

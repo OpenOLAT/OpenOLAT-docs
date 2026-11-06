@@ -1,6 +1,6 @@
 # Mit Tabellen arbeiten {: #tables}
 
-Die Tabellen im Bereich [Kurse](../area_modules/Courses.de.md) und im [Autorenbereich](../area_modules/Authoring.de.md) (für Autor:innen) bieten verschiedene Filter- und Einstellungsoptionen.
+Die Tabellen im Bereich [Kurse](../area_modules/Courses.de.md) und im [Autorenbereich](../area_modules/Authoring/index.de.md) (für Autor:innen) bieten verschiedene Filter- und Einstellungsoptionen.
 
 ## Das Filtermenü
 
@@ -47,7 +47,7 @@ Mit der Suche können Sie gezielt nach Einträgen suchen. Die ausgewählten Filt
 ## Weiterführende Informationen {: #further_information}
 
 [Kurse finden >](../area_modules/Courses.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Coaching - Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Allgemeines zur Suche >](Search_General.de.md)<br>
 [Ordnerkonzept >](Folder_Concept.de.md)

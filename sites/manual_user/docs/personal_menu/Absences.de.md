@@ -67,7 +67,7 @@ Sind Sie mit einer eingetragenen Absenz nicht einverstanden, können Sie einen R
 [Termine und Absenzen (Kurs) >](../learningresources/Events_and_absences.de.md)<br>
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
 [Coaching - Termine und Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Absenzenverwaltung >](../area_modules/Absence_Management.de.md)
 
 [Zum Seitenanfang ^](#pers_tools_absences)

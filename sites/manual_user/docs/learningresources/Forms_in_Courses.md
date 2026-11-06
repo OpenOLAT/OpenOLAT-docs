@@ -18,7 +18,7 @@ Outside of courses, the Course Planner uses forms when booking: an offer of an i
 
 !!! tip "Tip"
 
-    It is often unclear to OpenOlat authors that the forms created in the course are a _course-independent_ OpenOlat learning resource "form" that can be used in the various course elements as well as in other courses. It is therefore recommended that the learning resource is not created in the course, but in the [authoring area](../area_modules/Authoring.md) and then integrated into the course.
+    It is often unclear to OpenOlat authors that the forms created in the course are a _course-independent_ OpenOlat learning resource "form" that can be used in the various course elements as well as in other courses. It is therefore recommended that the learning resource is not created in the course, but in the [authoring area](../area_modules/Authoring/index.md) and then integrated into the course.
 
 ## Changes to forms
 
@@ -35,6 +35,6 @@ Please note that once a form has been integrated into a course and accessed, the
 [Form in the Portfolio 2.0 template >](../learningresources/Forms_in_the_ePortfolio_template.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)
+[Authoring - Overview >](../area_modules/Authoring/index.md)
 
 [To the top of the page ^](#forms_in_courses)

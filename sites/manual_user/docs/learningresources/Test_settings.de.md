@@ -187,7 +187,7 @@ Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" un
 
 !!! note "Coaching Tool"
     Weitere Informationen zur kursübergreifenden Korrektur.<br>
-    [Coaching Tool](../area_modules/Coaching.de.md)
+    [Coaching Tool](../area_modules/Coaching/index.de.md)
 
 [zum Seitenanfang ^](#test_settings)
 
@@ -238,7 +238,7 @@ Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von dene
 [Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching - Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)
 
 **Weiterführend**<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>

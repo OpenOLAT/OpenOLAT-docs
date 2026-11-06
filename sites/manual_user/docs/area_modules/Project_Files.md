@@ -151,7 +151,7 @@ If you want to delete several files at once (bulk action), select the list view 
 
 [Folder concept >](../basic_concepts/Folder_Concept.md)<br>
 [Projects: Member Management >](Project_Member_Management.md)<br>
-[Projects: Overview >](Project_Overview.md)<br>
+[Projects: Overview >](Project_Overview/index.md)<br>
 [Projects - Cockpit >](Project_Cockpit.md)
 
 [To the top of the page ^](#files)

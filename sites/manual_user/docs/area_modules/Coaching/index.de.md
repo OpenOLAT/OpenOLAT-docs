@@ -12,7 +12,7 @@ Das Coaching Tool dient der kursübergreifenden Organisation und Verwaltung von 
 
 Mit dem Coaching Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetreuer:innen, Ausbildungsverantwortliche und andere Berechtigte die Möglichkeit, alle ihnen zugewiesenen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
 
-![Einstiegsseite Coaching: Buttons von Personen bis Gruppen führen zu den Betreuten, die Aufgaben von Ausstehende Bestätigungen bis Reports zu den Werkzeugen, darunter die Widgets Kurse und Termine](assets/coaching_tools_v3_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.11.02" }
+![Einstiegsseite Coaching: Buttons von Personen bis Gruppen führen zu den Betreuten, die Aufgaben von Ausstehende Bestätigungen bis Reports zu den Werkzeugen, darunter die Widgets Kurse und Termine](../assets/coaching_tools_v3_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.11.02" }
 
 ---
 
@@ -87,7 +87,7 @@ Sind Sie z.B. nur in einem Kurs direkt Betreuer:in, aber daneben Ausbildungsvera
 
 Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. Damit erhalten Sie eine Vorauswahl. In der Liste befinden sich dann nur noch von Ihnen betreute Personen, die Sie in dieser Rolle betreuen.
 
-![Markierte Fokus-Buttons über der Personenliste: gewählt ist Als Betreuer:in, daneben Linienvorgesetzte:r; welche Fokus-Buttons erscheinen, hängt von Ihren Rollen ab](assets/coaching_focus_elements_v2_de.png){ class="shadow lightbox" title="Personenliste im Coaching · 2026.11.02" }
+![Markierte Fokus-Buttons über der Personenliste: gewählt ist Als Betreuer:in, daneben Linienvorgesetzte:r; welche Fokus-Buttons erscheinen, hängt von Ihren Rollen ab](../assets/coaching_focus_elements_v2_de.png){ class="shadow lightbox" title="Personenliste im Coaching · 2026.11.02" }
 
 
 [Zum Seitenanfang ^](#coaching)
@@ -101,7 +101,7 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 Unter den Buttons grenzt ein Trennbereich mit der Bezeichnung "Übersicht" die nachfolgend beschriebenen Widgets optisch ab.
 
-![Markierter Trennbereich Übersicht: er trennt die Buttons der Bereiche Coaching und Aufgaben von den Widgets darunter](assets/coaching_overview_v2_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.11.02" }
+![Markierter Trennbereich Übersicht: er trennt die Buttons der Bereiche Coaching und Aufgaben von den Widgets darunter](../assets/coaching_overview_v2_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.11.02" }
 
 ---
 
@@ -113,7 +113,7 @@ Angezeigt werden nur Termine, in denen Sie selbst als Dozent:in eingetragen sind
 
 !!! info "Wichtig"
 
-    Das gleichnamige Widget **Termine** im Course Planner zeigt andere Termine: dort erscheinen Termine aus Bildungsprodukten, für die Sie als Administrator:in, Absenzenverwalter:in, Besitzer:in oder Betreuer:in zuständig sind. Siehe [Course Planner: Dashboard](Course_Planner_Dashboard.de.md#widget_events).
+    Das gleichnamige Widget **Termine** im Course Planner zeigt andere Termine: dort erscheinen Termine aus Bildungsprodukten, für die Sie als Administrator:in, Absenzenverwalter:in, Besitzer:in oder Betreuer:in zuständig sind. Siehe [Course Planner: Dashboard](../Course_Planner_Dashboard.de.md#widget_events).
 
 Das Widget erscheint nur, wenn das Modul Termine und Absenzen systemweit eingeschaltet ist.
 
@@ -140,7 +140,7 @@ Pro Termin werden folgende Informationen angezeigt:
 !!! note "Hinweis"
     In der schmalen (mobilen) Ansicht entfällt die Ortsspalte. Es wird nur die Uhrzeit angezeigt.
 
-![Markiertes Widget Termine mit Wochenleiste, Kalenderwoche und hervorgehobenem heutigem Tag, zwei Termine mit Beginn und Dauer und der Button Alle anzeigen](assets/coaching_widget_events_v2_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching · 2026.11.02" }
+![Markiertes Widget Termine mit Wochenleiste, Kalenderwoche und hervorgehobenem heutigem Tag, zwei Termine mit Beginn und Dauer und der Button Alle anzeigen](../assets/coaching_widget_events_v2_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching · 2026.11.02" }
 
 #### Leerer Zustand
 
@@ -164,7 +164,7 @@ Sind in der angezeigten Woche keine Termine vorhanden, erscheint der Hinweis "Ke
 
 Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 
-![Markiertes Widget Kurse mit den Kennzahlen Relevant, Favoriten, Veröffentlicht und Freigabe Betreuer:innen, darunter die betreuten Kurse mit Fortschrittsbalken und der Button Alle anzeigen](assets/coaching_widget_courses_v2_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching · 2026.11.02" }
+![Markiertes Widget Kurse mit den Kennzahlen Relevant, Favoriten, Veröffentlicht und Freigabe Betreuer:innen, darunter die betreuten Kurse mit Fortschrittsbalken und der Button Alle anzeigen](../assets/coaching_widget_courses_v2_de.png){ class="shadow lightbox" title="Übersicht auf der Einstiegsseite Coaching · 2026.11.02" }
 
 Über den definierten Filter **"Relevant"** (standardmässig ausgewählt) oder eine der weiteren Filtervarianten erhalten Sie eine entsprechende Vorauswahl [:octicons-tag-16:{ title="ab Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
@@ -183,7 +183,7 @@ Das Widget **Kurse - Als Betreuer:in** zeigt die von Ihnen betreuten Kurse.
 
 ### Übersicht anpassen [:octicons-tag-16:{ title="ab Release 20.3 (OO-9273)" }](https://track.frentix.com/issue/OO-9273) {: #overview_customize}
 
-Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen Sie die Kacheln neu an, blenden sie aus und holen sie zurück. Die Bedienung ist auf allen Übersichtsseiten gleich und dort einmal beschrieben: [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md#customize)
+Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen Sie die Kacheln neu an, blenden sie aus und holen sie zurück. Die Bedienung ist auf allen Übersichtsseiten gleich und dort einmal beschrieben: [Übersichtsseiten und Widgets >](../../basic_concepts/Dashboard_Concept.de.md#customize)
 
 [Zum Seitenanfang ^](#coaching)
 
@@ -192,14 +192,14 @@ Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen S
 ## Weiterführende Informationen {: #further_information}
 
 **Weiterführend**<br>
-[Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
-[Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
-[Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
-[Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
-[Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
-[Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
-[Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
-[Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)
+[Coaching: Personensuche >](../../area_modules/Coaching_User_Search.de.md)<br>
+[Coaching: Personen >](../../area_modules/Coaching_People.de.md)<br>
+[Coaching: Kurse >](../../area_modules/Coaching_Courses.de.md)<br>
+[Coaching: Bildungsprodukte >](../../area_modules/Coaching_Educational_Products.de.md)<br>
+[Coaching: Termine / Absenzen >](../../area_modules/Coaching_Events_Absences.de.md)<br>
+[Coaching: Bewertungsaufträge >](../../area_modules/Coaching_Assessment_Orders.de.md)<br>
+[Coaching: Reports >](../../area_modules/Coaching_Reports/index.de.md)<br>
+[Coaching: Gruppen >](../../area_modules/Coaching_Groups.de.md)<br>
+[Coaching: Auftragsverwaltung >](../../area_modules/Coaching_Order_Management.de.md)
 
 [Zum Seitenanfang ^](#coaching)

@@ -221,7 +221,7 @@ With the switch "Web catalog temporarily disabled" you switch off the web catalo
 [Roles and Rights: Overview](../../manual_user/basic_concepts/Roles_Rights.md)
 
 **Further reading**<br>
-[Catalog 2.0: Overview](../../manual_user/area_modules/catalog2.0.md)<br>
+[Catalog 2.0: Overview](../../manual_user/area_modules/catalog2.0/index.md)<br>
 [Module Learning Resource](Modules_Learning_Resource.md)
 
 [To the top of the page ^](#modul_catalog)

@@ -49,7 +49,7 @@ Alternatively, you view and manage the results of a specific test in the course 
 
 ![Participants with attempts, score and status as well as an open row menu with the assessment actions](../assets/course_element_test_run_participants_v1_en.png){ class="shadow lightbox" title="Participants tab of the course element Test · 2026.10.01" }
 
-If correctors are entered for a test, they assess the test runs across courses in [Coaching](../../area_modules/Coaching.md) under "Assessment orders".
+If correctors are entered for a test, they assess the test runs across courses in [Coaching](../../area_modules/Coaching/index.md) under "Assessment orders".
 
 
 [To the top of the page ^](#test_results)
@@ -121,7 +121,7 @@ You can also download the raw data of tests via the [test statistics](../Statist
 [Course Element "Test" >](index.md)<br>
 [Set up a test >](Test_Setup.md)<br>
 [Assessment tool - overview >](../Assessment_tool_overview.md)<br>
-[Coaching - Overview >](../../area_modules/Coaching.md)<br>
+[Coaching - Overview >](../../area_modules/Coaching/index.md)<br>
 [Course administration - Archiving & Reports >](../Course_Archiving.md)<br>
 [Export tests >](../Test_export.md)<br>
 [Test statistics >](../Statistics_Test.md)

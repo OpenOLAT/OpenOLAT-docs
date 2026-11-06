@@ -19,7 +19,7 @@ Der Menüpunkt "Kurse" im Coaching Tool zeigt die Lernressourcen, für die Sie z
 
 !!! tip "Hier finden Sie Ihre eingebundenen Ressourcen und Ihre Vorlagen"
 
-    Der Fokus "Weitere Ressourcen" richtet sich an Personen ohne Autor:innenrechte. Sie sehen ihn, wenn Sie weder die Rolle Autor:in noch Lernressourcenverwalter:in noch Administrator:in besitzen. Mit einer dieser Rollen verwalten Sie dieselben Ressourcen im [Autorenbereich](Authoring.de.md); der Fokus wird Ihnen dann nicht angeboten. Für alle anderen Besitzer:innen ist er der einzige Weg zu einer Lernressource, die in einem fremden Kurs eingebunden ist.
+    Der Fokus "Weitere Ressourcen" richtet sich an Personen ohne Autor:innenrechte. Sie sehen ihn, wenn Sie weder die Rolle Autor:in noch Lernressourcenverwalter:in noch Administrator:in besitzen. Mit einer dieser Rollen verwalten Sie dieselben Ressourcen im [Autorenbereich](Authoring/index.de.md); der Fokus wird Ihnen dann nicht angeboten. Für alle anderen Besitzer:innen ist er der einzige Weg zu einer Lernressource, die in einem fremden Kurs eingebunden ist.
 
 
 [Zum Seitenanfang ^](#courses)
@@ -128,7 +128,7 @@ Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Autorenbereich - Übersicht >](Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](Authoring/index.de.md)<br>
 [Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
 [Kurseinstellungen - Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
@@ -142,7 +142,7 @@ Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)

@@ -52,7 +52,7 @@ Mit "Auswählen" öffnet sich der Dialog "Formular auswählen". Er zeigt unter "
 
 Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im [Formulareditor](../learningresources/Form_Editor.de.md) hinzu.
 
-Erstellen Sie ein Formular im Kurseditor, legt OpenOlat automatisch eine neue Lernressource "Formular" an. Sie finden sie auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" und können sie in weiteren Kursen und Kursbausteinen einbinden.
+Erstellen Sie ein Formular im Kurseditor, legt OpenOlat automatisch eine neue Lernressource "Formular" an. Sie finden sie auch im [Autorenbereich](../area_modules/Authoring/index.de.md) unter "Meine Einträge" und können sie in weiteren Kursen und Kursbausteinen einbinden.
 
 Ist ein Formular gewählt, zeigt der Tab seinen Titel und die Zahl der "Antworten in diesem Kurs". Mit "Vorschau" sehen Sie das Formular so, wie Teilnehmende es ausfüllen. Mit dem Button "Lernressource bearbeiten" öffnen Sie die Lernressource "Formular" und gestalten das Formular im Formulareditor. Den Button sehen Besitzer:innen des Formulars, Lernressourcenverwalter:innen und Administrator:innen. Mit "Ersetzen" wählen Sie ein anderes Formular, über den Pfeil daneben importieren Sie eines mit "Import".
 
@@ -104,7 +104,7 @@ Mit "Speichern und abschliessen" geben Teilnehmende das fertig ausgefüllte Form
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 
 **Weiterführend**<br>

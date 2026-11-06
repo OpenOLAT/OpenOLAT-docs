@@ -23,8 +23,8 @@ The offer places the implementation in the catalog, thereby enables booking and 
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Catalog 2.0 - Offers >](../catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Reports: Booking orders >](../Reports_BookingOrders.md)<br>

@@ -20,7 +20,7 @@ Die Raumverwaltung im Course Planner steht zwei Rollen zur Verfügung:
 
 Alle übrigen Rollen sehen den Bereich nicht, auch Produktbesitzer:in, Elementbesitzer:in und Principal. Kursbesitzer:in, Klassenlehrer:in, Betreuer:in und Teilnehmer:in arbeiten an der Durchführung des Kurses, nicht an dessen organisatorischer Planung.
 
-Beide Rollen lesen die Angaben. Räume und Gebäude legen Systemadministrator:innen in der System-Administration an und ändern sie dort: `Administration > Module > Räume`. Die vollständige Übersicht der Rechte finden Sie in der [Rechte-Matrix](../area_modules/Course_Planner.de.md#rights_matrix) des Course Planners.
+Beide Rollen lesen die Angaben. Räume und Gebäude legen Systemadministrator:innen in der System-Administration an und ändern sie dort: `Administration > Module > Räume`. Die vollständige Übersicht der Rechte finden Sie in der [Rechte-Matrix](../area_modules/Course_Planner/index.de.md#rights_matrix) des Course Planners.
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -119,11 +119,11 @@ Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung da
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Kopieren eines Kurses mit Wizard >](../learningresources/Course_Copy_Wizard.de.md)<br>
 [Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
-[Course Planner: Import / Export >](Course_Planner_Import_Export.de.md)
+[Course Planner: Import / Export >](Course_Planner_Import_Export/index.de.md)
 
 [zum Seitenanfang ^](#course_planner_rooms)

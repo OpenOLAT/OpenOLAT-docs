@@ -73,7 +73,7 @@ You do not have to set the switch yourself in every case. In three cases, OpenOl
 
 In the following cases, the switch stays unchanged:
 
-- events are created via "Import events" or via the [import wizard of the Course Planner](../area_modules/Course_Planner_Import_Export.md#import_wizard),
+- events are created via "Import events" or via the [import wizard of the Course Planner](../area_modules/Course_Planner_Import_Export/index.md#import_wizard),
 - an event is edited and saved or copied in the "Events" tab of an implementation.
 
 In these cases, switch on the Event & absence management manually.
@@ -209,7 +209,7 @@ Traditional courses do not have the option "Calculation of learning progress".
 [Module Time periods >](../../manual_admin/administration/Modules_Time_Period.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.md)<br>
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export/index.md)<br>
 [User tools: Absences >](../personal_menu/Absences.md)<br>
 [Basic concept events and absences >](../basic_concepts/Events_and_Absences.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)
@@ -217,7 +217,7 @@ Traditional courses do not have the option "Calculation of learning progress".
 **Further reading**<br>
 [Events and absences >](../learningresources/Events_and_absences.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)
 
 [To the top of the page ^](#tab_execution)

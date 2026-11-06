@@ -28,7 +28,7 @@ Auch eine [Massensuche](Search_General.de.md#bulk_search) steht zur Verfügung.
 
 ## Personensuche im Coaching {: #coachingtool}
 
-Das [Coaching](../area_modules/Coaching.de.md) dient der kursübergreifenden Betreuung von Teilnehmer:innen. Bei vielen Kursen und Teilnehmer:innen hilft eine [Personensuche](../area_modules/Coaching_User_Search.de.md), die nur innerhalb des von Ihnen betreuten Personenkreises sucht.
+Das [Coaching](../area_modules/Coaching/index.de.md) dient der kursübergreifenden Betreuung von Teilnehmer:innen. Bei vielen Kursen und Teilnehmer:innen hilft eine [Personensuche](../area_modules/Coaching_User_Search.de.md), die nur innerhalb des von Ihnen betreuten Personenkreises sucht.
 
 ![Suchformular mit Konto-Angaben und der Checkbox Nur aktive, geöffnet über den markierten Eintrag Personensuche im Menü des Coaching](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox"}
 
@@ -53,7 +53,7 @@ Kursmitglieder, die auf den gewählten Kursbaustein keinen Zugriff haben (weil s
 ## Weiterführende Informationen {: #further_information}
 
 [Allgemeines zur Suche >](Search_General.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Coaching - Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>
 [Lokale Suche >](Search_Local.de.md)<br>

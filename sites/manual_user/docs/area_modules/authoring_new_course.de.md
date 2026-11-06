@@ -136,7 +136,7 @@ Mit "Einbinden" erstellen Sie die Lernressource.
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
 
 **Weiterführend**<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)
 
 **youtube**<br>

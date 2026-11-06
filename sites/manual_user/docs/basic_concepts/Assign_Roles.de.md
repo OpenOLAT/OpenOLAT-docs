@@ -139,7 +139,7 @@ Für jede Person-zu-Person-Beziehung können spezifische Rechte definiert und so
 **Weiterführend**<br>
 [Welche Rollen gibt es? >](Roles.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)
 
 **youtube**<br>
 [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>)

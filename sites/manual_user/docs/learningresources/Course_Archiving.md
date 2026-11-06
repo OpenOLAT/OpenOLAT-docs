@@ -127,7 +127,7 @@ Course results contain the summarized overall assessment of a course, _not_ indi
 
 ### Memberships [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9787)" }](https://track.frentix.com/issue/OO-9787) {: #memberships}
 
-If you evaluate result exports of a course outside OpenOlat or settle the work of the coaches, you need an overview of who has which role in which group. The Excel file "Memberships" provides this overview for the whole course in one file: all participants, coaches and owners with their role in the course, in each group of the course and in each element of the [Course Planner](../area_modules/Course_Planner.md) the course is linked to. You can filter it directly and combine it with other exports.
+If you evaluate result exports of a course outside OpenOlat or settle the work of the coaches, you need an overview of who has which role in which group. The Excel file "Memberships" provides this overview for the whole course in one file: all participants, coaches and owners with their role in the course, in each group of the course and in each element of the [Course Planner](../area_modules/Course_Planner/index.md) the course is linked to. You can filter it directly and combine it with other exports.
 
 You download the file directly, with the button "Start" under:<br>
 `Course > Administration > Archiving & Reporting > Reports > Memberships`
@@ -246,7 +246,7 @@ Here the chat history can be exported as an xlsx file and also deleted.
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
 [Course Element "Checklist" >](../learningresources/Course_Element_Checklist.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Customizing: Overview >](../../manual_admin/administration/Customizing.md)<br>
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)<br>

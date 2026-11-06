@@ -26,7 +26,7 @@ If there is no suitable form yet, create a new learning resource form with "Crea
 
 A newly created form does not yet contain a rubric element. Add it in the course editor via "Edit" or directly in the learning resource in the [form editor](Form_Editor.md).
 
-A form that you create in the course editor is a learning resource of its own. You find it in the [authoring area](../area_modules/Authoring.md) under "My entries" and can embed it in further courses.
+A form that you create in the course editor is a learning resource of its own. You find it in the [authoring area](../area_modules/Authoring/index.md) under "My entries" and can embed it in further courses.
 
 Once a form is selected, the tab shows its title and the buttons "Replace" and "Edit". With "Edit" you design the form; if it was already set up appropriately, this is not necessary. "Replace" only appears as long as no rubric assessment has been started in this course element.
 
@@ -77,7 +77,7 @@ With "Start new bulk assessment" you assess several persons in one go, see [Cour
 [Course Element "Task" >](Course_Element_Task/index.md)<br>
 [Course Element "Assessment" >](Course_Element_Assessment.md)<br>
 [The form editor >](Form_Editor.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Levels/Grading >](Assessment_translate_points_in_grades.md)<br>
 [Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)

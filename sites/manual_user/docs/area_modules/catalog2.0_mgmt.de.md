@@ -64,7 +64,7 @@ Sobald die Kompetenz erteilt wird, erscheint für diese Person der Link "Katalog
 
 ## Was bearbeiten Sie in der Katalog-Verwaltung? {: #functions}
 
-In der Katalog-Verwaltung bearbeiten Sie die Taxonomie des Katalogs, nicht die Lernressourcen. Kurse und andere Lernressourcen bearbeiten und löschen Sie [im Autorenbereich](../area_modules/Authoring.de.md), zum Beispiel wenn sie beendet sind.
+In der Katalog-Verwaltung bearbeiten Sie die Taxonomie des Katalogs, nicht die Lernressourcen. Kurse und andere Lernressourcen bearbeiten und löschen Sie [im Autorenbereich](../area_modules/Authoring/index.de.md), zum Beispiel wenn sie beendet sind.
 
 Welche Tabs Sie sehen, hängt von Ihrem Recht ab:
 
@@ -165,7 +165,7 @@ Hier liegen die Dokumente gelöschter Taxonomieebenen. Löschen Sie eine Ebene, 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Wie zeige ich meine Kurse im OpenOlat-Katalog? >](../../manual_how-to/catalog/catalog.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>

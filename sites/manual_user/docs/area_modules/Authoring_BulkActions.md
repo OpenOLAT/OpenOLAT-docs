@@ -107,7 +107,7 @@ With the button "Delete" above the table, you delete several learning resources 
 
 For safety, you confirm the action once more. The owners of the learning resource will be notified by email, if configured.
 
-After deletion, the learning resources will only appear in the ["Deleted" tab](../area_modules/Authoring.md#authoring-deleted) (trash function) for the respective owners, learning resource managers, and administrators.
+After deletion, the learning resources will only appear in the ["Deleted" tab](../area_modules/Authoring/index.md#authoring-deleted) (trash function) for the respective owners, learning resource managers, and administrators.
 
 As the owner, you can restore deleted learning resources. Only administrators or learning resource managers can permanently delete learning resources.
 
@@ -129,7 +129,7 @@ To edit the content of a learning resource, open its editor directly from the ta
 
 You only see the entry for learning resources that can be edited and that are neither in the status "Finished" nor in the trash.
 
-The pencil symbol in the column "Edit content" opens the same editor. You show this column yourself if needed, see [Configure columns](Authoring.md#configure_columns). The tooltip of the symbol names the editor.
+The pencil symbol in the column "Edit content" opens the same editor. You show this column yourself if needed, see [Configure columns](Authoring/index.md#configure_columns). The tooltip of the symbol names the editor.
 
 ### Further options for individual learning resources {: #row_menu}
 
@@ -171,7 +171,7 @@ If the table row is a learning path course, the menu also shows the option "Copy
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
-[Authoring - Overview >](Authoring.md)<br>
+[Authoring - Overview >](Authoring/index.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)<br>
 [Copy a course with wizard >](../learningresources/Course_Copy_Wizard.md)

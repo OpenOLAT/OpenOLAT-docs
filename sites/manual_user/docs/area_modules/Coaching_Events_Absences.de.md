@@ -20,7 +20,7 @@ Sind Sie Dozent:in von Terminen und zugleich Klassenlehrer:in einer Durchführun
 * **Als Betreuer:in** zeigt die Termine, bei denen Sie als Dozent:in eingetragen sind.
 * **Als Klassenlehrer** zeigt die Termine und Absenzen Ihrer Klassen, also der Durchführungen, in denen Sie Klassenlehrer:in sind.
 
-Haben Sie nur eine der beiden Rollen, fehlen die Buttons, und Sie sehen direkt die Termine dieser Rolle. Wer Klassenlehrer:in ist, wird im [Course Planner](../../manual_user/area_modules/Course_Planner.de.md) für jede Durchführung einzeln festgelegt. Dafür muss das Modul Course Planner eingeschaltet sein.
+Haben Sie nur eine der beiden Rollen, fehlen die Buttons, und Sie sehen direkt die Termine dieser Rolle. Wer Klassenlehrer:in ist, wird im [Course Planner](../../manual_user/area_modules/Course_Planner/index.de.md) für jede Durchführung einzeln festgelegt. Dafür muss das Modul Course Planner eingeschaltet sein.
 
 [Zum Seitenanfang ^](#events)
 
@@ -154,7 +154,7 @@ Mit dem Link "Suche nach Teilnehmer:innen" kehren Sie zur Personensuche zurück.
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Coaching - Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Absenzenverwaltung >](../area_modules/Absence_Management.de.md)
 
 **Weiterführend**<br>
@@ -163,7 +163,7 @@ Mit dem Link "Suche nach Teilnehmer:innen" kehren Sie zur Personensuche zurück.
 [Coaching - Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching - Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching - Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
+[Coaching - Reports >](../../manual_user/area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching - Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching - Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)<br>

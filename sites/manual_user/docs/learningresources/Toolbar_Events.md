@@ -164,6 +164,6 @@ Here you work with the events themselves: you create events and record absences.
 [Toolbar: Overview >](../learningresources/Toolbar.md)<br>
 [Events and Absences (basic concept) >](../basic_concepts/Events_and_Absences.md)<br>
 [User tools: Absences >](../personal_menu/Absences.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)
+[Coaching - Overview >](../area_modules/Coaching/index.md)
 
 [To the top of the page ^](#toolbar_events)

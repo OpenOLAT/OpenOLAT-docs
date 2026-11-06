@@ -74,7 +74,7 @@ Klicken Sie auf den Button "Herunterladen" (Symbol mit Pfeil nach unten) rechts 
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)
 
 **Weiterführend**<br>
-[Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring/index.de.md)<br>
 [Mit Tabellen arbeiten >](../../manual_user/basic_concepts/Table_Concept.de.md)<br>
 [Löschen (eines Kurses/einer Lernressource) >](../../manual_user/learningresources/Course_Delete.de.md)
 

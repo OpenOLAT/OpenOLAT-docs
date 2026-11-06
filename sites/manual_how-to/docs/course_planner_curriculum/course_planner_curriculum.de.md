@@ -14,7 +14,7 @@
 ??? abstract "Erwartete Vorkenntnisse"
 
     * ["Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen?"](../course_planner_courses/course_planner_courses.de.md)<br>
-    * [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+    * [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 
 
 Lehrgang, Bildungsgang, Studiengang oder Ausbildung: Im Course Planner heisst das Angebot Produkt, der einzelne Durchgang Durchführung. Sie planen zum Beispiel einen Lehrgang mit zwei Semestern und je drei Modulen, und jedes Modul ist ein Kurs. Der Lehrgang startet jeden Herbst neu, mit neuen Teilnehmer:innen.
@@ -35,9 +35,9 @@ Bevor Sie beginnen, prüfen Sie, ob Sie auf der richtigen Seite sind. Wählen Si
 | Mehrere Kurse in einer Baumstruktur | "Unterelemente" = "Ja", Kurse an den Unterelementen | diese Anleitung, alle Schritte |
 
 Die drei Planungen mit Grafiken erklärt das Benutzerhandbuch:<br>
-[Planung für Einzelkurse >](../../manual_user/area_modules/Course_Planner.de.md#planning_single_courses)<br>
-[Planung für Course Bundles >](../../manual_user/area_modules/Course_Planner.de.md#planning_course_bundles)<br>
-[Planung für strukturierte Bildungsgänge >](../../manual_user/area_modules/Course_Planner.de.md#planning_structured_product)
+[Planung für Einzelkurse >](../../manual_user/area_modules/Course_Planner/index.de.md#planning_single_courses)<br>
+[Planung für Course Bundles >](../../manual_user/area_modules/Course_Planner/index.de.md#planning_course_bundles)<br>
+[Planung für strukturierte Bildungsgänge >](../../manual_user/area_modules/Course_Planner/index.de.md#planning_structured_product)
 
 [zum Seitenanfang ^](#plan_and_run_curriculum_with_course_planner)
 
@@ -53,7 +53,7 @@ Die drei Planungen mit Grafiken erklärt das Benutzerhandbuch:<br>
 Damit Sie die Schritte ausführen können, müssen vier Voraussetzungen erfüllt sein:
 
 - **Course Planner eingeschaltet**: Systemadministrator:innen schalten den Course Planner in der System-Administration ein, mit dem Schalter Modul "Course Planner" unter `Administration > Module > Course Planner > Tab "Einstellungen"`.
-- **Rolle**: Sie haben die Rolle Kursplaner:in oder sind Produktbesitzer:in des Produkts. Autor:innen haben keinen Zugang zum Course Planner, siehe [Wer kann den Course Planner nutzen? >](../../manual_user/area_modules/Course_Planner.de.md#users)
+- **Rolle**: Sie haben die Rolle Kursplaner:in oder sind Produktbesitzer:in des Produkts. Autor:innen haben keinen Zugang zum Course Planner, siehe [Wer kann den Course Planner nutzen? >](../../manual_user/area_modules/Course_Planner/index.de.md#users)
 - **Elementtypen**: Es gibt passende Elementtypen für die Durchführung und ihre Elemente (Schritt 1).
 - **Kurse**: Die Kurse tragen den Verwendungszweck "Verwendung im Course Planner", Kurstemplates den Verwendungszweck "Template" (Schritt 5).
 
@@ -261,7 +261,7 @@ Teilnehmer:innen übernimmt die Kopie nie, die neue Durchführung startet ohne s
 Im Schritt "Übersicht Elemente" verschieben Sie mit dem Button "Alle Daten schieben" alle Datumsangaben gemeinsam, zum Beispiel um ein Jahr. Im Dialog wählen Sie unter "Verschiebung nach" ein neues "Datum" oder eine Anzahl "Tage". Hat die Vorlage keinen Durchführungszeitraum, zeigt "Bezugsdatum (frühestes)" keinen Wert, und Sie verschieben mit "Tage". Hat die Durchführung Angebote, folgt ein Schritt "Angebote".
 
 Planen Sie viele Durchführungen auf einmal, legen Sie sie alternativ mit dem Excel-Import an. Organisationen, Elementtypen und Fachbereiche müssen dafür bereits bestehen. Wie das geht, zeigt das Benutzerhandbuch unter:<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.de.md)
 
 [zum Seitenanfang ^](#plan_and_run_curriculum_with_course_planner)
 
@@ -272,14 +272,14 @@ Planen Sie viele Durchführungen auf einmal, legen Sie sie alternativ mit dem Ex
 
 **Auf dieser Seite erwähnt**<br>
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../course_planner_courses/course_planner_courses.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.de.md)
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.de.md)
 
 **Weiterführend**<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.de.md)
 
 [zum Seitenanfang ^](#plan_and_run_curriculum_with_course_planner)

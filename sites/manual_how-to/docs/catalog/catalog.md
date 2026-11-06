@@ -23,7 +23,7 @@
 
 ### a) As a registered user {: #catalog_where_reg}
 
-OpenOlat users mostly see "Courses" and "Groups" in the main navigation if they are participants. Authors additionally see "Authoring". But the sites in the main navigation can vary. Depending on the role or activated modules, more sites can be added to the main navigation, for example, the catalog. If system administrators have activated the [catalog (version 2.0)](../../manual_user/area_modules/catalog2.0.md) in the system administration, you will find the site "Catalog" in the main navigation. If no catalog is displayed in the main navigation, please contact the system administrators of your OpenOlat instance.
+OpenOlat users mostly see "Courses" and "Groups" in the main navigation if they are participants. Authors additionally see "Authoring". But the sites in the main navigation can vary. Depending on the role or activated modules, more sites can be added to the main navigation, for example, the catalog. If system administrators have activated the [catalog (version 2.0)](../../manual_user/area_modules/catalog2.0/index.md) in the system administration, you will find the site "Catalog" in the main navigation. If no catalog is displayed in the main navigation, please contact the system administrators of your OpenOlat instance.
 
 ![Marked entry Catalog next to Courses and Groups, below it the catalog with search field](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" title="Catalog in the main navigation" }
 
@@ -46,7 +46,7 @@ However, the link can also be incorporated elsewhere, e.g., into a website, or s
 
 !!! info "Important"
 
-    In OpenOlat there are 2 versions of the catalog: [catalog 1.0](../../manual_user/area_modules/catalog1.0.md) and [catalog 2.0](../../manual_user/area_modules/catalog2.0.md).
+    In OpenOlat there are 2 versions of the catalog: [catalog 1.0](../../manual_user/area_modules/catalog1.0.md) and [catalog 2.0](../../manual_user/area_modules/catalog2.0/index.md).
     The following describes the procedure in **catalog 2.0**.
 
 
@@ -226,7 +226,7 @@ In a launcher, only offers that contain a specific taxonomy keyword are displaye
 
 **Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
-[Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0.md)<br>
+[Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0/index.md)<br>
 [Externally available catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
 [Catalog 1.0 >](../../manual_user/area_modules/catalog1.0.md)<br>
 [Course Settings >](../../manual_user/learningresources/Course_Settings.md)<br>

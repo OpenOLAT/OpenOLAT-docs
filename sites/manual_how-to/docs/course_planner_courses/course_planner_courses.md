@@ -436,8 +436,8 @@ You can find more about the automation in the user manual under:<br>
 [Copy (a course) >](../../manual_user/learningresources/Course_Copy.md)
 
 **Further reading**<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.md)
 
 [To the top of the page ^](#plan_and_run_courses_with_course_planner)
 

@@ -4,7 +4,7 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 
 ## Schritt 1: Lernressource Formular erstellen
 
-1. Im [Autorenbereich](../area_modules/Authoring.de.md) den Link "Erstellen" anklicken und die Lernressource "Formular" wählen.
+1. Im [Autorenbereich](../area_modules/Authoring/index.de.md) den Link "Erstellen" anklicken und die Lernressource "Formular" wählen.
 2. Vergeben Sie einen Titel für das Formular.
 3. Es erscheint das Menü "[Einstellungen](../learningresources/Course_Settings.de.md)" der Administration. Hier können Sie optional gleich oder später weitere Einstellungen vornehmen, z.B. eine Lizenz bei den Metadaten hinterlegen.
 
@@ -36,7 +36,7 @@ Weitere Einzelheiten zur Verwendung des Formulareditors finden Sie im Kapitel "[
 
 ## Schritt 3: Formular im Kurs einbinden
 
-1. Gehen Sie in den [Autorenbereich](../area_modules/Authoring.de.md). Im Bereich "Meine Kurse" sowie unter "Meine Einträge" und gegebenenfalls unter "Favoriten" finden Sie Ihre Kurse. Starten Sie den Kurs, in dem das Formular eingebunden werden soll.
+1. Gehen Sie in den [Autorenbereich](../area_modules/Authoring/index.de.md). Im Bereich "Meine Kurse" sowie unter "Meine Einträge" und gegebenenfalls unter "Favoriten" finden Sie Ihre Kurse. Starten Sie den Kurs, in dem das Formular eingebunden werden soll.
 2. Öffnen Sie über die "Administration" den ["Kurseditor"](../../manual_how-to/my_first_course/my_first_course.de.md).
 
     Wählen sie "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](../learningresources/Course_Elements.de.md) Formular, Umfrage oder [Bewertung](../learningresources/Course_Element_Assessment.de.md), je nach Ihrem Szenario.
@@ -67,7 +67,7 @@ Weitere Einzelheiten zur Verwendung des Formulareditors finden Sie im Kapitel "[
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Autorenbereich - Übersicht](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht](../area_modules/Authoring/index.de.md)<br>
 [Kurseinstellungen](../learningresources/Course_Settings.de.md)<br>
 [Formulare in Kursen](../learningresources/Forms_in_Courses.de.md)<br>
 [Der Formulareditor](../learningresources/Form_Editor.de.md)<br>

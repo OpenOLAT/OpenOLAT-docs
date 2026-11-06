@@ -27,7 +27,7 @@ Gibt es noch kein passendes Formular, legen Sie mit "Erstellen" eine neue Lernre
 
 Ein neu erstelltes Formular enthält noch kein Element Rubrik. Fügen Sie es im Kurseditor über "Bearbeiten" hinzu oder direkt in der Lernressource im [Formulareditor](../learningresources/Form_Editor.de.md).
 
-Ein Formular, das Sie im Kurseditor erstellen, ist eine eigene Lernressource. Sie finden es im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" und können es in weiteren Kursen einbinden.
+Ein Formular, das Sie im Kurseditor erstellen, ist eine eigene Lernressource. Sie finden es im [Autorenbereich](../area_modules/Authoring/index.de.md) unter "Meine Einträge" und können es in weiteren Kursen einbinden.
 
 Ist ein Formular ausgewählt, zeigt der Tab seinen Titel und die Schaltflächen "Ersetzen" und "Bearbeiten". Mit "Bearbeiten" gestalten Sie das Formular; war es schon vorher passend eingerichtet, ist das nicht nötig. "Ersetzen" erscheint nur, solange in diesem Kursbaustein noch keine Rubrik-Bewertung begonnen wurde.
 
@@ -78,7 +78,7 @@ Mit "Neue Massenbewertung starten" bewerten Sie mehrere Personen in einem Durchg
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
 [Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)

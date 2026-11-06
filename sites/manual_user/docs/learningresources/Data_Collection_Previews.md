@@ -38,7 +38,7 @@ See [Module Quality Management](../../manual_admin/administration/Modules_Qualit
 
 **Further information**<br>
 [Quality Management: Data Collection Preview >](../area_modules/Quality_Management_Data_Collection_Preview.md)<br>
-[Quality Management: Overview >](../area_modules/Quality_Management.md)<br>
+[Quality Management: Overview >](../area_modules/Quality_Management/index.md)<br>
 [Quality Management: Data collections >](../area_modules/Quality_Management_Data_Collections.md)
 
 [To the top of the page ^](#Data_Collection_Preview)

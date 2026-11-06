@@ -23,7 +23,7 @@ Seit Release 17.0 wurden über 70 neue Funktionen und Verbesserungen zu OpenOlat
 
 ## Katalog 2.0 - Verbesserungen und Ergänzungen
 
-Nach dem Start des [Katalogs 2.0](../manual_user/area_modules/catalog2.0.de.md) im Release 17.0 wurde dieser weiter verfeinert und das Feedback unserer Community eingearbeitet. Folgende Neuerungen sind nun verfügbar:
+Nach dem Start des [Katalogs 2.0](../manual_user/area_modules/catalog2.0/index.de.md) im Release 17.0 wurde dieser weiter verfeinert und das Feedback unserer Community eingearbeitet. Folgende Neuerungen sind nun verfügbar:
 
 * Die Katalog- und Taxonomieverwaltung wird vom Lernressourcenverwalter vorgenommen und kann direkt über den Katalog aufgerufen werden.
 * Launcher für die Katalog-Startseite können auf Organisationseinheiten eingeschränkt und somit nur für User der entsprechenden Organisation freigegeben werden.

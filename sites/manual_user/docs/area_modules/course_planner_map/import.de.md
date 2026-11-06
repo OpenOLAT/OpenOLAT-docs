@@ -23,8 +23,8 @@ Produkte und Durchführungen können neu erstellt oder aktualisiert werden; Benu
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
-[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
-[Course Planner: Import / Export >](../Course_Planner_Import_Export.de.md)<br>
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
+[Course Planner: Import / Export >](../Course_Planner_Import_Export/index.de.md)<br>
 [Course Planner: Import/Export - Referenz >](../Course_Planner_Import_Export_Reference.de.md)<br>
 [Course Planner: Produkte >](../Course_Planner_Products.de.md)

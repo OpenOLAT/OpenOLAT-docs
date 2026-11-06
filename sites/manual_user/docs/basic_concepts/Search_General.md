@@ -150,8 +150,8 @@ OpenOlat counts every access, not every person: if the same person downloads a f
 **Further reading**<br>
 [Account search >](../../manual_admin/usermanagement/Search_Users.md)<br>
 [Coaching - User search >](../area_modules/Coaching_User_Search.md)<br>
-[Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)
+[Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)
 
 **youtube**<br>
 [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>)

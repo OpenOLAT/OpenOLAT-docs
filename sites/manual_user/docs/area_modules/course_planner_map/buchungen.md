@@ -23,9 +23,9 @@ Booking orders arise from catalog bookings; the offer type "Invoice" supplies th
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Reports: Booking orders >](../Reports_BookingOrders.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Catalog 2.0 - Offers >](../catalog2.0_angebote.md)<br>
-[Course Planner: Reports >](../Course_Planner_Reports.md)
+[Course Planner: Reports >](../Course_Planner_Reports/index.md)

@@ -105,7 +105,7 @@ For example, a reminder could be sent to those participants who have never acces
 [Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)<br>
 [Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
 [Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
-[Coaching - Overview >](../../manual_user/area_modules/Coaching.md)
+[Coaching - Overview >](../../manual_user/area_modules/Coaching/index.md)
 
 **youtube**<br>
 [Wie sehe ich den Lernfortschritt von mir betreuter Teilnehmer:innen?](<https://www.youtube.com/embed/VO7TyxN9EOA>)

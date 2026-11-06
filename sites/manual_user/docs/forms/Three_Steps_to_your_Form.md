@@ -4,7 +4,7 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 ## Step 1: Create learning resource form
 
-1. In the [Authoring Area](../area_modules/Authoring.md) click on the link "Create" and select the learning resource "Form".
+1. In the [Authoring Area](../area_modules/Authoring/index.md) click on the link "Create" and select the learning resource "Form".
 2. Enter a title for the form.
 3. The menu "[Settings](../learningresources/Course_Settings.md)" of the administration appears. Here you can optionally make further settings immediately or later, e.g. store a license in the metadata.
 
@@ -36,7 +36,7 @@ For more details on how to use the form editor, see the "[Form editor](../learni
 
 ## Step 3: Embed form directly in course
 
-1. Go to the [Authoring Area](../area_modules/Authoring.md). In the area "My courses" as well as under "My entries" and if necessary under "Favorites" you will find your courses. Start the course in which the form is to be integrated.
+1. Go to the [Authoring Area](../area_modules/Authoring/index.md). In the area "My courses" as well as under "My entries" and if necessary under "Favorites" you will find your courses. Start the course in which the form is to be integrated.
 
 2. Open the ["Course editor"](../../manual_how-to/my_first_course/my_first_course.md) via "Administration".
 
@@ -68,7 +68,7 @@ For more details on how to use the form editor, see the "[Form editor](../learni
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Authoring - Overview](../area_modules/Authoring.md)<br>
+[Authoring - Overview](../area_modules/Authoring/index.md)<br>
 [Course Settings](../learningresources/Course_Settings.md)<br>
 [Forms in courses](../learningresources/Forms_in_Courses.md)<br>
 [The form editor](../learningresources/Form_Editor.md)<br>

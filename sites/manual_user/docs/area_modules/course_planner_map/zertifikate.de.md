@@ -23,6 +23,6 @@ Ein Zertifikat wird für den Besuch einer Durchführung oder mehrerer Kurse ausg
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
-[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../Course_Planner_Certification_Programs.de.md)

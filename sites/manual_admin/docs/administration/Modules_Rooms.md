@@ -112,7 +112,7 @@ Course planners reach the same view in the Course Planner under `Course Planner 
 [Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)
 
 **Further reading**<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)
 

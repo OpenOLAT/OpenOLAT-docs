@@ -22,9 +22,9 @@ Two people can therefore see different menus after logging in. If a menu item is
 | Who | Working area | Typical tasks |
 |---|---|---|
 | **Learners**<br>course role participant | [Courses](../area_modules/Courses.md) | open and complete courses, manage favourites, track their own learning progress |
-| **Coaches**<br>course role coach or owner, group coach, education manager | [Coaching](../area_modules/Coaching.md) | accompany, assess and manage supervised people, courses and groups across courses |
-| **Course creators**<br>organisation role author | [Authoring area](../area_modules/Authoring.md) | create, import and maintain courses and other learning resources |
-| **Course planners**<br>organisation role course planner | [Course Planner](../area_modules/Course_Planner.md) | plan and manage products, implementations and dates of the educational offering |
+| **Coaches**<br>course role coach or owner, group coach, education manager | [Coaching](../area_modules/Coaching/index.md) | accompany, assess and manage supervised people, courses and groups across courses |
+| **Course creators**<br>organisation role author | [Authoring area](../area_modules/Authoring/index.md) | create, import and maintain courses and other learning resources |
+| **Course planners**<br>organisation role course planner | [Course Planner](../area_modules/Course_Planner/index.md) | plan and manage products, implementations and dates of the educational offering |
 | **System managers**<br>role system administrator | [Administration](../../manual_admin/administration/System.md) | configure and monitor the OpenOlat instance technically |
 
 The working areas complement each other without overlapping. This keeps each area focused on its task: those who complete a course are not distracted by administrative functions; those who coach or plan find all the necessary tools in one place.
@@ -56,10 +56,10 @@ Besides the core areas, there are further menu items and areas that only become 
 | Roles manager | [User management](../../manual_admin/usermanagement/index.md), with the right to assign roles |
 | Group manager | "Groups" menu item, additional tab [Group management](../area_modules/Group_Management.md) |
 | Question bank manager | [Question bank](../area_modules/Question_Bank/index.md), including the Administration area |
-| Quality manager | [Quality management](../area_modules/Quality_Management.md) menu item |
+| Quality manager | [Quality management](../area_modules/Quality_Management/index.md) menu item |
 | Absence manager | [Absence management](../area_modules/Absence_Management.md) menu item |
 | Project manager | "Projects" menu item, additional tab [Administration](../area_modules/Project_Admin.md) |
-| Learning resource manager | [Authoring area](../area_modules/Authoring.md), with owner rights for the courses and learning resources of their own organisation |
+| Learning resource manager | [Authoring area](../area_modules/Authoring/index.md), with owner rights for the courses and learning resources of their own organisation |
 | Administrator | Module and function administration: access to many areas such as user management, catalog management and Course Planner, but not to the administration page |
 | Principal | Read access to many areas of the system |
 
@@ -74,16 +74,16 @@ You find the complete description of all roles and the associated rights under [
 **Mentioned on this page**<br>
 [Roles and Rights: Which roles are available? >](Roles.md)<br>
 [Finding courses >](../area_modules/Courses.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Coaching - Overview >](../area_modules/Coaching/index.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [System >](../../manual_admin/administration/System.md)<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [User management >](../../manual_admin/usermanagement/index.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
-[Quality Management: Overview >](../area_modules/Quality_Management.md)<br>
+[Quality Management: Overview >](../area_modules/Quality_Management/index.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)<br>
 [Projects - Administration >](../area_modules/Project_Admin.md)<br>
 [Sites and modules >](../area_modules/index.md)

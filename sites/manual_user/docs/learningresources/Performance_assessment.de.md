@@ -19,7 +19,7 @@ Im Kapitel "[Tests erstellen](../learningresources/Test.de.md)" finden Sie weite
 ## Leistungsnachweis & Zertifikat
 
 Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete Aufgaben pro Kurs an. Leistungsnachweise müssen pro Kurs eingeschaltet werden und sind abrufbar, wenn es im betroffenen Kurs bewertbare Kursbausteine gibt und bereits ein solcher Kursbausteine absolviert und bewertet wurde. Leistungsnachweise sind für Teilnehmende im persönlichen Menü und im Kurs abrufbar, während Betreuer:innen diese im
-[Coaching-Tool](../area_modules/Coaching.de.md) einsehen können. Druckbare Zertifikate können mittels der Kurseinstellung
+[Coaching-Tool](../area_modules/Coaching/index.de.md) einsehen können. Druckbare Zertifikate können mittels der Kurseinstellung
 ["Leistungsnachweis"](../learningresources/Course_Settings.de.md) ausgestellt werden.
 
 ## Weiterführende Informationen {: #further_information}
@@ -36,7 +36,7 @@ Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle u
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
 [Tests erstellen >](../learningresources/Test.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)<br>
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)
 
 **Weiterführend**<br>

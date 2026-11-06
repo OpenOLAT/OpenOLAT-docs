@@ -55,7 +55,7 @@ In the tab "Survey" you configure the survey. In the first step, you select an e
 
 A newly created form does not yet contain any elements, questions or text fields. You add them in the [form editor](../learningresources/Form_Editor.md).
 
-OpenOlat creates a form that you create directly in the course editor as a new learning resource "Form". You also find it in the [Authoring area](../area_modules/Authoring.md) under "My entries" and include it in further courses.
+OpenOlat creates a form that you create directly in the course editor as a new learning resource "Form". You also find it in the [Authoring area](../area_modules/Authoring/index.md) under "My entries" and include it in further courses.
 
 Once a form is selected, the tab shows its title and the number of "Responses in this course". With "Preview" you see the form the way participants fill it in. With the button "Edit learning resource" you open the learning resource "Form" and design the form in the form editor. If the form has already been set up appropriately, no editing is necessary. Owners of the form, learning resource managers and administrators see the button. With "Replace" you select a different form, with the arrow next to it you import one with "Import".
 
@@ -131,7 +131,7 @@ Owners of the course reset a survey with "Reset" in the menu with the three dots
 [The form editor >](../learningresources/Form_Editor.md)<br>
 [Forms - Overview >](../learningresources/Form.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Modules: Overview >](../../manual_admin/administration/Modules.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)

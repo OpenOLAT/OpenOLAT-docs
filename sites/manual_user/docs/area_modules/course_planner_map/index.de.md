@@ -63,6 +63,6 @@ Legende: Konturfarbe = Ebene (Produkt, Durchführung, Element, Kurs) · Fläche 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](Course_Planner.de.md)
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)
 
 [zum Seitenanfang ^](#course_planner_map)

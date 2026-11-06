@@ -139,7 +139,7 @@ How groups are generally created and configured, and how group members are manag
 
 ## Course Planner {: #section_course_planner}
 
-If a course is linked to the [Course Planner](../area_modules/Course_Planner.md), the relevant information also appears in the members management.
+If a course is linked to the [Course Planner](../area_modules/Course_Planner/index.md), the relevant information also appears in the members management.
 
 ![Course Planner area in the members management with elements and their number of owners, coaches, and participants](assets/Course_Planner_Mitgliederverwaltung.png){ class="shadow lightbox" title="Course Planner area of the members management" }
 
@@ -276,7 +276,7 @@ If course-related terms of use or the course-related privacy policy are [activat
 [Module Groups >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Course Element "Topic Assignment" >](../learningresources/Course_Element_Topic_Assignment.md)<br>
 [Groups >](../groups/index.md)<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>

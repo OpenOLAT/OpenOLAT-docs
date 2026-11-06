@@ -12,7 +12,7 @@ System administrators switch on the "Time periods" module and set up the time pe
 
 The "#Uses" column shows how many learning resources use the time period. Use the tabs "All", "Relevant", "Default" and "Past" to restrict the list.
 
-The time periods appear in the course lists as the column "Time period" and can be sorted there, for example in the [Authoring area](../../manual_user/area_modules/Authoring.md):
+The time periods appear in the course lists as the column "Time period" and can be sorted there, for example in the [Authoring area](../../manual_user/area_modules/Authoring/index.md):
 
 ![Time period column sorted in ascending order, the sort button carries the same criterion, next to it the columns Begin and End](assets/Modules_Time_Period_authoring_filter_v1_en.png){ class="shadow lightbox" title="Search tab in the Authoring area" }
 
@@ -64,7 +64,7 @@ Set as default for courses | The time period is preselected when a learning reso
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Authoring - Overview >](../../manual_user/area_modules/Authoring.md)<br>
+[Authoring - Overview >](../../manual_user/area_modules/Authoring/index.md)<br>
 [Course Settings - Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
 [Finding courses >](../../manual_user/area_modules/Courses.md)<br>
 [Catalog 2.0 - Sorting/order >](../../manual_user/area_modules/catalog2.0_sort_offers.md)

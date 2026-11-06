@@ -77,7 +77,7 @@ This way, an announcement that only concerns the course goes with "All course pa
 **Further reading**<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)
 
 **youtube**<br>
 [Mitteilungen](<https://www.youtube.com/embed/3tAj19Avfkk>)<br>

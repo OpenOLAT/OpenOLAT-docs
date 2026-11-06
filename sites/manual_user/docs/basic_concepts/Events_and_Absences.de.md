@@ -6,7 +6,7 @@
 In OpenOlat gibt es grundsätzlich 2 Arten von Terminen:
 
 - einfache Termine (Einträge in Kalendern)
-- Termine mit Zusatzoptionen: Sie erscheinen in [Kursen](../learningresources/Events_and_absences.de.md), im [Course Planner](../area_modules/Course_Planner.de.md) und der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
+- Termine mit Zusatzoptionen: Sie erscheinen in [Kursen](../learningresources/Events_and_absences.de.md), im [Course Planner](../area_modules/Course_Planner/index.de.md) und der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
 Diese Termine können mit Online-Meetings verknüpft werden und es besteht die Möglichkeit zur Erfassung von Absenzen. Auch Dozent:innen können auf diese Termine gebucht werden. (Hinweis: Nur Betreuer:innen können zu Dozent:innen gemacht werden.)<br>
 Termine mit Zusatzoptionen können den Status "Geplant", "Am laufen", "Erledigt" oder "Abgesagt" haben.<br>
 Besteht keine Berechtigung, kann die Sicht auf Termine auch eingeschränkt sein.
@@ -169,7 +169,7 @@ Es ist zu unterscheiden zwischen
 6. der **kursübergreifenden Absenzenerfassung** durch Betreuer:innen<br>
     Die Möglichkeit zur Erfassung von Absenzen in verschiedenen Kursen finden Betreuer:innen unter:<br>
     `Coaching > Termine / Absenzen`<br>
-    [Mehr dazu >](../area_modules/Coaching.de.md)
+    [Mehr dazu >](../area_modules/Coaching/index.de.md)
 
 
 7. der **kursübergreifenden Absenzenverwaltung** durch Berechtigte mit der Rolle Absenzenverwalter:in.<br>
@@ -187,7 +187,7 @@ Es ist zu unterscheiden zwischen
 
 **Auf dieser Seite erwähnt**<br>
 [Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
 [Kursbaustein "Terminplanung" >](../learningresources/Course_Element_Appointment_Scheduling.de.md)<br>
 [Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
@@ -200,7 +200,7 @@ Es ist zu unterscheiden zwischen
 [Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching.de.md)
+[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)
 
 **Weiterführend**<br>
 [Coaching - Termine und Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>

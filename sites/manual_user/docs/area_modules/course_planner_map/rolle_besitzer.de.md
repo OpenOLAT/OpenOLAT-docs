@@ -11,6 +11,6 @@ Vollzugriff (lesend und schreibend) auf den eingebundenen Kurs; die Mitgliederve
 
 ## Weiterführende Informationen {: #further_information}
 
-[Course Planner: Übersicht >](../Course_Planner.de.md)<br>
-[Course Planner: Anwendungsmap >](../Course_Planner_Map.de.md)<br>
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles.de.md)

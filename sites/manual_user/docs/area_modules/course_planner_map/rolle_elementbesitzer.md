@@ -11,6 +11,6 @@ Access restricted to the assigned element (and its sub-elements) within a produc
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Roles and Rights: Authorisation in courses >](../../basic_concepts/Authorisation_Concept.md)

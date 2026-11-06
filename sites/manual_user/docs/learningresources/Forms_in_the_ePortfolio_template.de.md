@@ -14,7 +14,7 @@ Haben Sie noch kein Formular erstellt, können Sie eine neue Lernressource "Form
 
 Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular-Editor](../learningresources/Form_Editor.de.md) hinzugefügt werden.
 
-Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource "Formular" angelegt, die auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen und Kursbausteinen eingebunden werden kann.
+Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource "Formular" angelegt, die auch im [Autorenbereich](../area_modules/Authoring/index.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen und Kursbausteinen eingebunden werden kann.
 
 Nachdem ein Formular ausgewählt wurde, kann es über den Link "Bearbeiten" gestaltet werden. Wurde das Formular schon vorher passend eingerichtet, ist eine Bearbeitung nicht mehr notwendig.
 
@@ -34,7 +34,7 @@ Die Portfolio 2.0 Vorlage kann dann über den Kursbaustein "[Portfolioaufgabe](.
 [Portfoliovorlage: Erstellung >](Portfolio_template_Creation.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](../learningresources/Portfolio_template_Administration_and_editing.de.md)<br>
 [Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Portfolioaufgabe erstellen >](../learningresources/Creating_Portfolio_Tasks.de.md)
 
 [Zum Seitenanfang ^](#eportfolio_template_forms)

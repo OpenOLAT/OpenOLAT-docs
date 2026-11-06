@@ -58,7 +58,7 @@ Themen der Themenbörse | `Kurs > Administration > Kurseditor > Kursbaustein "Th
 Dateien der Themen | wie Themen der Themenbörse<br>Bereich "Dateien", neben "Vorlage" der Link "files_import_template.zip" | von OpenOlat für Ihre Instanz erstellt | files_import_template.zip | [Themen importieren](../learningresources/Course_Element_Topic_Broker.de.md#topic_broker_import_topics)
 Fragen (QTI 2.1 Excelimport) | `Fragenpool > Mein Fragenpool > Meine Fragen > Import > QTI 2.1 Excelimport über Copy&Paste`<br>oder `Test > Administration > Testeditor > Elemente hinzufügen > Fragen aus Excel importieren`<br>Schritt "Dateneingabe", Link "Vorlage Excelimport"<br>Im Fragenpool für Autor:innen, Poolverwalter:innen und Administrator:innen | mit OpenOlat ausgeliefert | ImportExample.xlsx | [Nutzung der Datei "Vorlage Excelimport"](../area_modules/Question_Bank_Import_Questions.de.md#excelimport)
 Termine | `Kurs > Administration > Termine und Absenzen > Tab Termine > Pfeil neben "Termin hinzufügen" > Termine importieren`<br>oder `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Termine > Pfeil neben "Termin hinzufügen" > Termine importieren`<br>Schritt "Dateneingabe", Link "Vorlage Excelimport"<br>Im Kurs für Kursbesitzer:innen, im Course Planner unter anderem für Kursplaner:innen | mit OpenOlat ausgeliefert | ImportLectureBlockExample.xlsx | [Termine importieren](../learningresources/Events_and_absences.de.md#import_events)<br>[Wie erstelle ich neue Termine?](../area_modules/Course_Planner_Events.de.md#create_events)
-Produkte, Durchführungen und Mitgliedschaften im Course Planner | `Course Planner > Mehr-Menü (⋮) > Importieren`<br>Schritt "Datei auswählen", unter "Importbeispiel" der Link "Excel Vorlage"<br>Für Kursplaner:innen und Administrator:innen | mit OpenOlat ausgeliefert | ProductsExample.xlsx | [Schritt 1: Datei auswählen](../area_modules/Course_Planner_Import_Export.de.md#step1)
+Produkte, Durchführungen und Mitgliedschaften im Course Planner | `Course Planner > Mehr-Menü (⋮) > Importieren`<br>Schritt "Datei auswählen", unter "Importbeispiel" der Link "Excel Vorlage"<br>Für Kursplaner:innen und Administrator:innen | mit OpenOlat ausgeliefert | ProductsExample.xlsx | [Schritt 1: Datei auswählen](../area_modules/Course_Planner_Import_Export/index.de.md#step1)
 
 [Zum Seitenanfang ^](#import_templates)
 
@@ -73,7 +73,7 @@ Produkte, Durchführungen und Mitgliedschaften im Course Planner | `Course Plann
 [Fragenpool: Fragen importieren >](../area_modules/Question_Bank_Import_Questions.de.md)<br>
 [Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
 [Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
-[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export.de.md)
+[Course Planner: Import / Export >](../area_modules/Course_Planner_Import_Export/index.de.md)
 
 **Weiterführend**<br>
 [Course Planner: Import/Export - Referenz >](../area_modules/Course_Planner_Import_Export_Reference.de.md)<br>

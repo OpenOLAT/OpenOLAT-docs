@@ -224,6 +224,6 @@ A click on the tile in the taxonomy launcher opens the microsite of the subject.
 
 **Further reading**<br>
 [Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
-[Catalog 2.0: Overview >](catalog2.0.md)
+[Catalog 2.0: Overview >](catalog2.0/index.md)
 
 [To the top of the page ^](#offers)

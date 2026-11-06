@@ -30,7 +30,7 @@ How accounts and memberships belong together and what the import does with them 
 You start the import wizard on the Course Planner dashboard via the more-menu (⋮) at the top right:<br>
 `Course Planner > More-menu (⋮) > Import`
 
-![Import entry in the more menu at the top right](assets/course_planner_import_v1_en.png){ class="shadow lightbox" title="Course Planner start page" }
+![Import entry in the more menu at the top right](../assets/course_planner_import_v1_en.png){ class="shadow lightbox" title="Course Planner start page" }
 
 [To the top of the page ^](#import_export)
 
@@ -49,19 +49,19 @@ Export is available to course planners and administrators for all products and i
 An export at implementation level always contains all related data including membership data, even for a bulk export of several selected implementations.
 
 ##### Navigation under Product
-![Export action in the menu of the three dots at the end of a product row](assets/course_planner_export_product_v1_en.png){ class="shadow lightbox" title="Product list of the Course Planner" }
+![Export action in the menu of the three dots at the end of a product row](../assets/course_planner_export_product_v1_en.png){ class="shadow lightbox" title="Product list of the Course Planner" }
 
 ##### Bulk action under Product
-![Two selected products and the Export button above the list](assets/course_planner_export_product_bulk_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Product list with two selected products" }
+![Two selected products and the Export button above the list](../assets/course_planner_export_product_bulk_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Product list with two selected products" }
 
 ##### Navigation under Implementation
-![Two selected implementations with the Export button above the list, plus the Export action in the row menu](assets/course_planner_export_implementation_v1_en.png){ class="shadow lightbox" title="List of implementations in the Course Planner" }
+![Two selected implementations with the Export button above the list, plus the Export action in the row menu](../assets/course_planner_export_implementation_v1_en.png){ class="shadow lightbox" title="List of implementations in the Course Planner" }
 
 ##### Navigation under Events
-![Export action in the row menu of an event](assets/course_planner_export_event_v1_en.png){ class="shadow lightbox" title="Event list of the Course Planner" }
+![Export action in the row menu of an event](../assets/course_planner_export_event_v1_en.png){ class="shadow lightbox" title="Event list of the Course Planner" }
 
 ##### Navigation under Members
-![Export action in the menu of the three dots at the top right of an implementation](assets/course_planner_export_member_v1_en.png){ class="shadow lightbox" title="Members tab of an implementation" }
+![Export action in the menu of the three dots at the top right of an implementation](../assets/course_planner_export_member_v1_en.png){ class="shadow lightbox" title="Members tab of an implementation" }
 
 The file name of the exported Excel file follows the pattern "CPL_Products_\<date and time\>".
 
@@ -71,10 +71,10 @@ The exported Excel file contains up to four sheets with data:
 
 * **Products:** Title, Reference, ORG - Reference, Absences, Description, Creation date, Last modified
 * **Implementations:** one row per object (implementation, element, template, course, or event), with object type, Reference, title, status, period, as well as type-specific fields such as calendar, absences, progress, or subject. The subject path starts with the taxonomy identifier ("\<Identifier\>:/\<Path\>") [:octicons-tag-16:{ title="from Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. For events, the column "Rooms" follows the location and lists the booked rooms in the format "building reference:room reference", several rooms separated by a semicolon. What the import does with this column is described in the section [Rooms of events](#import_rooms).
-* **Memberships:** one row per membership, with the references of product, implementation and element ("PROD - Reference", "IMPL - Reference", "Reference"), the role and the username. The role is a fixed value, for example PARTICIPANT for participant; the [reference](Course_Planner_Import_Export_Reference.md#enum_reference) lists all values.
+* **Memberships:** one row per membership, with the references of product, implementation and element ("PROD - Reference", "IMPL - Reference", "Reference"), the role and the username. The role is a fixed value, for example PARTICIPANT for participant; the [reference](../Course_Planner_Import_Export_Reference.md#enum_reference) lists all values.
 * **Users:** one row per user who appears in the "Memberships" sheet: username, first name, last name, e-mail, organisation membership, account expiration [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, creation date
 
-The export contains the "Memberships" and "Users" sheets only if the exporting person may see the administrative user properties, which include the username. Which roles may do so is set in the system administration: `Administration > Modules > Privacy`, option "Administrative user properties", see [Data privacy](../../manual_admin/administration/Modules.md#data_privacy). An export without these two sheets cannot be imported again, because the import wizard requires at least four sheets.
+The export contains the "Memberships" and "Users" sheets only if the exporting person may see the administrative user properties, which include the username. Which roles may do so is set in the system administration: `Administration > Modules > Privacy`, option "Administrative user properties", see [Data privacy](../../../manual_admin/administration/Modules.md#data_privacy). An export without these two sheets cannot be imported again, because the import wizard requires at least four sheets.
 
 In addition, every export file contains an "Export information" sheet with URL, OpenOlat version, export language, as well as date and name of the exporting person [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9217)" }](https://track.frentix.com/issue/OO-9217){:target="_blank"}.
 
@@ -134,13 +134,13 @@ The import reads the sheets by their order, not by their name: the third sheet a
 
 If you plan many events at once, you book their rooms in the same pass with the import. The rooms are in the column "Rooms" in the sheet "Implementations". The import reads the column only for events (object type EVENT). For all other object types, it is empty in the export, and the import skips a value there without a message.
 
-Each room appears in the cell with the reference of its building and its own reference, separated by a colon, for example "BG_1:AULA". A semicolon separates several rooms: "BG_1:AULA;BG_1:H101". Both references are assigned by the administration in the [Rooms module](../../manual_admin/administration/Modules_Rooms.md#rooms). The references of rooms that are already booked are in the export.
+Each room appears in the cell with the reference of its building and its own reference, separated by a colon, for example "BG_1:AULA". A semicolon separates several rooms: "BG_1:AULA;BG_1:H101". Both references are assigned by the administration in the [Rooms module](../../../manual_admin/administration/Modules_Rooms.md#rooms). The references of rooms that are already booked are in the export.
 
 !!! warning "Attention"
 
     The import replaces the room bookings of an event, it does not add to them. It books the rooms that are in the cell and removes every existing booking whose room is missing from the cell. An empty cell "Rooms" for an existing event therefore removes all room bookings of this event. The import wizard shows such a row as "Modified" in the step "Review implementations".
 
-The import does not check whether a room is free at the time of the event, and it also books inactive rooms. In the user interface, by contrast, only active rooms can be selected. After the import, Room scheduling shows double bookings and inactive rooms as [warnings](Course_Planner_Rooms.md#warnings).
+The import does not check whether a room is free at the time of the event, and it also books inactive rooms. In the user interface, by contrast, only active rooms can be selected. After the import, Room scheduling shows double bookings and inactive rooms as [warnings](../Course_Planner_Rooms.md#warnings).
 
 ### Handling errors and warnings {: #errors_warnings}
 
@@ -150,7 +150,7 @@ Above the table, an error message states how many rows of the step contain error
 
 Warnings do not prevent the import but indicate possible issues, for example when a value is too long and therefore gets shortened, or when an element has already been changed since the last export.
 
-The complete list of all error and warning codes can be found in the [Import/Export: Reference](Course_Planner_Import_Export_Reference.md#errors_warnings_reference).
+The complete list of all error and warning codes can be found in the [Import/Export: Reference](../Course_Planner_Import_Export_Reference.md#errors_warnings_reference).
 
 ### Steps of the import wizard {: #import_steps}
 
@@ -162,11 +162,11 @@ Upload the Excel file with the data to be imported in the field "Import file".
 
 As a pattern for the structure of the file, an example file is available for download above it, under "Import example" via the link "Excel template". It shows a product with two implementations including elements, courses, templates and events, plus memberships and users. In the example file, sheets and columns have English names. This does not matter for the import, because it reads sheets and columns by their position.
 
-![Conditions for the Excel file and the Excel template link under Import example](assets/course_planner_import_excel_v2_en.png){ class="shadow lightbox" title="Select file step of the import wizard · 2026.10.07" }
+![Conditions for the Excel file and the Excel template link under Import example](../assets/course_planner_import_excel_v2_en.png){ class="shadow lightbox" title="Select file step of the import wizard · 2026.10.07" }
 
 !!! info "Important"
 
-    The Excel file must meet the following conditions: the "Products" sheet must be present, all mandatory fields marked with an asterisk (\*) must be filled in, references must be unique across the entire system, and organisations, element types, and subjects must already exist in the system. Only certain attributes can be updated, the import ignores all others. The column "Updatable" in the [reference](Course_Planner_Import_Export_Reference.md#attribute_rules) shows which ones.
+    The Excel file must meet the following conditions: the "Products" sheet must be present, all mandatory fields marked with an asterisk (\*) must be filled in, references must be unique across the entire system, and organisations, element types, and subjects must already exist in the system. Only certain attributes can be updated, the import ignores all others. The column "Updatable" in the [reference](../Course_Planner_Import_Export_Reference.md#attribute_rules) shows which ones.
 
     In addition, the file needs at least four sheets. If it has fewer, the wizard reports: "The Excel file does not appear to be in the correct format for importing a product."
 
@@ -176,7 +176,7 @@ The table shows all products from the Excel file with their import status: "No c
 
 If a row contains an error, it is automatically excluded from the import and highlighted. Using the "Ignored" checkbox, error-free rows can also be deliberately excluded from the import. Rows with the import status "No changes" have no such checkbox, because the import does not change them anyway.
 
-![Filters from All to With changes and a new product with an error in ORG - Reference, automatically marked as Ignored](assets/course_planner_import_products_v2_en.png){ class="shadow lightbox" title="Review products step of the import wizard · 2026.10.07" }
+![Filters from All to With changes and a new product with an error in ORG - Reference, automatically marked as Ignored](../assets/course_planner_import_products_v2_en.png){ class="shadow lightbox" title="Review products step of the import wizard · 2026.10.07" }
 
 #### Step 3: Review implementations {: #step3}
 
@@ -190,7 +190,7 @@ If the module "Events / Absences" is deactivated on the instance, events are aut
 
     If a course is configured with the usage "Standalone", administrators exceptionally see only a warning instead of an error, so that older courses not yet converted to the Course Planner can still be imported. It is recommended to only use courses with the usage "Use in Course Planner" [:octicons-tag-16:{ title="from Release 20.3.1 (OO-9424)" }](https://track.frentix.com/issue/OO-9424){:target="_blank"}.
 
-![Error message for 38 elements, rows with error symbols automatically marked as Ignored](assets/course_planner_import_implementations_v2_en.png){ class="shadow lightbox" title="Review implementations step of the import wizard · 2026.10.07" }
+![Error message for 38 elements, rows with error symbols automatically marked as Ignored](../assets/course_planner_import_implementations_v2_en.png){ class="shadow lightbox" title="Review implementations step of the import wizard · 2026.10.07" }
 
 #### Step 4: Review users {: #step4}
 
@@ -198,15 +198,15 @@ The table shows the accounts from the "Users" sheet with username, first and las
 
 !!! info "Important"
 
-    If the option "Mandatory" is switched off in the system administration under `Administration > Core functions > E-mail`, the e-mail field can be left empty, see [Email Settings](../../manual_admin/administration/E-Mail_Settings.md#email_address).
+    If the option "Mandatory" is switched off in the system administration under `Administration > Core functions > E-mail`, the e-mail field can be left empty, see [Email Settings](../../../manual_admin/administration/E-Mail_Settings.md#email_address).
 
-![Columns from Username to account expiration and an existing account with import status No changes and a warning for the account expiration](assets/course_planner_import_users_v2_en.png){ class="shadow lightbox" title="Review users step of the import wizard · 2026.10.07" }
+![Columns from Username to account expiration and an existing account with import status No changes and a warning for the account expiration](../assets/course_planner_import_users_v2_en.png){ class="shadow lightbox" title="Review users step of the import wizard · 2026.10.07" }
 
 #### Step 5: Review memberships {: #step5}
 
 The table shows the memberships from the "Memberships" sheet with the references of product, implementation and element, the role and the username. The import only adds new memberships; it does not change or remove existing ones. The filters are limited to "All", "New", "Ignored" and "With errors", and the column with the error symbol counts errors only.
 
-![Columns PROD - Reference, IMPL - Reference, Reference, Role and Username of the memberships](assets/course_planner_import_memberships_v2_en.png){ class="shadow lightbox" title="Review memberships step of the import wizard · 2026.10.07" }
+![Columns PROD - Reference, IMPL - Reference, Reference, Role and Username of the memberships](../assets/course_planner_import_memberships_v2_en.png){ class="shadow lightbox" title="Review memberships step of the import wizard · 2026.10.07" }
 
 [To the top of the page ^](#import_export)
 
@@ -215,16 +215,16 @@ The table shows the memberships from the "Memberships" sheet with the references
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Import/Export: Reference >](Course_Planner_Import_Export_Reference.md)<br>
-[Modules: Overview (Administration) >](../../manual_admin/administration/Modules.md)<br>
-[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
-[Course Planner: Room management >](Course_Planner_Rooms.md)<br>
-[Email Settings (Administration) >](../../manual_admin/administration/E-Mail_Settings.md)
+[Import/Export: Reference >](../Course_Planner_Import_Export_Reference.md)<br>
+[Modules: Overview (Administration) >](../../../manual_admin/administration/Modules.md)<br>
+[Module Rooms (Administration) >](../../../manual_admin/administration/Modules_Rooms.md)<br>
+[Course Planner: Room management >](../Course_Planner_Rooms.md)<br>
+[Email Settings (Administration) >](../../../manual_admin/administration/E-Mail_Settings.md)
 
 **Further reading**<br>
-[Course Planner: Overview >](Course_Planner.md)<br>
-[Course Planner: Products >](Course_Planner_Products.md)<br>
-[Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
-[Import templates >](../basic_concepts/Import_Templates.md)
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Products >](../Course_Planner_Products.md)<br>
+[Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
+[Import templates >](../../basic_concepts/Import_Templates.md)
 
 [To the top of the page ^](#import_export)

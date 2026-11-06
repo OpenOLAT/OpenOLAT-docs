@@ -37,7 +37,7 @@ Ist die [Debitorennummer](Modules_Organisations.de.md#customer_number) im Modul 
 
 [Modul Organisationen >](Modules_Organisations.de.md)<br>
 [Reports: Buchungsaufträge >](../../manual_user/area_modules/Reports_BookingOrders.de.md)<br>
-[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)
 
 [Zum Seitenanfang ^](#invoice)

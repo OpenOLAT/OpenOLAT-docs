@@ -102,6 +102,6 @@ Wer einen Kurs zurückholen möchte, den der Lauf in den Papierkorb verschoben h
 **Weiterführend**<br>
 [Lebenszyklen: Übersicht >](Life_cycles_-_Administration.de.md)<br>
 [Automatischer Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
-[Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring.de.md)
+[Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring/index.de.md)
 
 [Zum Seitenanfang ^](#course_lifecycle)

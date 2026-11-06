@@ -333,7 +333,7 @@ Open a person and switch to "Educational products". The list shows the implement
 **Further reading**<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)

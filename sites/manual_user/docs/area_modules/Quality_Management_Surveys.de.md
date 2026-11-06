@@ -20,7 +20,7 @@ Eine Umfrage im Qualitätsmanagement beruht auf einer Formular-Lernressource. Si
 
 ## Wo werden die Formulare erstellt?
 
-Die Formular-Lernressourcen für das Qualitätsmanagement erstellen Sie [im Autorenbereich](../area_modules/Authoring.de.md), wie alle anderen Lernressourcen auch.
+Die Formular-Lernressourcen für das Qualitätsmanagement erstellen Sie [im Autorenbereich](../area_modules/Authoring/index.de.md), wie alle anderen Lernressourcen auch.
 
 Auch bei der Erstellung einer Datenerhebung oder eines Datenerhebungsgenerators besteht die Möglichkeit, in den Autorenbereich zu wechseln und dort eine Formular-Lernressource zu erstellen.
 
@@ -65,9 +65,9 @@ Soll mit neuen Formular-Lernressourcen gearbeitet werden, kann die bisherige Ler
 
 [Kursbaustein "Formular" >](../learningresources/Course_Element_Form.de.md)<br>
 [Kursbaustein "Umfrage" >](../learningresources/Course_Element_Survey.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
-[Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management.de.md)<br>
+[Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management/index.de.md)<br>
 [Qualitätsmanagement: Datenerhebung >](../area_modules/Quality_Management_Data_Collections.de.md)<br>
 [Qualitätsmanagement: Datenerhebungsgeneratoren >](../area_modules/Quality_Management_Data_Collection_Generators.de.md)
 

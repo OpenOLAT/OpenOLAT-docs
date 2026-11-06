@@ -333,7 +333,7 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 **Weiterführend**<br>
 [Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)

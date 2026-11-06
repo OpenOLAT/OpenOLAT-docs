@@ -226,7 +226,7 @@ If "With offset" is switched on, the window shows the resulting date under "Calc
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](Course_Planner.md)<br>
+[Course Planner: Overview >](Course_Planner/index.md)<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>

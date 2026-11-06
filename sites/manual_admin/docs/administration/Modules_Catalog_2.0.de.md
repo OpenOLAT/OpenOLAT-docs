@@ -229,7 +229,7 @@ Mit dem Schalter "Web-Katalog vorübergehend deaktiviert" schalten Sie den Web-K
 [Rollen und Rechte: Übersicht](../../manual_user/basic_concepts/Roles_Rights.de.md)
 
 **Weiterführend**<br>
-[Katalog 2.0: Übersicht](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht](../../manual_user/area_modules/catalog2.0/index.de.md)<br>
 [Modul Lernressource](Modules_Learning_Resource.de.md)
 
 [Zum Seitenanfang ^](#modul_catalog)

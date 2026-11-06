@@ -23,8 +23,8 @@ The widgets (implementations, events, participants, to-dos) bundle key figures a
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Course Planner: Dashboard >](../Course_Planner_Dashboard.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)<br>
 [Course Planner: To-dos >](../Course_Planner_Todos.md)

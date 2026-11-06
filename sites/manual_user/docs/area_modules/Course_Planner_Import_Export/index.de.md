@@ -30,7 +30,7 @@ Wie Konten und Mitgliedschaften zusammenhängen und was der Import mit ihnen tut
 Den Import-Assistenten starten Sie auf dem Course-Planner-Dashboard über das Mehr-Menü (⋮) oben rechts:<br>
 `Course Planner > Mehr-Menü (⋮) > Importieren`
 
-![Eintrag Importieren im Mehr-Menü oben rechts](assets/course_planner_import_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
+![Eintrag Importieren im Mehr-Menü oben rechts](../assets/course_planner_import_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
 [zum Seitenanfang ^](#import_export)
 
@@ -49,19 +49,19 @@ Der Export steht Kursplaner:innen und Administrator:innen für alle Produkte und
 Ein Export auf Ebene der Durchführung enthält immer alle zugehörigen Angaben inklusive der Mitgliederdaten, auch bei einem Bulk-Export mehrerer ausgewählter Durchführungen.
 
 ##### Navigation unter Produkt
-![Aktion Export im Menü der drei Punkte am Zeilenende eines Produkts](assets/course_planner_export_product_v1_de.png){ class="shadow lightbox" title="Produktliste des Course Planners" }
+![Aktion Export im Menü der drei Punkte am Zeilenende eines Produkts](../assets/course_planner_export_product_v1_de.png){ class="shadow lightbox" title="Produktliste des Course Planners" }
 
 ##### Bulk-Aktion unter Produkt
-![Zwei markierte Produkte und der Button Export über der Liste](assets/course_planner_export_product_bulk_v1_de.png){ class="shadow lightbox thumbnail-xl" title="Produktliste mit zwei ausgewählten Produkten" }
+![Zwei markierte Produkte und der Button Export über der Liste](../assets/course_planner_export_product_bulk_v1_de.png){ class="shadow lightbox thumbnail-xl" title="Produktliste mit zwei ausgewählten Produkten" }
 
 ##### Navigation unter Durchführung
-![Zwei markierte Durchführungen mit dem Button Export über der Liste, dazu die Aktion Export im Zeilenmenü](assets/course_planner_export_implementation_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen im Course Planner" }
+![Zwei markierte Durchführungen mit dem Button Export über der Liste, dazu die Aktion Export im Zeilenmenü](../assets/course_planner_export_implementation_v1_de.png){ class="shadow lightbox" title="Liste der Durchführungen im Course Planner" }
 
 ##### Navigation unter Termine
-![Aktion Export im Zeilenmenü eines Termins](assets/course_planner_export_event_v1_de.png){ class="shadow lightbox" title="Terminliste des Course Planners" }
+![Aktion Export im Zeilenmenü eines Termins](../assets/course_planner_export_event_v1_de.png){ class="shadow lightbox" title="Terminliste des Course Planners" }
 
 ##### Navigation unter Mitglieder
-![Aktion Export im Menü der drei Punkte oben rechts einer Durchführung](assets/course_planner_export_mitglieder_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder einer Durchführung" }
+![Aktion Export im Menü der drei Punkte oben rechts einer Durchführung](../assets/course_planner_export_mitglieder_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder einer Durchführung" }
 
 Der Dateiname der exportierten Excel-Datei folgt dem Muster "CPL_Produkte_\<Datum und Zeit\>".
 
@@ -71,10 +71,10 @@ Die exportierte Excel-Datei enthält bis zu vier Sheets mit Daten:
 
 * **Produkte:** Titel, Kennzeichen, ORG-Kennzeichen, Absenzen, Beschreibung, Erstellungsdatum, zuletzt geändert
 * **Durchführungen:** eine Zeile pro Objekt (Durchführung, Element, Template, Kurs oder Termin), mit Objekttyp, Kennzeichen, Titel, Status, Zeitraum sowie typspezifischen Feldern wie Kalender, Absenzen, Fortschritt oder Fachbereich. Der Fachbereich-Pfad beginnt mit dem Taxonomie-Identifier ("\<Identifier\>:/\<Pfad\>") [:octicons-tag-16:{ title="ab Release 21.0 (OO-9440)" }](https://track.frentix.com/issue/OO-9440){:target="_blank"}. Bei Terminen folgt nach dem Ort die Spalte "Räume" mit den gebuchten Räumen im Format "Gebäude-Kennzeichen:Raum-Kennzeichen", mehrere Räume durch Semikolon getrennt. Was der Import mit dieser Spalte tut, beschreibt der Abschnitt [Räume von Terminen](#import_rooms).
-* **Mitgliedschaft:** eine Zeile pro Mitgliedschaft, mit den Kennzeichen von Produkt, Durchführung und Element ("PROD - Kennzeichen", "IMPL - Kennzeichen", "Kennzeichen"), der Rolle und dem Anmeldenamen. Die Rolle steht als fester Wert, zum Beispiel PARTICIPANT für Teilnehmer:in; alle Werte listet die [Referenz](Course_Planner_Import_Export_Reference.de.md#enum_reference).
+* **Mitgliedschaft:** eine Zeile pro Mitgliedschaft, mit den Kennzeichen von Produkt, Durchführung und Element ("PROD - Kennzeichen", "IMPL - Kennzeichen", "Kennzeichen"), der Rolle und dem Anmeldenamen. Die Rolle steht als fester Wert, zum Beispiel PARTICIPANT für Teilnehmer:in; alle Werte listet die [Referenz](../Course_Planner_Import_Export_Reference.de.md#enum_reference).
 * **Konten:** eine Zeile pro Person, die im Sheet "Mitgliedschaft" vorkommt: Anmeldename, Vorname, Nachname, E-Mail, Organisationszugehörigkeit, Kontoablauf [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, Erstellungsdatum
 
-Die Sheets "Mitgliedschaft" und "Konten" enthält der Export nur, wenn die exportierende Person die administrativen Benutzer:innen-Properties sehen darf, zu denen der Anmeldename gehört. Welche Rollen das dürfen, legt die System-Administration fest: `Administration > Module > Datenschutz`, Option "Administrative Benutzer:innen-Properties", siehe [Datenschutz](../../manual_admin/administration/Modules.de.md#data_privacy). Ein Export ohne diese beiden Sheets lässt sich nicht wieder importieren, denn der Import-Assistent verlangt mindestens vier Sheets.
+Die Sheets "Mitgliedschaft" und "Konten" enthält der Export nur, wenn die exportierende Person die administrativen Benutzer:innen-Properties sehen darf, zu denen der Anmeldename gehört. Welche Rollen das dürfen, legt die System-Administration fest: `Administration > Module > Datenschutz`, Option "Administrative Benutzer:innen-Properties", siehe [Datenschutz](../../../manual_admin/administration/Modules.de.md#data_privacy). Ein Export ohne diese beiden Sheets lässt sich nicht wieder importieren, denn der Import-Assistent verlangt mindestens vier Sheets.
 
 Zusätzlich enthält jede Export-Datei ein Sheet "Exportinformationen" mit URL, OpenOlat-Version, Exportsprache sowie Datum und Name der exportierenden Person [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9217)" }](https://track.frentix.com/issue/OO-9217){:target="_blank"}.
 
@@ -134,13 +134,13 @@ Der Import liest die Sheets nach ihrer Reihenfolge, nicht nach ihrem Namen: das 
 
 Planen Sie viele Termine auf einmal, buchen Sie deren Räume im selben Durchgang mit dem Import. Die Räume stehen in der Spalte "Räume" im Sheet "Durchführungen". Der Import wertet die Spalte nur bei Terminen (Objekttyp EVENT) aus. Bei allen anderen Objekttypen ist sie im Export leer, und der Import übergeht einen Wert dort ohne Meldung.
 
-Jeder Raum steht in der Zelle mit dem Kennzeichen seines Gebäudes und seinem eigenen Kennzeichen, getrennt durch einen Doppelpunkt, zum Beispiel "BG_1:AULA". Mehrere Räume trennt ein Semikolon: "BG_1:AULA;BG_1:H101". Beide Kennzeichen vergibt die Administration im [Modul Räume](../../manual_admin/administration/Modules_Rooms.de.md#rooms). Die Kennzeichen bereits gebuchter Räume stehen im Export.
+Jeder Raum steht in der Zelle mit dem Kennzeichen seines Gebäudes und seinem eigenen Kennzeichen, getrennt durch einen Doppelpunkt, zum Beispiel "BG_1:AULA". Mehrere Räume trennt ein Semikolon: "BG_1:AULA;BG_1:H101". Beide Kennzeichen vergibt die Administration im [Modul Räume](../../../manual_admin/administration/Modules_Rooms.de.md#rooms). Die Kennzeichen bereits gebuchter Räume stehen im Export.
 
 !!! warning "Achtung"
 
     Der Import ersetzt die Raumbuchungen eines Termins, er ergänzt sie nicht. Er bucht die Räume, die in der Zelle stehen, und entfernt jede bestehende Buchung, deren Raum in der Zelle fehlt. Eine leere Zelle "Räume" bei einem bestehenden Termin entfernt deshalb alle Raumbuchungen dieses Termins. Der Import-Assistent zeigt eine solche Zeile im Schritt "Durchführungen überprüfen" als "Geändert" an.
 
-Der Import prüft nicht, ob ein Raum zur Zeit des Termins frei ist, und bucht auch inaktive Räume. In der Oberfläche lassen sich dagegen nur aktive Räume auswählen. Doppelbuchungen und inaktive Räume zeigt die Raumplanung nach dem Import als [Warnungen](Course_Planner_Rooms.de.md#warnings) an.
+Der Import prüft nicht, ob ein Raum zur Zeit des Termins frei ist, und bucht auch inaktive Räume. In der Oberfläche lassen sich dagegen nur aktive Räume auswählen. Doppelbuchungen und inaktive Räume zeigt die Raumplanung nach dem Import als [Warnungen](../Course_Planner_Rooms.de.md#warnings) an.
 
 ### Umgang mit Fehlern und Warnungen {: #errors_warnings}
 
@@ -150,7 +150,7 @@ Jede fehlerhafte Zelle wird direkt in der Tabelle mit Spaltenname und Grund ange
 
 Warnungen verhindern den Import nicht, weisen aber auf mögliche Probleme hin, zum Beispiel wenn ein Wert zu lang ist und deshalb gekürzt wird, oder wenn sich ein Element seit dem letzten Export bereits geändert hat.
 
-Die vollständige Liste aller Fehler- und Warnungscodes finden Sie in der [Import/Export: Referenz](Course_Planner_Import_Export_Reference.de.md#errors_warnings_reference).
+Die vollständige Liste aller Fehler- und Warnungscodes finden Sie in der [Import/Export: Referenz](../Course_Planner_Import_Export_Reference.de.md#errors_warnings_reference).
 
 ### Schritte des Import-Assistenten {: #import_steps}
 
@@ -162,11 +162,11 @@ Laden Sie im Feld "Datei auswählen" die Excel-Datei mit den zu importierenden D
 
 Als Muster für den Aufbau der Datei steht darüber unter "Importbeispiel" über den Link "Excel Vorlage" eine Beispieldatei zum Herunterladen bereit. Sie zeigt ein Produkt mit zwei Durchführungen samt Elementen, Kursen, Templates und Terminen, dazu Mitgliedschaften und Konten. Sheets und Spalten tragen in der Beispieldatei englische Namen. Für den Import spielt das keine Rolle, denn er liest Sheets und Spalten nach ihrer Position.
 
-![Bedingungen an die Excel-Datei und der Link Excel Vorlage unter Importbeispiel](assets/course_planner_import_excel_v2_de.png){ class="shadow lightbox" title="Schritt Datei auswählen des Import-Assistenten · 2026.10.07" }
+![Bedingungen an die Excel-Datei und der Link Excel Vorlage unter Importbeispiel](../assets/course_planner_import_excel_v2_de.png){ class="shadow lightbox" title="Schritt Datei auswählen des Import-Assistenten · 2026.10.07" }
 
 !!! info "Wichtig"
 
-    Die Excel-Datei muss folgende Bedingungen erfüllen: Das Sheet "Produkte" muss vorhanden sein, alle mit einem Sternchen (\*) gekennzeichneten Pflichtfelder müssen ausgefüllt sein, Kennzeichen müssen im gesamten System eindeutig sein, und Organisationen, Elementtypen und Fachbereiche müssen bereits im System vorhanden sein. Nur bestimmte Attribute lassen sich aktualisieren, alle anderen ignoriert der Import. Welche das sind, zeigt die Spalte "Aktualisierbar" in der [Referenz](Course_Planner_Import_Export_Reference.de.md#attribute_rules).
+    Die Excel-Datei muss folgende Bedingungen erfüllen: Das Sheet "Produkte" muss vorhanden sein, alle mit einem Sternchen (\*) gekennzeichneten Pflichtfelder müssen ausgefüllt sein, Kennzeichen müssen im gesamten System eindeutig sein, und Organisationen, Elementtypen und Fachbereiche müssen bereits im System vorhanden sein. Nur bestimmte Attribute lassen sich aktualisieren, alle anderen ignoriert der Import. Welche das sind, zeigt die Spalte "Aktualisierbar" in der [Referenz](../Course_Planner_Import_Export_Reference.de.md#attribute_rules).
 
     Ausserdem braucht die Datei mindestens vier Sheets. Hat sie weniger, meldet der Assistent: "Die Excel-Datei scheint nicht den Anforderungen für den Import eines Produkts zu entsprechen."
 
@@ -176,7 +176,7 @@ Die Tabelle zeigt alle Produkte aus der Excel-Datei mit ihrem Importstatus: "Kei
 
 Enthält eine Zeile einen Fehler, wird sie automatisch vom Import ausgeschlossen und farblich hervorgehoben. Über die Checkbox "Ignoriert" können auch fehlerfreie Zeilen gezielt vom Import ausgeschlossen werden. Zeilen mit dem Importstatus "Keine Änderungen" haben keine solche Checkbox, denn der Import ändert sie ohnehin nicht.
 
-![Filter von Alle bis Mit Änderungen und ein neues Produkt mit Fehler beim ORG - Kennzeichen, automatisch als Ignoriert markiert](assets/course_planner_import_products_v2_de.png){ class="shadow lightbox" title="Schritt Produkte überprüfen des Import-Assistenten · 2026.10.07" }
+![Filter von Alle bis Mit Änderungen und ein neues Produkt mit Fehler beim ORG - Kennzeichen, automatisch als Ignoriert markiert](../assets/course_planner_import_products_v2_de.png){ class="shadow lightbox" title="Schritt Produkte überprüfen des Import-Assistenten · 2026.10.07" }
 
 #### Schritt 3: Durchführungen überprüfen {: #step3}
 
@@ -190,7 +190,7 @@ Ist das Modul "Termine / Absenzen" auf der Instanz deaktiviert, werden Termine b
 
     Ist ein Kurs mit dem Verwendungszweck "Eigenständig" konfiguriert, wird für Administrator:innen ausnahmsweise nur eine Warnung statt eines Fehlers angezeigt, damit auch ältere, nicht auf den Course Planner umgestellte Kurse importiert werden können. Es wird empfohlen, nur Kurse mit dem Verwendungszweck "Verwendung im Course Planner" zu verwenden [:octicons-tag-16:{ title="ab Release 20.3.1 (OO-9424)" }](https://track.frentix.com/issue/OO-9424){:target="_blank"}.
 
-![Fehlermeldung zu 38 Elementen, Zeilen mit Fehlersymbolen automatisch als Ignoriert markiert](assets/course_planner_import_implementations_v2_de.png){ class="shadow lightbox" title="Schritt Durchführungen überprüfen des Import-Assistenten · 2026.10.07" }
+![Fehlermeldung zu 38 Elementen, Zeilen mit Fehlersymbolen automatisch als Ignoriert markiert](../assets/course_planner_import_implementations_v2_de.png){ class="shadow lightbox" title="Schritt Durchführungen überprüfen des Import-Assistenten · 2026.10.07" }
 
 #### Schritt 4: Benutzer:innen überprüfen {: #step4}
 
@@ -198,15 +198,15 @@ Die Tabelle zeigt die Konten aus dem Sheet "Konten" mit Anmeldename, Vor- und Na
 
 !!! info "Wichtig"
 
-    Ist in der System-Administration unter `Administration > Core-Konfiguration > E-Mail` die Option "Obligatorisch" ausgeschaltet, kann das Feld E-Mail leer bleiben, siehe [E-Mail Einstellungen](../../manual_admin/administration/E-Mail_Settings.de.md#email_address).
+    Ist in der System-Administration unter `Administration > Core-Konfiguration > E-Mail` die Option "Obligatorisch" ausgeschaltet, kann das Feld E-Mail leer bleiben, siehe [E-Mail Einstellungen](../../../manual_admin/administration/E-Mail_Settings.de.md#email_address).
 
-![Spalten von Anmeldename bis Kontoablauf und ein bestehendes Konto mit Importstatus Keine Änderungen und einer Warnung beim Kontoablauf](assets/course_planner_import_users_v2_de.png){ class="shadow lightbox" title="Schritt Benutzer:innen überprüfen des Import-Assistenten · 2026.10.07" }
+![Spalten von Anmeldename bis Kontoablauf und ein bestehendes Konto mit Importstatus Keine Änderungen und einer Warnung beim Kontoablauf](../assets/course_planner_import_users_v2_de.png){ class="shadow lightbox" title="Schritt Benutzer:innen überprüfen des Import-Assistenten · 2026.10.07" }
 
 #### Schritt 5: Mitgliedschaften überprüfen {: #step5}
 
 Die Tabelle zeigt die Mitgliedschaften aus dem Sheet "Mitgliedschaft" mit den Kennzeichen von Produkt, Durchführung und Element, der Rolle und dem Anmeldenamen. Der Import fügt nur neue Mitgliedschaften hinzu; bestehende ändert oder entfernt er nicht. Die Filter beschränken sich auf "Alle", "Neu", "Ignoriert" und "Mit Fehlern", und die Spalte mit dem Fehlersymbol zählt nur Fehler.
 
-![Spalten PROD - Kennzeichen, IMPL - Kennzeichen, Kennzeichen, Rolle und Anmeldename der Mitgliedschaften](assets/course_planner_import_memberships_v2_de.png){ class="shadow lightbox" title="Schritt Mitgliedschaften überprüfen des Import-Assistenten · 2026.10.07" }
+![Spalten PROD - Kennzeichen, IMPL - Kennzeichen, Kennzeichen, Rolle und Anmeldename der Mitgliedschaften](../assets/course_planner_import_memberships_v2_de.png){ class="shadow lightbox" title="Schritt Mitgliedschaften überprüfen des Import-Assistenten · 2026.10.07" }
 
 [zum Seitenanfang ^](#import_export)
 
@@ -215,16 +215,16 @@ Die Tabelle zeigt die Mitgliedschaften aus dem Sheet "Mitgliedschaft" mit den Ke
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Import/Export: Referenz >](Course_Planner_Import_Export_Reference.de.md)<br>
-[Module: Übersicht (Administration) >](../../manual_admin/administration/Modules.de.md)<br>
-[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
-[Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)<br>
-[E-Mail Einstellungen (Administration) >](../../manual_admin/administration/E-Mail_Settings.de.md)
+[Import/Export: Referenz >](../Course_Planner_Import_Export_Reference.de.md)<br>
+[Module: Übersicht (Administration) >](../../../manual_admin/administration/Modules.de.md)<br>
+[Modul Räume (Administration) >](../../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Course Planner: Raumverwaltung >](../Course_Planner_Rooms.de.md)<br>
+[E-Mail Einstellungen (Administration) >](../../../manual_admin/administration/E-Mail_Settings.de.md)
 
 **Weiterführend**<br>
-[Course Planner: Übersicht >](Course_Planner.de.md)<br>
-[Course Planner: Produkte >](Course_Planner_Products.de.md)<br>
-[Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
-[Importvorlagen >](../basic_concepts/Import_Templates.de.md)
+[Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
+[Course Planner: Produkte >](../Course_Planner_Products.de.md)<br>
+[Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)<br>
+[Importvorlagen >](../../basic_concepts/Import_Templates.de.md)
 
 [zum Seitenanfang ^](#import_export)

@@ -22,7 +22,7 @@ Typical examples for such files are:
 
 ## 1. Create a Ressource Folder  
 
-1.1 Go to the [Authoring Area](../../manual_user/area_modules/Authoring.md) and select "Create" -> "Resource folder".
+1.1 Go to the [Authoring Area](../../manual_user/area_modules/Authoring/index.md) and select "Create" -> "Resource folder".
 
 ![resource_folder_create_v1_en.png](assets/resource_folder_create_v1_en.png){ class="shadow lightbox" }  
 <br>

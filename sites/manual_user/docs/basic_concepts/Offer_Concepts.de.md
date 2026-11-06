@@ -14,7 +14,7 @@ Angebote können auch nur für bestimmte Organisationseinheiten im Katalog angez
 **Beispiel für Kursangebote im Katalog:**
 ![Vier Kurskarten im Launcher "Ausgewählte Lernressourcen" mit Typ, Titel und Fachbereich, darüber das Suchfeld](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
 
-[Mehr zu Angeboten >](../area_modules/catalog2.0.de.md)
+[Mehr zu Angeboten >](../area_modules/catalog2.0/index.de.md)
 
 [zum Seitenanfang ^](#offer_concepts)
 
@@ -308,7 +308,7 @@ Beim automatischen Buchen wird die Angebotsbeschreibung nicht angezeigt und den 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](../area_modules/catalog2.0_sort_offers.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>

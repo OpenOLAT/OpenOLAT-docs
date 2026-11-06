@@ -150,7 +150,7 @@ In order for a course to be listed in the catalog, an offer must be created. Mul
 In order to create an offer for the catalog, the option "Bookable and open offers" must be selected in the "Share" section under "Access for participants".
 
 You can find more information about offers and the catalog here:<br>
-[Catalog >](../area_modules/catalog2.0.md)<br>
+[Catalog >](../area_modules/catalog2.0/index.md)<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>
 [Create offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Offering implementations in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)
@@ -197,7 +197,7 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
 [How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Module OAI-PMH >](../../manual_admin/administration/Modules_OAI.md)<br>
-[Catalog 2.0 - Overview >](../area_modules/catalog2.0.md)<br>
+[Catalog 2.0 - Overview >](../area_modules/catalog2.0/index.md)<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>

@@ -55,7 +55,7 @@ Im Tab "Umfrage" konfigurieren Sie die Umfrage. Im ersten Schritt wählen Sie ei
 
 Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im [Formulareditor](../learningresources/Form_Editor.de.md) hinzu.
 
-Ein Formular, das Sie direkt im Kurseditor erstellen, legt OpenOlat als neue Lernressource "Formular" an. Sie finden es auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" und binden es in weiteren Kursen ein.
+Ein Formular, das Sie direkt im Kurseditor erstellen, legt OpenOlat als neue Lernressource "Formular" an. Sie finden es auch im [Autorenbereich](../area_modules/Authoring/index.de.md) unter "Meine Einträge" und binden es in weiteren Kursen ein.
 
 Ist ein Formular gewählt, zeigt der Tab seinen Titel und die Zahl der "Antworten in diesem Kurs". Mit "Vorschau" sehen Sie das Formular so, wie Teilnehmende es ausfüllen. Mit dem Button "Lernressource bearbeiten" öffnen Sie die Lernressource "Formular" und gestalten das Formular im Formulareditor. Ist das Formular schon passend eingerichtet, ist keine Bearbeitung nötig. Den Button sehen Besitzer:innen des Formulars, Lernressourcenverwalter:innen und Administrator:innen. Mit "Ersetzen" wählen Sie ein anderes Formular, über den Pfeil daneben importieren Sie eines mit "Import".
 
@@ -132,7 +132,7 @@ Besitzer:innen des Kurses setzen eine Umfrage im Menü mit den drei Punkten des 
 [Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
-[Autorenbereich - Übersicht >](../area_modules/Authoring.de.md)<br>
+[Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Module: Übersicht >](../../manual_admin/administration/Modules.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)

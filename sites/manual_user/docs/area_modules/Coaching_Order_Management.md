@@ -91,7 +91,7 @@ The tab displays the course elements "Task" for which the "Assignment coaches/pa
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
-[Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
+[Coaching: Reports >](../area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
 [Roles >](../basic_concepts/Roles.md)<br>
 [Assessment tool >](../learningresources/Assessment_tool_overview.md)

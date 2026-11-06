@@ -133,7 +133,7 @@ OpenOlat unterscheidet vier Kompetenzen:
 
 ### Taxonomie exportieren [:octicons-tag-16:{ title="ab Release 17.2.0 (OO-6417)" }](https://track.frentix.com/issue/OO-6417){:target="_blank"} {: #export}
 
-Mit dem Export sichern Sie eine Taxonomie oder bearbeiten viele Taxonomieebenen in Excel. Öffnen Sie im Tab "Ebenen" das Drei-Punkte-Menü und wählen Sie "Taxonomieebenen exportieren". OpenOlat lädt ein ZIP-Archiv herunter. Es enthält eine Excel-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und den Ordner "media". Darin liegt für jede Ebene ein Ordner mit den Unterordnern "background" und "teaser" und den vorhandenen Hintergrund- und Teaserbildern. Die Bilder zeigt der [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md) bei der jeweiligen Taxonomieebene.
+Mit dem Export sichern Sie eine Taxonomie oder bearbeiten viele Taxonomieebenen in Excel. Öffnen Sie im Tab "Ebenen" das Drei-Punkte-Menü und wählen Sie "Taxonomieebenen exportieren". OpenOlat lädt ein ZIP-Archiv herunter. Es enthält eine Excel-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und den Ordner "media". Darin liegt für jede Ebene ein Ordner mit den Unterordnern "background" und "teaser" und den vorhandenen Hintergrund- und Teaserbildern. Die Bilder zeigt der [Katalog 2.0](../../manual_user/area_modules/catalog2.0/index.de.md) bei der jeweiligen Taxonomieebene.
 
 ![Geöffnetes Drei-Punkte-Menü mit den Einträgen Taxonomieebenen exportieren und Taxonomieebenen importieren, rechts über der Liste der Taxonomieebenen](assets/Taxonomie_exportieren.png){ class="shadow lightbox" title="Drei-Punkte-Menü im Tab Ebenen" }
 
@@ -170,7 +170,7 @@ Hier entscheiden Sie mit dem Häkchen bei "Taxonomien aktualisieren", ob OpenOla
 
 2. Ergänzen Sie in der Excel-Tabelle neue Ebenen oder ändern Sie bestehende. Geben Sie den Pfad vollständig an, sonst markiert OpenOlat die Zeile mit einer Fehlermeldung. Eine übergeordnete Ebene muss bereits existieren oder in einer Zeile vor ihrer Unterebene stehen.
 
-    Haben Sie mehrere Sprachen in OpenOlat aktiviert und benutzen den [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md), pflegen Sie Titel und Beschreibung am besten in jeder Sprache. Für eine weitere Sprache kopieren Sie die Spalten "Sprache", "Titel" und "Beschreibung", hängen sie hinten an und tragen für jede Taxonomieebene den Code einer aktivierten Sprache, etwa "EN", mit Titel und Beschreibung ein.
+    Haben Sie mehrere Sprachen in OpenOlat aktiviert und benutzen den [Katalog 2.0](../../manual_user/area_modules/catalog2.0/index.de.md), pflegen Sie Titel und Beschreibung am besten in jeder Sprache. Für eine weitere Sprache kopieren Sie die Spalten "Sprache", "Titel" und "Beschreibung", hängen sie hinten an und tragen für jede Taxonomieebene den Code einer aktivierten Sprache, etwa "EN", mit Titel und Beschreibung ein.
 
 3. Markieren Sie die geänderte Tabelle _ohne_ die Kopfzeile, kopieren Sie sie und fügen Sie sie in das Feld "Taxonomieebenen importieren" ein. Mit "Weiter" prüft OpenOlat die Zellen. Fehlermeldungen erscheinen direkt am Feld.
 
@@ -248,7 +248,7 @@ Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung un
 [Modul Katalog >](Modules_Catalog_2.0.de.md)<br>
 [Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
 [Allgemeines zum Portfolio >](../../manual_user/area_modules/Portfolio_General_Information.de.md)<br>
-[Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0/index.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
 [Modul Media Center >](Modules_Media_Center.de.md)<br>

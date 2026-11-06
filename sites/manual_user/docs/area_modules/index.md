@@ -32,18 +32,18 @@ You know the site and are looking for the page that explains it. The table lists
 | 1 | Portal | [Portal configuration](../basic_concepts/Portal_configuration.md) |
 | 2 | Courses | [Finding courses](Courses.md) |
 | 3 | Groups | [Group Management](Group_Management.md) |
-| 4 | Catalog | [Catalog 2.0](catalog2.0.md) |
-| 5 | Authoring | [Authoring](Authoring.md) |
+| 4 | Catalog | [Catalog 2.0](catalog2.0/index.md) |
+| 5 | Authoring | [Authoring](Authoring/index.md) |
 | 6 | Question bank | [Question Bank](Question_Bank/index.md) |
 | 7 | Document pool | [Module Document Pool](../../manual_admin/administration/Modules_Document_pool.md), administration manual |
 | 8 | Library | [Library](Library.md) |
 | 9 | Video Collection | [Video Collection](Video_Collection.md) |
-| 10 | Projects | [Projects](Project_Overview.md) |
-| 11 | Course Planner | [Course Planner](Course_Planner.md) |
+| 10 | Projects | [Projects](Project_Overview/index.md) |
+| 11 | Course Planner | [Course Planner](Course_Planner/index.md) |
 | 12 | User management | [User management](../../manual_admin/usermanagement/index.md), administration manual |
-| 13 | Coaching | [Coaching](Coaching.md) |
+| 13 | Coaching | [Coaching](Coaching/index.md) |
 | 14 | Absence management | [Absence management](Absence_Management.md) |
-| 15 | Quality management | [Quality Management](Quality_Management.md) |
+| 15 | Quality management | [Quality Management](Quality_Management/index.md) |
 | 16 | Administration | [System](../../manual_admin/administration/System.md), administration manual |
 
 The portfolio does not appear as a site in the main navigation. You open it through the User tools as "Portfolio 2.0", and it is described under [Creating Portfolios](Portfolio.md).

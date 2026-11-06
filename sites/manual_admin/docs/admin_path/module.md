@@ -39,7 +39,7 @@ The module that puts learning resources and implementations with an offer on dis
 
     **What users call it:** catalogue, course catalog, offering
 
-    [Read in the manual](../../manual_user/area_modules/catalog2.0.md) · [Ask Sophia](?sophia=What%20is%20%22Catalog%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../../manual_user/area_modules/catalog2.0/index.md) · [Ask Sophia](?sophia=What%20is%20%22Catalog%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -77,7 +77,7 @@ The module that switches on the planning of the educational offering in OpenOlat
 
     **What users call it:** curriculum management, course planning
 
-    **Not to be confused with [Course Planner](../../manual_user/area_modules/Course_Planner.md):** The module is the switch in the administration, the site is the Course Planner entry in the main navigation that the module unlocks.
+    **Not to be confused with [Course Planner](../../manual_user/area_modules/Course_Planner/index.md):** The module is the switch in the administration, the site is the Course Planner entry in the main navigation that the module unlocks.
 
     [Read in the manual](../administration/Modules_Course_Planner.md) · [Ask Sophia](?sophia=What%20is%20%22Course%20Planner%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
@@ -107,24 +107,24 @@ Your customer advisor at frentix supports you with the setup through support and
 
 The installation is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the installation more precisely.
 
-- **Catalog:** [Launcher](../administration/Modules_Catalog_2.0.md), [Web catalog](../../manual_user/area_modules/catalog2.0_web.md). More on the page [Catalog 2.0: Overview](../../manual_user/area_modules/catalog2.0.md).
+- **Catalog:** [Launcher](../administration/Modules_Catalog_2.0.md), [Web catalog](../../manual_user/area_modules/catalog2.0_web.md). More on the page [Catalog 2.0: Overview](../../manual_user/area_modules/catalog2.0/index.md).
 - **Rooms:** [Building](../administration/Modules_Rooms.md), [Room scheduling](../../manual_user/area_modules/Course_Planner_Rooms.md).
-- **Course Planner:** [Product](../../manual_user/area_modules/Course_Planner_Products.md), [Element type](../administration/Modules_Course_Planner.md), [Course template](../../manual_user/area_modules/Course_Planner_Implementations.md), [Reports](../../manual_user/area_modules/Course_Planner_Reports.md). More on the page [Module Course Planner](../administration/Modules_Course_Planner.md).
+- **Course Planner:** [Product](../../manual_user/area_modules/Course_Planner_Products.md), [Element type](../administration/Modules_Course_Planner.md), [Course template](../../manual_user/area_modules/Course_Planner_Implementations.md), [Reports](../../manual_user/area_modules/Course_Planner_Reports/index.md). More on the page [Module Course Planner](../administration/Modules_Course_Planner.md).
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0.md)<br>
+[Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0/index.md)<br>
 [Course Planner: Room management >](../../manual_user/area_modules/Course_Planner_Rooms.md)<br>
 [Module Rooms >](../administration/Modules_Rooms.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Module Course Planner >](../administration/Modules_Course_Planner.md)<br>
 [Modules: Overview >](../administration/Modules.md)<br>
 [Module Catalog >](../administration/Modules_Catalog_2.0.md)<br>
 [Externally available catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.md)
 
 **Further reading**<br>
 [Module Learning resource >](../administration/Modules_Learning_Resource.md)<br>

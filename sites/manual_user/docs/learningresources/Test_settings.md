@@ -186,7 +186,7 @@ The generated Excel file contains the worksheets "Correctors", "Assignments" and
 
 !!! note "Coaching Tool"
     More information on cross-course correction.<br>
-    [Coaching Tool](../area_modules/Coaching.md)
+    [Coaching Tool](../area_modules/Coaching/index.md)
 
 [To the top of the page ^](#test_settings)
 
@@ -235,7 +235,7 @@ The test is then downloaded in zip format with two Word files, one of which cont
 [Tests at course level >](Tests_at_course_level.md)<br>
 [Coaching - Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching - Order management >](../area_modules/Coaching_Order_Management.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)
+[Coaching - Overview >](../area_modules/Coaching/index.md)
 
 **Further reading**<br>
 [How do I proceed when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>

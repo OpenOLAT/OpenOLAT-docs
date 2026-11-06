@@ -140,7 +140,7 @@ Wie Gruppen generell erstellt und konfiguriert werden, und wie man Gruppenmitgli
 
 ## Bereich Course Planner {: #section_course_planner}
 
-Sofern ein Kurs mit dem [Course Planner](../area_modules/Course_Planner.de.md) verbunden ist erscheinen die entsprechenden Informationen ebenfalls in der Mitgliederverwaltung. 
+Sofern ein Kurs mit dem [Course Planner](../area_modules/Course_Planner/index.de.md) verbunden ist erscheinen die entsprechenden Informationen ebenfalls in der Mitgliederverwaltung. 
 
 ![Bereich Course Planner in der Mitgliederverwaltung mit Elementen und deren Anzahl Besitzer:innen, Betreuer:innen und Teilnehmer:innen](assets/Course_Planner_Mitgliederverwaltung.png){ class="shadow lightbox" title="Bereich Course Planner der Mitgliederverwaltung" }
 
@@ -278,7 +278,7 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 [Modul Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Kursbaustein "Themenvergabe" >](../learningresources/Course_Element_Topic_Assignment.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>

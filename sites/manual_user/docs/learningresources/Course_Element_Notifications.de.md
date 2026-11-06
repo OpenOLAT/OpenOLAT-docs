@@ -77,7 +77,7 @@ So geht eine Ankündigung, die nur den Kurs betrifft, mit "Alle Kursteilnehmer:i
 **Weiterführend**<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
-[Course Planner: Übersicht >](../area_modules/Course_Planner.de.md)
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)
 
 **youtube**<br>
 [Mitteilungen](<https://www.youtube.com/embed/3tAj19Avfkk>)<br>

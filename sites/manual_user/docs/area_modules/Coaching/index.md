@@ -12,7 +12,7 @@ The Coaching Tool is used for the cross-course organisation and administration o
 
 With the Coaching Tool, course owners, course coaches, group coaches, education managers and other authorised persons have the possibility to see and manage all course or group participants assigned to them at a glance. They can then quickly go from these overviews to the assessment tool for individual participants in different ways.
 
-![Coaching entry page: buttons from People to Groups lead to the people you coach, the assignments from Pending confirmations to Reports to the tools, below them the widgets Courses and Events](assets/coaching_tools_v3_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.11.02" }
+![Coaching entry page: buttons from People to Groups lead to the people you coach, the assignments from Pending confirmations to Reports to the tools, below them the widgets Courses and Events](../assets/coaching_tools_v3_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.11.02" }
 
 ---
 
@@ -87,7 +87,7 @@ If, for example, you are only a direct coach in one course but also an education
 
 You can select one of your roles using the scopes above the list. This will give you a preselection. The list will then only contain people you are responsible for in this role.
 
-![Marked scope buttons above the people list: As coach is selected, next to it Line manager; which scope buttons appear depends on your roles](assets/coaching_focus_elements_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.11.02" }
+![Marked scope buttons above the people list: As coach is selected, next to it Line manager; which scope buttons appear depends on your roles](../assets/coaching_focus_elements_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.11.02" }
 
 
 [To the top of the page ^](#coaching)
@@ -101,7 +101,7 @@ You can select one of your roles using the scopes above the list. This will give
 
 Below the buttons, a separator area labelled "Overview" visually sets off the widgets described below.
 
-![Marked separator area Overview: it separates the buttons of the sections Coaching and Assignments from the widgets below](assets/coaching_overview_v2_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.11.02" }
+![Marked separator area Overview: it separates the buttons of the sections Coaching and Assignments from the widgets below](../assets/coaching_overview_v2_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.11.02" }
 
 ---
 
@@ -113,7 +113,7 @@ Displayed are only events in which you are entered as a lecturer yourself, and o
 
 !!! info "Important"
 
-    The widget with the same name **Events** in the Course Planner shows different events: there you see events from educational products for which you are administrator, absence manager, owner or coach. See [Course Planner: Dashboard](Course_Planner_Dashboard.md#widget_events).
+    The widget with the same name **Events** in the Course Planner shows different events: there you see events from educational products for which you are administrator, absence manager, owner or coach. See [Course Planner: Dashboard](../Course_Planner_Dashboard.md#widget_events).
 
 The widget only appears if the module Events and absences is switched on system-wide.
 
@@ -140,7 +140,7 @@ Each event shows the following information:
 !!! note "Note"
     In the narrow (mobile) view, the location column is omitted. Only the time is shown.
 
-![Marked widget Events with the week bar, calendar week and today highlighted, two events with start time and duration and the Show all button](assets/coaching_widget_events_v2_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page · 2026.11.02" }
+![Marked widget Events with the week bar, calendar week and today highlighted, two events with start time and duration and the Show all button](../assets/coaching_widget_events_v2_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page · 2026.11.02" }
 
 #### Empty state
 
@@ -164,7 +164,7 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3 (OO-924
 
 The **Courses - As coach** widget shows the courses you coach.
 
-![Marked widget Courses with the key figures Relevant, Favourites, Published and Access for coach, below them the coached courses with progress bars and the Show all button](assets/coaching_widget_courses_v2_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page · 2026.11.02" }
+![Marked widget Courses with the key figures Relevant, Favourites, Published and Access for coach, below them the coached courses with progress bars and the Show all button](../assets/coaching_widget_courses_v2_en.png){ class="shadow lightbox" title="Overview on the Coaching entry page · 2026.11.02" }
 
 Use the defined filter **"Relevant"** (selected by default) or one of the other filter variants to get a corresponding preselection [:octicons-tag-16:{ title="from Release 20.3 (OO-9195)" }](https://track.frentix.com/issue/OO-9195):
 
@@ -183,7 +183,7 @@ Use the **Show all** button to go to the full course list in the **Courses** too
 
 ### Edit overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9273)" }](https://track.frentix.com/issue/OO-9273) {: #overview_customize}
 
-Below the widgets, the button **"Edit overview"** takes you to the edit mode. Use it to rearrange the tiles, to hide them and to bring them back. The operation is the same on all overview pages and is described there once: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md#customize)
+Below the widgets, the button **"Edit overview"** takes you to the edit mode. Use it to rearrange the tiles, to hide them and to bring them back. The operation is the same on all overview pages and is described there once: [Overview pages and widgets >](../../basic_concepts/Dashboard_Concept.md#customize)
 
 [To the top of the page ^](#coaching)
 
@@ -192,14 +192,14 @@ Below the widgets, the button **"Edit overview"** takes you to the edit mode. Us
 ## Further information {: #further_information}
 
 **Further reading**<br>
-[Coaching: User search >](../area_modules/Coaching_User_Search.md)<br>
-[Coaching: People >](../area_modules/Coaching_People.md)<br>
-[Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
-[Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)<br>
-[Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
-[Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
-[Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
-[Coaching: Order management >](../area_modules/Coaching_Order_Management.md)
+[Coaching: User search >](../../area_modules/Coaching_User_Search.md)<br>
+[Coaching: People >](../../area_modules/Coaching_People.md)<br>
+[Coaching: Courses >](../../area_modules/Coaching_Courses.md)<br>
+[Coaching: Educational products >](../../area_modules/Coaching_Educational_Products.md)<br>
+[Coaching: Events / Absences >](../../area_modules/Coaching_Events_Absences.md)<br>
+[Coaching: Assessment orders >](../../area_modules/Coaching_Assessment_Orders.md)<br>
+[Coaching: Reports >](../../area_modules/Coaching_Reports/index.md)<br>
+[Coaching: Groups >](../../area_modules/Coaching_Groups.md)<br>
+[Coaching: Order management >](../../area_modules/Coaching_Order_Management.md)
 
 [To the top of the page ^](#coaching)

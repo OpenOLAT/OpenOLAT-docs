@@ -64,7 +64,7 @@ Once the competence has been granted, the "Catalog management" link appears for 
 
 ## What do you edit in catalog management? {: #functions}
 
-In catalog management, you edit the taxonomy of the catalog, not the learning resources. You edit and delete courses and other learning resources [in the authoring area](../area_modules/Authoring.md), for example when they have ended.
+In catalog management, you edit the taxonomy of the catalog, not the learning resources. You edit and delete courses and other learning resources [in the authoring area](../area_modules/Authoring/index.md), for example when they have ended.
 
 Which tabs you see depends on your right:
 
@@ -165,7 +165,7 @@ This is where the documents of deleted taxonomy levels are stored. If you delete
 
 ## Further information {: #further_information}
 
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [How do I present my courses in the OpenOlat catalog? >](../../manual_how-to/catalog/catalog.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>

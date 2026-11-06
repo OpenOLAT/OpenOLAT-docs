@@ -2,7 +2,7 @@
 
 !!! warning "Katalog 2.0 löst den Katalog 1.0 ab"
 
-    Der Katalog 1.0 ist veraltet. Er wird nicht mehr weiterentwickelt und in einer der nächsten Versionen vollständig entfernt. Richten Sie neue Kataloge mit dem [Katalog 2.0](catalog2.0.de.md) ein.
+    Der Katalog 1.0 ist veraltet. Er wird nicht mehr weiterentwickelt und in einer der nächsten Versionen vollständig entfernt. Richten Sie neue Kataloge mit dem [Katalog 2.0](catalog2.0/index.de.md) ein.
 
     Sie nutzen noch den Katalog 1.0, wenn die Kurseinstellungen den Tab "Katalog" mit dem Button "In Katalog einfügen" zeigen. Das [Bild im Abschnitt "Kurs in den Katalog 1.0 eintragen"](#enter_course) zeigt beides. Der Katalog 2.0 öffnet stattdessen mit einem Suchfeld im Kopfbereich. Welche Version aktiv ist, legt die Administration fest: `Administration > Module > Katalog > Tab "Einstellungen"`.
 
@@ -100,7 +100,7 @@ Die Darstellung ist sowohl als Listen- als auch als Tabellenansicht möglich. An
 
 !!! warning "Katalog 2.0 löst den Katalog 1.0 ab"
 
-    Der Katalog 1.0 wird nicht mehr weiterentwickelt und in einer der nächsten Versionen vollständig entfernt. Richten Sie neue Kataloge mit dem [Katalog 2.0](catalog2.0.de.md) ein. Wie Sie dort Angebote erstellen, beschreibt die Seite [Katalog 2.0: Angebote](catalog2.0_angebote.de.md).
+    Der Katalog 1.0 wird nicht mehr weiterentwickelt und in einer der nächsten Versionen vollständig entfernt. Richten Sie neue Kataloge mit dem [Katalog 2.0](catalog2.0/index.de.md) ein. Wie Sie dort Angebote erstellen, beschreibt die Seite [Katalog 2.0: Angebote](catalog2.0_angebote.de.md).
 
 [Zum Seitenanfang ^](#catalog_1)
 
@@ -109,7 +109,7 @@ Die Darstellung ist sowohl als Listen- als auch als Tabellenansicht möglich. An
 
 ## Weiterführende Informationen {: #further_information}
 
-[Katalog 2.0: Übersicht >](catalog2.0.de.md)<br>
+[Katalog 2.0: Übersicht >](catalog2.0/index.de.md)<br>
 [Katalog 2.0: Angebote >](catalog2.0_angebote.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)

@@ -61,7 +61,7 @@ stations:
       de: Autorenrechte und Autorenbereich
       en: Author rights and Authoring
     read:
-      path: manual_user/docs/area_modules/Authoring
+      path: manual_user/docs/area_modules/Authoring/index
       de: Autorenbereich
       en: Authoring
     further:

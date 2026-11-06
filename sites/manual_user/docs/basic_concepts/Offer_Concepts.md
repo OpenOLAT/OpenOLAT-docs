@@ -14,7 +14,7 @@ Offers can also be displayed in the catalog for specific organizational units on
 **Example of courses offered in the catalog:**
 ![Four course cards in the launcher "Selected learning resources" with type, title and subject, above them the search field](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" title="Start page of the catalog" }
 
-[More about offers >](../area_modules/catalog2.0.md)
+[More about offers >](../area_modules/catalog2.0/index.md)
 
 [To the top of the page ^](#offer_concepts)
 
@@ -308,7 +308,7 @@ With automatic booking, the offer description is not displayed and users are onl
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Catalog 2.0: Overview >](../area_modules/catalog2.0.md)<br>
+[Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
 [Catalog 2.0 - Sorting/order >](../area_modules/catalog2.0_sort_offers.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>

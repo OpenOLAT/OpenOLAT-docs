@@ -23,6 +23,6 @@ A certificate is issued for attending one implementation or several courses; the
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](../Course_Planner.md)<br>
-[Course Planner: Application map >](../Course_Planner_Map.md)<br>
+[Course Planner: Overview >](../Course_Planner/index.md)<br>
+[Course Planner: Application map >](../course_planner_map/index.md)<br>
 [Course Planner: Certification programs >](../Course_Planner_Certification_Programs.md)

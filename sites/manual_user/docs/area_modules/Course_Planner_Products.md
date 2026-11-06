@@ -116,11 +116,11 @@ How an overview page is structured, which controls the tiles have in common and 
 
 Products, implementations and memberships can also be imported or exported via an Excel file. The import wizard checks the data in several steps and shows exactly what will be newly created, changed or ignored before execution [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9083)" }](https://track.frentix.com/issue/OO-9083){:target="_blank"}.
 
-You download an example file with one product and two implementations in the first step of the import wizard, under "Import example" via the link "Excel template", see [Step 1: Select file](Course_Planner_Import_Export.md#step1).
+You download an example file with one product and two implementations in the first step of the import wizard, under "Import example" via the link "Excel template", see [Step 1: Select file](Course_Planner_Import_Export/index.md#step1).
 
 !!! note "Import / Export"
 
-    A detailed description can be found under [Course Planner: Import / Export](Course_Planner_Import_Export.md).
+    A detailed description can be found under [Course Planner: Import / Export](Course_Planner_Import_Export/index.md).
 
 [To the top of the page ^](#products)
 
@@ -159,15 +159,15 @@ If a course already has coaches or participants, its usage can no longer be chan
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
-[Course Planner: Import / Export >](Course_Planner_Import_Export.md)<br>
+[Course Planner: Import / Export >](Course_Planner_Import_Export/index.md)<br>
 [How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)
 
 **Further reading**<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.md)<br>
 [Course Planner: Dashboard >](../../manual_user/area_modules/Course_Planner_Dashboard.md)<br>
 [Course Planner: To-dos >](../../manual_user/area_modules/Course_Planner_Todos.md)<br>
 [Coaching - Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>

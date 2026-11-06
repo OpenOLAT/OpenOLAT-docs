@@ -14,7 +14,7 @@ The report templates of the category "Certificates" are available to the followi
 The report contains the certificate data of the persons you are responsible for in this role.
 
 !!! note "You do not see the Reports button?"
-    The **Reports** button is only displayed if you hold one of the roles mentioned above and the Coaching Tool is activated. The page [Assign roles](../basic_concepts/Assign_Roles.md) explains how roles are assigned.
+    The **Reports** button is only displayed if you hold one of the roles mentioned above and the Coaching Tool is activated. The page [Assign roles](../../basic_concepts/Assign_Roles.md) explains how roles are assigned.
 
 [To the top of the page ^](#reports)
 
@@ -27,7 +27,7 @@ The report contains the certificate data of the persons you are responsible for 
 3. The report is generated as an Excel file (.xlsx) and appears in the **Export history** section.
 4. Click **Download** next to the generated report.
 
-![Marked tile Reports in the Assignments section opens the report templates, on the start page of the Coaching Tool.](assets/coaching_reports1_v2_en.png){ class="shadow lightbox" }
+![Marked tile Reports in the Assignments section opens the report templates, on the start page of the Coaching Tool.](../assets/coaching_reports1_v2_en.png){ class="shadow lightbox" title="Start page of the Coaching Tool" }
 
 [To the top of the page ^](#reports)
 
@@ -37,7 +37,7 @@ The report contains the certificate data of the persons you are responsible for 
 
 The **Report templates** table shows the name, category, description and type ("Static" or "Dynamic") of each template as well as the "Run" column. Use the "Category" filter to narrow down the list.
 
-![Marked column Run starts each of the three certificate templates, in the Report templates table with the Category filter in the Reports area.](assets/coaching_reports2_v2_en.png){ class="shadow lightbox" }
+![Marked column Run starts each of the three certificate templates, in the Report templates table with the Category filter in the Reports area.](../assets/coaching_reports2_v2_en.png){ class="shadow lightbox" title="Report templates in the Reports area" }
 
 ### Templates of the category Certificates {: #certificate_templates}
 
@@ -47,7 +47,7 @@ The **Report templates** table shows the name, category, description and type ("
 | Certificates issued - last 4 weeks | Provides information about all certificates that have been issued in the last 4 weeks. |
 | Certificates issued - last 12 months | Provides information about all certificates that have been issued in the last 12 months. |
 
-The generated Excel file contains the worksheet "Individual courses" and, if the Course Planner module is active, an additional worksheet "Products". The page [Reports: Certificates](../area_modules/Reports_Certficates.md) shows the structure of the worksheets.
+The generated Excel file contains the worksheet "Individual courses" and, if the Course Planner module is active, an additional worksheet "Products". The page [Reports: Certificates](../../area_modules/Reports_Certficates.md) shows the structure of the worksheets.
 
 [To the top of the page ^](#reports)
 
@@ -55,9 +55,9 @@ The generated Excel file contains the worksheet "Individual courses" and, if the
 
 ## Export history [:octicons-tag-16:{ title="from Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
 
-The generated Excel files are listed in the **Export history** section. Each file is available for download for 10 days after creation; the remaining time is displayed. The adjacent actions allow you to download, copy or delete the file, or view detailed information. The **Delete my exports** and **Delete all exports** buttons remove all files of the list at once; the list only contains reports that you created yourself.
+The generated Excel files are listed in the "Export history" section. Each file is available for download for 10 days after creation; the remaining time is displayed. The adjacent actions allow you to download, copy or delete the file, or view detailed information. The "Delete my exports" and "Delete all exports" buttons remove all files of the list at once; the list only contains reports that you created yourself.
 
-![Marked section Export history shows the generated report with the remaining time 10 more days and the actions Info, Copy to, Delete and Download, in the Reports area.](assets/coaching_reports3_v2_en.png){ class="shadow lightbox" }
+![Marked section Export history shows the generated report with the remaining time 10 more days and the actions Info, Copy to, Delete and Download, in the Reports area.](../assets/coaching_reports3_v2_en.png){ class="shadow lightbox" title="Export history in the Reports area" }
 
 [To the top of the page ^](#reports)
 
@@ -66,18 +66,18 @@ The generated Excel files are listed in the **Export history** section. Each fil
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assign roles >](../basic_concepts/Assign_Roles.md)<br>
-[Reports: Certificates >](../area_modules/Reports_Certficates.md)
+[Assign roles >](../../basic_concepts/Assign_Roles.md)<br>
+[Reports: Certificates >](../../area_modules/Reports_Certficates.md)
 
 **Further reading**<br>
-[Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
-[Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
-[Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
-[Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
-[Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
-[Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
-[Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Coaching: User search >](../../../manual_user/area_modules/Coaching_User_Search.md)<br>
+[Coaching: People >](../../../manual_user/area_modules/Coaching_People.md)<br>
+[Coaching: Courses >](../../../manual_user/area_modules/Coaching_Courses.md)<br>
+[Coaching: Educational products >](../../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
+[Coaching: Events / Absences >](../../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
+[Coaching: Assessment orders >](../../area_modules/Coaching_Assessment_Orders.md)<br>
+[Coaching: Groups >](../../../manual_user/area_modules/Coaching_Groups.md)<br>
+[Coaching: Order management >](../../../manual_user/area_modules/Coaching_Order_Management.md)<br>
+[Assessment tool >](../../../manual_user/learningresources/Assessment_tool_overview.md)
 
 [To the top of the page ^](#reports)

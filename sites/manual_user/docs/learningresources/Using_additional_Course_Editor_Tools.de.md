@@ -93,7 +93,7 @@ Schritt 1 - Kursbausteine wählen: Wählen Sie alle Kursbausteine aus, die Sie g
 
 Schritt 2 - Änderung des Kurszugriffs: Hier erhalten Sie Zugang zu den generellen Veröffentlichungsoptionen eines Kurses. Bestimmen Sie, welche OpenOlat-Benutzer:innen Zugriff auf Ihren Kurs haben sollen. Lesen Sie im Kapitel "[Kurseinstellungen](Course_Settings.de.md)", welche Optionen Ihnen hier zur Verfügung stehen. Nach diesem Schritt kann der Vorgang des Publizierens bereits abgeschlossen werden. Klicken Sie dazu auf "Fertigstellen".
 
-Eventuell gibt es noch Hinweise, die angezeigt werden. Auch ein gezielter Eintrag in den Katalog ist bei Verwendung des [Katalog 1.0](../area_modules/catalog1.0.de.md) möglich. Bei Verwendung des [Katalog 2.0](../area_modules/catalog2.0.de.md) erfolgt der Eintrag automatisch entsprechend der Taxonomie-Konfiguration.
+Eventuell gibt es noch Hinweise, die angezeigt werden. Auch ein gezielter Eintrag in den Katalog ist bei Verwendung des [Katalog 1.0](../area_modules/catalog1.0.de.md) möglich. Bei Verwendung des [Katalog 2.0](../area_modules/catalog2.0/index.de.md) erfolgt der Eintrag automatisch entsprechend der Taxonomie-Konfiguration.
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -106,6 +106,6 @@ Eventuell gibt es noch Hinweise, die angezeigt werden. Auch ein gezielter Eintra
 [Switch AAI >](http://www.switch.ch/aai/)<br>
 [Kurseinstellungen >](Course_Settings.de.md)<br>
 [Katalog 1.0 >](../area_modules/catalog1.0.de.md)<br>
-[Katalog 2.0: Übersicht >](../area_modules/catalog2.0.de.md)
+[Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)
 
 [Zum Seitenanfang ^](#course_editor_tools)

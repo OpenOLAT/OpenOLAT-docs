@@ -63,6 +63,6 @@ Legend: outline colour = level (product, implementation, element, course) · fil
 
 ## Further information {: #further_information}
 
-[Course Planner: Overview >](Course_Planner.md)
+[Course Planner: Overview >](../Course_Planner/index.md)
 
 [To the top of the page ^](#course_planner_map)

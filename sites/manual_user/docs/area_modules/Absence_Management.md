@@ -182,7 +182,7 @@ The report summarizes the attendances per person: as an "Aggregated list" across
 **Further reading**<br>
 [Basic concept events and absences >](../basic_concepts/Events_and_Absences.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
-[Coaching - Overview >](../area_modules/Coaching.md)
+[Coaching - Overview >](../area_modules/Coaching/index.md)
 
 
 [To the top of the page ^](#absence_management)

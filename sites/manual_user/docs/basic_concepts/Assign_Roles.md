@@ -139,7 +139,7 @@ Specific rights can be defined for each user-to-user relation and thus access ca
 **Further reading**<br>
 [Which roles are available? >](Roles.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
-[Course Planner: Overview >](../area_modules/Course_Planner.md)
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)
 
 **youtube**<br>
 [User management](<https://www.youtube.com/embed/V1RuH0q08J8>)

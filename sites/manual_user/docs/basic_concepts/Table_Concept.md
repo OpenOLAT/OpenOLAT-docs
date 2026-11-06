@@ -1,6 +1,6 @@
 # Working with tables {: #tables}
 
-The tables in the [courses section](../area_modules/Courses.md) and in the [authoring section](../area_modules/Authoring.md) (for authors) offer various filter and setting options.
+The tables in the [courses section](../area_modules/Courses.md) and in the [authoring section](../area_modules/Authoring/index.md) (for authors) offer various filter and setting options.
 
 ## The filter menu
 
@@ -47,7 +47,7 @@ With the search function you can search for specific entries. The selected filte
 ## Further information {: #further_information}
 
 [Finding courses >](../area_modules/Courses.md)<br>
-[Authoring - Overview >](../area_modules/Authoring.md)<br>
+[Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Coaching - Courses >](../area_modules/Coaching_Courses.md)<br>
 [General information on the search >](Search_General.md)<br>
 [Folder concept >](Folder_Concept.md)

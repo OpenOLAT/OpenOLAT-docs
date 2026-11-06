@@ -14,7 +14,7 @@
 ??? abstract "Expected previous knowledge"
 
     * ["How do I plan and run a course in several implementations with the Course Planner?"](../course_planner_courses/course_planner_courses.md)<br>
-    * [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+    * [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 
 
 Program, study program, degree course or training: in the Course Planner, the offering is called a product, and each run of it is an implementation. For example, you plan a program with two semesters of three modules each, and each module is a course. The program starts again every autumn, with new participants.
@@ -35,9 +35,9 @@ Before you start, check whether you are on the right page. Choose the simplest p
 | Several courses in a tree structure | "Subelements" = "Yes", courses on the sub-elements | this guide, all steps |
 
 The user manual explains the three types of planning with diagrams:<br>
-[Planning single courses >](../../manual_user/area_modules/Course_Planner.md#planning_single_courses)<br>
-[Planning for course bundles >](../../manual_user/area_modules/Course_Planner.md#planning_course_bundles)<br>
-[Planning for structured educational programs >](../../manual_user/area_modules/Course_Planner.md#planning_structured_product)
+[Planning single courses >](../../manual_user/area_modules/Course_Planner/index.md#planning_single_courses)<br>
+[Planning for course bundles >](../../manual_user/area_modules/Course_Planner/index.md#planning_course_bundles)<br>
+[Planning for structured educational programs >](../../manual_user/area_modules/Course_Planner/index.md#planning_structured_product)
 
 [To the top of the page ^](#plan_and_run_curriculum_with_course_planner)
 
@@ -53,7 +53,7 @@ The user manual explains the three types of planning with diagrams:<br>
 To carry out the steps, four conditions must be met:
 
 - **Course Planner switched on**: System administrators switch on the Course Planner in the system administration, with the switch Module "Course Planner" under `Administration > Modules > Course Planner > Tab "Settings"`.
-- **Role**: You have the role Course planner or you are a product owner of the product. Authors have no access to the Course Planner, see [Who can use the Course Planner? >](../../manual_user/area_modules/Course_Planner.md#users)
+- **Role**: You have the role Course planner or you are a product owner of the product. Authors have no access to the Course Planner, see [Who can use the Course Planner? >](../../manual_user/area_modules/Course_Planner/index.md#users)
 - **Element types**: Suitable element types exist for the implementation and its elements (step 1).
 - **Courses**: The courses have the usage "Use in Course Planner", course templates the usage "Template" (step 5).
 
@@ -261,7 +261,7 @@ The copy never takes over participants, the new implementation starts without th
 In the "Overview elements" step, you shift all dates together with the "Shift all dates" button, for example by one year. In the dialog, you choose under "Shift by" a new "Date" or a number of "Days". If the template has no execution period, "Reference date (earliest)" shows no value, and you shift with "Days". If the implementation has offers, an "Offers" step follows.
 
 If you plan many implementations at once, you can create them with the Excel import instead. Organisations, element types and subjects must already exist for this. How this works is shown in the user manual under:<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.md)
 
 [To the top of the page ^](#plan_and_run_curriculum_with_course_planner)
 
@@ -272,14 +272,14 @@ If you plan many implementations at once, you can create them with the Excel imp
 
 **Mentioned on this page**<br>
 [How do I plan and run a course in several implementations with the Course Planner? >](../course_planner_courses/course_planner_courses.md)<br>
-[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
+[Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
-[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export.md)
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.md)
 
 **Further reading**<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
-[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)
+[Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.md)
 
 [To the top of the page ^](#plan_and_run_curriculum_with_course_planner)
