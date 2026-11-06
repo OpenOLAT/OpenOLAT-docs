@@ -1,5 +1,4 @@
-#  Course Element "Blog" {: #course_element_blog}
-
+# Course Element "Blog" {: #course_element_blog}
 
 ## Profile
 
@@ -29,6 +28,8 @@ A course element "Blog" always shows a blog learning resource. After inserting t
 
 ![The four buttons Select, Create, Import and Embed via URL show the ways to assign a blog to the course element](assets/course_element_blog_content_v2_en.png){ class="shadow lightbox" title="Tab Blog learning content in the course editor · 2026.11.03" }
 
+You define who moderates the blog and who creates posts in the same tab in the section "User rights". This way you use the blog to inform the participants, or you open it as a shared blog in which the participants write themselves. For a new course element the coaches moderate, and coaches as well as participants create posts. You can find more about this under [Blog Configuration](../learningresources/Blog_Configuration.md#blog_configuration_permissions). [:octicons-tag-16:{ title="from Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417)
+
 !!! tip "Tip"
 
     You can also create a blog learning resource in the authoring area via "Create". Afterwards, you integrate it into a course element "Blog" in the course editor.<br><br>
@@ -40,9 +41,9 @@ A course element "Blog" always shows a blog learning resource. After inserting t
 
 ## Further information {: #further_information}
 
-[Create blogs >](../learningresources/Blog_Create.md)<br>
+[Create a blog >](../learningresources/Blog_Create.md)<br>
 [How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
-[Configure blog >](../learningresources/Blog_Configuration.md)<br>
+[Blog Configuration >](../learningresources/Blog_Configuration.md)<br>
 [Blogging >](../learningresources/Blog_Blogging.md)
 
 **youtube**<br>

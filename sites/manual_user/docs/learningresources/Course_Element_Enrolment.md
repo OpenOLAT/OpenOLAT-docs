@@ -22,11 +22,17 @@ With "Delisting permitted" you define whether enrolled participants can delist f
 
 !!! tip "Tip"
 
+    In the list of the enrolment, the participants open the visiting card of each group by clicking on its name. A meaningful description of the group and the options "All users can see coaches" and "All users can see participants" help them choose. You find the options in the group in the tab "Members": `Group > Administration > Members`, see [Group Administration](../groups/Group_Administration/index.md#display_members).
+
+!!! tip "Tip"
+
     If you have created learning areas under `Course > Administration > Learning areas` and assigned groups to them, you can also select these learning areas in the tab "Configuration" under "Learning areas".
 
 ## Participant view
 
 With "Enrol" you become a member of a group. Depending on the configuration, you enrol in only one group or in several groups. After enrolling, you find your groups on the right in the menu "My course".
+
+Before enrolling, you take a closer look at each group: the name of the group in the list is a link and opens the visiting card of the group with the "Group information". If the display of members for all users is switched on in the group, the visiting card also shows the entry "Members" with the coaches, participants or the waiting list of the group. If you are already a coach or participant of the group, the link opens the group itself. [:octicons-tag-16:{ title="from Release 9.2 (OO-867)" }](https://track.frentix.com/issue/OO-867)
 
 If a group is full, you put yourself on the waiting list, depending on the configuration of the group. If moving up automatically is switched on for the group, you move up into the group as soon as a member leaves the group.
 
@@ -35,7 +41,8 @@ If delisting is permitted in the course element, you delist at the same place wi
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Member management >](../learningresources/Members_management.md)
+[Members management >](../learningresources/Members_management.md)<br>
+[Group Administration >](../groups/Group_Administration/index.md)
 
 **Further reading**<br>
 [Create Groups >](../groups/Create_Groups.md)<br>
