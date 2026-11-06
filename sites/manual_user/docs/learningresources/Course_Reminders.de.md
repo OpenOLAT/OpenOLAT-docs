@@ -10,7 +10,7 @@ Erinnerungen sind eine Funktion des Kurses. Für Gruppen und einzelne Werkzeuge 
 
 Unter `Kurs > Administration > Erinnerung` werden alle Erinnerungen eines Kurses angezeigt und können dort auch erstellt werden.
 
-![Markierter Menüeintrag "Erinnerung" und markierter Button "Erinnerung erstellen"](assets/course_reminder_access1_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
+![Geöffnetes Menü Administration mit markiertem Eintrag "Erinnerung" und markiertem Button "Erinnerung hinzufügen": Hier öffnen Sie die Erinnerungen des Kurses und legen neue an](assets/course_reminder_access1_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.11.06" }
 
 
 ### Kursbausteine mit Erinnerungsfunktion [:octicons-tag-16:{ title="ab Release 16.0 (OO-5447)" }](https://track.frentix.com/issue/OO-5447)
@@ -46,9 +46,11 @@ Als Kursbesitzer:in definieren Sie
 
 Um eine Erinnerung zu erstellen, klicken Sie auf den Button "Erinnerung hinzufügen". Es erscheint ein Wizard, der Sie Schritt für Schritt durch den Erstellungsprozess führt.
 
-![Erster Schritt "Bedingungen bearbeiten" mit Beschreibung, Bedingung und Zusatzbedingungen](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" title="Dialog Neue Erinnerung" }
+![Erster Schritt "Bedingungen bearbeiten" mit Sendeintervall, Beschreibung, Bedingung und Zusatzbedingungen: Hier legen Sie fest, wann die Erinnerung ausgelöst wird](assets/course_reminder_new_v2_de.png){ class="shadow lightbox" title="Dialog Neue Erinnerung · 2026.11.06" }
 
 **Schritt 1: Bedingungen bearbeiten**
+
+Oben im Dialog zeigt der Hinweis "Sendeintervall", wie oft OpenOlat Erinnerungen versendet, zum Beispiel "1 Mal pro Tag". Das Info-Symbol daneben listet die Sendezeiten des Tages. Jede Person erhält eine Erinnerung nur einmal, zur ersten Sendezeit, an der alle Bedingungen auf sie zutreffen.
 
 Geben Sie als Erstes die Beschreibung für die Erinnerung ein. Diese Beschreibung ist nur für die Autor:innen sichtbar und dient der übersichtlichen und informativen Darstellung der Erinnerungen eines Kurses. Wählen Sie dann die Bedingungen für den Versand aus. Mehr dazu weiter unten.
 
@@ -62,7 +64,7 @@ Im letzten Schritt geben Sie den zu versendenden E-Mail-Text ein. Unter "An" wä
 
 Mit "Nur an bestimmte Empfänger" geht die Erinnerung nur an die Besitzer:innen, die zuständigen Betreuer:innen oder an externe E-Mail-Adressen. Diese Option bietet sich vor allem für Test-Erinnerungen oder spezifische Erinnerungen für Lehrpersonen an.
 
-Sobald die Bedingungen für eine Erinnerung erfüllt sind, werden die Mails automatisch zum Versand freigegeben. Die genaue Sendezeit und Häufigkeit wird von Ihren Systemadministrator:innen systemweit festgelegt. 
+Sobald die Bedingungen für eine Erinnerung erfüllt sind, werden die Mails automatisch zum Versand freigegeben. Sendeintervall und Sendezeiten legen Systemadministrator:innen für alle Kurse im [Modul Kurserinnerungen](../../manual_admin/administration/Modules_Course_Reminders.de.md) fest.
 
 
 [Zum Seitenanfang ^](#course_reminders)
@@ -71,9 +73,9 @@ Sobald die Bedingungen für eine Erinnerung erfüllt sind, werden die Mails auto
 
 ## Bedingungen für den Versand von Erinnerungen {: #conditions}
 
-Die Bedingungen legen fest, wann eine Erinnerung an wen geht. Sie wählen jede Bedingung aus einem Dropdown-Menü. Je nach Bedingung erscheint rechts daneben ein weiteres Eingabefeld für genauere Angaben.
+Die Bedingungen legen fest, wann eine Erinnerung an wen geht. Sie wählen jede Bedingung aus einem Dropdown-Menü. Je nach Bedingung erscheint rechts daneben ein weiteres Eingabefeld für genauere Angaben. Nicht jede Bedingung steht in jedem Kurs zur Wahl: "Fortschritt" gibt es nur in Lernpfadkursen, "Ausstellungsdatum Zertifikat" und "Ablaufdatum Zertifikat" nur, wenn der Kurs Zertifikate ausstellt.
 
-![Dropdown-Liste der wählbaren Bedingungen für eine Erinnerung, z. B. Einschreibedatum oder Kursstatus](assets/course_reminder_conditions1_v1_de.png){ class="shadow lightbox" title="Schritt Bedingungen bearbeiten" }
+![Dropdown-Liste aller Bedingungen in einem Lernpfadkurs mit Zertifikat, von Einschreibedatum bis Termin: Formular ausfüllen](assets/course_reminder_conditions1_v1_de.png){ class="shadow lightbox" title="Schritt Bedingungen bearbeiten" }
 
 Mehrere Bedingungen können nach Wunsch kombiniert werden. Dadurch können auf den individuellen Bedarf zugeschnittene Erinnerungen ausgelöst werden. Es muss aber mindestens ein Kriterium gewählt werden, damit ein Versand ausgelöst wird.
 
@@ -123,7 +125,7 @@ Hier geht es um die Erstdurchführung oder Kurswiederholung zur Rezertifizierung
     _Beispiel_: Teilnehmende, die den Kurs das zweite Mal durchlaufen, erhalten eine Erinnerungsmail.
 
 * **Ausstellungsdatum Zertifikat**<br>
-Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`.<br>
+Diese Option wird nur angezeigt, wenn im Kurs "Zertifikat ausstellen" eingeschaltet ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`.<br>
 _Beispiel_: Die Mail wird versandt 1 Tag nachdem ein Zertifikat ausgestellt wurde.
 
 * **Fortschritt**<br>
@@ -132,7 +134,7 @@ OpenOlat versendet die Erinnerung abhängig vom prozentualen Kursfortschritt der
 _Beispiel_: Teilnehmende, die mindestens 80% eines Kurses erfolgreich erledigt haben, erhalten eine Motivationsmail, um noch bald die letzten 20% zu erledigen.
 
 * **Ablaufdatum Zertifikat**<br>
-Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`.<br>
+Diese Option wird nur angezeigt, wenn im Kurs "Zertifikat ausstellen" eingeschaltet ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`.<br>
 _Beispiel_: Die Mail wird versandt 2 Wochen bevor das Zertifikat abläuft, so dass die Teilnehmenden daran erinnert werden die für das Zertifikat notwendigen Aktivitäten durchzuführen bevor das Zertifikat abläuft.
 
 <br>
@@ -234,7 +236,7 @@ _Beispiel_: Eine Erinnerung wird 2 Tage vor der Ausfülldeadline für das Formul
 
 !!! info "Wann wird die Mail verschickt, wenn ich hier ein Datum angebe?"
 
-    Der Versand der Kurserinnerungen findet nicht sofort statt. Alle Erinnerungsmails werden gemeinsam z.B. täglich um 9.00 Uhr verschickt. Dies ist eine Voreinstellung und kann von Systemadministrator:innen in der System-Administration geändert und bis auf "stündlich" angepasst werden: `Administration > Module > Kurserinnerungen`.
+    Der Versand der Kurserinnerungen findet nicht sofort statt. Alle Erinnerungsmails werden gemeinsam z.B. täglich um 9.00 Uhr verschickt. Dies ist eine Voreinstellung und kann von Systemadministrator:innen in der System-Administration geändert und bis auf "Jede Stunde" angepasst werden: `Administration > Module > Kurserinnerungen`.
     Zum Versandzeitpunkt prüft OpenOlat jeweils, welche Bedingungen erfüllt sind und verschickt entsprechend die Mails. Es werden dann alle Kurserinnerungen verschickt, die z.B. um 9.00 die Bedingungen erfüllen ("im Ausgangskorb liegen").
 
     Mit "Bis Datum" kann die Bedingung schon beim Erstellen der Erinnerung erfüllt sein, und OpenOlat verschickt die Mails. Sinnvoll ist diese Bedingung vor allem in Verbindung mit einer weiteren Bedingung, z.B.: Wenn "bis Datum" "der Test bestanden wurde", wird eine Mail verschickt "Sie haben sich termingerecht qualifiziert und erhalten dafür ...".
@@ -298,9 +300,9 @@ Mit Hilfe des E-Mail-Textes, der nach Bedarf angepasst werden kann, erstellen Si
 
 !!! tip "Tipp"
 
-    Durch Bewegen des Mauszeigers auf das kleine Fragezeichensymbol werden Ihnen die verfügbaren Variablen angezeigt.
+    Zeigen Sie mit dem Mauszeiger auf das Fragezeichensymbol neben "E-Mail-Betreff" oder "E-Mail". OpenOlat listet dann die Variablen, die in diesem Feld verfügbar sind.
 
-    ![Tooltip mit den verfügbaren Mail-Variablen an den Fragezeichensymbolen der Felder E-Mail-Betreff und E-Mail](assets/course_reminders_variables_v1_de.png){ class="shadow lightbox" title="Schritt E-Mail-Benachrichtigung im Dialog Neue Erinnerung" }
+    ![Markierte Fragezeichensymbole der Felder E-Mail-Betreff und E-Mail, geöffnet der Tooltip des Felds E-Mail: Er listet die Variablen für den Mailtext](assets/course_reminders_variables_v2_de.png){ class="shadow lightbox" title="Schritt E-Mail-Benachrichtigung im Dialog Neue Erinnerung · 2026.11.06" }
 
 
 ### Im Betreff verfügbare Variablen
@@ -370,7 +372,7 @@ Ebenso können Erinnerungen auch **ausschliesslich an die Kursbesitzer:innen** v
 **Beispiel:**<br>
 Manchmal vergessen Autor:innen ihren Kurs zu publizieren, weil noch Dinge unklar waren als sie das letzte Mal an der Kurserstellung gearbeitet haben. In diesem Fall kann der Kursstatus in Kombination mit der Rolle als Versandkriterium verwendet werden.
 
-![Kombinierte Bedingungen Kursstatus, Kursrolle "Besitzer:innen" und Beginndatum für eine Erinnerung an Kursbesitzer:innen](assets/course_reminder_condition_status_v1_de.png){ class="shadow lightbox" title="Schritt Bedingungen bearbeiten" }
+![Kombinierte Bedingungen Kursstatus "Nicht Veröffentlicht", Kursrolle "Besitzer:innen" und Beginndatum: So erinnert OpenOlat die Besitzer:innen an einen noch nicht veröffentlichten Kurs](assets/course_reminder_condition_status_v2_de.png){ class="shadow lightbox" title="Schritt Bedingungen bearbeiten · 2026.11.06" }
 
 Für besondere Fälle können Erinnerungen auch **ausschliesslich an bestimmte externe Mailadressen** versandt werden.
 
@@ -380,16 +382,19 @@ Für besondere Fälle können Erinnerungen auch **ausschliesslich an bestimmte e
 
 ## Erinnerungen kontrollieren und bearbeiten {: #check_and_edit}
 
-Wurden bereits Erinnerungen erstellt, sind diese unter `Kurs > Administration > Erinnerung` aufgelistet.
-Auf der Übersichtsseite sehen Sie alle für diesen Kurs bereits erstellten Erinnerungen und können sich auch bereits versendete Erinnerungen anzeigen lassen. Die Liste der bereits versendeten Erinnerungen enthält Informationen zu den Empfänger:innen sowie die Sendezeit. Einzelne Erinnerungen aus dieser Liste können über den Link "Erneut versenden" einfach verschickt werden.
+Wurden bereits Erinnerungen erstellt, sind diese unter `Kurs > Administration > Erinnerung` aufgelistet. Der Text über der Liste nennt, wann OpenOlat die Erinnerungen zum nächsten Mal versendet.
 
-![Aktionsmenü einer Erinnerung mit Editieren, Duplizieren, Erinnerung jetzt senden, Versendete Erinnerungen zeigen und Löschen](assets/reminder_DE.png){ class="shadow lightbox" title="Liste der Erinnerungen eines Kurses" }
+Über die drei Punkte am Zeilenende öffnen Sie das Aktionsmenü einer Erinnerung mit "Bearbeiten", "Duplizieren", "Erinnerung jetzt senden", "Versendete Erinnerungen zeigen" und "Löschen". Die drei Punkte neben "Erinnerung hinzufügen" bieten "Vorschau anzeigen" und "Versendete Erinnerungen zeigen" für alle Erinnerungen des Kurses. Die Vorschau listet je Erinnerung die Personen, auf die ihre Bedingungen derzeit zutreffen, und das Datum, an dem sie die Erinnerung schon erhalten haben.
+
+Die Liste der bereits versendeten Erinnerungen enthält Informationen zu den Empfänger:innen sowie die Sendezeit. Einzelne Erinnerungen aus dieser Liste können über den Link "Erneut versenden" einfach verschickt werden.
+
+![Markiertes Aktionsmenü einer Erinnerung mit Bearbeiten, Duplizieren, Erinnerung jetzt senden, Versendete Erinnerungen zeigen und Löschen: Sie öffnen es über die drei Punkte am Zeilenende](assets/course_reminders_list_actions_v1_de.png){ class="shadow lightbox" title="Liste der Erinnerungen eines Kurses · 2026.11.06" }
 
 Neue Erinnerungen können jederzeit erstellt werden.
 
 Soll z.B. eine einzelne Bedingung für den Versand entfernt werden, finden Sie im Bearbeitungsmodus die Buttons zum Löschen einer einzelnen Bedingung rechts neben der jeweiligen Bedingung. 
 
-Erinnerungen können auch gezielt und wiederholt ausgelöst werden. Dabei werden Erinnerungen aber dennoch nur an jene Empfänger:innen geschickt, für die alle Bedingungen als erfüllt gelten.
+Mit "Erinnerung jetzt senden" lösen Sie eine Erinnerung sofort aus, ohne auf die nächste Sendezeit zu warten. Der Dialog nennt, für wie viele Kursmitglieder die Erinnerung erstmalig versendet wird. "Erstmalig versenden" schickt sie nur an diese Personen, "An alle senden" auch an Personen, die sie schon erhalten haben. In beiden Fällen geht die Erinnerung nur an Personen, auf die alle Bedingungen zutreffen.
 
 
 [Zum Seitenanfang ^](#course_reminders)
@@ -403,7 +408,8 @@ Erinnerungen können auch gezielt und wiederholt ausgelöst werden. Dabei werden
 [Kursbaustein "Forum" >](Course_Element_Forum.de.md)<br>
 [Persönliche Werkzeuge: Abonnements >](../personal_menu/Subscriptions.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
-[Wie können Betreuer:innen über den Lernfortschritt der Kursteilnehmer:innen informiert werden? >](../../manual_how-to/progress_information/progress_information.de.md)
+[Wie können Betreuer:innen über den Lernfortschritt der Kursteilnehmer:innen informiert werden? >](../../manual_how-to/progress_information/progress_information.de.md)<br>
+[Modul Kurserinnerungen >](../../manual_admin/administration/Modules_Course_Reminders.de.md)
 
 **Weiterführend**<br>
 [Persönliche Werkzeuge: E-Mail >](../personal_menu/E-Mail.de.md)<br>
