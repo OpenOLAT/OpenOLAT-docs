@@ -256,7 +256,7 @@ Members can create, reset, delete, and export course databases here.
 ---
 
 
-##  Consents  {: #section_consent}
+##  Consents  {: #consent}
 
 If course-related terms of use or the course-related privacy policy are [activated](../learningresources/Course_Settings.md), the stored consents of the individual users are listed here. Selected consents can be revoked or deleted at this point. When revoked, the consent is reset, but the entry is retained. If a user is deleted in OpenOlat, all course-related consents are also removed.
 

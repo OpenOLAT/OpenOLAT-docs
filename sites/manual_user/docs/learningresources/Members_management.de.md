@@ -258,7 +258,7 @@ Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und e
 ---
 
 
-##  Bereich "Einwilligungen"  {: #section_consent}
+##  Bereich "Einwilligungen"  {: #consent}
 
 Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer:innen hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird eine Benutzer:in in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen entfernt.
 
