@@ -94,7 +94,7 @@ By default, only owners of a course have write access to the calendar. Course pa
 
 ![Tool Participant list with the people icon highlighted in the toolbar, to its left Info page, Learning path and Calendar, to its right Info messages and the other tools](assets/toolbar_participant_list_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
-The participant list can also include contact options in the list of all course members. In contrast to the course element of the same name, the tool cannot be configured.<br>
+With the tool "Participant list", the course members see who is owner, coach or participant in the course, and they write to these persons directly via "Send e-mail". In contrast to the course element of the same name, the tool cannot be configured: it always shows all three roles.<br>
 [More >](../learningresources/Course_Element_Participant_List.md)
 
 ---
