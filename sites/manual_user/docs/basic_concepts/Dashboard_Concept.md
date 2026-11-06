@@ -6,7 +6,7 @@ This page describes the concept once, centrally. The individual widgets are desc
 
 ## What is a widget? {: #widget_definition}
 
-A **widget** is a tile on an overview page. It shows a slice of the data you would otherwise have to open a separate area for, for example the next events or the relevant implementations. The widget does not replace the area, it saves you the way there.
+A widget is a tile on an overview page. It shows a slice of the data you would otherwise have to open a separate area for, for example the next events or the relevant implementations. The widget does not replace the area, it saves you the way there.
 
 You can show and hide every widget for yourself and move it in the order. Your arrangement applies only to you and only to this one overview page.
 
@@ -22,13 +22,13 @@ Overview pages with widgets exist in five places:
 | Coaching, overview | Courses - As coach, Events | [Coaching - Overview >](../area_modules/Coaching.md) |
 | Certification program, overview | Active members | [Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md) |
 
-Which widgets you actually see depends on your roles and on the activated modules. The widget **Events**, for example, only appears if the module **Events and absences** is active system-wide.
+Which widgets you actually see depends on your roles and on the activated modules. The widget "Events", for example, only appears if the module "Event & absence management" is active system-wide.
 
 !!! info "Important"
 
-    The widget **Events** has the same name and the same symbol in the Course Planner and in Coaching, but it shows different events. In the Course Planner you see events from educational products for which you are administrator, absence manager, owner or coach. In Coaching you only see events in which you are entered as a lecturer yourself, and explicitly no events from educational products.
+    The widget "Events" has the same name and the same symbol in the Course Planner and in Coaching, but it shows different events. In the Course Planner you see events from educational products for which you are administrator, absence manager, owner or coach. In Coaching you only see events in which you are entered as a lecturer yourself, and explicitly no events from educational products.
 
-Both widgets show events from one specific role. **Your own** events, in contrast, are all in one place: in the personal tool [Absences](../personal_menu/Absences.md#tab_events_absences), tab **Events and absences**. The list holds all events in which you are entered as a participant and separates them into **Absences within a product** and **Absences outside a product**. Whether an event comes from an educational product of the Course Planner or from a single course makes no difference to the completeness of this list.
+Both widgets show events from one specific role. All events in which you yourself are entered as a participant, in contrast, are complete in one place: in the personal tool [Absences](../personal_menu/Absences.md#tab_events_absences), tab "Events and Absences". The list separates them into "Absences within a product" and "Absences outside of a product". Whether an event comes from an educational product of the Course Planner or from a single course makes no difference to the completeness of this list.
 
 !!! note "Note"
 
@@ -42,7 +42,7 @@ An overview page has the same structure from top to bottom:
 - **Separator "Overview"**. It separates the data from the navigation above it.
 - **Widgets** in a responsive tile layout. The tiles rearrange themselves depending on the screen width.
 
-![Buttons in the groups Products, Productivity and Tools, below them the separator Overview with the tiles Implementations, Events and To-do, on the start page of the Course Planner](assets/dashboard_concept_structure_v1_en.png){ class="shadow lightbox" }
+![Buttons in the groups Products, Productivity and Tools, below them the separator Overview with the tiles Implementations, Events and To-do](assets/dashboard_concept_structure_v1_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
 
 ## Recurring controls [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"} {: #controls}
 
@@ -54,32 +54,32 @@ All widgets use the same buttons. What they do is the same everywhere:
 
 ### Key figures row {: #key_figures}
 
-Table widgets show a row with key figures above the table. The **main figure** is in the title row of the widget. A click on a key figure filters the table below it to the corresponding entries.
+Table widgets show a row with key figures above the table. The main figure is in the title row of the widget. A click on a key figure filters the table below it to the corresponding entries.
 
 ### Change tile settings [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9132)" }](https://track.frentix.com/issue/OO-9132){:target="_blank"} {: #widget_settings}
 
-Use the gear **"Change settings"** to set up a table widget for yourself:
+Use the gear "Change settings" to set up a table widget for yourself:
 
 - **Main figure**: the key figure that is in the title row of the widget.
-- **Figures**: the further key figures the widget shows. The main figure is always selected and cannot be deselected.
+- **Key figures**: the further key figures the widget shows. The main figure is always selected and cannot be deselected.
 - **Number of entries**: how many rows the table shows, 5 to 15.
 
-**Save** applies the settings, **Cancel** discards them.
+"Save" applies the settings, "Cancel" discards them.
 
 ## Edit overview [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9273)" }](https://track.frentix.com/issue/OO-9273){:target="_blank"} {: #customize}
 
-The button **"Edit overview"** is below the widgets. It switches to the edit mode with two areas:
+The button "Edit overview" is below the widgets. It switches to the edit mode with two areas:
 
-- **Active widgets**: the tiles the page shows. Use **"Move widget"** to rearrange them by drag & drop, use **"Remove from dashboard"** to hide a tile.
-- **Available widgets**: the hidden tiles. Use **"Add to dashboard"** to bring one back. It appears at the end of the active widgets.
+- **Active widgets**: the tiles the page shows. Use "Move widget" to rearrange them by drag & drop, use "Remove from dashboard" to hide a tile.
+- **Available widgets**: the hidden tiles. Use "Add to dashboard" to bring one back. It appears at the end of the active widgets.
 
-![The Active widgets and Available widgets areas with Move widget, Add to dashboard and the Save as system default menu, in the edit mode of an overview page](../area_modules/assets/course_planner_overview_customize_v1_en.png){ class="shadow lightbox" }
+![The Active widgets and Available widgets areas with Move widget, Add to dashboard and the Save as system default menu](../area_modules/assets/course_planner_overview_customize_v1_en.png){ class="shadow lightbox" title="Edit mode of an overview page" }
 
-**Save** applies the arrangement and leaves the edit mode, **Cancel** discards the changes. **"Reset dashboard"** restores the default arrangement.
+"Save" applies the arrangement and leaves the edit mode, "Cancel" discards the changes. The button "Reset dashboard" restores the default arrangement.
 
 !!! tip "Tip"
 
-    For operation without a mouse, the actions **"Move up"** and **"Move down"** are available in addition.
+    For operation without a mouse, the actions "Move up" and "Move down" are available in addition.
 
 !!! info "Important"
 
@@ -90,10 +90,10 @@ The button **"Edit overview"** is below the widgets. It switches to the edit mod
 OpenOlat determines the displayed widgets in three steps:
 
 1. **Your personal arrangement**, if you have saved one.
-2. Otherwise the **system default** that the system administration defines.
-3. Otherwise **all available widgets**.
+2. **System default**: applies if you have not saved an arrangement of your own. System administrators define it.
+3. **All available widgets**: apply if no system default is defined either.
 
-As a system administrator you define the system default in the edit mode with **"Save as system default"**. It applies to all people without their own arrangement. **"Reset system default"** removes it again. This is how you hide a single widget for all people without their own arrangement, for example.
+As a system administrator you define the system default in the edit mode with "Save as system default". It applies to all people without their own arrangement. "Reset system default" removes it again. This is how you hide a single widget for all people without their own arrangement, for example.
 
 ## Further information {: #further_information}
 
@@ -106,7 +106,7 @@ As a system administrator you define the system default in the edit mode with **
 [User tools: Absences >](../personal_menu/Absences.md)
 
 **Further reading**<br>
-[Table concept >](Table_Concept.md)<br>
+[Working with tables >](Table_Concept.md)<br>
 [Events and absences >](Events_and_Absences.md)<br>
 [Course Planner: To-dos >](../area_modules/Course_Planner_Todos.md)
 

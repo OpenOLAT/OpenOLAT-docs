@@ -4,7 +4,7 @@ With the help of ePortfolios, learners can design, document and reflect on their
 
 ## What is a portfolio?
 
-Portfolio: a term that is often used, but can be understood very differently. Originally the term comes from Latin and is composed of two parts: portare = carry and folio = sheet. A portfolio is therefore sheets that are carried around. This often happens in a so-called **binder**. Portfolios, for example, have been common in the "art" field for many years. Application portfolios also have a longer tradition. The electronic storage of the various elements, often called artifacts, in electronic folders or collective folders is called an ePortfolio. The goal of an ePortfolio is to **collect electronic data**, **reflect** on the individual artifacts and also the compilations, and thus **optimize one's own learning process**. ePortfolios can be used only for oneself, individually, or shared with other persons (teachers, peers).
+Portfolio: a term that is often used, but can be understood very differently. Originally the term comes from Latin and is composed of two parts: portare = carry and folio = sheet. A portfolio is therefore sheets that are carried around. This often happens in a so-called binder. Portfolios, for example, have been common in the "art" field for many years. Application portfolios also have a longer tradition. The electronic storage of the various elements, often called artifacts, in electronic folders or collective folders is called an ePortfolio. An ePortfolio has three goals: collect electronic data, reflect on the individual artifacts and their compilations, and thus optimize one's own learning process. ePortfolios can be used only for oneself, individually, or shared with other persons (teachers, peers).
 
 ### Portfolio types
 
@@ -46,10 +46,10 @@ Of course, portfolios also have disadvantages:
 
 A reflection is an examination of a past event or current process that is as emotion-free as possible. Reflection means to regard as distanced as possible what happened, for example with a work assignment, with oneself or with a group, in what way, through what interventions or similar. When learning with portfolios, written reflection plays an important role. Each learner considers their own personal learning progress, the extent of their own interest and involvement, and where and how what has been learned can be applied. Good reflection is an important fundamental step for learners towards working independently.
 
-Reflections can also be edited afterwards. If you have linked an artifact in a binder, you can edit the associated reflection in the table overview in the "Reflection" column.
-
 ## Further information {: #further_information}
 
+[Creating Portfolios >](Portfolio.md)<br>
+[Components of the portfolio >](Components_of_the_portfolio.md)<br>
 [E-Portfolio (German) >](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)<br>
 [Eine Taxonomie für E-Portfolios (German) >](http://peter.baumgartner.name/wp-content/uploads/2012/12/Baumgartner_2012_Eine-Taxonomie-fuer-E-Portfolios.pdf)
 

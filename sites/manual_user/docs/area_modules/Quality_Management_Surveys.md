@@ -3,7 +3,7 @@
 
 ## How are surveys created?
 
-For quality management, a **form learning resource** is used as standard, which is **integrated directly in the Quality management module** instead of in a course element (course element Form, course element Survey, course element Assessment). From there, a **link** is sent at the configured time to the target group that is also defined in the module, under which the recipients find the questions.
+A survey in quality management is based on a form learning resource. You do not integrate the form into a course element (course element "Form", "Survey" or "Assessment"), but directly in the Quality management module. At the configured time, OpenOlat sends a link from there to the target group, which you also define in the module. Via this link, the recipients find the questions.
 
 
 !!! note "Note"
@@ -20,7 +20,7 @@ For quality management, a **form learning resource** is used as standard, which 
 
 ## Where are the forms created?
 
-The form learning resources for quality management are created **[in the authoring area](../area_modules/Authoring.md)**, just like all other learning resources.
+You create the form learning resources for quality management [in the authoring area](../area_modules/Authoring.md), just like all other learning resources.
 
 When creating a data collection or a data collection generator, it is also possible to switch to the authoring area and create a form learning resource there.
 
@@ -28,9 +28,7 @@ When creating a data collection or a data collection generator, it is also possi
 
 ## Who creates the forms for quality management?
 
-The creation of form learning resources for quality management is **not restricted to persons with the role Quality manager**.
-
-All authors can create form learning resources that can then be used for quality management.
+All authors create form learning resources for quality management, not only persons with the role Quality manager. Every form an author creates can be used in quality management.
 
 Quality managers will often formulate their quality control questions themselves (i.e. create the learning resource themselves), but they can also integrate existing form learning resources of other authors into their data collections.<br>
 Conversely, the learning resources created for quality control are visible to all other authors. Editing rights, however, must be granted explicitly by the owners of a learning resource:<br>
@@ -39,11 +37,11 @@ Conversely, the learning resources created for quality control are visible to al
 
 ## What should a quality management form incorporate?
 
-Learning resources of the type "Form" are created in the authoring area with the [Content Editor](../learningresources/Form_Editor.md). This means that all elements offered there can be inserted into a form learning resource.
+You create learning resources of the type "Form" in the authoring area and build them in the [form editor](../learningresources/Form_Editor.md). Every element the form editor offers can be inserted into the form.
 
 A rubric element with a Likert scale is often used. Fields for free text entries can be used to enable personal comments. If no fields for entering the name are created, the survey remains anonymous.
 
-![Rubric element with a five-step scale from not at all to very good and a question on lesson preparation, on the right the inspector Rubric with the tabs General and Advanced, form editor](assets/quality_management_rubric_v1_de.png){ class="shadow lightbox" }
+![Rubric element with a five-step scale from not at all to very good and a question on lesson preparation, on the right the inspector Rubric with the tabs General and Advanced](assets/quality_management_rubric_v1_de.png){ class="shadow lightbox" title="Form editor of a form learning resource" }
 
 If a form is used for surveys as part of quality management, a uniform form is required for all participants and courses. The questions included should be formulated in general terms accordingly and adapted to the respective purpose, e.g.
 
@@ -68,6 +66,9 @@ If you want to work with new form learning resources, you can copy the previous 
 [Course Element "Form" >](../learningresources/Course_Element_Form.md)<br>
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
 [Authoring - Overview >](../area_modules/Authoring.md)<br>
-[The Form Editor >](../learningresources/Form_Editor.md)
+[The form editor >](../learningresources/Form_Editor.md)<br>
+[Quality Management: Overview >](../area_modules/Quality_Management.md)<br>
+[Quality Management: Data collections >](../area_modules/Quality_Management_Data_Collections.md)<br>
+[Quality Management: Data Collection Generators >](../area_modules/Quality_Management_Data_Collection_Generators.md)
 
 [To the top of the page ^](#Quality_Management_Surveys)

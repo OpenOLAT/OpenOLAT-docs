@@ -10,16 +10,16 @@ The overview shows, for example:
 
 ![The Course Planner dashboard with search, the access buttons in three areas and the Implementations and To-do widgets with their key figures](assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Dashboard of the Course Planner" }
 
-Course planners and administrators also see the more menu (⋮) at the top right with the entry **Import**. It starts the [import wizard](Course_Planner_Import_Export.md#import_wizard), which reads products, implementations, users and memberships from an Excel file.
+Course planners and administrators also see the more menu (⋮) at the top right with the entry "Import". It starts the [import wizard](Course_Planner_Import_Export.md#import_wizard), which reads products, implementations, users and memberships from an Excel file.
 
-By entering a term in the search field, you can search for **implementations, courses and events**.<br>
-As with other searches, filters can be used to narrow down the search results.
+Use the search field to find implementations, courses and events.<br>
+As with other searches, you narrow down the search result with filters.
 
 ![The search result with the open Status filter from Preparation to Deleted](assets/course_planner_search_v1_de.png){ class="shadow lightbox" title="Search result in the Course Planner" }
 
-Below the buttons and the search, the overview page shows an area with **widgets** (tiles) in a responsive layout: depending on the screen width, the arrangement of the tiles adjusts automatically.
+Below the buttons and the search, the overview page shows an area with widgets (tiles) in a responsive layout: depending on the screen width, the arrangement of the tiles adjusts automatically.
 
-A separator area labelled **"Overview"** [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9305)" }](https://track.frentix.com/issue/OO-9305){:target="_blank"} visually separates this widget area from the buttons/launchers above it.
+A separator area labelled "Overview" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9305)" }](https://track.frentix.com/issue/OO-9305){:target="_blank"} visually separates this widget area from the buttons above it.
 
 [To the top of the page ^](#dashboard)
 
@@ -27,13 +27,13 @@ A separator area labelled **"Overview"** [:octicons-tag-16:{ title="from Release
 
 ## Implementation widget [:octicons-tag-16:{ title="from Release 20.3.0 (OO-8864, OO-9289)" }](https://track.frentix.com/issue/OO-8864){:target="_blank"} {: #widget_implementations}
 
-The **Implementations** widget shows you the implementations relevant to you at a glance.
+The "Implementations" widget shows you the implementations relevant to you at a glance.
 
-In the header area, you select a preselection via the main key figure **"Relevant"** or one of the other key figures (**"Preparation"**, **"Provisional"**, **"Confirmed"**, **"Pending memberships"**). The table lists the corresponding implementations with reference, title, structure, status as well as start and end date, sorted by start date.
+In the header area, you select a preselection via the main key figure "Relevant" or one of the other key figures ("Preparation", "Provisional", "Confirmed", "Pending memberships"). The table lists the corresponding implementations with reference, title, structure, status as well as start and end date, sorted by start date.
 
-Using the **"Pending memberships"** filter, you can quickly find implementations for which memberships still need to be confirmed.
+Using the "Pending memberships" filter, you can quickly find implementations for which memberships still need to be confirmed.
 
-Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"} to go to the full list of implementations.
+Use the "Show all" button [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"} to go to the full list of implementations.
 
 [To the top of the page ^](#dashboard)
 
@@ -41,13 +41,13 @@ Use the **Show all** button [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9
 
 ## Events widget [:octicons-tag-16:{ title="from Release 20.3 (OO-8865)" }](https://track.frentix.com/issue/OO-8865){:target="_blank"} {: #widget_events}
 
-The widget **Events** shows the events of the current week from the selected day. It only appears if the module **Events and absences** is active system-wide.
+The widget "Events" shows the events of the current week from the selected day. It only appears if the module "Event & absence management" is active system-wide.
 
-Displayed are events from educational products for which you are administrator, absence manager, owner or coach.
+Displayed are events from products for which you are administrator, absence manager, owner or coach.
 
 !!! info "Important"
 
-    The widget with the same name **Events** in Coaching shows different events: there you only see events in which you are entered as a lecturer yourself, and no events from educational products. See [Coaching - Overview](Coaching.md#widget_events).
+    The widget with the same name "Events" in Coaching shows different events: there you only see events in which you are entered as a lecturer yourself, and no events from products. See [Coaching - Overview](Coaching.md#widget_events).
 
 ### Week bar and event list {: #widget_events_week}
 
@@ -55,17 +55,17 @@ The week bar runs from Monday to Sunday. A dot below the day figure marks the da
 
 The list shows the events from the selected day to Sunday, sorted by start. Each entry shows weekday, date, reference, title, location, start and duration. A click on the row opens the event.
 
-A coloured stripe at the left edge of a row places the event in time: it marks the next scheduled event and the one currently running. Screen readers additionally read **"Scheduled next"** and **"Running"**.
+A coloured stripe at the left edge of a row places the event in time: it marks the next scheduled event and the one currently running. Screen readers additionally read "Scheduled next" and "Running".
 
 ![Week bar with dots below the days with events, below it three events with reference, title, location and duration](assets/course_planner_widget_events_week_v1_en.png){ class="shadow lightbox" title="Events widget of the Course Planner" }
 
 ### Empty state {: #widget_events_empty}
 
-If no event is left from the selected day until Sunday, the message **"No events until the end of the week"** appears. Use the buttons **"Previous event"** and **"Next event"** to jump to the closest event before or after. The buttons are only active if such an event exists.
+If no event is left from the selected day until Sunday, the message "No events until the end of the week" appears. Use the buttons "Previous event" and "Next event" to jump to the closest event before or after. The buttons are only active if such an event exists.
 
 ![Message No events until the end of the week with the greyed out buttons Previous event and Next event](assets/course_planner_widget_events_empty_v1_en.png){ class="shadow lightbox" title="Events widget of the Course Planner" }
 
-Use the button **"Show all"** to get to the complete event list of the Course Planner.
+Use the button "Show all" to get to the complete event list of the Course Planner.
 
 [To the top of the page ^](#dashboard)
 
@@ -79,7 +79,7 @@ You can individually configure widgets (e.g. the implementation widget) via :o_i
 * **Key figures**: A checkbox group lets you determine which other key figures are visible. The main key figure is always selected and cannot be deselected.
 * **Number of entries**: Determines how many rows the table displays (5 to 15).
 
-Use **Save** to apply the settings, use **Cancel** to discard them.
+Use "Save" to apply the settings, use "Cancel" to discard them.
 
 ![The Settings popover with the main figure Relevant and the selectable key figures, opened via the gear symbol of the implementation widget](assets/course_planner_widget_settings_v1_en.png){ class="shadow lightbox" title="Settings of the implementation widget" }
 
@@ -89,7 +89,7 @@ Use **Save** to apply the settings, use **Cancel** to discard them.
 
 ## Edit overview [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9273)" }](https://track.frentix.com/issue/OO-9273){:target="_blank"} {: #overview_customize}
 
-The button **"Edit overview"** is below the widgets. Use it to rearrange the tiles, to hide them and to bring them back. The operation is the same on all overview pages and is described there once: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md#customize)
+The button "Edit overview" is below the widgets. Use it to rearrange the tiles, to hide them and to bring them back. The operation is the same on all overview pages and is described there once: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md#customize)
 
 [To the top of the page ^](#dashboard)
 

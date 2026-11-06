@@ -6,14 +6,14 @@
 
 ??? abstract "Target group"
 
-    [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators
+    [x] Authors [ ] Coaches  [ ] Participants  [x] Administrators
 
     [ ] Beginners [ ] Advanced users  [x] Experts
 
 
 ??? abstract "Expected previous knowledge"
 
-    * Experience as administrator
+    * Experience as course owner or administrator
     * Experienced in HTML and CSS programming
 
 
@@ -31,7 +31,7 @@
 
 !!! tip "Tip"
 
-    Ask your system provider to set up layout templates at system level. They appear in the selection as "System template", are recompiled after each OpenOlat update and are thus guaranteed to work after updates.
+    Ask your system provider to set up layout templates at system level. They appear in the selection as "System template" with their name, are recompiled after each OpenOlat update and are thus guaranteed to work after updates.
 
 ## What requirements do I have to meet? {: #requirements}
 
@@ -43,11 +43,11 @@
 
 You need:
 
-* an **editor** (e.g. [Notepad++](https://notepad-plus-plus.org/)) to create the CSS file
+* an editor (e.g. [Notepad++](https://notepad-plus-plus.org/)) to create the CSS file
 * and a tool to analyse the CSS of OpenOlat, or to identify the selectors that are to be changed.
 
-This is possible, for example, via the **browser option "Inspect element"**. In Firefox and Chrome this tool is already integrated.
-Right-click in the web page and then select "Inspect Element (Q)" or "Inspect (Ctrl+Shift+I)". For example, if you click on the top navigation bar, the information will show you the name of the selector, in this case "#o_navbar_container".
+This is possible, for example, via the browser option "Inspect element". In Firefox and Chrome this tool is already integrated.
+Right-click in the web page and then select "Inspect Element (Q)" or "Inspect (Ctrl+Shift+I)". For example, if you click on the top navigation bar, the information will show you the name of the selector, in this case `#o_navbar_container`.
 
 ## What is possible? {: #possibilities}
 
@@ -61,7 +61,7 @@ The standard OpenOlat layout can be customized and changed as desired using CSS.
 
 ## Where is the CSS file stored and integrated? {: #storing}
 
-To be able to use your CSS file for the design of your OpenOlat course, you must create a **subfolder "courseCSS"** in the **[storage folder](../../manual_user/learningresources/Storage_folder.md)** of the course and store the course CSS file there.
+To be able to use your CSS file for the design of your OpenOlat course, you must create a subfolder `courseCSS` in the [storage folder](../../manual_user/learningresources/Storage_folder.md) of the course and store the course CSS file there.
 
 To ensure that the file is also used, course owners select it in the [course settings](../../manual_user/learningresources/Course_Settings.md#layout) under `Course > Administration > Settings > Tab "Layout"` in the field "Choose layout for this course". The file appears there as "from course folder" with its file name. If you want to return to the standard OpenOlat layout later, select the option "Default", or simply delete your CSS from the storage folder.
 
@@ -144,7 +144,7 @@ adjusted:
   * `display: none;` hides the logo `.o_navbar-brand {display: none;}`
   * `background: rgba(0, 0, 0, 0) url("logo-k-town.png");` replaces the existing logo with the graphic logo-k-town.png
 
-If the headings are to be adjusted, select the element **h2**. Here, too, all properties can be adjusted to your own requirements with CSS commands. The same applies to the element **p** or to the links **a**. For example, the following CSS properties would be conceivable for these elements:
+If the headings are to be adjusted, select the element `h2`. Here, too, all properties can be adjusted to your own requirements with CSS commands. The same applies to the element `p` or to the links `a`. For example, the following CSS properties would be conceivable for these elements:
 
   *  `color: red;` changes the font color. The hex code `#ffffff` (=white) or an RGB value `rgb(87 , 53, 4)` can be specified here.
   *  `font-family: verdana;` changes the font family

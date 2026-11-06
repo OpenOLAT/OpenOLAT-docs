@@ -1,20 +1,20 @@
 # Video hochladen {: #video_upload}
 
-Das Thema Video ist aufgrund der vielen Formate, Codecs, Container und Betriebssysteme / Browser sehr komplex.
+Wer ein Video in OpenOlat hochlädt, möchte, dass es in jedem Browser abspielt und das Netzwerk nicht überlastet. Weil es viele Formate, Codecs, Container, Betriebssysteme und Browser gibt, erklärt diese Seite, welches Format sich bewährt hat, wovon die Dateigrösse abhängt und wie Sie ein Video mit HandBrake passend umwandeln.
 
 ## Empfohlenes Format
 
-In der Praxis hat sich der **mp4** (oder MPEG-4) Container mit dem H.264 Video-Codec für Video und dem **mp3** Audio-Codec für Audio etabliert. Aktuelle Versionen von Firefox, Chrome und Safari können solche Videos abspielen.
+In der Praxis hat sich der Container mp4 (oder MPEG-4) mit dem Video-Codec H.264 für Video und dem Audio-Codec mp3 für Audio etabliert. Aktuelle Versionen von Firefox, Chrome und Safari können solche Videos abspielen.
 
 !!! warning "Achtung"
 
     Anamorphe Videos werden zurzeit nicht unterstützt. Bitte berücksichtigen Sie dies bei der Video-Produktion.
 
-### Hier noch ein paar technische Hinweise:
+### Technische Hinweise
 
-Soll ein Video in OpenOlat hochgeladen werden, sollte neben dem Format des Weiteren noch die Dateigrösse (wegen Netzwerkverkehr vor allem beim Download) beachtet werden, da der durch Video generierte Netzwerkverkehr sehr hoch ist. Ein Anwendungsbeispiel finden Sie weiter unten auf dieser Seite.
+Beim Hochladen eines Videos zählt neben dem Format auch die Dateigrösse, weil Videos viel Netzwerkverkehr erzeugen, vor allem beim Abspielen. Ein Rechenbeispiel finden Sie im Abschnitt [Anwendungsbeispiel: Netzwerkverkehr](#network_traffic_example).
 
-Videos werden in sogenannten **Containern** als Datei mit einer **Datei-Endung** gespeichert. Der Container enthält eine oder mehrere **Video-** und **Tonspuren**, die mit jeweils einem **Codec** codiert sind. Ein Codec ist im Wesentlichen ein Kompressionsalgorithmus und eine Beschreibung wie die Daten abgelegt sind. Leider werden manche Datei-Endungen auch für Container- und auch Codierungsnamen verwendet. Deshalb ist bei einer Video-Bezeichnung nie ganz klar, ob es sich um die Codierung, die Datei-Endung oder den Container handelt.
+Videos werden in sogenannten Containern als Datei mit einer Datei-Endung gespeichert. Ein Container enthält eine oder mehrere Video- und Tonspuren, die jeweils mit einem Codec codiert sind. Ein Codec ist im Wesentlichen ein Kompressionsalgorithmus und eine Beschreibung, wie die Daten abgelegt sind. Manche Datei-Endungen sind zugleich Namen von Containern oder Codierungen. Deshalb ist bei einer Video-Bezeichnung nie ganz klar, ob sie die Codierung, die Datei-Endung oder den Container meint.
 
 ## Dateigrösse
 
@@ -50,7 +50,7 @@ Der Codec ist ein Kompressionsalgorithmus um die Videodaten möglichst klein abz
 
 Je stärker komprimiert, desto weniger Speicher wird benötigt.
 
-Verschiedene Geräte / Browser haben verschiedene Bildschirmauflösungen und unterstützen unterschiedliche Codecs. Durch die **Transkodierung** ("Transcoding") werden von einer ursprünglich möglichst hochwertigen Video- oder Audiodatei mit Hilfe einer speziellen Software Kopien angefertigt, die mit verschiedenen Auflösungen, Bitraten und Codecs komprimiert wurden.
+Verschiedene Geräte / Browser haben verschiedene Bildschirmauflösungen und unterstützen unterschiedliche Codecs. Durch die Transkodierung (Transcoding) werden von einer ursprünglich möglichst hochwertigen Video- oder Audiodatei mit Hilfe einer speziellen Software Kopien angefertigt, die mit verschiedenen Auflösungen, Bitraten und Codecs komprimiert wurden.
 
 Die Transkodierung ist das Umwandeln einer Audio- oder Video-Datei in ein anderes Audioformat oder Videoformat.
 
@@ -70,7 +70,7 @@ WebM und Ogg sind heute nicht mehr unbedingt notwendig da Google weiterhin und F
 
     Für die Anwendung innerhalb von OpenOlat wählen Sie am besten eine kleine bis mittlere Auflösung mit tiefer bis mittlerer Bitrate.
 
-**Bitrate (kbps)**
+### Bitrate (kbps) {: #bitrate}
 
 Die Bitrate definiert wie viele Datenbits pro Sekunde Videomaterial anfallen.
 
@@ -91,7 +91,7 @@ MB/Min| 3| 5.3| 11.3| 18.8| 30
 
 Ein durchschnittlicher 10 Minuten dauernder Film in einer 480x270 Auflösung braucht also ca. 53 MB Speicherplatz. Derselbe Film in einer 720p HD-Auflösung braucht ca. 180 MB.
 
-**Anwendungsbeispiel: Netzwerkverkehr**
+#### Anwendungsbeispiel: Netzwerkverkehr {: #network_traffic_example}
 
 Wenn 50 Personen diesen 10 Minuten dauernden Film schauen, führt dies zu einem _Netzwerkverkehr von 2.7 GB bei einer 480x270 Auflösung_. Wird der Film in 720p HD-Auflösung geschaut, führt dies zu 9 GB Netzwerkverkehr.
 
@@ -101,7 +101,7 @@ Bei 100 gleichzeitigen Zugriffen verdoppeln sich die Zahlen entsprechend.
 
 Als Vergleich: mit einem üblichen 802.11n Wireless Access-Point können real ca. 40-50 Mb/s übertragen werden. Mit spezieller Hardware ist ein Durchsatz bis 100 Mb/s realistisch, allerdings müssen das auch die Endgeräte unterstützen. 50 Lernende, die in einem Zimmer ein Lehrvideo anschauen, können netzwerktechnisch also bereits kritisch sein.
 
-**HandBrake-Einstellungen**
+## HandBrake-Einstellungen {: #handbrake_settings}
 
 Wenn Sie Videos für OpenOlat selbst erstellen bzw. bereitstellen, können Sie diese mit einer speziellen Transcoding-Software in das richtige Format bzw. die benötigte Auflösung bringen. Wir empfehlen dazu [HandBrake](https://handbrake.fr/), eine freie OpenSource Software. Mehr Informationen zur Software finden Sie auf der Wikipedia-Seite [HandBrake](https://de.wikipedia.org/wiki/HandBrake) sowie auf der Produktwebseite <https://handbrake.fr/>.
 
@@ -109,13 +109,13 @@ Wenn Sie Videos für OpenOlat selbst erstellen bzw. bereitstellen, können Sie d
 
 2. Selektieren Sie unter "Presets" ein Profil (Empfehlung: "Very Fast" oder "Fast") und aktivieren Sie "Web optimized".
 
-![Preset-Liste General mit den Profilen Very Fast und Fast, Checkbox Web Optimized aktiviert, im Hauptfenster von HandBrake](assets/Handbrake_Settings.png){ class="shadow lightbox" }
+![Preset-Liste General mit den Profilen Very Fast und Fast, Checkbox Web Optimized aktiviert](assets/Handbrake_Settings.png){ class="shadow lightbox" title="Hauptfenster von HandBrake" }
 
 Am besten lassen Sie alle übrigen Einstellungen wie voreingestellt.
 
 3. Über "Preview" und "Settings" stellen Sie die gewünschte Ausgabegrösse / Auflösung ein.
 
-![Vorschaufenster mit Button Settings und Dialog Picture zum Setzen von Breite und Höhe, in HandBrake](assets/Handbrake_Settings2.png){ class="shadow lightbox" }
+![Vorschaufenster mit Button Settings und Dialog Picture zum Setzen von Breite und Höhe](assets/Handbrake_Settings2.png){ class="shadow lightbox" title="Fenster Preview in HandBrake" }
 
   * Klein: 320 und 480
   * Mittel: 1024
@@ -123,7 +123,9 @@ Am besten lassen Sie alle übrigen Einstellungen wie voreingestellt.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Lernressource: Video](../learningresources/Learning_resource_Video.de.md)<br>
+[Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)<br>
+[Kursbaustein "Video" >](../learningresources/Course_Element_Video.de.md)<br>
+[Video Collection >](../area_modules/Video_Collection.de.md)<br>
 [HandBrake](https://handbrake.fr/)<br>
 [HandBrake auf Wikipedia](https://de.wikipedia.org/wiki/HandBrake)
 

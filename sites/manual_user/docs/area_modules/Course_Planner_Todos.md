@@ -14,7 +14,7 @@ The to-dos in the Course Planner are visible to administrators, course planners,
 
 ## To-do widget [:octicons-tag-16:{ title="from Release 21.0 (OO-9422)" }](https://track.frentix.com/issue/OO-9422){:target="_blank"} {: #todo_widget}
 
-The **To-do** widget shows at a glance which tasks require your immediate attention. It is located in the "Overview" section of the Course Planner start page, below the Products, Productivity and Tools areas. You find the same widget in the "Overview" tab of a product and of an element. There it shows only the to-dos of this product or of this element.
+The To-do widget shows at a glance which tasks require your immediate attention. It is located in the "Overview" section of the Course Planner start page, below the Products, Productivity and Tools areas. You find the same widget in the "Overview" tab of a product and of an element. There it shows only the to-dos of this product or of this element.
 
 Three key figures summarise the current state:
 
@@ -28,7 +28,7 @@ Below that, the widget lists the to-dos of the main figure, by default "My to-do
 
 How an overview page is structured and how you choose the main figure, the key figures and the number of entries via "Change settings" is described centrally: [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)
 
-The widget shows the to-dos of the Course Planner. **All** your to-dos, wherever they come from, are in the personal tool [To-dos](../personal_menu/To-Dos.md). It combines personal to-dos, to-dos from courses and from the course element Task, from implementations of the Course Planner, from projects and from quality management in one list. Listed are the to-dos for which you are assigned or delegated. For to-dos of the Course Planner you only change the status there; you edit all other details in the Course Planner.
+The widget shows the to-dos of the Course Planner. All your to-dos, wherever they come from, are in the personal tool [To-dos](../personal_menu/To-Dos.md). It combines personal to-dos, to-dos from courses and from the course element Task, from implementations of the Course Planner, from projects and from quality management in one list. Listed are the to-dos for which you are assigned or delegated. For to-dos of the Course Planner you only change the status there; you edit all other details in the Course Planner.
 
 !!! note "Edit overview"
     Like every widget on an overview page, the to-do widget can be shown and hidden via "Edit overview".
@@ -41,11 +41,11 @@ The widget shows the to-dos of the Course Planner. **All** your to-dos, wherever
 
 ## Central to-do overview [:octicons-tag-16:{ title="from Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"} {: #central_overview}
 
-The central to-do overview brings together the to-dos of all products and elements to which you have access in the Course Planner in one table. You open it with the **"To-dos"** button in the **"Productivity"** area of the Course Planner start page.
+The central to-do overview brings together the to-dos of all products and elements to which you have access in the Course Planner in one table. You open it with the "To-dos" button in the "Productivity" area of the Course Planner start page.
 
 In the overview you edit, delete and restore to-dos. You create new to-dos on an element (see ["To-dos" tab on an element](#element_tab_todos)) or for several implementations at once (see [Create to-dos directly for several implementations](#bulk_create)).
 
-The same table for a single product is shown in the **"To-dos"** tab of the product. There the "Product" column is hidden by default.
+The same table for a single product is shown in the "To-dos" tab of the product. There the "Product" column is hidden by default.
 
 ![All to-dos with the Product and Element columns, the quick filters from All to Deleted and the due dates](assets/course_planner_todos_overview_v2_en.png){ class="shadow lightbox" title="To-dos page in the Course Planner · 2026.10.02" }
 
@@ -85,9 +85,9 @@ Optionally displayable: Expenditure of work, Start date, Done date, Creation dat
 
 ### Bulk action "Delete" {: #bulk_actions}
 
-Activate the checkbox in the first column to select individual to-dos, or use the checkbox in the table header to select all to-dos of the current view at once. As soon as at least one to-do is selected, the bulk action **"Delete"** appears above the table.
+Activate the checkbox in the first column to select individual to-dos, or use the checkbox in the table header to select all to-dos of the current view at once. As soon as at least one to-do is selected, the bulk action "Delete" appears above the table.
 
-After a confirmation prompt, OpenOlat deletes the selected to-dos that you are allowed to edit. Deleted to-dos are not permanently removed: they receive the status "Deleted" and remain viewable via the **"Deleted"** filter. In the "Deleted" view, the bulk action itself is not available. There you bring a deleted to-do back via **"More actions"** with **"Restore"**.
+After a confirmation prompt, OpenOlat deletes the selected to-dos that you are allowed to edit. Deleted to-dos are not permanently removed: they receive the status "Deleted" and remain viewable via the "Deleted" filter. In the "Deleted" view, the bulk action itself is not available. There you bring a deleted to-do back via "More actions" with "Restore".
 
 
 [To the top of the page ^](#course_planner_todos)
@@ -100,10 +100,10 @@ After a confirmation prompt, OpenOlat deletes the selected to-dos that you are a
 In the implementation overview, in the "Implementations" tab of a product and in the "Structure" tab of an element, you use a bulk action to create the same to-do for several implementations or elements at once. OpenOlat creates a separate to-do for each selected row.
 
 1. In the table, select the desired implementations (checkbox in the first column).
-2. Above the table, click on **"Create to-dos"**. The button appears if you are allowed to manage to-dos for at least one row of the table. The action skips selected rows without this permission.
+2. Above the table, click on "Create to-dos". The button appears if you are allowed to manage to-dos for at least one row of the table. The action skips selected rows without this permission.
 3. Fill in the "Create to-dos" dialog. It does not contain a "Context" field: product and element result from the selected rows.
 
-**"Assigned"** and **"Delegated"** are selection fields. The caret :o_icon_o_icon_caret: at the right edge marks them; a click on the field opens the list of selectable persons. The **"Browse"** button :o_icon_o_icon_browse: next to it opens the user search and helps when the list is long.
+"Assigned" and "Delegated" are selection fields. The caret :o_icon_o_icon_caret: at the right edge marks them; a click on the field opens the list of selectable persons. The "Browse" button :o_icon_o_icon_browse: next to it opens the user search and helps when the list is long.
 
 Every person you enter under "Assigned" or "Delegated" receives a single e-mail "New to-dos" for this action, listing all newly created to-dos, each with a link; you yourself receive none. If only one row is selected, the e-mail "New to-do" is sent. The rules are described under [When OpenOlat sends e-mails about to-dos](../basic_concepts/To_Dos_Basics.md#notifications). [:octicons-tag-16:{ title="from Release 21.1 (OO-9731)" }](https://track.frentix.com/issue/OO-9731){:target="_blank"}
 
@@ -122,33 +122,35 @@ The remaining fields of the dialog are described under [Creating a to-do](#creat
 
 ## "To-dos" tab on an element {: #element_tab_todos}
 
-Every element in the Course Planner has a **"To-dos"** tab. There you create, edit and manage tasks that are assigned to this element. The **"Create to-do"** button is visible to persons who are allowed to edit the element.
+Every element in the Course Planner has a "To-dos" tab. There you create, edit and manage tasks that are assigned to this element. The "Create to-do" button is visible to persons who are allowed to edit the element.
 
-For products with several levels, you determine the scope of the list with the **"All levels"** and **"This level"** switches: "All levels" additionally shows the to-dos of all subordinate elements, "This level" only those of the element you opened.
+For products with several levels, you determine the scope of the list with the "All levels" and "This level" switches: "All levels" additionally shows the to-dos of all subordinate elements, "This level" only those of the element you opened.
 
-Persons who are allowed to edit the element see the **"New"** marker next to the title of to-dos that were created since the last time the "To-dos" tab was opened in the same implementation.
+Persons who are allowed to edit the element see the "New" marker next to the title of to-dos that were created since the last time the "To-dos" tab was opened in the same implementation.
 
 ![The All levels and This level switches, the quick filters and the "Create to-do" button](assets/course_planner_todos_element_tab_v2_en.png){ class="shadow lightbox" title="To-dos tab of an implementation · 2026.10.02" }
 
 
 ### Permissions {: #todo_permissions}
 
-* **Administrators** and **course planners** create, edit, duplicate, delete and restore to-dos on the elements of the products they manage. **Product owners** can do the same on all elements of their products, **element owners** on their elements.
+* **Administrators and course planners** create, edit, duplicate, delete and restore to-dos on the elements of the products they manage.
+* **Product owners** can do the same on all elements of their products.
+* **Element owners** can do the same on their elements.
 * **Principals** can view to-dos but not edit them.
-* Anyone who is assigned to a to-do or entered as a delegated person changes its status in the personal to-do list, for example with "Start" or "Mark as done". This also applies to **course owners** without a role in the Course Planner, who have no access to to-dos there themselves.
+* **Assigned and delegated persons** change the status of the to-do in the personal to-do list, for example with "Start" or "Mark as done". This also applies to course owners without a role in the Course Planner, who have no access to to-dos there themselves.
 
 ### Creating a to-do {: #create_todo}
 
-In the "To-dos" tab of an element, click on **"Create to-do"**. The "Edit to-do" dialog opens and contains these fields:
+In the "To-dos" tab of an element, click on "Create to-do". The "Edit to-do" dialog opens and contains these fields:
 
 * **Title** (mandatory field): Names the task.
-* **Context**: The product and the element to which the to-do is assigned. The element you opened is preselected. For products with several levels, administrators, course planners and product owners assign the to-do to a different element of the same implementation with **"Change"**.
+* **Context**: The product and the element to which the to-do is assigned. The element you opened is preselected. For products with several levels, administrators, course planners and product owners assign the to-do to a different element of the same implementation with "Change".
 * **Tags**: Freely assignable keywords.
 * **Assigned**: The person responsible for completing it. The field is not mandatory; you find to-dos without an assigned person via the "Not assigned" filter.
 * **Delegated**: Execution can be delegated to other persons; responsibility remains with the assigned person. The same person cannot be assigned and delegated at the same time.
 * **Status**: Sets the current processing state (Open, In progress, Done).
 * **Priority**: Urgent, High, Medium or Low.
-* **Start date** and **Due date**: Absolute or [relative to the implementation period](#relative_date).
+* **Start date and Due date**: Absolute or [relative to the implementation period](#relative_date).
 * **Expenditure of work**: Estimated effort in weeks, days and hours, input format `3w 1d 6h`.
 * **Description**: Additional information about the task.
 
@@ -159,7 +161,7 @@ Every person you newly enter under "Assigned" or "Delegated" receives the e-mail
 ![The fields of a to-do from Title to Description, below them the Context with the "Change" action and the Absolute and Relative switches](assets/course_planner_todos_edit_v2_en.png){ class="shadow lightbox" title="Edit to-do dialog when creating a to-do · 2026.10.02" }
 
 !!! tip "More actions"
-    The **"More actions"** symbol (three dots) at the end of a to-do row provides **Edit** and **Delete**, in the "To-dos" tab of an element also **Duplicate**. With **Duplicate** you copy an existing to-do together with its properties. For a deleted to-do, **Restore** appears. These actions require editing permissions.
+    The "More actions" symbol (three dots) at the end of a to-do row provides "Edit" and "Delete", in the "To-dos" tab of an element also "Duplicate". With "Duplicate" you copy an existing to-do together with its properties. For a deleted to-do, "Restore" appears. These actions require editing permissions.
 
 
 #### Overview of the to-do statuses {: #todo_status}
@@ -178,11 +180,11 @@ Use the plus sign at the start of a row to expand the detail area of a to-do. It
 
 At the top right of the detail area you find the quick actions, depending on the status of the to-do:
 
-* **"Start"** sets the status to "In progress". The action only appears with the status "Open".
-* **"Mark as done"** completes the task. The action appears with the statuses "Open" and "In progress".
-* **"Edit"** opens the dialog with all fields. This action is available in every status.
+* **Start** sets the status to "In progress". The action only appears with the status "Open".
+* **Mark as done** completes the task. The action appears with the statuses "Open" and "In progress".
+* **Edit** opens the dialog with all fields. This action is available in every status.
 
-For a to-do that is done, only **"Edit"** therefore remains visible.
+For a to-do that is done, only "Edit" therefore remains visible.
 
 In the tables of the Course Planner, the quick actions appear for the roles that are allowed to edit the element (see [Permissions](#todo_permissions)). In the personal to-do list, they appear for the assigned and the delegated person; there only the status can be changed in the dialog.
 
@@ -196,20 +198,20 @@ In the tables of the Course Planner, the quick actions appear for the roles that
 
 ## Relative dates [:octicons-tag-16:{ title="from Release 21.0 (OO-9425)" }](https://track.frentix.com/issue/OO-9425){:target="_blank"} {: #relative_date}
 
-When creating or editing a to-do in the Course Planner, you set **Start date** and **Due date** either **absolutely** (a fixed calendar date) or **relatively**. A relative date refers to the implementation period of the element to which the to-do is assigned.
+When creating or editing a to-do in the Course Planner, you set "Start date" and "Due date" either absolutely as a fixed calendar date or relatively. A relative date refers to the implementation period of the element to which the to-do is assigned.
 
 
 ### Configuring a relative date {: #configure_relative_date}
 
-Switch the **Start date** or the **Due date** from **"Absolute"** to **"Relative"**. Use **"Set rule"** to open a small window and define there:
+Switch the "Start date" or the "Due date" from "Absolute" to "Relative". Use "Set rule" to open a small window and define there:
 
 * **Reference date**: "Begin of the execution period" or "End of the execution period".
 * **With offset** (optional): Activate this switch to specify a distance from the reference date. Without an offset, the reference date itself applies.
   * **Offset**: Number, "before" or "after" the reference date and the unit days, weeks, months or years.
 
-Use **"Apply"** to save the rule and **"Remove"** to discard it.
+Use "Apply" to save the rule and "Remove" to discard it.
 
-If "With offset" is switched on, the window shows the resulting date under **"Calculated date"**. If the element has no reference date, the option shows the note "No date". If the implementation period changes later, start date and due date adjust automatically. If you assign the to-do to a different element with "Change", the rule applies to the implementation period of that element.
+If "With offset" is switched on, the window shows the resulting date under "Calculated date". If the element has no reference date, the option shows the note "No date". If the implementation period changes later, start date and due date adjust automatically. If you assign the to-do to a different element with "Change", the rule applies to the implementation period of that element.
 
 ![The "Relative" switch for start date and due date and the "Set rule" window with reference date, offset before or after and the units](assets/course_planner_todos_relative_date_v2_en.png){ class="shadow lightbox" title="Create to-dos dialog · 2026.10.02" }
 

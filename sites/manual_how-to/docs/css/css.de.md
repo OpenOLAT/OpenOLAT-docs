@@ -6,14 +6,14 @@
 
 ??? abstract "Zielgruppe"
 
-    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
+    [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
 
     [ ] Anfänger:innen [ ] Fortgeschrittene  [x] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
 
-    * Erfahrung als Administrator:in
+    * Erfahrung als Kursbesitzer:in oder Administrator:in
     * Erfahrung mit HTML und CSS-Programmierung
 
 
@@ -31,7 +31,7 @@
 
 !!! tip "Tipp"
 
-    Bitten Sie Ihren Systemanbieter, Layoutvorlagen auf Systemebene einzurichten. Sie erscheinen in der Auswahl als "Systemvorlage", werden nach jeder OpenOlat-Aktualisierung neu kompiliert und funktionieren somit garantiert auch nach Aktualisierungen.
+    Bitten Sie Ihren Systemanbieter, Layoutvorlagen auf Systemebene einzurichten. Sie erscheinen in der Auswahl als "Systemvorlage" mit ihrem Namen, werden nach jeder OpenOlat-Aktualisierung neu kompiliert und funktionieren somit garantiert auch nach Aktualisierungen.
 
 ## Welche Voraussetzungen muss ich mitbringen? {: #requirements}
 
@@ -43,11 +43,11 @@
 
 Sie benötigen:
 
-* einen **Editor** (z.B. [Notepad++](https://notepad-plus-plus.org/)) um die CSS Datei zu erstellen
-* und ein Werkzeug um das CSS von OpenOlat zu analysieren, bzw. die entsprechenden Selektoren, die verändert werden sollen, zu identifizieren.
+* einen Editor (z.B. [Notepad++](https://notepad-plus-plus.org/)), um die CSS-Datei zu erstellen,
+* und ein Werkzeug, um das CSS von OpenOlat zu analysieren, bzw. die entsprechenden Selektoren, die verändert werden sollen, zu identifizieren.
 
-Möglich ist dies z.B. über die **Browser Option "Element untersuchen"**. In Firefox und Chrome ist dieses Werkzeug bereits integriert.
-Klicken Sie mit der rechten Maustaste in die Webseite und wählen Sie dann "Element untersuchen (Q)" bzw. "Untersuchen (Strg+Shift+I)". Wenn Sie z.B. auf die obere Navigationsleiste klicken, zeigt Ihnen die Information den Namen des Selektors an, in diesem Fall "#o_navbar_container".
+Möglich ist dies z.B. über die Browser-Option "Element untersuchen". In Firefox und Chrome ist dieses Werkzeug bereits integriert.
+Klicken Sie mit der rechten Maustaste in die Webseite und wählen Sie dann "Element untersuchen (Q)" bzw. "Untersuchen (Strg+Shift+I)". Wenn Sie z.B. auf die obere Navigationsleiste klicken, zeigt Ihnen die Information den Namen des Selektors an, in diesem Fall `#o_navbar_container`.
 
 ## Was ist möglich? {: #possibilities}
 
@@ -61,7 +61,7 @@ Das Standard OpenOlat Layout lässt sich mit Hilfe von CSS beliebig anpassen und
 
 ## Wo wird die CSS-Datei gespeichert und eingebunden? {: #storing}
 
-Um Ihre CSS-Datei für die Gestaltung Ihres OpenOlat Kurses nutzen zu können, müssen Sie im **[Ablageordner](../../manual_user/learningresources/Storage_folder.de.md)** des Kurses einen **Unterordner "courseCSS"** anlegen und dort die erstellte Kurs-CSS-Datei ablegen.
+Um Ihre CSS-Datei für die Gestaltung Ihres OpenOlat Kurses nutzen zu können, müssen Sie im [Ablageordner](../../manual_user/learningresources/Storage_folder.de.md) des Kurses einen Unterordner `courseCSS` anlegen und dort die erstellte Kurs-CSS-Datei ablegen.
 
 Damit die Datei auch verwendet wird, wählen Kursbesitzer:innen sie in den [Kurseinstellungen](../../manual_user/learningresources/Course_Settings.de.md#layout) unter `Kurs > Administration > Einstellungen > Tab "Layout"` im Feld "Layoutvorlage für Kurs wählen" aus. Die Datei erscheint dort als "Aus Kursablageordner" mit ihrem Dateinamen. Wenn Sie später doch wieder zu dem Standard OpenOlat Layout zurückkehren möchten, wählen Sie die Option "Standard" aus, oder löschen einfach ihre CSS aus dem Ablageordner.
 
@@ -88,7 +88,7 @@ Der Code für die genannten Selektoren kann dann folgendermassen aussehen:
 }
 ```
 
-Meist macht es Sinn entweder eine Hintergrundfarbe oder ein Hintergrundbild zu verlinken. Hinterlegen Sie das Bild an einer geeigneten Stelle im Ablageordner des Kurses.
+Meist ist es sinnvoll, entweder eine Hintergrundfarbe oder ein Hintergrundbild zu verlinken. Hinterlegen Sie das Bild an einer geeigneten Stelle im Ablageordner des Kurses.
 
 Es wird weiterhin empfohlen, folgende CSS-Einstellungen zu übernehmen, um andere Abschnitte transparent zu machen, um den gefärbten Hintergrund zu sehen:
 
@@ -145,7 +145,7 @@ angepasst werden:
   * `display: none;` blendet das Logo aus `.o_navbar-brand {display: none;}`
   * `background: rgba(0, 0, 0, 0) url("logo-k-town.png");` ersetzt das bestehende Logo durch die Grafik logo-k-town.png
 
-Sollen die Überschriften angepasst werden, wählen Sie das Element **h2**. Auch hier können alle Eigenschaften mit CSS-Befehlen den eigenen Ansprüchen entsprechend angepasst werden. Dasselbe gilt auch für das Element **p** oder auch für die Links **a**. Vorstellbar wären für diese Elemente beispielsweise folgende CSS-Eigenschaften:
+Sollen die Überschriften angepasst werden, wählen Sie das Element `h2`. Auch hier können alle Eigenschaften mit CSS-Befehlen den eigenen Ansprüchen entsprechend angepasst werden. Dasselbe gilt auch für das Element `p` oder auch für die Links `a`. Vorstellbar wären für diese Elemente beispielsweise folgende CSS-Eigenschaften:
 
   *  `color: red;` Änderung der Schriftfarbe. Hier kann der Hex Code `#ffffff` (=weiss) oder auch ein RGB Wert `rgb(87 , 53, 4)` angegeben werden.
   *  `font-family: verdana;` so lässt sich die Schriftart anpassen

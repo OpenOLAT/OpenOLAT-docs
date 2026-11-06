@@ -4,7 +4,7 @@ Mit Hilfe von ePortfolios können Lernende ihre Lern- und Entwicklungsprozesse g
 
 ## Was sind Portfolios?
 
-Portfolio: ein Begriff, der oft gebraucht wird, aber sehr unterschiedlich verstanden werden kann. Ursprünglich kommt der Begriff aus dem Lateinischen und setzt sich aus zwei Teilen zusammen: portare = tragen und folio = Blatt. Ein Portfolio sind also Blätter, welche herumgetragen werden. Dies geschieht oft in einer sogenannten **Mappe**. Portfolios sind beispielsweise seit vielen Jahren im Bereich "Kunst" verbreitet. Auch Bewerbungsportfolios haben eine längere Tradition. Die elektronische Speicherung der unterschiedlichen Elemente, häufig Artefakte genannt, in elektronischen Ordnern oder Sammelmappen, nennt man ePortfolio. Ziel eines ePortfolios ist es, **elektronische Daten zu sammeln**, die einzelnen Artefakte und auch die Zusammenstellungen zu **reflektieren** und so den eigenen **Lernprozess zu optimieren**. Dabei können ePortfolios nur für sich selbst, individuell, oder mit Freigabe für andere Personen (Lehrende, Peers) genutzt werden.
+Portfolio: ein Begriff, der oft gebraucht wird, aber sehr unterschiedlich verstanden werden kann. Ursprünglich kommt der Begriff aus dem Lateinischen und setzt sich aus zwei Teilen zusammen: portare = tragen und folio = Blatt. Ein Portfolio sind also Blätter, welche herumgetragen werden. Dies geschieht oft in einer sogenannten Mappe. Portfolios sind beispielsweise seit vielen Jahren im Bereich "Kunst" verbreitet. Auch Bewerbungsportfolios haben eine längere Tradition. Die elektronische Speicherung der unterschiedlichen Elemente, häufig Artefakte genannt, in elektronischen Ordnern oder Sammelmappen, nennt man ePortfolio. Ein ePortfolio verfolgt drei Ziele: elektronische Daten sammeln, die einzelnen Artefakte und ihre Zusammenstellungen reflektieren und so den eigenen Lernprozess optimieren. Dabei können ePortfolios nur für sich selbst, individuell, oder mit Freigabe für andere Personen (Lehrende, Peers) genutzt werden.
 
 ### Portfoliotypen
 
@@ -46,10 +46,10 @@ Natürlich gibt es auch bei Portfolios Nachteile:
 
 Eine Reflexion ist eine möglichst emotionsfreie Auseinandersetzung mit einem zurückliegenden Geschehen oder gerade laufenden Prozess. Reflexion heisst, möglichst distanziert zu betrachten, was z.B. mit einem Arbeitsauftrag, mit einem selbst oder mit einer Gruppe auf welche Weise, durch welche Eingriffe oder ähnlichem geschehen ist. Beim Lernen mit Portfolios nimmt die schriftliche Reflexion einen wichtigen Stellenwert ein. Jede lernende Person überlegt für sich selbst den persönlichen Lernzuwachs, das Ausmass des eigenen Interesses, der eigenen Betroffenheit und wo und wie das Erlernte angewandt werden kann. Gutes Reflektieren ist ein wichtiger grundsätzlicher Schritt von Lernenden in Richtung eigenverantwortliches Arbeiten.
 
-Reflexionen können auch nachträglich bearbeitet werden. Wenn Sie ein Artefakt in einer Mappe verlinkt haben, können Sie in der Tabellenübersicht in der Spalte "Reflexion" die zugehörige Reflexion bearbeiten.
-
 ## Weiterführende Informationen {: #further_information}
 
+[Portfolio erstellen >](Portfolio.de.md)<br>
+[Bestandteile des Portfolios >](Components_of_the_portfolio.de.md)<br>
 [E-Portfolio >](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)<br>
 [Eine Taxonomie für E-Portfolios >](http://peter.baumgartner.name/wp-content/uploads/2012/12/Baumgartner_2012_Eine-Taxonomie-fuer-E-Portfolios.pdf)
 

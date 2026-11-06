@@ -2,23 +2,25 @@
 
 ## Where and how can video and audio be integrated into projects?
 
-Videos and audio can be **uploaded** in OpenOlat as well as **recorded** directly in various places. The newly recorded or uploaded video and audio files can then be **linked** in all other areas of a project.
+In a project, you upload video and audio files or record them directly in OpenOlat. Each of these files can then be linked in all areas of the project, for example in an appointment or a note.
 
 
 ## Upload
 
-Within projects, video and audio files can primarily be uploaded under "[Files](../area_modules/Project_Files.md)" and then linked in all other areas. The upload is also available in the Quick start.
+You upload video and audio files in the "[Files](../area_modules/Project_Files.md)" area of the project and link them from there in all other areas. In the cockpit, the entry "Upload file" is also available in the Quick start.
 
-![Entry Upload file in the expanded pulldown next to the button Create note in the Quick start of the cockpit](assets/project_quick_access_file_upload_v1_de.png){ class="shadow lightbox" }
+![Entry Upload file in the expanded menu next to the button Create note](assets/project_quick_access_file_upload_v1_de.png){ class="shadow lightbox" title="Quick start in the cockpit of a project" }
 
 
-## Recording
+## Recording [:octicons-tag-16:{ title="from Release 18.1.2 (OO-7382)" }](https://track.frentix.com/issue/OO-7382)
 
-In the **Files** area of an OpenOlat project, in addition to the button for uploading various files, there is also the option of recording videos and audio files directly in OpenOlat.
+You record a video or an audio recording directly in the project, without preparing a file first. To do so, open the menu next to the button "Upload file" in the "Files" area and select "Record video" or "Record audio".
 
-Newly recorded videos are saved as mp4 files, audio as m4a files.
+All project members whose role may create objects in the project see these two entries (see [Roles](../area_modules/Project_Member_Management.md#roles)). The prerequisite is that the system administration has activated video or audio recording in the [Audio/Video Recording module](../../manual_admin/administration/Modules_Audio_Video_Recording.md).
 
-![Marked button Record video or audio next to Upload and Create document in the Files area of a project](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" }
+OpenOlat saves newly recorded videos as mp4 files, audio as m4a files.
+
+![Entries Record video and Record audio in the expanded menu of the button Upload file](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" title="Files area of a project" }
 
 
 ## Linking
@@ -29,11 +31,11 @@ You can add project-internal links to all objects within a project (appointments
 
 Select this option if your video is already in the Files area of the project. You can select the desired file directly from the list.
 
-![Dialog Link object with the list of files of the project, one video file is ticked, opened from the dialog Edit appointment](assets/project_video_audio_link_termin_v1_de.png){ class="shadow lightbox" }
+![Button Link object next to the menu Add link in the section Links](assets/project_video_audio_link_termin_v1_de.png){ class="shadow lightbox" title="Dialog Edit appointment in the schedule of a project" }
 
 ### Add link
 
-Here you can upload your video file via "Upload file". It will then be stored in the "Files" area of the project and linked to the object.
+If the video is not in the project yet, upload it via the menu "Add link" and the entry "Upload file". OpenOlat stores the file in the "Files" area of the project and links it to the object.
 
 !!! info "Important"
 
@@ -42,25 +44,29 @@ Here you can upload your video file via "Upload file". It will then be stored in
 
 ## Download
 
-In particular, you will probably sometimes want to download video and audio files that you have recorded directly in OpenOlat. As all project-related videos that you have uploaded or created in OpenOlat are stored in the "Files" area, you can also download or delete them there.
+All video and audio files of the project are in the "Files" area, whether uploaded or recorded in OpenOlat. There you download a file via its 3-dot menu and the entry "Download", or delete it.
 
-![Entry Download in the 3-dot menu of a video file in the Files area](assets/Projekt_Video_herunterladen1.jpg){ class="shadow lightbox" }
+![Entry Download in the 3-dot menu of a video file, below it Delete](assets/Projekt_Video_herunterladen1.jpg){ class="shadow lightbox" title="Files area of a project in the tile view" }
 
-To download several files at once, it is best to use the table view. Here you can download or delete several files at once.
+You download several files at once in the table view, or delete them there together.
 
-If *all* files are to be downloaded at once, use the button with the 3 dots at the top right. The zip file created in this way also contains the video and audio files.
+To download all files of the project at once, open the 3-dot menu at the top right and select "Download all files". The ZIP file also contains the video and audio files.
 
-![Entry Download all files in the 3-dot menu at the top right of the Files area](assets/Alle_dateien_herunterladen_Projekt1.jpg){ class="shadow lightbox" }
+![Entry Download all files in the 3-dot menu at the top right](assets/Alle_dateien_herunterladen_Projekt1.jpg){ class="shadow lightbox" title="Files area of a project in the table view" }
 
-## Video/Audio in reports
+## Video/Audio in reports [:octicons-tag-16:{ title="from Release 18.1.0 (OO-6874)" }](https://track.frentix.com/issue/OO-6874)
 
-When creating reports (e.g. also for archiving a project), all files can also be downloaded. The video and audio files are also included.
+A report summarises a project, for example for archiving. In the cockpit, the 3-dot menu with the entry "Download report" opens the dialog of the same name. If the entry "Files" is checked under "Object types" there, the report contains all files of the project, including the video and audio files.
 
-![Entry Download report in the 3-dot menu at the top right of the cockpit of a project](assets/Projekte_Report_herunterladen.jpg){ class="shadow lightbox" }
+![Entry Download report in the 3-dot menu of the project, in the dialog Download report the object type Files is checked](assets/Projekte_Report_herunterladen.jpg){ class="shadow lightbox" title="Cockpit of a project" }
 
 
 ## Further information {: #further_information}
 
-[Projects: Files >](../area_modules/Project_Files.md)
+[Projects: Files >](../area_modules/Project_Files.md)<br>
+[Projects: Member Management >](../area_modules/Project_Member_Management.md)<br>
+[Module Audio/Video Recording >](../../manual_admin/administration/Modules_Audio_Video_Recording.md)<br>
+[Projects - Cockpit >](../area_modules/Project_Cockpit.md)<br>
+[Projects - Project report >](../area_modules/Project_Report.md)
 
 [To the top of the page ^](#video_audio)

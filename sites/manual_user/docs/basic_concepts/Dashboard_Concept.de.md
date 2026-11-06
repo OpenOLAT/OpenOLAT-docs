@@ -6,7 +6,7 @@ Diese Seite beschreibt das Konzept einmal zentral. Die einzelnen Widgets sind au
 
 ## Was ist ein Widget? {: #widget_definition}
 
-Ein **Widget** ist eine Kachel auf einer Übersichtsseite. Sie zeigt einen Ausschnitt der Daten, für die Sie sonst in einen eigenen Bereich wechseln müssten, zum Beispiel die nächsten Termine oder die relevanten Durchführungen. Das Widget ersetzt den Bereich nicht, es erspart Ihnen den Weg dorthin.
+Ein Widget ist eine Kachel auf einer Übersichtsseite. Sie zeigt einen Ausschnitt der Daten, für die Sie sonst in einen eigenen Bereich wechseln müssten, zum Beispiel die nächsten Termine oder die relevanten Durchführungen. Das Widget ersetzt den Bereich nicht, es erspart Ihnen den Weg dorthin.
 
 Jedes Widget lässt sich persönlich ein- und ausblenden und in der Reihenfolge verschieben. Ihre Anordnung gilt nur für Sie und nur für diese eine Übersichtsseite.
 
@@ -22,13 +22,13 @@ Jedes Widget lässt sich persönlich ein- und ausblenden und in der Reihenfolge 
 | Coaching, Übersicht | Kurse - Als Betreuer:in, Termine | [Coaching - Übersicht >](../area_modules/Coaching.de.md) |
 | Zertifikatsprogramm, Übersicht | Aktive Mitglieder | [Course Planner: Zertifikatsprogramme >](../area_modules/Course_Planner_Certification_Programs.de.md) |
 
-Welche Widgets Sie tatsächlich sehen, hängt von Ihren Rollen und von den aktivierten Modulen ab. Das Widget **Termine** zum Beispiel erscheint nur, wenn das Modul **Termin- und Absenzenverwaltung** systemweit aktiv ist.
+Welche Widgets Sie tatsächlich sehen, hängt von Ihren Rollen und von den aktivierten Modulen ab. Das Widget "Termine" zum Beispiel erscheint nur, wenn das Modul "Termin- und Absenzenverwaltung" systemweit aktiv ist.
 
 !!! info "Wichtig"
 
-    Das Widget **Termine** heisst im Course Planner und im Coaching gleich und trägt dasselbe Symbol, zeigt aber unterschiedliche Termine. Im Course Planner erscheinen Termine aus Bildungsprodukten, für die Sie als Administrator:in, Absenzenverwalter:in, Besitzer:in oder Betreuer:in zuständig sind. Im Coaching erscheinen nur Termine, in denen Sie selbst als Dozent:in eingetragen sind, und zwar ausdrücklich keine Termine aus Bildungsprodukten.
+    Das Widget "Termine" heisst im Course Planner und im Coaching gleich und trägt dasselbe Symbol, zeigt aber unterschiedliche Termine. Im Course Planner erscheinen Termine aus Bildungsprodukten, für die Sie als Administrator:in, Absenzenverwalter:in, Besitzer:in oder Betreuer:in zuständig sind. Im Coaching erscheinen nur Termine, in denen Sie selbst als Dozent:in eingetragen sind, und zwar ausdrücklich keine Termine aus Bildungsprodukten.
 
-Beide Widgets zeigen Termine aus einer bestimmten Rolle heraus. Ihre **eigenen** Termine sehen Sie dagegen vollständig an einer Stelle: im persönlichen Werkzeug [Absenzen](../personal_menu/Absences.de.md#tab_events_absences), Tab **Termine und Absenzen**. Die Liste führt alle Termine, an denen Sie als Teilnehmer:in geführt sind, und trennt sie in **Absenzen innerhalb eines Produkts** und **Absenzen ausserhalb eines Produkts**. Ob ein Termin aus einem Bildungsprodukt des Course Planners oder aus einem einzelnen Kurs stammt, spielt für die Vollständigkeit dieser Liste keine Rolle.
+Beide Widgets zeigen Termine aus einer bestimmten Rolle heraus. Alle Termine, an denen Sie selbst als Teilnehmer:in geführt sind, sehen Sie dagegen vollständig an einer Stelle: im persönlichen Werkzeug [Absenzen](../personal_menu/Absences.de.md#tab_events_absences), Tab "Termine und Absenzen". Die Liste trennt sie in "Absenzen innerhalb eines Produkts" und "Absenzen ausserhalb eines Produkts". Ob ein Termin aus einem Bildungsprodukt des Course Planners oder aus einem einzelnen Kurs stammt, spielt für die Vollständigkeit dieser Liste keine Rolle.
 
 !!! note "Hinweis"
 
@@ -42,7 +42,7 @@ Eine Übersichtsseite ist von oben nach unten gleich aufgebaut:
 - **Trennbereich "Übersicht"**. Er grenzt die Daten von der Navigation darüber ab.
 - **Widgets** in einem responsiven Kachel-Layout. Je nach Bildschirmbreite ordnen sich die Kacheln neu an.
 
-![Schaltflächen in den Gruppen Produkte, Produktivität und Tools, darunter der Trennbereich Übersicht mit den Kacheln Durchführungen, Termine und To-do, auf der Startseite des Course Planners](assets/dashboard_concept_structure_v1_de.png){ class="shadow lightbox" }
+![Schaltflächen in den Gruppen Produkte, Produktivität und Tools, darunter der Trennbereich Übersicht mit den Kacheln Durchführungen, Termine und To-do](assets/dashboard_concept_structure_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
 ## Wiederkehrende Bedienelemente [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9244)" }](https://track.frentix.com/issue/OO-9244){:target="_blank"} {: #controls}
 
@@ -54,32 +54,32 @@ Alle Widgets verwenden dieselben Schaltflächen. Was sie bewirken, ist überall 
 
 ### Kennzahlenzeile {: #key_figures}
 
-Tabellen-Widgets zeigen über der Tabelle eine Zeile mit Kennzahlen. Die **Hauptkennzahl** steht in der Titelzeile des Widgets. Ein Klick auf eine Kennzahl filtert die Tabelle darunter auf die entsprechenden Einträge.
+Tabellen-Widgets zeigen über der Tabelle eine Zeile mit Kennzahlen. Die Hauptkennzahl steht in der Titelzeile des Widgets. Ein Klick auf eine Kennzahl filtert die Tabelle darunter auf die entsprechenden Einträge.
 
 ### Kachel-Einstellungen ändern [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9132)" }](https://track.frentix.com/issue/OO-9132){:target="_blank"} {: #widget_settings}
 
-Über das Zahnrad **"Einstellungen ändern"** stellen Sie ein Tabellen-Widget für sich ein:
+Über das Zahnrad "Einstellungen ändern" stellen Sie ein Tabellen-Widget für sich ein:
 
 - **Hauptkennzahl**: die Kennzahl, die in der Titelzeile des Widgets steht.
 - **Kennzahlen**: die weiteren Kennzahlen, die das Widget zeigt. Die Hauptkennzahl ist immer ausgewählt und lässt sich nicht abwählen.
 - **Anzahl Einträge**: wie viele Zeilen die Tabelle zeigt, 5 bis 15.
 
-Mit **Speichern** übernehmen Sie die Einstellungen, mit **Abbrechen** verwerfen Sie sie.
+Mit "Speichern" übernehmen Sie die Einstellungen, mit "Abbrechen" verwerfen Sie sie.
 
 ## Übersicht anpassen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9273)" }](https://track.frentix.com/issue/OO-9273){:target="_blank"} {: #customize}
 
-Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Er wechselt in den Bearbeitungsmodus mit zwei Bereichen:
+Unterhalb der Widgets steht der Button "Übersicht anpassen". Er wechselt in den Bearbeitungsmodus mit zwei Bereichen:
 
-- **Aktive Widgets**: die Kacheln, die die Seite zeigt. Über **"Kachel bewegen"** ordnen Sie sie per Drag & Drop neu an, über **"Vom Dashboard entfernen"** blenden Sie eine Kachel aus.
-- **Verfügbare Widgets**: die ausgeblendeten Kacheln. Über **"Zum Dashboard hinzufügen"** holen Sie eine zurück. Sie erscheint am Ende der aktiven Widgets.
+- **Aktive Widgets**: die Kacheln, die die Seite zeigt. Über "Kachel bewegen" ordnen Sie sie per Drag & Drop neu an, über "Vom Dashboard entfernen" blenden Sie eine Kachel aus.
+- **Verfügbare Widgets**: die ausgeblendeten Kacheln. Über "Zum Dashboard hinzufügen" holen Sie eine zurück. Sie erscheint am Ende der aktiven Widgets.
 
-![Die Bereiche Aktive Widgets und Verfügbare Widgets mit Kachel bewegen, Zum Dashboard hinzufügen und dem Menü Als Systemstandard speichern, im Bearbeitungsmodus einer Übersichtsseite](../area_modules/assets/course_planner_overview_customize_v1_de.png){ class="shadow lightbox" }
+![Die Bereiche Aktive Widgets und Verfügbare Widgets mit Kachel bewegen, Zum Dashboard hinzufügen und dem Menü Als Systemstandard speichern](../area_modules/assets/course_planner_overview_customize_v1_de.png){ class="shadow lightbox" title="Bearbeitungsmodus einer Übersichtsseite" }
 
-Mit **Speichern** übernehmen Sie die Anordnung und verlassen den Bearbeitungsmodus, mit **Abbrechen** verwerfen Sie die Änderungen. **"Dashboard zurücksetzen"** stellt die Standardanordnung wieder her.
+Mit "Speichern" übernehmen Sie die Anordnung und verlassen den Bearbeitungsmodus, mit "Abbrechen" verwerfen Sie die Änderungen. Der Button "Dashboard zurücksetzen" stellt die Standardanordnung wieder her.
 
 !!! tip "Tipp"
 
-    Für die Bedienung ohne Maus stehen zusätzlich die Aktionen **"Nach oben verschieben"** und **"Nach unten verschieben"** zur Verfügung.
+    Für die Bedienung ohne Maus stehen zusätzlich die Aktionen "Nach oben verschieben" und "Nach unten verschieben" zur Verfügung.
 
 !!! info "Wichtig"
 
@@ -90,10 +90,10 @@ Mit **Speichern** übernehmen Sie die Anordnung und verlassen den Bearbeitungsmo
 OpenOlat bestimmt die angezeigten Widgets in drei Stufen:
 
 1. **Ihre persönliche Anordnung**, sofern Sie eine gespeichert haben.
-2. Sonst der **Systemstandard**, den die Systemadministration festlegt.
-3. Sonst **alle verfügbaren Widgets**.
+2. **Systemstandard**: gilt, wenn Sie keine eigene Anordnung gespeichert haben. Systemadministrator:innen legen ihn fest.
+3. **Alle verfügbaren Widgets**: gelten, wenn auch kein Systemstandard festgelegt ist.
 
-Als Systemadministrator:in legen Sie den Systemstandard im Bearbeitungsmodus über **"Als Systemstandard speichern"** fest. Er gilt für alle Personen ohne eigene Anordnung. **"Systemstandard zurücksetzen"** nimmt ihn wieder weg. So blenden Sie zum Beispiel ein einzelnes Widget für alle Personen ohne eigene Anordnung aus.
+Als Systemadministrator:in legen Sie den Systemstandard im Bearbeitungsmodus über "Als Systemstandard speichern" fest. Er gilt für alle Personen ohne eigene Anordnung. "Systemstandard zurücksetzen" nimmt ihn wieder weg. So blenden Sie zum Beispiel ein einzelnes Widget für alle Personen ohne eigene Anordnung aus.
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -106,7 +106,7 @@ Als Systemadministrator:in legen Sie den Systemstandard im Bearbeitungsmodus üb
 [Persönliche Werkzeuge: Absenzen >](../personal_menu/Absences.de.md)
 
 **Weiterführend**<br>
-[Tabellenkonzept >](Table_Concept.de.md)<br>
+[Mit Tabellen arbeiten >](Table_Concept.de.md)<br>
 [Termine und Absenzen >](Events_and_Absences.de.md)<br>
 [Course Planner: To-dos >](../area_modules/Course_Planner_Todos.de.md)
 
