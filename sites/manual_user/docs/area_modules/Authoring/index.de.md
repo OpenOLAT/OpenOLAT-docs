@@ -4,6 +4,14 @@
 
 Im Autorenbereich finden OpenOlat Autor:innen alle Werkzeuge, um Kurse und andere Lernressourcen zu erstellen, zu importieren und zu bearbeiten.
 
+## Steckbrief
+
+Name | Autorenbereich
+---------|----------
+Verfügbar seit | vor Release 10.0
+
+## Die Tabelle der Lernressourcen {: #table}
+
 Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angezeigt.
 
 ![Liste der eigenen Lernressourcen, hervorgehoben die Buttons Datei importieren, Erstellen und Hilfe & Anleitungen, die Filter-Tabs mit den Filtern und die Zeile mit Suchfeld, Zahnrad und Download](../assets/authoring_overview_v1_de.png){ class="shadow lightbox" title="Tab Meine Einträge im Autorenbereich · 2026.10.08" }

@@ -5,7 +5,7 @@ You will find the "Video Collection" in the main navigation. It serves as a cent
 For a video to be displayed in the "Video Collection", its publication status must be set to "Published". In the single view of a video, the description of the info page is displayed automatically. The rating and comment functions are also available there, provided they are activated.
 
 
-![Tile overview with eight videos, each with preview image, duration, title and number of viewings, above it the search field and the sorting. Video Collection entry in the main navigation marked.](assets/video_collection_v1_de.png){ class="shadow lightbox" }
+![Tile overview with eight videos, each with preview image, duration, title and number of viewings, above it the search field and the sorting. Video Collection entry in the main navigation marked.](assets/video_collection_v1_de.png){ class="shadow lightbox" title="Start page of the Video Collection" }
 
 
 !!! note "Note"
@@ -17,6 +17,12 @@ For a video to be displayed in the "Video Collection", its publication status mu
 
 
 ---
+
+## Profile
+
+Name | Video Collection
+---------|----------
+Available since | Release 10.5 (OO-2013)
 
 ## What is offered in the Video Collection? {: #offering}
 

@@ -7,6 +7,12 @@ The organization of **surveys (data collections)** with these forms (in particul
 The **evaluation** of the completed forms can also be carried out by **quality managers** in this module. The data is prepared there in tables and diagrams.
 
 
+## Profile
+
+Name | Quality management
+---------|----------
+Available since | Release 13.0 (OO-3304)
+
 ## Case 1: Individual survey (several courses use the same form)
 
 The "Quality management" module is not required for this simplest case.

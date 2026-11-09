@@ -1,6 +1,12 @@
 # Catalog 2.0: Overview {: #catalog_overview}
 
 
+## Profile
+
+Name | Catalog 2.0
+---------|----------
+Available since | Release 17.0 (OO-6143)
+
 ## What is the catalog for? {: #catalog_purpose}
 
 The courses and learning resources created in OpenOlat can be presented to learners in the catalog.

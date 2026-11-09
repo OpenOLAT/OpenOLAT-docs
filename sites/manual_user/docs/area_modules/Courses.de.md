@@ -4,6 +4,12 @@
 
 Der Menüpunkt "Kurse" bietet Ihnen den Zugang zu den für Sie zugänglichen Kursen und eventuell weiteren Lernressourcen. Klicken Sie in der Hauptnavigation oben auf den Punkt "Kurse". Der Bereich steht allen angemeldeten Benutzer:innen offen; Gäste und Konten mit der Rolle Einladung sehen ihn nicht.
 
+## Steckbrief
+
+Name | Kurse
+---------|----------
+Verfügbar seit | Release 10.0 (OO-964)
+
 ## Meine Kurse
 
 Unter "Meine Kurse" können Sie sich standardmässig alle Kurse und Lernressourcen anzeigen lassen, die aktiv oder beendet sind. Sie können auch Favoriten markieren und sich nur die Favoriten anzeigen lassen. Oder Sie nutzen die Suche, um einen Kurs bzw. eine Lernressource basierend auf einem Stichwort zu finden.

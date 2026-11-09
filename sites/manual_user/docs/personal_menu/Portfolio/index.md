@@ -17,6 +17,12 @@ Every OpenOlat user can create a portfolio binder themselves, if the administrat
 ---
 
 
+## Profile
+
+Name | Portfolio 2.0
+---------|----------
+Available since | Release 11.0 (OO-2057)
+
 ## Assessment portfolio {: #assessment_portfolio}
 
 A central element of the OpenOlat portfolio is the assessment portfolio. For this purpose, authors create portfolio templates with tasks and portfolio structures and make them available in OpenOlat courses as a portfolio task. There, participants collect the portfolio task and continue working on the resulting binder under "Portfolio 2.0".

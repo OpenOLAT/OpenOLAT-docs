@@ -22,6 +22,12 @@ Jede OpenOlat-Benutzer:in kann selbst eine Portfoliomappe erstellen, sofern die 
 ---
 
 
+## Steckbrief
+
+Name | Portfolio 2.0
+---------|----------
+Verfügbar seit | Release 11.0 (OO-2057)
+
 ## Bewertungsportfolio {: #assessment_portfolio}
 
 Ein zentrales Element des OpenOlat Portfolios ist das Bewertungsportfolio. Dazu erstellen Autor:innen Portfoliovorlagen mit Aufgaben und Portfolio-Strukturen und stellen sie in OpenOlat-Kursen als Portfolioaufgabe zur Verfügung. Dort holen die Teilnehmenden die Portfolioaufgabe ab und bearbeiten die daraus entstandene Mappe unter "Portfolio 2.0" weiter.

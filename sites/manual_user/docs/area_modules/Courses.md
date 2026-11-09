@@ -4,6 +4,12 @@
 
 The "Courses" menu item gives you access to the courses and possibly other learning resources available to you. Click on the "Courses" menu item in the main navigation at the top. The area is open to all logged-in users; guests and accounts with the role Invitee do not see it.
 
+## Profile
+
+Name | Courses
+---------|----------
+Available since | Release 10.0 (OO-964)
+
 ## My courses
 
 Under "My Courses", you can view all courses and learning resources that are active or finished. You can also mark favourites and display only the favourites. Or you can use the search function to find a course or learning resource based on a keyword.

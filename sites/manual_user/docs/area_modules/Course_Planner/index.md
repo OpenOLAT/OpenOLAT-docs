@@ -1,6 +1,13 @@
 # Course Planner: Overview [:octicons-tag-16:{ title="from Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #course_planner}
 
 
+## Profile
+
+Name | Course Planner
+---------|----------
+Available since | Release 13.0 (2018)
+Redesign | Release 20.0 (OO-7834)
+
 ## Dashboard [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #dashboard_teaser}
 
 When you open the Course Planner, you are taken to the overview page with the access buttons, the search, and an area with configurable widgets (implementations, events, members).

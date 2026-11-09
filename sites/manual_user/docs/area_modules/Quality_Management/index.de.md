@@ -7,6 +7,12 @@ Die Organisation von **Befragungen (Datenerhebungen)** mit diesen Formularen (in
 Die **Auswertung** der ausgefüllten Formulare kann durch **Qualitätsmanager:innen** ebenfalls in diesem Modul gemacht werden. Die Daten werden dort in Tabellen und Diagrammen aufbereitet.
 
 
+## Steckbrief
+
+Name | Qualitätsmanagement
+---------|----------
+Verfügbar seit | Release 13.0 (OO-3304)
+
 ## Fall 1: Einzelbefragung (mehrere Kurse nutzen das gleiche Formular)
 
 Für diesen einfachsten Fall wird das Modul "Qualitätsmanagement" nicht benötigt.

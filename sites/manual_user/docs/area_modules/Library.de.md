@@ -1,6 +1,12 @@
 # Bibliothek {: #library}
 
 
+## Steckbrief
+
+Name | Bibliothek
+---------|----------
+Verfügbar seit | Release 14.0 (OO-4000)
+
 ## Konzept {: #concept}
 
 * Die Bibliothek kann separat nach Bedarf für die ganze Instanz aktiviert/deaktiviert werden.

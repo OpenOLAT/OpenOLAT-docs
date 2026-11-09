@@ -1,6 +1,12 @@
 # Library {: #library}
 
 
+## Profile
+
+Name | Library
+---------|----------
+Available since | Release 14.0 (OO-4000)
+
 ## Concept {: #concept}
 
 * The library can be activated/deactivated separately as required for the entire instance.

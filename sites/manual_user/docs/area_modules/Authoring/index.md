@@ -4,6 +4,14 @@
 
 In "Authoring" OpenOlat authors will find all the tools to create, import and edit courses and other learning resources.
 
+## Profile
+
+Name | Authoring
+---------|----------
+Available since | before Release 10.0
+
+## The table of learning resources {: #table}
+
 All existing courses and learning resources are displayed in a table.
 
 ![List of your own learning resources, highlighted the buttons Import file, Create and Help & instructions, the filter tabs with the filters and the row with search field, cogwheel and download](../assets/authoring_overview_v1_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.10.08" }

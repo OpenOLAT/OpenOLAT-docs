@@ -1,5 +1,11 @@
 # Projects: Overview {: #overviews}
 
+## Profile
+
+Name | Projects
+---------|----------
+Available since | Release 18.0 (OO-5188)
+
 ## What is the project tool for? [:octicons-tag-16:{ title="from Release 18.0 (OO-6612)" }](https://track.frentix.com/issue/OO-6612)
 
 The project tool integrated in OpenOlat is primarily a tool for **project documentation** (not for **project planning**).

@@ -1,6 +1,12 @@
 # Katalog 2.0: Übersicht {: #catalog_overview}
 
 
+## Steckbrief
+
+Name | Katalog 2.0
+---------|----------
+Verfügbar seit | Release 17.0 (OO-6143)
+
 ## Wozu dient der Katalog? {: #catalog_purpose}
 
 Im Katalog können die in OpenOlat erstellten Kurse und Lernressourcen für die Lernenden präsentiert werden.
