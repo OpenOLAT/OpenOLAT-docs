@@ -336,6 +336,6 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)
 
 [Zum Seitenanfang ^](#people)

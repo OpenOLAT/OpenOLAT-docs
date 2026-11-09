@@ -119,7 +119,7 @@ With the administrative access, you assign the course to one or more organisatio
 - **Course planners** read the content and use the course in the Course Planner.
 - **Authors** of these organisations see the course from the status "Review" if you grant them at least one right under "Authors can".
 
-You can select the organisations in which you have the role author, learning resource manager or administrator. The field is mandatory and only appears if the Organisations module is activated. The roles are described on the page [Roles and Rights](../basic_concepts/Roles.md#org).
+You can select the organisations in which you have the role author, learning resource manager or administrator. The field is mandatory and only appears if the Organisations module is activated. The roles are described on the page [Roles and Rights](../basic_concepts/Roles/index.md#org).
 
 You can see how many people have administrative access in the [share overview >](#section_share_overview)
 
@@ -194,7 +194,7 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 [How do I plan and run a course in several implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Offer concepts: Cancellation policy for invoice offers >](../basic_concepts/Offer_Concepts.md)<br>
-[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [How can I have my courses found by search engines? >](../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Module OAI-PMH >](../../manual_admin/administration/Modules_OAI.md)<br>
 [Catalog 2.0 - Overview >](../area_modules/catalog2.0/index.md)<br>

@@ -54,6 +54,6 @@ Das Portfolio erscheint nicht als Bereich in der Hauptnavigation. Sie öffnen es
 **Weiterführend**<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Rollen und ihre Arbeitsbereiche >](../basic_concepts/Roles_Home_Areas.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)
 
 [Zum Seitenanfang ^](#sites)

@@ -1,9 +1,9 @@
 # Coaching - Groups {: #groups}
 
 
-![Marked button Groups in the Coaching group leads to the list of your coached groups, on the Coaching entry page.](assets/coaching_groups1_v1_de.png){ class="shadow lightbox" }
+![Marked button Groups in the Coaching group leads to the list of your coached groups.](assets/coaching_groups1_v1_de.png){ class="shadow lightbox" title="Coaching entry page" }
 
-![Group list with the columns Name, number of courses, number of participants, Logged in with traffic light colour, Passed as a bar and average points, in the Groups tool of the Coaching Tool.](assets/coaching_groups2_v1_de.png){ class="shadow lightbox" }
+![Group list with the columns Name, number of courses, number of participants, Logged in with traffic light colour, Passed as a bar and average points.](assets/coaching_groups2_v1_de.png){ class="shadow lightbox" title="Groups tool of the Coaching Tool" }
 
 
 ### WHOM does the list show? {: #groups_who}
@@ -48,7 +48,7 @@ When you then click on a username, the assessment tool for that person opens and
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Order management >](../area_modules/Coaching_Order_Management.md)<br>
-[Roles >](../basic_concepts/Roles.md)<br>
+[Roles >](../basic_concepts/Roles/index.md)<br>
 [Assessment tool >](../learningresources/Assessment_tool_overview.md)
 
 [To the top of the page ^](#groups)

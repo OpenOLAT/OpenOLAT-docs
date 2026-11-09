@@ -39,7 +39,7 @@ A system role. It opens the Administration area and thereby the system configura
 
     **German:** Systemadministrator:in
 
-    [Read in the manual](../../manual_user/basic_concepts/Roles.md) · [Ask Sophia](?sophia=What%20is%20%22System%20administrator%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../../manual_user/basic_concepts/Roles/index.md) · [Ask Sophia](?sophia=What%20is%20%22System%20administrator%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -57,7 +57,7 @@ An organisation role that unites all administrative roles of one organisation.
 
     **German:** Administrator:in
 
-    [Read in the manual](../../manual_user/basic_concepts/Roles.md) · [Ask Sophia](?sophia=What%20is%20%22Administrator%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../../manual_user/basic_concepts/Roles/index.md) · [Ask Sophia](?sophia=What%20is%20%22Administrator%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -75,7 +75,7 @@ An administrative organisation role. It manages the accounts of its own organisa
 
     **German:** Benutzerverwalter:in
 
-    [Read in the manual](../../manual_user/basic_concepts/Roles.md) · [Ask Sophia](?sophia=What%20is%20%22User%20manager%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../../manual_user/basic_concepts/Roles/index.md) · [Ask Sophia](?sophia=What%20is%20%22User%20manager%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -93,7 +93,7 @@ An administrative organisation role. It grants and withdraws roles on the accoun
 
     **German:** Rollenverwalter:in
 
-    [Read in the manual](../../manual_user/basic_concepts/Roles.md) · [Ask Sophia](?sophia=What%20is%20%22Roles%20manager%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../../manual_user/basic_concepts/Roles/index.md) · [Ask Sophia](?sophia=What%20is%20%22Roles%20manager%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -111,7 +111,7 @@ An organisation role. It allows learning resources to be created in the authorin
 
     **German:** Autor:in
 
-    [Read in the manual](../../manual_user/basic_concepts/Roles.md) · [Ask Sophia](?sophia=What%20is%20%22Author%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../../manual_user/basic_concepts/Roles/index.md) · [Ask Sophia](?sophia=What%20is%20%22Author%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -161,12 +161,12 @@ This station has no deeper parts. The next station is waiting.
 
 ## Further information {: #further_information}
 
-[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)<br>
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles/index.md)<br>
 [Module Organisations >](../administration/Modules_Organisations.md)<br>
 [User management >](../usermanagement/index.md)<br>
 [Create user >](../usermanagement/Create_User.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>
-[Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
+[Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights/index.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 
 [To the top of the page ^](#rollen)

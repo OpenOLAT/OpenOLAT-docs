@@ -79,7 +79,7 @@ A course member can hold multiple roles in a course at the same time. In this ca
 
 ![Role switch menu in the toolbar with the available roles Owner, Coach, and Course planner](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" title="Role switch menu in the toolbar" }
 
-If the person has additional [system roles](../basic_concepts/Roles_Rights.md), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
+If the person has additional [system roles](../basic_concepts/Roles_Rights/index.md), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
 
 
 ### Adding members {: #add_members}
@@ -190,7 +190,7 @@ If a person is only to use a specific tool and not coach otherwise, it is best t
 
 ### Assignment of additional rights {: #additional_rights}
 
-What coaches may do in the course without these rights is described in the section [The role Coach](../basic_concepts/Roles.md#coach).
+What coaches may do in the course without these rights is described in the section [The role Coach](../basic_concepts/Roles/index.md#coach).
 
 The following course rights can be assigned to course coaches, course participants and to the coaches or participants of a group:
 
@@ -271,14 +271,14 @@ If course-related terms of use or the course-related privacy policy are [activat
 [Course Administration: Overview >](../learningresources/Administration.md)<br>
 [Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
 [Toolbar: Overview >](../learningresources/Toolbar.md)<br>
-[Roles and Rights: Overview >](../basic_concepts/Roles_Rights.md)<br>
+[Roles and Rights: Overview >](../basic_concepts/Roles_Rights/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Module Groups >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Course Element "Topic Assignment" >](../learningresources/Course_Element_Topic_Assignment.md)<br>
 [Groups >](../groups/index.md)<br>
 [Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview.md)<br>
-[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>
 [Glossary >](../learningresources/Glossary.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)

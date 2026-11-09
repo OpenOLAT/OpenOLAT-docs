@@ -4,9 +4,9 @@ Ist das Konto einer Person angelegt, geben Sie ihr die Rollen, die sie für ihre
 
 Suchen Sie die Person in der Benutzerverwaltung und öffnen Sie ihr Konto:<br>
 `Benutzerverwaltung > "Name der Person" > Rollen`<br>
-Das Konto öffnet sich auf der Seite "Kontoeinstellungen verwalten" mit mehreren Reitern. Im Reiter "[Rollen](../../manual_user/basic_concepts/Roles_Rights.de.md)" ordnen Sie der Person die gewünschten Rollen zu.
+Das Konto öffnet sich auf der Seite "Kontoeinstellungen verwalten" mit mehreren Reitern. Im Reiter "[Rollen](../../manual_user/basic_concepts/Roles_Rights/index.de.md)" ordnen Sie der Person die gewünschten Rollen zu.
 
-Welche Rechte eine Rolle mit sich bringt, beschreibt das Benutzerhandbuch: [Welche Rollen gibt es?](../../manual_user/basic_concepts/Roles.de.md) für die Organisationsrollen und [Rechte in Kursen](../../manual_user/basic_concepts/Authorisation_Concept.de.md) für die Rollen in einem Kurs.
+Welche Rechte eine Rolle mit sich bringt, beschreibt das Benutzerhandbuch: [Welche Rollen gibt es?](../../manual_user/basic_concepts/Roles/index.de.md) für die Organisationsrollen und [Rechte in Kursen](../../manual_user/basic_concepts/Authorisation_Concept.de.md) für die Rollen in einem Kurs.
 
 Welche Rollen Sie vergeben können, hängt von Ihrer eigenen Rolle ab. Benutzerverwalter:innen vergeben die Rollen Benutzer:in und Autor:in. Rollenverwalter:innen vergeben die Rolle Autor:in, die administrativen Rollen der Organisation sowie Gruppenverwalter:in und Poolverwalter:in. Die Rollen Principal, Administrator:in und Systemadministrator:in vergeben nur Administrator:innen.
 
@@ -47,8 +47,8 @@ Die Tabelle zeigt die Spalten "Datum", "Rolle", "Vererbung", "Aktivität", "Orig
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Rollen und Rechte: Übersicht >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Übersicht >](../../manual_user/basic_concepts/Roles_Rights/index.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles/index.de.md)<br>
 [Rollen und Rechte: Rechte in Kursen >](../../manual_user/basic_concepts/Authorisation_Concept.de.md)
 
 **Weiterführend**<br>

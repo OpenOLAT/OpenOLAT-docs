@@ -2,7 +2,7 @@
 
 ## Konfiguration durch Poolverwalter:innen {: #pool_manager}
 
-Poolverwalter:in ist eine [Rolle](../basic_concepts/Roles_Rights.de.md), die Administrator:innen oder Rollenverwalter:innen OpenOlat-Benutzer:innen zuweisen.
+Poolverwalter:in ist eine [Rolle](../basic_concepts/Roles_Rights/index.de.md), die Administrator:innen oder Rollenverwalter:innen OpenOlat-Benutzer:innen zuweisen.
 
 Poolverwalter:innen haben das Recht, organisatorische Aspekte des Fragenpools zu ändern. Sie haben jedoch keinen Einfluss auf den Inhalt des Fragenpools und der einzelnen Pools.
 
@@ -126,7 +126,7 @@ Neue Stufen erstellen Sie mit dem Button "Stufe erstellen" rechts oben.
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights.de.md)<br>
+[Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights/index.de.md)<br>
 [e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>

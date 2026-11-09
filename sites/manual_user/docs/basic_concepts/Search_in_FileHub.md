@@ -21,7 +21,7 @@ It is not a full-text search, i.e. no search within Word files, for example.
 
 ## Search in the search field {: #search_in_search_field}
 
-A [full-text search](Search_General.md#full_text_search) is performed in the search field of the File Hub.
+A [full-text search](Search_General/index.md#full_text_search) is performed in the search field of the File Hub.
 
 ![Search term, number of hits and a found PDF from a course folder](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" title="Dialog Full-text search in the File Hub" }
 
@@ -36,7 +36,7 @@ It is restricted to the storage locations offered in the File Hub. These are the
 
 ## Advanced search in the search result {: #advanced_search}
 
-The "Advanced search" in the search result is also a [full-text search](Search_General.md#full_text_search) without restrictions. The page [General information on the search](Search_General.md#advanced_search) describes the search fields of the advanced search.
+The "Advanced search" in the search result is also a [full-text search](Search_General/index.md#full_text_search) without restrictions. The page [General information on the search](Search_General/index.md#advanced_search) describes the search fields of the advanced search.
 
 ![Link Advanced search below the search field](assets/search_in_filehub_advanced_search1_v1_de.png){ class="shadow lightbox" title="Dialog Full-text search in the File Hub" }
 
@@ -56,7 +56,7 @@ The "Advanced search" in the search result is also a [full-text search](Search_G
 
 [User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [User tools >](../personal_menu/Personal_Tools/index.md)<br>
-[General information on the search >](Search_General.md)<br>
+[General information on the search >](Search_General/index.md)<br>
 [Global search >](Search_Global.md)<br>
 [Local search >](Search_Local.md)<br>
 [Search other Users >](Search_Person.md)<br>

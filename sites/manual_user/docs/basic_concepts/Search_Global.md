@@ -4,7 +4,7 @@ You will find the global search in the top right-hand corner of the main navigat
 
 If you enter a search term here and confirm it by pressing the Enter key or clicking on the magnifying glass next to it, a **search across everything** takes place.
 
-This means that the **entire OpenOlat** is searched, including the content of documents. It is a [full-text search](Search_General.md#full_text_search).
+This means that the **entire OpenOlat** is searched, including the content of documents. It is a [full-text search](Search_General/index.md#full_text_search).
 
 ![Expanded search field of the global search with the button Search next to the magnifying glass icon in the top right-hand corner of the main navigation](assets/search_global_v1_de.png){ class="shadow lightbox" title="Main navigation at the top right" }
 
@@ -28,7 +28,7 @@ The global search is only visible and usable if the search service is switched o
 
 ## Further information {: #further_information}
 
-[General information on the search >](Search_General.md)<br>
+[General information on the search >](Search_General/index.md)<br>
 [Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
 [Local search >](Search_Local.md)<br>
 [Search other users >](Search_Person.md)<br>

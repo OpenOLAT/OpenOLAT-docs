@@ -21,7 +21,7 @@ Es ist keine Volltextsuche, also keine Suche z.B. innerhalb von Word-Dateien.
 
 ## Suche im Suchfeld {: #search_in_search_field}
 
-Im Suchfeld des File Hub wird eine [Volltextsuche](Search_General.de.md#full_text_search) ausgeführt.
+Im Suchfeld des File Hub wird eine [Volltextsuche](Search_General/index.de.md#full_text_search) ausgeführt.
 
 ![Suchbegriff, Trefferzahl und ein gefundenes PDF aus einem Kursordner](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" title="Dialog Volltextsuche im File Hub" }
 
@@ -36,7 +36,7 @@ Sie ist auf die im File Hub angebotenen Ablageorte eingeschränkt. Dies sind fol
 
 ## Erweiterte Suche im Suchresultat {: #advanced_search}
 
-Die "Erweiterte Suche" im Suchresultat ist ebenfalls eine [Volltextsuche](Search_General.de.md#full_text_search) ohne Einschränkungen. Die Suchfelder der erweiterten Suche beschreibt die Seite [Allgemeines zur Suche](Search_General.de.md#advanced_search).
+Die "Erweiterte Suche" im Suchresultat ist ebenfalls eine [Volltextsuche](Search_General/index.de.md#full_text_search) ohne Einschränkungen. Die Suchfelder der erweiterten Suche beschreibt die Seite [Allgemeines zur Suche](Search_General/index.de.md#advanced_search).
 
 ![Link Erweiterte Suche unter dem Suchfeld](assets/search_in_filehub_advanced_search1_v1_de.png){ class="shadow lightbox" title="Dialog Volltextsuche im File Hub" }
 
@@ -56,7 +56,7 @@ Die "Erweiterte Suche" im Suchresultat ist ebenfalls eine [Volltextsuche](Search
 
 [Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)<br>
-[Allgemeines zur Suche >](Search_General.de.md)<br>
+[Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>
 [Lokale Suche >](Search_Local.de.md)<br>
 [Personensuche >](Search_Person.de.md)<br>

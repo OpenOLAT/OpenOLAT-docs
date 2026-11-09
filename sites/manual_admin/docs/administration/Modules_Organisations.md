@@ -236,7 +236,7 @@ The list shows the mappings of all organisations. The "Subdomain allowed" column
 
 **Further reading**<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>
-[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)<br>
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles/index.md)<br>
 [Self-registration >](Login_Self-Registration.md)
 
 [To the top of the page ^](#organisations)

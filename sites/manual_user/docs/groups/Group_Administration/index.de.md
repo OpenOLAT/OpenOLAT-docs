@@ -186,7 +186,7 @@ Den Tab gibt es nur, wenn die System-Administration für Einladungen oder für L
 
 **Weiterführend**<br>
 [Gruppen erstellen >](../Create_Groups.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles.de.md)
+[Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles/index.de.md)
 
 [Zum Seitenanfang ^](#group_administration)
 

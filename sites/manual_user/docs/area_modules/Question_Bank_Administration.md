@@ -2,7 +2,7 @@
 
 ## Configuration by question bank managers {: #pool_manager}
 
-Question bank manager is a [role](../basic_concepts/Roles_Rights.md) that administrators or roles managers assign to OpenOlat users.
+Question bank manager is a [role](../basic_concepts/Roles_Rights/index.md) that administrators or roles managers assign to OpenOlat users.
 
 Question bank managers have the right to change organizational aspects of the question bank. However, they have no influence on the content of the question bank or of the individual pools.
 
@@ -126,7 +126,7 @@ Translate each level into each language that is enabled in your OpenOlat instanc
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Roles and Rights: Overview >](../basic_concepts/Roles_Rights.md)<br>
+[Roles and Rights: Overview >](../basic_concepts/Roles_Rights/index.md)<br>
 [e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>

@@ -86,6 +86,6 @@ Verwendet der Kursbaustein einen eigenen Mediasite Server mit LTI 1.3, erhält e
 [mediasite.com >](https://mediasite.com)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.de.md)<br>
-[Video: Übersicht >](../basic_concepts/Video.de.md)
+[Video: Übersicht >](../basic_concepts/Video/index.de.md)
 
 [Zum Seitenanfang ^](#mediasite)

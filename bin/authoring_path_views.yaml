@@ -65,7 +65,7 @@ stations:
       de: Autorenbereich
       en: Authoring
     further:
-      - manual_user/docs/basic_concepts/Roles_Rights
+      - manual_user/docs/basic_concepts/Roles_Rights/index
       - manual_user/docs/area_modules/authoring_new_course
       - reference_glossary/docs/glossary
 

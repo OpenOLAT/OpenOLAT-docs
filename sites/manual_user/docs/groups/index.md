@@ -10,7 +10,7 @@
     * [Leave a group](Leave_a_Group.md)
     * [Group Administration](Group_Administration/index.md)
     * [LTI Sharing](LTI_Share_groups.md)
-    * [Roles in groups](../basic_concepts/Roles.md#groups)
+    * [Roles in groups](../basic_concepts/Roles/index.md#groups)
 
     For authorized persons with administrative tasks:
 
@@ -30,7 +30,7 @@ In the main navigation you will also find "Groups". After clicking on it, you wi
 
 The groups can be displayed in a filtered way, which is especially helpful with many groups. To see the filter options, they must be expanded with the help of the small arrow.
 
-![Tabs My groups and Published groups with the filter bar Favourites, Course title and Add filter, plus the button Create group, in the Groups area.](assets/groups16.jpg){ class="shadow lightbox" }
+![Tabs My groups and Published groups with the filter bar Favourites, Course title and Add filter, plus the button Create group.](assets/groups16.jpg){ class="shadow lightbox" title="Tab My groups in the Groups area" }
 
 There you can
 

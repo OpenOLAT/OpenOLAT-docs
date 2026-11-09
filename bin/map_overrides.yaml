@@ -22,7 +22,7 @@ overrides:
     register: 6
   - key: roles.coach
     field: man
-    value: manual_user/basic_concepts/Roles#coach
+    value: manual_user/basic_concepts/Roles/index#coach
     register: 19
   - key: collaboration.collab_tools
     field: man

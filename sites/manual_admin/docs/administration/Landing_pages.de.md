@@ -104,7 +104,7 @@ Wer sich über einen Link anmeldet, z.B. aus einer E-Mail, landet beim Ziel dies
 **Weiterführend**<br>
 [Core-Konfiguration: Übersicht >](../administration/Core_functions.de.md)<br>
 [Customizing: Übersicht >](../administration/Customizing.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles/index.de.md)<br>
 [Coaching - Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)
 
 [Zum Seitenanfang ^](#landing_pages)

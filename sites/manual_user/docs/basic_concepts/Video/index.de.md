@@ -5,21 +5,21 @@ Videos lassen sich in OpenOlat auf verschiedene Weise bereitstellen und in unter
 
 ## Grundsätzliches {: #fundamentals}
 
-Videos können in OpenOlat entweder als eigenständiges Element (z. B. als [Lernressource Video](../learningresources/Learning_resource_Video.de.md) oder über die [Video Collection](../area_modules/Video_Collection.de.md)) oder eingebettet in andere Kontexte (z. B. Kursbausteine, [Portfolio](../area_modules/The_portfolio_editor_17_1.de.md), [Projekte](../area_modules/Project_VideoAudio.de.md)) genutzt werden.
+Videos können in OpenOlat entweder als eigenständiges Element (z. B. als [Lernressource Video](../../learningresources/Learning_resource_Video.de.md) oder über die [Video Collection](../../area_modules/Video_Collection.de.md)) oder eingebettet in andere Kontexte (z. B. Kursbausteine, [Portfolio](../../area_modules/The_portfolio_editor_17_1.de.md), [Projekte](../../area_modules/Project_VideoAudio.de.md)) genutzt werden.
 
 Je nach Einbindung werden Videos entweder direkt in OpenOlat angezeigt und können manuell oder automatisch gestartet werden, oder sie liegen als Datei vor und können heruntergeladen werden.
 
-Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md). Eine Video-Lernressource kann in Kursen über verschiedene Kursbausteine eingebunden werden, mit Metadaten versehen und über den Video-Editor weiter ausgestaltet werden. Lernressourcen werden im Autorenbereich erstellt und verwaltet und unter "Meine Einträge" aufgelistet.
+Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../../learningresources/Learning_resource_Video.de.md). Eine Video-Lernressource kann in Kursen über verschiedene Kursbausteine eingebunden werden, mit Metadaten versehen und über den Video-Editor weiter ausgestaltet werden. Lernressourcen werden im Autorenbereich erstellt und verwaltet und unter "Meine Einträge" aufgelistet.
 
-Weitere Details zur [Lernressource Video](../learningresources/Learning_resource_Video.de.md) finden Sie im zugehörigen Kapitel.
+Weitere Details zur [Lernressource Video](../../learningresources/Learning_resource_Video.de.md) finden Sie im zugehörigen Kapitel.
 
 ## Wie gelangen Videos in OpenOlat? {: #create_publish_embed}
 
 Es gibt verschiedene Wege, Videos in OpenOlat bereitzustellen:
 
-* Video als [Datei hochladen](../basic_concepts/Video_Upload.de.md)
+* Video als [Datei hochladen](../Video_Upload.de.md)
 * Video als Link zu einem ausserhalb von OpenOlat, im Internet, vorliegenden Video einbinden
-* Video direkt in OpenOlat z. B. per Webcam [aufnehmen](../basic_concepts/Video_Recording.de.md)
+* Video direkt in OpenOlat z. B. per Webcam [aufnehmen](../Video_Recording.de.md)
 
 
 Es stehen nicht in allen Kontexten alle drei Varianten zur Verfügung.
@@ -44,7 +44,7 @@ z. B. in Kursen über den Kursbaustein Video und die Lernressource Video
 * für interaktive Videos mit zusätzlichen Lernaktivitäten (Quizfragen, Kapitelstruktur, Anmerkungen), in der Lernressource Video oder im Kursbaustein Videoaufgabe
 * als Sammlung eigener Lernreflexionen, z. B. im Blog oder Portfolio
 * für Fragen oder Antworten in OpenOlat Tests
-* als Teaser-Video im Katalog und auf der [Infoseite](../learningresources/Info_page.de.md) von Kursen und veröffentlichten Lernressourcen
+* als Teaser-Video im Katalog und auf der [Infoseite](../../learningresources/Info_page.de.md) von Kursen und veröffentlichten Lernressourcen
 
 
 
@@ -82,19 +82,19 @@ Ferner sind Videos als Anhang eines Foren-Postings oder einer Mitteilung, als Di
 ## Weiterführende Informationen {: #further_information}
 
 **Grundsätzliches**<br>
-[Video hochladen >](Video_Upload.de.md)<br>
-[Video aufnehmen >](Video_Recording.de.md)<br>
-[Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)<br>
-[Video Collection >](../area_modules/Video_Collection.de.md)<br>
-[Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)
+[Video hochladen >](../Video_Upload.de.md)<br>
+[Video aufnehmen >](../Video_Recording.de.md)<br>
+[Lernressource: Video >](../../learningresources/Learning_resource_Video.de.md)<br>
+[Video Collection >](../../area_modules/Video_Collection.de.md)<br>
+[Persönliche Werkzeuge: Das Media Center >](../../personal_menu/Media_Center.de.md)
 
 **Videos in Kursen**<br>
-[Kursbaustein "Video" >](../learningresources/Course_Element_Video.de.md)<br>
-[Kursbaustein "Videoaufgabe" >](../learningresources/Course_Element_Video_Task.de.md)<br>
-[Videos im Kursbaustein "HTML-Seite" >](Video_in_HTML_Pages.de.md)<br>
-[Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
-[Kursbaustein "Video Livestream" >](../learningresources/Course_Element_Video_Livestream.de.md)<br>
-[Kursbaustein "Podcast" >](../learningresources/Course_Element_Podcast.de.md)<br>
-[Kursbaustein "Mediasite" >](../learningresources/Course_Element_Mediasite.de.md)
+[Kursbaustein "Video" >](../../learningresources/Course_Element_Video.de.md)<br>
+[Kursbaustein "Videoaufgabe" >](../../learningresources/Course_Element_Video_Task.de.md)<br>
+[Videos im Kursbaustein "HTML-Seite" >](../Video_in_HTML_Pages.de.md)<br>
+[Kursbaustein "Seite" >](../../learningresources/Course_Element_Page.de.md)<br>
+[Kursbaustein "Video Livestream" >](../../learningresources/Course_Element_Video_Livestream.de.md)<br>
+[Kursbaustein "Podcast" >](../../learningresources/Course_Element_Podcast.de.md)<br>
+[Kursbaustein "Mediasite" >](../../learningresources/Course_Element_Mediasite.de.md)
 
 [Zum Seitenanfang ^](#overview)

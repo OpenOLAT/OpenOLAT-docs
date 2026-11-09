@@ -136,6 +136,6 @@ Wo ein Teil im Tab "In Vorbereitung" landet, hängt davon ab, was in der Zeile s
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
-[Rollen >](../../manual_user/basic_concepts/Roles.de.md)
+[Rollen >](../basic_concepts/Roles/index.de.md)
 
 [Zum Seitenanfang ^](#educational_products)

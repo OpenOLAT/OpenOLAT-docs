@@ -143,7 +143,7 @@ Ob jemand eine Datei gerade bearbeitet oder ob sie gesperrt ist, sehen Sie in de
 
 Bearbeitet jemand eine Datei gerade, trägt sie den Status "Wird gerade bearbeitet".
 
-Den Status "Gesperrt" setzen Sie in den [Metadaten](Search_General.de.md#metadata). Die Metadaten bearbeiten Sie unter den drei Punkten am Ende einer Zeile.
+Den Status "Gesperrt" setzen Sie in den [Metadaten](Search_General/index.de.md#metadata). Die Metadaten bearbeiten Sie unter den drei Punkten am Ende einer Zeile.
 
 Eine neu hochgeladene Datei trägt zunächst das Label "Neu". So finden Sie sie sofort wieder, um sie zum Beispiel zu verschieben oder zu kopieren. Das Label sieht nur die Person, die die Datei hochgeladen hat. Es verschwindet, sobald sie den Ordner einmal verlassen hat.
 
@@ -213,7 +213,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 [Kurseinstellungen - Tab Optionen >](../learningresources/Course_Settings_Options.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
 [Konzept des File Hub >](File_Hub_Concept.de.md)<br>
-[Allgemeines zur Suche >](Search_General.de.md)<br>
+[Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Installation guide >](../../manual_admin/installation/installGuide.md)
 
 **Weiterführend**<br>

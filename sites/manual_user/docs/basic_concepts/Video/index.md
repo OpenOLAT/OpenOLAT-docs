@@ -5,21 +5,21 @@ Videos can be provided in OpenOlat in various ways and integrated into different
 
 ## Fundamentals {: #fundamentals}
 
-Videos can be used in OpenOlat either as a standalone element (e.g. as a [learning resource Video](../learningresources/Learning_resource_Video.md) or via the [Video Collection](../area_modules/Video_Collection.md)) or embedded in other contexts (e.g. course elements, [Portfolio](../area_modules/The_portfolio_editor_17_1.md), [Projects](../area_modules/Project_VideoAudio.md)).
+Videos can be used in OpenOlat either as a standalone element (e.g. as a [learning resource Video](../../learningresources/Learning_resource_Video.md) or via the [Video Collection](../../area_modules/Video_Collection.md)) or embedded in other contexts (e.g. course elements, [Portfolio](../../area_modules/The_portfolio_editor_17_1.md), [Projects](../../area_modules/Project_VideoAudio.md)).
 
 Depending on the integration, videos are either displayed directly in OpenOlat and can be started manually or automatically, or they are available as a file and can be downloaded.
 
-The central element for providing videos is the [learning resource Video](../learningresources/Learning_resource_Video.md). A video learning resource can be integrated in courses via various course elements, provided with metadata and further designed with the video editor. Learning resources are created and managed in the Authoring area and listed under "My entries".
+The central element for providing videos is the [learning resource Video](../../learningresources/Learning_resource_Video.md). A video learning resource can be integrated in courses via various course elements, provided with metadata and further designed with the video editor. Learning resources are created and managed in the Authoring area and listed under "My entries".
 
-Further details on the [learning resource Video](../learningresources/Learning_resource_Video.md) can be found in the corresponding chapter.
+Further details on the [learning resource Video](../../learningresources/Learning_resource_Video.md) can be found in the corresponding chapter.
 
 ## How do videos get into OpenOlat? {: #create_publish_embed}
 
 There are several ways to provide videos in OpenOlat:
 
-* [Upload](../basic_concepts/Video_Upload.md) a video as a file
+* [Upload](../Video_Upload.md) a video as a file
 * Embed a video as a link to a video that is available outside OpenOlat, on the Internet
-* [Record](../basic_concepts/Video_Recording.md) a video directly in OpenOlat, e.g. via webcam
+* [Record](../Video_Recording.md) a video directly in OpenOlat, e.g. via webcam
 
 
 Not all three variants are available in all contexts.
@@ -44,7 +44,7 @@ e.g. in courses via the course element Video and the learning resource Video
 * for interactive videos with additional learning activities (quiz questions, chapter structure, annotations), in the learning resource Video or in the course element Video task
 * as a collection of your own learning reflections, e.g. in the blog or portfolio
 * for questions or answers in OpenOlat tests
-* as a teaser video in the catalog and on the [info page](../learningresources/Info_page.md) of courses and published learning resources
+* as a teaser video in the catalog and on the [info page](../../learningresources/Info_page.md) of courses and published learning resources
 
 
 
@@ -82,19 +82,19 @@ Furthermore, videos are possible as an attachment to a forum posting or a notifi
 ## Further information {: #further_information}
 
 **Fundamentals**<br>
-[Video Upload >](Video_Upload.md)<br>
-[Video Recording >](Video_Recording.md)<br>
-[Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
-[Video Collection >](../area_modules/Video_Collection.md)<br>
-[User tools: Media Center >](../personal_menu/Media_Center.md)
+[Video Upload >](../Video_Upload.md)<br>
+[Video Recording >](../Video_Recording.md)<br>
+[Learning resource: Video >](../../learningresources/Learning_resource_Video.md)<br>
+[Video Collection >](../../area_modules/Video_Collection.md)<br>
+[User tools: Media Center >](../../personal_menu/Media_Center.md)
 
 **Videos in courses**<br>
-[Course Element "Video" >](../learningresources/Course_Element_Video.md)<br>
-[Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)<br>
-[Videos in course element "HTML page" >](Video_in_HTML_Pages.md)<br>
-[Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
-[Course Element "Video Livestream" >](../learningresources/Course_Element_Video_Livestream.md)<br>
-[Course Element "Podcast" >](../learningresources/Course_Element_Podcast.md)<br>
-[Course Element "Mediasite" >](../learningresources/Course_Element_Mediasite.md)
+[Course Element "Video" >](../../learningresources/Course_Element_Video.md)<br>
+[Course Element "Video task" >](../../learningresources/Course_Element_Video_Task.md)<br>
+[Videos in course element "HTML page" >](../Video_in_HTML_Pages.md)<br>
+[Course Element "Page" >](../../learningresources/Course_Element_Page.md)<br>
+[Course Element "Video Livestream" >](../../learningresources/Course_Element_Video_Livestream.md)<br>
+[Course Element "Podcast" >](../../learningresources/Course_Element_Podcast.md)<br>
+[Course Element "Mediasite" >](../../learningresources/Course_Element_Mediasite.md)
 
 [To the top of the page ^](#overview)

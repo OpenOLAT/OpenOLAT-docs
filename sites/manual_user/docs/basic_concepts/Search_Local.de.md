@@ -13,7 +13,7 @@ Verwenden Sie dazu das Suchfeld in der Aktionszeile.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Allgemeines zur Suche >](Search_General.de.md)<br>
+[Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>
 [Personensuche >](Search_Person.de.md)<br>
 [Suche in einem Kurs >](Search_in_Course.de.md)<br>

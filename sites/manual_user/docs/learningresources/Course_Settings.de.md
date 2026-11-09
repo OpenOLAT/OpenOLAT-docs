@@ -42,7 +42,7 @@ Metadaten eines Kurses sind
 * Lizenz
 
 [Zu den Details >](../learningresources/Course_Settings_Metadata.de.md)<br>
-[Mehr über Metadaten >](../basic_concepts/Search_General.de.md#metadata)<br>
+[Mehr über Metadaten >](../basic_concepts/Search_General/index.de.md#metadata)<br>
 [Zum Seitenanfang ^](#course_settings)
 
 

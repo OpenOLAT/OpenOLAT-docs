@@ -17,7 +17,7 @@ Media can be...
 * ... filtered (e.g. "My media")
 * ... searched by place of use
 
-![My Media Center in card view with filters by type, subject area, usage and sharing, the button Add media file and the storage indicator at the bottom left](assets/media_center_concept_v1_de.png){ class=" shadow lightbox" title="My Media Center page" }
+![My Media Center in card view with filters by type, subject area, usage and sharing, the button Add media file and the storage indicator at the bottom left](../assets/media_center_concept_v1_de.png){ class=" shadow lightbox" title="My Media Center page" }
 
 [To the top of the page ^](#media_center_concept)
 
@@ -28,9 +28,9 @@ Media can be...
 The Media Center is initially your personal area. You open it via your profile picture at the top right, in the personal menu:<br>
 `Personal menu > Media Center`
 
-![Highlighted profile picture at the top right of the main navigation opens the personal menu](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Main navigation at the top right" }
+![Highlighted profile picture at the top right of the main navigation opens the personal menu](../assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Main navigation at the top right" }
 
-![Highlighted entry Media Center under User tools in the opened personal menu](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" title="Personal menu, User tools" }
+![Highlighted entry Media Center under User tools in the opened personal menu](../assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" title="Personal menu, User tools" }
 
 Even if they are personal media, they can be shared with other people and used in various OpenOlat contexts.<br>
 [More about sharing >](#share)
@@ -70,13 +70,13 @@ Different **file formats** and **content elements** can be stored and managed in
 
 ## Add media to the Media Center [:octicons-tag-16:{ title="from Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
-![Highlighted drop-down menu next to Add media file with File, Video via URL, video and audio recording, draw.io diagram, Text and Citation](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Add media file menu in My Media Center" }
+![Highlighted drop-down menu next to Add media file with File, Video via URL, video and audio recording, draw.io diagram, Text and Citation](../assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Add media file menu in My Media Center" }
 
 There are various ways to store media in the Media Center:
 
 ### Upload or link existing media directly in the Media Center {: #add_existing}
 
-* **Add media file:** Upload images, videos, pdf, Excel, etc. If the AI module is enabled, metadata such as title, description, alt text and tags can be pre-filled by AI via a button when uploading images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. If the AI image descriptions are switched on for you, OpenOlat additionally adds missing metadata in the background, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
+* **Add media file:** Upload images, videos, pdf, Excel, etc. If the AI module is enabled, metadata such as title, description, alt text and tags can be pre-filled by AI via a button when uploading images [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. If the AI image descriptions are switched on for you, OpenOlat additionally adds missing metadata in the background, see [Tab AI settings](../../personal_menu/Settings.md#tab_ai_settings). [Details on metadata with AI >](../Media_Center_Items.md#metadata_ai)
 * **Add video via URL:** Videos from external portals such as YouTube, Vimeo, Panopto or nanoo.tv can simply be added via a link.
 * **Add citation:** Quotations from books, articles, websites, films, etc. can be stored in text form and provided with metadata such as source, author, URL, etc. This means that citations can be inserted in several places in OpenOlat without having to enter the entire source again and again. However, make sure that you enter all details carefully and completely.
 
@@ -91,9 +91,9 @@ There are various ways to store media in the Media Center:
 
 ### Create new media outside the Media Center in the Content Editor {: #create_in_editor}
 
-Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [Content Editor](../basic_concepts/Content_Editor.md). In the course, you use for example the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear. Click on the button and you will be taken to the Media Center with all the corresponding options.
+Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [Content Editor](../Content_Editor.md). In the course, you use for example the course element ["Page"](../../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear. Click on the button and you will be taken to the Media Center with all the corresponding options.
 
-![Drop-down menu next to Add media file with Document, draw.io diagram, Text, Video via URL, video and audio recording and Citation](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Select medium in the course element Page" }
+![Drop-down menu next to Add media file with Document, draw.io diagram, Text, Video via URL, video and audio recording and Citation](../assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Select medium in the course element Page" }
 
 
 ### Collect content elements and assign them to the Media Center {: #assign_media}
@@ -109,7 +109,7 @@ The elements include:
 
 For example, to add a post, open your forum post and click on the puzzle piece.
 
-![Highlighted puzzle piece icon at the top right of a forum post, which transfers the post to the Media Center](assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" title="Forum post with puzzle piece icon" }
+![Highlighted puzzle piece icon at the top right of a forum post, which transfers the post to the Media Center](../assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" title="Forum post with puzzle piece icon" }
 
 A page will then appear where you can enter the metadata as usual and save everything. The post is then available as a link in your Media Center.
 
@@ -127,7 +127,7 @@ A page will then appear where you can enter the metadata as usual and save every
 When you add a media file to the Media Center, you can share it with other people (co-users).
 
 The view that users see:<br>
-![Highlighted area Share in the dialog Add media file with the button Add share and the share targets User, Group, Course and Organisation](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" title="Dialog Add media file" }
+![Highlighted area Share in the dialog Add media file with the button Add share and the share targets User, Group, Course and Organisation](../assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" title="Dialog Add media file" }
 
 [To the top of the page ^](#media_center_concept)
 
@@ -142,7 +142,7 @@ Select the table view at the top right above the list if you are currently viewi
 
 If you select at least one list entry at the beginning of a line in the table view, the "Delete" button appears above the list, which can be used to delete several elements at once.
 
-![Ticked entry Muster.pdf and button Delete above the list, both highlighted](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" title="Table view of My Media Center" }
+![Ticked entry Muster.pdf and button Delete above the list, both highlighted](../assets/media_center_delete_v1_de.png){ class=" shadow lightbox" title="Table view of My Media Center" }
 
 You can also delete individual files in the 3-dot menu if you have clicked on an individual medium and the information and descriptions are displayed. (Same menu as for downloading.)
 
@@ -154,7 +154,7 @@ You can also delete individual files in the 3-dot menu if you have clicked on an
 
 Media items uploaded to the Media Center always belong to one owner. When that account is deleted, a single question decides the fate of every media item: is it embedded in a page?
 
-![Decision tree from the account deletion to retained or permanently deleted](assets/delete_user_media_decision_v1_en.svg){ class="shadow lightbox" title="Media items when an account is deleted" }
+![Decision tree from the account deletion to retained or permanently deleted](../assets/delete_user_media_decision_v1_en.svg){ class="shadow lightbox" title="Media items when an account is deleted" }
 
 Embedded counts both in the "Page" course element and in an ePortfolio page, including one belonging to another person. If the media item is embedded, it is retained and is no longer assigned to anyone. If it is not embedded anywhere, it is permanently deleted.
 
@@ -163,7 +163,7 @@ Embedded counts both in the "Page" course element and in an ePortfolio page, inc
 Administrators and learning resource managers find the retained media items without an assignment in the media management, using the filter "Without creator", provided that the media item is shared with a course of their organisation. A media item that is only embedded in a page does not appear there.
 
 !!! tip "Before an account is deleted"
-    Ask the person concerned to download any media items they need. If a media item is to remain in the system, it must be embedded in a page beforehand. The complete table of all data types is on the page [Delete user](../../manual_admin/usermanagement/Delete_User.md#del_properties).
+    Ask the person concerned to download any media items they need. If a media item is to remain in the system, it must be embedded in a page beforehand. The complete table of all data types is on the page [Delete user](../../../manual_admin/usermanagement/Delete_User.md#del_properties).
 
 [To the top of the page ^](#media_center_concept)
 
@@ -174,18 +174,18 @@ Administrators and learning resource managers find the retained media items with
 
 The storage space in the Media Center is limited. You can see exactly how much storage space you have available and how much you have already used at the bottom left. This lets you know before uploading how much space remains for new media. The indicator only appears in the segment "My Media Center", it is missing in the media management, see [Manage Media Center](#media_center_administration).
 
-![Highlighted storage indicator 0 B of 30.0 MB used at the bottom left](assets/media_center_quota_v2_en.png){ class="shadow lightbox" title="Segment My Media Center, bottom left" }
+![Highlighted storage indicator 0 B of 30.0 MB used at the bottom left](../assets/media_center_quota_v2_en.png){ class="shadow lightbox" title="Segment My Media Center, bottom left" }
 
 Authors usually require more storage space, so a default value of its own applies to these power users. Besides authors, learning resource managers and administrators also count as power users.
 
 System administrators define the default value in the system administration, under:<br>
 `Administration > Core functions > Files and folders`, tab "Quotas"
 
-The same value also applies to the personal files. There is no separate default value for the Media Center only, see [Files and Folders](../../manual_admin/administration/Files_and_Folders.md#files_and_folders_quotas).
+The same value also applies to the personal files. There is no separate default value for the Media Center only, see [Files and Folders](../../../manual_admin/administration/Files_and_Folders.md#files_and_folders_quotas).
 
-If a single person needs more space, administrators, roles managers or user managers set a quota of its own for this person under `User management > "Name of the person" > Quota`, see [Manage user settings](../../manual_admin/usermanagement/Configure_User.md#quota). Therefore, if you have any questions about storage requirements, please contact your administrators, roles managers or user managers.
+If a single person needs more space, administrators, roles managers or user managers set a quota of its own for this person under `User management > "Name of the person" > Quota`, see [Manage user settings](../../../manual_admin/usermanagement/Configure_User.md#quota). Therefore, if you have any questions about storage requirements, please contact your administrators, roles managers or user managers.
 
-![Two ways to more space in the Media Center, for one person or for everyone in a role, with location and effect](assets/media_center_quota_ways_v1_en.svg){ class="shadow lightbox" title="More storage space in the Media Center" }
+![Two ways to more space in the Media Center, for one person or for everyone in a role, with location and effect](../assets/media_center_quota_ways_v1_en.svg){ class="shadow lightbox" title="More storage space in the Media Center" }
 
 !!! note "Note"
 
@@ -197,13 +197,13 @@ If a single person needs more space, administrators, roles managers or user mana
 
 ## Use media [:octicons-tag-16:{ title="from Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
-You use media items from the Media Center wherever you create content. You use files, documents and collections, for example, with the Content Editor in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../personal_menu/Portfolio/index.md).
+You use media items from the Media Center wherever you create content. You use files, documents and collections, for example, with the Content Editor in the course element ["Page"](../../learningresources/Course_Element_Page.md) or in the [Portfolio](../../personal_menu/Portfolio/index.md).
 
-![Highlighted entry Select from my Media Center in the menu Add content of the course element Page, next to Image, Video, Citation and Document](assets/media_center_page_v1_de.png){ class=" shadow lightbox" title="Menu Add content in the course element Page" }
+![Highlighted entry Select from my Media Center in the menu Add content of the course element Page, next to Image, Video, Citation and Document](../assets/media_center_page_v1_de.png){ class=" shadow lightbox" title="Menu Add content in the course element Page" }
 
 The filters above the list help you to find the media you are looking for quickly, for example "Type", "Subject paths", "Used in", "In use", "Shared with", "Source" or "Platform".
 
-![Filter bar of the Media Center with the tabs All to Search and the filters Type, Subject area paths, Used in, In use, Shared with, Source and Platform](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" title="Filter bar in the Media Center" }
+![Filter bar of the Media Center with the tabs All to Search and the filters Type, Subject area paths, Used in, In use, Shared with, Source and Platform](../assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" title="Filter bar in the Media Center" }
 
 !!! note "Note"
 
@@ -222,7 +222,7 @@ If you, as an administrator or learning resource manager, need to know where a m
 You open the segment under:<br>
 `Personal menu > Media Center > "Media management" segment`
 
-![Add, delete and storage indicator only in My Media Center, compared with the media management](assets/media_center_segments_v1_en.svg){ class="shadow lightbox" title="The two segments of the Media Center" }
+![Add, delete and storage indicator only in My Media Center, compared with the media management](../assets/media_center_segments_v1_en.svg){ class="shadow lightbox" title="The two segments of the Media Center" }
 
 The media management lists media items of other persons that are shared with a course belonging to an organisation in which you are an administrator or learning resource manager. Media items shared directly with you, with one of your groups or with your organisation do not appear there. Like your own media items, they are in the segment "My Media Center", in the tab "Shared with me".
 
@@ -245,19 +245,19 @@ You cannot add media items in the media management, the "Add media file" button 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.md)<br>
-[Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
-[Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
-[Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
-[Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
-[User tools: Portfolio 2.0 >](../personal_menu/Portfolio/index.md)
+[Personal Configuration: Settings >](../../personal_menu/Settings.md)<br>
+[Information and settings for items in the Media Center >](../Media_Center_Items.md)<br>
+[Content Editor >](../Content_Editor.md)<br>
+[Course Element "Page" >](../../learningresources/Course_Element_Page.md)<br>
+[Delete user >](../../../manual_admin/usermanagement/Delete_User.md)<br>
+[Files and Folders >](../../../manual_admin/administration/Files_and_Folders.md)<br>
+[Manage user settings >](../../../manual_admin/usermanagement/Configure_User.md)<br>
+[User tools: Portfolio 2.0 >](../../personal_menu/Portfolio/index.md)
 
 **Further reading**<br>
-[User tools: Media Center >](../personal_menu/Media_Center.md)<br>
-[Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)<br>
-[Working with media files >](../basic_concepts/Working_with_Media_Files.md)<br>
-[Data protection >](../../manual_admin/usermanagement/Data_protection.md)
+[User tools: Media Center >](../../personal_menu/Media_Center.md)<br>
+[Module Media Center >](../../../manual_admin/administration/Modules_Media_Center.md)<br>
+[Working with media files >](../Working_with_Media_Files.md)<br>
+[Data protection >](../../../manual_admin/usermanagement/Data_protection.md)
 
 [To the top of the page ^](#media_center_concept)

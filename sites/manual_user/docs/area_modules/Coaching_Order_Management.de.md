@@ -1,7 +1,7 @@
 # Coaching - Auftragsverwaltung {: #order_management}
 
 
-![Markierter Eintrag Auftragsverwaltung unter Administration führt zur Verwaltung der Korrektor:innen, ihrer Korrekturaufträge und der offenen Zuweisungen von Betreuenden, auf der Startseite Coaching.](assets/coaching_order_management1_v1_de.png){ class="shadow lightbox" }
+![Markierter Eintrag Auftragsverwaltung unter Administration führt zur Verwaltung der Korrektor:innen, ihrer Korrekturaufträge und der offenen Zuweisungen von Betreuenden.](assets/coaching_order_management1_v1_de.png){ class="shadow lightbox" title="Startseite Coaching" }
 
 Wenn mehrere Personen Tests von Hand korrigieren oder wenn Teilnehmende auf betreuende Personen verteilt werden, behalten Sie in der Auftragsverwaltung den Überblick darüber, wer was noch zu erledigen hat. Das Menü fasst dafür zwei Bereiche zusammen: den Korrektur-Workflow für die manuelle Bewertung von OpenOlat Tests und die offenen Zuweisungen von Betreuenden zu Teilnehmenden.
 
@@ -14,7 +14,7 @@ In der Lernressource Test kann der [Korrektur-Workflow](../learningresources/Tes
 
 ## Tab "Korrektor:innen" [:octicons-tag-16:{ title="ab Release 15.0 (OO-4446)" }](https://track.frentix.com/issue/OO-4446) {: #tab_correctors}
 
-![Filter Status, Test, Korrektor:in und Korrekturzeitraum, Button Korrektor:in hinzufügen und die Liste mit Total, Erledigt, Offen, Überfällig, Korrekturzeiten und Urlaub, im Tab Korrektor:innen.](assets/coaching_order_management_tab_correctors_v1_de.png){ class="shadow lightbox" }
+![Filter Status, Test, Korrektor:in und Korrekturzeitraum, Button Korrektor:in hinzufügen und die Liste mit Total, Erledigt, Offen, Überfällig, Korrekturzeiten und Urlaub.](assets/coaching_order_management_tab_correctors_v1_de.png){ class="shadow lightbox" title="Tab Korrektor:innen der Auftragsverwaltung" }
 
 Hier erhalten Sie einen Überblick über alle Ihre Korrektor:innen und deren Bewertungsstand. Sie können die Korrektor:innen nach verschiedenen Kriterien filtern, z.B. nach bestimmten Kursen, konkreten Tests oder noch offenen Bewertungen.
 
@@ -37,7 +37,7 @@ Im Zeilenmenü einer Korrektor:in öffnen Sie den Eintrag "Report herunterladen"
 
 Dasselbe Zeilenmenü führt zu den weiteren Aktionen: "Zuweisungen anzeigen" wechselt in den Tab "Korrekturaufträge" mit den Aufträgen dieser Person, "Korrektor:in kontaktieren" öffnet eine E-Mail, "Abwesenheit erfassen" hinterlegt eine Abwesenheit, die anschliessend in der Spalte "Urlaub" erscheint, und "Entfernen" nimmt die Person als Korrektor:in zurück und verteilt ihre Zuweisungen neu. Ist eine Korrektor:in deaktiviert, steht statt "Deaktivieren" der Eintrag "Aktivieren" zur Verfügung.
 
-![Zeilenmenü mit Zuweisungen anzeigen, Korrektor:in kontaktieren, Report herunterladen, Abwesenheit erfassen, Deaktivieren und Entfernen, im Tab Korrektor:innen der Auftragsverwaltung.](assets/coaching_order_management_report_download_v1_de.png){ class="shadow lightbox" }
+![Zeilenmenü mit Zuweisungen anzeigen, Korrektor:in kontaktieren, Report herunterladen, Abwesenheit erfassen, Deaktivieren und Entfernen.](assets/coaching_order_management_report_download_v1_de.png){ class="shadow lightbox" title="Zeilenmenü im Tab Korrektor:innen" }
 
 
 
@@ -52,7 +52,7 @@ Wollen Sie wissen, welcher Test gerade bei wem liegt und was davon überfällig 
 
 Über den Button "Bericht" erzeugen Sie den Excel-Report über die angezeigten Korrekturaufträge. Aufbau und Filter des Reports beschreibt der Abschnitt [Test-Einstellungen, Report / Excel-Export](../learningresources/Test_settings.de.md#correction-workflow).
 
-![Zu ausgewählten Korrekturaufträgen die Aktionen Korrektor:in wählen, wechseln, kontaktieren, Frist verlängern und Entfernen, im Tab Korrekturaufträge.](assets/coaching_order_management_tab_grading_assignments_v1_de.png){ class="shadow lightbox" }
+![Zu ausgewählten Korrekturaufträgen die Aktionen Korrektor:in wählen, wechseln, kontaktieren, Frist verlängern und Entfernen.](assets/coaching_order_management_tab_grading_assignments_v1_de.png){ class="shadow lightbox" title="Tab Korrekturaufträge der Auftragsverwaltung" }
 
 Wählen Sie einzelne Korrekturaufträge aus, erscheinen die Aktionen "Korrektor:in wählen", "Korrektor:in wechseln", "Korrektor:in kontaktieren", "Frist verlängern" und "Entfernen". "Entfernen" hebt nur die Zuordnung zur Korrektor:in auf, der Korrekturauftrag selbst bleibt bestehen.
 
@@ -67,7 +67,7 @@ Ihre eigenen Korrekturaufträge als Korrektor:in finden Sie nicht hier, sondern 
 
 ## Tab "Offene Zuweisungen" [:octicons-tag-16:{ title="ab Release 17.2.1 (OO-6698)" }](https://track.frentix.com/issue/OO-6698) {: #tab_open_grading_assignments}
 
-![Je Zeile Kurs, Kursbaustein und Anzahl offener Zuweisungen mit dem Link Zuweisen, im Tab Offene Zuweisungen der Auftragsverwaltung.](assets/coaching_order_management_tab_open_grading_assignments_v1_de.png){ class="shadow lightbox" }
+![Je Zeile Kurs, Kursbaustein und Anzahl offener Zuweisungen mit dem Link Zuweisen.](assets/coaching_order_management_tab_open_grading_assignments_v1_de.png){ class="shadow lightbox" title="Tab Offene Zuweisungen der Auftragsverwaltung" }
 
 Verteilen Sie die Teilnehmenden einer Aufgabe auf mehrere betreuende Personen, sehen Sie hier über alle Ihre Kurse hinweg, wo diese Verteilung noch nicht vollständig ist. Dieser Tab gehört deshalb nicht zum Korrektur-Workflow, sondern zur Zuweisung der Betreuenden. Ihn sehen Administrator:innen, Lernressourcenverwalter:innen, Principals und Autor:innen; aufgeführt sind die Kurse, in denen Sie Besitzer:in sind oder in denen Sie eine dieser Rollen innehaben.
 
@@ -93,7 +93,7 @@ Angezeigt werden die Kursbausteine "Aufgabe", bei denen die "Zuweisung Betreuend
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
-[Rollen >](../basic_concepts/Roles.de.md)<br>
+[Rollen >](../basic_concepts/Roles/index.de.md)<br>
 [Bewertungswerkzeug >](../learningresources/Assessment_tool_overview.de.md)
 
 [Zum Seitenanfang ^](#order_management)

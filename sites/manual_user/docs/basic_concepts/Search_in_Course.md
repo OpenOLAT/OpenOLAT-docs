@@ -1,6 +1,6 @@
 # Search in a course {: #search_in_course}
 
-In addition to the [full-text search](Search_General.md#full_text_search) across the entire OpenOlat, there is also a course search, which can be activated for each course in the toolbar.
+In addition to the [full-text search](Search_General/index.md#full_text_search) across the entire OpenOlat, there is also a course search, which can be activated for each course in the toolbar.
 
 ![Tool Course search with the magnifier icon highlighted in the toolbar: this is where you start a search that covers only this course. To its left the other tools, from Info page with its info icon](assets/search_in_course_toolbar_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
@@ -20,7 +20,7 @@ You activate the course search in the course administration:<br>
 
 ## Further information {: #further_information}
 
-[General information on the search >](Search_General.md)<br>
+[General information on the search >](Search_General/index.md)<br>
 [Course Settings >](../learningresources/Course_Settings.md)<br>
 [Global search >](Search_Global.md)<br>
 [Local search >](Search_Local.md)<br>

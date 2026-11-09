@@ -67,7 +67,7 @@ Die Einträge für Absenzenverwalter:innen, Projektverwalter:innen, Qualitätsve
 Es werden drei Kursrollen unterschieden:
 
   * Kursbesitzer:innen
-  * [Kursbetreuer:innen](../../manual_user/basic_concepts/Roles_Rights.de.md#kursbezogene-rollen-und-rechte) und
+  * [Kursbetreuer:innen](../../manual_user/basic_concepts/Roles_Rights/index.de.md#kursbezogene-rollen-und-rechte) und
   * Kursteilnehmer:innen
 
 Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet werden.
@@ -177,7 +177,7 @@ Kennen Sie den Namen, die E-Mail-Adresse oder die Institutionsnummer einer Perso
 
 ![Markiertes Suchfeld mit dem Begriff white, dem Kreuz zum Leeren des Felds und dem Button Suchen](assets/user_management_quick_search_v3_de.png){ class="shadow lightbox" title="Suchfeld über dem Suchformular der Kontosuche · 2026.10.22" }
 
-Sobald im Feld etwas steht, erscheint rechts darin ein Kreuz. Ein Klick darauf leert das Feld, siehe [Suche zurücksetzen](../../manual_user/basic_concepts/Search_General.de.md#search_reset). Kehren Sie von der Trefferliste zum Suchformular zurück, steht Ihr Begriff noch im Feld.
+Sobald im Feld etwas steht, erscheint rechts darin ein Kreuz. Ein Klick darauf leert das Feld, siehe [Suche zurücksetzen](../../manual_user/basic_concepts/Search_General/index.de.md#search_reset). Kehren Sie von der Trefferliste zum Suchformular zurück, steht Ihr Begriff noch im Feld.
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -232,10 +232,10 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 
 **Auf dieser Seite erwähnt**<br>
 [Benutzer:in löschen >](Delete_User.de.md)<br>
-[Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
+[Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights/index.de.md)<br>
 [Gruppenverwaltung >](../../manual_user/groups/Group_Administration/index.de.md)<br>
 [Module >](../administration/Modules.de.md)<br>
-[Allgemeines zur Suche >](../../manual_user/basic_concepts/Search_General.de.md)<br>
+[Allgemeines zur Suche >](../../manual_user/basic_concepts/Search_General/index.de.md)<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Kontoeinstellungen verwalten >](Configure_User.de.md)
 

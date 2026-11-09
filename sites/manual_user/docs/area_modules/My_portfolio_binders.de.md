@@ -18,7 +18,7 @@ In einem Kurs bei einer Portfolioaufgabe abgeholte Mappen erkennen Sie am roten 
 
 Sobald Lernende eine Mappe abholen, wird eine Kopie der Vorlage erstellt und die abgeholte Mappe erscheint im persönlichen Portfoliobereich unter "Meine Mappen". Wer diese Mappe öffnet, kann die dort hinterlegten Aufgaben (Typ Freitext oder Formular) wählen bzw. abholen und die bereitgestellten Portfolioaktivitäten bearbeiten, indem diverse Artefakte (Texte, Dateien, Bilder usw.) hinterlegt oder ein vorbereitetes Formular ausgefüllt wird.
 
-Im [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.de.md) muss immer zuerst ein Layout ausgewählt werden, bevor es mit Inhalten und Artefakten, wahlweise auch aus dem [Media Center](../basic_concepts/Media_Center_Concept.de.md), gefüllt werden kann. Es können auch mehrere Layouts für eine bereitgestellte Aufgabe verwendet werden.
+Im [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.de.md) muss immer zuerst ein Layout ausgewählt werden, bevor es mit Inhalten und Artefakten, wahlweise auch aus dem [Media Center](../basic_concepts/Media_Center_Concept/index.de.md), gefüllt werden kann. Es können auch mehrere Layouts für eine bereitgestellte Aufgabe verwendet werden.
 
 Alternativ können auch schon erstellte Portfolioeinträge über den Button ["Inhalt referenzieren"](Multiple_use_of_entries.de.md) verknüpft werden. Änderungen an den Einträgen sind dann an allen referenzierten Stellen möglich.
 
@@ -105,7 +105,7 @@ Zwei weitere Tabs erscheinen abhängig von der Mappe und Ihren Rechten:
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Der Portfolio Editor >](The_portfolio_editor_17_1.de.md)<br>
-[Media Center: Konzept >](../basic_concepts/Media_Center_Concept.de.md)<br>
+[Media Center: Konzept >](../basic_concepts/Media_Center_Concept/index.de.md)<br>
 [Mehrfachverwendung von Einträgen >](Multiple_use_of_entries.de.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>

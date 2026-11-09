@@ -161,7 +161,7 @@ The module in which each person stores and manages their media: images, videos, 
 
     **German:** Media Center
 
-    [Read in the manual](../basic_concepts/Media_Center_Concept.md) · [Ask Sophia](?sophia=What%20is%20%22Media%20Center%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../basic_concepts/Media_Center_Concept/index.md) · [Ask Sophia](?sophia=What%20is%20%22Media%20Center%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -237,7 +237,7 @@ The first course is running. Now the things that did not matter at the start pay
 - **Course element:** [External page](../learningresources/Course_Element_External_Page.md), [Link list](../learningresources/Course_Element_Link_List.md), [CP learning content](../learningresources/Course_Element_CP_Learning_Content.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.md) and more. All settings are on the page [Types of Course Elements](../learningresources/Course_Elements.md).
 - **Task:** [Group task](../learningresources/Course_Element_Grouptask.md), [Workflow](../learningresources/Course_Element_Task/Task_Setup.md#workflow).
 - **Content editor:** [Content element](../basic_concepts/Content_Editor.md) (in the interface: **Add content**), [Import](../basic_concepts/Content_Editor.md), [Inspector](../basic_concepts/Content_Editor.md).
-- **Media Center:** [Shares](../../manual_admin/administration/Modules_Media_Center.md). All settings are on the page [Media Center Concept](../basic_concepts/Media_Center_Concept.md).
+- **Media Center:** [Shares](../../manual_admin/administration/Modules_Media_Center.md). All settings are on the page [Media Center Concept](../basic_concepts/Media_Center_Concept/index.md).
 
 ## Further information {: #further_information}
 
@@ -252,7 +252,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Course Element Task >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Element Assessment >](../learningresources/Course_Element_Assessment.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
-[Media Center Concept >](../basic_concepts/Media_Center_Concept.md)<br>
+[Media Center Concept >](../basic_concepts/Media_Center_Concept/index.md)<br>
 [Resource folder >](../learningresources/Resource_Folder.md)<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Course editor tools >](../learningresources/Using_additional_Course_Editor_Tools.md)<br>

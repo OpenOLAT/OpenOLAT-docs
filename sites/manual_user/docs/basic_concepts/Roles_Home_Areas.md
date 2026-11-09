@@ -1,6 +1,6 @@
 # Roles and their working areas {: #home_areas}
 
-The main navigation of OpenOlat is composed according to role. Every task has its own working area: learners work under "Courses", coaches in "Coaching", authors in the "Authoring area". Which menu items a person sees depends on their [roles](Roles.md) and on the modules activated in the respective OpenOlat instance.
+The main navigation of OpenOlat is composed according to role. Every task has its own working area: learners work under "Courses", coaches in "Coaching", authors in the "Authoring area". Which menu items a person sees depends on their [roles](Roles/index.md) and on the modules activated in the respective OpenOlat instance.
 
 ## Clear separation of learning and coaching [:octicons-tag-16:{ title="from Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576) {: #separation}
 
@@ -9,7 +9,7 @@ OpenOlat consistently separates the two perspectives on a course by role:
 * Under **Courses** ("My courses") you find the learning resources in which you yourself are entered as a participant.
 * Learning resources you accompany as a coach or owner are found in the **Coaching** area.
 
-If you are assigned both roles in a course, the course appears in both areas. You then open it where your current task lies: under "Courses" for learning, in "Coaching" for coaching. What coaches may do within the course itself is described in the section [The role Coach](Roles.md#coach).
+If you are assigned both roles in a course, the course appears in both areas. You then open it where your current task lies: under "Courses" for learning, in "Coaching" for coaching. What coaches may do within the course itself is described in the section [The role Coach](Roles/index.md#coach).
 
 Two people can therefore see different menus after logging in. If a menu item is missing, this is not an error: either the corresponding module is not activated or the required role has not been assigned.
 
@@ -40,7 +40,7 @@ Roles can be combined. A teacher, for example, can create courses as an author i
 After login, OpenOlat opens the landing page your organisation has set for the first matching role ([Landing pages by role](../../manual_admin/administration/Landing_pages.md#role_based)). A [personal landing page](../personal_menu/Settings.md#landing_page) in the settings takes precedence over the landing page of your organisation.
 
 Within a course there is additionally the role switch: if a person has been assigned several course roles, they can change perspective via the "Role" menu in the course toolbar.<br>
-(See [Roles in a course](Roles.md#course))
+(See [Roles in a course](Roles/index.md#course))
 
 [To the top of the page ^](#home_areas)
 
@@ -63,7 +63,7 @@ Besides the core areas, there are further menu items and areas that only become 
 | Administrator | Module and function administration: access to many areas such as user management, catalog management and Course Planner, but not to the administration page |
 | Principal | Read access to many areas of the system |
 
-You find the complete description of all roles and the associated rights under [Which roles are there?](Roles.md) An overview of all menu items of the main navigation is provided on the page [Sites and modules](../area_modules/index.md).
+You find the complete description of all roles and the associated rights under [Which roles are there?](Roles/index.md) An overview of all menu items of the main navigation is provided on the page [Sites and modules](../area_modules/index.md).
 
 [To the top of the page ^](#home_areas)
 
@@ -72,7 +72,7 @@ You find the complete description of all roles and the associated rights under [
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Roles and Rights: Which roles are available? >](Roles.md)<br>
+[Roles and Rights: Which roles are available? >](Roles/index.md)<br>
 [Finding courses >](../area_modules/Courses.md)<br>
 [Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
@@ -89,7 +89,7 @@ You find the complete description of all roles and the associated rights under [
 [Sites and modules >](../area_modules/index.md)
 
 **Further reading**<br>
-[Roles and Rights: Overview >](Roles_Rights.md)<br>
+[Roles and Rights: Overview >](Roles_Rights/index.md)<br>
 [Navigation >](Navigation.md)
 
 [To the top of the page ^](#home_areas)

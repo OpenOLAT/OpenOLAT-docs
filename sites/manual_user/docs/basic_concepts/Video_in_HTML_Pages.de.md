@@ -2,7 +2,7 @@
 
 ![Symbol Video hinzufügen / editieren](assets/add_video.png)
 
-Videos, die in den Kursbaustein "HTML-Seite" eingebunden werden, sind direkt eingebundene Videos.<br> (Siehe [Übersicht zu Videos](Video.de.md))
+Videos, die in den Kursbaustein "HTML-Seite" eingebunden werden, sind direkt eingebundene Videos.<br> (Siehe [Übersicht zu Videos](Video/index.de.md))
 
 Es können in die OpenOlat-Datenbank hochgeladene Videos sein oder Links, z.B. auf YouTube-Videos.<br>
 (Bei Videos in HTML-Seiten handelt es sich also nicht um Video-Lernressourcen, d.h. sie sind ohne Annotationen, Quiz, usw.)
@@ -145,7 +145,7 @@ Dieses von Adobe entwickelte Protokoll ermöglicht die Übertragung des Videos v
 
 ## Weiterführende Informationen {: #further_information}
 
-[Video: Übersicht >](Video.de.md)<br>
+[Video: Übersicht >](Video/index.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Nanoo.tv >](https://portal.nanoo.tv/)<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>

@@ -86,6 +86,6 @@ If the course element uses a custom Mediasite server with LTI 1.3, it receives i
 [mediasite.com >](https://mediasite.com)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.md)<br>
-[Video: Overview >](../basic_concepts/Video.md)
+[Video: Overview >](../basic_concepts/Video/index.md)
 
 [To the top of the page ^](#mediasite)

@@ -38,7 +38,7 @@ In the case of pseudonymized forums, the posters can choose a pseudonym themselv
 
 ### Moderation rights {: #moderator}
 
-Course owners always have the following additional moderation rights, [coaches](../basic_concepts/Roles.md#coach) if the right "Moderator" is switched on for them. The right is switched on by default; owners switch it off in the "Configuration" tab. Whoever moderates can:
+Course owners always have the following additional moderation rights, [coaches](../basic_concepts/Roles/index.md#coach) if the right "Moderator" is switched on for them. The right is switched on by default; owners switch it off in the "Configuration" tab. Whoever moderates can:
 
   * Editing and deleting all posts in a forum; attaching files.
   * Prioritizing threads (sticky): a certain discussion subject will always appear on top of a list.
@@ -189,7 +189,7 @@ c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a 
 
 ## Further information {: #further_information}
 
-[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [Personal Configuration: Profile >](../personal_menu/Profile/index.md)<br>
 [Course Element "Info messages" >](../../manual_user/learningresources/Course_Element_Notifications.md)<br>
 [Toolbar: Overview >](../../manual_user/learningresources/Toolbar.md)<br>

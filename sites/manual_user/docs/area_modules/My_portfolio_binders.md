@@ -18,7 +18,7 @@ You can recognize binders collected from a portfolio task in a course by the red
 
 As soon as learners collect a binder, a copy of the template is created and the collected binder appears in the personal portfolio area under "My binders". Whoever opens this binder can select or collect the tasks stored there (free text or form type) and edit the portfolio activities provided by storing various artifacts (texts, files, images, etc.) or filling out a prepared form.
 
-In the [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.md), a layout must always be selected first before it can be filled with content and artifacts, optionally also from the [Media Center](../basic_concepts/Media_Center_Concept.md). Several layouts can also be used for a provided task.
+In the [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.md), a layout must always be selected first before it can be filled with content and artifacts, optionally also from the [Media Center](../basic_concepts/Media_Center_Concept/index.md). Several layouts can also be used for a provided task.
 
 Alternatively, already created portfolio entries can also be linked via the ["Link content"](Multiple_use_of_entries.md) button. Changes to the entries are then possible in all referenced locations.
 
@@ -105,7 +105,7 @@ Two further tabs appear depending on the binder and your rights:
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
 [The Portfolio Editor >](The_portfolio_editor_17_1.md)<br>
-[Media Center Concept >](../basic_concepts/Media_Center_Concept.md)<br>
+[Media Center Concept >](../basic_concepts/Media_Center_Concept/index.md)<br>
 [Multiple use of entries >](Multiple_use_of_entries.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>

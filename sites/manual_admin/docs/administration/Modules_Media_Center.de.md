@@ -62,7 +62,7 @@ Für "Mit Benutzer:in", "Mit Gruppe" und "Mit Kurs" wählen Sie jeweils "Alle" o
 [Lizenzen >](Licenses.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
-[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept/index.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../../manual_user/personal_menu/Media_Center.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)
 

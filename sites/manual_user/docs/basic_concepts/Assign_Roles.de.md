@@ -137,7 +137,7 @@ Für jede Person-zu-Person-Beziehung können spezifische Rechte definiert und so
 [Modul Organisationen (Administrationshandbuch) >](../../manual_admin/administration/Modules_Organisations.de.md)
 
 **Weiterführend**<br>
-[Welche Rollen gibt es? >](Roles.de.md)<br>
+[Welche Rollen gibt es? >](Roles/index.de.md)<br>
 [Gruppenverwaltung >](../area_modules/Group_Management.de.md)<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)
 

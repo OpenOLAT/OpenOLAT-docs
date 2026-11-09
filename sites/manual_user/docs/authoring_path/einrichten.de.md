@@ -43,7 +43,7 @@ Organisationsrolle. Sie erlaubt es, im Autorenbereich Lernressourcen zu erstelle
 
     **Wie Nutzende es nennen:** Kursersteller:in, Content-Ersteller:in, E-Learning-Autor:in, Content-Autor:in, Lerninhalte-Ersteller:in, Kursautor:in
 
-    [Im Handbuch lesen](../basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Autor%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../basic_concepts/Roles/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Autor%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -122,7 +122,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
@@ -132,7 +132,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Kursbaustein Wiki >](../learningresources/Course_Element_Wiki.de.md)
 
 **Weiterführend**<br>
-[Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights.de.md)<br>
+[Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights/index.de.md)<br>
 [Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 

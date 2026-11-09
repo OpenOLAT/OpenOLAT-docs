@@ -118,11 +118,11 @@ Im 3-Punkte-Menü des Kursbausteins lassen Sie sich den [WebDAV-Link](../basic_c
 
 ### Metadaten {: #metadata}
 
-Mit den [Metadaten](../basic_concepts/Search_General.de.md#metadata) beschreiben Sie eine Datei genauer. Kursbesitzer:innen bearbeiten sie über das 3-Punkte-Menü der Datei.
+Mit den [Metadaten](../basic_concepts/Search_General/index.de.md#metadata) beschreiben Sie eine Datei genauer. Kursbesitzer:innen bearbeiten sie über das 3-Punkte-Menü der Datei.
 
 Neben der Beschreibung und der Sperre sind besonders die Lizenzangaben wichtig. Dort hinterlegen Sie eine Lizenz für das Dokument, zum Beispiel eine der Creative-Commons-Lizenzen, tragen den Lizenzgeber ein und ergänzen Angaben zum Herausgeber, zur Quelle oder zum Erscheinungsdatum. Der Ordner zeigt die Lizenz in einer eigenen Spalte. Ein Klick auf die Lizenz zeigt die hinterlegten Angaben.
 
-Das Feld "Anzahl Ansichten" in den Metadaten zeigt, wie oft eine Datei heruntergeladen wurde. Was genau zählt, steht unter [Metadaten](../basic_concepts/Search_General.de.md#metadata). Ferner gibt es einen Link, mit dem Sie die jeweilige Datei direkt verlinken können. Ob auch externe Personen auf die Datei zugreifen können, ist von den Zugangseinstellungen des Kurses abhängig.
+Das Feld "Anzahl Ansichten" in den Metadaten zeigt, wie oft eine Datei heruntergeladen wurde. Was genau zählt, steht unter [Metadaten](../basic_concepts/Search_General/index.de.md#metadata). Ferner gibt es einen Link, mit dem Sie die jeweilige Datei direkt verlinken können. Ob auch externe Personen auf die Datei zugreifen können, ist von den Zugangseinstellungen des Kurses abhängig.
 
 
 ### Dateien bearbeiten [:octicons-tag-16:{ title="ab Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}
@@ -138,7 +138,7 @@ Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie do
 [Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
-[Allgemeines zur Suche >](../basic_concepts/Search_General.de.md)<br>
+[Allgemeines zur Suche >](../basic_concepts/Search_General/index.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
 
 **Weiterführend**<br>

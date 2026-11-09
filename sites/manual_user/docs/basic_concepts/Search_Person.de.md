@@ -6,7 +6,7 @@ Suchen Sie eine bestimmte Person aus dem Kreis der auf Ihrer OpenOlat-Instanz re
 
 Das Suchformular hat zwei Bereiche: "Suche mit Autovervollständigung" mit einem einzelnen Feld für Anmeldename, Vorname oder Nachname und "Suche mit Konto-Angaben" mit einzelnen Feldern, mit denen Sie die Suche eingrenzen. Geben Sie mindestens einen Suchbegriff mit mindestens vier Zeichen ein.
 
-![Suchformular mit einem Feld für die Autovervollständigung und einzelnen Feldern von Anmeldename bis E-Mail, geöffnet über den markierten Eintrag Personensuche im persönlichen Menü](assets/search_person_v1_de.png){ class="shadow lightbox"}
+![Suchformular mit einem Feld für die Autovervollständigung und einzelnen Feldern von Anmeldename bis E-Mail, geöffnet über den markierten Eintrag Personensuche](assets/search_person_v1_de.png){ class="shadow lightbox" title="Personensuche im persönlichen Menü" }
 
 [zum Seitenanfang ^](#search_person)
 
@@ -18,9 +18,9 @@ Ist es Ihre Aufgabe, die Benutzer:innen der OpenOlat-Instanz zu verwalten, benö
 
 Zur effizienten Suche einer bestimmten Benutzer:in gibt es eine Kontosuche, in der Sie Personen sehr spezifisch nach bestimmten Kriterien suchen können.
 
-Auch eine [Massensuche](Search_General.de.md#bulk_search) steht zur Verfügung.
+Auch eine [Massensuche](Search_General/index.de.md#bulk_search) steht zur Verfügung.
 
-![Kontosuche mit Feldern zu Name, Adresse, Institution, Organisation, Systemrolle, Authentifizierung, Konto-Status und Anmeldedaten sowie dem Link Massensuche, in der Benutzerverwaltung unter Mehr](assets/search_person_in_user_management_v1_de.png){ class="shadow lightbox"}
+![Kontosuche mit Feldern zu Name, Adresse, Institution, Organisation, Systemrolle, Authentifizierung, Konto-Status und Anmeldedaten sowie dem Link Massensuche](assets/search_person_in_user_management_v1_de.png){ class="shadow lightbox" title="Benutzerverwaltung unter Mehr" }
 
 [zum Seitenanfang ^](#search_person)
 
@@ -30,7 +30,7 @@ Auch eine [Massensuche](Search_General.de.md#bulk_search) steht zur Verfügung.
 
 Das [Coaching](../area_modules/Coaching/index.de.md) dient der kursübergreifenden Betreuung von Teilnehmer:innen. Bei vielen Kursen und Teilnehmer:innen hilft eine [Personensuche](../area_modules/Coaching_User_Search.de.md), die nur innerhalb des von Ihnen betreuten Personenkreises sucht.
 
-![Suchformular mit Konto-Angaben und der Checkbox Nur aktive, geöffnet über den markierten Eintrag Personensuche im Menü des Coaching](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox"}
+![Suchformular mit Konto-Angaben und der Checkbox Nur aktive, geöffnet über den markierten Eintrag Personensuche](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox" title="Personensuche im Coaching" }
 
 [zum Seitenanfang ^](#search_person)
 
@@ -44,7 +44,7 @@ Es stehen Ihnen Filterfunktionen mit verschiedener Vorauswahl zur Verfügung. Au
 **Beispiel:**<br>
 Kursmitglieder, die auf den gewählten Kursbaustein keinen Zugriff haben (weil sie ausgenommen sind), finden Sie in einer separaten Vorauswahl "Ausgenommen", aber nicht unter "Relevant".
 
-![Vorauswahl Alle, Relevant, Zu korrigieren, Freizugeben, Bestanden, Nicht bestanden und Ausgenommen mit Filtern und Suchfeld über der Teilnehmerliste, Tab Teilnehmer:innen eines Kursbausteins Test](assets/search_person_in_course_v1_de.png){ class="shadow lightbox"}
+![Vorauswahl Alle, Relevant, Zu korrigieren, Freizugeben, Bestanden, Nicht bestanden und Ausgenommen mit Filtern und Suchfeld über der Teilnehmerliste](assets/search_person_in_course_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen eines Kursbausteins Test" }
 
 [zum Seitenanfang ^](#search_person)
 
@@ -52,7 +52,7 @@ Kursmitglieder, die auf den gewählten Kursbaustein keinen Zugriff haben (weil s
 
 ## Weiterführende Informationen {: #further_information}
 
-[Allgemeines zur Suche >](Search_General.de.md)<br>
+[Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Coaching - Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>

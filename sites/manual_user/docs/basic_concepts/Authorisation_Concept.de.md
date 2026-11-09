@@ -16,7 +16,7 @@ Legende
 
 
 ## Rechte der Kursrollen [:octicons-tag-16:{ title="ab Release 20.1.0 (OO-8646)" }](https://track.frentix.com/issue/OO-8646)
-Die Kursrollen Teilnehmer:in sowie Betreuer:in stehen stellvertretend auch für die Gruppenteilnehmer:innen/-betreuer:innen und Durchführungsteilnehmer:innen/-betreuer:innen. Was Betreuer:innen in den einzelnen Kursbausteinen und Kurswerkzeugen dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](Roles.de.md#coach).
+Die Kursrollen Teilnehmer:in sowie Betreuer:in stehen stellvertretend auch für die Gruppenteilnehmer:innen/-betreuer:innen und Durchführungsteilnehmer:innen/-betreuer:innen. Was Betreuer:innen in den einzelnen Kursbausteinen und Kurswerkzeugen dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](Roles/index.de.md#coach).
 
 |                                                             | Besitzer:innen   | Betreuer:innen    | Teilnehmer:innen  |
 | ----------------------------------------------------------- | :--------------: | :---------------: | :---------------: |
@@ -149,7 +149,7 @@ Kopieren und Löschen setzen bei Besitzer:innen zusätzlich die Organisationsrol
 [Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)
 
 **Weiterführend**<br>
-[Welche Rollen gibt es? >](Roles.de.md)<br>
+[Welche Rollen gibt es? >](Roles/index.de.md)<br>
 [Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)<br>
 [Rollen zuweisen >](Assign_Roles.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>

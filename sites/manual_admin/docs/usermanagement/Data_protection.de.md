@@ -142,6 +142,6 @@ E-Mail-Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative 
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Nutzungsbedingungen >](../../manual_user/basic_concepts/Terms_Of_Use.de.md)<br>
-[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept/index.de.md)
 
 [Zum Seitenanfang ^](#data_protection)

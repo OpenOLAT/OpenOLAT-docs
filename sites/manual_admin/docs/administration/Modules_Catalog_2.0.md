@@ -125,7 +125,7 @@ Under "Information displayed in card" you choose which details from the metadata
 
 ### Management of catalog V2 [:octicons-tag-16:{ title="from Release 17.1 (OO-6201)" }](https://track.frentix.com/issue/OO-6201) {: #v2_admin}
 
-Catalog V2 is structured by the subjects of a taxonomy. Whoever maintains this structure opens it on the launch page of the catalog with the link "Catalog management". Administrators and people with the management right for a subject see the link. People with the role [Learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) see it if the role Learning resource manager is selected in the "Settings" tab under "Taxonomy editable by". In any case, the [Module Taxonomy](Modules_Taxonomy.md) must be switched on. In the catalog management you select the current taxonomy, create and import new taxonomy levels and delete levels. Whoever only has the management right for a subject does not see the actions "Import taxonomy levels" and "Export taxonomy levels". These actions are available to administrators and to the roles selected under "Taxonomy editable by".
+Catalog V2 is structured by the subjects of a taxonomy. Whoever maintains this structure opens it on the launch page of the catalog with the link "Catalog management". Administrators and people with the management right for a subject see the link. People with the role [Learning resource manager](../../manual_user/basic_concepts/Roles_Rights/index.md) see it if the role Learning resource manager is selected in the "Settings" tab under "Taxonomy editable by". In any case, the [Module Taxonomy](Modules_Taxonomy.md) must be switched on. In the catalog management you select the current taxonomy, create and import new taxonomy levels and delete levels. Whoever only has the management right for a subject does not see the actions "Import taxonomy levels" and "Export taxonomy levels". These actions are available to administrators and to the roles selected under "Taxonomy editable by".
 
 Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalog.
 
@@ -218,7 +218,7 @@ With the switch "Web catalog temporarily disabled" you switch off the web catalo
 [Module Taxonomy](Modules_Taxonomy.md)<br>
 [Catalog 2.0: Sorting/order](../../manual_user/area_modules/catalog2.0_sort_offers.md)<br>
 [Sites and modules](../../manual_user/area_modules/index.md)<br>
-[Roles and Rights: Overview](../../manual_user/basic_concepts/Roles_Rights.md)
+[Roles and Rights: Overview](../../manual_user/basic_concepts/Roles_Rights/index.md)
 
 **Further reading**<br>
 [Catalog 2.0: Overview](../../manual_user/area_modules/catalog2.0/index.md)<br>

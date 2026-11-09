@@ -16,7 +16,7 @@ Die Seite [Rollen und ihre Arbeitsbereiche](Roles_Home_Areas.de.md) zeigt, in we
 
 ## Globale Navigation {: #global_navigation}
 
-Rechts oben in der Hauptnavigation stehen auf jeder Seite generell der [Chat](Chat.de.md) (Instant Messenger) und die [Suche](Search_General.de.md), dazu Ihr persönliches Menü. Welche weiteren Elemente dort erscheinen, hängt von Ihren Einstellungen ab.
+Rechts oben in der Hauptnavigation stehen auf jeder Seite generell der [Chat](Chat.de.md) (Instant Messenger) und die [Suche](Search_General/index.de.md), dazu Ihr persönliches Menü. Welche weiteren Elemente dort erscheinen, hängt von Ihren Einstellungen ab.
 
 ![Chat mit Status und Anzahl der Kontakte online, Suche und persönliches Menü im rechten Teil der Hauptnavigation markiert, so finden Sie die drei Elemente auf jeder Seite](assets/navigation_global_navigation_v1_de.png){ class="shadow aside-right lightbox" title="Hauptnavigation rechts oben · 2026.10.20" }
 
@@ -68,7 +68,7 @@ Auf der Infoseite einer Lernressource oder einer Durchführung steht dieselbe Ak
 [Rollen und ihre Arbeitsbereiche >](Roles_Home_Areas.de.md)<br>
 [Customizing: Übersicht >](../../manual_admin/administration/Customizing.de.md)<br>
 [Chat >](Chat.de.md)<br>
-[Allgemeines zur Suche >](Search_General.de.md)<br>
+[Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Persönliches Menü >](../personal_menu/index.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
 

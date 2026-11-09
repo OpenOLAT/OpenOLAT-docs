@@ -190,7 +190,7 @@ The new features of release 21.0 are in the [release notes 21.0](../../release_n
 - [Course elements](../learningresources/Course_Elements.md)
 - [Test question types](../learningresources/Test_question_types.md)
 - [Course administration](../learningresources/Administration.md)
-- [Roles and rights](../basic_concepts/Roles_Rights.md)
+- [Roles and rights](../basic_concepts/Roles_Rights/index.md)
 - [Groups](../groups/index.md)
 - [Personal menu](../personal_menu/index.md)
 - [What is in OpenOlat](../../whats_in_openolat.md)

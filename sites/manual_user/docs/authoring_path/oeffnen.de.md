@@ -121,9 +121,9 @@ Kursrolle mit der vollen Verantwortung für eine Lernressource.
 
     **Wie Nutzende es nennen:** Kursverantwortliche:r, Kursersteller:in, Inhaber:in
 
-    **Nicht verwechseln mit «[Betreuer:in](../basic_concepts/Roles.de.md#coach)»:** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
+    **Nicht verwechseln mit «[Betreuer:in](../basic_concepts/Roles/index.de.md#coach)»:** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
 
-    [Im Handbuch lesen](../basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Besitzer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../basic_concepts/Roles/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Besitzer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -143,9 +143,9 @@ Kursrolle. Betreuende begleiten die Teilnehmenden eines Kurses oder einer Gruppe
 
     **Wie Nutzende es nennen:** Tutor, Lehrperson, Kursleitung, Trainer, Ausbilder, Lernbegleitung, Instruktor:in
 
-    **Nicht verwechseln mit «[Besitzer:in](../basic_concepts/Roles.de.md)»:** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
+    **Nicht verwechseln mit «[Besitzer:in](../basic_concepts/Roles/index.de.md)»:** Besitzende verwalten die Lernressource, Betreuende die Lernenden darin.
 
-    [Im Handbuch lesen](../basic_concepts/Roles.de.md#coach) · [Sophia fragen](?sophia=Was%20ist%20%22Betreuer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../basic_concepts/Roles/index.de.md#coach) · [Sophia fragen](?sophia=Was%20ist%20%22Betreuer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -165,7 +165,7 @@ Kursrolle. Teilnehmende arbeiten den Kurs durch und sehen ausschliesslich die ei
 
     **Wie Nutzende es nennen:** Lernende, Schüler:in, Studierende, Mitarbeitende, Auszubildende, Kursteilnehmer:in
 
-    [Im Handbuch lesen](../basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Teilnehmer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../basic_concepts/Roles/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Teilnehmer%3Ain%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -214,7 +214,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>

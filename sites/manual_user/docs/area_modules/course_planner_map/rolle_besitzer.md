@@ -13,4 +13,4 @@ Full access (read and write) to the embedded course; members, however, are manag
 
 [Course Planner: Overview >](../Course_Planner/index.md)<br>
 [Course Planner: Application map >](../course_planner_map/index.md)<br>
-[Roles and Rights: Which roles are available? >](../../basic_concepts/Roles.md)
+[Roles and Rights: Which roles are available? >](../../basic_concepts/Roles/index.md)

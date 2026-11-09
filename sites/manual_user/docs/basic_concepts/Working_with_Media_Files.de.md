@@ -16,11 +16,11 @@ An verschiedenen Stellen in OpenOlat gibt es Ordner, in denen auch Mediendateien
 
 ## Lerninhalte im Content Editor
 
-Mediendateien, die mit dem [Content Editor](../basic_concepts/Content_Editor.de.md) eingebunden werden, sind im [Media Center](../basic_concepts/Media_Center_Concept.de.md) abgelegt.
+Mediendateien, die mit dem [Content Editor](../basic_concepts/Content_Editor.de.md) eingebunden werden, sind im [Media Center](Media_Center_Concept/index.de.md) abgelegt.
 
 **Vorteile:**
 
-* Die Medien sind in anderen Kursbausteinen verwendbar, die ebenfalls ihre Medien aus dem [Media Center](../basic_concepts/Media_Center_Concept.de.md) beziehen.
+* Die Medien sind in anderen Kursbausteinen verwendbar, die ebenfalls ihre Medien aus dem [Media Center](Media_Center_Concept/index.de.md) beziehen.
 * Es steht ein Rechtemanagement für das Teilen der Medien mit anderen Autor:innen zur Verfügung.
 * Die Mediendateien können mit Metadaten zur besseren Verwaltung versehen werden.
 
@@ -40,7 +40,7 @@ Bei Lernressourcen im Autorenbereich, die Mediendateien enthalten, sind diese Me
 
 [Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
-[Media Center: Konzept >](../basic_concepts/Media_Center_Concept.de.md)<br>
+[Media Center: Konzept >](Media_Center_Concept/index.de.md)<br>
 [Blog: Übersicht >](../learningresources/Blog.de.md)<br>
 [Wiki erstellen >](../learningresources/Wiki.de.md)<br>
 [Tests erstellen >](../learningresources/Test.de.md)

@@ -143,6 +143,6 @@ Email addresses of other users are only visible in OpenOlat for administrative u
 [Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Terms of Use >](../../manual_user/basic_concepts/Terms_Of_Use.md)<br>
-[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)
+[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept/index.md)
 
 [To the top of the page ^](#data_protection)

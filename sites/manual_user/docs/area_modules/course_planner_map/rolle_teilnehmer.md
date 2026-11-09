@@ -13,5 +13,5 @@ Becomes a member of an implementation (not of single courses or of the product) 
 
 [Course Planner: Overview >](../Course_Planner/index.md)<br>
 [Course Planner: Application map >](../course_planner_map/index.md)<br>
-[Roles and Rights: Which roles are available? >](../../basic_concepts/Roles.md)<br>
+[Roles and Rights: Which roles are available? >](../../basic_concepts/Roles/index.md)<br>
 [Course Planner: Implementations >](../Course_Planner_Implementations.md)

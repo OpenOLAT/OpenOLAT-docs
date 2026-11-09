@@ -183,7 +183,7 @@ The frame everything else runs in.
 
     Who uses the platform, in which role, in which organisation, and where the areas are that people work in.
 
--   __[Roles](manual_user/basic_concepts/Roles_Rights.md)__
+-   __[Roles](manual_user/basic_concepts/Roles_Rights/index.md)__
     {: data-oo-cluster="platform_and_administration" data-oo-domain="roles" }
 
     ---

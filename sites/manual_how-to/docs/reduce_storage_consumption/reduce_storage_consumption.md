@@ -232,6 +232,6 @@ Detailed information on the life cycles can be found at<br>
 [Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>
 [Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
 [Course Element "Participant folder" >](../../manual_user/learningresources/Course_Element_Participant_Folder.md)<br>
-[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)
+[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept/index.md)
 
 [To the top of the page ^](#reduce_storage_consumption)

@@ -132,7 +132,7 @@ Unter "Angezeigte Informationen in Karte" wählen Sie, welche Angaben aus den Me
 
 ### Verwalten des Kataloges [:octicons-tag-16:{ title="ab Release 17.1 (OO-6201)" }](https://track.frentix.com/issue/OO-6201) {: #v2_admin}
 
-Der Katalog V2 ist nach den Fachbereichen einer Taxonomie gegliedert. Wer diese Gliederung pflegt, öffnet sie auf der Startseite des Katalogs mit dem Link "Katalog-Verwaltung". Den Link sehen Administrator:innen und Personen mit dem Verwaltungsrecht für einen Fachbereich. Personen mit der Rolle [Lernressourcenverwalter:in](../../manual_user/basic_concepts/Roles_Rights.de.md) sehen ihn, wenn im Tab "Einstellungen" unter "Taxonomie bearbeitbar von" die Rolle Lernressourcenverwalter:in gewählt ist. Voraussetzung ist in jedem Fall das eingeschaltete [Modul Taxonomie](Modules_Taxonomy.de.md). In der Katalog-Verwaltung wählen Sie die aktuelle Taxonomie, erstellen und importieren neue Taxonomieebenen und löschen Ebenen. Wer nur das Verwaltungsrecht für einen Fachbereich hat, sieht die Aktionen "Taxonomieebenen importieren" und "Taxonomieebenen exportieren" nicht. Diese Aktionen haben Administrator:innen und die Rollen, die unter "Taxonomie bearbeitbar von" gewählt sind.
+Der Katalog V2 ist nach den Fachbereichen einer Taxonomie gegliedert. Wer diese Gliederung pflegt, öffnet sie auf der Startseite des Katalogs mit dem Link "Katalog-Verwaltung". Den Link sehen Administrator:innen und Personen mit dem Verwaltungsrecht für einen Fachbereich. Personen mit der Rolle [Lernressourcenverwalter:in](../../manual_user/basic_concepts/Roles_Rights/index.de.md) sehen ihn, wenn im Tab "Einstellungen" unter "Taxonomie bearbeitbar von" die Rolle Lernressourcenverwalter:in gewählt ist. Voraussetzung ist in jedem Fall das eingeschaltete [Modul Taxonomie](Modules_Taxonomy.de.md). In der Katalog-Verwaltung wählen Sie die aktuelle Taxonomie, erstellen und importieren neue Taxonomieebenen und löschen Ebenen. Wer nur das Verwaltungsrecht für einen Fachbereich hat, sieht die Aktionen "Taxonomieebenen importieren" und "Taxonomieebenen exportieren" nicht. Diese Aktionen haben Administrator:innen und die Rollen, die unter "Taxonomie bearbeitbar von" gewählt sind.
 
 Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Lernressourcen. Ist diese gelöscht, taucht eine Lernressource nicht mehr im Katalog auf.
 
@@ -226,7 +226,7 @@ Mit dem Schalter "Web-Katalog vorübergehend deaktiviert" schalten Sie den Web-K
 [Modul Taxonomie](Modules_Taxonomy.de.md)<br>
 [Katalog 2.0: Sortierung/Reihenfolge](../../manual_user/area_modules/catalog2.0_sort_offers.de.md)<br>
 [Bereiche und Module](../../manual_user/area_modules/index.de.md)<br>
-[Rollen und Rechte: Übersicht](../../manual_user/basic_concepts/Roles_Rights.de.md)
+[Rollen und Rechte: Übersicht](../../manual_user/basic_concepts/Roles_Rights/index.de.md)
 
 **Weiterführend**<br>
 [Katalog 2.0: Übersicht](../../manual_user/area_modules/catalog2.0/index.de.md)<br>

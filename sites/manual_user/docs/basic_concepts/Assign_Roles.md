@@ -137,7 +137,7 @@ Specific rights can be defined for each user-to-user relation and thus access ca
 [Module Organisations (Administration manual) >](../../manual_admin/administration/Modules_Organisations.md)
 
 **Further reading**<br>
-[Which roles are available? >](Roles.md)<br>
+[Which roles are available? >](Roles/index.md)<br>
 [Group Management >](../area_modules/Group_Management.md)<br>
 [Course Planner: Overview >](../area_modules/Course_Planner/index.md)
 

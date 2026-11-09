@@ -13,7 +13,7 @@ To do this, use the search field in the action line.
 
 ## Further information {: #further_information}
 
-[General information on the search >](Search_General.md)<br>
+[General information on the search >](Search_General/index.md)<br>
 [Global search >](Search_Global.md)<br>
 [Search other users >](Search_Person.md)<br>
 [Search in a course >](Search_in_Course.md)<br>

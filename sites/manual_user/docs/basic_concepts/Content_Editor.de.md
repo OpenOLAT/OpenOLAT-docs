@@ -492,7 +492,7 @@ Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wähl
 ![Geöffnetes Menü Mediendatei hinzufügen mit Dokument, Diagramm, Text, Video, Audio und Zitat.](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" title="Menü Mediendatei hinzufügen" }
 
 [Media Center (Persönliche Werkzeuge) >](../personal_menu/Media_Center.de.md)<br>
-[Ausführliche Informationen zum Media Center (Basiskonzept) >](Media_Center_Concept.de.md)
+[Ausführliche Informationen zum Media Center (Basiskonzept) >](Media_Center_Concept/index.de.md)
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -520,7 +520,7 @@ Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wähl
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Fragenpool: Fragen erstellen >](../area_modules/Question_Bank_Create_Questions.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
-[Media Center: Konzept >](Media_Center_Concept.de.md)
+[Media Center: Konzept >](Media_Center_Concept/index.de.md)
 
 **Weiterführend**<br>
 [Mit Tabellen arbeiten >](Table_Concept.de.md)<br>

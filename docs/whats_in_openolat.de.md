@@ -183,7 +183,7 @@ Der Rahmen, in dem alles andere läuft.
 
     Wer die Plattform benutzt, mit welcher Rolle, in welcher Organisation, und wo die Bereiche liegen, in denen gearbeitet wird.
 
--   __[Rollen](manual_user/basic_concepts/Roles_Rights.de.md)__
+-   __[Rollen](manual_user/basic_concepts/Roles_Rights/index.de.md)__
     {: data-oo-cluster="platform_and_administration" data-oo-domain="roles" }
 
     ---

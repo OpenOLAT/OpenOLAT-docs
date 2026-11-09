@@ -16,7 +16,7 @@ Legend
 
 
 ## Rights of the course roles [:octicons-tag-16:{ title="from Release 20.1.0 (OO-8646)" }](https://track.frentix.com/issue/OO-8646)
-The course roles participant and coach also stand for the group participants/coaches and implementation participants/coaches. What coaches may do in the individual course elements and course tools is described in the section [The role Coach](Roles.md#coach).
+The course roles participant and coach also stand for the group participants/coaches and implementation participants/coaches. What coaches may do in the individual course elements and course tools is described in the section [The role Coach](Roles/index.md#coach).
 
 |                                                             | Owners           | Coaches           | Participants      |
 | ----------------------------------------------------------- | :--------------: | :---------------: | :---------------: |
@@ -149,7 +149,7 @@ For owners, Copy and Delete additionally require the organisation role Author, L
 [Course Planner: Overview >](../area_modules/Course_Planner/index.md)
 
 **Further reading**<br>
-[Which roles are available? >](Roles.md)<br>
+[Which roles are available? >](Roles/index.md)<br>
 [Roles and their working areas >](Roles_Home_Areas.md)<br>
 [Assign roles >](Assign_Roles.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>

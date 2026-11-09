@@ -2,7 +2,7 @@
 
 ![Icon Add/edit video](assets/add_video.png)
 
-Videos that are integrated into the course element "HTML page" are directly integrated videos.<br> (See [Video: Overview](Video.md))
+Videos that are integrated into the course element "HTML page" are directly integrated videos.<br> (See [Video: Overview](Video/index.md))
 
 These videos can be uploaded into the OpenOlat database or function as links, e.g. to YouTube videos.<br>
 (Videos in HTML pages are therefore not video learning resources, i.e. they are without annotations, quizzes, etc.)
@@ -145,7 +145,7 @@ This protocol developed by Adobe enables the video to be transferred from the se
 
 ## Further information {: #further_information}
 
-[Video: Overview >](Video.md)<br>
+[Video: Overview >](Video/index.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Nanoo.tv >](https://portal.nanoo.tv/)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>

@@ -10,7 +10,7 @@
     * [Gruppe verlassen](Leave_a_Group.de.md)
     * [Gruppenadministration](Group_Administration/index.de.md)
     * [LTI Freigabe konfigurieren](LTI_Share_groups.de.md)
-    * [Rollen in Gruppen](../basic_concepts/Roles.de.md#groups)
+    * [Rollen in Gruppen](../basic_concepts/Roles/index.de.md#groups)
 
     Für Berechtigte mit Verwaltungsaufgaben:
 
@@ -34,7 +34,7 @@ Nach Klick darauf sehen Sie z.B. im Tab "Meine Gruppen" alle Gruppen, bei denen 
 Die Gruppen können gefiltert dargestellt werden, was besonders bei vielen
 Gruppen hilfreich ist. Um die Filtermöglichkeiten zu sehen, müssen diese mit Hilfe des kleinen Pfeils aufgeklappt werden.
 
-![Aufgeklappte Filterleiste über der Gruppenliste mit Rolle, Betreuer:innen, Teilnehmenden und den Aktionen Verlassen und Löschen je Gruppe, Tab Meine Gruppen.](assets/Gruppe.png){ class="shadow lightbox" }
+![Aufgeklappte Filterleiste über der Gruppenliste mit Rolle, Betreuer:innen, Teilnehmenden und den Aktionen Verlassen und Löschen je Gruppe.](assets/Gruppe.png){ class="shadow lightbox" title="Tab Meine Gruppen im Bereich Gruppen" }
 
 Sie können dort
 

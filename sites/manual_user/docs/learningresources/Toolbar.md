@@ -227,7 +227,7 @@ The configuration of the four external course tools is included when a course is
 ![Role switcher with the active role Owner and the label Role highlighted in the toolbar, to its right My course](assets/toolbar_role_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 If a person has multiple roles in this course, the role can be changed here.<br>
-[More >](../basic_concepts/Roles.md#course)
+[More >](../basic_concepts/Roles/index.md#course)
 
 ---
 

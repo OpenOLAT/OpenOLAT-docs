@@ -13,6 +13,6 @@ Begleitet Teilnehmer:innen einer Durchführung oder eines Kurses mit Zugriff auf
 
 [Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
 [Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles.de.md)
+[Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles/index.de.md)
 
 [Zum Seitenanfang ^](#role_coach)

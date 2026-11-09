@@ -395,6 +395,6 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht b
 
 **Weiterführend**<br>
 [Konto erstellen >](Create_User.de.md)<br>
-[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept/index.de.md)
 
 [zum Seitenanfang ^](#user_configuration)

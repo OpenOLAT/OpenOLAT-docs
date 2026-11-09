@@ -482,7 +482,7 @@ Click the button to open the files in your Media Center. Here, you select files,
 ![Open Add media file menu with document, diagram, text, video, audio and quote.](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" title="Add media file menu" }
 
 [Media Center (User tools) >](../personal_menu/Media_Center.md)<br>
-[Detailed information about the Media Center (Basic concept) >](Media_Center_Concept.md)
+[Detailed information about the Media Center (Basic concept) >](Media_Center_Concept/index.md)
 
 [To the top of the page ^](#content_editor)
 
@@ -510,7 +510,7 @@ Click the button to open the files in your Media Center. Here, you select files,
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Question Bank: Create Questions >](../area_modules/Question_Bank_Create_Questions.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
-[Media Center Concept >](Media_Center_Concept.md)
+[Media Center Concept >](Media_Center_Concept/index.md)
 
 **Further reading**<br>
 [Working with tables >](Table_Concept.md)<br>

@@ -81,7 +81,7 @@ If a "Folder" course element uses a folder from the storage folder as its file d
 
 The "Edit quota" action only appears in rows with their own quota: for the storage folder, for "Coach files" and "Documents (Toolbar)" as well as for the course elements "Folder" and "Participant folder". The course elements "Forum", "File dialog", "Task", "Group task", "Page" and "Topic broker" count their usage but have no quota that can be adjusted.
 
-The quota can be changed by [administrators, system administrators and learning resource managers](../basic_concepts/Roles.md#org) of the organisation the course belongs to. Everyone else sees the current values in the "Edit quota" dialog, but no button to save. If you need more space for a folder, contact one of these persons.
+The quota can be changed by [administrators, system administrators and learning resource managers](../basic_concepts/Roles/index.md#org) of the organisation the course belongs to. Everyone else sees the current values in the "Edit quota" dialog, but no button to save. If you need more space for a folder, contact one of these persons.
 
 The guide ["What measures can I take to reduce storage space consumption?"](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.md) describes further ways to reduce storage requirements.
 
@@ -291,7 +291,7 @@ If the course is in the trash, the menu item "Restore" appears in this place.
 
 [Toolbar: Overview >](Toolbar.md)<br>
 [Toolbar: Info page >](Info_page.md)<br>
-[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)
 
 **youtube**<br>
 [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>)

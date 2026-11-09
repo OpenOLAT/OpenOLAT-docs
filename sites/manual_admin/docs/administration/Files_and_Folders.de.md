@@ -155,7 +155,7 @@ Die Verweildauer der gelöschten Dateien im Papierkorb bis zur endgültigen Lös
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)
 
 **Weiterführend**<br>
-[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept/index.de.md)<br>
 [Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
 [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? >](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.de.md)
 

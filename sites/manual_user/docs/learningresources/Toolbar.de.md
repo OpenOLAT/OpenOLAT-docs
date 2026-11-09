@@ -227,7 +227,7 @@ Die Konfiguration der vier externen Kurstools wird beim **Kopieren** eines Kurse
 ![Rollenwechsler mit der aktiven Rolle Besitzer:in und der Beschriftung Rolle in der Toolbar markiert, rechts daneben Mein Kurs](assets/toolbar_role_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Besitzt eine Person in diesem Kurs mehrere Rollen, kann die Rolle hier gewechselt werden.<br>
-[Mehr dazu >](../basic_concepts/Roles.de.md#course)
+[Mehr dazu >](../basic_concepts/Roles/index.de.md#course)
 
 ---
 

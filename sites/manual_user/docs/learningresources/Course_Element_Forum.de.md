@@ -38,7 +38,7 @@ Weiter kann eingestellt werden, ob der eingegebene Pseudonymname bei weiteren Po
 
 ### Moderationsrechte {: #moderator}
 
-Kursbesitzer:innen haben immer folgende weitere Moderationsrechte, [Betreuer:innen](../basic_concepts/Roles.de.md#coach) dann, wenn für sie das Recht "Moderator" eingeschaltet ist. Das Recht ist standardmässig eingeschaltet; Besitzer:innen schalten es im Tab "Konfiguration" ab. Wer moderiert, kann:
+Kursbesitzer:innen haben immer folgende weitere Moderationsrechte, [Betreuer:innen](../basic_concepts/Roles/index.de.md#coach) dann, wenn für sie das Recht "Moderator" eingeschaltet ist. Das Recht ist standardmässig eingeschaltet; Besitzer:innen schalten es im Tab "Konfiguration" ab. Wer moderiert, kann:
 
 * Alle Forumsbeiträge editieren, löschen und Dateien anhängen.
 * Threads priorisieren (sticky): So erscheint das Diskussionsthema immer zuoberst auf der Liste.
@@ -192,7 +192,7 @@ c) Die [Dateidiskussion](../learningresources/Course_Element_File_Dialog.de.md) 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [Persönliche Konfiguration: Profil >](../personal_menu/Profile/index.de.md)<br>
 [Kursbaustein Mitteilungen >](../../manual_user/learningresources/Course_Element_Notifications.de.md)<br>
 [Toolbar: Übersicht >](../../manual_user/learningresources/Toolbar.de.md)<br>

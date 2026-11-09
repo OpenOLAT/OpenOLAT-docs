@@ -4,9 +4,9 @@ Once a person's account has been created, you give them the roles they need for 
 
 Search for the person in the user management and open their account:<br>
 `User management > "Name of the person" > Roles`<br>
-The account opens on the page "Manage user settings" with several tabs. In the "[Roles](../../manual_user/basic_concepts/Roles_Rights.md)" tab you assign the desired roles to the person.
+The account opens on the page "Manage user settings" with several tabs. In the "[Roles](../../manual_user/basic_concepts/Roles_Rights/index.md)" tab you assign the desired roles to the person.
 
-The user manual describes which rights a role brings with it: [Which roles are available?](../../manual_user/basic_concepts/Roles.md) for the organisation roles and [Authorisation in courses](../../manual_user/basic_concepts/Authorisation_Concept.md) for the roles in a course.
+The user manual describes which rights a role brings with it: [Which roles are available?](../../manual_user/basic_concepts/Roles/index.md) for the organisation roles and [Authorisation in courses](../../manual_user/basic_concepts/Authorisation_Concept.md) for the roles in a course.
 
 Which roles you can assign depends on your own role. User managers assign the roles User and Author. Roles managers assign the Author role, the administrative roles of the organisation as well as Group manager and Question bank manager. The roles Principal, Administrator and System administrator are assigned only by administrators.
 
@@ -47,8 +47,8 @@ Use the tabs "All", "7 days", "4 weeks" and "12 months" to narrow down the perio
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
-[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)<br>
+[Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights/index.md)<br>
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles/index.md)<br>
 [Roles and Rights: Authorisation in courses >](../../manual_user/basic_concepts/Authorisation_Concept.md)
 
 **Further reading**<br>

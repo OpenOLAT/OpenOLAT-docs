@@ -68,7 +68,7 @@ The entries for absence managers, project managers, quality managers, question b
 We distinguish three course roles:
 
   * Course owners
-  * [Course coaches](../../manual_user/basic_concepts/Roles_Rights.md#course-rights-and-roles) and
+  * [Course coaches](../../manual_user/basic_concepts/Roles_Rights/index.md#course-rights-and-roles) and
   * Course participants
 
 The members of the respective roles can be displayed and edited here.
@@ -178,7 +178,7 @@ If you know the name, the e-mail address or the institution identifier of a pers
 
 ![Marked search field with the term white, the cross to clear the field and the button Search](assets/user_management_quick_search_v3_en.png){ class="shadow lightbox" title="Search field above the search form of the account search · 2026.10.22" }
 
-As soon as the field contains text, a cross appears on its right. A click on it clears the field, see [Reset search](../../manual_user/basic_concepts/Search_General.md#search_reset). When you return from the result list to the search form, your term is still in the field.
+As soon as the field contains text, a cross appears on its right. A click on it clears the field, see [Reset search](../../manual_user/basic_concepts/Search_General/index.md#search_reset). When you return from the result list to the search form, your term is still in the field.
 
 [To the top of the page ^](#search_user)
 
@@ -234,10 +234,10 @@ The "Account" tab of a single person carries the same periods, see [Manage user 
 
 **Mentioned on this page**<br>
 [Delete user >](Delete_User.md)<br>
-[Roles and rights >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
+[Roles and rights >](../../manual_user/basic_concepts/Roles_Rights/index.md)<br>
 [Group administration >](../../manual_user/groups/Group_Administration/index.md)<br>
 [Modules >](../administration/Modules.md)<br>
-[General information on the search >](../../manual_user/basic_concepts/Search_General.md)<br>
+[General information on the search >](../../manual_user/basic_concepts/Search_General/index.md)<br>
 [Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
 [Manage user settings >](Configure_User.md)
 

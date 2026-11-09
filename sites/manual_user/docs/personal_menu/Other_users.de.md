@@ -8,12 +8,12 @@ Im Unterschied zur allgemeinen Volltextsuche, die Sie über das Lupensymbol in d
 
 Die zur Verfügung stehenden Suchfelder können je nach Rolle variieren. Geben Sie mindestens einen Suchbegriff mit mindestens vier Zeichen ein.
 
-![Suchformular mit einem Feld für die Suche mit Autovervollständigung und den Feldern Anmeldename, Vorname, Nachname, E-Mail, Institution und weiteren Kontoangaben, darunter der Button Suchen](assets/Personensuche_20.png){ class="shadow lightbox"}
+![Suchformular mit einem Feld für die Suche mit Autovervollständigung und den Feldern Anmeldename, Vorname, Nachname, E-Mail, Institution und weiteren Kontoangaben, darunter der Button Suchen](assets/Personensuche_20.png){ class="shadow lightbox" title="Personensuche im persönlichen Menü" }
 
 ## Weiterführende Informationen {: #further_information}
 
 [Personensuche >](../basic_concepts/Search_Person.de.md)<br>
-[Allgemeines zur Suche >](../basic_concepts/Search_General.de.md)<br>
+[Allgemeines zur Suche >](../basic_concepts/Search_General/index.de.md)<br>
 [Globale Suche >](../basic_concepts/Search_Global.de.md)<br>
 [Lokale Suche >](../basic_concepts/Search_Local.de.md)<br>
 [Suche in einem Kurs >](../basic_concepts/Search_in_Course.de.md)<br>

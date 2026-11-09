@@ -42,7 +42,7 @@ Metadata of a course are
 * License
 
 [For more details >](../learningresources/Course_Settings_Metadata.md)<br>
-[More about metadata >](../basic_concepts/Search_General.md#metadata)<br>
+[More about metadata >](../basic_concepts/Search_General/index.md#metadata)<br>
 [To the top of the page ^](#course_settings)
 
 

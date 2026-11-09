@@ -249,7 +249,7 @@ Die Liste zeigt die Zuordnungen aller Organisationen. Die Spalte "Unter-Domänen
 
 **Weiterführend**<br>
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles/index.de.md)<br>
 [Selbstregistration >](Login_Self-Registration.de.md)
 
 [Zum Seitenanfang ^](#organisations)

@@ -143,7 +143,7 @@ Whether someone is currently editing a file or whether it is locked, you see in 
 
 If someone is currently editing a file, it has the status "Currently being edited".
 
-You set the status "Locked" in the [metadata](Search_General.md#metadata). You edit the metadata under the three dots at the end of a line.
+You set the status "Locked" in the [metadata](Search_General/index.md#metadata). You edit the metadata under the three dots at the end of a line.
 
 A newly uploaded file first has the label "New". This way you find it again immediately, for example to move or copy it. Only the person who uploaded the file sees the label. It disappears as soon as this person has left the folder once.
 
@@ -213,7 +213,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 [Course Settings - Tab Options >](../learningresources/Course_Settings_Options.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
 [File Hub Concept >](File_Hub_Concept.md)<br>
-[General information on the search >](Search_General.md)<br>
+[General information on the search >](Search_General/index.md)<br>
 [Installation guide >](../../manual_admin/installation/installGuide.md)
 
 **Further reading**<br>

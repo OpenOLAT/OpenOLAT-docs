@@ -6,7 +6,7 @@ In OpenOlat finden Sie einige Prinzipien, Konzepte und Werkzeuge, die über die 
 
 Was wird benötigt, um mit OpenOlat arbeiten zu können? Mehr dazu in diesem Abschnitt.
 
-## [Rollen und Rechte](Roles_Rights.de.md)
+## [Rollen und Rechte](Roles_Rights/index.de.md)
 
 Nicht alle Benutzer:innen können in OpenOlat alles ausführen. Es gibt verschiedene Rollen mit jeweils unterschiedlichen Rechten. Das reicht von Administrator:innen bis zum Gastzugang, mit dem verständlicherweise nur wenig Rechte verbunden sind.
 
@@ -18,6 +18,6 @@ Hier erfahren Sie mehr über Login, Sessions, Timeout, usw.
 
 Hier erfahren Sie mehr über Funktionen und Konzepte, die in der ganzen Plattform gelten, unabhängig von einem einzelnen Kurs oder einer Gruppe: Navigation, Suche, Chat, Ordner und mehr.
 
-## [Technologie](Technology.de.md)
+## [Technologie](Technology/index.de.md)
 
 Hier erfahren Sie mehr über die Tools, mit denen OpenOlat entwickelt wird. Ausserdem werden verschiedene unterstützende Technologien genutzt, z.B. WebDAV oder ein spezieller Editor für Mathematik-Formeln.

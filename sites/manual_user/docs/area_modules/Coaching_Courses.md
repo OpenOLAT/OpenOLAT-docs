@@ -145,6 +145,6 @@ In the scope "Other resources", the list shows no participant, progress and cert
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
-[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)
 
 [To the top of the page ^](#courses)

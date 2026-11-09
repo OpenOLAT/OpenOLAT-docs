@@ -80,7 +80,7 @@ Ein Kursmitglied kann in einem Kurs mehrere Rollen gleichzeitig besitzen. In die
 
 ![Rollenwechsel-Menü in der Toolbar mit den verfügbaren Rollen Besitzer:in, Betreuer:in und Kursplaner:in](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" title="Rollenwechsel-Menü in der Toolbar" }
 
-Besitzt die Person noch darüber hinausgehende [System-Rollen](../basic_concepts/Roles_Rights.de.md), wie Lernressourcenverwalter:in oder Administrator:in, werden diese ebenfalls als Auswahlelement für die entsprechende Perspektive angezeigt.
+Besitzt die Person noch darüber hinausgehende [System-Rollen](../basic_concepts/Roles_Rights/index.de.md), wie Lernressourcenverwalter:in oder Administrator:in, werden diese ebenfalls als Auswahlelement für die entsprechende Perspektive angezeigt.
 
 
 ### Mitglieder hinzufügen {: #add_members}
@@ -192,7 +192,7 @@ Soll eine Person nur ein bestimmtes Werkzeug nutzen und sonst nicht betreuen, ve
 
 ### Vergabe zusätzlicher Rechte {: #additional_rights}
 
-Was Betreuer:innen ohne diese Rechte im Kurs dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](../basic_concepts/Roles.de.md#coach).
+Was Betreuer:innen ohne diese Rechte im Kurs dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](../basic_concepts/Roles/index.de.md#coach).
 
 Folgende Kursrechte können an Kursbetreuer:innen, Kursteilnehmer:innen und an die Betreuer:innen oder Teilnehmer:innen einer Gruppe vergeben werden:
 
@@ -273,14 +273,14 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 [Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
 [Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
-[Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights.de.md)<br>
+[Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Modul Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Kursbaustein "Themenvergabe" >](../learningresources/Course_Element_Topic_Assignment.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>
 [Glossar >](../learningresources/Glossary.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)

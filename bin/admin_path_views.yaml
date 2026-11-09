@@ -149,7 +149,7 @@ stations:
     further:
       - manual_admin/docs/usermanagement/Create_User
       - manual_admin/docs/usermanagement/Assign_roles
-      - manual_user/docs/basic_concepts/Roles_Rights
+      - manual_user/docs/basic_concepts/Roles_Rights/index
       - manual_admin/docs/administration/Modules_Organisations
       - reference_glossary/docs/glossary
 

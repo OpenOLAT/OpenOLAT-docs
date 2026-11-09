@@ -156,7 +156,7 @@ The length of time the deleted files remain in the trash until final deletion is
 [Manage user settings >](../usermanagement/Configure_User.md)
 
 **Further reading**<br>
-[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)<br>
+[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept/index.md)<br>
 [User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [What measures can I take to reduce storage space consumption? >](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.md)
 

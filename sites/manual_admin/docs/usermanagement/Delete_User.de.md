@@ -253,7 +253,7 @@ Bei der **automatischen Löschung** über den automatischen Kontolebenszyklus gr
 [Benutzerverwaltung >](index.de.md)<br>
 [Kontoeinstellungen verwalten >](Configure_User.de.md)<br>
 [Datenschutz >](Data_protection.de.md)<br>
-[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept/index.de.md)<br>
 [Drei Schritte zu Ihrer Mappe >](../../manual_user/portfolio/Three_steps_to_your_portfolio_binder.de.md)
 
 [Zum Seitenanfang ^](#delete_user)

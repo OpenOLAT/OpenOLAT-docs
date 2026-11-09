@@ -154,6 +154,6 @@ The management of all correctors and their assignments, on the other hand, is do
 [Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
-[Roles >](../../manual_user/basic_concepts/Roles.md)
+[Roles >](../basic_concepts/Roles/index.md)
 
 [To the top of the page ^](#assessment_orders)

@@ -1,9 +1,9 @@
 # Coaching - Gruppen {: #groups}
 
 
-![Markierter Button Gruppen in der Gruppe Coaching führt zur Liste Ihrer betreuten Gruppen, auf der Einstiegsseite Coaching.](assets/coaching_groups1_v1_de.png){ class="shadow lightbox" }
+![Markierter Button Gruppen in der Gruppe Coaching führt zur Liste Ihrer betreuten Gruppen.](assets/coaching_groups1_v1_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching" }
 
-![Gruppenliste mit den Spalten Name, Anzahl Kurse, Anzahl Teilnehmer:innen, Eingeloggt mit Ampelfarbe, Bestanden als Balken und durchschnittliche Punkte, im Werkzeug Gruppen des Coaching Tools.](assets/coaching_groups2_v1_de.png){ class="shadow lightbox" }
+![Gruppenliste mit den Spalten Name, Anzahl Kurse, Anzahl Teilnehmer:innen, Eingeloggt mit Ampelfarbe, Bestanden als Balken und durchschnittliche Punkte.](assets/coaching_groups2_v1_de.png){ class="shadow lightbox" title="Werkzeug Gruppen des Coaching Tools" }
 
 
 ### WEN zeigt die Liste? {: #groups_who}
@@ -48,7 +48,7 @@ Wenn Sie dann auf einen Benutzernamen klicken, öffnet sich wiederum das Bewertu
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
-[Rollen >](../basic_concepts/Roles.de.md)<br>
+[Rollen >](../basic_concepts/Roles/index.de.md)<br>
 [Bewertungswerkzeug >](../learningresources/Assessment_tool_overview.de.md)
 
 [Zum Seitenanfang ^](#groups)

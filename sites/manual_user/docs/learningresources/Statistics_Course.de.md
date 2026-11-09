@@ -11,7 +11,7 @@ Zugang zu den Kursstatistiken haben die Besitzer:innen des Kurses. Betreuer:inne
 
 Für das Total der Kurszugriffe zählen die Klicks der Benutzer:innen auf einen Kursbaustein, nicht die Klicks auf den Inhalt eines Kursbausteins. Wählt eine Person zum Beispiel dreimal das Wiki in der Kursnavigation, zählt die Statistik drei Klicks. Klickt sie im Wiki selbst auf einen Link, zählt die Statistik keinen Klick.
 
-Wie oft eine einzelne Datei in einem Ordner heruntergeladen wurde, zeigen die Kursstatistiken nicht. Dafür gibt es das Feld "Anzahl Ansichten" in den [Metadaten](../basic_concepts/Search_General.de.md#metadata) der Datei.
+Wie oft eine einzelne Datei in einem Ordner heruntergeladen wurde, zeigen die Kursstatistiken nicht. Dafür gibt es das Feld "Anzahl Ansichten" in den [Metadaten](../basic_concepts/Search_General/index.de.md#metadata) der Datei.
 
 Sie erstellen Statistiken pro Stunde, pro Tag, pro Wochentag und pro Woche. Bei Statistiken pro Tag und pro Woche wählen Sie zusätzlich die Zeitspanne, für welche die Statistik die Kurszugriffe zeigt. Wählen Sie einen Kursbaustein in der Tabelle an, zeigt die Grafik die Zugriffe auf diesen Kursbaustein. Wählen Sie in der Zeile "Total" die Anzahl Klicks an, zeigt die Grafik die Zugriffe verteilt auf die Kursbausteine.
 
@@ -24,7 +24,7 @@ Sie erstellen Statistiken pro Stunde, pro Tag, pro Wochentag und pro Woche. Bei 
 
 **Auf dieser Seite erwähnt**<br>
 [Mitgliederverwaltung >](Members_management.de.md)<br>
-[Allgemeines zur Suche >](../basic_concepts/Search_General.de.md)
+[Allgemeines zur Suche >](../basic_concepts/Search_General/index.de.md)
 
 **Weiterführend**<br>
 [Teststatistiken >](Statistics_Test.de.md)<br>

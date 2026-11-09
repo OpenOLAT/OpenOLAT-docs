@@ -8,12 +8,12 @@ In contrast to the general full-text search, which you open via the magnifying g
 
 The available search fields may vary depending on the role. Enter at least one search term with at least four characters.
 
-![Search form with one field for the search with auto-completion and the fields Username, First name, Last name, E-mail, Institution and further account details, below it the button Search](assets/Personensuche_20_en.png){ class="shadow lightbox"}
+![Search form with one field for the search with auto-completion and the fields Username, First name, Last name, E-mail, Institution and further account details, below it the button Search](assets/Personensuche_20_en.png){ class="shadow lightbox" title="Other users in the personal menu" }
 
 ## Further information {: #further_information}
 
 [Search other Users >](../basic_concepts/Search_Person.md)<br>
-[General information on the search >](../basic_concepts/Search_General.md)<br>
+[General information on the search >](../basic_concepts/Search_General/index.md)<br>
 [Global search >](../basic_concepts/Search_Global.md)<br>
 [Local search >](../basic_concepts/Search_Local.md)<br>
 [Search in a course >](../basic_concepts/Search_in_Course.md)<br>

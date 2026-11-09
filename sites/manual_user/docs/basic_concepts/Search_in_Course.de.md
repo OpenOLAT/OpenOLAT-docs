@@ -1,6 +1,6 @@
 # Suche in einem Kurs {: #search_in_course}
 
-Neben der [Volltextsuche](Search_General.de.md#full_text_search) über das gesamte OpenOlat gibt es auch eine Kurssuche, welche pro Kurs in der Toolbar aktiviert werden kann.
+Neben der [Volltextsuche](Search_General/index.de.md#full_text_search) über das gesamte OpenOlat gibt es auch eine Kurssuche, welche pro Kurs in der Toolbar aktiviert werden kann.
 
 ![Werkzeug Kurssuche mit dem Lupensymbol in der Toolbar markiert: hier starten Sie die Suche, die nur diesen Kurs durchsucht. Links davon die übrigen Werkzeuge ab Infoseite mit dem Info-Symbol](assets/search_in_course_toolbar_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
@@ -20,7 +20,7 @@ Die Kurssuche schalten Sie in der Kurs-Administration ein:<br>
 
 ## Weiterführende Informationen {: #further_information}
 
-[Allgemeines zur Suche >](Search_General.de.md)<br>
+[Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>
 [Lokale Suche >](Search_Local.de.md)<br>

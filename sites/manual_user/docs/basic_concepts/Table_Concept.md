@@ -24,7 +24,7 @@ On the right of the filter menu you will find the option "Save filter". Here you
 
 The button with the three dots above the table opens the dialog "Table settings". There you see and set all available filters, define the sort order and select the displayed columns under "Displayed columns".
 
-![Saved filter eAssessments as its own filter tab, with the menu for saving, deleting and updating the filter, list of learning resources in Authoring](assets/Filtermenü_Tabelle.png){ class="shadow lightbox" }
+![Saved filter eAssessments as its own filter tab, with the menu for saving, deleting and updating the filter](assets/Filtermenü_Tabelle.png){ class="shadow lightbox" title="List of learning resources in Authoring" }
 
 ## Filter tabs
 
@@ -49,7 +49,7 @@ With the search function you can search for specific entries. The selected filte
 [Finding courses >](../area_modules/Courses.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Coaching - Courses >](../area_modules/Coaching_Courses.md)<br>
-[General information on the search >](Search_General.md)<br>
+[General information on the search >](Search_General/index.md)<br>
 [Folder concept >](Folder_Concept.md)
 
 [To the top of the page ^](#tables)

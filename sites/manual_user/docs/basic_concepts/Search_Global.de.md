@@ -4,7 +4,7 @@ Die globale Suche finden Sie oben rechts in der Hauptnavigation. Klicken Sie auf
 
 Wenn Sie hier einen Suchbegriff eingeben und mit der Eingabetaste oder Klick auf die Lupe daneben bestätigen, findet eine **Suche über Alles** statt.
 
-Das heisst, dass **im ganzen OpenOlat** gesucht wird und auch innerhalb der Dokumente. Es ist eine [Volltextsuche](Search_General.de.md#full_text_search).
+Das heisst, dass **im ganzen OpenOlat** gesucht wird und auch innerhalb der Dokumente. Es ist eine [Volltextsuche](Search_General/index.de.md#full_text_search).
 
 ![Aufgeklapptes Suchfeld der globalen Suche mit Button Suchen neben dem Lupen-Symbol oben rechts in der Hauptnavigation](assets/search_global_v1_de.png){ class="shadow lightbox" title="Hauptnavigation oben rechts" }
 
@@ -28,7 +28,7 @@ Die globale Suche ist nur dann sichtbar und nutzbar, wenn der Suchdienst für Ih
 
 ## Weiterführende Informationen {: #further_information}
 
-[Allgemeines zur Suche >](Search_General.de.md)<br>
+[Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Lokale Suche >](Search_Local.de.md)<br>
 [Personensuche >](Search_Person.de.md)<br>

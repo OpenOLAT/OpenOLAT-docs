@@ -16,7 +16,7 @@ The page [Roles and their working areas](Roles_Home_Areas.md) shows which site o
 
 ## Global navigation {: #global_navigation}
 
-At the top right of the main navigation, the [chat](Chat.md) (instant messenger) and the [search](Search_General.md) are generally available on every page, together with your personal menu. Which other elements appear there depends on your settings.
+At the top right of the main navigation, the [chat](Chat.md) (instant messenger) and the [search](Search_General/index.md) are generally available on every page, together with your personal menu. Which other elements appear there depends on your settings.
 
 ![Chat with status and number of contacts online, search and personal menu highlighted in the right-hand part of the main navigation, so you find the three elements on every page](assets/navigation_global_navigation_v1_en.png){ class="shadow aside-right lightbox" title="Main navigation at the top right · 2026.10.20" }
 
@@ -68,7 +68,7 @@ On the info page of a learning resource or an implementation, the same action is
 [Roles and their working areas >](Roles_Home_Areas.md)<br>
 [Customizing: Overview >](../../manual_admin/administration/Customizing.md)<br>
 [Chat >](Chat.md)<br>
-[General information on the search >](Search_General.md)<br>
+[General information on the search >](Search_General/index.md)<br>
 [Personal menu >](../personal_menu/index.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
 

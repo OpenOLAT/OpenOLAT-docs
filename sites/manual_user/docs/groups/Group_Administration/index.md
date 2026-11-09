@@ -186,6 +186,6 @@ The tab only exists if the system administration has defined for invitations or 
 
 **Further reading**<br>
 [Create Groups >](../Create_Groups.md)<br>
-[Roles and Rights: Which roles are available? >](../../basic_concepts/Roles.md)
+[Roles and Rights: Which roles are available? >](../../basic_concepts/Roles/index.md)
 
 [To the top of the page ^](#group_administration)

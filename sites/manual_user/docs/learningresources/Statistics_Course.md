@@ -13,7 +13,7 @@ The owners of the course have access to the course statistics. Coaches and other
 
 For the total of course accesses, the clicks of users on a course element count, not the clicks on the content of a course element. If a person selects the wiki in the course navigation three times, for example, the statistics count three clicks. If the person clicks on a link within the wiki itself, the statistics count no click.
 
-How often a single file in a folder was downloaded is not shown in the course statistics. For this, there is the field "Number of views" in the [metadata](../basic_concepts/Search_General.md#metadata) of the file.
+How often a single file in a folder was downloaded is not shown in the course statistics. For this, there is the field "Number of views" in the [metadata](../basic_concepts/Search_General/index.md#metadata) of the file.
 
 You create statistics per hour, per day, per weekday and per week. For statistics per day and per week, you also choose the period for which the statistics show the course accesses. If you select a course element in the table, the chart shows the accesses to this course element. If you select the number of clicks in the row "Total", the chart shows the accesses distributed across the course elements.
 
@@ -26,7 +26,7 @@ You create statistics per hour, per day, per weekday and per week. For statistic
 
 **Mentioned on this page**<br>
 [Members management >](Members_management.md)<br>
-[General information on the search >](../basic_concepts/Search_General.md)
+[General information on the search >](../basic_concepts/Search_General/index.md)
 
 **Further reading**<br>
 [Test statistics >](Statistics_Test.md)<br>

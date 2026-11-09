@@ -24,7 +24,7 @@ Rechts im Filtermenü finden Sie die Option "Filter speichern". Hier speichern S
 
 Über den Button mit den drei Punkten oberhalb der Tabelle öffnen Sie den Dialog "Tabelleneinstellungen". Dort sehen und setzen Sie alle verfügbaren Filter, legen die Sortierreihenfolge fest und wählen unter "Spalten auswählen" die angezeigten Spalten aus.
 
-![Gespeicherter Filter eAssessments als eigener Filter-Tab, dazu das Menü zum Speichern, Löschen und Aktualisieren des Filters, Liste der Lernressourcen im Autorenbereich](assets/Filtermenü_Tabelle.png){ class="shadow lightbox" }
+![Gespeicherter Filter eAssessments als eigener Filter-Tab, dazu das Menü zum Speichern, Löschen und Aktualisieren des Filters](assets/Filtermenü_Tabelle.png){ class="shadow lightbox" title="Liste der Lernressourcen im Autorenbereich" }
 
 ## Filter-Tabs
 
@@ -49,7 +49,7 @@ Mit der Suche können Sie gezielt nach Einträgen suchen. Die ausgewählten Filt
 [Kurse finden >](../area_modules/Courses.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Coaching - Kurse >](../area_modules/Coaching_Courses.de.md)<br>
-[Allgemeines zur Suche >](Search_General.de.md)<br>
+[Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Ordnerkonzept >](Folder_Concept.de.md)
 
 [Zum Seitenanfang ^](#tables)

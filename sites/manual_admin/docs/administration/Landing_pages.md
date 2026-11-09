@@ -104,7 +104,7 @@ Persons who log in via a link, e.g. from an e-mail, land at the target of this l
 **Further reading**<br>
 [Core functions: Overview >](../administration/Core_functions.md)<br>
 [Customizing: Overview >](../administration/Customizing.md)<br>
-[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles.md)<br>
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles/index.md)<br>
 [Coaching - Courses >](../../manual_user/area_modules/Coaching_Courses.md)
 
 [To the top of the page ^](#landing_pages)

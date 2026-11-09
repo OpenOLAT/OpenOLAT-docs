@@ -66,7 +66,7 @@ version.
 ## Further information {: #further_information}
 
 **Further reading**<br>
-[Roles >](../basic_concepts/Roles.md)<br>
+[Roles >](../basic_concepts/Roles/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)
 
 [To the top of the page ^](#course_problems)

@@ -190,7 +190,7 @@ Die Neuerungen von Release 21.0 stehen in den [Release Notes 21.0](../../release
 - [Kursbausteine](../learningresources/Course_Elements.de.md)
 - [Test Fragetypen](../learningresources/Test_question_types.de.md)
 - [Kurs-Administration](../learningresources/Administration.de.md)
-- [Rollen und Rechte](../basic_concepts/Roles_Rights.de.md)
+- [Rollen und Rechte](../basic_concepts/Roles_Rights/index.de.md)
 - [Gruppen](../groups/index.de.md)
 - [Persönliches Menü](../personal_menu/index.de.md)
 - [Was steckt in OpenOlat](../../whats_in_openolat.de.md)

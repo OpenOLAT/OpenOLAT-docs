@@ -116,6 +116,6 @@ Wie man eine Massenbewertung erstellt, erfahren Sie im Bereich [How to](../../ma
 **Weiterführend**<br>
 [Prüfungsverwaltung: Übersicht >](../learningresources/Assessment_Management.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)
 
 [Zum Seitenanfang ^](#assessment_tool_overview)

@@ -232,6 +232,6 @@ Ausführliche Informationen zu den Lebenszyklen finden Sie unter<br>
 [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
 [Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
-[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)
+[Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept/index.de.md)
 
 [Zum Seitenanfang ^](#reduce_storage_consumption)

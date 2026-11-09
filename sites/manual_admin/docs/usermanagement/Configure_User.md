@@ -397,6 +397,6 @@ OpenOlat only shows the tab when the correction workflow is switched on, and not
 
 **Further reading**<br>
 [Create user >](Create_User.md)<br>
-[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept.md)
+[Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept/index.md)
 
 [To the top of the page ^](#user_configuration)

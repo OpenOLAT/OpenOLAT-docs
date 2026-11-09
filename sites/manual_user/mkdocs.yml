@@ -17,11 +17,12 @@ nav:
       - Technical Requirements: "basic_concepts/Requirements_OpenOlat.md"
       - Terms of use: "basic_concepts/Terms_Of_Use.md"
     - Roles and Rights:
-      - Overview: "basic_concepts/Roles_Rights.md"
+      - basic_concepts/Roles_Rights/index.md
       - Working areas: "basic_concepts/Roles_Home_Areas.md"
       - User types: "basic_concepts/User_Types.md"
-      - Roles: "basic_concepts/Roles.md"
-      - Assign roles: "basic_concepts/Assign_Roles.md"
+      - Roles:
+        - basic_concepts/Roles/index.md
+        - Assign: "basic_concepts/Assign_Roles.md"
       - Authorisation in courses: "basic_concepts/Authorisation_Concept.md"
       - Guest access: "basic_concepts/guest_access.md"
     - Account:
@@ -29,7 +30,7 @@ nav:
     - Platform-wide features:
       - Navigation: "basic_concepts/Navigation.md"
       - Search:
-        - General information on the search: "basic_concepts/Search_General.md"
+        - basic_concepts/Search_General/index.md
         - Global search: "basic_concepts/Search_Global.md"
         - Local search: "basic_concepts/Search_Local.md"
         - Search other users: "basic_concepts/Search_Person.md"
@@ -48,22 +49,22 @@ nav:
       - Content Editor: "basic_concepts/Content_Editor.md"
       - Working with media files: "basic_concepts/Working_with_Media_Files.md"
       - Working with videos:
-        - Overview: "basic_concepts/Video.md"
-        - Video in HTML Pages: "basic_concepts/Video_in_HTML_Pages.md"
-        - Video Upload: "basic_concepts/Video_Upload.md"
-        - Video Recording: "basic_concepts/Video_Recording.md"
+        - basic_concepts/Video/index.md
+        - Video in course element HTML page: "basic_concepts/Video_in_HTML_Pages.md"
+        - Upload: "basic_concepts/Video_Upload.md"
+        - Recording: "basic_concepts/Video_Recording.md"
       - File Hub: "basic_concepts/File_Hub_Concept.md"
       - Media Center:
-        - Concept: "basic_concepts/Media_Center_Concept.md"
+        - basic_concepts/Media_Center_Concept/index.md
         - Media items: "basic_concepts/Media_Center_Items.md"
       - Taxonomy: "basic_concepts/Taxonomy_Concept.md"
       - Virtual classrooms: "basic_concepts/Virtual_classrooms.md"
     - Technology:
-      - basic_concepts/Technology.md 
+      - basic_concepts/Technology/index.md
       - Using WebDAV: "basic_concepts/Using_WebDAV.md" 
       - Technology and Navigation: "basic_concepts/Technology_and_Navigation.md"
     - Accessibility:
-      - Basic principals: "basic_concepts/Accessibility_Principals.md"
+      - Basic principles: "basic_concepts/Accessibility_Principals.md"
       - Colors: "basic_concepts/Accessibility_Colors.md"
  
   - Login and registration:

@@ -118,7 +118,7 @@ Here you can specify who is allowed to use a media element. Participants can onl
 [Personal Configuration: Settings >](../personal_menu/Settings.md)
 
 **Further reading**<br>
-[Media Center Concept >](Media_Center_Concept.md)<br>
+[Media Center Concept >](Media_Center_Concept/index.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)<br>
 [Working with media files >](Working_with_Media_Files.md)

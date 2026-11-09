@@ -54,6 +54,6 @@ The portfolio does not appear as a site in the main navigation. You open it thro
 **Further**<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>
 [Roles and their working areas >](../basic_concepts/Roles_Home_Areas.md)<br>
-[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)
 
 [To the top of the page ^](#sites)

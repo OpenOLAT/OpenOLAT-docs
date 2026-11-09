@@ -13,5 +13,5 @@ Wird Mitglied einer Durchführung (nicht einzelner Kurse oder des Produkts) und 
 
 [Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>
 [Course Planner: Anwendungsmap >](../course_planner_map/index.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles/index.de.md)<br>
 [Course Planner: Durchführungen >](../Course_Planner_Implementations.de.md)

@@ -118,7 +118,7 @@ Hier kann festgelegt werden, durch wen ein Medienelement verwendet werden darf. 
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)
 
 **Weiterführend**<br>
-[Media Center: Konzept >](Media_Center_Concept.de.md)<br>
+[Media Center: Konzept >](Media_Center_Concept/index.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Modul Media Center >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
 [Arbeiten mit Mediendateien >](Working_with_Media_Files.de.md)

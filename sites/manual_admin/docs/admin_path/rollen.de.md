@@ -41,7 +41,7 @@ Systemrolle. Sie öffnet den Bereich Administration und damit die Systemkonfigur
 
     **Wie Nutzende es nennen:** IT-Administrator:in, Serveradministrator:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Systemadministrator%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Systemadministrator%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -61,7 +61,7 @@ Organisationsrolle, die alle administrativen Rollen einer Organisation vereinigt
 
     **Wie Nutzende es nennen:** Systemverwalter:in, Systembetreuer:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Administrator%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Administrator%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -81,7 +81,7 @@ Administrative Organisationsrolle. Sie verwaltet die Konten der eigenen Organisa
 
     **Wie Nutzende es nennen:** User-Admin, Kontoverwalter:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Benutzerverwalter%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Benutzerverwalter%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -101,7 +101,7 @@ Administrative Organisationsrolle. Sie vergibt und entzieht Rollen an den Konten
 
     **Wie Nutzende es nennen:** Rechteverwalter:in, Berechtigungsmanager:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Rollenverwalter%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Rollenverwalter%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -121,7 +121,7 @@ Organisationsrolle. Sie erlaubt es, im Autorenbereich Lernressourcen zu erstelle
 
     **Wie Nutzende es nennen:** Kursersteller:in, Content-Ersteller:in, E-Learning-Autor:in, Content-Autor:in, Lerninhalte-Ersteller:in, Kursautor:in
 
-    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Autor%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/basic_concepts/Roles/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Autor%3Ain%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -173,12 +173,12 @@ Diese Station hat keine tieferen Teile. Die nächste Station wartet.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles/index.de.md)<br>
 [Modul Organisationen >](../administration/Modules_Organisations.de.md)<br>
 [Benutzerverwaltung >](../usermanagement/index.de.md)<br>
 [Konto erstellen >](../usermanagement/Create_User.de.md)<br>
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
-[Rollen und Rechte: Übersicht >](../../manual_user/basic_concepts/Roles_Rights.de.md)<br>
+[Rollen und Rechte: Übersicht >](../../manual_user/basic_concepts/Roles_Rights/index.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 
 [Zum Seitenanfang ^](#rollen)

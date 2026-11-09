@@ -81,7 +81,7 @@ In the tab Levels, you use "Create level" to create the levels that are availabl
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Test question types >](../../manual_user/learningresources/Test_question_types.md)<br>
 [Question Bank: Overview >](../../manual_user/area_modules/Question_Bank/index.md)<br>
-[Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights.md)<br>
+[Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights/index.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)
 
 [To the top of the page ^](#question_bank)

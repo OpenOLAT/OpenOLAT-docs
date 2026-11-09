@@ -114,6 +114,6 @@ Find out how to create a bulk assessment in the [How to](../../manual_how-to/bul
 **Further reading**<br>
 [Assessment Management: Overview >](../learningresources/Assessment_Management.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
-[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)
 
 [To the top of the page ^](#assessment_tool_overview)

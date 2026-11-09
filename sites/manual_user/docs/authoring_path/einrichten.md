@@ -41,7 +41,7 @@ An organisation role. It allows learning resources to be created in the authorin
 
     **German:** Autor:in
 
-    [Read in the manual](../basic_concepts/Roles.md) · [Ask Sophia](?sophia=What%20is%20%22Author%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../basic_concepts/Roles/index.md) · [Ask Sophia](?sophia=What%20is%20%22Author%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -118,7 +118,7 @@ The first course is running. Now the things that did not matter at the start pay
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
@@ -128,7 +128,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Course Element Wiki >](../learningresources/Course_Element_Wiki.md)
 
 **Further reading**<br>
-[Roles and Rights: Overview >](../basic_concepts/Roles_Rights.md)<br>
+[Roles and Rights: Overview >](../basic_concepts/Roles_Rights/index.md)<br>
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 

@@ -69,7 +69,7 @@ aktualisierten Version des Kurses zu gelangen.
 ## Weiterführende Informationen {: #further_information}
 
 **Weiterführend**<br>
-[Rollen >](../basic_concepts/Roles.de.md)<br>
+[Rollen >](../basic_concepts/Roles/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 
 [Zum Seitenanfang ^](#course_problems)

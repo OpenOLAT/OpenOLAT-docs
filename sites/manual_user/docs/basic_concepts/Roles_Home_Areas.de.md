@@ -1,6 +1,6 @@
 # Rollen und ihre Arbeitsbereiche {: #home_areas}
 
-Die Hauptnavigation von OpenOlat wird rollenabhängig zusammengesetzt. Jede Aufgabe hat ihren eigenen Arbeitsbereich: Lernende arbeiten unter "Kurse", Betreuende im "Coaching", Autor:innen im "Autorenbereich". Welche Menüpunkte eine Person sieht, ergibt sich aus ihren [Rollen](Roles.de.md) und aus den in der jeweiligen OpenOlat-Instanz aktivierten Modulen.
+Die Hauptnavigation von OpenOlat wird rollenabhängig zusammengesetzt. Jede Aufgabe hat ihren eigenen Arbeitsbereich: Lernende arbeiten unter "Kurse", Betreuende im "Coaching", Autor:innen im "Autorenbereich". Welche Menüpunkte eine Person sieht, ergibt sich aus ihren [Rollen](Roles/index.de.md) und aus den in der jeweiligen OpenOlat-Instanz aktivierten Modulen.
 
 ## Klare Trennung von Lernen und Betreuen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9576)" }](https://track.frentix.com/issue/OO-9576) {: #separation}
 
@@ -9,7 +9,7 @@ OpenOlat trennt die beiden Blickwinkel auf einen Kurs konsequent nach Rolle:
 * Unter **Kurse** ("Meine Kurse") finden Sie die Lernressourcen, in denen Sie selbst als Teilnehmer:in eingetragen sind.
 * Lernressourcen, die Sie als Betreuer:in oder Besitzer:in begleiten, finden Sie im Bereich **Coaching**.
 
-Sind Ihnen in einem Kurs beide Rollen zugewiesen, erscheint der Kurs in beiden Bereichen. Sie öffnen ihn dann dort, wo Ihre aktuelle Aufgabe liegt: zum Lernen unter "Kurse", zum Betreuen im "Coaching". Was Betreuer:innen im Kurs selbst dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](Roles.de.md#coach).
+Sind Ihnen in einem Kurs beide Rollen zugewiesen, erscheint der Kurs in beiden Bereichen. Sie öffnen ihn dann dort, wo Ihre aktuelle Aufgabe liegt: zum Lernen unter "Kurse", zum Betreuen im "Coaching". Was Betreuer:innen im Kurs selbst dürfen, beschreibt der Abschnitt [Die Rolle Betreuer:in](Roles/index.de.md#coach).
 
 Zwei Personen können deshalb nach dem Login unterschiedliche Menüs sehen. Fehlt ein Menüpunkt, ist das kein Fehler: Entweder ist das entsprechende Modul nicht aktiviert oder die dafür nötige Rolle wurde nicht zugewiesen.
 
@@ -40,7 +40,7 @@ Rollen lassen sich kombinieren. Eine Lehrperson kann zum Beispiel als Autor:in i
 Nach dem Login öffnet OpenOlat die Startseite, die Ihre Organisation für die erste passende Rolle festgelegt hat ([Startseiten nach Rolle](../../manual_admin/administration/Landing_pages.de.md#role_based)). Eine [persönliche Startseite](../personal_menu/Settings.de.md#landing_page) in den Einstellungen hat Vorrang vor der Startseite Ihrer Organisation.
 
 Innerhalb eines Kurses gibt es zusätzlich den Rollenwechsel: Wurden einer Person mehrere Kursrollen zugewiesen, kann sie über das Menü "Rolle" in der Toolbar des Kurses die Perspektive wechseln.<br>
-(Siehe [Rollen in einem Kurs](Roles.de.md#course))
+(Siehe [Rollen in einem Kurs](Roles/index.de.md#course))
 
 [zum Seitenanfang ^](#home_areas)
 
@@ -63,7 +63,7 @@ Neben den Kernbereichen gibt es weitere Menüpunkte und Bereiche, die erst mit d
 | Administrator:in | Modul- und Funktionsverwaltung: Zugriff auf viele Bereiche wie Benutzerverwaltung, Katalog-Verwaltung und Course Planner, jedoch nicht auf die Administrationsseite |
 | Principal | Lesender Zugriff auf viele Bereiche des Systems |
 
-Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte finden Sie unter [Welche Rollen gibt es?](Roles.de.md) Eine Übersicht aller Menüpunkte der Hauptnavigation bietet die Seite [Bereiche und Module](../area_modules/index.de.md).
+Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte finden Sie unter [Welche Rollen gibt es?](Roles/index.de.md) Eine Übersicht aller Menüpunkte der Hauptnavigation bietet die Seite [Bereiche und Module](../area_modules/index.de.md).
 
 [zum Seitenanfang ^](#home_areas)
 
@@ -72,7 +72,7 @@ Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte fin
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Rollen und Rechte: Welche Rollen gibt es? >](Roles.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](Roles/index.de.md)<br>
 [Kurse finden >](../area_modules/Courses.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
@@ -89,7 +89,7 @@ Die vollständige Beschreibung aller Rollen und der damit verbundenen Rechte fin
 [Bereiche und Module >](../area_modules/index.de.md)
 
 **Weiterführend**<br>
-[Rollen und Rechte: Übersicht >](Roles_Rights.de.md)<br>
+[Rollen und Rechte: Übersicht >](Roles_Rights/index.de.md)<br>
 [Navigation >](Navigation.de.md)
 
 [zum Seitenanfang ^](#home_areas)

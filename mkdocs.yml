@@ -158,6 +158,7 @@ plugins:
           Assessment of learners : Lernende bewerten
           Assessment orders : Bewertungsaufträge
           Assessment tool : Bewertungswerkzeug
+          Assign : Zuweisen
           Assign roles : Rollen zuweisen
           Attend Participants : Teilnehmer betreuen
           Audio Recording : Audio aufnehmen
@@ -176,7 +177,7 @@ plugins:
           Defining structure rules (element types) : Strukturregeln festlegen (Elementtypen)
           eAssessment OpenBadges: Badges
           Basic concepts : Basiskonzepte
-          Basic principals : Grundsätze
+          Basic principles : Grundsätze
           Basic terms : Grundbegriffe
           Become a group member : Gruppenmitglied werden
           Benefits of metadata : Nutzen von Metadaten
@@ -208,7 +209,6 @@ plugins:
           Competences : Kompetenzen
           Competences tags : Kompetenzen verschlagworten
           Components : Bestandteile
-          Concept: Konzept
           Configuration : Konfiguration
           Configure a blog : Blog konfigurieren
           Configure a podcast : Podcast konfigurieren
@@ -355,7 +355,6 @@ plugins:
           General Information : Allgemeines
           General information on forms : Allgemeines zu Formularen
           General Information on Tests : Allgemeines zu Tests
-          General information on the search : Allgemeines zur Suche
           Global search : Globale Suche
           Glossary : Glossar
           Glossary alphabetical : Glossar alphabetisch
@@ -555,6 +554,7 @@ plugins:
           Question rules : Frageregeln
           Questions : Fragen
           Record of Course Activities : Aufzeichnung der Kursaktivitäten
+          Recording : Aufnehmen
           Recording absences : Absenzen erfassen
           Reference glossary : Referenzglossar
           Reduce storage consumption : Speicherverbrauch reduzieren
@@ -606,7 +606,6 @@ plugins:
           Subscriptions : Abonnements
           Suggestion for improvement : Verbesserungsvorschlag
           Supervise : Betreuen
-          Supported Technologies : Unterstützende Technologien
           Survey : Umfrage
           Surveys : Umfragen
           Survey statistics : Fragebogen Statistiken
@@ -653,6 +652,7 @@ plugins:
           Topic Broker : Themenbörse
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
           Types of Course Element : Kursbausteine
+          Upload : Hochladen
           Usage : Verwendung
           Use : Verwenden
           User management : Benutzerverwaltung
@@ -674,10 +674,8 @@ plugins:
           Video Collection : Video Collection
           Video Livestream: Video Livestream
           Video in the single page : Video in der Einzelseite
-          Video in HTML Pages : Video im KB HTML-Seite
-          Video Recording : Video aufnehmen
+          Video in course element HTML page : Video im Kursbaustein HTML-Seite
           Video task : Videoaufgabe
-          Video Upload : Video hochladen
           vitero : vitero
           Virtual classrooms : Virtuelle Klassenzimmer
           WebDAV : WebDAV
