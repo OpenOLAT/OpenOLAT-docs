@@ -22,7 +22,7 @@ Welche Ordner OpenOlat für einen Kurs zusätzlich anlegt, sehen Sie unter `Kurs
 
 * **_courseelementdata**: Wird angelegt, sobald der Kurs mindestens einen Kursbaustein "Ordner" enthält. In diesem Ordner befinden sich alle Kursbausteine "[Ordner](../learningresources/Course_Element_Folder.de.md)" und "[Teilnehmer:innen Ordner](../learningresources/Course_Element_Participant_Folder.de.md)" eines Kurses. Die entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier automatisch, nachdem sie im Kurseditor angelegt wurden, und können hier auch editiert werden.
 * **_sharedfolder**: Wird angelegt, wenn der Kurs mit einem [Ressourcenordner](../learningresources/Resource_Folder.de.md) verknüpft wird. Der zugewiesene Ressourcenordner kann hier eingesehen, standardmässig jedoch nicht editiert werden. Soll eine Bearbeitung hier möglich sein, deaktivieren Sie beim gewählten Ressourcenordner die Option "Schreibgeschützt": `Kurs > Administration > Einstellungen > Optionen`.
-* **_documents**: Wird angelegt, wenn im Kurs das Werkzeug "[Dokumente](../learningresources/Toolbar.de.md#documents)" aktiviert ist. Hier liegen die Dateien, die über das Werkzeug "Dokumente" zentral zum Download bereitstehen.
+* **_documents**: Wird angelegt, wenn im Kurs das Werkzeug "[Dokumente](Course_Settings_Toolbar.de.md#documents)" aktiviert ist. Hier liegen die Dateien, die über das Werkzeug "Dokumente" zentral zum Download bereitstehen.
 * **_coachdocuments**: Wird angelegt, wenn im Kurs der Ordner "Unterlagen Betreuer:innen" aktiviert ist. Hier liegen die Dateien, die nur Betreuer:innen und Kursbesitzer:innen sehen. [:octicons-tag-16:{ title="ab Release 16.0 (OO-5566)" }](https://track.frentix.com/issue/OO-5566)
 
 ## Verbindung von Ablageordner und dem Kursbaustein "HTML-Seite"
@@ -40,7 +40,7 @@ Sobald diese Checkbox aktiviert ist, ist der Pfad für andere Dateien im Ablageo
 [Kursbaustein "Ordner" >](Course_Element_Folder.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](Course_Element_Participant_Folder.de.md)<br>
 [Ressourcenordner >](Resource_Folder.de.md)<br>
-[Toolbar: Übersicht >](Toolbar.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)
 
 **Weiterführend**<br>

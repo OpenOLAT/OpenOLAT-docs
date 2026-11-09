@@ -22,7 +22,7 @@ The additional folders OpenOlat creates for a course are shown under `Course > A
 
 * **_courseelementdata**: Generated as soon as the course contains at least one course element "Folder". This folder contains all course elements "[folder](../learningresources/Course_Element_Folder.md)" and "[Participant folder](../learningresources/Course_Element_Participant_Folder.md)" of a course. The corresponding folders appear here automatically after they have been created in the course editor and can be edited here as well.
 * **_sharedfolder**: Generated when the course is connected to a [resource folder](../learningresources/Resource_Folder.md). The linked resource folder can be viewed here, but cannot be edited by default. To enable editing here, deactivate the option "Read only" for the selected resource folder: `Course > Administration > Settings > Options`.
-* **_documents**: Generated when the course tool "[Documents](../learningresources/Toolbar.md#documents)" is enabled. It contains the files that are provided for central download via the "Documents" tool.
+* **_documents**: Generated when the course tool "[Documents](Course_Settings_Toolbar.md#documents)" is enabled. It contains the files that are provided for central download via the "Documents" tool.
 * **_coachdocuments**: Generated when the folder "Coach files" is enabled in the course. It contains the files that only coaches and course owners see. [:octicons-tag-16:{ title="from Release 16.0 (OO-5566)" }](https://track.frentix.com/issue/OO-5566)
 
 ## Link course element "HTML page" to storage folder
@@ -40,7 +40,7 @@ As soon as the checkbox is activated, the path for other files of the storage fo
 [Course Element "Folder" >](Course_Element_Folder.md)<br>
 [Course Element "Participant folder" >](Course_Element_Participant_Folder.md)<br>
 [Resource folder >](Resource_Folder.md)<br>
-[Toolbar: Overview >](Toolbar.md)<br>
+[Toolbar >](Course_Settings_Toolbar.md)<br>
 [Course Element "HTML page" >](Course_Element_HTML_Page.md)
 
 **Further reading**<br>

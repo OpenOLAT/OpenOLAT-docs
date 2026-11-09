@@ -53,6 +53,6 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration treffen Gruppenbet
 [Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)
+[Toolbar >](../learningresources/Course_Settings_Toolbar.de.md)
 
 [Zum Seitenanfang ^](#group_tools)

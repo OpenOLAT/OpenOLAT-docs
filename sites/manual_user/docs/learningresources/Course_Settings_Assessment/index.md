@@ -234,7 +234,7 @@ Further information about badges can be found here:<br>
 [Course Settings >](../Course_Settings/index.md)<br>
 [Learning path course - Overview >](../Learning_path_course/index.md)<br>
 [Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
-[Toolbar: Overview >](../Toolbar.md)<br>
+[Toolbar >](../Course_Settings_Toolbar.md)<br>
 [Assessment management: Assessment mode >](../Assessment_mode.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../../personal_menu/Evidence_of_Achievements.md)<br>
 [e-Assessment Administration: Credit points >](../../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>

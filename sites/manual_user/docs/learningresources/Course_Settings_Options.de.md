@@ -74,7 +74,7 @@ Benutzer:innen mit administrativen Rollen (Lernressourcenverwalter:in, Administr
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
 [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../manual_how-to/multiple_use/multiple_use.de.md)<br>
 [Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)

@@ -251,7 +251,7 @@ Wählen Sie Emoticons, wie Sie es von Social Media her gewohnt sind.
 ### Hyperlinks
 
 Es können Links ins Internet und innerhalb OpenOlat (bestimmte Kursbausteine, auch in anderen Kursen) eingefügt werden.<br>
-Die Links können auf Bilder, Videos oder auch die Tools in der [Toolbar](../learningresources/Toolbar.de.md#available_icons) zeigen.<br>
+Die Links können auf Bilder, Videos oder auch die Tools in der [Toolbar](Course_Settings_Toolbar.de.md#available_icons) zeigen.<br>
 Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster angezeigt werden soll.
 
 ![Vier Linkarten als Tabs hervorgehoben: Dateiverlinkung, Kursknotenverlinkung, Kurswerkzeugverlinkung und Bibliothek](assets/course_element_html_page_editor_links_v2_de.png){ class="shadow lightbox" title="Dialog Verlinkung auswählen im HTML-Editor · 2026.10.08" }
@@ -298,7 +298,7 @@ Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster ange
 **Auf dieser Seite erwähnt**<br>
 [Ablageordner >](../learningresources/Storage_folder.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [tiny.cloud](https://www.tiny.cloud)<br>
 [Videos im Kursbaustein "HTML-Seite" >](../basic_concepts/Video_in_HTML_Pages.de.md)<br>
 [Video aufnehmen >](../basic_concepts/Video_Recording.de.md)<br>

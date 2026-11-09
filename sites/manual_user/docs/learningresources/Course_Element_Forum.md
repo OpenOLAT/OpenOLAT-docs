@@ -179,7 +179,7 @@ Especially interesting for more complex discussions is also the view "one". The 
 
 a) You can also use the forum as an alternative for the [course element "Info messages"](../learningresources/Course_Element_Notifications.md) for announcements from the course authors, especially if queries from learners are desired.
 
-b) In addition to the course element "Forum", there is also the option of displaying a central forum for the entire course in the [Course Toolbar](../learningresources/Toolbar.md#forum). This is often useful if the course only includes _one_ forum that is to be permanently available. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
+b) In addition to the course element "Forum", there is also the option of displaying a central forum for the entire course in the [Course Toolbar](Course_Settings_Toolbar.md#forum). This is often useful if the course only includes _one_ forum that is to be permanently available. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
 
 c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a combination of forum and file provision. In courses, forum discussions can be created for specific documents, e.g. a draft of a seminar paper, an image, a concept or a content document. A forum is automatically created for each uploaded file. Further information on the course element can be found [here](../learningresources/Course_Element_File_Dialog.md).
 
@@ -192,7 +192,7 @@ c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a 
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [Personal Configuration: Profile >](../personal_menu/Profile/index.md)<br>
 [Course Element "Info messages" >](../../manual_user/learningresources/Course_Element_Notifications.md)<br>
-[Toolbar: Overview >](../../manual_user/learningresources/Toolbar.md)<br>
+[Toolbar >](Course_Settings_Toolbar.md)<br>
 [Course Element File Dialog >](../../manual_user/learningresources/Course_Element_File_Dialog.md)<br>
 [Course Element Blog >](../../manual_user/learningresources/Course_Element_Blog.md)
 

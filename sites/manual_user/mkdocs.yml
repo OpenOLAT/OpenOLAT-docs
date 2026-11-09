@@ -249,7 +249,6 @@ nav:
           - Course editor: "learningresources/Learning_path_course_Course_editor.md"
           - Participant view: "learningresources/Learning_path_course_Participant_view.md"
       - Toolbar:
-        - Overview: "learningresources/Toolbar.md"
         - Info page: "learningresources/Info_page.md"
         - Events: "learningresources/Toolbar_Events.md"
         - My course: "learningresources/Toolbar_My_Course.md"

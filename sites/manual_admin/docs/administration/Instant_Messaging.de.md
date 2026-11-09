@@ -100,6 +100,6 @@ Weitere Informationen zur Anwendung des Instant-Messaging Moduls finden Sie hier
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Chat >](../../manual_user/basic_concepts/Chat.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
-[Kurseinstellungen - Tab Toolbar >](../../manual_user/learningresources/Course_Settings_Toolbar.de.md)
+[Toolbar >](../../manual_user/learningresources/Course_Settings_Toolbar.de.md)
 
 [Zum Seitenanfang ^](#instant_messaging)

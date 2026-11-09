@@ -70,7 +70,7 @@ To view chat logs, open the chat window of the desired chat partner. Then select
 [User tools: Other users >](../personal_menu/Other_users.md)<br>
 [Group Administration >](../groups/Group_Administration/index.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Toolbar >](../learningresources/Course_Settings_Toolbar.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)
 
 **youtube**<br>

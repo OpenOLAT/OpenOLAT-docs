@@ -74,7 +74,7 @@ Betreuende begleiten in der Regel den laufenden Kurs, sind jedoch bei der Erstel
 
   *  **Teilnehmer:in**<br>
 Teilnehmer:innen sind in der Regel die Lernenden bzw. Personen, die an einem Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der von den Besitzer:innen bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen Zugriff auf die Kurs-Administration und die darin enthaltenen Menüs.
-In [Lernpfadkursen](Learning_path_course/index.de.md) sehen nur die Teilnehmenden die visualisierte Prozentanzeige rechts oben in der [Toolbar](../learningresources/Toolbar.de.md).
+In [Lernpfadkursen](Learning_path_course/index.de.md) sehen nur die Teilnehmenden die visualisierte Prozentanzeige rechts oben in der [Toolbar](Course_Settings_Toolbar.de.md).
 
 Ein Kursmitglied kann in einem Kurs mehrere Rollen gleichzeitig besitzen. In diesem Fall erscheint in der Toolbar des Kurses bei der betreffenden Person die Option, die Rolle zu wechseln und den Kurs aus der Perspektive der jeweiligen Kursrolle zu betrachten.
 
@@ -272,7 +272,7 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 [Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Kurs-Administration: Übersicht >](Administration/index.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Modul Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br>

@@ -161,7 +161,7 @@ Here you work with the events themselves: you create events and record absences.
 [Absence management >](../area_modules/Absence_Management.md)
 
 **Further reading**<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Toolbar >](Course_Settings_Toolbar.md)<br>
 [Events and Absences (basic concept) >](../basic_concepts/Events_and_Absences.md)<br>
 [User tools: Absences >](../personal_menu/Absences.md)<br>
 [Coaching - Overview >](../area_modules/Coaching/index.md)

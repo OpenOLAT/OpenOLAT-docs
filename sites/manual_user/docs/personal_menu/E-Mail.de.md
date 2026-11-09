@@ -52,7 +52,7 @@ Im Segment "Eingang" stehen zusätzlich vier Aktionen zur Verfügung, im Segment
 E-Mails können an diversen Stellen versandt werden, z.B.:
 
   * im Kurs ([Kursbaustein "E-Mail"](../learningresources/Course_Element_EMail.de.md), [Kursbaustein "Liste der Teilnehmer:innen"](../learningresources/Course_Element_Participant_List.de.md))
-  * in der [Toolbar](../learningresources/Toolbar.de.md) des Kurses
+  * in der [Toolbar](../learningresources/Course_Settings_Toolbar.de.md) des Kurses
   * durch [Kurserinnerungen](../learningresources/Course_Reminders.de.md)
   * bei Kurs- oder Gruppeneinladungen
   * über die Visitenkarte
@@ -72,7 +72,7 @@ E-Mails können an diversen Stellen versandt werden, z.B.:
 [Persönliche Konfiguration: Einstellungen >](Settings.de.md)<br>
 [Kursbaustein "E-Mail" >](../learningresources/Course_Element_EMail.de.md)<br>
 [Kursbaustein "Liste der Teilnehmer:innen" >](../learningresources/Course_Element_Participant_List.de.md)<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
+[Toolbar >](../learningresources/Course_Settings_Toolbar.de.md)<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)

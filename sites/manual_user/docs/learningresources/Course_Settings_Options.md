@@ -74,7 +74,7 @@ Users with administrative roles (learning resource manager, administrator) are a
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Toolbar >](Course_Settings_Toolbar.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
 [How can I use the same files in several courses? >](../../manual_how-to/multiple_use/multiple_use.md)<br>
 [Course Settings - Tab Share: Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)

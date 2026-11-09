@@ -246,7 +246,7 @@ Other systems, for example PerformX, can write appointments into OpenOlat calend
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)
 
 **Further reading**<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Toolbar >](../learningresources/Course_Settings_Toolbar.md)<br>
 [Group Administration >](../groups/Group_Administration/index.md)<br>
 [Course Element "Calendar" >](../learningresources/Course_Element_Calendar.md)<br>
 [Core functions: Overview >](../../manual_admin/administration/Core_functions.md)

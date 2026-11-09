@@ -93,6 +93,6 @@ here: [Chat](../../manual_user/basic_concepts/Chat.md)
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Chat >](../../manual_user/basic_concepts/Chat.md)<br>
 [Using Group Tools >](../../manual_user/groups/Using_Group_Tools.md)<br>
-[Course Settings - Tab Toolbar >](../../manual_user/learningresources/Course_Settings_Toolbar.md)
+[Toolbar >](../../manual_user/learningresources/Course_Settings_Toolbar.md)
 
 [To the top of the page ^](#instant_messaging)

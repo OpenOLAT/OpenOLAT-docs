@@ -239,7 +239,7 @@ Weitere Infos zu Badges finden Sie hier:<br>
 [Kurseinstellungen >](../Course_Settings/index.de.md)<br>
 [Lernpfadkurs - Überblick >](../Learning_path_course/index.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
-[Toolbar: Übersicht >](../Toolbar.de.md)<br>
+[Toolbar >](../Course_Settings_Toolbar.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../Assessment_mode.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../../personal_menu/Evidence_of_Achievements.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>

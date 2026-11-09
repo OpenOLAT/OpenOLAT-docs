@@ -40,7 +40,7 @@ Abonnierte Mitteilungen sehen die Mitglieder des Kurses auch im persönlichen Me
 
 !!! tip "Tipp"
 
-    Für eine Ankündigung an den ganzen Kurs, die keinen Platz im Kursmenü braucht, eignet sich das gleichnamige Werkzeug "[Mitteilungen](../learningresources/Toolbar.de.md#notifications)" in der Toolbar. Es lässt sich nicht konfigurieren: Besitzende und Betreuende verfassen dort Mitteilungen, Teilnehmende abonnieren sie bei Bedarf selbst. Den Kursbaustein nehmen Sie, wenn die Mitteilungen an einer bestimmten Stelle im Kursmenü stehen sollen oder wenn Sie Anzeige, Berechtigungen, automatisches Abonnieren und Zugang selbst festlegen wollen.
+    Für eine Ankündigung an den ganzen Kurs, die keinen Platz im Kursmenü braucht, eignet sich das gleichnamige Werkzeug "[Mitteilungen](Course_Settings_Toolbar.de.md#notifications)" in der Toolbar. Es lässt sich nicht konfigurieren: Besitzende und Betreuende verfassen dort Mitteilungen, Teilnehmende abonnieren sie bei Bedarf selbst. Den Kursbaustein nehmen Sie, wenn die Mitteilungen an einer bestimmten Stelle im Kursmenü stehen sollen oder wenn Sie Anzeige, Berechtigungen, automatisches Abonnieren und Zugang selbst festlegen wollen.
 
 ## Mitteilung verfassen und versenden [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9594)" }](https://track.frentix.com/issue/OO-9594) {: #create_notification}
 
@@ -72,7 +72,7 @@ So geht eine Ankündigung, die nur den Kurs betrifft, mit "Alle Kursteilnehmer:i
 
 **Auf dieser Seite erwähnt**<br>
 [Abonnements >](../personal_menu/Subscriptions.de.md)<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)
+[Toolbar >](Course_Settings_Toolbar.de.md)
 
 **Weiterführend**<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>

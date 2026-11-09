@@ -70,7 +70,7 @@ Um Chat-Protokolle einzusehen, öffnen Sie das Chatfenster der gewünschten Chat
 [Persönliche Werkzeuge: Personensuche >](../personal_menu/Other_users.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
+[Toolbar >](../learningresources/Course_Settings_Toolbar.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)
 
 **youtube**<br>

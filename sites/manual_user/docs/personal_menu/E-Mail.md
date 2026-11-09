@@ -52,7 +52,7 @@ In the segment "Inbox", four additional actions are available; in the segment "O
 E-mails can be sent from various places, e.g.:
 
   * in the course ([Course Element "E-Mail"](../learningresources/Course_Element_EMail.md), [Course Element "Participant list"](../learningresources/Course_Element_Participant_List.md))
-  * in the [Toolbar](../learningresources/Toolbar.md) of the course
+  * in the [Toolbar](../learningresources/Course_Settings_Toolbar.md) of the course
   * via [Course Reminders](../learningresources/Course_Reminders.md)
   * with invitations to courses or groups
   * via the visiting card
@@ -72,7 +72,7 @@ E-mails can be sent from various places, e.g.:
 [Personal Configuration: Settings >](Settings.md)<br>
 [Course Element "E-Mail" >](../learningresources/Course_Element_EMail.md)<br>
 [Course Element "Participant list" >](../learningresources/Course_Element_Participant_List.md)<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Toolbar >](../learningresources/Course_Settings_Toolbar.md)<br>
 [Course Reminders >](../learningresources/Course_Reminders.md)<br>
 [Group Administration >](../groups/Group_Administration/index.md)<br>
 [Members management >](../learningresources/Members_management.md)

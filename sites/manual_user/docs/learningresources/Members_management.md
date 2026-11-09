@@ -73,7 +73,7 @@ Coaches typically accompany the running course, but are not involved in course c
 
   *  **Participant**<br>
 Participants are usually the learners, or the persons who take part in an online course. Participants can only act within the possibilities provided by the owners. By default, participants do not have access to the course administration and the menus it contains.
-In [learning path courses](Learning_path_course/index.md), only the participants see the visualized percentage display in the top right corner of the [toolbar](../learningresources/Toolbar.md).
+In [learning path courses](Learning_path_course/index.md), only the participants see the visualized percentage display in the top right corner of the [toolbar](Course_Settings_Toolbar.md).
 
 A course member can hold multiple roles in a course at the same time. In this case, the option to switch roles and view the course from the perspective of the respective course role appears in the course toolbar for the person concerned.
 
@@ -270,7 +270,7 @@ If course-related terms of use or the course-related privacy policy are [activat
 [Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
 [Course Administration: Overview >](Administration/index.md)<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Toolbar >](Course_Settings_Toolbar.md)<br>
 [Roles and Rights: Overview >](../basic_concepts/Roles_Rights/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Module Groups >](../../manual_admin/administration/Modules_Groups.md)<br>

@@ -53,6 +53,6 @@ Group participants will then see the following items in the group menu on the le
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)
+[Toolbar >](../learningresources/Course_Settings_Toolbar.md)
 
 [To the top of the page ^](#group_tools)

@@ -246,7 +246,7 @@ Andere Systeme, zum Beispiel PerformX, können über die REST-Schnittstelle Term
 [Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)
 
 **Weiterführend**<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
+[Toolbar >](../learningresources/Course_Settings_Toolbar.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Kursbaustein "Kalender" >](../learningresources/Course_Element_Calendar.de.md)<br>
 [Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)

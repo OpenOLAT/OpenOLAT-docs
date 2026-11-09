@@ -250,7 +250,7 @@ Choose emoticons as you are used to from social media.
 ### Hyper links
 
 Links to the Internet and within OpenOlat (certain course elements, also in other courses) can be inserted.<br>
-The links can point to images, videos or the tools in the [Toolbar](../learningresources/Toolbar.md#available_icons).<br>
+The links can point to images, videos or the tools in the [Toolbar](Course_Settings_Toolbar.md#available_icons).<br>
 Select whether the link should be displayed in the OpenOlat course content or in a new window.
 
 ![Four link types highlighted as tabs: File link, Link of course node, Link of course tool and Library](assets/course_element_html_page_editor_links_v2_en.png){ class="shadow lightbox" title="Select link dialog in the HTML editor · 2026.10.08" }
@@ -295,7 +295,7 @@ Select whether the link should be displayed in the OpenOlat course content or in
 **Mentioned on this page**<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)<br>
+[Toolbar >](Course_Settings_Toolbar.md)<br>
 [tiny.cloud](https://www.tiny.cloud)<br>
 [Videos in course element "HTML page" >](../basic_concepts/Video_in_HTML_Pages.md)<br>
 [Video Recording >](../basic_concepts/Video_Recording.md)<br>

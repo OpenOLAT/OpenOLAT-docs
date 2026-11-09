@@ -186,6 +186,6 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 [Course Element "Enrolment" >](Course_Element_Enrolment.md)
 
 **Further reading**<br>
-[Toolbar: Overview >](../learningresources/Toolbar.md)
+[Toolbar >](Course_Settings_Toolbar.md)
 
 [To the top of the page ^](#my_course)

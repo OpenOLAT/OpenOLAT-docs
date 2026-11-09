@@ -195,6 +195,6 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 [Kursbaustein "Einschreibung" >](Course_Element_Enrolment.de.md)
 
 **Weiterführend**<br>
-[Toolbar: Übersicht >](../learningresources/Toolbar.de.md)
+[Toolbar >](Course_Settings_Toolbar.de.md)
 
 [Zum Seitenanfang ^](#my_course)

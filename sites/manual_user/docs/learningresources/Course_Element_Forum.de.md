@@ -180,7 +180,7 @@ Besonders interessant für komplexere Diskussionen ist auch die Ansicht "einer".
 
 a) Sie können das Forum auch als Alternative für den [Mitteilungsbaustein](../learningresources/Course_Element_Notifications.de.md) für Ankündigungen von Seiten der Kursautoren verwenden, besonders wenn Rückfragen von den Lernenden erwünscht sind.
 
-b) Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales Forum für den gesamten Kurs in der [Kurs Toolbar](../learningresources/Toolbar.de.md#forum) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur _ein_ Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.
+b) Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales Forum für den gesamten Kurs in der [Kurs Toolbar](Course_Settings_Toolbar.de.md#forum) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur _ein_ Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.
 
 c) Die [Dateidiskussion](../learningresources/Course_Element_File_Dialog.de.md) stellt eine Kombination aus Forum und Dateibereitstellung dar. So können in Kursen Foren-Diskussionen zu bestimmten Dokumenten erstellt werden z.B. zu einem Entwurf einer Seminararbeit, einem Bild, einem Konzept oder einem inhaltlichen Dokument. Zu jeder hochgeladenen Datei wird automatisch ein Forum erstellt. Weitere Informationen zum Kursbaustein finden Sie [hier](../learningresources/Course_Element_File_Dialog.de.md). 
 
@@ -195,7 +195,7 @@ c) Die [Dateidiskussion](../learningresources/Course_Element_File_Dialog.de.md) 
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [Persönliche Konfiguration: Profil >](../personal_menu/Profile/index.de.md)<br>
 [Kursbaustein Mitteilungen >](../../manual_user/learningresources/Course_Element_Notifications.de.md)<br>
-[Toolbar: Übersicht >](../../manual_user/learningresources/Toolbar.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Kursbaustein Dateidiskussion >](../../manual_user/learningresources/Course_Element_File_Dialog.de.md)<br>
 [Kursbaustein Blog >](../../manual_user/learningresources/Course_Element_Blog.de.md)
 
