@@ -12,7 +12,7 @@ Click the "Collect portfolio task" button.
 
 ## Find portfolio task
 
-The portfolio task is now collected and saved in the ["Portfolio 2.0"](../personal_menu/Personal_Tools.md#portfolio) under "[Go to my
+The portfolio task is now collected and saved in the ["Portfolio 2.0"](../personal_menu/Personal_Tools/index.md#portfolio) under "[Go to my
 binders](../area_modules/My_portfolio_binders.md)".
 
 The next time the portfolio task is accessed, it can be opened either via the link in the course or directly in the personal portfolio.
@@ -86,7 +86,7 @@ to complete the action.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[User tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools/index.md)<br>
 [My binders >](../area_modules/My_portfolio_binders.md)
 
 [To the top of the page ^](#portfolio-task-collecting-and-editing)

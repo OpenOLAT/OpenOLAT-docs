@@ -14,7 +14,7 @@ Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 <br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank"}
 
-* Im [persönlichen Menü](../personal_menu/index.de.md) [(Persönliche Werkzeuge)](../personal_menu/Personal_Tools.de.md): <br>Im persönlichen Kalender können zusätzlich zu den persönlichen Terminen alle Termine aus Ihren verschiedenen Kursen und Gruppen, in denen Sie Mitglied sind, zusammengeführt werden. Sie erhalten so eine Übersicht. Auch externe Kalender können nach individuellem Bedarf importiert werden.
+* Im [persönlichen Menü](../personal_menu/index.de.md) [(Persönliche Werkzeuge)](Personal_Tools/index.de.md): <br>Im persönlichen Kalender können zusätzlich zu den persönlichen Terminen alle Termine aus Ihren verschiedenen Kursen und Gruppen, in denen Sie Mitglied sind, zusammengeführt werden. Sie erhalten so eine Übersicht. Auch externe Kalender können nach individuellem Bedarf importiert werden.
 
 ![Die Kalender sind ineinander geschachtelt: Der persönliche Kalender umschliesst den Kurskalender, dieser wiederum zwei Gruppenkalender. Die Termine der inneren Kalender laufen nach aussen zusammen](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" title="Verschachtelung der Kalender" }
 
@@ -237,7 +237,7 @@ Andere Systeme, zum Beispiel PerformX, können über die REST-Schnittstelle Term
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Kurse finden >](../area_modules/Courses.de.md)<br>
 [Persönliches Menü >](../personal_menu/index.de.md)<br>
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
+[Persönliche Werkzeuge >](Personal_Tools/index.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Raumverwaltung >](../area_modules/Course_Planner_Rooms.de.md)<br>

@@ -48,8 +48,8 @@ A reflection is an examination of a past event or current process that is as emo
 
 ## Further information {: #further_information}
 
-[Creating Portfolios >](Portfolio.md)<br>
-[Components of the portfolio >](Components_of_the_portfolio.md)<br>
+[User tools: Portfolio 2.0 >](../personal_menu/Portfolio/index.md)<br>
+[Components of the portfolio >](Components_of_the_portfolio/index.md)<br>
 [E-Portfolio (German) >](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)<br>
 [Eine Taxonomie für E-Portfolios (German) >](http://peter.baumgartner.name/wp-content/uploads/2012/12/Baumgartner_2012_Eine-Taxonomie-fuer-E-Portfolios.pdf)
 

@@ -8,7 +8,7 @@ Portfolio 2.0 Vorlage erstellen
 ---
 1. Gehen Sie in den Autorenbereich und klicken Sie auf den Button "Erstellen". Wählen Sie in der erscheinenden Lernressourcenliste "Portfolio 2.0 Vorlage" aus.
 
-    ![Erstellen-Menü mit hervorgehobener Option Portfolio 2.0 Vorlage, im Autorenbereich](assets/Portfolio_Vorlage_erstellen_20.jpg){ class="shadow lightbox" }
+    ![Markierter Weg über den Button Erstellen zur Option Portfolio 2.0 Vorlage in der Liste der Lernressourcen](assets/Portfolio_Vorlage_erstellen_20.jpg){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich" }
 
 2. Geben Sie den Titel der Lernressource ein und klicken Sie auf "Erstellen".
 
@@ -33,6 +33,8 @@ Wenn Sie in Ihrer Portfolio 2.0 Vorlage auch den Aufgabentyp Formular nutzen mö
 
 Um eine erstellte und eingerichtete Portfolio 2.0 Vorlage in einen OpenOlat Kurs einzubinden fügen Sie Ihrem Kurs den [Kursbaustein Portfolioaufgabe](../learningresources/Course_Element_Portfolio_Task.de.md) hinzu.
 
+Was Teilnehmende vom Portfolio sehen und wie sie mit ihren Mappen arbeiten, beschreibt die Seite [Persönliche Werkzeuge: Portfolio 2.0](../personal_menu/Portfolio/index.de.md).
+
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
@@ -41,7 +43,8 @@ Um eine erstellte und eingerichtete Portfolio 2.0 Vorlage in einen OpenOlat Kurs
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](../learningresources/Portfolio_template_Administration_and_editing.de.md)<br>
 [Formular in der Portfolio 2.0 Vorlage >](../learningresources/Forms_in_the_ePortfolio_template.de.md)<br>
-[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)
+[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
+[Persönliche Werkzeuge: Portfolio 2.0 >](../personal_menu/Portfolio/index.de.md)
 
 [Zum Seitenanfang ^](#portfolio_template_creation)
 

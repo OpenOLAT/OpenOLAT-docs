@@ -1,6 +1,6 @@
 # Suche im File Hub {: #search_in_file_hub}
 
-Der [File Hub](../personal_menu/File_Hub.de.md), den Sie unter den [persönlichen Werkzeugen](../personal_menu/Personal_Tools.de.md) finden, ist ein persönlicher Datei-Explorer und zeigt verfügbare Dateien der OpenOlat-Instanz.
+Der [File Hub](../personal_menu/File_Hub.de.md), den Sie unter den [persönlichen Werkzeugen](../personal_menu/Personal_Tools/index.de.md) finden, ist ein persönlicher Datei-Explorer und zeigt verfügbare Dateien der OpenOlat-Instanz.
 
 Entsprechend ist die Suche im File Hub in erster Linie auf **Dateien** ausgerichtet, die Sie z.B. kopieren oder verschieben wollen.
 
@@ -23,7 +23,7 @@ Es ist keine Volltextsuche, also keine Suche z.B. innerhalb von Word-Dateien.
 
 Im Suchfeld des File Hub wird eine [Volltextsuche](Search_General.de.md#full_text_search) ausgeführt.
 
-![Dialog Volltextsuche mit Suchbegriff, Trefferzahl und einem gefundenen PDF aus einem Kursordner, geöffnet aus dem Suchfeld des File Hub](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" }
+![Suchbegriff, Trefferzahl und ein gefundenes PDF aus einem Kursordner](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" title="Dialog Volltextsuche im File Hub" }
 
 Sie ist auf die im File Hub angebotenen Ablageorte eingeschränkt. Dies sind folgende Ordner:
 
@@ -38,9 +38,9 @@ Sie ist auf die im File Hub angebotenen Ablageorte eingeschränkt. Dies sind fol
 
 Die "Erweiterte Suche" im Suchresultat ist ebenfalls eine [Volltextsuche](Search_General.de.md#full_text_search) ohne Einschränkungen. Die Suchfelder der erweiterten Suche beschreibt die Seite [Allgemeines zur Suche](Search_General.de.md#advanced_search).
 
-![Link Erweiterte Suche unter dem Suchfeld im Dialog Volltextsuche des File Hub](assets/search_in_filehub_advanced_search1_v1_de.png){ class="shadow lightbox" }
+![Link Erweiterte Suche unter dem Suchfeld](assets/search_in_filehub_advanced_search1_v1_de.png){ class="shadow lightbox" title="Dialog Volltextsuche im File Hub" }
 
-![Formular der erweiterten Suche mit den Feldern Autor:in, Titel, Beschreibung, Erstellungsdatum, Letzte Änderung, Dokumententyp, Lizenz und Metadaten, Dialog Volltextsuche des File Hub](assets/search_in_filehub_advanced_search2_v1_de.png){ class="shadow lightbox" }
+![Formular der erweiterten Suche mit den Feldern Autor:in, Titel, Beschreibung, Erstellungsdatum, Letzte Änderung, Dokumententyp, Lizenz und Metadaten](assets/search_in_filehub_advanced_search2_v1_de.png){ class="shadow lightbox" title="Erweiterte Suche im Dialog Volltextsuche" }
 
 !!! info "Hintergrundinformation"
 
@@ -55,7 +55,7 @@ Die "Erweiterte Suche" im Suchresultat ist ebenfalls eine [Volltextsuche](Search
 ## Weiterführende Informationen {: #further_information}
 
 [Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)<br>
 [Allgemeines zur Suche >](Search_General.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>
 [Lokale Suche >](Search_Local.de.md)<br>

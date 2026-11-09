@@ -48,7 +48,7 @@ With the "Download function" you define who may download the list as an Excel fi
 **Further reading**<br>
 [Course elements at a glance >](Course_Elements.md)<br>
 [Toolbar: Overview >](Toolbar.md)<br>
-[Personal Configuration: Profile >](../personal_menu/Profile.md)
+[Personal Configuration: Profile >](../personal_menu/Profile/index.md)
 
 [To the top of the page ^](#participant_list)
 

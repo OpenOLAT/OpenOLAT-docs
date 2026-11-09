@@ -33,7 +33,7 @@ The display in the personal menu is suitable for obtaining a quick overview of a
 
 If you are a member of a product in the Course Planner, select a product, "Individual Courses" or "All Evidence of Achievements" above the list. [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
 
-Click the icon "ePortfolio" to save an evidence of achievement as an element in the [Media Center](../personal_menu/Media_Center.md) and to insert it into your [Portfolio](../personal_menu/Portfolio.md) binders.
+Click the icon "ePortfolio" to save an evidence of achievement as an element in the [Media Center](../personal_menu/Media_Center.md) and to insert it into your [Portfolio](Portfolio/index.md) binders.
 In this way, compilations of evidence of achievement can be combined for different purposes and also made accessible to specific persons.
 
 !!! info "Important"
@@ -70,7 +70,7 @@ If the evidence of achievement is activated in a course, participants find the e
 [Course Settings - Tab Assessment: Certificates and recertification >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
-[User tools: Portfolio >](../personal_menu/Portfolio.md)<br>
+[User tools: Portfolio 2.0 >](Portfolio/index.md)<br>
 [Personal achievements/successes: Certificates >](Certificates.md)
 
 **Further reading**<br>

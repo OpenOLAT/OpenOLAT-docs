@@ -249,9 +249,9 @@ Welche Vorgabe für alle gilt, legen Systemadministrator:innen im KI-Modul fest:
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)
 
 **Weiterführend**<br>
-[Persönliche Konfiguration: Profil >](Profile.de.md)<br>
+[Persönliche Konfiguration: Profil >](Profile/index.de.md)<br>
 [Persönliche Konfiguration: Passwort >](Password.de.md)<br>
-[Persönliche Werkzeuge >](Personal_Tools.de.md)<br>
+[Persönliche Werkzeuge >](Personal_Tools/index.de.md)<br>
 [Chat >](../basic_concepts/Chat.de.md)
 
 **youtube**<br>

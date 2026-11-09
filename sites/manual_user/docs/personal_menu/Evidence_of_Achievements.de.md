@@ -33,7 +33,7 @@ Die Anzeige im Persönlichen Menü eignet sich, um einen schnellen Überblick ü
 
 Sind Sie Mitglied in einem Produkt des Course Planners, wählen Sie oberhalb der Liste ein Produkt, "Einzelkurse" oder "Alle Leistungsnachweise" aus. [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
 
-Klicken Sie auf das Symbol "ePortfolio", um einen Leistungsnachweis als Element im [Media Center](../personal_menu/Media_Center.de.md) zu speichern und ihn so in Ihre [Portfolio](../personal_menu/Portfolio.de.md)-Mappen einbinden zu können.
+Klicken Sie auf das Symbol "ePortfolio", um einen Leistungsnachweis als Element im [Media Center](../personal_menu/Media_Center.de.md) zu speichern und ihn so in Ihre [Portfolio](Portfolio/index.de.md)-Mappen einbinden zu können.
 So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden.
 
 !!! info "Wichtig"
@@ -70,7 +70,7 @@ Ist in einem Kurs der Leistungsnachweis aktiviert, finden Teilnehmende in der To
 [Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
-[Persönliche Werkzeuge: Portfolio >](../personal_menu/Portfolio.de.md)<br>
+[Persönliche Werkzeuge: Portfolio 2.0 >](Portfolio/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](Certificates.de.md)
 
 **Weiterführend**<br>

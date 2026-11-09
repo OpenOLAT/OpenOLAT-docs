@@ -1,16 +1,16 @@
-# Persönliche Werkzeuge: Kompetenzen {: #competences}
+# Persönliche Erfolge/Leistungen: Kompetenzen {: #competences}
 
 ![Menü der persönlichen Werkzeuge mit dem Eintrag Kompetenzen, der Übersicht aller einer Person zugeordneten Kompetenzen](assets/pers_menu_competences_v3_de.png){ class="aside-right lightbox"}
 
 ![Symbol Kompetenzen](assets/icon_competences.png)
 
 
-In den persönlichen Werkzeugen erhalten Lernende eine Übersicht über alle Kompetenzen, die ihnen in OpenOlat zugeordnet worden sind.
+Im Abschnitt "Erfolge/Leistungen" des persönlichen Menüs erhalten Lernende eine Übersicht über alle Kompetenzen, die ihnen in OpenOlat zugeordnet worden sind.
 
 Die Zuordnung von Kompetenzen kann z.B. in ePortfolio-Einträgen erfolgt sein oder manuell von Benutzerverwalter:innen im Benutzerprofil eingetragen worden sein.
 
 
-![Liste Meine Kompetenzen, gegliedert nach Taxonomie und Taxonomieebene, mit den Spalten Kompetenz, Ressource, Zusätzliche Informationen und Typ; Typen sind Verwalten oder Haben](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox" title="Kompetenzen in den persönlichen Werkzeugen" }
+![Liste Meine Kompetenzen, gegliedert nach Taxonomie und Taxonomieebene, mit den Spalten Kompetenz, Ressource, Zusätzliche Informationen und Typ; Typen sind Verwalten oder Haben](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox" title="Kompetenzen im Abschnitt Erfolge/Leistungen" }
 
 !!! info "Wichtig"
 
@@ -23,7 +23,7 @@ Die Zuordnung von Kompetenzen kann z.B. in ePortfolio-Einträgen erfolgt sein od
 
 ## Wo spielen Kompetenzen eine Rolle? {: #where_used}
 
-Das Vergeben bzw. der Erwerb von Kompetenzen kommt neben der Anzeige in den persönlichen Werkzeugen noch in folgenden Zusammenhängen vor:
+Das Vergeben bzw. der Erwerb von Kompetenzen kommt neben der Anzeige unter "Erfolge/Leistungen" noch in folgenden Zusammenhängen vor:
 
 - [Kompetenzen verschlagworten >](../area_modules/Competences_tags.de.md) (ePortfolio)
 - [Konzept des File Hub >](../basic_concepts/File_Hub_Concept.de.md) (Dokumentenpool)

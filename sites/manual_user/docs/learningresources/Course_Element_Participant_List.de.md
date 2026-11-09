@@ -49,6 +49,6 @@ Mit der "Downloadfunktion" legen Sie fest, wer die Liste als Excel-Datei herunte
 **Weiterführend**<br>
 [Kursbausteine im Überblick >](Course_Elements.de.md)<br>
 [Toolbar: Übersicht >](Toolbar.de.md)<br>
-[Persönliche Konfiguration: Profil >](../personal_menu/Profile.de.md)
+[Persönliche Konfiguration: Profil >](../personal_menu/Profile/index.de.md)
 
 [Zum Seitenanfang ^](#participant_list)

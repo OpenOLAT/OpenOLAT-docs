@@ -4,7 +4,7 @@
 
 If you open the project tool, you will get an overview of all projects (tab "My projects").
 
-![Overview My projects with the projects as tiles with image, title and status](assets/Meine_Projekte1.jpg){ class="shadow lightbox" }
+![Projects as tiles with image, title and status](assets/Meine_Projekte1.jpg){ class="shadow lightbox" title="Overview My projects" }
 
 ## Start screen of a project (cockpit)
 
@@ -15,7 +15,7 @@ Clicking on a specific project takes you to the project cockpit. From here, you 
     The exact options vary slightly depending on the project role.
 
 
-![Cockpit of a project with Quick start, Schedule, To-dos, Decisions, Notes and Files on the left as well as Whiteboard and Timeline on the right](assets/Ein_Projekt.jpg){ class="shadow lightbox" }
+![Quick start, Schedule, To-dos, Decisions, Notes and Files on the left as well as Whiteboard and Timeline on the right](assets/Ein_Projekt.jpg){ class="shadow lightbox" title="Cockpit of a project" }
 
 
 ## Objects in the project
@@ -37,7 +37,7 @@ The objects in a project can be linked to each other to make it easier to find r
 * the button **"Link object"** to link an existing object or on
 * the button **"Add link"** to create an object with a link directly.
 
-![Expanded section Links in the edit dialog of an object with the buttons Link object and Add link](assets/project_links_v1_de.png){ class="shadow lightbox" }
+![Expanded section Links with the buttons Link object and Add link](assets/project_links_v1_de.png){ class="shadow lightbox" title="Edit dialog of an object in the project" }
 
 !!! info "Important"
 
@@ -45,16 +45,16 @@ The objects in a project can be linked to each other to make it easier to find r
 
 ## Notifications
 
-Several people work together on a project, so it is important to be informed about progress and changes. To do this, use the [subscription function](../personal_menu/Personal_Tools.md#subscriptions) (on the right-hand side, below the images of the project members, toggle "Changes").
+Several people work together on a project, so it is important to be informed about progress and changes. To do this, use the [subscription function](../personal_menu/Personal_Tools/index.md#subscriptions) (on the right-hand side, below the images of the project members, toggle "Changes").
 
-![Toggle Changes below the images of the project members in the cockpit, which switches the subscription on and off](assets/Projekt_abonnieren.jpg){ class="shadow lightbox" }
+![Toggle Changes below the images of the project members, which switches the subscription on and off](assets/Projekt_abonnieren.jpg){ class="shadow lightbox" title="Cockpit of a project" }
 
 !!! info "Important"
 
     The subscription function is activated in new projects by default. It can be switched off using the toggle.
 
 
-The [subscription function](../personal_menu/Personal_Tools.md#subscriptions) is also available in other areas, e.g. in courses in certain course elements. In projects it has the following special feature:
+The [subscription function](../personal_menu/Personal_Tools/index.md#subscriptions) is also available in other areas, e.g. in courses in certain course elements. In projects it has the following special feature:
 
 * **Bulk mails** are created to avoid sending a mail for every small change in the project.
 * **Exception**: Changes to to-dos
@@ -62,6 +62,6 @@ The [subscription function](../personal_menu/Personal_Tools.md#subscriptions) is
 
 ## Further information {: #further_information}
 
-[User tools >](../personal_menu/Personal_Tools.md)
+[User tools >](../personal_menu/Personal_Tools/index.md)
 
 [To the top of the page ^](#cockpit)

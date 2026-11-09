@@ -197,7 +197,7 @@ Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwa
 
 ## Medien verwenden [:octicons-tag-16:{ title="ab Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
-Medien aus dem Media Center setzen Sie dort ein, wo Sie Inhalte gestalten. Dateien, Dokumente und Sammlungen verwenden Sie zum Beispiel mit dem Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden.
+Medien aus dem Media Center setzen Sie dort ein, wo Sie Inhalte gestalten. Dateien, Dokumente und Sammlungen verwenden Sie zum Beispiel mit dem Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../personal_menu/Portfolio/index.de.md).
 
 ![Markierter Eintrag Aus meinem Medien Center wählen im Menü Inhalt hinzufügen des Kursbausteins Seite, neben Bild, Video, Zitat und Dokument](assets/media_center_page_v1_de.png){ class=" shadow lightbox" title="Menü Inhalt hinzufügen im Kursbaustein Seite" }
 
@@ -252,7 +252,7 @@ Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Medien
 [Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
 [Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
 [Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
-[Portfolio erstellen >](../area_modules/Portfolio.de.md)
+[Persönliche Werkzeuge: Portfolio 2.0 >](../personal_menu/Portfolio/index.de.md)
 
 **Weiterführend**<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>

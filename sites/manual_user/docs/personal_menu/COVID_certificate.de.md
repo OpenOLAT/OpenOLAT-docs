@@ -58,8 +58,8 @@ Wenden Sie sich an die 3G-Beauftragten Ihrer Organisation, wenn Sie Probleme bei
 
 ## Weiterführende Informationen {: #further_information}
 
-[Persönliche Konfiguration >](Personal_Configuration.de.md)<br>
-[Persönliche Konfiguration: Profil >](Profile.de.md)<br>
+[Persönliche Konfiguration >](Personal_Configuration/index.de.md)<br>
+[Persönliche Konfiguration: Profil >](Profile/index.de.md)<br>
 [Module: Übersicht (Administrationshandbuch) >](../../manual_admin/administration/Modules.de.md)
 
 **youtube**<br>

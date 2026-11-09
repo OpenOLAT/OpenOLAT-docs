@@ -92,7 +92,7 @@ Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden der Variable: Die
 
 ## E-Mail Signatur [:octicons-tag-16:{ title="ab Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
-Mit der E-Mail Signatur hängt OpenOlat den persönlichen Text einer Person an das Ende der E-Mails, die diese Person aus OpenOlat heraus über ein E-Mail-Formular verschickt, zum Beispiel über den Kursbaustein "E-Mail", den Kursbaustein "Liste der Teilnehmer:innen" oder die Mitgliederverwaltung. Der Text steht im E-Mail-Formular am Ende der Nachricht und lässt sich dort vor dem Versand noch bearbeiten. Die Signatur erfasst jede Person selbst: [Persönliche Konfiguration: Profil](../../manual_user/personal_menu/Profile.de.md).
+Mit der E-Mail Signatur hängt OpenOlat den persönlichen Text einer Person an das Ende der E-Mails, die diese Person aus OpenOlat heraus über ein E-Mail-Formular verschickt, zum Beispiel über den Kursbaustein "E-Mail", den Kursbaustein "Liste der Teilnehmer:innen" oder die Mitgliederverwaltung. Der Text steht im E-Mail-Formular am Ende der Nachricht und lässt sich dort vor dem Versand noch bearbeiten. Die Signatur erfasst jede Person selbst: [Persönliche Konfiguration: Profil](../../manual_user/personal_menu/Profile/index.de.md).
 
 Auf einer neuen Installation steht das Feld "E-Mail Signatur" bereits im Profil: Das Attribut "emailSignature" ist in der Systemkonfiguration aktiv und im Verwendungskontext des Profils enthalten. Fehlt das Feld im Profil Ihrer Instanz, weicht deren gespeicherte Konfiguration davon ab. Prüfen Sie dann zwei Stellen in der System-Administration unter:<br>
 `Administration > Customizing > Benutzer:innen-Attribute`
@@ -140,7 +140,7 @@ Empfohlen ist, in dieser Zeile nur "Verwenden" einzuschalten. "Zwingend", "Nur A
 [Lebenszyklen: Übersicht >](Life_cycles_-_Administration.de.md)<br>
 [Automatischer Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
 [Wie verwende ich das Sprachanpassungswerkzeug? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md)<br>
-[Persönliche Konfiguration: Profil >](../../manual_user/personal_menu/Profile.de.md)<br>
+[Persönliche Konfiguration: Profil >](../../manual_user/personal_menu/Profile/index.de.md)<br>
 [Customizing: Übersicht >](Customizing.de.md)
 
 [Zum Seitenanfang ^](#email_settings)

@@ -97,7 +97,7 @@ asterisk.
 
 ![Labeled areas archive, subscribe, display options, mark, discussion structure, post currently displayed and new post](assets/Forum_neu_EN2.png){ class="shadow lightbox" title="View one in the forum" }
 
-Upload a photo in the "[Profile](../personal_menu/Profile.md#profile_photo)" so that your photo
+Upload a photo in the "[Profile](../personal_menu/Profile/index.md#profile_photo)" so that your photo
 appears next to your forum posts instead of the standard profile picture.
 
 ### :o_icon_o_dialog_icon: File Dialog
@@ -121,7 +121,7 @@ when can be recognized by the columns first name, last name or date.
 ## Further information {: #further_information}
 
 [Course Element "Forum" >](Course_Element_Forum.md)<br>
-[Personal Configuration: Profile >](../personal_menu/Profile.md)<br>
+[Personal Configuration: Profile >](../personal_menu/Profile/index.md)<br>
 [Course Element "File Dialog" >](Course_Element_File_Dialog.md)<br>
 [User tools: Subscriptions >](../personal_menu/Subscriptions.md)
 

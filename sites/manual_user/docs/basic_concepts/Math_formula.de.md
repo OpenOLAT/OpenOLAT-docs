@@ -6,15 +6,15 @@ Formeln können in OpenOlat an verschiedenen Stellen eingefügt werden. Verwende
 
 1. Fügen Sie die Formel über `Einfügen > Mathematische Formel einfügen` im Menü des HTML-Editors hinzu oder, falls aktiviert, direkt über den Formel-Button.
 
-    ![Menü Einfügen mit dem markierten Eintrag Mathematische Formel einfügen und dem Formel-Button in der Werkzeugleiste, HTML-Editor einer Testfrage](assets/mathjax-html.de.jpg){ class="shadow lightbox" }
+    ![Menü Einfügen mit dem markierten Eintrag Mathematische Formel einfügen und dem Formel-Button in der Werkzeugleiste](assets/mathjax-html.de.jpg){ class="shadow lightbox" title="HTML-Editor einer Testfrage" }
 
 2. Geben Sie die Formel im grafischen Editor oder im LaTeX-Feld ein. Weitere Informationen zur Verwendung des grafischen Editors finden Sie hier: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
 
-    ![Eingabe im grafischen Editor oder im LaTeX-Feld mit Vorschau, darunter die Formeltastatur mit Zahlen, Operatoren und Funktionen, Dialog Formel](assets/Formeleditor_16_de.png){ class="shadow lightbox" }
+    ![Eingabe im grafischen Editor oder im LaTeX-Feld mit Vorschau, darunter die Formeltastatur mit Zahlen, Operatoren und Funktionen](assets/Formeleditor_16_de.png){ class="shadow lightbox" title="Dialog Formel" }
 
 3. Schliessen Sie den HTML-Editor mit "Speichern". Die Formel ist nun eingebunden.
 
-    ![Gesetzte Formel im Text, daneben der Formel-Button in der Werkzeugleiste, HTML-Editor](assets/mathjax-embedded.jpg){ class="shadow lightbox" }
+    ![Gesetzte Formel im Text, daneben der Formel-Button in der Werkzeugleiste](assets/mathjax-embedded.jpg){ class="shadow lightbox" title="Text im HTML-Editor" }
 
 Mathematische Formeln können in folgenden Kursbausteinen und Lernressourcen per HTML-Editor eingefügt werden:
 
@@ -33,19 +33,19 @@ Mathematische Formeln können in folgenden Kursbausteinen und Lernressourcen per
 
 1. Öffnen oder erstellen Sie einen Portfolio-Eintrag und öffnen Sie den Content Editor. Klicken Sie auf "Inhalt hinzufügen".
 
-    ![Auswahl der Inhaltstypen Titel, Paragraph, Tabelle, Mathematische Formel, Bild und Textabschnitt sowie der Bereiche Einbinden und Layout, Menü Inhalt hinzufügen im Content Editor](assets/mathjax-content-editor.de.jpg){ class="shadow lightbox" }
+    ![Auswahl der Inhaltstypen Titel, Paragraph, Tabelle, Mathematische Formel, Bild und Textabschnitt sowie der Bereiche Einbinden und Layout](assets/mathjax-content-editor.de.jpg){ class="shadow lightbox" title="Menü Inhalt hinzufügen im Content Editor" }
 
 2. Wählen Sie "Mathematische Formel".
 
 3. Der grafische Formeleditor öffnet sich. Erstellen Sie Ihre Formel.
 
-    ![Formelblock mit einer eingegebenen Formel und der geöffneten Formeltastatur, Content Editor eines Portfolio-Eintrags](assets/Formeleditor_Portfolio_16_de.png){ class="shadow lightbox" }
+    ![Formelblock mit einer eingegebenen Formel und der geöffneten Formeltastatur](assets/Formeleditor_Portfolio_16_de.png){ class="shadow lightbox" title="Content Editor eines Portfolio-Eintrags" }
 
 ## Weiterführende Informationen {: #further_information}
 
 [CortexJS keybindings >](https://cortexjs.io/mathlive/reference/keybindings/)<br>
 [Content Editor >](Content_Editor.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
-[Persönliche Werkzeuge: Portfolio >](../personal_menu/Portfolio.de.md)
+[Persönliche Werkzeuge: Portfolio 2.0 >](../personal_menu/Portfolio/index.de.md)
 
 [Zum Seitenanfang ^](#formula)

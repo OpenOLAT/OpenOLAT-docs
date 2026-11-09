@@ -39,7 +39,7 @@ Am Ende des Menüs steht die Funktion "Abmelden".
     * [Buchungsaufträge](../personal_menu/Bookings.de.md)
     * [Personensuche](../personal_menu/Other_users.de.md)
     * [Absenzen](../personal_menu/Absences.de.md)
-    * [Portfolio 2.0](../personal_menu/Portfolio.de.md)
+    * [Portfolio 2.0](Portfolio/index.de.md)
     * [Media Center](../personal_menu/Media_Center.de.md)
     * [To-dos](../personal_menu/To-Dos.de.md)
     * [E-Mail](../personal_menu/E-Mail.de.md)
@@ -54,13 +54,13 @@ Am Ende des Menüs steht die Funktion "Abmelden".
 
     **Konfiguration**
 
-    * [Profil](../personal_menu/Profile.de.md)
+    * [Profil](Profile/index.de.md)
     * [Einstellungen](../personal_menu/Settings.de.md)
     * [Passwort](../personal_menu/Password.de.md)
 
 Die Abschnitte "Hilfe" und "System" enthalten keine persönlichen Daten. Unter "Hilfe" stehen die Verweise, welche die Administration für Ihre Installation freigegeben hat, zum Beispiel auf das OpenOlat Handbuch, auf die OpenOlat Academy oder auf eine Support-Adresse. Unter "System" finden Sie systemnahe Funktionen wie "Drucken".
 
-Eine ausführliche Beschreibung aller Werkzeuge finden Sie auf der Seite [Persönliche Werkzeuge](../personal_menu/Personal_Tools.de.md).
+Eine ausführliche Beschreibung aller Werkzeuge finden Sie auf der Seite [Persönliche Werkzeuge](Personal_Tools/index.de.md).
 
 
 ## Verfügbare Werkzeuge {: #available_tools}
@@ -116,7 +116,7 @@ Zwei Werkzeuge stehen nicht im persönlichen Menü, sondern grundsätzlich in de
 ## Weiterführende Informationen {: #further_information}
 
 [Navigation >](../basic_concepts/Navigation.de.md)<br>
-[Persönliche Konfiguration >](../personal_menu/Personal_Configuration.de.md)<br>
+[Persönliche Konfiguration >](Personal_Configuration/index.de.md)<br>
 [Session-Timeout und Logout >](../basic_concepts/Session_Timeout_and_Logout.de.md)
 
 **youtube**<br>

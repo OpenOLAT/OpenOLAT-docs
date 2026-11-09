@@ -68,7 +68,7 @@ The individual portfolios can contain:
 * entries within the binders (text with inserted links, images, etc.)
 * files attached to entries
 
-[Components of the portfolio >](../../manual_user/area_modules/Components_of_the_portfolio.md)<br>
+[Components of the portfolio >](../../manual_user/area_modules/Components_of_the_portfolio/index.md)<br>
 [The Portfolio Editor >](../../manual_user/area_modules/The_portfolio_editor_17_1.md)<br>
 
 [Back to top ^](#portfolio)
@@ -390,7 +390,7 @@ The checklist summarises the preparation steps of this guide.
 **Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [Portfolio - General Information >](../../manual_user/area_modules/Portfolio_General_Information.md)<br>
-[Components of the portfolio >](../../manual_user/area_modules/Components_of_the_portfolio.md)<br>
+[Components of the portfolio >](../../manual_user/area_modules/Components_of_the_portfolio/index.md)<br>
 [The Portfolio Editor >](../../manual_user/area_modules/The_portfolio_editor_17_1.md)<br>
 [Personal menu >](../../manual_user/personal_menu/index.md)<br>
 [My binders >](../../manual_user/area_modules/My_portfolio_binders.md)<br>
@@ -400,7 +400,7 @@ The checklist summarises the preparation steps of this guide.
 [Portfolio assignment: Grading >](../../manual_user/learningresources/Portfolio_assignment_Grading.md)
 
 **Further reading**<br>
-[Creating Portfolios >](../../manual_user/area_modules/Portfolio.md)<br>
+[User tools: Portfolio 2.0 >](../../manual_user/personal_menu/Portfolio/index.md)<br>
 [My entries >](../../manual_user/area_modules/My_entries.md)<br>
 [Shared by me >](../../manual_user/area_modules/Shared_by_me.md)<br>
 [Shared with me >](../../manual_user/area_modules/Shared_with_me.md)<br>

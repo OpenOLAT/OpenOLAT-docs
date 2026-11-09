@@ -14,7 +14,7 @@ The calendar function is available in various places:
 
 <br>:octicons-device-camera-video-24: **Video Introduction (German)**: [Course calendar](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank"}
 
-* In the [personal menu](../personal_menu/index.md) [(User tools)](../personal_menu/Personal_Tools.md):<br> In addition to your personal appointments, all appointments from the various courses and groups of which you are a member can be combined in your personal calendar. This gives you an overview. External calendars can also be imported according to individual requirements.
+* In the [personal menu](../personal_menu/index.md) [(User tools)](Personal_Tools/index.md):<br> In addition to your personal appointments, all appointments from the various courses and groups of which you are a member can be combined in your personal calendar. This gives you an overview. External calendars can also be imported according to individual requirements.
 
 ![The calendars are nested: the personal calendar encloses the course calendar, which in turn encloses two group calendars. The appointments of the inner calendars are combined outwards](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" title="Nesting of the calendars" }
 
@@ -237,7 +237,7 @@ Other systems, for example PerformX, can write appointments into OpenOlat calend
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Finding courses >](../area_modules/Courses.md)<br>
 [Personal menu >](../personal_menu/index.md)<br>
-[User tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](Personal_Tools/index.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Room management >](../area_modules/Course_Planner_Rooms.md)<br>

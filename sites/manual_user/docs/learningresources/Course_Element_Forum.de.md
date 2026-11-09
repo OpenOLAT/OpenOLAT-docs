@@ -76,7 +76,7 @@ Teilnehmende können in Foren Themen eröffnen, Themen archivieren und auch die 
 !!! tip "Tipp"
 
     Empfehlen Sie den Teilnehmenden, das Forum zu **abonnieren**, um bei neuen Beiträgen benachrichtigt zu werden.
-    Auch sollten alle Teilnehmenden im "[Profil](../personal_menu/Profile.de.md#profile_photo)" ein **Profilfoto** hinterlegen, das dann mit dem jeweiligen Posting zusammen angezeigt wird und so die Beiträge persönlicher macht.
+    Auch sollten alle Teilnehmenden im "[Profil](../personal_menu/Profile/index.de.md#profile_photo)" ein **Profilfoto** hinterlegen, das dann mit dem jeweiligen Posting zusammen angezeigt wird und so die Beiträge persönlicher macht.
 
 ---
 
@@ -193,7 +193,7 @@ c) Die [Dateidiskussion](../learningresources/Course_Element_File_Dialog.de.md) 
 ## Weiterführende Informationen {: #further_information}
 
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles.de.md)<br>
-[Persönliche Konfiguration: Profil >](../personal_menu/Profile.de.md)<br>
+[Persönliche Konfiguration: Profil >](../personal_menu/Profile/index.de.md)<br>
 [Kursbaustein Mitteilungen >](../../manual_user/learningresources/Course_Element_Notifications.de.md)<br>
 [Toolbar: Übersicht >](../../manual_user/learningresources/Toolbar.de.md)<br>
 [Kursbaustein Dateidiskussion >](../../manual_user/learningresources/Course_Element_File_Dialog.de.md)<br>

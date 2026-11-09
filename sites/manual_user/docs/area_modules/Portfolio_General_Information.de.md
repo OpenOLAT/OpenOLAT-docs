@@ -48,8 +48,8 @@ Eine Reflexion ist eine möglichst emotionsfreie Auseinandersetzung mit einem zu
 
 ## Weiterführende Informationen {: #further_information}
 
-[Portfolio erstellen >](Portfolio.de.md)<br>
-[Bestandteile des Portfolios >](Components_of_the_portfolio.de.md)<br>
+[Persönliche Werkzeuge: Portfolio 2.0 >](../personal_menu/Portfolio/index.de.md)<br>
+[Bestandteile des Portfolios >](Components_of_the_portfolio/index.de.md)<br>
 [E-Portfolio >](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)<br>
 [Eine Taxonomie für E-Portfolios >](http://peter.baumgartner.name/wp-content/uploads/2012/12/Baumgartner_2012_Eine-Taxonomie-fuer-E-Portfolios.pdf)
 

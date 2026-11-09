@@ -76,7 +76,7 @@ Participants can open topics in forums, archive topics and also customize the di
 !!! tip "Tip"
 
     Recommend that participants **subscribe** to the forum in order to be notified of new posts.
-    All participants should also enter a **profile photo** in the "[profile](../personal_menu/Profile.md#profile_photo)", which will then be displayed together with the respective posting and thus make the contributions more personal.
+    All participants should also enter a **profile photo** in the "[profile](../personal_menu/Profile/index.md#profile_photo)", which will then be displayed together with the respective posting and thus make the contributions more personal.
 
 ---
 
@@ -190,7 +190,7 @@ c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a 
 ## Further information {: #further_information}
 
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles.md)<br>
-[Personal Configuration: Profile >](../personal_menu/Profile.md)<br>
+[Personal Configuration: Profile >](../personal_menu/Profile/index.md)<br>
 [Course Element "Info messages" >](../../manual_user/learningresources/Course_Element_Notifications.md)<br>
 [Toolbar: Overview >](../../manual_user/learningresources/Toolbar.md)<br>
 [Course Element File Dialog >](../../manual_user/learningresources/Course_Element_File_Dialog.md)<br>

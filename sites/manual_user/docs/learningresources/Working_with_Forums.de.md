@@ -103,7 +103,7 @@ an dem Sternchen.
 ![Beschriftete Bereiche archivieren, abonnieren, Anzeigeoptionen, Markierung, Diskussionsstruktur, aktuell angezeigter Beitrag und neuer Beitrag](assets/Forum_Aufbau-1.png){ class="shadow lightbox" title="Darstellung einer im Forum" }
 
 Laden Sie im
-"[Profil](../personal_menu/Profile.de.md#profile_photo)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
+"[Profil](../personal_menu/Profile/index.de.md#profile_photo)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
 Standard-Profilbildes Ihr Foto erscheint.
 
 ### :o_icon_o_dialog_icon: Dateidiskussion
@@ -129,7 +129,7 @@ Vorname, Nachname bzw. Datum erkennbar.
 ## Weiterführende Informationen {: #further_information}
 
 [Kursbaustein "Forum" >](Course_Element_Forum.de.md)<br>
-[Persönliche Konfiguration: Profil >](../personal_menu/Profile.de.md)<br>
+[Persönliche Konfiguration: Profil >](../personal_menu/Profile/index.de.md)<br>
 [Kursbaustein "Dateidiskussion" >](Course_Element_File_Dialog.de.md)<br>
 [Persönliche Werkzeuge: Abonnements >](../personal_menu/Subscriptions.de.md)
 

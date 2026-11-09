@@ -208,7 +208,6 @@ plugins:
           Competences : Kompetenzen
           Competences tags : Kompetenzen verschlagworten
           Components : Bestandteile
-          Components of the portfolio : Bestandteile des Portfolios
           Concept: Konzept
           Configuration : Konfiguration
           Configure a blog : Blog konfigurieren
@@ -249,7 +248,7 @@ plugins:
           Course Settings : Kurseinstellungen
           Course statistics : Kursstatistiken
           Courses and Catalog : Kurse und Katalog
-          COVID certificate: COVID Zertifikat
+          COVID certificate: COVID-Zertifikat
           CP Editor : CP Editor
           CP learning content: CP Lerninhalt
           Create : Erstellen
@@ -301,6 +300,7 @@ plugins:
           Document : Dokument
           e-Assessment Administration : e-Assessment Administration
           E-Mail : E-Mail
+          E-mail : E-Mail
           E-Mail Settings : E-Mail Einstellungen
           eAssessment Levels/Grading : eAssessment Einstufung/Noten
           Element : Element
@@ -308,6 +308,7 @@ plugins:
           Embedding courses and course templates : Kurse und Kurstemplates einbinden
           ePortfolio : ePortfolio
           Edit a project : Projekt bearbeiten
+          Editor : Editor
           edu-sharing: edu-sharing
           Edubase: Edubase
           Educational products : Bildungsprodukte
@@ -317,7 +318,7 @@ plugins:
           Events and absences : Termine und Absenzen
           Events / Absences : Termine / Absenzen
           Events, teachers and rooms : Termine, Dozent:innen und Räume
-          Evidence of Achievements: Leistungsnachweise
+          Evidence of achievement : Leistungsnachweise
           Exams : Prüfungen
           Excel import and export : Excel-Import und -Export
           Export content : Inhalt exportieren
@@ -488,9 +489,9 @@ plugins:
           Module To-do : Modul To-do
           Module Video : Modul Video
           Multiple use of entries : Mehrfachverwendung von Einträgen
-          My binders : Meine Mappen
           My course : Mein Kurs
           My entries : Meine Einträge
+          My portfolio binders : Meine Portfoliomappen
           My first course : Mein erster Kurs
           Navigation : Navigation
           Notes : Notizen
@@ -532,8 +533,7 @@ plugins:
           Platform-wide features : Übergreifende Funktionen
           Podcast : Podcast
           Portal configuration : Portal konfigurieren
-          Portfolio : Portfolio
-          Portfolio - General Information : Allgemeines zum Portfolio
+          Portfolio 2.0 : Portfolio 2.0
           Portfolio assignment Grading : Portfolioaufgabe kommentieren und bewerten
           Portfolio Task: Portfolioaufgabe
           Portfolio template Administration and editing : Portfoliovorlage Administration und Bearbeitung
@@ -640,7 +640,6 @@ plugins:
           Test statistics : Teststatistiken
           The assessment form : Das Bewertungsformular
           The Idea of Open-Source Software : Der Open-Source-Gedanke
-          The portfolio editor : Der Portfolio Editor
           The portfolio editor for 17.1: Der Portfolio Editor ab 17.1
           Three Steps to Create and Manage Topics : Drei Schritte zur Erstellung und Verwaltung von Themen
           Three Steps to your Form : Drei Schritte zu Ihrem Formular

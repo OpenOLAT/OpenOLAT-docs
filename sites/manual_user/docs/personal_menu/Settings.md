@@ -249,9 +249,9 @@ System administrators set the default for everyone in the AI module: [External t
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)
 
 **Further reading**<br>
-[Personal Configuration: Profile >](Profile.md)<br>
+[Personal Configuration: Profile >](Profile/index.md)<br>
 [Personal Configuration: Password >](Password.md)<br>
-[User tools >](Personal_Tools.md)<br>
+[User tools >](Personal_Tools/index.md)<br>
 [Chat >](../basic_concepts/Chat.md)
 
 **youtube**<br>

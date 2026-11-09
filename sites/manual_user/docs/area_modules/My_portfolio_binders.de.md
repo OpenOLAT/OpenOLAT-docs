@@ -116,7 +116,7 @@ Zwei weitere Tabs erscheinen abhängig von der Mappe und Ihren Rechten:
 [Portfolioaufgabe: abholen und bearbeiten >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)
 
 **Weiterführend**<br>
-[Persönliche Werkzeuge: Portfolio >](../personal_menu/Portfolio.de.md)<br>
+[Persönliche Werkzeuge: Portfolio 2.0 >](../personal_menu/Portfolio/index.de.md)<br>
 [An mich freigegeben >](Shared_with_me.de.md)
 
 [Zum Seitenanfang ^](#my_portfolio_binders)

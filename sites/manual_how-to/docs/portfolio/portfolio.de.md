@@ -68,7 +68,7 @@ Die individuellen Portfolios können enthalten:
 * Einträge innerhalb der Mappen (Text mit eingefügten Links, Bildern, usw.)
 * an Einträge angehängte Dateien
 
-[Bestandteile des Portfolios >](../../manual_user/area_modules/Components_of_the_portfolio.de.md)<br>
+[Bestandteile des Portfolios >](../../manual_user/area_modules/Components_of_the_portfolio/index.de.md)<br>
 [Der Portfolio Editor >](../../manual_user/area_modules/The_portfolio_editor_17_1.de.md)<br>
 
 [Zum Seitenanfang ^](#portfolio)
@@ -390,7 +390,7 @@ Die Checkliste fasst die Vorbereitungsschritte dieser Anleitung zusammen.
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Allgemeines zum Portfolio >](../../manual_user/area_modules/Portfolio_General_Information.de.md)<br>
-[Bestandteile des Portfolios >](../../manual_user/area_modules/Components_of_the_portfolio.de.md)<br>
+[Bestandteile des Portfolios >](../../manual_user/area_modules/Components_of_the_portfolio/index.de.md)<br>
 [Der Portfolio Editor >](../../manual_user/area_modules/The_portfolio_editor_17_1.de.md)<br>
 [Persönliches Menü >](../../manual_user/personal_menu/index.de.md)<br>
 [Meine Mappen >](../../manual_user/area_modules/My_portfolio_binders.de.md)<br>
@@ -400,7 +400,7 @@ Die Checkliste fasst die Vorbereitungsschritte dieser Anleitung zusammen.
 [Portfolioaufgabe: kommentieren und bewerten >](../../manual_user/learningresources/Portfolio_assignment_Grading.de.md)
 
 **Weiterführend**<br>
-[Portfolio erstellen >](../../manual_user/area_modules/Portfolio.de.md)<br>
+[Persönliche Werkzeuge: Portfolio 2.0 >](../../manual_user/personal_menu/Portfolio/index.de.md)<br>
 [Meine Einträge >](../../manual_user/area_modules/My_entries.de.md)<br>
 [Von mir freigegeben >](../../manual_user/area_modules/Shared_by_me.de.md)<br>
 [An mich freigegeben >](../../manual_user/area_modules/Shared_with_me.de.md)<br>

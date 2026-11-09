@@ -116,7 +116,7 @@ Two further tabs appear depending on the binder and your rights:
 [Portfolio task and assignment: Collecting and editing >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
 
 **Further reading**<br>
-[User tools: Portfolio >](../personal_menu/Portfolio.md)<br>
+[User tools: Portfolio 2.0 >](../personal_menu/Portfolio/index.md)<br>
 [Shared with me >](Shared_with_me.md)
 
 [To the top of the page ^](#my_portfolio_binders)

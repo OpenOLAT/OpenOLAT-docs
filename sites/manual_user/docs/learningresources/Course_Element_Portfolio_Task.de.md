@@ -126,7 +126,7 @@ Nach dem Abholen zeigt der Kursbaustein in der "Leistungsübersicht" den Stand I
 ![Leistungsübersicht mit Erfolgsstatus, Punkten und Abholdatum, darunter der Button "Portfolio öffnen" der abgeholten Portfolioaufgabe](assets/course_element_portfolio_task_open_task_v2_de.png){ class="shadow lightbox" title="Abgeholte Portfolioaufgabe im Kurs · 2026.11.02" }
 
 
-Die abgeholte Mappe finden Sie ausserdem in Ihrem [persönlichen Menü](../personal_menu/Personal_Tools.de.md) unter:<br>
+Die abgeholte Mappe finden Sie ausserdem in Ihrem [persönlichen Menü](../personal_menu/Personal_Tools/index.de.md) unter:<br>
 `Portfolio 2.0 > Zu meinen Mappen`
 
 ![Eintrag "Portfolio 2.0" unter "Persönliche Werkzeuge" im persönlichen Menü](assets/course_element_portfolio_task_pers_menu_v2_de.png){ width="250" class="shadow lightbox" title="Persönliches Menü · 2026.11.02" }
@@ -310,13 +310,13 @@ Wie Betreuer:innen eine Portfolioaufgabe kommentieren und bewerten, erfahren Sie
 [Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)<br>
 [Der Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](Portfolio_template_Administration_and_editing.de.md)
 
 **Weiterführend**<br>
 [Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
-[Bestandteile des Portfolios >](../area_modules/Components_of_the_portfolio.de.md)<br>
+[Bestandteile des Portfolios >](../area_modules/Components_of_the_portfolio/index.de.md)<br>
 [Meine Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
 [Meine Einträge >](../area_modules/My_entries.de.md)<br>
 [Formulare - Übersicht >](Form.de.md)<br>

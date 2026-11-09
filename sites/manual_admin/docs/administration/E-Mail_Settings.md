@@ -92,7 +92,7 @@ The obstacle is not the tool, but finding the variable: the mail texts are sprea
 
 ## E-Mail signature [:octicons-tag-16:{ title="from Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
-With the E-Mail signature, OpenOlat appends the personal text of a person to the end of the emails that this person sends from OpenOlat via an email form, for example via the course element "E-Mail", the course element "Participant list" or the members management. The text sits at the end of the message in the email form, where it can still be edited before sending. Every person enters their signature themselves: [Profile](../../manual_user/personal_menu/Profile.md).
+With the E-Mail signature, OpenOlat appends the personal text of a person to the end of the emails that this person sends from OpenOlat via an email form, for example via the course element "E-Mail", the course element "Participant list" or the members management. The text sits at the end of the message in the email form, where it can still be edited before sending. Every person enters their signature themselves: [Profile](../../manual_user/personal_menu/Profile/index.md).
 
 On a new installation the field "E-Mail signature" is already in the profile: the property "emailSignature" is active in the system configuration and included in the context of the profile. If the field is missing from the profile of your instance, its saved configuration differs from this. Then check two places in the system administration under:<br>
 `Administration > Customizing > User Properties`
@@ -140,7 +140,7 @@ We recommend switching on only "include" in this row. "Mandatory", "Admin only" 
 [Life cycles - Overview >](Life_cycles_-_Administration.md)<br>
 [Automatic Group Life Cycle >](Automatic_Group_Lifecycle.md)<br>
 [How do I use the language adaptation tool? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.md)<br>
-[Profile >](../../manual_user/personal_menu/Profile.md)<br>
+[Profile >](../../manual_user/personal_menu/Profile/index.md)<br>
 [Customizing: Overview >](Customizing.md)
 
 [To the top of the page ^](#email_settings)

@@ -39,7 +39,7 @@ At the end of the menu you find the "Log out" function.
     * [Booking orders](../personal_menu/Bookings.md)
     * [Other users](../personal_menu/Other_users.md)
     * [Absences](../personal_menu/Absences.md)
-    * [Portfolio 2.0](../personal_menu/Portfolio.md)
+    * [Portfolio 2.0](Portfolio/index.md)
     * [Media Center](../personal_menu/Media_Center.md)
     * [To-dos](../personal_menu/To-Dos.md)
     * [E-Mail](../personal_menu/E-Mail.md)
@@ -54,13 +54,13 @@ At the end of the menu you find the "Log out" function.
 
     **Configuration**
 
-    * [Profile](../personal_menu/Profile.md)
+    * [Profile](Profile/index.md)
     * [Settings](../personal_menu/Settings.md)
     * [Password](../personal_menu/Password.md)
 
 The "Help" and "System" sections contain no personal data. Under "Help" you find the links that the administration has released for your installation, for example to the OpenOlat manual, to the OpenOlat Academy or to a support address. Under "System" you find system related functions such as "Print".
 
-A detailed description of all tools is available on the page [User tools](../personal_menu/Personal_Tools.md).
+A detailed description of all tools is available on the page [User tools](Personal_Tools/index.md).
 
 
 ## Available tools {: #available_tools}
@@ -116,7 +116,7 @@ Two tools are not part of the personal menu but are always in the menu bar: the 
 ## Further information {: #further_information}
 
 [Navigation >](../basic_concepts/Navigation.md)<br>
-[Personal Configuration >](../personal_menu/Personal_Configuration.md)<br>
+[Personal Configuration >](Personal_Configuration/index.md)<br>
 [Session Timeout and Logout >](../basic_concepts/Session_Timeout_and_Logout.md)
 
 **youtube**<br>

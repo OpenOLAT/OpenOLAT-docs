@@ -197,7 +197,7 @@ If a single person needs more space, administrators, roles managers or user mana
 
 ## Use media [:octicons-tag-16:{ title="from Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
-You use media items from the Media Center wherever you create content. You use files, documents and collections, for example, with the Content Editor in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
+You use media items from the Media Center wherever you create content. You use files, documents and collections, for example, with the Content Editor in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../personal_menu/Portfolio/index.md).
 
 ![Highlighted entry Select from my Media Center in the menu Add content of the course element Page, next to Image, Video, Citation and Document](assets/media_center_page_v1_de.png){ class=" shadow lightbox" title="Menu Add content in the course element Page" }
 
@@ -252,7 +252,7 @@ You cannot add media items in the media management, the "Add media file" button 
 [Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
 [Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
 [Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
-[Creating Portfolios >](../area_modules/Portfolio.md)
+[User tools: Portfolio 2.0 >](../personal_menu/Portfolio/index.md)
 
 **Further reading**<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>

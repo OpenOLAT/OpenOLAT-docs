@@ -161,7 +161,7 @@ Where people work together, and who looks after whom.
 
     Classroom operation: when something takes place, who was present and how an absence is handled.
 
--   __[ePortfolio](manual_user/personal_menu/Portfolio.md)__
+-   __[ePortfolio](manual_user/personal_menu/Portfolio/index.md)__
     {: data-oo-cluster="collaboration_and_people" data-oo-domain="portfolio" }
 
     ---

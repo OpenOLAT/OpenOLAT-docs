@@ -1,16 +1,16 @@
-# User tools: Competences {: #competences}
+# Personal achievements/successes: Competences {: #competences}
 
 ![User tools menu with the entry Competences, the overview of all competences assigned to a person](assets/pers_menu_competences_v3_de.png){ class="aside-right lightbox"}
 
 ![Competences icon](assets/icon_competences.png)
 
 
-In the user tools, learners get an overview of all competences that have been assigned to them in OpenOlat.
+In the section "Achievements/Successes" of the personal menu, learners get an overview of all competences that have been assigned to them in OpenOlat.
 
 Competences may have been assigned in ePortfolio entries, for example, or entered manually by user managers in the user profile.
 
 
-![List My competences, structured by taxonomy and taxonomy level, with the columns Competence, Resource, Additional information and Type; types are Manage or Have](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox" title="Competences in the user tools" }
+![List My competences, structured by taxonomy and taxonomy level, with the columns Competence, Resource, Additional information and Type; types are Manage or Have](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox" title="Competences in the section Achievements/Successes" }
 
 !!! info "Important"
 
@@ -23,7 +23,7 @@ Competences may have been assigned in ePortfolio entries, for example, or entere
 
 ## Where do competences play a role? {: #where_used}
 
-Apart from the display in the user tools, the awarding or acquisition of competences also occurs in the following contexts:
+Apart from the display under "Achievements/Successes", the awarding or acquisition of competences also occurs in the following contexts:
 
 - [Competences tags >](../area_modules/Competences_tags.md) (ePortfolio)
 - [File Hub Concept >](../basic_concepts/File_Hub_Concept.md) (Document pool)

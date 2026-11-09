@@ -58,8 +58,8 @@ Contact the COVID commissioners of your organisation if you have problems adding
 
 ## Further information {: #further_information}
 
-[Personal Configuration >](Personal_Configuration.md)<br>
-[Profile >](Profile.md)<br>
+[Personal Configuration >](Personal_Configuration/index.md)<br>
+[Profile >](Profile/index.md)<br>
 [Modules: Overview (administration manual) >](../../manual_admin/administration/Modules.md)
 
 **youtube**<br>

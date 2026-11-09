@@ -122,7 +122,7 @@ After collecting, the course element shows the status of your work in the "Perfo
 
 ![Performance summary with success status, score and collection date, below it the button "Open portfolio" of the collected portfolio task](assets/course_element_portfolio_task_open_task_v2_en.png){ class="shadow lightbox" title="Collected portfolio task in the course · 2026.11.02" }
 
-You also find the collected binder in your [personal menu](../personal_menu/Personal_Tools.md) under:<br>
+You also find the collected binder in your [personal menu](../personal_menu/Personal_Tools/index.md) under:<br>
 `Portfolio 2.0 > Go to my binders`
 
 ![Entry "Portfolio 2.0" under "User tools" in the personal menu](assets/course_element_portfolio_task_pers_menu_v2_en.png){ width="250" class="shadow lightbox" title="Personal menu · 2026.11.02" }
@@ -299,13 +299,13 @@ You can find out how coaches comment on and assess a portfolio task on the page 
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
-[User tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools/index.md)<br>
 [The Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.md)<br>
 [Portfolio template: Administration and editing >](Portfolio_template_Administration_and_editing.md)
 
 **Further reading**<br>
 [Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
-[Components of the portfolio >](../area_modules/Components_of_the_portfolio.md)<br>
+[Components of the portfolio >](../area_modules/Components_of_the_portfolio/index.md)<br>
 [My binders >](../area_modules/My_portfolio_binders.md)<br>
 [My entries >](../area_modules/My_entries.md)<br>
 [Forms - Overview >](Form.md)<br>

@@ -161,7 +161,7 @@ Wo Menschen zusammenarbeiten, und wer wen betreut.
 
     Der Präsenzbetrieb: wann etwas stattfindet, wer anwesend war und wie eine Abwesenheit geregelt wird.
 
--   __[ePortfolio](manual_user/personal_menu/Portfolio.de.md)__
+-   __[ePortfolio](manual_user/personal_menu/Portfolio/index.de.md)__
     {: data-oo-cluster="collaboration_and_people" data-oo-domain="portfolio" }
 
     ---

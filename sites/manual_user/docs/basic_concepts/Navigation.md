@@ -74,7 +74,7 @@ On the info page of a learning resource or an implementation, the same action is
 
 **Further reading**<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
-[User tools >](../personal_menu/Personal_Tools.md)
+[User tools >](../personal_menu/Personal_Tools/index.md)
 
 **youtube**<br>
 [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>)<br>

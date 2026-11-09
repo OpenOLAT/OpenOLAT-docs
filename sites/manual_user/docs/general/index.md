@@ -61,7 +61,7 @@ hide:
 1. [Catalog: book courses](../area_modules/catalog2.0/index.md)
 1. [Finding courses](../area_modules/Courses.md)
 1. [Become a group member](../groups/Group_Membership.md)
-1. [User tools](../personal_menu/Personal_Tools.md)
+1. [User tools](../personal_menu/Personal_Tools/index.md)
 1. [Evidence of achievement](../personal_menu/Evidence_of_Achievements.md)
 1. [Course problems and error messages](../help/Course_Problems_and_Error_Messages.md)
 

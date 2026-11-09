@@ -12,7 +12,7 @@ Das persönliche Werkzeug "E-Mail" erscheint nur bei aktiviertem Postfach. Das P
 
 Sie wählen eine oder mehrere Nachrichten über die Kontrollkästchen aus und lösen darauf eine Aktion aus.
 
-![Aktion Weiterleiten in der Aktionsleiste unter der Liste, zwei Nachrichten ausgewählt, Segment Eingang des Postfachs](assets/mail_inbox_actions_de.png){ class="shadow lightbox" }
+![Aktion Weiterleiten in der Aktionsleiste unter der Liste, zwei Nachrichten ausgewählt](assets/mail_inbox_actions_de.png){ class="shadow lightbox" title="Segment Eingang des Postfachs" }
 
 ### E-Mails an die eigene Adresse weiterleiten {: #forward}
 
@@ -28,7 +28,7 @@ OpenOlat bestätigt jede weitergeleitete Nachricht einzeln mit ihrem Betreff. Si
 
 !!! info "Wichtig"
 
-    Das Ziel der Weiterleitung lässt sich nicht frei wählen. OpenOlat sendet immer an die E-Mail-Adresse aus Ihrem Profil. Kommt nichts an, prüfen Sie diese Adresse: [Persönliche Konfiguration: Profil](Profile.de.md). Ohne gültige Adresse findet keine Zustellung nach aussen statt.
+    Das Ziel der Weiterleitung lässt sich nicht frei wählen. OpenOlat sendet immer an die E-Mail-Adresse aus Ihrem Profil. Kommt nichts an, prüfen Sie diese Adresse: [Persönliche Konfiguration: Profil](Profile/index.de.md). Ohne gültige Adresse findet keine Zustellung nach aussen statt.
 
 Soll nicht nur eine einzelne Nachricht, sondern jede künftige E-Mail zusätzlich an Ihre eigene Adresse gehen, richten Sie die Weiterleitung dauerhaft ein: [Persönliche Konfiguration: Einstellungen](Settings.de.md#mail_delivery), Feld "E-Mail Versand".
 
@@ -68,7 +68,7 @@ E-Mails können an diversen Stellen versandt werden, z.B.:
 
 **Auf dieser Seite erwähnt**<br>
 [E-Mail Einstellungen >](../../manual_admin/administration/E-Mail_Settings.de.md)<br>
-[Persönliche Konfiguration: Profil >](Profile.de.md)<br>
+[Persönliche Konfiguration: Profil >](Profile/index.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](Settings.de.md)<br>
 [Kursbaustein "E-Mail" >](../learningresources/Course_Element_EMail.de.md)<br>
 [Kursbaustein "Liste der Teilnehmer:innen" >](../learningresources/Course_Element_Participant_List.de.md)<br>
@@ -78,7 +78,7 @@ E-Mails können an diversen Stellen versandt werden, z.B.:
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 
 **Weiterführend**<br>
-[Persönliche Werkzeuge: Übersicht >](Personal_Tools.de.md)<br>
+[Persönliche Werkzeuge >](Personal_Tools/index.de.md)<br>
 [Abonnements >](Subscriptions.de.md)
 
 [Zum Seitenanfang ^](#email)

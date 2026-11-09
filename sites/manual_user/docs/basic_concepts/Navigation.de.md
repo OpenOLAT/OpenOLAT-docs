@@ -74,7 +74,7 @@ Auf der Infoseite einer Lernressource oder einer Durchführung steht dieselbe Ak
 
 **Weiterführend**<br>
 [Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)
 
 **youtube**<br>
 [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>)<br>

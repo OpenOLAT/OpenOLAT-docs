@@ -30,7 +30,7 @@ If the option "Unique" is activated in the system administration, no two account
 
 ### User profile {: #profile}
 
-If the name, email address or contact details of a person are no longer correct, you correct them in the "User profile" tab without the person having to act. The tab shows the personal data, the personal details, the contact details and, in the "Institution" section, the details of the institution, together with the visiting card and the personal picture of the person. These are the same entries the person maintains under `Personal menu > Profile`, see [Profile](../../manual_user/personal_menu/Profile.md). The mandatory entries in the user profile include: Login name, first name, surname and email address. With "Block E-Mail delivery" you prevent OpenOlat from sending mails to this address.
+If the name, email address or contact details of a person are no longer correct, you correct them in the "User profile" tab without the person having to act. The tab shows the personal data, the personal details, the contact details and, in the "Institution" section, the details of the institution, together with the visiting card and the personal picture of the person. These are the same entries the person maintains under `Personal menu > Profile`, see [Profile](../../manual_user/personal_menu/Profile/index.md). The mandatory entries in the user profile include: Login name, first name, surname and email address. With "Block E-Mail delivery" you prevent OpenOlat from sending mails to this address.
 
 All roles that open the user settings reach the tab. Administrators, user managers and roles managers can change the entries; principals see the profile without editing it.
 
@@ -382,7 +382,7 @@ OpenOlat only shows the tab when the correction workflow is switched on, and not
 [Data protection >](Data_protection.md)<br>
 [Delete user >](Delete_User.md)<br>
 [E-mail settings >](../administration/E-Mail_Settings.md)<br>
-[User profile >](../../manual_user/personal_menu/Profile.md)<br>
+[User profile >](../../manual_user/personal_menu/Profile/index.md)<br>
 [Module Organisations >](../administration/Modules_Organisations.md)<br>
 [Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>

@@ -230,7 +230,7 @@ Launcher und Filter des Katalogs richten Systemadministrator:innen in der System
 [Qualitätsmanagement: Analyse >](../area_modules/Quality_Management_Analysis.de.md)<br>
 [Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
 [e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
-[Persönliche Werkzeuge: Kompetenzen >](../personal_menu/Competences.de.md)<br>
+[Persönliche Erfolge/Leistungen: Kompetenzen >](../personal_menu/Competences.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>

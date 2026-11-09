@@ -61,7 +61,7 @@ hide:
 1. [Katalog: Kurse buchen](../area_modules/catalog2.0/index.de.md)
 1. [Kurse finden](../area_modules/Courses.de.md)
 1. [Gruppenmitglied werden](../groups/Group_Membership.de.md)
-1. [Persönliche Werkzeuge](../personal_menu/Personal_Tools.de.md)
+1. [Persönliche Werkzeuge](../personal_menu/Personal_Tools/index.de.md)
 1. [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
 1. [Probleme und Fehlermeldungen im Kurs](../help/Course_Problems_and_Error_Messages.de.md)
 

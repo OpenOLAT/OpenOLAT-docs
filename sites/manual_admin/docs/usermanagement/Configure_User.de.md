@@ -30,7 +30,7 @@ Ist die Option "Eindeutig" in der System-Administration aktiviert, entstehen kei
 
 ### Profil {: #profile}
 
-Stimmen Name, E-Mail-Adresse oder Kontaktdaten einer Person nicht mehr, korrigieren Sie sie im Reiter "Profil", ohne dass die Person selbst tätig werden muss. Der Reiter zeigt die Personalien, die Angaben zur Person, die Kontaktdaten und im Abschnitt "Institution" die Angaben zur Institution, dazu die Visitenkarte und das persönliche Bild der Person. Es sind dieselben Angaben, die die Person selbst unter `Persönliches Menü > Profil` pflegt, siehe [Profil](../../manual_user/personal_menu/Profile.de.md). Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Mit "E-Mail Versand sperren" verhindern Sie, dass OpenOlat Mails an diese Adresse versendet.
+Stimmen Name, E-Mail-Adresse oder Kontaktdaten einer Person nicht mehr, korrigieren Sie sie im Reiter "Profil", ohne dass die Person selbst tätig werden muss. Der Reiter zeigt die Personalien, die Angaben zur Person, die Kontaktdaten und im Abschnitt "Institution" die Angaben zur Institution, dazu die Visitenkarte und das persönliche Bild der Person. Es sind dieselben Angaben, die die Person selbst unter `Persönliches Menü > Profil` pflegt, siehe [Profil](../../manual_user/personal_menu/Profile/index.de.md). Zu den verbindlichen Einträgen des Benutzerprofils gehören: Anmeldename, Vorname, Nachname und E-Mail. Mit "E-Mail Versand sperren" verhindern Sie, dass OpenOlat Mails an diese Adresse versendet.
 
 Den Reiter erreichen alle Rollen, welche die Kontoeinstellungen öffnen. Ändern können die Angaben Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen; Principals sehen das Profil, ohne es zu bearbeiten.
 
@@ -380,7 +380,7 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht b
 [Datenschutz >](Data_protection.de.md)<br>
 [Benutzer:in löschen >](Delete_User.de.md)<br>
 [E-Mail Einstellungen >](../administration/E-Mail_Settings.de.md)<br>
-[Profil >](../../manual_user/personal_menu/Profile.de.md)<br>
+[Profil >](../../manual_user/personal_menu/Profile/index.de.md)<br>
 [Modul Organisationen >](../administration/Modules_Organisations.de.md)<br>
 [Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>

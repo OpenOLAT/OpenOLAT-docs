@@ -230,7 +230,7 @@ System administrators set up the launchers and filters of the catalog in the sys
 [Quality Management: Analysis >](../area_modules/Quality_Management_Analysis.md)<br>
 [Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
 [e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
-[User tools: Competences >](../personal_menu/Competences.md)<br>
+[Personal achievements/successes: Competences >](../personal_menu/Competences.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>

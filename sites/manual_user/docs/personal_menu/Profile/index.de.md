@@ -1,6 +1,6 @@
 # :o_icon_o_icon_user: Persönliche Konfiguration: Profil {: #personal_configuration_profile}
 
-![Eintrag Profil im Abschnitt Konfiguration des persönlichen Menüs, über den Einträgen Einstellungen und Passwort](assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Profil im Abschnitt Konfiguration des persönlichen Menüs, über den Einträgen Einstellungen und Passwort](../assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
 
 Im persönlichen Menü, Abschnitt "Konfiguration", unter der Option "Profil" können Sie Ihre persönlichen Daten ändern und Ihre Visitenkarte einrichten. Vervollständigen Sie die vorgesehenen Felder.
 
@@ -45,16 +45,16 @@ Mit Hilfe der Check-Boxen bestimmen Sie, welche Einträge auf Ihrer Visitenkarte
 !!! tip "Tipp"
 
     Um sich die Visitenkarten anderer OpenOlat-Benutzer:innen anzuschauen, wählen Sie
-    im persönlichen Menü das Werkzeug "[Personensuche](Other_users.de.md)" und suchen die gewünschte Person über
+    im persönlichen Menü das Werkzeug "[Personensuche](../Other_users.de.md)" und suchen die gewünschte Person über
     die Suchmaske.
 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Persönliche Werkzeuge: Personensuche >](Other_users.de.md)<br>
-[Persönliche Werkzeuge: E-Mail >](E-Mail.de.md)<br>
-[Persönliche Konfiguration: Einstellungen >](Settings.de.md)<br>
-[Persönliche Konfiguration: Passwort >](Password.de.md)<br>
-[Persönliches Menü >](index.de.md)
+[Persönliche Werkzeuge: Personensuche >](../Other_users.de.md)<br>
+[Persönliche Werkzeuge: E-Mail >](../E-Mail.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../Settings.de.md)<br>
+[Persönliche Konfiguration: Passwort >](../Password.de.md)<br>
+[Persönliches Menü >](../index.de.md)
 
 [Zum Seitenanfang ^](#personal_configuration_profile)

@@ -57,7 +57,7 @@ For certificates issued automatically after successful completion of a course, y
 
 !!! note "Note"
 
-    You can find evidences of achievement and certificates from **all** your courses in the personal menu under ["Evidence of achievement"](../personal_menu/Personal_Tools.md#evidences_of_achievement).
+    You can find evidences of achievement and certificates from **all** your courses in the personal menu under ["Evidence of achievement"](../personal_menu/Evidence_of_Achievements.md).
 
 [More about evidence of achievement >](../personal_menu/Evidence_of_Achievements.md)
 
@@ -173,7 +173,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 **Mentioned on this page**<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
 [Coaching - Overview >](../area_modules/Coaching/index.md)<br>
-[User tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools/index.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>

@@ -1,6 +1,6 @@
 # Search in the File Hub {: #search_in_file_hub}
 
-The [File Hub](../personal_menu/File_Hub.md), which you find under [User tools](../personal_menu/Personal_Tools.md), is a personal file explorer and shows available files of the OpenOlat instance.
+The [File Hub](../personal_menu/File_Hub.md), which you find under [User tools](../personal_menu/Personal_Tools/index.md), is a personal file explorer and shows available files of the OpenOlat instance.
 
 Accordingly, the search in the File Hub is primarily aimed at **files** that you want to copy or move, for example.
 
@@ -23,7 +23,7 @@ It is not a full-text search, i.e. no search within Word files, for example.
 
 A [full-text search](Search_General.md#full_text_search) is performed in the search field of the File Hub.
 
-![Dialog Full-text search with search term, number of hits and a found PDF from a course folder, opened from the search field of the File Hub](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" }
+![Search term, number of hits and a found PDF from a course folder](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" title="Dialog Full-text search in the File Hub" }
 
 It is restricted to the storage locations offered in the File Hub. These are the following folders:
 
@@ -38,9 +38,9 @@ It is restricted to the storage locations offered in the File Hub. These are the
 
 The "Advanced search" in the search result is also a [full-text search](Search_General.md#full_text_search) without restrictions. The page [General information on the search](Search_General.md#advanced_search) describes the search fields of the advanced search.
 
-![Link Advanced search below the search field in the dialog Full-text search of the File Hub](assets/search_in_filehub_advanced_search1_v1_de.png){ class="shadow lightbox" }
+![Link Advanced search below the search field](assets/search_in_filehub_advanced_search1_v1_de.png){ class="shadow lightbox" title="Dialog Full-text search in the File Hub" }
 
-![Form of the advanced search with the fields author, title, description, creation date, last modified, document type, license and metadata, dialog Full-text search of the File Hub](assets/search_in_filehub_advanced_search2_v1_de.png){ class="shadow lightbox" }
+![Form of the advanced search with the fields author, title, description, creation date, last modified, document type, license and metadata](assets/search_in_filehub_advanced_search2_v1_de.png){ class="shadow lightbox" title="Advanced search in the dialog Full-text search" }
 
 !!! info "Background information"
 
@@ -55,7 +55,7 @@ The "Advanced search" in the search result is also a [full-text search](Search_G
 ## Further information {: #further_information}
 
 [User tools: File Hub >](../personal_menu/File_Hub.md)<br>
-[User tools >](../personal_menu/Personal_Tools.md)<br>
+[User tools >](../personal_menu/Personal_Tools/index.md)<br>
 [General information on the search >](Search_General.md)<br>
 [Global search >](Search_Global.md)<br>
 [Local search >](Search_Local.md)<br>

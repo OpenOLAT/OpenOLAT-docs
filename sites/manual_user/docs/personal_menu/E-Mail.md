@@ -12,7 +12,7 @@ The personal tool "E-mail" only appears when the inbox is enabled. The inbox col
 
 You select one or several messages with the check boxes and then trigger an action.
 
-![Action Forward in the action bar below the list, two messages selected, segment Inbox of the mailbox](assets/mail_inbox_actions_en.png){ class="shadow lightbox" }
+![Action Forward in the action bar below the list, two messages selected](assets/mail_inbox_actions_en.png){ class="shadow lightbox" title="Segment Inbox of the mailbox" }
 
 ### Forwarding e-mails to your own address {: #forward}
 
@@ -28,7 +28,7 @@ OpenOlat confirms each forwarded message separately with its subject. You can th
 
 !!! info "Important"
 
-    You cannot choose the target of the forwarding. OpenOlat always sends to the e-mail address from your profile. If nothing arrives, check this address: [Personal Configuration: Profile](Profile.md). Without a valid address, no delivery to the outside takes place.
+    You cannot choose the target of the forwarding. OpenOlat always sends to the e-mail address from your profile. If nothing arrives, check this address: [Personal Configuration: Profile](Profile/index.md). Without a valid address, no delivery to the outside takes place.
 
 If not only a single message but every future e-mail should also go to your own address, set up the forwarding permanently: [Personal Configuration: Settings](Settings.md#mail_delivery), field "E-mail delivery".
 
@@ -68,7 +68,7 @@ E-mails can be sent from various places, e.g.:
 
 **Mentioned on this page**<br>
 [Email Settings >](../../manual_admin/administration/E-Mail_Settings.md)<br>
-[Personal Configuration: Profile >](Profile.md)<br>
+[Personal Configuration: Profile >](Profile/index.md)<br>
 [Personal Configuration: Settings >](Settings.md)<br>
 [Course Element "E-Mail" >](../learningresources/Course_Element_EMail.md)<br>
 [Course Element "Participant list" >](../learningresources/Course_Element_Participant_List.md)<br>
@@ -78,7 +78,7 @@ E-mails can be sent from various places, e.g.:
 [Members management >](../learningresources/Members_management.md)
 
 **Further reading**<br>
-[User tools >](Personal_Tools.md)<br>
+[User tools >](Personal_Tools/index.md)<br>
 [Subscriptions >](Subscriptions.md)
 
 [To the top of the page ^](#email)

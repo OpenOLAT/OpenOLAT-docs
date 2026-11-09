@@ -1,6 +1,6 @@
 # :o_icon_o_icon_user: Personal Configuration: Profile {: #personal_configuration_profile}
 
-![Entry Profile in the section Configuration of the personal menu, above the entries System settings and Password](assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
+![Entry Profile in the section Configuration of the personal menu, above the entries System settings and Password](../assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
 
 In the personal menu, section "Configuration", under the option "Profile" you can change your personal data and set up your visiting card. Complete the fields provided.
 
@@ -45,16 +45,16 @@ With the help of the check boxes you determine which entries appear on your visi
 !!! tip "Tip"
 
     To view the visiting cards of other OpenOlat users, select the tool
-    "[Other users](Other_users.md)" in the personal menu and search for the desired person using the
+    "[Other users](../Other_users.md)" in the personal menu and search for the desired person using the
     search mask.
 
 
 ## Further information {: #further_information}
 
-[User tools: Other users >](Other_users.md)<br>
-[User tools: E-Mail >](E-Mail.md)<br>
-[Personal Configuration: Settings >](Settings.md)<br>
-[Personal Configuration: Password >](Password.md)<br>
-[Personal menu and general components >](index.md)
+[User tools: Other users >](../Other_users.md)<br>
+[User tools: E-Mail >](../E-Mail.md)<br>
+[Personal Configuration: Settings >](../Settings.md)<br>
+[Personal Configuration: Password >](../Password.md)<br>
+[Personal menu and general components >](../index.md)
 
 [To the top of the page ^](#personal_configuration_profile)

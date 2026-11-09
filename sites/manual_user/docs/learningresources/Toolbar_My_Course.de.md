@@ -60,7 +60,7 @@ Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Ku
 
 !!! note "Hinweis"
 
-    Leistungsnachweise und Zertifikate aus **allen** Ihren Kursen finden Sie im persönlichen Menü unter ["Leistungsnachweise"](../personal_menu/Personal_Tools.de.md#evidences_of_achievement). 
+    Leistungsnachweise und Zertifikate aus **allen** Ihren Kursen finden Sie im persönlichen Menü unter ["Leistungsnachweise"](../personal_menu/Evidence_of_Achievements.de.md). 
 
 [Mehr über Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)
 
@@ -182,7 +182,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 **Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)<br>
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>

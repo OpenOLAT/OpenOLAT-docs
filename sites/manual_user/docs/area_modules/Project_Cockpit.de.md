@@ -4,7 +4,7 @@
 
 Ruft man das Projekt-Tool auf, landet man in der Übersicht mit allen Projekten (Tab "Meine Projekte").
 
-![Übersicht Meine Projekte mit den Projekten als Kacheln mit Bild, Titel und Status](assets/Meine_Projekte1.jpg){ class="shadow lightbox" }
+![Projekte als Kacheln mit Bild, Titel und Status](assets/Meine_Projekte1.jpg){ class="shadow lightbox" title="Übersicht Meine Projekte" }
 
 ## Startscreen eines Projekts (Cockpit)
 
@@ -15,7 +15,7 @@ Klickt man auf ein konkretes Projekt, landet man im Cockpit des Projektes. Von h
     Die genauen Möglichkeiten variieren leicht je nach Projektrolle.
 
 
-![Cockpit eines Projekts mit Schnellzugriff, Terminplan, To-dos, Entscheiden, Notizen und Dateien links sowie Whiteboard und Timeline rechts](assets/Ein_Projekt.jpg){ class="shadow lightbox" }
+![Schnellzugriff, Terminplan, To-dos, Entscheide, Notizen und Dateien links sowie Whiteboard und Timeline rechts](assets/Ein_Projekt.jpg){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 
 ## Objekte im Projekt
@@ -37,7 +37,7 @@ Die Objekte eines Projektes lassen sich miteinander verknüpfen, um zusammengeh�
 * den Button **"Objekt verlinken"**, um ein bestehendes Objekt zu verlinken oder auf
 * den Button **"Link hinzufügen"**, um ein Objekt mit Verknüpfung direkt zu erstellen.
 
-![Aufgeklappter Abschnitt Links im Bearbeitungsdialog eines Objekts mit den Buttons Objekt verlinken und Link hinzufügen](assets/project_links_v1_de.png){ class="shadow lightbox" }
+![Aufgeklappter Abschnitt Links mit den Buttons Objekt verlinken und Link hinzufügen](assets/project_links_v1_de.png){ class="shadow lightbox" title="Bearbeitungsdialog eines Objekts im Projekt" }
 
 !!! info "Wichtig"
 
@@ -45,16 +45,16 @@ Die Objekte eines Projektes lassen sich miteinander verknüpfen, um zusammengeh�
 
 ## Benachrichtigungen
 
-In einem Projekt arbeiten mehrere Personen zusammen, deshalb ist es wichtig, über Fortschritte und Änderungen informiert zu werden. Verwenden Sie dazu die [Abonnement-Funktion](../personal_menu/Personal_Tools.de.md#subscriptions) (am rechten Rand, unter den Bildern der Projektmitglieder, Schalter "Änderungen").
+In einem Projekt arbeiten mehrere Personen zusammen, deshalb ist es wichtig, über Fortschritte und Änderungen informiert zu werden. Verwenden Sie dazu die [Abonnement-Funktion](../personal_menu/Personal_Tools/index.de.md#subscriptions) (am rechten Rand, unter den Bildern der Projektmitglieder, Schalter "Änderungen").
 
-![Schalter Änderungen unter den Bildern der Projektmitglieder im Cockpit, mit dem das Abonnement ein- und ausgeschaltet wird](assets/Projekt_abonnieren.jpg){ class="shadow lightbox" }
+![Schalter Änderungen unter den Bildern der Projektmitglieder, mit dem das Abonnement ein- und ausgeschaltet wird](assets/Projekt_abonnieren.jpg){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
 !!! info "Wichtig"
 
     Standardmässig ist die Abonnement-Funktion in neuen Projekten aktiviert. Sie kann mit dem Schalter ausgeschaltet werden.
 
 
-Die [Abonnement-Funktion](../personal_menu/Personal_Tools.de.md#subscriptions) steht auch in anderen Bereichen, z.B. in Kursen in bestimmten Kursbausteinen, zur Verfügung. In Projekten hat sie die folgende Besonderheit:
+Die [Abonnement-Funktion](../personal_menu/Personal_Tools/index.de.md#subscriptions) steht auch in anderen Bereichen, z.B. in Kursen in bestimmten Kursbausteinen, zur Verfügung. In Projekten hat sie die folgende Besonderheit:
 
 * Es werden **Sammel-Mails** erzeugt, um zu vermeiden, dass wegen jeder kleinen Änderung im Projekt eine Mail verschickt wird.
 * **Ausnahme**: Änderungen bei To-dos
@@ -62,6 +62,6 @@ Die [Abonnement-Funktion](../personal_menu/Personal_Tools.de.md#subscriptions) s
 
 ## Weiterführende Informationen {: #further_information}
 
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools.de.md)
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)
 
 [Zum Seitenanfang ^](#cockpit)
