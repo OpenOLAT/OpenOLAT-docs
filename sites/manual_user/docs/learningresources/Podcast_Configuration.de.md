@@ -1,6 +1,6 @@
-# Podcast konfigurieren {: #config}
+# Podcast im Kursbaustein konfigurieren {: #config}
 
-Die folgenden Ausführungen zur Konfiguration beziehen sich auf Podcasts in Kursen.
+Die folgenden Ausführungen zur Konfiguration beziehen sich auf Podcasts in Kursen. Was für den Podcast in allen Kursen gilt, etwa ob Episoden bewertet und kommentiert werden können, legen Sie in der Lernressource fest, siehe [Podcast: Administration](Podcast_Administration.de.md).
 
 ## Tab "Podcast-Lerninhalt"
 
@@ -60,7 +60,7 @@ Das **Recht zum Erstellen von Beiträgen** gilt nur für interne OpenOlat Podcas
 
 !!! warning "Achtung"
 
-    Beachten Sie die Upload- und Speichergrenzen (Quota), die Systemadministrator:innen für Podcasts festlegen, und laden Sie möglichst kleine Dateien hoch.
+    Beachten Sie die Upload- und Speichergrenzen (Quota) des Podcasts, siehe [Podcast: Administration](Podcast_Administration.de.md#tab_quota), und laden Sie möglichst kleine Dateien hoch.
 
 Ist der Kurseditor geschlossen, werden die bereitgestellten Podcast-Episoden sowie, sofern im Kurseditor aktiviert, die in der Lernressource hinterlegten Informationen (Titel, Beschreibung, Bild) angezeigt.
 
@@ -79,6 +79,7 @@ Mit dem Recht "Beiträge erstellen" können auch Teilnehmende Episoden erstellen
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Podcast: Administration >](Podcast_Administration.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
 
 **Weiterführend**<br>

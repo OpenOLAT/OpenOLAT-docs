@@ -170,7 +170,8 @@ Anschliessend zeigt der Kurs die Einträge des externen Blogs. Je nach Einstellu
 
 **Weiterführend**<br>
 [Kursbaustein "Blog" >](../../manual_user/learningresources/Course_Element_Blog.de.md)<br>
-[Blog konfigurieren >](../../manual_user/learningresources/Blog_Configuration.de.md)<br>
+[Blog im Kursbaustein konfigurieren >](../../manual_user/learningresources/Blog_Configuration.de.md)<br>
+[Blog: Administration >](../../manual_user/learningresources/Blog_Administration.de.md)<br>
 [Bloggen >](../../manual_user/learningresources/Blog_Blogging.de.md)
 
 [zum Seitenanfang ^](#how_do_i_create_a_blog)

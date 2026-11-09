@@ -45,7 +45,7 @@ Filters are available above the list to limit the displayed posts: "All", "My en
 
 !!! tip "Requirements"
 
-    In order for you as a course participant or coach not only to comment and rate, but also to write your own contributions, it must first be permitted by the course owner. (See also [Blog Configuration](../learningresources/Blog_Configuration.md))<br>
+    In order for you as a course participant or coach not only to comment and rate, but also to write your own contributions, it must first be permitted by the course owner. (See also [Configure a blog in the course element](../learningresources/Blog_Configuration.md#create_entries))<br>
     Please also note that **external** blogs inserted via a link cannot be edited.
 
 Add your own entry by using the "Add entry" button. To reopen and edit, select the option under the 3 dots or click on the title in the list view. In the course view, you will find an "Edit" link for each of your contributions.
@@ -122,7 +122,7 @@ In the normal state, you will see the ratings of other readers. As soon as you m
 
 Moderating a blog means directing or intervening in communication. In a blog, this means that a person checks whether the posts are appropriate or whether they need to be corrected or possibly even deleted. Moderators of an OpenOlat blog have the rights to read, comment, edit, delete and create new entries. Moderators can also customize the title and description of the entire feed. 
 
-The role of moderator can be taken on by course owners in any case. However, the right to act as moderator can also be assigned to coaches or specific persons. (See also [Blog configuration](../learningresources/Blog_Configuration.md))
+The role of moderator can be taken on by course owners in any case. However, the right to act as moderator can also be assigned to coaches or specific persons. (See also [Configure a blog in the course element](../learningresources/Blog_Configuration.md#moderator))
 
 !!! info "Important"
 
@@ -155,7 +155,7 @@ As the author of a post, you can also store your blog posts in the Media Center.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Blog Configuration >](../learningresources/Blog_Configuration.md)<br>
+[Configure a blog in the course element >](../learningresources/Blog_Configuration.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)
 
 **Further reading**<br>

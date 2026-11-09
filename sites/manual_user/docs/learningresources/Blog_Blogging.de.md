@@ -45,7 +45,7 @@ Mit dem Schalter "Zeitleiste & Tags" blenden Sie rechts neben der Liste zusätzl
 
 !!! tip "Voraussetzung"
 
-    Damit Sie als Kursteilnehmer:in oder Betreuer:in nicht nur kommentieren und bewerten, sondern auch eigene Beiträge schreiben können, muss dies von dem/der Kursbesitzer:in entsprechend erlaubt worden sein. (Siehe [Blog konfigurieren](../learningresources/Blog_Configuration.de.md))<br>
+    Damit Sie als Kursteilnehmer:in oder Betreuer:in nicht nur kommentieren und bewerten, sondern auch eigene Beiträge schreiben können, muss dies von dem/der Kursbesitzer:in entsprechend erlaubt worden sein. (Siehe [Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md#create_entries))<br>
     Beachten Sie ausserdem, dass per Link eingefügte **externe** Blogs nicht bearbeitet werden können.
 
 Fügen Sie einen eigenen Beitrag hinzu, indem Sie den Button "Eintrag hinzufügen" verwenden. Zum erneuten Öffnen und Editieren wählen Sie die Option unter den 3 Punkten, bzw. klicken Sie in der Listenansicht auf den Titel. In der Kursansicht finden Sie bei jedem Ihrer Beiträge einen Link "Bearbeiten".
@@ -122,7 +122,7 @@ Im Normalzustand sehen Sie die Bewertungen der anderen Lesenden angezeigt. Sobal
 
 Unter dem Moderieren eines Blogs versteht man das Lenken oder ein lenkendes Eingreifen in eine Kommunikation. In einem Blog heisst das, dass eine Person überprüft, ob die Beiträge angemessen sind oder korrigiert, bzw. eventuell sogar gelöscht werden müssen. Moderator:innen eines OpenOlat-Blogs haben die Rechte alle Einträge zu lesen, zu kommentieren, zu editieren, zu löschen und neue Einträge zu erstellen. Zudem können Moderator:innen auch den Titel und die Beschreibung des ganzen Feeds anpassen.
 
-Die Aufgabe des/der Moderator:in kann auf jeden Fall von Kursbesitzer:innen übernommen werden. Das Moderatorenrecht kann aber auch an Betreuer:innen oder gezielt bestimmte Personen vergeben werden. (Siehe [Blog konfigurieren](../learningresources/Blog_Configuration.de.md))
+Die Aufgabe des/der Moderator:in kann auf jeden Fall von Kursbesitzer:innen übernommen werden. Das Moderatorenrecht kann aber auch an Betreuer:innen oder gezielt bestimmte Personen vergeben werden. (Siehe [Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md#moderator))
 
 !!! info "Wichtig"
 
@@ -155,7 +155,7 @@ Als Ersteller:in können Sie Ihre Blogbeiträge auch im Media Center ablegen. An
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Blog konfigurieren >](../learningresources/Blog_Configuration.de.md)<br>
+[Blog im Kursbaustein konfigurieren >](../learningresources/Blog_Configuration.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)
 
 **Weiterführend**<br>

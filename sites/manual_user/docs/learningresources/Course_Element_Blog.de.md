@@ -29,7 +29,7 @@ Ein Kursbaustein "Blog" zeigt immer eine Blog-Lernressource an. Nach dem Einfüg
 
 ![Die vier Schaltflächen Auswählen, Erstellen, Import und Per URL einbinden zeigen die Wege, dem Kursbaustein einen Blog zuzuweisen](assets/course_element_blog_content_v2_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor · 2026.11.03" }
 
-Wer im Blog moderiert und wer Beiträge erstellt, legen Sie im selben Tab im Bereich "Berechtigungen" fest. So nutzen Sie den Blog, um die Teilnehmenden zu informieren, oder Sie öffnen ihn als gemeinsamen Blog, in dem die Teilnehmenden selbst schreiben. Bei einem neuen Kursbaustein moderieren die Betreuer:innen, und Betreuer:innen sowie Teilnehmer:innen erstellen Beiträge. Mehr dazu finden Sie unter [Blog konfigurieren](../learningresources/Blog_Configuration.de.md#blog_configuration_permissions). [:octicons-tag-16:{ title="ab Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417)
+Wer im Blog moderiert und wer Beiträge erstellt, legen Sie im selben Tab im Bereich "Berechtigungen" fest. So nutzen Sie den Blog, um die Teilnehmenden zu informieren, oder Sie öffnen ihn als gemeinsamen Blog, in dem die Teilnehmenden selbst schreiben. Bei einem neuen Kursbaustein moderieren die Betreuer:innen, und Betreuer:innen sowie Teilnehmer:innen erstellen Beiträge. Mehr dazu finden Sie unter [Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md#blog_configuration_permissions). [:octicons-tag-16:{ title="ab Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417)
 
 !!! tip "Tipp"
 
@@ -44,7 +44,7 @@ Wer im Blog moderiert und wer Beiträge erstellt, legen Sie im selben Tab im Ber
 
 [Blog erstellen >](../learningresources/Blog_Create.de.md)<br>
 [Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
-[Blog konfigurieren >](../learningresources/Blog_Configuration.de.md)<br>
+[Blog im Kursbaustein konfigurieren >](../learningresources/Blog_Configuration.de.md)<br>
 [Bloggen >](../learningresources/Blog_Blogging.de.md)
 
 **youtube**<br>

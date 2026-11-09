@@ -29,7 +29,7 @@ Anyone who watches the video podcast or listens to an audio podcast can leave a 
 
 You can also set up a separate subscription for new comments for each episode, independent of the subscription for the entire episode list [:octicons-tag-16:{ title="from Release 20.1.0 (OO-7731)" }](https://track.frentix.com/issue/OO-7731){:target="_blank"}.
 
-![Comment field below a video episode of the podcast](assets/podcast_listen_and_watch_comment_v1_de.png){ class="shadow lightbox" }
+![Comment field below a video episode](assets/podcast_listen_and_watch_comment_v1_de.png){ class="shadow lightbox" title="Episode of a podcast" }
 
 ---
 
@@ -41,7 +41,7 @@ With the "Create contributions" right, participants can also create episodes and
 
     An initial video must be available so that learners can add their own audio or video episodes. For example, the teacher could upload an initial audio/video and briefly explain what the learners should do in the podcast or introduce the topic with exciting reflection questions.
 
-![Button "Add episode" in the podcast's episode list](assets/podcast_listen_and_watch_episode_v1_de.png){ class="shadow lightbox" }
+![Button "Add episode" above the episodes](assets/podcast_listen_and_watch_episode_v1_de.png){ class="shadow lightbox" title="Episode list of a podcast" }
 
 ---
 
@@ -56,13 +56,13 @@ Each episode can be accessed directly via its own address. This link can be used
 An OpenOlat subscription can be set up for a podcast course element, as for many other course elements.<br>
 In addition, the small buttons for calling up a feed reader or a podcast app are available in the podcast course element.
 
-![Buttons for RSS, iTunes and iOS and the "Changes" switch in the podcast](assets/podcast_listen_and_watch_abo_v1_de.png){ class="shadow lightbox" }
+![Buttons for RSS, iTunes and iOS and the "Changes" switch](assets/podcast_listen_and_watch_abo_v1_de.png){ class="shadow lightbox" title="Podcast in the course" }
 
 ---
 
 ## Further information {: #further_information}
 
 [Create podcasts in courses >](../../manual_how-to/podcast/podcast.md)<br>
-[Configure podcast (as course owner/author) >](../learningresources/Podcast_Configuration.md)<br>
+[Configure a podcast in the course element >](../learningresources/Podcast_Configuration.md)<br>
 
 [To the top of the page ^](#listen_and_watch)

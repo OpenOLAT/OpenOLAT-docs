@@ -34,7 +34,7 @@ Bitte unterscheiden Sie:
 
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)<br>
-[Blog konfigurieren](../learningresources/Blog_Configuration.de.md)<br>
+[Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md)<br>
 [Bloggen](../learningresources/Blog_Blogging.de.md)<br>
 [Kursbaustein "Blog"](../learningresources/Course_Element_Blog.de.md)
 

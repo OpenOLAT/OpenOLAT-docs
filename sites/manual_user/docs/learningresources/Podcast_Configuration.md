@@ -1,6 +1,6 @@
-# Podcast - Configurations {: #config}
+# Configure a podcast in the course element {: #config}
 
-The following information on configuration relates to podcasts in courses.
+The following information on configuration relates to podcasts in courses. What applies to the podcast in all courses, for example whether episodes can be rated and commented on, you define in the learning resource, see [Podcast: Administration](Podcast_Administration.md).
 
 ## Tab: Podcast learning content
 
@@ -61,7 +61,7 @@ The advanced permission configuration allows you to further differentiate the se
 
 !!! warning "Attention"
 
-    Please observe the upload and storage limits (quota) that system administrators set for podcasts, and upload files that are as small as possible.
+    Please observe the upload and storage limits (quota) of the podcast, see [Podcast: Administration](Podcast_Administration.md#tab_quota), and upload files that are as small as possible.
 
 When the course editor is closed, the podcast episodes provided and, if activated in the course editor, the information stored in the learning resource (title, description, image) are displayed.
 
@@ -79,6 +79,7 @@ With the "Create contributions" right, participants can also create episodes and
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Podcast: Administration >](Podcast_Administration.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)
 
 **Further**<br>

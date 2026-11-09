@@ -125,7 +125,7 @@ The podcast is now embedded and participants can play the first episode.
 
 **Further reading**<br>
 [Course Element "Podcast" >](../../manual_user/learningresources/Course_Element_Podcast.md)<br>
-[Podcast - Configurations >](../../manual_user/learningresources/Podcast_Configuration.md)<br>
+[Configure a podcast in the course element >](../../manual_user/learningresources/Podcast_Configuration.md)<br>
 [Listen and watch to podcasts >](../../manual_user/learningresources/Podcast_listen_and_watch.md)
 
 [to the top of the page ^](#how_do_i_create_a_podcast)

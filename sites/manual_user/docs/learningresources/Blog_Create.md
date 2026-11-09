@@ -34,7 +34,7 @@ Please differentiate:
 
 **Mentioned on this page**<br>
 [How do I create a blog?](../../manual_how-to/blog/blog.md)<br>
-[Blog Configuration](../learningresources/Blog_Configuration.md)<br>
+[Configure a blog in the course element](../learningresources/Blog_Configuration.md)<br>
 [Blogging](../learningresources/Blog_Blogging.md)<br>
 [Course Element "Blog"](../learningresources/Course_Element_Blog.md)
 

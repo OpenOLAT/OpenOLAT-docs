@@ -399,11 +399,13 @@ nav:
     - Wiki: "learningresources/Wiki.md"
     - Podcast:
       - learningresources/Podcast/index.md
+      - Administration: "learningresources/Podcast_Administration.md"
       - Course element: "learningresources/Podcast_Configuration.md"
       - Listen and watch: "learningresources/Podcast_listen_and_watch.md"
     - Blog:
       - learningresources/Blog/index.md
       - Create: "learningresources/Blog_Create.md"
+      - Administration: "learningresources/Blog_Administration.md"
       - Course element: "learningresources/Blog_Configuration.md"
       - Blogging: "learningresources/Blog_Blogging.md"
     - Audio:

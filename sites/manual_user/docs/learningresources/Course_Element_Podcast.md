@@ -20,7 +20,7 @@ You can also configure the course element so that participants contribute episod
 
 ## Create or edit episode
 
-You define who may create new episodes in the configuration of the podcast, see [Podcast - Configurations](../learningresources/Podcast_Configuration.md). Persons with this right see the button "Add episode" and use it to upload their audio or video contribution to the podcast.
+You define who may create new episodes in the configuration of the podcast, see [Configure a podcast in the course element](../learningresources/Podcast_Configuration.md). Persons with this right see the button "Add episode" and use it to upload their audio or video contribution to the podcast.
 
 An episode always contains exactly _one_ audio or video file. Select the file on your computer, OpenOlat then uploads it. Depending on the size of the file, this takes a while. The formats FLV, MP3, MP4, M4V, M4A and AAC are allowed.
 
@@ -36,7 +36,7 @@ All logged-in persons who see the podcast comment on the episodes and rate them 
 
 ## Further information {: #further_information}
 
-[Podcast - Configurations >](../learningresources/Podcast_Configuration.md)<br>
+[Configure a podcast in the course element >](../learningresources/Podcast_Configuration.md)<br>
 [How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "Blog" >](Course_Element_Blog.md)

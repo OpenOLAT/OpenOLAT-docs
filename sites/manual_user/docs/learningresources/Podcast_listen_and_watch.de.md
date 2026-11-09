@@ -29,7 +29,7 @@ Alle, die sich den Video-Podcast ansehen, bzw. einen Audio-Podcast anhören, kö
 
 Zusätzlich lässt sich pro Episode gezielt nur ein Abonnement für neue Kommentare einrichten, unabhängig vom Abonnement für die gesamte Episodenliste [:octicons-tag-16:{ title="ab Release 20.1.0 (OO-7731)" }](https://track.frentix.com/issue/OO-7731){:target="_blank"}.
 
-![Kommentarfeld unter einer Video-Episode des Podcasts](assets/podcast_listen_and_watch_comment_v1_de.png){ class="shadow lightbox" }
+![Kommentarfeld unter einer Video-Episode](assets/podcast_listen_and_watch_comment_v1_de.png){ class="shadow lightbox" title="Episode eines Podcasts" }
 
 ---
 
@@ -41,7 +41,7 @@ Mit dem Recht "Beiträge erstellen" können auch Teilnehmende Episoden erstellen
 
     Damit die Lernenden eigene Audio- oder Video-Episoden hinzufügen können, muss ein erstes Video vorhanden sein. Zum Beispiel könnte die Lehrperson ein erstes Audio/Video hochladen und hier kurz erläutern, was die Lernenden im Podcast machen sollen oder in das Thema mit spannenden Reflexionsfragen einführen.
 
-![Schaltfläche "Episode hinzufügen" in der Episodenliste des Podcasts](assets/podcast_listen_and_watch_episode_v1_de.png){ class="shadow lightbox" }
+![Schaltfläche "Episode hinzufügen" über den Episoden](assets/podcast_listen_and_watch_episode_v1_de.png){ class="shadow lightbox" title="Episodenliste eines Podcasts" }
 
 ---
 
@@ -56,13 +56,13 @@ Jede Episode ist über eine eigene Adresse direkt erreichbar. Über diesen Link 
 Für einen Podcast-Kursbaustein kann einerseits ein OpenOlat-Abonnement eingerichtet werden, wie für etliche andere Kursbausteine auch.<br>
 Zusätzlich stehen im Podcast-Kursbaustein die kleinen Buttons zum Aufruf eines Feed-Readers oder einer Podcast-App zur Verfügung.
 
-![Buttons für RSS, iTunes und iOS sowie der Schalter "Änderungen" im Podcast](assets/podcast_listen_and_watch_abo_v1_de.png){ class="shadow lightbox" }
+![Buttons für RSS, iTunes und iOS sowie der Schalter "Änderungen"](assets/podcast_listen_and_watch_abo_v1_de.png){ class="shadow lightbox" title="Podcast im Kurs" }
 
 ---
 
 ## Weiterführende Informationen {: #further_information}
 
 [Podcasts in Kursen erstellt >](../../manual_how-to/podcast/podcast.de.md)<br>
-[Podcast konfigurieren (als Kursbesitzer:in/Autor:in) >](../learningresources/Podcast_Configuration.de.md)<br>
+[Podcast im Kursbaustein konfigurieren >](../learningresources/Podcast_Configuration.de.md)<br>
 
 [Zum Seitenanfang ^](#listen_and_watch)

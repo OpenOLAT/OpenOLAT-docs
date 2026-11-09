@@ -23,14 +23,15 @@ The term "Podcasting" comprises words such as "iPod" and "Broadcasting" and mean
 
 The podcast learning resource can be created directly in the author area. All podcast learning resources that you have created yourself or for which you are the owner are displayed under "My entries". 
 
-In the `Administration > Settings` section of the podcast learning resource, you can also create a booking configuration for the learning resource or assign specific members.
-If the podcast is integrated into a course, an additional release or assignment of additional members is _not necessary_. The "Private" setting and the "Preparation" status are sufficient for the learning resource, as rights management is handled via the course. 
+In the `Podcast > Administration > Settings` section of the podcast learning resource, you can also create a booking configuration for the learning resource or assign specific members.
+If the podcast is integrated into a course, an additional release or assignment of additional members is _not necessary_. The "Private" setting and the "Preparation" status are sufficient for the learning resource, as rights management is handled via the course. The tabs of the settings are described on the page [Podcast: Administration](../Podcast_Administration.md).
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
 [How do I create a podcast? >](../../../manual_how-to/podcast/podcast.md)<br>
-[Podcast - Configurations >](../Podcast_Configuration.md)
+[Configure a podcast in the course element >](../Podcast_Configuration.md)<br>
+[Podcast: Administration >](../Podcast_Administration.md)
 
 **Further**<br>
 [Listen and watch to podcasts >](../Podcast_listen_and_watch.md)

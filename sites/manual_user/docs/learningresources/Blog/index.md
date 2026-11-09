@@ -24,7 +24,8 @@ If you have little experience with creating courses, you will find step-by-step 
 
 A blog is configured in the blog **learning resource** on the one hand and in the blog **course elements** in which the learning resource is integrated on the other.
 
-[Further details >](../Blog_Configuration.md)
+[Configure a blog in the course element >](../Blog_Configuration.md)<br>
+[Blog: Administration >](../Blog_Administration.md)
 
 
 ## Blogging
@@ -51,7 +52,8 @@ So how course participants and coaches can work with a blog in an OpenOlat cours
 [Blogging >](../Blog_Blogging.md)<br>
 [Create a blog >](../Blog_Create.md)<br>
 [How do I create a blog? >](../../../manual_how-to/blog/blog.md)<br>
-[Configure a blog >](../Blog_Configuration.md)<br>
+[Configure a blog in the course element >](../Blog_Configuration.md)<br>
+[Blog: Administration >](../Blog_Administration.md)<br>
 [Forum >](../Course_Element_Forum.md)
 
 [To the top of the page ^](#blog_learning_resource_overview)

@@ -1,6 +1,6 @@
-# Blog Configuration {: #blog_configuration}
+# Configure a blog in the course element {: #blog_configuration}
 
-You configure a blog in two places: in the course element and in the learning resource. In the course element you define which blog appears in the course and who moderates it and creates posts. In the learning resource you define what applies to the blog in all courses.
+You configure a blog in two places: in the course element and in the learning resource. In the course element you define which blog appears in the course and who moderates it and creates posts. This page describes the course element. What applies to the blog in all courses, you define in the learning resource, see [Blog: Administration](Blog_Administration.md).
 
 ## Configuration in the "Blog" course element {: #blog_configuration_course_element}
 
@@ -25,7 +25,7 @@ You embed an external blog with "Embed via URL" through the address of its feed.
 
 Once a blog is assigned, you exchange it for another blog learning resource with "Replace". With "Preview" you look at the blog, with "Edit learning resource" you open the blog learning resource directly. With the arrow next to "Replace" you put a newly created, imported or via URL embedded blog in place of the blog.
 
-The box of the assigned blog shows the number of posts, for an external blog the URL, and whether "Posts are rateable" and "Posts are commentable" are switched on. You define these options in the learning resource in the tab "Options".
+The box of the assigned blog shows the number of posts, for an external blog the URL, and whether "Posts are rateable" and "Posts are commentable" are switched on. You define these options in the learning resource in the tab "Options", see [Blog: Administration](Blog_Administration.md#tab_options).
 
 ![Assigned blog with posts and options, buttons Preview and Replace, menu with Create, Import and Embed via URL, link Edit learning resource](assets/blog_configuration_replace_v1_en.png){ class="shadow lightbox" title="Select blog section in the Blog learning content tab · 2026.11.06" }
 
@@ -39,7 +39,7 @@ The box of the assigned blog shows the number of posts, for an external blog the
 
 ### Metadata configuration
 
-With "Show description", "Show title" and "Show image" you define which information of the blog learning resource the course element shows. You maintain the information itself in the learning resource under `Blog > Administration > Settings > Info`.
+With "Show description", "Show title" and "Show image" you define which information of the blog learning resource the course element shows. You maintain the information itself in the learning resource under `Blog > Administration > Settings > Info`, see [Blog: Administration](Blog_Administration.md#tab_info).
 
 
 ### User rights [:octicons-tag-16:{ title="from Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417) {: #blog_configuration_permissions}
@@ -77,49 +77,15 @@ With "Show advanced configuration" you also add roles, individual persons or gro
     In older course elements, access rules still control the rights. Then the section "User rights" is missing, and the course element shows the tab "Access" with "Moderate", "Read and write" and "Read only". With "Delete" you remove the access rules and continue with the user rights in this section.
 
 
-## Configuration of the "Blog" learning resource {: #blog_configuration_learningresource}
+## Settings of the blog learning resource {: #learningresource_settings}
 
-To configure the blog learning resource, you can
-
-* select the learning resource in the authoring area or
-* click on "Edit learning resource" directly from the blog course element in the "Blog learning content" tab.
-
-Then select `Blog > Administration > Settings`. Configure the blog learning resource in the tabs displayed here. These settings apply in all courses and course elements in which you embed the blog learning resource.
-
-![Tabs Metadata, Info, Share, Quota and Options in the settings of the blog learning resource, in which you define what applies to the blog in all courses](assets/blog_configuration_resource_tabs_v2_en.png){ class="shadow lightbox" title="Settings of the blog learning resource · 2026.11.06" }
-
-#### Metadata {: #tab_metadata}
-
-Here you define the title, reference, subjects or catalog and license of the blog learning resource. For an external blog, the tab also shows the URL of the feed.
-
-#### Info {: #tab_info}
-
-Here you enter information such as cover image, teaser, description, authors, main language and expenditure of work.
-
-#### Share {: #tab_share}
-
-The share settings correspond to those of other learning resources:
-
-* Usage (default: embedding in the course, alternative: standalone learning resource)
-* Direct link (for direct access to the learning resource)
-* Administrative access (in which organizational units is the resource available)
-* Usage rights for other authors (embed, copy, export content)
-* Indexing for OER catalogs and search engines
-* Access for participants and offer (for standalone use)
-* as well as a share overview (who has which rights to this learning resource)
-
-#### Quota {: #tab_quota}
-
-Here you define how much storage space the learning resource may use at most. Only administrators, system administrators, learning resource managers, user managers and roles managers see the tab "Quota".
-
-#### Options {: #tab_options}
-
-With "Posts are rateable" and "Posts are commentable" you define whether the posts of the blog can be rated and commented on. With "Push E-mail by comments" the owners of the blog and of the courses that embed it receive an e-mail for each new comment. For standalone use, you also define the access for participants in status "Finished" in the section "Access".
+Whether posts can be rated and commented on and who receives an e-mail for new comments, you define in the learning resource under `Blog > Administration > Settings`. These settings apply in all courses that embed the blog. The tabs are described on the page [Blog: Administration](Blog_Administration.md).
 
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Blog: Administration >](Blog_Administration.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Blogging >](../learningresources/Blog_Blogging.md)
 

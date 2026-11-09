@@ -125,7 +125,7 @@ Der Podcast ist nun eingebunden und Teilnehmende können die erste Episode abspi
 
 **Weiterführend**<br>
 [Kursbaustein "Podcast" >](../../manual_user/learningresources/Course_Element_Podcast.de.md)<br>
-[Podcast konfigurieren >](../../manual_user/learningresources/Podcast_Configuration.de.md)<br>
+[Podcast im Kursbaustein konfigurieren >](../../manual_user/learningresources/Podcast_Configuration.de.md)<br>
 [Podcasts anhören und ansehen >](../../manual_user/learningresources/Podcast_listen_and_watch.de.md)
 
 [zum Seitenanfang ^](#how_do_i_create_a_podcast)

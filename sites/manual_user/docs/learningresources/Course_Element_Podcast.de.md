@@ -20,7 +20,7 @@ Sie können den Kursbaustein auch so konfigurieren, dass Teilnehmende gemeinsam 
 
 ## Episode erstellen oder bearbeiten
 
-Wer neue Episoden erstellen darf, legen Sie in der Konfiguration des Podcasts fest, siehe [Podcast konfigurieren](../learningresources/Podcast_Configuration.de.md). Personen mit diesem Recht sehen den Button "Episode hinzufügen" und laden damit ihren Audio- oder Videobeitrag in den Podcast hoch.
+Wer neue Episoden erstellen darf, legen Sie in der Konfiguration des Podcasts fest, siehe [Podcast im Kursbaustein konfigurieren](../learningresources/Podcast_Configuration.de.md). Personen mit diesem Recht sehen den Button "Episode hinzufügen" und laden damit ihren Audio- oder Videobeitrag in den Podcast hoch.
 
 Eine Episode enthält immer genau _eine_ Audio- oder Videodatei. Wählen Sie die Datei auf Ihrem Computer aus, OpenOlat lädt sie danach hoch. Je nach Grösse der Datei dauert das eine Weile. Erlaubt sind die Formate FLV, MP3, MP4, M4V, M4A und AAC.
 
@@ -36,7 +36,7 @@ Alle angemeldeten Personen, die den Podcast sehen, kommentieren die Episoden und
 
 ## Weiterführende Informationen {: #further_information}
 
-[Podcast konfigurieren >](../learningresources/Podcast_Configuration.de.md)<br>
+[Podcast im Kursbaustein konfigurieren >](../learningresources/Podcast_Configuration.de.md)<br>
 [Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "Blog" >](Course_Element_Blog.de.md)

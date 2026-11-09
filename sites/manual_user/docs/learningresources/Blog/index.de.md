@@ -23,7 +23,8 @@ Falls Sie noch wenig Erfahrung mit dem Erstellen von Kursen haben, finden Sie hi
 
 Die Konfiguration eines Blogs geschieht einerseits in der Blog-**Lernressource**, andererseits in den Blog-**Kursbausteinen**, in die die Lernressource eingebunden wird.
 
-[Zu den Details >](../Blog_Configuration.de.md)
+[Blog im Kursbaustein konfigurieren >](../Blog_Configuration.de.md)<br>
+[Blog: Administration >](../Blog_Administration.de.md)
 
 
 ## Bloggen
@@ -50,7 +51,8 @@ Also wie Kursteilnehmer:innen und Betreuer:innen mit einem Blog in einem OpenOla
 [Bloggen >](../Blog_Blogging.de.md)<br>
 [Blog erstellen >](../Blog_Create.de.md)<br>
 [Wie erstelle ich einen Blog? >](../../../manual_how-to/blog/blog.de.md)<br>
-[Blog konfigurieren >](../Blog_Configuration.de.md)<br>
+[Blog im Kursbaustein konfigurieren >](../Blog_Configuration.de.md)<br>
+[Blog: Administration >](../Blog_Administration.de.md)<br>
 [Forum >](../Course_Element_Forum.de.md)
 
 [Zum Seitenanfang ^](#blog_learning_resource_overview)

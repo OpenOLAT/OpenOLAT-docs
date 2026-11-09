@@ -170,7 +170,8 @@ The course then shows the entries of the external blog. Depending on the setting
 
 **Further reading**<br>
 [Course Element "Blog" >](../../manual_user/learningresources/Course_Element_Blog.md)<br>
-[Blog Configuration >](../../manual_user/learningresources/Blog_Configuration.md)<br>
+[Configure a blog in the course element >](../../manual_user/learningresources/Blog_Configuration.md)<br>
+[Blog: Administration >](../../manual_user/learningresources/Blog_Administration.md)<br>
 [Blogging >](../../manual_user/learningresources/Blog_Blogging.md)
 
 [to the top of the page ^](#how_do_i_create_a_blog)
