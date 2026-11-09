@@ -324,9 +324,9 @@ Der Teilbereich "Angebote" zeigt von oben nach unten die Übersicht, die Einstel
 
 ![Die Übersicht, der Abschnitt Einstellungen und die Angebote einer Durchführung mit dem Button Angebot hinzufügen](assets/course_planner_implementations_tab_catalog1_v2_de.png){ class="shadow lightbox" title="Teilbereich Angebote im Tab Katalog · 2026.09.28" }
 
-Um potenzielle Teilnehmer:innen auf ein Angebot im Katalog aufmerksam zu machen, verschicken Sie einen Direktlink auf das Angebot, zum Beispiel per E-Mail. Sie finden die Links in der Übersicht der Angebote (je Durchführung im Tab Katalog). Der Dialog "Links" führt je einen Direktlink für den externen und den internen Katalog. Ein Klick auf das QR-Code-Symbol vor einem Link zeigt den Link als QR-Code.
+Um potenzielle Teilnehmer:innen auf ein Angebot im Katalog aufmerksam zu machen, verschicken Sie einen Direktlink auf das Angebot, zum Beispiel per E-Mail. Sie finden die Links in der Übersicht der Angebote, Zeile "Zugang", Link "Links" (je Durchführung im Tab Katalog). Der Dialog "Links" führt je einen Direktlink für den externen und den internen Katalog. Neben jedem Link stehen die Schaltflächen "In Zwischenablage kopieren" und "QR-Code anzeigen", siehe [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
-![Der Dialog Links mit je einem Direktlink auf das Angebot für den externen und den internen Katalog, vor jedem Link ein QR-Code-Symbol](assets/course_planner_implementations_tab_catalog3_v2_de.png){ class="shadow lightbox" title="Dialog Links im Tab Katalog · 2026.09.30" }
+![Dialog Links mit je einem Direktlink für den externen und den internen Katalog, je mit den Schaltflächen zum Kopieren und für den QR-Code; beim externen Katalog ist der QR-Code eingeblendet](assets/course_planner_implementations_tab_catalog3_v3_de.png){ class="shadow lightbox" title="Dialog Links im Tab Katalog · 2026.11.09" }
 
 #### Tab Katalog > Einstellungen {: #tab_catalog_settings}
 
@@ -693,6 +693,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Coaching - Personen >](Coaching_People.de.md)<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](catalog2.0_sort_offers.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form/index.de.md)<br>
 [Reports: Buchungsaufträge >](Reports_BookingOrders.de.md)<br>

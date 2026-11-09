@@ -2,7 +2,7 @@
 
 ![Eintrag Profil im Abschnitt Konfiguration des persönlichen Menüs, über den Einträgen Einstellungen und Passwort](../assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
 
-Im persönlichen Menü, Abschnitt "Konfiguration", unter der Option "Profil" können Sie Ihre persönlichen Daten ändern und Ihre Visitenkarte einrichten. Vervollständigen Sie die vorgesehenen Felder.
+Im Profil halten Sie Ihre persönlichen Daten aktuell und bestimmen, was andere auf Ihrer Visitenkarte sehen. Sie öffnen es im persönlichen Menü im Abschnitt "Konfiguration" mit "Profil".
 
 !!! tip "Ihre Organisation legt fest, welche Felder Sie selbst ändern"
 
@@ -23,35 +23,39 @@ Ihre E-Mail-Adresse ändern Sie über den Button "Bearbeiten" beim Feld "E-Mail"
 
 <details>
     <summary>E-Mail-Signatur</summary>
-    Sollte die Möglichkeit zur Eingabe Ihrer E-Mail-Signatur nicht angezeigt werden, wenden Sie sich bitte an Ihre Systemadministrator:innen.
+    Das Feld "E-Mail Signatur" erscheint, wenn Ihre Systemadministrator:innen es für das Profil vorgesehen haben.
     <img src="../assets/configuration_profile_signature_v1_de.png" alt="Feld E-Mail Signatur mit Texteditor im Tab Profil, markiert, rechts daneben der Eintrag Profil im persönlichen Menü" />
 
 </details>
 
-In den Kontaktdaten kann eine Telefonnummer für den Versand von SMS hinzugefügt werden. Wenn bei Ihrem System ein SMS-Service hinterlegt ist, kann das Passwort mit einer SMS-Authentifizierung zurückgesetzt werden. Dafür muss hier eine Telefonnummer hinterlegt werden. Die Nummer muss im international gültigen Format +41 12 345 67 89 hinterlegt werden. Empfohlen ist eine Mobiltelefon-Nummer. Bei Festnetz-Nummern wird die Nummer zur Überprüfung angerufen und der Code vorgesprochen.
+Mit einer Telefonnummer in den Kontaktdaten setzen Sie Ihr Passwort per SMS zurück, wenn Ihre OpenOlat-Instanz einen SMS-Service nutzt. Tragen Sie die Nummer im internationalen Format ein, zum Beispiel +41 12 345 67 89. Am besten eignet sich eine Mobiltelefonnummer. Bei einer Festnetznummer erhalten Sie zur Überprüfung einen Anruf, der Ihnen den Code ansagt.
 
-Im Bereich "Über mich" können Sie bei Bedarf einige Informationen als Freitext über sich eintragen.
+Im Bereich "Über mich" tragen Sie bei Bedarf Informationen über sich als Freitext ein.
 
 <a id="profile_photo"></a>
 
-Wichtig für das Online-Lernen ist auch, dass Sie Ihrem Profil ein Foto von sich hinzufügen. So wird das Online-Lernen persönlicher und die Online-Kommunikation und -Kooperation ist für alle angenehmer und einfacher. Das im Profil hinterlegte Foto erscheint in OpenOlat an diversen Stellen, z.B. auf Ihrer Visitenkarte, bei Forenbeiträgen oder in der Liste der Teilnehmer:innen. Das Bild wird von OpenOlat auf eine Breite von 100 Pixel zugeschnitten.
+Mit einem Foto im Profil erkennen andere Sie beim Online-Lernen wieder. Das Foto erscheint in OpenOlat an mehreren Stellen, z.B. auf Ihrer Visitenkarte, bei Forenbeiträgen oder in der Liste der Teilnehmer:innen. OpenOlat schneidet das Bild auf eine Breite von 100 Pixel zu.
 
 Ihr Foto laden Sie im Abschnitt "Publiziertes Bild" über "Datei wählen" hoch, als JPG-, PNG- oder GIF-Datei bis 10 MB. Mit "Ersetzen" tauschen Sie das Foto aus, mit "Löschen" entfernen Sie es. Klicken Sie danach auf "Speichern". Ist der Abschnitt gesperrt, gibt Ihre Organisation das Foto vor.
 
 ### Tab "Meine Visitenkarte"
 
-Mit Hilfe der Check-Boxen bestimmen Sie, welche Einträge auf Ihrer Visitenkarte erscheinen und somit von anderen OpenOlat-Benutzer:innen eingesehen werden können. Einige Check-Boxen können nicht bearbeitet werden. Diese sind systemweit vorgegeben.
+Mit den Checkboxen bestimmen Sie, welche Einträge auf Ihrer Visitenkarte erscheinen und damit für andere OpenOlat-Benutzer:innen sichtbar sind. Checkboxen, die Sie nicht ändern können, sind systemweit vorgegeben.
+
+Unter "Vorschau" zeigt der Tab Ihre Visitenkarte. Dort steht im Abschnitt "Externer Link zur Visitenkarte" der Link auf Ihre Visitenkarte. Sie kopieren ihn oder geben ihn als QR-Code weiter, etwa in einer E-Mail-Signatur oder auf einer Folie, siehe [Links kopieren und als QR-Code weitergeben](../../basic_concepts/Navigation.de.md#url_field). [:octicons-tag-16:{ title="ab Release 10.1 (OO-1348)" }](https://track.frentix.com/issue/OO-1348)
 
 !!! tip "Tipp"
 
-    Um sich die Visitenkarten anderer OpenOlat-Benutzer:innen anzuschauen, wählen Sie
-    im persönlichen Menü das Werkzeug "[Personensuche](../Other_users.de.md)" und suchen die gewünschte Person über
-    die Suchmaske.
+    Um sich die Visitenkarten anderer OpenOlat-Benutzer:innen anzuschauen, wählen Sie im persönlichen Menü das Werkzeug "[Personensuche](../Other_users.de.md)" und suchen die gewünschte Person über die Suchmaske.
 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Persönliche Werkzeuge: Personensuche >](../Other_users.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Navigation >](../../basic_concepts/Navigation.de.md)<br>
+[Persönliche Werkzeuge: Personensuche >](../Other_users.de.md)
+
+**Weiterführend**<br>
 [Persönliche Werkzeuge: E-Mail >](../E-Mail.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../Settings.de.md)<br>
 [Persönliche Konfiguration: Passwort >](../Password.de.md)<br>

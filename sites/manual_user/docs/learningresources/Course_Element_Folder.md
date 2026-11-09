@@ -118,7 +118,7 @@ Even with the course editor closed, you work directly with the files of the fold
 
 Anyone who wants to be informed about new files in the folder subscribes to the changes in the folder. You adjust the view by switching between the tile view and the table view. In the table view, you select the displayed columns and thus see more details than in the tile view. With the search you find files quickly. OpenOlat moves deleted files to the "Trash".
 
-In the 3-dot menu of the course element, you display the [WebDAV link](../basic_concepts/Using_WebDAV.md) and select "Update metadata".
+In the 3-dot menu of the course element, you open the link for the [WebDAV connection](../basic_concepts/Using_WebDAV.md) with "WebDAV link" and select "Update metadata".
 
 
 ### Metadata  {: #metadata}
@@ -127,7 +127,7 @@ With the [metadata](../basic_concepts/Search_General/index.md#metadata) you desc
 
 In addition to the description and the lock, the license information is particularly important. There you define a license for the document, for example one of the Creative Commons licenses, enter the licensor and add information about the publisher, the source or the publication date. The folder shows the license in a separate column. A click on the license shows the stored information.
 
-The field "Number of views" in the metadata shows how often a file was downloaded. What exactly counts is described under [Metadata](../basic_concepts/Search_General/index.md#metadata). There is also a link with which you can directly link the respective file. Whether external persons can also access the file depends on the access settings of the course.
+The field "Number of views" in the metadata shows how often a file was downloaded. What exactly counts is described under [Metadata](../basic_concepts/Search_General/index.md#metadata). The field "External link to this resource" shows the link that leads directly to the file. You copy it or pass it on as a QR code, see [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). Whether external persons can also open the file depends on the access settings of the course.
 
 ### Edit files [:octicons-tag-16:{ title="from Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}
 
@@ -143,6 +143,7 @@ Persons with editing rights can switch directly to editing mode for supported fi
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [General information on the search >](../basic_concepts/Search_General/index.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
 
 **Further reading**<br>

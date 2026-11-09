@@ -16,7 +16,7 @@ The page [Roles and their working areas](Roles_Home_Areas.md) shows which site o
 
 ## Global navigation {: #global_navigation}
 
-At the top right of the main navigation, the [chat](Chat.md) (instant messenger) and the [search](Search_General/index.md) are generally available on every page, together with your personal menu. Which other elements appear there depends on your settings.
+At the top right of the main navigation, the [chat](Chat.md) (instant messenger) and the [search](Search_General/index.md) are available on every page, together with your personal menu. Which other elements appear there depends on your settings.
 
 ![Chat with status and number of contacts online, search and personal menu highlighted in the right-hand part of the main navigation, so you find the three elements on every page](assets/navigation_global_navigation_v1_en.png){ class="shadow aside-right lightbox" title="Main navigation at the top right · 2026.10.20" }
 
@@ -61,6 +61,26 @@ On the info page of a learning resource or an implementation, the same action is
 
     You do not see the action "Share" in the footer? Then sharing is switched off in the server configuration of your OpenOlat instance. It cannot be switched on in the administration. On the info page, the button "Share" remains visible anyway.
 
+## Copy links and pass them on as a QR code [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"} {: #url_field}
+
+If you want to pass on a course, an offer, an online meeting, a survey, a file or your visiting card, OpenOlat offers you the link to it. It always appears in the same way, in a field with two buttons next to it. With them you bring the link into an e-mail, onto a slide or onto a notice without typing it. The field is read-only so that the link is not changed by mistake. A click into the field selects the whole link, you select a part of it with the mouse.
+
+The two buttons are icons without a label. You see their name when you point at them with the mouse:
+
+- **Copy to clipboard**: OpenOlat copies the whole link and confirms this with the message "Link copied to clipboard". Then you paste it into an e-mail, a message or a web page. If your browser does not allow copying, OpenOlat selects the link in the field. You then copy it with <kbd>Ctrl</kbd>+<kbd>C</kbd> or, on macOS, with <kbd>Cmd</kbd>+<kbd>C</kbd>.
+- **Show QR code**: OpenOlat shows the link as a QR code below the field. People open the link with it on their own phone, for example from a slide in a classroom session or from a notice. The QR code is always on a white background so that a phone recognises it reliably. As long as it is visible, the button stays highlighted and is called "Hide QR code". A click on it hides the QR code again.
+- **Download PNG**: The button below the QR code saves it as the image file `qrcode.png`. You insert it into slides, documents or flyers.
+
+![Field with link and the buttons for copying and for the QR code, next to it the same link with the QR code shown and Download PNG](assets/url_field_states_v1_en.svg){ class="shadow lightbox" title="Field with link, QR code hidden and shown · 2026.11.09" }
+
+![Buttons Copy to clipboard and Hide QR code highlighted, below them the QR code of the external link with the highlighted button Download PNG](assets/navigation_url_field_qrcode_v1_en.png){ class="shadow lightbox" title="Window About this course, row External link · 2026.11.09" }
+
+In the wizards, for example when publishing a course, the dialog "Links" of the offers shows only "Copy to clipboard". You show the QR code of an offer after the wizard in the same dialog under `Course > Administration > Settings > Tab "Share"`, see [Share](../learningresources/Course_Settings_Share/index.md).
+
+The action ["Share"](#share) in the footer passes on the page you have open. The field passes on the link that OpenOlat offers at this place, for example the link for guests of a course.
+
+Anyone who opens the link needs access to the target. The link does not replace a booking or an offer.
+
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
@@ -70,11 +90,13 @@ On the info page of a learning resource or an implementation, the same action is
 [Chat >](Chat.md)<br>
 [General information on the search >](Search_General/index.md)<br>
 [Personal menu >](../personal_menu/index.md)<br>
-[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
+[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
+[Course settings - Tab Share >](../learningresources/Course_Settings_Share/index.md)
 
 **Further reading**<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
-[User tools >](../personal_menu/Personal_Tools/index.md)
+[User tools >](../personal_menu/Personal_Tools/index.md)<br>
+[Roles and Rights: Guest access >](guest_access.md)
 
 **youtube**<br>
 [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>)<br>

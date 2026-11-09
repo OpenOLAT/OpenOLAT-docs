@@ -37,7 +37,7 @@ implemented directly into the software (e.g. Microsoft Office).
 
 In order to get access to a folder in OpenOlat via WebDAV you need:
 
-  * WebDAV link: WebDAV address of OpenOlat server as indicated below WebDAV compatible folders, or in your personal menu under Settings / WebDAV
+  * WebDAV link: You find this link under `Personal menu > Settings > Tab "WebDAV"` or in a folder in the 3-dot menu with "WebDAV link"
   * Your OpenOlat username,
   * Your OpenOlat/WebDAV password.
 

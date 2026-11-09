@@ -2,7 +2,7 @@
 
 Anyone managing a course or another learning resource looks up here which ID it has, who owns it and in which courses it is embedded. OpenOlat generates these details itself, you cannot change them. They are shown in the window "About this course", not on the info page.
 
-![Details OpenOlat keeps on a course: ID, title, creation and modification date, course type learning path, external link, product, creator and two owners](assets/info_page_about_dialog_v1_en.png){ class="shadow lightbox" title="Window About this course · 2026.10.05" }
+![Details on a course as an administrator sees them: IDs, title, dates, course type learning path, administrative access, external link with the copy and QR code buttons, product, creator and owner](assets/info_page_about_dialog_v2_en.png){ class="shadow lightbox" title="Window About this course · 2026.11.09" }
 
 
 ## Open the window [:octicons-tag-16:{ title="from Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"} {: #open}
@@ -41,7 +41,7 @@ With these details you find the learning resource again and classify it, for exa
 
 **Administrative access**: The organisations for which the learning resource is released. You find further information under [Access configuration](../learningresources/Access_configuration.md).
 
-**External link**: The link for direct access to the learning resource. If guest access is allowed, the **External link - Guest** is shown below it.
+**External link**: The link with which you pass on the learning resource. Whoever opens it goes directly to the learning resource. If the course has an offer of the type "Guest", the row "External link - Guest" with the link for guests appears below it. You copy both links into an e-mail with "Copy to clipboard", or you show them as a QR code with "Show QR code", for example on a slide. How this works is described under [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
 **Products**: The products and implementations in the Course Planner in which the course is embedded. A click opens the product or the implementation in the Course Planner. The links and the search icon next to them are only active for administrators and course planners.
 
@@ -81,6 +81,7 @@ If the learning resource is managed by an external system, the window additional
 ## Further information {: #further_information}
 
 [Access configuration >](../learningresources/Access_configuration.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
 [Toolbar: Info page >](../learningresources/Info_page.md)<br>
 [Course Administration: Overview >](Administration/index.md)
 

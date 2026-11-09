@@ -313,9 +313,9 @@ The "Offers" subsection shows, from top to bottom, the overview, the settings, t
 
 ![The overview, the Settings section and the offers of an implementation with the Add offer button](assets/course_planner_implementations_tab_catalog1_v2_en.png){ class="shadow lightbox" title="Offers subsection in the Catalog tab · 2026.09.28" }
 
-To draw the attention of potential participants to an offer in the catalog, you send a direct link to the offer, for example by e-mail. You will find the links in the overview of the offers (per implementation in the Catalog tab). The "Links" dialog lists one direct link each for the external and the internal catalog. A click on the QR code icon in front of a link shows the link as a QR code.
+To draw the attention of potential participants to an offer in the catalog, you send a direct link to the offer, for example by e-mail. You will find the links in the overview of the offers, row "Access", link "Links" (per implementation in the Catalog tab). The "Links" dialog lists one direct link each for the external and the internal catalog. Next to each link are the buttons "Copy to clipboard" and "Show QR code", see [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
-![The Links dialog with one direct link to the offer each for the external and the internal catalog, a QR code icon in front of each link](assets/course_planner_implementations_tab_catalog3_v2_en.png){ class="shadow lightbox" title="Links dialog in the Catalog tab · 2026.09.30" }
+![Links dialog with one direct link each for the external and the internal catalog, each with the buttons for copying and for the QR code; the QR code of the external catalog is shown](assets/course_planner_implementations_tab_catalog3_v3_en.png){ class="shadow lightbox" title="Links dialog in the Catalog tab · 2026.11.09" }
 
 #### Tab Catalog > Settings {: #tab_catalog_settings}
 
@@ -676,6 +676,7 @@ If you have already opened an implementation, you will also find the option to d
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Coaching - People >](Coaching_People.md)<br>
 [Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
 [Catalog 2.0 - Sorting/order >](catalog2.0_sort_offers.md)<br>
 [Forms - Overview >](../learningresources/Form/index.md)<br>
 [Reports: Booking orders >](Reports_BookingOrders.md)<br>

@@ -119,7 +119,7 @@ Die Volltextsuche indexiert die Metadaten. Sie finden Dokumente deshalb auch üb
 
 ![Dateiliste eines Ordners, bei der gesperrten Datei ist in der Spalte Dateistatus die Markierung Gesperrt mit Schloss markiert](../assets/search_general_folder_locked_file_v1_de.png){ class="shadow lightbox" title="Dateiliste eines Ordners · 2026.11.03" }
 
-Das Feld "Externer Link zu dieser Ressource" in den Metadaten zeigt einen Link, mit dem Sie auch ausserhalb von OpenOlat direkt auf die Datei verlinken.
+Das Feld "Externer Link zu dieser Ressource" in den Metadaten zeigt einen Link, mit dem Sie auch ausserhalb von OpenOlat direkt auf die Datei verlinken. Sie kopieren ihn oder geben ihn als QR-Code weiter, siehe [Links kopieren und als QR-Code weitergeben](../Navigation.de.md#url_field).
 
 **Anzahl Ansichten:** Das Feld "Anzahl Ansichten" zeigt, wie oft eine Datei aus einem Ordner heruntergeladen wurde. Trotz des Namens zählt OpenOlat Downloads, nicht die Anzeige im Browser. Die Zahl steigt um 1, wenn jemand die Datei mit "Herunterladen" speichert, sie in einer ZIP-Datei mit anderen Dateien herunterlädt, sie über WebDAV öffnet oder auf den Dateinamen klickt und die Datei dabei heruntergeladen wird. Öffnet sich die Datei beim Klick dagegen im Browser oder in einem Editor, zum Beispiel ein PDF oder ein Word-Dokument, bleibt die Zahl gleich.
 
@@ -144,6 +144,7 @@ OpenOlat zählt jeden Abruf, nicht jede Person: Lädt dieselbe Person eine Datei
 [Suche in einem Kurs >](../Search_in_Course.de.md)<br>
 [Suche im File Hub >](../Search_in_FileHub.de.md)<br>
 [Dublin Core (Wikipedia) >](https://de.wikipedia.org/wiki/Dublin_Core)<br>
+[Navigation >](../Navigation.de.md)<br>
 [Kursstatistiken >](../../learningresources/Statistics_Course.de.md)<br>
 [Sicherheit >](../../../manual_admin/administration/Login_Security.de.md)
 

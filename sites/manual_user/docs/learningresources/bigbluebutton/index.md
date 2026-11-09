@@ -40,7 +40,7 @@ BigBlueButton is a browser-based software solution and requires no additional pl
 
 ## Configuration in the course editor
 
-When integrating BigBlueButton into a course you can decide whether the online-meetings of the course element can be started by the moderators only or also by participants. Moderators are the owners and coaches of the course. If the option "Only moderators are allowed to open this virtual classroom" is set in the field "Access authorisation", participants can only enter the online-meeting once the moderation has started it. The option is located under:<br>
+When integrating BigBlueButton into a course, you decide whether only the moderators or also participants may start the online-meetings of the course element. Moderators are the owners and coaches of the course. If the option "Only moderators are allowed to open this virtual classroom" is set in the field "Access authorisation", participants can only enter the online-meeting once the moderation has started it. The option is located under:<br>
 `Course > Administration > Course editor > Course element "BigBlueButton" > Tab "Configuration"`
 
 ![Access restricted to moderators: in the field "Access authorisation" the option "Only moderators are allowed to open this virtual classroom" is checked](../assets/bigbluebutton_editor_access_v1_en.png){ class="shadow lightbox" title="Tab Configuration in the course editor · 2026.11.02" }
@@ -90,8 +90,8 @@ The settings in detail:
 * **Accept joining users**: Determines whether people first land in a waiting room and do not enter the meeting room immediately. With "Disabled" all people enter the meeting room directly. With "All users" everybody lands in the waiting room. With "Only guests and external users" the participants of the course enter the meeting room directly, everybody else lands in the waiting room.
 * **Guests**: With "allowed" you open the online-meeting for guests. The option only appears if the course itself has been activated for guests.
 * **Access external users**: If the room template allows external users, enter an identifier for the online-meeting here, a unique word without special characters. OpenOlat suggests a number. Below the field you see the complete URL that you send to external people. The link then also appears for owners and coaches in the detail view of the online-meeting. Participants do not see the link.
-* **Password for external users**: Enter a password here that guests, i.e. people without an OpenOlat account, must enter to access the room.
-* **Show room bookings**: calendar view for checking occupied online-meetings
+* **Password for external users**: Enter a password here that external users, i.e. people without an OpenOlat account, must enter to access the room.
+* **Show room bookings**: Opens a calendar in which you check booked times.
 
 Only for scheduled rooms:
 
@@ -113,15 +113,15 @@ For recurring meetings, the meetings can be edited, deleted or supplemented with
 
 ### Tab "Online-meetings" [:octicons-tag-16:{ title="from Release 15.2 (OO-4818)" }](https://track.frentix.com/issue/OO-4818){:target="_blank"}
 
-The tab "Online-meetings" gives you access to a specific online-meeting or room.
+In the tab "Online-meetings" you open a specific online-meeting or room.
 
-In the detail view, owners and coaches of the course see on which day OpenOlat deletes the online-meeting, the link for external users and the slides. They upload slides before the meeting so that they are ready at the start. The top document of the list is displayed directly. The button "Upload slides" and the "Delete" buttons for each slide are only available until the start time of the online-meeting, for a permanent meeting room at any time. Each upload takes one file.
+In the detail view, owners and coaches of the course see on which day OpenOlat deletes the online-meeting, the link for external users and the slides. They upload slides before the meeting so that they are ready at the start. OpenOlat displays the top document of the list directly. The button "Upload slides" and the "Delete" buttons for each slide are only available until the start time of the online-meeting, for a permanent meeting room at any time. Each upload takes one file.
 
 ![Three uploaded slides, each with a button "Delete", below them the button "Upload slides"](../assets/bigbluebutton_slides_v1_en.png){ class="shadow lightbox" title="Online-meeting detail view in the tab Online-meetings · 2026.11.02" }
 
 #### Recordings
 
-The recordings of a meeting can also be found in the tab "Online-meetings". Automatically published recordings are directly selectable here. If no role is selected under "Publish recording automatically for" in the online-meeting, only owners and coaches see the recordings at first and define under "Publish" for which target group the recording should be provided. Depending on the server configuration, a download of a recording is also available. Depending on the server configuration, a note above the list of recordings says that recordings can only be viewed with Google Chrome or Firefox.
+The recordings of a meeting can also be found in the tab "Online-meetings". Automatically published recordings are directly selectable here. If no role is selected under "Publish recording automatically for" in the online-meeting, only owners and coaches see the recordings at first and define under "Publish" for which target group the recording should be provided. Depending on the server configuration, a recording can also be downloaded. Depending on the server configuration, a note above the list of recordings says that recordings can only be viewed with Google Chrome or Firefox.
 
 !!! warning "Attention"
 
@@ -133,7 +133,7 @@ The recordings of a meeting can also be found in the tab "Online-meetings". Auto
 
 If there is a calendar in the course, the BigBlueButton meetings also appear in the calendar.
 
-When configuring a room, an overview of all booked BigBlueButton rooms of the instance can be viewed both during creation and later when editing, using the link "Show room bookings". This makes it easier to identify time bottlenecks or a high system load early on and to choose a different date if necessary.
+In the configuration of a room, the link "Show room bookings" opens an overview of all booked BigBlueButton rooms of the instance, both when creating and when editing. This makes it easier to identify time bottlenecks or a high system load early on and to choose a different date if necessary.
 
 In addition, the online-meetings created in BigBlueButton automatically appear in the course-specific calendar. From here, all course members can quickly reach the correspondingly linked BigBlueButton room.
 
@@ -173,7 +173,7 @@ If you want to invite people without an OpenOlat account to an online-meeting, t
 
     The prerequisite is a conventional course, not a learning path course, and the course itself must be activated for guests. Guests enter a name of their choice when dialling into the room. For more information see [guest access](../../basic_concepts/guest_access.md).
 
-OpenOlat offers the link for external users if the room template has the option "Open for external users". Owners and coaches of the course see it in the detail view of the online-meeting in the block "Link for external users", with one button for copying and one for the QR code. With the field "Password for external users" in the online-meeting you additionally protect access with a password.
+OpenOlat offers the link for external users if the room template has the option "Open for external users". Owners and coaches of the course see it in the detail view of the online-meeting in the block "Link for external users", with one button for copying ("Copy to clipboard") and one for the QR code ("Show QR code"). You save the QR code as an image with "Download PNG", for example for a slide or an invitation. External persons then open the online-meeting directly on their phone. More on this under [Copy links and pass them on as a QR code](../../basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"} With the field "Password for external users" in the online-meeting you additionally protect access with a password.
 
 ![Link for external users to pass on, next to it buttons for copying and for the QR code](../assets/bigbluebutton_external_link_v1_en.png){ class="shadow lightbox" title="Detail view of an online-meeting for moderators · 2026.11.02" }
 
@@ -183,7 +183,8 @@ OpenOlat offers the link for external users if the room template has the option 
 **Mentioned on this page**<br>
 [BigBlueButton module >](../../../manual_admin/administration/BigBlueButton_module.md)<br>
 [Frequently asked questions - BigBlueButton >](faq.md)<br>
-[Roles and Rights: Guest access >](../../basic_concepts/guest_access.md)
+[Roles and Rights: Guest access >](../../basic_concepts/guest_access.md)<br>
+[Navigation >](../../basic_concepts/Navigation.md)
 
 **Further reading**<br>
 [Virtual classrooms >](../../basic_concepts/Virtual_classrooms.md)<br>

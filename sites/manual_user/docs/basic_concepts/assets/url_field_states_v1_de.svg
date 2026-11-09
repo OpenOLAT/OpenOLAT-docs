@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="400" viewBox="0 0 940 400" role="img" aria-label="Feld mit dem Link und den Schaltflächen In Zwischenablage kopieren und QR-Code anzeigen, links mit ausgeblendetem, rechts mit eingeblendetem QR-Code und der Schaltfläche PNG herunterladen">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="940" height="400" fill="#FFFFFF"/>
+  <text x="20" y="32" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#342C24">Links kopieren und als QR-Code weitergeben</text>
+
+  <!-- Left panel: QR hidden -->
+  <rect x="20" y="50" width="410" height="300" rx="10" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="40" y="78" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#342C24">QR-Code ausgeblendet</text>
+  <rect x="40" y="95" width="270" height="40" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="52" y="120" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">https://…/url/RepositoryEntry/…</text>
+  <!-- copy button -->
+  <rect x="310" y="95" width="50" height="40" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <rect x="327" y="104" width="13" height="16" rx="2" fill="none" stroke="#126365" stroke-width="1.8"/>
+  <rect x="331" y="109" width="13" height="16" rx="2" fill="#FFFFFF" stroke="#126365" stroke-width="1.8"/>
+  <!-- QR button -->
+  <rect x="360" y="95" width="50" height="40" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <rect x="374" y="105" width="8" height="8" fill="#126365"/>
+  <rect x="387" y="105" width="8" height="8" fill="#126365"/>
+  <rect x="374" y="118" width="8" height="8" fill="#126365"/>
+  <rect x="388" y="119" width="3" height="3" fill="#126365"/>
+  <rect x="392" y="123" width="3" height="3" fill="#126365"/>
+
+  <!-- copy callout -->
+  <line x1="335" y1="135" x2="335" y2="190" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="40" y="192" width="370" height="96" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1"/>
+  <text x="54" y="216" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#126365">«In Zwischenablage kopieren»</text>
+  <text x="54" y="238" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Meldung: «Link in die Zwischenablage kopiert.»</text>
+  <text x="54" y="258" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Lässt der Browser es nicht zu, ist der Link</text>
+  <text x="54" y="276" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">markiert: mit Ctrl+C oder Cmd+C kopieren.</text>
+  <text x="40" y="320" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Klick auf das QR-Symbol: «QR-Code anzeigen»</text>
+
+  <!-- Arrows between panels -->
+  <line x1="436" y1="108" x2="502" y2="108" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="502" y1="124" x2="436" y2="124" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Right panel: QR shown -->
+  <rect x="510" y="50" width="410" height="300" rx="10" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="530" y="78" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#342C24">QR-Code angezeigt</text>
+  <rect x="530" y="95" width="270" height="40" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="542" y="120" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">https://…/url/RepositoryEntry/…</text>
+  <rect x="800" y="95" width="50" height="40" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <rect x="817" y="104" width="13" height="16" rx="2" fill="none" stroke="#126365" stroke-width="1.8"/>
+  <rect x="821" y="109" width="13" height="16" rx="2" fill="#FFFFFF" stroke="#126365" stroke-width="1.8"/>
+  <!-- active QR button -->
+  <rect x="850" y="95" width="50" height="40" rx="8" fill="#126365" stroke="#0F5456" stroke-width="1.5"/>
+  <rect x="864" y="105" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="877" y="105" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="864" y="118" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="878" y="119" width="3" height="3" fill="#FFFFFF"/>
+  <rect x="882" y="123" width="3" height="3" fill="#FFFFFF"/>
+
+  <!-- QR code on white -->
+  <rect x="530" y="150" width="120" height="120" fill="#FFFFFF" stroke="#2D2926" stroke-width="1"/>
+  <rect x="540" y="160" width="30" height="30" fill="none" stroke="#2D2926" stroke-width="5"/>
+  <rect x="610" y="160" width="30" height="30" fill="none" stroke="#2D2926" stroke-width="5"/>
+  <rect x="540" y="230" width="30" height="30" fill="none" stroke="#2D2926" stroke-width="5"/>
+  <rect x="550" y="170" width="10" height="10" fill="#2D2926"/>
+  <rect x="620" y="170" width="10" height="10" fill="#2D2926"/>
+  <rect x="550" y="240" width="10" height="10" fill="#2D2926"/>
+  <rect x="582" y="162" width="8" height="8" fill="#2D2926"/>
+  <rect x="594" y="176" width="8" height="8" fill="#2D2926"/>
+  <rect x="582" y="198" width="8" height="8" fill="#2D2926"/>
+  <rect x="604" y="206" width="8" height="8" fill="#2D2926"/>
+  <rect x="626" y="202" width="8" height="8" fill="#2D2926"/>
+  <rect x="580" y="230" width="8" height="8" fill="#2D2926"/>
+  <rect x="598" y="244" width="8" height="8" fill="#2D2926"/>
+  <rect x="616" y="234" width="8" height="8" fill="#2D2926"/>
+  <rect x="632" y="250" width="8" height="8" fill="#2D2926"/>
+  <rect x="548" y="208" width="8" height="8" fill="#2D2926"/>
+
+  <!-- download button -->
+  <rect x="668" y="236" width="180" height="34" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="758" y="258" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" fill="#126365">PNG herunterladen</text>
+  <text x="668" y="168" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">QR-Code auf weissem Grund,</text>
+  <text x="668" y="186" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">zum Abscannen mit dem Telefon.</text>
+  <text x="668" y="212" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Speichert die Datei qrcode.png:</text>
+  <text x="668" y="228" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">für Folie, Aushang, Dokument.</text>
+  <text x="530" y="320" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Erneuter Klick auf das aktive Symbol: «QR-Code ausblenden»</text>
+
+  <text x="20" y="382" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">In den Assistenten (Kurs erstellen, Publizieren) zeigt der Dialog «Links» das Feld ohne die Schaltfläche «QR-Code anzeigen».</text>
+</svg>

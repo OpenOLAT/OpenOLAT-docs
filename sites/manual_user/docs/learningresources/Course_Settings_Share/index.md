@@ -1,6 +1,6 @@
 # Course settings - Tab Share {: #tab_share}
 
-You open the Share tab in the course via `Course > Administration > Settings > Tab "Share"`.
+In the Share tab, you define who uses your course and who manages it: where the members come from, whether participants book the course themselves and which organisations have administrative access to it. You open the tab under `Course > Administration > Settings > Tab "Share"`.
 
 ![Via the Administration tool menu and the Settings entry you reach the settings tabs, among them the Share tab](../assets/course_settings_share_entry_v1_en.png){ class="shadow lightbox" title="Administration menu of a course" }
 
@@ -56,10 +56,10 @@ Standalone learning resources have their own member management. To add new membe
 Participants get access via "Private", for example when course owners enter them as members, or via "Bookable and open offers", for instance with an access code or via an offer in the catalog.
 
 **Use in Course Planner**<br>
-If the course is integrated into a product of the Course Planner, memberships are assigned and managed by the Course Planner. The course then does not require a second, separate membership management system.
+If the course is integrated into a product of the Course Planner, the Course Planner assigns and manages the memberships. The course then does not require a second, standalone member management.
 
 **Template**<br>
-These courses are also managed by the Course Planner and do not require separate member management. The difference to the "Use in Course Planner" option is that a template is used for instantiation. The course in a run is only created (instantiated) from this template at a specific point in time.
+The Course Planner also manages these courses, they have no standalone member management. Unlike with "Use in Course Planner", the course serves for instantiation: OpenOlat creates the course of an implementation from this template only at a specific point in time (instantiated).
 
 **Embedding**<br>
 This usage exists only for learning resources that are not courses, for example a test or a form. The learning resource is reusable and has no standalone member management: it is embedded elsewhere, for instance in a course element, and the members come from there. More on this under [Provide for the usage of a learning resource](../General_Functions_Concept.md#usage).
@@ -89,7 +89,7 @@ If a course already has members, a copy is the simplest way into the Course Plan
 
 ## Section Share {: #section_share}
 
-![All settings of a standalone course at a glance: access Private, direct link, leaving with the option Never, administrative access and the rights for authors](../assets/course_settings_share_share_v4_en.png){ class="shadow lightbox" title="Share section in the Share tab · 2026.10.09" }
+![Standalone course: access Bookable and open offers, direct link with buttons for copying and for the QR code, leaving At any time, administrative access, rights for authors](../assets/course_settings_share_share_v5_en.png){ class="shadow lightbox" title="Share section in the Share tab · 2026.11.09" }
 
 #### Access for participants {: #section_share_access}
 
@@ -98,7 +98,9 @@ With "Bookable and open offers", the participants book the course themselves, de
 
 #### Direct link {: #section_share_direct_link}
 
-Whoever receives this link opens the course directly with it. If the person is not registered in OpenOlat or not logged in, the login screen appears first.
+With the direct link, persons open the course directly without searching for it. If the person is not registered in OpenOlat or not logged in, the login screen appears first.
+
+With "Copy to clipboard", you take the direct link into an e-mail or onto a web page. With "Show QR code", you show it as a QR code, for example on a notice, and with "Download PNG" you save the QR code as an image. How this works is described under [Copy links and pass them on as a QR code](../../basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
 #### Participants can leave [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #section_share_leave}
 
@@ -145,9 +147,9 @@ Admin Manual: [Modul OAI PMH >](../../../manual_admin/administration/Modules_OAI
 
 ![As long as access for participants is set to Private, the Add offer button is inactive, and the section states the reason](../assets/course_settings_share_offer_v2_en.png){ class="shadow lightbox" title="Offer section in the Share tab · 2026.10.09" }
 
-In order for a course to be listed in the catalog, an offer must be created. Multiple offers can also be created if the same course is to be offered under different conditions (e.g., free of charge for a specific target group, subject to a fee for others).
+For a course to appear in the catalog, you create an offer. If the same course is to be bookable under different conditions, you create several offers, for example free of charge for a specific target group and subject to a fee for others.
 
-In order to create an offer for the catalog, the option "Bookable and open offers" must be selected in the "Share" section under "Access for participants".
+You create offers as soon as the option "Bookable and open offers" is selected in the "Share" section under "Access for participants".
 
 You can find more information about offers and the catalog here:<br>
 [Catalog >](../../area_modules/catalog2.0/index.md)<br>
@@ -161,8 +163,7 @@ You can find more information about offers and the catalog here:<br>
 
 ## Section LTI 1.3 access configuration [:octicons-tag-16:{ title="from Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
 
-OpenOlat courses can also be accessed from another LMS via LTI 1.3. However, this external access requires security measures and precisely defined permissions.<br>
-In this section, you can set up a deployment to make the course accessible for another LMS.
+If another LMS is to call up your OpenOlat course, you release it via LTI 1.3. For this, you set up a so-called deployment in this section. It defines the security measures and permissions for the external access.
 
 You can find more information about sharing a course via LTI here:<br>
 [Configuring LTI access to a course >](../LTI_Share_courses.md)
@@ -192,6 +193,7 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 **Mentioned on this page**<br>
 [Function concept courses and learning resources >](../General_Functions_Concept.md)<br>
 [How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[Navigation >](../../basic_concepts/Navigation.md)<br>
 [Course Settings - Tab Execution >](../Course_Settings_Execution.md)<br>
 [Offer concepts: Cancellation policy for invoice offers >](../../basic_concepts/Offer_Concepts.md)<br>
 [Roles and Rights: Which roles are available? >](../../basic_concepts/Roles/index.md)<br>

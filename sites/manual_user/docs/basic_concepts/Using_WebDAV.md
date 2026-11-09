@@ -4,11 +4,11 @@ WebDAV stands for "Web-based Distributed Authoring and Versioning" and is an ope
 
 !!! info "Advantages of WebDAV"
 
-    Without WebDAV, files can only be uploaded to OpenOlat via conventional upload forms. You either select each file individually or several zipped files. With WebDAV, however, you can conveniently copy several files or complete folder structures from your computer into OpenOlat folders, e.g. into the storage folder of a course.
+    Without WebDAV, files can only be uploaded to OpenOlat via conventional upload forms. You either select each file individually or several zipped files. With WebDAV, however, you copy several files or complete folder structures from your computer into OpenOlat folders, e.g. into the storage folder of a course.
 
 ## WebDAV-compatible OpenOlat folders
 
-Via WebDAV you can access the following OpenOlat folders. The structure is created automatically as soon as the elements are created in OpenOlat:
+Via WebDAV you access the following OpenOlat folders. OpenOlat creates the structure automatically as soon as the elements exist in OpenOlat:
 
   * [Personal files](../personal_menu/File_Hub.md#personal_files) of the File Hub (all users)
   * Folders of [groups](../groups/Using_Group_Tools.md)
@@ -17,19 +17,19 @@ Via WebDAV you can access the following OpenOlat folders. The structure is creat
   * [Resource folders](../learningresources/index.md#resource_folder) (owners of the learning resource only)
   * [Course archives](../learningresources/Course_Archiving/index.md) (authors, learning resource managers and administrators only) [:octicons-tag-16:{ title="from Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
 
-Who is allowed to upload files via WebDAV in the respective folders depends on the specific configuration.
+Who is allowed to upload files via WebDAV in the respective folders depends on the configuration of the folder.
 
 ## Requirements
 
-Microsoft Windows, macOS, iOS, Android and Linux support WebDAV for file transfer via drag & drop by default. Various applications (e.g. Microsoft Office) also offer WebDAV functionality.
+Microsoft Windows, macOS, iOS, Android and Linux support WebDAV for file transfer via drag & drop by default. Applications such as Microsoft Office also work with WebDAV.
 
 To access a folder on OpenOlat via WebDAV, you need:
 
-  * WebDAV link: You find this link below WebDAV-compatible folders or in the [settings](../personal_menu/Settings.md#tab_webdav) of your personal menu under:<br>`Personal menu > Settings > Tab "WebDAV"`
+  * WebDAV link: In a folder, you open it via the 3-dot menu with "WebDAV link". The window shows the link with the button "Copy to clipboard", see [Copy links and pass them on as a QR code](Navigation.md#url_field). The folder shows the entry if "Show WebDAV links" is switched on in the system administration. You find the same link in the [settings](../personal_menu/Settings.md#tab_webdav) of your personal menu under:<br>`Personal menu > Settings > Tab "WebDAV"`
   * Your OpenOlat username or, alternatively, the stored email address
   * Your OpenOlat/WebDAV password
 
-If you access OpenOlat via Shibboleth or a cloud login, you can set up your WebDAV password in the settings of your personal menu. To do so, select the link "Settings" and then click the button "Set password" in the tab "WebDAV". If you already have an OpenOlat password, use it for WebDAV access.
+If you access OpenOlat via Shibboleth or a cloud login, you set up your WebDAV password in the settings of your personal menu. To do so, select the link "Settings" and click the button "Set password" in the tab "WebDAV". If you already have an OpenOlat password, use it for WebDAV access.
 
 ## Troubleshooting
 
@@ -91,7 +91,7 @@ In case of problems, go through the following points:
 
 ??? abstract "Alternative"
 
-    Besides the methods described under "Setting up the WebDAV connection", a WebDAV client can be used alternatively. Depending on the environment, especially Windows in combination with Citrix, such a client can work more stably than the direct WebDAV connection. Some examples of WebDAV clients:
+    Instead of the connection via the operating system, you can use a WebDAV client. Depending on the environment, especially Windows in combination with Citrix, such a client works more stably than the direct WebDAV connection. Some examples of WebDAV clients:
 
     * Windows: Cyberduck, WinSCP
     * Mac: Cyberduck, Commander One
@@ -119,8 +119,12 @@ Once you have set up the connection successfully, a directory opens on your comp
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
+[Navigation >](Navigation.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [FUSE website >](http://fuse.sourceforge.net)<br>
 [WebDAV (Administration) >](../../manual_admin/administration/WebDAV.md)
+
+**Further reading**<br>
+[Personal Configuration: Password >](../personal_menu/Password.md)
 
 [To the top of the page ^](#using_webdav)

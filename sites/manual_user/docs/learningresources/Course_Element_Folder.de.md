@@ -113,7 +113,7 @@ Auch bei geschlossenem Kurseditor arbeiten Sie im Kurs direkt mit den Dateien de
 
 Wer über neue Dateien im Ordner informiert sein will, abonniert die Änderungen im Ordner. Die Ansicht passen Sie an, indem Sie zwischen der Kachelansicht und der Tabellenansicht wechseln. In der Tabellenansicht wählen Sie die angezeigten Spalten und sehen so mehr Details als in der Kachelansicht. Mit der Suche finden Sie Dateien schnell. Gelöschte Dateien verschiebt OpenOlat in den "Papierkorb".
 
-Im 3-Punkte-Menü des Kursbausteins lassen Sie sich den [WebDAV-Link](../basic_concepts/Using_WebDAV.de.md) anzeigen und wählen "Metadaten aktualisieren".
+Im 3-Punkte-Menü des Kursbausteins öffnen Sie mit "WebDAV-Link" den Link für die [WebDAV-Verbindung](../basic_concepts/Using_WebDAV.de.md) und wählen "Metadaten aktualisieren".
 
 
 ### Metadaten {: #metadata}
@@ -122,7 +122,7 @@ Mit den [Metadaten](../basic_concepts/Search_General/index.de.md#metadata) besch
 
 Neben der Beschreibung und der Sperre sind besonders die Lizenzangaben wichtig. Dort hinterlegen Sie eine Lizenz für das Dokument, zum Beispiel eine der Creative-Commons-Lizenzen, tragen den Lizenzgeber ein und ergänzen Angaben zum Herausgeber, zur Quelle oder zum Erscheinungsdatum. Der Ordner zeigt die Lizenz in einer eigenen Spalte. Ein Klick auf die Lizenz zeigt die hinterlegten Angaben.
 
-Das Feld "Anzahl Ansichten" in den Metadaten zeigt, wie oft eine Datei heruntergeladen wurde. Was genau zählt, steht unter [Metadaten](../basic_concepts/Search_General/index.de.md#metadata). Ferner gibt es einen Link, mit dem Sie die jeweilige Datei direkt verlinken können. Ob auch externe Personen auf die Datei zugreifen können, ist von den Zugangseinstellungen des Kurses abhängig.
+Das Feld "Anzahl Ansichten" in den Metadaten zeigt, wie oft eine Datei heruntergeladen wurde. Was genau zählt, steht unter [Metadaten](../basic_concepts/Search_General/index.de.md#metadata). Das Feld "Externer Link zu dieser Ressource" zeigt den Link, der direkt auf die Datei führt. Sie kopieren ihn oder geben ihn als QR-Code weiter, siehe [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). Ob auch externe Personen die Datei öffnen, hängt von den Zugangseinstellungen des Kurses ab.
 
 
 ### Dateien bearbeiten [:octicons-tag-16:{ title="ab Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}
@@ -139,6 +139,7 @@ Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie do
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Allgemeines zur Suche >](../basic_concepts/Search_General/index.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
 
 **Weiterführend**<br>

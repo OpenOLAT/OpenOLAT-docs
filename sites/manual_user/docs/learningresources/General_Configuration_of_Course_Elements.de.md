@@ -82,19 +82,13 @@ Funktion des Kursbausteins näher erläutert werden. 3-4 Sätze sind hier in
 der Regel passend.
 
 Im Tab "Titel und Beschreibung" finden Sie auch die ID des jeweiligen
-Kursbausteins sowie Information, die Sie benötigen, wenn Sie einen Link zu
-diesem Kursbaustein setzen möchten.
+Kursbausteins. Möchten Sie direkt auf diesen Kursbaustein verweisen, etwa aus einer E-Mail oder aus einer Seite im Kurs, finden Sie die Links dazu ebenfalls hier: Klappen Sie den Bereich "Link auf diesen Kursbaustein setzen" auf.
 
-![Externer und kursinterner Link zum Verweisen auf diesen Kursbaustein](assets/KB_Link_setzen.png){ class="shadow lightbox" title="Bereich Link auf diesen Kursbaustein setzen" }
+![Aufgeklappter Bereich mit dem externen Link und den Schaltflächen zum Kopieren und für den QR-Code, darunter der kursinterne Link als einfaches Feld ohne Schaltflächen](assets/general_configuration_course_element_link_v1_de.png){ class="shadow lightbox" title="Bereich Link auf diesen Kursbaustein setzen im Tab Titel und Beschreibung · 2026.11.09" }
 
-**Externer Link:** Um von einem anderen OpenOlat-Kurs oder ausserhalb von
-OpenOlat auf diesen Kursbaustein zu verlinken, nutzen Sie einfach den externen
-Link. Sie können den Link auch per E-Mail verschicken oder in HTML-Seiten
-integrieren.
+**Externer Link:** Mit diesem Link verweisen Sie von einem anderen OpenOlat-Kurs oder von ausserhalb von OpenOlat auf diesen Kursbaustein, etwa in einer E-Mail oder auf einer HTML-Seite. Mit "In Zwischenablage kopieren" übernehmen Sie den Link. Mit "QR-Code anzeigen" zeigen Sie ihn als QR-Code, zum Beispiel auf einem Arbeitsblatt, das direkt zum Kursbaustein führt. Wie das geht, steht unter [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
-**Interner Link (nicht in neuem Fenster öffnen):** Um von einem Kursbaustein
-innerhalb des OpenOlat-Kurses auf diesen Kursbaustein zu verlinken, können Sie
-den internen Link als href-Attribut in der gewünschten HTML-Seite setzen.
+**Kursinterner Link (nicht in neuem Fenster öffnen):** Mit diesem Link verweisen Sie aus einer HTML-Seite im selben Kurs auf diesen Kursbaustein. Setzen Sie ihn dort als href-Attribut. Der Link steht in einem einfachen Feld: Ein Klick hinein markiert ihn ganz, kopieren Sie ihn dann mit <kbd>Ctrl</kbd>+<kbd>C</kbd> oder unter macOS mit <kbd>Cmd</kbd>+<kbd>C</kbd>.
 
 Die ID-Nummer links oben im Feld brauchen Sie, um in den Vorbedingungen
 (z.B. Sichtbarkeit) eines anderen Kursbausteins auf diesen zu verweisen. Jeder
@@ -244,6 +238,7 @@ Informationen zum Tab "Lernpfad" von Lernpfadkursen finden Sie auf der Seite
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Zugriffsbeschränkungen im Expertenmodus >](Access_Restrictions_in_the_Expert_Mode.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>

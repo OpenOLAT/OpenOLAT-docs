@@ -35,9 +35,7 @@ Anwenderprogramme (z.B. Microsoft Office) WebDAV-Funktionalität an.
 
 Um einen Ordner auf OpenOlat über WebDAV zu erreichen, benötigen Sie:
 
-  * Einen WebDAV-Link: Diesen Link findet man im persönlichen Menu rechts oben im Bereich
-"Konfiguration" unter "Einstellungen" → "WebDAV" bzw. unterhalb von WebDAV-
-fähigen Ordnern
+  * Einen WebDAV-Link: Diesen Link finden Sie unter `Persönliches Menü > Einstellungen > Tab "WebDAV"` oder in einem Ordner im 3-Punkte-Menü mit "WebDAV-Link"
   * Ihren OpenOlat-Benutzernamen, alternativ die hinterlegte E-Mail Adresse
   * Ihr OpenOlat-/WebDAV-Passwort.
 

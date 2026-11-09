@@ -51,7 +51,7 @@ Dürfen Teilnehmende den Kurs verlassen, wählen sie in der Kurs-Toolbar im Men�
 
 ![Eintrag Kurs verlassen im geöffneten Menü Mein Kurs der Kurs-Toolbar, abgesetzt unter einer Trennlinie](assets/toolbar_my_course_leave_menu_v1_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Kurs-Toolbar · 2026.10.20" }
 
-### Administrative Freigabe
+### Administrative Freigabe {: #administrative-release}
 
 Im Feld "Administrative Freigabe" ordnen Sie den Kurs einer oder mehreren Organisationen zu. Davon hängt ab, welche Personen mit einer administrativen Rolle auf den Kurs zugreifen und ihn im Autorenbereich finden. Was die einzelnen Rollen dürfen und welche Organisationen zur Auswahl stehen, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#section_share_admin_access).
 
@@ -75,7 +75,7 @@ Inhalt exportieren | Die Autor:innen können die Lernressource herunterladen und
 
 Sollen Teilnehmende einen Kurs selbst buchen, erstellen Sie dafür ein Angebot. Das ist möglich, sobald Sie unter "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt haben.
 
-![Bereich Angebot mit dem Button Angebot hinzufügen und einem Angebot vom Typ Zugangscode mit Zeitraum, Angeboten für und Direktlink](assets/offer.de.jpg){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe" }
+![Bereich Angebot mit dem Button Angebot hinzufügen, einem Angebot Zugangscode und einem Angebot für Gäste mit dem Feld Externer Link - Gast und den Schaltflächen für Kopieren und QR-Code](assets/access_configuration_offers_v1_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe · 2026.11.09" }
 
 Angebote sind unabhängig vom Publikationsstatus des Kurses im Katalog sichtbar, sobald ihre Verfügbarkeit es zulässt (siehe unten, Abschnitt "Verfügbarkeit des Angebots steuern"). Angebote können ausserdem auf einzelne Organisationen oder Unterorganisationen beschränkt werden.
 
@@ -108,6 +108,8 @@ Mit diesem Angebot veröffentlichen Sie einen Kurs, auf den alle OpenOlat-Benutz
 ![Symbol Gastzugang](assets/guest.jpg){ class="size24" } **Gastzugang**
 
 Im herkömmlichen Kurs können Sie ein Angebot nur für Gäste erstellen. Es gilt dann nur für Gäste und lässt sich nicht auf Unterorganisationen einschränken. So geben Sie Lernressourcen auch Personen ganz ohne OpenOlat-Konto frei.
+
+Das Angebot für Gäste zeigt im Feld "Externer Link - Gast" den Link, den Sie an Gäste weitergeben. Mit "In Zwischenablage kopieren" übernehmen Sie ihn in eine E-Mail, mit "QR-Code anzeigen" zeigen Sie ihn als QR-Code, siehe [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). Wie Gäste damit in den Kurs gelangen, beschreibt [Rollen und Rechte: Gastzugang](../basic_concepts/guest_access.de.md#course_level). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
 ### Details zur Angebotskonfiguration
 
@@ -155,9 +157,9 @@ Ob die Freigabe so wirkt wie gewollt, prüfen Sie am Ende des Tabs "Freigabe". D
 
 ## Kurszyklus: Beenden und löschen
 
-Ist ein Kurs vorbei, beenden Sie ihn, löschen ihn oder tun beides.
+Ist ein Kurs vorbei, beenden oder löschen Sie ihn, auf Wunsch auch beides nacheinander.
 
-Wenn Sie einen Kurs beenden, richtet sich der Zugriff der Kursmitglieder nach der Einstellung für den Status "Beendet": Bei "Nur-Lese-Zugriff" bleibt der Kurs im Lesemodus zugänglich, bei "Kein Zugriff" sehen die Teilnehmenden die Inhalte nicht mehr. Diese Voreinstellung gibt die System-Administration vor; sie kann pro Kurs im Tab "Optionen" überschrieben werden. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+Wenn Sie einen Kurs beenden, richtet sich der Zugriff der Kursmitglieder nach der Einstellung für den Status "Beendet": Bei "Nur-Lese-Zugriff" bleibt der Kurs im Lesemodus zugänglich, bei "Kein Zugriff" sehen die Teilnehmenden die Inhalte nicht mehr. Diese Voreinstellung gibt die System-Administration vor. Pro Kurs überschreiben Sie sie unter `Kurs > Administration > Einstellungen > Tab "Optionen"`, siehe [Kurseinstellungen - Tab Optionen](Course_Settings_Options.de.md). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
 
 Alle Benutzerdaten bleiben bestehen. Im Menüpunkt "Kurse" steht der Kurs nicht mehr im Tab "Aktiv", sondern im Tab "Beendet" gleich nebenan.
 
@@ -173,10 +175,16 @@ Unter `Kurs > Administration > Löschen` bzw. über das 3-Punkte-Menü ![Symbol 
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
 [PayPal Konfiguration >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
+[Rollen und Rechte: Gastzugang >](../basic_concepts/guest_access.de.md)<br>
+[Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)
+
+**Weiterführend**<br>
 [Toolbar: Mein Kurs >](../learningresources/Toolbar_My_Course.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)

@@ -5,7 +5,7 @@ With self-registration, persons create their account themselves on the login pag
 
 If "Use security levels / Passkey" is switched on and the minimum level "Level 2 - Passkey" applies to the role user, persons create a passkey instead of a password during self-registration. Their account then has no password. What to consider before switching passkey off is described under [Password and Authentication](Login_Password_and_Authentication.md#use_security_levels_passkey).
 
-## Tab Configuration {: #tab_configuration}
+## Tab Configuration [:octicons-tag-16:{ title="from Release 20.0 (OO-8342)" }](https://track.frentix.com/issue/OO-8342) {: #tab_configuration}
 
 ![Self-registration switched on and shown on the login page, e-mail validation and domains controlled by the organisation module](assets/login_self_registration_tab1_v2_en.png){ class="shadow lightbox" title="Configuration tab of the self-registration in the Administration · 2026.10.31" }
 
@@ -87,11 +87,11 @@ The number of days after which an account from self-registration expires. OpenOl
 
 ### Section "Account attributes" [:octicons-tag-16:{ title="from Release 8.1.2 (OO-261)" }](https://track.frentix.com/issue/OO-261)
 
-After self-registration, a default value can optionally be assigned to an account attribute. This lets you easily identify self-registered users and distinguish them from LDAP users, for example.
+After self-registration, OpenOlat assigns a default value to an account attribute if you wish. This lets you easily identify self-registered users and distinguish them from LDAP users, for example.
 
 #### Activate user property mapping {: #enable_default_value }
 
-If this option is enabled, the selected user property is automatically assigned the specified default value.
+If the option is switched on, OpenOlat automatically assigns the specified default value to the selected user property.
 
 #### User property name {: #account_attribute }
 
@@ -99,7 +99,7 @@ User property that receives the default value.
 
 #### User property value {: #default_value }
 
-Value assigned to the selected user property during self-registration.
+Value that OpenOlat assigns to the selected user property during self-registration.
 
 [To the top of the page ^](#self-registration)
 
@@ -113,7 +113,11 @@ Value assigned to the selected user property during self-registration.
 
 #### Code for registration {: #registration_code }
 
-With the address provided here, persons open self-registration directly, for example from a website or an e-mail.
+!!! info "frentix customers"
+
+    The field appears as long as the link to self-registration is switched on in the server configuration. This is the default. For frentix customers, their customer advisor at frentix takes care of the change.
+
+With the address provided here, persons open self-registration directly, for example from a website or an e-mail. Next to the address, you copy it with "Copy to clipboard" or show it as a QR code with "Show QR code". With "Download PNG" you save the QR code as an image, for example for a notice. More on this under [Copy links and pass them on as a QR code](../../manual_user/basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982)
 
 Use case:<br>
 If the option "Display on login page" is switched off, you invite persons to self-registration with this address.
@@ -128,7 +132,8 @@ If the option "Display on login page" is switched off, you invite persons to sel
 [Password and Authentication >](Login_Password_and_Authentication.md)<br>
 [Module Organisations >](Modules_Organisations.md)<br>
 [Manage user settings >](../usermanagement/Configure_User.md)<br>
-[Core functions: Overview >](Core_functions.md)
+[Core functions: Overview >](Core_functions.md)<br>
+[Navigation >](../../manual_user/basic_concepts/Navigation.md)
 
 **Further reading**<br>
 [Login: Overview >](Login.md)<br>

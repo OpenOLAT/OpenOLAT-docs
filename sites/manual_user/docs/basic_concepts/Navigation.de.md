@@ -16,7 +16,7 @@ Die Seite [Rollen und ihre Arbeitsbereiche](Roles_Home_Areas.de.md) zeigt, in we
 
 ## Globale Navigation {: #global_navigation}
 
-Rechts oben in der Hauptnavigation stehen auf jeder Seite generell der [Chat](Chat.de.md) (Instant Messenger) und die [Suche](Search_General/index.de.md), dazu Ihr persönliches Menü. Welche weiteren Elemente dort erscheinen, hängt von Ihren Einstellungen ab.
+Rechts oben in der Hauptnavigation stehen auf jeder Seite der [Chat](Chat.de.md) (Instant Messenger) und die [Suche](Search_General/index.de.md), dazu Ihr persönliches Menü. Welche weiteren Elemente dort erscheinen, hängt von Ihren Einstellungen ab.
 
 ![Chat mit Status und Anzahl der Kontakte online, Suche und persönliches Menü im rechten Teil der Hauptnavigation markiert, so finden Sie die drei Elemente auf jeder Seite](assets/navigation_global_navigation_v1_de.png){ class="shadow aside-right lightbox" title="Hauptnavigation rechts oben · 2026.10.20" }
 
@@ -61,6 +61,26 @@ Auf der Infoseite einer Lernressource oder einer Durchführung steht dieselbe Ak
 
     Sie sehen die Aktion "Teilen" in der Fusszeile nicht? Dann ist das Teilen in der Serverkonfiguration Ihrer OpenOlat-Instanz ausgeschaltet. In der Administration lässt es sich nicht einschalten. Auf der Infoseite bleibt die Schaltfläche "Teilen" trotzdem sichtbar.
 
+## Links kopieren und als QR-Code weitergeben [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"} {: #url_field}
+
+Möchten Sie einen Kurs, ein Angebot, einen Online-Termin, eine Umfrage, eine Datei oder Ihre Visitenkarte weitergeben, bietet OpenOlat Ihnen den Link dazu an. Er steht überall gleich in einem Feld mit zwei Schaltflächen daneben. Damit bringen Sie den Link ohne Abtippen in eine E-Mail, auf eine Folie oder auf einen Aushang. Das Feld ist schreibgeschützt, damit der Link nicht versehentlich verändert wird. Ein Klick ins Feld markiert den ganzen Link, einen Teil davon markieren Sie mit der Maus.
+
+Die beiden Schaltflächen sind Symbole ohne Beschriftung. Ihren Namen sehen Sie, wenn Sie mit der Maus darauf zeigen:
+
+- **In Zwischenablage kopieren**: OpenOlat kopiert den ganzen Link und bestätigt das mit der Meldung "Link in die Zwischenablage kopiert.". Danach fügen Sie ihn in eine E-Mail, eine Nachricht oder eine Webseite ein. Lässt Ihr Browser das Kopieren nicht zu, markiert OpenOlat den Link im Feld. Sie kopieren ihn dann mit <kbd>Ctrl</kbd>+<kbd>C</kbd> oder unter macOS mit <kbd>Cmd</kbd>+<kbd>C</kbd>.
+- **QR-Code anzeigen**: OpenOlat zeigt den Link als QR-Code unter dem Feld. Personen öffnen den Link damit am eigenen Telefon, etwa von einer Folie im Präsenzunterricht oder von einem Aushang. Der QR-Code steht immer auf weissem Grund, damit ihn ein Telefon sicher erkennt. Solange er sichtbar ist, bleibt die Schaltfläche markiert und heisst "QR-Code ausblenden". Ein Klick darauf blendet den QR-Code wieder aus.
+- **PNG herunterladen**: Die Schaltfläche unter dem QR-Code speichert ihn als Bilddatei `qrcode.png`. Diese fügen Sie in Folien, Dokumente oder Flyer ein.
+
+![Feld mit Link und den Schaltflächen zum Kopieren und für den QR-Code, daneben derselbe Link mit eingeblendetem QR-Code und PNG herunterladen](assets/url_field_states_v1_de.svg){ class="shadow lightbox" title="Feld mit Link, QR-Code aus- und eingeblendet · 2026.11.09" }
+
+![Schaltflächen In Zwischenablage kopieren und QR-Code ausblenden markiert, darunter der eingeblendete QR-Code des externen Links mit der markierten Schaltfläche PNG herunterladen](assets/navigation_url_field_qrcode_v1_de.png){ class="shadow lightbox" title="Fenster Über diesen Kurs, Zeile Externer Link · 2026.11.09" }
+
+In den Assistenten, etwa beim Publizieren eines Kurses, zeigt der Dialog "Links" der Angebote nur "In Zwischenablage kopieren". Den QR-Code eines Angebots zeigen Sie nach dem Assistenten im selben Dialog unter `Kurs > Administration > Einstellungen > Tab "Freigabe"`, siehe [Freigabe](../learningresources/Course_Settings_Share/index.de.md).
+
+Die Aktion ["Teilen"](#share) in der Fusszeile gibt die Seite weiter, die Sie gerade geöffnet haben. Das Feld gibt den Link weiter, den OpenOlat an dieser Stelle anbietet, zum Beispiel den Link für Gäste eines Kurses.
+
+Wer den Link öffnet, braucht Zugriff auf das Ziel. Der Link ersetzt keine Buchung und kein Angebot.
+
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
@@ -70,11 +90,13 @@ Auf der Infoseite einer Lernressource oder einer Durchführung steht dieselbe Ak
 [Chat >](Chat.de.md)<br>
 [Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Persönliches Menü >](../personal_menu/index.de.md)<br>
-[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
+[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)
 
 **Weiterführend**<br>
 [Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>
-[Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)
+[Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)<br>
+[Rollen und Rechte: Gastzugang >](guest_access.de.md)
 
 **youtube**<br>
 [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>)<br>

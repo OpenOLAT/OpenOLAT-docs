@@ -21,11 +21,11 @@ Microsoft Teams enables virtual rooms for synchronous online meetings with webca
 
 ## System requirements {: #system_requirements}
 
-MS Teams can be used both as an app and in the MS Edge browser.
+MS Teams runs as an app and in the Microsoft Edge browser.
 
 !!! tip "Recommendation"
 
-    For full use of all features, in particular the breakout rooms, the MS Teams **desktop app** on Windows or macOS is recommended. Not all features are available in the web browser or on Linux, iOS, and Android.
+    For all features, in particular the breakout rooms, use the MS Teams **desktop app** on Windows or macOS. In the web browser and on Linux, iOS and Android, some features are missing.
 
 ## Roles in MS Teams {: #teams_roles}
 
@@ -39,9 +39,9 @@ There are three roles in an online meeting with MS Teams:
 
 !!! warning "Note: First Joiner = Organizer"
 
-    The first person to start an online meeting automatically receives the Organizer role, regardless of the "Presenters" setting in OpenOlat. This role cannot be changed or reassigned afterwards, neither in OpenOlat nor in Microsoft Teams.
+    The first person to start an online meeting automatically receives the Organizer role, regardless of the "Presenters" setting in OpenOlat. The role cannot be changed or reassigned afterwards, neither in OpenOlat nor in Microsoft Teams.
 
-    In permanent meeting rooms with rotating coaches, only the person who started the online meeting first has permanent access to advanced features such as breakout rooms. If a different person is to act as organizer, a new online meeting must be created.
+    In permanent meeting rooms with rotating coaches, only the person who started the online meeting first has permanent access to advanced features such as breakout rooms. If a different person is to act as organizer, create a new online meeting.
 
 ## Create online meetings with closed course editor [:octicons-tag-16:{ title="from Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124) {: #closed_editor_configuration}
 
@@ -68,10 +68,10 @@ Each variant creates separate online meetings, for recurring meetings one per da
   *  **Name**: Name of the online meeting. Mandatory field.
   *  **Creator**: The name of the person who creates the online meeting is displayed automatically.
   *  **Description**: Description of the online meeting. It appears in the detail view of the online meeting before participants join the online meeting.
-  *  **Main presenter**: The name of a person can be entered here. The name of the person who creates the online meeting is pre-filled.
+  *  **Main presenter**: Here you enter the name of a person. The name of the person who creates the online meeting is pre-filled.
   *  **Guests**: The checkbox "allowed" lets persons who are not logged in take part in the online meeting. This option is only visible if the course is publicly accessible and guest access is enabled.
-  *  **Access external users**: A reference, a unique word without special characters. OpenOlat generates a link from it that you share with external persons, e.g. by e-mail. Owners and coaches find it on the page of the online meeting under "Link for external users" until the online meeting has ended. The icon in front of it shows the link as a QR code. If the field is left empty, access via the link is deactivated.
-  *  **Show room bookings**: Calendar view for checking booked online meetings.
+  *  **Access external users**: A reference, a unique word without special characters. OpenOlat generates a link from it that you share with external persons, e.g. by e-mail. Owners and coaches find it on the page of the online meeting under "Link for external users" until the online meeting has ended. With the buttons next to it, you copy the link ("Copy to clipboard") or show it as a QR code ("Show QR code"), which you save as an image with "Download PNG", for example for a slide. External persons then open the online meeting directly on their phone. More on this under [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982) If the field is left empty, access via the link is deactivated.
+  *  **Show room bookings**: Opens a calendar in which you check booked times.
   *  **Meeting recording**: Switches the recording on or off for this online meeting. The switch only appears if the system administration has switched the function on. What the setting does and which fields are added is described in the section [Meeting recording](#meeting_recording).
   *  **Participants can open the meeting** :octicons-tag-16:{ title="from Release 15.4.1 (OO-5250)" }: Determines whether participants may start the online meeting without a coach being present. Two cards are available. "Not allowed" is preselected. With "Allowed", participants with a Microsoft account of the organisation may open the online meeting with limited permissions. If a participant opens the online meeting, no group rooms ([Breakout rooms](#breakout_rooms)) are available to the coaches. If meeting recording is switched on, the selection is fixed to "Not allowed". The cards only appear if the server configuration is set up for it.
   *  **Presenters**: Determines who receives the Presenter role in MS Teams (see [Roles in MS Teams](#teams_roles)). Mandatory field.
@@ -86,14 +86,14 @@ Each variant creates separate online meetings, for recurring meetings one per da
 
 !!! info "Important"
 
-    The settings of an online meeting can only be changed as long as it has not been started. After that, the form only displays the settings. To apply different presenter settings, a new online meeting must be created.
+    The settings of an online meeting can only be changed as long as it has not been started. After that, the form only displays the settings. To apply different presenter settings, create a new online meeting.
 
 #### For online meetings with a date
 
   *  **Start**: Date and time at which the online meeting begins.
   *  **Prep time (min.)**: Time in minutes before the start during which owners and coaches can already start and enter the online meeting. For participants, the online meeting only opens at the start.
   *  **End**: Date and time at which the online meeting ends.
-  *  **Follow-up (min.)**: Follow-up time during which the online meeting can be extended for all persons.
+  *  **Follow-up (min.)**: Time in minutes after the end by which the online meeting can be extended for all persons.
 
 !!! info "Important"
 
@@ -155,7 +155,7 @@ Automatic deletion only affects recordings, never the online meeting. The system
 
 ## Breakout Rooms {: #breakout_rooms}
 
-Breakout rooms can only be created and managed by the Organizer of an online meeting (see [Roles in MS Teams](#teams_roles)).
+Only the Organizer of an online meeting creates and manages breakout rooms (see [Roles in MS Teams](#teams_roles)).
 
 **Supported platforms:** Breakout rooms are only available in the Teams desktop app on Windows and macOS: not in the web browser and not on mobile devices.
 
@@ -167,7 +167,7 @@ Breakout rooms can only be created and managed by the Organizer of an online mee
 
 **Further restrictions:** Breakout rooms are not available for cancelled or deleted online meetings, in private or shared channels, or when restricted by admin policies.
 
-**Capacity:** A maximum of 300 participants per online meeting is supported. If this limit is exceeded, the breakout room function is automatically disabled. Rooms expire after 60 days of inactivity.
+**Capacity:** A maximum of 300 participants per online meeting is supported. If there are more, Microsoft Teams switches the breakout room function off automatically. Rooms expire after 60 days of inactivity.
 
 ## Display in the course calendar {: #calender_view}
 
@@ -202,7 +202,7 @@ If meeting recording is switched on for the online meeting, the section "Recordi
 
 ## Troubleshooting {: #troubleshooting}
 
-For application-specific issues, Microsoft's official help is available:
+For questions about using Microsoft Teams, the Microsoft help provides support:
 
 [Microsoft Help: Troubleshoot in Microsoft Teams](https://support.microsoft.com/en-us/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
 
@@ -210,6 +210,7 @@ For application-specific issues, Microsoft's official help is available:
 
 **Mentioned on this page**<br>
 [Microsoft Teams module >](../../manual_admin/administration/Teams_module.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Microsoft Help: Troubleshoot in Microsoft Teams](https://support.microsoft.com/en-us/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
 

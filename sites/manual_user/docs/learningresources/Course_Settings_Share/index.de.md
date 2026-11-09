@@ -1,6 +1,6 @@
 # Kurseinstellungen - Tab Freigabe {: #tab_share}
 
-Den Tab Freigabe öffnen Sie im Kurs über `Kurs > Administration > Einstellungen > Tab "Freigabe"`.
+Im Tab Freigabe legen Sie fest, wer Ihren Kurs nutzt und wer ihn verwaltet: woher die Mitglieder kommen, ob Teilnehmende den Kurs selbst buchen und welche Organisationen administrativ darauf zugreifen. Sie öffnen den Tab unter `Kurs > Administration > Einstellungen > Tab "Freigabe"`.
 
 ![Über das Werkzeug-Menü Administration und den Eintrag Einstellungen erreichen Sie die Einstellungs-Tabs, darunter den Tab Freigabe](../assets/course_settings_share_entry_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
 
@@ -56,10 +56,10 @@ Eigenständige Lernressourcen besitzen eine eigene Mitgliederverwaltung. Zum Hin
 Teilnehmende erhalten Zugang über "Privat", indem zum Beispiel Kursbesitzer:innen sie als Mitglied eintragen, oder über "Buchbare und offene Angebote", etwa mit einem Zugangscode oder über ein Angebot im Katalog.
 
 **Verwendung im Course Planner**<br>
-Wird der Kurs in ein Produkt des Course Planner eingebunden, werden die Mitgliedschaften durch den Course Planner vergeben und verwaltet. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
+Wird der Kurs in ein Produkt des Course Planner eingebunden, vergibt und verwaltet der Course Planner die Mitgliedschaften. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
 
 **Template**<br>
-Auch diese Kurse sind durch den Course Planner verwaltet und ohne eigenständige Mitgliederverwaltung. Der Unterschied zur Option "Verwendung im Course Planner" besteht darin, dass ein Template zur Instanzierung verwendet wird. Der Kurs in einer Durchführung wird erst zu einem bestimmten Zeitpunkt aus diesem Template erstellt (instanziert).
+Auch diese Kurse verwaltet der Course Planner, sie haben keine eigenständige Mitgliederverwaltung. Anders als bei "Verwendung im Course Planner" dient der Kurs zur Instanzierung: Den Kurs einer Durchführung erstellt OpenOlat erst zu einem bestimmten Zeitpunkt aus diesem Template (instanziert).
 
 **Einbindung**<br>
 Diesen Verwendungszweck gibt es nur bei Lernressourcen, die keine Kurse sind, zum Beispiel bei einem Test oder einem Formular. Die Lernressource ist wiederverwendbar und hat keine eigenständige Mitgliederverwaltung: Sie wird an anderer Stelle eingebunden, etwa in einen Kursbaustein, und die Mitglieder kommen von dort. Mehr dazu finden Sie unter [Verwendungszweck einer Lernressource vorsehen](../General_Functions_Concept.de.md#usage).
@@ -90,7 +90,7 @@ Hat ein Kurs bereits Mitglieder, ist eine Kopie der einfachste Weg in den Course
 
 ## Abschnitt Freigabe {: #section_share}
 
-![Alle Einstellungen eines eigenständigen Kurses auf einen Blick: Zugang Privat, Direktlink, Austritt mit der Option Nie, Administrative Freigabe und die Rechte für Autor:innen](../assets/course_settings_share_share_v4_de.png){ class="shadow lightbox" title="Abschnitt Freigabe im Tab Freigabe · 2026.10.09" }
+![Eigenständiger Kurs: Zugang Buchbare und offene Angebote, Direktlink mit Schaltflächen zum Kopieren und für den QR-Code, Austritt Jederzeit, Administrative Freigabe, Rechte für Autor:innen](../assets/course_settings_share_share_v5_de.png){ class="shadow lightbox" title="Abschnitt Freigabe im Tab Freigabe · 2026.11.09" }
 
 #### Zugang für Teilnehmer:innen {: #section_share_access}
 
@@ -99,7 +99,9 @@ Bei "Buchbare und offene Angebote" buchen die Teilnehmenden den Kurs selbst, je 
 
 #### Direktlink {: #section_share_direct_link}
 
-Wer diesen Link erhält, ruft den Kurs damit direkt auf. Ist die Person nicht in OpenOlat registriert oder nicht eingeloggt, erscheint zuerst der Login-Bildschirm.
+Mit dem Direktlink öffnen Personen den Kurs direkt, ohne ihn zu suchen. Ist die Person nicht in OpenOlat registriert oder nicht eingeloggt, erscheint zuerst der Login-Bildschirm.
+
+Mit "In Zwischenablage kopieren" übernehmen Sie den Direktlink in eine E-Mail oder auf eine Webseite. Mit "QR-Code anzeigen" zeigen Sie ihn als QR-Code, etwa auf einem Aushang, und mit "PNG herunterladen" speichern Sie den QR-Code als Bild. Wie das geht, steht unter [Links kopieren und als QR-Code weitergeben](../../basic_concepts/Navigation.de.md#url_field). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
 #### Teilnehmer:innen können austreten [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #section_share_leave}
 
@@ -146,10 +148,9 @@ Admin-Handbuch: [Modul OAI PMH >](../../../manual_admin/administration/Modules_O
 
 ![Solange der Zugang für Teilnehmer:innen auf Privat steht, ist der Button Angebot hinzufügen inaktiv, und der Abschnitt nennt den Grund](../assets/course_settings_share_offer_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe · 2026.10.09" }
 
-Damit ein Kurs im Katalog aufgeführt wird, muss ein Angebot erstellt werden. Es können auch mehrere Angebote erstellt werden, wenn der gleiche Kurs zu verschiedenen Bedingungen angeboten werden soll (z.B. kostenlos für eine bestimmte Zielgruppe, kostenpflichtig für andere).
+Damit ein Kurs im Katalog erscheint, erstellen Sie ein Angebot. Soll derselbe Kurs zu verschiedenen Bedingungen buchbar sein, erstellen Sie mehrere Angebote, zum Beispiel kostenlos für eine bestimmte Zielgruppe und kostenpflichtig für andere.
 
-Damit ein Angebot für den Katalog erstellt werden kann, muss im Abschnitt "Freigabe" bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt sein. 
-
+Angebote erstellen Sie, sobald im Abschnitt "Freigabe" bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt ist.
 
 Mehr über Angebote und den Katalog finden Sie hier:<br>
 [Katalog >](../../area_modules/catalog2.0/index.de.md)<br>
@@ -163,8 +164,7 @@ Mehr über Angebote und den Katalog finden Sie hier:<br>
 
 ## Abschnitt LTI 1.3 Zugangskonfiguration [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7664)" }](https://track.frentix.com/issue/OO-7664) {: #section_LTI}
 
-OpenOlat-Kurse können via LTI 1.3 auch von einem anderen LMS aus aufgerufen werden. Für diesen Zugriff von aussen braucht es aber Sicherheitsvorkehrungen und genau festgelegte Berechtigungen.<br>
-In diesem Abschnitt können Sie dazu ein sogenanntes Deployment einrichten, um den Kurs für ein anderes LMS aufrufbar zu machen.
+Soll ein anderes LMS Ihren OpenOlat-Kurs aufrufen, geben Sie ihn über LTI 1.3 frei. Dafür richten Sie in diesem Abschnitt ein sogenanntes Deployment ein. Es legt die Sicherheitsvorkehrungen und Berechtigungen für den Zugriff von aussen fest.
 
 Mehr über die Freigabe eines Kurses via LTI finden Sie hier:<br>
 [LTI Zugang zu einem Kurs konfigurieren >](../LTI_Share_courses.de.md)
@@ -195,6 +195,7 @@ Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produk
 **Auf dieser Seite erwähnt**<br>
 [Funktionskonzept Kurse und Lernressourcen >](../General_Functions_Concept.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
+[Navigation >](../../basic_concepts/Navigation.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../Course_Settings_Execution.de.md)<br>
 [Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../../basic_concepts/Offer_Concepts.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles/index.de.md)<br>

@@ -119,7 +119,7 @@ The full-text search indexes the metadata. You therefore also find documents via
 
 ![File list of a folder, for the locked file the label Locked with a lock is marked in the column File status](../assets/search_general_folder_locked_file_v1_en.png){ class="shadow lightbox" title="File list of a folder · 2026.11.03" }
 
-The field "External link to this resource" in the metadata shows a link with which you can also link directly to the file from outside OpenOlat.
+The field "External link to this resource" in the metadata shows a link with which you can also link directly to the file from outside OpenOlat. You copy it or pass it on as a QR code, see [Copy links and pass them on as a QR code](../Navigation.md#url_field).
 
 **Number of views:** The field "Number of views" shows how often a file was downloaded from a folder. Despite its name, OpenOlat counts downloads, not the display in the browser. The number goes up by 1 when someone saves the file with "Download", downloads it in a ZIP file together with other files, opens it via WebDAV, or clicks the file name and the file is downloaded. If the file opens in the browser or in an editor on click instead, for example a PDF or a Word document, the number stays the same.
 
@@ -144,6 +144,7 @@ OpenOlat counts every access, not every person: if the same person downloads a f
 [Search in a course >](../Search_in_Course.md)<br>
 [Search in the File Hub >](../Search_in_FileHub.md)<br>
 [Dublin Core (Wikipedia) >](https://en.wikipedia.org/wiki/Dublin_Core)<br>
+[Navigation >](../Navigation.md)<br>
 [Course statistics >](../../learningresources/Statistics_Course.md)<br>
 [Security >](../../../manual_admin/administration/Login_Security.md)
 

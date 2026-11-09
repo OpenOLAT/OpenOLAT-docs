@@ -6,21 +6,21 @@
 
 !!! info "Summary"
 
-    In a data collection
+    A data collection surveys
 
-    * a certain **group of people**
-    * in a certain **time window**
-    * on a certain **topic**
-    * is surveyed with a certain **form**.
+    * a certain group of people
+    * in a certain time window
+    * on a certain topic
+    * with a certain form.
 
 
-* In order to obtain feedback on the quality of teaching, courses, lecturers, etc., a questionnaire (form learning resource) is submitted to a specific group of people for completion.
-* Emails with a link to the form learning resource are then sent at the specified time.
-* The participants' entries are evaluated by the "Quality management" module, e.g. also across different courses.
-* At the end, a report is generated which a definable group of people can access.
-* The data collections are created in the "Quality management" module.
+* If you want feedback on the quality of teaching, courses, lecturers, etc., you give a questionnaire (form learning resource) to a specific group of people to complete.
+* At the specified time, OpenOlat sends emails with a link to the form learning resource.
+* The quality management evaluates the participants' entries, e.g. also across different courses.
+* At the end, OpenOlat generates a report which a definable group of people can access.
+* Quality managers and administrators create data collections in the quality management.
 
-![One form learning resource is used in two data collections, each with its own group of people and submission deadline](assets/quality_management_scheme_data_collection_v1_de.png){ class="lightbox" }
+![One form learning resource is used in two data collections, each with its own group of people and submission deadline](assets/quality_management_scheme_data_collection_v1_en.png){ class="lightbox" title="Scheme of a data collection · 2026.11.10" }
 
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
@@ -30,93 +30,94 @@
 
 ## Create new data collection {: #create_data_collections}
 
-If you have the appropriate authorization (role), **Quality management** appears in your main navigation. Click on the link in the section **"Data collections"**.
+If you plan a survey, you create a data collection for it. Quality managers and administrators see the quality management in the main navigation and open the list of data collections there in the section "Data collections":<br>
+`Quality management > Data collections > Button "Create data collection"`
 
-![Section Data collections and entry Quality management in the More menu highlighted, start page of the quality management](assets/quality_management_data_collection_v1_de.png){ class="shadow lightbox" }
+![Section Data collections on the start page of the quality management and the menu More in the main navigation highlighted](assets/quality_management_data_collection_v1_en.png){ class="shadow lightbox" title="Start page of the quality management · 2026.11.10" }
 
-Create a new data collection there.
+![Button Create data collection highlighted, above the list of data collections with the status filters All to Done](assets/quality_management_data_collection_create_v1_en.png){ class="shadow lightbox" title="List of data collections · 2026.11.10" }
 
-![Button Create data collection highlighted, above the empty list of data collections with the status filters All to Finished](assets/quality_management_data_collection_create_v1_de.png){ class="shadow lightbox" }
+First, you select an existing form learning resource or create a new one.
 
-You are first asked to specify a form learning resource.
-Select an existing one or create a new one.
+![Form learning resources to choose from and the buttons Create and Import file](assets/quality_management_data_collection_select_form_v1_en.png){ class="shadow lightbox" title="Dialog Select form · 2026.11.09" }
 
-![Dialog Select form with one published form learning resource to choose from and the buttons Create and Import](assets/quality_management_data_collection_select_form_v1_de.png){ class="shadow lightbox" }
+You then set up the data collection in five tabs. At the specified time, OpenOlat sends emails with a link to the form to the participants. At the end, OpenOlat generates a report which the persons named in the tab "Report access" can access. As soon as a report is available, the tab "Report" appears as well.
 
-The properties and functionality of the data collection are defined in 5 tabs. At the specified time, emails with a link to the form are sent to the participants specified here. At the end, a report is generated to which the persons named in the tab "Report access" have access.
-(As soon as a report is available, a further tab "Report" is displayed.)
-
-![Tab Configuration of a data collection with title, period From and To, linked form, organizations and topic type, above it the five tabs and the status Preparation](assets/quality_management_data_collection_config_v1_de.png){ class="shadow lightbox" }
+![Title, period From and To, linked form, organisations, topic type and course, above it the five tabs and the status Preparation](assets/quality_management_data_collection_config_v1_en.png){ class="shadow lightbox" title="Tab Configuration of a data collection · 2026.11.09" }
 
 
 
 ### Tab "Configuration" {: #tab_config}
 
-After the start of the data collection, all participants can complete and submit the form selected here during the specified period. After this deadline, it is no longer possible to submit the form.
+Here you define which form the participants complete in which period. While the data collection is running, all participants complete and submit the form selected here during the specified period. After this deadline, it is no longer possible to submit the form.
 
 At the end of the submission period, the report is available to all persons listed in the tab "Report access".
 
 
 ### Tab "Participants" {: #tab_participants}
 
-In this tab, the group of surveyed persons is defined, i.e. who receives the invitation to participate with the link to the form by email.
+In this tab, you define whom you survey, i.e. who receives the invitation to participate with the link to the form by email.
 
-Groups of people can be searched for or taken over using the button "Add participants". An invitation via mail list is also possible.
+With the button "Add participants" you search for users or take over the members of a course or a curriculum element. With "E-Mail invitation" you invite persons via their email address. [:octicons-tag-16:{ title="from Release 20.1 (OO-8329)" }](https://track.frentix.com/issue/OO-8329)
 
-A link can be generated by activating the toggle button "Access via public link". Any person who uses this link can then participate in the data collection without being registered as an OpenOlat user.
+![Toggle Allow access via public link and menu Add participants with four sources from Search user to E-Mail invitation highlighted](assets/quality_management_data_collection_config_tab_participants_v1_en.png){ class="shadow lightbox" title="Tab Participants of a data collection · 2026.11.10" }
 
-![Toggle Access via public link and menu Add participants with Search user, Import from course, Import from curriculum element and Email invitation highlighted, tab Participants of a data collection](assets/quality_management_data_collection_config_tab_participants_v1_de.png){ class="shadow lightbox" }
+#### Public access [:octicons-tag-16:{ title="from Release 20.1 (OO-8330)" }](https://track.frentix.com/issue/OO-8330) {: #public_access}
+
+If you also want to survey persons without an OpenOlat account, for example the guests of an event, switch on "Allow access via public link" in the section "Public access". OpenOlat enters a random value in the field "Link" that forms the end of the link. You can change it. The field "Preview" shows the complete link, and "Save" applies the setting. Any person who opens the link takes part in the data collection without being registered in OpenOlat. You change the switch as long as the data collection has the status "Preparation" or "Prepared".
+
+Next to the link, you copy it with "Copy to clipboard" or show it as a QR code with "Show QR code". With "Download PNG" you save the QR code as an image. If you show it on a slide at the end of an event, for example, the people present take part in the survey directly on their phone. More on this under [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982)
 
 
 ### Tab "Reminders" {: #tab_reminders}
 
-Various reminder emails can be prepared, which are sent automatically when the selected dispatch conditions are met.
+So that the respondents do not miss the data collection, you prepare the invitation and reminder emails here. OpenOlat sends them automatically as soon as the selected dispatch condition is met.
 
-The invitation is an email to the participants with the link to the form. If no information is provided, no email is sent and the participants must be informed by other means. (E.g. by lecturers in class.)
+The invitation is an email to the participants with the link to the form. If no invitation is set up, OpenOlat sends no email, and you inform the participants by other means, e.g. in class.
 
 
-### Tab "Action to-dos" {: #tab_action_to_dos}
+### Tab "Action to-dos" [:octicons-tag-16:{ title="from Release 18.0 (OO-6781)" }](https://track.frentix.com/issue/OO-6781) {: #tab_action_to_dos}
 
-The results of data collections or a specific participant survey can be responded to directly with appropriate actions. Necessary to-dos can be created in context and delegated directly to the persons concerned. They are informed of a new to-do by email. All to-dos are available in the section ["Actions (To-dos)"](Quality_Management_To-dos.md).
+If the results of a data collection or of a single form show a need for action, you respond directly with actions. You create to-dos in the context of the data collection and assign them to the persons responsible. They receive an email about the new to-do. All to-dos are available in the section ["Actions (To-dos)"](Quality_Management_To-dos.md).
 
 
 ### Tab "Report access" {: #tab_permission_report}
 
-Once a data collection has been finished, the listed persons can access the reports.
-In the tab "Report access" you can determine<br>
+Here you define who accesses the reports after a data collection has finished and who is informed about it. In the tab "Report access" you determine<br>
 a) who is allowed to see which reports<br>
-b) and whether/how they are informed about it.
+b) and whether and how OpenOlat informs them.
 
-![Role table with the columns Online access, Action to-do, Email when done and Email in case of qualitative feedback, below it the section Single users, tab Report access](assets/quality_management_data_collection_tab_permission_report_v1_de.png){ class="shadow lightbox" }
-
-
-* Column **Online access:**<br>The recipients named in the 1st column can access reports online.
-* Column **Email when done:**<br> The recipients named in the 1st column receive an email as soon as a report has been generated.
-* Column **Email in case of qualitative feedback:**<br> The recipients named in the 1st column receive an email as soon as a report has been generated and **text fields** in the form have been filled in or a file has been uploaded by the respondents.
-* Section **Single users:**<br>Access can also be granted to freely definable users who do not have access based on a role.
+![Role table with the columns Online access, Action to-do, Email when done and Email in case of qualitative feedback, below it the section Individual users](assets/quality_management_data_collection_tab_permission_report_v2_en.png){ class="shadow lightbox" title="Tab Report access of a data collection · 2026.11.09" }
 
 
-Quality managers have access to the current status of the data collection even before it is finished.
+* Column **Online access:**<br>The recipients named in the 1st column access the reports online.
+* Column **Action to-do:**<br>Defines what the recipients named in the 1st column may do with the action to-dos of the data collection: "No access", "All readable, my editable", "My editable and create new ones", "All editable and create new ones" or "Full access".
+* Column **Email when done:**<br>Defines whether the recipients named in the 1st column receive an email as soon as OpenOlat has generated the report: "Always", "Never", "Insufficient" or "Insufficient or neutral". When the last two settings trigger an email is described under "Conditions for an email notification".
+* Column **Email in case of qualitative feedback:**<br>The recipients named in the 1st column receive an email as soon as OpenOlat has generated the report and the respondents have filled in text fields in the form or uploaded a file.
+* Section **Individual users:**<br>Here you grant access to freely chosen users who do not have it through a role.
+
+
+Quality managers see the current status of the data collection even before it is finished.
 
 **Conditions for an email notification**<br>
-The calculation of the cases in which an email is triggered is based on the rubric elements used in the form.<br>
-For each rubric, the average is calculated across all questions based on the answers. This average is then converted into a rating (insufficient, neutral, good) using the value ranges (scale) in the configuration of the rubric. If the average does not fall within a value range (e.g. because none are defined), the rating "none" is returned.
+Whether OpenOlat triggers an email with the settings "Insufficient" and "Insufficient or neutral" is calculated from the rubric elements of the form.<br>
+For each rubric, OpenOlat calculates the average from the answers to all questions. It assigns this average to a rating using the value ranges (scale) in the configuration of the rubric: "insufficient", "neutral" or "sufficient". If the average does not fall within any value range, for example because none are defined, the rating is "not rated".
 
 **Example:**
 
-- The form contains 6 rubrics.<br>
-- No value ranges are defined for the first two rubrics, so the rating "none" is always returned.<br>
-- Averages and ratings are calculated for the other 4.
-- With the setting "insufficient", the email is sent if the rating "insufficient" was calculated for at least one of the rubrics.
-- With the setting "insufficient or neutral", the email is sent if the rating "insufficient" or "neutral" was calculated for at least one of the rubrics.
-- In this case, if the email "insufficient" is configured, it is sufficient for one of the questions 3-6 to be rated as insufficient on average to trigger the email.
+- The form contains 6 rubrics.
+- No value ranges are defined for the first two rubrics, so their rating is always "not rated".
+- For the other 4, OpenOlat determines the average and the rating.
+- With the setting "Insufficient", OpenOlat sends the email if at least one rubric receives the rating "insufficient".
+- With the setting "Insufficient or neutral", OpenOlat sends the email if at least one rubric receives the rating "insufficient" or "neutral".
+- If "Insufficient" is set in this example, one of the rubrics 3 to 6 with the rating "insufficient" is therefore enough to trigger the email.
 
 
 ### Tab "Report" {: #tab_report}
 
-This tab is only visible once a report is available.
+As soon as a report is available, OpenOlat shows the tab "Report". It summarises the results of the data collection with their key figures. With "Print", "Export PDF" and "Export Excel" you output the report, for example for a meeting.
 
-![Key figures of a finished data collection from title to processing time, above them the buttons Print, Export PDF and Export Excel and four sub-tabs, tab Report](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" }
+![Key figures of a finished data collection from title to processing time, above them the buttons Print, Export PDF and Export Excel and four sub-tabs](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" title="Tab Report of a finished data collection" }
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
 
@@ -124,7 +125,7 @@ This tab is only visible once a report is available.
 
 ### Recommended forms {: #recommended_forms}
 
-For surveys as part of quality management, **form learning resources** created in OpenOlat are used. They can be created in the Content Editor and ideally contain **rubric questions**. These can be evaluated best after a data collection. Free text fields are also possible, for example, but this question type cannot be evaluated automatically. It is therefore generally recommended to use a form with several rubric elements, supplemented by one or two free text fields in which the respondents can formulate additional comments themselves.
+For surveys in quality management, you use form learning resources that you create in OpenOlat with the Content Editor. Rubric elements can be evaluated best. Free text fields are also possible, but OpenOlat does not evaluate them automatically. A form with several rubric elements, supplemented by one or two free text fields in which the respondents formulate their own comments, has therefore proven itself.
 
 For more information on creating suitable forms for quality management, see:
 
@@ -139,7 +140,7 @@ For more information on creating suitable forms for quality management, see:
 
 ## Execute data collection {: #execute_data_collection}
 
-The execution is triggered automatically. As soon as the defined time window begins (tab "Configuration"), the surveyed persons can complete and submit the form. After this deadline, it is no longer possible to submit the form.
+OpenOlat starts a data collection with the status "Prepared" automatically as soon as its time window from the tab "Configuration" begins. You set the status via the status button of the data collection from "Preparation" to "Prepared" when everything is set up. With "In progress" in the same menu you start the data collection immediately. While it is "In progress", the surveyed persons complete and submit the form. After the deadline, it is no longer possible to submit the form.
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
 
@@ -148,20 +149,20 @@ The execution is triggered automatically. As soon as the defined time window beg
 
 ## Finish data collection {: #complete_data_collection}
 
-A data collection finishes itself when the specified time window has expired.
+OpenOlat finishes a data collection automatically as soon as its time window has expired.
 
-![Status Finished and the path Quality management, Data collections in the breadcrumb navigation highlighted, configuration of a data collection](assets/quality_management_closed_v1_de.png){ class="shadow lightbox" }
+![Status Done and the path Quality management, Data collections in the breadcrumb navigation highlighted](assets/quality_management_closed_v1_de.png){ class="shadow lightbox" title="Configuration of a finished data collection" }
 
-Once a data collection has been finished, it can no longer be reset to the status "Running".
+A data collection keeps the status "Done" permanently.
 
-A finished data collection can only be edited in the tabs
+You edit a finished data collection only in the tabs
 
 * Action to-dos and
 * Report access
 
-It is also possible to force the finishing of a running data collection manually (without waiting for the specified time window to expire). To do this, click on the button to change the status.
+You can also finish a running data collection manually, without waiting for the end of the time window. To do this, open the menu of the status button "In progress" and select "Done".
 
-![Status button Running with arrow to change the status highlighted, configuration of a running data collection](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" }
+![Status button In progress with arrow to change the status highlighted](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" title="Configuration of a running data collection" }
 
 
 [To the top of the page ^](#Quality_Management_Data_Collections)
@@ -171,8 +172,12 @@ It is also possible to force the finishing of a running data collection manually
 
 ## Further information {: #further_information}
 
+[Navigation >](../basic_concepts/Navigation.md)<br>
 [Quality Management: Actions (To-dos) >](Quality_Management_To-dos.md)<br>
 [Quality Management: Surveys >](Quality_Management_Surveys.md)<br>
-[Forms in Rubric Scoring >](../learningresources/Forms_in_Rubric_Scoring.md)
+[Forms in Rubric Scoring >](../learningresources/Forms_in_Rubric_Scoring.md)<br>
+[Quality Management: Overview >](Quality_Management/index.md)<br>
+[Quality Management: Data Collection Generators >](Quality_Management_Data_Collection_Generators.md)<br>
+[Quality Management: Analysis >](Quality_Management_Analysis.md)
 
 [To the top of the page ^](#Quality_Management_Data_Collections)

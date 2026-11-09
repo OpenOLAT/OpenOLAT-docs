@@ -51,7 +51,7 @@ Guests have limited access to OpenOlat without registering. They can view learni
 | in conventional courses | yes | yes | yes |
 | in learning path courses | no | yes | yes |
 | Activation by administrator required | yes | yes | no |
-| specific offers | yes, offer "Guest access"  | no | no (standard) |
+| specific offers | yes, offer "Guest"  | no | no (standard) |
 | Bulk invitation| no  | yes (email list) | yes |
 | Authentication | no | yes, by validated email address | yes, various methods |
 | Management of learners | not possible, as user is unknown | user management, members management | user management, members management |

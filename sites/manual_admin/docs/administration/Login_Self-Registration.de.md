@@ -5,7 +5,7 @@ Mit der Selbstregistrierung legen Personen ihr Konto auf der Login-Seite selbst 
 
 Ist "Sicherheitsstufen / Passkey verwenden" eingeschaltet und gilt für die Rolle Benutzer:in die Mindeststufe "Stufe 2 - Passkey", erstellen Personen bei der Selbstregistrierung einen Passkey statt eines Passworts. Ihr Konto hat dann kein Passwort. Was Sie vor dem Ausschalten von Passkey beachten, steht unter [Passwort und Authentifizierung](Login_Password_and_Authentication.de.md#use_security_levels_passkey).
 
-## Tab Konfiguration {: #tab_configuration}
+## Tab Konfiguration [:octicons-tag-16:{ title="ab Release 20.0 (OO-8342)" }](https://track.frentix.com/issue/OO-8342) {: #tab_configuration}
 
 ![Selbstregistration eingeschaltet und auf der Loginseite angezeigt, E-Mail Validierung und Domänen über das Organisationsmodul gesteuert](assets/login_self_registration_tab1_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration der Selbstregistration in der Administration · 2026.10.31" }
 
@@ -88,11 +88,11 @@ Die Anzahl Tage, nach denen ein Konto aus der Selbstregistrierung abläuft. Open
 
 ### Abschnitt "Kontoattribute" [:octicons-tag-16:{ title="ab Release 8.1.2 (OO-261)" }](https://track.frentix.com/issue/OO-261)
 
-Nach der Selbstregistrierung kann einem Kontoattribut optional ein Standardwert zugewiesen werden. Damit erkennen Sie selbstregistrierte Benutzer:innen einfach und unterscheiden sie zum Beispiel von LDAP-Benutzer:innen.
+Nach der Selbstregistrierung weist OpenOlat einem Kontoattribut auf Wunsch einen Standardwert zu. Damit erkennen Sie selbstregistrierte Benutzer:innen einfach und unterscheiden sie zum Beispiel von LDAP-Benutzer:innen.
 
 #### Standardwert aktivieren {: #enable_default_value }
 
-Ist die Option aktiviert, wird dem gewählten Kontoattribut automatisch der angegebene Standardwert zugewiesen.
+Ist die Option eingeschaltet, weist OpenOlat dem gewählten Kontoattribut automatisch den angegebenen Standardwert zu.
 
 #### Kontoattribut {: #account_attribute }
 
@@ -100,7 +100,7 @@ Kontoattribut, das den Standardwert erhalten soll.
 
 #### Standardwert {: #default_value }
 
-Wert, der dem gewählten Kontoattribut bei der Selbstregistrierung zugewiesen wird.
+Wert, den OpenOlat dem gewählten Kontoattribut bei der Selbstregistrierung zuweist.
 
 
 [Zum Seitenanfang ^](#self-registration)
@@ -116,7 +116,11 @@ Wert, der dem gewählten Kontoattribut bei der Selbstregistrierung zugewiesen wi
 
 #### Code für die Registrierung {: #registration_code }
 
-Über die hier angegebene Adresse öffnen Personen die Selbstregistrierung direkt, etwa aus einer Website oder einer E-Mail.
+!!! info "frentix-Kund:innen"
+
+    Das Feld erscheint, solange der Link zur Selbstregistrierung in der Serverkonfiguration eingeschaltet ist. Das ist der Standard. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
+Über die hier angegebene Adresse öffnen Personen die Selbstregistrierung direkt, etwa aus einer Website oder einer E-Mail. Neben der Adresse kopieren Sie sie mit "In Zwischenablage kopieren" oder zeigen sie mit "QR-Code anzeigen" als QR-Code. Mit "PNG herunterladen" speichern Sie den QR-Code als Bild, etwa für einen Aushang. Mehr dazu unter [Links kopieren und als QR-Code weitergeben](../../manual_user/basic_concepts/Navigation.de.md#url_field). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982)
 
 Verwendungsbeispiel:<br>
 Ist die Option "Auf Loginseite anzeigen" ausgeschaltet, laden Sie Personen mit dieser Adresse zur Selbstregistrierung ein.
@@ -132,7 +136,8 @@ Ist die Option "Auf Loginseite anzeigen" ausgeschaltet, laden Sie Personen mit d
 [Passwort und Authentifizierung >](Login_Password_and_Authentication.de.md)<br>
 [Modul Organisationen >](Modules_Organisations.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
-[Core-Konfiguration: Übersicht >](Core_functions.de.md)
+[Core-Konfiguration: Übersicht >](Core_functions.de.md)<br>
+[Navigation >](../../manual_user/basic_concepts/Navigation.de.md)
 
 **Weiterführend**<br>
 [Login: Übersicht >](Login.de.md)<br>

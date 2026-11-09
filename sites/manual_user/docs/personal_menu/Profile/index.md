@@ -2,7 +2,7 @@
 
 ![Entry Profile in the section Configuration of the personal menu, above the entries System settings and Password](../assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
 
-In the personal menu, section "Configuration", under the option "Profile" you can change your personal data and set up your visiting card. Complete the fields provided.
+In the profile you keep your personal data up to date and determine what others see on your visiting card. You open it in the personal menu in the section "Configuration" with "Profile".
 
 !!! tip "Your organisation determines which fields you change yourself"
 
@@ -23,35 +23,39 @@ You change your e-mail address with the button "Edit" next to the field "E-mail"
 
 <details>
     <summary>E-mail signature</summary>
-    If the option to enter your e-mail signature is not displayed, please contact your system administrators.
+    The field "E-Mail signature" appears if your system administrators have provided it for the profile.
     <img src="../assets/configuration_profile_signature_v1_de.png" alt="Field E-Mail Signatur with text editor in the tab Profile, marked, to the right the entry Profile in the personal menu" />
 
 </details>
 
-A phone number for sending SMS can be added in the contact data. If an SMS service is set up for your system, the password can be reset with an SMS authentication. For this purpose, a phone number must be stored here. The number must be entered in the internationally valid format +41 12 345 67 89. A mobile phone number is recommended. For fixed network numbers, the number is called for verification and the code is read out.
+With a phone number in the contact data, you reset your password via SMS if your OpenOlat instance uses an SMS service. Enter the number in the international format, for example +41 12 345 67 89. A mobile phone number works best. For a landline number, you receive a call for verification that reads out the code to you.
 
-In the "About me" section, you can enter some information about yourself as free text if required.
+In the section "About me", you enter information about yourself as free text if required.
 
 <a id="profile_photo"></a>
 
-It is also important for online learning that you add a photo of yourself to your profile. This makes online learning more personal and online communication and cooperation more pleasant and easier for everyone. The photo stored in your profile appears in OpenOlat in various places, e.g. on your visiting card, in forum posts or in the participant list. OpenOlat crops the picture to a width of 100 pixels.
+With a photo in your profile, others recognise you during online learning. The photo appears in OpenOlat in several places, e.g. on your visiting card, in forum posts or in the participant list. OpenOlat crops the picture to a width of 100 pixels.
 
 You upload your photo in the section "Published image" with "Select file", as a JPG, PNG or GIF file of up to 10 MB. With "Replace" you exchange the photo, with "Delete" you remove it. Then click "Save". If the section is locked, your organisation provides the photo.
 
 ### Tab "My visiting card"
 
-With the help of the check boxes you determine which entries appear on your visiting card and can therefore be viewed by other OpenOlat users. Some check boxes cannot be edited. These are predefined system-wide.
+With the checkboxes you determine which entries appear on your visiting card and are thus visible to other OpenOlat users. Checkboxes you cannot change are predefined system-wide.
+
+Under "Preview", the tab shows your visiting card. There, the section "External link to visiting card" shows the link to your visiting card. You copy it or pass it on as a QR code, for example in an e-mail signature or on a slide, see [Copy links and pass them on as a QR code](../../basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 10.1 (OO-1348)" }](https://track.frentix.com/issue/OO-1348)
 
 !!! tip "Tip"
 
-    To view the visiting cards of other OpenOlat users, select the tool
-    "[Other users](../Other_users.md)" in the personal menu and search for the desired person using the
-    search mask.
+    To view the visiting cards of other OpenOlat users, select the tool "[Other users](../Other_users.md)" in the personal menu and search for the desired person using the search mask.
 
 
 ## Further information {: #further_information}
 
-[User tools: Other users >](../Other_users.md)<br>
+**Mentioned on this page**<br>
+[Navigation >](../../basic_concepts/Navigation.md)<br>
+[User tools: Other users >](../Other_users.md)
+
+**Further reading**<br>
 [User tools: E-Mail >](../E-Mail.md)<br>
 [Personal Configuration: Settings >](../Settings.md)<br>
 [Personal Configuration: Password >](../Password.md)<br>

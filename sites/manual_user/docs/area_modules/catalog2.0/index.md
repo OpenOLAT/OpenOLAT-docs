@@ -35,7 +35,7 @@ Requirement: The catalog must be activated in the system administration: `Admini
 
 **Unregistered persons** can access an externally accessible, mirrored version of the catalog, provided this so-called web catalog is activated. Access is possible directly from the login screen. However, the link to the web catalog can also be integrated elsewhere in a website. [:octicons-tag-16:{ title="from Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002)
 
-![Section Catalog with the button Explore our offers below the guest access, login page of OpenOlat](../assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" title="Login page of OpenOlat" }
+![Section Catalog with the button Explore our offers below the guest access highlighted](../assets/catalog20_webcatalog_login_v1_en.png){ class="shadow lightbox" title="Login page of OpenOlat · 2026.11.09" }
 
 [Further information on the external catalog >](../../../manual_user/area_modules/catalog2.0_web.md)<br>
 [To the top of the page ^](#catalog_overview)

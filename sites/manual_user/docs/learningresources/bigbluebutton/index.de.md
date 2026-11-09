@@ -40,7 +40,7 @@ BigBlueButton ist eine browserbasierte Software-Lösung und benötigt keine zus�
 
 ## Konfiguration im Kurseditor
 
-Bei der Einbindung von BigBlueButton im Kurs lässt sich festlegen, ob die Online-Termine des Kursbausteins nur durch die Moderierenden oder auch durch Teilnehmende gestartet werden können. Moderierende sind die Besitzer:innen und Betreuer:innen des Kurses. Ist im Feld "Zugang" die Option "Nur Moderatoren dürfen diesen Raum eröffnen" gesetzt, können Teilnehmende den Online-Termin erst betreten, wenn die Moderation ihn gestartet hat. Die Option steht unter:<br>
+Bei der Einbindung von BigBlueButton im Kurs legen Sie fest, ob nur die Moderierenden oder auch Teilnehmende die Online-Termine des Kursbausteins starten dürfen. Moderierende sind die Besitzer:innen und Betreuer:innen des Kurses. Ist im Feld "Zugang" die Option "Nur Moderatoren dürfen diesen Raum eröffnen" gesetzt, können Teilnehmende den Online-Termin erst betreten, wenn die Moderation ihn gestartet hat. Die Option steht unter:<br>
 `Kurs > Administration > Kurseditor > Kursbaustein "BigBlueButton" > Tab "Konfiguration"`
 
 ![Zugang auf Moderierende beschränkt: im Feld "Zugang" ist die Option "Nur Moderatoren dürfen diesen Raum eröffnen" angekreuzt](../assets/bigbluebutton_editor_access_v1_de.png){ class="shadow lightbox" title="Tab Konfiguration im Kurseditor · 2026.11.02" }
@@ -90,8 +90,8 @@ Die Einstellungen im Detail:
 * **Benutzer:in bei Eintritt akzeptieren (Warteraum)**: Legt fest, ob Personen zunächst in einem Warteraum landen und nicht sofort in den Meeting-Raum gelangen. Mit "Abgeschaltet" gelangen alle Personen direkt in den Meeting-Raum. Mit "Alle Benutzer:innen" landen alle im Warteraum. Mit "Nur Gäste und externe Benutzer:innen" gelangen die Teilnehmenden des Kurses direkt in den Meeting-Raum, alle anderen in den Warteraum.
 * **Gäste**: Mit "erlauben" öffnen Sie den Online-Termin für Gäste. Die Option erscheint nur, wenn der Kurs selbst für Gäste freigeschaltet ist.
 * **Zugang externe Benutzer:innen**: Sofern die Raumvorlage externe Benutzer:innen zulässt, tragen Sie hier ein Kennzeichen für den Online-Termin ein, ein eindeutiges Wort ohne Sonderzeichen. OpenOlat schlägt eine Zahl vor. Unter dem Feld steht die vollständige URL, die Sie an externe Personen versenden. Der Link erscheint anschliessend auch für Besitzer:innen und Betreuer:innen in der Detailansicht des Online-Termins. Teilnehmende sehen den Link nicht.
-* **Passwort für externe Benutzer:innen**: Hinterlegen Sie hier ein Passwort, das Gäste, also Personen ohne OpenOlat Account, für den Zutritt zum Raum eingeben müssen.
-* **Raumbuchungen anzeigen**: Kalenderansicht zur Prüfung von belegten Online-Meetings
+* **Passwort für externe Benutzer:innen**: Hinterlegen Sie hier ein Passwort, das externe Benutzer:innen, also Personen ohne OpenOlat Account, für den Zutritt zum Raum eingeben müssen.
+* **Raumbuchungen anzeigen**: Öffnet einen Kalender, in dem Sie belegte Zeiten prüfen.
 
 Nur bei termingebundenen Räumen:
 
@@ -113,15 +113,15 @@ Bei wiederkehrenden Terminen lassen sich die Termine im zweiten Prozessschritt "
 
 ### Tab "Online-Termine" [:octicons-tag-16:{ title="ab Release 15.2 (OO-4818)" }](https://track.frentix.com/issue/OO-4818){:target="_blank"}
 
-Über den Tab "Online-Termine" erhalten Sie Zugang zu einem bestimmten Online-Termin beziehungsweise Raum.
+Im Tab "Online-Termine" öffnen Sie einen bestimmten Online-Termin beziehungsweise Raum.
 
-In der Detailansicht sehen Besitzer:innen und Betreuer:innen des Kurses, an welchem Tag OpenOlat den Online-Termin löscht, den Link für externe Benutzer:innen und die Präsentationsfolien. Folien laden sie vor dem Meeting hoch, damit sie bei Beginn bereitstehen. Direkt angezeigt wird das oberste Dokument der Liste. Die Schaltfläche "Präsentationsfolien hochladen" und die Schaltflächen "Löschen" je Folie stehen nur bis zur Beginnzeit des Online-Termins bereit, bei einer permanenten Reservierung jederzeit. Der Upload nimmt je Durchgang eine Datei auf.
+In der Detailansicht sehen Besitzer:innen und Betreuer:innen des Kurses, an welchem Tag OpenOlat den Online-Termin löscht, den Link für externe Benutzer:innen und die Präsentationsfolien. Folien laden sie vor dem Meeting hoch, damit sie bei Beginn bereitstehen. OpenOlat zeigt das oberste Dokument der Liste direkt an. Die Schaltfläche "Präsentationsfolien hochladen" und die Schaltflächen "Löschen" je Folie stehen nur bis zur Beginnzeit des Online-Termins bereit, bei einer permanenten Reservierung jederzeit. Der Upload nimmt je Durchgang eine Datei auf.
 
 ![Drei hochgeladene Präsentationsfolien mit je einer Schaltfläche "Löschen", darunter die Schaltfläche "Präsentationsfolien hochladen"](../assets/bigbluebutton_slides_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins im Tab Online-Termine · 2026.11.02" }
 
 #### Aufzeichnungen
 
-Die Aufzeichnungen eines Meetings finden Sie ebenfalls im Tab "Online-Termine". Automatisch veröffentlichte Aufzeichnungen sind hier direkt wählbar. Ist im Online-Termin unter "Aufnahme automatisch veröffentlichen für" keine Rolle gewählt, sehen zunächst nur Besitzer:innen und Betreuer:innen die Aufzeichnungen und legen unter "Publizieren" fest, für welche Zielgruppe die Aufzeichnung bereitstehen soll. Je nach Serverkonfiguration steht auch ein Download einer Aufzeichnung zur Verfügung. Über der Liste der Aufzeichnungen erscheint je nach Serverkonfiguration der Hinweis, dass sich Aufzeichnungen nur mit Google Chrome oder Firefox ansehen lassen.
+Die Aufzeichnungen eines Meetings finden Sie ebenfalls im Tab "Online-Termine". Automatisch veröffentlichte Aufzeichnungen sind hier direkt wählbar. Ist im Online-Termin unter "Aufnahme automatisch veröffentlichen für" keine Rolle gewählt, sehen zunächst nur Besitzer:innen und Betreuer:innen die Aufzeichnungen und legen unter "Publizieren" fest, für welche Zielgruppe die Aufzeichnung bereitstehen soll. Je nach Serverkonfiguration lässt sich eine Aufzeichnung auch herunterladen. Über der Liste der Aufzeichnungen erscheint je nach Serverkonfiguration der Hinweis, dass sich Aufzeichnungen nur mit Google Chrome oder Firefox ansehen lassen.
 
 !!! warning "Achtung"
 
@@ -133,7 +133,7 @@ Die Aufzeichnungen eines Meetings finden Sie ebenfalls im Tab "Online-Termine". 
 
 Sofern es einen Kalender im Kurs gibt, erscheinen die BigBlueButton-Termine ebenfalls im Kalender.
 
-In der Konfiguration eines Raums lässt sich sowohl während der Erstellung als auch später beim Bearbeiten über den Link "Raumbuchungen anzeigen" eine Übersicht über alle gebuchten BigBlueButton-Räume der Instanz einsehen. Das erleichtert es, zeitliche Engpässe beziehungsweise eine starke Auslastung des Systems frühzeitig zu erkennen und gegebenenfalls einen anderen Termin zu wählen.
+In der Konfiguration eines Raums öffnet der Link "Raumbuchungen anzeigen" beim Erstellen und beim Bearbeiten eine Übersicht über alle gebuchten BigBlueButton-Räume der Instanz. Das erleichtert es, zeitliche Engpässe beziehungsweise eine starke Auslastung des Systems frühzeitig zu erkennen und gegebenenfalls einen anderen Termin zu wählen.
 
 Zusätzlich erscheinen die in BigBlueButton erstellten Online-Termine automatisch im kursspezifischen Kalender. Von hier aus gelangen alle Kursmitglieder rasch in den entsprechend verlinkten BigBlueButton-Raum.
 
@@ -173,7 +173,7 @@ Wer Personen ohne OpenOlat Account zu einem Online-Termin einladen will, hat zwe
 
     Voraussetzung ist ein herkömmlicher Kurs, kein Lernpfadkurs, und der Kurs selbst muss für Gäste freigeschaltet sein. Gäste geben bei der Einwahl in den Raum einen beliebigen Namen ein. Mehr dazu unter [Gastzugang](../../basic_concepts/guest_access.de.md).
 
-Den Link für externe Benutzer:innen bietet OpenOlat an, wenn die Raumvorlage die Option "Offen für externe Benutzer:innen" trägt. Besitzer:innen und Betreuer:innen des Kurses sehen ihn in der Detailansicht des Online-Termins im Block "Link für externe Benutzer:innen", mit einer Schaltfläche zum Kopieren und einer für den QR-Code. Mit dem Feld "Passwort für externe Benutzer:innen" im Online-Termin schützen Sie den Zutritt zusätzlich mit einem Passwort.
+Den Link für externe Benutzer:innen bietet OpenOlat an, wenn die Raumvorlage die Option "Offen für externe Benutzer:innen" trägt. Besitzer:innen und Betreuer:innen des Kurses sehen ihn in der Detailansicht des Online-Termins im Block "Link für externe Benutzer:innen", mit einer Schaltfläche zum Kopieren ("In Zwischenablage kopieren") und einer für den QR-Code ("QR-Code anzeigen"). Den QR-Code speichern Sie mit "PNG herunterladen" als Bild, etwa für eine Folie oder eine Einladung. So öffnen externe Personen den Online-Termin direkt am Telefon. Mehr dazu unter [Links kopieren und als QR-Code weitergeben](../../basic_concepts/Navigation.de.md#url_field). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"} Mit dem Feld "Passwort für externe Benutzer:innen" im Online-Termin schützen Sie den Zutritt zusätzlich mit einem Passwort.
 
 ![Link für externe Benutzer:innen zum Weitergeben, daneben Schaltflächen zum Kopieren und für den QR-Code](../assets/bigbluebutton_external_link_v1_de.png){ class="shadow lightbox" title="Detailansicht eines Online-Termins für Moderierende · 2026.11.02" }
 
@@ -183,7 +183,8 @@ Den Link für externe Benutzer:innen bietet OpenOlat an, wenn die Raumvorlage di
 **Auf dieser Seite erwähnt**<br>
 [Modul BigBlueButton >](../../../manual_admin/administration/BigBlueButton_module.de.md)<br>
 [Häufig gestellte Fragen - BigBlueButton >](faq.de.md)<br>
-[Rollen und Rechte: Gastzugang >](../../basic_concepts/guest_access.de.md)
+[Rollen und Rechte: Gastzugang >](../../basic_concepts/guest_access.de.md)<br>
+[Navigation >](../../basic_concepts/Navigation.de.md)
 
 **Weiterführend**<br>
 [Virtuelle Klassenzimmer >](../../basic_concepts/Virtual_classrooms.de.md)<br>

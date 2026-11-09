@@ -1,14 +1,16 @@
 # Glossar - Verwendung {: #glossary_usage}
 
+Ein Glossar erklärt die Fachbegriffe eines Kurses. Teilnehmende schlagen einen Begriff im Glossar nach oder lesen seine Erklärung direkt im Lerninhalt, ohne den Kurs zu verlassen.
+
 ## Wo kann ein Glossar aufgerufen werden? {: #glossary_call}
 
 ### Aufruf in der Toolbar {: #glossary_call_in_toolbar}
 
-Wenn die Kursbesitzer:innen ein Glossar zur Begriffsklärung in den Kurs eingebunden haben, erscheint der Link zum Glossar in der Kurstoolbar.
+Haben die Kursbesitzer:innen ein Glossar in den Kurs eingebunden und als Werkzeug eingeschaltet, erscheint in der Kurstoolbar das Menü "Glossar", siehe [Glossar einbinden](Glossary_create.de.md#integrate).
 
-Sie können das Glossar in einem neuen Fenster öffnen, oder die Begriffserklärungen einblenden, wenn Sie im Lerninhalt des Kurses mit der Maus über einen Begriff fahren, der im Glossar enthalten ist.
+Mit "Glossar in separatem Fenster öffnen" lesen Sie alle Begriffe in einem eigenen Fenster. Mit "Glossarbegriffe in Lerninhalt einblenden" zeigt OpenOlat die Erklärung eines Begriffs im Lerninhalt, sobald Sie mit der Maus auf den Begriff zeigen.
 
-![Geöffnetes Dropdown-Menü "Glossar" in der Kurstoolbar mit den Optionen "Glossar in separatem Fenster öffnen" und "Glossarbegriffe in Lerninhalt einblenden".](assets/glossary_toolbar_dropdown_v1_de.png){ class="shadow lightbox" }
+![Menü Glossar markiert, geöffnet mit den Einträgen Glossar in separatem Fenster öffnen und Glossarbegriffe in Lerninhalt einblenden](assets/glossary_toolbar_dropdown_v1_de.png){ class="shadow lightbox" title="Kurstoolbar mit geöffnetem Menü Glossar" }
 
 [Zum Seitenanfang ^](#glossary_usage)
 
@@ -17,22 +19,24 @@ Sie können das Glossar in einem neuen Fenster öffnen, oder die Begriffserklär
 
 ### Nutzung in HTML-Seiten {: #glossary_call_in_HTML}
 
-Wenn im Kurs (beispielsweise im Wiki) ein Begriff erwähnt wird, der im Glossar steht, wird Ihnen die Definition angezeigt, wenn Sie mit der Maus über den Begriff fahren. Eine feine, automatisch eingefügte Punktlinie unter einem Wort zeigt an, dass eine Erklärung zu diesem Begriff im Glossar gefunden wurde. 
+Steht ein Begriff aus dem Glossar im Lerninhalt des Kurses, etwa auf einer HTML-Seite oder im Wiki, unterstreicht OpenOlat ihn mit einer feinen Punktlinie. Zeigen Sie mit der Maus auf den Begriff, erscheint seine Erklärung aus dem Glossar.
 
-![HTML-Seite eines Kurses mit unterstrichenem Glossarbegriff "WebDAV" und der eingeblendeten Definition bei MouseOver.](assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" }
+![Glossarbegriffe Wiki und WebDAV gepunktet unterstrichen, beim Begriff WebDAV ist die Erklärung aus dem Glossar eingeblendet](assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" title="HTML-Seite in einem Kurs" }
 
 [Zum Seitenanfang ^](#glossary_usage)
 
 ---
 
 
-### Separates Glossar (Lernressource "Eigenständig") {: #glossary_call_as_stand_alone}
+### Separates Glossar (Lernressource "Eigenständig") [:octicons-tag-16:{ title="ab Release 18.2 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) {: #glossary_call_as_stand_alone}
 
-Neben der Einbindung in einen Kurs kann eine Glossar-Lernressource auch "Eigenständig" genutzt werden. Sie kann dann z.B. im Katalog als eigenständiges Angebot erscheinen.
+Ein Glossar nutzen Sie auch ohne Kurs, wenn Sie im Tab "Freigabe" den Verwendungszweck "Eigenständig" wählen. Das Glossar erscheint dann zum Beispiel im Katalog als eigenes Angebot.
 
-In den Einstellungen im Tab "Freigabe" finden Sie z.B. den Direktlink auf das Glossar, den Sie in Mails oder andere Stellen kopieren können.
+Den Link auf das Glossar finden Sie im Feld "Direktlink" unter:<br>
+`Glossar > Administration > Einstellungen > Tab "Freigabe"`<br>
+Mit "In Zwischenablage kopieren" übernehmen Sie den Link in eine E-Mail oder auf eine Webseite. Mit "QR-Code anzeigen" geben Sie ihn als QR-Code weiter, siehe [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field).
 
-![Tab "Freigabe" der Glossar-Einstellungen mit dem Feld "Direktlink" zum Kopieren der Glossar-URL.](assets/glossary_settings_share_v1_de.png){ class="shadow lightbox" }
+![Verwendungszweck Eigenständig und Feld Direktlink mit dem Link auf das Glossar und den Schaltflächen zum Kopieren und für den QR-Code markiert](assets/glossary_settings_share_v2_de.png){ class="shadow lightbox" title="Tab Freigabe in den Einstellungen eines Glossars · 2026.11.09" }
 
 [Zum Seitenanfang ^](#glossary_usage)
 
@@ -41,11 +45,9 @@ In den Einstellungen im Tab "Freigabe" finden Sie z.B. den Direktlink auf das Gl
 
 ### Aufruf durch Gäste {: #glossary_call_by_guests}
 
-Grundsätzlich können diverse Lernressourcen z.B. Wikis, Blogs, Tests, Videos oder auch Glossare für Gäste freigeschaltet werden.
+Ein Glossar steht auch Personen ohne OpenOlat-Konto offen, wenn Sie es für Gäste freigeben. Gäste sind anonyme Benutzer:innen, die in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) nicht erscheinen.
 
-Gäste sind anonyme, nicht registrierte Benutzer:innen, die in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) nicht verwaltet werden können.
-
-Damit Gäste Zugang zu einem Glossar erhalten, muss der Gastzugang von den Systemadministrator:innen der OpenOlat-Instanz aktiviert werden. Auch kann konfiguriert werden, auf welche OpenOlat-Bereiche Gäste Zugriff haben und auf welche nicht. Diese Basis-Einstellungen sind nur durch die Systemadministrator:innen möglich.
+Die Systemadministrator:innen schalten den Gastlogin für die OpenOlat-Instanz ein und legen fest, welche OpenOlat-Bereiche Gäste sehen. Im Glossar setzen Sie im Tab "Freigabe" den "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote" und fügen ein Angebot der Art "Gastzugang" hinzu. Mehr dazu unter [Rollen und Rechte: Gastzugang](../basic_concepts/guest_access.de.md).
 
 [Zum Seitenanfang ^](#glossary_usage)
 
@@ -54,11 +56,9 @@ Damit Gäste Zugang zu einem Glossar erhalten, muss der Gastzugang von den Syste
 
 ### Ausdruck des Glossars {: #print}
 
-Das Glossar kann auch ausgedruckt werden. Öffnen Sie dazu das Glossar in einem separaten Fenster (Dropdown im Kurstool "Glossar").
-Sie finden den Button zum Drucken dann rechts oben.
+Für eine Fassung auf Papier drucken Sie das Glossar aus. Öffnen Sie es dazu in der Kurstoolbar im Menü "Glossar" mit "Glossar in separatem Fenster öffnen". Im neuen Fenster klicken Sie oben rechts auf die Schaltfläche zum Drucken.
 
-
-![Glossar in separatem Fenster mit dem Drucken-Button oben rechts.](assets/glossary_print_v1_de.png){ class="shadow lightbox" }
+![Glossar im eigenen Fenster mit allen Begriffen, oben rechts die Schaltfläche zum Drucken markiert](assets/glossary_print_v1_de.png){ class="shadow lightbox" title="Glossar in separatem Fenster" }
 
 [Zum Seitenanfang ^](#glossary_usage)
 
@@ -67,7 +67,15 @@ Sie finden den Button zum Drucken dann rechts oben.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Glossar erstellen >](../learningresources/Glossary_create.de.md)
+**Auf dieser Seite erwähnt**<br>
+[Glossar erstellen >](Glossary_create.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
+[Benutzerverwaltung >](../../manual_admin/usermanagement/index.de.md)<br>
+[Rollen und Rechte: Gastzugang >](../basic_concepts/guest_access.de.md)
+
+**Weiterführend**<br>
+[Glossar: Administration >](Glossary_administration.de.md)<br>
+[Zugangskonfiguration / Freigabe >](Access_configuration.de.md)
 
 [Zum Seitenanfang ^](#glossary_usage)
 

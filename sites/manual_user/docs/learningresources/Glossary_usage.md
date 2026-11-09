@@ -1,14 +1,16 @@
 # Glossary - Usage {: #glossary_usage}
 
+A glossary explains the technical terms of a course. Participants look up a term in the glossary or read its explanation directly in the learning content, without leaving the course.
+
 ## Where can a glossary be called up? {: #glossary_call}
 
 ### Course tool {: #glossary_call_in_toolbar}
 
-If the course owners have included a glossary to clarify terms in the course, the link to the glossary will appear in the course toolbar.
+If the course owners have integrated a glossary into the course and switched it on as a tool, the menu "Glossary" appears in the course toolbar, see [Integrate glossary](Glossary_create.md#integrate).
 
-You can open the glossary in a new window or display the definitions by hovering your mouse over a term contained in the glossary while viewing the course content.
+With "Open glossary in new window" you read all terms in a separate window. With "Show glossary terms in learning content" OpenOlat shows the explanation of a term in the learning content as soon as you point at the term with the mouse.
 
-![Open "Glossary" dropdown menu in the course toolbar with the options "Open glossary in separate window" and "Show glossary terms in learning content".](assets/glossary_toolbar_dropdown_v1_de.png){ class="shadow lightbox" }
+![Menu Glossary marked, opened with the entries Open glossary in new window and Show glossary terms in learning content](assets/glossary_toolbar_dropdown_v1_en.png){ class="shadow lightbox" title="Course toolbar with the Glossary menu opened · 2026.11.09" }
 
 [To the top of the page ^](#glossary_usage)
 
@@ -17,22 +19,24 @@ You can open the glossary in a new window or display the definitions by hovering
 
 ### Use in HTML pages {: #glossary_call_in_HTML}
 
-If a term is mentioned in the course (e.g. in the wiki) that is in the glossary, the definition is displayed when you move the mouse over the term. A fine, automatically inserted dotted line under a word indicates that an explanation of this term has been found in the glossary.
+If a term from the glossary appears in the learning content of the course, for example on an HTML page or in the wiki, OpenOlat underlines it with a fine dotted line. If you point at the term with the mouse, its explanation from the glossary appears.
 
-![HTML page of a course with the underlined glossary term "WebDAV" and its definition shown on mouse-over.](assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" }
+![Glossary terms Wiki and WebDAV underlined with dots, for the term WebDAV the explanation from the glossary is shown](assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" title="HTML page in a course" }
 
 [To the top of the page ^](#glossary_usage)
 
 ---
 
 
-### Separate glossary (learning resource "Standalone") {: #glossary_call_as_stand_alone}
+### Separate glossary (learning resource "Standalone") [:octicons-tag-16:{ title="from Release 18.2 (OO-7277)" }](https://track.frentix.com/issue/OO-7277) {: #glossary_call_as_stand_alone}
 
-As well as being integrated into a course, a glossary learning resource can also be used as "Standalone". It can then appear in the catalog as an independent offer, for example.
+You also use a glossary without a course if you select the usage "Standalone" in the tab "Share". The glossary then appears, for example, in the catalog as an offer of its own.
 
-In the settings in the "Sharing" tab you will find, for example, the direct link to the glossary, which you can copy into emails or other places.
+You find the link to the glossary in the field "Direct link" under:<br>
+`Glossary > Administration > Settings > Tab "Share"`<br>
+With "Copy to clipboard" you take the link into an e-mail or onto a web page. With "Show QR code" you pass it on as a QR code, see [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field).
 
-![The "Sharing" tab of the glossary settings with the "Direct link" field to copy the glossary URL.](assets/glossary_settings_share_v1_de.png){ class="shadow lightbox" }
+![Usage Standalone and field Direct link with the link to the glossary and the buttons for copying and for the QR code highlighted](assets/glossary_settings_share_v2_en.png){ class="shadow lightbox" title="Tab Share in the settings of a glossary · 2026.11.09" }
 
 [To the top of the page ^](#glossary_usage)
 
@@ -42,11 +46,9 @@ In the settings in the "Sharing" tab you will find, for example, the direct link
 
 ### Call by guests {: #glossary_call_by_guests}
 
-In principle, various learning resources such as wikis, blogs, tests, videos or glossaries can be activated for guests.
+A glossary is also open to persons without an OpenOlat account if you share it for guests. Guests are anonymous users who do not appear in the [user management](../../manual_admin/usermanagement/index.md).
 
-Guests are anonymous, unregistered users who cannot be managed in the [user management](../../manual_admin/usermanagement/index.md).
-
-For guests to gain access to a glossary, guest access must be activated by the system administrators of the OpenOlat instance. It is also possible to configure which OpenOlat areas guests have access to and which they do not. These basic settings can only be made by the system administrators.
+The system administrators switch on the guest login for the OpenOlat instance and determine which OpenOlat areas guests see. In the glossary, set "Access for participants" in the tab "Share" to "Bookable and open offers" and add an offer of the type "Guest". More on this under [Roles and Rights: Guest access](../basic_concepts/guest_access.md).
 
 [To the top of the page ^](#glossary_usage)
 
@@ -55,10 +57,9 @@ For guests to gain access to a glossary, guest access must be activated by the s
 
 ### Printout of the glossary {: #print}
 
-The glossary can also be printed out. To do this, open the glossary in a separate window (dropdown in the "Glossary" course tool).
-You will then find the print button at the top right.
+For a version on paper, you print the glossary. To do so, open it in the course toolbar in the menu "Glossary" with "Open glossary in new window". In the new window, click the print button at the top right.
 
-![Glossary in a separate window with the print button at the top right.](assets/glossary_print_v1_de.png){ class="shadow lightbox" }
+![Glossary in its own window with all terms, the print button at the top right marked](assets/glossary_print_v1_de.png){ class="shadow lightbox" title="Glossary in a separate window" }
 
 [To the top of the page ^](#glossary_usage)
 
@@ -66,7 +67,15 @@ You will then find the print button at the top right.
 
 ## Further information {: #further_information}
 
-[Create glossary >](../learningresources/Glossary_create.md)
+**Mentioned on this page**<br>
+[Glossary - create >](Glossary_create.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
+[User management >](../../manual_admin/usermanagement/index.md)<br>
+[Roles and Rights: Guest access >](../basic_concepts/guest_access.md)
+
+**Further reading**<br>
+[Glossary: Administration >](Glossary_administration.md)<br>
+[Access configuration >](Access_configuration.md)
 
 [To the top of the page ^](#glossary_usage)
 

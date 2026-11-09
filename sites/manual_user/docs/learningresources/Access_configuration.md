@@ -75,7 +75,7 @@ export content | The authors can download the learning resource and import it ba
 
 If participants are to book a course themselves, you create an offer for this. This is possible as soon as you have selected the option "Bookable and open offers" under "Access for participants".
 
-![Area Offer with the button Add offer and an offer of type Access code with period, offered to and direct link](assets/offer.jpg){ class="shadow lightbox" title="Section Offer in the Share tab" }
+![Area Offer with the button Add offer, an offer of type Access code and an offer for guests with the field External link - Guest and the buttons for copying and for the QR code](assets/access_configuration_offers_v1_en.png){ class="shadow lightbox" title="Section Offer in the Share tab · 2026.11.09" }
 
 Offers are visible in the catalog independently of the publication status of the course, as soon as their availability allows it (see below, section "Manage offer availability"). Offers can also be restricted to individual organisations or sub-organisations.
 
@@ -105,9 +105,11 @@ With "PayPal Checkout", the booking is subject to a fee. You define an amount th
 
 With this offer, you publish a course that all OpenOlat users can access without appearing in the members management.
 
-![Icon Guest access](assets/guest.jpg){ class="size24" } **Guest access**
+![Icon Guest](assets/guest.jpg){ class="size24" } **Guest**
 
 In the conventional course, you can create an offer for guests only. It then only applies to guests and cannot be restricted to sub-organisations. This way you release learning resources also to persons completely without an OpenOlat account.
+
+The offer for guests shows the link you pass on to guests in the field "External link - Guest". With "Copy to clipboard", you take it into an e-mail, with "Show QR code", you show it as a QR code, see [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). How guests reach the course with it is described in [Roles and Rights: Guest access](../basic_concepts/guest_access.md#course_level). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
 ### Details on the offer configuration
 
@@ -155,9 +157,9 @@ Whether the sharing works as intended, you check at the end of the tab "Share". 
 
 ## Lifecycle: Finish and delete
 
-Once a course is over, you finish it, delete it or do both.
+Once a course is over, you finish or delete it, or both one after the other if you wish.
 
-When you finish a course, member access depends on the setting for the status "Finished": with "Read-only" the course remains accessible in read mode, with "No access" participants no longer see the content. This default is set by the system administration; it can be overridden per course in the tab "Options". [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
+When you finish a course, member access depends on the setting for the status "Finished": with "Read-only" the course remains accessible in read mode, with "No access" participants no longer see the content. This default is set by the system administration. You override it per course under `Course > Administration > Settings > Tab "Options"`, see [Course Settings - Tab Options](Course_Settings_Options.md). [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
 
 All user data is retained. In the menu item "Courses", the course is no longer in the tab "Active", but in the tab "Finished" right next to it.
 
@@ -173,10 +175,16 @@ Under `Course > Administration > Delete` or via the action menu ![Icon action me
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
 [PayPal Configuration >](../../manual_admin/administration/Payment_PayPal.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
+[Roles and Rights: Guest access >](../basic_concepts/guest_access.md)<br>
+[Course Settings - Tab Options >](Course_Settings_Options.md)
+
+**Further reading**<br>
 [Toolbar: My Course >](../learningresources/Toolbar_My_Course.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Members management >](../learningresources/Members_management.md)

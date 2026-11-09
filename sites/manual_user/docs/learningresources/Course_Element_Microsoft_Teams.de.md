@@ -20,11 +20,11 @@ Microsoft Teams ermöglicht virtuelle Räume für synchrone Online-Termine mit W
 
 ## Systemvoraussetzungen {: #system_requirements}
 
-MS Teams kann sowohl als App als auch im MS Browser Edge verwendet werden.
+MS Teams läuft als App und im Browser Microsoft Edge.
 
 !!! tip "Empfehlung"
 
-    Für die vollständige Nutzung aller Funktionen, insbesondere der Breakout-Räume, wird die MS Teams **Desktop-App** auf Windows oder macOS empfohlen. Im Webbrowser sowie auf Linux, iOS und Android stehen nicht alle Funktionen zur Verfügung.
+    Für alle Funktionen, insbesondere die Breakout-Räume, empfiehlt sich die MS Teams **Desktop-App** unter Windows oder macOS. Im Webbrowser sowie unter Linux, iOS und Android fehlen einzelne Funktionen.
 
 ## Rollen in MS Teams {: #teams_roles}
 
@@ -38,9 +38,9 @@ In einem Online-Termin mit MS Teams gibt es drei Rollen:
 
 !!! warning "Achtung: First-Joiner = Organizer"
 
-    Die erste Person, die einen Online-Termin startet, erhält automatisch die Rolle Organizer, unabhängig von der Einstellung "Moderator:in" in OpenOlat. Diese Rolle kann nachträglich weder in OpenOlat noch in Microsoft Teams geändert oder neu vergeben werden.
+    Die erste Person, die einen Online-Termin startet, erhält automatisch die Rolle Organizer, unabhängig von der Einstellung "Moderator:in" in OpenOlat. Die Rolle lässt sich nachträglich weder in OpenOlat noch in Microsoft Teams ändern oder neu vergeben.
 
-    Bei permanenten Reservierungen mit wechselnden Betreuenden hat daher nur diejenige Person, die den Online-Termin zuerst gestartet hat, dauerhaft Zugriff auf erweiterte Funktionen wie Breakout-Räume. Soll eine andere Person als Organizer auftreten, muss ein neuer Online-Termin angelegt werden.
+    Bei permanenten Reservierungen mit wechselnden Betreuenden hat daher nur diejenige Person, die den Online-Termin zuerst gestartet hat, dauerhaft Zugriff auf erweiterte Funktionen wie Breakout-Räume. Soll eine andere Person als Organizer auftreten, legen Sie einen neuen Online-Termin an.
 
 ## Online-Termine anlegen bei geschlossenem Kurseditor [:octicons-tag-16:{ title="ab Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124) {: #closed_editor_configuration}
 
@@ -67,10 +67,10 @@ Jede Variante legt eigenständige Online-Termine an, bei wiederkehrenden Termine
   *  **Name**: Bezeichnung des Online-Termins. Pflichtfeld.
   *  **Erstellt durch**: Der Name der Person, die den Online-Termin anlegt, wird automatisch angezeigt.
   *  **Beschreibung**: Beschreibung des Online-Termins. Sie erscheint in der Detailansicht des Online-Termins, bevor Teilnehmende dem Online-Termin beitreten.
-  *  **Hauptmoderator:in**: Hier kann der Name einer Person eingetragen werden. Vorbelegt ist der Name der Person, die den Online-Termin anlegt.
+  *  **Hauptmoderator:in**: Hier tragen Sie den Namen einer Person ein. Vorbelegt ist der Name der Person, die den Online-Termin anlegt.
   *  **Gäste**: Das Kontrollkästchen "erlauben" lässt nicht angemeldete Personen am Online-Termin teilnehmen. Diese Option ist nur sichtbar, wenn der Kurs öffentlich zugänglich und der Gastzugang aktiviert ist.
-  *  **Zugang externe Benutzer:innen**: Ein Kennzeichen, ein eindeutiges Wort ohne Sonderzeichen. OpenOlat erzeugt daraus einen Link, den Sie mit externen Personen teilen, z. B. per E-Mail. Besitzer:innen und Betreuer:innen finden ihn auf der Seite des Online-Termins unter "Link für externe Benutzer:innen", bis der Online-Termin beendet ist. Das Symbol davor zeigt den Link als QR-Code. Bleibt das Feld leer, ist der Zugang über den Link deaktiviert.
-  *  **Raumbuchungen anzeigen**: Kalenderansicht zur Prüfung von belegten Online-Terminen.
+  *  **Zugang externe Benutzer:innen**: Ein Kennzeichen, ein eindeutiges Wort ohne Sonderzeichen. OpenOlat erzeugt daraus einen Link, den Sie mit externen Personen teilen, z. B. per E-Mail. Besitzer:innen und Betreuer:innen finden ihn auf der Seite des Online-Termins unter "Link für externe Benutzer:innen", bis der Online-Termin beendet ist. Mit den Schaltflächen daneben kopieren Sie den Link ("In Zwischenablage kopieren") oder zeigen ihn als QR-Code ("QR-Code anzeigen"), den Sie mit "PNG herunterladen" als Bild speichern, etwa für eine Folie. So öffnen externe Personen den Online-Termin direkt am Telefon. Mehr dazu unter [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982) Bleibt das Feld leer, ist der Zugang über den Link deaktiviert.
+  *  **Raumbuchungen anzeigen**: Öffnet einen Kalender, in dem Sie belegte Zeiten prüfen.
   *  **Terminaufzeichnung**: Schaltet die Aufzeichnung für diesen Online-Termin ein oder aus. Der Schalter erscheint nur, wenn die System-Administration die Funktion eingeschaltet hat. Was die Einstellung bewirkt und welche Felder dazukommen, steht im Abschnitt [Terminaufzeichnung](#meeting_recording).
   *  **Teilnehmer:innen können den Termin eröffnen** :octicons-tag-16:{ title="ab Release 15.4.1 (OO-5250)" }: Bestimmt, ob Teilnehmende den Online-Termin starten dürfen, ohne dass eine Betreuer:in anwesend ist. Zur Wahl stehen zwei Karten. "Nicht erlaubt" ist vorausgewählt. Mit "Erlaubt" dürfen Teilnehmer:innen mit einem Microsoft-Konto der Organisation den Online-Termin mit eingeschränkten Berechtigungen eröffnen. Eröffnet eine Teilnehmer:in den Online-Termin, stehen den Betreuer:innen keine Gruppenräume ([Breakout-Räume](#breakout_rooms)) zur Verfügung. Ist die Terminaufzeichnung eingeschaltet, steht die Auswahl fest auf "Nicht erlaubt". Die Karten erscheinen nur, wenn die Serverkonfiguration dafür eingerichtet ist.
   *  **Moderator:in**: Bestimmt, wer in MS Teams die Rolle Presenter erhält (siehe [Rollen in MS Teams](#teams_roles)). Pflichtfeld.
@@ -85,14 +85,14 @@ Jede Variante legt eigenständige Online-Termine an, bei wiederkehrenden Termine
 
 !!! info "Wichtig"
 
-    Die Einstellungen eines Online-Termins lassen sich nur ändern, solange er noch nicht gestartet wurde. Danach zeigt das Formular die Einstellungen nur noch an. Sollen andere Moderator-Einstellungen gelten, muss ein neuer Online-Termin angelegt werden.
+    Die Einstellungen eines Online-Termins lassen sich nur ändern, solange er noch nicht gestartet wurde. Danach zeigt das Formular die Einstellungen nur noch an. Sollen andere Moderator-Einstellungen gelten, legen Sie einen neuen Online-Termin an.
 
 #### Bei Online-Terminen mit Datum
 
   *  **Beginn**: Datum und Uhrzeit, zu der der Online-Termin beginnt.
   *  **Vorlaufzeit (Min.)**: Zeit in Minuten vor dem Beginn, in der Besitzer:innen und Betreuer:innen den Online-Termin bereits starten und betreten können. Für Teilnehmende öffnet der Online-Termin erst zum Beginn.
   *  **Ende**: Datum und Uhrzeit, zu der der Online-Termin endet.
-  *  **Nachlaufzeit (Min.)**: Nachlaufzeit, in der der Online-Termin für alle Personen verlängert werden kann.
+  *  **Nachlaufzeit (Min.)**: Zeit in Minuten nach dem Ende, um die sich der Online-Termin für alle Personen verlängern lässt.
 
 !!! info "Wichtig"
 
@@ -154,7 +154,7 @@ Das automatische Löschen betrifft nur Aufzeichnungen, nie den Online-Termin. Di
 
 ## Breakout-Räume {: #breakout_rooms}
 
-Breakout-Räume können ausschliesslich vom Organizer eines Online-Termins erstellt und verwaltet werden (siehe [Rollen in MS Teams](#teams_roles)).
+Breakout-Räume erstellt und verwaltet nur der Organizer eines Online-Termins (siehe [Rollen in MS Teams](#teams_roles)).
 
 **Unterstützte Plattformen:** Breakout-Räume stehen nur in der Teams Desktop-App unter Windows und macOS zur Verfügung: nicht im Webbrowser und nicht auf mobilen Geräten.
 
@@ -166,7 +166,7 @@ Breakout-Räume können ausschliesslich vom Organizer eines Online-Termins erste
 
 **Weitere Einschränkungen:** Breakout-Räume sind nicht verfügbar bei abgesagten oder gelöschten Online-Terminen, in privaten oder geteilten Kanälen sowie bei entsprechenden Admin-Richtlinien.
 
-**Kapazität:** Pro Online-Termin sind maximal 300 Teilnehmende möglich. Bei Überschreitung wird die Breakout-Funktion automatisch deaktiviert. Räume verfallen nach 60 Tagen Inaktivität.
+**Kapazität:** Pro Online-Termin sind maximal 300 Teilnehmende möglich. Sind es mehr, schaltet Microsoft Teams die Breakout-Funktion automatisch ab. Räume verfallen nach 60 Tagen Inaktivität.
 
 ## Anzeige im Kurskalender {: #calender_view}
 
@@ -201,7 +201,7 @@ Ist für den Online-Termin die Terminaufzeichnung eingeschaltet, steht über dem
 
 ## Bei Problemen {: #troubleshooting}
 
-Bei anwendungsspezifischen Herausforderungen steht die Microsoft-Hilfe zur Verfügung:
+Bei Fragen zur Bedienung von Microsoft Teams hilft die Microsoft-Hilfe weiter:
 
 [Microsoft-Hilfe: Problembehandlung in Microsoft Teams](https://support.microsoft.com/de-de/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
 
@@ -209,6 +209,7 @@ Bei anwendungsspezifischen Herausforderungen steht die Microsoft-Hilfe zur Verf�
 
 **Auf dieser Seite erwähnt**<br>
 [Modul Microsoft Teams >](../../manual_admin/administration/Teams_module.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Microsoft-Hilfe: Problembehandlung in Microsoft Teams](https://support.microsoft.com/de-de/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
 

@@ -4,11 +4,11 @@ WebDAV steht für "Web-based Distributed Authoring and Versioning" und ist ein o
 
 !!! info "Vorteile von WebDAV"
 
-    Ohne WebDAV können Dateien nur über herkömmliche Upload-Formulare in OpenOlat hochgeladen werden. Dabei wählen Sie entweder jede Datei einzeln oder mehrere gezippte Dateien aus. Mit WebDAV hingegen können Sie von Ihrem Rechner bequem mehrere Dateien oder komplette Ordnerstrukturen in OpenOlat-Ordner kopieren, z.B. in den Ablageordner eines Kurses.
+    Ohne WebDAV können Dateien nur über herkömmliche Upload-Formulare in OpenOlat hochgeladen werden. Dabei wählen Sie entweder jede Datei einzeln oder mehrere gezippte Dateien aus. Mit WebDAV hingegen kopieren Sie von Ihrem Rechner mehrere Dateien oder komplette Ordnerstrukturen in OpenOlat-Ordner, z.B. in den Ablageordner eines Kurses.
 
 ## WebDAV-fähige OpenOlat-Ordner
 
-Über WebDAV können Sie auf folgende OpenOlat-Ordner zugreifen. Die Struktur wird automatisch erstellt, sobald die Elemente in OpenOlat angelegt sind:
+Über WebDAV greifen Sie auf folgende OpenOlat-Ordner zu. OpenOlat legt die Struktur automatisch an, sobald die Elemente in OpenOlat bestehen:
 
   * [Persönliche Dateien](../personal_menu/File_Hub.de.md#personal_files) des File Hubs (alle Benutzer:innen)
   * Ordner von [Gruppen](../groups/Using_Group_Tools.de.md)
@@ -17,19 +17,19 @@ WebDAV steht für "Web-based Distributed Authoring and Versioning" und ist ein o
   * [Ressourcenordner](../learningresources/index.de.md#resource_folder) (nur Besitzer:innen der Lernressource)
   * [Kursarchive](../learningresources/Course_Archiving/index.de.md) (nur Autor:innen, Lernressourcenmanager:innen und Administrator:innen) [:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
 
-Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, ist abhängig von der konkreten Konfiguration.
+Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, hängt von der Konfiguration des Ordners ab.
 
 ## Voraussetzungen
 
-Microsoft Windows, macOS, iOS, Android und Linux unterstützen WebDAV für die Dateiübermittlung per Drag & Drop standardmässig. Inzwischen bieten auch diverse Anwenderprogramme (z.B. Microsoft Office) WebDAV-Funktionalität an.
+Microsoft Windows, macOS, iOS, Android und Linux unterstützen WebDAV für die Dateiübermittlung per Drag & Drop standardmässig. Auch Anwenderprogramme wie Microsoft Office arbeiten mit WebDAV.
 
 Um einen Ordner auf OpenOlat über WebDAV zu erreichen, benötigen Sie:
 
-  * WebDAV-Link: Diesen Link finden Sie unterhalb von WebDAV-fähigen Ordnern oder in den [Einstellungen](../personal_menu/Settings.de.md#tab_webdav) Ihres persönlichen Menüs unter:<br>`Persönliches Menü > Einstellungen > Tab "WebDAV"`
+  * WebDAV-Link: In einem Ordner öffnen Sie ihn über das 3-Punkte-Menü mit "WebDAV-Link". Das Fenster zeigt den Link mit der Schaltfläche "In Zwischenablage kopieren", siehe [Links kopieren und als QR-Code weitergeben](Navigation.de.md#url_field). Den Eintrag zeigt der Ordner, wenn in der System-Administration "WebDAV Links anzeigen" eingeschaltet ist. Denselben Link finden Sie in den [Einstellungen](../personal_menu/Settings.de.md#tab_webdav) Ihres persönlichen Menüs unter:<br>`Persönliches Menü > Einstellungen > Tab "WebDAV"`
   * Ihren OpenOlat-Benutzernamen, alternativ die hinterlegte E-Mail-Adresse
   * Ihr OpenOlat-/WebDAV-Passwort
 
-Falls Sie mit Shibboleth oder einem Cloud-Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV-Passwort in den Einstellungen im persönlichen Menü einrichten. Wählen Sie hierzu den Link "Einstellungen" und klicken Sie anschliessend im Tab "WebDAV" auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV-Zugang.
+Falls Sie mit Shibboleth oder einem Cloud-Login auf OpenOlat zugreifen, richten Sie Ihr WebDAV-Passwort in den Einstellungen im persönlichen Menü ein. Wählen Sie dazu den Link "Einstellungen" und klicken Sie im Tab "WebDAV" auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV-Zugang.
 
 ## Problembehandlung
 
@@ -91,7 +91,7 @@ Bei Problemen gehen Sie die nachfolgenden Punkte durch:
 
 ??? abstract "Alternative"
 
-    Neben den beschriebenen Verfahren unter "Einrichten der WebDAV-Verbindung" kann alternativ ein WebDAV-Client eingesetzt werden. Je nach Umgebung, vor allem bei Windows in Verbindung mit Citrix, kann ein solcher Client stabiler funktionieren als die direkte WebDAV-Verbindung. Einige Beispiele für WebDAV-Clients:
+    Statt der Verbindung über das Betriebssystem können Sie einen WebDAV-Client verwenden. Je nach Umgebung, vor allem bei Windows in Verbindung mit Citrix, arbeitet ein solcher Client stabiler als die direkte WebDAV-Verbindung. Einige Beispiele für WebDAV-Clients:
 
     * Windows: Cyberduck, WinSCP
     * Mac: Cyberduck, Commander One
@@ -119,8 +119,12 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 [Kursbaustein "Ordner" >](../learningresources/Course_Element_Folder.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
+[Navigation >](Navigation.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [FUSE-Website >](http://fuse.sourceforge.net)<br>
 [WebDAV (Administration) >](../../manual_admin/administration/WebDAV.de.md)
+
+**Weiterführend**<br>
+[Persönliche Konfiguration: Passwort >](../personal_menu/Password.de.md)
 
 [Zum Seitenanfang ^](#using_webdav)

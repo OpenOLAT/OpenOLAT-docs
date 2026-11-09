@@ -73,17 +73,13 @@ information. Only the function of the course element is to be explained in more
 detail in the description. 3-4 sentences are suitable here as a rule.
 
 In the tab "Title and description" you will also find the ID of the respective
-course element and the information you need if you want to set a link to this course element.
+course element. If you want to refer directly to this course element, for example from an e-mail or from a page in the course, you find the links for this here as well: expand the area "Set link for this course element".
 
-![External and internal link for referencing this course element](assets/KB_Link_setzen.png){ class="shadow lightbox" title="Section Set link to this course element" }
+![Expanded area with the external link and the buttons for copying and for the QR code, below it the course-internal link as a simple field without buttons](assets/general_configuration_course_element_link_v1_en.png){ class="shadow lightbox" title="Area Set link for this course element in the tab Title and description · 2026.11.09" }
 
-**External link:** To link to this course element from another OpenOlat
-course or outside OpenOlat, simply use the external link. You can also send
-the link by e-mail or integrate it into HTML pages.
+**External link:** With this link, you refer to this course element from another OpenOlat course or from outside OpenOlat, for example in an e-mail or on an HTML page. With "Copy to clipboard", you take over the link. With "Show QR code", you show it as a QR code, for example on a worksheet that leads directly to the course element. How this works is described under [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
-**Internal link (does not open in new window):** In order to link from a
-course element within the OpenOlat course to this course element, you can set
-the internal link as href attribute in the desired HTML page.
+**Course-internal link (do not open in new window):** With this link, you refer to this course element from an HTML page in the same course. Set it there as href attribute. The link is shown in a simple field: a click into it selects it completely, then copy it with <kbd>Ctrl</kbd>+<kbd>C</kbd> or on macOS with <kbd>Cmd</kbd>+<kbd>C</kbd>.
 
 You need the ID number in the upper left corner of the field to refer to
 another course element in its preconditions (e.g. visibility). Each course
@@ -224,6 +220,7 @@ You can find information about the tab "Learning path" of learning path courses 
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
+[Navigation >](../basic_concepts/Navigation.md)<br>
 [Access Restrictions in the Expert Mode >](Access_Restrictions_in_the_Expert_Mode.md)<br>
 [Assessment management: Assessment mode >](Assessment_mode.md)<br>
 [Course Element "Structure" >](Course_Element_Structure.md)<br>

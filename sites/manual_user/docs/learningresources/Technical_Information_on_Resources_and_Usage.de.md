@@ -2,7 +2,7 @@
 
 Wer einen Kurs oder eine andere Lernressource verwaltet, schlägt hier nach, welche ID sie hat, wem sie gehört und in welchen Kursen sie eingebunden ist. OpenOlat erzeugt diese Angaben selbst, Sie können sie nicht ändern. Sie stehen im Fenster "Über diesen Kurs", nicht auf der Infoseite.
 
-![Angaben, die OpenOlat zu einem Kurs führt: Id, Titel, Erstellungs- und Änderungsdatum, Kurstyp Lernpfad, externer Link, Produkt, Ersteller:in und zwei Besitzer:innen](assets/info_page_about_dialog_v1_de.png){ class="shadow lightbox" title="Fenster Über diesen Kurs · 2026.10.05" }
+![Angaben zu einem Kurs: Id, Titel, Daten, Kurstyp Lernpfad, administrative Freigabe, externer Link mit den Schaltflächen zum Kopieren und für den QR-Code, Produkt, Ersteller:in und Besitzer:in](assets/info_page_about_dialog_v2_de.png){ class="shadow lightbox" title="Fenster Über diesen Kurs · 2026.11.09" }
 
 
 ## Fenster öffnen [:octicons-tag-16:{ title="ab Release 21.1 (OO-9760)" }](https://track.frentix.com/issue/OO-9760){:target="_blank"} {: #open}
@@ -41,7 +41,7 @@ Mit diesen Angaben finden Sie die Lernressource wieder und ordnen sie ein, etwa 
 
 **Administrative Freigabe**: Die Organisationen, für welche die Lernressource freigegeben ist. Weitere Informationen dazu finden Sie unter [Zugangskonfiguration / Freigabe](../learningresources/Access_configuration.de.md).
 
-**Externer Link**: Der Link für den direkten Zugang zur Lernressource. Ist der Gastzugang erlaubt, steht darunter der **Externe Link - Gast**.
+**Externer Link**: Der Link, mit dem Sie die Lernressource weitergeben. Wer ihn öffnet, gelangt direkt zur Lernressource. Hat der Kurs ein Angebot der Art "Gastzugang", steht darunter die Zeile "Externer Link - Gast" mit dem Link für Gäste. Beide Links kopieren Sie mit "In Zwischenablage kopieren" in eine E-Mail, oder Sie zeigen sie mit "QR-Code anzeigen" als QR-Code, etwa auf einer Folie. Wie das geht, steht unter [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
 **Produkte**: Die Produkte und Durchführungen im Course Planner, in denen der Kurs eingebunden ist. Ein Klick darauf öffnet das Produkt oder die Durchführung im Course Planner. Die Links und das Suchsymbol daneben sind nur für Administrator:innen und Kursplaner:innen aktiv.
 
@@ -81,6 +81,7 @@ Wird die Lernressource von einem externen System verwaltet, zeigt das Fenster zu
 ## Weiterführende Informationen {: #further_information}
 
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
+[Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
 [Kurs-Administration: Übersicht >](Administration/index.de.md)
 
