@@ -2,17 +2,17 @@
 
 ## What is an offer? {: #offers}
 
-Once courses and other learning content have been created in OpenOlat, it must be determined **which** users should have access to them **and when**. Access can be granted (approved) in two ways:
+Once courses and other learning content have been created in OpenOlat, you determine which users access them and when. You grant access (release) in two ways:
 
-* **Private:** By entering them in the member management section of the course administration, registered OpenOlat users become members of the course or learning resource and can then access it.
+* **Private:** If you enter registered OpenOlat users in the member management of the course administration, they become members of the course or learning resource and access it.
 
-* **Bookable and open offers:** An offer is added to a course by the owner (author). Users can then find this offer in the catalog and initiate membership themselves by booking the offer.<br>
-Several different offers for different target groups can also be created for the same course.<br>
-For example, a course can be offered free of charge to internal users, while a second offer provides the same course to external users for a fee.
-Offers can also be displayed in the catalog for specific organizational units only. However, they can also be displayed for everyone; membership is not even required.
+* **Bookable and open offers:** Owners (authors) add an offer to the course. Users find the offer in the catalog and become members by booking it.<br>
+For the same course, you also create several offers for different target groups.<br>
+For example, you offer a course free of charge to internal users and, with a second offer, for a fee to external users.
+An offer appears in the catalog only for specific organisational units or for everyone. With the offer type "Without booking", not even a membership is required.
 
 **Example of courses offered in the catalog:**
-![Four course cards in the launcher "Selected learning resources" with type, title and subject, above them the search field](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" title="Start page of the catalog" }
+![Below the search field, the catalog shows its sections and a launcher with course cards, each card with format, reference, type and title](assets/offer_concepts_example_v1_en.png){ class="shadow lightbox" title="Start page of the catalog · 2026.11.09" }
 
 [More about offers >](../area_modules/catalog2.0/index.md)
 
@@ -23,10 +23,9 @@ Offers can also be displayed in the catalog for specific organizational units on
 
 ## What can be shown in offers? {: #offers_card}
 
-The visible part of the offer is displayed as a card in the catalog (or in the list view).
-(The invisible part of an offer includes the rules: When and where is the offer displayed?)
+In the catalog, an offer appears as a card or as a row of the list view. In addition, there are rules that are not visible in the catalog: when and where the offer appears.
 
-What is displayed on a card in the catalog can be specified (uniformly for all cards) by system administrators in the system administration under<br>
+Which details a card shows is defined uniformly for all cards by system administrators in the system administration:<br>
 `Administration > Modules > Catalog > Tab Layout > Section Launchers`
 
 * Implementation format
@@ -50,27 +49,27 @@ What is displayed on a card in the catalog can be specified (uniformly for all c
 
 ## Where can offers be displayed? {: #show_offers}
 
-OpenOlat has an **internal** and an **external** catalog. You can specify whether an offer is displayed in only one or in both catalogs.
+OpenOlat has an internal and an external catalog. You determine whether an offer appears in one or in both catalogs.
 
-Within the catalog, there are sections called **launchers**. As the owner of a course or implementation, you can determine in which launcher your offer should appear. The offers are then dynamically compiled by the catalog (V2) and assigned to the various launchers. Taxonomy launchers can also display folders that correspond to specific taxonomy levels. This allows courses and learning resources to be displayed sorted by taxonomy terms.
+The catalog is divided into sections, the launchers. As the owner of a course or implementation, you determine in which launcher your offer appears. The catalog (V2) compiles the offers dynamically and assigns them to the launchers. Taxonomy launchers also show folders that correspond to specific taxonomy levels. This way, courses and learning resources appear sorted by taxonomy terms.
 
-An offer can also appear in **several different launchers of the catalog** (V2). For example, in a launcher called "Popular courses" and a launcher that compiles courses thematically based on a specific taxonomy.
+An offer also appears in several launchers of the catalog (V2), for example in a launcher "Popular courses" and in a launcher that compiles courses thematically based on a specific taxonomy.
 
-Offers can also be displayed in catalog areas (launchers) that are visible **only to members of certain organizational units**. (This requires that the "Organisations" module is activated.)
+Offers also appear in launchers that only members of certain organisational units see. This requires that the "Organisations" module is activated.
 
-You configure the release settings directly in the offer:<br>
+You set the release directly in the offer:<br>
 Course: `Course > Administration > Settings > Share > Section "Offer" > Link "Edit offer"`<br>
 Implementation: `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers > Link "Edit offer"`
 
-![Marked fields "Published in" with internal and external catalog and "Released for" with the selection of an organisational unit](assets/offer_concepts_share_org_v1_de.png){ class="shadow lightbox" title="Dialog Freely available" }
+![With "Published in" you choose the internal or external catalog, with "Released for" the organisational units whose members see the offer, here two units](assets/offer_concepts_share_org_v2_en.png){ class="shadow lightbox" title="Catalog section in the dialog Freely available of an implementation · 2026.11.09" }
 
 !!! info "Important"
 
-    Offers can be booked in the catalog as soon as their status has been set to "Published". (Or "provisional" or "confirmed" for implementations.)
+    An offer can be booked in the catalog as soon as the course has the status "Published". For an implementation, the status "Provisional" or "Confirmed" is sufficient by default.
 
 !!! tip "Tip"
 
-    Sorting can also be performed within a launcher.
+    Within a launcher, you also define the order of the offers.
     [Find out more >](../area_modules/catalog2.0_sort_offers.md)
 
 [To the top of the page ^](#offer_concepts)
@@ -80,32 +79,32 @@ Implementation: `Course Planner > Implementations > "your implementation" > Tab 
 
 ## Where can offers be created? {: #create_offers}
 
-Offers are created
+You create offers
 
 * in a course <br>or
 * in an implementation (within the Course Planner)
 
 ### Create offers in courses [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #create_offers_course}
 
-To offer a **course** in the catalog, select the relevant course and then<br>
+To offer a course in the catalog, open the course and select:<br>
 `Course > Administration > Settings > Share > Section "Offer"`
 
-![Marked button "Add offer" and the four offer types Access code, Freely available, PayPal Checkout and Without booking in the section Offer](assets/offer_concepts_create_offer_course_v1_de.png){ class="shadow lightbox" title="Tab Share of the course settings" }
+![In the section Offer you create the first offer with the button "Add offer" or directly with the offer types Without booking, Freely available, Access code and PayPal Checkout](assets/offer_concepts_create_offer_course_v1_en.png){ class="shadow lightbox" title="Share tab of the course settings · 2026.11.09" }
 
 !!! tip "Tip"
 
-    Once offers have been created, they can also be viewed under:<br>
+    You also see the offers you created under:<br>
     `Course > Administration > Offer types`<br>
-    The entry appears as soon as a bookable offer has been configured for the course. Offers are configured under `Course > Administration > Settings > Share > Section "Offer"` (see above).<br>
+    The entry appears as soon as a bookable offer has been configured for the course. You configure offers under `Course > Administration > Settings > Share > Section "Offer"` (see above).<br>
     [Details on the offer configuration >](../learningresources/Access_configuration.md#offer)
 
 
 ### Create offers in the Course Planner [:octicons-tag-16:{ title="from Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #create_offers_implementation}
 
-To offer an **implementation** in the catalog, select the relevant implementation in the Course Planner:<br>
+To offer an implementation in the catalog, open the implementation in the Course Planner and select:<br>
 `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`
 
-![Marked tab Catalog and button Offers of an implementation, below them the button "Add offer"](assets/offer_concepts_create_offer_implementation_v1_de.png){ class="shadow lightbox" title="Catalog tab of an implementation in the Course Planner" }
+![In the Catalog tab of an implementation, the button Offers opens the offers, below it you create a new offer with "Add offer"](assets/offer_concepts_create_offer_implementation_v1_en.png){ class="shadow lightbox" title="Catalog tab of an implementation in the Course Planner · 2026.11.09" }
 
 [To the top of the page ^](#offer_concepts)
 
@@ -114,17 +113,17 @@ To offer an **implementation** in the catalog, select the relevant implementatio
 
 ## Offer types {: #offer_types}
 
-The following offer types can be created:
+These offer types are available:
 
 |                       | Member status  |                                 | available in |
 | --------------------- | --------------- |-------------------------------- | --- |
-| <b>Without booking</b>    | without  |With this offer, the resource is accessible to users without a membership. | Single course |
-| <b>Freely available</b>  | Membership | This offer allows the resource to be booked. Users receive a corresponding membership that gives them access to the resource. | Single course and implementation |
-| <b>Access code</b> | Membership | With this offer, the resource can be booked with an access code. Users receive a corresponding membership that allows them to access the resource. | Single course and implementation |
-| <b>PayPal Checkout</b> | Membership | With this offer, the resource can be booked for a fee using PayPal. Users receive a corresponding membership that gives them access to the resource. | Single course and implementation |
+| <b>Without booking</b>    | without  |With this offer, the resource is accessible to users without a membership. | Standalone course |
+| <b>Freely available</b>  | Membership | This offer allows the resource to be booked. Users receive a corresponding membership that gives them access to the resource. | Standalone course and implementation |
+| <b>Access code</b> | Membership | With this offer, the resource can be booked with an access code. Users receive a corresponding membership that allows them to access the resource. | Standalone course and implementation |
+| <b>PayPal Checkout</b> | Membership | With this offer, the resource can be booked for a fee using PayPal. Users receive a corresponding membership that gives them access to the resource. The offer is created by persons with the role author, learning resource manager or administrator, see [PayPal](#offer_payed_paypal). | Standalone course and implementation |
 | <b>Invoice</b> | Membership | With this offer, the resource can be booked for a fee via invoice. Users receive a corresponding membership that gives them access to the resource. | Implementation |
 
-When creating an offer, you select the offer type via the **"Add offer"** button.
+When creating an offer, you select the offer type via the button "Add offer".
 
 ![Expanded menu "Add offer" with the offer types Freely available, Access code, Invoice and PayPal Checkout](assets/offer_concepts_add_offer_types_v1_en.png){ class="shadow lightbox" title="Tab Catalog of an implementation" }
 
@@ -137,7 +136,7 @@ When creating an offer, you select the offer type via the **"Add offer"** button
 
 ## What can be offered? {: #what_is_offered}
 
-The catalog can include offers for
+Offers in the catalog exist for
 
 - Courses
 - Implementations
@@ -146,13 +145,13 @@ The catalog can include offers for
 
 ### Offer courses {: #what_is_offered_courses}
 
-Offers for a course are created under<br>
+You create offers for a course under:<br>
 `Course > Administration > Settings > Share > Section "Offer"`<br>
-Please note that the option "Bookable and open offers" must be selected beforehand under "Access for participants".
+First select the option "Bookable and open offers" under "Access for participants".
 
-![Marked path via Administration and Settings to the tab Share with the button "Add offer" and the four offer types of a course](assets/offer_concepts_types_course1_v1_de.png){ class="shadow lightbox" title="Share tab of the course settings" }
+![In the Share tab you first select "Bookable and open offers", then the menu "Add offer" shows the offer types of a course](assets/offer_concepts_types_course1_v1_en.png){ class="shadow lightbox" title="Share tab of the course settings · 2026.11.09" }
 
-![Selection of the offer type Without booking, Freely available, Access code or PayPal Checkout, grouped by membership and fee](assets/offer_concepts_types_course2_v1_de.png){ class="shadow lightbox" title="Dialog Add offer of a course" }
+![Selection of the offer type Without booking, Freely available, Access code or PayPal Checkout, grouped by membership and fee](assets/offer_concepts_types_course2_v1_en.png){ class="shadow lightbox" title="Dialog Add offer of a course · 2026.11.09" }
 
 Detailed information about [offering courses in the catalog can be found here >](../area_modules/catalog2.0_angebote.md)
 
@@ -163,26 +162,28 @@ Detailed information about [offering courses in the catalog can be found here >]
 
 ### Offer implementations {: #what_is_offered_implementations}
 
-If the same course is to be offered several times on different dates, this can be done in the **Course Planner** using **implementations**.
+If you offer the same course several times on different dates, use implementations in the Course Planner.
 
-Implementations can also be advertised in the catalog if it is still unclear whether they will actually take place (e.g., because they depend on the number of registrations/bookings). An offer for an implementation must therefore always be created in the Course Planner in the respective implementation and not in a course that is intended for this implementation. Courses can be specifically designated for use in implementations and then do not have their own member management.
+You also advertise an implementation in the catalog if it is still unclear whether it will take place, for example because this depends on the number of bookings. You therefore always create the offer for an implementation in the implementation in the Course Planner, not in a course that is intended for this implementation. Courses can be designated specifically for implementations and then do not have their own member management.
 
-Users can book these implementations by logging in from the catalog (if they are already OpenOlat users) or by registering as new users (if they have found a suitable course implementation in the external catalog, which they can view without registering).
+Users book an implementation by logging in from the catalog (if they are already OpenOlat users) or by registering as new users (if they have found a suitable implementation in the external catalog, which they can view without registering).
 
-If an offer has been made in the catalog from within the Course Planner that can be booked **with an invoice**, interested parties are guided through the registration process to enter their billing address, etc. A booking number is also generated. (This is only possible with the Course Planner.)
+With an offer "Invoice", interested parties enter their billing address and further details when booking. OpenOlat creates a booking number in the process. The offer type "Invoice" exists only for implementations in the Course Planner.
 
 The booking order is only created when the person completes the booking, and can then be confirmed.
+
+Whether participants may cancel a booked implementation themselves is defined in the offer, see [Cancellation](#offer_cancellation).
 
 If an implementation needs further details at booking, for example dietary requirements or prior knowledge, an offer of the implementation can require forms. The booking person fills them in as steps when booking, and the answers are then available with the booking order. This is only possible for offers of implementations in the Course Planner, not for course offers and not for the offer type PayPal Checkout. [Booking order forms >](../area_modules/Course_Planner_Implementations.md#booking_order_forms) [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
 
 With forms, the booking becomes a wizard, and the booking order is only created in the last step. [Booking with forms as a wizard >](../area_modules/catalog2.0_angebote.md#offer_booking_wizard) [:octicons-tag-16:{ title="from Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
 
-Offers for implementations are created in the Course Planner under:<br>
+You create offers for implementations in the Course Planner under:<br>
 `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`
 
-![Marked path via Implementations and tab Catalog to the menu "Add offer" with Access code, Freely available, PayPal Checkout and Invoice](assets/offer_concepts_types_course_planner1_v1_de.png){ class="shadow lightbox" title="Implementation in the Course Planner" }
+![Via Implementations and the Catalog tab you reach the menu "Add offer" with Freely available, Access code, Invoice and PayPal Checkout](assets/offer_concepts_types_course_planner1_v1_en.png){ class="shadow lightbox" title="Catalog tab of an implementation in the Course Planner · 2026.11.09" }
 
-![Selection of the offer type Freely available, Access code, Invoice or PayPal Checkout without the offer type Without booking](assets/offer_concepts_types_course_planner2_v1_de.png){ class="shadow lightbox" title="Dialog Add offer of an implementation" }
+![Selection of the offer type Freely available, Access code, Invoice or PayPal Checkout without the offer type Without booking](assets/offer_concepts_types_course_planner2_v1_en.png){ class="shadow lightbox" title="Dialog Add offer of an implementation · 2026.11.09" }
 
 [More about offering implementations in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)
 
@@ -193,11 +194,11 @@ Offers for implementations are created in the Course Planner under:<br>
 
 ### Offer other learning resources {: #what_is_offered_other}
 
-If individual videos or documents are to be offered in the catalog, courses with only one course element can be set up for each (e.g., course element Video or course element Document). Please note that when the course is called up, it automatically switches to the first course element.
+If you want to offer individual videos or documents in the catalog, set up one course with only one course element for each (e.g., course element Video or course element Document). Make sure that the course automatically switches to the first course element when it is opened.
 
-The procedure for creating an offer is then identical to the offers for other independent courses.
+You then create the offer as for any other independent course.
 
-The metadata and descriptions of such a "course" can only be adapted to the learning resource it contains, so that, for example, "Video xy" appears as an offer in the catalog.
+Adapt the metadata and description of this course to the learning resource it contains, so that, for example, "Video xy" appears as an offer in the catalog.
 
 
 [To the top of the page ^](#offer_concepts)
@@ -206,18 +207,20 @@ The metadata and descriptions of such a "course" can only be adapted to the lear
 
 ## Offers with payment {: #offer_payed}
 
-### PayPal {: #offer_payed_paypal}
+### PayPal [:octicons-tag-16:{ title="from Release 14.1 (OO-4203)" }](https://track.frentix.com/issue/OO-4203){:target="_blank"} {: #offer_payed_paypal}
 
-The PayPal payment module allows authors to unlock learning content in exchange for money. It must be set up and activated in advance in the system administration.
+With the PayPal payment module, authors offer learning content for payment. System administrators set up the module beforehand in the system administration and switch it on.
 
-After the PayPal module has been configured successfully, the offer type "PayPal Checkout" is available when creating an offer: for courses under `Course > Administration > Settings > Share > Section "Offer"`, for implementations in the Course Planner and for groups in the [group administration](../groups/Group_Administration/index.md#booking).
+Once the PayPal module is configured, the offer type "PayPal Checkout" is available when creating an offer: for courses under `Course > Administration > Settings > Share > Section "Offer"`, for implementations in the Course Planner and for groups in the [group administration](../groups/Group_Administration/index.md#booking).
+
+An offer "PayPal Checkout" is created by persons with the role author, learning resource manager or administrator. Course planners additionally need one of these roles; without it, "Add offer" shows "Freely available", "Access code" and "Invoice" for an implementation.
 
 [Setting up the PayPal payment module (Administration) >](../../manual_admin/administration/Payment_PayPal.md)
 
 
 ### Invoice [:octicons-tag-16:{ title="from Release 20.0 (OO-8210)" }](https://track.frentix.com/issue/OO-8210){:target="_blank"} {: #offer_payed_invoice}
 
-Payment by invoice is only possible for implementations in the Course Planner.
+Payment by invoice exists only for implementations in the Course Planner.
 
 For an offer with invoice,
 
@@ -225,40 +228,26 @@ For an offer with invoice,
 * the membership is initially pending until an administrative role confirms the reservation.
 
 
-![Selection of the membership "Standard" (active immediately) or "With confirmation" (pending until confirmed), plus currency, price and cost center](assets/offer_concepts_invoice_membership_v1_de.png){ class="shadow lightbox" title="Dialog Invoice of an implementation" }
+![For the membership you choose "Standard", then the membership is active immediately, or "With confirmation", then it stays pending until an administrative role confirms the reservation](assets/offer_concepts_invoice_membership_v2_en.png){ class="shadow lightbox" title="Membership section in the dialog Invoice of an implementation · 2026.11.09" }
 
 
 !!! tip "Tip"
 
     The booking orders are collected per implementation:<br>
     `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Booking orders`<br>
-    The tabs of an implementation only appear once you have opened it in the table. There, the booking orders can be exported as an Excel file and used in another program (e.g., for invoicing).
+    The tabs of an implementation only appear once you have opened it in the table. There, you export the booking orders as an Excel file, for example for invoicing in another program.
 
 
 [Setting up the invoice payment module (Administration) >](../../manual_admin/administration/Payment_Invoice.md)
 
 
-### Cancellation policy for invoice offers [:octicons-tag-16:{ title="from Release 21.0 (OO-9382)" }](https://track.frentix.com/issue/OO-9382){:target="_blank"} {: #offer_invoice_cancellation}
-
-When creating or editing an invoice offer, you define whether and under which conditions a booking can be cancelled. This way, users know the cancellation rules before they book.
-
-![Enabled toggle "Cancelable" with the cancellation policy "With fee", the field Cancellation fee and the deadline "Cancellable free of charge until days before start"](assets/offer_concepts_invoice_cancellation_v1_en.png){ class="shadow lightbox" title="Dialog Invoice" }
-
-* **Cost center:** Above the cancellation options, you can assign a cost center to the offer if required.
-* **Cancelable:** This toggle determines whether bookings of this offer can be cancelled. The option is enabled by default.
-* **Cancellation Policy:** If the offer is cancelable, choose between "Free of charge" (default) and "With fee".
-* **Cancellation fee:** If "With fee" is selected, you enter the amount of the fee. With "Cancellable free of charge until \<number\> days before start" you additionally define a period during which cancellation is free of charge. In order for the deadline to be taken into account, a start date must be specified in the execution period.
-
-The cancellation information is displayed to users with the offer.
-
-
 ### Credit points [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558){:target="_blank"} {: #offer_payed_credit_points}
 
-Credit point systems can be set up in OpenOlat. A credit point system allows credit points to be collected across different learning opportunities. Using the "Credit points" module, you can define your own credit point systems globally. These enable participants to collect educational points/credits, such as ECTS or LearnCoins, for passing courses.
+With a credit point system, participants collect credit points across different learning opportunities, for example ECTS or LearnCoins. You define your own credit point systems globally with the "Credit points" module. For a successfully completed course, participants receive credit points if the course awards them.
 
-These points can also be used in certification programs for recertification, for example. Participants can earn credit points for each course they successfully complete. They can then use these credit points to purchase another course.
+Certification programs use credit points, for example, for recertification.
 
-Organisations can define and name their own credit point systems and restrict them as needed, for example, by role or organisational area. After successfully completing a learning program, credit points can be assigned in a targeted manner to support long-term use for recertification.
+Organisations define and name their own credit point systems and restrict them as needed, for example by role or organisational area. After the successful completion of a learning program, you assign credit points in a targeted manner.
 
 
 [Activate credit points system-wide (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
@@ -269,14 +258,66 @@ Organisations can define and name their own credit point systems and restrict th
 
 ---
 
+## Cancellation [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"} {: #offer_cancellation}
+
+If a person cannot attend a booked implementation after all, they cancel their booking themselves if the offer allows it. They do not need help from the administration and select "Cancel booking" on the info page of the implementation, see [Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking).
+
+Whether and until when participants can cancel is defined by course planners, product owners and element owners in the offer of the implementation. The setting depends on the offer type. A course that participants booked via a course offer is left instead with [Leave course](../learningresources/General_Functions_Infopage.md#leave_course), if the course allows it.
+
+### Freely available and Access code [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"} {: #offer_cancellation_free_token}
+
+With the toggle "Cancelable", you decide for the offers "Freely available" and "Access code" of an implementation whether participants may withdraw their booking themselves. If the toggle is off (default), only the administration of the implementation cancels a booking. The toggle is located in the offer directly below "Offer description".
+
+If it is switched on, you choose under "Participants can cancel":
+
+* **At any time:** Participants also cancel after the start and for an implementation without a begin date, for example for an ongoing self-study offer. This option is preselected.
+* **Until begin date:** Participants cancel until the day before the start. This way, the number of participants is fixed from the start. If the execution period has no begin date, the offer shows the warning "Participants can only cancel if a begin date is specified in the execution period!", and participants do not cancel themselves.
+
+![If "Cancelable" is switched on, you define whether participants can cancel at any time or only until the begin date; without a begin date in the execution period, OpenOlat warns at "Until begin date"](assets/offer_concepts_cancellation_v1_en.png){ class="shadow lightbox" title="Dialog Freely available of an implementation · 2026.11.09" }
+
+The execution period has a similar option, "Anytime", which means something else: the implementation is not bound to a period and therefore has no begin date, see [Execution in the settings](../area_modules/Course_Planner_Implementations.md#tab_settings_execution). For such an implementation, participants only cancel with the option "At any time" in the offer.
+
+The current setting of the offer always applies, also to earlier bookings. If you switch "Cancelable" off, participants who have already booked no longer see the button "Cancel booking" either. With the update to Release 21.1.2, OpenOlat switches "Cancelable" off for all existing offers except "Invoice". If participants are to cancel an existing offer "Freely available" or "Access code" themselves, switch "Cancelable" on there.
+
+!!! tip "Tip"
+
+    The catalog does not show bookers whether an offer "Freely available" or "Access code" is cancelable. Therefore, write the rule in the "Offer description", for example "You can cancel your booking yourself until the day before the start."
+
+### Cancellation policy for Invoice [:octicons-tag-16:{ title="from Release 21.0 (OO-9382)" }](https://track.frentix.com/issue/OO-9382){:target="_blank"} {: #offer_invoice_cancellation}
+
+For the offer "Invoice", you define whether participants may cancel their booking and whether a fee applies.
+
+![Enabled toggle "Cancelable" with the cancellation policy "With fee", the field Cancellation fee and the deadline "Cancellable free of charge until days before start"](assets/offer_concepts_invoice_cancellation_v1_en.png){ class="shadow lightbox" title="Dialog Invoice" }
+
+* **Cost center:** Above the cancellation options, you can assign a cost center to the offer if required.
+* **Cancelable:** This toggle determines whether participants may cancel their booking. It is switched on by default.
+* **Cancellation Policy:** If the offer is cancelable, choose between "Free of charge" (default) and "With fee".
+* **Cancellation fee:** If "With fee" is selected, you enter the amount of the fee. With "Cancellable free of charge until \<number\> days before start" you additionally define a period during which cancellation is free of charge. In order for the deadline to be taken into account, a start date must be specified in the execution period.
+
+Participants cancel until the day before the start of the implementation. For this, the execution period needs a start date. A booking is subject to the conditions that applied at the time of booking; a later change to the offer only affects new bookings.
+
+With "With fee", the catalog shows with the offer until when cancellation is free of charge, and the booking dialog states the cancellation fee.
+
+### PayPal Checkout {: #offer_cancellation_paypal}
+
+A booking with "PayPal Checkout" is cancelled by the administration of the implementation. The offer has no toggle "Cancelable", so a cancellation by participants cannot be set.
+
+Whoever manages the members of the implementation cancels a booking in the tab "Members" with "Cancel booking" in the menu of the member row:<br>
+`Course Planner > Implementations > "your implementation" > Tab Members`<br>
+This works for every offer type, also for "PayPal Checkout", and regardless of the toggle "Cancelable". It requires a booking order of the person, see [Tab Members](../area_modules/Course_Planner_Implementations.md#tab_members).
+
+[To the top of the page ^](#offer_concepts)
+
+---
+
 ## Further conditions for offers {: #further_boundary_conditions}
 
-Additional conditions can be set for offers. Most configuration options are entered directly when creating a new offer.
+You set further conditions for offers. You enter most configuration options directly when creating a new offer.
 
-![Options "Available in", membership "Standard" or "With confirmation", Booking receipt and "Automatic booking"](assets/offer_concepts_example1_v1_de.png){ class="shadow lightbox" title="Dialog Freely available of an implementation" }
+![Further conditions of an offer: "Available if" with implementation status or custom condition, the membership "Standard" or "With confirmation", the booking receipt by e-mail and auto-booking](assets/offer_concepts_example1_v2_en.png){ class="shadow lightbox" title="Catalog and Membership sections in the dialog Freely available of an implementation · 2026.11.09" }
 
 * **Available if: Implementation status "Provisional" and "Confirmed":**<br>
-An implementation does not have to be fully planned in order to publish an offer. For courses, the default condition is Course status "Published".
+An implementation does not have to be fully planned for you to publish an offer. For courses, the default condition is Course status "Published".
 
 * **Available if: Custom condition:**<br>
 The offer is only available in the selected statuses and additionally limited to a period, with fixed dates or relative to the execution period. [Details on availability >](../learningresources/Access_configuration.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9304)" }](https://track.frentix.com/issue/OO-9304){:target="_blank"}
@@ -285,20 +326,20 @@ The offer is only available in the selected statuses and additionally limited to
 The membership is active immediately after booking the offer.
 
 * **Membership with confirmation:**<br>
-The membership is initially pending. The reservation must be confirmed by an administrative role.
+The membership is initially pending until an administrative role confirms the reservation.
 
 * **Booking receipt:**<br>
 With the option "Send e-mail to participant", the booking person receives the booking receipt by e-mail after booking.
 
-* **Automatic booking:**<br>
-The membership is automatically created when the course is opened.
-With automatic booking, the offer description is not displayed and users are only offered the "Open" action. This option should not be used in conjunction with other offers.
+* **Auto-booking:**<br>
+OpenOlat creates the membership automatically when the person opens the course.
+With auto-booking, OpenOlat does not show the offer description, and users only see the action "Open". Therefore, do not use this option together with other offers.
 
-* Even with immediately active membership (implementations, offer with invoice), **acceptance of the privacy policy and other terms of use** is usually required first. Additional terms and conditions may be specified in the terms of use.
+* Even with immediately active membership (implementations, offer with invoice), bookers usually first accept the privacy policy and further terms of use. In the terms of use, you define additional conditions if required.
 
-* A tender/offer for an implementation can be made even if it is still unclear whether the implementation will take place. A course does not even have to exist at the time the offer is created. If, on the other hand, an independent course is offered, the offer must be created in the course and only appears in the catalog once the course has been published.
+* You also offer an implementation if it is still unclear whether it will take place. A course does not even have to exist when you create the offer. An independent course, on the other hand, is offered in the course, and the offer only appears in the catalog once the course has been published.
 
-* With an **offer of the type "Access code"**, the resource can be booked with an access code. Users receive a corresponding membership that allows them to access the resource.
+* With an offer "Access code", users book the resource with an access code. They receive a corresponding membership that allows them to access the resource.
 
 [To the top of the page ^](#offer_concepts)
 
@@ -318,9 +359,12 @@ With automatic booking, the offer description is not displayed and users are onl
 [Payment modules: Invoice (Administration) >](../../manual_admin/administration/Payment_Invoice.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
-[Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)
+[Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)<br>
+[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
 
 **Further reading**<br>
-[How do I present my courses in the OpenOlat catalog? >](../../manual_how-to/catalog/catalog.md)
+[How do I present my courses in the OpenOlat catalog? >](../../manual_how-to/catalog/catalog.md)<br>
+[User tools: Booking orders >](../personal_menu/Bookings.md)<br>
+[Reports: Booking orders >](../area_modules/Reports_BookingOrders.md)
 
 [To the top of the page ^](#offer_concepts)

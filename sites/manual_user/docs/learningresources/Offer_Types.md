@@ -13,10 +13,10 @@ The following Offer types can be created:
 
 |                       | Member status  |                                 | available in |
 | --------------------- | --------------- |-------------------------------- | --- |
-| <b>Without booking</b>    | without  | With this offer, the resource is accessible to users without a membership. | Single course |
-| <b>Freely available</b>  | Membership | The resource can be booked with this offer. Users receive a corresponding membership that gives them access to the resource. | Single course and implementation |
-| <b>Access code</b> | Membership | With this offer, the resource is available with an access code. Users receive a corresponding membership that gives them access to the resource. | Single course and implementation |
-| <b>PayPal Checkout</b> | Membership | With this offer, the resource can be booked with PayPal for a fee. The users receive a corresponding membership that gives them access to the resource. | Single course and implementation |
+| <b>Without booking</b>    | without  | With this offer, the resource is accessible to users without a membership. | Standalone course |
+| <b>Freely available</b>  | Membership | The resource can be booked with this offer. Users receive a corresponding membership that gives them access to the resource. | Standalone course and implementation |
+| <b>Access code</b> | Membership | With this offer, the resource is available with an access code. Users receive a corresponding membership that gives them access to the resource. | Standalone course and implementation |
+| <b>PayPal Checkout</b> | Membership | With this offer, the resource can be booked with PayPal for a fee. The users receive a corresponding membership that gives them access to the resource. | Standalone course and implementation |
 | <b>Invoice</b> | Membership | With this offer, the resource can be booked by invoice. The users receive a corresponding membership that gives them access to the resource. | Implementation |
 
 [To the top of the page ^](#offer_types)

@@ -33,8 +33,9 @@ Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte
 | Fachbereiche | ja | Tab "Metadaten" | Taxonomie |
 | **Rechte Spalte** | | | |
 | Titelbild oder Teaser-Film | ja | Tab "Info" | nein |
-| [Los geht's](#get_started) mit Buchen, Öffnen oder [Buchung stornieren](#cancel_booking) [:octicons-tag-16:{ title="ab Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | ja | automatisch, Angebote unter Tab "Freigabe" | nein |
-| [Mein Kurs](#my_course): Fortschritt, Status, Punkte, Note, Gruppen und [Kurs verlassen](#leave_course) | nein | automatisch für Mitglieder; Fortschritt, Status, Punkte und Note nur Kurs | nein |
+| [Los geht's](#get_started) mit Buchen oder Öffnen [:octicons-tag-16:{ title="ab Release 20.2 (OO-9042)" }](https://track.frentix.com/issue/OO-9042){:target="_blank"} | ja | automatisch, Angebote unter Tab "Freigabe" | nein |
+| Mein Bildungsprodukt mit [Buchung stornieren](#cancel_booking) | nein | nur Durchführung: automatisch für Teilnehmende, wenn das Angebot die Stornierung erlaubt | nein |
+| [Mein Kurs](#my_course): Fortschritt, Status, Punkte, Note, Gruppen und [Kurs verlassen](#leave_course), bei einer Durchführung vom Typ Einzelkurs "Buchung stornieren" | nein | automatisch für Mitglieder; Fortschritt, Status, Punkte und Note nur Kurs | nein |
 | Termine | ja | nur Kurs: Tab "Info", "Auf Infoseite anzeigen" | Termine / Absenzen |
 | **Fakten** | | | |
 | Durchführungszeitraum | ja | nur Kurs: Tab "Durchführung" | nein |
@@ -88,13 +89,13 @@ Auf der Infoseite treten Sie auch wieder aus. Welche Schaltfläche Sie dafür se
 |---|---|---|
 | in einem einzelnen Kurs, gebucht oder eingetragen | [Kurs verlassen](#leave_course) im Kasten "Mein Kurs" des Kurses | Besitzer:innen des Kurses, Vorgabe durch Systemadministrator:innen |
 | in einer anderen Lernressource, etwa einem Wiki | "Wiki verlassen" im Kasten "Mein Kurs", siehe [Kurs verlassen](#leave_course) | Besitzer:innen der Lernressource, Vorgabe durch Systemadministrator:innen |
-| in einer Durchführung, die Sie gebucht haben oder in die Sie mit einem Angebot eingetragen wurden | [Buchung stornieren](#cancel_booking) im Kasten "Los geht's" der Durchführung | Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen |
+| in einer Durchführung, die Sie gebucht haben oder in die Sie mit einem Angebot eingetragen wurden | [Buchung stornieren](#cancel_booking) im Kasten "Mein Bildungsprodukt" der Durchführung, bei einer Durchführung vom Typ Einzelkurs im Kasten "Mein Kurs" | Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen |
 | in einer Durchführung, ohne dass für Sie ein Buchungsauftrag besteht | keine | niemand; wer Sie eingetragen hat, trägt Sie auf Anfrage aus |
 
 Eine Durchführung ist der konkrete Durchgang eines Bildungsangebots, mit Zeitraum, Ort, Mitgliedern und einem oder mehreren Kursen. Sind Sie Mitglied einer Durchführung, sind Sie auch Mitglied ihrer Kurse. Ihr Austritt läuft dann über die Durchführung, nicht über den einzelnen Kurs. Woran Sie eine Durchführung erkennen:
 
-- **Infoseite ohne "Mein Kurs":** Die Infoseite einer Durchführung zeigt den Kasten "Mein Kurs" nie, auch wenn Sie Mitglied sind. Die Infoseite eines Kurses zeigt ihn, sobald es Angaben für Sie gibt.
-- **Bereich unter "Kurse":** Unter `Kurse` steht neben "Meine Kurse" der Bereich "Bildungsprodukte" mit Ihren Durchführungen. Eine Durchführung, die Sie als Favorit markiert haben, steht zusätzlich mit ihrem Namen als eigener Bereich daneben. Eine Durchführung, die nur aus einem einzigen Kurs besteht, erscheint in keinem dieser Bereiche. Die Bereiche erscheinen nur, wenn Systemadministrator:innen sie in der System-Administration eingeschaltet haben, siehe [Produkte in "Kurse"](../../manual_admin/administration/Modules_Course_Planner.de.md#product_in_my_courses).
+- **Kasten "Mein Bildungsprodukt":** Die Infoseite einer Durchführung zeigt statt "Mein Kurs" den Kasten "Mein Bildungsprodukt", sobald Sie Ihre Buchung stornieren können. Ausgenommen ist eine Durchführung vom Typ Einzelkurs, bei deren Elementtyp "Unterelemente" auf "Nein" und "Inhalt" auf "Einzelkurs" steht: Deren Infoseite zeigt den Kasten "Mein Kurs" wie ein Kurs, unten darin steht dann "Buchung stornieren" statt "Kurs verlassen".
+- **Bereich unter "Kurse":** Unter `Kurse` steht neben "Meine Kurse" der Bereich "Bildungsprodukte" mit Ihren Durchführungen. Eine Durchführung, die Sie als Favorit markiert haben, steht zusätzlich mit ihrem Namen als eigener Bereich daneben. Eine Durchführung vom Typ Einzelkurs erscheint in keinem dieser Bereiche. Die Bereiche erscheinen nur, wenn Systemadministrator:innen sie in der System-Administration eingeschaltet haben, siehe [Produkte in "Kurse"](../../manual_admin/administration/Modules_Course_Planner.de.md#product_in_my_courses).
 - **Buchungsauftrag:** Ob für Sie ein Buchungsauftrag besteht, sehen Sie in Ihren Buchungsaufträgen: `Persönliches Menü > Persönliche Werkzeuge > Buchungsaufträge`, siehe [Buchungsaufträge](../personal_menu/Bookings.de.md). Fehlt dort ein Eintrag zur Durchführung, wurden Sie ohne Buchungsauftrag eingetragen.
 
 ### Los geht's {: #get_started}
@@ -108,12 +109,18 @@ Der Kasten "Los geht's" zeigt die Aktion, die zu Ihrer Lage passt:
 
 Ist ein Kurs beendet und haben Teilnehmende im Status "Beendet" keinen Zugriff mehr, meldet der Kasten "Kurs beendet".
 
-Haben Sie eine Durchführung gebucht, die noch nicht begonnen hat, zeigt der Kasten zusätzlich die Schaltfläche "Buchung stornieren", siehe [Buchung stornieren](#cancel_booking).
+Die Buchung einer Durchführung stornieren Sie im Kasten darunter: "Mein Bildungsprodukt", bei einer Durchführung vom Typ Einzelkurs "Mein Kurs", siehe [Buchung stornieren](#cancel_booking).
 
 ### Buchung stornieren [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"} {: #cancel_booking}
 
-Können Sie an einer gebuchten Durchführung doch nicht teilnehmen, stornieren Sie die Buchung selbst, solange die Durchführung noch nicht begonnen hat. Sie stornieren auf der Infoseite der Durchführung, die Sie über den Katalog erreichen:<br>
-`Katalog > "Ihre Durchführung" > Mehr erfahren > Kasten "Los geht's" > Buchung stornieren`
+Können Sie an einer gebuchten Durchführung doch nicht teilnehmen, stornieren Sie die Buchung selbst, wenn das Angebot es erlaubt. Sie stornieren auf der Infoseite der Durchführung, die Sie über den Katalog erreichen:<br>
+`Katalog > "Ihre Durchführung" > Mehr erfahren > Kasten "Mein Bildungsprodukt" > Buchung stornieren` [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"}
+
+Bei einer Durchführung vom Typ Einzelkurs heisst der Kasten "Mein Kurs".
+
+Selbst stornieren lässt sich eine Buchung, die über ein Angebot einer Durchführung im Course Planner entstanden ist. Einen gebuchten einzelnen Kurs verlassen Sie stattdessen mit [Kurs verlassen](#leave_course).
+
+![Als Teilnehmer:in finden Sie die Schaltfläche "Buchung stornieren" im eigenen Kasten "Mein Bildungsprodukt" unter "Los geht's"](assets/general_functions_infopage_my_product_v1_de.png){ class="shadow lightbox" title="Infoseite einer Durchführung als Teilnehmer:in · 2026.11.09" }
 
 Bestätigen Sie im Dialog mit "Buchung stornieren". Fällt eine Stornierungsgebühr an, heisst die Schaltfläche "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt die Gebühr. Nach der Stornierung erhalten Sie eine E-Mail, deren Betreff mit "Bestätigung Ihrer Stornierung" endet.
 
@@ -121,14 +128,16 @@ Haben Systemadministrator:innen in der System-Administration unter `Administrati
 
 !!! info "Wichtig"
 
-    Unter `Kurse > Aktiv` führt "Mehr erfahren" zur Infoseite des Kurses, nicht zur Infoseite der Durchführung. Dort fehlt "Buchung stornieren". Auch in den Bereichen "Bildungsprodukte" und mit dem Namen der Durchführung unter `Kurse` öffnet "Mehr erfahren" eine Infoseite ohne diese Schaltfläche. Unter [Buchungsaufträge](../personal_menu/Bookings.de.md) lässt sich eine Buchung nicht stornieren. Öffnen Sie die Durchführung im Katalog.
+    Dieselbe Infoseite mit "Buchung stornieren" öffnen Sie auch unter `Kurse > Bildungsprodukte > "Ihre Durchführung" > Mehr erfahren` und im Bereich mit dem Namen der Durchführung unter `Kurse` über "Mehr erfahren". Eine Durchführung vom Typ Einzelkurs steht dort nicht; auf ihre Infoseite führen stattdessen "Mehr erfahren" unter `Kurse > Aktiv` und im geöffneten Kurs der Link "Infoseite" in der Toolbar. Gehört ein Kurs zu einer anderen Durchführung, zeigt seine eigene Infoseite die Schaltfläche nicht, ebenso wenig die [Buchungsaufträge](../personal_menu/Bookings.de.md). Öffnen Sie dann die Durchführung im Katalog oder unter "Bildungsprodukte".
 
-Die Schaltfläche erscheint nur, wenn die Durchführung die Stornierung zulässt und Ihre Buchung dazu passt. Was die Durchführung zulässt, stellen Kursplaner:innen und Produktbesitzer:innen ein, das Angebot auch Elementbesitzer:innen. Als Teilnehmer:in sehen Sie diese Einstellungen nicht; fehlt die Schaltfläche, fragen Sie Ihre Betreuer:innen. Alle vier Bedingungen müssen erfüllt sein:
+Die Schaltfläche erscheint nur, wenn das Angebot die Stornierung erlaubt und Ihre Buchung dazu passt. Was das Angebot erlaubt, stellen Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen ein. Als Teilnehmer:in sehen Sie diese Einstellungen nicht; fehlt die Schaltfläche, fragen Sie Ihre Betreuer:innen. Alle vier Bedingungen müssen erfüllt sein:
 
-- **Anfangsdatum in der Zukunft:** Im Durchführungszeitraum ist "Beginn- und Enddatum" oder "Eintägig" gewählt. Bei "Jederzeit" hat die Durchführung kein Anfangsdatum, und die Schaltfläche fehlt. Ab dem Tag des Beginns fehlt sie ebenfalls. Kursplaner:innen stellen den Durchführungszeitraum ein unter `Course Planner > Durchführungen > "Ihre Durchführung" > Tab "Einstellungen" > Unter-Tab "Durchführung"`, siehe [Durchführung in den Einstellungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings_execution).
+- **Stornierbares Angebot:** Im Angebot, über das Sie gebucht haben, ist der Schalter "Stornierbar" eingeschaltet. Bei "Frei verfügbar" und "Zugangscode" ist er standardmässig aus, bei "Rechnung" an. "PayPal Checkout" kennt den Schalter nicht: Dort storniert die Verwaltung der Durchführung. Bei "Frei verfügbar" und "Zugangscode" gilt die aktuelle Einstellung des Angebots, auch für Buchungen von früher; bei "Rechnung" gelten die Bedingungen, die bei Ihrer Buchung galten. Die Einstellungen beschreibt [Angebotskonzepte: Stornierung](../basic_concepts/Offer_Concepts.de.md#offer_cancellation).
+- **Anfangsdatum in der Zukunft, bei "Rechnung" und "Bis zum Beginndatum":** Bei "Rechnung" und wenn im Angebot unter "Teilnehmende können stornieren" die Option "Bis zum Beginndatum" gewählt ist, stornieren Sie bis zum Tag vor dem Beginn. Dafür braucht der Durchführungszeitraum ein Anfangsdatum, also "Beginn- und Enddatum" oder "Eintägig". Ist dort "Jederzeit" gewählt, fehlt die Schaltfläche. Steht im Angebot die Option "Jederzeit", stornieren Sie auch nach dem Beginn und bei einer Durchführung ohne Anfangsdatum. Kursplaner:innen stellen den Durchführungszeitraum ein unter `Course Planner > Durchführungen > "Ihre Durchführung" > Tab "Einstellungen" > Unter-Tab "Durchführung"`, siehe [Durchführung in den Einstellungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings_execution).
 - **Buchung über ein Angebot:** Zu Ihrer Buchung besteht ein Buchungsauftrag im Status "Neu", "In Zahlungsprozess" oder "Bezahlt". Das trifft zu, wenn Sie im Katalog gebucht haben oder mit einem Angebot eingetragen wurden. Wurden Sie im Assistenten mit "Ohne Buchungsauftrag" eingetragen, fehlt die Schaltfläche, siehe [Mitglieder hinzufügen](../area_modules/Course_Planner_Implementations.de.md#add_members). Bitten Sie dann die Person, die Sie eingetragen hat, Sie auszutragen.
-- **Stornierbares Angebot:** Jedes Angebot ist stornierbar. Nur beim Angebot "Rechnung" lässt sich die Stornierung mit dem Schalter "Stornierbar" ausschalten und eine Gebühr festlegen, siehe [Angebotskonzepte: Stornierungsbedingungen](../basic_concepts/Offer_Concepts.de.md#offer_invoice_cancellation).
 - **Ihre Rolle:** Sie sind Teilnehmer:in der Durchführung, oder Ihre Buchung ist noch ausstehend.
+
+Wer die Mitglieder der Durchführung verwaltet, storniert eine Buchung unabhängig vom Schalter "Stornierbar": im Tab "Mitglieder" der Durchführung mit "Buchung stornieren" im Menü der Mitgliederzeile, siehe [Tab Mitglieder](../area_modules/Course_Planner_Implementations.de.md#tab_members).
 
 ### Mein Kurs {: #my_course}
 
@@ -138,7 +147,7 @@ Als Mitglied sehen Sie im Kasten "Mein Kurs" Ihren eigenen Stand, ohne den Kurs 
 - **Status, Punkte und Note:** Ihr Ergebnis im Kurs. Dafür muss unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` der Schalter "Leistungsnachweis den Teilnehmer:innen anzeigen" eingeschaltet sein, siehe [Kurseinstellungen - Tab Bewertung](Course_Settings_Assessment/index.de.md#section_evidence_of_achievements). Der Status erscheint, wenn der Kurs "Bestanden" oder "Nicht bestanden" vergibt, die Punkte, wenn er Punkte vergibt. Die Note setzt zusätzlich voraus, dass Systemadministrator:innen die Noten in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Einstufung/Noten`.
 - **Gruppen:** die Gruppen des Kurses, in denen Sie Mitglied sind. Ein Klick auf den Namen öffnet die Gruppe.
 
-Unten im Kasten steht die Schaltfläche "Kurs verlassen", siehe [Kurs verlassen](#leave_course).
+Unten im Kasten steht die Schaltfläche "Kurs verlassen", siehe [Kurs verlassen](#leave_course). Auf der Infoseite einer Durchführung vom Typ Einzelkurs steht dort stattdessen "Buchung stornieren", siehe [Buchung stornieren](#cancel_booking).
 
 Bei anderen Lernressourcen als Kursen zeigt der Kasten nur die Gruppen und die Schaltfläche zum Verlassen. Gibt es keine dieser Angaben, fehlt der Kasten "Mein Kurs" ganz.
 
@@ -201,7 +210,8 @@ Wer eine Durchführung im Katalog bucht, sieht vorher dieselbe Infoseite wie bei
 
 Einige Elemente unterscheiden sich:
 
-- **Es fehlen** Lizenz, Bewertung, Kommentare und "Mein Kurs".
+- **Es fehlen** Lizenz, Bewertung und Kommentare.
+- **Statt "Mein Kurs"** steht für Teilnehmende der Kasten "Mein Bildungsprodukt" mit [Buchung stornieren](#cancel_booking). Eine Durchführung vom Typ Einzelkurs zeigt den Kasten "Mein Kurs".
 - **Dazu kommen** der Abschnitt "Gliederung" und der Fakt "Teilnehmer:innen" mit der Zahl der Plätze.
 - **Im Kopf** steht neben dem Kennzeichen der Elementtyp der Durchführung.
 
@@ -219,8 +229,10 @@ Mehr dazu unter [Course Planner: Durchführungen](../area_modules/Course_Planner
 
 ### Aufruf der Infoseite in der Kursübersicht {: #access_course_overview}
 
-Öffnen Sie in der Hauptnavigation Ihre Kursübersicht durch Klick auf "Kurse".<br>
-Dann wählen Sie den Link "Mehr erfahren" neben dem Button "Öffnen" eines Kurses.
+In Ihrer Kursübersicht öffnen Sie die Infoseite eines Kurses mit "Mehr erfahren" neben der Schaltfläche "Öffnen":<br>
+`Kurse > Mehr erfahren`
+
+Gehört der Kurs zu einer Durchführung vom Typ Einzelkurs, öffnet "Mehr erfahren" die Infoseite der Durchführung.
 
 ![Link Mehr erfahren neben dem Button Öffnen eines Kurses markiert](assets/general_functions_infopage_access_courses_v1_de.png){ class="shadow lightbox" title="Kursübersicht Kurse im Tab Aktiv" }
 
@@ -232,7 +244,7 @@ Dann wählen Sie den Link "Mehr erfahren" neben dem Button "Öffnen" eines Kurse
 
 ### Aufruf der Infoseite im Katalog {: #access_catalog}
 
-In der Kachelansicht des Katalogs finden Sie den Link "Mehr erfahren" zur Anzeige der Infoseite rechts unten. Sie können aber auch das Bild anklicken.
+In der Kachelansicht des Katalogs öffnen Sie die Infoseite mit "Mehr erfahren" rechts unten oder mit einem Klick auf das Bild.
 
 ![Bild und Link Mehr erfahren rechts unten neben dem Button Öffnen markiert](assets/general_functions_infopage_access_catalog_tile_v1_de.png){ class="shadow lightbox" title="Kachel eines Kurses im Katalog" }
 
@@ -247,7 +259,7 @@ In der Listenansicht klicken Sie den Link "Mehr erfahren" oder den Titel der Ler
 
 ### Aufruf der Infoseite innerhalb eines Kurses {: #access_within_a_course}
 
-Haben Sie einen Kurs geöffnet, wählen Sie den Link "Infoseite" mit dem Info-Symbol in der Toolbar. Dieselbe Seite erreichen Sie auch in jeder anderen geöffneten Lernressource über die Toolbar.
+Haben Sie einen Kurs geöffnet, wählen Sie den Link "Infoseite" mit dem Info-Symbol in der Toolbar. Dieselbe Seite erreichen Sie auch in jeder anderen geöffneten Lernressource über die Toolbar. Gehört der Kurs zu einer Durchführung vom Typ Einzelkurs, öffnet der Link die Infoseite der Durchführung.
 
 ![Link Infoseite mit Info-Symbol als erstes Werkzeug markiert, daneben Lernpfad, Termine und Kurssuche](assets/general_functions_infopage_access_toolbar_v2_de.png){ class="shadow lightbox" title="Toolbar eines geöffneten Kurses · 2026.09.29" }
 

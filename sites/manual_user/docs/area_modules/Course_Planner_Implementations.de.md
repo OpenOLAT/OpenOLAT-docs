@@ -106,8 +106,8 @@ Sind Kursverantwortliche erfasst, erscheinen sie anstelle des Hinweises mit ihre
 
 Ist eine maximale bzw. minimale Teilnehmerzahl definiert, ergänzt ein zusätzlicher Hinweistext die Kennzahl "Teilnehmer:innen":
 
-* Bei gesetztem Maximum: **"\<Anzahl\> verbleibende Plätze"**
-* Bei gesetztem Minimum: **"\<Anzahl\> bis Mindestanzahl"**
+* Bei gesetztem Maximum: "\<Anzahl\> verbleibende Plätze"
+* Bei gesetztem Minimum: "\<Anzahl\> bis Mindestanzahl"
 * Bei ausgebuchten oder überbuchten Durchführungen erscheint die entsprechende Meldung.
 
 ![Verbleibende Plätze und Abstand zur Mindestanzahl unter der Teilnehmerzahl, dazu die Kursverantwortlichen mit ihrer Rolle](assets/course_planner_implementations_widget_members2_v2_de.png){ class="shadow lightbox" title="Mitglieder-Widget im Tab Übersicht · 2026.10.02" }
@@ -137,7 +137,7 @@ Die Tabelle im Tab "Struktur" bietet folgende Funktionen:
 - **Stundenpläne**: In der Spalte mit dem Kalendersymbol finden Sie die Stundenpläne der Elemente.
 - **Absenzen**: In der folgenden Spalte finden Sie die Absenzen, vorausgesetzt, "Absenzmanagement" ist für das Element eingeschaltet, direkt in den Optionen der Einstellungen oder über den Elementtyp.
 - **Datenerhebungsvorschau**: Sind in der System-Administration das Modul "Qualitätsmanagement" und die "Datenerhebungsvorschau" eingeschaltet, können Sie bei jedem Element zur zugeordneten Datenerhebungsvorschau springen. Beides finden Sie unter: `Administration > Module > Qualitätsmanagement`.
-- **Lernfortschritt**: In dieser Spalte wird der durchschnittliche Fortschritt aller Teilnehmer:innen angezeigt. Berücksichtigt werden dabei alle Lernpfadkurse dieses Elements. Herkömmliche Kurse liefern keine Daten zum Lernfortschritt.
+- **Lernfortschritt**: Die Spalte zeigt den durchschnittlichen Fortschritt aller Teilnehmer:innen über alle Lernpfadkurse dieses Elements. Herkömmliche Kurse liefern keine Daten zum Lernfortschritt.
 - **3 Punkte**: Am Zeilenende finden Sie die Aktionen zu einem Element: "In neuem Tab öffnen", "Bearbeiten", "Element verschieben", ein Eintrag zum Erstellen eines Unterelements, beschriftet mit dem Elementtyp (zum Beispiel «Neues Unterelement "Modul" erstellen»), "Element kopieren", "Mitgliederverwaltung" und "Löschen".
 
 ![Das Menü der drei Punkte mit allen Aktionen zu einem Element, vom Öffnen in neuem Tab bis zum Löschen](assets/course_planner_implementations_tab_structure2_v2_de.png){ class="shadow lightbox" title="Menü der drei Punkte im Tab Struktur" }
@@ -146,7 +146,7 @@ Die Tabelle im Tab "Struktur" bietet folgende Funktionen:
 
 Über die Aktion "Element verschieben" unter den 3 Punkten öffnen Sie den Dialog zum Verschieben. Das zu verschiebende Element ist darin zusammen mit seinen Unterelementen farblich hervorgehoben; diese Zeilen lassen sich nicht als Ziel auswählen.
 
-Jede mögliche Zielposition wird als Radiobutton angezeigt. Nicht erlaubte Zielpositionen (z. B. ein nicht kompatibler Elementtyp) sind ausgegraut und nicht auswählbar.
+Der Dialog zeigt jede mögliche Zielposition als Radiobutton. Nicht erlaubte Zielpositionen, etwa bei einem nicht kompatiblen Elementtyp, sind ausgegraut und nicht auswählbar.
 
 Nach der Auswahl einer Zielposition erscheinen direkt am Element die Aktionen:
 
@@ -317,6 +317,8 @@ Wählen Sie im Schritt "Buchungsauftrag" die Option "Ohne Buchungsauftrag", ents
 
 Soll man eine Durchführung im Katalog buchen können, erstellen Sie dafür ein [Angebot](../../manual_user/area_modules/catalog2.0_angebote.de.md), wie für jeden Katalogeintrag.
 
+Bei den Angebotsarten "Frei verfügbar" und "Zugangscode" legen Sie im Angebot mit dem Schalter "Stornierbar" fest, ob Teilnehmende ihre Buchung selbst stornieren dürfen, jederzeit oder nur bis zum Beginndatum, siehe [Angebotskonzepte: Stornierung](../basic_concepts/Offer_Concepts.de.md#offer_cancellation). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"}
+
 
 Der Teilbereich "Angebote" zeigt von oben nach unten die Übersicht, die Einstellungen, die Angebote mit dem Button "Angebot hinzufügen" und die Formulare für Buchungsaufträge.
 
@@ -398,7 +400,7 @@ Dieselben Formulare mit Status und Abgabedatum führen auch die Detailansicht ei
 Ein Formular lässt sich auf zwei Arten aus dem Buchen nehmen. Sie unterscheiden sich darin, was mit den abgegebenen Formularen geschieht:
 
 - **Verwenden ausschalten** im Dialog des Angebots: Das Formular wird bei der Buchung dieses Angebots nicht mehr verwendet. Die abgegebenen Formulare bleiben bestehen. Liegen bereits abgegebene Formulare vor, bestätigen Sie den Schritt im Dialog "Formular deaktivieren".
-- **Formular entfernen** in der Tabelle der Durchführung: Das Formular verlässt die Durchführung und alle ihre Angebote. Die abgegebenen Formulare werden gelöscht.
+- **Formular entfernen** in der Tabelle der Durchführung: Das Formular verlässt die Durchführung und alle ihre Angebote. OpenOlat löscht die abgegebenen Formulare.
 
 !!! danger "Achtung"
     "Formular entfernen" löscht alle abgegebenen Formulare dieses Formulars. Sollen die Antworten erhalten bleiben, schalten Sie stattdessen "Verwenden" in den Angeboten aus oder exportieren Sie die Daten vorher.
@@ -479,7 +481,7 @@ Der Unter-Tab erscheint bei Elementen, deren Elementtyp die Verwendung "Durchfü
 
 **Geltungsbereich der Automatisierungsregeln:**
 
-Automatisierungsregeln werden auf zwei Ebenen definiert:
+Automatisierungsregeln entstehen auf zwei Ebenen:
 
 * **Elementtyp-Ebene** in der System-Administration unter `Administration > Module > Course Planner > Tab Elementtypen`: Systemadministrator:innen hinterlegen Standardregeln für jeden Elementtyp. Diese Regeln gelten als Vorlage für alle Elemente dieses Typs.
 * **Element-Ebene** unter `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Einstellungen > Automatisierung`: Für jedes einzelne Element entscheiden Sie, ob die Regeln des Elementtyps übernommen oder individuell überschrieben werden sollen.
@@ -493,8 +495,8 @@ Für das einzelne Element stehen zwei Modi zur Wahl:
 
 | Typ | Auslöser |
 |---|---|
-| Bei Statuswechsel | Eine Aktion wird ausgelöst, sobald der Durchführungs- oder Elementstatus einen bestimmten Wert annimmt. |
-| Zeitgesteuert | Eine Aktion wird relativ zum Beginn oder Ende des Durchführungszeitraums ausgelöst. |
+| Bei Statuswechsel | OpenOlat löst eine Aktion aus, sobald der Durchführungs- oder Elementstatus einen bestimmten Wert annimmt. |
+| Zeitgesteuert | OpenOlat löst eine Aktion relativ zum Beginn oder Ende des Durchführungszeitraums aus. |
 
 Zeitgesteuerte Regeln rechnen ab dem Beginn oder dem Ende im [Durchführungszeitraum](#tab_settings_execution). Hat ein Element selbst kein solches Datum, gilt das Datum des nächsten übergeordneten Elements, das eines hat. Fehlt es auch dort, führt OpenOlat die Regel nicht aus. Bei einer eintägigen Durchführung ist der Durchführungstag zugleich Beginn und Ende. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 
@@ -516,7 +518,7 @@ Unter der Konfiguration listet eine Tabelle die Regeln des Elements. Die Tabs "A
 
 #### Bewertung in den Einstellungen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
 
-Der Unter-Tab "Bewertung" setzt voraus, dass die Zertifikatsprogramme auf der OpenOlat-Instanz eingeschaltet sind, was standardmässig der Fall ist. Er wird dann bei Durchführungen vom Typ Einzelkurs angezeigt sowie bei jeder Durchführung, die bereits einem Zertifikatsprogramm zugeordnet ist. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
+Der Unter-Tab "Bewertung" setzt voraus, dass die Zertifikatsprogramme auf der OpenOlat-Instanz eingeschaltet sind, was standardmässig der Fall ist. Er erscheint dann bei Durchführungen vom Typ Einzelkurs und bei jeder Durchführung, die bereits einem Zertifikatsprogramm zugeordnet ist. Hier verknüpfen Sie die Durchführung direkt mit einem Zertifikatsprogramm, ohne den Weg über das Programm selbst zu gehen.
 
 * Mit dem Schalter "Zertifikatsprogramm" blenden Sie die Auswahl eines Programms ein. Gespeichert ist die Verknüpfung erst, wenn Sie ein Programm ausgewählt haben; ohne Programm steht der Schalter beim nächsten Öffnen des Unter-Tabs wieder auf "Aus". Schalten Sie ihn bei verknüpftem Programm aus, folgt dieselbe Sicherheitsabfrage wie bei "Entfernen".
 * Ist noch kein Programm verknüpft, wählen Sie über den Button "Auswählen" ein Programm aus. Der Dialog "Zertifikatsprogramm auswählen" zeigt Titel, Kennzeichen, Gültigkeitsdauer, Rezertifizierung und benötigte Kreditpunkte. Er listet nur Programme, deren "Administrative Freigabe" die Organisation des Produkts enthält. Zusätzlich müssen Sie Zertifikatsprogrammbesitzer:in des Programms sein oder in einer seiner Organisationen die Rolle Administrator:in, Principal oder Kursplaner:in haben. Bleibt die Liste leer, prüfen Sie zuerst die Administrative Freigabe des Programms.
@@ -530,9 +532,9 @@ Den Schalter und die Buttons "Auswählen" und "Entfernen" bedienen Administrator
 
 ![Das verknüpfte Programm mit Gültigkeitsdauer, Rezertifizierung und den Aktionen Entfernen und Öffnen, angezeigt bei eingeschaltetem Schalter Zertifikatsprogramm](assets/course_planner_implementations_tab_settings_assessment_linked_v2_de.png){ class="shadow lightbox" title="Unter-Tab Bewertung der Einstellungen · 2026.10.02" }
 
-Eine Durchführung kann auch direkt über das [Zertifikatsprogramm](Course_Planner_Certification_Programs.de.md#config_tab_implementations) hinzugefügt werden.
+Sie können eine Durchführung auch direkt im [Zertifikatsprogramm](Course_Planner_Certification_Programs.de.md#config_tab_implementations) hinzufügen.
 
-Beim [Kopieren einer Durchführung](#copy) wird die Verknüpfung zum Zertifikatsprogramm übernommen, sofern Sie die Berechtigung für das Programm besitzen. Fehlt die Berechtigung, zeigt der Assistent die Warnung "Das Zertifikatsprogramm kann aufgrund fehlender Berechtigungen nicht übernommen werden." Beim Kopieren entsteht ein Eintrag im Aktivitätslog des Programms.
+Beim [Kopieren einer Durchführung](#copy) übernimmt OpenOlat die Verknüpfung zum Zertifikatsprogramm, sofern Sie die Berechtigung für das Programm besitzen. Fehlt die Berechtigung, zeigt der Assistent die Warnung "Das Zertifikatsprogramm kann aufgrund fehlender Berechtigungen nicht übernommen werden." Beim Kopieren entsteht ein Eintrag im Aktivitätslog des Programms.
 
 
 #### Optionen in den Einstellungen
@@ -613,7 +615,7 @@ Eine Durchführung enthält viele Daten, die in einer bestimmten Reihenfolge auf
 
 ![Der Dialog Alle Daten schieben zeigt als Bezugsdatum das früheste Datum, unter Verschiebung nach wählen Sie Datum oder Tage und tragen das neue Datum ein](assets/course_planner_implementations_copy5_v3_de.png){ class="shadow lightbox" title="Dialog Alle Daten schieben des Assistenten Element kopieren · 2026.10.09" }
 
-Hat die Durchführung Angebote, folgt als dritter Schritt "Angebote". Er listet die Angebote der Vorlage, alle sind ausgewählt; ein abgewähltes Angebot übernimmt die Kopie nicht. Hat ein Angebot einen Zeitraum, verschiebt der Assistent ihn um dieselbe Anzahl Tage wie "Alle Daten schieben". In der Zeile des Angebots passen Sie den Zeitraum an.
+Hat die Durchführung Angebote, folgt als dritter Schritt "Angebote". Er listet die Angebote der Vorlage, alle sind ausgewählt; ein abgewähltes Angebot übernimmt die Kopie nicht. Die übernommenen Angebote behalten ihre Einstellungen, auch "Stornierbar" und die Wahl unter "Teilnehmende können stornieren". Hat ein Angebot einen Zeitraum, verschiebt der Assistent ihn um dieselbe Anzahl Tage wie "Alle Daten schieben". In der Zeile des Angebots passen Sie den Zeitraum an.
 
 ### To-dos beim Kopieren übernehmen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
 
@@ -689,6 +691,8 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Modul Organisationen (Administration) >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Modul Gruppen (Administration) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
+[Coaching - Personen >](Coaching_People.de.md)<br>
+[Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](catalog2.0_sort_offers.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form/index.de.md)<br>
 [Reports: Buchungsaufträge >](Reports_BookingOrders.de.md)<br>

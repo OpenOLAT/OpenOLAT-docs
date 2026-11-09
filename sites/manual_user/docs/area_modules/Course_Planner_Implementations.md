@@ -99,8 +99,8 @@ If course staff has been added, they appear instead of the note, with their role
 
 If a maximum or minimum number of participants is defined, an additional note text supplements the "Participants" key figure:
 
-* If a maximum is set: **"\<number\> seats left"**
-* If a minimum is set: **"\<number\> to minimum"**
+* If a maximum is set: "\<number\> seats left"
+* If a minimum is set: "\<number\> to minimum"
 * For fully booked or overbooked implementations, the corresponding message appears.
 
 ![Seats left and the distance to the minimum number below the participant count, plus the course staff with their role](assets/course_planner_implementations_widget_members2_v2_en.png){ class="shadow lightbox" title="Members widget in the Overview tab · 2026.10.02" }
@@ -130,7 +130,7 @@ The table in the "Structure" tab offers the following functions:
 - **Schedules**: In the column with the calendar icon you will find the schedules of the elements.
 - **Absences**: In the next column you will find the absences, provided that "Absences" is switched on for the element, directly in the options of the settings or via the element type.
 - **Data collection preview**: If the module "Quality management" and the "Data collections previews" are switched on in the system administration, you can jump to the assigned data collection preview for each element. You find both under: `Administration > Modules > Quality management`.
-- **Learning progress**: This column shows the average progress of all participants. All learning path courses for this element are taken into account. Conventional courses do not provide any data on learning progress.
+- **Learning progress**: The column shows the average progress of all participants across all learning path courses of this element. Conventional courses do not provide any data on learning progress.
 - **3 dots**: At the end of the row you will find the actions on an element: "Open in a new Tab", "Edit", "Move element", an entry for creating a sub-element, labelled with the element type (for example «Create new sub-element "Modul"»), "Copy element", "Members management" and "Delete".
 
 ![The menu of the three dots with all actions on an element, from opening in a new tab to deleting](assets/course_planner_implementations_tab_structure2_v2_en.png){ class="shadow lightbox" title="Menu of the 3 dots in the Structure tab" }
@@ -139,7 +139,7 @@ The table in the "Structure" tab offers the following functions:
 
 Use the "Move element" action under the 3 dots to open the dialog for moving. The element to be moved is highlighted in colour together with its sub-elements; these rows cannot be chosen as a target.
 
-Every possible target position is displayed as a radio button. Positions that are not allowed (for example an incompatible element type) are greyed out and cannot be selected.
+The dialog shows every possible target position as a radio button. Positions that are not allowed, for example for an incompatible element type, are greyed out and cannot be selected.
 
 After selecting a target position, the following actions appear directly on the element:
 
@@ -307,6 +307,8 @@ If you select the option "Without booking order" in the step "Booking order", yo
 
 If an implementation is to be bookable in the catalog, you create an [offer](../../manual_user/area_modules/catalog2.0_angebote.md) for it, as for every catalog entry.
 
+For the offer types "Freely available" and "Access code", you decide in the offer with the switch "Cancelable" whether participants may cancel their booking themselves, at any time or only until the begin date, see [Offer concepts: Cancellation](../basic_concepts/Offer_Concepts.md#offer_cancellation). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"}
+
 The "Offers" subsection shows, from top to bottom, the overview, the settings, the offers with the "Add offer" button and the booking order forms.
 
 ![The overview, the Settings section and the offers of an implementation with the Add offer button](assets/course_planner_implementations_tab_catalog1_v2_en.png){ class="shadow lightbox" title="Offers subsection in the Catalog tab · 2026.09.28" }
@@ -387,7 +389,7 @@ The detail view of a [booking order](#tab_catalog_booking_orders) and the detail
 There are two ways to take a form out of booking. They differ in what happens to the submitted forms:
 
 - **Switching off Use** in the dialog of the offer: The form is no longer used when booking this offer. The submitted forms remain. If submitted forms already exist, you confirm the step in the "Disable form" dialog.
-- **Remove form** in the table of the implementation: The form leaves the implementation and all its offers. The submitted forms are deleted.
+- **Remove form** in the table of the implementation: The form leaves the implementation and all its offers. OpenOlat deletes the submitted forms.
 
 !!! danger "Attention"
     "Remove form" deletes all submitted forms of this form. If the answers are to be kept, switch off "Use" in the offers instead or export the data beforehand.
@@ -468,7 +470,7 @@ The sub-tab appears for elements whose element type has the use "Implementation"
 
 **Scope of the automation rules:**
 
-Automation rules are defined at two levels:
+Automation rules arise at two levels:
 
 * **Element type level** in the system administration under `Administration > Modules > Course Planner > Tab Element types`: System administrators define default rules for each element type. These rules serve as a template for all elements of this type.
 * **Element level** under `Course Planner > Implementations > "your implementation" > Tab Settings > Automation`: For each individual element, you decide whether the rules of the element type are adopted or overridden individually.
@@ -482,8 +484,8 @@ Two modes are available for the individual element:
 
 | Type | Trigger |
 |---|---|
-| On status change | An action is triggered as soon as the implementation or element status reaches a certain value. |
-| Time-controlled | An action is triggered relative to the start or end of the implementation period. |
+| On status change | OpenOlat triggers an action as soon as the implementation or element status reaches a certain value. |
+| Time-controlled | OpenOlat triggers an action relative to the start or end of the implementation period. |
 
 Time-controlled rules calculate from the begin or the end in the [execution period](#tab_settings_execution). If an element has no such date itself, the date of the nearest superordinate element that has one applies. If it is missing there too, OpenOlat does not execute the rule. For a one-day implementation, the day of the implementation is both the begin and the end. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9807)" }](https://track.frentix.com/issue/OO-9807){:target="_blank"}
 
@@ -505,7 +507,7 @@ Below the configuration, a table lists the rules of the element. The tabs "All",
 
 #### Assessment in the settings [:octicons-tag-16:{ title="from Release 21.0 (OO-9499)" }](https://track.frentix.com/issue/OO-9499){:target="_blank"} {: #tab_settings_assessment}
 
-The sub-tab "Assessment" requires certification programs to be switched on in the OpenOlat instance, which is the default. It is then displayed for implementations of type Single course and for every implementation that is already assigned to a certification program. Here you link the implementation directly to a certification program, without going through the program itself.
+The sub-tab "Assessment" requires certification programs to be switched on in the OpenOlat instance, which is the default. It then appears for implementations of type Single course and for every implementation that is already assigned to a certification program. Here you link the implementation directly to a certification program, without going through the program itself.
 
 * Use the "Certification program" toggle to show the selection of a program. The link is only saved once you have selected a program; without a program, the toggle is back on "Off" the next time you open the sub-tab. If you switch it off while a program is linked, the same confirmation dialog appears as with "Remove".
 * If no program is linked yet, use the "Select" button to choose a program. The "Select certification program" dialog shows title, reference, validity period, recertification and required credit points. It only lists programs whose "Administrative access" contains the organisation of the product. In addition, you must be a certification program owner of the program or have the role Administrator, Principal or Course planner in one of its organisations. If the list stays empty, check the Administrative access of the program first.
@@ -519,9 +521,9 @@ The toggle and the "Select" and "Remove" buttons can be used by administrators, 
 
 ![The linked program with validity period, recertification and the actions Remove and Open, shown when the Certification program toggle is on](assets/course_planner_implementations_tab_settings_assessment_linked_v2_en.png){ class="shadow lightbox" title="Assessment sub-tab of the settings · 2026.10.02" }
 
-An implementation can also be added directly via the [certification program](Course_Planner_Certification_Programs.md#config_tab_implementations).
+You can also add an implementation directly in the [certification program](Course_Planner_Certification_Programs.md#config_tab_implementations).
 
-When [copying an implementation](#copy), the link to the certification program is applied, provided you have permission for the program. If the permission is missing, the wizard shows the warning "The certification program cannot be applied due to a lack of permissions." Copying creates an entry in the program's activity log.
+When [copying an implementation](#copy), OpenOlat applies the link to the certification program, provided you have permission for the program. If the permission is missing, the wizard shows the warning "The certification program cannot be applied due to a lack of permissions." Copying creates an entry in the program's activity log.
 
 
 #### Options in the settings
@@ -599,7 +601,7 @@ An implementation contains many dates that follow each other in a specific order
 
 ![The Shift all dates dialog shows the earliest date as the reference date, under Shift by you choose Date or Days and enter the new date](assets/course_planner_implementations_copy5_v3_en.png){ class="shadow lightbox" title="Shift all dates dialog of the Copy element wizard · 2026.10.09" }
 
-If the implementation has offers, the third step "Offers" follows. It lists the offers of the original element, all of them selected; an offer you deselect is not included in the copy. If an offer has a period, the wizard shifts it by the same number of days as "Shift all dates". You adjust the period in the row of the offer.
+If the implementation has offers, the third step "Offers" follows. It lists the offers of the original element, all of them selected; an offer you deselect is not included in the copy. The copied offers keep their settings, including "Cancelable" and the choice under "Participants can cancel". If an offer has a period, the wizard shifts it by the same number of days as "Shift all dates". You adjust the period in the row of the offer.
 
 ### Adopt to-dos when copying [:octicons-tag-16:{ title="from Release 21.0 (OO-9419)" }](https://track.frentix.com/issue/OO-9419){:target="_blank"} {: #copy_todos}
 
@@ -672,6 +674,8 @@ If you have already opened an implementation, you will also find the option to d
 [Module Organisations (Administration) >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
+[Coaching - People >](Coaching_People.md)<br>
+[Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
 [Catalog 2.0 - Sorting/order >](catalog2.0_sort_offers.md)<br>
 [Forms - Overview >](../learningresources/Form/index.md)<br>
 [Reports: Booking orders >](Reports_BookingOrders.md)<br>
