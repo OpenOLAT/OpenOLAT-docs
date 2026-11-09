@@ -62,6 +62,7 @@ Mit der Symbolschaltfläche "Vorschau" der Titelleiste können Sie jederzeit den
 
 [Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
 [eLML (EN Webseite) >](http://www.elml.org/website/en/html/index.html "eLML.org")<br>
-[IMS Content Packaging >](http://www.imsglobal.org/content/packaging/)
+[IMS Content Packaging >](http://www.imsglobal.org/content/packaging/)<br>
+[CP-Lerninhalt: Administration >](CP_Administration/index.de.md)
 
 [Zum Seitenanfang ^](#cp-lerninhalt-erstellen)

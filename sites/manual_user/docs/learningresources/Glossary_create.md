@@ -42,27 +42,17 @@ You will find the button (4) there, which opens a pop-up window in which an exis
 
 ![Active Definition tab with rich text editor for entering the term's explanation](assets/glossary_entry_definition_v1_de.png){ class="shadow lightbox" title="Add term dialog" }
 
-It can be made possible for learners to fill in the content of a glossary.
+Learners can also fill in the content of a glossary. How to give all users write permission is described on the page [Glossary: Administration](Glossary_administration.md#tab_write_permissions).
 
+### Writing permission for selected users {: #write_selected_users}
 
-### Writing permission for all users
+If you only want to grant writing permission for a glossary to certain people (e.g. participants in a course), there is another way. The members management of a course is used for this. Create a new group there and add the desired persons as participants in this group. Then go to the "Rights" area in the course's members management and check the "Glossary tool" right for the course participants in the group. The people in the group can now add and change glossary entries. What the right enables is described in the section [Glossary tool](Members_management.md#right_glossary_tool).
 
-In the learning resource "Glossary" under `Glossary > Administration > Settings > Tab "Write authorization"` you can define whether only the owners of the learning resource are allowed to create and edit posts or whether users also have this right.
+!!! info "Important"
 
-**Owners** of the respective learning resource "Glossary" can change and delete all created glossary entries. By default, new glossary entries can only be made by the course owners.
+    The owners of a course are not automatically the owners of the "Glossary" learning resource. In the course, they edit the integrated glossary nevertheless: they open it via the "Glossary" tool in the course toolbar and create, change and delete entries there.
 
-The selection "Write authorization for all users" allows **all system users** to create new glossary entries.
-Anyone who has created a glossary entry can then edit and delete this self-created entry.
-The owners of a glossary, on the other hand, can change or delete all contributions - including those created by other users - at any time.
-
-If this function is activated, the respective author and the last person who made changes are displayed next to the glossary entry.
-
-![Tab Write authorization with explanatory text and the still deactivated checkbox for write authorization of all users](assets/glossary_settings_write_v1_de.png){ class="shadow lightbox" title="Glossary settings" }
-
-
-### Writing permission for selected users
-
-If you only want to grant writing permission for a glossary to certain people (e.g. participants in a course), there is another way. The members management of a course is used for this. Create a new group there and add the desired persons as participants in this group. Then go to the "Rights" area in the course's members management and check the "Glossary tool" right for the course participants in the group. The people in the group can now add and change glossary entries.
+    If you open the glossary as a learning resource instead, for example in the authoring area, only the owners of the "Glossary" learning resource edit the entries. If further course owners are to work there as well, enter them as owners of the "Glossary" learning resource.
 
 [To the top of the page ^](#glossary_create)
 
@@ -79,17 +69,7 @@ The explanations (definitions) can be edited with a simple editor that allows ad
 * links
 * etc.
 
-The alphabetical register is designed for a Latin alphabet and contains the characters from A-Z. For a glossary with a different character set, the checkbox "Enable register" should be deactivated.
-
-`Glossary > Administration > Settings > Tab "Alphabetical register"`
-
-![Tab Alphabetical register with explanatory text and the activated checkbox Enable register](assets/glossary_settings_register_v1_de.png){ class="shadow lightbox" title="Glossary settings" }
-
-!!! info "Important"
-
-    The owners of a course are not automatically the owners of the learning resource. If a "Glossary" learning resource was created by another person, the owners of the course in which the learning resource was integrated cannot automatically make entries in the glossary.
-
-    In order for the other course owners to be able to make changes, one of the described authorizations must be set up or the desired course owners must also be entered as owners of the respective "Glossary" learning resource.
+Whether the glossary groups the terms by initial letter with an alphabetical index is set in the settings of the glossary, see [Glossary: Administration](Glossary_administration.md#tab_register).
 
 [To the top of the page ^](#glossary_create)
 
@@ -122,6 +102,11 @@ If you no longer use the glossary or would like to include a different glossary 
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Glossary: Administration >](Glossary_administration.md)<br>
+[Members management >](Members_management.md)
+
+**Further reading**<br>
 [Usage of a glossary >](../learningresources/Glossary_usage.md)
 
 [To the top of the page ^](#glossary_create)

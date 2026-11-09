@@ -224,7 +224,8 @@ Ist in den Kurseinstellungen die Vergabe von Badges aktiviert, zeigt der Kursedi
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
-[Badges >](OpenBadges.de.md)
+[Badges >](OpenBadges.de.md)<br>
+[SCORM 1.2: Administration >](SCORM_Administration.de.md)
 
 [Zum Seitenanfang ^](#course_element_scorm)
 

@@ -18,14 +18,14 @@ Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-Forma
 
 Im Kurseditor wird der Kursbaustein "CP-Lerninhalt" als einzelner Kursbaustein angezeigt, dessen Inhalt (das Content Package) erstellt, bearbeitet oder ausgetauscht werden kann.
 
-![Content Package myCP mit Checkbox CP-Navigation im Kurs-Menü integrieren, im Tab Lerninhalt](assets/course_element_cp_learning_content_tab_content1_v1_de.png){ class="lightbox" }
+![Content Package myCP mit Checkbox CP-Navigation im Kurs-Menü integrieren, im Tab Lerninhalt](assets/course_element_cp_learning_content_tab_content1_v1_de.png){ class="lightbox" title="Tab Lerninhalt des Kursbausteins im Kurseditor" }
 
 Das Content Package selbst besteht jedoch in der Regel dann aus mehreren Seiten. Die Struktur dieses Inhalt wird direkt im OpenOlat-Menü angezeigt, wenn die Option **"CP-Navigation ins Kurs-Menü integrieren"** aktiviert ist.<br>
 Ansonsten ist die Struktur für Teilnehmer:innen nicht sichtbar. Sie können dann nach Aufruf des Kursbausteins mit separaten Buttons rechts oben im Content durch die Inhaltsseiten des CP navigieren. 
 
-![CP-Seiten als eigene Einträge im Kursmenü, weil CP-Navigation integriert ist](assets/course_element_cp_learning_content_tab_content2_v1_de.png){ class="lightbox" }
+![CP-Seiten als eigene Einträge im Kursmenü, weil CP-Navigation integriert ist](assets/course_element_cp_learning_content_tab_content2_v1_de.png){ class="lightbox" title="Kursmenü mit integrierter CP-Navigation" }
 
-![Pfeile zum Navigieren durch die CP-Seiten, ohne Struktur im Kursmenü](assets/course_element_cp_learning_content_tab_content3_v1_de.png){ class="lightbox" }
+![Pfeile zum Navigieren durch die CP-Seiten, ohne Struktur im Kursmenü](assets/course_element_cp_learning_content_tab_content3_v1_de.png){ class="lightbox" title="Kursbaustein CP-Lerninhalt ohne CP-Navigation im Kursmenü" }
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -33,6 +33,7 @@ Ansonsten ist die Struktur für Teilnehmer:innen nicht sichtbar. Sie können dan
 [Wie erstelle ich ein Content Package? (Schritt-für-Schritt-Anleitung) >](../../manual_how-to/content_package/content_package.de.md)
 
 **Weiterführend**<br>
-[Erstellen und Bearbeiten eines Content Packages >](../learningresources/CP_Editor.de.md)
+[Erstellen und Bearbeiten eines Content Packages >](../learningresources/CP_Editor.de.md)<br>
+[CP-Lerninhalt: Administration >](CP_Administration/index.de.md)
 
 [Zum Seitenanfang ^](#CP_learning_content)

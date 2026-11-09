@@ -225,6 +225,7 @@ If the awarding of badges is enabled in the course settings, the course editor s
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
-[Badges >](OpenBadges.md)
+[Badges >](OpenBadges.md)<br>
+[SCORM 1.2: Administration >](SCORM_Administration.md)
 
 [To the top of the page ^](#course_element_scorm)

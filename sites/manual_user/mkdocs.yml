@@ -395,7 +395,10 @@ nav:
       - Export: "learningresources/Test_export.md"
     - CP learning content:
       - Administration:
+        - learningresources/CP_Administration/index.md
         - Edit content: "learningresources/CP_Editor.md"
+    - SCORM 1.2:
+      - Administration: "learningresources/SCORM_Administration.md"
     - Wiki: "learningresources/Wiki.md"
     - Podcast:
       - learningresources/Podcast/index.md
@@ -432,6 +435,7 @@ nav:
       - learningresources/Glossary/index.md
       - Usage: "learningresources/Glossary_usage.md"
       - Create: "learningresources/Glossary_create.md"
+      - Administration: "learningresources/Glossary_administration.md"
    
   - Groups:
     - groups/index.md

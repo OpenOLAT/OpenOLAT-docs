@@ -10,7 +10,7 @@ If a glossary is integrated into an OpenOlat course, the explanation of the glos
 
 ![HTML page of a course with the underlined glossary term "WebDAV" and its definition shown on mouse-over.](../assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" title="Glossary term on an HTML page of the course" }
 
-It is possible to configure glossaries in a way that allows learners to fill it with content as well.
+It is possible to configure glossaries in a way that allows learners to fill it with content as well, see [Glossary: Administration](../Glossary_administration.md#tab_write_permissions).
 
 Technically, it counts as a **learning resource** in OpenOlat.
 
@@ -19,6 +19,7 @@ Technically, it counts as a **learning resource** in OpenOlat.
 ## Further information {: #further_information}
 
 [Usage of a glossary >](../Glossary_usage.md)<br>
-[Create a glossary >](../Glossary_create.md)
+[Create a glossary >](../Glossary_create.md)<br>
+[Glossary: Administration >](../Glossary_administration.md)
 
 [To the top of the page ^](#glossary)

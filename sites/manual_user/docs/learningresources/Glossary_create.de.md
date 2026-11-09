@@ -45,27 +45,17 @@ Sie finden dort den Button (4), der ein Popup-Fenster öffnet, in dem ein vorhan
 ![Aktiver Tab Definition mit Rich-Text-Editor zur Eingabe der Begriffserklärung](assets/glossary_entry_definition_v1_de.png){ class="shadow lightbox" title="Dialog Begriff hinzufügen" }
 
 
-Es kann ermöglicht werden, dass auch Lernende ein Glossar inhaltlich befüllen können.
+Auch Lernende können ein Glossar inhaltlich befüllen. Wie Sie allen Benutzer:innen das Schreibrecht geben, beschreibt die Seite [Glossar: Administration](Glossary_administration.de.md#tab_write_permissions).
 
-### Schreibrecht für alle Benutzer:innen
+### Schreibrecht nur für ausgewählte Benutzer:innen {: #write_selected_users}
 
-In der Lernressource "Glossar" kann unter `Glossar > Administration > Einstellungen > Tab "Schreibberechtigung"` definiert werden, ob nur die Besitzer:innen der Lernressource Beiträge erstellen und editieren dürfen oder ob auch Benutzer:innen das Recht erhalten.
+Möchte man nur bestimmten Personen (z.B. den Teilnehmenden eines Kurses) das Schreibrecht für ein Glossar vergeben, geht man einen anderen Weg. Hierfür wird die Mitgliederverwaltung eines Kurses verwendet. Erstellen Sie dort eine neue Gruppe und fügen Sie die gewünschten Personen als Teilnehmer:innen dieser Gruppe hinzu. Gehen Sie anschliessend in der Mitgliederverwaltung des Kurses in den Bereich "Rechte" und setzen Sie bei den Kursteilnehmer:innen der Gruppe den Haken für das Recht "Glossar-Werkzeug". Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern. Was das Recht freigibt, beschreibt der Abschnitt [Glossar-Werkzeug](Members_management.de.md#right_glossary_tool).
 
-**Besitzer:innen** der jeweiligen Lernressource "Glossar" können grundsätzlich alle erstellten Glossarbeiträge ändern und löschen. Standardmässig können neue Glossareinträge nur von den Kursbesitzer:innen vorgenommen werden.
+!!! info "Wichtig"
 
-Die Auswahl "Schreibberechtigung für alle Benutzer:innen" erlaubt es **allen Systembenutzer:innen** neue Glossarbeiträge zu erstellen.
-Wer einen Glossarbeitrag erstellt hat, kann diesen selbst erstellten Beitrag anschliessend auch ändern und wieder löschen. 
-Die Besitzer:innen eines Glossars können dagegen alle Beiträge - auch die von anderen Benutzer:innen erstellten - jederzeit ändern oder löschen.
+    Die Besitzer:innen eines Kurses sind nicht automatisch auch Besitzer:innen der Lernressource "Glossar". Im Kurs bearbeiten sie das eingebundene Glossar trotzdem: Sie öffnen es über das Werkzeug "Glossar" in der Toolbar des Kurses und erstellen, ändern und löschen dort Einträge.
 
-Wenn diese Funktion eingeschaltet ist, wird die jeweilige Urheber:in und die letzte Person, die Änderungen vorgenommen hat, neben dem Glossarbeitrag angezeigt.
-
-![Tab Schreibberechtigung mit Erläuterungstext und der noch deaktivierten Checkbox für die Schreibberechtigung aller Benutzer:innen](assets/glossary_settings_write_v1_de.png){ class="shadow lightbox" title="Glossar-Einstellungen" }
-
-
-
-### Schreibrecht nur für ausgewählte Benutzer:innen
-
-Möchte man nur bestimmten Personen (z.B. den Teilnehmenden eines Kurses) das Schreibrecht für ein Glossar vergeben, geht man einen anderen Weg. Hierfür wird die Mitgliederverwaltung eines Kurses verwendet. Erstellen Sie dort eine neue Gruppe und fügen Sie die gewünschten Personen als Teilnehmer:innen dieser Gruppe hinzu. Gehen Sie anschliessend in der Mitgliederverwaltung des Kurses in den Bereich "Rechte" und setzen Sie bei den Kursteilnehmer:innen der Gruppe den Haken für das Recht "Glossarwerkzeug". Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
+    Öffnen Sie das Glossar dagegen als Lernressource, zum Beispiel im Autorenbereich, bearbeiten nur die Besitzer:innen der Lernressource "Glossar" die Einträge. Sollen weitere Kursbesitzer:innen auch dort arbeiten, tragen Sie sie als Besitzer:innen der Lernressource "Glossar" ein.
 
 
 [Zum Seitenanfang ^](#glossary_create)
@@ -83,19 +73,7 @@ Die Erklärungen (Definitionen) können mit einem einfachen Editor bearbeitet we
 * Links
 * u.a.
 
-Das alphabetische Register ist für ein lateinisches Alphabet ausgelegt und beinhaltet die Zeichen von A-Z. Für ein Glossar mit anderem Zeichensatz sollte die Checkbox "Register einschalten" deaktiviert werden.
-
-`Glossar > Administration > Einstellungen > Tab "Alphabetisches Register"`
-
-![Tab Alphabetisches Register mit Erläuterungstext und aktivierter Checkbox Register einschalten](assets/glossary_settings_register_v1_de.png){ class="shadow lightbox" title="Glossar-Einstellungen" }
-
-
-
-!!! info "Wichtig"
-
-    Die Besitzer:innen eines Kurses sind nicht automatisch auch Besitzer:innen der Lernressource. Wurde eine Lernressource "Glossar" von einer anderen Person erstellt, können nicht automatisch die Besitzer:innen des Kurses, in dem die Lernressource eingebunden wurde, auch Einträge im Glossar vornehmen.
-
-    Damit die anderen Kursbesitzer:innen Änderungen vornehmen können, muss eine der beschriebenen Berechtigungen eingerichtet werden oder die gewünschten Kursbesitzer:innen müssen auch als Besitzer:innen der jeweiligen Lernressource "Glossar" eingetragen werden.
+Ob das Glossar die Begriffe über ein alphabetisches Register nach Anfangsbuchstaben gliedert, legen Sie in den Einstellungen des Glossars fest, siehe [Glossar: Administration](Glossary_administration.de.md#tab_register).
 
 
 [Zum Seitenanfang ^](#glossary_create)
@@ -132,6 +110,11 @@ Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar in Ihren Kurs
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Glossar: Administration >](Glossary_administration.de.md)<br>
+[Mitgliederverwaltung >](Members_management.de.md)
+
+**Weiterführend**<br>
 [Glossar verwenden >](../learningresources/Glossary_usage.de.md)
 
 [Zum Seitenanfang ^](#glossary_create)

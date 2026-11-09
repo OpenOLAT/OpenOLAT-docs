@@ -18,14 +18,14 @@ Use the "CP learning content" course element to embed learning content in the IM
 
 In the Course Editor, the "CP learning content" course element is displayed as a single course element whose content (the Content Package) can be created, edited, or replaced.
 
-![Content package myCP with the Integrate CP navigation into the course menu checkbox, in the Learning content tab](assets/course_element_cp_learning_content_tab_content1_v1_de.png){ class="lightbox" }
+![Content package myCP with the Integrate CP navigation into the course menu checkbox, in the Learning content tab](assets/course_element_cp_learning_content_tab_content1_v1_de.png){ class="lightbox" title="Tab Learning content of the course element in the course editor" }
 
 However, the content package itself usually consists of several pages. The structure of this content is displayed directly in the OpenOlat menu if the option **"Integrate CP navigation into the course menu"** is enabled.<br>
 Otherwise, the structure is not visible to participants. Once they have accessed the course element, they can navigate through the course element's content pages using the separate buttons in the top-right corner of the content area.
 
-![CP pages as separate entries in the course menu, because CP navigation is integrated](assets/course_element_cp_learning_content_tab_content2_v1_de.png){ class="lightbox" }
+![CP pages as separate entries in the course menu, because CP navigation is integrated](assets/course_element_cp_learning_content_tab_content2_v1_de.png){ class="lightbox" title="Course menu with integrated CP navigation" }
 
-![Arrows for navigating through the CP pages, without a structure in the course menu](assets/course_element_cp_learning_content_tab_content3_v1_de.png){ class="lightbox" }
+![Arrows for navigating through the CP pages, without a structure in the course menu](assets/course_element_cp_learning_content_tab_content3_v1_de.png){ class="lightbox" title="Course element CP learning content without CP navigation in the course menu" }
 
 ## Further information {: #further_information}
 
@@ -33,6 +33,7 @@ Otherwise, the structure is not visible to participants. Once they have accessed
 [How do I create a content package? (Step-by-step instruction) >](../../manual_how-to/content_package/content_package.md)
 
 **Further reading**<br>
-[Creating and editing a content package >](../learningresources/CP_Editor.md)
+[Creating and editing a content package >](../learningresources/CP_Editor.md)<br>
+[CP learning content: Administration >](CP_Administration/index.md)
 
 [To the top of the page ^](#CP_learning_content)

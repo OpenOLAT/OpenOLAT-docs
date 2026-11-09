@@ -62,6 +62,7 @@ The button "Preview" in the title bar enables you to check up on your learning m
 
 [Creating Courses >](../learningresources/Creating_Course.md)<br>
 [eLML >](http://www.elml.org/website/en/html/index.html "eLML.org")<br>
-[IMS Content Packaging >](http://www.imsglobal.org/content/packaging/)
+[IMS Content Packaging >](http://www.imsglobal.org/content/packaging/)<br>
+[CP learning content: Administration >](CP_Administration/index.md)
 
 [To the top of the page ^](#create-cp-learning-content)
