@@ -118,12 +118,12 @@ plugins:
       nav_translations:
         de:
           What is in OpenOlat: Was steckt in OpenOlat
+          About this learning resource : Über diese Lernressource
           About this manual: Über dieses Handbuch
           About us: Über uns
           Absences : Absenzen
           Absence management : Absenzenverwaltung
           Access configuration : Zugangskonfiguration
-          Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
           Accessibility : Barrierefreiheit
           Access, Roles and Rights : Zugriff, Rollen und Rechte
           Account : Konto
@@ -134,6 +134,7 @@ plugins:
           Adjust OpenOlat : OpenOlat anpassen
           Admin manual: Administrationshandbuch
           Administration : Administration
+          Administration and editing : Administration und Bearbeitung
           Administration and Organisation : Verwaltung und Organisation
           Adobe Connect : Adobe Connect
           AI features : KI-Funktionen
@@ -145,31 +146,28 @@ plugins:
           Archive : Archiv
           Archiving & Reporting : Archivierung & Reports
           Sites and modules : Bereiche und Module
-          Assess tasks : Aufgaben bewerten
+          Assess : Bewerten
           Appointment scheduling : Terminplanung
           As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? : Wie richte ich als Systemadministrator:in den Safe Exam Browser (SEB) systemweit ein?
-          Assessing tasks and group tasks : Aufgaben und Gruppenaufgaben bewerten
-          Assessing tests : Tests bewerten
           Assessment : Bewertung
+          Assessment form : Bewertungsformular
           Assessment inspection : Prüfungseinsicht
           Assessment management : Prüfungsverwaltung
           Assessment mode : Prüfungsmodus
-          Assessment of course modules : Bewertung von Kursbausteinen
-          Assessment of learners : Lernende bewerten
           Assessment orders : Bewertungsaufträge
           Assessment tool : Bewertungswerkzeug
           Assign : Zuweisen
           Assign roles : Rollen zuweisen
           Attend Participants : Teilnehmer betreuen
-          Audio Recording : Audio aufnehmen
+          Audio : Audio
           Aufgabe  : Aufgabe
           Authorisation in courses : Rechte in Kursen
           Authoring : Autorenbereich
           Automatic Group Life Cycle : Automatischer Gruppen-Lebenszyklus
           Automatic Course Life Cycle : Automatischer Kurs-Lebenszyklus
-          BBB - FAQ : BBB - FAQ
           Badges: Badges
           Bookings and invoices : Buchungen und Rechnungen
+          Certificate and recertification : Zertifikat und Rezertifizierung
           Certificates and credit points : Zertifikate und Kreditpunkte
           Cockpit and widgets : Cockpit und Widgets
           Copying instead of rebuilding : Kopieren statt neu bauen
@@ -210,19 +208,16 @@ plugins:
           Competences tags : Kompetenzen verschlagworten
           Components : Bestandteile
           Configuration : Konfiguration
-          Configure a blog : Blog konfigurieren
-          Configure a podcast : Podcast konfigurieren
-          Configure test questions : Test Fragen konfigurieren
-          Configure tests : Test konfigurieren
           Content Editor : Content Editor
           Convert to learning path course : In Lernpfad-Kurs konvertieren
-          Copy (a course) : Kopieren (eines Kurses)
+          Copy : Kopieren
           Copy with wizard : Kopieren mit Wizard
           Core functions : Core-Konfiguration
           Course : Kurs
           Course design : Kursdesign
           Courses : Kurse
           Course editor : Kurseditor
+          Course element : Kursbaustein
           Course Element Assessment : Kursbaustein Bewertung
           Course element Adobe Connect : Kursbaustein Adobe Connect
           Course element BigBlueButton : Kursbaustein BigBlueButton
@@ -244,22 +239,18 @@ plugins:
           Course Operation : Kursbetrieb
           Course Planner : Course Planner
           Course Problems and Error Messages : Probleme und Fehlermeldungen im Kurs
-          Course Reminders : Erinnerung
           Course Settings : Kurseinstellungen
           Course statistics : Kursstatistiken
           Courses and Catalog : Kurse und Katalog
           COVID certificate: COVID-Zertifikat
-          CP Editor : CP Editor
-          CP learning content: CP Lerninhalt
+          CP learning content: CP-Lerninhalt
           Create : Erstellen
           Create a blog : Blog erstellen
           Create a Content Package : Content Package erstellen
           Create a form : Formular erstellen
-          Create a glossary : Glossar erstellen
           Create a new project : Neues Projekt erstellen
           Create a podcast : Podcast erstellen
           Create a wiki : Wiki erstellen
-          Create course: Kurs erstellen
           Create Courses : Kurse erstellen
           Create courses and learning resources: Kurse und Lernressourcen erstellen
           Create Learning Resources : Lernressourcen erstellen
@@ -269,7 +260,6 @@ plugins:
           Creating Courses : Kurs erstellen
           Creating CP Learning Content : CP-Lerninhalt erstellen
           Creating Forms : Formulare erstellen
-          Creating learning path courses : Lernpfad Kurse erstellen
           Creating Podcasts : Podcast erstellen
           Creating Portfolios : Portfolio erstellen
           Creating Tasks : Aufgabe erstellen
@@ -290,10 +280,9 @@ plugins:
           Decisions : Entscheide
           Deep Linking : Deep Linking
           Delete : Löschen
+          Delete, move, duplicate : Löschen, verschieben, duplizieren
           Delete User : Benutzer:in löschen
-          Deleting, Moving and Copying Course Elements : Löschen, Verschieben und Kopieren von Kursbausteinen
           Design : Design
-          Design possibilities of courses and course elements : Gestalterische Möglichkeiten von Kursen und Kursbausteinen
           Detailed View of Learning Resources : Detailansicht einer Lernressource
           Details and metadata : Detailansicht und Metadaten
           Developer cookbook: Developer Cookbook
@@ -305,9 +294,11 @@ plugins:
           eAssessment Levels/Grading : eAssessment Einstufung/Noten
           Element : Element
           Element owner : Elementbesitzer:in
+          Elements : Elemente
           Embedding courses and course templates : Kurse und Kurstemplates einbinden
           ePortfolio : ePortfolio
           Edit a project : Projekt bearbeiten
+          Edit content : Inhalt editieren
           Editor : Editor
           edu-sharing: edu-sharing
           Edubase: Edubase
@@ -321,8 +312,10 @@ plugins:
           Evidence of achievement : Leistungsnachweise
           Exams : Prüfungen
           Excel import and export : Excel-Import und -Export
+          Execution : Durchführung
+          Expert mode : Expertenmodus
+          Export : Exportieren
           Export content : Inhalt exportieren
-          Export tests : Tests exportieren
           External catalog : Externer Katalog
           External Page : Externe Seite
           External platforms : Externe Platformen
@@ -337,12 +330,10 @@ plugins:
           Folder: Ordner
           Folder concept: Ordnerkonzept
           Form : Formular
-          Form Editor : Formular-Editor
-          Form Elements : Formular-Elemente
-          Form Element Rubric : Formular-Element Rubrik
-          Forms in Courses : Formulare in Kursen
-          Forms in Rubric Scoring : Formular als Rubrik Bewertung
-          Forms in the ePortfolio template : Formular in der Portfolio 2.0 Vorlage
+          FAQ : FAQ
+          Form as rubric : Formular als Rubrik
+          Form editor : Formulareditor
+          Forms : Formulare
           Forum : Forum
           Four Steps to Your Blog : Vier Schritte zu Ihrem Blog
           Four Steps to Your Podcast : Vier Schritte zu Ihrem Podcast
@@ -353,13 +344,12 @@ plugins:
           General Configuration of Course Elements : Allgemeine Konfiguration von Kursbausteinen
           General functions : Allgemeine Funktionen
           General Information : Allgemeines
-          General information on forms : Allgemeines zu Formularen
           General Information on Tests : Allgemeines zu Tests
           Global search : Globale Suche
           Glossary : Glossar
           Glossary alphabetical : Glossar alphabetisch
           GoToMeeting : GoToMeeting
-          Grading / Evaluation Scale : Noten / Bewertungskala
+          Grading / Evaluation Scale : Noten / Bewertungsskala
           Group management : Gruppenverwaltung
           Group Scenarios : Gruppenszenarien
           Groups : Gruppen
@@ -406,6 +396,8 @@ plugins:
           Import templates : Importvorlagen
           Imprint: Impressum
           In Five Steps to Your Content Package : Fünf Schritte zu Ihrem Content-Packaging
+          In courses : In Kursen
+          Info : Info
           Info page : Infoseite
           Information on learning progress : Informationen zum Lernfortschritt
           Information on OpenOlat : Informationen zu OpenOlat
@@ -413,15 +405,16 @@ plugins:
           Introduction for authors : Einführung für Autor:innen
           Introduction for administrators : Einführung für Administrator:innen
           Invoice : Rechnung
+          JupyterHub : JupyterHub
           Just a Few Clicks and the Course Wizard Will Create Your OpenOlat Course : Mit dem Kursassistenten in wenigen Mausklicks zu Ihrem OpenOlat-Kurs
           Knowledge Transfer : Wissensvermittlung
           Landing pages : Startseite
+          Layout : Layout
+          Learners : Lernende
           Learning Activities in Courses : Lernaktivitäten im Kurs
-          Learning areas : Lernbereiche
-          Learning path course - Course editor : Lernpfadkurs - Kurseditor
-          Learning path course - Participant view : Lernpfadkurs - Teilnehmeransicht
+          Learning areas : Lernbereich
+          Learning path course : Lernpfadkurs
           Learning resources : Lernressourcen
-          Learning resource Video : Lernressource Video
           Leave : Verlassen
           Lectures : Lektionen
           Lectures and absences : Lektionen und Absenzen
@@ -438,7 +431,7 @@ plugins:
           Lifecycle management : Lebenszyklen managen
           Line manager : Linienvorgesetzte(r)
           Link list : Linkliste
-          Listen and watch to podcasts : Podcasts anhören und ansehen
+          Listen and watch : Anhören und ansehen
           Local search : Lokale Suche
           Login : Login
           Login and registration : Login und Registrierung
@@ -458,6 +451,7 @@ plugins:
           Media items : Einzelmedien
           Mediasite : Mediasite
           Members : Teilnehmer:innen
+          Metadata : Metadaten
           Members management : Mitgliederverwaltung
           Microsoft Teams : Microsoft Teams
           Microsoft Teams module : Modul Microsoft Teams
@@ -503,6 +497,7 @@ plugins:
           One Time Code : One Time Code
           Opencast : Opencast
           OpenMeetings : OpenMeetings
+          Options : Optionen
           Other users : Personensuche
           Orders : Aufträge
           Order management : Auftragsverwaltung
@@ -512,6 +507,8 @@ plugins:
           Owner : Besitzer:in
           Page: Seite
           Participant : Teilnehmer:in
+          Participant view : Teilnehmeransicht
+          Participants : Teilnehmer:innen
           Participant Administration : Teilnehmeradministration
           Participant Folder : Teilnehmer Ordner
           Participant list : Liste der Teilnehmer:innen
@@ -533,10 +530,8 @@ plugins:
           Podcast : Podcast
           Portal configuration : Portal konfigurieren
           Portfolio 2.0 : Portfolio 2.0
-          Portfolio assignment Grading : Portfolioaufgabe kommentieren und bewerten
           Portfolio Task: Portfolioaufgabe
-          Portfolio template Administration and editing : Portfoliovorlage Administration und Bearbeitung
-          Portfolio template Creation : Portfoliovorlage Erstellung
+          Portfolio task : Portfolioaufgabe
           Portfolio 2.0 Template : Portfolio 2.0 Vorlage
           Practice: Übung
           Process of an assessment portfolio : Prozess eines Bewertungsportfolios
@@ -557,6 +552,7 @@ plugins:
           Recording : Aufnehmen
           Recording absences : Absenzen erfassen
           Reference glossary : Referenzglossar
+          Reminders : Erinnerung
           Reduce storage consumption : Speicherverbrauch reduzieren
           Registration, Login and Logout : Registrierung, Login und Logout
           Release notes: Release Notes
@@ -577,6 +573,7 @@ plugins:
           Rubric : Rubrik
           Save as template : Als Template speichern
           Schedule : Terminplan 
+          SCORM 1.2 : SCORM 1.2
           SCORM Learning Content : SCORM-Lerninhalt
           Search : Suchfunktion
           Search in a course : Suche im Kurs
@@ -610,34 +607,22 @@ plugins:
           Surveys : Umfragen
           Survey statistics : Fragebogen Statistiken
           System : System
-          Tab Assessment : Tab Bewertung
-          Tab Assessment - Certificates and Recertification: Tab Bewertung - Zertifikate und Rezertifizierung
-          Tab Execution : Tab Durchführung
-          Tab Info :  Tab Info
-          Tab Metadata : Tab Metadaten
-          Tab Options : Tab Optionen
-          Tab Share : Tab Freigabe
-          Tab Share - LTI : Tab Freigabe - LTI
-          Tab Toolbar : Tab Toolbar
-          Tab users : Tab Teilnehmer
           Table concept: Tabellenkonzept
-          Overview pages and widgets: Übersichtsseiten und Widgets
           Task : Aufgabe
+          Tasks and group tasks : Aufgaben und Gruppenaufgaben
+          Tasks in the course : Aufgaben im Kurs
           Taxonomy: Taxonomie
           Teacher view : Sicht Dozent
-          Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
           Technical Requirements : Technische Voraussetzungen
           Technology: Technologie
           Technology and Navigation : Technologie und Navigation
           Terms of use :  Nutzungsbedingungen
           Test : Test
+          Tests : Tests
           Tests and Assessments : Tests und Prüfungen
-          Tests at course level : Tests auf Kursebene
-          Test editor QTI 2.1 : Testeditor
-          Test question types : Test Fragetypen
-          Test settings : Test Einstellungen
+          Test configuration : Test Konfiguration
+          Test editor : Testeditor
           Test statistics : Teststatistiken
-          The assessment form : Das Bewertungsformular
           The Idea of Open-Source Software : Der Open-Source-Gedanke
           The portfolio editor for 17.1: Der Portfolio Editor ab 17.1
           Three Steps to Create and Manage Topics : Drei Schritte zur Erstellung und Verwaltung von Themen
@@ -651,6 +636,9 @@ plugins:
           Topic assigment : Themenvergabe
           Topic Broker : Themenbörse
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
+          Toolbar : Toolbar
+          Tools : Werkzeuge
+          Types : Typen
           Types of Course Element : Kursbausteine
           Upload : Hochladen
           Usage : Verwendung
@@ -662,7 +650,6 @@ plugins:
           User types : Benutzertypen
           User view  : Sicht Benutzer
           Account search : Kontosuche
-          Using additional Course Editor Tools : Verwendung weiterer Kurseditorwerkzeuge
           Using Additional Course Features : Einsatz weiterer Kursfunktionen der Toolbar
           Using Course Tools : Einsatz der Kurswerkzeuge
           Using Group Tools : Gruppenwerkzeuge nutzen
@@ -691,7 +678,6 @@ plugins:
           Working with tables : Mit Tabellen arbeiten
           Working with videos : Arbeiten mit Videos
           Zoom : Zoom
-          Zoom - FAQ : Zoom - FAQ
           Zoom integration : Zoom-Integration
           ... create a bulk assessment for submission tasks : ... eine Massenbewertung für Einsendeaufgaben erstellen
           ... customize the course design with CSS (Expert) : ... Kursdesign mittels CSS manipulieren (Expert)
