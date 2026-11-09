@@ -107,7 +107,7 @@ a) Wählen Sie im Kurseditor den Kursbaustein und dort den Tab "Umfrage".<br>
 b) Klicken Sie auf den Button "Wählen, erstellen oder importieren".<br>
 Es wird Ihnen eine Liste bereits vorhandener Lernressourcen angezeigt, bei denen Sie Besitzer:in sind.<br>
 Sie können dort eine auswählen oder mit dem Button über der Liste eine neue Formular-Lernressource erstellen.<br>
-So gelangen Sie in den Editor des Formulars und können dort die Fragen erstellen.<br>
+So gelangen Sie in den Formulareditor und erstellen dort die Fragen.<br>
 Sobald die Lernressource gespeichert ist, wird auch sie im Autorenbereich angezeigt.
 
 !!! tip "Tipp"
@@ -187,7 +187,7 @@ Damit die Umfrage tatsächlich als **Abschluss** wirkt, möchten Sie vielleicht,
 In herkömmlichen Kursen legen Sie über die Tabs "Sichtbarkeit" und "Zugang" fest, wer den Kursbaustein "Umfrage" wann sehen bzw. bearbeiten darf. Über datumsabhängige Regeln kann die Umfrage z.B. erst gegen Kursende sichtbar oder zugänglich gemacht werden.
 
 Die Vorgehensweise zur Einstellung der Sichtbarkeit im herkömmlichen Kurs ist folgende:<br>
-Auf dem Umfrage-Baustein muss im Tab Sichtbarkeit eine Regel hinterlegt sein, um festzulegen, wann der Baustein sichtbar sein soll. Dies ist im einfachen Konfigurationsmodus nur mit absoluten Daten machbar. Um mit relativen Daten zu arbeiten, muss in den Expertenmodus gewechselt werden. Damit kann gesteuert werden, dass die Umfrage z.B. erst bei Kursende z.B. für eine Woche angezeigt wird.
+Auf dem Umfrage-Baustein muss im Tab Sichtbarkeit eine Regel hinterlegt sein, um festzulegen, wann der Baustein sichtbar sein soll. Dies ist im einfachen Konfigurationsmodus nur mit absoluten Daten machbar. Um mit relativen Daten zu arbeiten, muss in den Expertenmodus gewechselt werden. Damit erscheint die Umfrage zum Beispiel erst bei Kursende und nur für eine Woche.
 
 1. Expertenmodus öffnen
 
@@ -215,7 +215,7 @@ Die Anzahl Tage kann nach Wunsch angepasst werden.
 
 !!! info "Anonym oder personalisiert?"
 
-    Die Resultate werden im Kursbaustein "Umfrage" standardmässig **anonymisiert** gespeichert. Eine personalisierte Auswertung ist möglich, indem im Formular-Editor das Element **"Angaben zur befragten Person"** hinzugefügt wird. Dadurch wird die Anonymität aufgehoben.
+    Der Kursbaustein "Umfrage" speichert die Resultate standardmässig anonymisiert. Für eine personalisierte Auswertung fügen Sie im Formulareditor das Element "[Angaben zur befragten Person](../../manual_user/learningresources/Form_Elements/index.de.md#form_element_info)" hinzu. Damit ist die Umfrage nicht mehr anonym.
 
 [Zum Seitenanfang ^](#survey)
 
@@ -323,13 +323,13 @@ Ein Zurücksetzen **einzelner** Formulare ist im Kursbaustein "Umfrage" **nicht*
 
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
-[Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)
+[Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
+[Formular-Elemente >](../../manual_user/learningresources/Form_Elements/index.de.md)
 
 **Weiterführend**<br>
 [Kursbaustein "Umfrage" >](../../manual_user/learningresources/Course_Element_Survey.de.md)<br>
 [Kursbaustein "Formular" >](../../manual_user/learningresources/Course_Element_Form.de.md)<br>
 [Der Formulareditor >](../../manual_user/learningresources/Form_Editor/index.de.md)<br>
-[Formular-Elemente >](../../manual_user/learningresources/Form_Elements/index.de.md)<br>
 [Fragebogen Statistiken >](../../manual_user/learningresources/Statistics_Survey.de.md)<br>
 [Formulare - Übersicht >](../../manual_user/learningresources/Form/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../../manual_user/learningresources/Access_configuration.de.md)<br>

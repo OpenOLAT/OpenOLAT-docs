@@ -1,42 +1,51 @@
-# Frageregeln in Formularen
+# Frageregeln in Formularen {: #form_question_rules}
 
-Mit Frageregeln kann die Anzeige von Layout-Bereichen in Abhängigkeit von bestimmten Antworten der Einzel- oder Mehrfachauswahl (Bedingungsfeld) gesetzt werden. So wird ein Layout-Container mit den jeweiligen Elementen nur dann angezeigt, wenn Nutzende eine bestimmte vorgegebene Antwort ausgewählt haben.
+Mit Frageregeln zeigt ein Formular einen Bereich nur dann an, wenn er zur Antwort passt: Ein Container mit seinen Elementen erscheint erst, wenn die Person in einer Einzel- oder Mehrfachauswahl eine bestimmte Antwort gewählt hat.
 
-Einem Formular können mehrere Regeln hinzugefügt werden. Dadurch können unterschiedliche Fragestränge erstellt werden.
+Mit mehreren Regeln bilden Sie in einem Formular unterschiedliche Fragestränge.
 
-## Erstellung einer Regel
+## Erstellung einer Regel [:octicons-tag-16:{ title="ab Release 15.5 (OO-5384)" }](https://track.frentix.com/issue/OO-5384)
 
-Überlegen Sie sich zunächst, welche Bereiche Sie bei welcher Auswahl anzeigen wollen und setzen diese dann mit Hilfe der Frageregeln für das Formular um.
+Legen Sie zuerst fest, welche Bereiche bei welcher Antwort erscheinen sollen. Danach setzen Sie das mit Frageregeln um.
 
 ### Voraussetzungen
-Um eine Frageregel zu erstellen, müssen folgende Bedingungen erfüllt sein:
+Für eine Frageregel braucht das Formular:
 
-* Mehrfachauswahl oder Einzelauswahl mit mind. 1 Antwort
-* Ein Container-Layout, das einen anderen Fragebaustein oder Inhalt besitzt und nicht die oben genannten Fragebausteine.
+* eine Mehrfachauswahl oder Einzelauswahl mit mindestens einer Antwort
+* einen Container mit Inhalt, der nicht die Einzel- oder Mehrfachauswahl der Bedingung enthält
 
-Falls die Bedingungen nicht erfüllt sind, erfolgt eine Warnung und Sie können keine Regeln erstellen.
+Fehlt eine Voraussetzung, zeigt OpenOlat im Dialog "Frageregeln" eine Warnung, und Sie können keine Regel erstellen.
 
 ### Passende Namen vergeben
 
-Wichtig, um den Überblick zu behalten, sollten Sie unbedingt für alle Layout- und Inhaltselemente, die Sie für die Frageregeln benötigen, sinnvolle Bezeichnungen vergeben. Dies erfolgt über den Inspektor, den Sie jeweils über das Zahnrad-Symbol aufrufen können, wenn er nicht bereits sichtbar ist.
+In einer Frageregel wählen Sie Container und Auswahl-Elemente über ihren Namen aus. Geben Sie deshalb jedem Container und jeder Einzel- oder Mehrfachauswahl, die Sie für eine Regel brauchen, einen sprechenden Namen. Den Namen tragen Sie im Inspektor ein, den das Zahnrad-Symbol des Elements öffnet.
 
-Hier tragen Sie den Namen für ein Container-Layout-Element ein:
+Hier tragen Sie den Namen für einen Container ein:
 
-![Name eines Layout-Elements im Tab "Name" des über das Zahnrad-Symbol geöffneten Inspektors eintragen, hier "Sorten"](assets/Formular_Conatiner_Name1.jpg){ class="shadow lightbox" }
+![Das Zahnrad-Symbol des Containers öffnet den Inspektor, im Tab "Name" steht der Name des Containers, hier "Sorten"](assets/form_question_rules_container_name_v1_de.png){ class="shadow lightbox" title="Inspektor eines Containers im Formulareditor · 2026.11.09" }
 
-So tragen Sie den Namen für ein Einzel- oder Mehrfachauswahl-Element ein:
+So tragen Sie den Namen für eine Einzel- oder Mehrfachauswahl ein:
 
-![Name eines Mehrfachauswahl-Elements im Tab "Allgemein" des über das Zahnrad-Symbol geöffneten Inspektors eintragen, hier "Obst"](assets/Formular_Name1.jpg){ class="shadow lightbox" }
+![Das Zahnrad-Symbol der Mehrfachauswahl öffnet den Inspektor, im Tab "Allgemein" steht im Feld "Name" der Name des Elements, hier "Obst"](assets/form_question_rules_multiple_choice_name_v1_de.png){ class="shadow lightbox" title="Inspektor einer Mehrfachauswahl im Formulareditor · 2026.11.09" }
 
 ### Frageregeln im Menü hinterlegen
-Die Frageregeln können oben, rechts neben dem Administrationsmenü, aufgerufen werden.
+Die Frageregeln öffnen Sie im Formulareditor über das Symbol "Frageregeln" rechts neben dem Menü "Administration":<br>
+`Formular > Administration > Formulareditor > Frageregeln`
 
-![Symbol "Frageregeln" markiert, rechts neben "Administration" oben im Formular-Editor](assets/Fragebogen-icon.png){ class="shadow lightbox" }
+![Symbol "Frageregeln" markiert, rechts neben dem Menü "Administration"](assets/form_question_rules_header_v1_de.png){ class="shadow lightbox" title="Kopfzeile des Formulareditors · 2026.11.10" }
 
-Ein neues Popup-Fenster erscheint, in dem Frageregeln erstellt und angezeigt werden können.
+Es öffnet sich der Dialog "Frageregeln". Dort erstellen Sie mit "Regel hinzufügen" neue Regeln und sehen alle bestehenden Regeln.
 
-![Leerer Zustand des Dialogs Frageregeln vor der ersten Regel, mit Button "Regel hinzufügen"](assets/image2021-5-6_8-50-14.png){ class="shadow lightbox" }
+![Dialog Frageregeln vor der ersten Regel mit dem Tipp, Regeln nach dem Fertigstellen des Formulars zu definieren, und dem Button "Regel hinzufügen"](assets/form_question_rules_empty_v1_de.png){ class="shadow lightbox" title="Dialog Frageregeln ohne Regel · 2026.11.09" }
 
-Eine Frageregel besteht immer aus einer Bedingung mit verschiedenen Optionen und einer zugeordneten Aktion, die angezeigt wird. Die Bedingung ist eine Mehrfachauswahl oder Einzelauswahl mit den konkreten Antwortmöglichkeiten. Für jede Antwortmöglichkeit kann dann ein Layout-Container ausgewählt werden, der z.B. konkrete Informationen oder weitere Fragen enthält. Speichern nicht vergessen.
+Eine Frageregel besteht aus einer Bedingung und einer Aktion. Die Bedingung ist eine Antwort einer Einzel- oder Mehrfachauswahl. Die Aktion zeigt einen Container, zum Beispiel mit weiteren Informationen oder Fragen. Zum Schluss klicken Sie auf "Speichern".
 
-![Drei Frageregeln, je mit Bedingung wie "MC Obst ist Kiwi" links und zugeordneter Aktion wie "zeige Container 2 mit Textelement" rechts](assets/Frageregeln_Beispiel.png){ class="shadow lightbox" }
+![Drei Frageregeln, je mit Bedingung wie "MC Obst ist Kiwi" links und zugeordneter Aktion wie "zeige Container 2 mit Textelement" rechts](assets/Frageregeln_Beispiel.png){ class="shadow lightbox" title="Dialog Frageregeln mit drei Regeln" }
+
+## Weiterführende Informationen {: #further_information}
+
+[Der Formulareditor](Form_Editor/index.de.md)<br>
+[Formular-Elemente](Form_Elements/index.de.md)<br>
+[Formulare - Übersicht](Form/index.de.md)
+
+[Zum Seitenanfang ^](#form_question_rules)

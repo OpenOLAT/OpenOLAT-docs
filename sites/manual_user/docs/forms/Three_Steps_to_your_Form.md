@@ -22,7 +22,7 @@ Here you will learn how to create a form for different purposes, set it up and i
 2. The new form already contains a layout with one column. If you need further areas, select "Add a new layout" and one of the displayed basic structures. The form is divided into the correspondingly marked areas, into which you can insert various content in the next step. [:octicons-tag-16:{ title="from Release 20.2 (OO-9019)" }](https://track.frentix.com/issue/OO-9019)
 3. Choose "Add content" and select the desired element. It is best to start with a "Title" and add a short introductory text with the "Text" element to inform the users accordingly.
 
-    To add the next element select "Add content" again. Alternatively, you can also click on the 3-dot option for an added content element and then choose to add before or after it. You will see the selection of all elements again.
+    To add the next element select "Add content" again. Alternatively, you can also click on the 3-dot option for an added content element and then choose "Add before" or "Add after". You will see the selection of all elements again.
 
 4. Next, select the desired question types and any organizational elements. Save your settings in each case, if selectable.
 

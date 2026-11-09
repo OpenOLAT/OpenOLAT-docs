@@ -22,7 +22,7 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 2. Das neue Formular enthält bereits ein Layout mit einer Spalte. Brauchen Sie weitere Bereiche, wählen Sie "Neues Layout einfügen" und eine der angezeigten Grundstrukturen. Das Formular wird in die entsprechend gekennzeichneten Bereiche aufgeteilt, in die Sie im nächsten Schritt verschiedene Inhalte einfügen können. [:octicons-tag-16:{ title="ab Release 20.2 (OO-9019)" }](https://track.frentix.com/issue/OO-9019)
 3. "Inhalt hinzufügen" wählen und das gewünschte Element auswählen. Starten Sie am besten mit einem "Titel" und fügen Sie mit dem Element "Text" einen kurzen Einstiegstext hinzu, um die Benutzer:innen entsprechend zu informieren.
 
-    Um das nächste Element hinzuzufügen klicken Sie auf "Inhalt hinzufügen". Alternativ können sie auch bei einem hinzugefügten Inhalt auf die 3-Punkte Option klicken und dann davor oder danach hinzufügen wählen. Sie sehen wieder die Auswahl aller Elemente. 
+    Um das nächste Element hinzuzufügen klicken Sie auf "Inhalt hinzufügen". Alternativ können Sie auch bei einem hinzugefügten Inhalt auf die 3-Punkte Option klicken und dann "Davor hinzufügen" oder "Danach hinzufügen" wählen. Sie sehen wieder die Auswahl aller Elemente. 
 
 4. Wählen Sie anschliessend die gewünschten Fragetypen und eventuell organisatorische Elemente aus. Speichern Sie jeweils, sofern auswählbar, Ihre Einstellungen.
 

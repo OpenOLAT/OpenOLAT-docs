@@ -1,42 +1,51 @@
-# Question rules in forms
+# Question rules in forms {: #form_question_rules}
 
-Question rules can be used to set the display of layout areas depending on certain answers to the single or multiple choice (condition field). For example, a layout container with the respective elements is only displayed if users have selected a certain predefined answer.
+With question rules, a form shows an area only if it matches the answer: a container with its elements appears only once the person has selected a certain answer in a single or multiple choice.
 
-Several rules can be added to a form. This allows different question strands to be created.
+With several rules, you build different question strands in a form.
 
-## Creation of a rule
+## Creation of a rule [:octicons-tag-16:{ title="from Release 15.5 (OO-5384)" }](https://track.frentix.com/issue/OO-5384)
 
-First think about which areas you want to display for which selection and then implement these using the question rules for the form.
+First decide which areas are to appear for which answer. Then implement this with question rules.
 
 ### Requirements
-To create a question rule, these conditions must have been met:
+For a question rule, the form needs:
 
-* Multiple selection or single selection with at least 1 answer.
-* A container that has a different question module or content and not the question modules mentioned above.
+* a multiple choice or single choice with at least one answer
+* a container with content that does not contain the single or multiple choice of the condition
 
-If the conditions are not met, a warning will be issued and you will not be able to create rules.
+If a requirement is missing, OpenOlat shows a warning in the "Question rules" dialog, and you cannot create a rule.
 
 ### Assign suitable names
 
-To maintain an overview, it is important that you assign meaningful names to all layout and content elements that you need for the question rules. This is done via the inspector, which you can call up via the cogwheel symbol if it is not already visible.
+In a question rule, you select containers and choice elements by their name. Therefore, give every container and every single or multiple choice that you need for a rule a meaningful name. You enter the name in the inspector, which the cogwheel symbol of the element opens.
 
-Enter the name for a container layout element here:
+Enter the name for a container here:
 
-![Name of a layout element entered in the "Name" tab of the inspector opened via the cogwheel symbol, here "Sorten"](assets/Formular_Conatiner_Name1.jpg){ class="shadow lightbox" }
+![The cogwheel symbol of the container opens the inspector, the "Name" tab shows the name of the container, here "Sorten"](assets/form_question_rules_container_name_v1_en.png){ class="shadow lightbox" title="Inspector of a container in the form editor · 2026.11.09" }
 
-To enter the name for a single or multiple selection element:
+To enter the name for a single or multiple choice:
 
-![Name of a multiple selection element entered in the "General" tab of the inspector opened via the cogwheel symbol, here "Obst"](assets/Formular_Name1.jpg){ class="shadow lightbox" }
+![The cogwheel symbol of the multiple choice opens the inspector, in the "General" tab the field "Name" shows the name of the element, here "Obst"](assets/form_question_rules_multiple_choice_name_v1_en.png){ class="shadow lightbox" title="Inspector of a multiple choice in the form editor · 2026.11.09" }
 
 ### Store question rules in the menu
-The question rules can be accessed at the top, to the right of the administration menu.
+You open the question rules in the form editor via the "Question rules" symbol to the right of the "Administration" menu:<br>
+`Form > Administration > Form editor > Question rules`
 
-![Question rules symbol marked, to the right of Administration at the top of the form editor](assets/Fragebogen-icon.png){ class="shadow lightbox" }
+![Question rules symbol marked, to the right of the Administration menu](assets/form_question_rules_header_v1_en.png){ class="shadow lightbox" title="Header of the form editor · 2026.11.10" }
 
-A new pop-up window appears in which question rules can be created and displayed.
+The "Question rules" dialog opens. There, you create new rules with "Add rule" and see all existing rules.
 
-![Empty state of the question rules dialog before the first rule, with an "Add rule" button](assets/image2021-5-6_8-50-14.png){ class="shadow lightbox" }
+![Question rules dialog before the first rule with the tip to define rules after the form is designed, and the button "Add rule"](assets/form_question_rules_empty_v1_en.png){ class="shadow lightbox" title="Question rules dialog without a rule · 2026.11.09" }
 
-A question rule always consists of a condition with various options and an assigned action that is displayed. The condition is a multiple selection or single selection with the specific answer options. A layout container can then be selected for each answer option, e.g. containing specific information or further questions. Don't forget to save.
+A question rule consists of a condition and an action. The condition is an answer of a single or multiple choice. The action shows a container, for example with further information or questions. Finally, click "Save".
 
- ![Three question rules, each with a condition such as "MC Obst is Kiwi" on the left and an assigned action such as "show Container 2 with text element" on the right](assets/Frageregeln_Beispiel.png){ class="shadow lightbox" }
+![Three question rules, each with a condition such as "Obst is Zitrone" on the left and an assigned action such as "show Rückmeldung" on the right](assets/form_question_rules_example_v1_en.png){ class="shadow lightbox" title="Question rules dialog with three rules · 2026.11.10" }
+
+## Further information {: #further_information}
+
+[The form editor](Form_Editor/index.md)<br>
+[Form elements](Form_Elements/index.md)<br>
+[Forms - Overview](Form/index.md)
+
+[To the top of the page ^](#form_question_rules)

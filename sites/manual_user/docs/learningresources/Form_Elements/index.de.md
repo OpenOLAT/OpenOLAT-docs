@@ -1,192 +1,190 @@
 # Formular-Elemente {: #form_elements} 
 
-In ein Formular können Sie über den Link "Inhalt hinzufügen" die folgenden Inhaltselemente  einem Layout hinzufügen:
+Ein Formular bauen Sie im [Formulareditor](../Form_Editor/index.de.md) aus Elementen auf. Über "Inhalt hinzufügen" fügen Sie einem Layout die folgenden Elemente hinzu:
 
-![Popup "Inhalt hinzufügen" mit den Inhaltselementen des Formular-Editors, gruppiert nach Text, Fragetypen, Organisatorisch, Medien sowie Andere und Design](../assets/form_content_types_v1_de.png){ class="shadow lightbox" title="Popup Inhalt hinzufügen in einem Formular" }
+![Inhaltselemente des Formulareditors, gruppiert nach Text, Fragetypen, Organisatorisch, Medien sowie Andere und Design](../assets/form_content_types_v1_de.png){ class="shadow lightbox" title="Popup Inhalt hinzufügen in einem Formular" }
 
-Generell können alle Elemente aus dem Bereich "Fragetypen" als obligatorisch oder freiwillig konfiguriert werden. Obligatorisch bedeutet, dass die Teilnehmenden dieses Element zwingend ausfüllen müssen um das Formular final speichern zu können. Bei "freiwillig" kann das Formular auch gespeichert werden, wenn das Element nicht ausgefüllt wurde. 
+Die Elemente der Gruppe "Fragetypen" stellen Sie auf "Obligatorisch" oder "Freiwillig". Ein obligatorisches Element füllen die Teilnehmenden aus, bevor sie das Formular abschliessen. Ein freiwilliges Element darf leer bleiben.
 
-Ferner können viele Elemente im Tab "Style" mit einer speziellen *Hinweisbox* versehen werden (siehe unten) und auch die Grösse des Abstandes zwischen einzelnen Elementen im Tab "Layout" definiert werden. 
+Viele Elemente stellen Sie im Tab "Stil" in eine [Hinweis-Box](#form_element_alert_box). Im Tab "Layout" legen Sie den Abstand zu den übrigen Elementen fest.
 
 ---
 
 ## Titel {: #form_element_title} 
 
-Das Inhaltselement "Titel" verwenden Sie für Überschriften. Sie können für die Schriftgrösse vordefinierte Formatierungen von h1 bis h6 auswählen.
+Mit dem Element "Titel" gliedern Sie das Formular mit Überschriften. Die Grösse wählen Sie in den Stufen h1 bis h6.
 
-![Inspektor des Titel-Elements im Formular-Editor mit dem Tab "Style" und der Auswahl der Schriftgrösse](../assets/form_content_title_v1_de.png){ class="shadow lightbox" title="Element Titel mit Inspektor" }
+![Inspektor des Titel-Elements mit dem Tab "Style" und der Auswahl der Schriftgrösse](../assets/form_content_title_v1_de.png){ class="shadow lightbox" title="Element Titel mit Inspektor" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
 ## Text {: #form_element_text} 
 
-Mit dem Textelement können sämtliche Varianten von Texten, z.B. Informationen oder Fragen einem Formular hinzugefügt werden. Ein kleiner Editor ermöglicht verschiedene Formatierungen, das Hinzufügen von Links, Hinzufügen von Aufzählungspunkten, usw...
+Mit dem Element "Text" fügen Sie dem Formular Informationen oder Fragestellungen hinzu. Ein kleiner Editor formatiert den Text und fügt Links und Aufzählungen ein.
 
 ![Text-Element mit Editor-Symbolleiste im Formular sowie dem Inspektor mit Spaltenzahl und Hinweis-Box](../assets/form_content_text_v1_de.png){ class="shadow lightbox" title="Element Text mit Inspektor" }
 
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
 
-## Tabelle {: #form_element_tabelle} 
+## Tabelle [:octicons-tag-16:{ title="ab Release 13.2 (OO-3856)" }](https://track.frentix.com/issue/OO-3856) {: #form_element_tabelle} 
 
-Fügen Sie bei Bedarf dem Formular eine Tabelle hinzu und konfigurieren Sie diese.
+Mit dem Element "Tabelle" stellen Sie Angaben übersichtlich in Zeilen und Spalten dar. Im Inspektor legen Sie unter anderem Zeilen, Spalten, Kopfzeile und Kopfspalte fest.
 
 ![Tabellen-Element im Formular mit dem Inspektor zur Konfiguration von Zeilen, Spalten, Kopfspalte, Kopfzeile und Rahmenstil](../assets/form_content_table_v1_de.png){ class="shadow lightbox" title="Element Tabelle mit Inspektor" }
 
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
 ## Rubrik {: #form_element_rubric}
 
-Ein Rubrik-Element besteht aus einem Gitter mit Zeilen und Spalten. In den Zeilen werden die Bewertungskategorien bzw. Statements aufgeführt während die Spaltenüberschriften die Bewertungsskalen wiedergeben. So können sich mehrere unterschiedliche Statements auf eine Bewertungsskala beziehen. 
-Je nach konkreter Konfiguration können dabei sehr unterschiedliche Rubrik-Varianten entstehen die in Kursen u.a. auch als Bewertungselement für Lehrende oder als [Peer-Reviews](../Course_Element_Task/index.de.md) im Aufgabenbaustein verwendet werden können.
+Mit einer Rubrik bewerten Personen mehrere Kriterien oder Aussagen auf derselben Skala. Die Zeilen tragen die Kriterien oder Aussagen, die Spalten die Stufen der Bewertungsskala. In Kursen dient die Rubrik zum Beispiel Betreuer:innen als Bewertungsraster oder Teilnehmenden für [Peer-Reviews](../Course_Element_Task/index.de.md) im Kursbaustein "Aufgabe".
 
-Mehr Information finden Sie in einer separaten Beschreibung des [Rubrik-Elements](../Form_Element_Rubric.de.md).
+Wie Sie eine Rubrik konfigurieren, beschreibt die Seite [Das Formular-Element Rubrik](../Form_Element_Rubric.de.md).
 
-![Rubrik-Element mit Statements in den Zeilen und einer fünfstufigen Bewertungsskala in den Spalten, im Formular-Editor mit geöffnetem Inspektor](../assets/Rubrik.jpg){ class="shadow lightbox" title="Element Rubrik mit Inspektor" }
+![Rubrik-Element mit Statements in den Zeilen und einer fünfstufigen Bewertungsskala in den Spalten](../assets/Rubrik.jpg){ class="shadow lightbox" title="Element Rubrik mit Inspektor" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
-## Einzelauswahl {: #form_element_sc}
+## Einzelauswahl [:octicons-tag-16:{ title="ab Release 13.0 (OO-3678)" }](https://track.frentix.com/issue/OO-3678) {: #form_element_sc}
 
-In einer Einzelauswahl (Single-Choice) muss von den Teilnehmenden genau 1 Option aus einer Liste ausgewählt werden.
+In einer Einzelauswahl (Single Choice) wählen die Teilnehmenden genau eine Option aus einer Liste.
 
-* Sie können mit dem Button "Eintrag hinzufügen" der Liste weitere Auswahloptionen hinzufügen.
-* Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
-* Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste" dargestellt werden. 
+* Mit dem Button "Eintrag hinzufügen" ergänzen Sie weitere Optionen.
+* Mit den Pfeilen verschieben Sie einen Eintrag nach oben oder unten.
+* Unter "Darstellung" wählen Sie, ob die Optionen "Untereinander", "Nebeneinander" oder als "Auswahlliste" erscheinen.
 
 !!! tip "Tipp"
 
-    Soll die Auswahl mit einer Fragestellung verknüpft werden müssen Sie dafür ein separates Text-Element verwenden. Gleiches gilt für die Mehrfachauswahl.
+    Die Fragestellung zur Auswahl schreiben Sie in ein eigenes Element "Text". Gleiches gilt für die Mehrfachauswahl.
 
-Die Einzelauswahl kann auch als Basis (Bedingung) für die [Frageregeln](../Form_Question_Rules.de.md) verwendet werden. Damit werden bestimmte Container und deren Inhalte in Abhängigkeit der vom User gewählten Antwort angezeigt.
+Die Einzelauswahl kann die Bedingung einer [Frageregel](../Form_Question_Rules.de.md) sein. Je nach gewählter Antwort zeigt das Formular dann bestimmte Container mit ihren Inhalten an.
 
-Vergeben Sie einen sinnvollen Namen (Titel) für das Element, so dass Sie bei den Frageregeln den Überblick behalten.
+Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit Sie es in den Frageregeln wiederfinden.
 
 ![Einzelauswahl-Element mit Antwortliste im Formular sowie dem Inspektor für Name, Darstellung und Pflichtangabe](../assets/form_content_sc_v1_de.png){ class="shadow lightbox" title="Element Einzelauswahl mit Inspektor" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
-## Mehrfachauswahl {: #form_element_mc}
+## Mehrfachauswahl [:octicons-tag-16:{ title="ab Release 13.0 (OO-3679)" }](https://track.frentix.com/issue/OO-3679) {: #form_element_mc}
 
-In einer Mehrfachauswahl (Multiple-Choice) können von den Teilnehmenden mehrere Optionen aus einer Liste ausgewählt werden.
+In einer Mehrfachauswahl (Multiple Choice) wählen die Teilnehmenden eine oder mehrere Optionen aus einer Liste.
 
-* Sie können mit dem Button "Eintrag hinzufügen" der Liste weitere Auswahloptionen hinzufügen.
-* Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
-* Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste" dargestellt werden. 
-* Den Teilnehmenden kann auch gestattet werden, selbst Antwortoptionen hinzuzufügen.
+* Mit dem Button "Eintrag hinzufügen" ergänzen Sie weitere Optionen.
+* Mit den Pfeilen verschieben Sie einen Eintrag nach oben oder unten.
+* Unter "Darstellung" wählen Sie, ob die Optionen "Untereinander", "Nebeneinander" oder als "Auswahlliste" erscheinen.
+* Mit der Option "Teilnehmer:in kann weitere Werte erfassen" ergänzen die Teilnehmenden eigene Antworten.
 
+Die Mehrfachauswahl kann die Bedingung einer [Frageregel](../Form_Question_Rules.de.md) sein. Je nach gewählter Antwort zeigt das Formular dann bestimmte Container mit ihren Inhalten an.
 
-Die Mehrfachauswahl kann auch als Basis (Bedingung) für die [Frageregeln](../Form_Question_Rules.de.md) verwendet werden. Damit werden bestimmte Container und deren Inhalte in Abhängigkeit der vom User gewählten Antwort angezeigt.
-
-Vergeben Sie einen sinnvollen Namen (Titel) für das Element, so dass Sie bei den Frageregeln den Überblick behalten.
-
+Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit Sie es in den Frageregeln wiederfinden.
 
 ![Mehrfachauswahl-Element mit Antwortliste im Formular sowie dem Inspektor für Name, Darstellung und die Option "weitere Werte erfassen"](../assets/form_content_mc_v1_de.png){ class="shadow lightbox" title="Element Mehrfachauswahl mit Inspektor" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
-## Texteingabe {: #form_element_text_input}
+## Textblock {: #form_element_text_input}
 
-Mit diesem Element erhalten die Teilnehmenden die Möglichkeit selbst Text im Formular einzutragen (eine Art Freitext Feld). 
+Im Element "Textblock" tragen die Teilnehmenden eigenen Text in ein Freitextfeld ein.
 
-* Formularersteller:innen können festlegen, welche Eingaben erlaubt sind (Text, nur Zahlen, nur Datum).
-* Das Eingabefeld kann ein- oder mehrzeilig angeboten werden.
+* Unter "Erlaubte Werte" legen Sie fest, ob "Text", eine "Zahl", ein "Datum" oder "Datum / Zeit" eingegeben wird.
+* Unter "Zeilentyp" wählen Sie "Eine Zeile" oder "Mehrere Zeilen".
 
 ![Texteingabe-Element im Formular mit dem Inspektor für erlaubte Werte, Zeilentyp und Anzahl Zeilen](../assets/form_content_text_input_v1_de.png){ class="shadow lightbox" title="Element Texteingabe mit Inspektor" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
-## Datei hochladen {: #form_element_file_upload}
+## Datei hochladen [:octicons-tag-16:{ title="ab Release 12.4 (OO-3181)" }](https://track.frentix.com/issue/OO-3181) {: #form_element_file_upload}
 
-Mit diesem Element erhalten die Lernenden die Möglichkeit, Dateien hochzuladen. 
+Mit dem Element "Datei hochladen" laden die Teilnehmenden eine Datei in das Formular hoch.
 
-* Lehrende können die Dateigrösse begrenzen.
-* Der Upload kann auf bestimmte Dateitypen begrenzt werden (z.B. pdf oder Bild-Dateien).
+* Unter "Maximale Dateigrösse" begrenzen Sie die Grösse der Datei.
+* Unter "Dateityp" erlauben Sie nur bestimmte Dateitypen, zum Beispiel "PDF" oder "Bilder".
 
 ![Datei-hochladen-Element im Formular mit dem Inspektor für maximale Dateigrösse und erlaubten Dateityp](../assets/form_content_file_upload_v1_de.png){ class="shadow lightbox" title="Element Datei hochladen mit Inspektor" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
-## Informationen {: #form_element_info}
+## Angaben zur befragten Person {: #form_element_info}
 
-Mit dem Inhaltselement "Informationen" können weitere benutzerspezifische Informationen abgefragt werden. Als Autor:in bestimmen Sie im Editor durch Ankreuzen der Checkboxen, welche Angaben abgefragt werden.
+Mit dem Element "Angaben zur befragten Person" fragen Sie Angaben zur Person ab, die das Formular ausfüllt, zum Beispiel Vorname, Nachname oder E-Mail. Unter "Informationen" kreuzen Sie die gewünschten Angaben an. Ein Formular enthält das Element höchstens einmal.
 
-Es kann eine der folgenden 3 Varianten ausgewählt werden:
+Unter "Pflicht" wählen Sie eine von drei Varianten:
 
-a) die Angaben sind freiwillig (optional)<br>
-b) die Angaben müssen von den Teilnehmenden verpflichtend ausgefüllt werden (obligatorisch)<br>
-c) die Angaben sind bereits automatisch eingetragen (nicht veränderbar)
+* **Optional - kann leer gelassen werden**: Die Teilnehmenden füllen die Angaben freiwillig aus.
+* **Obligatorisch - bearbeitbar**: Die Teilnehmenden füllen die Angaben zwingend aus.
+* **Obligatorisch - nicht bearbeitbar**: OpenOlat trägt die Angaben aus dem Benutzerprofil ein, die Teilnehmenden können sie nicht ändern.
 
 !!! info "Wichtig"
 
-    Beachten Sie: Durch diese Informationen verliert das Formular seine Anonymität.
+    Mit diesem Element ordnet das Formular die Antworten der befragten Person zu. Das Formular ist damit nicht mehr anonym.
 
 ![Informationen-Element im Formular mit den ankreuzbaren Angaben wie Vorname und E-Mail sowie der Auswahl "Obligatorisch, automatisch ausgefüllt und nicht bearbeitbar"](../assets/form_content_info_v1_de.png){ class="shadow lightbox" title="Element Informationen mit Inspektor" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
-## Nutzungsbedingungen {: #form_element_terms_of_use}
+## Nutzungsbedingungen [:octicons-tag-16:{ title="ab Release 13.0 (OO-3674)" }](https://track.frentix.com/issue/OO-3674) {: #form_element_terms_of_use}
 
-Dieses Element fügt dem Formular eine Einverständniserklärung hinzu, die von den Benutzer:innen abgehakt werden muss. Ansonsten ist nur ein Zwischenspeichern aber keine Abgabe des Formulars möglich.
+Mit dem Element "Nutzungsbedingungen" fügen Sie dem Formular eine Einverständniserklärung mit Checkbox hinzu. Die Teilnehmenden haken sie an, bevor sie das Formular abschliessen. Zwischenspeichern können sie das Formular auch vorher.
 
 ![Nutzungsbedingungen-Element im Formular mit Einverständniserklärung und Beschriftung der Checkbox](../assets/form_content_terms_of_use_v1_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen in einem Formular" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
-## Bild {: #form_element_picture}
+## Bild [:octicons-tag-16:{ title="ab Release 13.2 (OO-3857)" }](https://track.frentix.com/issue/OO-3857) {: #form_element_picture}
 
-Wenn Sie nach Klick auf "Inhalte einfügen" im Popup mit der Übersicht der Inhaltselemente "Bild" auswählen, werden Sie zunächst aufgefordert eine Bild-Datei hochzuladen. Erst nach dem Upload gelangen Sie wieder in den Editor und es werden das Bild-Element und der Inspektor angezeigt.
+Mit dem Element "Bild" zeigen Sie im Formular ein Bild. Wählen Sie unter "Inhalt hinzufügen" das Element "Bild", fordert OpenOlat Sie zuerst auf, eine Bilddatei hochzuladen. Danach zeigt der Formulareditor das Bild mit dem Inspektor.
 
 ![Bild-Element im Formular mit hochgeladenem Bild sowie dem Inspektor für Ausrichtung, Bildgrösse und Stil im Tab "Stil"](../assets/form_content_picture_v1_de.png){ class="shadow lightbox" title="Element Bild mit Inspektor" }
 
 
-Im Inspektor finden Sie die Optionen zur Darstellung des Bildes:
+Im Inspektor legen Sie fest, wie das Bild erscheint:
 
 **Tab "Stil"**
 
-* Die **Ausrichtung** des Bildes innerhalb des Layoutbereichs
-* Verschiedene Skalierungsvarianten der **Bildgrösse** 
-* Verschiedene **Stile** (z.B. mit Rahmen, mit Schatten. u.a.)
-* Optionen zur Darstellung als **Hinweisbox** 
+* **Ausrichtung**: Lage des Bildes im Layoutbereich
+* **Bildgrösse**: Skalierung des Bildes
+* **Stil**: Darstellung, zum Beispiel mit Rahmen oder Schatten
+* **Hinweis-Box**: Darstellung in einer [Hinweis-Box](#form_element_alert_box)
 
 **Tab "Titel"**
 
-* Ein Eingabefeld für einen **Titel** zum Bild
-* Eine Angabe, **wo** der Titel angezeigt werden soll (über dem Bild, zentriert auf dem Bild, usw.)
-* Wahl eines **Titelstils** ("hell" für dunkle Bilder, "dunkel" für hellere Bilder)
+* **Titel**: Titel zum Bild
+* **Wo**: Position des Titels, zum Beispiel über dem Bild oder auf dem Bild in der Mitte
+* **Titelstil**: "Hell" für dunkle Bilder, "Dunkel" für helle Bilder
 
 **Tab "Anzeige"**
 
-* Eine **Beschreibung** zum Bild, die durch Klick auf ein kleines Fragezeichensymbol abgerufen werden kann
-* Eine **Bildunterschrift** (in kleinerer Schriftgrösse unterhalb des Bildes dargestellt)
+* **Beschreibung**: Text zum Bild, den die Teilnehmenden über ein kleines Fragezeichensymbol öffnen
+* **Bildunterschrift**: Text in kleinerer Schrift unter dem Bild
 
 **Tab "Layout"**
-* Möglichkeit den Abstand des Bildes zu konfigurieren
+
+* **Abstand**: Abstand des Bildes zu den übrigen Elementen
 
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 ---
 
@@ -197,21 +195,20 @@ Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche
 
 ![Separator als Trennlinie zwischen zwei Text-Elementen im Formular](../assets/form_content_separator_v1_de.png){ class="shadow lightbox" title="Element Separator in einem Formular" }
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 
 
-## Hinweis-Box 
+## Hinweis-Box [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138) {: #form_element_alert_box}
 
-Kein Inhaltselement aber eine interessante Funktion, die für viele Inhaltselemente wie Text, Tabelle, Bild, Rubrik, Nutzungsbedingungen usw. zur Verfügung steht ist die Hinweis-Box. Sie wird im Tab "Style" aktiviert und hilft ein Element besonders hervorzuheben.  
+Mit der Hinweis-Box heben Sie ein Element hervor, zum Beispiel einen wichtigen Text oder eine Rubrik. Die Hinweis-Box ist kein eigenes Element, sondern eine Einstellung im Tab "Stil" vieler Elemente wie Text, Tabelle, Bild, Rubrik und Nutzungsbedingungen.
 
 ![Hinweis-Box um ein Text-Element aktiviert, mit dem Inspektor für Typ, Titel, Icon und Farbe der Box](../assets/form_content_text_box_v1_de.png){ class="shadow lightbox" title="Hinweis-Box mit Inspektor" }
 
-Es werden die nachfolgenden Optionen zur Konfiguration angeboten.
+Ist der Schalter "Hinweis-Box" eingeschaltet, legen Sie die folgenden Einstellungen fest.
 
-**Typ**<br>
-Mit dem Typ wird angegeben, welche vorformatierte Version der Box verwendet wird, bzw. ob sie benutzerdefiniert gestaltet wird.
+#### Typ {: #alert_box_type}
 
-Es stehen folgende Typen zur Auswahl:
+Der Typ bestimmt, welche vorformatierte Box erscheint oder ob Sie die Box selbst gestalten. Zur Auswahl stehen:
 
 * Notiz
 * Information
@@ -220,16 +217,19 @@ Es stehen folgende Typen zur Auswahl:
 * Warnung
 * Fehler
 * Erfolg
-* Benutzerdefiniert (Hier können Sie selbst ein Icon wählen und die Hintergrundfarbe der Box auswählen.)
+* Benutzerdefiniert: Sie wählen selbst ein Icon und die Hintergrundfarbe der Box.
 
-**Titel**<br>
-Der Titel, den sie hier angeben, erscheint im Head der Hinweisbox.
+#### Titel {: #alert_box_title}
 
-**Mit Icon**<br>
-Wählen Sie diese Option, wird in der linken oberen Ecke der Hinweisbox ein Icon angezeigt, z.B. eine "i" wenn als Typ "Information" gewählt wird.
+Der Titel erscheint in der Kopfzeile der Hinweis-Box.
 
-**Einklappbar**<br>
-Wahlen Sie diese Option, kann die ganze Box in der Teilnehmeransicht durch Klick auf das Symbol in der rechten oberen Ecke eingeklappt werden (nur die Titelzeile wird angezeigt). Mit erneutem Klick auf das Symbol wird die Box wieder in Normalgrösse angezeigt.
+#### Mit Icon {: #alert_box_icon}
+
+Ist die Option eingeschaltet, zeigt die Hinweis-Box oben links ein Icon, zum Beispiel ein "i" beim Typ "Information".
+
+#### Einklappbar {: #alert_box_collapsible}
+
+Ist die Option eingeschaltet, klappen die Teilnehmenden die Box mit dem Symbol oben rechts ein. Dann ist nur noch die Titelzeile sichtbar. Ein weiterer Klick auf das Symbol öffnet die Box wieder.
 
 
 ---
@@ -237,9 +237,9 @@ Wahlen Sie diese Option, kann die ganze Box in der Teilnehmeransicht durch Klick
 ## Weiterführende Informationen {: #further_information}
 
 [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md)<br>
-[Der Formular-Editor](../Form_Editor/index.de.md)<br>
+[Der Formulareditor](../Form_Editor/index.de.md)<br>
 [Das Formular-Element Rubrik](../Form_Element_Rubric.de.md)<br>
-[Einrichtung von Frageregeln im Formular](../Form_Question_Rules.de.md)<br>
+[Frageregeln in Formularen](../Form_Question_Rules.de.md)
 
-[zum Seitenanfang ^](#form_elements)
+[Zum Seitenanfang ^](#form_elements)
 

@@ -1,6 +1,6 @@
 # Forms - Overview
 
-Forms can be used in many different ways in OpenOlat:
+With a form, you collect information, opinions and ratings in OpenOlat, for example:
 
 * as classic forms (with selection fields or free text entries)
 * for online surveys
@@ -8,8 +8,7 @@ Forms can be used in many different ways in OpenOlat:
 * for self-assessment
 * or when booking offers in the Course Planner [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
 
-Which variant makes sense depends on your objectives and the use case.
-Here you will find information on how forms are created and configured for the purposes mentioned.
+The following pages show how you create and configure a form for each purpose.
 
 [General information on forms >](../Forms_General_Information.md)<br>
 [How do I create a form learning resource? >](../../../manual_how-to/create_a_form/create_a_form.md)
@@ -29,4 +28,10 @@ Here you will find information on how forms are created and configured for the p
 
 !!! info "Important"
 
-    There is a form **learning resource** and a form **course element**. Please distinguish between the two. The concept behind this is explained in the guide [How do I create a form learning resource?](../../../manual_how-to/create_a_form/create_a_form.md).
+    There is a learning resource "Form" and a course element "Form". The learning resource contains the form itself, the course element includes it in a course. The concept behind this is explained in the guide [How do I create a form learning resource?](../../../manual_how-to/create_a_form/create_a_form.md).
+
+## Profile
+
+Name | Form
+---------|----------
+Available since | Release 11.2 (OO-2329)

@@ -19,7 +19,7 @@ An OpenOlat course is composed of course elements. Most course elements are cont
 ![Course with three course elements, the course element of type form contains the form learning resource](assets/graphic_course_learning_resource_form_v1_en.png){ width=300px class="lightbox" title="Course element and learning resource" }
 
 **Attention!**<br>
-There is a form **learning resource** and a form **course element**. These two are to be kept apart. A form learning resource can be used in different places in OpenOlat (see next section).
+There is a learning resource "Form" and a course element "Form". The learning resource contains the form itself, the course element includes it in a course. A form learning resource can be used in different places in OpenOlat (see next section).
 
 This tutorial describes how to create the form **learning resource**.
 There are further instructions for using the learning resource in different course elements.
@@ -59,10 +59,10 @@ e) Form learning resource **stand-alone**
 Various question types are available in forms:
 
 * Rubric 
-* Single selection
-* Multiple selection
-* Text input
-* File upload 
+* Single choice
+* Multiple choice
+* Text block
+* Upload file
 
 Depending on the objective, forms can be designed quite differently with it. Here is an example in the participant view:
 
@@ -96,7 +96,7 @@ If coaches click on exactly the same course element with form in the course, the
 
     You can find the icon for creating the rules in the header of the form editor.
 
-    ![Link Question rules in the toolbar next to the Administration menu](assets/form_question_rules1_v1_en.png){ class="shadow lightbox" title="Header of the form editor" }
+    ![Question rules symbol in the header of the form editor, to the right of the Administration menu](assets/form_question_rules1_v2_en.png){ class="shadow lightbox" title="Header of the form editor · 2026.11.10" }
 
 
 [To the top of the page ^](#create_form)
@@ -105,13 +105,13 @@ If coaches click on exactly the same course element with form in the course, the
 
 ## 5. Create/edit forms  {: #step5}
 
-A **special editor** is available for creating form learning resources. It can be called from different places:
+You design a form learning resource in the form editor. You open it from different places:
 
 <h3>a) Authoring > create new form</h3>
 
 You can create a form learning resource directly in the authoring area. Subsequently, you can access this prepared form learning resource when editing a course and include it in a course element.
 
-![Create menu with the entry Form highlighted](assets/form_learning_resource_new_v1_en.png){ class="shadow lightbox" title="Authoring area" } 
+![Create menu in the authoring area with the entry Form highlighted, to the left the button Import file](assets/form_learning_resource_new_v2_en.png){ class="shadow lightbox" title="Authoring area · 2026.11.10" } 
 
 <br>
 
@@ -125,29 +125,29 @@ To edit, click on the title and then open `Administration > Form editor`. Altern
 
 <br>
 
-<h3>c) Course editor > course element > tab for learning content (e.g. tab "Survey") > button "Choose, create or import" </h3>
+<h3>c) Course editor > course element > tab for learning content (e.g. tab "Survey") > buttons "Select", "Create" and "Import" </h3>
 
-If you have inserted a course element in the course editor (e.g. the course element "Survey"), then a learning resource must be inserted there under the tab "Survey". If no form learning resource is prepared, a new form learning resource can also be created directly here.
+If you have inserted a course element in the course editor (e.g. the course element "Survey"), then a learning resource must be inserted there under the tab "Survey". With "Select" you choose an existing form learning resource, with "Import" you import one. If no form learning resource is prepared, you create a new one directly here with "Create".
 
-![Tab Survey without a selected form, with the button Choose, create or import](assets/course_editor_survey_without_form_v1_en.png){ class="shadow lightbox" title="Course element Survey without form" } 
+![Tab Survey without a selected form, with the buttons Select, Create and Import](assets/course_editor_survey_without_form_v2_en.png){ class="shadow lightbox" title="Course element Survey without form · 2026.11.10" } 
 
 <br>
 
-<h3>d) Course editor > course element > tab for learning content > button "Edit"</h3>
+<h3>d) Course editor > course element > tab for learning content > button "Edit learning resource"</h3>
 
-If a form learning resource is already included in the course element, the editor for form editing can also be opened from the course editor.
+If a form learning resource is already included in the course element, you also open the form editor in the course editor, with the button "Edit learning resource".
 
-![Tab Survey with an embedded form and the buttons Replace and Edit](assets/course_editor_survey_form_edit_v1_en.png){ class="shadow lightbox" title="Course element Survey with form" } 
+![Tab Survey with an embedded form, the button Edit learning resource opens the form editor](assets/course_editor_survey_form_edit_v2_en.png){ class="shadow lightbox" title="Course element Survey with form · 2026.11.10" } 
 
 
 !!! tip "Tip"
 
-    Since the learning resource form can be used in many different ways, it makes sense to consider the later use already when assigning the title, e.g. to prefix it with a suitable abbreviation. This makes it easier to find and assign the learning resource later.
+    Since the learning resource form can be used in many different ways, it makes sense to consider the later use already in the title, for example with a suitable abbreviation at the beginning. This makes it easier to find and assign the learning resource later.
 
 !!! tip "Tip"
 
     When you create a brand new form learning resource, you will be taken to the settings screen after the title entry prompt.
-    Here you can optionally make settings right away, e.g. store a license. However, you can also access it again at any time later. For more information, see [8. Configure forms](#step8).
+    Here you can set settings right away, for example store a license. However, you can also access it again at any time later. For more information, see [8. Configure forms](#step8).
 
 !!! info "Important"
 
@@ -164,30 +164,30 @@ Once you have opened the form editor via `Administration > Form editor`, you see
 A layout here means a **grid**. You can insert several such layouts one after the other.
 
 ![New form in the form editor with the default one-column layout, the entry Form editor in the breadcrumb navigation and the button Add a new layout highlighted](assets/form_editor_1_v2_en.png){ class="shadow lightbox" title="New form learning resource in the form editor · 2026.09.28" } 
-![Button Add a new layout with the selection of nine layouts open](assets/form_editor_3_v1_en.png){ class="shadow lightbox" title="Layout selection in the form editor" } 
+![Button Add a new layout with the selection of nine layouts open](assets/form_editor_3_v2_en.png){ class="shadow lightbox" title="Layout selection in the form editor · 2026.11.10" } 
 
 <br>
 
-The content can now be inserted into the fields of the layout (title, single choice questions, etc.).
+Now insert the content into the fields of the layout, for example titles, texts and single choices.
 
 If you want to change the layout afterwards, you can open the selection tool again at any time by clicking on the small gear.
 
-![Gear of a two-column layout opens the window Layout to replace the template](assets/form_editor_4_v1_en.png){ class="shadow lightbox" title="Window Layout in the form editor" } 
+![Gear of a two-column layout opens the inspector with the tab Layout to replace the template](assets/form_editor_4_v2_en.png){ class="shadow lightbox" title="Tab Layout in the form editor · 2026.11.10" } 
 
 <br>
 
 In the example below, the layout has been changed from two columns to one column.
 
-Now add titles, paragraphs (sections) and the different questions. It is best to start with a title and add a short introductory text with the "Paragraph" element to inform the participants accordingly.
+Now add titles, texts and the different questions. It is best to start with a title and a short introductory text in the element "Text" that informs the participants.
 
-![Selection after clicking Add content with the groups Content, Question type, Organisational and Layout](assets/form_editor_6_v1_en.png){ class="shadow lightbox" title="Selection Add content in the form editor" } 
+![Window Add content with the groups Text, Question type, Organisational, Media and Other & design](assets/form_editor_6_v2_en.png){ class="shadow lightbox" title="Window Add content in the form editor · 2026.11.09" } 
 
 <br>
 
 In each case, click "Add content" and then use the options provided.<br>
 For example, for a "Title" element.
 
-![Title element with text in the form, in the window Title the selection of the size](assets/form_editor_8_v1_en.png){ class="shadow lightbox" title="Title element in the form editor" } 
+![Title element with text in the form, in the window Title the selection of the size](assets/form_editor_8_v2_en.png){ class="shadow lightbox" title="Title element in the form editor · 2026.11.10" } 
 
 For a "Rubric" element, the options are much more diverse. However, the same principle of procedure always applies:
 
@@ -196,7 +196,7 @@ For a "Rubric" element, the options are much more diverse. However, the same pri
 
 Explore the many options available!
 
-![Rubric with formatted row text, weight per row and the open type selection in the window Rubric](assets/form_editor_11_v1_en.png){ class="shadow lightbox" title="Options of a rubric element" } 
+![Rubric with three questions in editing mode, next to it the window Rubric with the tabs General, Extended, Style and Layout and options such as type, steps and obligation](assets/form_editor_11_v2_en.png){ class="shadow lightbox" title="Options of a rubric element · 2026.11.10" } 
 
 <br>
 
@@ -218,7 +218,7 @@ When you are done **close the editor by clicking on the title of the form in the
 
 To test a form as an author, switch to the participant view:
 
-![Role menu with the entry Participant view under Switch to](assets/form_role_change_v1_en.png){ class="shadow lightbox" title="Role switch in the form learning resource" } 
+![Role menu with the entry Participant view under Switch to](assets/form_role_change_v2_en.png){ class="shadow lightbox" title="Role switch in the form learning resource · 2026.11.10" } 
 
 <br>
 
@@ -283,8 +283,8 @@ A complete enumeration of all configuration options across all levels would be t
 !!! info "Anonymous or personalized?"
 
     You can have forms filled out anonymously or with the name.
-    By default, no personalized information is recorded. By adding an element "Information" the anonymity is removed and a personalized evaluation is possible.
-    ![Selection Add content with the element Information highlighted in the group Organisational](assets/formular_editor_12_v1_de.png){ class="shadow lightbox" title="Element Information in the form editor" } 
+    By default, a form records no personalized information. With the element "[Respondent details](../../manual_user/learningresources/Form_Elements/index.md#form_element_info)", the form is no longer anonymous, and you evaluate the answers per person.
+    ![Window Add content with the element Respondent details highlighted in the group Organisational](assets/form_editor_12_v1_en.png){ class="shadow lightbox" title="Element Respondent details in the form editor · 2026.11.09" } 
 
 
 !!! tip "Note on Share"
@@ -316,7 +316,7 @@ However, this also means that the form must not be changed after the first use. 
 * Select the "Extended" tab in the inspector popup.
 * Change the name of the rubric in the field "Name". "Show name", "Positive rating" and the value ranges "Insufficient", "Neutral" and "Good" also remain editable. The field "Scale type" is locked.
 
-![Message about restricted editing, in the tab Extended of the rubric the field Name is highlighted](assets/form_restricted_edit_v1_en.png){ class="shadow lightbox" title="Form editor for a form already in use" }
+![Message about restricted editing, in the tab Extended of the rubric the field Name is highlighted](assets/form_restricted_edit_v2_en.png){ class="shadow lightbox" title="Form editor for a form already in use · 2026.11.10" }
 
 
 [To the top of the page ^](#create_form)
@@ -332,7 +332,7 @@ Characteristics:
 * often single choice, in order to force a clear statement
 * anonymous
 
-![Questions with sliders from hardly to very and a text input field for missing topics](assets/form_example1_v1_de.png){ class="shadow lightbox" title="Example teaching quality survey" }
+![Questions with sliders from hardly to very and a text input field for missing topics](assets/form_example1_v1_en.png){ class="shadow lightbox" title="Example teaching quality survey · 2026.11.10" }
 
 [OpenOlat learning resource to download](assets/OOAcademy_FB_V1.zip)
 
@@ -364,7 +364,7 @@ Characteristics:
 * assessment criteria independent of topic
 * form options must be quickly comprehensible for the evaluating examiners
 
-![Rubric with the levels very good to needs improvement and a description of the criteria per level](assets/form_example4_v1_de.png){ class="shadow lightbox" title="Example assessment of a presentation" }
+![Rubric with the levels very good to needs improvement and a description of the criteria per level](assets/form_example4_v1_en.png){ class="shadow lightbox" title="Example assessment of a presentation · 2026.11.10" }
 
 [OpenOlat learning resource to download](assets/Muendliche_Praesentation__Beurteilung.zip)
 
@@ -376,7 +376,7 @@ Characteristics:
 
 * form usually contains only 1 rubric element (except title etc.)
 
-![Rubric with a scale from -- to ++ and a comment field per question](assets/form_example5_v1_de.png){ class="shadow lightbox" title="Example form for a peer review" }
+![Rubric with a scale from -- to ++ and a comment field per question](assets/form_example5_v1_en.png){ class="shadow lightbox" title="Example form for a peer review · 2026.11.10" }
 
 [OpenOlat learning resource to download](assets/Musterformular_PeerReview.zip)
 
@@ -387,10 +387,12 @@ Characteristics:
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Form elements >](../../manual_user/learningresources/Form_Elements/index.md)
+
 **Further reading**<br>
 [General information on forms >](../../manual_user/learningresources/Forms_General_Information.md)<br>
-[The Form Editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
-[Form elements >](../../manual_user/learningresources/Form_Elements/index.md)<br>
+[The form editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
 [The form element rubric >](../../manual_user/learningresources/Form_Element_Rubric.md)<br>
 [Question rules in forms >](../../manual_user/learningresources/Form_Question_Rules.md)<br>
 [Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>

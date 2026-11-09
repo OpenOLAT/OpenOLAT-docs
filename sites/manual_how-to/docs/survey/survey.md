@@ -108,7 +108,7 @@ a) In the course editor, select the course element and there the tab "Survey".<b
 b) Click the button "Choose, create or import".<br>
 A list of already existing learning resources of which you are the owner is displayed.<br>
 There you can select one or create a new form learning resource with the button above the list.<br>
-This takes you to the editor of the form, where you can create the questions.<br>
+This takes you to the form editor, where you create the questions.<br>
 As soon as the learning resource is saved, it is also displayed in the authoring area.
 
 !!! tip "Tip"
@@ -188,7 +188,7 @@ So that the survey actually acts as a **conclusion**, you may want the survey to
 In conventional courses, you define via the tabs "Visibility" and "Access" who may see or edit the course element "Survey" and when. Via date-dependent rules, the survey can, for example, only be made visible or accessible towards the end of the course.
 
 The procedure for setting the visibility in the conventional course is as follows:<br>
-On the Survey element, a rule must be stored in the Visibility tab to define when the element should be visible. In the simple configuration mode this is only possible with absolute dates. To work with relative dates, you have to switch to expert mode. This makes it possible to control that the survey is, for example, only displayed for one week at the end of the course.
+On the Survey element, a rule must be stored in the Visibility tab to define when the element should be visible. In the simple configuration mode this is only possible with absolute dates. To work with relative dates, you have to switch to expert mode. This way, the survey appears, for example, only at the end of the course and only for one week.
 
 1. Open expert mode
 
@@ -216,7 +216,7 @@ The number of days can be adjusted as desired.
 
 !!! info "Anonymous or personalized?"
 
-    In the course element "Survey", the results are stored **anonymized** by default. A personalized evaluation is possible by adding the element **"Respondent details"** in the form editor. This cancels the anonymity.
+    The course element "Survey" stores the results anonymized by default. For a personalized evaluation, add the element "[Respondent details](../../manual_user/learningresources/Form_Elements/index.md#form_element_info)" in the form editor. The survey is then no longer anonymous.
 
 [To the top of the page ^](#survey)
 
@@ -324,13 +324,13 @@ Resetting **individual** forms is **not** possible in the course element "Survey
 
 **Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
-[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)
+[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
+[Form elements >](../../manual_user/learningresources/Form_Elements/index.md)
 
 **Further reading**<br>
 [Course Element "Survey" >](../../manual_user/learningresources/Course_Element_Survey.md)<br>
 [Course Element "Form" >](../../manual_user/learningresources/Course_Element_Form.md)<br>
 [The form editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
-[Form elements >](../../manual_user/learningresources/Form_Elements/index.md)<br>
 [Survey statistics >](../../manual_user/learningresources/Statistics_Survey.md)<br>
 [Forms - Overview >](../../manual_user/learningresources/Form/index.md)<br>
 [Access configuration >](../../manual_user/learningresources/Access_configuration.md)<br>

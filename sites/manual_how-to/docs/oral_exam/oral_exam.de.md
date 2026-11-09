@@ -63,7 +63,7 @@ In der Regel enthält das Protokoll einer mündlichen Prüfung eine manuell ausg
 
 ### Aufteilung der mündlichen Prüfungsthemen {: #step_2b}
 
-Je nach Prüfungsgegenstand sollen meistens verschiedene Themenbereiche geprüft werden. Die Themenstruktur/Prüfungsbereiche bestimmen mit, wie eine sinnvolle Aufteilung der Formulare vorgenommen werden kann.
+Je nach Prüfungsgegenstand prüfen Sie meistens verschiedene Themenbereiche. Die Themenbereiche bestimmen mit, wie Sie die Formulare sinnvoll aufteilen.
 
 **Beispiel 1:**<br>
 Es kann ein Kurs mit 1 Kursbaustein "Bewertung" erstellt werden, der 1 Formular enthält, das dann 10 Rubrik-Elemente zu 10 Themenbereichen enthält.
@@ -83,7 +83,7 @@ Während einer mündlichen Prüfung bewerten die Prüfer:innen direkt, eine spä
 #### Rubrik-Bewertung {: #rubric_assessment}
 
 Das Rubrik-Element ist zentraler Bestandteil für die Bewertung einer mündlichen Prüfung.
-Schalten Sie diesen Toggle-Button ein und wählen, importieren oder erstellen Sie im Anschluss ein Rubrik-Formular.
+Schalten Sie diesen Schalter ein und wählen, importieren oder erstellen Sie im Anschluss ein Rubrik-Formular.
 
 Wenn Sie zunächst noch kein Formular erstellen wollen, können Sie dies auch erst im Autorenbereich tun (Schritt 3) und anschliessend einbinden (Schritt 4).
 
@@ -91,7 +91,7 @@ Wenn Sie zunächst noch kein Formular erstellen wollen, können Sie dies auch er
 
 #### Punkte vergeben {: #score_granted}
 
-Da wir für die mündlichen Prüfungen ein Rubrik-Formular verwenden, können die Punkte aus dem Rubrik übernommen werden.
+Da wir für die mündlichen Prüfungen ein Rubrik-Formular verwenden, können die Punkte aus der Rubrik übernommen werden.
 
 Verwenden Sie mehrere Kursbausteine "Bewertung" innerhalb einer mündlichen Prüfung (eines Kurses), können Sie den **Skalierungsfaktor** z.B. dazu benutzen, um separat bewertete Teile der mündlichen Prüfung für die Gesamtbewertung anzupassen.
 
@@ -117,7 +117,7 @@ Wenn zusätzlich zu "Bestanden/Nicht bestanden ausgeben" auch "Punkte vergeben" 
 
 #### Bei Kurs-Bewertung berücksichtigen {: #course_assessment}
 
-Die Option erscheint in Lernpfadkursen. Ist sie aktiviert, werden die in diesem Kursbaustein erreichten Punkte auf die unter `Kurs > Administration > Einstellungen > Bewertung` definierte Punkteschwelle, die für das Bestehen des Kurses notwendig ist, angerechnet. Bzw. der Kursbaustein wird als Teil der notwendigen Kursbausteine, die für das Bestehen des gesamten Kurses dienen, berücksichtigt.<br>
+Die Option erscheint in Lernpfadkursen. Ist sie aktiviert, zählen die Punkte dieses Kursbausteins für die Punkteschwelle, die unter `Kurs > Administration > Einstellungen > Bewertung` für das Bestehen des Kurses festgelegt ist. Ebenso zählt der Kursbaustein zu den Kursbausteinen, die für das Bestehen des Kurses nötig sind.<br>
 Werden für die mündliche Prüfung mehrere Kursbausteine "Bewertung" verwendet, denken Sie bitte daran, dass in allen Kursbausteinen diese Option gewählt ist.
 
 #### Individueller Kommentar {: #individual_comment}
@@ -154,15 +154,14 @@ Wenn Sie noch kein Rubrik-Formular beim Einrichten des Kursbausteins im vorherge
 
 ![Menü Erstellen im Autorenbereich mit markiertem Eintrag Formular](assets/oral_exam_step3a_v1_de.png){ class="shadow lightbox" title="Autorenbereich" } 
 
-Ein neu erstelltes Formular beinhaltet zunächst noch kein Rubrik-Element. Dieses muss im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im Formulareditor hinzugefügt werden.
+Ein neu erstelltes Formular enthält noch kein Rubrik-Element. Sie fügen es im Kurseditor hinzu: Wählen Sie den Kursbaustein, öffnen Sie den Tab "Bewertung" und klicken Sie unter "Rubrik-Formular" auf "Bearbeiten". Alternativ bearbeiten Sie die Lernressource direkt im Formulareditor. Ein anderes Formular wählen Sie an derselben Stelle mit "Ersetzen". Dieser Button verschwindet, sobald der Kursbaustein das Formular für die Bewertung einer Person verwendet hat.
 
 
 ### Layout und Inhalte des Formulars {: #step_3_layout_content}
 
 Mündliche Prüfungen bestehen oft aus einer Kombination verschiedener Formate, etwa Präsentationen, erklärenden Fachfragen, kurzen Abfragen von Inhalten, sowie Reflexions- und Transferfragen. Ein gutes Bewertungsraster bildet diese Vielfalt ab und macht sichtbar, was in welchem Teil geprüft wird und wie die Bewertung erfolgt.
 
-In OpenOlat können frei definierbare Bewertungsraster am besten mit dem Rubrik-Element erstellt werden.
-Ein Rubrik-Element besteht aus einem Gitter mit Zeilen und Spalten. In den Zeilen werden die Bewertungskategorien bzw. Statements aufgeführt, während die Spaltenüberschriften die Bewertungsskalen wiedergeben. So können sich mehrere unterschiedliche Statements auf eine Bewertungsskala beziehen. Je nach konkreter Konfiguration können dabei sehr unterschiedliche Rubrik-Varianten entstehen.
+In OpenOlat erstellen Sie ein frei definierbares Bewertungsraster am besten mit dem Rubrik-Element. Eine Rubrik ist ein Raster aus Zeilen und Spalten: Die Zeilen tragen die Kriterien oder Aussagen, die Spalten die Stufen einer gemeinsamen Bewertungsskala.
 
 ![Rubrik mit fünf Spalten von sehr schlecht bis sehr gut und vier Bewertungskriterien, rechts das Fenster Rubrik](assets/oral_exam_step3b_v1_de.png){ class="shadow lightbox" title="Rubrik-Element im Formulareditor" } 
 
@@ -218,7 +217,7 @@ Wurde das Formular nicht sofort beim Einrichten des Kursbausteins erstellt (Schr
 
 ## Schritt 5: Prüfungsteilnehmer:innen und Prüfer:innen hinzufügen {: #step_5}
 
-Sind Formular und Kurs inhaltlich fertig gestellt, können die Prüfungsteilnehmer:innen der mündlichen Prüfung zugeordnet werden.
+Sind Formular und Kurs inhaltlich fertiggestellt, fügen Sie die Prüfungsteilnehmer:innen dem Kurs hinzu:
 
 `Kurs > Administration > Mitgliederverwaltung > Mitglied hinzufügen`
 
@@ -280,14 +279,13 @@ Nach dem Klick auf "Editieren" im Abschnitt "Rubrik-Bewertung" steht Ihnen das R
 ---
 
 
-## Schritt 6, Variante b): Durchführung der mündlichen Prüfung mit Ausdruck (pdf) {: #step_6b}
+## Schritt 6, Variante b): Durchführung der mündlichen Prüfung mit Ausdruck (PDF) {: #step_6b}
 
-Soll das Protokoll zur mündlichen Prüfung ausgedruckt werden, kann in OpenOlat ein pdf erstellt werden.
-Z.B. kann Prüfer:innen, die nicht zur Online-Protokollierung in OpenOlat eingeteilt sind, ein solches Formular ausgedruckt werden.
+Soll das Protokoll zur mündlichen Prüfung auf Papier vorliegen, erstellt OpenOlat ein PDF. So erhalten zum Beispiel Prüfer:innen, die nicht online protokollieren, ein ausgedrucktes Formular.
 
-- Wählen Sie die gewünschte Prüfungsteilnehmer:in, dann sind im Kopf der pdf-Datei bereits alle Angaben zur Person angezeigt.
+- Wählen Sie die gewünschte Prüfungsteilnehmer:in, dann stehen im Kopf der PDF-Datei bereits alle Angaben zur Person.
 - Unter dem Icon mit den 3 Punkten finden Sie die Option "Rubrik-Formular als PDF".
-- Laden Sie diese pdf-Datei herunter und drucken Sie sie aus.
+- Laden Sie diese PDF-Datei herunter und drucken Sie sie aus.
 
 ![Menü mit den 3 Punkten einer Zeile der Teilnehmerliste mit markiertem Eintrag Rubrik-Formular als PDF](assets/oral_exam_step6print1_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Kursbaustein Bewertung" }  
 
@@ -298,10 +296,10 @@ Z.B. kann Prüfer:innen, die nicht zur Online-Protokollierung in OpenOlat einget
 
 ## Schritt 7: Auswertung der mündlichen Prüfung {: #step_7}
 
-Wenn Sie die Bewertung mit dem Rubrik-Formular online gemacht haben (Schritt 6a), sind bereits alle Eintragungen in OpenOlat vorhanden und Sie können sofort mit der Auswertung beginnen.<br>
+Wenn Sie das Rubrik-Formular online ausgefüllt haben (Schritt 6a), sind bereits alle Eintragungen in OpenOlat vorhanden und Sie können sofort mit der Auswertung beginnen.<br>
 Wurde das Rubrik-Formular ausgedruckt, müssen relevante Daten zuerst von den handschriftlichen Notizen in OpenOlat übertragen werden.
 
-Die durch das Rubrik-Formular generierte Punktzahl wird automatisch als Summe oder Durchschnitt übernommen. Bei Wahl der "Summe" werden die Punkte, die pro Zeile vergeben werden, aufaddiert. Bei Wahl "Durchschnitt" wird die Durchschnittsumme aller Rubrik-Zeilen ermittelt. Alternativ kann auch eine manuelle Punktevergabe gewählt oder ganz auf Punkte verzichtet werden.
+Die durch das Rubrik-Formular generierte Punktzahl wird automatisch als Summe oder Durchschnitt übernommen. Bei Wahl der "Summe" werden die Punkte, die pro Zeile vergeben werden, aufaddiert. Bei Wahl "Durchschnitt" wird der Durchschnitt aller Rubrik-Zeilen ermittelt. Alternativ kann auch eine manuelle Punktevergabe gewählt oder ganz auf Punkte verzichtet werden.
 
 Oberhalb der Teilnehmerliste finden Sie Buttons für die nachfolgend beschriebenen Optionen.
 
@@ -320,7 +318,7 @@ Sollen mehrere Personen gemeinsam bewertet werden, z.B. wenn die Präsentation e
 Auch einen Button zum Export der Prüfungsergebnisse finden Sie über der Liste der Teilnehmer:innen. Hier werden die Ergebnisse aller Teilnehmer:innen exportiert.<br>
 Wenn Sie Ergebnisse einzelner Teilnehmer:innen exportieren möchten, selektieren Sie die betreffenden Personen in der ersten Spalte. Dann erscheint ein weiterer Button zum Export über der Liste.
 
-Sie erhalten die Ergebnisse als Excel-Datei mit den Rohdaten und auf Wunsch zusätzlich als pdf-Datei mit detaillierten Angaben.
+Sie erhalten die Ergebnisse als Excel-Datei mit den Rohdaten und auf Wunsch zusätzlich als PDF-Datei mit detaillierten Angaben.
 
 ![Button Daten exportieren über der Liste und nach Auswahl von Personen ein zweiter Button über der Auswahl](assets/oral_exam_step7c_v1_de.png){ class="shadow lightbox" title="Export der Prüfungsergebnisse" } 
 

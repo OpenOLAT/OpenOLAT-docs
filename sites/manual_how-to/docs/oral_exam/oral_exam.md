@@ -63,7 +63,7 @@ Typically, the record of an oral exam includes a manually completed assessment. 
 
 ### Breakdown of oral exam topics {: #step_2b}
 
-Depending on the subject matter of the exam, different topic areas are usually covered. The topic structure and exam sections help determine how the forms can be divided up in a logical manner.
+Depending on the subject matter of the exam, you usually examine different topic areas. The topic areas help determine how you divide up the forms in a logical manner.
 
 **Example 1:**<br>
 You can create a course with 1 course element "Assessment", which contains 1 form that, in turn, contains 10 rubric elements covering 10 topic areas.
@@ -83,7 +83,7 @@ During an oral exam, the examiners assess on the spot, a later review as with wr
 #### Rubric assessment {: #rubric_assessment}
 
 The rubric element is a key component of the assessment of an oral exam.
-Switch on this toggle button, and then select, import, or create a rubric form.
+Switch on this switch, and then select, import, or create a rubric form.
 
 If you don't want to create a form right away, you can do so later in the authoring area (Step 3) and then embed it (Step 4).
 
@@ -117,7 +117,7 @@ If "Score granted" is enabled in addition to "Display passed / not passed", an a
 
 #### Include in course assessment {: #course_assessment}
 
-The option appears in learning path courses. If it is enabled, the points earned in this course element count toward the score threshold defined under `Course > Administration > Settings > Assessment`, which is required to pass the course. Alternatively, the course element is considered part of the required course elements needed to pass the entire course.<br>
+The option appears in learning path courses. If it is enabled, the points of this course element count toward the score threshold that is set under `Course > Administration > Settings > Assessment` for passing the course. Likewise, the course element counts among the course elements needed to pass the course.<br>
 If you are using multiple course elements "Assessment" for the oral exam, please make sure this option is selected in all of them.
 
 #### Individual comment {: #individual_comment}
@@ -154,15 +154,14 @@ If you did not create a rubric form when setting up the course element in the pr
 
 ![Create menu in the authoring area with the entry Form highlighted](assets/oral_exam_step3a_v1_de.png){ class="shadow lightbox" title="Authoring area" } 
 
-A newly created form does not initially contain any rubric element. It must be added in the course via "Edit" or, alternatively, directly in the learning resource in the form editor.
+A newly created form does not yet contain a rubric element. You add it in the course editor: select the course element, open the tab "Assessment" and click "Edit" under "Rubric form". Alternatively, you edit the learning resource directly in the form editor. You choose a different form at the same place with "Replace". This button disappears as soon as the course element has used the form to assess a person.
 
 
 ### Layout and content of the form {: #step_3_layout_content}
 
 Oral exams often consist of a combination of different formats, such as presentations, technical questions requiring explanation, brief content-based questions, as well as reflective and transfer questions. A good rubric reflects this diversity and makes it clear what is being assessed in each part and how the assessment is conducted.
 
-In OpenOlat, freely definable assessment grids are best created with the rubric element.
-A rubric element consists of a grid with rows and columns. The rows list the assessment categories or statements, while the column headers represent the rating scales. This allows multiple different statements to refer to one rating scale. Depending on the specific configuration, this can result in very different rubric variants.
+In OpenOlat, you best create a freely definable assessment grid with the rubric element. A rubric is a grid of rows and columns: the rows hold the criteria or statements, the columns the levels of a shared rating scale.
 
 ![Rubric with five columns from very bad to very good and four assessment criteria, on the right the window Rubric](assets/oral_exam_step3b_v1_de.png){ class="shadow lightbox" title="Rubric element in the form editor" } 
 
@@ -218,7 +217,7 @@ If the form was not created immediately when setting up the course element (Step
 
 ## Step 5: Add examinees and examiners {: #step_5}
 
-Once the form and the course content have been finalized, the examinees can be assigned to the oral exam.
+Once the form and the course content are finalized, add the examinees to the course:
 
 `Course > Administration > Members management > Add member`
 
@@ -280,14 +279,13 @@ After clicking "Edit" in the section "Rubric assessment", the rubric form is ava
 ---
 
 
-## Step 6, Method b): Conducting the oral exam with a printout (pdf) {: #step_6b}
+## Step 6, Method b): Conducting the oral exam with a printout (PDF) {: #step_6b}
 
-If the record of the oral exam is to be printed, a pdf can be generated in OpenOlat.
-For example, examiners who are not assigned to the online recording in OpenOlat can be provided with a printed copy of such a form.
+If the record of the oral exam is to be on paper, OpenOlat creates a PDF. This way, for example, examiners who do not record online receive a printed form.
 
-- Select the desired examinee; all information about the person is then already displayed in the header of the pdf file.
-- Under the icon with the 3 dots, you will find the option "Rubric form as pdf".
-- Download this pdf file and print it out.
+- Select the desired examinee; all information about the person is then already in the header of the PDF file.
+- Under the icon with the 3 dots, you will find the option "Rubric form as PDF".
+- Download this PDF file and print it out.
 
 ![Menu with the 3 dots of a row in the participant list with the entry Rubric form as PDF highlighted](assets/oral_exam_step6print1_v1_de.png){ class="shadow lightbox" title="Tab Participants in the course element Assessment" }  
 
@@ -298,7 +296,7 @@ For example, examiners who are not assigned to the online recording in OpenOlat 
 
 ## Step 7: Evaluation of the oral exam {: #step_7}
 
-If you completed the assessment using the online rubric form (Step 6a), all entries are already in OpenOlat, and you can begin the evaluation immediately.<br>
+If you filled in the rubric form online (Step 6a), all entries are already in OpenOlat, and you can begin the evaluation immediately.<br>
 If the rubric form was printed out, the relevant data must first be transferred into OpenOlat from the handwritten notes.
 
 The score generated by the rubric form is automatically taken over as a sum or an average. If "Sum" is selected, the points assigned for each row are added up. If "Average" is selected, the average of all rubric rows is calculated. Alternatively, you can choose to assign points manually or not to use points at all.
@@ -320,7 +318,7 @@ If several persons are to be assessed together, for example when the presentatio
 You will also find a button to export the exam results above the list of participants. It exports the results of all participants.<br>
 If you want to export results of individual participants, select the relevant persons in the first column. An additional export button then appears above the list.
 
-You receive the results as an Excel file containing the raw data and, on request, additionally as a pdf file with detailed information.
+You receive the results as an Excel file containing the raw data and, on request, additionally as a PDF file with detailed information.
 
 ![Button Export data above the list and, after selecting persons, a second button above the selection](assets/oral_exam_step7c_v1_de.png){ class="shadow lightbox" title="Export of the exam results" } 
 
@@ -405,7 +403,7 @@ Yes. Combine the course with a video conferencing system (e.g. the integrated Bi
 [Course Element "Assessment" >](../../manual_user/learningresources/Course_Element_Assessment.md)<br>
 [e-Assessment Administration: Levels/Grading >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
 [Forms in Rubric Scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
-[The Form Editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
+[The form editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>
 [Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment/index.md)<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)

@@ -23,21 +23,21 @@ Wenn Sie OpenOlat oder bestimmte Elemente darin zum ersten Mal nutzen, kann eine
 
 Beim ersten Aufruf von OpenOlat werden alle Benutzer:innen um Bestätigung der Nutzungsbedingungen gebeten. Lehnen Sie ab, kehren Sie zurück zur Login-Seite.
 
-![Text der Nutzungsbedingungen mit der Checkbox zur Zustimmung, dem Link Drucken und den Buttons Ablehnen und Akzeptieren, im Dialog beim ersten Login auf der Login-Seite](assets/terms_of_use_platform_accept_v1_de.png){ class="shadow lightbox" title="Login-Seite beim ersten Login" }
+![Text der Nutzungsbedingungen mit der Checkbox zur Zustimmung, dem Link Drucken und den Buttons Ablehnen und Akzeptieren](assets/terms_of_use_platform_accept_v1_de.png){ class="shadow lightbox" title="Login-Seite beim ersten Login" }
 
 
 ### Nutzungsbedingungen der Plattform definieren {: #terms_of_use_platform_define}
 
 **Systemadministrator:innen** definieren den Text der Nutzungsbedingungen in der System-Administration unter `Administration > Customizing > Impressum`. Die Nutzungsbedingungen lassen sich nur hinterlegen, wenn das Impressum eingeschaltet ist. Für jede aktivierte Sprache kann ein eigener Text erstellt werden.
 
-![Ein Button je aktivierter Sprache zum Hinterlegen der Nutzungsbedingungen, unterhalb des Impressumstexts, auf der Seite Impressum im Menü Customizing der System-Administration](assets/terms_of_use_platform_define_v1_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing" }
+![Ein Button je aktivierter Sprache zum Hinterlegen der Nutzungsbedingungen, unterhalb des Impressumstexts](assets/terms_of_use_platform_define_v1_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing" }
 
 
 ### Akzeptierte Nutzungsbedingungen nachlesen {: #terms_of_use_platform_verify}
 
 Alle Benutzer:innen können die Nutzungsbedingungen, denen sie einmal zugestimmt haben, in ihrem persönlichen Menü jederzeit nachlesen:<br>`Persönliches Menü > Einstellungen > Tab "Nutzungsbedingungen"`
 
-![Der akzeptierte Text der Nutzungsbedingungen mit drei angehakten Checkboxen zur Zustimmung und dem Link Drucken, im Tab Nutzungsbedingungen der Einstellungen im persönlichen Menü](assets/terms_of_use_pers_menu_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Einstellungen" }
+![Der akzeptierte Text der Nutzungsbedingungen mit drei angehakten Checkboxen zur Zustimmung und dem Link Drucken](assets/terms_of_use_pers_menu_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Einstellungen" }
 
 [Zum Seitenanfang ^](#terms_of_use)
 
@@ -46,7 +46,7 @@ Alle Benutzer:innen können die Nutzungsbedingungen, denen sie einmal zugestimmt
 
 ### Bestätigung durch Lernende im Kurs
 
-Beim ersten Aufruf eines Kurses kann eine weitere Bestätigung von Nutzungsbedingungen erforderlich sein, denn die Kursbesitzer:innen können für ihren Kurs jeweils **kursspezifische** Nutzungsbedingungen definieren, die von den Teilnehmer:innen akzeptiert werden müssen.
+Kursbesitzer:innen können für ihren Kurs eigene Nutzungsbedingungen festlegen. Die Teilnehmer:innen akzeptieren sie beim ersten Aufruf des Kurses. Wer ablehnt, kann den Kurs nicht öffnen.
 
 
 ### Nutzungsbedingungen eines Kurses definieren {: #terms_of_use_course_define}
@@ -55,57 +55,58 @@ Kursbesitzer:innen erstellen für ihren Kurs kursspezifische Nutzungsbedingungen
 
 Der Texteditor wird angezeigt, sobald die Checkbox "Nutzungsbedingungen" angehakt ist. Auf demselben Tab kann zusätzlich eine kursbezogene Datenschutzerklärung eingeschaltet werden; sie ist gleich aufgebaut.
 
-![Nutzungsbedingungen eingeschaltet, darunter die Felder Titel, Bedingungen mit Texteditor sowie Beschriftung Checkbox 1 und 2, im Tab Nutzungsbedingungen der Kurseinstellungen](assets/terms_of_use_course_define_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Kurseinstellungen" }
+![Nutzungsbedingungen eingeschaltet, darunter die Felder Titel, Bedingungen mit Texteditor sowie Beschriftung Checkbox 1 und 2](assets/terms_of_use_course_define_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Kurseinstellungen" }
 
 Im Feld "Beschriftung Checkbox 1" am unteren Rand der Seite definieren Sie, welcher Text den Teilnehmer:innen neben ihrer Checkbox zum Akzeptieren der Nutzungsbedingungen angezeigt wird.
 
 Zusätzlich kann im Feld "Beschriftung Checkbox 2" eine zweite Checkbox mit einem beliebigen Beschreibungstext zur Bestätigung definiert werden. Wird ein Text eingegeben, müssen beide Checkboxen von den Teilnehmer:innen bestätigt werden, damit die Nutzungsbedingungen als akzeptiert gelten. Ist kein Beschreibungstext eingegeben, wird die zweite Checkbox den Teilnehmer:innen nicht angezeigt.
 
-![Feld Beschriftung Checkbox 2 mit dem Beispieltext "Ich willige ein, dass ...", im Tab Nutzungsbedingungen der Kurseinstellungen](assets/terms_of_use_course_checkbox2_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Kurseinstellungen" }
+![Feld Beschriftung Checkbox 2 mit dem Beispieltext "Ich willige ein, dass ..."](assets/terms_of_use_course_checkbox2_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Kurseinstellungen" }
 
 
 ### Bestätigungsaufforderung für einen Kurs aktivieren
 
-Damit die Nutzungsbedingungen angezeigt werden, müssen die Kursbesitzer:innen sie einschalten. Wurde ein Text für die Nutzungsbedingungen erfasst, bleibt er nach dem Speichern erhalten, unabhängig davon, ob die Anzeige aktiviert ist. Sie können eingefügte Nutzungsbedingungen also z.B. bearbeiten und dann so lange deaktivieren, bis die finale Version erstellt ist.
+Damit die Nutzungsbedingungen angezeigt werden, müssen die Kursbesitzer:innen sie einschalten. Wurde ein Text für die Nutzungsbedingungen erfasst, bleibt er nach dem Speichern erhalten, unabhängig davon, ob die Anzeige aktiviert ist. So können Sie die Nutzungsbedingungen ausgeschaltet vorbereiten und erst einschalten, wenn die endgültige Fassung steht.
 
-![Checkbox Eingeschaltet neben Nutzungsbedingungen angehakt, im Tab Nutzungsbedingungen der Kurseinstellungen](assets/terms_of_use_course_activate_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Kurseinstellungen" }
+![Checkbox Eingeschaltet neben Nutzungsbedingungen angehakt](assets/terms_of_use_course_activate_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Kurseinstellungen" }
 
 
 ### Verwaltung der Nutzungsbedingungen in der Mitgliederverwaltung
 
-Welche Kursteilnehmer:innen ihre Zustimmung zu den kursspezifischen Nutzungsbedingungen gegeben haben, sehen Kursbesitzer:innen in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) unter:<br>`Kurs > Administration > Mitgliederverwaltung > Einwilligungen`
+Welche Teilnehmer:innen ihre Zustimmung zu den kursspezifischen Nutzungsbedingungen gegeben haben, sehen Kursbesitzer:innen in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) unter:<br>`Kurs > Administration > Mitgliederverwaltung > Einwilligungen`
 
 ![Eintrag Mitgliederverwaltung im aufgeklappten Menü Administration der Kurs-Toolbar](assets/terms_of_use_course_members_management1_v1_de.png){ class="shadow lightbox" title="Menü Administration des Kurses" }
 
-![Tabelle der Einwilligungen mit Datum je Person, ein widerrufener Eintrag durchgestrichen, darunter die Buttons zum Widerrufen und Löschen, im Bereich Einwilligungen der Mitgliederverwaltung](assets/terms_of_use_course_members_management2_v1_de.png){ class="shadow lightbox" title="Bereich Einwilligungen der Mitgliederverwaltung" }
+![Tabelle der Einwilligungen mit Datum je Person, ein widerrufener Eintrag durchgestrichen, darunter die Buttons zum Widerrufen und Löschen](assets/terms_of_use_course_members_management2_v1_de.png){ class="shadow lightbox" title="Bereich Einwilligungen der Mitgliederverwaltung" }
 
-* Lehnt eine Teilnehmer:in ab, kann direkt mit der betroffenen Person Kontakt aufgenommen werden.
+* Lehnt eine Teilnehmer:in ab, können Sie direkt mit der Person Kontakt aufnehmen.
 * Kursbesitzer:innen können ausgewählte Einwilligungen widerrufen oder die Einträge löschen.
 
 
 ### Übernahme von Nutzungsbedingungen beim Kopieren von Kursen
 
-[Lernpfadkurse](../learningresources/Creating_learning_path_courses.de.md) können mit Hilfe eines Wizards kopiert werden: `Kurs > Administration > Kopieren mit Wizard`. Mit diesem Wizard kann vor der Ausführung des Kopiervorgangs festgelegt werden, welche [Kurseinstellungen](../learningresources/Course_Settings/index.de.md) in die Kopie übernommen werden sollen. Unter anderem können so auch die Nutzungsbedingungen übernommen werden.
+[Lernpfadkurse](../learningresources/Creating_learning_path_courses.de.md) können mit Hilfe eines Wizards kopiert werden: `Kurs > Administration > Kopieren mit Wizard`. Im Wizard legen Sie vor dem Kopieren fest, welche [Kurseinstellungen](../learningresources/Course_Settings/index.de.md) die Kopie übernimmt, darunter die Nutzungsbedingungen.
 
-![Zeile Nutzungsbedingungen mit den Optionen Anpassen, Kopieren und Nicht kopieren, im Schritt Kopieroptionen des Wizards Kurs kopieren](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" title="Wizard Kurs kopieren, Schritt Kopieroptionen" }
+![Zeile Nutzungsbedingungen mit den Optionen Anpassen, Kopieren und Nicht kopieren](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" title="Wizard Kurs kopieren, Schritt Kopieroptionen" }
 
 [Zum Seitenanfang ^](#terms_of_use)
 
 
-## Nutzungsbedingungen in Formularen {: #terms_of_use_form}
+## Nutzungsbedingungen in Formularen [:octicons-tag-16:{ title="ab Release 13.0 (OO-3674)" }](https://track.frentix.com/issue/OO-3674) {: #terms_of_use_form}
 
 ### Bestätigung durch Lernende
 
-Auch beim Ausfüllen eines Formulars kann der erfasste Inhalt es erforderlich machen, dass die Teilnehmer:innen eine Erklärung zu den Nutzungsbedingungen akzeptieren.
+Auch ein Formular kann eine Einverständniserklärung enthalten. Die Teilnehmer:innen haken sie an, bevor sie das Formular abschliessen.
 
-![Text der Einverständniserklärung mit der Checkbox zur Zustimmung, in der Teilnehmer:innenansicht eines Formulars](assets/terms_of_use_form3_v1_de.png){ class="shadow lightbox" title="Teilnehmer:innenansicht eines Formulars" }
+![Text der Einverständniserklärung mit der Checkbox zur Zustimmung](assets/terms_of_use_form3_v1_de.png){ class="shadow lightbox" title="Teilnehmer:innenansicht eines Formulars" }
 
 ### Nutzungsbedingungen eines Formulars definieren
 
-Innerhalb der Lernressource Formular gibt es das Element "Nutzungsbedingungen", das Autor:innen im [Formular-Editor](../learningresources/Form_Editor/index.de.md) über "Inhalt hinzufügen" einfügen. Im Element definieren Sie den Text der Einverständniserklärung und die Beschriftung der Checkbox.
+Die Einverständniserklärung fügen Autor:innen der Lernressource Formular im [Formulareditor](../learningresources/Form_Editor/index.de.md) als Element "Nutzungsbedingungen" ein, über "Inhalt hinzufügen". Im Element legen Sie den Text der Einverständniserklärung und die Beschriftung der Checkbox fest.
 
-![Element Nutzungsbedingungen in der Gruppe Organisatorisch des Dialogs Inhalt hinzufügen, im Formular-Editor](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formular-Editor" }
-![Felder Einverständniserklärung und Beschriftung Einverständniserklärung des Elements Nutzungsbedingungen, rechts der Inspektor mit dem Schalter Hinweis-Box, im Formular-Editor](assets/terms_of_use_form2_v1_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen im Formular-Editor" }
+![Element Nutzungsbedingungen in der Gruppe Organisatorisch](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor" }
+
+![Felder Einverständniserklärung und Beschriftung Einverständniserklärung des Elements Nutzungsbedingungen, rechts der Inspektor mit dem Schalter Hinweis-Box](assets/terms_of_use_form2_v1_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen im Formulareditor" }
 
 [Zum Seitenanfang ^](#terms_of_use)
 
@@ -125,7 +126,7 @@ draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat a
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Lernpfadkurse erstellen >](../learningresources/Creating_learning_path_courses.de.md)<br>
 [Kurseinstellungen >](../learningresources/Course_Settings/index.de.md)<br>
-[Der Formular-Editor >](../learningresources/Form_Editor/index.de.md)<br>
+[Der Formulareditor >](../learningresources/Form_Editor/index.de.md)<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)
 

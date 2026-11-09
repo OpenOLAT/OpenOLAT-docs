@@ -1,6 +1,6 @@
 # Formulare - Übersicht
 
-Formulare lassen sich in OpenOlat auf vielfältige Weise nutzen:
+Mit einem Formular sammeln Sie in OpenOlat Angaben, Meinungen und Bewertungen, zum Beispiel:
 
 * als klassische Formulare (mit Auswahlfeldern oder Freitexteingaben)
 * für Online-Umfragen
@@ -8,13 +8,12 @@ Formulare lassen sich in OpenOlat auf vielfältige Weise nutzen:
 * zur Selbsteinschätzung
 * oder beim Buchen von Angeboten im Course Planner [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
 
-Welche Variante sinnvoll ist, hängt von Ihren Zielen und dem Einsatzszenario ab.
-Hier erfahren Sie, wie Formulare für die genannten Zwecke erstellt und konfiguriert werden können.
+Die folgenden Seiten zeigen, wie Sie ein Formular für den jeweiligen Zweck erstellen und konfigurieren.
 
 [Allgemeines zu Formularen >](../Forms_General_Information.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../../manual_how-to/create_a_form/create_a_form.de.md)
 
-[Formular-Editor >](../Form_Editor/index.de.md)<br>
+[Formulareditor >](../Form_Editor/index.de.md)<br>
 [Formular-Elemente >](../Form_Elements/index.de.md)<br>
 [Formular-Element Rubrik >](../Form_Element_Rubric.de.md)<br>
 [Frageregeln in Formularen >](../Form_Question_Rules.de.md)
@@ -29,4 +28,10 @@ Hier erfahren Sie, wie Formulare für die genannten Zwecke erstellt und konfigur
 
 !!! info "Wichtig"
 
-    Es gibt eine Formular-**Lernressource** und einen Formular-**Kursbaustein**. Bitte unterscheiden Sie die beiden. Das Konzept dahinter wird Ihnen in der Anleitung [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md) erklärt.
+    Es gibt eine Lernressource "Formular" und einen Kursbaustein "Formular". Die Lernressource enthält das Formular selbst, der Kursbaustein bindet es in einen Kurs ein. Das Konzept dahinter wird Ihnen in der Anleitung [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md) erklärt.
+
+## Steckbrief
+
+Name | Formular
+---------|----------
+Verfügbar seit | Release 11.2 (OO-2329)
