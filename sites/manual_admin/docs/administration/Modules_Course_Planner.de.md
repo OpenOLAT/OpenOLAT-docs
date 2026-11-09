@@ -110,7 +110,7 @@ Ist eines der beiden Rechte nicht gewählt, fehlen seine Spalten in allen Report
 
 Elementtypen definieren, welche Elemente ein Produkt enthalten kann und geben diesen Elementen eine Bedeutung. Beim Anlegen der Elementtypen kann eine hierarchische Struktur abgebildet werden. Ein Beispiel für ein hierarchisches Produkt: Ein Lehrgang enthält Semester, ein Semester enthält Module, ein Modul enthält Kurse.
 
-Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird über das :fontawesome-regular-pen-to-square:-Symbol bearbeitet. Über den 3-Punkte-Link kann der Typ kopiert oder gelöscht werden.
+Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird über das :o_icon_o_icon_edit:-Symbol bearbeitet. Über den 3-Punkte-Link kann der Typ kopiert oder gelöscht werden.
 
 **Tabellenspalten:**
 
@@ -136,7 +136,7 @@ Die Übersichtstabelle zeigt alle angelegten Elementtypen. Ein Elementtyp wird �
 
 ### Elementtyp erstellen und bearbeiten {: #create_element_types}
 
-Zwei Buttons legen neue Elementtypen an: «Typ für Durchführung erstellen» und «Typ für Element erstellen». Die Wahl des Buttons bestimmt die Verwendung des Typs und lässt sich im Dialog nicht mehr ändern. Einen bestehenden Typ öffnen Sie über das :fontawesome-regular-pen-to-square:-Symbol.
+Zwei Buttons legen neue Elementtypen an: «Typ für Durchführung erstellen» und «Typ für Element erstellen». Die Wahl des Buttons bestimmt die Verwendung des Typs und lässt sich im Dialog nicht mehr ändern. Einen bestehenden Typ öffnen Sie über das :o_icon_o_icon_edit:-Symbol.
 
 ![Der Dialog «Typ für Durchführung erstellen» mit Titel, Kennzeichen, Beschreibung, den Features und der Konfiguration von Unterelementen und Inhalt, in der System-Administration](assets/modules_course_planner_element_type_create_v1_de.png){ class="shadow lightbox" title="Dialog Typ für Durchführung erstellen" }
 
@@ -209,7 +209,7 @@ Für jeden Elementtyp lassen sich Automatisierungsregeln hinterlegen. Diese Rege
 
 **Automatisierungsregeln konfigurieren**
 
-Öffnen Sie den gewünschten Elementtyp über das :fontawesome-regular-pen-to-square:-Symbol und schalten Sie im Abschnitt "Automatisierung" den Schalter "Automatisierung" ein. Die Tabelle darunter zeigt die Regeln des Elementtyps. Neue Regeln lassen sich nicht hinzufügen: Sie schalten jede Regel in der Spalte "Regel" ein oder aus. Die Bedingung einer Regel, etwa Auslöser und relatives Datum, passen Sie über das Mehr-Menü (⋮) der Zeile mit "Automationsregel bearbeiten" an. Die Tabs über der Tabelle grenzen sie ein: "Alle" zeigt jede Regel, "Relevant" nur die eingeschalteten, "Durchführung" oder "Element" und "Inhalt" die Regeln des jeweiligen Kontexts.
+Öffnen Sie den gewünschten Elementtyp über das :o_icon_o_icon_edit:-Symbol und schalten Sie im Abschnitt "Automatisierung" den Schalter "Automatisierung" ein. Die Tabelle darunter zeigt die Regeln des Elementtyps. Neue Regeln lassen sich nicht hinzufügen: Sie schalten jede Regel in der Spalte "Regel" ein oder aus. Die Bedingung einer Regel, etwa Auslöser und relatives Datum, passen Sie über das Mehr-Menü (⋮) der Zeile mit "Automationsregel bearbeiten" an. Die Tabs über der Tabelle grenzen sie ein: "Alle" zeigt jede Regel, "Relevant" nur die eingeschalteten, "Durchführung" oder "Element" und "Inhalt" die Regeln des jeweiligen Kontexts.
 
 Bei Elementtypen mit der Verwendung "Durchführung oder Element (legacy)" zeigt der Abschnitt nur einen Hinweis. Durchführungen und Elemente dieses Typs lassen sich nicht automatisieren. Wer eine Durchführung automatisieren will, weist ihr einen Elementtyp mit der Verwendung "Durchführung" zu, bei einem Element einen mit der Verwendung "Element".
 

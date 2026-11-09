@@ -314,7 +314,7 @@ The attention column with this icon shows whether the defined attendance rate is
 **Presence**<br>
 The attendance rate of the person in percent. The column appears together with the attention column when the attendance rate is calculated for the course.
 
-:fontawesome-solid-circle-info:<br>
+:o_icon_o_icon_info:<br>
 The info column shows details that deviate from the default settings, for example a personal rate or a later course start. You define both with the pencil in the row of the person. The personal rate is the attendance rate this person has to achieve.
 
 If changes are not immediately visible, please log out and log in again.

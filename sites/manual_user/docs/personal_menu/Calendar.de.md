@@ -2,7 +2,7 @@
 
 ![Einstieg in den persönlichen Kalender: Der Eintrag Kalender steht an erster Stelle der Liste Persönliche Werkzeuge, vor Abonnements, File Hub, Notizen und Leistungsnachweisen](assets/pers_menu_calendar_v3_de.png){ class="aside-right lightbox" }
 
-:fontawesome-regular-calendar-days:
+:o_icon_o_icon_calendar:
 
 Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 

@@ -9,9 +9,9 @@ More information about the particular processes you can find in the correspondin
 Authoring ![Caption "Place in OpenOLAT"](assets/place_in_OO_EN.png) | Authoring | Authoring ![Arrow](assets/arrow_434343_64.png){ class=size16 } ![Course area icon](assets/course.png){ class=size16 }
 ---------|----------|---------
  [![Create a portfolio template](assets/pf_prozess_feld1_EN.png)](../learningresources/Portfolio_template_Creation.md) | [![Edit template: create sections and assignments](assets/pf_prozess_feld2_EN.png)](../learningresources/Portfolio_template_Administration_and_editing.md) | [![Add template to a course](assets/pf_prozess_feld3_EN.png)](../learningresources/Creating_Portfolio_Tasks.md)
- ![Course area icon](assets/course.png){ class=size16 } ![Arrow](assets/arrow_434343_64.png){ class=size16 } :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase:
+ ![Course area icon](assets/course.png){ class=size16 } ![Arrow](assets/arrow_434343_64.png){ class=size16 } :o_icon_o_ep_icon: | :o_icon_o_ep_icon: | :o_icon_o_ep_icon:
  [![Collect task](assets/pf_prozess_feld4_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md) | [![Solve and edit assignment](assets/pf_prozess_feld5_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md) | [![Give access right for binder, section, or assignment](assets/pf_prozess_feld6_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
- :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase: |
+ :o_icon_o_ep_icon: | :o_icon_o_ep_icon: |
  [![Add comment, or](assets/pf_prozess_feld7_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | [![Grade assignment](assets/pf_prozess_feld8_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | ![Color legend: green author, blue user, yellow author, coach, user, extern](assets/pf_legend_process_EN.png)
 
 !!! info "Note"

@@ -88,20 +88,20 @@ nach LTI Pro.
 * **Access Token**: Dies ist ein Sicherheits-Token, das Zoom mit Nachrichten an OpenOlat sendet.
   Es erlaubt OpenOlat zu überprüfen, dass die Nachricht von Zoom stammt.
 
-Klicken Sie auf der Seite LTI Pro Credentials auf **3rd party Credentials**:
+Klicken Sie auf der Seite LTI Pro Credentials auf **3rd Party Credentials**:
 
-![LTI-Pro-Credential-Editor in Zoom mit hervorgehobener Registerkarte "3rd Party Credentials"](assets/zoom_credential_editor_3rd_party.png){ class="shadow lightbox" }
+![Registerkarte "3rd Party Credentials" hervorgehoben, daneben "LTI Credentials"](assets/zoom_credential_editor_3rd_party.png){ class="shadow lightbox" title="Credential-Editor von LTI Pro in Zoom" }
 
 Wählen Sie **LTI Moodle** auf der linken Seite. OpenOlat verwendet die LTI Moodle-Integration.
 
 Aktivieren Sie zuerst die Kalenderfunktion. Dadurch wird Zoom angewiesen, OpenOlat über neue Meetings und
 Meeting-Aktualisierungen zu informieren:
 
-:fontawesome-regular-calendar-days:
+:o_icon_o_vc_icon:
 
 Klicken Sie auf "Add Instance", um den Dialog für Serverinstanzen zu öffnen:
 
-![Dialog "Add Instance" in Zoom mit den Feldern LTI Moodle Site Domain, Access Token und Client ID](assets/zoom_add_instance.png){ class="shadow lightbox thumbnail-xl" }
+![Felder LTI Moodle Site Domain, Access Token und Client ID, darunter Cancel und Save](assets/zoom_add_instance.png){ class="shadow lightbox thumbnail-xl" title="Dialog Add Instance in Zoom" }
 
 Zusätzlich zu den von OpenOlat generierten Informationen (**Client Id** und **Access Token**), müssen Sie auch die
 URL Ihrer OpenOlat-Server-Instanz angeben.

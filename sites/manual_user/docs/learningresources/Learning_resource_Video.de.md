@@ -1,6 +1,6 @@
 # Lernressource: Video {: #learning_resource_video}
 
-:fontawesome-solid-film:
+:o_icon_o_FileResource-VIDEO_icon:
 
 Mit der Lernressource Video stellen Sie ein Video einmal in OpenOlat bereit und binden es danach in beliebig viele Kurse ein, oder Sie bieten es unabhängig von Kursen an. Die Lernressource besteht nicht nur aus der Videodatei: Sie hat eine eigene Infoseite, ein eigenes Menü "Administration" und eigene Freigabeeinstellungen. Im Videoeditor gestalten Sie das Video zudem interaktiv aus, zum Beispiel mit Annotationen oder Quizfragen.
 

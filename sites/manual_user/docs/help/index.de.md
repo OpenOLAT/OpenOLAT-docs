@@ -37,7 +37,9 @@ Sophia durchsucht ausschliesslich das indexierte OpenOlat-Benutzerhandbuch (Retr
 Rechts oben in der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat
 Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren
 Hilfeseiten, je nach Konfiguration durch Systemadministrator:innen. Klicken
-Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
+Sie auf das Fragezeichen :o_icon_o_icon_help: und wählen Sie "OpenOlat Handbuch".
+Ist nur das Handbuch als Hilfe eingerichtet, steht dort direkt das
+Handbuch-Symbol :o_icon_o_icon_manual:.
 
 !!! info "Wichtig"
 

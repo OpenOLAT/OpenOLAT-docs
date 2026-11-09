@@ -60,7 +60,7 @@ With the "Contact form" checkbox you also offer a form for general requests. The
 
 ## Help [:octicons-tag-16:{ title="from Release 15.1 (OO-4562)" }](https://track.frentix.com/issue/OO-4562){:target="_blank"} {: #help}
 
-So that persons find the right help when they have questions, you define on the "Help" page which help options the help icon :fontawesome-solid-circle-question: offers, for example the official OpenOlat manual, your own help course or a contact form for the support. For each help option you choose under "Display" whether it appears in the authoring area, in the user tool or on the login page. You will find the page in the system administration under:<br>
+So that persons find the right help when they have questions, you define on the "Help" page which help options the help icon :o_icon_o_icon_help: offers, for example the official OpenOlat manual, your own help course or a contact form for the support. For each help option you choose under "Display" whether it appears in the authoring area, in the user tool or on the login page. You will find the page in the system administration under:<br>
 `Administration > Customizing > Help`
 
 ![Under Display the three locations Authoring, User tool and Login where the help option appears, above them Type, Label per language, Icon and URL](assets/admin_customizing_help_edit_v1_en.png){ class="shadow lightbox" title="Edit help facility dialog on the Help page · 2026.10.20" }

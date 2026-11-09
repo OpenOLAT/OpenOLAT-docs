@@ -1,6 +1,6 @@
 # Learning resource: Video {: #learning_resource_video}
 
-:fontawesome-solid-film:
+:o_icon_o_FileResource-VIDEO_icon:
 
 With the Video learning resource, you make a video available in OpenOlat once and then embed it in as many courses as you like, or you offer it independently of courses. The learning resource is more than the video file: it has its own info page, its own "Administration" menu and its own sharing settings. In the video editor, you can also make the video interactive, for example with annotations or quiz questions.
 

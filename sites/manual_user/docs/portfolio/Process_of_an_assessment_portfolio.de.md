@@ -9,9 +9,9 @@ Weitere Informationen zu den einzelnen Prozessen finden Sie unter dem jeweiligen
 Autorenbereich ![Beschriftung "Ort im OpenOlat"](assets/Ort_im_OO_DE.png.jpeg) | Autorenbereich | Autorenbereich ![Pfeil](assets/arrow_434343_64.png){ class=size16 } ![Symbol Kursbereich](assets/course.png){ class=size16 }
 ---------|----------|---------
  [![Portfoliovorlage erstellen](assets/PF_Prozess_Feld1_DE.png)](../learningresources/Portfolio_template_Creation.de.md) | [![Vorlage bearbeiten: Bereiche und Aufgaben erstellen](assets/pf_Prozess_Feld2_DE.jpg)](../learningresources/Portfolio_template_Administration_and_editing.de.md) | [![Vorlage zu Kurs hinzufügen](assets/PF_Prozess_Feld3_DE.png)](../learningresources/Creating_Portfolio_Tasks.de.md)
- ![Symbol Kursbereich](assets/course.png){ class=size16 } ![Pfeil](assets/arrow_434343_64.png){ class=size16 } :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase:
+ ![Symbol Kursbereich](assets/course.png){ class=size16 } ![Pfeil](assets/arrow_434343_64.png){ class=size16 } :o_icon_o_ep_icon: | :o_icon_o_ep_icon: | :o_icon_o_ep_icon:
  [![Aufgabe abholen](assets/pf_Prozess_Feld4_DE.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md) | [![Aufgabe lösen und bearbeiten](assets/pf_Prozess_Feld5_DE.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md) | [![Mappe, Bereich oder Aufgabe freigeben](assets/pf_Prozess_Feld6_DE.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)
- :fontawesome-solid-briefcase: | :fontawesome-solid-briefcase: |
+ :o_icon_o_ep_icon: | :o_icon_o_ep_icon: |
  [![Kommentare hinzufügen oder](assets/pf_Prozess_Feld7_DE.png)](../learningresources/Portfolio_assignment_Grading.de.md) | [![Aufgabe bewerten](assets/pf_Prozess_Feld8_DE.png)](../learningresources/Portfolio_assignment_Grading.de.md) | ![Farblegende: Grün Autoren, Blau User, Gelb Autor, Betreuer, User, Externer](assets/Legende_Prozess_Portfolio_DE.jpg)
 
 !!! info "Note"

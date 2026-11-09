@@ -194,7 +194,7 @@ The full checklist after the update, with further items on the REST API, user pr
 
     [:octicons-arrow-right-24: Module Groups](administration/Modules_Groups.md)
 
--   :fontawesome-solid-clipboard-check:{ .lg .middle } __e-Assessment__
+-   :o_icon_o_icon_qpool:{ .lg .middle } __e-Assessment__
 
     ---
 

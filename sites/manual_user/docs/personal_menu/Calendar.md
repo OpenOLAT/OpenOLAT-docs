@@ -2,7 +2,7 @@
 
 ![Entry point to the personal calendar: the Calendar entry heads the list of User tools, ahead of Subscriptions, File Hub, Notes and Evidence of achievement](assets/pers_menu_calendar_v3_de.png){ class="aside-right lightbox" }
 
-:fontawesome-regular-calendar-days:
+:o_icon_o_icon_calendar:
 
 The calendar function is available in various places:
 

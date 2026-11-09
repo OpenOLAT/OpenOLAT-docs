@@ -57,7 +57,7 @@ You include a test in your course and define when participants work on it, who c
 
 ## Compare tests and self-tests {: #compare_test_self-test}
 
-Attribute | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Self-test
+Attribute | :o_icon_o_iqtest_icon: Test | :o_icon_o_iqself_icon: Self-test
 ------|------|------
  Purpose of use | Assessment test, test with assessment option by the teacher, standard test | Exercise, self-assessment, no insight by teacher
  Fabrication with | [Test editor](../Test_editor_QTI_2.1/index.md) | [Test editor](../Test_editor_QTI_2.1/index.md)

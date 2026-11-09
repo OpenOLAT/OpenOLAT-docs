@@ -62,7 +62,7 @@ Mit der Checkbox "Kontaktformular" bieten Sie zusätzlich ein Formular für allg
 
 ## Hilfe [:octicons-tag-16:{ title="ab Release 15.1 (OO-4562)" }](https://track.frentix.com/issue/OO-4562){:target="_blank"} {: #help}
 
-Damit Personen bei Fragen die passende Hilfe finden, legen Sie auf der Seite "Hilfe" fest, welche Hilfemöglichkeiten das Hilfe-Icon :fontawesome-solid-circle-question: anbietet, zum Beispiel das offizielle OpenOlat Handbuch, einen eigenen Hilfekurs oder ein Kontaktformular für den Support. Je Hilfemöglichkeit wählen Sie unter "Anzeige", ob sie im Autorenbereich, in den persönlichen Werkzeugen oder auf der Login-Seite erscheint. Sie finden die Seite in der System-Administration unter:<br>
+Damit Personen bei Fragen die passende Hilfe finden, legen Sie auf der Seite "Hilfe" fest, welche Hilfemöglichkeiten das Hilfe-Icon :o_icon_o_icon_help: anbietet, zum Beispiel das offizielle OpenOlat Handbuch, einen eigenen Hilfekurs oder ein Kontaktformular für den Support. Je Hilfemöglichkeit wählen Sie unter "Anzeige", ob sie im Autorenbereich, in den persönlichen Werkzeugen oder auf der Login-Seite erscheint. Sie finden die Seite in der System-Administration unter:<br>
 `Administration > Customizing > Hilfe`
 
 ![Unter Anzeige die drei Orte Autorenbereich, Persönliche Werkzeuge und Login, an denen die Hilfemöglichkeit erscheint, darüber Typ, Bezeichnung je Sprache, Symbol und URL](assets/admin_customizing_help_edit_v1_de.png){ class="shadow lightbox" title="Dialog Hilfemöglichkeit bearbeiten auf der Seite Hilfe · 2026.10.20" }

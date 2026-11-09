@@ -111,7 +111,7 @@ If one of these two rights is not selected, its columns are missing in all repor
 
 Element types define which elements a product can contain and give these elements a meaning. A hierarchical structure can be mapped when creating the element types. An example of a hierarchical product: a training program contains semesters, a semester contains modules, a module contains courses.
 
-The overview table shows all element types that have been created. An element type is edited via the :fontawesome-regular-pen-to-square: symbol. The type can be copied or deleted via the 3-dot link.
+The overview table shows all element types that have been created. An element type is edited via the :o_icon_o_icon_edit: symbol. The type can be copied or deleted via the 3-dot link.
 
 **Table columns:**
 
@@ -137,7 +137,7 @@ The overview table shows all element types that have been created. An element ty
 
 ### Create and edit element types {: #create_element_types}
 
-Two buttons create new element types: "Create type for implementation" and "Create type for element". The button you choose determines the use of the type and cannot be changed in the dialog. An existing type is opened via the :fontawesome-regular-pen-to-square: symbol.
+Two buttons create new element types: "Create type for implementation" and "Create type for element". The button you choose determines the use of the type and cannot be changed in the dialog. An existing type is opened via the :o_icon_o_icon_edit: symbol.
 
 ![The dialog "Create type for implementation" with title, reference, description, the features and the configuration of subelements and content, in the system administration](assets/modules_course_planner_element_type_create_v1_en.png){ class="shadow lightbox" title="Dialog Create type for implementation" }
 
@@ -210,7 +210,7 @@ Automation rules can be defined for each element type. These rules serve as a te
 
 **Configuring automation rules**
 
-Open the desired element type via the :fontawesome-regular-pen-to-square: symbol and switch on "Automation" in the "Automation" section. The table below shows the rules of the element type. New rules cannot be added: you switch each rule on or off in the column "Rule". You adjust the condition of a rule, for example trigger and relative date, via the more menu (⋮) of the row with "Edit automation rule". The tabs above the table narrow it down: "All" shows every rule, "Relevant" only the rules switched on, "Implementation" or "Element" and "Content" the rules of the respective context.
+Open the desired element type via the :o_icon_o_icon_edit: symbol and switch on "Automation" in the "Automation" section. The table below shows the rules of the element type. New rules cannot be added: you switch each rule on or off in the column "Rule". You adjust the condition of a rule, for example trigger and relative date, via the more menu (⋮) of the row with "Edit automation rule". The tabs above the table narrow it down: "All" shows every rule, "Relevant" only the rules switched on, "Implementation" or "Element" and "Content" the rules of the respective context.
 
 For element types with the usage "Implementation or element (legacy)", the section only shows a note. Implementations and elements of this type cannot be automated. To automate an implementation, assign it an element type with the usage "Implementation", for an element one with the usage "Element".
 

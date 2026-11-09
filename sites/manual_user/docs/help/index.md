@@ -35,9 +35,11 @@ Sophia searches exclusively the indexed OpenOlat user manual (Retrieval-Augmente
 ## Link to the Manual {: #help_link}
 
 At the top right of the main menu bar, you can always access the OpenOlat
-manual (this is where you are currently located) and possibly to further
+manual (this is where you are currently located) and possibly further
 help pages, depending on the configuration by system administrators. Click
-on the question mark! :fontawesome-solid-circle-question:.
+the question mark :o_icon_o_icon_help: and select "OpenOlat Manual". If the
+manual is the only help option set up, the manual icon :o_icon_o_icon_manual:
+appears there directly.
 
 !!! info "Important"
 

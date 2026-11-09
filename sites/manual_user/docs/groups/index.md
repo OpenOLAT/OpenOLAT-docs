@@ -1,4 +1,4 @@
-# :fontawesome-solid-user-group: Groups {: #groups}
+# :o_icon_o_icon_group: Groups {: #groups}
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Working with groups](<https://www.youtube.com/embed/7LAPedqB9tk>){:target="_blank"}
 

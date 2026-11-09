@@ -31,11 +31,11 @@ Ampel logic: No action needed
 
 | Component  | Context               | icon                       | State       | Range of application |
 | ---------- | --------------------- | -------------------------- | ----------- | -------------------- |
-| Course     |                       | :fontawesome-solid-pencil: | Preparation | 2.                   |
-| Course     | Assessment mode       | :fontawesome-solid-clock:  | Scheduled   | 1.                   |
-| Course     | Assessment inspection | :fontawesome-solid-clock:  | Scheduled   | 1.                   |
-| Catalog    | Offer period          | :fontawesome-solid-clock:  | Planned     | 1.                   |
-| Curriculum | Curriculum element	 | :fontawesome-solid-pencil: |	Preparation | 2.                   |
+| Course     |                       | :o_icon_o_icon_repo_status_preparation: | Preparation | 2.                   |
+| Course     | Assessment mode       | :o_icon_o_as_mode_none:  | Scheduled   | 1.                   |
+| Course     | Assessment inspection | :o_icon_o_icon_assessment_inspection_scheduled:  | Scheduled   | 1.                   |
+| Catalog    | Offer period          | :o_icon_o_ac_offer_pending_icon:  | Planned     | 1.                   |
+| Curriculum | Curriculum element	 | :o_icon_o_icon_curriculum_status_preparation: |	Preparation | 2.                   |
 
 ### Success
 
@@ -59,16 +59,16 @@ Ampel logic: No dangers or safety concerns
 
 | Component      | Context               | icon                               | State       | Range of application |
 | -------------- | --------------------- | ---------------------------------- | ----------- | -------------------- |
-| Course         |                       | :fontawesome-solid-check:          | Published   | 2.                   |
-| Course         | Assessment mode       | :fontawesome-solid-spinner:        | In progress | 1.                   |
-| Course         | Assessment inspection | :fontawesome-solid-check:          | Carried out | 3.                   |
-| Catalog        |                       | :fontawesome-solid-cart-shopping:  | Bookable    | 2.                   |
-| Catalog        | Offer period          | :fontawesome-solid-hourglass-half: | Ongoing     | 1.                   |
-| Curriculum     | Curriculum element    | :fontawesome-solid-check:          | Confirmed   | 4.                   |
-| Curriculum     | Curriculum element    | :fontawesome-solid-check:          | Active      | 1.                   |
-| Curriculum     | Membership            | :fontawesome-solid-circle-check:   | Active      | 1.                   |
-| Payment module | Billing address       | :fontawesome-solid-check:          | Active      | 1.                   |
-| Test           | Question              | :fontawesome-solid-circle-check:   | Answered    | 1.                   |
+| Course         |                       | :o_icon_o_icon_curriculum_status_confirmed:          | Published   | 2.                   |
+| Course         | Assessment mode       | :o_icon_o_as_mode_assessment:        | In progress | 1.                   |
+| Course         | Assessment inspection | :o_icon_o_icon_assessment_inspection_carriedout:          | Carried out | 3.                   |
+| Catalog        |                       | :o_icon_o_ac_offer_bookable_icon:  | Bookable    | 2.                   |
+| Catalog        | Offer period          | :o_icon_o_as_mode_followup: | Ongoing     | 1.                   |
+| Curriculum     | Curriculum element    | :o_icon_o_icon_curriculum_status_confirmed:          | Confirmed   | 4.                   |
+| Curriculum     | Curriculum element    | :o_icon_o_icon_curriculum_status_active:          | Active      | 1.                   |
+| Curriculum     | Membership            | :o_icon_o_icon_circle_check:   | Active      | 1.                   |
+| Payment module | Billing address       | :o_icon_o_ac_billing_address_active_icon:          | Active      | 1.                   |
+| Test           | Question              | :o_icon_o_icon_qti_answered:   | Answered    | 1.                   |
 
 ### Warning
 
@@ -89,12 +89,12 @@ Ampel logic: Attention required
 
 | Component  | Context               | icon                                     | State            | Range of application |
 | ---------- | --------------------- | ---------------------------------------- | ---------------- | -------------------- |
-| Course     |                       | :fontawesome-regular-star:               | Review           | 2./4.                |
-| Course     | Assessment mode       | :fontawesome-solid-hourglass-half:       | Preparation time | 3./4.                |
-| Course     | Assessment inspection | :fontawesome-solid-user-slash:           | No-show          | -                    |
-| Catalog    |                       | :fontawesome-solid-triangle-exclamation: | Fully booked     | 2.                   |
-| Curriculum | Curriculum element    | :fontawesome-solid-hourglass-half:       | Provisional      | 4.                   |
-| Curriculum | Membership            | :fontawesome-solid-hourglass-half:       | Pending          | 4.                   |
+| Course     |                       | :o_icon_o_icon_repo_status_review:               | Review           | 2./4.                |
+| Course     | Assessment mode       | :o_icon_o_as_mode_leadtime:       | Preparation time | 3./4.                |
+| Course     | Assessment inspection | :o_icon_o_icon_assessment_inspection_noshow:           | No-show          | -                    |
+| Catalog    |                       | :o_icon_o_ac_offer_fully_booked_icon: | Fully booked     | 2.                   |
+| Curriculum | Curriculum element    | :o_icon_o_icon_curriculum_status_provisional:       | Provisional      | 4.                   |
+| Curriculum | Membership            | :o_icon_o_membership_status_pending:       | Pending          | 4.                   |
 
 ### Critical
 
@@ -115,9 +115,9 @@ Ampel logic: Increased warning, intervention urgently required, but not yet crit
 
 | Object  | Context               | icon                             | State        | Range of application |
 | ------- | --------------------- | -------------------------------- | ------------ | -------------------- |
-| Course  | Assessment inspection | :fontawesome-solid-spinner:      | In progress  | -                    |
-| Course  | Membership            | :fontawesome-solid-circle-xmark: | Declined     | 3.                   |
-| Test    | Question              | :fontawesome-solid-circle-play:  | Not answered | 1.                   |
+| Course  | Assessment inspection | :o_icon_o_icon_assessment_inspection_inprogress:      | In progress  | -                    |
+| Course  | Membership            | :o_icon_o_membership_status_declined: | Declined     | 3.                   |
+| Test    | Question              | :o_icon_o_icon_qti_notAnswered:  | Not answered | 1.                   |
 
 ### Danger
 
@@ -133,7 +133,7 @@ Ampel logic: Danger and critical, intervention required
 | Light   | #b30018 | #FFFFFF  | #a80016 | ![Light red](assets/red-light.png){ class="thumbnail-sm" }     |
 | Mega    | #b30018 | #ffc9bd  | #ffc9bd | ![Mega red](assets/red-mega.png){ class="thumbnail" }          |
 
-### Finised
+### Finished
 
 Range of application
 
@@ -148,10 +148,10 @@ Range of application
 
 | Object     | Context               | icon                             | State     | Range of application |
 | ---------- | --------------------- | -------------------------------- | --------- | -------------------- |
-| Course     |                       | :fontawesome-solid-ban:          | Finished  | 1./2.                |
-| Course     | Assessment mode       | :fontawesome-solid-ban:          | Follow-up | 1./2.                |
-| Course     | Assessment inspection | :fontawesome-solid-circle-xmark: | Cancelled | -                    |
-| Curriculum | Curriculum element    | :fontawesome-solid-ban:          | Finished  | 1./2.                |
+| Course     |                       | :o_icon_o_icon_repo_status_closed:          | Finished  | 1./2.                |
+| Course     | Assessment mode       | :o_icon_o_as_mode_followup:          | Follow-up | 1./2.                |
+| Course     | Assessment inspection | :o_icon_o_icon_assessment_inspection_cancelled: | Cancelled | -                    |
+| Curriculum | Curriculum element    | :o_icon_o_icon_curriculum_status_finished:          | Finished  | 1./2.                |
 
 ### Inactive
 
@@ -169,17 +169,17 @@ Ampel logic: Inactive or not relevant
 | Light   | #595959 | #FFFFFF  | #454545 | ![Light grey](assets/grey-light.png){ class="thumbnail-sm" }     |
 | Mega    | #342c24 | #F6F6F6  | #F6F6F6 | ![Mega grey](assets/grey-mega.png){ class="thumbnail" }          |
 
-| Object         | Context               | icon                             | State              | Range of application |  
+| Object         | Context               | icon                             | State              | Range of application |
 | -------------- | --------------------- | -------------------------------- | ------------------ | -------------------- |
-| Course         | Assessment mode       | :fontawesome-solid-circle-minus: | End                | 2.                   |
-| Course         | Assessment inspection | :fontawesome-solid-ban:          | Withdrawn          | 2.                   |
-| Catalog        |                       | :fontawesome-solid-eye-slash:    | Not available      | 3.                   |
-| Catalog        | Offer period          | :fontawesome-solid-ban:          | Ended              | 2./3.                |
-| Curriculum     | Curriculum element    | :fontawesome-solid-circle-xmark: | Cancelled          | 2./3.                |
-| Curriculum     | Membership            | :fontawesome-solid-circle-xmark: | Cancelled          | 2./3.                |
-| Curriculum     | Membership            | :fontawesome-solid-circle-xmark: | Cancelled with fee | 2./3.                |
-| Curriculum     | Membership            | :fontawesome-solid-circle-xmark: | Removed            | 2./3.                |
-| Payment module | Billing address       | :fontawesome-solid-ban:          | Inctive            | 1.                   |
+| Course         | Assessment mode       | :o_icon_o_as_mode_closed: | End                | 2.                   |
+| Course         | Assessment inspection | :o_icon_o_icon_assessment_inspection_withdrawn:          | Withdrawn          | 2.                   |
+| Catalog        |                       | :o_icon_o_ac_offer_not_available_icon:    | Not available      | 3.                   |
+| Catalog        | Offer period          | :o_icon_o_ac_offer_finished_icon:          | Ended              | 2./3.                |
+| Curriculum     | Curriculum element    | :o_icon_o_icon_curriculum_status_cancelled: | Cancelled          | 2./3.                |
+| Curriculum     | Membership            | :o_icon_o_membership_status_cancel: | Cancelled          | 2./3.                |
+| Curriculum     | Membership            | :o_icon_o_membership_status_cancelwithfee: | Cancelled with fee | 2./3.                |
+| Curriculum     | Membership            | :o_icon_o_membership_status_removed: | Removed            | 2./3.                |
+| Payment module | Billing address       | :o_icon_o_ac_billing_address_inactive_icon:          | Inactive           | 1.                   |
 
 ## By object
 ### Global Status

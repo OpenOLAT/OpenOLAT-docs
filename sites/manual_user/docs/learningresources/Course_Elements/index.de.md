@@ -24,12 +24,12 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 * [:o_icon_o_blog_icon: Blog](../Course_Element_Blog.de.md)
 * [:o_icon_o_icon_video: Video](../Course_Element_Video.de.md)
 * [:o_icon_o_livestream_icon: Video Livestream](../Course_Element_Video_Livestream.de.md)
-* [:octicons-arrow-right-24: Opencast](../Course_Element_Opencast.de.md)
-* [:octicons-arrow-right-24: edu-sharing](../Course_Element_edu_Sharing.de.md)
-* [:octicons-arrow-right-24: card2brain Lernkarten](../Course_Element_card2brain_Flashcards.de.md)
-* [:octicons-arrow-right-24: Mediasite](../Course_Element_Mediasite.de.md)
-* [:octicons-arrow-right-24: Edubase](../Course_Element_Edubase.de.md)
-* [:simple-jupyter: JupyterHub](../Course_Element_JupyterHub.de.md)
+* [:o_icon_o_opencast_icon: Opencast](../Course_Element_Opencast.de.md)
+* [:o_icon_o_edusharing_icon: edu-sharing](../Course_Element_edu_Sharing.de.md)
+* [:o_icon_o_card2brain_icon: card2brain Lernkarten](../Course_Element_card2brain_Flashcards.de.md)
+* [:o_icon_o_mediasite_icon: Mediasite](../Course_Element_Mediasite.de.md)
+* [:o_icon_o_edubase_icon: Edubase](../Course_Element_Edubase.de.md)
+* [:o_icon_o_jupyter_icon: JupyterHub](../Course_Element_JupyterHub.de.md)
 
 ## Wissensüberprüfung
 
@@ -42,8 +42,8 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 * [:o_icon_o_iqtest_icon: Test](../Course_Element_Test/index.de.md)
 * [:o_icon_o_iqself_icon: Selbsttest](../Course_Element_Self_Test.de.md)
 * [:o_icon_o_practice_icon: Übung](../Course_Element_Practice.de.md)
-* [:octicons-arrow-right-24: Videoaufgabe](../Course_Element_Video_Task.de.md)
-* [:material-clipboard-file-outline: Formular](../Course_Element_Form.de.md)
+* [:o_icon_o_icon_videotask: Videoaufgabe](../Course_Element_Video_Task.de.md)
+* [:o_icon_o_icon_form: Formular](../Course_Element_Form.de.md)
 * [:o_icon_o_survey_icon: Umfrage](../Course_Element_Survey.de.md)
 * [:o_icon_o_cl_icon: Checkliste](../Course_Element_Checklist.de.md)
 
@@ -59,7 +59,7 @@ Kursbausteine dieser Gruppe werden vor allem für kollaboratives Arbeiten und de
 
 * [:o_icon_o_wiki_icon: Wiki](../Course_Element_Wiki.de.md)
 * [:o_icon_o_fo_icon: Forum](../Course_Element_Forum.de.md)
-* [:material-file-multiple-outline: Dateidiskussion](../Course_Element_File_Dialog.de.md)
+* [:o_icon_o_dialog_icon: Dateidiskussion](../Course_Element_File_Dialog.de.md)
 * [:o_icon_o_pf_icon: Teilnehmer:innen Ordner](../Course_Element_Participant_Folder.de.md)
 * [:o_icon_o_cmembers_icon: Liste der Teilnehmer:innen](../Course_Element_Participant_List.de.md)
 
@@ -100,7 +100,7 @@ Zusätzliche Kursbausteine finden Sie in der Gruppe "Andere".
 * [:o_icon_o_sp_icon: HTML-Seite](../Course_Element_HTML_Page.de.md)
 * [:o_icon_o_tu_icon: Externe Seite](../Course_Element_External_Page.de.md)
 * [:o_icon_o_projectbroker_icon: Themenvergabe](../Course_Element_Topic_Assignment.de.md)
-* [:octicons-link-24: Linkliste](../Course_Element_Link_List.de.md)
+* [:o_icon_o_ll_icon: Linkliste](../Course_Element_Link_List.de.md)
 * [:o_icon_o_icon_cns: Auswahl](../Course_Element_Selection.de.md)
 
 ## Allgemeines zu Kursbausteinen

@@ -189,9 +189,9 @@ Da von Betreuer:innen keine manuellen Bewertungen vorgenommen werden, sind auch 
 
 Kursbaustein Test | Kursbaustein Selbsttest | Kursbaustein Übung
 ---------|----------|----------
- :fontawesome-solid-square-pen: | :fontawesome-solid-square-pen: | :fontawesome-regular-futbol:
+ :o_icon_o_iqtest_icon: | :o_icon_o_iqself_icon: | :o_icon_o_practice_icon:
 mit Punkten | mit Punkten  | ohne Punkte 
-einsehbar für Betreuer |  nicht einsehbar für Betreuer | einsehbare Level<br>Lernstand pro Level<br> Schwerpunktsetzung durch Teilnehmer:in
+einsehbar für Betreuer:innen |  nicht einsehbar für Betreuer:innen | einsehbare Level<br>Lernstand pro Level<br> Schwerpunktsetzung durch Teilnehmer:in
 1 Test-Lernressource | 1 Test-Lernressource | mehrere Lernressourcen<br>Freigaben/Shares aus dem Fragenpool<br>Filter mit Verwendung der Taxonomie
 
 

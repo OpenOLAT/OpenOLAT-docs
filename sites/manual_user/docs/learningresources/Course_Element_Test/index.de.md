@@ -57,7 +57,7 @@ Sie binden einen Test in Ihren Kurs ein und legen fest, wann Teilnehmende ihn be
 
 ## Test und Selbsttest im Vergleich {: #compare_test_self-test}
 
-Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Selbsttest
+Merkmal | :o_icon_o_iqtest_icon: Test | :o_icon_o_iqself_icon: Selbsttest
 ------|------|------
  Einsatzzweck | Prüfungstest, Test mit Einblick für die Lehrenden, Standard Test | Übung, Selbstevaluation, keine Einsicht durch Lehrperson
  Herstellung mit | [Testeditor](../Test_editor_QTI_2.1/index.de.md) | [Testeditor](../Test_editor_QTI_2.1/index.de.md)

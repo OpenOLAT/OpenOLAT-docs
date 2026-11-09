@@ -184,7 +184,7 @@ Since no manual evaluations are carried out by coaches, no feedbacks by coaches 
 
 Course element Test | Course element Self-test | Course element Practice
 ---------|----------|----------
- :fontawesome-solid-square-pen: | :fontawesome-solid-square-pen: | :fontawesome-regular-futbol:
+ :o_icon_o_iqtest_icon: | :o_icon_o_iqself_icon: | :o_icon_o_practice_icon:
 with score | with score  | without score 
 visible for coaches|  not visible for coaches | visible levels<br>learning status per level<br> focus set by the participant
 1 test learning resource | 1 test learning resource | multiple learning resources<br>shares from the question bank<br>filter with use of taxonomy

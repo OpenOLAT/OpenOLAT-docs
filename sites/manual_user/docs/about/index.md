@@ -16,7 +16,7 @@ If you were already an OLAT expert, this manual will serve as a work of referenc
 
 #### Manual link
 
-At the top right of the main menu bar there is always access to the OpenOlat manual (this is where you are currently located) and possibly to further help pages, depending on the configuration by the system administrator. Just click on the question mark :fontawesome-solid-circle-question:.
+At the top right of the main menu bar there is always access to the OpenOlat manual (this is where you are currently located) and possibly to further help pages, depending on the configuration by system administrators. Click the question mark :o_icon_o_icon_help: and select "OpenOlat Manual". If the manual is the only help option set up, the manual icon :o_icon_o_icon_manual: appears there directly.
 
 !!! info "Important"
 

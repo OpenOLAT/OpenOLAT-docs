@@ -29,7 +29,7 @@ How to create courses is explained in the chapter ["Creating Courses"](Creating_
 
 ![Entry Test highlighted in the Create menu of the authoring area](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
 
-:fontawesome-solid-square-pen:
+:o_icon_o_FileResource-IMSQTI21_icon:
 
 OpenOlat tests can be used for both examination and practice purposes. In the first case, the course authors can view the test results and assign them to the participants; in the second case, the results are stored anonymously. Each test is available in the standardized format IMS QTI 2.1.
 
@@ -43,7 +43,7 @@ More information on using and creating tests can be found in the chapter ["Creat
 
 ![Entry CP learning content highlighted in the Create menu of the authoring area](assets/learning_resource_cp-content_v1_de.png){ class="aside-right lightbox"}
 
-:fontawesome-solid-box-archive:
+:o_icon_o_FileResource-IMSCP_icon:
 
 A Content Packaging (abbr.: CP) is learning content in a standardized e-learning format. The specification of this data format also comes from [IMS resp. 1EdTech Consortium](http://www.imsglobal.org/ "IMS resp. 1EdTech Consortium"). OpenOlat supports the IMS CP version 1.1.2. CPs are suitable for use in OpenOlat courses or outside of OpenOlat. OpenOlat supports this format so that learning content can be used not only in OpenOlat but in other LMS as well. More information on creating Content Packagings can be found in the chapter ["CP Editor"](../learningresources/CP_Editor.md).
 
@@ -69,7 +69,7 @@ More information on creating wikis can be found in the chapter ["Creating Wikis"
 
 ![Entry Podcast highlighted in the Create menu of the authoring area](assets/learning_resource_podcast_v1_de.png){ class="aside-right lightbox"}
 
-:fontawesome-solid-podcast:
+:o_icon_o_FileResource-PODCAST_icon:
 
 A podcast allows you to upload audio or video files that can then be made available in OpenOlat. Podcasts can either be listened to or watched directly in OpenOlat, or they can be subscribed to in portals such as iTunes in order to copy single episodes to mobile devices later on. Participants can easily rate and comment on episodes.
 
@@ -150,7 +150,7 @@ In addition to the learning resources that are created directly in OpenOlat, the
 
 ### SCORM 1.2
 
-:fontawesome-solid-box-archive:
+:o_icon_o_FileResource-SCORMCP_icon:
 
 Another standardized e-learning format supported by OpenOlat is the SCORM format (version 1.2). SCORM stands for "Sharable Content Object Reference Model" and is a reference model for exchangeable electronic learning content of the ["Advanced Distributed Learning Initiative" (ADL)](http://www.adlnet.gov/). SCORM learning content is suitable for use in OpenOlat courses or outside of OpenOlat. OpenOlat supports this format so that you can use your learning content not only in OpenOlat but also in other LMS.
 

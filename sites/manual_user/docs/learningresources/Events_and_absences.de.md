@@ -314,7 +314,7 @@ Die Achtungsspalte mit diesem Symbol zeigt, ob die festgelegte Anwesenheitsquote
 **Anwesenheit**<br>
 Die Anwesenheitsquote der Person in Prozent. Die Spalte erscheint zusammen mit der Achtungsspalte, wenn für den Kurs die Anwesenheitsquote berechnet wird.
 
-:fontawesome-solid-circle-info:<br>
+:o_icon_o_icon_info:<br>
 Die Infospalte zeigt Angaben, die von der Standardeinstellung abweichen, zum Beispiel einen persönlichen Schwellwert oder einen späteren Kursstart. Beide legen Sie mit dem Stift in der Zeile der Person fest. Der persönliche Schwellwert ist die Anwesenheitsquote, die diese Person erreichen muss.
 
 Wenn Änderungen nicht sofort sichtbar sind, loggen Sie sich bitte aus und wieder ein.

@@ -24,12 +24,12 @@ The following course elements serve in particular to provide and structure cours
 * [:o_icon_o_blog_icon: Blog](../Course_Element_Blog.md)
 * [:o_icon_o_icon_video: Video](../Course_Element_Video.md)
 * [:o_icon_o_livestream_icon: Video Livestream](../Course_Element_Video_Livestream.md)
-* [:octicons-arrow-right-24: Opencast](../Course_Element_Opencast.md)
-* [:octicons-arrow-right-24: edu-sharing](../Course_Element_edu_Sharing.md)
-* [:octicons-arrow-right-24: card2brain flashcards](../Course_Element_card2brain_Flashcards.md)
-* [:octicons-arrow-right-24: Mediasite](../Course_Element_Mediasite.md)
-* [:octicons-arrow-right-24: Edubase](../Course_Element_Edubase.md)
-* [:simple-jupyter: JupyterHub](../Course_Element_JupyterHub.md)
+* [:o_icon_o_opencast_icon: Opencast](../Course_Element_Opencast.md)
+* [:o_icon_o_edusharing_icon: edu-sharing](../Course_Element_edu_Sharing.md)
+* [:o_icon_o_card2brain_icon: card2brain flashcards](../Course_Element_card2brain_Flashcards.md)
+* [:o_icon_o_mediasite_icon: Mediasite](../Course_Element_Mediasite.md)
+* [:o_icon_o_edubase_icon: Edubase](../Course_Element_Edubase.md)
+* [:o_icon_o_jupyter_icon: JupyterHub](../Course_Element_JupyterHub.md)
 
 </div>
 
@@ -46,8 +46,8 @@ The following course elements can be used in particular to test knowledge.
 * [:o_icon_o_iqtest_icon: Test](../Course_Element_Test/index.md)
 * [:o_icon_o_iqself_icon: Self-test](../Course_Element_Self_Test.md)
 * [:o_icon_o_practice_icon: Practice](../Course_Element_Practice.md)
-* [:octicons-arrow-right-24: Video task](../Course_Element_Video_Task.md)
-* [:material-clipboard-file-outline: Form](../Course_Element_Form.md)
+* [:o_icon_o_icon_videotask: Video task](../Course_Element_Video_Task.md)
+* [:o_icon_o_icon_form: Form](../Course_Element_Form.md)
 * [:o_icon_o_survey_icon: Survey](../Course_Element_Survey.md)
 * [:o_icon_o_cl_icon: Checklist](../Course_Element_Checklist.md)
 
@@ -67,7 +67,7 @@ Course elements in this group are mainly used for collaborative work and exchang
 
 * [:o_icon_o_wiki_icon: Wiki](../Course_Element_Wiki.md)
 * [:o_icon_o_fo_icon: Forum](../Course_Element_Forum.md)
-* [:material-file-multiple-outline: File Dialog](../Course_Element_File_Dialog.md)
+* [:o_icon_o_dialog_icon: File Dialog](../Course_Element_File_Dialog.md)
 * [:o_icon_o_pf_icon: Participant Folder](../Course_Element_Participant_Folder.md)
 * [:o_icon_o_cmembers_icon: Participant list](../Course_Element_Participant_List.md)
 
@@ -120,7 +120,7 @@ Additional course elements can be found in the group "Other".
 * [:o_icon_o_sp_icon: HTML-Page](../Course_Element_HTML_Page.md)
 * [:o_icon_o_tu_icon: External Page](../Course_Element_External_Page.md)
 * [:o_icon_o_projectbroker_icon: Topic Assignment](../Course_Element_Topic_Assignment.md)
-* [:octicons-link-24: Link list](../Course_Element_Link_List.md)
+* [:o_icon_o_ll_icon: Link list](../Course_Element_Link_List.md)
 * [:o_icon_o_icon_cns: Selection](../Course_Element_Selection.md)
 
 </div>
