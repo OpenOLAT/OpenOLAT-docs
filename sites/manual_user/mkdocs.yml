@@ -251,12 +251,11 @@ nav:
     - Course:
       - learningresources/General_Information/index.md
       - Create: "learningresources/Creating_Course.md"
-      - Course design:
+      - Learning path course:
         - learningresources/Learning_path_course/index.md
-        - Learning path course:
-          - Create: "learningresources/Creating_learning_path_courses.md"
-          - Course editor: "learningresources/Learning_path_course_Course_editor.md"
-          - Participant view: "learningresources/Learning_path_course_Participant_view.md"
+        - Create: "learningresources/Creating_learning_path_courses.md"
+        - Course editor: "learningresources/Learning_path_course_Course_editor.md"
+        - Participant view: "learningresources/Learning_path_course_Participant_view.md"
       - Toolbar:
         - Info page: "learningresources/Info_page.md"
         - Events: "learningresources/Toolbar_Events.md"
@@ -422,8 +421,7 @@ nav:
       - Blogging: "learningresources/Blog_Blogging.md"
     - Audio:
       - Recording: "learningresources/Audio_Recording.md"
-    - Video:
-      - Administration: "learningresources/Learning_resource_Video.md"
+    - Video: "learningresources/Learning_resource_Video.md"
     - Resource folder: "learningresources/Resource_Folder.md"
     - Form:
       - learningresources/Form/index.md
