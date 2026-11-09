@@ -31,7 +31,7 @@ Sie kennen den Bereich und suchen die Seite, die ihn erklärt. Die Tabelle führ
 |---|---|---|
 | 1 | Portal | [Portal konfigurieren](../basic_concepts/Portal_configuration.de.md) |
 | 2 | Kurse | [Kurse](Courses.de.md) |
-| 3 | Gruppen | [Gruppenverwaltung](Group_Management.de.md) |
+| 3 | Gruppen | [Gruppen](../groups/index.de.md) |
 | 4 | Katalog | [Katalog 2.0](catalog2.0/index.de.md) |
 | 5 | Autorenbereich | [Autorenbereich](Authoring/index.de.md) |
 | 6 | Fragenpool | [Fragenpool](Question_Bank/index.de.md) |

@@ -30,8 +30,8 @@ You know the site and are looking for the page that explains it. The table lists
 | No. in the image | Site | Described on |
 |---|---|---|
 | 1 | Portal | [Portal configuration](../basic_concepts/Portal_configuration.md) |
-| 2 | Courses | [Finding courses](Courses.md) |
-| 3 | Groups | [Group Management](Group_Management.md) |
+| 2 | Courses | [Courses](Courses.md) |
+| 3 | Groups | [Groups](../groups/index.md) |
 | 4 | Catalog | [Catalog 2.0](catalog2.0/index.md) |
 | 5 | Authoring | [Authoring](Authoring/index.md) |
 | 6 | Question bank | [Question Bank](Question_Bank/index.md) |

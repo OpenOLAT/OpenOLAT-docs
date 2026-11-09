@@ -71,7 +71,7 @@ Mit Hilfe einer zusätzlichen Software (Syncher) ist es möglich, die Gruppenbil
 
     Die Informationen dieses Kapitels richten sich vor allem an Kursteilnehmer:innen, Betreuer:innen und Kursbesitzer:innen (Autor:innen).
 
-    Sind Sie ausserdem mit der Verwaltung der Gruppen beauftragt, stehen Ihnen weitere Aktionen zur Verfügung. Sie finden weitere Informationen dazu im Kapitel [Gruppenverwaltung](../area_modules/Group_Management.de.md).
+    Sind Sie ausserdem mit der Verwaltung der Gruppen beauftragt, stehen Ihnen weitere Aktionen zur Verfügung. Sie finden weitere Informationen dazu auf der Seite [Gruppenverwaltung](../area_modules/Group_Management.de.md).
 
 
 [Zum Seitenanfang ^](#groups)

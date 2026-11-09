@@ -67,7 +67,7 @@ With the help of additional software (Syncher), it is also possible to carry out
 
     The information in this chapter is primarily intended for course participants, coaches and course owners (authors).
 
-    If you are also in charge of managing the groups, further actions are available to you. You will find more information about this in the chapter [Group management](../area_modules/Group_Management.md).
+    If you are also in charge of managing the groups, further actions are available to you. You will find more information about this on the page [Group management](../area_modules/Group_Management.md).
 
 [To the top of the page ^](#groups)
 
