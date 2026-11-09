@@ -5,7 +5,7 @@
 
 If several people correct tests by hand, or if participants are distributed among coaches, the Order management keeps track of who still has what to do. The menu combines two areas: the correction workflow for the manual assessment of OpenOlat tests, and the open assignments of coaches to participants.
 
-The [Correction workflow](../learningresources/Test_settings.md) can be activated in the learning resource Test. You can then assign tests to one or more people as correctors. The two tabs of the correction workflow are seen by administrators, learning resource managers and owners of a test for which this option has been activated. The tab "Open assignments" has its own requirements, they are described in its section.
+The [Correction workflow](../learningresources/Test_correction_workflow.md) can be activated in the learning resource Test. You can then assign tests to one or more people as correctors. The two tabs of the correction workflow are seen by administrators, learning resource managers and owners of a test for which this option has been activated. The tab "Open assignments" has its own requirements, they are described in its section.
 
 [To the top of the page ^](#order_management)
 
@@ -31,9 +31,9 @@ The column "Status" shows whether a corrector is activated or deactivated. The c
 
 Use the button "Add corrector" to add further correctors to a test. You can deactivate existing assignments.
 
-It is also possible to add correctors directly to the respective [test learning resource](../learningresources/Test_settings.md).
+It is also possible to add correctors directly to the respective [test learning resource](../learningresources/Test_correction_workflow.md#tab_correctors).
 
-In the row menu of a corrector, open the entry "Download report" to generate an Excel file with the state of the grading assignments of this corrector. The structure and filters of the report are described in the section [Test settings, Report / Excel export](../learningresources/Test_settings.md#correction-workflow). [:octicons-tag-16:{ title="from Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
+In the row menu of a corrector, open the entry "Download report" to generate an Excel file with the state of the grading assignments of this corrector. The structure and filters of the report are described in the section [Test: Correction workflow, Report / Excel export](../learningresources/Test_correction_workflow.md#report_export). [:octicons-tag-16:{ title="from Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
 
 The same row menu leads to the further actions: "Show assignments" switches to the tab "Grading assignments" with the assignments of this person, "Contact corrector" opens an e-mail, "Set absence leave" records an absence which then appears in the column "Absence leave", and "Remove" withdraws the person as a corrector and redistributes their assignments. If a corrector is deactivated, the entry "Activate" is available instead of "Deactivate".
 
@@ -50,7 +50,7 @@ The same row menu leads to the further actions: "Show assignments" switches to t
 
 If you want to know which test is currently with whom and what is overdue, you find here all grading assignments of your tests with the responsible corrector and their state.
 
-Use the button "Report" to generate the Excel report about the displayed grading assignments. The structure and filters of the report are described in the section [Test settings, Report / Excel export](../learningresources/Test_settings.md#correction-workflow).
+Use the button "Report" to generate the Excel report about the displayed grading assignments. The structure and filters of the report are described in the section [Test: Correction workflow, Report / Excel export](../learningresources/Test_correction_workflow.md#report_export).
 
 ![For selected grading assignments the actions assign corrector, change corrector, contact corrector, extend deadline and remove.](assets/coaching_order_management_tab_grading_assignments_v1_de.png){ class="shadow lightbox" title="Tab Grading assignments of the Order management" }
 
@@ -82,7 +82,7 @@ The tab displays the course elements "Task" for which the "Assignment coaches/pa
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Test settings - Administration >](../learningresources/Test_settings.md)<br>
+[Test: Correction workflow >](../learningresources/Test_correction_workflow.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)
 
 **Further reading**<br>

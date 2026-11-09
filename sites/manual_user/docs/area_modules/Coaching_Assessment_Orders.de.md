@@ -40,7 +40,7 @@ Die Seiten, auf denen Besitzer:innen die jeweilige Einstellung setzen:
 * **Offene Bewertungen**: [Test einrichten](../learningresources/Course_Element_Test/Test_Setup.de.md#section_correction), [Kursbaustein Aufgabe](../learningresources/Course_Element_Task/index.de.md), [Kursbaustein Bewertung](../learningresources/Course_Element_Assessment.de.md)
 * **Offene Einstufungen/Noten**: [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md)
 * **Freizugebende Bewertungen**: [Test einrichten](../learningresources/Course_Element_Test/Test_Setup.de.md#section_correction), [Kurseinstellungen, Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment/index.de.md#section_assessment_rights)
-* **Korrekturaufträge**: [Test Einstellungen](../learningresources/Test_settings.de.md#correction-workflow)
+* **Korrekturaufträge**: [Test: Korrektur-Workflow](../learningresources/Test_correction_workflow.de.md)
 
 Der Kursbaustein muss dafür bewertbar und auf manuelle Bewertung gestellt sein, Punkte oder "Bestanden" werden also am Kursbaustein gesetzt. Steht die Korrektur eines Tests auf "Automatisch", wertet OpenOlat den Test selbst aus und gibt das Resultat sofort frei; das Gleiche gilt für die Zuweisung "Automatisch bei Punktänderungen" bei Einstufung und Noten.
 
@@ -142,7 +142,7 @@ Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [A
 [Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Bewertung" >](../../manual_user/learningresources/Course_Element_Assessment.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Test: Korrektur-Workflow >](../../manual_user/learningresources/Test_correction_workflow.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
 

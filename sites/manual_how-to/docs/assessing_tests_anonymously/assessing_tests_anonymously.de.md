@@ -37,7 +37,7 @@ OpenOlat kennt dafür zwei Wege. Welcher gilt, entscheidet die Einstellung "Korr
 
 ## Anonyme Korrektur in OpenOlat einrichten {: #configuration}
 
-Sollen Korrektor:innen einen Test anonym korrigieren, richten Besitzer:innen des Tests dafür den Korrektur-Workflow in der Test-Lernressource ein. Die Option "Anonym" bei "Identität der Prüflinge" gilt für alle Korrekturaufträge dieses Tests. Alle Einstellungen des Korrektur-Workflows beschreibt die Seite [Test Einstellungen - Administration](../../manual_user/learningresources/Test_settings.de.md#correction-workflow).
+Sollen Korrektor:innen einen Test anonym korrigieren, richten Besitzer:innen des Tests dafür den Korrektur-Workflow in der Test-Lernressource ein. Die Option "Anonym" bei "Identität der Prüflinge" gilt für alle Korrekturaufträge dieses Tests. Alle Einstellungen des Korrektur-Workflows beschreibt die Seite [Test: Korrektur-Workflow](../../manual_user/learningresources/Test_correction_workflow.de.md).
 
 Damit Korrektor:innen ihre Aufträge im Coaching sehen, ist der Korrektur-Workflow zudem in der System-Administration eingeschaltet: `Administration > e-Assessment > Test > Tab "Korrektur-Workflow"`, Kontrollkästchen "Korrektur Workflow einschalten". Voreingestellt ist er eingeschaltet.
 
@@ -197,7 +197,7 @@ Mehr zu den Korrekturaufträgen im Coaching: [Coaching - Bewertungsaufträge](..
 ## Weiterführende Informationen {: #further_information}
 
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Test: Korrektur-Workflow >](../../manual_user/learningresources/Test_correction_workflow.de.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.de.md)<br>
 [Coaching Tool >](../../manual_user/area_modules/Coaching/index.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>

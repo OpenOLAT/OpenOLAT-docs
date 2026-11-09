@@ -213,6 +213,7 @@ plugins:
           Copy : Kopieren
           Copy with wizard : Kopieren mit Wizard
           Core functions : Core-Konfiguration
+          Correction workflow : Korrektur-Workflow
           Course : Kurs
           Course design : Kursdesign
           Courses : Kurse
@@ -316,6 +317,7 @@ plugins:
           Expert mode : Expertenmodus
           Export : Exportieren
           Export content : Inhalt exportieren
+          Export handwritten exams : Handschriftliche Prüfungen generieren
           External catalog : Externer Katalog
           External Page : Externe Seite
           External platforms : Externe Platformen

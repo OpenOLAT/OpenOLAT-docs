@@ -255,7 +255,7 @@ If the test does not belong to a course, for example in the test statistics of a
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [Configure test questions >](Configure_test_questions.md)<br>
 [Configure tests >](Configure_tests.md)<br>
-[Test settings - Administration >](Test_settings.md)
+[Test: Settings >](Test_settings.md)
 
 [To the top of the page ^](#test_export)
 

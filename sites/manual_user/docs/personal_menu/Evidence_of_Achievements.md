@@ -78,7 +78,7 @@ If the evidence of achievement is activated in a course, participants find the e
 [Badges under Achievements/Successes >](OpenBadges.md)<br>
 [Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
 [Badges in the eAssessment administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
-[Create test receipt: Test settings >](../learningresources/Test_settings.md)<br>
+[Test: Settings >](../learningresources/Test_settings.md)<br>
 [Validate test receipt: Assessing tests >](../learningresources/Assessing_tests.md)
 
 [To the top of the page ^](#evidence_of_achievements)

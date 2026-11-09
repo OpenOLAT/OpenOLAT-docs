@@ -271,6 +271,6 @@ Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder g
 
 **Weiterführend**<br>
 [Prüfungsverwaltung: Prüfungseinsicht >](Assessment_inspection.de.md)<br>
-[Test Einstellungen - Administration >](Test_settings.de.md)
+[Test: Einstellungen >](Test_settings.de.md)
 
 [Zum Seitenanfang ^](#Assessment_mode)

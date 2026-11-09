@@ -127,6 +127,6 @@ Ist die Sichtbarkeit des Sektionstitels im Tab "Expert" aktiviert, so wird auch 
 [Einstufung/Noten >](Assessment_translate_points_in_grades.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
-[Test Einstellungen - Administration >](Test_settings.de.md)
+[Test: Einstellungen >](Test_settings.de.md)
 
 [Zum Seitenanfang ^](#test-konfigurieren)

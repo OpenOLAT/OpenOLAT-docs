@@ -62,7 +62,8 @@ Möglicherweise haben Sie bereits eine Testdatei im IMS-QTI-Format aus einem and
 [Test Fragetypen >](../Test_question_types.de.md)<br>
 [Testfragen konfigurieren >](../Configure_test_questions.de.md)<br>
 [Test konfigurieren >](../Configure_tests.de.md)<br>
-[Test Einstellungen - Administration >](../Test_settings.de.md)<br>
+[Test: Administration >](../Test_administration/index.de.md)<br>
+[Test: Einstellungen >](../Test_settings.de.md)<br>
 [Tests auf Kursebene >](../Tests_at_course_level.de.md)<br>
 [Tests exportieren >](../Test_export.de.md)
 

@@ -40,7 +40,7 @@ The pages on which owners make the respective setting:
 * **Open reviews**: [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction), [Course Element "Task"](../learningresources/Course_Element_Task/index.md), [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)
 * **Open levels/gradings**: [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md)
 * **Reviews to release**: [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction), [Course settings, section Assessment rights](../learningresources/Course_Settings_Assessment/index.md#section_assessment_rights)
-* **Grading assignments**: [Test settings](../learningresources/Test_settings.md#correction-workflow)
+* **Grading assignments**: [Test: Correction workflow](../learningresources/Test_correction_workflow.md)
 
 The course element must be assessable and set to manual assessment, which means points or "Passed" are set at the course element. If the correction of a test is set to "Automatic", OpenOlat evaluates the test itself and releases the result immediately; the same applies to the assignment "Automatically on score change" for levels and grading.
 
@@ -142,7 +142,7 @@ The management of all correctors and their assignments, on the other hand, is do
 [Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Assessment" >](../../manual_user/learningresources/Course_Element_Assessment.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
 

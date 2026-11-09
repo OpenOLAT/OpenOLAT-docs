@@ -383,7 +383,7 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Badges >](../../manual_user/learningresources/OpenBadges.de.md)<br>
 [Kursbaustein "Struktur" >](../../manual_user/learningresources/Course_Element_Structure.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Test: Einstellungen >](../../manual_user/learningresources/Test_settings.de.md)<br>
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
 [Persönliches Menü >](../../manual_user/personal_menu/index.de.md)
 

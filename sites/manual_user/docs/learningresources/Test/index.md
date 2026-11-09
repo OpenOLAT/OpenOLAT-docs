@@ -61,7 +61,8 @@ You may have already exported a test file in IMS QTI format from another LMS and
 [Test question types >](../Test_question_types.md)<br>
 [Configure test questions >](../Configure_test_questions.md)<br>
 [Configure tests >](../Configure_tests.md)<br>
-[Test settings - Administration >](../Test_settings.md)<br>
+[Test: Administration >](../Test_administration/index.md)<br>
+[Test: Settings >](../Test_settings.md)<br>
 [Tests at course level >](../Tests_at_course_level.md)<br>
 [Export tests >](../Test_export.md)
 

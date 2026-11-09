@@ -50,7 +50,7 @@ Als Betreuer:in ohne Besitzrecht ändern Sie diese Einstellung nur, wenn Ihnen i
 Soll manuell korrigiert werden? Sobald eine teilnehmende Person den Test abschliesst, erstellt OpenOlat einen Bewertungsauftrag. Wer ihn erhält, hängt von der gewählten Variante ab:
 
 * **Manuell durch Kursbetreuer:in oder -besitzer:in**: Der Auftrag steht bei allen Betreuenden der Person und bei den Kursbesitzer:innen, unter `Coaching > Bewertungsaufträge > Tab "Offene Bewertungen"`. Eine Zuweisung an eine bestimmte Person gibt es bei dieser Variante nicht.
-* **Manuell durch Korrektor:innen**: OpenOlat weist den Auftrag einer Person zu, die im Korrektur-Workflow der Lernressource Test eingetragen ist. Diese Variante steht zur Wahl, sobald die Besitzer:innen des Tests in der Lernressource Test den [Korrektur-Workflow](../../manual_user/learningresources/Test_settings.de.md#correction-workflow) eingeschaltet haben. Korrektor:innen brauchen keine Mitgliedschaft im Kurs. Sie finden den Auftrag als Korrekturauftrag unter `Coaching > Bewertungsaufträge > Tab "Korrekturaufträge"`.
+* **Manuell durch Korrektor:innen**: OpenOlat weist den Auftrag einer Person zu, die im Korrektur-Workflow der Lernressource Test eingetragen ist. Diese Variante steht zur Wahl, sobald die Besitzer:innen des Tests in der Lernressource Test den [Korrektur-Workflow](../../manual_user/learningresources/Test_correction_workflow.de.md) eingeschaltet haben. Korrektor:innen brauchen keine Mitgliedschaft im Kurs. Sie finden den Auftrag als Korrekturauftrag unter `Coaching > Bewertungsaufträge > Tab "Korrekturaufträge"`.
 
 Ist beim Abschluss keine Korrektor:in verfügbar, wartet der Korrekturauftrag mit dem Status "Nicht zugeordnet" unter `Coaching > Auftragsverwaltung > Tab "Korrekturaufträge"`. Dort weisen Besitzer:innen des Tests, Lernressourcenverwalter:innen oder Administrator:innen ihn einer Korrektor:in zu, und er erscheint in deren Tab "Korrekturaufträge".
 
@@ -286,7 +286,7 @@ Welche Sammelaktionen erscheinen, hängt von der Konfiguration des Kursbausteins
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../test_creation_procedure/test_creation_procedure.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Test: Korrektur-Workflow >](../../manual_user/learningresources/Test_correction_workflow.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Test einrichten >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.de.md)<br>

@@ -5,7 +5,7 @@ The test statistics allow you to perform a course-related, anonymous statistical
 
 You open the test statistics in the course administration under:<br>`Course > Administration > Test statistics`
 
-You can also open the evaluation of a single test with the "Test Statistics" button in the "Participants" tab of the "Test" course element, see [Export tests](Test_export.md#export_results). For a test learning resource with the usage "Standalone", the menu item in its administration is called "Test statistics", see [Test settings - Administration](Test_settings.md).
+You can also open the evaluation of a single test with the "Test Statistics" button in the "Participants" tab of the "Test" course element, see [Export tests](Test_export.md#export_results). For a test learning resource with the usage "Standalone", the menu item in its administration is called "Test statistics", see [Test: Administration](Test_administration/index.md).
 
 ![Test statistics menu item marked in the open Administration menu of a course](assets/statistics_test_v2_en.png){ class="shadow lightbox" title="Administration menu of a course · 2026.10.07" }
 
@@ -35,7 +35,7 @@ A high number of adjustments indicates that the question or its solution should 
 
 **Mentioned on this page**<br>
 [Export tests >](Test_export.md)<br>
-[Test settings - Administration >](Test_settings.md)<br>
+[Test: Administration >](Test_administration/index.md)<br>
 [Members management >](Members_management.md)<br>
 [Assessing tests >](Assessing_tests.md)
 

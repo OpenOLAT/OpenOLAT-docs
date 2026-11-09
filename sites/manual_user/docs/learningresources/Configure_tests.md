@@ -127,6 +127,6 @@ If the visibility of the section title in the "Expert" tab is activated, the res
 [Levels/Grading >](Assessment_translate_points_in_grades.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Test editor >](Test_editor_QTI_2.1/index.md)<br>
-[Test settings - Administration >](Test_settings.md)
+[Test: Settings >](Test_settings.md)
 
 [To the top of the page ^](#configure-tests)

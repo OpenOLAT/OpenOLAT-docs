@@ -80,7 +80,7 @@ Drei Optionen stehen zur Auswahl:
 
 !!! info "Wichtig"
 
-    Die Option "Manuell durch Korrektor:innen" steht zur Auswahl, wenn in der Lernressource Test der [Korrektur-Workflow](../Test_settings.de.md#correction-workflow) eingeschaltet ist. Korrektor:innen werden unabhängig vom Kursbaustein direkt an der Lernressource Test verwaltet und gelten kursübergreifend. Ist der Korrektur-Workflow eingeschaltet und eine andere Option gewählt, zeigt der Abschnitt "Korrektur" einen Hinweis: Mit dieser Einstellung entstehen keine Korrekturaufträge, empfohlen ist "Manuell durch Korrektor:innen".
+    Die Option "Manuell durch Korrektor:innen" steht zur Auswahl, wenn in der Lernressource Test der [Korrektur-Workflow](../Test_correction_workflow.de.md) eingeschaltet ist. Korrektor:innen werden unabhängig vom Kursbaustein direkt an der Lernressource Test verwaltet und gelten kursübergreifend. Ist der Korrektur-Workflow eingeschaltet und eine andere Option gewählt, zeigt der Abschnitt "Korrektur" einen Hinweis: Mit dieser Einstellung entstehen keine Korrekturaufträge, empfohlen ist "Manuell durch Korrektor:innen".
 
 #### Freigabe Bewertung {: #release_assessment}
 
@@ -128,7 +128,7 @@ Je nach Kombination der Anzeigeoptionen erhalten die Teilnehmenden unterschiedli
 
 ## Tab "Optionen" {: #tab_options}
 
-Binden Sie einen Test in einen Kurs ein, übernimmt OpenOlat standardmässig die Einstellungen aus der Konfiguration der Lernressource Test (siehe [Test Einstellungen](../Test_settings.de.md) und [Test konfigurieren](../Configure_tests.de.md)). Im Tab "Optionen" ist deshalb "Konfiguration von Lernressource übernehmen" vorausgewählt, und der Tab zeigt die Einstellungen der Lernressource Test an.
+Binden Sie einen Test in einen Kurs ein, übernimmt OpenOlat standardmässig die Einstellungen aus der Konfiguration der Lernressource Test (siehe [Test: Einstellungen](../Test_settings.de.md) und [Test konfigurieren](../Configure_tests.de.md)). Im Tab "Optionen" ist deshalb "Konfiguration von Lernressource übernehmen" vorausgewählt, und der Tab zeigt die Einstellungen der Lernressource Test an.
 
 Wollen Sie die Einstellungen für den im Kurs eingebundenen Test ändern, wählen Sie "Konfiguration anpassen" und passen die Einstellungen an. Beispielsweise definieren Sie eine Zeitbeschränkung, schränken die Anzahl der Lösungsversuche ein oder erlauben Gästen, den Test zu absolvieren. Darüber hinaus konfigurieren Sie verschiedene Darstellungsoptionen.
 
@@ -220,8 +220,9 @@ Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > T
 [Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment/index.de.md)<br>
 [Test Fragetypen >](../Test_question_types.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Test Einstellungen - Administration >](../Test_settings.de.md)<br>
+[Test: Korrektur-Workflow >](../Test_correction_workflow.de.md)<br>
 [Test konfigurieren >](../Configure_tests.de.md)<br>
+[Test: Einstellungen >](../Test_settings.de.md)<br>
 [Kursbaustein "E-Mail" >](../Course_Element_EMail.de.md)<br>
 [Erinnerungen >](../Course_Reminders.de.md)<br>
 [Badges >](../OpenBadges.de.md)

@@ -52,6 +52,8 @@ If OpenOlat exams are printed as handwritten exams, an additional page can be at
 
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
 [Coaching - Overview >](../../manual_user/area_modules/Coaching/index.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Test: Settings >](../../manual_user/learningresources/Test_settings.md)<br>
+[Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
+[Test: Export handwritten exams >](../../manual_user/learningresources/Test_handwritten_exams.md)
 
 [To the top of the page ^](#test)

@@ -5,7 +5,7 @@
 
 Wenn mehrere Personen Tests von Hand korrigieren oder wenn Teilnehmende auf betreuende Personen verteilt werden, behalten Sie in der Auftragsverwaltung den Überblick darüber, wer was noch zu erledigen hat. Das Menü fasst dafür zwei Bereiche zusammen: den Korrektur-Workflow für die manuelle Bewertung von OpenOlat Tests und die offenen Zuweisungen von Betreuenden zu Teilnehmenden.
 
-In der Lernressource Test kann der [Korrektur-Workflow](../learningresources/Test_settings.de.md) aktiviert werden. Sie können dann Tests zu einer oder mehreren Personen als Korrektor:innen zuordnen. Die beiden Tabs zum Korrektur-Workflow sehen Administrator:innen, Lernressourcenverwalter:innen und Besitzer:innen eines Tests, bei dem diese Option aktiviert wurde. Der Tab "Offene Zuweisungen" hat eigene Voraussetzungen, sie stehen in dessen Abschnitt.
+In der Lernressource Test kann der [Korrektur-Workflow](../learningresources/Test_correction_workflow.de.md) aktiviert werden. Sie können dann Tests zu einer oder mehreren Personen als Korrektor:innen zuordnen. Die beiden Tabs zum Korrektur-Workflow sehen Administrator:innen, Lernressourcenverwalter:innen und Besitzer:innen eines Tests, bei dem diese Option aktiviert wurde. Der Tab "Offene Zuweisungen" hat eigene Voraussetzungen, sie stehen in dessen Abschnitt.
 
 [Zum Seitenanfang ^](#order_management)
 
@@ -31,9 +31,9 @@ Die Spalte "Status" zeigt, ob eine Korrektor:in aktiviert oder deaktiviert ist. 
 
 Über den Button "Korrektor:in hinzufügen" fügen Sie einem Test weitere Korrektor:innen hinzu. Bestehende Zuordnungen können Sie deaktivieren.
 
-Ein Hinzufügen von Korrektor:innen ist ebenfalls direkt bei der jeweiligen [Test-Lernressource](../learningresources/Test_settings.de.md) möglich.
+Ein Hinzufügen von Korrektor:innen ist ebenfalls direkt bei der jeweiligen [Test-Lernressource](../learningresources/Test_correction_workflow.de.md#tab_correctors) möglich.
 
-Im Zeilenmenü einer Korrektor:in öffnen Sie den Eintrag "Report herunterladen" und erzeugen so eine Excel-Datei mit dem Stand der Korrekturaufträge dieser Korrektor:in. Aufbau und Filter des Reports beschreibt der Abschnitt [Test-Einstellungen, Report / Excel-Export](../learningresources/Test_settings.de.md#correction-workflow). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
+Im Zeilenmenü einer Korrektor:in öffnen Sie den Eintrag "Report herunterladen" und erzeugen so eine Excel-Datei mit dem Stand der Korrekturaufträge dieser Korrektor:in. Aufbau und Filter des Reports beschreibt der Abschnitt [Test: Korrektur-Workflow, Report / Excel-Export](../learningresources/Test_correction_workflow.de.md#report_export). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
 
 Dasselbe Zeilenmenü führt zu den weiteren Aktionen: "Zuweisungen anzeigen" wechselt in den Tab "Korrekturaufträge" mit den Aufträgen dieser Person, "Korrektor:in kontaktieren" öffnet eine E-Mail, "Abwesenheit erfassen" hinterlegt eine Abwesenheit, die anschliessend in der Spalte "Urlaub" erscheint, und "Entfernen" nimmt die Person als Korrektor:in zurück und verteilt ihre Zuweisungen neu. Ist eine Korrektor:in deaktiviert, steht statt "Deaktivieren" der Eintrag "Aktivieren" zur Verfügung.
 
@@ -50,7 +50,7 @@ Dasselbe Zeilenmenü führt zu den weiteren Aktionen: "Zuweisungen anzeigen" wec
 
 Wollen Sie wissen, welcher Test gerade bei wem liegt und was davon überfällig ist, finden Sie hier alle Korrekturaufträge Ihrer Tests mit der zuständigen Korrektor:in und deren Stand.
 
-Über den Button "Bericht" erzeugen Sie den Excel-Report über die angezeigten Korrekturaufträge. Aufbau und Filter des Reports beschreibt der Abschnitt [Test-Einstellungen, Report / Excel-Export](../learningresources/Test_settings.de.md#correction-workflow).
+Über den Button "Bericht" erzeugen Sie den Excel-Report über die angezeigten Korrekturaufträge. Aufbau und Filter des Reports beschreibt der Abschnitt [Test: Korrektur-Workflow, Report / Excel-Export](../learningresources/Test_correction_workflow.de.md#report_export).
 
 ![Zu ausgewählten Korrekturaufträgen die Aktionen Korrektor:in wählen, wechseln, kontaktieren, Frist verlängern und Entfernen.](assets/coaching_order_management_tab_grading_assignments_v1_de.png){ class="shadow lightbox" title="Tab Korrekturaufträge der Auftragsverwaltung" }
 
@@ -82,7 +82,7 @@ Angezeigt werden die Kursbausteine "Aufgabe", bei denen die "Zuweisung Betreuend
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Test Einstellungen - Administration >](../learningresources/Test_settings.de.md)<br>
+[Test: Korrektur-Workflow >](../learningresources/Test_correction_workflow.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)
 
 **Weiterführend**<br>

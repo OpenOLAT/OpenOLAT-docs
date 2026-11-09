@@ -5,7 +5,7 @@ Die Teststatistiken erlauben eine kursbezogene, anonymisierte statistische Auswe
 
 Sie öffnen die Teststatistiken in der Kurs-Administration unter:<br>`Kurs > Administration > Teststatistiken`
 
-Die Auswertung eines einzelnen Tests öffnen Sie auch mit dem Button "Teststatistiken" im Tab "Teilnehmer:innen" des Kursbausteins "Test", siehe [Tests exportieren](Test_export.de.md#export_results). Bei einer Test-Lernressource mit dem Verwendungszweck "Eigenständig" heisst der Menüpunkt in ihrer Administration "Test Statistik", siehe [Test Einstellungen - Administration](Test_settings.de.md).
+Die Auswertung eines einzelnen Tests öffnen Sie auch mit dem Button "Teststatistiken" im Tab "Teilnehmer:innen" des Kursbausteins "Test", siehe [Tests exportieren](Test_export.de.md#export_results). Bei einer Test-Lernressource mit dem Verwendungszweck "Eigenständig" heisst der Menüpunkt in ihrer Administration "Test Statistik", siehe [Test: Administration](Test_administration/index.de.md).
 
 ![Menüpunkt Teststatistiken im geöffneten Menü Administration eines Kurses markiert](assets/statistics_test_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.10.07" }
 
@@ -35,7 +35,7 @@ Eine hohe Zahl von Anpassungen deutet darauf hin, dass die Frage oder ihre Lösu
 
 **Auf dieser Seite erwähnt**<br>
 [Tests exportieren >](Test_export.de.md)<br>
-[Test Einstellungen - Administration >](Test_settings.de.md)<br>
+[Test: Administration >](Test_administration/index.de.md)<br>
 [Mitgliederverwaltung >](Members_management.de.md)<br>
 [Tests bewerten >](Assessing_tests.de.md)
 

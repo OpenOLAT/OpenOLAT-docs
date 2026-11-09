@@ -80,7 +80,7 @@ Three options are available:
 
 !!! info "Important"
 
-    The option "Manual by correctors" is available if the [correction workflow](../Test_settings.md#correction-workflow) is switched on in the learning resource Test. Correctors are managed independently of the course element, directly on the Test learning resource, and apply across courses. If the correction workflow is switched on and another option is selected, the "Correction" section shows a hint: with this setting no grading assignments are generated, "Manual by correctors" is recommended.
+    The option "Manual by correctors" is available if the [correction workflow](../Test_correction_workflow.md) is switched on in the learning resource Test. Correctors are managed independently of the course element, directly on the Test learning resource, and apply across courses. If the correction workflow is switched on and another option is selected, the "Correction" section shows a hint: with this setting no grading assignments are generated, "Manual by correctors" is recommended.
 
 #### Release assessment {: #release_assessment}
 
@@ -128,7 +128,7 @@ Depending on the combination of display options, the participants receive differ
 
 ## Tab "Options" {: #tab_options}
 
-If you include a test in a course, OpenOlat takes over the settings from the configuration of the learning resource "Test" by default (see [Test Settings](../Test_settings.md) and [Configure Test](../Configure_tests.md)). Therefore, in the "Options" tab, "Apply configuration from learning resource" is preselected, and the tab shows the settings of the learning resource Test.
+If you include a test in a course, OpenOlat takes over the settings from the configuration of the learning resource "Test" by default (see [Test: Settings](../Test_settings.md) and [Configure Test](../Configure_tests.md)). Therefore, in the "Options" tab, "Apply configuration from learning resource" is preselected, and the tab shows the settings of the learning resource Test.
 
 If you want to change the settings for the test included in the course, select "Customize configuration" and adjust the settings. For example, you define a time limit, restrict the number of solution attempts or allow guests to take the test. In addition, you configure various display options.
 
@@ -220,8 +220,9 @@ If owners of the course have activated the awarding of badges under `Course > Ad
 [Course Settings - Tab Assessment >](../Course_Settings_Assessment/index.md)<br>
 [Test question types >](../Test_question_types.md)<br>
 [Coaching - Assessment Orders >](../../area_modules/Coaching_Assessment_Orders.md)<br>
-[Test settings - Administration >](../Test_settings.md)<br>
+[Test: Correction workflow >](../Test_correction_workflow.md)<br>
 [Configure tests >](../Configure_tests.md)<br>
+[Test: Settings >](../Test_settings.md)<br>
 [Course Element "E-Mail" >](../Course_Element_EMail.md)<br>
 [Course Reminders >](../Course_Reminders.md)<br>
 [Badges >](../OpenBadges.md)

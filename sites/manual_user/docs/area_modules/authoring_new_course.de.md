@@ -78,7 +78,7 @@ Externe Medien lassen sich auch per URL einbinden, ohne die Datei nach OpenOlat 
 
 ![Eintrag Per URL einbinden im Auswahlmenü neben dem Button Datei importieren](assets/authoring_embed_via_url_v2_de.png){ class="shadow lightbox" title="Auswahlmenü im Autorenbereich" }
 
-OpenOlat erkennt anhand der URL automatisch den passenden Ressourcentyp und legt eine entsprechende Lernressource an, in der das Medium verlinkt ist. Bei Videos entsteht so eine [Lernressource Video](../learningresources/Learning_resource_Video.de.md); sämtliche Funktionen des OpenOlat Video-Editors stehen anschliessend zur Verfügung.
+OpenOlat erkennt anhand der URL automatisch den passenden Ressourcentyp und legt eine entsprechende Lernressource an, in der das Medium verlinkt ist. Bei Videos entsteht so eine [Lernressource Video](../learningresources/Learning_resource_Video.de.md); sämtliche Funktionen des OpenOlat Videoeditors stehen anschliessend zur Verfügung.
 
 ![URL eines YouTube-Videos eingetragen, Typ Video erkannt und Titel der Lernressource aus der Quelle vorausgefüllt](assets/authoring_embed_via_url_dialogue_v1_de.png){ class="shadow lightbox" title="Dialog Per URL einbinden" }
 

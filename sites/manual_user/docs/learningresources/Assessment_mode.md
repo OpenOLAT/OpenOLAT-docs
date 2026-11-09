@@ -271,7 +271,7 @@ The assessment mode is also ended when the corresponding course is ended or dele
 
 **Further reading**<br>
 [Assessment management: assessment inspection >](Assessment_inspection.md)<br>
-[Test settings - Administration >](Test_settings.md)
+[Test: Settings >](Test_settings.md)
 
 [To the top of the page ^](#Assessment_mode)
 

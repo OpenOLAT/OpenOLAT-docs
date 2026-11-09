@@ -51,7 +51,7 @@ As a coach without ownership, you only change this setting if you have been gran
 Should the test be corrected manually? As soon as a participant completes the test, OpenOlat creates an assessment order. Who receives it depends on the selected variant:
 
 * **Manual by course coach/owner**: The order is listed for all coaches of the person and for the course owners, under `Coaching > Assessment orders > Tab "Open reviews"`. With this variant, there is no assignment to a specific person.
-* **Manual by correctors**: OpenOlat assigns the order to a person who is entered in the correction workflow of the learning resource Test. This variant is available as soon as the owners of the test have switched on the [correction workflow](../../manual_user/learningresources/Test_settings.md#correction-workflow) in the learning resource Test. Correctors do not need a membership in the course. They find the order as a grading assignment under `Coaching > Assessment orders > Tab "Grading assignments"`.
+* **Manual by correctors**: OpenOlat assigns the order to a person who is entered in the correction workflow of the learning resource Test. This variant is available as soon as the owners of the test have switched on the [correction workflow](../../manual_user/learningresources/Test_correction_workflow.md) in the learning resource Test. Correctors do not need a membership in the course. They find the order as a grading assignment under `Coaching > Assessment orders > Tab "Grading assignments"`.
 
 If no corrector is available at completion, the grading assignment waits with the status "Unassigned" under `Coaching > Order management > Tab "Grading assignments"`. There, owners of the test, learning resource managers or administrators assign it to a corrector, and it appears in that person's tab "Grading assignments".
 
@@ -285,7 +285,7 @@ Which bulk actions appear depends on the configuration of the course element and
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [How do I proceed when I create a test? >](../test_creation_procedure/test_creation_procedure.md)<br>
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
 [Coaching - Assessment Orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
 [Set up a test >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.md)<br>

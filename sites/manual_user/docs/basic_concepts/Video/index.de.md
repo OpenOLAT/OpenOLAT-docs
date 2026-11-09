@@ -9,7 +9,7 @@ Videos können in OpenOlat entweder als eigenständiges Element (z. B. als [Lern
 
 Je nach Einbindung werden Videos entweder direkt in OpenOlat angezeigt und können manuell oder automatisch gestartet werden, oder sie liegen als Datei vor und können heruntergeladen werden.
 
-Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../../learningresources/Learning_resource_Video.de.md). Eine Video-Lernressource kann in Kursen über verschiedene Kursbausteine eingebunden werden, mit Metadaten versehen und über den Video-Editor weiter ausgestaltet werden. Lernressourcen werden im Autorenbereich erstellt und verwaltet und unter "Meine Einträge" aufgelistet.
+Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../../learningresources/Learning_resource_Video.de.md). Eine Video-Lernressource kann in Kursen über verschiedene Kursbausteine eingebunden werden, mit Metadaten versehen und über den Videoeditor weiter ausgestaltet werden. Lernressourcen werden im Autorenbereich erstellt und verwaltet und unter "Meine Einträge" aufgelistet.
 
 Weitere Details zur [Lernressource Video](../../learningresources/Learning_resource_Video.de.md) finden Sie im zugehörigen Kapitel.
 

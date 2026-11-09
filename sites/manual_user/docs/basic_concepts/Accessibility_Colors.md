@@ -21,7 +21,7 @@ B) If no alternative color is possible for the links, the automatic contrast adj
 
 We make sure that the contrast (especially of the primary colors) enables particularly good legibility. For example, the **color selection tool** only contains colors that have been tested for contrast.
 
-![Twelve contrast-tested colors, each with white text on the color swatch as a legibility sample, in the Color dropdown of the Annotations tab in the video editor](assets/accessability_color_chooser_v1_de.png){ class="shadow lightbox" }
+![Twelve contrast-tested colors, each with white text on the color swatch as a legibility sample, in the Color dropdown](assets/accessability_color_chooser_v1_de.png){ class="shadow lightbox" title="Annotations tab in the video editor" }
 
 ## Further information {: #further_information}
 

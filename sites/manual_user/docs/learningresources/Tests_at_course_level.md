@@ -76,7 +76,7 @@ The [course element "Test"](Course_Element_Test/index.md) records the results in
 [Course Element "Self-test" >](Course_Element_Self_Test.md)
 
 **Further reading**<br>
-[Test settings - Administration >](Test_settings.md)<br>
+[Test: Settings >](Test_settings.md)<br>
 [Configure tests >](Configure_tests.md)<br>
 [Test statistics >](Statistics_Test.md)<br>
 [Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)

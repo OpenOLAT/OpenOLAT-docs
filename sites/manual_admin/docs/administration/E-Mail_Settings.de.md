@@ -72,7 +72,7 @@ Mehrere Funktionen von OpenOlat bringen einen eigenen Mailtext mit. Diesen Text 
   * [Kursbaustein "E-Mail"](../../manual_user/learningresources/Course_Element_EMail.de.md): Betreff und Nachricht als Vorlage für die E-Mails, die der Kursbaustein versendet.
   * [Kursbaustein "Test"](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md#tab_email_confirmation): Betreff und Mailtext der Bestätigung nach der Testabgabe, wahlweise aus der Vorlage oder als eigener Text.
   * [Kursbaustein "Aufgabe"](../../manual_user/learningresources/Course_Element_Task/Task_Setup.de.md#submission): vorformulierter Text der Bestätigung nach der endgültigen Abgabe, im Tab "Abgabe" anpassbar.
-  * [Korrektur-Workflow eines Tests](../../manual_user/learningresources/Test_settings.de.md#correction-workflow): Mailtext für die Benachrichtigung der Korrektor:innen, wahlweise als eigener Text oder aus einer Vorlage.
+  * [Korrektur-Workflow eines Tests](../../manual_user/learningresources/Test_correction_workflow.de.md#tab_configuration): Mailtext für die Benachrichtigung der Korrektor:innen, wahlweise als eigener Text oder aus einer Vorlage.
   * [Zertifikatsprogramm](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md#config_tab_messages): Vorlagen der vorbereiteten Benachrichtigungen und der Erinnerungen zur Rezertifizierung, im Tab "Meldungen" anpassbar.
   * [Mitgliederverwaltung](../../manual_user/learningresources/Members_management.de.md#add_members): Im letzten Schritt des Assistenten "Mitglieder hinzufügen" formulieren Sie die E-Mail an die neuen Mitglieder, ebenfalls mit Variablen.
   * [e-Assessment Administration: Test](e-Assessment_Test.de.md#tab_correction-workflow): systemweit vorformulierte Texte für die E-Mails an die Beteiligten des Korrektur-Workflows, in mehreren Sprachen.
@@ -133,7 +133,7 @@ Empfohlen ist, in dieser Zeile nur "Verwenden" einzuschalten. "Zwingend", "Nur A
 [Kursbaustein "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.de.md)<br>
 [Test einrichten >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md)<br>
 [Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Test: Korrektur-Workflow >](../../manual_user/learningresources/Test_correction_workflow.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
 [e-Assessment Administration: Test >](e-Assessment_Test.de.md)<br>

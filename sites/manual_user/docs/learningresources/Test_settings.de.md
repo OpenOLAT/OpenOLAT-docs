@@ -1,50 +1,15 @@
-# Test Einstellungen - Administration {: #test_settings}
+# Test: Einstellungen {: #test_settings}
 
-Im Bereich `Test > Administration` finden Sie, ähnlich wie bei anderen Lernressourcen, weitere Menüs. Hier konfigurieren Sie den Test näher. Besonders wichtig sind dabei die Menüs "Einstellungen" und "Testeditor". Den Bereich sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen. Bei einem eigenständigen Test sehen ihn auch Betreuer:innen, darin die Einträge "Bewertungswerkzeug" und "Test Statistik".
+Wie viele Versuche Teilnehmende haben, was ihnen während des Tests angezeigt wird und was sie nach der Abgabe sehen, legen Sie in den Einstellungen des Tests fest. Sie öffnen sie unter `Test > Administration > Einstellungen`. Den Eintrag "Einstellungen" sehen Besitzer:innen der Lernressource, Lernressourcenverwalter:innen und Administrator:innen. Die übrigen Einträge des Menüs beschreibt die Seite [Test: Administration](Test_administration/index.de.md).
 
-![Menü Administration mit elf Einträgen von "Einstellungen" bis "Löschen", darunter "Testeditor", davon "Angebotsarten" ausgegraut](assets/test_administration_menu_v2_de.png){ class="shadow lightbox" title="Menü Administration einer veröffentlichten Test-Lernressource · 2026.09.28" }
-
-Den Test als Ganzes konfigurieren Sie grösstenteils in den "Einstellungen", besonders im Tab "Optionen" (siehe unten).
-
-Das Menü "Mitgliederverwaltung" brauchen Sie vor allem, wenn der Test kursunabhängig verwendet werden soll. Sonst verwalten Sie die Test-Teilnehmenden über den verbundenen Kurs.
-
-Der Eintrag "Testeditor" öffnet den Testeditor. Dort legen Sie die Fragen und den Aufbau des Tests an. Wie der Eintrag zum Editor bei anderen Lernressourcen heisst, steht unter [Eintrag zum Editor](Detailed_View_of_Learning_Resources.de.md#editor_entry). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9780)" }](https://track.frentix.com/issue/OO-9780){:target="_blank"}
-
-!!! note "Testeditor QTI 2.1"
-    Übersicht zum Testeditor.<br>
-    [Testeditor](Test_editor_QTI_2.1/index.de.md)
-
-Das "Bewertungswerkzeug" des Tests erscheint nur, wenn der Test kursunabhängig verwendet werden soll: `Test > Administration > Einstellungen > Tab "Freigabe"`, Verwendungszweck "Eigenständig".
-
-Im Menü "Korrektur-Workflow" fügen Sie dem Test Korrektor:innen hinzu (siehe unten).
-
-Das Menü "Test Statistik" erscheint nur bei eigenständigen Tests. Läuft der Test in einem Kurs, finden Sie die Statistik im Menü Administration des Kurses: `Kurs > Administration > Teststatistiken`.
-
-Das Menü "Angebotsarten" ist nur aktiv, wenn der Test buchbar konfiguriert wurde.
-
-Unter "Handschriftliche Prüfungen generieren" führt Sie ein Assistent in mehreren Schritten vom Online-Test zu druckfertigen Prüfungsbogen (siehe unten). Der Eintrag erscheint nur, wenn der PDF Generator eingeschaltet ist. Sie finden ihn in der System-Administration unter: `Administration > Externe Werkzeuge > PDF Generator`.
-
-Mit den Menüs "Kopieren", "Inhalt exportieren" und "Als Worddatei exportieren" kopieren oder speichern Sie den Test.
-
-"Über diesen Test" öffnet ein Fenster mit den technischen Angaben zum Test wie ID, Typ und externer Link.
-
-"Löschen" löscht die Lernressource Test. Sie finden sie anschliessend im Autorenbereich im Tab "Gelöscht".
-
-Auf dieser Seite finden Sie nähere Erläuterungen zu folgenden Administrationsmenüs der Lernressource Test:
-
-* Einstellungen
-* Korrektur-Workflow
-* Handschriftliche Prüfungen generieren
-* Als Worddatei exportieren
-
-[zum Seitenanfang ^](#test_settings)
+[Zum Seitenanfang ^](#test_settings)
 
 ---
 
 
-## "Einstellungen" eines Tests {: #settings}
+## Tabs der Einstellungen {: #settings}
 
-Wichtig für Tests ist vor allem der Tab "Optionen". Hier konfigurieren Sie den gesamten Test.  
+Wichtig für Tests ist vor allem der Tab "Optionen". Hier konfigurieren Sie den gesamten Test.
 
 ![Tabs "Metadaten", "Info", "Freigabe" und "Optionen", davon "Optionen" aktiv, links das geöffnete Menü Administration mit dem Eintrag "Einstellungen"](assets/test_settings_menu_settings_v1_de.png){ class="shadow lightbox" title="Einstellungen einer Test-Lernressource · 2026.09.28" }
 
@@ -85,7 +50,7 @@ Diese Auswahl wird gewählt, um zu verhindern, dass Teilnehmende während eines 
 
 #### Fragetitel anzeigen {: #show_question_titles}
 
-Markieren Sie die Checkbox, um den Teilnehmenden die Titel der Fragen anzuzeigen. Wenn die Titel nicht angezeigt werden sollen, aber die Navigation aktiviert ist, dann erscheint in der Menü-Navigation ein anonymisierter Titel.  
+Markieren Sie die Checkbox, um den Teilnehmenden die Titel der Fragen anzuzeigen. Wenn die Titel nicht angezeigt werden sollen, aber die Navigation aktiviert ist, dann erscheint in der Menü-Navigation ein anonymisierter Titel.
 
 #### Menu-Navigation anzeigen {: #show_menu}
 
@@ -140,92 +105,7 @@ Wenn diese Checkbox ausgewählt ist, wird das Resultat nach Beenden des Tests an
 * **Antwort, von Teilnehmer:in abgegeben**: Es wird die Fragestellung zusammen mit der Antwort der teilnehmenden Person angezeigt.
 * **Lösung**: Es wird die Fragestellung zusammen mit der korrekten Lösung angezeigt. Wenn im Tab Feedback eine korrekte Lösung hinterlegt ist, wird diese in der Resultatansicht mit dieser Option auch angezeigt.
 
-## Korrektur-Workflow [:octicons-tag-16:{ title="ab Release 15.0 (OO-4442)" }](https://track.frentix.com/issue/OO-4442) {: #correction-workflow}
-
-Um einem Test weitere, auch kursübergreifende, Korrektor:innen hinzufügen zu können, muss unter `Test > Administration > Korrektur-Workflow` der Korrektur-Workflow eingeschaltet werden. Anschliessend können die Korrektor:innen hinzugefügt, Korrekturaufträge vergeben und weitere Einstellungen vorgenommen werden.
-
-Der Korrektur-Workflow betrifft nur die manuelle Korrektur eines Tests: wer korrigiert, ob anonym korrigiert wird und in welchem Zeitraum. Die Korrektor:innen vergeben die Punkte, daraus entsteht die Bewertung. Was Bewertung, Korrektur und Einstufung unterscheidet, steht unter [Bewertung, Korrektur und Einstufung](../area_modules/Coaching_Assessment_Orders.de.md#assessment_terms).
-
-### Tab "Konfiguration"
-
-Hier schalten Sie den Korrektur-Workflow ein. Anschliessend kann definiert werden ob die Prüflinge anonym oder mit sichtbarem Namen bewertet werden. Der Korrekturzeitraum gibt die maximale Zeit an, die der Korrektor:in zur Verfügung steht.
-
-Die jeweiligen Korrektor:innen werden automatisch benachrichtigt, wenn neue Bearbeitungen des Tests vorliegen. Die Benachrichtigung kann entweder direkt nach Testabschluss oder einmal pro Tag verschickt werden. Hierfür kann ein passender Mailtext hinterlegt werden oder eine Vorlage ("Vorlage Sprache wählen") verwendet werden. Nach der ersten Mailbenachrichtigung können noch zwei Erinnerungsmails in selbst definierten Abständen (Tagen) verschickt werden.
-
-### Tab "Korrektor:innen"
-
-![Button "Korrektor:in hinzufügen" markiert, darüber die Tabs "Konfiguration", "Korrektor:innen" und "Korrekturaufträge"](assets/grading_workflow_tab_correctors_v1_de.png){ class="shadow lightbox" title="Tab Korrektor:innen im Menü Korrektur-Workflow" }
-
-Hier werden die Personen hinzugefügt, die einen Test korrigieren sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Personen mit der Rolle "Benutzer:in" können als Korrektor:in hinzugefügt werden. Über das Zeilenmenü einer Korrektor:in stehen weitere Aktionen bereit: "Zuweisungen anzeigen", "Korrektor:in kontaktieren", "Report herunterladen", "Deaktivieren" beziehungsweise "Aktivieren", "Abwesenheit erfassen" und "Entfernen".
-
-Die eingetragenen Korrektor:innen finden ihre Aufträge unter `Coaching > Bewertungsaufträge` im Tab [Korrekturaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments). Dafür braucht es zwei weitere Schritte: Am Kursbaustein Test steht die Korrektur auf "Manuell durch Korrektor:innen", und eine teilnehmende Person schliesst den Test ab. Erst damit ist der Auftrag erstellt.
-
-Ist zu diesem Zeitpunkt keine Korrektor:in verfügbar, trägt der Auftrag den Status "Nicht zugeordnet" und wartet in der [Auftragsverwaltung](../area_modules/Coaching_Order_Management.de.md). Dort weisen ihn Lernressourcenverwalter:innen einer Person zu, und er erscheint in deren Liste.
-
-### Tab "Korrekturaufträge"
-
-Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Korrektor:innen angezeigt und nach verschiedenen Kriterien gefiltert werden.
-
-### Report / Excel-Export [:octicons-tag-16:{ title="ab Release 21.0 (OO-9569)" }](https://track.frentix.com/issue/OO-9569)
-
-Den Report ziehen Besitzer:innen der Test-Lernressource, Lernressourcenverwalter:innen und Administrator:innen, entweder hier oder kursübergreifend unter `Coaching > Auftragsverwaltung`. Korrektor:innen sehen ihre eigenen Aufträge unter `Coaching > Bewertungsaufträge` und laden dort keinen Report herunter.
-
-Im Tab "Korrektor:innen" öffnen Sie im Zeilenmenü einer Korrektor:in den Eintrag "Report herunterladen". OpenOlat erzeugt daraus eine Excel-Datei mit dem Stand der Korrekturaufträge dieser Korrektor:in. Vor dem Download legen Sie den Umfang fest:
-
-* Der Schalter "Nur erledigte Aufträge" ist eingeschaltet und beschränkt den Report auf abgeschlossene Korrekturaufträge. Schalten Sie ihn aus, umfasst der Report alle Korrekturaufträge ohne Einschränkung auf einen Zeitraum.
-* Solange der Schalter eingeschaltet ist, grenzen Sie den Zeitraum über die "Vordefinierten Zeiträume" "Letzter Monat" und "Letztes Jahr" oder über das Pflichtfeld "Erledigt am" ein. Beide Datumsfelder müssen gefüllt sein.
-
-![Schalter "Nur erledigte Aufträge" eingeschaltet, die Buttons "Letzter Monat" und "Letztes Jahr" und das Pflichtfeld "Erledigt am" mit zwei Datumsfeldern](assets/grading_report_export_dialog_v1_de.png){ class="shadow lightbox" title="Dialog zum Herunterladen des Reports" }
-
-Im Tab "Korrekturaufträge" erzeugt der Button "Bericht" denselben Report über die dort angezeigten Korrekturaufträge.
-
-Der Report weist zu jedem Korrekturauftrag den Status ("Nicht zugeordnet", "Zugeteilt", "Erledigt"), das "Fälligkeitsdatum", das Datum "Erledigt am" sowie die Kennzeichnung "Frist abgelaufen" aus.
-
-Die erzeugte Excel-Datei enthält die Worksheets "Korrektoren", "Assignments" und "Archive". Das Worksheet "Archive" führt archivierte Korrekturauftrag-Einträge auf, deren Auftragsdatensatz inzwischen entfernt wurde (etwa weil ein Prüfling, eine Korrektor:in oder die Test-Lernressource gelöscht wurde), inklusive Korrekturzeit und dem Datum "Erledigt am" für die Abrechnung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-6914)" }](https://track.frentix.com/issue/OO-6914)
-
-![Spalten "Kurs", "Kennzeichen", "Korrektur (Minuten)", "Korrektur (echte Minuten)" und "Erledigt am", davor Name und Anmeldename von Korrektor:in und Prüfling](assets/grading_report_archive_v1_de.png){ class="shadow lightbox" title="Worksheet Archive der Excel-Datei" }
-
-!!! note "Coaching Tool"
-    Weitere Informationen zur kursübergreifenden Korrektur.<br>
-    [Coaching Tool](../area_modules/Coaching/index.de.md)
-
-[zum Seitenanfang ^](#test_settings)
-
----
-
-
-## Handschriftliche Prüfungen generieren [:octicons-tag-16:{ title="ab Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648) {: #create_paper_pencil}
-
-Wenn Sie offline eine Prüfung durchführen wollen, können Sie mit diesem Assistenten ein Deckblatt und verschiedene Versionen von Ihrer Testressource mit zufällig gewählten Antworten generieren lassen.
-
-1. In den Optionen wählen Sie die Sprache und die Anzahl der Tests sowie im Feld "Seriennummer" einen Präfix für die Dateinamen aus. Sie können auch bestimmen, ob Sie ein Deckblatt oder auch eine zusätzliche Seite mitgenerieren wollen.
-
-    ![Schritt Optionen mit den Feldern "Anzahl der Tests", "Ausgangsprache für Export" und "Seriennummer" sowie der Auswahl "Erste Seite" und "Zusätzliche Seite" unter Deckblatt](assets/test_settings_paper_exam_options_v1_de.png){ class="shadow lightbox" title="Schritt Optionen des Assistenten Handschriftliche Prüfungen generieren · 2026.09.28" }
-
-2. Im zweiten Schritt wählen Sie die Attribute, die auf das Deckblatt kopiert werden sollen. Manche Attribute, wie die Beschreibung der Testressource, sind noch anpassbar.
-
-    ![Attributgruppen Allgemeines und Testparameter zur Auswahl für das Deckblatt, alle angehakt](assets/test_settings_paper_exam_cover_attributes_v1_de.png){ class="shadow lightbox" title="Schritt Deckblattattribute des Assistenten · 2026.09.28" }
-
-3. Hier ist die Möglichkeit, bestimmte Felder zu markieren und zu überschreiben. Das Beschreibungsfeld wird von der Testressource herüberkopiert und lässt sich hier nochmals anpassen.
-
-    ![Die Felder "Titel" und "Verfahren" sowie das Feld "Informationen (Beschreibungsfeld)" mit HTML-Editor, überschreibbar für das Deckblatt](assets/test_settings_paper_exam_cover_fields_v1_de.png){ class="shadow lightbox" title="Schritt Deckblattfelder des Assistenten · 2026.09.28" }
-
-4. Haben Sie im Schritt "Optionen" die Option "Zusätzliche Seite" aktiviert, erscheint hier der Schritt "Zusätzliche Seite".
-
-5. Die Zusammenfassung beinhaltet eine Übersicht aller getätigten Einstellungen sowie eine Vorschau der zu generierenden Tests. Bitte beachten Sie, dass eine grössere Anzahl von Generierungen etwas dauern kann und der Browser möglicherweise nicht immer reagiert.
-
-    ![Anzahl Tests und Lösungsblätter, Dateiformat, Ausgabesprache, Seriennummern, die vom Test mitgegebenen Parameter und die Angaben für das Deckblatt](assets/test_settings_paper_exam_summary_v1_de.png){ class="shadow lightbox" title="Schritt Zusammenfassung des Assistenten · 2026.09.28" }
-
-[zum Seitenanfang ^](#test_settings)
-
----
-
-
-## Als Worddatei exportieren {: #export_word}
-
-Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von denen eine Datei nur die Fragen, die andere zusätzlich noch die Lösungen enthält. Die exportierte Datei enthält alle wichtigen Informationen zum Test inklusive der Punktzahl, so dass Sie das Dokument direkt auch weiterverwenden können.
-
-[zum Seitenanfang ^](#test_settings)
+[Zum Seitenanfang ^](#test_settings)
 
 ---
 
@@ -233,17 +113,12 @@ Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von dene
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Detailansicht einer Lernressource >](Detailed_View_of_Learning_Resources.de.md)<br>
-[Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
-[Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
-[Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Coaching - Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
-[Coaching - Übersicht >](../area_modules/Coaching/index.de.md)
+[Test: Administration >](Test_administration/index.de.md)<br>
+[Tests auf Kursebene >](Tests_at_course_level.de.md)
 
 **Weiterführend**<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
-[Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
-[Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)
+[Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
+[Test einrichten >](Course_Element_Test/Test_Setup.de.md)
 
-[zum Seitenanfang ^](#test_settings)
+[Zum Seitenanfang ^](#test_settings)

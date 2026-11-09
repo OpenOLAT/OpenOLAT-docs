@@ -381,6 +381,7 @@ nav:
     - Test:
       - learningresources/Test/index.md
       - Administration:
+        - learningresources/Test_administration/index.md
         - Settings: "learningresources/Test_settings.md"
         - Test editor:
           - learningresources/Test_editor_QTI_2.1/index.md
@@ -388,6 +389,8 @@ nav:
             - Types: "learningresources/Test_question_types.md"
             - Configuration: "learningresources/Configure_test_questions.md"
           - Test configuration: "learningresources/Configure_tests.md"
+        - Correction workflow: "learningresources/Test_correction_workflow.md"
+        - Export handwritten exams: "learningresources/Test_handwritten_exams.md"
       - In courses: "learningresources/Tests_at_course_level.md"
       - Export: "learningresources/Test_export.md"
     - CP learning content:

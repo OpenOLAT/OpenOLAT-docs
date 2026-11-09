@@ -57,6 +57,8 @@ Werden OpenOlat-Prüfungen als handschriftliche Prüfungen ausgegeben, kann eine
 
 [Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
 [Coaching - Übersicht >](../../manual_user/area_modules/Coaching/index.de.md)<br>
-[Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Test: Einstellungen >](../../manual_user/learningresources/Test_settings.de.md)<br>
+[Test: Korrektur-Workflow >](../../manual_user/learningresources/Test_correction_workflow.de.md)<br>
+[Test: Handschriftliche Prüfungen generieren >](../../manual_user/learningresources/Test_handwritten_exams.de.md)
 
 [Zum Seitenanfang ^](#test)

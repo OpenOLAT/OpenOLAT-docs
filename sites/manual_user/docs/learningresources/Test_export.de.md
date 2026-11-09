@@ -256,6 +256,6 @@ Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigen
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Test Fragen konfigurieren >](Configure_test_questions.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
-[Test Einstellungen - Administration >](Test_settings.de.md)
+[Test: Einstellungen >](Test_settings.de.md)
 
 [Zum Seitenanfang ^](#test_export)

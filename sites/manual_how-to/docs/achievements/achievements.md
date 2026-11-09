@@ -383,7 +383,7 @@ Points earned in a course element or course are also displayed on the course ele
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Badges >](../../manual_user/learningresources/OpenBadges.md)<br>
 [Course Element "Structure" >](../../manual_user/learningresources/Course_Element_Structure.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Test: Settings >](../../manual_user/learningresources/Test_settings.md)<br>
 [Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
 [Personal menu >](../../manual_user/personal_menu/index.md)
 

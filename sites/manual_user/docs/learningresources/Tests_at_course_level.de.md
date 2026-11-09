@@ -76,7 +76,7 @@ Der [Kursbaustein "Test"](Course_Element_Test/index.de.md) zeichnet die Resultat
 [Kursbaustein "Selbsttest" >](Course_Element_Self_Test.de.md)
 
 **Weiterführend**<br>
-[Test Einstellungen - Administration >](Test_settings.de.md)<br>
+[Test: Einstellungen >](Test_settings.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
 [Teststatistiken >](Statistics_Test.de.md)<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)

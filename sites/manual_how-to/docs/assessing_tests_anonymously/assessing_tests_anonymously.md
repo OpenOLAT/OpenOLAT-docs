@@ -38,7 +38,7 @@ OpenOlat offers two ways to do this. Which one applies depends on the "Correctio
 
 ## Setting up anonymous correction in OpenOlat {: #configuration}
 
-If correctors are to correct a test anonymously, the owners of the test set up the correction workflow in the test learning resource. The "Anonymous" option under "Identity of examinees" applies to all grading assignments of this test. All settings of the correction workflow are described on the page [Test settings - Administration](../../manual_user/learningresources/Test_settings.md#correction-workflow).
+If correctors are to correct a test anonymously, the owners of the test set up the correction workflow in the test learning resource. The "Anonymous" option under "Identity of examinees" applies to all grading assignments of this test. All settings of the correction workflow are described on the page [Test: Correction workflow](../../manual_user/learningresources/Test_correction_workflow.md).
 
 For correctors to see their assignments in Coaching, the correction workflow is also switched on in the system administration: `Administration > e-Assessment > Test > Tab "Correction workflow"`, checkbox "Enable correction workflow". It is switched on by default.
 
@@ -197,7 +197,7 @@ Find out more about grading assignments in Coaching: [Coaching - Assessment Orde
 ## Further information {: #further_information}
 
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.md)<br>
 [Coaching Tool >](../../manual_user/area_modules/Coaching/index.md)<br>
 [Coaching - Assessment Orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>

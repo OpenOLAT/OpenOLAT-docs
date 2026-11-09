@@ -21,7 +21,7 @@ B) Ist keine alternative Farbe für die Links möglich, so kann die automatische
 
 Wir achten darauf, dass der Kontrast (insbesondere der Primärfarben) eine besonders gute Lesbarkeit ermöglicht. Zum Beispiel enthält das **Farbwahl-Werkzeug** ausschliesslich Farben, die auf Kontrast getestet sind.
 
-![Zwölf auf Kontrast geprüfte Farben, jede mit weisser Schrift auf dem Farbfeld als Lesbarkeitsprobe, im Dropdown Farbe des Tabs Annotationen im Video-Editor](assets/accessability_color_chooser_v1_de.png){ class="shadow lightbox" }
+![Zwölf auf Kontrast geprüfte Farben, jede mit weisser Schrift auf dem Farbfeld als Lesbarkeitsprobe, im Dropdown Farbe](assets/accessability_color_chooser_v1_de.png){ class="shadow lightbox" title="Tab Annotationen im Videoeditor" }
 
 ## Weiterführende Informationen {: #further_information}
 

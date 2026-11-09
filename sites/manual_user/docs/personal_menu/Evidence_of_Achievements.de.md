@@ -78,7 +78,7 @@ Ist in einem Kurs der Leistungsnachweis aktiviert, finden Teilnehmende in der To
 [Badges unter Erfolge/Leistungen >](OpenBadges.de.md)<br>
 [Badges im Bewertungswerkzeug >](../learningresources/OpenBadges.de.md)<br>
 [Badges in der eAssessment-Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
-[Testquittung erstellen: Test Einstellungen >](../learningresources/Test_settings.de.md)<br>
+[Test: Einstellungen >](../learningresources/Test_settings.de.md)<br>
 [Testquittung validieren: Tests bewerten >](../learningresources/Assessing_tests.de.md)
 
 [Zum Seitenanfang ^](#evidence_of_achievements)

@@ -72,7 +72,7 @@ Several functions of OpenOlat come with their own mail text. You adapt this text
   * [Course Element "E-Mail"](../../manual_user/learningresources/Course_Element_EMail.md): subject and message as a template for the emails that the course element sends.
   * [Course Element "Test"](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md#tab_email_confirmation): subject and mail text of the confirmation after the test submission, either from the template or as your own text.
   * [Course Element "Task"](../../manual_user/learningresources/Course_Element_Task/Task_Setup.md#submission): pre-formulated text of the confirmation after the final submission, adaptable in the tab "Submission".
-  * [Correction workflow of a test](../../manual_user/learningresources/Test_settings.md#correction-workflow): mail text for the notification of the correctors, either as your own text or from a template.
+  * [Correction workflow of a test](../../manual_user/learningresources/Test_correction_workflow.md#tab_configuration): mail text for the notification of the correctors, either as your own text or from a template.
   * [Certification program](../../manual_user/area_modules/Course_Planner_Certification_Programs.md#config_tab_messages): templates of the prepared notifications and of the reminders for the recertification, adaptable in the tab "Messages".
   * [Members management](../../manual_user/learningresources/Members_management.md#add_members): in the last step of the wizard "Add members" you formulate the email to the new members, likewise with variables.
   * [e-Assessment Administration: Test](e-Assessment_Test.md#tab_correction-workflow): system-wide pre-formulated texts for the emails to the people involved in the correction workflow, in several languages.
@@ -133,7 +133,7 @@ We recommend switching on only "include" in this row. "Mandatory", "Admin only" 
 [Course Element "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.md)<br>
 [Set up a test >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md)<br>
 [Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
-[Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
+[Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>
 [e-Assessment Administration: Test >](e-Assessment_Test.md)<br>
