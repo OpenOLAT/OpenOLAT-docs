@@ -1,22 +1,22 @@
 # Bewertungswerkzeug - Übersicht {: #assessment_tool_overview}
 
-Das Bewertungswerkzeug ist die zentrale Schaltstelle für die Bewertungen eines OpenOlat-Kurses. Kursbesitzer:innen und Betreuende erhalten hier einen Gesamtüberblick über sämtliche im Kurs enthaltenen bewertbaren Kursbausteine und können die Bewertungen vornehmen.
+Das Bewertungswerkzeug ist die zentrale Stelle für die Bewertungen eines Kurses. Kursbesitzer:innen, Betreuende und Mitglieder mit dem Recht ["Bewertungs-Werkzeug"](../Members_management.de.md#right_assessment_tool) sehen hier alle bewertbaren Kursbausteine des Kurses und bewerten die Teilnehmenden.
 
-Sie erreichen das Bewertungswerkzeug über `Kurs > Administration > Bewertungswerkzeug`. Wenn Sie das Bewertungswerkzeug aufrufen, erscheint zunächst die Übersichtsseite mit zentralen Informationen sowie eine Übersicht der aktuell anstehenden Bewertungen und Aktionen. So wissen Sie schnell, was aktuell zu tun ist. Von der Übersichtsseite aus gelangen Sie auch zu den konkreten Bewertungsbereichen der einzelnen Kursbausteine und Personen.
+Sie öffnen das Bewertungswerkzeug unter `Kurs > Administration > Bewertungswerkzeug`. Zuerst erscheint die Übersicht: Sie zeigt, wie der Kurs steht und welche Bewertungen und Aktionen anstehen. So sehen Sie schnell, was zu tun ist. Von der Übersicht aus gelangen Sie zu den Bewertungen der einzelnen Kursbausteine und Personen.
 
 ![Startseite des Bewertungswerkzeugs, die auf einen Blick zeigt, wie der Kurs steht, welche Prüfung ansteht und was noch zu bewerten ist](../assets/Bewertungswerkezuge_191.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs" }
 
-Schauen wir uns die einzelnen Bereiche der Übersicht genauer an:
+Die folgenden Abschnitte beschreiben zuerst die Bereiche der Übersicht, danach die weiteren Einträge im Menü links und die Buttons oben rechts.
 
 ## "Übersicht" des Bewertungswerkzeugs
 
 ### "Offene Bewertungen" (Übersicht)
 
-Auf einen Blick ist hier ersichtlich, ob bzw. für wen eine oder mehrere Bewertung(en) offen sind. Auch wird angezeigt, wie viele Bausteine der jeweiligen Person zu bewerten sind. Sofern nur ein Baustein bewertet werden muss, wird dieser direkt aufgelistet. Mit einem Klick auf den Baustein kommt man zur entsprechenden Bewertung.
+Hier sehen Sie auf einen Blick, für wen Bewertungen offen sind und wie viele Kursbausteine bei der jeweiligen Person noch zu bewerten sind. Ist nur ein Kursbaustein offen, steht er direkt in der Liste. Ein Klick auf den Kursbaustein öffnet die Bewertung.
 
 ![28 offene Bewertungen, je Kursbaustein mit dem Namen der Person oder der Anzahl Teilnehmer:innen](../assets/offene_Bewertungen.jpg){ class="shadow lightbox" title="Bereich Offene Bewertungen" }
 
-In der Übersicht werden nur die unerledigten Bewertungen angezeigt. Bereits durchgeführte Bewertungen werden an dieser Stelle nicht aufgelistet.
+Die Übersicht zeigt nur die offenen Bewertungen, erledigte Bewertungen erscheinen hier nicht.
 
 ### "Freizugebende Bewertungen" (Übersicht)
 
@@ -26,9 +26,9 @@ Gibt es im Kurs Bewertungen, die für die Teilnehmenden noch nicht sichtbar sind
 
 ### "Teilnehmer:innen" (Übersicht)
 
-In diesem Bereich wird angezeigt, wie viele Teilnehmende, Gruppen und Curriculumelemente generell im konkreten Kurs vorhanden sind.
+Dieser Bereich zeigt, wie viele Teilnehmende, Gruppen und Curriculumelemente der Kurs hat.
 
-Wurde für den gesamten Kurs ein "Bestehen" konfiguriert, wird die Anzahl der jeweiligen Kursmitglieder angezeigt, die den Kurs bestanden bzw. nicht bestanden haben. Auch die durchschnittliche Verteilung der Punkte ist, sofern Punkte im Kurs aktiviert sind, erkennbar. 
+Ist für den ganzen Kurs ein "Bestehen" konfiguriert, zeigt der Bereich, wie viele Kursmitglieder den Kurs bestanden und nicht bestanden haben. Sind im Kurs Punkte aktiviert, sehen Sie auch die Verteilung der Punkte.
 
 ![Anteil bestanden und Punkteverteilung der Teilnehmer:innen, darunter Mitglieder, Durchschnittspunkte und Bestanden je Gruppe und Curriculumelement](../assets/Uebersicht_Bewertungswerkzeug.jpg){ class="shadow lightbox" title="Bereich Teilnehmer:innen" }
 
@@ -44,23 +44,29 @@ Hat die Prüfung einen manuellen Start, zeigt der Bereich ab dem Prüfungstag de
 
 ![Geplante Prüfung mit manuellem Start, eine von zwei Personen wartet, darunter der Button "Prüfung starten"](../assets/Pruefung_starten.jpg){ class="shadow lightbox" title="Bereich Prüfungsmodus vor dem Start" }
 
-### "Benachrichtigungsservice"
+### "Benachrichtigungen"
 
-Hier können Betreuende über den Abonnieren Schieberegler einschalten, dass sie bei neuen Einsendungen, Testresultaten und sonstigen Einreichungen eine E-Mail erhalten. Auch können Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) abonniert werden.
+Hier abonnieren Betreuende mit dem Schalter "Abonnieren" Benachrichtigungen per E-Mail: "Neue Testresultate" meldet neue Resultate in bewertbaren Kursbausteinen, "Neue Zertifikate" neu ausgestellte Zertifikate, sofern im Kurs Zertifikate aktiviert sind.
 
 ![Die Glocke bei "Neue Testresultate" öffnet das Abonnement mit dem Schalter "Abonnieren"](../assets/Benachrichtigungen_Bewertungswerkzeug20.jpg){ class="shadow lightbox" title="Benachrichtigungen im Bewertungswerkzeug" }
 
-## Aufträge
+## Aufträge {: #orders}
 
-Unterhalb der Übersicht befindet sich der Link zum Bereich "Aufträge". Hier sehen Sie, ob es offene Bewertungen gibt, ob Einstufungen/Noten von Hand zu setzen sind und ob es freizugebende Bewertungen gibt.
+Unter "Aufträge" sammelt das Bewertungswerkzeug alle Bewertungen, die im Kurs noch zu erledigen sind. So arbeiten Sie die anstehenden Bewertungen ab, ohne jeden Kursbaustein einzeln zu öffnen. Sie finden "Aufträge" im Menü links direkt unter "Übersicht". Drei Tabs teilen sie auf:
 
-![Tabs Offene Bewertungen, Offene Einstufungen/Noten und Freizugebende Bewertungen, geöffnet ist die Liste der freizugebenden Bewertungen](../assets/Auftraege1.jpg){ class="shadow lightbox" title="Bereich Aufträge des Bewertungswerkzeugs" }
+* **Offene Bewertungen:** Bewertungen im Status "Korrigieren", zum Beispiel nach der Abgabe einer Aufgabe. Mit "Bewerten" öffnen Sie die Bewertung der Person.
+* **Offene Einstufungen/Noten:** Kursbausteine mit einer [Bewertungsskala](../Assessment_translate_points_in_grades.de.md), bei denen die Note von Hand zugewiesen wird und noch fehlt. Mit "Zuweisen" vergeben Sie die Note.
+* **Freizugebende Bewertungen:** abgeschlossene Bewertungen, die Teilnehmende noch nicht sehen. Mit "Freigeben" machen Sie ausgewählte Bewertungen für die Teilnehmenden sichtbar.
+
+In jedem Tab schreiben Sie den ausgewählten Personen mit "E-Mail". Dieselben Tabs zeigt das Coaching kursübergreifend unter [Bewertungsaufträge](../../area_modules/Coaching_Assessment_Orders.de.md).
+
+![Menüeintrag Aufträge und die Tabs Offene Bewertungen, Offene Einstufungen/Noten und Freizugebende Bewertungen, geöffnet ist die Liste der offenen Bewertungen mit dem Link Bewerten](../assets/assessment_tool_overview_orders_v1_de.png){ class="shadow lightbox" title="Bereich Aufträge des Bewertungswerkzeugs · 2026.11.09" }
 
 ## Prüfungseinsicht [:octicons-tag-16:{ title="ab Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
 
-Dieser Menübereich ist nur sichtbar, wenn für den Kurs eine Prüfung konfiguriert und auch die Prüfungseinsichtsoption aktiviert wurde. 
+Diesen Eintrag im Menü links sehen Sie, wenn für den Kurs eine Prüfungseinsicht konfiguriert ist, unter `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`. Voraussetzung ist, dass die Prüfungseinsicht in der System-Administration unter `Administration > e-Assessment > Prüfungsverwaltung` eingeschaltet ist.
 
-Betreuende können dann Teilnehmende hinzufügen, definieren auf welche Prüfung sich die Einsicht bezieht und zu welchem konkreten Zeitpunkt die Einsicht möglich ist. Bei Bedarf kann auch noch ein Zugangscode für die Einsicht vergeben und eine Infomail verschickt werden. 
+Betreuende fügen hier Teilnehmende hinzu und legen fest, auf welche Prüfung sich die Einsicht bezieht und wann die Einsicht möglich ist. Bei Bedarf vergeben sie einen Zugangscode und verschicken eine Infomail.
 
 ![Teilnehmende mit Test-Status, Einsichtszeitraum, Einsichtsdauer und Status Geplant, dazu der Button "Teilnehmer:in hinzufügen"](../assets/Pruefungseinsicht_Baustein1.jpg){ class="shadow lightbox" title="Tab Prüfungseinsicht eines Tests" }
 
@@ -69,47 +75,50 @@ Nähere Informationen finden Sie auf der Seite [Prüfungsverwaltung: Prüfungsei
 
 ## Übersicht der Bewertungsbausteine des Kurses
 
-In der linken Navigation des Bewertungswerkzeugs sieht man alle bewertbaren Kursbausteine. Für alle Kursbausteine werden die Tabs "Übersicht" und "Teilnehmer:innen" angezeigt. 
+Im Menü links des Bewertungswerkzeugs stehen alle bewertbaren Kursbausteine. Jeder Kursbaustein hat die Tabs "Übersicht" und "Teilnehmer:innen".
 
-Im Übersichtstab erscheinen ähnliche Informationen wie im Übersichtsbereich des Bewertungswerkzeugs, nur Kursbaustein bezogen, also z.B. die Punkteverteilung, Anzahl der Bewertungen, Infos zum Bestehen usw. 
+Der Tab "Übersicht" zeigt ähnliche Angaben wie die Übersicht des Bewertungswerkzeugs, aber für den einzelnen Kursbaustein, zum Beispiel die Punkteverteilung, die Anzahl der Bewertungen und das Bestehen.
 
 ### Tab Teilnehmer:innen
 
-Im Tab "Teilnehmer:innen" wird die eigentliche Bewertung vorgenommen und die Personen können ausgewählt, Punkte und Feedbacks hinterlegt und die Freigabe der Sichtbarkeit eingestellt werden. 
-Die Tabelle zeigt dann den Bearbeitungsstand aller Teilnehmenden des konkreten Kursbausteins an.<br>
-Ferner können bei Aufgaben im Tab "Teilnehmer:innen" auch alle abgegebenen Dokumente heruntergeladen werden. 
+Im Tab "Teilnehmer:innen" bewerten Sie: Sie wählen eine Person, erfassen Punkte und Feedback und geben die Bewertung frei. Die Tabelle zeigt den Bearbeitungsstand aller Teilnehmenden des Kursbausteins.<br>
+Bei Aufgaben laden Sie im Tab "Teilnehmer:innen" auch alle abgegebenen Dokumente herunter.
 
-Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer Baustein. Er entspricht einem ["Struktur"](../Course_Element_Structure.de.md) Baustein.<br>
-Klickt man beim obersten Kursbaustein auf eine Person, erhält man eine Gesamtübersicht über den Bearbeitungsstand der Assessmentbausteine des Kurses für diese Person und kann sich so auch den Leistungsnachweis der Person anzeigen lassen. 
+Der oberste Kursbaustein zählt ebenfalls als bewertbarer Kursbaustein. Er entspricht einem Kursbaustein ["Struktur"](../Course_Element_Structure.de.md).<br>
+Ein Klick auf eine Person beim obersten Kursbaustein zeigt den Bearbeitungsstand aller bewertbaren Kursbausteine dieser Person. Von dort öffnen Sie auch ihren Leistungsnachweis.
 
-Ist auf dem obersten Kursbaustein eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die *Gesamtpunkte* eines Kurses bzw. die für den obersten Baustein definierten Punkte, angezeigt und die Gesamtergebnisse der Teilnehmenden heruntergeladen werden.
+Ist auf dem obersten Kursbaustein eine Punkteberechnung eingerichtet, zeigt die oberste Ebene die Gesamtpunkte des Kurses. Dort laden Sie auch die Gesamtergebnisse der Teilnehmenden herunter.
 
 !!! tip "Tipp"
 
-    Nutzen Sie die Filtereinstellungen um nur bestimmte Teilnehmende in der Tabelle anzuzeigen. Nutzen Sie auch die Spaltenkonfiguration über das Zahnrad um die für Sie relevanten Spalten anzuzeigen.   
+    Mit den Filtern zeigen Sie nur bestimmte Teilnehmende in der Tabelle. Über das Zahnrad wählen Sie die Spalten, die Sie brauchen.
 
-Wie genau Bewertungen vorgenommen werden erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../Assessment_of_course_modules.de.md) bzw. ["Lernende bewerten"](../Assessment_of_learners.de.md).
+Wie Sie bewerten, beschreiben die Seiten ["Bewertung von Kursbausteinen"](../Assessment_of_course_modules.de.md) und ["Lernende bewerten"](../Assessment_of_learners.de.md).
 
 !!! info "Wichtig"
 
-    Sofern eine Prüfungseinsicht für Teilnehmende aktiviert wurde erscheint beim entsprechenden Kursbaustein auch noch der Tab "Prüfungseinsicht". 
+    Ist für Teilnehmende eine Prüfungseinsicht aktiviert, hat der betreffende Kursbaustein zusätzlich den Tab "Prüfungseinsicht".
 
-Ausführliche Informationen zur Bearbeitung und Bewertung im Tab Teilnehmer:innen finden Sie im Kapitel ["Tab Teilnehmer"](../Assessment_tool_tab_Users.de.md)
+Den Tab "Teilnehmer:innen" beschreibt die Seite ["Bewertungswerkzeug: Tab Teilnehmer:innen"](../Assessment_tool_tab_Users.de.md) im Detail.
 
 ## Daten zurücksetzen [:octicons-tag-16:{ title="ab Release 17.2.4 (OO-6792)" }](https://track.frentix.com/issue/OO-6792) {: #course_reset}
 
-Mit Hilfe des Wizards können die Daten von Teilnehmer:innen eines Kurses zurückgesetzt werden. Dabei kann das Zurücksetzen für den gesamten Kurs oder nur für ausgewählte Kursbausteine für alle oder ausgewählte Teilnehmer:innen erfolgen.
+Mit dem Button "Daten zurücksetzen" oben rechts setzen Sie die Daten von Teilnehmer:innen zurück. Ein Wizard führt Sie durch die Auswahl: den ganzen Kurs oder einzelne Kursbausteine, alle oder ausgewählte Teilnehmer:innen.
 
 [Mehr dazu >](../Assessment_tool_reset_data.de.md)
 
 
 ## Massenbewertung [:octicons-tag-16:{ title="ab Release 9.2 (OO-852)" }](https://track.frentix.com/issue/OO-852) {: #mass_assessment}
 
-Mit dem Werkzeug "Massenbewertung" können für mehrere Teilnehmer:innen Bewertungsdaten wie Punkte, Statusinformationen, Kommentare sowie Rückgabedateien in einem Schritt übermittelt werden. 
+Müssen Sie viele Teilnehmer:innen auf einmal bewerten, etwa nach einer Prüfung auf Papier, nehmen Sie die Massenbewertung. Sie übermitteln Punkte, Status, Kommentare und Rückgabedateien für mehrere Teilnehmer:innen in einem Schritt, statt jede Person einzeln zu öffnen.
+
+Sie öffnen die Massenbewertung mit dem Button "Massenbewertung" oben rechts im Bewertungswerkzeug. Die Seite "Geplante Massenbewertungen" listet die Massenbewertungen, die noch ausgeführt werden. Mit "Neue Massenbewertung starten" öffnen Sie den Wizard. Im Wizard wählen Sie den Kursbaustein, laden die Daten hoch und legen fest, ob OpenOlat die Bewertung "Sofort" oder "Später, nach Datum" ausführt.
+
+Den Button sehen alle Personen, die das Bewertungswerkzeug öffnen. Ausgenommen sind Personen, die den Kurs nur in der Rolle Principal öffnen, ohne Mitglied zu sein oder den Kurs zu administrieren.
 
 ![Erster Schritt "Kursbaustein auswählen" mit den bewertbaren Kursbausteinen des Kurses und dem Link "Wählen"](../assets/Massenbewertung_wizard.png){ class="shadow lightbox" title="Assistent Massenbewertung" }
 
-Wie man eine Massenbewertung erstellt, erfahren Sie im Bereich [How to](../../../manual_how-to/bulk_assessment/bulk_assessment.de.md).
+Schritt für Schritt beschreibt die Anleitung ["Wie und wo kann ich eine Massenbewertung vornehmen?"](../../../manual_how-to/bulk_assessment/bulk_assessment.de.md) die Massenbewertung.
 
 ## Weiterführende Informationen {: #further_information}
 

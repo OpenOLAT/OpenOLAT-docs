@@ -37,7 +37,7 @@ The tabs appear in this order:
 * **Metadata**: see [Course Settings - Tab Metadata](../Course_Settings_Metadata.md).
 * **Info**: see [Course Settings - Tab Info](../Course_Settings_Info.md).
 * **Share**: see [Course Settings - Tab Share](../Course_Settings_Share/index.md).
-* **Catalog**: only if the catalog in version 1 is enabled and the CP learning content has the usage "Standalone", see [Course Settings, Tab Catalog](../Course_Settings/index.md#catalog).
+* **Catalog**: only if the catalog in version 1 is enabled and the CP learning content has the usage "Standalone", see [Course Settings - Tab Catalog](../Course_Settings_Catalog.md).
 * **Quota**: see [below](#tab_quota).
 * **Layout**: see [below](#tab_layout).
 * **Options**: the access for participants in status "Finished", see [Course Settings - Tab Options](../Course_Settings_Options.md). The tab is missing if the usage "Embedding" is selected in the "Share" tab.
@@ -73,7 +73,7 @@ The tab shows the same fields as the "Display content" tab in the course element
 [Course Settings - Tab Metadata >](../Course_Settings_Metadata.md)<br>
 [Course Settings - Tab Info >](../Course_Settings_Info.md)<br>
 [Course Settings - Tab Share >](../Course_Settings_Share/index.md)<br>
-[Course Settings >](../Course_Settings/index.md)<br>
+[Course Settings - Tab Catalog >](../Course_Settings_Catalog.md)<br>
 [Course Settings - Tab Options >](../Course_Settings_Options.md)<br>
 [Files and Folders >](../../../manual_admin/administration/Files_and_Folders.md)<br>
 [Course Element "HTML page" >](../Course_Element_HTML_Page.md)

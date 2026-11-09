@@ -56,8 +56,7 @@ If assessments already exist for the course element, OpenOlat displays the setti
 Select or import SCORM content. Click "Select or import" to upload a new SCORM package, or select an existing SCORM package from your entries. You import SCORM packages not only in the course editor but also in the authoring area. If you haven't yet selected a ZIP file as SCORM learning content, the message _No SCORM 1.2 selected_ will appear next to the field "SCORM".
 
 !!! note "Import"
-    Description of importing learning resources in Authoring.<br>
-    [Actions in Authoring > Import](../area_modules/authoring_new_course.md#import-learning-resources)
+    How to import learning resources in the authoring area is described in the section [Actions in Authoring > Import](../area_modules/authoring_new_course.md#import-learning-resources).
 
 If you have already added SCORM learning content, its name will appear as a link. A click on the link opens the preview. To change the assigned SCORM learning content later, click "Replace" in the "Learning content" tab and then select a different SCORM package.
 
@@ -136,11 +135,22 @@ In the drop-down menu, you define how many attempts are allowed for this SCORM c
 ---
 
 
+<a id="layout"></a>
+
 ### Tab "Display content" [:octicons-tag-16:{ title="from Release 9.0.0 (OO-619)" }](https://track.frentix.com/issue/OO-619) {: #editor_tab_display_content}
 
 In the "Display content" tab, you determine how OpenOlat presents the SCORM content in the course. In the display mode "Standard", the fields "Embed Javascript library", "Embed glossary terms" and "Adapt layout" cannot be selected; they only take effect in the mode "Optimized for OpenOlat".
 
 ![Display mode Standard selected, Javascript, glossary and layout therefore not selectable, display height and content character set set to automatic](assets/course_element_scorm_tab_display_content_v3_en.png){ class="shadow lightbox" title="Tab Display content in the course editor · 2026.10.08" }
+
+#### Use standard configuration {: #use_standard_configuration }
+
+You define the display of a SCORM package in two places: in the settings of the learning resource in the [tab "Layout"](SCORM_Administration.md#tab_layout) and here in the course element. With "Use standard configuration" you choose which settings apply in the course:
+
+* **Use from learning resource layout configuration:** The course element shows the SCORM package as defined in the settings of the learning resource. The fields below show these values and cannot be changed here.
+* **Modify:** You set the fields below yourself for this course element. The settings only apply here; the learning resource and other courses that use it remain unchanged.
+
+If a SCORM content looks different in the course than when the learning resource is opened directly, check this selection: with "Modify", the course uses its own values. The field "Use standard configuration" appears if layout settings of the learning resource are stored for the embedded SCORM package, for example after saving in the "Layout" tab of the learning resource. If the field is missing, the fields of the course element apply.
 
 #### Display mode {: #display_mode }
 
@@ -189,8 +199,7 @@ Here you select a predefined character set for the JavaScript code. By default, 
 In the "HighScore" tab, you activate and configure the highscore for this course element. The highscore compares the results of the participants and ranks the individual result in comparison. The tab is only active if the option "Transfer score value" or "Transfer passed value" is selected under "Transfer score from SCORM" in the "Learning content" tab. With "Transfer passed value", OpenOlat does not take over any points from the SCORM package, so participants do not see a highscore in this case.
 
 !!! note "Highscore"
-    Description of the highscore settings.<br>
-    [Course elements > Highscore](Course_Elements/index.md#highscore)
+    The highscore settings are described in the section [Course elements > Highscore](Course_Elements/index.md#highscore).
 
 [To the top of the page ^](#course_element_scorm)
 

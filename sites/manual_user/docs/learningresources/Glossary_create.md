@@ -3,18 +3,18 @@
 
 ## Where is a new glossary created? {: #where}
 
-Glossaries can be created like other learning resources in the **Author area**.
+You create a glossary like other learning resources in the authoring area:<br>
+`Authoring > Create > Glossary`
 
-![Expanded Create menu with the highlighted entry Glossary](assets/glossary_create_authoring_v1_de.png){ class="shadow lightbox" title="Authoring area page" }
+![Expanded Create menu in the authoring area with the highlighted entry Glossary](assets/glossary_create_authoring_v1_en.png){ class="shadow lightbox" title="Authoring area page · 2026.11.09" }
 
-Alternatively, the creation can also be called up directly in the course under `Course > Administration > Settings > Tab "Options"`.
-You will find the button (4) there, which opens a pop-up window in which an existing glossary can be selected or a new glossary learning resource can be created.
+You can also create a glossary directly in the course, under `Course > Administration > Settings > Tab "Options"`. The button "Select glossary" opens a window in which you select an existing glossary or create a new glossary.
 
-![Numbered click path Administration, Settings, tab Options, button Select glossary](assets/glossary_create_settings_v1_de.png){ class="shadow lightbox" title="Course settings" }
+![Options tab of the course settings with the highlighted button Select glossary, which you use to select or create a glossary](assets/glossary_create_settings_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.11.09" }
 
 !!! note "Note"
 
-    Several glossaries can be created in the author area. However, only on glossary can be included per course.
+    In the authoring area you create as many glossaries as you like. You embed one glossary per course.
 
 [To the top of the page ^](#glossary_create)
 
@@ -23,30 +23,29 @@ You will find the button (4) there, which opens a pop-up window in which an exis
 
 ## Create glossary entries {: #create_entries}
 
-``1.`` Go to the **Authoring area** and open the glossary. <br>
-(Click on the name or click on the edit button or "edit" under the icon with the three points.)
+``1.`` Open the glossary in the authoring area: with a click on the title, on the edit icon or in the three-dot menu of the row.
 
-![Row Glossary with title, edit icon and three-dot menu highlighted](assets/glossary_authoring_edit_v1_de.png){ class="shadow lightbox" title="List in the authoring area" }
+![Row of a glossary in the authoring area with title, edit icon and three-dot menu highlighted](assets/glossary_authoring_edit_v1_en.png){ class="shadow lightbox" title="List in the authoring area · 2026.11.09" }
 
-``2.`` Click on one of the buttons **"Add entry"**.
+``2.`` Click on one of the two buttons "Add entry".
 
-![Two Add entry buttons highlighted, top right and above the alphabetical register](assets/glossary_add_entry_v1_de.png){ class="shadow lightbox" title="Glossary page" }
+![Two Add entry buttons highlighted, top right and below the glossary entries](assets/glossary_add_entry_v1_en.png){ class="shadow lightbox" title="Glossary page · 2026.11.09" }
 
-``3.`` Enter the desired technical term. You can also add synonyms. For example, the term "information technology" can be supplemented with the synonym "IT".
+``3.`` Enter the term. You can add synonyms, for example the synonym "IT" for the term "information technology".
 
-``4.`` Save the term. This enables the tab for entering the definition.
+``4.`` Save the term. After that, the "Definition" tab can be opened.
 
-![Mandatory field Term, field Synonyms and the still inactive Definition tab](assets/glossary_edit_entry_v1_de.png){ class="shadow lightbox" title="Add term dialog" }
+![Mandatory field Term with the term Information technology, field Synonyms with IT and the still inactive Definition tab](assets/glossary_edit_entry_v1_en.png){ class="shadow lightbox" title="Add term dialog · 2026.11.09" }
 
-``5.`` You can then add the specific definition of the term in the "Definition" tab. Terms entered can also be changed or deleted at a later date.
+``5.`` In the "Definition" tab you enter the explanation of the term. You can change or delete entered terms later.
 
-![Active Definition tab with rich text editor for entering the term's explanation](assets/glossary_entry_definition_v1_de.png){ class="shadow lightbox" title="Add term dialog" }
+![Active Definition tab with rich text editor for entering the term's explanation](assets/glossary_entry_definition_v1_en.png){ class="shadow lightbox" title="Add term dialog · 2026.11.09" }
 
 Learners can also fill in the content of a glossary. How to give all users write permission is described on the page [Glossary: Administration](Glossary_administration.md#tab_write_permissions).
 
 ### Writing permission for selected users {: #write_selected_users}
 
-If you only want to grant writing permission for a glossary to certain people (e.g. participants in a course), there is another way. The members management of a course is used for this. Create a new group there and add the desired persons as participants in this group. Then go to the "Rights" area in the course's members management and check the "Glossary tool" right for the course participants in the group. The people in the group can now add and change glossary entries. What the right enables is described in the section [Glossary tool](Members_management.md#right_glossary_tool).
+If only certain persons are to edit the glossary, for example some participants of a course, you grant the write permission via the members management of the course. Create a group there and add the persons as participants of the group. Then, in the "Rights" area of the members management, tick the right "Glossary tool" for the participants of the group. After that, the persons of the group add and change glossary entries. What the right enables is described in the section [Glossary tool](Members_management.md#right_glossary_tool).
 
 !!! info "Important"
 
@@ -61,7 +60,7 @@ If you only want to grant writing permission for a glossary to certain people (e
 
 ## Design glossary {: #design}
 
-The explanations (definitions) can be edited with a simple editor that allows additions to be made alongside text, such as
+You edit the definitions in a simple editor. Besides text, it offers for example
 
 * Font selection
 * Indentation
@@ -78,24 +77,24 @@ Whether the glossary groups the terms by initial letter with an alphabetical ind
 
 ## Integrate glossary {: #integrate}
 
-Glossaries are OpenOlat learning resources that are usually integrated into a course. They can also be used as stand-alone learning resources. In this case, the glossary can also be displayed as a stand-alone resource in the catalog, for example.
+You usually embed a glossary in a course. Participants then see the terms explained in the course. You can also use a glossary standalone and offer it, for example, as an offer of its own in the catalog.
 
 System administrators do not need to switch on the glossary function separately.
 
-``1.`` To include a glossary in a course, first select the learning resource under `Course > Administration > Settings > Tab "Options"`.
+``1.`` Select the glossary with the button "Select glossary", under `Course > Administration > Settings > Tab "Options"`.
 
-![Numbered click path Administration, Settings, tab Options, button Select glossary](assets/glossary_create_settings_v1_de.png){ class="shadow lightbox" title="Course settings" }
+![Options tab of the course settings with the highlighted button Select glossary, which you use to select or create a glossary](assets/glossary_create_settings_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.11.09" }
 
-``2.`` In order for the integrated glossary to be visible in the course toolbar, the display as a tool must be selected. Select the corresponding checkbox under `Course > Administration > Settings > Tab "Toolbar"`.
+``2.`` So that participants see the glossary in the course toolbar, switch it on there as a tool: checkbox "Glossary" under `Course > Administration > Settings > Tab "Toolbar"`.
 
-![Tab Toolbar with the activated checkbox Glossary under Enable tools in toolbar](assets/glossary_settings_toolbar_activate_v1_de.png){ class="shadow lightbox" title="Course settings" }
+![Toolbar tab of the course settings with the highlighted, switched-on checkbox Glossary under Activate tools in toolbar](assets/glossary_settings_toolbar_activate_v2_en.png){ class="shadow lightbox" title="Toolbar tab in the course settings · 2026.11.09" }
 
 
 !!! note "Note"
 
-    Only one glossary can be integrated per course. However, several glossary learning resources can be available in the authoring area so that different glossaries can be used in different courses.
+    You embed one glossary per course. Several glossaries can exist in the authoring area, so that different courses use different glossaries.
 
-If you no longer use the glossary or would like to include a different glossary in your course, you can select a different glossary learning resource under `Course > Administration > Settings > Tab "Options"`.
+If you want to embed a different glossary in your course, select it under `Course > Administration > Settings > Tab "Options"` with "Select glossary". If you no longer use a glossary, remove it there with "Delete selection".
 
 
 ---

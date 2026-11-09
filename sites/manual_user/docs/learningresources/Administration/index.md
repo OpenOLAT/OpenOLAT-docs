@@ -39,7 +39,7 @@ In the members management, course owners will find a list of all persons who hav
 
 ## Course editor {: #course_editor}
 
-In the course editor the course can be edited by adding and configuring course elements.
+In the course editor you build the course: you add course elements and configure them.
 
 [See the details >](../General_Configuration_of_Course_Elements.md)<br>
 [To the top of the page ^](#course_administration)
@@ -130,7 +130,7 @@ Here you will find the tool for the administration of participants' events and a
 
 ## Reminders [:octicons-tag-16:{ title="from Release 10.3 (OO-1494)" }](https://track.frentix.com/issue/OO-1494){:target="_blank"} {: #reminders}
 
-The reminder function is used to organize the automatic sending of emails. The sending can be linked to various conditions.
+With reminders, OpenOlat automatically sends e-mails to persons in the course. Conditions that you define determine when a reminder is sent.
 
 [See the details >](../Course_Reminders.md)<br>
 [To the top of the page ^](#course_administration)
@@ -155,7 +155,7 @@ If activated, course owners can view the planned surveys of the Quality Manageme
 
 ## Learning areas {: #learning_areas}
 
-Several groups of a course can be bundled together with the help of a learning area. The learning areas of the course can be created, displayed and edited under this menu option.
+A learning area brings together several groups of a course. Here you create, view and edit the learning areas of the course.
 
 [See the details >](../Learning_Areas.md)<br>
 [To the top of the page ^](#course_administration)
@@ -163,7 +163,11 @@ Several groups of a course can be bundled together with the help of a learning a
 
 ## Course DB {: #course_DB}
 
-Here you can create a new course-specific database that can store certain course-specific information.
+If a course is to store information on individual persons that no course element records, for example a "Read" tick or the answers of a self-built survey, you create a database for it in the Course DB. A page in the course, for example an "HTML page" course element, writes and reads the values per person via the REST interface of OpenOlat, usually with JavaScript.
+
+With "Create a new database" you create a database with a name. OpenOlat then shows the URL under which the page stores the values. With "Export" you download the values of all persons as an Excel file. "Reset" empties the database, "Delete" removes it.
+
+The menu item is visible to owners of the course, learning resource managers and administrators as well as members with the right ["Course database"](../Members_management.md#right_course_db). It requires that the Course DB is switched on in your OpenOlat instance. It is part of the server configuration and switched off by default. For activation, contact your organisation.
 
 [To the top of the page ^](#course_administration)
 
@@ -178,7 +182,7 @@ This course function shows you statistics on access to your OpenOlat course. All
 
 ## Test statistics {: #test_statistics}
 
-The test statistics allow general course-related, anonymized statistical assessment of the OpenOlat tests in a course. All tests contained in the course are displayed. The menu item appears as soon as the course contains a "Test" course element.
+The test statistics evaluate the tests of a course anonymously. They show all tests of the course. The menu item appears as soon as the course contains a "Test" course element.
 
 [See the details >](../Statistics_Test.md)<br>
 [To the top of the page ^](#course_administration)
@@ -186,7 +190,7 @@ The test statistics allow general course-related, anonymized statistical assessm
 
 ## Survey statistics {: #survey_statistics}
 
-The survey statistics allow you to carry out a general course-related, anonymized statistical assessment of your surveys. The menu item appears as soon as the course contains a "Survey" course element.
+The survey statistics evaluate the surveys of a course anonymously. The menu item appears as soon as the course contains a "Survey" course element.
 
 [See the details >](../Statistics_Survey.md)<br>
 [To the top of the page ^](#course_administration)
@@ -202,7 +206,7 @@ Here you secure the data of the course, for example to keep results beyond the e
 
 ## Offer types {: #offer_types}
 
-In order to offer a course or other learning resource in the catalog, at least one offer is required. However, several different offers can also be created, for which you will find the booking orders here.
+To offer a course or another learning resource in the catalog, at least one offer is needed. Here you find the booking orders for the offers of the course.
 
 [See the details >](../Offer_Types.md)<br>
 [To the top of the page ^](#course_administration)
@@ -236,7 +240,7 @@ If an existing course is to be used with the Course Planner for instantiation in
 
 If you have prepared a template, use this menu item to create a new course from it. A wizard guides you through the creation.
 
-The menu item only exists in courses with the usage "Template". There it takes the place of "Save as template".
+The menu item only exists in courses with the usage "Template". There it takes the place of "Save as template". You see it if you are allowed to copy the course, that is if the menu also shows "Copy".
 
 [See the details >](../Creating_Course.md#purpose)<br>
 [To the top of the page ^](#course_administration)
@@ -244,9 +248,11 @@ The menu item only exists in courses with the usage "Template". There it takes t
 
 ## Duplicate as learning path {: #duplicate_as_learning_path}
 
-Conventional courses (including all courses created before OpenOlat version 15) can be converted into a learning path course using this tool. The original conventional course is retained and a copy is created in which the additional features of a learning path course are added. When converting, the first decision to be made is whether to create the course "With learning path" or "With learning progress".
+If you want to continue a conventional course as a learning path course, for example a course created before OpenOlat 15, use this menu item to create a copy as a learning path course. The original course remains unchanged.
 
-The function is only available for conventional courses.
+In the dialog "Duplicate as learning path" you enter the "Title of learning resource" and the "Reference of learning resource" of the copy and choose the course design: "With learning path" guides participants through the course in a fixed order, "With learning progress" shows the progress without a fixed order. "Duplicate & convert" creates the copy. [:octicons-tag-16:{ title="from Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967){:target="_blank"}
+
+The menu item only exists in conventional courses. In the menu it follows "Save as template", in a template "Instantiate as course". You see it if you are allowed to copy the course, that is if the menu also shows "Copy". You open the same dialog in the course settings in the [tab "Execution"](../Course_Settings_Execution.md#course_type) with the button "Duplicate as learning path".
 
 !!! tip "Tip"
 

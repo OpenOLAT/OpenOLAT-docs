@@ -28,7 +28,7 @@ Here you define, among other things, the usage: the default is embedding in a co
 
 ### Catalog {: #tab_catalog}
 
-You only see the "Catalog" tab if catalog version 1 is switched on in your instance and the podcast is used standalone. There you add the podcast learning resource to the catalog, see [Course Settings, Tab Catalog](Course_Settings/index.md#catalog).
+You only see the "Catalog" tab if catalog version 1 is switched on in your instance and the podcast is used standalone. There you add the podcast learning resource to the catalog, see [Course Settings - Tab Catalog](Course_Settings_Catalog.md).
 
 ### Quota {: #tab_quota}
 
@@ -52,7 +52,7 @@ For standalone use, you also define in the section "Access" which access partici
 [Course Settings - Tab Metadata >](Course_Settings_Metadata.md)<br>
 [Course Settings - Tab Info >](Course_Settings_Info.md)<br>
 [Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
-[Course Settings >](Course_Settings/index.md)<br>
+[Course Settings - Tab Catalog >](Course_Settings_Catalog.md)<br>
 [Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
 [Course Settings - Tab Options >](Course_Settings_Options.md)
 

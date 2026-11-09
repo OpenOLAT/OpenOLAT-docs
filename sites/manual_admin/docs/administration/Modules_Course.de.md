@@ -11,7 +11,7 @@ Die Kursoptionen legen Sie unter "Moduleinstellungen" fest, die Voreinstellungen
 
 #### Kursoption aktivieren {: #enable_course_option}
 
-Die Option "Kursbezogene Nutzungsbedingungen und Datenschutzerklärung" gibt Kursbesitzer:innen in den Kurseinstellungen den [Tab "Nutzungsbedingungen"](../../manual_user/learningresources/Course_Settings/index.de.md#disclaimer). Dort legen sie Nutzungsbedingungen und eine Datenschutzerklärung fest, die Teilnehmer:innen vor dem Kursbesuch bestätigen.
+Die Option "Kursbezogene Nutzungsbedingungen und Datenschutzerklärung" gibt Kursbesitzer:innen in den Kurseinstellungen den [Tab "Nutzungsbedingungen"](../../manual_user/learningresources/Course_Settings_Disclaimer.de.md). Dort legen sie Nutzungsbedingungen und eine Datenschutzerklärung fest, die Teilnehmer:innen vor dem Kursbesuch bestätigen.
 
 #### Bewertungsoption aktivieren {: #enable_assessment_option}
 
@@ -101,7 +101,7 @@ Die hier aufgelisteten Bilder können im Kurseditor im Tab "Layout" von den Auto
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings/index.de.md)<br>
+[Kurseinstellungen - Tab Nutzungsbedingungen >](../../manual_user/learningresources/Course_Settings_Disclaimer.de.md)<br>
 [Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Kurseinstellungen - Tab Info >](../../manual_user/learningresources/Course_Settings_Info.de.md)<br>

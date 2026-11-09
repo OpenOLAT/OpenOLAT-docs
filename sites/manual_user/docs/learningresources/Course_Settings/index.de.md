@@ -70,12 +70,12 @@ Diese Infos sind für Interessierte auch ohne Kurszugang auf der Infoseite sicht
 
 ![Tab "Durchführung" aktiv, an dritter Stelle der Tab-Leiste](../assets/course_settings_tab_execution_v2_de.png){ class="shadow lightbox" title="Tab Durchführung in den Kurseinstellungen · 2026.10.02" }
 
-Hier können Sie 
+Hier können Sie
 
-* den Durchführungszeitraum des Kurses definieren, 
-* das "[Absenzmanagement](../../area_modules/Absence_Management.de.md)" einschalten und weiter konfigurieren (sofern in der System-Administration unter `Administration > Module > Termine / Absenzen` eingeschaltet), 
-* existierende herkömmliche Kurse in Lernpfadkurse konvertieren 
-* bzw. bei [Lernpfadkursen](../Learning_path_course/index.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
+* den Durchführungszeitraum des Kurses festlegen,
+* das "[Absenzmanagement](../../area_modules/Absence_Management.de.md)" einschalten und konfigurieren, sofern es in der System-Administration unter `Administration > Module > Termine / Absenzen` eingeschaltet ist,
+* einen herkömmlichen Kurs mit "Als Lernpfad duplizieren" als Lernpfadkurs kopieren
+* und bei [Lernpfadkursen](../Learning_path_course/index.de.md) festlegen, wie der Lernfortschritt berechnet wird: anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
 
 [Zu den Details >](../Course_Settings_Execution.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
@@ -100,16 +100,13 @@ Im Tab "Freigabe" definieren Sie, wie und für wen ein Kurs oder eine Lernressou
 [Zum Seitenanfang ^](#course_settings)
 
 
-## Tab Katalog (gilt nur für Katalog Version 1) {: #catalog}
+## Tab Katalog {: #catalog}
 
 ![Tab "Katalog" aktiv, zwischen "Freigabe" und "Nutzungsbedingungen"](../assets/course_settings_tab_catalog_v2_de.png){ class="shadow lightbox" title="Tab Katalog in den Kurseinstellungen · 2026.10.02" }
 
-Über den Button "In Katalog einfügen" kann die Lernressource in den Katalog eingetragen und einer oder mehreren vordefinierten Kategorien zugeordnet werden. Um den Kurs oder die Lernressource in mehrere Katalogbereiche einzutragen, muss der Schritt wiederholt werden. Anschliessend erscheinen alle Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt werden.
+Hier tragen Sie den Kurs in eine oder mehrere Kategorien des Katalogs 1.0 ein. Den Tab sehen Sie nur, wenn die Administration den Katalog 1.0 eingeschaltet hat und der Kurs den Verwendungszweck "Eigenständig" hat.
 
-Der gesamte OpenOlat [Katalog (Version 1)](../../area_modules/Courses.de.md) ist für alle Benutzer:innen im Menü "Kurse" einsehbar.
-
-Tragen Sie Ihre Kurse erst in den Katalog ein, wenn diese fertiggestellt sind und für die Benutzer:innen sichtbar sein sollen.
-
+[Zu den Details >](../Course_Settings_Catalog.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
 
 
@@ -117,20 +114,9 @@ Tragen Sie Ihre Kurse erst in den Katalog ein, wenn diese fertiggestellt sind un
 
 ![Tab "Nutzungsbedingungen" aktiv, an fünfter Stelle der Tab-Leiste](../assets/course_settings_tab_disclaimer_v2_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen in den Kurseinstellungen · 2026.10.02" }
 
-Hier können 
+Hier hinterlegen Sie kursbezogene Nutzungsbedingungen und eine kursbezogene Datenschutzerklärung, denen Personen zustimmen, bevor der Kurs öffnet. Den Tab sehen Sie nur, wenn die Administration die Option "Kursbezogene Nutzungsbedingungen und Datenschutzerklärung" eingeschaltet hat.
 
-* frei definierbare kursbezogene "Nutzungsbedingungen"
-* und eine kursbezogene "Datenschutzerklärung"
-
-aktiviert und hinterlegt werden. Startet eine Person den Kurs, muss sie zunächst die Bedingungen akzeptieren, ansonsten ist ein Kurszugang nicht möglich. Für jeden eingeschalteten Text erfassen Sie einen Titel, die Bedingungen und die Beschriftung der Checkbox, die zum Akzeptieren angekreuzt wird. Eine zweite Checkbox ist möglich.
-
-Den Tab sehen Sie nur, wenn die Option "Kursbezogene Nutzungsbedingungen und Datenschutzerklärung" in der System-Administration eingeschaltet ist, unter `Administration > Module > Kurs` ([Modul Kurs](../../../manual_admin/administration/Modules_Course.de.md#enable_course_option)). Fehlt der Tab, wenden Sie sich an die Administration Ihrer OpenOlat-Instanz.
-
-In der [Mitgliederverwaltung](../Members_management.de.md) sehen Sie im Bereich "Einwilligungen", welche Personen die Bedingungen bereits akzeptiert haben:<br>
-`Kurs > Administration > Mitgliederverwaltung > Einwilligungen`
-
-![Nutzungsbedingungen und Datenschutzerklärung einzeln einschaltbar, je mit Titel, Bedingungen und bis zu zwei Checkbox-Beschriftungen](../assets/disclaimer_course_v1_de.png){ class="shadow lightbox" title="Formular Kursbezogene Nutzungsbedingungen · 2026.10.02" }
-
+[Zu den Details >](../Course_Settings_Disclaimer.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
 
 
@@ -138,11 +124,11 @@ In der [Mitgliederverwaltung](../Members_management.de.md) sehen Sie im Bereich 
 
 ![Tab "Layout" aktiv, an sechster Stelle der Tab-Leiste](../assets/course_settings_tab_layout_v2_de.png){ class="shadow lightbox" title="Tab Layout in den Kurseinstellungen · 2026.10.02" }
 
-Im Tab Layout bestimmen Sie, wie der Kurs aussieht und wie sich Teilnehmende darin bewegen. Hier kann
+Im Tab Layout bestimmen Sie, wie der Kurs aussieht und wie sich Teilnehmende darin bewegen. Hier
 
-* eine Layoutvorlage für einen Kurs ausgewählt,
-* die Kursnavigation näher bestimmt
-* und der Stil der Kursbausteine definiert werden.
+* wählen Sie eine Layoutvorlage für den Kurs,
+* legen die Kursnavigation fest
+* und bestimmen den Stil der Kursbausteine.
 
 Welche Layoutvorlagen zur Auswahl stehen, bestimmt das Systemlayout (Theme), das für Ihre ganze OpenOlat-Instanz gilt. Die Vorlage "Standard" ist immer vorhanden. Ein einheitliches Erscheinungsbild für alle Kurse (Farben, Schriften, Logo) wird deshalb zentral über ein individuelles Systemlayout umgesetzt, siehe [Darstellung](../../../manual_admin/administration/Customizing.de.md#layout). Für einen einzelnen Kurs wählen Sie die Option "Eigene Konfiguration festlegen": Dort legen Sie Schriftart und Farben für Text, Überschriften, Links, Menü und Toolbox fest und laden ein Logo hoch. Darüber hinaus können Sie im [Ablageordner](../Storage_folder.de.md) des Kurses im Ordner "courseCSS" eigene CSS-Dateien hinterlegen, die dann in der Auswahl als "Aus Kursablageordner" erscheinen. Den Ablageordner öffnen Sie unter:<br>
 `Kurs > Administration > Ablageordner`
@@ -208,9 +194,9 @@ Hier aktivieren Sie je nach Bedarf
 * einen speziellen Ordner für Betreuer:innen
 * To-dos für Betreuer:innen
 
-Falls Sie Benutzer:in mit einer administrativen Rolle sind (Lernressourcenverwalter:in, Administrator:in), werden Ihnen hier zusätzlich noch spezielle Optionen angezeigt:
+Haben Sie eine administrative Rolle (Lernressourcenverwalter:in, Administrator:in), zeigt OpenOlat Ihnen hier weitere Optionen, sofern die zugehörigen Module eingeschaltet sind:
 
-* Einladung externe Benutzer:innen für Kursbesitzer:innen mit Autorenrecht aktivieren
+* die Einladung externer Benutzer:innen für Kursbesitzer:innen mit Autorenrecht aktivieren
 * die "LTI 1.3"-Freigabe für Kursbesitzer:innen mit Autorenrecht aktivieren
 
 

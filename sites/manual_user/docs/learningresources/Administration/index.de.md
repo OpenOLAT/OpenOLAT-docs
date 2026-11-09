@@ -39,7 +39,7 @@ In der Mitgliederverwaltung finden Kursbesitzer:innen eine Auflistung aller Pers
 
 ## Kurseditor {: #course_editor}
 
-Im Kurseditor kann der Kurs bearbeitet werden, indem Kursbausteine hinzugefügt und konfiguriert werden.
+Im Kurseditor bauen Sie den Kurs auf: Sie fügen Kursbausteine hinzu und konfigurieren sie.
 
 [Zu den Details >](../General_Configuration_of_Course_Elements.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -130,7 +130,7 @@ Hier finden Sie das Werkzeug zur Administration von Terminen und Absenzen der Te
 
 ## Erinnerung [:octicons-tag-16:{ title="ab Release 10.3 (OO-1494)" }](https://track.frentix.com/issue/OO-1494){:target="_blank"} {: #reminders}
 
-Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert. Der Versand kann an verschiedene Bedingungen geknüpft werden.
+Mit Erinnerungen versendet OpenOlat automatisch E-Mails an Personen im Kurs. Wann eine Erinnerung verschickt wird, bestimmen Bedingungen, die Sie festlegen.
 
 [Zu den Details >](../Course_Reminders.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -155,7 +155,7 @@ Sofern aktiviert, können Kursbesitzer:innen die geplanten Erhebungen des Moduls
 
 ## Lernbereich {: #learning_areas}
 
-Mit Hilfe eines Lernbereichs können mehrere Gruppen eines Kurses gebündelt werden. Unter dieser Menüoption können die Lernbereiche des Kurses erstellt, angezeigt und editiert werden.
+Ein Lernbereich fasst mehrere Gruppen eines Kurses zusammen. Hier erstellen, sehen und bearbeiten Sie die Lernbereiche des Kurses.
 
 [Zu den Details >](../Learning_Areas.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -163,7 +163,11 @@ Mit Hilfe eines Lernbereichs können mehrere Gruppen eines Kurses gebündelt wer
 
 ## Kurs DB {: #course_DB}
 
-Hier können Sie eine neue kursspezifische Datenbank anlegen, die bestimmte kursspezifische Informationen speichern kann.
+Soll ein Kurs Angaben einzelner Personen speichern, die kein Kursbaustein erfasst, etwa ein Häkchen "Gelesen" oder die Antworten einer selbst gebauten Umfrage, legen Sie dafür in der Kurs DB eine Datenbank an. Eine Seite im Kurs, zum Beispiel ein Kursbaustein "HTML-Seite", schreibt und liest die Werte je Person über die REST-Schnittstelle von OpenOlat, meist per JavaScript.
+
+Mit "Neue Datenbank erstellen" legen Sie eine Datenbank mit einem Namen an. OpenOlat zeigt dazu die URL, unter der die Seite die Werte ablegt. Mit "Exportieren" laden Sie die Werte aller Personen als Excel-Datei herunter. "Zurücksetzen" leert die Datenbank, "Löschen" entfernt sie.
+
+Den Menüpunkt sehen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen sowie Mitglieder mit dem Recht ["Kurs Datenbank"](../Members_management.de.md#right_course_db). Voraussetzung ist, dass die Kurs DB auf Ihrer OpenOlat-Instanz eingeschaltet ist. Sie ist Teil der Serverkonfiguration und im Auslieferungszustand ausgeschaltet. Für eine Aktivierung wenden Sie sich an Ihre Organisation.
 
 [Zum Seitenanfang ^](#course_administration)
 
@@ -178,7 +182,7 @@ Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren OpenOlat-
 
 ## Teststatistiken {: #test_statistics}
 
-Die Teststatistiken erlauben generelle kursbezogene, anonymisierte statistische Auswertung der OpenOlat-Tests eines Kurses. Angezeigt werden alle im Kurs enthaltenen Tests. Der Menüpunkt erscheint, sobald der Kurs einen Kursbaustein "Test" enthält.
+Die Teststatistiken werten die Tests eines Kurses anonymisiert aus. Sie zeigen alle Tests des Kurses. Der Menüpunkt erscheint, sobald der Kurs einen Kursbaustein "Test" enthält.
 
 [Zu den Details >](../Statistics_Test.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -186,7 +190,7 @@ Die Teststatistiken erlauben generelle kursbezogene, anonymisierte statistische 
 
 ## Fragebogen Statistiken {: #survey_statistics}
 
-Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen. Der Menüpunkt erscheint, sobald der Kurs einen Kursbaustein "Umfrage" enthält.
+Die Fragebogen Statistiken werten die Umfragen eines Kurses anonymisiert aus. Der Menüpunkt erscheint, sobald der Kurs einen Kursbaustein "Umfrage" enthält.
 
 [Zu den Details >](../Statistics_Survey.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -202,7 +206,7 @@ Hier sichern Sie die Daten des Kurses, etwa um Ergebnisse über das Kursende hin
 
 ## Angebotsarten {: #offer_types}
 
-Um einen Kurs oder eine andere Lernressource im Katalog anzubieten, benötigt es jeweils mindestens ein Angebot. Es können aber auch mehrere verschiedene Angebote erstellt werden, zu denen Sie hier die Buchungsaufträge finden.
+Um einen Kurs oder eine andere Lernressource im Katalog anzubieten, braucht es mindestens ein Angebot. Hier finden Sie die Buchungsaufträge zu den Angeboten des Kurses.
 
 [Zu den Details >](../Offer_Types.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -236,7 +240,7 @@ Soll ein bestehender Kurs für die Verwendung mit dem Course Planner zur Instanz
 
 Haben Sie ein Template vorbereitet, erstellen Sie daraus mit diesem Menüpunkt einen neuen Kurs. Ein Wizard führt Sie durch die Erstellung.
 
-Den Menüpunkt gibt es nur in Kursen mit dem Verwendungszweck "Template". Dort steht er an der Stelle von "Als Template speichern".
+Den Menüpunkt gibt es nur in Kursen mit dem Verwendungszweck "Template". Dort steht er an der Stelle von "Als Template speichern". Sie sehen ihn, wenn Sie den Kurs kopieren dürfen, also wenn das Menü auch "Kopieren" zeigt.
 
 [Zu den Details >](../Creating_Course.de.md#purpose)<br>
 [Zum Seitenanfang ^](#course_administration)
@@ -244,9 +248,11 @@ Den Menüpunkt gibt es nur in Kursen mit dem Verwendungszweck "Template". Dort s
 
 ## Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
-Herkömmliche Kurse (und damit u.a. alle Kurse, die vor der OpenOlat Version 15 erstellt wurden) können über dieses Werkzeug in einen Lernpfadkurs konvertiert werden. Der ursprüngliche herkömmliche Kurs bleibt erhalten und es wird eine Kopie erzeugt, in der die zusätzlichen Eigenschaften eines Lernpfadkurses ergänzt werden. Beim Konvertieren muss als erstes entschieden werden, ob der Kurs "Mit Lernpfad" oder "Mit Lernfortschritt" erstellt werden soll.
+Wollen Sie einen herkömmlichen Kurs als Lernpfadkurs weiterführen, zum Beispiel einen Kurs, der vor OpenOlat 15 entstanden ist, erstellen Sie mit diesem Menüpunkt eine Kopie als Lernpfadkurs. Der ursprüngliche Kurs bleibt unverändert erhalten.
 
-Diese Funktion ist nur für herkömmliche Kurse verfügbar.
+Im Dialog "Als Lernpfad duplizieren" geben Sie den "Titel der Lernressource" und das "Kennzeichen der Lernressource" der Kopie an und wählen das Kursdesign: "Mit Lernpfad" führt die Teilnehmenden in einer festen Reihenfolge durch den Kurs, "Mit Lernfortschritt" zeigt den Fortschritt ohne feste Reihenfolge. "Duplizieren und konvertieren" erstellt die Kopie. [:octicons-tag-16:{ title="ab Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967){:target="_blank"}
+
+Den Menüpunkt gibt es nur in herkömmlichen Kursen. Im Menü folgt er auf "Als Template speichern", in einem Template auf "Als Kurs instanziieren". Sie sehen ihn, wenn Sie den Kurs kopieren dürfen, also wenn das Menü auch "Kopieren" zeigt. Denselben Dialog öffnen Sie in den Kurseinstellungen im [Tab "Durchführung"](../Course_Settings_Execution.de.md#course_type) mit dem Button "Als Lernpfad duplizieren".
 
 !!! tip "Tipp"
 

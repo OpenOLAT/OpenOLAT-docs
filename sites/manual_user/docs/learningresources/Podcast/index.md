@@ -1,39 +1,37 @@
 # Podcast: Overview {: #overview}
 
-In OpenOlat, podcasts are learning resources that can be created and used both independently of courses and integrated into OpenOlat courses. 
+With a podcast you provide audio and video contributions as a series of episodes. In OpenOlat, podcasts are learning resources that you use standalone or embedded in a course.
 
-There are two types of podcasts:
-a) Podcasts that are created in OpenOlat and
+There are two types of podcasts:<br>
+a) podcasts that are created in OpenOlat, and<br>
 b) external podcasts from the internet, which are integrated via RSS feed.
 
-A podcast usually consists of several episodes. An episode can be an audio or video contribution. 
+A podcast usually consists of several episodes. An episode can be an audio or video contribution.
 
-In the "How-to" section you can find out how to create [podcasts in courses](../../../manual_how-to/podcast/podcast.md). 
-Further information on configuring podcasts can be found [here](../Podcast_Configuration.md).
+How to create a podcast for a course is described in the guide [How do I create a podcast?](../../../manual_how-to/podcast/podcast.md). How to set up the course element is described on the page [Configure a podcast in the course element](../Podcast_Configuration.md).
 
-## General information about Podcast
 
-The term "Podcasting" comprises words such as "iPod" and "Broadcasting" and means producing and providing audio as well as video files. Podcasts can be subscribed to before uploading episodes either by means of online services such as iTunes to mobile devices or using them directly within OpenOlat. Such episodes will be shown sorted by time; the latest news will always appear on top. Participants will be able to assess episodes and comment on them.
+## General information about podcasts {: #general}
 
-!!! info ""
+The term "Podcasting" combines the words "iPod" and "Broadcasting" and means producing and providing audio and video files. Podcasts can be subscribed to: you download the episodes to mobile devices via services such as iTunes, or you listen to and watch them directly in OpenOlat. The latest episode is always at the top. Participants rate episodes and write comments on them.
 
-    An advantage of podcasts is that media data can easily be provided and used regardless of location. Additionally you can produce as well as use episodes independently of any broadcasting time compared to radio shows.
+!!! note "Note"
 
-## The learning resource podcast
+    With podcasts you provide media files easily, and learners also use them on the move. Unlike a radio show, the production and use of the episodes do not depend on a broadcasting time.
 
-The podcast learning resource can be created directly in the author area. All podcast learning resources that you have created yourself or for which you are the owner are displayed under "My entries". 
 
-In the `Podcast > Administration > Settings` section of the podcast learning resource, you can also create a booking configuration for the learning resource or assign specific members.
-If the podcast is integrated into a course, an additional release or assignment of additional members is _not necessary_. The "Private" setting and the "Preparation" status are sufficient for the learning resource, as rights management is handled via the course. The tabs of the settings are described on the page [Podcast: Administration](../Podcast_Administration.md).
+## The learning resource podcast {: #learning_resource}
+
+You create the podcast learning resource directly in the authoring area. Under "My entries" you see, among other things, all podcasts that you have created yourself or of which you are an owner.
+
+If you only use the podcast in a course, the usage "Embedding" in the "Share" tab of the settings is sufficient, see [Podcast: Administration](../Podcast_Administration.md#tab_share). Who sees the episodes in the course is then determined by the members and rights of the course. You assign members of its own to the podcast under `Podcast > Administration > Members management`, and you set up bookings under `Podcast > Administration > Offer types`. You only need both if you offer the podcast with the usage "Standalone".
+
+The course element shows the podcast regardless of the status of the learning resource, including the status "Preparation". If the learning resource is in the recycle bin or deleted, the course element shows the note "The podcast cannot be started because the podcast resource has been deleted." instead. [:octicons-tag-16:{ title="from Release 18.1 (OO-7115)" }](https://track.frentix.com/issue/OO-7115){:target="_blank"}
+
 
 ## Further information {: #further_information}
 
-**Mentioned on this page**<br>
 [How do I create a podcast? >](../../../manual_how-to/podcast/podcast.md)<br>
-[Configure a podcast in the course element >](../Podcast_Configuration.md)<br>
-[Podcast: Administration >](../Podcast_Administration.md)
-
-**Further**<br>
-[Listen and watch to podcasts >](../Podcast_listen_and_watch.md)
+[Course Element "Podcast" >](../Course_Element_Podcast.md)
 
 [To the top of the page ^](#overview)

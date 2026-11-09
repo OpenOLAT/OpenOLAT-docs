@@ -270,6 +270,8 @@ nav:
           - Share:
             - learningresources/Course_Settings_Share/index.md
             - LTI: "learningresources/LTI_Share_courses.md"
+          - Catalog: "learningresources/Course_Settings_Catalog.md"
+          - Terms of use: "learningresources/Course_Settings_Disclaimer.md"
           - Layout: "learningresources/Design_possibilities_of_courses_and_course_elements.md"
           - Toolbar: "learningresources/Course_Settings_Toolbar.md"
           - Assessment:

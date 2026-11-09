@@ -72,10 +72,10 @@ This information is also visible to interested parties without course access on 
 
 Here you can
 
-* define the implementation period of the course,
-* switch on the "[Absence management](../../area_modules/Absence_Management.md)" and configure it further (if switched on in the system administration under `Administration > Modules > Events / Absences`),
-* convert existing conventional courses into learning path courses
-* or for [learning path courses](../Learning_path_course/index.md) define how the learning progress is calculated, based on the number of course elements or on the duration of the course elements.
+* set the implementation period of the course,
+* switch on and configure the "[Absence management](../../area_modules/Absence_Management.md)", provided it is switched on in the system administration under `Administration > Modules > Events / Absences`,
+* copy a conventional course as a learning path course with "Duplicate as learning path"
+* and for [learning path courses](../Learning_path_course/index.md) set how the learning progress is calculated: based on the number of course elements or on the duration of the course elements.
 
 [For more details >](../Course_Settings_Execution.md)<br>
 [To the top of the page ^](#course_settings)
@@ -100,16 +100,13 @@ In the "Share" tab, you define how and for whom a course or learning resource is
 [To the top of the page ^](#course_settings)
 
 
-## Tab Catalog (only applies to catalog version 1) {: #catalog}
+## Tab Catalog {: #catalog}
 
 ![Tab "Catalog" active, between "Share" and "Terms of use"](../assets/course_settings_tab_catalog_v2_de.png){ class="shadow lightbox" title="Catalog tab in the course settings · 2026.10.02" }
 
-The "Add to catalog" button can be used to enter the learning resource in the catalog and assign it to one or more predefined categories. To enter the course or learning resource in several catalog areas, the step must be repeated. All catalog entries then appear here in the "Catalog" tab and can also be removed here.
+Here you add the course to one or more categories of catalog 1.0. You only see the tab if the administration has switched on catalog 1.0 and the course has the usage "Standalone".
 
-The entire OpenOlat [catalog (version 1)](../../area_modules/Courses.md) can be viewed by all users in the "Courses" menu.
-
-Only enter your courses in the catalog once they have been completed and should be visible to users.
-
+[For more details >](../Course_Settings_Catalog.md)<br>
 [To the top of the page ^](#course_settings)
 
 
@@ -117,20 +114,9 @@ Only enter your courses in the catalog once they have been completed and should 
 
 ![Tab "Terms of use" active, fifth in the tab bar](../assets/course_settings_tab_disclaimer_v2_en.png){ class="shadow lightbox" title="Terms of use tab in the course settings · 2026.10.29" }
 
-Here
+Here you store course-related terms of use and a course-related privacy policy that persons agree to before the course opens. You only see the tab if the administration has switched on the option "Course related terms of use and data protection".
 
-* freely definable course-related "Terms of use"
-* and a course-related "Privacy policy"
-
-can be activated and stored. If a person starts the course, they must first accept the conditions, otherwise access to the course is not possible. For each text you switch on, you enter a title, the conditions and the label of the checkbox that is ticked to accept. A second checkbox is possible.
-
-You only see the tab if the option "Course related terms of use and data protection" is switched on in the system administration, under `Administration > Modules > Course` ([Module Course](../../../manual_admin/administration/Modules_Course.md#enable_course_option)). If the tab is missing, contact the administration of your OpenOlat instance.
-
-In the [Members management](../Members_management.md) you can see in the "Consents" section which persons have already accepted the conditions:<br>
-`Course > Administration > Members management > Consents`
-
-![Terms of use and privacy policy can be switched on separately, each with a title, conditions and up to two checkbox labels; here the privacy policy is switched on](../assets/disclaimer_course_v2_en.png){ class="shadow lightbox" title="Form Course related terms of use · 2026.10.29" }
-
+[For more details >](../Course_Settings_Disclaimer.md)<br>
 [To the top of the page ^](#course_settings)
 
 
@@ -138,11 +124,11 @@ In the [Members management](../Members_management.md) you can see in the "Consen
 
 ![Tab "Layout" active, sixth in the tab bar](../assets/course_settings_tab_layout_v2_en.png){ class="shadow lightbox" title="Layout tab in the course settings · 2026.10.29" }
 
-In the Layout tab you determine how the course looks and how participants move through it. Here you can
+In the Layout tab you determine how the course looks and how participants move through it. Here you
 
-* select a layout template for a course,
-* define the course navigation in more detail
-* and define the style of the course elements.
+* select a layout template for the course,
+* set the course navigation
+* and determine the style of the course elements.
 
 Which layout templates are available is determined by the system layout (theme) that applies to your entire OpenOlat instance. The "Default" template is always available. A uniform appearance for all courses (colors, fonts, logo) is therefore implemented centrally via a custom system layout, see [Layout](../../../manual_admin/administration/Customizing.md#layout). For a single course, choose the option "Customize...": there you set the font and colors for text, headings, links, menu and toolbox and upload a logo. In addition, you can store your own CSS files in the "courseCSS" folder of the course [Storage folder](../Storage_folder.md). They then appear in the selection as "from course folder". You open the storage folder under:<br>
 `Course > Administration > Storage folder`
@@ -206,10 +192,10 @@ Here you activate as required
 * a special folder for coaches
 * to-dos for coaches
 
-If you are a user with an administrative role (learning resource manager, administrator), you will be shown additional special options:
+If you have an administrative role (learning resource manager, administrator), OpenOlat shows you further options here, provided the corresponding modules are switched on:
 
-* invitation to activate external users for course owners with author rights
-* activate the "LTI 1.3" release for course owners with authoring rights
+* activate the invitation of external users for course owners with author rights
+* activate the "LTI 1.3" release for course owners with author rights
 
 [For more details >](../Course_Settings_Options.md)<br>
 [To the top of the page ^](#course_settings)

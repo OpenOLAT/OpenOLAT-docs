@@ -37,7 +37,7 @@ Die Tabs erscheinen in dieser Reihenfolge:
 * **Metadaten**: siehe [Kurseinstellungen - Tab Metadaten](../Course_Settings_Metadata.de.md).
 * **Info**: siehe [Kurseinstellungen - Tab Info](../Course_Settings_Info.de.md).
 * **Freigabe**: siehe [Kurseinstellungen - Tab Freigabe](../Course_Settings_Share/index.de.md).
-* **Katalog**: nur wenn der Katalog in der Version 1 eingeschaltet ist und der CP-Lerninhalt den Verwendungszweck "Eigenständig" hat, siehe [Kurseinstellungen, Tab Katalog](../Course_Settings/index.de.md#catalog).
+* **Katalog**: nur wenn der Katalog in der Version 1 eingeschaltet ist und der CP-Lerninhalt den Verwendungszweck "Eigenständig" hat, siehe [Kurseinstellungen - Tab Katalog](../Course_Settings_Catalog.de.md).
 * **Quota**: siehe [unten](#tab_quota).
 * **Layout**: siehe [unten](#tab_layout).
 * **Optionen**: der Zugriff für Teilnehmende im Status "Beendet", siehe [Kurseinstellungen - Tab Optionen](../Course_Settings_Options.de.md). Der Tab fehlt, wenn im Tab "Freigabe" der Verwendungszweck "Einbindung" gewählt ist.
@@ -73,7 +73,7 @@ Der Tab zeigt dieselben Felder wie der Tab "Anzeige Inhalt" im Kursbaustein "HTM
 [Kurseinstellungen - Tab Metadaten >](../Course_Settings_Metadata.de.md)<br>
 [Kurseinstellungen - Tab Info >](../Course_Settings_Info.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../Course_Settings_Share/index.de.md)<br>
-[Kurseinstellungen >](../Course_Settings/index.de.md)<br>
+[Kurseinstellungen - Tab Katalog >](../Course_Settings_Catalog.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](../Course_Settings_Options.de.md)<br>
 [Dateien und Ordner >](../../../manual_admin/administration/Files_and_Folders.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../Course_Element_HTML_Page.de.md)

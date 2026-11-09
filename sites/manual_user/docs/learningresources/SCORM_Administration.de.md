@@ -41,7 +41,7 @@ Die Tabs erscheinen in dieser Reihenfolge:
 * **Metadaten**: siehe [Kurseinstellungen - Tab Metadaten](Course_Settings_Metadata.de.md).
 * **Info**: siehe [Kurseinstellungen - Tab Info](Course_Settings_Info.de.md).
 * **Freigabe**: siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md).
-* **Katalog**: nur wenn der Katalog in der Version 1 eingeschaltet ist und die Lernressource den Verwendungszweck "Eigenständig" hat, siehe [Kurseinstellungen, Tab Katalog](Course_Settings/index.de.md#catalog).
+* **Katalog**: nur wenn der Katalog in der Version 1 eingeschaltet ist und die Lernressource den Verwendungszweck "Eigenständig" hat, siehe [Kurseinstellungen - Tab Katalog](Course_Settings_Catalog.de.md).
 * **Layout**: siehe [unten](#tab_layout).
 * **Optionen**: der Zugriff für Teilnehmende im Status "Beendet", siehe [Kurseinstellungen - Tab Optionen](Course_Settings_Options.de.md). Der Tab fehlt, wenn im Tab "Freigabe" der Verwendungszweck "Einbindung" gewählt ist.
 
@@ -68,7 +68,7 @@ Der Tab zeigt dieselben Felder wie der Tab "Anzeige Inhalt" des Kursbausteins: "
 [Kurseinstellungen - Tab Metadaten >](Course_Settings_Metadata.de.md)<br>
 [Kurseinstellungen - Tab Info >](Course_Settings_Info.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
-[Kurseinstellungen >](Course_Settings/index.de.md)<br>
+[Kurseinstellungen - Tab Katalog >](Course_Settings_Catalog.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)
 
 **Weiterführend**<br>

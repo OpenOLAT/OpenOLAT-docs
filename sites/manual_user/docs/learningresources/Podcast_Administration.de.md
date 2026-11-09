@@ -28,7 +28,7 @@ Hier legen Sie unter anderem den Verwendungszweck fest: Standard ist die Einbind
 
 ### Katalog {: #tab_catalog}
 
-Den Tab "Katalog" sehen Sie nur, wenn in Ihrer Instanz der Katalog in der Version 1 eingeschaltet ist und der Podcast eigenständig verwendet wird. Dort tragen Sie die Podcast-Lernressource in den Katalog ein, siehe [Kurseinstellungen, Tab Katalog](Course_Settings/index.de.md#catalog).
+Den Tab "Katalog" sehen Sie nur, wenn in Ihrer Instanz der Katalog in der Version 1 eingeschaltet ist und der Podcast eigenständig verwendet wird. Dort tragen Sie die Podcast-Lernressource in den Katalog ein, siehe [Kurseinstellungen - Tab Katalog](Course_Settings_Catalog.de.md).
 
 ### Quota {: #tab_quota}
 
@@ -52,7 +52,7 @@ Bei eigenständiger Verwendung legen Sie im Bereich "Zugriff" zusätzlich fest, 
 [Kurseinstellungen - Tab Metadaten >](Course_Settings_Metadata.de.md)<br>
 [Kurseinstellungen - Tab Info >](Course_Settings_Info.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
-[Kurseinstellungen >](Course_Settings/index.de.md)<br>
+[Kurseinstellungen - Tab Katalog >](Course_Settings_Catalog.de.md)<br>
 [Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)
 

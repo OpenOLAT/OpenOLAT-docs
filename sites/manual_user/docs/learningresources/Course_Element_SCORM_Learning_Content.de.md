@@ -55,8 +55,7 @@ Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Ein
 Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Auswählen oder importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete importieren Sie nicht nur im Kurseditor, sondern auch im Autorenbereich. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Feld "SCORM" die Meldung _Kein SCORM 1.2 ausgewählt_.
 
 !!! note "Importieren"
-    Beschreibung des Imports von Lernressourcen im Autorenbereich.<br>
-    [Aktionen im Autorenbereich > Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren)
+    Wie Sie Lernressourcen im Autorenbereich importieren, beschreibt der Abschnitt [Aktionen im Autorenbereich > Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren).
 
 Wenn Sie schon einen SCORM-Lerninhalt hinzugefügt haben, erscheint dessen Name als Link. Ein Klick auf den Link öffnet die Vorschau. Um die Zuordnung eines SCORM-Lerninhaltes nachträglich zu ändern, klicken Sie im Tab "Lerninhalt" auf "Ersetzen" und wählen anschliessend ein anderes SCORM-Paket aus.
 
@@ -135,11 +134,22 @@ Im Drop-down-Menü legen Sie fest, wie viele Lösungsversuche für diesen SCORM-
 ---
 
 
+<a id="layout"></a>
+
 ### Tab "Anzeige Inhalt" [:octicons-tag-16:{ title="ab Release 9.0.0 (OO-619)" }](https://track.frentix.com/issue/OO-619) {: #editor_tab_display_content}
 
 Im Tab "Anzeige Inhalt" bestimmen Sie, wie OpenOlat den SCORM-Inhalt im Kurs darstellt. Im Anzeigemodus "Standard" sind die Felder "JavaScript hinzufügen", "Glossarbegriffe einbinden" und "Layout anpassen" nicht wählbar, sie greifen erst im Modus "Optimiert für OpenOlat".
 
 ![Anzeigemodus Standard gewählt, JavaScript, Glossar und Layout dadurch nicht wählbar, Höhe und Zeichensatz Inhalt auf Automatisch](assets/course_element_scorm_tab_display_content_v3_de.png){ class="shadow lightbox" title="Tab Anzeige Inhalt im Kurseditor · 2026.10.08" }
+
+#### Standardwerte übernehmen {: #use_standard_configuration }
+
+Die Anzeige eines SCORM-Pakets legen Sie an zwei Orten fest: in den Einstellungen der Lernressource im [Tab "Layout"](SCORM_Administration.de.md#tab_layout) und hier im Kursbaustein. Mit "Standardwerte übernehmen" wählen Sie, welche Einstellungen im Kurs gelten:
+
+* **Aus Layouteinstellungen der Lernressource übernehmen:** Der Kursbaustein zeigt das SCORM-Paket so, wie es in den Einstellungen der Lernressource festgelegt ist. Die Felder darunter zeigen diese Werte und lassen sich hier nicht ändern.
+* **Anpassen:** Sie legen die Felder darunter für diesen Kursbaustein selbst fest. Die Einstellungen gelten nur hier, die Lernressource und andere Kurse, die sie verwenden, bleiben unverändert.
+
+Sieht ein SCORM-Inhalt im Kurs anders aus als beim direkten Öffnen der Lernressource, prüfen Sie diese Auswahl: Mit "Anpassen" gelten im Kurs eigene Werte. Das Feld "Standardwerte übernehmen" erscheint, wenn für das eingebundene SCORM-Paket Layouteinstellungen der Lernressource gespeichert sind, zum Beispiel nach dem Speichern im Tab "Layout" der Lernressource. Fehlt das Feld, gelten die Felder des Kursbausteins.
 
 #### Anzeigemodus {: #display_mode }
 
@@ -187,8 +197,7 @@ Hier wählen Sie einen vordefinierten Zeichensatz für den Javascript-Code. Stan
 Im Tab "HighScore" aktivieren und konfigurieren Sie die Rangliste für diesen Kursbaustein. Die Rangliste vergleicht die Ergebnisse der Teilnehmenden und ordnet das individuelle Ergebnis im Vergleich ein. Der Tab ist nur aktiv, wenn im Tab "Lerninhalt" unter "Resultat aus SCORM übertragen" die Option "Score übertragen" oder "Passed übertragen" gewählt ist. Mit "Passed übertragen" übernimmt OpenOlat keine Punkte aus dem SCORM-Paket, deshalb sehen die Teilnehmenden in diesem Fall keine Rangliste.
 
 !!! note "Rangliste"
-    Beschreibung der Einstellungen zur Rangliste.<br>
-    [Kursbausteine > Rangliste](Course_Elements/index.de.md#highscore)
+    Die Einstellungen der Rangliste beschreibt der Abschnitt [Kursbausteine > Rangliste](Course_Elements/index.de.md#highscore).
 
 [Zum Seitenanfang ^](#course_element_scorm)
 

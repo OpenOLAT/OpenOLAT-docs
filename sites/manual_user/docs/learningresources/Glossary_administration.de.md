@@ -19,7 +19,7 @@ Die Einstellungen eines Glossars zeigen die Tabs in dieser Reihenfolge:
 * **Metadaten**: Titel, Kennzeichen und Einordnung des Glossars. Die Felder beschreibt die Seite [Kurseinstellungen - Tab Metadaten](Course_Settings_Metadata.de.md).
 * **Info**: die Angaben für die Infoseite des Glossars, beschrieben auf der Seite [Kurseinstellungen - Tab Info](Course_Settings_Info.de.md).
 * **Freigabe**: Verwendungszweck und Zugang, beschrieben auf der Seite [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md).
-* **Katalog**: nur wenn der Katalog in der Version 1 eingeschaltet ist und das Glossar den Verwendungszweck "Eigenständig" hat, siehe [Kurseinstellungen, Tab Katalog](Course_Settings/index.de.md#catalog).
+* **Katalog**: nur wenn der Katalog in der Version 1 eingeschaltet ist und das Glossar den Verwendungszweck "Eigenständig" hat, siehe [Kurseinstellungen - Tab Katalog](Course_Settings_Catalog.de.md).
 * **Alphabetisches Register**: siehe [unten](#tab_register).
 * **Schreibberechtigung**: siehe [unten](#tab_write_permissions).
 * **Optionen**: der Zugriff für Teilnehmende im Status "Beendet", beschrieben auf der Seite [Kurseinstellungen - Tab Optionen](Course_Settings_Options.de.md). Der Tab fehlt, wenn im Tab "Freigabe" der Verwendungszweck "Einbindung" gewählt ist.
@@ -72,7 +72,7 @@ Soll nur ein Teil der Personen eines Kurses Einträge schreiben, etwa die Mitgli
 [Kurseinstellungen - Tab Metadaten >](Course_Settings_Metadata.de.md)<br>
 [Kurseinstellungen - Tab Info >](Course_Settings_Info.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
-[Kurseinstellungen >](Course_Settings/index.de.md)<br>
+[Kurseinstellungen - Tab Katalog >](Course_Settings_Catalog.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)
 
 **Weiterführend**<br>

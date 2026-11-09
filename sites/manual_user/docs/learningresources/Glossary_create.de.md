@@ -3,18 +3,18 @@
 
 ## Wo wird ein neues Glossar erstellt? {: #where}
 
-Glossare können wie andere Lernressourcen im **Autorenbereich** erstellt werden.
+Ein Glossar erstellen Sie wie andere Lernressourcen im Autorenbereich:<br>
+`Autorenbereich > Erstellen > Glossar`
 
 ![Aufgeklapptes Menü Erstellen mit dem markierten Eintrag Glossar](assets/glossary_create_authoring_v1_de.png){ class="shadow lightbox" title="Seite Autorenbereich" }
 
-Alternativ kann die Erstellung auch direkt im Kurs unter `Kurs > Administration > Einstellungen > Tab "Optionen"` aufgerufen werden.
-Sie finden dort den Button (4), der ein Popup-Fenster öffnet, in dem ein vorhandenes Glossar ausgewählt oder eine neue Glossar-Lernressource erstellt werden kann.
+Sie können ein Glossar auch direkt im Kurs erstellen, unter `Kurs > Administration > Einstellungen > Tab "Optionen"`. Der Button "Glossar wählen" öffnet ein Fenster, in dem Sie ein vorhandenes Glossar auswählen oder ein neues Glossar erstellen.
 
-![Nummerierte Klickfolge Administration, Einstellungen, Tab Optionen, Button Glossar wählen](assets/glossary_create_settings_v1_de.png){ class="shadow lightbox" title="Kurseinstellungen" }
+![Tab Optionen der Kurseinstellungen mit dem markierten Button Glossar wählen, über den Sie ein Glossar auswählen oder neu erstellen](assets/glossary_create_settings_v2_de.png){ class="shadow lightbox" title="Tab Optionen in den Kurseinstellungen · 2026.11.09" }
 
 !!! note "Hinweis"
 
-    Es können mehrere Glossare im Autorenbereich erstellt werden. Eingebunden werden kann aber pro Kurs jeweils nur 1 Glossar.
+    Im Autorenbereich erstellen Sie beliebig viele Glossare. In einen Kurs binden Sie jeweils ein Glossar ein.
 
 
 [Zum Seitenanfang ^](#glossary_create)
@@ -24,23 +24,22 @@ Sie finden dort den Button (4), der ein Popup-Fenster öffnet, in dem ein vorhan
 
 ## Glossareinträge erstellen {: #create_entries}
 
-``1.`` Gehen Sie in den **Autorenbereich** und öffnen Sie das Glossar. <br>
-(Klick auf den Namen oder Klick auf den Edit-Button oder "Edit" unter dem Icon mit den 3 Punkten.)
+``1.`` Öffnen Sie das Glossar im Autorenbereich: mit einem Klick auf den Titel, auf das Symbol Bearbeiten oder im Drei-Punkte-Menü der Zeile.
 
 ![Zeile Glossar mit Titel, Bearbeiten-Symbol und Drei-Punkte-Menü markiert](assets/glossary_authoring_edit_v1_de.png){ class="shadow lightbox" title="Liste im Autorenbereich" }
 
-``2.`` Klicken Sie einen der Buttons **"Eintrag hinzufügen"**.
+``2.`` Klicken Sie auf einen der beiden Buttons "Eintrag hinzufügen".
 
-![Zwei Buttons Eintrag hinzufügen markiert, oben rechts und über dem alphabetischen Register](assets/glossary_add_entry_v1_de.png){ class="shadow lightbox" title="Seite Glossar" }
+![Zwei Buttons Eintrag hinzufügen markiert, oben rechts und unter dem alphabetischen Register](assets/glossary_add_entry_v1_de.png){ class="shadow lightbox" title="Seite Glossar" }
 
 
-``3.`` Tragen Sie den gewünschten Fachausdruck ein. Sie können auch Synonyme ergänzen. Zum Beispiel kann der Begriff "Informationstechnologie" mit dem Synonym "IT" ergänzt werden. 
+``3.`` Tragen Sie den Begriff ein. Sie können Synonyme ergänzen, zum Beispiel zum Begriff "Informationstechnologie" das Synonym "IT".
 
-``4.`` Speichern Sie den Begriff. Dadurch wird der Tab für die Eingabe der Definition frei geschaltet.
+``4.`` Speichern Sie den Begriff. Danach lässt sich der Tab "Definition" öffnen.
 
 ![Pflichtfeld Begriff, Feld Synonyme und noch inaktiver Tab Definition](assets/glossary_edit_entry_v1_de.png){ class="shadow lightbox" title="Dialog Begriff hinzufügen" }
 
-``5.`` Im Tab "Definition" ergänzen Sie dann die konkrete Definition des Begriffs. Eingetragene Begriffe können auch im Nachhinein geändert oder gelöscht werden.
+``5.`` Im Tab "Definition" erfassen Sie die Erklärung des Begriffs. Eingetragene Begriffe können Sie später ändern oder löschen.
 
 ![Aktiver Tab Definition mit Rich-Text-Editor zur Eingabe der Begriffserklärung](assets/glossary_entry_definition_v1_de.png){ class="shadow lightbox" title="Dialog Begriff hinzufügen" }
 
@@ -49,7 +48,7 @@ Auch Lernende können ein Glossar inhaltlich befüllen. Wie Sie allen Benutzer:i
 
 ### Schreibrecht nur für ausgewählte Benutzer:innen {: #write_selected_users}
 
-Möchte man nur bestimmten Personen (z.B. den Teilnehmenden eines Kurses) das Schreibrecht für ein Glossar vergeben, geht man einen anderen Weg. Hierfür wird die Mitgliederverwaltung eines Kurses verwendet. Erstellen Sie dort eine neue Gruppe und fügen Sie die gewünschten Personen als Teilnehmer:innen dieser Gruppe hinzu. Gehen Sie anschliessend in der Mitgliederverwaltung des Kurses in den Bereich "Rechte" und setzen Sie bei den Kursteilnehmer:innen der Gruppe den Haken für das Recht "Glossar-Werkzeug". Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern. Was das Recht freigibt, beschreibt der Abschnitt [Glossar-Werkzeug](Members_management.de.md#right_glossary_tool).
+Sollen nur bestimmte Personen das Glossar bearbeiten, zum Beispiel einige Teilnehmende eines Kurses, vergeben Sie das Schreibrecht über die Mitgliederverwaltung des Kurses. Erstellen Sie dort eine Gruppe und fügen Sie die Personen als Teilnehmer:innen der Gruppe hinzu. Setzen Sie anschliessend im Bereich "Rechte" der Mitgliederverwaltung bei den Teilnehmer:innen der Gruppe den Haken für das Recht "Glossar-Werkzeug". Danach fügen die Personen der Gruppe Glossareinträge hinzu und ändern sie. Was das Recht freigibt, beschreibt der Abschnitt [Glossar-Werkzeug](Members_management.de.md#right_glossary_tool).
 
 !!! info "Wichtig"
 
@@ -65,7 +64,7 @@ Möchte man nur bestimmten Personen (z.B. den Teilnehmenden eines Kurses) das Sc
 
 ## Glossar gestalten {: #design}
 
-Die Erklärungen (Definitionen) können mit einem einfachen Editor bearbeitet werden, der neben Text Ergänzungen zulässt, wie
+Die Definitionen bearbeiten Sie in einem einfachen Editor. Neben Text bietet er zum Beispiel
 
 * Schriftartwahl
 * Einrückungen
@@ -83,27 +82,27 @@ Ob das Glossar die Begriffe über ein alphabetisches Register nach Anfangsbuchst
 
 ## Glossar einbinden {: #integrate}
 
-Glossare sind OpenOlat-Lernressourcen, die normalerweise in einen Kurs eingebunden werden. Darüber hinaus ist auch eine Nutzung als Stand-alone-Lernressource möglich. In diesem Fall kann das Glossar dann z.B. auch als eigenständiges Angebot im Katalog angezeigt werden.
+Ein Glossar binden Sie meist in einen Kurs ein. Teilnehmende sehen die Begriffe dann im Kurs erklärt. Sie können ein Glossar auch eigenständig verwenden und zum Beispiel als eigenes Angebot im Katalog anbieten.
 
 Systemadministrator:innen müssen die Glossarfunktion nicht eigens einschalten.
 
-``1.`` Um ein Glossar in einen Kurs einzubinden, wählen Sie im ersten Schritt die Lernressource unter `Kurs > Administration > Einstellungen > Tab "Optionen"` aus.
+``1.`` Wählen Sie das Glossar mit dem Button "Glossar wählen" aus, unter `Kurs > Administration > Einstellungen > Tab "Optionen"`.
 
-![Nummerierte Klickfolge Administration, Einstellungen, Tab Optionen, Button Glossar wählen](assets/glossary_create_settings_v1_de.png){ class="shadow lightbox" title="Kurseinstellungen" }
+![Tab Optionen der Kurseinstellungen mit dem markierten Button Glossar wählen, über den Sie ein Glossar auswählen oder neu erstellen](assets/glossary_create_settings_v2_de.png){ class="shadow lightbox" title="Tab Optionen in den Kurseinstellungen · 2026.11.09" }
 
-``2.`` Damit das eingebundene Glossar in der Toolbar des Kurses sichtbar wird, muss noch die Anzeige als Werkzeug gewählt werden. Wählen Sie die entsprechende Checkbox unter `Kurs > Administration > Einstellungen > Tab "Toolbar"`.
+``2.`` Damit Teilnehmende das Glossar in der Toolbar des Kurses sehen, schalten Sie es dort als Werkzeug ein: Checkbox "Glossar" unter `Kurs > Administration > Einstellungen > Tab "Toolbar"`.
 
-![Tab Toolbar mit der aktivierten Checkbox Glossar unter Werkzeuge in Toolbar aktivieren](assets/glossary_settings_toolbar_activate_v1_de.png){ class="shadow lightbox" title="Kurseinstellungen" }
+![Tab Toolbar der Kurseinstellungen mit der markierten, eingeschalteten Checkbox Glossar unter Werkzeuge in Toolbar aktivieren](assets/glossary_settings_toolbar_activate_v2_de.png){ class="shadow lightbox" title="Tab Toolbar in den Kurseinstellungen · 2026.11.09" }
 
 
 
 !!! note "Hinweis"
 
-    Es kann pro Kurs jeweils nur 1 Glossar eingebunden werden. Im Autorenbereich können dagegen mehrere Glossar-Lernressourcen vorhanden sein, so dass in verschiedenen Kursen unterschiedliche Glossare verwendet werden können.
+    In einen Kurs binden Sie jeweils ein Glossar ein. Im Autorenbereich können mehrere Glossare bestehen, so dass verschiedene Kurse unterschiedliche Glossare verwenden.
 
 
 
-Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar in Ihren Kurs einbinden möchten, können Sie unter `Kurs > Administration > Einstellungen > Tab "Optionen"` eine andere Glossar-Lernressource auswählen.
+Möchten Sie ein anderes Glossar in Ihren Kurs einbinden, wählen Sie es unter `Kurs > Administration > Einstellungen > Tab "Optionen"` mit "Glossar wählen" aus. Verwenden Sie kein Glossar mehr, entfernen Sie es dort mit "Auswahl löschen".
 
 
 ---
