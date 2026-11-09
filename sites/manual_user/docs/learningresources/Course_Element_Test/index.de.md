@@ -37,7 +37,7 @@ Die zwei zentralen Tabs, in denen Sie die Einstellungen für Ihren Test festlege
     Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der Tests.
 
 
-Weitere Informationen zur Lernressource Test: [Tests erstellen](../Test.de.md)
+Weitere Informationen zur Lernressource Test: [Tests erstellen](../Test/index.de.md)
 
 [Zum Seitenanfang ^](#course_element_test)
 
@@ -60,11 +60,11 @@ Sie binden einen Test in Ihren Kurs ein und legen fest, wann Teilnehmende ihn be
 Merkmal | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Selbsttest
 ------|------|------
  Einsatzzweck | Prüfungstest, Test mit Einblick für die Lehrenden, Standard Test | Übung, Selbstevaluation, keine Einsicht durch Lehrperson
- Herstellung mit | [Testeditor](../Test_editor_QTI_2.1.de.md) | [Testeditor](../Test_editor_QTI_2.1.de.md)
+ Herstellung mit | [Testeditor](../Test_editor_QTI_2.1/index.de.md) | [Testeditor](../Test_editor_QTI_2.1/index.de.md)
  Fragetypen QTI 2.1 | Alle [Fragetypen](../Test_question_types.de.md) möglich | Alle [Fragetypen](../Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Teilnehmende | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../Assessment_tool_overview.de.md) sowie in den [Teststatistiken](../Statistics_Test.de.md) und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../Assessment_tool_overview.de.md) und in den [Teststatistiken](../Statistics_Test.de.md) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md) sowie in den [Teststatistiken](../Statistics_Test.de.md) und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md) und in den [Teststatistiken](../Statistics_Test.de.md) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -154,14 +154,14 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 [Test einrichten >](Test_Setup.de.md)<br>
 [Tests auswerten und verwalten >](Test_Results.de.md)<br>
 [Kursbaustein "Selbsttest" >](../Course_Element_Self_Test.de.md)<br>
-[Tests erstellen >](../Test.de.md)<br>
-[Testeditor >](../Test_editor_QTI_2.1.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
+[Tests erstellen >](../Test/index.de.md)<br>
+[Testeditor >](../Test_editor_QTI_2.1/index.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
 [Teststatistiken >](../Statistics_Test.de.md)<br>
 [Test konfigurieren >](../Configure_tests.de.md)
 
 **Weiterführend**<br>
-[Kursbausteine im Überblick >](../Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../Course_Elements/index.de.md)<br>
 [Testfragen konfigurieren >](../Configure_test_questions.de.md)<br>
 [Tests bewerten >](../Assessing_tests.de.md)
 

@@ -20,9 +20,9 @@
 
 ## What is a bulk assessment? {: #what-is-a-bulk-assessment}
 
-With a bulk assessment you may assess several participants with the [assessment tool](../../manual_user/learningresources/Assessment_tool_overview.md) at a time of your choice at once.
+With a bulk assessment you may assess several participants with the [assessment tool](../../manual_user/learningresources/Assessment_tool_overview/index.md) at a time of your choice at once.
 
-Bulk assessments can be done for the [assessable course elements](../../manual_user/learningresources/Course_Elements.md)
+Bulk assessments can be done for the [assessable course elements](../../manual_user/learningresources/Course_Elements/index.md)
 
 * course element "Task",
 * course element "Group task",
@@ -206,8 +206,8 @@ After performing the steps of the wizard, the changes made appear in the assessm
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-[Course elements at a glance >](../../manual_user/learningresources/Course_Elements.md)
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
+[Course elements at a glance >](../../manual_user/learningresources/Course_Elements/index.md)
 
 **Further reading**<br>
 [Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)<br>

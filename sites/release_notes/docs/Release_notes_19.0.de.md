@@ -187,7 +187,7 @@ Gutachter:innen und Betreuende finden in der Teilnehmendenliste am Baustein eine
 
 ## Kursarchivierung und Reporting
 
-Bisher konnten Kurs-Logfiles, Reports sowie Kursbaustein-Daten nur umständlich und jeweils einzeln archiviert werden. Der neue und überarbeitete Bereich ['Archivierung und Reporting'](../manual_user/learningresources/Course_Archiving.de.md){:target="_blank”} in der Kursadministration ermöglicht eine schnelle und einfache Teil- bzw. Gesamt-Archivierung eines Kurses.
+Bisher konnten Kurs-Logfiles, Reports sowie Kursbaustein-Daten nur umständlich und jeweils einzeln archiviert werden. Der neue und überarbeitete Bereich ['Archivierung und Reporting'](../manual_user/learningresources/Course_Archiving/index.de.md){:target="_blank”} in der Kursadministration ermöglicht eine schnelle und einfache Teil- bzw. Gesamt-Archivierung eines Kurses.
 
 Ein Wizard unterstützt bei der Auswahl der zu archivierenden Daten aller oder ausgewählter Kursbausteine sowie zusätzlicher Reports (Chatprotokoll, Kursresultate) und Logfiles. Die Archivierung selbst erfolgt anschliessend im Hintergrund als asynchroner Prozess. Fertige Archive stehen standardmässig 10 Tage zum Herunterladen zur Verfügung, danach werden sie automatisch gelöscht.
 

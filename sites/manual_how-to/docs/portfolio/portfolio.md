@@ -406,7 +406,7 @@ The checklist summarises the preparation steps of this guide.
 [Shared with me >](../../manual_user/area_modules/Shared_with_me.md)<br>
 [Multiple use of entries >](../../manual_user/area_modules/Multiple_use_of_entries.md)<br>
 [Competences tags >](../../manual_user/area_modules/Competences_tags.md)<br>
-[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment/index.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#portfolio)

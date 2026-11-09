@@ -68,7 +68,7 @@ Was Sie bauen, und was Lernende bearbeiten.
 
 <div class="grid cards" markdown>
 
--   __[Kurs](manual_user/learningresources/General_Information.de.md)__
+-   __[Kurs](manual_user/learningresources/General_Information/index.de.md)__
     {: data-oo-cluster="teaching_and_courses" data-oo-domain="course" }
 
     ---
@@ -104,7 +104,7 @@ Wie eine Leistung erfasst, bewertet und belegt wird.
 
 <div class="grid cards" markdown>
 
--   __[Test und Fragenpool](manual_user/learningresources/Test.de.md)__
+-   __[Test und Fragenpool](manual_user/learningresources/Test/index.de.md)__
     {: data-oo-cluster="assessment_and_evidence" data-oo-domain="testing" }
 
     ---
@@ -118,7 +118,7 @@ Wie eine Leistung erfasst, bewertet und belegt wird.
 
     Alles, wo Lernende etwas abgeben, überarbeiten oder üben, und der Workflow, den Betreuende dafür durchlaufen.
 
--   __[Bewertung](manual_user/learningresources/Assessment_tool_overview.de.md)__
+-   __[Bewertung](manual_user/learningresources/Assessment_tool_overview/index.de.md)__
     {: data-oo-cluster="assessment_and_evidence" data-oo-domain="assessment" }
 
     ---

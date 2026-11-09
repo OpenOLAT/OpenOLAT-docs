@@ -346,7 +346,7 @@ Grundsätzlich sollte bei laufendem Prüfungsmodus möglichst nicht mehr eingegr
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Prüfungseinsicht > ](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
 [Prüfungsverwaltung (Admin) > ](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md)<br>
-[Prüfungsverwaltung durch Kursbesitzer:innen und Betreuer:innen > ](../../manual_user/learningresources/Assessment_Management.de.md)<br>
+[Prüfungsverwaltung durch Kursbesitzer:innen und Betreuer:innen > ](../../manual_user/learningresources/Assessment_Management/index.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
 [Toolbar: Termine >](../../manual_user/learningresources/Toolbar_Events.de.md)<br>

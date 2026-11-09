@@ -121,7 +121,7 @@ OpenOlat passes the link to the Resource Info Page to the search engine. Then th
 [Module OAI-PMH >](../../manual_admin/administration/Modules_OAI.md)
 
 **Further reading**<br>
-[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md)<br>
 [Course Settings - Tab Info >](../../manual_user/learningresources/Course_Settings_Info.md)<br>
 [Licenses >](../../manual_admin/administration/Licenses.md)
 

@@ -127,7 +127,7 @@ If a participant starts an exam with an older version, the exam is not released;
 
 ## Further information {: #further_information}
 
-[Assessment management: Overview >](../../manual_user/learningresources/Assessment_Management.md)<br>
+[Assessment management: Overview >](../../manual_user/learningresources/Assessment_Management/index.md)<br>
 [Assessment management: Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
 [Assessment management: Assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)<br>
 [As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>

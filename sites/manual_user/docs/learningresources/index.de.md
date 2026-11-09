@@ -1,7 +1,7 @@
 # Lernressourcen {: #learning_resources}
 
 OpenOlat kennt verschiedene Typen von [Lernressourcen](../learningresources/General_Functions_Concept.de.md).<br>
-Meistens werden sie in [Kursbausteine](../learningresources/Course_Elements.de.md) eingebunden.<br>
+Meistens werden sie in [Kursbausteine](Course_Elements/index.de.md) eingebunden.<br>
 Einige Lernressourcen können direkt im Autorenbereich erstellt werden.<br>
 Darüber hinaus können [weitere Lernressourcen-Typen](#further_learningresources) erstellt oder importiert werden.
 
@@ -18,7 +18,7 @@ Darüber hinaus können [weitere Lernressourcen-Typen](#further_learningresource
 
 Ein OpenOlat-Kurs kann als reiner Online-Kurs eingesetzt werden oder Vorlesungen, Seminare oder andere Präsenzveranstaltungen begleiten. In einem OpenOlat-Kurs können verschiedene didaktische Konzepte wie Webquest, Gruppenpuzzles, kooperative Online-Seminare, problembasiertes Lernen, gamebasierte Ansätze usw. umgesetzt werden. Ein Kurs ist in OpenOlat ein eigener Dokumententyp, der beliebig viele "Kursbausteine" sowie weitere Funktionalitäten enthalten kann.
 
-Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine"](Course_Elements.de.md).
+Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine"](Course_Elements/index.de.md).
 
 
 [Zum Seitenanfang ^](#learning_resources)
@@ -33,7 +33,7 @@ Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_C
 
 OpenOlat-Tests können sowohl zu Prüfungs- als auch zu Übungszwecken verwendet werden. Im ersten Fall können die Kursautor:innen die Testresultate einsehen und den Teilnehmenden zuordnen, im zweiten Fall werden die Resultate anonymisiert gespeichert. Jeder Test liegt im standardisierten Format IMS QTI 2.1 vor.
 
-Mehr Informationen zum Einsatz und zur Erstellung von Tests finden Sie im Kapitel ["Tests erstellen"](../learningresources/Test.de.md).
+Mehr Informationen zum Einsatz und zur Erstellung von Tests finden Sie im Kapitel ["Tests erstellen"](Test/index.de.md).
 
 [Zum Seitenanfang ^](#learning_resources)
 
@@ -73,7 +73,7 @@ Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstell
 
 Ein Podcast ermöglicht den Upload von Audio- oder Videodateien, die anschliessend in OpenOlat zur Verfügung gestellt werden können. Podcasts können entweder direkt in OpenOlat angehört oder angeschaut oder in Portalen wie iTunes abonniert werden, um die einzelnen Podcast-Episoden später auf mobile Endgeräte zu kopieren. Teilnehmende können Episoden auf einfache Art bewerten und kommentieren.
 
-Weitere Informationen zum Thema Podcast finden Sie im Kapitel ["Podcast: Übersicht"](../learningresources/Podcast.de.md).
+Weitere Informationen zum Thema Podcast finden Sie im Kapitel ["Podcast: Übersicht"](Podcast/index.de.md).
 
 [Zum Seitenanfang ^](#learning_resources)
 
@@ -97,7 +97,7 @@ Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources
 
 ![Eintrag Ressourcenordner markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
 
-Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafiken usw.) in mehreren Kursen verwendet werden. Dabei werden die Dateien aus dem Ressourcenordner referenziert und müssen somit nicht mehrfach erstellt werden. Der verknüpfte Ressourcenordner wird in den Dateien des verknüpften Kurses unter `_sharedfolder` angezeigt, und es besteht Zugriff auf alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass nur *ein* Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere Informationen finden Sie im Kapitel ["Kurseinstellungen"](../learningresources/Course_Settings.de.md#options) im Tab "Optionen".
+Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafiken usw.) in mehreren Kursen verwendet werden. Dabei werden die Dateien aus dem Ressourcenordner referenziert und müssen somit nicht mehrfach erstellt werden. Der verknüpfte Ressourcenordner wird in den Dateien des verknüpften Kurses unter `_sharedfolder` angezeigt, und es besteht Zugriff auf alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass nur *ein* Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere Informationen finden Sie im Kapitel ["Kurseinstellungen"](Course_Settings/index.de.md#options) im Tab "Optionen".
 
 [Zum Seitenanfang ^](#learning_resources)
 
@@ -111,7 +111,7 @@ Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafike
 
 Formulare können in OpenOlat für vielfältige Zwecke und an unterschiedlichen Stellen eingesetzt werden. Sie eignen sich z.B. für Umfragen, Datenerhebungen, Selbsteinschätzungen, Fragebogen oder Rubrikbewertung. Zum Einsatz kommen sie im Kursbaustein "Formular", im Kursbaustein "Umfrage" oder als Rubrikbewertung im Kursbaustein "Bewertung" oder Kursbaustein "Aufgabe".
 
-Mehr Informationen zum Einsatz und zur Erstellung von Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel [Formulare erstellen](../learningresources/Form.de.md).
+Mehr Informationen zum Einsatz und zur Erstellung von Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel [Formulare erstellen](Form/index.de.md).
 
 [Zum Seitenanfang ^](#learning_resources)
 

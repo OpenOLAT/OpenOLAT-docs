@@ -15,7 +15,7 @@ Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet. Wer ihn 
 
 ## Wo kommt der Content Editor zum Einsatz? {: #content_editor_use}
 
-Der Content Editor wird im [Kursbaustein Seite](../learningresources/Course_Element_Page.de.md), in der [Lernressource "Formular"](../learningresources/Form.de.md) und im ["Portfolio 2.0"](../area_modules/The_portfolio_editor_17_1.de.md) verwendet.
+Der Content Editor wird im [Kursbaustein Seite](../learningresources/Course_Element_Page.de.md), in der [Lernressource "Formular"](../learningresources/Form/index.de.md) und im ["Portfolio 2.0"](../area_modules/The_portfolio_editor_17_1.de.md) verwendet.
 
 
 ### Kursbaustein Seite [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"} {: #course_element_page}
@@ -47,7 +47,7 @@ Auch die Medien einer Portfolio-Mappe liegen im Media Center. Die Lernressource 
 
 ### Lernressource Formular {: #form}
 
-Der Content Editor wird auch in der [Lernressource Formular](../learningresources/Form.de.md) und allen Elementen die die Lernressource Formular nutzen verwendet. 
+Der Content Editor wird auch in der [Lernressource Formular](../learningresources/Form/index.de.md) und allen Elementen die die Lernressource Formular nutzen verwendet. 
 
 Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst, z.B. stehen hier verschiedene Fragetypen zur Auswahl.
 
@@ -246,7 +246,7 @@ Dieses Textelement existiert nicht im Formulareditor.
 
 !!! info "Bereich Medien"
 
-    Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formulareditor](../learningresources/Form_Editor.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
+    Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formulareditor](../learningresources/Form_Editor/index.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
 
 ### Bild {: #image}
 
@@ -505,13 +505,13 @@ Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wähl
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
 [Kursbaustein "Seite" >](../learningresources/Course_Element_Page.de.md)<br>
-[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Formulare - Übersicht >](../learningresources/Form/index.de.md)<br>
 [Der Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Meine Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
-[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor >](../learningresources/Form_Editor/index.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](Media_Center_Items.de.md)<br>

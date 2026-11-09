@@ -14,7 +14,7 @@ The Content Editor is used in several places in OpenOlat. Who uses it depends on
 
 ## Where is the Content Editor used? {: #content_editor_use}
 
-The Content Editor is used in the [course element Page](../learningresources/Course_Element_Page.md), in the [learning resource "Form"](../learningresources/Form.md) and in the ["Portfolio 2.0"](../area_modules/The_portfolio_editor_17_1.md).
+The Content Editor is used in the [course element Page](../learningresources/Course_Element_Page.md), in the [learning resource "Form"](../learningresources/Form/index.md) and in the ["Portfolio 2.0"](../area_modules/The_portfolio_editor_17_1.md).
 
 ### Course element page [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"} {: #course_element_page}
 
@@ -45,7 +45,7 @@ The media of a portfolio binder are also stored in the Media Center. The learnin
 
 ### Learning resource form {: #form}
 
-The Content Editor is also used in the [learning resource Form](../learningresources/Form.md) and in all elements that use the learning resource Form.
+The Content Editor is also used in the [learning resource Form](../learningresources/Form/index.md) and in all elements that use the learning resource Form.
 
 The displayed options for inserting content are adapted to the form, e.g. different question types are available here.
 
@@ -241,7 +241,7 @@ This text element does not exist in the form editor.
 
 !!! info "Section Media"
 
-    Instead of the "Media" section and its associated content elements, the [form editor](../learningresources/Form_Editor.md) includes the "Question Types" and "Organizational" sections with their corresponding content elements. 
+    Instead of the "Media" section and its associated content elements, the [form editor](../learningresources/Form_Editor/index.md) includes the "Question Types" and "Organizational" sections with their corresponding content elements. 
 
 
 ### Image {: #image}
@@ -495,13 +495,13 @@ Click the button to open the files in your Media Center. Here, you select files,
 **Mentioned on this page**<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
 [Course Element "Page" >](../learningresources/Course_Element_Page.md)<br>
-[Forms - Overview >](../learningresources/Form.md)<br>
+[Forms - Overview >](../learningresources/Form/index.md)<br>
 [The Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [My binders >](../area_modules/My_portfolio_binders.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
-[The form editor >](../learningresources/Form_Editor.md)<br>
+[The form editor >](../learningresources/Form_Editor/index.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Information and settings for items in the Media Center >](Media_Center_Items.md)<br>

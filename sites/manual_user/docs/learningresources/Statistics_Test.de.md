@@ -40,7 +40,7 @@ Eine hohe Zahl von Anpassungen deutet darauf hin, dass die Frage oder ihre Lösu
 [Tests bewerten >](Assessing_tests.de.md)
 
 **Weiterführend**<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Kursstatistiken >](Statistics_Course.de.md)<br>
 [Fragebogen Statistiken >](Statistics_Survey.de.md)
 

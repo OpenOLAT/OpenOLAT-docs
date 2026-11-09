@@ -339,7 +339,7 @@ Im Abschnitt "Einstellungen" unter der Übersicht legen Sie fest, ob jede Teilna
 
 Braucht eine Durchführung beim Buchen mehr als Name und Rechnungsadresse, etwa Essenswünsche, Vorkenntnisse oder eine Mitgliedernummer, holen Formulare diese Informationen beim Buchen eines Angebots ein. Pro Angebot legen Sie fest, welche Formulare zum Einsatz kommen und in welcher Reihenfolge. So kann ein Angebot für Berufstätige andere Fragen stellen als ein Angebot derselben Durchführung für Studierende. Die Antworten liegen danach an drei Orten: beim Formular in der Durchführung, beim Buchungsauftrag und bei der Mitgliedschaft der Person.
 
-Als Formular dient eine [Formular-Lernressource](../learningresources/Form.de.md). Den Abschnitt gibt es nur bei Durchführungen im Course Planner, nicht bei Angeboten eines Kurses oder einer anderen Lernressource. Angebote der Angebotsart PayPal Checkout verwenden keine Formulare. Formulare hinzufügen, verwenden und entfernen können alle, die die Durchführung bearbeiten dürfen; die Rollen nennt die [Rechte-Matrix](Course_Planner/index.de.md#rights_matrix).
+Als Formular dient eine [Formular-Lernressource](../learningresources/Form/index.de.md). Den Abschnitt gibt es nur bei Durchführungen im Course Planner, nicht bei Angeboten eines Kurses oder einer anderen Lernressource. Angebote der Angebotsart PayPal Checkout verwenden keine Formulare. Formulare hinzufügen, verwenden und entfernen können alle, die die Durchführung bearbeiten dürfen; die Rollen nennt die [Rechte-Matrix](Course_Planner/index.de.md#rights_matrix).
 
 Ein Formular kommt in zwei Stufen zum Einsatz. Zuerst fügen Sie es der Durchführung hinzu, danach schalten Sie es im einzelnen Angebot ein. Ein hinzugefügtes Formular allein wird beim Buchen noch nicht verlangt.
 
@@ -690,7 +690,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Modul Gruppen (Administration) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](catalog2.0_sort_offers.de.md)<br>
-[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Formulare - Übersicht >](../learningresources/Form/index.de.md)<br>
 [Reports: Buchungsaufträge >](Reports_BookingOrders.de.md)<br>
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>

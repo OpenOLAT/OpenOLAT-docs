@@ -2,7 +2,7 @@
 
 If you want to understand how a course is used, evaluate the log files: OpenOlat records the course activities of the participants and the course authors in them.
 
-Within a course, you archive the log files in the [Archiving & Reporting](../learningresources/Course_Archiving.md) tool [:octicons-tag-16:{ title="from Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620) under:<br>
+Within a course, you archive the log files in the [Archiving & Reporting](Course_Archiving/index.md) tool [:octicons-tag-16:{ title="from Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620) under:<br>
 `Course > Administration > Archiving & Reporting > Log files`
 
 The following log files are available:
@@ -66,7 +66,7 @@ It means, with the database operation update:
 
 ## Further information {: #further_information}
 
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
+[Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
 [User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Members management >](../learningresources/Members_management.md)
 

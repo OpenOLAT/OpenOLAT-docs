@@ -32,7 +32,7 @@ By means of the course element "Checklist" you add a checklist to your course. F
 
 In this tab, you determine whether a deadline should be effective for the checklist and if and how participants are assessed. Depending on the selected settings, you have different assessment options at your disposal. Later, you assess either in the course with the course editor closed or in the [Assessment tool](../learningresources/Assessment_of_course_modules.md) of the course.
 
-The tab is divided into the areas "Checklist configuration", "Grading configuration" and "Assessment form". If assessments already exist for the checklist, OpenOlat displays the settings under "Grading configuration" as read-only. The deadline under "Checklist configuration" and the area "Assessment form" remain editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+The tab is divided into the areas "Checklist configuration", "Grading configuration" and "Assessment form". If assessments already exist for the checklist, OpenOlat displays the settings under "Grading configuration" as read-only. The deadline under "Checklist configuration" and the area "Assessment form" remain editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements/index.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ### Checklist configuration {: #checklist_configuration}
 
@@ -84,7 +84,7 @@ In learning path courses, the option appears as soon as "Score granted" or "Disp
 
 #### Scaling factor for course assessment {: #score_scaling}
 
-The field appears if the course assessment adds up the points with weighting and "Score granted" as well as "Include in course assessment" are switched on. OpenOlat multiplies the points of the checklist by this factor for the course assessment. More about this under [Course assessment with points: Sum with weighting](Course_Settings_Assessment.md#evaluation_with_points_weighting).
+The field appears if the course assessment adds up the points with weighting and "Score granted" as well as "Include in course assessment" are switched on. OpenOlat multiplies the points of the checklist by this factor for the course assessment. More about this under [Course assessment with points: Sum with weighting](Course_Settings_Assessment/index.md#evaluation_with_points_weighting).
 
 ### Assessment form {: #assessment_form}
 
@@ -179,9 +179,9 @@ In the lower part of the form, you determine whether the course element "Structu
 
 **Mentioned on this page**<br>
 [Assessment of course modules >](../learningresources/Assessment_of_course_modules.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Levels/Grading >](../learningresources/Assessment_translate_points_in_grades.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Course Element "Structure" >](Course_Element_Structure.md)
 
 **Further reading**<br>

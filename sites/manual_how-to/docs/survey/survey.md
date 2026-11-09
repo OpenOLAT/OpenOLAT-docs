@@ -329,16 +329,16 @@ Resetting **individual** forms is **not** possible in the course element "Survey
 **Further reading**<br>
 [Course Element "Survey" >](../../manual_user/learningresources/Course_Element_Survey.md)<br>
 [Course Element "Form" >](../../manual_user/learningresources/Course_Element_Form.md)<br>
-[The form editor >](../../manual_user/learningresources/Form_Editor.md)<br>
-[Form elements >](../../manual_user/learningresources/Form_Elements.md)<br>
+[The form editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
+[Form elements >](../../manual_user/learningresources/Form_Elements/index.md)<br>
 [Survey statistics >](../../manual_user/learningresources/Statistics_Survey.md)<br>
-[Forms - Overview >](../../manual_user/learningresources/Form.md)<br>
+[Forms - Overview >](../../manual_user/learningresources/Form/index.md)<br>
 [Access configuration >](../../manual_user/learningresources/Access_configuration.md)<br>
 [Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
 [Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>
 [Learning path course - Course editor >](../../manual_user/learningresources/Learning_path_course_Course_editor.md)<br>
 [Authoring - Overview >](../../manual_user/area_modules/Authoring/index.md)<br>
-[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)
+[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving/index.md)
 
 
 [To the top of the page ^](#survey)

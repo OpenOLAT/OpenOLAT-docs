@@ -7,7 +7,7 @@ Sobald Sie in der Liste eine oder mehrere Fragen auswählen, erscheinen über de
 
 ## Test erstellen {: #learning_resource_test}
 
-Mit dem Button "Test erstellen" erstellen Sie aus den ausgewählten Fragen direkt eine neue [Lernressource Test](../learningresources/Test.de.md). Dabei tragen Sie gleich den Titel der Lernressource ein. Den Test finden Sie danach im Autorenbereich unter "Meine Einträge".
+Mit dem Button "Test erstellen" erstellen Sie aus den ausgewählten Fragen direkt eine neue [Lernressource Test](../learningresources/Test/index.de.md). Dabei tragen Sie gleich den Titel der Lernressource ein. Den Test finden Sie danach im Autorenbereich unter "Meine Einträge".
 
 [Zum Seitenanfang ^](#using_the_questions)
 
@@ -131,7 +131,7 @@ Weitere Informationen zu den einzelnen Metadaten finden Sie im Kapitel [Fragenpo
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Tests erstellen >](../learningresources/Test.de.md)<br>
+[Tests erstellen >](../learningresources/Test/index.de.md)<br>
 [Fragenpool: Administration >](Question_Bank_Administration.de.md)<br>
 [Von QTI 1.2 zu QTI 2.1 >](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.de.md)<br>
 [Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)

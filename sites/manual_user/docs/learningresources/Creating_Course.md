@@ -3,15 +3,15 @@
 :octicons-device-camera-video-24: **Video introduction (German)**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"} <br>
 :octicons-device-camera-video-24: **Video introduction (German)**: [Login](<https://www.youtube.com/embed/tI7ag7i6zXc>){:target="_blank"} <br>
 
-![Starting point for creating a course: button Create in the Authoring area, opened with the entries Course and Course from template](assets/creating_course_v1_de.png){ class="shadow lightbox" }
+![Starting point for creating a course: button Create, opened with the entries Course and Course from template](assets/creating_course_v1_de.png){ class="shadow lightbox" title="Authoring area" }
 
 This chapter is written for course authors and shows you how to create, set up and configure a course.
 
-There are two variants of OpenOlat courses: conventional courses and [learning path courses](Learning_path_course.md), which differ partly in the configuration options. Learning path courses have, among other things, a [progress indicator](Learning_path_course_Participant_view.md). In the authoring area, course owners can directly display whether a course is a learning path course or a conventional course by displaying the "Technical type" column.
+There are two variants of OpenOlat courses: conventional courses and [learning path courses](Learning_path_course/index.md), which differ partly in the configuration options. Learning path courses have, among other things, a [progress indicator](Learning_path_course_Participant_view.md). In the authoring area, course owners can directly display whether a course is a learning path course or a conventional course by displaying the "Technical type" column.
 
 ## How can you get started? {: #how_to_start}
 
-It is best to first get an overview of the entire [course cycle](General_Information.md) and then go on to look at the individual areas. The specific [course elements](Course_Elements.md) you can use to build courses are explained in detail in a separate chapter. The course structure is created in the course editor for both learning path courses and conventional courses.
+It is best to first get an overview of the entire [course cycle](General_Information/index.md) and then go on to look at the individual areas. The specific [course elements](Course_Elements/index.md) you can use to build courses are explained in detail in a separate chapter. The course structure is created in the course editor for both learning path courses and conventional courses.
 
 You choose the course design in the "Create course" dialog: "With learning path" and "With learning progress" result in a learning path course, "Classic" in a conventional course.
 
@@ -59,7 +59,7 @@ So if participants have already been assigned to a standalone course, and may ev
 
 Independently of changing the usage, you can use the course's tools menu to create a template copy from an existing course with **"Save as template"** and a new course from a template with **"Instantiate as course"**. In each case a new learning resource is created; the original entry remains unchanged.
 
-![Selection list Usage in the Create course dialog, opened with the values Standalone, Use in Course Planner and Template](assets/creating_course_purpose_v1_de.png){ class="shadow lightbox" }
+![Selection list Usage, opened with the values Standalone, Use in Course Planner and Template](assets/creating_course_purpose_v1_de.png){ class="shadow lightbox" title="Dialog Create course" }
 
 [To the top of the page ^](#creating_course)
 
@@ -69,10 +69,10 @@ Independently of changing the usage, you can use the course's tools menu to crea
 
 ## Further information {: #further_information}
 
-[Learning path course - Overview >](Learning_path_course.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Learning path course - Participant view >](Learning_path_course_Participant_view.md)<br>
-[General Information >](General_Information.md)<br>
-[Course elements at a glance >](Course_Elements.md)<br>
+[General Information >](General_Information/index.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Creating learning path courses >](Creating_learning_path_courses.md)<br>
 [Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Save (a course) as template >](Course_Copy_Template.md)

@@ -75,7 +75,7 @@ Die Quota für Gruppenordner wird in der Gruppenadministration eingestellt. Sie 
 
 <br>
 
-Keine eigene Quota haben die Kursbausteine "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse". Ihr Verbrauch erscheint in der Auswertung Speicherverbrauch unter dem Filter "Intern ohne Quota", eine Grenze lässt sich für sie nicht einstellen. Wie die Auswertung aufgebaut ist, beschreibt die Kurs-Administration im Abschnitt ["Speicherverbrauch"](../../manual_user/learningresources/Administration.de.md#storage_usage).
+Keine eigene Quota haben die Kursbausteine "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse". Ihr Verbrauch erscheint in der Auswertung Speicherverbrauch unter dem Filter "Intern ohne Quota", eine Grenze lässt sich für sie nicht einstellen. Wie die Auswertung aufgebaut ist, beschreibt die Kurs-Administration im Abschnitt ["Speicherverbrauch"](../../manual_user/learningresources/Administration/index.de.md#storage_usage).
 
 <br>
 
@@ -223,7 +223,7 @@ Ausführliche Informationen zu den Lebenszyklen finden Sie unter<br>
 
 **Auf dieser Seite erwähnt**<br>
 [Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
-[Kurs-Administration: Übersicht >](../../manual_user/learningresources/Administration.de.md)<br>
+[Kurs-Administration: Übersicht >](../../manual_user/learningresources/Administration/index.de.md)<br>
 [Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
 [Löschen (eines Kurses/einer Lernressource) >](../../manual_user/learningresources/Course_Delete.de.md)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../lifecycle/lifecycle.de.md)

@@ -2,15 +2,15 @@
 
 Im Menü des Kurseditors haben Sie Zugriff auf weitere Konfigurationstools in der Toolbar. Hier können Sie Kursbausteine einfügen, importieren und sich den aktuellen Status mit eventuellen Problemen anzeigen lassen.
 
-![Sechs Editorwerkzeuge in der Toolbar des Kurseditors, der Status zeigt die Anzahl offener Konfigurationsprobleme als Zahl](assets/Menu_Kurseditor19.png){ class="shadow lightbox" }
+![Sechs Editorwerkzeuge, der Status zeigt die Anzahl offener Konfigurationsprobleme als Zahl](assets/Menu_Kurseditor19.png){ class="shadow lightbox" title="Toolbar des Kurseditors" }
 
 ## Administration
 
-Über die Kurs-Administration haben Sie Zugriff auf diverse weitere Kurswerkzeuge. Informationen dazu finden Sie unter "[Kurs-Administration](../learningresources/Administration.de.md)".
+Über die Kurs-Administration haben Sie Zugriff auf diverse weitere Kurswerkzeuge. Informationen dazu finden Sie unter "[Kurs-Administration](Administration/index.de.md)".
 
 ## Kursbaustein einfügen
 
-Hier haben Sie Zugriff auf alle [Kursbausteine](Course_Elements.de.md), die Sie in einen Kurs einbauen können. Einfach auswählen und dem Kurs hinzufügen. Weitere Informationen finden Sie unter "[Kursbausteine im Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md)".
+Hier haben Sie Zugriff auf alle [Kursbausteine](Course_Elements/index.de.md), die Sie in einen Kurs einbauen können. Einfach auswählen und dem Kurs hinzufügen. Weitere Informationen finden Sie unter "[Kursbausteine im Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md)".
 
 ## Quick-Add
 
@@ -26,7 +26,7 @@ Wählen Sie einen Kurs aus, bei dem Sie Besitzer:in sind, und entscheiden Sie si
 
 Hier wird angezeigt, ob es bei der Konfiguration der Kursbausteine Probleme gibt. Klicken Sie auf die angegebene Zahl und die zugehörigen Probleme werden angezeigt. Folgen Sie den Links, um die Probleme zu beheben. Die Legende unten gibt ferner Auskunft, um welche Art von Problem es sich handelt.
 
-![Statusfenster mit zwei unvollständigen Kursbausteinen, drei möglichen Problemen, dem Datum der letzten Publikation und der Legende der Statussymbole](assets/Status_19.jpg){ class="shadow lightbox" }
+![Statusfenster mit zwei unvollständigen Kursbausteinen, drei möglichen Problemen, dem Datum der letzten Publikation und der Legende der Statussymbole](assets/Status_19.jpg){ class="shadow lightbox" title="Status im Kurseditor" }
 
 Eventuelle Konfigurationsprobleme werden zusätzlich in der Kursnavigation bei den entsprechenden Kursbausteinen angezeigt.
 
@@ -91,20 +91,20 @@ Die Wahl des manuellen Publizierens entspricht der Wahl "Publizieren" im Kursedi
 
 Schritt 1 - Kursbausteine wählen: Wählen Sie alle Kursbausteine aus, die Sie geändert haben und die Sie veröffentlichen möchten. Die Auswahl ist dabei bereits auf publizierbare Kursbausteine begrenzt.
 
-Schritt 2 - Änderung des Kurszugriffs: Hier erhalten Sie Zugang zu den generellen Veröffentlichungsoptionen eines Kurses. Bestimmen Sie, welche OpenOlat-Benutzer:innen Zugriff auf Ihren Kurs haben sollen. Lesen Sie im Kapitel "[Kurseinstellungen](Course_Settings.de.md)", welche Optionen Ihnen hier zur Verfügung stehen. Nach diesem Schritt kann der Vorgang des Publizierens bereits abgeschlossen werden. Klicken Sie dazu auf "Fertigstellen".
+Schritt 2 - Änderung des Kurszugriffs: Hier erhalten Sie Zugang zu den generellen Veröffentlichungsoptionen eines Kurses. Bestimmen Sie, welche OpenOlat-Benutzer:innen Zugriff auf Ihren Kurs haben sollen. Lesen Sie im Kapitel "[Kurseinstellungen](Course_Settings/index.de.md)", welche Optionen Ihnen hier zur Verfügung stehen. Nach diesem Schritt kann der Vorgang des Publizierens bereits abgeschlossen werden. Klicken Sie dazu auf "Fertigstellen".
 
 Eventuell gibt es noch Hinweise, die angezeigt werden. Auch ein gezielter Eintrag in den Katalog ist bei Verwendung des [Katalog 1.0](../area_modules/catalog1.0.de.md) möglich. Bei Verwendung des [Katalog 2.0](../area_modules/catalog2.0/index.de.md) erfolgt der Eintrag automatisch entsprechend der Taxonomie-Konfiguration.
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kurs-Administration: Übersicht >](Administration/index.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Zugangskonfiguration / Freigabe >](Access_configuration.de.md)<br>
 [Zugriffsbeschränkungen im Expertenmodus >](Access_Restrictions_in_the_Expert_Mode.de.md)<br>
 [Switch AAI >](http://www.switch.ch/aai/)<br>
-[Kurseinstellungen >](Course_Settings.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
 [Katalog 1.0 >](../area_modules/catalog1.0.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)
 

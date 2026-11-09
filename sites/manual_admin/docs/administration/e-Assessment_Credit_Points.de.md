@@ -33,7 +33,7 @@ Linienvorgesetzte und Ausbildungsverantwortliche sehen die Kreditpunkte der Pers
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kreditpunkte in Kursen vergeben >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
+[Kreditpunkte in Kursen vergeben >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../../manual_user/personal_menu/Credit_Points.de.md)<br>
 [e-Assessment Administration: Zertifikate >](e-Assessment_Certificates.de.md)<br>

@@ -17,13 +17,13 @@ Specialty / Note | Editing in a block-based editor is used in form learning reso
 
     There are different layout variants to choose from, in which the desired elements such as images, texts, tables and videos can be flexibly placed and thus the entire page can be designed.
 
-    ![Example page with introduction, ingredients, tools and a print-ready PDF instructions file, in the block layout. Course element Page in the course view.](../learningresources/assets/course_element_page_run_view_v1_de.png){ class="shadow lightbox" }
+    ![Example page with introduction, ingredients, tools and a print-ready PDF instructions file, in the block layout](../learningresources/assets/course_element_page_run_view_v1_de.png){ class="shadow lightbox" title="Course element Page in the course view" }
 
 === "Edit mode"
 
     In contrast to the HTML editor (course element "HTML page"), the display in the block-based content editor already largely corresponds to the preview.
 
-    ![Same example page in edit mode with toolbars and "Add content" buttons per block, table editor open. Content Editor of the course element Page.](../learningresources/assets/course_element_page_edit_mode_v1_de.png){ class="shadow lightbox" }
+    ![Same example page in edit mode with toolbars and "Add content" buttons per block, table editor open](../learningresources/assets/course_element_page_edit_mode_v1_de.png){ class="shadow lightbox" title="Course element Page in the Content Editor" }
 
 
 
@@ -32,11 +32,11 @@ Specialty / Note | Editing in a block-based editor is used in form learning reso
 The course element page is added in the course editor and configured in the tabs.
 Open the editor in **tab "Page content"** .
 
-![Tab Page content with the Edit page button and the permission for coaches. Course element Page in the course editor.](assets/KB_Seite_Tab_Seiteninhalt19.png){ class="shadow lightbox" }
+![Tab Page content with the Edit page button and the permission for coaches](assets/KB_Seite_Tab_Seiteninhalt19.png){ class="shadow lightbox" title="Course element Page in the course editor" }
 
 The **Content Editor** will open. First, add a new layout. (More of these layouts can be added).
 
-![Nine layout variants to choose from when inserting a new layout. Content Editor of the course element Page.](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" }
+![Nine layout variants to choose from when inserting a new layout](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" title="Content Editor of the course element Page" }
 
 There are two ways to fill the page: content elements are added individually, or existing content in markdown or Word format is imported in one step.
 
@@ -44,7 +44,7 @@ There are two ways to fill the page: content elements are added individually, or
 
 One or more **content elements** can be added in each field of a layout.
 
-![Popup with the selectable content elements such as Title, Table, Image or Video. Course element Page, field of a layout.](assets/KB_Seite_Inhalt_hinzufuegen.png){ class="shadow lightbox" }
+![Popup with the selectable content elements such as Title, Table, Image or Video](assets/KB_Seite_Inhalt_hinzufuegen.png){ class="shadow lightbox" title="Field of a layout in the course element Page" }
 
 
 The following content elements are available:
@@ -55,7 +55,7 @@ The following content elements are available:
 * **Mathematical formula:** Creating mathematical formulas with the MathJax formula editor.
 * **Code:** Display of programming code without execution.
 30 different programming languages [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"}
-![Code content element with language selection and example text. Content Editor of the course element Page.](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" } 
+![Code content element with language selection and example text](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" title="Content Editor of the course element Page" } 
 * **Document:** Word, PowerPoint or Excel documents can be uploaded as well as created directly. PDF and others can be uploaded or taken from the Media Center.
 * **Audio:** Select audio, re-record or add as MP3 or m4a file [:octicons-tag-16:{ title="from Release 18.1.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"}
 * **Image:** Inserting an image from the Media Center or uploading.
@@ -89,14 +89,14 @@ Once a layout is selected, the arrangement of the content elements can also be c
 
 Existing content elements are preserved and can be moved to new layout fields.
 
-![Cogwheel, dots and arrow-cross icon on the selected layout, popup with selectable layout arrangements. Content Editor of the course element Page.](assets/course_element_page_layout_edit_v1_de.png){ class="shadow lightbox" }
+![Cogwheel, dots and arrow-cross icon on the selected layout, popup with selectable layout arrangements](assets/course_element_page_layout_edit_v1_de.png){ class="shadow lightbox" title="Content Editor of the course element Page" }
 
 
 ### Edit content elements
 
 A content element can be changed by selecting it with a mouse click and using the buttons in the upper left corner.
 
-![Cogwheel, dots and arrow-cross icon on the selected content element Title. Content Editor of the course element Page.](assets/course_element_page_contentelement_title_v1_de.png){ class="shadow lightbox" }
+![Cogwheel, dots and arrow-cross icon on the selected content element Title](assets/course_element_page_contentelement_title_v1_de.png){ class="shadow lightbox" title="Content Editor of the course element Page" }
 
 * **Cogwheel-Icon:** opens popup with editing options
 * **3 Points:** Deleting the current element, inserting additional content elements
@@ -147,7 +147,7 @@ Uploading media to the Media Center is done in the personal menu or in the Conte
 [User tools: Media Center >](../personal_menu/Media_Center.md)
 
 **Further reading**<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)
 
 [To the top of the page ^](#course_element_page)

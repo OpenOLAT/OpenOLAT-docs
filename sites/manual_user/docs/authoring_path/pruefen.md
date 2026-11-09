@@ -125,7 +125,7 @@ The area of a course where coaches and owners see, assess, release and reset all
 
     **German:** Bewertungswerkzeug
 
-    [Read in the manual](../learningresources/Assessment_tool_overview.md) · [Ask Sophia](?sophia=What%20is%20%22Assessment%20tool%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../learningresources/Assessment_tool_overview/index.md) · [Ask Sophia](?sophia=What%20is%20%22Assessment%20tool%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -253,7 +253,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Course Element Test >](../learningresources/Course_Element_Test/index.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Assessment of learners >](../learningresources/Assessment_of_learners.md)<br>
-[Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../learningresources/Assessment_tool_overview/index.md)<br>
 [Personal achievements/successes: Certificates >](../personal_menu/Certificates.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
 [Personal achievements/successes: Badges >](../personal_menu/OpenBadges.md)<br>
@@ -272,7 +272,7 @@ The first course is running. Now the things that did not matter at the start pay
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.md)
 
 **Further reading**<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 

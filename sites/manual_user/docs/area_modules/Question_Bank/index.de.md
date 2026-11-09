@@ -40,7 +40,7 @@ Items, die Sie unter "Meine Fragen" als Favorit markieren, erscheinen unter "Mei
 
 Fragen können auch [mit Hilfe von KI erstellt](../Question_Bank_Create_Questions.de.md#create_with_AI) werden, als Multiple-Choice-Fragen und als Freitextfragen mit KI-Korrektur.
 
-Einzelne Fragen, ganze Sektionen oder Tests lassen sich auch direkt aus dem [Testeditor](../../learningresources/Test_editor_QTI_2.1.de.md) in den Fragenpool exportieren. Wählen Sie dazu im Testeditor in der Toolbar: `Export > Zum Pool exportieren`. Je nachdem, auf welcher Stufe Sie sich im Menübaum links befinden, exportiert OpenOlat einzelne Fragen, einzelne Sektionen oder den ganzen Test in den Fragenpool.
+Einzelne Fragen, ganze Sektionen oder Tests lassen sich auch direkt aus dem [Testeditor](../../learningresources/Test_editor_QTI_2.1/index.de.md) in den Fragenpool exportieren. Wählen Sie dazu im Testeditor in der Toolbar: `Export > Zum Pool exportieren`. Je nachdem, auf welcher Stufe Sie sich im Menübaum links befinden, exportiert OpenOlat einzelne Fragen, einzelne Sektionen oder den ganzen Test in den Fragenpool.
 
 Ist der [Beurteilungsprozess](../Question_Bank_Review_Process.de.md) aktiviert (Autor:innen beurteilen die erstellten Fragen gegenseitig), zeigt "Mein Fragenpool" zusätzlich Ihre Fachbereiche. Je nach Berechtigung erscheinen im Menü ausserdem die Bereiche "Beurteilung" und "Final".
 
@@ -86,7 +86,7 @@ Im Bereich "Administration" richten Administrator:innen und [Poolverwalter:innen
 
 ## Weiterführende Informationen {: #further_information}
 
-[Tests erstellen >](../../learningresources/Test.de.md)<br>
+[Tests erstellen >](../../learningresources/Test/index.de.md)<br>
 [Test Fragetypen >](../../learningresources/Test_question_types.de.md)
 
 [Zum Seitenanfang ^](#question_bank)

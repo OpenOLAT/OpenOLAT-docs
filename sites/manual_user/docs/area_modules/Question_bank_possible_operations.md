@@ -7,7 +7,7 @@ As soon as you select one or more questions in the list, the buttons with which 
 
 ## Create test {: #learning_resource_test}
 
-With the button "Create test" you create a new [Learning resource Test](../learningresources/Test.md) directly from the selected questions. In doing so, you enter the title of the learning resource right away. You then find the test in Authoring under "My entries".
+With the button "Create test" you create a new [Learning resource Test](../learningresources/Test/index.md) directly from the selected questions. In doing so, you enter the title of the learning resource right away. You then find the test in Authoring under "My entries".
 
 [To the top of the page ^](#using_the_questions)
 
@@ -131,7 +131,7 @@ Further information on the individual metadata can be found in the chapter [Ques
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Creating Tests >](../learningresources/Test.md)<br>
+[Creating Tests >](../learningresources/Test/index.md)<br>
 [Question Bank: Administration >](Question_Bank_Administration.md)<br>
 [Changing from QTI 1.2 to QTI 2.1 >](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md)<br>
 [Question bank: Details of a question and metadata >](Item_Detailed_View.md)

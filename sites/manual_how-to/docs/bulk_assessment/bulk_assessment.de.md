@@ -20,10 +20,10 @@
 
 ## Was ist eine Massenbewertung? {: #what-is-a-bulk-assessment}
 
-Mit der Massenbewertung können Sie im [Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview.de.md) mehrere Teilnehmende zu
+Mit der Massenbewertung können Sie im [Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview/index.de.md) mehrere Teilnehmende zu
 einem von Ihnen gewünschten Zeitpunkt auf einmal bewerten.
 
-Massenbewertungen können für die [bewertbaren Kursbausteine](../../manual_user/learningresources/Course_Elements.de.md)
+Massenbewertungen können für die [bewertbaren Kursbausteine](../../manual_user/learningresources/Course_Elements/index.de.md)
 
 * Kursbaustein "Aufgabe",
 * Kursbaustein "Gruppenaufgabe",
@@ -209,8 +209,8 @@ Nach Durchführung der Schritte des Assistenten erscheinen die vorgenommenen Än
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements.de.md)
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
+[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements/index.de.md)
 
 **Weiterführend**<br>
 [Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>

@@ -118,7 +118,7 @@ If course owners have activated the awarding of badges under `Course > Administr
 [LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)<br>
 [LTI - External platforms >](../../manual_admin/administration/LTI_External_platforms.md)<br>
 [LTI - Role mapping >](../../manual_admin/administration/LTI_Role_Mapping.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)
+[Assessment tool - overview >](Assessment_tool_overview/index.md)
 
 
 [To the top of the page ^](#lti)

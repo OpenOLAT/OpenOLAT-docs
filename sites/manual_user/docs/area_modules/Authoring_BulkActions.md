@@ -71,7 +71,7 @@ For the settings under "Display on info page" and "Members displayed as teacher"
 
 #### Section "Administrative access" {: #bulk_administrative_access}
 
-If several learning resources are to be assigned to another organisation, for example after a restructuring, you adjust their Administrative access here for all of them at once. What the Administrative access does is described on the page [Course settings - Tab Share](../learningresources/Course_Settings_Share.md#section_share). The section is only available if the Organisations module is enabled.
+If several learning resources are to be assigned to another organisation, for example after a restructuring, you adjust their Administrative access here for all of them at once. What the Administrative access does is described on the page [Course settings - Tab Share](../learningresources/Course_Settings_Share/index.md#section_share). The section is only available if the Organisations module is enabled.
 
 ![Marked fields Add organisation and Remove organisation, here for 2 learning resources](assets/autorenbereich_sammelaktion_administrative_freigabe_v1_en.png){ class="shadow lightbox" title="Step Administrative access in the wizard Change settings" }
 
@@ -141,7 +141,7 @@ The entries "Settings", the entry for the editor and "Members management" only a
 
 !!! info "Important"
 
-    If you want to release learning resources to external OER catalogues and search engines, you will no longer find the action "Release external OER catalog" in the menu under the 3 dots [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9751)" }](https://track.frentix.com/issue/OO-9751){:target="_blank"}. There is no bulk action for it above the table either. You release a single learning resource in its settings with the checkbox "Allow indexing of metadata": `Learning resource > Administration > Settings > Tab "Share"`. Only there does OpenOlat warn you if the learning resource is not yet published or lacks a required license, described under [External OER catalogues and search engines](../learningresources/Course_Settings_Share.md#section_share_oer). You release several learning resources with the bulk action "Metadata and settings", in the section "Info" via the field "Release OER catalogues and search engines", see [Section "Info"](#bulk_info). The filter of the same name "Release external OER catalog", which you show above the table under "More...", only shows the released or the not released learning resources and does not change any release.
+    If you want to release learning resources to external OER catalogues and search engines, you will no longer find the action "Release external OER catalog" in the menu under the 3 dots [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9751)" }](https://track.frentix.com/issue/OO-9751){:target="_blank"}. There is no bulk action for it above the table either. You release a single learning resource in its settings with the checkbox "Allow indexing of metadata": `Learning resource > Administration > Settings > Tab "Share"`. Only there does OpenOlat warn you if the learning resource is not yet published or lacks a required license, described under [External OER catalogues and search engines](../learningresources/Course_Settings_Share/index.md#section_share_oer). You release several learning resources with the bulk action "Metadata and settings", in the section "Info" via the field "Release OER catalogues and search engines", see [Section "Info"](#bulk_info). The filter of the same name "Release external OER catalog", which you show above the table under "More...", only shows the released or the not released learning resources and does not change any release.
 
 ### Members management {: #members_management}
 
@@ -153,7 +153,7 @@ This allows you to export your learning resources as a ZIP file, for example as 
 
 ### Duplicate as learning path {: #duplicate_as_learning_path}
 
-If the table row is a conventional course, the menu also shows the option "Duplicate as learning path". OpenOlat then creates a copy as a [learning path course](../learningresources/Learning_path_course.md), and the original version is preserved as a conventional course.
+If the table row is a conventional course, the menu also shows the option "Duplicate as learning path". OpenOlat then creates a copy as a [learning path course](../learningresources/Learning_path_course/index.md), and the original version is preserved as a conventional course.
 
 ### Copy with wizard [:octicons-tag-16:{ title="from Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_with_wizard}
 
@@ -169,11 +169,11 @@ If the table row is a learning path course, the menu also shows the option "Copy
 **Mentioned on this page**<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
-[Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](../learningresources/Course_Settings_Share/index.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Authoring - Overview >](Authoring/index.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
-[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course/index.md)<br>
 [Copy a course with wizard >](../learningresources/Course_Copy_Wizard.md)
 
 **Further reading**<br>

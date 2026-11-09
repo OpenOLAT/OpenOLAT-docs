@@ -97,7 +97,7 @@ stations:
       de: Kurs erstellen
       en: Create a course
     further:
-      - manual_user/docs/learningresources/Course_Settings
+      - manual_user/docs/learningresources/Course_Settings/index
       - reference_glossary/docs/glossary
 
   - id: bauen
@@ -127,7 +127,7 @@ stations:
       de: Kursbausteine hinzufügen und publizieren
       en: Add course elements and publish
     read:
-      path: manual_user/docs/learningresources/Course_Elements
+      path: manual_user/docs/learningresources/Course_Elements/index
       de: Kursbausteine
       en: Course elements
     further:
@@ -154,7 +154,7 @@ stations:
         kids: [course.visibility, course.element_access]
     howto: null
     read:
-      path: manual_user/docs/learningresources/Learning_path_course
+      path: manual_user/docs/learningresources/Learning_path_course/index
       de: Lernpfadkurs
       en: Learning path course
     further:
@@ -225,7 +225,7 @@ stations:
       de: Kursbaustein Test
       en: Course element Test
     further:
-      - manual_user/docs/learningresources/Course_Settings_Assessment
+      - manual_user/docs/learningresources/Course_Settings_Assessment/index
       - manual_user/docs/learningresources/Test_question_types
       - reference_glossary/docs/glossary
 
@@ -254,7 +254,7 @@ stations:
       de: Kursstatistiken
       en: Course statistics
     further:
-      - manual_user/docs/learningresources/Assessment_tool_overview
+      - manual_user/docs/learningresources/Assessment_tool_overview/index
       - reference_glossary/docs/glossary
 
 # Verwechslungspaare. Der Wortlaut kommt aus der Map (keep_apart, why / why_en); ein Paar

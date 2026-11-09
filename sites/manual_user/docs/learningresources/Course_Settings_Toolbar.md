@@ -13,9 +13,9 @@ This way participants reach the tools they need throughout the course from one c
 
 ![Toolbar of a course as participants see it, highlighting the enabled tools: Info page with the info icon, Learning path, Calendar, Info messages, E-Mail, Blog, Wiki, Forum, Documents and Course search](assets/course_settings_toolbar_v2_en.png){ class="shadow lightbox" title="Toolbar of a course as participants see it · 2026.10.27" }
 
-In addition to course search, glossary and course chat, the [tools](../learningresources/Toolbar.md#available_icons) of the toolbar include tools that also exist as course elements, e.g. course calendar, participant list, e-mail, blog, wiki, forum and documents. For [Wiki](../learningresources/Wiki.md) and [Blog](../learningresources/Blog.md), you can also use learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer all the configuration options that the course elements have in the course editor.
+In addition to course search, glossary and course chat, the [tools](../learningresources/Toolbar.md#available_icons) of the toolbar include tools that also exist as course elements, e.g. course calendar, participant list, e-mail, blog, wiki, forum and documents. For [Wiki](../learningresources/Wiki.md) and [Blog](Blog/index.md), you can also use learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer all the configuration options that the course elements have in the course editor.
 
-Especially in linear [learning path courses](Learning_path_course.md), the toolbar provides important tools regardless of the order of the learning steps.
+Especially in linear [learning path courses](Learning_path_course/index.md), the toolbar provides important tools regardless of the order of the learning steps.
 
 [To the top of the page ^](#tab_toolbar)
 
@@ -57,9 +57,9 @@ They are set up under `Course > Administration > Settings > Tab "Toolbar"`. The 
 
 [Toolbar: Overview >](Toolbar.md)<br>
 [Creating Wikis >](Wiki.md)<br>
-[Blog: Overview >](Blog.md)<br>
-[Learning path course - Overview >](Learning_path_course.md)<br>
-[Course Settings >](Course_Settings.md)<br>
+[Blog: Overview >](Blog/index.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
 [Course Settings - Tab Options >](Course_Settings_Options.md)
 
 [To the top of the page ^](#tab_toolbar)

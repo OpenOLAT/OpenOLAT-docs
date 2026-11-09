@@ -31,9 +31,9 @@ For learning resources in the author area that contain media files, these media 
 
 **Examples:**
 
-* [Blog >](../learningresources/Blog.md)
+* [Blog >](../learningresources/Blog/index.md)
 * [Wiki >](../learningresources/Wiki.md)
-* [Test >](../learningresources/Test.md)
+* [Test >](../learningresources/Test/index.md)
 
 
 ## Further information {: #further_information}
@@ -41,8 +41,8 @@ For learning resources in the author area that contain media files, these media 
 [Folder concept >](../basic_concepts/Folder_Concept.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
 [Media Center Concept >](Media_Center_Concept/index.md)<br>
-[Blog: Overview >](../learningresources/Blog.md)<br>
+[Blog: Overview >](../learningresources/Blog/index.md)<br>
 [Creating Wikis >](../learningresources/Wiki.md)<br>
-[Creating Tests >](../learningresources/Test.md)
+[Creating Tests >](../learningresources/Test/index.md)
 
 [To the top of the page ^](#media_files)

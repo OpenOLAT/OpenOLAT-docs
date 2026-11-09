@@ -6,7 +6,7 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 
 1. Im [Autorenbereich](../area_modules/Authoring/index.de.md) den Link "Erstellen" anklicken und die Lernressource "Formular" wählen.
 2. Vergeben Sie einen Titel für das Formular.
-3. Es erscheint das Menü "[Einstellungen](../learningresources/Course_Settings.de.md)" der Administration. Hier können Sie optional gleich oder später weitere Einstellungen vornehmen, z.B. eine Lizenz bei den Metadaten hinterlegen.
+3. Es erscheint das Menü "[Einstellungen](../learningresources/Course_Settings/index.de.md)" der Administration. Hier können Sie optional gleich oder später weitere Einstellungen vornehmen, z.B. eine Lizenz bei den Metadaten hinterlegen.
 
 !!! info "Wichtig"
 
@@ -18,7 +18,7 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 
 ## Schritt 2: Formular gestalten + finalisieren
 
-1. Wählen Sie in der "Administration" der Lernressource Formular den Eintrag "Formulareditor". Sie gelangen in den [Formulareditor](../learningresources/Form_Editor.de.md).
+1. Wählen Sie in der "Administration" der Lernressource Formular den Eintrag "Formulareditor". Sie gelangen in den [Formulareditor](../learningresources/Form_Editor/index.de.md).
 2. Das neue Formular enthält bereits ein Layout mit einer Spalte. Brauchen Sie weitere Bereiche, wählen Sie "Neues Layout einfügen" und eine der angezeigten Grundstrukturen. Das Formular wird in die entsprechend gekennzeichneten Bereiche aufgeteilt, in die Sie im nächsten Schritt verschiedene Inhalte einfügen können. [:octicons-tag-16:{ title="ab Release 20.2 (OO-9019)" }](https://track.frentix.com/issue/OO-9019)
 3. "Inhalt hinzufügen" wählen und das gewünschte Element auswählen. Starten Sie am besten mit einem "Titel" und fügen Sie mit dem Element "Text" einen kurzen Einstiegstext hinzu, um die Benutzer:innen entsprechend zu informieren.
 
@@ -32,14 +32,14 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 
 Je nachdem welche Art von Fragen Sie erstellen möchten wählen Sie „Rubrik“, „Einzelauswahl“, „Mehrfachauswahl“, „Datei hochladen“ oder „Texteingabe“.
 
-Weitere Einzelheiten zur Verwendung des Formulareditors finden Sie im Kapitel "[Formulareditor](../learningresources/Form_Editor.de.md)".
+Weitere Einzelheiten zur Verwendung des Formulareditors finden Sie im Kapitel "[Formulareditor](../learningresources/Form_Editor/index.de.md)".
 
 ## Schritt 3: Formular im Kurs einbinden
 
 1. Gehen Sie in den [Autorenbereich](../area_modules/Authoring/index.de.md). Im Bereich "Meine Kurse" sowie unter "Meine Einträge" und gegebenenfalls unter "Favoriten" finden Sie Ihre Kurse. Starten Sie den Kurs, in dem das Formular eingebunden werden soll.
 2. Öffnen Sie über die "Administration" den ["Kurseditor"](../../manual_how-to/my_first_course/my_first_course.de.md).
 
-    Wählen sie "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](../learningresources/Course_Elements.de.md) Formular, Umfrage oder [Bewertung](../learningresources/Course_Element_Assessment.de.md), je nach Ihrem Szenario.
+    Wählen sie "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](../learningresources/Course_Elements/index.de.md) Formular, Umfrage oder [Bewertung](../learningresources/Course_Element_Assessment.de.md), je nach Ihrem Szenario.
 
 3. Gehen Sie in den jeweiligen Tab Formular oder Umfrage des Kursbausteins und fügen Sie hier ein passendes Formular hinzu → "Wählen, erstellen oder importieren". 
 
@@ -68,16 +68,16 @@ Weitere Einzelheiten zur Verwendung des Formulareditors finden Sie im Kapitel "[
 
 **Auf dieser Seite erwähnt**<br>
 [Autorenbereich - Übersicht](../area_modules/Authoring/index.de.md)<br>
-[Kurseinstellungen](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen](../learningresources/Course_Settings/index.de.md)<br>
 [Formulare in Kursen](../learningresources/Forms_in_Courses.de.md)<br>
-[Der Formulareditor](../learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor](../learningresources/Form_Editor/index.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs?](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Kursbausteine](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine](../learningresources/Course_Elements/index.de.md)<br>
 [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md)<br>
 [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md)
 
 **Weiterführend**<br>
-[Formular-Elemente](../learningresources/Form_Elements.de.md)<br>
+[Formular-Elemente](../learningresources/Form_Elements/index.de.md)<br>
 [Frageregeln in Formularen](../learningresources/Form_Question_Rules.de.md)<br>
 [Kursbaustein "Formular"](../learningresources/Course_Element_Form.de.md)<br>
 [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md)

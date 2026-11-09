@@ -16,12 +16,12 @@ The course search only searches the corresponding course. The following elements
 ## Activation [:octicons-tag-16:{ title="from Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581) {: #activation}
 
 You activate the course search in the course administration:<br>
-`Course > Administration > Settings`, tab "[Toolbar](../learningresources/Course_Settings.md#toolbar)", option "Course search".
+`Course > Administration > Settings`, tab "[Toolbar](../learningresources/Course_Settings/index.md#toolbar)", option "Course search".
 
 ## Further information {: #further_information}
 
 [General information on the search >](Search_General/index.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
+[Course Settings >](../learningresources/Course_Settings/index.md)<br>
 [Global search >](Search_Global.md)<br>
 [Local search >](Search_Local.md)<br>
 [Search other Users >](Search_Person.md)<br>

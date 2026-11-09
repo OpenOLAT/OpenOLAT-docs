@@ -35,11 +35,11 @@ With "Private", owners or persons with the right of members management enter the
 
 With "Bookable and open offers", participants book the course or the learning resource themselves. Depending on the offer, they enter an access code for this.
 
-[Details on the tab "Share" >](../learningresources/Course_Settings_Share.md)
+[Details on the tab "Share" >](Course_Settings_Share/index.md)
 
 ### Leaving a learning resource [:octicons-tag-16:{ title="from Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405) {: #leave_learning_resource}
 
-Anyone who has taken a course voluntarily often wants to be able to leave it on their own again. With the setting "Participants can leave" in the tab "Share", you define whether and when participants may do so. The setting appears with the usage "Standalone", see [Course settings - Tab Share](Course_Settings_Share.md#sections_by_usage). The following options are available:
+Anyone who has taken a course voluntarily often wants to be able to leave it on their own again. With the setting "Participants can leave" in the tab "Share", you define whether and when participants may do so. The setting appears with the usage "Standalone", see [Course settings - Tab Share](Course_Settings_Share/index.md#sections_by_usage). The following options are available:
 
 * "At any time": Participants can leave the course at any time.
 * "After course end date or status "Finished"": If an execution period has been set, participants may leave the course after this period has ended. Regardless of this, they may leave the course as soon as it has the status "Finished". Without an execution period, leaving is therefore only possible in the status "Finished". For other learning resources, the option is called "Status "Finished"". [:octicons-tag-16:{ title="from Release 20.3 (OO-9272)" }](https://track.frentix.com/issue/OO-9272)
@@ -53,7 +53,7 @@ If participants may leave the course, they select the entry "Leave course" in th
 
 ### Administrative access {: #administrative-release}
 
-In the field "Administrative access", you assign the course to one or more organisations. This determines which persons with an administrative role can access the course and find it in Authoring. What the individual roles may do and which organisations are available for selection is described on the page [Course settings - Tab Share](Course_Settings_Share.md#section_share_admin_access).
+In the field "Administrative access", you assign the course to one or more organisations. This determines which persons with an administrative role can access the course and find it in Authoring. What the individual roles may do and which organisations are available for selection is described on the page [Course settings - Tab Share](Course_Settings_Share/index.md#section_share_admin_access).
 
 The authors of the organisations to which the course is assigned additionally receive the rights that you define in the tab "Share" under "Authors can". With these rights, they see the learning resource as soon as it is no longer in the status "Preparation".
 
@@ -173,7 +173,7 @@ Under `Course > Administration > Delete` or via the action menu ![Icon action me
 
 ## Further information {: #further_information}
 
-[Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
 [PayPal Configuration >](../../manual_admin/administration/Payment_PayPal.md)<br>

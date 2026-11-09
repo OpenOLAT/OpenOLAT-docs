@@ -157,9 +157,9 @@ Auch für den Kursbaustein "LTI-Seite" kann das Bewertungsformular ausgefüllt u
 [LTI - Externe Werkzeuge >](../../manual_admin/administration/LTI_External_tools.de.md)<br>
 [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.de.md)<br>
 [LTI - Rollen-Mapping >](../../manual_admin/administration/LTI_Role_Mapping.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
 [Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../../manual_user/learningresources/Access_configuration.de.md)
 
 [Zum Seitenanfang ^](#LTI_share_course)

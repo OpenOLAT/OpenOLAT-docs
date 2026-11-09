@@ -12,7 +12,7 @@ The "Create" and "Import file" buttons are shown to authors, learning resource m
 
 When you select an entry, OpenOlat opens a dialog for creating it. Mandatory fields are "Title" and, if the Organisations module is switched on, "Administrative access".
 
-Under "Administrative access", you select one or more organisations to which the learning resource is assigned. This determines which persons with an administrative role in these organisations can access the learning resource and find it in Authoring. You can select the organisations in which you have the role author, learning resource manager or administrator. If you have these roles in only one organisation, the field cannot be changed. More on this under [Administrative access](../learningresources/Course_Settings_Share.md#section_share_admin_access).
+Under "Administrative access", you select one or more organisations to which the learning resource is assigned. This determines which persons with an administrative role in these organisations can access the learning resource and find it in Authoring. You can select the organisations in which you have the role author, learning resource manager or administrator. If you have these roles in only one organisation, the field cannot be changed. More on this under [Administrative access](../learningresources/Course_Settings_Share/index.md#section_share_admin_access).
 
 The specific creation process is described on the following pages:
 
@@ -23,19 +23,19 @@ The specific creation process is described on the following pages:
 [User manual article](../learningresources/Creating_Course.md#purpose)
 
 * Creating tests<br>
-[User manual article](../learningresources/Test.md) | [Detailed instructions](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
+[User manual article](../learningresources/Test/index.md) | [Detailed instructions](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
 * Creating forms <br>
-[User manual article](../learningresources/Form.md)  | [Detailed instructions](../../manual_how-to/create_a_form/create_a_form.md)
+[User manual article](../learningresources/Form/index.md)  | [Detailed instructions](../../manual_how-to/create_a_form/create_a_form.md)
 
 * Creating resource folders<br>
 [User manual article](../learningresources/Resource_Folder.md) | [Detailed instructions](../../manual_how-to/multiple_use/multiple_use.md)
 
 * Creating blogs<br>
-[User manual article](../learningresources/Blog.md) | [Detailed instructions](../../manual_how-to/blog/blog.md)
+[User manual article](../learningresources/Blog/index.md) | [Detailed instructions](../../manual_how-to/blog/blog.md)
 
 * Creating podcasts <br>
-[User manual article](../learningresources/Podcast.md) | [Detailed instructions](../../manual_how-to/podcast/podcast.md)
+[User manual article](../learningresources/Podcast/index.md) | [Detailed instructions](../../manual_how-to/podcast/podcast.md)
 
 * Creating CP learning content<br>
 [User manual article](../learningresources/CP_Editor.md) | [Detailed instructions](../../manual_how-to/content_package/content_package.md)
@@ -47,7 +47,7 @@ The specific creation process is described on the following pages:
 [User manual article](../learningresources/Portfolio_template_Creation.md)
 
 * Creating glossaries<br>
-[User manual article](../learningresources/Glossary.md)
+[User manual article](../learningresources/Glossary/index.md)
 
 * Creating Word, Excel and PowerPoint files<br>
 [User manual article](../learningresources/index.md#further_learningresources)
@@ -99,7 +99,7 @@ The dialog contains the following fields:
 | **Type** | The detected resource type. If several types match the URL, select the desired one here. |
 | **Title of learning resource** | Mandatory field. Name of the new learning resource. For videos, the title is prefilled from the source and can be adjusted. |
 | **Reference** | Optional external identifier, displayed on the course overview page, see [Reference](../learningresources/Course_Settings_Metadata.md#externalref). |
-| **Administrative access** | Mandatory field. One or more organisations to which the learning resource is assigned, see [Administrative access](../learningresources/Course_Settings_Share.md#section_share_admin_access). |
+| **Administrative access** | Mandatory field. One or more organisations to which the learning resource is assigned, see [Administrative access](../learningresources/Course_Settings_Share/index.md#section_share_admin_access). |
 
 Click "Embed" to create the learning resource.
 
@@ -111,25 +111,25 @@ Click "Embed" to create the learning resource.
 
 **Mentioned on this page**<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
-[Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](../learningresources/Course_Settings_Share/index.md)<br>
 [Creating Courses >](../learningresources/Creating_Course.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Creating Tests >](../learningresources/Test.md)<br>
+[Creating Tests >](../learningresources/Test/index.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[Forms - Overview >](../learningresources/Form.md)<br>
+[Forms - Overview >](../learningresources/Form/index.md)<br>
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Resource folder >](../learningresources/Resource_Folder.md)<br>
 [How can I use the same files in several courses? >](../../manual_how-to/multiple_use/multiple_use.md)<br>
-[Blog: Overview >](../learningresources/Blog.md)<br>
+[Blog: Overview >](../learningresources/Blog/index.md)<br>
 [How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
-[Podcast: Overview >](../learningresources/Podcast.md)<br>
+[Podcast: Overview >](../learningresources/Podcast/index.md)<br>
 [How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
 [Create CP learning content >](../learningresources/CP_Editor.md)<br>
 [How do I create a content package? >](../../manual_how-to/content_package/content_package.md)<br>
 [Creating Wikis >](../learningresources/Wiki.md)<br>
 [How do I create a wiki? >](../../manual_how-to/wikis/wikis.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
-[Glossary >](../learningresources/Glossary.md)<br>
+[Glossary >](../learningresources/Glossary/index.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
 [Course Settings - Tab Metadata >](../learningresources/Course_Settings_Metadata.md)<br>
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
@@ -137,7 +137,7 @@ Click "Embed" to create the learning resource.
 
 **Further reading**<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)
+[Course Settings >](../learningresources/Course_Settings/index.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)<br>

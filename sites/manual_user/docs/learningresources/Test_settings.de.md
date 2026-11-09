@@ -12,7 +12,7 @@ Der Eintrag "Testeditor" öffnet den Testeditor. Dort legen Sie die Fragen und d
 
 !!! note "Testeditor QTI 2.1"
     Übersicht zum Testeditor.<br>
-    [Testeditor](Test_editor_QTI_2.1.de.md)
+    [Testeditor](Test_editor_QTI_2.1/index.de.md)
 
 Das "Bewertungswerkzeug" des Tests erscheint nur, wenn der Test kursunabhängig verwendet werden soll: `Test > Administration > Einstellungen > Tab "Freigabe"`, Verwendungszweck "Eigenständig".
 
@@ -234,7 +234,7 @@ Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von dene
 
 **Auf dieser Seite erwähnt**<br>
 [Detailansicht einer Lernressource >](Detailed_View_of_Learning_Resources.de.md)<br>
-[Testeditor >](Test_editor_QTI_2.1.de.md)<br>
+[Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
 [Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching - Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
@@ -244,6 +244,6 @@ Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von dene
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
 [Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)
 
 [zum Seitenanfang ^](#test_settings)

@@ -46,7 +46,7 @@ With the "Download function" you define who may download the list as an Excel fi
 [Members management >](../learningresources/Members_management.md)
 
 **Further reading**<br>
-[Course elements at a glance >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Toolbar: Overview >](Toolbar.md)<br>
 [Personal Configuration: Profile >](../personal_menu/Profile/index.md)
 

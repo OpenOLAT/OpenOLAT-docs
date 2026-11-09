@@ -262,7 +262,7 @@ Organisationen können eigene Kreditpunktesysteme definieren und benennen, sowie
 
 
 [Kreditpunkte systemweit aktivieren (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
-[Kreditpunkte in Kursen vergeben >](../../manual_user/learningresources/Course_Settings_Assessment.de.md#section_credit_points)<br>
+[Kreditpunkte in Kursen vergeben >](../learningresources/Course_Settings_Assessment/index.de.md#section_credit_points)<br>
 [Kreditpunkte im persönlichen Menü >](../../manual_user/personal_menu/Credit_Points.de.md)
 
 [zum Seitenanfang ^](#offer_concepts)
@@ -317,7 +317,7 @@ Beim automatischen Buchen wird die Angebotsbeschreibung nicht angezeigt und den 
 [PayPal Konfiguration (Administration) >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
 [Bezahlungsmodule: Rechnung (Administration) >](../../manual_admin/administration/Payment_Invoice.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)
 
 **Weiterführend**<br>

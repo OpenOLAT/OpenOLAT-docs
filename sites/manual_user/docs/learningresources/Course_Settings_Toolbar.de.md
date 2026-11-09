@@ -14,9 +14,9 @@ So erreichen Teilnehmende die Werkzeuge, die sie während des ganzen Kurses brau
 
 ![Toolbar aus Sicht der Teilnehmenden, markiert die freigeschalteten Werkzeuge: Infoseite mit dem Info-Symbol, Lernpfad, Kalender, Mitteilungen, E-Mail, Blog, Wiki, Forum, Dokumente und Kurssuche](assets/course_settings_toolbar_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses aus Sicht der Teilnehmenden · 2026.10.27" }
 
-Zu den [Werkzeugen](../learningresources/Toolbar.de.md#available_icons) der Toolbar zählen neben der Kurssuche, dem Glossar und dem Kurs-Chat Werkzeuge, die es auch als Kursbausteine gibt, z.B. Kurskalender, Liste der Teilnehmer:innen, E-Mail, Blog, Wiki, Forum und Dokumente. Bei [Wiki](../learningresources/Wiki.de.md) und [Blog](../learningresources/Blog.de.md) können Sie auch auf bereits erstellte Lernressourcen zurückgreifen. Die übrigen Werkzeuge ähneln den entsprechenden Kursbausteinen, bieten aber nicht alle Konfigurationsmöglichkeiten, die die Kursbausteine im Kurseditor haben.
+Zu den [Werkzeugen](../learningresources/Toolbar.de.md#available_icons) der Toolbar zählen neben der Kurssuche, dem Glossar und dem Kurs-Chat Werkzeuge, die es auch als Kursbausteine gibt, z.B. Kurskalender, Liste der Teilnehmer:innen, E-Mail, Blog, Wiki, Forum und Dokumente. Bei [Wiki](../learningresources/Wiki.de.md) und [Blog](Blog/index.de.md) können Sie auch auf bereits erstellte Lernressourcen zurückgreifen. Die übrigen Werkzeuge ähneln den entsprechenden Kursbausteinen, bieten aber nicht alle Konfigurationsmöglichkeiten, die die Kursbausteine im Kurseditor haben.
 
-Besonders in linear aufgebauten [Lernpfadkursen](Learning_path_course.de.md) stellt die Toolbar wichtige Werkzeuge bereit, unabhängig von der Reihenfolge der Lernschritte.
+Besonders in linear aufgebauten [Lernpfadkursen](Learning_path_course/index.de.md) stellt die Toolbar wichtige Werkzeuge bereit, unabhängig von der Reihenfolge der Lernschritte.
 
 [Zum Seitenanfang ^](#tab_toolbar)
 
@@ -58,9 +58,9 @@ Eingerichtet werden sie unter `Kurs > Administration > Einstellungen > Tab "Tool
 
 [Toolbar: Übersicht >](Toolbar.de.md)<br>
 [Wiki erstellen >](Wiki.de.md)<br>
-[Blog: Übersicht >](Blog.de.md)<br>
-[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
-[Kurseinstellungen >](Course_Settings.de.md)<br>
+[Blog: Übersicht >](Blog/index.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)
 
 [Zum Seitenanfang ^](#tab_toolbar)

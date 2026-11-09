@@ -80,8 +80,8 @@ Benutzer:innen mit administrativen Rollen (Lernressourcenverwalter:in, Administr
 [Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
 
 **Weiterführend**<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 
 [Zum Seitenanfang ^](#course_settings_options)

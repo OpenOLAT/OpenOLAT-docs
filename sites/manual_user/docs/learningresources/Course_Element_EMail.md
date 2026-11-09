@@ -67,10 +67,10 @@ By means of a suitable short title for the course element "E-mail", you can prov
 
 !!! tip "Tip"
 
-    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../learningresources/Course_Settings.md#toolbar).
+    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](Course_Settings/index.md#toolbar).
 
 ## Further information {: #further_information}
 
-[Course Settings >](../learningresources/Course_Settings.md)
+[Course Settings >](Course_Settings/index.md)
 
 [To the top of the page ^](#mail)

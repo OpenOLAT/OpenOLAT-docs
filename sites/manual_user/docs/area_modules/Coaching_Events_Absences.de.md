@@ -167,6 +167,6 @@ Mit dem Link "Suche nach Teilnehmer:innen" kehren Sie zur Personensuche zurück.
 [Coaching - Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching - Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview/index.de.md)
 
 [Zum Seitenanfang ^](#events)

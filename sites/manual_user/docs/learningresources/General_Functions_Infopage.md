@@ -135,7 +135,7 @@ The button only appears if the implementation allows cancellation and your booki
 As a member, you see your own progress in the box "My course" without opening the course. The box only shows the details that exist for you:
 
 - **Progress:** your progress in percent. Only in a learning path course and only once OpenOlat has recorded progress.
-- **Status, score and grade:** your result in the course. For this, the switch "Show evidence of achievement to participants" must be switched on under `Course > Administration > Settings > Tab "Assessment"`, see [Course Settings - Tab Assessment](Course_Settings_Assessment.md#section_evidence_of_achievements). The status appears if the course assesses "Passed" or "Not passed", the score if it awards points. The grade additionally requires system administrators to have switched on grades in the system administration: `Administration > e-Assessment > Levels/Grading`.
+- **Status, score and grade:** your result in the course. For this, the switch "Show evidence of achievement to participants" must be switched on under `Course > Administration > Settings > Tab "Assessment"`, see [Course Settings - Tab Assessment](Course_Settings_Assessment/index.md#section_evidence_of_achievements). The status appears if the course assesses "Passed" or "Not passed", the score if it awards points. The grade additionally requires system administrators to have switched on grades in the system administration: `Administration > e-Assessment > Levels/Grading`.
 - **Groups:** the groups of the course in which you are a member. A click on the name opens the group.
 
 At the bottom of the box is the button "Leave Course", see [Leave course](#leave_course).
@@ -283,12 +283,12 @@ The details on usage, for example in which courses the learning resource is embe
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Toolbar: My Course >](../learningresources/Toolbar_My_Course.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)
 
 **Further reading**<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
-[Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)
+[Course Settings >](Course_Settings/index.md)<br>
+[Course settings - Tab Share >](Course_Settings_Share/index.md)
 
 [To the top of the page ^](#general_functions_info)

@@ -32,7 +32,7 @@ If "Evidence of achievement" is enabled in the course, this option will also app
 Under "My Course," you will find only tools that relate to your personal data in the current course.<br>
 Depending on the configuration of the course, not all of the following entries may be displayed.
 
-* The [**evidence of achievement**](#evidence_of_achievement) shows the individual assessments in the course and, if activated, gives access to the [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) for the course.
+* The [**evidence of achievement**](#evidence_of_achievement) shows the individual assessments in the course and, if activated, gives access to the [certificate](Course_Settings_Assessment/index.md#section_certificate) for the course.
 * [**To-dos**](#to-dos) displays the current to-dos for the course.
 * [**My badges**](#my_badges) displays your badges.
 * [**Notes**](#notes): Here you can enter course-specific notes that only you as a course participant can read.
@@ -51,7 +51,7 @@ An evidence of achievement is a confirmation of a completed assessment and must 
 
 ![Progress, points achieved and the table of assessed course elements, plus the Certificates area](assets/Leistungsnachweis_19.png){ class="shadow lightbox" title="Evidence of achievement of a course" }
 
-If a [certificate](../learningresources/Course_Settings_Assessment.md#section_certificate) has been issued for the course, you will also find it under "Evidence of achievement" for download. Course coaches can view the certificates in the [Coaching Tool](../area_modules/Coaching/index.md).
+If a [certificate](Course_Settings_Assessment/index.md#section_certificate) has been issued for the course, you will also find it under "Evidence of achievement" for download. Course coaches can view the certificates in the [Coaching Tool](../area_modules/Coaching/index.md).
 
 For certificates issued automatically after successful completion of a course, you will receive an automatically generated notification by email.
 
@@ -140,8 +140,8 @@ The option to unsubscribe from a course must first be enabled by the course owne
 "Leave course" only appears if the following conditions are met:
 
 - The active role is "Participant". When switching roles, the option only appears while the participant role is active.
-- The course has the usage **"Standalone"** (see [Course settings - Tab Share](Course_Settings_Share.md#section_usage)). If the Course Planner manages the course instead (usage **"Use in Course Planner"**), "Leave course" is not available. If participants have booked an implementation, they cancel the booking themselves instead: They open the info page of the implementation in the catalog and select the action "Cancel booking" there. If a cancellation fee applies, the action is called "Cancel booking for a fee", and the confirmation dialog states the amount. The action appears only for an implementation with a begin date, until the day before it begins, and only if the offer is cancelable. After that, the administration of your organisation can help. [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
-- Under [Course settings - Tab Share > "Participants can leave"](Course_Settings_Share.md#section_share_leave), an option other than "Never" is selected.
+- The course has the usage **"Standalone"** (see [Course settings - Tab Share](Course_Settings_Share/index.md#section_usage)). If the Course Planner manages the course instead (usage **"Use in Course Planner"**), "Leave course" is not available. If participants have booked an implementation, they cancel the booking themselves instead: They open the info page of the implementation in the catalog and select the action "Cancel booking" there. If a cancellation fee applies, the action is called "Cancel booking for a fee", and the confirmation dialog states the amount. The action appears only for an implementation with a begin date, until the day before it begins, and only if the offer is cancelable. After that, the administration of your organisation can help. [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
+- Under [Course settings - Tab Share > "Participants can leave"](Course_Settings_Share/index.md#section_share_leave), an option other than "Never" is selected.
 - No assessment mode is currently running in the course.
 
 If the option **"After course end date or status 'Finished'"** is selected, "Leave course" is already displayed but is inactive as long as the implementation period has not yet ended and the course does not yet have the status "Finished".
@@ -171,7 +171,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [User tools >](../personal_menu/Personal_Tools/index.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
@@ -182,7 +182,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 [Personal achievements/successes: Badges >](../personal_menu/OpenBadges.md)<br>
 [User tools: Notes >](../personal_menu/Notes.md)<br>
 [Terms of Use >](../basic_concepts/Terms_Of_Use.md)<br>
-[Course settings - Tab Share >](Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
 [Course Element "Enrolment" >](Course_Element_Enrolment.md)
 
 **Further reading**<br>

@@ -8,7 +8,7 @@
 
 The overview "My badges" shows the issuer and the date of award for each badge. You can filter the list by status and issuer. "Download badge" saves the badge as an image file, "Add to LinkedIn" adds it to your LinkedIn profile.
 
-![Badge cards with issuer, date of award and the buttons Download badge and Add to LinkedIn, above them the filters by status and issuer, in the overview My badges](assets/Badge_erhalten.jpg){ class="shadow lightbox" }
+![Badge cards with issuer, date of award and the buttons Download badge and Add to LinkedIn, above them the filters by status and issuer](assets/Badge_erhalten.jpg){ class="shadow lightbox" title="Overview My badges in the personal menu" }
 
 Click on a badge you have received to open the badge details.
 
@@ -22,7 +22,7 @@ The badge details show when and by whom the badge was awarded, and the context i
 
 Under "Public link" you find the address with which you share the badge details or embed them in other websites. People without an OpenOlat account can access them this way.
 
-![Recipient, awarded by, issued on, course, description, criteria with an if-then rule and Public link, top right the button Download badge, in the badge details](assets/Badge_Beispiel.jpg){ class="shadow lightbox" }
+![Recipient, awarded by, issued on, course, description, criteria with an if-then rule and Public link, top right the button Download badge](assets/Badge_Beispiel.jpg){ class="shadow lightbox" title="Badge details" }
 
 [To the top of the page ^](#badges)
 
@@ -34,6 +34,6 @@ Under "Public link" you find the address with which you share the badge details 
 [Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
 [Badges in the e-Assessment Administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)
 
 [To the top of the page ^](#badges)

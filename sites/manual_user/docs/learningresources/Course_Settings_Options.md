@@ -80,8 +80,8 @@ Users with administrative roles (learning resource manager, administrator) are a
 [Course Settings - Tab Share: Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)
 
 **Further reading**<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)
 
 [To the top of the page ^](#course_settings_options)

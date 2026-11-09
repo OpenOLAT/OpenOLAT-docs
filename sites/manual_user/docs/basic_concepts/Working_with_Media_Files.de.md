@@ -31,9 +31,9 @@ Bei Lernressourcen im Autorenbereich, die Mediendateien enthalten, sind diese Me
 
 **Beispiele:**
 
-* [Blog >](../learningresources/Blog.de.md)
+* [Blog >](../learningresources/Blog/index.de.md)
 * [Wiki >](../learningresources/Wiki.de.md)
-* [Test >](../learningresources/Test.de.md)
+* [Test >](../learningresources/Test/index.de.md)
 
 
 ## Weiterführende Informationen {: #further_information}
@@ -41,8 +41,8 @@ Bei Lernressourcen im Autorenbereich, die Mediendateien enthalten, sind diese Me
 [Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
 [Media Center: Konzept >](Media_Center_Concept/index.de.md)<br>
-[Blog: Übersicht >](../learningresources/Blog.de.md)<br>
+[Blog: Übersicht >](../learningresources/Blog/index.de.md)<br>
 [Wiki erstellen >](../learningresources/Wiki.de.md)<br>
-[Tests erstellen >](../learningresources/Test.de.md)
+[Tests erstellen >](../learningresources/Test/index.de.md)
 
 [Zum Seitenanfang ^](#media_files)

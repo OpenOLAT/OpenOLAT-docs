@@ -71,7 +71,7 @@ Bei den Einstellungen unter "Auf Infoseite anzeigen" und "Als Dozenten angezeigt
 
 #### Bereich "Administrative Freigabe" {: #bulk_administrative_access}
 
-Sollen mehrere Lernressourcen einer anderen Organisation zugeordnet werden, etwa nach einer Umstrukturierung, passen Sie ihre Administrative Freigabe hier für alle gleichzeitig an. Was die Administrative Freigabe bewirkt, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](../learningresources/Course_Settings_Share.de.md#section_share). Den Bereich gibt es nur, wenn das Modul Organisationen eingeschaltet ist.
+Sollen mehrere Lernressourcen einer anderen Organisation zugeordnet werden, etwa nach einer Umstrukturierung, passen Sie ihre Administrative Freigabe hier für alle gleichzeitig an. Was die Administrative Freigabe bewirkt, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](../learningresources/Course_Settings_Share/index.de.md#section_share). Den Bereich gibt es nur, wenn das Modul Organisationen eingeschaltet ist.
 
 ![Markierte Felder Organisation hinzufügen und Organisation entfernen, hier für 2 Lernressourcen](assets/autorenbereich_sammelaktion_administrative_freigabe_v1_de.png){ class="shadow lightbox" title="Schritt Administrative Freigabe im Assistenten Einstellungen bearbeiten" }
 
@@ -141,7 +141,7 @@ Die Einträge "Einstellungen", der Eintrag zum Editor und "Mitgliederverwaltung"
 
 !!! info "Wichtig"
 
-    Wollen Sie Lernressourcen für externe OER-Kataloge und Suchmaschinen freigeben, finden Sie die Aktion "Freigabe externer OER-Katalog" im Menü unter den 3 Punkten nicht mehr [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9751)" }](https://track.frentix.com/issue/OO-9751){:target="_blank"}. Auch über der Tabelle gibt es dafür keine Sammelaktion. Eine einzelne Lernressource geben Sie in ihren Einstellungen mit dem Häkchen "Indexieren von Metadaten zulassen" frei: `Lernressource > Administration > Einstellungen > Tab "Freigabe"`. Nur dort warnt OpenOlat, wenn die Lernressource noch nicht veröffentlicht ist oder eine verlangte Lizenz fehlt, beschrieben unter [Externe OER-Kataloge und Suchmaschinen](../learningresources/Course_Settings_Share.de.md#section_share_oer). Mehrere Lernressourcen geben Sie mit der Sammelaktion "Metadaten und Einstellungen" frei, im Bereich "Info" über das Feld "Freigabe OER-Kataloge und Suchmaschinen", siehe [Bereich "Info"](#bulk_info). Der gleichnamige Filter "Freigabe externer OER-Katalog", den Sie über der Tabelle unter "Mehr..." einblenden, zeigt nur die freigegebenen oder die nicht freigegebenen Lernressourcen an und ändert keine Freigabe.
+    Wollen Sie Lernressourcen für externe OER-Kataloge und Suchmaschinen freigeben, finden Sie die Aktion "Freigabe externer OER-Katalog" im Menü unter den 3 Punkten nicht mehr [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9751)" }](https://track.frentix.com/issue/OO-9751){:target="_blank"}. Auch über der Tabelle gibt es dafür keine Sammelaktion. Eine einzelne Lernressource geben Sie in ihren Einstellungen mit dem Häkchen "Indexieren von Metadaten zulassen" frei: `Lernressource > Administration > Einstellungen > Tab "Freigabe"`. Nur dort warnt OpenOlat, wenn die Lernressource noch nicht veröffentlicht ist oder eine verlangte Lizenz fehlt, beschrieben unter [Externe OER-Kataloge und Suchmaschinen](../learningresources/Course_Settings_Share/index.de.md#section_share_oer). Mehrere Lernressourcen geben Sie mit der Sammelaktion "Metadaten und Einstellungen" frei, im Bereich "Info" über das Feld "Freigabe OER-Kataloge und Suchmaschinen", siehe [Bereich "Info"](#bulk_info). Der gleichnamige Filter "Freigabe externer OER-Katalog", den Sie über der Tabelle unter "Mehr..." einblenden, zeigt nur die freigegebenen oder die nicht freigegebenen Lernressourcen an und ändert keine Freigabe.
 
 ### Mitgliederverwaltung {: #members_management}
 
@@ -153,7 +153,7 @@ Hiermit exportieren Sie Ihre Lernressourcen als ZIP-Datei, zum Beispiel als Back
 
 ### Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
-Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, zeigt das Menü zusätzlich die Option "Als Lernpfad duplizieren" an. OpenOlat erstellt dann eine Kopie als [Lernpfadkurs](../learningresources/Learning_path_course.de.md), die Ursprungsversion bleibt als herkömmlicher Kurs erhalten.
+Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, zeigt das Menü zusätzlich die Option "Als Lernpfad duplizieren" an. OpenOlat erstellt dann eine Kopie als [Lernpfadkurs](../learningresources/Learning_path_course/index.de.md), die Ursprungsversion bleibt als herkömmlicher Kurs erhalten.
 
 ### Kopieren mit Wizard [:octicons-tag-16:{ title="ab Release 16.0 (OO-4416)" }](https://track.frentix.com/issue/OO-4416){:target="_blank"} {: #copy_with_wizard}
 
@@ -169,11 +169,11 @@ Handelt es sich in der Tabellenzeile um einen Lernpfadkurs, zeigt das Menü zus�
 **Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)<br>
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Autorenbereich - Übersicht >](Authoring/index.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
-[Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course/index.de.md)<br>
 [Kopieren eines Kurses mit Wizard >](../learningresources/Course_Copy_Wizard.de.md)
 
 **Weiterführend**<br>

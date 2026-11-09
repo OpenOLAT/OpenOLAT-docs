@@ -136,7 +136,7 @@ In the scope "Other resources", the list shows no participant, progress and cert
 [Finding courses >](Courses.md)
 
 **Further reading**<br>
-[Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../learningresources/Assessment_tool_overview/index.md)<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>

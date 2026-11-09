@@ -187,7 +187,7 @@ Reviewers and coaches will find a direct link to the portfolio folder in the lis
 
 ## Course archiving and reporting
 
-Until now, course log files, reports and course element data could only be archived individually and cumbersomely. The new and revised ['Archiving and reporting'](../manual_user/learningresources/Course_Archiving.md){:target="_blank”} area in course administration enables quick and easy partial or complete archiving of a course.
+Until now, course log files, reports and course element data could only be archived individually and cumbersomely. The new and revised ['Archiving and reporting'](../manual_user/learningresources/Course_Archiving/index.md){:target="_blank”} area in course administration enables quick and easy partial or complete archiving of a course.
 
 A wizard supports the selection of the data to be archived for all or selected course elements as well as additional reports (chat protocol, course results) and log files. The archiving itself then takes place in the background as an asynchronous process. Finished archives are available for download for 10 days by default, after which they are automatically deleted.
 

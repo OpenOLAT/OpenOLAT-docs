@@ -54,7 +54,7 @@ The cogwheel menu can also be used to show the "Origin" column. It shows the way
 
 In the Excel export of the member list, the "Origin" column lists all associated groups and Course Planner elements in full by name (comma-separated). Each person appears there in one row.
 
-If you need the role of a person in each individual group and in each element of the Course Planner, for example to settle the work of the coaches, use the export "Memberships". It separates the roles into sheets of their own and has a column of its own with the role for each group and each element. More on this under [Memberships](Course_Archiving.md#memberships).
+If you need the role of a person in each individual group and in each element of the Course Planner, for example to settle the work of the coaches, use the export "Memberships". It separates the roles into sheets of their own and has a column of its own with the role for each group and each element. More on this under [Memberships](Course_Archiving/index.md#memberships).
 
 
 ### Edit user information {: #edit_user_info}
@@ -66,14 +66,14 @@ When you select a person from the list, you receive further information about th
 There are three specific course roles:
 
   *  **Owner**<br>
-Owners have all rights within a course and can access all menus of the [course administration](../learningresources/Administration.md). They create the course structure and usually create the OpenOlat course. The person who creates a course automatically becomes the course owner. Course owners can also add other owners to the course.
+Owners have all rights within a course and can access all menus of the [course administration](Administration/index.md). They create the course structure and usually create the OpenOlat course. The person who creates a course automatically becomes the course owner. Course owners can also add other owners to the course.
 
   *  **Coach**<br>
 Coaches typically accompany the running course, but are not involved in course creation. Course coaches have access to the assessment tool, the to-dos, the data collection preview, and the statistics. If a document folder has been activated for coaches, they also see it in the administration. Coaches also assess directly in the course. Depending on the configuration in the course editor, they may also have access to further options and functions of certain course elements.
 
   *  **Participant**<br>
 Participants are usually the learners, or the persons who take part in an online course. Participants can only act within the possibilities provided by the owners. By default, participants do not have access to the course administration and the menus it contains.
-In [learning path courses](../learningresources/Learning_path_course.md), only the participants see the visualized percentage display in the top right corner of the [toolbar](../learningresources/Toolbar.md).
+In [learning path courses](Learning_path_course/index.md), only the participants see the visualized percentage display in the top right corner of the [toolbar](../learningresources/Toolbar.md).
 
 A course member can hold multiple roles in a course at the same time. In this case, the option to switch roles and view the course from the perspective of the respective course role appears in the course toolbar for the person concerned.
 
@@ -185,7 +185,7 @@ If a person is only to use a specific tool and not coach otherwise, it is best t
 
 !!! warning "Attention"
 
-    Group coaches basically also get access to the [assessment tool](Assessment_tool_overview.md) and can also assess all members of the group. Furthermore, they are allowed to make changes to the coached groups and have access to everything shared for coaches in the course.
+    Group coaches basically also get access to the [assessment tool](Assessment_tool_overview/index.md) and can also assess all members of the group. Furthermore, they are allowed to make changes to the coached groups and have access to everything shared for coaches in the course.
 
 
 ### Assignment of additional rights {: #additional_rights}
@@ -212,14 +212,14 @@ When this rights group is activated, even persons without the author role can us
 
 #### Archive tool {: #right_archiving}
 
-For the activated group of people, the "Administration" menu of the course also appears, with the entry "Archiving & Reporting": `Course > Administration > Archiving & Reporting`. Members have access to all areas of [Archiving](../learningresources/Course_Archiving.md) and thus to all course data. They can archive course content such as forum posts or test results of all participants.
+For the activated group of people, the "Administration" menu of the course also appears, with the entry "Archiving & Reporting": `Course > Administration > Archiving & Reporting`. Members have access to all areas of [Archiving](Course_Archiving/index.md) and thus to all course data. They can archive course content such as forum posts or test results of all participants.
 
 The granting of this permission should be carefully weighed for data protection reasons.
 
 
 #### Assessment tool {: #right_assessment_tool}
 
-The "Administration" menu with the [assessment tool](Assessment_tool_overview.md) also appears.
+The "Administration" menu with the [assessment tool](Assessment_tool_overview/index.md) also appears.
 
 Even without being entered as a coach in the course, members can assess and comment on all achievements of the participants this way. With this right, they also start and finish an exam with manual start in the assessment tool, see [Who can start and finish an exam manually](../learningresources/Assessment_mode.md#start_stop_rights).
 
@@ -231,7 +231,7 @@ Even without being entered as a coach in the course, members can assess and comm
 
 #### Glossary tool {: #right_glossary_tool}
 
-This right allows members to edit the glossary of the course. This only makes sense if a [glossary](../learningresources/Glossary.md) is assigned to the course. Members open it via the "Glossary" tool in the toolbar.
+This right allows members to edit the glossary of the course. This only makes sense if a [glossary](Glossary/index.md) is assigned to the course. Members open it via the "Glossary" tool in the toolbar.
 
 #### Statistics {: #right_statistics}
 
@@ -258,7 +258,7 @@ Members can create, reset, delete, and export course databases here.
 
 ##  Consents  {: #consent}
 
-If course-related terms of use or the course-related privacy policy are [activated](../learningresources/Course_Settings.md), the stored consents of the individual users are listed here. Selected consents can be revoked or deleted at this point. When revoked, the consent is reset, but the entry is retained. If a user is deleted in OpenOlat, all course-related consents are also removed.
+If course-related terms of use or the course-related privacy policy are [activated](Course_Settings/index.md), the stored consents of the individual users are listed here. Selected consents can be revoked or deleted at this point. When revoked, the consent is reset, but the entry is retained. If a user is deleted in OpenOlat, all course-related consents are also removed.
 
 [To the top of the page ^](#members_management)
 
@@ -267,9 +267,9 @@ If course-related terms of use or the course-related privacy policy are [activat
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
-[Course Administration: Overview >](../learningresources/Administration.md)<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
+[Course Administration: Overview >](Administration/index.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Toolbar: Overview >](../learningresources/Toolbar.md)<br>
 [Roles and Rights: Overview >](../basic_concepts/Roles_Rights/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
@@ -277,11 +277,11 @@ If course-related terms of use or the course-related privacy policy are [activat
 [Course Element "Topic Assignment" >](../learningresources/Course_Element_Topic_Assignment.md)<br>
 [Groups >](../groups/index.md)<br>
 [Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [Assessment management: Assessment mode >](../learningresources/Assessment_mode.md)<br>
-[Glossary >](../learningresources/Glossary.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)
+[Glossary >](Glossary/index.md)<br>
+[Course Settings >](Course_Settings/index.md)
 
 **Further reading**<br>
 [Roles and Rights: Assign roles >](../basic_concepts/Assign_Roles.md)<br>

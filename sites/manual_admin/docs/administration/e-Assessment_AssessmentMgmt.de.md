@@ -130,7 +130,7 @@ Startet ein:e Teilnehmer:in eine Prüfung mit einer älteren Version, wird die P
 
 ## Weiterführende Informationen {: #further_information}
 
-[Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management.de.md)<br>
+[Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management/index.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Prüfungsverwaltung: Prüfungseinsicht >](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
 [Wie richte ich als Systemadministrator:in den Safe Exam Browser (SEB) systemweit ein? >](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>

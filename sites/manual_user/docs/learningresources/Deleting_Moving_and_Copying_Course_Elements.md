@@ -52,7 +52,7 @@ You decide when the changes appear in the current course. When you publish, Open
 
 [Course editor tools >](Using_additional_Course_Editor_Tools.md)<br>
 [Course elements in the Course editor >](General_Configuration_of_Course_Elements.md)<br>
-[Course elements at a glance >](Course_Elements.md)
+[Course elements at a glance >](Course_Elements/index.md)
 
 [To the top of the page ^](#deleting-moving-and-copying-course-elements)
 

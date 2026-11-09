@@ -406,8 +406,8 @@ Die Checkliste fasst die Vorbereitungsschritte dieser Anleitung zusammen.
 [An mich freigegeben >](../../manual_user/area_modules/Shared_with_me.de.md)<br>
 [Mehrfachverwendung von Einträgen >](../../manual_user/area_modules/Multiple_use_of_entries.de.md)<br>
 [Kompetenzen verschlagworten >](../../manual_user/area_modules/Competences_tags.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)
 
 [Zum Seitenanfang ^](#portfolio)
 

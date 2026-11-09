@@ -152,7 +152,7 @@ Den Tab "Bewertung" können Sie nur im Modus "Test: Situationen erkennen" öffne
 * **Konfiguration Bewertung**: Hier legen Sie fest, wie OpenOlat den Test bewertet. Mit "Punkte vergeben" erscheinen "Minimal erreichbare Punkte", "Maximal erreichbare Punkte", "Stellen nach Komma" und "Gewichtung falsche Antwort". "Minimal erreichbare Punkte" steht immer auf 0 und lässt sich nicht ändern. Dazu kommen "Bewertung mit Einstufung/Noten", "Bestanden/Nicht bestanden ausgeben" mit "Erfolgsstatus ausgeben" und "Punkteschwelle für Bestanden" sowie in Lernpfadkursen "Bei Kurs-Bewertung berücksichtigen".
 * **Bewertungsformular**: Mit "Individueller Kommentar" und "Individuelle Bewertungsdokumente" stellen Betreuer:innen den Teilnehmenden bei der Bewertung Kommentare oder Dokumente bereit.
 
-Sind für die Videoaufgabe bereits Bewertungen vorhanden, zeigt OpenOlat alle Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only).
+Sind für die Videoaufgabe bereits Bewertungen vorhanden, zeigt OpenOlat alle Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements/index.de.md#assessment_config_read_only).
 
 
 [Zum Seitenanfang ^](#video_task)
@@ -249,8 +249,8 @@ Im Tab "Teilnehmer:innen" sehen Besitzer:innen und Betreuer:innen des Kurses die
 ## Weiterführende Informationen {: #further_information}
 
 [Lernressource: Video >](../../manual_user/learningresources/Learning_resource_Video.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "Video" >](../../manual_user/learningresources/Course_Element_Video.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)
 
 [Zum Seitenanfang ^](#video_task)

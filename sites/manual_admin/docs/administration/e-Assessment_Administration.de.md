@@ -85,6 +85,6 @@ Das ePortfolio kann von Systemadministrator:innen ein- oder ausgeschaltet werden
 ## Weiterführende Informationen {: #further_information}
 
 [Wie richte ich als Systemadministrator:in den Safe Exam Browser (SEB) systemweit ein? >](../../manual_how-to/SEB_Admin/SEB_Admin.de.md)<br>
-[Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management.de.md)
+[Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management/index.de.md)
 
 [Zum Seitenanfang ^](#e-assessments)

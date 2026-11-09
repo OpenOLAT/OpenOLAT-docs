@@ -240,10 +240,10 @@ nav:
       - About this learning resource: "learningresources/Technical_Information_on_Resources_and_Usage.md"
       - Access configuration: "learningresources/Access_configuration.md"
     - Course:
-      - Overview: "learningresources/General_Information.md"
+      - learningresources/General_Information/index.md
       - Create: "learningresources/Creating_Course.md"
       - Course design:
-        - Overview: "learningresources/Learning_path_course.md"
+        - learningresources/Learning_path_course/index.md
         - Learning path course:
           - Create: "learningresources/Creating_learning_path_courses.md"
           - Course editor: "learningresources/Learning_path_course_Course_editor.md"
@@ -254,19 +254,19 @@ nav:
         - Events: "learningresources/Toolbar_Events.md"
         - My course: "learningresources/Toolbar_My_Course.md"
       - Administration:
-        - Overview: "learningresources/Administration.md"
+        - learningresources/Administration/index.md
         - Settings:
-          - Overview: "learningresources/Course_Settings.md"
+          - learningresources/Course_Settings/index.md
           - Metadata: "learningresources/Course_Settings_Metadata.md"
           - Info: "learningresources/Course_Settings_Info.md"
           - Execution: "learningresources/Course_Settings_Execution.md"
           - Share:
-            - Overview: "learningresources/Course_Settings_Share.md"
+            - learningresources/Course_Settings_Share/index.md
             - LTI: "learningresources/LTI_Share_courses.md"
           - Layout: "learningresources/Design_possibilities_of_courses_and_course_elements.md"
           - Toolbar: "learningresources/Course_Settings_Toolbar.md"
           - Assessment:
-            - Overview: "learningresources/Course_Settings_Assessment.md"
+            - learningresources/Course_Settings_Assessment/index.md
             - Certificate and recertification: "learningresources/Course_Settings_Assessment_Certificate.md"
           - Options: "learningresources/Course_Settings_Options.md"
         - Members management: "learningresources/Members_management.md"
@@ -278,7 +278,7 @@ nav:
             - Expert mode: "learningresources/Access_Restrictions_in_the_Expert_Mode.md"
         - Files: "learningresources/Storage_folder.md"
         - Assessment tool:
-          - Overview: "learningresources/Assessment_tool_overview.md"
+          - learningresources/Assessment_tool_overview/index.md
           - Participants: "learningresources/Assessment_tool_tab_Users.md"
           - Assess:
             - Learners: "learningresources/Assessment_of_learners.md"
@@ -297,7 +297,7 @@ nav:
         - Events and absences: "learningresources/Events_and_absences.md"
         - Reminders: "learningresources/Course_Reminders.md"
         - Assessment management:
-          - Overview: "learningresources/Assessment_Management.md"
+          - learningresources/Assessment_Management/index.md
           - Assessment mode: "learningresources/Assessment_mode.md"
           - Assessment inspection: "learningresources/Assessment_inspection.md"
         - Data collection previews: "learningresources/Data_Collection_Previews.md"
@@ -306,7 +306,7 @@ nav:
         - Test statistics: "learningresources/Statistics_Test.md"
         - Survey statistics: "learningresources/Statistics_Survey.md"
         - Archiving & Reporting:
-          - Overview: "learningresources/Course_Archiving.md"
+          - learningresources/Course_Archiving/index.md
           - Record of Course Activities: "learningresources/Record_of_Course_Activities.md"
         - Offer types: "learningresources/Offer_Types.md"
         - Copy: "learningresources/Course_Copy.md"
@@ -315,7 +315,7 @@ nav:
         - Export content: "learningresources/Export_Content.md"
         - Delete: "learningresources/Course_Delete.md"
     - Course elements: 
-      - Overview: "learningresources/Course_Elements.md"
+      - learningresources/Course_Elements/index.md
       - Structure: "learningresources/Course_Element_Structure.md"
       - Page: "learningresources/Course_Element_Page.md"
       - HTML Page: "learningresources/Course_Element_HTML_Page.md"
@@ -380,11 +380,11 @@ nav:
       - Link list: "learningresources/Course_Element_Link_List.md"
       - Selection: "learningresources/Course_Element_Selection.md"
     - Test:
-      - Overview: "learningresources/Test.md"
+      - learningresources/Test/index.md
       - Administration:
         - Settings: "learningresources/Test_settings.md"
         - Test editor:
-          - Overview: "learningresources/Test_editor_QTI_2.1.md"
+          - learningresources/Test_editor_QTI_2.1/index.md
           - Questions:
             - Types: "learningresources/Test_question_types.md"
             - Configuration: "learningresources/Configure_test_questions.md"
@@ -396,11 +396,11 @@ nav:
         - Edit content: "learningresources/CP_Editor.md"
     - Wiki: "learningresources/Wiki.md"
     - Podcast:
-      - Overview: "learningresources/Podcast.md"
+      - learningresources/Podcast/index.md
       - Course element: "learningresources/Podcast_Configuration.md"
       - Listen and watch: "learningresources/Podcast_listen_and_watch.md"
     - Blog:
-      - Overview: "learningresources/Blog.md"
+      - learningresources/Blog/index.md
       - Create: "learningresources/Blog_Create.md"
       - Course element: "learningresources/Blog_Configuration.md"
       - Blogging: "learningresources/Blog_Blogging.md"
@@ -410,13 +410,13 @@ nav:
       - Administration: "learningresources/Learning_resource_Video.md"
     - Resource folder: "learningresources/Resource_Folder.md"
     - Form:
-      - Overview: "learningresources/Form.md"
+      - learningresources/Form/index.md
       - General Information: "learningresources/Forms_General_Information.md"
       - Administration:
         - Form editor:
-          - Overview: "learningresources/Form_Editor.md"
+          - learningresources/Form_Editor/index.md
           - Elements:
-            - Overview: "learningresources/Form_Elements.md"
+            - learningresources/Form_Elements/index.md
             - Rubric: "learningresources/Form_Element_Rubric.md"
           - Question rules: "learningresources/Form_Question_Rules.md"
       - In courses: "learningresources/Forms_in_Courses.md"
@@ -425,7 +425,7 @@ nav:
       - Administration and editing: "learningresources/Portfolio_template_Administration_and_editing.md"
       - Forms: "learningresources/Forms_in_the_ePortfolio_template.md"
     - Glossary:
-      - Overview: "learningresources/Glossary.md"
+      - learningresources/Glossary/index.md
       - Usage: "learningresources/Glossary_usage.md"
       - Create: "learningresources/Glossary_create.md"
    

@@ -26,6 +26,6 @@ Weitere Informationen finden Sie auf der Webseite von [edu-sharing](https://edu-
 
 [edu-sharing >](https://edu-sharing.com/)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)
 
 [Zum Seitenanfang ^](#edusharing)

@@ -31,7 +31,7 @@ By clicking on the name of a participant (via the "Overview" or "Participants" t
 
 ## B) Assessment tool {: #by_assessment_tool}
 
-If you are not only interested in a single course element, but would like to get an overview of the performance of the entire course, the most important tool for coaches is the [Assessment tool](../../manual_user/learningresources/Assessment_tool_overview.md). You can find it under:<br>
+If you are not only interested in a single course element, but would like to get an overview of the performance of the entire course, the most important tool for coaches is the [Assessment tool](../../manual_user/learningresources/Assessment_tool_overview/index.md). You can find it under:<br>
 `Course > Administration > Assessment tool`
 
 ![Entry Assessment tool opens the overview with the passed share and open assessments](assets/progress_information_assessment_tool_v1_de.png){ class="shadow lightbox" title="Administration menu of the course" }
@@ -44,7 +44,7 @@ If you are not only interested in a single course element, but would like to get
 
 !!! info "Important"
 
-    The "Learning path" icon is only displayed in the toolbar if you are in a [Learning path course](../../manual_user/learningresources/Learning_path_course.md).
+    The "Learning path" icon is only displayed in the toolbar if you are in a [Learning path course](../../manual_user/learningresources/Learning_path_course/index.md).
 
 
 When a participant accesses the learning path tool, only their own results are visible. As a coach, you have access to the learning path information of all the participants you coach. 
@@ -101,8 +101,8 @@ For example, a reminder could be sent to those participants who have never acces
 
 ## Further information {: #further_information}
 
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
+[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course/index.md)<br>
 [Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
 [Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
 [Coaching - Overview >](../../manual_user/area_modules/Coaching/index.md)

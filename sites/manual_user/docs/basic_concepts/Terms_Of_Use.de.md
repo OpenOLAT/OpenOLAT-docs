@@ -85,7 +85,7 @@ Welche Kursteilnehmer:innen ihre Zustimmung zu den kursspezifischen Nutzungsbedi
 
 ### Übernahme von Nutzungsbedingungen beim Kopieren von Kursen
 
-[Lernpfadkurse](../learningresources/Creating_learning_path_courses.de.md) können mit Hilfe eines Wizards kopiert werden: `Kurs > Administration > Kopieren mit Wizard`. Mit diesem Wizard kann vor der Ausführung des Kopiervorgangs festgelegt werden, welche [Kurseinstellungen](../learningresources/Course_Settings.de.md) in die Kopie übernommen werden sollen. Unter anderem können so auch die Nutzungsbedingungen übernommen werden.
+[Lernpfadkurse](../learningresources/Creating_learning_path_courses.de.md) können mit Hilfe eines Wizards kopiert werden: `Kurs > Administration > Kopieren mit Wizard`. Mit diesem Wizard kann vor der Ausführung des Kopiervorgangs festgelegt werden, welche [Kurseinstellungen](../learningresources/Course_Settings/index.de.md) in die Kopie übernommen werden sollen. Unter anderem können so auch die Nutzungsbedingungen übernommen werden.
 
 ![Zeile Nutzungsbedingungen mit den Optionen Anpassen, Kopieren und Nicht kopieren, im Schritt Kopieroptionen des Wizards Kurs kopieren](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" title="Wizard Kurs kopieren, Schritt Kopieroptionen" }
 
@@ -102,7 +102,7 @@ Auch beim Ausfüllen eines Formulars kann der erfasste Inhalt es erforderlich ma
 
 ### Nutzungsbedingungen eines Formulars definieren
 
-Innerhalb der Lernressource Formular gibt es das Element "Nutzungsbedingungen", das Autor:innen im [Formular-Editor](../learningresources/Form_Editor.de.md) über "Inhalt hinzufügen" einfügen. Im Element definieren Sie den Text der Einverständniserklärung und die Beschriftung der Checkbox.
+Innerhalb der Lernressource Formular gibt es das Element "Nutzungsbedingungen", das Autor:innen im [Formular-Editor](../learningresources/Form_Editor/index.de.md) über "Inhalt hinzufügen" einfügen. Im Element definieren Sie den Text der Einverständniserklärung und die Beschriftung der Checkbox.
 
 ![Element Nutzungsbedingungen in der Gruppe Organisatorisch des Dialogs Inhalt hinzufügen, im Formular-Editor](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formular-Editor" }
 ![Felder Einverständniserklärung und Beschriftung Einverständniserklärung des Elements Nutzungsbedingungen, rechts der Inspektor mit dem Schalter Hinweis-Box, im Formular-Editor](assets/terms_of_use_form2_v1_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen im Formular-Editor" }
@@ -124,8 +124,8 @@ draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat a
 
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Lernpfadkurse erstellen >](../learningresources/Creating_learning_path_courses.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
-[Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings/index.de.md)<br>
+[Der Formular-Editor >](../learningresources/Form_Editor/index.de.md)<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)
 

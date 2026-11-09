@@ -36,7 +36,7 @@ The settings influence the subsequent assessment options and the information the
 
 In learning path courses, the tab is divided into three areas. At the top, under the legend "Assessment configuration", is the option "Set status "To review" if accessible". Below that follows the legend "Grading configuration" with the settings from "Rubric assessment" to "Include in course assessment". Finally follows the area "Assessment form". In conventional courses, the top area is missing.
 
-If assessments already exist for the course element, OpenOlat displays the settings under the legend "Grading configuration" as read-only. The option "Set status "To review" if accessible" and the area "Assessment form" remain editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the course element, OpenOlat displays the settings under the legend "Grading configuration" as read-only. The option "Set status "To review" if accessible" and the area "Assessment form" remain editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements/index.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ### Set status "To review" [:octicons-tag-16:{ title="from Release 16.0 (OO-5564)" }](https://track.frentix.com/issue/OO-5564)
 
@@ -79,7 +79,7 @@ In conventional courses, you define this in the tab "Score" of the top course el
 
 ### Scaling factor for course assessment [:octicons-tag-16:{ title="from Release 18.2 (OO-7378)" }](https://track.frentix.com/issue/OO-7378) {: #score_scaling}
 
-The field appears if the course assessment adds up the points with weighting and "Score granted" as well as "Include in course assessment" are switched on. OpenOlat multiplies the points of the course element by this factor for the course assessment. More about this under [Course assessment with points: Sum with weighting](Course_Settings_Assessment.md#evaluation_with_points_weighting).
+The field appears if the course assessment adds up the points with weighting and "Score granted" as well as "Include in course assessment" are switched on. OpenOlat multiplies the points of the course element by this factor for the course assessment. More about this under [Course assessment with points: Sum with weighting](Course_Settings_Assessment/index.md#evaluation_with_points_weighting).
 
 ### Assessment form {: #assessment_form}
 
@@ -87,11 +87,11 @@ Activate under "Assessment form" the checkbox "Individual comment" or "Individua
 
 ## Tab Badges [:octicons-tag-16:{ title="from Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003)
 
-If the owners of the course have switched on the awarding of badges under [`Course > Administration > Settings > Assessment > Badges`](../learningresources/Course_Settings_Assessment.md#section_badges), the course editor shows the tab "Badges" for this course element. There you create a badge for this course element.
+If the owners of the course have switched on the awarding of badges under [`Course > Administration > Settings > Assessment > Badges`](Course_Settings_Assessment/index.md#section_badges), the course editor shows the tab "Badges" for this course element. There you create a badge for this course element.
 
 ## Perform assessment in the course view {: #bewertung-im-kursrun-durchfuhren}
 
-Owners and coaches assess the participants either in the course with the course editor closed or in the [assessment tool](../learningresources/Assessment_tool_overview.md).
+Owners and coaches assess the participants either in the course with the course editor closed or in the [assessment tool](Assessment_tool_overview/index.md).
 
 The tab "Overview" shows a complete overview of the course element.
 
@@ -109,11 +109,11 @@ The tab "Reminders" shows the [reminders](../learningresources/Course_Reminders.
 
 **Mentioned on this page**<br>
 [The form element rubric >](../learningresources/Form_Element_Rubric.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Forms in Rubric Scoring >](../learningresources/Forms_in_Rubric_Scoring.md)<br>
 [Levels/Grading >](../learningresources/Assessment_translate_points_in_grades.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
-[Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Course Reminders >](../learningresources/Course_Reminders.md)
 
 **Further reading**<br>

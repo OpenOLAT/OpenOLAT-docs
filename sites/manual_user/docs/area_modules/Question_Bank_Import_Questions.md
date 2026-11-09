@@ -28,7 +28,7 @@ You get the template in the import itself. In the question bank, you start it un
 
 In the "Data input" step, the link "Template excel import" is located above the field "Copied columns from Excel (comma separated)". It provides an Excel file with example questions for all ten question types that the Excel import supports, and an example of the metadata of a question. Build your questions according to this pattern.
 
-The [test editor](../learningresources/Test_editor_QTI_2.1.md) offers the same import with the same template when you add questions directly to a test:<br>
+The [test editor](../learningresources/Test_editor_QTI_2.1/index.md) offers the same import with the same template when you add questions directly to a test:<br>
 `Test > Administration > Test editor > Add elements > Import questions from Excel`
 
 How to import the questions:
@@ -246,7 +246,7 @@ The answer with more than 0 points counts as correct.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Test editor >](../learningresources/Test_editor_QTI_2.1.md)<br>
+[Test editor >](../learningresources/Test_editor_QTI_2.1/index.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)
 
 **Further reading**<br>

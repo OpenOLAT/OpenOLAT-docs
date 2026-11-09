@@ -96,7 +96,7 @@ Sie finden die Einstellung des Verwendungszwecks in der gewählten Lernressource
 
 Eine Lernressource mit dem Verwendungszweck "Einbindung" ist wiederverwendbar und wird an anderer Stelle eingebunden: in einen Kursbaustein eines Kurses oder, bei einem Formular, auch in eine Datenerhebung des Qualitätsmanagements und als [Formular für Buchungsaufträge](../area_modules/Course_Planner_Implementations.de.md#booking_order_forms) in eine Durchführung des Course Planner. Ein Kurs ist nur einer dieser Orte, deshalb nennt der Name des Verwendungszwecks keinen Ort. Damit andere Autor:innen Ihre Lernressource einbinden dürfen, setzen Sie im selben Tab unter "Autor:innen können" das Häkchen "einbinden".
 
-Mit "Ändern" öffnen Sie den Dialog "Verwendungszweck ändern". Er zeigt unter "Aktueller Verwendungszweck" den heutigen Wert und darunter unter "Verwendungszweck ändern in" die Verwendungszwecke, zu denen Sie wechseln können. Bei Lernressourcen, die keine Kurse sind, gibt es nur "Einbindung" und "Eigenständig", der Dialog bietet deshalb genau eine Option an. Das Hilfesymbol neben "Verwendungszweck ändern in" führt zur Beschreibung aller Verwendungszwecke im [Abschnitt Verwendung des Tabs Freigabe](Course_Settings_Share.de.md#section_usage).
+Mit "Ändern" öffnen Sie den Dialog "Verwendungszweck ändern". Er zeigt unter "Aktueller Verwendungszweck" den heutigen Wert und darunter unter "Verwendungszweck ändern in" die Verwendungszwecke, zu denen Sie wechseln können. Bei Lernressourcen, die keine Kurse sind, gibt es nur "Einbindung" und "Eigenständig", der Dialog bietet deshalb genau eine Option an. Das Hilfesymbol neben "Verwendungszweck ändern in" führt zur Beschreibung aller Verwendungszwecke im [Abschnitt Verwendung des Tabs Freigabe](Course_Settings_Share/index.de.md#section_usage).
 
 ![Der Dialog Verwendungszweck ändern zeigt bei einem Formular oben den aktuellen Verwendungszweck Einbindung und darunter Eigenständig als einzige Option zum Wechseln](assets/general_functions_concept_use_of_resources_embedded_v2_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern bei einem Formular · 2026.10.21" }
 
@@ -116,7 +116,7 @@ Ein Kurs lässt sich nicht in einen anderen Kurs einbinden. Ist der Course Plann
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Kursbaustein "Checkliste" >](../learningresources/Course_Element_Checklist.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
 [Course Planner: Produkte >](../area_modules/Course_Planner_Products.de.md)
 
 **Weiterführend**<br>

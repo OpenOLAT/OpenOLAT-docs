@@ -37,7 +37,7 @@ In the tab "Book sections" you enter the "Edubase ID", the page range with "Page
 
 **Further reading**<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)
+[Course elements at a glance >](Course_Elements/index.md)
 
 [To the top of the page ^](#edubase)
 

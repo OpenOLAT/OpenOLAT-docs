@@ -55,7 +55,7 @@ Es kann z.B. eingerichtet werden, dass Sie "Sicherheitspunkte" (= Währung der O
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Coaching - Personen >](../area_modules/Coaching_People.de.md)<br>
 [Wie mache ich Erfolge und Leistungen sichtbar? >](../../manual_how-to/achievements/achievements.de.md)

@@ -346,7 +346,7 @@ As a rule, no further intervention should be made while the assessment mode is r
 [Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
 [Assessment inspection > ](../../manual_user/learningresources/Assessment_inspection.md)<br>
 [Assessment management (Admin) > ](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md)<br>
-[Assessment management by course owners and coaches > ](../../manual_user/learningresources/Assessment_Management.md)<br>
+[Assessment management by course owners and coaches > ](../../manual_user/learningresources/Assessment_Management/index.md)<br>
 [Events and Absences module >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
 [Toolbar: Events >](../../manual_user/learningresources/Toolbar_Events.md)<br>

@@ -13,7 +13,7 @@ A [PDF certificate](../learningresources/Course_Settings_Assessment_Certificate.
 
 ## Who awards evidence of achievement? {: #who_awards}
 
-Course owners define in their courses whether participants see their evidence of achievement. They find the option "Show evidence of achievement to participants" under `Course > Administration > Settings > Tab "Assessment"` (see [Course Settings - Tab Assessment](../learningresources/Course_Settings_Assessment.md)). OpenOlat creates the evidence of achievement regardless of this setting; course owners and coaches always see it in the assessment views, e.g. when resetting course data or during recertification. [:octicons-tag-16:{ title="from Release 19.1.7 (OO-8401)" }](https://track.frentix.com/issue/OO-8401)
+Course owners define in their courses whether participants see their evidence of achievement. They find the option "Show evidence of achievement to participants" under `Course > Administration > Settings > Tab "Assessment"` (see [Course Settings - Tab Assessment](../learningresources/Course_Settings_Assessment/index.md)). OpenOlat creates the evidence of achievement regardless of this setting; course owners and coaches always see it in the assessment views, e.g. when resetting course data or during recertification. [:octicons-tag-16:{ title="from Release 19.1.7 (OO-8401)" }](https://track.frentix.com/issue/OO-8401)
 
 [To the top of the page ^](#evidence_of_achievements)
 
@@ -68,7 +68,7 @@ If the evidence of achievement is activated in a course, participants find the e
 
 **Mentioned on this page**<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [User tools: Portfolio 2.0 >](Portfolio/index.md)<br>
 [Personal achievements/successes: Certificates >](Certificates.md)

@@ -35,7 +35,7 @@ Die Einstellungen haben Einfluss auf die späteren Bewertungsoptionen und auf di
 
 In Lernpfadkursen gliedert sich der Tab in drei Bereiche. Zuoberst steht unter der Legende "Konfiguration Bewertung" die Option "Status "Korrigieren" setzen, wenn Zugriff gewährt". Darunter folgt eine zweite Legende "Konfiguration Bewertung" mit den Einstellungen von "Rubrik-Bewertung" bis "Bei Kurs-Bewertung berücksichtigen". Zuletzt folgt der Bereich "Bewertungsformular". In herkömmlichen Kursen fehlt der oberste Bereich.
 
-Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter der zweiten Legende "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben die Option "Status "Korrigieren" setzen, wenn Zugriff gewährt" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter der zweiten Legende "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben die Option "Status "Korrigieren" setzen, wenn Zugriff gewährt" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements/index.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ### Status "Korrigieren" setzen [:octicons-tag-16:{ title="ab Release 16.0 (OO-5564)" }](https://track.frentix.com/issue/OO-5564)
 
@@ -78,7 +78,7 @@ In herkömmlichen Kursen legen Sie das im Tab "Punkte" des obersten Kursbaustein
 
 ### Skalierungsfaktor für Kurs-Bewertung [:octicons-tag-16:{ title="ab Release 18.2 (OO-7378)" }](https://track.frentix.com/issue/OO-7378) {: #score_scaling}
 
-Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Punkte vergeben" sowie "Bei Kurs-Bewertung berücksichtigen" eingeschaltet sind. OpenOlat multipliziert die Punkte des Kursbausteins für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](Course_Settings_Assessment.de.md#evaluation_with_points_weighting).
+Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Punkte vergeben" sowie "Bei Kurs-Bewertung berücksichtigen" eingeschaltet sind. OpenOlat multipliziert die Punkte des Kursbausteins für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](Course_Settings_Assessment/index.de.md#evaluation_with_points_weighting).
 
 ### Bewertungsformular {: #assessment_form}
 
@@ -86,11 +86,11 @@ Aktivieren Sie unter "Bewertungsformular" die Checkbox "Individueller Kommentar"
 
 ## Tab Badges [:octicons-tag-16:{ title="ab Release 18.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003)
 
-Haben Besitzer:innen des Kurses unter [`Kurs > Administration > Einstellungen > Bewertung > Badges`](../learningresources/Course_Settings_Assessment.de.md#section_badges) die Vergabe von Badges eingeschaltet, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge für diesen Kursbaustein.
+Haben Besitzer:innen des Kurses unter [`Kurs > Administration > Einstellungen > Bewertung > Badges`](Course_Settings_Assessment/index.de.md#section_badges) die Vergabe von Badges eingeschaltet, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Sie einen Badge für diesen Kursbaustein.
 
 ## Bewertung in der Kursansicht durchführen {: #bewertung-im-kursrun-durchfuhren}
 
-Besitzer:innen und Betreuer:innen bewerten die Teilnehmenden entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md).
+Besitzer:innen und Betreuer:innen bewerten die Teilnehmenden entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](Assessment_tool_overview/index.de.md).
 
 Der Tab "Übersicht" zeigt eine Gesamtübersicht zum Kursbaustein.
 
@@ -108,11 +108,11 @@ Der Tab "Erinnerungen" zeigt die [Erinnerungen](../learningresources/Course_Remi
 
 **Auf dieser Seite erwähnt**<br>
 [Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
-[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Formular als Rubrik-Bewertung >](../learningresources/Forms_in_Rubric_Scoring.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)
 
 **Weiterführend**<br>

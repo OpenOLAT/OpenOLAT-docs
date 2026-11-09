@@ -27,7 +27,7 @@ Erst wenn die gewählte Bedingung erfüllt ist, zeigt OpenOlat den Teilnehmenden
 
 ## Tab "Test-Konfiguration" {: #tab_configuration}
 
-Sind für den Test bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an: "Bewertung mit Einstufung/Noten" und "Bei Kurs-Bewertung berücksichtigen". Mit "Bearbeitungsmodus aktivieren" machen Sie sie wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](../Course_Elements.de.md#assessment_config_read_only). Den Schreibschutz gibt es nur im Kursbaustein "Test", nicht im Selbsttest und nicht im Fragebogen. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für den Test bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an: "Bewertung mit Einstufung/Noten" und "Bei Kurs-Bewertung berücksichtigen". Mit "Bearbeitungsmodus aktivieren" machen Sie sie wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](../Course_Elements/index.de.md#assessment_config_read_only). Den Schreibschutz gibt es nur im Kursbaustein "Test", nicht im Selbsttest und nicht im Fragebogen. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab "Test-Konfiguration" ein entsprechender Hinweis. Sie können nun einen vorhandenen Test "Auswählen" oder "Importieren" oder einen neuen Test "Erstellen".
 
@@ -55,11 +55,11 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen, zum Beispiel Noten, Niveaust
 
 #### Bei Kurs-Bewertung berücksichtigen {: #include_in_course_assessment}
 
-Schalten Sie diesen Schalter aus, bleibt der Test bei der Kurs-Bewertung in einem [Lernpfadkurs](../Learning_path_course.de.md) unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
+Schalten Sie diesen Schalter aus, bleibt der Test bei der Kurs-Bewertung in einem [Lernpfadkurs](../Learning_path_course/index.de.md) unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
 
 #### Skalierungsfaktor für Kurs-Bewertung {: #score_scaling}
 
-Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Bei Kurs-Bewertung berücksichtigen" eingeschaltet ist. OpenOlat multipliziert die Punkte des Tests für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](../Course_Settings_Assessment.de.md#evaluation_with_points_weighting).
+Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Bei Kurs-Bewertung berücksichtigen" eingeschaltet ist. OpenOlat multipliziert die Punkte des Tests für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](../Course_Settings_Assessment/index.de.md#evaluation_with_points_weighting).
 
 
 ### Abschnitt Korrektur {: #section_correction}
@@ -162,7 +162,7 @@ Hier aktivieren und konfigurieren Sie für einen Test eine Highscore-Übersicht.
 
 Aktivieren Sie zuerst "Highscore anzeigen". Unter "Anfangsdatum (optional)" legen Sie fest, ab wann die Rangliste erscheint. Mit "Relatives Datum" geben Sie dieses Datum relativ zu einem Ereignis an, zum Beispiel zum ersten Kursbesuch. Mit "Daten der Benutzer:innen anonymisieren" erscheinen die Teilnehmenden in der Rangliste ohne Vor- und Nachnamen.
 
-Darunter wählen Sie, was angezeigt wird: "Gratulationstitel", "Siegertreppchen", "Histogramm" und "Liste der besten Teilnehmer:innen". Mindestens eine Anzeigeoption muss aktiviert sein. Für die Liste legen Sie zusätzlich fest, ob alle oder nur die besten Teilnehmer:innen erscheinen und wie viele. Wie die Rangliste in Kursbausteinen funktioniert und wann sie erscheint, beschreibt die Seite [Kursbausteine](../Course_Elements.de.md#highscore).
+Darunter wählen Sie, was angezeigt wird: "Gratulationstitel", "Siegertreppchen", "Histogramm" und "Liste der besten Teilnehmer:innen". Mindestens eine Anzeigeoption muss aktiviert sein. Für die Liste legen Sie zusätzlich fest, ob alle oder nur die besten Teilnehmer:innen erscheinen und wie viele. Wie die Rangliste in Kursbausteinen funktioniert und wann sie erscheint, beschreibt die Seite [Kursbausteine](../Course_Elements/index.de.md#highscore).
 
 
 [Zum Seitenanfang ^](#config)
@@ -214,10 +214,10 @@ Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > T
 [Kursbaustein "Test" >](index.de.md)<br>
 [Tests auswerten und verwalten >](Test_Results.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../Learning_path_course_Course_editor.de.md)<br>
-[Kursbausteine im Überblick >](../Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../Course_Elements/index.de.md)<br>
 [Wie bereite ich eine Online-Prüfung vor? >](../../../manual_how-to/exam_preparation/exam_preparation.de.md)<br>
-[Lernpfadkurs - Überblick >](../Learning_path_course.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment.de.md)<br>
+[Lernpfadkurs - Überblick >](../Learning_path_course/index.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment/index.de.md)<br>
 [Test Fragetypen >](../Test_question_types.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Test Einstellungen - Administration >](../Test_settings.de.md)<br>

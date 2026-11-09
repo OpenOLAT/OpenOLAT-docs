@@ -53,7 +53,7 @@ Owners and coaches also see the tab "Statistic". Under "Broadcast live streams" 
 
 ## Further information {: #further_information}
 
-[Course elements at a glance >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "Opencast" >](Course_Element_Opencast.md)<br>
 [Course Element "Calendar" >](Course_Element_Calendar.md)<br>
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>

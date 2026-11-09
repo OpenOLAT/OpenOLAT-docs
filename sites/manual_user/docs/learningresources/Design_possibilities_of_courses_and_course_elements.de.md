@@ -13,7 +13,7 @@ Im Tab Layout der Kurseinstellungen kann der Standardstil der Darstellung defini
 Kursbesitzer:innen können für die Darstellung der Kursbausteine ein eigenes Bild hochladen (maximal 4 MB), ein Bild aus der Bibliothek wählen oder auf ein Bild ganz verzichten. Das Bild kann rechts oder links positioniert, als Verlauf rechts oder vollflächig dargestellt werden.
 
 
-![Tab Layout der Kurseinstellungen: Hintergrundbild-Auswahl, Bildposition, Farbkategorie und Vorschau der Kursbaustein-Kachel](assets/Dokumentation_de.png){ class="shadow lightbox" }
+![Hintergrundbild-Auswahl, Bildposition, Farbkategorie und Vorschau der Kursbaustein-Kachel](assets/Dokumentation_de.png){ class="shadow lightbox" title="Tab Layout der Kurseinstellungen" }
 
 
 ## Layout Einstellungen im Kurseditor
@@ -42,16 +42,16 @@ Für das Hintergrundbild, den Stil und die Farbkategorie kann zwischen "Kurs Sta
 **Anzeige**: Wählen Sie ob die im Tab "Titel und Beschreibung" definierten Infos angezeigt werden sollen oder nicht.
 
 
-![Tab Layout eines Kursbausteins mit Anzeige-Optionen, Hintergrundbild-Auswahl inklusive Bild-Upload, Farbkategorie und Vorschau](assets/image2021-8-19_11-6-52.png){ class="shadow lightbox" }
+![Anzeige-Optionen, Hintergrundbild-Auswahl inklusive Bild-Upload, Farbkategorie und Vorschau](assets/image2021-8-19_11-6-52.png){ class="shadow lightbox" title="Tab Layout eines Kursbausteins im Kurseditor" }
 
 
 ### Automatische Übersicht 
 
 Auf dem obersten Kursknoten und allen Struktur-Kursbausteinen können im Tab "Übersicht" weitere Einstellungen zur Darstellung vorgenommen werden. Ein Vorteil ist die Verwendung der automatischen Übersicht, besonders als Orientierungshilfe für den User. Hier können nun alle oder gezielt nur bestimmte Kursbausteine für die automatische Übersicht ausgewählt werden.
 
-![Tab Übersicht mit Auswahl der Darstellungsart, der anzuzeigenden Kursbausteine und der Spaltenanzahl](assets/image2021-8-20_7-44-8.png){ class="shadow lightbox" }
+![Auswahl der Darstellungsart, der anzuzeigenden Kursbausteine und der Spaltenanzahl](assets/image2021-8-20_7-44-8.png){ class="shadow lightbox" title="Tab Übersicht im Kurseditor" }
 
-![Automatische Übersicht im Kurs mit zwei Kachel-Kursbausteinen inklusive Fortschrittsstatus "Erledigt"](assets/image2021-8-19_15-10-11.png){ class="shadow lightbox" }
+![Zwei Kursbausteine als Kacheln inklusive Fortschrittsstatus "Erledigt"](assets/image2021-8-19_15-10-11.png){ class="shadow lightbox" title="Automatische Übersicht im Kurs" }
 
 !!! tip "Tipp"
 
@@ -60,8 +60,8 @@ Auf dem obersten Kursknoten und allen Struktur-Kursbausteinen können im Tab "Ü
 ## Weiterführende Informationen {: #further_information}
 
 **Weiterführend**<br>
-[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
 
 **youtube**<br>
 [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>)

@@ -167,6 +167,6 @@ With the link "Search by participants" you return to the person search. In the r
 [Coaching - Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching - Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Assessment tool - overview >](../learningresources/Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#events)

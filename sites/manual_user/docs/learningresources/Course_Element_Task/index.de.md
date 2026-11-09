@@ -69,7 +69,7 @@ Für alle drei Rollen: Die Seite beschreibt die Regeln eines Peer-Reviews, die E
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbausteine im Überblick >](../Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../Course_Elements/index.de.md)<br>
 [Aufgaben und Gruppenaufgaben bewerten >](../Assessing_tasks_and_group_tasks.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../Course_Element_Portfolio_Task.de.md)<br>
 [Kursbaustein "Videoaufgabe" >](../Course_Element_Video_Task.de.md)

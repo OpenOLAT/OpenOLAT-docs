@@ -389,8 +389,8 @@ Characteristics:
 
 **Further reading**<br>
 [General information on forms >](../../manual_user/learningresources/Forms_General_Information.md)<br>
-[The Form Editor >](../../manual_user/learningresources/Form_Editor.md)<br>
-[Form elements >](../../manual_user/learningresources/Form_Elements.md)<br>
+[The Form Editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
+[Form elements >](../../manual_user/learningresources/Form_Elements/index.md)<br>
 [The form element rubric >](../../manual_user/learningresources/Form_Element_Rubric.md)<br>
 [Question rules in forms >](../../manual_user/learningresources/Form_Question_Rules.md)<br>
 [Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>

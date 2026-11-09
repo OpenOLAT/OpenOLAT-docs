@@ -12,7 +12,7 @@ Die Buttons "Erstellen" und "Datei importieren" sehen Autor:innen, Lernressource
 
 Wählen Sie einen Eintrag, öffnet OpenOlat einen Dialog zum Erstellen. Pflichtfelder sind "Titel" und, wenn das Modul Organisationen eingeschaltet ist, "Administrative Freigabe".
 
-Unter "Administrative Freigabe" wählen Sie eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird. Davon hängt ab, welche Personen mit einer administrativen Rolle in diesen Organisationen auf die Lernressource zugreifen und sie im Autorenbereich finden. Zur Auswahl stehen die Organisationen, in denen Sie die Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in haben. Haben Sie diese Rollen nur in einer Organisation, lässt sich das Feld nicht ändern. Mehr dazu unter [Administrative Freigabe](../learningresources/Course_Settings_Share.de.md#section_share_admin_access).
+Unter "Administrative Freigabe" wählen Sie eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird. Davon hängt ab, welche Personen mit einer administrativen Rolle in diesen Organisationen auf die Lernressource zugreifen und sie im Autorenbereich finden. Zur Auswahl stehen die Organisationen, in denen Sie die Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in haben. Haben Sie diese Rollen nur in einer Organisation, lässt sich das Feld nicht ändern. Mehr dazu unter [Administrative Freigabe](../learningresources/Course_Settings_Share/index.de.md#section_share_admin_access).
 
 Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 
@@ -23,19 +23,19 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 [Handbuchartikel](../learningresources/Creating_Course.de.md#purpose)
 
 * Tests erstellen<br>
-[Handbuchartikel](../learningresources/Test.de.md) | [Ausführliche Anleitung](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+[Handbuchartikel](../learningresources/Test/index.de.md) | [Ausführliche Anleitung](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 * Formulare erstellen <br>
-[Handbuchartikel](../learningresources/Form.de.md)  | [Ausführliche Anleitung](../../manual_how-to/create_a_form/create_a_form.de.md)
+[Handbuchartikel](../learningresources/Form/index.de.md)  | [Ausführliche Anleitung](../../manual_how-to/create_a_form/create_a_form.de.md)
 
 * Ressourcenordner erstellen<br>
 [Handbuchartikel](../learningresources/Resource_Folder.de.md) | [Ausführliche Anleitung](../../manual_how-to/multiple_use/multiple_use.de.md)
 
 * Blog erstellen<br>
-[Handbuchartikel](../learningresources/Blog.de.md) | [Ausführliche Anleitung](../../manual_how-to/blog/blog.de.md)
+[Handbuchartikel](../learningresources/Blog/index.de.md) | [Ausführliche Anleitung](../../manual_how-to/blog/blog.de.md)
 
 * Podcast erstellen <br>
-[Handbuchartikel](../learningresources/Podcast.de.md) | [Ausführliche Anleitung](../../manual_how-to/podcast/podcast.de.md)
+[Handbuchartikel](../learningresources/Podcast/index.de.md) | [Ausführliche Anleitung](../../manual_how-to/podcast/podcast.de.md)
 
 * CP-Lerninhalt erstellen<br>
 [Handbuchartikel](../learningresources/CP_Editor.de.md) | [Ausführliche Anleitung](../../manual_how-to/content_package/content_package.de.md)
@@ -47,7 +47,7 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 [Handbuchartikel](../learningresources/Portfolio_template_Creation.de.md)
 
 * Glossar erstellen<br>
-[Handbuchartikel](../learningresources/Glossary.de.md)
+[Handbuchartikel](../learningresources/Glossary/index.de.md)
 
 * Word-, Excel- und PowerPoint-Dateien erstellen<br>
 [Handbuchartikel](../learningresources/index.de.md#further_learningresources)
@@ -99,7 +99,7 @@ Der Dialog enthält folgende Felder:
 | **Typ** | Der erkannte Ressourcentyp. Passen mehrere Typen zur URL, wählen Sie hier den gewünschten aus. |
 | **Titel der Lernressource** | Pflichtfeld. Name der neuen Lernressource. Bei Videos wird der Titel aus der Quelle vorausgefüllt und kann angepasst werden. |
 | **Kennzeichen** | Optionale externe Kennung, die in der Kursübersicht angezeigt wird, siehe [Kennzeichen](../learningresources/Course_Settings_Metadata.de.md#externalref). |
-| **Administrative Freigabe** | Pflichtfeld. Eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird, siehe [Administrative Freigabe](../learningresources/Course_Settings_Share.de.md#section_share_admin_access). |
+| **Administrative Freigabe** | Pflichtfeld. Eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird, siehe [Administrative Freigabe](../learningresources/Course_Settings_Share/index.de.md#section_share_admin_access). |
 
 Mit "Einbinden" erstellen Sie die Lernressource.
 
@@ -111,25 +111,25 @@ Mit "Einbinden" erstellen Sie die Lernressource.
 
 **Auf dieser Seite erwähnt**<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)<br>
 [Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Tests erstellen >](../learningresources/Test.de.md)<br>
+[Tests erstellen >](../learningresources/Test/index.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
-[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Formulare - Übersicht >](../learningresources/Form/index.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Ressourcenordner >](../learningresources/Resource_Folder.de.md)<br>
 [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../manual_how-to/multiple_use/multiple_use.de.md)<br>
-[Blog: Übersicht >](../learningresources/Blog.de.md)<br>
+[Blog: Übersicht >](../learningresources/Blog/index.de.md)<br>
 [Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
-[Podcast: Übersicht >](../learningresources/Podcast.de.md)<br>
+[Podcast: Übersicht >](../learningresources/Podcast/index.de.md)<br>
 [Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
 [CP-Lerninhalt erstellen >](../learningresources/CP_Editor.de.md)<br>
 [Wie erstelle ich ein Content Package? >](../../manual_how-to/content_package/content_package.de.md)<br>
 [Wiki erstellen >](../learningresources/Wiki.de.md)<br>
 [Wie erstelle ich ein Wiki? >](../../manual_how-to/wikis/wikis.de.md)<br>
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
-[Glossar >](../learningresources/Glossary.de.md)<br>
+[Glossar >](../learningresources/Glossary/index.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
 [Kurseinstellungen - Tab Metadaten >](../learningresources/Course_Settings_Metadata.de.md)<br>
 [Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)<br>
@@ -137,7 +137,7 @@ Mit "Einbinden" erstellen Sie die Lernressource.
 
 **Weiterführend**<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Kurseinstellungen >](../learningresources/Course_Settings/index.de.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)<br>

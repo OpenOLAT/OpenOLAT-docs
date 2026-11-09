@@ -15,7 +15,7 @@ WebDAV steht für "Web-based Distributed Authoring and Versioning" und ist ein o
   * [Ablageordner von Kursen](../learningresources/Storage_folder.de.md) (nur Kursbesitzer:innen)
   * [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.de.md)
   * [Ressourcenordner](../learningresources/index.de.md#resource_folder) (nur Besitzer:innen der Lernressource)
-  * [Kursarchive](../learningresources/Course_Archiving.de.md) (nur Autor:innen, Lernressourcenmanager:innen und Administrator:innen) [:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
+  * [Kursarchive](../learningresources/Course_Archiving/index.de.md) (nur Autor:innen, Lernressourcenmanager:innen und Administrator:innen) [:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, ist abhängig von der konkreten Konfiguration.
 
@@ -108,7 +108,7 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
   * **groupfolders**: Hier finden Sie alle Gruppen, in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
   * **home**: Ihre persönlichen Dateien mit den Unterordnern "private" und "public".
   * **sharedfolders**: Alle Ressourcenordner, die Sie besitzen oder auf die Sie aufgrund einer Mitgliedschaft zugreifen dürfen. Besitzer:innen und Betreuer:innen erhalten Lese- und Schreibrechte, Teilnehmende nur Leserechte.
-  * **mycoursearchives**: Alle [Kursarchive](../learningresources/Course_Archiving.de.md), die Sie erstellt haben. Dieser Ordner erscheint nur für Autor:innen, Lernressourcenmanager:innen und Administrator:innen.
+  * **mycoursearchives**: Alle [Kursarchive](../learningresources/Course_Archiving/index.de.md), die Sie erstellt haben. Dieser Ordner erscheint nur für Autor:innen, Lernressourcenmanager:innen und Administrator:innen.
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -118,7 +118,7 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 [Ablageordner >](../learningresources/Storage_folder.de.md)<br>
 [Kursbaustein "Ordner" >](../learningresources/Course_Element_Folder.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [FUSE-Website >](http://fuse.sourceforge.net)<br>
 [WebDAV (Administration) >](../../manual_admin/administration/WebDAV.de.md)

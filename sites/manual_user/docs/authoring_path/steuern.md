@@ -155,7 +155,7 @@ With frentix: we show it in a training. For a training, contact your organisatio
 
 <p class="oo-mh-kicker">Read up</p>
 
-[Learning path course](../learningresources/Learning_path_course.md)
+[Learning path course](../learningresources/Learning_path_course/index.md)
 
 </div>
 
@@ -173,7 +173,7 @@ The first course is running. Now the things that did not matter at the start pay
 
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course/index.md)<br>
 [Access Restrictions in the Expert Mode >](../learningresources/Access_Restrictions_in_the_Expert_Mode.md)<br>
 [Creating Courses >](../learningresources/Creating_Course.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)

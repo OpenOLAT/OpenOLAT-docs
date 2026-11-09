@@ -82,6 +82,6 @@ If the learning resource is managed by an external system, the window additional
 
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Toolbar: Info page >](../learningresources/Info_page.md)<br>
-[Course Administration: Overview >](../learningresources/Administration.md)
+[Course Administration: Overview >](Administration/index.md)
 
 [To the top of the page ^](#technical_information)

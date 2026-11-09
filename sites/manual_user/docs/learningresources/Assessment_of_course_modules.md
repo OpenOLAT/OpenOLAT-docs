@@ -64,7 +64,7 @@ If a [rubric](Form_Element_Rubric.md) is stored as the basis for the assessment,
 
 ![Window "Rubric assessment" with four criteria in rows and the scale in columns: for each criterion you select one level](assets/assessment_of_course_modules_rubric_v1_en.png){ class="shadow lightbox" title="Rubric assessment of a person in the course element Assessment · 2026.10.28" }
 
-For the course element "Assessment", the [bulk assessment](Assessment_tool_overview.md#mass_assessment) is also available.
+For the course element "Assessment", the [bulk assessment](Assessment_tool_overview/index.md#mass_assessment) is also available.
 
 ## Portfolio task [:octicons-tag-16:{ title="from Release 12.0 (OO-2923)" }](https://track.frentix.com/issue/OO-2923)
 For the course element "[Portfolio task](Creating_Portfolio_Tasks.md)", the 3-point menu offers the actions described above:
@@ -125,7 +125,7 @@ Above the list you choose between "All" and "Last run". "Last run" shows only th
 
 ![Window with the SCO ID in its title, the search field and the columns Question, Key and Value highlighted: each row is one transmitted SCORM data field, such as Course status with the value completed](assets/assessment_of_course_modules_scorm_sco_data_v1_en.png){ class="shadow lightbox" title="Transmitted data of a SCO in the assessment tool · 2026.10.28" }
 
-You export the list and the table in the window with the icon "Download" of each. To export the SCORM data of all participants of a course, use `Course > Administration > Archiving & Reporting` instead, see [SCORM results](Course_Archiving.md#scorm-results).
+You export the list and the table in the window with the icon "Download" of each. To export the SCORM data of all participants of a course, use `Course > Administration > Archiving & Reporting` instead, see [SCORM results](Course_Archiving/index.md#scorm-results).
 
 With "Reset SCORM results" at the top right, you delete all transmitted SCORM data of the person in this course element after a confirmation. The person can then work through a SCORM package marked as completed again. The score transmitted in the last attempt stays unchanged. OpenOlat does not archive the deleted data. To also reset the score, the status and the number of attempts and to archive the data first, use "Reset data", see [Assessment tool - reset data](Assessment_tool_reset_data.md). In a read-only course, the button "Reset SCORM results" is missing.
 
@@ -144,13 +144,13 @@ When the switch is on, the fields "Scaling factor" and "Score needed to pass" al
 [Assessment tool - reset data >](Assessment_tool_reset_data.md)<br>
 [Course Element "Checklist" >](Course_Element_Checklist.md)<br>
 [The form element rubric >](Form_Element_Rubric.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Creating Portfolio Tasks >](Creating_Portfolio_Tasks.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Course Element "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.md)<br>
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment of learners >](Assessment_of_learners.md)<br>
-[Course administration - Archiving & Reports >](Course_Archiving.md)<br>
+[Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
 [Course Element "LTI Page" >](Course_Element_LTI_Page.md)
 
 **Further**<br>

@@ -63,7 +63,7 @@ Ein Baustein, der im Kurseditor zur Kursstruktur hinzugefügt werden kann.
 
     **Wie Nutzende es nennen:** Baustein, Kurselement, Lerninhalt, Seite, Modulbaustein, Lernbaustein, Kursmodul, Lernelement
 
-    [Im Handbuch lesen](../learningresources/Course_Elements.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursbaustein%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../learningresources/Course_Elements/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursbaustein%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 <div class="oo-mh-kids" markdown>
 
@@ -237,7 +237,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 
 <p class="oo-mh-kicker">Nachlesen</p>
 
-[Kursbausteine](../learningresources/Course_Elements.de.md)
+[Kursbausteine](../learningresources/Course_Elements/index.de.md)
 
 </div>
 
@@ -248,7 +248,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
 - **Kurseditor:** Bearbeitungsmodus aktivieren.
-- **Kursbaustein:** [Externe Seite](../learningresources/Course_Element_External_Page.de.md), [Linkliste](../learningresources/Course_Element_Link_List.de.md), [CP-Lerninhalt](../learningresources/Course_Element_CP_Learning_Content.de.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbausteine](../learningresources/Course_Elements.de.md).
+- **Kursbaustein:** [Externe Seite](../learningresources/Course_Element_External_Page.de.md), [Linkliste](../learningresources/Course_Element_Link_List.de.md), [CP-Lerninhalt](../learningresources/Course_Element_CP_Learning_Content.de.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Kursbausteine](../learningresources/Course_Elements/index.de.md).
 - **Aufgabe:** [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md), [Workflow](../learningresources/Course_Element_Task/Task_Setup.de.md#workflow).
 - **Content Editor:** [Inhaltselement](../basic_concepts/Content_Editor.de.md) (in der Oberfläche: **Inhalt hinzufügen**), [Importieren](../basic_concepts/Content_Editor.de.md), [Inspektor](../basic_concepts/Content_Editor.de.md).
 - **Media Center:** [Freigaben](../../manual_admin/administration/Modules_Media_Center.de.md). Alle Einstellungen stehen auf der Seite [Media Center: Konzept](../basic_concepts/Media_Center_Concept/index.de.md).
@@ -257,7 +257,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 
 **Auf dieser Seite erwähnt**<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
-[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](../learningresources/Course_Elements/index.de.md)<br>
 [Kursbaustein Struktur >](../learningresources/Course_Element_Structure.de.md)<br>
 [Kursbaustein Seite >](../learningresources/Course_Element_Page.de.md)<br>
 [Kursbaustein HTML-Seite >](../learningresources/Course_Element_HTML_Page.de.md)<br>

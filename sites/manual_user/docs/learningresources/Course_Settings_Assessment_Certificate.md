@@ -23,7 +23,7 @@ If the course is part of an implementation that is linked to a certification pro
 
 As the author, you choose in the field "Generate PDF certificate" whether the certificate is issued **manually** by coaches and/or **automatically** after passing the course.
 
-The "manual" option allows certificates to be used even in courses without assessable course elements. If the certificate is to be issued manually, the coach can do so in the [assessment tool](Assessment_tool_overview.md) in the performance overview for each individual user. There, issued certificates can also be viewed and managed later. After issuing, OpenOlat reports "The certificate will be created within the next few seconds." and generates the PDF file in the background.
+The "manual" option allows certificates to be used even in courses without assessable course elements. If the certificate is to be issued manually, the coach can do so in the [assessment tool](Assessment_tool_overview/index.md) in the performance overview for each individual user. There, issued certificates can also be viewed and managed later. After issuing, OpenOlat reports "The certificate will be created within the next few seconds." and generates the PDF file in the background.
 
 
 ### Where can the certificates be viewed? {: #certificate_view}
@@ -216,7 +216,7 @@ Evidence of achievement and certificates from previous rounds will be retained.
 
 **Mentioned on this page**<br>
 [Course Planner: Certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Personal achievements/successes: Certificates >](../personal_menu/Certificates.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
 [Zertifikatsbot >](https://tools.vcrp.de/zertifikatsbot/)<br>
@@ -224,7 +224,7 @@ Evidence of achievement and certificates from previous rounds will be retained.
 [Learning path course - Course editor >](Learning_path_course_Course_editor.md)
 
 **Further reading**<br>
-[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Assessment tool - reset data >](Assessment_tool_reset_data.md)
 
 [To the top of the page ^](#certificate_and_recertification)

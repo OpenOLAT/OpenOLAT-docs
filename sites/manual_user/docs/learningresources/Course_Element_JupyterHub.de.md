@@ -33,7 +33,7 @@ Je nach Einrichtung des Hubs zeigt der Tab zusätzlich einen "Info-Text", die Sc
 
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Jupyter.org >](https://jupyter.org/hub)<br>
-[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "LTI-Seite" >](../learningresources/Course_Element_LTI_Page.de.md)
 
 [Zum Seitenanfang ^](#jupyterhub)

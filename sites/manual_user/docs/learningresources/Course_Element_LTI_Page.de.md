@@ -116,7 +116,7 @@ Haben Kursbesitzer:innen unter `Kurs > Administration > Einstellungen > Tab "Bew
 [LTI - Externe Werkzeuge >](../../manual_admin/administration/LTI_External_tools.de.md)<br>
 [LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)<br>
 [LTI - Rollen-Mapping >](../../manual_admin/administration/LTI_Role_Mapping.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)
 
 
 [Zum Seitenanfang ^](#lti)

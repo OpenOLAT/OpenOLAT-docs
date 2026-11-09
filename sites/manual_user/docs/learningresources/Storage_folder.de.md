@@ -2,15 +2,15 @@
 
 Der "Ablageordner" eines Kurses dient den Kursbesitzer:innen als Ablage der im Kurs verwendeten Dateien. Hierzu zählen z.B. alle verwendeten HTML-Seiten, Grafiken und Dateien, die über den Kursbaustein "Ordner" zur Verfügung gestellt werden. Die Dateien liegen sozusagen griffbereit im Hintergrund und können jederzeit über die entsprechenden Kursbausteine bereitgestellt werden. Sie öffnen den Ablageordner über `Kurs > Administration > Dateien > Ablageordner`. Diesen Weg sehen Kursbesitzer:innen, Administrator:innen, Lernressourcenverwalter:innen und Personen mit dem Kursrecht "Kurseditor".
 
-Teilnehmende haben keinen direkten, sondern nur einen indirekten Zugriff auf Dateien des Ablageordners. Um auf die Dateien zugreifen zu können, müssen diese über entsprechende [Kursbausteine](Course_Elements.de.md) verlinkt sein. Ein Ablageordner ist immer kursspezifisch.
+Teilnehmende haben keinen direkten, sondern nur einen indirekten Zugriff auf Dateien des Ablageordners. Um auf die Dateien zugreifen zu können, müssen diese über entsprechende [Kursbausteine](Course_Elements/index.de.md) verlinkt sein. Ein Ablageordner ist immer kursspezifisch.
 
-![Dateien und Ordner in der Tabellenansicht, Papierkorb und Aktionen für ausgewählte Einträge wie Zippen oder E-Mail versenden, darunter der belegte Speicher, Ablageordner eines Kurses](assets/storage_folder_files_v1_de.png){ class="shadow lightbox" }
+![Dateien und Ordner in der Tabellenansicht, Papierkorb und Aktionen für ausgewählte Einträge wie Zippen oder E-Mail versenden, darunter der belegte Speicher](assets/storage_folder_files_v1_de.png){ class="shadow lightbox" title="Ablageordner eines Kurses" }
 
 Im Ablageordner können Dateien hochgeladen, gelöscht, verschoben, kopiert, per E-Mail versendet, gesucht, gezippt, ausgepackt oder erstellt werden. Gelöschte Dateien und Ordner liegen im "Papierkorb", bis OpenOlat sie nach einer festgelegten Anzahl Tage endgültig löscht. Standardmässig können in OpenOlat HTML Dokumente erstellt werden. Sind in der System-Administration ergänzende Dokumenteneditoren aktiviert, können auch noch weitere Dateiformate erstellt werden: `Administration > Externe Werkzeuge > Dokumenteneditoren`. Beispielsweise können bei Verwendung von OnlyOffice auch Word, Excel oder PowerPoint Dateien erstellt werden.
 
 Werden Dateien hochgeladen, muss die Grössenbegrenzung sowohl für die einzelne Datei als auch das Speicherlimit des gesamten Ablageordners berücksichtigt werden. Dieses Limit gilt auch wenn die Dateien per [WebDAV](../basic_concepts/Using_WebDAV.de.md) in den Ablageordner hochgeladen werden. Die maximale Dateigrösse zeigt der Dialog "Dateien hinzufügen", den Sie über das Dropdown-Menü neben "Dateien hochladen" öffnen. Den belegten Speicher des Ablageordners sehen Sie unter der Dateiliste.
 
-![Maximale Dateigrösse für Upload unter der Auswahl der lokalen Datei, Dialog Dateien hinzufügen im Ablageordner](assets/storage_folder_upload_v1_de.png){ class="shadow lightbox" }
+![Maximale Dateigrösse für Upload unter der Auswahl der lokalen Datei](assets/storage_folder_upload_v1_de.png){ class="shadow lightbox" title="Dialog Dateien hinzufügen im Ablageordner" }
 
 Ferner kann der Ablageordner sinnvollerweise mit weiteren Unterordnern versehen werden und so eine systematische Strukturierung von kursbezogenen Dateien umgesetzt werden.
 
@@ -34,7 +34,7 @@ Sobald diese Checkbox aktiviert ist, ist der Pfad für andere Dateien im Ablageo
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? >](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.de.md)<br>
 [Kursbaustein "Ordner" >](Course_Element_Folder.de.md)<br>

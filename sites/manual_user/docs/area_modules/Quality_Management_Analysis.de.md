@@ -236,7 +236,7 @@ Haben Qualitätsmanager:innen Berechtigungen und Zugriff auf mehrere oder alle O
 ## Weiterführende Informationen {: #further_information}
 
 [Qualitätsmanagement: Datenerhebung >](Quality_Management_Data_Collections.de.md)<br>
-[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor >](../learningresources/Form_Editor/index.de.md)<br>
 [Qualitätsmanagement: Übersicht >](Quality_Management/index.de.md)<br>
 [Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
 [Qualitätsmanagement: Datenerhebungsgeneratoren >](Quality_Management_Data_Collection_Generators.de.md)

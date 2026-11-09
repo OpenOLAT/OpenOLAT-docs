@@ -55,7 +55,7 @@ Im erweiterten Filterpanel (Pfeil-Symbol) lässt sich die Auswahl zusätzlich mo
 
 Im Excel-Export der Mitgliederliste werden in der Spalte "Herkunft" alle zugehörigen Gruppen und Course-Planner-Elemente vollständig namentlich (kommagetrennt) ausgegeben. Jede Person steht dort in einer Zeile.
 
-Brauchen Sie die Rolle einer Person in jeder einzelnen Gruppe und in jedem Element des Course Planner, etwa um den Einsatz der Betreuer:innen abzurechnen, nutzen Sie den Export "Mitgliedschaften". Er trennt die Rollen in eigene Blätter und hat für jede Gruppe und jedes Element eine eigene Spalte mit der Rolle. Mehr dazu unter [Mitgliedschaften](Course_Archiving.de.md#memberships).
+Brauchen Sie die Rolle einer Person in jeder einzelnen Gruppe und in jedem Element des Course Planner, etwa um den Einsatz der Betreuer:innen abzurechnen, nutzen Sie den Export "Mitgliedschaften". Er trennt die Rollen in eigene Blätter und hat für jede Gruppe und jedes Element eine eigene Spalte mit der Rolle. Mehr dazu unter [Mitgliedschaften](Course_Archiving/index.de.md#memberships).
 
 
 ### Benutzerinformationen bearbeiten {: #edit_user_info}
@@ -67,14 +67,14 @@ Wenn Sie eine Person aus der Liste auswählen, erhalten Sie weitere Informatione
 Es gibt drei spezifische Kursrollen:
 
   * **Besitzer:in**<br>
-Besitzer:innen haben alle Rechte innerhalb eines Kurses und können auf alle Menüs der [Kurs-Administration](../learningresources/Administration.de.md) zugreifen. Sie legen die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person, die einen Kurs anlegt, ist automatisch Kursbesitzer:in. Kursbesitzer:innen können dem Kurs auch weitere Besitzer:innen hinzufügen.
+Besitzer:innen haben alle Rechte innerhalb eines Kurses und können auf alle Menüs der [Kurs-Administration](Administration/index.de.md) zugreifen. Sie legen die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person, die einen Kurs anlegt, ist automatisch Kursbesitzer:in. Kursbesitzer:innen können dem Kurs auch weitere Besitzer:innen hinzufügen.
 
   *  **Betreuer:in**<br>
 Betreuende begleiten in der Regel den laufenden Kurs, sind jedoch bei der Erstellung nicht involviert. Kursbetreuer:innen haben Zugriff auf das Bewertungswerkzeug, die To-dos, die Datenerhebungsvorschau und die Statistiken. Sofern ein Unterlagenordner für Betreuende aktiviert wurde, sehen sie diesen ebenfalls in der Administration. Betreuende bewerten auch direkt im Kurs. Je nach Konfiguration im Kurseditor haben sie eventuell auch Zugriff auf weitere Optionen und Funktionen bestimmter Kursbausteine.
 
   *  **Teilnehmer:in**<br>
 Teilnehmer:innen sind in der Regel die Lernenden bzw. Personen, die an einem Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der von den Besitzer:innen bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen Zugriff auf die Kurs-Administration und die darin enthaltenen Menüs.
-In [Lernpfadkursen](../learningresources/Learning_path_course.de.md) sehen nur die Teilnehmenden die visualisierte Prozentanzeige rechts oben in der [Toolbar](../learningresources/Toolbar.de.md).
+In [Lernpfadkursen](Learning_path_course/index.de.md) sehen nur die Teilnehmenden die visualisierte Prozentanzeige rechts oben in der [Toolbar](../learningresources/Toolbar.de.md).
 
 Ein Kursmitglied kann in einem Kurs mehrere Rollen gleichzeitig besitzen. In diesem Fall erscheint in der Toolbar des Kurses bei der betreffenden Person die Option, die Rolle zu wechseln und den Kurs aus der Perspektive der jeweiligen Kursrolle zu betrachten.
 
@@ -187,7 +187,7 @@ Soll eine Person nur ein bestimmtes Werkzeug nutzen und sonst nicht betreuen, ve
 
 !!! warning "Achtung"
 
-    Gruppenbetreuer:innen erhalten grundsätzlich auch Zugang zum [Bewertungswerkzeug](Assessment_tool_overview.de.md) und können alle Mitglieder der Gruppe auch bewerten. Ferner dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alles, was im Kurs für Betreuende freigegeben ist.
+    Gruppenbetreuer:innen erhalten grundsätzlich auch Zugang zum [Bewertungswerkzeug](Assessment_tool_overview/index.de.md) und können alle Mitglieder der Gruppe auch bewerten. Ferner dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alles, was im Kurs für Betreuende freigegeben ist.
 
 
 ### Vergabe zusätzlicher Rechte {: #additional_rights}
@@ -214,14 +214,14 @@ Bei Aktivierung dieser Rechte-Gruppe können auch Personen ohne Autorenrolle den
 
 #### Datenarchivierung {: #right_archiving}
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses mit dem Eintrag "Archivierung & Reports": `Kurs > Administration > Archivierung & Reports`. Mitglieder haben Zugriff auf alle Bereiche der [Archivierung](../learningresources/Course_Archiving.de.md) und damit auf sämtliche Kursdaten. Sie können Kursinhalte wie Forenbeiträge oder Testergebnisse aller Teilnehmenden archivieren.
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü "Administration" des Kurses mit dem Eintrag "Archivierung & Reports": `Kurs > Administration > Archivierung & Reports`. Mitglieder haben Zugriff auf alle Bereiche der [Archivierung](Course_Archiving/index.de.md) und damit auf sämtliche Kursdaten. Sie können Kursinhalte wie Forenbeiträge oder Testergebnisse aller Teilnehmenden archivieren.
 
 Die Vergabe dieser Berechtigung sollte aus Datenschutzgründen sorgfältig abgewogen werden.
 
 
 #### Bewertungs-Werkzeug {: #right_assessment_tool}
 
-Es erscheint zusätzlich das Menü "Administration" mit dem [Bewertungswerkzeug](Assessment_tool_overview.de.md).
+Es erscheint zusätzlich das Menü "Administration" mit dem [Bewertungswerkzeug](Assessment_tool_overview/index.de.md).
 
 Auch ohne als Betreuer:in im Kurs eingetragen zu sein, können so Mitglieder sämtliche Leistungen der Teilnehmenden bewerten und kommentieren. Mit diesem Recht starten und beenden sie im Bewertungswerkzeug auch eine Prüfung mit manuellem Start, siehe [Wer eine Prüfung manuell starten und beenden kann](../learningresources/Assessment_mode.de.md#start_stop_rights).
 
@@ -233,7 +233,7 @@ Auch ohne als Betreuer:in im Kurs eingetragen zu sein, können so Mitglieder sä
 
 #### Glossar-Werkzeug {: #right_glossary_tool}
 
-Dieses Recht erlaubt es den Mitgliedern, das Glossar des Kurses zu bearbeiten. Das ist nur sinnvoll, wenn dem Kurs ein [Glossar](../learningresources/Glossary.de.md) zugeordnet ist. Die Mitglieder öffnen es über das Werkzeug "Glossar" in der Toolbar.
+Dieses Recht erlaubt es den Mitgliedern, das Glossar des Kurses zu bearbeiten. Das ist nur sinnvoll, wenn dem Kurs ein [Glossar](Glossary/index.de.md) zugeordnet ist. Die Mitglieder öffnen es über das Werkzeug "Glossar" in der Toolbar.
 
 #### Statistiken {: #right_statistics}
 
@@ -260,7 +260,7 @@ Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und e
 
 ##  Bereich "Einwilligungen"  {: #consent}
 
-Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer:innen hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird eine Benutzer:in in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen entfernt.
+Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](Course_Settings/index.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer:innen hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird eine Benutzer:in in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen entfernt.
 
 [Zum Seitenanfang ^](#members_management)
 
@@ -269,9 +269,9 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
-[Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
-[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Übersicht >](Administration/index.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
 [Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
@@ -279,11 +279,11 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 [Kursbaustein "Themenvergabe" >](../learningresources/Course_Element_Topic_Assignment.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../learningresources/Assessment_mode.de.md)<br>
-[Glossar >](../learningresources/Glossary.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Glossar >](Glossary/index.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)
 
 **Weiterführend**<br>
 [Rollen und Rechte: Rollen zuweisen >](../basic_concepts/Assign_Roles.de.md)<br>

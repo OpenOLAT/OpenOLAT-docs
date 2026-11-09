@@ -206,7 +206,7 @@ Teilnehmende, die einer Prüfung zugeteilt wurden, werden zu Beginn der Prüfung
 
 ![Benachrichtigung "Aktuelle Prüfung" mit Kurs, Zeitraum, Sperrhinweisen und Countdown bis zum Prüfungsbeginn](assets/assessment_management_exam_info1_v1_de.png){ class="shadow lightbox" title="Benachrichtigung für Teilnehmende" }
 
-Ist bei "Art des Beginns/Endes" die Option "Manuell" gewählt, startet eine Person die Prüfung selbst, zum Beispiel die Aufsicht im Prüfungsraum, sobald alle bereit sind. Dafür zeigt die Übersicht des [Bewertungswerkzeugs](Assessment_tool_overview.de.md) im Bereich "Prüfungsmodus" bei der Prüfung den Button "Prüfung starten". Der Button erscheint ab dem Tag, an dem die Prüfung beginnt, und nicht erst zur konfigurierten Uhrzeit.
+Ist bei "Art des Beginns/Endes" die Option "Manuell" gewählt, startet eine Person die Prüfung selbst, zum Beispiel die Aufsicht im Prüfungsraum, sobald alle bereit sind. Dafür zeigt die Übersicht des [Bewertungswerkzeugs](Assessment_tool_overview/index.de.md) im Bereich "Prüfungsmodus" bei der Prüfung den Button "Prüfung starten". Der Button erscheint ab dem Tag, an dem die Prüfung beginnt, und nicht erst zur konfigurierten Uhrzeit.
 
 ![Menü Administration mit Eintrag Bewertungswerkzeug und Bereich Prüfungsmodus mit einer geplanten Prüfung und dem Button "Prüfung starten" markiert](assets/assessment_management_exam_coach_v2_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs · 2026.10.22" }
 
@@ -265,7 +265,7 @@ Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder g
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Mitgliederverwaltung >](Members_management.de.md)
 

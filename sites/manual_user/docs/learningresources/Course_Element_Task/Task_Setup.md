@@ -51,7 +51,7 @@ You use the "Release date" if the course element is to be opened and started onl
 
 The time entered under "Due date" refers to the deadline for picking up or starting the course element Task, not to the deadline for file upload (see [tab "Workflow"](#workflow)).
 
-Under "Learning time (minutes)" you enter how long participants are expected to need for the task. The entry is especially important if the progress in the course depends on the learning time of the course elements. You find this setting in the [course settings](../Course_Settings.md) under:<br>
+Under "Learning time (minutes)" you enter how long participants are expected to need for the task. The entry is especially important if the progress in the course depends on the learning time of the course elements. You find this setting in the [course settings](../Course_Settings/index.md) under:<br>
 `Course > Administration > Settings > Tab "Execution"`
 
 The "Learning Path" tab also defines which criterion must be met for the task to be considered "completed". The following options are available:
@@ -221,7 +221,7 @@ In the field "Type of sampling", select whether several participants can solve t
 
 In the field "Message for users" you provide general information for all participants on working on the tasks.
 
-If a participant chooses the wrong task by mistake during manual selection, course owners can allow them to reset it in the [assessment tool](../Assessment_tool_overview.md) with "Reset data of task":<br>
+If a participant chooses the wrong task by mistake during manual selection, course owners can allow them to reset it in the [assessment tool](../Assessment_tool_overview/index.md) with "Reset data of task":<br>
 `Course > Administration > Assessment tool > "Title of the course element" > "Name of the person"`
 
 ![The button "Reset data of task" below the workflow of a person allows them to reset the chosen task](../assets/course_element_task_reset_assessment_tool_v1_en.png){ class="shadow lightbox" title="Assessment tool, course element Task, person · 2026.11.03" }
@@ -298,7 +298,7 @@ If the option "With peer review" was selected, the page [Task with peer review](
 
 Here you define _how_ the participants are assessed. Should there be points? Should there be a passed/not passed for the course element? Should the point evaluation be linked to a rating scale, and if so, with which? Should coaches be able to provide further individual comments or documents? Decide in each case what suits your scenario.
 
-If assessments already exist for the task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](../Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](../Course_Elements/index.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 A form with a rubric can also be used for the assessment. The points can then be taken from the rubric form for the assessment of the course element. The rubric form included here in the "Grading" tab is to be distinguished from the rubric form used in the "Revisions and feedback" tab for peer reviews.
 
@@ -370,7 +370,7 @@ The prerequisite is that the awarding of points has been activated for the task 
 * whether the display should be anonymous and
 * from which point in time the high score list should be visible.
 
-For more information on this tab, which is available in most assessable course elements, see the page [Types of Course Elements](../Course_Elements.md).
+For more information on this tab, which is available in most assessable course elements, see the page [Types of Course Elements](../Course_Elements/index.md).
 
 [To the top of the page ^](#create_task)
 
@@ -407,11 +407,11 @@ If "Award badges" is switched on in the course settings, the course editor shows
 
 **Mentioned on this page**<br>
 [Course Element "Task" >](index.md)<br>
-[Course Settings >](../Course_Settings.md)<br>
+[Course Settings >](../Course_Settings/index.md)<br>
 [Task with peer review >](Task_Peer_Review.md)<br>
 [Course Element "Group Task" >](../Course_Element_Grouptask.md)<br>
-[Assessment tool - overview >](../Assessment_tool_overview.md)<br>
-[Course elements at a glance >](../Course_Elements.md)<br>
+[Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
+[Course elements at a glance >](../Course_Elements/index.md)<br>
 [Course Reminders >](../Course_Reminders.md)<br>
 [To-dos in the course >](../Course_todos.md)<br>
 [User tools: To-dos >](../../personal_menu/To-Dos.md)<br>

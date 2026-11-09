@@ -50,7 +50,7 @@ Die Kursbesitzer:innen können festlegen, wann und welchen Badge ihre Kursteilne
 
 Wenn Badges generell aktiviert sind, kann in jedem Kurs unter:<br>
 `Kurs > Administration > Einstellungen > Bewertung`<br>
-mit dem Schalter "Badges vergeben" im Abschnitt "Badges" die Vergabemöglichkeit von Badges kursbezogen aktiviert werden. Die Einstellungen beschreibt die Seite [Kurseinstellungen - Tab Bewertung](../../manual_user/learningresources/Course_Settings_Assessment.de.md#section_badges).
+mit dem Schalter "Badges vergeben" im Abschnitt "Badges" die Vergabemöglichkeit von Badges kursbezogen aktiviert werden. Die Einstellungen beschreibt die Seite [Kurseinstellungen - Tab Bewertung](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md#section_badges).
 
 Unter "Manuelle Vergabe von Badges ermöglichen" bestimmen Sie, wer Badges von Hand vergeben darf: "für Kursbesitzer" oder zusätzlich "für Betreuer".
 
@@ -157,7 +157,7 @@ b) automatisch auf Grund einer Bedingung und Berechnung<br>
 
 Die manuelle Vergabe ist für Kursbesitzer:innen und berechtigte Betreuer:innen möglich:<br>
 a) **im letzten Schritt des Wizards**<br> (durch Kursbesitzer:innen)<br>
-b) **im [Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview.de.md)**<br>
+b) **im [Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)**<br>
     (in der Teilnehmerliste Teilnehmer:innen markieren und dann auf den Button "Badge vergeben" klicken)<br>
 c) **in der Badge-Liste**<br>
     (unter `Kurs > Administration > Badges` den Badge auswählen und den Button "Manuell vergeben" verwenden)
@@ -277,14 +277,14 @@ Im Dialog bestätigen Sie mit einem Häkchen, dass Sie den Badge dauerhaft lösc
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Mit Tabellen arbeiten >](../../manual_user/basic_concepts/Table_Concept.de.md)<br>
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Wie mache ich Erfolge und Leistungen sichtbar? >](../achievements/achievements.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Badges >](../../manual_user/personal_menu/OpenBadges.de.md)
 
 **Weiterführend**<br>
 [Badges >](../../manual_user/learningresources/OpenBadges.de.md)<br>
-[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements.de.md)<br>
-[Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)
+[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements/index.de.md)<br>
+[Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course/index.de.md)
 
 [Zum Seitenanfang ^](#badges)

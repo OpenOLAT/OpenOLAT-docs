@@ -23,7 +23,7 @@ Sobald die Elemente über OpenOlat angelegt wurden, wird die Struktur automatisc
   * [Ordner von Gruppen](../../manual_user/groups/Using_Group_Tools.de.md) (Gruppenmitglieder)
   * [Ablageordner von Kursen](../../manual_user/learningresources/Storage_folder.de.md) (nur Kursbesitzer)
   * [Kursbaustein Ordner](../../manual_user/learningresources/Course_Element_Folder.de.md) (Kursmitglieder)
-  * [Ressourcenordner](../../manual_user/learningresources/Course_Settings.de.md#options) (nur Lernressourcenbesitzer)
+  * [Ressourcenordner](../../manual_user/learningresources/Course_Settings/index.de.md#options) (nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, ist abhängig von der jeweiligen Konfiguration.
 
@@ -136,7 +136,7 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 [Gruppenwerkzeuge nutzen >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
 [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
 [Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
-[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings/index.de.md)<br>
 [FUSE-Website >](http://fuse.sourceforge.net)
 
 [Zum Seitenanfang ^](#webdav)

@@ -75,8 +75,8 @@ Each selected option shows a section or a detail on the info page:
 
 - **Events**: the events of the course. The option is available if the [Event & absence management](../learningresources/Course_Settings_Execution.md#lecture_enabled) is switched on for the course.
 - **Meet your teachers**: the section with the persons who teach the course. You define who appears there under "Members displayed as teacher".
-- **Certificate**: under "Facts", the information that the course issues a certificate. The option is available if certificates are switched on in the ["Assessment" tab](../learningresources/Course_Settings_Assessment.md#section_certificate).
-- **Credit points**: under "Facts", the credit points the course awards. The option is available if credit points are switched on in the ["Assessment" tab](../learningresources/Course_Settings_Assessment.md#section_credit_points).
+- **Certificate**: under "Facts", the information that the course issues a certificate. The option is available if certificates are switched on in the ["Assessment" tab](Course_Settings_Assessment/index.md#section_certificate).
+- **Credit points**: under "Facts", the credit points the course awards. The option is available if credit points are switched on in the ["Assessment" tab](Course_Settings_Assessment/index.md#section_credit_points).
 
 If the course is managed by an external system, individual options can be greyed out. They can then only be changed in the managing system.
 
@@ -120,10 +120,10 @@ Here you can explain whether or which certification the participants receive aft
 [Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)
 
 **Further reading**<br>
 [Toolbar: Info page >](../learningresources/Info_page.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)
+[Course Settings >](Course_Settings/index.md)
 
 [To the top of the page ^](#tab_info)

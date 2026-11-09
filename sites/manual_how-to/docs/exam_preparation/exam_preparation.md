@@ -400,7 +400,7 @@ Coaches can then schedule inspections for individual participants in the assessm
 
 **Further reading**<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)
 
 [Go to the top of the page ^](#exam_preparation)
 

@@ -69,7 +69,7 @@ The group folders can also be accessed via File Hub, provided you have the neces
 
 ### Course archive {: #course_archive}
 
-In [course archives](../learningresources/Course_Archiving.md), participant data is stored separately from courses in zip files. The files and subfolders contained therein can be displayed in the File Hub.
+In [course archives](../learningresources/Course_Archiving/index.md), participant data is stored separately from courses in zip files. The files and subfolders contained therein can be displayed in the File Hub.
 
 
 ### Courses [:octicons-tag-16:{ title="from Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #courses}
@@ -115,7 +115,7 @@ Files from the course elements of a course are stored in the storage folder of a
 [Module Document Pool](../../manual_admin/administration/Modules_Document_pool.md)<br>
 [Sites and modules](../area_modules/index.md)<br>
 [Using Group Tools](../groups/Using_Group_Tools.md)<br>
-[Course administration - Archiving & Reports](../learningresources/Course_Archiving.md)<br>
+[Course administration - Archiving & Reports](../learningresources/Course_Archiving/index.md)<br>
 [Storage folder](../learningresources/Storage_folder.md)<br>
 [Resource folder](../learningresources/Resource_Folder.md)<br>
 [User tools: File Hub](../personal_menu/File_Hub.md)

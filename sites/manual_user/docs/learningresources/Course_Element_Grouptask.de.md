@@ -35,7 +35,7 @@ Bei der Gruppenaufgabe wählt jede Gruppe _eine_ Aufgabe. Sobald ein Gruppenmitg
 Ist die Option "E-Mail Bestätigung" aktiviert, erhalten alle Teilnehmenden der Gruppe eine Bestätigung per E-Mail, unabhängig davon, wer die Dateien erstellt, hochgeladen oder abgegeben hat.
 
 ## Tab Bewertung {: #tab_assessment}
-Sind für die Gruppenaufgabe bereits Bewertungen vorhanden, zeigt OpenOlat im Tab "Bewertung" die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für die Gruppenaufgabe bereits Bewertungen vorhanden, zeigt OpenOlat im Tab "Bewertung" die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements/index.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 Punkte und Feedback gelten für die ganze Gruppe und lassen sich für einzelne Gruppenmitglieder anpassen.
 
@@ -58,7 +58,7 @@ Alle Entscheidungen und Abgaben im Workflow gelten für die ganze Gruppe. Stimme
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Aufgabe betreuen >](Course_Element_Task/Task_Coaching.de.md)<br>
 [Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)
 

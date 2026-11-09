@@ -174,8 +174,8 @@ For detailed information on how to create a rubric form, see here:
 
 [The form element rubric >](../../manual_user/learningresources/Form_Element_Rubric.md)<br>
 [Forms in Rubric Scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
-[Insert layout >](../../manual_user/learningresources/Form_Editor.md#insert_layout)<br>
-[Insert content elements >](../../manual_user/learningresources/Form_Editor.md#insert_content_element)
+[Insert layout >](../../manual_user/learningresources/Form_Editor/index.md#insert_layout)<br>
+[Insert content elements >](../../manual_user/learningresources/Form_Editor/index.md#insert_content_element)
 
 
 ### Information in the header {: #step_3_header}
@@ -385,7 +385,7 @@ Above the list of participants in the course element "Assessment" and in the ass
 Enter "0 points" and "Not passed" in the course element "Assessment" and note in the field "Comment for other coaches" that the person did not attend.
 
 **Can participants download their assessment?**<br>
-Participants see their results in the course under `My course > Evidence of achievement`, provided that the [evidence of achievement](../../manual_user/learningresources/Course_Settings_Assessment.md#section_evidence_of_achievements) is switched on in the course settings. They receive a file to download if the course issues a [PDF certificate](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md#certificate) or if the examiners provide individual assessment documents.
+Participants see their results in the course under `My course > Evidence of achievement`, provided that the [evidence of achievement](../../manual_user/learningresources/Course_Settings_Assessment/index.md#section_evidence_of_achievements) is switched on in the course settings. They receive a file to download if the course issues a [PDF certificate](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md#certificate) or if the examiners provide individual assessment documents.
 
 **Is an online exam via video possible?**<br>
 Yes. Combine the course with a video conferencing system (e.g. the integrated BigBlueButton element) to conduct the exam remotely. The assessment remains in the assessment element.
@@ -405,14 +405,14 @@ Yes. Combine the course with a video conferencing system (e.g. the integrated Bi
 [Course Element "Assessment" >](../../manual_user/learningresources/Course_Element_Assessment.md)<br>
 [e-Assessment Administration: Levels/Grading >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
 [Forms in Rubric Scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
-[The Form Editor >](../../manual_user/learningresources/Form_Editor.md)<br>
+[The Form Editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>
-[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment/index.md)<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)
 
 **Further reading**<br>
-[Forms - Overview >](../../manual_user/learningresources/Form.md)<br>
+[Forms - Overview >](../../manual_user/learningresources/Form/index.md)<br>
 [How do I create a form learning resource? >](../create_a_form/create_a_form.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#oral_exam)

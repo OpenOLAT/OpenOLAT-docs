@@ -58,7 +58,7 @@ Durch die visualisierte Anzeige und die bereitgestellten Informationen erhalten 
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)
 
 **Weiterführend**<br>
-[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)
 
 [Zum Seitenanfang ^](#participant_view)

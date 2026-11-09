@@ -50,7 +50,7 @@ If OpenOlat exams are printed as handwritten exams, an additional page can be at
 
 ## Further information {: #further_information}
 
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
 [Coaching - Overview >](../../manual_user/area_modules/Coaching/index.md)<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
 

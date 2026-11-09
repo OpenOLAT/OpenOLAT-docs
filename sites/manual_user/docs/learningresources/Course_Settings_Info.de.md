@@ -73,8 +73,8 @@ Jede gewählte Option blendet auf der Infoseite einen Abschnitt oder eine Angabe
 
 - **Termine**: die Termine des Kurses. Die Option steht zur Wahl, wenn die [Termin- und Absenzenverwaltung](../learningresources/Course_Settings_Execution.de.md#lecture_enabled) für den Kurs eingeschaltet ist.
 - **Lernen Sie Ihre Dozent:innen kennen**: den Abschnitt mit den Personen, die den Kurs unterrichten. Wer dort erscheint, legen Sie unter "Als Dozenten angezeigte Mitglieder" fest.
-- **Zertifikat**: unter "Fakten" die Angabe, dass der Kurs ein Zertifikat ausstellt. Die Option steht zur Wahl, wenn im [Tab "Bewertung"](../learningresources/Course_Settings_Assessment.de.md#section_certificate) Zertifikate eingeschaltet sind.
-- **Kreditpunkte**: unter "Fakten" die Kreditpunkte, die der Kurs vergibt. Die Option steht zur Wahl, wenn im [Tab "Bewertung"](../learningresources/Course_Settings_Assessment.de.md#section_credit_points) Kreditpunkte eingeschaltet sind.
+- **Zertifikat**: unter "Fakten" die Angabe, dass der Kurs ein Zertifikat ausstellt. Die Option steht zur Wahl, wenn im [Tab "Bewertung"](Course_Settings_Assessment/index.de.md#section_certificate) Zertifikate eingeschaltet sind.
+- **Kreditpunkte**: unter "Fakten" die Kreditpunkte, die der Kurs vergibt. Die Option steht zur Wahl, wenn im [Tab "Bewertung"](Course_Settings_Assessment/index.de.md#section_credit_points) Kreditpunkte eingeschaltet sind.
 
 Wird der Kurs von einem externen System verwaltet, können einzelne Optionen ausgegraut sein. Sie lassen sich dann nur im verwaltenden System ändern.
 
@@ -118,10 +118,10 @@ Hier können Sie erläutern ob bzw. welche Bescheinigung die Teilnehmer:innen na
 [Modul Kurs >](../../manual_admin/administration/Modules_Course.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)
 
 **Weiterführend**<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Kurseinstellungen >](Course_Settings/index.de.md)
 
 [Zum Seitenanfang ^](#tab_info)

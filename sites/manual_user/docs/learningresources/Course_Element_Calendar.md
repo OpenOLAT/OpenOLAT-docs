@@ -21,7 +21,7 @@ By default, the owners and the coaches of the course create and edit events. All
 
 If the calendar shows a fixed semester week and the events contain links to course elements, it serves as an overview of the events and tasks of that week.
 
-In many courses, especially in [learning path courses](../learningresources/Learning_path_course.md), the calendar in the [toolbar](../learningresources/Course_Settings.md#toolbar) is the simpler choice. You switch it on under `Course > Administration > Settings > Toolbar`.
+In many courses, especially in [learning path courses](Learning_path_course/index.md), the calendar in the [toolbar](Course_Settings/index.md#toolbar) is the simpler choice. You switch it on under `Course > Administration > Settings > Toolbar`.
 
 !!! tip "Tip"
 
@@ -32,11 +32,11 @@ In many courses, especially in [learning path courses](../learningresources/Lear
 **Mentioned on this page**<br>
 [Toolbar: Overview >](../learningresources/Toolbar.md)<br>
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
+[Course Settings >](Course_Settings/index.md)
 
 **Further reading**<br>
 [Course Element "Appointment scheduling" >](../learningresources/Course_Element_Appointment_Scheduling.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)
+[Course elements at a glance >](Course_Elements/index.md)
 
 [To the top of the page ^](#cal)

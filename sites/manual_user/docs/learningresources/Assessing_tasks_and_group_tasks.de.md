@@ -147,7 +147,7 @@ Wenn nicht die ganze Gruppe bestanden hat oder nicht alle dieselbe Punktzahl erh
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)
 
 **Weiterführend**<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Bewertungswerkzeug: Tab Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)
 

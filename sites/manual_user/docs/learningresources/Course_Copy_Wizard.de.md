@@ -9,7 +9,7 @@ Mit Hilfe des Wizards können die zu kopierenden Elemente eines Kurses ausgewäh
 
 Im ersten Schritt «Allgemeine Einstellungen» wählen Sie den Kopiermodus «Automatisch» oder «Benutzerdefiniert». Im Kopiermodus «Benutzerdefiniert» können die zu kopierenden Kursobjekte ausgewählt und weitere Einstellungen, z.B. bezüglich der Mitgliederverwaltung und bestimmten Kursbausteinen vorgenommen werden. 
 
-Diese Funktion ist nur für [Lernpfadkurse](Learning_path_course.de.md) verfügbar. Einen herkömmlichen Kurs kopieren Sie für den nächsten Durchlauf unter `Kurs > Administration > Kopieren`, siehe [Kopieren (eines Kurses)](Course_Copy.de.md).
+Diese Funktion ist nur für [Lernpfadkurse](Learning_path_course/index.de.md) verfügbar. Einen herkömmlichen Kurs kopieren Sie für den nächsten Durchlauf unter `Kurs > Administration > Kopieren`, siehe [Kopieren (eines Kurses)](Course_Copy.de.md).
 
 
 !!! tip "Tipp"
@@ -41,7 +41,7 @@ Ist das [Modul «Räume»](../../manual_admin/administration/Modules_Rooms.de.md
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Kopieren (eines Kurses) >](Course_Copy.de.md)<br>
 [Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](../area_modules/Course_Planner_Rooms.de.md)

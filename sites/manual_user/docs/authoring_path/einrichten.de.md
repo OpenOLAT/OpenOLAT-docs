@@ -117,7 +117,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 
 Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
-- **Lernressource:** [Formular](../learningresources/Form.de.md), [Test](../learningresources/Course_Element_Test/index.de.md), [Fragebogen](../learningresources/Course_Element_Survey.de.md), [Wiki](../learningresources/Course_Element_Wiki.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
+- **Lernressource:** [Formular](../learningresources/Form/index.de.md), [Test](../learningresources/Course_Element_Test/index.de.md), [Fragebogen](../learningresources/Course_Element_Survey.de.md), [Wiki](../learningresources/Course_Element_Wiki.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -126,7 +126,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
-[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Formulare - Übersicht >](../learningresources/Form/index.de.md)<br>
 [Kursbaustein Test >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Kursbaustein Umfrage >](../learningresources/Course_Element_Survey.de.md)<br>
 [Kursbaustein Wiki >](../learningresources/Course_Element_Wiki.de.md)

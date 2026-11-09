@@ -16,7 +16,7 @@
 
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
     * ["How do I proceed when I create a test?"](../test_creation_procedure/test_creation_procedure.md)
-    * [Assessment tool - overview](../../manual_user/learningresources/Assessment_tool_overview.md)
+    * [Assessment tool - overview](../../manual_user/learningresources/Assessment_tool_overview/index.md)
 
 ---
 
@@ -185,9 +185,9 @@ If the course element has never been published, OpenOlat replaces the test learn
 
 ["How do I create my first OpenOlat course?" >](../my_first_course/my_first_course.md)<br>
 ["How do I proceed when I create a test?" >](../test_creation_procedure/test_creation_procedure.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
 [Assessment tool - reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)<br>
-[Creating Tests >](../../manual_user/learningresources/Test.md)<br>
+[Creating Tests >](../../manual_user/learningresources/Test/index.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 ["How do I prepare an online exam?" >](../exam_preparation/exam_preparation.md)
 

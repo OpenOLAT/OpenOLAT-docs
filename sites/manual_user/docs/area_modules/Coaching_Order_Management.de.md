@@ -94,6 +94,6 @@ Angezeigt werden die Kursbausteine "Aufgabe", bei denen die "Zuweisung Betreuend
 [Coaching: Reports >](../area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
 [Rollen >](../basic_concepts/Roles/index.de.md)<br>
-[Bewertungswerkzeug >](../learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug >](../learningresources/Assessment_tool_overview/index.de.md)
 
 [Zum Seitenanfang ^](#order_management)

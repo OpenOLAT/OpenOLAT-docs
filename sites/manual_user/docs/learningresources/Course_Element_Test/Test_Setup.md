@@ -27,7 +27,7 @@ Only when the selected condition is met does OpenOlat show the participants the 
 
 ## Tab "Test configuration" {: #tab_configuration}
 
-If assessments already exist for the test, OpenOlat displays the settings under "Grading configuration" in this tab as read-only: "Levels/Grading" and "Include in course assessment". With "Enable edit mode" you make them editable again, see [Read-only assessment configuration](../Course_Elements.md#assessment_config_read_only). The read-only mode only exists in the course element "Test", not in the self-test and not in the questionnaire. [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the test, OpenOlat displays the settings under "Grading configuration" in this tab as read-only: "Levels/Grading" and "Include in course assessment". With "Enable edit mode" you make them editable again, see [Read-only assessment configuration](../Course_Elements/index.md#assessment_config_read_only). The read-only mode only exists in the course element "Test", not in the self-test and not in the questionnaire. [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 If you have not yet selected a test, a corresponding message will appear in the "Test configuration" tab. You can now "Select" or "Import" an existing test or "Create" a new test.
 
@@ -55,11 +55,11 @@ Select one of the given rating scales, for example grades, levels or emojis, and
 
 #### Include in course assessment {: #include_in_course_assessment}
 
-If you switch off this toggle, the test is not taken into account in the course assessment of a [learning path course](../Learning_path_course.md). This setting is not available for a conventional course.
+If you switch off this toggle, the test is not taken into account in the course assessment of a [learning path course](../Learning_path_course/index.md). This setting is not available for a conventional course.
 
 #### Scaling factor for course assessment {: #score_scaling}
 
-The field appears if the course assessment adds up the points with weighting and "Include in course assessment" is switched on. OpenOlat multiplies the points of the test by this factor for the course assessment. More about this under [Course assessment with points: Sum with weighting](../Course_Settings_Assessment.md#evaluation_with_points_weighting).
+The field appears if the course assessment adds up the points with weighting and "Include in course assessment" is switched on. OpenOlat multiplies the points of the test by this factor for the course assessment. More about this under [Course assessment with points: Sum with weighting](../Course_Settings_Assessment/index.md#evaluation_with_points_weighting).
 
 
 ### Section Correction {: #section_correction}
@@ -162,7 +162,7 @@ Here you activate and configure a highscore overview for a test. This overview c
 
 First activate "Show Highscore". Under "Starting Date (optional)" you define from when the highscore appears. With "Relative dates" you specify this date relative to an event, for example the first course visit. With "Anonymize usernames", the participants appear in the highscore without first and last names.
 
-Below, you select what is displayed: "Congratulations title", "Podium", "Histogram" and "Top results listing". At least one display option must be activated. For the listing, you also define whether all or only the top users appear and how many. How the highscore works in course elements and when it appears is described on the page [Types of Course Elements](../Course_Elements.md#highscore).
+Below, you select what is displayed: "Congratulations title", "Podium", "Histogram" and "Top results listing". At least one display option must be activated. For the listing, you also define whether all or only the top users appear and how many. How the highscore works in course elements and when it appears is described on the page [Types of Course Elements](../Course_Elements/index.md#highscore).
 
 
 [To the top of the page ^](#config)
@@ -214,10 +214,10 @@ If owners of the course have activated the awarding of badges under `Course > Ad
 [Course Element "Test" >](index.md)<br>
 [Evaluate and manage tests >](Test_Results.md)<br>
 [Learning path course - Course editor >](../Learning_path_course_Course_editor.md)<br>
-[Course elements at a glance >](../Course_Elements.md)<br>
+[Course elements at a glance >](../Course_Elements/index.md)<br>
 [How do I prepare an online exam? >](../../../manual_how-to/exam_preparation/exam_preparation.md)<br>
-[Learning path course - Overview >](../Learning_path_course.md)<br>
-[Course Settings - Tab Assessment >](../Course_Settings_Assessment.md)<br>
+[Learning path course - Overview >](../Learning_path_course/index.md)<br>
+[Course Settings - Tab Assessment >](../Course_Settings_Assessment/index.md)<br>
 [Test question types >](../Test_question_types.md)<br>
 [Coaching - Assessment Orders >](../../area_modules/Coaching_Assessment_Orders.md)<br>
 [Test settings - Administration >](../Test_settings.md)<br>

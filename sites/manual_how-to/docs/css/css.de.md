@@ -63,7 +63,7 @@ Das Standard OpenOlat Layout lässt sich mit Hilfe von CSS beliebig anpassen und
 
 Um Ihre CSS-Datei für die Gestaltung Ihres OpenOlat Kurses nutzen zu können, müssen Sie im [Ablageordner](../../manual_user/learningresources/Storage_folder.de.md) des Kurses einen Unterordner `courseCSS` anlegen und dort die erstellte Kurs-CSS-Datei ablegen.
 
-Damit die Datei auch verwendet wird, wählen Kursbesitzer:innen sie in den [Kurseinstellungen](../../manual_user/learningresources/Course_Settings.de.md#layout) unter `Kurs > Administration > Einstellungen > Tab "Layout"` im Feld "Layoutvorlage für Kurs wählen" aus. Die Datei erscheint dort als "Aus Kursablageordner" mit ihrem Dateinamen. Wenn Sie später doch wieder zu dem Standard OpenOlat Layout zurückkehren möchten, wählen Sie die Option "Standard" aus, oder löschen einfach ihre CSS aus dem Ablageordner.
+Damit die Datei auch verwendet wird, wählen Kursbesitzer:innen sie in den [Kurseinstellungen](../../manual_user/learningresources/Course_Settings/index.de.md#layout) unter `Kurs > Administration > Einstellungen > Tab "Layout"` im Feld "Layoutvorlage für Kurs wählen" aus. Die Datei erscheint dort als "Aus Kursablageordner" mit ihrem Dateinamen. Wenn Sie später doch wieder zu dem Standard OpenOlat Layout zurückkehren möchten, wählen Sie die Option "Standard" aus, oder löschen einfach ihre CSS aus dem Ablageordner.
 
 ## Beispiele für individuelle Gestaltung {: #design}
 
@@ -158,7 +158,7 @@ Sollen die Überschriften angepasst werden, wählen Sie das Element `h2`. Auch h
 [W3Schools: CSS Tutorial >](http://www.w3schools.com/css/default.asp)<br>
 [Notepad++ >](https://notepad-plus-plus.org/)<br>
 [Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
-[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings/index.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../../manual_user/learningresources/Course_Element_HTML_Page.de.md)<br>
 [Customizing: Übersicht >](../../manual_admin/administration/Customizing.de.md)
 

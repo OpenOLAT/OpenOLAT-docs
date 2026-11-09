@@ -67,7 +67,7 @@ Wenn Sie den Test im neuen Format QTI 2.1 durchführen möchten, können Sie:
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)
 
 **Weiterführend**<br>
-[Tests erstellen >](Test.de.md)<br>
+[Tests erstellen >](Test/index.de.md)<br>
 [Fragenpool: Fragen verwenden >](../area_modules/Question_bank_possible_operations.de.md)
 
 [Zum Seitenanfang ^](#qti_conversion)

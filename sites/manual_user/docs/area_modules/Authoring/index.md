@@ -120,7 +120,7 @@ The "Type" filter offers, among others, the following labels: "Audio" as well as
 [Creating Courses >](../../../manual_user/learningresources/Creating_Course.md)<br>
 [How do I create my first OpenOlat course? >](../../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course elements in the Course editor >](../../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
-[Learning path course - Overview >](../../../manual_user/learningresources/Learning_path_course.md)
+[Learning path course - Overview >](../../learningresources/Learning_path_course/index.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)

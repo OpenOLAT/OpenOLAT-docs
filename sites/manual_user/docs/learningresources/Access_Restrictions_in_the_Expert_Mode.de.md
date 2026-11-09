@@ -4,7 +4,7 @@
 
 !!! info "Wichtig"
 
-    Die Tabs "Sichtbarkeit" und "Zugang" gibt es nur in herkömmlichen Kursen. Den Expertenmodus verwenden Sie deshalb nur dort, nicht in [Lernpfadkursen](Learning_path_course.de.md).
+    Die Tabs "Sichtbarkeit" und "Zugang" gibt es nur in herkömmlichen Kursen. Den Expertenmodus verwenden Sie deshalb nur dort, nicht in [Lernpfadkursen](Learning_path_course/index.de.md).
 
 Sie möchten festlegen, wer einen Kursbaustein sieht und öffnet, zum Beispiel erst ab einem Datum oder nur eine bestimmte Gruppe. In herkömmlichen Kursen legen Sie das in den Tabs "Sichtbarkeit" und "Zugang" des Kursbausteins fest. Dort sperren Sie den Kursbaustein zum Beispiel für Teilnehmende, geben ihn nur für bestimmte Gruppen frei oder schalten ihn ab einem Datum frei.
 
@@ -364,13 +364,13 @@ Für weitere Informationen zu Werten oder zur Anwendung von AAI-Attributen wende
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Spezifikation der AAI-Attribute (PDF) >](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)<br>
 [Switch AAI >](http://www.switch.ch/de/aai/)<br>
 [Deutsches Forschungsnetz (DFN-AAI) >](https://www.aai.dfn.de/der-dienst/attribute/)
 
 **Weiterführend**<br>
 [Kursbausteine im Kurseditor >](General_Configuration_of_Course_Elements.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)
 
 [Zum Seitenanfang ^](#zugriffsbeschrankungen-im-expertenmodus)

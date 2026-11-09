@@ -19,13 +19,13 @@ Klicken Sie danach auf "Rubrik-Formular auswählen". Im Dialog wählen Sie ein v
 
 ![Dialog Rubrik-Formular auswählen mit den eigenen Formularen im Tab Meine Einträge; der Haken in der Spalte Auswählen übernimmt ein Formular](assets/forms_in_rubric_scoring_select_form_v1_de.png){ class="shadow lightbox" title="Dialog Rubrik-Formular auswählen im Kurseditor · 2026.10.20" }
 
-Grundlage der Rubrik-Bewertung ist eine Lernressource Formular, der im [Formulareditor](../learningresources/Form_Editor.de.md) ein Element Rubrik hinzugefügt wurde.
+Grundlage der Rubrik-Bewertung ist eine Lernressource Formular, der im [Formulareditor](Form_Editor/index.de.md) ein Element Rubrik hinzugefügt wurde.
 
 Der Dialog öffnet im Tab "Meine Einträge" mit den Formularen, deren Besitzer:in Sie sind. In den Tabs "Alle Einträge" und "Suchen" finden Sie weitere Formulare, die Sie einbinden dürfen. Mit einem Klick auf das Häkchen in der Spalte "Auswählen" übernehmen Sie ein Formular in den Kursbaustein.
 
 Gibt es noch kein passendes Formular, legen Sie mit "Erstellen" eine neue Lernressource Formular an oder laden mit "Datei importieren" ein vorhandenes Formular hoch. Das neue Formular erscheint danach ebenfalls in der Liste und lässt sich auswählen.
 
-Ein neu erstelltes Formular enthält noch kein Element Rubrik. Fügen Sie es im Kurseditor über "Bearbeiten" hinzu oder direkt in der Lernressource im [Formulareditor](../learningresources/Form_Editor.de.md).
+Ein neu erstelltes Formular enthält noch kein Element Rubrik. Fügen Sie es im Kurseditor über "Bearbeiten" hinzu oder direkt in der Lernressource im [Formulareditor](Form_Editor/index.de.md).
 
 Ein Formular, das Sie im Kurseditor erstellen, ist eine eigene Lernressource. Sie finden es im [Autorenbereich](../area_modules/Authoring/index.de.md) unter "Meine Einträge" und können es in weiteren Kursen einbinden.
 
@@ -53,7 +53,7 @@ Ist ein Rubrik-Formular verknüpft, legen Sie im Tab "Bewertung" fest, was die T
 
     Ist "Bewertung mit Einstufung/Noten" eingeschaltet, bestimmt die Bewertungsskala das Bestehen. Die Option "Bestanden/Nicht bestanden ausgeben" erscheint dann nicht.
 
-**Bei Kurs-Bewertung berücksichtigen**: In Lernpfadkursen erscheint der Schalter, sobald "Punkte vergeben" oder "Bestanden/Nicht bestanden ausgeben" eingeschaltet ist. Ist er eingeschaltet, zählen Punkte und Bestehen des Kursbausteins für die Bewertung des ganzen Kurses, die Sie in den [Kurseinstellungen im Tab "Bewertung"](../learningresources/Course_Settings_Assessment.de.md) festlegen.
+**Bei Kurs-Bewertung berücksichtigen**: In Lernpfadkursen erscheint der Schalter, sobald "Punkte vergeben" oder "Bestanden/Nicht bestanden ausgeben" eingeschaltet ist. Ist er eingeschaltet, zählen Punkte und Bestehen des Kursbausteins für die Bewertung des ganzen Kurses, die Sie in den [Kurseinstellungen im Tab "Bewertung"](Course_Settings_Assessment/index.de.md) festlegen.
 
 **Individueller Kommentar**: Ist das Häkchen gesetzt, hinterlassen die Betreuenden zur Bewertung einen Kommentar, etwa um einen Punktabzug zu erklären.
 
@@ -63,7 +63,7 @@ Alle Optionen des Tabs beschreibt die Seite [Kursbaustein "Bewertung"](../learni
 
 ### Rubrik-Bewertung vornehmen
 
-Besitzer:innen und Betreuer:innen bewerten die Teilnehmenden bei geschlossenem Kurseditor, entweder direkt im Kursbaustein oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md). Im Kursbaustein zeigt der Tab "Teilnehmer:innen" alle Teilnehmenden mit Punkten, Bestanden und Status. Die Tabs über der Liste filtern die Personen, zum Beispiel "Zu korrigieren" oder "Freizugeben".
+Besitzer:innen und Betreuer:innen bewerten die Teilnehmenden bei geschlossenem Kurseditor, entweder direkt im Kursbaustein oder im [Bewertungswerkzeug](Assessment_tool_overview/index.de.md). Im Kursbaustein zeigt der Tab "Teilnehmer:innen" alle Teilnehmenden mit Punkten, Bestanden und Status. Die Tabs über der Liste filtern die Personen, zum Beispiel "Zu korrigieren" oder "Freizugeben".
 
 ![Liste der Teilnehmenden mit Punkten, Bestanden und Status je Person, darüber die Tabs von Alle bis Ausgenommen und die Schaltfläche Neue Massenbewertung starten](assets/forms_in_rubric_scoring_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen eines Kursbausteins Bewertung im Kurs · 2026.10.20" }
 
@@ -77,14 +77,14 @@ Mit "Neue Massenbewertung starten" bewerten Sie mehrere Personen in einem Durchg
 [Das Formular-Element Rubrik >](../learningresources/Form_Element_Rubric.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md)<br>
-[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor >](Form_Editor/index.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)
 
 **Weiterführend**<br>
-[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Formulare - Übersicht >](Form/index.de.md)<br>
 [Formulare in Kursen >](../learningresources/Forms_in_Courses.de.md)
 
 [Zum Seitenanfang ^](#formular-als-rubrik-bewertung)

@@ -55,7 +55,7 @@ Werden OpenOlat-Prüfungen als handschriftliche Prüfungen ausgegeben, kann eine
 
 ## Weiterführende Informationen {: #further_information}
 
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
 [Coaching - Übersicht >](../../manual_user/area_modules/Coaching/index.de.md)<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 

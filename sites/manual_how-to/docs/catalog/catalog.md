@@ -61,7 +61,7 @@ The OpenOlat catalog lists short descriptions of courses and learning resources.
 
 ![Categories as image tiles, one of them leads to a microsite with individual descriptions, below it Popular Courses with a marked tile for a single course](assets/catalog_community_v1_en.png){ class="shadow lightbox" title="Start page of a catalog" }
 
-The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the [settings](../../manual_user/learningresources/Course_Settings.md) (tab "Info" and tab "Metadata"). In most cases, it is the same information that participants find on the info page of a course.
+The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the [settings](../../manual_user/learningresources/Course_Settings/index.md) (tab "Info" and tab "Metadata"). In most cases, it is the same information that participants find on the info page of a course.
 
 The **layout** of the catalog is determined by the [system administrators](../../manual_admin/administration/Modules_Catalog_2.0.md). If, for example, it has been determined that an indication of the implementation format should be displayed in the catalog entries, OpenOlat retrieves this information from the authors' details under "Settings" and displays it in the designated place on the catalog tile.
 
@@ -229,7 +229,7 @@ In a launcher, only offers that contain a specific taxonomy keyword are displaye
 [Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0/index.md)<br>
 [Externally available catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
 [Catalog 1.0 >](../../manual_user/area_modules/catalog1.0.md)<br>
-[Course Settings >](../../manual_user/learningresources/Course_Settings.md)<br>
+[Course Settings >](../../manual_user/learningresources/Course_Settings/index.md)<br>
 [Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
 [Access configuration >](../../manual_user/learningresources/Access_configuration.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>

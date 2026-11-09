@@ -135,7 +135,7 @@ Die Schaltfläche erscheint nur, wenn die Durchführung die Stornierung zulässt
 Als Mitglied sehen Sie im Kasten "Mein Kurs" Ihren eigenen Stand, ohne den Kurs zu öffnen. Der Kasten zeigt nur die Angaben, die es für Sie gibt:
 
 - **Fortschritt:** Ihr Fortschritt in Prozent. Nur in einem Lernpfadkurs und erst, wenn OpenOlat einen Fortschritt erfasst hat.
-- **Status, Punkte und Note:** Ihr Ergebnis im Kurs. Dafür muss unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` der Schalter "Leistungsnachweis den Teilnehmer:innen anzeigen" eingeschaltet sein, siehe [Kurseinstellungen - Tab Bewertung](Course_Settings_Assessment.de.md#section_evidence_of_achievements). Der Status erscheint, wenn der Kurs "Bestanden" oder "Nicht bestanden" vergibt, die Punkte, wenn er Punkte vergibt. Die Note setzt zusätzlich voraus, dass Systemadministrator:innen die Noten in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Einstufung/Noten`.
+- **Status, Punkte und Note:** Ihr Ergebnis im Kurs. Dafür muss unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` der Schalter "Leistungsnachweis den Teilnehmer:innen anzeigen" eingeschaltet sein, siehe [Kurseinstellungen - Tab Bewertung](Course_Settings_Assessment/index.de.md#section_evidence_of_achievements). Der Status erscheint, wenn der Kurs "Bestanden" oder "Nicht bestanden" vergibt, die Punkte, wenn er Punkte vergibt. Die Note setzt zusätzlich voraus, dass Systemadministrator:innen die Noten in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Einstufung/Noten`.
 - **Gruppen:** die Gruppen des Kurses, in denen Sie Mitglied sind. Ein Klick auf den Namen öffnet die Gruppe.
 
 Unten im Kasten steht die Schaltfläche "Kurs verlassen", siehe [Kurs verlassen](#leave_course).
@@ -283,12 +283,12 @@ Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Toolbar: Mein Kurs >](../learningresources/Toolbar_My_Course.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 
 **Weiterführend**<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)
 
 [Zum Seitenanfang ^](#general_functions_info)

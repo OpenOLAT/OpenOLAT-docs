@@ -202,6 +202,6 @@ Mehr zu den Korrekturaufträgen im Coaching: [Coaching - Bewertungsaufträge](..
 [Coaching Tool >](../../manual_user/area_modules/Coaching/index.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)
 
 [zum Seitenanfang ^](#assessing_tests_anonymously)

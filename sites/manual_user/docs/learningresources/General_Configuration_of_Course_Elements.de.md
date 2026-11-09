@@ -25,7 +25,7 @@ können auch mehrere Kursbausteine desselben Typs verwendet und beliebig verscha
 sinnvoll und didaktisch durchdacht sein und die Usability für die
 Lernenden im Blick behalten.
 
-Um einen Kursbaustein dem Kurs hinzuzufügen wählen Sie im Kurseditor "Kursbaustein einfügen" und klicken auf den gewünschten [Kursbaustein](Course_Elements.de.md). Der gewählte Kursbaustein wird in der linken Navigation hinzugefügt. Dabei wird der ausgewählte Baustein grundsätzlich unterhalb des im Vorfeld ausgewählten bzw. angeklickten Bausteins hinzugefügt. Ist das oberste Element des Kurses ausgewählt, wird der neue Kursbaustein automatisch am Ende des Kurses eingefügt. Sie können Kursbausteine jederzeit mit "Drag&Drop" an den gewünschten Ort verschieben.
+Um einen Kursbaustein dem Kurs hinzuzufügen wählen Sie im Kurseditor "Kursbaustein einfügen" und klicken auf den gewünschten [Kursbaustein](Course_Elements/index.de.md). Der gewählte Kursbaustein wird in der linken Navigation hinzugefügt. Dabei wird der ausgewählte Baustein grundsätzlich unterhalb des im Vorfeld ausgewählten bzw. angeklickten Bausteins hinzugefügt. Ist das oberste Element des Kurses ausgewählt, wird der neue Kursbaustein automatisch am Ende des Kurses eingefügt. Sie können Kursbausteine jederzeit mit "Drag&Drop" an den gewünschten Ort verschieben.
 
 Platzieren Sie den Cursor vor dem Hinzufügen des Bausteins bereits an die
 gewünschte Stelle, dann brauchen Sie den neuen Baustein nicht noch einmal zu
@@ -38,7 +38,7 @@ Ist der Kursbaustein hinzugefügt, kann er weiter konfiguriert werden.
 
 Jeder Kursbaustein beinhaltet die Tabs "Titel und Beschreibung" sowie
 "Layout". Alle Kursbausteine eines herkömmlichen Kurses verfügen zusätzlich
-über die Tabs "Sichtbarkeit" und "Zugang". Dagegen verfügen die [Lernpfadkurse](Learning_path_course.de.md) zusätzlich
+über die Tabs "Sichtbarkeit" und "Zugang". Dagegen verfügen die [Lernpfadkurse](Learning_path_course/index.de.md) zusätzlich
 über den Tab "Lernpfad".
 
 Daneben gibt es einen oder mehrere Tabs zur individuellen Konfiguration des
@@ -241,9 +241,9 @@ Informationen zum Tab "Lernpfad" von Lernpfadkursen finden Sie auf der Seite
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
-[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Zugriffsbeschränkungen im Expertenmodus >](Access_Restrictions_in_the_Expert_Mode.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
@@ -251,7 +251,7 @@ Informationen zum Tab "Lernpfad" von Lernpfadkursen finden Sie auf der Seite
 
 **Weiterführend**<br>
 [Kurseditorwerkzeuge >](Using_additional_Course_Editor_Tools.de.md)<br>
-[Kurseinstellungen >](Course_Settings.de.md)
+[Kurseinstellungen >](Course_Settings/index.de.md)
 
 **youtube**<br>
 [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>)<br>

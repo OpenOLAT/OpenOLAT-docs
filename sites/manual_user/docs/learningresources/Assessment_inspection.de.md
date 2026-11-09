@@ -133,7 +133,7 @@ Pro Person finden Sie alles im **Aktivitätslog** unter den 3 Punkten am Ende ei
 **Weiterführend**<br>
 [Prüfungsverwaltung: Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Test Einstellungen - Administration >](Test_settings.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)
 
 [Zum Seitenanfang ^](#Assessment_inspection)

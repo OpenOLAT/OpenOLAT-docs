@@ -205,7 +205,7 @@ Participants who have been assigned to an exam are informed about the start of t
 
 ![Dialog "Scheduled exam" with course, time period, lock notices and the request to use the Safe Exam Browser](assets/assessment_management_exam_info1_v1_en.png){ class="shadow lightbox" title="Notification for participants" }
 
-If the option "Manual" is selected under "Start / End mode", a person starts the exam themselves, for example the supervisor in the exam room as soon as everyone is ready. For this, the overview of the [assessment tool](Assessment_tool_overview.md) shows the button "Start exam" next to the exam in the area "Assessment mode". The button appears from the day on which the exam begins, not only at the configured time.
+If the option "Manual" is selected under "Start / End mode", a person starts the exam themselves, for example the supervisor in the exam room as soon as everyone is ready. For this, the overview of the [assessment tool](Assessment_tool_overview/index.md) shows the button "Start exam" next to the exam in the area "Assessment mode". The button appears from the day on which the exam begins, not only at the configured time.
 
 ![Menu Administration with the entry Assessment tool and area Assessment mode with a scheduled exam and the button "Start exam" marked](assets/assessment_management_exam_coach_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool" }
 
@@ -265,7 +265,7 @@ The assessment mode is also ended when the corresponding course is ended or dele
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Members management >](Members_management.md)
 

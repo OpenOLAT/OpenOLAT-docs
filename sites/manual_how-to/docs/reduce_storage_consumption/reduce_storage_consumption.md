@@ -75,7 +75,7 @@ The quota for group folders is set in the group administration. It can be set on
 
 <br>
 
-The course elements "Forum", "File dialog", "Task", "Group task", "Page" and "Topic broker" have no quota of their own. Their usage appears in the storage usage evaluation under the "Internal without quota" filter; no limit can be set for them. The course administration describes the structure of the evaluation in the ["Storage usage"](../../manual_user/learningresources/Administration.md#storage_usage) section.
+The course elements "Forum", "File dialog", "Task", "Group task", "Page" and "Topic broker" have no quota of their own. Their usage appears in the storage usage evaluation under the "Internal without quota" filter; no limit can be set for them. The course administration describes the structure of the evaluation in the ["Storage usage"](../../manual_user/learningresources/Administration/index.md#storage_usage) section.
 
 <br>
 
@@ -223,7 +223,7 @@ Detailed information on the life cycles can be found at<br>
 
 **Mentioned on this page**<br>
 [Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
-[Course Administration: Overview >](../../manual_user/learningresources/Administration.md)<br>
+[Course Administration: Overview >](../../manual_user/learningresources/Administration/index.md)<br>
 [Files and Folders >](../../manual_admin/administration/Files_and_Folders.md)<br>
 [Delete (a course or learning resource) >](../../manual_user/learningresources/Course_Delete.md)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../lifecycle/lifecycle.md)

@@ -328,7 +328,7 @@ In the "Settings" section below the overview, you define whether every participa
 
 If an implementation needs more than a name and a billing address at booking, for example dietary requirements, prior knowledge or a membership number, forms collect the information needed when booking an offer. For each offer, you define which forms are used and in what order. An offer for working professionals can thus ask different questions than an offer of the same implementation for students. The answers are then available in three places: with the form in the implementation, with the booking order and with the membership of the person.
 
-A [form learning resource](../learningresources/Form.md) serves as the form. The section only exists for implementations in the Course Planner, not for offers of a course or another learning resource. Offers of the offer type PayPal Checkout do not use forms. Everyone who may edit the implementation can add, use and remove forms; the roles are listed in the [rights matrix](Course_Planner/index.md#rights_matrix).
+A [form learning resource](../learningresources/Form/index.md) serves as the form. The section only exists for implementations in the Course Planner, not for offers of a course or another learning resource. Offers of the offer type PayPal Checkout do not use forms. Everyone who may edit the implementation can add, use and remove forms; the roles are listed in the [rights matrix](Course_Planner/index.md#rights_matrix).
 
 A form is used in two stages. First you add it to the implementation, then you switch it on in the individual offer. A form that has only been added is not yet required at booking.
 
@@ -673,7 +673,7 @@ If you have already opened an implementation, you will also find the option to d
 [Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Catalog 2.0 - Sorting/order >](catalog2.0_sort_offers.md)<br>
-[Forms - Overview >](../learningresources/Form.md)<br>
+[Forms - Overview >](../learningresources/Form/index.md)<br>
 [Reports: Booking orders >](Reports_BookingOrders.md)<br>
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>

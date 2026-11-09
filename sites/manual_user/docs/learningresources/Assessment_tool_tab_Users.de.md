@@ -55,7 +55,7 @@ Um die Punkte für den Gesamtkurs zu sehen, wählen Sie links den Namen des Kurs
 
 ![Kursname links ausgewählt, Tab Teilnehmer:innen und Spalte Punkte mit den Punkten des Gesamtkurses je Person hervorgehoben](assets/assessment_tool_tab_users_points2_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kurses im Bewertungswerkzeug · 2026.10.22" }
 
-Vergebene Punkte zählen erst zur Gesamtpunktzahl des Kurses, wenn die Bewertung freigegeben ist. In einem Lernpfadkurs legen die Kurseinstellungen fest, ob Betreuer:innen eine Bewertung selbst freigeben dürfen: `Kurs > Administration > Einstellungen > Tab "Bewertung"`, Abschnitt "Berechtigungen", Option "Bewertung freigeben" unter "Betreuende können". Mehr dazu im [Abschnitt Berechtigungen](Course_Settings_Assessment.de.md#section_assessment_rights).
+Vergebene Punkte zählen erst zur Gesamtpunktzahl des Kurses, wenn die Bewertung freigegeben ist. In einem Lernpfadkurs legen die Kurseinstellungen fest, ob Betreuer:innen eine Bewertung selbst freigeben dürfen: `Kurs > Administration > Einstellungen > Tab "Bewertung"`, Abschnitt "Berechtigungen", Option "Bewertung freigeben" unter "Betreuende können". Mehr dazu im [Abschnitt Berechtigungen](Course_Settings_Assessment/index.de.md#section_assessment_rights).
 
 Damit Betreuer:innen trotzdem sehen, wie viele Punkte eine Person nach der Freigabe hat, stehen in der Bewertung der Person die noch nicht freigegebenen Punkte in Klammern. Diese Ansicht öffnet ein Klick auf den Namen der Person. In einem Lernpfadkurs zeigt die Zeile des Kurses zuerst die Gesamtpunktzahl aus den freigegebenen Bewertungen, dahinter in Klammern die Gesamtpunktzahl nach der Freigabe aller Bewertungen. [:octicons-tag-16:{ title="ab Release 20.1.2 (OO-8839)" }](https://track.frentix.com/issue/OO-8839)
 
@@ -99,11 +99,11 @@ Nach Auswahl einer oder mehrerer Personen eines Assessment Bausteins erscheinen 
 **Auf dieser Seite erwähnt**<br>
 [Lernende bewerten >](Assessment_of_learners.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Tests bewerten >](Assessing_tests.de.md)
 
 **Weiterführend**<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Das Bewertungsformular >](The_assessment_form.de.md)
 
 [Zum Seitenanfang ^](#assessment_tool_users)

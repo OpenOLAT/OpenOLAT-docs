@@ -35,11 +35,11 @@ Mit "Privat" tragen Besitzer:innen oder Personen mit dem Recht zur Mitgliederver
 
 Mit "Buchbare und offene Angebote" buchen Teilnehmende den Kurs oder die Lernressource selbst. Je nach Angebot geben sie dafür einen Zugangscode ein.
 
-[Details zum Tab "Freigabe" >](../learningresources/Course_Settings_Share.de.md)
+[Details zum Tab "Freigabe" >](Course_Settings_Share/index.de.md)
 
 ### Lernressource verlassen [:octicons-tag-16:{ title="ab Release 10.2 (OO-1405)" }](https://track.frentix.com/issue/OO-1405) {: #leave_learning_resource}
 
-Wer einen Kurs freiwillig belegt hat, möchte ihn oft auch selbst wieder verlassen können. Mit der Einstellung "Teilnehmer:innen können austreten" im Tab "Freigabe" legen Sie fest, ob und wann Teilnehmende das dürfen. Die Einstellung erscheint beim Verwendungszweck "Eigenständig", siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#sections_by_usage). Zur Wahl stehen:
+Wer einen Kurs freiwillig belegt hat, möchte ihn oft auch selbst wieder verlassen können. Mit der Einstellung "Teilnehmer:innen können austreten" im Tab "Freigabe" legen Sie fest, ob und wann Teilnehmende das dürfen. Die Einstellung erscheint beim Verwendungszweck "Eigenständig", siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#sections_by_usage). Zur Wahl stehen:
 
 * "Jederzeit": Teilnehmende können den Kurs jederzeit verlassen.
 * "Nach Kursenddatum oder Status "Beendet"": Wurde ein Durchführungszeitraum festgelegt, dürfen Teilnehmende den Kurs nach Ablauf dieses Zeitraums verlassen. Unabhängig davon dürfen sie den Kurs verlassen, sobald er den Status "Beendet" hat. Ohne Durchführungszeitraum ist das Verlassen also erst im Status "Beendet" möglich. Bei sonstigen Lernressourcen heisst die Option "Status "Beendet"". [:octicons-tag-16:{ title="ab Release 20.3 (OO-9272)" }](https://track.frentix.com/issue/OO-9272)
@@ -53,7 +53,7 @@ Dürfen Teilnehmende den Kurs verlassen, wählen sie in der Kurs-Toolbar im Men�
 
 ### Administrative Freigabe
 
-Im Feld "Administrative Freigabe" ordnen Sie den Kurs einer oder mehreren Organisationen zu. Davon hängt ab, welche Personen mit einer administrativen Rolle auf den Kurs zugreifen und ihn im Autorenbereich finden. Was die einzelnen Rollen dürfen und welche Organisationen zur Auswahl stehen, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_share_admin_access).
+Im Feld "Administrative Freigabe" ordnen Sie den Kurs einer oder mehreren Organisationen zu. Davon hängt ab, welche Personen mit einer administrativen Rolle auf den Kurs zugreifen und ihn im Autorenbereich finden. Was die einzelnen Rollen dürfen und welche Organisationen zur Auswahl stehen, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#section_share_admin_access).
 
 Die Autor:innen der Organisationen, denen der Kurs zugeordnet ist, erhalten zusätzlich die Rechte, die Sie im Tab "Freigabe" unter "Autor:innen können" festlegen. Mit diesen Rechten sehen sie die Lernressource, sobald sie nicht mehr im Status "Vorbereitung" ist.
 
@@ -173,7 +173,7 @@ Unter `Kurs > Administration > Löschen` bzw. über das 3-Punkte-Menü ![Symbol 
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
 [PayPal Konfiguration >](../../manual_admin/administration/Payment_PayPal.de.md)<br>

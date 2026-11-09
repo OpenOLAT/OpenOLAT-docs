@@ -32,7 +32,7 @@ Mit dem Kursbaustein "Checkliste" fügen Sie eine Checkliste in Ihren Kurs ein. 
 
 In diesem Tab bestimmen Sie, ob ein Abgabedatum für die Checkliste wirksam sein soll und ob und wie die Teilnehmenden bewertet werden. Je nach gewählten Einstellungen stehen Ihnen unterschiedliche Bewertungsoptionen zur Verfügung. Später bewerten Sie entweder im Kurs bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) des Kurses.
 
-Der Tab gliedert sich in die Bereiche "Konfiguration der Checkliste", "Konfiguration Bewertung" und "Bewertungsformular". Sind für die Checkliste bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben das Abgabedatum unter "Konfiguration der Checkliste" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Der Tab gliedert sich in die Bereiche "Konfiguration der Checkliste", "Konfiguration Bewertung" und "Bewertungsformular". Sind für die Checkliste bereits Bewertungen vorhanden, zeigt OpenOlat die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleiben das Abgabedatum unter "Konfiguration der Checkliste" und der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements/index.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ### Konfiguration der Checkliste {: #checklist_configuration}
 
@@ -84,7 +84,7 @@ In Lernpfadkursen erscheint die Option, sobald "Punkte vergeben" oder "Bestanden
 
 #### Skalierungsfaktor für Kurs-Bewertung {: #score_scaling}
 
-Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Punkte vergeben" sowie "Bei Kurs-Bewertung berücksichtigen" eingeschaltet sind. OpenOlat multipliziert die Punkte der Checkliste für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](Course_Settings_Assessment.de.md#evaluation_with_points_weighting).
+Das Feld erscheint, wenn die Kurs-Bewertung die Punkte mit Gewichtung zusammenzählt und "Punkte vergeben" sowie "Bei Kurs-Bewertung berücksichtigen" eingeschaltet sind. OpenOlat multipliziert die Punkte der Checkliste für die Kurs-Bewertung mit diesem Faktor. Mehr dazu unter [Kursbewertung mit Punkten: Summe mit Gewichtung](Course_Settings_Assessment/index.de.md#evaluation_with_points_weighting).
 
 ### Bewertungsformular {: #assessment_form}
 
@@ -178,9 +178,9 @@ Im unteren Teil des Formulars legen Sie fest, ob der Strukturbaustein Bewertungs
 
 **Auf dieser Seite erwähnt**<br>
 [Bewertung von Kursbausteinen >](../learningresources/Assessment_of_course_modules.de.md)<br>
-[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)
 
 **Weiterführend**<br>

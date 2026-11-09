@@ -32,6 +32,6 @@ With the plus icon you add another link, with the trash icon you remove a link.
 **Further reading**<br>
 [Course Element "External Page" >](../learningresources/Course_Element_External_Page.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)
+[Course elements at a glance >](Course_Elements/index.md)
 
 [To the top of the page ^](#linklist)

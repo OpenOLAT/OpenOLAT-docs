@@ -17,7 +17,7 @@
 
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
     * ["How do I proceed when creating a test?"](../test_creation_procedure/test_creation_procedure.md)
-    * [Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)
+    * [Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview/index.md)
 
 
 ---
@@ -284,7 +284,7 @@ Which bulk actions appear depends on the configuration of the course element and
 **Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [How do I proceed when I create a test? >](../test_creation_procedure/test_creation_procedure.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
 [Coaching - Assessment Orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
 [Set up a test >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md)<br>
@@ -296,7 +296,7 @@ Which bulk actions appear depends on the configuration of the course element and
 [Assessment tool: Tab Participants >](../../manual_user/learningresources/Assessment_tool_tab_Users.md)<br>
 [Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
 [Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)<br>
-[Creating Tests >](../../manual_user/learningresources/Test.md)<br>
+[Creating Tests >](../../manual_user/learningresources/Test/index.md)<br>
 [Tests at course level >](../../manual_user/learningresources/Tests_at_course_level.md)<br>
 [Configure tests >](../../manual_user/learningresources/Configure_tests.md)<br>
 [Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>

@@ -54,10 +54,10 @@ Geben Sie durch einen geeigneten Kurztitel des Kursbausteins "E-Mail" Ihren Kurs
 
 !!! tip "Tipp"
 
-    Ein Element "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../learningresources/Course_Settings.de.md#toolbar).
+    Ein Element "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](Course_Settings/index.de.md#toolbar).
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Kurseinstellungen >](Course_Settings/index.de.md)
 
 [Zum Seitenanfang ^](#mail)

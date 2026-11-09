@@ -14,19 +14,19 @@ In OpenOlat, rubrics can be used, for example,
 
 * to query the degree of agreement on a question
 
-  ![Rubric with radio buttons rates statements on a five-point scale from Agree to Strongly disagree](assets/rubric_Beispiel1_EN.png){ class="shadow lightbox" }
+  ![Rubric with radio buttons rates statements on a five-point scale from Agree to Strongly disagree](assets/rubric_Beispiel1_EN.png){ class="shadow lightbox" title="Rubric when filling in, example degree of agreement" }
 
 <br>
 
 * to query characteristics between two extreme scales
 
-  ![Rubric with sliders between two scale ends, e.g. "In person" versus "Online" and "Alone" versus "With others"](assets/Rubrik_Beispiel2_EN.png){ class="shadow lightbox" }
+  ![Rubric with sliders between two scale ends, e.g. "In person" versus "Online" and "Alone" versus "With others"](assets/Rubrik_Beispiel2_EN.png){ class="shadow lightbox" title="Rubric when filling in, example two scale ends" }
 
 <br>
 
 * to create a valuation grid for learner actions.
 
-  ![Rubric grades a project on Content, Innovation and Technology, each on a scale of 1 to 5 points](assets/Rubrik_Beispiel3_EN.png){ class="shadow lightbox" }
+  ![Rubric grades a project on Content, Innovation and Technology, each on a scale of 1 to 5 points](assets/Rubrik_Beispiel3_EN.png){ class="shadow lightbox" title="Rubric when filling in, example grading grid" }
 
 <br>
 
@@ -34,19 +34,19 @@ In OpenOlat, rubrics can be used, for example,
 
 <br>
 
-  ![Self-assessment with sliders between Strength and Weakness for criteria such as Creativity, Problem solving and Spontaneity](assets/Rubrik_Beispiel4_EN.png){ class="shadow lightbox" }
+  ![Self-assessment with sliders between Strength and Weakness for criteria such as Creativity, Problem solving and Spontaneity](assets/Rubrik_Beispiel4_EN.png){ class="shadow lightbox" title="Rubric when filling in, example self-assessment" }
 
 * to award criteria related points
 
 <br>
 
-  ![Rubric awards 0 to 4 points per criterion, column labels combine a number and a rating word, e.g. "3 good"](assets/Rubrik_Beispiel5_EN.png){ class="shadow lightbox" }
+  ![Rubric awards 0 to 4 points per criterion, column labels combine a number and a rating word, e.g. "3 good"](assets/Rubrik_Beispiel5_EN.png){ class="shadow lightbox" title="Rubric when filling in, example points per criterion" }
 
 <br>
 
 * to assess other participants in a peer review and/or to carry out an assessment by coaches.
 
-  ![Rubric in a peer review form rates thesis and argumentation on a scale from -- to ++, with a comment field per question](assets/Rubrik_Peer-Review.png){ class="shadow lightbox" }
+  ![Rubric in a peer review form rates thesis and argumentation on a scale from -- to ++, with a comment field per question](assets/Rubrik_Peer-Review.png){ class="shadow lightbox" title="Rubric when filling in, example peer review" }
 
 <br>
 
@@ -57,7 +57,7 @@ Rubrics can be added to an OpenOlat form via "Add content" and then configured.
 
 ## Rubric configuration in form editor
 
-![Rubric configuration with column label including a value per column, and weight and move arrows per row, in the form editor](assets/Rubric_add_EN.png){ class="shadow lightbox" }
+![Rubric configuration with column label including a value per column, and weight and move arrows per row](assets/Rubric_add_EN.png){ class="shadow lightbox" title="Configuration of a rubric" }
 
 A rubric usually consists of rows and columns that must be labeled and defined in a meaningful way.
 
@@ -70,7 +70,7 @@ An edited rubric can therefore automatically receive a corresponding number of p
 
 The cross double arrow can be used to create a rubric with two ends.
 
-![Cross double arrow button highlighted at the top right of the column label, used to turn the rubric into one with two scale ends](assets/Rubric_scale_EN.png){ class="shadow lightbox" }
+![Cross double arrow button highlighted at the top right of the column label, used to turn the rubric into one with two scale ends](assets/Rubric_scale_EN.png){ class="shadow lightbox" title="Configuration of a rubric with two ends" }
 
 !!! info "Important"
 
@@ -78,7 +78,7 @@ The cross double arrow can be used to create a rubric with two ends.
 
 ### Rubric inspector settings
 
-![Tab "General" of the rubric inspector with type, steps, criteria description, comment per question, obligation and no-answer settings](assets/Rubrik_Inspector_20_en.png){ class="shadow lightbox" }
+![Type, steps, criteria description, comment per question, obligation and no-answer settings](assets/Rubrik_Inspector_20_en.png){ class="shadow lightbox" title="Tab General of the rubric inspector" }
 
 
 #### Tab "General"
@@ -94,7 +94,7 @@ The number of **steps** determines the number of columns or, in the case of star
 
 For rubrics of the type "Discrete with radio", the option **"Description of the criteria"** appears in addition. This makes it possible to create significantly more differentiated rubrics. If you activate the "Description of criteria" field, an input field can be activated via the pencil symbol, which allows you to enter a more specific description for each criterion.
 
-![Pencil icon opens an input field for a detailed description per rating criterion when "Description of the criteria" is activated](assets/Rubrik_Bewertungsfeld.png){ class="shadow lightbox" }
+![Pencil icon opens an input field for a detailed description per rating criterion when "Description of the criteria" is activated](assets/Rubrik_Bewertungsfeld.png){ class="shadow lightbox" title="Rubric inspector with description of the criteria" }
 
 If you activate the **"Comment per question"** field, users can leave a comment on their rating for each line of a rubric (free text field).
 
@@ -139,8 +139,8 @@ The distance between the rubric element and other form elements can be defined h
 [Question rules in forms](../learningresources/Form_Question_Rules.md)
 
 **Further reading**<br>
-[Forms - Overview](Form.md)<br>
-[The Form Editor](Form_Editor.md)<br>
-[Form elements](Form_Elements.md)
+[Forms - Overview](Form/index.md)<br>
+[The Form Editor](Form_Editor/index.md)<br>
+[Form elements](Form_Elements/index.md)
 
 [To the top of the page ^](#the-form-element-rubric)

@@ -40,7 +40,7 @@ Bitte unterscheiden Sie:
 
 **Weiterführend**<br>
 [Wiki erstellen](../learningresources/Wiki.de.md)<br>
-[Podcast: Übersicht](../learningresources/Podcast.de.md)
+[Podcast: Übersicht](Podcast/index.de.md)
 
 [zum Seitenanfang ^](#blog_create)
 

@@ -69,7 +69,7 @@ Auf die Gruppenordner kann auch via File Hub zugegriffen werden, sofern die Bere
 
 ### Kursarchiv {: #course_archive}
 
-In [Kursarchiven](../learningresources/Course_Archiving.de.md) werden Teilnehmerdaten separat von Kursen in zip-Dateien aufbewahrt. Die darin enthaltenen Dateien und Unterordner können im File Hub angezeigt werden.
+In [Kursarchiven](../learningresources/Course_Archiving/index.de.md) werden Teilnehmerdaten separat von Kursen in zip-Dateien aufbewahrt. Die darin enthaltenen Dateien und Unterordner können im File Hub angezeigt werden.
 
 
 ### Kurse [:octicons-tag-16:{ title="ab Release 19.0 (OO-7485)" }](https://track.frentix.com/issue/OO-7485){:target="_blank"} {: #courses}
@@ -115,7 +115,7 @@ Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses ab
 [Modul Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
 [Bereiche und Module](../area_modules/index.de.md)<br>
 [Gruppenwerkzeuge nutzen](../groups/Using_Group_Tools.de.md)<br>
-[Kursadministration - Archivierung & Reports](../learningresources/Course_Archiving.de.md)<br>
+[Kursadministration - Archivierung & Reports](../learningresources/Course_Archiving/index.de.md)<br>
 [Ablageordner](../learningresources/Storage_folder.de.md)<br>
 [Ressourcenordner](../learningresources/Resource_Folder.de.md)<br>
 [Persönliche Werkzeuge: File Hub](../personal_menu/File_Hub.de.md)

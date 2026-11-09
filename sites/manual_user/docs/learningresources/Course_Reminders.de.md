@@ -129,7 +129,7 @@ Diese Option wird nur angezeigt, wenn im Kurs "Zertifikat ausstellen" eingeschal
 _Beispiel_: Die Mail wird versandt 1 Tag nachdem ein Zertifikat ausgestellt wurde.
 
 * **Fortschritt**<br>
-Diese Option gibt es nur bei [Lernpfadkursen](../learningresources/Learning_path_course.de.md).
+Diese Option gibt es nur bei [Lernpfadkursen](Learning_path_course/index.de.md).
 OpenOlat versendet die Erinnerung abhängig vom prozentualen Kursfortschritt der Teilnehmenden, wie er in den Einstellungen der Kurs-Administration konfiguriert wurde.<br>
 _Beispiel_: Teilnehmende, die mindestens 80% eines Kurses erfolgreich erledigt haben, erhalten eine Motivationsmail, um noch bald die letzten 20% zu erledigen.
 
@@ -407,7 +407,7 @@ Mit "Erinnerung jetzt senden" lösen Sie eine Erinnerung sofort aus, ohne auf di
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Kursbaustein "Forum" >](Course_Element_Forum.de.md)<br>
 [Persönliche Werkzeuge: Abonnements >](../personal_menu/Subscriptions.de.md)<br>
-[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Wie können Betreuer:innen über den Lernfortschritt der Kursteilnehmer:innen informiert werden? >](../../manual_how-to/progress_information/progress_information.de.md)<br>
 [Modul Kurserinnerungen >](../../manual_admin/administration/Modules_Course_Reminders.de.md)
 

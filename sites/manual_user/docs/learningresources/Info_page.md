@@ -30,7 +30,7 @@ What the printout contains and what it leaves out: [Print the info page or downl
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
 
 **Further reading**<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)
 

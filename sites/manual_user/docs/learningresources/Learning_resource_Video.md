@@ -63,7 +63,7 @@ How to set up the info page is described in the section [Set up info page](../le
 
 ### Tab "Share"
 
-On the "Share" tab, you specify whether the Video learning resource is embedded in a course or used as a standalone resource. If you select the option "Standalone" under "Usage", you also define how people can book the video. For more information, see the page [Course settings - Tab Share](../learningresources/Course_Settings_Share.md).
+On the "Share" tab, you specify whether the Video learning resource is embedded in a course or used as a standalone resource. If you select the option "Standalone" under "Usage", you also define how people can book the video. For more information, see the page [Course settings - Tab Share](Course_Settings_Share/index.md).
 
 If the [Video Collection](../area_modules/Video_Collection.md) is enabled in your instance, you also specify here whether the Video learning resource appears there.
 
@@ -341,7 +341,7 @@ If a quiz question is at 00:00 and both options are switched off, no button appe
 [Offer types >](../learningresources/Offer_Types.md)<br>
 [Course Element "Video" >](Course_Element_Video.md)<br>
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
-[Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
 [Video Collection >](../area_modules/Video_Collection.md)<br>
 [Catalog 1.0 >](../area_modules/catalog1.0.md)<br>
 [WebVTT: The Web Video Text Tracks Format >](https://w3c.github.io/webvtt/)<br>

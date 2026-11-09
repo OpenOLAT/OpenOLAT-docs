@@ -134,7 +134,7 @@ Sollen mehrere OpenOlat-Kurse über dieselbe Deployment-ID erreichbar sein, gebe
 [Eine Deployment-ID für mehrere Kurse >](../../manual_user/learningresources/LTI_Share_courses.de.md#deployment_id_several_courses)
 
 Mehr zum Abschnitt LTI 1.3 Zugangskonfiguration finden Sie im Benutzerhandbuch unter:<br>
-[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md#section_LTI)
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md#section_LTI)
 
 [Zum Seitenanfang ^](#LTI_integrate_course_into_moodle)
 
@@ -183,7 +183,7 @@ Im OpenOlat-Kurs können Sie den Test-Aufruf in der Mitgliederverwaltung verifiz
 [LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
 [LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)<br>
 [LTI Zugang zu einem Kurs konfigurieren >](../../manual_user/learningresources/LTI_Share_courses.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md)
 
 **Weiterführend**<br>
 [LTI-Zugang zu einer Gruppe konfigurieren >](../../manual_user/groups/LTI_Share_groups.de.md)<br>

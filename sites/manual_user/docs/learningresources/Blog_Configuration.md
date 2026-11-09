@@ -127,7 +127,7 @@ With "Posts are rateable" and "Posts are commentable" you define whether the pos
 [Create a blog >](../learningresources/Blog_Create.md)<br>
 [How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
 [Course Element "Blog" >](../learningresources/Course_Element_Blog.md)<br>
-[Blog: Overview >](../learningresources/Blog.md)<br>
+[Blog: Overview >](Blog/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Members management >](../learningresources/Members_management.md)
 

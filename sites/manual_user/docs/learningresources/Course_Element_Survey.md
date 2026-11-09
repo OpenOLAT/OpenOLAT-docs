@@ -19,19 +19,19 @@ If you have not yet created a form for your survey, the instructions [How do I c
 
 !!! info "Important"
 
-    You can edit a form that is linked in a course completely in the [form editor](../learningresources/Form_Editor.md) only until someone opens the form for the first time. After that, you can only change texts, for example to correct typing errors.
+    You can edit a form that is linked in a course completely in the [form editor](Form_Editor/index.md) only until someone opens the form for the first time. After that, you can only change texts, for example to correct typing errors.
 
 !!! warning "Attention"
 
     If you [reset](#reset_surveys) a survey, OpenOlat deletes all responses, including the entries saved with "Quick save" by participants who have not yet completed the survey. Whoever has the questionnaire open during the reset receives the message "Error while saving." at the next save, and the entries are lost.
 
-Further information on forms can be found on the page [Forms - Overview](../learningresources/Form.md).
+Further information on forms can be found on the page [Forms - Overview](Form/index.md).
 
 ## Forms in surveys {: #forms_in_surveys}
 
 In the course element "Survey", the learning resource "Form" serves as the questionnaire. Owners of the course include questionnaires in their course this way, and participants fill in the surveys provided. You define who sees the results in the user rights of the course element.
 
-OpenOlat ensures that participants fill in the survey only once. OpenOlat stores the results anonymised by default. If the answers are to be assigned to a person, add suitable form elements to the form in the [form editor](../learningresources/Form_Editor.md).
+OpenOlat ensures that participants fill in the survey only once. OpenOlat stores the results anonymised by default. If the answers are to be assigned to a person, add suitable form elements to the form in the [form editor](Form_Editor/index.md).
 
 ### Course editor {: #course_editor}
 
@@ -53,7 +53,7 @@ In the tab "Survey" you configure the survey. In the first step, you select an e
 
 ![Two own forms under My entries, the column Select with the checkmark per form is marked](assets/course_element_survey_choose_form_v1_en.png){ class="shadow lightbox" title="Dialog Choose form · 2026.11.03" }
 
-A newly created form does not yet contain any elements, questions or text fields. You add them in the [form editor](../learningresources/Form_Editor.md).
+A newly created form does not yet contain any elements, questions or text fields. You add them in the [form editor](Form_Editor/index.md).
 
 OpenOlat creates a form that you create directly in the course editor as a new learning resource "Form". You also find it in the [Authoring area](../area_modules/Authoring/index.md) under "My entries" and include it in further courses.
 
@@ -116,7 +116,7 @@ With "Print", "Export PDF" and "Export Excel" you print the contents of the four
 
 The same evaluation is also available under `Course > Administration > Survey statistics`.
 
-You also save the results via the [course archiving](../learningresources/Course_Archiving.md). There you bundle the results of several course elements in one ZIP file.
+You also save the results via the [course archiving](Course_Archiving/index.md). There you bundle the results of several course elements in one ZIP file.
 
 ### Reset surveys {: #reset_surveys}
 
@@ -128,16 +128,16 @@ Owners of the course reset a survey with "Reset" in the menu with the three dots
 
 **Mentioned on this page**<br>
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
-[The form editor >](../learningresources/Form_Editor.md)<br>
-[Forms - Overview >](../learningresources/Form.md)<br>
+[The form editor >](Form_Editor/index.md)<br>
+[Forms - Overview >](Form/index.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Modules: Overview >](../../manual_admin/administration/Modules.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)
+[Course administration - Archiving & Reports >](Course_Archiving/index.md)
 
 **Further reading**<br>
-[Form elements >](Form_Elements.md)<br>
-[Course elements at a glance >](Course_Elements.md)
+[Form elements >](Form_Elements/index.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)
 
 [To the top of the page ^](#course_element_survey)

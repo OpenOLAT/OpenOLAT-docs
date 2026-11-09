@@ -86,6 +86,6 @@ The ePortfolio can be switched on or off by system administrators. If it is acti
 ## Further information {: #further_information}
 
 [As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
-[Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management.md)
+[Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management/index.md)
 
 [To the top of the page ^](#e-assessments)

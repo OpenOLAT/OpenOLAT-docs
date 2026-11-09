@@ -111,7 +111,7 @@ The display is possible both as a list view and as a table view. In each case, f
 
 [Catalog 2.0: Overview >](catalog2.0/index.md)<br>
 [Catalog 2.0: Offers >](catalog2.0_angebote.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
+[Course Settings >](../learningresources/Course_Settings/index.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
 
 **youtube**<br>

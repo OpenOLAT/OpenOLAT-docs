@@ -19,7 +19,7 @@ Kursbesitzer:innen können die Funktion im Kurseditor aktivieren und dort konfig
 Gehen Sie in den Kurseditor und wählen Sie den Kursbaustein, für den die Einstufung aktiviert werden soll. Im Tab "Bewertung" können Sie die Einzelheiten einrichten
 (bei Tests im Tab "Test-Konfiguration"). Achten Sie darauf, dass auch "Punkte vergeben" aktiviert ist, und aktivieren Sie "Bewertung mit Einstufung/Noten".
 2. **Zuweisung wählen**<br>
-Sie können zwischen manueller und automatischer Zuweisung wählen. Bei der Zuweisung "Manuell" löst die betreuende Person die Zuordnung aus und macht sie für die Teilnehmenden sichtbar. Die offenen Fälle sammelt das Coaching unter [Bewertungsaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_open_classifications_scores) im Tab "Offene Einstufungen/Noten". Betreuende ohne Besitzrecht weisen dort zu, solange die Option "Einstufung/Noten zuweisen" eingeschaltet ist. Die Option ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](Course_Settings_Assessment.de.md#section_assessment_rights) aus oder ein, herkömmliche Kurse haben diesen Abschnitt nicht. Bei der Zuweisung "Automatisch bei Punktänderungen" vergibt OpenOlat die Note selbst.
+Sie können zwischen manueller und automatischer Zuweisung wählen. Bei der Zuweisung "Manuell" löst die betreuende Person die Zuordnung aus und macht sie für die Teilnehmenden sichtbar. Die offenen Fälle sammelt das Coaching unter [Bewertungsaufträge](../area_modules/Coaching_Assessment_Orders.de.md#tab_open_classifications_scores) im Tab "Offene Einstufungen/Noten". Betreuende ohne Besitzrecht weisen dort zu, solange die Option "Einstufung/Noten zuweisen" eingeschaltet ist. Die Option ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](Course_Settings_Assessment/index.de.md#section_assessment_rights) aus oder ein, herkömmliche Kurse haben diesen Abschnitt nicht. Bei der Zuweisung "Automatisch bei Punktänderungen" vergibt OpenOlat die Note selbst.
 
 3. **Bewertungsskala auswählen und anpassen**<br>
 Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie auf "Bewertungsskala bearbeiten". Es öffnet sich das Fenster "Bewertungsskala bearbeiten". Beim ersten Öffnen steht im Feld "Bewertungssystem" das [Standard-Bewertungssystem](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md#default_rating_system), das Systemadministrator:innen in der System-Administration für die Instanz festlegen. [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596) Mit "Ändern" wählen Sie ein anderes aktiviertes Bewertungssystem. Anschliessend passen Sie die Bewertungsskala weiter an. Änderungen an der Bewertungsskala gelten sofort, auch ohne Publikation des Kurses.
@@ -75,11 +75,11 @@ Um die Bewertungsskala nachträglich anzupassen oder um neue Noten zu vergeben, 
 
 **Auf dieser Seite erwähnt**<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [e-Assessment Administration: Einstufung/Noten >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)
 
 **Weiterführend**<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Das Bewertungsformular >](The_assessment_form.de.md)<br>
 [Tests auf Kursebene >](Tests_at_course_level.de.md)
 

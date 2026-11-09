@@ -291,7 +291,7 @@ Der beschriebene Weg zur Angabe des Verwendungszwecks dient auch zur Kontrolle. 
 Im Dialog "Kurs hinzufügen" der Durchführung gibt es dagegen keine Meldung. Ein Kurs ohne den Verwendungszweck "Verwendung im Course Planner" erscheint dort gar nicht. Fehlt ein Kurs in der Liste, prüfen Sie deshalb zuerst seinen Verwendungszweck (siehe [Schritt 7](#add_course_dialog)).
 
 Mehr zum Abschnitt Verwendung finden Sie im Benutzerhandbuch unter:<br>
-[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md#section_usage)
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md#section_usage)
 
 !!! tip "Tipp"
 
@@ -435,7 +435,7 @@ Mehr zur Automatisierung finden Sie im Benutzerhandbuch unter:<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md)<br>
 [Kopieren (eines Kurses) >](../../manual_user/learningresources/Course_Copy.de.md)
 
 **Weiterführend**<br>

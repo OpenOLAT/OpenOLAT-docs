@@ -41,7 +41,7 @@ Alle Lernressourcen verfügen über die Menüs:
 
 Je nach Lernressource kommen weitere Menüs hinzu.
 
-In den **Einstellungen** werden generelle Informationen zur Lernressource hinterlegt, Metadaten konfiguriert, die Freigabe eingerichtet, ein Katalogeintrag definiert und weitere lernressourcenspezifische Einstellungen vorgenommen. Weitere Informationen zu den einzelnen Einstellungen mit Blick auf Kurse finden Sie unter [Kurseinstellungen](../learningresources/Course_Settings.de.md).
+In den **Einstellungen** werden generelle Informationen zur Lernressource hinterlegt, Metadaten konfiguriert, die Freigabe eingerichtet, ein Katalogeintrag definiert und weitere lernressourcenspezifische Einstellungen vorgenommen. Weitere Informationen zu den einzelnen Einstellungen mit Blick auf Kurse finden Sie unter [Kurseinstellungen](Course_Settings/index.de.md).
 
 In der **Mitgliederverwaltung** können weitere Besitzer:innen der Lernressource hinzugefügt werden. Bei Lernressourcen mit dem Verwendungszweck "Eigenständig" können zusätzlich Betreuer:innen und Teilnehmer:innen hinzugefügt werden, siehe [Funktionskonzept Kurse und Lernressourcen](General_Functions_Concept.de.md) [:octicons-tag-16:{ title="ab Release 18.2 (OO-7277)" }](https://track.frentix.com/issue/OO-7277){:target="_blank"}.
 
@@ -66,7 +66,7 @@ Wiki, Blog, Podcast, Glossar, Ressourcenordner und Portfolio 2.0 Vorlage haben k
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
 [Funktionskonzept Kurse und Lernressourcen >](General_Functions_Concept.de.md)
 
 [Zum Seitenanfang ^](#detailed_view)

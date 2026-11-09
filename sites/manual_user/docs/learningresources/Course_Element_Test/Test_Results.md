@@ -43,7 +43,7 @@ After the replacement, the link "Show history" also appears next to the "Replace
 
 ## View and assess tests {: #assess}
 
-Anyone who wants to correct and assess completed tests finds all test runs of the course in the [assessment tool](../Assessment_tool_overview.md). Coaches and owners of the course have access to it: `Course > Administration > Assessment tool`. Navigate to the desired course element "Test". The "Participants" tab shows all participants with their processing status for this course element, and in the "Status" column you see whether an assessment is required. The overview already shows open assessments under "Open reviews".
+Anyone who wants to correct and assess completed tests finds all test runs of the course in the [assessment tool](../Assessment_tool_overview/index.md). Coaches and owners of the course have access to it: `Course > Administration > Assessment tool`. Navigate to the desired course element "Test". The "Participants" tab shows all participants with their processing status for this course element, and in the "Status" column you see whether an assessment is required. The overview already shows open assessments under "Open reviews".
 
 Alternatively, you view and manage the results of a specific test in the course with the course editor closed, directly at the respective course element "Test". To do this, switch to the "Participants" tab. As an owner of the course, you have access to further tabs there, such as "Preview", "Communication", "Reminders" and "Badges". Coaches also see "Preview" and "Communication", but not the "Reminders" tab, and the "Badges" tab only if the course allows coaches to award badges.
 
@@ -93,7 +93,7 @@ If participants in this course have worked on more than one of the test learning
 
 ## Archiving test results [:octicons-tag-16:{ title="from Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466) {: #archive}
 
-Anyone who wants to back up the test results of a course collectively, for example together with the results of other assessable course elements, archives them in the [course archiving](../Course_Archiving.md): `Course > Administration > Archiving & Reporting`.
+Anyone who wants to back up the test results of a course collectively, for example together with the results of other assessable course elements, archives them in the [course archiving](../Course_Archiving/index.md): `Course > Administration > Archiving & Reporting`.
 
 There you download the course results of all assessable course elements (including tests). Alternatively, you select only the results of specific tests and save only those. To do this, select `Course > Administration > Archiving & Reporting > Course archiving > Create archive`. In the wizard, select the archive type "Partial archive" and select the desired test elements in the step "Select course elements". In the step "Settings", choose either "Standard settings" or "Customised" for "Course elements" to adjust the archiving options.
 
@@ -120,9 +120,9 @@ You can also download the raw data of tests via the [test statistics](../Statist
 **Mentioned on this page**<br>
 [Course Element "Test" >](index.md)<br>
 [Set up a test >](Test_Setup.md)<br>
-[Assessment tool - overview >](../Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
 [Coaching - Overview >](../../area_modules/Coaching/index.md)<br>
-[Course administration - Archiving & Reports >](../Course_Archiving.md)<br>
+[Course administration - Archiving & Reports >](../Course_Archiving/index.md)<br>
 [Export tests >](../Test_export.md)<br>
 [Test statistics >](../Statistics_Test.md)
 

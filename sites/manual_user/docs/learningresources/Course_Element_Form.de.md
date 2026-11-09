@@ -50,7 +50,7 @@ Mit "Auswählen" öffnet sich der Dialog "Formular auswählen". Er zeigt unter "
 
 ![Eigene Formulare unter Meine Einträge, markiert ist die Spalte Auswählen mit dem Haken je Formular](assets/course_element_form_select_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Formular auswählen · 2026.11.03" }
 
-Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im [Formulareditor](../learningresources/Form_Editor.de.md) hinzu.
+Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im [Formulareditor](Form_Editor/index.de.md) hinzu.
 
 Erstellen Sie ein Formular im Kurseditor, legt OpenOlat automatisch eine neue Lernressource "Formular" an. Sie finden sie auch im [Autorenbereich](../area_modules/Authoring/index.de.md) unter "Meine Einträge" und können sie in weiteren Kursen und Kursbausteinen einbinden.
 
@@ -103,12 +103,12 @@ Mit "Speichern und abschliessen" geben Teilnehmende das fertig ausgefüllte Form
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
-[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor >](Form_Editor/index.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 
 **Weiterführend**<br>
 [Formulare in Kursen >](../learningresources/Forms_in_Courses.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)
+[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)
 
 [Zum Seitenanfang ^](#course_element_form)

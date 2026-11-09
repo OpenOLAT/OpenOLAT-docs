@@ -240,8 +240,8 @@ Siehe [Badges verifizieren >](../../manual_admin/administration/e-Assessment_ope
 
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
 [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Der OpenBadges-Standard >](https://www.imsglobal.org/activity/openbadges)
 
 [Zum Seitenanfang ^](#badges)

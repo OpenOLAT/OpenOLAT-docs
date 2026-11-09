@@ -23,7 +23,7 @@ Im Kursbaustein sehen Sie alle Schritte der Aufgabe (Workflow) untereinander, je
 
 !!! tip "Tipp"
 
-    Abonnieren Sie den Kursbaustein, dann informiert Sie OpenOlat per E-Mail über Änderungen. Die Benachrichtigung erreicht Sie, sobald eine Aktion abgeschlossen ist, nicht bei jedem Zwischenschritt. Wollen Sie die Einreichungen aller bewertbaren Kursbausteine im Blick behalten, abonnieren Sie stattdessen das [Bewertungswerkzeug](../Assessment_tool_overview.de.md).
+    Abonnieren Sie den Kursbaustein, dann informiert Sie OpenOlat per E-Mail über Änderungen. Die Benachrichtigung erreicht Sie, sobald eine Aktion abgeschlossen ist, nicht bei jedem Zwischenschritt. Wollen Sie die Einreichungen aller bewertbaren Kursbausteine im Blick behalten, abonnieren Sie stattdessen das [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md).
 
 
 
@@ -114,7 +114,7 @@ Der Schritt "Bewertung" zeigt die Leistungsübersicht mit Status, Punktestand un
 
 [Kursbaustein "Aufgabe" >](index.de.md)<br>
 [Aufgabe mit Peer-Review >](Task_Peer_Review.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
 [Ordnerkonzept >](../../basic_concepts/Folder_Concept.de.md)<br>
 [Aufgabe einrichten >](Task_Setup.de.md)<br>
 [Aufgabe betreuen >](Task_Coaching.de.md)

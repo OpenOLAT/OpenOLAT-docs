@@ -97,7 +97,7 @@ Geöffnet werden kann der Ordner anschliessend unter `Kurs > Administration > Un
 
 Wird ein ganzer Kurs archiviert oder nur aus einigen Kursbausteinen ein Teilarchiv erstellt, ist dieses Archiv im [File Hub](../personal_menu/File_Hub.de.md) im Ordner "Kursarchiv" abgelegt.
 
-[Zu den Details >](../learningresources/Course_Archiving.de.md)<br>
+[Zu den Details >](../learningresources/Course_Archiving/index.de.md)<br>
 [Zum Seitenanfang ^](#folders)
 
 
@@ -211,7 +211,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](../learningresources/Course_Settings_Options.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
 [Konzept des File Hub >](File_Hub_Concept.de.md)<br>
 [Allgemeines zur Suche >](Search_General/index.de.md)<br>
 [Installation guide >](../../manual_admin/installation/installGuide.md)

@@ -40,7 +40,7 @@ Please differentiate:
 
 **Further reading**<br>
 [Creating Wikis](../learningresources/Wiki.md)<br>
-[Podcast: Overview](../learningresources/Podcast.md)
+[Podcast: Overview](Podcast/index.md)
 
 [To the top of the page ^](#blog_create)
 

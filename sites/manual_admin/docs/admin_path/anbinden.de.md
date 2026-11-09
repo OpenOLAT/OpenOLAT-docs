@@ -41,9 +41,9 @@ Die Verwaltung von Prüfungsmodus und Prüfungseinsicht.
 
     **Wie Nutzende es nennen:** Prüfungsmanagement, Bewertungsverwaltung, Bewertungsmanagement, Prüfungsauswertung
 
-    **Nicht verwechseln mit «[Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview.de.md)»:** Das Bewertungswerkzeug bewertet Leistungen, die Prüfungsverwaltung legt Prüfungsfenster und Einsichten fest.
+    **Nicht verwechseln mit «[Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)»:** Das Bewertungswerkzeug bewertet Leistungen, die Prüfungsverwaltung legt Prüfungsfenster und Einsichten fest.
 
-    [Im Handbuch lesen](../../manual_user/learningresources/Assessment_Management.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Pr%C3%BCfungsverwaltung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../../manual_user/learningresources/Assessment_Management/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Pr%C3%BCfungsverwaltung%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -158,8 +158,8 @@ Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war:
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
+[Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management/index.de.md)<br>
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../administration/External_Tools_AI.de.md)<br>
 [LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)<br>

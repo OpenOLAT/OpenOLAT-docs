@@ -111,7 +111,7 @@ Die Darstellung ist sowohl als Listen- als auch als Tabellenansicht möglich. An
 
 [Katalog 2.0: Übersicht >](catalog2.0/index.de.md)<br>
 [Katalog 2.0: Angebote >](catalog2.0_angebote.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings/index.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
 
 **youtube**<br>

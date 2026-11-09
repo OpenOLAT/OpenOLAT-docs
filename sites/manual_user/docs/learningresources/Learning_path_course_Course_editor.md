@@ -155,9 +155,9 @@ Zoom | Visit course element
 [Course Element "Selection" >](../learningresources/Course_Element_Selection.md)
 
 **Further reading**<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Learning path course - Participant view >](../learningresources/Learning_path_course_Participant_view.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)
+[Course Settings >](Course_Settings/index.md)
 
 **youtube**<br>
 [Ausnahmen im Lernpfad](<https://www.youtube.com/embed/MWWUmma2Cr0>)

@@ -24,7 +24,7 @@ Ist der Kurs Teil einer Durchführung, die mit einem Zertifikatsprogramm verknü
 
 Als Autor:in wählen Sie beim Feld "PDF Zertifikat erzeugen" aus, ob das Zertifikat **manuell** von Betreuer:innen ausgestellt wird, und/oder **automatisch** nach Bestehen des Kurses.
 
-Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies im [Bewertungswerkzeug](Assessment_tool_overview.de.md) in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen. Dort lassen sich ausgestellte Zertifikate auch später einsehen und verwalten. Nach dem Ausstellen meldet OpenOlat "Das Zertifikat wird in ein paar Sekunden erstellt." und erzeugt die PDF-Datei im Hintergrund.
+Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies im [Bewertungswerkzeug](Assessment_tool_overview/index.de.md) in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen. Dort lassen sich ausgestellte Zertifikate auch später einsehen und verwalten. Nach dem Ausstellen meldet OpenOlat "Das Zertifikat wird in ein paar Sekunden erstellt." und erzeugt die PDF-Datei im Hintergrund.
 
 ### Wo sind die Zertifikate einsehbar? {: #certificate_view}
 
@@ -218,7 +218,7 @@ Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 
 **Auf dieser Seite erwähnt**<br>
 [Course Planner: Zertifikatsprogramme >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](../personal_menu/Certificates.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
 [Zertifikatsbot >](https://tools.vcrp.de/zertifikatsbot/)<br>
@@ -226,7 +226,7 @@ Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 [Lernpfadkurs - Kurseditor >](Learning_path_course_Course_editor.de.md)
 
 **Weiterführend**<br>
-[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Bewertungswerkzeug - Daten zurücksetzen >](Assessment_tool_reset_data.de.md)
 
 [Zum Seitenanfang ^](#certificate_and_recertification)

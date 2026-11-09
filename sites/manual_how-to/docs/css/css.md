@@ -63,7 +63,7 @@ The standard OpenOlat layout can be customized and changed as desired using CSS.
 
 To be able to use your CSS file for the design of your OpenOlat course, you must create a subfolder `courseCSS` in the [storage folder](../../manual_user/learningresources/Storage_folder.md) of the course and store the course CSS file there.
 
-To ensure that the file is also used, course owners select it in the [course settings](../../manual_user/learningresources/Course_Settings.md#layout) under `Course > Administration > Settings > Tab "Layout"` in the field "Choose layout for this course". The file appears there as "from course folder" with its file name. If you want to return to the standard OpenOlat layout later, select the option "Default", or simply delete your CSS from the storage folder.
+To ensure that the file is also used, course owners select it in the [course settings](../../manual_user/learningresources/Course_Settings/index.md#layout) under `Course > Administration > Settings > Tab "Layout"` in the field "Choose layout for this course". The file appears there as "from course folder" with its file name. If you want to return to the standard OpenOlat layout later, select the option "Default", or simply delete your CSS from the storage folder.
 
 ## Examples for individual design {: #design}
 
@@ -157,7 +157,7 @@ If the headings are to be adjusted, select the element `h2`. Here, too, all prop
 [W3Schools: CSS Tutorial >](http://www.w3schools.com/css/default.asp)<br>
 [Notepad++ >](https://notepad-plus-plus.org/)<br>
 [Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>
-[Course Settings >](../../manual_user/learningresources/Course_Settings.md)<br>
+[Course Settings >](../../manual_user/learningresources/Course_Settings/index.md)<br>
 [Course Element "HTML page" >](../../manual_user/learningresources/Course_Element_HTML_Page.md)<br>
 [Customizing: Overview >](../../manual_admin/administration/Customizing.md)
 

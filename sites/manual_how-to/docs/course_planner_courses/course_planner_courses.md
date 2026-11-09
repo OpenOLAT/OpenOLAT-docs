@@ -288,7 +288,7 @@ The method described for specifying the usage also serves for verification. If a
 The "Add course" dialog of the implementation, however, shows no message. A course without the usage "Use in Course Planner" does not appear there at all. If a course is missing from the list, check its usage first (see [step 7](#add_course_dialog)).
 
 You can find more about the Usage section in the user manual under:<br>
-[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md#section_usage)
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md#section_usage)
 
 !!! tip "Tip"
 
@@ -432,7 +432,7 @@ You can find more about the automation in the user manual under:<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
-[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md)<br>
 [Copy (a course) >](../../manual_user/learningresources/Course_Copy.md)
 
 **Further reading**<br>

@@ -125,7 +125,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Teststatistiken >](../learningresources/Statistics_Test.de.md)<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
 [Wie können Betreuer:innen über den Lernfortschritt der Kursteilnehmer:innen informiert werden? >](../../manual_how-to/progress_information/progress_information.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview/index.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 
 [Zum Seitenanfang ^](#auswerten)

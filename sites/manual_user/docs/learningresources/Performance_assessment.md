@@ -2,7 +2,7 @@
 
 ## Assessment
 
-A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The following course elements can be viewed and assessed in the [assessment tool](../learningresources/Assessment_tool_overview.md). All settings are described on the page of the respective course element:
+A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The following course elements can be viewed and assessed in the [assessment tool](Assessment_tool_overview/index.md). All settings are described on the page of the respective course element:
 
 * [Task](../learningresources/Course_Element_Task/index.md) (manual assessment)
 * [Group task](../learningresources/Course_Element_Grouptask.md) (manual assessment)
@@ -13,18 +13,18 @@ A number of course elements can be used either for summative or formative assess
 * [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.md) (automatic assessment, transferred from SCORM module)
 * [Test](../learningresources/Course_Element_Test/index.md) (automatic & manual assessment)
 
-Refer to the chapter ["Test"](../learningresources/Test.md) for more information on creating and configuring tests.
+Refer to the chapter ["Test"](Test/index.md) for more information on creating and configuring tests.
 
 ## Evidence of Achievement & Certificate
 
 An evidence of achievement is a confirmation of an existing efficiency control and shows e.g. taken tests or assessed tasks per course. Certificates of achievement must be activated for each course and can be retrieved if there are assessable course elements in the course and one such course element has already been completed and assessed. Evidence of achievement is available to participants in the personal menu and in the course, while coaches can access it in the
 [Coaching](../area_modules/Coaching/index.md) tool. Printable certificates can be issued with the course setting
-["Evidence of achievement"](../learningresources/Course_Settings.md).
+["Evidence of achievement"](Course_Settings/index.md).
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
 [Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
@@ -33,10 +33,10 @@ An evidence of achievement is a confirmation of an existing efficiency control a
 [Course Element "LTI Page" >](../learningresources/Course_Element_LTI_Page.md)<br>
 [Course Element "SCORM 1.2" >](../learningresources/Course_Element_SCORM_Learning_Content.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
-[Creating Tests >](../learningresources/Test.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
+[Creating Tests >](Test/index.md)<br>
 [Coaching - Overview >](../area_modules/Coaching/index.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)
+[Course Settings >](Course_Settings/index.md)
 
 **Further reading**<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>

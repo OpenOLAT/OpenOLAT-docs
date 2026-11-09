@@ -89,7 +89,7 @@ The conventional course has three tabs on the structure element that do not exis
 
 !!! note "Can't find the «Score» tab?"
 
-    Then you are working in a learning path course. There you set the assessment of the course in a different place: `Course > Administration > Settings > Assessment`, section "Assessment settings". You find the description under [Course settings - Assessment tab](../learningresources/Course_Settings_Assessment.md#section_assessment_settings).
+    Then you are working in a learning path course. There you set the assessment of the course in a different place: `Course > Administration > Settings > Assessment`, section "Assessment settings". You find the description under [Course settings - Assessment tab](Course_Settings_Assessment/index.md#section_assessment_settings).
 
 Conventional courses have the "Score" tab. Here the structure element adds up the points of other assessable course elements, for example from Assessment, Task, Group task, SCORM 1.2, Checklist, LTI page, Portfolio task and Test, and displays "Passed" or "Failed". The summarized results appear when you click on the course element Structure in the running course.
 
@@ -139,7 +139,7 @@ For participants, the performance summary is as follows:
 
 The configuration in the tab "Score" cannot always be changed right away. As soon as assessments exist for the structure element, OpenOlat displays the whole legend "Combined assessment" as read-only, that is the calculation of the score and of the passed status. [:octicons-tag-16:{ title="from Release 20.3.7 / 21.0.1 (OO-9646)" }](https://track.frentix.com/issue/OO-9646) [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
-With the button "Enable edit mode" in the message above the legend, you make the settings editable again. The read-only mode works this way in all assessable course elements. When it applies, which messages OpenOlat displays and how long the edit mode lasts is described in the section [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only).
+With the button "Enable edit mode" in the message above the legend, you make the settings editable again. The read-only mode works this way in all assessable course elements. When it applies, which messages OpenOlat displays and how long the edit mode lasts is described in the section [Read-only assessment configuration](Course_Elements/index.md#assessment_config_read_only).
 
 !!! info "Important"
 
@@ -166,12 +166,12 @@ In conventional courses, you protect the course element "Structure" and thus its
 [Course Reminders >](../learningresources/Course_Reminders.md)<br>
 [Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)
 
 **Further reading**<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
-[Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#course_element_structure)
 

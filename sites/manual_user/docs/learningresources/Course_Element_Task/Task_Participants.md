@@ -21,7 +21,7 @@ In the course element you see all steps of the task (workflow) one below the oth
 
 !!! tip "Tip"
 
-    Subscribe to the course element, then OpenOlat informs you by e-mail about changes. The notification reaches you as soon as an action has been completed, not at every intermediate step. If you want to keep track of the submissions of all assessable course elements, subscribe to the [assessment tool](../Assessment_tool_overview.md) instead.
+    Subscribe to the course element, then OpenOlat informs you by e-mail about changes. The notification reaches you as soon as an action has been completed, not at every intermediate step. If you want to keep track of the submissions of all assessable course elements, subscribe to the [assessment tool](../Assessment_tool_overview/index.md) instead.
 
 
 ## Download assigned tasks {: #process_task_download}
@@ -110,7 +110,7 @@ The step "Grading" shows the performance summary with status, score and classifi
 
 [Course Element "Task" >](index.md)<br>
 [Task with peer review >](Task_Peer_Review.md)<br>
-[Assessment tool - overview >](../Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
 [Folder concept >](../../basic_concepts/Folder_Concept.md)<br>
 [Set up a task >](Task_Setup.md)<br>
 [Supervise a task >](Task_Coaching.md)

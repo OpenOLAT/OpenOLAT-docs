@@ -78,6 +78,6 @@ The generated Excel files are listed in the "Export history" section. Each file 
 [Coaching: Assessment orders >](../../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Groups >](../../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../../manual_user/area_modules/Coaching_Order_Management.md)<br>
-[Assessment tool >](../../../manual_user/learningresources/Assessment_tool_overview.md)
+[Assessment tool >](../../learningresources/Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#reports)

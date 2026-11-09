@@ -19,7 +19,7 @@ Course owners can activate the function in the course editor and configure it th
 Go to the course editor and select the course element for which the levels should be activated. In the "Assessment" tab you can set up the details
 (for tests, in the "Test configuration" tab). Make sure that "Score granted" is also activated, and activate "Levels/Grading".
 2. **Select assignment**<br>
-You can choose between manual and automatic assignment. With the assignment "Manually by coach", the coach triggers the assignment and makes it visible to the participants. The open cases are collected by the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_classifications_scores) in the tab "Open levels/gradings". Coaches without ownership assign there as long as the option "assign Levels/Grading" is switched on. The option is switched on by default. In learning path courses, course owners switch it off or on under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](Course_Settings_Assessment.md#section_assessment_rights); conventional courses do not have this section. With the assignment "Automatically on score change" OpenOlat assigns the grade itself.
+You can choose between manual and automatic assignment. With the assignment "Manually by coach", the coach triggers the assignment and makes it visible to the participants. The open cases are collected by the coaching under [Assessment orders](../area_modules/Coaching_Assessment_Orders.md#tab_open_classifications_scores) in the tab "Open levels/gradings". Coaches without ownership assign there as long as the option "assign Levels/Grading" is switched on. The option is switched on by default. In learning path courses, course owners switch it off or on under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](Course_Settings_Assessment/index.md#section_assessment_rights); conventional courses do not have this section. With the assignment "Automatically on score change" OpenOlat assigns the grade itself.
 
 3. **Select and customize the rating scale**<br>
 Define the minimum and maximum points (save) and click "Edit rating scale". The window "Edit rating scale" opens. When you open it for the first time, the field "Rating system" contains the [default rating system](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md#default_rating_system) that system administrators set for the instance in the system administration. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596) With "Change" you select another enabled rating system. Then you further customize the rating scale. Changes of the rating scale take effect immediately, even without publishing the course.
@@ -75,11 +75,11 @@ To adjust the rating scale afterwards or to assign new grades, click the button 
 
 **Mentioned on this page**<br>
 [Coaching - Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
-[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [e-Assessment Administration: Levels/Grading >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)
 
 **Further reading**<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [The assessment form >](The_assessment_form.md)<br>
 [Tests at course level >](Tests_at_course_level.md)
 

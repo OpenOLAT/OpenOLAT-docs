@@ -61,7 +61,7 @@ Der OpenOlat-Katalog listet Kurzbeschreibungen zu Kursen und Lernressourcen auf.
 
 ![Kategorien als Bildkacheln, eine davon führt zu einer Microsite mit Einzelbeschreibungen, darunter Beliebte Kurse mit einer markierten Kachel für einen einzelnen Kurs](assets/katalog_community_v1_de.png){ class="shadow lightbox" title="Startseite eines Katalogs" }
 
-Die Angaben in den Kurzbeschreibungen stammen aus den Angaben, die Autor:innen beim Erstellen eines Kurses oder einer Lernressource in den [Einstellungen](../../manual_user/learningresources/Course_Settings.de.md) machen (Tab "Info" und Tab "Metadaten"). Meistens sind es Angaben, die Teilnehmende auch auf der Infoseite zu einem Kurs finden.
+Die Angaben in den Kurzbeschreibungen stammen aus den Angaben, die Autor:innen beim Erstellen eines Kurses oder einer Lernressource in den [Einstellungen](../../manual_user/learningresources/Course_Settings/index.de.md) machen (Tab "Info" und Tab "Metadaten"). Meistens sind es Angaben, die Teilnehmende auch auf der Infoseite zu einem Kurs finden.
 
 Die **Gestaltung** des Katalogs legen [Systemadministrator:innen](../../manual_admin/administration/Modules_Catalog_2.0.de.md) fest. Wurde z.B. bestimmt, dass in den Katalogeinträgen eine Angabe zum Durchführungsformat angezeigt werden soll, holt sich OpenOlat diese Information aus den Angaben der Autor:innen unter "Einstellungen" und zeigt sie an der vorgesehenen Stelle auf der Katalogkachel an.
 
@@ -229,7 +229,7 @@ In einem Launcher werden (von den Systemadministrator:innen so festgelegt) nur A
 [Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0/index.de.md)<br>
 [Extern verfügbarer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Katalog 1.0 >](../../manual_user/area_modules/catalog1.0.de.md)<br>
-[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](../../manual_user/learningresources/Course_Settings/index.de.md)<br>
 [Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../../manual_user/learningresources/Access_configuration.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>

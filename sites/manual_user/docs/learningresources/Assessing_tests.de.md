@@ -299,7 +299,7 @@ Der Tab "Vorschau" zeigt den Test aus Sicht der Teilnehmenden. Der Tab "Kommunik
 [Erinnerungen >](Course_Reminders.de.md)
 
 **Weiterführend**<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Tests auf Kursebene >](Tests_at_course_level.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Bewertungswerkzeug: Tab Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)

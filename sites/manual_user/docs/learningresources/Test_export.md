@@ -211,7 +211,7 @@ For each question, the column "Score" contains the score of the question. For au
 
 #### Sheet "Export information" [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812) {: #export_information}
 
-Whoever processes exported raw data further or stores it outside OpenOlat recognises from the sheet "Export information" which course and which course element the file comes from, and when and by whom it was created. The sheet is the last sheet in every Excel file with test results, whether the file comes from "Export results", from "Download raw data" in the [test statistics](Statistics_Test.md) or from the [course archiving](Course_Archiving.md). It has the columns "Information" and "Value" and these rows:
+Whoever processes exported raw data further or stores it outside OpenOlat recognises from the sheet "Export information" which course and which course element the file comes from, and when and by whom it was created. The sheet is the last sheet in every Excel file with test results, whether the file comes from "Export results", from "Download raw data" in the [test statistics](Statistics_Test.md) or from the [course archiving](Course_Archiving/index.md). It has the columns "Information" and "Value" and these rows:
 
 Row | Content
 ---------|----------
@@ -244,14 +244,14 @@ If the test does not belong to a course, for example in the test statistics of a
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Test statistics >](Statistics_Test.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
-[Course administration - Archiving & Reports >](Course_Archiving.md)<br>
+[Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
 [Evaluate and manage tests >](../learningresources/Course_Element_Test/Test_Results.md)
 
 **Further**<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[Creating Tests >](../learningresources/Test.md)<br>
-[Test editor >](Test_editor_QTI_2.1.md)<br>
+[Creating Tests >](Test/index.md)<br>
+[Test editor >](Test_editor_QTI_2.1/index.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [Configure test questions >](Configure_test_questions.md)<br>
 [Configure tests >](Configure_tests.md)<br>

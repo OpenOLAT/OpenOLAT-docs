@@ -113,7 +113,7 @@ Wie Punkte, Erfolgsstatus, Rangliste, Badges und Zertifikat aufeinander aufbauen
 Standardmässig werden in OpenOlat Fragen in Tests mit Punkten bewertet.
 Die Punkte werden dann zur Punktesumme des Kursbausteins addiert. Wenn mehrere Kursbausteine mit Punktevergabe in einem Kurs vorhanden sind, bildet OpenOlat daraus die Gesamtpunktzahl des Kurses: in Lernpfadkursen je nach Einstellung im Tab "Bewertung" der Kurseinstellungen als Summe, als Summe mit Gewichtung oder als Durchschnitt. In herkömmlichen Kursen legen Sie die Gesamtpunktzahl im Tab "Punkte" des obersten Kursbausteins fest. Anhand der Gesamtpunktzahl des Kurses kann dann z.B. ein "Kurs bestanden" erteilt werden.
 
-[Mehr zu Punkten >](../../manual_user/learningresources/Course_Settings_Assessment.de.md#section_assessment_settings)<br>
+[Mehr zu Punkten >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md#section_assessment_settings)<br>
 [Zum Seitenanfang ^](#achievements)
 
 ---
@@ -129,7 +129,7 @@ Im Tab "HighScore" schalten Sie "Highscore anzeigen" ein und wählen, was die Ra
 
 Die Rangliste einer Struktur und die des ganzen Kurses zeigt OpenOlat auf der automatischen Übersicht. Wählen Sie dafür im Tab "Übersicht" "Automatische Übersicht" oder "Automatische Übersicht mit Vorschau".
 
-[Mehr zur Rangliste >](../../manual_user/learningresources/Course_Elements.de.md#highscore)<br>
+[Mehr zur Rangliste >](../../manual_user/learningresources/Course_Elements/index.de.md#highscore)<br>
 [Zum Seitenanfang ^](#achievements)
 
 ---
@@ -195,7 +195,7 @@ Stellt ein Zertifikatsprogramm ein Zertifikat aus, kann eine bestimmbare Anzahl 
 
 Für eine Rezertifizierung kann zur Voraussetzung gemacht werden, dass eine bestimmte Anzahl Kreditpunkte vorher erworben wurde.
 
-[Mehr zu Kreditpunkten >](../../manual_user/learningresources/Course_Settings_Assessment.de.md#section_credit_points)<br>
+[Mehr zu Kreditpunkten >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md#section_credit_points)<br>
 [Zum Seitenanfang ^](#achievements)
 
 ---
@@ -305,7 +305,7 @@ Schaltet frei: Tab "HighScore" (grau, solange der Kursbaustein keine Punkte verg
 Der Ablauf folgt der Bewertung von unten nach oben. Bei einem unerwarteten Ergebnis prüfen Sie die Ebenen in derselben Reihenfolge.
 
 1. **Bewertbare Kursbausteine**<br>
-    Vergeben Sie in den bewertbaren Kursbausteinen Punkte oder "Bestanden". Sie finden sie im Kurseditor: `Kurs > Administration > Kurseditor`. Beim Kursbaustein "Bewertung" schalten Sie dazu im Tab "Bewertung" "Punkte vergeben" ein, ein Test vergibt die Punkte seiner Fragen. Im Lernpfadkurs zählt ein Kursbaustein für den Kurs, wenn "Bei Kurs-Bewertung berücksichtigen" eingeschaltet ist. Sobald ein Kursbaustein Punkte vergibt, ist sein Tab "HighScore" aktiv. Welche Kursbausteine bewertbar sind, zeigt die Seite [Kursbausteine im Überblick](../../manual_user/learningresources/Course_Elements.de.md#wissensuberprufung).
+    Vergeben Sie in den bewertbaren Kursbausteinen Punkte oder "Bestanden". Sie finden sie im Kurseditor: `Kurs > Administration > Kurseditor`. Beim Kursbaustein "Bewertung" schalten Sie dazu im Tab "Bewertung" "Punkte vergeben" ein, ein Test vergibt die Punkte seiner Fragen. Im Lernpfadkurs zählt ein Kursbaustein für den Kurs, wenn "Bei Kurs-Bewertung berücksichtigen" eingeschaltet ist. Sobald ein Kursbaustein Punkte vergibt, ist sein Tab "HighScore" aktiv. Welche Kursbausteine bewertbar sind, zeigt die Seite [Kursbausteine im Überblick](../../manual_user/learningresources/Course_Elements/index.de.md#wissensuberprufung).
 
 2. **Struktur (optional)**<br>
     Ein Kursbaustein "Struktur" fasst die Bewertung eines Kapitels zusammen. Im Lernpfadkurs zählt er die Punkte der Kursbausteine darunter automatisch zusammen, sobald der Kurs mit Punkten bewertet wird (Schritt 4). Im herkömmlichen Kurs wählen Sie im Tab "Punkte" der Struktur unter "Punkte von" die Kursbausteine und legen die Berechnung "Bestanden" fest. Hat die Struktur Punkte, ist auch ihr Tab "HighScore" aktiv. Mehr dazu: [Kursbaustein "Struktur", Tab Punkte](../../manual_user/learningresources/Course_Element_Structure.de.md#score)
@@ -314,7 +314,7 @@ Der Ablauf folgt der Bewertung von unten nach oben. Bei einem unerwarteten Ergeb
     Der oberste Eintrag im Kurseditor steht für den ganzen Kurs. Im herkömmlichen Kurs legen Sie in seinem Tab "Punkte" fest, wie der Kurs bewertet wird. Im Tab "HighScore" richten Sie die [Rangliste](#highscore) des Kurses ein. Damit die Teilnehmer:innen Punkte, Erfolgsstatus und Rangliste des Kurses sehen, wählen Sie im Tab "Übersicht" "Automatische Übersicht" oder "Automatische Übersicht mit Vorschau".
 
 4. **Kurseinstellungen, Tab "Bewertung"**<br>
-    Unter `Kurs > Administration > Einstellungen > Bewertung` legen Sie im Lernpfadkurs im Abschnitt "Einstellungen Bewertung" fest, wie der Kurs bewertet wird: "Mit Punkten" als "Summe", "Summe mit Gewichtung" oder "Durchschnitt", und "Mit Erfolgsstatus" mit den Kriterien für das Bestehen. Im selben Tab schalten Sie im Abschnitt "Zertifikat" "Zertifikat ausstellen" ein, zum Beispiel mit "Automatisch wenn Kurs bestanden". Haben Systemadministrator:innen Badges aktiviert, schalten Sie im Abschnitt "Badges" "Badges vergeben" ein. Danach zeigt der Kurseditor an den bewertbaren Kursbausteinen den Tab "Badges", und Sie können Badges mit Kriterien wie "Kurs bestanden" oder "Kursbaustein-Score" erstellen. Mehr dazu: [Kurseinstellungen - Tab Bewertung](../../manual_user/learningresources/Course_Settings_Assessment.de.md)
+    Unter `Kurs > Administration > Einstellungen > Bewertung` legen Sie im Lernpfadkurs im Abschnitt "Einstellungen Bewertung" fest, wie der Kurs bewertet wird: "Mit Punkten" als "Summe", "Summe mit Gewichtung" oder "Durchschnitt", und "Mit Erfolgsstatus" mit den Kriterien für das Bestehen. Im selben Tab schalten Sie im Abschnitt "Zertifikat" "Zertifikat ausstellen" ein, zum Beispiel mit "Automatisch wenn Kurs bestanden". Haben Systemadministrator:innen Badges aktiviert, schalten Sie im Abschnitt "Badges" "Badges vergeben" ein. Danach zeigt der Kurseditor an den bewertbaren Kursbausteinen den Tab "Badges", und Sie können Badges mit Kriterien wie "Kurs bestanden" oder "Kursbaustein-Score" erstellen. Mehr dazu: [Kurseinstellungen - Tab Bewertung](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md)
 
 [Zum Seitenanfang ^](#achievements)
 
@@ -375,8 +375,8 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
 
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
-[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md)<br>
+[Kursbausteine im Überblick >](../../manual_user/learningresources/Course_Elements/index.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../../manual_user/personal_menu/Evidence_of_Achievements.de.md)<br>
 [Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
@@ -392,7 +392,7 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
 [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen? >](../certification_programs/certification_programs.de.md)<br>
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
 [Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
 [Aufgaben bewerten >](../../manual_user/learningresources/Assess_tasks.de.md)<br>
 [Formular als Rubrik-Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>

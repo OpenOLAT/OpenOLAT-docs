@@ -52,6 +52,6 @@ Sie entscheiden, wann die Änderungen im laufenden Kurs erscheinen. Beim Publizi
 
 [Kurseditorwerkzeuge >](Using_additional_Course_Editor_Tools.de.md)<br>
 [Kursbausteine im Kurseditor >](General_Configuration_of_Course_Elements.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)
 
 [Zum Seitenanfang ^](#loschen-verschieben-und-kopieren-von-kursbausteinen)

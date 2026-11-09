@@ -174,8 +174,8 @@ Zur Erstellung eines Rubrik-Formulars finden Sie hier ausführliche Informatione
 
 [Das Formular-Element Rubrik >](../../manual_user/learningresources/Form_Element_Rubric.de.md)<br>
 [Formular als Rubrik Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
-[Layout hinzufügen >](../../manual_user/learningresources/Form_Editor.de.md#insert_layout)<br>
-[Inhaltselemente hinzufügen >](../../manual_user/learningresources/Form_Editor.de.md#insert_content_element)
+[Layout hinzufügen >](../../manual_user/learningresources/Form_Editor/index.de.md#insert_layout)<br>
+[Inhaltselemente hinzufügen >](../../manual_user/learningresources/Form_Editor/index.de.md#insert_content_element)
 
 
 ### Informationen im Kopfbereich {: #step_3_header}
@@ -385,7 +385,7 @@ Ja. Als Betreuer:in oder Besitzer:in öffnen Sie den/die Teilnehmer:in erneut im
 Tragen Sie im Kursbaustein "Bewertung" "0 Punkte" und "Nicht bestanden" ein und halten Sie im Feld "Kommentar für andere Betreuende" fest, dass die Person nicht erschienen ist.
 
 **Können Teilnehmende ihre Bewertung herunterladen?**<br>
-Teilnehmende sehen ihre Ergebnisse im Kurs unter `Mein Kurs > Leistungsnachweis`, sofern der [Leistungsnachweis](../../manual_user/learningresources/Course_Settings_Assessment.de.md#section_evidence_of_achievements) in den Kurseinstellungen eingeschaltet ist. Eine Datei zum Herunterladen erhalten sie, wenn der Kurs ein [PDF-Zertifikat](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md#certificate) ausstellt oder wenn die Prüfer:innen individuelle Bewertungsdokumente bereitstellen.
+Teilnehmende sehen ihre Ergebnisse im Kurs unter `Mein Kurs > Leistungsnachweis`, sofern der [Leistungsnachweis](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md#section_evidence_of_achievements) in den Kurseinstellungen eingeschaltet ist. Eine Datei zum Herunterladen erhalten sie, wenn der Kurs ein [PDF-Zertifikat](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md#certificate) ausstellt oder wenn die Prüfer:innen individuelle Bewertungsdokumente bereitstellen.
 
 **Ist eine Online-Prüfung über Video möglich?**<br>
 Ja. Kombinieren Sie den Kurs mit einem Videokonferenz-System (z. B. dem integrierten BigBlueButton-Baustein), um die Prüfung remote durchzuführen. Die Bewertung bleibt im Bewertungsbaustein.
@@ -405,14 +405,14 @@ Ja. Kombinieren Sie den Kurs mit einem Videokonferenz-System (z. B. dem integrie
 [Kursbaustein "Bewertung" >](../../manual_user/learningresources/Course_Element_Assessment.de.md)<br>
 [e-Assessment Administration: Einstufung/Noten >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
 [Formular als Rubrik-Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
-[Der Formulareditor >](../../manual_user/learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor >](../../manual_user/learningresources/Form_Editor/index.de.md)<br>
 [Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)
 
 **Weiterführend**<br>
-[Formulare - Übersicht >](../../manual_user/learningresources/Form.de.md)<br>
+[Formulare - Übersicht >](../../manual_user/learningresources/Form/index.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../create_a_form/create_a_form.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)
 
 [Zum Seitenanfang ^](#oral_exam)

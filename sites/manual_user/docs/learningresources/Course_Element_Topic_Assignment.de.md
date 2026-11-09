@@ -235,7 +235,7 @@ Sind Sie als themenverantwortliche Person eingetragen, schreiben Sie selbst Them
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "Themenbörse" >](Course_Element_Topic_Broker.de.md)<br>
 [Kursbaustein "Aufgabe" >](Course_Element_Task/index.de.md)
 

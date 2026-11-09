@@ -33,7 +33,7 @@ Verfügbar seit | Release 10.0 (2014)
 ![Werkzeug Administration ganz links in der Toolbar markiert: Menü, über das Besitzer:innen und berechtigte Betreuer:innen den Kurs verwalten. Daneben Status Veröffentlicht und Werkzeuge ab Infoseite](assets/toolbar_admin_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
 Die Kurs-Administration wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilnehmer:innen. Dort sind viele Menüoptionen zur Verwaltung und Bearbeitung aufrufbar.<br>
-[Mehr dazu >](../learningresources/Administration.de.md)
+[Mehr dazu >](Administration/index.de.md)
 
 ---
 
@@ -179,7 +179,7 @@ Ist das Termin- und Absenzenmanagement eingeschaltet, kann es hier zur Ansicht b
 ![Werkzeug Glossar mit dem Doktorhut-Symbol und Auswahlpfeil in der Toolbar markiert, links daneben Dokumente, rechts Kurssuche](assets/toolbar_glossary_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
 Sofern ein Glossar mit dem Kurs verbunden wurde, kann es auch in der Toolbar aufgerufen werden. In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Die Begriffe werden automatisch alphabetisch sortiert und können mit Klick auf den entsprechenden Startbuchstaben aufgerufen werden.<br>
-[Mehr dazu >](../learningresources/Glossary.de.md)
+[Mehr dazu >](Glossary/index.de.md)
 
 ---
 

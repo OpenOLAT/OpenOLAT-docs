@@ -52,7 +52,7 @@ To view the points for the entire course, select the course name on the left and
 
 ![Course name selected on the left, the Participants tab and the Score column with the points of the entire course per person highlighted](assets/assessment_tool_tab_users_points2_v1_en.png){ class="shadow lightbox" title="Tab Participants of the course in the assessment tool · 2026.10.22" }
 
-Awarded points only count towards the total score of the course once the assessment is released. In a learning path course, the course settings define whether coaches may release an assessment themselves: `Course > Administration > Settings > Tab "Assessment"`, section "User rights", option "release assessment" under "Coaches can". More on this in the [section User rights](Course_Settings_Assessment.md#section_assessment_rights).
+Awarded points only count towards the total score of the course once the assessment is released. In a learning path course, the course settings define whether coaches may release an assessment themselves: `Course > Administration > Settings > Tab "Assessment"`, section "User rights", option "release assessment" under "Coaches can". More on this in the [section User rights](Course_Settings_Assessment/index.md#section_assessment_rights).
 
 To let coaches still see how many points a person has after the release, the assessment of the person shows the points not yet released in parentheses. A click on the name of the person opens this view. In a learning path course, the course row first shows the total score from the released assessments, followed in parentheses by the total score after the release of all assessments. [:octicons-tag-16:{ title="from Release 20.1.2 (OO-8839)" }](https://track.frentix.com/issue/OO-8839)
 
@@ -95,11 +95,11 @@ After selecting one or more people in an assessment element, further functions a
 **Mentioned on this page**<br>
 [Assessing learners >](Assessment_of_learners.md)<br>
 [Assessment of course elements >](Assessment_of_course_modules.md)<br>
-[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Assessing tests >](Assessing_tests.md)
 
 **Further**<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [The assessment form >](The_assessment_form.md)
 
 [To the top of the page ^](#assessment_tool_users)

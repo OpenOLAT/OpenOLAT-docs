@@ -1,6 +1,6 @@
 # Tests auf Kursebene
 
-Einen Test erstellen Sie als Lernressource im Autorenbereich. In einen Kurs kommt er über den Kursbaustein "Test" oder "Selbsttest". Diese Seite richtet sich an Kursbesitzer:innen und Betreuer:innen und zeigt, was auf Kursebene geschieht und wo die Einzelheiten stehen: wie Sie den Test im Kurs einrichten, wie Sie Testläufe bewerten, Tests austauschen und Ergebnisse archivieren. Wie Sie den Test selbst erstellen und seine Fragen bearbeiten, beschreibt die Seite [Tests erstellen](Test.de.md).
+Einen Test erstellen Sie als Lernressource im Autorenbereich. In einen Kurs kommt er über den Kursbaustein "Test" oder "Selbsttest". Diese Seite richtet sich an Kursbesitzer:innen und Betreuer:innen und zeigt, was auf Kursebene geschieht und wo die Einzelheiten stehen: wie Sie den Test im Kurs einrichten, wie Sie Testläufe bewerten, Tests austauschen und Ergebnisse archivieren. Wie Sie den Test selbst erstellen und seine Fragen bearbeiten, beschreibt die Seite [Tests erstellen](Test/index.de.md).
 
 Was Sie im Kursbaustein einstellen, gilt nur für den Test in diesem Kurs. Die Lernressource Test bleibt unverändert, und andere Kurse, die denselben Test einbinden, behalten ihre eigenen Einstellungen.
 
@@ -68,7 +68,7 @@ Der [Kursbaustein "Test"](Course_Element_Test/index.de.md) zeichnet die Resultat
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Tests erstellen >](Test.de.md)<br>
+[Tests erstellen >](Test/index.de.md)<br>
 [Test einrichten >](Course_Element_Test/Test_Setup.de.md)<br>
 [Tests auswerten und verwalten >](Course_Element_Test/Test_Results.de.md)<br>
 [Tests bewerten >](Assessing_tests.de.md)<br>

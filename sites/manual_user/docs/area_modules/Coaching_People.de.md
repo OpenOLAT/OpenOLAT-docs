@@ -11,7 +11,7 @@
 
 Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen betreuten** Teilnehmenden.
 
-  * Es werden die Teilnehmenden aus **allen** betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
+  * Es werden die Teilnehmenden aus **allen** betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview/index.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
   * Betreuer:innen sehen nur die von ihnen betreuten Teilnehmenden.
   * Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br>
   Je nach Ihren Rollen rufen Sie über die Fokus-Buttons vorsortierte Listen ab:
@@ -314,7 +314,7 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview/index.de.md)<br>
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Rollen und Rechte: Rollen zuweisen >](../../manual_user/basic_concepts/Assign_Roles.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>

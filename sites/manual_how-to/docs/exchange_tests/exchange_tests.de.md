@@ -15,7 +15,7 @@
 
     * ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)
     * ["Wie gehe ich vor, wenn ich einen Test erstelle?"](../test_creation_procedure/test_creation_procedure.de.md)
-    * [Bewertungswerkzeug - Übersicht](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+    * [Bewertungswerkzeug - Übersicht](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)
 
 ---
 
@@ -185,9 +185,9 @@ Ist der Kursbaustein noch nie publiziert worden, ersetzt OpenOlat die Test-Lernr
 
 ["Wie erstelle ich meinen ersten OpenOlat-Kurs?" >](../my_first_course/my_first_course.de.md)<br>
 ["Wie gehe ich vor, wenn ich einen Test erstelle?" >](../test_creation_procedure/test_creation_procedure.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
 [Bewertungswerkzeug - Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)<br>
-[Tests erstellen >](../../manual_user/learningresources/Test.de.md)<br>
+[Tests erstellen >](../../manual_user/learningresources/Test/index.de.md)<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 ["Wie bereite ich eine Online-Prüfung vor?" >](../exam_preparation/exam_preparation.de.md)
 

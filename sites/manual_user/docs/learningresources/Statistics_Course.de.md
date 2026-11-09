@@ -29,7 +29,7 @@ Sie erstellen Statistiken pro Stunde, pro Tag, pro Wochentag und pro Woche. Bei 
 **Weiterführend**<br>
 [Teststatistiken >](Statistics_Test.de.md)<br>
 [Fragebogen Statistiken >](Statistics_Survey.de.md)<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)
+[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)
 
 [Zum Seitenanfang ^](#course_statistics)
 

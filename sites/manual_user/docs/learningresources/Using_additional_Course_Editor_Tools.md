@@ -2,15 +2,15 @@
 
 In the course editor menu you have access to further configuration tools in the toolbar. Here you can insert and import course elements and display the current status with any problems.
 
-![Six editor tools in the course editor toolbar, the status shows the number of open configuration problems as a number](assets/Menu_Kurseditor19_en.png){ class="shadow lightbox" }
+![Six editor tools, the status shows the number of open configuration problems as a number](assets/Menu_Kurseditor19_en.png){ class="shadow lightbox" title="Toolbar of the course editor" }
 
 ## Administration
 
-Via the course administration you have access to various other course tools. You will find information under "[Course Administration](../learningresources/Administration.md)".
+Via the course administration you have access to various other course tools. You will find information under "[Course Administration](Administration/index.md)".
 
 ## Insert course element
 
-Here you have access to all [course elements](Course_Elements.md) that you can integrate into a course. Simply select and add to the course. Further information can be found under "[Elements](../learningresources/General_Configuration_of_Course_Elements.md)".
+Here you have access to all [course elements](Course_Elements/index.md) that you can integrate into a course. Simply select and add to the course. Further information can be found under "[Elements](../learningresources/General_Configuration_of_Course_Elements.md)".
 
 ## Quick-Add
 
@@ -26,7 +26,7 @@ Select a course that you own and choose one or more course elements from that co
 
 Here you can see if there are problems when configuring course elements. Click on the number indicated and the corresponding problems will be displayed. Follow the links to solve the problems. The legend below also indicates what kind of problem it is.
 
-![Status window with two incomplete course elements, the date of the last publication and the legend of the status symbols](assets/Status_19_en.jpg){ class="shadow lightbox" }
+![Status window with two incomplete course elements, the date of the last publication and the legend of the status symbols](assets/Status_19_en.jpg){ class="shadow lightbox" title="Status in the course editor" }
 
 Any configuration problems are also displayed in the course navigation for the corresponding course elements.
 
@@ -91,20 +91,20 @@ The option to publish manually corresponds to the "Publish" option in the course
 
 Step 1 - Select course elements: Select all course elements that you have modified and want to publish. The selection is already limited to course elements that can be published.
 
-Step 2 - Modification of course access: Here you get access to the general publishing options of a course. Determine which OpenOlat users should have access to your course. Read the chapter "[Course Settings](Course_Settings.md)" to learn which options are available here. After this step, the publishing process can already be completed. Click on "Finish".
+Step 2 - Modification of course access: Here you get access to the general publishing options of a course. Determine which OpenOlat users should have access to your course. Read the chapter "[Course Settings](Course_Settings/index.md)" to learn which options are available here. After this step, the publishing process can already be completed. Click on "Finish".
 
 There may still be some notes that are displayed. A specific entry in the catalog is also possible when using the [Catalog 1.0](../area_modules/catalog1.0.md). When using the [Catalog 2.0](../area_modules/catalog2.0/index.md), the entry is made automatically according to the taxonomy configuration.
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Administration: Overview >](../learningresources/Administration.md)<br>
-[Course elements at a glance >](Course_Elements.md)<br>
+[Course Administration: Overview >](Administration/index.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Elements >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Access configuration >](Access_configuration.md)<br>
 [Access Restrictions in the Expert Mode >](Access_Restrictions_in_the_Expert_Mode.md)<br>
 [Switch AAI >](http://www.switch.ch/aai/)<br>
-[Course Settings >](Course_Settings.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
 [Catalog 1.0 >](../area_modules/catalog1.0.md)<br>
 [Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)
 

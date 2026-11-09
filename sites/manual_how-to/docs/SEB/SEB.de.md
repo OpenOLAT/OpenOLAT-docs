@@ -451,7 +451,7 @@ Sie aktivieren den SEB für eine Einsichtnahme im Ablaufschema der Prüfungseins
 
 **Weiterführend**<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)
 
 [zum Seitenanfang ^](#SEB)
 

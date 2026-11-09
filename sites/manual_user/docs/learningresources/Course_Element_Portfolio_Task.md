@@ -74,7 +74,7 @@ If you have added a template to the course element, the "Learning content" tab s
 
 If the portfolio task is to be assessed, also configure the "Assessment" tab in the course editor.
 
-If assessments already exist for the portfolio task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+If assessments already exist for the portfolio task, OpenOlat displays the settings under "Grading configuration" in this tab as read-only. The area "Assessment form" remains editable. With "Enable edit mode" you make the settings editable again, see [Read-only assessment configuration](Course_Elements/index.md#assessment_config_read_only). [:octicons-tag-16:{ title="from Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ![Under "Grading configuration" a score from 0 to 10, levels with the rating scale Emojis and "Include in course assessment", below it the area "Assessment form"](assets/course_element_portfolio_task_tab_assessment_v2_en.png){ class="shadow lightbox" title="Tab Assessment of the portfolio task in the course editor · 2026.11.02" }
 
@@ -95,7 +95,7 @@ As with other course elements, you set up the automatic sending of [reminders](.
 
 ### Tab Badges {: #tab_badges}
 
-If the owners of the course have switched on the awarding of badges under [`Course > Administration > Settings > Assessment > Badges`](../learningresources/Course_Settings_Assessment.md#section_badges), the course editor shows the tab "Badges" for this course element. There, the owners of the course create a badge specifically for this course element with "Create a new badge".
+If the owners of the course have switched on the awarding of badges under [`Course > Administration > Settings > Assessment > Badges`](Course_Settings_Assessment/index.md#section_badges), the course editor shows the tab "Badges" for this course element. There, the owners of the course create a badge specifically for this course element with "Create a new badge".
 
 ![Tab "Badges" of the portfolio task with the button "Create a new badge"](assets/course_element_portfolio_task_tab_badges_v2_en.png){ class="shadow lightbox" title="Tab Badges of the portfolio task in the course editor · 2026.11.02" }
 
@@ -295,10 +295,10 @@ You can find out how coaches comment on and assess a portfolio task on the page 
 **Mentioned on this page**<br>
 [Portfolio template: Creation >](Portfolio_template_Creation.md)<br>
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
-[Course elements at a glance >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Portfolio assignment: Grading >](Portfolio_assignment_Grading.md)<br>
 [Course Reminders >](Course_Reminders.md)<br>
-[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [User tools >](../personal_menu/Personal_Tools/index.md)<br>
 [The Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.md)<br>
 [Portfolio template: Administration and editing >](Portfolio_template_Administration_and_editing.md)
@@ -308,10 +308,10 @@ You can find out how coaches comment on and assess a portfolio task on the page 
 [Components of the portfolio >](../area_modules/Components_of_the_portfolio/index.md)<br>
 [My binders >](../area_modules/My_portfolio_binders.md)<br>
 [My entries >](../area_modules/My_entries.md)<br>
-[Forms - Overview >](Form.md)<br>
+[Forms - Overview >](Form/index.md)<br>
 [Form in the Portfolio 2.0 template >](Forms_in_the_ePortfolio_template.md)<br>
-[The form editor >](Form_Editor.md)<br>
-[Form elements >](Form_Elements.md)<br>
+[The form editor >](Form_Editor/index.md)<br>
+[Form elements >](Form_Elements/index.md)<br>
 [Badges >](OpenBadges.md)<br>
 [Access configuration >](Access_configuration.md)
 

@@ -34,7 +34,7 @@ Wenn "Leistungsnachweis" im Kurs eingeschaltet ist, erscheint diese Option auch 
 Unter "Mein Kurs" finden Sie ausschliesslich Werkzeuge, die Ihre persönlichen Daten im aktuellen Kurs betreffen.<br>
 Abhängig von der Konfiguration des Kurses werden eventuell nicht alle der folgenden Einträge angezeigt.
 
-* Der [**Leistungsnachweis**](#evidence_of_achievement) zeigt die individuellen Bewertungen im Kurs an und gibt, sofern aktiviert, Zugriff auf das [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) des Kurses.
+* Der [**Leistungsnachweis**](#evidence_of_achievement) zeigt die individuellen Bewertungen im Kurs an und gibt, sofern aktiviert, Zugriff auf das [Zertifikat](Course_Settings_Assessment/index.de.md#section_certificate) des Kurses.
 * [**To-dos**](#to-dos) zeigt die aktuellen To-dos des Kurses an.
 * [**Meine Badges**](#my_badges) zeigt Ihre Badges an.
 * [**Notizen**](#notes): Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer:in lesen können.
@@ -54,7 +54,7 @@ Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle u
 
 ![Fortschritt, erreichte Punkte und die Tabelle der bewerteten Kursbausteine, darunter der Bereich Zertifikate](assets/Leistungsnachweis_19.png){ class="shadow lightbox" title="Leistungsnachweis eines Kurses" }
 
-Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#section_certificate) ausgestellt wurde, finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching/index.de.md) einsehen.
+Falls für den Kurs ein [Zertifikat](Course_Settings_Assessment/index.de.md#section_certificate) ausgestellt wurde, finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching/index.de.md) einsehen.
 
 Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
 
@@ -149,8 +149,8 @@ Die Möglichkeit, sich aus einem Kurs auszutragen, muss zuvor von den Kursbesitz
 "Kurs verlassen" erscheint nur, wenn folgende Bedingungen erfüllt sind:
 
 - Die aktive Rolle ist "Teilnehmer:in". Beim Rollenwechsel erscheint die Option nur bei aktiver Teilnehmer:innen-Rolle.
-- Der Kurs hat den Verwendungszweck **"Eigenständig"** (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share.de.md#section_usage)). Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), steht "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung gebucht, stornieren sie die Buchung stattdessen selbst: Sie öffnen im Katalog die Infoseite der Durchführung und wählen dort die Aktion "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Aktion "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Aktion erscheint nur bei einer Durchführung mit Anfangsdatum, bis zum Tag vor dem Beginn, und nur, wenn das Angebot stornierbar ist. Danach hilft die Verwaltung Ihrer Organisation weiter. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
-- Unter [Kurseinstellungen - Tab Freigabe > "Teilnehmer:innen können austreten"](Course_Settings_Share.de.md#section_share_leave) ist eine andere Option als "Nie" gewählt.
+- Der Kurs hat den Verwendungszweck **"Eigenständig"** (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#section_usage)). Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck **"Verwendung im Course Planner"**), steht "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung gebucht, stornieren sie die Buchung stattdessen selbst: Sie öffnen im Katalog die Infoseite der Durchführung und wählen dort die Aktion "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Aktion "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Aktion erscheint nur bei einer Durchführung mit Anfangsdatum, bis zum Tag vor dem Beginn, und nur, wenn das Angebot stornierbar ist. Danach hilft die Verwaltung Ihrer Organisation weiter. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
+- Unter [Kurseinstellungen - Tab Freigabe > "Teilnehmer:innen können austreten"](Course_Settings_Share/index.de.md#section_share_leave) ist eine andere Option als "Nie" gewählt.
 - Im Kurs läuft gerade kein Prüfungsmodus.
 
 Ist die Option **"Nach Kursenddatum oder Status 'Beendet'"** gewählt, wird "Kurs verlassen" bereits angezeigt, ist aber inaktiv, solange der Durchführungszeitraum noch nicht abgelaufen und der Kurs noch nicht im Status "Beendet" ist.
@@ -180,7 +180,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
@@ -191,7 +191,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 [Persönliche Erfolge/Leistungen: Badges >](../personal_menu/OpenBadges.de.md)<br>
 [Persönliche Werkzeuge: Notizen >](../personal_menu/Notes.de.md)<br>
 [Nutzungsbedingungen >](../basic_concepts/Terms_Of_Use.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
 [Kursbaustein "Einschreibung" >](Course_Element_Enrolment.de.md)
 
 **Weiterführend**<br>

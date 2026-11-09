@@ -37,7 +37,7 @@ Conversely, the learning resources created for quality control are visible to al
 
 ## What should a quality management form incorporate?
 
-You create learning resources of the type "Form" in the authoring area and build them in the [form editor](../learningresources/Form_Editor.md). Every element the form editor offers can be inserted into the form.
+You create learning resources of the type "Form" in the authoring area and build them in the [form editor](../learningresources/Form_Editor/index.md). Every element the form editor offers can be inserted into the form.
 
 A rubric element with a Likert scale is often used. Fields for free text entries can be used to enable personal comments. If no fields for entering the name are created, the survey remains anonymous.
 
@@ -66,7 +66,7 @@ If you want to work with new form learning resources, you can copy the previous 
 [Course Element "Form" >](../learningresources/Course_Element_Form.md)<br>
 [Course Element "Survey" >](../learningresources/Course_Element_Survey.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
-[The form editor >](../learningresources/Form_Editor.md)<br>
+[The form editor >](../learningresources/Form_Editor/index.md)<br>
 [Quality Management: Overview >](../area_modules/Quality_Management/index.md)<br>
 [Quality Management: Data collections >](../area_modules/Quality_Management_Data_Collections.md)<br>
 [Quality Management: Data Collection Generators >](../area_modules/Quality_Management_Data_Collection_Generators.md)

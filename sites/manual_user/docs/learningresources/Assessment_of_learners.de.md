@@ -6,19 +6,19 @@ Gehen Sie in das Bewertungswerkzeug und folgen Sie diesen Schritten:
 
 1. Klicken sie in der linken Spalte auf den Namen des Kurses (oberster Kursknoten) und wählen Sie den Tab "Teilnehmer".
 
-    ![Kursname in der linken Spalte und Tab "Teilnehmer" sind markiert: Einstieg in die Gesamtübersicht aller Teilnehmenden im Bewertungswerkzeug](assets/Bewertungswerkzeug_TN2_172-2.png){ class="shadow lightbox" }
+    ![Kursname in der linken Spalte und Tab "Teilnehmer" sind markiert: Einstieg in die Gesamtübersicht aller Teilnehmenden](assets/Bewertungswerkzeug_TN2_172-2.png){ class="shadow lightbox" title="Tab Teilnehmer des Kurses im Bewertungswerkzeug" }
 
 2. Es erscheint der aktuelle Gesamtbewertungsstand aller Teilnehmenden. Wählen Sie nun die Person aus, die Sie bewerten wollen indem Sie auf den jeweiligen Namen klicken.
 
 3. Nun sieht man den aktuellen Bewertungsstand der gewählten Person für alle bewertbaren Kursbausteine in einer Gesamtübersicht. 
 
-    ![Gesamtübersicht aller bewertbaren Kursbausteine einer Person mit Punkten, Freigabestatus und Ergebnis: Bewertungswerkzeug für eine ausgewählte Person](assets/Personen_bewerten.png){ class="shadow lightbox" }
+    ![Gesamtübersicht aller bewertbaren Kursbausteine einer Person mit Punkten, Freigabestatus und Ergebnis](assets/Personen_bewerten.png){ class="shadow lightbox" title="Übersicht einer Person im Bewertungswerkzeug" }
 
     Wählen Sie einen Kursbaustein aus um die Bewertung vorzunehmen. 
 
 4. Sie gelangen zum [Bewertungsformular](The_assessment_form.de.md) des jeweiligen Kursbausteins und können dort alle relevanten Aktionen vornehmen. Die genauen Möglichkeiten sind vom Bausteintyp und den zugehörigen Einstellungen abhängig.
 
-    ![Bewertungsformular der Aufgabe mit Punktefeld, Kommentar für Teilnehmende und Button "Bewertung abschliessen": Bewertungswerkzeug einer einzelnen Person](assets/Bewertung_Baustein_172.png){ class="shadow lightbox" }
+    ![Bewertungsformular der Aufgabe mit Punktefeld, Kommentar für Teilnehmende und Button "Bewertung abschliessen"](assets/Bewertung_Baustein_172.png){ class="shadow lightbox" title="Bewertungsformular im Bewertungswerkzeug" }
 
 5. Über die "Weiter" Pfeile rechts oben können sie bei Bedarf zum nächsten
 bewertbaren Kursbaustein für diese Person navigieren.
@@ -29,12 +29,12 @@ bewertbaren Kursbaustein für diese Person navigieren.
 
 1. Wählen Sie in der linken Navigation den gewünschten Kursbaustein aus und klicken Sie auf den Tab "Teilnehmer". 
 
-    ![Kursbaustein "Aufgabe" und Tab "Teilnehmer" sind markiert: Liste aller zu bewertenden Teilnehmenden für diesen einzelnen Kursbaustein](assets/Bewertung_Bausteine.png){ class="shadow lightbox" }
+    ![Kursbaustein "Aufgabe" und Tab "Teilnehmer" sind markiert: Liste aller zu bewertenden Teilnehmenden für diesen einzelnen Kursbaustein](assets/Bewertung_Bausteine.png){ class="shadow lightbox" title="Tab Teilnehmer eines Kursbausteins im Bewertungswerkzeug" }
 
     Es werden wieder alle zu bewertenden Teilnehmenden angezeigt, dieses Mal aber nicht für den gesamten Kurs, sondern nur für den gewählten Kursbaustein. 
 
 2. Klicken Sie auf den Namen der Person, die Sie für den gewählten Kursbaustein bewerten wollen und Sie gelangen zum passenden [Bewertungsformular](The_assessment_form.de.md). 
- ![Bewertungsformular der Aufgabe mit Punktefeld, Kommentar für Teilnehmende und Button "Bewertung abschliessen": Bewertungswerkzeug einer einzelnen Person](assets/Bewertung_Baustein_172.png){ class="shadow lightbox" }
+ ![Bewertungsformular der Aufgabe mit Punktefeld, Kommentar für Teilnehmende und Button "Bewertung abschliessen"](assets/Bewertung_Baustein_172.png){ class="shadow lightbox" title="Bewertungsformular im Bewertungswerkzeug" }
  Die genauen Möglichkeiten sind vom Bausteintyp und den zugehörigen Einstellungen abhängig.
 
 3. Über die Pfeile rechts oben können sie bei Bedarf zur nächsten bewertbaren
@@ -58,7 +58,7 @@ Sowohl für den gesamten Kurs als auch für Kursbausteine können auch Filter ve
 [Wie und wo kann ich eine Massenbewertung vornehmen? >](../../manual_how-to/bulk_assessment/bulk_assessment.de.md)
 
 **Weiterführend**<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Bewertungswerkzeug: Tab Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)<br>
 [Tests bewerten >](Assessing_tests.de.md)
 

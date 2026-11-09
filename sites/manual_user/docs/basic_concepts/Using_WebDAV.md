@@ -15,7 +15,7 @@ Via WebDAV you can access the following OpenOlat folders. The structure is creat
   * [Storage folders of courses](../learningresources/Storage_folder.md) (course owners only)
   * [Course element "Folder"](../learningresources/Course_Element_Folder.md)
   * [Resource folders](../learningresources/index.md#resource_folder) (owners of the learning resource only)
-  * [Course archives](../learningresources/Course_Archiving.md) (authors, learning resource managers and administrators only) [:octicons-tag-16:{ title="from Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
+  * [Course archives](../learningresources/Course_Archiving/index.md) (authors, learning resource managers and administrators only) [:octicons-tag-16:{ title="from Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on the specific configuration.
 
@@ -108,7 +108,7 @@ Once you have set up the connection successfully, a directory opens on your comp
   * **groupfolders**: Here you find all groups you are a member of and whose folders you have access to.
   * **home**: Your personal files with the subfolders "private" and "public".
   * **sharedfolders**: All resource folders you own or have access to based on a membership. Owners and coaches receive read and write permissions, participants read permissions only.
-  * **mycoursearchives**: All [course archives](../learningresources/Course_Archiving.md) you have created. This folder only appears for authors, learning resource managers and administrators.
+  * **mycoursearchives**: All [course archives](../learningresources/Course_Archiving/index.md) you have created. This folder only appears for authors, learning resource managers and administrators.
 
 ## Further information {: #further_information}
 
@@ -118,7 +118,7 @@ Once you have set up the connection successfully, a directory opens on your comp
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)<br>
+[Course administration - Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [FUSE website >](http://fuse.sourceforge.net)<br>
 [WebDAV (Administration) >](../../manual_admin/administration/WebDAV.md)

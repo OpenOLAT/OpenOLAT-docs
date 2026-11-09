@@ -24,7 +24,7 @@ Once the items have been created via OpenOlat, the structure is automatically cr
   * [Folders of groups](../../manual_user/groups/Using_Group_Tools.md) (group members)
   * [Storage folders](../../manual_user/learningresources/Storage_folder.md) of courses (course owners only)
   * [Folder - course element](../../manual_user/learningresources/Course_Element_Folder.md) (course members)
-  * [Resource folders](../../manual_user/learningresources/Course_Settings.md#options) (only Learning Resource Owner)
+  * [Resource folders](../../manual_user/learningresources/Course_Settings/index.md#options) (only Learning Resource Owner)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on
 the respective configuration.
@@ -134,7 +134,7 @@ your computer containing the following sub-directories:
 [Using group tools >](../../manual_user/groups/Using_Group_Tools.md)<br>
 [Storage folder >](../../manual_user/learningresources/Storage_folder.md)<br>
 [Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
-[Course Settings >](../../manual_user/learningresources/Course_Settings.md)<br>
+[Course Settings >](../../manual_user/learningresources/Course_Settings/index.md)<br>
 [FUSE website >](http://fuse.sourceforge.net)
 
 [To the top of the page ^](#webdav)

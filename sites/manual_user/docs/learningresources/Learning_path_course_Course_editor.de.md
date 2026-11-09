@@ -155,9 +155,9 @@ Zoom | Kursbaustein öffnen
 [Kursbaustein "Auswahl" >](../learningresources/Course_Element_Selection.de.md)
 
 **Weiterführend**<br>
-[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Lernpfadkurs - Teilnehmeransicht >](../learningresources/Learning_path_course_Participant_view.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Kurseinstellungen >](Course_Settings/index.de.md)
 
 **youtube**<br>
 [Ausnahmen im Lernpfad](<https://www.youtube.com/embed/MWWUmma2Cr0>)

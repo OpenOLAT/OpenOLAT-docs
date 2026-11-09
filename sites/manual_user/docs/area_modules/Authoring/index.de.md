@@ -121,7 +121,7 @@ Der Filter "Typ" bietet unter anderem die folgenden Bezeichnungen an: "Audio" so
 [Kurs erstellen >](../../../manual_user/learningresources/Creating_Course.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Kursbausteine im Kurseditor >](../../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
-[Lernpfadkurs - Überblick >](../../../manual_user/learningresources/Learning_path_course.de.md)
+[Lernpfadkurs - Überblick >](../../learningresources/Learning_path_course/index.de.md)
 
 **youtube**<br>
 [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>)

@@ -66,7 +66,7 @@ If you want to run the test in the new format QTI 2.1 you can:
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)
 
 **Further reading**<br>
-[Creating Tests >](Test.md)<br>
+[Creating Tests >](Test/index.md)<br>
 [Question bank: Use questions >](../area_modules/Question_bank_possible_operations.md)
 
 [To the top of the page ^](#qti_conversion)

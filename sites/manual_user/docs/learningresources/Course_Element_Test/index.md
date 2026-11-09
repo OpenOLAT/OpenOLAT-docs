@@ -37,7 +37,7 @@ The two main tabs in which you define the settings for your test are "Test confi
     The handling of self-tests is otherwise identical to the handling of the tests.
 
 
-Further information on the learning resource Test: [Create tests](../Test.md)
+Further information on the learning resource Test: [Create tests](../Test/index.md)
 
 [To the top of the page ^](#course_element_test)
 
@@ -60,11 +60,11 @@ You include a test in your course and define when participants work on it, who c
 Attribute | :fontawesome-solid-square-pen: Test | :fontawesome-solid-square-pen: Self-test
 ------|------|------
  Purpose of use | Assessment test, test with assessment option by the teacher, standard test | Exercise, self-assessment, no insight by teacher
- Fabrication with | [Test editor](../Test_editor_QTI_2.1.md) | [Test editor](../Test_editor_QTI_2.1.md)
+ Fabrication with | [Test editor](../Test_editor_QTI_2.1/index.md) | [Test editor](../Test_editor_QTI_2.1/index.md)
  Question types QTI 2.1 | All [Question types](../Test_question_types.md) possible | All [Question types](../Test_question_types.md) possible, but only automatically assessable question types can be used for points.
  Integration with course element | Test | Self-test
  Number of views by course participants | configurable | unlimited
- Results | appear in the [Assessment tool](../Assessment_tool_overview.md) as well as in the [test statistics](../Statistics_Test.md) and can be viewed by coaches | do _not_ appear in the [Assessment tool](../Assessment_tool_overview.md) and in the [test statistics](../Statistics_Test.md) and are not personalized for coaches and owners to view
+ Results | appear in the [Assessment tool](../Assessment_tool_overview/index.md) as well as in the [test statistics](../Statistics_Test.md) and can be viewed by coaches | do _not_ appear in the [Assessment tool](../Assessment_tool_overview/index.md) and in the [test statistics](../Statistics_Test.md) and are not personalized for coaches and owners to view
  Data archiving | Yes, personalized | Yes, anonymized. However, personal allocation or feedback is not possible.
 
 !!! tip "Tip"
@@ -154,14 +154,14 @@ If you have more attempts available to process the test, you can run through the
 [Set up a test >](Test_Setup.md)<br>
 [Evaluate and manage tests >](Test_Results.md)<br>
 [Course Element "Self-test" >](../Course_Element_Self_Test.md)<br>
-[Creating Tests >](../Test.md)<br>
-[Test editor >](../Test_editor_QTI_2.1.md)<br>
-[Assessment tool - overview >](../Assessment_tool_overview.md)<br>
+[Creating Tests >](../Test/index.md)<br>
+[Test editor >](../Test_editor_QTI_2.1/index.md)<br>
+[Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
 [Test statistics >](../Statistics_Test.md)<br>
 [Configure tests >](../Configure_tests.md)
 
 **Further reading**<br>
-[Course elements at a glance >](../Course_Elements.md)<br>
+[Course elements at a glance >](../Course_Elements/index.md)<br>
 [Configure test questions >](../Configure_test_questions.md)<br>
 [Assessing tests >](../Assessing_tests.md)
 

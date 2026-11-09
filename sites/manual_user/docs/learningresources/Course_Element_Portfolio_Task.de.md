@@ -73,7 +73,7 @@ Wenn Sie dem Kursbaustein eine Vorlage hinzugefügt haben, zeigt der Tab "Lernin
 
 Soll die Portfolioaufgabe bewertet werden, konfigurieren Sie im Kurseditor zusätzlich den Tab "Bewertung".
 
-Sind für die Portfolioaufgabe bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für die Portfolioaufgabe bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](Course_Elements/index.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 ![Unter "Konfiguration Bewertung" Punkte von 0 bis 10, Einstufung mit der Bewertungsskala Emojis und "Bei Kurs-Bewertung berücksichtigen", darunter der Bereich "Bewertungsformular"](assets/course_element_portfolio_task_tab_assessment_v2_de.png){ class="shadow lightbox" title="Tab Bewertung der Portfolioaufgabe im Kurseditor · 2026.11.02" }
 
@@ -94,7 +94,7 @@ Wie bei anderen Kursbausteinen richten Sie hier den automatischen Versand von [E
 
 ### Tab Badges {: #tab_badges}
 
-Haben Besitzer:innen des Kurses unter [`Kurs > Administration > Einstellungen > Bewertung > Badges`](../learningresources/Course_Settings_Assessment.de.md#section_badges) die Vergabe von Badges eingeschaltet, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Besitzer:innen des Kurses mit "Einen neuen Badge erstellen" einen Badge eigens für diesen Kursbaustein.
+Haben Besitzer:innen des Kurses unter [`Kurs > Administration > Einstellungen > Bewertung > Badges`](Course_Settings_Assessment/index.de.md#section_badges) die Vergabe von Badges eingeschaltet, zeigt der Kurseditor für diesen Kursbaustein den Tab "Badges". Dort erstellen Besitzer:innen des Kurses mit "Einen neuen Badge erstellen" einen Badge eigens für diesen Kursbaustein.
 
 ![Tab "Badges" der Portfolioaufgabe mit dem Button "Einen neuen Badge erstellen"](assets/course_element_portfolio_task_tab_badges_v2_de.png){ class="shadow lightbox" title="Tab Badges der Portfolioaufgabe im Kurseditor · 2026.11.02" }
 
@@ -306,10 +306,10 @@ Wie Betreuer:innen eine Portfolioaufgabe kommentieren und bewerten, erfahren Sie
 **Auf dieser Seite erwähnt**<br>
 [Portfoliovorlage: Erstellung >](Portfolio_template_Creation.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)<br>
 [Der Portfolio Editor >](../area_modules/The_portfolio_editor_17_1.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](Portfolio_template_Administration_and_editing.de.md)
@@ -319,10 +319,10 @@ Wie Betreuer:innen eine Portfolioaufgabe kommentieren und bewerten, erfahren Sie
 [Bestandteile des Portfolios >](../area_modules/Components_of_the_portfolio/index.de.md)<br>
 [Meine Mappen >](../area_modules/My_portfolio_binders.de.md)<br>
 [Meine Einträge >](../area_modules/My_entries.de.md)<br>
-[Formulare - Übersicht >](Form.de.md)<br>
+[Formulare - Übersicht >](Form/index.de.md)<br>
 [Formular in der Portfolio 2.0 Vorlage >](Forms_in_the_ePortfolio_template.de.md)<br>
-[Der Formulareditor >](Form_Editor.de.md)<br>
-[Formular-Elemente >](Form_Elements.de.md)<br>
+[Der Formulareditor >](Form_Editor/index.de.md)<br>
+[Formular-Elemente >](Form_Elements/index.de.md)<br>
 [Badges >](OpenBadges.de.md)<br>
 [Zugangskonfiguration / Freigabe >](Access_configuration.de.md)
 

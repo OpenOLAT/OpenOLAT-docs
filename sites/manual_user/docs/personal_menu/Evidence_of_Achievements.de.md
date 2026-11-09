@@ -13,7 +13,7 @@ Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten
 
 ## Wer vergibt Leistungsnachweise? {: #who_awards}
 
-Kursbesitzer:innen legen in ihren Kursen fest, ob die Teilnehmenden ihren Leistungsnachweis sehen. Die Option "Leistungsnachweis den Teilnehmer:innen anzeigen" finden sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` (siehe [Kurseinstellungen - Tab Bewertung](../learningresources/Course_Settings_Assessment.de.md)). OpenOlat erstellt den Leistungsnachweis unabhängig von dieser Einstellung; Kursbesitzer:innen und Betreuer:innen sehen ihn in den Bewertungsansichten immer, z.B. beim Zurücksetzen von Kursdaten oder bei der Rezertifizierung. [:octicons-tag-16:{ title="ab Release 19.1.7 (OO-8401)" }](https://track.frentix.com/issue/OO-8401)
+Kursbesitzer:innen legen in ihren Kursen fest, ob die Teilnehmenden ihren Leistungsnachweis sehen. Die Option "Leistungsnachweis den Teilnehmer:innen anzeigen" finden sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` (siehe [Kurseinstellungen - Tab Bewertung](../learningresources/Course_Settings_Assessment/index.de.md)). OpenOlat erstellt den Leistungsnachweis unabhängig von dieser Einstellung; Kursbesitzer:innen und Betreuer:innen sehen ihn in den Bewertungsansichten immer, z.B. beim Zurücksetzen von Kursdaten oder bei der Rezertifizierung. [:octicons-tag-16:{ title="ab Release 19.1.7 (OO-8401)" }](https://track.frentix.com/issue/OO-8401)
 
 [Zum Seitenanfang ^](#evidence_of_achievements)
 
@@ -68,7 +68,7 @@ Ist in einem Kurs der Leistungsnachweis aktiviert, finden Teilnehmende in der To
 
 **Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Persönliche Werkzeuge: Portfolio 2.0 >](Portfolio/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](Certificates.de.md)

@@ -43,7 +43,7 @@ hide:
 <p class="oo-mh-role__text">Teilnehmende begleiten, bewerten und Nachweise ausstellen.</p>
 
 1. [Coaching](../area_modules/Coaching/index.de.md)
-1. [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)
+1. [Bewertungswerkzeug](../learningresources/Assessment_tool_overview/index.de.md)
 1. [Kurserinnerungen](../learningresources/Course_Reminders.de.md)
 1. [Gruppen betreuen](../groups/index.de.md)
 1. [Kursstatistiken](../learningresources/Statistics_Course.de.md)
@@ -187,9 +187,9 @@ Die Neuerungen von Release 21.0 stehen in den [Release Notes 21.0](../../release
 
 - [Bereiche und Module](../area_modules/index.de.md)
 - [Lernressourcen](../learningresources/index.de.md)
-- [Kursbausteine](../learningresources/Course_Elements.de.md)
+- [Kursbausteine](../learningresources/Course_Elements/index.de.md)
 - [Test Fragetypen](../learningresources/Test_question_types.de.md)
-- [Kurs-Administration](../learningresources/Administration.de.md)
+- [Kurs-Administration](../learningresources/Administration/index.de.md)
 - [Rollen und Rechte](../basic_concepts/Roles_Rights/index.de.md)
 - [Gruppen](../groups/index.de.md)
 - [Persönliches Menü](../personal_menu/index.de.md)

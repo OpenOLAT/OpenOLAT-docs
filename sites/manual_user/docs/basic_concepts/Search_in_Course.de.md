@@ -16,12 +16,12 @@ Die Kurssuche durchsucht nur den entsprechenden Kurs. Es werden folgende Element
 ## Aktivierung [:octicons-tag-16:{ title="ab Release 11.3 (OO-2581)" }](https://track.frentix.com/issue/OO-2581) {: #activation}
 
 Die Kurssuche schalten Sie in der Kurs-Administration ein:<br>
-`Kurs > Administration > Einstellungen`, Tab "[Toolbar](../learningresources/Course_Settings.de.md#toolbar)", Option "Kurssuche".
+`Kurs > Administration > Einstellungen`, Tab "[Toolbar](../learningresources/Course_Settings/index.de.md#toolbar)", Option "Kurssuche".
 
 ## Weiterführende Informationen {: #further_information}
 
 [Allgemeines zur Suche >](Search_General/index.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings/index.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>
 [Lokale Suche >](Search_Local.de.md)<br>
 [Personensuche >](Search_Person.de.md)<br>

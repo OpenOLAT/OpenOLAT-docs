@@ -238,8 +238,8 @@ See [Verify badges >](../../manual_admin/administration/e-Assessment_openBadges.
 
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
-[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [The OpenBadges standard >](https://www.imsglobal.org/activity/openbadges)
 
 [To the top of the page ^](#badges)

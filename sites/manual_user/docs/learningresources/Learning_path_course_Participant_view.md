@@ -58,7 +58,7 @@ The visualized display and the information provided give learners a quick and co
 [Course Reminders >](../learningresources/Course_Reminders.md)
 
 **Further reading**<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
+[Course Settings >](Course_Settings/index.md)
 
 [To the top of the page ^](#participant_view)

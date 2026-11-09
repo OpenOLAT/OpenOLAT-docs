@@ -55,7 +55,7 @@ For example, it can be set up so that you earn "safety points" (= currency of th
 
 ## Further information {: #further_information}
 
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Coaching - People >](../area_modules/Coaching_People.md)<br>
 [How do I make successes and achievements visible? >](../../manual_how-to/achievements/achievements.md)

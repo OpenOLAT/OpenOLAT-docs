@@ -8,7 +8,7 @@ The wizard can be used to select the elements of a course to be copied. This mak
 
 In the first step "General settings" you choose the copy mode "Automatic" or "Custom". In the copy mode "Custom", the course objects to be copied can be selected and further settings can be made, e.g. with regard to member administration and certain course elements. 
 
-This function is only available for [learning path courses](Learning_path_course.md). To copy a conventional course for the next run, use `Course > Administration > Copy`, see [Copy (a course)](Course_Copy.md).
+This function is only available for [learning path courses](Learning_path_course/index.md). To copy a conventional course for the next run, use `Course > Administration > Copy`, see [Copy (a course)](Course_Copy.md).
 
 
 !!! tip "Tip"
@@ -40,7 +40,7 @@ If the ["Rooms" module](../../manual_admin/administration/Modules_Rooms.md) is a
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Learning path course - Overview >](Learning_path_course.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Copy (a course) >](Course_Copy.md)<br>
 [Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](../area_modules/Course_Planner_Rooms.md)

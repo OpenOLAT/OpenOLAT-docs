@@ -63,15 +63,15 @@ A video that you embed with the course element "Video" enables, in contrast to a
   * Comments
   * Assessments
   * a start image as desired
-  * Combination with specific completion criteria in [Learning path courses](../learningresources/Learning_path_course.md)
+  * Combination with specific completion criteria in [Learning path courses](Learning_path_course/index.md)
 
 ## Further information {: #further_information}
 
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Videos in course element "HTML page" >](../basic_concepts/Video_in_HTML_Pages.md)<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "Video task" >](../learningresources/Course_Element_Video_Task.md)<br>
 [Video Collection >](../area_modules/Video_Collection.md)
 

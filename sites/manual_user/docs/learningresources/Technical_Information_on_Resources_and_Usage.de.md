@@ -82,6 +82,6 @@ Wird die Lernressource von einem externen System verwaltet, zeigt das Fenster zu
 
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)<br>
-[Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)
+[Kurs-Administration: Übersicht >](Administration/index.de.md)
 
 [Zum Seitenanfang ^](#technical_information)

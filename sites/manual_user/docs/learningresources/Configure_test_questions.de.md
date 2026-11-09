@@ -104,8 +104,8 @@ Der Bereich "Technik" zeigt weitere Informationen an.
 [Test konfigurieren >](Configure_tests.de.md)<br>
 [Fragenpool: Detailansicht einer Frage und Metadaten >](../area_modules/Item_Detailed_View.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
-[Testeditor >](Test_editor_QTI_2.1.de.md)<br>
-[Tests erstellen >](Test.de.md)<br>
+[Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
+[Tests erstellen >](Test/index.de.md)<br>
 [Kursbaustein "Selbsttest" >](Course_Element_Self_Test.de.md)
 
 [Zum Seitenanfang ^](#configure_test_questions)

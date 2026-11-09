@@ -1,6 +1,6 @@
 # Tests at course level
 
-You create a test as a learning resource in the authoring area. It gets into a course via the course element "Test" or "Self-test". This page is for course owners and coaches and shows what happens at course level and where the details are described: how you set up the test in the course, how you assess test runs, replace tests and archive results. How you create the test itself and edit its questions is described on the page [Creating Tests](Test.md).
+You create a test as a learning resource in the authoring area. It gets into a course via the course element "Test" or "Self-test". This page is for course owners and coaches and shows what happens at course level and where the details are described: how you set up the test in the course, how you assess test runs, replace tests and archive results. How you create the test itself and edit its questions is described on the page [Creating Tests](Test/index.md).
 
 What you set in the course element applies only to the test in this course. The learning resource Test remains unchanged, and other courses that include the same test keep their own settings.
 
@@ -68,7 +68,7 @@ The [course element "Test"](Course_Element_Test/index.md) records the results in
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Creating Tests >](Test.md)<br>
+[Creating Tests >](Test/index.md)<br>
 [Set up a test >](Course_Element_Test/Test_Setup.md)<br>
 [Evaluate and manage tests >](Course_Element_Test/Test_Results.md)<br>
 [Assessing tests >](Assessing_tests.md)<br>

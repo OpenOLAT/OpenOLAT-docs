@@ -67,7 +67,7 @@ Im Tab "Ordnerkonfiguration" legen Sie unter "Ablageort" fest, *wo* die Dateien 
 
 Mit der Option "Automatisch generierter Ordner" legt OpenOlat im Ablageordner des Kurses den Unterordner "_courseelementdata" an und darin einen Unterordner mit dem Namen des Kursbausteins, entlang der Kursstruktur. Dort speichert OpenOlat alle Dateien des Kursbausteins. Den Ablageordner öffnen Sie über `Kurs > Administration > Dateien > Ablageordner`.
 
-Mit der Option "Ordner aus Ablageordner des Kurses verwenden" wählen Sie einen vorhandenen Ordner aus dem Ablageordner des Kurses. Das lohnt sich, wenn Sie die Dateien bereits geordnet in den Ablageordner hochgeladen haben. Sie können an dieser Stelle auch einen neuen Ordner im Ablageordner erstellen. Ist mit dem Kurs in den [Kurseinstellungen](../learningresources/Course_Settings.de.md) ein Ressourcenordner verknüpft, wählen Sie ihn ebenfalls hier: Er erscheint unter den Ordnern des Ablageordners als "_sharedfolder".
+Mit der Option "Ordner aus Ablageordner des Kurses verwenden" wählen Sie einen vorhandenen Ordner aus dem Ablageordner des Kurses. Das lohnt sich, wenn Sie die Dateien bereits geordnet in den Ablageordner hochgeladen haben. Sie können an dieser Stelle auch einen neuen Ordner im Ablageordner erstellen. Ist mit dem Kurs in den [Kurseinstellungen](Course_Settings/index.de.md) ein Ressourcenordner verknüpft, wählen Sie ihn ebenfalls hier: Er erscheint unter den Ordnern des Ablageordners als "_sharedfolder".
 
 #### Dateien hochladen {: #transfer_files}
 
@@ -134,7 +134,7 @@ Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie do
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
 [Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>

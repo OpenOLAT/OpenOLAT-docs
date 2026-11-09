@@ -43,7 +43,7 @@ Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzei
 
 ## Tests einsehen und bewerten {: #assess}
 
-Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des Kurses im [Bewertungswerkzeug](../Assessment_tool_overview.de.md). Zugriff darauf haben Betreuer:innen und Besitzer:innen des Kurses: `Kurs > Administration > Bewertungswerkzeug`. Navigieren Sie zum gewünschten Kursbaustein "Test". Der Tab "Teilnehmer:innen" zeigt alle Teilnehmenden mit ihrem Bearbeitungsstand zu diesem Kursbaustein, und in der Spalte "Status" erkennen Sie, ob eine Bewertung erforderlich ist. Offene Bewertungen zeigt bereits die Übersicht unter "Offene Bewertungen".
+Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des Kurses im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md). Zugriff darauf haben Betreuer:innen und Besitzer:innen des Kurses: `Kurs > Administration > Bewertungswerkzeug`. Navigieren Sie zum gewünschten Kursbaustein "Test". Der Tab "Teilnehmer:innen" zeigt alle Teilnehmenden mit ihrem Bearbeitungsstand zu diesem Kursbaustein, und in der Spalte "Status" erkennen Sie, ob eine Bewertung erforderlich ist. Offene Bewertungen zeigt bereits die Übersicht unter "Offene Bewertungen".
 
 Alternativ sehen und verwalten Sie die Ergebnisse eines bestimmten Tests auch im Kurs bei geschlossenem Kurseditor direkt beim jeweiligen Kursbaustein "Test". Wechseln Sie dafür in den Tab "Teilnehmer:innen". Als Besitzer:in des Kurses stehen Ihnen dort weitere Tabs wie "Vorschau", "Kommunikation", "Erinnerungen" und "Badges" zur Verfügung. Betreuer:innen sehen ebenfalls "Vorschau" und "Kommunikation", den Tab "Erinnerungen" nicht und den Tab "Badges" nur, wenn der Kurs Betreuer:innen die Vergabe von Badges erlaubt.
 
@@ -93,7 +93,7 @@ Haben Teilnehmende in diesem Kurs mehr als eine der verwendeten Test-Lernressour
 
 ## Testergebnisse archivieren [:octicons-tag-16:{ title="ab Release 17.1.0 (OO-6466)" }](https://track.frentix.com/issue/OO-6466) {: #archive}
 
-Wer die Testergebnisse eines Kurses gesammelt sichern will, etwa zusammen mit den Resultaten anderer bewertbarer Kursbausteine, archiviert sie in der [Kursarchivierung](../Course_Archiving.de.md): `Kurs > Administration > Archivierung & Reports`.
+Wer die Testergebnisse eines Kurses gesammelt sichern will, etwa zusammen mit den Resultaten anderer bewertbarer Kursbausteine, archiviert sie in der [Kursarchivierung](../Course_Archiving/index.de.md): `Kurs > Administration > Archivierung & Reports`.
 
 Dort laden Sie die Kursresultate aller bewertbaren Kursbausteine (unter anderem Tests) herunter. Alternativ wählen Sie nur die Ergebnisse bestimmter Tests aus und speichern nur diese. Wählen Sie dafür `Kurs > Administration > Archivierung & Reports > Kursarchivierung > Archiv erstellen`. Wählen Sie im Wizard die Archivart "Teilarchiv" und markieren Sie im Schritt "Kursbausteine auswählen" den oder die gewünschten Test-Bausteine. Im Schritt "Einstellungen" wählen Sie bei "Kursbausteine" entweder "Standard-Einstellungen" oder "Benutzerspezifisch", um die Archivierungsoptionen anzupassen.
 
@@ -120,9 +120,9 @@ Die Rohdaten von Tests können Sie zudem über die [Teststatistiken](../Statisti
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Test" >](index.de.md)<br>
 [Test einrichten >](Test_Setup.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
 [Coaching - Übersicht >](../../area_modules/Coaching/index.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../Course_Archiving.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../Course_Archiving/index.de.md)<br>
 [Tests exportieren >](../Test_export.de.md)<br>
 [Teststatistiken >](../Statistics_Test.de.md)
 

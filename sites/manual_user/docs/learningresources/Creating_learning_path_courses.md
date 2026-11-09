@@ -6,7 +6,7 @@ You create conventional courses and learning path courses via `Authoring > Creat
 
 ## Converting conventional courses {: #convert_course}
 
-Existing conventional courses can be converted into learning path courses. You find the action "Duplicate as learning path" under `Course > Administration` and under `Course > Administration > Settings` in the tab "Execution", section "Access course elements". Details on the action can be found on the page [Course Administration: Overview](../learningresources/Administration.md#duplicate_as_learning_path). [:octicons-tag-16:{ title="from Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967)
+Existing conventional courses can be converted into learning path courses. You find the action "Duplicate as learning path" under `Course > Administration` and under `Course > Administration > Settings` in the tab "Execution", section "Access course elements". Details on the action can be found on the page [Course Administration: Overview](Administration/index.md#duplicate_as_learning_path). [:octicons-tag-16:{ title="from Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967)
 
 In the dialog "Select course design" you define whether the copy gets the course design "With learning path" (sequential order) or "With learning progress" (without fixed sequence). "Duplicate & convert" starts the conversion. [:octicons-tag-16:{ title="from Release 18.1 (OO-7035)" }](https://track.frentix.com/issue/OO-7035)
 
@@ -29,7 +29,7 @@ Open `Course > Administration > Settings`, tab "Execution". In the section "Acce
 * **According to the number of mandatory course elements**: Each completed mandatory course element counts equally.
 * **According to the estimated duration of the mandatory course elements**: Each mandatory course element carries an estimated learning time in the course editor. The progress results from the time units already completed. When you switch to this option, OpenOlat asks for an initial value, which it enters for course elements without a learning time.
 
-![Field Calculation of learning progress with the options number or estimated duration of the mandatory course elements, section Access course elements in the tab Execution](assets/Access_Course_Elements.en.png){ class="shadow lightbox" }
+![Field Calculation of learning progress with the options number or estimated duration of the mandatory course elements](assets/Access_Course_Elements.en.png){ class="shadow lightbox" title="Tab Execution of the course settings, section Access course elements" }
 
 The calculation basis determines the progress that learners see in the progress graphic at the top right of the course toolbar and in the "Learning path" area.
 
@@ -37,9 +37,9 @@ The calculation basis determines the progress that learners see in the progress 
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank"}
 
-Under `Course > Administration > Settings`, tab "Assessment", you additionally define whether the progress graphic also displays the total score of the course (sum or average) and whether and how the course counts as passed. More on this under [Course Settings, tab Assessment](../learningresources/Course_Settings.md#assessment).
+Under `Course > Administration > Settings`, tab "Assessment", you additionally define whether the progress graphic also displays the total score of the course (sum or average) and whether and how the course counts as passed. More on this under [Course Settings, tab Assessment](Course_Settings/index.md#assessment).
 
-![Progress graphic in the course toolbar with 58 percent next to the menu My course](assets/Prozentanzeige.en.png){ class="shadow lightbox" }
+![Progress graphic with 58 percent next to the menu My course](assets/Prozentanzeige.en.png){ class="shadow lightbox" title="Toolbar of a learning path course" }
 
 ## Copying learning path courses {: #copy_learning_path_course}
 
@@ -53,17 +53,17 @@ Like all learning resources, learning path courses can be copied. In addition, a
 * whether individual course elements are mandatory or optional
 * further dates for the individual course elements
 
-![Entry Copy with wizard in the menu Administration of the course toolbar, directly below the entry Copy](assets/Copy_Learning_Path.en.wm.png){ class="shadow lightbox" }
+![Entry Copy with wizard, directly below the entry Copy](assets/Copy_Learning_Path.en.wm.png){ class="shadow lightbox" title="Menu Administration of a course" }
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Administration: Overview >](../learningresources/Administration.md)<br>
+[Course Administration: Overview >](Administration/index.md)<br>
 [Deleting, Moving and Copying Course Elements >](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)
+[Course Settings >](Course_Settings/index.md)
 
 **Further reading**<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Learning path course - Participant view >](../learningresources/Learning_path_course_Participant_view.md)<br>
 [Copy a course with wizard >](../learningresources/Course_Copy_Wizard.md)

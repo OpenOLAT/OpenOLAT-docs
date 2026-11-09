@@ -328,16 +328,16 @@ Ein Zurücksetzen **einzelner** Formulare ist im Kursbaustein "Umfrage" **nicht*
 **Weiterführend**<br>
 [Kursbaustein "Umfrage" >](../../manual_user/learningresources/Course_Element_Survey.de.md)<br>
 [Kursbaustein "Formular" >](../../manual_user/learningresources/Course_Element_Form.de.md)<br>
-[Der Formulareditor >](../../manual_user/learningresources/Form_Editor.de.md)<br>
-[Formular-Elemente >](../../manual_user/learningresources/Form_Elements.de.md)<br>
+[Der Formulareditor >](../../manual_user/learningresources/Form_Editor/index.de.md)<br>
+[Formular-Elemente >](../../manual_user/learningresources/Form_Elements/index.de.md)<br>
 [Fragebogen Statistiken >](../../manual_user/learningresources/Statistics_Survey.de.md)<br>
-[Formulare - Übersicht >](../../manual_user/learningresources/Form.de.md)<br>
+[Formulare - Übersicht >](../../manual_user/learningresources/Form/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../../manual_user/learningresources/Access_configuration.de.md)<br>
 [Erinnerungen >](../../manual_user/learningresources/Course_Reminders.de.md)<br>
 [Formulare in Kursen >](../../manual_user/learningresources/Forms_in_Courses.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring/index.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving.de.md)
+[Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving/index.de.md)
 
 
 [Zum Seitenanfang ^](#survey)

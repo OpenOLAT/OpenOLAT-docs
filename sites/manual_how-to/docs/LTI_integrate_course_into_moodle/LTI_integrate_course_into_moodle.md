@@ -134,7 +134,7 @@ If several OpenOlat courses are to be reachable via the same deployment ID, shar
 [One deployment ID for several courses >](../../manual_user/learningresources/LTI_Share_courses.md#deployment_id_several_courses)
 
 You can find more about the LTI 1.3 access configuration section in the user manual under:<br>
-[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md#section_LTI)
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md#section_LTI)
 
 [To the top of the page ^](#LTI_integrate_course_into_moodle)
 
@@ -183,7 +183,7 @@ In the OpenOlat course, you can verify the test call in the members management: 
 [LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)<br>
 [LTI - External Platforms >](../../manual_admin/administration/LTI_External_platforms.md)<br>
 [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
-[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md)
 
 **Further reading**<br>
 [Configure LTI access to a group >](../../manual_user/groups/LTI_Share_groups.md)<br>

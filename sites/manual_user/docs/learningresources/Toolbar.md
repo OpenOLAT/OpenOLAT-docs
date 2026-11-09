@@ -33,7 +33,7 @@ Available since | Release 10.0 (2014)
 ![Tool Administration highlighted at the far left of the toolbar: the menu owners and authorised coaches use to manage the course. Next to it the status Published and the tools starting with Info page](assets/toolbar_admin_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
 The course administration is only displayed to those authorized to edit, not to the participants. Many menu options for administration and editing can be accessed there.<br>
-[More >](../learningresources/Administration.md)
+[More >](Administration/index.md)
 
 ---
 
@@ -179,7 +179,7 @@ If the appointment and absence management is enabled, it can be accessed here to
 ![Tool Glossary with the mortarboard icon and a selection arrow highlighted in the toolbar, to its left Documents, to its right Course search](assets/toolbar_glossary_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
 If a glossary has been linked to the course, it can also be accessed from the toolbar. A glossary can be used to explain the terms of a course, a subject or an event. The terms are automatically sorted alphabetically and can be accessed by clicking on the corresponding initial letter.<br>
-[More >](../learningresources/Glossary.md)
+[More >](Glossary/index.md)
 
 ---
 

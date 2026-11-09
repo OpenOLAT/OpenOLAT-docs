@@ -99,7 +99,7 @@ Besitzer:innen haben alle Rechte im Kurs. Sie bearbeiten den Kurs, verwalten die
 
 ### Betreuer:in {: #coach}
 
-Betreuer:innen begleiten und bewerten die Teilnehmenden, den Kurs selbst gestalten sie nicht. Sie haben Zugriff auf das [Bewertungswerkzeug](../../learningresources/Assessment_tool_overview.de.md) des Kurses und auf "Teststatistiken" und "Fragebogen Statistiken". Den Kurs bearbeiten sie nicht im Kurseditor, und sie können ihn nicht löschen. Im Bewertungswerkzeug sehen sie die Teilnehmer:innen, die direkt im Kurs eingetragen sind. Teilnehmer:innen einer Gruppe oder einer Durchführung sehen sie nur, wenn sie auch dort Betreuer:in sind.
+Betreuer:innen begleiten und bewerten die Teilnehmenden, den Kurs selbst gestalten sie nicht. Sie haben Zugriff auf das [Bewertungswerkzeug](../../learningresources/Assessment_tool_overview/index.de.md) des Kurses und auf "Teststatistiken" und "Fragebogen Statistiken". Den Kurs bearbeiten sie nicht im Kurseditor, und sie können ihn nicht löschen. Im Bewertungswerkzeug sehen sie die Teilnehmer:innen, die direkt im Kurs eingetragen sind. Teilnehmer:innen einer Gruppe oder einer Durchführung sehen sie nur, wenn sie auch dort Betreuer:in sind.
 
 Brauchen Betreuer:innen weitere Rechte, haben Besitzer:innen zwei Wege:
 
@@ -284,14 +284,14 @@ Ein Kurs, den eine Person über dieses Recht bearbeitet, ohne Besitzer:in zu sei
 
 Mit diesem Recht öffnen Mitglieder "Archivierung & Reports" im Menü "Administration" des Kurses, mit denselben Optionen wie Kursbesitzer:innen.
 
-[Mehr zur Archivierung & Reports >](../../learningresources/Course_Archiving.de.md)
+[Mehr zur Archivierung & Reports >](../../learningresources/Course_Archiving/index.de.md)
 
 
 #### Bewertungs-Werkzeug {: #assessment_tool}
 
 Das Bewertungswerkzeug gehört zur Grundausstattung aller Betreuer:innen. Mit diesem Recht öffnen es auch weitere Mitglieder im Menü "Administration" des Kurses. Wer das Recht hat, sieht dort alle Teilnehmer:innen des Kurses und kann Daten zurücksetzen und löschen, auch als Betreuer:in. Eine Prüfung mit manuellem Start startet und beendet die Person mit diesem Recht ebenfalls im Bewertungswerkzeug.
 
-[Mehr zum Bewertungswerkzeug >](../../learningresources/Assessment_tool_overview.de.md)
+[Mehr zum Bewertungswerkzeug >](../../learningresources/Assessment_tool_overview/index.de.md)
 
 
 #### Glossar-Werkzeug {: #glossary_tool}
@@ -300,7 +300,7 @@ Mit diesem Recht fügen Mitglieder über das Glossar-Icon in der Toolbar des Kur
 
 Ist noch kein Glossar angelegt, ist das Glossar-Icon nicht sichtbar, und das Recht allein gibt keinen Zugriff. Damit die Mitglieder das Glossar selbst anlegen, brauchen sie zusätzlich das Recht "Kurseditor". Dann richten sie es unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` und `Tab "Optionen"` ein.
 
-[Mehr zum Glossar >](../../learningresources/Glossary.de.md)
+[Mehr zum Glossar >](../../learningresources/Glossary/index.de.md)
 
 
 #### Statistiken {: #statistics}
@@ -314,7 +314,7 @@ Mit diesem Recht öffnen Mitglieder "Kursstatistiken" im Menü "Administration" 
 
 Mit diesem Recht öffnen Mitglieder "Prüfungsverwaltung" im Menü "Administration" des Kurses, mit denselben Optionen wie Kursbesitzer:innen. Die Mitglieder legen dort Prüfungsmodi an, bearbeiten und löschen sie und starten und beenden eine Prüfung mit manuellem Start.
 
-[Mehr zur Prüfungsverwaltung >](../../learningresources/Assessment_Management.de.md)
+[Mehr zur Prüfungsverwaltung >](../../learningresources/Assessment_Management/index.de.md)
 
 
 #### Kurs Datenbank {: #course_database}
@@ -356,7 +356,7 @@ Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf e
 [Fragenpool: Übersicht >](../../area_modules/Question_Bank/index.de.md)<br>
 [Rollen und Rechte: Rollen zuweisen >](../Assign_Roles.de.md)<br>
 [Rollen und Rechte: Gastzugang >](../guest_access.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../learningresources/Assessment_tool_overview/index.de.md)<br>
 [Rollen und Rechte: Rechte in Kursen >](../Authorisation_Concept.de.md)<br>
 [Kursbaustein "Adobe Connect" >](../../learningresources/Course_Element_Adobe_Connect.de.md)<br>
 [Kursbaustein "Aufgabe" >](../../learningresources/Course_Element_Task/index.de.md)<br>
@@ -397,10 +397,10 @@ Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf e
 [Gruppen >](../../groups/index.de.md)<br>
 [Gruppenadministration >](../../groups/Group_Administration/index.de.md)<br>
 [Kursbausteine im Kurseditor >](../../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../../learningresources/Course_Archiving.de.md)<br>
-[Glossar >](../../learningresources/Glossary.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../../learningresources/Course_Archiving/index.de.md)<br>
+[Glossar >](../../learningresources/Glossary/index.de.md)<br>
 [Kursstatistiken >](../../learningresources/Statistics_Course.de.md)<br>
-[Prüfungsverwaltung: Übersicht >](../../learningresources/Assessment_Management.de.md)<br>
+[Prüfungsverwaltung: Übersicht >](../../learningresources/Assessment_Management/index.de.md)<br>
 [Coaching - Personen >](../../area_modules/Coaching_People.de.md)<br>
 [Kontosuche >](../../../manual_admin/usermanagement/Search_Users.de.md)
 

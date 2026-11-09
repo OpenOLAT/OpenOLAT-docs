@@ -136,7 +136,7 @@ B) You switch existing subscriptions on or off with the buttons "Activate existi
 
 This setting defines the order in which roles are prioritized when a member has multiple roles when accessing the learning resource. The top role in the list has the highest priority. System roles always have a lower priority than member roles.
 
-The list contains the member roles Owner, Coach and Participant. If a person has none of these roles, OpenOlat opens the learning resource in a system role. The order of the system roles is fixed and cannot be changed: Principal, Course planner, Learning resource manager, CPL master coach, Administrator. For example, a person without a member role who is Principal and Learning resource manager starts in the role Principal and uses the [role change](../../manual_user/learningresources/General_Information.md#role_change) in the toolbar to switch to the role Learning resource manager.
+The list contains the member roles Owner, Coach and Participant. If a person has none of these roles, OpenOlat opens the learning resource in a system role. The order of the system roles is fixed and cannot be changed: Principal, Course planner, Learning resource manager, CPL master coach, Administrator. For example, a person without a member role who is Principal and Learning resource manager starts in the role Principal and uses the [role change](../../manual_user/learningresources/General_Information/index.md#role_change) in the toolbar to switch to the role Learning resource manager.
 
 [To the top of the page ^](#learning_resource)
 
@@ -200,7 +200,7 @@ Course owners overwrite the setting for their course under:<br>
 [Toolbar: Overview >](../../manual_user/learningresources/Toolbar.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Access configuration >](../../manual_user/learningresources/Access_configuration.md)<br>
-[General Information >](../../manual_user/learningresources/General_Information.md)<br>
+[General Information >](../../manual_user/learningresources/General_Information/index.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Customizing: Overview >](Customizing.md)
 

@@ -113,7 +113,7 @@ With frentix: we show it in a training. For a training, contact your organisatio
 
 The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
-- **Learning resource:** [Form](../learningresources/Form.md), [Test](../learningresources/Course_Element_Test/index.md), [Questionnaire](../learningresources/Course_Element_Survey.md), [Wiki](../learningresources/Course_Element_Wiki.md) and more. All settings are on the page [Various Types of Learning Resources](../learningresources/index.md).
+- **Learning resource:** [Form](../learningresources/Form/index.md), [Test](../learningresources/Course_Element_Test/index.md), [Questionnaire](../learningresources/Course_Element_Survey.md), [Wiki](../learningresources/Course_Element_Wiki.md) and more. All settings are on the page [Various Types of Learning Resources](../learningresources/index.md).
 
 ## Further information {: #further_information}
 
@@ -122,7 +122,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Forms - Overview >](../learningresources/Form.md)<br>
+[Forms - Overview >](../learningresources/Form/index.md)<br>
 [Course Element Test >](../learningresources/Course_Element_Test/index.md)<br>
 [Course Element Survey >](../learningresources/Course_Element_Survey.md)<br>
 [Course Element Wiki >](../learningresources/Course_Element_Wiki.md)

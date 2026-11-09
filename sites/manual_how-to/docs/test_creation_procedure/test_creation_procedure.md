@@ -445,7 +445,7 @@ Further information can be found in the chapter "[Assessing tests](../../manual_
 [Benefits of metadata >](../question_metadata/question_metadata.md)
 
 **Further reading**<br>
-[Test editor >](../../manual_user/learningresources/Test_editor_QTI_2.1.md)<br>
+[Test editor >](../../manual_user/learningresources/Test_editor_QTI_2.1/index.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 [Question Bank: Overview >](../../manual_user/area_modules/Question_Bank/index.md)<br>
 [How do I exchange a test? >](../exchange_tests/exchange_tests.md)

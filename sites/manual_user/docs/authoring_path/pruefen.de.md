@@ -127,7 +127,7 @@ Der Bereich eines Kurses, in dem Betreuende und Besitzende alle Resultate der Te
 
     **Wie Nutzende es nennen:** Bewertungstool, Benotungstool, Prüfungswerkzeug, Beurteilungstool, Benotungswerkzeug, Testinstrument
 
-    [Im Handbuch lesen](../learningresources/Assessment_tool_overview.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertungswerkzeug%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../learningresources/Assessment_tool_overview/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Bewertungswerkzeug%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 </div>
 
@@ -255,7 +255,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Kursbaustein Test >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Lernende bewerten >](../learningresources/Assessment_of_learners.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](../personal_menu/Certificates.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>
 [Persönliche Erfolge/Leistungen: Badges >](../personal_menu/OpenBadges.de.md)<br>
@@ -274,7 +274,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.de.md)
 
 **Weiterführend**<br>
-[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 

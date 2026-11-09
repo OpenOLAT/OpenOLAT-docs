@@ -69,7 +69,7 @@ In the tab "Folder configuration" you define under "File destination" *where* th
 
 With the option "Automatically generated folder", OpenOlat creates the subfolder "_courseelementdata" in the storage folder of the course and in it a subfolder with the name of the course element, along the course structure. OpenOlat saves all files of the course element there. You open the storage folder via `Course > Administration > Files > Storage folder`.
 
-With the option "Choose folder from course storage", you select an existing folder from the storage folder of the course. This is worthwhile if you have already uploaded the files to the storage folder in an orderly structure. At this point you can also create a new folder in the storage folder. If a resource folder is linked to the course in the [Course settings](../learningresources/Course_Settings.md), you also select it here: it appears among the folders of the storage folder as "_sharedfolder".
+With the option "Choose folder from course storage", you select an existing folder from the storage folder of the course. This is worthwhile if you have already uploaded the files to the storage folder in an orderly structure. At this point you can also create a new folder in the storage folder. If a resource folder is linked to the course in the [Course settings](Course_Settings/index.md), you also select it here: it appears among the folders of the storage folder as "_sharedfolder".
 
 #### Transfer files {: #transfer_files}
 
@@ -138,7 +138,7 @@ Persons with editing rights can switch directly to editing mode for supported fi
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
 [User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>

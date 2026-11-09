@@ -398,6 +398,6 @@ Betreuer:innen können dann im Bewertungswerkzeug mit diesen Vorgaben für einze
 
 **Weiterführend**<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)
 
 [zum Seitenanfang ^](#exam_preparation)

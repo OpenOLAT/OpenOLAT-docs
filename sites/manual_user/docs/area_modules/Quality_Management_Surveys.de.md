@@ -37,7 +37,7 @@ Umgekehrt sind die selbst zur Qualitätskontrolle erstellten Lernressourcen für
 
 ## Was sollte ein Qualitätsmanagements-Formular enthalten?
 
-Lernressourcen vom Typ "Formular" erstellen Sie im Autorenbereich und bauen sie im [Formulareditor](../learningresources/Form_Editor.de.md) auf. Jedes Element, das der Formulareditor anbietet, lässt sich in das Formular einfügen.
+Lernressourcen vom Typ "Formular" erstellen Sie im Autorenbereich und bauen sie im [Formulareditor](../learningresources/Form_Editor/index.de.md) auf. Jedes Element, das der Formulareditor anbietet, lässt sich in das Formular einfügen.
 
 Häufig wird ein Rubrik-Element mit einer Likertskala verwendet. Mit Feldern für Freitext-Eingaben können persönliche Kommentare ermöglicht werden. Wenn keine Felder zur Angabe des Namens angelegt werden, bleibt die Umfrage anonym.
 
@@ -66,7 +66,7 @@ Soll mit neuen Formular-Lernressourcen gearbeitet werden, kann die bisherige Ler
 [Kursbaustein "Formular" >](../learningresources/Course_Element_Form.de.md)<br>
 [Kursbaustein "Umfrage" >](../learningresources/Course_Element_Survey.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
-[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
+[Der Formulareditor >](../learningresources/Form_Editor/index.de.md)<br>
 [Qualitätsmanagement: Übersicht >](../area_modules/Quality_Management/index.de.md)<br>
 [Qualitätsmanagement: Datenerhebung >](../area_modules/Quality_Management_Data_Collections.de.md)<br>
 [Qualitätsmanagement: Datenerhebungsgeneratoren >](../area_modules/Quality_Management_Data_Collection_Generators.de.md)

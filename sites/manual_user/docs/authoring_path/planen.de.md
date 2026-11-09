@@ -61,7 +61,7 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     **Englisch:** Course design
 
-    [Im Handbuch lesen](../learningresources/Administration.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursdesign%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../learningresources/Administration/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Kursdesign%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 <div class="oo-mh-kids" markdown>
 
@@ -77,7 +77,7 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     **Nicht verwechseln mit «[Herkömmlicher Kurs](../learningresources/Creating_Course.de.md)»:** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
 
-    [Im Handbuch lesen](../learningresources/Learning_path_course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Lernpfadkurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
+    [Im Handbuch lesen](../learningresources/Learning_path_course/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Lernpfadkurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
 ??? note "Herkömmlicher Kurs im Detail"
 
@@ -87,7 +87,7 @@ Die Wahl beim Erstellen eines Kurses zwischen Lernpfadkurs und herkömmlichem Ku
 
     **Wie Nutzende es nennen:** klassischer Kurs, alter Kurstyp, Standardkurs, Selbstgesteuerter Kurs, Selbstlernkurs
 
-    **Nicht verwechseln mit «[Lernpfadkurs](../learningresources/Learning_path_course.de.md)»:** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
+    **Nicht verwechseln mit «[Lernpfadkurs](../learningresources/Learning_path_course/index.de.md)»:** Der Lernpfadkurs steuert über Lernpfad und Ausnahmen, der herkömmliche Kurs über Bedingungen.
 
     [Im Handbuch lesen](../learningresources/Creating_Course.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Herk%C3%B6mmlicher%20Kurs%22%20in%20OpenOlat%20und%20wie%20verwende%20ich%20das%3F)
 
@@ -147,25 +147,25 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 
 Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
-- **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kurs-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md) (in der Oberfläche: **Automatische Verwaltung des Lebenszyklus**), [Kursarchiv](../learningresources/Course_Archiving.de.md), [Infoseite](../learningresources/Info_page.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
+- **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kurs-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md) (in der Oberfläche: **Automatische Verwaltung des Lebenszyklus**), [Kursarchiv](../learningresources/Course_Archiving/index.de.md), [Infoseite](../learningresources/Info_page.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
 - **Kursstatus:** [Papierkorb](../learningresources/Access_configuration.de.md), [Freigabe Betreuer:innen](../learningresources/Access_configuration.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Lernressourcen >](../learningresources/index.de.md)<br>
-[Kurs-Administration: Übersicht >](../learningresources/Administration.de.md)<br>
+[Kurs-Administration: Übersicht >](../learningresources/Administration/index.de.md)<br>
 [Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
-[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Kurseditorwerkzeuge >](../learningresources/Using_additional_Course_Editor_Tools.de.md)<br>
 [Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)<br>
+[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)
 
 **Weiterführend**<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](../learningresources/Course_Settings/index.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 
 [Zum Seitenanfang ^](#planen)

@@ -127,7 +127,7 @@ Mit "Beiträge bewerten" und "Beiträge kommentieren" legen Sie fest, ob die Bei
 [Blog erstellen >](../learningresources/Blog_Create.de.md)<br>
 [Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
 [Kursbaustein "Blog" >](../learningresources/Course_Element_Blog.de.md)<br>
-[Blog: Übersicht >](../learningresources/Blog.de.md)<br>
+[Blog: Übersicht >](Blog/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 

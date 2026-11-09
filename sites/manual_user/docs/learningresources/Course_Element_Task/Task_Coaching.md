@@ -56,7 +56,7 @@ Clicking on a person opens their workflow. There, depending on the configuration
 To process several persons at once, select the rows. The actions that match the configuration of the task then appear above the list:
 
 * **Finalize assessment**: finalizes the assessment of the selected persons.
-* **Release** and **Withdraw release**: make the assessment visible to the selected persons or hide it again. Coaches see both actions if course owners allow them "release assessment" in the [section User rights](../Course_Settings_Assessment.md#section_assessment_rights).
+* **Release** and **Withdraw release**: make the assessment visible to the selected persons or hide it again. Coaches see both actions if course owners allow them "release assessment" in the [section User rights](../Course_Settings_Assessment/index.md#section_assessment_rights).
 * **Extend**: moves the deadlines of the selected persons. The action is available with fixed deadlines. With a [relative date](Task_Setup.md#workflow_relative_dates), you extend per person via :o_icon_o_icon_actions:.
 * **Export results**: downloads the documents of the selected persons as a ZIP file.
 * **E-Mail**: writes an e-mail to the selected persons.
@@ -140,12 +140,12 @@ With "Collect document(s)" the submission is closed again. An extended submissio
 [Assessing tasks and group tasks >](../Assessing_tasks_and_group_tasks.md)<br>
 [Set up a task >](Task_Setup.md)<br>
 [Course Element "Group Task" >](../Course_Element_Grouptask.md)<br>
-[Course Settings - Tab Assessment >](../Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../Course_Settings_Assessment/index.md)<br>
 [Work on a task (participants) >](Task_Participants.md)<br>
 [Course elements in the Course editor >](../General_Configuration_of_Course_Elements.md)
 
 **Further reading**<br>
-[Assessment tool - overview >](../Assessment_tool_overview.md)<br>
-[Course elements at a glance >](../Course_Elements.md)
+[Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
+[Course elements at a glance >](../Course_Elements/index.md)
 
 [To the top of the page ^](#coach_task)

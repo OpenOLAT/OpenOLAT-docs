@@ -126,7 +126,7 @@ You can find everything per person in the **activity log** under the 3 points at
 **Further information**<br>
 [Assessment management: Assessment mode >](Assessment_mode.md)<br>
 [Test settings - Administration >](Test_settings.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)
+[Assessment tool - overview >](Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#Assessment_inspection)
 

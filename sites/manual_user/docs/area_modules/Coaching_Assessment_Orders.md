@@ -15,7 +15,7 @@ Depending on your role, in addition to your own assessment orders, the others ar
 
 Three terms appear on this page. They refer to different things:
 
-* **Assessment**: the result of a person at an assessable course element, that is status, points, "Passed" and, if applicable, the grade. A test also has an assessment. You edit it in the [assessment form](../learningresources/The_assessment_form.md) or in the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course.
+* **Assessment**: the result of a person at an assessable course element, that is status, points, "Passed" and, if applicable, the grade. A test also has an assessment. You edit it in the [assessment form](../learningresources/The_assessment_form.md) or in the [assessment tool](../learningresources/Assessment_tool_overview/index.md) of the course.
 * **Correction**: reviewing a submission by hand where OpenOlat does not evaluate it itself, for example with essay questions in a test. The correction is a step on the way to the assessment: in a test, the correcting person awards the points, and the assessment results from them. Coaches correct a test in the [correction tool](../learningresources/Assessing_tests.md), correctors via "Grade" in their grading assignment.
 * **Levels/Grading**: the conversion of the points into a grade according to a rating scale. Without levels/grading, the assessment consists of points and, if applicable, "Passed". With [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md), the grade is added, and the rating system determines whether the score counts as passed.
 
@@ -39,7 +39,7 @@ The pages on which owners make the respective setting:
 
 * **Open reviews**: [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction), [Course Element "Task"](../learningresources/Course_Element_Task/index.md), [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)
 * **Open levels/gradings**: [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md)
-* **Reviews to release**: [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction), [Course settings, section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights)
+* **Reviews to release**: [Set up a test](../learningresources/Course_Element_Test/Test_Setup.md#section_correction), [Course settings, section Assessment rights](../learningresources/Course_Settings_Assessment/index.md#section_assessment_rights)
 * **Grading assignments**: [Test settings](../learningresources/Test_settings.md#correction-workflow)
 
 The course element must be assessable and set to manual assessment, which means points or "Passed" are set at the course element. If the correction of a test is set to "Automatic", OpenOlat evaluates the test itself and releases the result immediately; the same applies to the assignment "Automatically on score change" for levels and grading.
@@ -71,7 +71,7 @@ Here you find all course elements that have already been assessed but for which 
 
 A row appears if "Levels/Grading" is switched on at the course element and the "Assignment" is set to "Manually by coach", the points are set and the grade is still pending. Course owners set both in the course editor at the course element, for a test in the tab "Test configuration", otherwise in the tab "Assessment". In addition, the module [Levels/Grading](../learningresources/Assessment_translate_points_in_grades.md) and a stored rating scale are required.
 
-Coaches without ownership see the row and assign the grade as long as the option "assign Levels/Grading" is switched on. The option is switched on by default. In learning path courses, course owners switch it off or on under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights). Conventional courses do not have this section; there, coaches can always assign the grade.
+Coaches without ownership see the row and assign the grade as long as the option "assign Levels/Grading" is switched on. The option is switched on by default. In learning path courses, course owners switch it off or on under `Course > Administration > Settings > Tab "Assessment"` in the [section Assessment rights](../learningresources/Course_Settings_Assessment/index.md#section_assessment_rights). Conventional courses do not have this section; there, coaches can always assign the grade.
 
 [To the top of the page ^](#assessment_orders)
 
@@ -83,7 +83,7 @@ Here you find all assessments that are not yet visible to the participants and s
 
 In this tab, it is also possible to select all course elements and release them all at once.
 
-For a test, the field "Release assessment" in the [section Correction](../learningresources/Course_Element_Test/Test_Setup.md#section_correction) controls whether OpenOlat releases the assessment itself once the correction is completed. For all other manually assessed course elements, the course option "release assessment" decides. The same option gives coaches without ownership access to this tab. It is switched on by default. In learning path courses, course owners switch it off or on in the [section Assessment rights](../learningresources/Course_Settings_Assessment.md#section_assessment_rights); conventional courses do not have this section.
+For a test, the field "Release assessment" in the [section Correction](../learningresources/Course_Element_Test/Test_Setup.md#section_correction) controls whether OpenOlat releases the assessment itself once the correction is completed. For all other manually assessed course elements, the course option "release assessment" decides. The same option gives coaches without ownership access to this tab. It is switched on by default. In learning path courses, course owners switch it off or on in the [section Assessment rights](../learningresources/Course_Settings_Assessment/index.md#section_assessment_rights); conventional courses do not have this section.
 
 [To the top of the page ^](#assessment_orders)
 
@@ -135,13 +135,13 @@ The management of all correctors and their assignments, on the other hand, is do
 
 **Mentioned on this page**<br>
 [The assessment form >](../../manual_user/learningresources/The_assessment_form.md)<br>
-[Assessment tool - Overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - Overview >](../learningresources/Assessment_tool_overview/index.md)<br>
 [Assessing tests >](../../manual_user/learningresources/Assessing_tests.md)<br>
 [Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 [Set up a test >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md)<br>
 [Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Assessment" >](../../manual_user/learningresources/Course_Element_Assessment.md)<br>
-[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)

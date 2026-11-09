@@ -66,7 +66,7 @@ Ist eine [Rubrik](Form_Element_Rubric.de.md) als Bewertungsgrundlage hinterlegt,
 
 ![Fenster "Rubrik-Bewertung" mit vier Kriterien in Zeilen und der Skala von "sehr schwach" bis "sehr gut" in Spalten: je Kriterium wählen Sie eine Stufe](assets/assessment_of_course_modules_rubric_v1_de.png){ class="shadow lightbox" title="Rubrik-Bewertung einer Person im Kursbaustein Bewertung · 2026.10.28" }
 
-Für den Kursbaustein "Bewertung" steht zusätzlich die [Massenbewertung](Assessment_tool_overview.de.md#mass_assessment) zur Verfügung.
+Für den Kursbaustein "Bewertung" steht zusätzlich die [Massenbewertung](Assessment_tool_overview/index.de.md#mass_assessment) zur Verfügung.
 
 ## Portfolioaufgabe [:octicons-tag-16:{ title="ab Release 12.0 (OO-2923)" }](https://track.frentix.com/issue/OO-2923)
 Für den Kursbaustein "[Portfolioaufgabe](Creating_Portfolio_Tasks.de.md)" bietet das 3-Punkte-Menü die oben genannten Aktionen:
@@ -127,7 +127,7 @@ Jedes Mal, wenn eine Person ein SCO beendet, legt OpenOlat zusätzlich eine Kopi
 
 ![Fenster mit der SCO ID im Titel, markiertem Suchfeld und Spalten Frage, Schlüssel und Wert: je Zeile ein übermitteltes SCORM-Datenfeld, etwa Kursstatus mit dem Wert completed](assets/assessment_of_course_modules_scorm_sco_data_v1_de.png){ class="shadow lightbox" title="Übermittelte Daten eines SCO im Bewertungswerkzeug · 2026.10.28" }
 
-Die Liste und die Tabelle im Fenster exportieren Sie je mit dem Symbol "Herunterladen". Die SCORM-Daten aller Teilnehmenden eines Kurses exportieren Sie dagegen unter `Kurs > Administration > Archivierung & Reports`, siehe [SCORM Resultate](Course_Archiving.de.md#scorm-resultate).
+Die Liste und die Tabelle im Fenster exportieren Sie je mit dem Symbol "Herunterladen". Die SCORM-Daten aller Teilnehmenden eines Kurses exportieren Sie dagegen unter `Kurs > Administration > Archivierung & Reports`, siehe [SCORM Resultate](Course_Archiving/index.de.md#scorm-resultate).
 
 Mit "SCORM Resultate zurücksetzen" oben rechts löschen Sie nach einer Rückfrage alle übermittelten SCORM-Daten der Person in diesem Kursbaustein. Ein als abgeschlossen markiertes SCORM-Paket kann die Person danach erneut durcharbeiten. Die beim letzten Versuch übertragenen Punkte bleiben unverändert. OpenOlat archiviert die gelöschten Daten nicht. Sollen auch Punkte, Status und Anzahl Versuche zurückgesetzt und die Daten vorher archiviert werden, verwenden Sie "Daten zurücksetzen", siehe [Bewertungswerkzeug - Daten zurücksetzen](Assessment_tool_reset_data.de.md). In einem schreibgeschützten Kurs fehlt der Button "SCORM Resultate zurücksetzen".
 
@@ -146,13 +146,13 @@ Ist der Schalter eingeschaltet, erscheinen dort zusätzlich die Felder "Skalieru
 [Bewertungswerkzeug - Daten zurücksetzen >](Assessment_tool_reset_data.de.md)<br>
 [Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>
 [Das Formular-Element Rubrik >](Form_Element_Rubric.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
 [Portfolioaufgabe erstellen >](Creating_Portfolio_Tasks.de.md)<br>
 [Portfolioaufgabe: kommentieren und bewerten >](Portfolio_assignment_Grading.de.md)<br>
 [Kursbaustein "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Lernende bewerten >](Assessment_of_learners.de.md)<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
+[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Kursbaustein "LTI-Seite" >](Course_Element_LTI_Page.de.md)
 
 **Weiterführend**<br>

@@ -19,19 +19,19 @@ Wenn Sie noch kein Formular für Ihre Umfrage erstellt haben, zeigt die Anleitun
 
 !!! info "Wichtig"
 
-    Ein Formular, das in einem Kurs verlinkt ist, bearbeiten Sie im [Formulareditor](../learningresources/Form_Editor.de.md) nur so lange vollständig, bis jemand das Formular zum ersten Mal aufgerufen hat. Danach ändern Sie nur noch Texte, etwa um Tippfehler zu korrigieren.
+    Ein Formular, das in einem Kurs verlinkt ist, bearbeiten Sie im [Formulareditor](Form_Editor/index.de.md) nur so lange vollständig, bis jemand das Formular zum ersten Mal aufgerufen hat. Danach ändern Sie nur noch Texte, etwa um Tippfehler zu korrigieren.
 
 !!! warning "Achtung"
 
     Wenn Sie eine Umfrage [zurücksetzen](#reset_surveys), löscht OpenOlat alle Antworten, auch die mit "Zwischenspeichern" gesicherten Eingaben von Teilnehmenden, die die Umfrage noch nicht abgeschlossen haben. Wer den Fragebogen beim Zurücksetzen geöffnet hat, erhält beim nächsten Speichern die Meldung "Speichern fehlgeschlagen", und die Eingaben gehen verloren.
 
-Weitere Informationen rund um Formulare finden Sie auf der Seite [Formulare - Übersicht](../learningresources/Form.de.md).
+Weitere Informationen rund um Formulare finden Sie auf der Seite [Formulare - Übersicht](Form/index.de.md).
 
 ## Formular in Umfragen {: #forms_in_surveys}
 
 Im Kursbaustein "Umfrage" dient die Lernressource "Formular" als Fragebogen. Besitzer:innen des Kurses binden so Fragebögen in ihren Kurs ein, und Teilnehmende füllen die bereitgestellten Umfragen aus. Wer die Ergebnisse sieht, legen Sie in den Berechtigungen des Kursbausteins fest.
 
-OpenOlat stellt sicher, dass Teilnehmende die Umfrage nur einmal ausfüllen. Die Resultate speichert OpenOlat standardmässig anonymisiert. Sollen die Antworten einer Person zugeordnet werden, fügen Sie dem Formular im [Formulareditor](../learningresources/Form_Editor.de.md) passende Formular-Elemente hinzu.
+OpenOlat stellt sicher, dass Teilnehmende die Umfrage nur einmal ausfüllen. Die Resultate speichert OpenOlat standardmässig anonymisiert. Sollen die Antworten einer Person zugeordnet werden, fügen Sie dem Formular im [Formulareditor](Form_Editor/index.de.md) passende Formular-Elemente hinzu.
 
 ### Im Kurseditor {: #course_editor}
 
@@ -53,7 +53,7 @@ Im Tab "Umfrage" konfigurieren Sie die Umfrage. Im ersten Schritt wählen Sie ei
 
 ![Zwei eigene Formulare unter Meine Einträge, markiert ist die Spalte Auswählen mit dem Haken je Formular](assets/course_element_survey_choose_form_v1_de.png){ class="shadow lightbox" title="Dialog Formular auswählen · 2026.11.03" }
 
-Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im [Formulareditor](../learningresources/Form_Editor.de.md) hinzu.
+Ein neu erstelltes Formular enthält zunächst noch keine Elemente, Fragen oder Textfelder. Diese fügen Sie im [Formulareditor](Form_Editor/index.de.md) hinzu.
 
 Ein Formular, das Sie direkt im Kurseditor erstellen, legt OpenOlat als neue Lernressource "Formular" an. Sie finden es auch im [Autorenbereich](../area_modules/Authoring/index.de.md) unter "Meine Einträge" und binden es in weiteren Kursen ein.
 
@@ -117,7 +117,7 @@ Mit "Drucken", "Export PDF" und "Export Excel" drucken Sie die Inhalte der vier 
 
 Dieselbe Auswertung finden Sie auch unter `Kurs > Administration > Fragebogen Statistiken`.
 
-Die Ergebnisse speichern Sie auch über die [Kursarchivierung](../learningresources/Course_Archiving.de.md). Dabei bündeln Sie die Ergebnisse mehrerer Kursbausteine in einer ZIP-Datei.
+Die Ergebnisse speichern Sie auch über die [Kursarchivierung](Course_Archiving/index.de.md). Dabei bündeln Sie die Ergebnisse mehrerer Kursbausteine in einer ZIP-Datei.
 
 ### Umfragen zurücksetzen {: #reset_surveys}
 
@@ -129,16 +129,16 @@ Besitzer:innen des Kurses setzen eine Umfrage im Menü mit den drei Punkten des 
 
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
-[Der Formulareditor >](../learningresources/Form_Editor.de.md)<br>
-[Formulare - Übersicht >](../learningresources/Form.de.md)<br>
+[Der Formulareditor >](Form_Editor/index.de.md)<br>
+[Formulare - Übersicht >](Form/index.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Module: Übersicht >](../../manual_admin/administration/Modules.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving.de.md)
+[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)
 
 **Weiterführend**<br>
-[Formular-Elemente >](Form_Elements.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)
+[Formular-Elemente >](Form_Elements/index.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)
 
 [Zum Seitenanfang ^](#course_element_survey)

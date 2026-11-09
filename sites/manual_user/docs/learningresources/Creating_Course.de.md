@@ -3,16 +3,16 @@
 :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank"} <br>
 :octicons-device-camera-video-24: **Video-Einführung**: [Login](<https://www.youtube.com/embed/tI7ag7i6zXc>){:target="_blank"} <br>
 
-![Einstieg zum Erstellen eines Kurses: Button Erstellen im Autorenbereich, aufgeklappt mit den Einträgen Kurs und Kurs aus Template](assets/creating_course_v1_de.png){ class="shadow lightbox" }
+![Einstieg zum Erstellen eines Kurses: Button Erstellen, aufgeklappt mit den Einträgen Kurs und Kurs aus Template](assets/creating_course_v1_de.png){ class="shadow lightbox" title="Autorenbereich" }
 
 Dieses Kapitel ist für Kursautor:innen geschrieben und zeigt Ihnen, wie Sie einen Kurs erstellen, einrichten und konfigurieren.
 
-Es gibt zwei Varianten von OpenOlat-Kursen: herkömmliche Kurse und [Lernpfadkurse](Learning_path_course.de.md), die sich teilweise in den Konfigurationsmöglichkeiten unterscheiden. Lernpfadkurse verfügen u.a. über eine [Fortschrittsanzeige](Learning_path_course_Participant_view.de.md). Im Autorenbereich können sich Kursbesitzer:innen durch Einblenden der Spalte "Technischer Typ" direkt anzeigen lassen, ob es sich bei einem Kurs um einen Lernpfadkurs oder einen herkömmlichen Kurs handelt.
+Es gibt zwei Varianten von OpenOlat-Kursen: herkömmliche Kurse und [Lernpfadkurse](Learning_path_course/index.de.md), die sich teilweise in den Konfigurationsmöglichkeiten unterscheiden. Lernpfadkurse verfügen u.a. über eine [Fortschrittsanzeige](Learning_path_course_Participant_view.de.md). Im Autorenbereich können sich Kursbesitzer:innen durch Einblenden der Spalte "Technischer Typ" direkt anzeigen lassen, ob es sich bei einem Kurs um einen Lernpfadkurs oder einen herkömmlichen Kurs handelt.
 
 ## Wie können Sie starten? {: #how_to_start}
 
 Verschaffen Sie sich am besten zunächst einen Überblick über den gesamten
-[Kurszyklus](General_Information.de.md) und schauen Sie sich dann die einzelnen Bereiche an. Die konkreten [Kursbausteine](Course_Elements.de.md), die Sie für den Aufbau von Kursen verwenden können, werden in einem separaten Kapitel ausführlich erläutert. Die Erstellung der Kursstruktur erfolgt sowohl bei
+[Kurszyklus](General_Information/index.de.md) und schauen Sie sich dann die einzelnen Bereiche an. Die konkreten [Kursbausteine](Course_Elements/index.de.md), die Sie für den Aufbau von Kursen verwenden können, werden in einem separaten Kapitel ausführlich erläutert. Die Erstellung der Kursstruktur erfolgt sowohl bei
 Lernpfadkursen als auch bei herkömmlichen Kursen im Kurseditor.
 
 Das Kursdesign wählen Sie im Dialog "Kurs erstellen": "Mit Lernpfad" und "Mit Lernfortschritt" ergeben einen Lernpfadkurs, "Klassisch" einen herkömmlichen Kurs.
@@ -61,7 +61,7 @@ Sind einem eigenständigen Kurs also bereits Teilnehmer:innen zugeordnet, die vi
 
 Unabhängig vom Wechsel des Verwendungszwecks lässt sich über das Werkzeuge-Menü des Kurses aus einem bestehenden Kurs mit **"Als Template speichern"** eine Template-Kopie und aus einem Template mit **"Als Kurs instanziieren"** ein neuer Kurs erstellen. Dabei entsteht jeweils eine neue Lernressource; der ursprüngliche Eintrag bleibt unverändert.
 
-![Auswahlliste Verwendungszweck im Dialog Kurs erstellen, aufgeklappt mit den Werten Eigenständig, Verwendung im Course Planner und Template](assets/creating_course_purpose_v1_de.png){ class="shadow lightbox" }
+![Auswahlliste Verwendungszweck, aufgeklappt mit den Werten Eigenständig, Verwendung im Course Planner und Template](assets/creating_course_purpose_v1_de.png){ class="shadow lightbox" title="Dialog Kurs erstellen" }
 
 [Zum Seitenanfang ^](#creating_course)
 
@@ -71,10 +71,10 @@ Unabhängig vom Wechsel des Verwendungszwecks lässt sich über das Werkzeuge-Me
 
 ## Weiterführende Informationen {: #further_information}
 
-[Lernpfadkurs - Überblick >](Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Lernpfadkurs - Teilnehmeransicht >](Learning_path_course_Participant_view.de.md)<br>
-[Allgemeines >](General_Information.de.md)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Allgemeines >](General_Information/index.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Lernpfadkurse erstellen >](Creating_learning_path_courses.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Speichern (eines Kurses) als Template >](Course_Copy_Template.de.md)

@@ -43,7 +43,7 @@ hide:
 <p class="oo-mh-role__text">Accompany participants, assess them and issue evidence.</p>
 
 1. [Coaching](../area_modules/Coaching/index.md)
-1. [Assessment tool](../learningresources/Assessment_tool_overview.md)
+1. [Assessment tool](../learningresources/Assessment_tool_overview/index.md)
 1. [Course reminders](../learningresources/Course_Reminders.md)
 1. [Coach groups](../groups/index.md)
 1. [Course statistics](../learningresources/Statistics_Course.md)
@@ -187,9 +187,9 @@ The new features of release 21.0 are in the [release notes 21.0](../../release_n
 
 - [Sites and modules](../area_modules/index.md)
 - [Learning resources](../learningresources/index.md)
-- [Course elements](../learningresources/Course_Elements.md)
+- [Course elements](../learningresources/Course_Elements/index.md)
 - [Test question types](../learningresources/Test_question_types.md)
-- [Course administration](../learningresources/Administration.md)
+- [Course administration](../learningresources/Administration/index.md)
 - [Roles and rights](../basic_concepts/Roles_Rights/index.md)
 - [Groups](../groups/index.md)
 - [Personal menu](../personal_menu/index.md)

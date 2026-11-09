@@ -41,7 +41,7 @@ All learning resources have the menus:
 
 Depending on the learning resource, further menus are added.
 
-In the **Settings**, general information about the learning resource is stored, metadata is configured, sharing is set up, a catalog entry is defined and further learning resource-specific settings are made. Further information on the individual settings with regard to courses can be found under [Course Settings](../learningresources/Course_Settings.md).
+In the **Settings**, general information about the learning resource is stored, metadata is configured, sharing is set up, a catalog entry is defined and further learning resource-specific settings are made. Further information on the individual settings with regard to courses can be found under [Course Settings](Course_Settings/index.md).
 
 In the **Members management**, additional owners of the learning resource can be added. For learning resources with the usage "Standalone", coaches and participants can be added as well, see [Function concept courses and learning resources](General_Functions_Concept.md) [:octicons-tag-16:{ title="from Release 18.2 (OO-7277)" }](https://track.frentix.com/issue/OO-7277){:target="_blank"}.
 
@@ -66,7 +66,7 @@ Wiki, blog, podcast, glossary, resource folder and Portfolio 2.0 template have n
 
 ## Further information {: #further_information}
 
-[Course Settings >](../learningresources/Course_Settings.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
 [Function concept courses and learning resources >](General_Functions_Concept.md)
 
 [To the top of the page ^](#detailed_view)

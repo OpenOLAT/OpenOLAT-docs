@@ -18,13 +18,13 @@ Then click "Choose form". In the dialog you select an existing form or create a 
 
 ![Choose form dialog with your own forms in the My entries tab; the checkmark in the Select column takes over a form](assets/forms_in_rubric_scoring_select_form_v1_en.png){ class="shadow lightbox" title="Choose form dialog in the course editor · 2026.10.20" }
 
-The rubric assessment is based on a learning resource form to which a rubric element has been added in the [form editor](Form_Editor.md).
+The rubric assessment is based on a learning resource form to which a rubric element has been added in the [form editor](Form_Editor/index.md).
 
 The dialog opens in the "My entries" tab with the forms you own. In the "All entries" and "Search" tabs you find further forms that you may embed. Click the checkmark in the "Select" column to add a form to the course element.
 
 If there is no suitable form yet, create a new learning resource form with "Create" or upload an existing form with "Import file". The new form then also appears in the list and can be selected.
 
-A newly created form does not yet contain a rubric element. Add it in the course editor via "Edit" or directly in the learning resource in the [form editor](Form_Editor.md).
+A newly created form does not yet contain a rubric element. Add it in the course editor via "Edit" or directly in the learning resource in the [form editor](Form_Editor/index.md).
 
 A form that you create in the course editor is a learning resource of its own. You find it in the [authoring area](../area_modules/Authoring/index.md) under "My entries" and can embed it in further courses.
 
@@ -52,7 +52,7 @@ Once a rubric form is linked, you define in the "Assessment" tab what the partic
 
     If "Levels/Grading" is switched on, the rating scale determines the passing. The option "Display passed / not passed" does not appear then.
 
-**Include in course assessment**: In learning path courses, the switch appears as soon as "Score granted" or "Display passed / not passed" is switched on. If it is on, score and passing of the course element count towards the assessment of the whole course, which you define in the [course settings in the "Assessment" tab](../learningresources/Course_Settings_Assessment.md).
+**Include in course assessment**: In learning path courses, the switch appears as soon as "Score granted" or "Display passed / not passed" is switched on. If it is on, score and passing of the course element count towards the assessment of the whole course, which you define in the [course settings in the "Assessment" tab](Course_Settings_Assessment/index.md).
 
 **Individual comment**: If the checkbox is ticked, the coaches leave a comment on the assessment, for example to explain a deduction of points.
 
@@ -62,7 +62,7 @@ All options of the tab are described on the page [Course Element "Assessment"](.
 
 ### Carry out rubric assessment
 
-Owners and coaches assess the participants with the course editor closed, either directly in the course element or in the [assessment tool](../learningresources/Assessment_tool_overview.md). In the course element, the "Participants" tab shows all participants with score, passed and status. The tabs above the list filter the persons, for example "To review" or "To release".
+Owners and coaches assess the participants with the course editor closed, either directly in the course element or in the [assessment tool](Assessment_tool_overview/index.md). In the course element, the "Participants" tab shows all participants with score, passed and status. The tabs above the list filter the persons, for example "To review" or "To release".
 
 ![List of participants with score, passed and status per person, above it the tabs from All to Excluded and the button Start new bulk assessment](assets/forms_in_rubric_scoring_participants_v1_en.png){ class="shadow lightbox" title="Participants tab of an Assessment course element in the course · 2026.10.20" }
 
@@ -76,14 +76,14 @@ With "Start new bulk assessment" you assess several persons in one go, see [Cour
 [The form element rubric >](Form_Element_Rubric.md)<br>
 [Course Element "Task" >](Course_Element_Task/index.md)<br>
 [Course Element "Assessment" >](Course_Element_Assessment.md)<br>
-[The form editor >](Form_Editor.md)<br>
+[The form editor >](Form_Editor/index.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Levels/Grading >](Assessment_translate_points_in_grades.md)<br>
-[Course Settings - Tab Assessment >](Course_Settings_Assessment.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)
 
 **Further reading**<br>
-[Forms - Overview >](Form.md)<br>
+[Forms - Overview >](Form/index.md)<br>
 [Forms in courses >](Forms_in_Courses.md)
 
 [To the top of the page ^](#forms-in-rubric-scoring)

@@ -33,7 +33,7 @@ Durch Klick auf den Namen eines/einer Teilnehmer:in (via Tab "Übersicht" oder T
 
 ## B) Bewertungswerkzeug {: #by_assessment_tool}
 
-Wenn Sie sich nicht nur für einen einzelnen Kursbaustein interessieren, sondern einen Überblick über die Leistungen im gesamten Kurs verschaffen möchten, ist das wichtigste Werkzeug der Betreuer:innen das [Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview.de.md). Sie finden es unter:<br>
+Wenn Sie sich nicht nur für einen einzelnen Kursbaustein interessieren, sondern einen Überblick über die Leistungen im gesamten Kurs verschaffen möchten, ist das wichtigste Werkzeug der Betreuer:innen das [Bewertungswerkzeug](../../manual_user/learningresources/Assessment_tool_overview/index.de.md). Sie finden es unter:<br>
 `Kurs > Administration > Bewertungswerkzeug`
 
 ![Eintrag Bewertungswerkzeug öffnet die Übersicht mit Bestanden-Anteil und offenen Bewertungen](assets/progress_information_assessment_tool_v1_de.png){ class="shadow lightbox" title="Menü Administration des Kurses" }
@@ -47,7 +47,7 @@ Wenn Sie sich nicht nur für einen einzelnen Kursbaustein interessieren, sondern
 
 !!! info "Wichtig"
 
-    Das Icon "Lernpfad" wird in der Werkzeugleiste nur angezeigt, wenn Sie sich in einem [Lernpfadkurs](../../manual_user/learningresources/Learning_path_course.de.md) befinden.
+    Das Icon "Lernpfad" wird in der Werkzeugleiste nur angezeigt, wenn Sie sich in einem [Lernpfadkurs](../../manual_user/learningresources/Learning_path_course/index.de.md) befinden.
 
 
 Wenn ein/eine Teilnehmer:in das Lernpfadwerkzeug aufruft, werden nur die eigenen Ergebnisse sichtbar. Als Betreuer:in erhalten Sie Zugriff auf die Lernpfad-Informationen aller von Ihnen betreuten Teilnehmer:innen. 
@@ -105,8 +105,8 @@ Z.B. könnte eine Erinnerung an diejenigen Teilnehmer:innen verschickt werden, d
 
 ## Weiterführende Informationen {: #further_information}
 
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
-[Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
+[Lernpfadkurs - Überblick >](../../manual_user/learningresources/Learning_path_course/index.de.md)<br>
 [Erinnerungen >](../../manual_user/learningresources/Course_Reminders.de.md)<br>
 [Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
 [Coaching - Übersicht >](../../manual_user/area_modules/Coaching/index.de.md)

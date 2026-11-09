@@ -11,7 +11,7 @@
 
 The menu item "People" in the Coaching Tool shows the list of **all participants you coach**.
 
-  * The participants from **all** coached courses are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview.md) of the course. There, only participants of the current course are displayed.)
+  * The participants from **all** coached courses are displayed. (In contrast to the [assessment tool](../learningresources/Assessment_tool_overview/index.md) of the course. There, only participants of the current course are displayed.)
   * Coaches only see the participants they coach.
   * The participants you coach are **grouped and assigned to the roles** you have as coach in relation to them.<br>
   Depending on your roles, you call up presorted lists with the scope buttons:
@@ -314,7 +314,7 @@ Open a person and switch to "Educational products". The list shows the implement
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../learningresources/Assessment_tool_overview/index.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Roles and Rights: Assign roles >](../../manual_user/basic_concepts/Assign_Roles.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>

@@ -32,7 +32,7 @@ Mit dem Plus-Symbol fügen Sie einen weiteren Link hinzu, mit dem Papierkorb-Sym
 **Weiterführend**<br>
 [Kursbaustein "Externe Seite" >](../learningresources/Course_Element_External_Page.de.md)<br>
 [Kursbaustein "Ordner" >](../learningresources/Course_Element_Folder.de.md)<br>
-[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)
 
 [Zum Seitenanfang ^](#linklist)
 

@@ -123,7 +123,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Test statistics >](../learningresources/Statistics_Test.md)<br>
 [Course Reminders >](../learningresources/Course_Reminders.md)<br>
 [How can coaches be informed about the learning progress of course participants? >](../../manual_how-to/progress_information/progress_information.md)<br>
-[Assessment tool - overview >](../learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../learningresources/Assessment_tool_overview/index.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 
 [To the top of the page ^](#auswerten)

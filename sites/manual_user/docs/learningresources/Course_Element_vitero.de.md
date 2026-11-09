@@ -46,7 +46,7 @@ Mit der Option "Einschreibung durch Benutzer:innen" tragen sich alle Teilnehmend
 ## Weiterführende Informationen {: #further_information}
 
 [vitero GmbH](http://www.vitero.de/)<br>
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "BigBlueButton" >](bigbluebutton/index.de.md)
 
 [Zum Seitenanfang ^](#vitero)

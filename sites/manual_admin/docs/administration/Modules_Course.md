@@ -11,7 +11,7 @@ You set the course options under "Module settings" and the presets for new cours
 
 #### Enable course option {: #enable_course_option}
 
-The option "Course related terms of use and data protection" gives course owners the ["Terms of use" tab](../../manual_user/learningresources/Course_Settings.md#disclaimer) in the course settings. There they define terms of use and a data protection declaration that participants confirm before visiting the course.
+The option "Course related terms of use and data protection" gives course owners the ["Terms of use" tab](../../manual_user/learningresources/Course_Settings/index.md#disclaimer) in the course settings. There they define terms of use and a data protection declaration that participants confirm before visiting the course.
 
 #### Enable assessment option {: #enable_assessment_option}
 
@@ -38,7 +38,7 @@ Here you define which course design is preselected when a new course is created:
 
 #### Show evidence of achievement to participants {: #efficiency_statement}
 
-Here you define whether the evidence of achievement is switched on in new courses. Course owners change the setting for each course in the ["Assessment" tab](../../manual_user/learningresources/Course_Settings_Assessment.md#section_evidence_of_achievements) of the course settings.
+Here you define whether the evidence of achievement is switched on in new courses. Course owners change the setting for each course in the ["Assessment" tab](../../manual_user/learningresources/Course_Settings_Assessment/index.md#section_evidence_of_achievements) of the course settings.
 
 #### Display on info page {: #default_display_on_info_page}
 
@@ -100,9 +100,9 @@ The images listed here can be used by the authors in the "Layout" tab of the cou
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Settings >](../../manual_user/learningresources/Course_Settings.md)<br>
+[Course Settings >](../../manual_user/learningresources/Course_Settings/index.md)<br>
 [Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)<br>
-[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment/index.md)<br>
 [Course Settings - Tab Info >](../../manual_user/learningresources/Course_Settings_Info.md)<br>
 [Module Course Planner >](Modules_Course_Planner.md)<br>
 [Anonymous guests and external users >](Guest_and_invitation.md)

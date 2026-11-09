@@ -39,9 +39,9 @@ The management of assessment mode and assessment inspection.
 
     **German:** Prüfungsverwaltung
 
-    **Not to be confused with [Assessment tool](../../manual_user/learningresources/Assessment_tool_overview.md):** The assessment tool assesses performances, the assessment management sets exam windows and inspections.
+    **Not to be confused with [Assessment tool](../../manual_user/learningresources/Assessment_tool_overview/index.md):** The assessment tool assesses performances, the assessment management sets exam windows and inspections.
 
-    [Read in the manual](../../manual_user/learningresources/Assessment_Management.md) · [Ask Sophia](?sophia=What%20is%20%22Assessment%20management%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../../manual_user/learningresources/Assessment_Management/index.md) · [Ask Sophia](?sophia=What%20is%20%22Assessment%20management%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -154,8 +154,8 @@ The installation is running. Now the things that did not matter at the start pay
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-[Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
+[Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management/index.md)<br>
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
 [External tools: AI module >](../administration/External_Tools_AI.md)<br>
 [LTI 1.3 Integrations >](../administration/LTI_Integrations.md)<br>

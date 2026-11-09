@@ -68,7 +68,7 @@ What you build, and what learners work through.
 
 <div class="grid cards" markdown>
 
--   __[Course](manual_user/learningresources/General_Information.md)__
+-   __[Course](manual_user/learningresources/General_Information/index.md)__
     {: data-oo-cluster="teaching_and_courses" data-oo-domain="course" }
 
     ---
@@ -104,7 +104,7 @@ How a performance is recorded, graded and proven.
 
 <div class="grid cards" markdown>
 
--   __[Testing and question bank](manual_user/learningresources/Test.md)__
+-   __[Testing and question bank](manual_user/learningresources/Test/index.md)__
     {: data-oo-cluster="assessment_and_evidence" data-oo-domain="testing" }
 
     ---
@@ -118,7 +118,7 @@ How a performance is recorded, graded and proven.
 
     Everything where learners submit, revise or practise something, and the workflow the coaches go through.
 
--   __[Assessment](manual_user/learningresources/Assessment_tool_overview.md)__
+-   __[Assessment](manual_user/learningresources/Assessment_tool_overview/index.md)__
     {: data-oo-cluster="assessment_and_evidence" data-oo-domain="assessment" }
 
     ---

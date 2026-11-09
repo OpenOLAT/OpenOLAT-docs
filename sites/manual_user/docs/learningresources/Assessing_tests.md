@@ -299,7 +299,7 @@ The "Preview" tab shows the test from the participants' point of view. The "Comm
 [Course Reminders >](Course_Reminders.md)
 
 **Further**<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Tests at course level >](Tests_at_course_level.md)<br>
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment tool: Tab Participants >](Assessment_tool_tab_Users.md)

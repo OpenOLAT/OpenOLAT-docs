@@ -12,7 +12,7 @@ In the "Layout" tab of the course settings, the default style of the display can
 
 Course owners can upload their own image (maximum 4 MB) for the display of the course elements, choose an image from the library, or do without an image altogether. The image can be positioned on the right or the left, displayed as a gradient on the right, or full-screen.
 
-![Layout tab of the course settings: background image selection, image position, color category, and preview of the course element tile](assets/Dokumentation_de.png){ class="shadow lightbox" }
+![Background image selection, image position, color category, and preview of the course element tile](assets/Dokumentation_de.png){ class="shadow lightbox" title="Layout tab of the course settings" }
 
 ## Layout settings in the course editor
 
@@ -38,15 +38,15 @@ For the background image, the style, and the color category, you can choose betw
 
 **Display**: Choose whether the information defined in the "Title and description" tab is displayed or not.
 
-![Layout tab of a course element with display options, background image selection including image upload, color category, and preview](assets/image2021-8-19_11-6-52.png){ class="shadow lightbox" }
+![Display options, background image selection including image upload, color category, and preview](assets/image2021-8-19_11-6-52.png){ class="shadow lightbox" title="Layout tab of a course element in the course editor" }
 
 ### Automatic overview
 
 On the top course node and all structure course elements, further display settings can be made in the "Overview" tab. One advantage is the use of the automatic overview, especially as an orientation aid for the user. Here you can now select either all or specifically only certain course elements for the automatic overview.
 
-![Overview tab with selection of the display type, the course elements to be shown, and the number of columns](assets/image2021-8-20_7-44-8.png){ class="shadow lightbox" }
+![Selection of the display type, the course elements to be shown, and the number of columns](assets/image2021-8-20_7-44-8.png){ class="shadow lightbox" title="Overview tab in the course editor" }
 
-![Automatic overview in the course with two tile course elements including "Done" progress status](assets/image2021-8-19_15-10-11.png){ class="shadow lightbox" }
+![Two course elements as tiles including "Done" progress status](assets/image2021-8-19_15-10-11.png){ class="shadow lightbox" title="Automatic overview in the course" }
 
 !!! tip "Tip"
 
@@ -55,8 +55,8 @@ On the top course node and all structure course elements, further display settin
 ## Further information {: #further_information}
 
 **Further reading**<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
 
 **youtube**<br>
 [Configuring course elements](<https://www.youtube.com/embed/SAkzzoOQEoQ>)

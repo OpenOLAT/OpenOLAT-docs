@@ -22,7 +22,7 @@ Termine erstellen und bearbeiten dürfen standardmässig die Besitzer:innen und 
 
 Zeigt der Kalender eine fest gewählte Semesterwoche und enthalten die Termine Links auf Kursbausteine, dient er als Übersicht über die Termine und Aufgaben dieser Woche.
 
-In vielen Kursen, besonders in [Lernpfadkursen](../learningresources/Learning_path_course.de.md), ist der Kalender in der [Toolbar](../learningresources/Course_Settings.de.md#toolbar) die einfachere Wahl. Sie schalten ihn unter `Kurs > Administration > Einstellungen > Toolbar` ein.
+In vielen Kursen, besonders in [Lernpfadkursen](Learning_path_course/index.de.md), ist der Kalender in der [Toolbar](Course_Settings/index.de.md#toolbar) die einfachere Wahl. Sie schalten ihn unter `Kurs > Administration > Einstellungen > Toolbar` ein.
 
 !!! tip "Tipp"
 
@@ -33,11 +33,11 @@ In vielen Kursen, besonders in [Lernpfadkursen](../learningresources/Learning_pa
 **Auf dieser Seite erwähnt**<br>
 [Toolbar: Übersicht >](../learningresources/Toolbar.de.md)<br>
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
-[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)
+[Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)
 
 **Weiterführend**<br>
 [Kursbaustein "Terminplanung" >](../learningresources/Course_Element_Appointment_Scheduling.de.md)<br>
-[Kursbausteine im Überblick >](../learningresources/Course_Elements.de.md)
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)
 
 [Zum Seitenanfang ^](#cal)

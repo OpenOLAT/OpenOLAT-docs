@@ -61,7 +61,7 @@ An element that can be added to the course structure in the course editor.
 
     **What users call it:** course element, building block, node
 
-    [Read in the manual](../learningresources/Course_Elements.md) · [Ask Sophia](?sophia=What%20is%20%22Course%20element%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../learningresources/Course_Elements/index.md) · [Ask Sophia](?sophia=What%20is%20%22Course%20element%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 <div class="oo-mh-kids" markdown>
 
@@ -223,7 +223,7 @@ With frentix: we show it in a training. For a training, contact your organisatio
 
 <p class="oo-mh-kicker">Read up</p>
 
-[Course elements](../learningresources/Course_Elements.md)
+[Course elements](../learningresources/Course_Elements/index.md)
 
 </div>
 
@@ -234,7 +234,7 @@ With frentix: we show it in a training. For a training, contact your organisatio
 The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
 - **Course editor:** Enable edit mode.
-- **Course element:** [External page](../learningresources/Course_Element_External_Page.md), [Link list](../learningresources/Course_Element_Link_List.md), [CP learning content](../learningresources/Course_Element_CP_Learning_Content.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.md) and more. All settings are on the page [Types of Course Elements](../learningresources/Course_Elements.md).
+- **Course element:** [External page](../learningresources/Course_Element_External_Page.md), [Link list](../learningresources/Course_Element_Link_List.md), [CP learning content](../learningresources/Course_Element_CP_Learning_Content.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.md) and more. All settings are on the page [Types of Course Elements](../learningresources/Course_Elements/index.md).
 - **Task:** [Group task](../learningresources/Course_Element_Grouptask.md), [Workflow](../learningresources/Course_Element_Task/Task_Setup.md#workflow).
 - **Content editor:** [Content element](../basic_concepts/Content_Editor.md) (in the interface: **Add content**), [Import](../basic_concepts/Content_Editor.md), [Inspector](../basic_concepts/Content_Editor.md).
 - **Media Center:** [Shares](../../manual_admin/administration/Modules_Media_Center.md). All settings are on the page [Media Center Concept](../basic_concepts/Media_Center_Concept/index.md).
@@ -243,7 +243,7 @@ The first course is running. Now the things that did not matter at the start pay
 
 **Mentioned on this page**<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
-[Course elements at a glance >](../learningresources/Course_Elements.md)<br>
+[Course elements at a glance >](../learningresources/Course_Elements/index.md)<br>
 [Course Element Structure >](../learningresources/Course_Element_Structure.md)<br>
 [Course Element Page >](../learningresources/Course_Element_Page.md)<br>
 [Course Element HTML page >](../learningresources/Course_Element_HTML_Page.md)<br>

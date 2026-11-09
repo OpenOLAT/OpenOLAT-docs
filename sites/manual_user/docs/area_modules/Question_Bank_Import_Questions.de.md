@@ -28,7 +28,7 @@ Die Vorlage erhalten Sie im Import selbst. Im Fragenpool starten Sie ihn unter:<
 
 Im Schritt "Dateneingabe" steht über dem Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)" der Link "Vorlage Excelimport". Er liefert eine Excel-Datei mit Beispielfragen zu allen zehn Fragetypen, die der Excelimport kennt, und einem Beispiel für die Metadaten einer Frage. Bauen Sie Ihre Fragen nach diesem Muster auf.
 
-Denselben Import mit derselben Vorlage bietet der [Testeditor](../learningresources/Test_editor_QTI_2.1.de.md), wenn Sie Fragen direkt in einen Test übernehmen:<br>
+Denselben Import mit derselben Vorlage bietet der [Testeditor](../learningresources/Test_editor_QTI_2.1/index.de.md), wenn Sie Fragen direkt in einen Test übernehmen:<br>
 `Test > Administration > Testeditor > Elemente hinzufügen > Fragen aus Excel importieren`
 
 So importieren Sie die Fragen:
@@ -246,7 +246,7 @@ Die Antwort mit mehr als 0 Punkten gilt als richtig.
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Testeditor >](../learningresources/Test_editor_QTI_2.1.de.md)<br>
+[Testeditor >](../learningresources/Test_editor_QTI_2.1/index.de.md)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)
 
 **Weiterführend**<br>

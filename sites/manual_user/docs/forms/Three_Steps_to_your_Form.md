@@ -6,7 +6,7 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 1. In the [Authoring Area](../area_modules/Authoring/index.md) click on the link "Create" and select the learning resource "Form".
 2. Enter a title for the form.
-3. The menu "[Settings](../learningresources/Course_Settings.md)" of the administration appears. Here you can optionally make further settings immediately or later, e.g. store a license in the metadata.
+3. The menu "[Settings](../learningresources/Course_Settings/index.md)" of the administration appears. Here you can optionally make further settings immediately or later, e.g. store a license in the metadata.
 
 !!! info "Important"
 
@@ -18,7 +18,7 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 ## Step 2: Design + finalize form
 
-1. In the "Administration" of the learning resource Form select the entry "Form editor". You will get to the [form editor](../learningresources/Form_Editor.md).
+1. In the "Administration" of the learning resource Form select the entry "Form editor". You will get to the [form editor](../learningresources/Form_Editor/index.md).
 2. The new form already contains a layout with one column. If you need further areas, select "Add a new layout" and one of the displayed basic structures. The form is divided into the correspondingly marked areas, into which you can insert various content in the next step. [:octicons-tag-16:{ title="from Release 20.2 (OO-9019)" }](https://track.frentix.com/issue/OO-9019)
 3. Choose "Add content" and select the desired element. It is best to start with a "Title" and add a short introductory text with the "Text" element to inform the users accordingly.
 
@@ -32,7 +32,7 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 Depending on the type of question you want to create, select "Rubric", "Single choice", "Multiple choice", "Upload file" or "Text input".
 
-For more details on how to use the form editor, see the "[Form editor](../learningresources/Form_Editor.md)" chapter.
+For more details on how to use the form editor, see the "[Form editor](../learningresources/Form_Editor/index.md)" chapter.
 
 ## Step 3: Embed form directly in course
 
@@ -40,7 +40,7 @@ For more details on how to use the form editor, see the "[Form editor](../learni
 
 2. Open the ["Course editor"](../../manual_how-to/my_first_course/my_first_course.md) via "Administration".
 
-    Select "Insert course elements" and click on the desired [course element](../learningresources/Course_Elements.md) form, survey or [assessment](../learningresources/Course_Element_Assessment.md), depending on your scenario.
+    Select "Insert course elements" and click on the desired [course element](../learningresources/Course_Elements/index.md) form, survey or [assessment](../learningresources/Course_Element_Assessment.md), depending on your scenario.
 
 3. Go to the respective tab Form or Survey of the course element and add a suitable form here → "Choose, create or import".
 
@@ -69,16 +69,16 @@ For more details on how to use the form editor, see the "[Form editor](../learni
 
 **Mentioned on this page**<br>
 [Authoring - Overview](../area_modules/Authoring/index.md)<br>
-[Course Settings](../learningresources/Course_Settings.md)<br>
+[Course Settings](../learningresources/Course_Settings/index.md)<br>
 [Forms in courses](../learningresources/Forms_in_Courses.md)<br>
-[The form editor](../learningresources/Form_Editor.md)<br>
+[The form editor](../learningresources/Form_Editor/index.md)<br>
 [How do I create my first OpenOlat course?](../../manual_how-to/my_first_course/my_first_course.md)<br>
-[Types of Course Elements](../learningresources/Course_Elements.md)<br>
+[Types of Course Elements](../learningresources/Course_Elements/index.md)<br>
 [Course Element "Assessment"](../learningresources/Course_Element_Assessment.md)<br>
 [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md)
 
 **Further reading**<br>
-[Form elements](../learningresources/Form_Elements.md)<br>
+[Form elements](../learningresources/Form_Elements/index.md)<br>
 [Question rules in forms](../learningresources/Form_Question_Rules.md)<br>
 [Course Element "Form"](../learningresources/Course_Element_Form.md)<br>
 [Course Element "Survey"](../learningresources/Course_Element_Survey.md)

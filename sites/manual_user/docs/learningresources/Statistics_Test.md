@@ -40,7 +40,7 @@ A high number of adjustments indicates that the question or its solution should 
 [Assessing tests >](Assessing_tests.md)
 
 **Further reading**<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Course statistics >](Statistics_Course.md)<br>
 [Survey statistics >](Statistics_Survey.md)
 

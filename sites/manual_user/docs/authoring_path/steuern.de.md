@@ -155,7 +155,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 
 <p class="oo-mh-kicker">Nachlesen</p>
 
-[Lernpfadkurs](../learningresources/Learning_path_course.de.md)
+[Lernpfadkurs](../learningresources/Learning_path_course/index.de.md)
 
 </div>
 
@@ -173,7 +173,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
-[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course.de.md)<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course/index.de.md)<br>
 [Zugriffsbeschränkungen im Expertenmodus >](../learningresources/Access_Restrictions_in_the_Expert_Mode.de.md)<br>
 [Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)

@@ -53,7 +53,7 @@ Besitzer:innen und Betreuer:innen sehen zusätzlich den Tab "Statistik". Er list
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbausteine im Überblick >](Course_Elements.de.md)<br>
+[Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "Opencast" >](Course_Element_Opencast.de.md)<br>
 [Kursbaustein "Kalender" >](Course_Element_Calendar.de.md)<br>
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>

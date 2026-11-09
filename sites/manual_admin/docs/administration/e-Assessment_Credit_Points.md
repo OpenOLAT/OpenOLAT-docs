@@ -31,7 +31,7 @@ Line managers and education managers see the credit points of the people in thei
 
 ## Further information {: #further_information}
 
-[Awarding credit points in courses >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
+[Awarding credit points in courses >](../../manual_user/learningresources/Course_Settings_Assessment/index.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Personal achievements/successes: Credit points >](../../manual_user/personal_menu/Credit_Points.md)<br>
 [e-Assessment Administration: Certificates >](e-Assessment_Certificates.md)<br>

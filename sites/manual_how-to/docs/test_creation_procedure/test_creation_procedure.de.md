@@ -445,7 +445,7 @@ Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/lea
 [Nutzen von Metadaten >](../question_metadata/question_metadata.de.md)
 
 **Weiterführend**<br>
-[Testeditor >](../../manual_user/learningresources/Test_editor_QTI_2.1.de.md)<br>
+[Testeditor >](../../manual_user/learningresources/Test_editor_QTI_2.1/index.de.md)<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 [Fragenpool: Übersicht >](../../manual_user/area_modules/Question_Bank/index.de.md)<br>
 [Wie wechsle ich einen Test aus? >](../exchange_tests/exchange_tests.de.md)

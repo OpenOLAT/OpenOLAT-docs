@@ -99,7 +99,7 @@ Owners have all rights in the course. They edit the course, manage the members a
 
 ### Coach {: #coach}
 
-Coaches accompany and assess the participants; they do not design the course itself. They have access to the [Assessment tool](../../learningresources/Assessment_tool_overview.md) of the course and to "Test statistics" and "Survey statistics". They do not edit the course in the course editor and cannot delete it. In the assessment tool they see the participants who are entered directly in the course. They only see participants of a group or an implementation if they are coach there as well.
+Coaches accompany and assess the participants; they do not design the course itself. They have access to the [Assessment tool](../../learningresources/Assessment_tool_overview/index.md) of the course and to "Test statistics" and "Survey statistics". They do not edit the course in the course editor and cannot delete it. In the assessment tool they see the participants who are entered directly in the course. They only see participants of a group or an implementation if they are coach there as well.
 
 If coaches need further rights, owners have two ways:
 
@@ -284,14 +284,14 @@ A course that a person edits via this right without being its owner does not app
 
 With this right, members open "Archiving & Reporting" in the "Administration" menu of the course, with the same options as course owners.
 
-[More about Archiving & Reports >](../../learningresources/Course_Archiving.md)
+[More about Archiving & Reports >](../../learningresources/Course_Archiving/index.md)
 
 
 #### Assessment tool {: #assessment_tool}
 
 The assessment tool is part of the basic equipment of all coaches. With this right, other members also open it in the "Administration" menu of the course. Whoever has the right sees all participants of the course there and can reset and delete data, also as coach. The person with this right also starts and finishes an exam with manual start in the assessment tool.
 
-[More about the assessment tool >](../../learningresources/Assessment_tool_overview.md)
+[More about the assessment tool >](../../learningresources/Assessment_tool_overview/index.md)
 
 
 #### Glossary tool {: #glossary_tool}
@@ -300,7 +300,7 @@ With this right, members add and edit glossary entries via the glossary icon in 
 
 If no glossary has been created yet, the glossary icon is not visible, and the right alone gives no access. For the members to create the glossary themselves, they also need the right "Course editor". They then set it up under `Course > Administration > Settings > Tab "Toolbar"` and `Tab "Options"`.
 
-[More about the glossary >](../../learningresources/Glossary.md)
+[More about the glossary >](../../learningresources/Glossary/index.md)
 
 
 #### Statistics {: #statistics}
@@ -314,7 +314,7 @@ With this right, members open "Course statistics" in the "Administration" menu o
 
 With this right, members open "Assessment management" in the "Administration" menu of the course, with the same options as course owners. The members create, edit and delete assessment modes there and start and finish an exam with manual start.
 
-[More about assessment management >](../../learningresources/Assessment_Management.md)
+[More about assessment management >](../../learningresources/Assessment_Management/index.md)
 
 
 #### Course database {: #course_database}
@@ -356,7 +356,7 @@ There, each role and its contra-role appear as separate entries. Clicking an ent
 [Question Bank: Overview >](../../area_modules/Question_Bank/index.md)<br>
 [Roles and Rights: Assign roles >](../Assign_Roles.md)<br>
 [Roles and Rights: Guest access >](../guest_access.md)<br>
-[Assessment tool - overview >](../../learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../../learningresources/Assessment_tool_overview/index.md)<br>
 [Roles and Rights: Authorisation in courses >](../Authorisation_Concept.md)<br>
 [Course Element "Adobe Connect" >](../../learningresources/Course_Element_Adobe_Connect.md)<br>
 [Course Element "Task" >](../../learningresources/Course_Element_Task/index.md)<br>
@@ -397,10 +397,10 @@ There, each role and its contra-role appear as separate entries. Clicking an ent
 [Groups >](../../groups/index.md)<br>
 [Group Administration >](../../groups/Group_Administration/index.md)<br>
 [Course elements in the Course editor >](../../learningresources/General_Configuration_of_Course_Elements.md)<br>
-[Course administration - Archiving & Reports >](../../learningresources/Course_Archiving.md)<br>
-[Glossary >](../../learningresources/Glossary.md)<br>
+[Course administration - Archiving & Reports >](../../learningresources/Course_Archiving/index.md)<br>
+[Glossary >](../../learningresources/Glossary/index.md)<br>
 [Course statistics >](../../learningresources/Statistics_Course.md)<br>
-[Assessment Management: Overview >](../../learningresources/Assessment_Management.md)<br>
+[Assessment Management: Overview >](../../learningresources/Assessment_Management/index.md)<br>
 [Coaching - People >](../../area_modules/Coaching_People.md)<br>
 [Account search >](../../../manual_admin/usermanagement/Search_Users.md)
 

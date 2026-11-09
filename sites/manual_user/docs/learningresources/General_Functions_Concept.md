@@ -96,7 +96,7 @@ You can find the usage setting in the selected learning resource under:<br>
 
 A learning resource with the usage "Embedding" is reusable and is embedded elsewhere: in a course element of a course or, for a form, also in a data collection of the quality management and as a [booking order form](../area_modules/Course_Planner_Implementations.md#booking_order_forms) in an implementation of the Course Planner. A course is only one of these places, which is why the name of the usage names no place. To allow other authors to embed your learning resource, tick "embed" under "Authors can" in the same tab.
 
-"Change" opens the "Change usage" dialog. It shows the current value under "Current usage" and below it, under "Change usage to", the usages you can switch to. Learning resources that are not courses only have "Embedding" and "Standalone", so the dialog offers exactly one option. The help icon next to "Change usage to" leads to the description of all usages in the [Usage section of the Share tab](Course_Settings_Share.md#section_usage).
+"Change" opens the "Change usage" dialog. It shows the current value under "Current usage" and below it, under "Change usage to", the usages you can switch to. Learning resources that are not courses only have "Embedding" and "Standalone", so the dialog offers exactly one option. The help icon next to "Change usage to" leads to the description of all usages in the [Usage section of the Share tab](Course_Settings_Share/index.md#section_usage).
 
 ![For a form, the Change usage dialog shows the current usage Embedding at the top and Standalone below it as the only option to switch to](assets/general_functions_concept_use_of_resources_embedded_v2_en.png){ class="shadow lightbox" title="Change usage dialog for a form · 2026.10.21" }
 
@@ -116,7 +116,7 @@ A course cannot be embedded in another course. If the Course Planner is enabled,
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [Course Element "Checklist" >](../learningresources/Course_Element_Checklist.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
-[Course settings - Tab Share >](../learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
 [Course Planner: Products >](../area_modules/Course_Planner_Products.md)
 
 **Further reading**<br>

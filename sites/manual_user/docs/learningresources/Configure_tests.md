@@ -40,7 +40,7 @@ At test level, you define the title that appears in the navigation. The followin
 
 !!! note "Note"
 
-    A time limit of the test can either be done in the test editor as described here or after embedding the test into the course in the course editor in the tab `Options`. If necessary the test time can be extended for single users in the [assessment tool](../learningresources/Assessment_tool_overview.md).
+    A time limit of the test can either be done in the test editor as described here or after embedding the test into the course in the course editor in the tab `Options`. If necessary the test time can be extended for single users in the [assessment tool](Assessment_tool_overview/index.md).
 
 ### Tab Feedback
 
@@ -125,8 +125,8 @@ If the visibility of the section title in the "Expert" tab is activated, the res
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Set up a test >](Course_Element_Test/Test_Setup.md)<br>
 [Levels/Grading >](Assessment_translate_points_in_grades.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)<br>
-[Test editor >](Test_editor_QTI_2.1.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
+[Test editor >](Test_editor_QTI_2.1/index.md)<br>
 [Test settings - Administration >](Test_settings.md)
 
 [To the top of the page ^](#configure-tests)

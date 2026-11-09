@@ -4,15 +4,15 @@ In die Lernressource "[Portfolio 2.0 Vorlage](Portfolio_template_Creation.de.md)
 
 Hierfür muss zunächst eine Portfolio 2.0 Vorlage erstellt werden. Wählen oder erstellen Sie dann einen "Bereich" und wählen Sie "Neue Aufgabe". Weitere generelle Informationen zur Erstellung einer Portfolio 2.0 Vorlage finden Sie [hier](../learningresources/Portfolio_template_Administration_and_editing.de.md).
 
-![Portfoliomappe mit Formular im Tab Einträge, Neue Aufgabe erstellen](assets/Formular_eportfolio.png){ class="shadow lightbox" }
+![Bereich mit dem Button Neue Aufgabe unter Neue Aufgabe erstellen](assets/Formular_eportfolio.png){ class="shadow lightbox" title="Tab Einträge einer Portfoliomappe" }
 
 Um ein Formular in eine Portfolio-Aufgabe zu verwenden, wählen Sie unter Typ "Formular". Anschliessend können Sie ein vorbereitetes Formular verwenden oder ein neues Formular erstellen.
 
-![Neue Aufgabe vom Typ Formular mit Formularauswahl und Art der Einschätzung](assets/portfolio_Aufgabe1.png){ class="shadow lightbox" }
+![Aufgabe vom Typ Formular mit Formularauswahl und Art der Einschätzung](assets/portfolio_Aufgabe1.png){ class="shadow lightbox" title="Dialog Neue Aufgabe" }
 
 Haben Sie noch kein Formular erstellt, können Sie eine neue Lernressource "Formular" über den Button "Erstellen" erstellen oder ein extern vorliegendes Formular importieren. Anschliessend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann für die Portfolio-Aufgabe ausgewählt werden.
 
-Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular-Editor](../learningresources/Form_Editor.de.md) hinzugefügt werden.
+Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular-Editor](Form_Editor/index.de.md) hinzugefügt werden.
 
 Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource "Formular" angelegt, die auch im [Autorenbereich](../area_modules/Authoring/index.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen und Kursbausteinen eingebunden werden kann.
 
@@ -26,14 +26,14 @@ Die Portfolio 2.0 Vorlage kann dann über den Kursbaustein "[Portfolioaufgabe](.
 
 ## Beispiel für ein Portfolio-Formular
 
-![Beispiel-Formular mit Selbsteinschätzung über Schieberegler](assets/Portfolio_Formular.png){ class="shadow lightbox" }
+![Beispiel-Formular mit Selbsteinschätzung über Schieberegler](assets/Portfolio_Formular.png){ class="shadow lightbox" title="Formular beim Ausfüllen" }
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Portfoliovorlage: Erstellung >](Portfolio_template_Creation.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](../learningresources/Portfolio_template_Administration_and_editing.de.md)<br>
-[Der Formular-Editor >](../learningresources/Form_Editor.de.md)<br>
+[Der Formular-Editor >](Form_Editor/index.de.md)<br>
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Portfolioaufgabe erstellen >](../learningresources/Creating_Portfolio_Tasks.de.md)
 

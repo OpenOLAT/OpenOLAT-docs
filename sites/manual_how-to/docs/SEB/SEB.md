@@ -454,6 +454,6 @@ You activate the SEB for an inspection in the inspection schedule of the assessm
 
 **Further reading**<br>
 [Test settings - Administration >](../../manual_user/learningresources/Test_settings.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#SEB)

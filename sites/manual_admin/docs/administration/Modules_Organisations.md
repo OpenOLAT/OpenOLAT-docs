@@ -113,7 +113,7 @@ The **role assignment** is possible
 
 In the "Learning resources" tab, you see which courses are directly assigned to the organisation, and you adjust this assignment. Via "Add courses", a dialog lets you search for further own and available courses to assign to the organisation. To remove courses again, select the rows in the list and click "Remove". OpenOlat asks for confirmation in the dialog "Remove learning resources" before it removes the assignment.
 
-"Add courses" only finds courses. You assign tests, videos and other learning resources to an organisation in the Administrative access of the learning resource, described under [Course settings - Tab Share](../../manual_user/learningresources/Course_Settings_Share.md#section_share). For several learning resources at once, use the [bulk action in Authoring](../../manual_user/area_modules/Authoring_BulkActions.md#bulk_administrative_access).
+"Add courses" only finds courses. You assign tests, videos and other learning resources to an organisation in the Administrative access of the learning resource, described under [Course settings - Tab Share](../../manual_user/learningresources/Course_Settings_Share/index.md#section_share). For several learning resources at once, use the [bulk action in Authoring](../../manual_user/area_modules/Authoring_BulkActions.md#bulk_administrative_access).
 
 !!! warning "Warning"
 
@@ -226,7 +226,7 @@ The list shows the mappings of all organisations. The "Subdomain allowed" column
 [Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
 [User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [REST API >](REST_API.md)<br>
-[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md)<br>
 [Authoring - Bulk Actions >](../../manual_user/area_modules/Authoring_BulkActions.md)<br>
 [Core functions: Overview >](Core_functions.md)<br>
 [User tools: Booking orders >](../../manual_user/personal_menu/Bookings.md)<br>

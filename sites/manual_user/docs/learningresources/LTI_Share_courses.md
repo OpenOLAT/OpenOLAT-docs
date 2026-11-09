@@ -156,9 +156,9 @@ The assessment form can also be filled in and adjusted for the course element "L
 [LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)<br>
 [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.md)<br>
 [LTI - Role mapping >](../../manual_admin/administration/LTI_Role_Mapping.md)<br>
-[Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share.md)<br>
+[Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
 [Access configuration >](../../manual_user/learningresources/Access_configuration.md)
 
 [To the top of the page ^](#LTI_share_course)

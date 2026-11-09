@@ -202,6 +202,6 @@ Find out more about grading assignments in Coaching: [Coaching - Assessment Orde
 [Coaching Tool >](../../manual_user/area_modules/Coaching/index.md)<br>
 [Coaching - Assessment Orders >](../../manual_user/area_modules/Coaching_Assessment_Orders.md)<br>
 [How do I assess a test? >](../../manual_how-to/assessing_tests/assessing_tests.md)<br>
-[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)
+[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#assessing_tests_anonymously)

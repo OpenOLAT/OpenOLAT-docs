@@ -56,7 +56,7 @@ Mit Klick auf eine Person öffnen Sie ihren Workflow. Dort laden Sie je nach Kon
 Um mehrere Personen auf einmal zu bearbeiten, wählen Sie die Zeilen aus. Über der Liste erscheinen dann die Aktionen, die zur Konfiguration der Aufgabe passen:
 
 * **Bewertung abschliessen**: schliesst die Bewertung der gewählten Personen ab.
-* **Freigeben** und **Freigabe zurückziehen**: machen die Bewertung für die gewählten Personen sichtbar oder verbergen sie wieder. Betreuer:innen sehen beide Aktionen, wenn Kursbesitzer:innen ihnen im [Abschnitt Berechtigungen](../Course_Settings_Assessment.de.md#section_assessment_rights) "Bewertung freigeben" erlauben.
+* **Freigeben** und **Freigabe zurückziehen**: machen die Bewertung für die gewählten Personen sichtbar oder verbergen sie wieder. Betreuer:innen sehen beide Aktionen, wenn Kursbesitzer:innen ihnen im [Abschnitt Berechtigungen](../Course_Settings_Assessment/index.de.md#section_assessment_rights) "Bewertung freigeben" erlauben.
 * **Verlängern**: verschiebt die Fristen der gewählten Personen. Die Aktion steht bei festen Fristen bereit. Bei einem [relativen Datum](Task_Setup.de.md#workflow_relative_dates) verlängern Sie je Person über :o_icon_o_icon_actions:.
 * **Resultate exportieren**: lädt die Dokumente der gewählten Personen als ZIP-Datei herunter.
 * **E-Mail**: schreibt den gewählten Personen eine E-Mail.
@@ -138,12 +138,12 @@ Mit "Dokument(e) einziehen" ist die Abgabe wieder geschlossen. Eine verlängerte
 [Aufgaben und Gruppenaufgaben bewerten >](../Assessing_tasks_and_group_tasks.de.md)<br>
 [Aufgabe einrichten >](Task_Setup.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../Course_Element_Grouptask.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment/index.de.md)<br>
 [Aufgabe bearbeiten (Teilnehmende) >](Task_Participants.de.md)<br>
 [Kursbausteine im Kurseditor >](../General_Configuration_of_Course_Elements.de.md)
 
 **Weiterführend**<br>
-[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
-[Kursbausteine im Überblick >](../Course_Elements.de.md)
+[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
+[Kursbausteine im Überblick >](../Course_Elements/index.de.md)
 
 [Zum Seitenanfang ^](#coach_task)

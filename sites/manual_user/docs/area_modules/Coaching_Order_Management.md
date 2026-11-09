@@ -94,6 +94,6 @@ The tab displays the course elements "Task" for which the "Assignment coaches/pa
 [Coaching: Reports >](../area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
 [Roles >](../basic_concepts/Roles/index.md)<br>
-[Assessment tool >](../learningresources/Assessment_tool_overview.md)
+[Assessment tool >](../learningresources/Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#order_management)

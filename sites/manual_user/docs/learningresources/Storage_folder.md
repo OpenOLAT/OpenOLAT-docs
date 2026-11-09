@@ -2,15 +2,15 @@
 
 The "Storage folder" of a course serves the course owners as a repository for the files used in the course. This includes e.g. all HTML pages, graphics and files used that are made available via the course element "Folder". The files are, so to speak, ready to hand in the background and can be made available at any time via the corresponding course elements. You open the storage folder via `Course > Administration > Files > Storage folder`. This path is visible to course owners, administrators, learning resource managers and persons with the course right "Course editor".
 
-Course participants have no direct but only indirect access to files of the storage folder. In order to access the files, they must be linked via corresponding [Course Elements](Course_Elements.md). A storage folder is always course specific.
+Course participants have no direct but only indirect access to files of the storage folder. In order to access the files, they must be linked via corresponding [Course Elements](Course_Elements/index.md). A storage folder is always course specific.
 
-![Files and folders in table view, trash and actions for selected entries such as Zip or Send e-mail, used space below, storage folder of a course](assets/storage_folder_files_v1_en.png){ class="shadow lightbox" }
+![Files and folders in table view, trash and actions for selected entries such as Zip or Send e-mail, used space below](assets/storage_folder_files_v1_en.png){ class="shadow lightbox" title="Storage folder of a course" }
 
 In the storage folder files can be uploaded, deleted, moved, copied, sent by e-mail, searched for, zipped, un-zipped or created. Deleted files and folders remain in the "Trash" until OpenOlat permanently deletes them after a defined number of days. By default, HTML documents can be created in OpenOlat. If additional document editors are activated in the system administration, further file formats can be created: `Administration > External tools > Document editors`. For example, if OnlyOffice is used, Word, Excel or PowerPoint files can also be created.
 
 When uploading a file, the file size limit as well as the folder space limit has to be taken into consideration. Also those limits apply when uploading files via [WebDAV](../basic_concepts/Using_WebDAV.md) to the storage folder. The maximum file size is shown in the "Add files" dialog, which you open via the dropdown menu next to "Upload files". The used space of the storage folder is shown below the file list.
 
-![Maximum file size for upload below the local file selection, Add files dialog in the storage folder](assets/storage_folder_upload_v1_en.png){ class="shadow lightbox" }
+![Maximum file size for upload below the local file selection](assets/storage_folder_upload_v1_en.png){ class="shadow lightbox" title="Add files dialog in the storage folder" }
 
 Furthermore, the storage folder can be usefully provided with further subfolders and thus a systematic structuring of course-related files can be implemented.
 
@@ -34,7 +34,7 @@ As soon as the checkbox is activated, the path for other files of the storage fo
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course elements at a glance >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [What measures can I take to reduce storage space consumption? >](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.md)<br>
 [Course Element "Folder" >](Course_Element_Folder.md)<br>

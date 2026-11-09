@@ -24,7 +24,7 @@ can also use several course elements of the same type and nest them as you like.
 the structure of an online course should always be sensible and didactically
 well thought out and keep the usability for the learners in mind.
 
-To add a course element to the course, select "Insert course element" in the course editor and click the desired [course element](../learningresources/Course_Elements.md). The selected course element is added to the left navigation. It is always inserted beneath the course element that was selected or clicked beforehand. If the top element of the course is selected, the new course element is automatically inserted at the end of the course. You can move course elements to the desired position at any time with "Drag&Drop".
+To add a course element to the course, select "Insert course element" in the course editor and click the desired [course element](Course_Elements/index.md). The selected course element is added to the left navigation. It is always inserted beneath the course element that was selected or clicked beforehand. If the top element of the course is selected, the new course element is automatically inserted at the end of the course. You can move course elements to the desired position at any time with "Drag&Drop".
 
 If you place the cursor at the desired position before adding the element, you
 do not need to move the new element again. In general, all course elements can be moved, duplicated and deleted. How this works is described on the page [Deleting, Moving and Copying Course Elements](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md).
@@ -34,7 +34,7 @@ Once the course element has been added, it can be further configured.
 ## Configuration tabs of course elements
 
 Each course element contains the tabs "Title and description" and "Layout". All course elements of a conventional course additionally have
-the tabs "Visibility" and "Access". In contrast, [learning path courses](../learningresources/Learning_path_course.md) additionally have the tab "Learning path".
+the tabs "Visibility" and "Access". In contrast, [learning path courses](Learning_path_course/index.md) additionally have the tab "Learning path".
 
 In addition, there are one or more tabs for the individual configuration of the respective course element.
 
@@ -221,9 +221,9 @@ You can find information about the tab "Learning path" of learning path courses 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course elements at a glance >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
-[Learning path course - Overview >](Learning_path_course.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Access Restrictions in the Expert Mode >](Access_Restrictions_in_the_Expert_Mode.md)<br>
 [Assessment management: Assessment mode >](Assessment_mode.md)<br>
 [Course Element "Structure" >](Course_Element_Structure.md)<br>
@@ -231,7 +231,7 @@ You can find information about the tab "Learning path" of learning path courses 
 
 **Further reading**<br>
 [Course editor tools >](Using_additional_Course_Editor_Tools.md)<br>
-[Course Settings >](Course_Settings.md)
+[Course Settings >](Course_Settings/index.md)
 
 **youtube**<br>
 [Inserting course elements](<https://www.youtube.com/embed/AJ76e3urdKA>)<br>

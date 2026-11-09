@@ -128,7 +128,7 @@ This option is only displayed if "Issue certificate" is switched on in the cours
 _Example_: The mail is sent 1 day after a certificate has been issued.
 
 * **Progress**<br>
-This option is only available for [learning path courses](../learningresources/Learning_path_course.md).
+This option is only available for [learning path courses](Learning_path_course/index.md).
 OpenOlat sends the reminder depending on the percentage course progress of the participants, as configured in the settings of the course administration.<br>
 _Example_: Participants who have successfully completed at least 80% of a course will receive a motivational e-mail to complete the last 20% soon.
 
@@ -403,7 +403,7 @@ With "Send reminders now", you trigger a reminder immediately, without waiting f
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Course Element "Forum" >](Course_Element_Forum.md)<br>
 [User tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
-[Learning path course - Overview >](../learningresources/Learning_path_course.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
 [How can coaches be informed about the learning progress of course participants? >](../../manual_how-to/progress_information/progress_information.md)<br>
 [Module Course Reminders >](../../manual_admin/administration/Modules_Course_Reminders.md)
 

@@ -52,7 +52,7 @@ Das "Freigabedatum" verwenden Sie, wenn der Kursbaustein erst ab einem bestimmte
 
 Die Zeitangabe unter "Zu bearbeiten bis" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe [Tab "Workflow"](#workflow)).
 
-Unter "Bearbeitungszeit (Minuten)" tragen Sie ein, wie lange Teilnehmende für die Aufgabe voraussichtlich brauchen. Der Eintrag ist vor allem dann wichtig, wenn sich der Fortschritt im Kurs nach der Bearbeitungszeit der Kursbausteine richtet. Diese Einstellung liegt in den [Kurseinstellungen](../Course_Settings.de.md) unter:<br>
+Unter "Bearbeitungszeit (Minuten)" tragen Sie ein, wie lange Teilnehmende für die Aufgabe voraussichtlich brauchen. Der Eintrag ist vor allem dann wichtig, wenn sich der Fortschritt im Kurs nach der Bearbeitungszeit der Kursbausteine richtet. Diese Einstellung liegt in den [Kurseinstellungen](../Course_Settings/index.de.md) unter:<br>
 `Kurs > Administration > Einstellungen > Tab "Durchführung"`
 
 Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, damit die Aufgabe als "erledigt" gilt. Folgende Optionen stehen zur Wahl:
@@ -225,7 +225,7 @@ Wählen Sie im Feld "Typ der Ziehung", ob mehrere Teilnehmende die gleiche Aufga
 
 Im Feld "Mitteilung an Benutzer:in" hinterlegen Sie für alle Teilnehmenden allgemeine Hinweise zur Bearbeitung der Aufgaben.
 
-Wählt eine teilnehmende Person bei der manuellen Auswahl aus Versehen die falsche Aufgabenstellung, können Kursbesitzer:innen ihr im [Bewertungswerkzeug](../Assessment_tool_overview.de.md) mit "Daten von Aufgabe zurücksetzen" das Zurücksetzen erlauben:<br>
+Wählt eine teilnehmende Person bei der manuellen Auswahl aus Versehen die falsche Aufgabenstellung, können Kursbesitzer:innen ihr im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md) mit "Daten von Aufgabe zurücksetzen" das Zurücksetzen erlauben:<br>
 `Kurs > Administration > Bewertungswerkzeug > "Titel des Kursbausteins" > "Name der Person"`
 
 ![Der Button "Daten von Aufgabe zurücksetzen" unter dem Workflow einer Person erlaubt ihr, die gewählte Aufgabe zurückzusetzen](../assets/course_element_task_reset_assessment_tool_v1_de.png){ class="shadow lightbox" title="Bewertungswerkzeug, Kursbaustein Aufgabe, Person · 2026.11.03" }
@@ -303,7 +303,7 @@ Wurde die Option "Mit Peer-Review" gewählt, beschreibt die Seite [Aufgabe mit P
 
 Hier legen Sie fest, _wie_ die Teilnehmenden bewertet werden. Soll es Punkte geben? Soll es ein Bestanden/Nicht bestanden für den Kursbaustein geben? Soll die Punktebewertung mit einer Bewertungsskala verbunden werden, und wenn ja, mit welcher? Sollen Betreuende weitere individuelle Kommentare oder Dokumente bereitstellen können? Entscheiden Sie jeweils, was zu Ihrem Szenario passt.
 
-Sind für die Aufgabe bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](../Course_Elements.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
+Sind für die Aufgabe bereits Bewertungen vorhanden, zeigt OpenOlat in diesem Tab die Einstellungen unter "Konfiguration Bewertung" schreibgeschützt an. Bearbeitbar bleibt der Bereich "Bewertungsformular". Mit "Bearbeitungsmodus aktivieren" machen Sie die Einstellungen wieder bearbeitbar, siehe [Schreibschutz der Bewertungskonfiguration](../Course_Elements/index.de.md#assessment_config_read_only). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9647)" }](https://track.frentix.com/issue/OO-9647)
 
 Für die Bewertung kann auch ein Formular mit Rubrik verwendet werden. Die Punkte können dann aus dem Rubrik-Formular für die Bewertung des Kursbausteins übernommen werden. Das hier im Tab "Bewertung" eingebundene Rubrik-Formular ist zu unterscheiden von dem Rubrik-Formular, das im Tab "Rückgabe und Feedback" für Peer-Reviews verwendet wird.
 
@@ -378,7 +378,7 @@ Voraussetzung ist, dass für die Aufgabe im Tab "Bewertung" die Vergabe von Punk
 * ob die Darstellung anonym sein soll und
 * ab welchem Zeitpunkt die Highscore-Liste sichtbar sein soll.
 
-Weitere Informationen zu diesem Tab, der in den meisten bewertbaren Kursbausteinen zur Verfügung steht, finden Sie auf der Seite [Kursbausteine](../Course_Elements.de.md).
+Weitere Informationen zu diesem Tab, der in den meisten bewertbaren Kursbausteinen zur Verfügung steht, finden Sie auf der Seite [Kursbausteine](../Course_Elements/index.de.md).
 
 [zum Seitenanfang ^](#create_task)
 
@@ -416,11 +416,11 @@ Ist in den Kurseinstellungen "Badges vergeben" eingeschaltet, zeigt der Kursedit
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Aufgabe" >](index.de.md)<br>
-[Kurseinstellungen >](../Course_Settings.de.md)<br>
+[Kurseinstellungen >](../Course_Settings/index.de.md)<br>
 [Aufgabe mit Peer-Review >](Task_Peer_Review.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../Course_Element_Grouptask.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview.de.md)<br>
-[Kursbausteine im Überblick >](../Course_Elements.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
+[Kursbausteine im Überblick >](../Course_Elements/index.de.md)<br>
 [Erinnerungen >](../Course_Reminders.de.md)<br>
 [To-dos im Kurs >](../Course_todos.de.md)<br>
 [Persönliche Werkzeuge: To-dos >](../../personal_menu/To-Dos.de.md)<br>

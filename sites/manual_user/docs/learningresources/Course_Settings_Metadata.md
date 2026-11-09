@@ -82,7 +82,7 @@ In the list in Authoring, the "License" column shows the license of each learnin
 [Creative Commons licenses >](https://creativecommons.org/licenses/)
 
 **Further reading**<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
 
 [To the top of the page ^](#tab_metadata)

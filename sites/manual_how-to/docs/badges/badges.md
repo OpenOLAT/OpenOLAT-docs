@@ -50,7 +50,7 @@ Course owners can determine when and which badge their course participants recei
 
 If badges are generally activated, the possibility of awarding badges can be activated for each course under:<br>
 `Course > Administration > Settings > Assessment`<br>
-with the toggle "Award badges" in the section "Badges". The settings are described on the page [Course Settings - Tab Assessment](../../manual_user/learningresources/Course_Settings_Assessment.md#section_badges).
+with the toggle "Award badges" in the section "Badges". The settings are described on the page [Course Settings - Tab Assessment](../../manual_user/learningresources/Course_Settings_Assessment/index.md#section_badges).
 
 Under "Allow manual awarding of badges" you specify who may award badges by hand: "for course owners" or additionally "for coaches".
 
@@ -157,7 +157,7 @@ b) automatically on the basis of a condition and calculation<br>
 
 Manual assignment is possible for course owners and authorized coaches:<br>
 a) **in the last step of the wizard**<br> (by course owners)<br>
-b) **in the [assessment tool](../../manual_user/learningresources/Assessment_tool_overview.md)**<br>
+b) **in the [assessment tool](../../manual_user/learningresources/Assessment_tool_overview/index.md)**<br>
     (in the participant list, select participants and then click on the button "Award badge")<br>
 c) **in the badge list**<br>
     (under `Course > Administration > Badges`, select the badge and use the button "Award manually")
@@ -273,14 +273,14 @@ In the dialog, you confirm with a checkbox that you want to delete the badge per
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [Working with tables >](../../manual_user/basic_concepts/Table_Concept.md)<br>
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
-[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment/index.md)<br>
 [How do I make successes and achievements visible? >](../achievements/achievements.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
 [Personal achievements/successes: Badges >](../../manual_user/personal_menu/OpenBadges.md)
 
 **Further reading**<br>
 [Badges >](../../manual_user/learningresources/OpenBadges.md)<br>
-[Course elements at a glance >](../../manual_user/learningresources/Course_Elements.md)<br>
-[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course.md)
+[Course elements at a glance >](../../manual_user/learningresources/Course_Elements/index.md)<br>
+[Learning path course - Overview >](../../manual_user/learningresources/Learning_path_course/index.md)
 
 [To the top of the page ^](#badges)

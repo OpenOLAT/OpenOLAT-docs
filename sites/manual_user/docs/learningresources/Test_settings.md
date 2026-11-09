@@ -12,7 +12,7 @@ The "Test editor" entry opens the test editor. There you create the questions an
 
 !!! note "Test editor QTI 2.1"
     Overview of the test editor.<br>
-    [Test editor](Test_editor_QTI_2.1.md)
+    [Test editor](Test_editor_QTI_2.1/index.md)
 
 The "Assessment tool" of the test only appears if the test is to be used independently of the course: `Test > Administration > Settings > Tab "Share"`, usage "Standalone".
 
@@ -231,7 +231,7 @@ The test is then downloaded in zip format with two Word files, one of which cont
 
 **Mentioned on this page**<br>
 [Detailed View of Learning Resources >](Detailed_View_of_Learning_Resources.md)<br>
-[Test editor >](Test_editor_QTI_2.1.md)<br>
+[Test editor >](Test_editor_QTI_2.1/index.md)<br>
 [Tests at course level >](Tests_at_course_level.md)<br>
 [Coaching - Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching - Order management >](../area_modules/Coaching_Order_Management.md)<br>
@@ -241,6 +241,6 @@ The test is then downloaded in zip format with two Word files, one of which cont
 [How do I proceed when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [How do I assess a test? >](../../manual_how-to/assessing_tests/assessing_tests.md)<br>
 [How do you grade an anonymous test in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
-[Assessment tool - overview >](Assessment_tool_overview.md)
+[Assessment tool - overview >](Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#test_settings)

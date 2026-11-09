@@ -124,7 +124,7 @@ OpenOlat übergibt der Suchmaschine den Link auf die Resource-Infoseite. Dann du
 [Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.de.md)
 
 **Weiterführend**<br>
-[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md)<br>
 [Kurseinstellungen - Tab Info >](../../manual_user/learningresources/Course_Settings_Info.de.md)<br>
 [Lizenzen >](../../manual_admin/administration/Licenses.de.md)
 

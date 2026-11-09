@@ -85,7 +85,7 @@ Which course participants have given their consent to the course-specific terms 
 
 ### Acceptance of terms of use when copying courses
 
-[Learning path courses](../learningresources/Creating_learning_path_courses.md) can be copied with the help of a wizard: `Course > Administration > Copy with wizard`. This wizard can be used to specify which [course settings](../learningresources/Course_Settings.md) are to be transferred to the copy before the copy process is executed. Among other things, the terms of use can also be copied.
+[Learning path courses](../learningresources/Creating_learning_path_courses.md) can be copied with the help of a wizard: `Course > Administration > Copy with wizard`. This wizard can be used to specify which [course settings](../learningresources/Course_Settings/index.md) are to be transferred to the copy before the copy process is executed. Among other things, the terms of use can also be copied.
 
 ![Row Terms of use with the options Customize, Copy and Do not copy, in the Copy options step of the Copy course wizard](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" title="Copy course wizard, Copy options step" }
 
@@ -102,7 +102,7 @@ When filling out a form, the content entered may also require participants to ac
 
 ### Define terms of use of a form
 
-Within the learning resource Form there is the element "Terms of use", which authors insert in the [form editor](../learningresources/Form_Editor.md) via "Add content". In the element you define the text of the letter of agreement and the label of the checkbox.
+Within the learning resource Form there is the element "Terms of use", which authors insert in the [form editor](../learningresources/Form_Editor/index.md) via "Add content". In the element you define the text of the letter of agreement and the label of the checkbox.
 
 ![Element Terms of use in the group Organisational of the Add content dialog, in the form editor](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" title="Add content dialog in the form editor" }
 ![Fields Letter of agreement and Agreement label of the element Terms of use, on the right the inspector with the switch Hint box, in the form editor](assets/terms_of_use_form2_v1_de.png){ class="shadow lightbox" title="Element Terms of use in the form editor" }
@@ -124,8 +124,8 @@ draw.io is an online tool for creating diagrams that can be used in many places 
 
 [Members management >](../learningresources/Members_management.md)<br>
 [Creating learning path courses >](../learningresources/Creating_learning_path_courses.md)<br>
-[Course Settings >](../learningresources/Course_Settings.md)<br>
-[The Form Editor >](../learningresources/Form_Editor.md)<br>
+[Course Settings >](../learningresources/Course_Settings/index.md)<br>
+[The Form Editor >](../learningresources/Form_Editor/index.md)<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)
 

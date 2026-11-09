@@ -49,6 +49,6 @@ When you then click on a username, the assessment tool for that person opens and
 [Coaching: Reports >](../area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Order management >](../area_modules/Coaching_Order_Management.md)<br>
 [Roles >](../basic_concepts/Roles/index.md)<br>
-[Assessment tool >](../learningresources/Assessment_tool_overview.md)
+[Assessment tool >](../learningresources/Assessment_tool_overview/index.md)
 
 [To the top of the page ^](#groups)

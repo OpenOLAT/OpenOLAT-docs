@@ -113,7 +113,7 @@ How points, success status, highscore, badges and certificate build on each othe
 By default, questions in tests in OpenOlat are graded with points.
 The points are then added to the total points for the course element. If there are several course elements with points in a course, OpenOlat forms the total points for the course from them: in learning path courses, depending on the setting in the "Assessment" tab of the course settings, as a sum, as a sum with weighting or as an average. In conventional courses, you define the total points in the tab "Score" of the top course element. Based on the total points for the course, a "course passed" can then be awarded, for example.
 
-[More about points >](../../manual_user/learningresources/Course_Settings_Assessment.md#section_assessment_settings)<br>
+[More about points >](../../manual_user/learningresources/Course_Settings_Assessment/index.md#section_assessment_settings)<br>
 [To the top of the page ^](#achievements)
 
 ---
@@ -129,7 +129,7 @@ In the tab "HighScore", switch on "Show Highscore" and choose what the highscore
 
 OpenOlat shows the highscore of a structure and that of the whole course on the automatic overview. For this, select "Automatic overview" or "Automatic overview incl. preview" in the tab "Overview".
 
-[More about the highscore >](../../manual_user/learningresources/Course_Elements.md#highscore)<br>
+[More about the highscore >](../../manual_user/learningresources/Course_Elements/index.md#highscore)<br>
 [To the top of the page ^](#achievements)
 
 ---
@@ -195,7 +195,7 @@ When a certification program issues a certificate, a determinable number of cred
 
 A prerequisite for recertification may be that a certain number of credit points have been earned beforehand.
 
-[More about credit points >](../../manual_user/learningresources/Course_Settings_Assessment.md#section_credit_points)<br>
+[More about credit points >](../../manual_user/learningresources/Course_Settings_Assessment/index.md#section_credit_points)<br>
 [To the top of the page ^](#achievements)
 
 ---
@@ -305,7 +305,7 @@ Unlocks: tab "HighScore" (grey as long as the course element awards no points), 
 The procedure follows the assessment from bottom to top. If a result is unexpected, check the levels in the same order.
 
 1. **Assessable course elements**<br>
-    Award points or "Passed" in the assessable course elements. You find them in the course editor: `Course > Administration > Course editor`. For the course element "Assessment", switch on "Score granted" in the tab "Assessment"; a test awards the points of its questions. In a learning path course, a course element counts for the course if "Include in course assessment" is switched on. As soon as a course element awards points, its tab "HighScore" is active. The page [Course elements at a glance](../../manual_user/learningresources/Course_Elements.md#assessment) shows which course elements are assessable.
+    Award points or "Passed" in the assessable course elements. You find them in the course editor: `Course > Administration > Course editor`. For the course element "Assessment", switch on "Score granted" in the tab "Assessment"; a test awards the points of its questions. In a learning path course, a course element counts for the course if "Include in course assessment" is switched on. As soon as a course element awards points, its tab "HighScore" is active. The page [Course elements at a glance](../../manual_user/learningresources/Course_Elements/index.md#assessment) shows which course elements are assessable.
 
 2. **Structure (optional)**<br>
     A course element "Structure" sums up the assessment of a chapter. In a learning path course, it adds up the points of the course elements below it automatically as soon as the course is assessed with points (step 4). In a conventional course, select the course elements under "Total score of" in the tab "Score" of the structure and define the Calculation "Passed". If the structure has points, its tab "HighScore" is active as well. More about this: [Course Element "Structure", tab Score](../../manual_user/learningresources/Course_Element_Structure.md#score)
@@ -314,7 +314,7 @@ The procedure follows the assessment from bottom to top. If a result is unexpect
     The top entry in the course editor stands for the whole course. In a conventional course, you define in its tab "Score" how the course is assessed. In the tab "HighScore", you set up the [highscore](#highscore) of the course. So that participants see the score, the success status and the highscore of the course, select "Automatic overview" or "Automatic overview incl. preview" in the tab "Overview".
 
 4. **Course settings, tab "Assessment"**<br>
-    Under `Course > Administration > Settings > Assessment`, you define in a learning path course in the section "Assessment settings" how the course is assessed: "With score" as "Sum", "Sum with weighting" or "Average", and "With success status" with the criteria for passing. In the same tab, switch on "Issue certificate" in the section "Certificate", for example with "Automatically after passing the course". If system administrators have activated badges, switch on "Award badges" in the section "Badges". The course editor then shows the tab "Badges" on the assessable course elements, and you can create badges with criteria such as "Course is passed" or "Course element score". More about this: [Course Settings - Tab Assessment](../../manual_user/learningresources/Course_Settings_Assessment.md)
+    Under `Course > Administration > Settings > Assessment`, you define in a learning path course in the section "Assessment settings" how the course is assessed: "With score" as "Sum", "Sum with weighting" or "Average", and "With success status" with the criteria for passing. In the same tab, switch on "Issue certificate" in the section "Certificate", for example with "Automatically after passing the course". If system administrators have activated badges, switch on "Award badges" in the section "Badges". The course editor then shows the tab "Badges" on the assessable course elements, and you can create badges with criteria such as "Course is passed" or "Course element score". More about this: [Course Settings - Tab Assessment](../../manual_user/learningresources/Course_Settings_Assessment/index.md)
 
 [To the top of the page ^](#achievements)
 
@@ -375,8 +375,8 @@ Points earned in a course element or course are also displayed on the course ele
 
 **Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
-[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
-[Course elements at a glance >](../../manual_user/learningresources/Course_Elements.md)<br>
+[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment/index.md)<br>
+[Course elements at a glance >](../../manual_user/learningresources/Course_Elements/index.md)<br>
 [Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../../manual_user/personal_menu/Evidence_of_Achievements.md)<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)<br>
@@ -392,7 +392,7 @@ Points earned in a course element or course are also displayed on the course ele
 [How can I create certification programs with the Course Planner? >](../certification_programs/certification_programs.md)<br>
 [e-Assessment Administration: OpenBadges >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
-[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+[Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
 [Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
 [Assess tasks >](../../manual_user/learningresources/Assess_tasks.md)<br>
 [Forms in Rubric Scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>

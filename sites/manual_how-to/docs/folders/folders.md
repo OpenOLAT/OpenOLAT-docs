@@ -288,7 +288,7 @@ When archiving an entire course or individual elements, the data is stored as a 
 - **Open:** `File Hub > Course archive`
 - **Content:** Participant data kept separately from the course, stored as a ZIP.
 
-More on the [Course archiving >](../../manual_user/learningresources/Course_Archiving.md#where-can-i-find-course-archive-files)
+More on the [Course archiving >](../../manual_user/learningresources/Course_Archiving/index.md#where-can-i-find-course-archive-files)
 
 [To the top of the page ^](#folders)
 
@@ -367,7 +367,7 @@ Also remember that the size of individual files and the total storage of a folde
 [User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Document Pool >](../../manual_admin/administration/Modules_Document_pool.md)<br>
-[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving.md)<br>
+[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving/index.md)<br>
 [What measures can I take to reduce storage space consumption? >](../reduce_storage_consumption/reduce_storage_consumption.md)
 
 **Further reading**<br>

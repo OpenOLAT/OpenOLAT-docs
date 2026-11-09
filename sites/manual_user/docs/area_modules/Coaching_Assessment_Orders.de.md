@@ -15,7 +15,7 @@ Je nach Rolle sind neben Ihren eigenen Bewertungsaufträgen auch die übrigen an
 
 Auf dieser Seite kommen drei Begriffe vor. Sie bezeichnen verschiedene Dinge:
 
-* **Bewertung**: das Resultat einer Person an einem bewertbaren Kursbaustein, also Status, Punkte, "Bestanden" und gegebenenfalls die Note. Auch ein Test hat eine Bewertung. Sie bearbeiten sie im [Bewertungsformular](../learningresources/The_assessment_form.de.md) oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses.
+* **Bewertung**: das Resultat einer Person an einem bewertbaren Kursbaustein, also Status, Punkte, "Bestanden" und gegebenenfalls die Note. Auch ein Test hat eine Bewertung. Sie bearbeiten sie im [Bewertungsformular](../learningresources/The_assessment_form.de.md) oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview/index.de.md) des Kurses.
 * **Korrektur**: das Durchsehen einer Abgabe von Hand, wo OpenOlat nicht selbst auswertet, etwa bei Freitextfragen in einem Test. Die Korrektur ist ein Schritt auf dem Weg zur Bewertung: In einem Test vergibt die korrigierende Person die Punkte, daraus entsteht die Bewertung. Betreuende korrigieren einen Test im [Korrekturwerkzeug](../learningresources/Assessing_tests.de.md), Korrektor:innen über "Korrigieren" in ihrem Korrekturauftrag.
 * **Einstufung/Noten**: die Umrechnung der Punkte in eine Note nach einer Bewertungsskala. Ohne Einstufung besteht die Bewertung aus Punkten und gegebenenfalls "Bestanden". Mit [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md) kommt die Note dazu, und das Bewertungssystem bestimmt, ob die Punktzahl als bestanden gilt.
 
@@ -39,7 +39,7 @@ Die Seiten, auf denen Besitzer:innen die jeweilige Einstellung setzen:
 
 * **Offene Bewertungen**: [Test einrichten](../learningresources/Course_Element_Test/Test_Setup.de.md#section_correction), [Kursbaustein Aufgabe](../learningresources/Course_Element_Task/index.de.md), [Kursbaustein Bewertung](../learningresources/Course_Element_Assessment.de.md)
 * **Offene Einstufungen/Noten**: [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md)
-* **Freizugebende Bewertungen**: [Test einrichten](../learningresources/Course_Element_Test/Test_Setup.de.md#section_correction), [Kurseinstellungen, Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment.de.md#section_assessment_rights)
+* **Freizugebende Bewertungen**: [Test einrichten](../learningresources/Course_Element_Test/Test_Setup.de.md#section_correction), [Kurseinstellungen, Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment/index.de.md#section_assessment_rights)
 * **Korrekturaufträge**: [Test Einstellungen](../learningresources/Test_settings.de.md#correction-workflow)
 
 Der Kursbaustein muss dafür bewertbar und auf manuelle Bewertung gestellt sein, Punkte oder "Bestanden" werden also am Kursbaustein gesetzt. Steht die Korrektur eines Tests auf "Automatisch", wertet OpenOlat den Test selbst aus und gibt das Resultat sofort frei; das Gleiche gilt für die Zuweisung "Automatisch bei Punktänderungen" bei Einstufung und Noten.
@@ -71,7 +71,7 @@ Hier finden Sie alle Kursbausteine, die zwar schon bewertet wurden, bei denen ab
 
 Eine Zeile erscheint, wenn am Kursbaustein "Bewertung mit Einstufung/Noten" eingeschaltet und die "Zuweisung" auf "Manuell" gestellt ist, die Punkte gesetzt sind und die Note noch aussteht. Kursbesitzer:innen setzen beides im Kurseditor am Kursbaustein, beim Test im Tab "Test-Konfiguration", sonst im Tab "Bewertung". Zusätzlich braucht es das Modul [Einstufung/Noten](../learningresources/Assessment_translate_points_in_grades.de.md) und eine hinterlegte Bewertungsskala.
 
-Betreuende ohne Besitzrecht sehen die Zeile und weisen die Note zu, solange die Option "Einstufung/Noten zuweisen" eingeschaltet ist. Die Option ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment.de.md#section_assessment_rights) aus oder ein. Herkömmliche Kurse haben diesen Abschnitt nicht, dort dürfen Betreuende immer zuweisen.
+Betreuende ohne Besitzrecht sehen die Zeile und weisen die Note zu, solange die Option "Einstufung/Noten zuweisen" eingeschaltet ist. Die Option ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie unter `Kurs > Administration > Einstellungen > Tab "Bewertung"` im [Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment/index.de.md#section_assessment_rights) aus oder ein. Herkömmliche Kurse haben diesen Abschnitt nicht, dort dürfen Betreuende immer zuweisen.
 
 [Zum Seitenanfang ^](#assessment_orders)
 
@@ -83,7 +83,7 @@ Hier finden Sie alle Bewertungen, die noch nicht für die Teilnehmer:innen sicht
 
 In diesem Tab ist es auch möglich, alle Kursbausteine auszuwählen und alle auf einmal freizugeben.
 
-Beim Test steuert das Feld "Freigabe Bewertung" im [Abschnitt Korrektur](../learningresources/Course_Element_Test/Test_Setup.de.md#section_correction), ob OpenOlat die Bewertung nach abgeschlossener Korrektur selbst freigibt. Bei den übrigen manuell bewerteten Kursbausteinen entscheidet die Kursoption "Bewertung freigeben". Dieselbe Option gibt Betreuenden ohne Besitzrecht den Zugriff auf diesen Tab. Sie ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie im [Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment.de.md#section_assessment_rights) aus oder ein, herkömmliche Kurse haben diesen Abschnitt nicht.
+Beim Test steuert das Feld "Freigabe Bewertung" im [Abschnitt Korrektur](../learningresources/Course_Element_Test/Test_Setup.de.md#section_correction), ob OpenOlat die Bewertung nach abgeschlossener Korrektur selbst freigibt. Bei den übrigen manuell bewerteten Kursbausteinen entscheidet die Kursoption "Bewertung freigeben". Dieselbe Option gibt Betreuenden ohne Besitzrecht den Zugriff auf diesen Tab. Sie ist standardmässig eingeschaltet. In Lernpfadkursen schalten Kursbesitzer:innen sie im [Abschnitt Berechtigungen](../learningresources/Course_Settings_Assessment/index.de.md#section_assessment_rights) aus oder ein, herkömmliche Kurse haben diesen Abschnitt nicht.
 
 [Zum Seitenanfang ^](#assessment_orders)
 
@@ -135,13 +135,13 @@ Die Verwaltung aller Korrektor:innen und ihrer Aufträge liegt dagegen in der [A
 
 **Auf dieser Seite erwähnt**<br>
 [Das Bewertungsformular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview/index.de.md)<br>
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Test einrichten >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md)<br>
 [Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Bewertung" >](../../manual_user/learningresources/Course_Element_Assessment.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
+[Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)

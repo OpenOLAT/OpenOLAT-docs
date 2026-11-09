@@ -4,7 +4,7 @@
 
 !!! info "Important"
 
-    The tabs "Visibility" and "Access" only exist in conventional courses. You therefore use the expert mode only there, not in [learning path courses](Learning_path_course.md).
+    The tabs "Visibility" and "Access" only exist in conventional courses. You therefore use the expert mode only there, not in [learning path courses](Learning_path_course/index.md).
 
 You want to decide who sees and opens a course element, for example only from a certain date or only a certain group. In conventional courses, you set this in the tabs "Visibility" and "Access" of the course element. There you block the course element for learners, for example, release it only for certain groups or unlock it from a certain date.
 
@@ -358,13 +358,13 @@ For further information on attribute values or on the use of AAI attributes, con
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Learning path course - Overview >](Learning_path_course.md)<br>
+[Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Specification of AAI attributes (PDF) >](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)<br>
 [Switch AAI >](http://www.switch.ch/aai/)<br>
 [Deutsches Forschungsnetz (DFN-AAI) >](https://www.aai.dfn.de/der-dienst/attribute/)
 
 **Further information**<br>
 [Course elements in the Course editor >](General_Configuration_of_Course_Elements.md)<br>
-[Course elements at a glance >](Course_Elements.md)
+[Course elements at a glance >](Course_Elements/index.md)
 
 [To the top of the page ^](#access-restrictions-in-the-expert-mode)

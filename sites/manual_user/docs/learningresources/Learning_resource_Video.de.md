@@ -61,7 +61,7 @@ Wie Sie die Infoseite einrichten, beschreibt der Abschnitt [Infoseite einrichten
 
 ### Tab "Freigabe"
 
-Im Tab "Freigabe" legen Sie fest, ob die Lernressource Video in einen Kurs eingebunden oder eigenständig verwendet wird. Wählen Sie beim "Verwendungszweck" die Option "Eigenständig", legen Sie zusätzlich fest, wie Personen das Video buchen können. Mehr dazu auf der Seite [Kurseinstellungen - Tab Freigabe](../learningresources/Course_Settings_Share.de.md).
+Im Tab "Freigabe" legen Sie fest, ob die Lernressource Video in einen Kurs eingebunden oder eigenständig verwendet wird. Wählen Sie beim "Verwendungszweck" die Option "Eigenständig", legen Sie zusätzlich fest, wie Personen das Video buchen können. Mehr dazu auf der Seite [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md).
 
 Ist die [Video Collection](../area_modules/Video_Collection.de.md) in Ihrer Instanz aktiviert, legen Sie hier auch fest, ob die Lernressource Video dort erscheint.
 
@@ -342,7 +342,7 @@ Liegt eine Quizfrage bei 00:00 und sind beide Optionen ausgeschaltet, erscheint 
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Kursbaustein "Video" >](Course_Element_Video.de.md)<br>
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
-[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
 [Video Collection >](../area_modules/Video_Collection.de.md)<br>
 [Katalog 1.0 >](../area_modules/catalog1.0.de.md)<br>
 [WebVTT: The Web Video Text Tracks Format >](https://w3c.github.io/webvtt/)<br>

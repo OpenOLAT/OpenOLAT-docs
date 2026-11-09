@@ -46,7 +46,7 @@ With the option "User can sign in themselves", all participants with access to t
 ## Further information {: #further_information}
 
 [vitero GmbH](http://www.vitero.de/)<br>
-[Course elements at a glance >](Course_Elements.md)<br>
+[Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "BigBlueButton" >](bigbluebutton/index.md)
 
 [To the top of the page ^](#vitero)

@@ -14,37 +14,37 @@ In OpenOlat können Rubriken z.B. eingesetzt werden, um
 
 * den Zustimmungsgrad zu einer Fragestellung abzufragen
 
-  ![Rubrik mit Radiobuttons fragt Zustimmungsgrad zu Aussagen ab, sechs Antwortstufen von Zustimmung bis "Keine Antwort möglich"](assets/Rubrik_Beispiel1.jpg){ class="shadow lightbox" }
+  ![Rubrik mit Radiobuttons fragt Zustimmungsgrad zu Aussagen ab, sechs Antwortstufen von Zustimmung bis "Keine Antwort möglich"](assets/Rubrik_Beispiel1.jpg){ class="shadow lightbox" title="Rubrik beim Ausfüllen, Beispiel Zustimmungsgrad" }
 
 <br>
 
 * Ausprägungen zwischen zwei extremen Skalen abzufragen
 
-  ![Rubrik mit Schiebereglern zwischen zwei Skalen-Enden, z. B. "in Präsenz" gegenüber "Online" und "alleine" gegenüber "gemeinsam mit Anderen"](assets/Rubrik_Beispiel2.jpg){ class="shadow lightbox" }
+  ![Rubrik mit Schiebereglern zwischen zwei Skalen-Enden, z. B. "in Präsenz" gegenüber "Online" und "alleine" gegenüber "gemeinsam mit Anderen"](assets/Rubrik_Beispiel2.jpg){ class="shadow lightbox" title="Rubrik beim Ausfüllen, Beispiel zwei Skalen-Enden" }
 
 <br>
 
 * Bewertungsraster für Lernenden-Aktionen zu erstellen
 
-  ![Bewertungsraster für eine Projektarbeit mit den Kriterien Inhalt, Innovation und Technik, je auf einer Skala von 1 bis 5 Punkten](assets/Rubrik_Beispiel3.jpg){ class="shadow lightbox" }
+  ![Bewertungsraster für eine Projektarbeit mit den Kriterien Inhalt, Innovation und Technik, je auf einer Skala von 1 bis 5 Punkten](assets/Rubrik_Beispiel3.jpg){ class="shadow lightbox" title="Rubrik beim Ausfüllen, Beispiel Bewertungsraster" }
 
 <br>
 
 * eine Selbsteinschätzung z.B. Stärken und Schwächen vornehmen zu lassen
 
-  ![Selbsteinschätzung mit Schiebereglern zwischen Stärke und Schwäche für Kriterien wie Kreativität, Problemlösekompetenz und Spontanität](assets/Rubrik_Beispiel4.jpg){ class="shadow lightbox" }
+  ![Selbsteinschätzung mit Schiebereglern zwischen Stärke und Schwäche für Kriterien wie Kreativität, Problemlösekompetenz und Spontanität](assets/Rubrik_Beispiel4.jpg){ class="shadow lightbox" title="Rubrik beim Ausfüllen, Beispiel Selbsteinschätzung" }
 
 <br>
 
 * Kriterien bezogene Punkte zu vergeben
 
-  ![Rubrik vergibt 0 bis 4 Punkte je Kriterium, Spaltenbeschriftungen mit Zahl und Bewertungstext wie "3 gut das passt"](assets/rubrik_skalentexte.jpg){ class="shadow lightbox" }
+  ![Rubrik vergibt 0 bis 4 Punkte je Kriterium, Spaltenbeschriftungen mit Zahl und Bewertungstext wie "3 gut das passt"](assets/rubrik_skalentexte.jpg){ class="shadow lightbox" title="Rubrik beim Ausfüllen, Beispiel Punkte je Kriterium" }
 
 <br>
 
 * in einem Peer-Review die anderen Teilnehmer:innen zu bewerten und/oder eine Bewertung durch Betreuer:innen vorzunehmen
 
-  ![Rubrik im Peer-Review-Formular bewertet Thesen und Argumentation auf einer Skala von -- bis ++, mit Kommentarfeld je Frage](assets/Rubrik_Peer-Review.png){ class="shadow lightbox" }
+  ![Rubrik im Peer-Review-Formular bewertet Thesen und Argumentation auf einer Skala von -- bis ++, mit Kommentarfeld je Frage](assets/Rubrik_Peer-Review.png){ class="shadow lightbox" title="Rubrik beim Ausfüllen, Beispiel Peer-Review" }
 
 <br>
 
@@ -54,7 +54,7 @@ Rubriken können über "Inhalt hinzufügen" einem OpenOlat-Formular hinzugefügt
 
 ## Rubrik-Konfiguration im Formular-Editor
 
-![Rubrik-Konfiguration mit Spaltenbeschriftung samt Wertzuweisung je Spalte sowie Gewichtung und Verschiebepfeilen je Zeile, im Formular-Editor](assets/formular_rubik17a.png){ class="shadow lightbox" }
+![Rubrik-Konfiguration mit Spaltenbeschriftung samt Wertzuweisung je Spalte sowie Gewichtung und Verschiebepfeilen je Zeile](assets/formular_rubik17a.png){ class="shadow lightbox" title="Konfiguration einer Rubrik" }
 
 Eine Rubrik besteht in der Regel aus Zeilen und Spalten, die sinnvoll beschriftet und definiert werden müssen.
 
@@ -67,7 +67,7 @@ Eine bearbeitete Rubrik kann, eingebunden in einen Kurs, automatisch eine entspr
 
 Über den Quer-Doppelpfeil kann eine Rubrik mit zwei Enden erstellt werden.
 
-![Rubrik mit zwei Enden je Zeile und je einem eigenen Zeilenlabel wie "Audio Qualität", aktiviert über den Pfeil oben rechts im Formular-Editor](assets/Rubrik_2_enden.jpg){ class="shadow lightbox" }
+![Rubrik mit zwei Enden je Zeile und je einem eigenen Zeilenlabel wie "Audio Qualität", aktiviert über den Pfeil oben rechts im Formular-Editor](assets/Rubrik_2_enden.jpg){ class="shadow lightbox" title="Konfiguration einer Rubrik mit zwei Enden" }
 
 
 !!! info "Wichtig"
@@ -76,7 +76,7 @@ Eine bearbeitete Rubrik kann, eingebunden in einen Kurs, automatisch eine entspr
 
 ### Einstellungen im Rubrik-Inspektor
 
-![Tab "Generell" des Rubrik-Inspektors mit geöffneter Typ-Auswahl: Diskret mit Radio, Diskret mit Sternen, Diskret mit Slider oder Kontinuierlich](assets/Rubrik_Inspector_20.png){ class="shadow lightbox" }
+![Geöffnete Typ-Auswahl mit Diskret mit Radio, Diskret mit Sternen, Diskret mit Slider oder Kontinuierlich](assets/Rubrik_Inspector_20.png){ class="shadow lightbox" title="Tab Generell des Rubrik-Inspektors" }
 
 
 
@@ -93,7 +93,7 @@ Die Anzahl der **Schritte** legt die Anzahl der Spalten fest bzw. bei der Sternc
 
 Für Rubriken vom Typ "Diskret mit Radio" erscheint zusätzlich die Option **"Beschreibung der Kriterien"**. Diese ermöglicht es, deutlich differenziertere Rubriken zu erstellen. Aktiviert man das Feld "Beschreibung der Kriterien", kann über das Stiftsymbol ein Eingabefeld aktiviert werden, das es ermöglicht, für jedes Kriterium eine konkretere Beschreibung zu hinterlegen.
 
-![Stiftsymbol öffnet ein Eingabefeld für eine ausführliche Beschreibung je Bewertungskriterium bei aktivierter Option "Beschreibung der Kriterien"](assets/Rubrik_Bewertungsfeld.png){ class="shadow lightbox" }
+![Stiftsymbol öffnet ein Eingabefeld für eine ausführliche Beschreibung je Bewertungskriterium bei aktivierter Option "Beschreibung der Kriterien"](assets/Rubrik_Bewertungsfeld.png){ class="shadow lightbox" title="Rubrik-Inspektor mit Beschreibung der Kriterien" }
 
 Aktiviert man das Feld **"Kommentar pro Frage"**, können Nutzende für jede Zeile einer Rubrik noch einen Kommentar zu ihrer Bewertung hinterlassen (Freitextfeld).
 
@@ -138,9 +138,9 @@ Hier kann der Abstand des Rubrik-Elements zu anderen Formular-Elementen festgele
 [Frageregeln in Formularen](../learningresources/Form_Question_Rules.de.md)
 
 **Weiterführend**<br>
-[Formulare - Übersicht](Form.de.md)<br>
-[Formular-Editor](Form_Editor.de.md)<br>
-[Formular-Elemente](Form_Elements.de.md)
+[Formulare - Übersicht](Form/index.de.md)<br>
+[Formular-Editor](Form_Editor/index.de.md)<br>
+[Formular-Elemente](Form_Elements/index.de.md)
 
 [Zum Seitenanfang ^](#das-formular-element-rubrik)
 

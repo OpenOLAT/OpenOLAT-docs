@@ -78,6 +78,6 @@ Die erstellten Excel-Dateien werden im Abschnitt "Exportverlauf" aufgelistet. Je
 [Coaching: Bewertungsaufträge >](../../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Gruppen >](../../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
-[Bewertungswerkzeug >](../../../manual_user/learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug >](../../learningresources/Assessment_tool_overview/index.de.md)
 
 [Zum Seitenanfang ^](#reports)

@@ -16,7 +16,7 @@
 
     * ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)
     * ["Wie gehe ich vor, wenn ich einen Test erstelle?"](../test_creation_procedure/test_creation_procedure.de.md)
-    * [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)
+    * [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)
 
 ---
 
@@ -285,7 +285,7 @@ Welche Sammelaktionen erscheinen, hängt von der Konfiguration des Kursbausteins
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../test_creation_procedure/test_creation_procedure.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](../../manual_user/learningresources/Assessment_tool_overview/index.de.md)<br>
 [Test Einstellungen - Administration >](../../manual_user/learningresources/Test_settings.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../manual_user/area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Test einrichten >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md)<br>
@@ -297,7 +297,7 @@ Welche Sammelaktionen erscheinen, hängt von der Konfiguration des Kursbausteins
 [Bewertungswerkzeug: Tab Teilnehmer:innen >](../../manual_user/learningresources/Assessment_tool_tab_Users.de.md)<br>
 [Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
 [Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>
-[Tests erstellen >](../../manual_user/learningresources/Test.de.md)<br>
+[Tests erstellen >](../../manual_user/learningresources/Test/index.de.md)<br>
 [Tests auf Kursebene >](../../manual_user/learningresources/Tests_at_course_level.de.md)<br>
 [Test konfigurieren >](../../manual_user/learningresources/Configure_tests.de.md)<br>
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>

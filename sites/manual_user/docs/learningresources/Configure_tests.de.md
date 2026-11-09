@@ -40,7 +40,7 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 
 !!! note "Hinweis"
 
-    Eine zeitliche Beschränkung des Tests kann sowohl direkt im Testeditor wie hier beschrieben oder nach dem Einbinden des Tests in einen Kurs im Kurseditor im Tab `Optionen` eingerichtet werden. Wenn nötig kann die Testzeit auch für einzelne Personen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) verlängert werden.
+    Eine zeitliche Beschränkung des Tests kann sowohl direkt im Testeditor wie hier beschrieben oder nach dem Einbinden des Tests in einen Kurs im Kurseditor im Tab `Optionen` eingerichtet werden. Wenn nötig kann die Testzeit auch für einzelne Personen im [Bewertungswerkzeug](Assessment_tool_overview/index.de.md) verlängert werden.
 
 ### Tab Feedback
 
@@ -125,8 +125,8 @@ Ist die Sichtbarkeit des Sektionstitels im Tab "Expert" aktiviert, so wird auch 
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Test einrichten >](Course_Element_Test/Test_Setup.de.md)<br>
 [Einstufung/Noten >](Assessment_translate_points_in_grades.de.md)<br>
-[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview.de.md)<br>
-[Testeditor >](Test_editor_QTI_2.1.de.md)<br>
+[Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
+[Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
 [Test Einstellungen - Administration >](Test_settings.de.md)
 
 [Zum Seitenanfang ^](#test-konfigurieren)

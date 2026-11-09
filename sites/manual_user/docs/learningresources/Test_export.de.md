@@ -212,7 +212,7 @@ Je Frage steht in der Spalte "Pkt" die Punktzahl der Frage. Bei automatisch korr
 
 #### Sheet "Exportinformationen" [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812) {: #export_information}
 
-Wer exportierte Rohdaten weiterverarbeitet oder ausserhalb von OpenOlat ablegt, erkennt am Sheet "Exportinformationen", aus welchem Kurs und welchem Kursbaustein die Datei stammt und wann und von wem sie erstellt wurde. Das Sheet steht als letztes Sheet in jeder Excel-Datei mit Testresultaten, gleich ob die Datei aus "Resultate exportieren", aus "Rohdaten herunterladen" in den [Teststatistiken](Statistics_Test.de.md) oder aus der [Kursarchivierung](Course_Archiving.de.md) stammt. Es hat die Spalten "Information" und "Wert" und diese Zeilen:
+Wer exportierte Rohdaten weiterverarbeitet oder ausserhalb von OpenOlat ablegt, erkennt am Sheet "Exportinformationen", aus welchem Kurs und welchem Kursbaustein die Datei stammt und wann und von wem sie erstellt wurde. Das Sheet steht als letztes Sheet in jeder Excel-Datei mit Testresultaten, gleich ob die Datei aus "Resultate exportieren", aus "Rohdaten herunterladen" in den [Teststatistiken](Statistics_Test.de.md) oder aus der [Kursarchivierung](Course_Archiving/index.de.md) stammt. Es hat die Spalten "Information" und "Wert" und diese Zeilen:
 
 Zeile | Inhalt
 ---------|----------
@@ -245,14 +245,14 @@ Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigen
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Teststatistiken >](Statistics_Test.de.md)<br>
 [Tests bewerten >](../learningresources/Assessing_tests.de.md)<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving.de.md)<br>
+[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Tests auswerten und verwalten >](../learningresources/Course_Element_Test/Test_Results.de.md)
 
 **Weiterführend**<br>
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
-[Tests erstellen >](../learningresources/Test.de.md)<br>
-[Testeditor >](Test_editor_QTI_2.1.de.md)<br>
+[Tests erstellen >](Test/index.de.md)<br>
+[Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Test Fragen konfigurieren >](Configure_test_questions.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>

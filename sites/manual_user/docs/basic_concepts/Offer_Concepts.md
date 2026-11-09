@@ -262,7 +262,7 @@ Organisations can define and name their own credit point systems and restrict th
 
 
 [Activate credit points system-wide (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
-[Awarding credit points in courses >](../learningresources/Course_Settings_Assessment.md#section_credit_points)<br>
+[Awarding credit points in courses >](../learningresources/Course_Settings_Assessment/index.md#section_credit_points)<br>
 [Credit points in the personal menu >](../personal_menu/Credit_Points.md)
 
 [To the top of the page ^](#offer_concepts)
@@ -317,7 +317,7 @@ With automatic booking, the offer description is not displayed and users are onl
 [PayPal Configuration (Administration) >](../../manual_admin/administration/Payment_PayPal.md)<br>
 [Payment modules: Invoice (Administration) >](../../manual_admin/administration/Payment_Invoice.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
-[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment.md)<br>
+[Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
 [Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)
 
 **Further reading**<br>

@@ -30,7 +30,7 @@ Was der Ausdruck enthält und was er weglässt: [Infoseite drucken oder als PDF 
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
 
 **Weiterführend**<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)
 

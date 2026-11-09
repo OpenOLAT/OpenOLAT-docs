@@ -82,7 +82,7 @@ In der Liste des Autorenbereichs zeigt die Spalte "Lizenz" die Lizenz jeder Lern
 [Creative Commons Lizenzen >](https://creativecommons.org/licenses/?lang=de)
 
 **Weiterführend**<br>
-[Kurseinstellungen >](../learningresources/Course_Settings.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
 
 [Zum Seitenanfang ^](#tab_metadata)

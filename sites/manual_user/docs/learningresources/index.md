@@ -1,7 +1,7 @@
 # Various Types of Learning Resources {: #learning_resources}
 
 OpenOlat comprises different types of [learning resources](../learningresources/General_Functions_Concept.md).<br>
-Most of the time, these are embedded into [course elements](../learningresources/Course_Elements.md).<br>
+Most of the time, these are embedded into [course elements](Course_Elements/index.md).<br>
 Some learning resources can be created directly in the authoring area.<br>
 In addition, [further learning resource types](#further_learningresources) can be created or imported.
 
@@ -18,7 +18,7 @@ In addition, [further learning resource types](#further_learningresources) can b
 
 An OpenOlat course can be used as an online-only course or accompany lectures, seminars or other face-to-face events. In an OpenOlat course, different didactic concepts like webquest, group puzzles, cooperative online seminars, problem-based learning, game-based approaches etc. can be implemented. In OpenOlat, a course is a document type of its own that can contain any number of "course elements" as well as other functionalities.
 
-How to create courses is explained in the chapter ["Creating Courses"](Creating_Course.md). Details on course elements and the course editor can be found in the chapter ["Types of Course Elements"](Course_Elements.md).
+How to create courses is explained in the chapter ["Creating Courses"](Creating_Course.md). Details on course elements and the course editor can be found in the chapter ["Types of Course Elements"](Course_Elements/index.md).
 
 
 [To the top of the page ^](#learning_resources)
@@ -33,7 +33,7 @@ How to create courses is explained in the chapter ["Creating Courses"](Creating_
 
 OpenOlat tests can be used for both examination and practice purposes. In the first case, the course authors can view the test results and assign them to the participants; in the second case, the results are stored anonymously. Each test is available in the standardized format IMS QTI 2.1.
 
-More information on using and creating tests can be found in the chapter ["Creating Tests"](../learningresources/Test.md).
+More information on using and creating tests can be found in the chapter ["Creating Tests"](Test/index.md).
 
 [To the top of the page ^](#learning_resources)
 
@@ -73,7 +73,7 @@ More information on creating wikis can be found in the chapter ["Creating Wikis"
 
 A podcast allows you to upload audio or video files that can then be made available in OpenOlat. Podcasts can either be listened to or watched directly in OpenOlat, or they can be subscribed to in portals such as iTunes in order to copy single episodes to mobile devices later on. Participants can easily rate and comment on episodes.
 
-Further information on podcasts can be found in the chapter ["Podcast: Overview"](../learningresources/Podcast.md).
+Further information on podcasts can be found in the chapter ["Podcast: Overview"](Podcast/index.md).
 
 [To the top of the page ^](#learning_resources)
 
@@ -97,7 +97,7 @@ Here you can find more information about the [course element blog](../learningre
 
 ![Entry Resource folder highlighted in the Create menu of the authoring area](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
 
-With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. The files are referenced from the resource folder and therefore do not need to be created multiple times. The linked resource folder is displayed in the files of the linked course under `_sharedfolder`, and all files stored in the resource folder can be accessed. Changes to the files in the resource folder then apply to all linked courses. Note that only *one* resource folder can be added per course. Further information can be found in the chapter ["Course Settings"](../learningresources/Course_Settings.md#options) in the tab "Options".
+With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. The files are referenced from the resource folder and therefore do not need to be created multiple times. The linked resource folder is displayed in the files of the linked course under `_sharedfolder`, and all files stored in the resource folder can be accessed. Changes to the files in the resource folder then apply to all linked courses. Note that only *one* resource folder can be added per course. Further information can be found in the chapter ["Course Settings"](Course_Settings/index.md#options) in the tab "Options".
 
 [To the top of the page ^](#learning_resources)
 
@@ -111,7 +111,7 @@ With the help of the resource folder, files (content, information, graphics, etc
 
 Forms can be used in OpenOlat for a variety of purposes and in different places. They are suitable, for example, for surveys, data collection, self-assessments, questionnaires or rubric assessment. They are used in the course element "Form", in the course element "Survey" or as rubric assessment in the course element "Assessment" or course element "Task".
 
-More information on the use and creation of forms for surveys, rubrics etc. can be found in the chapter [Creating forms](../learningresources/Form.md).
+More information on the use and creation of forms for surveys, rubrics etc. can be found in the chapter [Creating forms](Form/index.md).
 
 [To the top of the page ^](#learning_resources)
 

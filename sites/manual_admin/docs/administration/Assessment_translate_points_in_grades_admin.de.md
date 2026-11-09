@@ -86,6 +86,6 @@ Im Dialog "Bewertungssystem bearbeiten" erreichen Sie denselben Übersetzungsdia
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [e-Assessment Administration: Übersicht >](e-Assessment_Administration.de.md)<br>
 [Kursbaustein "Bewertung" >](../../manual_user/learningresources/Course_Element_Assessment.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)
+[Kurseinstellungen - Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment/index.de.md)
 
 [Zum Seitenanfang ^](#grades_points)

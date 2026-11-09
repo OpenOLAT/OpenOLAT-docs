@@ -49,6 +49,6 @@ Wenn Sie dann auf einen Benutzernamen klicken, öffnet sich wiederum das Bewertu
 [Coaching: Reports >](../area_modules/Coaching_Reports/index.de.md)<br>
 [Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../basic_concepts/Roles/index.de.md)<br>
-[Bewertungswerkzeug >](../learningresources/Assessment_tool_overview.de.md)
+[Bewertungswerkzeug >](../learningresources/Assessment_tool_overview/index.de.md)
 
 [Zum Seitenanfang ^](#groups)

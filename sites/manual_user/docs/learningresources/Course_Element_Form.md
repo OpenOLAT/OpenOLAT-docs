@@ -50,7 +50,7 @@ You configure the course element in the "Form" tab. In the first step, you selec
 
 ![Own forms under My entries, the column Select with the checkmark per form is marked](assets/course_element_form_select_dialog_v1_en.png){ class="shadow lightbox" title="Choose form dialog · 2026.11.03" }
 
-A newly created form does not yet contain any elements, questions or text fields. You add them in the [form editor](../learningresources/Form_Editor.md).
+A newly created form does not yet contain any elements, questions or text fields. You add them in the [form editor](Form_Editor/index.md).
 
 If you create a form in the course editor, OpenOlat automatically creates a new learning resource "Form". You also find it in the [Authoring area](../area_modules/Authoring/index.md) under "My entries" and can include it in further courses and course elements.
 
@@ -104,12 +104,12 @@ With "Save and finish" participants submit the completed form. After that they c
 [Course Reminders >](../learningresources/Course_Reminders.md)<br>
 [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
-[The form editor >](../learningresources/Form_Editor.md)<br>
+[The form editor >](Form_Editor/index.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Members management >](../learningresources/Members_management.md)
 
 **Further reading**<br>
 [Forms in courses >](../learningresources/Forms_in_Courses.md)<br>
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving.md)
+[Course administration - Archiving & Reports >](Course_Archiving/index.md)
 
 [To the top of the page ^](#course_element_form)

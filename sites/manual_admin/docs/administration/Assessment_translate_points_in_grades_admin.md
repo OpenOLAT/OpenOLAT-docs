@@ -86,6 +86,6 @@ In the dialog "Edit rating system", you reach the same translation dialog with t
 [Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 [e-Assessment Administration: Overview >](e-Assessment_Administration.md)<br>
 [Course Element "Assessment" >](../../manual_user/learningresources/Course_Element_Assessment.md)<br>
-[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)
+[Course Settings - Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment/index.md)
 
 [To the top of the page ^](#grades_points)
