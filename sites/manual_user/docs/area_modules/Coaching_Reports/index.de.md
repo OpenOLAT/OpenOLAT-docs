@@ -1,6 +1,6 @@
 # Coaching - Reports {: #reports}
 
-Im Bereich **Reports** des Coaching Tools erstellen Sie Excel-Reports über die von Ihnen betreuten Personen, zum Beispiel über ausgestellte Zertifikate. Die Reportvorlagen sind in Kategorien gegliedert (z. B. Zertifikate, Absenzen, Buchungsaufträge). Angezeigt werden nur die Vorlagen, für deren Ausführung Sie berechtigt sind. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620)
+Sie möchten auswerten, welche der Personen, die Sie betreuen, ein Zertifikat erhalten haben, oder ihre Absenzen und offenen Buchungsaufträge überblicken? Im Bereich "Reports" des Coaching Tools erzeugen Sie dafür aus einer Reportvorlage eine Excel-Datei. Die Vorlagen sind nach Kategorien gegliedert, etwa Zertifikate, Absenzen und Buchungsaufträge, und Sie sehen nur die Vorlagen, die Sie ausführen dürfen. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620)
 
 ## Wer kann Zertifikats-Reports ausführen? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8371)" }](https://track.frentix.com/issue/OO-8371) {: #access}
 
@@ -11,10 +11,10 @@ Die Reportvorlagen der Kategorie "Zertifikate" stehen folgenden Rollen zur Verf�
 * Linienvorgesetzten
 * Ausbildungsverantwortlichen
 
-Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in dieser Rolle zuständig sind.
+Der Report enthält die Zertifikatsdaten der Personen, für die Sie in dieser Rolle zuständig sind.
 
 !!! note "Sie sehen den Button Reports nicht?"
-    Der Button **Reports** wird nur angezeigt, wenn Sie eine der genannten Rollen innehaben und das Coaching Tool aktiviert ist. Wie Rollen vergeben werden, zeigt die Seite [Rollen zuweisen](../../basic_concepts/Assign_Roles.de.md).
+    Den Button "Reports" zeigt das Coaching Tool Betreuer:innen von Kursen, Besitzer:innen von Lernressourcen, Linienvorgesetzten und Ausbildungsverantwortlichen. Wann der Eintrag "Coaching" im Hauptmenü erscheint, beschreibt die Seite [Coaching - Übersicht](../Coaching/index.de.md#availability). Wie Rollen vergeben werden, zeigt die Seite [Rollen zuweisen](../../basic_concepts/Assign_Roles.de.md).
 
 [Zum Seitenanfang ^](#reports)
 
@@ -22,22 +22,22 @@ Der Report enthält jeweils die Zertifikatsdaten der Personen, für die Sie in d
 
 ## So erstellen Sie einen Excel-Report [:octicons-tag-16:{ title="ab Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #create_report}
 
-1. Klicken Sie im Hauptmenü auf `Coaching` und wählen Sie den Button `Reports`.
-2. Klicken Sie im Abschnitt **Reportvorlagen** bei der gewünschten Vorlage auf das Symbol in der Spalte "Ausführen" (**Report generieren**).
-3. Der Report wird als Excel-Datei (.xlsx) erzeugt und erscheint im Abschnitt **Exportverlauf**.
-4. Klicken Sie beim erzeugten Report auf **Herunterladen**.
+1. Öffnen Sie im Hauptmenü `Coaching > Reports`. Der Button "Reports" steht im Abschnitt "Aufgaben".
+2. Klicken Sie in der Tabelle "Reportvorlagen" bei der gewünschten Vorlage auf das Symbol "Report generieren" in der Spalte "Ausführen".
+3. OpenOlat erzeugt den Report als Excel-Datei (.xlsx) und listet ihn im Abschnitt "Exportverlauf" auf.
+4. Klicken Sie beim erzeugten Report auf "Herunterladen".
 
-![Markierte Kachel Reports im Abschnitt Aufgaben öffnet die Reportvorlagen, auf der Startseite des Coaching Tools.](../assets/coaching_reports1_v2_de.png){ class="shadow lightbox" title="Startseite des Coaching Tools" }
+![Markierter Button Reports im Abschnitt Aufgaben öffnet die Reportvorlagen.](../assets/coaching_reports1_v2_de.png){ class="shadow lightbox" title="Startseite des Coaching Tools" }
 
 [Zum Seitenanfang ^](#reports)
 
 ---
 
-## Reportvorlagen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #templates}
+## Reportvorlagen {: #templates}
 
-Die Tabelle **Reportvorlagen** zeigt für jede Vorlage Name, Kategorie, Beschreibung und Typ ("Statisch" oder "Dynamisch") sowie die Spalte "Ausführen". Über den Filter "Kategorie" grenzen Sie die Liste ein.
+In der Tabelle "Reportvorlagen" wählen Sie, welchen Report Sie erzeugen. Sie zeigt für jede Vorlage Name, Kategorie, Beschreibung und Typ ("Statisch" oder "Dynamisch") sowie die Spalte "Ausführen". Mit dem Filter "Kategorie" grenzen Sie die Liste ein.
 
-![Markierte Spalte Ausführen startet jede der drei Zertifikatsvorlagen, in der Tabelle Reportvorlagen mit dem Filter Kategorie im Bereich Reports.](../assets/coaching_reports2_v2_de.png){ class="shadow lightbox" title="Reportvorlagen im Bereich Reports" }
+![Markierte Spalte Ausführen startet jede der drei Zertifikatsvorlagen, darüber der Filter Kategorie.](../assets/coaching_reports2_v2_de.png){ class="shadow lightbox" title="Reportvorlagen im Bereich Reports" }
 
 ### Vorlagen der Kategorie Zertifikate {: #certificate_templates}
 
@@ -49,15 +49,28 @@ Die Tabelle **Reportvorlagen** zeigt für jede Vorlage Name, Kategorie, Beschrei
 
 Die erzeugte Excel-Datei enthält das Worksheet "Einzelkurse" und, falls das Modul Course Planner aktiv ist, zusätzlich das Worksheet "Produkte". Den Aufbau der Worksheets zeigt die Seite [Reports: Zertifikate](../../area_modules/Reports_Certficates.de.md).
 
+### Vorlagen der Kategorien Buchungsaufträge und Absenzen {: #booking_absence_templates}
+
+Diese Vorlagen sehen Linienvorgesetzte und Ausbildungsverantwortliche, denen ihre Organisation das Recht "Buchungsaufträge-Report" oder "Absenzen-Report" gibt. Administrator:innen vergeben diese Rechte in der System-Administration unter `Administration > Module > Organisationen`, siehe [Modul Organisationen](../../../manual_admin/administration/Modules_Organisations.de.md#rights_linemanager).
+
+| Name | Beschreibung |
+|------|--------------|
+| Offene Buchungsaufträge - letzte 4 Wochen | Enthält die offenen Buchungsaufträge der letzten 4 Wochen. |
+| Offene Buchungsaufträge - letzte 12 Monate | Enthält die offenen Buchungsaufträge der letzten 12 Monate. |
+| Absenzen - letzte 4 Wochen | Enthält die Absenzen der letzten 4 Wochen. |
+| Absenzen - letzte 12 Monate | Enthält die Absenzen der letzten 12 Monate. |
+
+Die Spalten des Reports zu den Buchungsaufträgen beschreibt die Seite [Reports: Buchungsaufträge](../Reports_BookingOrders.de.md).
+
 [Zum Seitenanfang ^](#reports)
 
 ---
 
-## Exportverlauf [:octicons-tag-16:{ title="ab Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
+## Exportverlauf {: #generated_reports}
 
-Die erstellten Excel-Dateien werden im Abschnitt "Exportverlauf" aufgelistet. Jede Datei steht nach der Erstellung 10 Tage zum Download bereit; die verbleibende Zeit wird angezeigt. Über die nebenstehenden Aktionen können Sie die Datei herunterladen, kopieren, löschen oder Detailinformationen anzeigen. Die Buttons "Meine Exporte löschen" und "Alle Exporte löschen" entfernen alle Dateien der Liste auf einmal; die Liste enthält nur Reports, die Sie selbst erstellt haben.
+Im Abschnitt "Exportverlauf" finden Sie die Excel-Dateien, die Sie erzeugt haben. Jede Datei steht nach der Erstellung 10 Tage zum Herunterladen bereit, die verbleibenden Tage zeigt OpenOlat bei der Datei an. Mit den Buttons "Info", "Kopieren nach", "Löschen" und "Herunterladen" neben der Datei zeigen Sie Details an, kopieren die Datei, löschen sie oder laden sie herunter. Die Liste enthält nur Reports, die Sie selbst erzeugt haben. Die Buttons "Meine Exporte löschen" und "Alle Exporte löschen" entfernen deshalb beide alle Dateien der Liste auf einmal.
 
-![Markierter Abschnitt Exportverlauf zeigt den erzeugten Report mit der Restlaufzeit Noch 10 Tage und den Aktionen Info, Kopieren nach, Löschen und Herunterladen, im Bereich Reports.](../assets/coaching_reports3_v2_de.png){ class="shadow lightbox" title="Exportverlauf im Bereich Reports" }
+![Markierter Abschnitt Exportverlauf zeigt den erzeugten Report mit der Restlaufzeit Noch 10 Tage und den Aktionen Info, Kopieren nach, Löschen und Herunterladen.](../assets/coaching_reports3_v2_de.png){ class="shadow lightbox" title="Exportverlauf im Bereich Reports" }
 
 [Zum Seitenanfang ^](#reports)
 
@@ -66,8 +79,11 @@ Die erstellten Excel-Dateien werden im Abschnitt "Exportverlauf" aufgelistet. Je
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Coaching - Übersicht >](../Coaching/index.de.md)<br>
 [Rollen zuweisen >](../../basic_concepts/Assign_Roles.de.md)<br>
-[Reports: Zertifikate >](../../area_modules/Reports_Certficates.de.md)
+[Reports: Zertifikate >](../../area_modules/Reports_Certficates.de.md)<br>
+[Modul Organisationen >](../../../manual_admin/administration/Modules_Organisations.de.md)<br>
+[Reports: Buchungsaufträge >](../Reports_BookingOrders.de.md)
 
 **Weiterführend**<br>
 [Coaching: Personensuche >](../../../manual_user/area_modules/Coaching_User_Search.de.md)<br>

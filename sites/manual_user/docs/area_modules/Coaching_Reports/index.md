@@ -1,6 +1,6 @@
 # Coaching - Reports {: #reports}
 
-In the **Reports** area of the Coaching Tool you create Excel reports about the persons you coach, for example about issued certificates. The report templates are grouped into categories (e.g. Certificates, Absences, Booking orders). Only the templates you are authorised to run are displayed. [:octicons-tag-16:{ title="from Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620)
+Do you want to evaluate which of the persons you coach have received a certificate, or get an overview of their absences and open booking orders? In the "Reports" area of the Coaching Tool, you generate an Excel file from a report template for this purpose. The templates are grouped into categories, such as Certificates, Absences and Booking orders, and you only see the templates you are allowed to run. [:octicons-tag-16:{ title="from Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620)
 
 ## Who can run certificate reports? [:octicons-tag-16:{ title="from Release 20.0 (OO-8371)" }](https://track.frentix.com/issue/OO-8371) {: #access}
 
@@ -14,7 +14,7 @@ The report templates of the category "Certificates" are available to the followi
 The report contains the certificate data of the persons you are responsible for in this role.
 
 !!! note "You do not see the Reports button?"
-    The **Reports** button is only displayed if you hold one of the roles mentioned above and the Coaching Tool is activated. The page [Assign roles](../../basic_concepts/Assign_Roles.md) explains how roles are assigned.
+    The Coaching Tool shows the "Reports" button to coaches of courses, owners of learning resources, line managers and education managers. The page [Coaching - Overview](../Coaching/index.md#availability) describes when the "Coaching" entry appears in the main menu. The page [Assign roles](../../basic_concepts/Assign_Roles.md) explains how roles are assigned.
 
 [To the top of the page ^](#reports)
 
@@ -22,22 +22,22 @@ The report contains the certificate data of the persons you are responsible for 
 
 ## How to create an Excel report [:octicons-tag-16:{ title="from Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #create_report}
 
-1. Click `Coaching` in the main menu and select the `Reports` button.
-2. In the **Report templates** section, click the icon in the "Run" column of the desired template (**Generate report**).
-3. The report is generated as an Excel file (.xlsx) and appears in the **Export history** section.
-4. Click **Download** next to the generated report.
+1. Open `Coaching > Reports` in the main menu. The "Reports" button is in the "Assignments" section.
+2. In the "Report templates" table, click the "Generate report" icon in the "Run" column of the desired template.
+3. OpenOlat generates the report as an Excel file (.xlsx) and lists it in the "Export history" section.
+4. Click "Download" next to the generated report.
 
-![Marked tile Reports in the Assignments section opens the report templates, on the start page of the Coaching Tool.](../assets/coaching_reports1_v2_en.png){ class="shadow lightbox" title="Start page of the Coaching Tool" }
+![Marked button Reports in the Assignments section opens the report templates.](../assets/coaching_reports1_v2_en.png){ class="shadow lightbox" title="Start page of the Coaching Tool" }
 
 [To the top of the page ^](#reports)
 
 ---
 
-## Report templates [:octicons-tag-16:{ title="from Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #templates}
+## Report templates {: #templates}
 
-The **Report templates** table shows the name, category, description and type ("Static" or "Dynamic") of each template as well as the "Run" column. Use the "Category" filter to narrow down the list.
+In the "Report templates" table, you choose which report you generate. It shows the name, category, description and type ("Static" or "Dynamic") of each template as well as the "Run" column. Use the "Category" filter to narrow down the list.
 
-![Marked column Run starts each of the three certificate templates, in the Report templates table with the Category filter in the Reports area.](../assets/coaching_reports2_v2_en.png){ class="shadow lightbox" title="Report templates in the Reports area" }
+![Marked column Run starts each of the three certificate templates, above it the Category filter.](../assets/coaching_reports2_v2_en.png){ class="shadow lightbox" title="Report templates in the Reports area" }
 
 ### Templates of the category Certificates {: #certificate_templates}
 
@@ -49,15 +49,28 @@ The **Report templates** table shows the name, category, description and type ("
 
 The generated Excel file contains the worksheet "Individual courses" and, if the Course Planner module is active, an additional worksheet "Products". The page [Reports: Certificates](../../area_modules/Reports_Certficates.md) shows the structure of the worksheets.
 
+### Templates of the categories Booking orders and Absences {: #booking_absence_templates}
+
+These templates are shown to line managers and education managers whose organisation grants them the right "Booking orders report" or "Absence report". Administrators assign these rights in the system administration under `Administration > Modules > Organisations`, see [Module Organisations](../../../manual_admin/administration/Modules_Organisations.md#rights_linemanager).
+
+| Name | Description |
+|------|-------------|
+| Open booking orders - Last 4 weeks | Contains the open booking orders of the last 4 weeks. |
+| Open booking orders - Last 12 months | Contains the open booking orders of the last 12 months. |
+| Absences - Last 4 weeks | Contains the absences of the last 4 weeks. |
+| Absences - Last 12 months | Contains the absences of the last 12 months. |
+
+The page [Reports: Booking orders](../Reports_BookingOrders.md) describes the columns of the booking orders report.
+
 [To the top of the page ^](#reports)
 
 ---
 
-## Export history [:octicons-tag-16:{ title="from Release 20.0 (OO-8368)" }](https://track.frentix.com/issue/OO-8368) {: #generated_reports}
+## Export history {: #generated_reports}
 
-The generated Excel files are listed in the "Export history" section. Each file is available for download for 10 days after creation; the remaining time is displayed. The adjacent actions allow you to download, copy or delete the file, or view detailed information. The "Delete my exports" and "Delete all exports" buttons remove all files of the list at once; the list only contains reports that you created yourself.
+The "Export history" section contains the Excel files you have generated. Each file is available for download for 10 days after creation, and OpenOlat shows the remaining days next to the file. With the "Info", "Copy to", "Delete" and "Download" buttons next to the file, you view details, copy the file, delete it or download it. The list only contains reports that you generated yourself. The "Delete my exports" and "Delete all exports" buttons therefore both remove all files of the list at once.
 
-![Marked section Export history shows the generated report with the remaining time 10 more days and the actions Info, Copy to, Delete and Download, in the Reports area.](../assets/coaching_reports3_v2_en.png){ class="shadow lightbox" title="Export history in the Reports area" }
+![Marked section Export history shows the generated report with the remaining time 10 more days and the actions Info, Copy to, Delete and Download.](../assets/coaching_reports3_v2_en.png){ class="shadow lightbox" title="Export history in the Reports area" }
 
 [To the top of the page ^](#reports)
 
@@ -66,8 +79,11 @@ The generated Excel files are listed in the "Export history" section. Each file 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Coaching - Overview >](../Coaching/index.md)<br>
 [Assign roles >](../../basic_concepts/Assign_Roles.md)<br>
-[Reports: Certificates >](../../area_modules/Reports_Certficates.md)
+[Reports: Certificates >](../../area_modules/Reports_Certficates.md)<br>
+[Module Organisations >](../../../manual_admin/administration/Modules_Organisations.md)<br>
+[Reports: Booking orders >](../Reports_BookingOrders.md)
 
 **Further reading**<br>
 [Coaching: User search >](../../../manual_user/area_modules/Coaching_User_Search.md)<br>
