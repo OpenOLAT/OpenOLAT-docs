@@ -19,12 +19,15 @@ Available since | Release 10.0 (2014)
 
 If the checkbox "Toolbar visible for participants" is switched on, you select the tools below it. The tab can be edited by owners of the course, learning resource managers, administrators and persons with the "Course editor" right.
 
-![Checkbox "Toolbar visible for participants" switched on, below it the tools that can be enabled and the rows External course tool 1 to 4](assets/course_settings_toolbar1_v2_en.png){ class="shadow lightbox" title="Toolbar tab of the course settings · 2026.10.29" }
+![Toolbar tab with the tools that can be enabled: Course calendar switched on, below it the checkbox "Coaches can edit the calendar" with its hint text](assets/course_settings_toolbar1_v3_en.png){ class="shadow lightbox" title="Toolbar tab of the course settings · 2026.11.10" }
 
-The course owner decides whether the toolbar is visible to course participants. It is always visible to coaches and owners. If the toolbar is displayed for participants, course owners can decide which icons are displayed there and switch them on and off for each course as needed. The tools then appear either in the toolbar or under "My course".<br>
+Coaches and owners always see the toolbar. Every tool you switch on for the course appears with its icon in the toolbar.<br>
 [More >](#show_icons)
 
 In addition to course search, glossary and course chat, the [tools](#available_icons) of the toolbar include tools that also exist as course elements, e.g. course calendar, participant list, e-mail, blog, wiki, forum and documents. For [Wiki](../learningresources/Wiki.md) and [Blog](Blog/index.md), you can also use learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer all the configuration options that the course elements have in the course editor.
+
+If coaches plan the events of the course, the checkbox "Coaches can edit the calendar" allows them to add, change and delete events in the course calendar. The checkbox appears directly below "Course calendar" as soon as you switch on the course calendar. Participants read the events. If you switch off the course calendar or the toolbar, OpenOlat also saves this option as switched off.<br>
+[More about the rights in the course calendar >](#calendar)
 
 Especially in linear [learning path courses](Learning_path_course/index.md), the toolbar provides important tools regardless of the order of the learning steps.
 
@@ -82,7 +85,7 @@ Which icons a person sees in the toolbar depends on the tools switched on and on
 
 ![Tool Administration highlighted at the far left of the toolbar: the menu owners and authorised coaches use to manage the course. Next to it the status Published and the tools starting with Info page](assets/toolbar_admin_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-The course administration is only displayed to those authorized to edit, not to the participants. Many menu options for administration and editing can be accessed there.<br>
+Only persons who manage the course see the menu "Administration", participants do not see it. There they open, among other things, the settings and the course editor.<br>
 [More >](Administration/index.md)
 
 ---
@@ -91,7 +94,7 @@ The course administration is only displayed to those authorized to edit, not to 
 
 ![Status Published highlighted as a green button with a selection arrow: this is where authorised persons change the status of the course. To its right the tools from Info page with its info icon](assets/toolbar_status_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-The status is only displayed to those authorized to edit, not to participants. The status of the course can be changed here.<br>
+Only persons who manage the course see the status, participants do not see it. Here they change the status of the course.<br>
 [More >](../learningresources/Access_configuration.md)
 
 ---
@@ -112,9 +115,9 @@ Anyone who wants to know what a course is about opens the description of the cou
 The tool "Learning path" appears in learning path courses.
 
 **Access by participants**<br>
-The learning path icon in the toolbar gives learners an overview of their progress in all course elements. Depending on the columns selected, additional information such as the type of execution and dates can also be displayed. This makes it easy for learners to keep track of their activities in the course.
+The learning path icon in the toolbar gives learners an overview of their progress in all course elements. Depending on the columns selected, additional information such as the type of execution and dates can also be displayed. This way learners keep track of their activities in the course.
 
-![Learning path table with all course elements, per element progress in percent, status, obligation, processing time and date completed](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Learning path from the participant's view" }
+![My learning path with all course elements of the course: per element the progress, the status, the execution and the date done, so learners see at a glance what is still open](assets/toolbar_learning_path_table_v1_en.png){ class="shadow lightbox" title="Learning path from the participant's view · 2026.11.10" }
 
 **Access by course owners and coaches**<br>
 Course owners and coaches can use the "Learning path" link to first get an overview of all participants and then, in the next step, select a person to display their learning progress.<br>
@@ -126,20 +129,25 @@ Course owners and coaches can use the "Learning path" link to first get an overv
 
 ![Tool Calendar highlighted in the toolbar, to its left Info page and Learning path](assets/toolbar_calendar_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-*One* calendar can be activated per course. There are two options for integration. The calendar can either be displayed as a [calendar course element](../learningresources/Course_Element_Calendar.md) or in a central position at the top of the course toolbar.
+With the tool "Calendar", the course members see all events of the course in one central place. The calendar opens in a window of its own. Every course has exactly one course calendar. You show it in the toolbar, as [course element "Calendar"](../learningresources/Course_Element_Calendar.md) in the course structure, or in both places. Both show the same events.
 
 In addition to the course calendar, OpenOlat offers other calendars:
 
 - [Personal calendar >](../personal_menu/Calendar.md)
 - [Group calendar >](../groups/Using_Group_Tools.md)
 
-New events are easily created by clicking on the desired date. You can then set the title, description, start and end, possibly a location, possible repetitions and the visibility. The event then appears in the calendar or in all instances of the course calendar and can be edited by clicking on the date and selecting the "Edit" option.
+You create a new event by clicking on the desired date. Then you set the subject, description, beginning and end, and if needed also the location, recurrence and visibility. The event appears in the course calendar and therefore everywhere the course shows the calendar. To revise the event, click on it and select "Edit".
 
-The "Edit" option also gives you access to additional calendar tabs and allows you to set links to course elements used in the course or to external websites. If you want to delete all events of a course calendar, simply click on the gear icon in the calendar area and select "Reset calendar".
+Via "Edit" you reach further tabs of the event and link it to course elements of the course or to external websites. If you want to delete all events of a course calendar, click on the gear icon in the calendar area and select "Reset calendar".
 
-Course calendars are also automatically transferred to the personal calendars of the course members. This means that all events can also be accessed directly via the personal OpenOlat calendar. The same applies to group calendars. For group calendars, the write and read permissions that members receive can be set in the group administration.
+The course members automatically also see the course calendar in their personal OpenOlat calendar. The same applies to group calendars. For group calendars, you define in the group administration which write and read permissions the members receive.
 
-By default, only owners of a course have write access to the calendar. Course participants only have read access, meaning they cannot create new events or edit existing ones. However, if you add the calendar as a course element, you can configure the permissions in the course editor in the "Access" tab.
+In the calendar of the toolbar, owners of the course create and edit events. Coaches edit events if the option "Coaches can edit the calendar" is switched on in the "Toolbar" tab, see [Activate tools in toolbar](#activate_tools). This way the coaches who plan the events enter them themselves, without you inserting a course element "Calendar" for this. Participants read the events. The option also applies to the events of the course calendar in the [course element "Video live stream"](../learningresources/Course_Element_Video_Livestream.md#events). [:octicons-tag-16:{ title="from Release 21.2 (OO-9968)" }](https://track.frentix.com/issue/OO-9968)
+
+In the course element "Calendar" you set the rights separately: in the course editor, in the tab "Calendar configuration", you define under "Edit events" whether coaches and participants may also edit events there. This is the way for a course without a toolbar.<br>
+[More >](../learningresources/Course_Element_Calendar.md)
+
+The checkbox "Course calendar" and with it the option for coaches appear if system administrators have switched on the calendar and the checkbox "Enable course tool" in the [Core functions](../../manual_admin/administration/Core_functions.md#calendar_administration). If an external system manages the calendar of the course, the option cannot be changed. When a course is copied or imported, OpenOlat takes over the setting.
 
 ---
 
@@ -167,7 +175,7 @@ In contrast to the course element "Info messages", the tool cannot be configured
 
 ![Tool E-Mail with the envelope icon highlighted in the toolbar](assets/toolbar_email_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-E-mails can be sent from various places. In addition to the [personal menu](../personal_menu/E-Mail.md), the icon in the toolbar is a good way to offer course members a contact option with quick access.<br>
+With the tool "E-Mail", the course members reach the e-mail function of the course with one click. You also send e-mails via the [personal menu](../personal_menu/E-Mail.md).<br>
 [More >](../learningresources/Course_Element_EMail.md)
 
 ---
@@ -176,7 +184,7 @@ E-mails can be sent from various places. In addition to the [personal menu](../p
 
 ![Tool BigBlueButton with the screen icon highlighted in the toolbar, to its left E-Mail, to its right Blog](assets/toolbar_bbb_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
-As an alternative to a course element, access to a video conferencing tool can also be enabled via an icon in the toolbar. In addition to BigBlueButton, other installed video conferencing tools can also be displayed in the toolbar (e.g. Microsoft Teams or Zoom).<br>
+Instead of using a course element, the course members also open a virtual classroom via an icon in the toolbar. In addition to BigBlueButton, the toolbar also shows other video conferencing tools that are set up, such as Microsoft Teams or Zoom.<br>
 [More >](../learningresources/bigbluebutton/index.md)
 
 ---
@@ -185,7 +193,7 @@ As an alternative to a course element, access to a video conferencing tool can a
 
 ![Tool Blog with the blog icon highlighted in the toolbar, to the left of Wiki](assets/toolbar_blog_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-Multiple blogs can be integrated into OpenOlat. Access via the icon in the toolbar is a good option if the blog content relates to the entire course.<br>
+If a blog relates to the entire course, the course members open it via the icon in the toolbar. You integrate further blogs as course elements.<br>
 [More >](../learningresources/Course_Element_Blog.md)
 
 ---
@@ -194,7 +202,7 @@ Multiple blogs can be integrated into OpenOlat. Access via the icon in the toolb
 
 ![Tool Wiki with the globe icon highlighted in the toolbar, to its left Blog, to its right Forum](assets/toolbar_wiki_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-Access to a central wiki for the entire course can be set up in the toolbar.<br>
+If a wiki applies to the entire course, you set it up as a central wiki in the toolbar.<br>
 [More about creating a wiki >](../learningresources/Wiki.md)<br>
 [More about the course element Wiki >](../learningresources/Course_Element_Wiki.md)
 
@@ -204,7 +212,7 @@ Access to a central wiki for the entire course can be set up in the toolbar.<br>
 
 ![Tool Forum with the speech bubble icon highlighted in the toolbar, to its left Wiki, to its right Documents](assets/toolbar_forum_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-In addition to the "Forum" course element, there is also the option of displaying a central forum for the entire course in the course toolbar. This is useful if the course only includes *one* forum that is to be permanently available. However, settings such as pseudonymization or moderation rights cannot be set here.<br>
+In addition to the "Forum" course element, you can show a central forum for the entire course in the toolbar. This is useful if the course only includes *one* forum that is to be permanently available. However, settings such as pseudonymization or moderation rights cannot be set here.<br>
 [More >](../learningresources/Course_Element_Forum.md)
 
 ---
@@ -213,7 +221,7 @@ In addition to the "Forum" course element, there is also the option of displayin
 
 ![Tool Documents with the folder icon highlighted in the toolbar, to its right Course search](assets/toolbar_documents_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-Via this link, the teacher can make important course documents available for download in one central location. Learners can download the documents, receive notifications when new documents are available (subscribe), and send the files by e-mail if necessary. However, the configuration options are not as extensive as those of the "Folder" course element.<br>
+With the tool "Documents", you make important course documents available for download in one central location. Learners can download the documents, receive notifications when new documents are available (subscribe), and send the files by e-mail if necessary. However, the configuration options are not as extensive as those of the "Folder" course element.<br>
 [More >](../learningresources/Storage_folder.md)
 
 ---
@@ -222,7 +230,7 @@ Via this link, the teacher can make important course documents available for dow
 
 ![Tool Events with the book icon highlighted in the toolbar, to its left Info page and Learning path, to its right Course search](assets/toolbar_events_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-If the appointment and absence management is enabled, it can be accessed here to view or record events and absences.<br>
+If the appointment and absence management is enabled, the course members open the events and absences of the course here.<br>
 [More >](../learningresources/Toolbar_Events.md)
 
 ---
@@ -231,7 +239,7 @@ If the appointment and absence management is enabled, it can be accessed here to
 
 ![Tool Glossary with the mortarboard icon and a selection arrow highlighted in the toolbar, to its left Documents, to its right Course search](assets/toolbar_glossary_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
-If a glossary has been linked to the course, it can also be accessed from the toolbar. A glossary can be used to explain the terms of a course, a subject or an event. The terms are automatically sorted alphabetically and can be accessed by clicking on the corresponding initial letter.<br>
+If a glossary is linked to the course, the course members also open it from the toolbar. A glossary explains the terms of a course, a subject or an event. OpenOlat sorts the terms alphabetically, and a click on an initial letter takes you to the matching terms.<br>
 [More >](Glossary/index.md)
 
 ---
@@ -249,7 +257,7 @@ The chat enables synchronous exchange between the course members.<br>
 
 ![Tool Course search with the magnifier icon highlighted in the toolbar](assets/toolbar_search_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-Depending on where the search is started, different areas are searched. The course search is performed with the icon in the toolbar.<br>
+With the icon in the toolbar, you search the contents of this course. A search that you start elsewhere in OpenOlat searches other areas.<br>
 [More >](../basic_concepts/Search_in_Course.md)
 
 To the right of the course search are the [external course tools](#external_tools), if they are set up.
@@ -260,7 +268,7 @@ To the right of the course search are the [external course tools](#external_tool
 
 ![Role switcher with the active role Owner and the label Role highlighted in the toolbar, to its right My course](assets/toolbar_role_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-If a person has multiple roles in this course, the role can be changed here.<br>
+If a person has multiple roles in this course, they change the role here.<br>
 [More >](../basic_concepts/Roles/index.md#course)
 
 ---
@@ -291,7 +299,7 @@ In learning path courses, course participants see their processing status here i
 
 As course owner you define under `Course > Administration > Settings > Tab "Toolbar"` whether participants see a toolbar and, if so, which icons (tools) are displayed in the toolbar. The checkboxes for this are described in the section [Activate tools in toolbar](#activate_tools).
 
-![Open menu Administration with the highlighted entry Settings and the highlighted tab Toolbar](assets/toolbar_show_icons1_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
+![Open menu Administration with the highlighted entry Settings and the highlighted tab Toolbar: the way to the settings of the toolbar](assets/toolbar_show_icons1_v2_en.png){ class="shadow lightbox" title="Administration menu of a course · 2026.11.10" }
 
 ### Permanently displayed tool icons {: #show_icons_permanently}
 
@@ -307,7 +315,7 @@ Some icons are not switched in the "Toolbar" tab, but are displayed in every cou
 
 ### Automatically displayed tool icons {: #show_icons_automatically}
 
-The display of the "Events" icon cannot be triggered manually. It appears automatically in the toolbar when the appointment and absence management has been activated.<br>
+The "Events" icon appears automatically in the toolbar as soon as the appointment and absence management is switched on for the course.<br>
 [More >](../learningresources/Toolbar_Events.md)
 
 [To the top of the page ^](#tab_toolbar)
@@ -326,6 +334,8 @@ The display of the "Events" icon cannot be triggered manually. It appears automa
 [Course Element "Calendar" >](Course_Element_Calendar.md)<br>
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
+[Course Element "Video live stream" >](Course_Element_Video_Livestream.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
 [Course Element "Participant list" >](Course_Element_Participant_List.md)<br>
 [Course Element "Info messages" >](Course_Element_Notifications.md)<br>
 [User tools: E-Mail >](../personal_menu/E-Mail.md)<br>

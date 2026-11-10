@@ -19,12 +19,15 @@ Verfügbar seit | Release 10.0 (2014)
 
 Ist die Checkbox "Toolbar sichtbar für Teilnehmer:innen" eingeschaltet, wählen Sie darunter die Werkzeuge aus. Den Tab bearbeiten Besitzer:innen des Kurses, Lernressourcenverwalter:innen, Administrator:innen und Personen mit dem Recht "Kurseditor".
 
-![Checkbox "Toolbar sichtbar für Teilnehmer:innen" eingeschaltet, darunter die aktivierbaren Werkzeuge und die Zeilen Externes Kurstool 1 bis 4](assets/course_settings_toolbar1_v2_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen · 2026.10.29" }
+![Tab Toolbar mit den aktivierbaren Werkzeugen: Kurskalender eingeschaltet, darunter die Checkbox "Betreuer:innen dürfen den Kalender bearbeiten" mit Hinweistext](assets/course_settings_toolbar1_v3_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen · 2026.11.10" }
 
-Ob die Toolbar für die Kursteilnehmer:innen sichtbar ist, entscheidet die Kursbesitzer:in. Für Betreuer:innen und Besitzer:innen ist sie immer sichtbar. Wird die Toolbar für die Teilnehmer:innen angezeigt, können Kursbesitzer:innen entscheiden, welche Icons dort angezeigt werden und sie kursspezifisch nach Bedarf ein- und ausschalten. Die Tools erscheinen dann entweder in der Toolbar oder unter "Mein Kurs".<br>
+Betreuer:innen und Besitzer:innen sehen die Toolbar immer. Jedes Werkzeug, das Sie für den Kurs einschalten, erscheint mit seinem Icon in der Toolbar.<br>
 [Mehr dazu >](#show_icons)
 
 Zu den [Werkzeugen](#available_icons) der Toolbar zählen neben der Kurssuche, dem Glossar und dem Kurs-Chat Werkzeuge, die es auch als Kursbausteine gibt, z.B. Kurskalender, Liste der Teilnehmer:innen, E-Mail, Blog, Wiki, Forum und Dokumente. Bei [Wiki](../learningresources/Wiki.de.md) und [Blog](Blog/index.de.md) können Sie auch auf bereits erstellte Lernressourcen zurückgreifen. Die übrigen Werkzeuge ähneln den entsprechenden Kursbausteinen, bieten aber nicht alle Konfigurationsmöglichkeiten, die die Kursbausteine im Kurseditor haben.
+
+Planen Betreuer:innen die Termine des Kurses, erlauben Sie ihnen mit der Checkbox "Betreuer:innen dürfen den Kalender bearbeiten", im Kurskalender Termine hinzuzufügen, zu ändern und zu löschen. Die Checkbox erscheint direkt unter "Kurskalender", sobald Sie den Kurskalender einschalten. Teilnehmer:innen lesen die Termine. Schalten Sie den Kurskalender oder die Toolbar aus, speichert OpenOlat auch diese Option als ausgeschaltet.<br>
+[Mehr zu den Rechten im Kurskalender >](#calendar)
 
 Besonders in linear aufgebauten [Lernpfadkursen](Learning_path_course/index.de.md) stellt die Toolbar wichtige Werkzeuge bereit, unabhängig von der Reihenfolge der Lernschritte.
 
@@ -82,7 +85,7 @@ Welche Icons eine Person in der Toolbar sieht, hängt von den eingeschalteten We
 
 ![Werkzeug Administration ganz links in der Toolbar markiert: Menü, über das Besitzer:innen und berechtigte Betreuer:innen den Kurs verwalten. Daneben Status Veröffentlicht und Werkzeuge ab Infoseite](assets/toolbar_admin_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Die Kurs-Administration wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilnehmer:innen. Dort sind viele Menüoptionen zur Verwaltung und Bearbeitung aufrufbar.<br>
+Das Menü "Administration" sehen nur Personen, die den Kurs verwalten, Teilnehmer:innen sehen es nicht. Dort öffnen sie unter anderem die Einstellungen und den Kurseditor.<br>
 [Mehr dazu >](Administration/index.de.md)
 
 ---
@@ -91,7 +94,7 @@ Die Kurs-Administration wird nur den zur Bearbeitung Berechtigten angezeigt, nic
 
 ![Status Veröffentlicht als grüne Schaltfläche mit Auswahlpfeil markiert: hier wechseln Berechtigte den Status des Kurses. Rechts daneben die Werkzeuge ab Infoseite mit dem Info-Symbol](assets/toolbar_status_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Der Status wird nur den zur Bearbeitung Berechtigten angezeigt, nicht den Teilnehmer:innen. Der Status des Kurses kann hier gewechselt werden.<br>
+Den Status sehen nur Personen, die den Kurs verwalten, Teilnehmer:innen sehen ihn nicht. Hier wechseln sie den Status des Kurses.<br>
 [Mehr dazu >](../learningresources/Access_configuration.de.md)
 
 ---
@@ -112,9 +115,9 @@ Wer wissen möchte, worum es in einem Kurs geht, öffnet über das Werkzeug "Inf
 Das Werkzeug "Lernpfad" erscheint in Lernpfadkursen.
 
 **Aufruf durch Teilnehmer:innen**<br>
-Über das Lernpfad-Icon in der Toolbar erhalten Lernende einen Überblick über ihren Fortschritt in allen Kursbausteinen. Je nach gewählten Spalten können ausserdem zusätzliche Informationen wie die Art der Durchführung und Termine angezeigt werden. So behalten Lernende ihre Aktivitäten im Kurs einfach im Blick.
+Über das Lernpfad-Icon in der Toolbar erhalten Lernende einen Überblick über ihren Fortschritt in allen Kursbausteinen. Je nach gewählten Spalten können ausserdem zusätzliche Informationen wie die Art der Durchführung und Termine angezeigt werden. So behalten Lernende ihre Aktivitäten im Kurs im Blick.
 
-![Lernpfad-Tabelle mit allen Kursbausteinen, je Baustein Fortschritt in Prozent, Status, Pflicht, Bearbeitungszeit und Datum erledigt](assets/Mein_Lernpfad.png){ class="shadow lightbox" title="Lernpfad aus Sicht der Teilnehmer:in" }
+![Mein Lernpfad mit allen Kursbausteinen des Kurses: je Baustein Fortschritt, Status, Durchführung und Datum erledigt, so sehen Lernende auf einen Blick, was noch offen ist](assets/toolbar_learning_path_table_v1_de.png){ class="shadow lightbox" title="Lernpfad aus Sicht der Teilnehmer:in · 2026.11.10" }
 
 **Aufruf durch Kursbesitzer:innen und Betreuer:innen**<br>
 Kursbesitzer:innen und Betreuer:innen erhalten über den Link "Lernpfad" zunächst eine Übersicht über alle Teilnehmenden und können dann im nächsten Schritt eine Person auswählen, um sich ihren Lernfortschritt anzeigen zu lassen.<br>
@@ -126,20 +129,25 @@ Kursbesitzer:innen und Betreuer:innen erhalten über den Link "Lernpfad" zunäch
 
 ![Werkzeug Kalender in der Toolbar markiert, links davon Infoseite und Lernpfad](assets/toolbar_calendar_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Pro Kurs kann *ein* Kalender aktiviert werden. Für die Einbindung gibt es zwei Optionen. Der Kalender kann entweder als [Kalender-Kursbaustein](../learningresources/Course_Element_Calendar.de.md) oder an zentraler Position oben in der Kurstoolbar angezeigt werden.
+Mit dem Werkzeug "Kalender" sehen die Kursmitglieder alle Termine des Kurses an einer zentralen Stelle. Der Kalender öffnet sich in einem eigenen Fenster. Jeder Kurs hat genau einen Kurskalender. Sie zeigen ihn in der Toolbar, als [Kursbaustein "Kalender"](../learningresources/Course_Element_Calendar.de.md) in der Kursstruktur oder an beiden Orten. Beide zeigen dieselben Termine.
 
 Neben dem Kurskalender gibt es in OpenOlat noch weitere Kalender:
 
 - [Persönlicher Kalender >](../personal_menu/Calendar.de.md)
 - [Gruppenkalender >](../groups/Using_Group_Tools.de.md)
 
-Neue Termine werden einfach mit Klick auf das gewünschte Datum erstellt. Anschliessend können Titel, Beschreibung, Beginn und Ende sowie eventuell ein Ort, mögliche Wiederholungen sowie die Sichtbarkeit eingestellt werden. Anschliessend erscheint der Termin im Kalender bzw. in allen Instanzen des Kurskalenders und kann mit Klick auf das Datum und der Option "Editieren" überarbeitet werden.
+Einen neuen Termin erstellen Sie mit Klick auf das gewünschte Datum. Danach legen Sie Titel, Beschreibung, Beginn und Ende fest, bei Bedarf auch Ort, Wiederholung und Sichtbarkeit. Der Termin erscheint im Kurskalender und damit überall, wo der Kurs den Kalender zeigt. Um den Termin zu überarbeiten, klicken Sie darauf und wählen "Bearbeiten".
 
-Mit dem "Editieren" erhält man auch Zugriff auf weitere Kalendertabs und kann Verlinkungen zu im Kurs verwendeten Kursbausteinen oder externen Webseiten setzen. Möchten Sie alle Termine eines Kurskalenders löschen, klicken Sie einfach auf das Zahnradsymbol im Kalenderbereich und wählen Sie "Kalender zurücksetzen".
+Über "Bearbeiten" erreichen Sie weitere Tabs des Termins und verknüpfen ihn mit Kursbausteinen des Kurses oder mit externen Webseiten. Möchten Sie alle Termine eines Kurskalenders löschen, klicken Sie im Kalenderbereich auf das Zahnradsymbol und wählen "Kalender zurücksetzen".
 
-Kurskalender werden ferner automatisch in den persönlichen Kalender der Kursmitglieder übertragen. So können alle Termine auch direkt über den persönlichen OpenOlat-Kalender aufgerufen werden. Gleiches gilt für Gruppenkalender. Bei Gruppenkalendern kann in der Gruppenadministration eingestellt werden, welche Schreib- bzw. Leserechte die Mitglieder erhalten.
+Den Kurskalender sehen die Kursmitglieder automatisch auch in ihrem persönlichen OpenOlat-Kalender. Gleiches gilt für Gruppenkalender. Bei Gruppenkalendern legen Sie in der Gruppenadministration fest, welche Schreib- und Leserechte die Mitglieder erhalten.
 
-Standardmässig haben nur Besitzer:innen eines Kurses Schreibrechte im Kalender. Kursteilnehmer:innen haben lediglich Leserechte, können also keine neuen Termine verfassen oder bestehende Termine editieren. Fügt man den Kalender allerdings als Kursbaustein ein, kann man die Berechtigung im Kurseditor im Tab "Zugang" konfigurieren.
+Im Kalender der Toolbar erstellen und bearbeiten Besitzer:innen des Kurses Termine. Betreuer:innen bearbeiten Termine, wenn im Tab "Toolbar" die Option "Betreuer:innen dürfen den Kalender bearbeiten" eingeschaltet ist, siehe [Werkzeuge in Toolbar aktivieren](#activate_tools). So tragen die Betreuer:innen, die die Termine planen, diese selbst ein, ohne dass Sie dafür einen Kursbaustein "Kalender" einfügen. Teilnehmer:innen lesen die Termine. Die Option gilt auch für die Termine des Kurskalenders im [Kursbaustein "Video Livestream"](../learningresources/Course_Element_Video_Livestream.de.md#events). [:octicons-tag-16:{ title="ab Release 21.2 (OO-9968)" }](https://track.frentix.com/issue/OO-9968)
+
+Im Kursbaustein "Kalender" regeln Sie die Rechte getrennt davon: Im Kurseditor legen Sie im Tab "Kalender-Konfiguration" unter "Termine bearbeiten" fest, ob dort auch Betreuer:innen und Teilnehmende Termine bearbeiten. Das ist der Weg für einen Kurs ohne Toolbar.<br>
+[Mehr dazu >](../learningresources/Course_Element_Calendar.de.md)
+
+Die Checkbox "Kurskalender" und damit die Option für Betreuer:innen erscheinen, wenn Systemadministrator:innen in der [Core-Konfiguration](../../manual_admin/administration/Core_functions.de.md#calendar_administration) den Kalender und die Checkbox "Kurswerkzeug einschalten" eingeschaltet haben. Verwaltet ein externes System den Kalender des Kurses, lässt sich die Option nicht ändern. Beim Kopieren und beim Import eines Kurses übernimmt OpenOlat die Einstellung.
 
 ---
 
@@ -167,7 +175,7 @@ Anders als der Kursbaustein "Mitteilungen" lässt sich das Werkzeug nicht konfig
 
 ![Werkzeug E-Mail mit dem Briefsymbol in der Toolbar markiert](assets/toolbar_email_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-E-Mails können an diversen Stellen versandt werden. Neben dem [persönlichen Menü](../personal_menu/E-Mail.de.md) ist das Icon in der Toolbar eine gute Möglichkeit, den Kursmitgliedern eine Kontaktmöglichkeit mit schnellem Zugriff anzubieten.<br>
+Über das Werkzeug "E-Mail" erreichen die Kursmitglieder die E-Mail-Funktion des Kurses mit einem Klick. E-Mails versenden Sie ausserdem über das [persönliche Menü](../personal_menu/E-Mail.de.md).<br>
 [Mehr dazu >](../learningresources/Course_Element_EMail.de.md)
 
 ---
@@ -176,7 +184,7 @@ E-Mails können an diversen Stellen versandt werden. Neben dem [persönlichen Me
 
 ![Werkzeug BigBlueButton mit dem Bildschirm-Symbol in der Toolbar markiert, links daneben E-Mail, rechts Blog](assets/toolbar_bbb_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
-Alternativ zu einem Kursbaustein kann der Zugriff auf ein Videokonferenz-Tool auch via Icon in der Toolbar ermöglicht werden. Neben BigBlueButton können auch andere installierte Videokonferenz-Tools in der Toolbar angezeigt werden (z. B. Microsoft Teams oder Zoom).<br>
+Statt über einen Kursbaustein öffnen die Kursmitglieder ein virtuelles Klassenzimmer auch über ein Icon in der Toolbar. Neben BigBlueButton zeigt die Toolbar auch andere eingerichtete Videokonferenz-Tools, etwa Microsoft Teams oder Zoom.<br>
 [Mehr dazu >](../learningresources/bigbluebutton/index.de.md)
 
 ---
@@ -185,7 +193,7 @@ Alternativ zu einem Kursbaustein kann der Zugriff auf ein Videokonferenz-Tool au
 
 ![Werkzeug Blog mit dem Blog-Symbol in der Toolbar markiert, links neben Wiki](assets/toolbar_blog_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-In OpenOlat können mehrere Blogs eingebunden werden. Ein Aufruf durch das Icon in der Toolbar bietet sich an, wenn sich der Blog-Inhalt auf den gesamten Kurs bezieht.<br>
+Bezieht sich ein Blog auf den ganzen Kurs, öffnen ihn die Kursmitglieder über das Icon in der Toolbar. Weitere Blogs binden Sie als Kursbausteine ein.<br>
 [Mehr dazu >](../learningresources/Course_Element_Blog.de.md)
 
 ---
@@ -194,7 +202,7 @@ In OpenOlat können mehrere Blogs eingebunden werden. Ein Aufruf durch das Icon 
 
 ![Werkzeug Wiki mit dem Globus-Symbol in der Toolbar markiert, links daneben Blog, rechts Forum](assets/toolbar_wiki_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-In der Toolbar kann der Zugriff auf ein zentrales Wiki für den Gesamtkurs eingerichtet werden.<br>
+Gilt ein Wiki für den ganzen Kurs, richten Sie es als zentrales Wiki in der Toolbar ein.<br>
 [Mehr zum Erstellen eines Wikis >](../learningresources/Wiki.de.md)<br>
 [Mehr zum Kursbaustein Wiki >](../learningresources/Course_Element_Wiki.de.md)
 
@@ -204,7 +212,7 @@ In der Toolbar kann der Zugriff auf ein zentrales Wiki für den Gesamtkurs einge
 
 ![Werkzeug Forum mit dem Sprechblasen-Symbol in der Toolbar markiert, links daneben Wiki, rechts Dokumente](assets/toolbar_forum_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Forum für den gesamten Kurs in der Kurstoolbar anzeigen zu lassen. Das bietet sich an, wenn der Kurs nur *ein* Forum umfasst, das permanent zur Verfügung stehen soll. Einstellungen wie Pseudonymisierung oder Moderationsrechte lassen sich hier jedoch nicht festlegen.<br>
+Neben dem Kursbaustein "Forum" zeigen Sie bei Bedarf ein zentrales Forum für den ganzen Kurs in der Toolbar. Das bietet sich an, wenn der Kurs nur *ein* Forum umfasst, das permanent zur Verfügung stehen soll. Einstellungen wie Pseudonymisierung oder Moderationsrechte lassen sich hier jedoch nicht festlegen.<br>
 [Mehr dazu >](../learningresources/Course_Element_Forum.de.md)
 
 ---
@@ -213,7 +221,7 @@ Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Foru
 
 ![Werkzeug Dokumente mit dem Ordner-Symbol in der Toolbar markiert, rechts daneben die Kurssuche](assets/toolbar_documents_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Über diesen Link kann die Lehrkraft wichtige Dokumente des Kurses zentral zum Download bereitstellen. Die Lernenden können die Dokumente herunterladen, sich benachrichtigen lassen, wenn neue Dokumente bereitstehen (abonnieren) und bei Bedarf die Dateien per Mail versenden. Die Konfigurationsmöglichkeiten sind aber nicht so umfangreich wie beim Kursbaustein "Ordner".<br>
+Mit dem Werkzeug "Dokumente" stellen Sie wichtige Dokumente des Kurses zentral zum Herunterladen bereit. Die Lernenden können die Dokumente herunterladen, sich benachrichtigen lassen, wenn neue Dokumente bereitstehen (abonnieren) und bei Bedarf die Dateien per Mail versenden. Die Konfigurationsmöglichkeiten sind aber nicht so umfangreich wie beim Kursbaustein "Ordner".<br>
 [Mehr dazu >](../learningresources/Storage_folder.de.md)
 
 ---
@@ -222,7 +230,7 @@ Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit, ein zentrales Foru
 
 ![Werkzeug Termine mit dem Buch-Symbol in der Toolbar markiert, links daneben Infoseite und Lernpfad, rechts Kurssuche](assets/toolbar_events_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Ist das Termin- und Absenzenmanagement eingeschaltet, kann es hier zur Ansicht bzw. Erfassung von Terminen und Absenzen aufgerufen werden.<br>
+Ist das Termin- und Absenzenmanagement eingeschaltet, öffnen die Kursmitglieder hier die Termine und Absenzen des Kurses.<br>
 [Mehr dazu >](../learningresources/Toolbar_Events.de.md)
 
 ---
@@ -231,7 +239,7 @@ Ist das Termin- und Absenzenmanagement eingeschaltet, kann es hier zur Ansicht b
 
 ![Werkzeug Glossar mit dem Doktorhut-Symbol und Auswahlpfeil in der Toolbar markiert, links daneben Dokumente, rechts Kurssuche](assets/toolbar_glossary_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
-Sofern ein Glossar mit dem Kurs verbunden wurde, kann es auch in der Toolbar aufgerufen werden. In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Die Begriffe werden automatisch alphabetisch sortiert und können mit Klick auf den entsprechenden Startbuchstaben aufgerufen werden.<br>
+Ist ein Glossar mit dem Kurs verbunden, öffnen die Kursmitglieder es auch über die Toolbar. Ein Glossar erklärt die Begriffe eines Kurses, eines Fachs oder einer Veranstaltung. OpenOlat sortiert die Begriffe alphabetisch, mit Klick auf einen Anfangsbuchstaben springen Sie zu den passenden Begriffen.<br>
 [Mehr dazu >](Glossary/index.de.md)
 
 ---
@@ -249,7 +257,7 @@ Der Chat ermöglicht den synchronen Austausch unter den Kurs-Mitgliedern.<br>
 
 ![Werkzeug Kurssuche mit dem Lupensymbol in der Toolbar markiert](assets/toolbar_search_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Je nachdem, von wo die Suche gestartet wird, werden andere Bereiche durchsucht. Mit dem Icon in der Toolbar wird die Kurssuche ausgeführt.<br>
+Mit dem Icon in der Toolbar durchsuchen Sie die Inhalte dieses Kurses. Eine Suche, die Sie an anderer Stelle in OpenOlat starten, durchsucht andere Bereiche.<br>
 [Mehr dazu >](../basic_concepts/Search_in_Course.de.md)
 
 Rechts neben der Kurssuche stehen die [externen Kurstools](#external_tools), sofern sie eingerichtet sind.
@@ -260,7 +268,7 @@ Rechts neben der Kurssuche stehen die [externen Kurstools](#external_tools), sof
 
 ![Rollenwechsler mit der aktiven Rolle Besitzer:in und der Beschriftung Rolle in der Toolbar markiert, rechts daneben Mein Kurs](assets/toolbar_role_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Besitzt eine Person in diesem Kurs mehrere Rollen, kann die Rolle hier gewechselt werden.<br>
+Hat eine Person in diesem Kurs mehrere Rollen, wechselt sie hier die Rolle.<br>
 [Mehr dazu >](../basic_concepts/Roles/index.de.md#course)
 
 ---
@@ -291,7 +299,7 @@ Kursteilnehmer:innen sehen in Lernpfadkursen hier ihren Bearbeitungsstand in For
 
 Als Kursbesitzer:in legen Sie unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` fest, ob die Teilnehmer:innen eine Toolbar angezeigt bekommen und, wenn ja, welche Icons (Werkzeuge) in der Toolbar angezeigt werden. Die Checkboxen dafür beschreibt der Abschnitt [Werkzeuge in Toolbar aktivieren](#activate_tools).
 
-![Geöffnetes Menü Administration mit markiertem Eintrag Einstellungen und markiertem Tab Toolbar](assets/toolbar_show_icons1_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
+![Geöffnetes Menü Administration mit markiertem Eintrag Einstellungen und markiertem Tab Toolbar: der Weg zu den Einstellungen der Toolbar](assets/toolbar_show_icons1_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.11.10" }
 
 ### Ständig angezeigte Tool-Icons {: #show_icons_permanently}
 
@@ -307,7 +315,7 @@ Einige Icons werden nicht im Tab "Toolbar" geschaltet, sondern in jedem Kurs ang
 
 ### Automatisch angezeigte Tool-Icons {: #show_icons_automatically}
 
-Die Anzeige des Icons "Termine" kann nicht direkt manuell veranlasst werden. Es erscheint automatisch in der Toolbar, wenn das Termin- und Absenzenmanagement aktiviert wurde.<br>
+Das Icon "Termine" erscheint automatisch in der Toolbar, sobald das Termin- und Absenzenmanagement für den Kurs eingeschaltet ist.<br>
 [Mehr dazu >](../learningresources/Toolbar_Events.de.md)
 
 [Zum Seitenanfang ^](#tab_toolbar)
@@ -326,6 +334,8 @@ Die Anzeige des Icons "Termine" kann nicht direkt manuell veranlasst werden. Es 
 [Kursbaustein "Kalender" >](Course_Element_Calendar.de.md)<br>
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
+[Kursbaustein "Video Livestream" >](Course_Element_Video_Livestream.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
 [Kursbaustein "Liste der Teilnehmer:innen" >](Course_Element_Participant_List.de.md)<br>
 [Kursbaustein "Mitteilungen" >](Course_Element_Notifications.de.md)<br>
 [Persönliche Werkzeuge: E-Mail >](../personal_menu/E-Mail.de.md)<br>

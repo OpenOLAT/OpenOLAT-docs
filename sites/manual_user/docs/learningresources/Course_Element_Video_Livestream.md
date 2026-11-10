@@ -41,7 +41,7 @@ There, you set "Buffer time before start (in minutes)" and "Buffer time after en
 
 You plan a live stream like an event: with a start, an end and the address of the stream. At the planned time, the course element shows the stream by itself, without you changing the course. The course element reads the events from the course calendar and from the calendars of the groups that are linked to the course. It only takes into account events in which the field "URL live stream" is filled in. Which events a person sees depends on the [visibility](../personal_menu/Calendar.md#visibility) of the event.
 
-You enter the events in the course element itself, in the tab "Edit events". Owners of the course see the tab, coaches only if the option "Coach is allowed to edit" is switched on in the tab "Configuration". The tab shows the calendar with all events. In the event, you enter the subject, the start and the end, and in the field "URL live stream" the address of the stream. If multi stream is switched on, you enter two addresses, separated by the "URL separator" that is stored in the system administration under `Administration > Modules > Live stream`. The field "URL live stream" only appears when you edit the event in the course element, not in the course calendar.
+You enter the events in the course element itself, in the tab "Edit events". Owners of the course see the tab, coaches only if the option "Coach is allowed to edit" is switched on in the tab "Configuration". Coaches edit events of the course calendar there if, in addition, the option ["Coaches can edit the calendar"](Course_Settings_Toolbar.md#calendar) is switched on in the course settings in the "Toolbar" tab. [:octicons-tag-16:{ title="from Release 21.2 (OO-9968)" }](https://track.frentix.com/issue/OO-9968) The tab shows the calendar with all events. In the event, you enter the subject, the start and the end, and in the field "URL live stream" the address of the stream. If multi stream is switched on, you enter two addresses, separated by the "URL separator" that is stored in the system administration under `Administration > Modules > Live stream`. The field "URL live stream" only appears when you edit the event in the course element, not in the course calendar.
 
 If templates are stored on the same page in the tab "URL templates", you select a template from the list under "URL live stream" instead of typing the address. With the checkbox "Manually" at "Live stream selection" you enter the address yourself again. If the address of a template changes, the course element shows the new address for running live streams [:octicons-tag-16:{ title="from Release 15.3 (OO-5163)" }](https://track.frentix.com/issue/OO-5163){:target="_blank"}.
 
@@ -56,6 +56,7 @@ Owners and coaches also see the tab "Statistic". Under "Broadcast live streams" 
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "Opencast" >](Course_Element_Opencast.md)<br>
 [Course Element "Calendar" >](Course_Element_Calendar.md)<br>
+[Toolbar >](Course_Settings_Toolbar.md)<br>
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Modules: Overview >](../../manual_admin/administration/Modules.md)
 

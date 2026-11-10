@@ -41,7 +41,7 @@ Dort stellen Sie "Vorlaufzeit (in Minuten)" und "Nachlaufzeit (in Minuten)" ein 
 
 Einen Livestream planen Sie wie einen Termin: mit Beginn, Ende und der Adresse des Streams. Zur geplanten Zeit zeigt der Kursbaustein den Stream von selbst, ohne dass Sie den Kurs ändern. Der Kursbaustein liest die Termine aus dem Kurskalender und aus den Kalendern der Gruppen, die mit dem Kurs verbunden sind. Er berücksichtigt nur Termine, bei denen das Feld "URL Live Stream" ausgefüllt ist. Welche Termine eine Person sieht, richtet sich nach der [Sichtbarkeit](../personal_menu/Calendar.de.md#visibility) des Termins.
 
-Die Termine erfassen Sie im Kursbaustein selbst, im Tab "Termine bearbeiten". Den Tab sehen Besitzer:innen des Kurses, Betreuer:innen nur, wenn im Tab "Konfiguration" die Option "Betreuer:in darf Termine bearbeiten" eingeschaltet ist. Der Tab zeigt den Kalender mit allen Terminen. Im Termin tragen Sie Titel, Beginn und Ende ein und im Feld "URL Live Stream" die Adresse des Streams. Ist Multistream eingeschaltet, tragen Sie zwei Adressen ein, getrennt durch das "URL Trennzeichen", das in der System-Administration unter `Administration > Module > Livestream` hinterlegt ist. Das Feld "URL Live Stream" erscheint nur, wenn Sie den Termin im Kursbaustein bearbeiten, nicht im Kurskalender.
+Die Termine erfassen Sie im Kursbaustein selbst, im Tab "Termine bearbeiten". Den Tab sehen Besitzer:innen des Kurses, Betreuer:innen nur, wenn im Tab "Konfiguration" die Option "Betreuer:in darf Termine bearbeiten" eingeschaltet ist. Termine des Kurskalenders bearbeiten Betreuer:innen dort, wenn zusätzlich in den Kurseinstellungen im Tab "Toolbar" die Option ["Betreuer:innen dürfen den Kalender bearbeiten"](Course_Settings_Toolbar.de.md#calendar) eingeschaltet ist. [:octicons-tag-16:{ title="ab Release 21.2 (OO-9968)" }](https://track.frentix.com/issue/OO-9968) Der Tab zeigt den Kalender mit allen Terminen. Im Termin tragen Sie Titel, Beginn und Ende ein und im Feld "URL Live Stream" die Adresse des Streams. Ist Multistream eingeschaltet, tragen Sie zwei Adressen ein, getrennt durch das "URL Trennzeichen", das in der System-Administration unter `Administration > Module > Livestream` hinterlegt ist. Das Feld "URL Live Stream" erscheint nur, wenn Sie den Termin im Kursbaustein bearbeiten, nicht im Kurskalender.
 
 Sind auf derselben Seite im Tab "URL Vorlagen" Vorlagen hinterlegt, wählen Sie unter "URL Live Stream" eine Vorlage aus der Liste, statt die Adresse einzutippen. Mit dem Häkchen "Manuell" bei "Live Stream Auswahl" tragen Sie die Adresse wieder selbst ein. Ändert sich die Adresse einer Vorlage, zeigt der Kursbaustein bei laufenden Livestreams die neue Adresse [:octicons-tag-16:{ title="ab Release 15.3 (OO-5163)" }](https://track.frentix.com/issue/OO-5163){:target="_blank"}.
 
@@ -56,6 +56,7 @@ Besitzer:innen und Betreuer:innen sehen zusätzlich den Tab "Statistik". Er list
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "Opencast" >](Course_Element_Opencast.de.md)<br>
 [Kursbaustein "Kalender" >](Course_Element_Calendar.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
 [Module: Übersicht >](../../manual_admin/administration/Modules.de.md)
 
