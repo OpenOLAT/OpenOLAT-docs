@@ -6,13 +6,13 @@ Einige Lernressourcen können direkt im Autorenbereich erstellt werden.<br>
 Darüber hinaus können [weitere Lernressourcen-Typen](#further_learningresources) erstellt oder importiert werden.
 
 
-![Aufgeklapptes Menü Erstellen mit den zehn direkt erstellbaren Lernressourcen-Typen, daneben der Button Datei importieren, Autorenbereich](assets/learning_resources_v1_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich" }
+![Aufgeklapptes Menü Erstellen mit den direkt erstellbaren Lernressourcen-Typen von Kurs bis PowerPoint, jeder Eintrag mit seinem Symbol, daneben der Button Datei importieren, Autorenbereich](assets/learning_resources_v2_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 ---
 
 ## Kurs {: #course}
 
-![Eintrag Kurs markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_course_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Kurs mit dem Würfel-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_course_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 ![Symbol Kurs](assets/icon_course.png)
 
@@ -27,7 +27,7 @@ Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_C
 
 ## Test {: #test}
 
-![Eintrag Test markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Test mit dem Stift-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_test_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 :o_icon_o_FileResource-IMSQTI21_icon:
 
@@ -41,7 +41,7 @@ Mehr Informationen zum Einsatz und zur Erstellung von Tests finden Sie im Kapite
 
 ## CP-Lerninhalt {: #cp-content}
 
-![Eintrag CP-Lerninhalt markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_cp-content_v1_de.png){ class="aside-right lightbox"}
+![Eintrag CP-Lerninhalt mit dem Archiv-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_cp-content_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 :o_icon_o_FileResource-IMSCP_icon:
 
@@ -53,7 +53,7 @@ Ein Content-Packaging (kurz CP) ist ein Lerninhalt in einem standardisierten E-L
 
 ## Wiki {: #wiki}
 
-![Eintrag Wiki markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_wiki_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Wiki mit dem Globus-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_wiki_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 ![Symbol Wiki](assets/icon_wiki.png)
 
@@ -67,7 +67,7 @@ Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstell
 
 ## Podcast {: #podcast}
 
-![Eintrag Podcast markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_podcast_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Podcast mit dem Podcast-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_podcast_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 :o_icon_o_FileResource-PODCAST_icon:
 
@@ -95,7 +95,7 @@ Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources
 
 ## :o_icon_o_FileResource-SHAREDFOLDER_icon: Ressourcenordner {: #resource_folder}
 
-![Eintrag Ressourcenordner markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Ressourcenordner mit dem Symbol eines geöffneten Ordners im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_resource_folder_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafiken usw.) in mehreren Kursen verwendet werden. Dabei werden die Dateien aus dem Ressourcenordner referenziert und müssen somit nicht mehrfach erstellt werden. Der verknüpfte Ressourcenordner wird in den Dateien des verknüpften Kurses unter `_sharedfolder` angezeigt, und es besteht Zugriff auf alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass nur *ein* Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere Informationen finden Sie im Kapitel ["Kurseinstellungen"](Course_Settings/index.de.md#options) im Tab "Optionen".
 
@@ -105,7 +105,7 @@ Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafike
 
 ## Formular {: #form}
 
-![Eintrag Formular markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_form_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Formular mit dem Schieberegler-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_form_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 ![Symbol Formular](assets/icon_formular.png)
 
@@ -119,7 +119,7 @@ Mehr Informationen zum Einsatz und zur Erstellung von Formularen für Umfragen, 
 
 ## Portfolio 2.0 Vorlage {: #portfolio}
 
-![Eintrag Portfolio 2.0 Vorlage markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_portfolio_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Portfolio 2.0 Vorlage mit dem Aktentaschen-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_portfolio_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 ![Symbol Portfolio 2.0 Vorlage](assets/icon_portfolio.png)
 
@@ -131,7 +131,7 @@ Eine Portfolio 2.0 Vorlage beinhaltet Aufgaben, die im Rahmen eines Portfolio-As
 
 ## Glossar {: #glossary}
 
-![Eintrag Glossar markiert im Menü Erstellen des Autorenbereichs](assets/learning_resource_glossary_v1_de.png){ class="aside-right lightbox"}
+![Eintrag Glossar mit dem Doktorhut-Symbol im Menü Erstellen des Autorenbereichs markiert](assets/learning_resource_glossary_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 ![Symbol Glossar](assets/icon_glossary.png)
 
@@ -182,7 +182,7 @@ OpenOlat verwendet Video-Lerninhalt im MPEG-4-Format mit der Dateiendung MP4. Di
 
 ### Lernressourcen vom Typ Datei und andere Dateien
 
-![Einträge Word, Excel und PowerPoint markiert am Ende des Menüs Erstellen im Autorenbereich](assets/learning_resource_file_v1_de.png){ class="aside-right lightbox"}
+![Einträge Word, Excel und PowerPoint mit ihren Dateisymbolen am Ende des Menüs Erstellen im Autorenbereich markiert](assets/learning_resource_file_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 Neben den oben genannten Lernressourcen können Sie eine Reihe weiterer Dateitypen in OpenOlat importieren. Dazu gehören PDF-, PowerPoint-, Excel- und Word-Dateien sowie Bilder, Musik und Animationen.
 

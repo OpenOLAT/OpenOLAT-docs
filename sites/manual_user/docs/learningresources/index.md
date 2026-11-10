@@ -6,13 +6,13 @@ Some learning resources can be created directly in the authoring area.<br>
 In addition, [further learning resource types](#further_learningresources) can be created or imported.
 
 
-![Expanded Create menu with the ten learning resource types that can be created directly, next to it the button Import file, authoring area](assets/learning_resources_v1_de.png){ class="shadow lightbox" title="Create menu in the authoring area" }
+![Expanded Create menu with the learning resource types that can be created directly, from Course to PowerPoint, each entry with its icon, next to it the button Import file, authoring area](assets/learning_resources_v2_en.png){ class="shadow lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 ---
 
 ## Course {: #course}
 
-![Entry Course highlighted in the Create menu of the authoring area](assets/learning_resource_course_v1_de.png){ class="aside-right lightbox"}
+![Entry Course with the cube icon highlighted in the Create menu of the authoring area](assets/learning_resource_course_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 ![Course icon](assets/icon_course.png)
 
@@ -27,7 +27,7 @@ How to create courses is explained in the chapter ["Creating Courses"](Creating_
 
 ## Test {: #test}
 
-![Entry Test highlighted in the Create menu of the authoring area](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
+![Entry Test with the pen icon highlighted in the Create menu of the authoring area](assets/learning_resource_test_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 :o_icon_o_FileResource-IMSQTI21_icon:
 
@@ -41,7 +41,7 @@ More information on using and creating tests can be found in the chapter ["Creat
 
 ## CP Learning Content {: #cp-content}
 
-![Entry CP learning content highlighted in the Create menu of the authoring area](assets/learning_resource_cp-content_v1_de.png){ class="aside-right lightbox"}
+![Entry CP learning content with the archive icon highlighted in the Create menu of the authoring area](assets/learning_resource_cp-content_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 :o_icon_o_FileResource-IMSCP_icon:
 
@@ -53,7 +53,7 @@ A Content Packaging (abbr.: CP) is learning content in a standardized e-learning
 
 ## Wiki {: #wiki}
 
-![Entry Wiki highlighted in the Create menu of the authoring area](assets/learning_resource_wiki_v1_de.png){ class="aside-right lightbox"}
+![Entry Wiki with the globe icon highlighted in the Create menu of the authoring area](assets/learning_resource_wiki_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 ![Wiki icon](assets/icon_wiki.png)
 
@@ -67,7 +67,7 @@ More information on creating wikis can be found in the chapter ["Creating Wikis"
 
 ## Podcast {: #podcast}
 
-![Entry Podcast highlighted in the Create menu of the authoring area](assets/learning_resource_podcast_v1_de.png){ class="aside-right lightbox"}
+![Entry Podcast with the podcast icon highlighted in the Create menu of the authoring area](assets/learning_resource_podcast_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 :o_icon_o_FileResource-PODCAST_icon:
 
@@ -95,7 +95,7 @@ Here you can find more information about the [course element blog](../learningre
 
 ## :o_icon_o_FileResource-SHAREDFOLDER_icon: Resource Folder {: #resource_folder}
 
-![Entry Resource folder highlighted in the Create menu of the authoring area](assets/learning_resource_resource_folder_v1_de.png){ class="aside-right lightbox"}
+![Entry Resource folder with the open folder icon highlighted in the Create menu of the authoring area](assets/learning_resource_resource_folder_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. The files are referenced from the resource folder and therefore do not need to be created multiple times. The linked resource folder is displayed in the files of the linked course under `_sharedfolder`, and all files stored in the resource folder can be accessed. Changes to the files in the resource folder then apply to all linked courses. Note that only *one* resource folder can be added per course. Further information can be found in the chapter ["Course Settings"](Course_Settings/index.md#options) in the tab "Options".
 
@@ -105,7 +105,7 @@ With the help of the resource folder, files (content, information, graphics, etc
 
 ## Form {: #form}
 
-![Entry Form highlighted in the Create menu of the authoring area](assets/learning_resource_form_v1_de.png){ class="aside-right lightbox"}
+![Entry Form with the sliders icon highlighted in the Create menu of the authoring area](assets/learning_resource_form_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 ![Form icon](assets/icon_formular.png)
 
@@ -119,7 +119,7 @@ More information on the use and creation of forms for surveys, rubrics etc. can 
 
 ## Portfolio 2.0 Template {: #portfolio}
 
-![Entry Portfolio 2.0 template highlighted in the Create menu of the authoring area](assets/learning_resource_portfolio_v1_de.png){ class="aside-right lightbox"}
+![Entry Portfolio 2.0 template with the briefcase icon highlighted in the Create menu of the authoring area](assets/learning_resource_portfolio_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 ![Portfolio 2.0 template icon](assets/icon_portfolio.png)
 
@@ -131,7 +131,7 @@ A Portfolio 2.0 template contains assignments that can be used as part of a port
 
 ## Glossary {: #glossary}
 
-![Entry Glossary highlighted in the Create menu of the authoring area](assets/learning_resource_glossary_v1_de.png){ class="aside-right lightbox"}
+![Entry Glossary with the graduation cap icon highlighted in the Create menu of the authoring area](assets/learning_resource_glossary_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 ![Glossary icon](assets/icon_glossary.png)
 
@@ -182,7 +182,7 @@ OpenOlat uses video learning content in the MPEG-4 format with the file extensio
 
 ### Learning resources of the type file and other files
 
-![Entries Word, Excel and PowerPoint highlighted at the end of the Create menu in the authoring area](assets/learning_resource_file_v1_de.png){ class="aside-right lightbox"}
+![Entries Word, Excel and PowerPoint with their file icons highlighted at the end of the Create menu in the authoring area](assets/learning_resource_file_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
 Apart from the above-mentioned learning resources, you can import a number of other file types into OpenOlat. Among these are PDF, PowerPoint, Excel and Word files as well as images, music and animations.
 
