@@ -1,10 +1,10 @@
 # Process of an assessment portfolio {: #process_of_an_assessment_portfolio}
 
-There are different variations of how a portfolio can be used. Here the process of a learning portfolio is shown exemplarily including provided tasks, comments and assessments from the lecturer. In this process authors as well as users are involved in interaction with each other.
+An e-portfolio can be used in different ways. As an example, this page shows the process of a learning portfolio with assignments, comments and assessment. Involved are lecturers, who set and assess the assignments, and learners, who work on them.
 
-Via "portfolio task" lecturers are able to provide predefined portfolio binders to learners, where they can document their learning process and work on assigned portfolio tasks individually. Learners collect the assigned binders directly in the course, edit them and share the binders subsequently with their lecturers for feedback and assessments.
+With the course element "Portfolio task", lecturers provide learners in a course with a prepared binder. In it, the learners document their learning process and work on the provided assignments. The learners collect the binder in the course, edit it and later share it with the lecturers for feedback and assessment.
 
-More information about the particular processes you can find in the corresponding process step.
+A click on a process step opens the page that describes it.
 
 Authoring ![Caption "Place in OpenOLAT"](assets/place_in_OO_EN.png) | Authoring | Authoring ![Arrow](assets/arrow_434343_64.png){ class=size16 } ![Course area icon](assets/course.png){ class=size16 }
 ---------|----------|---------
@@ -14,13 +14,13 @@ Authoring ![Caption "Place in OpenOLAT"](assets/place_in_OO_EN.png) | Authoring 
  :o_icon_o_ep_icon: | :o_icon_o_ep_icon: |
  [![Add comment, or](assets/pf_prozess_feld7_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | [![Grade assignment](assets/pf_prozess_feld8_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | ![Color legend: green author, blue user, yellow author, coach, user, extern](assets/pf_legend_process_EN.png)
 
-!!! info "Note"
+!!! info "Important"
 
-        You do not necessarily have to add a portfolio template to a course. It can actually also be provided as an independent learning resource.
+    A portfolio template can also be used without a course: you provide it to the learners as a standalone learning resource.
 
 !!! tip "Tip"
 
-        It is best practice to discuss the assessment criteria with the users beforehand.
+    Discuss the assessment criteria with the learners before they start working.
 
 ## Further information {: #further_information}
 
@@ -30,6 +30,10 @@ Authoring ![Caption "Place in OpenOLAT"](assets/place_in_OO_EN.png) | Authoring 
 [Creating Portfolio Tasks >](../learningresources/Creating_Portfolio_Tasks.md)<br>
 [Portfolio task: collecting and editing >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
 [Portfolio assignment: Grading >](../learningresources/Portfolio_assignment_Grading.md)
+
+**Further reading**<br>
+[Course Element "Portfolio task" >](../learningresources/Course_Element_Portfolio_Task.md)<br>
+[Three steps to your portfolio binder >](Three_steps_to_your_portfolio_binder.md)
 
 [To the top of the page ^](#process_of_an_assessment_portfolio)
 

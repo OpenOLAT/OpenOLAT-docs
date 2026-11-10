@@ -16,10 +16,7 @@
 
     * [Gruppenverwaltung](../area_modules/Group_Management.de.md)
 
-OpenOlat arbeitet mit einem übergreifenden Gruppensystem, das es gestattet,
-Gruppen nach Wunsch zu konfigurieren und dem Verwendungszweck anzupassen.
-Dieses Kapitel beschreibt, wie Sie Gruppen für verschiedene Verwendungszwecke
-konfigurieren und nutzen können.
+In Gruppen arbeiten Personen zusammen: in einem Kurs, über mehrere Kurse hinweg oder ganz unabhängig von Kursen. Jede Gruppe konfigurieren Sie für ihren Zweck. Dieses Kapitel beschreibt, wie Sie Gruppen für verschiedene Verwendungszwecke konfigurieren und nutzen.
 
 [Zum Seitenanfang ^](#groups)
 
@@ -28,20 +25,21 @@ konfigurieren und nutzen können.
 
 ## Wo findet man die OpenOlat Gruppen? {: #where}
 
-In der Hauptnavigation finden Sie auch "Gruppen".
-Nach Klick darauf sehen Sie z.B. im Tab "Meine Gruppen" alle Gruppen, bei denen Sie als Mitglied eingetragen sind. 
+Die Gruppen, in denen Sie Mitglied sind, erreichen Sie über den Eintrag "Gruppen" in der Hauptnavigation. Der Tab "Meine Gruppen" listet Ihre aktiven Gruppen:<br>
+`Gruppen > Meine Gruppen`
 
-Die Gruppen können gefiltert dargestellt werden, was besonders bei vielen
-Gruppen hilfreich ist. Um die Filtermöglichkeiten zu sehen, müssen diese mit Hilfe des kleinen Pfeils aufgeklappt werden.
+Die übrigen Tabs zeigen weitere Ausschnitte. "Favoriten" zeigt die Gruppen, die Sie mit dem Symbol "Bookmark hinzufügen" in der Liste markiert haben, "Inaktive Gruppen" Ihre inaktiven Gruppen. "Veröffentlichte Gruppen" zeigt veröffentlichte Gruppen, in denen Sie noch kein Mitglied sind und denen Sie beitreten können. Unter "Suche" finden Sie Gruppen über einen Suchbegriff.
 
-![Aufgeklappte Filterleiste über der Gruppenliste mit Rolle, Betreuer:innen, Teilnehmenden und den Aktionen Verlassen und Löschen je Gruppe.](assets/Gruppe.png){ class="shadow lightbox" title="Tab Meine Gruppen im Bereich Gruppen" }
+Bei vielen Gruppen behalten Sie mit den Filtern den Überblick, etwa mit "Name" oder "Veröffentlicht". Die Filterleiste klappen Sie mit dem kleinen Pfeil unter den Tabs auf und zu.
 
-Sie können dort
+![Eintrag Gruppen in der Hauptnavigation, Tab Meine Gruppen und die aufgeklappte Filterleiste über der Liste Ihrer Gruppen mit Kurs, Status, Rolle und der Aktion Verlassen](assets/groups_my_groups_v1_de.png){ class="shadow lightbox" title="Tab Meine Gruppen im Bereich Gruppen · 2026.11.10" }
 
-* Gruppen verlassen
-* Gruppen löschen (wenn diese von Ihnen erstellt wurden oder Sie Gruppenbetreuer:in sind)
-* (Nach Wahl einer Gruppe) die Mitglieder sehen und evtl. mit jemandem Kontakt aufnehmen
-* In der Gruppe zur Verfügung stehende Werkzeuge nutzen usw.
+In der Liste können Sie
+
+* eine Gruppe verlassen, mit "Verlassen" in der Zeile der Gruppe
+* eine Gruppe löschen, in der Sie Betreuer:in sind: über :o_icon_o_icon_actions: am Ende der Zeile mit "Löschen". Wer eine Gruppe erstellt, ist ihre Betreuer:in.
+* nach einem Klick auf eine Gruppe ihre Mitglieder sehen und, sofern die Gruppe es erlaubt, mit ihnen Kontakt aufnehmen
+* die Werkzeuge der Gruppe nutzen
 
 [Zum Seitenanfang ^](#groups)
 
@@ -52,27 +50,35 @@ Sie können dort
 
 ### Lerngruppen innerhalb eines Kurses
 
-Besteht ein Kurs und es sollen dort Gruppenarbeiten durchgeführt werden, können in der Kursadministration (Mitgliederverwaltung) Lerngruppen gebildet werden.
+Für Gruppenarbeiten in einem Kurs bilden Sie Lerngruppen in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) des Kurses: `Kurs > Administration > Mitgliederverwaltung`.
 
 ### Gruppen, die mehrere Kurse gemeinsam besuchen
 
-Diese Art Gruppe entspricht einer Klasse, die über längere Zeit zusammen bleibt und gemeinsam verschiedene Kurse besucht. In einen Kurs muss dann nicht jede Teilnehmer:in einzeln eingebucht werden, sondern es kann die gesamte Gruppe dem Kurs hinzugefügt werden. Wird eine Gruppe gelöscht, die mit einem Kurs verbunden ist, wird lediglich die Gruppe gelöscht, nicht aber der Kurs.
+Diese Art Gruppe entspricht einer Klasse, die über längere Zeit zusammenbleibt und gemeinsam verschiedene Kurse besucht. Statt jede Teilnehmer:in einzeln in einen Kurs einzubuchen, fügen Sie dem Kurs die ganze Gruppe hinzu. Löschen Sie eine Gruppe, die mit einem Kurs verbunden ist, bleibt der Kurs bestehen.
 
 ### Interessengruppen
 
-Gruppen können auch völlig unabhängig von Kursen gebildet werden und zum Austausch über gemeinsame Interessen genutzt werden. Zum Beispiel können alle Lehrenden eines Fachgebiets eine gemeinsame Gruppe zum Austausch bilden. Oder Lernende bilden in Eigeninitiative Gruppen zur Prüfungsvorbereitung.
+Gruppen entstehen auch ganz unabhängig von Kursen, etwa für den Austausch über gemeinsame Interessen. So bilden alle Lehrenden eines Fachgebiets eine gemeinsame Gruppe, oder Lernende bilden in Eigeninitiative Gruppen zur Prüfungsvorbereitung.
 
 ### Managed Groups
 
-Mit Hilfe einer zusätzlichen Software (Syncher) ist es möglich, die Gruppenbildung und Zuweisung der Mitglieder auch automatisch auszuführen. So können in anderen Softwaresystemen bereits gebildete Gruppen in OpenOlat übertragen werden.
+Eine zusätzliche Software wie der Syncher legt Gruppen an und weist ihnen die Mitglieder automatisch zu. So übernimmt OpenOlat Gruppen, die in anderen Systemen schon bestehen.
 
 
 !!! note "Hinweis"
 
-    Die Informationen dieses Kapitels richten sich vor allem an Kursteilnehmer:innen, Betreuer:innen und Kursbesitzer:innen (Autor:innen).
+    Die Informationen dieses Kapitels richten sich vor allem an Teilnehmende, Betreuer:innen und Kursbesitzer:innen (Autor:innen).
 
-    Sind Sie ausserdem mit der Verwaltung der Gruppen beauftragt, stehen Ihnen weitere Aktionen zur Verfügung. Sie finden weitere Informationen dazu auf der Seite [Gruppenverwaltung](../area_modules/Group_Management.de.md).
-
+    Sind Sie ausserdem mit der Verwaltung der Gruppen beauftragt, stehen Ihnen weitere Aktionen zur Verfügung. Die Seite [Gruppenverwaltung](../area_modules/Group_Management.de.md) beschreibt sie.
 
 [Zum Seitenanfang ^](#groups)
 
+---
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Modul Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br>
+[Automatischer Gruppen-Lebenszyklus >](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)
+
+[Zum Seitenanfang ^](#groups)

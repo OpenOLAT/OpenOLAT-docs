@@ -37,7 +37,7 @@ Mit dem alphabetischen Register finden Lernende einen Begriff über seinen Anfan
 
 Das Register kennt nur die Buchstaben des lateinischen Alphabets. Beginnen die Begriffe Ihres Glossars mit anderen Zeichen, etwa mit griechischen oder kyrillischen Buchstaben, schalten Sie die Checkbox "Register einschalten" aus. Das Glossar zeigt dann alle Begriffe in einer Liste.
 
-![Checkbox "Register einschalten" eingeschaltet, darüber der Hinweis, dass das Register nur die Zeichen A bis Z enthält](assets/glossary_settings_register_v1_de.png){ class="shadow lightbox" title="Tab Alphabetisches Register in den Einstellungen eines Glossars" }
+![Tab Alphabetisches Register mit der eingeschalteten Checkbox "Register einschalten", darüber der Hinweis, dass das Register nur die Zeichen A bis Z enthält](assets/glossary_settings_register_v2_de.png){ class="shadow lightbox" title="Tab Alphabetisches Register in den Einstellungen eines Glossars · 2026.11.10" }
 
 OpenOlat speichert die Einstellung, sobald Sie die Checkbox anklicken.
 
@@ -54,7 +54,7 @@ Schalten Sie die Checkbox "Schreibberechtigung für alle Benutzer:innen zulassen
 
 Ist die Checkbox eingeschaltet, zeigt das Glossar neben jedem Eintrag, wer ihn erstellt und wer ihn zuletzt geändert hat.
 
-![Tab Schreibberechtigung mit dem Erläuterungstext und der noch ausgeschalteten Checkbox für die Schreibberechtigung aller Benutzer:innen](assets/glossary_settings_write_v1_de.png){ class="shadow lightbox" title="Tab Schreibberechtigung in den Einstellungen eines Glossars" }
+![Tab Schreibberechtigung mit dem Erläuterungstext und der noch ausgeschalteten Checkbox "Schreibberechtigung für alle Benutzer:innen zulassen", mit der Sie allen Benutzer:innen das Schreibrecht geben](assets/glossary_settings_write_v2_de.png){ class="shadow lightbox" title="Tab Schreibberechtigung in den Einstellungen eines Glossars · 2026.11.10" }
 
 OpenOlat speichert die Einstellung, sobald Sie die Checkbox anklicken.
 

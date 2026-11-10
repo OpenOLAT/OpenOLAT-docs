@@ -37,7 +37,7 @@ With the alphabetical index, learners find a term by its initial letter. Above t
 
 The index only knows the letters of the Latin alphabet. If the terms of your glossary begin with other characters, for example with Greek or Cyrillic letters, switch off the checkbox "Activate index". The glossary then shows all terms in one list.
 
-![Checkbox "Activate index" switched on, above it the note that the index only contains the characters A to Z](assets/glossary_settings_register_v1_de.png){ class="shadow lightbox" title="Tab Alphabetical index in the settings of a glossary" }
+![Tab Alphabetical index with the checkbox "Activate index" switched on, above it the note that the index only contains the characters A to Z](assets/glossary_settings_register_v2_en.png){ class="shadow lightbox" title="Tab Alphabetical index in the settings of a glossary · 2026.11.10" }
 
 OpenOlat saves the setting as soon as you click the checkbox.
 
@@ -54,7 +54,7 @@ If you switch on the checkbox "Enable write permissions for all users", all pers
 
 If the checkbox is switched on, the glossary shows next to each entry who created it and who last changed it.
 
-![Tab Write permissions with the explanatory text and the still switched off checkbox for write permissions of all users](assets/glossary_settings_write_v1_de.png){ class="shadow lightbox" title="Tab Write permissions in the settings of a glossary" }
+![Tab Write permissions with the explanatory text and the still switched off checkbox "Enable write permissions for all users", which gives all users write permission](assets/glossary_settings_write_v2_en.png){ class="shadow lightbox" title="Tab Write permissions in the settings of a glossary · 2026.11.10" }
 
 OpenOlat saves the setting as soon as you click the checkbox.
 

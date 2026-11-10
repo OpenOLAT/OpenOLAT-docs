@@ -16,8 +16,7 @@
 
     * [Group Management](../area_modules/Group_Management.md)
 
-OpenOlat works with a comprehensive group system which allows to configure
-groups as desired in order to meet different requirements. This chapter describes how to configure and use groups for different purposes.
+In groups, persons work together: in a course, across several courses or completely independently of courses. You configure each group for its purpose. This chapter describes how to configure and use groups for different purposes.
 
 [To the top of the page ^](#groups)
 
@@ -26,18 +25,21 @@ groups as desired in order to meet different requirements. This chapter describe
 
 ## Where to find OpenOlat groups? {: #where}
 
-In the main navigation you will also find "Groups". After clicking on it, you will see all groups where you are registered as a member, in the tab "My groups".
+You reach the groups in which you are a member via the entry "Groups" in the main navigation. The tab "My groups" lists your active groups:<br>
+`Groups > My groups`
 
-The groups can be displayed in a filtered way, which is especially helpful with many groups. To see the filter options, they must be expanded with the help of the small arrow.
+The other tabs show further selections. "Favourites" shows the groups you have marked with the icon "Add bookmark" in the list, "Inactive groups" your inactive groups. "Published groups" shows published groups in which you are not yet a member and which you can join. Under "Search" you find groups with a search term.
 
-![Tabs My groups and Published groups with the filter bar Favourites, Course title and Add filter, plus the button Create group.](assets/groups16.jpg){ class="shadow lightbox" title="Tab My groups in the Groups area" }
+With many groups, the filters help you keep track, for example "Name" or "Published". You expand and collapse the filter bar with the small arrow below the tabs.
 
-There you can
+![Entry Groups in the main navigation, tab My groups and the expanded filter bar above the list of your groups with course, status, role and the action Leave](assets/groups_my_groups_v1_en.png){ class="shadow lightbox" title="Tab My groups in the Groups area · 2026.11.10" }
 
-* Leave groups
-* Delete groups (if they were created by you or you are the group coach)
-* See the members of a group (after selecting a group) and get in contact with them
-* Use tools available in the group, etc.
+In the list you can
+
+* leave a group, with "Leave" in the row of the group
+* delete a group in which you are a coach: via :o_icon_o_icon_actions: at the end of the row with "Delete". Whoever creates a group is its coach.
+* after a click on a group, see its members and, if the group allows it, get in contact with them
+* use the tools of the group
 
 [To the top of the page ^](#groups)
 
@@ -48,26 +50,35 @@ There you can
 
 ### Learning groups within a course
 
-If a course exists and group work is to be carried out there, learning groups can be created in the course administration (members management).
+For group work in a course, you form learning groups in the [members management](../learningresources/Members_management.md) of the course: `Course > Administration > Members management`.
 
 ### Groups that attend several courses together
 
-This type of group corresponds to a class that stays together for a longer period of time and attends different courses together. In this case, each participant does not have to be enrolled in a course individually, but the entire group can be added to the course. If a group associated with a course is deleted, only the group is deleted, not the course.
+This type of group corresponds to a class that stays together for a longer period of time and attends different courses together. Instead of enrolling each participant in a course individually, you add the entire group to the course. If you delete a group associated with a course, the course remains.
 
 ### Interest groups
 
-Groups can also be formed completely independently of courses and used to share common interests. For example, all teachers in a subject area can form a joint group for exchange. Or learners form groups on their own initiative to prepare for exams.
+Groups also come into being completely independently of courses, for example to share common interests. All teachers in a subject area form a joint group, or learners form groups on their own initiative to prepare for exams.
 
 ### Managed Groups
 
-With the help of additional software (Syncher), it is also possible to carry out group formation and member assignment automatically. In this way, groups already formed in other software systems can be transferred to OpenOlat.
+Additional software such as the Syncher creates groups and assigns their members automatically. In this way, OpenOlat takes over groups that already exist in other systems.
 
 
 !!! note "Note"
 
-    The information in this chapter is primarily intended for course participants, coaches and course owners (authors).
+    The information in this chapter is primarily intended for participants, coaches and course owners (authors).
 
-    If you are also in charge of managing the groups, further actions are available to you. You will find more information about this on the page [Group management](../area_modules/Group_Management.md).
+    If you are also in charge of managing the groups, further actions are available to you. The page [Group management](../area_modules/Group_Management.md) describes them.
 
 [To the top of the page ^](#groups)
 
+---
+
+
+## Further information {: #further_information}
+
+[Module Groups >](../../manual_admin/administration/Modules_Groups.md)<br>
+[Automatic Group Life Cycle >](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
+
+[To the top of the page ^](#groups)
