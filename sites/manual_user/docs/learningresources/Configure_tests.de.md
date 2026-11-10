@@ -51,7 +51,7 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 
 Im Tab "Expert" können folgende Konfigurationen vorgenommen werden. Hat der Test mindestens zwei Test-Parts, stehen dieselben Einstellungen im Formular "Test part" des jeweiligen Test-Parts, siehe [Test-Part Ebene](#testpart).
 
-![Anzahl Versuche einschränken mit maximal 2 Versuchen und Persönliche Notizen erlauben](assets/test_editor_tab_expert_v1_de.png){ class="shadow lightbox" title="Tab Expert im Testeditor" }
+![Alle Einstellungen des Tabs Expert auf einen Blick, darunter Anzahl Versuche einschränken mit maximal 2 Versuchen und Persönliche Notizen erlauben](assets/test_editor_tab_expert_v2_de.png){ class="shadow lightbox" title="Tab Expert im Testeditor · 2026.11.10" }
 
 * **Navigation:**
 

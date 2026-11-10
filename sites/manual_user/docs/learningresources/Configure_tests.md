@@ -51,7 +51,7 @@ At test level, you define the title that appears in the navigation. The followin
 
 In the "Expert" tab, the following configurations can be done. If the test has at least two test parts, the same settings are in the "Test part" form of the respective test part, see [Test part level](#testpart).
 
-![Limit number of attempts with a maximum of 2 attempts and Allow personal notes](assets/test_editor_tab_expert_v1_en.png){ class="shadow lightbox" title="Expert tab in the test editor" }
+![All settings of the Expert tab at a glance, among them Limit number of attempts with a maximum of 2 attempts and Allow personal notes](assets/test_editor_tab_expert_v2_en.png){ class="shadow lightbox" title="Expert tab in the test editor · 2026.11.10" }
 
 * **Navigation mode:**
 
