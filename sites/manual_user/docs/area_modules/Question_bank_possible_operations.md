@@ -9,6 +9,8 @@ As soon as you select one or more questions in the list, the buttons with which 
 
 With the button "Create test" you create a new [Learning resource Test](../learningresources/Test/index.md) directly from the selected questions. In doing so, you enter the title of the learning resource right away. You then find the test in Authoring under "My entries".
 
+OpenOlat copies the selected questions into the new test. If you then change a question in the question bank, the test keeps the copied version, see [How do the questions get into a test?](../learningresources/Test/index.md#create_questions_in_tests)
+
 [To the top of the page ^](#using_the_questions)
 
 
@@ -29,7 +31,7 @@ If a list is open, the menu of the "Lists" button additionally contains "Rename 
 
 ## Export {: #export}
 
-With the button "Export" you export selected questions to different formats:
+If you need questions outside the question bank, export them with the "Export" button in one of three formats:
 
 * Word file for offline exams (incl. correction sheet)
 * QTI test file for exchange with other compatible LMS
@@ -58,11 +60,11 @@ If you share questions with a pool, all users with access to this pool also get 
 
 !!! info "Important"
 
-    Please note that even when sharing with a pool or a group, the respective persons must first have the right to access the question bank. For example, normal users do not have access rights to the question bank by default.
+    Even when sharing with a pool or a group, the persons first need access to the question bank. Persons with the role user do not have this access by default.
 
-Administrators and [question bank managers](Question_Bank_Administration.md) (a specific OpenOlat role) with the right for the pool administration create any number of pools. These can either be public, and therefore visible to all authorized users, or private. The number of pools displayed may therefore vary from user to user. Contact your question bank manager if you do not have access to a pool.
+Administrators and [question bank managers](Question_Bank_Administration.md) (a specific OpenOlat role) with the right for the pool administration create any number of pools. A pool is either public and therefore visible to all persons with access to the question bank, or private. Each person therefore only sees the pools they have access to. If you lack access to a pool, contact your question bank managers.
 
-When sharing, you define whether the question may be edited in the new location or not.
+When sharing, you define whether other persons may edit the question in the new location.
 
 !!! tip "Tip"
 
@@ -82,9 +84,9 @@ If you copy questions in a list or share, you can also place the copy there in t
 
 ## Convert [:octicons-tag-16:{ title="from Release 11.1 (OO-2314)" }](https://track.frentix.com/issue/OO-2314){:target="_blank"} {: #convert}
 
-Convert questions in the QTI standard 1.2 to the QTI standard 2.1. To do this, select the desired questions in the list. Then click on "Convert". After you have confirmed the dialog, the converted questions are available in the standard 1.2 and additionally in the standard 2.1.
+If questions are still in the QTI 1.2 standard, convert them to the QTI 2.1 standard. To do this, select the desired questions in the list and click "Convert". After you have confirmed the dialog, the questions are available in the standard 1.2 and additionally in the standard 2.1.
 
-The questions that are converted in lists or shares are also stored under the respective list or share in addition to "My questions". Questions that are already in QTI format 2.1 do not need to be converted.
+If you convert questions in a list or share, OpenOlat stores the converted questions under "My questions" and additionally in this list or share. Questions in the QTI 2.1 format need no conversion.
 
 For more information on converting, see [Changing from QTI 1.2 to QTI 2.1](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md).
 
@@ -93,9 +95,9 @@ For more information on converting, see [Changing from QTI 1.2 to QTI 2.1](../le
 
 ## Delete (or remove) {: #delete}
 
-You remove questions from lists, pools and group shares without deleting the original question under "My questions". The "Remove" button only removes the reference to the question, the question itself is kept. A question is always only removed from the respective context you are currently in. By removing a question from a list, a group or a pool, you do not change any other shares.
+You remove questions from lists, pools and group shares without deleting the original question under "My questions". The "Remove" button only removes the reference to the question, the question itself is kept. OpenOlat removes the question only from the list, group or pool you are currently in. Other shares of the question remain.
 
-In order to delete a question permanently from all lists, groups and pools, you have to delete the corresponding question in your question bank under "My questions". There it is permanently deleted and can no longer be restored.
+You delete a question permanently under "My questions". OpenOlat then removes it from all lists, groups and pools, and it cannot be restored.
 
 [To the top of the page ^](#using_the_questions)
 
@@ -104,7 +106,7 @@ In order to delete a question permanently from all lists, groups and pools, you 
 
 Use the "Author rights" button to add further co-authors and grant them access rights to the selected questions.
 
-In the detailed view of the questions, the other authors are displayed in the [metadata in the "Rights" section](Item_Detailed_View.md#metadata_rights) and can also be removed there.
+The detailed view of a question shows the other authors in the [metadata in the "Rights" section](Item_Detailed_View.md#metadata_rights). You also remove them there.
 
 [To the top of the page ^](#using_the_questions)
 

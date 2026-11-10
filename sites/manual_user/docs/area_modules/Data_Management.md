@@ -10,7 +10,7 @@ How you create a new question with the button "Create question" is described in 
 
 ## Import questions in the question bank {: #import}
 
-The three import options of the button "Import" are described in [Import options](Question_Bank_Import_Questions.md#import_options). The structure of the template for the Excel import, the rows per question type and how to copy the rows are described in [Usage of the file "Excel Import Template"](Question_Bank_Import_Questions.md#excelimport).
+The three import options of the button "Import" are described in [Import options](Question_Bank_Import_Questions.md#import_options). The structure of the template for the Excel import, the rows per question type and how to copy the rows are described in [Usage of the file "Template excel import"](Question_Bank_Import_Questions.md#excelimport).
 
 
 ## Change metadata {: #metadata}

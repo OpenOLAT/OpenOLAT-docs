@@ -3,9 +3,9 @@
 
 Dieses Kapitel erklärt, wie Autor:innen in OpenOlat Tests erstellen, welche Fragetypen zur Verfügung stehen und welche Einstellungen bereitstehen. Darüber hinaus erfahren Sie, wie Sie Tests und Selbsttests in Kurse einbinden und nutzen und wie Sie Testergebnisse auswerten und bereitstellen.
 
-OpenOlat Tests liegen in dem standardisierten Dokumentformat QTI 2.1 vor. QTI steht für "Question & Test Interoperability" und ist ein definiertes, standardisiertes Datenformat, das zur Konzipierung von Online-Tests verwendet wird. Der Vorteil ist, dass diese standardisierten Tests in diversen LMS und anderen Systemen, die den Standard unterstützen, genutzt werden können. [IMS](http://www.imsglobal.org/ "IMS") bemüht sich um die Entwicklung derartiger offener Standards für den E-Learning-Bereich.
+OpenOlat speichert Tests im standardisierten Format QTI 2.1. QTI steht für "Question & Test Interoperability", ein Datenformat für Online-Tests. Tests in diesem Format lassen sich auch in anderen LMS und Systemen nutzen, die den Standard unterstützen. [IMS](http://www.imsglobal.org/ "IMS") entwickelt solche offenen Standards für den E-Learning-Bereich.
 
-In OpenOlat gehören Tests zu den "Lernressourcen". Lernressourcen werden separat erstellt und lassen sich in Online-Kurse integrieren. So kann z.B. dieselbe Lernressource "Test (QTI 2.1)" in mehreren Kursen verwendet werden.
+In OpenOlat gehören Tests zu den "Lernressourcen". Sie erstellen eine Lernressource separat und binden sie in Online-Kurse ein. So verwenden Sie zum Beispiel dieselbe Lernressource "Test (QTI 2.1)" in mehreren Kursen.
 
 [Zum Seitenanfang ^](#create_tests)
 
@@ -14,19 +14,19 @@ In OpenOlat gehören Tests zu den "Lernressourcen". Lernressourcen werden separa
 
 ## Was ist ein Test? {: #definition_test}
 
-Tests werden zur Leistungskontrolle, zur Überprüfung des aktuellen Wissensstandes oder auch als Online-Klausur verwendet. Sie können zu Beginn, während oder am Ende eines Kurses oder auch unabhängig von Kursen eingesetzt werden.
+Mit Tests kontrollieren Sie Leistungen, prüfen den aktuellen Wissensstand oder führen eine Online-Klausur durch. Sie setzen Tests zu Beginn, während oder am Ende eines Kurses ein, oder auch unabhängig von Kursen.
 
-Bei formativen Tests geht es darum, einen Lernzwischenstand zu erfassen und basierend auf automatisierten oder manuellen Feedbacks eine lernbegleitende Verbesserung zu erreichen.  
+Formative Tests erfassen einen Lernzwischenstand. Mit automatischem oder manuellem Feedback verbessern sich die Teilnehmenden im Verlauf des Lernens.
 
-Summative Tests werden erst am Ende eines Lernprozesses bzw. einer Veranstaltung eingesetzt. Dabei wird geprüft ob die geplanten Lernziele erreicht wurden. Ein Beispiel dafür sind scharfe Prüfungen bzw. Online-Klausuren.
+Summative Tests stehen am Ende eines Lernprozesses oder einer Veranstaltung. Sie prüfen, ob die geplanten Lernziele erreicht sind. Ein Beispiel dafür sind scharfe Prüfungen oder Online-Klausuren.
 
-Tests werden mit dem [OpenOlat-Testeditor](../Test_editor_QTI_2.1/index.de.md) als QTI 2.1 Test erstellt. Dabei können die Länge des Tests, die [Fragetypen](../Test_question_types.de.md) und eine Reihe von weiteren Konfigurationen bestimmt werden.
+Tests erstellen Sie mit dem [OpenOlat-Testeditor](../Test_editor_QTI_2.1/index.de.md) als Test im Format QTI 2.1. Dabei bestimmen Sie die Länge des Tests, die [Fragetypen](../Test_question_types.de.md) und weitere Einstellungen.
 
-Teilnehmende können im Quellcode des Tests oder Selbsttests nicht nachlesen, welche Lösungen richtig und welche falsch sind, da die Antworten an den OpenOlat-Server geschickt und erst dort ausgewertet werden.
+OpenOlat schickt die Antworten an den Server und wertet sie erst dort aus. Die Lösungen stehen deshalb nicht im Quellcode des Tests oder Selbsttests, den Teilnehmende im Browser sehen.
 
-Wenn Sie einen Test in Ihrem Kurs einbinden, entscheiden Sie, ob Sie ihn als Selbsttest, also zu Übungszwecken, oder als Prüfungstest ("scharfer" Test) einsetzen. Im ersten Fall verwenden Sie bei der Einbindung des Tests in den Kurs den Kursbaustein "Selbsttest", im zweiten Fall den Kursbaustein "Test". Selbsttestresultate werden anonymisiert, Prüfungstestresultate personalisiert gespeichert. Bei Selbsttests sehen Betreuer:innen nicht, welche Resultate einzelne Teilnehmende erzielt haben.
+Wenn Sie einen Test in Ihren Kurs einbinden, entscheiden Sie, ob Sie ihn als Selbsttest, also zu Übungszwecken, oder als Prüfungstest ("scharfer" Test) einsetzen. Im ersten Fall verwenden Sie den Kursbaustein "Selbsttest", im zweiten Fall den Kursbaustein "Test". OpenOlat speichert Selbsttestresultate anonymisiert und Prüfungstestresultate personalisiert. Bei Selbsttests sehen Betreuer:innen nicht, welche Resultate einzelne Teilnehmende erzielt haben.
 
-Je nach Lehrszenario ist es aber sinnvoll, auch für Übungszwecke normale "Tests" und keine "Selbsttests" zu verwenden, nämlich immer dann, wenn Betreuer:innen wissen möchten, wie sich einzelne Teilnehmende entwickeln, oder wenn es darum geht, schwächere Kursmitglieder zu erkennen und gezielt zu unterstützen. Insofern sollte immer individuell geprüft werden, welcher Baustein der jeweils passende ist.
+Je nach Lehrszenario ist auch für Übungszwecke der Kursbaustein "Test" sinnvoll: immer dann, wenn Betreuer:innen wissen möchten, wie sich einzelne Teilnehmende entwickeln, oder wenn sie schwächere Kursmitglieder erkennen und gezielt unterstützen wollen. Prüfen Sie deshalb für jedes Lehrszenario, welcher Kursbaustein passt.
 
 [Zum Seitenanfang ^](#create_tests)
 
@@ -35,15 +35,26 @@ Je nach Lehrszenario ist es aber sinnvoll, auch für Übungszwecke normale "Test
 
 ## Wie kommen die Fragen in einen Test? {: #create_questions_in_tests}
 
-Fragen können entweder direkt in der Lernressource Test erstellt werden oder im [Fragenpool](../../area_modules/Question_Bank/index.de.md) erstellt und dann in den Test eingebunden werden. Im Kapitel [Wie gehe ich vor, wenn ich einen Test erstelle?](../../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md) erfahren Sie wie Sie einen Test erstellen können.
+Die Fragen eines Tests erstellen Sie direkt in der Lernressource Test, oder Sie erstellen sie im [Fragenpool](../../area_modules/Question_Bank/index.de.md) und OpenOlat kopiert sie aus dem Fragenpool in den Test. Im Kapitel [Wie gehe ich vor, wenn ich einen Test erstelle?](../../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md) erfahren Sie, wie Sie einen Test Schritt für Schritt erstellen.
 
-Beim Importieren einer Frage aus dem Fragenpool in einen Test wird eine Kopie der Frage zum jeweiligen Zeitpunkt angefertigt. Die Frage im Test ist somit unabhängig von der Original-Frage im Fragenpool. Wird die Original-Frage im Fragenpool modifiziert, wirkt sich das nicht auf die importierte Frage im Test aus. Diese bleibt unverändert.
+!!! warning "Kopie, keine Verknüpfung"
 
-Die in Tests importierten Fragen aus dem Fragenpool können im Editor nicht bearbeitet werden!
+    Fragen aus dem Fragenpool kommen als Kopie in den Test. Frage im Fragenpool und Frage im Test sind danach zwei getrennte Fragen. Ändern Sie die Frage im Fragenpool, bleibt die Frage im Test unverändert, und umgekehrt. Woher eine Frage stammt, sehen Sie im Testeditor im Tab "Fragenpool". Soll der Test die geänderte Fassung verwenden, entfernen Sie die Frage im Test und importieren Sie sie neu aus dem Fragenpool, solange der Test noch nicht durchgeführt wurde.
 
-Soll eine Frage bearbeitet werden, kann über "Kopie erstellen und bearbeiten" eine Kopie der Frage erstellt und die Bearbeitung ermöglicht werden. Die Frage bekommt dann eine neue eigene ID. Über die "Master ID" gelangen Sie jedoch weiterhin zur ursprünglich importierten Original-Frage im Fragenpool.
+![Beim Import kopiert OpenOlat Frage A einmal in den Test, spätere Änderungen im Fragenpool erreichen den Test nicht](../assets/question_pool_copy_v1_de.svg){ class="shadow lightbox" title="Frage aus dem Fragenpool als Kopie im Test · 2026.11.09" }
 
-Möglicherweise haben Sie bereits eine Testdatei im IMS-QTI-Format aus einem anderen LMS exportiert und möchten diese in OpenOlat importieren. Wie Sie dabei vorgehen, beschreibt der Abschnitt [Lernressourcen importieren](../../area_modules/authoring_new_course.de.md#lernressourcen-importieren).
+Aus dem Fragenpool kommen Fragen auf zwei Wegen in einen Test:
+
+* **Testeditor:** In einem bestehenden Test wählen Sie `Elemente hinzufügen > Fragen aus Pool importieren`, siehe [Fragen aus dem Fragenpool verwenden](../Test_editor_QTI_2.1/index.de.md#questions_from_pool).
+* **Fragenpool:** Mit dem Button "Test erstellen" legt OpenOlat aus den ausgewählten Fragen einen neuen Test an, siehe [Test erstellen](../../area_modules/Question_bank_possible_operations.de.md#learning_resource_test).
+
+OpenOlat kopiert die Frage zum Zeitpunkt des Imports. Eine Frage aus dem Fragenpool ist im Testeditor zunächst schreibgeschützt, solange sie dieselbe ID trägt wie die Frage im Fragenpool. Der Tab "Fragenpool" zeigt ihre Herkunft: "ID", "Master ID", "Autor:innen", "Kopiert am" und "Version".
+
+Möchten Sie die Frage im Test bearbeiten, klicken Sie im Tab "Fragenpool" auf "Kopie erstellen und bearbeiten". Die Frage erhält eine neue ID, die bisherige ID steht danach unter "Master ID". Über die "Master ID" öffnen Sie weiterhin die Originalfrage im Fragenpool.
+
+Auch der umgekehrte Weg erzeugt eine Kopie: Mit [Zum Pool exportieren](../Test_export.de.md#export_to_pool) legt OpenOlat im Fragenpool eine neue Frage mit eigener ID an.
+
+Liegt Ihnen ein Test als Datei im Format IMS QTI aus einem anderen LMS vor, importieren Sie ihn als Lernressource. Wie Sie dabei vorgehen, beschreibt der Abschnitt [Lernressourcen importieren](../../area_modules/authoring_new_course.de.md#lernressourcen-importieren).
 
 !!! info "Wichtig"
 

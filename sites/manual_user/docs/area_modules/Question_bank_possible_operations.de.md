@@ -9,12 +9,14 @@ Sobald Sie in der Liste eine oder mehrere Fragen auswählen, erscheinen über de
 
 Mit dem Button "Test erstellen" erstellen Sie aus den ausgewählten Fragen direkt eine neue [Lernressource Test](../learningresources/Test/index.de.md). Dabei tragen Sie gleich den Titel der Lernressource ein. Den Test finden Sie danach im Autorenbereich unter "Meine Einträge".
 
+OpenOlat kopiert die ausgewählten Fragen in den neuen Test. Ändern Sie danach eine Frage im Fragenpool, behält der Test die kopierte Fassung, siehe [Wie kommen die Fragen in einen Test?](../learningresources/Test/index.de.md#create_questions_in_tests)
+
 [Zum Seitenanfang ^](#using_the_questions)
 
 
 ## Listen {: #lists}
 
-Mit Listen sammeln Sie Fragen nach Ihren eigenen Kriterien. Wählen Sie dazu unter "Meine Fragen" oder einem Pool die entsprechenden Fragen aus, und klicken Sie im Anschluss auf die Schaltfläche "Listen" oberhalb der Tabelle. Erstellen Sie eine neue Liste oder fügen Sie die Frage einer bestehenden Liste hinzu.
+Mit Listen sammeln Sie Fragen nach Ihren eigenen Kriterien. Wählen Sie dazu unter "Meine Fragen" oder einem Pool die entsprechenden Fragen aus, und klicken Sie danach auf den Button "Listen" über der Tabelle. Erstellen Sie eine neue Liste oder fügen Sie die Frage einer bestehenden Liste hinzu.
 
 ![Zwei ausgewählte Fragen, darüber das geöffnete Menü des Buttons Listen mit Liste erstellen und Zur Liste hinzufügen, so finden Sie, wo Sie Fragen in einer Liste sammeln](assets/question_bank_use_questions_list1_v2_de.png){ class="shadow lightbox" title="Menü Listen über der Fragenliste · 2026.11.02" }
 
@@ -29,7 +31,7 @@ Ist eine Liste geöffnet, enthält das Menü des Buttons "Listen" zusätzlich "L
 
 ## Export {: #export}
 
-Ausgewählte Fragen exportieren Sie mit dem Button "Export" in verschiedene Formate:
+Brauchen Sie Fragen ausserhalb des Fragenpools, exportieren Sie sie mit dem Button "Export" in eines von drei Formaten:
 
 * Word Datei für offline Prüfung (inkl. Korrekturblatt)
 * QTI Testdatei für Austausch mit anderen kompatiblen LMS
@@ -58,11 +60,11 @@ Geben Sie Fragen in einen Pool frei, erhalten alle Benutzer:innen mit Zugriff au
 
 !!! info "Wichtig"
 
-    Beachten Sie, dass auch bei der Freigabe in einen Pool oder für eine Gruppe die jeweiligen Personen grundsätzlich zunächst das Recht auf den Zugriff zum Fragenpool besitzen müssen. Beispielsweise besitzen normale Benutzer:innen standardmässig nicht das Zugriffsrecht auf den Fragenpool.
+    Auch bei einer Freigabe in einen Pool oder für eine Gruppe brauchen die Personen zuerst Zugriff auf den Fragenpool. Personen mit der Rolle Benutzer:in haben diesen Zugriff standardmässig nicht.
 
-Administrator:innen und [Poolverwalter:innen](Question_Bank_Administration.de.md) (eine spezifische OpenOlat-Rolle) mit dem Recht für die Pool-Verwaltung legen beliebig viele Pools an. Diese können entweder öffentlich, und damit für alle zugriffsberechtigten Benutzer:innen sichtbar sein, oder privat. Die Anzahl der angezeigten Pools kann daher von Benutzer:in zu Benutzer:in unterschiedlich sein. Wenden Sie sich an Ihre Poolverwalter:innen, falls Sie auf einen Pool keinen Zugriff haben.
+Administrator:innen und [Poolverwalter:innen](Question_Bank_Administration.de.md) (eine spezifische OpenOlat-Rolle) mit dem Recht für die Pool-Verwaltung legen beliebig viele Pools an. Ein Pool ist entweder öffentlich und damit für alle Personen mit Zugriff auf den Fragenpool sichtbar, oder privat. Jede Person sieht deshalb nur die Pools, auf die sie Zugriff hat. Fehlt Ihnen der Zugriff auf einen Pool, wenden Sie sich an Ihre Poolverwalter:innen.
 
-Bei der Freigabe legen Sie fest, ob die Frage am neuen Ort bearbeitet werden darf oder nicht.
+Bei der Freigabe legen Sie fest, ob andere Personen die Frage am neuen Ort bearbeiten dürfen.
 
 !!! tip "Tipp"
 
@@ -82,9 +84,9 @@ Kopieren Sie Fragen in einer Liste oder Freigabe, können Sie die Kopie im Dialo
 
 ## Konvertieren [:octicons-tag-16:{ title="ab Release 11.1 (OO-2314)" }](https://track.frentix.com/issue/OO-2314){:target="_blank"} {: #convert}
 
-Konvertieren Sie Fragen im QTI Standard 1.2 in den QTI Standard 2.1. Wählen Sie dazu die gewünschten Fragen in der Liste aus. Klicken Sie anschliessend auf "Konvertieren". Nachdem Sie den Dialog bestätigt haben, stehen die konvertierten Fragen im Standard 1.2 und zusätzlich im Standard 2.1 zur Verfügung.
+Liegen Fragen noch im Standard QTI 1.2 vor, konvertieren Sie sie in den Standard QTI 2.1. Wählen Sie dazu die gewünschten Fragen in der Liste aus und klicken Sie auf "Konvertieren". Nachdem Sie den Dialog bestätigt haben, stehen die Fragen im Standard 1.2 und zusätzlich im Standard 2.1 zur Verfügung.
 
-Die Fragen, welche in Listen oder Freigaben konvertiert werden, sind zusätzlich zu "Meine Fragen" auch unter der jeweiligen Liste oder Freigabe abgespeichert. Fragen, die bereits im QTI Format 2.1 vorliegen brauchen nicht konvertiert zu werden.
+Konvertieren Sie Fragen in einer Liste oder Freigabe, legt OpenOlat die konvertierten Fragen unter "Meine Fragen" und zusätzlich in dieser Liste oder Freigabe ab. Fragen im Format QTI 2.1 brauchen keine Konvertierung.
 
 Weitere Informationen zum Konvertieren finden Sie unter [Von QTI 1.2 zu QTI 2.1](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.de.md).
 
@@ -93,9 +95,9 @@ Weitere Informationen zum Konvertieren finden Sie unter [Von QTI 1.2 zu QTI 2.1]
 
 ## Löschen (bzw. Entfernen) {: #delete}
 
-Aus Listen, Pools und Gruppenfreigaben entfernen Sie Fragen, ohne die Originalfrage unter "Meine Fragen" zu löschen. Die Schaltfläche "Entfernen" entfernt nur den Verweis auf die Frage, die Frage selbst bleibt erhalten. Eine Frage wird immer nur aus dem jeweiligen Kontext entfernt, in dem Sie sich gerade befinden. Indem Sie eine Frage von einer Liste, aus einer Gruppe oder einem Pool entfernen, ändern Sie nichts an eventuellen anderen Freigaben.
+Aus Listen, Pools und Gruppenfreigaben entfernen Sie Fragen, ohne die Originalfrage unter "Meine Fragen" zu löschen. Der Button "Entfernen" entfernt nur den Verweis auf die Frage, die Frage selbst bleibt erhalten. OpenOlat entfernt die Frage nur aus der Liste, der Gruppe oder dem Pool, in dem Sie sich gerade befinden. Andere Freigaben der Frage bleiben bestehen.
 
-Um eine Frage endgültig von allen Listen, Gruppen und Pools zu löschen, müssen Sie die entsprechende Frage in Ihrem Fragenpool unter "Meine Fragen" löschen. Dort wird sie endgültig gelöscht und kann nicht mehr wiederhergestellt werden.
+Endgültig löschen Sie eine Frage unter "Meine Fragen". OpenOlat entfernt sie dann aus allen Listen, Gruppen und Pools, und sie lässt sich nicht wiederherstellen.
 
 [Zum Seitenanfang ^](#using_the_questions)
 
@@ -104,7 +106,7 @@ Um eine Frage endgültig von allen Listen, Gruppen und Pools zu löschen, müsse
 
 Mit dem Button "Autor:innenrechte" fügen Sie weitere Co-Autor:innen hinzu und erteilen ihnen damit Zugriffsrechte zu den ausgewählten Fragen.
 
-In der Detailansicht der Fragen werden die weiteren Autor:innen in den [Metadaten im Abschnitt "Rechte"](Item_Detailed_View.de.md#metadata_rights) angezeigt und können dort auch wieder entfernt werden.
+Die Detailansicht einer Frage zeigt die weiteren Autor:innen in den [Metadaten im Abschnitt "Rechte"](Item_Detailed_View.de.md#metadata_rights). Dort entfernen Sie sie auch wieder.
 
 [Zum Seitenanfang ^](#using_the_questions)
 

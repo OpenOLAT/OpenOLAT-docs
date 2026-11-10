@@ -1,32 +1,34 @@
 # Question Bank: Import Questions {: #question_bank_import}
 
-Questions that already exist as a file, in a test or in a table do not have to be created again in the question bank: you import them. The question bank shows the "Import" button to authors, question bank managers and administrators, for example above the table under "My questions".
+You import questions that already exist as a file, in a test or in a table into the question bank instead of creating them again. The question bank shows the "Import" button to authors, question bank managers and administrators, for example above the table under "My questions".
 
 
 ## Import options {: #import_options}
 
-The "Import" button offers three ways to bring questions in the QTI 2.1 format into the question bank.
+Depending on where your questions are, you choose one of three ways in the menu of the "Import" button. Each way adds the questions in the QTI 2.1 format to the question bank.
 
-![Open menu of the Import button with three import options: ZIP file, test from the authoring environment and Excel import via copy&paste](assets/question_import_options.png){ class="shadow lightbox" title="Menu of the Import button in the question bank" }
+![Framed menu of the Import button with the three import options ZIP file, tests from authoring environment and Excel import, from which you choose the right way](assets/question_bank_import_questions_menu_v1_en.png){ class="shadow lightbox" title="Menu of the Import button in the question bank · 2026.11.10" }
 
   *  **ZIP-file from local computer**:<br>
-  If you have a set of QTI 2.1 questions or a test as a ZIP file, import the file here.
+  If you have questions or a test in the QTI 2.1 format as a ZIP file, upload the file here.
   *  **Tests from authoring environment**:<br>
-  The list offers the QTI 2.1 tests that you are allowed to copy. In the row of the test you want, click its title. OpenOlat imports all questions of this test into the question bank.
+  The list offers the QTI 2.1 tests that you are allowed to copy. In the row of the test you want, click its title. OpenOlat imports all questions of this test into the question bank and creates a new question with its own ID for each of them. Afterwards, the question in the test and the question in the question bank are independent of each other, see [How do the questions get into a test?](../learningresources/Test/index.md#create_questions_in_tests)
   *  **QTI 2.1 Excel import via copy&paste**:<br>
   You enter the questions in a spreadsheet program such as Excel, following the template that the import provides, and paste the rows into the input field. The next section describes the template.
+
+If you start the import in a pool or in a group, OpenOlat also makes the imported questions available there. In doing so, you specify whether other users may edit the questions.
 
 [To the top of the page ^](#question_bank_import)
 
 
-## Usage of the file "Excel Import Template" {: #excelimport}
+## Usage of the file "Template excel import" [:octicons-tag-16:{ title="from Release 10.0.5 (OO-1209)" }](https://track.frentix.com/issue/OO-1209) {: #excelimport}
 
-With the Excel import you create many questions in one go. You enter the questions row by row in a table, copy the rows and paste them into OpenOlat. OpenOlat creates questions in the QTI 2.1 format from them. This way you can also take over questions from other systems, provided you transfer them into the table first.
+If you want to create many questions at once or take over questions from another system, use the Excel import. You enter the questions row by row in a table, copy the rows and paste them into OpenOlat. OpenOlat creates questions in the QTI 2.1 format from them. To do so, first transfer questions from another system into the table.
 
 You get the template in the import itself. In the question bank, you start it under:<br>
 `Question bank > My question bank > My questions > Import > QTI 2.1 Excel import via copy&paste`
 
-In the "Data input" step, the link "Template excel import" is located above the field "Copied columns from Excel (comma separated)". It provides an Excel file with example questions for all ten question types that the Excel import supports, and an example of the metadata of a question. Build your questions according to this pattern.
+In the "Data input" step, the link "Template excel import" is located above the field "Copied columns from Excel (comma separated)". It provides an Excel file with example questions for all ten question types that the Excel import processes, and an example of the metadata of a question. Build your questions according to this pattern.
 
 The [test editor](../learningresources/Test_editor_QTI_2.1/index.md) offers the same import with the same template when you add questions directly to a test:<br>
 `Test > Administration > Test editor > Add elements > Import questions from Excel`
@@ -79,7 +81,7 @@ The following sections describe the rows for each question type.
 **Min answers**|Min. number of possible answers that participants must select
 **Points**|Maximum achievable score. The minimum score is 0.
 
-The answers follow, each in its own row: the points in the first column, the answer text in the second. Answers with more than 0 points count as correct; negative points are deducted when this answer is selected. The number of answers is up to you.
+The answers follow, each in its own row: the points in the first column, the answer text in the second. Answers with more than 0 points count as correct. If participants select an answer with negative points, OpenOlat deducts these points. You choose the number of answers freely.
 
 ![Multiple-choice question with question text, at most four and at least two answers, 3 points and seven answers, three of them with 1 point and four with -1 point](assets/MC_import_Beispiel.png){ class="shadow lightbox" title="Multiple-choice question in the template" }
 
@@ -95,7 +97,7 @@ The answers follow, each in its own row: the points in the first column, the ans
 **Question**|The question text. Simple HTML formatting is allowed.
 **Points**|Maximum achievable score. The minimum score is 0.
 
-The answers follow, each in its own row: the points in the first column, the answer text in the second. The correct answer carries more than 0 points, for example "1", the other answers "0". The number of answers is up to you.
+The answers follow, each in its own row: the points in the first column, the answer text in the second. The correct answer carries more than 0 points, for example "1", the other answers "0". You choose the number of answers freely.
 
 [To the top of the page ^](#question_bank_import)
 
@@ -133,7 +135,7 @@ Without bounds, only the exact solution counts. With "absolute", the bounds are 
 
 ---
 
-### Gap with dropdown {: #template_inlinechoice}
+### Gap with dropdown [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #template_inlinechoice}
 
 **Type**|Inlinechoice
 ---|---
@@ -143,7 +145,7 @@ Without bounds, only the exact solution counts. With "absolute", the bounds are 
 **Text**|A text part of the question before, between or after the gaps
 **Points of the gap, e.g. "1"**|The answer options of the dropdown, separated by ";". The "Extra" column holds the solution.
 
-If another character is to separate the answer options, enter it in the fourth column. The template uses "|" for this and therefore places the explanations for this question type in the fifth column.
+If another character is to separate the answer options, enter it in the fourth column. The template uses "|" for this, so the explanations for this question type are in the fifth column.
 
 ![Gap with dropdown: text parts alternating with rows for the gaps, the answer options separated by vertical bars, the solution in the column next to them](assets/Inlinechoice_Import_Beispiel.png){ class="shadow lightbox" title="Gap with dropdown in the template" }
 
@@ -163,7 +165,7 @@ If another character is to separate the answer options, enter it in the fourth c
 -|incorrect answer
 +|correct answer
 
-A Kprim question has exactly four answers. Correct answers carry a "+" in the first column, incorrect answers a "-". OpenOlat does not take over further answer rows.
+A Kprim question has exactly four answers. Correct answers carry a "+" in the first column, incorrect answers a "-". OpenOlat takes over the first four answer rows.
 
 [To the top of the page ^](#question_bank_import)
 
@@ -215,7 +217,7 @@ The following rows are structured like those of the match question: one row with
 
 ---
 
-### True/false {: #template_truefalse}
+### True/false [:octicons-tag-16:{ title="from Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #template_truefalse}
 
 **Type**|Truefalse
 ---|---
@@ -240,12 +242,13 @@ The answer with more than 0 points counts as correct.
 ---
 
 !!! info "Important"
-    In addition to the listed rows, the template knows optional rows for feedback and metadata, for example "Hint", "Correct solution", "Feedback correct answer", "Topic", "Keywords" or "License". The template shows them in the first gap text example, and you can add them to every question type. The "Erklärung" column states for each of these rows whether it applies only in the question bank.
+    In addition to the listed rows, you can enter optional rows for feedback and metadata, for example "Hint", "Correct solution", "Feedback correct answer", "Topic", "Keywords" or "License". The template shows them in the first gap text example, and they apply to every question type. The "Erklärung" column states for each of these rows whether it applies only in the question bank.
 
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Creating Tests >](../learningresources/Test/index.md)<br>
 [Test editor >](../learningresources/Test_editor_QTI_2.1/index.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)
 

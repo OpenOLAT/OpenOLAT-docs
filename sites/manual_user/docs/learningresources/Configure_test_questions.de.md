@@ -30,6 +30,8 @@ Folgende Einstellungen stehen zur Verfügung:
 
 * **Maximal erreichbare Punktzahl:** die höchste Punktzahl, die in dieser Frage erreichbar ist.
 
+* **Min. Anzahl möglicher Antworten** und **Max. Anzahl möglicher Antworten:** Mit diesen beiden Einstellungen legen Sie fest, wie viele Antworten Teilnehmende mindestens und höchstens auswählen dürfen. Sie erscheinen bei Multiple Choice und Hottext, sobald die Frage mehr als eine Antwort hat. Standardmässig steht "Nicht begrenzt" (min.) beziehungsweise "Beliebig" (max.).
+
 * **Bewertungsmethode:** Für die meisten Fragetypen legen Sie auch fest, wie OpenOlat die Punkte vergibt.
 
     * Wählen Sie "Alle korrekten Antworten", vergibt OpenOlat nur dann Punkte, wenn alle Antworten richtig sind.

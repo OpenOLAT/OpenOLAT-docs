@@ -30,6 +30,8 @@ The following settings are available:
 
 * **Max. score:** the highest score that can be reached in this question.
 
+* **Min. number of possible answers** and **Max. number of possible answers:** With these two settings, you define how many answers participants must select at least and may select at most. They appear for multiple choice and hottext as soon as the question has more than one answer. By default, they are set to "Not limited" (min.) and "Unlimited" (max.).
+
 * **Method of assessment:** For most question types, you also define how OpenOlat assigns the score.
 
     * If you choose "All correct answers", OpenOlat assigns points only if all answers are correct.

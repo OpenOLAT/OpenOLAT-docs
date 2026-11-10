@@ -2,7 +2,7 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    Für das Erstellen von Tests gibt es in OpenOlat verschiedene Wege. Diese Anleitung zeigt die drei gängigen Wege im Überblick. Lernen Sie die Möglichkeiten kennen und wählen Sie dann das für Sie passende Vorgehen.
+    Ob Sie einen neuen Kurs aufbauen, einen Test in einen bestehenden Kurs einbinden oder Fragen zuerst im Fragenpool sammeln: Für jede dieser Ausgangslagen zeigt diese Anleitung einen eigenen Weg zum fertigen Test. Vergleichen Sie die drei Wege und wählen Sie den, der zu Ihrer Situation passt.
 
     Alle drei Wege setzen die Rolle Autor:in voraus. Mit ihr zeigt die Hauptnavigation den Autorenbereich und den Fragenpool.
 
@@ -20,35 +20,37 @@
 
 ## Das Zusammenwirken der Bestandteile
 
+Ein Test in OpenOlat besteht aus mehreren Bestandteilen, die ineinandergreifen. Wenn Sie sie auseinanderhalten, finden Sie jede Einstellung am richtigen Ort.
+
 ![Kursbaustein vom Typ Test mit eingefügter Lernressource Test, deren Fragen mit dem Fragenpool ausgetauscht werden](assets/kurs-kursbaustein-lernressource-frage_v1_de.png){ class="lightbox" title="Kurs, Kursbaustein, Lernressource und Fragenpool" }
 
-**Kurs:**<br> Er wird im Kurseditor aus Kursbausteinen zusammengesetzt.
+**Kurs:**<br> Sie setzen ihn im Kurseditor aus Kursbausteinen zusammen.
 
-**Kursbaustein:** <br>Die meisten Kursbausteine sind Behälter, in die Sie eine Lernressource einfügen. In den Kursbaustein "Test" fügen Sie zum Beispiel eine Lernressource "Test" ein. Unterscheiden Sie diese beiden "Tests".
+**Kursbaustein:** <br>Die meisten Kursbausteine sind Behälter, in die Sie eine Lernressource einfügen. In den Kursbaustein "Test" fügen Sie zum Beispiel eine Lernressource "Test" ein. Halten Sie diese beiden "Tests" auseinander: Den Kursbaustein konfigurieren Sie im Kurseditor, die Lernressource im Testeditor.
 
-**Fragen:** <br>Eine Test-Lernressource besteht aus mehreren einzelnen Fragen, z.B. Single Choice, Multiple Choice usw.
+**Fragen:** <br>Eine Test-Lernressource besteht aus einzelnen Fragen verschiedener Fragetypen, zum Beispiel Single Choice oder Multiple Choice.
 
-**Fragenpool:** <br>Im Fragenpool sammeln Sie einzelne Fragen. Beim Erstellen einer Test-Lernressource greifen Sie auf den Fragenpool zu: Sie übernehmen vorhandene Fragen (OpenOlat kopiert sie von dort) und erstellen bei Bedarf weitere Fragen neu. <br>
-Fragen erstellen Sie im Fragenpool oder in der Lernressource. Eine in der Lernressource erstellte Frage gibt es nur in dieser Test-Lernressource, solange Sie sie nicht zur Mehrfachnutzung in den Fragenpool übergeben.
+**Fragenpool:** <br>Im Fragenpool sammeln Sie einzelne Fragen, um sie in mehreren Tests zu verwenden. Beim Erstellen einer Test-Lernressource übernehmen Sie vorhandene Fragen aus dem Fragenpool, OpenOlat kopiert sie dabei in den Test. Weitere Fragen erstellen Sie bei Bedarf direkt in der Lernressource. <br>
+Eine in der Lernressource erstellte Frage gibt es nur in dieser Test-Lernressource. Für die Mehrfachnutzung übernehmen Sie sie im Testeditor mit "Zum Pool exportieren" in den Fragenpool.
 
 <br>
 
-Jedes dieser Elemente hat eigene Einstellungen (Konfigurationen). Sie konfigurieren einen Test deshalb auf vier Ebenen.
+Jeder dieser Bestandteile hat eigene Einstellungen (Konfigurationen). Einen Test konfigurieren Sie deshalb auf vier Ebenen. Kurs und Test-Lernressource öffnen Sie im Autorenbereich, die Klickwege unten beginnen beim geöffneten Kurs oder Test.
 
 ![Vier ineinander liegende Ebenen mit je eigener Konfiguration: Kurs, Kursbaustein Test, Lernressource Test und Frage](assets/grafik_konfigurationsebenen_v1_de.png){ width=450px class="lightbox" title="Konfigurationsebenen eines Tests" }
 
 
 **Konfiguration des Kurses:**<br>
-`Autorenbereich > Kurs wählen > Administration > Einstellungen`
+`Kurs > Administration > Einstellungen`
 
 **Konfiguration des Kursbausteins:**<br>
-`Autorenbereich > Kurs wählen > Administration > Kurseditor > Kursbaustein wählen > Einstellungen in den Tabs`
+`Kurs > Administration > Kurseditor > "Kursbaustein" > Tabs des Kursbausteins`
 
 **Konfiguration der Lernressource:**<br>
-`Autorenbereich > Test-Lernressource auswählen > Administration > Einstellungen`
+`Test-Lernressource > Administration > Einstellungen`
 
 **Konfiguration einer Frage:**<br>
-`Autorenbereich > Test-Lernressource auswählen > Administration > Testeditor > Frage in der Baumstruktur wählen > Einstellungen in den Tabs`
+`Test-Lernressource > Administration > Testeditor > "Frage" in der Baumstruktur > Tabs der Frage`
 
 <br>
 
@@ -66,7 +68,7 @@ Jedes dieser Elemente hat eigene Einstellungen (Konfigurationen). Sie konfigurie
 
 ## Vorgehen Möglichkeit 1
 
-Wenn Sie völlig von vorne mit der Erstellung eines Kurses beginnen, liegt folgendes Vorgehen nahe.<br>
+Beginnen Sie ganz von vorn, noch ohne Kurs und ohne Fragen, führt dieser Weg in vier Etappen vom neuen Kurs zum fertigen Test.<br>
 
 <br>
 
@@ -80,26 +82,26 @@ Wenn Sie völlig von vorne mit der Erstellung eines Kurses beginnen, liegt folge
 
 !!! note "Hinweis"
 
-    Sollten Sie noch keine Erfahrung in der Kurserstellung haben, finden Sie im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) eine Anleitung.
+    Haben Sie noch keinen Kurs erstellt, führt Sie die Anleitung ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md) Schritt für Schritt durch.
 
-1\. Gehen Sie in den Autorenbereich und erstellen Sie dort einen neuen Kurs.
+1\. Erstellen Sie einen neuen Kurs über `Autorenbereich > Erstellen > Kurs`.
 
 ![Menü Erstellen geöffnet, Eintrag Kurs markiert](assets/testerstellung_1_1_v1_de.png){ class="lightbox" title="Autorenbereich" }
 
-2\. Vergeben Sie einen Titel und legen Sie erste Einstellungen des Kurses fest. Entscheiden Sie sich für ein Design.
+2\. Geben Sie im Dialog "Kurs erstellen" einen Titel ein und legen Sie erste Einstellungen des Kurses fest. Wählen Sie unter "Kursdesign" das passende Design, zum Beispiel "Mit Lernpfad".
 
 ![Titel des Kurses eingetragen und Kursdesign Mit Lernpfad gewählt, darunter der Button Erstellen](assets/testerstellung_1_2_v1_de.png){ class="lightbox" title="Dialog Kurs erstellen" }
 
-3\. Wenn Sie für den weiteren Prozess der Kurserstellung einen Wizard (Kursassistent:in) verwenden wollen, werden Sie gefragt, ob Sie einen Prüfungskurs erstellen wollen.<br>
-Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmlicher Kurs), der bereits eine bestimmte Konfiguration enthält. Das spart Ihnen später Arbeit.
+3\. Soll ein Assistent Sie durch die weitere Einrichtung führen, klicken Sie statt auf "Erstellen" auf "Mit Kursassistent:in erstellen" und wählen "Einfacher Kurs" oder "Prüfungskurs".<br>
+Ein Prüfungskurs ist ein normaler Kurs, wahlweise Lernpfadkurs oder herkömmlicher Kurs. Sein Assistent richtet in einem Durchgang die Prüfung mit dem Test ein, auf Wunsch auch Nachprüfung, Zertifikat, Betreuer:innen und Teilnehmer:innen. Das spart Ihnen später Arbeit.
 
 ![Button Mit Kursassistent:in erstellen geöffnet, mit den Einträgen Einfacher Kurs und Prüfungskurs](assets/testerstellung_1_3_v1_de.png){ class="lightbox" title="Dialog Kurs erstellen mit Kursassistent:in" }
 
-4\. Nach dem Klick auf den Button "Erstellen" sehen Sie zuerst die Übersicht der Einstellungen (Konfiguration des Kurses).
+4\. Klicken Sie auf "Erstellen". OpenOlat öffnet danach die Einstellungen des Kurses (Konfiguration des Kurses).
 
 !!! tip "Tipp"
 
-    Abgesehen vom Kursdesign, können Sie die übrigen Angaben auch später unter `Kurs > Administration > Einstellungen` wieder aufrufen und anpassen.
+    Alle Angaben ausser dem Kursdesign passen Sie auch später unter `Kurs > Administration > Einstellungen` an.
 
 ![Eintrag Einstellungen im Menü Administration markiert, daneben die Tabs der Kurseinstellungen von Info bis Optionen](assets/testerstellung_1_4_v1_de.png){ class="lightbox" title="Einstellungen des Kurses" }
 
@@ -109,7 +111,7 @@ Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmliche
 
 <br>
 
-5\. Öffnen Sie über die "Administration" den "Kurseditor". Wählen Sie "Kursbausteine einfügen" und klicken Sie dort auf den gewünschten Kursbaustein-Typ "Test" oder "Selbsttest". OpenOlat fügt damit einen Kursbaustein dieses Typs ein.
+5\. Öffnen Sie den Kurseditor über `Kurs > Administration > Kurseditor`. Klicken Sie auf "Kursbausteine einfügen" und wählen Sie den Typ "Test" oder "Selbsttest". OpenOlat fügt einen Kursbaustein dieses Typs in den Kurs ein.
 
 ![Eintrag Kurseditor im Menü Administration und Button Kursbausteine einfügen markiert](assets/testerstellung_1_5_v1_de.png){ class="lightbox" title="Kurseditor" }
 
@@ -119,13 +121,13 @@ Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmliche
 
 <br>
 
-6\. Wählen Sie links im Kursmenü den Test-Kursbaustein an.
+6\. Klicken Sie links im Kursmenü auf den neuen Kursbaustein.
 
-7\. In den zugehörigen Tabs auf der rechten Seite befindet sich unter "Test-Konfiguration" der Button "Erstellen". Erstellen Sie mit ihm eine neue Test-Lernressource.
+7\. Öffnen Sie rechts den Tab "Test-Konfiguration", beim Selbsttest "Selbsttest-Konfiguration", und klicken Sie auf "Erstellen". So entsteht eine neue Test-Lernressource, die direkt mit dem Kursbaustein verbunden ist.
 
 ![Kursbaustein Test im Kursmenü, Tab Test-Konfiguration und Button Erstellen markiert](assets/testerstellung_1_7_v1_de.png){ class="lightbox" title="Kursbaustein Test im Kurseditor" }
 
-8\. Vergeben Sie auch für die Test-Lernressource einen Namen.
+8\. Geben Sie im Dialog "Test erstellen" einen Titel für die Test-Lernressource ein und klicken Sie auf "Erstellen".
 
 ![Titel der neuen Test-Lernressource im Feld Titel eingetragen](assets/testerstellung_1_8_v1_de.png){ class="lightbox" title="Dialog Test erstellen" }
 
@@ -135,38 +137,38 @@ Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmliche
 
 <br>
 
-9\. Nach dem Erstellen der neuen Test-Lernressource haben Sie die Möglichkeit, die Lernressource zu bearbeiten, also Fragen zu ergänzen.
+9\. Der Tab "Test-Konfiguration" zeigt jetzt die neue Test-Lernressource. Mit "Lernressource bearbeiten" öffnen Sie sie, um Fragen zu ergänzen.
 
-![Eingebundene Test-Lernressource mit Fragetypen und Punkten, Link Lernressource bearbeiten markiert](assets/testerstellung_1_9_v1_de.png){ class="lightbox" title="Tab Test-Konfiguration im Kursbaustein Test" }
+![Eingebundene Test-Lernressource im Tab Test-Konfiguration, markiert die Buttons Vorschau und Ersetzen und der Link Lernressource bearbeiten, mit dem Sie den Test zum Bearbeiten öffnen](assets/testerstellung_1_9_v2_de.png){ class="shadow lightbox" title="Tab Test-Konfiguration im Kursbaustein Test · 2026.11.10" }
 
-10\. Standardmässig ist bereits eine Single Choice Frage vorhanden. Sie können diese als Muster verwenden, löschen oder entsprechend Ihren Bedürfnissen abändern.
+10\. Eine neue Test-Lernressource enthält bereits eine Single-Choice-Frage. Verwenden Sie sie als Muster, passen Sie sie an oder löschen Sie sie.
 
 ![Neue Test-Lernressource mit einer Single-Choice-Frage und der Antwort Neue Antwort, in der Toolbar die Links Administration und Infoseite](assets/testerstellung_1_10_v2_de.png){ class="lightbox" title="Test-Lernressource · 2026.09.28" }
 
-11\. Wählen Sie in der "Administration" der Test-Lernressource nun den Eintrag "Testeditor". Sie gelangen in den Testeditor der Lernressource, nicht in den Kurseditor.
+11\. Öffnen Sie den Testeditor über `Test-Lernressource > Administration > Testeditor`. Der Testeditor gehört zur Lernressource, den Kurs bearbeiten Sie weiterhin im Kurseditor.
 
 ![Eintrag Testeditor im Menü Administration markiert](assets/testerstellung_1_11_v2_de.png){ class="lightbox" title="Menü Administration einer Test-Lernressource · 2026.09.28" }
 
-12\. Wählen Sie "Elemente hinzufügen" und den passenden Fragetyp, z.B. Multiple Choice.
+12\. Klicken Sie auf "Elemente hinzufügen" und wählen Sie den passenden Fragetyp, zum Beispiel "Multiple Choice".
 
 ![Button Elemente hinzufügen markiert, darunter eine neue Multiple-Choice-Frage im Tab Auswahl](assets/testerstellung_1_12_v1_de.png){ class="lightbox" title="Testeditor" }
 
-13\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antwortmöglichkeiten werden über das Pluszeichen ergänzt.
+13\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antworten ergänzen Sie über das Pluszeichen.
 
-14\. Im Tab "Punkte" definieren Sie die Art und die Summe der Punkte.
+14\. Im Tab "Punkte" legen Sie die Bewertungsmethode und die Punktzahl fest.
 
-15\. Bei Bedarf definieren Sie ein Feedback zur Frage. Über "Vorschau" können Sie sich die Frage ansehen.
+15\. Im Tab "Feedback" hinterlegen Sie bei Bedarf Rückmeldungen zur Frage. Im Tab "Vorschau" prüfen Sie die Frage.
 
-Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) weiter strukturieren.
+Weitere Fragen fügen Sie nach demselben Prinzip hinzu, die Einstellungen unterscheiden sich je nach Fragetyp. Mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) gliedern Sie den Test weiter.
 
 
 !!! warning "Achtung"
 
-    Überlegen Sie sich unbedingt im Vorfeld, welcher Fragetyp für Ihre Zwecke am besten geeignet ist, da der Fragetyp im Nachhinein nicht mehr geändert werden kann.
+    Überlegen Sie sich vor dem Erstellen, welcher Fragetyp Ihren Zweck am besten erfüllt. Den Fragetyp einer erstellten Frage können Sie nachträglich nicht mehr ändern.
 
 !!! tip "Tipp"
 
-    Das Kopieren von Fragen empfiehlt sich dann, wenn Sie mehrere Fragen mit denselben Antwortmöglichkeiten haben, z.B. mehrere Fragen mit einem Wert aus einer Skala von 1-5.
+    Brauchen Sie mehrere Fragen mit denselben Antworten, etwa einer Skala von 1 bis 5, kopieren Sie eine fertige Frage: Im Testeditor wählen Sie dazu im Menü mit den drei Punkten "Duplizieren". Danach passen Sie nur noch die Fragestellung an.
 
 <br>
 
@@ -174,7 +176,7 @@ Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Det
 
 ## Vorgehen Möglichkeit 2
 
-Haben Sie bereits etwas Erfahrung als Autor:in und besteht bereits ein Kurs, können Sie mit der Lernressource "Test" beginnen.
+Besteht der Kurs schon und kennen Sie sich als Autor:in etwas aus, beginnen Sie mit der Lernressource "Test" und binden sie danach in den Kurs ein.
 
 <br>
 
@@ -186,19 +188,19 @@ Haben Sie bereits etwas Erfahrung als Autor:in und besteht bereits ein Kurs, kö
 
 <br>
 
-1\. Im Autorenbereich den Link "Erstellen" wählen und die Lernressource "Test" wählen.
+1\. Erstellen Sie eine Test-Lernressource über `Autorenbereich > Erstellen > Test`.
 
-![Eintrag Test (QTI 2.1) im Menü Erstellen gewählt](assets/testerstellung_2_1_v1_de.png){ class="shadow lightbox" title="Autorenbereich" }
+![Menü Erstellen im Autorenbereich geöffnet, Eintrag Test markiert](assets/testerstellung_2_1_v2_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
-2\. Titel des Tests eintragen
+2\. Geben Sie im Dialog "Test erstellen" den Titel des Tests ein und klicken Sie auf "Erstellen".
 
-![Titel der Lernressource E-Learning Grundlagen eingetragen, darunter der Button Erstellen](assets/testerstellung_2_2_v1_de.png){ class="shadow lightbox" title="Dialog zum Erstellen eines Tests" }
+![Dialog Test erstellen mit dem Titel E-Learning Grundlagen im Feld Titel, Button Erstellen markiert](assets/testerstellung_2_2_v2_de.png){ class="shadow lightbox" title="Dialog Test erstellen · 2026.11.10" }
 
-3\. Es erscheint ein Menü. Hier legen Sie in den unterschiedlichen Tabs bei Bedarf weitere Einstellungen fest.
+3\. OpenOlat öffnet danach die Einstellungen der Test-Lernressource. Legen Sie in den Tabs bei Bedarf weitere Einstellungen fest.
 
-Das Menü entspricht den Einstellungen im Bereich Administration und kann auch später noch bearbeitet werden.
+Dieselben Einstellungen passen Sie auch später unter `Test-Lernressource > Administration > Einstellungen` an.
 
-![Tabs Info, Metadaten, Freigabe, Katalog und Optionen](assets/testerstellung_2_3_v1_de.png){ class="shadow lightbox" title="Einstellungen der Test-Lernressource" }
+![Einstellungen der Test-Lernressource mit den Tabs Metadaten, Info, Freigabe und Optionen](assets/testerstellung_2_3_v2_de.png){ class="shadow lightbox" title="Einstellungen der Test-Lernressource · 2026.11.10" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Test-Lernressource erstellen](<https://www.youtube.com/embed/WUs-upCf2tQ>){:target="_blank"}
 
@@ -208,33 +210,33 @@ Das Menü entspricht den Einstellungen im Bereich Administration und kann auch s
 
 <br>
 
-4\. Wählen Sie in der "Administration" der Lernressource Test den Eintrag "Testeditor". Sie gelangen in den Testeditor.
+4\. Öffnen Sie den Testeditor über `Test-Lernressource > Administration > Testeditor`.
 
 ![Eintrag Testeditor im Menü Administration markiert](assets/testerstellung_1_11_v2_de.png){ class="shadow lightbox" title="Menü Administration einer Test-Lernressource · 2026.09.28" }
 
-5\. "Elemente hinzufügen" wählen und den passenden Fragetyp auswählen, z.B. Multiple Choice.
+5\. Klicken Sie auf "Elemente hinzufügen" und wählen Sie den passenden Fragetyp, zum Beispiel "Multiple Choice".
 
-6\. Im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten eingeben. Weitere Antwortmöglichkeiten werden über das Pluszeichen ergänzt.
+6\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antworten ergänzen Sie über das Pluszeichen.
 
-7\. Im Tab "Punkte" die Art und die Summe der Punkte definieren.
+7\. Im Tab "Punkte" legen Sie die Bewertungsmethode und die Punktzahl fest.
 
-8\. Bei Bedarf ein Feedback zur Frage definieren und sich die Frage über die Vorschau anschauen.
+8\. Im Tab "Feedback" hinterlegen Sie bei Bedarf Rückmeldungen zur Frage. Im Tab "Vorschau" prüfen Sie die Frage.
 
-Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) weiter strukturieren.
+Weitere Fragen fügen Sie nach demselben Prinzip hinzu, die Einstellungen unterscheiden sich je nach Fragetyp. Mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) gliedern Sie den Test weiter.
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Fragen erstellen](<https://www.youtube.com/embed/2ZrINPQ6tYw>){:target="_blank"}
 
 !!! info "Wichtig"
 
-    Standardmässig ist bereits eine Single Choice Frage angelegt, die Sie nutzen und bearbeiten oder löschen sollten.
+    Eine neue Test-Lernressource enthält bereits eine Single-Choice-Frage. Bearbeiten oder löschen Sie diese Frage, damit sie nicht ungewollt im Test bleibt.
 
 !!! warning "Achtung"
 
-    Überlegen Sie sich unbedingt im Vorfeld, welcher Fragetyp für Ihre Zwecke am besten geeignet ist, da der Fragetyp im Nachhinein nicht mehr geändert werden kann.
+    Überlegen Sie sich vor dem Erstellen, welcher Fragetyp Ihren Zweck am besten erfüllt. Den Fragetyp einer erstellten Frage können Sie nachträglich nicht mehr ändern.
 
 !!! tip "Tipp"
 
-    Das Kopieren von Fragen empfiehlt sich dann, wenn Sie mehrere Fragen mit denselben Antwortmöglichkeiten haben, z.B. mehrere Fragen mit einem Wert aus einer Skala von 1-5.
+    Brauchen Sie mehrere Fragen mit denselben Antworten, etwa einer Skala von 1 bis 5, kopieren Sie eine fertige Frage: Im Testeditor wählen Sie dazu im Menü mit den drei Punkten "Duplizieren". Danach passen Sie nur noch die Fragestellung an.
 
 <br>
 
@@ -242,25 +244,25 @@ Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Det
 
 <br>
 
-9\. Wählen Sie das oberste Element der Test-Lernressource und bearbeiten Sie die zugehörigen Tabs nach Bedarf.
+9\. Klicken Sie im Testeditor links auf das oberste Element, den Titel des Tests. Rechts erscheinen die Tabs mit den Einstellungen für den ganzen Test.
 
-![Maximal 50 Punkte, Ausgabe von Bestanden automatisch durch Punkteschwelle und eine Zeitbeschränkung von 30 Minuten](assets/testerstellung_2_9_v1_de.png){ class="shadow lightbox" title="Tab Test Konfiguration im Testeditor" }
+![Oberstes Element des Testeditors gewählt, im Tab Test Konfiguration maximal 5 Punkte, Bestanden automatisch ab einer Punkteschwelle von 3 und eine Zeitbeschränkung von 30 Minuten](assets/testerstellung_2_9_v2_de.png){ class="shadow lightbox" title="Tab Test Konfiguration im Testeditor · 2026.11.10" }
 
-10\. **Test Konfiguration:** Definieren Sie ab wieviel Punkten der Test bestanden ist und ob bzw. welche Zeitbeschränkung es gibt.
+10\. **Test Konfiguration:** Legen Sie fest, ab wie vielen Punkten der Test bestanden ist und ob eine Zeitbeschränkung gilt.
 
-Definieren Sie, falls gewünscht, ein generelles Feedback für den Fall, dass der Test bestanden oder nicht bestanden ist (gilt für automatisches Bestehen).
+Im Tab "Feedback" hinterlegen Sie bei Bedarf eine allgemeine Rückmeldung für bestandene und für nicht bestandene Tests. Sie gilt, wenn OpenOlat das Bestehen automatisch über die Punkteschwelle ausgibt.
 
-11\. **Expert:** Weitere Details des Testablaufs konfigurieren, z.B. Art der Navigation oder die Anzeige von Lösungen.
+11\. **Expert:** Legen Sie weitere Details des Testablaufs fest, zum Beispiel die Navigation oder die Anzeige von Lösungen.
 
-12\. Schliessen Sie abschliessend den Testeditor, indem Sie in der Krümelnavigation auf den Titel des Tests klicken.
+12\. Zum Schluss verlassen Sie den Testeditor mit einem Klick auf den Titel des Tests in der Krümelnavigation.
 
-![Titel des Tests in der Krümelnavigation angeklickt](assets/testerstellung_2_12_v1_de.png){ class="shadow lightbox" title="Krümelnavigation im Testeditor" }
+![Titel des Tests in der Krümelnavigation des Testeditors markiert](assets/testerstellung_2_12_v2_de.png){ class="shadow lightbox" title="Krümelnavigation im Testeditor · 2026.11.10" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank"}
 
 !!! tip "Tipp"
 
-    Sie können sowohl ein Feedback für einzelne Fragen als auch für den gesamten Test erstellen.
+    Feedback hinterlegen Sie für einzelne Fragen im Tab "Feedback" der Frage und für den ganzen Test im Tab "Feedback" des obersten Elements.
 
 <br>
 
@@ -268,9 +270,9 @@ Definieren Sie, falls gewünscht, ein generelles Feedback für den Fall, dass de
 
 <br>
 
-13\. Gehen Sie in den Autorenbereich. Im Bereich "Meine Einträge" finden Sie Ihre Kurse. Öffnen Sie den Kurs in dem der Test eingebunden werden soll.
+13\. Öffnen Sie im Autorenbereich den Kurs, in den der Test gehört. Ihre Kurse finden Sie in den Tabs "Meine Kurse" und "Meine Einträge".
 
-14\. Öffnen Sie über die "Administration" den "Kurseditor". Wählen Sie "Kursbausteine einfügen" und klicken Sie auf den gewünschten Kursbaustein-Typ "Test" oder "Selbsttest".
+14\. Öffnen Sie den Kurseditor über `Kurs > Administration > Kurseditor`. Klicken Sie auf "Kursbausteine einfügen" und wählen Sie den Typ "Test" oder "Selbsttest".
 
 <br>
 
@@ -278,26 +280,26 @@ Definieren Sie, falls gewünscht, ein generelles Feedback für den Fall, dass de
 
 <br>
 
-15\. Gehen Sie in den Tab "Test-Konfiguration" und klicken Sie den Button "Datei wählen, erstellen oder importieren"<br>
-Es erscheint eine Liste mit Ihren Test-Lernressourcen. Wählen Sie den vorbereiteten Test aus, indem Sie auf den Auswahlhaken klicken.
+15\. Öffnen Sie im neuen Kursbaustein den Tab "Test-Konfiguration" und klicken Sie auf "Auswählen".<br>
+Im Dialog "Test-Lernressource auswählen" wählen Sie den vorbereiteten Test.
 
-![Gewählte Datei noch leer, darunter der Button Datei wählen, erstellen oder importieren](assets/testerstellung_2_15_v1_de.png){ class="shadow lightbox" title="Tab Test-Konfiguration im Kursbaustein Test" }
+![Neuer Kursbaustein Test im Kurseditor, Tab Test-Konfiguration noch ohne Test-Lernressource, Button Auswählen markiert](assets/testerstellung_2_15_v2_de.png){ class="shadow lightbox" title="Tab Test-Konfiguration im Kursbaustein Test · 2026.11.10" }
 
-16\. Bei Bedarf können Sie sich im Tab "Test-Konfiguration" unter "Gewählte Datei" den eingebundenen Test in der Vorschau anzeigen lassen und auch noch editieren, solange er nicht von Teilnehmenden bearbeitet wurde.
+16\. Der Tab "Test-Konfiguration" zeigt nun den eingebundenen Test. Mit "Vorschau" sehen Sie ihn an, mit "Lernressource bearbeiten" öffnen Sie ihn zum Bearbeiten. Sobald Teilnehmende den Test gestartet haben, ist die Bearbeitung begrenzt.
 
-![Eingebundener Test unter Gewählte Datei mit den Buttons Datei auswechseln, Editieren und Vorschau anzeigen](assets/testerstellung_2_16_v1_de.png){ class="shadow lightbox" title="Tab Test-Konfiguration mit gewähltem Test" }
+![Eingebundene Test-Lernressource im Tab Test-Konfiguration, markiert die Buttons Vorschau und Ersetzen und der Link Lernressource bearbeiten, mit denen Sie den Test ansehen, austauschen oder bearbeiten](assets/testerstellung_1_9_v2_de.png){ class="shadow lightbox" title="Tab Test-Konfiguration mit eingebundenem Test · 2026.11.10" }
 
-17\. Bei Bedarf können noch die weiteren Tabs des Kursbausteins konfiguriert werden. Sie können teilweise die Einstellungen der Test-Lernressource mit den Einstellungen des Kursbausteins übersteuern. Das lohnt sich, wenn Sie dieselbe Test-Lernressource in verschiedenen Kursen verwenden.
+17\. Konfigurieren Sie bei Bedarf die weiteren Tabs des Kursbausteins. Einen Teil der Einstellungen der Test-Lernressource übersteuern Sie hier für diesen Kurs. Das lohnt sich, wenn Sie dieselbe Test-Lernressource in verschiedenen Kursen verwenden.
 
-18\. Damit der Test von den Lernenden bearbeitet werden kann, muss der Kurs noch publiziert werden. Dafür einfach den Kurseditor z.B. durch Klick auf den Namen des Kurses in der Krümelnavigation schliessen und im erscheinenden Dialog "Manuell publizieren" oder "Automatisch publizieren" wählen.
+18\. Damit Teilnehmende den Test bearbeiten können, publizieren Sie den Kurs. Schliessen Sie dazu den Kurseditor, zum Beispiel mit einem Klick auf den Namen des Kurses in der Krümelnavigation, und wählen Sie im folgenden Dialog "Manuell publizieren" oder "Automatisch publizieren".
 
-Alternativ kann auch der "Publizieren"-Button im Editor rechts in der Toolleiste oder das kleine rote Kreuz rechts oben verwendet werden.
+Alternativ klicken Sie im Kurseditor rechts in der Toolbar auf "Publizieren" oder schliessen den Kurseditor über das kleine rote Kreuz rechts oben.
 
-19\. Damit die Lernenden den Test bearbeiten können, muss der Status des Kurses noch auf "Veröffentlicht" umgestellt werden.<br>
-Welche Lernenden Zugriff erhalten, bestimmen Sie in der Mitgliederverwaltung des Kurses.
+19\. Setzen Sie danach den Status des Kurses auf "Veröffentlicht", damit Teilnehmende den Test bearbeiten können.<br>
+Wer Zugang erhält, bestimmen Sie unter `Kurs > Administration > Mitgliederverwaltung`.
 
-20\. Sobald Testergebnisse vorhanden sind, bewerten Betreuende die Teilnehmenden im Bewertungswerkzeug. (Gilt nicht bei Selbsttests.)<br>
-Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/learningresources/Assessing_tests.de.md)".
+20\. Sobald Testergebnisse vorliegen, bewerten Betreuer:innen die Teilnehmenden im Bewertungswerkzeug. Beim Selbsttest entfällt dieser Schritt.<br>
+Wie das geht, beschreibt die Seite [Tests bewerten](../../manual_user/learningresources/Assessing_tests.de.md).
 
 <br>
 
@@ -305,8 +307,8 @@ Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/lea
 
 ## Vorgehen Möglichkeit 3
 
-Besteht Arbeitsteilung und Sie sollen als Fachexpert:in die Fragen erstellen, die verschiedene Kolleg:innen in ihren Tests verwenden können?<br>
-Dann können Sie auch mit dem Erstellen der einzelnen Fragen im Fragenpool beginnen.
+Teilen Sie sich die Arbeit mit Kolleg:innen und erstellen Sie als Fachexpert:in Fragen, die in mehreren Tests zum Einsatz kommen?<br>
+Dann beginnen Sie im Fragenpool: Die Fragen dort stehen für jeden Test bereit, in den Sie sie übernehmen.
 
 <br>
 
@@ -318,34 +320,34 @@ Dann können Sie auch mit dem Erstellen der einzelnen Fragen im Fragenpool begin
 
 <br>
 
-1\. Mit der Rolle Autor:in zeigt die Hauptnavigation ausser dem Autorenbereich auch den Fragenpool. Gehen Sie in den Fragenpool.
+1\. Öffnen Sie den Fragenpool in der Hauptnavigation. Mit der Rolle Autor:in steht er dort neben dem Autorenbereich.
 
 ![Fragenpool markiert und geöffnet, links das Menü Mein Fragenpool](assets/testerstellung_3_1_v1_de.png){ class="lightbox" title="Fragenpool in der Hauptnavigation" }
 
-2\. Wählen Sie "Frage erstellen" und den passenden Fragetyp, z.B. Multiple Choice.
+2\. Wählen Sie unter "Mein Fragenpool" den Eintrag "Meine Fragen" und klicken Sie auf "Frage erstellen". Geben Sie einen Titel ein und wählen Sie unter "Fragetyp" den passenden Typ, zum Beispiel "Multiple Choice".
 
 ![Button Frage erstellen markiert, über der Liste Meine Fragen](assets/testerstellung_3_2_v1_de.png){ class="lightbox" title="Fragenpool" }
 
-3\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antwortmöglichkeiten werden über das Pluszeichen ergänzt.
+3\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antworten ergänzen Sie über das Pluszeichen.
 
 ![Tab Auswahl einer neuen Multiple-Choice-Frage im Fragenpool mit den Feldern Titel, Frage und vier Antworten, davon drei als korrekt angehakt](assets/testerstellung_3_3_v2_de.png){ class="lightbox" title="Frage im Fragenpool · 2026.09.28" }
 
-4\. Im Tab "Punkte" definieren Sie die Art und die Summe der Punkte.
+4\. Im Tab "Punkte" legen Sie die Bewertungsmethode und die Punktzahl fest.
 
-5\. Bei Bedarf definieren Sie ein Feedback zur Frage. Über "Vorschau" können Sie sich die Frage ansehen.
+5\. Im Tab "Feedback" hinterlegen Sie bei Bedarf Rückmeldungen zur Frage. Im Tab "Vorschau" prüfen Sie die Frage.
 
-Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) weiter strukturieren.
+Weitere Fragen erstellen Sie nach demselben Prinzip, die Einstellungen unterscheiden sich je nach Fragetyp.
 
 
 !!! warning "Achtung"
 
-    Überlegen Sie sich unbedingt im Vorfeld, welcher Fragetyp für Ihre Zwecke am besten geeignet ist, da der Fragetyp im Nachhinein nicht mehr geändert werden kann.
+    Überlegen Sie sich vor dem Erstellen, welcher Fragetyp Ihren Zweck am besten erfüllt. Den Fragetyp einer erstellten Frage können Sie nachträglich nicht mehr ändern.
 
 !!! tip "Tipp"
 
-    Das Kopieren von Fragen empfiehlt sich dann, wenn Sie mehrere Fragen mit denselben Antwortmöglichkeiten haben, z.B. mehrere Fragen mit einem Wert aus einer Skala von 1-5.
+    Brauchen Sie mehrere Fragen mit denselben Antworten, etwa einer Skala von 1 bis 5, kopieren Sie eine fertige Frage und passen Sie nur noch die Fragestellung an.
 
-Pflegen Sie zu jeder Frage im Fragenpool die Metadaten, etwa Fachbereich, Stufe und Schlagworte. Mit ihnen finden Sie die Fragen später über die Suchfilter wieder, und der Kursbaustein "Übung" wählt sie automatisch aus. Wie das geht, zeigt die Anleitung [Nutzen von Metadaten](../question_metadata/question_metadata.de.md).
+Damit Sie die Fragen später über die Suchfilter wiederfinden und der Kursbaustein "Übung" sie automatisch auswählt, pflegen Sie zu jeder Frage im Fragenpool die Metadaten, etwa Fachbereich, Stufe und Schlagworte. Wie das geht, zeigt die Anleitung [Nutzen von Metadaten](../question_metadata/question_metadata.de.md).
 
 <br>
 
@@ -353,20 +355,20 @@ Pflegen Sie zu jeder Frage im Fragenpool die Metadaten, etwa Fachbereich, Stufe 
 
 <br>
 
-6\. Wechseln Sie in den Autorenbereich und erstellen Sie einen Test (Test-Lernressource).
+6\. Erstellen Sie eine Test-Lernressource über `Autorenbereich > Erstellen > Test`.
 
 ![Eintrag Test im Menü Erstellen markiert](assets/testerstellung_3_6_v1_de.png){ class="lightbox" title="Autorenbereich" }
 
 !!! note "Hinweis"
 
-    Die neue Test-Lernressource wird im Autorenbereich nicht unter dem Tab "Meine Kurse" aufgelistet, sondern unter "Meine Einträge". Erkennbar am Symbol für Test-Lernressourcen.
+    Die neue Test-Lernressource finden Sie im Autorenbereich im Tab "Meine Einträge", denn der Tab "Meine Kurse" listet nur Kurse. In der Spalte "Typ" erkennen Sie sie am Symbol für Test-Lernressourcen.
     ![Tab Meine Einträge mit Filter Typ Test, Test-Symbol in der Spalte Typ markiert](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" title="Tab Meine Einträge im Autorenbereich" }
 
-7\. Öffnen Sie den Editor über `Administration > Testeditor`.
+7\. Öffnen Sie den Testeditor über `Test-Lernressource > Administration > Testeditor`.
 
 ![Eintrag Testeditor im Menü Administration markiert](assets/testerstellung_3_7_v2_de.png){ class="lightbox" title="Menü Administration einer Test-Lernressource · 2026.09.28" }
 
-8\. Im Testeditor (erkennbar an der schraffierten Kopfzeile) fügen Sie nun unter "Elemente hinzufügen" neue Fragen hinzu.
+8\. Den Testeditor erkennen Sie an der schraffierten Kopfzeile. Unter "Elemente hinzufügen" fügen Sie hier neue Fragen hinzu.
 
 ![Geöffnetes Menü Elemente hinzufügen mit den Fragetypen](assets/testerstellung_3_8_v1_de.png){ class="lightbox" title="Testeditor" }
 
@@ -376,15 +378,15 @@ Pflegen Sie zu jeder Frage im Fragenpool die Metadaten, etwa Fachbereich, Stufe 
 
 <br>
 
-9\. Statt neue Fragen zu erstellen, übernehmen Sie unter demselben Menüpunkt mit "Fragen aus Pool importieren" bereits vorhandene Fragen.
+9\. Ihre Fragen aus dem Fragenpool übernehmen Sie im selben Menü mit "Fragen aus Pool importieren". OpenOlat kopiert sie in den Test; dort sind sie zunächst schreibgeschützt. Wie Sie eine solche Frage bearbeiten, steht unter [Fragen aus dem Fragenpool verwenden](../../manual_user/learningresources/Test_editor_QTI_2.1/index.de.md#questions_from_pool).
 
 ![Eintrag Fragen aus Pool importieren im Menü Elemente hinzufügen markiert](assets/testerstellung_3_9_v1_de.png){ class="lightbox" title="Menü Elemente hinzufügen im Testeditor" }
 
-10\. Klicken Sie auf den Titel einer einzelnen Frage, wird sie direkt eingefügt. Um mehrere Fragen zu importieren, markieren Sie die Fragen und bestätigen mit Klick auf den Button "Auswählen".
+10\. Der Dialog "Fragen auswählen" zeigt Ihre Fragen unter "Meine Favoriten" und "Meine Fragen", je nach Konfiguration auch unter "Meine Listen" und "Meine Shares". Ein Klick auf den Titel einer Frage fügt sie direkt ein. Für mehrere Fragen setzen Sie die Häkchen und klicken auf "Auswählen".
 
 ![Ausgewählte Frage und Button Auswählen markiert](assets/testerstellung_3_10_v1_de.png){ class="lightbox" title="Dialog Fragen auswählen" }
 
-11\. Sind alle Fragen in der Test-Lernressource erfasst, verlassen Sie den Editor der Lernressource.
+11\. Mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) gliedern Sie die Fragen im Test bei Bedarf weiter. Sind alle Fragen in der Test-Lernressource, verlassen Sie den Testeditor.
 
 <br>
 
@@ -392,26 +394,26 @@ Pflegen Sie zu jeder Frage im Fragenpool die Metadaten, etwa Fachbereich, Stufe 
 
 <br>
 
-12\. Gehen Sie in den Autorenbereich. Im Bereich "Meine Einträge" finden Sie Ihre Kurse. Öffnen Sie den Kurs in dem die Test-Lernressource eingebunden werden soll.
+12\. Öffnen Sie im Autorenbereich den Kurs, in den die Test-Lernressource gehört. Ihre Kurse finden Sie in den Tabs "Meine Kurse" und "Meine Einträge".
 
-13\. Öffnen Sie über die "Administration" den "Kurseditor". Wählen Sie "Kursbausteine einfügen" und klicken Sie auf den gewünschten Kursbaustein-Typ "Test" oder "Selbsttest".
+13\. Öffnen Sie den Kurseditor über `Kurs > Administration > Kurseditor`. Klicken Sie auf "Kursbausteine einfügen" und wählen Sie den Typ "Test" oder "Selbsttest".
 
-14\. Gehen Sie in den Tab "Test-Konfiguration" und klicken Sie den Button "Datei wählen, erstellen oder importieren".<br>
-Es erscheint eine Liste mit Ihren Test-Lernressourcen. Wählen Sie den vorbereiteten Test aus, indem Sie auf den Auswahlhaken klicken.
+14\. Öffnen Sie im neuen Kursbaustein den Tab "Test-Konfiguration" und klicken Sie auf "Auswählen".<br>
+Im Dialog "Test-Lernressource auswählen" wählen Sie den vorbereiteten Test.
 
-15\. Bei Bedarf können Sie sich im Tab "Test-Konfiguration" unter "Gewählte Datei" den eingebundenen Test in der Vorschau anzeigen lassen und auch noch editieren, solange er nicht von Teilnehmenden bearbeitet wurde.
+15\. Der Tab "Test-Konfiguration" zeigt nun den eingebundenen Test. Mit "Vorschau" sehen Sie ihn an, mit "Lernressource bearbeiten" öffnen Sie ihn zum Bearbeiten. Sobald Teilnehmende den Test gestartet haben, ist die Bearbeitung begrenzt.
 
-16\. Je nach Bedarf können noch die weiteren Tabs des Kursbausteins konfiguriert werden. Sie können teilweise die Einstellungen der Test-Lernressource mit den Einstellungen des Kursbausteins übersteuern. Das lohnt sich, wenn Sie dieselbe Test-Lernressource in verschiedenen Kursen verwenden.
+16\. Konfigurieren Sie bei Bedarf die weiteren Tabs des Kursbausteins. Einen Teil der Einstellungen der Test-Lernressource übersteuern Sie hier für diesen Kurs. Das lohnt sich, wenn Sie dieselbe Test-Lernressource in verschiedenen Kursen verwenden.
 
-17\. Damit der Test von den Lernenden bearbeitet werden kann, muss der Kurs noch publiziert werden. Dafür einfach den Kurseditor z.B. durch Klick auf den Namen des Kurses in der Krümelnavigation schliessen und im erscheinenden Dialog "Manuell publizieren" oder "Automatisch publizieren" wählen.
+17\. Damit Teilnehmende den Test bearbeiten können, publizieren Sie den Kurs. Schliessen Sie dazu den Kurseditor, zum Beispiel mit einem Klick auf den Namen des Kurses in der Krümelnavigation, und wählen Sie im folgenden Dialog "Manuell publizieren" oder "Automatisch publizieren".
 
-Alternativ kann auch der "Publizieren"-Button im Editor rechts in der Toolleiste oder das kleine rote Kreuz rechts oben verwendet werden.
+Alternativ klicken Sie im Kurseditor rechts in der Toolbar auf "Publizieren" oder schliessen den Kurseditor über das kleine rote Kreuz rechts oben.
 
-18\. Damit die Lernenden den Test bearbeiten können, muss der Status des Kurses noch auf "Veröffentlicht" umgestellt werden.<br>
-Welche Lernenden Zugriff erhalten, bestimmen Sie in der Mitgliederverwaltung des Kurses.
+18\. Setzen Sie danach den Status des Kurses auf "Veröffentlicht", damit Teilnehmende den Test bearbeiten können.<br>
+Wer Zugang erhält, bestimmen Sie unter `Kurs > Administration > Mitgliederverwaltung`.
 
-19\. Sobald Testergebnisse vorhanden sind, bewerten Betreuende die Teilnehmenden im Bewertungswerkzeug. (Gilt nicht bei Selbsttests.)<br>
-Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/learningresources/Assessing_tests.de.md)".
+19\. Sobald Testergebnisse vorliegen, bewerten Betreuer:innen die Teilnehmenden im Bewertungswerkzeug. Beim Selbsttest entfällt dieser Schritt.<br>
+Wie das geht, beschreibt die Seite [Tests bewerten](../../manual_user/learningresources/Assessing_tests.de.md).
 
 
 <br>
@@ -420,19 +422,23 @@ Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/lea
 
 ## Checkliste {: #checklist}
 
+Bevor Teilnehmende den Test bearbeiten, prüfen Sie diese Punkte:
+
 - [x] Kurs vorhanden?
 
 - [x] Kursbaustein "Test" oder "Selbsttest" vorhanden?
 
 - [x] Lernressource "Test" erstellt?
 
-- [x] im Fragenpool vorhandene Fragen in Lernressource übernommen?
+- [x] Vorhandene Fragen aus dem Fragenpool in die Lernressource übernommen?
 
-- [x] zusätzliche Fragen innerhalb der Lernressource erstellt?
+- [x] Zusätzliche Fragen in der Lernressource erstellt?
 
 - [x] Test-Lernressource konfiguriert?
 
 - [x] Test-Kursbaustein konfiguriert?
+
+- [x] Kurs publiziert und Status "Veröffentlicht" gesetzt?
 
 ---
 
@@ -442,10 +448,10 @@ Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/lea
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Test konfigurieren >](../../manual_user/learningresources/Configure_tests.de.md)<br>
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
-[Nutzen von Metadaten >](../question_metadata/question_metadata.de.md)
+[Nutzen von Metadaten >](../question_metadata/question_metadata.de.md)<br>
+[Testeditor >](../../manual_user/learningresources/Test_editor_QTI_2.1/index.de.md)
 
 **Weiterführend**<br>
-[Testeditor >](../../manual_user/learningresources/Test_editor_QTI_2.1/index.de.md)<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 [Fragenpool: Übersicht >](../../manual_user/area_modules/Question_Bank/index.de.md)<br>
 [Wie wechsle ich einen Test aus? >](../exchange_tests/exchange_tests.de.md)

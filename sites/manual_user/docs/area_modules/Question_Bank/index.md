@@ -40,7 +40,7 @@ Items that you mark as favorites under "My questions" appear a second time under
 
 Questions can also be [created with the help of AI](../Question_Bank_Create_Questions.md#create_with_AI), as multiple-choice questions and as essay questions with AI correction.
 
-Individual questions, entire sections or tests can also be exported directly from the [test editor](../../learningresources/Test_editor_QTI_2.1/index.md) to the question bank. To do this, select in the toolbar of the test editor: `Export > Export to pool`. Depending on which level you are on in the menu tree on the left, OpenOlat exports individual questions, individual sections or the entire test to the question bank.
+Individual questions, entire sections or tests can also be exported directly from the [test editor](../../learningresources/Test_editor_QTI_2.1/index.md) to the question bank. To do this, click the icon with the 3 dots in the upper right corner of the test editor and select "Export to pool". Depending on which level you are on in the menu tree on the left, OpenOlat exports individual questions, individual sections or the entire test to the question bank. OpenOlat creates new questions with their own ID in the question bank, see [Export to pool](../../learningresources/Test_export.md#export_to_pool).
 
 If the [review process](../Question_Bank_Review_Process.md) is activated (authors review each other's questions), "My question bank" also shows your subjects. Depending on authorization, the menu also shows the areas "Review" and "Final".
 

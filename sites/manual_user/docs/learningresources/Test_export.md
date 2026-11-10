@@ -1,16 +1,16 @@
 # Export tests {: #test_export}
 
-When exporting tests, a distinction must be made between
+Whoever wants to back up, pass on, have reviewed or evaluate a test exports it from OpenOlat. What you export depends on what you need:
 
-- export test **course** (Exam course)
-- export test **learning resource**
-- export single **questions**
-- export test **results**
+- **Course**: the entire course with its tests, for example an exam course, see [Export course](#export_course).
+- **Test learning resource**: the test with all questions and its configuration, as a zip file, as a Word document or as exam sheets on paper, see [Export test learning resource](#export_learning_resource).
+- **Questions**: single questions to the question bank or as a file for another system, see [Export single questions](#export_questions).
+- **Results**: the test statistics and the results of the participants, see [Export test results](#export_results).
 
 
 ## Export course {: #export_course}
 
-An entire course, e.g., an exam course, can be exported as a zip file in the course administration under:<br>`Course > Administration > Export content`
+Whoever wants to back up an entire course, for example an exam course, or import it into another OpenOlat exports it as a zip file. You start the export under:<br>`Course > Administration > Export content`
 
 Owners of the course always find the menu item. Other authors only see it if the owners have allowed exporting in the tab "Share", see [Access configuration](Access_configuration.md).
 
@@ -23,9 +23,7 @@ Owners of the course always find the menu item. Other authors only see it if the
 
 ## Export test learning resource {: #export_learning_resource}
 
-Test learning resources contain entire sets of questions and can be integrated into test course elements as question packs, including configuration (total number of points, etc.).
-
-A test learning resource can also be exported in the administration of the learning resource under:<br>`Test > Administration > Export content`
+A test learning resource contains all questions of a test including its configuration, for example the total number of points, and can be integrated into "Test" course elements. Whoever wants to back up the test without a course or import it into another OpenOlat exports the test learning resource as a zip file. You start the export in the administration of the test learning resource under:<br>`Test > Administration > Export content`
 
 Here too, owners always find the menu item, other authors only if exporting is allowed in the tab "Share".
 
@@ -43,7 +41,7 @@ Here too, owners always find the menu item, other authors only if exporting is a
 
 ### Export to Word {: #word}
 
-Test learning resources can be exported as Word documents. Such files are often created for review purposes before a test is conducted, so that additions and corrections can be easily noted in them. The menu item is available to owners of the test learning resource. OpenOlat downloads a zip file with two Word documents: the test and a second version with the solutions.
+Whoever wants to have a test reviewed before it is conducted exports it as a Word document. Additions and corrections can be easily noted in it. With `Test > Administration > Export to Word` OpenOlat downloads a zip file with two Word documents: the test and a second version with the solutions. The menu item is available to owners of the test learning resource, learning resource managers and administrators.
 
 ![Menu item Export to Word marked in the open Administration menu, which downloads the test as Word documents](assets/test_export_resource_word_v2_en.png){ class="shadow lightbox" title="Administration menu of a test learning resource · 2026.10.01" }
 
@@ -54,7 +52,7 @@ Test learning resources can be exported as Word documents. Such files are often 
 
 ### Export handwritten exams [:octicons-tag-16:{ title="from Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648)
 
-Whoever conducts a test on paper receives print-ready exam sheets via `Test > Administration > Export handwritten exams`: a zip file with one PDF file per exam and the matching solution sheet. The menu item is available to owners of the test learning resource if the [PDF Service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is enabled in the system administration.
+Whoever conducts a test on paper receives print-ready exam sheets via `Test > Administration > Export handwritten exams`: a zip file with one PDF file per exam and the matching solution sheet. The menu item is available to owners of the test learning resource, learning resource managers and administrators if the [PDF Service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is enabled in the system administration.
 
 ![Menu item Export handwritten exams marked in the open Administration menu, which starts the wizard for the exam sheets](assets/test_export_resource_test_manually1_v2_en.png){ class="shadow lightbox" title="Administration menu of a test learning resource · 2026.10.01" }
 
@@ -72,11 +70,11 @@ In the step "Cover fields" you adjust "Title" and "Procedure" and write a note f
 
 ![Title and procedure of the cover sheet as text fields, below them the text editor for the notes on the exam](assets/test_export_resource_test_manually4_v2_en.png){ class="shadow lightbox" title="Step Cover fields in the dialog Export handwritten exams · 2026.10.01" }
 
-The steps "Cover attributes" and "Cover fields" only appear with "First sheet", the step "Additional sheet" only with "Additional sheet".
+The steps "Cover attributes" and "Cover fields" appear when "First sheet" is selected, the step "Additional sheet" when "Additional sheet" is selected.
 
 The step "Summary" shows the number of tests and solution sheets and the file format. With "Preview" and "Preview with solutions" you open a sample as a PDF file. After "Finish" the download of the zip file starts; depending on the number, it can take several minutes or hours. The zip file contains one PDF file per exam named after the serial number in the folder "tests" and the matching solution sheet in the folder "solutions".
 
-**Cover sheet example:**
+This is what a generated cover sheet with all details looks like:
 
 ![Cover sheet with serial number and procedure at the top, below them empty fields for first name, last name, candidate number and exam date, the test parameters and the notes on the exam](assets/test_export_resource_test_manually6_v2_en.png){ class="shadow lightbox" title="Generated cover sheet of a handwritten exam · 2026.10.01" }
 
@@ -86,19 +84,21 @@ The step "Summary" shows the number of tests and solution sheets and the file fo
 ---
 
 
-## Export single questions
+## Export single questions {: #export_questions}
 
-Questions created in OpenOlat comply with the QTI standard. This means they can also be transferred to other LMS that use questions in the QTI standard. Conversely, OpenOlat can also import questions in QTI format. 
+Whoever wants to use a question in further tests or exchange it with another system exports it individually. Questions in OpenOlat comply with the QTI standard (Question and Test Interoperability). This means they can also be transferred to other LMS (learning management systems) that use this standard. Conversely, OpenOlat imports questions in QTI format.
 
-### Export to pool
+### Export to pool {: #export_to_pool}
 
-If you have opened the test editor of a test learning resource, select the desired question and click on the icon with the 3 dots in the upper right corner. With "Export to pool" you transfer the question to the question bank.
+If a question from a test should also be available in the question bank, transfer it there from the test editor. In the test editor of the test learning resource, select the desired question and click on the icon with the 3 dots in the upper right corner. With "Export to pool" you transfer the question to the question bank. The entry appears if the question bank is enabled in your OpenOlat.
+
+OpenOlat creates a new question with its own ID in the question bank. The question in the test and the question in the question bank are then independent of each other. How questions get from the question bank into a test is described under [How do the questions get into a test?](Test/index.md#create_questions_in_tests)
 
 ![Menu with three dots at the top right of the question with the entry Export to pool marked](assets/test_export_question_to_pool_v2_en.png){ class="shadow lightbox" title="Question in the test editor · 2026.10.01" }
 
 !!! tip "Tip"
 
-    This way, you can also export an entire section with multiple questions to the question bank. Simply select the section on the left and then click on the 3 dots.
+    This way, you also export an entire section with all its questions to the question bank. To do so, select the section on the left and click on the 3 dots.
 
 
 [To the top of the page ^](#test_export)
@@ -108,7 +108,7 @@ If you have opened the test editor of a test learning resource, select the desir
 
 ### Export single questions from the pool
 
-If you have opened a single question in the question bank, you will find the entry "Export" under the icon "Share". It exports this individual question to a zip file. Since the questions in OpenOlat comply with the QTI standard, the zip file can be reimported into another OpenOlat or another LMS that also uses the QTI standard.
+Whoever wants to pass on a single question or use it in another system exports it from the question bank as a zip file. Open the question in the question bank and select the entry "Export" under the icon "Share". The zip file can be imported into another OpenOlat or into another LMS that uses the QTI standard.
 
 ![Share icon with the open entry Export marked, which exports the question as a zip file](assets/test_export_single_question_from_pool_v2_en.png){ class="shadow lightbox" title="Question in the question bank · 2026.10.01" }
 
@@ -119,11 +119,11 @@ If you have opened a single question in the question bank, you will find the ent
 
 ### Export multiple selected single questions from the pool
 
-If you have selected multiple questions in the question bank, these questions can be exported together in a Word file for offline exams, in a QTI 2.1 test file for exchange with other compatible LMS, or in a zip file for exchange with other OpenOlat systems or for archiving.
+Whoever wants to pass on, examine offline or archive several questions at once exports them together. Select the questions in the list of the question bank and click on "Export" above the list.
 
 ![Three selected questions in the format IMS QTI 2.1 and the Export button above the list marked](assets/test_export_several_questions_from_pool1_v2_en.png){ class="shadow lightbox" title="List All questions in the question bank · 2026.10.01" }
 
-In the dialog "Export" you choose the format in the step "Type". Word and QTI 2.1 can only be selected if at least one of the selected questions is in the format QTI 2.1; otherwise the list only offers the ZIP file. Which questions can be exported in the chosen format is shown in the step "Review" in the column "Can export".
+In the dialog "Export" you choose the format in the step "Type": a Word file for offline exams including the master sheet, a QTI 2.1 test file for exchange with other compatible LMS or a ZIP file for exchange with other OpenOlat systems or for archiving. Word and QTI 2.1 can only be selected if at least one of the selected questions is in the format QTI 2.1; otherwise the list only offers the ZIP file. Which questions can be exported in the chosen format is shown in the step "Review" in the column "Can export".
 
 ![Selection list Type with the three formats Word file for offline exams, QTI 2.1 test file for other LMS and ZIP file for other OpenOlat systems or archiving](assets/test_export_several_questions_from_pool2_v2_en.png){ class="shadow lightbox" title="Step Type in the dialog Export · 2026.10.01" }
 
@@ -134,16 +134,17 @@ In the dialog "Export" you choose the format in the step "Type". Word and QTI 2.
 
 ## Export test results {: #export_results}
 
+You receive the results of a test in two ways: The test statistics show the evaluation directly in OpenOlat, the export of the test results delivers the results of the participants as a file for evaluating, printing or archiving.
+
 ### Test Statistics
 
 Whoever wants to know how a test turned out sees the key figures of the whole test and of each individual question in the test statistics. For a single test, use the button "Test Statistics" in the course element "Test". The button is available to coaches and owners. You find it under:<br>`Course > Course element "Test" > Tab "Participants" > Button "Test Statistics"`
 
 You find the evaluation of all tests of the course under `Course > Administration > Test statistics`, see [Test statistics](Statistics_Test.md).
 
-![Test Statistics button above the list of participants marked](assets/test_export_statistics1_v1_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element · 2026.10.01" }
+![Finding the Test Statistics button: course element Test in the course menu, tab Participants and button Test Statistics marked](assets/test_export_statistics1_v1_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element · 2026.10.01" }
 
-* You can print out the various statistics on the test results (or "print" them to a PDF file) or download the raw data as an Excel file.
-* When you expand the sections of a test, you can view detailed statistics for each individual question. 
+With "Print" you print out the statistics or save them as a PDF file via the print dialog. With "Download raw data" you receive the raw data as an Excel file. If you expand the sections of the test on the left, you see the detailed statistics of each individual question.
 
 ![Buttons Print and Download raw data, on the left the expandable section, on the right the key figures of the test and the score distribution chart](assets/test_export_statistics2_v1_en.png){ class="shadow lightbox" title="Test Statistics in the Test course element · 2026.10.01" }
 
@@ -154,27 +155,25 @@ Whoever wants to evaluate, print or archive the results of a test receives a zip
 
 ![Finding the export of test results: course element Test in the course menu, tab Participants and button Export results marked](assets/test_export_results1_v2_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element · 2026.10.22" }
 
-If you have decided to create a zip file, you can specify a name for the zip file and choose one of the options offered for its contents.
+If you have selected individual participants in the list, the export only covers their results.
 
-Two variants of a zip file can be created:
+On the page "Export results", the row "Number of participants" shows how many persons the export covers. There you give the zip file a name and choose the variant for its contents under "Export":
 
-* The **standard export** contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
-* The **"Advanced – with PDF"** option creates the same zip file, but also adds PDF files with the detailed results for each participant. 
+* **"Standard"**: The zip file contains the detailed test results for each participant as an HTML document and an Excel file with the raw data.
+* **"Advanced – with PDF"**: The zip file contains the same and additionally a PDF file with the detailed results for each participant. This variant can be selected if the [PDF Service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is enabled in the system administration.
 
 OpenOlat suggests a name with variant and date, for example "Test results with PDF - all participants (10/1/2026)".
 
-![Variant "Advanced – with PDF" selected, below it the Additional option with both checkboxes, marked together with Name and the Start export button](assets/test_export_results2_v2_en.png){ class="shadow lightbox" title="Page Export results in the Test course element · 2026.10.01" }
+![Variant "Advanced – with PDF" selected, below it the Additional option with both checkboxes, marked together with Name and the Start export button, so you see everything you set before the export](assets/test_export_results2_v3_en.png){ class="shadow lightbox" title="Page Export results in the Test course element · 2026.11.10" }
 
-If the option **"Advanced – with PDF"** was selected, the section **"Additional option"** appears below:
+With the variant "Advanced – with PDF", the "Additional option" with one or two checkboxes appears below:
 
-* **"Separate PDF file for each essay question"** can only be selected if the test contains essay questions. If it is activated, the answer to each essay question is additionally placed in the zip file as a separate PDF file. [:octicons-tag-16:{ title="from Release 19.1.27 (OO-8964)" }](https://track.frentix.com/issue/OO-8964)
+* **"Separate PDF file for each essay question"** can be selected if the test contains essay questions. If it is activated, OpenOlat additionally places the answer to each essay question in the zip file as a separate PDF file. [:octicons-tag-16:{ title="from Release 19.1.27 (OO-8964)" }](https://track.frentix.com/issue/OO-8964)
 * **"All PDF files in one folder"** can be selected for every test. If it is activated, the PDF files with the detailed results of all participants are placed together in one folder of the zip file. How the files are named and where they are located is described under [PDF files in the zip file](#pdf_files).
 
-Click on the **"Start export" button** to generate the zip file containing the test results. OpenOlat notifies you by email as soon as the export is complete.
+With "Start export" OpenOlat generates the zip file containing the test results. As soon as the export is complete, OpenOlat notifies you by email.
 
-Created zip files are listed in the lower section under **"Export history"** and are only available there for a limited period of 10 days.
-
-Then open or unzip the created zip file to access the required files.
+The created zip files are listed below in the "Export history", each for 10 days. Unzip the zip file to access the individual files.
 
 #### PDF files in the zip file [:octicons-tag-16:{ title="from Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600) {: #pdf_files}
 
@@ -229,7 +228,7 @@ If the test does not belong to a course, for example in the test statistics of a
 
 !!! note "Note"
 
-    There is also an option in the course administration under `Course > Administration > Archiving & Reporting` to export or archive test results. For more information, see [Archiving test results](../learningresources/Course_Element_Test/Test_Results.md#archive).
+    You also export test results via the archiving of the course under `Course > Administration > Archiving & Reporting`, see [Archiving test results](../learningresources/Course_Element_Test/Test_Results.md#archive).
 
 
 [To the top of the page ^](#test_export)
@@ -242,6 +241,7 @@ If the test does not belong to a course, for example in the test statistics of a
 **Mentioned on this page**<br>
 [Access configuration >](Access_configuration.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[Creating Tests >](Test/index.md)<br>
 [Test statistics >](Statistics_Test.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
 [Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
@@ -250,7 +250,6 @@ If the test does not belong to a course, for example in the test statistics of a
 **Further**<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[Creating Tests >](Test/index.md)<br>
 [Test editor >](Test_editor_QTI_2.1/index.md)<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [Configure test questions >](Configure_test_questions.md)<br>

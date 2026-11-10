@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="380" viewBox="0 0 940 380" role="img" aria-labelledby="t d">
+  <title id="t">The import creates a copy, afterwards the questions are separate</title>
+  <desc id="d">On import, OpenOlat copies question A once from the question bank into the test. Afterwards there is no connection: if question A is edited in the question bank, the question in the test remains unchanged.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="940" height="380" fill="#FFFFFF"/>
+
+  <text x="470" y="36" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#342C24">The import creates a copy, afterwards the questions are separate</text>
+
+  <!-- Column headers -->
+  <text x="200" y="78" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#126365">Question bank</text>
+  <text x="740" y="78" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#126365">Test</text>
+
+  <!-- Row 1: On import -->
+  <rect x="30" y="92" width="880" height="110" rx="10" fill="rgba(18,99,101,0.12)"/>
+  <text x="48" y="114" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#2D2926">On import</text>
+
+  <rect x="90" y="122" width="220" height="64" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="200" y="150" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">Question A</text>
+  <text x="200" y="171" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Version 1</text>
+
+  <line x1="314" y1="154" x2="624" y2="154" stroke="#0F5456" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="470" y="144" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#0F5456">one-time copy</text>
+  <text x="470" y="174" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">"Import questions from pool" or "Create test"</text>
+
+  <rect x="630" y="122" width="220" height="64" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="740" y="150" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">Question A</text>
+  <text x="740" y="171" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Version 1</text>
+
+  <!-- Row 2: Afterwards -->
+  <rect x="30" y="218" width="880" height="140" rx="10" fill="rgba(18,99,101,0.12)"/>
+  <text x="48" y="240" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#2D2926">Afterwards</text>
+
+  <rect x="90" y="256" width="220" height="64" rx="8" fill="#F2AF40"/>
+  <text x="200" y="284" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">Question A</text>
+  <text x="200" y="305" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Version 2, edited</text>
+
+  <!-- Divider -->
+  <line x1="470" y1="244" x2="470" y2="334" stroke="#8F1F40" stroke-width="4" stroke-linecap="round"/>
+  <text x="390" y="284" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#8F1F40">no</text>
+  <text x="390" y="302" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#8F1F40">connection</text>
+  <text x="550" y="284" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">changes do</text>
+  <text x="550" y="302" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">not arrive</text>
+
+  <rect x="630" y="256" width="220" height="64" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="740" y="284" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">Question A</text>
+  <text x="740" y="305" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Version 1, unchanged</text>
+</svg>

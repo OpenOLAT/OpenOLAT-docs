@@ -1,32 +1,34 @@
 # Fragenpool: Fragen importieren {: #question_bank_import}
 
-Fragen, die schon als Datei, in einem Test oder in einer Tabelle vorliegen, müssen Sie im Fragenpool nicht neu erstellen: Sie importieren sie. Den Button "Import" zeigt der Fragenpool Autor:innen, Poolverwalter:innen und Administrator:innen, zum Beispiel über der Tabelle unter "Meine Fragen".
+Fragen, die schon als Datei, in einem Test oder in einer Tabelle vorliegen, importieren Sie in den Fragenpool, statt sie neu zu erstellen. Den Button "Import" zeigt der Fragenpool Autor:innen, Poolverwalter:innen und Administrator:innen, zum Beispiel über der Tabelle unter "Meine Fragen".
 
 
 ## Import-Möglichkeiten {: #import_options}
 
-Der Button "Import" bietet drei Wege, Fragen im Format QTI 2.1 in den Fragenpool zu holen.
+Je nachdem, wo Ihre Fragen vorliegen, wählen Sie im Menü des Buttons "Import" einen von drei Wegen. Jeder Weg übernimmt die Fragen im Format QTI 2.1 in den Fragenpool.
 
-![Geöffnetes Menü des Buttons Import mit drei Importwegen: ZIP-Datei, Lernressource aus dem Autorenbereich und Excelimport über Copy&Paste](assets/pool_import.png){ class="shadow lightbox" title="Menü des Buttons Import im Fragenpool" }
+![Gerahmtes Menü des Buttons Import mit den drei Importwegen ZIP-Datei, Test aus Autorenbereich und Excelimport, aus denen Sie den passenden Weg wählen](assets/question_bank_import_questions_menu_v1_de.png){ class="shadow lightbox" title="Menü des Buttons Import im Fragenpool · 2026.11.10" }
 
   *  **ZIP-Datei von lokalem Computer**:<br>
-  Liegt Ihnen ein Set an QTI 2.1-Fragen oder ein Test als ZIP-Datei vor, importieren Sie die Datei hier.
+  Liegen Ihnen Fragen oder ein Test im Format QTI 2.1 als ZIP-Datei vor, laden Sie die Datei hier hoch.
   *  **Test aus Autorenbereich**:<br>
-  Zur Wahl stehen die QTI 2.1-Tests, die Sie kopieren dürfen. Klicken Sie in der Zeile des gewünschten Tests auf seinen Titel. OpenOlat importiert alle Fragen dieses Tests in den Fragenpool.
+  Zur Wahl stehen die QTI 2.1-Tests, die Sie kopieren dürfen. Klicken Sie in der Zeile des gewünschten Tests auf seinen Titel. OpenOlat importiert alle Fragen dieses Tests in den Fragenpool und legt dabei für jede Frage eine neue Frage mit eigener ID an. Die Frage im Test und die Frage im Fragenpool sind danach unabhängig voneinander, siehe [Wie kommen die Fragen in einen Test?](../learningresources/Test/index.de.md#create_questions_in_tests)
   *  **QTI 2.1 Excelimport über Copy&Paste**:<br>
   Sie erfassen die Fragen in einem Tabellenkalkulationsprogramm wie Excel nach der Vorlage, die der Import bereitstellt, und fügen die Zeilen in das Eingabefeld ein. Der folgende Abschnitt beschreibt die Vorlage.
+
+Starten Sie den Import in einem Pool oder in einer Gruppe, stellt OpenOlat die importierten Fragen auch dort bereit. Dabei legen Sie fest, ob andere Personen die Fragen bearbeiten dürfen.
 
 [Zum Seitenanfang ^](#question_bank_import)
 
 
-## Nutzung der Datei "Vorlage Excelimport" {: #excelimport}
+## Nutzung der Datei "Vorlage Excelimport" [:octicons-tag-16:{ title="ab Release 10.0.5 (OO-1209)" }](https://track.frentix.com/issue/OO-1209) {: #excelimport}
 
-Mit dem Excelimport legen Sie viele Fragen in einem Durchgang an. Sie erfassen die Fragen zeilenweise in einer Tabelle, kopieren die Zeilen und fügen sie in OpenOlat ein. OpenOlat erzeugt daraus Fragen im Format QTI 2.1. So übernehmen Sie auch Fragen aus anderen Systemen, wenn Sie diese zuvor in die Tabelle übertragen.
+Wenn Sie viele Fragen auf einmal anlegen oder Fragen aus einem anderen System übernehmen möchten, nutzen Sie den Excelimport. Sie erfassen die Fragen zeilenweise in einer Tabelle, kopieren die Zeilen und fügen sie in OpenOlat ein. OpenOlat erzeugt daraus Fragen im Format QTI 2.1. Fragen aus einem anderen System übertragen Sie dafür zuerst in die Tabelle.
 
 Die Vorlage erhalten Sie im Import selbst. Im Fragenpool starten Sie ihn unter:<br>
 `Fragenpool > Mein Fragenpool > Meine Fragen > Import > QTI 2.1 Excelimport über Copy&Paste`
 
-Im Schritt "Dateneingabe" steht über dem Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)" der Link "Vorlage Excelimport". Er liefert eine Excel-Datei mit Beispielfragen zu allen zehn Fragetypen, die der Excelimport kennt, und einem Beispiel für die Metadaten einer Frage. Bauen Sie Ihre Fragen nach diesem Muster auf.
+Im Schritt "Dateneingabe" steht über dem Feld "Kopierte Zeilen aus Exceldatei (Kommasepariert)" der Link "Vorlage Excelimport". Er liefert eine Excel-Datei mit Beispielfragen zu allen zehn Fragetypen, die der Excelimport verarbeitet, und einem Beispiel für die Metadaten einer Frage. Bauen Sie Ihre Fragen nach diesem Muster auf.
 
 Denselben Import mit derselben Vorlage bietet der [Testeditor](../learningresources/Test_editor_QTI_2.1/index.de.md), wenn Sie Fragen direkt in einen Test übernehmen:<br>
 `Test > Administration > Testeditor > Elemente hinzufügen > Fragen aus Excel importieren`
@@ -79,7 +81,7 @@ Die folgenden Abschnitte beschreiben die Zeilen je Fragetyp.
 **Min answers**|Min. Anzahl möglicher Antworten, die Teilnehmende wählen müssen
 **Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
 
-Danach folgen die Antworten, jede in einer eigenen Zeile: in der ersten Spalte die Punkte, in der zweiten der Antworttext. Antworten mit mehr als 0 Punkten gelten als richtig, negative Punkte ziehen bei der Wahl dieser Antwort Punkte ab. Die Zahl der Antworten ist frei.
+Danach folgen die Antworten, jede in einer eigenen Zeile: in der ersten Spalte die Punkte, in der zweiten der Antworttext. Antworten mit mehr als 0 Punkten gelten als richtig. Wählen Teilnehmende eine Antwort mit negativen Punkten, zieht OpenOlat diese Punkte ab. Die Zahl der Antworten wählen Sie frei.
 
 ![Multiple-Choice-Frage mit Fragetext, höchstens vier und mindestens zwei Antworten, 3 Punkten und sieben Antworten, drei davon mit 1 Punkt und vier mit -1 Punkt](assets/MC_import_Beispiel.png){ class="shadow lightbox" title="Multiple-Choice-Frage in der Vorlage" }
 
@@ -95,7 +97,7 @@ Danach folgen die Antworten, jede in einer eigenen Zeile: in der ersten Spalte d
 **Question**|Der Fragetext. Einfache HTML-Formatierung ist erlaubt.
 **Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
 
-Danach folgen die Antworten, jede in einer eigenen Zeile: in der ersten Spalte die Punkte, in der zweiten der Antworttext. Die richtige Antwort trägt mehr als 0 Punkte, zum Beispiel "1", die übrigen Antworten "0". Die Zahl der Antworten ist frei.
+Danach folgen die Antworten, jede in einer eigenen Zeile: in der ersten Spalte die Punkte, in der zweiten der Antworttext. Die richtige Antwort trägt mehr als 0 Punkte, zum Beispiel "1", die übrigen Antworten "0". Die Zahl der Antworten wählen Sie frei.
 
 [Zum Seitenanfang ^](#question_bank_import)
 
@@ -123,7 +125,7 @@ Textzeilen und Lückenzeilen wechseln sich ab, in beliebiger Zahl.
 **Title**|Titel der Frage, zum Beispiel das Themengebiet
 **Points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
 **Text**|Ein Textteil der Frage, zum Beispiel die Fragestellung
-**Punkte der Lücke, z. B. "1"**|Die Lösung als Zahl. Für eine Toleranz steht hier "Lösung;untere Grenze;obere Grenze" und in der Spalte "Extra" "absolute" oder "relative".
+**Punkte der Lücke, z. B. "1"**|Die Lösung als Zahl. Für eine Toleranz tragen Sie hier "Lösung;untere Grenze;obere Grenze" ein und in der Spalte "Extra" "absolute" oder "relative".
 
 Ohne Grenzen zählt nur die exakte Lösung. Mit "absolute" sind die Grenzen Zahlen: "1.41;1.40;1.42" lässt alle Werte zwischen 1.40 und 1.42 gelten. Mit "relative" sind die Grenzen Prozentwerte: "20;10;10" lässt alle Werte zwischen 18 und 22 gelten.
 
@@ -133,7 +135,7 @@ Ohne Grenzen zählt nur die exakte Lösung. Mit "absolute" sind die Grenzen Zahl
 
 ---
 
-### Lückentext mit Dropdown {: #template_inlinechoice}
+### Lückentext mit Dropdown [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6270)" }](https://track.frentix.com/issue/OO-6270) {: #template_inlinechoice}
 
 **Type**|Inlinechoice
 ---|---
@@ -143,7 +145,7 @@ Ohne Grenzen zählt nur die exakte Lösung. Mit "absolute" sind die Grenzen Zahl
 **Text**|Ein Textteil der Frage vor, zwischen oder nach den Lücken
 **Punkte der Lücke, z. B. "1"**|Die Antwortmöglichkeiten des Dropdowns, getrennt durch ";". In der Spalte "Extra" steht die Lösung.
 
-Soll ein anderes Zeichen die Antwortmöglichkeiten trennen, tragen Sie es in die vierte Spalte ein. Die Vorlage nutzt dafür "|" und führt die Erklärungen bei diesem Fragetyp deshalb in der fünften Spalte.
+Soll ein anderes Zeichen die Antwortmöglichkeiten trennen, tragen Sie es in die vierte Spalte ein. Die Vorlage nutzt dafür "|", deshalb stehen die Erklärungen bei diesem Fragetyp in der fünften Spalte.
 
 ![Lückentext mit Dropdown: Textteile im Wechsel mit Zeilen für die Lücken, die Antwortmöglichkeiten durch senkrechte Striche getrennt, die Lösung in der Spalte daneben](assets/Inlinechoice_Import_Beispiel.png){ class="shadow lightbox" title="Lückentext mit Dropdown in der Vorlage" }
 
@@ -163,7 +165,7 @@ Soll ein anderes Zeichen die Antwortmöglichkeiten trennen, tragen Sie es in die
 -|falsche Antwort
 +|richtige Antwort
 
-Eine Kprim-Frage hat genau vier Antworten. Richtige Antworten tragen in der ersten Spalte ein "+", falsche ein "-". Weitere Antwortzeilen übernimmt OpenOlat nicht.
+Eine Kprim-Frage hat genau vier Antworten. Richtige Antworten tragen in der ersten Spalte ein "+", falsche ein "-". OpenOlat übernimmt die ersten vier Antwortzeilen.
 
 [Zum Seitenanfang ^](#question_bank_import)
 
@@ -215,7 +217,7 @@ Die Zeilen danach sind gleich aufgebaut wie bei der Matrix: eine Zeile mit den S
 
 ---
 
-### True/false {: #template_truefalse}
+### True/false [:octicons-tag-16:{ title="ab Release 12.4 (OO-3220)" }](https://track.frentix.com/issue/OO-3220) {: #template_truefalse}
 
 **Type**|Truefalse
 ---|---
@@ -240,12 +242,13 @@ Die Antwort mit mehr als 0 Punkten gilt als richtig.
 ---
 
 !!! info "Wichtig"
-    Neben den aufgeführten Zeilen kennt die Vorlage optionale Zeilen für Feedback und Metadaten, zum Beispiel "Hint", "Correct solution", "Feedback correct answer", "Topic", "Keywords" oder "License". Die Vorlage zeigt sie im ersten Lückentext-Beispiel, Sie können sie bei jedem Fragetyp ergänzen. Die Spalte "Erklärung" nennt zu jeder dieser Zeilen, ob sie nur im Fragenpool gilt.
+    Zusätzlich zu den aufgeführten Zeilen können Sie optionale Zeilen für Feedback und Metadaten erfassen, zum Beispiel "Hint", "Correct solution", "Feedback correct answer", "Topic", "Keywords" oder "License". Die Vorlage zeigt sie im ersten Lückentext-Beispiel, und sie gelten für jeden Fragetyp. Die Spalte "Erklärung" nennt zu jeder dieser Zeilen, ob sie nur im Fragenpool gilt.
 
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Tests erstellen >](../learningresources/Test/index.de.md)<br>
 [Testeditor >](../learningresources/Test_editor_QTI_2.1/index.de.md)<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)
 
