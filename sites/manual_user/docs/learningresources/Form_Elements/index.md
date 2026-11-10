@@ -2,7 +2,7 @@
 
 You build a form from elements in the [form editor](../Form_Editor/index.md). Via "Add content", you add the following elements to a layout:
 
-![Content elements of the form editor, grouped into Text, Question types, Organisational, Media, and Other and design](../assets/form_content_types_v1_de.png){ class="shadow lightbox" title="Popup Add content in a form" }
+![Content elements in the groups Text, Question type, Organisational, Media and Other & design, from which you choose the element you need](../assets/form_content_types_v2_en.png){ class="shadow lightbox" title="Dialog Add content in the form editor · 2026.11.10" }
 
 You set the elements of the group "Question types" to "Mandatory" or "Optional". Participants fill in a mandatory element before they finish the form. An optional element may stay empty.
 
@@ -15,7 +15,7 @@ Many elements can be placed in an [alert box](#form_element_alert_box) in the "S
 
 With the element "Title", you structure the form with headings. You choose the size in the levels h1 to h6.
 
-![Inspector of the title element with the "Style" tab and the font size selection](../assets/form_content_title_v1_de.png){ class="shadow lightbox" title="Title element with inspector" }
+![Drop-down Size in the Style tab of the inspector, with which you set the level of the heading](../assets/form_content_title_style_v2_en.png){ class="shadow lightbox" title="Title element in the form editor, inspector, tab Style · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -25,7 +25,7 @@ With the element "Title", you structure the form with headings. You choose the s
 
 With the element "Text", you add information or questions to the form. A small editor formats the text and inserts links and bullet points.
 
-![Text element with editor toolbar in the form and the inspector with number of columns and hint box](../assets/form_content_text_v1_de.png){ class="shadow lightbox" title="Text element with inspector" }
+![Text element with the toolbar for formatting, next to it the inspector with Columns and the switch Alert box](../assets/form_content_inspector_v2_en.png){ class="shadow lightbox" title="Text element in the form editor, inspector, tab Style · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -34,9 +34,9 @@ With the element "Text", you add information or questions to the form. A small e
 
 ## Table [:octicons-tag-16:{ title="from Release 13.2 (OO-3856)" }](https://track.frentix.com/issue/OO-3856) {: #form_element_tabelle} 
 
-With the element "Table", you present information clearly in rows and columns. In the inspector, you set among other things the rows, columns, header row and header column.
+With the element "Table", you present information clearly in rows and columns. In the inspector, you set among other things "Row", "Column", "Row header" and "Column header".
 
-![Table element in the form with the inspector for configuring rows, columns, header column, header row and border style](../assets/form_content_table_v1_de.png){ class="shadow lightbox" title="Table element with inspector" }
+![Table with caption, header row and three rows, next to it the inspector, in which you set Row, Column, Row header and Column header](../assets/form_content_table_v2_en.png){ class="shadow lightbox" title="Table element in the form editor, inspector, tab General · 2026.11.10" }
 
 
 [To the top of the page ^](#form_elements)
@@ -49,7 +49,7 @@ With a rubric, people rate several criteria or statements on the same scale. The
 
 How you configure a rubric is described on the page [The form element rubric](../Form_Element_Rubric.md).
 
-![Rubric element with statements in the rows and a five-level rating scale in the columns](../assets/Rubrik.jpg){ class="shadow lightbox" title="Rubric element with inspector" }
+![Rubric with statements in the rows and a five-level rating scale in the columns, next to it the inspector with Type and Steps](../assets/form_content_rubric_v2_en.png){ class="shadow lightbox" title="Rubric element in the form editor, inspector, tab General · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -71,7 +71,7 @@ The single choice can be the condition of a [question rule](../Form_Question_Rul
 
 In the inspector, give the element a meaningful name under "Name" so that you find it again in the question rules.
 
-![Single choice element with answer list in the form and the inspector for name, display and mandatory field](../assets/form_content_sc_v1_de.png){ class="shadow lightbox" title="Single choice element with inspector" }
+![Single choice with three entries, highlighted are the arrows for moving, the button Add choice and Name and Presentation in the inspector](../assets/form_content_sc_v2_en.png){ class="shadow lightbox" title="Single choice element in the form editor, inspector, tab General · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -91,7 +91,7 @@ The multiple choice can be the condition of a [question rule](../Form_Question_R
 
 In the inspector, give the element a meaningful name under "Name" so that you find it again in the question rules.
 
-![Multiple choice element with answer list in the form and the inspector for name, display and the option "allow further values"](../assets/form_content_mc_v1_de.png){ class="shadow lightbox" title="Multiple choice element with inspector" }
+![Multiple choice with four entries, highlighted are the arrows, the button Add choice and Name, Presentation and the option for other values in the inspector](../assets/form_content_mc_v2_en.png){ class="shadow lightbox" title="Multiple choice element in the form editor, inspector, tab General · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -102,10 +102,10 @@ In the inspector, give the element a meaningful name under "Name" so that you fi
 
 In the element "Text block", participants enter their own text in a free text field.
 
-* Under "Input type", you set whether "Text", "Numeric", "Date" or "Date / Time" is entered.
+* Under "Input type", you set whether participants enter "Text" or a number ("Numeric"). For a date, add the separate element "Date / Time".
 * Under "Row type", you choose "Single row" or "Multiple rows".
 
-![Text input element in the form with the inspector for permitted values, line type and number of lines](../assets/form_content_text_input_v1_de.png){ class="shadow lightbox" title="Text input element with inspector" }
+![Free text field of the element Text block, highlighted in the inspector are Input type with Text and Numeric and the Row type](../assets/form_content_text_input_v2_en.png){ class="shadow lightbox" title="Text block element in the form editor, inspector, tab General · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -119,7 +119,7 @@ With the element "Upload file", participants upload a file into the form.
 * Under "Maximum file size", you limit the size of the file.
 * Under "File type", you allow only certain file types, for example "PDF" or "Image".
 
-![Upload file element in the form with the inspector for maximum file size and permitted file type](../assets/form_content_file_upload_v1_de.png){ class="shadow lightbox" title="Upload file element with inspector" }
+![Field for uploading a file, highlighted in the inspector are Maximum file size and File type](../assets/form_content_file_upload_v2_en.png){ class="shadow lightbox" title="Upload file element in the form editor, inspector, tab General · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -140,7 +140,7 @@ Under "Obligation", you choose one of three variants:
 
     With this element, the form assigns the answers to the respondent. The form is therefore no longer anonymous.
 
-![Information element in the form with the checkable details such as first name and email, and the option "Mandatory, automatically completed and not editable"](../assets/form_content_info_v1_de.png){ class="shadow lightbox" title="Information element with inspector" }
+![Respondent details with the ticked fields First name, Last name and E-mail, in the inspector the three variants under Obligation](../assets/form_content_info_v2_en.png){ class="shadow lightbox" title="Respondent details element in the form editor, inspector, tab General · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -151,7 +151,7 @@ Under "Obligation", you choose one of three variants:
 
 With the element "Terms of use", you add a letter of agreement with a checkbox to the form. Participants tick it before they finish the form. They can save the form in between before that.
 
-![Terms of use element in the form with the declaration of consent and the checkbox label](../assets/form_content_terms_of_use_v1_de.png){ class="shadow lightbox" title="Terms of use element in a form" }
+![Terms of use element with the text of the letter of agreement and the label that appears next to the checkbox](../assets/form_content_terms_of_use_v2_en.png){ class="shadow lightbox" title="Terms of use element in the form editor · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -161,7 +161,7 @@ With the element "Terms of use", you add a letter of agreement with a checkbox t
 
 With the element "Image", you show an image in the form. If you select the element "Image" under "Add content", OpenOlat first asks you to upload an image file. Then the form editor shows the image with the inspector.
 
-![Image element in the form with the uploaded image and the inspector for alignment, image size and style in the "Style" tab](../assets/form_content_picture_v1_de.png){ class="shadow lightbox" title="Image element with inspector" }
+![Image element with the uploaded image, next to it the inspector with the tabs Style, Title, Display and Layout, in which you set Alignment, Image size and Style](../assets/form_content_picture_v2_en.png){ class="shadow lightbox" title="Image element in the form editor, inspector, tab Style · 2026.11.10" }
 
 In the inspector, you set how the image appears:
 
@@ -196,7 +196,7 @@ In the inspector, you set how the image appears:
 
 The separator is a fine dividing line that structures your form into areas.
 
-![Separator as a dividing line between two text elements in the form](../assets/form_content_separator_v1_de.png){ class="shadow lightbox" title="Separator element in a form" }
+![Separator as a fine dividing line between two text elements, with which you structure the form into areas](../assets/form_content_separator_v2_en.png){ class="shadow lightbox" title="Separator element in the form editor · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
 
@@ -207,7 +207,7 @@ The separator is a fine dividing line that structures your form into areas.
 
 With the alert box, you highlight an element, for example an important text or a rubric. The alert box is not an element of its own but a setting in the "Style" tab of many elements such as text, table, image, rubric and terms of use.
 
-![Alert box activated around a text element, with the inspector for type, title, icon and color of the box](../assets/form_content_text_box_v1_de.png){ class="shadow lightbox" title="Alert box with inspector" }
+![Text element in an alert box with title and icon, highlighted in the inspector are Alert box, Type, Title, With icon and Collapsible](../assets/form_content_text_box_v2_en.png){ class="shadow lightbox" title="Alert box of a text element in the form editor, inspector, tab Style · 2026.11.10" }
 
 If the switch "Alert box" is switched on, you set the following settings.
 

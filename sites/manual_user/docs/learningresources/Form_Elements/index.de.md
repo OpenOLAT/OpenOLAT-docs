@@ -2,7 +2,7 @@
 
 Ein Formular bauen Sie im [Formulareditor](../Form_Editor/index.de.md) aus Elementen auf. Über "Inhalt hinzufügen" fügen Sie einem Layout die folgenden Elemente hinzu:
 
-![Inhaltselemente des Formulareditors, gruppiert nach Text, Fragetypen, Organisatorisch, Medien sowie Andere und Design](../assets/form_content_types_v1_de.png){ class="shadow lightbox" title="Popup Inhalt hinzufügen in einem Formular" }
+![Inhaltselemente in den Gruppen Text, Fragetypen, Organisatorisch, Medien sowie Andere & Design, aus denen Sie das passende Element wählen](../assets/form_content_types_v2_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor · 2026.11.10" }
 
 Die Elemente der Gruppe "Fragetypen" stellen Sie auf "Obligatorisch" oder "Freiwillig". Ein obligatorisches Element füllen die Teilnehmenden aus, bevor sie das Formular abschliessen. Ein freiwilliges Element darf leer bleiben.
 
@@ -14,7 +14,7 @@ Viele Elemente stellen Sie im Tab "Stil" in eine [Hinweis-Box](#form_element_ale
 
 Mit dem Element "Titel" gliedern Sie das Formular mit Überschriften. Die Grösse wählen Sie in den Stufen h1 bis h6.
 
-![Inspektor des Titel-Elements mit dem Tab "Style" und der Auswahl der Schriftgrösse](../assets/form_content_title_v1_de.png){ class="shadow lightbox" title="Element Titel mit Inspektor" }
+![Auswahlliste Grösse im Tab Stil des Inspektors, mit der Sie die Stufe der Überschrift festlegen](../assets/form_content_title_style_v2_de.png){ class="shadow lightbox" title="Element Titel im Formulareditor, Inspektor, Tab Stil · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -24,7 +24,7 @@ Mit dem Element "Titel" gliedern Sie das Formular mit Überschriften. Die Gröss
 
 Mit dem Element "Text" fügen Sie dem Formular Informationen oder Fragestellungen hinzu. Ein kleiner Editor formatiert den Text und fügt Links und Aufzählungen ein.
 
-![Text-Element mit Editor-Symbolleiste im Formular sowie dem Inspektor mit Spaltenzahl und Hinweis-Box](../assets/form_content_text_v1_de.png){ class="shadow lightbox" title="Element Text mit Inspektor" }
+![Text-Element mit der Symbolleiste zum Formatieren, daneben der Inspektor mit Spalten und dem Schalter Hinweis-Box](../assets/form_content_inspector_v2_de.png){ class="shadow lightbox" title="Element Text im Formulareditor, Inspektor, Tab Stil · 2026.11.10" }
 
 
 [Zum Seitenanfang ^](#form_elements)
@@ -34,9 +34,9 @@ Mit dem Element "Text" fügen Sie dem Formular Informationen oder Fragestellunge
 
 ## Tabelle [:octicons-tag-16:{ title="ab Release 13.2 (OO-3856)" }](https://track.frentix.com/issue/OO-3856) {: #form_element_tabelle} 
 
-Mit dem Element "Tabelle" stellen Sie Angaben übersichtlich in Zeilen und Spalten dar. Im Inspektor legen Sie unter anderem Zeilen, Spalten, Kopfzeile und Kopfspalte fest.
+Mit dem Element "Tabelle" stellen Sie Angaben übersichtlich in Zeilen und Spalten dar. Im Inspektor legen Sie unter anderem "Zeile", "Spalte", "Kopfzeile" und "Kopfspalte" fest.
 
-![Tabellen-Element im Formular mit dem Inspektor zur Konfiguration von Zeilen, Spalten, Kopfspalte, Kopfzeile und Rahmenstil](../assets/form_content_table_v1_de.png){ class="shadow lightbox" title="Element Tabelle mit Inspektor" }
+![Tabelle mit Überschrift, Kopfzeile und drei Zeilen, daneben der Inspektor, in dem Sie Zeile, Spalte, Kopfzeile und Kopfspalte festlegen](../assets/form_content_table_v2_de.png){ class="shadow lightbox" title="Element Tabelle im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
 
 
 [Zum Seitenanfang ^](#form_elements)
@@ -49,7 +49,7 @@ Mit einer Rubrik bewerten Personen mehrere Kriterien oder Aussagen auf derselben
 
 Wie Sie eine Rubrik konfigurieren, beschreibt die Seite [Das Formular-Element Rubrik](../Form_Element_Rubric.de.md).
 
-![Rubrik-Element mit Statements in den Zeilen und einer fünfstufigen Bewertungsskala in den Spalten](../assets/Rubrik.jpg){ class="shadow lightbox" title="Element Rubrik mit Inspektor" }
+![Rubrik mit drei Aussagen in den Zeilen und einer fünfstufigen Bewertungsskala in den Spalten, daneben der Inspektor mit Typ und Schritten](../assets/form_content_rubric_v2_de.png){ class="shadow lightbox" title="Element Rubrik im Formulareditor, Inspektor, Tab Generell · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -71,7 +71,7 @@ Die Einzelauswahl kann die Bedingung einer [Frageregel](../Form_Question_Rules.d
 
 Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit Sie es in den Frageregeln wiederfinden.
 
-![Einzelauswahl-Element mit Antwortliste im Formular sowie dem Inspektor für Name, Darstellung und Pflichtangabe](../assets/form_content_sc_v1_de.png){ class="shadow lightbox" title="Element Einzelauswahl mit Inspektor" }
+![Einzelauswahl mit drei Einträgen, markiert sind die Pfeile zum Verschieben, der Button Eintrag hinzufügen sowie Name und Darstellung im Inspektor](../assets/form_content_sc_v2_de.png){ class="shadow lightbox" title="Element Einzelauswahl im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -90,7 +90,7 @@ Die Mehrfachauswahl kann die Bedingung einer [Frageregel](../Form_Question_Rules
 
 Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit Sie es in den Frageregeln wiederfinden.
 
-![Mehrfachauswahl-Element mit Antwortliste im Formular sowie dem Inspektor für Name, Darstellung und die Option "weitere Werte erfassen"](../assets/form_content_mc_v1_de.png){ class="shadow lightbox" title="Element Mehrfachauswahl mit Inspektor" }
+![Mehrfachauswahl mit vier Einträgen, markiert sind die Pfeile, der Button Eintrag hinzufügen sowie Name, Darstellung und die Option für weitere Werte im Inspektor](../assets/form_content_mc_v2_de.png){ class="shadow lightbox" title="Element Mehrfachauswahl im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -100,10 +100,10 @@ Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit S
 
 Im Element "Textblock" tragen die Teilnehmenden eigenen Text in ein Freitextfeld ein.
 
-* Unter "Erlaubte Werte" legen Sie fest, ob "Text", eine "Zahl", ein "Datum" oder "Datum / Zeit" eingegeben wird.
+* Unter "Erlaubte Werte" legen Sie fest, ob die Teilnehmenden "Text" oder eine "Zahl" eingeben. Für ein Datum fügen Sie das eigene Element "Datum / Zeit" ein.
 * Unter "Zeilentyp" wählen Sie "Eine Zeile" oder "Mehrere Zeilen".
 
-![Texteingabe-Element im Formular mit dem Inspektor für erlaubte Werte, Zeilentyp und Anzahl Zeilen](../assets/form_content_text_input_v1_de.png){ class="shadow lightbox" title="Element Texteingabe mit Inspektor" }
+![Freitextfeld des Elements Textblock, im Inspektor markiert sind Erlaubte Werte mit Text und Zahl sowie der Zeilentyp](../assets/form_content_text_input_v2_de.png){ class="shadow lightbox" title="Element Textblock im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -116,7 +116,7 @@ Mit dem Element "Datei hochladen" laden die Teilnehmenden eine Datei in das Form
 * Unter "Maximale Dateigrösse" begrenzen Sie die Grösse der Datei.
 * Unter "Dateityp" erlauben Sie nur bestimmte Dateitypen, zum Beispiel "PDF" oder "Bilder".
 
-![Datei-hochladen-Element im Formular mit dem Inspektor für maximale Dateigrösse und erlaubten Dateityp](../assets/form_content_file_upload_v1_de.png){ class="shadow lightbox" title="Element Datei hochladen mit Inspektor" }
+![Feld zum Hochladen einer Datei, im Inspektor markiert sind Maximale Dateigrösse und Dateityp](../assets/form_content_file_upload_v2_de.png){ class="shadow lightbox" title="Element Datei hochladen im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -136,7 +136,7 @@ Unter "Pflicht" wählen Sie eine von drei Varianten:
 
     Mit diesem Element ordnet das Formular die Antworten der befragten Person zu. Das Formular ist damit nicht mehr anonym.
 
-![Informationen-Element im Formular mit den ankreuzbaren Angaben wie Vorname und E-Mail sowie der Auswahl "Obligatorisch, automatisch ausgefüllt und nicht bearbeitbar"](../assets/form_content_info_v1_de.png){ class="shadow lightbox" title="Element Informationen mit Inspektor" }
+![Angaben zur befragten Person mit den angekreuzten Feldern Vorname, Nachname und E-Mail, im Inspektor die drei Varianten unter Pflicht](../assets/form_content_info_v2_de.png){ class="shadow lightbox" title="Element Angaben zur befragten Person im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -146,7 +146,7 @@ Unter "Pflicht" wählen Sie eine von drei Varianten:
 
 Mit dem Element "Nutzungsbedingungen" fügen Sie dem Formular eine Einverständniserklärung mit Checkbox hinzu. Die Teilnehmenden haken sie an, bevor sie das Formular abschliessen. Zwischenspeichern können sie das Formular auch vorher.
 
-![Nutzungsbedingungen-Element im Formular mit Einverständniserklärung und Beschriftung der Checkbox](../assets/form_content_terms_of_use_v1_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen in einem Formular" }
+![Element Nutzungsbedingungen mit dem Text der Einverständniserklärung und der Beschriftung, die neben der Checkbox erscheint](../assets/form_content_terms_of_use_v2_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen im Formulareditor · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -156,7 +156,7 @@ Mit dem Element "Nutzungsbedingungen" fügen Sie dem Formular eine Einverständn
 
 Mit dem Element "Bild" zeigen Sie im Formular ein Bild. Wählen Sie unter "Inhalt hinzufügen" das Element "Bild", fordert OpenOlat Sie zuerst auf, eine Bilddatei hochzuladen. Danach zeigt der Formulareditor das Bild mit dem Inspektor.
 
-![Bild-Element im Formular mit hochgeladenem Bild sowie dem Inspektor für Ausrichtung, Bildgrösse und Stil im Tab "Stil"](../assets/form_content_picture_v1_de.png){ class="shadow lightbox" title="Element Bild mit Inspektor" }
+![Bild-Element mit dem hochgeladenen Bild, daneben der Inspektor mit den Tabs Stil, Titel, Anzeige und Layout, in dem Sie Ausrichtung, Bildgrösse und Stil festlegen](../assets/form_content_picture_v2_de.png){ class="shadow lightbox" title="Element Bild im Formulareditor, Inspektor, Tab Stil · 2026.11.10" }
 
 
 Im Inspektor legen Sie fest, wie das Bild erscheint:
@@ -193,7 +193,7 @@ Im Inspektor legen Sie fest, wie das Bild erscheint:
 Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche.
 
 
-![Separator als Trennlinie zwischen zwei Text-Elementen im Formular](../assets/form_content_separator_v1_de.png){ class="shadow lightbox" title="Element Separator in einem Formular" }
+![Separator als feine Trennlinie zwischen zwei Text-Elementen, mit der Sie das Formular in Bereiche gliedern](../assets/form_content_separator_v2_de.png){ class="shadow lightbox" title="Element Separator im Formulareditor · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -202,7 +202,7 @@ Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche
 
 Mit der Hinweis-Box heben Sie ein Element hervor, zum Beispiel einen wichtigen Text oder eine Rubrik. Die Hinweis-Box ist kein eigenes Element, sondern eine Einstellung im Tab "Stil" vieler Elemente wie Text, Tabelle, Bild, Rubrik und Nutzungsbedingungen.
 
-![Hinweis-Box um ein Text-Element aktiviert, mit dem Inspektor für Typ, Titel, Icon und Farbe der Box](../assets/form_content_text_box_v1_de.png){ class="shadow lightbox" title="Hinweis-Box mit Inspektor" }
+![Text-Element in einer Hinweis-Box mit Titel und Icon, im Inspektor markiert sind Hinweis-Box, Typ, Titel, Mit Icon und Einklappbar](../assets/form_content_text_box_v2_de.png){ class="shadow lightbox" title="Hinweis-Box eines Text-Elements im Formulareditor, Inspektor, Tab Stil · 2026.11.10" }
 
 Ist der Schalter "Hinweis-Box" eingeschaltet, legen Sie die folgenden Einstellungen fest.
 

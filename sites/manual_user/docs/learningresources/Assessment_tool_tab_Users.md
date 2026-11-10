@@ -93,7 +93,7 @@ After selecting one or more people in an assessment element, further functions a
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Assessing learners >](Assessment_of_learners.md)<br>
+[Assessment of learners >](Assessment_of_learners.md)<br>
 [Assessment of course elements >](Assessment_of_course_modules.md)<br>
 [Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Assessing tests >](Assessing_tests.md)
