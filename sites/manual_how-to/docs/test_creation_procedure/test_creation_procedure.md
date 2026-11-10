@@ -86,16 +86,16 @@ If you start from scratch, without a course and without questions, this way lead
 
 1\. Create a new course via `Authoring > Create > Course`.
 
-![Create menu opened, entry Course highlighted](assets/testerstellung_1_1_v1_de.png){ class="lightbox" title="Authoring" }
+![Open Create menu in Authoring, highlighted the entry Course, with which you set up a new course](assets/testerstellung_1_1_v2_en.png){ class="shadow lightbox" title="Create menu in Authoring · 2026.11.10" }
 
 2\. In the "Create course" dialog, enter a title and define initial settings of the course. Under "Course design", select the appropriate design, for example "With learning path".
 
-![Title of the course entered and course design With learning path selected, below it the Create button](assets/testerstellung_1_2_v1_de.png){ class="lightbox" title="Dialog Create course" }
+![Create course dialog, highlighted the Title field with a course title and the selected course design With learning path, below the buttons Create with course wizard and Create](assets/testerstellung_1_2_v2_en.png){ class="shadow lightbox" title="Dialog Create course · 2026.11.10" }
 
 3\. If you want a wizard to guide you through the further setup, click "Create with course wizard" instead of "Create" and select "Simple course" or "Exam course".<br>
 An exam course is a normal course, either a learning path course or a conventional course. Its wizard sets up the exam with the test in one pass, and on request also the re-exam, the certificate, coaches and participants. This saves you work later.
 
-![Button Create with course wizard opened, with the entries Simple course and Exam course](assets/testerstellung_1_3_v1_de.png){ class="lightbox" title="Dialog Create course with course wizard" }
+![Highlighted the opened button Create with course wizard with the entries Simple course and Exam course, through which a wizard takes over the further setup](assets/testerstellung_1_3_v2_en.png){ class="shadow lightbox" title="Dialog Create course with course wizard · 2026.11.10" }
 
 4\. Click "Create". OpenOlat then opens the settings of the course (configuration of the course).
 
@@ -103,7 +103,7 @@ An exam course is a normal course, either a learning path course or a convention
 
     You can also adjust all details except the course design later under `Course > Administration > Settings`.
 
-![Entry Settings in the Administration menu highlighted, next to it the tabs of the course settings from Info to Options](assets/testerstellung_1_4_v1_de.png){ class="lightbox" title="Settings of the course" }
+![Highlighted the entry Settings in the Administration menu and next to it the tabs of the course settings from Metadata to Options, in which you adjust the course details later](assets/testerstellung_1_4_v2_en.png){ class="shadow lightbox" title="Settings of the course · 2026.11.10" }
 
 <br>
 
@@ -113,7 +113,7 @@ An exam course is a normal course, either a learning path course or a convention
 
 5\. Open the course editor via `Course > Administration > Course editor`. Click "Insert course elements" and select the type "Test" or "Self-test". OpenOlat inserts a course element of this type into the course.
 
-![Entry Course editor in the Administration menu and button Insert course elements highlighted](assets/testerstellung_1_5_v1_de.png){ class="lightbox" title="Course editor" }
+![Highlighted the entry Course editor in the Administration menu and, in the toolbar of the course editor, the button Insert course elements, with which you add the course element Test](assets/testerstellung_1_5_v2_en.png){ class="shadow lightbox" title="Course editor · 2026.11.10" }
 
 <br>
 
@@ -125,11 +125,11 @@ An exam course is a normal course, either a learning path course or a convention
 
 7\. On the right, open the "Test configuration" tab, for a self-test "Self-test configuration", and click "Create". This creates a new test learning resource that is directly linked to the course element.
 
-![Course element Test in the course menu, tab Test configuration and button Create highlighted](assets/testerstellung_1_7_v1_de.png){ class="lightbox" title="Course element Test in the course editor" }
+![Highlighted the new course element Test in the course menu, the Test configuration tab and the Create button, with which you set up a new test learning resource](assets/testerstellung_1_7_v2_en.png){ class="shadow lightbox" title="Course element Test in the course editor · 2026.11.10" }
 
 8\. In the "Create test" dialog, enter a title for the test learning resource and click "Create".
 
-![Title of the new test learning resource entered in the Title field](assets/testerstellung_1_8_v1_de.png){ class="lightbox" title="Dialog Create test" }
+![Create test dialog with the title E-Learning Basics in the Title field, field and Create button highlighted](assets/testerstellung_2_2_v2_en.png){ class="shadow lightbox" title="Dialog Create test · 2026.11.10" }
 
 <br>
 

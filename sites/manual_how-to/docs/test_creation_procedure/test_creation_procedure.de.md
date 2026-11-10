@@ -86,16 +86,16 @@ Beginnen Sie ganz von vorn, noch ohne Kurs und ohne Fragen, führt dieser Weg in
 
 1\. Erstellen Sie einen neuen Kurs über `Autorenbereich > Erstellen > Kurs`.
 
-![Menü Erstellen geöffnet, Eintrag Kurs markiert](assets/testerstellung_1_1_v1_de.png){ class="lightbox" title="Autorenbereich" }
+![Geöffnetes Menü Erstellen im Autorenbereich, markiert der Eintrag Kurs, mit dem Sie einen neuen Kurs anlegen](assets/testerstellung_1_1_v2_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 2\. Geben Sie im Dialog "Kurs erstellen" einen Titel ein und legen Sie erste Einstellungen des Kurses fest. Wählen Sie unter "Kursdesign" das passende Design, zum Beispiel "Mit Lernpfad".
 
-![Titel des Kurses eingetragen und Kursdesign Mit Lernpfad gewählt, darunter der Button Erstellen](assets/testerstellung_1_2_v1_de.png){ class="lightbox" title="Dialog Kurs erstellen" }
+![Dialog Kurs erstellen, markiert das Feld Titel mit dem Eintrag Musterkurs mit Test und das gewählte Kursdesign Mit Lernpfad, unten die Buttons Mit Kursassistent:in erstellen und Erstellen](assets/testerstellung_1_2_v2_de.png){ class="shadow lightbox" title="Dialog Kurs erstellen · 2026.11.10" }
 
 3\. Soll ein Assistent Sie durch die weitere Einrichtung führen, klicken Sie statt auf "Erstellen" auf "Mit Kursassistent:in erstellen" und wählen "Einfacher Kurs" oder "Prüfungskurs".<br>
 Ein Prüfungskurs ist ein normaler Kurs, wahlweise Lernpfadkurs oder herkömmlicher Kurs. Sein Assistent richtet in einem Durchgang die Prüfung mit dem Test ein, auf Wunsch auch Nachprüfung, Zertifikat, Betreuer:innen und Teilnehmer:innen. Das spart Ihnen später Arbeit.
 
-![Button Mit Kursassistent:in erstellen geöffnet, mit den Einträgen Einfacher Kurs und Prüfungskurs](assets/testerstellung_1_3_v1_de.png){ class="lightbox" title="Dialog Kurs erstellen mit Kursassistent:in" }
+![Markiert der geöffnete Button Mit Kursassistent:in erstellen mit den Einträgen Einfacher Kurs und Prüfungskurs, über die ein Assistent die weitere Einrichtung übernimmt](assets/testerstellung_1_3_v2_de.png){ class="shadow lightbox" title="Dialog Kurs erstellen mit Kursassistent:in · 2026.11.10" }
 
 4\. Klicken Sie auf "Erstellen". OpenOlat öffnet danach die Einstellungen des Kurses (Konfiguration des Kurses).
 
@@ -103,7 +103,7 @@ Ein Prüfungskurs ist ein normaler Kurs, wahlweise Lernpfadkurs oder herkömmlic
 
     Alle Angaben ausser dem Kursdesign passen Sie auch später unter `Kurs > Administration > Einstellungen` an.
 
-![Eintrag Einstellungen im Menü Administration markiert, daneben die Tabs der Kurseinstellungen von Info bis Optionen](assets/testerstellung_1_4_v1_de.png){ class="lightbox" title="Einstellungen des Kurses" }
+![Markiert der Eintrag Einstellungen im Menü Administration und daneben die Tabs der Kurseinstellungen von Metadaten bis Optionen, in denen Sie die Angaben zum Kurs später anpassen](assets/testerstellung_1_4_v2_de.png){ class="shadow lightbox" title="Einstellungen des Kurses · 2026.11.10" }
 
 <br>
 
@@ -113,7 +113,7 @@ Ein Prüfungskurs ist ein normaler Kurs, wahlweise Lernpfadkurs oder herkömmlic
 
 5\. Öffnen Sie den Kurseditor über `Kurs > Administration > Kurseditor`. Klicken Sie auf "Kursbausteine einfügen" und wählen Sie den Typ "Test" oder "Selbsttest". OpenOlat fügt einen Kursbaustein dieses Typs in den Kurs ein.
 
-![Eintrag Kurseditor im Menü Administration und Button Kursbausteine einfügen markiert](assets/testerstellung_1_5_v1_de.png){ class="lightbox" title="Kurseditor" }
+![Markiert der Eintrag Kurseditor im Menü Administration und in der Toolbar des Kurseditors der Button Kursbausteine einfügen, über den Sie den Kursbaustein Test hinzufügen](assets/testerstellung_1_5_v2_de.png){ class="shadow lightbox" title="Kurseditor · 2026.11.10" }
 
 <br>
 
@@ -125,11 +125,11 @@ Ein Prüfungskurs ist ein normaler Kurs, wahlweise Lernpfadkurs oder herkömmlic
 
 7\. Öffnen Sie rechts den Tab "Test-Konfiguration", beim Selbsttest "Selbsttest-Konfiguration", und klicken Sie auf "Erstellen". So entsteht eine neue Test-Lernressource, die direkt mit dem Kursbaustein verbunden ist.
 
-![Kursbaustein Test im Kursmenü, Tab Test-Konfiguration und Button Erstellen markiert](assets/testerstellung_1_7_v1_de.png){ class="lightbox" title="Kursbaustein Test im Kurseditor" }
+![Markiert der neue Kursbaustein Test im Kursmenü, der Tab Test-Konfiguration und der Button Erstellen, mit dem Sie eine neue Test-Lernressource anlegen](assets/testerstellung_1_7_v2_de.png){ class="shadow lightbox" title="Kursbaustein Test im Kurseditor · 2026.11.10" }
 
 8\. Geben Sie im Dialog "Test erstellen" einen Titel für die Test-Lernressource ein und klicken Sie auf "Erstellen".
 
-![Titel der neuen Test-Lernressource im Feld Titel eingetragen](assets/testerstellung_1_8_v1_de.png){ class="lightbox" title="Dialog Test erstellen" }
+![Dialog Test erstellen mit dem Titel E-Learning Basics im Feld Titel, markiert Feld und Button Erstellen](assets/testerstellung_2_2_v2_de.png){ class="shadow lightbox" title="Dialog Test erstellen · 2026.11.10" }
 
 <br>
 
