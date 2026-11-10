@@ -1,46 +1,56 @@
 # Projects - Administration {: #administration}
 
-To access the project administration of your project, open the desired project and click on the 3 dots at the top right. Several administrative options appear in the expanded menu.
+When you set up, reuse or end a project, you find the commands for this in one place: in the 3-dot menu at the top right of the opened project. The menu contains:
 
-The administration of a project includes
-
-* the configuration and display of the start page (edit project)
-* the [members management](../area_modules/Project_Member_Management.md) of the project
-* the option to download [reports](../area_modules/Project_Report.md)
-* copying projects
-* saving projects as a template
-* ending and closing projects
-* deleting projects
+* **Edit project**: set the title, teaser and images of the start page
+* **Members management**: [manage the members of the project](../area_modules/Project_Member_Management.md)
+* **Download report**: download a [report](../area_modules/Project_Report.md) on the project
+* **Copy project**
+* **Save as template**
+* **Close project** and **Reopen project**
+* **Delete project**
 
 !!! info "Important"
 
-    Which menu items appear in the area depends on the project role.
+    Which entries the menu shows depends on your project role.
 
 ## Edit project
 
-"Edit project" does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project. To do this, open the 3-dot menu at the top right of the project cockpit and select "Edit project".
+With "Edit project" you design the start page of the project: the title, teaser and images that all members see when they open the project. You edit the content (entering appointments, creating to-dos, etc.) directly in the project instead.
 
-![Entry Edit project in the 3-dot menu at the top right](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" title="Cockpit of a project" }
+Project owners, project leaders, project office staff, administrators and project managers can change these entries. All other members find "View project" in the same place and can only view the entries.
 
-The dialog "Edit project" opens. The numbers in the image show where the entries from the dialog appear on the start page of the project.
+Open the 3-dot menu at the top right of the project cockpit and select "Edit project".
 
-![The numbers 1 to 4 connect the fields Title, Teaser, Avatar and Background image with their place on the start page of the project behind](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" title="Dialog Edit project" }
+![Entry Edit project in the 3-dot menu at the top right](assets/project_admin_edit_project_menu_v1_en.png){ class="shadow lightbox" title="Cockpit of a project · 2026.11.10" }
 
-* ![1](assets/1_green_24.png) **Title**: Mandatory field. The title is the heading of the start page and names the project in the project list.
-* ![2](assets/2_green_24.png) **Teaser**: Short text that appears on the start page directly below the title.
-* ![3](assets/3_green_24.png) **Avatar**: Square image at the top left of the start page. Best results with size 240x240px, maximum file size 2 MB.
-* ![4](assets/4_green_24.png) **Background image**: Image across the full width of the start page. Best results with size 2588x500px, maximum file size 2 MB.
+The dialog "Edit project" opens. Four entries from the dialog appear on the start page of the project.
+
+![Dialog Edit project with the framed fields Title, Teaser, Avatar and Background image that appear on the start page of the project](assets/project_admin_edit_project_dialog_v1_en.png){ class="shadow lightbox" title="Dialog Edit project · 2026.11.10" }
+
+* **Title**: Mandatory field. The title is the heading of the start page and names the project in the project list.
+* **Teaser**: Short text that appears on the start page directly below the title.
+* **Avatar**: Square image at the top left of the start page. Best results with size 240x240px, maximum file size 2 MB.
+* **Background image**: Image across the full width of the start page. Best results with size 2588x500px, maximum file size 2 MB.
+
+You exchange an uploaded image with "Replace" or remove it with "Delete". With "Save" you apply the changes.
+
+This is where the four entries appear on the start page of the project:
+
+![Start page of a project with the framed background image across the full width, the avatar at the top left and the title and teaser below it](assets/project_admin_start_page_v1_en.png){ class="shadow lightbox" title="Start page of a project · 2026.11.10" }
 
 Three further fields do not appear on the start page, or only in small print:
 
 * **Administrative access**: Mandatory field. The organisations the project is assigned to. Project managers and administrators of these organisations see the project in the tab "Administration". Without one of these roles, your own organisation is preset and cannot be changed.
 * **Reference**: Freely selectable reference, for example a project number. It appears in small print below the title and as an optional column in the project list.
-* **Description**: Detailed text about the project. It is not displayed on the start page.
+* **Description**: Detailed text about the project. The start page does not show it.
 
 
 ## Copy project [:octicons-tag-16:{ title="from Release 18.0 (OO-6840)" }](https://track.frentix.com/issue/OO-6840)
 
-![Entry Copy project in the 3-dot menu at the top right](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" title="Cockpit of a project" }
+If a new project is to start with the same content, copy an existing project with "Copy project" in the 3-dot menu.
+
+![Entry Copy project in the 3-dot menu at the top right](assets/project_admin_copy_project_menu_v1_en.png){ class="shadow lightbox" title="Cockpit of a project · 2026.11.10" }
 
 The following are copied:
 
@@ -62,74 +72,76 @@ The following are **partially** copied:
 
 If you repeatedly create similar projects, a template saves you the setup of each individual project.
 
-A created project can be saved as a template. To do this, select the option "Save as template" in the 3-dot menu.
+You save an existing project as a template with "Save as template" in the 3-dot menu.
 
-![Entry Save as template in the 3-dot menu at the top right](assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" title="Cockpit of a project" }
+![Entry Save as template in the 3-dot menu at the top right](assets/project_admin_save_as_template_menu_v1_en.png){ class="shadow lightbox" title="Cockpit of a project · 2026.11.10" }
 
 The dialog "Save as template" opens. A private template is available only to you. An organisation-wide template is available to all members of the selected organisations. The selection "Visibility" with the options "Only for me" and "All organisation members" is shown only to people with the organisation role administrator or project manager. If the system administration under `Administration > Modules > Projects` also allows authors to create projects and templates, authors see this selection as well. All other people always create a private template. With the option "All organisation members", select in the field "Template organisations" the organisations in which you hold one of these roles. :octicons-tag-16:{ title="from Release 21.0.3 (OO-9719)" }
 
-![Selection Visibility with the options Only for me and All organisation members, below it the mandatory field Template organisations](assets/projekte_admin_vorlage_sichtbarkeit_v1_de.png){ class="shadow lightbox" title="Dialog Create empty template" }
+![Framed selection Visibility with the options Only for me and All organisation members, below it the mandatory field Template organisations in which you choose who can use the template](assets/project_admin_template_visibility_v1_en.png){ class="shadow lightbox" title="Dialog Create empty template · 2026.11.10" }
 
-You can also create an empty template in the tab "Project templates", which is often a more useful option: `Projects > Tab "Project templates" > Button "Create empty template"`. The same rule for visibility applies there as when saving a project as a template.
+You create a template that does not build on an existing project in the tab "Project templates": `Projects > Tab "Project templates" > Button "Create empty template"`. The same rule for visibility applies there as when saving a project as a template.
 
-![Button Create empty template](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" title="Tab Project templates in the Projects area" }
+![Tab Project templates and button Create empty template](assets/project_admin_empty_template_v1_en.png){ class="shadow lightbox" title="Tab Project templates in the Projects area · 2026.11.10" }
 
 
 ## Close projects
 
-![Entry Close project in the 3-dot menu at the top right](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" title="Cockpit of a project" }
+When the work on a project is done, close it with "Close project" in the 3-dot menu.
 
-If a project is closed, all project members subsequently have read-only access.
+![Entry Close project in the 3-dot menu at the top right](assets/project_admin_close_project_menu_v1_en.png){ class="shadow lightbox" title="Cockpit of a project · 2026.11.10" }
 
-A project can only be closed by
+Only these people can close a project:
 
-* project owners,
-* project leaders,
-* project office staff,
-* administrators,
-* and project managers.
+* project owners
+* project leaders
+* project office staff
+* administrators
+* project managers
 
 !!! info "Important"
 
-    These people can also reopen a project.
+    The same people can reactivate a closed project with "Reopen project".
 
 
 ## Delete project
 
-![Entry Delete project in the 3-dot menu at the top right](assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" title="Cockpit of a project" }
+You delete a project that is no longer needed with "Delete project" in the 3-dot menu.
 
-Projects can only be deleted by
+![Entry Delete project in the 3-dot menu at the top right](assets/project_admin_delete_project_menu_v1_en.png){ class="shadow lightbox" title="Cockpit of a project · 2026.11.10" }
 
-* the project owner,
-* administrators,
-* and project managers.
+Only these people can delete a project:
+
+* project owners
+* administrators
+* project managers
 
 
 !!! info "Important"
 
-    By deleting a project, it appears in the list "Deleted". The projects can only be viewed there, but no longer edited.
+    A deleted project appears in the list "Deleted". There it can only be viewed, no longer edited. Project owners, administrators and project managers can reactivate it with "Reopen project".
 
 
-## Tab Project administration [:octicons-tag-16:{ title="from Release 18.0 (OO-6845)" }](https://track.frentix.com/issue/OO-6845)
+## Tab Administration [:octicons-tag-16:{ title="from Release 18.0 (OO-6845)" }](https://track.frentix.com/issue/OO-6845)
 
-Administrators and project managers have another tab under the menu item "Projects": `Projects > Tab "Administration"`.
+Administrators and project managers keep track of the projects of their organisations in the area "Projects" and clear up dormant projects. For this they have another tab: `Projects > Tab "Administration"`.
 
-![Filters No activity recently, To delete, Closed and Deleted above the project list](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" title="Tab Administration in the Projects area" }
+![Framed tab Administration and the framed filters No activity recently, To delete, Closed and Deleted above the project list, with which you find dormant projects](assets/project_admin_admin_tab_filters_v1_en.png){ class="shadow lightbox" title="Tab Administration in the Projects area · 2026.11.10" }
 
-The following (filter) functions are available there for your administrative tasks:
+Above the project list, these filters narrow down the list:
 
 * **No activity recently**<br>
-This list contains projects in which there has been no activity for more than 28 days. Their status can be "active" or "closed". Projects in this list should be checked to see whether they can be closed or deleted. (You can check with the project owner.)
+The list shows projects in which there has been no activity for more than 28 days. Their status is "Active" or "Closed". Check whether these projects can be closed or deleted. If in doubt, ask the project owners.
 
 * **To delete**<br>
-The list "To delete" only appears in the tab "Administration". It displays projects with the status "closed" that also have no recent activity.
+The list "To delete" only appears in the tab "Administration". It shows projects with the status "Closed" in which there has been no activity for more than 28 days.
 
 * **Closed**<br>
-If projects have been closed for a long time, project managers can use this list to ask whether projects can be deleted.<br>
+With this list, project managers ask whether projects that have been closed for a long time can be deleted.<br>
 Closed projects can still be reopened.
 
 * **Deleted**<br>
-Deleted projects can still be viewed, but no longer edited.
+Deleted projects can only be viewed, no longer edited. Project owners, administrators and project managers can reactivate them with "Reopen project".
 
 
 ## Further information {: #further_information}
