@@ -112,7 +112,7 @@ As soon as you click or select a piece of added content, a pop-up window appears
 
 You can also show or hide the Inspector pop-up using the gear icon next to the content.
 
-![The cogwheel marked in turquoise opens the inspector of the video block with the tabs Media, Style and Layout.](assets/content_editor_inspector_v1_de.png){ class="shadow lightbox" title="Inspector of a video block" }
+![The highlighted gear in the toolbar opens the highlighted inspector of the image block, in which you set the properties of the image via the tabs Style, Title, Display, Media and Layout](assets/content_editor_inspector_v2_en.png){ class="shadow lightbox" title="Inspector of an image block in the course element Page · 2026.11.10" }
 
 **Menus**
 
@@ -120,7 +120,7 @@ The toolbar of a selected block comprises four icons: the gear for the Inspector
 
 A block can be copied with the "Duplicate" action, both as a short action on the block itself and via the three-dot menu [:octicons-tag-16:{ title="from Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 
-![The arrow cross marked in turquoise starts moving the block by drag and drop.](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" title="Toolbar of a content block" }
+![Highlighted toolbar above a selected image block with the four icons gear, Duplicate, three-dot menu and arrow cross, with which you configure, copy, extend or move the block](assets/content_editor_content_move_v2_en.png){ class="shadow lightbox" title="Toolbar of a content block in the course element Page · 2026.11.10" }
 
 [To the top of the page ^](#content_editor)
 

@@ -115,7 +115,7 @@ Sobald ein hinzugefügter Inhalt angeklickt/markiert worden ist, erscheint ein P
 
 Das Inspektor-Popup lässt sich auch mit dem Zahnrad-Icon des Inhalts ein- und ausblenden.
 
-![Das türkis markierte Zahnrad öffnet den Inspektor des Video-Blocks mit den Tabs Media, Style und Layout.](assets/content_editor_inspector_v1_de.png){ class="shadow lightbox" title="Inspektor eines Video-Blocks" }
+![Das markierte Zahnrad in der Werkzeugleiste öffnet den markierten Inspektor des Bild-Blocks, in dem Sie über die Tabs Stil, Titel, Anzeige, Media und Layout die Eigenschaften des Bildes einstellen](assets/content_editor_inspector_v2_de.png){ class="shadow lightbox" title="Inspektor eines Bild-Blocks im Kursbaustein Seite · 2026.11.10" }
 
 **Menüs**
 
@@ -123,7 +123,7 @@ Die Werkzeugleiste eines markierten Blocks umfasst vier Symbole: das Zahnrad fü
 
 Ein Block lässt sich mit der Aktion "Duplizieren" kopieren, sowohl als Kurzaktion am Block selbst als auch über das 3-Punkte-Menü [:octicons-tag-16:{ title="ab Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 
-![Das türkis markierte Pfeilkreuz startet das Verschieben des Blocks per Drag and Drop.](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" title="Werkzeugleiste eines Inhaltsblocks" }
+![Markierte Werkzeugleiste eines Bild-Blocks mit Zahnrad, Duplizieren, 3-Punkte-Menü und Pfeilkreuz, mit denen Sie den Block einstellen, kopieren, ergänzen oder verschieben](assets/content_editor_content_move_v2_de.png){ class="shadow lightbox" title="Werkzeugleiste eines Inhaltsblocks im Kursbaustein Seite · 2026.11.10" }
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -524,7 +524,7 @@ Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wähl
 
 **Weiterführend**<br>
 [Mit Tabellen arbeiten >](Table_Concept.de.md)<br>
-[Matheformel >](Math_formula.de.md)<br>
+[Mathematische Formel >](Math_formula.de.md)<br>
 [Barrierefreiheit: Grundsätze >](Accessibility_Principals.de.md)
 
 [Zum Seitenanfang ^](#content_editor)
