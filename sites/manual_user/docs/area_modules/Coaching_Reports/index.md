@@ -7,7 +7,7 @@ Do you want to evaluate which of the persons you coach have received a certifica
 The report templates of the category "Certificates" are available to the following roles:
 
 * Coaches of courses
-* Coaches of educational products, incl. master coaches
+* Coaches of educational products
 * Line managers
 * Education managers
 

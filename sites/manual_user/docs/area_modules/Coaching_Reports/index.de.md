@@ -7,7 +7,7 @@ Sie möchten auswerten, welche der Personen, die Sie betreuen, ein Zertifikat er
 Die Reportvorlagen der Kategorie "Zertifikate" stehen folgenden Rollen zur Verfügung:
 
 * Betreuer:innen von Kursen
-* Betreuer:innen von Bildungsprodukten, inkl. Klassenlehrer:innen
+* Betreuer:innen von Bildungsprodukten
 * Linienvorgesetzten
 * Ausbildungsverantwortlichen
 
