@@ -6,7 +6,10 @@
 
 Aus Kursbausteinen bauen Sie Ihren Kurs auf. Mit ihnen stellen Sie Inhalte bereit und strukturieren sie, fördern Zusammenarbeit und Austausch, prüfen den Wissensstand der Teilnehmenden und regeln Organisatorisches.
 
-Die Übersicht ordnet die Kursbausteine in dieselben Gruppen wie der Dialog "Kursbausteine einfügen" im Kurseditor.
+Die nachfolgende Auflistung ordnet die Kursbausteine in dieselben Gruppen wie der Dialog im Kurseditor:
+![Übersicht der Kursbausteine in OpenOlat, Zugang über den Kurseditor](assets/course_elements_index_V2_de.png){ class="shadow lightbox" }
+
+
 
 ## Wissensvermittlung
 

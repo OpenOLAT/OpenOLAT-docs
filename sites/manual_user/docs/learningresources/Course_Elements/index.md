@@ -6,7 +6,8 @@
 
 You build your course from course elements. With them, you provide and structure content, promote collaboration and exchange, check the participants' level of knowledge and handle organizational matters.
 
-This overview sorts the course elements into the same groups as the dialog "Insert course elements" in the course editor.
+The list below organizes the course components into the same groups as the dialog in the course editor:
+![Overview about course Elements](assets/course_elements_index_V1_en.png){ class="shadow lightbox" }
 
 ## Knowledge transfer
 
