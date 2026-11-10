@@ -1,18 +1,17 @@
 # Video Collection {: #video_collection}
 
 
-You will find the "Video Collection" in the main navigation. It serves as a central overview of all video learning resources of your OpenOlat instance, provided they have been released for you. Here you can browse through the available videos and open individual videos directly.
-For a video to be displayed in the "Video Collection", its publication status must be set to "Published". In the single view of a video, the description of the info page is displayed automatically. The rating and comment functions are also available there, provided they are activated.
+If you are looking for a learning video without knowing which course it is in, you will find it in the "Video Collection". It shows all video learning resources of your OpenOlat instance that are released for you, and you open each video directly from there. You reach the "Video Collection" via the main navigation.
+
+The search field searches the title, description, objectives and authors of the videos. The sorting orders the tiles by "Relevance", "Title", "Author", "Creation date" or "Views". The default is "Creation date", with the newest video first.
 
 
-![Tile overview with eight videos, each with preview image, duration, title and number of viewings, above it the search field and the sorting. Video Collection entry in the main navigation marked.](assets/video_collection_v1_de.png){ class="shadow lightbox" title="Start page of the Video Collection" }
+![Video Collection tiles with title, duration, viewings and creation date, above them search and sorting: this is how you find a video and open it directly](assets/video_collection_v2_en.png){ class="shadow lightbox" title="Video Collection · 2026.11.10" }
 
 
 !!! note "Note"
 
-    If the "Video Collection" entry does not appear in the main navigation in your OpenOlat instance, it has either been hidden by administrators or you do not have the required rights. 
-
-    For access authorization, please contact your administrators. The Video Collection can also be made available exclusively to learning resource managers or authors, for example.  
+    Administrators decide which persons see the "Video Collection" entry in the main navigation, for example all registered accounts or only authors and learning resource managers. If you do not see the entry, contact your administrators.
 
 
 
@@ -26,28 +25,24 @@ Available since | Release 10.5 (OO-2013)
 
 ## What is offered in the Video Collection? {: #offering}
 
-The Video Collection lists video learning resources of your OpenOlat instance.
+The Video Collection gathers the video learning resources in one place, so you do not have to search for a video in a course first. It lists videos uploaded in OpenOlat as well as videos embedded via URL, provided they are released for the Video Collection.
 
-* This includes
-    * videos uploaded in OpenOlat
-    * videos embedded via URL
-* provided they are released.
-* Videos available in OpenOlat as learning resources can also be supplemented with quiz questions that pause the video during playback and must first be answered before the video continues. Video learning resources with this and other supplementary OpenOlat functions are also listed in the Video Collection.
+Video learning resources with quiz questions also appear in the Video Collection. A quiz question pauses the video at its position. Depending on the setting, a question answered incorrectly can be skipped.
 
-* In the single view of a video, the description of the info page is displayed automatically. The content of the info page is taken from the settings under<br>
+What you see about a video comes from the settings of the learning resource:
+
+* **Description:** The single view of a video shows the "Description" of the info page. It is maintained under:<br>
 `Authoring > "Learning resource" > Administration > Settings > Tab "Info"`
 
-* The preview image is also taken from the settings of the learning resource.<br>
-`Authoring > "Learning resource" > Administration > Settings > Tab "Info"`
+* **Tile image:** The tile shows the "Cover image" of the learning resource from the same tab "Info". A poster you select in the tab "Configure poster" is also taken over by OpenOlat as the cover image.<br>
+`Authoring > "Learning resource" > Administration > Settings > Tab "Configure poster"`
 
-* Each video can be rated by awarding stars.
-
-* A comment can be added to each video.
+* **Rating and comments:** In the single view, you rate the video with stars and write a comment. Guests see neither.
 
 
 !!! info "Important"
 
-    Videos linked directly with a URL in the [course element "HTML page"](../basic_concepts/Video_in_HTML_Pages.md) are not available as a learning resource in OpenOlat and are therefore not included in the Video Collection.
+    A video you link directly via a URL in the course element "HTML page" is not a learning resource in OpenOlat and therefore does not appear in the Video Collection. More on this: [Videos in course element "HTML page"](../basic_concepts/Video_in_HTML_Pages.md)
 
 
 [To the top of the page ^](#video_collection)
@@ -55,21 +50,21 @@ The Video Collection lists video learning resources of your OpenOlat instance.
 ---
 
 
-## How do the videos get into the Video Collection? {: #selection}
+## How do the videos get into the Video Collection? [:octicons-tag-16:{ title="ab Release 18.2 (OO-7575)" }](https://track.frentix.com/issue/OO-7575) {: #selection}
 
-The selection is compiled automatically. Whether a video learning resource is displayed in the Video Collection depends on:
+The owners of a video learning resource decide in its settings whether the video appears in the Video Collection. OpenOlat compiles the selection from this automatically. Two settings must be right:
 
-* **Publication status:** For a video learning resource to be displayed in the "Video Collection", the publication status **"Published"** must be set.<br>
+* **Status:** The video learning resource is set to "Published".<br>
 `Authoring > "Learning resource" > Button "Status"`
 
-* **Share setting:** "Show in video collection site" must be set in the share settings.<br>
+* **Share:** In the section "Video Collection", "Show in video collection site" is switched on. OpenOlat shows this section if the Video Collection is switched on in your instance.<br>
 `Authoring > "Learning resource" > Administration > Settings > Tab "Share"`<br>
-You can also specify here whether the video should only be visible to members of a specific organizational unit.
+If the management of organisations is switched on, select at least one organisation under "Visible for". The Video Collection then shows the video to the persons of these organisations.
 
 
 !!! tip "Tip"
 
-    If you are missing a video, please check the settings of the video learning resource.
+    If a video is missing from the Video Collection, first check these two settings of the video learning resource.
 
 
 [To the top of the page ^](#video_collection)
@@ -83,6 +78,6 @@ You can also specify here whether the video should only be visible to members of
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
 [Video Upload >](../basic_concepts/Video_Upload.md)<br>
 [Video Recording >](../basic_concepts/Video_Recording.md)<br>
-[Videos in course element "HTML-Page" >](../basic_concepts/Video_in_HTML_Pages.md)
+[Videos in course element "HTML page" >](../basic_concepts/Video_in_HTML_Pages.md)
 
 [To the top of the page ^](#video_collection)

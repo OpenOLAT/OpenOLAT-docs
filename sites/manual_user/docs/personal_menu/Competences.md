@@ -10,7 +10,7 @@ You see which competences are assigned to you in OpenOlat in the personal menu, 
 You receive competences, for example, via your ePortfolio entries, or user managers enter them in your user profile.
 
 
-![List My competences, structured by taxonomy and taxonomy level, with the columns Competence, Resource, Additional information and Type; types are Manage or Have](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox" title="Competences in the section Achievements/Successes" }
+![List My competences, structured by taxonomy and taxonomy level, with the columns Competence, Resource, Further information and Type: at a glance you see which competences you have and which you manage](assets/pers_menu_competences_example_v1_en.png){ class="shadow lightbox" title="Competences in the section Achievements/Successes · 2026.11.10" }
 
 !!! info "Important"
 
