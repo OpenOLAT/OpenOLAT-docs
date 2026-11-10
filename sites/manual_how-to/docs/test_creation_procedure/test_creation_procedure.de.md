@@ -384,7 +384,7 @@ Damit Sie die Fragen später über die Suchfilter wiederfinden und der Kursbaust
 
 10\. Der Dialog "Fragen auswählen" zeigt Ihre Fragen unter "Meine Favoriten" und "Meine Fragen", je nach Konfiguration auch unter "Meine Listen" und "Meine Shares". Ein Klick auf den Titel einer Frage fügt sie direkt ein. Für mehrere Fragen setzen Sie die Häkchen und klicken auf "Auswählen".
 
-![Ausgewählte Frage und Button Auswählen markiert](assets/testerstellung_3_10_v1_de.png){ class="lightbox" title="Dialog Fragen auswählen" }
+![Dialog Fragen auswählen mit den Fragen im Tab Meine Fragen, markiert die Spalte mit den Häkchen, von denen zwei gesetzt sind, und der Button Auswählen, mit dem Sie die angehakten Fragen in den Test übernehmen](assets/testerstellung_3_10_v2_de.png){ class="shadow lightbox" title="Dialog Fragen auswählen im Testeditor · 2026.11.10" }
 
 11\. Mit Sektionen oder [Test-Parts](../../manual_user/learningresources/Configure_tests.de.md#testpart) gliedern Sie die Fragen im Test bei Bedarf weiter. Sind alle Fragen in der Test-Lernressource, verlassen Sie den Testeditor.
 

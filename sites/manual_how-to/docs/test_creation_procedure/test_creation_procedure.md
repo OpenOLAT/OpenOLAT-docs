@@ -384,7 +384,7 @@ So that you find the questions again later via the search filters and the course
 
 10\. The "Choose questions" dialog shows your questions under "My favorites" and "My questions", depending on the configuration also under "My lists" and "My shares". A click on the title of a question inserts it directly. For several questions, tick the checkboxes and click "Select".
 
-![Selected question and button Select highlighted](assets/testerstellung_3_10_v1_de.png){ class="lightbox" title="Dialog Choose questions" }
+![Choose questions dialog with the questions in the My questions tab, highlighted the column of checkboxes, two of them ticked, and the Select button, with which you adopt the ticked questions into the test](assets/testerstellung_3_10_v2_en.png){ class="shadow lightbox" title="Dialog Choose questions in the test editor · 2026.11.10" }
 
 11\. With sections or [test parts](../../manual_user/learningresources/Configure_tests.md#testpart) you structure the questions in the test further if required. Once all questions are in the test learning resource, leave the test editor.
 
