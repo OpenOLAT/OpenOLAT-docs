@@ -9,7 +9,7 @@ Available since | New edition with release 18
 Functional group | Other
 Purpose | Display external web content within an OpenOlat course and integration in the course navigation
 Assessable | no
-Specialty / Note | Has to be switched on by the administration. frentix does not recommend its use.
+Specialty / Note | Administrators switch the course element on in the system administration. frentix does not recommend its use.
 
 With the course element "External page" you show a web page in your course and add it to the course navigation. You enter the address in the configuration in the tab "Page content". Three displays are available:
 
@@ -19,7 +19,7 @@ With the course element "External page" you show a web page in your course and a
 
 For pages that require authentication and whose source is hidden, you can activate "Page password controlled" and enter the required access data.
 
-Typical use cases are pages containing database queries, for example a literature research tool or online exercises from the web. It is only possible to link external pages via HTTP or HTTPS protocols.
+Typical use cases are pages containing database queries, for example a literature research tool or online exercises from the web. The course element embeds external pages via the protocols HTTP and HTTPS.
 
 !!! warning "frentix recommends keeping domains separate"
 
@@ -32,7 +32,11 @@ Typical use cases are pages containing database queries, for example a literatur
     OpenOlat instance runs under its own address, the embedded page under a
     different one.
 
-Instead, refer to the page with the [Link list](Course_Element_Link_List.md). If the course element is not available in your instance, your administration has not switched it on.
+    This course element does not use a separate address for content, even if
+    one is set up: it displays the foreign page directly or via the main
+    address of your OpenOlat instance.
+
+Instead, refer to the page with the [Link list](Course_Element_Link_List.md). Administrators switch the course element "External page" on in the system administration: `Administration > Modules > External page`. More about this in the administration manual under [Module External page](../../manual_admin/administration/Modules_External_Page.md).
 
 ## Tab "Page content" configuration
 
@@ -69,11 +73,11 @@ Disadvantage of using an «iframe»: your content might appear along with its ow
 
 **Mentioned on this page**<br>
 [Course Element "Link list" >](Course_Element_Link_List.md)<br>
+[Module External page >](../../manual_admin/administration/Modules_External_Page.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)
 
 **Further reading**<br>
 [Course Element "HTML page" >](Course_Element_HTML_Page.md)<br>
-[Course Element "LTI Page" >](Course_Element_LTI_Page.md)<br>
-[Module External page >](../../manual_admin/administration/Modules_External_Page.md)
+[Course Element "LTI Page" >](Course_Element_LTI_Page.md)
 
 [To the top of the page ^](#external_page)

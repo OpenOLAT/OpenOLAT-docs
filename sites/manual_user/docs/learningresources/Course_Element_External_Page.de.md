@@ -9,7 +9,7 @@ Verfügbar seit | Neuauflage mit Release 18
 Funktionsgruppe | Andere
 Verwendungszweck | Anzeige von externen Webinhalten innerhalb eines OpenOlat-Kurses und Einbinden in die Kursnavigation
 Bewertbar | nein
-Spezialität / Hinweis | Muss von der Administration eingeschaltet werden. frentix empfiehlt den Einsatz nicht.
+Spezialität / Hinweis | Administrator:innen schalten den Kursbaustein in der System-Administration ein. frentix empfiehlt den Einsatz nicht.
 
 Mit dem Kursbaustein "Externe Seite" zeigen Sie eine Internetseite in Ihrem Kurs an und nehmen sie in die Kursnavigation auf. Die Adresse tragen Sie in der Konfiguration im Tab "Seiteninhalt" ein. Für die Anzeige stehen drei Darstellungen zur Wahl:
 
@@ -19,7 +19,7 @@ Mit dem Kursbaustein "Externe Seite" zeigen Sie eine Internetseite in Ihrem Kurs
 
 Für Seiten, die eine Authentifizierung erfordern und deren Quelle verborgen ist, können Sie "Seite Passwort geschützt" aktivieren und die notwendigen Zugangsdaten eintragen.
 
-Typische Anwendungsfälle sind Seiten mit Datenbankabfragen, zum Beispiel ein Literaturrecherche-Tool oder Online-Übungen aus dem Web. Es lassen sich nur externe Seiten über die Protokolle HTTP und HTTPS verlinken.
+Typische Anwendungsfälle sind Seiten mit Datenbankabfragen, zum Beispiel ein Literaturrecherche-Tool oder Online-Übungen aus dem Web. Der Kursbaustein bindet externe Seiten über die Protokolle HTTP und HTTPS ein.
 
 !!! warning "frentix empfiehlt, Domänen getrennt zu halten"
 
@@ -32,7 +32,11 @@ Typische Anwendungsfälle sind Seiten mit Datenbankabfragen, zum Beispiel ein Li
     Ihre OpenOlat-Instanz läuft unter einer eigenen Adresse, die eingebundene
     Seite unter einer anderen.
 
-Verweisen Sie stattdessen mit der [Linkliste](Course_Element_Link_List.de.md) auf die Seite. Ist der Kursbaustein in Ihrer Instanz nicht verfügbar, hat Ihre Administration ihn nicht eingeschaltet.
+    Eine separate Adresse für Inhalte nutzt dieser Kursbaustein nicht, auch
+    wenn sie eingerichtet ist: Er zeigt die fremde Seite direkt oder über die
+    Hauptadresse Ihrer OpenOlat-Instanz an.
+
+Verweisen Sie stattdessen mit der [Linkliste](Course_Element_Link_List.de.md) auf die Seite. Den Kursbaustein "Externe Seite" schalten Administrator:innen in der System-Administration ein: `Administration > Module > Externe Seite`. Mehr dazu im Administrationshandbuch unter [Modul Externe Seite](../../manual_admin/administration/Modules_External_Page.de.md).
 
 ## Tab "Seiteninhalt" konfigurieren
 
@@ -70,11 +74,11 @@ Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen Scr
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Linkliste" >](Course_Element_Link_List.de.md)<br>
+[Modul Externe Seite >](../../manual_admin/administration/Modules_External_Page.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)
 
 **Weiterführend**<br>
 [Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)<br>
-[Kursbaustein "LTI-Seite" >](Course_Element_LTI_Page.de.md)<br>
-[Modul Externe Seite >](../../manual_admin/administration/Modules_External_Page.de.md)
+[Kursbaustein "LTI-Seite" >](Course_Element_LTI_Page.de.md)
 
 [Zum Seitenanfang ^](#external_page)

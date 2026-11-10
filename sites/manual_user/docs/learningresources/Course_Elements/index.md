@@ -53,6 +53,8 @@ The following course elements can be used in particular to test knowledge.
 
 </div>
 
+Directly after "Checklist", the dialog shows the entry "Multiple checklists". With it, you create [multiple checklists in one step](../Course_Element_Checklist.md#multi).
+
 In most course elements of this group you can award points. You can then set up a [highscore](#highscore) in the tab "HighScore". The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](../Course_Element_Structure.md) takes care of this.
 
 All course elements of this group except Self-test, Practice and Survey have the tab "Reminders"; for Task and Group task in learning path courses it is called "Reminders & to-dos". There you set up emails that OpenOlat sends depending on the progress of the course element, for example if a task or a test has not been worked on by a certain date. The options are similar to those in the menu "Reminders" of the course: `Course > Administration > Reminders`. More about this: [Course Reminders](../Course_Reminders.md)
@@ -93,7 +95,7 @@ Which course elements are available for these purposes and which functionalities
 
 A virtual classroom allows you to work online (synchronously) with several people who are geographically separated from you. Functions of virtual classrooms include live chat, audio and video, desktop and document sharing. If you enter a virtual classroom through a course element, a new browser window opens in which the virtual session takes place.
 
-To be able to use all functionalities you will need a headset and a connected camera. Depending on your system you might have to download additional software temporarily.
+To be able to use all functionalities you will need a headset and a connected camera. Depending on the system used, you download additional software for the session.
 
 ## Administration and Organisation
 
@@ -117,19 +119,21 @@ Additional course elements can be found in the group "Other".
 <div class="grid cards" markdown>
 
 * [:o_icon_o_lti_icon: LTI Page](../Course_Element_LTI_Page.md)
-* [:o_icon_o_sp_icon: HTML-Page](../Course_Element_HTML_Page.md)
-* [:o_icon_o_tu_icon: External Page](../Course_Element_External_Page.md)
+* [:o_icon_o_sp_icon: HTML page](../Course_Element_HTML_Page.md)
+* [:o_icon_o_tu_icon: External page](../Course_Element_External_Page.md)
 * [:o_icon_o_projectbroker_icon: Topic Assignment](../Course_Element_Topic_Assignment.md)
 * [:o_icon_o_ll_icon: Link list](../Course_Element_Link_List.md)
 * [:o_icon_o_icon_cns: Selection](../Course_Element_Selection.md)
 
 </div>
 
+Directly after "HTML page", the dialog shows the entry "Multiple HTML pages". With it, you create [multiple HTML pages in one step](../Course_Element_HTML_Page.md#multi) from the files of the storage folder.
+
 ## General information on course elements
 
-All course elements have the tabs "**Title and description**" and "**Layout**". In addition, there are certain tabs that exist throughout depending on the technical course type. The tab "Learning path" only exists for learning path courses. The tabs "Visibility" and "Access" exist only for traditional courses.
+All course elements have the tabs "Title and description" and "Layout". Further tabs depend on the course type: course elements in learning path courses have the tab "Learning path", course elements in conventional courses the tabs "Visibility" and "Access".
 
-In addition to the course elements, there are other tools and learning resources in OpenOlat courses that can be used to design courses. You will find references to them in the respective chapters.
+In addition to the course elements, you design courses with further tools and learning resources. They are described in the respective chapters.
 
 ## Performance assessment
 

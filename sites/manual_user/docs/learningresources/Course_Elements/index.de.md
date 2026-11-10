@@ -12,8 +12,6 @@ Die Übersicht ordnet die Kursbausteine in dieselben Gruppen wie der Dialog "Kur
 
 Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturierung von Kursinhalten. Je nach Baustein können auch bestimmte, extern erstellte Inhalte eingebunden werden.
 
-<!--    [![single page icon](../assets/single_page_icon.png){ class=size16 } HTML-Seite](../Course_Element_Single_Page.de.md)-->
-
 * [:o_icon_o_st_icon: Struktur](../Course_Element_Structure.de.md)
 * [:o_icon_o_page_icon: Seite](../Course_Element_Page.de.md)
 * [:o_icon_o_cp_icon: CP-Lerninhalt](../Course_Element_CP_Learning_Content.de.md)
@@ -47,6 +45,8 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 * [:o_icon_o_survey_icon: Umfrage](../Course_Element_Survey.de.md)
 * [:o_icon_o_cl_icon: Checkliste](../Course_Element_Checklist.de.md)
 
+Direkt nach "Checkliste" steht im Dialog der Eintrag "Mehrere Checklisten". Damit legen Sie [mehrere Checklisten in einem Schritt](../Course_Element_Checklist.de.md#multi) an.
+
 In den meisten Kursbausteinen dieser Gruppe können Sie Punkte vergeben. Dann können Sie im Tab "HighScore" eine [Rangliste](#highscore) einrichten. Die Punkte mehrerer Kursbausteine lassen sich zusammenzählen, und das Bestehen eines Kurses kann von den Bewertungen verschiedener Kursbausteine abhängen. In herkömmlichen Kursen übernimmt das ein Kursbaustein [Struktur](../Course_Element_Structure.de.md).
 
 Alle Kursbausteine dieser Gruppe ausser Selbsttest, Übung und Umfrage haben den Tab "Erinnerungen", bei Aufgabe und Gruppenaufgabe in Lernpfadkursen heisst er "Erinnerungen & To-dos". Dort richten Sie E-Mails ein, die OpenOlat abhängig vom Bearbeitungsstand des Kursbausteins verschickt, zum Beispiel wenn eine Aufgabe oder ein Test zu einem bestimmten Datum noch nicht bearbeitet ist. Die Möglichkeiten gleichen denen im Menü "Erinnerung" des Kurses: `Kurs > Administration > Erinnerung`. Mehr dazu: [Erinnerungen](../Course_Reminders.de.md)
@@ -79,7 +79,7 @@ Welche Kursbausteine für diese Zwecke verfügbar sind und welche Funktionalitä
 
 Ein virtuelles Klassenzimmer ermöglicht es, gleichzeitig (synchron) online mit mehreren Personen zusammenzuarbeiten, die geographisch an unterschiedlichen Orten sind. Funktionen von virtuellen Klassenzimmern sind unter anderem Live-Chat, Audio und Video, Desktop- und Dokumentsharing. Betreten Sie ein virtuelles Klassenzimmer über einen Kursbaustein, öffnet sich ein neues Browserfenster, in dem die virtuelle Sitzung stattfindet.
 
-Damit Sie alle Funktionalitäten benutzen können, benötigen Sie ein Headset und eine angeschlossene Kamera. Unter Umständen muss, abhängig vom eingesetzten System, noch weitere Software temporär heruntergeladen werden.
+Damit Sie alle Funktionalitäten benutzen können, benötigen Sie ein Headset und eine angeschlossene Kamera. Je nach eingesetztem System laden Sie zusätzlich Software für die Sitzung herunter.
 
 ## Verwaltung und Organisation
 
@@ -103,11 +103,13 @@ Zusätzliche Kursbausteine finden Sie in der Gruppe "Andere".
 * [:o_icon_o_ll_icon: Linkliste](../Course_Element_Link_List.de.md)
 * [:o_icon_o_icon_cns: Auswahl](../Course_Element_Selection.de.md)
 
+Direkt nach "HTML-Seite" steht im Dialog der Eintrag "Mehrere HTML-Seiten". Damit legen Sie aus den Dateien des Ablageordners [mehrere HTML-Seiten in einem Schritt](../Course_Element_HTML_Page.de.md#multi) an.
+
 ## Allgemeines zu Kursbausteinen
 
-Alle Kursbausteine verfügen über die Tabs "**Titel und Beschreibung**" sowie "**Layout**". Darüber hinaus gibt es noch bestimmte Tabs, die je nach technischem Kurstyp durchgängig vorhanden sind. Der Tab "Lernpfad" existiert nur bei Lernpfadkursen. Die Tabs "Sichtbarkeit" und "Zugang" existieren nur bei den herkömmlichen Kursen.
+Alle Kursbausteine haben die Tabs "Titel und Beschreibung" und "Layout". Weitere Tabs hängen vom Kurstyp ab: Den Tab "Lernpfad" haben die Kursbausteine in Lernpfadkursen, die Tabs "Sichtbarkeit" und "Zugang" die Kursbausteine in herkömmlichen Kursen.
 
-Neben den Kursbausteinen gibt es in OpenOlat Kursen noch weitere Tools und Lernressourcen, die zur Ausgestaltung von Kursen verwendet werden können. Hinweise darauf finden Sie in den jeweiligen Kapiteln.
+Neben den Kursbausteinen gestalten Sie Kurse mit weiteren Werkzeugen und Lernressourcen. Sie sind in den jeweiligen Kapiteln beschrieben.
 
 ## Leistungsbewertung
 

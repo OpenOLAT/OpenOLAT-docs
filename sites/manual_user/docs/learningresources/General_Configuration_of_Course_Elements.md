@@ -11,66 +11,47 @@ The configuration overview shows at a glance how the course and its course eleme
 
 To adjust a course element, click it and you go directly to its configuration. If you select several course elements, the button "Change configuration" appears. With it, you apply certain changes to all selected course elements. Which changes are possible depends on the course element and the course design.
 
-![Checkboxes for jointly changing display, exclusion from course assessment and learning path fields of several selected course elements](assets/Kurseditor_Konfiguration_aendern.png){ class="shadow lightbox" title="Dialog Change configuration" }
+![Checkboxes Change for display, course assessment, learning time and execution that apply jointly to all selected course elements](assets/general_configuration_change_configuration_v1_en.png){ class="shadow lightbox" title="Dialog Change configuration in the configuration overview · 2026.11.10" }
 
 !!! tip "Tip"
 
-    Do not select all columns, but only the ones that give you the overview information you need. This keeps the display clear. In particular, the column "Description" should only be shown if the course elements do not contain long texts. The column "Points" is only relevant for assessment elements. It shows whether awarding points is enabled for the respective course elements.
+    Do not show all columns, but only the ones that give you the overview you need. This keeps the display clear. The column "Description" is only worthwhile if the course elements do not contain long texts there. The column "Points" is only relevant for assessable course elements: it shows whether the respective course element awards points.
 
 ## Adding Course Elements
 
-Once a course has been created, you can insert any number of course elements. You
-can also use several course elements of the same type and nest them as you like. However,
-the structure of an online course should always be sensible and didactically
-well thought out and keep the usability for the learners in mind.
+You build a course from course elements. You can insert any number of course elements, including several of the same type, and nest them as you like. Make sure the structure is didactically well thought out and easy for the learners to find their way around.
 
-To add a course element to the course, select "Insert course element" in the course editor and click the desired [course element](Course_Elements/index.md). The selected course element is added to the left navigation. It is always inserted beneath the course element that was selected or clicked beforehand. If the top element of the course is selected, the new course element is automatically inserted at the end of the course. You can move course elements to the desired position at any time with "Drag&Drop".
+To add a course element to the course, select "Insert course elements" in the course editor and click the desired [course element](Course_Elements/index.md). OpenOlat inserts it in the left navigation directly after the course element you selected there beforehand, on the same level. If the top element of the course is selected, the new course element is placed at the end of the course. With Drag&Drop, you move course elements to the desired position at any time.
 
-If you place the cursor at the desired position before adding the element, you
-do not need to move the new element again. In general, all course elements can be moved, duplicated and deleted. How this works is described on the page [Deleting, Moving and Copying Course Elements](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md).
+Two entries in the dialog "Insert course elements" create several course elements in one step: [Multiple HTML pages](Course_Element_HTML_Page.md#multi) creates one course element "HTML page" for each selected file of the storage folder, [Multiple checklists](Course_Element_Checklist.md#multi) creates several checklists from the same template.
 
-Once the course element has been added, it can be further configured.
+Before inserting, select the course element in the left navigation after which the new one is to be placed. Then you do not need to move the new course element afterwards. You can move, duplicate and delete all course elements. The page [Deleting, Moving and Copying Course Elements](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md) describes how this works.
+
+After inserting, you set up the course element in its tabs.
 
 ## Configuration tabs of course elements
 
-Each course element contains the tabs "Title and description" and "Layout". All course elements of a conventional course additionally have
-the tabs "Visibility" and "Access". In contrast, [learning path courses](Learning_path_course/index.md) additionally have the tab "Learning path".
+You set up each course element in several tabs. Every course element has the tabs "Title and description" and "Layout". Conventional courses add the tabs "Visibility" and "Access", [learning path courses](Learning_path_course/index.md) add the tab "Learning path".
 
-In addition, there are one or more tabs for the individual configuration of the respective course element.
+In addition, there are one or more tabs in which you set up the function of the respective course element.
 
 ### Tab "Title and description" {: #desc}
 
-In the tab "Title and description" you describe the course element
-in more detail. The field "Title" is mandatory. The "Title in course menu" corresponds to the display name in the left
-course navigation and is restricted to 25 characters. Do not use slashes or periods in
-either title field. Such special characters can cause problems when archiving courses.
+In the tab "Title and description" you define what the course element is called and what it is intended for.
 
-The entry in the field "Title" describes the course element in more detail. A maximum of 75 characters is recommended. The title is also
-displayed when moving the mouse over the short title in the course navigation and if you have chosen to display the title in the tab "Layout".
+The field "Title" is mandatory. The title describes the course element in more detail, a maximum of 75 characters is recommended. The course view shows it if you have chosen to display the title in the tab "Layout". In the course navigation, it appears when you move the mouse over the entry.
 
-In the field "Description" you can provide further information on the
-course element, for example what it is intended for.
+The "Title in course menu" is the name of the course element in the left course navigation. It is restricted to 25 characters. Choose as short a text as possible, one or two words, otherwise the left navigation becomes too wide and confusing. If the field remains empty, the course navigation shows the title, shortened to 25 characters.
 
-You enter further details in predefined fields when you expand the area
-"Insert additional information".
+Do not use slashes or periods in either title field. Such special characters can cause problems when archiving courses.
 
-In the field "Objectives" you can communicate concrete
-learning objectives for an individual course element. This is especially
-useful for course elements that are linked to more complex actions or for
-structure elements that bundle several other course elements and activities.
+In the field "Description" you explain what the course element is intended for. Three to four sentences are usually enough. The field is not intended for extensive contents, tasks or other information.
 
-In the field "Instructions" you can provide information to the
-participants how they should use the respective course element.
+When you expand the area "Insert additional information", three more fields are available:
 
-In the field "Instructions for the coach" you provide information for all
-coaches that is not seen by the participants.
-
-Use as short a text as possible (1-2 words) for the "Title in course menu", otherwise the
-left navigation becomes too wide and confusing.
-
-The "Description" is not intended for extensive contents, tasks or other
-information. Only the function of the course element is to be explained in more
-detail in the description. 3-4 sentences are suitable here as a rule.
+- **Objectives:** Here you name concrete learning objectives for this course element. This is especially worthwhile for course elements with more complex actions and for structure elements that bundle several course elements and activities.
+- **Instructions:** Here you tell the participants how they should use the course element.
+- **Instructions for the coach:** Here you provide information for all coaches. Participants do not see it.
 
 In the tab "Title and description" you will also find the ID of the respective
 course element. If you want to refer directly to this course element, for example from an e-mail or from a page in the course, you find the links for this here as well: expand the area "Set link for this course element".
@@ -81,47 +62,29 @@ course element. If you want to refer directly to this course element, for exampl
 
 **Course-internal link (do not open in new window):** With this link, you refer to this course element from an HTML page in the same course. Set it there as href attribute. The link is shown in a simple field: a click into it selects it completely, then copy it with <kbd>Ctrl</kbd>+<kbd>C</kbd> or on macOS with <kbd>Cmd</kbd>+<kbd>C</kbd>.
 
-You need the ID number in the upper left corner of the field to refer to
-another course element in its preconditions (e.g. visibility). Each course
-element has its own ID number.
+You need the ID number in the upper left corner of the tab when you refer to this course element in the rules of another course element, for example in the expert mode of the visibility. Each course element has its own ID number.
 
-![Id number of the course element highlighted](assets/Baustein_ID.png){ class="shadow lightbox" title="Tab Title and description of a course element" }
+![ID number of the course element in the upper left corner of the tab, above the fields Title and Title in course menu](assets/general_configuration_course_element_id_v1_en.png){ class="shadow lightbox" title="Tab Title and description of a course element · 2026.11.10" }
 
 ### Tab "Layout" [:octicons-tag-16:{ title="from Release 16.0 (OO-5520)" }](https://track.frentix.com/issue/OO-5520){:target="_blank"} {: #layout}
 
-In the tab "Layout" you define which details from the tab "Title and
-description" appear in the course view: whether a title is displayed and,
-if so, which of the two titles. Furthermore, you define a background image for the
-header of the course element here. You can choose between "Course default" (the image
-defined in the course settings in the tab "Layout"), "Inherited" and
-"Course element specific". The same applies to the style of the background image and the
-color category. The background image can be
-displayed on the right or on the left as well as full-surface or with a
-gradient. Under "Color category", a color can be selected or the color coding
-can generally be switched off.
+In the tab "Layout" you determine how the course element appears in the course view. Under "Display" you define whether the course view shows the "Title" and whether it should "Display description, objectives and instructions".
 
-The preview immediately shows how the headings of the configured course element
-appear in the course and what the overview of the course element looks like.
+Under "Teaser image" you choose the image for the heading of the course element. You can choose between "Course default" (the image from the tab "Layout" of the course settings), "Inherited" and "Course element specific". With "Course element specific" you upload your own image ("Upload image"), choose one from the library ("Image library") or do without an image ("None"). You have the same choice between "Course default", "Inherited" and "Course element specific" for "Teaser image style" and "Color category". As style, OpenOlat shows the image with "Gradient", "Right", "Left" or "Cover". Under "Color category" you choose a color ("Select category") or switch off the color coding ("None").
 
-![Display, background image and color settings with a live preview of the course element header](assets/Tab_Layoutd.png){ class="shadow lightbox" title="Tab Layout of a course element" }
+The "Preview" immediately shows what the heading of the course element looks like in the course and how the course element appears in the overview of a structure course element.
+
+![Display, teaser image, style and color category of a course element with a preview of its heading](assets/general_configuration_course_element_tab_layout_v1_en.png){ class="shadow lightbox" title="Tab Layout of a course element · 2026.11.10" }
 
 ### Tab "Visibility" and "Access" of conventional courses {: #access}
 
-The Visibility and Access tabs can be used to restrict access to a course
-element and all subordinate course elements so that only certain persons have
-access to this element. If the restriction is set to access, the course element
-is visible to all course members, but only certain persons have access to the
-course element. If the visibility is restricted, the course element is neither visible nor
-accessible for certain persons.
+With the tabs "Visibility" and "Access" you determine who can use a course element and all subordinate course elements. If you restrict the access, all course members see the course element, but only certain persons can open it. If you restrict the visibility, the excluded persons do not see the course element at all.
 
-If a course element is visible but not accessible for participants, it is
-recommended to add a corresponding explanation in the tab "Visibility" which
-explains the background of the blocked access to all excluded persons of the
-course.
+If a course element is visible but not accessible for participants, add an explanation in the tab "Visibility" under "Information if visible and no access". It tells all excluded persons why the access is blocked.
 
 In most cases, it is sufficient to restrict either the visibility or the access.
 
-The following settings and restrictions are possible in both tabs:
+The following restrictions are available in both tabs:
 
 * Blocked for participants
 * Depending on date
@@ -130,46 +93,19 @@ The following settings and restrictions are possible in both tabs:
 * Depending on attribute
 * Only in assessment mode
 
-**Blocked for participants**: All persons who are exclusively registered as
-course or group participants do not have access to this course element. This can be
-used, for example, if certain areas should (initially) only be visible to
-teachers.
+**Blocked for participants**: All persons who are exclusively registered as course or group participants do not have access to this course element. In this way, you make certain areas visible only to teachers at first, for example.
 
-**Depending on date**: Here you can define a start and/or end date incl.
-time for the visibility or the access to the course element. For example, you can
-activate a questionnaire only at the end of the course or make teaching
-materials available on a weekly basis.
+**Depending on date**: Here you define a start and/or end date with time for the visibility or the access. For example, you activate a questionnaire only at the end of the course or make teaching materials available on a weekly basis.
 
-**Depending on group**: In this way a course element can only be made
-available for a certain group. It often makes sense to apply the group
-dependency to a structure element and to subordinate all course elements relevant for
-this group to it.
+**Depending on group**: With this, you make a course element available only to a certain group. It often makes sense to apply the group dependency to a structure element and to place all course elements for this group beneath it.
 
-**Depending on assessment**: In this way, certain course elements or areas
-can be provided depending on other assessable course elements such as tests,
-tasks, portfolio tasks, checklists or assessments. You can check for a certain
-minimum score or for a "passed" of another course element. For example,
-certain areas of the course can only be activated once a certain test has been
-passed.
+**Depending on assessment**: With this, you provide course elements or areas depending on other assessable course elements, such as tests, tasks, portfolio tasks, checklists or assessments. OpenOlat checks a minimum score or the result "passed" of another course element. For example, you activate certain areas of the course only once a person has passed a certain test.
 
-**Depending on attribute**: In this way you make a course element available
-only to persons with certain characteristics of their university or
-institution, for example only to members of a certain university or field of
-study. Each rule consists of an "Attribute", an "Operator" such as "has exactly
-the value" or "contains the value", and a "Value". Click "+" to add further
-rules. Under "Rules connected with" you define whether all rules must apply
-("AND") or whether one is enough ("OR"). The university or institution
-transmits the attributes when the person logs in via Shibboleth (AAI). The rule
-therefore only applies to persons who log in via Shibboleth. The option only
-appears if your OpenOlat instance offers login via Shibboleth and attributes
-are set up for it. For the setup, contact your organization. For more
-information on the attributes, see the section [Use of AAI Attributes](Access_Restrictions_in_the_Expert_Mode.md#use-of-aai-attributes).
+**Depending on attribute**: With this, you make a course element available only to persons with certain characteristics of their university or institution, for example only to members of a certain university or field of study. Each rule consists of an "Attribute", an "Operator" such as "has exactly the value" or "contains the value", and a "Value". Click "+" to add further rules. Under "Rules connected with" you define whether all rules must apply ("AND") or whether one is enough ("OR"). The university or institution transmits the attributes when the person logs in via Shibboleth (AAI). The rule therefore only applies to persons who log in via Shibboleth. The option only appears if your OpenOlat instance offers login via Shibboleth and attributes are set up for it. For the setup, contact your organization. For more information on the attributes, see the section [Use of AAI Attributes](Access_Restrictions_in_the_Expert_Mode.md#use-of-aai-attributes).
 
-**Only in assessment mode**: If you want certain course elements to be
-displayed or accessible only during an OpenOlat assessment situation, select
-this setting. For more information, refer to the section [Assessment Mode](../learningresources/Assessment_mode.md).
+**Only in assessment mode**: Select this setting if course elements should be visible or accessible only during an exam in assessment mode. For more information, refer to the section [Assessment Mode](../learningresources/Assessment_mode.md).
 
-**Apply rules also for owners and coaches**: In order for a restriction to apply to owners and coaches as well, this option must be checked. If this checkbox is not checked, owners, coaches and administrators always see the course element, regardless of which visibility rules are set.
+**Apply rules also for owners and coaches**: Activate this option so that a restriction also applies to owners and coaches. Without the checkmark, owners, coaches and administrators always see the course element, regardless of the visibility rules set.
 
 ???+ info "Configuration example for restricting visibility"
 
@@ -189,35 +125,20 @@ this setting. For more information, refer to the section [Assessment Mode](../le
 
     For people with multiple roles, the access/visibility restrictions take effect according to the currently selected role.
 
-The button "Display expert mode" takes you to an input field where you define a more complex
-configuration according to your needs. The syntax is described on the page [Access Restrictions in the Expert Mode](Access_Restrictions_in_the_Expert_Mode.md). It is also possible to first make a
-basic setting using the general settings and then extend the syntax in expert
-mode. Expert mode offers a wide range of options for linking different
-restrictions to each other. For example, it can be configured that a certain
-course element is only activated from a certain date and only if two tests
-have been passed or if at least 10 points have been reached in a checklist or
-if the person is a member of a certain group.
+The button "Display expert mode" takes you to an input field where you define more complex rules according to your needs. The page [Access Restrictions in the Expert Mode](Access_Restrictions_in_the_Expert_Mode.md) describes the syntax. You can also first define a basic setting in the simple mode and then extend the rule in expert mode. In expert mode, you link different restrictions in a very differentiated way. An example: a course element opens only from a certain date, and only if the person has passed two tests, has reached at least 10 points in a checklist or is a member of a certain group.
 
-All restrictions on course elements are inherited by subordinate course
-elements.
+All restrictions of a course element also apply to its subordinate course elements.
 
-Furthermore the [course element "Structure"](Course_Element_Structure.md) offers the possibility to
-store a password. All subordinate course elements will then only be visible to
-persons having the appropriate password. That way you can e.g. integrate
-additional content within a course that is only available to persons who have
-paid for that additional content or activate course elements for certain
-levels in the context of gamebased learning.
+For the [course element "Structure"](Course_Element_Structure.md) you can additionally store a password in the tab "Access". The structure element and all subordinate course elements then only open for persons who enter the password. In this way, you make additional content accessible only to persons who have paid for it, for example, or activate course elements for certain levels in the context of game-based learning.
 
-Learning path courses do not allow these restrictions. If you need these
-specific selective releases, you must use a conventional course.
-
-You can find information about the tab "Learning path" of learning path courses on the page
-[Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md).
+These restrictions only exist in conventional courses. If you need such targeted releases, use a conventional course. In learning path courses, you control the release in the tab "Learning path", which the page [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md) describes.
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
+[Course Element "HTML page" >](Course_Element_HTML_Page.md)<br>
+[Course Element "Checklist" >](Course_Element_Checklist.md)<br>
 [Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>

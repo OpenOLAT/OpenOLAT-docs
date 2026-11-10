@@ -11,75 +11,49 @@ Die Konfigurationsübersicht zeigt auf einen Blick, wie der Kurs und seine Kursb
 
 Um einen Kursbaustein anzupassen, klicken Sie ihn an und gelangen direkt zu seiner Konfiguration. Wählen Sie mehrere Kursbausteine aus, erscheint der Button "Konfiguration ändern". Damit übernehmen Sie bestimmte Änderungen für alle gewählten Kursbausteine. Welche Änderungen möglich sind, hängt vom Kursbaustein und vom Kursdesign ab.
 
-![Checkboxen für Anzeige, Bewertungsausschluss sowie Lernpfad-Felder mehrerer markierter Kursbausteine](assets/Kurseditor_Konfiguration_aendern.png){ class="shadow lightbox" title="Dialog Konfiguration ändern" }
+![Checkboxen Ändern für Anzeige, Kurs-Bewertung, Bearbeitungszeit und Durchführung, die für alle markierten Kursbausteine gemeinsam gelten](assets/general_configuration_change_configuration_v1_de.png){ class="shadow lightbox" title="Dialog Konfiguration ändern in der Konfigurationsübersicht · 2026.11.10" }
 
 !!! tip "Tipp"
 
-    Wählen Sie nicht alle, sondern gezielt die Spalten aus, über die Sie Überblicksinformationen erhalten wollen. So bleibt die Anzeige übersichtlich. Besonders die Spalte "Beschreibung" sollte nur eingeblendet werden, wenn in den Kursbausteinen hier keine langen Texte eingetragen sind. Die Spalte "Punkte" ist nur für Assessmentbausteine relevant. Hier wird angezeigt, ob für die jeweiligen Kursbausteine die Vergabe von Punkten aktiviert ist oder nicht.
+    Blenden Sie nicht alle Spalten ein, sondern gezielt die, die Ihnen den gewünschten Überblick geben. So bleibt die Anzeige übersichtlich. Die Spalte "Beschreibung" lohnt sich nur, wenn die Kursbausteine dort keine langen Texte tragen. Die Spalte "Punkte" ist nur für bewertbare Kursbausteine relevant: Sie zeigt, ob der jeweilige Kursbaustein Punkte vergibt.
 
 
 ## Hinzufügen von Kursbausteinen
 
-Ist ein Kurs erstellt, kann man beliebig viele Kursbausteine einfügen. Dabei
-können auch mehrere Kursbausteine desselben Typs verwendet und beliebig verschachtelt werden. Jedoch sollte der Aufbau eines Online-Kurses immer
-sinnvoll und didaktisch durchdacht sein und die Usability für die
-Lernenden im Blick behalten.
+Einen Kurs bauen Sie aus Kursbausteinen auf. Sie können beliebig viele Kursbausteine einfügen, auch mehrere desselben Typs, und sie beliebig verschachteln. Achten Sie dabei auf einen didaktisch durchdachten Aufbau, in dem sich die Lernenden leicht zurechtfinden.
 
-Um einen Kursbaustein dem Kurs hinzuzufügen wählen Sie im Kurseditor "Kursbaustein einfügen" und klicken auf den gewünschten [Kursbaustein](Course_Elements/index.de.md). Der gewählte Kursbaustein wird in der linken Navigation hinzugefügt. Dabei wird der ausgewählte Baustein grundsätzlich unterhalb des im Vorfeld ausgewählten bzw. angeklickten Bausteins hinzugefügt. Ist das oberste Element des Kurses ausgewählt, wird der neue Kursbaustein automatisch am Ende des Kurses eingefügt. Sie können Kursbausteine jederzeit mit "Drag&Drop" an den gewünschten Ort verschieben.
+Um einen Kursbaustein dem Kurs hinzuzufügen, wählen Sie im Kurseditor "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](Course_Elements/index.de.md). OpenOlat fügt ihn in der linken Navigation direkt nach dem Kursbaustein ein, den Sie vorher dort gewählt haben, auf derselben Ebene. Ist das oberste Element des Kurses gewählt, steht der neue Kursbaustein am Ende des Kurses. Mit Drag&Drop verschieben Sie Kursbausteine jederzeit an den gewünschten Ort.
 
-Platzieren Sie den Cursor vor dem Hinzufügen des Bausteins bereits an die
-gewünschte Stelle, dann brauchen Sie den neuen Baustein nicht noch einmal zu
-verschieben. Generell können alle Kursbausteine verschoben, dupliziert und gelöscht werden. Wie das geht, beschreibt die Seite [Löschen, Verschieben und Kopieren von Kursbausteinen](../learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md).
+Zwei Einträge im Dialog "Kursbausteine einfügen" legen mehrere Kursbausteine in einem Schritt an: [Mehrere HTML-Seiten](Course_Element_HTML_Page.de.md#multi) erzeugt aus den ausgewählten Dateien des Ablageordners je einen Kursbaustein "HTML-Seite", [Mehrere Checklisten](Course_Element_Checklist.de.md#multi) legt mehrere Checklisten nach derselben Vorlage an.
 
-Ist der Kursbaustein hinzugefügt, kann er weiter konfiguriert werden.
+Wählen Sie vor dem Einfügen in der linken Navigation den Kursbaustein, hinter dem der neue stehen soll. Dann müssen Sie den neuen Kursbaustein nicht mehr verschieben. Alle Kursbausteine lassen sich verschieben, duplizieren und löschen. Wie das geht, beschreibt die Seite [Löschen, Verschieben und Kopieren von Kursbausteinen](../learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md).
+
+Nach dem Einfügen richten Sie den Kursbaustein in seinen Tabs ein.
 
 
 ## Konfigurationstabs von Kursbausteinen
 
-Jeder Kursbaustein beinhaltet die Tabs "Titel und Beschreibung" sowie
-"Layout". Alle Kursbausteine eines herkömmlichen Kurses verfügen zusätzlich
-über die Tabs "Sichtbarkeit" und "Zugang". Dagegen verfügen die [Lernpfadkurse](Learning_path_course/index.de.md) zusätzlich
-über den Tab "Lernpfad".
+Jeden Kursbaustein richten Sie in mehreren Tabs ein. Die Tabs "Titel und Beschreibung" und "Layout" hat jeder Kursbaustein. In herkömmlichen Kursen kommen die Tabs "Sichtbarkeit" und "Zugang" dazu, in [Lernpfadkursen](Learning_path_course/index.de.md) der Tab "Lernpfad".
 
-Daneben gibt es einen oder mehrere Tabs zur individuellen Konfiguration des
-jeweiligen Kursbausteins.
+Dazu kommen ein oder mehrere Tabs, in denen Sie die Funktion des jeweiligen Kursbausteins einrichten.
 
 ### Tab "Titel und Beschreibung" {: #desc}
 
-Im Tab "Titel und Beschreibung" beschreiben Sie den Kursbaustein genauer. Das
-Feld "Titel" ist ein Pflichtfeld und muss ausgefüllt werden. Der "Titel im Kursmenü" entspricht dem Anzeigenamen in der linken
-Kursnavigation und ist in der Eingabe auf 25 Zeichen beschränkt. Verwenden Sie
-in beiden Titelfeldern keine Schrägstriche und Punkte. Die Verwendung solcher
-Sonderzeichen kann beim Archivieren von Kursen zu Problemen führen.
+Im Tab "Titel und Beschreibung" legen Sie fest, wie der Kursbaustein heisst und wofür er gedacht ist.
 
-Der Eintrag im Feld "Titel" beschreibt den Kursbaustein genauer. Empfohlen sind höchstens 75 Zeichen. Der Titel wird auch
-angezeigt, wenn man in der Kursnavigation mit der Maus über den kurzen Titel
-fährt und wenn man im Tab "Layout" die Anzeige des Titels gewählt hat.
+Das Feld "Titel" ist ein Pflichtfeld. Der Titel beschreibt den Kursbaustein genauer, empfohlen sind höchstens 75 Zeichen. Die Kursansicht zeigt ihn, wenn Sie im Tab "Layout" die Anzeige des Titels gewählt haben. In der Kursnavigation erscheint er, wenn Sie mit der Maus über den Eintrag fahren.
 
-Im Feld "Beschreibung" können Sie weitere Informationen zum Kursbaustein
-eingeben, z.B. wofür er gedacht ist.
+Der "Titel im Kursmenü" ist der Name des Kursbausteins in der linken Kursnavigation. Er ist auf 25 Zeichen beschränkt. Wählen Sie einen möglichst kurzen Text von ein bis zwei Wörtern, sonst wird die linke Navigation zu breit und unübersichtlich. Bleibt das Feld leer, zeigt die Kursnavigation den Titel, gekürzt auf 25 Zeichen.
 
-Weitere Angaben machen Sie in vorgegebenen Feldern, wenn Sie den Bereich
-"Erweiterte Informationen eingeben" aufklappen.
+Verwenden Sie in beiden Titelfeldern keine Schrägstriche und Punkte. Solche Sonderzeichen können beim Archivieren von Kursen zu Problemen führen.
 
-Im Feld "Lernziele" können Sie konkrete Lernziele für einen einzelnen
-Baustein mitteilen. Das ist besonders sinnvoll, wenn es sich um Kursbausteine
-handelt, die mit komplexeren Aktionen verbunden sind oder bei
-Strukturbausteinen, die mehrere weitere Kursbausteine und Aktivitäten bündeln.
+Im Feld "Beschreibung" erläutern Sie, wofür der Kursbaustein gedacht ist. Drei bis vier Sätze genügen in der Regel. Für umfangreiche Inhalte, Aufgabenstellungen oder weitere Informationen ist das Feld nicht gedacht.
 
-Im Feld "Anweisungen" können Sie den Teilnehmenden Informationen
-bereitstellen, wie diese den jeweiligen Kursbaustein nutzen sollen.
+Wenn Sie den Bereich "Erweiterte Informationen eingeben" aufklappen, stehen drei weitere Felder zur Verfügung:
 
-Im Feld "Hinweise für die Betreuer:innen" stellen Sie Informationen für alle
-Betreuer:innen bereit, die von den Teilnehmenden nicht gesehen werden.
-
-Verwenden Sie für den "Titel im Kursmenü" einen möglichst kurzen Text (1-2
-Wörter), da ansonsten die linke Navigation zu breit und unübersichtlich wird.
-
-Die "Beschreibung" ist nicht für umfangreiche Inhalte, Aufgabenstellungen oder
-sonstige Informationen gedacht. In der Beschreibung sollte lediglich die
-Funktion des Kursbausteins näher erläutert werden. 3-4 Sätze sind hier in
-der Regel passend.
+- **Lernziele:** Hier nennen Sie konkrete Lernziele für diesen Kursbaustein. Das lohnt sich besonders bei Kursbausteinen mit komplexeren Aktionen und bei Strukturbausteinen, die mehrere Kursbausteine und Aktivitäten bündeln.
+- **Anweisungen:** Hier sagen Sie den Teilnehmenden, wie sie den Kursbaustein nutzen sollen.
+- **Hinweise für die Betreuer:innen:** Hier stellen Sie Informationen für alle Betreuer:innen bereit. Teilnehmende sehen sie nicht.
 
 Im Tab "Titel und Beschreibung" finden Sie auch die ID des jeweiligen
 Kursbausteins. Möchten Sie direkt auf diesen Kursbaustein verweisen, etwa aus einer E-Mail oder aus einer Seite im Kurs, finden Sie die Links dazu ebenfalls hier: Klappen Sie den Bereich "Link auf diesen Kursbaustein setzen" auf.
@@ -90,100 +64,50 @@ Kursbausteins. Möchten Sie direkt auf diesen Kursbaustein verweisen, etwa aus e
 
 **Kursinterner Link (nicht in neuem Fenster öffnen):** Mit diesem Link verweisen Sie aus einer HTML-Seite im selben Kurs auf diesen Kursbaustein. Setzen Sie ihn dort als href-Attribut. Der Link steht in einem einfachen Feld: Ein Klick hinein markiert ihn ganz, kopieren Sie ihn dann mit <kbd>Ctrl</kbd>+<kbd>C</kbd> oder unter macOS mit <kbd>Cmd</kbd>+<kbd>C</kbd>.
 
-Die ID-Nummer links oben im Feld brauchen Sie, um in den Vorbedingungen
-(z.B. Sichtbarkeit) eines anderen Kursbausteins auf diesen zu verweisen. Jeder
-Kursbaustein hat eine eigene ID-Nummer.
+Die ID-Nummer links oben im Tab brauchen Sie, wenn Sie in den Regeln eines anderen Kursbausteins auf diesen verweisen, etwa im Expertenmodus der Sichtbarkeit. Jeder Kursbaustein hat eine eigene ID-Nummer.
 
-![Id-Nummer des Kursbausteins hervorgehoben](assets/Baustein_ID.png){ class="shadow lightbox" title="Tab Titel und Beschreibung eines Kursbausteins" }
+![ID-Nummer des Kursbausteins links oben im Tab, über den Feldern Titel und Titel im Kursmenü](assets/general_configuration_course_element_id_v1_de.png){ class="shadow lightbox" title="Tab Titel und Beschreibung eines Kursbausteins · 2026.11.10" }
 
 ### Tab "Layout" [:octicons-tag-16:{ title="ab Release 16.0 (OO-5520)" }](https://track.frentix.com/issue/OO-5520){:target="_blank"} {: #layout}
 
-Im Tab "Layout" legen Sie fest, welche Angaben aus dem Tab "Titel und
-Beschreibung" in der Kursansicht erscheinen: ob ein Titel angezeigt wird und,
-wenn ja, welcher der beiden Titel. Ferner legen Sie hier ein Hintergrundbild für den
-Header des Kursbausteins fest. Zur Wahl stehen "Kurs Standard" (das Bild, das
-in den Einstellungen des Kurses im Tab "Layout" definiert ist), "Vererbt" und
-"Kursbaustein spezifisch". Gleiches gilt für den Stil des Hintergrundbildes und die
-Farbkategorie. Das Hintergrundbild kann rechts oder links sowie vollflächig
-oder mit einem Verlauf dargestellt werden. Unter "Farbkategorie" kann eine Farbe
-ausgewählt oder die Farbkennzeichnung generell abgeschaltet werden.
+Im Tab "Layout" bestimmen Sie, wie der Kursbaustein in der Kursansicht erscheint. Unter "Anzeige" legen Sie fest, ob die Kursansicht den "Titel" zeigt und ob sie "Beschreibung, Lernziele und Anweisungen anzeigen" soll.
 
-Die Vorschau zeigt sofort, wie sich die Überschriften des konfigurierten
-Kursbausteins im Kurs darstellen und wie die Übersicht des
-Kursbausteins aussieht.
+Unter "Hintergrundbild" wählen Sie das Bild zur Überschrift des Kursbausteins. Zur Wahl stehen "Kurs Standard" (das Bild aus dem Tab "Layout" der Kurseinstellungen), "Vererbt" und "Kursbaustein spezifisch". Mit "Kursbaustein spezifisch" laden Sie ein eigenes Bild hoch ("Bild hochladen"), wählen eines aus der Bibliothek ("Bild aus Bibliothek") oder verzichten auf ein Bild ("Ohne"). Dieselbe Auswahl zwischen "Kurs Standard", "Vererbt" und "Kursbaustein spezifisch" haben Sie bei "Stil Hintergrundbild" und "Farbkategorie". Als Stil zeigt OpenOlat das Bild mit "Verlauf", "Rechts", "Links" oder "Vollflächig". Unter "Farbkategorie" wählen Sie eine Farbe ("Kategorie auswählen") oder schalten die Farbkennzeichnung ab ("Ohne").
 
-![Anzeige-, Hintergrundbild- und Farbeinstellungen mit Live-Vorschau des Kursbaustein-Headers](assets/Tab_Layoutd.png){ class="shadow lightbox" title="Tab Layout eines Kursbausteins" }
+Die "Vorschau" zeigt sofort, wie die Überschrift des Kursbausteins im Kurs aussieht und wie der Kursbaustein in der Übersicht eines Struktur-Kursbausteins erscheint.
+
+![Anzeige, Hintergrundbild, Stil und Farbkategorie eines Kursbausteins mit Vorschau seiner Überschrift](assets/general_configuration_course_element_tab_layout_v1_de.png){ class="shadow lightbox" title="Tab Layout eines Kursbausteins · 2026.11.10" }
 
 ### Tab "Sichtbarkeit" und "Zugang" der herkömmlichen Kurse {: #access}
 
-Über die Tabs Sichtbarkeit und Zugang kann der Zugriff auf einen Kursbaustein
-und aller untergeordneten Kursbausteine eingeschränkt werden, so dass nur
-bestimmte Personen Zugriff auf diesen Baustein erhalten. Setzt man die
-Einschränkung auf den Zugang, ist der Baustein zwar für alle Kursmitglieder
-sichtbar, aber nur bestimmte Personen haben Zugriff auf den Baustein. Wird die
-Sichtbarkeit eingeschränkt, ist der Baustein für bestimmte Personen weder
-sichtbar noch zugänglich.
+Über die Tabs "Sichtbarkeit" und "Zugang" bestimmen Sie, wer einen Kursbaustein und alle untergeordneten Kursbausteine nutzen kann. Schränken Sie den Zugang ein, sehen alle Kursmitglieder den Kursbaustein, öffnen können ihn aber nur bestimmte Personen. Schränken Sie die Sichtbarkeit ein, sehen die ausgeschlossenen Personen den Kursbaustein gar nicht.
 
-Ist ein Kursbaustein für Teilnehmende sichtbar, aber nicht zugänglich, ist es
-empfehlenswert, im Tab "Sichtbarkeit" eine entsprechende Erläuterung zu ergänzen,
-die allen ausgeschlossenen Personen des Kurses die Hintergründe des gesperrten
-Zugangs erklärt.
+Ist ein Kursbaustein für Teilnehmende sichtbar, aber nicht zugänglich, ergänzen Sie im Tab "Sichtbarkeit" unter "Information wenn sichtbar und kein Zugang" eine Erläuterung. Sie erklärt allen ausgeschlossenen Personen, warum der Zugang gesperrt ist.
 
-In den meisten Fällen reicht es, entweder die Sichtbarkeit oder den Zugang zu
-beschränken.
+In den meisten Fällen genügt es, entweder die Sichtbarkeit oder den Zugang zu beschränken.
 
-Folgende Einstellungen bzw. Einschränkungen sind in beiden Tabs möglich:
+Folgende Einschränkungen stehen in beiden Tabs zur Wahl:
 
 * Für Teilnehmende gesperrt
 * Datumsabhängig
 * Gruppenabhängig
 * Bewertungsabhängig
 * Attributsabhängig
-* Nur in Prüfungsmodus
+* Nur im Prüfungsmodus
 
-**Für Teilnehmende gesperrt**: Alle Personen, die ausschliesslich als Kurs- oder
-Gruppenteilnehmer:innen eingetragen sind, haben keinen Zugriff auf diesen Baustein.
-Dies kann beispielsweise genutzt werden, wenn bestimmte Bereiche (zunächst)
-nur für die Lehrenden sichtbar sein sollen.
+**Für Teilnehmende gesperrt**: Alle Personen, die ausschliesslich als Kurs- oder Gruppenteilnehmer:innen eingetragen sind, haben keinen Zugriff auf diesen Kursbaustein. So machen Sie bestimmte Bereiche zum Beispiel zunächst nur für die Lehrenden sichtbar.
 
-**Datumsabhängig**: Hier kann ein Start- und/oder Enddatum inkl. Uhrzeit für
-die Sichtbarkeit bzw. den Zugang zum Baustein definiert werden. So können Sie
-z.B. einen Fragebogen erst zum Ende des Kurses freischalten oder
-Lehrmaterialien wöchentlich getaktet zur Verfügung stellen.
+**Datumsabhängig**: Hier legen Sie ein Start- und/oder Enddatum mit Uhrzeit für die Sichtbarkeit bzw. den Zugang fest. So schalten Sie zum Beispiel einen Fragebogen erst zum Ende des Kurses frei oder stellen Lehrmaterialien wöchentlich getaktet zur Verfügung.
 
-**Gruppenabhängig**: Auf diesem Weg kann ein Baustein nur für eine bestimmte
-Gruppe zur Verfügung gestellt werden. Häufig ist es sinnvoll, die
-Gruppenabhängigkeit auf einen Strukturbaustein anzuwenden und alle für diese
-Gruppe relevanten Bausteine dort unterzuordnen.
+**Gruppenabhängig**: Damit stellen Sie einen Kursbaustein nur einer bestimmten Gruppe zur Verfügung. Oft ist es sinnvoll, die Gruppenabhängigkeit auf einen Strukturbaustein anzuwenden und alle Kursbausteine für diese Gruppe darunter einzuordnen.
 
-**Bewertungsabhängig**: Auf diesem Weg können bestimmte Kursbausteine oder
-Bereiche in Abhängigkeit von anderen bewertbaren Kursbausteinen wie Tests,
-Aufgaben, Portfolioaufgabe, Checkliste oder Bewertungen bereitgestellt werden.
-Dabei kann sowohl auf eine bestimmte Mindestpunktzahl oder auf ein "bestanden"
-eines anderen Kursbausteins geprüft werden. Beispielsweise können bestimmte
-Bereiche des Kurses erst freigeschaltet werden, wenn ein bestimmter Test
-bestanden wurde.
+**Bewertungsabhängig**: Damit stellen Sie Kursbausteine oder Bereiche abhängig von anderen bewertbaren Kursbausteinen bereit, etwa von Tests, Aufgaben, Portfolioaufgaben, Checklisten oder Bewertungen. OpenOlat prüft dabei eine Mindestpunktzahl oder das Ergebnis "bestanden" eines anderen Kursbausteins. So schalten Sie zum Beispiel bestimmte Bereiche des Kurses erst frei, wenn eine Person einen bestimmten Test bestanden hat.
 
-**Attributsabhängig**: Auf diesem Weg stellen Sie einen Baustein nur Personen
-mit bestimmten Merkmalen ihrer Hochschule oder Institution zur Verfügung, zum
-Beispiel nur Angehörigen einer bestimmten Universität oder Studienrichtung.
-Jede Regel besteht aus einem "Attribut", einem "Operator" wie "hat exakt den
-Wert" oder "enthält den Wert" und einem "Wert". Mit "+" fügen Sie weitere
-Regeln hinzu. Unter "Regeln verknüpft mit" legen Sie fest, ob alle Regeln
-zutreffen müssen ("UND") oder ob eine genügt ("ODER"). Die Attribute übermittelt
-die Hochschule oder Institution, wenn sich die Person über Shibboleth (AAI)
-anmeldet. Die Regel greift deshalb nur bei Personen, die sich über Shibboleth
-anmelden. Die Option erscheint nur, wenn Ihre OpenOlat-Instanz die Anmeldung
-über Shibboleth anbietet und Attribute dafür eingerichtet sind. Für die
-Einrichtung wenden Sie sich an Ihre Organisation. Mehr zu den Attributen finden
-Sie im Abschnitt [Einsatz von AAI-Attributen](Access_Restrictions_in_the_Expert_Mode.de.md#einsatz-von-aai-attributen).
+**Attributsabhängig**: Damit stellen Sie einen Kursbaustein nur Personen mit bestimmten Merkmalen ihrer Hochschule oder Institution zur Verfügung, zum Beispiel nur Angehörigen einer bestimmten Universität oder Studienrichtung. Jede Regel besteht aus einem "Attribut", einem "Operator" wie "hat exakt den Wert" oder "enthält den Wert" und einem "Wert". Mit "+" fügen Sie weitere Regeln hinzu. Unter "Regeln verknüpft mit" legen Sie fest, ob alle Regeln zutreffen müssen ("UND") oder ob eine genügt ("ODER"). Die Attribute übermittelt die Hochschule oder Institution, wenn sich die Person über Shibboleth (AAI) anmeldet. Die Regel greift deshalb nur bei Personen, die sich über Shibboleth anmelden. Die Option erscheint nur, wenn Ihre OpenOlat-Instanz die Anmeldung über Shibboleth anbietet und Attribute dafür eingerichtet sind. Für die Einrichtung wenden Sie sich an Ihre Organisation. Mehr zu den Attributen finden Sie im Abschnitt [Einsatz von AAI-Attributen](Access_Restrictions_in_the_Expert_Mode.de.md#einsatz-von-aai-attributen).
 
-**Nur in Prüfungsmodus**: Sollen bestimmte Kursbausteine nur während einer
-OpenOlat Prüfungssituation angezeigt werden bzw. zugänglich sein, wählen Sie
-diese Einstellung. Weitere Informationen finden Sie im Abschnitt
-[Prüfungsmodus](../learningresources/Assessment_mode.de.md).
+**Nur im Prüfungsmodus**: Wählen Sie diese Einstellung, wenn Kursbausteine nur während einer Prüfung im Prüfungsmodus sichtbar oder zugänglich sein sollen. Weitere Informationen finden Sie im Abschnitt [Prüfungsmodus](../learningresources/Assessment_mode.de.md).
 
-**Regeln auch bei Besitzer:innen und Betreuer:innen anwenden**: Damit eine Einschränkung auch für Besitzer:innen und Betreuer:innen gilt, muss diese Option aktiviert sein. Ist diese Checkbox nicht angekreuzt, sehen Besitzer:innen, Betreuer:innen und Administrator:innen den Kursbaustein immer, unabhängig davon, welche Sichtbarkeitsregeln eingestellt sind.
+**Regeln auch bei Besitzer:innen und Betreuer:innen anwenden**: Aktivieren Sie diese Option, damit eine Einschränkung auch für Besitzer:innen und Betreuer:innen gilt. Ohne Häkchen sehen Besitzer:innen, Betreuer:innen und Administrator:innen den Kursbaustein immer, unabhängig von den eingestellten Sichtbarkeitsregeln.
 
 ???+ info "Konfigurationsbeispiel zur Einschränkung der Sichtbarkeit"
 
@@ -203,39 +127,20 @@ diese Einstellung. Weitere Informationen finden Sie im Abschnitt
 
     Bei Personen mit mehreren Rollen wirken sich die Zugangs- bzw. Sichtbarkeitsbeschränkungen entsprechend der aktuell ausgewählten Rolle aus.
 
-Über den Button "Expertenmodus anzeigen" gelangen Sie zu einem Eingabefeld, in dem Sie eine komplexere
-Konfiguration nach Ihren Bedürfnissen festlegen. Die Syntax beschreibt die Seite [Zugriffsbeschränkungen im Expertenmodus](Access_Restrictions_in_the_Expert_Mode.de.md). Es ist auch
-möglich, erst eine Grundeinstellung über die generellen Einstellungen
-festzulegen und dann die Syntax im Expertenmodus zu erweitern. Der
-Expertenmodus bietet sehr differenzierte Möglichkeiten, verschiedene
-Einschränkungen miteinander zu verknüpfen. Beispielsweise kann konfiguriert
-werden, dass ein bestimmter Kursbaustein erst ab einem bestimmten Datum
-freigeschaltet wird, und nur, wenn zwei Tests bestanden wurden oder wenn in einer
-Checkliste mindestens 10 Punkte erreicht wurden oder wenn die Person Mitglied
-einer bestimmten Gruppe ist.
+Über den Button "Expertenmodus anzeigen" gelangen Sie zu einem Eingabefeld, in dem Sie komplexere Regeln nach Ihren Bedürfnissen festlegen. Die Syntax beschreibt die Seite [Zugriffsbeschränkungen im Expertenmodus](Access_Restrictions_in_the_Expert_Mode.de.md). Sie können auch zuerst eine Grundeinstellung im einfachen Modus festlegen und die Regel dann im Expertenmodus erweitern. Im Expertenmodus verknüpfen Sie verschiedene Einschränkungen sehr differenziert. Ein Beispiel: Ein Kursbaustein öffnet sich erst ab einem bestimmten Datum, und nur, wenn die Person zwei Tests bestanden hat, in einer Checkliste mindestens 10 Punkte erreicht hat oder Mitglied einer bestimmten Gruppe ist.
 
-Alle Beschränkungen auf Kursbausteine vererben sich auf untergeordnete
-Kursbausteine.
+Alle Einschränkungen eines Kursbausteins gelten auch für seine untergeordneten Kursbausteine.
 
-Darüber hinaus bietet der [Kursbaustein "Struktur"](Course_Element_Structure.de.md) noch die Möglichkeit,
-ein Passwort zu hinterlegen. Alle untergeordneten Kursbausteine sind dann nur
-für Personen sichtbar, die über das passende Passwort verfügen. So können Sie
-z.B. innerhalb eines Kurses weitere Inhalte integrieren, die nur Personen
-erhalten, die für diesen zusätzlichen Content bezahlt haben, oder
-Kursbausteine für bestimmte Level im Rahmen von gamebased learning
-freischalten.
+Beim [Kursbaustein "Struktur"](Course_Element_Structure.de.md) hinterlegen Sie im Tab "Zugang" zusätzlich ein Passwort. Den Strukturbaustein und alle untergeordneten Kursbausteine öffnen dann nur Personen, die das Passwort eingeben. So machen Sie zum Beispiel Zusatzinhalte nur Personen zugänglich, die dafür bezahlt haben, oder schalten Kursbausteine für bestimmte Level im Rahmen von Game-based Learning frei.
 
-Bei Lernpfadkursen sind diese Einschränkungen nicht möglich. Benötigen Sie
-diese spezifischen selektiven Freigaben, müssen Sie einen herkömmlichen Kurs
-verwenden.
-
-Informationen zum Tab "Lernpfad" von Lernpfadkursen finden Sie auf der Seite
-[Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md).
+Diese Einschränkungen gibt es nur in herkömmlichen Kursen. Brauchen Sie solche gezielten Freigaben, verwenden Sie einen herkömmlichen Kurs. In Lernpfadkursen steuern Sie die Freigabe im Tab "Lernpfad", den die Seite [Lernpfadkurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md) beschreibt.
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
+[Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)<br>
+[Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>

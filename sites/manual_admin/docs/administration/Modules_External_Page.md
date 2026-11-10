@@ -1,8 +1,9 @@
 # Module External page {: #external_page}
 
-This module configures the general use of the "External Page" course element.
+In the module External page you define whether authors can use the course element "External Page" in their courses and whether it passes on data about users to the embedded page. System administrators open the module in the system administration under:<br>
+`Administration > Modules > External page`
 
-![Module External page with the switch Enabled and the checkbox Sharing of user data allowed](assets/modules_external_page_config_v1_de.png){ class="shadow lightbox" }
+![Module External page with the switch Enabled and the checkbox for sharing user data](assets/modules_external_page_config_v2_en.png){ class="shadow lightbox" title="Module External page in the system administration · 2026.11.10" }
 
 !!! warning "frentix recommends keeping domains separate"
 
@@ -15,13 +16,17 @@ This module configures the general use of the "External Page" course element.
     OpenOlat instance runs under its own address, the embedded page under a
     different one.
 
+    This course element does not use a separate address for content, even if
+    one is set up: it displays the foreign page directly or via the main
+    address of your OpenOlat instance.
+
 For external applications, the [course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md) is intended. If a website only has to be reachable, the [Link list](../../manual_user/learningresources/Course_Element_Link_List.md) is sufficient.
 
 ## Enabled (module activated) [:octicons-tag-16:{ title="from Release 20.1 (OO-8783)" }](https://track.frentix.com/issue/OO-8783) {: #activate}
 
-As an administrator, you decide whether the "External Page" course element is available to authors. In a new installation it is not available. The update to release 20.1 enables it in every case, so that existing courses continue to work unchanged.
+With the switch "Enabled", you as a system administrator decide whether the "External Page" course element is available to authors. In a new installation it is switched off. The update to release 20.1 enables it in every case, so that existing courses continue to work unchanged.
 
-Which page an author embeds is their own decision. As the administration, you decide whether the course element is available at all.
+Which page an author embeds is their own decision. The module only defines whether the course element is available.
 
 !!! tip "Existing course elements continue to work after the module is switched off"
 
@@ -33,6 +38,18 @@ Which page an author embeds is their own decision. As the administration, you de
 
 ## Sharing of user data {: #data_transfer}
 
-The "External Page" course element can transmit data about the current account to the external system via the HTTP header of the request in order to implement certain learning scenarios (username, email, first name, last name, and the user's current IP address).
+For some learning scenarios, the embedded page needs to know who is calling it. For this, the "External Page" course element can transmit data about the current account to the external system in the HTTP header of the request: username, email, first name, last name and the user's current IP address.
 
-Here, you can choose whether or not this data should be transmitted. The setting applies to all courses of your instance. frentix recommends to leave the sharing switched off.
+With the checkbox "Sharing of user data allowed" you define whether OpenOlat transmits this data. The setting applies to all courses of your instance. frentix recommends to leave the sharing switched off.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Course Element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
+[Course Element "Link list" >](../../manual_user/learningresources/Course_Element_Link_List.md)
+
+**Further reading**<br>
+[Course Element "External Page" >](../../manual_user/learningresources/Course_Element_External_Page.md)<br>
+[Modules: Overview >](Modules.md)
+
+[To the top of the page ^](#external_page)

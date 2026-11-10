@@ -1,34 +1,34 @@
 # Kurseditorwerkzeuge {: #course_editor_tools}
 
-Im Menü des Kurseditors haben Sie Zugriff auf weitere Konfigurationstools in der Toolbar. Hier können Sie Kursbausteine einfügen, importieren und sich den aktuellen Status mit eventuellen Problemen anzeigen lassen.
+Während Sie einen Kurs im Kurseditor aufbauen, stehen Ihnen in der Toolbar die Editorwerkzeuge zur Verfügung. Mit ihnen fügen Sie Kursbausteine ein oder importieren sie, prüfen die Konfiguration auf Probleme, sehen sich den Kurs als Vorschau an und publizieren ihn. Den Kurseditor öffnen Kursbesitzer:innen, Administrator:innen, Lernressourcenverwalter:innen und Personen mit dem [Kursrecht "Kurseditor"](Members_management.de.md#additional_rights): `Kurs > Administration > Kurseditor`.
 
 ![Sechs Editorwerkzeuge, der Status zeigt die Anzahl offener Konfigurationsprobleme als Zahl](assets/Menu_Kurseditor19.png){ class="shadow lightbox" title="Toolbar des Kurseditors" }
 
 ## Administration
 
-Über die Kurs-Administration haben Sie Zugriff auf diverse weitere Kurswerkzeuge. Informationen dazu finden Sie unter "[Kurs-Administration](Administration/index.de.md)".
+Über das Menü "Administration" des Kurses erreichen Sie weitere Kurswerkzeuge. Sie sind auf der Seite [Kurs-Administration](Administration/index.de.md) beschrieben.
 
-## Kursbaustein einfügen
+## Kursbausteine einfügen
 
-Hier haben Sie Zugriff auf alle [Kursbausteine](Course_Elements/index.de.md), die Sie in einen Kurs einbauen können. Einfach auswählen und dem Kurs hinzufügen. Weitere Informationen finden Sie unter "[Kursbausteine im Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md)".
+Mit "Kursbausteine einfügen" bauen Sie Ihren Kurs aus. Der Dialog zeigt alle [Kursbausteine](Course_Elements/index.de.md), die Sie in einen Kurs einfügen können, in Gruppen geordnet. Wählen Sie einen Kursbaustein aus, fügt OpenOlat ihn dem Kurs hinzu. Zwei Einträge legen mehrere Kursbausteine in einem Schritt an: [Mehrere HTML-Seiten](Course_Element_HTML_Page.de.md#multi) in der Gruppe "Andere" und [Mehrere Checklisten](Course_Element_Checklist.de.md#multi). Mehr dazu auf der Seite [Kursbausteine im Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md).
 
-## Quick-Add
+## Quick-Add [:octicons-tag-16:{ title="ab Release 16.2 (OO-5984)" }](https://track.frentix.com/issue/OO-5984){:target="_blank"} {: #quick_add}
 
-Je nach Grösse Ihres Bildschirmfensters steht Ihnen auch die Funktion "Quick-Add" zur Verfügung. Hierüber kann einfach der Name des gewünschten Kursbausteins in das Feld geschrieben und somit der Baustein noch schneller hinzugefügt werden.
+Kennen Sie den Namen des Kursbausteins, fügen Sie ihn mit "Quick-Add" schneller ein. Schreiben Sie den Namen in das Feld, und wählen Sie den Kursbaustein aus der Liste. Quick-Add legt jeweils einen Kursbaustein an. Je nach Grösse Ihres Bildschirmfensters zeigt die Toolbar das Feld "Quick-Add" an.
 
-## Kursbausteine importieren
+## Kursbausteine importieren [:octicons-tag-16:{ title="ab Release 16.1 (OO-5210)" }](https://track.frentix.com/issue/OO-5210){:target="_blank"}
 
-An dieser Stelle können Sie Kursbausteine aus anderen Kursen mit Hilfe eines Wizards importieren.
+Haben Sie Kursbausteine in einem anderen Kurs bereits eingerichtet, übernehmen Sie sie mit "Kursbausteine importieren" in den aktuellen Kurs, statt sie neu aufzubauen. Ein Assistent führt Sie durch den Import.
 
-Wählen Sie einen Kurs aus, bei dem Sie Besitzer:in sind, und entscheiden Sie sich für einen oder mehrere Kursbausteine dieses Kurses. Teilweise können Sie an den ausgewählten Bausteinen auch noch weitere Konfigurationen vornehmen. Abschliessend "Fertigstellen" auswählen und die gewünschten Kursbausteine werden dem aktuellen Kurs hinzugefügt.
+Wählen Sie einen Kurs aus, den Sie besitzen oder den Autor:innen laut seiner Freigabe kopieren dürfen. Wählen Sie dann einen oder mehrere Kursbausteine dieses Kurses. Bei einigen Kursbausteinen legen Sie im Assistenten weitere Einstellungen fest. Klicken Sie abschliessend auf "Fertigstellen". OpenOlat fügt die gewählten Kursbausteine dem aktuellen Kurs hinzu.
 
 ## Status
 
-Hier wird angezeigt, ob es bei der Konfiguration der Kursbausteine Probleme gibt. Klicken Sie auf die angegebene Zahl und die zugehörigen Probleme werden angezeigt. Folgen Sie den Links, um die Probleme zu beheben. Die Legende unten gibt ferner Auskunft, um welche Art von Problem es sich handelt.
+Der Status zeigt, ob es bei der Konfiguration der Kursbausteine Probleme gibt. Klicken Sie auf die angegebene Zahl, zeigt OpenOlat die zugehörigen Probleme. Folgen Sie den Links, um die Probleme zu beheben. Die Legende unten zeigt, um welche Art von Problem es sich handelt.
 
 ![Statusfenster mit zwei unvollständigen Kursbausteinen, drei möglichen Problemen, dem Datum der letzten Publikation und der Legende der Statussymbole](assets/Status_19.jpg){ class="shadow lightbox" title="Status im Kurseditor" }
 
-Eventuelle Konfigurationsprobleme werden zusätzlich in der Kursnavigation bei den entsprechenden Kursbausteinen angezeigt.
+Konfigurationsprobleme zeigt OpenOlat zusätzlich im Kursmenü des Kurseditors bei den betroffenen Kursbausteinen an.
 
 !!! note "Hinweis"
 
@@ -36,21 +36,35 @@ Eventuelle Konfigurationsprobleme werden zusätzlich in der Kursnavigation bei d
 
 ## Kursvorschau (nur für herkömmliche Kurse) {: #preview}
 
-Das Editorwerkzeug "Kursvorschau" gibt die Möglichkeit, die Kurseinstellungen und Inhalte aus der Sicht von Teilnehmenden zu betrachten. Mit Klick auf "Kursvorschau" wird Ihnen zunächst ein Konfigurationsmenü angezeigt, um das Betreten des Kurses zu einem bestimmten Datum, als Teilnehmer:in einer bestimmten Gruppe oder mit sonstigen im Kurs verwendeten Attributen zu simulieren.
+Mit der "Kursvorschau" prüfen Sie Kurseinstellungen und Inhalte aus der Sicht von Teilnehmenden, bevor Sie publizieren. Ein Klick auf "Kursvorschau" öffnet zuerst ein Formular. Dort simulieren Sie, dass jemand den Kurs zu einem bestimmten Zeitpunkt, als Mitglied einer bestimmten Gruppe oder mit bestimmten Attributen betritt.
 
-Im Gegensatz zur Kursinhaltsansicht werden in der Kursvorschau auch alle noch nicht publizierten Kursbausteine und Änderungen angezeigt. Einige Funktionen in der Kursvorschau, die eine Interaktion der Teilnehmenden mit dem System bedingen, sind hingegen nicht verfügbar. Dies betrifft unter anderem das Einschreiben in Gruppen, das Starten von Tests, Selbsttests und Umfragen sowie die Abgabe von Lösungen im Kursbaustein "Aufgabe".
+Die Kursvorschau zeigt auch alle noch nicht publizierten Kursbausteine und Änderungen. Funktionen, bei denen Teilnehmende Daten im System hinterlassen, stehen in der Kursvorschau nicht zur Verfügung. Dazu gehören das Einschreiben in Gruppen, das Starten von Tests, Selbsttests und Umfragen und die Abgabe von Lösungen im Kursbaustein "Aufgabe".
+
+Die Kursvorschau eignet sich zum Beispiel, um einen Kurs vor dem Start aus der Perspektive der Teilnehmenden zu betrachten oder Sichtbarkeitsregeln zu überprüfen.
+
+!!! tip "Tipp"
+
+    In der Regel ist diese Vorschau nicht notwendig, da Sie bei geschlossenem Kurseditor einfach die "Teilnehmer:innenansicht" wählen können. Dieser Weg eignet sich auch für Lernpfadkurse.
 
 ### Konfiguration der Kursvorschau
 
-In diesem Formular können Sie bestimmen, welche Bedingungen für die Kursvorschau gelten sollen.
+In diesem Formular bestimmen Sie, welche Bedingungen für die Kursvorschau gelten.
 
-**Datum**: Dieses Feld müssen Sie ausfüllen. Geben Sie hier einen Zeitpunkt (Datum und Uhrzeit) ein, zu dem die Kursvorschau angezeigt werden soll. Als Voreinstellung sind das aktuelle Datum und die aktuelle Uhrzeit gesetzt.
+#### Datum {: #preview_date}
 
-**Gruppen**: Markieren Sie den bzw. die Namen einer oder mehrerer Gruppen, um den Kurs aus Sicht der Mitglieder dieser Gruppen anzuzeigen.
+Dieses Feld müssen Sie ausfüllen. Geben Sie einen Zeitpunkt mit Datum und Uhrzeit ein, zu dem OpenOlat die Kursvorschau zeigt. Voreingestellt sind das aktuelle Datum und die aktuelle Uhrzeit.
 
-**Lernbereiche**: Geben Sie hier den Namen eines Lernbereichs ein, um den Kurs aus Sicht der Mitglieder dieses Lernbereichs anzuzeigen.
+#### Gruppe {: #preview_group}
 
-**Rolle**: Wählen Sie hier, für welche Rolle die Vorschau angezeigt werden soll.
+Wählen Sie eine oder mehrere Gruppen, um den Kurs aus Sicht der Mitglieder dieser Gruppen anzuzeigen.
+
+#### Lernbereich {: #preview_area}
+
+Geben Sie den Namen eines Lernbereichs ein, um den Kurs aus Sicht der Mitglieder dieses Lernbereichs anzuzeigen.
+
+#### Rolle {: #preview_role}
+
+Wählen Sie, für welche Rolle OpenOlat die Vorschau zeigt.
 
 * "Registrierte OpenOlat-Benutzer:innen": Zeigt den Kurs, wie er sich Personen mit der Rolle "Benutzer:in" (in der Regel Teilnehmende) präsentiert.
 * "Gäste": Zeigt den Kurs, wie er sich einem Gast (also Personen, die sich ohne OpenOlat-Konto anmelden) präsentiert, sofern der Kurs für Gäste freigeschaltet ist.
@@ -58,48 +72,47 @@ In diesem Formular können Sie bestimmen, welche Bedingungen für die Kursvorsch
 * "Besitzer:innen des Kurses": Zeigt den Kurs, wie er sich den Besitzer:innen des Kurses präsentiert.
 * "OpenOlat-Autor:innen": Zeigt den Kurs, wie er sich Personen mit der Rolle "Autor:in" präsentiert.
 
-**Attribute**: In diesen Feldern können Sie bis zu fünf AAI-Attribut-Namen mit ihren entsprechenden Werten angeben. In der Vorschau wird Ihnen der Kurs angezeigt, wie er sich einer Benutzer:in mit diesen AAI-Attributen präsentieren würde.
+#### Attribute {: #preview_attributes}
+
+In diesen Feldern geben Sie bis zu fünf AAI-Attribut-Namen mit ihren Werten an. Die Vorschau zeigt den Kurs dann so, wie ihn eine Person mit diesen AAI-Attributen sieht.
 
 **Beispiel**:<br>
 Attribut-Name: swissEduPersonStudyBranch3<br>
 Attribut-Wert: 4600<br>
-Diese Eingabe zeigt den Kurs, wie er sich den Studierenden der Fachrichtung Chemie präsentiert.
+Diese Eingabe zeigt den Kurs, wie ihn die Studierenden der Fachrichtung Chemie sehen.
 
-Die Kursvorschau bietet sich z. B. an, um einen Kurs vor dem Start aus der Perspektive der Teilnehmenden zu betrachten oder bestimmte Sichtbarkeitsregeln zu überprüfen.
+Mehr zu AAI-Attributen finden Sie auf der Seite [Zugriffsbeschränkungen im Expertenmodus](Access_Restrictions_in_the_Expert_Mode.de.md) sowie bei [Switch](http://www.switch.ch/aai/).
 
-Weiterführende Informationen zu AAI-Attributen finden Sie auf der Seite "[Zugriffsbeschränkungen im Expertenmodus](Access_Restrictions_in_the_Expert_Mode.de.md)" sowie bei [Switch](http://www.switch.ch/aai/).
+## Publizieren {: #publish}
 
-!!! tip "Tipp"
+Im Kurseditor bereiten Sie Ihren Kurs in Ruhe vor, bauen ihn auf und gestalten ihn. Alle Einstellungen und Änderungen geben Sie anschliessend mit "Publizieren" frei.
 
-    In der Regel ist diese Vorschau nicht notwendig, da bei geschlossenem Kurseditor einfach die "Teilnehmer:innenansicht" gewählt werden kann. Dieser Weg bietet sich auch für Lernpfadkurse an.
+Erst wenn Sie den Kurs publizieren, sind die Kursbausteine und Ihre Änderungen bei geschlossenem Kurseditor sichtbar. Damit Teilnehmende den Kurs sehen, muss er zudem veröffentlicht und der Zugang konfiguriert sein, siehe [Zugangskonfiguration / Freigabe](Access_configuration.de.md).
 
-## Publizieren
+Am schnellsten publizieren Sie, indem Sie den Kurseditor schliessen: Klicken Sie in der Breadcrumb-Navigation auf den Titel des Kurses. OpenOlat fragt, ob Sie automatisch, manuell oder nicht publizieren wollen.
 
-Alle im Kurseditor vorgenommenen Einstellungen und Änderungen geben Sie über das "Publizieren" frei. So können Sie Ihren Kurs im Kurseditor in Ruhe vorbereiten, aufbauen und gestalten.
-
-Erst wenn Sie den Kurs publizieren, werden die Kursbausteine und die vorgenommenen Änderungen bei geschlossenem Editor sichtbar. Das bedeutet aber noch nicht, dass die Lernenden auch schon den Kurs sehen. Hierfür muss dieser veröffentlicht und der Zugang konfiguriert sein (siehe Kapitel "[Zugangskonfiguration / Freigabe](Access_configuration.de.md)").
-
-Am einfachsten geht ein schnelles Publizieren über das Schliessen des Kurseditors, indem Sie in der Breadcrumb-Navigation auf den Titel des Kurses klicken. Sie werden gefragt, ob Sie automatisch, manuell oder nicht publizieren wollen.
-
-Die Wahl des manuellen Publizierens entspricht der Wahl "Publizieren" im Kurseditor und erfolgt mit einem Wizard.
+Manuelles Publizieren entspricht dem Editorwerkzeug "Publizieren" und führt Sie mit einem Assistenten durch die Schritte.
 
 !!! warning "Achtung"
 
-    Sollten Sie den Kurs publizieren, während Teilnehmende im Kurs arbeiten, gehen deren aktuelle Bewegungsdaten wie nicht gespeicherte Foren- und Wiki-Einträge verloren.
+    Publizieren Sie den Kurs, während Teilnehmende im Kurs arbeiten, gehen deren aktuelle Bewegungsdaten wie nicht gespeicherte Foren- und Wiki-Einträge verloren.
 
-### Manuelles Publizieren mit Wizard
+### Manuelles Publizieren mit Assistent
 
-Schritt 1 - Kursbausteine wählen: Wählen Sie alle Kursbausteine aus, die Sie geändert haben und die Sie veröffentlichen möchten. Die Auswahl ist dabei bereits auf publizierbare Kursbausteine begrenzt.
+Schritt 1 - Kursbausteine wählen: Wählen Sie alle Kursbausteine aus, die Sie geändert haben und veröffentlichen möchten. Die Auswahl enthält nur Kursbausteine, die sich publizieren lassen.
 
-Schritt 2 - Änderung des Kurszugriffs: Hier erhalten Sie Zugang zu den generellen Veröffentlichungsoptionen eines Kurses. Bestimmen Sie, welche OpenOlat-Benutzer:innen Zugriff auf Ihren Kurs haben sollen. Lesen Sie im Kapitel "[Kurseinstellungen](Course_Settings/index.de.md)", welche Optionen Ihnen hier zur Verfügung stehen. Nach diesem Schritt kann der Vorgang des Publizierens bereits abgeschlossen werden. Klicken Sie dazu auf "Fertigstellen".
+Schritt 2 - Änderung des Kurszugriffs: Hier legen Sie die generellen Veröffentlichungsoptionen des Kurses fest und bestimmen, welche OpenOlat-Benutzer:innen Zugriff auf Ihren Kurs haben. Welche Optionen zur Verfügung stehen, beschreibt das Kapitel [Kurseinstellungen](Course_Settings/index.de.md). Nach diesem Schritt schliessen Sie das Publizieren mit "Fertigstellen" ab.
 
-Eventuell gibt es noch Hinweise, die angezeigt werden. Auch ein gezielter Eintrag in den Katalog ist bei Verwendung des [Katalog 1.0](../area_modules/catalog1.0.de.md) möglich. Bei Verwendung des [Katalog 2.0](../area_modules/catalog2.0/index.de.md) erfolgt der Eintrag automatisch entsprechend der Taxonomie-Konfiguration.
+Je nach Kurs zeigt der Assistent danach noch Hinweise an. Mit dem [Katalog 1.0](../area_modules/catalog1.0.de.md) tragen Sie den Kurs hier gezielt in den Katalog ein. Mit dem [Katalog 2.0](../area_modules/catalog2.0/index.de.md) trägt OpenOlat den Kurs automatisch nach der Taxonomie-Konfiguration ein.
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Mitgliederverwaltung >](Members_management.de.md)<br>
 [Kurs-Administration: Übersicht >](Administration/index.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
+[Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)<br>
+[Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Zugangskonfiguration / Freigabe >](Access_configuration.de.md)<br>
 [Zugriffsbeschränkungen im Expertenmodus >](Access_Restrictions_in_the_Expert_Mode.de.md)<br>
