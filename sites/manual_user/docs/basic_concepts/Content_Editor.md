@@ -116,11 +116,11 @@ You can also show or hide the Inspector pop-up using the gear icon next to the c
 
 **Menus**
 
-The toolbar of a selected block comprises four icons: the gear for the Inspector, an icon to duplicate, a three-dot menu and a crosshair. The three-dot menu lets you add further content elements before or after the element, move the element up or down, and delete it. The crosshair lets you drag and drop the selected element to a different position, into a different content block, or into a different layout.
+The toolbar of a selected block comprises four icons: the gear for the Inspector, an icon to duplicate, a three-dot menu and an arrow cross ("Drag content"). The three-dot menu lets you add further content elements before or after the element, duplicate the element, and delete it. The arrow cross lets you drag and drop the selected element to a different position, into a different content block, or into a different layout.
 
 A block can be copied with the "Duplicate" action, both as a short action on the block itself and via the three-dot menu [:octicons-tag-16:{ title="from Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 
-![The crosshair marked in turquoise starts moving the block by drag and drop.](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" title="Toolbar of a content block" }
+![The arrow cross marked in turquoise starts moving the block by drag and drop.](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" title="Toolbar of a content block" }
 
 [To the top of the page ^](#content_editor)
 

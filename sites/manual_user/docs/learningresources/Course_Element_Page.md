@@ -9,119 +9,131 @@ Available since | Release 18
 Functional group | Knowledge Transfer
 Purpose | Display of different content in a block-based layout
 Assessable | no
-Specialty / Note | Editing in a block-based editor is used in form learning resources and portfolio entries in addition to the course element page.
+Specialty / Note | Besides the course element Page, the block-based Content Editor is also available in the learning resource Form and in portfolio entries.
 
 ## Example
 
 === "Course view"
 
-    There are different layout variants to choose from, in which the desired elements such as images, texts, tables and videos can be flexibly placed and thus the entire page can be designed.
+    With the course element Page you put texts, images, tables, videos and other content elements together on one page in the course. Layouts arrange the content in columns and rows.
 
-    ![Example page with introduction, ingredients, tools and a print-ready PDF instructions file, in the block layout](../learningresources/assets/course_element_page_run_view_v1_de.png){ class="shadow lightbox" title="Course element Page in the course view" }
+    ![Example page with title, text, table, image, citation and code example in three layouts, as participants see it in the course](assets/course_element_page_run_view_v2_en.png){ class="shadow lightbox" title="Course element Page in the course view · 2026.11.10" }
 
 === "Edit mode"
 
-    In contrast to the HTML editor (course element "HTML page"), the display in the block-based content editor already largely corresponds to the preview.
+    In edit mode you already see the page almost the way participants see it. This sets the Content Editor apart from the HTML editor of the course element "HTML page".
 
-    ![Same example page in edit mode with toolbars and "Add content" buttons per block, table editor open](../learningresources/assets/course_element_page_edit_mode_v1_de.png){ class="shadow lightbox" title="Course element Page in the Content Editor" }
+    ![Same example page in edit mode: each layout has its toolbar, each field the link Add content, below Add a new layout and Import](assets/course_element_page_edit_mode_v2_en.png){ class="shadow lightbox" title="Course element Page in edit mode · 2026.11.10" }
 
 
 
 ## Create page content [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"}
 
-The course element page is added in the course editor and configured in the tabs.
-Open the editor in **tab "Page content"** .
+You build the content of the page in the Content Editor. You open it in the course editor via the tab "Page content" of the course element:<br>
+`Course > Administration > Course editor > Course element "Page" > Tab "Page content" > Edit page`
 
-![Tab Page content with the Edit page button and the permission for coaches](assets/KB_Seite_Tab_Seiteninhalt19.png){ class="shadow lightbox" title="Course element Page in the course editor" }
+![Tab Page content in the course editor with the button Edit page, which opens the Content Editor, below the user right for coaches](assets/course_element_page_tab_page_content_v1_en.png){ class="shadow lightbox" title="Course element Page in the course editor · 2026.11.10" }
 
-The **Content Editor** will open. First, add a new layout. (More of these layouts can be added).
+In the Content Editor you first create a layout: click "Add a new layout" and select one of the nine layout templates. A layout divides the page into fields, for example into three columns. You add further layouts below in the same way.
 
-![Nine layout variants to choose from when inserting a new layout](assets/course_element_page_tab_layout1_v1_de.png){ class="shadow lightbox" title="Content Editor of the course element Page" }
+![Add a new layout opens the selection with nine layout variants, next to it the Import button](assets/course_element_page_tab_layout1_v2_en.png){ class="shadow lightbox" title="Content Editor of the course element Page · 2026.11.10" }
 
-There are two ways to fill the page: content elements are added individually, or existing content in markdown or Word format is imported in one step.
+You fill the page in two ways: you add content elements individually, or you import existing content in markdown or Word format in one step.
 
 ### Adding content elements individually {: #add_elements}
 
-One or more **content elements** can be added in each field of a layout.
+Each field of a layout holds one or more content elements, for example a title, a text and an image. The link "Add content" in the field opens the dialog of the same name. It sorts the content elements under four headings: "Text", "Media", "Knowledge" and "Other & design" [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7830)" }](https://track.frentix.com/issue/OO-7830){:target="_blank"}.
 
-![Popup with the selectable content elements such as Title, Table, Image or Video](assets/KB_Seite_Inhalt_hinzufuegen.png){ class="shadow lightbox" title="Field of a layout in the course element Page" }
+![Dialog Add content with the content elements under the headings Text, Media, Knowledge and Other & design and the buttons Media Center and Import](assets/course_element_page_add_content_v1_en.png){ class="shadow lightbox" title="Dialog Add content in the course element Page · 2026.11.10" }
 
+In the course element Page the following content elements are available, ordered as in the dialog.
 
-The following content elements are available:
+Under "Text":
 
-* **Titel:** Titles use the predefined sizes and styles h1, h2, etc.
-* **Paragraph:** A text that can be designed with a small HTML editor.
-* **Table:** Table, which can be designed in an associated popup.
-* **Mathematical formula:** Creating mathematical formulas with the MathJax formula editor.
-* **Code:** Display of programming code without execution.
-30 different programming languages [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"}
-![Code content element with language selection and example text](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" title="Content Editor of the course element Page" } 
-* **Document:** Word, PowerPoint or Excel documents can be uploaded as well as created directly. PDF and others can be uploaded or taken from the Media Center.
-* **Audio:** Select audio, re-record or add as MP3 or m4a file [:octicons-tag-16:{ title="from Release 18.1.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"}
-* **Image:** Inserting an image from the Media Center or uploading.
-* **Image gallery:** Display of several images as a slideshow, in a grid or with small thumbnails [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"}
-* **Image comparison:** Two superimposed images can be blended using a slider [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"}
-* **Video:** Inserting a video file from the Media Center or uploading or new recording
-* **draw.io graph:** Create new or select from the list [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
-* **Citations:** Citations can be stored and reused as standalone content items in the Media Center.
-* **From my Media Center:** Access to all elements of your own Media Center. New elements can also be created for the Media Center.
-* **Text segment:** A text that can be designed with an HTML editor. (With slightly more options than in the Paragraph content element).
-* **Separator:** A line used to visually separate two layouts. 
-* **Table of contents:** Lists the titles of the page as clickable jump marks [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}
+* **Title:** A heading in one of the predefined sizes h1 to h6.
+* **Text:** Running text that you design with a small HTML editor.
+* **Table:** Content in rows and columns. You set the number of rows and columns in the inspector.
+* **Math formula:** Mathematical formulas, created with the MathJax formula editor.
+* **Code example:** Program code that the page displays without running it.
+In the inspector you select one of 28 programming languages under "Code language", or "Automatic" and "Plain text" [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"}.
+![Code example with line numbers, in the inspector the selection Code language with Python](assets/course_element_page_code_v2_en.png){ class="shadow lightbox" title="Content Editor of the course element Page · 2026.11.10" }
+* **Citation:** A citation with source. Stored in the Media Center, it can be reused as a standalone content element.
+
+Under "Media":
+
+* **Image:** An image from the Media Center or a newly uploaded image.
+* **Gallery:** Several images as a slideshow, in a grid or with small thumbnails [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"}
+* **Image comparison:** Two superimposed images that a slider blends into each other [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"}
+* **Video:** A video file from the Media Center, newly uploaded or newly recorded.
+* **Audio:** Select audio from the Media Center, record it or add it as an MP3 or M4A file [:octicons-tag-16:{ title="from Release 18.1.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"}
+* **Document:** You upload Word, PowerPoint or Excel documents or create them directly. You upload PDF and other files or take them from the Media Center.
+* **Diagram:** Create a new draw.io diagram or select one from the list [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
+
+Under "Knowledge":
+
 * **Quiz:** Embeds quiz questions into the page, newly created or imported from the question bank [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. For essay questions, learners receive [AI feedback on their answer](../basic_concepts/Content_Editor.md#ai_feedback) here [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
+
+Under "Other & design":
+
+* **Separator:** A line that visually separates content.
+* **Table of contents:** Lists the titles of the page as clickable jump marks [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}
+* **HTML text code:** Text that you design with the larger HTML editor, with more options than in the content element "Text".
+
+At the bottom of the dialog there are two buttons. "Media Center" adds an element from your Media Center to the page; there you can also create new elements for the Media Center. "Import" takes over existing content, as described in the next section.
 
 ### Importing existing content from markdown or Word [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9290)" }](https://track.frentix.com/issue/OO-9290){:target="_blank"} {: #markdown_import}
 
-Instead of building the page element by element, existing content in markdown format or as a Word document (.docx) can be imported directly [:octicons-tag-16:{ title="Word import from Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}: as a file upload or as pasted text, e.g. from the clipboard. OpenOlat automatically converts the content into the matching blocks of the Content Editor (Title, Text, Table, Code example, Image, etc.); referenced images are stored in the Media Center.
+If content already exists in markdown format or as a Word document (.docx), you import it directly instead of building the page element by element [:octicons-tag-16:{ title="Word import from Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}: as a file upload or as pasted text, e.g. from the clipboard. OpenOlat automatically converts the content into the matching content elements (Title, Text, Table, Code example, Image, etc.) and stores referenced images in the Media Center.
 
-This allows content from external tools, plain text files or AI applications to be adopted as a course page without manual reformatting.
+This allows content from external tools, plain text files or AI applications to be adopted as a page in the course without manual reformatting.
 
 [Details on the import >](../basic_concepts/Content_Editor.md#markdown)
 
 
-## Edit page (Edit mode) [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6966)" }](https://track.frentix.com/issue/OO-6966){:target="_blank"}
+## Edit page (Edit mode)
 
 ### Edit layout
 
-To edit a layout, select the layout. An associated frame is displayed. In the upper right corner you will see icons with editing options.
+If the arrangement of the fields no longer fits, you change the layout template without creating the content again. To do so, click into the layout. OpenOlat shows a frame around the layout and, in the upper right corner, its toolbar: gear icon ("Edit settings"), "Duplicate", 3 dots ("More actions") and the arrows "Move down" and "Move up".
 
-Once a layout is selected, the arrangement of the content elements can also be changed later by clicking the gear icon and selecting a different layout arrangement.
+The gear icon opens the inspector "Layout", where you select a different layout template. As long as the inspector is open, it covers the toolbar of the layout. With the X ("Close inspector") you hide it again.
 
-Existing content elements are preserved and can be moved to new layout fields.
+Existing content elements are preserved and can be moved to the new fields.
 
-![Cogwheel, dots and arrow-cross icon on the selected layout, popup with selectable layout arrangements](assets/course_element_page_layout_edit_v1_de.png){ class="shadow lightbox" title="Content Editor of the course element Page" }
+![Selected layout with three fields, on the right the inspector Layout with the layout templates, the selected one is marked](assets/course_element_page_layout_edit_v2_en.png){ class="shadow lightbox" title="Inspector of a layout in the course element Page · 2026.11.10" }
 
 
 ### Edit content elements
 
-A content element can be changed by selecting it with a mouse click and using the buttons in the upper left corner.
+To change, copy or move a content element, click it. Its toolbar with four icons appears in the upper left corner of the element.
 
-![Cogwheel, dots and arrow-cross icon on the selected content element Title](assets/course_element_page_contentelement_title_v1_de.png){ class="shadow lightbox" title="Content Editor of the course element Page" }
+![Cogwheel, Duplicate, 3 points and arrow cross on the selected content element Title, on the right the inspector of the title](assets/course_element_page_contentelement_title_v2_en.png){ class="shadow lightbox" title="Toolbar of a content element in the course element Page · 2026.11.10" }
 
-* **Cogwheel-Icon:** opens popup with editing options
-* **3 Points:** Deleting the current element, inserting additional content elements
-* **Arrow cross:** Move within the layout (also to other fields)
+* **Gear icon ("Edit settings"):** shows and hides the [inspector](../basic_concepts/Content_Editor.md#inspector) with the settings of the element.
+* **Duplicate:** copies the element [:octicons-tag-16:{ title="from Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
+* **3 dots ("More actions"):** opens a menu with "Add before", "Add after", "Duplicate" and "Delete".
+* **Arrow cross ("Drag content"):** moves the element by drag & drop to another position, also to another field or layout.
 
 
 ## Media storage
 
-The inserted media is not stored as with the [course element "HTML page"](../learningresources/Course_Element_HTML_Page.md) in the [storage folder](../learningresources/Storage_folder.md) of the course but in the [Media Center](../personal_menu/Media_Center.md). Here you will find all installed media and can also regulate further management and release. 
+Images, videos, documents and other media that you insert into a page are stored by OpenOlat in the [Media Center](../personal_menu/Media_Center.md), not, as with the [course element "HTML page"](../learningresources/Course_Element_HTML_Page.md), in the [storage folder](../learningresources/Storage_folder.md) of the course. In the Media Center you find all inserted media again and manage and share them there.
 
-Uploading media to the Media Center is done in the personal menu or in the Content Editor when creating a new content item.
+You upload media to the Media Center in the personal menu or directly in the Content Editor when you create a new content element.
 
 
 
 ## Differences: Page - HTML-Page
 
 
-|                        | Course Element Page                       | Course Element HTML Page                  |
+|                        | Page                                      | HTML page                                 |
 | -----------------------| ------------------------------ | ------------------------------ |
 | Content creation | in Content Editor              | in HTML Editor                 |
 | Layout             | block-based approach          | HTML Page                     |
 | Creation effort     | lower, since pre-structured   | possibly higher                 |
 | Preview               | directly in editor               |  separate tab "Display content" |
 | Media                 | in Media Center               | in storage folder                |
-| Editing can be allowed to coaches | :material-check: | :material-check:      |
+| Editing by coaches possible | :material-check: | :material-check:      |
 | Extended authorizations                    | :material-check: | :material-cancel:     |
 | Integration pdf        | :material-check:               | :material-check:               |
 | Integration Office-Documents | :material-check:         | :material-cancel:              |
@@ -129,26 +141,26 @@ Uploading media to the Media Center is done in the personal menu or in the Conte
 
 
 
-!!! tip "Hint"
+!!! tip "Tip"
 
-    If only Office documents are to be included, the course elements "Document" or "Folder" can be used as an alternative.
+    If you only want to include Office documents, the course elements "Document" or "Folder" are also suitable.
 
 
 !!! info "Important"
 
-    The page can be edited by course owners or optionally by coaches.
+    Course owners can always edit the page. Coaches can edit it if the checkbox "Coach" is selected for "Edit page" under "Rights" in the tab "Page content".
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
-[Storage folder >](../learningresources/Storage_folder.md)<br>
-[User tools: Media Center >](../personal_menu/Media_Center.md)
+[Storage folder >](../learningresources/Storage_folder.md)
 
 **Further reading**<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
-[Course Element "Portfolio Task" >](../learningresources/Course_Element_Portfolio_Task.md)
+[Course Element "Portfolio task" >](../learningresources/Course_Element_Portfolio_Task.md)
 
 [To the top of the page ^](#course_element_page)
 

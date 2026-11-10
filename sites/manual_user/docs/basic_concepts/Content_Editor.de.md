@@ -119,11 +119,11 @@ Das Inspektor-Popup lässt sich auch mit dem Zahnrad-Icon des Inhalts ein- und a
 
 **Menüs**
 
-Die Werkzeugleiste eines markierten Blocks umfasst vier Symbole: das Zahnrad für den Inspektor, ein Symbol zum Duplizieren, ein 3-Punkte-Menü und ein Fadenkreuz. Über das 3-Punkte-Menü fügen Sie weitere Inhaltselemente davor oder danach ein, verschieben das Element nach oben oder unten und löschen es. Über das Fadenkreuz verschieben Sie das markierte Element per Drag & Drop an eine andere Position, in einen anderen Inhalts-Block oder in ein anderes Layout.
+Die Werkzeugleiste eines markierten Blocks umfasst vier Symbole: das Zahnrad für den Inspektor, ein Symbol zum Duplizieren, ein 3-Punkte-Menü und ein Pfeilkreuz ("Inhalt umziehen"). Über das 3-Punkte-Menü fügen Sie weitere Inhaltselemente davor oder danach ein, duplizieren das Element und löschen es. Über das Pfeilkreuz verschieben Sie das markierte Element per Drag & Drop an eine andere Position, in einen anderen Inhalts-Block oder in ein anderes Layout.
 
 Ein Block lässt sich mit der Aktion "Duplizieren" kopieren, sowohl als Kurzaktion am Block selbst als auch über das 3-Punkte-Menü [:octicons-tag-16:{ title="ab Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 
-![Das türkis markierte Fadenkreuz startet das Verschieben des Blocks per Drag and Drop.](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" title="Werkzeugleiste eines Inhaltsblocks" }
+![Das türkis markierte Pfeilkreuz startet das Verschieben des Blocks per Drag and Drop.](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" title="Werkzeugleiste eines Inhaltsblocks" }
 
 [Zum Seitenanfang ^](#content_editor)
 
