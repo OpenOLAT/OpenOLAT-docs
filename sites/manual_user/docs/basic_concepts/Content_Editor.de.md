@@ -6,7 +6,7 @@ Der Content Editor ermöglicht es basierend auf einem selbst gewählten Layout v
 
 Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet. Wer ihn nutzt, hängt vom Ort ab: im Kursbaustein "Seite" die Besitzer:innen des Kurses und berechtigte Betreuer:innen, in der Lernressource "Formular" deren Besitzer:innen, im Portfolio die Besitzer:innen der Mappe.
 
-![Ein markierter Titel-Block mit Werkzeugleiste und geöffnetem Inspektor, daneben die Links Inhalt hinzufügen in den Bereichen des Layouts.](assets/content_editor_v1_de.png){ class="shadow lightbox" title="Content Editor im Bearbeitungsmodus" }
+![Eine Seite im Bearbeitungsmodus: markierter Titel-Block mit Werkzeugleiste, rechts der Inspektor mit den Tabs Stil und Layout, darunter weitere Blöcke und der Link Inhalt hinzufügen](assets/content_editor_v2_de.png){ class="shadow lightbox" title="Content Editor im Kursbaustein Seite · 2026.11.10" }
 
 !!! note "Hinweis"
 
@@ -202,7 +202,7 @@ Für das Element "Titel" wählen Sie im Inspektor unter "Grösse" eine der vorde
 
 Jeder Titel erhält zusätzlich einen [Anker](#anchors). Genutzt wird dieser ausschliesslich vom Element ["Inhaltsverzeichnis"](#table_of_contents), das die Titel auflistet und über ihre Anker verlinkt. Ausserhalb des Inhaltsverzeichnisses lassen sich die Anker nicht ansteuern.
 
-![Geöffnete Liste der Schriftgrössen, gewählt ist h3.](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" title="Inspektor eines Titel-Blocks" }
+![Markiert im Inspektor eines Titel-Blocks die Auswahl Grösse mit der Stufe h3, mit der Sie die Grösse des Titels festlegen](assets/content_editor_content_title_v2_de.png){ class="shadow lightbox" title="Inspektor eines Titel-Blocks im Kursbaustein Seite · 2026.11.10" }
 
 
 ### Text {: #text}

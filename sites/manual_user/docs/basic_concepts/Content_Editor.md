@@ -6,7 +6,7 @@ The Content Editor lets you insert various content elements into a page based on
 
 The Content Editor is used in several places in OpenOlat. Who uses it depends on the place: in the course element "Page" the owners of the course and authorised coaches, in the learning resource "Form" its owners, in the portfolio the owners of the binder.
 
-![A selected title block with its toolbar and an open inspector, next to it the Add content links in the areas of the layout.](assets/content_editor_v1_de.png){ class="shadow lightbox" title="Content Editor in edit mode" }
+![A page in edit mode: selected title block with its toolbar, on the right the inspector with the tabs Style and Layout, below further blocks and the link Add content](assets/content_editor_v2_en.png){ class="shadow lightbox" title="Content Editor in the course element Page · 2026.11.10" }
 
 !!! note "Note"
 
@@ -199,7 +199,7 @@ For the element "Title" you select one of the predefined levels h1 to h6 under "
 
 Every title additionally receives an [anchor](#anchors). It is used exclusively by the ["Table of contents"](#table_of_contents) element, which lists the titles and links them via their anchors. Outside the table of contents, the anchors cannot be addressed.
 
-![Open list of the font sizes, h3 is selected.](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" title="Inspector of a title block" }
+![Highlighted in the inspector of a title block the selection Size with the level h3, with which you set the size of the title](assets/content_editor_content_title_v2_en.png){ class="shadow lightbox" title="Inspector of a title block in the course element Page · 2026.11.10" }
 
 ### Text {: #text}
 
