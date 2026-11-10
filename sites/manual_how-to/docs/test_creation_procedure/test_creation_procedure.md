@@ -151,7 +151,7 @@ An exam course is a normal course, either a learning path course or a convention
 
 12\. Click "Add elements" and select the appropriate question type, for example "Multiple choice".
 
-![Button Add elements highlighted, below it a new multiple choice question in the Choice tab](assets/testerstellung_1_12_v1_de.png){ class="lightbox" title="Test editor" }
+![Highlighted the button Add elements in the toolbar of the test editor, with which you create a question such as the multiple choice question in the Choice tab shown below](assets/testerstellung_1_12_v2_en.png){ class="shadow lightbox" title="Test editor · 2026.11.10" }
 
 13\. In the "Choice" tab, enter the title of the question, the question wording and the possible answers. You add further answers via the plus sign.
 
@@ -322,11 +322,11 @@ Then start in the question bank: the questions there are available for every tes
 
 1\. Open the question bank in the main navigation. With the role Author, it appears there next to Authoring.
 
-![Question bank highlighted and opened, on the left the menu My question bank](assets/testerstellung_3_1_v1_de.png){ class="lightbox" title="Question bank in the main navigation" }
+![Highlighted the entry Question bank in the main navigation next to Authoring, below it the opened question bank with the menu My question bank](assets/testerstellung_3_1_v2_en.png){ class="shadow lightbox" title="Question bank in the main navigation · 2026.11.10" }
 
 2\. Under "My question bank", select the entry "My questions" and click "Create question". Enter a title and select the appropriate type under "Type", for example "Multiple-Choice".
 
-![Button Create question highlighted, above the list My questions](assets/testerstellung_3_2_v1_de.png){ class="lightbox" title="Question bank" }
+![Highlighted the entry My questions in the menu My question bank and the button Create question above the list, with which you create a new question](assets/testerstellung_3_2_v2_en.png){ class="shadow lightbox" title="My questions in the question bank · 2026.11.10" }
 
 3\. In the "Choice" tab, enter the title of the question, the question wording and the possible answers. You add further answers via the plus sign.
 
@@ -357,12 +357,12 @@ So that you find the questions again later via the search filters and the course
 
 6\. Create a test learning resource via `Authoring > Create > Test`.
 
-![Entry Test in the Create menu highlighted](assets/testerstellung_3_6_v1_de.png){ class="lightbox" title="Authoring" }
+![Create menu opened in Authoring, entry Test highlighted](assets/testerstellung_2_1_v2_en.png){ class="shadow lightbox" title="Create menu in Authoring · 2026.11.10" }
 
 !!! note "Note"
 
     You find the new test learning resource in Authoring in the "My entries" tab, because the "My courses" tab only lists courses. In the "Type" column you recognize it by the icon for test learning resources.
-    ![Tab My entries with the filter Type Test, test icon in the Type column highlighted](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" title="Tab My entries in Authoring" }
+    ![Highlighted the tab My entries, the filter Type with the value Test and the Type column, in which you recognize test learning resources by their icon](assets/testerstellung_3_6b_v2_en.png){ class="shadow lightbox" title="Tab My entries in Authoring · 2026.11.10" }
 
 7\. Open the test editor via `Test learning resource > Administration > Test editor`.
 
@@ -370,7 +370,7 @@ So that you find the questions again later via the search filters and the course
 
 8\. You recognize the test editor by the shaded header. Here you add new questions under "Add elements".
 
-![Opened menu Add elements with the question types](assets/testerstellung_3_8_v1_de.png){ class="lightbox" title="Test editor" }
+![Highlighted the button Add elements and, in the opened menu, the question types from Single choice to Drawing, from which you select the type of the new question](assets/testerstellung_3_8_v2_en.png){ class="shadow lightbox" title="Menu Add elements in the test editor · 2026.11.10" }
 
 <br>
 
@@ -380,7 +380,7 @@ So that you find the questions again later via the search filters and the course
 
 9\. You adopt your questions from the question bank in the same menu with "Import questions from pool". OpenOlat copies them into the test; there they are initially read-only. How to edit such a question is described under [Using questions from the question bank](../../manual_user/learningresources/Test_editor_QTI_2.1/index.md#questions_from_pool).
 
-![Entry Import questions from pool in the Add elements menu highlighted](assets/testerstellung_3_9_v1_de.png){ class="lightbox" title="Menu Add elements in the test editor" }
+![Highlighted the entry Import questions from pool in the Add elements menu, with which you adopt questions from the question bank into the test](assets/testerstellung_3_9_v2_en.png){ class="shadow lightbox" title="Menu Add elements in the test editor · 2026.11.10" }
 
 10\. The "Choose questions" dialog shows your questions under "My favorites" and "My questions", depending on the configuration also under "My lists" and "My shares". A click on the title of a question inserts it directly. For several questions, tick the checkboxes and click "Select".
 

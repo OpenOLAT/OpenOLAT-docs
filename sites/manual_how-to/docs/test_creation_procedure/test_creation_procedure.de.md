@@ -151,7 +151,7 @@ Ein Prüfungskurs ist ein normaler Kurs, wahlweise Lernpfadkurs oder herkömmlic
 
 12\. Klicken Sie auf "Elemente hinzufügen" und wählen Sie den passenden Fragetyp, zum Beispiel "Multiple Choice".
 
-![Button Elemente hinzufügen markiert, darunter eine neue Multiple-Choice-Frage im Tab Auswahl](assets/testerstellung_1_12_v1_de.png){ class="lightbox" title="Testeditor" }
+![Markiert der Button Elemente hinzufügen in der Toolbar des Testeditors, über den Sie eine Frage wie die darunter gezeigte Multiple-Choice-Frage im Tab Auswahl anlegen](assets/testerstellung_1_12_v2_de.png){ class="shadow lightbox" title="Testeditor · 2026.11.10" }
 
 13\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antworten ergänzen Sie über das Pluszeichen.
 
@@ -322,11 +322,11 @@ Dann beginnen Sie im Fragenpool: Die Fragen dort stehen für jeden Test bereit, 
 
 1\. Öffnen Sie den Fragenpool in der Hauptnavigation. Mit der Rolle Autor:in steht er dort neben dem Autorenbereich.
 
-![Fragenpool markiert und geöffnet, links das Menü Mein Fragenpool](assets/testerstellung_3_1_v1_de.png){ class="lightbox" title="Fragenpool in der Hauptnavigation" }
+![Markiert der Eintrag Fragenpool in der Hauptnavigation neben dem Autorenbereich, darunter der geöffnete Fragenpool mit dem Menü Mein Fragenpool](assets/testerstellung_3_1_v2_de.png){ class="shadow lightbox" title="Fragenpool in der Hauptnavigation · 2026.11.10" }
 
 2\. Wählen Sie unter "Mein Fragenpool" den Eintrag "Meine Fragen" und klicken Sie auf "Frage erstellen". Geben Sie einen Titel ein und wählen Sie unter "Fragetyp" den passenden Typ, zum Beispiel "Multiple Choice".
 
-![Button Frage erstellen markiert, über der Liste Meine Fragen](assets/testerstellung_3_2_v1_de.png){ class="lightbox" title="Fragenpool" }
+![Markiert der Eintrag Meine Fragen im Menü Mein Fragenpool und der Button Frage erstellen über der Liste, mit dem Sie eine neue Frage anlegen](assets/testerstellung_3_2_v2_de.png){ class="shadow lightbox" title="Meine Fragen im Fragenpool · 2026.11.10" }
 
 3\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antworten ergänzen Sie über das Pluszeichen.
 
@@ -357,12 +357,12 @@ Damit Sie die Fragen später über die Suchfilter wiederfinden und der Kursbaust
 
 6\. Erstellen Sie eine Test-Lernressource über `Autorenbereich > Erstellen > Test`.
 
-![Eintrag Test im Menü Erstellen markiert](assets/testerstellung_3_6_v1_de.png){ class="lightbox" title="Autorenbereich" }
+![Menü Erstellen im Autorenbereich geöffnet, Eintrag Test markiert](assets/testerstellung_2_1_v2_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
 !!! note "Hinweis"
 
     Die neue Test-Lernressource finden Sie im Autorenbereich im Tab "Meine Einträge", denn der Tab "Meine Kurse" listet nur Kurse. In der Spalte "Typ" erkennen Sie sie am Symbol für Test-Lernressourcen.
-    ![Tab Meine Einträge mit Filter Typ Test, Test-Symbol in der Spalte Typ markiert](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" title="Tab Meine Einträge im Autorenbereich" }
+    ![Markiert der Tab Meine Einträge, der Filter Typ mit dem Wert Test und die Spalte Typ, in der Sie Test-Lernressourcen am Symbol erkennen](assets/testerstellung_3_6b_v2_de.png){ class="shadow lightbox" title="Tab Meine Einträge im Autorenbereich · 2026.11.10" }
 
 7\. Öffnen Sie den Testeditor über `Test-Lernressource > Administration > Testeditor`.
 
@@ -370,7 +370,7 @@ Damit Sie die Fragen später über die Suchfilter wiederfinden und der Kursbaust
 
 8\. Den Testeditor erkennen Sie an der schraffierten Kopfzeile. Unter "Elemente hinzufügen" fügen Sie hier neue Fragen hinzu.
 
-![Geöffnetes Menü Elemente hinzufügen mit den Fragetypen](assets/testerstellung_3_8_v1_de.png){ class="lightbox" title="Testeditor" }
+![Markiert der Button Elemente hinzufügen und im geöffneten Menü die Fragetypen von Single Choice bis Zeichnen, aus denen Sie den Typ der neuen Frage wählen](assets/testerstellung_3_8_v2_de.png){ class="shadow lightbox" title="Menü Elemente hinzufügen im Testeditor · 2026.11.10" }
 
 <br>
 
@@ -380,7 +380,7 @@ Damit Sie die Fragen später über die Suchfilter wiederfinden und der Kursbaust
 
 9\. Ihre Fragen aus dem Fragenpool übernehmen Sie im selben Menü mit "Fragen aus Pool importieren". OpenOlat kopiert sie in den Test; dort sind sie zunächst schreibgeschützt. Wie Sie eine solche Frage bearbeiten, steht unter [Fragen aus dem Fragenpool verwenden](../../manual_user/learningresources/Test_editor_QTI_2.1/index.de.md#questions_from_pool).
 
-![Eintrag Fragen aus Pool importieren im Menü Elemente hinzufügen markiert](assets/testerstellung_3_9_v1_de.png){ class="lightbox" title="Menü Elemente hinzufügen im Testeditor" }
+![Markiert der Eintrag Fragen aus Pool importieren im Menü Elemente hinzufügen, mit dem Sie Fragen aus dem Fragenpool in den Test übernehmen](assets/testerstellung_3_9_v2_de.png){ class="shadow lightbox" title="Menü Elemente hinzufügen im Testeditor · 2026.11.10" }
 
 10\. Der Dialog "Fragen auswählen" zeigt Ihre Fragen unter "Meine Favoriten" und "Meine Fragen", je nach Konfiguration auch unter "Meine Listen" und "Meine Shares". Ein Klick auf den Titel einer Frage fügt sie direkt ein. Für mehrere Fragen setzen Sie die Häkchen und klicken auf "Auswählen".
 
