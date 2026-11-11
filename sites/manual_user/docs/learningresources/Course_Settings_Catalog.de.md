@@ -5,8 +5,6 @@ Soll Ihr Kurs im Katalog 1.0 erscheinen, tragen Sie ihn im Tab "Katalog" in eine
 
 Den Tab gibt es nicht nur bei Kursen, sondern bei jeder Lernressource mit dem Menü "Einstellungen", zum Beispiel bei Podcast, Blog oder SCORM 1.2.
 
-![Tab Katalog mit dem Hinweis, wer die Ressource im Katalog sieht, darunter der Button In Katalog einfügen und die Tabelle mit Pfad und Entfernen](../area_modules/assets/Katalog1a.jpg){ class="shadow lightbox" title="Tab Katalog in den Kurseinstellungen" }
-
 
 ## Wann der Tab erscheint {: #requirements}
 

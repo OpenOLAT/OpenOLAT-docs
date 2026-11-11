@@ -5,8 +5,6 @@ If your course is to appear in catalog 1.0, you add it to one or more categories
 
 The tab exists not only for courses but for every learning resource with the "Settings" menu, for example podcast, blog or SCORM 1.2.
 
-![Catalog tab with the note on who sees the resource in the catalog, below it the button Add to catalog and the table with Path and Remove](../area_modules/assets/Katalog1a.jpg){ class="shadow lightbox" title="Catalog tab in the course settings" }
-
 
 ## When the tab appears {: #requirements}
 
