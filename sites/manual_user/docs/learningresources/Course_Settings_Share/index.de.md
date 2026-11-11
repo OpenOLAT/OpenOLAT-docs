@@ -150,7 +150,18 @@ Admin-Handbuch: [Modul OAI PMH >](../../../manual_admin/administration/Modules_O
 
 Damit ein Kurs im Katalog erscheint, erstellen Sie ein Angebot. Soll derselbe Kurs zu verschiedenen Bedingungen buchbar sein, erstellen Sie mehrere Angebote, zum Beispiel kostenlos für eine bestimmte Zielgruppe und kostenpflichtig für andere.
 
-Angebote erstellen Sie, sobald im Abschnitt "Freigabe" bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt ist.
+Angebote erstellen Sie, sobald im Abschnitt "Freigabe" bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt ist. Solange "Privat" gewählt ist, zeigt der Abschnitt eine einzige Überschrift "Angebot" mit dem inaktiven Button "Angebot hinzufügen".
+
+Mit "Buchbare und offene Angebote" trägt der Abschnitt zwei Überschriften "Angebot". Die obere eröffnet den Abschnitt und zeigt, wo der Kurs angeboten wird. Die untere steht über den Angeboten selbst.
+
+**Obere Überschrift "Angebot"**<br>
+Der Kasten "Übersicht" zeigt bei "Interner Katalog" und, wenn der externe Katalog eingeschaltet ist, bei "Externer Katalog", ob der Kurs dort "Buchbar" oder "Nicht verfügbar" ist. Unter "Angebot in Fachbereiche" stehen die Fachbereiche aus dem Tab "Metadaten", der Link "Metadaten öffnen" führt dorthin. Unter "Zugang" öffnet der Link "Links" die Adressen des Kurses im internen und externen Katalog. Ist der Katalog 1.0 eingeschaltet, nennt der Kasten statt der Fachbereiche unter "Katalog" die Kategorien, in denen der Kurs eingetragen ist. Ist in der System-Administration die Sortierung nach Priorität eingeschaltet, folgt der Abschnitt "Einstellungen" mit der [Katalog-Priorität bei Sortierung](../../area_modules/catalog2.0_sort_offers.de.md#sorting_microsites_define_priority).
+
+**Untere Überschrift "Angebot"**<br>
+Hier erstellen Sie mit dem Button "Angebot hinzufügen" ein neues Angebot. Darunter steht jedes Angebot in einem eigenen Kasten, mit den Links "Angebot editieren" und "Angebot löschen". Hat der Kurs noch kein Angebot, steht dort "Noch kein Angebot erstellt", und die Angebotsarten stehen zusätzlich als eigene Buttons bereit.
+
+Für ein neues Angebot führt der Weg deshalb zum Button unter der unteren Überschrift:<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`
 
 Mehr über Angebote und den Katalog finden Sie hier:<br>
 [Katalog >](../../area_modules/catalog2.0/index.de.md)<br>
@@ -201,6 +212,7 @@ Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produk
 [Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles/index.de.md)<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Modul OAI PMH >](../../../manual_admin/administration/Modules_OAI.de.md)<br>
+[Katalog 2.0 - Sortierung/Reihenfolge >](../../area_modules/catalog2.0_sort_offers.de.md)<br>
 [Katalog 2.0: Übersicht >](../../area_modules/catalog2.0/index.de.md)<br>
 [Angebotsarten >](../Offer_Types.de.md)<br>
 [Katalog 2.0 - Angebote >](../../area_modules/catalog2.0_angebote.de.md)<br>

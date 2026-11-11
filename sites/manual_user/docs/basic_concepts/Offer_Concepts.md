@@ -58,7 +58,7 @@ An offer also appears in several launchers of the catalog (V2), for example in a
 Offers also appear in launchers that only members of certain organisational units see. This requires that the "Organisations" module is activated.
 
 You set the release directly in the offer:<br>
-Course: `Course > Administration > Settings > Share > Section "Offer" > Link "Edit offer"`<br>
+Course: `Course > Administration > Settings > Tab "Share" > Section "Offer" > Link "Edit offer"`<br>
 Implementation: `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers > Link "Edit offer"`
 
 ![With "Published in" you choose the internal or external catalog, with "Released for" the organisational units whose members see the offer, here two units](assets/offer_concepts_share_org_v2_en.png){ class="shadow lightbox" title="Catalog section in the dialog Freely available of an implementation · 2026.11.09" }
@@ -87,7 +87,9 @@ You create offers
 ### Create offers in courses [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #create_offers_course}
 
 To offer a course in the catalog, open the course and select:<br>
-`Course > Administration > Settings > Share > Section "Offer"`
+`Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`
+
+The "Offer" section carries two headings "Offer": the upper one shows in the overview where the course is offered, under the lower one you find the button "Add offer" and the offers. More on this under [Section Offer](../learningresources/Course_Settings_Share/index.md#section_offer).
 
 ![In the section Offer you create the first offer with the button "Add offer" or directly with the offer types Without booking, Freely available, Access code and PayPal Checkout](assets/offer_concepts_create_offer_course_v1_en.png){ class="shadow lightbox" title="Share tab of the course settings · 2026.11.09" }
 
@@ -95,7 +97,7 @@ To offer a course in the catalog, open the course and select:<br>
 
     You also see the offers you created under:<br>
     `Course > Administration > Offer types`<br>
-    The entry appears as soon as a bookable offer has been configured for the course. You configure offers under `Course > Administration > Settings > Share > Section "Offer"` (see above).<br>
+    The entry appears as soon as a bookable offer has been configured for the course. You configure offers under `Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"` (see above).<br>
     [Details on the offer configuration >](../learningresources/Access_configuration.md#offer)
 
 
@@ -146,7 +148,7 @@ Offers in the catalog exist for
 ### Offer courses {: #what_is_offered_courses}
 
 You create offers for a course under:<br>
-`Course > Administration > Settings > Share > Section "Offer"`<br>
+`Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`<br>
 First select the option "Bookable and open offers" under "Access for participants".
 
 ![In the Share tab you first select "Bookable and open offers", then the menu "Add offer" shows the offer types of a course](assets/offer_concepts_types_course1_v1_en.png){ class="shadow lightbox" title="Share tab of the course settings · 2026.11.09" }
@@ -211,7 +213,7 @@ Adapt the metadata and description of this course to the learning resource it co
 
 With the PayPal payment module, authors offer learning content for payment. System administrators set up the module beforehand in the system administration and switch it on.
 
-Once the PayPal module is configured, the offer type "PayPal Checkout" is available when creating an offer: for courses under `Course > Administration > Settings > Share > Section "Offer"`, for implementations in the Course Planner and for groups in the [group administration](../groups/Group_Administration/index.md#booking).
+Once the PayPal module is configured, the offer type "PayPal Checkout" is available when creating an offer: for courses under `Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`, for implementations in the Course Planner and for groups in the [group administration](../groups/Group_Administration/index.md#booking).
 
 An offer "PayPal Checkout" is created by persons with the role author, learning resource manager or administrator. Course planners additionally need one of these roles; without it, "Add offer" shows "Freely available", "Access code" and "Invoice" for an implementation.
 
@@ -359,6 +361,7 @@ With auto-booking, OpenOlat does not show the offer description, and users only 
 **Mentioned on this page**<br>
 [Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
 [Catalog 2.0 - Sorting/order >](../area_modules/catalog2.0_sort_offers.md)<br>
+[Course settings - Tab Share >](../learningresources/Course_Settings_Share/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>

@@ -58,7 +58,7 @@ Ein Angebot erscheint auch in mehreren Launchern des Katalogs (V2), zum Beispiel
 Angebote erscheinen auch in Launchern, die nur Mitglieder bestimmter Organisationseinheiten sehen. Voraussetzung ist, dass das Modul "Organisationen" aktiviert ist.
 
 Die Freigabe stellen Sie direkt im Angebot ein:<br>
-Kurs: `Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot" > Link "Angebot editieren"`<br>
+Kurs: `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Link "Angebot editieren"`<br>
 Durchführung: `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote > Link "Angebot editieren"`
 
 ![Mit "Veröffentlicht in" wählen Sie den internen oder externen Katalog, mit "Freigegeben für" die Organisationseinheiten, deren Mitglieder das Angebot sehen, hier zwei Einheiten](assets/offer_concepts_share_org_v2_de.png){ class="shadow lightbox" title="Abschnitt Katalog im Dialog Frei verfügbar einer Durchführung · 2026.11.09" }
@@ -87,7 +87,9 @@ Angebote erstellen Sie
 ### Angebotserstellung im Kurs [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #create_offers_course}
 
 Um einen Kurs im Katalog anzubieten, öffnen Sie den Kurs und wählen:<br>
-`Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot"`
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`
+
+Der Abschnitt "Angebot" trägt zwei Überschriften "Angebot": Die obere zeigt in der Übersicht, wo der Kurs angeboten wird, unter der unteren stehen der Button "Angebot hinzufügen" und die Angebote. Mehr dazu unter [Abschnitt Angebot](../learningresources/Course_Settings_Share/index.de.md#section_offer).
 
 ![Im Abschnitt Angebot erstellen Sie das erste Angebot über den Button "Angebot hinzufügen" oder direkt über die Angebotsarten Ohne Buchung, Frei verfügbar, Zugangscode und PayPal Checkout](assets/offer_concepts_create_offer_course_v2_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen · 2026.11.09" }
 
@@ -95,7 +97,7 @@ Um einen Kurs im Katalog anzubieten, öffnen Sie den Kurs und wählen:<br>
 
     Erstellte Angebote sehen Sie auch unter:<br>
     `Kurs > Administration > Angebotsarten`<br>
-    Der Eintrag erscheint, sobald für den Kurs ein buchbares Angebot konfiguriert ist. Angebote konfigurieren Sie unter `Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot"` (siehe oben).<br>
+    Der Eintrag erscheint, sobald für den Kurs ein buchbares Angebot konfiguriert ist. Angebote konfigurieren Sie unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"` (siehe oben).<br>
     [Details zur Angebotskonfiguration >](../../manual_user/learningresources/Access_configuration.de.md#offer)
 
 
@@ -146,7 +148,7 @@ Angebote im Katalog gibt es für
 ### Kurse anbieten {: #what_is_offered_courses}
 
 Angebote zu einem Kurs erstellen Sie unter:<br>
-`Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot"`<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`<br>
 Wählen Sie vorher bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote".
 
 ![Im Tab Freigabe wählen Sie zuerst "Buchbare und offene Angebote", danach zeigt das Menü "Angebot hinzufügen" die Angebotsarten eines Kurses](assets/offer_concepts_types_course1_v2_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen · 2026.11.09" }
@@ -211,7 +213,7 @@ Passen Sie Metadaten und Beschreibung dieses Kurses an die enthaltene Lernressou
 
 Mit dem Bezahlungsmodul PayPal bieten Autor:innen Lerninhalte gegen Bezahlung an. Systemadministrator:innen richten das Modul vorher in der System-Administration ein und schalten es ein.
 
-Ist das PayPal Modul konfiguriert, steht die Angebotsart "PayPal Checkout" beim Erstellen eines Angebots zur Verfügung: für Kurse unter `Kurs > Administration > Einstellungen > Freigabe > Abschnitt "Angebot"`, für Durchführungen im Course Planner und für Gruppen in der [Gruppenadministration](../groups/Group_Administration/index.de.md#booking).
+Ist das PayPal Modul konfiguriert, steht die Angebotsart "PayPal Checkout" beim Erstellen eines Angebots zur Verfügung: für Kurse unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`, für Durchführungen im Course Planner und für Gruppen in der [Gruppenadministration](../groups/Group_Administration/index.de.md#booking).
 
 Ein Angebot "PayPal Checkout" erstellen Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in. Kursplaner:innen brauchen dafür zusätzlich eine dieser Rollen; ohne sie zeigt "Angebot hinzufügen" bei einer Durchführung "Frei verfügbar", "Zugangscode" und "Rechnung".
 
@@ -359,6 +361,7 @@ Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Ben
 **Auf dieser Seite erwähnt**<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](../area_modules/catalog2.0_sort_offers.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>

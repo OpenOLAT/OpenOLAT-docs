@@ -149,7 +149,18 @@ Admin Manual: [Modul OAI PMH >](../../../manual_admin/administration/Modules_OAI
 
 For a course to appear in the catalog, you create an offer. If the same course is to be bookable under different conditions, you create several offers, for example free of charge for a specific target group and subject to a fee for others.
 
-You create offers as soon as the option "Bookable and open offers" is selected in the "Share" section under "Access for participants".
+You create offers as soon as the option "Bookable and open offers" is selected in the "Share" section under "Access for participants". As long as "Private" is selected, the section shows a single heading "Offer" with the inactive button "Add offer".
+
+With "Bookable and open offers", the section carries two headings "Offer". The upper one opens the section and shows where the course is offered. The lower one stands above the offers themselves.
+
+**Upper heading "Offer"**<br>
+The "Overview" box shows for "Internal catalog" and, if the external catalog is switched on, for "External catalog" whether the course is "Bookable" or "Not available" there. "Offered in subjects" lists the subjects from the "Metadata" tab, and the link "Open metadata" leads there. Under "Access", the link "Links" opens the addresses of the course in the internal and external catalog. If catalog 1.0 is switched on, the box lists under "Catalog" the categories in which the course is entered, instead of the subjects. If sorting by priority is switched on in the system administration, the "Settings" section follows with the [catalog priority when sorting](../../area_modules/catalog2.0_sort_offers.md#sorting_microsites_define_priority).
+
+**Lower heading "Offer"**<br>
+Here you create a new offer with the button "Add offer". Below it, each offer stands in a box of its own, with the links "Edit offer" and "Delete offer". If the course has no offer yet, "No offer created yet" appears there, and the offer types are also available as separate buttons.
+
+For a new offer, the path therefore leads to the button under the lower heading:<br>
+`Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`
 
 You can find more information about offers and the catalog here:<br>
 [Catalog >](../../area_modules/catalog2.0/index.md)<br>
@@ -199,6 +210,7 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 [Roles and Rights: Which roles are available? >](../../basic_concepts/Roles/index.md)<br>
 [How can I have my courses found by search engines? >](../../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Module OAI-PMH >](../../../manual_admin/administration/Modules_OAI.md)<br>
+[Catalog 2.0 - Sorting/order >](../../area_modules/catalog2.0_sort_offers.md)<br>
 [Catalog 2.0 - Overview >](../../area_modules/catalog2.0/index.md)<br>
 [Offer types >](../Offer_Types.md)<br>
 [Catalog 2.0 - Offers >](../../area_modules/catalog2.0_angebote.md)<br>

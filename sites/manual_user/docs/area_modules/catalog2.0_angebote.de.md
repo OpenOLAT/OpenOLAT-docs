@@ -22,7 +22,7 @@ Nein. Der Katalog zeigt nicht automatisch alle Kurse und Lernressourcen. Ob ein 
 ## Wie wird ein Angebot erstellt? {: #offers_create}
 
 Angebote gehören zum Kurs. Autor:innen erstellen sie in den Kurseinstellungen:<br>
-`Kurs > Administration > Einstellungen > Tab "Freigabe"`
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`
 
 !!! note "Unterschied Katalog 1.0 und Katalog 2.0"
 
@@ -71,7 +71,7 @@ Zu einem Kurs können Sie mehrere Angebote erstellen, etwa kostenlos für die ei
 
 ![Zwei Angebote desselben Kurses markiert: Zugangscode mit Zeitraum und Frei verfügbar, je für eine andere Organisation freigegeben](assets/catalog20_2angebote_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe · 2026.10.20" }
 
-Im Tab "Freigabe" steht jedes Angebot in einem eigenen Kasten. Ein Abzeichen zeigt seinen Status, zum Beispiel "Buchbar", "Geplant" oder "Nicht verfügbar". Darüber fasst eine Übersicht zusammen, ob die Angebote im internen oder im externen Katalog veröffentlicht sind.
+Im Tab "Freigabe" trägt der Abschnitt "Angebot" zwei Überschriften "Angebot". Unter der unteren steht jedes Angebot in einem eigenen Kasten. Ein Abzeichen zeigt seinen Status, zum Beispiel "Buchbar", "Geplant" oder "Nicht verfügbar". Unter der oberen zeigt die Übersicht, ob der Kurs im internen und im externen Katalog buchbar ist. Was unter welcher Überschrift steht, finden Sie unter [Abschnitt Angebot](../learningresources/Course_Settings_Share/index.de.md#section_offer).
 
 Ist das [Modul Organisationen](../../manual_admin/administration/Modules_Organisations.de.md) eingeschaltet, legen Sie im Feld "Freigegeben für" fest, für welche Organisationen ein Angebot gilt. Ist es ausgeschaltet, gibt es dieses Feld nicht, und der Katalog unterscheidet nicht nach Organisationen. Die folgenden Regeln betreffen Sie dann nicht. Systemadministrator:innen schalten das Modul in der System-Administration mit dem Schalter "Organisationen einschalten" ein:<br>
 `Administration > Module > Organisationen`
@@ -105,7 +105,7 @@ Wann ein Angebot verfügbar ist, legen Sie im Angebot unter "Verfügbar wenn" fe
 
 ![Verfügbar wenn mit Benutzerdefinierte Bedingung markiert: Status ist Veröffentlicht, Ab und Bis je mit einem absoluten Datum](assets/catalog20_zeitbeschraenkt_v2_de.png){ class="shadow lightbox" title="Dialog Zugangscode · 2026.10.20" }
 
-Unter "Veröffentlicht in" wählen Sie "Interner Katalog", damit das Angebot im OpenOlat-Katalog erscheint. Ist der externe Katalog eingeschaltet, steht zusätzlich "Externer Katalog" zur Wahl. Den Fachbereich wählen Sie nicht im Angebot, sondern im Tab "Metadaten" des Kurses. Die Übersicht im Tab "Freigabe" zeigt ihn unter "Angebot in Fachbereiche", der Link "Metadaten öffnen" führt dorthin. Ist kein Fachbereich angegeben, kann das Angebot zwar z.B. über die Suchfunktion im Katalog gefunden werden, es wird jedoch in keinem Taxonomie-Launcher angezeigt, in dem Angebote mit gleichem Fachbereich zusammengefasst angezeigt werden.
+Unter "Veröffentlicht in" wählen Sie "Interner Katalog", damit das Angebot im OpenOlat-Katalog erscheint. Ist der externe Katalog eingeschaltet, steht zusätzlich "Externer Katalog" zur Wahl. Den Fachbereich wählen Sie nicht im Angebot, sondern im Tab "Metadaten" des Kurses. Die Übersicht unter der oberen Überschrift "Angebot" im Tab "Freigabe" zeigt ihn unter "Angebot in Fachbereiche", der Link "Metadaten öffnen" führt dorthin. Ist kein Fachbereich angegeben, kann das Angebot zwar z.B. über die Suchfunktion im Katalog gefunden werden, es wird jedoch in keinem Taxonomie-Launcher angezeigt, in dem Angebote mit gleichem Fachbereich zusammengefasst angezeigt werden.
 
 Je nach Angebotsart legen Sie weitere Angaben fest, bei "Zugangscode" zum Beispiel den Code selbst.
 
@@ -214,6 +214,7 @@ Ein Klick auf die Kachel im Taxonomie-Launcher öffnet die Microsite des Fachber
 
 **Auf dieser Seite erwähnt**<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)<br>
 [Modul Organisationen (Administrationshandbuch) >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Benutzerverwaltung (Administrationshandbuch) >](../../manual_admin/usermanagement/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>

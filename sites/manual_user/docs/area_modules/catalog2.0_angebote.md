@@ -22,7 +22,7 @@ No. The catalog does not automatically show all courses and learning resources. 
 ## How is an offer created? {: #offers_create}
 
 Offers belong to the course. Authors create them in the course settings:<br>
-`Course > Administration > Settings > Tab "Share"`
+`Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`
 
 !!! note "Difference between Catalog 1.0 and Catalog 2.0"
 
@@ -71,7 +71,7 @@ You can create several offers for one course, for example free of charge for som
 
 ![Two offers of the same course highlighted: Access code with a period and Freely available, each released for a different organisation](assets/catalog20_2angebote_v2_en.png){ class="shadow lightbox" title="Section Offer in the Share tab · 2026.10.20" }
 
-In the tab "Share", each offer is in a box of its own. A badge shows its status, for example "Bookable", "Pending" or "Not available". Above it, an overview summarises whether the offers are published in the internal or in the external catalog.
+In the tab "Share", the "Offer" section carries two headings "Offer". Under the lower one, each offer is in a box of its own. A badge shows its status, for example "Bookable", "Pending" or "Not available". Under the upper one, the overview shows whether the course is bookable in the internal and in the external catalog. What appears under which heading is described under [Section Offer](../learningresources/Course_Settings_Share/index.md#section_offer).
 
 If the [module Organisations](../../manual_admin/administration/Modules_Organisations.md) is enabled, you define in the field "Released for" which organisations an offer applies to. If it is disabled, this field does not exist, and the catalog does not distinguish between organisations. The following rules then do not concern you. System administrators enable the module in the system administration with the switch "Enable organisations":<br>
 `Administration > Modules > Organisations`
@@ -105,7 +105,7 @@ You define when an offer is available under "Available if" in the offer. With "C
 
 ![Available if with Custom condition highlighted: Status is Published, From and Until each with an absolute date](assets/catalog20_zeitbeschraenkt_v2_en.png){ class="shadow lightbox" title="Dialog Access code · 2026.10.20" }
 
-Under "Published in", select "Internal catalog" so that the offer appears in the OpenOlat catalog. If the external catalog is switched on, "External catalog" is also available. You do not select the subject in the offer but in the "Metadata" tab of the course. The overview in the "Share" tab shows it under "Offered in subjects", and the link "Open metadata" leads there. If no subject is specified, the offer can be found via the search function in the catalog, for example, but it is not displayed in any taxonomy launcher in which offers with the same subject are displayed together.
+Under "Published in", select "Internal catalog" so that the offer appears in the OpenOlat catalog. If the external catalog is switched on, "External catalog" is also available. You do not select the subject in the offer but in the "Metadata" tab of the course. The overview under the upper heading "Offer" in the "Share" tab shows it under "Offered in subjects", and the link "Open metadata" leads there. If no subject is specified, the offer can be found via the search function in the catalog, for example, but it is not displayed in any taxonomy launcher in which offers with the same subject are displayed together.
 
 Depending on the offer type, you define further details, for "Access code" for example the code itself.
 
@@ -214,6 +214,7 @@ A click on the tile in the taxonomy launcher opens the microsite of the subject.
 
 **Mentioned on this page**<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
+[Course settings - Tab Share >](../learningresources/Course_Settings_Share/index.md)<br>
 [Module Organisations (administration manual) >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [User management (administration manual) >](../../manual_admin/usermanagement/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
