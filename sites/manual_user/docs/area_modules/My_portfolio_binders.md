@@ -54,7 +54,9 @@ In addition to creating an empty binder as described under a), there are the fol
 
 ## The toolbar of a binder {: #binder_toolbar}
 
-When you open a binder, you manage it via the toolbar above the tabs: on the left the binder as a whole, on the right its content. Which actions you see depends on whether you created the binder yourself or collected it from a template. The toolbar shows these actions only to the person who owns the binder. Whoever reads a binder via an access right, for example as a coach, sees none of them. The image under [The tabs of a binder](#binder_tabs) shows the toolbar of a binder you created yourself.
+When you open a binder, you manage it via the toolbar above the tabs: on the left the binder as a whole, on the right its content. Which actions you see depends on whether you created the binder yourself or collected it from a template. The toolbar shows these actions only to the person who owns the binder. Whoever reads a binder via an access right, for example as a coach, sees none of them.
+
+![Toolbar with three actions on the left for the binder as a whole and three actions on the right for its content](assets/my_portfolio_binders_toolbar_v1_en.png){ class="shadow lightbox" title="Toolbar of a binder you created yourself in the tab Overview · 2026.11.11" }
 
 * **Edit metadata**: Here you change "Title", "Summary", "Teaser Image (jpg, png, gif)" and "Categories" of the binder. In a binder from a template, the template sets these details and the action is missing.
 * **Delete binder**: OpenOlat moves the binder to the trash. There you get it back with "Restore" or delete it permanently with "Delete binder": `Personal menu > Portfolio 2.0 > Go to trash > Binders`. You may delete a binder from a template only if the template has switched on "Users are allowed to delete binders".
@@ -79,12 +81,12 @@ Which options a template switches on is set by its authors in the settings of th
 
 An opened binder shows the tabs "Overview", "Entries", "History" and "Access control". With them you switch between the content of the binder, its history of changes and the access rights.
 
-![Tabs Overview, Entries, History and Access control marked, above them the toolbar with six actions; in the table of contents each entry shows its status](assets/my_portfolio_binders_tabs_v1_en.png){ class="shadow lightbox" title="Overview tab and toolbar of a binder · 2026.10.26" }
+![Tabs Overview, Entries, History and Access control marked; in the table of contents each entry shows its status](assets/my_portfolio_binders_tabs_v1_en.png){ class="shadow lightbox" title="Overview tab of a binder · 2026.10.26" }
 
 * **Overview**: The table of contents of the binder shows the sections with their entries, each with its status.
 * **Entries**: Here the entries of the binder are listed by section, with the timeline as under [My entries](My_entries.md).
 * **History**: Here all changes are listed in chronological order, with the most recent at the top. In the field "Changes" you set the date from which the list starts. The bell icon at the top right next to the heading lets you be informed about these changes instead of checking the tab yourself: click it and switch on "Subscribe" in the pop-up window. You are notified of new comments on entries with the name of the person who wrote them, as well as new and changed entries, sections and evaluations, in each case only for content you are allowed to see in the binder. The notifications are collected under [Subscriptions](../personal_menu/Subscriptions.md) in the personal menu and, depending on your settings, are also sent by e-mail.
-* **Access control**: Here you see who has which right on the binder, its sections and entries. With "Add access rights" you share sections and entries. For more information, see [Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md).
+* **Access control**: Here you see who has which right on the binder, its sections and entries. With "Add access rights" you share sections and entries. For more information, see [Assign access rights for the portfolio binder](../learningresources/Course_Element_Portfolio_Task.md#binder_access_rights).
 
 ![Bell icon at the top right opens the pop-up window with the toggle Subscribe](assets/my_portfolio_binders_history_subscribe_v1_en.png){ class="shadow lightbox" title="History tab of a binder" }
 
@@ -112,8 +114,7 @@ Two further tabs appear depending on the binder and your rights:
 [My entries >](My_entries.md)<br>
 [Shared by me >](Shared_by_me.md)<br>
 [Portfolio template: Administration and editing >](../learningresources/Portfolio_template_Administration_and_editing.md)<br>
-[User tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
-[Portfolio task and assignment: Collecting and editing >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
+[User tools: Subscriptions >](../personal_menu/Subscriptions.md)
 
 **Further reading**<br>
 [User tools: Portfolio 2.0 >](../personal_menu/Portfolio/index.md)<br>

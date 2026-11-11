@@ -107,7 +107,7 @@ Haben Besitzer:innen des Kurses unter [`Kurs > Administration > Einstellungen > 
 
 
 
-### Schritt 1: Portfolioaufgabe abholen
+### Schritt 1: Portfolioaufgabe abholen {: #collect_portfolio_task}
 
 Hat eine Autor:in im Kurs eine Portfolioaufgabe vorbereitet, öffnen Sie als Teilnehmer:in den Kursbaustein im Kursmenü. Mit dem Button "Portfolioaufgabe abholen" erhalten Sie eine Kopie der Vorlage zur Bearbeitung in Ihrem eigenen Portfolio.
 
@@ -142,7 +142,7 @@ Nach dem Abholen öffnen Sie die Mappe also im Kurs oder über Ihr persönliches
 ---
 
 
-### Schritt 3: Portfolioaufgabe bearbeiten
+### Schritt 3: Portfolioaufgabe bearbeiten {: #edit_portfolio_task}
 
 **Schritt 3a:** Öffnen Sie die Mappe.
 
@@ -240,7 +240,7 @@ Ist ein Eintrag fertig, publizieren Sie ihn mit "Eintrag publizieren". Erst dann
 ---
 
 
-### Schritt 5: Zugangsrecht für die Portfolio-Mappe vergeben
+### Schritt 5: Zugangsrecht für die Portfolio-Mappe vergeben {: #binder_access_rights}
 
 Damit Ihre Betreuer:innen Ihre Mappe beurteilen können, geben Sie ihnen ein Zugangsrecht. Dasselbe gilt für alle weiteren Personen, die Ihre Mappe sehen sollen. Sie vergeben Zugangsrechte an zwei Orten:
 

@@ -209,7 +209,6 @@ Dem User wird nun der Status "Bestanden" oder "Nicht bestanden" und die eingetra
 ## Weiterführende Informationen {: #further_information}
 
 [Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
-[Portfolioaufgabe: abholen und bearbeiten >](Portfolio_task_and_assignment_Collecting_and_editing.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](Course_Element_Portfolio_Task.de.md)<br>
 [Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
 [Persönliche Werkzeuge: Portfolio 2.0 >](../personal_menu/Portfolio/index.de.md)

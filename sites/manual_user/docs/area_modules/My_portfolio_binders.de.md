@@ -54,7 +54,9 @@ Neben der Möglichkeit, eine leere Mappe wie unter a) zu erstellen, gibt es noch
 
 ## Die Toolbar einer Mappe {: #binder_toolbar}
 
-Wenn Sie eine Mappe öffnen, verwalten Sie sie über die Toolbar über den Tabs: links die Mappe als Ganzes, rechts ihren Inhalt. Welche Aktionen Sie sehen, hängt davon ab, ob Sie die Mappe selbst erstellt oder aus einer Vorlage abgeholt haben. Die Aktionen zeigt die Toolbar nur der Person, der die Mappe gehört. Wer eine Mappe über ein Zugangsrecht liest, etwa als Betreuer:in, sieht keine davon. Das Bild unter [Die Tabs einer Mappe](#binder_tabs) zeigt die Toolbar einer selbst erstellten Mappe.
+Wenn Sie eine Mappe öffnen, verwalten Sie sie über die Toolbar über den Tabs: links die Mappe als Ganzes, rechts ihren Inhalt. Welche Aktionen Sie sehen, hängt davon ab, ob Sie die Mappe selbst erstellt oder aus einer Vorlage abgeholt haben. Die Aktionen zeigt die Toolbar nur der Person, der die Mappe gehört. Wer eine Mappe über ein Zugangsrecht liest, etwa als Betreuer:in, sieht keine davon.
+
+![Toolbar mit drei Aktionen links für die Mappe als Ganzes und drei Aktionen rechts für ihren Inhalt](assets/my_portfolio_binders_toolbar_v1_de.png){ class="shadow lightbox" title="Toolbar einer selbst erstellten Mappe im Tab Überblick · 2026.11.11" }
 
 * **Metadaten bearbeiten**: Hier ändern Sie "Titel", "Zusammenfassung", "Titelbild (jpg,png,gif)" und "Kategorien" der Mappe. In einer Mappe aus einer Vorlage gibt die Vorlage diese Angaben vor, die Aktion fehlt.
 * **Mappe löschen**: OpenOlat legt die Mappe in den Papierkorb. Dort holen Sie sie mit "Wiedererstellen" zurück oder löschen sie mit "Mappe löschen" endgültig: `Persönliches Menü > Portfolio 2.0 > Papierkorb öffnen > Mappe`. Eine Mappe aus einer Vorlage dürfen Sie nur löschen, wenn die Vorlage "Benutzer:innen dürfen Mappe löschen" eingeschaltet hat.
@@ -79,12 +81,12 @@ Welche Optionen eine Vorlage einschaltet, legen ihre Autor:innen in den Einstell
 
 Eine geöffnete Mappe führt die Tabs "Überblick", "Einträge", "Änderungsprotokoll" und "Freigabe". Mit ihnen wechseln Sie zwischen dem Inhalt der Mappe, ihrem Verlauf und den Zugangsrechten.
 
-![Tabs Überblick, Einträge, Änderungsprotokoll und Freigabe markiert, darüber die Toolbar mit sechs Aktionen; im Inhaltsverzeichnis zeigt jeder Eintrag seinen Status](assets/my_portfolio_binders_tabs_v1_de.png){ class="shadow lightbox" title="Tab Überblick und Toolbar einer Mappe · 2026.10.26" }
+![Tabs Überblick, Einträge, Änderungsprotokoll und Freigabe markiert; im Inhaltsverzeichnis zeigt jeder Eintrag seinen Status](assets/my_portfolio_binders_tabs_v1_de.png){ class="shadow lightbox" title="Tab Überblick einer Mappe · 2026.10.26" }
 
 * **Überblick**: Das Inhaltsverzeichnis der Mappe zeigt die Bereiche mit ihren Einträgen, jeweils mit Status.
 * **Einträge**: Hier stehen die Einträge der Mappe nach Bereichen geordnet, mit dem Zeitstrahl wie unter [Meine Einträge](My_entries.de.md).
 * **Änderungsprotokoll**: Hier sind alle Änderungen in chronologischer Reihenfolge aufgelistet, die neueste zuoberst. Im Feld "Änderungen seit" legen Sie fest, ab welchem Datum die Liste beginnt. Über das Glockensymbol rechts oben neben der Überschrift lassen Sie sich über diese Änderungen informieren, statt den Tab selbst zu prüfen: Klicken Sie darauf und schalten Sie im Popup-Fenster "Abonnieren" ein. Gemeldet werden neue Kommentare zu Einträgen mit dem Namen der schreibenden Person sowie neue und geänderte Einträge, Bereiche und Einschätzungen, jeweils nur zu Inhalten, die Sie in der Mappe sehen dürfen. Die Meldungen sammeln sich unter [Abonnements](../personal_menu/Subscriptions.de.md) im persönlichen Menü und gehen je nach Ihrer Einstellung zusätzlich per E-Mail.
-* **Freigabe**: Hier sehen Sie, wer mit welchem Recht auf die Mappe, ihre Bereiche und Einträge zugreift. Über "Zugangsrecht hinzufügen" geben Sie Bereiche und Einträge frei. Mehr dazu unter [Sammeln und Bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md).
+* **Freigabe**: Hier sehen Sie, wer mit welchem Recht auf die Mappe, ihre Bereiche und Einträge zugreift. Über "Zugangsrecht hinzufügen" geben Sie Bereiche und Einträge frei. Mehr dazu unter [Zugangsrecht für die Portfolio-Mappe vergeben](../learningresources/Course_Element_Portfolio_Task.de.md#binder_access_rights).
 
 ![Glockensymbol rechts oben öffnet das Popup-Fenster mit dem Schalter Abonnieren](assets/my_portfolio_binders_history_subscribe_v1_de.png){ class="shadow lightbox" title="Tab Änderungsprotokoll einer Mappe" }
 
@@ -112,8 +114,7 @@ Zwei weitere Tabs erscheinen abhängig von der Mappe und Ihren Rechten:
 [Meine Einträge >](My_entries.de.md)<br>
 [Von mir freigegeben >](Shared_by_me.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](../learningresources/Portfolio_template_Administration_and_editing.de.md)<br>
-[Persönliche Werkzeuge: Abonnements >](../personal_menu/Subscriptions.de.md)<br>
-[Portfolioaufgabe: abholen und bearbeiten >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)
+[Persönliche Werkzeuge: Abonnements >](../personal_menu/Subscriptions.de.md)
 
 **Weiterführend**<br>
 [Persönliche Werkzeuge: Portfolio 2.0 >](../personal_menu/Portfolio/index.de.md)<br>

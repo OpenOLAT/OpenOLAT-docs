@@ -178,7 +178,6 @@ The user is now shown the status "Passed" or "Failed" and the score entered.
 ## Further information {: #further_information}
 
 [Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
-[Portfolio task: collecting and editing >](Portfolio_task_and_assignment_Collecting_and_editing.md)<br>
 [Course Element "Portfolio Task" >](Course_Element_Portfolio_Task.md)<br>
 [Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
 [User tools: Portfolio 2.0 >](../personal_menu/Portfolio/index.md)

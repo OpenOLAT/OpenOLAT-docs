@@ -105,7 +105,7 @@ If the owners of the course have switched on the awarding of badges under [`Cour
 
 ## Participant perspective {: #view_participant}
 
-### Step 1: Collect portfolio task
+### Step 1: Collect portfolio task {: #collect_portfolio_task}
 
 If an author has prepared a portfolio task in the course, open the course element in the course menu as a participant. With the "Collect portfolio task" button you receive a copy of the template for editing in your own portfolio.
 
@@ -137,7 +137,7 @@ After collecting, you therefore open the binder in the course or via your person
 
 ---
 
-### Step 3: Edit portfolio task
+### Step 3: Edit portfolio task {: #edit_portfolio_task}
 
 **Step 3a:** Open the binder.
 
@@ -231,7 +231,7 @@ Once an entry is finished, publish it with "Publish entry". Only then can the pe
 
 ---
 
-### Step 5: Assign access rights for the portfolio binder
+### Step 5: Assign access rights for the portfolio binder {: #binder_access_rights}
 
 So that your coaches can assess your binder, give them an access right. The same applies to all other persons who are to see your binder. You assign access rights in two places:
 

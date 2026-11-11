@@ -10,7 +10,7 @@ Autorenbereich ![Beschriftung "Ort im OpenOlat"](assets/Ort_im_OO_DE.png.jpeg) |
 ---------|----------|---------
  [![Portfoliovorlage erstellen](assets/PF_Prozess_Feld1_DE.png)](../learningresources/Portfolio_template_Creation.de.md) | [![Vorlage bearbeiten: Bereiche und Aufgaben erstellen](assets/pf_Prozess_Feld2_DE.jpg)](../learningresources/Portfolio_template_Administration_and_editing.de.md) | [![Vorlage zu Kurs hinzufügen](assets/PF_Prozess_Feld3_DE.png)](../learningresources/Creating_Portfolio_Tasks.de.md)
  ![Symbol Kursbereich](assets/course.png){ class=size16 } ![Pfeil](assets/arrow_434343_64.png){ class=size16 } :o_icon_o_ep_icon: | :o_icon_o_ep_icon: | :o_icon_o_ep_icon:
- [![Aufgabe abholen](assets/pf_Prozess_Feld4_DE.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md) | [![Aufgabe lösen und bearbeiten](assets/pf_Prozess_Feld5_DE.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md) | [![Mappe, Bereich oder Aufgabe freigeben](assets/pf_Prozess_Feld6_DE.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)
+ [![Aufgabe abholen](assets/pf_Prozess_Feld4_DE.png)](../learningresources/Course_Element_Portfolio_Task.de.md#collect_portfolio_task) | [![Aufgabe lösen und bearbeiten](assets/pf_Prozess_Feld5_DE.png)](../learningresources/Course_Element_Portfolio_Task.de.md#edit_portfolio_task) | [![Mappe, Bereich oder Aufgabe freigeben](assets/pf_Prozess_Feld6_DE.png)](../learningresources/Course_Element_Portfolio_Task.de.md#binder_access_rights)
  :o_icon_o_ep_icon: | :o_icon_o_ep_icon: |
  [![Kommentare hinzufügen oder](assets/pf_Prozess_Feld7_DE.png)](../learningresources/Portfolio_assignment_Grading.de.md) | [![Aufgabe bewerten](assets/pf_Prozess_Feld8_DE.png)](../learningresources/Portfolio_assignment_Grading.de.md) | ![Farblegende: Grün Autoren, Blau User, Gelb Autor, Betreuer, User, Externer](assets/Legende_Prozess_Portfolio_DE.jpg)
 
@@ -28,11 +28,10 @@ Autorenbereich ![Beschriftung "Ort im OpenOlat"](assets/Ort_im_OO_DE.png.jpeg) |
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](../learningresources/Portfolio_template_Administration_and_editing.de.md)<br>
 [Portfolioaufgabe erstellen >](../learningresources/Creating_Portfolio_Tasks.de.md)<br>
-[Portfolioaufgabe: abholen und bearbeiten >](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Portfolioaufgabe: kommentieren und bewerten >](../learningresources/Portfolio_assignment_Grading.de.md)
 
 **Weiterführend**<br>
-[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Drei Schritte zu Ihrer Mappe >](Three_steps_to_your_portfolio_binder.de.md)
 
 [Zum Seitenanfang ^](#process_of_an_assessment_portfolio)
