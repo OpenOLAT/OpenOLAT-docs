@@ -12,7 +12,7 @@ In order to be able to work with the review process, it is also essential to def
 
 The following graphic shows an exemplary process flow.
 
-![Flow of the review process across the roles teacher, subject group and subject group leader from Draft to Final, on the right the use of the questions in the course.](assets/fragenpool_prozess.png){ class="shadow lightbox" title="Example flow of the review process" }
+![A question goes from Draft via Review to Final or back to Revision; the subject group leader builds a test from the final questions, checks it and embeds it in the subject course](assets/question_bank_review_process_flow_v1_en.png){ class="shadow lightbox" title="Example flow of the review process · 2026.11.11" }
 
 The following process steps are therefore depicted in the review process of the question bank:
 
@@ -58,7 +58,7 @@ In the "Review" area you can now review the questions of the other persons in yo
 
 Start the review of the question with "Review question".
 
-![Notice box for the status Review with the marked button Review question above the read-only question editor, on the right the Ratings section](assets/Fragenpool_status_review.png){ class="shadow lightbox" title="Question in the status Review" }
+![Marked button Review question in the notice for the status Review, on the right the opened section Ratings with the ratings given so far](assets/question_bank_review_question_v1_en.png){ class="shadow lightbox" title="Question to review in the area Review · 2026.11.11" }
 
 A dialog then opens:
 
