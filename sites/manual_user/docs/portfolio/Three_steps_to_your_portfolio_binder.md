@@ -9,7 +9,7 @@ step how a binder is created.
 ## Step 1: Create binder
 1. Open landing page of the portfolio 2.0 and choose "My binders".
 
-![Button "Create new binder" top right, and the three options empty, from a template, or from a portfolio task. My binders overview.](assets/portfolio_mappe_erstellen.png){ class="shadow lightbox" }
+![Button "Create new binder" top right, and the three options empty, from a template, or from a portfolio task](assets/portfolio_mappe_erstellen.png){ class="shadow lightbox" title="My portfolio binders overview" }
 
 2. Click on "Create new binder". If you use the option below to create it,
 you can choose between an empty binder, a binder from a portfolio template,
@@ -23,7 +23,7 @@ from template or from course portfolio task you are not able to do so.
 ## Step 2: Create section
 1. As soon as a binder is created, sections can be created.
 
-![Button "Create new section" top right and in the box below. Overview tab of a binder.](assets/create_new_section.jpg){ class="shadow lightbox" }
+![Button "Create new section" top right and in the box below](assets/create_new_section.jpg){ class="shadow lightbox" title="Overview tab of a binder" }
 
 2. On the top right or with the button in the middle "Create new section".
 
@@ -38,7 +38,7 @@ from template or from course portfolio task you are not able to do so.
 ## Step 3: Create entry
 1. As soon as a section is created, entries can be created.
 
-![Button "Create new entry" top right and in the box within the section. Entries tab of a binder.](assets/pf_entries_user_EN.png){ class="shadow lightbox" }
+![Button "Create new entry" top right and in the box within the section](assets/pf_entries_user_EN.png){ class="shadow lightbox" title="Entries tab of a binder" }
 
 2. On the top right or with the button in the middle "Create new entry".
 3. Insert a title and save with "Create entry".

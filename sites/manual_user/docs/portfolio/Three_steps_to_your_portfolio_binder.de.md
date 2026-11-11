@@ -9,7 +9,7 @@ wird hier gezeigt, wie eine Mappe erstellt wird.
 ## Schritt 1: Mappe erstellen
 1. Gehen Sie in den Bereich Portfolio 2.0 und wählen Sie "Zu meinen Mappen".
 
-![Button Neue Mappe erstellen oben rechts und die drei Optionen leer, aus Vorlage oder aus Portfolioaufgabe. Übersicht Meine Mappen.](assets/portfolio_mappe_erstellen.png){ class="shadow lightbox" }
+![Button Neue Mappe erstellen oben rechts und die drei Optionen leer, aus Vorlage oder aus Portfolioaufgabe](assets/portfolio_mappe_erstellen.png){ class="shadow lightbox" title="Übersicht Meine Portfoliomappen" }
 
 2. Wählen Sie "Neue Mappe erstellen". Wenn Sie die untere Option zur
 Erstellung nutzen, können Sie zwischen einer leeren Mappe, einer Mappe aus
@@ -26,7 +26,7 @@ Möglichkeit nicht.
 1. Sobald eine leere Mappe erstellt worden ist, kann ein Bereich angelegt und
 so die Mappe strukturiert werden.
 
-![Button Neuen Bereich erstellen oben rechts und im Kasten darunter. Tab Überblick einer Mappe.](assets/eportfolio_Bereich_erstellen.png){ class="shadow lightbox" }
+![Button Neuen Bereich erstellen oben rechts und im Kasten darunter](assets/eportfolio_Bereich_erstellen.png){ class="shadow lightbox" title="Tab Überblick einer Mappe" }
 
 2. Rechts oben oder mit dem Button unten in der Mitte einen neuen Bereich
 erstellen.
@@ -41,7 +41,7 @@ erstellen.
 1. Sobald ein Bereich vorhanden ist, können dem Bereich "Einträge" hinzugefügt
 werden.
 
-![Button Neuen Eintrag erstellen oben rechts und im Kasten im Bereich. Tab Einträge einer Mappe.](assets/eportfolio_eintrag_neu_DE.png){ class="shadow lightbox" }
+![Button Neuen Eintrag erstellen oben rechts und im Kasten im Bereich](assets/eportfolio_eintrag_neu_DE.png){ class="shadow lightbox" title="Tab Einträge einer Mappe" }
 
 2. Rechts oben oder mit dem Button unten in der Mitte einen neuen Eintrag
 erstellen.

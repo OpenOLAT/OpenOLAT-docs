@@ -90,6 +90,8 @@ nav:
       - Portfolio 2.0:
         - personal_menu/Portfolio/index.md
         - General Information: "area_modules/Portfolio_General_Information.md"
+        - Three steps to your portfolio binder: "portfolio/Three_steps_to_your_portfolio_binder.md"
+        - Process of an assessment portfolio: "portfolio/Process_of_an_assessment_portfolio.md"
         - Components:
           - area_modules/Components_of_the_portfolio/index.md
           - My portfolio binders: "area_modules/My_portfolio_binders.md"
