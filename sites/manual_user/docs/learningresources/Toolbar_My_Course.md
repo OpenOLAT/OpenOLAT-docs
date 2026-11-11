@@ -9,7 +9,7 @@ In the menu "My course" of the toolbar, you as a participant find everything tha
 
 "My course" appears automatically as soon as at least one of its entries is available.
 
-Only participants of the course see the menu, because it shows personal content.
+Which entries the menu shows depends on your role in the course: participants get evidence of achievement, to-dos, "My badges" and "Leave course", owners and authorized coaches of the course get "Awarded badges".
 
 
 [To the top of the page ^](#my_course)
@@ -29,11 +29,12 @@ If the evidence of achievement is switched on in the course, the entry "Evidence
 
 ## What can be displayed in "My course"?  {: #entries}
 
-Under "My course", you only find tools that concern your personal data in the current course. Depending on the settings of the course, some of the following entries are missing.
+Under "My course", you find your personal tools in the current course. Which of the following entries appear depends on the settings of the course and on your role in the course.
 
 * [**Evidence of achievement**](#evidence_of_achievement): your assessments in the course and, if switched on, the [certificate](Course_Settings_Assessment/index.md#section_certificate) of the course.
 * [**To-dos**](#to-dos): the current to-dos of the course.
 * [**My badges**](#my_badges): your badges from this course.
+* [**Awarded badges**](#issued_badges): the badges awarded in the course, for course owners and authorized coaches.
 * [**Notes**](#notes): your notes on the course, which only you read.
 * [**Bookmark**](#bookmark): With a bookmark, the course appears in the "Courses" menu in the "Favorites" tab.
 * [**Consent**](#terms_of_use): If you have agreed to terms of use or a privacy policy of the course, you read them here and revoke your consent if needed.
@@ -82,6 +83,16 @@ You see all your to-dos, including those from other courses, in the ["User tools
 If badges are switched on in the course, "My badges" shows all badges you have received in this course.
 
 [More about badges >](../personal_menu/OpenBadges.md)
+
+[To the top of the page ^](#my_course)
+
+---
+
+### Awarded badges {: #issued_badges}
+
+Under "Awarded badges", you see which badges the course has awarded and to whom. The entry exists if the switch "Award badges" is switched on in the course: `Course > Administration > Settings > Tab "Assessment" > Section "Badges"`. Course owners, administrators and learning resource managers then always see it. Coaches only see it if the course allows manual awarding "for coaches".
+
+[More about awarding course badges >](OpenBadges.md#award_a_course-badge)
 
 [To the top of the page ^](#my_course)
 
@@ -175,6 +186,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>
 [Personal achievements/successes: Badges >](../personal_menu/OpenBadges.md)<br>
+[Badges >](OpenBadges.md)<br>
 [User tools: Notes >](../personal_menu/Notes.md)<br>
 [Terms of Use >](../basic_concepts/Terms_Of_Use.md)<br>
 [Course settings - Tab Share >](Course_Settings_Share/index.md)<br>

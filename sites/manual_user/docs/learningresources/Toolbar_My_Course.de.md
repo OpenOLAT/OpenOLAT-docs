@@ -10,7 +10,7 @@ Im Menü "Mein Kurs" der Toolbar finden Sie als Teilnehmer:in alles, was Ihre ei
 
 "Mein Kurs" erscheint automatisch, sobald mindestens einer seiner Einträge verfügbar ist.
 
-Das Menü sehen nur Teilnehmer:innen des Kurses, weil es persönliche Inhalte zeigt.
+Welche Einträge das Menü zeigt, hängt von Ihrer Rolle im Kurs ab: Leistungsnachweis, To-dos, "Meine Badges" und "Kurs verlassen" erhalten Teilnehmer:innen, "Vergebene Badges" erhalten Besitzer:innen und berechtigte Betreuer:innen des Kurses.
 
 [Zum Seitenanfang ^](#my_course)
 
@@ -31,11 +31,12 @@ Ist im Kurs der Leistungsnachweis eingeschaltet, erscheint unter "Mein Kurs" der
 
 ## Was kann in "Mein Kurs" angezeigt werden? {: #entries}
 
-Unter "Mein Kurs" finden Sie nur Werkzeuge, die Ihre persönlichen Daten im aktuellen Kurs betreffen. Je nach Einstellung des Kurses fehlen einzelne der folgenden Einträge.
+Unter "Mein Kurs" finden Sie Ihre persönlichen Werkzeuge im aktuellen Kurs. Welche der folgenden Einträge erscheinen, hängt von den Einstellungen des Kurses und von Ihrer Rolle im Kurs ab.
 
 * [**Leistungsnachweis**](#evidence_of_achievement): Ihre Bewertungen im Kurs und, falls eingeschaltet, das [Zertifikat](Course_Settings_Assessment/index.de.md#section_certificate) des Kurses.
 * [**To-dos**](#to-dos): die aktuellen To-dos des Kurses.
 * [**Meine Badges**](#my_badges): Ihre Badges aus diesem Kurs.
+* [**Vergebene Badges**](#issued_badges): die im Kurs vergebenen Badges, für Kursbesitzer:innen und berechtigte Betreuer:innen.
 * [**Notizen**](#notes): Ihre Notizen zum Kurs, die nur Sie lesen.
 * [**Bookmark**](#bookmark): Mit einem Bookmark erscheint der Kurs im Menü "Kurse" im Tab "Favoriten".
 * [**Einwilligung**](#terms_of_use): Haben Sie Nutzungsbedingungen oder einer Datenschutzerklärung des Kurses zugestimmt, lesen Sie sie hier nach und widerrufen bei Bedarf Ihre Einwilligung.
@@ -86,6 +87,16 @@ Alle Ihre To-dos, auch die aus anderen Kursen, sehen Sie in den ["Persönlichen 
 Sind im Kurs Badges eingeschaltet, zeigt "Meine Badges" alle Badges, die Sie in diesem Kurs erhalten haben.
 
 [Mehr über Badges >](../personal_menu/OpenBadges.de.md)
+
+[Zum Seitenanfang ^](#my_course)
+
+---
+
+### Vergebene Badges {: #issued_badges}
+
+Unter "Vergebene Badges" sehen Sie, welche Badges der Kurs an wen vergeben hat. Den Eintrag gibt es, wenn im Kurs der Schalter "Badges vergeben" eingeschaltet ist: `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"`. Kursbesitzer:innen, Administrator:innen und Lernressourcenverwalter:innen sehen ihn dann immer. Betreuer:innen sehen ihn nur, wenn der Kurs die manuelle Vergabe "für Betreuer:innen" erlaubt.
+
+[Mehr über das Vergeben von Kurs-Badges >](OpenBadges.de.md#award_a_course-badge)
 
 [Zum Seitenanfang ^](#my_course)
 
@@ -184,6 +195,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 [To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
 [To-dos im Kurs >](../learningresources/Course_todos.de.md)<br>
 [Persönliche Erfolge/Leistungen: Badges >](../personal_menu/OpenBadges.de.md)<br>
+[Badges >](OpenBadges.de.md)<br>
 [Persönliche Werkzeuge: Notizen >](../personal_menu/Notes.de.md)<br>
 [Nutzungsbedingungen >](../basic_concepts/Terms_Of_Use.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
