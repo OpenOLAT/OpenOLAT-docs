@@ -100,10 +100,22 @@ Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit S
 
 Im Element "Textblock" tragen die Teilnehmenden eigenen Text in ein Freitextfeld ein.
 
-* Unter "Erlaubte Werte" legen Sie fest, ob die Teilnehmenden "Text" oder eine "Zahl" eingeben. Für ein Datum fügen Sie das eigene Element "Datum / Zeit" ein.
+* Unter "Erlaubte Werte" legen Sie fest, ob die Teilnehmenden "Text" oder eine "Zahl" eingeben. Für ein Datum fügen Sie das eigene Element [Datum / Zeit](#form_element_date_input) ein.
 * Unter "Zeilentyp" wählen Sie "Eine Zeile" oder "Mehrere Zeilen".
 
 ![Freitextfeld des Elements Textblock, im Inspektor markiert sind Erlaubte Werte mit Text und Zahl sowie der Zeilentyp](../assets/form_content_text_input_v2_de.png){ class="shadow lightbox" title="Element Textblock im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
+
+[Zum Seitenanfang ^](#form_elements)
+
+---
+
+## Datum / Zeit [:octicons-tag-16:{ title="ab Release 20.2.1 (OO-9079)" }](https://track.frentix.com/issue/OO-9079) {: #form_element_date_input}
+
+Mit dem Element "Datum / Zeit" erfassen die Teilnehmenden ein Datum, auf Wunsch mit Uhrzeit, zum Beispiel den Beginn einer Prüfung. Das Datum wählen sie im Kalender des Feldes.
+
+* Unter "Erlaubte Werte" legen Sie fest, ob die Teilnehmenden nur ein "Datum" oder "Datum / Zeit" eingeben.
+* Unter "Aktion" kreuzen Sie "Mit Ausfüllaktion" an. Neben dem Feld erscheint dann ein Button, der mit einem Klick das aktuelle Datum einträgt, bei "Datum / Zeit" auch die aktuelle Uhrzeit. Die Beschriftung des Buttons legen Sie selbst fest, vorgegeben ist "Aktuelles Datum setzen".
+* Unter "Pflicht" wählen Sie "Obligatorisch" oder "Freiwillig".
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -137,6 +149,28 @@ Unter "Pflicht" wählen Sie eine von drei Varianten:
     Mit diesem Element ordnet das Formular die Antworten der befragten Person zu. Das Formular ist damit nicht mehr anonym.
 
 ![Angaben zur befragten Person mit den angekreuzten Feldern Vorname, Nachname und E-Mail, im Inspektor die drei Varianten unter Pflicht](../assets/form_content_info_v2_de.png){ class="shadow lightbox" title="Element Angaben zur befragten Person im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
+
+[Zum Seitenanfang ^](#form_elements)
+
+---
+
+## Angaben zum:r Betreuer:in [:octicons-tag-16:{ title="ab Release 20.2.1 (OO-9069)" }](https://track.frentix.com/issue/OO-9069) {: #form_element_coach_info}
+
+Mit dem Element "Angaben zum:r Betreuer:in" halten Sie im Formular fest, welche:r Betreuer:in zuständig ist, zum Beispiel wer eine Prüfung abgenommen hat. Unter "Informationen" kreuzen Sie an, welche Angaben das Formular abfragt: Vorname, Nachname oder E-Mail. Ein Formular kann das Element mehrmals enthalten, jedes wird für sich ausgefüllt.
+
+Beim Ausfüllen zeigt das Element über den Feldern den Button "Angaben zum:r Betreuer:in übernehmen". Er listet die Betreuer:innen des Kurses. Wer das Formular ausfüllt, wählt dort eine Person, und OpenOlat trägt deren Angaben aus dem Benutzerprofil ein. Den Button zeigt das Element in Formularen, die ein Kurs verwendet, zum Beispiel im Kursbaustein "Formular" oder "Umfrage".
+
+Im Inspektor, Tab "Allgemein", wählen Sie unter "Verfügbare Betreuer:innen", wen der Button anbietet: "Betreuer:innen" oder "Betreuer:innen und Besitzer:innen" des Kurses.
+
+Unter "Pflicht" wählen Sie eine von drei Varianten:
+
+* **Optional - kann leer gelassen werden**: Die Angaben dürfen leer bleiben.
+* **Obligatorisch - bearbeitbar**: Alle angekreuzten Angaben müssen ausgefüllt sein, von Hand oder über den Button.
+* **Obligatorisch - nicht bearbeitbar**: Die Angaben kommen ausschliesslich über den Button. Von Hand lassen sie sich nicht ändern.
+
+!!! info "Wichtig"
+
+    Die Variante "Obligatorisch - nicht bearbeitbar" braucht einen Kurs mit Betreuer:innen. Findet OpenOlat keine, zeigt das Element den Hinweis "Es sind keine Betreuer:innen verfügbar." und das Formular lässt sich nicht abschliessen.
 
 [Zum Seitenanfang ^](#form_elements)
 
@@ -188,7 +222,7 @@ Im Inspektor legen Sie fest, wie das Bild erscheint:
 
 ---
 
-## Separator
+## Separator {: #form_element_separator}
 
 Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche.
 
@@ -197,6 +231,25 @@ Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche
 
 [Zum Seitenanfang ^](#form_elements)
 
+---
+
+## Container {: #form_element_container}
+
+Ein Container nimmt die Elemente des Formulars in Spalten und Zeilen auf. Im Formulareditor heisst er "Layout": Jedes Element steht in einem Container, ein neues Formular enthält bereits einen mit einer Spalte. Einen weiteren Container fügen Sie nicht über "Inhalt hinzufügen" ein, sondern mit dem Button "Neues Layout einfügen".
+
+Im Inspektor des Containers legen Sie fest:
+
+* **Layout**: die Layout Vorlage, also die Aufteilung in Spalten und Zeilen
+* **Name**: den Namen, über den Sie den Container in den [Frageregeln](../Form_Question_Rules.de.md) auswählen
+* **Stil**: eine [Hinweis-Box](#form_element_alert_box) um den ganzen Container
+
+Mit einer Frageregel erscheint ein Container erst, wenn die Teilnehmenden in einer Einzel- oder Mehrfachauswahl eine bestimmte Antwort gewählt haben. Einen solchen Container kennzeichnet der Formulareditor mit "Wird gesteuert durch Regel".
+
+Wie Sie Container einfügen, ändern und löschen, beschreibt die Seite [Der Formulareditor](../Form_Editor/index.de.md#insert_layout).
+
+[Zum Seitenanfang ^](#form_elements)
+
+---
 
 ## Hinweis-Box [:octicons-tag-16:{ title="ab Release 18.2.3 (OO-7138)" }](https://track.frentix.com/issue/OO-7138) {: #form_element_alert_box}
 

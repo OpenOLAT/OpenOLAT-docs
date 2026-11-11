@@ -102,10 +102,22 @@ In the inspector, give the element a meaningful name under "Name" so that you fi
 
 In the element "Text block", participants enter their own text in a free text field.
 
-* Under "Input type", you set whether participants enter "Text" or a number ("Numeric"). For a date, add the separate element "Date / Time".
+* Under "Input type", you set whether participants enter "Text" or a number ("Numeric"). For a date, add the separate element [Date / Time](#form_element_date_input).
 * Under "Row type", you choose "Single row" or "Multiple rows".
 
 ![Free text field of the element Text block, highlighted in the inspector are Input type with Text and Numeric and the Row type](../assets/form_content_text_input_v2_en.png){ class="shadow lightbox" title="Text block element in the form editor, inspector, tab General · 2026.11.10" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
+## Date / Time [:octicons-tag-16:{ title="from Release 20.2.1 (OO-9079)" }](https://track.frentix.com/issue/OO-9079) {: #form_element_date_input}
+
+With the element "Date / Time", participants enter a date, optionally with a time, for example the start of an exam. They choose the date in the calendar of the field.
+
+* Under "Input type", you set whether participants enter only a "Date" or "Date / Time".
+* Under "Action", you tick "With fill-in action". A button then appears next to the field that enters the current date with one click, with "Date / Time" also the current time. You set the label of the button yourself, the default is "Set to now".
+* Under "Obligation", you choose "Mandatory" or "Optional".
 
 [To the top of the page ^](#form_elements)
 
@@ -141,6 +153,28 @@ Under "Obligation", you choose one of three variants:
     With this element, the form assigns the answers to the respondent. The form is therefore no longer anonymous.
 
 ![Respondent details with the ticked fields First name, Last name and E-mail, in the inspector the three variants under Obligation](../assets/form_content_info_v2_en.png){ class="shadow lightbox" title="Respondent details element in the form editor, inspector, tab General · 2026.11.10" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
+## Coach details [:octicons-tag-16:{ title="from Release 20.2.1 (OO-9069)" }](https://track.frentix.com/issue/OO-9069) {: #form_element_coach_info}
+
+With the element "Coach details", you record in the form which coach is responsible, for example who supervised an exam. Under "Information", you tick the details the form asks for: first name, last name or email. A form can contain the element more than once, each one is filled in separately.
+
+When filling in, the element shows the button "Apply coach details" above the fields. It lists the coaches of the course. The person who fills in the form selects a coach there, and OpenOlat enters the coach's details from the user profile. The element shows the button in forms that a course uses, for example in the course element "Form" or "Survey".
+
+In the inspector, tab "General", you choose under "Available coaches" whom the button offers: "Coaches" or "Coaches and owners" of the course.
+
+Under "Obligation", you choose one of three variants:
+
+* **Optional - can be left blank**: The details may stay empty.
+* **Mandatory - editable**: All ticked details must be filled in, by hand or via the button.
+* **Mandatory - not editable**: The details come only via the button. They cannot be changed by hand.
+
+!!! info "Important"
+
+    The variant "Mandatory - not editable" needs a course with coaches. If OpenOlat finds none, the element shows the message "There are no coaches available." and the form cannot be finished.
 
 [To the top of the page ^](#form_elements)
 
@@ -192,11 +226,29 @@ In the inspector, you set how the image appears:
 ---
 
 
-## Separator
+## Separator {: #form_element_separator}
 
 The separator is a fine dividing line that structures your form into areas.
 
 ![Separator as a fine dividing line between two text elements, with which you structure the form into areas](../assets/form_content_separator_v2_en.png){ class="shadow lightbox" title="Separator element in the form editor · 2026.11.10" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
+## Container {: #form_element_container}
+
+A container holds the elements of the form in columns and rows. In the form editor, it is called "Layout": every element sits in a container, and a new form already contains one with one column. You do not add a further container via "Add content" but with the button "Add a new layout".
+
+In the inspector of the container, you set:
+
+* **Layout**: the layout template, that is the division into columns and rows
+* **Name**: the name by which you select the container in the [question rules](../Form_Question_Rules.md)
+* **Style**: an [alert box](#form_element_alert_box) around the whole container
+
+With a question rule, a container appears only once participants have selected a certain answer in a single or multiple choice. The form editor marks such a container with "Controlled by rule".
+
+How you insert, change and delete containers is described on the page [The form editor](../Form_Editor/index.md#insert_layout).
 
 [To the top of the page ^](#form_elements)
 
