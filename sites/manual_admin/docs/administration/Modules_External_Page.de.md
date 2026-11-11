@@ -40,16 +40,19 @@ Welche Seite eine Autorin oder ein Autor einbindet, entscheidet sie oder er alle
 
 Für manche Lernszenarien muss die eingebundene Seite wissen, wer sie aufruft. Dafür kann der Kursbaustein "Externe Seite" im HTTP-Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln: Anmeldename, E-Mail, Vorname, Nachname und die aktuelle IP-Adresse der Benutzer:in.
 
-Mit der Checkbox "Weitergabe Daten über Benutzer:innen erlaubt" legen Sie fest, ob OpenOlat diese Daten übermittelt. Die Einstellung gilt für alle Kurse Ihrer Instanz. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen.
+Mit der Checkbox "Weitergabe Daten über Benutzer:innen erlaubt" legen Sie fest, ob OpenOlat diese Daten übermittelt. Auf dieser Seite erscheint die Checkbox, sobald das Modul eingeschaltet ist. Dieselbe Einstellung steht in der System-Administration auch unter `Administration > Module > Datenschutz`, dort unabhängig vom Schalter "Eingeschaltet". Die Einstellung gilt für alle Kurse Ihrer Instanz. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen.
+
+Übermittelt werden die Daten nur bei Kursbausteinen mit der Darstellung "Eingebettet (Quelle verborgen)": Dort ruft OpenOlat die externe Seite selbst ab und schickt die Daten mit der Anfrage mit. Bei "Eingebettet (Quelle sichtbar)" und "Neues Browser-Fenster (Quelle sichtbar)" lädt der Browser der Teilnehmenden die Seite direkt beim externen System. Die Darstellung wählen Autor:innen im [Kursbaustein "Externe Seite"](../../manual_user/learningresources/Course_Element_External_Page.de.md):<br>
+`Kurs > Administration > Kurseditor > Kursbaustein "Externe Seite" > Tab "Seiteninhalt"`
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)<br>
-[Kursbaustein "Linkliste" >](../../manual_user/learningresources/Course_Element_Link_List.de.md)
+[Kursbaustein "Linkliste" >](../../manual_user/learningresources/Course_Element_Link_List.de.md)<br>
+[Kursbaustein "Externe Seite" >](../../manual_user/learningresources/Course_Element_External_Page.de.md)
 
 **Weiterführend**<br>
-[Kursbaustein "Externe Seite" >](../../manual_user/learningresources/Course_Element_External_Page.de.md)<br>
 [Module: Übersicht >](Modules.de.md)
 
 [Zum Seitenanfang ^](#external_page)

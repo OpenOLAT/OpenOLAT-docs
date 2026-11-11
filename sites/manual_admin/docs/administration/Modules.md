@@ -143,7 +143,7 @@ You can define which system roles are allowed to see the administrative user pro
 
 You can also determine which system roles are allowed to see the user's last visit.
 
-The course element "External page" can transmit data about the current account to the external system in the HTTP header of the request in order to implement certain learning scenarios (login name, email, first name, last name, current IP address of the user). Define here whether this data should be transmitted or not. frentix recommends to leave the sharing switched off.
+The course element "External page" can transmit data about the current account to the external system in the HTTP header of the request in order to implement certain learning scenarios (login name, email, first name, last name, current IP address of the user). Define here whether this data should be transmitted or not. frentix recommends to leave the sharing switched off. OpenOlat only sends the data if the course element displays the page with "Embedded (source hidden)", see [Module External page](Modules_External_Page.md#data_transfer).
 
 [To the top of the page ^](#modules)
 

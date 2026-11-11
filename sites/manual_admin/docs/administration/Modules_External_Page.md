@@ -40,16 +40,19 @@ Which page an author embeds is their own decision. The module only defines wheth
 
 For some learning scenarios, the embedded page needs to know who is calling it. For this, the "External Page" course element can transmit data about the current account to the external system in the HTTP header of the request: username, email, first name, last name and the user's current IP address.
 
-With the checkbox "Sharing of user data allowed" you define whether OpenOlat transmits this data. The setting applies to all courses of your instance. frentix recommends to leave the sharing switched off.
+With the checkbox "Sharing of user data allowed" you define whether OpenOlat transmits this data. On this page, the checkbox appears as soon as the module is enabled. The same setting is also available in the system administration under `Administration > Modules > Privacy`, there independently of the switch "Enabled". The setting applies to all courses of your instance. frentix recommends to leave the sharing switched off.
+
+The data is only transmitted for course elements with the display "Embedded (source hidden)": there, OpenOlat calls up the external page itself and sends the data along with the request. With "Embedded (source visible)" and "New browser window (source visible)", the participants' browser loads the page directly from the external system. Authors choose the display in the [course element "External Page"](../../manual_user/learningresources/Course_Element_External_Page.md):<br>
+`Course > Administration > Course editor > Course element "External Page" > Tab "Page content"`
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
 [Course Element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
-[Course Element "Link list" >](../../manual_user/learningresources/Course_Element_Link_List.md)
+[Course Element "Link list" >](../../manual_user/learningresources/Course_Element_Link_List.md)<br>
+[Course Element "External Page" >](../../manual_user/learningresources/Course_Element_External_Page.md)
 
 **Further reading**<br>
-[Course Element "External Page" >](../../manual_user/learningresources/Course_Element_External_Page.md)<br>
 [Modules: Overview >](Modules.md)
 
 [To the top of the page ^](#external_page)

@@ -145,7 +145,7 @@ Sie können festlegen, welche Systemrollen, die administrativen Benutzer:innen-P
 
 Ebenso kann bestimmt werden, welche Systemrollen den letzten Besuch der Benutzer:innen sehen dürfen.
 
-Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen.
+Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen. OpenOlat übermittelt die Daten nur, wenn der Kursbaustein die Seite mit "Eingebettet (Quelle verborgen)" anzeigt, siehe [Modul Externe Seite](Modules_External_Page.de.md#data_transfer).
 
 [Zum Seitenanfang ^](#modules)
 
