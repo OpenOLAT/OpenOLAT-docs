@@ -48,7 +48,7 @@ If you select a subject under "My question bank", a process flow with different 
 
   * **Draft:** All questions that are still being edited and have not yet been submitted to the review process. As soon as a question from "My questions" is linked to the corresponding subject, it appears here in the status Draft.
   * **Review:** Here you see all your questions that are currently in the status Review. Other users with rights to the same subject review these questions. You cannot review your own questions.
-  * **Revision:** All questions that did not reach the lower limit of the review in the review process go here. The lower limit refers to the star rating. Administrators and authorised question bank managers define it under `Question bank > Administration > Review Process`, see [Question Bank: Administration](Question_Bank_Administration.md#assessment_process). The questions located here must be revised by you and submitted for review again.
+  * **Revision:** All questions that did not reach the lower limit of the review in the review process go here. The lower limit refers to the star rating. Administrators and authorized question bank managers define it under `Question bank > Administration > Review Process`, see [Question Bank: Administration](Question_Bank_Administration.md#assessment_process). The questions located here must be revised by you and submitted for review again.
   * **Final:** If a question fulfils the review criteria, it moves to the status Final. Here are the questions that have passed quality assurance and can be integrated into tests.
   * **End of life:** Questions go here that administrators, persons with the competence "Manage" in the subject or authorized question bank managers have set to the status End of life. It is now up to you whether you want to leave the questions here or delete them. If you want to edit the question again, you must create a copy of it. The copy has the status Draft, and the process can start again.
 
@@ -57,7 +57,7 @@ If you select a subject under "My question bank", a process flow with different 
 
 ## Reviewing questions {: #review_questions}
 
-In the "Review" area you review the questions of other users with rights to the same subject. The question is in read mode. You can therefore view the entire question, including score, feedback and metadata. However, you cannot edit anything.
+In the "Review" area you review the questions of other users with rights to the same subject. Your rating helps decide whether the question changes to the status "Final" or goes back to the author in the status "Revision". The question is in read mode. You can therefore view the entire question, including score, feedback and metadata. However, you cannot edit anything.
 
 Start the review with "Review question" in the notice above the question. Administrators and persons with the competence "Manage" in the subject see on the right in the section "Ratings" the ratings given so far with date and stars.
 

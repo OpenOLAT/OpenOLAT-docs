@@ -57,7 +57,7 @@ Wenn Sie unter "Mein Fragenpool" einen Fachbereich auswählen, wird ein Prozessa
 
 ## Fragen beurteilen {: #review_questions}
 
-Im Bereich "Beurteilung" beurteilen Sie die Fragen anderer Benutzer:innen mit Rechten auf denselben Fachbereich. Die Frage befindet sich im Lesemodus. Sie können also die gesamte Frage anschauen, inklusive Punkte, Feedback und Metadaten. Sie können jedoch nichts editieren.
+Im Bereich "Beurteilung" beurteilen Sie die Fragen anderer Benutzer:innen mit Rechten auf denselben Fachbereich. Ihre Bewertung entscheidet mit, ob die Frage in den Status "Final" wechselt oder im Status "Revision" zurück an die Autor:in geht. Die Frage befindet sich im Lesemodus. Sie können also die gesamte Frage anschauen, inklusive Punkte, Feedback und Metadaten. Sie können jedoch nichts editieren.
 
 Die Beurteilung starten Sie mit "Frage beurteilen" in der Hinweisbox über der Frage. Administrator:innen und Personen mit der Kompetenz "Verwalten" im Fachbereich sehen rechts im Abschnitt "Bewertungen" die bisher abgegebenen Bewertungen mit Datum und Sternen.
 
