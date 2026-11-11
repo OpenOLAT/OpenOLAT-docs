@@ -12,7 +12,7 @@ Um mit dem Beurteilungsprozess arbeiten zu können, muss ausserdem zwingend eine
 
 In der folgenden Grafik ist ein beispielhafter Prozessablauf dargestellt.
 
-![Ablauf des Beurteilungsprozesses über die Rollen Lehrperson, Fachgruppe und Fachgruppenleitung von Draft bis Final, rechts der Einsatz der Fragen im Kurs.](assets/fragenpool_prozess.png){ class="shadow lightbox" title="Beispielhafter Ablauf des Beurteilungsprozesses" }
+![Weg einer Frage über drei Rollen von Draft über Review nach Final und von dort in einen Test im Fachkurs](assets/question_bank_review_process_flow_v1_de.png){ class="shadow lightbox" title="Beispielhafter Ablauf des Beurteilungsprozesses · 2026.11.11" }
 
 Folgende Prozessschritte sind also im Beurteilungsprozess des Fragenpools abgebildet:
 
@@ -23,15 +23,13 @@ Folgende Prozessschritte sind also im Beurteilungsprozess des Fragenpools abgebi
 b) Die Beurteilung durch die Sterne ist genügend. Die definierte Anzahl Personen hat eine genügende Bewertung abgegeben. Die Frage wechselt in den Status "Final".
   5. Die Fragen aus dem Bereich "Final" können in den Test eingebunden werden.
 
-In der folgenden Abbildung sind auf der linken Seite die verschiedenen Bereiche aus dem Prozess abgebildet.
+Im Menü links erscheint ein Fachbereich an bis zu drei Orten. Die Nummern in der Abbildung gehören zu den Einträgen der folgenden Liste.
 
-![Fachbereich Mathematics im Menü unter Mein Fragenpool, Beurteilung und Final, nummeriert 1 bis 3, darüber die Statusleiste von Draft bis End of life, so sehen Sie die drei Orte eines Fachbereichs](assets/fragenpool_bereiche_de.png){ class="shadow lightbox" title="Bereiche eines Fachbereichs im Menü des Fragenpools" }
+![Fachbereich Ornithologie an drei Orten im Menü: unter Mein Fragenpool, Beurteilung und Final, nummeriert 1 bis 3](assets/question_bank_review_process_areas_v1_de.png){ class="shadow lightbox" title="Bereiche eines Fachbereichs im Menü des Fragenpools · 2026.11.11" }
 
-1) Der Fachbereich ist unter "Mein Fragenpool" sichtbar. Hier sind alle eigenen Fragen dieses Fachbereichs abgebildet. Es werden hier alle Fragen nach Status aufgelistet.
-
-2) Unter "Beurteilung" erscheint derselbe Fachbereich ein zweites Mal. Hier sind Fragen im Status "Review" aufgelistet. Die eigenen Fragen tauchen hier jedoch nicht auf, da man die eigenen Fragen nicht selbst beurteilen soll. Aufgelistet sind die Fragen anderer Benutzer:innen, die Rechte auf diesen Fachbereich haben. Nun können die Fragen beurteilt werden.
-
-3) Sobald die Beurteilungskriterien erfüllt sind, kommt die Frage in den Bereich "Final". Es ist möglich, dass Sie nicht über genügend Rechte verfügen und Sie deshalb den Bereich "Final" nicht sehen. Trotzdem können Sie die Beurteilung gemäss 2. durchführen.
+  * **Mein Fragenpool** (1): Hier sehen Sie den Fachbereich mit allen eigenen Fragen, aufgelistet nach Status.
+  * **Beurteilung** (2): Hier erscheint derselbe Fachbereich ein zweites Mal. Aufgelistet sind die Fragen anderer Benutzer:innen mit Rechten auf diesen Fachbereich, die sich im Status "Review" befinden. Ihre eigenen Fragen erscheinen hier nicht, da Sie Ihre eigenen Fragen nicht selbst beurteilen. Ebenso fehlen die Fragen, die Sie schon bewertet haben. Hier beurteilen Sie die Fragen.
+  * **Final** (3): Sobald die Beurteilungskriterien erfüllt sind, kommt die Frage in den Bereich "Final". Es ist möglich, dass Sie nicht über genügend Rechte verfügen und Sie deshalb den Bereich "Final" nicht sehen. Fragen unter "Beurteilung" können Sie trotzdem beurteilen.
 
 [Zum Seitenanfang ^](#review_process)
 
@@ -41,7 +39,7 @@ In der folgenden Abbildung sind auf der linken Seite die verschiedenen Bereiche 
 
 Wenn Sie unter "Mein Fragenpool" einen Fachbereich auswählen, wird ein Prozessablauf mit verschiedenen Status abgebildet (in der Abbildung markiert). Hier bekommen Sie einen Überblick, welche Ihrer Fragen sich in welchem Status befindet.
 
-![Rot markierte Statusleiste Draft, Review, Revision, Final und End of life mit der Anzahl Ihrer Fragen je Status im Fachbereich Mathematics, so sehen Sie, wo Ihre Fragen stehen](assets/fragenpool_status_de.png){ class="shadow lightbox" title="Statusleiste eines Fachbereichs im Fragenpool" }
+![Markierte Statusleiste von Draft bis End of life mit der Anzahl Ihrer Fragen je Status im Fachbereich Ornithologie](assets/question_bank_review_process_status_v1_de.png){ class="shadow lightbox" title="Statusleiste eines Fachbereichs im Fragenpool · 2026.11.11" }
 
   * **Draft:** Alle Fragen, die noch in Bearbeitung sind und noch nicht in den Beurteilungsprozess gegeben wurden. Sobald eine Frage aus "Meine Fragen" mit dem entsprechenden Fachbereich verknüpft ist, taucht sie hier im Status Draft auf.
   * **Review:** Hier sehen Sie alle Ihre Fragen, die sich momentan gerade im Status Review befinden. Diese Fragen müssen also von den anderen Personen Ihrer Fachgruppe beurteilt werden. Sie selbst können Ihre Fragen nicht beurteilen.
@@ -56,15 +54,15 @@ Wenn Sie unter "Mein Fragenpool" einen Fachbereich auswählen, wird ein Prozessa
 
 Im Bereich "Beurteilung" können Sie nun die Fragen der anderen Personen aus Ihrer Fachgruppe beurteilen. Die Frage befindet sich im Lesemodus. Sie können also die gesamte Frage anschauen, inklusive Punkte, Feedback und Metadaten. Sie können jedoch nichts editieren.
 
-Die Beurteilung der Frage starten Sie mit "Frage beurteilen".
+Die Beurteilung starten Sie mit "Frage beurteilen" in der Hinweisbox über der Frage. Rechts im Abschnitt "Bewertungen" sehen Sie die bisher abgegebenen Bewertungen mit Datum und Sternen.
 
-![Hinweisbox zum Status Review mit dem markierten Button Frage beurteilen über dem schreibgeschützten Frage-Editor, rechts der Bereich Bewertungen](assets/Fragenpool_status_review.png){ class="shadow lightbox" title="Frage im Status Review" }
+![Markiert: Button Frage beurteilen in der Hinweisbox und rechts der Abschnitt Bewertungen mit Datum und Sternen](assets/question_bank_review_question_v1_de.png){ class="shadow lightbox" title="Zu beurteilende Frage im Bereich Beurteilung · 2026.11.11" }
 
-Anschliessend öffnet sich ein Dialog:
+Anschliessend öffnet sich der Dialog "Beurteilung":
 
-![Dialog Beurteilung mit der Sternebewertung, dem Kommentarfeld und den Buttons Beurteilen und Abbrechen.](assets/fragenpool_Beurteilung_stern.png){ class="shadow lightbox" title="Dialog zum Beurteilen einer Frage" }
+![Dialog Beurteilung mit dem Hinweis zur einmaligen Bewertung, den Sternen, dem Kommentarfeld und den Buttons Beurteilen und Abbrechen](assets/question_bank_review_rating_dialog_v1_de.png){ class="shadow lightbox" title="Dialog zum Beurteilen einer Frage · 2026.11.11" }
 
-Hier bewerten Sie die Frage mit den Sternen und fügen einen Kommentar hinzu. Vor allem wenn die Bewertung unter dem Grenzwert liegt, ist ein Kommentar zentral. Nur so hat die Ersteller:in der Frage die Möglichkeit, die Frage anhand Ihrer Rückmeldung zu verbessern. Mit "Beurteilen" speichern Sie Ihre Beurteilung.
+Hier bewerten Sie die Frage mit den Sternen und fügen einen Kommentar hinzu. Jede Frage können Sie genau einmal bewerten. Danach erscheint sie nicht mehr in Ihrer Liste unter "Beurteilung". Vor allem wenn die Bewertung unter dem Grenzwert liegt, ist ein Kommentar zentral. Nur so hat die Ersteller:in der Frage die Möglichkeit, die Frage anhand Ihrer Rückmeldung zu verbessern. Mit "Beurteilen" speichern Sie Ihre Beurteilung.
 
 [Zum Seitenanfang ^](#review_process)
 

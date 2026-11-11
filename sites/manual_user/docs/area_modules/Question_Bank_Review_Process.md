@@ -12,7 +12,7 @@ In order to be able to work with the review process, it is also essential to def
 
 The following graphic shows an exemplary process flow.
 
-![A question goes from Draft via Review to Final or back to Revision; the subject group leader builds a test from the final questions, checks it and embeds it in the subject course](assets/question_bank_review_process_flow_v1_en.png){ class="shadow lightbox" title="Example flow of the review process · 2026.11.11" }
+![Path of a question across three roles from Draft via Review to Final and from there into a test in the subject course](assets/question_bank_review_process_flow_v1_en.png){ class="shadow lightbox" title="Example flow of the review process · 2026.11.11" }
 
 The following process steps are therefore depicted in the review process of the question bank:
 
@@ -23,15 +23,13 @@ The following process steps are therefore depicted in the review process of the 
 b) The star rating is sufficient. The defined number of persons has given a sufficient rating. The question changes to the status "Final".
   5. The questions from the "Final" area can be integrated into the test.
 
-The following figure shows the different areas from the process on the left side.
+In the menu on the left, a subject appears in up to three places. The numbers in the figure belong to the entries of the following list.
 
-![Menu with the subject Ornithologie under My question bank, Review and Final, numbered 1 to 3, above it the status bar from Draft to End of life, so you see the three places of one subject](assets/fragenpool_bereiche_en.png){ class="shadow lightbox" title="Areas of a subject in the question bank menu · 2026.10.29" }
+![Subject Ornithologie in three places of the menu: under My question bank, Review and Final, numbered 1 to 3](assets/fragenpool_bereiche_en.png){ class="shadow lightbox" title="Areas of a subject in the question bank menu · 2026.10.29" }
 
-1) The subject is visible under "My question bank". All your own questions of this subject are shown here. All questions are listed here by status.
-
-2) Under "Review" the same subject appears a second time. Questions in the status "Review" are listed here. However, your own questions do not appear here, because you should not review your own questions yourself. Listed are the questions of other users who have rights to this subject. Now the questions can be reviewed.
-
-3) As soon as the review criteria are fulfilled, the question moves to the "Final" area. It is possible that you do not have sufficient rights and therefore do not see the "Final" area. Nevertheless, you can carry out the review as described under 2.
+  * **My question bank** (1): Here you see the subject with all your own questions, listed by status.
+  * **Review** (2): Here the same subject appears a second time. Listed are the questions of other users with rights to this subject that are in the status "Review". Your own questions do not appear here, because you do not review your own questions yourself. The questions you have already rated are missing as well. Here you review the questions.
+  * **Final** (3): As soon as the review criteria are fulfilled, the question moves to the "Final" area. It is possible that you do not have sufficient rights and therefore do not see the "Final" area. You can still review the questions under "Review".
 
 [To the top of the page ^](#review_process)
 
@@ -41,7 +39,7 @@ The following figure shows the different areas from the process on the left side
 
 If you select a subject under "My question bank", a process flow with different statuses is shown (highlighted in the figure). Here you get an overview of which of your questions is in which status.
 
-![Highlighted status bar Draft, Review, Revision, Final and End of life with the number of your questions per status in the subject Ornithologie, so you see where your questions stand](assets/fragenpool_status_en.png){ class="shadow lightbox" title="Status bar of a subject in the question bank · 2026.10.29" }
+![Highlighted status bar from Draft to End of life with the number of your questions per status in the subject Ornithologie](assets/fragenpool_status_en.png){ class="shadow lightbox" title="Status bar of a subject in the question bank · 2026.10.29" }
 
   * **Draft:** All questions that are still being edited and have not yet been submitted to the review process. As soon as a question from "My questions" is linked to the corresponding subject, it appears here in the status Draft.
   * **Review:** Here you see all your questions that are currently in the status Review. These questions must therefore be reviewed by the other persons in your subject group. You cannot review your own questions.
@@ -56,15 +54,15 @@ If you select a subject under "My question bank", a process flow with different 
 
 In the "Review" area you can now review the questions of the other persons in your subject group. The question is in read mode. You can therefore view the entire question, including score, feedback and metadata. However, you cannot edit anything.
 
-Start the review of the question with "Review question".
+Start the review with "Review question" in the notice above the question. On the right, the section "Ratings" shows the ratings given so far with date and stars.
 
-![Marked button Review question in the notice for the status Review, on the right the opened section Ratings with the ratings given so far](assets/question_bank_review_question_v1_en.png){ class="shadow lightbox" title="Question to review in the area Review · 2026.11.11" }
+![Highlighted: button Review question in the notice and on the right the section Ratings with date and stars](assets/question_bank_review_question_v1_en.png){ class="shadow lightbox" title="Question to review in the area Review · 2026.11.11" }
 
-A dialog then opens:
+The dialog "Review" then opens:
 
-![Dialog Review with the star rating, the comment field and the buttons Rate and Cancel.](assets/Review_process_rating_EN.png){ class="shadow lightbox" title="Dialog for rating a question" }
+![Dialog Review with the notice on rating only once, the stars, the comment field and the buttons Rate and Cancel](assets/question_bank_review_rating_dialog_v1_en.png){ class="shadow lightbox" title="Dialog for rating a question · 2026.11.11" }
 
-Here you rate the question with the stars and add a comment. Especially if the rating is below the threshold value, a comment is essential. This is the only way the creator of the question has the opportunity to improve the question based on your feedback. Click "Rate" to save your review.
+Here you rate the question with the stars and add a comment. You can rate each question exactly once. After that it no longer appears in your list under "Review". Especially if the rating is below the threshold value, a comment is essential. This is the only way the creator of the question has the opportunity to improve the question based on your feedback. Click "Rate" to save your review.
 
 [To the top of the page ^](#review_process)
 
