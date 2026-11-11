@@ -12,7 +12,7 @@ Um mit dem Beurteilungsprozess arbeiten zu können, muss ausserdem zwingend eine
 
 In der folgenden Grafik ist ein beispielhafter Prozessablauf dargestellt.
 
-![Weg einer Frage über drei Rollen von Draft über Review nach Final und von dort in einen Test im Fachkurs](assets/question_bank_review_process_flow_v1_de.png){ class="shadow lightbox" title="Beispielhafter Ablauf des Beurteilungsprozesses · 2026.11.11" }
+![Weg einer Frage über drei Rollen von Draft über Review nach Final und von dort in einen Test im Fachkurs](assets/question_bank_review_process_flow_v1_de.svg){ class="shadow lightbox" title="Beispielhafter Ablauf des Beurteilungsprozesses · 2026.11.11" }
 
 Folgende Prozessschritte sind also im Beurteilungsprozess des Fragenpools abgebildet:
 

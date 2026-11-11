@@ -12,7 +12,7 @@ In order to be able to work with the review process, it is also essential to def
 
 The following graphic shows an exemplary process flow.
 
-![Path of a question across three roles from Draft via Review to Final and from there into a test in the subject course](assets/question_bank_review_process_flow_v1_en.png){ class="shadow lightbox" title="Example flow of the review process · 2026.11.11" }
+![Path of a question across three roles from Draft via Review to Final and from there into a test in the subject course](assets/question_bank_review_process_flow_v1_en.svg){ class="shadow lightbox" title="Example flow of the review process · 2026.11.11" }
 
 The following process steps are therefore depicted in the review process of the question bank:
 
