@@ -1,6 +1,6 @@
 # Coaching - Reports {: #reports}
 
-Sie möchten auswerten, welche der Personen, die Sie betreuen, ein Zertifikat erhalten haben, oder ihre Absenzen und offenen Buchungsaufträge überblicken? Im Bereich "Reports" des Coaching Tools erzeugen Sie dafür aus einer Reportvorlage eine Excel-Datei. Die Vorlagen sind nach Kategorien gegliedert, etwa Zertifikate, Absenzen und Buchungsaufträge, und Sie sehen nur die Vorlagen, die Sie ausführen dürfen. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620)
+Sie möchten auswerten, welche der Personen, die Sie betreuen, ein Zertifikat erhalten haben, oder ihre Absenzen und offenen Buchungsaufträge überblicken? Im Bereich "Reports" des Coaching Tools erzeugen Sie dafür aus einer Reportvorlage eine Excel-Datei. Die Vorlagen sind nach Kategorien gegliedert, etwa Zertifikate, Absenzen und Buchungsaufträge, und Sie sehen nur die Vorlagen, die Sie ausführen dürfen.
 
 ## Wer kann Zertifikats-Reports ausführen? [:octicons-tag-16:{ title="ab Release 20.0 (OO-8371)" }](https://track.frentix.com/issue/OO-8371) {: #access}
 

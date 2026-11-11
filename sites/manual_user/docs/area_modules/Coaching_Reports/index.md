@@ -1,6 +1,6 @@
 # Coaching - Reports {: #reports}
 
-Do you want to evaluate which of the persons you coach have received a certificate, or get an overview of their absences and open booking orders? In the "Reports" area of the Coaching Tool, you generate an Excel file from a report template for this purpose. The templates are grouped into categories, such as Certificates, Absences and Booking orders, and you only see the templates you are allowed to run. [:octicons-tag-16:{ title="from Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620)
+Do you want to evaluate which of the persons you coach have received a certificate, or get an overview of their absences and open booking orders? In the "Reports" area of the Coaching Tool, you generate an Excel file from a report template for this purpose. The templates are grouped into categories, such as Certificates, Absences and Booking orders, and you only see the templates you are allowed to run.
 
 ## Who can run certificate reports? [:octicons-tag-16:{ title="from Release 20.0 (OO-8371)" }](https://track.frentix.com/issue/OO-8371) {: #access}
 

@@ -2,7 +2,7 @@
 
 Wer nachvollziehen will, wie ein Kurs genutzt wird, wertet die Logfiles aus: OpenOlat zeichnet darin die Kursaktivitäten der Teilnehmenden und der Kursautor:innen auf.
 
-Innerhalb eines Kurses archivieren Sie die Logfiles im Werkzeug [Archivierung & Reports](Course_Archiving/index.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9620)" }](https://track.frentix.com/issue/OO-9620) unter:<br>
+Innerhalb eines Kurses archivieren Sie die Logfiles im Werkzeug [Archivierung & Reports](Course_Archiving/index.de.md) unter:<br>
 `Kurs > Administration > Archivierung & Reports > Logfiles`
 
 Zur Auswahl stehen:
