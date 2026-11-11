@@ -38,11 +38,11 @@ The minutes used for correction can be made available to various roles.
 
 ---
 
-## Test export tab {: #tab_tests_export}
+## Tab "Tests export" {: #tab_tests_export}
 
 If OpenOlat exams are printed as handwritten exams, an additional page can be attached, which is defined here.
 
-![Field Additional sheet with Edit button to define the additional text](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" title="Test export tab on the Test page" }
+![Field Additional sheet with Edit button to define the additional text](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" title="Tab Tests export on the page Test" }
 
 [To the top of the page ^](#test)
 

@@ -41,7 +41,7 @@ Here too, owners always find the menu item, other authors only if exporting is a
 
 ### Export to Word {: #word}
 
-Whoever wants to have a test reviewed before it is conducted exports it as a Word document. Additions and corrections can be easily noted in it. With `Test > Administration > Export to Word` OpenOlat downloads a zip file with two Word documents: the test and a second version with the solutions. The menu item is available to owners of the test learning resource, learning resource managers and administrators.
+Whoever wants to have a test reviewed before it is conducted exports it as a Word document. Additions and corrections can be easily noted in it. With `Test > Administration > Export to Word` OpenOlat downloads a zip file with two Word documents: one contains only the questions, the other also the solutions. Both state the title of the test, the passed cut value if the test defines one, the sections and every question with question type and score, each question on a page of its own. The menu item is available to owners of the test learning resource, learning resource managers and administrators.
 
 ![Menu item Export to Word marked in the open Administration menu, which downloads the test as Word documents](assets/test_export_resource_word_v2_en.png){ class="shadow lightbox" title="Administration menu of a test learning resource · 2026.10.01" }
 
@@ -50,34 +50,9 @@ Whoever wants to have a test reviewed before it is conducted exports it as a Wor
 ---
 
 
-### Export handwritten exams [:octicons-tag-16:{ title="from Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648)
+### Export handwritten exams [:octicons-tag-16:{ title="from Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648) {: #handwritten_exams}
 
-Whoever conducts a test on paper receives print-ready exam sheets via `Test > Administration > Export handwritten exams`: a zip file with one PDF file per exam and the matching solution sheet. The menu item is available to owners of the test learning resource, learning resource managers and administrators if the [PDF Service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is enabled in the system administration.
-
-![Menu item Export handwritten exams marked in the open Administration menu, which starts the wizard for the exam sheets](assets/test_export_resource_test_manually1_v2_en.png){ class="shadow lightbox" title="Administration menu of a test learning resource · 2026.10.01" }
-
-Each exam is given its own serial number and, if desired, a cover sheet. This way, every sheet completed by hand can be clearly assigned after the exam.
-
-In the step "Options", "Number of tests" and "Prefix" are mandatory. OpenOlat generates as many exams as you specify and appends a sequential number to the prefix, "prefix" becomes "prefix_0001". You choose the language of the exam sheets under "Output language of export (system languages)". Under "Covers" you determine whether each exam receives a cover sheet with "First sheet" and a further page with "Additional sheet".
-
-![Mandatory fields Number of tests and Prefix, below them the choice of language and under Covers the options First sheet and Additional sheet](assets/test_export_resource_test_manually2_v2_en.png){ class="shadow lightbox" title="Step Options in the dialog Export handwritten exams · 2026.10.01" }
-
-In the step "Cover attributes" you select which details and placeholders the cover sheet carries.
-
-![Under General the serial number and the placeholders for name, candidate number and date, under Test parameters time, number of questions, max. score, cut value and description](assets/test_export_resource_test_manually3_v2_en.png){ class="shadow lightbox" title="Step Cover attributes in the dialog Export handwritten exams · 2026.10.01" }
-
-In the step "Cover fields" you adjust "Title" and "Procedure" and write a note for the participants under "Information (description field)".
-
-![Title and procedure of the cover sheet as text fields, below them the text editor for the notes on the exam](assets/test_export_resource_test_manually4_v2_en.png){ class="shadow lightbox" title="Step Cover fields in the dialog Export handwritten exams · 2026.10.01" }
-
-The steps "Cover attributes" and "Cover fields" appear when "First sheet" is selected, the step "Additional sheet" when "Additional sheet" is selected.
-
-The step "Summary" shows the number of tests and solution sheets and the file format. With "Preview" and "Preview with solutions" you open a sample as a PDF file. After "Finish" the download of the zip file starts; depending on the number, it can take several minutes or hours. The zip file contains one PDF file per exam named after the serial number in the folder "tests" and the matching solution sheet in the folder "solutions".
-
-This is what a generated cover sheet with all details looks like:
-
-![Cover sheet with serial number and procedure at the top, below them empty fields for first name, last name, candidate number and exam date, the test parameters and the notes on the exam](assets/test_export_resource_test_manually6_v2_en.png){ class="shadow lightbox" title="Generated cover sheet of a handwritten exam · 2026.10.01" }
-
+Whoever conducts a test on paper creates print-ready exam sheets with serial number, solution sheet and, if desired, a cover sheet via `Test > Administration > Export handwritten exams`, see [Test: Export handwritten exams](Test_handwritten_exams.md).
 
 [To the top of the page ^](#test_export)
 
@@ -240,9 +215,10 @@ If the test does not belong to a course, for example in the test statistics of a
 
 **Mentioned on this page**<br>
 [Access configuration >](Access_configuration.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[Test: Export handwritten exams >](Test_handwritten_exams.md)<br>
 [Creating Tests >](Test/index.md)<br>
 [Test statistics >](Statistics_Test.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
 [Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
 [Evaluate and manage tests >](../learningresources/Course_Element_Test/Test_Results.md)

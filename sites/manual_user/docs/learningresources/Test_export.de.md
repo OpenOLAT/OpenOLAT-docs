@@ -42,7 +42,7 @@ Auch hier finden Besitzer:innen den Menüpunkt immer, andere Autor:innen nur, we
 
 ### Als Worddatei exportieren {: #word}
 
-Wer einen Test vor der Durchführung gegenlesen lassen will, exportiert ihn als Word-Dokument. Darin lassen sich Ergänzungen und Korrekturen einfach notieren. Mit `Test > Administration > Als Worddatei exportieren` lädt OpenOlat eine zip-Datei mit zwei Word-Dokumenten herunter: den Test und eine zweite Fassung mit den Lösungen. Der Menüpunkt steht Besitzer:innen der Test-Lernressource, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung.
+Wer einen Test vor der Durchführung gegenlesen lassen will, exportiert ihn als Word-Dokument. Darin lassen sich Ergänzungen und Korrekturen einfach notieren. Mit `Test > Administration > Als Worddatei exportieren` lädt OpenOlat eine zip-Datei mit zwei Word-Dokumenten herunter: das eine enthält nur die Fragen, das andere zusätzlich die Lösungen. Beide nennen den Titel des Tests, die Punkteschwelle für Bestanden, sofern der Test eine festlegt, die Sektionen und jede Frage mit Fragetyp und Punktzahl, jede Frage auf einer eigenen Seite. Der Menüpunkt steht Besitzer:innen der Test-Lernressource, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung.
 
 ![Menüpunkt Als Worddatei exportieren im geöffneten Menü Administration markiert, damit lädt OpenOlat den Test als Word-Dokumente herunter](assets/test_export_resource_word_v2_de.png){ class="shadow lightbox" title="Menü Administration einer Test-Lernressource · 2026.10.01" }
 
@@ -51,34 +51,9 @@ Wer einen Test vor der Durchführung gegenlesen lassen will, exportiert ihn als 
 ---
 
 
-### Handschriftliche Prüfungen generieren [:octicons-tag-16:{ title="ab Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648)
+### Handschriftliche Prüfungen generieren [:octicons-tag-16:{ title="ab Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648) {: #handwritten_exams}
 
-Wer einen Test auf Papier durchführt, erhält über `Test > Administration > Handschriftliche Prüfungen generieren` druckfertige Prüfungsbogen: eine zip-Datei mit einer PDF-Datei je Prüfung und dem passenden Lösungsblatt. Der Menüpunkt steht Besitzer:innen der Test-Lernressource, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung, wenn in der System-Administration der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist.
-
-![Menüpunkt Handschriftliche Prüfungen generieren im geöffneten Menü Administration markiert, damit startet der Assistent für die Prüfungsbogen](assets/test_export_resource_test_manually1_v2_de.png){ class="shadow lightbox" title="Menü Administration einer Test-Lernressource · 2026.10.01" }
-
-Jede Prüfung erhält eine eigene Seriennummer und auf Wunsch ein Deckblatt. So lässt sich jeder handschriftlich ausgefüllte Bogen nach der Prüfung eindeutig zuordnen.
-
-Im Schritt "Optionen" sind "Anzahl der Tests" und "Seriennummer" Pflichtangaben. OpenOlat erzeugt so viele Prüfungen, wie Sie angeben, und hängt an die Seriennummer eine fortlaufende Nummer an, aus "prefix" wird "prefix_0001". Die Sprache der Prüfungsbogen wählen Sie unter "Ausgangsprache für Export (Systemsprachen)". Unter "Deckblatt" bestimmen Sie, ob jede Prüfung mit "Erste Seite" ein Deckblatt und mit "Zusätzliche Seite" eine weitere Seite erhält.
-
-![Pflichtfelder Anzahl der Tests und Seriennummer, darunter die Wahl der Sprache und unter Deckblatt die Optionen Erste Seite und Zusätzliche Seite](assets/test_export_resource_test_manually2_v2_de.png){ class="shadow lightbox" title="Schritt Optionen im Dialog Handschriftliche Prüfungen generieren · 2026.10.01" }
-
-Im Schritt "Deckblattattribute" wählen Sie aus, welche Angaben und Platzhalter das Deckblatt trägt.
-
-![Unter Allgemeines die Seriennummer und die Platzhalter für Name, Kandidatennummer und Datum, unter Testparameter Zeit, Anzahl Fragen, Punktzahl, Punkteschwelle und Beschreibung](assets/test_export_resource_test_manually3_v2_de.png){ class="shadow lightbox" title="Schritt Deckblattattribute im Dialog Handschriftliche Prüfungen generieren · 2026.10.01" }
-
-Im Schritt "Deckblattfelder" passen Sie "Titel" und "Verfahren" an und schreiben unter "Informationen (Beschreibungsfeld)" einen Hinweistext für die Teilnehmenden.
-
-![Titel und Verfahren des Deckblatts als Textfelder, darunter der Texteditor für die Hinweise zur Prüfung](assets/test_export_resource_test_manually4_v2_de.png){ class="shadow lightbox" title="Schritt Deckblattfelder im Dialog Handschriftliche Prüfungen generieren · 2026.10.01" }
-
-Die Schritte "Deckblattattribute" und "Deckblattfelder" erscheinen, wenn "Erste Seite" gewählt ist, der Schritt "Zusätzliche Seite", wenn "Zusätzliche Seite" gewählt ist.
-
-Im Schritt "Zusammenfassung" stehen die Anzahl der Tests und Lösungsblätter und das Dateiformat. Mit "Vorschau" und "Vorschau mit Lösungen" öffnen Sie eine Probe als PDF-Datei. Nach "Fertigstellen" beginnt der Download der zip-Datei, er kann je nach Anzahl einige Minuten bis Stunden dauern. Die zip-Datei enthält im Ordner "tests" je Prüfung eine PDF-Datei mit der Seriennummer als Namen und im Ordner "solutions" das passende Lösungsblatt.
-
-So sieht ein erzeugtes Deckblatt mit allen Angaben aus:
-
-![Deckblatt mit Seriennummer und Verfahren oben, darunter leere Felder für Vorname, Nachname, Kandidatennummer und Prüfungsdatum, die Testparameter und die Hinweise zur Prüfung](assets/test_export_resource_test_manually6_v2_de.png){ class="shadow lightbox" title="Erzeugtes Deckblatt einer handschriftlichen Prüfung · 2026.10.01" }
-
+Wer einen Test auf Papier durchführt, erzeugt mit `Test > Administration > Handschriftliche Prüfungen generieren` druckfertige Prüfungsbogen mit Seriennummer, Lösungsblatt und auf Wunsch einem Deckblatt, siehe [Test: Handschriftliche Prüfungen generieren](Test_handwritten_exams.de.md).
 
 [Zum Seitenanfang ^](#test_export)
 
@@ -241,9 +216,10 @@ Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigen
 
 **Auf dieser Seite erwähnt**<br>
 [Zugangskonfiguration / Freigabe >](Access_configuration.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Test: Handschriftliche Prüfungen generieren >](Test_handwritten_exams.de.md)<br>
 [Tests erstellen >](Test/index.de.md)<br>
 [Teststatistiken >](Statistics_Test.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
 [Tests bewerten >](../learningresources/Assessing_tests.de.md)<br>
 [Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Tests auswerten und verwalten >](../learningresources/Course_Element_Test/Test_Results.de.md)

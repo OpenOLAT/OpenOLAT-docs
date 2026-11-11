@@ -22,7 +22,7 @@ The "Test statistics" menu only appears for standalone tests. If the test runs i
 
 The "Offer types" menu is only active if the test has been configured as bookable.
 
-Under "Export handwritten exams" a wizard takes you in several steps from the online test to print-ready exam sheets, see [Test: Export handwritten exams](../Test_handwritten_exams.md). The entry only appears if the PDF generator is switched on. You find it in the system administration under: `Administration > External tools > PDF generator`.
+If the PDF Service is enabled in the system administration, a wizard under "Export handwritten exams" takes you in several steps from the online test to print-ready exam sheets, see [Test: Export handwritten exams](../Test_handwritten_exams.md).
 
 With the "Copy", "Export content" and "Export to Word" menus you copy or save the test.
 
@@ -43,7 +43,7 @@ These entries of the "Administration" menu have their own pages:<br>
 
 ## Export to Word {: #export_word}
 
-With "Export to Word" you download the test in zip format with two Word files. One file contains only the questions, the other also contains the solutions. Both contain all the important information about the test, including the score, so that you can use the documents directly.
+Whoever wants to have the test reviewed before it is conducted downloads it with "Export to Word" as a zip file with two Word documents, one with and one without solutions, see [Export tests](../Test_export.md#word).
 
 [To the top of the page ^](#test_administration)
 

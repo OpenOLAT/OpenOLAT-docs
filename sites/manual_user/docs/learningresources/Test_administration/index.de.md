@@ -22,7 +22,7 @@ Das Menü "Test Statistik" erscheint nur bei eigenständigen Tests. Läuft der T
 
 Das Menü "Angebotsarten" ist nur aktiv, wenn der Test buchbar konfiguriert wurde.
 
-Unter "Handschriftliche Prüfungen generieren" führt Sie ein Assistent in mehreren Schritten vom Online-Test zu druckfertigen Prüfungsbogen, siehe [Test: Handschriftliche Prüfungen generieren](../Test_handwritten_exams.de.md). Der Eintrag erscheint nur, wenn der PDF Generator eingeschaltet ist. Sie finden ihn in der System-Administration unter: `Administration > Externe Werkzeuge > PDF Generator`.
+Ist in der System-Administration der PDF-Dienst eingeschaltet, führt Sie unter "Handschriftliche Prüfungen generieren" ein Assistent in mehreren Schritten vom Online-Test zu druckfertigen Prüfungsbogen, siehe [Test: Handschriftliche Prüfungen generieren](../Test_handwritten_exams.de.md).
 
 Mit den Menüs "Kopieren", "Inhalt exportieren" und "Als Worddatei exportieren" kopieren oder speichern Sie den Test.
 
@@ -43,7 +43,7 @@ Eigene Seiten haben diese Einträge des Menüs "Administration":<br>
 
 ## Als Worddatei exportieren {: #export_word}
 
-Mit "Als Worddatei exportieren" laden Sie den Test im Zip-Format mit zwei Word-Dateien herunter. Die eine Datei enthält nur die Fragen, die andere zusätzlich die Lösungen. Beide enthalten alle wichtigen Informationen zum Test inklusive der Punktzahl, so dass Sie die Dokumente direkt weiterverwenden können.
+Wer den Test vor der Durchführung gegenlesen lassen will, lädt ihn mit "Als Worddatei exportieren" als zip-Datei mit zwei Word-Dokumenten herunter, eines mit und eines ohne Lösungen, siehe [Tests exportieren](../Test_export.de.md#word).
 
 [Zum Seitenanfang ^](#test_administration)
 
