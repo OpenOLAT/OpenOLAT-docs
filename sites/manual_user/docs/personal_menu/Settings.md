@@ -78,7 +78,7 @@ In the selection "Resume last session" you specify what happens immediately afte
 
 If you tick the check box "Do not ask again" in this prompt, OpenOlat saves your answer as a setting: "Yes" sets "Resume last session" to "Yes, automatically", "Landing page" or "No" sets it to "No".
 
-If you have never saved anything here, "No" is preselected by default: OpenOlat opens your landing page after login and does not ask. A saved choice is kept. It is saved as soon as you have clicked "Save" in this section once, even if you only changed the field "Landing page", or as soon as you have ticked "Do not ask again" in the prompt. If you want to continue where you left off after login, select "Yes, automatically" or "Yes, on request" and click "Save" [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}.
+If you have never saved anything here, "No" is preselected by default: OpenOlat opens your landing page after login and does not ask. A saved choice is kept until you reset it under ["Reset configurations"](#reset) with the option "Personalized interface components". It is saved as soon as you have clicked "Save" in this section once, even if you only changed the field "Landing page", or as soon as you have ticked "Do not ask again" in the prompt. If you want to continue where you left off after login, select "Yes, automatically" or "Yes, on request" and click "Save" [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}.
 
 If there is no location last visited yet, for example at the first login, OpenOlat opens your landing page in any case.
 
@@ -119,7 +119,10 @@ Tools that are displayed as an icon in the main navigation are no longer listed 
 
 ### Reset configurations {: #reset}
 
-If you want to undo your personal adjustments, reset them to the default setting under "Reset configurations" in the tab "System". You select what is reset:
+If you want to undo your personal adjustments, reset them to the default setting in the section "Reset configurations". You find the section in the personal menu under:<br>
+`Personal menu > System settings > Tab "System"`
+
+You select what is reset:
 
 * "Personalized interface components (menu, tool boxes, tables, portal, calendar etc.)"
 * "System configuration (notifications, e-mail, character set etc.)"
@@ -127,9 +130,9 @@ If you want to undo your personal adjustments, reset them to the default setting
 
 After a click on "Reset", OpenOlat logs you out automatically so that the default setting takes effect.
 
-The option "Session resume" only deletes the location you visited last. Your choice for ["Resume last session"](#resume_session) in the section "Specific system settings" remains unchanged.
+The option "Personalized interface components" resets all saved adjustments that the [tab "GUI preferences"](#tab_GUI) lists, for example hidden table columns. This also includes your personal [landing page](#landing_page), your choice for ["Resume last session"](#resume_session), your selection of [user tools](#personal_tools) and your [AI settings](#tab_ai_settings). If you only want to reset individual adjustments, use the buttons "Reset" or "Bulk reset" in the tab "GUI preferences" [:octicons-tag-16:{ title="from Release 21.1.3 (OO-9948)" }](https://track.frentix.com/issue/OO-9948){:target="_blank"}.
 
-The option "Personalized interface components" leaves saved adjustments such as hidden table columns unchanged. You reset such adjustments in the [tab "GUI preferences"](#tab_GUI) with "Reset" or "Bulk reset".
+The option "Session resume" only deletes the location you visited last. Your choice for ["Resume last session"](#resume_session) in the section "Specific system settings" remains unchanged.
 
 [To the top of the page ^](#personal_configuration_settings)
 
@@ -222,7 +225,7 @@ If the AI feedback is set to "Off", you answer free-text questions as usual, onl
 
 As long as "Default" is selected for the AI feedback, OpenOlat asks you at the start of a quiz with AI feedback whether the AI may correct your answers. More about this: [Consent to the AI correction](../basic_concepts/Content_Editor.md#ai_consent)
 
-If you selected "Always allow" in this dialog, the row here is set to "On". If you want to be asked again, select "Default" and click "Save". After that the default of the administration applies again. "Reset configurations" in the tab "System" leaves your AI settings unchanged.
+If you selected "Always allow" in this dialog, the row here is set to "On". If you want to be asked again, select "Default" and click "Save". After that the default of the administration applies again. The option "Personalized interface components" under ["Reset configurations"](#reset) in the tab "System" sets your AI settings back to "Default".
 
 System administrators set the default for everyone in the AI module: [External tools: AI module](../../manual_admin/administration/External_Tools_AI.md#ai_functions)
 

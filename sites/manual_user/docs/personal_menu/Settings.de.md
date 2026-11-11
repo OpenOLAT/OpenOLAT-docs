@@ -78,7 +78,7 @@ In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem Lo
 
 Setzen Sie in dieser Rückfrage das Häkchen "Nicht mehr nachfragen", speichert OpenOlat Ihre Antwort als Einstellung: "Ja" stellt "Sitzung wiederherstellen" auf "Ja, automatisch", "Startseite" oder "Nein" stellt sie auf "Nein".
 
-Haben Sie hier nie etwas gespeichert, ist im Standard "Nein" vorausgewählt: OpenOlat öffnet nach dem Login Ihre Startseite und fragt nicht nach. Eine gespeicherte Wahl bleibt erhalten. Gespeichert ist sie, sobald Sie in diesem Abschnitt einmal auf "Speichern" geklickt haben, auch wenn Sie dabei nur das Feld "Startseite" geändert haben, oder sobald Sie in der Rückfrage "Nicht mehr nachfragen" gesetzt haben. Möchten Sie nach dem Login dort weiterarbeiten, wo Sie aufgehört haben, wählen Sie "Ja, automatisch" oder "Ja, bei Bedarf" und klicken auf "Speichern" [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}.
+Haben Sie hier nie etwas gespeichert, ist im Standard "Nein" vorausgewählt: OpenOlat öffnet nach dem Login Ihre Startseite und fragt nicht nach. Eine gespeicherte Wahl bleibt erhalten, bis Sie sie unter ["Einstellungen Zurücksetzen"](#reset) mit der Option "Personalisierung von Bildschirmkomponenten" zurücksetzen. Gespeichert ist sie, sobald Sie in diesem Abschnitt einmal auf "Speichern" geklickt haben, auch wenn Sie dabei nur das Feld "Startseite" geändert haben, oder sobald Sie in der Rückfrage "Nicht mehr nachfragen" gesetzt haben. Möchten Sie nach dem Login dort weiterarbeiten, wo Sie aufgehört haben, wählen Sie "Ja, automatisch" oder "Ja, bei Bedarf" und klicken auf "Speichern" [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9936)" }](https://track.frentix.com/issue/OO-9936){:target="_blank"}.
 
 Gibt es noch keinen zuletzt besuchten Ort, etwa beim ersten Login, öffnet OpenOlat in jedem Fall Ihre Startseite.
 
@@ -119,7 +119,10 @@ Werkzeuge, die als Symbol in der Hauptnavigation angezeigt werden, sind nicht me
 
 ### Einstellungen zurücksetzen {: #reset}
 
-Möchten Sie Ihre persönlichen Anpassungen rückgängig machen, setzen Sie sie unter "Einstellungen Zurücksetzen" im Tab "System" auf die Standardeinstellung zurück. Sie wählen aus, was zurückgesetzt wird:
+Möchten Sie Ihre persönlichen Anpassungen rückgängig machen, setzen Sie sie im Abschnitt "Einstellungen Zurücksetzen" auf die Standardeinstellung zurück. Sie finden den Abschnitt im persönlichen Menü unter:<br>
+`Persönliches Menü > Einstellungen > Tab "System"`
+
+Sie wählen aus, was zurückgesetzt wird:
 
 * "Personalisierung von Bildschirmkomponenten (Menü, Toolboxen, Tabellen, Portal, Kalender etc.)"
 * "Systemeinstellungen (Benachrichtigungen, E-Mail Versand, Zeichensatz etc.)"
@@ -127,9 +130,9 @@ Möchten Sie Ihre persönlichen Anpassungen rückgängig machen, setzen Sie sie 
 
 Nach einem Klick auf "Zurücksetzen" meldet OpenOlat Sie automatisch ab, damit die Standardeinstellung wirkt.
 
-Die Option "Sitzung wiederherstellen" löscht nur den Ort, den Sie zuletzt besucht haben. Ihre Wahl bei ["Sitzung wiederherstellen"](#resume_session) im Abschnitt "Spezielle Systemeinstellungen" bleibt unverändert.
+Die Option "Personalisierung von Bildschirmkomponenten" setzt alle gespeicherten Anpassungen zurück, die der [Tab "GUI-Einstellungen"](#tab_GUI) auflistet, etwa ausgeblendete Tabellenspalten. Dazu gehören auch Ihre persönliche [Startseite](#landing_page), Ihre Wahl bei ["Sitzung wiederherstellen"](#resume_session), Ihre Auswahl der [persönlichen Werkzeuge](#personal_tools) und Ihre [KI-Einstellungen](#tab_ai_settings). Möchten Sie nur einzelne Anpassungen zurücksetzen, nutzen Sie im Tab "GUI-Einstellungen" die Buttons "Zurücksetzen" oder "Mehrere Einträge zurücksetzen" [:octicons-tag-16:{ title="ab Release 21.1.3 (OO-9948)" }](https://track.frentix.com/issue/OO-9948){:target="_blank"}.
 
-Die Option "Personalisierung von Bildschirmkomponenten" lässt gespeicherte Anpassungen wie ausgeblendete Tabellenspalten unverändert. Solche Anpassungen setzen Sie im [Tab "GUI-Einstellungen"](#tab_GUI) mit "Zurücksetzen" oder "Mehrere Einträge zurücksetzen" zurück.
+Die Option "Sitzung wiederherstellen" löscht nur den Ort, den Sie zuletzt besucht haben. Ihre Wahl bei ["Sitzung wiederherstellen"](#resume_session) im Abschnitt "Spezielle Systemeinstellungen" bleibt unverändert.
 
 [Zum Seitenanfang ^](#personal_configuration_settings)
 
@@ -222,7 +225,7 @@ Steht das KI-Feedback auf "Aus", beantworten Sie Freitextfragen wie gewohnt, es 
 
 Solange beim KI-Feedback "Vorgabe" gewählt ist, fragt OpenOlat Sie zu Beginn eines Quiz mit KI-Feedback, ob die KI Ihre Antworten korrigieren darf. Mehr dazu: [Einwilligung zur KI-Korrektur](../basic_concepts/Content_Editor.de.md#ai_consent)
 
-Haben Sie in diesem Dialog "Immer erlauben" gewählt, steht die Zeile hier auf "Ein". Möchten Sie wieder gefragt werden, wählen Sie "Vorgabe" und klicken auf "Speichern". Danach gilt wieder die Vorgabe der Administration. "Einstellungen Zurücksetzen" im Tab "System" lässt Ihre KI-Einstellungen unverändert.
+Haben Sie in diesem Dialog "Immer erlauben" gewählt, steht die Zeile hier auf "Ein". Möchten Sie wieder gefragt werden, wählen Sie "Vorgabe" und klicken auf "Speichern". Danach gilt wieder die Vorgabe der Administration. Die Option "Personalisierung von Bildschirmkomponenten" unter ["Einstellungen Zurücksetzen"](#reset) im Tab "System" stellt Ihre KI-Einstellungen wieder auf "Vorgabe".
 
 Welche Vorgabe für alle gilt, legen Systemadministrator:innen im KI-Modul fest: [Externe Werkzeuge: KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_functions)
 
