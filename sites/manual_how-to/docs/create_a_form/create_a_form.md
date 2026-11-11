@@ -334,7 +334,7 @@ Characteristics:
 
 ![Questions with sliders from hardly to very and a text input field for missing topics](assets/form_example1_v1_en.png){ class="shadow lightbox" title="Example teaching quality survey · 2026.11.10" }
 
-[OpenOlat learning resource to download](assets/OOAcademy_FB_V1.zip)
+[OpenOlat learning resource to download](assets/form_example1_teaching_survey_en.zip)
 
 ---
 
@@ -366,7 +366,7 @@ Characteristics:
 
 ![Rubric with the levels very good to needs improvement and a description of the criteria per level](assets/form_example4_v1_en.png){ class="shadow lightbox" title="Example assessment of a presentation · 2026.11.10" }
 
-[OpenOlat learning resource to download](assets/Muendliche_Praesentation__Beurteilung.zip)
+[OpenOlat learning resource to download](assets/form_example4_presentation_rubric_en.zip)
 
 ---
 
@@ -378,7 +378,7 @@ Characteristics:
 
 ![Rubric with a scale from -- to ++ and a comment field per question](assets/form_example5_v1_en.png){ class="shadow lightbox" title="Example form for a peer review · 2026.11.10" }
 
-[OpenOlat learning resource to download](assets/Musterformular_PeerReview.zip)
+[OpenOlat learning resource to download](assets/form_example5_peer_review_en.zip)
 
 [To the top of the page ^](#create_form)
 
