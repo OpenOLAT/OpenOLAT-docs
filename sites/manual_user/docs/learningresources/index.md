@@ -20,6 +20,8 @@ An OpenOlat course can be used as an online-only course or accompany lectures, s
 
 How to create courses is explained in the chapter ["Creating Courses"](Creating_Course.md). Details on course elements and the course editor can be found in the chapter ["Types of Course Elements"](Course_Elements/index.md).
 
+If you or your organisation have prepared templates, you can create a new course directly from one of them: with the entry "Course from template" in the "Create" menu. A template is a course with the usage "Template". A wizard guides you through two steps: in the step "Template" you select the template, in the step "Settings" you give the new course a title, a reference and an execution period, among other things. OpenOlat creates the course as a copy, the template itself remains unchanged. Available are the templates you own or manage and templates that are released to authors for copying. More about the usage "Template" can be found in the chapter ["Creating Courses"](Creating_Course.md#purpose). [:octicons-tag-16:{ title="from Release 20.2 (OO-8897)" }](https://track.frentix.com/issue/OO-8897)
+
 
 [To the top of the page ^](#learning_resources)
 

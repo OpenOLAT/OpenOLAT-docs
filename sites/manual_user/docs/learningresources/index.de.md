@@ -20,6 +20,8 @@ Ein OpenOlat-Kurs kann als reiner Online-Kurs eingesetzt werden oder Vorlesungen
 
 Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine"](Course_Elements/index.de.md).
 
+Haben Sie oder Ihre Organisation Templates vorbereitet, erstellen Sie daraus direkt einen neuen Kurs: mit dem Eintrag "Kurs aus Template" im Menü "Erstellen". Ein Template ist ein Kurs mit dem Verwendungszweck "Template". Ein Assistent führt Sie in zwei Schritten: Im Schritt "Template" wählen Sie das Template, im Schritt "Einstellungen" geben Sie dem neuen Kurs unter anderem Titel, Kennzeichen und Durchführungszeitraum. OpenOlat legt den Kurs als Kopie an, das Template selbst bleibt unverändert. Zur Auswahl stehen die Templates, die Sie besitzen oder verwalten, und Templates, die für Autor:innen zum Kopieren freigegeben sind. Mehr zum Verwendungszweck "Template" erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md#purpose). [:octicons-tag-16:{ title="ab Release 20.2 (OO-8897)" }](https://track.frentix.com/issue/OO-8897)
+
 
 [Zum Seitenanfang ^](#learning_resources)
 
