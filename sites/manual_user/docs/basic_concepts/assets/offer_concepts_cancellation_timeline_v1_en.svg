@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-label="Period in which participants can cancel their booking of an implementation themselves, by offer type and setting">
+  <rect x="0" y="0" width="960" height="500" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="30" y="40" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#342C24">When participants can cancel their booking themselves</text>
+  <text x="30" y="64" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Offers of an implementation in the Course Planner. Bar = the button "Cancel booking" is visible on the info page.</text>
+
+  <!-- Timeline -->
+  <line x1="310" y1="105" x2="925" y2="105" stroke="#0F5456" stroke-width="2"/>
+  <polygon points="925,99 937,105 925,111" fill="#0F5456"/>
+  <line x1="340" y1="97" x2="340" y2="410" stroke="#126365" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="640" y1="97" x2="640" y2="410" stroke="#8F1F40" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="340" y="90" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#2D2926">Booking</text>
+  <text x="640" y="90" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#8F1F40">Begin date</text>
+  <text x="800" y="90" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Implementation running</text>
+
+  <!-- Row 1: At any time -->
+  <text x="30" y="145" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#126365">Freely available / Access code</text>
+  <text x="30" y="164" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Cancelable on, "At any time" (preselected)</text>
+  <rect x="340" y="135" width="580" height="30" rx="8" fill="#B2CF42"/>
+  <text x="630" y="155" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">also after the start</text>
+
+  <!-- Row 2: Until begin date -->
+  <text x="30" y="205" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#126365">Freely available / Access code</text>
+  <text x="30" y="224" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Cancelable on, "Until begin date"</text>
+  <rect x="340" y="195" width="296" height="30" rx="8" fill="#126365"/>
+  <text x="488" y="215" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">until the day before the start</text>
+  <rect x="644" y="195" width="276" height="30" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="782" y="215" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#8F1F40">no button from the start</text>
+
+  <!-- Row 3: Invoice -->
+  <text x="30" y="265" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#126365">Invoice</text>
+  <text x="30" y="284" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Cancelable on (default)</text>
+  <rect x="340" y="255" width="170" height="30" rx="8" fill="#126365"/>
+  <text x="425" y="275" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">free of charge</text>
+  <rect x="514" y="255" width="122" height="30" rx="8" fill="#F2AF40"/>
+  <text x="575" y="275" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">with fee *</text>
+  <rect x="644" y="255" width="276" height="30" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="782" y="275" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#8F1F40">no button from the start</text>
+
+  <!-- Row 4: Cancelable off -->
+  <text x="30" y="325" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#126365">Freely available / Access code / Invoice</text>
+  <text x="30" y="344" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Cancelable off</text>
+  <rect x="340" y="315" width="580" height="30" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="630" y="335" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#8F1F40">no button, only the administration cancels</text>
+
+  <!-- Row 5: PayPal Checkout -->
+  <text x="30" y="385" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#126365">PayPal Checkout</text>
+  <text x="30" y="404" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">no toggle "Cancelable"</text>
+  <rect x="340" y="375" width="580" height="30" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="630" y="395" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#8F1F40">no button, only the administration cancels</text>
+
+  <!-- Footnotes -->
+  <text x="30" y="444" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">Without a begin date in the execution period, only "At any time" shows the button. With "Until begin date" and "Invoice", it is missing completely.</text>
+  <text x="30" y="463" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">* Only with "With fee": from the deadline "Cancellable free of charge until … days before start", without a deadline from the booking on.</text>
+  <text x="30" y="482" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">For "Freely available" and "Access code", the current setting of the offer applies; for "Invoice", the setting at the time of booking.</text>
+</svg>

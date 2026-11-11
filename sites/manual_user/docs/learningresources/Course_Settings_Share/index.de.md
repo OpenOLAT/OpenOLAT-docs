@@ -197,7 +197,7 @@ Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produk
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Navigation >](../../basic_concepts/Navigation.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../Course_Settings_Execution.de.md)<br>
-[Angebotskonzepte: Stornierungsbedingungen bei Rechnungsangeboten >](../../basic_concepts/Offer_Concepts.de.md)<br>
+[Angebotskonzepte: Stornierung >](../../basic_concepts/Offer_Concepts.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles/index.de.md)<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Modul OAI PMH >](../../../manual_admin/administration/Modules_OAI.de.md)<br>

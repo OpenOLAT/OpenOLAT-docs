@@ -260,9 +260,17 @@ Organisations define and name their own credit point systems and restrict them a
 
 ## Cancellation [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"} {: #offer_cancellation}
 
-If a person cannot attend a booked implementation after all, they cancel their booking themselves if the offer allows it. They do not need help from the administration and select "Cancel booking" on the info page of the implementation, see [Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking).
+If a person cannot attend a booked implementation after all, they cancel their booking themselves if the offer allows it. They do not need help from the administration. Cancelling a booking is only possible for an offer of an implementation. In courses and groups, participants leave instead, if the course or the group allows it:
 
-Whether and until when participants can cancel is defined by course planners, product owners and element owners in the offer of the implementation. The setting depends on the offer type. A course that participants booked via a course offer is left instead with [Leave course](../learningresources/General_Functions_Infopage.md#leave_course), if the course allows it.
+| Offer in | What participants do | Who allows it | Where participants find it |
+|---|---|---|---|
+| Implementation in the Course Planner | Cancel booking | Course planners, product owners and element owners in the offer of the implementation, see the sections below | Info page of the implementation, box "My educational product", for an implementation of type Single course box "My course", see [Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking) |
+| Course | Leave course | Course owners with "Participants can leave" under `Course > Administration > Settings > Tab "Share"` | Info page of the course, box "My course", see [Leave course](../learningresources/General_Functions_Infopage.md#leave_course) |
+| Group | Leave group | Group coaches with "Members can leave the group" under `Group > Administration > Tab "Members"` | Column "Leave" in the list under `Groups`, see [Leave a group](../groups/Leave_a_Group.md) |
+
+The following sections address course planners, product owners and element owners. Whether and until when participants can cancel depends on the offer type and its setting. The graphic shows the cases on a timeline:
+
+![Timeline: how long participants can cancel their booking, by offer type and setting](assets/offer_concepts_cancellation_timeline_v1_en.svg){ class="shadow lightbox" title="Cancellation by offer type and setting · 2026.11.11" }
 
 ### Freely available and Access code [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"} {: #offer_cancellation_free_token}
 
@@ -360,7 +368,8 @@ With auto-booking, OpenOlat does not show the offer description, and users only 
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
 [Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)<br>
-[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)
+[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
+[Leave a group >](../groups/Leave_a_Group.md)
 
 **Further reading**<br>
 [How do I present my courses in the OpenOlat catalog? >](../../manual_how-to/catalog/catalog.md)<br>

@@ -12,6 +12,23 @@ If a course is to be used several times and always in the same way, create it as
 
 As a rule, all implementations of a product use the same courses. You can also adapt the content per implementation, though.
 
+What an implementation may contain is defined by its element type. You choose the type when you create the implementation. System administrators define the types in the system administration: `Administration > Modules > Course Planner > Tab "Element types"`. They name a type freely. Your OpenOlat instance may therefore show other type names than the image below.
+
+An implementation of type Single course consists of exactly one course, without further elements below it. For participants, it looks like a course: its info page shows the box "My course", see [Which info page participants see](#participant_info_page). Whether an implementation is of type Single course does not depend on the name of its type but on two settings that every element type has: "Subelements" is set to "No" (standalone, with no subelements), and "Content" is set to "Single course" (only one course). The table of element types shows both values in the columns of the same name.
+
+![Only the element type in the last row has the value "No" in the column "Subelements" and the value "Single course" in the column "Content"](assets/course_planner_implementations_element_types_v1_en.png){ class="shadow lightbox" title="Element types tab in the Course Planner module · 2026.10.09" }
+
+### Which info page participants see {: #participant_info_page}
+
+Participants do not know the element type of an implementation. They see one of two boxes on the right of the info page. The table shows when which box appears and which button for leaving it contains:
+
+| Box on the right | Appears on the info page | Button for leaving | Where participants open the info page |
+|---|---|---|---|
+| "My course" | of a course or of an implementation of type Single course | Participants who are not members of the course via an implementation: [Leave course](../learningresources/General_Functions_Infopage.md#leave_course), if the course allows it. Participants of an implementation of type Single course: [Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking), if the offer allows it. Participants of another implementation that uses the course: none; they open the implementation in the catalog or under "Educational products". | in the catalog or under `Courses > Active` via "Learn more", in the course via the link "Info page" in the toolbar. If a course belongs to an implementation of type Single course and to no other element in the Course Planner, the last two ways open the info page of the implementation. |
+| "My educational product" | of an implementation that is not of type Single course, only if participants can cancel | [Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking), if the offer allows it | in the catalog, under `Courses > Educational products` or in the scope with the name of the implementation under `Courses`, each via "Learn more" |
+
+What participants do on the info page is described in [General functions: Info page](../learningresources/General_Functions_Infopage.md#get_started_my_course).
+
 [To the top of the page ^](#implementations)
 
 ---
@@ -662,6 +679,7 @@ If you have already opened an implementation, you will also find the option to d
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
 [Course Planner: Overview >](Course_Planner/index.md)<br>
 [Course Planner: Import / Export >](Course_Planner_Import_Export/index.md)<br>
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>

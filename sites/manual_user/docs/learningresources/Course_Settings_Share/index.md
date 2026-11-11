@@ -195,7 +195,7 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 [How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [Navigation >](../../basic_concepts/Navigation.md)<br>
 [Course Settings - Tab Execution >](../Course_Settings_Execution.md)<br>
-[Offer concepts: Cancellation policy for invoice offers >](../../basic_concepts/Offer_Concepts.md)<br>
+[Offer concepts: Cancellation >](../../basic_concepts/Offer_Concepts.md)<br>
 [Roles and Rights: Which roles are available? >](../../basic_concepts/Roles/index.md)<br>
 [How can I have my courses found by search engines? >](../../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Module OAI-PMH >](../../../manual_admin/administration/Modules_OAI.md)<br>

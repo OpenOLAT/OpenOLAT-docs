@@ -13,6 +13,23 @@ Soll ein Kurs mehrfach und dabei immer gleich verwendet werden, legen Sie ihn al
 
 In der Regel verwenden alle Durchführungen eines Produkts dieselben Kurse. Sie können die Inhalte aber auch je Durchführung anpassen.
 
+Was eine Durchführung enthalten darf, bestimmt ihr Elementtyp. Den Typ wählen Sie beim Erstellen der Durchführung. Die Typen legen Systemadministrator:innen in der System-Administration fest: `Administration > Module > Course Planner > Tab "Elementtypen"`. Den Namen eines Typs vergeben sie frei. Ihre OpenOlat-Instanz kann deshalb andere Typnamen zeigen als das Bild unten.
+
+Eine Durchführung vom Typ Einzelkurs besteht aus genau einem Kurs, ohne weitere Elemente darunter. Für Teilnehmende sieht sie wie ein Kurs aus: Ihre Infoseite zeigt den Kasten "Mein Kurs", siehe [Welche Infoseite Teilnehmende sehen](#participant_info_page). Ob eine Durchführung vom Typ Einzelkurs ist, entscheidet nicht der Name ihres Typs, sondern zwei Einstellungen, die jeder Elementtyp hat: "Unterelemente" steht auf "Nein" (eigenständig, ohne Unterelemente), und "Inhalt" steht auf "Einzelkurs" (nur ein Kurs). Die Tabelle der Elementtypen zeigt beide Werte in den gleichnamigen Spalten.
+
+![Nur der Elementtyp in der letzten Zeile hat in der Spalte "Unterelemente" den Wert "Nein" und in der Spalte "Inhalt" den Wert "Einzelkurs"](assets/course_planner_implementations_element_types_v1_de.png){ class="shadow lightbox" title="Tab Elementtypen im Modul Course Planner · 2026.10.09" }
+
+### Welche Infoseite Teilnehmende sehen {: #participant_info_page}
+
+Teilnehmende kennen den Elementtyp einer Durchführung nicht. Sie sehen rechts auf der Infoseite einen von zwei Kästen. Die Tabelle zeigt, wann welcher Kasten erscheint und welche Schaltfläche zum Austreten darin steht:
+
+| Kasten rechts | Erscheint auf der Infoseite | Schaltfläche zum Austreten | Wo Teilnehmende die Infoseite öffnen |
+|---|---|---|---|
+| "Mein Kurs" | eines Kurses oder einer Durchführung vom Typ Einzelkurs | Teilnehmende, die nicht über eine Durchführung Mitglied des Kurses sind: [Kurs verlassen](../learningresources/General_Functions_Infopage.de.md#leave_course), wenn der Kurs es erlaubt. Teilnehmende einer Durchführung vom Typ Einzelkurs: [Buchung stornieren](../learningresources/General_Functions_Infopage.de.md#cancel_booking), wenn das Angebot es erlaubt. Teilnehmende einer anderen Durchführung, die den Kurs verwendet: keine; sie öffnen die Durchführung im Katalog oder unter "Bildungsprodukte". | im Katalog oder unter `Kurse > Aktiv` über "Mehr erfahren", im Kurs über den Link "Infoseite" der Toolbar. Gehört ein Kurs zu einer Durchführung vom Typ Einzelkurs und zu keinem weiteren Element im Course Planner, öffnen die beiden letzten Wege die Infoseite der Durchführung. |
+| "Mein Bildungsprodukt" | einer Durchführung, die nicht vom Typ Einzelkurs ist, nur wenn Teilnehmende stornieren können | [Buchung stornieren](../learningresources/General_Functions_Infopage.de.md#cancel_booking), wenn das Angebot es erlaubt | im Katalog, unter `Kurse > Bildungsprodukte` oder im Bereich mit dem Namen der Durchführung unter `Kurse`, jeweils über "Mehr erfahren" |
+
+Was Teilnehmende auf der Infoseite tun, beschreibt [Allgemeine Funktionen: Infoseite](../learningresources/General_Functions_Infopage.de.md#get_started_my_course).
+
 [zum Seitenanfang ^](#implementations)
 
 ---
@@ -679,6 +696,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
 [Course Planner: Übersicht >](Course_Planner/index.de.md)<br>
 [Course Planner: Import / Export >](Course_Planner_Import_Export/index.de.md)<br>
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>

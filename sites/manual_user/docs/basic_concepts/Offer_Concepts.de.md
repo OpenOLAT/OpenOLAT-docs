@@ -260,9 +260,17 @@ Organisationen definieren und benennen eigene Kreditpunktesysteme und schränken
 
 ## Stornierung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"} {: #offer_cancellation}
 
-Kann eine Person an einer gebuchten Durchführung doch nicht teilnehmen, storniert sie ihre Buchung selbst, wenn das Angebot es erlaubt. Sie braucht dafür keine Hilfe der Verwaltung und wählt auf der Infoseite der Durchführung "Buchung stornieren", siehe [Buchung stornieren](../learningresources/General_Functions_Infopage.de.md#cancel_booking).
+Kann eine Person an einer gebuchten Durchführung doch nicht teilnehmen, storniert sie ihre Buchung selbst, wenn das Angebot es erlaubt. Sie braucht dafür keine Hilfe der Verwaltung. Stornieren lässt sich eine Buchung nur bei einem Angebot einer Durchführung. Bei Kursen und Gruppen treten Teilnehmende stattdessen aus, wenn der Kurs oder die Gruppe es erlaubt:
 
-Ob und bis wann Teilnehmende stornieren, legen Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen im Angebot der Durchführung fest. Die Einstellung hängt von der Angebotsart ab. Einen Kurs, den sie über ein Kursangebot gebucht haben, verlassen Teilnehmende stattdessen mit [Kurs verlassen](../learningresources/General_Functions_Infopage.de.md#leave_course), wenn der Kurs es erlaubt.
+| Angebot in | Was Teilnehmende tun | Wer es erlaubt | Wo Teilnehmende es finden |
+|---|---|---|---|
+| Durchführung im Course Planner | Buchung stornieren | Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen im Angebot der Durchführung, siehe die Abschnitte unten | Infoseite der Durchführung, Kasten "Mein Bildungsprodukt", bei einer Durchführung vom Typ Einzelkurs Kasten "Mein Kurs", siehe [Buchung stornieren](../learningresources/General_Functions_Infopage.de.md#cancel_booking) |
+| Kurs | Kurs verlassen | Besitzer:innen des Kurses mit "Teilnehmer:innen können austreten" unter `Kurs > Administration > Einstellungen > Tab "Freigabe"` | Infoseite des Kurses, Kasten "Mein Kurs", siehe [Kurs verlassen](../learningresources/General_Functions_Infopage.de.md#leave_course) |
+| Gruppe | Gruppe verlassen | Betreuer:innen der Gruppe mit "Teilnehmer:innen können Gruppe verlassen" unter `Gruppe > Administration > Tab "Mitglieder"` | Spalte "Verlassen" in der Liste unter `Gruppen`, siehe [Gruppe verlassen](../groups/Leave_a_Group.de.md) |
+
+Die folgenden Abschnitte richten sich an Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen. Ob und bis wann Teilnehmende stornieren, hängt von der Angebotsart und ihrer Einstellung ab. Die Grafik zeigt die Fälle auf einer Zeitachse:
+
+![Zeitachse: wie lange Teilnehmende ihre Buchung je Angebotsart und Einstellung stornieren](assets/offer_concepts_cancellation_timeline_v1_de.svg){ class="shadow lightbox" title="Stornierung je Angebotsart und Einstellung · 2026.11.11" }
 
 ### Frei verfügbar und Zugangscode [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"} {: #offer_cancellation_free_token}
 
@@ -360,7 +368,8 @@ Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Ben
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)<br>
-[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)
+[Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
+[Gruppe verlassen >](../groups/Leave_a_Group.de.md)
 
 **Weiterführend**<br>
 [Wie zeige ich meine Kurse im OpenOlat-Katalog? >](../../manual_how-to/catalog/catalog.de.md)<br>
