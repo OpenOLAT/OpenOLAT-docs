@@ -90,7 +90,7 @@ Five entries are mandatory and marked with an asterisk:
 | Field | What goes in it |
 |---|---|
 | "Learning objective" | What learners should demonstrate with their answer, in one sentence. |
-| "Reference excerpt" | The subject content the question is based on. The AI uses it as a reference. |
+| "Reference excerpt" | The passage from the source text the question is based on. The source text is the text your learners work through, for example a script. The AI uses the passage as a reference. |
 | "Model answer" | The expected answer in the length and language you expect from learners. |
 | "Bloom level" | The cognitive level of the question: "Remember", "Understand", "Apply", "Analyse", "Evaluate" or "Create". |
 | "Language (BCP-47)" | The language in which learners are to answer, as a language tag such as `de`, `en` or `fr`. Enter the language tag without region, for example `en`. OpenOlat prefills the empty field with the language of your user interface. If learners answer in a different language, the AI feedback points this out. |
@@ -188,10 +188,10 @@ Under **"Detailed feedback"** further sections can be expanded: "What went well"
 
 ## Creating questions via import {: #import}
 
-Instead of writing the question by hand, you can have it generated from a subject text.
+Instead of writing the question by hand, you can have it generated from a source text, for example from the script for your course.
 
 1. In the Content Editor, click **"Import"**.
-2. Select a Markdown, text or Word file, or paste the text directly.
+2. Select a Markdown, text or Word file with the source text, or select "Paste text" and paste the source text into the input field.
 3. Leave the "Add AI generated Quiz" switch on, it is on when the dialog opens. The "Generate image metadata with AI" switch only concerns the images in the imported file: OpenOlat generates a title, description, alternative text and tags for them.
 4. In the "Essay question with AI correction" field, set how many essay questions are created. Up to five are allowed. The "MC question" field sets the number of multiple-choice questions and can stay at 0.
 5. Select the "Bloom levels" and the "Target difficulty", and enter "Learning objectives" if needed, one objective per line.<br><br>
@@ -201,7 +201,7 @@ Instead of writing the question by hand, you can have it generated from a subjec
 
 The AI pre-fills the grading kit of the generated questions. Check each question for content and refine the kit in the "AI feedback" tab.
 
-The same path exists in the [Question bank](../../manual_user/area_modules/Question_Bank_Create_Questions.md#create_with_AI) via the "AI questions" entry. Questions created there receive the status "Review" and can then be taken into a Quiz.
+The same path exists in the [Question bank](../../manual_user/area_modules/Question_Bank_Create_Questions.md#create_with_AI) via the "AI questions" button. Questions created there receive the status "Review" and can then be taken into a Quiz.
 
 [To the top of the page ^](#ai_essay)
 

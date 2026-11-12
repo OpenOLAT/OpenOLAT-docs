@@ -32,16 +32,18 @@ In the question bank, questions can also be created with the help of artificial 
 
     This function is only available if the [AI module](../../manual_admin/administration/External_Tools_AI.md) is enabled in the system administration and at least one matching AI feature is configured with an AI provider and model: "MC Question Generator" for multiple-choice questions, and "Essay Question Generator" and "Essay Grading" for essay questions with AI correction.
 
-You choose one of two modes as source material:
+The AI generates the questions from a source text: the text your learners work through, for example a script, a chapter or a fact sheet. The AI cannot ask about anything that is not in it.
 
-* **"Upload file"**: a Markdown, plain text or Word file (.docx).
-* **"Paste text"**: you paste the source text directly into the input field.
+You provide the source text in one of two modes:
 
-How long the source text may be is set by the system administration in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), 60000 characters by default [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. The dialog states the applicable limit and rejects texts that are too long.
+* **"Upload file"**: you upload the source text as a Markdown, plain text or Word file (.docx), for example your script.
+* **"Paste text"**: you paste the source text into the "Source text" field.
 
-You then define how many questions are generated: "Multiple-choice questions" and, when AI correction is configured, "Essay questions with AI correction" [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"}. The AI suggests sensible values based on the text length, which you can adjust. Start the process with "Generate questions".
+How long the source text may be is set by the system administration in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), 60000 characters by default [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. If "MC Question Generator" and "Essay Question Generator" are both active, the smaller of the two values applies. The dialog states the applicable limit and rejects texts that are too long.
 
-Generation runs in the background. You can leave the dialog open or close it; the new questions appear in the question bank once they are ready. They are created in the language of the inserted source text [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. AI-generated questions receive the "Review" status so they are checked before reuse.
+You then define how many questions are generated: "Multiple-choice questions" and, when AI correction is configured, "Essay questions with AI correction" [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"}. The AI suggests sensible values based on the length of the source text, which you can adjust. With the fields "Bloom levels", "Target difficulty" and "Learning objectives (optional)" you steer which questions are created, as with the [import in the Content Editor](../basic_concepts/Content_Editor.md#import_ai_quiz); the Bloom levels "Understand" and "Apply" are preselected. Start the process with "Generate questions".
+
+Generation runs in the background. You can leave the dialog open or close it; the new questions appear in the question bank once they are ready. They are created in the language of the source text [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. AI-generated questions receive the "Review" status so they are checked before reuse.
 
 Please note that the questions must be checked for correctness in each individual case.
 
@@ -54,7 +56,7 @@ For essay questions with AI correction, a grading kit defines how the AI assesse
 Five entries are mandatory and carry an asterisk: "Learning objective", "Reference excerpt", "Model answer", "Bloom level" and "Language (BCP-47)". All other entries are optional, including the key points and the rubric criteria.
 
 * **"Learning objective"**: the learning objective the question tests.
-* **"Reference excerpt"**: the subject text the question refers to.
+* **"Reference excerpt"**: the passage from the source text the question is based on, for example a paragraph from the script. The AI uses it as a reference when it assesses an answer.
 * **"Model answer"**: the expected reference answer.
 * **"Grading hints"**: additional instructions for the AI.
 * **"Bloom level"**: the cognitive level of the question.

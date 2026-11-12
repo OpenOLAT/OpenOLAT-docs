@@ -97,7 +97,7 @@ The benefit of these features for authors and the places where they take effect 
 
 ![Taxonomy Matching and Image Description Generator, highlighted the switch Default for users, which decides whether the feature runs for people without a choice of their own](assets/admin_external_tools_ai_functions_v3_en.png){ class="shadow lightbox" title="AI features tab of the AI module, top · 2026.10.20" }
 
-For the MC Question Generator you copy a subject-specific text into the designated input field. OpenOlat generates, for example, multiple-choice questions with answer options from it and pre-fills a range of metadata for each question (keywords, topic and taxonomy).
+Authors use the MC Question Generator in the question bank. They give it a source text: the text their learners work through, for example a script. OpenOlat generates multiple-choice questions with answer options from it and pre-fills a range of metadata for each question (keywords, topic and taxonomy).
 
 For each feature except Taxonomy Matching, the "Run test" link shows an AI-generated sample. The link appears as soon as a provider and a model are selected.
 
@@ -129,7 +129,7 @@ For each AI feature you additionally define how much text is sent to the model, 
 
 * **"Maximum output tokens"**: limits how much text the model may produce. A reasoning model uses part of it to think before answering. If the value is too small, nothing is left for the answer and the call fails. Smallest permitted value: 1024.
 * **"Timeout (seconds)"**: defines how long OpenOlat waits for the response of the AI provider before the call is cancelled. Reasoning models and self-hosted models take considerably longer than models in the cloud. Smallest permitted value: 10.
-* **"Maximum input characters"**: limits the source text that is sent to the model for question generation. Smallest permitted value: 1000.
+* **"Maximum input characters"**: limits the length of the source text from which the AI generates questions, that is, the text authors give it as a basis. Smallest permitted value: 1000.
 * **"Maximum input words"**: limits the number of words of an answer that is accepted for essay grading. OpenOlat rejects longer answers with an error message before it calls the AI. The message states the configured value. Smallest permitted value: 50.
 
 The default values per feature:

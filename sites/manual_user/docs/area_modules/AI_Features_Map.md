@@ -30,7 +30,7 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 <rect class="card" x="40" y="60" width="470" height="200" rx="12" fill="#FFFDFA" stroke="#C06613" stroke-width="2"/>
 <rect x="40" y="60" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="68" y="90" class="place">QUESTION BANK</text>
-<text x="68" y="122" class="out">Questions from a subject text</text>
+<text x="68" y="122" class="out">Questions from a source text</text>
 <text x="68" y="152" class="body">Paste a text and the AI suggests multiple-choice</text>
 <text x="68" y="175" class="body">and essay questions with grading criteria.</text>
 <text x="68" y="198" class="body">Answers receive formative AI feedback.</text>

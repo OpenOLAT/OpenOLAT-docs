@@ -30,7 +30,7 @@ KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat,
 <rect class="card" x="40" y="60" width="470" height="200" rx="12" fill="#FFFDFA" stroke="#C06613" stroke-width="2"/>
 <rect x="40" y="60" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="68" y="90" class="place">FRAGENPOOL</text>
-<text x="68" y="122" class="out">Fragen aus einem Fachtext</text>
+<text x="68" y="122" class="out">Fragen aus einem Lerntext</text>
 <text x="68" y="152" class="body">Text einfügen, die KI schlägt Multiple-Choice- und</text>
 <text x="68" y="175" class="body">Freitextfragen samt Bewertungskriterien vor. Die</text>
 <text x="68" y="198" class="body">Antworten erhalten ein formatives KI-Feedback.</text>

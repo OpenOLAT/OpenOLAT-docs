@@ -90,7 +90,7 @@ Fünf Angaben sind Pflicht und mit einem Stern markiert:
 | Feld | Was hineingehört |
 |---|---|
 | "Lernziel" | Was die Lernenden mit der Antwort zeigen sollen, in einem Satz. |
-| "Quelltext-Auszug" | Der Fachinhalt, auf dem die Frage beruht. Die KI nutzt ihn als Referenz. |
+| "Quelltext-Auszug" | Der Abschnitt aus dem Lerntext, auf dem die Frage beruht. Der Lerntext ist der Text, den Ihre Lernenden durcharbeiten, etwa ein Skript. Die KI nutzt den Abschnitt als Referenz. |
 | "Musterantwort" | Die erwartete Antwort in der Länge und Sprache, die Sie von Lernenden erwarten. |
 | "Bloom-Stufe" | Die kognitive Stufe der Frage: "Erinnern", "Verstehen", "Anwenden", "Analysieren", "Bewerten" oder "Erschaffen". |
 | "Sprache (BCP-47)" | Die Sprache, in der Lernende antworten sollen, als Sprach-Tag wie `de`, `en` oder `fr`. Tragen Sie den Sprach-Tag ohne Region ein, etwa `en`. OpenOlat belegt das leere Feld mit der Sprache Ihrer Benutzeroberfläche vor. Antworten Lernende in einer anderen Sprache, weist das KI-Feedback darauf hin. |
@@ -188,10 +188,10 @@ Unter **"Detailliertes Feedback"** lassen sich weitere Abschnitte aufklappen: "W
 
 ## Fragen per Import erzeugen {: #import}
 
-Statt die Frage von Hand zu schreiben, lassen Sie sie aus einem Fachtext erzeugen.
+Statt die Frage von Hand zu schreiben, lassen Sie sie aus einem Lerntext erzeugen, etwa aus dem Skript zu Ihrem Kurs.
 
 1. Klicken Sie im Content Editor auf **"Importieren"**.
-2. Wählen Sie eine Markdown-, Text- oder Word-Datei, oder fügen Sie den Text direkt ein.
+2. Wählen Sie eine Markdown-, Text- oder Word-Datei mit dem Lerntext, oder wählen Sie "Text einfügen" und fügen Sie den Lerntext in das Eingabefeld ein.
 3. Lassen Sie den Schalter "KI-generiertes Quiz hinzufügen" eingeschaltet, so ist er beim Öffnen des Dialogs gesetzt. Der Schalter "Bild-Metadaten mit KI generieren" betrifft nur die Bilder der importierten Datei: OpenOlat erzeugt dafür Titel, Beschreibung, Alternativtext und Tags.
 4. Legen Sie im Feld "Essay-Frage mit KI-Korrektur" fest, wie viele Freitextfragen entstehen. Erlaubt sind bis zu fünf. Das Feld "MC-Fragen" steuert die Anzahl der Multiple-Choice-Fragen und kann auf 0 bleiben.
 5. Wählen Sie die "Bloom-Stufen" und die "Zielschwierigkeit", und erfassen Sie bei Bedarf "Lernziele", ein Ziel pro Zeile.<br><br>
@@ -201,7 +201,7 @@ Statt die Frage von Hand zu schreiben, lassen Sie sie aus einem Fachtext erzeuge
 
 Die KI füllt das Bewertungskit der erzeugten Fragen vor. Prüfen Sie jede Frage inhaltlich und schärfen Sie das Kit im Tab "KI-Feedback" nach.
 
-Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md#create_with_AI) über den Eintrag "KI Fragen". Dort erzeugte Fragen erhalten den Status "Review" und lassen sich anschliessend in ein Quiz übernehmen.
+Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md#create_with_AI) über den Button "KI Fragen". Dort erzeugte Fragen erhalten den Status "Review" und lassen sich anschliessend in ein Quiz übernehmen.
 
 [Zum Seitenanfang ^](#ai_essay)
 

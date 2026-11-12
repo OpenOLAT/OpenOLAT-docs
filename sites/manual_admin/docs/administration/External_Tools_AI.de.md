@@ -99,7 +99,7 @@ Welchen Nutzen diese Funktionen für Autor:innen haben und an welchen Orten sie 
 
 ![Taxonomie-Zuordnung und Bildbeschreibungs-Generator, markiert der Schalter Vorgabe für Personen, mit dem Sie festlegen, ob die Funktion für Personen ohne eigene Wahl läuft](assets/admin_external_tools_ai_functions_v3_de.png){ class="shadow lightbox" title="Tab KI-Funktionen im KI-Modul, oben · 2026.10.20" }
 
-Beim MC Fragen Generator kopieren Sie einen Fachtext in das vorgesehene Eingabefeld. OpenOlat erstellt daraus z.B. Multiple-Choice-Fragen mit Antwortmöglichkeiten und füllt eine Reihe von Metadaten der einzelnen Fragen vor (Schlagworte, Thema und Taxonomie).
+Den MC Fragen Generator nutzen Autor:innen im Fragenpool. Sie geben ihm einen Lerntext (in OpenOlat "Quelltext") vor: den Text, den ihre Lernenden durcharbeiten, etwa ein Skript. OpenOlat erstellt daraus Multiple-Choice-Fragen mit Antwortmöglichkeiten und füllt eine Reihe von Metadaten der einzelnen Fragen vor (Schlagworte, Thema und Taxonomie).
 
 Zu jeder Funktion ausser der Taxonomie-Zuordnung zeigt der Link "Test ausführen" ein KI-generiertes Muster. Der Link erscheint, sobald Anbieter und Modell gewählt sind.
 
@@ -131,7 +131,7 @@ Pro KI-Funktion legen Sie zusätzlich fest, wie viel Text an das Modell gesendet
 
 * **"Maximale Anzahl Ausgabe-Tokens"**: begrenzt, wie viel Text das Modell erzeugen darf. Ein Reasoning-Modell verbraucht einen Teil davon, um vor der Antwort nachzudenken. Ist der Wert zu klein, bleibt für die Antwort nichts übrig und der Aufruf schlägt fehl. Kleinster zulässiger Wert: 1024.
 * **"Timeout (Sekunden)"**: legt fest, wie lange OpenOlat auf die Antwort des KI-Anbieters wartet, bevor der Aufruf abgebrochen wird. Reasoning-Modelle und selbst gehostete Modelle brauchen deutlich länger als Modelle in der Cloud. Kleinster zulässiger Wert: 10.
-* **"Maximale Anzahl Eingabezeichen"**: begrenzt den Quelltext, der zur Fragengenerierung an das Modell gesendet wird. Kleinster zulässiger Wert: 1000.
+* **"Maximale Anzahl Eingabezeichen"**: begrenzt die Länge des Lerntexts ("Quelltext"), aus dem die KI Fragen erzeugt, also des Texts, den Autor:innen ihr als Grundlage geben. Kleinster zulässiger Wert: 1000.
 * **"Maximale Anzahl Eingabewörter"**: begrenzt die Anzahl Wörter einer Antwort, die zur Essay Bewertung angenommen wird. Längere Antworten lehnt OpenOlat mit einer Fehlermeldung ab, bevor es die KI aufruft. Die Meldung nennt den eingestellten Wert. Kleinster zulässiger Wert: 50.
 
 Die Standardwerte je Funktion:
