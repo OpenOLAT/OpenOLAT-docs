@@ -1,8 +1,8 @@
 # Kurseinstellungen - Tab Freigabe {: #tab_share}
 
-Im Tab Freigabe legen Sie fest, wer Ihren Kurs nutzt und wer ihn verwaltet: woher die Mitglieder kommen, ob Teilnehmende den Kurs selbst buchen und welche Organisationen administrativ darauf zugreifen. Sie öffnen den Tab unter `Kurs > Administration > Einstellungen > Tab "Freigabe"`.
+Im Tab Freigabe legen Sie fest, wer Ihren Kurs nutzt und wer ihn verwaltet: woher die Mitglieder kommen, ob Teilnehmende den Kurs selbst buchen und welche Organisationen administrativ darauf zugreifen. Sie öffnen den Tab unter `Kurs > Administration > Einstellungen > Tab "Freigabe"`. Das Menü "Einstellungen" steht Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung, ausserdem Personen mit dem Recht "Kurseditor".
 
-![Über das Werkzeug-Menü Administration und den Eintrag Einstellungen erreichen Sie die Einstellungs-Tabs, darunter den Tab Freigabe](../assets/course_settings_share_entry_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses" }
+![Über das Werkzeug-Menü Administration und den Eintrag Einstellungen erreichen Sie die Einstellungs-Tabs, darunter den Tab Freigabe](../assets/course_settings_share_entry_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.11.12" }
 
 Im Tab Freigabe finden Sie diese Abschnitte. Welche davon ein Kurs tatsächlich zeigt, hängt an seinem Verwendungszweck: siehe [Welche Abschnitte erscheinen?](#sections_by_usage)
 
@@ -37,7 +37,7 @@ Bei einem Kurs im Course Planner bleibt im Abschnitt Freigabe deshalb nur die Ad
 
 !!! info "Wichtig"
 
-    Der Abschnitt Externe OER-Kataloge und Suchmaschinen erscheint zusätzlich nur, wenn das Modul OAI-PMH aktiviert ist, und die Administrative Freigabe nur, wenn das Modul Organisationen aktiviert ist. Den Verwendungszweck "Verwendung im Course Planner" gibt es nur, wenn das Modul Course Planner aktiviert ist.
+    Der Abschnitt Externe OER-Kataloge und Suchmaschinen erscheint zusätzlich nur, wenn das Modul OAI-PMH aktiviert ist, und die Administrative Freigabe nur, wenn das Modul Organisationen aktiviert ist. Den Verwendungszweck "Verwendung im Course Planner" gibt es nur, wenn das Modul Course Planner aktiviert ist. Den Abschnitt LTI 1.3 Zugangskonfiguration sehen Administrator:innen immer, Kursbesitzer:innen nur, wenn die System-Administration die LTI-Freigabe mit "Für alle Kurse aktivieren" erlaubt oder im Kurs die Option "'LTI 1.3'-Freigabe für Kursbesitzer:innen mit Autorenrecht aktivieren" eingeschaltet ist.
 
 Die Beschreibungen der folgenden Abschnitte gehen vom Verwendungszweck "Eigenständig" aus.
 
@@ -146,19 +146,21 @@ Admin-Handbuch: [Modul OAI PMH >](../../../manual_admin/administration/Modules_O
 
 ## Abschnitt Angebot [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
 
-![Solange der Zugang für Teilnehmer:innen auf Privat steht, ist der Button Angebot hinzufügen inaktiv, und der Abschnitt nennt den Grund](../assets/course_settings_share_offer_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe · 2026.10.09" }
-
 Damit ein Kurs im Katalog erscheint, erstellen Sie ein Angebot. Soll derselbe Kurs zu verschiedenen Bedingungen buchbar sein, erstellen Sie mehrere Angebote, zum Beispiel kostenlos für eine bestimmte Zielgruppe und kostenpflichtig für andere.
 
-Angebote erstellen Sie, sobald im Abschnitt "Freigabe" bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt ist. Solange "Privat" gewählt ist, zeigt der Abschnitt eine einzige Überschrift "Angebot" mit dem inaktiven Button "Angebot hinzufügen".
+Angebote erstellen Sie, sobald weiter oben im selben Tab im [Abschnitt Freigabe](#section_share_access) bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt ist. Solange "Privat" gewählt ist, zeigt der Abschnitt eine einzige Überschrift "Angebot" mit dem inaktiven Button "Angebot hinzufügen" und dem Hinweis, dass der Zugang auf "privat" gestellt ist.
+
+![Solange der Zugang für Teilnehmer:innen auf Privat steht, ist der Button Angebot hinzufügen inaktiv, und der Abschnitt nennt den Grund](../assets/course_settings_share_offer_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe · 2026.10.09" }
 
 Mit "Buchbare und offene Angebote" trägt der Abschnitt zwei Überschriften "Angebot". Die obere eröffnet den Abschnitt und zeigt, wo der Kurs angeboten wird. Die untere steht über den Angeboten selbst.
 
 **Obere Überschrift "Angebot"**<br>
-Der Kasten "Übersicht" zeigt bei "Interner Katalog" und, wenn der externe Katalog eingeschaltet ist, bei "Externer Katalog", ob der Kurs dort "Buchbar" oder "Nicht verfügbar" ist. Unter "Angebot in Fachbereiche" stehen die Fachbereiche aus dem Tab "Metadaten", der Link "Metadaten öffnen" führt dorthin. Unter "Zugang" öffnet der Link "Links" die Adressen des Kurses im internen und externen Katalog. Ist der Katalog 1.0 eingeschaltet, nennt der Kasten statt der Fachbereiche unter "Katalog" die Kategorien, in denen der Kurs eingetragen ist. Ist in der System-Administration die Sortierung nach Priorität eingeschaltet, folgt der Abschnitt "Einstellungen" mit der [Katalog-Priorität bei Sortierung](../../area_modules/catalog2.0_sort_offers.de.md#sorting_microsites_define_priority).
+Der Kasten "Übersicht" zeigt bei "Interner Katalog" und, wenn der externe Katalog eingeschaltet ist, bei "Externer Katalog", ob der Kurs dort "Buchbar" oder "Nicht verfügbar" ist. Unter "Angebot in Fachbereiche" stehen die Fachbereiche aus dem Tab "Metadaten", der Link "Metadaten öffnen" führt dorthin. Unter "Zugang" öffnet der Link "Links" die Adressen des Kurses im internen und externen Katalog. Ist der Katalog 1.0 eingeschaltet, nennt der Kasten statt der Fachbereiche unter "Katalog" die Kategorien, in denen der Kurs eingetragen ist. Ist die Sortierung nach Priorität eingeschaltet, folgt der Abschnitt "Einstellungen" mit der [Katalog-Priorität bei Sortierung](../../area_modules/catalog2.0_sort_offers.de.md#sorting_microsites_define_priority). Den externen Katalog (Schalter "Web-Katalog") und die Sortierung nach Priorität schalten Systemadministrator:innen in der System-Administration ein: `Administration > Module > Katalog > Tab "Einstellungen"`.
 
 **Untere Überschrift "Angebot"**<br>
-Hier erstellen Sie mit dem Button "Angebot hinzufügen" ein neues Angebot. Darunter steht jedes Angebot in einem eigenen Kasten, mit den Links "Angebot editieren" und "Angebot löschen". Hat der Kurs noch kein Angebot, steht dort "Noch kein Angebot erstellt", und die Angebotsarten stehen zusätzlich als eigene Buttons bereit.
+Hier erstellen Sie mit dem Button "Angebot hinzufügen" ein neues Angebot. Über den Pfeil neben dem Button wählen Sie die Angebotsart direkt aus. Darunter steht jedes Angebot in einem eigenen Kasten, mit den Links "Angebot editieren" und "Angebot löschen". Jeder Kasten nennt unter "Veröffentlicht in" den Katalog, unter "Freigegeben für" die Organisationen und unter "Verfügbar wenn" die Bedingung, ab der das Angebot gilt, etwa den Status des Kurses. Rechts oben im Kasten steht der Status des Angebots, zum Beispiel "Buchbar". Hat der Kurs noch kein Angebot, steht unter der unteren Überschrift "Noch kein Angebot erstellt", und die Angebotsarten stehen zusätzlich als eigene Buttons bereit.
+
+![Zwei Überschriften Angebot: oben die Übersicht mit dem Status im Katalog, unten der Button Angebot hinzufügen über dem Angebot Frei verfügbar](../assets/course_settings_share_offer_bookable_v1_de.png){ class="shadow lightbox" title="Abschnitt Angebot eines buchbaren Kurses im Tab Freigabe · 2026.11.12" }
 
 Für ein neues Angebot führt der Weg deshalb zum Button unter der unteren Überschrift:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`
@@ -208,7 +210,7 @@ Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produk
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Navigation >](../../basic_concepts/Navigation.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../Course_Settings_Execution.de.md)<br>
-[Angebotskonzepte: Stornierung >](../../basic_concepts/Offer_Concepts.de.md)<br>
+[Angebotskonzepte >](../../basic_concepts/Offer_Concepts.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles/index.de.md)<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>
 [Modul OAI PMH >](../../../manual_admin/administration/Modules_OAI.de.md)<br>

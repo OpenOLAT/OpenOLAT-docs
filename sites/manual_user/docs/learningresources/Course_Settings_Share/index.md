@@ -1,8 +1,8 @@
 # Course settings - Tab Share {: #tab_share}
 
-In the Share tab, you define who uses your course and who manages it: where the members come from, whether participants book the course themselves and which organisations have administrative access to it. You open the tab under `Course > Administration > Settings > Tab "Share"`.
+In the Share tab, you define who uses your course and who manages it: where the members come from, whether participants book the course themselves and which organisations have administrative access to it. You open the tab under `Course > Administration > Settings > Tab "Share"`. The "Settings" menu is available to owners of the course, learning resource managers and administrators, and also to persons with the "Course editor" right.
 
-![Via the Administration tool menu and the Settings entry you reach the settings tabs, among them the Share tab](../assets/course_settings_share_entry_v1_en.png){ class="shadow lightbox" title="Administration menu of a course" }
+![Via the Administration tool menu and the Settings entry you reach the settings tabs, among them the Share tab](../assets/course_settings_share_entry_v2_en.png){ class="shadow lightbox" title="Administration menu of a course · 2026.11.12" }
 
 In the Share tab, you will find these sections. Which of them a course actually shows depends on its usage: see [Which sections appear?](#sections_by_usage)
 
@@ -37,7 +37,7 @@ For a course in the Course Planner, only the administrative access therefore rem
 
 !!! info "Important"
 
-    The External OER catalogues and search engines section additionally appears only if the OAI-PMH module is activated, and the administrative access only if the Organisations module is activated. The usage "Use in Course Planner" exists only if the Course Planner module is activated.
+    The External OER catalogues and search engines section additionally appears only if the OAI-PMH module is activated, and the administrative access only if the Organisations module is activated. The usage "Use in Course Planner" exists only if the Course Planner module is activated. Administrators always see the LTI 1.3 access configuration section. Course owners only see it if the system administration allows the LTI release with "Activate for all courses" or if the option "Activate 'LTI 1.3' release for course owners with author role" is switched on in the course.
 
 The descriptions of the following sections assume the usage "Standalone".
 
@@ -137,7 +137,7 @@ This requires the OAI-PMH module, which your administration switches on. OpenOla
 
 Find out more about OER here:<br>
 How-to: [Release courses for indexing >](../../../manual_how-to/oai_pmh/oai_pmh.md#how-do-i-see-in-the-authoring-area-which-courseslearning-resources-are-enabled-for-indexing)<br>
-Admin Manual: [Modul OAI PMH >](../../../manual_admin/administration/Modules_OAI.md)
+Admin Manual: [Module OAI-PMH >](../../../manual_admin/administration/Modules_OAI.md)
 
 [To the top of the page ^](#tab_share)
 
@@ -145,19 +145,21 @@ Admin Manual: [Modul OAI PMH >](../../../manual_admin/administration/Modules_OAI
 
 ## Section Offer [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141) {: #section_offer}
 
-![As long as access for participants is set to Private, the Add offer button is inactive, and the section states the reason](../assets/course_settings_share_offer_v2_en.png){ class="shadow lightbox" title="Offer section in the Share tab · 2026.10.09" }
-
 For a course to appear in the catalog, you create an offer. If the same course is to be bookable under different conditions, you create several offers, for example free of charge for a specific target group and subject to a fee for others.
 
-You create offers as soon as the option "Bookable and open offers" is selected in the "Share" section under "Access for participants". As long as "Private" is selected, the section shows a single heading "Offer" with the inactive button "Add offer".
+You create offers as soon as the option "Bookable and open offers" is selected further up in the same tab, in the [Share section](#section_share_access) under "Access for participants". As long as "Private" is selected, the section shows a single heading "Offer" with the inactive button "Add offer" and a note that access is set to "private".
+
+![As long as access for participants is set to Private, the Add offer button is inactive, and the section states the reason](../assets/course_settings_share_offer_v2_en.png){ class="shadow lightbox" title="Offer section in the Share tab · 2026.10.09" }
 
 With "Bookable and open offers", the section carries two headings "Offer". The upper one opens the section and shows where the course is offered. The lower one stands above the offers themselves.
 
 **Upper heading "Offer"**<br>
-The "Overview" box shows for "Internal catalog" and, if the external catalog is switched on, for "External catalog" whether the course is "Bookable" or "Not available" there. "Offered in subjects" lists the subjects from the "Metadata" tab, and the link "Open metadata" leads there. Under "Access", the link "Links" opens the addresses of the course in the internal and external catalog. If catalog 1.0 is switched on, the box lists under "Catalog" the categories in which the course is entered, instead of the subjects. If sorting by priority is switched on in the system administration, the "Settings" section follows with the [catalog priority when sorting](../../area_modules/catalog2.0_sort_offers.md#sorting_microsites_define_priority).
+The "Overview" box shows for "Internal catalog" and, if the external catalog is switched on, for "External catalog" whether the course is "Bookable" or "Not available" there. "Offered in subjects" lists the subjects from the "Metadata" tab, and the link "Open metadata" leads there. Under "Access", the link "Links" opens the addresses of the course in the internal and external catalog. If catalog 1.0 is switched on, the box lists under "Catalog" the categories in which the course is entered, instead of the subjects. If sorting by priority is switched on, the "Settings" section follows with the [catalog priority when sorting](../../area_modules/catalog2.0_sort_offers.md#sorting_microsites_define_priority). System administrators switch on the external catalog (switch "Web catalog") and sorting by priority in the system administration: `Administration > Modules > Catalog > Tab "Settings"`.
 
 **Lower heading "Offer"**<br>
-Here you create a new offer with the button "Add offer". Below it, each offer stands in a box of its own, with the links "Edit offer" and "Delete offer". If the course has no offer yet, "No offer created yet" appears there, and the offer types are also available as separate buttons.
+Here you create a new offer with the button "Add offer". With the arrow next to the button, you choose the offer type directly. Below it, each offer stands in a box of its own, with the links "Edit offer" and "Delete offer". Each box lists the catalog under "Published in", the organisations under "Released for" and the condition under "Available if" from which the offer applies, for example the status of the course. At the top right of the box is the status of the offer, for example "Bookable". If the course has no offer yet, "No offer created yet" appears under the lower heading, and the offer types are also available as separate buttons.
+
+![Two Offer headings: above, the overview with the status in the catalog; below, the Add offer button above the offer Freely available](../assets/course_settings_share_offer_bookable_v1_en.png){ class="shadow lightbox" title="Offer section of a bookable course in the Share tab · 2026.11.12" }
 
 For a new offer, the path therefore leads to the button under the lower heading:<br>
 `Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`
@@ -206,12 +208,12 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 [How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [Navigation >](../../basic_concepts/Navigation.md)<br>
 [Course Settings - Tab Execution >](../Course_Settings_Execution.md)<br>
-[Offer concepts: Cancellation >](../../basic_concepts/Offer_Concepts.md)<br>
+[Offer concepts >](../../basic_concepts/Offer_Concepts.md)<br>
 [Roles and Rights: Which roles are available? >](../../basic_concepts/Roles/index.md)<br>
 [How can I have my courses found by search engines? >](../../../manual_how-to/oai_pmh/oai_pmh.md)<br>
 [Module OAI-PMH >](../../../manual_admin/administration/Modules_OAI.md)<br>
 [Catalog 2.0 - Sorting/order >](../../area_modules/catalog2.0_sort_offers.md)<br>
-[Catalog 2.0 - Overview >](../../area_modules/catalog2.0/index.md)<br>
+[Catalog 2.0: Overview >](../../area_modules/catalog2.0/index.md)<br>
 [Offer types >](../Offer_Types.md)<br>
 [Catalog 2.0 - Offers >](../../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../../area_modules/Course_Planner_Implementations.md)<br>
