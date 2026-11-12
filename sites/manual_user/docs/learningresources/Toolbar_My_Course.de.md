@@ -1,16 +1,18 @@
 # Toolbar: Mein Kurs {: #my_course}
 
 
-Im Menü "Mein Kurs" der Toolbar finden Sie als Teilnehmer:in alles, was Ihre eigenen Daten im geöffneten Kurs betrifft: Leistungsnachweis, To-dos, Notizen und weitere persönliche Werkzeuge.
+Im Menü "Mein Kurs" rechts in der Toolbar des Kurses finden Sie alles, was Ihre eigenen Daten im geöffneten Kurs betrifft: Leistungsnachweis, To-dos, Notizen und mehr.
 
-![Das geöffnete Menü Mein Kurs listet die persönlichen Werkzeuge des Kurses, abgesetzt davon der Eintrag Kurs verlassen, in der Kurs-Toolbar](assets/toolbar_my_course_v2_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar, Sicht Teilnehmer:in · 2026.10.27" }
+Das Bild zeigt das Menü in der Rolle Teilnehmer:in mit allen Einträgen, die Teilnehmende erhalten können. "Vergebene Badges" fehlt darin, weil diesen Eintrag nur Rollen erhalten, die Badges vergeben, etwa Besitzer:innen, siehe [Vergebene Badges](#issued_badges).
+
+![Das geöffnete Menü Mein Kurs einer Teilnehmerin zeigt Leistungsnachweis, To-dos, Meine Badges, Notizen, Bookmark und Einwilligung, darunter die eigene Gruppe und abgesetzt Kurs verlassen](assets/toolbar_my_course_v3_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar, Sicht Teilnehmer:in · 2026.11.12" }
 
 
 ## Wie wird das Icon "Mein Kurs" in der Toolbar angezeigt bzw. entfernt? {: #display_icon}
 
-"Mein Kurs" erscheint automatisch, sobald mindestens einer seiner Einträge verfügbar ist.
+"Mein Kurs" erscheint automatisch, sobald mindestens einer seiner Einträge verfügbar ist, und verschwindet wieder, wenn keiner mehr verfügbar ist.
 
-Welche Einträge das Menü zeigt, hängt von Ihrer Rolle im Kurs ab: Leistungsnachweis, To-dos, "Meine Badges" und "Kurs verlassen" erhalten Teilnehmer:innen, "Vergebene Badges" erhalten Besitzer:innen und berechtigte Betreuer:innen des Kurses.
+Welche Einträge das Menü zeigt, hängt von den Einstellungen des Kurses und zum Teil von Ihrer Rolle im Kurs ab: "Leistungsnachweis", "To-dos", "Meine Badges" und "Kurs verlassen" erhalten Teilnehmer:innen, "Vergebene Badges" erhalten die Rollen, die im Kurs Badges vergeben, siehe [Vergebene Badges](#issued_badges). Diese Einträge zeigt das Menü immer für die Rolle, in der Sie den Kurs gerade geöffnet haben. "Notizen", "Bookmark", "Einwilligung" und Ihre Gruppen hängen nicht von der Rolle ab. Haben Sie im Kurs mehrere Rollen, wechseln Sie die Rolle in der Toolbar unter ["Rolle"](../basic_concepts/Roles/index.de.md#role_switch).
 
 [Zum Seitenanfang ^](#my_course)
 
@@ -31,7 +33,7 @@ Ist im Kurs der Leistungsnachweis eingeschaltet, erscheint unter "Mein Kurs" der
 
 ## Was kann in "Mein Kurs" angezeigt werden? {: #entries}
 
-Unter "Mein Kurs" finden Sie Ihre persönlichen Werkzeuge im aktuellen Kurs. Welche der folgenden Einträge erscheinen, hängt von den Einstellungen des Kurses und von Ihrer Rolle im Kurs ab.
+Unter "Mein Kurs" finden Sie, was Sie im aktuellen Kurs persönlich betrifft. Welche der folgenden Einträge erscheinen, hängt von den Einstellungen des Kurses und von Ihrer Rolle im Kurs ab.
 
 * [**Leistungsnachweis**](#evidence_of_achievement): Ihre Bewertungen im Kurs und, falls eingeschaltet, das [Zertifikat](Course_Settings_Assessment/index.de.md#section_certificate) des Kurses.
 * [**To-dos**](#to-dos): die aktuellen To-dos des Kurses.
@@ -40,7 +42,7 @@ Unter "Mein Kurs" finden Sie Ihre persönlichen Werkzeuge im aktuellen Kurs. Wel
 * [**Notizen**](#notes): Ihre Notizen zum Kurs, die nur Sie lesen.
 * [**Bookmark**](#bookmark): Mit einem Bookmark erscheint der Kurs im Menü "Kurse" im Tab "Favoriten".
 * [**Einwilligung**](#terms_of_use): Haben Sie Nutzungsbedingungen oder einer Datenschutzerklärung des Kurses zugestimmt, lesen Sie sie hier nach und widerrufen bei Bedarf Ihre Einwilligung.
-* [**Gruppen**](#groups): die Gruppen des Kurses, in denen Sie Mitglied sind, mit direktem Zugang.
+* [**Gruppen**](#groups): die Gruppen des Kurses, in denen Sie Mitglied sind oder auf der Warteliste stehen.
 * [**Kurs verlassen**](#leave_course): Sie tragen sich selbst aus dem Kurs aus.
 
 [Zum Seitenanfang ^](#my_course)
@@ -50,7 +52,7 @@ Unter "Mein Kurs" finden Sie Ihre persönlichen Werkzeuge im aktuellen Kurs. Wel
 
 ### Leistungsnachweis {: #evidence_of_achievement}
 
-Der Leistungsnachweis zeigt Ihnen, was Sie im Kurs erreicht haben: die bewerteten Kursbausteine wie Tests und Aufgaben, Ihre Punkte und weitere Angaben. Den Eintrag gibt es, sobald die Besitzer:innen des Kurses den Leistungsnachweis eingeschaltet haben.
+Der Leistungsnachweis zeigt Ihnen, was Sie im Kurs erreicht haben: die bewerteten Kursbausteine wie Tests und Aufgaben, Ihre Punkte und weitere Angaben. Den Eintrag gibt es, sobald die Besitzer:innen des Kurses den Leistungsnachweis oder das Zertifikat eingeschaltet haben.
 
 ![Ihr Leistungsnachweis zeigt Erfolgsstatus, Punkte und Fortschritt im Kurs und listet jeden bewerteten Kursbaustein mit Punkten und Status auf](assets/toolbar_my_course_evidence_of_achievement_v1_de.png){ class="shadow lightbox" title="Leistungsnachweis eines Kurses · 2026.11.09" }
 
@@ -84,7 +86,7 @@ Alle Ihre To-dos, auch die aus anderen Kursen, sehen Sie in den ["Persönlichen 
 
 ### Meine Badges [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #my_badges}
 
-Sind im Kurs Badges eingeschaltet, zeigt "Meine Badges" alle Badges, die Sie in diesem Kurs erhalten haben.
+Ist im Kurs der Schalter "Badges vergeben" eingeschaltet, erhalten Teilnehmende den Eintrag "Meine Badges". Er zeigt alle Badges, die Sie in diesem Kurs erhalten haben.
 
 [Mehr über Badges >](../personal_menu/OpenBadges.de.md)
 
@@ -94,7 +96,11 @@ Sind im Kurs Badges eingeschaltet, zeigt "Meine Badges" alle Badges, die Sie in 
 
 ### Vergebene Badges {: #issued_badges}
 
-Unter "Vergebene Badges" sehen Sie, welche Badges der Kurs an wen vergeben hat. Den Eintrag gibt es, wenn im Kurs der Schalter "Badges vergeben" eingeschaltet ist: `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"`. Kursbesitzer:innen, Administrator:innen und Lernressourcenverwalter:innen sehen ihn dann immer. Betreuer:innen sehen ihn nur, wenn der Kurs die manuelle Vergabe "für Betreuer:innen" erlaubt.
+Unter "Vergebene Badges" sehen Sie, welche Badges der Kurs an wen vergeben hat. Den Eintrag gibt es, wenn im Kurs der Schalter "Badges vergeben" eingeschaltet ist: `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"`. In den Rollen Besitzer:in, Administrator:in und Lernressourcenverwalter:in sehen Sie ihn dann ohne weitere Einstellung. Betreuer:innen sehen ihn nur, wenn im selben Abschnitt unter "Manuelle Vergabe von Badges ermöglichen" auch "für Betreuer:innen" angekreuzt ist.
+
+Das Bild zeigt das Menü in der Rolle Besitzer:in. "Vergebene Badges" steht an erster Stelle; die Einträge für Teilnehmende wie "Leistungsnachweis", "To-dos" und "Meine Badges" fehlen, "Notizen", "Bookmark" und die Gruppe bleiben.
+
+![Im Menü Mein Kurs einer Kursbesitzerin steht Vergebene Badges an erster Stelle, links davon zeigt die Toolbar die Rolle Besitzer:in](assets/toolbar_my_course_issued_badges_v1_de.png){ width="296" class="shadow lightbox" title="Menü Mein Kurs in der Toolbar, Sicht Besitzer:in · 2026.11.12" }
 
 [Mehr über das Vergeben von Kurs-Badges >](OpenBadges.de.md#award_a_course-badge)
 
@@ -125,7 +131,7 @@ Mit einem Bookmark finden Sie den Kurs schneller wieder: Er steht dann im Menü 
 
 ### Einwilligung [:octicons-tag-16:{ title="ab Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use}
 
-Verlangt der Kurs zu Beginn Ihre Einwilligung in Nutzungsbedingungen oder Datenschutzbestimmungen, lesen Sie diese hier jederzeit nach.
+Verlangt der Kurs zu Beginn Ihre Einwilligung in Nutzungsbedingungen oder Datenschutzbestimmungen, lesen Sie diese hier jederzeit nach. Den Eintrag sehen Sie, sobald Sie eingewilligt haben.
 
 [Mehr über Nutzungsbedingungen >](../basic_concepts/Terms_Of_Use.de.md)
 
@@ -136,7 +142,7 @@ Verlangt der Kurs zu Beginn Ihre Einwilligung in Nutzungsbedingungen oder Datens
 
 ### Gruppen {: #groups}
 
-Sind Sie über eine Gruppe im Kurs, als Gruppenteilnehmer:in oder Gruppenbetreuer:in, öffnet dieser Eintrag die Gruppe direkt.
+Sind Sie über eine Gruppe im Kurs, als Gruppenteilnehmer:in oder Gruppenbetreuer:in, steht die Gruppe mit ihrem Namen im Menü, abgesetzt unter den übrigen Einträgen. Ein Klick öffnet die Gruppe direkt. Stehen Sie auf der Warteliste einer Gruppe, zeigt der Eintrag hinter dem Namen Ihre Position auf der Warteliste und lässt sich nicht anklicken.
 
 [Zum Seitenanfang ^](#my_course)
 
@@ -147,7 +153,7 @@ Sind Sie über eine Gruppe im Kurs, als Gruppenteilnehmer:in oder Gruppenbetreue
 
 Brauchen Sie einen Kurs nicht mehr, tragen Sie sich mit "Kurs verlassen" selbst aus. OpenOlat beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, je nachdem, worüber Sie im Kurs sind. Danach haben Sie keinen Zugriff mehr auf den Kurs. Für einen erneuten Zugriff wenden Sie sich an die Betreuer:innen des Kurses oder der Gruppe.
 
-Austreten können nur Teilnehmende, nicht Betreuer:innen oder Besitzer:innen. Die Besitzer:innen des Kurses lassen das Austreten in den Einstellungen des Kurses im Tab "Freigabe" zu.
+Austreten können nur Teilnehmende, nicht Betreuer:innen oder Besitzer:innen. Die Besitzer:innen des Kurses lassen das Austreten mit der Einstellung "Teilnehmer:innen können austreten" zu: `Kurs > Administration > Einstellungen > Tab "Freigabe"`.
 
 ![Der Eintrag Kurs verlassen steht im Menü Mein Kurs abgesetzt unter einer Trennlinie](assets/toolbar_my_course_leave_menu_v1_de.png){ class="shadow lightbox" title="Menü Mein Kurs in der Toolbar" }
 
@@ -187,6 +193,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Rollen >](../basic_concepts/Roles/index.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Coaching - Übersicht >](../area_modules/Coaching/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Leistungsnachweise >](../personal_menu/Evidence_of_Achievements.de.md)<br>

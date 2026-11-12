@@ -1,15 +1,17 @@
 # Toolbar: My Course {: #my_course}
 
-In the menu "My course" of the toolbar, you as a participant find everything that concerns your own data in the opened course: evidence of achievement, to-dos, notes and other personal tools.
+In the menu "My course" on the right of the course toolbar, you find everything that concerns your own data in the opened course: evidence of achievement, to-dos, notes and more.
 
 
-![The open My course menu lists the personal tools of the course, set off from them the Leave course entry, in the course toolbar](assets/toolbar_my_course_v2_en.png){ class="shadow lightbox" title="Menu My course in the toolbar, participant view · 2026.10.27" }
+The image shows the menu in the role participant with all entries that participants can get. "Awarded badges" is missing from it because only roles that award badges get this entry, for example owners, see [Awarded badges](#issued_badges).
+
+![The open My course menu of a participant shows Evidence of achievement, To-dos, My badges, Notes, Bookmark and Consent, below them the own group and, set off, Leave course](assets/toolbar_my_course_v3_en.png){ class="shadow lightbox" title="Menu My course in the toolbar, participant view · 2026.11.12" }
 
 ## How is the "My course" icon displayed or removed from the toolbar?  {: #display_icon}
 
-"My course" appears automatically as soon as at least one of its entries is available.
+"My course" appears automatically as soon as at least one of its entries is available, and disappears again when none is available any more.
 
-Which entries the menu shows depends on your role in the course: participants get evidence of achievement, to-dos, "My badges" and "Leave course", owners and authorized coaches of the course get "Awarded badges".
+Which entries the menu shows depends on the settings of the course and partly on your role in the course: participants get "Evidence of achievement", "To-dos", "My badges" and "Leave course", the roles that award badges in the course get "Awarded badges", see [Awarded badges](#issued_badges). The menu always shows these entries for the role in which you have currently opened the course. "Notes", "Bookmark", "Consent" and your groups do not depend on the role. If you have several roles in the course, you switch the role in the toolbar under ["Role"](../basic_concepts/Roles/index.md#role_switch).
 
 
 [To the top of the page ^](#my_course)
@@ -29,7 +31,7 @@ If the evidence of achievement is switched on in the course, the entry "Evidence
 
 ## What can be displayed in "My course"?  {: #entries}
 
-Under "My course", you find your personal tools in the current course. Which of the following entries appear depends on the settings of the course and on your role in the course.
+Under "My course", you find what concerns you personally in the current course. Which of the following entries appear depends on the settings of the course and on your role in the course.
 
 * [**Evidence of achievement**](#evidence_of_achievement): your assessments in the course and, if switched on, the [certificate](Course_Settings_Assessment/index.md#section_certificate) of the course.
 * [**To-dos**](#to-dos): the current to-dos of the course.
@@ -38,7 +40,7 @@ Under "My course", you find your personal tools in the current course. Which of 
 * [**Notes**](#notes): your notes on the course, which only you read.
 * [**Bookmark**](#bookmark): With a bookmark, the course appears in the "Courses" menu in the "Favorites" tab.
 * [**Consent**](#terms_of_use): If you have agreed to terms of use or a privacy policy of the course, you read them here and revoke your consent if needed.
-* [**Groups**](#groups): the groups of the course in which you are a member, with direct access.
+* [**Groups**](#groups): the groups of the course in which you are a member or on the waiting list.
 * [**Leave course**](#leave_course): you remove yourself from the course.
 
 [To the top of the page ^](#my_course)
@@ -47,7 +49,7 @@ Under "My course", you find your personal tools in the current course. Which of 
 
 ### Evidence of achievement {: #evidence_of_achievement}
 
-The evidence of achievement shows you what you have achieved in the course: the assessed course elements such as tests and tasks, your score and further details. The entry exists as soon as the owners of the course have switched on the evidence of achievement.
+The evidence of achievement shows you what you have achieved in the course: the assessed course elements such as tests and tasks, your score and further details. The entry exists as soon as the owners of the course have switched on the evidence of achievement or the certificate.
 
 ![Your evidence of achievement shows success status, score and progress of the course and lists every assessed course element with score and status](assets/toolbar_my_course_evidence_of_achievement_v1_en.png){ class="shadow lightbox" title="Evidence of achievement of a course · 2026.11.09" }
 
@@ -80,7 +82,7 @@ You see all your to-dos, including those from other courses, in the ["User tools
 
 ### My badges [:octicons-tag-16:{ title="from Release 18.0.0 (OO-7003)" }](https://track.frentix.com/issue/OO-7003) {: #my_badges}
 
-If badges are switched on in the course, "My badges" shows all badges you have received in this course.
+If the switch "Award badges" is switched on in the course, participants get the entry "My badges". It shows all badges you have received in this course.
 
 [More about badges >](../personal_menu/OpenBadges.md)
 
@@ -90,7 +92,11 @@ If badges are switched on in the course, "My badges" shows all badges you have r
 
 ### Awarded badges {: #issued_badges}
 
-Under "Awarded badges", you see which badges the course has awarded and to whom. The entry exists if the switch "Award badges" is switched on in the course: `Course > Administration > Settings > Tab "Assessment" > Section "Badges"`. Course owners, administrators and learning resource managers then always see it. Coaches only see it if the course allows manual awarding "for coaches".
+Under "Awarded badges", you see which badges the course has awarded and to whom. The entry exists if the switch "Award badges" is switched on in the course: `Course > Administration > Settings > Tab "Assessment" > Section "Badges"`. In the roles owner, administrator and learning resource manager, you then see it without any further setting. Coaches only see it if "for coaches" is also ticked under "Allow manual awarding of badges" in the same section.
+
+The image shows the menu in the role owner. "Awarded badges" comes first; the entries for participants such as "Evidence of achievement", "To-dos" and "My badges" are missing, "Notes", "Bookmark" and the group remain.
+
+![In the My course menu of a course owner, Awarded badges comes first, to the left the toolbar shows the role Owner](assets/toolbar_my_course_issued_badges_v1_en.png){ width="296" class="shadow lightbox" title="Menu My course in the toolbar, owner view · 2026.11.12" }
 
 [More about awarding course badges >](OpenBadges.md#award_a_course-badge)
 
@@ -118,7 +124,7 @@ With a bookmark, you find the course again faster: it then appears in the "Cours
 
 ### Consent [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use}
 
-If the course requires your consent to terms of use or a privacy policy at the beginning, you read them here at any time.
+If the course requires your consent to terms of use or a privacy policy at the beginning, you read them here at any time. You see the entry as soon as you have given your consent.
 
 [More about terms of use >](../basic_concepts/Terms_Of_Use.md)
 
@@ -128,7 +134,7 @@ If the course requires your consent to terms of use or a privacy policy at the b
 
 ### Groups {: #groups}
 
-If you are in the course via a group, as a group participant or group coach, this entry opens the group directly.
+If you are in the course via a group, as a group participant or group coach, the group appears with its name in the menu, set off below the other entries. A click opens the group directly. If you are on the waiting list of a group, the entry shows your position on the waiting list after the name and cannot be clicked.
 
 [To the top of the page ^](#my_course)
 
@@ -138,7 +144,7 @@ If you are in the course via a group, as a group participant or group coach, thi
 
 If you no longer need a course, you remove yourself with "Leave course". OpenOlat immediately ends your course or group membership, depending on how you are in the course. After that, you no longer have access to the course. For renewed access, contact the coaches of the course or the group.
 
-Only participants can leave, not coaches or owners. The owners of the course allow leaving in the settings of the course in the tab "Share".
+Only participants can leave, not coaches or owners. The owners of the course allow leaving with the setting "Participants can leave": `Course > Administration > Settings > Tab "Share"`.
 
 ![The Leave course entry sits in the My course menu, set off below a separator](assets/toolbar_my_course_leave_menu_v1_en.png){ class="shadow lightbox" title="Menu My course in the toolbar" }
 
@@ -178,6 +184,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Roles >](../basic_concepts/Roles/index.md)<br>
 [Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Coaching - Overview >](../area_modules/Coaching/index.md)<br>
 [Personal achievements/successes: Evidence of Achievements >](../personal_menu/Evidence_of_Achievements.md)<br>
