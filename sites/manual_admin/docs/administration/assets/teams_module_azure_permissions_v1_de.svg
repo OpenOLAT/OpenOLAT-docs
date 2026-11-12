@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="470" viewBox="0 0 940 470" role="img" aria-label="Welche Berechtigungen die Anmeldung über Microsoft Azure AD abfragt">
+  <rect x="0" y="0" width="940" height="470" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="44" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#342C24">Welche Berechtigungen die Anmeldung über Microsoft Azure AD abfragt</text>
+
+  <!-- Stufe 1 -->
+  <text x="30" y="98" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">Immer</text>
+  <rect x="200" y="78" width="420" height="56" rx="8" fill="rgba(18, 99, 101, 0.12)" stroke="#126365" stroke-width="1.5"/>
+  <text x="216" y="102" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#342C24">Grundberechtigungen der Anmeldung</text>
+  <text x="216" y="124" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Profil, E-Mail, eigenes Konto lesen</text>
+
+  <line x1="410" y1="136" x2="410" y2="168" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Stufe 2 -->
+  <text x="30" y="182" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">Modul "Microsoft Teams"</text>
+  <text x="30" y="200" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">eingeschaltet</text>
+  <rect x="200" y="172" width="420" height="56" rx="8" fill="#126365"/>
+  <text x="216" y="196" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">+ Online-Termine anlegen</text>
+  <text x="216" y="218" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">OnlineMeetings.ReadWrite</text>
+
+  <line x1="410" y1="230" x2="410" y2="262" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Stufe 3 -->
+  <text x="30" y="276" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">zusätzlich Funktion</text>
+  <text x="30" y="294" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">"Terminaufzeichnung"</text>
+  <text x="30" y="312" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">eingeschaltet</text>
+  <rect x="200" y="266" width="420" height="56" rx="8" fill="#11624F"/>
+  <text x="216" y="290" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">+ Aufzeichnungen lesen</text>
+  <text x="216" y="312" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">OnlineMeetingRecording.Read.All</text>
+
+  <!-- Zustimmung in Azure -->
+  <line x1="622" y1="294" x2="668" y2="294" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="672" y="248" width="238" height="96" rx="10" fill="#F2AF40"/>
+  <text x="688" y="276" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">In der Azure-App:</text>
+  <text x="688" y="298" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Berechtigung eintragen,</text>
+  <text x="688" y="316" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Administrator:in des Tenants</text>
+  <text x="688" y="334" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">stimmt zu</text>
+
+  <!-- Ergebnis -->
+  <line x1="740" y1="346" x2="740" y2="372" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="850" y1="346" x2="850" y2="372" stroke="#8F1F40" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="620" y="376" width="150" height="76" rx="8" fill="#B2CF42"/>
+  <text x="634" y="400" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#2D2926">Zustimmung erteilt</text>
+  <text x="634" y="422" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Anmeldung</text>
+  <text x="634" y="440" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">funktioniert</text>
+  <rect x="780" y="376" width="150" height="76" rx="8" fill="#8F1F40"/>
+  <text x="794" y="400" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Zustimmung fehlt</text>
+  <text x="794" y="421" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">Anmeldung scheitert</text>
+  <text x="794" y="439" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">ohne Adminrechte</text>
+
+  <text x="30" y="380" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#342C24">Empfohlene Reihenfolge</text>
+  <text x="30" y="402" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">1. In Azure Berechtigung eintragen und zustimmen</text>
+  <text x="30" y="422" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">2. In OpenOlat Funktion "Terminaufzeichnung" einschalten</text>
+</svg>

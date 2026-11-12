@@ -21,7 +21,7 @@ SSO via Microsoft Entra ID (formerly Microsoft Azure AD Authentication) is a pre
 ### Configuration sequence
 
 1. Creation of Microsoft Azure app registration
-2. Addition of authorizations in app registration for SSO via Microsoft Entra ID and for Microsoft SharePoint integration
+2. Addition of authorizations in app registration for SSO via Microsoft Entra ID and for Microsoft SharePoint integration; with the module Microsoft Teams switched on, also the permissions for Teams, see [Microsoft Teams module: Function "Meeting recording"](Teams_module.md#recording_enabled)
 3. Generation of key / secret for OpenOlat
 4. Activation of SSO via Microsoft Azure AD Authentication (Microsoft Entra ID) in OpenOlat
 5. As required: Activation of Microsoft SharePoint integration in OpenOlat
@@ -42,6 +42,13 @@ SharePoint and OneDrive can be integrated individually and independently of each
 ## OneDrive {: #onedrive}
 
 The integration of OneDrive is very similar to SharePoint and can be carried out in the same way as described above.
+
+## Further information {: #further_information}
+
+**Mentioned on this page**<br>
+[Microsoft Teams module >](Teams_module.md)
+
+[To the top of the page ^](#sharepoint_onedrive)
 
 
 

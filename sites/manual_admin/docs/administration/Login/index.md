@@ -38,6 +38,8 @@ A minimum and a maximum length must be defined as a minimum. In addition, furthe
 So that users can log in with the account of another service, you connect OpenOlat here with social networks such as LinkedIn, X, Google and Facebook or with Microsoft Azure AD, Microsoft ADFS, Keycloak, Switch edu-ID and Datenlotsen. You connect further providers with "Add OAuth 2.0 provider" or "Add OAuth 2.0 provider with discovery URL". System administrators configure these integrations in the system administration under:<br>
 `Administration > Login > Cloud login`
 
+Which permissions the login via "Microsoft Azure AD" requests from Microsoft, and when this requires the consent of the administration of your Microsoft tenant, depends on the module "Microsoft Teams" and its function "Meeting recording", see [Microsoft Teams module: Function "Meeting recording"](../Teams_module.md#recording_enabled). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+
 ### OAuth 2.0 and OpenID Connect [:octicons-tag-16:{ title="from Release 20.2.6 (OO-9287)" }](https://track.frentix.com/issue/OO-9287)
 
 For security reasons, OpenOlat supports only the secure authorization code flow for OpenID Connect and OAuth 2.0 integrations. When creating a provider using the "Add OAuth 2.0 provider" button, you must therefore select "code" in the "Response type" field.
@@ -55,7 +57,7 @@ System administrators can define whether and to what extent OpenOlat can be used
 
 ## Self-registration [:octicons-tag-16:{ title="from Release 8.1.1 (OO-226)" }](https://track.frentix.com/issue/OO-226) {: #self-registration}
 
-Here, system administrators can activate self-registration and configure additional detailed settings in this context. Login forms can also be integrated into external websites. Furthermore, the field "Validity period of the login data" restricts, for example, how long an account from self-registration stays valid.
+Here, system administrators can activate self-registration and define further settings for it. Login forms can also be integrated into external websites. Furthermore, the field "Validity period of the login data" restricts, for example, how long an account from self-registration stays valid.
 
 [See the details >](../../administration/Login_Self-Registration.md)<br>
 [To the top of the page ^](#login)
@@ -74,5 +76,7 @@ So that users can reset a forgotten password with a code by SMS, you set up an S
 [Login Concept >](../../../manual_user/login_registration/Login_Concept.md)<br>
 [Login Page >](../../../manual_user/login_registration/Login_Page.md)<br>
 [Roles and Rights: Guest access >](../../../manual_user/basic_concepts/guest_access.md)
+
+[To the top of the page ^](#login)
 
 [To the top of the page ^](#login)

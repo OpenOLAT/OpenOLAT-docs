@@ -41,6 +41,8 @@ Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte nich
 Damit sich Benutzer:innen mit dem Konto eines anderen Dienstes anmelden können, verbinden Sie OpenOlat hier mit sozialen Netzwerken wie LinkedIn, X, Google und Facebook oder mit Microsoft Azure AD, Microsoft ADFS, Keycloak, Switch edu-ID und Datenlotsen. Weitere Provider binden Sie mit "OAuth 2.0 Provider hinzufügen" oder "OAuth 2.0 Provider mit Discovery URL hinzufügen" an. Diese Anbindungen konfigurieren Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Login > Cloud-Login`
 
+Welche Berechtigungen die Anmeldung über "Microsoft Azure AD" bei Microsoft abfragt und wann dafür die Zustimmung der Administration Ihres Microsoft-Tenants nötig ist, hängt vom Modul "Microsoft Teams" und dessen Funktion "Terminaufzeichnung" ab, siehe [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](../Teams_module.de.md#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+
 ### OAuth 2.0 und OpenID Connect [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9287)" }](https://track.frentix.com/issue/OO-9287)
 
 Aus Sicherheitsgründen unterstützt OpenOlat für OpenID-Connect- und OAuth-2.0-Anbindungen ausschliesslich den sicheren Authorization Code Flow. Beim Anlegen eines Providers über die Schaltfläche "OAuth 2.0 Provider hinzufügen" ist im Feld "Response type" daher der Wert "code" zu wählen.
@@ -60,7 +62,7 @@ Systemadministrator:innen können festlegen, ob und in welchem Umfang OpenOlat v
 
 ## Selbstregistration [:octicons-tag-16:{ title="ab Release 8.1.1 (OO-226)" }](https://track.frentix.com/issue/OO-226) {: #self-registration}
 
-Hier können Systemadministrator:innen die Selbstregistration aktivieren sowie weitere Detaileinstellungen in diesem Kontext vornehmen. Login-Formulare können auch in externe Webseiten eingebaut werden. Ferner kann z.B. über das Feld "Gültigkeitsdauer der Logindaten" eingeschränkt werden, wie lange ein Konto aus der Selbstregistrierung gültig bleibt.
+Hier können Systemadministrator:innen die Selbstregistration aktivieren und weitere Einstellungen dazu festlegen. Login-Formulare können auch in externe Webseiten eingebaut werden. Ferner kann z.B. über das Feld "Gültigkeitsdauer der Logindaten" eingeschränkt werden, wie lange ein Konto aus der Selbstregistrierung gültig bleibt.
 
 [Zu den Details >](../../administration/Login_Self-Registration.de.md)<br>
 [Zum Seitenanfang ^](#login)

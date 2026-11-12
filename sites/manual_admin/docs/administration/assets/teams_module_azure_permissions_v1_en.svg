@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="470" viewBox="0 0 940 470" role="img" aria-label="Which permissions the login via Microsoft Azure AD requests">
+  <rect x="0" y="0" width="940" height="470" fill="#FFFFFF"/>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="44" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#342C24">Which permissions the login via Microsoft Azure AD requests</text>
+
+  <!-- Level 1 -->
+  <text x="30" y="98" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">Always</text>
+  <rect x="200" y="78" width="420" height="56" rx="8" fill="rgba(18, 99, 101, 0.12)" stroke="#126365" stroke-width="1.5"/>
+  <text x="216" y="102" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#342C24">Basic permissions of the login</text>
+  <text x="216" y="124" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Profile, e-mail, read own account</text>
+
+  <line x1="410" y1="136" x2="410" y2="168" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Level 2 -->
+  <text x="30" y="182" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">Module "Microsoft Teams"</text>
+  <text x="30" y="200" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">switched on</text>
+  <rect x="200" y="172" width="420" height="56" rx="8" fill="#126365"/>
+  <text x="216" y="196" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">+ Create online meetings</text>
+  <text x="216" y="218" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">OnlineMeetings.ReadWrite</text>
+
+  <line x1="410" y1="230" x2="410" y2="262" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Level 3 -->
+  <text x="30" y="276" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">additionally function</text>
+  <text x="30" y="294" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">"Meeting recording"</text>
+  <text x="30" y="312" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">switched on</text>
+  <rect x="200" y="266" width="420" height="56" rx="8" fill="#11624F"/>
+  <text x="216" y="290" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">+ Read recordings</text>
+  <text x="216" y="312" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">OnlineMeetingRecording.Read.All</text>
+
+  <!-- Consent in Azure -->
+  <line x1="622" y1="294" x2="668" y2="294" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="672" y="248" width="238" height="96" rx="10" fill="#F2AF40"/>
+  <text x="688" y="276" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">In the Azure app:</text>
+  <text x="688" y="298" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">add the permission,</text>
+  <text x="688" y="316" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">an administrator of the tenant</text>
+  <text x="688" y="334" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">grants consent</text>
+
+  <!-- Result -->
+  <line x1="740" y1="346" x2="740" y2="372" stroke="#0F5456" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="850" y1="346" x2="850" y2="372" stroke="#8F1F40" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="620" y="376" width="150" height="76" rx="8" fill="#B2CF42"/>
+  <text x="634" y="400" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#2D2926">Consent granted</text>
+  <text x="634" y="422" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Login</text>
+  <text x="634" y="440" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">works</text>
+  <rect x="780" y="376" width="150" height="76" rx="8" fill="#8F1F40"/>
+  <text x="794" y="400" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Consent missing</text>
+  <text x="794" y="421" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">Login fails</text>
+  <text x="794" y="439" font-family="'Roboto', sans-serif" font-size="13" fill="#FFFFFF">without admin rights</text>
+
+  <text x="30" y="380" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#342C24">Recommended order</text>
+  <text x="30" y="402" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">1. In Azure, add the permission and grant consent</text>
+  <text x="30" y="422" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">2. In OpenOlat, switch on the function "Meeting recording"</text>
+</svg>

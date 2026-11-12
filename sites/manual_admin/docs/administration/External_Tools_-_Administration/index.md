@@ -67,7 +67,8 @@ Microsoft Teams is the web conferencing solution from Microsoft. In courses and 
 
 **Prerequisites for use:**
 
-* Users log in to OpenOlat with the Microsoft account of their organisation (Azure login). This is a prerequisite for opening meetings: OpenOlat creates the online meetings via the Microsoft Graph API on behalf of the logged-in person.
+* Users log in to OpenOlat with the Microsoft account of their organisation (login via "Microsoft Azure AD"). This is a prerequisite for opening online meetings: OpenOlat creates the online meetings via the programming interface of Microsoft (Microsoft Graph API) on behalf of the logged-in person.
+* If the module is switched on, OpenOlat additionally requests from Microsoft at the login via "Microsoft Azure AD" the permission to create online meetings (`OnlineMeetings.ReadWrite`). With the function "Meeting recording", the permission to read recordings is added (`OnlineMeetingRecording.Read.All`). In the Azure app, the permission for recordings needs the consent of an administrator of the Microsoft tenant. If it is missing, the login fails for persons without administrator rights in the tenant, see [Microsoft Teams module: Function "Meeting recording"](../Teams_module.md#recording_enabled). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888){:target="_blank"}
 
 **Configuration in the system administration** under:<br>
 `Administration > External tools > Microsoft Teams`

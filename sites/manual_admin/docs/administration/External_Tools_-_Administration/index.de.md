@@ -68,7 +68,8 @@ Microsoft Teams ist die Webkonferenz-Lösung von Microsoft: In Kursen und Gruppe
 
 **Voraussetzungen für die Nutzung:**
 
-* Benutzer:innen melden sich in OpenOlat mit ihrem Microsoft-Konto der Organisation an (Azure-Login). Dies ist Voraussetzung, um Meetings eröffnen zu können: OpenOlat erstellt die Online-Termine über die Microsoft Graph API im Namen der angemeldeten Person.
+* Benutzer:innen melden sich in OpenOlat mit ihrem Microsoft-Konto der Organisation an (Anmeldung über "Microsoft Azure AD"). Dies ist Voraussetzung, um Online-Termine eröffnen zu können: OpenOlat erstellt die Online-Termine über die Programmierschnittstelle von Microsoft (Microsoft Graph API) im Namen der angemeldeten Person.
+* Ist das Modul eingeschaltet, verlangt OpenOlat bei der Anmeldung über "Microsoft Azure AD" von Microsoft zusätzlich die Berechtigung, Online-Termine anzulegen (`OnlineMeetings.ReadWrite`). Mit der Funktion "Terminaufzeichnung" kommt die Berechtigung hinzu, Aufzeichnungen zu lesen (`OnlineMeetingRecording.Read.All`). Die Berechtigung für Aufzeichnungen braucht in der Azure-App die Zustimmung einer Administratorin oder eines Administrators des Microsoft-Tenants. Fehlt sie, scheitert die Anmeldung für Personen ohne Administratorrechte im Tenant, siehe [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](../Teams_module.de.md#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888){:target="_blank"}
 
 **Konfiguration in der System-Administration** unter:<br>
 `Administration > Externe Werkzeuge > Microsoft Teams`
