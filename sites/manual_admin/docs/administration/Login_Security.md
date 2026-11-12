@@ -59,7 +59,7 @@ The protection checks the addresses that people enter themselves:
 
 For authors and participants, the protection shows when they enter an address: OpenOlat rejects an address from the internal network. The message does not name the protection as the cause, it reads the same as for a wrong address or a network error.
 
-The protection does not check services whose address the administration has stored, for example OnlyOffice, BigBlueButton, Zoom or Opencast. They still reach internal servers, so switching the protection on does not interrupt an existing connection.
+The protection does not check services whose address is stored in the system administration, for example OnlyOffice, BigBlueButton, Zoom or Opencast. They still reach internal servers, so switching the protection on does not interrupt an existing connection.
 
 If the outgoing traffic of the server runs through a proxy, the proxy resolves the host names, not OpenOlat. OpenOlat then only checks the protocol and addresses that appear as an IP address in the URL. In this case, the proxy has to check the host names. Addresses that bypass the proxy according to the server configuration are checked by OpenOlat in full.
 

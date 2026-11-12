@@ -2,7 +2,7 @@
 
 The purpose of the "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): access to digital resources, in our case published learning resources for metadata sharing with portals, search engines or catalogues. More information can be found on the [Open Archives website](https://www.openarchives.org).
 
-![Configuration page of the SEO / OAI-PMH metadata module with the sections API configuration, Restrictions and Search Engine Optimization](assets/modules_oai_v1_de.png){ class="shadow lightbox" }
+![Configuration page of the SEO / OAI-PMH metadata module with the sections API configuration, Restrictions and Search Engine Optimization](assets/modules_oai_v1_de.png){ class="shadow lightbox" title="Page SEO / OAI-PMH metadata in the system administration" }
 
 
 ## Metadata prefix {: #metadataprefix}
@@ -56,7 +56,7 @@ Metadaten | OAI OpenOlat | OAI Dublin Core
 
 ## Administration {: #administration}
 
-The module can be switched on under `Administration > Modules > SEO / OAI-PMH metadata`. It is deactivated by default on every instance. If the module is switched on, the API endpoint, where all published resources are listed via XML, is also available.
+You switch the module on in the system administration under: `Administration > Modules > SEO / OAI-PMH metadata`. It is deactivated by default on every instance. If the module is switched on, the API endpoint, where all published resources are listed via XML, is also available.
 
 ### API endpoint {: #endpoint}
 
@@ -90,9 +90,9 @@ Different sets can be selected. Sets categorize the metadata of learning resourc
 
 ## Search Engine Optimization {: #API_config_search_engine}
 
-This allows you to actively make shared learning resources accessible to search engines. There are two methods: sitemap.xml, which is mainly used by Google, and [indexNow](https://www.indexnow.org/index) by Bing and others. This collection is actively triggered once a week.
+This allows you to actively make shared learning resources accessible to search engines. There are two methods: sitemap.xml, which is mainly used by Google, and [indexNow](https://www.indexnow.org/index) by Bing and others. This collection is actively triggered once a week. With the button "Run now" you trigger it immediately.
 
-![Search Engine Optimization switched on, with the fields Organisation name and Keywords and the options for sitemap.xml and indexNow](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" }
+![Search Engine Optimization switched on, with the fields Organisation name and Keywords and the options for sitemap.xml and indexNow](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" title="Section Search Engine in the module SEO / OAI-PMH metadata" }
 
 If you have your own search engine index, enter its URL under "Custom".
 

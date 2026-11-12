@@ -11,7 +11,7 @@ There they switch badges on, maintain the badge templates, create global badges 
 * Under "Verification" you define how the authenticity of the badges of your instance can be checked. With "Hosted", the check fetches the badge data from your OpenOlat instance. With "Signed", every awarded badge additionally carries a digital signature that proves it comes from your instance and has not been changed. The default is "Hosted". The setting applies to badges you create afterwards. Existing badges keep their method, also in new versions. [:octicons-tag-16:{ title="from Release 20.1 (OO-8288)" }](https://track.frentix.com/issue/OO-8288)
 * With the button "Add LinkedIn organization" you add LinkedIn organizations. When you create a badge, the organizations added here are available in the "Details" step under "LinkedIn organization".
 
-![OpenBadges switched on, the verification Hosted or Signed, below it the list of LinkedIn organizations and the button Add LinkedIn organization](assets/badges_global_config_v2_en.png){ class="shadow lightbox" title="Configuration tab in the OpenBadges administration · 2026.11.05" }
+![OpenBadges switched on, the verification Hosted or Signed, below it the list of LinkedIn organizations and the button Add LinkedIn organization](assets/badges_global_config_v2_en.png){ class="shadow lightbox" title="Configuration tab under OpenBadges in the system administration · 2026.11.05" }
 
 
 [To the top of the page ^](#badges)
@@ -23,7 +23,7 @@ There they switch badges on, maintain the badge templates, create global badges 
 
 Templates let you specify the image of a badge so that authors can get started quickly when creating one. A standard set of templates is already prepared on the OpenOlat instance. The table shows "Image", "Name", "Scope" and "Tags" for each template. "Tags" shows the categories of the template. With "Edit" and "Delete" you change or remove a template.
 
-![List of the prepared badge templates with image, name, scope and tags, above it the button Upload template](assets/badges_global_templates_v2_en.png){ class="shadow lightbox" title="Templates tab in the OpenBadges administration · 2026.11.05" }
+![List of the prepared badge templates with image, name, scope and tags, above it the button Upload template](assets/badges_global_templates_v2_en.png){ class="shadow lightbox" title="Templates tab under OpenBadges in the system administration · 2026.11.05" }
 
 With the button "Upload template" you add your own template. In the dialog of the same name you upload the image and set the name, description, categories and scope.
 
@@ -57,7 +57,7 @@ Global badges are not linked to a course. In the "Global badges" tab you keep tr
 
 In the default view, the table shows the columns "Image", "Name", "Created on", "Status", "Type", "Version" and "Awarded to". The status is "Preparation", "Active" or "Revoked". The "Type" column shows whether the badge is awarded automatically or manually only: "Automatic" stands for the award procedure "Award automatically", "Manual" for "Award manually only". The "Awarded to" column shows how often the badge has been awarded across all its versions. Revoked awards are not counted. The "Verification" column with the method "Hosted" or "Signed" is hidden. You show it with the gear "Displayed columns".
 
-![List of the global badges with image, name, creation date, status, type, version and number of recipients, above it the button Create a new badge](assets/badges_global_tab_globalBadges_v2_en.png){ class="shadow lightbox" title="Global badges tab in the OpenBadges administration · 2026.11.05" }
+![List of the global badges with image, name, creation date, status, type, version and number of recipients, above it the button Create a new badge](assets/badges_global_tab_globalBadges_v2_en.png){ class="shadow lightbox" title="Global badges tab under OpenBadges in the system administration · 2026.11.05" }
 
 ### Creating and editing a global badge
 
@@ -83,7 +83,7 @@ As long as a global badge has the status "Preparation", you edit it in the "Glob
 You award a global badge manually in the system administration under:<br>
 `Administration > e-Assessment > OpenBadges > Tab "Global badges" > "Badge name" > Tab "Overview" > Button "Award manually"`
 
-![Path to the button Award manually via e-Assessment, OpenBadges, tab Global badges, the selected badge and tab Overview](assets/badges_global_manually_v3_en.png){ class="shadow lightbox" title="Overview tab of a global badge in the OpenBadges administration · 2026.11.05" }
+![Path to the button Award manually via e-Assessment, OpenBadges, tab Global badges, the selected badge and tab Overview](assets/badges_global_manually_v3_en.png){ class="shadow lightbox" title="Overview tab of a global badge under OpenBadges in the system administration · 2026.11.05" }
 
 ### Award global badges automatically
 

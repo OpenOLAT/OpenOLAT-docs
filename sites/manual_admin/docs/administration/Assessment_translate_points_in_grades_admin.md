@@ -15,7 +15,7 @@ The switch "Module "Levels/Grading"" is set to "On" or "Off". When it is set to 
 
 A rating system sets which grades exist and, if required, which of them count as passed. Course owners select one of the enabled rating systems in the course element. In the course element, this results in the rating scale, which assigns a grade to each range of points. In the system administration, you can create several rating systems side by side.
 
-You create a new rating system under:<br>
+You create a new rating system in the system administration under:<br>
 `Administration > e-Assessment > Levels/Grading > Create rating system`
 
 First you enter the identifier, a unique code made of lowercase letters, digits and dots. It cannot be changed afterwards. Then the dialog "Edit rating system" opens.

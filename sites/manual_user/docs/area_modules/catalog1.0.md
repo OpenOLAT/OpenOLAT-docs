@@ -4,7 +4,7 @@
 
     Catalog 1.0 is deprecated. It is no longer developed further and will be removed completely in one of the next versions. Set up new catalogs with [Catalog 2.0](catalog2.0/index.md).
 
-    You still use Catalog 1.0 if the course settings show the "Catalog" tab with the "Add to catalog" button. The [image in the section "Enter a course in the Catalog 1.0"](#enter_course) shows both. Catalog 2.0 instead opens with a search field in the header. The administration decides which version is active: `Administration > Modules > Catalog > Tab "Settings"`.
+    You still use Catalog 1.0 if the course settings show the "Catalog" tab with the "Add to catalog" button. The [image in the section "Enter a course in the Catalog 1.0"](#enter_course) shows both. Catalog 2.0 instead opens with a search field in the header. System administrators decide in the system administration which version is active: `Administration > Modules > Catalog > Tab "Settings"`.
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>){:target="_blank"}
 

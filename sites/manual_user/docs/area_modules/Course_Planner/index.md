@@ -306,7 +306,7 @@ You start the **import** via the more menu (⋮) at the top right of the overvie
 [How do I create my first OpenOlat course? >](../../../manual_how-to/my_first_course/my_first_course.md)<br>
 [How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How do I plan and run a product with several courses with the Course Planner? >](../../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Activate Course Planner (Admin) >](../../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Module Course Planner (Administration manual) >](../../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [What rights do the roles have within a course? >](../../basic_concepts/Authorisation_Concept.md)
 
 [To the top of the page ^](#course_planner)

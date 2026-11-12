@@ -1,9 +1,11 @@
 # Module Course Reminders {: #reminders}
 
 
-Under `Administration > Modules > Course reminders` you can set whether and when reminders created in the courses are sent automatically.
+In the system administration under `Administration > Modules > Course reminders` you define whether and when OpenOlat sends the reminders created in the courses automatically. In addition to the reminders in courses, the sending is also required for recertification.
 
-![Course reminders module in the system administration with the switch to activate, time interval, reference sending time and the preview of the calculated sending times](assets/modules_course_reminders_v1_en.png){ class="shadow lightbox" }  
+![Switch to activate the course reminders, interval, reference sending time with time zone and the dispatch times calculated from them](assets/modules_course_reminders_v1_en.png){ class="shadow lightbox" title="Course reminders page in the system administration" }  
+
+With the "Reference sending time" and the time zone you define the time of day on which the sending is based. The box "Dispatch times based on the selected reference time" shows at which times OpenOlat then sends the reminders.
 
 The following time intervals can be set for automatic dispatch:
 
@@ -15,7 +17,7 @@ The following time intervals can be set for automatic dispatch:
 * Every 2 hours
 * Every hour
 
-![Selection list of the seven time intervals for course reminders, in the Time interval field of the system administration](assets/modules_course_reminders_interval_v1_en.png){ class="shadow lightbox" }  
+![Seven intervals to choose from, from Once a day to Every hour](assets/modules_course_reminders_interval_v1_en.png){ class="shadow lightbox" title="Interval field in the Course reminders module" }  
 
 
 !!! note "Note"

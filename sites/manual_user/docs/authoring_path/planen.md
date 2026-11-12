@@ -159,7 +159,7 @@ The first course is running. Now the things that did not matter at the start pay
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course editor tools >](../learningresources/Using_additional_Course_Editor_Tools.md)<br>
 [Life cycles - Overview >](../../manual_admin/administration/Life_cycles_-_Administration/index.md)<br>
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
 [Toolbar: Info page >](../learningresources/Info_page.md)
 
 **Further reading**<br>

@@ -4,7 +4,7 @@ The Booking orders report lists the following columns for each booking order. It
 
 | Attribute                  | Source                 | Description                                                       | Line-/Education manager                                         |
 |----------------------------|------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------|
-| User data                  | Person                 | According to the configuration in the administration.             |                                                                 |
+| User data                  | Person                 | According to the configuration in the system administration under `Administration > Customizing > User Properties` |                                                                 |
 | Customer number            | Person                 | Customer number of the person                                     |                                                                 |
 | Membership status          | Person                 | Status in implementation or course (standalone)                   |                                                                 |
 | Product	                 | Product                | Title of the product                                              |                                                                 |

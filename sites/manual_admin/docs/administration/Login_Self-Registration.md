@@ -7,7 +7,7 @@ If "Use security levels / Passkey" is switched on and the minimum level "Level 2
 
 ## Tab Configuration [:octicons-tag-16:{ title="from Release 20.0 (OO-8342)" }](https://track.frentix.com/issue/OO-8342) {: #tab_configuration}
 
-![Self-registration switched on and shown on the login page, e-mail validation and domains controlled by the organisation module](assets/login_self_registration_tab1_v2_en.png){ class="shadow lightbox" title="Configuration tab of the self-registration in the Administration · 2026.10.31" }
+![Self-registration switched on and shown on the login page, e-mail validation and domains controlled by the organisation module](assets/login_self_registration_tab1_v2_en.png){ class="shadow lightbox" title="Configuration tab of the self-registration in the system administration · 2026.10.31" }
 
 
 ### Section "Configuration"
@@ -49,7 +49,7 @@ The validity period applies to self-registration and to the invitation link to s
 
 ## Tab Account Settings {: #tab_account_settings}
 
-![Home organisation controlled by the organisation module, account pending depending on user properties, Book in courses on, default value selfreg for a user property](assets/login_self_registration_tab2_v2_en.png){ class="shadow lightbox" title="Account Settings tab of the self-registration in the Administration · 2026.10.31" }
+![Home organisation controlled by the organisation module, account pending depending on user properties, Book in courses on, default value selfreg for a user property](assets/login_self_registration_tab2_v2_en.png){ class="shadow lightbox" title="Account Settings tab of the self-registration in the system administration · 2026.10.31" }
 
 
 ### Section "Account configuration"
@@ -107,7 +107,7 @@ Value that OpenOlat assigns to the selected user property during self-registrati
 
 ## Tab External Embed {: #tab_external_integration}
 
-![Address for direct self-registration in the Code for registration field, with buttons to copy it and for a QR code](assets/login_self_registration_tab3_v2_en.png){ class="shadow lightbox" title="External Embed tab of the self-registration in the Administration · 2026.10.31" }
+![Address for direct self-registration in the Code for registration field, with buttons to copy it and for a QR code](assets/login_self_registration_tab3_v2_en.png){ class="shadow lightbox" title="External Embed tab of the self-registration in the system administration · 2026.10.31" }
 
 ### Section "External Embed"
 

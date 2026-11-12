@@ -25,7 +25,7 @@ A more extensive alternative to the self-test is the [course element "Practice"]
 ## Further information {: #further_information}
 
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
-[Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](Course_Archiving/index.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [Configure tests >](../learningresources/Configure_tests.md)<br>
 [Tests at course level >](../learningresources/Tests_at_course_level.md)<br>

@@ -397,7 +397,7 @@ There, each role and its contra-role appear as separate entries. Clicking an ent
 [Groups >](../../groups/index.md)<br>
 [Group Administration >](../../groups/Group_Administration/index.md)<br>
 [Course elements in the Course editor >](../../learningresources/General_Configuration_of_Course_Elements.md)<br>
-[Course administration - Archiving & Reports >](../../learningresources/Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](../../learningresources/Course_Archiving/index.md)<br>
 [Glossary >](../../learningresources/Glossary/index.md)<br>
 [Course statistics >](../../learningresources/Statistics_Course.md)<br>
 [Assessment Management: Overview >](../../learningresources/Assessment_Management/index.md)<br>

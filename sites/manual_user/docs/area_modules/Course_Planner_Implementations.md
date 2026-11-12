@@ -518,7 +518,7 @@ Below the configuration, a table lists the rules of the element. The tabs "All",
 
 ![The Override mode and the table of rules with context, automation, target status, condition and planned execution](assets/course_planner_implementations_tab_settings_automation_v4_en.png){ class="shadow lightbox" title="Automation sub-tab of the settings of an implementation · 2026.10.02" }
 
-[To the element types and automation rules (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types)<br>
+[To the element types and automation rules (Administration manual) >](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types)<br>
 [To the to-dos on CPL elements >](Course_Planner_Todos.md)
 
 
@@ -648,7 +648,7 @@ The selection is only active if events are copied at all, that is if the "Copy" 
 !!! note "You cannot see the Room management section?"
 
     The section only appears once a system administrator has activated the module "Rooms".<br>
-    [Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md#activation)
+    [Manage rooms (Administration manual) >](../../manual_admin/administration/Modules_Rooms.md#activation)
 
 The copy takes over the room of the original booking. The period of the booking follows the copied event: if you shift the events with "Shift all dates", the bookings move along with them. When copying, OpenOlat does not check whether the room is still free in the new period. Conflicts such as a double booking only appear afterwards as a warning in [Room Scheduling](Course_Planner_Rooms.md#room_scheduling).
 
@@ -689,8 +689,8 @@ If you have already opened an implementation, you will also find the option to d
 [Course Planner: Products >](Course_Planner_Products.md)<br>
 [Course Planner: Events >](Course_Planner_Events.md)<br>
 [Course Settings - Tab Execution >](../learningresources/Course_Settings_Execution.md)<br>
-[Module Organisations (Administration) >](../../manual_admin/administration/Modules_Organisations.md)<br>
-[Module Groups (Administration) >](../../manual_admin/administration/Modules_Groups.md)<br>
+[Module Organisations (Administration manual) >](../../manual_admin/administration/Modules_Organisations.md)<br>
+[Module Groups (Administration manual) >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Catalog 2.0 - Offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
 [Coaching - People >](Coaching_People.md)<br>
 [Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
@@ -700,11 +700,11 @@ If you have already opened an implementation, you will also find the option to d
 [Reports: Booking orders >](Reports_BookingOrders.md)<br>
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
-[Module Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Module Course Planner (Administration manual) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Course Planner: Certification programs >](Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.md)<br>
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
-[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[Module Rooms (Administration manual) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](Course_Planner_Rooms.md)
 
 **Further reading**<br>

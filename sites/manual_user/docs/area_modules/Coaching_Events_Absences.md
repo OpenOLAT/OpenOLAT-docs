@@ -41,7 +41,7 @@ In the 3-dot menu at the end of the row, you export the event as an Excel file w
 
 A click on the course title opens the events of this course.
 
-If the [Daily recording of absences](../../manual_admin/administration/Modules_Events_and_Absences.md#daily_absence_recording) is switched on in the administration, the button "Close events for ..." stands below the list in the role "As coach". After a confirmation, it closes all events of this day.
+If system administrators allow the [Daily recording of absences](../../manual_admin/administration/Modules_Events_and_Absences.md#daily_absence_recording) for all events of the current day, the button "Close events for ..." appears below the list in the role "As coach". After a confirmation, it closes all events of this day. The setting is in the system administration under: `Administration > Modules > Events / Absences > Configuration`
 
 [To the top of the page ^](#events)
 

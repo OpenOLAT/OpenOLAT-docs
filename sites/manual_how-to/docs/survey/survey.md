@@ -230,7 +230,7 @@ Via the reminder tool you can, for example, send a reminder 3 days after the cou
 
 Add a reminder:
 
-- In the "Administration" drop-down menu, open the item "Reminders"
+- In the "Administration" drop-down menu of the course, select the item "Reminders"
 - Click the "Add reminder" button. A wizard with three steps opens.
 - In the first step, enter a description and choose a rule with "Add rule", e.g. "End date execution period of course"
 - In the second step, check the selected rules
@@ -338,7 +338,7 @@ Resetting **individual** forms is **not** possible in the course element "Survey
 [Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>
 [Learning path course - Course editor >](../../manual_user/learningresources/Learning_path_course_Course_editor.md)<br>
 [Authoring - Overview >](../../manual_user/area_modules/Authoring/index.md)<br>
-[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving/index.md)
+[Course Administration: Archiving & Reports >](../../manual_user/learningresources/Course_Archiving/index.md)
 
 
 [To the top of the page ^](#survey)

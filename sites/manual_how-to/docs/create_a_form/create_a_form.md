@@ -74,7 +74,7 @@ Depending on the objective, forms can be designed quite differently with it. Her
 
 Each form consists of a page with one or more questions or other elements (e.g. title). The individual elements can be selected in the editor and then be edited. In some cases, a pop-up (inspector window) with setting options is displayed.
 
-![Rubric in the form editor with the inspector window open for type, steps and obligation, above it the menu Administration with the entry Form editor highlighted](assets/form_lecturer_evaluation_editor_v2_en.png){ class="shadow lightbox" title="Rubric element in the form editor · 2026.09.28" }
+![Rubric in the form editor with the inspector window open for type, steps and obligation, above it the menu Administration of the form with the entry Form editor highlighted](assets/form_lecturer_evaluation_editor_v2_en.png){ class="shadow lightbox" title="Rubric element in the form editor · 2026.09.28" }
 
 <br>
 
@@ -96,7 +96,7 @@ If coaches click on exactly the same course element with form in the course, the
 
     You can find the icon for creating the rules in the header of the form editor.
 
-    ![Question rules symbol in the header of the form editor, to the right of the Administration menu](assets/form_question_rules1_v2_en.png){ class="shadow lightbox" title="Header of the form editor · 2026.11.10" }
+    ![Question rules symbol in the header of the form editor, to the right of the Administration menu of the form](assets/form_question_rules1_v2_en.png){ class="shadow lightbox" title="Header of the form editor · 2026.11.10" }
 
 
 [To the top of the page ^](#create_form)
@@ -119,7 +119,7 @@ You can create a form learning resource directly in the authoring area. Subseque
 
 Does the form learning resource already exist but is still empty? Since we then edit a form **learning resource**, it can be found in the authoring area under the tab "My entries". (Only courses are listed under "My courses".) Use the filters to search in large databases.
 
-To edit, click on the title and then open `Administration > Form editor`. Alternatively, select the entry "Form editor" in the menu with the 3 dots at the end of the line.
+To edit, click on the title and then open `Form > Administration > Form editor`. Alternatively, select the entry "Form editor" in the menu with the 3 dots at the end of the line.
 
 ![Tab My entries with the filter Type Form, the menu under the 3 dots of a row is open and the entry Form editor highlighted](assets/form_learning_resource_edit_v2_en.png){ class="shadow lightbox" title="Tab My entries in the authoring area · 2026.09.28" } 
 
@@ -160,7 +160,7 @@ If a form learning resource is already included in the course element, you also 
 
 ## 6. Designing forms in the editor  {: #step6}
 
-Once you have opened the form editor via `Administration > Form editor`, you see the default **layout** with one column. You insert further layouts with the button "Add a new layout". <br>
+Once you have opened the form editor via `Form > Administration > Form editor`, you see the default **layout** with one column. You insert further layouts with the button "Add a new layout". <br>
 A layout here means a **grid**. You can insert several such layouts one after the other.
 
 ![New form in the form editor with the default one-column layout, the entry Form editor in the breadcrumb navigation and the button Add a new layout highlighted](assets/form_editor_1_v2_en.png){ class="shadow lightbox" title="New form learning resource in the form editor · 2026.09.28" } 
@@ -262,10 +262,10 @@ You have also made settings when creating the questions. You have configured ind
 `Course > Administration > Course editor > "Course element" > tabs of the course element`
 
 **Configuration of the learning resource:**<br>
-`Authoring > "Form learning resource" > Administration > Settings`
+`Form > Administration > Settings`
 
 **Configuration of a question:**<br>
-Open the form in the form editor: `Administration > Form editor`. Clicking an element switches to the edit mode, and the related options appear.
+Open the form in the form editor: `Form > Administration > Form editor`. Clicking an element switches to the edit mode, and the related options appear.
 
 <br>
 

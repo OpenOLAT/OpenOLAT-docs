@@ -8,11 +8,11 @@ To use cross-course files for course creation in addition to normal course files
 
 A resource folder lets you centrally organize files (e.g. content, information, graphics) and use them in several courses.
 
-To link a resource folder to a course, select the desired resource folder or create a new one in the course under `Administration > Settings > Options`. Only one resource folder can be linked per course.
+To link a resource folder to a course, select the desired resource folder or create a new one under `Course > Administration > Settings > Options`. Only one resource folder can be linked per course.
 
 There are two ways to embed it: read-only or without write protection.
 
-![Selecting the resource folder and the read-only option in the "Options" tab of the course settings](assets/resource_folder_select_v1_de.png){ class="shadow lightbox" }
+![Selected resource folder with the checkbox "Read only" and the buttons "Deselect" and "Replace"](assets/resource_folder_select_v1_de.png){ class="shadow lightbox" title="Options tab in the course settings" }
 
 **Read only**: The files are only referenced. Within the course, they can neither be changed, deleted, nor added to. This ensures that all courses always use the same up-to-date files.
 
@@ -21,11 +21,11 @@ There are two ways to embed it: read-only or without write protection.
 Therefore, consider carefully whether write protection should be removed.
 
 ### Where to find the files of the resource folder
-Once a resource folder is linked to the course, it appears in the course administration under "Files" as "**_sharedfolder**" with all the files stored in the resource folder. 
+Once a resource folder is linked to the course, it appears under `Course > Administration > Files` as "_sharedfolder" with all the files stored in the resource folder. 
 
-![Folder "_sharedfolder" in the course's file overview](assets/sharedfolder_20.png){ class="shadow lightbox" }
+![Folder "_sharedfolder" among the storage locations, next to the storage folder and the other folders of the course](assets/sharedfolder_20.png){ class="shadow lightbox" title="Files page of a course" }
 
-![File list in the "_sharedfolder" folder with the files of the resource folder](assets/sharedfolder_20_b.png){ class="shadow lightbox" }
+![File list in the "_sharedfolder" folder with the files of the resource folder](assets/sharedfolder_20_b.png){ class="shadow lightbox" title="Folder _sharedfolder on the Files page of a course" }
 
 By default, the files of the resource folder are read-only and cannot be changed.
 
@@ -36,7 +36,7 @@ For example, central files could be used for a consistent course layout, or docu
 
 
 ## Using it independently of a course
-To use the resource folder standalone, standalone use must be activated on the "Share" tab under `Administration > Settings` in the resource folder, and sharing must be configured further, e.g. free for guests or with a password. The resource folder must then also be published. This is not necessary when linked to a course.
+To use the resource folder standalone, select the usage "Standalone" under `Resource folder > Administration > Settings > Share` and configure the sharing further, e.g. free for guests or with a password. The resource folder must then also be published. This is not necessary when linked to a course.
 
 For more detailed information, see ["Access configuration/Share"](../learningresources/Access_configuration.md).
 
@@ -46,8 +46,10 @@ For more detailed information, see ["Access configuration/Share"](../learningres
 
 ## Further information {: #further_information}
 
+[Access configuration >](../learningresources/Access_configuration.md)<br>
+[Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Course Settings - Tab Options >](Course_Settings_Options.md)<br>
 [How can I use the same files in several courses? >](../../manual_how-to/multiple_use/multiple_use.md)<br>
-[Storage folder >](Storage_folder.md)<br>
+[Storage folder >](Storage_folder.md)
 
 [To the top of the page ^](#resource_folder)

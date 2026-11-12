@@ -18,6 +18,6 @@ Once you have completed the configuration, click on "End configuration" at the t
 
 [Sites and modules >](../area_modules/index.md)<br>
 [Finding courses >](../area_modules/Courses.md)<br>
-[Customizing (Administration) >](../../manual_admin/administration/Customizing.md)
+[Customizing: Overview (Administration manual) >](../../manual_admin/administration/Customizing.md)
 
 [To the top of the page ^](#portal_configuration)

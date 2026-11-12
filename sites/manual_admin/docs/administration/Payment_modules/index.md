@@ -1,8 +1,11 @@
 # Payment modules: Overview {: #payment}
 
-![Payment modules menu with the entries Invoice and PayPal in the administration](../assets/admin_payment_overview_v3_en.png){ class="shadow lightbox aside-left-lg" }
+![Payment modules menu with the entries Invoice and PayPal in the system administration](../assets/admin_payment_overview_v3_en.png){ class="shadow lightbox aside-left-lg" }
 
-The following payment modules are currently available and can be configured:
+System administrators configure the payment modules in the system administration under:<br>
+`Administration > Payment modules`
+
+The following payment modules are available:
 
 ---
 

@@ -230,7 +230,7 @@ If "With offset" is switched on, the window shows the resulting date under "Calc
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [User tools: To-dos >](../personal_menu/To-Dos.md)<br>
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
-[Module Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Module Course Planner (Administration manual) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Overview pages and widgets >](../basic_concepts/Dashboard_Concept.md)<br>
 [Course Reminders >](../learningresources/Course_Reminders.md)
 

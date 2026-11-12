@@ -31,7 +31,7 @@ These roles search accounts. What they may change on an account is shown by the 
 
 For accounts with the role administrator, system administrator or roles manager, the status cannot be changed in the "Account" tab.
 
-In the standard version of OpenOlat, only administrators see the "Delete accounts" area. Some OpenOlat versions also show it to user managers and roles managers, limited to the organisations in which they hold this role. This is not a setting of the administration. Even there they do not get the "Delete account" button, so they do not delete accounts themselves. System administrators additionally trigger deletions via the automatic user lifecycle.
+In the standard version of OpenOlat, only administrators see the "Delete accounts" area. Some OpenOlat versions also show it to user managers and roles managers, limited to the organisations in which they hold this role. This is not a setting of the system administration. Even there they do not get the "Delete account" button, so they do not delete accounts themselves. System administrators additionally trigger deletions via the automatic user lifecycle.
 
 [To the top of the page ^](#delete_user)
 
@@ -69,7 +69,7 @@ You can also select accounts and delete them via the link "Delete accounts":<br>
 **Step 2:**<br>
 Candidates for deletion are pre-sorted into 3 tabs, corresponding to the phases of the automatic user lifecycle:
 
-**Tab "Accounts without activity":** Users who have not been active for a configured period of time. The inactivity period is set by the administration.
+**Tab "Accounts without activity":** Users who have not been active for a configured period of time. System administrators set the period in the system administration in the field "Num. of days before deactivation": `Administration > Life cycles > User`
 
 **Tab "Deactivated accounts":** Users whose account has already been deactivated automatically or manually, as well as accounts with upcoming deactivation.
 

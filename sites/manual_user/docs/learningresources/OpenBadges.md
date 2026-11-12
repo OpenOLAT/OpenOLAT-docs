@@ -204,7 +204,7 @@ The awarding of **course badges** is enabled by course owners in each course und
 `Course > Administration > Settings > "Assessment" tab > "Badges" section`<br>
 The right to manual assignment can also be given to coaches here.
 
-If badges have been activated, the **Badges** option will be available in **Course administration** after the next login. The rules for awarding badges for the course can be set up here.
+If badges are activated, the entry "Badges" appears in the "Administration" menu of the course: `Course > Administration > Badges`. There you set up the rules for awarding badges for the course.
 
 If badges have been acquired by participants, they can be seen in the **performance overview** of the participant concerned.
 

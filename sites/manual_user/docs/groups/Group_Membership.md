@@ -26,7 +26,7 @@ Both aspects can be combined as follows:
 
 ![Highlighted "Join" button for a bookable group with access code in the list of published groups](assets/group_membership_offer_v1_de.png){ class="shadow lightbox" title="Published groups tab in the Groups area" }
 
-For this, the group coach must set up an **"offer"** directly in the group under `Administration > Sharing`.
+For this, group coaches set up an offer in the group, under: `Group > Administration > Share`
 
 ![Button "Add offer" with the options Access code and Freely available, below it the notice that no offer has been created yet](assets/Gruppe_Freigabe.png){ class="shadow lightbox" title="Share tab of the group" }
 
@@ -38,7 +38,7 @@ Several options are available for the offer:
 
 **Where do users find groups they can book?**
 
-Users find groups with offers under "Published groups". Click on **"Join"** to book an offer and become a group member.
+Users find groups with offers in the "Published groups" tab. With a click on "Join" they book an offer and become members of the group.
 
 ![Highlighted "Join" button for a bookable group with access code in the list of published groups](assets/group_membership_offer_v1_de.png){ class="shadow lightbox" title="Published groups tab in the Groups area" }
 
@@ -55,7 +55,7 @@ In the event of overbooking, corresponding notices appear, e.g.:
 
 ## 2a) Group coaches add people directly to the group {: #add_groupmember}
 
-As a group coach, select or create the desired group and go to the "Administration" tab of the group. In the "Members" tab, additional participants and coaches can then be added.
+As a group coach, select or create the desired group and open in it: `Group > Administration > Members`. There you add further participants and coaches with "Add member".
 
 ![Button "Add member" with the entry "Invite external members" above the member list, above it the settings for displaying members](assets/Gruppe_Mitglied_hinzufuegen1.png){ class="shadow lightbox" title="Members tab of the group" }
 

@@ -97,7 +97,7 @@ In the calendar of a single room row, too, a click on a booking opens the ["Book
 
 ![A room with Reference, Description, Status, #Seats, Building, Occupancy rate and Next event, plus a calendar and a details icon](assets/course_planner_rooms_list_v2_en.png){ class="shadow lightbox" title="Rooms in Room management · 2026.09.30" }
 
-!!! info "Deleted rooms in the administration"
+!!! info "Deleted rooms in the system administration"
 
     Room management of the Course Planner holds the active and the inactive rooms. Deleted rooms appear in the system administration under:<br>
     `Administration > Modules > Rooms > Rooms`<br>
@@ -109,9 +109,9 @@ In the calendar of a single room row, too, a click on a booking opens the ["Book
 
 ## Manage rooms and buildings [:octicons-tag-16:{ title="from Release 21.0 (OO-9460)" }](https://track.frentix.com/issue/OO-9460){:target="_blank"} {: #admin_edit}
 
-!!! info "Editing only in the administration"
+!!! info "Editing only in the system administration"
 
-    System administrators create, edit and delete rooms and buildings in the system administration: `Administration > Modules > Rooms`. There you find "Settings", "Room Scheduling", "Rooms" and "Buildings". [Manage rooms (administration) >](../../manual_admin/administration/Modules_Rooms.md)
+    System administrators create, edit and delete rooms and buildings in the system administration: `Administration > Modules > Rooms`. There you find "Settings", "Room Scheduling", "Rooms" and "Buildings". [Manage rooms (Administration manual) >](../../manual_admin/administration/Modules_Rooms.md)
 
 [To the top of the page ^](#course_planner_rooms)
 
@@ -122,7 +122,7 @@ In the calendar of a single room row, too, a click on a booking opens the ["Book
 [Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [Copy a course with wizard >](../learningresources/Course_Copy_Wizard.md)<br>
-[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[Module Rooms (Administration manual) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Events >](../area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Import / Export >](Course_Planner_Import_Export/index.md)
 

@@ -122,7 +122,7 @@ You can also download the raw data of tests via the [test statistics](../Statist
 [Set up a test >](Test_Setup.md)<br>
 [Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
 [Coaching - Overview >](../../area_modules/Coaching/index.md)<br>
-[Course administration - Archiving & Reports >](../Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](../Course_Archiving/index.md)<br>
 [Export tests >](../Test_export.md)<br>
 [Test statistics >](../Statistics_Test.md)
 

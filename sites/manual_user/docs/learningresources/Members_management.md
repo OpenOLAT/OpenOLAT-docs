@@ -69,7 +69,7 @@ There are three specific course roles:
 Owners have all rights within a course and can access all menus of the [course administration](Administration/index.md). They create the course structure and usually create the OpenOlat course. The person who creates a course automatically becomes the course owner. Course owners can also add other owners to the course.
 
   *  **Coach**<br>
-Coaches typically accompany the running course, but are not involved in course creation. Course coaches have access to the assessment tool, the to-dos, the data collection preview, and the statistics. If a document folder has been activated for coaches, they also see it in the administration. Coaches also assess directly in the course. Depending on the configuration in the course editor, they may also have access to further options and functions of certain course elements.
+Coaches typically accompany the running course, but are not involved in course creation. Course coaches have access to the assessment tool, the to-dos, the data collection preview, and the statistics. If a document folder has been activated for coaches, they open it under `Course > Administration > Coach files`. Coaches also assess directly in the course. Depending on the configuration in the course editor, they may also have access to further options and functions of certain course elements.
 
   *  **Participant**<br>
 Participants are usually the learners, or the persons who take part in an online course. Participants can only act within the possibilities provided by the owners. By default, participants do not have access to the course administration and the menus it contains.
@@ -219,7 +219,7 @@ The granting of this permission should be carefully weighed for data protection 
 
 #### Assessment tool {: #right_assessment_tool}
 
-The "Administration" menu with the [assessment tool](Assessment_tool_overview/index.md) also appears.
+The "Administration" menu of the course with the [assessment tool](Assessment_tool_overview/index.md) also appears.
 
 Even without being entered as a coach in the course, members can assess and comment on all achievements of the participants this way. With this right, they also start and finish an exam with manual start in the assessment tool, see [Who can start and finish an exam manually](../learningresources/Assessment_mode.md#start_stop_rights).
 
@@ -267,7 +267,7 @@ If course-related terms of use or the course-related privacy policy are [activat
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](Course_Archiving/index.md)<br>
 [Course Administration: Overview >](Administration/index.md)<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Toolbar >](Course_Settings_Toolbar.md)<br>

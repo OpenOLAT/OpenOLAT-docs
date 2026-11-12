@@ -134,7 +134,7 @@ The import reads the sheets by their order, not by their name: the third sheet a
 
 If you plan many events at once, you book their rooms in the same pass with the import. The rooms are in the column "Rooms" in the sheet "Implementations". The import reads the column only for events (object type EVENT). For all other object types, it is empty in the export, and the import skips a value there without a message.
 
-Each room appears in the cell with the reference of its building and its own reference, separated by a colon, for example "BG_1:AULA". A semicolon separates several rooms: "BG_1:AULA;BG_1:H101". Both references are assigned by the administration in the [Rooms module](../../../manual_admin/administration/Modules_Rooms.md#rooms). The references of rooms that are already booked are in the export.
+Each room appears in the cell with the reference of its building and its own reference, separated by a colon, for example "BG_1:AULA". A semicolon separates several rooms: "BG_1:AULA;BG_1:H101". Both references are assigned by system administrators in the system administration in the [Rooms module](../../../manual_admin/administration/Modules_Rooms.md#rooms) under: `Administration > Modules > Rooms`. The references of rooms that are already booked are in the export.
 
 !!! warning "Attention"
 
@@ -216,10 +216,10 @@ The table shows the memberships from the "Memberships" sheet with the references
 
 **Mentioned on this page**<br>
 [Import/Export: Reference >](../Course_Planner_Import_Export_Reference.md)<br>
-[Modules: Overview (Administration) >](../../../manual_admin/administration/Modules/index.md)<br>
-[Module Rooms (Administration) >](../../../manual_admin/administration/Modules_Rooms.md)<br>
+[Modules: Overview (Administration manual) >](../../../manual_admin/administration/Modules/index.md)<br>
+[Module Rooms (Administration manual) >](../../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](../Course_Planner_Rooms.md)<br>
-[Email Settings (Administration) >](../../../manual_admin/administration/E-Mail_Settings.md)
+[Email Settings (Administration manual) >](../../../manual_admin/administration/E-Mail_Settings.md)
 
 **Further reading**<br>
 [Course Planner: Overview >](../Course_Planner/index.md)<br>

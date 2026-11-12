@@ -211,7 +211,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Course Settings - Tab Options >](../learningresources/Course_Settings_Options.md)<br>
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
 [File Hub Concept >](File_Hub_Concept.md)<br>
 [General information on the search >](Search_General/index.md)<br>
 [Installation guide >](../../manual_admin/installation/installGuide.md)

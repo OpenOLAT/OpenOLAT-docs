@@ -104,7 +104,7 @@ In the "Share" tab, you define how and for whom a course or learning resource is
 
 ![Tab "Catalog" active, between "Share" and "Terms of use"](../assets/course_settings_tab_catalog_v2_de.png){ class="shadow lightbox" title="Catalog tab in the course settings · 2026.10.02" }
 
-Here you add the course to one or more categories of catalog 1.0. You only see the tab if the administration has switched on catalog 1.0 and the course has the usage "Standalone".
+Here you add the course to one or more categories of catalog 1.0. You only see the tab if the course has the usage "Standalone" and the option "Catalog V1" is selected in the system administration under `Administration > Modules > Catalog > Tab "Settings"`.
 
 [For more details >](../Course_Settings_Catalog.md)<br>
 [To the top of the page ^](#course_settings)
@@ -114,7 +114,7 @@ Here you add the course to one or more categories of catalog 1.0. You only see t
 
 ![Tab "Terms of use" active, fifth in the tab bar](../assets/course_settings_tab_disclaimer_v2_en.png){ class="shadow lightbox" title="Terms of use tab in the course settings · 2026.10.29" }
 
-Here you store course-related terms of use and a course-related privacy policy that persons agree to before the course opens. You only see the tab if the administration has switched on the option "Course related terms of use and data protection".
+Here you store course-related terms of use and a course-related privacy policy that persons agree to before the course opens. You only see the tab if the option "Course related terms of use and data protection" is switched on in the system administration under `Administration > Modules > Course`.
 
 [For more details >](../Course_Settings_Disclaimer.md)<br>
 [To the top of the page ^](#course_settings)
@@ -131,7 +131,7 @@ In the Layout tab you determine how the course looks and how participants move t
 * and determine the style of the course elements.
 
 Which layout templates are available is determined by the system layout (theme) that applies to your entire OpenOlat instance. The "Default" template is always available. A uniform appearance for all courses (colors, fonts, logo) is therefore implemented centrally via a custom system layout, see [Layout](../../../manual_admin/administration/Customizing.md#layout). For a single course, choose the option "Customize...": there you set the font and colors for text, headings, links, menu and toolbox and upload a logo. In addition, you can store your own CSS files in the "courseCSS" folder of the course [Storage folder](../Storage_folder.md). They then appear in the selection as "from course folder". You open the storage folder under:<br>
-`Course > Administration > Storage folder`
+`Course > Administration > Files > Storage folder`
 
 In the "Navigation" section you can set the visibility of the menu and crumb navigation. In learning path courses you also specify whether the icons and the path are displayed in the menu ("Display icons in menu", "Display path in menu"). Depending on the linear or flexible scenario, one or the other variant offers itself.
 

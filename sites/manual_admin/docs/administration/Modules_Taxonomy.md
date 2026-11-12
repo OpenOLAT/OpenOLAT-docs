@@ -202,7 +202,7 @@ If one of these settings is missing, OpenOlat only assigns a level when the resu
 
 ### What the AI compares {: #ai_matching_maintenance}
 
-The title and the description of a taxonomy level decide whether the AI finds it. You maintain both under `Administration > Modules > Taxonomy` in the tab "Levels", not in the Media Center.
+The title and the description of a taxonomy level decide whether the AI finds it. You maintain both in the system administration under `Administration > Modules > Taxonomy` in the tab "Levels", not in the Media Center.
 
 OpenOlat compares the result of the AI with three entries per taxonomy level, in German and in English:
 
@@ -224,7 +224,7 @@ Which subject a media item receives depends on the trigger:
 
 The AI therefore supplies what the media item is about, and the taxonomy matching looks for the matching subject. Without the AI feature "Image Description Generator" this entry stays empty, and the taxonomy matching has nothing to compare. The assigned subject is a suggestion and can be changed in the metadata at any time.
 
-If the field "Subjects" stays empty although the AI has generated title, description and tags, first check whether a taxonomy is selected for the Media Center, or, if none is selected there, under `Administration > Modules > Learning resource`.
+If the field "Subjects" stays empty although the AI has generated title, description and tags, first check whether a taxonomy is selected for the Media Center, or, if none is selected there, in the system administration under `Administration > Modules > Learning resource`.
 
 [To the top of the page ^](#module_taxonomy)
 

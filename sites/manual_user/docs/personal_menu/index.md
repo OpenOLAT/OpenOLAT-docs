@@ -58,18 +58,18 @@ At the end of the menu you find the "Log out" function.
     * [Settings](../personal_menu/Settings.md)
     * [Password](../personal_menu/Password.md)
 
-The "Help" and "System" sections contain no personal data. Under "Help" you find the links that the administration has released for your installation, for example to the OpenOlat manual, to the OpenOlat Academy or to a support address. Under "System" you find system related functions such as "Print".
+The "Help" and "System" sections contain no personal data. Under "Help" you find the links that are released for your installation, for example to the OpenOlat manual, to the OpenOlat Academy or to a support address. System administrators define these links in the system administration under: `Administration > Customizing > Help`. Under "System" you find system related functions such as "Print".
 
 A detailed description of all tools is available on the page [User tools](Personal_Tools/index.md).
 
 
 ## Available tools {: #available_tools}
 
-The administration decides which tools are offered to you at all. In the system administration under `Administration > Core functions > User tools` it releases the tools that are available, and in the preset it defines which of them appear in the menu bar by default. Your personal menu can therefore contain more or fewer entries than are listed on this page.
+System administrators decide which tools are offered to you at all. In the system administration they release under `Administration > Core functions > User tools` the tools that are available, and in the preset they define which of them appear in the menu bar by default. Your personal menu can therefore contain more or fewer entries than are listed on this page.
 
 Accounts with the role Invitee only see Help, Subscriptions and Password in the personal menu as long as no further role is assigned to them.
 
-The sites of the top navigation bar, for example Courses, Groups or Catalog, do not belong to the personal menu. Whether you see a site is decided by the administration: the module must be active, the site must be activated and your role must be permitted. You cannot switch it on yourself. If a site is missing, first check the "More" menu on the right edge of the top navigation bar. The page [Sites and modules](../area_modules/index.md#conditions) describes what decides about a site.
+The sites of the top navigation bar, for example Courses, Groups or Catalog, do not belong to the personal menu. Whether you see a site is decided by system administrators in the system administration: the module must be active, the site must be activated and your role must be permitted. You cannot switch it on yourself. If a site is missing, first check the "More" menu on the right edge of the top navigation bar. The page [Sites and modules](../area_modules/index.md#conditions) describes what decides about a site.
 
 [Core functions: User tools (Administration manual) >](../../manual_admin/administration/Core_functions/index.md#personal_tools)
 

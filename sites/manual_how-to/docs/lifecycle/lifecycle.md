@@ -72,13 +72,13 @@ These presets apply to the whole system. Group coaches exclude individual groups
 
 ### Group life cycle [:octicons-tag-16:{ title="from Release 16.1 (OO-5190)" }](https://track.frentix.com/issue/OO-5190) {: #group_lifestyle}
 
-The group life cycle is managed by group managers, based on the default settings of the administration, under:<br>
+Group managers manage the group life cycle based on the default settings in the system administration, under:<br>
 `Groups > Tab "Group management"`
 
-Under `Groups > Tab "Group management"`, click on the big arrows with the description of the steps. The descriptions on the arrows reflect the administrator's default settings.
+Under `Groups > Tab "Group management"`, click on the big arrows with the description of the steps. The descriptions on the arrows reflect the default settings from the system administration.
 
 * In the first step, the arrow "I. Active groups", you will find all active groups listed.
-* In the "To inactivate" tab of this arrow you will see the groups proposed for inactivation, according to the administrator's rules.
+* In the "To inactivate" tab of this arrow you will see the groups proposed for inactivation, according to the rules from the system administration.
 * If you select one or more groups, buttons appear above the list.
 * With the buttons above the list or the link at the end of a list line you can now inactivate specific individual groups or use "Start inactivation" to inform about the upcoming inactivation. You can withdraw a started inactivation with "Cancel inactivation".
 
@@ -86,14 +86,14 @@ Under `Groups > Tab "Group management"`, click on the big arrows with the descri
 
 <br>
 
-* In the second step, the arrow "II. Inactive groups", you will find all already **inactive** groups listed.
-* If groups were automatically set to the status "Inactive" by the system, it is also possible to reactivate groups here.
+* In the second step, the arrow "II. Inactive groups", you will find all already inactive groups listed.
+* If OpenOlat has automatically set groups to the status "Inactive", you activate them again here with "Reactivate".
 
 ![Second arrow Inactive groups active, the list shows Inactivated on and Deletion date, the button Reactivate is on the right](assets/lifecycle_groups_inactive_v1_en.png){ class="shadow lightbox" title="Step Inactive groups in the tab Group management" }
 
 <br>
 
-* In the third step, the arrow "III. Deleted groups", you will find all **deleted** groups listed.
+* In the third step, the arrow "III. Deleted groups", you will find all deleted groups listed.
 * This list corresponds to the "Trash". The groups can be permanently deleted here, automatically or manually.
 
 ![Third arrow Deleted groups active, the list names Deleted on and Date of irrevocable deletion](assets/lifecycle_groups_deleted_v1_en.png){ class="shadow lightbox" title="Step Deleted groups in the tab Group management" }
@@ -105,9 +105,9 @@ Under `Groups > Tab "Group management"`, click on the big arrows with the descri
 
 ### Course life cycle {: #course_lifecycle}
 
-The course life cycle can be used by anyone who has access to the authoring area.
+Anyone who has access to the authoring area can use the course life cycle.
 
-The basis is the administrator's default settings:
+The basis is the default settings in the system administration under `Administration > Life cycles > Courses`:
 
 ![The three steps Finished, Delete (Trash) and Delete permanently with period and unit, below them the enforced notification of the owners](assets/lifecycle_course_admin_v1_en.png){ class="shadow lightbox" title="Page Courses in the system administration" }
 
@@ -132,27 +132,27 @@ How system administrators configure the periods, check the impacts in the confir
 
 ### Automatic user lifecycle [:octicons-tag-16:{ title="from Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460) {: #user_account_lifecycle}
 
-The automatic user lifecycle can be used by anyone who has access to the user administration.
+Anyone who has access to the user administration can use the automatic user lifecycle.
 
-The basis is the default settings of the administration:
+The basis is the default settings in the system administration:
 
 ![Marked area Automatic user lifecycle with explanatory text and run time, below it the enabled toggle and the period](assets/lifecycle_user2_admin_v2_en.png){ class="shadow lightbox" title="Area Automatic user lifecycle on the page User" }
 
 <br>
 
-The configuration is held in two separate areas. The area **Account expiration** takes effect when an account reaches the expiry date stored for it. The area **Automatic user lifecycle** takes effect when nobody logs in to the account any more. Whichever occurs first takes effect. [:octicons-tag-16:{ title="from Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
+The configuration is held in two separate areas. The area "Account expiration" takes effect when an account reaches the expiry date stored for it. The area "Automatic user lifecycle" takes effect when nobody logs in to the account any more. Whichever occurs first takes effect. [:octicons-tag-16:{ title="from Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
 
 The use of an account thus ends in three phases. The account expiration stands on its own, deactivation and deletion form the automatic user lifecycle:
 
 * **Account expiration**: The expiry date is stored per account. Once it is reached, OpenOlat deactivates the account.
 * **Deactivation**: Accounts without a login during the inactivity period are deactivated automatically or manually.
-* **Deletion**: After the deactivation period, permanent deletion occurs automatically or manually. Depending on the configuration, it can also be triggered exclusively manually.
+* **Deletion**: After the deactivation period, the account is permanently deleted automatically or manually. Depending on the configuration, the deletion can also be triggered exclusively manually.
 
 Notification emails can be configured for each phase, before or after the respective step.
 
 How far a single account has progressed through these phases is shown in the "Account" tab of the person, see [Manage user settings](../../manual_admin/usermanagement/Configure_User.md#automatic_user_lifecycle).
 
-!!! info "Configuration in the Administration"
+!!! info "Configuration in the system administration"
 
     Periods, email notifications and the level of automation for all three phases are configured in the system administration under:<br>
     `Administration > Life cycles > User`<br>
@@ -165,7 +165,7 @@ How far a single account has progressed through these phases is shown in the "Ac
 
 ### Implementation life cycle [:octicons-tag-16:{ title="from Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092) {: #implementation_lifecycle}
 
-Anyone who plans implementations in the Course Planner wants an implementation to start and finish at the right time without setting every status change by hand. For this, an implementation passes through the status values "Preparation", "Provisional" and "Confirmed" to "Finished" or "Cancelled". For its elements, for example semesters or modules, the status "Active" is available instead of "Provisional" and "Confirmed". If you change the status of an implementation, you can change the contained elements in the same step. "Confirmed" then becomes "Active" for the elements. Both sequences together are the implementation life cycle. Unlike the other three life cycles, it does not delete anything, and it is not under `Administration > Life cycles`.
+Anyone who plans implementations in the Course Planner wants an implementation to start and finish at the right time without setting every status change by hand. For this, an implementation passes through the status values "Preparation", "Provisional" and "Confirmed" to "Finished" or "Cancelled". For its elements, for example semesters or modules, the status "Active" is available instead of "Provisional" and "Confirmed". If you change the status of an implementation, you can change the contained elements in the same step. "Confirmed" then becomes "Active" for the elements. Both sequences together are the implementation life cycle. Unlike the other three life cycles, it does not delete anything, and it is not in the system administration under `Administration > Life cycles`.
 
 You can set the status values manually or via the automation. Time-controlled rules of the automation refer to the begin or the end of the execution period, other rules take effect on a status change. System administrators store the rules per element type in the system administration under:<br>
 `Administration > Modules > Course Planner > Tab Element types` [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)

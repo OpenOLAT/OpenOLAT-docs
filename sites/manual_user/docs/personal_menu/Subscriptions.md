@@ -59,7 +59,7 @@ You can also use **RSS** to keep informed about the changes (see below).
 How often you receive change notifications by e-mail, or whether you do not want to receive them at all, is set under:<br>
 `Personal menu > Settings > Tab "System" > General system settings > E-mail notification`
 
-OpenOlat itself sends the e-mails according to a schedule that the administration defines for the whole instance. If your interval ends between two runs of the sending, the e-mail only arrives with the next run. If you have chosen "Never", you receive no e-mail, but you still see the news here in the "News" tab. More about this: [Settings: E-mail notification](Settings.md#notification_interval)
+OpenOlat itself sends the e-mails according to a schedule that is set in the server configuration for the whole instance; by default, the sending runs every two hours. If your interval ends between two runs of the sending, the e-mail only arrives with the next run. If you have chosen "Never", you receive no e-mail, but you still see the news here in the "News" tab. More about this: [Settings: E-mail notification](Settings.md#notification_interval)
 
 If the **Portal** is activated, the change notifications are also displayed there under "My notifications".
 

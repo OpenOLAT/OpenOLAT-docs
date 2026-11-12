@@ -2,7 +2,7 @@
 
 
 Each learning resource has an [info page](../learningresources/General_Functions_Infopage.md). The owner of the learning resource can fill this page with content, and once the learning resource has been published, it is available to interested parties even before they access the learning resource, regardless of whether they have booked it. This is useful, for example, if you want to inform the target group in advance.<br>
-The information in the course administration in the "Info" tab is the essential content of the info page. Additional information for the info page comes from the "Metadata" and "Execution" tabs or is generated automatically.
+The information in the "Info" tab under `Course > Administration > Settings` is the essential content of the info page. Additional information for the info page comes from the "Metadata" and "Execution" tabs or is generated automatically.
 
 
 ## Set up info page {: #configure_info}

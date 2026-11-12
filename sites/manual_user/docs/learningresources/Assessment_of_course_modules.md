@@ -150,7 +150,7 @@ When the switch is on, the fields "Scaling factor" and "Score needed to pass" al
 [Course Element "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.md)<br>
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment of learners >](Assessment_of_learners.md)<br>
-[Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](Course_Archiving/index.md)<br>
 [Course Element "LTI Page" >](Course_Element_LTI_Page.md)
 
 **Further**<br>

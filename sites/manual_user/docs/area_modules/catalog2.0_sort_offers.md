@@ -35,7 +35,7 @@ The order can be set by clicking on the double arrows at the beginning of the li
 Within a launcher, the order of the offers depends on the launcher type:
 
 !!! note "Launcher type"
-    Configuration of launcher types in the administration.<br>
+    System administrators configure the launcher types in the system administration under: `Administration > Modules > Catalog > Tab "Launch page"`<br>
     [Launcher type >](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page)
 
 
@@ -72,8 +72,8 @@ If a launcher is to display subcategories, a launcher of the "taxonomy level" ty
 
 ![Launcher Course offerings with nine category tiles as sub-pages](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" title="Start page of the catalog" }
 
-The order of entries within the taxonomy launcher (order of subpages/categories in the catalog) is determined by the structure of the taxonomy and must therefore be changed via taxonomy.<br>
-`Administration > Modules > Taxonomy > Activation of a taxonomy for learning resources/catalog`
+The order of entries within the taxonomy launcher (order of subpages/categories in the catalog) is determined by the structure of the taxonomy. You therefore change it in the taxonomy, in the system administration under:<br>
+`Administration > Modules > Taxonomy > "Your taxonomy" > Tab "Levels"`
 
 Example: Taxonomy structure for the taxonomy launcher displayed above:
 
@@ -190,7 +190,7 @@ As a priority, you can select a preset boost value or enter your own boost value
 
 !!! info "Important"
 
-    Sorting by priority does not affect the sorting on the start page. There, the order of the offers is determined by the respective launcher types and the manual arrangement in the administration.
+    Sorting by priority does not affect the sorting on the start page. There, the respective launcher types and the manual arrangement in the system administration determine the order of the offers.
 
 
 [To the top of the page ^](#catalog_sort)

@@ -40,7 +40,7 @@ One time code and [Passkey](Passkey.md) do not exclude each other:
 * If only the one time code is activated, you log in with your password and a code sent by e-mail.
 * If Passkey is also activated and you have a passkey stored, the passkey acts as the second factor. The one time code then serves as a fallback in case no passkey is available yet.
 
-Whether and which methods are active is determined by the administration.
+Whether and which methods are active is defined by system administrators in the system administration, under: `Administration > Login > Password and authentication > Tab "Authentication"`
 
 [To the top of the page ^](#one_time_code)
 
@@ -50,6 +50,6 @@ Whether and which methods are active is determined by the administration.
 
 [Login Concept >](Login_Concept.md)<br>
 [Passkey >](Passkey.md)<br>
-[Login Page >](Login_Page.md)<br>
+[Login Page >](Login_Page.md)
 
 [To the top of the page ^](#one_time_code)

@@ -43,7 +43,7 @@ Which actions the **"More actions"** menu (three dots) at the end of a row offer
 ## Further information {: #further_information}
 
 [To-dos: basics >](../basic_concepts/To_Dos_Basics.md)<br>
-[Module To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.md)<br>
+[Module To-do (Administration manual) >](../../manual_admin/administration/Modules_ToDo.md)<br>
 [To-dos in the course >](../learningresources/Course_todos.md)<br>
 [Projects: To-dos >](../area_modules/Project_Todos.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>

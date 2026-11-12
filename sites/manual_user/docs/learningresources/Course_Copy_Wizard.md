@@ -42,7 +42,7 @@ If the ["Rooms" module](../../manual_admin/administration/Modules_Rooms.md) is a
 **Mentioned on this page**<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Copy (a course) >](Course_Copy.md)<br>
-[Module Rooms (Administration) >](../../manual_admin/administration/Modules_Rooms.md)<br>
+[Module Rooms (Administration manual) >](../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](../area_modules/Course_Planner_Rooms.md)
 
 **Further reading**<br>

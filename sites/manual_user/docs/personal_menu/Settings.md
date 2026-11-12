@@ -34,22 +34,26 @@ Under "Language" you select the language in which OpenOlat shows you the interfa
 
 #### E-mail notification {: #notification_interval}
 
+!!! info "Contact"
+
+    The schedule by which OpenOlat sends the notifications is part of the server configuration. For a change, contact your organisation.
+
 Under "E-mail notification" you set how often at most you receive an e-mail with the news from your subscriptions. You can choose between: "Never", "Every two hours", "Every four hours", "Every twelve hours", "Daily", "Weekly" and "Monthly". If you make no choice, "Daily" applies. Depending on the configuration of your OpenOlat instance, fewer intervals are available, or the field does not appear at all.
 
 The chosen frequency is an upper limit: OpenOlat only sends you an e-mail if there is something new in your subscriptions. With "Never" you no longer receive notifications by e-mail. This applies regardless of the schedule of the instance. The news is not lost: your subscriptions remain, and you can see the news yourself at any time under `Personal menu > Subscriptions > Tab "News"` or via the bell icon in the respective course element. More about this: [Subscriptions](Subscriptions.md#view_notifications)
 
-The e-mail does not arrive at the moment your interval expires, but at the next run of the system-wide sending. The administration defines this schedule, by default the sending runs every two hours. If your interval has expired at a run and there is news, you receive the e-mail. More about this: [Core functions: Notifications](../../manual_admin/administration/Core_functions/index.md#notifications)
+The e-mail does not arrive at the moment your interval expires, but at the next run of the system-wide sending. The schedule of this sending is defined by the server configuration for the whole instance; by default the sending runs every two hours. If your interval has expired at a run and there is news, you receive the e-mail. More about this: [Core functions: Notifications](../../manual_admin/administration/Core_functions/index.md#notifications)
 
-![Users can suppress the e-mail with «Never», even though the administration has set up the sending](assets/notifications_delivery_v1_en.svg){ class="shadow lightbox" title="Who decides whether a notification arrives?" }
+![Users can suppress the e-mail with «Never», even though the sending is set up for the whole instance](assets/notifications_delivery_v1_en.svg){ class="shadow lightbox" title="Who decides whether a notification arrives? · 2026.11.12" }
 
 #### E-mail delivery {: #mail_delivery}
 
-Under "E-mail delivery" you set where OpenOlat delivers your e-mails. The field only appears when the administration has switched on the OpenOlat inbox.
+Under "E-mail delivery" you set where OpenOlat delivers your e-mails. The field only appears when system administrators have switched on the OpenOlat inbox in the system administration: `Administration > Core functions > E-mail`.
 
   * "Send e-mails to the OpenOlat internal inbox": The messages stay in OpenOlat. You read them under `User tools > E-mail`. In the notification mail you also find a note about new e-mails in the OpenOlat inbox.
   * "Send e-mails to the OpenOlat internal inbox and the address ...": OpenOlat puts every message into the inbox and forwards it to the address shown as well. The address shown is the one from your profile. This is the permanent forwarding.
 
-Your choice overrides the system-wide default setting. If you make no choice, the default of the administration applies: [Email Settings](../../manual_admin/administration/E-Mail_Settings.md#e-mail-inbox-and-outbox).
+Your choice overrides the system-wide default setting. If you make no choice, the default of the system administration applies: [Email Settings](../../manual_admin/administration/E-Mail_Settings.md#e-mail-inbox-and-outbox).
 
 You can also forward a single message without this setting: [User tools: E-Mail](E-Mail.md#forward).
 
@@ -206,7 +210,7 @@ Here you find your saved adjustments, such as hidden table columns, and reset th
 Some AI features of OpenOlat work automatically, without you calling them. In the tab "AI settings" you decide for each of these features whether OpenOlat may use it for your answers and images. You find the tab under:<br>
 `Personal menu > System settings > Tab "AI settings"`
 
-The tab only appears if the administration has switched on at least one of the two features, and it only shows the rows of the switched-on features. Guests do not see the tab, for them the default of the administration always applies.
+The tab only appears if system administrators have switched on at least one of the two features in the system administration: `Administration > External tools > AI module`. It only shows the rows of the switched-on features. Guests do not see the tab, for them the default of the system administration always applies.
 
 ![AI settings tab with the highlighted rows AI feedback on free-text answers and AI image descriptions, each with the values Default (on), On and Off, so you see which choice applies to you](assets/pers_menu_settings_tab_ai_settings_v1_en.png){ class="shadow lightbox" title="AI settings tab of the personal settings · 2026.10.20" }
 
@@ -217,7 +221,7 @@ The tab shows one row per feature:
 
 In each row you select one of three values and then click "Save":
 
-* **"Default (on)" or "Default (off)"**: The setting of the administration for everyone applies. The addition in brackets shows whether the feature runs for you.
+* **"Default (on)" or "Default (off)"**: The setting that system administrators have made for everyone in the system administration applies. The addition in brackets shows whether the feature runs for you.
 * **"On"**: The feature runs for you, even if the default is "off".
 * **"Off"**: The feature does not run for you, even if the default is "on".
 
@@ -225,7 +229,7 @@ If the AI feedback is set to "Off", you answer free-text questions as usual, onl
 
 As long as "Default" is selected for the AI feedback, OpenOlat asks you at the start of a quiz with AI feedback whether the AI may correct your answers. More about this: [Consent to the AI correction](../basic_concepts/Content_Editor.md#ai_consent)
 
-If you selected "Always allow" in this dialog, the row here is set to "On". If you want to be asked again, select "Default" and click "Save". After that the default of the administration applies again. The option "Personalized interface components" under ["Reset configurations"](#reset) in the tab "System" sets your AI settings back to "Default".
+If you selected "Always allow" in this dialog, the row here is set to "On". If you want to be asked again, select "Default" and click "Save". After that the default of the system administration applies again. The option "Personalized interface components" under ["Reset configurations"](#reset) in the tab "System" sets your AI settings back to "Default".
 
 System administrators set the default for everyone in the AI module: [External tools: AI module](../../manual_admin/administration/External_Tools_AI.md#ai_functions)
 

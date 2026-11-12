@@ -8,7 +8,7 @@ The presentation of a course and its built-in course elements can be configured 
 
 ### Tab "Layout"
 
-In the "Layout" tab of the course settings, the default style of the display can be defined. These include: the selection of a background image, the definition of the style, and the assignment of a color category.
+In the tab "Layout" of the course settings, you define the default style of the display: `Course > Administration > Settings > Tab "Layout"`. These include: the selection of a background image, the definition of the style, and the assignment of a color category.
 
 Course owners can upload their own image (maximum 4 MB) for the display of the course elements, choose an image from the library, or do without an image altogether. The image can be positioned on the right or the left, displayed as a gradient on the right, or full-screen.
 
@@ -32,9 +32,9 @@ Further information about this course element can be left here for the coaches. 
 
 ### Tab "Layout"
 
-In the "Layout" tab of a course element, you can change and override the default settings made in the "Settings" of the course administration for each individual course element.
+In the tab "Layout" of a course element, you override for this course element the default settings from the tab "Layout" under `Course > Administration > Settings`.
 
-For the background image, the style, and the color category, you can choose between "Course default", "Inherited", and "Course element specific". Course default refers to the basic settings of the administration. Inherited refers to the setting of the parent course element. And with "Course element specific" you can make a special configuration for the selected course element.
+For the background image, the style, and the color category, you can choose between "Course default", "Inherited", and "Course element specific". Course default refers to the settings in the tab "Layout" of the course settings. Inherited refers to the setting of the parent course element. And with "Course element specific" you can make a special configuration for the selected course element.
 
 **Display**: Choose whether the information defined in the "Title and description" tab is displayed or not.
 

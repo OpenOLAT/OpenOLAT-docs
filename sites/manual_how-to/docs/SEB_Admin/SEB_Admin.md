@@ -256,8 +256,8 @@ You find the entry "Mark as exam" in the 3-dot menu of an event, in three places
 
 The following requirements must be met for this option to appear:
 
-- Exam mode must be enabled system-wide under `Administration > e-Assessment > Assessment management`. Without this activation, the option will not appear for anyone.
-- The option "Event can be marked as an exam" must apply to the course: in the course settings under `Course > Administration > Settings > Tab Execution` if the course overrides the default configuration, otherwise as default under `Administration > Modules > Events / Absences`.
+- Exam mode must be enabled system-wide, in the system administration under: `Administration > e-Assessment > Assessment management`. Without this activation, the option will not appear for anyone.
+- The option "Event can be marked as an exam" must apply to the course: in the course settings under `Course > Administration > Settings > Tab Execution` if the course overrides the default configuration, otherwise as default in the system administration under `Administration > Modules > Events / Absences`.
 - The event is not an online meeting. (For BBB/Teams events, "Mark as exam" is hidden.)
 
 The complete description is in the user manual: [If "Mark as exam" is missing](../../manual_user/learningresources/Toolbar_Events.md#mark_as_exam_missing)
@@ -344,11 +344,11 @@ As a rule, no further intervention should be made while the assessment mode is r
 [Website of the manufacturer >](http://www.safeexambrowser.org)<br>
 [How do I prepare an exam with the SEB? (for authors) >](../../manual_how-to/SEB/SEB.md)<br>
 [Assessment mode >](../../manual_user/learningresources/Assessment_mode.md)<br>
-[Assessment inspection > ](../../manual_user/learningresources/Assessment_inspection.md)<br>
-[Assessment management (Admin) > ](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md)<br>
-[Assessment management by course owners and coaches > ](../../manual_user/learningresources/Assessment_Management/index.md)<br>
+[Assessment inspection >](../../manual_user/learningresources/Assessment_inspection.md)<br>
+[e-Assessment Administration: Assessment management (Administration manual) >](../../manual_admin/administration/e-Assessment_AssessmentMgmt.md)<br>
+[Assessment management by course owners and coaches >](../../manual_user/learningresources/Assessment_Management/index.md)<br>
 [Events and Absences module >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Course Settings - Tab Execution >](../../manual_user/learningresources/Course_Settings_Execution.md)<br>
-[Toolbar: Events >](../../manual_user/learningresources/Toolbar_Events.md)<br>
+[Toolbar: Events >](../../manual_user/learningresources/Toolbar_Events.md)
 
 [To the top of the page ^](#SEB_admin)

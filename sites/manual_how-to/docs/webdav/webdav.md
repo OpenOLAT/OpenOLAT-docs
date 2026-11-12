@@ -109,9 +109,9 @@ your computer containing the following sub-directories:
 
   *  **coursefolders**: storage folder and folder course elements of all courses you own, or you are a member of. The storage folder is most and for all only visible to users holding author rights. All other users will find here course folders.
 
-    * _other_: This folder only appears if in the administration semester terms are activated. In this folder all courses which are not assigned to a semester term can be found.
+    * `_other`: This folder only appears if system administrators have switched on the option "Group courses by semester terms" or "Group courses by CPL elements" in the system administration: `Administration > Core functions > WebDAV`. In this folder all courses which are not assigned to a semester term or to a CPL element can be found.
 
-    * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life cycle. These are the courses which appear in the menu Courses in the tab "Finished".
+    * `_finished`: This folder only appears if neither of these two options is switched on. In this folder all courses can be found, which have been set to finished in the course life cycle. These are the courses which appear in the menu Courses in the tab "Finished".
 
     ![Marked option Group courses by semester terms, here switched off, page WebDAV access under Core functions of the system administration](assets/webdav_group_courses_by_semester_terms_v1_en.png){ class="shadow lightbox" title="Page WebDAV access in the Core functions" }
 

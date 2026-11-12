@@ -38,7 +38,7 @@ The API key cannot be used to log in to the OpenOlat web application; it is only
 API keys are generated in the user management, with the "Add API-Key" button in the "Authentications" tab of an account, see [Manage user settings](../usermanagement/Configure_User.md):<br>
 `User management > open the account > "Authentications" tab`
 
-To also allow users to generate a key themselves, activate the "Generation of API Key by user" option (disabled by default):<br>
+To also allow users to generate a key themselves, activate the "Generation of API Key by user" option in the system administration (disabled by default):<br>
 `Administration > Core functions > REST API > "Configuration" tab`
 
 !!! info "Important"
@@ -50,7 +50,7 @@ To also allow users to generate a key themselves, activate the "Generation of AP
 
 When the REST API is enabled, it can in principle be used by all users with an authenticated session. Often, however, access should be restricted to specific users.
 
-You define who may use the REST API with the "API access" selection, under:<br>
+You define who may use the REST API in the system administration with the "API access" selection, under:<br>
 `Administration > Core functions > REST API > "Configuration" tab`
 
 * **for all users**: access is open to all authenticated users.
@@ -108,7 +108,7 @@ If you build an external portal with a single sign-on process of your own, your 
 
 A single third-party system can send thousands of calls per minute or many calls at the same time to the REST API, for example when a synchronisation gets out of control. This load reaches the database and slows down the user interface for everyone working in OpenOlat. The request limit restricts the calls and so protects the user interface from the load of a third-party system. Third-party systems with an account of their own keep working in the meantime.
 
-You find the settings in the "Request limit (rate limiting)" section, under:<br>
+You find the settings in the system administration in the "Request limit (rate limiting)" section, under:<br>
 `Administration > Core functions > REST API > "Configuration" tab`
 
 The section appears as soon as the "Access REST API" switch is set to "On". It is available to system administrators.
@@ -332,7 +332,7 @@ In the SwaggerUI, you choose a server prefix and execute the listed requests wit
 
 ## Externally managed courses and groups {: #managed}
 
-Courses and groups can be created via the REST API. Such externally created courses and groups are called "managed", because an external system is the leading system for their data. You switch the use of this functionality on and off per object type in the "Managed objects" section, under:<br>
+Courses and groups can be created via the REST API. Such externally created courses and groups are called "managed", because an external system is the leading system for their data. You switch this functionality on and off in the system administration per object type in the "Managed objects" section, under:<br>
 `Administration > Core functions > REST API > "Configuration" tab`
 
 Via the REST API, the ID from the external system can be stored for courses and groups. For courses, an external reference can in addition make the course recognisable for users.

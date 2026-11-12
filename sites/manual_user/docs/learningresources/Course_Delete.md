@@ -4,7 +4,7 @@
 
 When a course or learning resource is deleted, it is moved to the trash. The course can now neither be accessed nor viewed by former participants or coaches.
 
-Course owners can then find the deleted learning resource in the "Deleted" tab in the author area. The learning resource appears here with the status "Trash". The administration menu items can still be accessed. The "Trash" status cannot be changed. However, it is possible to restore the learning resource via the link in the 3-dot menu.
+Course owners can then find the deleted learning resource in the "Deleted" tab in the author area. The learning resource appears here with the status "Trash". The menu items in the "Administration" menu of the learning resource remain accessible to them. The "Trash" status cannot be changed. However, it is possible to restore the learning resource via the link in the 3-dot menu.
 
 
 !!! info "Final deletion"
@@ -17,7 +17,7 @@ Course owners can then find the deleted learning resource in the "Deleted" tab i
 
 It is possible to inform other course owners via e-mail about the completion or deletion of a course. This can either be optionally selected in the Finish/Delete dialog or set system-wide by system administrators.
 
-If a learning resource has been deleted, the menu item "Restore" appears in the course administration. 
+For a deleted learning resource, the "Administration" menu shows the menu item "Restore" in place of "Delete", for a course under `Course > Administration > Restore`.
 
 A course can also be closed or deleted automatically. The settings for this are also made by system administrators.
 

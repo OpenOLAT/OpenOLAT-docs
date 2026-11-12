@@ -70,7 +70,7 @@ You reach the folders from various places. Consider which way is useful for the 
 Course-specific access path:
 
 - via opening a course element
-- via the administration menu (as an author or coach)
+- via the course administration (as an author or coach)
 - via an icon in the toolbar
 
 Cross-context access path, depending on permission:
@@ -367,7 +367,7 @@ Also remember that the size of individual files and the total storage of a folde
 [User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Document Pool >](../../manual_admin/administration/Modules_Document_pool.md)<br>
-[Course administration - Archiving & Reports >](../../manual_user/learningresources/Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](../../manual_user/learningresources/Course_Archiving/index.md)<br>
 [What measures can I take to reduce storage space consumption? >](../reduce_storage_consumption/reduce_storage_consumption.md)
 
 **Further reading**<br>

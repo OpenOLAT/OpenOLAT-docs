@@ -7,7 +7,7 @@ System administrators define here how account holders log in to OpenOlat, which 
 
 In the "Authentication" tab you determine how the login page offers the OpenOlat login and with which second factor account holders additionally identify themselves. The tab is divided into the sections "Configuration", "One time code" and "Security levels / Passkey". Every change in this tab takes effect immediately, there is no button for saving.
 
-![OpenOlat Login as input field, one time code off, passkey on, level 1 for all roles except user managers with level 2](assets/login_password_and_authentication_auth_v4_en.png){ class="shadow lightbox" title="Authentication tab in the Administration · 2026.10.31" }
+![OpenOlat Login as input field, one time code off, passkey on, level 1 for all roles except user managers with level 2](assets/login_password_and_authentication_auth_v4_en.png){ class="shadow lightbox" title="Authentication tab in the system administration · 2026.10.31" }
 
 ### Configuration [:octicons-tag-16:{ title="from Release 18.1.2 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) {: #configuration}
 
@@ -83,7 +83,7 @@ The table lists each role in a row and the three security levels as columns. The
 
 As a system administrator, you define here which criteria a password must fulfill. A minimum and maximum length must be defined. The rules apply as soon as you click "Save".
 
-![Minimum length 4 and maximum length 128, at least 1 letter and 1 digit or special sign, no forbidden values](assets/login_password_and_authentication_syntax_v4_en.png){ class="shadow lightbox" title="Password syntax tab in the Administration · 2026.10.31" }
+![Minimum length 4 and maximum length 128, at least 1 letter and 1 digit or special sign, no forbidden values](assets/login_password_and_authentication_syntax_v4_en.png){ class="shadow lightbox" title="Password syntax tab in the system administration · 2026.10.31" }
 
 #### Minimum length {: #minimum_length}
 
@@ -119,7 +119,7 @@ Here you define how often users have to change their password. The lifetime of t
 
 The policy concerns the OpenOlat password. Accounts that also log in via LDAP, Shibboleth or a cloud login are exempt from it.
 
-![Validity period 30 minutes, password change on first login off, no period for a new password, also not per role](assets/login_password_and_authentication_pw_change_policies_v4_en.png){ class="shadow lightbox" title="Password change policies tab in the Administration · 2026.10.31" }
+![Validity period 30 minutes, password change on first login off, no period for a new password, also not per role](assets/login_password_and_authentication_pw_change_policies_v4_en.png){ class="shadow lightbox" title="Password change policies tab in the system administration · 2026.10.31" }
 
 #### Password change validity period in minutes {: #password_change_validity_period}
 

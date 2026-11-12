@@ -3,6 +3,7 @@
 In the Groups module, system administrators define system-wide who is allowed to create groups, which rights group managers and learning resource managers receive in the group context, and which data privacy settings apply when members are added to groups and courses.
 
 !!! note "Navigation"
+    You find the Groups module in the system administration under:<br>
     `Administration > Modules > Groups`
 
 !!! tip "Data privacy"

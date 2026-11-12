@@ -1,4 +1,4 @@
-# Course administration - Archiving & Reports {: #course_archiving}
+# Course Administration: Archiving & Reports {: #course_archiving}
 
 [:octicons-tag-16:{ title="from Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504){:target="_blank"}
 
@@ -48,7 +48,7 @@ In the "Course archives" tab, you filter the list with "All archives", "Complete
 
 * Open the authoring area
 * Select the desired course
-* Click on the "Archiving & Reporting" option in the "Administration" area
+* In the "Administration" menu of the course, click "Archiving & Reporting": `Course > Administration > Archiving & Reporting`.
 * Then, select one of the two buttons "Create archive" in the "Course archiving" area.
 
 ![Finding Archiving & Reporting: in the open Administration menu of a course the entry Archiving & Reporting is highlighted](../assets/course_archiving_create_single_v2_en.png){ class="shadow lightbox" title="Administration menu of a course · 2026.10.22" }

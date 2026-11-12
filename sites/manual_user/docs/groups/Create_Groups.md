@@ -24,7 +24,7 @@ Optionally, you can give the group a more detailed description. It appears on th
 
 ### Foreseen number of participants
 
-When creating a group, or later in the group administration, you can optionally set a place limit by defining how many participants the group may have. If the foreseen number of participants is exceeded, group members receive a message that no places are left in the group. If you leave this field empty, the group can contain any number of participants.
+When creating a group, or later under `Group > Administration > Tab "Description"`, you can optionally set a place limit by defining how many participants the group may have. If the foreseen number of participants is exceeded, group members receive a message that no places are left in the group. If you leave this field empty, the group can contain any number of participants.
 
 !!! info "Info"
 
@@ -36,7 +36,8 @@ Activate the desired options as needed. If you have limited the number of partic
 
 ## Who can create a group? {: #found_a_group}
 
-If activated by system administrators under `Administration > Modules > Groups`, any OpenOlat user, not only authors, can independently create groups, assign the groups a variety of [tools](Using_Group_Tools.md), and invite or directly add any number of other OpenOlat users to the group.
+If system administrators have allowed it in the system administration, any OpenOlat user, not only authors, can independently create groups, assign the groups a variety of [tools](Using_Group_Tools.md), and invite or directly add any number of other OpenOlat users to the group. The setting "May create group" is in the system administration under:<br>
+`Administration > Modules > Groups`
 
 If you create a group, you automatically become the group coach. In this role, you get the "Administration" menu option for your group. There, in the "Members" tab, you can add further people (make them group members) and configure the rights of group members. For more information on adding members, see [here](../groups/Group_Membership.md).
 

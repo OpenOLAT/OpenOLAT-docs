@@ -9,7 +9,7 @@ After activation, additional settings for the system-wide configuration are avai
 
 ## Tab Configuration {: #tab_configuration}
 
-With the "Organisations" module, you map the company structure in organisations. Roles, rights and the visibility of courses and content can then depend on the organisation an account belongs to. In the "Configuration" tab, you switch on the module and the additional functions your organisation needs:<br>
+With the "Organisations" module, you map the company structure in organisations. Roles, rights and the visibility of courses and content can then depend on the organisation an account belongs to. In the "Configuration" tab in the system administration, you switch on the module and the additional functions your organisation needs:<br>
 `Administration > Modules > Organisations > Tab "Configuration"`
 
 The tab contains
@@ -28,7 +28,7 @@ If your organisation invoices courses, the customer number links each booking to
 
 ![Customer number section highlighted, Enable customer number toggle switched on, between Legal documents and Status](assets/organisations_tab_config_v3_en.png){ class="shadow lightbox" title="Configuration tab of the Organisations module · 2026.10.02" }
 
-You switch on the customer number in the "Customer number" section with the "Enable customer number" toggle:<br>
+You switch on the customer number in the system administration in the "Customer number" section with the "Enable customer number" toggle:<br>
 `Administration > Modules > Organisations > Tab "Configuration"`
 
 The section only appears once the Organisations module is switched on. By default, the toggle is off.
@@ -72,11 +72,13 @@ Select an organisation in the tree structure, or click "Edit" under its three do
 
 ![Empty Legal documents folder of a sub-organisation with the Upload files button](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" title="Legal documents tab of an organisation" }
 
+You find the "Legal documents" tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Legal documents"`<br>
 If the folder is activated under `Administration > Modules > Organisations > Tab "Configuration"`, OpenOlat shows this tab for every organisation. The administrative roles of an organisation, except authors, can also open the folder in the [File Hub](../../manual_user/personal_menu/File_Hub.md) under "Legal documents". Administrators of the organisation can store documents on organisation-specific matters there. The other administrative roles only have read access. [:octicons-tag-16:{ title="from Release 20.0 (OO-8233)" }](https://track.frentix.com/issue/OO-8233){:target="_blank"}
 
 ### Metadata {: #edit_metadata}
 
+You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Metadata"`
 ![Marked field Identifier with the greyed-out value default-org, below it the field Name with the value OpenOlat](assets/organisations_edit_tab_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab of the default organisation · 2026.10.02" }
 
@@ -92,6 +94,7 @@ The default organisation, shown in the image, is different: its identifier is al
 
 ### User management {: #edit_account_managment}
 
+You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "User management"`
 ![Add user menu with the roles from System administrator to User](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="User management tab of an organisation" }
 
@@ -108,6 +111,7 @@ The **role assignment** is possible
 
 ### Learning resources {: #edit_learning_resources}
 
+You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Learning resources"`
 !["Add courses" button above the still empty list of assigned courses](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" title="Learning resources tab of an organisation" }
 
@@ -123,6 +127,7 @@ You assign educational products to an organisation in the Course Planner, at the
 
 ### Line managers [:octicons-tag-16:{ title="from Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
 
+You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Line managers"`
 ![List of the rights for line managers from View courses and CPL products to View "Reset password" action, all still off, indented rights locked](assets/organisations_edit_tab_line_management_v2_en.png){ class="shadow lightbox" title="Line managers tab of an organisation · 2026.10.26" }
 
@@ -159,6 +164,7 @@ People with an [own role](../../manual_user/basic_concepts/Assign_Roles.md#role_
 
 ### Education managers [:octicons-tag-16:{ title="from Release 20.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #edit_education_manager}
 
+You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Education managers"`
 ![The same list of rights for education managers, here all set except Absence report and View credit points](assets/organisations_edit_tab_education_manager_v2_en.png){ class="shadow lightbox" title="Education managers tab of an organisation · 2026.10.26" }
 
@@ -166,6 +172,7 @@ Education managers see the same overview in Coaching as line managers and additi
 
 ### Billing addresses [:octicons-tag-16:{ title="from Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
 
+You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Billing addresses"`
 
 When a person books an offer with invoice, they select a billing address of their organisation instead of entering the address themselves. You store these billing addresses here for each organisation with "Create". The form opens in the "Edit billing address" dialog, also when you create a new address. The person can choose from the active billing addresses of the organisations in which they are a user.
@@ -181,6 +188,7 @@ If the [customer number](#customer_number) is switched on, a billing address of 
 
 ### E-mail domains mappings {: #edit_mail_domain}
 
+You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "E-mail domains mappings"`
 ![Still empty list of the e-mail domain mappings of an organisation with the Create e-mail domain mapping button](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of an organisation" }
 

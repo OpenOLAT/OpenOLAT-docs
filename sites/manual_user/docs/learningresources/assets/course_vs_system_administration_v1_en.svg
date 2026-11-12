@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 570" width="900" height="570" role="img" aria-label="Two menus called Administration: system administration for the whole instance, course administration for one course, and how the manual writes their click paths">
+  <rect x="0" y="0" width="900" height="570" fill="#F3F4EF"/>
+
+  <text x="40" y="52" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#126365">Two menus, one name</text>
+  <text x="40" y="80" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">In the interface, both menus are called "Administration". The click path in the manual says which one is meant.</text>
+
+  <!-- left column: system administration -->
+  <rect x="40" y="110" width="390" height="330" rx="10" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="1"/>
+  <rect x="40" y="110" width="390" height="52" rx="10" fill="#126365"/>
+  <rect x="40" y="146" width="390" height="16" fill="#126365"/>
+  <text x="60" y="143" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">System administration</text>
+
+  <text x="60" y="196" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">ENTRY POINT</text>
+  <text x="60" y="218" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Main navigation of OpenOlat</text>
+
+  <text x="60" y="256" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">APPLIES TO</text>
+  <text x="60" y="278" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">The whole OpenOlat instance</text>
+
+  <text x="60" y="316" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">CLICK PATH IN THE MANUAL</text>
+  <rect x="60" y="330" width="360" height="40" rx="6" fill="#EDEDED"/>
+  <text x="74" y="356" font-family="'Roboto Mono', 'Courier New', monospace" font-size="14" fill="#36464E">Administration &gt; Modules &gt; Course</text>
+  <text x="60" y="396" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">The sentence before it names it explicitly:</text>
+  <text x="60" y="416" font-family="'Roboto', sans-serif" font-size="14" font-style="italic" fill="#126365">«… in the system administration under …»</text>
+
+  <!-- right column: course administration -->
+  <rect x="470" y="110" width="390" height="330" rx="10" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="1"/>
+  <rect x="470" y="110" width="390" height="52" rx="10" fill="#5F6E23"/>
+  <rect x="470" y="146" width="390" height="16" fill="#5F6E23"/>
+  <text x="490" y="143" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Course administration</text>
+
+  <text x="490" y="196" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">ENTRY POINT</text>
+  <text x="490" y="218" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Top left in the open course</text>
+
+  <text x="490" y="256" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">APPLIES TO</text>
+  <text x="490" y="278" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Only this one course</text>
+
+  <text x="490" y="316" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">CLICK PATH IN THE MANUAL</text>
+  <rect x="490" y="330" width="360" height="40" rx="6" fill="#EDEDED"/>
+  <text x="504" y="356" font-family="'Roboto Mono', 'Courier New', monospace" font-size="14" fill="#36464E">Course &gt; Administration &gt; Settings</text>
+  <text x="490" y="396" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">The course comes first and makes the click</text>
+  <text x="490" y="416" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">path unambiguous.</text>
+
+  <!-- Faustregel -->
+  <rect x="40" y="464" width="820" height="70" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="60" y="493" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Rule of thumb: A click path that starts with "Administration" means the system administration.</text>
+  <text x="60" y="517" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Every other click path names its object first: Course, Group, Test, Question bank.</text>
+
+  <text x="828" y="558" font-family="'Roboto', sans-serif" font-size="13" fill="#767676">OpenOlat</text>
+</svg>

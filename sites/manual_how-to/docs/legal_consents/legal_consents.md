@@ -88,7 +88,7 @@ For part of this information, restrictions can be set in the system administrati
 There you specify which system roles are allowed to view the administrative user properties, for example during account searches or in lists. Which user properties are considered administrative is configured in the user properties.
 
 If you have any questions, please contact your system administrators.<br>
-You can find more information here: [Data Protection Module (Administration) >](../../manual_admin/administration/Modules/index.md#data_privacy)
+You can find more information here: [Data Protection Module (Administration manual) >](../../manual_admin/administration/Modules/index.md#data_privacy)
 
 [To the top of the page ^](#legal_consents)
 
@@ -163,7 +163,7 @@ For example, if Microsoft products such as Word, Excel, and PowerPoint are to be
 The course element "External Page" can transmit data about the current account to the external system via the HTTP header of the request in order to implement certain learning scenarios (username, email, first name, last name, and the user's current IP address).
 System administrators specify whether this data should be transmitted or not in the system administration under:<br>
 `Administration > Modules > External page`<br>
-Alternatively, this setting can also be configured under `Administration > Modules > Privacy`, in the section Data transmission within course element "external page".<br>
+Alternatively, they set this in the system administration in the section Data transmission within course element "external page", under: `Administration > Modules > Privacy`<br>
 However, OpenOlat has no control over what happens to this data on the external site.
 
 In OpenOlat, all external tools are configured in the system administration under:<br>

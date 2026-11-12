@@ -67,6 +67,6 @@ The complete column overview is shown on the page [Reports: Booking orders](../.
 [Course Planner: Certification programs >](../../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How do I plan and run a product with several courses with the Course Planner? >](../../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
-[Module Course Planner (Administration) >](../../../manual_admin/administration/Modules_Course_Planner.md)
+[Module Course Planner (Administration manual) >](../../../manual_admin/administration/Modules_Course_Planner.md)
 
 [To the top of the page ^](#reports)

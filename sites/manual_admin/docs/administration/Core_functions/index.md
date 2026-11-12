@@ -1,6 +1,6 @@
 # Core functions: Overview {: #core_config}
 
-![Basic settings of the whole system in sixteen areas, from language and region to licenses, in the expanded Core functions menu of the system administration](../assets/admin_core_config_overview_v4_en.png){ width="196" class="shadow lightbox aside-left-lg" title="Core functions menu in the administration · 2026.10.22" }
+![Basic settings of the whole system in sixteen areas, from language and region to licenses, in the expanded Core functions menu of the system administration](../assets/admin_core_config_overview_v4_en.png){ width="196" class="shadow lightbox aside-left-lg" title="Core functions menu in the system administration · 2026.10.22" }
 
 In the Core functions, system administrators define the basic settings that apply to the whole system: from language and landing pages to e-mail and files, up to the interfaces through which other systems access OpenOlat. The sections of this page follow the order of the menu. You find the menu in the system administration under:<br>
 `Administration > Core functions`
@@ -172,7 +172,7 @@ The schedule only determines when OpenOlat checks, not who receives an e-mail. A
 
 The two settings complement each other, they do not override each other. Anyone who has chosen "Never" receives no e-mail, even when the sending of the instance runs. If the sending of the instance is switched off, nobody receives an e-mail, whatever interval a person has chosen. In both cases no news is lost: every person sees it themselves under `Personal menu > Subscriptions > Tab "News"` and via the bell icon in the respective course element.
 
-![Users can suppress the e-mail with «Never», even though the administration has set up the sending](../assets/notifications_delivery_v1_en.svg){ class="shadow lightbox" title="Who decides whether a notification arrives?" }
+![Users can suppress the e-mail with «Never», even though the sending is set up for the whole instance](../assets/notifications_delivery_v1_en.svg){ class="shadow lightbox" title="Who decides whether a notification arrives? · 2026.11.12" }
 
 [To the top of the page ^](#core_config)
 

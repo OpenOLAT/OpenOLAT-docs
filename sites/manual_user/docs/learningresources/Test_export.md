@@ -220,7 +220,7 @@ If the test does not belong to a course, for example in the test statistics of a
 [Test statistics >](Statistics_Test.md)<br>
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
-[Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](Course_Archiving/index.md)<br>
 [Evaluate and manage tests >](../learningresources/Course_Element_Test/Test_Results.md)
 
 **Further**<br>

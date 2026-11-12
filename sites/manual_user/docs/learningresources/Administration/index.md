@@ -16,7 +16,24 @@ The "Administration" button is also available for coaches. They see fewer option
 
 Other learning resources also have the "Administration" menu, but the menu options there are not as extensive. They vary depending on the learning resource.
 
-Below you will find an overview of the "Administration" menu options for courses.
+The sections from [Settings](#settings) onwards give an overview of the "Administration" menu options for courses.
+
+
+## Course administration and system administration {: #course_vs_system_administration}
+
+In OpenOlat, two menus are called "Administration": the menu in an opened course and the menu item in the main navigation. If an instruction only says "Administration", it is therefore not immediately clear where to look. If you know the difference, you find a setting right away and know whether a change affects only one course or the whole OpenOlat instance.
+
+![System administration applies to the whole instance, course administration only to the opened course](../assets/course_vs_system_administration_v1_en.svg){ class="shadow lightbox" title="Two menus called Administration · 2026.11.12" }
+
+You open the course administration in the course at the top left with the "Administration" button. Everything you change there applies only to this one course: for example, you manage the members, build the course in the course editor or define its settings under `Course > Administration > Settings`.
+
+Which menu items you see depends on your role and your rights in the course: owners see all of them, coaches fewer, persons with individual rights from the members management the menu items for these rights. Two persons in the same course therefore see different menu items if their roles or rights differ. OpenOlat shows the "Administration" button as soon as your role or a right unlocks at least one menu item. The menu item "Settings" is visible to owners and to persons with the right "Course editor". Owners grant rights in the [Rights area of the members management](../Members_management.md#section_rights).
+
+System administrators reach the system administration via the menu item "Administration" in the main navigation; only they see this menu item. What they set there applies to the whole OpenOlat instance and thus to all courses. For example, they switch on the [modules](../../../manual_admin/administration/Modules/index.md) under `Administration > Modules` and define the [default settings](../../../manual_admin/administration/Modules_Course.md#default_settings) with which new courses start under `Administration > Modules > Course`. If you need a function that only the system administration can switch on, contact your organisation.
+
+In the manual, the click path shows which menu is meant. A click path into the course administration starts with the course: `Course > Administration > Settings`. A click path into the system administration starts with "Administration", and the sentence before it names the system administration, for example: in the system administration under `Administration > Modules > Course`. Other learning resources have their own "Administration" menu, and their click path starts with the learning resource, for example `Test > Administration > Settings`.
+
+[To the top of the page ^](#course_administration)
 
 
 ---

@@ -4,7 +4,7 @@
 
 ![Icon E-mail](assets/icon_e-mail.png)
 
-OpenOlat has an internal e-mail system that lets you send e-mails from various places. If the OpenOlat inbox is enabled, e-mails are also delivered internally. If not, all e-mails created in OpenOlat are sent exclusively to the personal e-mail address of the recipients. The administration enables the inbox: [Email Settings](../../manual_admin/administration/E-Mail_Settings.md).
+OpenOlat has an internal e-mail system that lets you send e-mails from various places. If the OpenOlat inbox is enabled, e-mails are also delivered internally. If not, all e-mails created in OpenOlat are sent exclusively to the personal e-mail address of the recipients. System administrators enable the inbox in the [Email Settings](../../manual_admin/administration/E-Mail_Settings.md) of the system administration: `Administration > Core functions > E-mail`.
 
 ## The inbox {: #inbox}
 

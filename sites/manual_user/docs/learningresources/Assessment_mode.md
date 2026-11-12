@@ -136,7 +136,7 @@ The choice only applies to this exam. The setting "Safe Exam Browser - Type of u
 
 **Template**: Appears with "From template (recommended)". With the two buttons you choose the source of the template:
 
-- **System**: Select one of the active configuration templates provided by the administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains selected until another template is chosen.
+- **System**: Select one of the active configuration templates provided by the system administration from the dropdown. The template marked as default is preselected. If a saved template is subsequently deactivated, it remains selected until another template is chosen.
 - **Custom**: Upload your own SEB-File with "Upload". OpenOlat reads the settings from the file, calculates the config key and displays the settings read-only. The file must not be encrypted.
 
 **Template type**: Shows whether the template is a "Form" or a "SEB-File". For a form, the button "Create a copy and customise it" appears next to it: it takes the values of the template into a "Customised" configuration that you can change for this exam.
@@ -205,9 +205,9 @@ Participants who have been assigned to an exam are informed about the start of t
 
 ![Dialog "Scheduled exam" with course, time period, lock notices and the request to use the Safe Exam Browser](assets/assessment_management_exam_info1_v1_en.png){ class="shadow lightbox" title="Notification for participants" }
 
-If the option "Manual" is selected under "Start / End mode", a person starts the exam themselves, for example the supervisor in the exam room as soon as everyone is ready. For this, the overview of the [assessment tool](Assessment_tool_overview/index.md) shows the button "Start exam" next to the exam in the area "Assessment mode". The button appears from the day on which the exam begins, not only at the configured time.
+If the option "Manual" is selected under "Start / End mode", a person starts the exam themselves, for example the supervisor in the exam room as soon as everyone is ready. For this, the overview of the [assessment tool](Assessment_tool_overview/index.md) shows the button "Start exam" next to the exam in the area "Assessment mode". You open the assessment tool under: `Course > Administration > Assessment tool`. The button appears from the day on which the exam begins, not only at the configured time.
 
-![Menu Administration with the entry Assessment tool and area Assessment mode with a scheduled exam and the button "Start exam" marked](assets/assessment_management_exam_coach_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool" }
+![Menu Administration of the course with the entry Assessment tool and area Assessment mode with a scheduled exam and the button "Start exam" marked](assets/assessment_management_exam_coach_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool" }
 
 If the exam starts later than planned, the prep time remains as configured. The end of the exam is postponed by the same time, so the configured exam duration remains the same.
 

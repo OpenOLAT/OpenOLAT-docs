@@ -2,7 +2,7 @@
 
 When you work in OpenOlat, you switch between the sites through the main navigation. This is the top row of every page (also called "header"). A site is an entry of the main navigation, for example Courses, Groups, Catalog or Coaching: a click on it leads to the functions of this site. What concerns only you, for example your calendar or your notes, you open through the [User tools](../personal_menu/Personal_Tools/index.md) instead.
 
-Which sites you see is controlled by three things: the module, the activation in the administration and your role. Every OpenOlat instance therefore composes and orders its main navigation differently. The following image shows what is possible: an instance with almost all available sites. Most instances offer fewer.
+Which sites you see is controlled by three things: the module, the activation in the system administration and your role. Every OpenOlat instance therefore composes and orders its main navigation differently. The following image shows what is possible: an instance with almost all available sites. Most instances offer fewer.
 
 ![Example of a well-filled main navigation: sixteen numbered sites, nine of them directly visible from Portal to Video Collection, the rest in the unfolded More menu](assets/sites_v2_en.png){ class="shadow lightbox" title="Example view with almost all available sites, not the standard of an instance" }
 

@@ -49,16 +49,16 @@ When new members are added, the roles "Group participant" and "Group coach" are 
 ![Group roles coach, participant or waiting list per group as checkboxes](assets/roles_rights_group_member_v1_de.png){ class="shadow lightbox" title="Step Permissions in the wizard Add member" }
 
 **Change roles of group members**<br>
-If a membership in a group already exists and you want to change the role of the person, you can do this (if you have the authorisation to edit) in the administration of the group:<br>
-`Groups > Administration > Tab "Members" > Icon with 3 dots at the end of the row > "Edit membership"`
+You change the role of an existing group member (if you have the authorisation to edit) in the administration of the group:<br>
+`Group > Administration > Tab "Members" > Icon with 3 dots at the end of the row > "Edit membership"`
 
 ![Three-dot menu of a member with the option Edit membership, marked](assets/roles_rights_groups_v1_de.png){ class="shadow lightbox" title="Members tab in the administration of the group" }
 ![Group roles coach, participant or waiting list as checkboxes for an existing member](assets/roles_rights_group_member_edit_v1_de.png){ class="shadow lightbox" title="Dialog Edit membership of the group" }
 
 
 **Assignment of the role group coach**<br>
-When you create a new group, you are automatically the coach of this group. Coaches of a group also receive the "Administration" link in the menu. You can then assign the role group coach to further people as well.<br>
-Procedure: `Groups > Administration > Tab "Members" > Icon with 3 dots at the end of the row > "Edit membership"`
+When you create a new group, you are automatically the coach of this group. Coaches of a group also receive the "Administration" link in the menu of the group. You can then assign the role group coach to further people as well.<br>
+Procedure: `Group > Administration > Tab "Members" > Icon with 3 dots at the end of the row > "Edit membership"`
 
 
 **Assignment of the role group manager**<br>

@@ -134,7 +134,7 @@ Owners of the course reset a survey with "Reset" in the menu with the three dots
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
 [Modules: Overview >](../../manual_admin/administration/Modules/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
-[Course administration - Archiving & Reports >](Course_Archiving/index.md)
+[Course Administration: Archiving & Reports >](Course_Archiving/index.md)
 
 **Further reading**<br>
 [Form elements >](Form_Elements/index.md)<br>

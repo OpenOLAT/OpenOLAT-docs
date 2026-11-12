@@ -30,8 +30,8 @@ Whoever creates a to-do finds the same fields in every module. Two entries exist
 | Field | Meaning | Available |
 |---|---|---|
 | Title | Names the task. Choose a self-explanatory title | everywhere, mandatory field |
-| Assigned | The person responsible for completing the task | everywhere, mandatory field except in the Course Planner; for personal to-dos only if the administration allows assignment to other persons |
-| Delegated | Execution can be delegated to other persons, also to changing persons over time. Responsibility remains with the assigned person | everywhere; for personal to-dos only if the administration allows delegation to other persons |
+| Assigned | The person responsible for completing the task | everywhere, mandatory field except in the Course Planner; for personal to-dos only if assignment to other persons is allowed in the system administration: `Administration > Modules > To-do` |
+| Delegated | Execution can be delegated to other persons, also to changing persons over time. Responsibility remains with the assigned person | everywhere; for personal to-dos only if delegation to other persons is allowed in the system administration: `Administration > Modules > To-do` |
 | Status | The processing state of the task | everywhere |
 | Priority | Urgent, High, Medium or Low | everywhere |
 | Start date | When the task starts. If a due date is also set, the detail area shows a progress bar | everywhere |
@@ -106,7 +106,7 @@ There is no setting that switches off e-mails about to-dos. When copying an impl
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)
 
 **Further reading**<br>
-[Module To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.md)<br>
+[Module To-do (Administration manual) >](../../manual_admin/administration/Modules_ToDo.md)<br>
 [Personal menu >](../personal_menu/index.md)
 
 [To the top of the page ^](#to_dos_basics)

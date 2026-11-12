@@ -110,6 +110,6 @@ With "Save and finish" participants submit the completed form. After that they c
 
 **Further reading**<br>
 [Forms in courses >](../learningresources/Forms_in_Courses.md)<br>
-[Course administration - Archiving & Reports >](Course_Archiving/index.md)
+[Course Administration: Archiving & Reports >](Course_Archiving/index.md)
 
 [To the top of the page ^](#course_element_form)

@@ -37,7 +37,7 @@ The folders and files are displayed in the File Hub according to the individual,
 
 However, the File Hub is also displayed in many other places whenever **files are to be selected**.
 
-To **display the contents of a folder**, you can find the File Hub, for example, in the course administration: `Course > Administration > Files`.
+To display the contents of a folder, you can find the File Hub, for example, in the course administration: `Course > Administration > Files`.
 
 [To the top of the page ^](#file_hub)
 

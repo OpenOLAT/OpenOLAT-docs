@@ -179,8 +179,8 @@ Für Systemadministrator:innen: [Systemweite Konfiguration der Einladung >](../.
 
 [Gruppe erstellen >](Create_Groups.de.md)<br>
 [Gruppenwerkzeuge nutzen >](Using_Group_Tools.de.md)<br>
-[Gruppe verlassen > ](Leave_a_Group.de.md)<br>
-[LTI-Zugang zu einer Gruppe konfigurieren > ](LTI_Share_groups.de.md)<br>
+[Gruppe verlassen >](Leave_a_Group.de.md)<br>
+[LTI-Zugang zu einer Gruppe konfigurieren >](LTI_Share_groups.de.md)<br>
 [Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br> ...für Systemadministrator:innen
 
 [Zum Seitenanfang ^](#group_membership)

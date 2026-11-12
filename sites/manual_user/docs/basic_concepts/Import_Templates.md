@@ -29,7 +29,7 @@ OpenOlat creates these templates itself when you open the import or click the li
 - **Import locations** in the Contact tracing module: The column names appear in the language of your user interface.
 - **Import topics** in the course element "Topic broker": The Excel template contains the columns of the custom fields with the input type "Text". The ZIP template for the files contains one folder per existing topic, in it one folder each for teaser image, teaser video and every custom field with the input type "File".
 
-This way you always get the columns that your instance requires. If the administration changes the user properties or you change the custom fields of a topic broker, download the template again before the next import.
+This way you always get the columns that your instance requires. If system administrators change the user properties or you change the custom fields of a topic broker, download the template again before the next import. The user properties are in the system administration under: `Administration > Customizing > User Properties`
 
 ### Example files delivered with OpenOlat {: #example_files}
 

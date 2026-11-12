@@ -25,7 +25,7 @@ Microsoft Windows, macOS, iOS, Android and Linux support WebDAV for file transfe
 
 To access a folder on OpenOlat via WebDAV, you need:
 
-  * WebDAV link: In a folder, you open it via the 3-dot menu with "WebDAV link". The window shows the link with the button "Copy to clipboard", see [Copy links and pass them on as a QR code](Navigation.md#url_field). The folder shows the entry if "Show WebDAV links" is switched on in the system administration. You find the same link in the [settings](../personal_menu/Settings.md#tab_webdav) of your personal menu under:<br>`Personal menu > Settings > Tab "WebDAV"`
+  * WebDAV link: In a folder, you open it via the 3-dot menu with "WebDAV link". The window shows the link with the button "Copy to clipboard", see [Copy links and pass them on as a QR code](Navigation.md#url_field). The folder shows the entry if "Show WebDAV links" is switched on in the system administration under `Administration > Core functions > WebDAV`. You find the same link in the [settings](../personal_menu/Settings.md#tab_webdav) of your personal menu under:<br>`Personal menu > Settings > Tab "WebDAV"`
   * Your OpenOlat username or, alternatively, the stored email address
   * Your OpenOlat/WebDAV password
 
@@ -100,9 +100,9 @@ In case of problems, go through the following points:
 
 Once you have set up the connection successfully, a directory opens on your computer that contains the following subdirectories:
 
-  * **coursefolders**: Here you have access to the [storage folders](../learningresources/Storage_folder.md) of all courses you own. A WebDAV folder is created automatically for each course. Click the WebDAV folder of a course and you see the files and the structure of the respective storage folder and can upload, delete, modify files, etc. In addition to the files and folders you create, OpenOlat automatically creates further folders depending on the configuration. You can also access these via WebDAV. Only the owners of a course see the storage folder. Coaches and participants only find the folders of the course elements "Folder" and embedded resource folders here, provided the system administration has enabled this access (see [WebDAV (Administration)](../../manual_admin/administration/WebDAV.md)).
+  * **coursefolders**: Here you have access to the [storage folders](../learningresources/Storage_folder.md) of all courses you own. A WebDAV folder is created automatically for each course. Click the WebDAV folder of a course and you see the files and the structure of the respective storage folder and can upload, delete, modify files, etc. In addition to the files and folders you create, OpenOlat automatically creates further folders depending on the configuration. You can also access these via WebDAV. Only the owners of a course see the storage folder. Coaches and participants only find the folders of the course elements "Folder" and embedded resource folders here, provided this access is enabled in the system administration under `Administration > Core functions > WebDAV`, see [WebDAV (Administration manual)](../../manual_admin/administration/WebDAV.md#access_courses).
 
-    * _other_: This folder only appears if the courses are grouped by semester terms or CPL elements in the system administration. This folder contains all courses that are _not_ assigned to a term or element.
+    * _other_: This folder only appears if "Group courses by semester terms" or "Group courses by CPL elements" is switched on in the system administration under `Administration > Core functions > WebDAV`. This folder contains all courses that are _not_ assigned to a term or element.
     * _finished_: This folder only appears if the courses are not grouped. This folder contains all courses with the status "Finished".
 
   * **groupfolders**: Here you find all groups you are a member of and whose folders you have access to.
@@ -118,11 +118,11 @@ Once you have set up the connection successfully, a directory opens on your comp
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
 [Various Types of Learning Resources >](../learningresources/index.md)<br>
-[Course administration - Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
+[Course Administration: Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
 [Navigation >](Navigation.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [FUSE website >](http://fuse.sourceforge.net)<br>
-[WebDAV (Administration) >](../../manual_admin/administration/WebDAV.md)
+[WebDAV (Administration manual) >](../../manual_admin/administration/WebDAV.md)
 
 **Further reading**<br>
 [Personal Configuration: Password >](../personal_menu/Password.md)

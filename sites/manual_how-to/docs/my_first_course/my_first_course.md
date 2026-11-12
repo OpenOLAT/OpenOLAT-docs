@@ -69,16 +69,16 @@ To complete this step, click on "<b>Create</b>".
 
 ---
 
-## 4. Make course settings {: #config_course} 
+## 4. Define course settings {: #config_course} 
 
-Immediately after the new course is created, you will get to the settings. In each of the tabs there you can make detailed specifications. For the beginning we will use the default settings. 
+Immediately after the new course is created, you will get to the settings. In each of the tabs you enter detailed specifications. For the beginning we will use the default settings. 
 Later on you can recall and edit these course settings at any time under `Course > Administration > Settings`.<br>
 The individual steps are explained in detail in the user manual: [Course Settings >](../../manual_user/learningresources/Course_Settings/index.md).<br>
 (This process is often referred to as course configuration. Unlike [configuration of course elements](#configure_course_elements).)
 
-![Menu Administration with entry Settings highlighted, plus the tabs from Info to Options](assets/course_settings_v1_en.png){ class="shadow lightbox" title="Course settings, tab Info" }
+![Menu Administration of the course with entry Settings highlighted, plus the tabs from Info to Options](assets/course_settings_v1_en.png){ class="shadow lightbox" title="Course settings, tab Info" }
 
-The settings made here <b>apply to the course as a whole</b>. If you have then inserted course elements in the next step, you can also make settings there. There, the settings apply only to the currently selected course element.
+The settings at this point apply to the course as a whole. As soon as you have inserted course elements in the next step, you also define settings there. There, the settings apply only to the currently selected course element.
 <br>
 !!! note "Note"
 
@@ -90,23 +90,23 @@ The settings made here <b>apply to the course as a whole</b>. If you have then i
 
 ## 5. Add course elements {: #add_course_elements} 
 
-An OpenOlat course consists of course elements. The order of the selected course elements is reflected in the <b>course menu</b>.
+An OpenOlat course consists of course elements. The order of the selected course elements is reflected in the course menu.
 
 ![Course with three course elements of the types single page, video and test](assets/graphic_course_elements_v1_en.png){ width=240px class="lightbox" title="Course built from course elements" }
 
-To edit and add new course elements, open the <b>course editor</b>. You can recognize that you are in the editor by the <b>shaded header</b>.
+To edit and add new course elements, open the course editor: `Course > Administration > Course editor`. You can recognize from the shaded header that the course editor is open.
 
-![Menu Administration opened, entry Course editor highlighted, header shaded](assets/course_editor_v1_en.png){ class="shadow lightbox" title="Course editor with menu Administration" }
+![Menu Administration of the course opened, entry Course editor highlighted, header shaded](assets/course_editor_v1_en.png){ class="shadow lightbox" title="Course editor with menu Administration of the course" }
 
-By clicking on the icon <b>"Insert course elements"</b> you open a selection of available course elements.
+By clicking on the icon "Insert course elements" you open a selection of available course elements.
 
 ![Icon Insert course elements highlighted, next to Quick-Add and Import course elements](assets/course_editor_insert_elements_v1_en.png){ class="shadow lightbox" title="Toolbar of the course editor" }
 
-Clicking on one of the listed elements will insert a course element of this type in the course.
+A click on one of the listed elements inserts a course element of this type into the course.
 
 ![Course elements in five groups, from Knowledge transfer to Other](assets/course_editor_element_select_v1_en.png){ class="shadow lightbox" title="Dialog Insert course elements" }
 
-After insertion, the course elements can be <b>moved</b> in the course menu with the <b>mouse button pressed</b>. If you drag a course element onto a structure element, it will be placed there as a subordinate element. (Structure elements can be collapsed so that their content is hidden and the menu becomes clearer).
+After insertion, the course elements can be moved in the course menu with the mouse button pressed. If you drag a course element onto a structure element, it will be placed there as a subordinate element. (Structure elements can be collapsed so that their content is hidden and the menu becomes clearer).
 
 ![Single page and Structure highlighted, the course element Video is placed under Structure](assets/course_editor_menu_v1_en.png){ class="shadow lightbox" title="Course menu in the course editor" }
 
@@ -205,9 +205,9 @@ When publishing (leaving the course editor) OpenOlat checks if the course is tec
 
 ## 9. Add members {: #add_members} 
 
-Your course is now ready to run, but has not yet the status "published". If you already know by name which people should have access to this course, you can add these people to the course as course members. To do this, go to the member administration of your course.
+Your course is now ready to run, but has not yet the status "published". If you already know by name which people should have access to this course, you add these people to the course as course members. To do this, open the members management of your course: `Course > Administration > Members management`.
 
-![Menu Administration opened, entry Members management highlighted](assets/members_management1_v1_en.png){ class="shadow lightbox" title="Menu Administration in the course" }
+![Menu Administration of the course opened, entry Members management highlighted](assets/members_management1_v1_en.png){ class="shadow lightbox" title="Menu Administration in the course" }
 
 ![Button Add member highlighted, the list shows one entry with the role Owner](assets/members_management2_v1_en.png){ class="shadow lightbox" title="Members management, section Members" }
 
@@ -221,9 +221,9 @@ Your course is now ready to run, but has not yet the status "published". If you 
 
 ## 10. Change status {: #change_status} 
 
-If a new course is created, it initially always has the <b>status "Preparation"</b>. This means that only you as the author can see the course. It is located in the workshop (authoring area) on your personal workbench, so to speak.
+If a new course is created, it initially always has the status "Preparation". This means that only you as the owner can see the course. It lies in the workshop (authoring area) on your personal workbench, so to speak.
 
-![Status Preparation highlighted, next to Administration](assets/status1_v1_en.png){ class="shadow lightbox" title="Toolbar of the course" }
+![Status Preparation highlighted, next to the menu Administration of the course](assets/status1_v1_en.png){ class="shadow lightbox" title="Toolbar of the course" }
 
 By clicking on "Preparation" you can select another status. The following states are possible:
 
@@ -235,12 +235,12 @@ Status| Access|
 ---|---|
 <b>Preparation</b> | Only owners of this course have access to it.|
 <b>Review</b> | Only owners of this learning resource have access. All preparations for this learning resource have been completed and the content has been released for further review.
-<b>Access for coach</b> | The course can be opened by coaches of this course in addition to the author (course owner).
-<b>Published</b> | The course can now also be found in the "Courses" area. It can be opened and visited by all authorized persons (participants, coaches, possibly guests).
+<b>Access for coach</b> | In addition to the owners, the coaches of this course also open the course.
+<b>Published</b> | The course can now also be found in the "Courses" area. All authorized persons (participants, coaches, possibly guests) open and visit it.
 <b>Finished</b> | The course can still be opened and viewed by course members, but no more edits are possible (tests, forms, etc.)
 
 
-To make your first own course visible to other OpenOlat users now, change the status to <b>"Published"</b>. The course has then been brought from your workbench to the sales floor, so to speak.
+To make your first own course visible to other OpenOlat users now, change the status to "Published". The course has then been brought from your workbench to the sales floor, so to speak.
 
 [To the top of the page ^](#my_first_course)
 

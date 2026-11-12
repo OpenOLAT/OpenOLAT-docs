@@ -1,6 +1,6 @@
 # e-Assessment Administration: ePortfolio {: #portfolio}
 
-The administration switches ePortfolio 2.0 on or off under `Administration > e-Assessment > ePortfolio` and defines to what extent participants may create and use their own binders.
+In the system administration under `Administration > e-Assessment > ePortfolio`, you switch ePortfolio 2.0 on or off and define to what extent participants may create and use their own binders.
 
 #### Activate ePortfolio {: #eportfolio_enabled}
 
@@ -34,7 +34,7 @@ Defines in which view the entries of a binder are shown: table view, list view, 
 
 Switches the linking of taxonomies with the ePortfolio on or off. For participants to be able to assign taxonomies to their portfolio entries and use them in the [ePortfolio](../../manual_user/area_modules/Competences_tags.md), this option must be active.
 
-![Enable taxonomy linking and linked taxonomies; Administration > e-Assessment > ePortfolio](assets/Tax%20eP%20aktivieren%20EN.png){ class="shadow lightbox" }
+![Highlighted: taxonomy linking switched on and a taxonomy selected under "Linked taxonomies"](assets/Tax%20eP%20aktivieren%20EN.png){ class="shadow lightbox" title="Page ePortfolio in the system administration" }
 
 #### Linked taxonomies {: #linked_taxonomies}
 
