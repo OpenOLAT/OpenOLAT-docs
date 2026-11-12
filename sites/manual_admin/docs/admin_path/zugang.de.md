@@ -172,7 +172,7 @@ Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit
 Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
 - **Login:** [Sicherheit](../administration/Login_Security.de.md).
-- **Authentifizierung:** [Lokale OpenOlat-Authentifizierung](../../manual_user/login_registration/Login_Concept.de.md), Login für Administratoren, [Cloud Login](../administration/Login/index.de.md), [Passkey](../../manual_user/login_registration/Passkey.de.md) und weitere.
+- **Authentifizierung:** [Lokale OpenOlat-Authentifizierung](../../manual_user/login_registration/Login_Concept.de.md), Login für Administratoren, [Cloud Login](../administration/Login_Cloud_Login.de.md), [Passkey](../../manual_user/login_registration/Passkey.de.md) und weitere.
 - **Selbstregistrierung:** [Registrierung](../../manual_user/login_registration/index.de.md). Mehr dazu auf der Seite [Selbstregistration](../administration/Login_Self-Registration.de.md).
 
 ## Weiterführende Informationen {: #further_information}
@@ -185,10 +185,13 @@ Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war:
 [Passkey >](../../manual_user/login_registration/Passkey.de.md)<br>
 [One Time Code >](../../manual_user/login_registration/One_Time_Code.de.md)<br>
 [Sicherheit >](../administration/Login_Security.de.md)<br>
+[Cloud-Login >](../administration/Login_Cloud_Login.de.md)<br>
 [Login und Registrierung >](../../manual_user/login_registration/index.de.md)
 
 **Weiterführend**<br>
 [Passwort und Authentifizierung >](../administration/Login_Password_and_Authentication.de.md)<br>
+[Shibboleth >](../administration/Login_Shibboleth.de.md)<br>
+[LDAP >](../administration/Login_LDAP.de.md)<br>
 [Anonyme Gäste und externe Benutzer:innen >](../administration/Guest_and_invitation.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 

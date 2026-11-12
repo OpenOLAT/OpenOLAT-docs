@@ -155,7 +155,7 @@ The installation is running. Now the things that did not matter at the start pay
 
 **Mentioned on this page**<br>
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
-[Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management/index.md)<br>
+[Assessment management: Overview >](../../manual_user/learningresources/Assessment_Management/index.md)<br>
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
 [External tools: AI module >](../administration/External_Tools_AI.md)<br>
 [LTI 1.3 Integrations >](../administration/LTI_Integrations/index.md)<br>

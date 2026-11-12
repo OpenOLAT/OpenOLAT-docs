@@ -61,7 +61,7 @@ Switches meeting recording on or off for the whole instance. If it is switched o
 
 To switch it on, OpenOlat needs a key which protects the access tokens in the server configuration. If the key is missing, the section shows a warning, the switch cannot be switched on, and OpenOlat does not download any recordings.
 
-The function changes the login via "Microsoft Azure AD". If the module "Microsoft Teams" and the function "Meeting recording" are switched on, OpenOlat additionally requests from Microsoft at every such login the permission to read recordings of online meetings. You add this permission in Microsoft Azure in the app registration through which OpenOlat logs in to Microsoft (Azure app). It is the app whose "Client ID" is entered in the system administration under `Administration > Login > Cloud login` for "Microsoft Azure Active Directory". In this app registration, add the delegated permission `OnlineMeetingRecording.Read.All` in the API permissions: with it, OpenOlat reads the recordings on behalf of the logged-in person. It only takes effect once an administrator of your Microsoft tenant grants consent to it, that is the administration on the Microsoft side. The tenant is the Microsoft 365 environment of your organisation in Microsoft Entra ID, formerly Azure AD. If the consent is missing, Microsoft asks for the approval of an administrator at login, and the login via "Microsoft Azure AD" fails for persons without administrator rights in the tenant. [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+The function changes the login via "Microsoft Azure AD". If the module "Microsoft Teams" and the function "Meeting recording" are switched on, OpenOlat additionally requests from Microsoft at every such login the permission to read recordings of online meetings. You add this permission in Microsoft Azure in the app registration through which OpenOlat logs in to Microsoft (Azure app). It is the app whose "Client ID" is entered in the system administration under `Administration > Login > Cloud login` for "Microsoft Azure Active Directory", see [Cloud login: Microsoft Azure Active Directory](Login_Cloud_Login.md#azure). In this app registration, add the delegated permission `OnlineMeetingRecording.Read.All` in the API permissions: with it, OpenOlat reads the recordings on behalf of the logged-in person. It only takes effect once an administrator of your Microsoft tenant grants consent to it, that is the administration on the Microsoft side. The tenant is the Microsoft 365 environment of your organisation in Microsoft Entra ID, formerly Azure AD. If the consent is missing, Microsoft asks for the approval of an administrator at login, and the login via "Microsoft Azure AD" fails for persons without administrator rights in the tenant. [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
 
 ![Three levels of permissions at the login via Azure AD, the third one needs consent in the tenant](assets/teams_module_azure_permissions_v1_en.svg){ class="shadow lightbox" title="Permissions of the login via Microsoft Azure AD · 2026.11.12" }
 
@@ -114,7 +114,8 @@ With "Month", "Week", "Day" and "Year" you switch the view, "Year" lists the onl
 **Mentioned on this page**<br>
 [External Tools: Overview >](External_Tools_-_Administration/index.md)<br>
 [Course Element "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)<br>
-[BigBlueButton module >](BigBlueButton_module.md)
+[BigBlueButton module >](BigBlueButton_module.md)<br>
+[Cloud login >](Login_Cloud_Login.md)
 
 **Further reading**<br>
 [Using Group Tools >](../../manual_user/groups/Using_Group_Tools.md)<br>

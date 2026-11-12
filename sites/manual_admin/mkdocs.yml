@@ -23,6 +23,9 @@ nav:
       - "administration/Login/index.md"
       - Security: "administration/Login_Security.md"
       - Password and Authentication: "administration/Login_Password_and_Authentication.md"
+      - Cloud login: "administration/Login_Cloud_Login.md"
+      - Shibboleth: "administration/Login_Shibboleth.md"
+      - LDAP: "administration/Login_LDAP.md"
       - Anonymous guests and external users: "administration/Guest_and_invitation.md"
       - Self-registration : "administration/Login_Self-Registration.md"
     - Modules:
@@ -106,13 +109,3 @@ nav:
     - Alternative installation environments:
       - MySQL DB: "installation/mysql.md"
       - Windows support: "installation/windows.md"
-      
-
-
-      
-
-# TODO
-# - hardware requirements
-# - Shibboleth
-# - services: handbrake, imagemagik, athenapdf, covid-cert
-# - addons: hints to bbb, onlyoffice...

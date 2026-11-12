@@ -164,7 +164,7 @@ This station has no deeper parts. The next station is waiting.
 [Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles/index.md)<br>
 [Module Organisations >](../administration/Modules_Organisations.md)<br>
 [User management >](../usermanagement/index.md)<br>
-[Create user >](../usermanagement/Create_User.md)<br>
+[Create account >](../usermanagement/Create_User.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>
 [Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights/index.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)

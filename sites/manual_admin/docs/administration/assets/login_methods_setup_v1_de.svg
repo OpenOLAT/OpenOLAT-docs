@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="460" viewBox="0 0 940 460" role="img" aria-labelledby="t d">
+  <title id="t">Login-Verfahren in OpenOlat und wo sie eingerichtet werden</title>
+  <desc id="d">Die Authentifizierung umfasst OpenOlat-Passwort, Cloud-Login, LDAP und Shibboleth. LDAP und Shibboleth setzen die Serverkonfiguration voraus, danach erscheinen sie in der System-Administration im Menü Login. OpenOlat-Passwort und Cloud-Login richten Systemadministrator:innen direkt im Menü Login ein.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="940" height="460" fill="#FFFFFF"/>
+
+  <!-- Titel -->
+  <text x="20" y="34" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#342C24">Login-Verfahren und wo sie eingerichtet werden</text>
+
+  <!-- Oberbegriff -->
+  <rect x="456" y="54" width="200" height="44" rx="10" fill="#126365"/>
+  <text x="556" y="82" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Authentifizierung</text>
+
+  <!-- Verbindungslinien zu den Verfahren -->
+  <g stroke="#0F5456" stroke-width="1.5" fill="none">
+    <path d="M556,98 L556,114 L270,114 L270,134"/>
+    <path d="M556,114 L457,114 L457,134"/>
+    <path d="M556,114 L645,114 L645,134"/>
+    <path d="M556,114 L832,114 L832,134"/>
+  </g>
+
+  <!-- Verfahren -->
+  <g font-family="'Roboto', sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+    <rect x="185" y="134" width="170" height="44" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+    <text x="270" y="161" fill="#126365">OpenOlat-Passwort</text>
+    <rect x="372" y="134" width="170" height="44" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+    <text x="457" y="161" fill="#126365">Cloud-Login</text>
+    <rect x="560" y="134" width="170" height="44" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+    <text x="645" y="161" fill="#126365">LDAP</text>
+    <rect x="747" y="134" width="170" height="44" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+    <text x="832" y="161" fill="#126365">Shibboleth</text>
+  </g>
+
+  <!-- Bahn 1: Serverkonfiguration -->
+  <rect x="10" y="200" width="920" height="84" rx="10" fill="#126365" fill-opacity="0.12"/>
+  <text x="22" y="226" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#342C24">Serverkonfiguration</text>
+  <text x="22" y="245" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">Betrieb der Installation,</text>
+  <text x="22" y="260" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">bei frentix-Kund:innen</text>
+  <text x="22" y="275" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">die Kundenberatung</text>
+
+  <g font-family="'Roboto', sans-serif" font-size="13" text-anchor="middle">
+    <text x="270" y="247" fill="#2D2926">nicht nötig</text>
+    <text x="457" y="247" fill="#2D2926">nicht nötig</text>
+    <rect x="560" y="212" width="170" height="60" rx="8" fill="#F2AF40"/>
+    <text x="645" y="237" fill="#2D2926" font-weight="700">LDAP einschalten</text>
+    <text x="645" y="256" fill="#2D2926">Verbindung zum Verzeichnis</text>
+    <rect x="747" y="212" width="170" height="60" rx="8" fill="#F2AF40"/>
+    <text x="832" y="237" fill="#2D2926" font-weight="700">Shibboleth einschalten</text>
+    <text x="832" y="256" fill="#2D2926">Basiskonfiguration</text>
+  </g>
+
+  <!-- Bahn 2: Administration > Login -->
+  <rect x="10" y="300" width="920" height="84" rx="10" fill="#126365" fill-opacity="0.12"/>
+  <text x="22" y="336" font-family="'Roboto', sans-serif" font-size="14" font-weight="700" fill="#342C24">Administration</text>
+  <text x="22" y="356" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">Menü Login</text>
+
+  <g font-family="'Roboto', sans-serif" font-size="13" text-anchor="middle">
+    <rect x="185" y="312" width="170" height="60" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+    <text x="270" y="337" fill="#126365" font-weight="700">Passwort und</text>
+    <text x="270" y="356" fill="#126365" font-weight="700">Authentifizierung</text>
+    <rect x="372" y="312" width="170" height="60" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+    <text x="457" y="337" fill="#126365" font-weight="700">Cloud-Login</text>
+    <text x="457" y="356" fill="#2D2926">Provider hinzufügen</text>
+    <rect x="560" y="312" width="170" height="60" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+    <text x="645" y="337" fill="#126365" font-weight="700">LDAP</text>
+    <text x="645" y="356" fill="#2D2926">Synchronisation, Konten</text>
+    <rect x="747" y="312" width="170" height="60" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+    <text x="832" y="337" fill="#126365" font-weight="700">Shibboleth</text>
+    <text x="832" y="356" fill="#2D2926">Attribute Access Control</text>
+  </g>
+
+  <!-- Pfeile: Serverkonfiguration macht den Menüeintrag sichtbar -->
+  <g stroke="#0F5456" stroke-width="1.5" fill="none" marker-end="url(#arr)">
+    <path d="M645,272 L645,310"/>
+    <path d="M832,272 L832,310"/>
+    <path d="M270,256 L270,310" stroke-dasharray="4 4"/>
+    <path d="M457,256 L457,310" stroke-dasharray="4 4"/>
+  </g>
+  <g stroke="#0F5456" stroke-width="1.5" fill="none">
+    <path d="M270,178 L270,232" stroke-dasharray="4 4"/>
+    <path d="M457,178 L457,232" stroke-dasharray="4 4"/>
+    <path d="M645,178 L645,212"/>
+    <path d="M832,178 L832,212"/>
+  </g>
+  <text x="740" y="295" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="11" fill="#0F5456">erst dann im Menü sichtbar</text>
+
+  <!-- Fusszeile: Sicht auf ein einzelnes Konto -->
+  <rect x="10" y="402" width="920" height="44" rx="10" fill="#FFFFFF" stroke="#126365" stroke-width="1"/>
+  <text x="22" y="429" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Welche Verfahren ein einzelnes Konto hat: <tspan font-weight="700" fill="#126365">Benutzerverwaltung &gt; "Konto der Person" &gt; Reiter "Authentifizierungen"</tspan></text>
+</svg>

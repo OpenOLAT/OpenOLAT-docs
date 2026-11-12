@@ -170,7 +170,7 @@ Your customer advisor at frentix supports you with the setup through support and
 The installation is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the installation more precisely.
 
 - **Login:** [Security](../administration/Login_Security.md).
-- **Authentication:** [Local OpenOlat authentication](../../manual_user/login_registration/Login_Concept.md), Login for administrators, [Cloud login](../administration/Login/index.md), [Passkey](../../manual_user/login_registration/Passkey.md) and more.
+- **Authentication:** [Local OpenOlat authentication](../../manual_user/login_registration/Login_Concept.md), Login for administrators, [Cloud login](../administration/Login_Cloud_Login.md), [Passkey](../../manual_user/login_registration/Passkey.md) and more.
 - **Self-registration:** [Registration](../../manual_user/login_registration/index.md). More on the page [Self-registration](../administration/Login_Self-Registration.md).
 
 ## Further information {: #further_information}
@@ -183,10 +183,13 @@ The installation is running. Now the things that did not matter at the start pay
 [Passkey >](../../manual_user/login_registration/Passkey.md)<br>
 [One Time Code >](../../manual_user/login_registration/One_Time_Code.md)<br>
 [Security >](../administration/Login_Security.md)<br>
+[Cloud login >](../administration/Login_Cloud_Login.md)<br>
 [Login and Registration >](../../manual_user/login_registration/index.md)
 
 **Further reading**<br>
 [Password and Authentication >](../administration/Login_Password_and_Authentication.md)<br>
+[Shibboleth >](../administration/Login_Shibboleth.md)<br>
+[LDAP >](../administration/Login_LDAP.md)<br>
 [Anonymous guests and external users >](../administration/Guest_and_invitation.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 

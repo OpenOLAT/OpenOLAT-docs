@@ -22,6 +22,8 @@ Welchen Weg Sie nehmen, hängt davon ab, wo Ihr Konto liegt. Es gibt drei Mögli
 * **Mit einem lokalen OpenOlat-Konto.** Anmeldename und Passwort sind hier in OpenOlat gespeichert. Wo Sie beides eingeben, legt Ihre Organisation fest: Entweder steht die Eingabe direkt auf der Login-Seite, eingeleitet mit "Bitte melden Sie sich mit Ihrem persönlichen Anmeldenamen und Passwort an.", oder sie liegt hinter dem Button "Mit OpenOlat Konto anmelden". [:octicons-tag-16:{ title="ab Release 18.1 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) Sie geben zuerst den Anmeldenamen ein und klicken auf "Anmelden". Danach fragt OpenOlat nach dem Passwort oder, wenn Sie einen Passkey eingerichtet haben, nach dem Passkey.
 * **Ohne Konto.** "Gastzugang" und "Entdecken Sie unsere Angebote" geben Einblick ohne Anmeldung, "Hier registrieren" legt ein eigenes Konto an, sofern Ihre Organisation die Selbstregistrierung erlaubt.
 
+Sehen Sie mehrere Anmeldewege, hat Ihre Organisation sie für verschiedene Personengruppen eingerichtet, zum Beispiel "Microsoft Azure AD" für Mitarbeitende und das OpenOlat-Konto für externe Personen. Sie wählen den Weg, über den Ihre Organisation Ihnen Ihre Zugangsdaten gegeben hat. Mehr dazu unter [Mehrere Login-Verfahren kombinieren](Login_Concept.de.md#combined_login_methods).
+
 Je nach Sicherheitsstufe folgt nach dem Passwort ein zweiter Schritt: eine Bestätigung per [Passkey](Passkey.de.md) oder die Eingabe eines [One Time Code](One_Time_Code.de.md), den OpenOlat Ihnen per E-Mail zustellt. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
 
 ## Ich komme nicht hinein {: #no_access}

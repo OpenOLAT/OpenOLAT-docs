@@ -68,3 +68,51 @@ overrides:
     field: man
     value: manual_user/area_modules/Course_Planner/index
     register: 46
+  - key: assessment.assessment_management
+    field: man
+    value: manual_user/learningresources/Assessment_Management/index
+    register: 55
+  - key: assessment.assessment_tool
+    field: man
+    value: manual_user/learningresources/Assessment_tool_overview/index
+    register: 55
+  - key: roles.role_administrator
+    field: man
+    value: manual_user/basic_concepts/Roles/index
+    register: 53
+  - key: roles.role_author
+    field: man
+    value: manual_user/basic_concepts/Roles/index
+    register: 53
+  - key: roles.role_rolesmanager
+    field: man
+    value: manual_user/basic_concepts/Roles/index
+    register: 53
+  - key: roles.role_sysadmin
+    field: man
+    value: manual_user/basic_concepts/Roles/index
+    register: 53
+  - key: roles.role_usermanager
+    field: man
+    value: manual_user/basic_concepts/Roles/index
+    register: 53
+  - key: platform.admin_core_config
+    field: man
+    value: manual_admin/administration/Core_functions/index
+    register: 61
+  - key: platform.admin_login
+    field: man
+    value: manual_admin/administration/Login/index
+    register: 61
+  - key: integrations.lti
+    field: man
+    value: manual_admin/administration/LTI_Integrations/index
+    register: 61
+  - key: curriculum.curriculum_reports
+    field: man
+    value: manual_user/area_modules/Course_Planner_Reports/index
+    register: 47
+  - key: platform.oauth
+    field: man
+    value: manual_admin/administration/Login_Cloud_Login
+    register: 64

@@ -22,6 +22,8 @@ Which way you take depends on where your account is stored. There are three poss
 * **With a local OpenOlat account.** Username and password are stored in OpenOlat here. Your organisation determines where you enter them: either the entry stands directly on the login page, introduced with "Please log in with your personal username and password.", or it is behind the button "Login with an OpenOlat account". [:octicons-tag-16:{ title="from Release 18.1 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) You first enter your username and click "Login". OpenOlat then asks for your password or, if you have set up a passkey, for the passkey.
 * **Without an account.** "Guest access" and "Explore our offers" provide an insight without logging in, "Register here" creates your own account, provided that your organisation allows self-registration.
 
+If you see several ways to log in, your organisation has set them up for different groups of people, for example "Microsoft Azure AD" for employees and the OpenOlat account for external people. Choose the way for which your organisation gave you your access data. More on this under [Combining several login procedures](Login_Concept.md#combined_login_methods).
+
 Depending on the security level, a second step follows after the password: a confirmation by [Passkey](Passkey.md) or the entry of a [one time code](One_Time_Code.md) that OpenOlat sends you by e-mail. [:octicons-tag-16:{ title="from Release 21.0 (OO-9509)" }](https://track.frentix.com/issue/OO-9509)
 
 ## I cannot get in {: #no_access}
@@ -69,7 +71,7 @@ If the identity provider of your organisation throws you back, the message on th
 |---|---|---|
 | "You are not authorized to use the OpenOlat service (access_denied). Please contact the system administrator." | The access was not granted: either your organisation has not released it, or you cancelled the login at the identity provider. | Log in again and agree to the access, otherwise contact your organisation. |
 | "You are not allowed to access the OpenOlat service (invalid_grant). Please contact the system administrator." | The identity provider rejected the request from OpenOlat. | Contact your organisation. |
-| "Your account is not yet created on the OpenOlat service. This is required for beeing able to log in. Please contact the system administrator." | The login was successful, but an OpenOlat account is missing. | Contact your organisation. |
+| "Your account is not yet created on the OpenOlat service. This is required for being able to log in. Please contact the system administrator." | The login was successful, but an OpenOlat account is missing. | Contact your organisation. |
 | "We were not able to identify you. Please contact the system administrator." | The identity provider did not supply OpenOlat with any information that allows your account to be matched. | Contact your organisation. |
 | "A technical problem occurred (token_rejected). Please try it again later." | The exchange between OpenOlat and the identity provider failed. | Try again later, otherwise contact your organisation. |
 | "An unexpected error occurred. Please try it again later." | An error without further detail. | Try again later, otherwise contact your organisation. |

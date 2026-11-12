@@ -110,6 +110,9 @@ stations:
       en: Login
     further:
       - manual_admin/docs/administration/Login_Password_and_Authentication
+      - manual_admin/docs/administration/Login_Cloud_Login
+      - manual_admin/docs/administration/Login_Shibboleth
+      - manual_admin/docs/administration/Login_LDAP
       - manual_admin/docs/administration/Login_Self-Registration
       - manual_admin/docs/administration/Guest_and_invitation
       - manual_admin/docs/administration/Login_Security
