@@ -51,13 +51,13 @@ Es kann eine Vielzahl von Dateiformaten hochgeladen werden:
 
 ## Prüfung beim Upload {: #upload_check}
 
-Nach dem Hochladen eines Dokuments erfolgt zunächst standardmässig eine Prüfung, bevor es in der Bibliothek angezeigt wird.
+Ein hochgeladenes Dokument wird standardmässig zuerst geprüft, bevor es in der Bibliothek erscheint.
 
 Besitzer:innen des mit der Bibliothek verknüpften Ressourcenordners werden über einen neuen Upload informiert und müssen das Dokument freigeben.
 
 Alternativ kann eine andere Person für die Prüfung bestimmt werden. Systemadministrator:innen tragen dazu in der System-Administration unter `Administration > Module > Bibliothek` eine Mailadresse ein. Ist dort keine Adresse eingetragen, erhalten die Besitzer:innen der Lernressource den Prüfauftrag.
 
-Systemadministrator:innen können diesen Prüfprozess unter `Administration > Module > Bibliothek` auch deaktivieren. Wenn Sie die Prüfung deaktivieren, sollten Sie sich allerdings bewusst sein, dass so jede Person, die auf die Bibliothek zugreifen kann, Dokumente dort ungeprüft hochladen kann. [:octicons-tag-16:{ title="ab Release 19.1 (OO-8309)" }](https://track.frentix.com/issue/OO-8309)
+Systemadministrator:innen können diesen Prüfprozess in der System-Administration unter `Administration > Module > Bibliothek` auch deaktivieren. Wenn Sie die Prüfung deaktivieren, sollten Sie sich allerdings bewusst sein, dass so jede Person, die auf die Bibliothek zugreifen kann, Dokumente dort ungeprüft hochladen kann. [:octicons-tag-16:{ title="ab Release 19.1 (OO-8309)" }](https://track.frentix.com/issue/OO-8309)
 
 
 [Zum Seitenanfang ^](#library)

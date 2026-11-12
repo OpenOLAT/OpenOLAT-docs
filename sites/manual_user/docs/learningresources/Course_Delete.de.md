@@ -4,7 +4,7 @@
 
 Wenn ein Kurs bzw. eine Lernressource gelöscht wird, kommt sie in den Papierkorb. Der Kurs ist nun weder für die ehemaligen Teilnehmenden noch die Betreuer:innen aufruf- oder einsehbar.
 
-Kursbesitzer:innen finden die gelöschte Lernressource anschliessend im Autorenbereich im Tab "Gelöscht". Hier erscheint die Lernressource mit dem Status "Papierkorb". Es besteht weiter Zugriff auf die Menüpunkte der Administration. Der Status "Papierkorb" kann nicht geändert werden. Jedoch ist es möglich, über den Link im 3-Punkte Menü die Lernressource wiederherzustellen.
+Kursbesitzer:innen finden die gelöschte Lernressource anschliessend im Autorenbereich im Tab "Gelöscht". Hier erscheint die Lernressource mit dem Status "Papierkorb". Die Menüpunkte im Menü "Administration" der Lernressource bleiben für sie erreichbar. Der Status "Papierkorb" kann nicht geändert werden. Jedoch ist es möglich, über den Link im 3-Punkte Menü die Lernressource wiederherzustellen.
 
 
 !!! info "Endgültiges Löschen"
@@ -17,7 +17,7 @@ Kursbesitzer:innen finden die gelöschte Lernressource anschliessend im Autorenb
 
 Es ist möglich, andere Kursbesitzer:innen via E-Mail über das Beenden oder Löschen eines Kurses zu informieren. Dies kann entweder im Beenden/Löschen-Dialog optional ausgewählt oder von Systemadministrator:innen systemweit eingestellt werden.
 
-Bei einer gelöschten Lernressource erscheint in der Kursadministration der Menüpunkt "Wiederherstellen". 
+Bei einer gelöschten Lernressource steht im Menü "Administration" an der Stelle von "Löschen" der Menüpunkt "Wiederherstellen", bei einem Kurs unter `Kurs > Administration > Wiederherstellen`.
 
 Ebenso kann ein Kurs auch automatisiert beendet bzw. gelöscht werden. Die Einstellungen dafür nehmen ebenfalls Systemadministrator:innen vor.
 

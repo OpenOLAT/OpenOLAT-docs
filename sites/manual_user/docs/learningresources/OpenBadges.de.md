@@ -125,7 +125,7 @@ Der Tab ist vorhanden bei den Kursbausteinen:
 **Im Kurseditor:**<br>
 Auch bei Klick auf den obersten "Knoten", den Kurstitel im Kursmenü, erscheint rechts ein Tab "Badges". Sie erstellen dort wie bei den Kursbausteinen einen Badge durch Klick auf den Button "Einen neuen Badge erstellen". Hier bezieht sich der Badge jedoch auf den Kurs als Ganzes. 
 
-**In der Kursadministration:**<br>
+**In der Kurs-Administration:**<br>
 Unter `Kurs > Administration > Badges` erscheint eine Liste aller Badges, die in diesem Kurs erworben werden können. Mit dem Button "Einen neuen Badge erstellen" können weitere Badges für den Kurs und/oder einzelne Kursbausteine erstellt werden.
 
 Eine Schritt-für-Schritt-Anleitung für **Kurs-Badges** finden Sie [hier](../../manual_how-to/badges/badges.de.md).
@@ -186,7 +186,7 @@ Solange ein Badge noch von niemandem erworben wurde, steht die Option "Bearbeite
 
 Wurde der Badge bereits erworben, ersetzt die Aktion "Neue Version erstellen und bearbeiten" das Bearbeiten. Dabei können das Bild und die Beschreibung angepasst werden. Die Vergabekriterien und die Gültigkeitsdauer bleiben unverändert, und bereits vergebene Badges behalten ihre bisherige Version. Die Badge-Tabelle zeigt die Version in einer eigenen Spalte. [:octicons-tag-16:{ title="ab Release 20.1 (OO-8287)" }](https://track.frentix.com/issue/OO-8287)
 
-**In der Kursadministration:**<br>
+**In der Kurs-Administration:**<br>
 `Kurs > Administration > Badges`, dann am Ende einer Zeile auf die drei Punkte klicken und "Bearbeiten" wählen.
 
 Wurde Betreuer:innen unter `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"` auch das Recht zum manuellen Vergeben von Badges erteilt, dann ist auch für Betreuer:innen im Menü "Administration" eine Übersicht unter "Badges" abrufbar. Allerdings können Betreuer:innen keine Badges neu erstellen, sondern lediglich manuell vergeben.
@@ -206,7 +206,7 @@ Die Vergabe von **Kurs-Badges** wird durch Kursbesitzer:innen in jedem Kurs unte
 `Kurs > Administration > Einstellungen > Tab "Bewertung" > Abschnitt "Badges"`<br>
 ermöglicht. Das Recht zur manuellen Vergabe kann hier auch Betreuer:innen gegeben werden.
 
-Wurden Badges aktiviert, ist nach dem nächsten Login in der **Kursadministration** die Option **Badges** vorhanden. Hier können die Vergaberegeln der Badges für den Kurs eingerichtet werden.
+Sind Badges aktiviert, erscheint im Menü "Administration" des Kurses der Eintrag "Badges": `Kurs > Administration > Badges`. Dort richten Sie die Vergaberegeln der Badges für den Kurs ein.
 
 Wurden durch Teilnehmer:innen Badges erworben, sind sie ersichtlich in der **Leistungsübersicht** der betreffenden Teilnehmer:in.
 

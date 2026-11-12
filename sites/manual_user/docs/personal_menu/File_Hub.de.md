@@ -37,7 +37,7 @@ Die Ordner und Dateien werden im File Hub entsprechend den individuellen, persö
 
 Der File Hub wird aber auch an vielen weiteren Stellen angezeigt, wenn **aus Dateien ausgewählt** werden soll.
 
-Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kursadministration: `Kurs > Administration > Dateien`.
+Zur Anzeige eines Ordnerinhalts finden Sie den File Hub zum Beispiel in der Kurs-Administration: `Kurs > Administration > Dateien`.
 
 [Zum Seitenanfang ^](#file_hub)
 

@@ -256,8 +256,8 @@ Den Eintrag "Als Prüfung markieren" finden Sie im 3-Punkte-Menü eines Termins,
 
 Voraussetzungen, damit sie angezeigt wird, sind:
 
-- Der Prüfungsmodus muss systemweit aktiviert sein: `Administration > e-Assessment > Prüfungsverwaltung`. Ohne diese Aktivierung erscheint die Option bei niemandem.
-- Die Option "Termin kann als Prüfung markiert werden" muss für den Kurs gelten: in den Kurseinstellungen unter `Kurs > Administration > Einstellungen > Tab Durchführung`, wenn der Kurs die Standardkonfiguration überschreibt, sonst als Vorgabe unter `Administration > Module > Termine / Absenzen`.
+- Der Prüfungsmodus muss systemweit aktiviert sein, in der System-Administration unter: `Administration > e-Assessment > Prüfungsverwaltung`. Ohne diese Aktivierung erscheint die Option bei niemandem.
+- Die Option "Termin kann als Prüfung markiert werden" muss für den Kurs gelten: in den Kurseinstellungen unter `Kurs > Administration > Einstellungen > Tab Durchführung`, wenn der Kurs die Standardkonfiguration überschreibt, sonst als Vorgabe in der System-Administration unter `Administration > Module > Termine / Absenzen`.
 - Der Termin ist kein Online-Meeting. (Bei BBB-/Teams-Terminen wird "Als Prüfung markieren" ausgeblendet.)
 
 Die vollständige Beschreibung steht im Benutzerhandbuch: [Wenn "Als Prüfung markieren" fehlt](../../manual_user/learningresources/Toolbar_Events.de.md#mark_as_exam_missing)
@@ -344,11 +344,11 @@ Grundsätzlich sollte bei laufendem Prüfungsmodus möglichst nicht mehr eingegr
 [Website des Herstellers >](http://www.safeexambrowser.org)<br>
 [Wie bereite ich eine Prüfung mit dem SEB vor? (für Autor:innen) >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
-[Prüfungseinsicht > ](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
-[Prüfungsverwaltung (Admin) > ](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md)<br>
-[Prüfungsverwaltung durch Kursbesitzer:innen und Betreuer:innen > ](../../manual_user/learningresources/Assessment_Management/index.de.md)<br>
+[Prüfungseinsicht >](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
+[e-Assessment Administration: Prüfungsverwaltung (Administrationshandbuch) >](../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md)<br>
+[Prüfungsverwaltung durch Kursbesitzer:innen und Betreuer:innen >](../../manual_user/learningresources/Assessment_Management/index.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../../manual_user/learningresources/Course_Settings_Execution.de.md)<br>
-[Toolbar: Termine >](../../manual_user/learningresources/Toolbar_Events.de.md)<br>
+[Toolbar: Termine >](../../manual_user/learningresources/Toolbar_Events.de.md)
 
-[zum Seitenanfang ^](#SEB_admin)
+[Zum Seitenanfang ^](#SEB_admin)

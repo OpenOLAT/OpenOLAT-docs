@@ -206,7 +206,7 @@ Fehlt eine dieser Einstellungen, ordnet OpenOlat eine Ebene nur dann zu, wenn da
 
 ### Womit die KI vergleicht {: #ai_matching_maintenance}
 
-Titel und Beschreibung einer Taxonomieebene entscheiden, ob die KI sie findet. Beide pflegen Sie unter `Administration > Module > Taxonomie` im Tab "Ebenen", nicht im Media Center.
+Titel und Beschreibung einer Taxonomieebene entscheiden, ob die KI sie findet. Beide pflegen Sie in der System-Administration unter `Administration > Module > Taxonomie` im Tab "Ebenen", nicht im Media Center.
 
 OpenOlat vergleicht das Ergebnis der KI mit drei Angaben je Taxonomieebene, und zwar auf Deutsch und auf Englisch:
 
@@ -228,7 +228,7 @@ Welchen Fachbereich ein Medium erhält, hängt vom Auslöser ab:
 
 Die KI liefert also, worum es im Medium geht, und die Taxonomie-Zuordnung sucht dazu den passenden Fachbereich. Ohne die KI-Funktion "Bildbeschreibungs-Generator" bleibt diese Angabe leer, und die Taxonomie-Zuordnung hat nichts zu vergleichen. Der zugeordnete Fachbereich ist ein Vorschlag und lässt sich in den Metadaten jederzeit ändern.
 
-Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung und Tags erzeugt hat, prüfen Sie zuerst, ob für das Media Center eine Taxonomie ausgewählt ist, oder, wenn dort keine ausgewählt ist, unter `Administration > Module > Lernressource`.
+Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung und Tags erzeugt hat, prüfen Sie zuerst, ob für das Media Center eine Taxonomie ausgewählt ist, oder, wenn dort keine ausgewählt ist, in der System-Administration unter `Administration > Module > Lernressource`.
 
 [Zum Seitenanfang ^](#module_taxonomy)
 

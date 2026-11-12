@@ -134,7 +134,7 @@ Der Import liest die Sheets nach ihrer Reihenfolge, nicht nach ihrem Namen: das 
 
 Planen Sie viele Termine auf einmal, buchen Sie deren Räume im selben Durchgang mit dem Import. Die Räume stehen in der Spalte "Räume" im Sheet "Durchführungen". Der Import wertet die Spalte nur bei Terminen (Objekttyp EVENT) aus. Bei allen anderen Objekttypen ist sie im Export leer, und der Import übergeht einen Wert dort ohne Meldung.
 
-Jeder Raum steht in der Zelle mit dem Kennzeichen seines Gebäudes und seinem eigenen Kennzeichen, getrennt durch einen Doppelpunkt, zum Beispiel "BG_1:AULA". Mehrere Räume trennt ein Semikolon: "BG_1:AULA;BG_1:H101". Beide Kennzeichen vergibt die Administration im [Modul Räume](../../../manual_admin/administration/Modules_Rooms.de.md#rooms). Die Kennzeichen bereits gebuchter Räume stehen im Export.
+Jeder Raum steht in der Zelle mit dem Kennzeichen seines Gebäudes und seinem eigenen Kennzeichen, getrennt durch einen Doppelpunkt, zum Beispiel "BG_1:AULA". Mehrere Räume trennt ein Semikolon: "BG_1:AULA;BG_1:H101". Beide Kennzeichen vergeben Systemadministrator:innen in der System-Administration im [Modul Räume](../../../manual_admin/administration/Modules_Rooms.de.md#rooms) unter: `Administration > Module > Räume`. Die Kennzeichen bereits gebuchter Räume stehen im Export.
 
 !!! warning "Achtung"
 
@@ -216,10 +216,10 @@ Die Tabelle zeigt die Mitgliedschaften aus dem Sheet "Mitgliedschaft" mit den Ke
 
 **Auf dieser Seite erwähnt**<br>
 [Import/Export: Referenz >](../Course_Planner_Import_Export_Reference.de.md)<br>
-[Module: Übersicht (Administration) >](../../../manual_admin/administration/Modules/index.de.md)<br>
-[Modul Räume (Administration) >](../../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Module: Übersicht (Administrationshandbuch) >](../../../manual_admin/administration/Modules/index.de.md)<br>
+[Modul Räume (Administrationshandbuch) >](../../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](../Course_Planner_Rooms.de.md)<br>
-[E-Mail Einstellungen (Administration) >](../../../manual_admin/administration/E-Mail_Settings.de.md)
+[E-Mail Einstellungen (Administrationshandbuch) >](../../../manual_admin/administration/E-Mail_Settings.de.md)
 
 **Weiterführend**<br>
 [Course Planner: Übersicht >](../Course_Planner/index.de.md)<br>

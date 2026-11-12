@@ -161,7 +161,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Kurseditorwerkzeuge >](../learningresources/Using_additional_Course_Editor_Tools.de.md)<br>
 [Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration/index.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)
 
 **Weiterführend**<br>

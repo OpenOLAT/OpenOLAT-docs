@@ -229,7 +229,7 @@ Die Anzahl Tage kann nach Wunsch angepasst werden.
 
 Erinnerung hinzufügen:
 
-- Im Dropdown-Menü "Administration" den Punkt "Erinnerung" öffnen
+- Im Dropdown-Menü "Administration" des Kurses den Punkt "Erinnerung" wählen
 - Den Button "Erinnerung hinzufügen" klicken. Es öffnet sich ein Assistent mit drei Schritten.
 - Im ersten Schritt eine Beschreibung eingeben und mit "Bedingung hinzufügen" eine Bedingung wählen, z.B. "Enddatum Durchführungszeitraum des Kurses"
 - Im zweiten Schritt die gewählten Bedingungen kontrollieren
@@ -337,7 +337,7 @@ Ein Zurücksetzen **einzelner** Formulare ist im Kursbaustein "Umfrage" **nicht*
 [Formulare in Kursen >](../../manual_user/learningresources/Forms_in_Courses.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../../manual_user/learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring/index.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving/index.de.md)
+[Kurs-Administration: Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving/index.de.md)
 
 
 [Zum Seitenanfang ^](#survey)

@@ -1,6 +1,6 @@
 # Core-Konfiguration: Übersicht {: #core_config}
 
-![Grundeinstellungen des ganzen Systems in sechzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core-Konfiguration der System-Administration](../assets/admin_core_config_overview_v4_de.png){ width="196" class="shadow lightbox aside-left-lg" title="Menü Core-Konfiguration in der Administration · 2026.10.22" }
+![Grundeinstellungen des ganzen Systems in sechzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core-Konfiguration der System-Administration](../assets/admin_core_config_overview_v4_de.png){ width="196" class="shadow lightbox aside-left-lg" title="Menü Core-Konfiguration in der System-Administration · 2026.10.22" }
 
 In der Core-Konfiguration legen Systemadministrator:innen die Grundeinstellungen fest, die für das ganze System gelten: von Sprache und Startseite über E-Mail und Dateien bis zu den Schnittstellen, über die andere Systeme auf OpenOlat zugreifen. Die Abschnitte dieser Seite folgen der Reihenfolge des Menüs. Sie finden das Menü in der System-Administration unter:<br>
 `Administration > Core-Konfiguration`
@@ -172,7 +172,7 @@ Der Zeitplan bestimmt nur, wann OpenOlat prüft, nicht wer eine E-Mail erhält. 
 
 Die beiden Einstellungen ergänzen sich, sie überschreiben sich nicht. Wer "ausgeschaltet" gewählt hat, erhält keine E-Mail, auch wenn der Versand der Instanz läuft. Ist der Versand der Instanz ausgeschaltet, erhält niemand eine E-Mail, gleich welches Intervall eine Person gewählt hat. In beiden Fällen gehen keine Neuigkeiten verloren: Jede Person sieht sie selbst unter `Persönliches Menü > Abonnements > Tab "Neuigkeiten"` und über das Glockensymbol im jeweiligen Kursbaustein.
 
-![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl die Administration den Versand eingerichtet hat](../assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt?" }
+![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl der Versand für die ganze Instanz eingerichtet ist](../assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt? · 2026.11.12" }
 
 [Zum Seitenanfang ^](#core_config)
 

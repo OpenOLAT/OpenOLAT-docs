@@ -230,7 +230,7 @@ Ist "Mit Versatz" eingeschaltet, zeigt das Fenster unter "Berechnetes Datum" das
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Persönliche Werkzeuge: To-dos >](../personal_menu/To-Dos.de.md)<br>
 [To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
-[Modul Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Modul Course Planner (Administrationshandbuch) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Übersichtsseiten und Widgets >](../basic_concepts/Dashboard_Concept.de.md)<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)
 

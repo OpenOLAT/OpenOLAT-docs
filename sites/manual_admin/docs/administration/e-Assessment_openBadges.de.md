@@ -11,7 +11,7 @@ Dort schalten sie die Badges ein, pflegen die Badge-Vorlagen, erstellen globale 
 * Unter "Verifizierung" legen Sie fest, wie sich die Echtheit der Badges Ihrer Instanz prüfen lässt. Bei "Hosted" holt die Prüfung die Angaben des Badges von Ihrer OpenOlat-Instanz ab. Bei "Signed" trägt jeder vergebene Badge zusätzlich eine digitale Signatur, die belegt, dass er von Ihrer Instanz stammt und unverändert ist. Voreingestellt ist "Hosted". Die Einstellung gilt für Badges, die Sie danach erstellen. Bestehende Badges behalten ihre Methode, auch in neuen Versionen. [:octicons-tag-16:{ title="ab Release 20.1 (OO-8288)" }](https://track.frentix.com/issue/OO-8288)
 * Mit dem Button "LinkedIn-Organisation hinzufügen" erfassen Sie LinkedIn-Organisationen. Die erfassten Organisationen stehen beim Erstellen eines Badges im Schritt "Details" unter "LinkedIn-Organisation" zur Wahl.
 
-![OpenBadges eingeschaltet, die Verifizierung Hosted oder Signed, darunter die Liste der LinkedIn-Organisationen und der Button LinkedIn-Organisation hinzufügen](assets/badges_global_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration in der Administration OpenBadges · 2026.11.10" }
+![OpenBadges eingeschaltet, die Verifizierung Hosted oder Signed, darunter die Liste der LinkedIn-Organisationen und der Button LinkedIn-Organisation hinzufügen](assets/badges_global_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration unter OpenBadges in der System-Administration · 2026.11.10" }
 
 [Zum Seitenanfang ^](#badges)
 
@@ -21,7 +21,7 @@ Dort schalten sie die Badges ein, pflegen die Badge-Vorlagen, erstellen globale 
 
 Mit Vorlagen geben Sie das Bild eines Badges vor, damit Autor:innen beim Erstellen schnell loslegen. Ein Standardset von Vorlagen ist auf der OpenOlat-Instanz bereits vorbereitet. Die Tabelle zeigt je Vorlage "Bild", "Name", "Anwendungsbereich" und "Tags". Unter "Tags" stehen die Kategorien der Vorlage. Mit "Bearbeiten" und "Löschen" ändern oder entfernen Sie eine Vorlage.
 
-![Liste der vorbereiteten Badge-Vorlagen mit Bild, Name, Anwendungsbereich und Tags, darüber der Button Vorlage hochladen](assets/badges_global_templates_v3_de.png){ class="shadow lightbox" title="Tab Vorlagen in der Administration OpenBadges · 2026.11.10" }
+![Liste der vorbereiteten Badge-Vorlagen mit Bild, Name, Anwendungsbereich und Tags, darüber der Button Vorlage hochladen](assets/badges_global_templates_v3_de.png){ class="shadow lightbox" title="Tab Vorlagen unter OpenBadges in der System-Administration · 2026.11.10" }
 
 Mit dem Button "Vorlage hochladen" fügen Sie eine eigene Vorlage hinzu. Im gleichnamigen Dialog laden Sie das Bild hoch und legen Name, Beschreibung, Kategorien und Anwendungsbereich fest.
 
@@ -53,7 +53,7 @@ Globale Badges sind nicht an einen Kurs gebunden. Im Tab "Globale Badges" behalt
 
 Die Tabelle zeigt in der Standardansicht die Spalten "Bild", "Name", "Erstellt am", "Status", "Typ", "Version" und "Vergeben an". Der Status ist "Vorbereitung", "Aktiv" oder "Widerrufen". Die Spalte "Typ" zeigt, ob der Badge automatisch oder nur manuell vergeben wird: "Automatisch" steht für das Vergabeverfahren "Automatisch vergeben", "Manuell" für "Nur manuell vergeben". Die Spalte "Vergeben an" zeigt, wie oft der Badge über alle seine Versionen vergeben ist. Widerrufene Vergaben zählen nicht mit. Die Spalte "Verifizierung" mit der Methode "Hosted" oder "Signed" ist ausgeblendet. Sie blenden sie über das Zahnrad "Spalten auswählen" ein.
 
-![Liste der globalen Badges mit Bild, Name, Erstellungsdatum, Status, Typ, Version und Anzahl Vergaben, darüber der Button Einen neuen Badge erstellen](assets/badges_global_tab_globalBadges_v3_de.png){ class="shadow lightbox" title="Tab Globale Badges in der Administration OpenBadges · 2026.11.10" }
+![Liste der globalen Badges mit Bild, Name, Erstellungsdatum, Status, Typ, Version und Anzahl Vergaben, darüber der Button Einen neuen Badge erstellen](assets/badges_global_tab_globalBadges_v3_de.png){ class="shadow lightbox" title="Tab Globale Badges unter OpenBadges in der System-Administration · 2026.11.10" }
 
 
 ### Erstellen und Bearbeiten eines globalen Badges
@@ -81,7 +81,7 @@ Solange ein globaler Badge den Status "Vorbereitung" hat, bearbeiten Sie ihn im 
 Einen globalen Badge vergeben Sie manuell in der System-Administration unter:<br>
 `Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > "Badgename" > Tab "Übersicht" > Button "Manuell vergeben"`
 
-![Weg zum Button Manuell vergeben über e-Assessment, OpenBadges, Tab Globale Badges, den gewählten Badge und Tab Übersicht](assets/badges_global_manually_v4_de.png){ class="shadow lightbox" title="Tab Übersicht eines globalen Badges in der Administration OpenBadges · 2026.11.10" }
+![Weg zum Button Manuell vergeben über e-Assessment, OpenBadges, Tab Globale Badges, den gewählten Badge und Tab Übersicht](assets/badges_global_manually_v4_de.png){ class="shadow lightbox" title="Tab Übersicht eines globalen Badges unter OpenBadges in der System-Administration · 2026.11.10" }
 
 
 ### Globale Badges automatisch vergeben

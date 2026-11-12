@@ -135,7 +135,7 @@ Besitzer:innen des Kurses setzen eine Umfrage im Menü mit den drei Punkten des 
 [Autorenbereich - Übersicht >](../area_modules/Authoring/index.de.md)<br>
 [Module: Übersicht >](../../manual_admin/administration/Modules/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)
+[Kurs-Administration: Archivierung & Reports >](Course_Archiving/index.de.md)
 
 **Weiterführend**<br>
 [Formular-Elemente >](Form_Elements/index.de.md)<br>

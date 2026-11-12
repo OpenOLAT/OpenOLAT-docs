@@ -74,7 +74,7 @@ Je nach Zielsetzung können damit Formulare ganz unterschiedlich gestaltet werde
 
 Jedes Formular besteht aus einer Seite mit einer oder mehreren Fragen bzw. anderen Elementen (z.B. Titel). Die einzelnen Elemente können im Editor angewählt und dann bearbeitet werden. Teilweise wird ein Popup (Inspektor-Fenster) mit Einstellmöglichkeiten dazu angezeigt.
 
-![Rubrik im Formulareditor mit geöffnetem Inspektor-Fenster für Typ, Schritte und Pflicht, darüber das Menü Administration mit markiertem Eintrag Formulareditor](assets/formular_dozentenbeurteilung_editor_v2_de.png){ class="shadow lightbox" title="Rubrik-Element im Formulareditor · 2026.09.28" }
+![Rubrik im Formulareditor mit geöffnetem Inspektor-Fenster für Typ, Schritte und Pflicht, darüber das Menü Administration des Formulars mit markiertem Eintrag Formulareditor](assets/formular_dozentenbeurteilung_editor_v2_de.png){ class="shadow lightbox" title="Rubrik-Element im Formulareditor · 2026.09.28" }
 
 <br>
 
@@ -96,7 +96,7 @@ Klicken Betreuer:innen im Kurs auf genau den gleichen Kursbaustein mit Formular,
 
     Sie finden das Icon zur Erstellung der Regeln in der Kopfzeile des Formulareditors.
 
-    ![Symbol Frageregeln in der Kopfzeile des Formulareditors, rechts neben dem Menü Administration](assets/formular_frageregeln1_v2_de.png){ class="shadow lightbox" title="Kopfzeile des Formulareditors · 2026.11.10" }
+    ![Symbol Frageregeln in der Kopfzeile des Formulareditors, rechts neben dem Menü Administration des Formulars](assets/formular_frageregeln1_v2_de.png){ class="shadow lightbox" title="Kopfzeile des Formulareditors · 2026.11.10" }
 
 
 [Zum Seitenanfang ^](#create_form)
@@ -119,7 +119,7 @@ Sie können eine Formular-Lernressource direkt im Autorenbereich erstellen. Ansc
 
 Besteht die Formular-Lernressource schon, ist aber noch leer? Da wir dann eine Formular-**Lernressource** editieren, ist sie im Autorenbereich unter dem Tab "Meine Einträge" zu finden. (Unter "Meine Kurse" werden nur Kurse aufgeführt.) Nutzen Sie zur Suche in grossen Datenbeständen die Filter.
 
-Zum Editieren klicken Sie auf den Titel und öffnen dann `Administration > Formulareditor`. Alternativ wählen Sie im Menü mit den 3 Punkten am Ende der Zeile den Eintrag "Formulareditor".
+Zum Editieren klicken Sie auf den Titel und öffnen dann `Formular > Administration > Formulareditor`. Alternativ wählen Sie im Menü mit den 3 Punkten am Ende der Zeile den Eintrag "Formulareditor".
 
 ![Tab Meine Einträge mit dem Filter Typ Formular, das Menü unter den 3 Punkten einer Zeile ist geöffnet und der Eintrag Formulareditor markiert](assets/formular_lernressource_editieren_v2_de.png){ class="shadow lightbox" title="Tab Meine Einträge im Autorenbereich · 2026.09.28" } 
 
@@ -160,7 +160,7 @@ Ist bereits eine Formular-Lernressource in den Kursbaustein eingebunden, öffnen
 
 ## 6. Formulare im Editor gestalten  {: #step6}
 
-Sobald Sie über `Administration > Formulareditor` den Formulareditor geöffnet haben, sehen Sie das vorgegebene **Layout** mit einer Spalte. Über den Button "Neues Layout einfügen" fügen Sie weitere Layouts ein. <br>
+Sobald Sie über `Formular > Administration > Formulareditor` den Formulareditor geöffnet haben, sehen Sie das vorgegebene **Layout** mit einer Spalte. Über den Button "Neues Layout einfügen" fügen Sie weitere Layouts ein. <br>
 Ein Layout meint hier ein **Raster**. Sie können mehrere solcher Layouts hintereinander einfügen.
 
 ![Neues Formular im Formulareditor mit dem vorgegebenen einspaltigen Layout, markiert sind der Eintrag Formulareditor in der Krümelnavigation und der Button Neues Layout einfügen](assets/formular_editor_1_v2_de.png){ class="shadow lightbox" title="Neue Formular-Lernressource im Formulareditor · 2026.09.28" } 
@@ -262,10 +262,10 @@ Auch beim Erstellen der Fragen haben Sie Einstellungen vorgenommen. Sie haben ei
 `Kurs > Administration > Kurseditor > "Kursbaustein" > Tabs des Kursbausteins`
 
 **Konfiguration der Lernressource:**<br>
-`Autorenbereich > "Formular-Lernressource" > Administration > Einstellungen`
+`Formular > Administration > Einstellungen`
 
 **Konfiguration einer Frage:**<br>
-Öffnen Sie das Formular im Formulareditor: `Administration > Formulareditor`. Mit Klick auf ein Element wechseln Sie in den Editiermodus, und die zugehörigen Optionen erscheinen.
+Öffnen Sie das Formular im Formulareditor: `Formular > Administration > Formulareditor`. Mit Klick auf ein Element wechseln Sie in den Editiermodus, und die zugehörigen Optionen erscheinen.
 
 <br>
 

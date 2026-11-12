@@ -42,7 +42,7 @@ Kurse, die einem Produkt zugeordnet sind, erscheinen dort im Bereich "Bildungspr
 
 Der für die Erstellung von Produkten verwendete Course Planner ist ein Zusatzmodul in OpenOlat und muss zunächst freigeschaltet werden.
 
-Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivieren und einrichten unter:<br>
+Nach der Freischaltung aktivieren Systemadministrator:innen das Modul in der System-Administration und richten es dort ein:<br>
 `Administration > Module > Course Planner`
 
 
@@ -73,7 +73,7 @@ Ist bei Ihnen das Modul "Organisationen" aktiviert, ist die Organisation ein Pfl
 
 #### Absenzmanagement {: #create_product_absence_management}
 
-Mit der Auswahl "Ein" oder "Aus" bestimmen Sie, ob das Absenzmanagement für dieses Produkt verwendet werden soll. Voraussetzung ist, dass Systemadministrator:innen das Modul aktiviert und für die Kursautor:innen verfügbar gemacht haben, unter:<br>
+Mit der Auswahl "Ein" oder "Aus" bestimmen Sie, ob das Absenzmanagement für dieses Produkt verwendet werden soll. Voraussetzung ist, dass Systemadministrator:innen das Modul aktiviert und für die Kursautor:innen verfügbar gemacht haben, in der System-Administration unter:<br>
 `Administration > Module > Termine / Absenzen`
 
 #### Beschreibung {: #create_product_description}
@@ -176,7 +176,7 @@ Hat ein Kurs schon Betreuer:innen oder Teilnehmer:innen, lässt sich der Verwend
 [Course Planner: To-dos >](../../manual_user/area_modules/Course_Planner_Todos.de.md)<br>
 [Coaching - Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
-[Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Modul Course Planner (Administrationshandbuch) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Importvorlagen >](../basic_concepts/Import_Templates.de.md)
 
 [zum Seitenanfang ^](#products)

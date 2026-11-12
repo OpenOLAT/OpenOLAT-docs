@@ -7,7 +7,7 @@ Ist "Sicherheitsstufen / Passkey verwenden" eingeschaltet und gilt für die Roll
 
 ## Tab Konfiguration [:octicons-tag-16:{ title="ab Release 20.0 (OO-8342)" }](https://track.frentix.com/issue/OO-8342) {: #tab_configuration}
 
-![Selbstregistration eingeschaltet und auf der Loginseite angezeigt, E-Mail Validierung und Domänen über das Organisationsmodul gesteuert](assets/login_self_registration_tab1_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration der Selbstregistration in der Administration · 2026.10.31" }
+![Selbstregistration eingeschaltet und auf der Loginseite angezeigt, E-Mail Validierung und Domänen über das Organisationsmodul gesteuert](assets/login_self_registration_tab1_v2_de.png){ class="shadow lightbox" title="Tab Konfiguration der Selbstregistration in der System-Administration · 2026.10.31" }
 
 
 ### Abschnitt "Konfiguration"
@@ -50,7 +50,7 @@ Die Gültigkeitsdauer gilt für die Selbstregistrierung und für den Einladungsl
 
 ## Tab Kontoeinstellungen {: #tab_account_settings}
 
-![Heimatorganisation über das Organisationsmodul gesteuert, Konto ausstehend je nach Kontoattribut, In Kurse buchen ein, Standardwert selfreg für ein Kontoattribut](assets/login_self_registration_tab2_v2_de.png){ class="shadow lightbox" title="Tab Kontoeinstellungen der Selbstregistration in der Administration · 2026.10.31" }
+![Heimatorganisation über das Organisationsmodul gesteuert, Konto ausstehend je nach Kontoattribut, In Kurse buchen ein, Standardwert selfreg für ein Kontoattribut](assets/login_self_registration_tab2_v2_de.png){ class="shadow lightbox" title="Tab Kontoeinstellungen der Selbstregistration in der System-Administration · 2026.10.31" }
 
 
 ### Abschnitt "Konfiguration Konto"
@@ -110,7 +110,7 @@ Wert, den OpenOlat dem gewählten Kontoattribut bei der Selbstregistrierung zuwe
 
 ## Tab Externe Einbindung {: #tab_external_integration}
 
-![Adresse für die direkte Selbstregistrierung im Feld Code für die Registrierung, mit Schaltflächen zum Kopieren und für einen QR-Code](assets/login_self_registration_tab3_v2_de.png){ class="shadow lightbox" title="Tab Externe Einbindung der Selbstregistration in der Administration · 2026.10.31" }
+![Adresse für die direkte Selbstregistrierung im Feld Code für die Registrierung, mit Schaltflächen zum Kopieren und für einen QR-Code](assets/login_self_registration_tab3_v2_de.png){ class="shadow lightbox" title="Tab Externe Einbindung der Selbstregistration in der System-Administration · 2026.10.31" }
 
 ### Abschnitt "Externe Einbindung"
 

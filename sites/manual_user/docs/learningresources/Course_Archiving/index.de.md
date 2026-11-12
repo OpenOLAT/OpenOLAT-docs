@@ -1,4 +1,4 @@
-# Kursadministration - Archivierung & Reports {: #course_archiving}
+# Kurs-Administration: Archivierung & Reports {: #course_archiving}
 
 [:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504){:target="_blank"}
 
@@ -8,12 +8,12 @@
 Müssen z.B. die Ergebnisse von Teilnehmer:innen aus rechtlichen Gründen 10 Jahre aufbewahrt werden, kann der Kurs selbst gelöscht werden, während die Teilnehmerdaten separat in einem Kursarchiv aufbewahrt werden.
 
 **Was enthält eine Archivdatei?**<br>
-Sowohl in der Kursadministration als auch im Autorenbereich können Sie Kursarchiv-Dateien erstellen. Eine Kursarchiv-Datei ist eine ZIP-Datei und enthält vor allem Excel-Dateien, in denen die Ergebnisse der Kursteilnehmer:innen tabellarisch aufgelistet sind. Gehören zur Archivierung weitere Dateien, etwa Abgaben, liegen sie in Unterordnern der ZIP-Datei.
+Sowohl in der Kurs-Administration als auch im Autorenbereich können Sie Kursarchiv-Dateien erstellen. Eine Kursarchiv-Datei ist eine ZIP-Datei und enthält vor allem Excel-Dateien, in denen die Ergebnisse der Kursteilnehmer:innen tabellarisch aufgelistet sind. Gehören zur Archivierung weitere Dateien, etwa Abgaben, liegen sie in Unterordnern der ZIP-Datei.
 
 **Gesamtarchiv - Teilarchiv**<br>
 Auf Wunsch können auch Teilarchive erstellt werden, wenn z.B. nur die Ergebnisse eines bestimmten Kursbausteins archiviert werden sollen. (Z.B. der Abschlusstest und Übungstests sollen nicht im Archiv enthalten sein.)
 
-Ein solches Kursarchiv ist zu unterscheiden von der Option ["Inhalt exportieren"](../Export_Content.de.md) in der Kursadministration.
+Ein solches Kursarchiv ist zu unterscheiden von der Option ["Inhalt exportieren"](../Export_Content.de.md) in der Kurs-Administration.
 
 | `Kurs > Administration > Inhalt exportieren` | `Kurs > Administration > Archivierung & Reports > Kursarchivierung` | `Kurs > Administration > Archivierung & Reports > Reports` |
 | ------------------------------------- | ------------------------------------- | -------------------------------------|
@@ -48,7 +48,7 @@ Im Tab "Kursarchive" filtern Sie die Liste mit "Alle Archive", "Gesamtarchive" u
 
 * Öffnen Sie den Autorenbereich.
 * Wählen Sie den gewünschten Kurs.
-* Klicken Sie unter "Administration" auf die Option "Archivierung & Reports".
+* Klicken Sie im Menü "Administration" des Kurses auf "Archivierung & Reports": `Kurs > Administration > Archivierung & Reports`.
 * Wählen Sie anschliessend im Bereich "Kursarchivierung" einen der Buttons "Archiv erstellen" oder "Archive erstellen".
 
 ![Archivierung & Reports finden: im geöffneten Menü Administration eines Kurses ist der Eintrag Archivierung & Reports markiert](../assets/course_archiving_create_single_v2_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses · 2026.10.22" }
@@ -58,7 +58,7 @@ Im Tab "Kursarchive" filtern Sie die Liste mit "Alle Archive", "Gesamtarchive" u
 
 ### Ein Teilarchiv erstellen {: #partial_archive}
 
-Ein Teilarchiv brauchen Sie, wenn nur ein Teil der Kursdaten aufbewahrt werden soll, etwa die Ergebnisse eines einzelnen Kursbausteins. Erstellen Sie ein Archiv in der Kursadministration, fragt der Wizard als Erstes nach der Archivart: "Gesamtarchiv" oder "Teilarchiv". Die Schritte danach hängen von der Archivart ab:
+Ein Teilarchiv brauchen Sie, wenn nur ein Teil der Kursdaten aufbewahrt werden soll, etwa die Ergebnisse eines einzelnen Kursbausteins. Erstellen Sie ein Archiv in der Kurs-Administration, fragt der Wizard als Erstes nach der Archivart: "Gesamtarchiv" oder "Teilarchiv". Die Schritte danach hängen von der Archivart ab:
 
 * **Gesamtarchiv**: "Einstellungen" und "Übersicht". Den Schritt "Einstellungen" zeigt der Wizard nur Administrator:innen und Lernressourcenverwalter:innen der Organisation des Kurses oder wenn der Kurs einen Test enthält. Sonst folgt direkt die "Übersicht".
 * **Teilarchiv**: "Kursbausteine auswählen", "Einstellungen", "Weitere Objekte" und "Übersicht". Den Schritt "Einstellungen" zeigt der Wizard hier nur, wenn Sie einen Test als Kursbaustein auswählen.

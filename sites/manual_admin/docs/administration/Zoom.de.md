@@ -40,13 +40,13 @@ Sie befinden sich nun im Bereich Credential Management der LTI Pro App.
 
 Klicken Sie auf **Create a new credential** und erstellen Sie ein LTI 1.3 Credential und geben Sie ihm einen Namen:
 
-![Dialog "Create a credential" in Zoom LTI Pro mit Titelfeld und Auswahl der LTI-Version 1.3](assets/zoom_create_credential.png){ class="shadow lightbox thumbnail-xl" }
+![Titel des neuen Credentials eingetragen und LTI-Version 1.3 ausgewählt](assets/zoom_create_credential.png){ class="shadow lightbox thumbnail-xl" title="Dialog Create a credential in Zoom LTI Pro" }
 
 Jetzt haben Sie ein neues Credential in LTI Pro.
 
 Die wichtigste Information für den nächsten Schritt ist der Wert des Feldes **LTI Key**:
 
-![LTI-Credential-Editor in Zoom mit hervorgehobenem Feld "LTI Key"](assets/zoom_credential_editor_lti_key.png){ class="shadow lightbox" }
+![Hervorgehobenes Feld "LTI Key" mit dem Button "Copy" zum Kopieren des Werts](assets/zoom_credential_editor_lti_key.png){ class="shadow lightbox" title="Tab LTI Credentials im Credential-Editor von LTI Pro" }
 
 Das LTI Pro Credential enthält neben dem LTI Key weitere Einstellungen. Für den korrekten Betrieb ist die
 Zeitzone des Credentials entscheidend: Stellen Sie diese auf dieselbe Zeitzone ein, die für Ihren OpenOlat-Server
@@ -61,14 +61,13 @@ alle Beteiligten korrekt angezeigt.
 
 ### Schritte in OpenOlat
 
-* Öffnen Sie die Zoom-Verwaltungsseite in OpenOlat, indem Sie zu `Administration > Externe Werkzeuge > Zoom`
-  navigieren.
+* Öffnen Sie die Zoom-Verwaltungsseite in der System-Administration von OpenOlat unter: `Administration > Externe Werkzeuge > Zoom`
 * Aktivieren Sie Zoom für alle Anwendungen: Kursbaustein "Zoom", Kurswerkzeug und Gruppenwerkzeug.
 * Klicken Sie auf **Zoom LTI Pro Konfiguration hinzufügen**.
 
-Dies öffnet den Dialog Zoom-Profil:
+Dies öffnet den Dialog "Zoom-Profile hinzufügen":
 
-![Dialog "Add Zoom Profile" in OpenOlat mit den Feldern Name, LTI Key, Mail-Domains sowie den generierten Feldern Client ID und Access Token](assets/zoom_add_lti_pro_configuration.png){ class="shadow lightbox" }
+![Felder Name, LTI Key und Mail-Domänen zum Ausfüllen, darunter die von OpenOlat generierten Werte Client ID und Access Token](assets/zoom_add_lti_pro_configuration.png){ class="shadow lightbox" title="Dialog zum Hinzufügen eines Zoom-Profils in OpenOlat" }
 
 Dieser Dialog erstellt ein OpenOlat Zoom-Profil für das Zoom LTI Pro Credential. 
 
@@ -76,6 +75,8 @@ Dieser Dialog erstellt ein OpenOlat Zoom-Profil für das Zoom LTI Pro Credential
 * Das Feld **LTI Key** wird von Zoom generiert. Kopieren Sie den Wert dieses Feldes aus Zoom LTI Pro in dieses Formular.
   Klicken Sie dazu auf **Copy** neben dem Feld in LTI Pro, um den Feldwert in der Zwischenablage zu speichern, 
   und fügen Sie den Wert in das Feld in OpenOlat ein.
+* Im Feld "Mail-Domänen" tragen Sie bei Bedarf E-Mail-Domänen ein, eine pro Zeile. OpenOlat verwendet sie, um das passende Zoom-Profil vorauszuwählen.
+* Haben Sie in LTI Pro erlaubt, dass Student:innen Zoom-Meetings planen und durchführen, aktivieren Sie das Kontrollkästchen "Student:innen dürfen Meetings planen und veranstalten".
 * Klicken Sie auf **Speichern**, um das neue OpenOlat-Zoom-Profil zu speichern.
 
 ### Kopieren von Informationen zurück zu LTI Pro

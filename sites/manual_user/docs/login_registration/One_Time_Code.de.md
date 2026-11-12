@@ -37,10 +37,10 @@ Klicken Sie auf der Validierungsseite auf "Email neu versenden". OpenOlat erzeug
 
 One Time Code und [Passkey](Passkey.de.md) schliessen sich nicht aus:
 
-* Ist nur der One Time Code aktiviert, erfolgt die Anmeldung mit Passwort und Code per E-Mail.
+* Ist nur der One Time Code aktiviert, melden Sie sich mit Passwort und Code per E-Mail an.
 * Ist zusätzlich Passkey aktiviert und Sie haben einen Passkey hinterlegt, übernimmt der Passkey den zweiten Faktor. Der One Time Code dient dann als Ausweichlösung, falls noch kein Passkey vorhanden ist.
 
-Ob und welche Verfahren aktiv sind, legt die Administration fest.
+Ob und welche Verfahren aktiv sind, legen Systemadministrator:innen in der System-Administration fest, unter: `Administration > Login > Passwort und Authentifizierung > Tab "Authentifizierung"`
 
 [Zum Seitenanfang ^](#one_time_code)
 
@@ -50,6 +50,6 @@ Ob und welche Verfahren aktiv sind, legt die Administration fest.
 
 [Login-Konzept >](Login_Concept.de.md)<br>
 [Passkey >](Passkey.de.md)<br>
-[Login-Seite >](Login_Page.de.md)<br>
+[Login-Seite >](Login_Page.de.md)
 
 [Zum Seitenanfang ^](#one_time_code)

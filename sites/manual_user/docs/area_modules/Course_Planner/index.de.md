@@ -314,7 +314,7 @@ Den **Import** starten Sie über das Mehr-Menü (⋮) oben rechts auf der Übers
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen? >](../../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
-[Course Planner aktivieren (Admin) >](../../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Modul Course Planner (Administrationshandbuch) >](../../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Welche Rechte haben die Rollen innerhalb eines Kurses? >](../../basic_concepts/Authorisation_Concept.de.md)
 
 [Zum Seitenanfang ^](#course_planner)

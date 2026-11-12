@@ -217,7 +217,7 @@ Ist das PayPal Modul konfiguriert, steht die Angebotsart "PayPal Checkout" beim 
 
 Ein Angebot "PayPal Checkout" erstellen Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in. Kursplaner:innen brauchen dafür zusätzlich eine dieser Rollen; ohne sie zeigt "Angebot hinzufügen" bei einer Durchführung "Frei verfügbar", "Zugangscode" und "Rechnung".
 
-[Einrichtung des Bezahlungsmoduls PayPal (Administration) >](../../manual_admin/administration/Payment_PayPal.de.md)
+[Einrichtung des Bezahlungsmoduls PayPal (Administrationshandbuch) >](../../manual_admin/administration/Payment_PayPal.de.md)
 
 
 ### Rechnung [:octicons-tag-16:{ title="ab Release 20.0 (OO-8210)" }](https://track.frentix.com/issue/OO-8210){:target="_blank"} {: #offer_payed_invoice}
@@ -240,7 +240,7 @@ Bei einem Angebot mit Rechnung ist
     Die Tabs einer Durchführung erscheinen erst, wenn Sie diese in der Tabelle geöffnet haben. Dort exportieren Sie die Buchungsaufträge als Excel-Datei, etwa für die Rechnungserstellung in einem anderen Programm.
 
 
-[Einrichtung des Bezahlungsmoduls Rechnung (Administration) >](../../manual_admin/administration/Payment_Invoice.de.md)
+[Einrichtung des Bezahlungsmoduls Rechnung (Administrationshandbuch) >](../../manual_admin/administration/Payment_Invoice.de.md)
 
 
 ### Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558){:target="_blank"} {: #offer_payed_credit_points}
@@ -252,7 +252,7 @@ Zertifikatsprogramme setzen Kreditpunkte zum Beispiel für Rezertifizierungen ei
 Organisationen definieren und benennen eigene Kreditpunktesysteme und schränken sie bei Bedarf ein, etwa nach Rollen oder organisatorischen Bereichen. Nach dem erfolgreichen Abschluss eines Lernangebots weisen Sie Kreditpunkte gezielt zu.
 
 
-[Kreditpunkte systemweit aktivieren (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
+[Kreditpunkte systemweit aktivieren (Administrationshandbuch) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Kreditpunkte in Kursen vergeben >](../learningresources/Course_Settings_Assessment/index.de.md#section_credit_points)<br>
 [Kreditpunkte im persönlichen Menü >](../../manual_user/personal_menu/Credit_Points.de.md)
 
@@ -366,8 +366,8 @@ Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Ben
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
-[PayPal Konfiguration (Administration) >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
-[Bezahlungsmodule: Rechnung (Administration) >](../../manual_admin/administration/Payment_Invoice.de.md)<br>
+[PayPal Konfiguration (Administrationshandbuch) >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
+[Bezahlungsmodule: Rechnung (Administrationshandbuch) >](../../manual_admin/administration/Payment_Invoice.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)<br>

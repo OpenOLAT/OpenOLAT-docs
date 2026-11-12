@@ -58,18 +58,18 @@ Am Ende des Menüs steht die Funktion "Abmelden".
     * [Einstellungen](../personal_menu/Settings.de.md)
     * [Passwort](../personal_menu/Password.de.md)
 
-Die Abschnitte "Hilfe" und "System" enthalten keine persönlichen Daten. Unter "Hilfe" stehen die Verweise, welche die Administration für Ihre Installation freigegeben hat, zum Beispiel auf das OpenOlat Handbuch, auf die OpenOlat Academy oder auf eine Support-Adresse. Unter "System" finden Sie systemnahe Funktionen wie "Drucken".
+Die Abschnitte "Hilfe" und "System" enthalten keine persönlichen Daten. Unter "Hilfe" stehen die Verweise, die für Ihre Installation freigegeben sind, zum Beispiel auf das OpenOlat Handbuch, auf die OpenOlat Academy oder auf eine Support-Adresse. Diese Verweise legen Systemadministrator:innen in der System-Administration fest unter: `Administration > Customizing > Hilfe`. Unter "System" finden Sie systemnahe Funktionen wie "Drucken".
 
 Eine ausführliche Beschreibung aller Werkzeuge finden Sie auf der Seite [Persönliche Werkzeuge](Personal_Tools/index.de.md).
 
 
 ## Verfügbare Werkzeuge {: #available_tools}
 
-Welche Werkzeuge Ihnen überhaupt angeboten werden, entscheidet die Administration. Sie gibt in der System-Administration unter `Administration > Core-Konfiguration > Persönliche Werkzeuge` frei, welche Werkzeuge zur Verfügung stehen, und legt in der Voreinstellung fest, welche davon standardmässig in der Menüleiste erscheinen. Ihr persönliches Menü kann deshalb mehr oder weniger Einträge enthalten, als auf dieser Seite aufgeführt sind.
+Welche Werkzeuge Ihnen überhaupt angeboten werden, entscheiden Systemadministrator:innen. In der System-Administration geben sie unter `Administration > Core-Konfiguration > Persönliche Werkzeuge` frei, welche Werkzeuge zur Verfügung stehen, und legen in der Voreinstellung fest, welche davon standardmässig in der Menüleiste erscheinen. Ihr persönliches Menü kann deshalb mehr oder weniger Einträge enthalten, als auf dieser Seite aufgeführt sind.
 
 Konten mit der Rolle Einladung sehen im persönlichen Menü nur Hilfe, Abonnements und Passwort, solange ihnen keine weitere Rolle zugewiesen ist.
 
-Die Bereiche der Hauptnavigation, zum Beispiel Kurse, Gruppen oder Katalog, gehören nicht zum persönlichen Menü. Ob Sie einen Bereich sehen, entscheidet die Administration: Das Modul muss aktiv sein, der Bereich freigeschaltet und Ihre Rolle zugelassen. Sie selbst können ihn nicht einschalten. Fehlt ein Bereich, prüfen Sie zuerst das Menü "Mehr" am rechten Rand der Hauptnavigation. Was über einen Bereich entscheidet, beschreibt die Seite [Bereiche und Module](../area_modules/index.de.md#conditions).
+Die Bereiche der Hauptnavigation, zum Beispiel Kurse, Gruppen oder Katalog, gehören nicht zum persönlichen Menü. Ob Sie einen Bereich sehen, entscheiden Systemadministrator:innen in der System-Administration: Das Modul muss aktiv sein, der Bereich freigeschaltet und Ihre Rolle zugelassen. Sie selbst können ihn nicht einschalten. Fehlt ein Bereich, prüfen Sie zuerst das Menü "Mehr" am rechten Rand der Hauptnavigation. Was über einen Bereich entscheidet, beschreibt die Seite [Bereiche und Module](../area_modules/index.de.md#conditions).
 
 [Core-Konfiguration: Persönliche Werkzeuge (Administrationshandbuch) >](../../manual_admin/administration/Core_functions/index.de.md#personal_tools)
 

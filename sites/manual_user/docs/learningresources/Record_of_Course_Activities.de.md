@@ -66,7 +66,7 @@ Sie bedeutet, mit der Datenbankoperation update:
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)
 

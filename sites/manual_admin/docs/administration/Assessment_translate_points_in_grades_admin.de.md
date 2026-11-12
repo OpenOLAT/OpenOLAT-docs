@@ -15,7 +15,7 @@ Der Schalter "Modul "Einstufung/Noten"" steht auf "Ein" oder "Aus". Steht er auf
 
 Ein Bewertungssystem legt fest, welche Noten es gibt und auf Wunsch, welche davon als bestanden gelten. Kursbesitzer:innen wählen im Kursbaustein eines der aktivierten Bewertungssysteme aus. Daraus entsteht im Kursbaustein die Bewertungsskala, die jedem Punktebereich eine Note zuordnet. In der System-Administration lassen sich mehrere Bewertungssysteme nebeneinander anlegen.
 
-Ein neues Bewertungssystem legen Sie an unter:<br>
+Ein neues Bewertungssystem legen Sie in der System-Administration an, unter:<br>
 `Administration > e-Assessment > Einstufung/Noten > Bewertungssystem erstellen`
 
 Zuerst vergeben Sie den Identifikator, eine eindeutige Kennung aus Kleinbuchstaben, Ziffern und Punkten. Er lässt sich danach nicht mehr ändern. Anschliessend öffnet sich der Dialog "Bewertungssystem bearbeiten".

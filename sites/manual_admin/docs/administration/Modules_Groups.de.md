@@ -3,6 +3,7 @@
 Im Modul Gruppen legen Systemadministrator:innen systemweit fest, wer Gruppen erstellen darf, welche Rechte Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext erhalten, und welche Datenschutz-Einstellungen beim Hinzufügen von Mitgliedern in Gruppen und Kursen gelten.
 
 !!! note "Navigation"
+    Das Modul Gruppen finden Sie in der System-Administration unter:<br>
     `Administration > Module > Gruppen`
 
 !!! tip "Datenschutz"

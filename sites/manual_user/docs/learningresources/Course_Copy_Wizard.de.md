@@ -43,7 +43,7 @@ Ist das [Modul «Räume»](../../manual_admin/administration/Modules_Rooms.de.md
 **Auf dieser Seite erwähnt**<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Kopieren (eines Kurses) >](Course_Copy.de.md)<br>
-[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Modul Räume (Administrationshandbuch) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](../area_modules/Course_Planner_Rooms.de.md)
 
 **Weiterführend**<br>

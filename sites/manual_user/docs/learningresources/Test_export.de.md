@@ -221,7 +221,7 @@ Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigen
 [Teststatistiken >](Statistics_Test.de.md)<br>
 [Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Tests bewerten >](../learningresources/Assessing_tests.de.md)<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Tests auswerten und verwalten >](../learningresources/Course_Element_Test/Test_Results.de.md)
 
 **Weiterführend**<br>

@@ -1,8 +1,11 @@
 # Bezahlungsmodule: Übersicht {: #payment}
 
-![Menü Bezahlungsmodule mit den Einträgen Rechnung und PayPal in der Administration](../assets/admin_payment_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
+![Menü Bezahlungsmodule mit den Einträgen Rechnung und PayPal in der System-Administration](../assets/admin_payment_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
 
-Es stehen derzeit folgende Bezahlungsmodule zur Verfügung und können konfiguriert werden:
+Systemadministrator:innen konfigurieren die Bezahlungsmodule in der System-Administration unter:<br>
+`Administration > Bezahlungsmodule`
+
+Zur Verfügung stehen folgende Bezahlungsmodule:
 
 ---
 

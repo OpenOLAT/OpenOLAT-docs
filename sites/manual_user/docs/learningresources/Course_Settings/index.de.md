@@ -104,7 +104,7 @@ Im Tab "Freigabe" definieren Sie, wie und für wen ein Kurs oder eine Lernressou
 
 ![Tab "Katalog" aktiv, zwischen "Freigabe" und "Nutzungsbedingungen"](../assets/course_settings_tab_catalog_v2_de.png){ class="shadow lightbox" title="Tab Katalog in den Kurseinstellungen · 2026.10.02" }
 
-Hier tragen Sie den Kurs in eine oder mehrere Kategorien des Katalogs 1.0 ein. Den Tab sehen Sie nur, wenn die Administration den Katalog 1.0 eingeschaltet hat und der Kurs den Verwendungszweck "Eigenständig" hat.
+Hier tragen Sie den Kurs in eine oder mehrere Kategorien des Katalogs 1.0 ein. Den Tab sehen Sie nur, wenn der Kurs den Verwendungszweck "Eigenständig" hat und in der System-Administration unter `Administration > Module > Katalog > Tab "Einstellungen"` die Option "Katalog V1" gewählt ist.
 
 [Zu den Details >](../Course_Settings_Catalog.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
@@ -114,7 +114,7 @@ Hier tragen Sie den Kurs in eine oder mehrere Kategorien des Katalogs 1.0 ein. D
 
 ![Tab "Nutzungsbedingungen" aktiv, an fünfter Stelle der Tab-Leiste](../assets/course_settings_tab_disclaimer_v2_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen in den Kurseinstellungen · 2026.10.02" }
 
-Hier hinterlegen Sie kursbezogene Nutzungsbedingungen und eine kursbezogene Datenschutzerklärung, denen Personen zustimmen, bevor der Kurs öffnet. Den Tab sehen Sie nur, wenn die Administration die Option "Kursbezogene Nutzungsbedingungen und Datenschutzerklärung" eingeschaltet hat.
+Hier hinterlegen Sie kursbezogene Nutzungsbedingungen und eine kursbezogene Datenschutzerklärung, denen Personen zustimmen, bevor der Kurs öffnet. Den Tab sehen Sie nur, wenn in der System-Administration unter `Administration > Module > Kurs` die Option "Kursbezogene Nutzungsbedingungen und Datenschutzerklärung" eingeschaltet ist.
 
 [Zu den Details >](../Course_Settings_Disclaimer.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
@@ -131,7 +131,7 @@ Im Tab Layout bestimmen Sie, wie der Kurs aussieht und wie sich Teilnehmende dar
 * und bestimmen den Stil der Kursbausteine.
 
 Welche Layoutvorlagen zur Auswahl stehen, bestimmt das Systemlayout (Theme), das für Ihre ganze OpenOlat-Instanz gilt. Die Vorlage "Standard" ist immer vorhanden. Ein einheitliches Erscheinungsbild für alle Kurse (Farben, Schriften, Logo) wird deshalb zentral über ein individuelles Systemlayout umgesetzt, siehe [Darstellung](../../../manual_admin/administration/Customizing.de.md#layout). Für einen einzelnen Kurs wählen Sie die Option "Eigene Konfiguration festlegen": Dort legen Sie Schriftart und Farben für Text, Überschriften, Links, Menü und Toolbox fest und laden ein Logo hoch. Darüber hinaus können Sie im [Ablageordner](../Storage_folder.de.md) des Kurses im Ordner "courseCSS" eigene CSS-Dateien hinterlegen, die dann in der Auswahl als "Aus Kursablageordner" erscheinen. Den Ablageordner öffnen Sie unter:<br>
-`Kurs > Administration > Ablageordner`
+`Kurs > Administration > Dateien > Ablageordner`
 
 Im Bereich "Navigation" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfadkursen legen Sie zusätzlich fest, ob im Menü die Icons und der Pfad angezeigt werden ("Icons im Menu anzeigen", "Pfad im Menu anzeigen"). Je nach linearem oder flexiblem Szenario bietet sich die eine oder andere Variante an.
 

@@ -4,7 +4,7 @@
 
     Der Katalog 1.0 ist veraltet. Er wird nicht mehr weiterentwickelt und in einer der nächsten Versionen vollständig entfernt. Richten Sie neue Kataloge mit dem [Katalog 2.0](catalog2.0/index.de.md) ein.
 
-    Sie nutzen noch den Katalog 1.0, wenn die Kurseinstellungen den Tab "Katalog" mit dem Button "In Katalog einfügen" zeigen. Das [Bild im Abschnitt "Kurs in den Katalog 1.0 eintragen"](#enter_course) zeigt beides. Der Katalog 2.0 öffnet stattdessen mit einem Suchfeld im Kopfbereich. Welche Version aktiv ist, legt die Administration fest: `Administration > Module > Katalog > Tab "Einstellungen"`.
+    Sie nutzen noch den Katalog 1.0, wenn die Kurseinstellungen den Tab "Katalog" mit dem Button "In Katalog einfügen" zeigen. Das [Bild im Abschnitt "Kurs in den Katalog 1.0 eintragen"](#enter_course) zeigt beides. Der Katalog 2.0 öffnet stattdessen mit einem Suchfeld im Kopfbereich. Welche Version aktiv ist, legen Systemadministrator:innen in der System-Administration fest: `Administration > Module > Katalog > Tab "Einstellungen"`.
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>){:target="_blank"}
 

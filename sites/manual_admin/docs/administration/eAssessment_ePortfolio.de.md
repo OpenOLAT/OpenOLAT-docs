@@ -1,6 +1,6 @@
 # e-Assessment Administration: ePortfolio {: #portfolio}
 
-Die Administration schaltet unter `Administration > e-Assessment > ePortfolio` das ePortfolio 2.0 ein oder aus und legt fest, in welchem Umfang Teilnehmende eigene Mappen erstellen und nutzen dürfen.
+In der System-Administration unter `Administration > e-Assessment > ePortfolio` schalten Sie das ePortfolio 2.0 ein oder aus und legen fest, in welchem Umfang Teilnehmende eigene Mappen erstellen und nutzen dürfen.
 
 #### ePortfolio einschalten {: #eportfolio_enabled}
 
@@ -34,7 +34,7 @@ Legt fest, in welcher Ansicht die Einträge einer Mappe angezeigt werden: Tabell
 
 Schaltet die Verknüpfung von Taxonomien mit dem ePortfolio ein oder aus. Damit Teilnehmende Taxonomien ihren Portfolioeinträgen zuordnen und im [ePortfolio](../../manual_user/area_modules/Competences_tags.de.md) nutzen können, muss diese Option aktiv sein.
 
-![Taxonomieverknüpfung und verknüpfte Taxonomien einschalten; Administration > e-Assessment > ePortfolio](assets/Tax%20eP%20aktivieren%20DE.png){ class="shadow lightbox" }
+![Markiert: Taxonomieverknüpfung eingeschaltet und eine Taxonomie unter "Verknüpfte Taxonomien" ausgewählt](assets/Tax%20eP%20aktivieren%20DE.png){ class="shadow lightbox" title="Seite ePortfolio in der System-Administration" }
 
 #### Verknüpfte Taxonomien {: #linked_taxonomies}
 

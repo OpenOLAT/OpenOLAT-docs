@@ -59,7 +59,7 @@ Der Schutz prüft die Adressen, die Personen selbst eingeben:
 
 Für Autor:innen und Teilnehmende zeigt sich der Schutz beim Eintragen einer Adresse: OpenOlat weist eine Adresse aus dem internen Netz ab. Die Meldung nennt den Schutz nicht als Ursache, sie lautet gleich wie bei einer falschen Adresse oder einem Netzwerkfehler.
 
-Dienste, deren Adresse die Administration hinterlegt hat, prüft der Schutz nicht, zum Beispiel OnlyOffice, BigBlueButton, Zoom oder Opencast. Sie erreichen interne Server weiterhin, das Einschalten unterbricht keine eingerichtete Anbindung.
+Dienste, deren Adresse in der System-Administration hinterlegt ist, prüft der Schutz nicht, zum Beispiel OnlyOffice, BigBlueButton, Zoom oder Opencast. Sie erreichen interne Server weiterhin, das Einschalten unterbricht keine eingerichtete Anbindung.
 
 Läuft der ausgehende Verkehr des Servers über einen Proxy, löst der Proxy die Hostnamen auf, nicht OpenOlat. OpenOlat prüft dann nur noch das Protokoll und Adressen, die als IP-Adresse in der URL stehen. Die Prüfung der Hostnamen muss in diesem Fall der Proxy übernehmen. Adressen, die laut Serverkonfiguration am Proxy vorbeigehen, prüft OpenOlat vollständig.
 

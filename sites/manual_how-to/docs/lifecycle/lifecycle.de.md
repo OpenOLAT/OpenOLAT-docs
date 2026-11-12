@@ -73,13 +73,13 @@ Diese Voreinstellungen gelten für das ganze System. Einzelne Gruppen nehmen ihr
 
 ### Gruppen-Lebenszyklus [:octicons-tag-16:{ title="ab Release 16.1 (OO-5190)" }](https://track.frentix.com/issue/OO-5190) {: #group_lifestyle}
 
-Die Betreuung des Gruppen-Lebenszyklus erfolgt durch Gruppenverwalter:innen, auf Grundlage der Voreinstellungen der Administration, unter:<br>
+Gruppenverwalter:innen betreuen den Gruppen-Lebenszyklus auf Grundlage der Voreinstellungen in der System-Administration, unter:<br>
 `Gruppen > Tab "Gruppenverwaltung"`
 
-Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit der Beschreibung der Schritte. Die Beschreibungen auf den Pfeilen geben die Voreinstellungen der Administration wieder.
+Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit der Beschreibung der Schritte. Die Beschreibungen auf den Pfeilen geben die Voreinstellungen aus der System-Administration wieder.
 
 * Im ersten Schritt, dem Pfeil "I. Aktive Gruppen", finden Sie alle aktiven Gruppen aufgelistet.
-* Im Reiter "Zu inaktivieren" dieses Pfeils sehen Sie die zur Inaktivierung vorgeschlagenen Gruppen, gemäss den Regeln der Administration.
+* Im Reiter "Zu inaktivieren" dieses Pfeils sehen Sie die zur Inaktivierung vorgeschlagenen Gruppen, gemäss den Regeln aus der System-Administration.
 * Selektieren Sie eine oder mehrere Gruppen, erscheinen Buttons oberhalb der Liste.
 * Mit den Buttons über der Liste oder dem Link am Ende einer Listenzeile können Sie nun konkrete einzelne Gruppen inaktivieren oder mit "Inaktivierung starten" über die bevorstehende Inaktivierung informieren. Eine gestartete Inaktivierung nehmen Sie mit "Inaktivierung abbrechen" zurück.
 
@@ -87,14 +87,14 @@ Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit
 
 <br>
 
-* Im zweiten Schritt, dem Pfeil "II. Inaktive Gruppen", finden Sie alle bereits **inaktiven** Gruppen aufgelistet.
-* Wurden vom System Gruppen automatisch auf den Status "Inaktiv" gesetzt, besteht hier auch die Möglichkeit, Gruppen wieder zu reaktivieren.
+* Im zweiten Schritt, dem Pfeil "II. Inaktive Gruppen", finden Sie alle bereits inaktiven Gruppen aufgelistet.
+* Hat OpenOlat Gruppen automatisch auf den Status "Inaktiv" gesetzt, aktivieren Sie sie hier mit "Reaktivieren" wieder.
 
 ![Zweiter Pfeil Inaktive Gruppen aktiv, die Liste zeigt Inaktiviert am und Löschungsdatum, der Button Reaktivieren steht rechts](assets/lifecycle_gruppen_inaktiv_v1_de.png){ class="shadow lightbox" title="Schritt Inaktive Gruppen im Tab Gruppenverwaltung" }
 
 <br>
 
-* Im dritten Schritt, dem Pfeil "III. Gelöschte Gruppen", finden Sie alle **gelöschten** Gruppen aufgelistet.
+* Im dritten Schritt, dem Pfeil "III. Gelöschte Gruppen", finden Sie alle gelöschten Gruppen aufgelistet.
 * Diese Liste entspricht dem "Papierkorb". Die Gruppen lassen sich hier automatisch oder manuell endgültig löschen.
 
 ![Dritter Pfeil Gelöschte Gruppen aktiv, die Liste nennt Gelöscht am und Datum Unwiderrufliches Löschen](assets/lifecycle_gruppen_geloescht_v1_de.png){ class="shadow lightbox" title="Schritt Gelöschte Gruppen im Tab Gruppenverwaltung" }
@@ -106,9 +106,9 @@ Klicken Sie unter `Gruppen > Tab "Gruppenverwaltung"` auf die grossen Pfeile mit
 
 ### Kurs-Lebenszyklus {: #course_lifecycle}
 
-Die Nutzung des Kurs-Lebenszyklus kann durch alle Personen erfolgen, die Zugriff auf den Autorenbereich haben.
+Den Kurs-Lebenszyklus können alle Personen nutzen, die Zugriff auf den Autorenbereich haben.
 
-Grundlage sind die Voreinstellungen der Administration:
+Grundlage sind die Voreinstellungen in der System-Administration unter `Administration > Lebenszyklen > Kurse`:
 
 ![Die drei Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen mit Frist und Einheit, darunter die erzwungene Benachrichtigung der Besitzer:innen](assets/lifecycle_kurs_admin_v1_de.png){ class="shadow lightbox" title="Seite Kurse in der System-Administration" }
 
@@ -133,27 +133,27 @@ Wie Systemadministrator:innen die Fristen konfigurieren, die Auswirkungen im Bes
 
 ### Automatischer Kontolebenszyklus [:octicons-tag-16:{ title="ab Release 15.1 (OO-4460)" }](https://track.frentix.com/issue/OO-4460) {: #user_account_lifecycle}
 
-Die Nutzung des automatischen Kontolebenszyklus kann durch alle Personen erfolgen, die Zugriff auf die Benutzerverwaltung haben.
+Den automatischen Kontolebenszyklus können alle Personen nutzen, die Zugriff auf die Benutzerverwaltung haben.
 
-Grundlage sind die Voreinstellungen der Administration:
+Grundlage sind die Voreinstellungen in der System-Administration:
 
 ![Markierter Bereich Automatischer Kontolebenszyklus mit Erklärtext und Ausführungszeit, darunter der eingeschaltete Schalter und die Frist](assets/lifecycle_benutzer2_admin_v2_de.png){ class="shadow lightbox" title="Bereich Automatischer Kontolebenszyklus auf der Seite Konto" }
 
 <br>
 
-Die Konfiguration steht in zwei getrennten Bereichen. Der Bereich **Kontoablauf** greift, wenn ein Konto sein hinterlegtes Ablaufdatum erreicht. Der Bereich **Automatischer Kontolebenszyklus** greift, wenn sich niemand mehr am Konto anmeldet. Es greift, was zuerst eintritt. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
+Die Konfiguration steht in zwei getrennten Bereichen. Der Bereich "Kontoablauf" greift, wenn ein Konto sein hinterlegtes Ablaufdatum erreicht. Der Bereich "Automatischer Kontolebenszyklus" greift, wenn sich niemand mehr am Konto anmeldet. Es greift, was zuerst eintritt. [:octicons-tag-16:{ title="ab Release 21.1 (OO-8382)" }](https://track.frentix.com/issue/OO-8382)
 
 Damit endet die Nutzung eines Kontos in drei Phasen. Der Kontoablauf steht für sich, Deaktivierung und Löschung bilden den automatischen Kontolebenszyklus:
 
 * **Kontoablauf**: Das Ablaufdatum wird pro Konto hinterlegt. Ist es erreicht, deaktiviert OpenOlat das Konto.
 * **Deaktivierung**: Konten ohne Anmeldung während der Inaktivitätsfrist werden automatisch oder manuell deaktiviert.
-* **Löschung**: Nach der Deaktivierungsperiode erfolgt die endgültige Löschung automatisch oder manuell. Je nach Konfiguration lässt sie sich auch ausschliesslich manuell auslösen.
+* **Löschung**: Nach der Deaktivierungsperiode wird das Konto automatisch oder manuell endgültig gelöscht. Je nach Konfiguration lässt sich die Löschung auch ausschliesslich manuell auslösen.
 
 Zu jeder Phase können Benachrichtigungsmails konfiguriert werden, vor oder nach dem jeweiligen Schritt.
 
 Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Reiter "Konto" der Person, siehe [Kontoeinstellungen verwalten](../../manual_admin/usermanagement/Configure_User.de.md#automatic_user_lifecycle).
 
-!!! info "Konfiguration in der Administration"
+!!! info "Konfiguration in der System-Administration"
 
     Fristen, Mailbenachrichtigungen und Automatisierungsgrad für alle drei Phasen stellen Sie in der System-Administration ein unter:<br>
     `Administration > Lebenszyklen > Konto`<br>
@@ -166,7 +166,7 @@ Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Rei
 
 ### Durchführungs-Lebenszyklus [:octicons-tag-16:{ title="ab Release 20.0 (OO-8092)" }](https://track.frentix.com/issue/OO-8092) {: #implementation_lifecycle}
 
-Wer im Course Planner Durchführungen plant, möchte, dass eine Durchführung zum richtigen Zeitpunkt startet und abschliesst, ohne jeden Statuswechsel von Hand zu setzen. Eine Durchführung durchläuft dafür die Status "Vorbereitung", "Provisorisch" und "Bestätigt" bis "Beendet" oder "Abgebrochen". Bei ihren Elementen, zum Beispiel Semestern oder Modulen, steht statt "Provisorisch" und "Bestätigt" der Status "Aktiv" zur Wahl. Ändern Sie den Status einer Durchführung, können Sie die enthaltenen Elemente im selben Schritt mitändern. Aus "Bestätigt" wird dabei bei den Elementen "Aktiv". Beide Abläufe zusammen sind der Durchführungs-Lebenszyklus. Anders als die drei anderen Lebenszyklen löscht er nichts, und er steht nicht unter `Administration > Lebenszyklen`.
+Wer im Course Planner Durchführungen plant, möchte, dass eine Durchführung zum richtigen Zeitpunkt startet und abschliesst, ohne jeden Statuswechsel von Hand zu setzen. Eine Durchführung durchläuft dafür die Status "Vorbereitung", "Provisorisch" und "Bestätigt" bis "Beendet" oder "Abgebrochen". Bei ihren Elementen, zum Beispiel Semestern oder Modulen, steht statt "Provisorisch" und "Bestätigt" der Status "Aktiv" zur Wahl. Ändern Sie den Status einer Durchführung, können Sie die enthaltenen Elemente im selben Schritt mitändern. Aus "Bestätigt" wird dabei bei den Elementen "Aktiv". Beide Abläufe zusammen sind der Durchführungs-Lebenszyklus. Anders als die drei anderen Lebenszyklen löscht er nichts, und er steht in der System-Administration nicht unter `Administration > Lebenszyklen`.
 
 Die Status lassen sich von Hand setzen oder über die Automatisierung. Zeitgesteuerte Regeln der Automatisierung beziehen sich auf den Beginn oder das Ende des Durchführungszeitraums, andere greifen bei einem Statuswechsel. Systemadministrator:innen hinterlegen die Regeln je Elementtyp in der System-Administration unter:<br>
 `Administration > Module > Course Planner > Tab Elementtypen` [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)

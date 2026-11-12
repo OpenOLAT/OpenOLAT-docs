@@ -4,7 +4,7 @@
 
 ![Symbol E-Mail](assets/icon_e-mail.png)
 
-OpenOlat verfügt über ein internes E-Mail-System, über das Sie an verschiedenen Orten E-Mails versenden können. Ist das OpenOlat Postfach aktiviert, werden E-Mails auch intern zugestellt. Falls nicht, werden alle in OpenOlat erstellten E-Mails ausschliesslich an die persönliche E-Mail-Adresse der Empfänger:innen versandt. Das Postfach schaltet die Administration ein: [E-Mail Einstellungen](../../manual_admin/administration/E-Mail_Settings.de.md).
+OpenOlat verfügt über ein internes E-Mail-System, über das Sie an verschiedenen Orten E-Mails versenden können. Ist das OpenOlat Postfach aktiviert, werden E-Mails auch intern zugestellt. Falls nicht, werden alle in OpenOlat erstellten E-Mails ausschliesslich an die persönliche E-Mail-Adresse der Empfänger:innen versandt. Das Postfach schalten Systemadministrator:innen in den [E-Mail Einstellungen](../../manual_admin/administration/E-Mail_Settings.de.md) der System-Administration ein: `Administration > Core-Konfiguration > E-Mail`.
 
 ## Das Postfach {: #inbox}
 

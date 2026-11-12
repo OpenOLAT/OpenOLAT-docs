@@ -35,7 +35,7 @@ Die Reihenfolge kann durch Klick auf die Doppelpfeile zu Beginn der Zeilen festg
 Innerhalb eines Launcher hängt die Reihenfolge der Angebote vom Launchertyp ab:
 
 !!! note "Launchertyp"
-    Konfiguration der Launchertypen in der Administration.<br>
+    Die Launchertypen konfigurieren Systemadministrator:innen in der System-Administration unter: `Administration > Module > Katalog > Tab "Startseite"`<br>
     [Launchertyp >](../../manual_admin/administration/Modules_Catalog_2.0.de.md#tab_start_page)
 
 
@@ -72,8 +72,8 @@ Soll ein Launcher Unterkategorien anzeigen, wird ein Launcher vom Typ "Taxonomie
 
 ![Launcher Kursangebote mit neun Kategorie-Kacheln als Unterseiten](assets/catalog20_sort_offers_microsites_taxonomy1_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
 
-Die Reihenfolge der Einträge innerhalb des Taxonomie-Launchers (Reihenfolge der Unterseiten/Kategorien im Katalog) wird durch die Struktur der Taxonomie bestimmt und muss deshalb via Taxonomie geändert werden.<br>
-`Administration > Module > Taxonomie > Aktivierung einer Taxonomie für Lernressourcen/Katalog`
+Die Reihenfolge der Einträge innerhalb des Taxonomie-Launchers (Reihenfolge der Unterseiten/Kategorien im Katalog) bestimmt die Struktur der Taxonomie. Sie ändern sie deshalb in der Taxonomie, in der System-Administration unter:<br>
+`Administration > Module > Taxonomie > "Ihre Taxonomie" > Tab "Ebenen"`
 
 Beispiel: Taxonomiestruktur für den vorstehend angezeigten Taxonomie-Launcher:
 
@@ -191,7 +191,7 @@ Je höher der Boost-Wert, umso weiter vorne wird ein Angebot im Katalog angezeig
 
 !!! info "Wichtig"
 
-    Die Sortierung nach Prioritäten hat keinen Einfluss auf die Sortierung auf der Startseite. Dort wird die Reihenfolge der Angebote durch die jeweiligen Launchertypen und die manuelle Anordnung in der Administration festgelegt.
+    Die Sortierung nach Prioritäten hat keinen Einfluss auf die Sortierung auf der Startseite. Dort legen die jeweiligen Launchertypen und die manuelle Anordnung in der System-Administration die Reihenfolge der Angebote fest.
 
 
 [Zum Seitenanfang ^](#catalog_sort)

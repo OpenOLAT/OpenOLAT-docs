@@ -18,6 +18,6 @@ Sobald Sie die Konfiguration abgeschlossen haben, klicken Sie oben rechts auf "K
 
 [Bereiche und Module >](../area_modules/index.de.md)<br>
 [Kurse finden >](../area_modules/Courses.de.md)<br>
-[Customizing: Übersicht (Administration) >](../../manual_admin/administration/Customizing.de.md)
+[Customizing: Übersicht (Administrationshandbuch) >](../../manual_admin/administration/Customizing.de.md)
 
 [Zum Seitenanfang ^](#portal_configuration)

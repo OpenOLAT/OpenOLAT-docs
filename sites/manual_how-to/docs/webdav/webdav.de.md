@@ -109,9 +109,9 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 
   *  **coursefolders**: Ablageordner und Ordnerelement aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Ablageordner sehen in der Regel nur Benutzer:innen mit Autorenrechten. Alle anderen Benutzer:innen finden hier Kursordner. 
 
-    * _other_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche keinem Semester zugeordnet sind.
+    * `_other`: Dieser Ordner erscheint nur, wenn Systemadministrator:innen in der System-Administration die Option "Kurse nach Semesterdaten gruppieren" oder "Kurse nach CPL Elementen gruppieren" eingeschaltet haben: `Administration > Core-Konfiguration > WebDAV`. In diesem Ordner befinden sich alle Kurse, die keinem Semester bzw. keinem CPL Element zugeordnet sind.
 
-    * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurs-Lebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
+    * `_finished`: Dieser Ordner erscheint nur, wenn keine dieser beiden Optionen eingeschaltet ist. In diesem Ordner befinden sich alle Kurse, welche im Kurs-Lebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menü Kurse im Tab "Beendet" erscheinen.  
 
     ![Markierte Option Kurse nach Semesterdaten gruppieren, hier ausgeschaltet, Seite WebDAV Zugang unter Core-Konfiguration der System-Administration](assets/webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png){ class="shadow lightbox" title="Seite WebDAV Zugang in der Core-Konfiguration" }
 

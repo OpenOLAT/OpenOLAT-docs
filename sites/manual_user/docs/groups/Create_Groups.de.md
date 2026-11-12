@@ -30,7 +30,7 @@ in der Übersichtsseite, wenn Sie die Gruppe gestartet haben.
 
 ### Vorgesehene Anzahl Teilnehmende
 
-Beim Erstellen einer Gruppe oder später in der Gruppenadministration können Sie optional eine Platzbeschränkung einrichten, indem Sie festlegen, wie viele
+Beim Erstellen einer Gruppe oder später unter `Gruppe > Administration > Tab "Beschreibung"` können Sie optional eine Platzbeschränkung einrichten, indem Sie festlegen, wie viele
 Teilnehmende die Gruppe haben darf. Wenn die vorgesehene Anzahl Teilnehmenden überschritten wird, erhalten die Gruppenteilnehmenden die Mitteilung, dass in der Gruppe keine Plätze mehr frei sind. Wenn Sie dieses Feld leer lassen, kann die Gruppe beliebig viele Teilnehmende enthalten.
 
 !!! info "Info"
@@ -44,8 +44,9 @@ Aktivieren Sie bei Bedarf die gewünschten Optionen. Sofern Sie die Anzahl der T
 
 ## Wer kann eine Gruppe erstellen? {: #found_a_group}
 
-Sofern von Systemadministrator:innen aktiviert unter `Administration > Module > Gruppen`, kann jede OpenOlat-Benutzer:in, nicht nur Autor:innen, selbständig Gruppen erstellen, den Gruppen vielfältige
-[Werkzeuge](Using_Group_Tools.de.md) zuordnen und beliebig viele andere OpenOlat-Benutzer:innen in die Gruppe einladen oder direkt hinzufügen.
+Sofern Systemadministrator:innen es in der System-Administration erlaubt haben, kann jede OpenOlat-Benutzer:in, nicht nur Autor:innen, selbständig Gruppen erstellen, den Gruppen vielfältige
+[Werkzeuge](Using_Group_Tools.de.md) zuordnen und beliebig viele andere OpenOlat-Benutzer:innen in die Gruppe einladen oder direkt hinzufügen. Die Einstellung "Gruppen erstellen erlauben für" liegt in der System-Administration unter:<br>
+`Administration > Module > Gruppen`
 
 Wird eine Gruppe durch Sie erstellt, werden Sie automatisch **Gruppenbetreuer:in**. In dieser Rolle erhalten Sie für Ihre Gruppe die Menüoption "Administration". Dort können Sie im Tab "Mitglieder" weitere Personen hinzufügen (zu Gruppenmitgliedern machen) und Rechte der Gruppenmitglieder konfigurieren. Weitere Infos zum Hinzufügen von Mitgliedern finden Sie [hier](../groups/Group_Membership.de.md).
 

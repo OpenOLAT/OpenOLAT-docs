@@ -26,7 +26,7 @@ Beide Aspekte können wie folgt miteinander kombiniert werden:
 
 ![Markierter Button "Beitreten" bei einer buchbaren Gruppe mit Zugangscode in der Liste der veröffentlichten Gruppen](assets/group_membership_offer_v1_de.png){ class="shadow lightbox" title="Tab Veröffentlichte Gruppen im Bereich Gruppen" }
 
-Hierfür muss der/die Gruppenbetreuer:in direkt in der Gruppe unter `Administration > Freigabe` ein **„Angebot“** hinterlegen.
+Dafür hinterlegen Gruppenbetreuer:innen in der Gruppe ein Angebot, unter: `Gruppe > Administration > Freigabe`
 
 ![Button "Angebot hinzufügen" mit den Optionen Zugangscode und Frei verfügbar, darunter der Hinweis, dass noch kein Angebot erstellt ist](assets/Gruppe_Freigabe.png){ class="shadow lightbox" title="Tab Freigabe der Gruppe" }
 
@@ -38,7 +38,7 @@ Für das Angebot stehen mehrere Optionen zur Verfügung:
 
 **Wo finden Benutzer:innen Gruppen die sie buchen können?**
 
-Gruppen mit Angeboten finden Benutzer:innen unter “Veröffentlichte Gruppen”. Mit Klick auf **“Beitreten”** kann ein Angebot gebucht werden und man wird zum Gruppenmitglied.
+Gruppen mit Angeboten finden Benutzer:innen im Tab "Veröffentlichte Gruppen". Mit einem Klick auf "Beitreten" buchen sie ein Angebot und werden Mitglied der Gruppe.
 
 ![Markierter Button "Beitreten" bei einer buchbaren Gruppe mit Zugangscode in der Liste der veröffentlichten Gruppen](assets/group_membership_offer_v1_de.png){ class="shadow lightbox" title="Tab Veröffentlichte Gruppen im Bereich Gruppen" }
 
@@ -55,12 +55,12 @@ Bei Überbuchung erscheinen entsprechende Hinweise, z.B.:
 
 ## 2a) Gruppenbetreuer:innen tragen Personen direkt in die Gruppe ein {: #add_groupmember}
 
-Als Gruppenbetreuer:in wählen oder erstellen Sie die gewünschte Gruppe und gehen in den Tab „Administration“ der Gruppe. Im Tab „Mitglieder“ können dann weitere Teilnehmende und auch Betreuende hinzugefügt werden.
+Als Gruppenbetreuer:in wählen oder erstellen Sie die gewünschte Gruppe und öffnen darin: `Gruppe > Administration > Mitglieder`. Dort fügen Sie mit "Mitglied hinzufügen" weitere Teilnehmende und Betreuende hinzu.
 
 ![Button "Mitglied hinzufügen" mit dem Eintrag "Externe Mitglieder einladen" über der Mitgliederliste, darüber die Einstellungen zur Anzeige der Mitglieder](assets/Gruppe_Mitglied_hinzufuegen1.png){ class="shadow lightbox" title="Tab Mitglieder der Gruppe" }
 
-OpenOlat Autor:innen stehen zusätzlich noch die „Massensuche“ beim Hinzufügen der Mitglieder zur Verfügung. Auf diesem Weg können rasch Personen, deren OpenOlat ID oder E-Mail-Adresse bekannt ist, direkt hinzugefügt werden.
-Ferner haben Autor:innen die Möglichkeit, auch „externe Mitglieder“, die aktuell noch kein OpenOlat-Konto haben, in die Gruppe einzuladen. Hierfür müssen die konkreten E-Mail-Adressen der Personen eingetragen werden.
+OpenOlat Autor:innen stehen zusätzlich noch die "Massensuche" beim Hinzufügen der Mitglieder zur Verfügung. Auf diesem Weg können rasch Personen, deren OpenOlat ID oder E-Mail-Adresse bekannt ist, direkt hinzugefügt werden.
+Ferner haben Autor:innen die Möglichkeit, auch externe Mitglieder, die aktuell noch kein OpenOlat-Konto haben, in die Gruppe einzuladen. Hierfür müssen die konkreten E-Mail-Adressen der Personen eingetragen werden.
 
 ### Eine Person in mehrere Gruppen eintragen {: #add_several_groupmembers}
 

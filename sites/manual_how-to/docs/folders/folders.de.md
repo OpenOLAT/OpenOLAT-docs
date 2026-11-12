@@ -70,7 +70,7 @@ Die Ordner erreichen Sie von verschiedenen Stellen aus. Überlegen Sie, welcher 
 Zugriffsweg kursspezifisch:
 
 - via Aufruf eines Kursbausteins
-- via Administrationsmenü (als Autor:in oder Betreuer:in)
+- via Kurs-Administration (als Autor:in oder Betreuer:in)
 - via Icon in der Toolbar
 
 Zugriffsweg kontextübergreifend, je nach Berechtigung:
@@ -367,7 +367,7 @@ Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspei
 [Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
 [Modul Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving/index.de.md)<br>
 [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? >](../reduce_storage_consumption/reduce_storage_consumption.de.md)
 
 **Weiterführend**<br>

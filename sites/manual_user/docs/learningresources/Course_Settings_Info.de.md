@@ -1,7 +1,7 @@
 # Kurseinstellungen - Tab Info {: #tab_info}
 
 Jede Lernressource verfügt über eine [Infoseite](../learningresources/General_Functions_Infopage.de.md). Diese kann von den Besitzer:innen der Lernressource inhaltlich gefüllt werden und steht Interessierten nach Veröffentlichung der Lernressource, unabhängig von einer Buchung, bereits vor Betreten der Lernressource zur Verfügung. Das ist z.B. sinnvoll, wenn man die Zielgruppe bereits im Vorfeld informieren möchte.<br>
-Die Angaben in der Kursadministration im Tab "Info" sind die wesentlichen Bestandteile der Infoseite. Weitere Angaben der Infoseite kommen dann noch aus den Tabs "Metadaten" und "Durchführung" oder werden automatisch generiert. 
+Die Angaben im Tab "Info" unter `Kurs > Administration > Einstellungen` sind die wesentlichen Bestandteile der Infoseite. Weitere Angaben der Infoseite kommen dann noch aus den Tabs "Metadaten" und "Durchführung" oder werden automatisch generiert. 
 
 ## Infoseite einrichten {: #configure_info}
 

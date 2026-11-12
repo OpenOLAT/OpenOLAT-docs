@@ -34,22 +34,26 @@ Unter "Sprache" wählen Sie, in welcher Sprache OpenOlat Ihnen die Oberfläche z
 
 #### E-Mail-Benachrichtigung {: #notification_interval}
 
+!!! info "Kontakt"
+
+    Der Zeitplan, nach dem OpenOlat die Benachrichtigungen versendet, ist Teil der Serverkonfiguration. Für eine Änderung wenden Sie sich an Ihre Organisation.
+
 Unter "E-Mail-Benachrichtigung" legen Sie fest, wie oft Sie höchstens eine E-Mail mit den Neuigkeiten aus Ihren Abonnements erhalten. Zur Auswahl stehen: "ausgeschaltet", "alle zwei Stunden", "alle vier Stunden", "alle zwölf Stunden", "täglich", "wöchentlich" und "monatlich". Treffen Sie keine Wahl, gilt "täglich". Je nach Konfiguration Ihrer OpenOlat-Instanz stehen weniger Intervalle zur Auswahl, oder das Feld erscheint gar nicht.
 
 Die gewählte Häufigkeit ist eine Obergrenze: OpenOlat schickt Ihnen nur dann eine E-Mail, wenn es in Ihren Abonnements etwas Neues gibt. Mit "ausgeschaltet" erhalten Sie keine Benachrichtigungen per E-Mail mehr. Das gilt unabhängig vom Zeitplan der Instanz. Die Neuigkeiten gehen dabei nicht verloren: Ihre Abonnements bleiben bestehen, und Sie sehen die Neuigkeiten jederzeit selbst unter `Persönliches Menü > Abonnements > Tab "Neuigkeiten"` oder über das Glockensymbol im jeweiligen Kursbaustein. Mehr dazu: [Abonnements](Subscriptions.de.md#view_notifications)
 
-Die E-Mail kommt nicht im selben Moment, in dem Ihr Intervall abläuft, sondern beim nächsten Lauf des systemweiten Versands. Diesen Zeitplan legt die Administration fest, im Standard läuft der Versand alle zwei Stunden. Ist bei einem Lauf Ihr Intervall abgelaufen und gibt es Neuigkeiten, erhalten Sie die E-Mail. Mehr dazu: [Core-Konfiguration: Benachrichtigungen](../../manual_admin/administration/Core_functions/index.de.md#notifications)
+Die E-Mail kommt nicht im selben Moment, in dem Ihr Intervall abläuft, sondern beim nächsten Lauf des systemweiten Versands. Den Zeitplan dieses Versands legt die Serverkonfiguration für die ganze Instanz fest; im Standard läuft der Versand alle zwei Stunden. Ist bei einem Lauf Ihr Intervall abgelaufen und gibt es Neuigkeiten, erhalten Sie die E-Mail. Mehr dazu: [Core-Konfiguration: Benachrichtigungen](../../manual_admin/administration/Core_functions/index.de.md#notifications)
 
-![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl die Administration den Versand eingerichtet hat](assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt?" }
+![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl der Versand für die ganze Instanz eingerichtet ist](assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt? · 2026.11.12" }
 
 #### E-Mail Versand {: #mail_delivery}
 
-Unter "E-Mail Versand" legen Sie fest, wohin OpenOlat Ihre E-Mails zustellt. Das Feld erscheint nur, wenn die Administration das OpenOlat Postfach eingeschaltet hat.
+Unter "E-Mail Versand" legen Sie fest, wohin OpenOlat Ihre E-Mails zustellt. Das Feld erscheint nur, wenn Systemadministrator:innen das OpenOlat Postfach in der System-Administration eingeschaltet haben: `Administration > Core-Konfiguration > E-Mail`.
 
   * "E-Mails an das interne OpenOlat Postfach zustellen": Die Nachrichten bleiben in OpenOlat. Sie lesen sie unter `Persönliche Werkzeuge > E-Mail`. In der Benachrichtigungsmail finden Sie zusätzlich einen Hinweis auf neue E-Mails im OpenOlat-Postfach.
   * "E-Mails an das interne OpenOlat Postfach und die Adresse ... zustellen": OpenOlat legt jede Nachricht ins Postfach und leitet sie zusätzlich an die angezeigte Adresse weiter. Angezeigt wird die Adresse aus Ihrem Profil. Das ist die dauerhafte Weiterleitung.
 
-Ihre Wahl überschreibt die systemweite Standardeinstellung. Treffen Sie keine Wahl, gilt die Vorgabe der Administration: [E-Mail Einstellungen](../../manual_admin/administration/E-Mail_Settings.de.md#e-mail-inbox-and-outbox).
+Ihre Wahl überschreibt die systemweite Standardeinstellung. Treffen Sie keine Wahl, gilt die Vorgabe der System-Administration: [E-Mail Einstellungen](../../manual_admin/administration/E-Mail_Settings.de.md#e-mail-inbox-and-outbox).
 
 Eine einzelne Nachricht leiten Sie auch ohne diese Einstellung weiter: [Persönliche Werkzeuge: E-Mail](E-Mail.de.md#forward).
 
@@ -206,7 +210,7 @@ Hier finden Sie Ihre gespeicherten Anpassungen, etwa ausgeblendete Tabellenspalt
 Einige KI-Funktionen von OpenOlat arbeiten automatisch, ohne dass Sie sie aufrufen. Im Tab "KI-Einstellungen" entscheiden Sie für jede dieser Funktionen, ob OpenOlat sie für Ihre Antworten und Bilder nutzen darf. Sie finden den Tab unter:<br>
 `Persönliches Menü > Einstellungen > Tab "KI-Einstellungen"`
 
-Der Tab erscheint nur, wenn die Administration mindestens eine der beiden Funktionen eingeschaltet hat, und er zeigt nur die Zeilen der eingeschalteten Funktionen. Gäste sehen den Tab nicht, für sie gilt immer die Vorgabe der Administration.
+Der Tab erscheint nur, wenn Systemadministrator:innen mindestens eine der beiden Funktionen in der System-Administration eingeschaltet haben: `Administration > Externe Werkzeuge > KI-Modul`. Er zeigt nur die Zeilen der eingeschalteten Funktionen. Gäste sehen den Tab nicht, für sie gilt immer die Vorgabe der System-Administration.
 
 ![Tab KI-Einstellungen mit den markierten Zeilen KI-Feedback zu Freitextantworten und KI-Bildbeschreibungen, je mit den Werten Vorgabe (ein), Ein und Aus, so sehen Sie, welche Wahl für Sie gilt](assets/pers_menu_settings_tab_ai_settings_v1_de.png){ class="shadow lightbox" title="Tab KI-Einstellungen der persönlichen Einstellungen · 2026.10.20" }
 
@@ -217,7 +221,7 @@ Je Funktion steht eine Zeile im Tab:
 
 In jeder Zeile wählen Sie einen von drei Werten und klicken danach auf "Speichern":
 
-* **"Vorgabe (ein)" oder "Vorgabe (aus)"**: Es gilt, was die Administration für alle eingestellt hat. Der Klammerzusatz zeigt, ob die Funktion damit für Sie läuft.
+* **"Vorgabe (ein)" oder "Vorgabe (aus)"**: Es gilt, was Systemadministrator:innen in der System-Administration für alle eingestellt haben. Der Klammerzusatz zeigt, ob die Funktion damit für Sie läuft.
 * **"Ein"**: Die Funktion läuft für Sie, auch wenn die Vorgabe "aus" lautet.
 * **"Aus"**: Die Funktion läuft für Sie nicht, auch wenn die Vorgabe "ein" lautet.
 
@@ -225,7 +229,7 @@ Steht das KI-Feedback auf "Aus", beantworten Sie Freitextfragen wie gewohnt, es 
 
 Solange beim KI-Feedback "Vorgabe" gewählt ist, fragt OpenOlat Sie zu Beginn eines Quiz mit KI-Feedback, ob die KI Ihre Antworten korrigieren darf. Mehr dazu: [Einwilligung zur KI-Korrektur](../basic_concepts/Content_Editor.de.md#ai_consent)
 
-Haben Sie in diesem Dialog "Immer erlauben" gewählt, steht die Zeile hier auf "Ein". Möchten Sie wieder gefragt werden, wählen Sie "Vorgabe" und klicken auf "Speichern". Danach gilt wieder die Vorgabe der Administration. Die Option "Personalisierung von Bildschirmkomponenten" unter ["Einstellungen Zurücksetzen"](#reset) im Tab "System" stellt Ihre KI-Einstellungen wieder auf "Vorgabe".
+Haben Sie in diesem Dialog "Immer erlauben" gewählt, steht die Zeile hier auf "Ein". Möchten Sie wieder gefragt werden, wählen Sie "Vorgabe" und klicken auf "Speichern". Danach gilt wieder die Vorgabe der System-Administration. Die Option "Personalisierung von Bildschirmkomponenten" unter ["Einstellungen Zurücksetzen"](#reset) im Tab "System" stellt Ihre KI-Einstellungen wieder auf "Vorgabe".
 
 Welche Vorgabe für alle gilt, legen Systemadministrator:innen im KI-Modul fest: [Externe Werkzeuge: KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_functions)
 

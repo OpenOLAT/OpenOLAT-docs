@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 570" width="900" height="570" role="img" aria-label="Zwei Menüs namens Administration: System-Administration für die ganze Instanz, Kurs-Administration für einen Kurs, und wie das Handbuch ihre Klickwege schreibt">
+  <rect x="0" y="0" width="900" height="570" fill="#F3F4EF"/>
+
+  <text x="40" y="52" font-family="'Roboto', sans-serif" font-size="26" font-weight="700" fill="#126365">Zwei Menüs, ein Name</text>
+  <text x="40" y="80" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Beide Menüs heissen in der Oberfläche "Administration". Der Klickweg im Handbuch sagt, welches gemeint ist.</text>
+
+  <!-- linke Spalte: System-Administration -->
+  <rect x="40" y="110" width="390" height="330" rx="10" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="1"/>
+  <rect x="40" y="110" width="390" height="52" rx="10" fill="#126365"/>
+  <rect x="40" y="146" width="390" height="16" fill="#126365"/>
+  <text x="60" y="143" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">System-Administration</text>
+
+  <text x="60" y="196" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">EINSTIEG</text>
+  <text x="60" y="218" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Hauptnavigation von OpenOlat</text>
+
+  <text x="60" y="256" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">GILT FÜR</text>
+  <text x="60" y="278" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Die ganze OpenOlat-Instanz</text>
+
+  <text x="60" y="316" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">KLICKWEG IM HANDBUCH</text>
+  <rect x="60" y="330" width="360" height="40" rx="6" fill="#EDEDED"/>
+  <text x="74" y="356" font-family="'Roboto Mono', 'Courier New', monospace" font-size="14" fill="#36464E">Administration &gt; Module &gt; Kurs</text>
+  <text x="60" y="396" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">Der Satz davor nennt sie ausdrücklich:</text>
+  <text x="60" y="416" font-family="'Roboto', sans-serif" font-size="14" font-style="italic" fill="#126365">«… in der System-Administration unter …»</text>
+
+  <!-- rechte Spalte: Kurs-Administration -->
+  <rect x="470" y="110" width="390" height="330" rx="10" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="1"/>
+  <rect x="470" y="110" width="390" height="52" rx="10" fill="#5F6E23"/>
+  <rect x="470" y="146" width="390" height="16" fill="#5F6E23"/>
+  <text x="490" y="143" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Kurs-Administration</text>
+
+  <text x="490" y="196" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">EINSTIEG</text>
+  <text x="490" y="218" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Links oben im geöffneten Kurs</text>
+
+  <text x="490" y="256" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">GILT FÜR</text>
+  <text x="490" y="278" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Nur diesen einen Kurs</text>
+
+  <text x="490" y="316" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#767676">KLICKWEG IM HANDBUCH</text>
+  <rect x="490" y="330" width="360" height="40" rx="6" fill="#EDEDED"/>
+  <text x="504" y="356" font-family="'Roboto Mono', 'Courier New', monospace" font-size="14" fill="#36464E">Kurs &gt; Administration &gt; Einstellungen</text>
+  <text x="490" y="396" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">Der Kurs steht vorne und macht den Klickweg</text>
+  <text x="490" y="416" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">eindeutig.</text>
+
+  <!-- Faustregel -->
+  <rect x="40" y="464" width="820" height="70" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="60" y="493" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Faustregel: Beginnt ein Klickweg mit "Administration", meint er die System-Administration.</text>
+  <text x="60" y="517" font-family="'Roboto', sans-serif" font-size="15" fill="#2D2926">Jeder andere Klickweg nennt sein Objekt zuerst: Kurs, Gruppe, Test, Fragenpool.</text>
+
+  <text x="828" y="558" font-family="'Roboto', sans-serif" font-size="13" fill="#767676">OpenOlat</text>
+</svg>

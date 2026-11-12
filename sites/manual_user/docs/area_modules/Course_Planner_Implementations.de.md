@@ -529,7 +529,7 @@ Unter der Konfiguration listet eine Tabelle die Regeln des Elements. Die Tabs "A
 
 ![Der Modus Überschreiben und die Tabelle der Regeln mit Kontext, Automatisierung, Zielstatus, Bedingung und geplanter Ausführung](assets/course_planner_implementations_tab_settings_automation_v4_de.png){ class="shadow lightbox" title="Unter-Tab Automatisierung der Einstellungen einer Durchführung · 2026.10.02" }
 
-[Zu den Elementtypen und Automatisierungsregeln (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
+[Zu den Elementtypen und Automatisierungsregeln (Administrationshandbuch) >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
 [Zu den To-dos auf CPL-Elementen >](Course_Planner_Todos.de.md)
 
 
@@ -662,7 +662,7 @@ Die Auswahl ist nur aktiv, wenn überhaupt Termine kopiert werden, also wenn bei
 !!! note "Sie sehen den Abschnitt «Raumverwaltung» nicht?"
 
     Der Abschnitt erscheint nur, wenn ein:e Systemadministrator:in das Modul "Räume" aktiviert hat.<br>
-    [Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md#activation)
+    [Räume verwalten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Rooms.de.md#activation)
 
 Die Kopie übernimmt den Raum der ursprünglichen Buchung. Der Zeitraum der Buchung folgt dem kopierten Termin: Verschieben Sie mit "Alle Daten schieben" die Termine, verschieben sich die Buchungen mit. OpenOlat prüft beim Kopieren nicht, ob der Raum im neuen Zeitraum noch frei ist. Konflikte wie eine Doppelbuchung erscheinen erst danach als Warnung in der [Raumplanung](Course_Planner_Rooms.de.md#room_scheduling).
 
@@ -706,8 +706,8 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Course Planner: Produkte >](Course_Planner_Products.de.md)<br>
 [Course Planner: Termine >](Course_Planner_Events.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../learningresources/Course_Settings_Execution.de.md)<br>
-[Modul Organisationen (Administration) >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
-[Modul Gruppen (Administration) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
+[Modul Organisationen (Administrationshandbuch) >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
+[Modul Gruppen (Administrationshandbuch) >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Katalog 2.0 - Angebote >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
 [Coaching - Personen >](Coaching_People.de.md)<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
@@ -717,11 +717,11 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Reports: Buchungsaufträge >](Reports_BookingOrders.de.md)<br>
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
-[Modul Course Planner (Administration) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Modul Course Planner (Administrationshandbuch) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports/index.de.md)<br>
 [To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
-[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Modul Räume (Administrationshandbuch) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](Course_Planner_Rooms.de.md)
 
 **Weiterführend**<br>

@@ -1,9 +1,11 @@
 # Modul Kurserinnerungen {: #reminders}
 
 
-Unter `Administration > Module > Kurserinnerungen` kann eingestellt werden, ob und wann in den Kursen erstellte Erinnerungen automatisch verschickt werden.
+In der System-Administration unter `Administration > Module > Kurserinnerungen` legen Sie fest, ob und wann OpenOlat die in den Kursen erstellten Erinnerungen automatisch verschickt. Neben den Erinnerungen in Kursen wird der Versand auch für die Rezertifizierung benötigt.
 
-![Modul Kurserinnerungen in der System-Administration mit Schalter zum Einschalten, Zeitintervall, Referenz-Sendezeit und der Vorschau der berechneten Versandzeitpunkte](assets/modules_course_reminders_v1_de.png){ class="shadow lightbox" }  
+![Schalter zum Einschalten der Kurserinnerungen, Zeitintervall, Referenz-Sendezeit mit Zeitzone und die daraus berechneten Versandzeitpunkte](assets/modules_course_reminders_v1_de.png){ class="shadow lightbox" title="Seite Kurserinnerungen in der System-Administration" }  
+
+Mit der "Referenz-Sendezeit" und der Zeitzone legen Sie die Uhrzeit fest, nach der sich der Versand ausrichtet. Der Kasten "Versandzeitpunkte basierend auf der gewählten Referenzzeit" zeigt, zu welchen Uhrzeiten OpenOlat die Erinnerungen danach verschickt.
 
 Es können folgende Zeitintervalle für den automatischen Versand eingestellt werden:
 
@@ -15,7 +17,7 @@ Es können folgende Zeitintervalle für den automatischen Versand eingestellt we
 * Alle zwei Stunden
 * Jede Stunde
 
-![Auswahlliste der sieben Zeitintervalle für Kurserinnerungen, im Feld Zeitintervall der System-Administration](assets/modules_course_reminders_interval_v1_de.png){ class="shadow lightbox" }  
+![Sieben Zeitintervalle zur Auswahl, von 1 Mal pro Tag bis Jede Stunde](assets/modules_course_reminders_interval_v1_de.png){ class="shadow lightbox" title="Feld Zeitintervall im Modul Kurserinnerungen" }  
 
 
 !!! note "Hinweis"

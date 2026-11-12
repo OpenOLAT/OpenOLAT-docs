@@ -4,11 +4,11 @@
 
 Die Darstellung eines Kurses und der eingebauten Kursbausteine kann von den Kursbesitzer:innen konfiguriert werden. Die Basis-Einstellungen hierfür werden in der Kurs-Administration im Tab "Layout" definiert. Weitere Details und Anpassungen können im Kurseditor bei den jeweiligen Kursbausteinen vor allem in den Tabs "Titel und Beschreibung" sowie "Layout" vorgenommen werden.
 
-## Layout Einstellungen in der Kursadministration
+## Layout Einstellungen in der Kurs-Administration
 
 ### Tab "Layout" 
 
-Im Tab Layout der Kurseinstellungen kann der Standardstil der Darstellung definiert werden. Dazu zählen: die Auswahl eines Hintergrundbildes, die Definition des Stils sowie die Zuordnung einer Farbkategorie.
+Im Tab "Layout" der Kurseinstellungen legen Sie den Standardstil der Darstellung fest: `Kurs > Administration > Einstellungen > Tab "Layout"`. Dazu zählen: die Auswahl eines Hintergrundbildes, die Definition des Stils sowie die Zuordnung einer Farbkategorie.
 
 Kursbesitzer:innen können für die Darstellung der Kursbausteine ein eigenes Bild hochladen (maximal 4 MB), ein Bild aus der Bibliothek wählen oder auf ein Bild ganz verzichten. Das Bild kann rechts oder links positioniert, als Verlauf rechts oder vollflächig dargestellt werden.
 
@@ -35,9 +35,9 @@ Hier können den Betreuer:innen weitere Informationen zu diesem Kursbaustein hin
 
 ### Tab "Layout" 
 
-Im Tab Layout eines Kursbausteins kann man die in den "Einstellungen" der Kursadministration vorgenommenen Standardeinstellungen für jeden einzelnen Kursbaustein ändern und überschreiben.
+Im Tab "Layout" eines Kursbausteins überschreiben Sie für diesen Kursbaustein die Standardeinstellungen aus dem Tab "Layout" unter `Kurs > Administration > Einstellungen`.
 
-Für das Hintergrundbild, den Stil und die Farbkategorie kann zwischen "Kurs Standard", "Vererbt" und "Kursbaustein spezifisch" gewählt werden. Der Kurs Standard bezieht sich auf die Basis-Einstellungen der Administration. Vererbt bezieht sich auf die Einstellung des übergeordneten Kursbausteins. Und mit "Kursbaustein spezifisch" können Sie eine spezielle Konfiguration für den gewählten Kursbaustein vornehmen. 
+Für das Hintergrundbild, den Stil und die Farbkategorie kann zwischen "Kurs Standard", "Vererbt" und "Kursbaustein spezifisch" gewählt werden. Der Kurs Standard bezieht sich auf die Einstellungen im Tab "Layout" der Kurseinstellungen. Vererbt bezieht sich auf die Einstellung des übergeordneten Kursbausteins. Und mit "Kursbaustein spezifisch" können Sie eine spezielle Konfiguration für den gewählten Kursbaustein vornehmen. 
 
 **Anzeige**: Wählen Sie ob die im Tab "Titel und Beschreibung" definierten Infos angezeigt werden sollen oder nicht.
 

@@ -43,7 +43,7 @@ Welche Aktionen das Menü **«Weitere Aktionen»** (drei Punkte) am Ende einer Z
 ## Weiterführende Informationen {: #further_information}
 
 [To-dos: Grundlagen >](../basic_concepts/To_Dos_Basics.de.md)<br>
-[Modul To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.de.md)<br>
+[Modul To-do (Administrationshandbuch) >](../../manual_admin/administration/Modules_ToDo.de.md)<br>
 [To-dos im Kurs >](../learningresources/Course_todos.de.md)<br>
 [Projekte: To-dos >](../area_modules/Project_Todos.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>

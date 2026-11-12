@@ -4,7 +4,7 @@ Der Report Buchungsaufträge führt je Buchungsauftrag die folgenden Spalten. Di
 
 | Attribut                    | Quelle                 | Beschreibung                                                             | Linien-/Ausbildungsverantwortlicher                                      |
 |-----------------------------|------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| Benutzerdaten               | Person                 | Gemäss Konfiguration in der Administration                               |                                                                          |
+| Benutzerdaten               | Person                 | Gemäss Konfiguration in der System-Administration unter `Administration > Customizing > Benutzer:innen-Attribute` |                                                                          |
 | Debitorennummer             | Person                 | Debitorennummer der Person                                               |                                                                          |
 | Mitgliedschaftsstatus       | Person                 | Status in Durchführung oder Kurs (eigenständig)                          |                                                                          |
 | Produkt	                  | Produkt                | Titel des Produkts                                                       |                                                                          |

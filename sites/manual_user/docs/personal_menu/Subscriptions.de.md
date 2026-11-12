@@ -59,7 +59,7 @@ Sie können sich auch mittels **RSS** über den Änderungsverlauf informieren la
 Wie oft Sie Änderungsmeldungen per E-Mail erhalten, oder ob Sie keine E-Mail erhalten wollen, legen Sie fest unter:<br>
 `Persönliches Menü > Einstellungen > Tab "System" > Allgemeine Systemeinstellungen > E-Mail-Benachrichtigung`
 
-Die E-Mails selbst verschickt OpenOlat nach einem Zeitplan, den die Administration für die ganze Instanz festlegt. Endet Ihr Intervall zwischen zwei Läufen des Versands, kommt die E-Mail erst mit dem nächsten Lauf. Haben Sie "ausgeschaltet" gewählt, erhalten Sie keine E-Mail, die Neuigkeiten sehen Sie aber weiterhin hier im Tab "Neuigkeiten". Mehr dazu: [Einstellungen: E-Mail-Benachrichtigung](Settings.de.md#notification_interval)
+Die E-Mails selbst verschickt OpenOlat nach einem Zeitplan, der in der Serverkonfiguration für die ganze Instanz festgelegt ist; im Standard läuft der Versand alle zwei Stunden. Endet Ihr Intervall zwischen zwei Läufen des Versands, kommt die E-Mail erst mit dem nächsten Lauf. Haben Sie "ausgeschaltet" gewählt, erhalten Sie keine E-Mail, die Neuigkeiten sehen Sie aber weiterhin hier im Tab "Neuigkeiten". Mehr dazu: [Einstellungen: E-Mail-Benachrichtigung](Settings.de.md#notification_interval)
 
 Ist das **Portal** aktiviert, werden die Änderungsmeldungen auch dort unter "Meine Benachrichtigungen" angezeigt.
 

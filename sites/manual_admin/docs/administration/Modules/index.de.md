@@ -89,7 +89,7 @@ Hier können mehrere Taxonomien für unterschiedliche Bereiche in OpenOlat erste
 
 ## Video Livestream [:octicons-tag-16:{ title="ab Release 14.0 (OO-4043)" }](https://track.frentix.com/issue/OO-4043){:target="_blank"} {: #livestream}
 
-Hier kann der Kursbaustein "Video Livestream" verfügbar gemacht und konfiguriert werden. Die Seite `Administration > Module > Livestream` hat drei Tabs. Im Tab "Einstellungen" schalten Sie den Kursbaustein und die Option "Multistream" ein und legen die Initialwerte für neue Kursbausteine fest. Die Einstellungen im Einzelnen beschreibt die Seite [Kursbaustein "Video Livestream"](../../../manual_user/learningresources/Course_Element_Video_Livestream.de.md).
+Hier kann der Kursbaustein "Video Livestream" verfügbar gemacht und konfiguriert werden. In der System-Administration hat die Seite `Administration > Module > Livestream` drei Tabs. Im Tab "Einstellungen" schalten Sie den Kursbaustein und die Option "Multistream" ein und legen die Initialwerte für neue Kursbausteine fest. Die Einstellungen im Einzelnen beschreibt die Seite [Kursbaustein "Video Livestream"](../../../manual_user/learningresources/Course_Element_Video_Livestream.de.md).
 
 ### URL Vorlagen [:octicons-tag-16:{ title="ab Release 15.3 (OO-5163)" }](https://track.frentix.com/issue/OO-5163){:target="_blank"} {: #livestream_url_templates}
 
@@ -215,7 +215,7 @@ gelöscht werden.
 
 Für die Kursbausteine "Aufgabe", "Gruppenaufgabe", "Teilnehmer:innen Ordner", "Test" und "Umfrage" legen Sie hier fest, mit welchen Werten sie starten, wenn Autor:innen sie neu in einen Kurs einfügen. So müssen Autor:innen die Einstellungen, die in Ihrer Organisation üblich sind, nicht in jedem Kursbaustein selbst setzen. Bestehende Kursbausteine behalten ihre Werte.
 
-Die Liste unter `Administration > Module > Kursbausteine` zeigt die Kursbausteine mit ihrer Funktionsgruppe. Die Spalte "Aktiviert" zeigt nur an, ob ein Kursbaustein eingeschaltet ist. Hat ein Kursbaustein einstellbare Vorgaben, öffnet die Spalte "Info" seine Handbuchseite, und in der Spalte "Einstellungen" steht der Link "Bearbeiten". In jeder Vorgabe stellt "Alle Werte auf Default zurücksetzen" die Werte ab Werk wieder her.
+Die Liste in der System-Administration unter `Administration > Module > Kursbausteine` zeigt die Kursbausteine mit ihrer Funktionsgruppe. Die Spalte "Aktiviert" zeigt nur an, ob ein Kursbaustein eingeschaltet ist. Hat ein Kursbaustein einstellbare Vorgaben, öffnet die Spalte "Info" seine Handbuchseite, und in der Spalte "Einstellungen" steht der Link "Bearbeiten". In jeder Vorgabe stellt "Alle Werte auf Default zurücksetzen" die Werte ab Werk wieder her.
 
 ### Kursbausteine "Aufgabe" und "Gruppenaufgabe" {: #course_element_task}
 

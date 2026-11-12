@@ -49,16 +49,16 @@ Beim Hinzufügen neuer Mitglieder werden auch die Rollen "Gruppenteilnehmer:in" 
 ![Gruppenrollen Betreuer:in, Teilnehmer:in oder Warteliste je Gruppe als Checkboxen](assets/roles_rights_group_member_v1_de.png){ class="shadow lightbox" title="Schritt Berechtigungen im Assistenten Mitglied hinzufügen" }
 
 **Rollen der Gruppenmitglieder ändern**<br>
-Besteht bereits eine Mitgliedschaft in einer Gruppe und Sie wollen die Rolle der Person ändern, können Sie dies (bei vorhandener Berechtigung zum Bearbeiten) in der Administration der Gruppe:<br>
-`Gruppen > Administration > Tab "Mitglieder" > Icon mit 3 Punkten am Zeilenende > "Mitglied bearbeiten"`
+Die Rolle eines bestehenden Gruppenmitglieds ändern Sie (bei vorhandener Berechtigung zum Bearbeiten) in der Administration der Gruppe:<br>
+`Gruppe > Administration > Tab "Mitglieder" > Icon mit 3 Punkten am Zeilenende > "Mitglied bearbeiten"`
 
 ![Drei-Punkte-Menü eines Mitglieds mit der Option Mitglied bearbeiten, markiert](assets/roles_rights_groups_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder in der Administration der Gruppe" }
 ![Gruppenrollen Betreuer:in, Teilnehmer:in oder Warteliste als Checkboxen für ein bestehendes Mitglied](assets/roles_rights_group_member_edit_v1_de.png){ class="shadow lightbox" title="Dialog Mitglied bearbeiten der Gruppe" }
 
 
 **Zuweisung der Rolle Gruppenbetreuer:in**<br>
-Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser Gruppe. Betreuer:innen einer Gruppe erhalten zusätzlich den Link "Administration" im Menü. Weiteren Personen können Sie anschliessend ebenfalls die Rolle Gruppenbetreuer:in zuweisen.<br>
-Vorgehen: `Gruppen > Administration > Tab "Mitglieder" > Icon mit 3 Punkten am Zeilenende > "Mitglied bearbeiten"`
+Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser Gruppe. Betreuer:innen einer Gruppe erhalten zusätzlich den Link "Administration" im Menü der Gruppe. Weiteren Personen können Sie anschliessend ebenfalls die Rolle Gruppenbetreuer:in zuweisen.<br>
+Vorgehen: `Gruppe > Administration > Tab "Mitglieder" > Icon mit 3 Punkten am Zeilenende > "Mitglied bearbeiten"`
 
 
 **Zuweisung der Rolle Gruppenverwalter:in**<br>

@@ -70,7 +70,7 @@ Es gibt drei spezifische Kursrollen:
 Besitzer:innen haben alle Rechte innerhalb eines Kurses und können auf alle Menüs der [Kurs-Administration](Administration/index.de.md) zugreifen. Sie legen die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person, die einen Kurs anlegt, ist automatisch Kursbesitzer:in. Kursbesitzer:innen können dem Kurs auch weitere Besitzer:innen hinzufügen.
 
   *  **Betreuer:in**<br>
-Betreuende begleiten in der Regel den laufenden Kurs, sind jedoch bei der Erstellung nicht involviert. Kursbetreuer:innen haben Zugriff auf das Bewertungswerkzeug, die To-dos, die Datenerhebungsvorschau und die Statistiken. Sofern ein Unterlagenordner für Betreuende aktiviert wurde, sehen sie diesen ebenfalls in der Administration. Betreuende bewerten auch direkt im Kurs. Je nach Konfiguration im Kurseditor haben sie eventuell auch Zugriff auf weitere Optionen und Funktionen bestimmter Kursbausteine.
+Betreuende begleiten in der Regel den laufenden Kurs, sind jedoch bei der Erstellung nicht involviert. Kursbetreuer:innen haben Zugriff auf das Bewertungswerkzeug, die To-dos, die Datenerhebungsvorschau und die Statistiken. Sofern ein Unterlagenordner für Betreuende aktiviert wurde, öffnen sie ihn unter `Kurs > Administration > Unterlagen Betreuer:innen`. Betreuende bewerten auch direkt im Kurs. Je nach Konfiguration im Kurseditor haben sie eventuell auch Zugriff auf weitere Optionen und Funktionen bestimmter Kursbausteine.
 
   *  **Teilnehmer:in**<br>
 Teilnehmer:innen sind in der Regel die Lernenden bzw. Personen, die an einem Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der von den Besitzer:innen bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen Zugriff auf die Kurs-Administration und die darin enthaltenen Menüs.
@@ -221,7 +221,7 @@ Die Vergabe dieser Berechtigung sollte aus Datenschutzgründen sorgfältig abgew
 
 #### Bewertungs-Werkzeug {: #right_assessment_tool}
 
-Es erscheint zusätzlich das Menü "Administration" mit dem [Bewertungswerkzeug](Assessment_tool_overview/index.de.md).
+Es erscheint zusätzlich das Menü "Administration" des Kurses mit dem [Bewertungswerkzeug](Assessment_tool_overview/index.de.md).
 
 Auch ohne als Betreuer:in im Kurs eingetragen zu sein, können so Mitglieder sämtliche Leistungen der Teilnehmenden bewerten und kommentieren. Mit diesem Recht starten und beenden sie im Bewertungswerkzeug auch eine Prüfung mit manuellem Start, siehe [Wer eine Prüfung manuell starten und beenden kann](../learningresources/Assessment_mode.de.md#start_stop_rights).
 
@@ -269,7 +269,7 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Kurs-Administration: Übersicht >](Administration/index.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Toolbar >](Course_Settings_Toolbar.de.md)<br>

@@ -30,8 +30,8 @@ Wer ein To-do anlegt, findet in jedem Modul dieselben Felder vor. Zwei Angaben g
 | Feld | Bedeutung | Verfügbar |
 |---|---|---|
 | Titel | Bezeichnet die Aufgabe. Vergeben Sie einen selbsterklärenden Titel | überall, Pflichtfeld |
-| Zugewiesen | Die Person, die für die Erledigung verantwortlich ist | überall, Pflichtfeld ausser im Course Planner; bei persönlichen To-dos nur, wenn die Administration die Zuweisung an andere Personen zulässt |
-| Delegiert | Die Ausführung kann an andere Personen delegiert werden, auch phasenweise an wechselnde. Die Verantwortung bleibt bei der zugewiesenen Person | überall; bei persönlichen To-dos nur, wenn die Administration die Delegierung an andere Personen zulässt |
+| Zugewiesen | Die Person, die für die Erledigung verantwortlich ist | überall, Pflichtfeld ausser im Course Planner; bei persönlichen To-dos nur, wenn die Zuweisung an andere Personen in der System-Administration zugelassen ist: `Administration > Module > To-do` |
+| Delegiert | Die Ausführung kann an andere Personen delegiert werden, auch phasenweise an wechselnde. Die Verantwortung bleibt bei der zugewiesenen Person | überall; bei persönlichen To-dos nur, wenn die Delegierung an andere Personen in der System-Administration zugelassen ist: `Administration > Module > To-do` |
 | Status | Der Bearbeitungsstand der Aufgabe | überall |
 | Priorität | Dringend, Hoch, Mittel oder Tief | überall |
 | Startdatum | Ab wann die Aufgabe läuft. Ist auch ein Fälligkeitstermin gesetzt, zeigt der Detailbereich einen Fortschrittsbalken | überall |
@@ -106,7 +106,7 @@ Eine Einstellung, die E-Mails zu To-dos abschaltet, gibt es nicht. Beim Kopieren
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)
 
 **Weiterführend**<br>
-[Modul To-do (Admin) >](../../manual_admin/administration/Modules_ToDo.de.md)<br>
+[Modul To-do (Administrationshandbuch) >](../../manual_admin/administration/Modules_ToDo.de.md)<br>
 [Persönliches Menü >](../personal_menu/index.de.md)
 
 [Zum Seitenanfang ^](#to_dos_basics)

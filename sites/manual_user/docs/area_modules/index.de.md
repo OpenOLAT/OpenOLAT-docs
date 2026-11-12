@@ -2,7 +2,7 @@
 
 Wer in OpenOlat arbeitet, wechselt über die Hauptnavigation zwischen den Bereichen. Das ist die oberste Zeile jeder Seite (auch "Kopfzeile" oder "Header" genannt). Ein Bereich ist ein Eintrag der Hauptnavigation, zum Beispiel Kurse, Gruppen, Katalog oder Coaching: Ein Klick darauf führt zu den Funktionen dieses Bereichs. Was nur Sie selbst betrifft, etwa Ihren Kalender oder Ihre Notizen, öffnen Sie dagegen über die [Persönlichen Werkzeuge](../personal_menu/Personal_Tools/index.de.md).
 
-Welche Bereiche Sie sehen, steuern drei Dinge: das Modul, die Freischaltung in der Administration und Ihre Rolle. Jede OpenOlat-Instanz stellt die Hauptnavigation deshalb anders zusammen und ordnet sie anders. Das folgende Bild zeigt, was möglich ist: eine Instanz mit nahezu allen verfügbaren Bereichen. Die meisten Instanzen bieten weniger an.
+Welche Bereiche Sie sehen, steuern drei Dinge: das Modul, die Freischaltung in der System-Administration und Ihre Rolle. Jede OpenOlat-Instanz stellt die Hauptnavigation deshalb anders zusammen und ordnet sie anders. Das folgende Bild zeigt, was möglich ist: eine Instanz mit nahezu allen verfügbaren Bereichen. Die meisten Instanzen bieten weniger an.
 
 ![Beispiel einer weit bestückten Hauptnavigation: sechzehn nummerierte Bereiche, neun davon direkt sichtbar von Portal bis Video Collection, die übrigen im aufgeklappten Menü Mehr](assets/sites_v2_de.png){ class="shadow lightbox" title="Beispielansicht mit nahezu allen verfügbaren Bereichen, nicht der Standard einer Instanz" }
 

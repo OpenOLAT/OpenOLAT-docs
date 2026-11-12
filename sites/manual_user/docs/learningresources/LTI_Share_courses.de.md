@@ -32,7 +32,7 @@ Richten Sie am besten beide Systeme gleichzeitig ein, weil bestimmte Dialoge in 
 
 ### Voraussetzungen in der LTI-Freigabe eines Kurses [:octicons-tag-16:{ title="ab Release 15.5 (OO-5206)" }](https://track.frentix.com/issue/OO-5206) {: #conditions_share}
 
-Die LTI-Freigabe erlaubt einer bestimmten externen Plattform, zum Beispiel Moodle, diesen einen Kurs per LTI 1.3 zu starten. Ohne Freigabe weist OpenOlat jeden LTI-Aufruf für den Kurs ab, auch wenn die Plattform in der Administration eingerichtet ist.
+Die LTI-Freigabe erlaubt einer bestimmten externen Plattform, zum Beispiel Moodle, diesen einen Kurs per LTI 1.3 zu starten. Ohne Freigabe weist OpenOlat jeden LTI-Aufruf für den Kurs ab, auch wenn die Plattform in der System-Administration eingerichtet ist.
 
 ### Eine Deployment-ID für mehrere Kurse [:octicons-tag-16:{ title="ab Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092) {: #deployment_id_several_courses}
 

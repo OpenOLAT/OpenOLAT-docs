@@ -10,7 +10,7 @@ Nach der Aktivierung stehen zusätzliche Einstellungen für die systemweite Konf
 
 ## Tab Konfiguration {: #tab_configuration}
 
-Mit dem Modul "Organisationen" bilden Sie die Unternehmensstruktur in Organisationen ab. Rollen, Rechte und die Sichtbarkeit von Kursen und Inhalten können danach davon abhängen, zu welcher Organisation ein Konto gehört. Im Tab "Konfiguration" schalten Sie das Modul und die Zusatzfunktionen ein, die Ihre Organisation braucht:<br>
+Mit dem Modul "Organisationen" bilden Sie die Unternehmensstruktur in Organisationen ab. Rollen, Rechte und die Sichtbarkeit von Kursen und Inhalten können danach davon abhängen, zu welcher Organisation ein Konto gehört. Im Tab "Konfiguration" schalten Sie in der System-Administration das Modul und die Zusatzfunktionen ein, die Ihre Organisation braucht:<br>
 `Administration > Module > Organisationen > Tab "Konfiguration"`
 
 Der Tab enthält
@@ -29,7 +29,7 @@ Stellt Ihre Organisation Kurse in Rechnung, verbindet die Debitorennummer jede B
 
 ![Abschnitt Debitorennummer hervorgehoben, Schalter Debitorennummer aktivieren eingeschaltet, zwischen Rechtliche Dokumente und Status](assets/organisations_tab_config_v3_de.png){ class="shadow lightbox" title="Tab Konfiguration im Modul Organisationen · 2026.10.02" }
 
-Sie schalten die Debitorennummer im Abschnitt "Debitorennummer" mit dem Schalter "Debitorennummer aktivieren" ein:<br>
+Sie schalten die Debitorennummer in der System-Administration im Abschnitt "Debitorennummer" mit dem Schalter "Debitorennummer aktivieren" ein:<br>
 `Administration > Module > Organisationen > Tab "Konfiguration"`
 
 Der Abschnitt erscheint erst, wenn das Modul Organisationen eingeschaltet ist. Standardmässig ist der Schalter aus.
@@ -74,6 +74,7 @@ Wählen Sie in der Baumstruktur eine Organisation aus oder klicken Sie bei ihr u
 
 ![Leerer Ordner Rechtliche Dokumente einer Unterorganisation mit dem Button Dateien hochladen](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" title="Tab Rechtliche Dokumente einer Organisation" }
 
+Den Tab "Rechtliche Dokumente" finden Sie in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Rechtliche Dokumente"`<br>
 Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfiguration"` aktiviert, zeigt OpenOlat diesen Tab bei jeder Organisation. Die administrativen Rollen einer Organisation, ausser Autor:innen, öffnen den Ordner zusätzlich im [File Hub](../../manual_user/personal_menu/File_Hub.de.md) unter "Rechtliche Dokumente". Administrator:innen der Organisation können dort Dokumente zu organisationsspezifischen Belangen ablegen. Die übrigen administrativen Rollen haben nur Lesezugriff. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8233)" }](https://track.frentix.com/issue/OO-8233){:target="_blank"}
 
@@ -81,6 +82,7 @@ Ist der Ordner unter `Administration > Module > Organisationen > Tab "Konfigurat
 
 ### Metadaten {: #edit_metadata}
 
+Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Metadaten"`
 ![Markiertes Feld Bezeichnung mit dem ausgegrauten Wert default-org, darunter das Feld Name mit dem Wert OpenOlat](assets/organisations_edit_tab_metadata_v2_de.png){ class="shadow lightbox" title="Tab Metadaten der Standardorganisation · 2026.10.02" }
 
@@ -98,6 +100,7 @@ Anders bei der Standardorganisation, die das Bild zeigt: Ihre Bezeichnung ist im
 
 ### Kontenverwaltung {: #edit_account_managment}
 
+Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Kontenverwaltung"`
 ![Menü Konto hinzufügen mit den Rollen von Systemadministrator:in bis Benutzer:in](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="Tab Kontenverwaltung einer Organisation" }
 
@@ -116,6 +119,7 @@ Die **Rollen-Zuordnung** ist möglich
 
 ### Lernressourcen {: #edit_learning_resources}
 
+Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Lernressourcen"`
 ![Button "Kurse hinzufügen" über der noch leeren Liste der zugeordneten Kurse](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" title="Tab Lernressourcen einer Organisation" }
 
@@ -132,6 +136,7 @@ Bildungsprodukte ordnen Sie einer Organisation im Course Planner in der jeweilig
 
 ### Linienvorgesetzte [:octicons-tag-16:{ title="ab Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
 
+Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Linienvorgesetzte:r"`
 ![Liste der Rechte für Linienvorgesetzte von Kurse und CPL-Produkte anzeigen bis "Passwort zurücksetzen" Aktion anzeigen, alle noch aus, eingerückte Rechte gesperrt](assets/organisations_edit_tab_line_management_v2_de.png){ class="shadow lightbox" title="Tab Linienvorgesetzte:r einer Organisation · 2026.10.26" }
 
@@ -169,6 +174,7 @@ Personen mit einer [eigenen Rolle](../../manual_user/basic_concepts/Assign_Roles
 
 ### Ausbildungsverantwortliche [:octicons-tag-16:{ title="ab Release 20.0 (OO-7839)" }](https://track.frentix.com/issue/OO-7839){:target="_blank"} {: #edit_education_manager}
 
+Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Ausbildungsverantwortliche"`
 ![Dieselbe Liste der Rechte für Ausbildungsverantwortliche, hier alle ausser Absenzen-Report und Kreditpunkte anzeigen gesetzt](assets/organisations_edit_tab_education_manager_v2_de.png){ class="shadow lightbox" title="Tab Ausbildungsverantwortliche einer Organisation · 2026.10.26" }
 
@@ -177,6 +183,7 @@ Ausbildungsverantwortliche sehen im Coaching dieselbe Übersicht wie Linienvorge
 
 ### Rechnungsadressen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8212)" }](https://track.frentix.com/issue/OO-8212){:target="_blank"} {: #edit_billing_adresses}
 
+Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Rechnungsadressen"`
 
 Bucht eine Person ein Angebot mit Rechnung, wählt sie eine Rechnungsadresse ihrer Organisation aus, statt die Adresse selbst einzugeben. Diese Rechnungsadressen hinterlegen Sie hier je Organisation mit "Erstellen". Das Formular öffnet sich im Dialog "Rechnungsadresse bearbeiten", auch beim Anlegen einer neuen Adresse. Zur Auswahl stehen der Person die aktiven Rechnungsadressen der Organisationen, in denen sie Benutzer:in ist.
@@ -193,6 +200,7 @@ Ist die [Debitorennummer](#customer_number) eingeschaltet, hat eine Rechnungsadr
 
 ### E-Mail-Domänen-Zuordnungen {: #edit_mail_domain}
 
+Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "E-Mail-Domänen-Zuordnungen"`
 ![Noch leere Liste der E-Mail-Domänen-Zuordnungen einer Organisation mit dem Button E-Mail-Domänen-Zuordnung erstellen](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen einer Organisation" }
 

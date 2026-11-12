@@ -88,7 +88,7 @@ F체r einen Teil dieser Angaben lassen sich in der System-Administration Einschr�
 Dort wird festgelegt, welche Systemrollen die administrativen Benutzer:innen-Properties z.B. bei der Kontensuche oder in Listen sehen d체rfen. Welche Benutzer:innen-Properties als administrativ gelten, wird bei den Benutzer:innen-Properties konfiguriert.
 
 Wenden Sie sich bei Fragen an Ihre Systemadministrator:innen.<br>
-Informationen finden Sie hier: [Modul Datenschutz (Administration) >](../../manual_admin/administration/Modules/index.de.md#data_privacy)
+Informationen finden Sie hier: [Modul Datenschutz (Administrationshandbuch) >](../../manual_admin/administration/Modules/index.de.md#data_privacy)
 
 [Zum Seitenanfang ^](#legal_consents)
 
@@ -163,7 +163,7 @@ Sollen z.B. die Microsoft-Produkte Word, Excel und PowerPoint verwendet werden u
 Der Kursbaustein "Externe Seite" kann im HTTP-Header der Anfrage Daten zum aktuellen Konto an das externe System 체bermitteln, um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen).
 Ob diese Daten 체bermittelt werden sollen oder nicht, definieren Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Module > Externe Seite`<br>
-Alternativ kann die Einstellung auch vorgenommen werden unter `Administration > Module > Datenschutz`, im Abschnitt Daten체bermittlung bei Kursbaustein "Externe Seite".<br>
+Alternativ legen sie die Einstellung in der System-Administration im Abschnitt Daten체bermittlung bei Kursbaustein "Externe Seite" fest, unter: `Administration > Module > Datenschutz`<br>
 Was dann jedoch auf der externen Seite mit diesen Daten gemacht wird, kann von OpenOlat nicht mehr gesteuert werden.
 
 Seitens OpenOlat werden alle externen Tools in der System-Administration konfiguriert unter:<br>

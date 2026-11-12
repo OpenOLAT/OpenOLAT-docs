@@ -71,16 +71,16 @@ Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
 
 ---
 
-## 4. Kurseinstellungen vornehmen {: #config_course} 
+## 4. Kurseinstellungen festlegen {: #config_course} 
 
-Unmittelbar nachdem der neue Kurs erstellt wurde, gelangen Sie zu den Einstellungen. In jedem der Tabs können Sie detaillierte Angaben machen. Für den Anfang übernehmen wir die Voreinstellungen. 
+Unmittelbar nachdem der neue Kurs erstellt wurde, gelangen Sie zu den Einstellungen. In jedem der Tabs erfassen Sie detaillierte Angaben. Für den Anfang übernehmen wir die Voreinstellungen. 
 Später können Sie diese Kurseinstellungen jederzeit wieder aufrufen und bearbeiten unter `Kurs > Administration > Einstellungen`.<br>
 Die einzelnen Schritte sind ausführlich erklärt im Benutzerhandbuch: [Kurseinstellungen >](../../manual_user/learningresources/Course_Settings/index.de.md).<br>
 (Das Einstellen wird oft auch Kurs-Konfiguration genannt. Im Unterschied zur [Konfiguration der Kursbausteine](#configure_course_elements).)
 
-![Menü Administration mit Eintrag Einstellungen markiert, dazu die Tabs von Info bis Optionen](assets/kurseinstellungen_v1_de.png){ class="shadow lightbox" title="Kurseinstellungen, Tab Info" }
+![Menü Administration des Kurses mit Eintrag Einstellungen markiert, dazu die Tabs von Info bis Optionen](assets/kurseinstellungen_v1_de.png){ class="shadow lightbox" title="Kurseinstellungen, Tab Info" }
 
-Die hier gemachten Einstellungen <b>betreffen den Kurs als Ganzes</b>. Wenn Sie im nächsten Schritt dann Kursbausteine eingefügt haben, können Sie auch dort Einstellungen vornehmen. Dort gelten die Einstellungen jeweils nur für den aktuell ausgewählten Kursbaustein.
+Die Einstellungen an dieser Stelle betreffen den Kurs als Ganzes. Sobald Sie im nächsten Schritt Kursbausteine eingefügt haben, legen Sie auch dort Einstellungen fest. Dort gelten die Einstellungen jeweils nur für den aktuell ausgewählten Kursbaustein.
 <br>
 !!! note "Hinweis"
 
@@ -92,23 +92,23 @@ Die hier gemachten Einstellungen <b>betreffen den Kurs als Ganzes</b>. Wenn Sie 
 
 ## 5. Kursbausteine hinzufügen  {: #add_course_elements} 
 
-Ein OpenOlat-Kurs besteht aus Kursbausteinen. Die Reihenfolge der ausgewählten Kursbausteine spiegelt sich im <b>Kursmenü</b> wieder.
+Ein OpenOlat-Kurs besteht aus Kursbausteinen. Die Reihenfolge der ausgewählten Kursbausteine spiegelt sich im Kursmenü wider.
 
 ![Kurs mit drei Kursbausteinen vom Typ Einzelne Seite, Video und Test](assets/grafik_kursbausteine_v1_de.png){ width=240px class="lightbox" title="Kurs aus Kursbausteinen" }
 
-Zum Bearbeiten und Hinzufügen von neuen Kursbausteinen öffnen Sie den <b>Kurseditor</b>. Sie erkennen an der <b>schraffierten Kopfzeile</b>, dass Sie sich im Editor befinden.
+Zum Bearbeiten und Hinzufügen von neuen Kursbausteinen öffnen Sie den Kurseditor: `Kurs > Administration > Kurseditor`. An der schraffierten Kopfzeile erkennen Sie, dass der Kurseditor geöffnet ist.
 
-![Menü Administration geöffnet, Eintrag Kurseditor markiert, Kopfzeile schraffiert](assets/kurseditor_v1_de.png){ class="shadow lightbox" title="Kurseditor mit Menü Administration" }
+![Menü Administration des Kurses geöffnet, Eintrag Kurseditor markiert, Kopfzeile schraffiert](assets/kurseditor_v1_de.png){ class="shadow lightbox" title="Kurseditor mit Menü Administration des Kurses" }
 
-Mit Klick auf das Icon <b>"Kursbausteine einfügen"</b> öffnen Sie eine Auswahl der verfügbaren Kursbausteine.
+Mit Klick auf das Icon "Kursbausteine einfügen" öffnen Sie eine Auswahl der verfügbaren Kursbausteine.
 
 ![Icon Kursbausteine einfügen markiert, daneben Quick-Add und Kursbausteine importieren](assets/kurseditor_kb_einfuegen_v1_de.png){ class="shadow lightbox" title="Werkzeugleiste des Kurseditors" }
 
-Durch Klick auf einen der aufgelisteten Bausteine wird ein Kursbaustein dieses Typs im Kurs eingefügt.
+Ein Klick auf einen der aufgelisteten Bausteine fügt einen Kursbaustein dieses Typs in den Kurs ein.
 
 ![Kursbausteine in fünf Gruppen, von Wissensvermittlung bis Andere](assets/kurseditor_kb_auswahl_v1_de.png){ class="shadow lightbox" title="Dialog Kursbausteine einfügen" }
 
-Nach dem Einfügen lassen sich die Kursbausteine im Kursmenü <b>mit gedrückter Maustaste verschieben</b>. Ziehen Sie einen Baustein auf einen Strukturbaustein, wird er dort als untergeordnetes Element eingeordnet. (Strukturbausteine können zugeklappt werden, so dass ihr Inhalt verborgen und das Menü übersichtlicher wird.)
+Nach dem Einfügen lassen sich die Kursbausteine im Kursmenü mit gedrückter Maustaste verschieben. Ziehen Sie einen Baustein auf einen Strukturbaustein, wird er dort als untergeordnetes Element eingeordnet. (Strukturbausteine können zugeklappt werden, so dass ihr Inhalt verborgen und das Menü übersichtlicher wird.)
 
 ![Einzelne Seite und Struktur markiert, der Kursbaustein Video ist unter Struktur eingeordnet](assets/kurseditor_menu_v1_de.png){ class="shadow lightbox" title="Kursmenü im Kurseditor" }
 
@@ -206,9 +206,9 @@ Beim Publizieren (Verlassen des Kurseditors) wird von OpenOlat geprüft, ob der 
 
 ## 9. Mitglieder hinzufügen {: #add_members} 
 
-Ihr Kurs ist nun lauffähig, aber noch nicht veröffentlicht. Wenn Sie  bereits namentlich wissen, welche Personen Zugriff auf diesen Kurs haben sollen, können Sie dem Kurs diese Personen als Kursmitglieder hinzufügen. Dazu gehen Sie in die Mitgliederverwaltung Ihres Kurses. 
+Ihr Kurs ist nun lauffähig, aber noch nicht veröffentlicht. Wenn Sie bereits namentlich wissen, welche Personen Zugriff auf diesen Kurs haben sollen, fügen Sie diese Personen dem Kurs als Kursmitglieder hinzu. Dazu öffnen Sie die Mitgliederverwaltung Ihres Kurses: `Kurs > Administration > Mitgliederverwaltung`.
 
-![Menü Administration geöffnet, Eintrag Mitgliederverwaltung markiert](assets/mitgliederverwaltung1_v1_de.png){ class="shadow lightbox" title="Menü Administration im Kurs" }
+![Menü Administration des Kurses geöffnet, Eintrag Mitgliederverwaltung markiert](assets/mitgliederverwaltung1_v1_de.png){ class="shadow lightbox" title="Menü Administration im Kurs" }
 
 ![Button Mitglied hinzufügen markiert, die Liste zeigt einen Eintrag mit der Rolle Besitzer](assets/mitgliederverwaltung2_v1_de.png){ class="shadow lightbox" title="Mitgliederverwaltung, Bereich Mitglieder" }
 
@@ -222,9 +222,9 @@ Ihr Kurs ist nun lauffähig, aber noch nicht veröffentlicht. Wenn Sie  bereits 
 
 ## 10. Kurs veröffentlichen {: #change_status}
 
-Wird ein neuer Kurs erstellt, hat dieser zunächst immer den <b>Status "Vorbereitung"</b>. Das heisst, nur Sie als Autor sehen den Kurs. Er befindet sich sozusagen in der Werkstatt (Autorenbereich) auf Ihrer persönlichen Werkbank.
+Wird ein neuer Kurs erstellt, hat dieser zunächst immer den Status "Vorbereitung". Das heisst, nur Sie als Besitzer:in sehen den Kurs. Er liegt sozusagen in der Werkstatt (Autorenbereich) auf Ihrer persönlichen Werkbank.
 
-![Status Vorbereitung markiert, neben Administration](assets/status1_v1_de.png){ class="shadow lightbox" title="Toolbar des Kurses" }
+![Status Vorbereitung markiert, neben dem Menü Administration des Kurses](assets/status1_v1_de.png){ class="shadow lightbox" title="Toolbar des Kurses" }
 
 Durch Klick auf "Vorbereitung" können Sie einen anderen Status wählen. Es sind folgende Zustände möglich:
 
@@ -234,14 +234,14 @@ Durch Klick auf "Vorbereitung" können Sie einen anderen Status wählen. Es sind
 
 Status| Zugriff|
 ---|---|
-<b>Vorbereitung</b> | Nur Besitzer dieses Kurses haben Zugriff.|
-<b>Review</b> | Nur Besitzer dieser Lernressource haben Zugriff. Alle Vorbereitungen zu dieser Lernressource sind abgeschlossen und die Inhalte sind zur weiteren Überprüfung freigegeben.
-<b>Freigabe Betreuer</b> | Der Kurs kann neben dem Autor (Kursbesitzer) auch noch von Betreuern dieses Kurses geöffnet werden.
-<b>Veröffentlicht</b> | Der Kurs ist nun auch im Bereich "Kurse" auffindbar. Er kann von allen Berechtigten (Teilnehmer, Betreuer, evtl. Gäste) geöffnet und besucht werden.
+<b>Vorbereitung</b> | Nur Besitzer:innen dieses Kurses haben Zugriff.|
+<b>Review</b> | Nur Besitzer:innen dieser Lernressource haben Zugriff. Alle Vorbereitungen zu dieser Lernressource sind abgeschlossen und die Inhalte sind zur weiteren Überprüfung freigegeben.
+<b>Freigabe Betreuer</b> | Neben den Besitzer:innen öffnen auch die Betreuer:innen dieses Kurses den Kurs.
+<b>Veröffentlicht</b> | Der Kurs ist nun auch im Bereich "Kurse" auffindbar. Alle Berechtigten (Teilnehmer:innen, Betreuer:innen, evtl. Gäste) öffnen und besuchen ihn.
 <b>Beendet</b> | Der Kurs kann zwar von den Kursmitgliedern noch geöffnet und angesehen werden, es sind jedoch keine Bearbeitungen mehr möglich (Tests, Formulare, usw.)
 
 
-Um Ihren ersten eigenen Kurs nun für andere OpenOlat-Benutzer:innen sichtbar zu machen, ändern Sie den Status auf <b>"Veröffentlicht"</b>. Der Kurs ist dann gewissermassen von Ihrer Werkbank in den Verkaufsraum gebracht worden.
+Um Ihren ersten eigenen Kurs nun für andere OpenOlat-Benutzer:innen sichtbar zu machen, ändern Sie den Status auf "Veröffentlicht". Der Kurs ist dann gewissermassen von Ihrer Werkbank in den Verkaufsraum gebracht worden.
 
 [Zum Seitenanfang ^](#my_first_course)
 

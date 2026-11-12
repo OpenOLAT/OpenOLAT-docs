@@ -11,9 +11,9 @@
 2. Importieren Sie den exportierten QTI 1.2 Test in ein OpenOlat Version 15.x
 3. Konvertieren Sie den Test
 
-    Um einen QTI 1.2 Test zu konvertieren, öffnen Sie die Lernressource Test im Autorenbereich und wählen im Menü `Administration > In QTI 2.1 konvertieren`. Hierbei wird eine Kopie des alten Tests im neuen Format gespeichert. Es liegen somit beide Test-Versionen unter "Meine Einträge" vor.
+    Um einen QTI 1.2 Test zu konvertieren, öffnen Sie die Lernressource Test im Autorenbereich und wählen `Test > Administration > In QTI 2.1 konvertieren`. Hierbei wird eine Kopie des alten Tests im neuen Format gespeichert. Es liegen somit beide Test-Versionen unter "Meine Einträge" vor.
 
-    ![Menüeintrag "In QTI 2.1 konvertieren" im Administrationsmenü der Test-Lernressource](assets/Test_konvertieren_DE.png){ class="shadow lightbox" title="Test in QTI 2.1 konvertieren" }
+    ![Geöffnetes Menü mit dem Eintrag "In QTI 2.1 konvertieren" zwischen "Inhalt exportieren" und "Test löschen"](assets/Test_konvertieren_DE.png){ class="shadow lightbox" title="Menü Administration eines Tests in OpenOlat 15" }
 
 4. Exportieren Sie den neu erstellten QTI 2.1 Test von OpenOlat 15.x
 5. Importieren Sie den QTI 2.1 Test wieder in OpenOlat 16

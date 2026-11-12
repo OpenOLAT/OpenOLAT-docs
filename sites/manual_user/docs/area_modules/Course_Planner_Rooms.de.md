@@ -97,7 +97,7 @@ Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung da
 
 ![Ein Raum mit Kennzeichen, Beschreibung, Status, Plätzen, Gebäude, Belegung und nächstem Termin, dazu Kalender- und Detailsymbol](assets/course_planner_rooms_list_v1_de.png){ class="shadow lightbox" title="Räume in der Raumverwaltung" }
 
-!!! info "Gelöschte Räume in der Administration"
+!!! info "Gelöschte Räume in der System-Administration"
 
     Die Raumverwaltung des Course Planners führt die aktiven und die inaktiven Räume. Gelöschte Räume erscheinen in der System-Administration unter:<br>
     `Administration > Module > Räume > Räume`<br>
@@ -109,9 +109,9 @@ Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung da
 
 ## Räume und Gebäude verwalten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9460)" }](https://track.frentix.com/issue/OO-9460){:target="_blank"} {: #admin_edit}
 
-!!! info "Bearbeitung nur in der Administration"
+!!! info "Bearbeitung nur in der System-Administration"
 
-    Räume und Gebäude legen Systemadministrator:innen in der System-Administration an, bearbeiten und löschen sie dort: `Administration > Module > Räume`. Dort finden Sie «Einstellungen», «Raumplanung», «Räume» und «Gebäude». [Räume verwalten (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)
+    Räume und Gebäude legen Systemadministrator:innen in der System-Administration an, bearbeiten und löschen sie dort: `Administration > Module > Räume`. Dort finden Sie «Einstellungen», «Raumplanung», «Räume» und «Gebäude». [Räume verwalten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Rooms.de.md)
 
 [zum Seitenanfang ^](#course_planner_rooms)
 
@@ -122,7 +122,7 @@ Auch im Kalender einer einzelnen Raumzeile öffnet ein Klick auf eine Buchung da
 [Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Kopieren eines Kurses mit Wizard >](../learningresources/Course_Copy_Wizard.de.md)<br>
-[Modul Räume (Administration) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
+[Modul Räume (Administrationshandbuch) >](../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Termine >](../area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Import / Export >](Course_Planner_Import_Export/index.de.md)
 

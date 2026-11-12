@@ -137,7 +137,7 @@ Die Wahl gilt nur für diese Prüfung. Die Einstellung "Safe Exam Browser - Art 
 
 **Vorlage**: Erscheint bei "Aus Vorlage (empfohlen)". Mit den beiden Schaltflächen wählen Sie die Quelle der Vorlage:
 
-- **System**: Wählen Sie im Dropdown eine der aktiven Konfigurationsvorlagen, die die Administration bereitstellt. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie ausgewählt, bis eine andere Vorlage gewählt wird.
+- **System**: Wählen Sie im Dropdown eine der aktiven Konfigurationsvorlagen, die die System-Administration bereitstellt. Die als Standard markierte Vorlage ist vorausgewählt. Wurde eine gespeicherte Vorlage nachträglich deaktiviert, bleibt sie ausgewählt, bis eine andere Vorlage gewählt wird.
 - **Eigenes**: Laden Sie mit "Hochladen" eine eigene SEB-Datei hoch. OpenOlat liest die Einstellungen aus der Datei, berechnet den Konfigurationsschlüssel und zeigt die Einstellungen schreibgeschützt an. Die Datei darf nicht verschlüsselt sein.
 
 **Vorlage Typ**: Zeigt, ob die Vorlage ein "Formular" oder eine "SEB-Datei" ist. Bei einem Formular steht daneben der Button "Kopie erstellen und anpassen": Er übernimmt die Werte der Vorlage in eine Konfiguration "Benutzerdefiniert", die Sie für diese Prüfung ändern können.
@@ -206,9 +206,9 @@ Teilnehmende, die einer Prüfung zugeteilt wurden, werden zu Beginn der Prüfung
 
 ![Benachrichtigung "Aktuelle Prüfung" mit Kurs, Zeitraum, Sperrhinweisen und Countdown bis zum Prüfungsbeginn](assets/assessment_management_exam_info1_v1_de.png){ class="shadow lightbox" title="Benachrichtigung für Teilnehmende" }
 
-Ist bei "Art des Beginns/Endes" die Option "Manuell" gewählt, startet eine Person die Prüfung selbst, zum Beispiel die Aufsicht im Prüfungsraum, sobald alle bereit sind. Dafür zeigt die Übersicht des [Bewertungswerkzeugs](Assessment_tool_overview/index.de.md) im Bereich "Prüfungsmodus" bei der Prüfung den Button "Prüfung starten". Der Button erscheint ab dem Tag, an dem die Prüfung beginnt, und nicht erst zur konfigurierten Uhrzeit.
+Ist bei "Art des Beginns/Endes" die Option "Manuell" gewählt, startet eine Person die Prüfung selbst, zum Beispiel die Aufsicht im Prüfungsraum, sobald alle bereit sind. Dafür zeigt die Übersicht des [Bewertungswerkzeugs](Assessment_tool_overview/index.de.md) im Bereich "Prüfungsmodus" bei der Prüfung den Button "Prüfung starten". Das Bewertungswerkzeug öffnen Sie unter: `Kurs > Administration > Bewertungswerkzeug`. Der Button erscheint ab dem Tag, an dem die Prüfung beginnt, und nicht erst zur konfigurierten Uhrzeit.
 
-![Menü Administration mit Eintrag Bewertungswerkzeug und Bereich Prüfungsmodus mit einer geplanten Prüfung und dem Button "Prüfung starten" markiert](assets/assessment_management_exam_coach_v2_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs · 2026.10.22" }
+![Menü Administration des Kurses mit Eintrag Bewertungswerkzeug und Bereich Prüfungsmodus mit einer geplanten Prüfung und dem Button "Prüfung starten" markiert](assets/assessment_management_exam_coach_v2_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs · 2026.10.22" }
 
 Startet die Prüfung später als geplant, bleibt die Vorlaufzeit so, wie sie konfiguriert ist. Das Ende der Prüfung verschiebt sich um dieselbe Zeit nach hinten, die konfigurierte Prüfungsdauer bleibt also gleich.
 

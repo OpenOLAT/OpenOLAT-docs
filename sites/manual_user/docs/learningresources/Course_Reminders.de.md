@@ -6,7 +6,7 @@ Erinnerungen sind eine Funktion des Kurses. Für Gruppen und einzelne Werkzeuge 
 
 ## Wo werden Erinnerungen erstellt? {: #access}
 
-### Kursadministration
+### Kurs-Administration
 
 Unter `Kurs > Administration > Erinnerung` werden alle Erinnerungen eines Kurses angezeigt und können dort auch erstellt werden.
 

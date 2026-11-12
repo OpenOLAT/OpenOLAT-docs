@@ -41,7 +41,7 @@ Im 3-Punkte-Menü am Ende der Zeile exportieren Sie den Termin mit "Export" als 
 
 Ein Klick auf den Kurstitel öffnet die Termine dieses Kurses.
 
-Ist in der Administration die [Tageserfassung Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md#daily_absence_recording) eingeschaltet, steht in der Rolle "Als Betreuer:in" unter der Liste der Button "Absenzenerfassung für ... abschliessen". Er schliesst nach einer Bestätigung alle Termine dieses Tages ab.
+Erlauben Systemadministrator:innen die [Tageserfassung Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md#daily_absence_recording) für alle Termine des aktuellen Tages, erscheint in der Rolle "Als Betreuer:in" unter der Liste der Button "Absenzenerfassung für ... abschliessen". Er schliesst nach einer Bestätigung alle Termine dieses Tages ab. Die Einstellung liegt in der System-Administration unter: `Administration > Module > Termine / Absenzen > Konfiguration`
 
 [Zum Seitenanfang ^](#events)
 

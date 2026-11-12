@@ -8,11 +8,11 @@ Um neben den normalen Kursdateien auch kursübergreifende Dateien für die Kurse
 
 Mit einem Ressourcenordner lassen sich Dateien (z. B. Inhalte, Informationen, Grafiken) zentral organisieren und in mehreren Kursen nutzen.
 
-Um einen Ressourcenordner mit einem Kurs zu verbinden, wählen Sie im Kurs unter `Administration > Einstellungen > Optionen` den gewünschten Ressourcenordner aus oder erstellen einen neuen. Pro Kurs kann nur ein Ressourcenordner verknüpft werden.
+Um einen Ressourcenordner mit einem Kurs zu verbinden, wählen Sie unter `Kurs > Administration > Einstellungen > Optionen` den gewünschten Ressourcenordner aus oder erstellen einen neuen. Pro Kurs kann nur ein Ressourcenordner verknüpft werden.
 
 Bei der Einbindung gibt es zwei Varianten: schreibgeschützt oder ohne Schreibschutz.
 
-![Auswahl des Ressourcenordners und der Schreibschutz-Option im Tab "Optionen" der Kurseinstellungen](assets/resource_folder_select_v1_de.png){ class="shadow lightbox" }
+![Gewählter Ressourcenordner mit Häkchen "Schreibgeschützt" und den Buttons "Auswahl löschen" und "Auswechseln"](assets/resource_folder_select_v1_de.png){ class="shadow lightbox" title="Tab Optionen in den Kurseinstellungen" }
 
 **Schreibgeschützt**: Die Dateien werden nur referenziert. Im Kurs können sie weder verändert noch gelöscht oder ergänzt werden. Damit ist sichergestellt, dass alle Kurse stets dieselben aktuellen Dateien nutzen.
 
@@ -21,11 +21,11 @@ Bei der Einbindung gibt es zwei Varianten: schreibgeschützt oder ohne Schreibsc
 Überlegen Sie daher sorgfältig, ob der Schreibschutz aufgehoben werden soll.
 
 ### Hier findet man die Dateien des Ressourcenordners
-Wurde ein Ressourcenordner mit dem Kurs verbunden, erscheint er in der Kurs-Administration unter "Dateien" als "**_sharedfolder**" mit allen Dateien, die im Ressourcenordner hinterlegt wurden. 
+Wurde ein Ressourcenordner mit dem Kurs verbunden, erscheint er unter `Kurs > Administration > Dateien` als "_sharedfolder" mit allen Dateien, die im Ressourcenordner hinterlegt wurden. 
 
-![Ordner "_sharedfolder" in der Dateiübersicht des Kurses](assets/sharedfolder_20.png){ class="shadow lightbox" }
+![Ordner "_sharedfolder" unter den Ablageorten, neben dem Ablageordner und den übrigen Ordnern des Kurses](assets/sharedfolder_20.png){ class="shadow lightbox" title="Seite Dateien eines Kurses" }
 
-![Dateiliste im Ordner "_sharedfolder" mit den Dateien des Ressourcenordners](assets/sharedfolder_20_b.png){ class="shadow lightbox" }
+![Dateiliste im Ordner "_sharedfolder" mit den Dateien des Ressourcenordners](assets/sharedfolder_20_b.png){ class="shadow lightbox" title="Ordner _sharedfolder auf der Seite Dateien eines Kurses" }
 
 In der Standardeinstellung sind die Dateien des Ressourcenordners schreibgeschützt und können nicht verändert werden. 
 
@@ -36,7 +36,7 @@ So könnten zentrale Dateien z.B. für einheitliche Kurslayouts verwendet, oder 
 
 
 ## Kursunabhängige Nutzung
-Um den Ressourcenordner eigenständig zu verwenden, muss im Ressourcenordner unter `Administration > Einstellungen` im Tab "Freigabe" die eigenständige Verwendung aktiviert und die Freigabe weiter konfiguriert werden, z.B. frei für Gäste oder mit einem Passwort. Ferner muss der Ressourcenordner dann auch veröffentlicht werden. Bei einer Verbindung mit einem Kurs ist das nicht nötig.
+Um den Ressourcenordner eigenständig zu verwenden, wählen Sie unter `Ressourcenordner > Administration > Einstellungen > Freigabe` den Verwendungszweck "Eigenständig" und konfigurieren die Freigabe weiter, z.B. frei für Gäste oder mit einem Passwort. Ferner muss der Ressourcenordner dann auch veröffentlicht werden. Bei einer Verbindung mit einem Kurs ist das nicht nötig.
 
 Genauere Informationen finden Sie unter ["Zugangskonfiguration/Freigabe"](../learningresources/Access_configuration.de.md).
 
@@ -46,9 +46,11 @@ Genauere Informationen finden Sie unter ["Zugangskonfiguration/Freigabe"](../lea
 
 ## Weiterführende Informationen {: #further_information}
 
+[Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
+[Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)<br>
 [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen? >](../../manual_how-to/multiple_use/multiple_use.de.md)<br>
-[Ablageordner >](Storage_folder.de.md)<br>
+[Ablageordner >](Storage_folder.de.md)
 
 [Zum Seitenanfang ^](#resource_folder)
 

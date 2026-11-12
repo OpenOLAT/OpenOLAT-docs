@@ -2,7 +2,7 @@
 
 Der Zweck des "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): Zugang zu digitalen Ressourcen, in unserem Falle veröffentlichte Lernressourcen für die Weitergabe von Metadaten an Portale, Suchmaschinen oder Kataloge. Weitergehende Informationen sind auf der [Open Archives Webseite](https://www.openarchives.org) zu finden.
 
-![Konfigurationsseite des Moduls SEO / OAI-PMH Metadaten mit den Abschnitten API Konfiguration, Einschränkungen und Suchmaschinenoptimierung](assets/modules_oai_v1_de.png){ class="shadow lightbox" }
+![Konfigurationsseite des Moduls SEO / OAI-PMH Metadaten mit den Abschnitten API Konfiguration, Einschränkungen und Suchmaschinenoptimierung](assets/modules_oai_v1_de.png){ class="shadow lightbox" title="Seite SEO / OAI-PMH Metadaten in der System-Administration" }
 
 
 ## Metadataprefix {: #metadataprefix}
@@ -57,7 +57,7 @@ Metadaten | OAI OpenOlat | OAI Dublin Core
 
 ## Administration {: #administration}
 
-Das Modul kann unter `Administration > Module > SEO / OAI-PMH Metadaten` eingeschaltet werden. Es ist standardmässig auf jeder Instanz deaktiviert. Wenn das Modul eingeschaltet ist, ist auch der API Endpunkt verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
+Sie schalten das Modul in der System-Administration ein unter: `Administration > Module > SEO / OAI-PMH Metadaten`. Es ist standardmässig auf jeder Instanz deaktiviert. Wenn das Modul eingeschaltet ist, ist auch der API Endpunkt verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
 
 ### API Endpunkt {: #endpoint}
 
@@ -92,9 +92,9 @@ Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten d
 
 ## Suchmaschinenoptimierung {: #API_config_search_engine}
 
-Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglich machen. Dabei gibt es zwei Verfahren: sitemap.xml, was vor allem Google benutzt, und [indexNow](https://www.indexnow.org/index) von Bing und anderen. Diese Erfassung wird einmal pro Woche aktiv angestossen.
+Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglich machen. Dabei gibt es zwei Verfahren: sitemap.xml, was vor allem Google benutzt, und [indexNow](https://www.indexnow.org/index) von Bing und anderen. Diese Erfassung wird einmal pro Woche aktiv angestossen. Mit dem Button "Jetzt ausführen" stossen Sie sie sofort an.
 
-![Aktivierte Suchmaschinenoptimierung mit den Feldern Name der Organisation und Stichwörter sowie den Optionen für sitemap.xml und indexNow](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" }
+![Aktivierte Suchmaschinenoptimierung mit den Feldern Name der Organisation und Stichwörter sowie den Optionen für sitemap.xml und indexNow](assets/modules_oai_search_engine_optimization_v1_de.png){ class="shadow lightbox" title="Abschnitt Suchmaschinenoptimierung im Modul SEO / OAI-PMH Metadaten" }
 
 Hat man einen eigenen Suchmaschinenindex, trägt man dessen URL unter "Frei wählbar" ein.
 

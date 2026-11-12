@@ -39,7 +39,7 @@ Der API-Schlüssel kann nicht zur Anmeldung in der OpenOlat-Webanwendung verwend
 API-Schlüssel werden in der Benutzerverwaltung erzeugt, mit der Schaltfläche "API-Key hinzufügen" im Tab "Authentifizierungen" eines Kontos, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md):<br>
 `Benutzerverwaltung > Konto öffnen > Tab "Authentifizierungen"`
 
-Soll es auch Benutzer:innen erlaubt sein, selbst einen Schlüssel zu erzeugen, aktivieren Sie die Option "Erzeugen von API Key durch Benutzer:in" (standardmässig deaktiviert):<br>
+Soll es auch Benutzer:innen erlaubt sein, selbst einen Schlüssel zu erzeugen, aktivieren Sie in der System-Administration die Option "Erzeugen von API Key durch Benutzer:in" (standardmässig deaktiviert):<br>
 `Administration > Core-Konfiguration > REST API > Tab "Konfiguration"`
 
 !!! info "Wichtig"
@@ -51,7 +51,7 @@ Soll es auch Benutzer:innen erlaubt sein, selbst einen Schlüssel zu erzeugen, a
 
 Ist die REST API aktiviert, kann sie grundsätzlich von allen Benutzer:innen mit einer authentifizierten Sitzung verwendet werden. Häufig soll der Zugriff jedoch auf bestimmte Personen beschränkt bleiben.
 
-Wer die REST API nutzen darf, legen Sie mit der Auswahl "API Zugriff" fest, unter:<br>
+Wer die REST API nutzen darf, legen Sie in der System-Administration mit der Auswahl "API Zugriff" fest, unter:<br>
 `Administration > Core-Konfiguration > REST API > Tab "Konfiguration"`
 
 * **für alle Benutzer:innen**: der Zugriff steht allen authentifizierten Personen offen.
@@ -112,7 +112,7 @@ Bauen Sie ein externes Portal mit einem eigenen Single-Sign-on-Prozess, kann Ihr
 
 Ein einzelnes Fremdsystem kann tausende Aufrufe pro Minute oder viele Aufrufe gleichzeitig an die REST API senden, etwa wenn eine Synchronisation aus dem Ruder läuft. Diese Last erreicht die Datenbank und verlangsamt die Benutzeroberfläche für alle, die in OpenOlat arbeiten. Die Limite für Anfragen begrenzt die Aufrufe und schützt so die Benutzeroberfläche vor der Last eines Fremdsystems. Fremdsysteme mit einem eigenen Konto arbeiten unterdessen weiter.
 
-Die Einstellungen finden Sie im Abschnitt "Limite für Anfragen (Rate Limiting)", unter:<br>
+Die Einstellungen finden Sie in der System-Administration im Abschnitt "Limite für Anfragen (Rate Limiting)", unter:<br>
 `Administration > Core-Konfiguration > REST API > Tab "Konfiguration"`
 
 Der Abschnitt erscheint, sobald der Schalter "REST API Zugang" auf "Ein" steht. Er steht Systemadministrator:innen zur Verfügung.
@@ -339,7 +339,7 @@ In der SwaggerUI wählen Sie ein Server-Prefix und führen die gelisteten Anfrag
 
 ## Extern verwaltete (managed) Kurse und Gruppen {: #managed}
 
-Kurse und Gruppen lassen sich über die REST API erstellen. Solche extern erstellten Kurse und Gruppen heissen "managed", weil ein externes System das datenführende System ist. Die Verwendung dieser Funktion schalten Sie je Objektart im Abschnitt "Managed Objekte" ein und aus, unter:<br>
+Kurse und Gruppen lassen sich über die REST API erstellen. Solche extern erstellten Kurse und Gruppen heissen "managed", weil ein externes System das datenführende System ist. Diese Funktion schalten Sie in der System-Administration je Objektart im Abschnitt "Managed Objekte" ein und aus, unter:<br>
 `Administration > Core-Konfiguration > REST API > Tab "Konfiguration"`
 
 Über die REST API lässt sich für Kurse und Gruppen die ID aus dem externen System hinterlegen. Bei Kursen kann zudem eine externe Referenz den Kurs für Benutzer:innen erkennbar machen.

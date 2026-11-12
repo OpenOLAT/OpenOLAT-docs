@@ -7,7 +7,7 @@ Systemadministrator:innen legen hier fest, wie sich Kontoinhaber:innen bei OpenO
 
 Im Tab "Authentifizierung" bestimmen Sie, wie die Login-Seite das OpenOlat-Login anbietet und mit welchem zweiten Faktor sich Kontoinhaber:innen zusätzlich ausweisen. Der Tab gliedert sich in die Abschnitte "Konfiguration", "One Time Code" und "Sicherheitsstufen / Passkey". Jede Änderung in diesem Tab gilt sofort, eine Schaltfläche zum Speichern gibt es nicht.
 
-![OpenOlat Login als Eingabefeld, One Time Code aus, Passkey ein, Stufe 1 für alle Rollen ausser Benutzerverwalter:innen mit Stufe 2](assets/login_password_and_authentication_auth_v4_de.png){ class="shadow lightbox" title="Tab Authentifizierung in der Administration · 2026.10.31" }
+![OpenOlat Login als Eingabefeld, One Time Code aus, Passkey ein, Stufe 1 für alle Rollen ausser Benutzerverwalter:innen mit Stufe 2](assets/login_password_and_authentication_auth_v4_de.png){ class="shadow lightbox" title="Tab Authentifizierung in der System-Administration · 2026.10.31" }
 
 ### Konfiguration [:octicons-tag-16:{ title="ab Release 18.1.2 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) {: #configuration}
 
@@ -83,7 +83,7 @@ Die Tabelle führt jede Rolle in einer Zeile und die drei Sicherheitsstufen als 
 
 Hier legen Sie als Systemadministrator:in fest, welche Kriterien ein Passwort erfüllen muss. Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Die Regeln gelten, sobald Sie auf "Speichern" klicken.
 
-![Minimallänge 4 und Maximallänge 128, mindestens 1 Buchstabe und 1 Ziffer oder Sonderzeichen, keine nicht erlaubten Werte](assets/login_password_and_authentication_syntax_v4_de.png){ class="shadow lightbox" title="Tab Passwort-Syntax in der Administration · 2026.10.31" }
+![Minimallänge 4 und Maximallänge 128, mindestens 1 Buchstabe und 1 Ziffer oder Sonderzeichen, keine nicht erlaubten Werte](assets/login_password_and_authentication_syntax_v4_de.png){ class="shadow lightbox" title="Tab Passwort-Syntax in der System-Administration · 2026.10.31" }
 
 #### Minimallänge {: #minimum_length}
 
@@ -119,7 +119,7 @@ Hier legen Sie fest, wie oft Benutzer:innen ihr Passwort ändern müssen. Die Le
 
 Die Richtlinie betrifft das OpenOlat-Passwort. Konten, die sich zusätzlich über LDAP, Shibboleth oder ein Cloud-Login anmelden, sind davon ausgenommen.
 
-![Gültigkeitsdauer 30 Minuten, Passwortwechsel beim ersten Login aus, keine Frist für ein neues Passwort, auch nicht je Rolle](assets/login_password_and_authentication_pw_change_policies_v4_de.png){ class="shadow lightbox" title="Tab Richtlinie zur Passwortänderung in der Administration · 2026.10.31" }
+![Gültigkeitsdauer 30 Minuten, Passwortwechsel beim ersten Login aus, keine Frist für ein neues Passwort, auch nicht je Rolle](assets/login_password_and_authentication_pw_change_policies_v4_de.png){ class="shadow lightbox" title="Tab Richtlinie zur Passwortänderung in der System-Administration · 2026.10.31" }
 
 #### Gültigkeitsdauer Passwortänderung in Minuten {: #password_change_validity_period}
 

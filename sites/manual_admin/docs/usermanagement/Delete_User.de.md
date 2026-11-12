@@ -31,7 +31,7 @@ Diese Rollen suchen Konten. Was sie an einem Konto ändern dürfen, zeigen die B
 
 Bei Konten mit der Rolle Administrator:in, Systemadministrator:in oder Rollenverwalter:in lässt sich der Status im Tab "Konto" nicht ändern.
 
-Den Bereich "Konten löschen" sehen in der Standardversion von OpenOlat nur Administrator:innen. Manche OpenOlat-Versionen zeigen ihn zusätzlich Benutzerverwalter:innen und Rollenverwalter:innen, beschränkt auf die Organisationen, in denen sie diese Rolle haben. Das ist keine Einstellung der Administration. Den Button "Konto löschen" erhalten sie auch dort nicht, löschen also selbst keine Konten. Systemadministrator:innen lösen Löschungen zusätzlich über den automatischen Kontolebenszyklus aus.
+Den Bereich "Konten löschen" sehen in der Standardversion von OpenOlat nur Administrator:innen. Manche OpenOlat-Versionen zeigen ihn zusätzlich Benutzerverwalter:innen und Rollenverwalter:innen, beschränkt auf die Organisationen, in denen sie diese Rolle haben. Das ist keine Einstellung der System-Administration. Den Button "Konto löschen" erhalten sie auch dort nicht, löschen also selbst keine Konten. Systemadministrator:innen lösen Löschungen zusätzlich über den automatischen Kontolebenszyklus aus.
 
 [Zum Seitenanfang ^](#delete_user)
 
@@ -69,7 +69,7 @@ Auch über den Link "Konten löschen" wählen Sie Konten aus und löschen sie:<b
 **Schritt 2:**<br>
 Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert, entsprechend den Phasen des automatischen Kontolebenszyklus:
 
-**Tab "Konten ohne Aktivität":** Benutzer:innen, die seit einem konfigurierten Zeitraum nicht mehr aktiv waren. Die Inaktivitätsfrist legt die Administration fest.
+**Tab "Konten ohne Aktivität":** Benutzer:innen, die seit einem konfigurierten Zeitraum nicht mehr aktiv waren. Den Zeitraum legen Systemadministrator:innen in der System-Administration im Feld "Anzahl Tage vor Deaktivierung" fest: `Administration > Lebenszyklen > Konto`
 
 **Tab "Deaktivierte Konten":** Benutzer:innen, deren Konto bereits automatisch oder manuell deaktiviert wurde, sowie Konten mit bevorstehender Deaktivierung.
 

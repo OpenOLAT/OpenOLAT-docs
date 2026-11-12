@@ -152,7 +152,7 @@ Ist der Schalter eingeschaltet, erscheinen dort zusätzlich die Felder "Skalieru
 [Kursbaustein "SCORM 1.2" >](Course_Element_SCORM_Learning_Content.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Lernende bewerten >](Assessment_of_learners.de.md)<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Kursbaustein "LTI-Seite" >](Course_Element_LTI_Page.de.md)
 
 **Weiterführend**<br>

@@ -29,7 +29,7 @@ Diese Vorlagen erstellt OpenOlat selbst, wenn Sie den Import öffnen oder den Li
 - **Standorte importieren** im Modul Kontaktverfolgung: Die Spaltennamen erscheinen in der Sprache Ihrer Benutzeroberfläche.
 - **Themen importieren** im Kursbaustein "Themenbörse": Die Excel-Vorlage enthält die Spalten der benutzerdefinierten Felder vom Eingabetyp "Text". Die ZIP-Vorlage für die Dateien enthält einen Ordner je bestehendem Thema, darin je einen Ordner für Teaser-Bild, Teaser-Video und jedes benutzerdefinierte Feld vom Eingabetyp "Datei".
 
-So erhalten Sie immer die Spalten, die Ihre Instanz verlangt. Ändert die Administration die Benutzer:innen-Attribute oder ändern Sie die benutzerdefinierten Felder einer Themenbörse, laden Sie die Vorlage vor dem nächsten Import neu herunter.
+So erhalten Sie immer die Spalten, die Ihre Instanz verlangt. Ändern Systemadministrator:innen die Benutzer:innen-Attribute oder ändern Sie die benutzerdefinierten Felder einer Themenbörse, laden Sie die Vorlage vor dem nächsten Import neu herunter. Die Benutzer:innen-Attribute stehen in der System-Administration unter: `Administration > Customizing > Benutzer:innen-Attribute`
 
 ### Beispieldateien, die mit OpenOlat ausgeliefert werden {: #example_files}
 

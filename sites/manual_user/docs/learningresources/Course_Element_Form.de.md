@@ -109,6 +109,6 @@ Mit "Speichern und abschliessen" geben Teilnehmende das fertig ausgefüllte Form
 
 **Weiterführend**<br>
 [Formulare in Kursen >](../learningresources/Forms_in_Courses.de.md)<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)
+[Kurs-Administration: Archivierung & Reports >](Course_Archiving/index.de.md)
 
 [Zum Seitenanfang ^](#course_element_form)

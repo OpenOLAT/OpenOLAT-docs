@@ -397,7 +397,7 @@ Dort stehen jede Rolle und ihre Gegenrolle als eigene Einträge. Ein Klick auf e
 [Gruppen >](../../groups/index.de.md)<br>
 [Gruppenadministration >](../../groups/Group_Administration/index.de.md)<br>
 [Kursbausteine im Kurseditor >](../../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../../learningresources/Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](../../learningresources/Course_Archiving/index.de.md)<br>
 [Glossar >](../../learningresources/Glossary/index.de.md)<br>
 [Kursstatistiken >](../../learningresources/Statistics_Course.de.md)<br>
 [Prüfungsverwaltung: Übersicht >](../../learningresources/Assessment_Management/index.de.md)<br>

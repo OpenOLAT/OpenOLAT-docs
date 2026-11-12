@@ -25,7 +25,7 @@ Eine umfangreichere Alternative zum Selbsttest ist der [Kursbaustein "Übung"](C
 ## Weiterführende Informationen {: #further_information}
 
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
-[Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Test konfigurieren >](../learningresources/Configure_tests.de.md)<br>
 [Tests auf Kursebene >](../learningresources/Tests_at_course_level.de.md)<br>

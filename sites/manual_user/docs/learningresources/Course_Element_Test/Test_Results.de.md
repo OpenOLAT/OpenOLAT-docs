@@ -122,7 +122,7 @@ Die Rohdaten von Tests können Sie zudem über die [Teststatistiken](../Statisti
 [Test einrichten >](Test_Setup.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
 [Coaching - Übersicht >](../../area_modules/Coaching/index.de.md)<br>
-[Kursadministration - Archivierung & Reports >](../Course_Archiving/index.de.md)<br>
+[Kurs-Administration: Archivierung & Reports >](../Course_Archiving/index.de.md)<br>
 [Tests exportieren >](../Test_export.de.md)<br>
 [Teststatistiken >](../Statistics_Test.de.md)
 
